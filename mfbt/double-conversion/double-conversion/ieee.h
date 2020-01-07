@@ -1280,7 +1280,7 @@ kPhysicalSignificandSize
 )
 ;
 }
-DISALLOW_COPY_AND_ASSIGN
+DC_DISALLOW_COPY_AND_ASSIGN
 (
 Double
 )
@@ -1999,7 +1999,7 @@ const
 uint32_t
 d32_
 ;
-DISALLOW_COPY_AND_ASSIGN
+DC_DISALLOW_COPY_AND_ASSIGN
 (
 Single
 )

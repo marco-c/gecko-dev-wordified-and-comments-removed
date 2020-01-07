@@ -93,16 +93,6 @@ LOCAL_PATCHES
 LOCAL_PATCHES
 use
 -
-StandardInteger
-.
-patch
-"
-LOCAL_PATCHES
-=
-"
-LOCAL_PATCHES
-use
--
 mozilla
 -
 assertions

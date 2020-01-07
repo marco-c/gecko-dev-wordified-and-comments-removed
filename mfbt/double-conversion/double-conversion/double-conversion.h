@@ -412,7 +412,7 @@ const
 int
 max_trailing_padding_zeroes_in_precision_mode_
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+DC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 DoubleToStringConverter
 )
@@ -599,7 +599,7 @@ processed_characters_count
 )
 const
 ;
-DISALLOW_IMPLICIT_CONSTRUCTORS
+DC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (
 StringToDoubleConverter
 )
