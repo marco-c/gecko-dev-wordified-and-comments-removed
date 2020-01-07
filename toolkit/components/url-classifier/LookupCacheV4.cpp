@@ -1096,8 +1096,10 @@ LookupCacheV4
 :
 ApplyUpdate
 (
+RefPtr
+<
 TableUpdateV4
-*
+>
 aTableUpdate
 PrefixStringMap
 &
