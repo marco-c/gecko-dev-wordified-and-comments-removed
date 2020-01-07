@@ -15258,7 +15258,7 @@ if
 JS
 :
 :
-CurrentThreadIsHeapBusy
+CurrentThreadIsHeapCollecting
 (
 )
 )
