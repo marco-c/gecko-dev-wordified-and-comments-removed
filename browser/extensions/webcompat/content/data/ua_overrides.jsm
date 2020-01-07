@@ -10,6 +10,16 @@ schub
 .
 io
 "
+applications
+:
+[
+"
+firefox
+"
+"
+fennec
+"
+]
 uriMatcher
 :
 (
