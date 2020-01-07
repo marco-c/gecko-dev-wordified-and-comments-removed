@@ -158,6 +158,8 @@ static
 void
 ClearForcePaint
 (
+uint64_t
+aLayerObserverEpoch
 )
 ;
 enum
