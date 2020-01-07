@@ -3565,6 +3565,16 @@ function
 element
 )
 {
+if
+(
+!
+element
+)
+{
+return
+false
+;
+}
 let
 elementClass
 =
