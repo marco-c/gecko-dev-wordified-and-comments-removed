@@ -270,7 +270,7 @@ test
 >
 ss
 .
-setTabValue
+setCustomTabValue
 (
 tab
 key
@@ -289,7 +289,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 tab
 key
@@ -332,7 +332,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 tab
 key

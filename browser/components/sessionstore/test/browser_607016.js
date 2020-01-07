@@ -424,7 +424,7 @@ r
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 gBrowser
 .
@@ -538,7 +538,7 @@ r
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 gBrowser
 .
@@ -594,7 +594,7 @@ extData
 ;
 ss
 .
-deleteTabValue
+deleteCustomTabValue
 (
 gBrowser
 .
@@ -688,7 +688,7 @@ r
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 gBrowser
 .

@@ -90,7 +90,7 @@ lastTab
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 tab
 "
@@ -156,7 +156,7 @@ equal
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 lastTab
 "
@@ -170,7 +170,7 @@ bar
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 lastTab
 "
@@ -291,7 +291,7 @@ equal
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 reopenedTab
 "
