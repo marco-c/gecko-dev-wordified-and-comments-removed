@@ -36,7 +36,13 @@ legacyiterable
 idlType
 "
 :
+[
 {
+"
+type
+"
+:
+null
 "
 sequence
 "
@@ -65,6 +71,7 @@ idlType
 long
 "
 }
+]
 "
 extAttrs
 "

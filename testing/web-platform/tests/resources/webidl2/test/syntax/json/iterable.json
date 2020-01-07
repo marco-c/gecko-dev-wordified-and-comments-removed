@@ -36,7 +36,13 @@ iterable
 idlType
 "
 :
+[
 {
+"
+type
+"
+:
+null
 "
 sequence
 "
@@ -65,6 +71,7 @@ idlType
 long
 "
 }
+]
 "
 extAttrs
 "
@@ -125,6 +132,11 @@ idlType
 [
 {
 "
+type
+"
+:
+null
+"
 sequence
 "
 :
@@ -153,6 +165,11 @@ short
 "
 }
 {
+"
+type
+"
+:
+null
 "
 sequence
 "
@@ -239,7 +256,13 @@ iterable
 idlType
 "
 :
+[
 {
+"
+type
+"
+:
+null
 "
 sequence
 "
@@ -302,6 +325,7 @@ null
 }
 ]
 }
+]
 "
 extAttrs
 "

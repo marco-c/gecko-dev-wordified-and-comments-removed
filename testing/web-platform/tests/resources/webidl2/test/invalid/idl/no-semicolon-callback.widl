@@ -1,0 +1,16 @@
+callback
+interface
+NoSemicolon
+{
+attribute
+boolean
+noSemiColon
+;
+}
+enum
+YouNeedOne
+{
+"
+really
+"
+}
