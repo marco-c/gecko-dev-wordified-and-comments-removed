@@ -3449,7 +3449,7 @@ content
 RELATIVE_DIR
 +
 "
-addon_prefs
+addon_about
 .
 xul
 "
