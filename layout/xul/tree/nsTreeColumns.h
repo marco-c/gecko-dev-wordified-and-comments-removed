@@ -7,13 +7,6 @@ nsTreeColumns_h__
 #
 include
 "
-nsITreeColumns
-.
-h
-"
-#
-include
-"
 nsITreeBoxObject
 .
 h
@@ -148,7 +141,7 @@ nsTreeColumn
 final
 :
 public
-nsITreeColumn
+nsISupports
 public
 nsWrapperCache
 {
@@ -179,7 +172,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsTreeColumn
 )
-NS_DECL_NSITREECOLUMN
 nsIContent
 *
 GetParentObject
@@ -251,6 +243,15 @@ ErrorResult
 &
 aRv
 )
+;
+void
+GetId
+(
+nsAString
+&
+aId
+)
+const
 ;
 int32_t
 Index
@@ -441,6 +442,7 @@ nsAString
 GetId
 (
 )
+const
 {
 return
 mId
