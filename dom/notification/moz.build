@@ -140,11 +140,6 @@ dom
 =
 [
 '
-DesktopNotification
-.
-h
-'
-'
 Notification
 .
 h
@@ -159,11 +154,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-DesktopNotification
-.
-cpp
-'
 '
 Notification
 .
