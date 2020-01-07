@@ -1032,6 +1032,23 @@ headers
 {
 }
         
+headers
+.
+update
+(
+{
+'
+Connection
+'
+:
+'
+keep
+-
+alive
+'
+}
+)
+        
 url
 =
 self
