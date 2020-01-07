@@ -150,7 +150,7 @@ querySelector
 .
 ruleview
 -
-shape
+shapeswatch
 "
 )
 ;

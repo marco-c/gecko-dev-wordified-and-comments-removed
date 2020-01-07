@@ -2928,7 +2928,7 @@ class
 :
 options
 .
-shapeClass
+shapeSwatchClass
 }
 )
 ;
@@ -2983,6 +2983,11 @@ _createNode
 span
 "
 {
+class
+:
+options
+.
+shapeClass
 }
 )
 ;
@@ -7930,6 +7935,10 @@ gridClass
 "
 "
 shapeClass
+:
+"
+"
+shapeSwatchClass
 :
 "
 "
