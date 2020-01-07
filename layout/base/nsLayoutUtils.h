@@ -255,9 +255,6 @@ class
 nsIScrollableFrame
 ;
 class
-nsIDOMEvent
-;
-class
 nsRegion
 ;
 class
@@ -367,6 +364,9 @@ DOMRectList
 ;
 class
 Element
+;
+class
+Event
 ;
 class
 HTMLImageElement
@@ -1687,7 +1687,13 @@ static
 nsPoint
 GetDOMEventCoordinatesRelativeTo
 (
-nsIDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 *
 aDOMEvent
 nsIFrame

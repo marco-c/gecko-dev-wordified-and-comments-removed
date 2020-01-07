@@ -524,7 +524,7 @@ static
 eEventAction
 GetActionForEvent
 (
-nsIDOMEvent
+Event
 *
 aEvent
 )
@@ -778,11 +778,6 @@ do_QueryInterface
 aEvent
 ?
 aEvent
--
->
-InternalDOMEvent
-(
-)
 -
 >
 GetOriginalTarget
