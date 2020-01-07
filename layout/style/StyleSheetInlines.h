@@ -322,7 +322,7 @@ ParentObject
 (
 static_cast
 <
-nsIDOMCSSStyleSheet
+nsIDOMStyleSheet
 *
 >
 (

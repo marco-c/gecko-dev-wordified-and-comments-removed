@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIDOMCSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsIDOMCSSValue
 .
 h
@@ -1847,10 +1840,6 @@ CSSPrimitiveValue
 DEFINE_SHIM
 (
 CSSStyleDeclaration
-)
-DEFINE_SHIM
-(
-CSSStyleSheet
 )
 DEFINE_SHIM
 (

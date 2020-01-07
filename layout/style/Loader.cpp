@@ -12046,7 +12046,7 @@ NoteXPCOMChild
 (
 NS_ISUPPORTS_CAST
 (
-nsIDOMCSSStyleSheet
+nsIDOMStyleSheet
 *
 iter
 .

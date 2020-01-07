@@ -126,13 +126,6 @@ mozAutoDocUpdate
 .
 h
 "
-#
-include
-"
-nsIDOMCSSStyleSheet
-.
-h
-"
 using
 namespace
 mozilla
@@ -702,7 +695,7 @@ ServoStyleSheet
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIDOMCSSStyleSheet
+nsIDOMStyleSheet
 )
 if
 (

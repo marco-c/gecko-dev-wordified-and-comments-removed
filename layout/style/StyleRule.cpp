@@ -170,9 +170,6 @@ h
 class
 nsIDOMCSSStyleDeclaration
 ;
-class
-nsIDOMCSSStyleSheet
-;
 using
 namespace
 mozilla
