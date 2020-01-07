@@ -790,6 +790,9 @@ TimingFunction
 Transform
 TransformOperation
 TransformOrigin
+Rotate
+Translate
+Scale
 }
 ;
 pub

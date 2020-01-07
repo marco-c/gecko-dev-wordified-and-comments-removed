@@ -776,6 +776,9 @@ transform
 TimingFunction
 Transform
 TransformOrigin
+Rotate
+Translate
+Scale
 }
 ;
 pub
