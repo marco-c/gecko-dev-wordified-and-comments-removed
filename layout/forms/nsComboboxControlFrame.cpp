@@ -4084,6 +4084,17 @@ bool
 aDoDropDown
 )
 {
+if
+(
+!
+nsLayoutUtils
+:
+:
+IsContentSelectEnabled
+(
+)
+)
+{
 MOZ_ASSERT
 (
 !
@@ -4092,6 +4103,7 @@ XRE_IsContentProcess
 )
 )
 ;
+}
 mDelayedShowDropDown
 =
 false
