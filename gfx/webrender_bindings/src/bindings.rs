@@ -2730,7 +2730,13 @@ height
 ReadPixelsFormat
 :
 :
-Bgra8
+Standard
+(
+ImageFormat
+:
+:
+BGRA8
+)
 &
 mut
 slice

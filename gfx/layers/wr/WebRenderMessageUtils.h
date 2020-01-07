@@ -578,7 +578,7 @@ wr
 ImageFormat
 :
 :
-Invalid
+R8
 mozilla
 :
 :
