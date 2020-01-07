@@ -459,6 +459,11 @@ mPinnedForSeek
 =
 false
 ;
+int64_t
+mPlaybackPosition
+=
+0
+;
 }
 ;
 }
