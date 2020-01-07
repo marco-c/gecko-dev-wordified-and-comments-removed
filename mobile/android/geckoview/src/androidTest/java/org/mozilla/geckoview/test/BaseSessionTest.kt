@@ -357,14 +357,13 @@ m
 :
 Matcher
 <
-in
 T
 >
 )
 =
 sessionRule
 .
-checkThat
+assertThat
 (
 reason
 v
