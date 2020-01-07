@@ -462,11 +462,6 @@ PresShell
 h
 '
 '
-RestyleLogging
-.
-h
-'
-'
 RestyleManager
 .
 h
