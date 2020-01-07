@@ -896,6 +896,15 @@ load
 event
 has
 fired
+and
+web
+fonts
+(
+if
+any
+)
+are
+loaded
 .
 In
 some
