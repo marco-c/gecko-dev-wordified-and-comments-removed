@@ -107,11 +107,9 @@ src
 /
 common
 /
-css
+worklet
 -
-paint
--
-tests
+reftest
 .
 js
 "
@@ -527,8 +525,11 @@ initialValue
 }
 )
 ;
-importPaintWorkletAndTerminateTestAfterAsyncPaint
+importWorkletAndTerminateTestAfterAsyncPaint
 (
+CSS
+.
+paintWorklet
 document
 .
 getElementById
