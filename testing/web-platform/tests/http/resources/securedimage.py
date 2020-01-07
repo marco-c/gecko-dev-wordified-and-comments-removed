@@ -75,6 +75,8 @@ Authenticate
 Basic
 "
 )
+        
+return
     
 else
 :
@@ -118,6 +120,8 @@ password
 +
 auth
 )
+            
+return
     
 response
 .
