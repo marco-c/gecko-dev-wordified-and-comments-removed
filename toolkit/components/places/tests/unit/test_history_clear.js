@@ -344,6 +344,7 @@ history
 "
 )
 ;
+await
 PlacesUtils
 .
 history
@@ -354,18 +355,6 @@ clear
 ;
 await
 promiseClearHistory
-;
-Assert
-.
-equal
-(
-0
-PlacesUtils
-.
-history
-.
-hasHistoryEntries
-)
 ;
 await
 PlacesTestUtils

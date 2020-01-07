@@ -850,6 +850,11 @@ nsIURI
 aURI
 )
 ;
+bool
+hasHistoryEntries
+(
+)
+;
 void
 registerEmbedVisit
 (
