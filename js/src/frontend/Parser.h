@@ -1498,6 +1498,11 @@ PropertyName
 name
 )
 ;
+Node
+noSubstitutionTaggedTemplate
+(
+)
+;
 inline
 bool
 processExport
@@ -2210,6 +2215,12 @@ using
 Base
 :
 :
+noSubstitutionTaggedTemplate
+;
+using
+Base
+:
+:
 noteDestructuredPositionalFormalParameter
 ;
 using
@@ -2725,11 +2736,6 @@ return
 this
 ;
 }
-Node
-noSubstitutionTaggedTemplate
-(
-)
-;
 Node
 noSubstitutionUntaggedTemplate
 (
