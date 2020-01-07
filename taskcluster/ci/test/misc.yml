@@ -512,10 +512,6 @@ macosx
 *
 :
 -
-remove_executables
-.
-py
--
 unittests
 /
 mac_unittest
