@@ -174,6 +174,7 @@ nsFrameLoader
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 adc1b3ba
@@ -205,17 +206,6 @@ this
 nsIFrameLoaderOwner
 *
 /
-[
-binaryname
-(
-FrameLoaderXPCOM
-)
-]
-readonly
-attribute
-nsIFrameLoader
-frameLoader
-;
 [
 noscript
 notxpcom

@@ -1544,15 +1544,6 @@ IntrinsicState
 const
 override
 ;
-nsresult
-GetFrameLoaderXPCOM
-(
-nsIFrameLoader
-*
-*
-aFrameLoader
-)
-;
 void
 PresetOpenerWindow
 (
