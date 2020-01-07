@@ -36,3 +36,15 @@ mozleak
 0
 .
 1
+mozinstall
+=
+=
+1
+.
+15
+mozdownload
+=
+=
+1
+.
+23

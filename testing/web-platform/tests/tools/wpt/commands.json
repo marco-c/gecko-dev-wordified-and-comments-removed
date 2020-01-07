@@ -51,6 +51,12 @@ install
 "
 requests
 "
+"
+mozinstall
+"
+"
+mozdownload
+"
 ]
 "
 requirements
