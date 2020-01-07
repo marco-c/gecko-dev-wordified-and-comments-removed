@@ -5257,11 +5257,6 @@ GLvoid
 pixels
 )
 {
-ASSERT_NOT_PASSING_STACK_BUFFER_TO_GL
-(
-pixels
-)
-;
 BEFORE_GL_CALL
 ;
 mSymbols

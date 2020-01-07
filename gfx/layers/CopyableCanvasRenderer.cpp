@@ -718,12 +718,12 @@ mHasAlpha
 SurfaceFormat
 :
 :
-B8G8R8X8
+B8G8R8A8
 :
 SurfaceFormat
 :
 :
-B8G8R8A8
+B8G8R8X8
 ;
 bool
 needsPremult
