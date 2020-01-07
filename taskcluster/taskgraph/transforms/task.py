@@ -9625,17 +9625,6 @@ subs
 )
 )
     
-task
-=
-add_l10n_index_routes
-(
-config
-task
-force_locale
-=
-force_locale
-)
-    
 return
 task
 transforms
