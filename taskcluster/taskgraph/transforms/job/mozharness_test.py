@@ -35,6 +35,14 @@ Schema
 from
 taskgraph
 .
+util
+.
+taskcluster
+import
+get_artifact_path
+from
+taskgraph
+.
 transforms
 .
 tests
@@ -812,17 +820,17 @@ get_artifact_url
 build
 >
 '
+get_artifact_path
+(
+taskdesc
 '
-public
-/
-build
-/
 target
 .
 test_packages
 .
 json
 '
+)
 )
 run_job_using
 (
@@ -1106,15 +1114,15 @@ build
 >
 '
                                       
+get_artifact_path
+(
+taskdesc
 '
-public
-/
-build
-/
 mozharness
 .
 zip
 '
+)
 )
     
 worker
@@ -3158,15 +3166,15 @@ content
 artifact
 '
 :
+get_artifact_path
+(
+taskdesc
 '
-public
-/
-build
-/
 mozharness
 .
 zip
 '
+)
             
 '
 task
@@ -3391,15 +3399,15 @@ build
 >
 '
                                       
+get_artifact_path
+(
+taskdesc
 '
-public
-/
-build
-/
 mozharness
 .
 zip
 '
+)
 )
     
 worker
