@@ -6527,10 +6527,10 @@ return
 n
 ;
 }
-RegExpCompartment
+RegExpRealm
 :
 :
-RegExpCompartment
+RegExpRealm
 (
 )
 :
@@ -6550,7 +6550,7 @@ nullptr
 }
 ArrayObject
 *
-RegExpCompartment
+RegExpRealm
 :
 :
 createMatchResultTemplateObject
@@ -6869,7 +6869,7 @@ true
 ;
 }
 void
-RegExpCompartment
+RegExpRealm
 :
 :
 sweep

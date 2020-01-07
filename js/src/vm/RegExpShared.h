@@ -110,7 +110,7 @@ class
 ArrayObject
 ;
 class
-RegExpCompartment
+RegExpRealm
 ;
 class
 RegExpShared
@@ -1236,7 +1236,7 @@ mallocSizeOf
 }
 ;
 class
-RegExpCompartment
+RegExpRealm
 {
 ReadBarriered
 <
@@ -1271,7 +1271,7 @@ cx
 public
 :
 explicit
-RegExpCompartment
+RegExpRealm
 (
 )
 ;
@@ -1358,7 +1358,7 @@ offsetOfOptimizableRegExpPrototypeShape
 return
 offsetof
 (
-RegExpCompartment
+RegExpRealm
 optimizableRegExpPrototypeShape_
 )
 ;
@@ -1372,7 +1372,7 @@ offsetOfOptimizableRegExpInstanceShape
 return
 offsetof
 (
-RegExpCompartment
+RegExpRealm
 optimizableRegExpInstanceShape_
 )
 ;
