@@ -1349,11 +1349,6 @@ InterruptCheck
 \
 _
 (
-WasmInterruptCheck
-)
-\
-_
-(
 GetDOMProperty
 )
 \

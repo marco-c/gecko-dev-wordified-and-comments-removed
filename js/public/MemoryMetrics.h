@@ -1800,13 +1800,6 @@ _
 MallocHeap
 tracelogger
 )
-\
-macro
-(
-_
-MallocHeap
-wasmRuntime
-)
 RuntimeSizes
 (
 )
