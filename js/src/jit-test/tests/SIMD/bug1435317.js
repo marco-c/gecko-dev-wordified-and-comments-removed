@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+'
+simd
+.
+js
+'
+)
+;
 var
 ab
 =
