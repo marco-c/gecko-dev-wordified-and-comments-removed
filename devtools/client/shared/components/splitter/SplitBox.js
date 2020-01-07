@@ -768,9 +768,16 @@ if
 vert
 )
 {
+const
+doc
+=
+node
+.
+ownerDocument
+;
 if
 (
-document
+doc
 .
 dir
 =
