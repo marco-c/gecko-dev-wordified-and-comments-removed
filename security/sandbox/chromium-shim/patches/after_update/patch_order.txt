@@ -16,3 +16,6 @@ patch
 allow_flash_temporary_files
 .
 patch
+use_STARTF_FORCEOFFFEEDBACK_flag
+.
+patch
