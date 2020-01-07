@@ -445,6 +445,7 @@ url
 or
 null
 .
+readonly
 attribute
 nsIURL
 iconURL
@@ -466,6 +467,7 @@ to
 if
 unspecified
 .
+readonly
 attribute
 unsigned
 long
@@ -542,6 +544,7 @@ the
 empty
 string
 .
+readonly
 attribute
 ACString
 contentType
