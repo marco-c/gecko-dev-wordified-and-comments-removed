@@ -647,6 +647,16 @@ return
 True
     
 def
+isRefcounted
+(
+self
+)
+:
+        
+return
+False
+    
+def
 name
 (
 self
@@ -684,6 +694,7 @@ __init__
 (
 self
 qname
+refcounted
 )
 :
         
@@ -707,6 +718,12 @@ self
 qname
 =
 qname
+        
+self
+.
+refcounted
+=
+refcounted
     
 def
 isCxx
@@ -727,6 +744,18 @@ self
         
 return
 True
+    
+def
+isRefcounted
+(
+self
+)
+:
+        
+return
+self
+.
+refcounted
     
 def
 name
@@ -4655,6 +4684,11 @@ using
 type
 .
 spec
+using
+.
+isRefcounted
+(
+)
 )
             
 existingType
@@ -4686,6 +4720,48 @@ fullname
 (
 )
 :
+                
+if
+ipdltype
+.
+isRefcounted
+(
+)
+!
+=
+existingType
+.
+type
+.
+isRefcounted
+(
+)
+:
+                    
+self
+.
+error
+(
+using
+.
+loc
+"
+inconsistent
+refcounted
+status
+of
+type
+%
+s
+"
+                               
+str
+(
+using
+.
+type
+)
+)
                 
 using
 .
