@@ -95,11 +95,6 @@ BackstagePass
 h
 '
 '
-qsObjectHelper
-.
-h
-'
-'
 XPCJSMemoryReporter
 .
 h
