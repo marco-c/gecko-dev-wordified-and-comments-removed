@@ -2428,7 +2428,16 @@ other
 markCount
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
+(
+unused_
+.
+empty
+(
+)
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
 (
 chunks_
 .
