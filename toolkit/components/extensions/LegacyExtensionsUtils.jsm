@@ -409,6 +409,10 @@ false
 startup
 (
 reason
+addonData
+=
+{
+}
 )
 {
 if
@@ -472,6 +476,15 @@ this
 resourceURI
 )
 ;
+let
+{
+builtIn
+signedState
+temporarilyInstalled
+}
+=
+addonData
+;
 this
 .
 extension
@@ -480,6 +493,9 @@ new
 Extension
 (
 {
+builtIn
+signedState
+temporarilyInstalled
 id
 :
 this
