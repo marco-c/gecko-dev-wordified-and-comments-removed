@@ -237,6 +237,12 @@ esc_SkipControl
 <
 <
 15
+esc_Spaces
+=
+1u
+<
+<
+16
 }
 ;
 bool
