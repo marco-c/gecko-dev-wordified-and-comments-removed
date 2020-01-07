@@ -22406,6 +22406,13 @@ CallSiteDesc
 desc
 )
 {
+AutoForbidPools
+afp
+(
+this
+1
+)
+;
 CodeOffset
 offset
 (
