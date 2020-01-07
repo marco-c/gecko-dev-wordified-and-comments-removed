@@ -9,12 +9,6 @@ CARGO_INCREMENTAL
 "
 0
 "
-CCACHE
-:
-sccache
-RUSTC_WRAPPER
-:
-sccache
 SCCACHE_IDLE_TIMEOUT
 :
 "
