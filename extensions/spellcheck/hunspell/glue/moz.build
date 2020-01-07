@@ -100,6 +100,11 @@ mozHunspellDirProvider
 cpp
 '
 '
+mozHunspellFileMgr
+.
+cpp
+'
+'
 RemoteSpellCheckEngineChild
 .
 cpp
