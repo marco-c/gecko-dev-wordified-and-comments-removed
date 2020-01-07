@@ -2967,8 +2967,8 @@ this
 .
 li
 .
-innerHTML
-=
+unsafeSetInnerHTML
+(
 "
 <
 div
@@ -3250,6 +3250,7 @@ div
 div
 >
 "
+)
 ;
 setTimeout
 (
