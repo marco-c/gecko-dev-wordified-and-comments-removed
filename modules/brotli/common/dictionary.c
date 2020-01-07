@@ -122900,8 +122900,11 @@ kBrotliDictionary
 }
 122784
 #
-ifdef
+if
+defined
+(
 BROTLI_EXTERNAL_DICTIONARY_DATA
+)
 NULL
 #
 else

@@ -3,15 +3,6 @@ include
 "
 .
 /
-platform
-.
-h
-"
-#
-include
-"
-.
-/
 transform
 .
 h
@@ -812,7 +803,6 @@ len
 const
 BrotliTransforms
 *
-BROTLI_RESTRICT
 transforms
 int
 transfom_idx

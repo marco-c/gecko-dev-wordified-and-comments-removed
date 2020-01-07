@@ -64,8 +64,11 @@ array
 )
 {
 #
-ifdef
+if
+defined
+(
 BROTLI_LITTLE_ENDIAN
+)
 uint8_t
 *
 p

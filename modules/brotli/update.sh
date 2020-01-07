@@ -17,7 +17,7 @@ copy
 of
 the
 Brotli
-decompressor
+library
 .
 #
 Run
@@ -79,7 +79,7 @@ v1
 .
 0
 .
-4
+5
 COMMIT
 =
 (
@@ -187,8 +187,6 @@ echo
 #
 Updated
 brotli
-/
-dec
 to
 COMMIT
 .
