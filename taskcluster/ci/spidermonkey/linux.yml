@@ -745,6 +745,9 @@ platform
 linux64
 /
 opt
+tier
+:
+3
 run
 :
 spidermonkey
