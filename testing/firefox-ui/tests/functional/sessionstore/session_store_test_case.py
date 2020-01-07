@@ -940,7 +940,7 @@ platformName
 !
 =
 '
-windows
+windows_nt
 '
 :
             

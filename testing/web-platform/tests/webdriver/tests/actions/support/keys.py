@@ -46,6 +46,11 @@ io
 /
 webdriver
 /
+webdriver
+-
+spec
+.
+html
 #
 h
 -
@@ -4689,9 +4694,9 @@ sys
 platform
 =
 =
-"
-mac
-"
+'
+darwin
+'
 :
     
 MODIFIER_KEY

@@ -516,7 +516,7 @@ platformName
 =
 =
 '
-windows
+windows_nt
 '
 :
                 
@@ -663,7 +663,7 @@ platformName
 !
 =
 '
-mac
+darwin
 '
 :
                 

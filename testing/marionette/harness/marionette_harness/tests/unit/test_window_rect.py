@@ -1869,7 +1869,7 @@ os
 =
 =
 "
-mac
+darwin
 "
 :
             
@@ -1905,7 +1905,7 @@ os
 =
 =
 "
-windows
+windows_nt
 "
 :
             
