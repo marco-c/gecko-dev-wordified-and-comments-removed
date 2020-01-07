@@ -181,6 +181,7 @@ Scotsman
 "
 }
 ;
+await
 tracker
 .
 addChangedID
@@ -709,6 +710,7 @@ hmacErrorCount
 }
 finally
 {
+await
 tracker
 .
 clearChangedIDs
@@ -1627,6 +1629,7 @@ async
 =
 >
 {
+await
 tracker
 .
 clearChangedIDs

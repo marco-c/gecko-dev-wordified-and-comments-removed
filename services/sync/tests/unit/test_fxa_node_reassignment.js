@@ -1523,6 +1523,7 @@ rotary
 "
 )
 ;
+await
 tracker
 .
 clearChangedIDs

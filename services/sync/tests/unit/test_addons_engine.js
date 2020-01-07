@@ -247,6 +247,7 @@ saveState
 (
 )
 ;
+await
 tracker
 .
 clearChangedIDs
@@ -441,6 +442,7 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
 let
@@ -527,6 +529,7 @@ await
 uninstallAddon
 (
 addon
+reconciler
 )
 ;
 await
@@ -655,6 +658,7 @@ makeGUID
 (
 )
 ;
+await
 tracker
 .
 addChangedID
@@ -720,6 +724,7 @@ guid1
 ]
 )
 ;
+await
 tracker
 .
 clearChangedIDs
@@ -747,8 +752,10 @@ installAddon
 "
 test_bootstrap1_1
 "
+reconciler
 )
 ;
+await
 tracker
 .
 clearChangedIDs
@@ -863,6 +870,7 @@ await
 uninstallAddon
 (
 addon
+reconciler
 )
 ;
 changes
