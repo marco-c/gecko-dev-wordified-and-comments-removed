@@ -34,7 +34,7 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIThreadRetargetableStreamListener
 )
-NS_INTERFACE_MAP_END_THREADSAFE
+NS_INTERFACE_MAP_END
 nsHtml5StreamListener
 :
 :

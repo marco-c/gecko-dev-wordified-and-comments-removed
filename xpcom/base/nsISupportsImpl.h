@@ -5566,10 +5566,6 @@ foundInterface
 ;
 #
 define
-NS_INTERFACE_MAP_END_THREADSAFE
-NS_IMPL_QUERY_TAIL_GUTS
-#
-define
 NS_IMPL_THREADSAFE_CI
 (
 _class
