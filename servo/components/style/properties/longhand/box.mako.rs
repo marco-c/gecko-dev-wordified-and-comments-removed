@@ -1928,7 +1928,9 @@ computed
 TransitionProperty
 :
 :
-All
+all
+(
+)
 "
 initial_specified_value
 =
@@ -1939,7 +1941,9 @@ specified
 TransitionProperty
 :
 :
-All
+all
+(
+)
 "
 vector
 =
