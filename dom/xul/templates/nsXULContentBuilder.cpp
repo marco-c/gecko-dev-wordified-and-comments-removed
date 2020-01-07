@@ -2837,7 +2837,7 @@ NS_OK
 parent
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 pos
 true
@@ -4406,7 +4406,7 @@ continue
 element
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 i
 true

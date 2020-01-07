@@ -344,7 +344,7 @@ void
 HTMLOptGroupElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -367,7 +367,7 @@ aNotify
 nsGenericHTMLElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 aIndex
 aNotify

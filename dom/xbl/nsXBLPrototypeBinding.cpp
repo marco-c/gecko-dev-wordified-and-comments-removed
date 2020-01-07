@@ -1643,7 +1643,7 @@ i
 realElement
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 aNotify

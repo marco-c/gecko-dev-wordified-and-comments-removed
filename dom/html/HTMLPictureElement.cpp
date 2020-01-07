@@ -125,7 +125,7 @@ void
 HTMLPictureElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -293,7 +293,7 @@ GetNextSibling
 nsGenericHTMLElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 aIndex
 aNotify

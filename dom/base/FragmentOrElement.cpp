@@ -5509,7 +5509,7 @@ void
 FragmentOrElement
 :
 :
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -5543,7 +5543,7 @@ aIndex
 Unexpected
 child
 in
-RemoveChildAt
+RemoveChildAt_Deprecated
 "
 )
 ;
@@ -10879,7 +10879,7 @@ i
 target
 -
 >
-RemoveChildAt
+RemoveChildAt_Deprecated
 (
 0
 true
