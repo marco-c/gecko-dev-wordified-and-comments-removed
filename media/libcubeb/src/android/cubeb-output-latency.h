@@ -6,6 +6,13 @@ define
 _CUBEB_OUTPUT_LATENCY_H_
 #
 include
+<
+stdbool
+.
+h
+>
+#
+include
 "
 cubeb_media_library
 .
