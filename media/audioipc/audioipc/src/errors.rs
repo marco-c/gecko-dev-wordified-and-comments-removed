@@ -2,7 +2,7 @@ use
 bincode
 ;
 use
-cubeb_core
+cubeb
 ;
 use
 std
@@ -45,7 +45,7 @@ Error
 ;
 Cubeb
 (
-cubeb_core
+cubeb
 :
 :
 Error
