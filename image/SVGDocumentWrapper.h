@@ -93,6 +93,9 @@ dom
 class
 SVGSVGElement
 ;
+class
+SVGDocument
+;
 }
 namespace
 image
@@ -124,7 +127,13 @@ eWidth
 eHeight
 }
 ;
-nsIDocument
+mozilla
+:
+:
+dom
+:
+:
+SVGDocument
 *
 GetDocument
 (
