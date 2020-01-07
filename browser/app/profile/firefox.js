@@ -14491,3 +14491,17 @@ disabled
 false
 )
 ;
+pref
+(
+"
+extensions
+.
+screenshots
+.
+upload
+-
+disabled
+"
+false
+)
+;
