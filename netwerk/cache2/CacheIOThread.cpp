@@ -1924,7 +1924,6 @@ lock
 .
 Wait
 (
-PR_INTERVAL_NO_TIMEOUT
 )
 ;
 }

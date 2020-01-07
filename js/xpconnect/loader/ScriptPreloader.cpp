@@ -3171,7 +3171,13 @@ mal
 .
 Wait
 (
-10000
+TimeDuration
+:
+:
+FromSeconds
+(
+10
+)
 )
 ;
 }

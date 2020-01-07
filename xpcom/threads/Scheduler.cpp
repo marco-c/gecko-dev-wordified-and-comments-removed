@@ -1731,7 +1731,10 @@ mShutdownCondVar
 .
 Wait
 (
-PR_MicrosecondsToInterval
+TimeDuration
+:
+:
+FromMicroseconds
 (
 50
 )
