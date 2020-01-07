@@ -616,15 +616,14 @@ wr
 DisplayListBuilder
 &
 aBuilder
-const
-nsTArray
+Range
 <
+const
 wr
 :
 :
 GlyphInstance
 >
-&
 aGlyphs
 gfx
 :
