@@ -38,6 +38,14 @@ mozilla
 namespace
 dom
 {
+#
+ifdef
+XP_WIN
+#
+undef
+GetLocaleInfo
+#
+endif
 class
 IntlUtils
 final
