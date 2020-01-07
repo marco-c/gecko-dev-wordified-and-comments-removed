@@ -1823,7 +1823,10 @@ EventTarget
 *
 GetTargetForDOMEvent
 (
-nsIDOMEventTarget
+dom
+:
+:
+EventTarget
 *
 aTarget
 )

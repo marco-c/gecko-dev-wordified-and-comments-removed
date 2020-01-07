@@ -383,10 +383,6 @@ LastRelease
 (
 )
 )
-NS_IMPL_DOMTARGET_DEFAULTS
-(
-DOMEventTargetHelper
-)
 DOMEventTargetHelper
 :
 :

@@ -5026,10 +5026,6 @@ aNamespaceURI
 ;
 }
 }
-NS_IMPL_DOMTARGET_DEFAULTS
-(
-nsINode
-)
 NS_IMETHODIMP
 nsINode
 :

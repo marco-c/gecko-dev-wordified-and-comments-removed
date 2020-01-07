@@ -1262,6 +1262,13 @@ GetOwnerGlobal
 const
 override
 ;
+EventTarget
+*
+GetTargetForDOMEvent
+(
+)
+override
+;
 using
 mozilla
 :
