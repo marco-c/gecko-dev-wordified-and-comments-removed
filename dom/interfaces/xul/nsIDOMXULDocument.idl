@@ -133,10 +133,6 @@ nsIDOMXULDocument
 :
 nsIDOMDocument
 {
-attribute
-nsIDOMNode
-tooltipNode
-;
 readonly
 attribute
 nsIDOMXULCommandDispatcher
