@@ -2937,3 +2937,17 @@ userAgent
 false
 )
 ;
+pref
+(
+"
+devtools
+.
+responsive
+.
+reloadNotification
+.
+enabled
+"
+true
+)
+;
