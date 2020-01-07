@@ -383,9 +383,7 @@ accessCount
 ;
 global
 .
-Components
-.
-classes
+Cc
 [
 "
 mozilla
