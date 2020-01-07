@@ -374,7 +374,7 @@ functional
 #
 include
 <
-list
+deque
 >
 using
 namespace
@@ -790,7 +790,7 @@ RemoveLastElement
 std
 :
 :
-list
+deque
 <
 DisplayItemEntry
 >
