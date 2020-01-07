@@ -36259,6 +36259,15 @@ JS
 gcreason
 :
 :
+TOO_MUCH_WASM_MEMORY
+:
+case
+JS
+:
+:
+gcreason
+:
+:
 ALLOC_TRIGGER
 :
 case
