@@ -90,13 +90,6 @@ h
 #
 include
 "
-nsIXULDocument
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h
@@ -220,6 +213,15 @@ nsInterfaceHashtable
 .
 h
 "
+nsresult
+NS_NewXULDocument
+(
+nsIDocument
+*
+*
+result
+)
+;
 namespace
 mozilla
 {
@@ -232,8 +234,6 @@ final
 :
 public
 XMLDocument
-public
-nsIXULDocument
 public
 nsIStreamLoaderObserver
 public
@@ -772,7 +772,7 @@ nsresult
 :
 NS_NewXULDocument
 (
-nsIXULDocument
+nsIDocument
 *
 *
 aResult
