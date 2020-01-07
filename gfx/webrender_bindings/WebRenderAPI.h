@@ -1020,6 +1020,11 @@ ClearSave
 )
 ;
 void
+Dump
+(
+)
+;
+void
 Finalize
 (
 wr

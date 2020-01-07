@@ -4315,6 +4315,16 @@ WR_FUNC
 ;
 WR_INLINE
 void
+wr_dump_display_list
+(
+WrState
+*
+aState
+)
+WR_FUNC
+;
+WR_INLINE
+void
 wr_init_external_log_handler
 (
 WrLogLevelFilter
