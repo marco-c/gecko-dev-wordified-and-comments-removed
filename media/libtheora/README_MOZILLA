@@ -8,8 +8,8 @@ copied
 from
 the
 theora
-subversion
-trunk
+git
+master
 using
 the
 update
@@ -43,9 +43,8 @@ build
 system
 .
 The
-subversion
-revision
+git
+commit
 used
 was
-r17578
-.
+74b57560775804bf248e3e5b4e57964112ccd7af
