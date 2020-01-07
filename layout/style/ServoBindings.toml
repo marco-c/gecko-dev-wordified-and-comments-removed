@@ -692,6 +692,13 @@ h
 "
 mozilla
 /
+ServoDeclarationBlock
+.
+h
+"
+"
+mozilla
+/
 SizeOfState
 .
 h
@@ -2025,6 +2032,12 @@ mozilla
 :
 :
 InheritTarget
+"
+"
+mozilla
+:
+:
+ServoDeclarationBlock
 "
 "
 mozilla

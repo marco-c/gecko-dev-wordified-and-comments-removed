@@ -1245,13 +1245,6 @@ RawServoAnimationValueMapBorrowedMut
 aAnimationValues
 )
 ;
-RawServoDeclarationBlockStrongBorrowedOrNull
-Gecko_GetSMILOverrideDeclarationBlock
-(
-RawGeckoElementBorrowed
-element
-)
-;
 bool
 Gecko_StyleAnimationsEquals
 (
