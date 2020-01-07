@@ -6427,6 +6427,17 @@ FnMut
 Atom
 )
 {
+if
+!
+self
+.
+may_have_class
+(
+)
+{
+return
+;
+}
 snapshot_helpers
 :
 :
