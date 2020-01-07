@@ -103,6 +103,11 @@ profiles
 .
 json
 '
+'
+unittest
+/
+*
+'
 ]
 TEST_HARNESS_FILES
 .
