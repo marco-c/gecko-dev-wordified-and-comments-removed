@@ -142,11 +142,6 @@ registry
 js
 '
 '
-addon
-.
-js
-'
-'
 animation
 -
 type

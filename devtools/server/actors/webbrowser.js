@@ -105,7 +105,7 @@ lazyRequireGetter
 (
 this
 "
-BrowserAddonActor
+AddonTargetActor
 "
 "
 devtools
@@ -113,6 +113,8 @@ devtools
 server
 /
 actors
+/
+targets
 /
 addon
 "
@@ -2543,7 +2545,7 @@ else
 actor
 =
 new
-BrowserAddonActor
+AddonTargetActor
 (
 this
 .

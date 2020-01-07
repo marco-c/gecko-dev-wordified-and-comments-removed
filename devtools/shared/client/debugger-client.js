@@ -1739,7 +1739,7 @@ attachAddon
 :
 function
 (
-addonActor
+addonTargetActor
 onResponse
 =
 noop
@@ -1751,7 +1751,7 @@ packet
 {
 to
 :
-addonActor
+addonTargetActor
 type
 :
 "
@@ -1790,7 +1790,7 @@ new
 AddonClient
 (
 this
-addonActor
+addonTargetActor
 )
 ;
 this

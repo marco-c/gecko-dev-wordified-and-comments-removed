@@ -554,7 +554,7 @@ document
 getElementById
 (
 "
-addonActors
+addonTargetActors
 "
 )
 ;

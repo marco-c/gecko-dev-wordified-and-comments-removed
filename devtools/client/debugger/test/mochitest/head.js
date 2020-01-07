@@ -1245,7 +1245,7 @@ aResponse
 >
 {
 let
-addonActor
+addonTargetActor
 =
 aResponse
 .
@@ -1286,7 +1286,7 @@ deferred
 .
 resolve
 (
-addonActor
+addonTargetActor
 )
 ;
 }
@@ -4147,7 +4147,7 @@ connect
 )
 ;
 let
-addonActor
+addonTargetActor
 =
 yield
 getAddonActorForId
@@ -4164,7 +4164,7 @@ targetOptions
 {
 form
 :
-addonActor
+addonTargetActor
 client
 :
 this

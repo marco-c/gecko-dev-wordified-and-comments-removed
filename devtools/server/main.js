@@ -6379,7 +6379,7 @@ getList
 then
 (
 (
-addonActors
+addonTargetActors
 )
 =
 >
@@ -6389,7 +6389,7 @@ for
 const
 actor
 of
-addonActors
+addonTargetActors
 )
 {
 if

@@ -52,7 +52,11 @@ TabSources
 require
 (
 "
-.
+devtools
+/
+server
+/
+actors
 /
 utils
 /
@@ -66,7 +70,11 @@ makeDebugger
 require
 (
 "
-.
+devtools
+/
+server
+/
+actors
 /
 utils
 /
@@ -183,7 +191,7 @@ jsm
 )
 ;
 function
-BrowserAddonActor
+AddonTargetActor
 (
 connection
 addon
@@ -287,11 +295,11 @@ this
 }
 exports
 .
-BrowserAddonActor
+AddonTargetActor
 =
-BrowserAddonActor
+AddonTargetActor
 ;
-BrowserAddonActor
+AddonTargetActor
 .
 prototype
 =
@@ -299,7 +307,7 @@ prototype
 actorPrefix
 :
 "
-addon
+addonTarget
 "
 get
 exited
@@ -1208,7 +1216,7 @@ _shouldAddNewGlobalAsDebuggee
 }
 }
 ;
-BrowserAddonActor
+AddonTargetActor
 .
 prototype
 .
@@ -1219,7 +1227,7 @@ requestTypes
 attach
 "
 :
-BrowserAddonActor
+AddonTargetActor
 .
 prototype
 .
@@ -1228,7 +1236,7 @@ onAttach
 detach
 "
 :
-BrowserAddonActor
+AddonTargetActor
 .
 prototype
 .
@@ -1237,7 +1245,7 @@ onDetach
 reload
 "
 :
-BrowserAddonActor
+AddonTargetActor
 .
 prototype
 .
