@@ -642,20 +642,19 @@ remoteSymbolServer
 :
                 
 "
-http
+https
 :
 /
 /
-symbolapi
+symbols
 .
 mozilla
 .
 org
-:
-80
 /
-talos
+symbolicate
 /
+v4
 "
             
 "
