@@ -47,9 +47,6 @@ CycleCollectedJSRuntime
 h
 "
 #
-ifndef
-RELEASE_OR_BETA
-#
 include
 "
 mozilla
@@ -58,8 +55,6 @@ PerformanceUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -3445,9 +3440,6 @@ ClearRecentDevError
 }
 #
 endif
-#
-ifndef
-RELEASE_OR_BETA
 void
 ChromeUtils
 :
@@ -3570,8 +3562,6 @@ info
 )
 ;
 }
-#
-endif
 constexpr
 auto
 kSkipSelfHosted

@@ -2191,9 +2191,6 @@ mCanInvokeJS
 (
 false
 )
-#
-ifndef
-RELEASE_OR_BETA
 mCurrentEvent
 (
 nullptr
@@ -2216,8 +2213,6 @@ mCurrentPerformanceCounter
 (
 nullptr
 )
-#
-endif
 {
 }
 nsThread
@@ -2288,9 +2283,6 @@ forget
 #
 endif
 }
-#
-ifndef
-RELEASE_OR_BETA
 bool
 nsThread
 :
@@ -2338,8 +2330,6 @@ SchedulerLoggingEnabled
 )
 ;
 }
-#
-endif
 nsresult
 nsThread
 :
@@ -3647,6 +3637,8 @@ return
 labeled
 ;
 }
+#
+endif
 mozilla
 :
 :
@@ -3717,8 +3709,6 @@ return
 nullptr
 ;
 }
-#
-endif
 NS_IMETHODIMP
 nsThread
 :
@@ -4022,9 +4012,6 @@ NotifyActivity
 )
 ;
 }
-#
-ifdef
-MOZ_COLLECTING_RUNNABLE_TELEMETRY
 bool
 schedulerLoggingEnabled
 =
@@ -4073,6 +4060,9 @@ ToMicroseconds
 )
 ;
 }
+#
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 Maybe
 <
 Telemetry
@@ -4370,9 +4360,6 @@ emplace
 )
 ;
 }
-#
-ifndef
-RELEASE_OR_BETA
 bool
 recursiveEvent
 =
@@ -4430,8 +4417,6 @@ currentPerformanceCounter
 mCurrentPerformanceCounter
 ;
 }
-#
-endif
 event
 -
 >
@@ -4439,9 +4424,6 @@ Run
 (
 )
 ;
-#
-ifndef
-RELEASE_OR_BETA
 if
 (
 schedulerLoggingEnabled
@@ -4519,8 +4501,6 @@ nullptr
 ;
 }
 }
-#
-endif
 }
 else
 if

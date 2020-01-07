@@ -149,9 +149,6 @@ aKey
 mKey
 ;
 }
-#
-ifndef
-RELEASE_OR_BETA
 PerformanceCounter
 *
 GetPerformanceCounter
@@ -167,8 +164,6 @@ ReportPerformanceInfo
 (
 )
 ;
-#
-endif
 TabGroup
 *
 GetTabGroup
@@ -433,9 +428,6 @@ HTMLSlotElement
 >
 mSignalSlotList
 ;
-#
-ifndef
-RELEASE_OR_BETA
 RefPtr
 <
 mozilla
@@ -445,8 +437,6 @@ PerformanceCounter
 >
 mPerformanceCounter
 ;
-#
-endif
 }
 ;
 }

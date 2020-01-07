@@ -645,9 +645,6 @@ GlobalObject
 aGlobal
 )
 ;
-#
-ifndef
-RELEASE_OR_BETA
 static
 void
 RequestPerformanceMetrics
@@ -657,8 +654,6 @@ GlobalObject
 aGlobal
 )
 ;
-#
-endif
 static
 void
 Import

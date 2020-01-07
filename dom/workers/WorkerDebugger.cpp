@@ -1790,9 +1790,6 @@ report
 )
 ;
 }
-#
-ifndef
-RELEASE_OR_BETA
 PerformanceInfo
 WorkerDebugger
 :
@@ -2040,7 +2037,5 @@ items
 )
 ;
 }
-#
-endif
 }
 }

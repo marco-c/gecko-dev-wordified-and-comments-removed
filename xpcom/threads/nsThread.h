@@ -417,9 +417,6 @@ mShutdownContext
 nullptr
 ;
 }
-#
-ifndef
-RELEASE_OR_BETA
 virtual
 mozilla
 :
@@ -433,8 +430,6 @@ nsIRunnable
 aEvent
 )
 ;
-#
-endif
 private
 :
 void
@@ -592,9 +587,6 @@ mLastUnlabeledRunnable
 bool
 mCanInvokeJS
 ;
-#
-ifndef
-RELEASE_OR_BETA
 bool
 GetSchedulerLoggingEnabled
 (
@@ -630,8 +622,6 @@ PerformanceCounter
 >
 mCurrentPerformanceCounter
 ;
-#
-endif
 }
 ;
 #
