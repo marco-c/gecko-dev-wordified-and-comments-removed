@@ -21,6 +21,10 @@ do_get_profile
 (
 )
 ;
+setPrefs
+(
+)
+;
 run_next_test
 (
 )

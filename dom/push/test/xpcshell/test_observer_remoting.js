@@ -36,6 +36,10 @@ test_observer_remoting
 (
 )
 {
+do_get_profile
+(
+)
+;
 if
 (
 isParent
@@ -114,6 +118,10 @@ testInParent
 (
 )
 {
+setPrefs
+(
+)
+;
 let
 promiseNotifications
 =
