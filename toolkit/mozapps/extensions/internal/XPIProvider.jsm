@@ -3800,6 +3800,17 @@ false
 }
 if
 (
+aAddon
+.
+brokenManifest
+)
+{
+return
+false
+;
+}
+if
+(
 AddonManager
 .
 checkUpdateSecurity
