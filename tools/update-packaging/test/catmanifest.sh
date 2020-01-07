@@ -45,7 +45,7 @@ workdir
 "
 cp
 "
-mar
+1
 "
 "
 workdir
@@ -54,15 +54,11 @@ cd
 "
 workdir
 "
-|
-|
-exit
-1
 mar
 -
 x
 "
-mar
+1
 "
 mv
 updatev2
