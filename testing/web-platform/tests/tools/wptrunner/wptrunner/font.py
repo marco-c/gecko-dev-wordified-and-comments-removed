@@ -84,12 +84,25 @@ fonts
 fonts
     
 def
+__call__
+(
+self
+env_options
+=
+None
+env_config
+=
+None
+)
+:
+        
+return
+self
+    
+def
 __enter__
 (
 self
-options
-=
-None
 )
 :
         
