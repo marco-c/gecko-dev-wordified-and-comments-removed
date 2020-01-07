@@ -48947,14 +48947,17 @@ fill
 "
 "
                 
-JSCompartment
+JS
+:
+:
+Realm
 *
-compartment
+realm
 =
 js
 :
 :
-GetContextCompartment
+GetContextRealm
 (
 cx
 )
@@ -48962,7 +48965,7 @@ cx
                 
 MOZ_ASSERT
 (
-compartment
+realm
 )
 ;
                 
@@ -48970,9 +48973,12 @@ JSPrincipals
 *
 principals
 =
-JS_GetCompartmentPrincipals
+JS
+:
+:
+GetRealmPrincipals
 (
-compartment
+realm
 )
 ;
                 
