@@ -102,9 +102,7 @@ parking_lot
 rayon
 =
 "
-0
-.
-8
+1
 "
 serde_json
 =
