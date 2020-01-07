@@ -561,7 +561,7 @@ mozilla
 /
 dom
 /
-AnimationEffectBinding
+AnimationEffectReadOnlyBinding
 .
 h
 "
@@ -1366,6 +1366,12 @@ StyleImageLayerRepeat
 mozilla
 :
 :
+StyleImageLayerAttachment
+"
+"
+mozilla
+:
+:
 StyleBoxDecorationBreak
 "
 "
@@ -1774,6 +1780,12 @@ gfx
 :
 :
 FontVariation
+"
+"
+mozilla
+:
+:
+StyleImageLayerAttachment
 "
 "
 .

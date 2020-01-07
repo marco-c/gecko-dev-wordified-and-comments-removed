@@ -1247,7 +1247,13 @@ layer
 mAttachment
 =
 =
-NS_STYLE_IMAGELAYER_ATTACHMENT_LOCAL
+mozilla
+:
+:
+StyleImageLayerAttachment
+:
+:
+Local
 )
 {
 return

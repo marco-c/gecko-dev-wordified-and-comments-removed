@@ -131,7 +131,7 @@ mozilla
 /
 dom
 /
-AnimationEffectBinding
+AnimationEffectReadOnlyBinding
 .
 h
 "
@@ -13823,7 +13823,10 @@ BorderBox
 )
 mAttachment
 (
-NS_STYLE_IMAGELAYER_ATTACHMENT_SCROLL
+StyleImageLayerAttachment
+:
+:
+Scroll
 )
 mBlendMode
 (
@@ -14875,7 +14878,10 @@ layer
 mAttachment
 =
 =
-NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
+StyleImageLayerAttachment
+:
+:
+Fixed
 &
 &
 !

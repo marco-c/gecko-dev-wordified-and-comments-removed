@@ -2195,6 +2195,13 @@ mozilla
 StyleGeometryBox
 StyleGeometryBox
 ;
+typedef
+mozilla
+:
+:
+StyleImageLayerAttachment
+StyleImageLayerAttachment
+;
 nsStyleImage
 mImage
 ;
@@ -2214,7 +2221,7 @@ MOZ_INIT_OUTSIDE_CTOR
 StyleGeometryBox
 mOrigin
 ;
-uint8_t
+StyleImageLayerAttachment
 mAttachment
 ;
 uint8_t
