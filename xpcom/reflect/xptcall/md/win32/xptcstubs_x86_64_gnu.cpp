@@ -1322,7 +1322,6 @@ _ZN14nsXPTCStubBase5Stub
 n
 "
 Ev
-4
 \
 n
 "
@@ -1336,7 +1335,6 @@ _ZN14nsXPTCStubBase5Stub
 n
 "
 Ev
-4
 \
 n
 "
@@ -1344,13 +1342,13 @@ n
 "
 .
 scl
-3
+2
 \
 n
 "
 /
 *
-private
+external
 *
 /
 \
@@ -1384,7 +1382,6 @@ _ZN14nsXPTCStubBase5Stub
 n
 "
 Ev
-4
 :
 \
 n
@@ -1412,7 +1409,6 @@ _ZN14nsXPTCStubBase6Stub
 n
 "
 Ev
-4
 \
 n
 "
@@ -1426,7 +1422,6 @@ _ZN14nsXPTCStubBase6Stub
 n
 "
 Ev
-4
 \
 n
 "
@@ -1434,13 +1429,13 @@ n
 "
 .
 scl
-3
+2
 \
 n
 "
 /
 *
-private
+external
 *
 /
 \
@@ -1474,7 +1469,6 @@ _ZN14nsXPTCStubBase6Stub
 n
 "
 Ev
-4
 :
 \
 n
@@ -1502,7 +1496,6 @@ _ZN14nsXPTCStubBase7Stub
 n
 "
 Ev
-4
 \
 n
 "
@@ -1516,7 +1509,6 @@ _ZN14nsXPTCStubBase7Stub
 n
 "
 Ev
-4
 \
 n
 "
@@ -1524,13 +1516,13 @@ n
 "
 .
 scl
-3
+2
 \
 n
 "
 /
 *
-private
+external
 *
 /
 \
@@ -1564,7 +1556,6 @@ _ZN14nsXPTCStubBase7Stub
 n
 "
 Ev
-4
 :
 \
 n

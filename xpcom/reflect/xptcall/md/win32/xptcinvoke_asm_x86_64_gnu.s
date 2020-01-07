@@ -86,7 +86,7 @@ def
 XPTC__InvokebyIndex
 .
 scl
-3
+2
 .
 type
 46
