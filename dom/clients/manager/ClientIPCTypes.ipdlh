@@ -249,15 +249,6 @@ baseURL
 ;
 }
 ;
-union
-ClientEndPoint
-{
-IPCClientInfo
-;
-IPCServiceWorkerDescriptor
-;
-}
-;
 struct
 ClientPostMessageArgs
 {
@@ -272,8 +263,8 @@ serviceWorker
 struct
 ClientMatchAllArgs
 {
-ClientEndPoint
-endpoint
+IPCServiceWorkerDescriptor
+serviceWorker
 ;
 ClientType
 type
