@@ -7227,6 +7227,12 @@ maximized
 ;
 }
 }
+new
+LightweightThemeConsumer
+(
+document
+)
+;
 TabsInTitlebar
 .
 init
@@ -7895,12 +7901,6 @@ true
 )
 ;
 }
-new
-LightweightThemeConsumer
-(
-document
-)
-;
 TabletModeUpdater
 .
 init
