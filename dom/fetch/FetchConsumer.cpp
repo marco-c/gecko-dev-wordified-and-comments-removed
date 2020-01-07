@@ -15,6 +15,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+PBackgroundSharedTypes
+.
+h
+"
+#
+include
+"
 nsIInputStreamPump
 .
 h
