@@ -667,6 +667,16 @@ case
 toolbar_vertical_separator
 "
 :
+case
+"
+icons
+"
+:
+case
+"
+icons_attention
+"
+:
 this
 .
 lwtStyles
