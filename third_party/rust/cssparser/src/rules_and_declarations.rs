@@ -15,6 +15,13 @@ parse_nested_block
 ParserState
 }
 ;
+#
+[
+allow
+(
+unused_imports
+)
+]
 use
 std
 :

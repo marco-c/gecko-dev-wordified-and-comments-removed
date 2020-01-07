@@ -244,6 +244,9 @@ color
 RGBA
 Color
 parse_color_keyword
+AngleOrNumber
+NumberOrPercentage
+ColorComponentParser
 }
 ;
 pub
