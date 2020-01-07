@@ -179,6 +179,9 @@ version
 .
 1
 "
+bootstrap
+:
+true
 targetApplications
 :
 [

@@ -282,7 +282,7 @@ false
 function
 confirm_install
 (
-window
+panel
 )
 {
 ok
