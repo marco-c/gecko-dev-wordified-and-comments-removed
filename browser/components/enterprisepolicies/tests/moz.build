@@ -141,6 +141,15 @@ browser
 .
 ini
 '
+'
+browser
+/
+hardware_acceleration
+/
+browser
+.
+ini
+'
 ]
 TESTING_JS_MODULES
 +
