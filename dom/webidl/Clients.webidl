@@ -181,7 +181,7 @@ mozilla
 dom
 :
 :
-ServiceWorkerGlobalScope
+DOMPreferences
 :
 :
 OpenWindowEnabled
