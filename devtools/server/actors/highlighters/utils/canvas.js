@@ -708,6 +708,12 @@ p1
 }
 ctx
 .
+beginPath
+(
+)
+;
+ctx
+.
 moveTo
 (
 Math
@@ -740,6 +746,12 @@ round
 (
 y2
 )
+)
+;
+ctx
+.
+closePath
+(
 )
 ;
 }
