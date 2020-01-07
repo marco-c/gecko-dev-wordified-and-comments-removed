@@ -1554,6 +1554,14 @@ binding
 \
 F
 (
+BindingScope
+"
+bindingScope
+"
+)
+\
+F
+(
 Body
 "
 body
@@ -2048,7 +2056,7 @@ const
 size_t
 BINFIELD_LIMIT
 =
-63
+64
 ;
 #
 define
