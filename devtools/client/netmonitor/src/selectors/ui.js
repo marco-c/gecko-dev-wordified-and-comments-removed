@@ -177,6 +177,8 @@ waterfallWidth
 REQUESTS_WATERFALL
 .
 LABEL_WIDTH
+-
+20
 )
 /
 longestWidth
