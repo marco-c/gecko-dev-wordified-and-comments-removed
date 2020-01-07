@@ -7228,6 +7228,9 @@ conversion
 false
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -7269,6 +7272,8 @@ enabled
 false
 )
 ;
+#
+endif
 #
 endif
 #
