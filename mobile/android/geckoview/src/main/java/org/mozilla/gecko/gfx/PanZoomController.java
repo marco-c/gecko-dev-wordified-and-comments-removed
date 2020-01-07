@@ -84,15 +84,6 @@ event
 ;
 public
 void
-setOverscrollHandler
-(
-final
-Overscroll
-controller
-)
-;
-public
-void
 setIsLongpressEnabled
 (
 boolean
