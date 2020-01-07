@@ -4042,7 +4042,17 @@ try_options
 if
 self
 .
-verify_enabled
+config
+.
+get
+(
+'
+verify
+'
+)
+is
+not
+True
 :
             
 cmd
@@ -6518,7 +6528,7 @@ cat_suites
 =
 self
 .
-query_per_test_category_suites
+query_verify_category_suites
 (
 category
 all_suites
@@ -6622,7 +6632,7 @@ now
 (
 )
         
-max_per_test_time
+max_verify_time
 =
 datetime
 .
@@ -6633,7 +6643,7 @@ minutes
 60
 )
         
-per_test_args
+verify_args
 =
 [
 ]
@@ -6656,7 +6666,7 @@ query_minidump_stackwalk
         
 for
 (
-per_test_suite
+verify_suite
 suite
 )
 in
@@ -6790,13 +6800,13 @@ full
 '
             
 for
-per_test_args
+verify_args
 in
 self
 .
-query_args
+query_verify_args
 (
-per_test_suite
+verify_suite
 )
 :
                 
@@ -6815,7 +6825,7 @@ self
 start_time
 )
 >
-max_per_test_time
+max_verify_time
 :
                     
 self
@@ -6825,9 +6835,7 @@ info
 "
 TinderboxPrint
 :
-Running
-tests
-took
+Verification
 too
 long
 :
@@ -6838,7 +6846,7 @@ Not
 all
 tests
 were
-executed
+verified
 .
 <
 br
@@ -6862,7 +6870,7 @@ cmd
 if
 len
 (
-per_test_args
+verify_args
 )
 >
 0
@@ -6903,7 +6911,7 @@ final_cmd
 .
 extend
 (
-per_test_args
+verify_args
 )
                 
 self
@@ -7053,7 +7061,7 @@ test_suite
 if
 len
 (
-per_test_args
+verify_args
 )
 >
 0
@@ -7071,9 +7079,9 @@ log_level
                     
 self
 .
-log_per_test_status
+log_verify_status
 (
-per_test_args
+verify_args
 [
 -
 1
