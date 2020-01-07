@@ -64,7 +64,7 @@ isSyntheticDocument
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -102,7 +102,7 @@ classID
 CONSOLEAPISTORAGE_CID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

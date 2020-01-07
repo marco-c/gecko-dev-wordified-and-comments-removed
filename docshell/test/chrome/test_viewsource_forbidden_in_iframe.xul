@@ -570,7 +570,7 @@ errorMsg
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

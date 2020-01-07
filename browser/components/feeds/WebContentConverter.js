@@ -3616,7 +3616,7 @@ classID
 WCCR_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -4369,7 +4369,7 @@ classID
 WCCR_CLASSID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -137,7 +137,7 @@ sessionRestoreTest
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

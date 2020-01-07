@@ -913,7 +913,7 @@ promptCount
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -938,7 +938,7 @@ getNewPrompter
 mockPrompter
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

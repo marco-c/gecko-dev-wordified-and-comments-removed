@@ -214,7 +214,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -827,7 +827,7 @@ controllerControlChannelClose
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -894,7 +894,7 @@ presenterControlChannelReconnect
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -936,7 +936,7 @@ pcs
 certFingerprint
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1331,7 +1331,7 @@ controllerControlChannelReconnect
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1346,7 +1346,7 @@ nsIPresentationControlChannelListener
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1586,7 +1586,7 @@ controllerControlChannelDisconnected
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1650,7 +1650,7 @@ CLOSE_CONTROL_CHANNEL_REASON
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1692,7 +1692,7 @@ pcs
 certFingerprint
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1766,7 +1766,7 @@ presenterControlChannelDisconnected
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1969,7 +1969,7 @@ controllerControlChannelDisconnected
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1984,7 +1984,7 @@ nsIPresentationControlChannelListener
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2026,7 +2026,7 @@ pcs
 certFingerprint
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2104,7 +2104,7 @@ presenterControlChannelDisconnected
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -5195,9 +5195,6 @@ nsIWebProgressListener
 Ci
 .
 nsISupportsWeakReference
-Ci
-.
-nsISupports
 ]
 )
 destroy

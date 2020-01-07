@@ -89,7 +89,7 @@ _originalFactory
 null
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

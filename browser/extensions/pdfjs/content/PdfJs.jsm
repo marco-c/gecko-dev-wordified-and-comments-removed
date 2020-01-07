@@ -695,7 +695,7 @@ PdfJs
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

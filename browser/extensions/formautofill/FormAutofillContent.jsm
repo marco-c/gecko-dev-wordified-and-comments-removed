@@ -495,7 +495,7 @@ AutofillProfileAutoCompleteSearch
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1079,7 +1079,7 @@ ProfileAutocomplete
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1631,7 +1631,7 @@ FormAutofillContent
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

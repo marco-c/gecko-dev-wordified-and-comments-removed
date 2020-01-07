@@ -2894,7 +2894,7 @@ _autoMove
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

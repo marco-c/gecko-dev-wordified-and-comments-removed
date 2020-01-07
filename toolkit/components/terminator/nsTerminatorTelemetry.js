@@ -180,7 +180,7 @@ nsTerminatorTelemetry
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

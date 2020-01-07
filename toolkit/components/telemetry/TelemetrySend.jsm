@@ -2663,7 +2663,7 @@ TOPIC_QUIT_APPLICATION_GRANTED
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

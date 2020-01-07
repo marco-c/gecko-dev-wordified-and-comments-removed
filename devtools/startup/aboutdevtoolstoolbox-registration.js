@@ -147,7 +147,7 @@ toolbox
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

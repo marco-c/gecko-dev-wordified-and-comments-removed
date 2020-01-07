@@ -1657,7 +1657,7 @@ unregister
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

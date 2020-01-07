@@ -44,7 +44,7 @@ invalidateCachesOnRestart
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

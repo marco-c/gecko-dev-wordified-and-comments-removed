@@ -547,7 +547,7 @@ wifi
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

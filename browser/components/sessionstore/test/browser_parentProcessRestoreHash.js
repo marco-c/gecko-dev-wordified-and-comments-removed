@@ -72,7 +72,7 @@ TestAboutPage
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

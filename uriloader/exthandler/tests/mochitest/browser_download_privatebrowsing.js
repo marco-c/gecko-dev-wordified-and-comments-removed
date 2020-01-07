@@ -110,7 +110,7 @@ helperapplauncherdialog
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

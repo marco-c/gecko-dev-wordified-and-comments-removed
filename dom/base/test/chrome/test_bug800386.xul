@@ -416,14 +416,11 @@ NS_ERROR_NO_INTERFACE
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
 [
-Ci
-.
-nsISupports
 Ci
 .
 nsIInterfaceRequestor

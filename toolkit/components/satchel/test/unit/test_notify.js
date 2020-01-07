@@ -54,7 +54,7 @@ observed
 ]
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

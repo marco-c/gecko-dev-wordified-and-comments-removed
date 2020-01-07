@@ -127,7 +127,7 @@ _nativeView
 false
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -104,7 +104,7 @@ true
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -129,7 +129,7 @@ getNewPrompter
 gMockPrompter
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

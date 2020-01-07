@@ -1487,7 +1487,7 @@ Tracker
 prototype
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

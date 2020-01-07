@@ -2024,7 +2024,7 @@ QueryInterface
 )
 {
 return
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2107,7 +2107,7 @@ QueryInterface
 )
 {
 return
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

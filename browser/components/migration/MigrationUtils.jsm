@@ -562,7 +562,7 @@ MigratorPrototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

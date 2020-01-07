@@ -92,7 +92,7 @@ a7707a50bda1
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

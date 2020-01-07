@@ -2972,7 +2972,7 @@ reset
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

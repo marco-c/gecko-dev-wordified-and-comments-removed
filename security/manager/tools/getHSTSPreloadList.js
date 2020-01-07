@@ -1210,7 +1210,7 @@ iid
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -253,7 +253,7 @@ disableUserActions
 false
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

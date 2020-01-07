@@ -164,7 +164,7 @@ requestId
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

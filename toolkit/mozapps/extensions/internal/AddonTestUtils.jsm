@@ -1139,7 +1139,7 @@ prototype
 .
 QueryInterface
 =
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -4007,7 +4007,7 @@ cert
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -6807,7 +6807,7 @@ null
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

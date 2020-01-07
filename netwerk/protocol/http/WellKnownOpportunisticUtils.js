@@ -111,7 +111,7 @@ Utils
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -1821,7 +1821,7 @@ aSpec
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

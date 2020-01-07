@@ -162,7 +162,7 @@ NS_ERROR_ABORT
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

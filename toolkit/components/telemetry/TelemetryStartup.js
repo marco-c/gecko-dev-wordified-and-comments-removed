@@ -106,7 +106,7 @@ prototype
 .
 QueryInterface
 =
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

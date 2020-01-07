@@ -143,7 +143,7 @@ debugging
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

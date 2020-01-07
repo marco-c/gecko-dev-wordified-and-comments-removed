@@ -1149,7 +1149,7 @@ unregisterError
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

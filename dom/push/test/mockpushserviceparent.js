@@ -100,14 +100,11 @@ _context
 null
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
 [
-Ci
-.
-nsISupports
 Ci
 .
 nsIWebSocketChannel

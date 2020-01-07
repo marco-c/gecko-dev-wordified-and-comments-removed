@@ -27441,7 +27441,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -27449,9 +27449,6 @@ generateQI
 Ci
 .
 nsIBrowserDOMWindow
-Ci
-.
-nsISupports
 ]
 )
 _openURIInNewTab
@@ -39348,7 +39345,7 @@ false
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

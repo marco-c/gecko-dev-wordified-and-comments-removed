@@ -56,7 +56,7 @@ AutoCompleteResultView
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

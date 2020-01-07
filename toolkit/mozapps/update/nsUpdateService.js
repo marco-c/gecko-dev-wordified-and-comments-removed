@@ -5855,7 +5855,7 @@ val
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -7286,7 +7286,7 @@ null
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -11811,7 +11811,7 @@ _xpcom_factory
 UpdateServiceFactory
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -13557,7 +13557,7 @@ D7DBCBBE7DFB
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -15246,7 +15246,7 @@ E43F
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -18385,7 +18385,7 @@ NS_NOINTERFACE
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -19635,7 +19635,7 @@ F99250A0E722
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

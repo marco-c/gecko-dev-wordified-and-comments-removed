@@ -247,7 +247,7 @@ onClearHistory
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

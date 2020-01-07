@@ -1213,9 +1213,6 @@ nsIRequestObserver
 Ci
 .
 nsIInterfaceRequestor
-Ci
-.
-nsISupports
 ]
 )
 getInterface

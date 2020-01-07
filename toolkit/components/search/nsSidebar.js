@@ -191,14 +191,11 @@ aaf1
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
 [
-Ci
-.
-nsISupports
 Ci
 .
 nsIDOMGlobalPropertyInitializer

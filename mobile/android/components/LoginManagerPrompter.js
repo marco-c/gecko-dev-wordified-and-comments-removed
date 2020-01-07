@@ -112,7 +112,7 @@ abe2
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

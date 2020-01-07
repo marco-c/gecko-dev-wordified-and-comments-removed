@@ -243,7 +243,7 @@ test_bug514327_outdated
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

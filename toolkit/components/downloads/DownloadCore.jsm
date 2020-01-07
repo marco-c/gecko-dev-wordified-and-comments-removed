@@ -5360,7 +5360,7 @@ notificationCallbacks
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -5372,7 +5372,7 @@ nsIInterfaceRequestor
 )
 getInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

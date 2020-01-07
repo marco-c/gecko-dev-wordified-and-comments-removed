@@ -51,7 +51,7 @@ onDeleteVisits
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

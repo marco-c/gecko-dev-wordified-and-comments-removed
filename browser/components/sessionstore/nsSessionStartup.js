@@ -1510,7 +1510,7 @@ _previousSessionCrashed
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -6324,7 +6324,7 @@ dcaa
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

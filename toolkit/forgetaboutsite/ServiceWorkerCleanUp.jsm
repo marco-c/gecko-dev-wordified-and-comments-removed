@@ -82,7 +82,7 @@ unregisterFailed
 resolve
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

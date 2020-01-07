@@ -2142,7 +2142,7 @@ TaggingService
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -2601,7 +2601,7 @@ TagAutoCompleteSearch
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

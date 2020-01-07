@@ -100,7 +100,7 @@ mockControlChannelOfSender
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -422,7 +422,7 @@ mockControlChannelOfReceiver
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -716,7 +716,7 @@ mockDevice
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -810,7 +810,7 @@ mockDevicePrompt
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -937,7 +937,7 @@ mockRequestUIGlue
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -79,7 +79,7 @@ classID
 EDITORUTILS_CID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

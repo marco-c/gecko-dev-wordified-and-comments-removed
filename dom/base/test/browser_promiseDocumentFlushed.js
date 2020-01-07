@@ -449,7 +449,7 @@ reflowInterruptible
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

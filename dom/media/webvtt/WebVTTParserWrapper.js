@@ -305,7 +305,7 @@ WEBVTTPARSERWRAPPER_CID
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

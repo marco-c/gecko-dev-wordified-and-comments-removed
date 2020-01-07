@@ -66,7 +66,7 @@ satchelFormListener
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

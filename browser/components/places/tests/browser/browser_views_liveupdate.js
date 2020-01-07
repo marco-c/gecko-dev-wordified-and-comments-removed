@@ -610,7 +610,7 @@ bookmarksObserver
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

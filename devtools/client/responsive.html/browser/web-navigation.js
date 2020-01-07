@@ -143,9 +143,6 @@ generateQI
 Ci
 .
 nsIWebNavigation
-Ci
-.
-nsISupports
 ]
 )
 get

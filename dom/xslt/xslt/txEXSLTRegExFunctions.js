@@ -60,7 +60,7 @@ classID
 EXSLT_REGEXP_CID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

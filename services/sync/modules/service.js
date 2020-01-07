@@ -2383,7 +2383,7 @@ declined
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

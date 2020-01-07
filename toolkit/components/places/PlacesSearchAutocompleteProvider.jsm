@@ -478,7 +478,7 @@ userContextId
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

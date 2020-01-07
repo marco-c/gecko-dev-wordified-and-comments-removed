@@ -6512,7 +6512,7 @@ break
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

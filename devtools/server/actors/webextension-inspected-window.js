@@ -536,9 +536,6 @@ nsIWebProgressListener
 Ci
 .
 nsISupportsWeakReference
-Ci
-.
-nsISupports
 ]
 )
 get

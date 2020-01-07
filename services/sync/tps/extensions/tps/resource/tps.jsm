@@ -1170,7 +1170,7 @@ quit
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

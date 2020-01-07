@@ -60,7 +60,7 @@ testProvider
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -97,7 +97,7 @@ testDevice
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -155,7 +155,7 @@ testDevice1
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -218,7 +218,7 @@ testDevice2
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -281,7 +281,7 @@ mockedDeviceWithoutSupportedURL
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -344,7 +344,7 @@ mockedDeviceSupportHttpsURL
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

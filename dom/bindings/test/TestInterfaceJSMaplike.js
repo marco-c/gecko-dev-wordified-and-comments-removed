@@ -93,14 +93,11 @@ maplike
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
 [
-Ci
-.
-nsISupports
 Ci
 .
 nsIDOMGlobalPropertyInitializer

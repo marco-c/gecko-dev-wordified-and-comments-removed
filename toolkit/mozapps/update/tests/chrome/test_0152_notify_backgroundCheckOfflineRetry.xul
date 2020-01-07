@@ -647,7 +647,7 @@ resetOffline
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

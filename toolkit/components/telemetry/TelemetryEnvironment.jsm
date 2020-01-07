@@ -5566,7 +5566,7 @@ pref
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -654,7 +654,7 @@ observer
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1149,7 +1149,7 @@ nsICaptivePortalDetector
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

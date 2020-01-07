@@ -107,7 +107,7 @@ suggestedFileName
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

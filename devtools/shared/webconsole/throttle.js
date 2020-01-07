@@ -199,9 +199,6 @@ nsIStreamListener
 Ci
 .
 nsIInterfaceRequestor
-Ci
-.
-nsISupports
 ]
 )
 setOriginalListener

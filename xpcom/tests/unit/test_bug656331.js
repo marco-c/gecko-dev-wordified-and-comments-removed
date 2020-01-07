@@ -91,7 +91,7 @@ kConsoleListener
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

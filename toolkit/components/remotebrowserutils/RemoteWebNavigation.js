@@ -190,7 +190,7 @@ navigation
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -198,9 +198,6 @@ generateQI
 Ci
 .
 nsIWebNavigation
-Ci
-.
-nsISupports
 ]
 )
 swapBrowser

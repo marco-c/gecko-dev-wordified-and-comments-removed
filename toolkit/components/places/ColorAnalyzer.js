@@ -576,7 +576,7 @@ aacc
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -99,7 +99,7 @@ promptService
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

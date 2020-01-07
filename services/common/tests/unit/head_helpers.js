@@ -679,7 +679,7 @@ PACSystemSettings
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

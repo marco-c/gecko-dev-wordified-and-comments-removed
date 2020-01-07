@@ -4259,7 +4259,7 @@ nsPlacesExpiration
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

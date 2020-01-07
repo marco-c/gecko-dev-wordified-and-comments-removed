@@ -67,14 +67,11 @@ cbfd4febfdcc
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
 [
-Ci
-.
-nsISupports
 ]
 )
 runTest

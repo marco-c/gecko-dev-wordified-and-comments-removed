@@ -263,7 +263,7 @@ ContentLoaded
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

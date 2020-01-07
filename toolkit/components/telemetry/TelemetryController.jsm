@@ -3319,7 +3319,7 @@ p
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -447,7 +447,7 @@ RESTRequest
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

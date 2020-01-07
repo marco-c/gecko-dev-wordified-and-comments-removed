@@ -509,7 +509,7 @@ aURITemplate
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -161,7 +161,7 @@ dd164117f6de
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -480,7 +480,7 @@ caf37097be41
 )
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

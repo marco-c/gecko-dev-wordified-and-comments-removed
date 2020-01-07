@@ -8633,7 +8633,7 @@ _uninitView
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

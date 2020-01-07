@@ -1649,7 +1649,7 @@ aXULWindow
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1657,9 +1657,6 @@ generateQI
 Ci
 .
 nsIWindowMediatorListener
-Ci
-.
-nsISupports
 ]
 )
 }

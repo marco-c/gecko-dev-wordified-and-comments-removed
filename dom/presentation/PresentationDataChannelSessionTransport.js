@@ -147,7 +147,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -234,7 +234,7 @@ contractID
 PRESENTATIONTRANSPORTBUILDER_CONTRACTID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1474,7 +1474,7 @@ contractID
 PRESENTATIONTRANSPORT_CONTRACTID
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

@@ -1023,7 +1023,7 @@ itemsToClear
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

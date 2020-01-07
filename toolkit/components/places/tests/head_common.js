@@ -3298,7 +3298,7 @@ onItemMoved
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -3363,7 +3363,7 @@ onDeleteVisits
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -3468,7 +3468,7 @@ sortingChanged
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

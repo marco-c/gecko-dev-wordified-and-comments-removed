@@ -360,7 +360,7 @@ mockedChannelDescription
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -427,7 +427,7 @@ mockedServerSocket
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -587,7 +587,7 @@ mockedSocketTransport
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -605,7 +605,7 @@ mockedControlChannel
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1075,7 +1075,7 @@ mockedDevice
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1149,7 +1149,7 @@ mockedDevicePrompt
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1278,7 +1278,7 @@ mockedSessionTransport
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1479,7 +1479,7 @@ _selfAddress
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1790,7 +1790,7 @@ mockedNetworkInfo
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1844,7 +1844,7 @@ mockedNetworkManager
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1907,7 +1907,7 @@ mockedRequestUIGlue
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

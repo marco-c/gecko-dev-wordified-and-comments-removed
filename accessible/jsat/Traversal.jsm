@@ -467,7 +467,7 @@ matchResult
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
