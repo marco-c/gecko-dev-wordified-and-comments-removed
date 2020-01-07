@@ -3763,10 +3763,12 @@ JSOP_POW
 if
 (
 !
-math_pow_handle
+PowValues
 (
 cx
+&
 lhsCopy
+&
 rhsCopy
 ret
 )

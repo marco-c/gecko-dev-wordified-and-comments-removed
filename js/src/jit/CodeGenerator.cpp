@@ -45331,8 +45331,8 @@ bool
 (
 JSContext
 *
-HandleValue
-HandleValue
+MutableHandleValue
+MutableHandleValue
 MutableHandleValue
 )
 ;
@@ -45349,9 +45349,9 @@ PowFn
 js
 :
 :
-math_pow_handle
+PowValues
 "
-math_pow_handle
+PowValues
 "
 )
 ;

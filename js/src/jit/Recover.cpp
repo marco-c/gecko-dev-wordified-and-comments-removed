@@ -4111,10 +4111,12 @@ if
 js
 :
 :
-math_pow_handle
+PowValues
 (
 cx
+&
 base
+&
 power
 &
 result
@@ -4243,10 +4245,12 @@ if
 js
 :
 :
-math_pow_handle
+PowValues
 (
 cx
+&
 base
+&
 power
 &
 result
