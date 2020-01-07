@@ -259,7 +259,7 @@ read
 (
 uint8_t
 *
-size_t
+uintptr_t
 void
 *
 )

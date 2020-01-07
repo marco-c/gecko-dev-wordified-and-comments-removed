@@ -24,11 +24,7 @@ version
 VER
 =
 "
-v0
-.
-10
-.
-0
+ded91a1661daaf55515e572aadd8e92e6d71cbaf
 "
 #
 Accept

@@ -204,3 +204,17 @@ traits
 .
 0
 "
+[
+dev
+-
+dependencies
+]
+env_logger
+=
+"
+0
+.
+5
+.
+3
+"
