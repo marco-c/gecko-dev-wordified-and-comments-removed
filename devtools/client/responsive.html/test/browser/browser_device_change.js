@@ -179,6 +179,11 @@ ui
 .
 toolWindow
 ;
+reloadOnUAChange
+(
+true
+)
+;
 await
 waitUntilState
 (
@@ -513,6 +518,11 @@ ui
 false
 )
 ;
+reloadOnUAChange
+(
+false
+)
+;
 }
 )
 ;
@@ -551,6 +561,11 @@ store
 ui
 .
 toolWindow
+;
+reloadOnUAChange
+(
+true
+)
 ;
 await
 waitUntilState
@@ -684,6 +699,11 @@ await
 removeTab
 (
 tab
+)
+;
+reloadOnUAChange
+(
+false
 )
 ;
 }
