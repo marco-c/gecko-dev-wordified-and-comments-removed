@@ -2093,6 +2093,10 @@ previous_style
 rules
 (
 )
+&
+context
+.
+guards
 iter
 Some
 (

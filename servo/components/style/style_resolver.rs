@@ -2787,6 +2787,14 @@ rule_cache
 insert_if_possible
 (
 &
+self
+.
+context
+.
+shared
+.
+guards
+&
 values
 pseudo
 &
