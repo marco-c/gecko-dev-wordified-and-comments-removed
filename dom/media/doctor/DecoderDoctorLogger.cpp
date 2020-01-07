@@ -55,6 +55,7 @@ DecoderDoctorLogger
 :
 :
 LogState
+ReleaseAcquire
 >
 DecoderDoctorLogger
 :

@@ -1175,6 +1175,7 @@ static
 Atomic
 <
 LogState
+ReleaseAcquire
 >
 sLogState
 ;
