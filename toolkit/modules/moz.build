@@ -1652,6 +1652,11 @@ SelectContentHelper
 jsm
 '
 '
+SelectionSourceContent
+.
+jsm
+'
+'
 SelectParentHelper
 .
 jsm
