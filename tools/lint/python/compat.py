@@ -7,14 +7,14 @@ import
 json
 import
 os
-import
-tempfile
 from
 distutils
 .
 spawn
 import
 find_executable
+import
+mozfile
 import
 mozpack
 .
@@ -462,7 +462,7 @@ pattern
 )
     
 with
-tempfile
+mozfile
 .
 NamedTemporaryFile
 (
