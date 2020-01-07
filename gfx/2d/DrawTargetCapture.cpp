@@ -1447,13 +1447,13 @@ command
 ;
 if
 (
+!
 transform
 -
 >
 mTransform
-!
-=
-Matrix
+.
+IsIdentity
 (
 )
 )
