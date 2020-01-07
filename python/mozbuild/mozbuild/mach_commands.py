@@ -64,6 +64,8 @@ base
 import
 (
     
+BuildEnvironmentNotFoundException
+    
 MachCommandBase
     
 MachCommandConditions
@@ -2939,6 +2941,35 @@ topsrcdir
         
 return
 ret
+    
+property
+    
+def
+substs
+(
+self
+)
+:
+        
+try
+:
+            
+return
+super
+(
+Clobber
+self
+)
+.
+substs
+        
+except
+BuildEnvironmentNotFoundException
+:
+            
+return
+{
+}
 CommandProvider
 class
 Logs
