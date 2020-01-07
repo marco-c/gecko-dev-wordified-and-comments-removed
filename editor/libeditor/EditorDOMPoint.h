@@ -1448,7 +1448,7 @@ mIsChildInitialized
 =
 false
 ;
-NS_WARNING_ASSERTION
+NS_ASSERTION
 (
 !
 mParent
