@@ -193,11 +193,11 @@ path
 /
 servo
 /
+ports
+/
+geckolib
+/
 tests
-/
-unit
-/
-stylo
 /
 "
 }
