@@ -99,17 +99,11 @@ format
 r
 .
 status_code
-                                                         
+                                                             
 r
 .
 reason
 )
-                  
-file
-=
-sys
-.
-stderr
 )
     
 else
@@ -139,17 +133,11 @@ format
 r
 .
 status_code
-                                                         
+                                                             
 r
 .
 reason
 )
-                  
-file
-=
-sys
-.
-stderr
 )
     
 log
@@ -438,12 +426,6 @@ args
 .
 zip
 )
-                  
-file
-=
-sys
-.
-stderr
 )
         
 return
@@ -530,11 +512,6 @@ format
 (
 token_file
 )
-file
-=
-sys
-.
-stderr
 )
             
 return
