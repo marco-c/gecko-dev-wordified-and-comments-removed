@@ -2131,7 +2131,6 @@ aStyleRule
 )
 override
 ;
-virtual
 void
 FlushPendingNotifications
 (
@@ -2142,7 +2141,6 @@ FlushType
 aType
 )
 final
-override
 ;
 virtual
 void
