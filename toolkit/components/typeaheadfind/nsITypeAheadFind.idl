@@ -166,16 +166,6 @@ includes
 #
 include
 "
-domstubs
-.
-idl
-"
-/
-/
-nsIDOMRange
-#
-include
-"
 nsISupports
 .
 idl
@@ -257,6 +247,9 @@ nsIDocShell
 ;
 webidl
 Element
+;
+webidl
+Range
 ;
 /
 *
@@ -576,7 +569,7 @@ match
 .
 *
 /
-nsIDOMRange
+Range
 getFoundRange
 (
 )
@@ -763,7 +756,7 @@ boolean
 isRangeVisible
 (
 in
-nsIDOMRange
+Range
 aRange
 in
 boolean
@@ -792,7 +785,7 @@ boolean
 isRangeRendered
 (
 in
-nsIDOMRange
+Range
 aRange
 )
 ;

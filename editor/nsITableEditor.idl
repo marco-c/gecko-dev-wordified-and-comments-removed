@@ -103,14 +103,14 @@ idl
 interface
 nsIDOMNode
 ;
-interface
-nsIDOMRange
-;
 webidl
 Element
 ;
 webidl
 Node
+;
+webidl
+Range
 ;
 [
 scriptable
@@ -2138,7 +2138,7 @@ Element
 getFirstSelectedCell
 (
 out
-nsIDOMRange
+Range
 aRange
 )
 ;
@@ -2410,7 +2410,7 @@ Element
 getNextSelectedCell
 (
 out
-nsIDOMRange
+Range
 aRange
 )
 ;

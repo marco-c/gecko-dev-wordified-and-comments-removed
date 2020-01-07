@@ -600,7 +600,7 @@ nsIDOMNode
 aNode
 int32_t
 aOffset
-nsIDOMRange
+nsRange
 *
 *
 aRange

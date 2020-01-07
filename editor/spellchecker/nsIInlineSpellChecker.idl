@@ -113,6 +113,9 @@ nsIEditor
 interface
 nsIEditorSpellCheck
 ;
+webidl
+Range
+;
 [
 scriptable
 uuid
@@ -162,11 +165,11 @@ void
 spellCheckRange
 (
 in
-nsIDOMRange
+Range
 aSelection
 )
 ;
-nsIDOMRange
+Range
 getMisspelledWord
 (
 in

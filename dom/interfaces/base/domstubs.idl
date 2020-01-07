@@ -191,9 +191,3 @@ HTML
 interface
 nsIDOMHTMLHeadElement
 ;
-/
-/
-Range
-interface
-nsIDOMRange
-;

@@ -101,9 +101,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMRange
-;
-interface
 nsIDOMNode
 ;
 interface
@@ -114,6 +111,9 @@ Selection
 ;
 webidl
 Document
+;
+webidl
+Range
 ;
 %
 {
@@ -1957,7 +1957,7 @@ void
 setRange
 (
 in
-nsIDOMRange
+Range
 aRange
 )
 ;
