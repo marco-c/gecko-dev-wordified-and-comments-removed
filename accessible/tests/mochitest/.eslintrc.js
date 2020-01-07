@@ -55,15 +55,6 @@ importGlobalProperties
 error
 "
 "
-comma
--
-spacing
-"
-:
-"
-off
-"
-"
 no
 -
 cond
