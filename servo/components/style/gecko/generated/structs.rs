@@ -240306,6 +240306,14 @@ raw
 :
 c_uint
 ;
+pub
+const
+GECKO_IS_NIGHTLY
+:
+bool
+=
+true
+;
 #
 [
 repr
