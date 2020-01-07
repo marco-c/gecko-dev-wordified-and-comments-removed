@@ -1170,9 +1170,12 @@ displayHost
 let
 totalItem
 =
-paymentDetails
+paymentRequest
 .
-totalItem
+getTotalItem
+(
+state
+)
 ;
 let
 totalAmountEl
