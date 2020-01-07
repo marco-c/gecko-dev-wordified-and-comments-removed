@@ -85,9 +85,12 @@ classes
 =
 [
 "
-theme
+arrow
+"
+"
+collapse
 -
-twisty
+button
 "
 ]
 ;
@@ -101,7 +104,7 @@ classes
 push
 (
 "
-open
+expanded
 "
 )
 ;
@@ -109,7 +112,7 @@ open
 return
 dom
 .
-a
+img
 (
 {
 className
