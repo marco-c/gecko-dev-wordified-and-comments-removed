@@ -396,7 +396,9 @@ com
 ;
 service
 .
-sync
+errorHandler
+.
+syncAndReportErrors
 =
 mocked_syncAndReportErrors
 ;
@@ -424,7 +426,7 @@ getState
 ;
 service
 .
-sync
+syncAndReportErrors
 =
 originalSync
 ;
@@ -444,6 +446,6 @@ originalSync
 =
 service
 .
-sync
+syncAndReportErrors
 ;
 }
