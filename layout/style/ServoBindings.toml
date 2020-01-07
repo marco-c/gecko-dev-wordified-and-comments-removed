@@ -1927,9 +1927,6 @@ nsCSSShadowArray
 nsCSSValue
 "
 "
-nsCSSValueFloatColor
-"
-"
 nsCSSValueList
 "
 "
