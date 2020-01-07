@@ -309,13 +309,6 @@ this
 .
 lwtStyles
 .
-headerURL
-&
-&
-this
-.
-lwtStyles
-.
 accentcolor
 &
 &
