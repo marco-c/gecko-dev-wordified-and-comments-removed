@@ -15287,6 +15287,15 @@ mReusedItem
 (
 false
 )
+mBackfaceHidden
+(
+mFrame
+-
+>
+In3DContextAndBackfaceIsHidden
+(
+)
+)
 #
 ifdef
 MOZ_DUMP_PAINTING

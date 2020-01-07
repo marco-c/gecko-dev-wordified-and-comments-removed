@@ -14301,11 +14301,6 @@ mBackfaceHidden
 aItem
 -
 >
-Frame
-(
-)
--
->
 In3DContextAndBackfaceIsHidden
 (
 )
@@ -18753,11 +18748,6 @@ itemASR
 layerClipChain
 itemVisibleRect
 item
--
->
-Frame
-(
-)
 -
 >
 In3DContextAndBackfaceIsHidden
