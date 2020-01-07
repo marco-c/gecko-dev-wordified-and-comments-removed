@@ -841,6 +841,11 @@ mRunsToCompletion
 :
 1
 ;
+bool
+mIsBlockingOnload
+:
+1
+;
 uint32_t
 mDeflectedCount
 ;

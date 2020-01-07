@@ -518,6 +518,10 @@ mRunsToCompletion
 (
 0
 )
+mIsBlockingOnload
+(
+false
+)
 mDeflectedCount
 (
 0
@@ -6382,6 +6386,9 @@ if
 (
 !
 mRunsToCompletion
+&
+&
+mIsBlockingOnload
 )
 {
 mDocument
@@ -6391,6 +6398,10 @@ UnblockOnload
 (
 true
 )
+;
+mIsBlockingOnload
+=
+false
 ;
 }
 }
@@ -6603,6 +6614,10 @@ mDocument
 BlockOnload
 (
 )
+;
+mIsBlockingOnload
+=
+true
 ;
 mBeginLoadTime
 =
