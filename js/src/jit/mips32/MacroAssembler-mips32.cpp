@@ -678,7 +678,14 @@ Assembler
 :
 :
 CauseI
-1
+6
+)
+;
+as_andi
+(
+ScratchRegister
+ScratchRegister
+0x11
 )
 ;
 ma_b
