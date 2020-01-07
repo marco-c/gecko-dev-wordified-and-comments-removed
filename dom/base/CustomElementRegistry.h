@@ -647,8 +647,9 @@ nsCycleCollectionTraversalCallback
 aCb
 )
 const
-{
-}
+=
+0
+;
 bool
 IsUpgradeReaction
 (
