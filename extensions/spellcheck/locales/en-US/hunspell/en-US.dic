@@ -1,4 +1,4 @@
-52568
+52579
 0
 /
 nm
@@ -63937,6 +63937,7 @@ Y
 discover
 /
 ABSDG
+discoverability
 discovered
 /
 U
@@ -65051,6 +65052,8 @@ SM
 dooryard
 /
 MS
+doozie
+doozy
 dopa
 /
 M
@@ -66100,7 +66103,7 @@ duplicate
 s
 duplicate
 /
-AGNDS
+AGNDSV
 duplication
 /
 AM
@@ -76271,6 +76274,7 @@ GNDS
 germination
 /
 M
+gerontocracy
 gerontological
 gerontologist
 /
@@ -87559,6 +87563,7 @@ S
 kaiser
 /
 MS
+kakistocracy
 kale
 /
 M
@@ -99860,6 +99865,7 @@ nymphomaniac
 /
 SM
 nymphs
+nystagmus
 n
 e
 o
@@ -106667,7 +106673,7 @@ plea
 MS
 plead
 /
-DRZGSJ
+DRZGSJA
 pleader
 /
 M
@@ -108152,6 +108158,7 @@ SM
 practitioner
 /
 SM
+praecipe
 praetor
 /
 SM
@@ -113216,6 +113223,7 @@ SM
 registry
 /
 SM
+reglet
 regnant
 regress
 /
@@ -117200,6 +117208,8 @@ scheduler
 /
 S
 schema
+/
+S
 schemata
 schematic
 /
@@ -125407,6 +125417,9 @@ DSMG
 stopwatch
 /
 MS
+stopword
+/
+S
 storage
 /
 M
@@ -138436,6 +138449,9 @@ M
 wicket
 /
 SM
+wicking
+/
+S
 wide
 /
 YTRP
@@ -139722,6 +139738,9 @@ xcvii
 xenon
 /
 M
+xenophile
+/
+S
 xenophobe
 /
 MS
