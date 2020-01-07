@@ -389,6 +389,12 @@ status
 UIState
 .
 STATUS_SIGNED_IN
+lastSync
+:
+new
+Date
+(
+)
 email
 :
 "
