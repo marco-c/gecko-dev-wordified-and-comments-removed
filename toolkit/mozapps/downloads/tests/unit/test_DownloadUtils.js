@@ -1784,7 +1784,8 @@ statusFunc
 7
 [
 "
-1979d
+1
+979d
 22h
 left
 -
@@ -2533,7 +2534,8 @@ statusFunc
 7
 [
 "
-1979d
+1
+979d
 22h
 left
 -
