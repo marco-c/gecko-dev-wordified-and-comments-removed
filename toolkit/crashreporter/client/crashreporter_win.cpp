@@ -7716,6 +7716,11 @@ pop_back
 )
 ;
 }
+FindClose
+(
+dirlist
+)
+;
 }
 bool
 UIRunProgram
