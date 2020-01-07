@@ -59374,6 +59374,12 @@ alloc
 )
 jitinfo
 objKind
+commonGetter
+-
+>
+realm
+(
+)
 obj
 guard
 globalGuard
@@ -62937,6 +62943,12 @@ jitInfo
 >
 setter
 objKind
+setter
+-
+>
+realm
+(
+)
 obj
 value
 )
