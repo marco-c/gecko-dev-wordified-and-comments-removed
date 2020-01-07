@@ -3360,6 +3360,14 @@ HW_COMPOSITING
 {
 if
 (
+GDK_IS_X11_DISPLAY
+(
+gdk_display_get_default
+(
+)
+)
+&
+&
 gl
 :
 :
