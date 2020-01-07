@@ -4205,12 +4205,6 @@ HasSSE2
 ;
 static
 bool
-HasSSE4
-(
-)
-;
-static
-bool
 CheckSurfaceSize
 (
 const

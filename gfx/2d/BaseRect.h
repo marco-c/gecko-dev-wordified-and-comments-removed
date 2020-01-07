@@ -653,7 +653,6 @@ result
 .
 width
 <
-=
 0
 |
 |
@@ -661,7 +660,6 @@ result
 .
 height
 <
-=
 0
 )
 {
