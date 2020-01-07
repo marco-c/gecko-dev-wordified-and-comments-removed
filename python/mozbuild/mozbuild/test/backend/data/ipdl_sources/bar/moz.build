@@ -85,6 +85,16 @@ MPL
 0
 /
 .
+PREPROCESSED_IPDL_SOURCES
++
+=
+[
+'
+bar1
+.
+ipdl
+'
+]
 IPDL_SOURCES
 +
 =

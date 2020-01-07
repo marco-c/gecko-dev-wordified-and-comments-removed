@@ -806,7 +806,9 @@ _handle_ipdl_sources
 self
 ipdl_dir
 sorted_ipdl_sources
+sorted_nonstatic_ipdl_sources
                              
+sorted_static_ipdl_sources
 unified_ipdl_cppsrcs_mapping
 )
 :
