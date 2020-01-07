@@ -245,9 +245,6 @@ CustomEvent
 Directory
 "
 "
-DOMCursor
-"
-"
 DOMError
 "
 "

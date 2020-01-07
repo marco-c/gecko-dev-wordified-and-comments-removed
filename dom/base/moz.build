@@ -152,11 +152,6 @@ nsIDocumentEncoder
 idl
 '
 '
-nsIDOMDOMCursor
-.
-idl
-'
-'
 nsIDOMDOMRequest
 .
 idl
@@ -888,11 +883,6 @@ DocumentType
 h
 '
 '
-DOMCursor
-.
-h
-'
-'
 DOMError
 .
 h
@@ -1301,11 +1291,6 @@ cpp
 '
 '
 DocumentType
-.
-cpp
-'
-'
-DOMCursor
 .
 cpp
 '

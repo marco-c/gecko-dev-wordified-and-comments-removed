@@ -3124,11 +3124,6 @@ DocumentType
 webidl
 '
 '
-DOMCursor
-.
-webidl
-'
-'
 DOMError
 .
 webidl

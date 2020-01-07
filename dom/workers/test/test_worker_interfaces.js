@@ -633,16 +633,6 @@ true
 name
 :
 "
-DOMCursor
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 DOMError
 "
 insecureContext
