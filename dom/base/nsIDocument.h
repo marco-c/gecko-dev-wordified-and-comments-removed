@@ -4819,7 +4819,6 @@ void
 aData
 )
 ;
-virtual
 void
 EnumerateSubDocuments
 (
@@ -4829,8 +4828,6 @@ void
 *
 aData
 )
-=
-0
 ;
 typedef
 bool
@@ -4845,7 +4842,6 @@ nsIDocument
 aDocument
 )
 ;
-virtual
 void
 CollectDescendantDocuments
 (
@@ -4862,8 +4858,6 @@ nsDocTestFunc
 aCallback
 )
 const
-=
-0
 ;
 virtual
 bool
