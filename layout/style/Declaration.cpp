@@ -8159,9 +8159,6 @@ MOZ_FALLTHROUGH
 ;
 }
 case
-eCSSProperty_overflow_clip_box
-:
-case
 eCSSProperty_grid_gap
 :
 {
