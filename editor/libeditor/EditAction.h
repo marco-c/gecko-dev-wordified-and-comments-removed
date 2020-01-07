@@ -36,7 +36,7 @@ eRemoveTextProperty
 eComputeTextToOutput
 eSetText
 eInsertParagraphSeparator
-makeList
+eCreateOrChangeList
 indent
 outdent
 align
