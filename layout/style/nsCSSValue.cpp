@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+CORSMode
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h
@@ -17661,6 +17670,10 @@ GetReferrer
 (
 )
 this
+CORSMode
+:
+:
+CORS_NONE
 )
 ;
 mLoadedImage
