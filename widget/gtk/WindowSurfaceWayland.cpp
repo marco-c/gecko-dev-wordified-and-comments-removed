@@ -176,7 +176,7 @@ EVENT_LOOP_DELAY
 (
 1000
 /
-60
+240
 )
 static
 nsWaylandDisplay
