@@ -4165,6 +4165,11 @@ StartImageLoad
 nsIDocument
 *
 aDocument
+mozilla
+:
+:
+CORSMode
+aCORSMode
 )
 const
 ;

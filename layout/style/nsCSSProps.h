@@ -1219,6 +1219,15 @@ CSS_PROPERTY_ABSPOS_CB
 <
 30
 )
+#
+define
+CSS_PROPERTY_LOAD_USE_CORS
+(
+1U
+<
+<
+31
+)
 enum
 nsStyleAnimType
 {
