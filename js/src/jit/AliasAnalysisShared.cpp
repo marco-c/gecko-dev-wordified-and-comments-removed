@@ -750,15 +750,6 @@ MDefinition
 Opcode
 :
 :
-GuardClass
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 GuardUnboxedExpando
 :
 case

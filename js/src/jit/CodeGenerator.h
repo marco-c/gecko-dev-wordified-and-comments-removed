@@ -1007,14 +1007,6 @@ guard
 )
 ;
 void
-visitGuardClass
-(
-LGuardClass
-*
-guard
-)
-;
-void
 visitGuardObjectIdentity
 (
 LGuardObjectIdentity
@@ -1854,6 +1846,8 @@ lir
 Register
 obj
 Register
+expandoScratch
+Register
 scratch
 const
 TypedOrValueRegister
@@ -1885,6 +1879,8 @@ LInstruction
 lir
 Register
 obj
+Register
+expandoScratch
 Register
 scratch
 const

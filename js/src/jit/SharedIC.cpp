@@ -13821,7 +13821,7 @@ offsetOfGroup
 ;
 masm
 .
-branchTestObjGroup
+branchTestObjGroupNoSpectreMitigations
 (
 Assembler
 :

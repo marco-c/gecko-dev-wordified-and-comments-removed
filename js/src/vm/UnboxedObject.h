@@ -1095,7 +1095,8 @@ false
 )
 ;
 static
-bool
+NativeObject
+*
 convertToNative
 (
 JSContext

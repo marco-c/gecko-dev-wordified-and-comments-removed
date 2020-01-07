@@ -19188,6 +19188,14 @@ object
 ;
 if
 (
+!
+JitOptions
+.
+spectreObjectMitigationsMisc
+)
+{
+if
+(
 def
 -
 >
@@ -19208,6 +19216,7 @@ object
 (
 )
 ;
+}
 return
 nullptr
 ;
