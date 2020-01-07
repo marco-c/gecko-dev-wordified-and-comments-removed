@@ -1853,6 +1853,27 @@ unloadEventStart
     
 ]
     
+successes
+=
+[
+r
+for
+r
+in
+results
+if
+r
+[
+'
+domComplete
+'
+]
+!
+=
+-
+1
+]
+    
 with
 open
 (
@@ -1892,7 +1913,7 @@ writer
 .
 writerows
 (
-results
+successes
 )
 def
 format_result_summary
