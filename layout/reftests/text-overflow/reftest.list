@@ -197,8 +197,8 @@ fuzzy
 if
 (
 skiaContent
-16
-435
+9
+2100
 )
 fails
 -
@@ -240,10 +240,6 @@ gtkWidget
 :
 bug
 1309103
-skia
-:
-subpixel
-aa
 =
 =
 false
