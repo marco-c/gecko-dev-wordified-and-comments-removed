@@ -195,7 +195,7 @@ data
 /
 test_dictionary
 .
-rdf
+json
 "
 testserver
 )
@@ -4606,7 +4606,7 @@ data
 /
 test_dictionary
 .
-rdf
+json
 "
 targetApplications
 :
@@ -4849,7 +4849,7 @@ data
 /
 test_dictionary
 .
-rdf
+json
 "
 targetApplications
 :
@@ -5089,7 +5089,7 @@ data
 /
 test_dictionary
 .
-rdf
+json
 "
 targetApplications
 :

@@ -59,7 +59,7 @@ data
 /
 test_updatecompatmode_ignore
 .
-rdf
+json
 "
 testserver
 )
@@ -72,7 +72,7 @@ data
 /
 test_updatecompatmode_normal
 .
-rdf
+json
 "
 testserver
 )
@@ -85,7 +85,7 @@ data
 /
 test_updatecompatmode_strict
 .
-rdf
+json
 "
 testserver
 )
@@ -203,7 +203,7 @@ test_updatecompatmode_
 COMPATIBILITY_MODE
 %
 .
-rdf
+json
 "
 targetApplications
 :
@@ -287,7 +287,7 @@ test_updatecompatmode_
 COMPATIBILITY_MODE
 %
 .
-rdf
+json
 "
 targetApplications
 :
@@ -373,7 +373,7 @@ test_updatecompatmode_
 COMPATIBILITY_MODE
 %
 .
-rdf
+json
 "
 targetApplications
 :
@@ -463,7 +463,7 @@ test_updatecompatmode_
 COMPATIBILITY_MODE
 %
 .
-rdf
+json
 "
 targetApplications
 :

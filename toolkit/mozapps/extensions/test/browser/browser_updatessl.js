@@ -34,14 +34,14 @@ tempScope
 AddonUpdateChecker
 ;
 const
-updaterdf
+updatejson
 =
 RELATIVE_DIR
 +
 "
 browser_updatessl
 .
-rdf
+json
 "
 ;
 const
@@ -551,7 +551,7 @@ redirect
 +
 redirectURL
 +
-updaterdf
+updatejson
 ;
 var
 message
@@ -586,7 +586,7 @@ url
 =
 mainURL
 +
-updaterdf
+updatejson
 ;
 message
 =
