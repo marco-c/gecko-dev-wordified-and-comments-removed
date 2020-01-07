@@ -764,6 +764,12 @@ popBack
 (
 )
 ;
+framePtr
+.
+clearHasCachedSavedFrame
+(
+)
+;
 frame
 .
 set
