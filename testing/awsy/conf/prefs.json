@@ -89,4 +89,15 @@ homepage_welcome_url
 :
 "
 "
+"
+security
+.
+sandbox
+.
+content
+.
+level
+"
+:
+0
 }
