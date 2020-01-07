@@ -2021,7 +2021,7 @@ ByteIndex
 >
 advance
 :
-f32
+Au
 )
 -
 >
@@ -2031,13 +2031,7 @@ let
 mut
 remaining
 =
-Au
-:
-:
-from_f32_px
-(
 advance
-)
 ;
 self
 .
