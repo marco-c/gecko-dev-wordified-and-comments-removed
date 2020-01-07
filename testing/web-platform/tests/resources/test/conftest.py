@@ -744,6 +744,17 @@ nums
 )
 :
         
+if
+nums
+and
+len
+(
+nums
+)
+>
+0
+:
+            
 assert
 nums
 =
