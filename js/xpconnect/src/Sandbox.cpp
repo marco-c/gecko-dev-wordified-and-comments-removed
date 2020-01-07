@@ -5705,15 +5705,6 @@ nsXPConnect
 SystemPrincipal
 (
 )
-|
-|
-nsContentUtils
-:
-:
-IsExpandedPrincipal
-(
-principal
-)
 ;
 if
 (
