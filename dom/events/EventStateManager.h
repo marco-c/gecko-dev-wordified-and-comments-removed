@@ -2086,6 +2086,15 @@ aEvent
 ;
 private
 :
+bool
+IsEventOutsideDragThreshold
+(
+WidgetInputEvent
+*
+aEvent
+)
+const
+;
 static
 inline
 void
