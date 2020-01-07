@@ -150,7 +150,7 @@ getWriteTestFile
 let
 file
 =
-getAppBaseDir
+getUpdatesRootDir
 (
 )
 ;
