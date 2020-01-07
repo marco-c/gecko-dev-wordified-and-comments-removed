@@ -1513,13 +1513,6 @@ strip
 -
 enable
 -
-ion
-'
-'
--
--
-enable
--
 ios
 -
 target
@@ -1719,13 +1712,6 @@ sandbox
 enable
 -
 signmar
-'
-'
--
--
-enable
--
-simulator
 '
 '
 -
