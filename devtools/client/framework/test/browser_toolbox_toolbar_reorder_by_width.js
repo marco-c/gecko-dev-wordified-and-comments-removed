@@ -88,7 +88,6 @@ resized
 ;
 let
 {
-hostWin
 originalWidth
 originalHeight
 }
@@ -299,7 +298,6 @@ overflow
 ;
 let
 {
-hostWin
 originalWidth
 originalHeight
 }

@@ -108,9 +108,6 @@ exist
 "
 )
 ;
-let
-front
-=
 new
 WebAudioFront
 (

@@ -2,12 +2,6 @@ var
 toolbox
 target
 ;
-var
-tempScope
-=
-{
-}
-;
 function
 test
 (

@@ -170,9 +170,6 @@ toolbox
 =
 aToolbox
 ;
-var
-resolveToolInstanceBuild
-;
 waitForToolInstanceBuild
 =
 new

@@ -107,7 +107,6 @@ netmonitor
 let
 {
 store
-windowRequire
 }
 =
 monitor

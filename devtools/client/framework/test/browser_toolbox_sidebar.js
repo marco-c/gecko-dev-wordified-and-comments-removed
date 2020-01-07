@@ -115,9 +115,6 @@ p
 "
 ;
 let
-panelDoc
-;
-let
 tab1Selected
 =
 false

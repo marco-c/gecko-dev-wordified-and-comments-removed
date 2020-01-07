@@ -70,9 +70,6 @@ selectedTool
 "
 )
 ;
-let
-tab
-=
 await
 addTab
 (
