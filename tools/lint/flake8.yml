@@ -203,10 +203,6 @@ py
 -
 tools
 /
-git
--
-tools
-/
 lint
 -
 tools
@@ -214,10 +210,6 @@ tools
 mach_commands
 .
 py
--
-tools
-/
-mercurial
 -
 tools
 /
