@@ -3537,15 +3537,6 @@ dom
 /
 traversal
 /
-NodeIterator
-.
-html
-GENERATE_TESTS
-:
-dom
-/
-traversal
-/
 TreeWalker
 .
 html
