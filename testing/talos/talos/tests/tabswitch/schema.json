@@ -84,7 +84,7 @@ properties
 :
 {
 "
-frameScriptPath
+processScriptPath
 "
 :
 {
@@ -104,7 +104,7 @@ Relative
 path
 for
 the
-frame
+process
 script
 to
 load

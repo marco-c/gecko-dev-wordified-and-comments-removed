@@ -1,5 +1,5 @@
 let
-frameScriptPath
+processScriptPath
 =
 "
 content
@@ -20,7 +20,7 @@ tps
 setup
 (
 {
-frameScriptPath
+processScriptPath
 }
 )
 ;
