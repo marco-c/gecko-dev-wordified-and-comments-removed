@@ -1623,7 +1623,11 @@ except
 Exception
 :
             
-pass
+traceback
+.
+print_exc
+(
+)
     
 return
 result

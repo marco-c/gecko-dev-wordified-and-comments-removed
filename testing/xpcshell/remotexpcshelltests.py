@@ -1609,25 +1609,6 @@ xpc
 "
 )
         
-androidVersion
-=
-self
-.
-device
-.
-get_prop
-(
-'
-ro
-.
-build
-.
-version
-.
-sdk
-'
-)
-        
 mozinfo
 .
 info
@@ -1637,7 +1618,11 @@ android_version
 '
 ]
 =
-androidVersion
+self
+.
+device
+.
+version
         
 self
 .
