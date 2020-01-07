@@ -633,7 +633,6 @@ JS_HAS_HIDDEN_SP
 struct
 RegisterOrSP
 {
-const
 uint32_t
 code
 ;
