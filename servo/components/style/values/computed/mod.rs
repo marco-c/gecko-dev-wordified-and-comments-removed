@@ -806,6 +806,7 @@ text
 :
 {
 TextAlign
+TextEmphasisStyle
 TextOverflow
 WordSpacing
 }
