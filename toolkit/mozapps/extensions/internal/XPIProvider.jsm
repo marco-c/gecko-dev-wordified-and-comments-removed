@@ -3811,6 +3811,17 @@ if
 (
 aAddon
 .
+brokenManifest
+)
+{
+return
+false
+;
+}
+if
+(
+aAddon
+.
 type
 =
 =
