@@ -4263,6 +4263,12 @@ other
 id
 ;
 }
+static
+WrScrollId
+RootScrollNode
+(
+)
+;
 }
 ;
 struct
