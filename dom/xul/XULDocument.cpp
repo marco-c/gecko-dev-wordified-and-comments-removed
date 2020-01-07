@@ -2348,17 +2348,6 @@ aAttribute
 nsGkAtoms
 :
 :
-ref
-)
-|
-|
-(
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
 persist
 )
 |
