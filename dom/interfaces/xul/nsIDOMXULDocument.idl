@@ -133,10 +133,6 @@ nsIDOMXULDocument
 :
 nsIDOMDocument
 {
-attribute
-nsIDOMNode
-popupNode
-;
 /
 *
 *
