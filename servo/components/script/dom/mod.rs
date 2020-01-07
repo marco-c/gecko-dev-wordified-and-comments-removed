@@ -627,6 +627,10 @@ htmlparamelement
 ;
 pub
 mod
+htmlpictureelement
+;
+pub
+mod
 htmlpreelement
 ;
 pub
