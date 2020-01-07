@@ -4989,6 +4989,7 @@ name
 \
 AppendString
 (
+cx
 source
 #
 name
@@ -5009,6 +5010,7 @@ TYPE_void_t
 :
 AppendString
 (
+cx
 source
 "
 void
@@ -5136,6 +5138,7 @@ typeObj
 ;
 AppendString
 (
+cx
 source
 "
 struct
@@ -5144,6 +5147,7 @@ struct
 ;
 AppendString
 (
+cx
 source
 name
 )
@@ -5237,6 +5241,7 @@ source
 ;
 AppendString
 (
+cx
 source
 "
 "
@@ -5257,6 +5262,7 @@ ptrCount
 ;
 AppendString
 (
+cx
 source
 nameStr
 )
@@ -5270,6 +5276,7 @@ ptrCount
 {
 AppendString
 (
+cx
 source
 "
 (
@@ -5287,6 +5294,7 @@ ptrCount
 ;
 AppendString
 (
+cx
 source
 "
 )
@@ -5296,6 +5304,7 @@ source
 }
 AppendString
 (
+cx
 source
 "
 (
@@ -5377,6 +5386,7 @@ mIsVariadic
 {
 AppendString
 (
+cx
 source
 "
 "
@@ -5394,6 +5404,7 @@ mIsVariadic
 {
 AppendString
 (
+cx
 source
 "
 .
@@ -5406,6 +5417,7 @@ source
 }
 AppendString
 (
+cx
 source
 "
 )
@@ -5594,6 +5606,7 @@ cx
 ;
 AppendString
 (
+cx
 source
 "
 <
@@ -5613,6 +5626,7 @@ return
 }
 AppendString
 (
+cx
 source
 funcStr
 )
@@ -5668,6 +5682,7 @@ funObj
 ;
 AppendString
 (
+cx
 source
 "
 at
@@ -5685,6 +5700,7 @@ argIndex
 ;
 AppendString
 (
+cx
 source
 "
 of
@@ -5714,6 +5730,7 @@ funObj
 ;
 AppendString
 (
+cx
 source
 "
 at
@@ -5745,6 +5762,7 @@ funObj
 ;
 AppendString
 (
+cx
 source
 "
 at
@@ -18680,6 +18698,7 @@ TYPE_pointer
 {
 PrependString
 (
+cx
 result
 "
 *
@@ -18717,6 +18736,7 @@ TYPE_pointer
 {
 PrependString
 (
+cx
 result
 "
 (
@@ -18725,6 +18745,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 )
@@ -18734,6 +18755,7 @@ result
 }
 AppendString
 (
+cx
 result
 "
 [
@@ -18764,6 +18786,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 ]
@@ -18823,6 +18846,7 @@ ABI_STDCALL
 )
 PrependString
 (
+cx
 result
 "
 __stdcall
@@ -18839,6 +18863,7 @@ ABI_THISCALL
 )
 PrependString
 (
+cx
 result
 "
 __thiscall
@@ -18855,6 +18880,7 @@ ABI_WINAPI
 )
 PrependString
 (
+cx
 result
 "
 WINAPI
@@ -18871,6 +18897,7 @@ TYPE_pointer
 {
 PrependString
 (
+cx
 result
 "
 (
@@ -18879,6 +18906,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 )
@@ -18888,6 +18916,7 @@ result
 }
 AppendString
 (
+cx
 result
 "
 (
@@ -18945,6 +18974,7 @@ argType
 ;
 AppendString
 (
+cx
 result
 argName
 )
@@ -18973,6 +19003,7 @@ mIsVariadic
 )
 AppendString
 (
+cx
 result
 "
 "
@@ -18988,6 +19019,7 @@ mIsVariadic
 )
 AppendString
 (
+cx
 result
 "
 .
@@ -18998,6 +19030,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 )
@@ -19045,6 +19078,7 @@ _
 )
 PrependString
 (
+cx
 result
 "
 "
@@ -19065,6 +19099,7 @@ typeObj
 ;
 PrependString
 (
+cx
 result
 baseName
 )
@@ -19139,6 +19174,7 @@ CASE_FOR_TYPE
 {
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -19161,6 +19197,7 @@ typeObj
 ;
 AppendString
 (
+cx
 result
 nameStr
 )
@@ -19201,6 +19238,7 @@ TYPE_void_t
 {
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -19222,6 +19260,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 .
@@ -19250,6 +19289,7 @@ typeObj
 ;
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -19275,6 +19315,7 @@ ABI_DEFAULT
 :
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -19290,6 +19331,7 @@ ABI_STDCALL
 :
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -19305,6 +19347,7 @@ ABI_THISCALL
 :
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -19320,6 +19363,7 @@ ABI_WINAPI
 :
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -19369,6 +19413,7 @@ length
 {
 AppendString
 (
+cx
 result
 "
 [
@@ -19436,6 +19481,7 @@ mIsVariadic
 )
 AppendString
 (
+cx
 result
 "
 "
@@ -19451,6 +19497,7 @@ mIsVariadic
 )
 AppendString
 (
+cx
 result
 "
 \
@@ -19465,6 +19512,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 ]
@@ -19474,6 +19522,7 @@ result
 }
 AppendString
 (
+cx
 result
 "
 )
@@ -19509,6 +19558,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 .
@@ -19541,6 +19591,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 )
@@ -19574,6 +19625,7 @@ makeShort
 {
 AppendString
 (
+cx
 result
 name
 )
@@ -19583,6 +19635,7 @@ break
 }
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -19596,12 +19649,14 @@ StructType
 ;
 AppendString
 (
+cx
 result
 name
 )
 ;
 AppendString
 (
+cx
 result
 "
 \
@@ -19623,6 +19678,7 @@ typeObj
 {
 AppendString
 (
+cx
 result
 "
 )
@@ -19634,6 +19690,7 @@ break
 }
 AppendString
 (
+cx
 result
 "
 [
@@ -19769,6 +19826,7 @@ i
 ;
 AppendString
 (
+cx
 result
 "
 {
@@ -19779,6 +19837,7 @@ result
 ;
 AppendString
 (
+cx
 result
 entry
 -
@@ -19790,6 +19849,7 @@ key
 ;
 AppendString
 (
+cx
 result
 "
 \
@@ -19815,6 +19875,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 }
@@ -19832,6 +19893,7 @@ length
 )
 AppendString
 (
+cx
 result
 "
 "
@@ -19840,6 +19902,7 @@ result
 }
 AppendString
 (
+cx
 result
 "
 ]
@@ -19904,6 +19967,7 @@ data
 )
 AppendString
 (
+cx
 result
 "
 true
@@ -19913,6 +19977,7 @@ true
 else
 AppendString
 (
+cx
 result
 "
 false
@@ -20016,6 +20081,7 @@ is_signed
 \
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -20032,6 +20098,7 @@ else
 \
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -20063,6 +20130,7 @@ result
 \
 AppendString
 (
+cx
 result
 "
 \
@@ -20294,6 +20362,7 @@ false
 ;
 AppendString
 (
+cx
 result
 src
 )
@@ -20323,6 +20392,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 (
@@ -20345,6 +20415,7 @@ data
 ;
 AppendString
 (
+cx
 result
 "
 ctypes
@@ -20366,6 +20437,7 @@ result
 ;
 AppendString
 (
+cx
 result
 "
 \
@@ -20380,6 +20452,7 @@ isImplicit
 )
 AppendString
 (
+cx
 result
 "
 )
@@ -20408,6 +20481,7 @@ typeObj
 ;
 AppendString
 (
+cx
 result
 "
 [
@@ -20494,6 +20568,7 @@ length
 )
 AppendString
 (
+cx
 result
 "
 "
@@ -20502,6 +20577,7 @@ result
 }
 AppendString
 (
+cx
 result
 "
 ]
@@ -20522,6 +20598,7 @@ isImplicit
 {
 AppendString
 (
+cx
 result
 "
 {
@@ -20664,6 +20741,7 @@ isImplicit
 {
 AppendString
 (
+cx
 result
 "
 \
@@ -20673,6 +20751,7 @@ result
 ;
 AppendString
 (
+cx
 result
 entry
 -
@@ -20684,6 +20763,7 @@ key
 ;
 AppendString
 (
+cx
 result
 "
 \
@@ -20755,6 +20835,7 @@ length
 )
 AppendString
 (
+cx
 result
 "
 "
@@ -20767,6 +20848,7 @@ isImplicit
 )
 AppendString
 (
+cx
 result
 "
 }
@@ -23720,6 +23802,7 @@ type
 ;
 AppendString
 (
+cx
 type
 "
 type
@@ -23728,6 +23811,7 @@ type
 ;
 AppendString
 (
+cx
 type
 GetName
 (
@@ -33728,6 +33812,9 @@ FunctionType
 :
 BuildSymbolName
 (
+JSContext
+*
+cx
 JSString
 *
 name
@@ -33770,6 +33857,7 @@ ABI_WINAPI
 :
 AppendString
 (
+cx
 result
 name
 )
@@ -33803,6 +33891,7 @@ _OS2
 )
 AppendString
 (
+cx
 result
 "
 _
@@ -33811,12 +33900,14 @@ _
 ;
 AppendString
 (
+cx
 result
 name
 )
 ;
 AppendString
 (
+cx
 result
 "
 "
@@ -33896,6 +33987,7 @@ _WIN64
 )
 AppendString
 (
+cx
 result
 name
 )
@@ -40188,6 +40280,7 @@ source
 ;
 AppendString
 (
+cx
 source
 "
 (
@@ -40211,6 +40304,7 @@ nullptr
 ;
 AppendString
 (
+cx
 source
 "
 )
@@ -40720,6 +40814,7 @@ source
 ;
 AppendString
 (
+cx
 source
 "
 ctypes
@@ -40758,12 +40853,14 @@ false
 }
 AppendString
 (
+cx
 source
 srcValue
 )
 ;
 AppendString
 (
+cx
 source
 "
 "
@@ -40834,12 +40931,14 @@ false
 }
 AppendString
 (
+cx
 source
 srcDispose
 )
 ;
 AppendString
 (
+cx
 source
 "
 )
@@ -43743,6 +43842,7 @@ isUnsigned
 {
 AppendString
 (
+cx
 source
 "
 ctypes
@@ -43769,6 +43869,7 @@ else
 {
 AppendString
 (
+cx
 source
 "
 ctypes
@@ -43799,6 +43900,7 @@ source
 }
 AppendString
 (
+cx
 source
 "
 \
