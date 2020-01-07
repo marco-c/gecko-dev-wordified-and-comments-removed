@@ -67,7 +67,10 @@ dom
 servoparser
 :
 :
+{
+ParsingAlgorithm
 Sink
+}
 ;
 use
 js
@@ -203,6 +206,12 @@ Default
 default
 (
 )
+parsing_algorithm
+:
+ParsingAlgorithm
+:
+:
+Normal
 }
 ;
 let
