@@ -697,10 +697,6 @@ AssignedDisplayItem
 nsDisplayItem
 *
 aItem
-const
-DisplayItemClip
-&
-aClip
 LayerState
 aLayerState
 DisplayItemData
@@ -721,9 +717,6 @@ AssignedDisplayItem
 nsDisplayItem
 *
 mItem
-;
-DisplayItemClip
-mClip
 ;
 LayerState
 mLayerState
