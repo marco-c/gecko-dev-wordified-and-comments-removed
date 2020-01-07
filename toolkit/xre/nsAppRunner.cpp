@@ -1540,12 +1540,17 @@ BinaryPath
 h
 "
 #
+ifndef
+MOZ_BUILDID
+#
 include
 "
 buildid
 .
 h
 "
+#
+endif
 #
 ifdef
 MOZ_LINKER
