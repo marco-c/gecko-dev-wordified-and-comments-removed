@@ -271,7 +271,7 @@ sequence
 AttributeNameValue
 >
 ?
-attrs
+attributes
 =
 null
 ;

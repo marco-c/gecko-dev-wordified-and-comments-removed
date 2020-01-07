@@ -12626,7 +12626,7 @@ l10nData
 i
 ]
 .
-mAttrs
+mAttributes
 ;
 if
 (
