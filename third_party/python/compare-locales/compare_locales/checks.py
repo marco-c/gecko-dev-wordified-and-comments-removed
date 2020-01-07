@@ -1648,13 +1648,14 @@ __known_entities
 .
 update
 (
+                    
 self
 .
 entities_for_value
 (
 ent
 .
-val
+raw_val
 )
 )
         
@@ -2001,10 +2002,10 @@ l10nValue
 =
 refEnt
 .
-val
+raw_val
 l10nEnt
 .
-val
+raw_val
         
 reflist
 =
@@ -3738,12 +3739,7 @@ yield
 '
 error
 '
-l10n_entry
-.
-span
-.
-start
-                   
+0
 '
 Missing
 value
@@ -3768,11 +3764,8 @@ not
 None
 :
             
-yield
-(
-'
-error
-'
+offset
+=
 l10n_entry
 .
 value
@@ -3780,7 +3773,19 @@ value
 span
 .
 start
-                   
+-
+l10n_entry
+.
+span
+.
+start
+            
+yield
+(
+'
+error
+'
+offset
 '
 Obsolete
 value
@@ -3902,12 +3907,9 @@ cnt
 1
 :
                 
-yield
+offset
+=
 (
-                    
-'
-warning
-'
                     
 l10n_entry
 .
@@ -3922,6 +3924,23 @@ attr_name
 span
 .
 start
+                    
+-
+l10n_entry
+.
+span
+.
+start
+)
+                
+yield
+(
+                    
+'
+warning
+'
+                    
+offset
                     
 '
 Attribute
@@ -3977,12 +3996,7 @@ yield
 '
 error
 '
-l10n_entry
-.
-span
-.
-start
-                   
+0
 '
 Missing
 attribute
@@ -4050,6 +4064,12 @@ yield
 error
 '
 attr
+.
+span
+.
+start
+-
+l10n_entry
 .
 span
 .

@@ -9,6 +9,16 @@ import
 MergeContext
 from
 .
+errors
+import
+(
+    
+MigrationError
+NotSupportedError
+UnreadableReferenceError
+)
+from
+.
 transforms
 import
 (
@@ -26,7 +36,6 @@ helpers
 import
 (
     
-LITERAL
 EXTERNAL_ARGUMENT
 MESSAGE_REFERENCE
 )

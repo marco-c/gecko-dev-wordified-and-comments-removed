@@ -14,25 +14,23 @@ TestCase
 :
     
 def
-test_lines
+test_linecol
 (
 self
 )
 :
         
 "
-Test
-that
-Parser
-.
-Context
-.
-lines
-returns
+Should
+return
 1
 -
 based
-tuples
+line
+and
+column
+numbers
+.
 "
         
 ctx
@@ -64,22 +62,15 @@ assertEqual
             
 ctx
 .
-lines
+linecol
 (
 0
-1
 )
             
-[
 (
 1
 1
 )
-(
-1
-2
-)
-]
         
 )
         
@@ -90,7 +81,26 @@ assertEqual
             
 ctx
 .
-lines
+linecol
+(
+1
+)
+            
+(
+1
+2
+)
+        
+)
+        
+self
+.
+assertEqual
+(
+            
+ctx
+.
+linecol
 (
 len
 (
@@ -101,7 +111,6 @@ line
 )
 )
             
-[
 (
 1
 len
@@ -114,7 +123,6 @@ line
 +
 1
 )
-]
         
 )
         
@@ -125,7 +133,7 @@ assertEqual
             
 ctx
 .
-lines
+linecol
 (
 len
 (
@@ -138,12 +146,10 @@ line
 1
 )
             
-[
 (
 2
 1
 )
-]
         
 )
         
@@ -154,7 +160,7 @@ assertEqual
             
 ctx
 .
-lines
+linecol
 (
 len
 (
@@ -164,12 +170,10 @@ contents
 )
 )
             
-[
 (
 4
 1
 )
-]
         
 )
     
