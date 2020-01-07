@@ -4849,6 +4849,7 @@ target
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 SurfaceFromElementResult
 SurfaceFromElement
@@ -5124,6 +5125,12 @@ CSSFiltersEnabled
 static
 bool
 UnsetValueEnabled
+(
+)
+;
+static
+bool
+IsGridTemplateSubgridValueEnabled
 (
 )
 ;

@@ -866,6 +866,7 @@ aError
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 GetInnerText
 (
@@ -1260,6 +1261,7 @@ nsGenericHTMLElement
 }
 public
 :
+MOZ_CAN_RUN_SCRIPT
 nsSize
 GetWidthHeightForImage
 (

@@ -394,6 +394,7 @@ aError
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 uint32_t
 Width
 (
@@ -430,6 +431,7 @@ aError
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 uint32_t
 Height
 (
