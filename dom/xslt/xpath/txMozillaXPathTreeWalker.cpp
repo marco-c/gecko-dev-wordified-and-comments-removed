@@ -1329,12 +1329,8 @@ aNode
 mNode
 -
 >
-IsNodeOfType
+IsProcessingInstruction
 (
-nsINode
-:
-:
-ePROCESSING_INSTRUCTION
 )
 )
 {
@@ -1566,12 +1562,8 @@ aNode
 mNode
 -
 >
-IsNodeOfType
+IsProcessingInstruction
 (
-nsINode
-:
-:
-ePROCESSING_INSTRUCTION
 )
 )
 {

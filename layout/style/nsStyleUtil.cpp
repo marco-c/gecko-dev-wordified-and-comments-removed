@@ -3845,12 +3845,8 @@ IsComment
 aChild
 -
 >
-IsNodeOfType
+IsProcessingInstruction
 (
-nsINode
-:
-:
-ePROCESSING_INSTRUCTION
 )
 )
 {
@@ -3930,12 +3926,8 @@ IsComment
 aChild
 -
 >
-IsNodeOfType
+IsProcessingInstruction
 (
-nsINode
-:
-:
-ePROCESSING_INSTRUCTION
 )
 )
 {
