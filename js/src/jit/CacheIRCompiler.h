@@ -53,6 +53,11 @@ GuardIsSymbol
 \
 _
 (
+GuardIsNumber
+)
+\
+_
+(
 GuardIsInt32Index
 )
 \
