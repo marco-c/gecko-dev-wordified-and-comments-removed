@@ -8229,6 +8229,13 @@ request
 mKind
 )
 {
+request
+-
+>
+Cancel
+(
+)
+;
 AccumulateCategorical
 (
 LABELS_DOM_SCRIPT_PRELOAD_RESULT
