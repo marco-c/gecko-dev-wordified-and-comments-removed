@@ -13599,6 +13599,7 @@ id
 ;
 }
 }
+JS_HAZ_ROOTED
 ;
 namespace
 binding_detail
