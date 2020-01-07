@@ -1058,7 +1058,6 @@ define
 STYLE_STRUCT
 (
 name_
-cb_
 )
 \
 static_assert
@@ -11748,7 +11747,6 @@ define
 STYLE_STRUCT
 (
 name
-checkdata_cb
 )
 \
 \

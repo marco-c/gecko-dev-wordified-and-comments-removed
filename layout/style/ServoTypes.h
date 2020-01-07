@@ -18,7 +18,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 struct
 nsStyle
@@ -337,7 +336,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 struct
 Gecko
@@ -470,7 +468,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 mozilla

@@ -777,7 +777,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 inline
@@ -810,7 +809,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 inline
@@ -842,7 +840,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 inline
@@ -1107,7 +1104,6 @@ define
 STYLE_STRUCT_INHERITED
 (
 name_
-checkdata_cb_
 )
 \
 template
@@ -1134,7 +1130,6 @@ define
 STYLE_STRUCT_RESET
 (
 name_
-checkdata_cb_
 )
 \
 template

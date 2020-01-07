@@ -738,7 +738,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 const

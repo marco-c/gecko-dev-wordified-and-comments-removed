@@ -214,7 +214,6 @@ define
 STYLE_STRUCT
 (
 name
-checkdata_cb
 )
 eDebugStyleStruct_
 #
@@ -237,7 +236,6 @@ define
 STYLE_STRUCT
 (
 name
-checkdata_cb
 )
 \
 static_assert
@@ -892,7 +890,6 @@ define
 STYLE_STRUCT
 (
 name_
-callback_
 )
 \
 MOZ_ASSERT
@@ -1859,7 +1856,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb
 )
 \
 case
@@ -1917,7 +1913,6 @@ define
 STYLE_STRUCT
 (
 name_
-checkdata_cb_
 )
 \
 else
