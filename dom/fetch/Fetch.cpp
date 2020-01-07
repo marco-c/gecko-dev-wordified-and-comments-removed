@@ -6164,11 +6164,15 @@ Abort
 (
 )
 {
-MOZ_ASSERT
+if
 (
+!
 mReadableStreamBody
 )
+{
+return
 ;
+}
 AutoJSAPI
 jsapi
 ;
