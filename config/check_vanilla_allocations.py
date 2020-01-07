@@ -370,6 +370,16 @@ filename
             
 continue
         
+if
+"
+ProfilingStack
+"
+in
+filename
+:
+            
+continue
+        
 fn
 =
 m
