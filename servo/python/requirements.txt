@@ -95,6 +95,14 @@ pyflakes
 For
 buildbot
 checking
+voluptuous
+=
+=
+0
+.
+10
+.
+5
 PyYAML
 =
 =

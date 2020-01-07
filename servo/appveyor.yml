@@ -23,6 +23,10 @@ ccache
 RUST_BACKTRACE
 :
 1
+RUSTFLAGS
+:
+-
+Dwarnings
 #
 The
 appveyor
@@ -541,13 +545,6 @@ ps1
 )
 build_script
 :
--
-set
-RUSTFLAGS
-=
--
-D
-warnings
 -
 mach
 build
