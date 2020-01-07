@@ -1296,6 +1296,17 @@ onLocationChange
 "
 )
 ;
+if
+(
+!
+aWebProgress
+.
+isTopLevel
+)
+{
+return
+;
+}
 let
 fixedURI
 =
