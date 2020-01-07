@@ -1143,7 +1143,7 @@ Unexpected
 layers
 id
 in
-AllocPAPZCTreeManagerParent
+AllocPWebRenderBridgeParent
 ;
 dropping
 message
