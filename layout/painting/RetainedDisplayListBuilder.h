@@ -20,6 +20,13 @@ Maybe
 .
 h
 "
+namespace
+mozilla
+{
+class
+DisplayListChecker
+;
+}
 struct
 RetainedDisplayListBuilder
 {
@@ -84,6 +91,12 @@ AttemptPartialUpdate
 (
 nscolor
 aBackstop
+mozilla
+:
+:
+DisplayListChecker
+*
+aChecker
 )
 ;
 void
