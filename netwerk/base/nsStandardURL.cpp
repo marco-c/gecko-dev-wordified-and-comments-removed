@@ -15922,7 +15922,7 @@ result
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsStandardURL
 :
 :
