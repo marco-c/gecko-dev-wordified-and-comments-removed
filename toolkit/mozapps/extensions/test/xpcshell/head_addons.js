@@ -634,11 +634,6 @@ Set
 (
 [
 "
-test_blocklistchange
-.
-js
-"
-"
 test_bug455906
 .
 js
