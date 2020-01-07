@@ -1519,11 +1519,6 @@ ContainsMSEContent
 ;
 protected
 :
-void
-UpdateScreenOrientation
-(
-)
-;
 #
 define
 NS_DOCUMENT_NOTIFY_OBSERVERS
