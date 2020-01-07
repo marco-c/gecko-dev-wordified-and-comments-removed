@@ -274,7 +274,7 @@ ComputedStyle
 :
 CalcStyleDifference
 "
-CSS
+LAYOUT
 )
 ;
 static_assert
