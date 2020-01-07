@@ -557,10 +557,10 @@ of
 the
 RSA
 modulus
+required
 [
 EnforceRange
 ]
-required
 unsigned
 long
 modulusLength

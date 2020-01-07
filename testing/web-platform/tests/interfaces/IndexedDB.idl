@@ -189,10 +189,10 @@ open
 (
 DOMString
 name
+optional
 [
 EnforceRange
 ]
-optional
 unsigned
 long
 long
