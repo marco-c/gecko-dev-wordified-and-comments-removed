@@ -404,6 +404,9 @@ selection
 setNodeFront
 (
 front
+{
+reason
+:
 "
 inspector
 -
@@ -411,6 +414,7 @@ extension
 -
 sidebar
 "
+}
 )
 ;
 return

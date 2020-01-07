@@ -2848,9 +2848,13 @@ setNodeFront
 currentnode
 .
 node
+{
+reason
+:
 "
 breadcrumbs
 "
+}
 )
 ;
 }
@@ -3399,9 +3403,13 @@ selection
 setNodeFront
 (
 node
+{
+reason
+:
 "
 breadcrumbs
 "
+}
 )
 ;
 }
