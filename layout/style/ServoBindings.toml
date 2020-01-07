@@ -3309,6 +3309,9 @@ StyleTransition
 gfxFontFeatureValueSet
 "
 "
+nsCSSCounterDesc
+"
+"
 nsCSSCounterStyleRule
 "
 "
