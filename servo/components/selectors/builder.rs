@@ -1502,6 +1502,11 @@ Scope
 Component
 :
 :
+Host
+|
+Component
+:
+:
 NthChild
 (
 .
