@@ -7,13 +7,6 @@ mozilla_dom_PaintRequest_h_
 #
 include
 "
-nsIDOMPaintRequest
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -55,7 +48,7 @@ PaintRequest
 final
 :
 public
-nsIDOMPaintRequest
+nsISupports
 public
 nsWrapperCache
 {
@@ -80,7 +73,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 PaintRequest
 )
-NS_DECL_NSIDOMPAINTREQUEST
 virtual
 JSObject
 *

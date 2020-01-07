@@ -196,11 +196,6 @@ nsIDOMNSEvent
 idl
 '
 '
-nsIDOMPaintRequest
-.
-idl
-'
-'
 nsIDOMScrollAreaEvent
 .
 idl
