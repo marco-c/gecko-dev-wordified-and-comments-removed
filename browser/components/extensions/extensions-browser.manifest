@@ -31,8 +31,6 @@ browser
 /
 content
 /
-parent
-/
 ext
 -
 browser
@@ -53,9 +51,9 @@ browser
 /
 content
 /
-child
-/
 ext
+-
+c
 -
 browser
 .
@@ -75,9 +73,9 @@ browser
 /
 content
 /
-child
-/
 ext
+-
+c
 -
 browser
 .

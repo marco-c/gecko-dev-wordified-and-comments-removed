@@ -10,13 +10,6 @@ SpreadArgs
 =
 ExtensionCommon
 ;
-var
-{
-ExtensionError
-}
-=
-ExtensionUtils
-;
 this
 .
 devtools_network

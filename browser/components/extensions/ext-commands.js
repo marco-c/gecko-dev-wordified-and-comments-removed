@@ -50,13 +50,6 @@ jsm
 )
 ;
 var
-{
-ExtensionError
-}
-=
-ExtensionUtils
-;
-var
 XUL_NS
 =
 "

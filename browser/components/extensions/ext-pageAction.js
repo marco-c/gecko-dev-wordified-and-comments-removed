@@ -97,13 +97,6 @@ StartupCache
 =
 ExtensionParent
 ;
-var
-{
-DefaultWeakMap
-}
-=
-ExtensionUtils
-;
 const
 popupOpenTimingHistogram
 =

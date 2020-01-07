@@ -48,8 +48,6 @@ extensions
 /
 content
 /
-parent
-/
 ext
 -
 alarms
@@ -114,8 +112,6 @@ extensions
 /
 content
 /
-parent
-/
 ext
 -
 backgroundPage
@@ -158,8 +154,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -225,8 +219,6 @@ extensions
 /
 content
 /
-parent
-/
 ext
 -
 clipboard
@@ -290,8 +282,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -356,8 +346,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -441,8 +429,6 @@ extensions
 /
 content
 /
-parent
-/
 ext
 -
 cookies
@@ -506,8 +492,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -572,8 +556,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -638,8 +620,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -707,8 +687,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -780,8 +758,6 @@ extensions
 /
 content
 /
-parent
-/
 ext
 -
 idle
@@ -845,8 +821,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -911,8 +885,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -977,8 +949,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -1043,8 +1013,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -1109,8 +1077,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -1173,8 +1139,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -1239,8 +1203,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -1311,8 +1273,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
@@ -1418,8 +1378,6 @@ extensions
 /
 content
 /
-parent
-/
 ext
 -
 theme
@@ -1493,8 +1451,6 @@ extensions
 /
 content
 /
-parent
-/
 ext
 -
 topSites
@@ -1559,8 +1515,6 @@ extensions
 /
 content
 /
-parent
-/
 ext
 -
 webNavigation
@@ -1624,8 +1578,6 @@ chrome
 extensions
 /
 content
-/
-parent
 /
 ext
 -
