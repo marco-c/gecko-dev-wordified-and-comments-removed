@@ -370,6 +370,11 @@ ServiceWorkerRegistrationParent
 cpp
 '
 '
+ServiceWorkerRegistrationProxy
+.
+cpp
+'
+'
 ServiceWorkerScriptCache
 .
 cpp
