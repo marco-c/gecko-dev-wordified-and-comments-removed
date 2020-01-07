@@ -133,9 +133,6 @@ aEditorBase
 nsRange
 &
 aRangeToDelete
-RangeUpdater
-*
-aRangeUpdater
 )
 :
 mEditorBase
@@ -150,10 +147,6 @@ aRangeToDelete
 CloneRange
 (
 )
-)
-mRangeUpdater
-(
-aRangeUpdater
 )
 {
 }

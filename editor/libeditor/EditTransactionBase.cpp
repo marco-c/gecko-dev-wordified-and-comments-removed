@@ -59,12 +59,9 @@ NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 EditTransactionBase
 )
-NS_IMPL_CYCLE_COLLECTING_RELEASE_WITH_LAST_RELEASE
+NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 EditTransactionBase
-LastRelease
-(
-)
 )
 EditTransactionBase
 :

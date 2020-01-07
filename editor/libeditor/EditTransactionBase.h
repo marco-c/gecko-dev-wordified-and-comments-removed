@@ -58,13 +58,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 EditTransactionBase
 nsITransaction
 )
-virtual
-void
-LastRelease
-(
-)
-{
-}
 NS_IMETHOD
 RedoTransaction
 (
