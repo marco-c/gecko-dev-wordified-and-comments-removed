@@ -508,6 +508,11 @@ BindingStyleRule
 h
 '
 '
+CachedAnonBoxStyles
+.
+h
+'
+'
 CSSEnabledState
 .
 h
@@ -972,6 +977,11 @@ cpp
 '
 '
 BindingStyleRule
+.
+cpp
+'
+'
+CachedAnonBoxStyles
 .
 cpp
 '
