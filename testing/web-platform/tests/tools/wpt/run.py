@@ -777,17 +777,6 @@ json
 )
 )
         
-config
-=
-serve
-.
-normalise_config
-(
-config
-{
-}
-)
-        
 expected_hosts
 =
 (

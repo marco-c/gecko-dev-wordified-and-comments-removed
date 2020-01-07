@@ -16,7 +16,6 @@ serve
 serve
 import
 load_config
-normalise_config
 make_hosts_file
 def
 create_parser
@@ -111,15 +110,6 @@ config
 json
 "
 )
-)
-    
-config
-=
-normalise_config
-(
-config
-{
-}
 )
     
 print
