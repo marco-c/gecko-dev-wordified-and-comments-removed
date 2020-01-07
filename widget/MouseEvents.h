@@ -47,14 +47,6 @@ nsCOMPtr
 .
 h
 "
-enum
-nsDragDropEventStatus
-{
-nsDragDropEventStatus_eDragEntered
-nsDragDropEventStatus_eDragExited
-nsDragDropEventStatus_eDrop
-}
-;
 namespace
 mozilla
 {
