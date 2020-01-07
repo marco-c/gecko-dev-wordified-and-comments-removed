@@ -1134,6 +1134,7 @@ applyFilter
 aProxyService
 aChannel
 aProxy
+aCallback
 )
 {
 if
@@ -1179,8 +1180,12 @@ match
 )
 ;
 }
-return
+aCallback
+.
+onProxyFilterResult
+(
 aProxy
+)
 ;
 }
 }

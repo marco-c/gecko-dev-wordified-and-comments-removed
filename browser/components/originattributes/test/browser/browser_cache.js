@@ -432,6 +432,7 @@ applyFilter
 aProxyService
 aChannel
 aProxy
+aCallback
 )
 {
 onChannel
@@ -439,8 +440,12 @@ onChannel
 aChannel
 )
 ;
-return
+aCallback
+.
+onProxyFilterResult
+(
 aProxy
+)
 ;
 }
 }

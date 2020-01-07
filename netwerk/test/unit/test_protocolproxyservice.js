@@ -640,6 +640,7 @@ function
 pps
 uri
 pi
+cb
 )
 {
 var
@@ -682,8 +683,12 @@ pi
 =
 pi_tail
 ;
-return
+cb
+.
+onProxyFilterResult
+(
 pi
+)
 ;
 }
 }
@@ -749,9 +754,13 @@ function
 pps
 uri
 pi
+cb
 )
 {
-return
+cb
+.
+onProxyFilterResult
+(
 pps
 .
 newProxyInfo
@@ -779,6 +788,7 @@ direct
 0
 0
 null
+)
 )
 )
 ;
@@ -846,9 +856,13 @@ function
 pps
 channel
 pi
+cb
 )
 {
-return
+cb
+.
+onProxyFilterResult
+(
 pps
 .
 newProxyInfo
@@ -878,6 +892,7 @@ direct
 0
 0
 null
+)
 )
 )
 ;
