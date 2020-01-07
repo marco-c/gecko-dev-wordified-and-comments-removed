@@ -2,8 +2,6 @@ from
 __future__
 import
 absolute_import
-import
-sys
 from
 setuptools
 import
@@ -143,16 +141,6 @@ mozcrash
 '
 ]
 }
-assert
-sys
-.
-version_info
-[
-0
-]
-=
-=
-2
 setup
 (
 name
