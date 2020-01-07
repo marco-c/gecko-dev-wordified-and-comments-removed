@@ -8059,7 +8059,6 @@ return
 false
 ;
 }
-return
 aManager
 -
 >
@@ -8076,6 +8075,9 @@ aResources
 aSc
 destRect
 )
+;
+return
+true
 ;
 }
 ImgDrawResult

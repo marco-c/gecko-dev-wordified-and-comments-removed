@@ -6408,7 +6408,6 @@ size
 height
 )
 ;
-return
 aManager
 -
 >
@@ -6425,6 +6424,9 @@ aResources
 aSc
 dest
 )
+;
+return
+true
 ;
 }
 already_AddRefed

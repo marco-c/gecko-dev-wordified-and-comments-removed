@@ -2614,7 +2614,6 @@ destGFXRect
 height
 )
 ;
-return
 aManager
 -
 >
@@ -2631,6 +2630,9 @@ aResources
 aSc
 rect
 )
+;
+return
+true
 ;
 }
 virtual
