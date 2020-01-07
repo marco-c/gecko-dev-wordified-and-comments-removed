@@ -344,7 +344,7 @@ length
 (
 )
 >
-MAX_ACTIVE_THREAD_SCRIPT_SIZE
+MAX_MAIN_THREAD_SCRIPT_SIZE
 )
 warmUpThreshold
 *
@@ -357,10 +357,10 @@ length
 (
 )
 /
-(
 double
+(
+MAX_MAIN_THREAD_SCRIPT_SIZE
 )
-MAX_ACTIVE_THREAD_SCRIPT_SIZE
 )
 ;
 uint32_t
@@ -375,7 +375,7 @@ if
 (
 numLocalsAndArgs
 >
-MAX_ACTIVE_THREAD_LOCALS_AND_ARGS
+MAX_MAIN_THREAD_LOCALS_AND_ARGS
 )
 warmUpThreshold
 *
@@ -383,10 +383,10 @@ warmUpThreshold
 (
 numLocalsAndArgs
 /
-(
 double
+(
+MAX_MAIN_THREAD_LOCALS_AND_ARGS
 )
-MAX_ACTIVE_THREAD_LOCALS_AND_ARGS
 )
 ;
 if

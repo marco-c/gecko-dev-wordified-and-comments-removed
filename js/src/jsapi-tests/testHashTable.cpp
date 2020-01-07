@@ -2419,7 +2419,7 @@ timeToFail
 js
 :
 :
-THREAD_TYPE_COOPERATING
+THREAD_TYPE_MAIN
 false
 )
 ;
