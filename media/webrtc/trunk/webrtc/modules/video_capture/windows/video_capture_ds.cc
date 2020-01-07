@@ -847,7 +847,7 @@ hr
 _mediaControl
 -
 >
-Pause
+Stop
 (
 )
 ;
