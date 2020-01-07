@@ -122,6 +122,7 @@ true
 }
 ]
 EOF
+(
 cd
 cmake
 -
@@ -130,6 +131,9 @@ cmake
 7
 .
 1
+|
+|
+exit
 .
 /
 bootstrap
@@ -137,9 +141,7 @@ bootstrap
 &
 make
 install
-cd
-.
-.
+)
 rm
 -
 rf

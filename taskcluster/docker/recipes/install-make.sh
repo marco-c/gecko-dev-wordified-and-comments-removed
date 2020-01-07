@@ -125,12 +125,16 @@ true
 }
 ]
 EOF
+(
 cd
 make
 -
 4
 .
 0
+|
+|
+exit
 .
 /
 configure
@@ -178,9 +182,7 @@ local
 bin
 /
 gmake
-cd
-.
-.
+)
 rm
 -
 rf
