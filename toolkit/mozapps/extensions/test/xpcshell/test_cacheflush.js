@@ -59,7 +59,7 @@ ok
 (
 aSubject
 instanceof
-AM_Ci
+Ci
 .
 nsIFile
 )

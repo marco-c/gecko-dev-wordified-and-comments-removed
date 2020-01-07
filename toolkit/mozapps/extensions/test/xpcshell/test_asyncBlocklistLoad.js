@@ -8,7 +8,7 @@ function
 let
 blocklist
 =
-AM_Cc
+Cc
 [
 "
 mozilla

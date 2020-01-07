@@ -51,7 +51,7 @@ gAppInfo
 .
 processType
 =
-AM_Ci
+Ci
 .
 nsIXULRuntime
 .
