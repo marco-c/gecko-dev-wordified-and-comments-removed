@@ -444,13 +444,7 @@ I64RemUCode
 const
 FirstInvalidOpcode
 =
-wasmThreadsSupported
-(
-)
-?
 0xc5
-:
-0xc0
 ;
 const
 LastInvalidOpcode
