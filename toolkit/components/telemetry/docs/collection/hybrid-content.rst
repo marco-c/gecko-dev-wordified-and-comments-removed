@@ -414,14 +414,8 @@ whitelisted
 .
 Example
 :
-.
-.
-code
--
-block
 :
 :
-csv
 origin
 hc_telemetry
 1

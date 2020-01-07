@@ -130,7 +130,7 @@ Data_Collection
 #
 Requesting_Approval
 >
-_
+__
 from
 a
 data
@@ -346,7 +346,7 @@ Firefox
 /
 Data_Collection
 >
-_
+__
 which
 requires
 a

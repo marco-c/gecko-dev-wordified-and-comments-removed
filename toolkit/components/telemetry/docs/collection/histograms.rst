@@ -1690,6 +1690,7 @@ block
 :
 :
 json
+{
 "
 MEMORY_RESIDENT
 "
@@ -1767,6 +1768,7 @@ size
 KB
 )
 "
+}
 }
 Histograms
 which
