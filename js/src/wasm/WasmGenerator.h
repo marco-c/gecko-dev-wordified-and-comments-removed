@@ -164,9 +164,6 @@ oldTrapFarJumps
 CallFarJumpVector
 callFarJumps
 ;
-MemoryAccessVector
-memoryAccesses
-;
 SymbolicAccessVector
 symbolicAccesses
 ;
@@ -236,12 +233,6 @@ clear
 )
 ;
 callFarJumps
-.
-clear
-(
-)
-;
-memoryAccesses
 .
 clear
 (
@@ -323,13 +314,6 @@ empty
 &
 &
 callFarJumps
-.
-empty
-(
-)
-&
-&
-memoryAccesses
 .
 empty
 (

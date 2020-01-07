@@ -4875,8 +4875,6 @@ template
 <
 typename
 T
-typename
-L
 >
 inline
 void
@@ -4888,7 +4886,8 @@ T
 src
 Register
 dest
-L
+Label
+*
 label
 )
 PER_SHARED_ARCH
@@ -7693,12 +7692,6 @@ BytecodeOffset
 trapOffset
 )
 ;
-template
-<
-class
-L
->
-inline
 void
 wasmBoundsCheck
 (
@@ -7708,7 +7701,8 @@ Register
 index
 Register
 boundsCheckLimit
-L
+Label
+*
 label
 )
 DEFINED_ON
@@ -7720,12 +7714,6 @@ mips64
 x86
 )
 ;
-template
-<
-class
-L
->
-inline
 void
 wasmBoundsCheck
 (
@@ -7735,7 +7723,8 @@ Register
 index
 Address
 boundsCheckLimit
-L
+Label
+*
 label
 )
 DEFINED_ON
@@ -8435,11 +8424,6 @@ wasm
 :
 SymbolicAddress
 builtin
-)
-;
-void
-wasmEmitOldTrapOutOfLineCode
-(
 )
 ;
 void

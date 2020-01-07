@@ -59884,10 +59884,10 @@ byteSize
 accessType_
 )
 offset_
-mozilla
+wasm
 :
 :
-Nothing
+BytecodeOffset
 (
 )
 )
