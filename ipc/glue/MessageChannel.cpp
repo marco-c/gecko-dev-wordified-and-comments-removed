@@ -2572,7 +2572,7 @@ AnnotateCrashReport
 NS_LITERAL_CSTRING
 (
 "
-ProtocolName
+IPCFatalErrorProtocol
 "
 )
 nsDependentCString
@@ -2642,7 +2642,7 @@ AnnotateCrashReport
 NS_LITERAL_CSTRING
 (
 "
-ProtocolName
+IPCFatalErrorProtocol
 "
 )
 nsDependentCString
