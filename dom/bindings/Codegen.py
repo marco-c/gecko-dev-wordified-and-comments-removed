@@ -114,11 +114,6 @@ LEGACYCALLER_HOOK_NAME
 '
 _legacycaller
 '
-HASINSTANCE_HOOK_NAME
-=
-'
-_hasInstance
-'
 RESOLVE_HOOK_NAME
 =
 '
