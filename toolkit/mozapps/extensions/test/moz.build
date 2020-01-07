@@ -117,16 +117,6 @@ mochitest
 ini
 '
 ]
-TESTING_JS_MODULES
-+
-=
-[
-'
-AddonManagerTesting
-.
-jsm
-'
-]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
