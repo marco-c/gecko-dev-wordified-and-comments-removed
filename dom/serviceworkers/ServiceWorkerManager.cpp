@@ -475,13 +475,6 @@ h
 #
 include
 "
-nsGlobalWindow
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
