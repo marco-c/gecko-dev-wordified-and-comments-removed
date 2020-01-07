@@ -3035,11 +3035,6 @@ if
 scrollAncestor
 )
 {
-MOZ_ASSERT
-(
-false
-)
-;
 APZCCH_LOG
 (
 "
