@@ -236,6 +236,11 @@ DOMHighResTimeStamp
 Now
 (
 )
+;
+DOMHighResTimeStamp
+NowUnclamped
+(
+)
 const
 ;
 DOMHighResTimeStamp

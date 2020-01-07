@@ -38184,7 +38184,7 @@ FlushFontFeatureValues
 ;
 mLastReflowStart
 =
-GetPerformanceNow
+GetPerformanceNowUnclamped
 (
 )
 ;
@@ -38225,7 +38225,7 @@ docShell
 DOMHighResTimeStamp
 now
 =
-GetPerformanceNow
+GetPerformanceNowUnclamped
 (
 )
 ;
@@ -38263,7 +38263,7 @@ DOMHighResTimeStamp
 PresShell
 :
 :
-GetPerformanceNow
+GetPerformanceNowUnclamped
 (
 )
 {
@@ -38307,7 +38307,7 @@ now
 perf
 -
 >
-Now
+NowUnclamped
 (
 )
 ;
