@@ -5,6 +5,8 @@ binary_space_partition
 {
 BspNode
 Plane
+as
+BspPlane
 PlaneCut
 }
 ;
@@ -48,6 +50,7 @@ ops
 use
 {
 Intersection
+Plane
 Polygon
 Splitter
 }
@@ -57,7 +60,7 @@ impl
 T
 U
 >
-Plane
+BspPlane
 for
 Polygon
 <
@@ -171,6 +174,8 @@ let
 dist
 =
 self
+.
+plane
 .
 signed_distance_sum_to
 (
@@ -381,6 +386,8 @@ res_add2
 if
 self
 .
+plane
+.
 signed_distance_sum_to
 (
 &
@@ -468,7 +475,7 @@ is_aligned
 (
 &
 self
-plane
+other
 :
 &
 Self
@@ -479,10 +486,14 @@ bool
 {
 self
 .
+plane
+.
 normal
 .
 dot
 (
+other
+.
 plane
 .
 normal
@@ -740,6 +751,10 @@ origin
 ;
 4
 ]
+plane
+:
+Plane
+{
 normal
 :
 -
@@ -752,6 +767,7 @@ T
 zero
 (
 )
+}
 anchor
 :
 0
