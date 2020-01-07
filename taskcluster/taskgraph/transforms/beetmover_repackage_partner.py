@@ -1308,17 +1308,20 @@ True
             
 )
         
+else
+:
+            
 yield
 populate_scopes_and_worker_type
 (
-            
+                
 config
 job
 partner_bucket_scope
 partner_public
 =
 False
-        
+            
 )
 def
 generate_upstream_artifacts
