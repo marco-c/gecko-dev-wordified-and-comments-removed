@@ -12,12 +12,6 @@ run_test
 (
 )
 {
-flags
-.
-testing
-=
-true
-;
 const
 {
 assert

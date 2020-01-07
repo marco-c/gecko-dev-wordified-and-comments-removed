@@ -317,12 +317,6 @@ requestLongerTimeout
 2
 )
 ;
-flags
-.
-testing
-=
-true
-;
 Services
 .
 prefs
@@ -371,12 +365,6 @@ async
 =
 >
 {
-flags
-.
-testing
-=
-false
-;
 Services
 .
 prefs
