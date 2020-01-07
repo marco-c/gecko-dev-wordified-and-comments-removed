@@ -1499,7 +1499,7 @@ glyph_id_offset
 ;
 glyph
 =
-ntohs
+ots_ntohs
 (
 glyph
 )
@@ -5661,6 +5661,17 @@ encoding
 =
 =
 3
+|
+|
+subtable_headers
+[
+i
+]
+.
+encoding
+=
+=
+4
 )
 &
 &

@@ -3041,7 +3041,7 @@ WriteU16
 0x0002
 )
 ;
-EXPECT_FALSE
+EXPECT_TRUE
 (
 Parse
 (

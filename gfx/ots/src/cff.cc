@@ -2091,13 +2091,6 @@ case
 :
 if
 (
-operands
-.
-empty
-(
-)
-|
-|
 (
 operands
 .

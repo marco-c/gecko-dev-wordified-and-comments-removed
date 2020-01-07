@@ -511,7 +511,7 @@ uint16_t
 *
 value
 =
-ntohs
+ots_ntohs
 (
 *
 value
@@ -667,7 +667,7 @@ uint32_t
 *
 value
 =
-ntohl
+ots_ntohl
 (
 *
 value
