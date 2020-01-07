@@ -33813,7 +33813,7 @@ LayoutDeviceRect
 (
 )
 nullptr
-0
+nullptr
 nullptr
 nullptr
 nullptr
@@ -44858,7 +44858,7 @@ LayoutDeviceRect
 (
 )
 nullptr
-0
+nullptr
 nullptr
 &
 transformForSC
@@ -48652,7 +48652,7 @@ LayoutDeviceRect
 (
 )
 nullptr
-0
+nullptr
 opacity
 !
 =
