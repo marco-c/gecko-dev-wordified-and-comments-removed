@@ -4294,6 +4294,9 @@ Key
 )
 )
 ;
+delete
+userDataTable
+;
 }
 if
 (
