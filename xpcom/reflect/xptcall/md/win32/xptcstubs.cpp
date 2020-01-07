@@ -6,13 +6,6 @@ xptcprivate
 h
 "
 #
-include
-"
-xptiprivate
-.
-h
-"
-#
 ifndef
 WIN32
 #

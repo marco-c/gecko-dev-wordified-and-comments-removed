@@ -5,13 +5,6 @@ xptcprivate
 .
 h
 "
-#
-include
-"
-xptiprivate
-.
-h
-"
 nsresult
 ATTRIBUTE_USED
 PrepareAndDispatch

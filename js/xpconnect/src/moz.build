@@ -341,14 +341,6 @@ layout
 /
 style
 '
-'
-/
-xpcom
-/
-reflect
-/
-xptinfo
-'
 ]
 if
 CONFIG

@@ -173,15 +173,6 @@ h
 #
 include
 "
-mozilla
-/
-XPTInterfaceInfoManager
-.
-h
-"
-#
-include
-"
 nsIObjectInputStream
 .
 h

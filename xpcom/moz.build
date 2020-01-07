@@ -226,14 +226,6 @@ TEST_DIRS
 '
 reflect
 /
-xptinfo
-/
-tests
-'
-#
-'
-reflect
-/
 xptcall
 /
 tests

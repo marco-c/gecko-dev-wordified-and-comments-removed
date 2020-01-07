@@ -5,13 +5,6 @@ xptcprivate
 .
 h
 "
-#
-include
-"
-xptiprivate
-.
-h
-"
 static
 nsresult
 ATTRIBUTE_USED

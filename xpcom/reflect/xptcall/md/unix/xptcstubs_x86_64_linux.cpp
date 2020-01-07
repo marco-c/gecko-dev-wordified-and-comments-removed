@@ -5,13 +5,6 @@ xptcprivate
 .
 h
 "
-#
-include
-"
-xptiprivate
-.
-h
-"
 const
 uint32_t
 PARAM_BUFFER_COUNT

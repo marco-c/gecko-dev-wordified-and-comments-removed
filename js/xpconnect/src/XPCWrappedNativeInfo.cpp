@@ -26,15 +26,6 @@ h
 #
 include
 "
-mozilla
-/
-XPTInterfaceInfoManager
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h

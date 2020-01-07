@@ -6,13 +6,6 @@ xptcprivate
 h
 "
 #
-include
-"
-xptiprivate
-.
-h
-"
-#
 define
 PARAM_BUFFER_COUNT
 16

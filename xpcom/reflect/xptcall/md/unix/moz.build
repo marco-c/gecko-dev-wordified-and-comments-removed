@@ -2057,12 +2057,4 @@ LOCAL_INCLUDES
 .
 .
 '
-'
-/
-xpcom
-/
-reflect
-/
-xptinfo
-'
 ]

@@ -7,13 +7,6 @@ h
 "
 #
 include
-"
-xptiprivate
-.
-h
-"
-#
-include
 <
 stddef
 .

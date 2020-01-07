@@ -292,11 +292,6 @@ nsVariantCCConstructor
 )
 COMPONENT
 (
-INTERFACEINFOMANAGER_SERVICE
-nsXPTIInterfaceInfoManagerGetSingleton
-)
-COMPONENT
-(
 HASH_PROPERTY_BAG
 nsHashPropertyBagCCConstructor
 )

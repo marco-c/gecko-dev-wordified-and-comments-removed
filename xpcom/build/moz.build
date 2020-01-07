@@ -578,14 +578,6 @@ io
 .
 .
 /
-reflect
-/
-xptinfo
-'
-'
-.
-.
-/
 threads
 '
 '
