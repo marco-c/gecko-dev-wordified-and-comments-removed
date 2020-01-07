@@ -341,9 +341,7 @@ self
 .
 app_ctx
 .
-dm
-.
-_deviceSerial
+device_serial
 :
             
 cmd
@@ -359,9 +357,7 @@ self
 .
 app_ctx
 .
-dm
-.
-_deviceSerial
+device_serial
 ]
 )
         
@@ -573,7 +569,13 @@ sleep
 1
 )
         
-else
+if
+not
+self
+.
+is_running
+(
+)
 :
             
 print
@@ -652,9 +654,9 @@ self
 .
 app_ctx
 .
-dm
+device
 .
-killProcess
+pkill
 (
 self
 .
@@ -824,9 +826,9 @@ self
 .
 app_ctx
 .
-dm
+device
 .
-processExist
+process_exist
 (
 self
 .
@@ -834,15 +836,13 @@ app_ctx
 .
 remote_process
 )
-is
-None
 :
             
 return
-0
+None
         
 return
-None
+0
     
 def
 wait
@@ -1294,9 +1294,7 @@ self
 .
 app_ctx
 .
-dm
-.
-_deviceSerial
+device_serial
 :
             
 cmd
@@ -1312,9 +1310,7 @@ self
 .
 app_ctx
 .
-dm
-.
-_deviceSerial
+device_serial
 ]
 )
         

@@ -20,8 +20,7 @@ posixpath
 from
 mozdevice
 import
-DeviceManagerADB
-DroidADB
+ADBAndroid
 from
 mozprofile
 import
@@ -145,7 +144,7 @@ __metaclass__
 =
 ABCMeta
     
-_dm
+device
 =
 None
     
@@ -160,10 +159,6 @@ None
 profile_class
 =
 Profile
-    
-dm_class
-=
-DeviceManagerADB
     
 _bindir
 =
@@ -394,45 +389,6 @@ _adb
 property
     
 def
-dm
-(
-self
-)
-:
-        
-if
-not
-self
-.
-_dm
-:
-            
-self
-.
-_dm
-=
-self
-.
-dm_class
-(
-adbPath
-=
-self
-.
-adb
-autoconnect
-=
-False
-)
-        
-return
-self
-.
-_dm
-    
-property
-    
-def
 remote_profile
 (
 self
@@ -617,6 +573,9 @@ None
 avd_home
 =
 None
+device_serial
+=
+None
 )
 :
         
@@ -634,21 +593,31 @@ avd_home
         
 self
 .
-dm_class
-=
-DroidADB
-        
-self
-.
 remote_process
 =
 app
-or
+        
 self
 .
-dm
+device_serial
+=
+device_serial
+        
+self
 .
-_packageName
+device
+=
+ADBAndroid
+(
+adb
+=
+self
+.
+adb
+device
+=
+device_serial
+)
     
 def
 stop_application
@@ -659,9 +628,9 @@ self
         
 self
 .
-dm
+device
 .
-stopApplication
+stop_application
 (
 self
 .
@@ -690,11 +659,9 @@ _remote_test_root
 =
 self
 .
-dm
+device
 .
-getDeviceRoot
-(
-)
+test_root
         
 return
 self
@@ -726,16 +693,16 @@ posixpath
 join
 (
                 
-self
-.
-dm
-.
-getAppRoot
-(
+'
+/
+data
+'
+'
+data
+'
 self
 .
 remote_process
-)
                 
 '
 files
