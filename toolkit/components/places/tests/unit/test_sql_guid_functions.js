@@ -435,6 +435,12 @@ test_guid_on_background
 .
 forEach
 (
+fn
+=
+>
 add_test
+(
+fn
+)
 )
 ;

@@ -1960,11 +1960,10 @@ run_next_test
 add_task
 (
 function
-*
 (
 )
 {
-yield
+return
 fetch_blocklist
 (
 )

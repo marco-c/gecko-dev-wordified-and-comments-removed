@@ -94,7 +94,13 @@ end
 .
 forEach
 (
+f
+=
+>
 add_test
+(
+f
+)
 )
 ;
 function

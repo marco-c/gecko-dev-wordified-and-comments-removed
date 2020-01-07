@@ -1163,6 +1163,12 @@ TESTS
 .
 forEach
 (
+f
+=
+>
 add_test
+(
+f
+)
 )
 ;
