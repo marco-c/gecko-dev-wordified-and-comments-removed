@@ -76707,6 +76707,12 @@ mozilla
 .
 com
 "
+"
+jacheng
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -76720,7 +76726,7 @@ expires_in_version
 "
 :
 "
-60
+63
 "
 "
 kind
