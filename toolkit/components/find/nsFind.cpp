@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIWordBreaker
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -1785,6 +1778,10 @@ false
 mCaseSensitive
 (
 false
+)
+mWordBreaker
+(
+nullptr
 )
 mIterOffset
 (
