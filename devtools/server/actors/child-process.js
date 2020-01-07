@@ -147,6 +147,8 @@ server
 actors
 /
 worker
+/
+worker
 -
 list
 "

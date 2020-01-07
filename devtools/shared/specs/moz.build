@@ -92,6 +92,9 @@ DIRS
 '
 targets
 '
+'
+worker
+'
 ]
 DevToolsModules
 (
@@ -336,11 +339,6 @@ js
 '
 '
 webgl
-.
-js
-'
-'
-worker
 .
 js
 '

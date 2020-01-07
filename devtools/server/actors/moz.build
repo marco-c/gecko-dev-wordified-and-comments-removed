@@ -439,13 +439,6 @@ js
 '
 '
 worker
--
-list
-.
-js
-'
-'
-worker
 .
 js
 '
