@@ -368,16 +368,6 @@ g
 +
 "
 fi
-ANDROID_NDK_VERSION
-=
-"
-r10e
-"
-ANDROID_NDK_VERSION_32BIT
-=
-"
-r8c
-"
 #
 Build
 Fennec
