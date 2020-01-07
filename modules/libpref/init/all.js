@@ -18902,7 +18902,6 @@ content_privileged_about_uris_without_csp
 "
 "
 blank
-blocked
 cache
 certerror
 checkerboard
