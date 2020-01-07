@@ -7424,7 +7424,7 @@ false
 ;
 DECL_GFX_PREF
 (
-Live
+Once
 "
 webgl
 .
@@ -7439,7 +7439,7 @@ uint32_t
 ;
 DECL_GFX_PREF
 (
-Live
+Once
 "
 webgl
 .
