@@ -468,6 +468,10 @@ wl_surface
 *
 mFrameCallbackSurface
 ;
+MessageLoop
+*
+mDisplayThreadMessageLoop
+;
 bool
 mDelayedCommit
 ;
