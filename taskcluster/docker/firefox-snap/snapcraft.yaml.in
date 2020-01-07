@@ -181,10 +181,6 @@ utils
 -
 ffmpeg
 -
-xdg
--
-utils
--
 libc
 -
 bin
