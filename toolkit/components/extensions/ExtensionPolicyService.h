@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+MemoryReporting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 extensions
 /
 WebExtensionPolicy
@@ -47,6 +56,13 @@ h
 include
 "
 nsAtom
+.
+h
+"
+#
+include
+"
+nsIMemoryReporter
 .
 h
 "
@@ -127,6 +143,8 @@ public
 nsIAddonPolicyService
 public
 nsIObserver
+public
+nsIMemoryReporter
 {
 public
 :
@@ -138,6 +156,7 @@ nsIAddonPolicyService
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIADDONPOLICYSERVICE
 NS_DECL_NSIOBSERVER
+NS_DECL_NSIMEMORYREPORTER
 static
 ExtensionPolicyService
 &
@@ -311,8 +330,6 @@ virtual
 ExtensionPolicyService
 (
 )
-=
-default
 ;
 private
 :
