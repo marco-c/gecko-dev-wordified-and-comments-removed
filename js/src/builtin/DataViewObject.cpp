@@ -51,7 +51,9 @@ h
 #
 include
 "
-jsnum
+builtin
+/
+Array
 .
 h
 "
@@ -60,7 +62,7 @@ include
 "
 builtin
 /
-Array
+Number
 .
 h
 "

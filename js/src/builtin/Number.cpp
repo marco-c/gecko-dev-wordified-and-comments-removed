@@ -1,7 +1,9 @@
 #
 include
 "
-jsnum
+builtin
+/
+Number
 .
 h
 "

@@ -72,7 +72,9 @@ h
 #
 include
 "
-jsnum
+builtin
+/
+Math
 .
 h
 "
@@ -81,7 +83,7 @@ include
 "
 builtin
 /
-Math
+Number
 .
 h
 "
