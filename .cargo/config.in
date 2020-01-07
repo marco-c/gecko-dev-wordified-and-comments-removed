@@ -104,7 +104,7 @@ github
 .
 com
 /
-gankro
+servo
 /
 serde
 "
@@ -120,14 +120,14 @@ github
 .
 com
 /
-gankro
+servo
 /
 serde
 "
 branch
 =
 "
-deserialize_from_enums4
+deserialize_from_enums5
 "
 replace
 -
