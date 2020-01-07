@@ -12,7 +12,9 @@ h
 #
 include
 "
-DynamicallyLinkedFunctionPtr
+mozilla
+/
+DebugOnly
 .
 h
 "
@@ -21,7 +23,7 @@ include
 "
 mozilla
 /
-DebugOnly
+DynamicallyLinkedFunctionPtr
 .
 h
 "

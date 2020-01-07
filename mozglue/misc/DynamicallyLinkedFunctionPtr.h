@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_mscom_DynamicallyLinkedFunctionPtr_h
+mozilla_DynamicallyLinkedFunctionPtr_h
 #
 define
-mozilla_mscom_DynamicallyLinkedFunctionPtr_h
+mozilla_DynamicallyLinkedFunctionPtr_h
 #
 include
 "
@@ -22,9 +22,6 @@ h
 >
 namespace
 mozilla
-{
-namespace
-mscom
 {
 template
 <
@@ -263,7 +260,6 @@ mFunction
 ;
 }
 ;
-}
 }
 #
 endif
