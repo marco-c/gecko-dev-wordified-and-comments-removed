@@ -99,6 +99,16 @@ testing
 unittest
 import
 EmulatorMixin
+from
+mozharness
+.
+mozilla
+.
+testing
+.
+codecoverage
+import
+CodeCoverageMixin
 class
 AndroidEmulatorTest
 (
@@ -106,6 +116,8 @@ TestingMixin
 EmulatorMixin
 BaseScript
 MozbaseMixin
+                          
+CodeCoverageMixin
 )
 :
     
