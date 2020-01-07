@@ -12,10 +12,7 @@ use
 bincode
 :
 :
-{
 serialize
-Infinite
-}
 ;
 use
 byteorder
@@ -354,7 +351,6 @@ buf
 serialize
 (
 msg
-Infinite
 )
 .
 unwrap

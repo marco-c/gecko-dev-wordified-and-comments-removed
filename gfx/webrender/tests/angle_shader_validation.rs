@@ -189,17 +189,6 @@ Shader
 name
 :
 "
-cs_text_run
-"
-features
-:
-CACHE_FEATURES
-}
-Shader
-{
-name
-:
-"
 ps_border_corner
 "
 features

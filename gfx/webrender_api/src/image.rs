@@ -354,6 +354,10 @@ pub
 is_opaque
 :
 bool
+pub
+allow_mipmaps
+:
+bool
 }
 impl
 ImageDescriptor
@@ -374,6 +378,9 @@ ImageFormat
 is_opaque
 :
 bool
+allow_mipmaps
+:
+bool
 )
 -
 >
@@ -391,6 +398,7 @@ offset
 :
 0
 is_opaque
+allow_mipmaps
 }
 }
 pub

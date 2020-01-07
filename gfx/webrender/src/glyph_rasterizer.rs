@@ -2720,6 +2720,9 @@ BGRA8
 is_opaque
 :
 false
+allow_mipmaps
+:
+false
 offset
 :
 0
