@@ -43,6 +43,8 @@ accept
 }
 )
     
+value
+=
 session
 .
 execute_async_script
@@ -59,6 +61,17 @@ Hello
 ;
 "
 )
+    
+assert
+value
+is
+None
+    
+title
+=
+session
+.
+title
     
 with
 pytest
@@ -117,6 +130,8 @@ dismiss
 }
 )
     
+value
+=
 session
 .
 execute_async_script
@@ -133,6 +148,17 @@ Hello
 ;
 "
 )
+    
+assert
+value
+is
+None
+    
+title
+=
+session
+.
+title
     
 with
 pytest
@@ -193,17 +219,8 @@ notify
 }
 )
     
-with
-pytest
-.
-raises
-(
-error
-.
-UnexpectedAlertOpenException
-)
-:
-        
+value
+=
 session
 .
 execute_async_script
@@ -220,6 +237,28 @@ Hello
 ;
 "
 )
+    
+assert
+value
+is
+None
+    
+with
+pytest
+.
+raises
+(
+error
+.
+UnexpectedAlertOpenException
+)
+:
+        
+title
+=
+session
+.
+title
     
 with
 pytest
@@ -280,17 +319,8 @@ notify
 }
 )
     
-with
-pytest
-.
-raises
-(
-error
-.
-UnexpectedAlertOpenException
-)
-:
-        
+value
+=
 session
 .
 execute_async_script
@@ -307,6 +337,28 @@ Hello
 ;
 "
 )
+    
+assert
+value
+is
+None
+    
+with
+pytest
+.
+raises
+(
+error
+.
+UnexpectedAlertOpenException
+)
+:
+        
+title
+=
+session
+.
+title
     
 with
 pytest
@@ -365,17 +417,8 @@ ignore
 }
 )
     
-with
-pytest
-.
-raises
-(
-error
-.
-UnexpectedAlertOpenException
-)
-:
-        
+value
+=
 session
 .
 execute_async_script
@@ -392,6 +435,28 @@ Hello
 ;
 "
 )
+    
+assert
+value
+is
+None
+    
+with
+pytest
+.
+raises
+(
+error
+.
+UnexpectedAlertOpenException
+)
+:
+        
+title
+=
+session
+.
+title
     
 session
 .
@@ -432,17 +497,8 @@ add_browser_capabilites
 }
 )
     
-with
-pytest
-.
-raises
-(
-error
-.
-UnexpectedAlertOpenException
-)
-:
-        
+value
+=
 session
 .
 execute_async_script
@@ -459,6 +515,28 @@ Hello
 ;
 "
 )
+    
+assert
+value
+is
+None
+    
+with
+pytest
+.
+raises
+(
+error
+.
+UnexpectedAlertOpenException
+)
+:
+        
+title
+=
+session
+.
+title
     
 with
 pytest
@@ -517,6 +595,8 @@ accept
 }
 )
     
+value
+=
 session
 .
 execute_async_script
@@ -541,6 +621,19 @@ Bye
 )
 ;
 "
+)
+    
+assert
+value
+is
+None
+    
+session
+.
+alert
+.
+dismiss
+(
 )
     
 assert
