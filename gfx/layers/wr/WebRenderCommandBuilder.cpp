@@ -8666,16 +8666,6 @@ GetScrollData
 item
 descendants
 stopAtAsr
-)
-;
-mLayerScrollData
-.
-back
-(
-)
-.
-SetTransform
-(
 aSc
 .
 GetTransformForScrollData
