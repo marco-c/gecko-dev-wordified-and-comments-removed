@@ -460,6 +460,7 @@ mTransforms
 SetBaseValueString
 (
 aParams
+mRoot
 )
 )
 )

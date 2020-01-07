@@ -114,6 +114,9 @@ const
 SVGTransformList
 &
 aValue
+nsSVGElement
+*
+aSVGElement
 )
 ;
 nsresult
@@ -123,6 +126,9 @@ const
 nsAString
 &
 aValue
+nsSVGElement
+*
+aSVGElement
 )
 ;
 void
