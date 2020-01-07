@@ -6388,6 +6388,10 @@ virtual
 IntrinsicISizeOffsetData
 IntrinsicISizeOffsets
 (
+nscoord
+aPercentageBasis
+=
+NS_UNCONSTRAINEDSIZE
 )
 =
 0
@@ -6395,6 +6399,10 @@ IntrinsicISizeOffsets
 IntrinsicISizeOffsetData
 IntrinsicBSizeOffsets
 (
+nscoord
+aPercentageBasis
+=
+NS_UNCONSTRAINEDSIZE
 )
 ;
 virtual

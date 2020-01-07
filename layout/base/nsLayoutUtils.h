@@ -800,6 +800,13 @@ mozilla
 SVGImageContext
 SVGImageContext
 ;
+typedef
+mozilla
+:
+:
+LogicalSize
+LogicalSize
+;
 static
 bool
 FindIDFor
@@ -2955,9 +2962,6 @@ mozilla
 :
 Maybe
 <
-mozilla
-:
-:
 LogicalSize
 >
 &
@@ -3014,6 +3018,10 @@ nsIFrame
 aFrame
 IntrinsicISizeType
 aType
+const
+LogicalSize
+&
+aPercentageBasis
 uint32_t
 aFlags
 =

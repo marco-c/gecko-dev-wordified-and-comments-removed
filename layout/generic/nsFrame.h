@@ -1066,6 +1066,10 @@ override
 IntrinsicISizeOffsetData
 IntrinsicISizeOffsets
 (
+nscoord
+aPercentageBasis
+=
+NS_UNCONSTRAINEDSIZE
 )
 override
 ;
