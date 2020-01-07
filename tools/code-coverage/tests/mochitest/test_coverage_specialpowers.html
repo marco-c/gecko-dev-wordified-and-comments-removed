@@ -110,13 +110,6 @@ waitForExplicitFinish
 (
 )
 ;
-(
-async
-function
-(
-)
-{
-await
 SpecialPowers
 .
 requestDumpCoverageCounters
@@ -135,7 +128,6 @@ dumped
 "
 )
 ;
-await
 SpecialPowers
 .
 requestResetCoverageCounters
@@ -157,11 +149,6 @@ reset
 SimpleTest
 .
 finish
-(
-)
-;
-}
-)
 (
 )
 ;

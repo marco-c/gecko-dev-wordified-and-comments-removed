@@ -156,6 +156,13 @@ gcovResultsPath
 )
 ;
 }
+const
+enabled
+=
+!
+!
+gcovResultsPath
+;
 function
 awaitPromise
 (
@@ -317,8 +324,6 @@ beforeTest
 if
 (
 !
-PerTestCoverageUtils
-.
 enabled
 )
 {
@@ -395,8 +400,6 @@ afterTest
 if
 (
 !
-PerTestCoverageUtils
-.
 enabled
 )
 {
@@ -460,12 +463,4 @@ afterTest
 ;
 }
 }
-;
-PerTestCoverageUtils
-.
-enabled
-=
-!
-!
-gcovResultsPath
 ;
