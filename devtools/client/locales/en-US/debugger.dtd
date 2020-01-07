@@ -1504,7 +1504,7 @@ NOTE
 (
 debuggerUI
 .
-searchLine
+searchGoToLine
 )
 :
 This
@@ -1887,7 +1887,7 @@ NOTE
 (
 debuggerUI
 .
-seMenuBreak
+seEditMenuCondBreak
 )
 :
 This
@@ -2165,7 +2165,7 @@ NOTE
 (
 debuggerUI
 .
-removeWatch
+removeAllWatch
 )
 :
 This

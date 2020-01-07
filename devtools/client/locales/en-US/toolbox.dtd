@@ -865,7 +865,7 @@ options
 .
 enableChrome
 .
-label4
+label5
 )
 :
 This
@@ -1904,7 +1904,7 @@ NOTE
 (
 options
 .
-sourceMap
+sourceMaps
 .
 label
 )
