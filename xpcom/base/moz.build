@@ -229,6 +229,11 @@ MacHelpers
 .
 h
 '
+'
+MacStringHelpers
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -236,6 +241,11 @@ UNIFIED_SOURCES
 [
 '
 MacHelpers
+.
+mm
+'
+'
+MacStringHelpers
 .
 mm
 '
