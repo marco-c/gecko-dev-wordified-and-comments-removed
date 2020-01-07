@@ -51,6 +51,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+WrappingOperations
+.
+h
+"
+#
+include
 <
 stdint
 .
@@ -120,8 +129,12 @@ aValue
 )
 {
 return
+mozilla
+:
+:
+WrappingMultiply
+(
 kGoldenRatioU32
-*
 (
 RotateBitsLeft32
 (
@@ -130,6 +143,7 @@ aHash
 )
 ^
 aValue
+)
 )
 ;
 }
