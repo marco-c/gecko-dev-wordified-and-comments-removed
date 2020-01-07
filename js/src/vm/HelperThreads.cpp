@@ -7367,7 +7367,7 @@ Now
 (
 )
 ;
-run
+runTask
 (
 )
 ;
@@ -7449,7 +7449,7 @@ HeapState
 :
 MajorCollecting
 ;
-run
+runTask
 (
 )
 ;

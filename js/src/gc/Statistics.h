@@ -129,9 +129,6 @@ h
 namespace
 js
 {
-class
-GCParallelTask
-;
 namespace
 gcstats
 {
