@@ -4354,6 +4354,10 @@ rule
 )
 ;
 }
+ClearModifiedRules
+(
+)
+;
 return
 NS_OK
 ;
