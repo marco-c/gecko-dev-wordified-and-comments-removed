@@ -4112,9 +4112,6 @@ nsIX509CertList
 enterpriseRoots
 )
 {
-nsNSSShutDownPreventionLock
-lock
-;
 MutexAutoLock
 nsNSSComponentLock
 (
@@ -4169,7 +4166,6 @@ nsNSSCertList
 DupCertList
 (
 mEnterpriseRoots
-lock
 )
 )
 ;
@@ -4196,7 +4192,6 @@ Move
 (
 enterpriseRootsCopy
 )
-lock
 )
 )
 ;
@@ -4886,10 +4881,6 @@ override
 nsresult
 LoadLoadableRoots
 (
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 RefPtr
@@ -4914,9 +4905,6 @@ LoadLoadableRootsTask
 (
 )
 {
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 isAlreadyShutDown
@@ -4994,9 +4982,6 @@ Run
 (
 )
 {
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 isAlreadyShutDown
@@ -5013,7 +4998,6 @@ rv
 =
 LoadLoadableRoots
 (
-lock
 )
 ;
 if
@@ -5054,7 +5038,6 @@ NS_FAILED
 (
 LoadExtendedValidationInfo
 (
-lock
 )
 )
 )
@@ -5172,9 +5155,6 @@ NS_ERROR_NOT_SAME_THREAD
 #
 ifndef
 MOZ_NO_SMART_CARDS
-nsNSSShutDownPreventionLock
-lock
-;
 MutexAutoLock
 nsNSSComponentLock
 (
@@ -5269,9 +5249,6 @@ return
 NS_ERROR_NOT_SAME_THREAD
 ;
 }
-nsNSSShutDownPreventionLock
-lock
-;
 MutexAutoLock
 nsNSSComponentLock
 (
@@ -5406,9 +5383,6 @@ CheckForSmartCardChanges
 #
 ifndef
 MOZ_NO_SMART_CARDS
-nsNSSShutDownPreventionLock
-lock
-;
 MutexAutoLock
 nsNSSComponentLock
 (
@@ -6026,9 +6000,6 @@ LoadLoadableRootsTask
 :
 LoadLoadableRoots
 (
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 nsAutoString
@@ -10661,9 +10632,6 @@ NS_PREFBRANCH_PREFCHANGE_TOPIC_ID
 0
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 bool
 clearSessionCache
 =
@@ -12119,8 +12087,6 @@ slot
 nsIInterfaceRequestor
 *
 ctx
-nsNSSShutDownPreventionLock
-&
 )
 {
 MOZ_ASSERT

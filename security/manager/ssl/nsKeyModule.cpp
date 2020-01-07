@@ -63,9 +63,6 @@ nsKeyObject
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -147,9 +144,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -198,9 +192,6 @@ NS_ERROR_INVALID_ARG
 _retval
 =
 nullptr
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -290,9 +281,6 @@ nsKeyObjectFactory
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -349,9 +337,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

@@ -152,9 +152,6 @@ const
 nsACString
 &
 aData
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 nsresult

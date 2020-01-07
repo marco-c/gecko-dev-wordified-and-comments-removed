@@ -130,10 +130,6 @@ ctx
 nsCString
 &
 nickname
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 static
@@ -148,10 +144,6 @@ CACerts
 nsIInterfaceRequestor
 *
 ctx
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 static
@@ -168,10 +160,6 @@ stringID
 nsIX509Cert
 *
 certToShow
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 CERTDERCerts
@@ -190,10 +178,6 @@ uint8_t
 data
 uint32_t
 length
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 nsresult
@@ -211,10 +195,6 @@ x509Certs
 nsIInterfaceRequestor
 *
 ctx
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 virtual

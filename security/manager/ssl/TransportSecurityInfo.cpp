@@ -197,9 +197,6 @@ TransportSecurityInfo
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4181,9 +4178,6 @@ UniqueCERTCertList
 certList
 )
 {
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 isAlreadyShutDown
@@ -4204,7 +4198,6 @@ Move
 (
 certList
 )
-lock
 )
 ;
 return

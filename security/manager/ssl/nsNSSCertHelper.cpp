@@ -8608,9 +8608,6 @@ nsIASN1Sequence
 retSequence
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -9295,9 +9292,6 @@ nsIASN1Object
 aRetVal
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

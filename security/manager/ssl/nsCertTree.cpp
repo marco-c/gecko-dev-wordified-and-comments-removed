@@ -2599,9 +2599,6 @@ void
 aCertCmpFnArg
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 nsCOMPtr
 <
 nsIInterfaceRequestor
@@ -2660,9 +2657,6 @@ NS_ENSURE_ARG_POINTER
 aCache
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 CERTCertList
 *
 certList
@@ -2679,9 +2673,11 @@ if
 !
 certList
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 return
 GetCertsByTypeFromCertList
 (

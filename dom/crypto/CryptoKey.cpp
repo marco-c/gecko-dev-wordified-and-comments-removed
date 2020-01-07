@@ -728,9 +728,6 @@ CryptoKey
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1492,9 +1489,6 @@ mPrivateKey
 keyType
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 ScopedAutoSECItem
 params
 ;
@@ -1993,9 +1987,6 @@ SECKEYPrivateKey
 aPrivateKey
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -2044,9 +2035,6 @@ SECKEYPublicKey
 aPublicKey
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -2108,9 +2096,6 @@ GetPrivateKey
 )
 const
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -2149,9 +2134,6 @@ GetPublicKey
 )
 const
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -2220,9 +2202,6 @@ PrivateKeyFromPkcs8
 CryptoBuffer
 &
 aKeyData
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 UniquePK11SlotInfo
@@ -2352,9 +2331,6 @@ PublicKeyFromSpki
 CryptoBuffer
 &
 aKeyData
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 UniquePLArenaPool
@@ -2619,9 +2595,6 @@ aPrivKey
 CryptoBuffer
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 UniqueSECItem
@@ -2817,9 +2790,6 @@ aPubKey
 CryptoBuffer
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 UniqueCERTSubjectPublicKeyInfo
@@ -3227,9 +3197,6 @@ const
 JsonWebKey
 &
 aJwk
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 CK_OBJECT_CLASS
@@ -4499,9 +4466,6 @@ aPrivKey
 JsonWebKey
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 switch
@@ -4975,9 +4939,6 @@ const
 JsonWebKey
 &
 aJwk
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 if
@@ -5364,9 +5325,6 @@ aPubKey
 JsonWebKey
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 switch
@@ -5551,9 +5509,6 @@ const
 CryptoBuffer
 &
 aGenerator
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 UniquePLArenaPool
@@ -5753,9 +5708,6 @@ aPubKey
 CryptoBuffer
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 if
@@ -5798,9 +5750,6 @@ const
 nsString
 &
 aNamedCurve
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 UniquePLArenaPool
@@ -5966,9 +5915,6 @@ aPubKey
 CryptoBuffer
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 if
@@ -6091,9 +6037,6 @@ aWriter
 )
 const
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -6129,7 +6072,6 @@ get
 (
 )
 priv
-locker
 )
 )
 )
@@ -6159,7 +6101,6 @@ get
 (
 )
 pub
-locker
 )
 )
 )
@@ -6218,9 +6159,6 @@ JSStructuredCloneReader
 aReader
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -6354,7 +6292,6 @@ CryptoKey
 PrivateKeyFromPkcs8
 (
 priv
-locker
 )
 ;
 }
@@ -6377,7 +6314,6 @@ CryptoKey
 PublicKeyFromSpki
 (
 pub
-locker
 )
 ;
 }

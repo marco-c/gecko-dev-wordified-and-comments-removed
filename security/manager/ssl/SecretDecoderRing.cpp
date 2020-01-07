@@ -350,9 +350,6 @@ SecretDecoderRing
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -387,9 +384,6 @@ nsACString
 result
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -441,7 +435,6 @@ get
 (
 )
 ctx
-locker
 )
 ;
 if
@@ -591,9 +584,6 @@ nsACString
 result
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1104,9 +1094,6 @@ ChangePassword
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1253,9 +1240,6 @@ return
 rv
 ;
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1323,9 +1307,6 @@ return
 rv
 ;
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

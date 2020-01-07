@@ -1460,9 +1460,6 @@ IsOnOriginalThread
 )
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -7530,9 +7527,6 @@ DoCrypto
 )
 override
 {
-nsNSSShutDownPreventionLock
-locker
-;
 UniqueSECKEYPublicKey
 pubKey
 ;
@@ -7587,7 +7581,6 @@ CryptoKey
 PublicKeyFromSpki
 (
 mKeyData
-locker
 )
 ;
 }
@@ -7601,7 +7594,6 @@ CryptoKey
 PublicKeyFromJwk
 (
 mJwk
-locker
 )
 ;
 }
@@ -7697,7 +7689,6 @@ CryptoKey
 PrivateKeyFromPkcs8
 (
 mKeyData
-locker
 )
 ;
 }
@@ -7711,7 +7702,6 @@ CryptoKey
 PrivateKeyFromJwk
 (
 mJwk
-locker
 )
 ;
 }
@@ -8312,9 +8302,6 @@ pubKey
 UniqueSECKEYPrivateKey
 privKey
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 mFormat
@@ -8342,7 +8329,6 @@ CryptoKey
 PrivateKeyFromJwk
 (
 mJwk
-locker
 )
 ;
 if
@@ -8447,7 +8433,6 @@ PublicECKeyFromRaw
 (
 mKeyData
 mNamedCurve
-locker
 )
 ;
 }
@@ -8470,7 +8455,6 @@ CryptoKey
 PublicKeyFromSpki
 (
 mKeyData
-locker
 )
 ;
 }
@@ -8493,7 +8477,6 @@ CryptoKey
 PublicKeyFromJwk
 (
 mJwk
-locker
 )
 ;
 }
@@ -9102,9 +9085,6 @@ override
 UniqueSECKEYPublicKey
 pubKey
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 mFormat
@@ -9143,7 +9123,6 @@ PublicDhKeyFromRaw
 mKeyData
 mPrime
 mGenerator
-locker
 )
 ;
 }
@@ -9166,7 +9145,6 @@ CryptoKey
 PublicKeyFromSpki
 (
 mKeyData
-locker
 )
 ;
 }
@@ -9476,9 +9454,6 @@ DoCrypto
 )
 override
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 mFormat
@@ -9517,7 +9492,6 @@ get
 (
 )
 mResult
-locker
 )
 ;
 if
@@ -9564,7 +9538,6 @@ get
 (
 )
 mResult
-locker
 )
 ;
 if
@@ -9654,7 +9627,6 @@ get
 (
 )
 mResult
-locker
 )
 ;
 if
@@ -9713,7 +9685,6 @@ get
 (
 )
 mResult
-locker
 )
 ;
 }
@@ -9819,7 +9790,6 @@ get
 (
 )
 mJwk
-locker
 )
 ;
 if
@@ -9871,7 +9841,6 @@ get
 (
 )
 mJwk
-locker
 )
 ;
 if
@@ -16785,9 +16754,6 @@ MOZ_ASSERT
 (
 mReleasedNSSResources
 )
-;
-nsNSSShutDownPreventionLock
-lock
 ;
 if
 (

@@ -119,10 +119,6 @@ destructorSafeDestroyNSSReference
 nsresult
 refreshSlotInfo
 (
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 nsresult

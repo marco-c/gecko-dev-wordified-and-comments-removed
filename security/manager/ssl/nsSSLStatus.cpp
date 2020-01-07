@@ -1503,9 +1503,6 @@ nsSSLStatus
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1574,9 +1571,6 @@ UniqueCERTCertList
 aCertList
 )
 {
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 isAlreadyShutDown
@@ -1597,7 +1591,6 @@ Move
 (
 aCertList
 )
-lock
 )
 ;
 return

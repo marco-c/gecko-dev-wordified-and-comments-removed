@@ -348,9 +348,6 @@ nsNSSCertificateDB
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -409,9 +406,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -985,9 +979,6 @@ uint8_t
 data
 uint32_t
 length
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 CERTDERCerts
@@ -1214,9 +1205,6 @@ const
 UniqueCERTCertList
 &
 certChain
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 bool
@@ -1349,10 +1337,6 @@ x509Certs
 nsIInterfaceRequestor
 *
 ctx
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 {
 uint32_t
@@ -1670,7 +1654,6 @@ ctx
 NotACACert
 "
 certToShow
-proofOfLock
 )
 ;
 return
@@ -1692,7 +1675,6 @@ ctx
 CaCertExists
 "
 certToShow
-proofOfLock
 )
 ;
 return
@@ -2032,7 +2014,6 @@ return
 ImportCertsIntoPermanentStorage
 (
 certList
-proofOfLock
 )
 ;
 }
@@ -2054,9 +2035,6 @@ nsIInterfaceRequestor
 ctx
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2111,7 +2089,6 @@ getCertsFromPackage
 arena
 data
 length
-locker
 )
 ;
 if
@@ -2252,7 +2229,6 @@ WrapNotNull
 array
 )
 ctx
-locker
 )
 ;
 }
@@ -2265,9 +2241,6 @@ numcerts
 SECItem
 *
 certs
-const
-nsNSSShutDownPreventionLock
-&
 const
 UniqueCERTCertList
 &
@@ -2504,9 +2477,6 @@ nsIInterfaceRequestor
 ctx
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2546,7 +2516,6 @@ getCertsFromPackage
 arena
 data
 length
-locker
 )
 ;
 if
@@ -2590,7 +2559,6 @@ certCollection
 -
 >
 rawCerts
-locker
 temporaryCerts
 )
 ;
@@ -2610,7 +2578,6 @@ return
 ImportCertsIntoPermanentStorage
 (
 temporaryCerts
-locker
 )
 ;
 }
@@ -2628,10 +2595,6 @@ caCerts
 nsIInterfaceRequestor
 *
 ctx
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 {
 UniqueCERTCertList
@@ -2659,7 +2622,6 @@ ImportCertsIntoTempStorage
 (
 numCACerts
 caCerts
-proofOfLock
 temporaryCerts
 )
 ;
@@ -2679,7 +2641,6 @@ return
 ImportCertsIntoPermanentStorage
 (
 temporaryCerts
-proofOfLock
 )
 ;
 }
@@ -2699,9 +2660,6 @@ stringID
 nsIX509Cert
 *
 certToShow
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 static
@@ -2875,9 +2833,6 @@ return
 NS_ERROR_NOT_SAME_THREAD
 ;
 }
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2917,7 +2872,6 @@ getCertsFromPackage
 arena
 data
 length
-locker
 )
 ;
 if
@@ -3004,7 +2958,6 @@ ctx
 UserCertIgnoredNoPrivateKey
 "
 certToShow
-locker
 )
 ;
 return
@@ -3045,7 +2998,6 @@ get
 )
 ctx
 nickname
-locker
 )
 ;
 }
@@ -3109,7 +3061,6 @@ ctx
 UserCertImported
 "
 certToShow
-locker
 )
 ;
 }
@@ -3151,7 +3102,6 @@ ImportCACerts
 numCACerts
 caCerts
 ctx
-locker
 )
 ;
 }
@@ -3214,9 +3164,6 @@ NS_ENSURE_ARG_POINTER
 (
 aCert
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -3411,9 +3358,6 @@ NS_ENSURE_ARG_POINTER
 cert
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3596,9 +3540,6 @@ _isTrusted
 _isTrusted
 =
 false
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -3885,9 +3826,6 @@ uint32_t
 aType
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4141,9 +4079,6 @@ return
 NS_ERROR_NOT_SAME_THREAD
 ;
 }
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4270,9 +4205,6 @@ return
 NS_ERROR_NOT_SAME_THREAD
 ;
 }
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4350,9 +4282,6 @@ nsIX509Cert
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4593,9 +4522,6 @@ nsIX509Cert
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4680,9 +4606,6 @@ nsIX509Cert
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4836,9 +4759,6 @@ ctx
 nsCString
 &
 nickname
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 static
@@ -5309,9 +5229,6 @@ addedCertificate
 =
 nullptr
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -5712,9 +5629,6 @@ nsIX509CertList
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -5799,7 +5713,6 @@ Move
 (
 certList
 )
-locker
 )
 ;
 nssCertList
@@ -5848,9 +5761,6 @@ NS_ENSURE_ARG_POINTER
 (
 enterpriseRoots
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -5937,10 +5847,6 @@ aHasEVPolicy
 int32_t
 *
 _retval
-const
-nsNSSShutDownPreventionLock
-&
-locker
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -6138,7 +6044,6 @@ Move
 (
 resultChain
 )
-locker
 )
 ;
 NS_ENSURE_TRUE
@@ -6227,9 +6132,6 @@ int32_t
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -6262,7 +6164,6 @@ Now
 aVerifiedChain
 aHasEVPolicy
 _retval
-locker
 )
 ;
 }
@@ -6297,9 +6198,6 @@ int32_t
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -6333,7 +6231,6 @@ aTime
 aVerifiedChain
 aHasEVPolicy
 _retval
-locker
 )
 ;
 }
@@ -6584,9 +6481,6 @@ nsICertVerificationCallback
 aCallback
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -6636,9 +6530,6 @@ ClearOCSPCache
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

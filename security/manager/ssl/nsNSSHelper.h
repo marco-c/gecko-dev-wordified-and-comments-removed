@@ -113,8 +113,6 @@ slot
 nsIInterfaceRequestor
 *
 ctx
-nsNSSShutDownPreventionLock
-&
 )
 ;
 #

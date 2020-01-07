@@ -3094,9 +3094,6 @@ PK11PasswordPromptRunnable
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3124,9 +3121,6 @@ RunOnTargetThread
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4210,9 +4204,6 @@ canFalseStart
 canFalseStart
 =
 false
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 nsNSSSocketInfo
 *
@@ -5993,9 +5984,6 @@ void
 client_data
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 SECStatus
 rv
 ;

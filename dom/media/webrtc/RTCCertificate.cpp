@@ -1474,9 +1474,6 @@ RTCCertificate
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1512,9 +1509,6 @@ CreateDtlsIdentity
 )
 const
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1660,10 +1654,6 @@ WritePrivateKey
 JSStructuredCloneWriter
 *
 aWriter
-const
-nsNSSShutDownPreventionLock
-&
-aLockProof
 )
 const
 {
@@ -1684,7 +1674,6 @@ get
 (
 )
 jwk
-aLockProof
 )
 ;
 if
@@ -1734,9 +1723,6 @@ WriteCertificate
 JSStructuredCloneWriter
 *
 aWriter
-const
-nsNSSShutDownPreventionLock
-&
 )
 const
 {
@@ -1832,9 +1818,6 @@ aWriter
 )
 const
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1883,14 +1866,12 @@ mExpires
 WritePrivateKey
 (
 aWriter
-locker
 )
 &
 &
 WriteCertificate
 (
 aWriter
-locker
 )
 ;
 }
@@ -1903,10 +1884,6 @@ ReadPrivateKey
 JSStructuredCloneReader
 *
 aReader
-const
-nsNSSShutDownPreventionLock
-&
-aLockProof
 )
 {
 nsString
@@ -1952,7 +1929,6 @@ CryptoKey
 PrivateKeyFromJwk
 (
 jwk
-aLockProof
 )
 ;
 return
@@ -1970,9 +1946,6 @@ ReadCertificate
 JSStructuredCloneReader
 *
 aReader
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 CryptoBuffer
@@ -2060,9 +2033,6 @@ JSStructuredCloneReader
 aReader
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2151,14 +2121,12 @@ return
 ReadPrivateKey
 (
 aReader
-locker
 )
 &
 &
 ReadCertificate
 (
 aReader
-locker
 )
 ;
 }

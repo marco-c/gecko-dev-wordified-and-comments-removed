@@ -327,6 +327,7 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIX509CERTLIST
 NS_DECL_NSISERIALIZABLE
+explicit
 nsNSSCertList
 (
 mozilla
@@ -334,10 +335,6 @@ mozilla
 :
 UniqueCERTCertList
 certList
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 nsNSSCertList
@@ -358,10 +355,6 @@ mozilla
 UniqueCERTCertList
 &
 certList
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 nsresult
@@ -455,6 +448,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
+explicit
 nsNSSCertListEnumerator
 (
 const
@@ -464,10 +458,6 @@ mozilla
 UniqueCERTCertList
 &
 certList
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 ;
 private

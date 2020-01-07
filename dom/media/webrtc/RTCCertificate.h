@@ -332,9 +332,6 @@ ReadCertificate
 JSStructuredCloneReader
 *
 aReader
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 bool
@@ -343,10 +340,6 @@ ReadPrivateKey
 JSStructuredCloneReader
 *
 aReader
-const
-nsNSSShutDownPreventionLock
-&
-aLockProof
 )
 ;
 bool
@@ -355,9 +348,6 @@ WriteCertificate
 JSStructuredCloneWriter
 *
 aWriter
-const
-nsNSSShutDownPreventionLock
-&
 )
 const
 ;
@@ -367,10 +357,6 @@ WritePrivateKey
 JSStructuredCloneWriter
 *
 aWriter
-const
-nsNSSShutDownPreventionLock
-&
-aLockProof
 )
 const
 ;

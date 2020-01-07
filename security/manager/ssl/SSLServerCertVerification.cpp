@@ -6455,9 +6455,6 @@ return
 SECFailure
 ;
 }
-nsNSSShutDownPreventionLock
-lock
-;
 UniqueCERTCertList
 peerCertChainCopy
 =
@@ -6467,7 +6464,6 @@ nsNSSCertList
 DupCertList
 (
 peerCertChain
-lock
 )
 ;
 if
@@ -6601,9 +6597,6 @@ get
 ;
 PRErrorCode
 error
-;
-nsNSSShutDownPreventionLock
-nssShutdownPrevention
 ;
 if
 (

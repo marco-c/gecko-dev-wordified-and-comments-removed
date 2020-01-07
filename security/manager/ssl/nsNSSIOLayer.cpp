@@ -1222,9 +1222,6 @@ Truncate
 (
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1394,9 +1391,6 @@ DriveHandshake
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1934,9 +1928,6 @@ nsCString
 protocolArray
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2075,9 +2066,6 @@ ActivateSSL
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2532,9 +2520,6 @@ PRFileDesc
 fd
 Operation
 op
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 if
@@ -2731,9 +2716,6 @@ fd
 )
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -2741,7 +2723,6 @@ getSocketInfoIfRunning
 (
 fd
 not_reading_or_writing
-locker
 )
 )
 return
@@ -3460,9 +3441,6 @@ PRFileDesc
 fd
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -3530,7 +3508,6 @@ socketInfo
 >
 CloseSocketAndDestroy
 (
-locker
 )
 ;
 }
@@ -3540,9 +3517,6 @@ nsNSSSocketInfo
 :
 CloseSocketAndDestroy
 (
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 PRFileDesc
@@ -5112,9 +5086,6 @@ int16_t
 out_flags
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -5149,7 +5120,6 @@ getSocketInfoIfRunning
 (
 fd
 not_reading_or_writing
-locker
 )
 ;
 if
@@ -5511,9 +5481,6 @@ PRNetAddr
 addr
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -5521,7 +5488,6 @@ getSocketInfoIfRunning
 (
 fd
 not_reading_or_writing
-locker
 )
 )
 return
@@ -5559,9 +5525,6 @@ PRNetAddr
 addr
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -5569,7 +5532,6 @@ getSocketInfoIfRunning
 (
 fd
 not_reading_or_writing
-locker
 )
 )
 return
@@ -5607,9 +5569,6 @@ PRSocketOptionData
 data
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -5617,7 +5576,6 @@ getSocketInfoIfRunning
 (
 fd
 not_reading_or_writing
-locker
 )
 )
 return
@@ -5653,9 +5611,6 @@ PRSocketOptionData
 data
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -5663,7 +5618,6 @@ getSocketInfoIfRunning
 (
 fd
 not_reading_or_writing
-locker
 )
 )
 return
@@ -5704,9 +5658,6 @@ PRIntervalTime
 timeout
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 nsNSSSocketInfo
 *
 socketInfo
@@ -5715,7 +5666,6 @@ getSocketInfoIfRunning
 (
 fd
 reading
-locker
 )
 ;
 if
@@ -5850,9 +5800,6 @@ PRIntervalTime
 timeout
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 nsNSSSocketInfo
 *
 socketInfo
@@ -5861,7 +5808,6 @@ getSocketInfoIfRunning
 (
 fd
 writing
-locker
 )
 ;
 if
@@ -6239,9 +6185,6 @@ PRNetAddr
 addr
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -6249,7 +6192,6 @@ getSocketInfoIfRunning
 (
 fd
 not_reading_or_writing
-locker
 )
 )
 return
@@ -6337,9 +6279,6 @@ int16_t
 out_flags
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -6347,7 +6286,6 @@ getSocketInfoIfRunning
 (
 fd
 not_reading_or_writing
-locker
 )
 )
 {
@@ -8784,9 +8722,6 @@ SECKEYPrivateKey
 pRetKey
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 !
@@ -10226,9 +10161,6 @@ char
 host
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 PRFileDesc
 *
 sslSock
@@ -10487,9 +10419,6 @@ nsNSSSocketInfo
 infoObject
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 forSTARTTLS
@@ -11405,9 +11334,6 @@ uint32_t
 providerTlsFlags
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 PRFileDesc
 *
 layer

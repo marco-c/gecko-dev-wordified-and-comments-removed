@@ -113,9 +113,6 @@ nsDataSignatureVerifier
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -162,9 +159,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (

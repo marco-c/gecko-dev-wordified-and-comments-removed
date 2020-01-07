@@ -123,9 +123,6 @@ MOZ_ASSERT
 slot
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -156,7 +153,6 @@ Unused
 <
 refreshSlotInfo
 (
-locker
 )
 ;
 }
@@ -166,9 +162,6 @@ nsPKCS11Slot
 :
 refreshSlotInfo
 (
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 CK_SLOT_INFO
@@ -385,9 +378,6 @@ nsPKCS11Slot
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -452,9 +442,6 @@ nsACString
 xpcomOutParam
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -486,7 +473,6 @@ rv
 =
 refreshSlotInfo
 (
-locker
 )
 ;
 if
@@ -521,9 +507,6 @@ nsACString
 name
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -694,9 +677,6 @@ NS_ENSURE_ARG_POINTER
 _retval
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -744,9 +724,6 @@ nsACString
 tokenName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -800,7 +777,6 @@ rv
 =
 refreshSlotInfo
 (
-locker
 )
 ;
 if
@@ -846,9 +822,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -1008,9 +981,6 @@ MOZ_ASSERT
 module
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1038,9 +1008,6 @@ nsPKCS11Module
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1101,9 +1068,6 @@ nsACString
 name
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1135,9 +1099,6 @@ nsACString
 libName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1197,9 +1158,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -1415,9 +1373,6 @@ NS_ENSURE_ARG_POINTER
 (
 _retval
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (

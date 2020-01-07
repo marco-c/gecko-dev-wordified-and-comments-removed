@@ -1083,9 +1083,6 @@ nsKeygenFormProcessor
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1325,9 +1322,6 @@ PK11SlotInfo
 aSlot
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1345,7 +1339,6 @@ GetSlotWithMechanism
 aMechanism
 m_ctx
 aSlot
-locker
 )
 ;
 }
@@ -1422,8 +1415,6 @@ PK11SlotInfo
 *
 *
 aSlot
-nsNSSShutDownPreventionLock
-&
 )
 {
 PK11SlotList
@@ -1898,9 +1889,6 @@ nsAString
 aKeyParams
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2310,7 +2298,6 @@ setPassword
 (
 slot
 m_ctx
-locker
 )
 ;
 if

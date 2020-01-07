@@ -192,9 +192,6 @@ nsPKCS12Blob
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -225,9 +222,6 @@ nsIFile
 file
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 nsresult
 rv
 =
@@ -314,9 +308,6 @@ RetryReason
 aWantRetry
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 nsresult
 rv
 =
@@ -720,9 +711,6 @@ int
 numCerts
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 nsresult
 rv
 ;
@@ -1551,9 +1539,6 @@ nsIFile
 file
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 nsresult
 rv
 ;
@@ -1694,9 +1679,6 @@ void
 wincx
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 *
 cancel
 =

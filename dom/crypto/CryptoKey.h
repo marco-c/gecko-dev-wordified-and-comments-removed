@@ -500,9 +500,6 @@ PrivateKeyFromPkcs8
 CryptoBuffer
 &
 aKeyData
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -515,9 +512,6 @@ aPrivKey
 CryptoBuffer
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -527,9 +521,6 @@ PublicKeyFromSpki
 CryptoBuffer
 &
 aKeyData
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -542,9 +533,6 @@ aPubKey
 CryptoBuffer
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -555,9 +543,6 @@ const
 JsonWebKey
 &
 aJwk
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -570,9 +555,6 @@ aPrivKey
 JsonWebKey
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -583,9 +565,6 @@ const
 JsonWebKey
 &
 aKeyData
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -598,9 +577,6 @@ aPubKey
 JsonWebKey
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -618,9 +594,6 @@ const
 CryptoBuffer
 &
 aGenerator
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -633,9 +606,6 @@ aPubKey
 CryptoBuffer
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -649,9 +619,6 @@ const
 nsString
 &
 aNamedCurve
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static
@@ -664,9 +631,6 @@ aPubKey
 CryptoBuffer
 &
 aRetVal
-const
-nsNSSShutDownPreventionLock
-&
 )
 ;
 static

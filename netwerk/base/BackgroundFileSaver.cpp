@@ -458,9 +458,6 @@ this
 )
 )
 ;
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 isAlreadyShutDown
@@ -1802,9 +1799,6 @@ sha256Enabled
 mDigestContext
 )
 {
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 !
@@ -1924,9 +1918,6 @@ count
 break
 ;
 }
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 isAlreadyShutDown
@@ -2326,9 +2317,6 @@ failed
 mDigestContext
 )
 {
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 !
@@ -2686,9 +2674,6 @@ main
 thread
 "
 )
-;
-nsNSSShutDownPreventionLock
-nssLock
 ;
 if
 (
@@ -4210,9 +4195,6 @@ DigestOutputStream
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4283,9 +4265,6 @@ uint32_t
 retval
 )
 {
-nsNSSShutDownPreventionLock
-lock
-;
 if
 (
 isAlreadyShutDown

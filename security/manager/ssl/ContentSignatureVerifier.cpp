@@ -230,9 +230,6 @@ ContentSignatureVerifier
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -395,9 +392,6 @@ aCertChain
 CERTCertList
 *
 aCertList
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 bool
@@ -745,9 +739,6 @@ NS_IsMainThread
 )
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -804,7 +795,6 @@ certCertList
 get
 (
 )
-locker
 )
 ;
 if
@@ -1428,7 +1418,6 @@ rv
 UpdateInternal
 (
 kPREFIX
-locker
 )
 ;
 if
@@ -1447,7 +1436,6 @@ return
 UpdateInternal
 (
 aData
-locker
 )
 ;
 }
@@ -1806,9 +1794,6 @@ const
 nsACString
 &
 aData
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 if
@@ -1883,9 +1868,6 @@ NS_IsMainThread
 )
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1947,7 +1929,6 @@ return
 UpdateInternal
 (
 aData
-locker
 )
 ;
 }
@@ -1973,9 +1954,6 @@ NS_IsMainThread
 (
 )
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (

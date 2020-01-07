@@ -323,9 +323,6 @@ KeyPair
 )
 override
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -456,9 +453,6 @@ KeyGenRunnable
 )
 override
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -579,9 +573,6 @@ SignRunnable
 )
 override
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2100,9 +2091,6 @@ NS_IsMainThread
 )
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2336,9 +2324,6 @@ NS_IsMainThread
 )
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown

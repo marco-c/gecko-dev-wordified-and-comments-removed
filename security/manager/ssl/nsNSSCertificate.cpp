@@ -434,9 +434,6 @@ int
 derLen
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -529,9 +526,6 @@ mCertType
 CERT_TYPE_NOT_YET_INITIALIZED
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -586,9 +580,6 @@ nsNSSCertificate
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -762,9 +753,6 @@ NS_ENSURE_ARG
 aIsSelfSigned
 )
 ;
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -801,9 +789,6 @@ NS_ENSURE_ARG
 (
 aIsBuiltInRoot
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -863,9 +848,6 @@ MarkForPermDeletion
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1302,9 +1284,6 @@ nsACString
 aDbKey
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1551,9 +1530,6 @@ nsAString
 aDisplayName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1812,9 +1788,6 @@ nsAString
 aEmailAddress
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -1909,9 +1882,6 @@ char16_t
 aAddresses
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2081,9 +2051,6 @@ bool
 result
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2192,9 +2159,6 @@ nsAString
 aCommonName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2261,9 +2225,6 @@ nsAString
 aOrganization
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2330,9 +2291,6 @@ nsAString
 aCommonName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2399,9 +2357,6 @@ nsAString
 aOrganization
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2468,9 +2423,6 @@ nsAString
 aOrganizationUnit
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2538,9 +2490,6 @@ nsIX509Cert
 aIssuer
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2683,9 +2632,6 @@ nsAString
 aOrganizationalUnit
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -2887,9 +2833,6 @@ nsIArray
 _rvChain
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3055,9 +2998,6 @@ nsAString
 _subjectName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3107,9 +3047,6 @@ nsAString
 _issuerName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3159,9 +3096,6 @@ nsAString
 _serialNumber
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3228,9 +3162,6 @@ SECOidTag
 aHashAlg
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3381,9 +3312,6 @@ nsAString
 aTokenName
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3511,9 +3439,6 @@ nsACString
 aSha256SPKIDigest
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3639,9 +3564,6 @@ uint8_t
 aArray
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -3747,9 +3669,6 @@ NS_ENSURE_ARG
 (
 aArray
 )
-;
-nsNSSShutDownPreventionLock
-locker
 ;
 if
 (
@@ -4412,9 +4331,6 @@ GetCert
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4453,9 +4369,6 @@ nsIX509CertValidity
 aValidity
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4553,9 +4466,6 @@ bool
 result
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4783,10 +4693,6 @@ nsNSSCertList
 (
 UniqueCERTCertList
 certList
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 {
 if
@@ -4840,9 +4746,6 @@ nsNSSCertList
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -4916,9 +4819,6 @@ nsIX509Cert
 aCert
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -5036,9 +4936,6 @@ const
 UniqueCERTCertList
 &
 certList
-const
-nsNSSShutDownPreventionLock
-&
 )
 {
 if
@@ -5164,9 +5061,6 @@ GetRawCertList
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -5197,9 +5091,6 @@ nsIObjectOutputStream
 aStream
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -5381,9 +5272,6 @@ nsIObjectInputStream
 aStream
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -5524,9 +5412,6 @@ nsISimpleEnumerator
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -5558,7 +5443,6 @@ new
 nsNSSCertListEnumerator
 (
 mCertList
-locker
 )
 ;
 enumerator
@@ -5586,9 +5470,6 @@ bool
 result
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -6205,10 +6086,6 @@ const
 UniqueCERTCertList
 &
 certList
-const
-nsNSSShutDownPreventionLock
-&
-proofOfLock
 )
 {
 MOZ_ASSERT
@@ -6224,7 +6101,6 @@ nsNSSCertList
 DupCertList
 (
 certList
-proofOfLock
 )
 ;
 }
@@ -6236,9 +6112,6 @@ nsNSSCertListEnumerator
 (
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -6299,9 +6172,6 @@ bool
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
@@ -6344,9 +6214,6 @@ nsISupports
 _retval
 )
 {
-nsNSSShutDownPreventionLock
-locker
-;
 if
 (
 isAlreadyShutDown
