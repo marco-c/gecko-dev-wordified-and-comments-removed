@@ -643,17 +643,6 @@ false
 "
 layout
 .
-text
--
-orientation
-.
-enabled
-"
-:
-false
-"
-layout
-.
 viewport
 .
 enabled
