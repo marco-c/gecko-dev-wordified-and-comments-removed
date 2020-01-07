@@ -5096,11 +5096,6 @@ DidInsertNode
 nsIDOMNode
 *
 aNode
-nsIDOMNode
-*
-aParent
-int32_t
-aPosition
 nsresult
 aResult
 )
@@ -12198,9 +12193,7 @@ nsIDOMNode
 aNode
 nsIDOMNode
 *
-aParent
-int32_t
-aPosition
+aNextSiblingOfNewNode
 )
 {
 return
