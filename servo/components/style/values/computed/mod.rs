@@ -376,6 +376,7 @@ box_
 {
 AnimationIterationCount
 AnimationName
+Display
 OverscrollBehavior
 }
 ;
