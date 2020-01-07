@@ -85,10 +85,8 @@ static
 nsresult
 Create
 (
-already_AddRefed
-<
 nsIInputStream
->
+*
 aInputStream
 nsIAsyncInputStream
 *
@@ -101,10 +99,8 @@ private
 explicit
 NonBlockingAsyncInputStream
 (
-already_AddRefed
-<
 nsIInputStream
->
+*
 aInputStream
 )
 ;
