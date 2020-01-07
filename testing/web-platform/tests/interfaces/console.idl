@@ -10,6 +10,17 @@ Worklet
 namespace
 console
 {
+/
+/
+but
+see
+namespace
+object
+requirements
+below
+/
+/
+Logging
 void
 assert
 (
@@ -136,6 +147,9 @@ any
 data
 )
 ;
+/
+/
+Grouping
 void
 group
 (
@@ -161,6 +175,9 @@ groupEnd
 (
 )
 ;
+/
+/
+Timing
 void
 time
 (
