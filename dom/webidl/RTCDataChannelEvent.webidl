@@ -126,6 +126,9 @@ def
 RTCDataChannelEvent
 *
 /
+interface
+RTCDataChannel
+;
 dictionary
 RTCDataChannelEventInit
 :

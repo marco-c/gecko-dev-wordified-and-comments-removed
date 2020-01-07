@@ -29,7 +29,7 @@ mozilla
 /
 dom
 /
-RTCDataChannelBinding
+DataChannelBinding
 .
 h
 "

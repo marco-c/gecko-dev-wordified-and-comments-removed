@@ -398,6 +398,9 @@ false
 ;
 }
 ;
+interface
+RTCDataChannel
+;
 [
 Pref
 =
