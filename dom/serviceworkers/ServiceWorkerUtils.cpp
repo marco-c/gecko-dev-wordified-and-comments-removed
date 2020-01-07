@@ -25,13 +25,6 @@ ServiceWorkerParentInterceptEnabled
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 static
 bool
 sInit
@@ -39,7 +32,10 @@ sInit
 false
 ;
 static
+Atomic
+<
 bool
+>
 sEnabled
 ;
 if
@@ -58,7 +54,7 @@ NS_IsMainThread
 Preferences
 :
 :
-AddBoolVarCache
+AddAtomicBoolVarCache
 (
 &
 sEnabled
