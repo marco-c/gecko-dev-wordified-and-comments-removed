@@ -225,14 +225,7 @@ PropTypes
 func
 .
 isRequired
-onShowGridAreaHighlight
-:
-PropTypes
-.
-func
-.
-isRequired
-onShowGridCellHighlight
+onShowGridOutlineHighlight
 :
 PropTypes
 .
@@ -283,8 +276,7 @@ setSelectedNode
 onHideBoxModelHighlighter
 onSetGridOverlayColor
 onShowBoxModelHighlighterForNode
-onShowGridAreaHighlight
-onShowGridCellHighlight
+onShowGridOutlineHighlight
 onToggleShowGridAreas
 onToggleGridHighlighter
 onToggleShowGridLineNumbers
@@ -354,8 +346,7 @@ GridOutline
 (
 {
 grids
-onShowGridAreaHighlight
-onShowGridCellHighlight
+onShowGridOutlineHighlight
 }
 )
 )
