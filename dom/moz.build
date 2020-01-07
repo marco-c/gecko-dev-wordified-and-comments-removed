@@ -170,9 +170,6 @@ html
 events
 '
 '
-stylesheets
-'
-'
 sidebar
 '
 '
@@ -520,6 +517,9 @@ MOZ_WIDGET_TOOLKIT
 ]
 in
 (
+'
+gtk2
+'
 '
 gtk3
 '

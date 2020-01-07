@@ -205,13 +205,6 @@ DOMException
 }
 /
 /
-Style
-Sheets
-interface
-nsIDOMStyleSheet
-;
-/
-/
 Base
 interface
 nsIDOMWindow

@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsIDOMStyleSheet
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -12743,7 +12736,6 @@ StyleSheet
 NotOwnedByDocument
 )
 ;
-return
 sheet
 -
 >
@@ -12752,6 +12744,9 @@ SetDisabled
 !
 aEnable
 )
+;
+return
+NS_OK
 ;
 }
 bool

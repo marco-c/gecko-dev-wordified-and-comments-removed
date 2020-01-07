@@ -767,13 +767,6 @@ BINPATH
 /
 components
 /
-dom_stylesheets
-.
-xpt
-BINPATH
-/
-components
-/
 dom_system
 .
 xpt

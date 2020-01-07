@@ -128,6 +128,7 @@ type
 ;
 [
 Constant
+Throws
 ]
 readonly
 attribute

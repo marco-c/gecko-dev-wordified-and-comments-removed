@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsIDOMStyleSheet
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

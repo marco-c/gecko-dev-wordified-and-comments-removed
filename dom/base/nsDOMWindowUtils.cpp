@@ -700,13 +700,6 @@ h
 #
 include
 "
-nsIDOMStyleSheet
-.
-h
-"
-#
-include
-"
 nsIStyleSheetService
 .
 h
