@@ -922,9 +922,6 @@ _bookmarks
 bool
 mCanNotify
 ;
-bool
-mBatching
-;
 }
 ;
 #
