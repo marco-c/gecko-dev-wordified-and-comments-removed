@@ -2929,7 +2929,7 @@ sha256_end_entity
 #
 Hosts
 for
-Symantec
+imminent
 distrust
 warning
 tests
@@ -2937,15 +2937,9 @@ https
 :
 /
 /
-symantec
+imminently
 -
-not
--
-whitelisted
--
-before
--
-cutoff
+distrusted
 .
 example
 .
@@ -2955,7 +2949,7 @@ com
 privileged
 cert
 =
-symantec_affected
+imminently_distrusted
 #
 Hosts
 for

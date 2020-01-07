@@ -104,15 +104,9 @@ https
 :
 /
 /
-symantec
+imminently
 -
-not
--
-whitelisted
--
-before
--
-cutoff
+distrusted
 .
 example
 .
