@@ -82,17 +82,6 @@ tools
 /
 lint
 /
-spell
-/
-codespell_requirements
-.
-txt
-path
-:
-tools
-/
-lint
-/
 eslint
 /
 eslint
