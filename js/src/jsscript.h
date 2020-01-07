@@ -6083,6 +6083,11 @@ ensureHasTypes
 JSContext
 *
 cx
+js
+:
+:
+AutoKeepTypeScripts
+&
 )
 ;
 inline
