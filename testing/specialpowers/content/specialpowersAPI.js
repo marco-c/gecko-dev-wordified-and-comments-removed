@@ -8107,6 +8107,9 @@ obj
 [
 p
 ]
+!
+=
+undefined
 )
 {
 obj
