@@ -51,3 +51,9 @@ VIEW_NODE_FONT_TYPE
 =
 8
 ;
+exports
+.
+VIEW_NODE_SHAPE_SWATCH
+=
+9
+;
