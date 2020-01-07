@@ -4399,7 +4399,7 @@ delete
 ;
 public
 :
-ZoneGroupOrGCTaskOrIonCompileData
+ZoneOrGCTaskOrIonCompileData
 <
 uint32_t
 >

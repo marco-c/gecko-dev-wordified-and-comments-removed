@@ -753,7 +753,7 @@ typename
 T
 >
 class
-ProtectedDataZoneGroupArg
+ProtectedDataZoneArg
 :
 public
 ProtectedData
@@ -763,7 +763,7 @@ T
 >
 {
 typedef
-ProtectedDataZoneGroupArg
+ProtectedDataZoneArg
 <
 Check
 T
@@ -781,7 +781,7 @@ typename
 Args
 >
 explicit
-ProtectedDataZoneGroupArg
+ProtectedDataZoneArg
 (
 JS
 :
@@ -1102,7 +1102,7 @@ T
 using
 ZoneData
 =
-ProtectedDataZoneGroupArg
+ProtectedDataZoneArg
 <
 CheckZone
 <
@@ -1120,9 +1120,9 @@ typename
 T
 >
 using
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 =
-ProtectedDataZoneGroupArg
+ProtectedDataZoneArg
 <
 CheckZone
 <
@@ -1140,9 +1140,9 @@ typename
 T
 >
 using
-ZoneGroupOrIonCompileData
+ZoneOrIonCompileData
 =
-ProtectedDataZoneGroupArg
+ProtectedDataZoneArg
 <
 CheckZone
 <
@@ -1160,9 +1160,9 @@ typename
 T
 >
 using
-ZoneGroupOrGCTaskOrIonCompileData
+ZoneOrGCTaskOrIonCompileData
 =
-ProtectedDataZoneGroupArg
+ProtectedDataZoneArg
 <
 CheckZone
 <

@@ -649,7 +649,7 @@ static
 FreeSpan
 placeholder
 ;
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 AllAllocKindArray
 <
@@ -818,13 +818,13 @@ i
 ]
 ;
 }
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 AllocKind
 >
 incrementalSweptArenaKind
 ;
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 ArenaList
 >

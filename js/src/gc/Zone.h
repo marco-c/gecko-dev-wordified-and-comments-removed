@@ -1164,7 +1164,7 @@ isOnList
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -1275,7 +1275,7 @@ private
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 mozilla
 :
@@ -1385,7 +1385,7 @@ private
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 GrayRootVector
 >
@@ -1436,7 +1436,7 @@ private
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 WeakEdges
 >
@@ -1463,7 +1463,7 @@ private
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 mozilla
 :
@@ -1529,7 +1529,7 @@ private
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -2066,7 +2066,7 @@ private
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -2078,7 +2078,7 @@ markedAtoms_
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -2090,7 +2090,7 @@ atomCache_
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
@@ -2102,7 +2102,7 @@ externalStringCache_
 js
 :
 :
-ZoneGroupOrGCTaskData
+ZoneOrGCTaskData
 <
 js
 :
