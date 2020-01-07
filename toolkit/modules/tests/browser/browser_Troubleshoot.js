@@ -2258,15 +2258,6 @@ boolean
 }
 }
 }
-experiments
-:
-{
-type
-:
-"
-array
-"
-}
 sandbox
 :
 {

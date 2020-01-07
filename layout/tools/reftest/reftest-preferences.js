@@ -559,16 +559,6 @@ false
 user_pref
 (
 "
-experiments
-.
-enabled
-"
-false
-)
-;
-user_pref
-(
-"
 browser
 .
 safebrowsing
