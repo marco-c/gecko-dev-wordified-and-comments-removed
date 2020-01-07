@@ -232,7 +232,7 @@ ImageFormat
 Invalid
 =
 0
-A8
+R8
 =
 1
 BGRA8
@@ -264,7 +264,7 @@ self
 ImageFormat
 :
 :
-A8
+R8
 =
 >
 1

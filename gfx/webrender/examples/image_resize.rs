@@ -244,6 +244,10 @@ ImageRendering
 :
 :
 Auto
+AlphaType
+:
+:
+PremultipliedAlpha
 self
 .
 image_key
@@ -296,6 +300,10 @@ ImageRendering
 :
 :
 Pixelated
+AlphaType
+:
+:
+PremultipliedAlpha
 self
 .
 image_key

@@ -757,6 +757,10 @@ ImageRendering
 :
 :
 Auto
+AlphaType
+:
+:
+PremultipliedAlpha
 self
 .
 external_image_key

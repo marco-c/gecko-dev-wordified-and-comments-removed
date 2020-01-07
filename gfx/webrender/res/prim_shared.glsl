@@ -4164,6 +4164,9 @@ uv_rect
 float
 layer
 ;
+vec3
+user_data
+;
 }
 ;
 ImageResource
@@ -4211,6 +4214,12 @@ data
 ]
 .
 x
+data
+[
+1
+]
+.
+yzw
 )
 ;
 }
@@ -4245,6 +4254,12 @@ data
 ]
 .
 x
+data
+[
+1
+]
+.
+yzw
 )
 ;
 }

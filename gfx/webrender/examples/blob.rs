@@ -561,7 +561,7 @@ api
 ImageFormat
 :
 :
-A8
+R8
 =
 >
 {
@@ -1542,6 +1542,13 @@ ImageRendering
 :
 :
 Auto
+api
+:
+:
+AlphaType
+:
+:
+PremultipliedAlpha
 blob_img1
 )
 ;
@@ -1611,6 +1618,13 @@ ImageRendering
 :
 :
 Auto
+api
+:
+:
+AlphaType
+:
+:
+PremultipliedAlpha
 blob_img2
 )
 ;

@@ -1079,7 +1079,7 @@ new
 ImageFormat
 :
 :
-A8
+R8
 true
 )
 ImageData
@@ -1153,7 +1153,7 @@ new
 ImageFormat
 :
 :
-A8
+R8
 true
 )
 ImageData
@@ -1189,7 +1189,7 @@ new
 ImageFormat
 :
 :
-A8
+R8
 true
 )
 ImageData

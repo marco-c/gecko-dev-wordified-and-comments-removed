@@ -310,6 +310,8 @@ backgrounds
 #
 double
 return
+max
+(
 floor
 (
 0
@@ -321,6 +323,10 @@ border
 widths
 /
 3
+.
+0
+)
+1
 .
 0
 )

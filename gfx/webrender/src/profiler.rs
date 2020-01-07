@@ -5009,6 +5009,10 @@ renderer_profile
 .
 draw_calls
 &
+renderer_profile
+.
+vertices
+&
 self
 .
 backend_time
