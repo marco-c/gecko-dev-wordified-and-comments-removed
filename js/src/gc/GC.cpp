@@ -2034,7 +2034,9 @@ MemCheckKind
 MakeUndefined
 )
 ;
-TraceTenuredFinalize
+gcTracer
+.
+traceTenuredFinalize
 (
 t
 )
@@ -5918,7 +5920,9 @@ endif
 if
 (
 !
-InitTrace
+gcTracer
+.
+initTrace
 (
 *
 this
@@ -6138,7 +6142,9 @@ ref
 )
 )
 ;
-FinishTrace
+gcTracer
+.
+finishTrace
 (
 )
 ;
@@ -28171,7 +28177,9 @@ DESTROY_RUNTIME
 &
 &
 !
-TraceEnabled
+gcTracer
+.
+traceEnabled
 (
 )
 &
@@ -36160,7 +36168,9 @@ return
 result
 ;
 }
-TraceMajorGCStart
+gcTracer
+.
+traceMajorGCStart
 (
 )
 ;
@@ -36184,7 +36194,9 @@ clearSelectedForMarking
 ;
 #
 endif
-TraceMajorGCEnd
+gcTracer
+.
+traceMajorGCEnd
 (
 )
 ;

@@ -415,7 +415,9 @@ obj
 gc
 :
 :
-TraceCreateObject
+gcTracer
+.
+traceCreateObject
 (
 obj
 )

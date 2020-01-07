@@ -11515,7 +11515,9 @@ js
 gc
 :
 :
-TraceCreateObject
+gcTracer
+.
+traceCreateObject
 (
 tobj
 )

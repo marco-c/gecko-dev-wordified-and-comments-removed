@@ -810,7 +810,9 @@ js
 gc
 :
 :
-TraceCreateObject
+gcTracer
+.
+traceCreateObject
 (
 fun
 )

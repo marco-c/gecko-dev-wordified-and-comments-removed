@@ -402,7 +402,9 @@ span
 gc
 :
 :
-TraceCreateObject
+gcTracer
+.
+traceCreateObject
 (
 obj
 )

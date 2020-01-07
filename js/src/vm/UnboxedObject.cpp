@@ -3075,7 +3075,9 @@ replacementNewScript
 gc
 :
 :
-TraceTypeNewScript
+gcTracer
+.
+traceTypeNewScript
 (
 replacementGroup
 )
@@ -4427,7 +4429,9 @@ js
 gc
 :
 :
-TraceCreateObject
+gcTracer
+.
+traceCreateObject
 (
 uobj
 )

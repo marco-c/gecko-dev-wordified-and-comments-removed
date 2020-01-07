@@ -1077,7 +1077,9 @@ js
 gc
 :
 :
-TraceCreateObject
+gcTracer
+.
+traceCreateObject
 (
 pobj
 )
