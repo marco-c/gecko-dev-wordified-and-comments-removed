@@ -380,6 +380,9 @@ mIMERanges
 int32_t
 mIMEMaskEventsCount
 ;
+int32_t
+mIMEFocusCount
+;
 bool
 mIMEUpdatingContext
 ;
@@ -808,6 +811,10 @@ TextRangeArray
 mIMEMaskEventsCount
 (
 1
+)
+mIMEFocusCount
+(
+0
 )
 mIMEUpdatingContext
 (
