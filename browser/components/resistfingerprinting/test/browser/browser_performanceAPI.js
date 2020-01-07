@@ -154,7 +154,7 @@ expectedPrecision
 )
 <
 .
-0005
+0000001
 )
 {
 return
@@ -174,7 +174,7 @@ x
 )
 <
 .
-0005
+0000001
 )
 {
 return
