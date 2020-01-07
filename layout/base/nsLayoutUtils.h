@@ -5188,12 +5188,6 @@ UnsetValueEnabled
 ;
 static
 bool
-IsTextAlignUnsafeValueEnabled
-(
-)
-;
-static
-bool
 IsInterCharacterRubyEnabled
 (
 )
