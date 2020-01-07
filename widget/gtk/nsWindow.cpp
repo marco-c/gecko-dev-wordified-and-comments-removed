@@ -15548,6 +15548,11 @@ FALSE
 #
 ifdef
 MOZ_X11
+if
+(
+mIsX11Display
+)
+{
 gtk_widget_realize
 (
 mShell
@@ -15563,6 +15568,7 @@ popup_take_focus_filter
 nullptr
 )
 ;
+}
 #
 endif
 }
