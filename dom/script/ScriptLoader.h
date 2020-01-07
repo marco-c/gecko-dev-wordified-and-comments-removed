@@ -1194,6 +1194,17 @@ ModuleLoadRequest
 aRequest
 )
 ;
+JS
+:
+:
+Value
+FindFirstParseError
+(
+ModuleLoadRequest
+*
+aRequest
+)
+;
 void
 StartFetchingModuleDependencies
 (
