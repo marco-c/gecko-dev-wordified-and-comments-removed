@@ -2613,6 +2613,17 @@ PREF_DIR
 /
 devtools
 -
+shared
+.
+js
+RESPATH
+/
+browser
+/
+PREF_DIR
+/
+devtools
+-
 client
 .
 js
