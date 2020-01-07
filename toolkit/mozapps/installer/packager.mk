@@ -1388,15 +1388,6 @@ path
 DIST
 )
 \
--
--
-package
-'
-(
-PACKAGE
-)
-'
-\
 (
 UPLOAD_FILES
 )
