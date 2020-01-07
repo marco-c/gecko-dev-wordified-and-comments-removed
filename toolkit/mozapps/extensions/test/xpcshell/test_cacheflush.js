@@ -397,9 +397,11 @@ uninstall
 (
 )
 ;
-equal
+ok
 (
 gCacheFlushCount
+>
+=
 1
 )
 ;
