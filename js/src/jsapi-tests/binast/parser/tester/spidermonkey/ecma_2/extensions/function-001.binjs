@@ -37,6 +37,7 @@ list
 <
 list
 >
+m
 <
 string
 >
@@ -94,6 +95,7 @@ list
 <
 list
 >
+O
 <
 tuple
 >
@@ -662,6 +664,7 @@ string
 <
 list
 >
+;
 <
 tuple
 >

@@ -110,6 +110,7 @@ list
 <
 list
 >
+"
 <
 tuple
 >
@@ -1098,6 +1099,7 @@ tuple
 <
 list
 >
+_
 <
 tuple
 >
@@ -1202,6 +1204,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head

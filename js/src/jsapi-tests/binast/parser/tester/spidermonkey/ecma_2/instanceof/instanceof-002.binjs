@@ -37,6 +37,7 @@ list
 <
 list
 >
+l
 <
 string
 >
@@ -661,6 +662,7 @@ string
 <
 list
 >
+;
 <
 tuple
 >
@@ -810,6 +812,7 @@ tuple
 <
 list
 >
+"
 <
 tuple
 >

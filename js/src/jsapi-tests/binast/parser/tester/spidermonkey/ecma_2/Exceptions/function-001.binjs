@@ -332,6 +332,7 @@ string
 <
 list
 >
+2
 <
 tuple
 >
@@ -1022,6 +1023,7 @@ tuple
 <
 list
 >
+Z
 <
 tuple
 >
@@ -1074,6 +1076,7 @@ tuple
 <
 list
 >
+s
 <
 tuple
 >
@@ -1185,6 +1188,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1196,6 +1200,7 @@ tuple
 <
 list
 >
++
 <
 tuple
 >
@@ -1475,6 +1480,7 @@ tuple
 <
 list
 >
+8
 <
 tuple
 >

@@ -31,22 +31,6 @@ head
 list
 >
 <
-string
->
-TryNewJavaInteger
-<
-/
-string
->
-<
-string
->
-newJavaInteger
-<
-/
-string
->
-<
 /
 list
 >
@@ -80,7 +64,23 @@ string
 <
 string
 >
+TryNewJavaInteger
+<
+/
+string
+>
+<
+string
+>
 VERSION
+<
+/
+string
+>
+<
+string
+>
+newJavaInteger
 <
 /
 string
@@ -92,6 +92,7 @@ list
 <
 list
 >
+r
 <
 string
 >
@@ -134,6 +135,7 @@ list
 <
 list
 >
+2
 <
 tuple
 >
@@ -1533,7 +1535,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1561,6 +1563,15 @@ head
 >
 <
 list
+>
+=
+<
+string
+>
+newJavaInteger
+<
+/
+string
 >
 <
 string
@@ -1591,6 +1602,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1639,6 +1651,7 @@ head
 <
 list
 >
+Q
 <
 tuple
 >
@@ -1673,6 +1686,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1797,6 +1811,7 @@ tuple
 <
 list
 >
+T
 <
 tuple
 >
@@ -1962,6 +1977,7 @@ tuple
 <
 list
 >
+X
 <
 tuple
 >
@@ -2062,6 +2078,7 @@ tuple
 <
 list
 >
+X
 <
 tuple
 >
@@ -2117,6 +2134,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2195,6 +2213,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2276,7 +2295,7 @@ tuple
 <
 head
 >
-EagerFunctionDeclaration
+FunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2304,6 +2323,15 @@ head
 >
 <
 list
+>
+_
+<
+string
+>
+TryNewJavaInteger
+<
+/
+string
 >
 <
 string
@@ -2369,6 +2397,7 @@ list
 <
 list
 >
+"
 <
 string
 >
@@ -2490,6 +2519,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2647,6 +2677,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2747,6 +2778,7 @@ tuple
 <
 list
 >
+X
 <
 tuple
 >
@@ -2851,6 +2883,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -2951,6 +2984,7 @@ tuple
 <
 list
 >
+T
 <
 tuple
 >
@@ -3022,6 +3056,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -3033,6 +3068,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >

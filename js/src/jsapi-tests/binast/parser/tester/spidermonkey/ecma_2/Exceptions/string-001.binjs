@@ -110,6 +110,7 @@ list
 <
 list
 >
+0
 <
 tuple
 >
@@ -983,6 +984,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -994,6 +996,7 @@ tuple
 <
 list
 >
+8
 <
 tuple
 >
@@ -1473,6 +1476,7 @@ tuple
 <
 head
 >
+_Null
 <
 /
 head
@@ -1484,6 +1488,7 @@ tuple
 <
 list
 >
+)
 <
 tuple
 >
@@ -1763,6 +1768,7 @@ tuple
 <
 list
 >
+q
 <
 tuple
 >
