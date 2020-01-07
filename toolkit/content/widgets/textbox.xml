@@ -1143,9 +1143,7 @@ mEditor
 const
 nsIDOMNSEditableElement
 =
-Components
-.
-interfaces
+Ci
 .
 nsIDOMNSEditableElement
 ;
@@ -1542,9 +1540,7 @@ editor
 const
 nsIPlaintextEditor
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPlaintextEditor
 ;

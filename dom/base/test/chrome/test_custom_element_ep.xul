@@ -427,9 +427,7 @@ sandbox
 var
 sandbox
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

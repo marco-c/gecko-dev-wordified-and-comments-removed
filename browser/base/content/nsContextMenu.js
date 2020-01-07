@@ -8741,9 +8741,7 @@ true
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -8850,9 +8848,7 @@ description
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )

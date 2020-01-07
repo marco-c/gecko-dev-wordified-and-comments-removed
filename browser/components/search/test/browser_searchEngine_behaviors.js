@@ -531,9 +531,7 @@ req
 .
 cancel
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 )

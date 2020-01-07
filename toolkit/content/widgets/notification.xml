@@ -502,9 +502,7 @@ CDATA
 var
 prefs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -521,9 +519,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefBranch
 )
@@ -1785,9 +1781,7 @@ bug
 let
 fm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1804,9 +1798,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFocusManager
 )
@@ -2754,9 +2746,7 @@ try
 var
 prefService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2773,9 +2763,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefBranch
 )

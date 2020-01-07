@@ -349,9 +349,7 @@ detail
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag2
 )
@@ -490,9 +488,7 @@ detail
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag2
 )

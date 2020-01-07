@@ -416,9 +416,7 @@ ContentScriptScope
 var
 processType
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -435,9 +433,7 @@ runtime
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIXULRuntime
 )
@@ -468,9 +464,7 @@ hasCorrectInterface
 :
 chromeEventHandler
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMEventTarget
 }

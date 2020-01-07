@@ -25108,9 +25108,7 @@ aRequest
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIChannel
 )
@@ -25149,9 +25147,7 @@ aRequest
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -31189,9 +31185,7 @@ _lastStatus
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISSLStatus
 )
@@ -31760,9 +31754,7 @@ securityUI
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISSLStatusProvider
 )

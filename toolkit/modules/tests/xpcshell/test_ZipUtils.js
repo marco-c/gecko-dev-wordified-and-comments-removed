@@ -299,9 +299,7 @@ target
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .

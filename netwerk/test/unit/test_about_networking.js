@@ -64,9 +64,7 @@ nsIDashboard
 const
 gServerSocket
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -85,9 +83,7 @@ socket
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIServerSocket
 )

@@ -93,9 +93,7 @@ open2
 var
 properties
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -112,9 +110,7 @@ properties
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPersistentProperties
 )
@@ -447,9 +443,7 @@ open2
 var
 properties2
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -466,9 +460,7 @@ properties
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPersistentProperties
 )

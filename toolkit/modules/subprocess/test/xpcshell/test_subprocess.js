@@ -3106,9 +3106,7 @@ getCurrentDirectory
 let
 tmpDirFile
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -3125,9 +3123,7 @@ local
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

@@ -10,9 +10,7 @@ ctypes
 const
 init
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

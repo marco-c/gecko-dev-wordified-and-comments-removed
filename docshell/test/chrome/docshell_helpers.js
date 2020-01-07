@@ -1654,9 +1654,7 @@ undefined
 var
 prefs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1673,9 +1671,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefBranch
 )
@@ -1714,9 +1710,7 @@ SimpleTest
 let
 ww
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1735,9 +1729,7 @@ watcher
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIWindowWatcher
 )
@@ -1962,9 +1954,7 @@ enable
 var
 prefs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1981,9 +1971,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefBranch
 )

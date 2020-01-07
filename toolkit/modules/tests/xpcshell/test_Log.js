@@ -3180,9 +3180,7 @@ Exception
 test
 exception
 "
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 )

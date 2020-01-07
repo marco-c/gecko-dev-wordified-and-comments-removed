@@ -152,9 +152,7 @@ paused
 test_black_box_exception
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -202,9 +200,7 @@ BLACK_BOXED_URL
 1
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

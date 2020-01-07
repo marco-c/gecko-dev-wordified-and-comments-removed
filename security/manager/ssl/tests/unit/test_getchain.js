@@ -146,9 +146,7 @@ cert
 const
 nsIX509Cert
 =
-Components
-.
-interfaces
+Ci
 .
 nsIX509Cert
 ;
@@ -231,9 +229,7 @@ email_ca
 const
 nsIX509Cert
 =
-Components
-.
-interfaces
+Ci
 .
 nsIX509Cert
 ;

@@ -169,9 +169,7 @@ ws
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIWebSocketChannel
 )

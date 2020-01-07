@@ -77,9 +77,7 @@ loop_link
 const
 nsIFile
 =
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 ;
@@ -102,9 +100,7 @@ process
 var
 ln
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -121,9 +117,7 @@ local
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -142,9 +136,7 @@ ln
 ;
 process
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -161,9 +153,7 @@ util
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProcess
 )

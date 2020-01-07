@@ -1,9 +1,7 @@
 var
 file
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -28,9 +26,7 @@ message
 {
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -47,9 +43,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -59,9 +53,7 @@ get
 "
 TmpD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -81,9 +73,7 @@ file
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .

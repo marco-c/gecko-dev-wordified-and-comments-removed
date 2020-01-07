@@ -7,9 +7,7 @@ SimpleURIClassByID
 var
 simpleURI
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -50,9 +48,7 @@ SimpleURIClassByID
 var
 simpleURI
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -103,9 +99,7 @@ SimpleURIClassByID
 var
 simpleURI
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -130,9 +124,7 @@ var
 sb
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -176,9 +168,7 @@ SimpleURIClassByID
 var
 simpleURI
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -203,9 +193,7 @@ var
 sb
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

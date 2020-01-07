@@ -346,9 +346,7 @@ path
 let
 dir
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -365,9 +363,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -377,9 +373,7 @@ get
 "
 CurWorkD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -772,9 +766,7 @@ dir
 path
 os
 :
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -793,9 +785,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIXULRuntime
 )

@@ -52,9 +52,7 @@ ok
 (
 keynoteBundle
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsILocalFileMac
 )
@@ -65,9 +63,7 @@ ok
 (
 appBundle
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsILocalFileMac
 )

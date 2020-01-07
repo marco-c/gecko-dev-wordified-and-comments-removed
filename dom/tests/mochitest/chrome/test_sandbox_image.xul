@@ -300,9 +300,7 @@ contentWindow
 var
 sandbox
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -317,9 +315,7 @@ win
 var
 result
 =
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

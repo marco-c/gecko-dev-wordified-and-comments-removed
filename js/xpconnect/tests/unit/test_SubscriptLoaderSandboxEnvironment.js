@@ -20,9 +20,7 @@ jsm
 let
 tgt
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

@@ -229,9 +229,7 @@ js
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

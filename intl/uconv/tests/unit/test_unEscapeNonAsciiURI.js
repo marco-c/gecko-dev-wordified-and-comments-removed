@@ -6,9 +6,7 @@ run_test
 const
 textToSubURI
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -25,9 +23,7 @@ texttosuburi
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsITextToSubURI
 )
@@ -89,9 +85,7 @@ E9
 "
 throws
 :
-Components
-.
-results
+Cr
 .
 NS_ERROR_ILLEGAL_INPUT
 }
@@ -117,9 +111,7 @@ E9
 "
 throws
 :
-Components
-.
-results
+Cr
 .
 NS_ERROR_ILLEGAL_INPUT
 }
@@ -183,9 +175,7 @@ E9e
 "
 throws
 :
-Components
-.
-results
+Cr
 .
 NS_ERROR_ILLEGAL_INPUT
 }
@@ -211,9 +201,7 @@ E9
 "
 throws
 :
-Components
-.
-results
+Cr
 .
 NS_ERROR_ILLEGAL_INPUT
 }
@@ -239,9 +227,7 @@ FCller
 "
 throws
 :
-Components
-.
-results
+Cr
 .
 NS_ERROR_ILLEGAL_INPUT
 }

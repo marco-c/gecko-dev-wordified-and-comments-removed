@@ -92,9 +92,7 @@ _shell
 )
 {
 return
-Components
-.
-classes
+Cc
 [
 "
 mozilla

@@ -1332,9 +1332,7 @@ try
 let
 mediaMgr
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1911,9 +1909,7 @@ try
 let
 predictor
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1930,9 +1926,7 @@ predictor
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsINetworkPredictor
 )
@@ -2394,9 +2388,7 @@ try
 let
 sdr
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2413,9 +2405,7 @@ sdr
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsISecretDecoderRing
 )
@@ -2549,9 +2539,7 @@ try
 let
 cps
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2570,9 +2558,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIContentPrefService2
 )
@@ -3955,9 +3941,7 @@ if
 rv
 =
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_PLUGIN_TIME_RANGE_NOT_SUPPORTED
 )

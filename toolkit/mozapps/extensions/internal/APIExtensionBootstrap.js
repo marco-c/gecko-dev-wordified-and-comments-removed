@@ -117,9 +117,7 @@ resource
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIResProtocolHandler
 )

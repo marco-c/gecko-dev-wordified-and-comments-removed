@@ -506,9 +506,7 @@ event
 .
 target
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMWindow
 )
@@ -533,9 +531,7 @@ event
 .
 target
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMDocument
 )

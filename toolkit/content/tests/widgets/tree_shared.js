@@ -804,9 +804,7 @@ is
 (
 inputField
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULTextBoxElement
 true
@@ -1760,9 +1758,7 @@ is
 (
 selection
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsITreeSelection
 true
@@ -7267,9 +7263,7 @@ is
 (
 view
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsITreeView
 true

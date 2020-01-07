@@ -328,9 +328,7 @@ browser1
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFrameLoaderOwner
 )
@@ -342,9 +340,7 @@ browser2
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFrameLoaderOwner
 )

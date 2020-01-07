@@ -49,9 +49,7 @@ subject
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPermission
 )

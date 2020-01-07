@@ -298,9 +298,7 @@ contentDocument
 ;
 ok
 (
-Components
-.
-utils
+Cu
 .
 isXrayWrapper
 (
@@ -317,9 +315,7 @@ XrayWrapper
 var
 weak
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -328,9 +324,7 @@ doc
 ;
 ok
 (
-Components
-.
-utils
+Cu
 .
 isXrayWrapper
 (

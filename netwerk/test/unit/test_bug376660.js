@@ -59,9 +59,7 @@ this
 ;
 }
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -122,9 +120,7 @@ Assert
 equal
 (
 status
-Components
-.
-results
+Cr
 .
 NS_OK
 )

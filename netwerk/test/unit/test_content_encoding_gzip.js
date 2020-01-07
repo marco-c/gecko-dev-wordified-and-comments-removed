@@ -727,9 +727,7 @@ false
 var
 bos
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -744,9 +742,7 @@ binaryoutputstream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIBinaryOutputStream
 )

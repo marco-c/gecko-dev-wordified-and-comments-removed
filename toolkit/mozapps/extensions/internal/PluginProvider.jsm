@@ -2395,9 +2395,7 @@ e
 result
 !
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 )

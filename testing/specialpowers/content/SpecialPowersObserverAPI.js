@@ -2938,9 +2938,7 @@ sandboxOptions
 let
 sb
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -3066,9 +3064,7 @@ get
 let
 scope
 =
-Components
-.
-utils
+Cu
 .
 createObjectIn
 (
@@ -3129,9 +3125,7 @@ true
 ;
 try
 {
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

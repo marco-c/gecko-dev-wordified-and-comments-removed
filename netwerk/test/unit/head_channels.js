@@ -8,9 +8,7 @@ count
 var
 wrapper
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -25,9 +23,7 @@ binaryinputstream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIBinaryInputStream
 )
@@ -252,9 +248,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIStreamListener
 )
@@ -264,9 +258,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIRequestObserver
 )
@@ -276,9 +268,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -287,9 +277,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -445,9 +433,7 @@ request
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIChannel
 )

@@ -78,9 +78,7 @@ do_test_pending
 do_timeout
 (
 0
-Components
-.
-utils
+Cu
 .
 forceGC
 )

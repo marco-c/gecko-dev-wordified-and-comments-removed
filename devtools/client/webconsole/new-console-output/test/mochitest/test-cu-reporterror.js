@@ -3,9 +3,7 @@ a
 (
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

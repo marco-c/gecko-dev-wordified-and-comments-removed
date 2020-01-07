@@ -253,9 +253,7 @@ true
 const
 ACR
 =
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompleteResult
 ;
@@ -487,9 +485,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -499,9 +495,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFactory
 )
@@ -511,9 +505,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompleteSearch
 )
@@ -522,9 +514,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -592,9 +582,7 @@ manager
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIComponentRegistrar
 )

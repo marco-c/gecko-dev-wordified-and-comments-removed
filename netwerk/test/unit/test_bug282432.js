@@ -50,9 +50,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIStreamListener
 )
@@ -62,9 +60,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIRequestObserver
 )
@@ -74,9 +70,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -85,9 +79,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_NOINTERFACE
 ;
@@ -115,9 +107,7 @@ Assert
 equal
 (
 aStatusCode
-Components
-.
-results
+Cr
 .
 NS_ERROR_FILE_NOT_FOUND
 )
@@ -167,9 +157,7 @@ StreamListener
 let
 ios
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -188,9 +176,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )

@@ -577,9 +577,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_MALFORMED_URI
 "

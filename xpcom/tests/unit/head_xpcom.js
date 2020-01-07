@@ -49,9 +49,7 @@ set_process_running_environment
 var
 envSvc
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -68,9 +66,7 @@ environment
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEnvironment
 )
@@ -78,9 +74,7 @@ nsIEnvironment
 var
 dirSvc
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -97,9 +91,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -114,9 +106,7 @@ get
 "
 GreBinD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

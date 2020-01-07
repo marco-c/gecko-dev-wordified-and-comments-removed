@@ -1039,9 +1039,7 @@ contentWindow
 .
 getInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIWebNavigation
 )
@@ -1063,9 +1061,7 @@ wn
 .
 getInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIContentFrameMessageManager
 )

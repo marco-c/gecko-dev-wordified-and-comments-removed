@@ -434,9 +434,7 @@ false
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISHEntry
 )

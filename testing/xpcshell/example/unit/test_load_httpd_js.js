@@ -46,9 +46,7 @@ httpserver
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpServer
 )

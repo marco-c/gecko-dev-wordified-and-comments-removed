@@ -86,9 +86,7 @@ url
 =
 >
 {
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -105,9 +103,7 @@ clipboardhelper
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClipboardHelper
 )

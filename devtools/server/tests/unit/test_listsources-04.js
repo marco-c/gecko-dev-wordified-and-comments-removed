@@ -371,9 +371,7 @@ toString
 )
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

@@ -80,9 +80,7 @@ Yes
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 getJSTestingFunctions
 (
@@ -92,9 +90,7 @@ reportLargeAllocationFailure
 (
 )
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (

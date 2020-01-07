@@ -42,9 +42,7 @@ bookmarks
 .
 menuGuid
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

@@ -117,9 +117,7 @@ xul
 const
 nsIPropertyBag
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag
 ;

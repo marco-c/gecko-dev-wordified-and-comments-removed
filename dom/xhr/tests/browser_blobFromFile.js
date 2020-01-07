@@ -120,9 +120,7 @@ file
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -133,9 +131,7 @@ FILE_TYPE
 let
 outStream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -156,9 +152,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileOutputStream
 )

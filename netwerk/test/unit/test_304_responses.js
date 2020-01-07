@@ -210,9 +210,7 @@ clearCache
 var
 service
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -358,9 +356,7 @@ request
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -532,9 +528,7 @@ chan
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )

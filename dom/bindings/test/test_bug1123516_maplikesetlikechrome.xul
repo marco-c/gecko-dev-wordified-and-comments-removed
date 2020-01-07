@@ -303,9 +303,7 @@ contentWindow
 var
 sandbox
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -373,9 +371,7 @@ try
 var
 maplike
 =
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -434,9 +430,7 @@ compartments
 var
 test
 =
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -521,9 +515,7 @@ try
 var
 setlike
 =
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

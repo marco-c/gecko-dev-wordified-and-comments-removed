@@ -60,9 +60,7 @@ key
 var
 dirSvc
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -79,9 +77,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -92,9 +88,7 @@ dirSvc
 get
 (
 key
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

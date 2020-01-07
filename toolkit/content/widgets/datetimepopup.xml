@@ -381,9 +381,7 @@ this
 .
 mozIntl
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -398,9 +396,7 @@ mozintl
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozIMozIntl
 )

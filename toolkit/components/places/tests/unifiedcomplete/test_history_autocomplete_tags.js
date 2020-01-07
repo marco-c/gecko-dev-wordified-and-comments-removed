@@ -202,9 +202,7 @@ searchTerm
 var
 controller
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -221,9 +219,7 @@ controller
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompleteController
 )

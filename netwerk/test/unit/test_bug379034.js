@@ -6,9 +6,7 @@ run_test
 const
 ios
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -27,9 +25,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )

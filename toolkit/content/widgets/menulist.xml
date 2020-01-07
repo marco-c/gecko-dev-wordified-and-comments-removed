@@ -3824,9 +3824,7 @@ CDATA
 const
 nsIDOMNSEditableElement
 =
-Components
-.
-interfaces
+Ci
 .
 nsIDOMNSEditableElement
 ;

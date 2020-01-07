@@ -276,9 +276,7 @@ gClient
 }
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

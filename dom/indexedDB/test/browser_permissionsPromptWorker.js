@@ -211,9 +211,7 @@ testWorkerURL
 indexedDB
 "
 )
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 .
@@ -371,9 +369,7 @@ testSharedWorkerURL
 indexedDB
 "
 )
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 .

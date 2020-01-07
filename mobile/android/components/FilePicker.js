@@ -226,9 +226,7 @@ nsIFilePicker
 modeOpenMultiple
 )
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -1303,9 +1301,7 @@ length
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 ;

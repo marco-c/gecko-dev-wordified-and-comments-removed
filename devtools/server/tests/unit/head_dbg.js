@@ -3285,9 +3285,7 @@ debuggeeGlobal
 func
 )
 {
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

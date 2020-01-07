@@ -593,9 +593,7 @@ ok
 (
 request
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )

@@ -149,9 +149,7 @@ message
 n
 "
 ;
-Components
-.
-utils
+Cu
 .
 reportError
 (

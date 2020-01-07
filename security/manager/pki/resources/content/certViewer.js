@@ -1386,9 +1386,7 @@ cert
 var
 certDumpTree
 =
-Components
-.
-classes
+Cc
 [
 nsASN1Tree
 ]
@@ -1667,9 +1665,7 @@ display
 var
 certdb
 =
-Components
-.
-classes
+Cc
 [
 nsX509CertDB
 ]
@@ -1811,9 +1807,7 @@ display
 var
 certdb
 =
-Components
-.
-classes
+Cc
 [
 nsX509CertDB
 ]

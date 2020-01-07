@@ -1,9 +1,7 @@
 const
 localeService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -20,9 +18,7 @@ localeservice
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozILocaleService
 )

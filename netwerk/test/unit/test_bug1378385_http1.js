@@ -888,9 +888,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefBranch
 )

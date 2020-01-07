@@ -318,9 +318,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -330,9 +328,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIObserver
 )
@@ -343,9 +339,7 @@ this
 ;
 }
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -575,9 +569,7 @@ finishThisTest
 const
 nsIIdleService
 =
-Components
-.
-interfaces
+Ci
 .
 nsIIdleService
 ;
@@ -605,9 +597,7 @@ try
 {
 idleService
 =
-Components
-.
-classes
+Cc
 [
 nsIISCID
 ]

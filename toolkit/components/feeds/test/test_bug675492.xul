@@ -297,9 +297,7 @@ Bug
 *
 *
 /
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -314,9 +312,7 @@ parserutils
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIParserUtils
 )

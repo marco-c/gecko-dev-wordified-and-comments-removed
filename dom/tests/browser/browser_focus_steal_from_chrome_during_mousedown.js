@@ -159,9 +159,7 @@ kTestURI
 let
 fm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -178,9 +176,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFocusManager
 )
@@ -314,9 +310,7 @@ button
 let
 fm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -333,9 +327,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFocusManager
 )

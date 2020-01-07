@@ -352,9 +352,7 @@ fileData
 var
 testFile
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -371,9 +369,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -383,9 +379,7 @@ get
 "
 ProfD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -406,9 +400,7 @@ fileNum
 var
 outStream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -429,9 +421,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileOutputStream
 )

@@ -585,9 +585,7 @@ options
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -607,9 +605,7 @@ close
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -623,9 +619,7 @@ catch
 er
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

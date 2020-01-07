@@ -85,9 +85,7 @@ Arg
 var
 up
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -110,9 +108,7 @@ maybe
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIURLParser
 )

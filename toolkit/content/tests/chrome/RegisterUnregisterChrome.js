@@ -345,9 +345,7 @@ tmpdir
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .

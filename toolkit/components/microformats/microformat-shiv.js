@@ -9913,9 +9913,7 @@ undefined
 try
 {
 return
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -9932,9 +9930,7 @@ domparser
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMParser
 )
@@ -18985,9 +18981,7 @@ External
 ;
 try
 {
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

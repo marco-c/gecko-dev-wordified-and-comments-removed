@@ -24,9 +24,7 @@ str
 )
 {
 return
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -45,9 +43,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )
@@ -82,9 +78,7 @@ cookieBehavior
 var
 serv
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -99,9 +93,7 @@ cookieService
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICookieService
 )

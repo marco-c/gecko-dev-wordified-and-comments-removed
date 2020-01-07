@@ -25,9 +25,7 @@ jsm
 var
 gIoService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -46,9 +44,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )

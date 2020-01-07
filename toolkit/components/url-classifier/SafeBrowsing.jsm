@@ -1111,9 +1111,7 @@ kind
 +
 kind
 ;
-Components
-.
-utils
+Cu
 .
 reportError
 (

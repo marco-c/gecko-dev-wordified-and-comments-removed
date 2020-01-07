@@ -204,9 +204,7 @@ paused
 set_breakpoints
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

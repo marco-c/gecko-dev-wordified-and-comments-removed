@@ -6,9 +6,7 @@ run_test
 const
 zipCache
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -29,9 +27,7 @@ cache
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIZipReaderCache
 )
@@ -76,9 +72,7 @@ if
 (
 e
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIException
 &
@@ -88,9 +82,7 @@ e
 result
 =
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_POINTER
 )

@@ -6,9 +6,7 @@ run_test
 const
 miHelper
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -23,9 +21,7 @@ mozintlhelper
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozIMozIntlHelper
 )
@@ -103,9 +99,7 @@ var
 global
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -140,9 +134,7 @@ x
 var
 waivedX
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

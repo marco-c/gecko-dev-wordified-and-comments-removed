@@ -22,9 +22,7 @@ this
 .
 _enumerator
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -41,9 +39,7 @@ fontenumerator
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFontEnumerator
 )

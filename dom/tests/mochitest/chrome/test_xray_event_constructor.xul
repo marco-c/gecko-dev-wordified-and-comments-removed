@@ -300,9 +300,7 @@ function
 {
 ok
 (
-Components
-.
-utils
+Cu
 .
 isXrayWrapper
 (

@@ -194,9 +194,7 @@ test
 var
 xulRuntime
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -215,9 +213,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIXULRuntime
 )

@@ -302,9 +302,7 @@ XMLHttpRequest
 var
 loader
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -323,9 +321,7 @@ loader
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozIJSSubScriptLoader
 )

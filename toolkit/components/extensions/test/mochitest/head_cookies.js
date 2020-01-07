@@ -1085,9 +1085,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsICookie2
 )

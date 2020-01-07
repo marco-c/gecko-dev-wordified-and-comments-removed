@@ -12,9 +12,7 @@ webrequest_test
 "
 ]
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

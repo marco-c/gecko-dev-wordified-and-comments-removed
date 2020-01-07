@@ -56,9 +56,7 @@ jsm
 }
 )
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

@@ -45,9 +45,7 @@ s
 let
 service
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -66,9 +64,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )

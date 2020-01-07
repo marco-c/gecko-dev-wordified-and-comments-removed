@@ -772,9 +772,7 @@ uri
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileURL
 )

@@ -82,9 +82,7 @@ aParams
 aReason
 )
 {
-Components
-.
-utils
+Cu
 .
 unload
 (

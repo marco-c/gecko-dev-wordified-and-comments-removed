@@ -533,9 +533,7 @@ value
 var
 prefService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -552,9 +550,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefService
 )

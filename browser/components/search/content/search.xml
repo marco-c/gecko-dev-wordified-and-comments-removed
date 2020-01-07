@@ -756,9 +756,7 @@ updateOpenSearchBadge
 }
 else
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -3539,9 +3537,7 @@ handleError
 aError
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (

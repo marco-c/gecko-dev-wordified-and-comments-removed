@@ -2708,9 +2708,7 @@ onStopRequest
 (
 channel
 null
-Components
-.
-results
+Cr
 .
 NS_OK
 )

@@ -6,9 +6,7 @@ strict
 let
 env
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -25,9 +23,7 @@ environment
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEnvironment
 )
@@ -47,9 +43,7 @@ XPCSHELL_TEST_PROFILE_DIR
 let
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -66,9 +60,7 @@ local
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -169,9 +161,7 @@ file
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsILocalFileWin
 )

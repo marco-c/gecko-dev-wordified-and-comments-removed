@@ -602,9 +602,7 @@ subject
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPermission
 )
@@ -1027,9 +1025,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPermission
 )

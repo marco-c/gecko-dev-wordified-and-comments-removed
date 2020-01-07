@@ -8,9 +8,7 @@ this
 .
 window
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -58,9 +56,7 @@ this
 .
 window
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (

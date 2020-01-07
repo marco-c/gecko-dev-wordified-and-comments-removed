@@ -959,9 +959,7 @@ var
 regular
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -972,9 +970,7 @@ var
 expanded
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

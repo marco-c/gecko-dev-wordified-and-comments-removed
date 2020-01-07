@@ -329,9 +329,7 @@ callbacks
 .
 getInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIChannelEventSink
 )
@@ -340,9 +338,7 @@ ok
 (
 sink
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIChannelEventSink
 "
@@ -380,9 +376,7 @@ sink
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIInterfaceRequestor
 )

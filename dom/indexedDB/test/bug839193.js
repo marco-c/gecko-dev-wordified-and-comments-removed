@@ -1,9 +1,7 @@
 const
 nsIQuotaManagerService
 =
-Components
-.
-interfaces
+Ci
 .
 nsIQuotaManagerService
 ;
@@ -59,9 +57,7 @@ onLoad
 var
 quotaManagerService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

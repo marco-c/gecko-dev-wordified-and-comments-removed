@@ -437,9 +437,7 @@ setGlobals
 var
 wm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -458,9 +456,7 @@ mediator
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIWindowMediator
 )

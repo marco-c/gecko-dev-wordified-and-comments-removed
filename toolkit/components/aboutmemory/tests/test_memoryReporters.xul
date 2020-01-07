@@ -698,9 +698,7 @@ strings
 are
 tenured
 .
-Components
-.
-utils
+Cu
 .
 forceGC
 (
@@ -709,9 +707,7 @@ forceGC
 let
 mySandbox
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

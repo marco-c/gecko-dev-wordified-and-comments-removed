@@ -343,9 +343,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHangReport
 )
@@ -355,9 +353,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -366,9 +362,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_NOINTERFACE
 ;

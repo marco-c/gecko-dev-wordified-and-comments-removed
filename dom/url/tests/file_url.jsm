@@ -14,9 +14,7 @@ ok
 is
 )
 {
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

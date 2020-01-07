@@ -290,9 +290,7 @@ inputField
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMNSEditableElement
 )
@@ -305,9 +303,7 @@ editor
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPlaintextEditor
 )

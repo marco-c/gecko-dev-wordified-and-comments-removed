@@ -296,9 +296,7 @@ changed
 let
 serverSocket
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

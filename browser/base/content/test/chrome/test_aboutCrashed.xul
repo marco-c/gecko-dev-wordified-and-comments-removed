@@ -538,9 +538,7 @@ docShell
 .
 displayLoadError
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_CONTENT_CRASHED
 uri1
@@ -637,9 +635,7 @@ docShell
 .
 displayLoadError
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_CONTENT_CRASHED
 uri2

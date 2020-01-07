@@ -83,9 +83,7 @@ tmpFile
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -148,9 +146,7 @@ tmpDir
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -182,9 +178,7 @@ file1
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -214,9 +208,7 @@ dir1
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -249,9 +241,7 @@ file2
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -281,9 +271,7 @@ dir2
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .

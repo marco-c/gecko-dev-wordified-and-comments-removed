@@ -185,9 +185,7 @@ QueryInterface
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;

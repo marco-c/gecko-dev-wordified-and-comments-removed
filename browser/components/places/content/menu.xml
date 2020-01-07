@@ -2730,9 +2730,7 @@ dataTransfer
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )

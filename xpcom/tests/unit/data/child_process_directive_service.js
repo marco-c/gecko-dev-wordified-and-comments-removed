@@ -35,9 +35,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsISupportsString
 ]
@@ -79,9 +77,7 @@ ID
 )
 type
 :
-Components
-.
-interfaces
+Ci
 .
 nsISupportsString
 .

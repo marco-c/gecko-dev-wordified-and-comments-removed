@@ -80,9 +80,7 @@ tmpFile
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .

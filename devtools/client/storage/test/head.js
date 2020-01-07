@@ -3729,9 +3729,7 @@ permission
 const
 nsIPermissionManager
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 ;
@@ -3761,9 +3759,7 @@ uri
 }
 )
 ;
-Components
-.
-classes
+Cc
 [
 "
 mozilla

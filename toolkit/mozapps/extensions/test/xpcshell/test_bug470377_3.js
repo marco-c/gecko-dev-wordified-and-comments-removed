@@ -78,9 +78,7 @@ dest
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -151,9 +149,7 @@ dest
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -223,9 +219,7 @@ dest
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -295,9 +289,7 @@ dest
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .
@@ -367,9 +359,7 @@ dest
 .
 create
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .

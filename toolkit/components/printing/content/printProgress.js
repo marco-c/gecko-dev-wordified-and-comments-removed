@@ -204,9 +204,7 @@ if
 (
 aStateFlags
 &
-Components
-.
-interfaces
+Ci
 .
 nsIWebProgressListener
 .
@@ -232,9 +230,7 @@ if
 (
 aStateFlags
 &
-Components
-.
-interfaces
+Ci
 .
 nsIWebProgressListener
 .
@@ -688,9 +684,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIWebProgressListener
 )
@@ -700,9 +694,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupportsWeakReference
 )
@@ -711,9 +703,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_NOINTERFACE
 ;
@@ -923,9 +913,7 @@ arguments
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrintProgressParams
 )

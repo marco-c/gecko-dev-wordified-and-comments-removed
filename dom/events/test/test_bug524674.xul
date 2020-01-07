@@ -272,9 +272,7 @@ Bug
 var
 els
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -289,9 +287,7 @@ eventlistenerservice
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEventListenerService
 )

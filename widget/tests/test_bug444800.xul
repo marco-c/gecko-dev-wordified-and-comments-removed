@@ -1626,9 +1626,7 @@ CDATA
 const
 knsIClipboard
 =
-Components
-.
-interfaces
+Ci
 .
 nsIClipboard
 ;
@@ -1810,9 +1808,7 @@ correctly
 var
 xfer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1829,9 +1825,7 @@ transferable
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITransferable
 )
@@ -1921,9 +1915,7 @@ gotValue
 const
 knsIInputStream
 =
-Components
-.
-interfaces
+Ci
 .
 nsIInputStream
 ;
@@ -2003,9 +1995,7 @@ copyImageToClipboard
 var
 cbSvc
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

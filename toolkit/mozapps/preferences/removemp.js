@@ -98,9 +98,7 @@ password
 var
 pk11db
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -117,9 +115,7 @@ pk11tokendb
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPK11TokenDB
 )

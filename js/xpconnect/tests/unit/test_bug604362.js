@@ -29,9 +29,7 @@ nsIPrincipal
 var
 s
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -65,9 +63,7 @@ notEqual
 =
 notEqual
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

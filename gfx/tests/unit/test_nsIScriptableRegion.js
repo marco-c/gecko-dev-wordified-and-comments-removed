@@ -6,9 +6,7 @@ run_test
 let
 rgn
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -25,9 +23,7 @@ region
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIScriptableRegion
 )

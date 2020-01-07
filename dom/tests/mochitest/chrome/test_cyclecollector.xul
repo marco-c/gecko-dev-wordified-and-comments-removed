@@ -267,9 +267,7 @@ Bug
 var
 obs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -333,9 +331,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_NOINTERFACE
 ;

@@ -6,9 +6,7 @@ run_test
 const
 osprefs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -25,9 +23,7 @@ ospreferences
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozIOSPreferences
 )

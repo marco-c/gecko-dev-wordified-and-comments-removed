@@ -2780,9 +2780,7 @@ aStartItem
 &
 aStartItem
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULSelectControlItemElement
 &
@@ -2885,9 +2883,7 @@ aStartItem
 &
 aStartItem
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULSelectControlItemElement
 &
@@ -6607,9 +6603,7 @@ if
 (
 parent
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULSelectControlElement
 )

@@ -49,9 +49,7 @@ host
 var
 authMgr
 =
-Components
-.
-classes
+Cc
 [
 '
 mozilla
@@ -116,9 +114,7 @@ clearCreds
 var
 authMgr
 =
-Components
-.
-classes
+Cc
 [
 '
 mozilla

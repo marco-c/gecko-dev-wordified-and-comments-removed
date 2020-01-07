@@ -3574,9 +3574,7 @@ if
 val
 )
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_ARG
 ;

@@ -28,9 +28,7 @@ js
 const
 init
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

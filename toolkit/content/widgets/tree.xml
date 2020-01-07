@@ -3060,9 +3060,7 @@ column
 type
 !
 =
-Components
-.
-interfaces
+Ci
 .
 nsITreeColumn
 .
@@ -3074,9 +3072,7 @@ column
 type
 !
 =
-Components
-.
-interfaces
+Ci
 .
 nsITreeColumn
 .
@@ -8582,9 +8578,7 @@ col
 type
 =
 =
-Components
-.
-interfaces
+Ci
 .
 nsITreeColumn
 .
@@ -9263,9 +9257,7 @@ col
 type
 !
 =
-Components
-.
-interfaces
+Ci
 .
 nsITreeColumn
 .

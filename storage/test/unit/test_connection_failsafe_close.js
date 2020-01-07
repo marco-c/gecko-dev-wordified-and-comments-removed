@@ -54,9 +54,7 @@ gDBConn
 =
 null
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (

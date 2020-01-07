@@ -13,9 +13,7 @@ iface
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 )

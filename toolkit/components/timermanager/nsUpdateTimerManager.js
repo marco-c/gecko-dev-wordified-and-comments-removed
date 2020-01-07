@@ -813,9 +813,7 @@ function
 {
 try
 {
-Components
-.
-classes
+Cc
 [
 cid
 ]

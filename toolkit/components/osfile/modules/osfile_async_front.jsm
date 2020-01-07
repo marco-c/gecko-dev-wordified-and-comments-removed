@@ -4784,9 +4784,7 @@ queue
 const
 isContent
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

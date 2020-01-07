@@ -294,9 +294,7 @@ parent
 .
 parentNode
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULSelectControlElement
 )

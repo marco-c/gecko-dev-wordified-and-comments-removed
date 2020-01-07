@@ -300,9 +300,7 @@ run_test
 var
 pm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -317,9 +315,7 @@ permissionmanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 )
@@ -327,9 +323,7 @@ nsIPermissionManager
 var
 ioService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -348,9 +342,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )
@@ -358,9 +350,7 @@ nsIIOService
 var
 secMan
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -375,9 +365,7 @@ scriptsecuritymanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIScriptSecurityManager
 )
@@ -598,9 +586,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPermission
 )
@@ -870,9 +856,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPermission
 )

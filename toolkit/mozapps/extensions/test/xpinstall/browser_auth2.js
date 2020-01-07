@@ -255,9 +255,7 @@ installed
 var
 authMgr
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -278,9 +276,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpAuthManager
 )

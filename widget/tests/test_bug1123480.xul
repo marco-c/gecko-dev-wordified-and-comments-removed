@@ -365,9 +365,7 @@ helper
 const
 gClipboardHelper
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -384,9 +382,7 @@ clipboardhelper
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIClipboardHelper
 )

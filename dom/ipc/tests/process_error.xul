@@ -216,9 +216,7 @@ ok
 (
 subject
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag2
 '

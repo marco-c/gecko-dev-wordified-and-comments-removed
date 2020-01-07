@@ -9,9 +9,7 @@ var
 sandbox
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

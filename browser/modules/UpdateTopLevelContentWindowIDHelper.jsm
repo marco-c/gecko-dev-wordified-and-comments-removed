@@ -213,9 +213,7 @@ outerWindowID
 let
 windowIDWrapper
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

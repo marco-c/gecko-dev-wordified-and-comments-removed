@@ -1,6 +1,4 @@
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -21,9 +19,7 @@ function
 var
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -300,9 +296,7 @@ try
 var
 dir
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

@@ -242,9 +242,7 @@ Map
 let
 profiles
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -263,9 +261,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIToolkitProfileService
 )
@@ -498,9 +494,7 @@ aProfile
 id
 )
 :
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -519,9 +513,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIToolkitProfileService
 )

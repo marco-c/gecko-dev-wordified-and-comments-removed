@@ -100,9 +100,7 @@ run_test
 var
 netutil
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -119,9 +117,7 @@ util
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsINetUtil
 )

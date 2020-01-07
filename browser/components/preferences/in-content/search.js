@@ -199,9 +199,7 @@ _initAutocomplete
 (
 )
 {
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -222,9 +220,7 @@ unifiedcomplete
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozIPlacesAutoComplete
 )
@@ -1474,9 +1470,7 @@ aEngine
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISearchEngine
 )
@@ -3648,9 +3642,7 @@ sourceIndex
 const
 nsITreeView
 =
-Components
-.
-interfaces
+Ci
 .
 nsITreeView
 ;

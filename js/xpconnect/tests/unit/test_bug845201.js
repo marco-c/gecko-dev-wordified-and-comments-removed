@@ -77,9 +77,7 @@ run_test
 var
 sb
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -107,9 +105,7 @@ ok
 =
 ok
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (
@@ -121,9 +117,7 @@ toSource
 sb
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

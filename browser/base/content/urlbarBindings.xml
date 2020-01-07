@@ -638,9 +638,7 @@ this
 .
 _prefs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -657,9 +655,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefService
 )
@@ -689,9 +685,7 @@ this
 .
 _defaultPrefs
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -708,9 +702,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefService
 )
@@ -15814,9 +15806,7 @@ report
 the
 error
 .
-Components
-.
-utils
+Cu
 .
 reportError
 (

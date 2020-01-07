@@ -272,9 +272,7 @@ Bug
 try
 {
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

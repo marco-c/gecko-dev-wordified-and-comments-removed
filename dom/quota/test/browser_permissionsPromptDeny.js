@@ -167,9 +167,7 @@ persistent
 storage
 "
 )
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 .
@@ -341,9 +339,7 @@ persistent
 storage
 "
 )
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 .
@@ -512,9 +508,7 @@ persistent
 storage
 "
 )
-Components
-.
-interfaces
+Ci
 .
 nsIPermissionManager
 .

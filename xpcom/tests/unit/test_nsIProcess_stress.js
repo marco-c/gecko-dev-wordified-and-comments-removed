@@ -20,9 +20,7 @@ TestQuickReturn
 var
 tm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -60,9 +58,7 @@ i
 var
 process
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -79,9 +75,7 @@ util
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProcess
 )

@@ -16,9 +16,7 @@ false
 var
 ph
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -39,9 +37,7 @@ http
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpProtocolHandler
 )

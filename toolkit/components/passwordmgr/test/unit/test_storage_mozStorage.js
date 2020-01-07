@@ -732,9 +732,7 @@ loginInfo
 ;
 1
 "
-Components
-.
-interfaces
+Ci
 .
 nsILoginInfo
 )

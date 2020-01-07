@@ -255,9 +255,7 @@ search
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimerCallback
 )

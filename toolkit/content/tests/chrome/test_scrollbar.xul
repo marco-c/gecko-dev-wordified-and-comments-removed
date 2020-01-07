@@ -445,9 +445,7 @@ Mac
 var
 runtime
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -466,9 +464,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIXULRuntime
 )
@@ -980,9 +976,7 @@ effect
 var
 prefService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -999,9 +993,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefService
 )

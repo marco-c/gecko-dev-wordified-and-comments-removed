@@ -305,9 +305,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_BASE_STREAM_CLOSED
 )

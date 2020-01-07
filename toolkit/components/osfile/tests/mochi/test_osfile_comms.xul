@@ -288,9 +288,7 @@ onmessage
 msg
 )
 {
-Components
-.
-utils
+Cu
 .
 forceShrinkingGC
 (

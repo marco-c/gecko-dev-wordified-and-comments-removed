@@ -26,9 +26,7 @@ details
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -292,9 +290,7 @@ details
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -558,9 +554,7 @@ details
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -728,9 +722,7 @@ details
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

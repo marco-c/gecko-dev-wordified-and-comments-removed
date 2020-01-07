@@ -114,9 +114,7 @@ expected
 "
 flags
 :
-Components
-.
-interfaces
+Ci
 .
 nsIRequest
 .
@@ -203,9 +201,7 @@ expected
 "
 flags
 :
-Components
-.
-interfaces
+Ci
 .
 nsIRequest
 .
@@ -376,9 +372,7 @@ chan
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )

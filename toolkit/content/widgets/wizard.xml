@@ -1507,9 +1507,7 @@ this
 .
 _bundle
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1526,9 +1524,7 @@ stringbundle
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIStringBundleService
 )

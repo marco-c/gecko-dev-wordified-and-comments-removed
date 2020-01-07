@@ -57,9 +57,7 @@ function
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;

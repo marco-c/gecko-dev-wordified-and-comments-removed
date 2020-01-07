@@ -49,9 +49,7 @@ interfaces
 &
 CWD
 instanceof
-Components
-.
-interfaces
+Ci
 [
 nsILocalFile_
 ]

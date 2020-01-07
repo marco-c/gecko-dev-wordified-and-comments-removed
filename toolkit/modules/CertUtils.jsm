@@ -657,9 +657,7 @@ callback
 .
 onRedirectVerifyCallback
 (
-Components
-.
-results
+Cr
 .
 NS_OK
 )
@@ -689,9 +687,7 @@ callback
 .
 onRedirectVerifyCallback
 (
-Components
-.
-results
+Cr
 .
 NS_OK
 )

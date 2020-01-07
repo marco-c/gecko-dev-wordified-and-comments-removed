@@ -18,9 +18,7 @@ DeMzFcAAAAASUVORK5CYII
 var
 ioService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -39,9 +37,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )

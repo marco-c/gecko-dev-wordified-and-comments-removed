@@ -793,9 +793,7 @@ aStartItem
 &
 aStartItem
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULSelectControlItemElement
 &
@@ -924,9 +922,7 @@ aStartItem
 &
 aStartItem
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULSelectControlItemElement
 &
@@ -2303,9 +2299,7 @@ CDATA
 let
 iface
 =
-Components
-.
-interfaces
+Ci
 .
 nsIDOMXULSelectControlItemElement
 ;

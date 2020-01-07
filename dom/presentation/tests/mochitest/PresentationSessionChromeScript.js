@@ -454,9 +454,7 @@ aOuter
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
@@ -1178,9 +1176,7 @@ aOuter
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
@@ -1321,9 +1317,7 @@ aOuter
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
@@ -1877,9 +1871,7 @@ aOuter
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
@@ -1942,9 +1934,7 @@ aOuter
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;

@@ -249,9 +249,7 @@ map
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

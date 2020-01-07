@@ -3420,9 +3420,7 @@ _notifyStopped
 (
 )
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (

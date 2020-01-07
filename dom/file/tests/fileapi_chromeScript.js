@@ -77,9 +77,7 @@ testFile
 .
 createUnique
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 .

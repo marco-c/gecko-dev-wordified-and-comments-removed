@@ -44,9 +44,7 @@ Assert
 .
 equal
 (
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -63,9 +61,7 @@ util
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOUtil
 )
@@ -80,9 +76,7 @@ false
 var
 binstream
 =
-Components
-.
-classes
+Cc
 [
 '
 mozilla
@@ -97,9 +91,7 @@ binaryinputstream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIBinaryInputStream
 )
@@ -286,9 +278,7 @@ file
 var
 str
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -309,9 +299,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileInputStream
 )
@@ -339,9 +327,7 @@ file
 var
 ios
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -360,9 +346,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )

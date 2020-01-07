@@ -54,9 +54,7 @@ _CSvc
 return
 _CSvc
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -77,9 +75,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICacheStorageService
 )
@@ -251,9 +247,7 @@ urispec
 var
 ioServ
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -272,9 +266,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )
@@ -425,9 +417,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsICacheEntryOpenCallback
 )
@@ -437,9 +427,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -448,9 +436,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -625,9 +611,7 @@ Assert
 equal
 (
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_CACHE_KEY_NOT_FOUND
 )

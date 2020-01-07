@@ -324,9 +324,7 @@ waitForExplicitFinish
 const
 kAllowInteraction
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPlaintextEditor
 .
@@ -335,9 +333,7 @@ eEditorAllowInteraction
 const
 kMailMask
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPlaintextEditor
 .

@@ -120,9 +120,7 @@ aSubject
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMWindow
 )

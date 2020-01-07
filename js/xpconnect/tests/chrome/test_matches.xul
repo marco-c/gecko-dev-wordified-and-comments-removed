@@ -365,9 +365,7 @@ var
 sb
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -410,9 +408,7 @@ div
 ;
 res
 =
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

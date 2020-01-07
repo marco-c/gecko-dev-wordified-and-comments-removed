@@ -237,9 +237,7 @@ object
 )
 ;
 }
-Components
-.
-utils
+Cu
 .
 isDeadWrapper
 (

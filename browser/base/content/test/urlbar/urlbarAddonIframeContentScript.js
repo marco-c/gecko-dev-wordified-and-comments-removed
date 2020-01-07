@@ -22,9 +22,7 @@ TestEvent
 {
 detail
 :
-Components
-.
-utils
+Cu
 .
 cloneInto
 (
@@ -54,9 +52,7 @@ sendAsyncMessage
 "
 TestMessageAck
 "
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

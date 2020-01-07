@@ -271,9 +271,7 @@ this
 .
 _file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -290,9 +288,7 @@ local
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -310,9 +306,7 @@ this
 .
 _foStream
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -333,9 +327,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileOutputStream
 )
@@ -362,9 +354,7 @@ this
 .
 _converter
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -385,9 +375,7 @@ stream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIConverterOutputStream
 )

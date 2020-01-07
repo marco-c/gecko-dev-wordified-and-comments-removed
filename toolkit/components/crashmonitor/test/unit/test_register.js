@@ -8,9 +8,7 @@ test_register
 let
 cm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -27,9 +25,7 @@ crashmonitor
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIObserver
 )

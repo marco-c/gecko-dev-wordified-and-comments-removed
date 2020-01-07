@@ -624,9 +624,7 @@ istream
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsILineInputStream
 )

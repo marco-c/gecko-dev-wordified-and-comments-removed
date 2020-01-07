@@ -138,9 +138,7 @@ aLoadInfo
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -238,9 +236,7 @@ if
 aOuter
 )
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
@@ -262,9 +258,7 @@ aLock
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;

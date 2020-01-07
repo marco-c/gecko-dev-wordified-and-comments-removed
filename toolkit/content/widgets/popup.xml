@@ -2089,9 +2089,7 @@ this
 .
 _prevFocus
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -2125,9 +2123,7 @@ this
 .
 _prevFocus
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -2295,9 +2291,7 @@ try
 let
 fm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2314,9 +2308,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFocusManager
 )
@@ -4049,9 +4041,7 @@ this
 .
 _textProvider
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -4070,9 +4060,7 @@ tooltiptextprovider
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsITooltipTextProvider
 )

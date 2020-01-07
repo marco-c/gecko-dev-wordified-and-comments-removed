@@ -173,9 +173,7 @@ transition
 =
 "
 +
-Components
-.
-interfaces
+Ci
 .
 nsINavHistoryService
 .
@@ -187,9 +185,7 @@ sort
 =
 "
 +
-Components
-.
-interfaces
+Ci
 .
 nsINavHistoryQueryOptions
 .

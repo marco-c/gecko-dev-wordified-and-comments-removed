@@ -226,9 +226,7 @@ javascript
 [
 CDATA
 [
-Components
-.
-utils
+Cu
 .
 schedulePreciseGC
 (

@@ -507,9 +507,7 @@ this
 .
 mController
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -526,9 +524,7 @@ controller
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompleteController
 )
@@ -1699,9 +1695,7 @@ if
 aReason
 =
 =
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompleteInput
 .
@@ -4697,9 +4691,7 @@ _autocomplete
 this
 _kGlobalClipboard
 :
-Components
-.
-interfaces
+Ci
 .
 nsIClipboard
 .
@@ -8145,9 +8137,7 @@ user
 let
 iface
 =
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompletePopup
 ;
@@ -11039,9 +11029,7 @@ this
 .
 _boundaryCutoff
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -11058,9 +11046,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrefBranch
 )

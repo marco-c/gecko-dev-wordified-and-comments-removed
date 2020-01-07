@@ -134,9 +134,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -146,9 +144,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISystemProxySettings
 )
@@ -157,9 +153,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -357,9 +351,7 @@ proxy
 .
 type
 "
-Components
-.
-interfaces
+Ci
 .
 nsIProtocolProxyService
 .

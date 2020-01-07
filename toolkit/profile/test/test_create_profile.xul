@@ -506,9 +506,7 @@ scriptableinputstream
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIScriptableInputStream
 )

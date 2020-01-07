@@ -17,9 +17,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (
@@ -369,9 +367,7 @@ var
 interfaces
 =
 [
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 ]
@@ -406,9 +402,7 @@ XPCOMUtils
 generateQI
 (
 [
-Components
-.
-interfaces
+Ci
 .
 nsIClassInfo
 ]

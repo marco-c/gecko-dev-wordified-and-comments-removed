@@ -1609,9 +1609,7 @@ undo
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )

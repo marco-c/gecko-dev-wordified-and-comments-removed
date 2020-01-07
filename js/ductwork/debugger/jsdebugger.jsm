@@ -10,9 +10,7 @@ addDebuggerToGlobal
 const
 init
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -27,9 +25,7 @@ jsdebugger
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 IJSDebugger
 )

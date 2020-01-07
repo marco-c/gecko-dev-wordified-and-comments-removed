@@ -542,9 +542,7 @@ createTIP
 )
 {
 return
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -563,9 +561,7 @@ processor
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITextInputProcessor
 )

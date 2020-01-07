@@ -333,9 +333,7 @@ if
 (
 currString
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyElement
 )

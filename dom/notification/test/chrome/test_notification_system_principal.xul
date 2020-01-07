@@ -421,9 +421,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -433,9 +431,7 @@ aIID
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAlertsService
 )
@@ -446,9 +442,7 @@ this
 ;
 }
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -470,9 +464,7 @@ null
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
@@ -499,9 +491,7 @@ manager
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIComponentRegistrar
 )
@@ -529,9 +519,7 @@ manager
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIComponentRegistrar
 )

@@ -39,9 +39,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
@@ -80,9 +78,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
@@ -123,9 +119,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
@@ -169,9 +163,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
@@ -220,9 +212,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
@@ -265,9 +255,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
@@ -308,9 +296,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )
@@ -349,9 +335,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_INITIALIZED
 )

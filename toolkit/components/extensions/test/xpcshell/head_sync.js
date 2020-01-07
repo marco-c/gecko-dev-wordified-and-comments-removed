@@ -86,9 +86,7 @@ this
 .
 sandbox
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

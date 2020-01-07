@@ -91,9 +91,7 @@ true
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag2
 )
@@ -117,9 +115,7 @@ true
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag2
 )
@@ -145,9 +141,7 @@ getPropertyAsInterface
 "
 baseURI
 "
-Components
-.
-interfaces
+Ci
 .
 nsIURI
 )
@@ -169,9 +163,7 @@ e
 result
 !
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_AVAILABLE
 )
@@ -208,9 +200,7 @@ getPropertyAsInterface
 "
 baseURI
 "
-Components
-.
-interfaces
+Ci
 .
 nsIURI
 )

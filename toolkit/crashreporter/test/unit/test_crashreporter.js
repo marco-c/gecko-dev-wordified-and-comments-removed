@@ -24,9 +24,7 @@ n
 var
 cr
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -45,9 +43,7 @@ reporter
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICrashReporter
 )
@@ -103,9 +99,7 @@ equal
 ex
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 )
@@ -248,9 +242,7 @@ equal
 ex
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_ARG
 )
@@ -345,9 +337,7 @@ equal
 ex
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_ARG
 )
@@ -404,9 +394,7 @@ equal
 ex
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_ARG
 )
@@ -463,9 +451,7 @@ equal
 ex
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_ARG
 )
@@ -544,9 +530,7 @@ equal
 ex
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_ARG
 )

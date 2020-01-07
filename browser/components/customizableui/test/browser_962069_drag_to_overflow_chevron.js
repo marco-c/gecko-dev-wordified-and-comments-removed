@@ -184,9 +184,7 @@ widgetOverflowPanel
 var
 ds
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -203,9 +201,7 @@ dragservice
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDragService
 )

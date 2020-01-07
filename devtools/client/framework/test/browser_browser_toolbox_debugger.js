@@ -269,9 +269,7 @@ plop
 let
 env
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -288,9 +286,7 @@ environment
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEnvironment
 )

@@ -268,9 +268,7 @@ equal
 e
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_FILE_NOT_FOUND
 )

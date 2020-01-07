@@ -255,9 +255,7 @@ foo
 }
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

@@ -759,9 +759,7 @@ IS_WIN
 ?
 parseFloat
 (
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -778,9 +776,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag2
 )

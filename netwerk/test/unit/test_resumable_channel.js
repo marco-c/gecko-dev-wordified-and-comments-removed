@@ -158,9 +158,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -170,9 +168,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAuthPrompt2
 )
@@ -181,9 +177,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -261,9 +255,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -273,9 +265,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIInterfaceRequestor
 )
@@ -284,9 +274,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -305,9 +293,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIAuthPrompt2
 )
@@ -336,9 +322,7 @@ prompt2
 ;
 }
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;

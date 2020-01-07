@@ -282,9 +282,7 @@ aFilename
 let
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -301,9 +299,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -313,9 +309,7 @@ get
 "
 CurWorkD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

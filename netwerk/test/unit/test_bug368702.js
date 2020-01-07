@@ -736,9 +736,7 @@ NS_ERROR_HOST_IS_IP_ADDRESS
 var
 ioService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -757,9 +755,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )

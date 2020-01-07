@@ -429,9 +429,7 @@ iframe2
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFrameLoaderOwner
 )

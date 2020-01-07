@@ -7,9 +7,7 @@ PerfMeasurement
 "
 ]
 ;
-Components
-.
-classes
+Cc
 [
 "
 mozilla

@@ -17,9 +17,7 @@ ImportTesting
 :
 IsModuleLoadedReply
 "
-Components
-.
-utils
+Cu
 .
 isModuleLoaded
 (

@@ -1073,9 +1073,7 @@ bug
 .
 try
 {
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

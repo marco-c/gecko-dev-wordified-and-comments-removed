@@ -352,9 +352,7 @@ sandbox
 {
 sandbox
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -975,9 +973,7 @@ this
 .
 _sandbox
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (

@@ -321,9 +321,7 @@ function
 let
 env
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -340,9 +338,7 @@ environment
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEnvironment
 )
@@ -1079,9 +1075,7 @@ raise
 let
 env
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1098,9 +1092,7 @@ environment
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIEnvironment
 )

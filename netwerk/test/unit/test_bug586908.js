@@ -109,9 +109,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -121,9 +119,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISystemProxySettings
 )
@@ -132,9 +128,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -171,9 +165,7 @@ aURI
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -239,9 +231,7 @@ true
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIHttpChannel
 )
@@ -356,9 +346,7 @@ proxy
 .
 type
 "
-Components
-.
-interfaces
+Ci
 .
 nsIProtocolProxyService
 .

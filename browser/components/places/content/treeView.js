@@ -4020,9 +4020,7 @@ i
 ;
 }
 }
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -4437,9 +4435,7 @@ COLUMN_TYPE_TITLE
 )
 ;
 }
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -4612,9 +4608,7 @@ if
 aNewState
 =
 =
-Components
-.
-interfaces
+Ci
 .
 nsINavHistoryContainerResultNode
 .
@@ -7096,9 +7090,7 @@ element
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )

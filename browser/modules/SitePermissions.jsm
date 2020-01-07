@@ -570,9 +570,7 @@ perms
 PROMPT_ACTION
 ALLOW_COOKIES_FOR_SESSION
 :
-Components
-.
-interfaces
+Ci
 .
 nsICookiePermission
 .

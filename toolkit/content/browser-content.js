@@ -3152,9 +3152,7 @@ catch
 e
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -3986,9 +3984,7 @@ catch
 error
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -4062,9 +4058,7 @@ catch
 error
 )
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -6095,9 +6089,7 @@ sessionHistory
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISHistoryInternal
 )
@@ -6106,9 +6098,7 @@ indexEntry
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsISHEntry
 )

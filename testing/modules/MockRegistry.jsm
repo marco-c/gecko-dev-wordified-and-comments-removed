@@ -208,9 +208,7 @@ this
 values
 )
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 ;
@@ -286,9 +284,7 @@ values
 size
 )
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_FAILURE
 ;

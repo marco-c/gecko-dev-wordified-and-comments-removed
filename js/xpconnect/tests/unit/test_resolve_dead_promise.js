@@ -6,9 +6,7 @@ run_test
 var
 sb
 =
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -73,9 +71,7 @@ rej
 }
 )
 ;
-Components
-.
-utils
+Cu
 .
 nukeSandbox
 (
@@ -86,9 +82,7 @@ Assert
 .
 ok
 (
-Components
-.
-utils
+Cu
 .
 isDeadWrapper
 (
@@ -106,9 +100,7 @@ Assert
 .
 ok
 (
-Components
-.
-utils
+Cu
 .
 isDeadWrapper
 (
@@ -126,9 +118,7 @@ Assert
 .
 ok
 (
-Components
-.
-utils
+Cu
 .
 isDeadWrapper
 (

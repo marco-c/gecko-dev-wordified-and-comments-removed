@@ -314,9 +314,7 @@ var
 sandbox
 =
 new
-Components
-.
-utils
+Cu
 .
 Sandbox
 (
@@ -374,9 +372,7 @@ correct
 ;
 is
 (
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

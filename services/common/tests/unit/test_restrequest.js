@@ -602,9 +602,7 @@ equal
 error
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_PORT_ACCESS_NOT_ALLOWED
 )

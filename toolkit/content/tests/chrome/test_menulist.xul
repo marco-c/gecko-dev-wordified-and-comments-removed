@@ -1253,9 +1253,7 @@ inputField
 &
 inputField
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMHTMLInputElement
 true

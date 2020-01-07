@@ -168,9 +168,7 @@ evalCode
 debuggee
 )
 {
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

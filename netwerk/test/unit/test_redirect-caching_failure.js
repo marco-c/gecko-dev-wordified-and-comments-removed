@@ -214,9 +214,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_UNKNOWN_PROTOCOL
 )
@@ -268,9 +266,7 @@ equal
 request
 .
 status
-Components
-.
-results
+Cr
 .
 NS_ERROR_UNKNOWN_PROTOCOL
 )

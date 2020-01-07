@@ -1210,9 +1210,7 @@ timeout
 let
 timer
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1227,9 +1225,7 @@ timer
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 )
@@ -1255,9 +1251,7 @@ initWithCallback
 (
 event
 timeout
-Components
-.
-interfaces
+Ci
 .
 nsITimer
 .

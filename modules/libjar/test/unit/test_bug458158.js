@@ -6,9 +6,7 @@ run_test
 var
 zReader
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -27,9 +25,7 @@ reader
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIZipReader
 )
@@ -67,9 +63,7 @@ if
 (
 e
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIException
 &
@@ -79,9 +73,7 @@ e
 result
 =
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_NULL_POINTER
 )

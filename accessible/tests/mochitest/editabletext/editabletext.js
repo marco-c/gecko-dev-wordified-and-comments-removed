@@ -1001,9 +1001,7 @@ if
 (
 elm
 instanceof
-Components
-.
-interfaces
+Ci
 .
 nsIDOMNSEditableElement
 )

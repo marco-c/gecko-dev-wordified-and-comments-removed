@@ -62,9 +62,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -74,9 +72,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFactory
 )
@@ -86,9 +82,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIGeolocationProvider
 )
@@ -97,9 +91,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;
@@ -118,9 +110,7 @@ if
 outer
 )
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
@@ -142,9 +132,7 @@ lock
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -242,9 +230,7 @@ provider
 var
 catMan
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -259,9 +245,7 @@ categorymanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsICategoryManager
 )

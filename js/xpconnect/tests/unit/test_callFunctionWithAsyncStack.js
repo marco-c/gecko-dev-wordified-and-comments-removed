@@ -84,9 +84,7 @@ fromCharCode
 String
 "
 ;
-Components
-.
-utils
+Cu
 .
 callFunctionWithAsyncStack
 (

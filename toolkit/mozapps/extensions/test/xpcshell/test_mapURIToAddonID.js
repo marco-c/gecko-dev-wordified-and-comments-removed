@@ -262,9 +262,7 @@ id
 let
 svc
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -281,9 +279,7 @@ integration
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 amIAddonManager
 )
@@ -523,9 +519,7 @@ try
 let
 svc
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -542,9 +536,7 @@ integration
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 amIAddonManager
 )
@@ -1420,9 +1412,7 @@ equal
 ex
 .
 result
-Components
-.
-results
+Cr
 .
 NS_ERROR_INVALID_ARG
 )
@@ -1458,9 +1448,7 @@ provider
 new
 TestProvider
 (
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_AVAILABLE
 )

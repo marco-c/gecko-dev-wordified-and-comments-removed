@@ -135,9 +135,7 @@ flags
 var
 nodeset
 =
-Components
-.
-classes
+Cc
 [
 NODESET_CONTRACTID
 ]

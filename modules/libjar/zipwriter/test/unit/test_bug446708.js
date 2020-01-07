@@ -85,9 +85,7 @@ file
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -114,9 +112,7 @@ getNext
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )

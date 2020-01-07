@@ -743,9 +743,7 @@ result
 }
 )
 ;
-Components
-.
-utils
+Cu
 .
 exportFunction
 (
@@ -770,9 +768,7 @@ defineAs
 }
 )
 ;
-Components
-.
-utils
+Cu
 .
 exportFunction
 (

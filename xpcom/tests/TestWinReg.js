@@ -1,9 +1,7 @@
 const
 nsIWindowsRegKey
 =
-Components
-.
-interfaces
+Ci
 .
 nsIWindowsRegKey
 ;
@@ -286,9 +284,7 @@ ACCESS_READ
 var
 key
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla

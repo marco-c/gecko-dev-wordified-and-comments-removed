@@ -2273,9 +2273,7 @@ stateBool
 =
 >
 {
-Components
-.
-utils
+Cu
 .
 reportError
 (
@@ -2303,9 +2301,7 @@ CONTAINERS_PREF
 stateBool
 )
 ;
-Components
-.
-utils
+Cu
 .
 reportError
 (

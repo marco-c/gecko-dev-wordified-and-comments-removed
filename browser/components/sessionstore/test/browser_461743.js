@@ -181,9 +181,7 @@ innerHTML
 isnot
 (
 innerHTML
-Components
-.
-utils
+Cu
 .
 reportError
 .

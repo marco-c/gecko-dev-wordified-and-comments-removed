@@ -3456,9 +3456,7 @@ download
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -3523,9 +3521,7 @@ download
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -3535,9 +3531,7 @@ _refreshProperties
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -3547,9 +3541,7 @@ _updateView
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
 ;

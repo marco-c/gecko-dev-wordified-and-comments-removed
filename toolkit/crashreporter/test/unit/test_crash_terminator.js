@@ -62,9 +62,7 @@ crash_timeout
 let
 terminator
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -83,9 +81,7 @@ terminator
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIObserver
 )

@@ -308,9 +308,7 @@ _controller
 searchStatus
 >
 =
-Components
-.
-interfaces
+Ci
 .
 nsIAutoCompleteController
 .

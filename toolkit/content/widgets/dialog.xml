@@ -1901,9 +1901,7 @@ this
 .
 _mStrBundle
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1920,9 +1918,7 @@ stringbundle
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIStringBundleService
 )

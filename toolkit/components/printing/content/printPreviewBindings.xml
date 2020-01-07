@@ -2431,9 +2431,7 @@ CDATA
 const
 nsIWebBrowserPrint
 =
-Components
-.
-interfaces
+Ci
 .
 nsIWebBrowserPrint
 ;
@@ -3249,9 +3247,7 @@ CDATA
 const
 kIPrintSettings
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPrintSettings
 ;
@@ -3533,9 +3529,7 @@ settings
 orientation
 =
 =
-Components
-.
-interfaces
+Ci
 .
 nsIPrintSettings
 .
@@ -3644,9 +3638,7 @@ CDATA
 var
 PSSVC
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -3665,9 +3657,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPrintSettingsService
 )

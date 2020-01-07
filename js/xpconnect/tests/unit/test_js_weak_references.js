@@ -8,9 +8,7 @@ try
 var
 nullWeak
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -63,9 +61,7 @@ foo
 var
 weak
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -121,9 +117,7 @@ foo
 '
 )
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (
@@ -194,9 +188,7 @@ foo2
 var
 weak2
 =
-Components
-.
-utils
+Cu
 .
 getWeakReference
 (
@@ -218,9 +210,7 @@ get
 obj
 )
 ;
-Components
-.
-utils
+Cu
 .
 forceGC
 (

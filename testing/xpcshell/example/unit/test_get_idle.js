@@ -22,9 +22,7 @@ identity
 let
 fakeIdleService
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -41,9 +39,7 @@ idleservice
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIdleService
 )
@@ -54,9 +50,7 @@ fakeIdleService
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFactory
 )
@@ -120,9 +114,7 @@ realIdleService
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFactory
 )

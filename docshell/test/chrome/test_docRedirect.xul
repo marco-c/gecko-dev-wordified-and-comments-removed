@@ -480,9 +480,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIWebProgressListener
 )
@@ -492,9 +490,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupportsWeakReference
 )
@@ -503,9 +499,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;

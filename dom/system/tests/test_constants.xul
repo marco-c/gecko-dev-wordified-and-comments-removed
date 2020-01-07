@@ -581,9 +581,7 @@ test_Win
 var
 xulRuntime
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -602,9 +600,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIXULRuntime
 )
@@ -821,9 +817,7 @@ libxul
 from
 main
 thread
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -840,9 +834,7 @@ osfileconstantsservice
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIOSFileConstantsService
 )
@@ -885,9 +877,7 @@ test_Win
 let
 isDebugBuild
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -904,9 +894,7 @@ debug
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDebug2
 )
@@ -921,9 +909,7 @@ isDebugBuild
 let
 umask
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -940,9 +926,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPropertyBag2
 )

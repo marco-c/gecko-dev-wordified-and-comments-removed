@@ -6,9 +6,7 @@ run_test
 var
 cmdLine
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -27,9 +25,7 @@ line
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsICommandLine
 )

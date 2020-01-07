@@ -299,9 +299,7 @@ evalCode
 (
 )
 {
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

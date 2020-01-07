@@ -552,9 +552,7 @@ testContentEvent
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -845,9 +843,7 @@ testContentEvent
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1177,9 +1173,7 @@ testContentEvent
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1592,9 +1586,7 @@ promiseIframeLoaded
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -1952,9 +1944,7 @@ nonRecordedTestEvents
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -2353,9 +2343,7 @@ linkedBrowser
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (
@@ -2438,9 +2426,7 @@ linkedBrowser
 let
 contentWin
 =
-Components
-.
-utils
+Cu
 .
 waiveXrays
 (

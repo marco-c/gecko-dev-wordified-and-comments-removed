@@ -39,9 +39,7 @@ http
 var
 gPluginHost
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -58,9 +56,7 @@ host
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIPluginHost
 )

@@ -660,9 +660,7 @@ getResourceURI
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFileURL
 )

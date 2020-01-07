@@ -454,9 +454,7 @@ true
 var
 secman
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -471,9 +469,7 @@ scriptsecuritymanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIScriptSecurityManager
 )

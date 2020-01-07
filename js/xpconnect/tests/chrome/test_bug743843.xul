@@ -327,9 +327,7 @@ Exception
 '
 foo
 '
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 null
@@ -341,9 +339,7 @@ is
 e1
 .
 result
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 "
@@ -391,9 +387,7 @@ foo
 {
 result
 :
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 data
@@ -410,9 +404,7 @@ is
 e2
 .
 result
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 "

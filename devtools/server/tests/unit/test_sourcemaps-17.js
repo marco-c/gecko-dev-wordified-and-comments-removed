@@ -279,9 +279,7 @@ root
 }
 )
 ;
-Components
-.
-utils
+Cu
 .
 evalInSandbox
 (

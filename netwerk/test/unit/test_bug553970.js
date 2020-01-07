@@ -24,9 +24,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )
@@ -38,9 +36,7 @@ spec
 .
 QueryInterface
 (
-Components
-.
-interfaces
+Ci
 .
 nsIURL
 )

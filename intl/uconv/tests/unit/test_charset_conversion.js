@@ -1,9 +1,7 @@
 const
 NS_ERROR_ILLEGAL_VALUE
 =
-Components
-.
-results
+Cr
 .
 NS_ERROR_ILLEGAL_VALUE
 ;

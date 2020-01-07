@@ -7,9 +7,7 @@ checkFromJSM
 '
 ]
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

@@ -431,9 +431,7 @@ util
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProcess
 )
@@ -993,9 +991,7 @@ test
 let
 is64Bit
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -1014,9 +1010,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIXULRuntime
 )

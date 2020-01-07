@@ -582,9 +582,7 @@ function
 )
 {
 throw
-Components
-.
-results
+Cr
 .
 NS_BINDING_ABORTED
 ;

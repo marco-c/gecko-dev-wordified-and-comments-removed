@@ -417,9 +417,7 @@ checkTest2
 let
 runTime
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -438,9 +436,7 @@ info
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIXULRuntime
 )

@@ -29,9 +29,7 @@ ExtensionAPI
 =
 ExtensionCommon
 ;
-Components
-.
-utils
+Cu
 .
 importGlobalProperties
 (

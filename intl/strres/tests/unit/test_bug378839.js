@@ -132,9 +132,7 @@ run_test
 var
 StringBundle
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -151,9 +149,7 @@ stringbundle
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIStringBundleService
 )
@@ -161,9 +157,7 @@ nsIStringBundleService
 var
 ios
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -182,9 +176,7 @@ service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIIOService
 )

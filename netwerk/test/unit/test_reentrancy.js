@@ -185,9 +185,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIStreamListener
 )
@@ -197,9 +195,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsIRequestObserver
 )
@@ -209,9 +205,7 @@ iid
 .
 equals
 (
-Components
-.
-interfaces
+Ci
 .
 nsISupports
 )
@@ -220,9 +214,7 @@ return
 this
 ;
 throw
-Components
-.
-results
+Cr
 .
 NS_ERROR_NO_INTERFACE
 ;

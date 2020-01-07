@@ -184,9 +184,7 @@ selectionController
 .
 getSelection
 (
-Components
-.
-interfaces
+Ci
 .
 nsISelectionController
 .
@@ -323,9 +321,7 @@ editor
 var
 dir
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -342,9 +338,7 @@ directory_service
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProperties
 )
@@ -354,9 +348,7 @@ get
 "
 CurWorkD
 "
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -409,9 +401,7 @@ chrome
 var
 hunspell
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -428,9 +418,7 @@ engine
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 mozISpellCheckingEngine
 )

@@ -71,9 +71,7 @@ try
 {
 _profiler
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -90,9 +88,7 @@ profiler
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIProfiler
 )
@@ -544,9 +540,7 @@ currentTest
 profile
 "
 ;
-Components
-.
-utils
+Cu
 .
 import
 (
@@ -565,9 +559,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 import
 (
@@ -589,9 +581,7 @@ jsm
 var
 file
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -608,9 +598,7 @@ local
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIFile
 )
@@ -635,9 +623,7 @@ file
 var
 converter
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -652,9 +638,7 @@ scriptableunicodeconverter
 .
 createInstance
 (
-Components
-.
-interfaces
+Ci
 .
 nsIScriptableUnicodeConverter
 )

@@ -243,9 +243,7 @@ navigator
 ;
 ok
 (
-Components
-.
-utils
+Cu
 .
 isXrayWrapper
 (
