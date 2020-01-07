@@ -5863,6 +5863,12 @@ asJit
 while
 (
 !
+isJSJit
+(
+)
+|
+|
+!
 jsJitFrame
 (
 )
@@ -5883,12 +5889,14 @@ baselineFrame
 =
 frame
 )
+{
 +
 +
 data_
 .
 jitFrames_
 ;
+}
 MOZ_ASSERT
 (
 jsJitFrame
