@@ -2911,6 +2911,9 @@ never_inline
 typeop
 =
 None
+override
+=
+0
                  
 T
 =
@@ -2931,6 +2934,20 @@ not
 pure
 or
 virtual
+        
+assert
+not
+override
+or
+virtual
+        
+assert
+not
+(
+override
+and
+pure
+)
         
 assert
 not
@@ -3060,6 +3077,12 @@ pure
         
 self
 .
+override
+=
+override
+        
+self
+.
 static
 =
 static
@@ -3167,6 +3190,12 @@ pure
 self
 .
 pure
+            
+override
+=
+self
+.
+override
             
 static
 =
@@ -3470,6 +3499,9 @@ __init__
 self
 name
 virtual
+=
+0
+override
 =
 0
 force_inline
