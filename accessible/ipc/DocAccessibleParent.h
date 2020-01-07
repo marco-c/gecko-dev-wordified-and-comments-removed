@@ -503,10 +503,7 @@ IPCResult
 RecvRoleChangedEvent
 (
 const
-a11y
-:
-:
-role
+uint32_t
 &
 aRole
 )
