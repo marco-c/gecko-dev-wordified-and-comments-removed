@@ -132,7 +132,7 @@ test_query
 }
 3
 3
-3
+2
 )
 ;
 await
