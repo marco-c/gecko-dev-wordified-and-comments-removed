@@ -4711,7 +4711,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Addons
@@ -4734,7 +4734,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 -
