@@ -477,6 +477,15 @@ this
 reporterActivityCls
 )
 ;
+intent
+.
+addFlags
+(
+Intent
+.
+FLAG_ACTIVITY_NEW_TASK
+)
+;
 startActivity
 (
 intent
