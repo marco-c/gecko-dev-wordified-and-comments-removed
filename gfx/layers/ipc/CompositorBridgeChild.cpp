@@ -810,6 +810,10 @@ mLayerManager
 nullptr
 ;
 }
+FlushAsyncPaints
+(
+)
+;
 if
 (
 !
@@ -971,10 +975,6 @@ false
 )
 ;
 }
-FlushAsyncPaints
-(
-)
-;
 const
 ManagedContainer
 <
