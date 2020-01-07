@@ -38323,6 +38323,12 @@ Clear
 (
 )
 ;
+mComposedShadowRoots
+.
+Clear
+(
+)
+;
 mResponsiveContent
 .
 Clear
