@@ -278,6 +278,7 @@ map
 ]
 =
 {
+sColorMap
 sFEFloodMap
 }
 ;
