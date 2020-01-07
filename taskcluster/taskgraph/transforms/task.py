@@ -1688,7 +1688,11 @@ implementation
 '
 beetmover
 -
-cdns
+push
+-
+to
+-
+release
 '
         
 Required
@@ -5979,11 +5983,15 @@ payload_builder
 '
 beetmover
 -
-cdns
+push
+-
+to
+-
+release
 '
 )
 def
-build_beetmover_cdns_payload
+build_beetmover_push_to_release_payload
 (
 config
 task
@@ -7826,7 +7834,11 @@ implementation
 '
 beetmover
 -
-cdns
+push
+-
+to
+-
+release
 '
 :
             

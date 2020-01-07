@@ -93,9 +93,15 @@ kind
 dependencies
 :
 -
+release
+-
 beetmover
 -
-cdns
+push
+-
+to
+-
+release
 job
 -
 defaults

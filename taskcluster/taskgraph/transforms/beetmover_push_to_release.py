@@ -5,7 +5,11 @@ Transform
 the
 beetmover
 -
-cdns
+push
+-
+to
+-
+release
 task
 into
 a
@@ -144,7 +148,7 @@ reference
 basestring
 }
 )
-beetmover_cdns_description_schema
+beetmover_push_to_release_description_schema
 =
 Schema
 (
@@ -362,14 +366,18 @@ name
 validate_schema
 (
             
-beetmover_cdns_description_schema
+beetmover_push_to_release_description_schema
 job
             
 "
 In
-cdns
+beetmover
 -
-signing
+push
+-
+to
+-
+release
 (
 {
 !
@@ -401,7 +409,7 @@ transforms
 .
 add
 def
-make_beetmover_cdns_description
+make_beetmover_push_to_release_description
 (
 config
 jobs
@@ -500,7 +508,7 @@ description
 Beetmover
 push
 to
-cdns
+release
 for
 '
 {
@@ -715,7 +723,7 @@ transforms
 .
 add
 def
-make_beetmover_cdns_worker
+make_beetmover_push_to_release_worker
 (
 config
 jobs
@@ -739,7 +747,11 @@ implementation
 '
 beetmover
 -
-cdns
+push
+-
+to
+-
+release
 '
             
 '
