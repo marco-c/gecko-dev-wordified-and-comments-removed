@@ -6048,13 +6048,10 @@ nsIDOMNodeList
 aReturn
 )
 ;
-virtual
 void
 FlushSkinBindings
 (
 )
-=
-0
 ;
 void
 MayDispatchMutationEvent
