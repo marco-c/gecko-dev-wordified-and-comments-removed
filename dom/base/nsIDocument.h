@@ -8798,7 +8798,6 @@ NotifyIntersectionObservers
 (
 )
 ;
-virtual
 nsresult
 Dispatch
 (
@@ -8815,7 +8814,7 @@ nsIRunnable
 &
 aRunnable
 )
-override
+final
 ;
 virtual
 nsISerialEventTarget
