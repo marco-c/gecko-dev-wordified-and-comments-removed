@@ -2936,7 +2936,7 @@ aIsGotCapture
 aCaptureTarget
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
