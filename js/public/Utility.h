@@ -1987,6 +1987,12 @@ T
 ;
 memset
 (
+static_cast
+<
+void
+*
+>
+(
 const_cast
 <
 T
@@ -1994,6 +2000,7 @@ T
 >
 (
 p
+)
 )
 0x3B
 sizeof
