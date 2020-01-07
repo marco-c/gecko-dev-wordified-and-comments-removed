@@ -65,6 +65,15 @@ nullptr
 )
 )
 {
+mConsole
+-
+>
+mConsoleID
+=
+aOptions
+.
+mConsoleID
+;
 }
 ConsoleInstance
 :

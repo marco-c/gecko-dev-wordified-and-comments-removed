@@ -6541,6 +6541,12 @@ SetAsUnsignedLongLong
 }
 event
 .
+mConsoleID
+=
+mConsoleID
+;
+event
+.
 mLevel
 =
 aData
