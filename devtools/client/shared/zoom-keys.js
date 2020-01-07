@@ -350,7 +350,7 @@ getStr
 "
 toolbox
 .
-zoomIn2
+zoomIn3
 .
 key
 "
