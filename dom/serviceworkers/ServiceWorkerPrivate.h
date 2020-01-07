@@ -53,6 +53,9 @@ class
 KeepAliveToken
 ;
 class
+ServiceWorkerCloneData
+;
+class
 ServiceWorkerInfo
 ;
 class
@@ -156,10 +159,10 @@ aInfo
 nsresult
 SendMessageEvent
 (
-ipc
-:
-:
-StructuredCloneData
+RefPtr
+<
+ServiceWorkerCloneData
+>
 &
 &
 aData
