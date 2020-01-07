@@ -2734,7 +2734,7 @@ chromeEventHandler
 removeEventListener
 (
 "
-StyleSheetAdded
+StyleSheetApplicableStateChanged
 "
 this
 .
