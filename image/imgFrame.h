@@ -305,11 +305,6 @@ aOnlyFinished
 false
 )
 ;
-void
-SetRawAccessOnly
-(
-)
-;
 bool
 Draw
 (

@@ -1430,13 +1430,6 @@ animated
 "
 )
 ;
-aPreviousFrame
--
->
-SetRawAccessOnly
-(
-)
-;
 DisposalMethod
 prevDisposal
 =
@@ -1494,13 +1487,6 @@ frameNum
 0
 )
 {
-ref
--
->
-SetRawAccessOnly
-(
-)
-;
 mFirstFrameRefreshArea
 .
 UnionRect
