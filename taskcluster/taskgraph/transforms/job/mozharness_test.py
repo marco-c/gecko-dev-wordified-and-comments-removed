@@ -805,6 +805,15 @@ test
 )
 :
 test_description_schema
+    
+Required
+(
+'
+workdir
+'
+)
+:
+basestring
 }
 )
 def
@@ -891,6 +900,15 @@ job
 taskdesc
 )
 :
+    
+run
+=
+job
+[
+'
+run
+'
+]
     
 test
 =
@@ -1045,10 +1063,9 @@ logs
 /
 "
 "
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 /
@@ -1059,6 +1076,13 @@ upload
 logs
 /
 "
+.
+format
+(
+*
+*
+run
+)
 )
         
 (
@@ -1068,14 +1092,20 @@ public
 test
 "
 "
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 artifacts
 /
 "
+.
+format
+(
+*
+*
+run
+)
 )
         
 (
@@ -1086,10 +1116,9 @@ test_info
 /
 "
 "
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 /
@@ -1098,6 +1127,13 @@ build
 blobber_upload_dir
 /
 "
+.
+format
+(
+*
+*
+run
+)
 )
     
 ]
@@ -1171,13 +1207,19 @@ path
 join
 (
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 '
+.
+format
+(
+*
+*
+run
+)
 path
 )
         
@@ -1263,13 +1305,19 @@ point
 '
 :
 "
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 workspace
 "
+.
+format
+(
+*
+*
+run
+)
     
 }
 ]
@@ -1554,10 +1602,9 @@ command
 [
         
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 bin
 /
@@ -1565,6 +1612,13 @@ run
 -
 task
 '
+.
+format
+(
+*
+*
+run
+)
     
 ]
     
@@ -1597,15 +1651,21 @@ vcs
 checkout
 '
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 checkouts
 /
 gecko
 '
+.
+format
+(
+*
+*
+run
+)
 ]
 )
         
@@ -1617,10 +1677,9 @@ MOZHARNESS_PATH
 ]
 =
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 checkouts
 /
@@ -1630,6 +1689,13 @@ testing
 /
 mozharness
 '
+.
+format
+(
+*
+*
+run
+)
     
 else
 :
@@ -1663,10 +1729,9 @@ extend
 '
         
 '
-/
-builds
-/
-worker
+{
+workdir
+}
 /
 bin
 /
@@ -1676,6 +1741,13 @@ linux
 .
 sh
 '
+.
+format
+(
+*
+*
+run
+)
     
 ]
 )
