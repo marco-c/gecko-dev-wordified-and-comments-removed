@@ -6675,16 +6675,6 @@ aPercentageBasis
 )
 ;
 }
-static
-ComputedStyle
-*
-StyleForScrollbar
-(
-nsIFrame
-*
-aScrollbarPart
-)
-;
 private
 :
 static
