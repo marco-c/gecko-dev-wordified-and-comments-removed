@@ -817,6 +817,15 @@ javascript
 .
 options
 .
+spectre
+.
+index_masking
+"
+"
+javascript
+.
+options
+.
 streams
 "
 "

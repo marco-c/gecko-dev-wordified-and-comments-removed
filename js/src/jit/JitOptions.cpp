@@ -795,6 +795,12 @@ env
 }
 SET_DEFAULT
 (
+spectreIndexMasking
+false
+)
+;
+SET_DEFAULT
+(
 disableUnboxedObjects
 false
 )

@@ -324,6 +324,9 @@ IonRegisterAllocator
 forcedRegisterAllocator
 ;
 bool
+spectreIndexMasking
+;
+bool
 disableUnboxedObjects
 ;
 DefaultJitOptions
