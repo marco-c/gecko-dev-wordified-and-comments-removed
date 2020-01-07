@@ -404,7 +404,11 @@ exe
 package
 -
 name
-firefox
+'
+(
+MOZ_PKG_DIR
+)
+'
 \
 -
 -
@@ -422,7 +426,9 @@ tag
 topsrcdir
 )
 /
-browser
+(
+MOZ_BUILD_APP
+)
 /
 installer
 /
