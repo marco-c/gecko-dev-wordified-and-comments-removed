@@ -5668,6 +5668,10 @@ quantum_pageload_google
 manifest
 '
     
+fnbpaint
+=
+False
+    
 tphero
 =
 True
