@@ -7,13 +7,6 @@ mozilla_css_ImageLoader_h___
 #
 include
 "
-CORSMode
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
@@ -207,8 +200,6 @@ aReferrer
 Image
 *
 aCSSValue
-CORSMode
-aCorsMode
 )
 ;
 void
