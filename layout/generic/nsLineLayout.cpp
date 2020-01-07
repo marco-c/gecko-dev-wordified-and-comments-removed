@@ -174,9 +174,6 @@ using
 namespace
 mozilla
 ;
-#
-define
-FIX_BUG_50257
 nsLineLayout
 :
 :
@@ -6803,9 +6800,6 @@ return
 true
 ;
 }
-#
-ifdef
-FIX_BUG_50257
 if
 (
 pfd
@@ -6842,8 +6836,6 @@ return
 true
 ;
 }
-#
-endif
 if
 (
 aNotSafeToBreak
