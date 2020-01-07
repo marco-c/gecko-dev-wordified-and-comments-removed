@@ -16212,7 +16212,7 @@ None
                     
 console_output
 =
-True
+False
 exit_on_finish
 =
 False
