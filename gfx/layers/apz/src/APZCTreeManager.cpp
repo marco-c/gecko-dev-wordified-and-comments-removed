@@ -8363,6 +8363,13 @@ uint32_t
 aFlags
 )
 {
+APZThreadUtils
+:
+:
+AssertOnControllerThread
+(
+)
+;
 RefPtr
 <
 AsyncPanZoomController
