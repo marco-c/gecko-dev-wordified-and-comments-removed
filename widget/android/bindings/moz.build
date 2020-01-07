@@ -158,6 +158,9 @@ AndroidBuild
 AndroidRect
 '
 '
+JavaBuiltins
+'
+'
 KeyEvent
 '
 '
