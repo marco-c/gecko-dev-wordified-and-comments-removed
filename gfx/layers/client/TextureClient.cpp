@@ -4847,6 +4847,7 @@ GetMaxTextureSize
 ;
 if
 (
+(
 layersBackend
 =
 =
@@ -4854,6 +4855,16 @@ LayersBackend
 :
 :
 LAYERS_D3D11
+|
+|
+layersBackend
+=
+=
+LayersBackend
+:
+:
+LAYERS_WR
+)
 &
 &
 (
