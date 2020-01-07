@@ -451,6 +451,14 @@ GetAndResetWillGenerateFrame
 ;
 private
 :
+wr
+:
+:
+Epoch
+GetNextImageEpoch
+(
+)
+;
 uint32_t
 GetNextResourceId
 (
@@ -815,7 +823,10 @@ AsyncImagePipeline
 >
 mAsyncImagePipelines
 ;
-uint32_t
+wr
+:
+:
+Epoch
 mAsyncImageEpoch
 ;
 bool
