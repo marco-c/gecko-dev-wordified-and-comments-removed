@@ -4906,6 +4906,9 @@ value
 =
 UINT32_MAX
 ;
+#
+ifdef
+DEBUG
 LogToBrowserConsole
 (
 nsIScriptError
@@ -4924,6 +4927,8 @@ value
 )
 )
 ;
+#
+endif
 }
 else
 if
