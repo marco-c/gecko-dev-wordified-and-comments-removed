@@ -704,6 +704,9 @@ bool
 mChromeLoaded
 ;
 bool
+mSizingShellFromXUL
+;
+bool
 mShowAfterLoad
 ;
 bool
