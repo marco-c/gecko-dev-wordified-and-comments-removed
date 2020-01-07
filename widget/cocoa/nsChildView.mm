@@ -26948,6 +26948,15 @@ geckoEvent
 nsEventStatus_eConsumeNoDefault
 )
 ;
+if
+(
+!
+mGeckoChild
+)
+{
+return
+;
+}
 /
 /
 Check
