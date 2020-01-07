@@ -4289,9 +4289,7 @@ aX
 =
 rect
 .
-X
-(
-)
+x
 ;
 }
 if
@@ -4304,9 +4302,7 @@ aY
 =
 rect
 .
-Y
-(
-)
+y
 ;
 }
 if
@@ -4319,9 +4315,7 @@ aCx
 =
 rect
 .
-Width
-(
-)
+width
 ;
 }
 if
@@ -4334,9 +4328,7 @@ aCy
 =
 rect
 .
-Height
-(
-)
+height
 ;
 }
 return
@@ -5971,9 +5963,7 @@ Resize
 (
 screenRect
 .
-X
-(
-)
+x
 +
 mClientOffset
 .
@@ -5984,9 +5974,7 @@ mChromeOffset
 x
 screenRect
 .
-Y
-(
-)
+y
 +
 mClientOffset
 .
@@ -14803,9 +14791,7 @@ Resize
 (
 screenRect
 .
-X
-(
-)
+x
 +
 mClientOffset
 .
@@ -14816,9 +14802,7 @@ mChromeOffset
 x
 screenRect
 .
-Y
-(
-)
+y
 +
 mClientOffset
 .

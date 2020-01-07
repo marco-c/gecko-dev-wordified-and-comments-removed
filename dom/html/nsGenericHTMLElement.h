@@ -1111,9 +1111,7 @@ rcFrame
 return
 rcFrame
 .
-Y
-(
-)
+y
 ;
 }
 int32_t
@@ -1135,9 +1133,7 @@ rcFrame
 return
 rcFrame
 .
-X
-(
-)
+x
 ;
 }
 int32_t

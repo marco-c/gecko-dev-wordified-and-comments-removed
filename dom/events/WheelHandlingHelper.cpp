@@ -348,9 +348,7 @@ CanScrollInRange
 (
 scrollRange
 .
-X
-(
-)
+x
 scrollPt
 .
 x
@@ -382,9 +380,7 @@ CanScrollInRange
 (
 scrollRange
 .
-Y
-(
-)
+y
 scrollPt
 .
 y

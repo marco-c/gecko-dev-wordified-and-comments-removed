@@ -3106,12 +3106,10 @@ gfx
 DrawTarget
 &
 aTarget
-const
 gfx
 :
 :
 IntRect
-&
 aCopyRect
 )
 ;
@@ -3597,12 +3595,10 @@ gfx
 :
 Rect
 aSrc
-const
 gfx
 :
 :
 IntSize
-&
 aImgSize
 )
 ;
