@@ -509,9 +509,9 @@ isPresentLock
 rvSlot
 -
 >
-inIsPresent
+isPresentThread
 =
-PR_FALSE
+NULL
 ;
 rvSlot
 -
