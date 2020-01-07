@@ -253,9 +253,11 @@ querySelector
 "
 toolbar
 [
-printpreview
+is
 =
-true
+printpreview
+-
+toolbar
 ]
 "
 )
