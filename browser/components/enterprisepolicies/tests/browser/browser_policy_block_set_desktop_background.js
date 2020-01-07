@@ -21,7 +21,7 @@ policies
 :
 {
 "
-BlockSetDesktopBackground
+DisableSetDesktopBackground
 "
 :
 true
