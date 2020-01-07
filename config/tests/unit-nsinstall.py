@@ -2,10 +2,13 @@ import
 unittest
 import
 os
+import
 sys
+import
 os
 .
 path
+import
 time
 from
 tempfile
@@ -647,6 +650,7 @@ path
 .
 join
 (
+            
 testdir
 "
 copieddir
@@ -1522,7 +1526,7 @@ __name__
 __main__
 '
 :
-  
+    
 mozunit
 .
 main

@@ -13,7 +13,7 @@ sys
 ignored_js_src_dirs
 =
 [
-   
+    
 '
 js
 /
@@ -22,7 +22,7 @@ src
 config
 /
 '
-   
+    
 '
 js
 /
@@ -33,7 +33,7 @@ ctypes
 libffi
 /
 '
-   
+    
 '
 js
 /
@@ -42,7 +42,7 @@ src
 devtools
 /
 '
-   
+    
 '
 js
 /
@@ -51,7 +51,7 @@ src
 editline
 /
 '
-   
+    
 '
 js
 /
@@ -60,7 +60,7 @@ src
 gdb
 /
 '
-   
+    
 '
 js
 /
@@ -1921,6 +1921,7 @@ filename
 inclname
 file_kind
 code
+                       
 all_inclnames
 included_h_inclnames
 )
@@ -1956,7 +1957,7 @@ py
 expected
 output
 '
-                                       
+                                     
 tofile
 =
 '
@@ -3192,6 +3193,7 @@ extend
 (
 pretty_sorted_includes
 (
+                    
 includes
 )
 +
@@ -3575,6 +3577,7 @@ append
 Include
 (
 prefix
+                                                    
 inclname
 suffix
 linenum
@@ -3654,6 +3657,7 @@ append
 Include
 (
 prefix
+                                                    
 inclname
 suffix
 linenum
@@ -3849,6 +3853,7 @@ block_stack
 raise
 ValueError
 (
+                        
 "
 #
 endif
@@ -4147,6 +4152,7 @@ filename
 include
 .
 linenum
+                          
 '
 the
 file
@@ -4546,6 +4552,7 @@ files
 )
 '
 None
+                      
 '
 header
 files

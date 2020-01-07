@@ -60,7 +60,6 @@ write
 foobar
 '
 )
-;
         
 self
 .

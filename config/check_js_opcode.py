@@ -16,7 +16,6 @@ basename
 (
 __file__
 )
-;
 topsrcdir
 =
 os

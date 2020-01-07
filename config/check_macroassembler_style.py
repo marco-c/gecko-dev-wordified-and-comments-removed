@@ -167,6 +167,7 @@ reBeforeArg
 +
 reArgType
 +
+                        
 reArgName
 +
 reArgDefault
@@ -299,6 +300,7 @@ re
 .
 sub
 (
+            
 r
 '
 .
@@ -955,6 +957,7 @@ signatures
 .
 extend
 (
+                        
 get_normalized_signatures
 (
 lines
@@ -1480,6 +1483,7 @@ output
 .
 append
 (
+                    
 s
 +
 '
@@ -1709,6 +1713,7 @@ decls
 =
 append_signatures
 (
+                    
 decls
 get_macroassembler_declaration
 (
@@ -1720,6 +1725,7 @@ defs
 =
 append_signatures
 (
+                
 defs
 get_macroassembler_definitions
 (
