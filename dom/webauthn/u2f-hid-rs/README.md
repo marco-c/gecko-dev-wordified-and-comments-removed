@@ -115,10 +115,9 @@ Platforms
 :
 Windows
 Linux
+FreeBSD
 and
-Mac
-OS
-X
+macOS
 .
 *
 *
