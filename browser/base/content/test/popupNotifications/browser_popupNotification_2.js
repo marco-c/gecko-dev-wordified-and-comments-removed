@@ -1167,7 +1167,9 @@ true
 let
 promiseTopic
 =
-promiseTopicObserved
+TestUtils
+.
+topicObserved
 (
 "
 PopupNotifications
