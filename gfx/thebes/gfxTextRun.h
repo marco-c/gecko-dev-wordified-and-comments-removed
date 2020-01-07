@@ -1197,7 +1197,10 @@ gfx
 ShapedTextFlags
 mOrientation
 ;
-uint8_t
+gfxTextRange
+:
+:
+MatchType
 mMatchType
 ;
 }
@@ -1387,7 +1390,10 @@ AddGlyphRun
 gfxFont
 *
 aFont
-uint8_t
+gfxTextRange
+:
+:
+MatchType
 aMatchType
 uint32_t
 aStartCharIndex
@@ -2755,7 +2761,10 @@ aRunScript
 gfxFont
 *
 aPrevMatchedFont
-uint8_t
+gfxTextRange
+:
+:
+MatchType
 *
 aMatchType
 )

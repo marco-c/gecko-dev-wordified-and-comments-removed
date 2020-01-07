@@ -2351,6 +2351,9 @@ GetFirstValidFont
 gfxTextRange
 :
 :
+MatchType
+:
+:
 kFontGroup
 0
 false

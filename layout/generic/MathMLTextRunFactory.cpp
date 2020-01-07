@@ -2436,7 +2436,10 @@ ch2
 ch
 )
 {
-uint8_t
+gfxTextRange
+:
+:
+MatchType
 matchType
 ;
 RefPtr
