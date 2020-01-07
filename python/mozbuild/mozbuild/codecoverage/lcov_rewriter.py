@@ -4079,36 +4079,6 @@ pp_info
 =
 res
             
-assert
-os
-.
-path
-.
-isfile
-(
-source_file
-)
-"
-Couldn
-'
-t
-find
-mapped
-source
-file
-%
-s
-at
-%
-s
-!
-"
-%
-(
-url
-source_file
-)
-            
 found_valid
 [
 0
@@ -4117,8 +4087,7 @@ found_valid
 True
             
 return
-source_file
-pp_info
+res
         
 in_paths
 =
