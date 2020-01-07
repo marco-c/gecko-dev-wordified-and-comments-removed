@@ -194,6 +194,9 @@ class
 PBrowserParent
 ;
 class
+ProcessMessageManager
+;
+class
 Promise
 ;
 class
@@ -1030,7 +1033,7 @@ mozilla
 dom
 :
 :
-ChromeMessageSender
+ProcessMessageManager
 *
 GetProcessMessageManager
 (
