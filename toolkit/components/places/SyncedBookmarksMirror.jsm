@@ -1925,12 +1925,12 @@ Log
 .
 Level
 .
-Trace
+Debug
 )
 {
 MirrorLog
 .
-trace
+debug
 (
 "
 Built
@@ -2046,12 +2046,12 @@ Log
 .
 Level
 .
-Trace
+Debug
 )
 {
 MirrorLog
 .
-trace
+debug
 (
 "
 Built
@@ -2304,12 +2304,12 @@ Log
 .
 Level
 .
-Trace
+Debug
 )
 {
 MirrorLog
 .
-trace
+debug
 (
 [
 "
@@ -2748,7 +2748,7 @@ ex
 {
 MirrorLog
 .
-error
+warn
 (
 "
 Error
@@ -6480,7 +6480,7 @@ remoteDeletions
 {
 MirrorLog
 .
-debug
+trace
 (
 "
 Setting
@@ -6559,7 +6559,7 @@ mergeStatesParams
 }
 MirrorLog
 .
-debug
+trace
 (
 "
 Inserting
@@ -6711,7 +6711,7 @@ moz_updatehostsinsert_temp
 ;
 MirrorLog
 .
-debug
+trace
 (
 "
 Updating
@@ -6737,7 +6737,7 @@ itemsToMerge
 ;
 MirrorLog
 .
-debug
+trace
 (
 "
 Updating
@@ -6763,7 +6763,7 @@ structureToMerge
 ;
 MirrorLog
 .
-debug
+trace
 (
 "
 Removing
@@ -7044,7 +7044,7 @@ isUntagging
 }
 MirrorLog
 .
-debug
+trace
 (
 "
 Flagging
@@ -7125,7 +7125,7 @@ observersToNotify
 {
 MirrorLog
 .
-debug
+trace
 (
 "
 Recording
@@ -7311,7 +7311,7 @@ info
 }
 MirrorLog
 .
-debug
+trace
 (
 "
 Recording
@@ -7497,7 +7497,7 @@ info
 }
 MirrorLog
 .
-debug
+trace
 (
 "
 Recording
@@ -7739,7 +7739,7 @@ info
 }
 MirrorLog
 .
-debug
+trace
 (
 "
 Recording
@@ -7947,7 +7947,7 @@ info
 }
 MirrorLog
 .
-debug
+trace
 (
 "
 Recording
@@ -8212,7 +8212,7 @@ info
 }
 MirrorLog
 .
-debug
+trace
 (
 "
 Recording
@@ -8316,7 +8316,7 @@ name
 }
 MirrorLog
 .
-debug
+trace
 (
 "
 Recording
@@ -15279,7 +15279,7 @@ startTime
 ;
 MirrorLog
 .
-debug
+trace
 (
 {
 name
@@ -22628,7 +22628,7 @@ updateFrecencies
 {
 MirrorLog
 .
-debug
+trace
 (
 "
 Recalculating
@@ -23208,7 +23208,7 @@ notifyBookmarkObservers
 {
 MirrorLog
 .
-debug
+trace
 (
 "
 Notifying
@@ -23308,7 +23308,7 @@ notifyAnnoObservers
 {
 MirrorLog
 .
-debug
+trace
 (
 "
 Notifying
