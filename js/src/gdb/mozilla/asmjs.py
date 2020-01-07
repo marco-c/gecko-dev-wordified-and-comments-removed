@@ -141,12 +141,6 @@ parse_and_eval
 (
 "
 WasmFaultHandler
-<
-(
-Signal
-)
-0
->
 "
 )
         
