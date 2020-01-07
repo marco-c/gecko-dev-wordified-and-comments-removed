@@ -1543,14 +1543,6 @@ aTable
 }
 static
 const
-nsStyleStructID
-kSIDTable
-[
-eCSSProperty_COUNT_no_shorthands
-]
-;
-static
-const
 KTableEntry
 *
 const
