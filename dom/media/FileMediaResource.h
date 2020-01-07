@@ -439,6 +439,11 @@ mInput
 bool
 mSizeInitialized
 ;
+bool
+mNotifyDataEndedProcessed
+=
+false
+;
 }
 ;
 }
