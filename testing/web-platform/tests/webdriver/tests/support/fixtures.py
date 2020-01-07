@@ -15,14 +15,6 @@ tests
 .
 support
 .
-asserts
-import
-assert_error
-from
-tests
-.
-support
-.
 http_request
 import
 HTTPRequest
@@ -34,12 +26,6 @@ support
 wait
 import
 wait
-from
-tests
-.
-support
-import
-merge_dictionaries
 default_host
 =
 "
