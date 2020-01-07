@@ -123,6 +123,11 @@ EXPORTS
 =
 [
 '
+nsConverterInputStream
+.
+h
+'
+'
 nsUConvCID
 .
 h
