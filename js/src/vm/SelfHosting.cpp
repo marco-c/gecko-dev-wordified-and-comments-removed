@@ -11695,7 +11695,10 @@ JSString
 *
 jslocale
 =
-JS_NewStringCopyZ
+NewStringCopyZ
+<
+CanGC
+>
 (
 cx
 locale
