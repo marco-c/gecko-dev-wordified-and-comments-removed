@@ -600,6 +600,8 @@ nsRange
 aRange
 uint32_t
 aMaxRanges
+bool
+aSkipCollapsedWhitespace
 nsTArray
 <
 nsAutoPtr
