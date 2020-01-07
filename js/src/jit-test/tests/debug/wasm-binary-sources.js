@@ -134,7 +134,7 @@ includes
 module
 '
 )
-false
+true
 )
 ;
 assertThrowsInstanceOf

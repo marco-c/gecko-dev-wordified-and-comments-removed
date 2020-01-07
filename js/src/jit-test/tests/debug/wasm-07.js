@@ -79,10 +79,8 @@ type
 wasmcall
 '
 )
-{
 return
 ;
-}
 offsets
 .
 push

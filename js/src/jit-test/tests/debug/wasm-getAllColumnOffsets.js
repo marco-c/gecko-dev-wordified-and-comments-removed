@@ -50,12 +50,6 @@ addDebuggee
 sandbox
 )
 ;
-dbg
-.
-allowWasmBinarySource
-=
-true
-;
 sandbox
 .
 eval
