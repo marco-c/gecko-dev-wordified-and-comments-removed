@@ -103,7 +103,7 @@ getAccessibleFor
 (
 gBrowser
 .
-mCurrentTab
+selectedTab
 )
 ;
 if

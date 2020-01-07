@@ -1843,7 +1843,7 @@ hiddenEngines
 as
 properties
 of
-mCurrentBrowser
+selectedBrowser
 .
 Those
 lists
