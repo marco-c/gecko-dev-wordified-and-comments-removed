@@ -15545,7 +15545,7 @@ JS_FN
 intl_GetPluralCategories
 "
 intl_GetPluralCategories
-2
+1
 0
 )
 JS_FN

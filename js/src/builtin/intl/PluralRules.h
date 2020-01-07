@@ -85,9 +85,16 @@ UPLURAL_RULES_SLOT
 static
 constexpr
 uint32_t
-SLOT_COUNT
+UNUMBER_FORMAT_SLOT
 =
 2
+;
+static
+constexpr
+uint32_t
+SLOT_COUNT
+=
+3
 ;
 static_assert
 (
