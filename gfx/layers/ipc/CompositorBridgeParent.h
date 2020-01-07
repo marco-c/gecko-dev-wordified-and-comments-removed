@@ -2566,7 +2566,10 @@ CompositorWidget
 *
 mWidget
 ;
+Maybe
+<
 TimeStamp
+>
 mTestTime
 ;
 CSSToLayoutDeviceScale
@@ -2574,9 +2577,6 @@ mScale
 ;
 TimeDuration
 mVsyncRate
-;
-bool
-mIsTesting
 ;
 uint64_t
 mPendingTransaction
