@@ -2085,6 +2085,12 @@ GetEnforceSRI
 aLoadInfo
 -
 >
+GetAllowDocumentToBeAgnosticToCSP
+(
+)
+aLoadInfo
+-
+>
 GetForceAllowDataURI
 (
 )
@@ -2888,6 +2894,11 @@ verifySignedContent
 loadInfoArgs
 .
 enforceSRI
+(
+)
+loadInfoArgs
+.
+allowDocumentToBeAgnosticToCSP
 (
 )
 loadInfoArgs
