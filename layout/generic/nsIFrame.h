@@ -7024,6 +7024,12 @@ aOffset
 )
 const
 ;
+bool
+IsContentDisabled
+(
+)
+const
+;
 mozilla
 :
 :
