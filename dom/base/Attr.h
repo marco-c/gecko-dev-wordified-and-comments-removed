@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
