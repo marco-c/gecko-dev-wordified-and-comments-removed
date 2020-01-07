@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsRDFCID
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
