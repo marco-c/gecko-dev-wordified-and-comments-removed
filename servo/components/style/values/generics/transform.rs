@@ -3563,7 +3563,7 @@ vector
 =
 vector
 .
-normalize
+robust_normalize
 (
 )
 ;
