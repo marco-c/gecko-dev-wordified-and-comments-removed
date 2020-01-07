@@ -19265,7 +19265,7 @@ expires_in_version
 "
 :
 "
-62
+66
 "
 "
 kind
@@ -19319,6 +19319,12 @@ mozilla
 .
 com
 "
+"
+ddamjanovic
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -19350,7 +19356,7 @@ expires_in_version
 "
 :
 "
-62
+66
 "
 "
 kind
@@ -19398,6 +19404,12 @@ mozilla
 .
 com
 "
+"
+ddamjanovic
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -19429,7 +19441,7 @@ expires_in_version
 "
 :
 "
-62
+66
 "
 "
 kind
@@ -19481,6 +19493,12 @@ alert_emails
 [
 "
 necko
+mozilla
+.
+com
+"
+"
+ddamjanovic
 mozilla
 .
 com
