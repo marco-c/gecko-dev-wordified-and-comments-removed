@@ -66,10 +66,11 @@ parser
 import
 getParser
 from
+compare_locales
 .
-cldr
+plurals
 import
-get_plural_categories
+CATEGORIES_BY_LOCALE
 from
 .
 transforms
@@ -288,13 +289,13 @@ self
 .
 plural_categories
 =
-get_plural_categories
-(
+CATEGORIES_BY_LOCALE
+[
 lang
-)
+]
         
 except
-RuntimeError
+IndexError
 as
 e
 :
@@ -317,10 +318,12 @@ self
 .
 plural_categories
 =
-get_plural_categories
 (
 '
-en
+one
+'
+'
+other
 '
 )
         
@@ -1821,6 +1824,9 @@ self
 changeset
 =
 None
+known_translations
+=
+None
 )
 :
         
@@ -2042,6 +2048,16 @@ iterkeys
             
 }
         
+if
+known_translations
+is
+None
+:
+            
+known_translations
+=
+changeset
+        
 for
 path
 reference
@@ -2227,13 +2243,21 @@ message_deps
 return
 True
                 
-available_deps
+active_deps
 =
 message_deps
 &
 changeset
                 
+available_deps
+=
+message_deps
+&
+known_translations
+                
 return
+active_deps
+and
 message_deps
 =
 =
@@ -2282,6 +2306,9 @@ serialize_changeset
 (
 self
 changeset
+known_translations
+=
+None
 )
 :
         
@@ -2344,7 +2371,10 @@ self
 .
 merge_changeset
 (
+                
 changeset
+known_translations
+            
 )
         
 }

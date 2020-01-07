@@ -214,11 +214,33 @@ convert_blame_to_changesets
 blame
 )
         
+known_legacy_translations
+=
+set
+(
+)
+        
 for
 changeset
 in
 changesets
 :
+            
+changes_in_changeset
+=
+changeset
+[
+'
+changes
+'
+]
+            
+known_legacy_translations
+.
+update
+(
+changes_in_changeset
+)
             
 snapshot
 =
@@ -226,12 +248,11 @@ ctx
 .
 serialize_changeset
 (
-changeset
-[
-'
-changes
-'
-]
+                
+changes_in_changeset
+                
+known_legacy_translations
+            
 )
             
 if

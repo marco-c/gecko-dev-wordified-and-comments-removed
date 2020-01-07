@@ -1172,6 +1172,15 @@ get_pattern
 (
 ps
 )
+            
+else
+:
+                
+ps
+.
+skip_inline_ws
+(
+)
         
 if
 id
