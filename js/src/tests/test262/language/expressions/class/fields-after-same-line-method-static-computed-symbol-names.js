@@ -25,10 +25,12 @@ return
 42
 ;
 }
+static
 [
 x
 ]
 ;
+static
 [
 y
 ]
@@ -137,7 +139,7 @@ hasOwnProperty
 .
 call
 (
-C
+c
 x
 )
 false
@@ -145,7 +147,7 @@ false
 ;
 verifyProperty
 (
-c
+C
 x
 {
 value
@@ -191,7 +193,7 @@ hasOwnProperty
 .
 call
 (
-C
+c
 y
 )
 false
@@ -199,7 +201,7 @@ false
 ;
 verifyProperty
 (
-c
+C
 y
 {
 value

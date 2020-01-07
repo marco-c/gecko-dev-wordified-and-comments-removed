@@ -11,7 +11,7 @@ length
 {
 value
 :
-1
+0
 writable
 :
 false
