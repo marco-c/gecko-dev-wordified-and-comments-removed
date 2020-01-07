@@ -2831,13 +2831,6 @@ CloseChannel
 (
 )
 ;
-element
--
->
-DownloadSuspended
-(
-)
-;
 }
 if
 (
@@ -2848,11 +2841,6 @@ Suspend
 )
 )
 {
-if
-(
-mChannel
-)
-{
 element
 -
 >
@@ -2860,7 +2848,6 @@ DownloadSuspended
 (
 )
 ;
-}
 }
 }
 void
