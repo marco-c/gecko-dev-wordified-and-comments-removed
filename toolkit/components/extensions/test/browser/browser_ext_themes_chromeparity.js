@@ -63,8 +63,6 @@ TAB_TEXT_COLOR
 207
 221
 192
-.
-9
 ]
 ;
 let
@@ -296,7 +294,7 @@ style
 .
 color
 "
-rgba
+rgb
 (
 "
 +
@@ -385,8 +383,6 @@ TAB_TEXT_COLOR
 207
 221
 192
-.
-9
 ]
 ;
 let
@@ -660,8 +656,6 @@ TAB_TEXT_COLOR
 207
 221
 192
-.
-9
 ]
 ;
 let
