@@ -99,15 +99,11 @@ loadExtension
 manifest
 :
 {
-"
 content_scripts
-"
 :
 [
 {
-"
 js
-"
 :
 [
 "
@@ -116,9 +112,7 @@ content_script
 js
 "
 ]
-"
 matches
-"
 :
 [
 "
@@ -133,9 +127,7 @@ com
 *
 "
 ]
-"
 run_at
-"
 :
 "
 document_start

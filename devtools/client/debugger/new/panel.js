@@ -461,8 +461,8 @@ selected
 }
 selectSource
 (
-sourceURL
-sourceLine
+url
+line
 )
 {
 this
@@ -471,11 +471,13 @@ _actions
 .
 selectSourceURL
 (
-sourceURL
+url
+{
+location
+:
 {
 line
-:
-sourceLine
+}
 }
 )
 ;

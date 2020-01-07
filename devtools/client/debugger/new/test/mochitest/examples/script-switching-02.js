@@ -27,3 +27,11 @@ x
 =
 true
 ;
+console
+.
+log
+(
+"
+hi
+"
+)
