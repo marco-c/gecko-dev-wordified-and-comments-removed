@@ -294,6 +294,15 @@ js
 prefix
 }
 /
+fake_bluetooth_chooser
+.
+mojom
+.
+js
+{
+prefix
+}
+/
 web
 -
 bluetooth
