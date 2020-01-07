@@ -43,6 +43,8 @@ MarionetteTestCase
 )
 :
     
+property
+    
 def
 alert_present
 (
@@ -103,8 +105,6 @@ _
 self
 .
 alert_present
-(
-)
 )
     
 def
@@ -137,8 +137,6 @@ not
 self
 .
 alert_present
-(
-)
 )
 class
 TestTabModalAlerts
@@ -198,10 +196,8 @@ default
         
 self
 .
-marionette
-.
-navigate
-(
+test_page
+=
 self
 .
 marionette
@@ -214,6 +210,16 @@ test_tab_modal_dialogs
 html
 "
 )
+        
+self
+.
+marionette
+.
+navigate
+(
+self
+.
+test_page
 )
     
 def
@@ -1484,8 +1490,6 @@ not
 self
 .
 alert_present
-(
-)
 class
 TestModalAlerts
 (
