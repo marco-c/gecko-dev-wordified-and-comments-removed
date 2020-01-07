@@ -1107,7 +1107,7 @@ forget
 )
 )
 ;
-already_AddRefed
+nsCOMPtr
 <
 nsIStreamListener
 >
@@ -1125,7 +1125,7 @@ AppendElement
 (
 listener
 .
-take
+forget
 (
 )
 )
@@ -14913,16 +14913,10 @@ NS_ENSURE_SUCCESS_VOID
 rv
 )
 ;
-if
-(
-aCacheInfoChannel
-)
-{
 mSynthesizedCacheInfo
 =
 aCacheInfoChannel
 ;
-}
 rv
 =
 mSynthesizedResponsePump
