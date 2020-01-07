@@ -112,9 +112,6 @@ class
 PersistentBufferProvider
 ;
 class
-WebRenderCanvasRendererSync
-;
-class
 WebRenderCanvasRendererAsync
 ;
 struct
@@ -347,17 +344,6 @@ virtual
 ClientCanvasRenderer
 *
 AsClientCanvasRenderer
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-WebRenderCanvasRendererSync
-*
-AsWebRenderCanvasRendererSync
 (
 )
 {
