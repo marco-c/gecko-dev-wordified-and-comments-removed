@@ -3793,6 +3793,7 @@ if
 (
 BlockPrompt
 (
+proxyAuth
 )
 )
 {
@@ -3969,6 +3970,8 @@ nsHttpChannelAuthProvider
 :
 BlockPrompt
 (
+bool
+proxyAuth
 )
 {
 nsCOMPtr
@@ -4031,6 +4034,15 @@ mAuthChannel
 ;
 return
 true
+;
+}
+if
+(
+proxyAuth
+)
+{
+return
+false
 ;
 }
 nsCOMPtr

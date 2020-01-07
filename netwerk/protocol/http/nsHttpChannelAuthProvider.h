@@ -481,6 +481,8 @@ ProcessSTSHeader
 bool
 BlockPrompt
 (
+bool
+proxyAuth
 )
 ;
 MOZ_MUST_USE
