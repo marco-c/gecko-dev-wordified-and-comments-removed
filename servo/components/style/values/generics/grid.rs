@@ -1935,13 +1935,6 @@ RepeatCount
 <
 I
 >
-#
-[
-compute
-(
-clone
-)
-]
 pub
 line_names
 :
@@ -3459,6 +3452,13 @@ I
 None
 TrackList
 (
+#
+[
+compute
+(
+field_bound
+)
+]
 TrackList
 <
 L
