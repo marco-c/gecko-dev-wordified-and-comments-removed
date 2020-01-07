@@ -1265,7 +1265,7 @@ true
 setTimeout
 (
 plLoadPage
-100
+2000
 )
 ;
 }
