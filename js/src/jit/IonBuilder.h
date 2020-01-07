@@ -4360,6 +4360,14 @@ callInfo
 )
 ;
 InliningResult
+inlineMathSign
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineMathFunction
 (
 CallInfo
