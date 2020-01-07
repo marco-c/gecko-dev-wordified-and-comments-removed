@@ -2440,6 +2440,14 @@ slot
 )
 const
 ;
+bool
+isNumFixedSlots
+(
+uint32_t
+nfixed
+)
+const
+;
 #
 endif
 static
@@ -2669,6 +2677,7 @@ numFixedSlots
 )
 ;
 }
+inline
 uint32_t
 numFixedSlotsMaybeForwarded
 (
@@ -5693,11 +5702,9 @@ const
 {
 MOZ_ASSERT
 (
-nfixed
-=
-=
-numFixedSlots
+isNumFixedSlots
 (
+nfixed
 )
 )
 ;
