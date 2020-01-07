@@ -1429,6 +1429,9 @@ storageSQLite
 lowMemoryEventsVirtual
 "
 "
+lowMemoryEventsCommitSpace
+"
+"
 lowMemoryEventsPhysical
 "
 "
