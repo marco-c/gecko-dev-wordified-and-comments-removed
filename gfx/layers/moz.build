@@ -952,6 +952,13 @@ h
 '
 composite
 /
+CompositorScreenshotGrabber
+.
+h
+'
+'
+composite
+/
 ContainerLayerComposite
 .
 h
@@ -2495,6 +2502,13 @@ cpp
 composite
 /
 CompositableHost
+.
+cpp
+'
+'
+composite
+/
+CompositorScreenshotGrabber
 .
 cpp
 '
