@@ -726,6 +726,13 @@ h
 "
 mozilla
 /
+ServoTraversalStatistics
+.
+h
+"
+"
+mozilla
+/
 SizeOfState
 .
 h
@@ -1673,6 +1680,12 @@ mozilla
 :
 :
 ServoStyleSetSizes
+"
+"
+mozilla
+:
+:
+ServoTraversalStatistics
 "
 "
 mozilla
