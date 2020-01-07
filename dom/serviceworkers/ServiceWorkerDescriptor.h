@@ -7,6 +7,15 @@ _mozilla_dom_ServiceWorkerDescriptor_h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
