@@ -5591,6 +5591,9 @@ self
 is_dir
 (
 base_path
+root
+=
+True
 )
 :
             
@@ -5618,6 +5621,9 @@ self
 is_dir
 (
 dummy_dir
+root
+=
+True
 )
 :
                 
@@ -5629,6 +5635,9 @@ dummy_dir
 recursive
 =
 True
+root
+=
+True
 )
             
 self
@@ -5637,6 +5646,22 @@ mkdir
 (
 dummy_dir
 parents
+=
+True
+root
+=
+True
+)
+            
+self
+.
+chmod
+(
+test_root
+recursive
+=
+True
+root
 =
 True
 )
