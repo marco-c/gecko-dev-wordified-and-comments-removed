@@ -27,7 +27,7 @@ DOMLocalization
 .
 prototype
 .
-translateElement
+translateElements
 <
 /
 title
@@ -280,9 +280,12 @@ a
 await
 domLoc
 .
-translateElement
+translateElements
 (
+[
 p1
+link1
+]
 )
 ;
 is
@@ -294,14 +297,6 @@ textContent
 Hello
 World
 "
-)
-;
-await
-domLoc
-.
-translateElement
-(
-link1
 )
 ;
 is
