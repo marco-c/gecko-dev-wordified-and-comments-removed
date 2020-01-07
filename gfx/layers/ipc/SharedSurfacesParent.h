@@ -25,6 +25,15 @@ include
 "
 mozilla
 /
+StaticMutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -283,6 +292,10 @@ ExternalImageId
 &
 aId
 )
+;
+static
+StaticMutex
+sMutex
 ;
 static
 StaticAutoPtr
