@@ -121,4 +121,9 @@ ProxyPolicies
 .
 jsm
 '
+'
+WebsiteFilter
+.
+jsm
+'
 ]
