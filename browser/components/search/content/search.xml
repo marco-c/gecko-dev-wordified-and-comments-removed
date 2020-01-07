@@ -10776,15 +10776,6 @@ body
 [
 CDATA
 [
-BrowserUITelemetry
-.
-countSearchSettingsEvent
-(
-this
-.
-telemetryOrigin
-)
-;
 openPreferences
 (
 "
