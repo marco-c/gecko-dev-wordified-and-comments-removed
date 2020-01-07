@@ -169,9 +169,6 @@ engine_
 ;
 #
 endif
-uint32_t
-stubDataOffset_
-;
 bool
 inStubFrame_
 ;
@@ -246,10 +243,15 @@ CacheIRCompiler
 (
 cx
 writer
+stubDataOffset
 Mode
 :
 :
 Baseline
+StubFieldPolicy
+:
+:
+Address
 )
 #
 ifdef
@@ -260,10 +262,6 @@ engine
 )
 #
 endif
-stubDataOffset_
-(
-stubDataOffset
-)
 inStubFrame_
 (
 false
