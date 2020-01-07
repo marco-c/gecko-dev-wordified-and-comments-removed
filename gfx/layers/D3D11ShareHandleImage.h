@@ -149,6 +149,12 @@ ID3D11Device
 >
 mDevice
 ;
+RefPtr
+<
+ID3D11Device
+>
+mImageDevice
+;
 }
 ;
 class
