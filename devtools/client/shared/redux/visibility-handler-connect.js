@@ -68,7 +68,7 @@ redux
 )
 ;
 function
-connectWrapper
+visibilityHandlerConnect
 (
 )
 {
@@ -127,6 +127,6 @@ exports
 {
 connect
 :
-connectWrapper
+visibilityHandlerConnect
 }
 ;

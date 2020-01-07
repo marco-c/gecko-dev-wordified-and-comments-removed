@@ -144,13 +144,6 @@ prefs
 js
 '
 '
-redux
--
-connect
-.
-js
-'
-'
 request
 -
 utils

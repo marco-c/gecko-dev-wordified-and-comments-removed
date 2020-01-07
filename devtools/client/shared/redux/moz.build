@@ -111,4 +111,13 @@ subscriber
 .
 js
 '
+'
+visibility
+-
+handler
+-
+connect
+.
+js
+'
 )
