@@ -46,10 +46,6 @@ aRaw
 :
 DeclarationBlock
 (
-StyleBackendType
-:
-:
-Servo
 )
 mRaw
 (

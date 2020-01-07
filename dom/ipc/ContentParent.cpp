@@ -11457,14 +11457,6 @@ GetIntCache
 (
 )
 ;
-StyleBackendType
-backendType
-=
-StyleBackendType
-:
-:
-Servo
-;
 StyleSheet
 *
 ucs

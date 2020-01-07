@@ -11363,13 +11363,6 @@ doc
 >
 GetSelectorCache
 (
-mozilla
-:
-:
-StyleBackendType
-:
-:
-Servo
 )
 ;
 nsIDocument

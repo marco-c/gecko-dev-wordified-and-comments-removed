@@ -653,10 +653,9 @@ aChangeListToProcess
 ;
 protected
 :
+explicit
 RestyleManager
 (
-StyleBackendType
-aType
 nsPresContext
 *
 aPresContext
@@ -849,10 +848,6 @@ mDestroyedFrames
 ;
 protected
 :
-const
-StyleBackendType
-mType
-;
 bool
 mInStyleRefresh
 ;

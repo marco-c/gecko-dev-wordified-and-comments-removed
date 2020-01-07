@@ -647,11 +647,6 @@ StyleAnimationValue
 h
 '
 '
-StyleBackendType
-.
-h
-'
-'
 StyleComplexColor
 .
 h

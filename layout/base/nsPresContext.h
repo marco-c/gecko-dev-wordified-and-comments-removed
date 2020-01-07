@@ -288,15 +288,6 @@ StaticPresData
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StyleBackendType
-.
-h
-"
 class
 nsBidi
 ;
@@ -588,11 +579,6 @@ AttachShell
 nsIPresShell
 *
 aShell
-mozilla
-:
-:
-StyleBackendType
-aBackendType
 )
 ;
 void
