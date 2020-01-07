@@ -1457,7 +1457,7 @@ setString
 ni
 -
 >
-begin
+propertiesBegin
 (
 )
 [
