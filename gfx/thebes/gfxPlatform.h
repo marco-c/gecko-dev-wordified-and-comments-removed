@@ -1938,6 +1938,12 @@ InitAcceleration
 ;
 virtual
 void
+InitWebRenderConfig
+(
+)
+;
+virtual
+void
 WillShutdown
 (
 )
@@ -2226,11 +2232,6 @@ InitCompositorAccelerationPrefs
 ;
 void
 InitGPUProcessPrefs
-(
-)
-;
-void
-InitWebRenderConfig
 (
 )
 ;

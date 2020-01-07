@@ -855,6 +855,12 @@ InitAcceleration
 override
 ;
 void
+InitWebRenderConfig
+(
+)
+override
+;
+void
 InitializeDevices
 (
 )
