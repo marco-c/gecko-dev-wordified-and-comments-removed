@@ -117,6 +117,12 @@ NumberOfCores
 (
 )
 ;
+bool
+IsShuttingDown
+(
+)
+const
+;
 void
 AsyncRun
 (
