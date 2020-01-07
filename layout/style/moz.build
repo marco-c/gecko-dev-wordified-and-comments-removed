@@ -574,11 +574,6 @@ ServoMediaRule
 h
 '
 '
-ServoNamespaceRule
-.
-h
-'
-'
 ServoPageRule
 .
 h
@@ -882,6 +877,11 @@ CSSMozDocumentRule
 cpp
 '
 '
+CSSNamespaceRule
+.
+cpp
+'
+'
 CSSPageRule
 .
 cpp
@@ -1143,11 +1143,6 @@ cpp
 '
 '
 ServoMediaRule
-.
-cpp
-'
-'
-ServoNamespaceRule
 .
 cpp
 '

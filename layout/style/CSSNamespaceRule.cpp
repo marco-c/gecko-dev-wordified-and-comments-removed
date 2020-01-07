@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-ServoNamespaceRule
+dom
+/
+CSSNamespaceRule
 .
 h
 "
@@ -26,11 +28,11 @@ dom
 namespace
 mozilla
 {
-ServoNamespaceRule
+CSSNamespaceRule
 :
 :
 ~
-ServoNamespaceRule
+CSSNamespaceRule
 (
 )
 {
@@ -39,7 +41,7 @@ ServoNamespaceRule
 ifdef
 DEBUG
 void
-ServoNamespaceRule
+CSSNamespaceRule
 :
 :
 List
@@ -108,7 +110,7 @@ get
 endif
 nsAtom
 *
-ServoNamespaceRule
+CSSNamespaceRule
 :
 :
 GetPrefix
@@ -124,7 +126,7 @@ mRawRule
 ;
 }
 void
-ServoNamespaceRule
+CSSNamespaceRule
 :
 :
 GetURLSpec
@@ -154,7 +156,7 @@ aURLSpec
 ;
 }
 void
-ServoNamespaceRule
+CSSNamespaceRule
 :
 :
 GetCssText
@@ -174,7 +176,7 @@ aCssText
 ;
 }
 size_t
-ServoNamespaceRule
+CSSNamespaceRule
 :
 :
 SizeOfIncludingThis
