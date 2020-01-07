@@ -1401,6 +1401,13 @@ const
 ping
 =
 {
+client_id
+:
+"
+n
+/
+a
+"
 addon_version
 :
 appInfo
@@ -1415,6 +1422,11 @@ locale
 getAppLocaleAsLangTag
 (
 )
+impression_id
+:
+this
+.
+_impressionId
 }
 ;
 return
@@ -1578,9 +1590,9 @@ createASRouterEvent
 action
 )
 ;
-console
+this
 .
-log
+sendASRouterEvent
 (
 event
 )
