@@ -366,6 +366,9 @@ lastAnimationTime
 regExps
 (
 )
+arraySpeciesLookup
+(
+)
 globalWriteBarriered
 (
 0
@@ -5333,6 +5336,12 @@ purge
 iteratorCache
 .
 clearAndShrink
+(
+)
+;
+arraySpeciesLookup
+.
+purge
 (
 )
 ;

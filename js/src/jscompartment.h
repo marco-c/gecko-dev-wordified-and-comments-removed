@@ -3639,6 +3639,12 @@ js
 RegExpCompartment
 regExps
 ;
+js
+:
+:
+ArraySpeciesLookup
+arraySpeciesLookup
+;
 using
 IteratorCache
 =
