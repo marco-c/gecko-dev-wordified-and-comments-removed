@@ -978,16 +978,6 @@ nsIRunnable
 aRunnable
 )
 ;
-bool
-SkippedPaints
-(
-)
-const
-{
-return
-mSkippedPaints
-;
-}
 void
 NotifyDOMContentLoaded
 (
