@@ -7074,6 +7074,10 @@ width
 100
 %
 ;
+overflow
+:
+hidden
+;
 }
 .
 webconsole
@@ -7128,6 +7132,10 @@ row
 2
 /
 3
+;
+overflow
+:
+scroll
 ;
 }
 .
