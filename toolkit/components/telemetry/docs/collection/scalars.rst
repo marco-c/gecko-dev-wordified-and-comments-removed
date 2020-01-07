@@ -1987,10 +1987,9 @@ scalars
 are
 collections
 of
-one
-of
-the
-available
+uint
+or
+boolean
 scalar
 types
 indexed
@@ -2047,6 +2046,13 @@ with
 which
 search
 engine
+.
+Keyed
+string
+scalars
+are
+not
+supported
 .
 Keyed
 scalars
