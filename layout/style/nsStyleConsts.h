@@ -290,7 +290,6 @@ uint8_t
 {
 None
 Enabled
-Disabled
 Auto
 }
 ;
