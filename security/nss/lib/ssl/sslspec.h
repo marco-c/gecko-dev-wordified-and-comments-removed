@@ -399,7 +399,7 @@ char
 phase
 ;
 sslSequenceNumber
-seqNum
+nextSeqNum
 ;
 DTLSRecvdRecords
 recvdRecords

@@ -740,9 +740,8 @@ ssl_calg_seed
 break
 ;
 }
-EXPECT_TRUE
+ADD_FAILURE
 (
-false
 )
 <
 <
@@ -758,9 +757,7 @@ csinfo_
 cipherSuiteName
 ;
 return
-1ULL
-<
-48
+0
 ;
 }
 uint64_t
@@ -1129,6 +1126,13 @@ ReadBytes
 (
 )
 ;
+server_
+-
+>
+ReadBytes
+(
+)
+;
 }
 else
 {
@@ -1138,8 +1142,6 @@ last
 record_limit
 (
 )
--
-1
 ;
 EXPECT_EQ
 (

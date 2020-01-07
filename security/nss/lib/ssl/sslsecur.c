@@ -3187,7 +3187,7 @@ seqNum
 spec
 -
 >
-seqNum
+nextSeqNum
 ;
 keyUpdate
 =
