@@ -197,6 +197,9 @@ preference_study
 "
 addon_study
 "
+"
+preference_addon
+"
 ]
 extra_keys
 :
@@ -246,14 +249,14 @@ record_on_release
 :
 true
 }
-graduated
+graduate
 :
 {
 methods
 :
 [
 "
-graduated
+graduate
 "
 ]
 objects
