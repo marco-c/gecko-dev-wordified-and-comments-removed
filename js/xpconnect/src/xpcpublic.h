@@ -643,17 +643,6 @@ nullptr
 }
 extern
 void
-xpc_MarkInCCGeneration
-(
-nsISupports
-*
-aVariant
-uint32_t
-aGeneration
-)
-;
-extern
-void
 xpc_TryUnmarkWrappedGrayObject
 (
 nsISupports
