@@ -2960,6 +2960,10 @@ const
 nsRect
 &
 aRect
+bool
+aRebuildDisplayItems
+=
+true
 )
 {
 if
@@ -3015,10 +3019,16 @@ mRect
 aRect
 ;
 }
+if
+(
+aRebuildDisplayItems
+)
+{
 MarkNeedsDisplayItemRebuild
 (
 )
 ;
+}
 }
 void
 SetRect
@@ -3198,6 +3208,10 @@ const
 nsSize
 &
 aSize
+bool
+aRebuildDisplayItems
+=
+true
 )
 {
 SetRect
@@ -3211,6 +3225,7 @@ TopLeft
 )
 aSize
 )
+aRebuildDisplayItems
 )
 ;
 }

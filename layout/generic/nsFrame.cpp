@@ -45516,6 +45516,7 @@ aNewSize
 SetSize
 (
 aNewSize
+false
 )
 ;
 aOverflowAreas
@@ -45718,6 +45719,7 @@ PreTransformOverflowAreasProperty
 SetSize
 (
 oldSize
+false
 )
 ;
 bool
