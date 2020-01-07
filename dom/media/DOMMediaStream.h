@@ -796,6 +796,10 @@ IMPL_EVENT_HANDLER
 (
 addtrack
 )
+IMPL_EVENT_HANDLER
+(
+removetrack
+)
 enum
 class
 TrackForwardingOption
