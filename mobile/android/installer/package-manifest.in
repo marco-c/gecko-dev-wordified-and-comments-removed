@@ -778,6 +778,13 @@ BINPATH
 /
 components
 /
+downloads
+.
+xpt
+BINPATH
+/
+components
+/
 editor
 .
 xpt
@@ -863,13 +870,6 @@ BINPATH
 components
 /
 jsdebugger
-.
-xpt
-BINPATH
-/
-components
-/
-jsdownloads
 .
 xpt
 BINPATH

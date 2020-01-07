@@ -1206,6 +1206,13 @@ RESPATH
 /
 components
 /
+downloads
+.
+xpt
+RESPATH
+/
+components
+/
 editor
 .
 xpt
@@ -1298,13 +1305,6 @@ RESPATH
 components
 /
 jsdebugger
-.
-xpt
-RESPATH
-/
-components
-/
-jsdownloads
 .
 xpt
 RESPATH

@@ -155,9 +155,6 @@ include
 .
 .
 /
-.
-.
-/
 xpcom
 /
 io

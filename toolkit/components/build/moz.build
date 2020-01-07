@@ -153,6 +153,12 @@ alerts
 .
 .
 /
+downloads
+'
+'
+.
+.
+/
 feeds
 '
 '
@@ -160,14 +166,6 @@ feeds
 .
 /
 find
-'
-'
-.
-.
-/
-jsdownloads
-/
-src
 '
 '
 .

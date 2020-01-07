@@ -189,6 +189,9 @@ crashmonitor
 diskspacewatcher
 '
 '
+downloads
+'
+'
 enterprisepolicies
 '
 '
@@ -202,9 +205,6 @@ finalizationwitness
 '
 '
 find
-'
-'
-jsdownloads
 '
 '
 jsoncpp
