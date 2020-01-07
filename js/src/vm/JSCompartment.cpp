@@ -284,14 +284,6 @@ runtimeFromAnyThread
 (
 )
 )
-principals_
-(
-nullptr
-)
-isSystem_
-(
-false
-)
 isSelfHosting
 (
 false

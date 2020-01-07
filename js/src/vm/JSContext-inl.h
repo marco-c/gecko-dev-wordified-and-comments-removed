@@ -2373,12 +2373,12 @@ runningWithTrustedPrincipals
 {
 return
 !
-compartment
+realm
 (
 )
 |
 |
-compartment
+realm
 (
 )
 -
