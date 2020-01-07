@@ -199,3 +199,17 @@ jar
 mn
 '
 ]
+SPHINX_TREES
+[
+'
+shield
+-
+recipe
+-
+client
+'
+]
+=
+'
+docs
+'

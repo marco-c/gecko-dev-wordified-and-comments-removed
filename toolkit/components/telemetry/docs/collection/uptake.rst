@@ -1,3 +1,11 @@
+.
+.
+_telemetry
+/
+collection
+/
+uptake
+:
 =
 =
 =
