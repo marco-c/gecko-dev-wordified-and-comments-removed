@@ -204,6 +204,20 @@ binary
 =
 binary
     
+args
+.
+logger
+=
+kwargs
+.
+pop
+(
+'
+log
+'
+None
+)
+    
 for
 k
 v
@@ -227,19 +241,6 @@ parser
 verify_usage
 (
 args
-)
-    
-args
-.
-logger
-=
-kwargs
-.
-get
-(
-'
-log
-'
 )
     
 if

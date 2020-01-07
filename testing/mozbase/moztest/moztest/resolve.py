@@ -338,6 +338,8 @@ mach_command
 :
 '
 marionette
+-
+test
 '
         
 '
