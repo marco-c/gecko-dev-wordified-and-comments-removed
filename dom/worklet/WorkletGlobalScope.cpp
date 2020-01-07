@@ -30,7 +30,11 @@ h
 #
 include
 "
-nsContentUtils
+mozilla
+/
+dom
+/
+DOMPreferences
 .
 h
 "
@@ -248,10 +252,10 @@ const
 if
 (
 !
-nsContentUtils
+DOMPreferences
 :
 :
-DOMWindowDumpEnabled
+DumpEnabled
 (
 )
 )
