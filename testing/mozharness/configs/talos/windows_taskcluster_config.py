@@ -187,21 +187,6 @@ com
 ]
     
 "
-blob_uploader_auth_file
-"
-:
-'
-C
-:
-/
-builds
-/
-oauth
-.
-txt
-'
-    
-"
 metro_harness_path_frmt
 "
 :

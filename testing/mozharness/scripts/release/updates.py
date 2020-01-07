@@ -465,22 +465,6 @@ balrog
             
 ]
             
-config
-=
-{
-                
-'
-credentials_file
-'
-:
-'
-oauth
-.
-txt
-'
-            
-}
-            
 require_config_file
 =
 require_config_file

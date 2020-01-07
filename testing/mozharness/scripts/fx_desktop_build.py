@@ -253,16 +253,6 @@ nightly_build
 :
 False
                 
-'
-balrog_credentials_file
-'
-:
-'
-oauth
-.
-txt
-'
-                
 "
 tools_repo
 "
