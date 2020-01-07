@@ -6661,11 +6661,8 @@ void
 nsWebBrowser
 :
 :
-WindowRaised
+WindowActivated
 (
-nsIWidget
-*
-aWidget
 )
 {
 #
@@ -6738,11 +6735,8 @@ void
 nsWebBrowser
 :
 :
-WindowLowered
+WindowDeactivated
 (
-nsIWidget
-*
-aWidget
 )
 {
 #
