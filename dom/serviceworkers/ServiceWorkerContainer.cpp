@@ -180,6 +180,13 @@ ServiceWorkerContainerImpl
 .
 h
 "
+#
+include
+"
+ServiceWorkerRegistration
+.
+h
+"
 namespace
 mozilla
 {

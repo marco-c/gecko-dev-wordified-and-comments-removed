@@ -205,6 +205,11 @@ UNIFIED_SOURCES
 =
 [
 '
+RemoteServiceWorkerImpl
+.
+cpp
+'
+'
 ServiceWorker
 .
 cpp
