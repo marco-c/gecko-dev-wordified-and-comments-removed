@@ -13733,9 +13733,8 @@ IsCooperativeThread
 )
 )
 ;
-if
+MOZ_RELEASE_ASSERT
 (
-!
 CorePS
 :
 :
@@ -13743,10 +13742,7 @@ Exists
 (
 )
 )
-{
-return
 ;
-}
 PSAutoLock
 lock
 (
