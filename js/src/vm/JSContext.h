@@ -101,7 +101,7 @@ namespace
 js
 {
 class
-AutoCompartment
+AutoRealm
 ;
 namespace
 jit
@@ -982,7 +982,7 @@ class
 js
 :
 :
-AutoCompartment
+AutoRealm
 ;
 public
 :

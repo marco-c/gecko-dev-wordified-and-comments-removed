@@ -767,8 +767,8 @@ cx
 )
 ;
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 otherGlobal

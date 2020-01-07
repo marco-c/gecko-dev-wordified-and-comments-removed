@@ -20348,8 +20348,8 @@ isInterpretedLazy
 )
 )
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 innerFun

@@ -2609,7 +2609,7 @@ JSContext
 *
 cx
 =
-ac
+ar
 -
 >
 context
@@ -2618,7 +2618,7 @@ context
 ;
 if
 (
-ac
+ar
 -
 >
 origin
@@ -2697,7 +2697,7 @@ clearPendingException
 (
 )
 ;
-ac
+ar
 .
 reset
 (

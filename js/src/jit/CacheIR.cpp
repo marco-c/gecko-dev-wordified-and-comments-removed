@@ -4726,8 +4726,8 @@ wrappedGlobal
 return
 false
 ;
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx_
 unwrapped
@@ -22511,8 +22511,8 @@ cx
 )
 ;
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 obj

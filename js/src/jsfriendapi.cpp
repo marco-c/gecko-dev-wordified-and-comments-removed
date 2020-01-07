@@ -4401,8 +4401,8 @@ isObject
 )
 )
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 &

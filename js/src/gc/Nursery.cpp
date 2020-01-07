@@ -4026,8 +4026,8 @@ entry
 .
 group
 ;
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 group

@@ -1043,11 +1043,11 @@ void
 js
 :
 :
-AutoCompartment
+AutoRealm
 :
 :
 ~
-AutoCompartment
+AutoRealm
 (
 int32
 )

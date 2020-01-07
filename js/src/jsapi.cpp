@@ -3924,8 +3924,8 @@ compartment
 destination
 )
 {
-AutoCompartmentUnchecked
-ac
+AutoRealmUnchecked
+ar
 (
 cx
 origobj
@@ -4008,8 +4008,8 @@ cx
 newIdentity
 )
 ;
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 newIdentity
@@ -4074,8 +4074,8 @@ cx
 newIdentity
 )
 ;
-AutoCompartmentUnchecked
-ac
+AutoRealmUnchecked
+ar
 (
 cx
 origobj
@@ -18167,8 +18167,8 @@ JSFunction
 )
 )
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 funobj
@@ -18221,8 +18221,8 @@ isInterpretedLazy
 )
 )
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 funobj
@@ -22692,8 +22692,8 @@ isInterpretedLazy
 )
 )
 {
-AutoCompartment
-funCompartment
+AutoRealm
+ar
 (
 cx
 fun
@@ -26828,9 +26828,9 @@ mozilla
 :
 Maybe
 <
-AutoCompartment
+AutoRealm
 >
-ac
+ar
 ;
 Rooted
 <
@@ -26894,7 +26894,7 @@ PromiseObject
 (
 )
 ;
-ac
+ar
 .
 emplace
 (
@@ -27102,9 +27102,9 @@ mozilla
 :
 Maybe
 <
-AutoCompartment
+AutoRealm
 >
-ac
+ar
 ;
 Rooted
 <
@@ -27175,7 +27175,7 @@ PromiseObject
 (
 )
 ;
-ac
+ar
 .
 emplace
 (

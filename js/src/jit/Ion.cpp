@@ -1145,8 +1145,8 @@ AutoLockForExclusiveAccess
 lock
 )
 {
-AutoAtomsCompartment
-ac
+AutoAtomsRealm
+ar
 (
 cx
 lock
@@ -1930,8 +1930,8 @@ lock
 cx
 )
 ;
-AutoAtomsCompartment
-ac
+AutoAtomsRealm
+ar
 (
 cx
 lock
@@ -10253,8 +10253,8 @@ unlock
 lock
 )
 ;
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 script

@@ -3892,8 +3892,8 @@ cx
 )
 )
 ;
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 scope
@@ -4980,8 +4980,8 @@ isNull
 return
 ;
 }
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 &

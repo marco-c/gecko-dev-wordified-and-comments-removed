@@ -6671,8 +6671,8 @@ PropertyIteratorObject
 )
 ;
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 obj

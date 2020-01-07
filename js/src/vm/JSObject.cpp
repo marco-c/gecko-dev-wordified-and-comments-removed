@@ -12594,8 +12594,8 @@ true
 ;
 }
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 globalObj

@@ -99,7 +99,7 @@ ok
 \
 {
 \
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -504,7 +504,7 @@ wrapper
 )
 )
 ;
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -650,7 +650,7 @@ wrapper
 )
 )
 ;
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -1037,7 +1037,7 @@ receiver
 )
 ;
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -1546,7 +1546,7 @@ cx
 )
 ;
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -1650,7 +1650,7 @@ wrapper
 )
 ;
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -1802,7 +1802,7 @@ wrapper
 )
 ;
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -1990,7 +1990,7 @@ wrapper
 )
 ;
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -2278,7 +2278,7 @@ bp
 )
 const
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -2337,7 +2337,7 @@ wrapper
 )
 const
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -2382,7 +2382,7 @@ cx
 )
 ;
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -2460,7 +2460,7 @@ cx
 )
 ;
 {
-AutoCompartment
+AutoRealm
 call
 (
 cx
@@ -3243,8 +3243,8 @@ cx
 newTarget
 )
 ;
-AutoCompartmentUnchecked
-ac
+AutoRealmUnchecked
+ar
 (
 cx
 wcompartment

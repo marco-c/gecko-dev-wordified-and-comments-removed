@@ -8876,8 +8876,8 @@ toObject
 )
 )
 ;
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 context
 (
@@ -14101,8 +14101,8 @@ isObject
 )
 )
 {
-AutoCompartment
-ac
+AutoRealm
+ar
 (
 cx
 &
