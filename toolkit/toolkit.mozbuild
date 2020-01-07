@@ -732,12 +732,6 @@ tools
 /
 profiler
 '
-'
-/
-xpfe
-/
-components
-'
 ]
 if
 CONFIG
