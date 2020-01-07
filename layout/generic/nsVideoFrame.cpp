@@ -2373,7 +2373,7 @@ IsEmpty
 )
 {
 return
-false
+true
 ;
 }
 RefPtr
@@ -2396,7 +2396,7 @@ container
 )
 {
 return
-false
+true
 ;
 }
 mozilla
@@ -2540,7 +2540,7 @@ IsEmpty
 )
 {
 return
-false
+true
 ;
 }
 VideoInfo
