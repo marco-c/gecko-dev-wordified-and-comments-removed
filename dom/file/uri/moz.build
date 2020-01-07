@@ -140,6 +140,11 @@ BlobURL
 cpp
 '
 '
+BlobURLChannel
+.
+cpp
+'
+'
 BlobURLProtocolHandler
 .
 cpp
@@ -159,6 +164,12 @@ LOCAL_INCLUDES
 dom
 /
 file
+'
+'
+/
+netwerk
+/
+base
 '
 ]
 include
