@@ -3776,6 +3776,11 @@ ourDocShell
 )
 )
 ;
+NS_ENSURE_STATE
+(
+docShellAsWin
+)
+;
 int32_t
 width
 height
