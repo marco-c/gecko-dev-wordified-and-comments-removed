@@ -55,6 +55,10 @@ files
 "
 "
     
+__test__
+=
+False
+    
 def
 _init
 (
