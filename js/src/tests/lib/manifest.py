@@ -1930,7 +1930,6 @@ test_gen
 def
 _find_all_js_files
 (
-base
 location
 )
 :
@@ -1954,7 +1953,7 @@ root
 [
 len
 (
-base
+location
 )
 +
 1
@@ -2969,7 +2968,6 @@ in
 _find_all_js_files
 (
 location
-location
 )
 :
         
@@ -3134,7 +3132,6 @@ basename
 in
 _find_all_js_files
 (
-location
 location
 )
 :
