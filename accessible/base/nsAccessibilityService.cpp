@@ -7844,6 +7844,16 @@ role
 IsEmpty
 (
 )
+|
+|
+role
+.
+EqualsLiteral
+(
+"
+none
+"
+)
 )
 return
 nullptr
