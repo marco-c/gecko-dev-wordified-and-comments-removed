@@ -51,11 +51,11 @@ Ci
 .
 nsINavHistoryQueryOptions
 .
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 name
 :
 "
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 "
 }
 ]
@@ -504,7 +504,7 @@ Ci
 .
 nsINavHistoryQueryOptions
 .
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 &
 &
 (
@@ -827,7 +827,7 @@ Ci
 .
 nsINavHistoryQueryOptions
 .
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 )
 {
 check_children_sorting

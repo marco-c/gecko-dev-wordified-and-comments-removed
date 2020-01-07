@@ -5411,7 +5411,7 @@ case
 nsINavHistoryQueryOptions
 :
 :
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 :
 rv
 =
@@ -8262,7 +8262,7 @@ SORT_BY_DATE_DESCENDING
 nsINavHistoryQueryOptions
 :
 :
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 nsINavHistoryQueryOptions
 :
 :
@@ -16669,7 +16669,7 @@ ResultType
 nsNavHistoryQueryOptions
 :
 :
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 )
 {
 resultNode

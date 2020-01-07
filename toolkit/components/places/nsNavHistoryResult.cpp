@@ -431,7 +431,7 @@ ResultType
 nsINavHistoryQueryOptions
 :
 :
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 )
 return
 QUERYUPDATE_COMPLEX_WITH_BOOKMARKS
@@ -8023,7 +8023,7 @@ resultType
 nsINavHistoryQueryOptions
 :
 :
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 |
 |
 resultType
@@ -8226,7 +8226,7 @@ ResultType
 nsINavHistoryQueryOptions
 :
 :
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 )
 {
 *
@@ -8275,7 +8275,7 @@ resultType
 nsINavHistoryQueryOptions
 :
 :
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 )
 {
 nsCOMPtr

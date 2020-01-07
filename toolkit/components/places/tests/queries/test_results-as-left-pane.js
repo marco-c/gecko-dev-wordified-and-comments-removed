@@ -115,7 +115,7 @@ Ci
 .
 nsINavHistoryQueryOptions
 .
-RESULTS_AS_TAG_QUERY
+RESULTS_AS_TAGS_ROOT
 }
 guid
 :
