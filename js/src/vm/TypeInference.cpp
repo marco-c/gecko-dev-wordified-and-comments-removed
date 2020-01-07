@@ -20705,6 +20705,14 @@ setNewScript
 this
 )
 ;
+Shape
+:
+:
+readBarrier
+(
+prefixShape
+)
+;
 initializedShape_
 =
 prefixShape
