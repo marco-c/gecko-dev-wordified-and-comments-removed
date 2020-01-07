@@ -580,9 +580,11 @@ input
 .
 getBytes
 (
-StringUtils
-.
-UTF_8
+"
+UTF
+-
+8
+"
 )
 ;
 byte
