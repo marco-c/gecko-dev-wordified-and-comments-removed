@@ -1123,6 +1123,9 @@ Tree
 (
 {
 autoExpandDepth
+preventNavigationOnArrowRight
+:
+false
 getParent
 :
 node

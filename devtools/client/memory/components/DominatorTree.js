@@ -768,6 +768,9 @@ tree
 autoExpandDepth
 :
 DOMINATOR_TREE_AUTO_EXPAND_DEPTH
+preventNavigationOnArrowRight
+:
+false
 focused
 :
 dominatorTree
