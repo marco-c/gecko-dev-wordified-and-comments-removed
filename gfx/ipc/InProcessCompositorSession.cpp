@@ -12,17 +12,6 @@ mozilla
 /
 layers
 /
-APZCTreeManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 IAPZCTreeManager
 .
 h

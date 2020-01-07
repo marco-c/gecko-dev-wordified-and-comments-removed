@@ -341,6 +341,9 @@ class
 HostLayerManager
 ;
 class
+IAPZCTreeManager
+;
+class
 LayerTransactionParent
 ;
 class
@@ -2251,7 +2254,7 @@ StopAndClearResources
 static
 already_AddRefed
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 GetAPZCTreeManager
 (

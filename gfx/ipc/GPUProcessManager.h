@@ -455,16 +455,6 @@ uint32_t
 aNamespaces
 )
 ;
-already_AddRefed
-<
-IAPZCTreeManager
->
-GetAPZCTreeManagerForLayers
-(
-uint64_t
-aLayersId
-)
-;
 void
 MapLayerTreeId
 (
