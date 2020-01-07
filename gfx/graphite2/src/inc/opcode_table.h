@@ -342,7 +342,10 @@ NEXT
 }
 {
 {
-NILOP
+do_
+(
+next_n
+)
 NILOP
 }
 1

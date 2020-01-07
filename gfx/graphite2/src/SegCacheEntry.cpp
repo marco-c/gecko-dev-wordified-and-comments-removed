@@ -112,7 +112,7 @@ m_unicode
 )
 for
 (
-size_t
+uint16
 i
 =
 0

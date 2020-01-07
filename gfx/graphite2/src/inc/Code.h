@@ -684,12 +684,9 @@ _code
 =
 dist
 /
-signed
-(
 sizeof
 (
 instr
-)
 )
 ;
 _data

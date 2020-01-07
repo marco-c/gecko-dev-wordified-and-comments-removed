@@ -2209,14 +2209,6 @@ E_CLASSESTOOBIG
 return
 ERROROFFSET
 ;
-assert
-(
-m_nClass
->
-=
-m_nLinear
-)
-;
 for
 (
 const

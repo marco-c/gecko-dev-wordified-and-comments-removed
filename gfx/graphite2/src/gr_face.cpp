@@ -921,14 +921,7 @@ face
 )
 {
 delete
-static_cast
-<
-Face
-*
->
-(
 face
-)
 ;
 }
 gr_uint16

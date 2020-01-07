@@ -1422,10 +1422,6 @@ if
 (
 !
 m_first
-|
-|
-!
-m_last
 )
 return
 ;
