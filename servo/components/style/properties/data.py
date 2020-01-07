@@ -136,6 +136,7 @@ font_variant_numeric
 font_language_override
                            
 font_feature_settings
+font_optical_sizing
 "
 "
 "
