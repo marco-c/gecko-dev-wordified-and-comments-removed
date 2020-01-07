@@ -115,6 +115,13 @@ h
 ifdef
 XP_WIN
 #
+include
+"
+LauncherProcessWin
+.
+h
+"
+#
 define
 XRE_WANT_ENVIRON
 #

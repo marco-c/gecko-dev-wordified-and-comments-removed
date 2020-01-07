@@ -502,6 +502,16 @@ MOZ_PHOENIX
 ]
 =
 True
+SOURCES
++
+=
+[
+'
+LauncherProcessWin
+.
+cpp
+'
+]
 if
 CONFIG
 [
