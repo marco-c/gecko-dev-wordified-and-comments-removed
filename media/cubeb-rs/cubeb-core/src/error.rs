@@ -90,16 +90,6 @@ code
 ffi
 :
 :
-CUBEB_ERROR
-=
->
-ErrorCode
-:
-:
-Error
-ffi
-:
-:
 CUBEB_ERROR_INVALID_FORMAT
 =
 >

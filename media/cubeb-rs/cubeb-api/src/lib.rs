@@ -60,6 +60,7 @@ Result
 SampleFormat
 State
 StreamParams
+StreamPrefs
 }
 ;
 pub
@@ -96,6 +97,16 @@ cubeb_core
 DEVICE_TYPE_INPUT
 DEVICE_TYPE_OUTPUT
 DEVICE_TYPE_UNKNOWN
+}
+;
+pub
+use
+cubeb_core
+:
+:
+{
+STREAM_PREF_LOOPBACK
+STREAM_PREF_NONE
 }
 ;
 use
