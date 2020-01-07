@@ -17483,10 +17483,10 @@ ArrayFlatMap
 JS_SELF_HOSTED_FN
 (
 "
-flatten
+flat
 "
 "
-ArrayFlatten
+ArrayFlat
 "
 0
 0

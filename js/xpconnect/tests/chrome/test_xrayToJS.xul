@@ -2351,7 +2351,7 @@ Array
 push
 (
 "
-flatten
+flat
 "
 "
 flatMap

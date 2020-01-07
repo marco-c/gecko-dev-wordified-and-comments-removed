@@ -4393,7 +4393,7 @@ A
 ;
 }
 function
-ArrayFlatten
+ArrayFlat
 (
 )
 {
