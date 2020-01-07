@@ -3299,6 +3299,10 @@ return
 nullptr
 ;
 }
+InitializeScaledFont
+(
+)
+;
 mAzureScaledFontUsedClearType
 =
 sUseClearType

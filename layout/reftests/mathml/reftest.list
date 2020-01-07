@@ -2183,15 +2183,6 @@ width
 ref
 .
 html
-fails
--
-if
-(
-webrender
-&
-&
-winWidget
-)
 =
 =
 table
@@ -2210,9 +2201,6 @@ width
 ref
 .
 html
-#
-bug
-1460259
 =
 =
 table

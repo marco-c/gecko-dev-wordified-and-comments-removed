@@ -2760,6 +2760,10 @@ return
 nullptr
 ;
 }
+InitializeScaledFont
+(
+)
+;
 mAzureScaledFont
 -
 >

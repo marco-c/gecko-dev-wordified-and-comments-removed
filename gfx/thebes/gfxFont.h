@@ -5958,6 +5958,12 @@ mApplySyntheticBold
 ;
 }
 float
+AngleForSyntheticOblique
+(
+)
+const
+;
+float
 SkewForSyntheticOblique
 (
 )
@@ -6392,6 +6398,11 @@ aTarget
 )
 =
 0
+;
+void
+InitializeScaledFont
+(
+)
 ;
 bool
 KerningDisabled
