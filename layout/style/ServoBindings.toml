@@ -2567,6 +2567,13 @@ of
 field
 into
 superclass
+"
+nsCSSCounterStyleRule_Getter
+"
+#
+thiscall
+function
+pointer
 ]
 mapped
 -

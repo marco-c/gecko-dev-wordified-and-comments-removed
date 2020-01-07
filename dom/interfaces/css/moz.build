@@ -118,11 +118,6 @@ nsIDOMCounter
 idl
 '
 '
-nsIDOMCSSCounterStyleRule
-.
-idl
-'
-'
 nsIDOMCSSFontFaceRule
 .
 idl
