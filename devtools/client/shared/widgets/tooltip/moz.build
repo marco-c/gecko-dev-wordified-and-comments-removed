@@ -142,4 +142,9 @@ VariableContentHelper
 .
 js
 '
+'
+VariableTooltipHelper
+.
+js
+'
 )
