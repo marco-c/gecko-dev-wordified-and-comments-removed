@@ -1614,7 +1614,7 @@ null
 *
 /
 void
-asyncWait
+asyncFileMetadataWait
 (
 in
 nsIFileMetadataCallback
@@ -1636,10 +1636,11 @@ a
 companion
 interface
 for
+*
 nsIAsyncFileMetadata
 :
 :
-asyncWait
+asyncFileMetadataWait
 .
 *
 /

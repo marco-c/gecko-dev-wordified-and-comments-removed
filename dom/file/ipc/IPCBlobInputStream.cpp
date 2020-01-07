@@ -1970,7 +1970,7 @@ NS_IMETHODIMP
 IPCBlobInputStream
 :
 :
-AsyncWait
+AsyncFileMetadataWait
 (
 nsIFileMetadataCallback
 *
