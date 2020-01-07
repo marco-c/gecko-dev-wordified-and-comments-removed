@@ -3690,7 +3690,7 @@ isSome
 aLoadInfo
 -
 >
-SetReservedClientInfo
+OverrideReservedClientInfoInParent
 (
 reservedClientInfo
 .
