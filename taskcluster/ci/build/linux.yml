@@ -57,7 +57,7 @@ run
 -
 time
 :
-3600
+7200
 run
 :
 using
@@ -1292,7 +1292,7 @@ run
 -
 time
 :
-3600
+7200
 env
 :
 PERFHERDER_EXTRA_OPTIONS
@@ -1626,7 +1626,7 @@ run
 -
 time
 :
-3600
+7200
 run
 :
 using
