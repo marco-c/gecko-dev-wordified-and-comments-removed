@@ -864,6 +864,7 @@ nsINamed
 {
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
+explicit
 TicklerTimer
 (
 Tickler
