@@ -163,6 +163,10 @@ gClient
 .
 listTabs
 (
+)
+.
+then
+(
 res
 =
 >

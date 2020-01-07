@@ -844,6 +844,10 @@ client
 .
 listTabs
 (
+)
+.
+then
+(
 clientDeferred
 .
 resolve
@@ -1149,6 +1153,10 @@ true
 client
 .
 listTabs
+(
+)
+.
+then
 (
 clientDeferred
 .

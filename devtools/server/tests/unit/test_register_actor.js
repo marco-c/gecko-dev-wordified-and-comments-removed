@@ -442,6 +442,10 @@ client
 .
 listTabs
 (
+)
+.
+then
+(
 onListTabs
 )
 ;

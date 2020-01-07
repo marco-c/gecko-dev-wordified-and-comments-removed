@@ -574,6 +574,10 @@ client
 .
 listTabs
 (
+)
+.
+then
+(
 (
 response
 )
@@ -1285,6 +1289,10 @@ to
 client
 .
 listTabs
+(
+)
+.
+then
 (
 response
 =

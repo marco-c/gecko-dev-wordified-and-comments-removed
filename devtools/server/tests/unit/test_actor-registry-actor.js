@@ -128,6 +128,10 @@ gClient
 .
 listTabs
 (
+)
+.
+then
+(
 (
 response
 )
@@ -251,6 +255,10 @@ gClient
 .
 listTabs
 (
+)
+.
+then
+(
 (
 {
 helloActor
@@ -358,6 +366,10 @@ testActorIsUnregistered
 gClient
 .
 listTabs
+(
+)
+.
+then
 (
 (
 {

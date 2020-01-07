@@ -1027,6 +1027,10 @@ client
 .
 listTabs
 (
+)
+.
+then
+(
 (
 response
 )

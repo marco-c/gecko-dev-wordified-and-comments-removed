@@ -443,6 +443,10 @@ gClient
 .
 listTabs
 (
+)
+.
+then
+(
 function
 onListTabs
 (

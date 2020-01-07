@@ -1156,6 +1156,10 @@ aClient
 .
 listTabs
 (
+)
+.
+then
+(
 aResponse
 =
 >

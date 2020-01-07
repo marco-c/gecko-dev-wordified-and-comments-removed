@@ -617,6 +617,10 @@ client
 .
 listTabs
 (
+)
+.
+then
+(
 response
 =
 >
