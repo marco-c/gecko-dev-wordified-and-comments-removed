@@ -195,10 +195,10 @@ resolve
 )
 ;
 const
-chromeActors
+parentProcessActors
 =
 await
-getChromeActors
+getParentProcessActors
 (
 client
 )
@@ -208,7 +208,7 @@ Assert
 ok
 (
 typeof
-chromeActors
+parentProcessActors
 .
 promisesActor
 =

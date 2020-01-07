@@ -201,11 +201,6 @@ process
 js
 '
 '
-chrome
-.
-js
-'
-'
 common
 .
 js

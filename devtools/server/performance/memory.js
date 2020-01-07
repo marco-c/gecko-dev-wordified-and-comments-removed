@@ -132,7 +132,7 @@ lazyRequireGetter
 (
 this
 "
-ChromeActor
+ParentProcessTargetActor
 "
 "
 devtools
@@ -141,7 +141,11 @@ server
 /
 actors
 /
-chrome
+targets
+/
+parent
+-
+process
 "
 true
 )
@@ -680,7 +684,7 @@ this
 .
 parent
 instanceof
-ChromeActor
+ParentProcessTargetActor
 |
 |
 this

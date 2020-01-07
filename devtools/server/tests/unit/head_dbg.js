@@ -712,7 +712,7 @@ true
 }
 )
 ;
-getChromeActors
+getParentProcessActors
 (
 client
 )
@@ -2117,7 +2117,7 @@ do_test_finished
 ;
 }
 function
-get_chrome_actors
+get_parent_process_actors
 (
 callback
 )
@@ -2191,7 +2191,7 @@ form
 ;
 }
 function
-getChromeActors
+getParentProcessActors
 (
 client
 server

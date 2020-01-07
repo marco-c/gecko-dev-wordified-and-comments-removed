@@ -112,7 +112,7 @@ visibilityswitch
 }
 }
 function
-getChromeActors
+getParentProcessActors
 (
 callback
 )
