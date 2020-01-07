@@ -56,6 +56,17 @@ jsm
 )
 ;
 const
+ACCESS_COARSE_LOCATION
+=
+"
+android
+.
+permission
+.
+ACCESS_COARSE_LOCATION
+"
+;
+const
 ACCESS_FINE_LOCATION
 =
 "
@@ -103,6 +114,9 @@ var
 RuntimePermissions
 =
 {
+ACCESS_COARSE_LOCATION
+:
+ACCESS_COARSE_LOCATION
 ACCESS_FINE_LOCATION
 :
 ACCESS_FINE_LOCATION
