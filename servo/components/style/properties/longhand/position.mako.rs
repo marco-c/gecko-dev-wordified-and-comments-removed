@@ -2261,6 +2261,16 @@ extra_prefixes
 =
 "
 moz
+:
+layout
+.
+css
+.
+prefixes
+.
+box
+-
+sizing
 webkit
 "
 spec
