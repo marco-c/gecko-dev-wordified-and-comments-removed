@@ -208,9 +208,6 @@ debian_wheezy
 debian_wheezy
 -
 updates
-debian_wheezy
--
-backports
 debian
 -
 security_wheezy
@@ -469,12 +466,6 @@ p7zip
 full
 \
 procps
-\
-pxz
-/
-wheezy
--
-backports
 \
 python
 -
