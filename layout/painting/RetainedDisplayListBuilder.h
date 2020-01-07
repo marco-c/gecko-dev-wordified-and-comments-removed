@@ -87,7 +87,7 @@ aBackstop
 )
 ;
 void
-ClearModifiedFrameProps
+ClearFramesWithProps
 (
 )
 ;
