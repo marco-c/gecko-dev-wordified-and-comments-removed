@@ -84,6 +84,10 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
+bool
+aOwnsFont
+=
+false
 const
 Color
 &
@@ -97,7 +101,7 @@ aUseFontSmoothing
 =
 true
 bool
-aOwnsFont
+aApplySyntheticBold
 =
 false
 )
@@ -242,6 +246,9 @@ mFontSmoothingBackgroundColor
 ;
 bool
 mUseFontSmoothing
+;
+bool
+mApplySyntheticBold
 ;
 typedef
 void

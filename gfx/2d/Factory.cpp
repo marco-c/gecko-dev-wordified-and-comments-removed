@@ -3164,6 +3164,8 @@ Color
 aFontSmoothingBackgroundColor
 bool
 aUseFontSmoothing
+bool
+aApplySyntheticBold
 )
 {
 return
@@ -3175,8 +3177,10 @@ ScaledFontMac
 aCGFont
 aUnscaledFont
 aSize
+false
 aFontSmoothingBackgroundColor
 aUseFontSmoothing
+aApplySyntheticBold
 )
 ;
 }
