@@ -292,6 +292,7 @@ test
 "
 '
 ]
+            
 self
 .
 patch_info
@@ -329,6 +330,7 @@ test
 "
 '
 ]
+            
 self
 .
 patch_info
@@ -533,6 +535,7 @@ test
 "
 '
 ]
+            
 self
 .
 patch_info
@@ -573,6 +576,7 @@ test
 "
 '
 ]
+            
 self
 .
 patch_info
@@ -1051,6 +1055,7 @@ PatchInfo
 (
             
 work_dir
+            
 [
 '
 update
@@ -1068,6 +1073,7 @@ updatev3
 manifest
 '
 ]
+            
 [
 '
 /
@@ -1220,6 +1226,7 @@ to_marfile_entry
 '
 shas
 '
+                                           
 self
 .
 patch_info
@@ -1286,6 +1293,7 @@ patch_filename
 '
 shas
 '
+                                  
 self
 .
 patch_info
