@@ -127,6 +127,9 @@ class
 SharedWorker
 ;
 class
+WorkerDebugger
+;
+class
 WorkerDebuggerGlobalScope
 ;
 class
@@ -149,9 +152,6 @@ WorkerThread
 BEGIN_WORKERS_NAMESPACE
 class
 WorkerControlRunnable
-;
-class
-WorkerDebugger
 ;
 class
 WorkerRunnable

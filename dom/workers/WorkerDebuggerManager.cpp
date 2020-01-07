@@ -44,7 +44,16 @@ WorkerPrivate
 .
 h
 "
-USING_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
+using
+namespace
+workers
+;
 namespace
 {
 class
@@ -230,7 +239,6 @@ WorkerDebuggerManager
 gWorkerDebuggerManager
 ;
 }
-BEGIN_WORKERS_NAMESPACE
 class
 WorkerDebuggerEnumerator
 final
@@ -1186,4 +1194,5 @@ false
 )
 ;
 }
-END_WORKERS_NAMESPACE
+}
+}
