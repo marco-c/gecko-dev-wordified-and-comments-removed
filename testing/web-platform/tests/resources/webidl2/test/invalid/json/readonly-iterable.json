@@ -15,8 +15,9 @@ parsing
 interface
 ReadonlyIterable
 :
-Invalid
-operation
+Missing
+return
+type
 "
 "
 line

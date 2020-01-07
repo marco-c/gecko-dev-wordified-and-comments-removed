@@ -19,10 +19,9 @@ Record
 key
 must
 be
-DOMString
-USVString
-or
-ByteString
+a
+string
+type
 "
 "
 line

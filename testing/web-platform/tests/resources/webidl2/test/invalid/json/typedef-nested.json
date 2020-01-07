@@ -15,8 +15,9 @@ parsing
 interface
 Widget
 :
-Invalid
-operation
+Missing
+return
+type
 "
 "
 line

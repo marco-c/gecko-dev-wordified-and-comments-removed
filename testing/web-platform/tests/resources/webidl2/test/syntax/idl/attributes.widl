@@ -54,5 +54,17 @@ unsigned
 short
 age
 ;
+/
+/
+required
+is
+an
+allowed
+attribute
+name
+attribute
+any
+required
+;
 }
 ;

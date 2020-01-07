@@ -44,11 +44,6 @@ type
 :
 null
 "
-sequence
-"
-:
-false
-"
 generic
 "
 :
@@ -70,6 +65,12 @@ idlType
 "
 long
 "
+"
+extAttrs
+"
+:
+[
+]
 }
 ]
 "
