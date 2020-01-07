@@ -2326,16 +2326,6 @@ mozconfigs
 common
 *
 '
--
-'
-mobile
-/
-android
-/
-gradle
-.
-configure
-'
 toolchain
 -
 artifact
