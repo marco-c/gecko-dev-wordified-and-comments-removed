@@ -1297,11 +1297,11 @@ aInfo
 )
 ;
 let
-performed
+bookmarkGuid
 =
 (
 "
-performed
+bookmarkGuid
 "
 in
 aInfo
@@ -1309,8 +1309,11 @@ aInfo
 &
 aInfo
 .
-performed
+bookmarkGuid
 )
+|
+|
+undefined
 ;
 batchBlockingDeferred
 .
@@ -1321,7 +1324,7 @@ resolve
 if
 (
 !
-performed
+bookmarkGuid
 &
 &
 topUndoEntry
@@ -1347,7 +1350,7 @@ reportError
 ;
 }
 return
-performed
+bookmarkGuid
 ;
 }
 loadFavicon
