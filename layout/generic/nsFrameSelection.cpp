@@ -5712,6 +5712,10 @@ editableCell
 =
 false
 ;
+mCellParent
+=
+nullptr
+;
 RefPtr
 <
 nsPresContext
