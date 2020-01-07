@@ -320,19 +320,6 @@ sync
 .
 synchronizer
 .
-ServerLocalSynchronizer
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-sync
-.
-synchronizer
-.
 Synchronizer
 ;
 import
@@ -912,7 +899,7 @@ Synchronizer
 synchronizer
 =
 new
-ServerLocalSynchronizer
+Synchronizer
 (
 )
 ;
@@ -940,7 +927,7 @@ try
 Exception
 e
 =
-TestServerLocalSynchronizer
+TestSynchronizer
 .
 doSynchronize
 (
