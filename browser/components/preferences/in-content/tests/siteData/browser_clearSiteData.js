@@ -151,6 +151,8 @@ let
 quotaUsage
 =
 await
+SiteDataTestUtils
+.
 getQuotaUsage
 (
 TEST_QUOTA_USAGE_ORIGIN
@@ -739,6 +741,8 @@ else
 quotaUsage
 =
 await
+SiteDataTestUtils
+.
 getQuotaUsage
 (
 TEST_QUOTA_USAGE_ORIGIN
