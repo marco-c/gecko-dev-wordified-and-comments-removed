@@ -47,6 +47,5 @@ eq
 ]
 ;
 then
-.
 SCRIPT
 fi

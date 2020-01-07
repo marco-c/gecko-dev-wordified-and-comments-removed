@@ -87,6 +87,17 @@ GWW92s0fBVGJmXLh8kwNkQ31hMOsaGfHIMpeLFS7Se741te7YqsHIzmBCdQs
 =
 before_install
 :
+#
+This
+needs
+be
+sourced
+as
+it
+sets
+various
+env
+vars
 -
 .
 .
