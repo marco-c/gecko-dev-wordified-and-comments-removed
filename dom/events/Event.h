@@ -135,6 +135,9 @@ class
 BeforeUnloadEvent
 ;
 class
+DragEvent
+;
+class
 EventTarget
 ;
 class
@@ -440,6 +443,17 @@ virtual
 KeyboardEvent
 *
 AsKeyboardEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+DragEvent
+*
+AsDragEvent
 (
 )
 {

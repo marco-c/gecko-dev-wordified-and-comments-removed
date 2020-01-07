@@ -375,7 +375,7 @@ aRv
 void
 GetDropEffect
 (
-nsString
+nsAString
 &
 aDropEffect
 )
@@ -391,6 +391,15 @@ mDropEffect
 )
 ;
 }
+void
+SetDropEffect
+(
+const
+nsAString
+&
+aDropEffect
+)
+;
 void
 GetEffectAllowed
 (
