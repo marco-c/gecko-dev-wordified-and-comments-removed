@@ -156,16 +156,6 @@ mHasClassInterface
 1
 ;
 bool
-mChromeOnly
-:
-1
-;
-bool
-mAllowXBL
-:
-1
-;
-bool
 mDisabled
 :
 1
