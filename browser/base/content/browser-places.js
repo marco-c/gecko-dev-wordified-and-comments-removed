@@ -2651,17 +2651,10 @@ searchBookmarks
 (
 )
 {
-if
-(
-!
 focusAndSelectUrlBar
 (
 )
-)
-{
-return
 ;
-}
 for
 (
 let
