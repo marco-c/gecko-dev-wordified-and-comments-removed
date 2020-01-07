@@ -539,13 +539,6 @@ disable
 -
 mock
 \
--
--
-revision
-{
-GECKO_HEAD_REV
-}
-\
 actions
 \
 options
