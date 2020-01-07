@@ -471,8 +471,8 @@ mApzc
 bool
 mIsPrimaryApzcHolder
 ;
-bool
-mLocked
+int
+mLockCount
 ;
 LayersId
 mLayersId
