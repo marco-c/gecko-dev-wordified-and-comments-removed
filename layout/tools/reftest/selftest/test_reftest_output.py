@@ -36,7 +36,7 @@ mozharness
 .
 mozilla
 .
-buildbot
+automation
 import
 TBPL_SUCCESS
 TBPL_WARNING
