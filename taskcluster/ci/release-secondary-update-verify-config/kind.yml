@@ -223,9 +223,7 @@ sparse
 -
 profile
 :
-update
--
-verify
+mozharness
 extra
 :
 app

@@ -66,14 +66,6 @@ base
 script
 import
 BaseScript
-from
-mozharness
-.
-base
-.
-python
-import
-VirtualenvMixin
 def
 is_triangualar
 (
@@ -274,7 +266,6 @@ class
 UpdateVerifyConfigCreator
 (
 BaseScript
-VirtualenvMixin
 )
 :
     
@@ -1636,44 +1627,11 @@ config_options
 config
 =
 {
-                
-"
-virtualenv_modules
-"
-:
-[
-                    
-"
-mozrelease
-"
-                
-]
-                
-"
-virtualenv_path
-"
-:
-"
-venv
-"
-            
 }
             
 all_actions
 =
 [
-                
-"
-create
--
-virtualenv
-"
-                
-"
-activate
--
-virtualenv
-"
                 
 "
 gather
@@ -1698,18 +1656,6 @@ config
 default_actions
 =
 [
-                
-"
-create
--
-virtualenv
-"
-                
-"
-activate
--
-virtualenv
-"
                 
 "
 gather
