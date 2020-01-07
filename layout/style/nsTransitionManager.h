@@ -1070,7 +1070,7 @@ ComputedStyle
 aNewStyle
 )
 ;
-void
+bool
 ConsiderInitiatingTransition
 (
 nsCSSPropertyID
@@ -1113,12 +1113,9 @@ mozilla
 ComputedStyle
 &
 aNewStyle
-bool
-*
-aStartedAny
 nsCSSPropertyIDSet
-*
-aWhichStarted
+&
+aPropertiesChecked
 )
 ;
 }
