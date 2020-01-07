@@ -278,9 +278,6 @@ namespace
 mozilla
 {
 class
-AddStyleSheetTransaction
-;
-class
 AutoSelectionRestorer
 ;
 class
@@ -342,9 +339,6 @@ JoinNodeTransaction
 ;
 class
 PlaceholderTransaction
-;
-class
-RemoveStyleSheetTransaction
 ;
 class
 SplitNodeResult

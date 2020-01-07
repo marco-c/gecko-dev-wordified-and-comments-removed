@@ -402,11 +402,6 @@ SplitNodeTransaction
 cpp
 '
 '
-StyleSheetTransactions
-.
-cpp
-'
-'
 TextEditor
 .
 cpp
