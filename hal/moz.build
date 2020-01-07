@@ -615,13 +615,6 @@ FallbackSwitch
 .
 cpp
 '
-'
-fallback
-/
-FallbackThreadPriority
-.
-cpp
-'
 ]
 #
 Fallbacks
