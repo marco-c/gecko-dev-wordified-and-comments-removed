@@ -740,7 +740,6 @@ firstrun_continue_to_login
 "
 :
 "
-Continue
 "
 "
 firstrun_skip_login

@@ -84,6 +84,11 @@ about
 newtab
 "
 "
+about
+:
+welcome
+"
+"
 unknown
 "
 ]
