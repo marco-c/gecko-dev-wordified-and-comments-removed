@@ -105,12 +105,12 @@ highlighterOptions
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URL
@@ -123,12 +123,12 @@ inspector
 view
 }
 =
-yield
+await
 openBoxModelView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -176,7 +176,7 @@ margins
 "
 )
 ;
-yield
+await
 testGuideOnLayoutHover
 (
 elt
@@ -203,7 +203,7 @@ borders
 "
 )
 ;
-yield
+await
 testGuideOnLayoutHover
 (
 elt
@@ -230,7 +230,7 @@ paddings
 "
 )
 ;
-yield
+await
 testGuideOnLayoutHover
 (
 elt
@@ -257,7 +257,7 @@ content
 "
 )
 ;
-yield
+await
 testGuideOnLayoutHover
 (
 elt
@@ -271,8 +271,8 @@ view
 }
 )
 ;
+async
 function
-*
 testGuideOnLayoutHover
 (
 elt
@@ -330,7 +330,7 @@ toolbox
 "
 )
 ;
-yield
+await
 inspector
 .
 toolbox
