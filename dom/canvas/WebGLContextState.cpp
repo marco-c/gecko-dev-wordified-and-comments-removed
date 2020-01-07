@@ -236,6 +236,7 @@ GLint
 const
 out_stencilBits
 )
+const
 {
 *
 out_stencilBits
@@ -777,17 +778,7 @@ LOCAL_GL_DRAW_BUFFER0
 {
 ret
 =
-gl
--
->
-Screen
-(
-)
--
->
-GetDrawBufferMode
-(
-)
+mDefaultFB_DrawBuffer0
 ;
 }
 }
@@ -1455,7 +1446,7 @@ height
 if
 (
 !
-ValidateCurFBForRead
+BindCurFBForColorRead
 (
 funcName
 &

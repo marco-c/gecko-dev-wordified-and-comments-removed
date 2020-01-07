@@ -1131,6 +1131,16 @@ workers
 '
 '
 /
+'
+#
+Allow
+including
+relpaths
+from
+root
+.
+'
+/
 dom
 /
 base

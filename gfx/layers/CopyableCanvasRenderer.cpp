@@ -710,7 +710,10 @@ mSize
 SurfaceFormat
 format
 =
-mOpaque
+frontbuffer
+-
+>
+mHasAlpha
 ?
 SurfaceFormat
 :

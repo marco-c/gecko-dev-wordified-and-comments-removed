@@ -10847,7 +10847,7 @@ if
 mContext
 -
 >
-ValidateCurFBForRead
+BindCurFBForColorRead
 (
 funcName
 &
@@ -10984,13 +10984,6 @@ dstFormat
 )
 )
 return
-;
-mContext
--
->
-OnBeforeReadCall
-(
-)
 ;
 const
 bool
@@ -11243,7 +11236,7 @@ if
 mContext
 -
 >
-ValidateCurFBForRead
+BindCurFBForColorRead
 (
 funcName
 &
@@ -11290,13 +11283,6 @@ dstFormat
 )
 )
 return
-;
-mContext
--
->
-OnBeforeReadCall
-(
-)
 ;
 bool
 uploadWillInitialize
