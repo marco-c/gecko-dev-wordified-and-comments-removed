@@ -4301,12 +4301,6 @@ get
 if
 defined
 (
-XP_WIN
-)
-&
-&
-defined
-(
 MOZ_SANDBOX
 )
 bool
@@ -4775,12 +4769,6 @@ childProcessType
 ;
 #
 if
-defined
-(
-XP_WIN
-)
-&
-&
 defined
 (
 MOZ_SANDBOX
