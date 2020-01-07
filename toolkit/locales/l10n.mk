@@ -1662,16 +1662,6 @@ LANGPACK_FILE
 (
 MAKE
 )
-multilocale
-.
-json
--
-(
-AB_CD
-)
-(
-MAKE
-)
 libs
 -
 (
