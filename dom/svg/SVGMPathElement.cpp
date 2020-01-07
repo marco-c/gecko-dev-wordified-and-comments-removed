@@ -189,7 +189,6 @@ SVGMPathElement
 SVGMPathElementBase
 nsIDOMNode
 nsIDOMElement
-nsIDOMSVGElement
 nsIMutationObserver
 )
 SVGMPathElement

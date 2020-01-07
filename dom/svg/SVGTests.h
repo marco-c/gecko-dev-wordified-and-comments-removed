@@ -34,6 +34,9 @@ nsAtom
 class
 nsStaticAtom
 ;
+class
+nsSVGElement
+;
 namespace
 mozilla
 {
@@ -220,6 +223,15 @@ IsInChromeDoc
 (
 )
 const
+=
+0
+;
+virtual
+nsSVGElement
+*
+AsSVGElement
+(
+)
 =
 0
 ;

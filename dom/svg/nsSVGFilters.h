@@ -798,7 +798,7 @@ aSources
 )
 override
 ;
-NS_FORWARD_NSIDOMSVGELEMENT
+NS_FORWARD_NSIDOMELEMENT
 (
 nsSVGFELightingElementBase
 :

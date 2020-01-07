@@ -78,6 +78,17 @@ IsInChromeDoc
 const
 override
 ;
+nsSVGElement
+*
+AsSVGElement
+(
+)
+final
+{
+return
+this
+;
+}
 }
 ;
 }

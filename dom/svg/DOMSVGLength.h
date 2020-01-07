@@ -368,7 +368,7 @@ get
 return
 static_cast
 <
-nsIDOMSVGElement
+nsIDOMElement
 *
 >
 (

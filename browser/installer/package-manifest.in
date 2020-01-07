@@ -4482,13 +4482,6 @@ RESPATH
 /
 components
 /
-dom_svg
-.
-xpt
-RESPATH
-/
-components
-/
 dom_smil
 .
 xpt

@@ -105,7 +105,7 @@ h
 #
 include
 "
-nsIDOMSVGElement
+nsIDOMElement
 .
 h
 "
@@ -237,7 +237,7 @@ nsSVGElement
 public
 nsSVGElementBase
 public
-nsIDOMSVGElement
+nsIDOMElement
 {
 protected
 :
@@ -565,7 +565,7 @@ sMaskMap
 [
 ]
 ;
-NS_DECL_NSIDOMSVGELEMENT
+NS_DECL_NSIDOMELEMENT
 NS_IMPL_FROMCONTENT
 (
 nsSVGElement

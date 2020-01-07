@@ -130,7 +130,6 @@ SVGScriptElement
 SVGScriptElementBase
 nsIDOMNode
 nsIDOMElement
-nsIDOMSVGElement
 nsIScriptLoaderObserver
 nsIScriptElement
 nsIMutationObserver
