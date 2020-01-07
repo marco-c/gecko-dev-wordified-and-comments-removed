@@ -1257,6 +1257,12 @@ slice
 if
 (
 !
+AppConstants
+.
+NIGHTLY_BUILD
+|
+|
+!
 this
 .
 isRecentBuild
