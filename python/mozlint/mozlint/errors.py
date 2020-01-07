@@ -2,8 +2,6 @@ from
 __future__
 import
 absolute_import
-import
-os
 class
 LintException
 (
@@ -80,14 +78,7 @@ self
 .
 format
 (
-os
-.
 path
-.
-basename
-(
-path
-)
 message
 )
 )
