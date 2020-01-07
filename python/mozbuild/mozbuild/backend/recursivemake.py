@@ -3283,6 +3283,21 @@ pp
 %
 first_output
             
+stub_file
+=
+"
+(
+MDDEPDIR
+)
+/
+%
+s
+.
+stub
+"
+%
+first_output
+            
 if
 obj
 .
@@ -3612,7 +3627,7 @@ n
 %
 (
 tier
-first_output
+stub_file
 )
 )
                 
@@ -3622,13 +3637,6 @@ in
 outputs
 :
                     
-if
-output
-!
-=
-first_output
-:
-                        
 backend_file
 .
 write
@@ -3646,7 +3654,7 @@ n
 %
 (
 output
-first_output
+stub_file
 )
 )
                     
@@ -3665,6 +3673,23 @@ n
 '
 %
 output
+)
+                
+backend_file
+.
+write
+(
+'
+GARBAGE
++
+=
+%
+s
+\
+n
+'
+%
+stub_file
 )
                 
 backend_file
@@ -3692,7 +3717,7 @@ write
 "
 "
 {
-output
+stub
 }
 :
 {
@@ -3738,11 +3763,19 @@ MDDEPDIR
 dep_file
 }
 {
+stub
+}
+{
 inputs
 }
 {
 flags
 }
+)
+\
+t
+(
+TOUCH
 )
 "
 "
@@ -3750,6 +3783,10 @@ flags
 .
 format
 (
+stub
+=
+stub_file
+           
 output
 =
 first_output
