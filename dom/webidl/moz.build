@@ -3950,6 +3950,11 @@ Location
 webidl
 '
 '
+MediaCapabilities
+.
+webidl
+'
+'
 MediaDeviceInfo
 .
 webidl
