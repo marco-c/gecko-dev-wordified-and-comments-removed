@@ -464,6 +464,9 @@ bool
 allowInsecureRedirectToDataURI
 ;
 bool
+skipContentPolicyCheckForWebRequest
+;
+bool
 forceInheritPrincipalDropped
 ;
 uint64_t
