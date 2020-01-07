@@ -62,7 +62,7 @@ shared
 /
 components
 /
-Tree
+VirtualizedTree
 "
 )
 )
