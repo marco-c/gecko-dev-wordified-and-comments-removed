@@ -240,11 +240,14 @@ gfxFloat
 aWidth
 )
 ;
-FT_Fixed
+bool
 GetFTGlyphAdvance
 (
 uint16_t
 aGID
+int32_t
+*
+aWidth
 )
 ;
 void
