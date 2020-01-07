@@ -1154,19 +1154,6 @@ case
 eventTimings
 "
 :
-if
-(
-typeof
-networkInfo
-.
-totalTime
-!
-=
-"
-undefined
-"
-)
-{
 this
 .
 pushRequestToQueue
@@ -1181,7 +1168,6 @@ totalTime
 }
 )
 ;
-}
 await
 this
 .
