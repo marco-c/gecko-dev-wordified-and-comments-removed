@@ -4621,9 +4621,6 @@ SpeechSynthesisErrorEvent
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
@@ -4634,9 +4631,6 @@ SpeechSynthesisEvent
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
@@ -4647,9 +4641,6 @@ SpeechSynthesis
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
@@ -4660,9 +4651,6 @@ SpeechSynthesisUtterance
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
@@ -4673,9 +4661,6 @@ SpeechSynthesisVoice
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
