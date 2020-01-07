@@ -64,15 +64,6 @@ MPL
 DevToolsModules
 (
 '
-app
--
-actor
--
-front
-.
-js
-'
-'
 Devices
 .
 jsm
