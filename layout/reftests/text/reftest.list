@@ -471,14 +471,6 @@ fails
 if
 (
 cocoaWidget
-|
-|
-(
-winWidget
-&
-&
-dwrite
-)
 )
 =
 =
