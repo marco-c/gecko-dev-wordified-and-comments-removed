@@ -99,8 +99,6 @@ latest
 cbindgen
 using
 cargo
-+
-nightly
 install
 -
 -
@@ -143,6 +141,12 @@ library
 /
 rust
 /
+-
+-
+lockfile
+Cargo
+.
+lock
 -
 -
 crate
