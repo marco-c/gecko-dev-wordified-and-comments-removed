@@ -37,7 +37,7 @@ __file__
 )
 MAX_DEPENDENCIES
 =
-100
+99
 fast
 =
 False
