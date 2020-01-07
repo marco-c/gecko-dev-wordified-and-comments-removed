@@ -1414,13 +1414,10 @@ correct
 info
 .
 counter
-equalTo
-(
-forEachCall
+isOneOf
 (
 1
 2
-)
 )
 )
 assertThat

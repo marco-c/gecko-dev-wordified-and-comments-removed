@@ -2494,10 +2494,12 @@ GeckoSession
 >
 )
 {
-var
+val
 newSession
 =
-GeckoSession
+sessionRule
+.
+createClosedSession
 (
 session
 .
