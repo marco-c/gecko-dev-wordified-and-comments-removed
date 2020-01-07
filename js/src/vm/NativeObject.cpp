@@ -9925,8 +9925,9 @@ length
 return
 result
 .
-succeed
+failSoft
 (
+JSMSG_BAD_INDEX
 )
 ;
 }
@@ -12988,6 +12989,7 @@ index
 <
 len
 )
+{
 TypedArrayObject
 :
 :
@@ -13011,6 +13013,15 @@ result
 .
 succeed
 (
+)
+;
+}
+return
+result
+.
+failSoft
+(
+JSMSG_BAD_INDEX
 )
 ;
 }
