@@ -6841,6 +6841,14 @@ return
 cacheKind_
 ;
 }
+static
+constexpr
+char
+*
+NotAttached
+=
+nullptr
+;
 }
 ;
 enum
