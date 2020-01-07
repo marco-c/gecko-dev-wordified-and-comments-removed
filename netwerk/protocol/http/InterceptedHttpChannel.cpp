@@ -582,8 +582,6 @@ get
 -
 1
 esc_OnlyNonASCII
-|
-esc_Spaces
 locationBuf
 )
 )

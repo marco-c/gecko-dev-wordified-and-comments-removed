@@ -1514,8 +1514,6 @@ name
 1
 esc_OnlyNonASCII
 |
-esc_Spaces
-|
 esc_AlwaysCopy
 name
 )
