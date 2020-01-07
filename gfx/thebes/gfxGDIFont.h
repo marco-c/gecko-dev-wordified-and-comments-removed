@@ -346,7 +346,7 @@ uint32_t
 mSpaceGlyph
 ;
 bool
-mNeedsBold
+mNeedsSyntheticBold
 ;
 mozilla
 :

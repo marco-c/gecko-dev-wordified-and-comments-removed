@@ -225,7 +225,7 @@ mScriptCache
 nullptr
 )
 {
-mNeedsBold
+mNeedsSyntheticBold
 =
 aFontStyle
 -
@@ -895,7 +895,7 @@ mAdjustedSize
 }
 if
 (
-mNeedsBold
+mNeedsSyntheticBold
 &
 &
 GetFontEntry
@@ -2609,7 +2609,7 @@ else
 {
 weight
 =
-mNeedsBold
+mNeedsSyntheticBold
 ?
 700
 :
@@ -2635,7 +2635,7 @@ IsSingle
 ;
 weight
 =
-mNeedsBold
+mNeedsSyntheticBold
 ?
 700
 :
