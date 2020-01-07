@@ -151,12 +151,6 @@ android
 "
     
 "
-is_release_or_beta
-"
-:
-True
-    
-"
 build_target
 "
 :
