@@ -320,15 +320,6 @@ h
 #
 include
 "
-wasm
-/
-WasmSignalHandlers
-.
-h
-"
-#
-include
-"
 gc
 /
 GC
@@ -2856,7 +2847,10 @@ unlock
 (
 )
 ;
-InterruptRunningJitCode
+jit
+:
+:
+InterruptRunningCode
 (
 this
 )

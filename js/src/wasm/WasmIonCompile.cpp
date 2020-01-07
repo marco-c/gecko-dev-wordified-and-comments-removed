@@ -1107,10 +1107,6 @@ return
 false
 ;
 }
-addInterruptCheck
-(
-)
-;
 return
 true
 ;
@@ -5716,16 +5712,6 @@ addInterruptCheck
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-wasm
-:
-:
-HaveSignalHandlers
-(
-)
-)
-;
 }
 MDefinition
 *
