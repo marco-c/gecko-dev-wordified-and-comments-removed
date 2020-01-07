@@ -60,11 +60,11 @@ IntRect
 aPictureRect
 )
 ;
+virtual
 ~
 TextureWrapperImage
 (
 )
-override
 ;
 gfx
 :
@@ -73,6 +73,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 ;
 gfx
@@ -82,6 +83,7 @@ IntRect
 GetPictureRect
 (
 )
+const
 override
 ;
 already_AddRefed

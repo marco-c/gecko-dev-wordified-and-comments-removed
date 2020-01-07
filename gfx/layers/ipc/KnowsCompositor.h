@@ -365,6 +365,7 @@ int32_t
 GetSerial
 (
 )
+const
 {
 return
 mSerial

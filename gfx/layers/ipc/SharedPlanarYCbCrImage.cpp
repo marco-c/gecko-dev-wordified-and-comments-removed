@@ -259,6 +259,7 @@ SharedPlanarYCbCrImage
 GetBuffer
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -611,6 +612,7 @@ SharedPlanarYCbCrImage
 IsValid
 (
 )
+const
 {
 return
 mTextureClient

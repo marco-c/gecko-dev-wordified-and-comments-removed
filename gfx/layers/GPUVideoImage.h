@@ -154,11 +154,11 @@ get
 )
 ;
 }
+virtual
 ~
 GPUVideoImage
 (
 )
-override
 {
 }
 gfx
@@ -168,6 +168,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 return
@@ -209,7 +210,6 @@ AsGPUVideoTextureData
 }
 public
 :
-virtual
 already_AddRefed
 <
 gfx
@@ -249,7 +249,6 @@ GetAsSourceSurface
 )
 ;
 }
-virtual
 TextureClient
 *
 GetTextureClient

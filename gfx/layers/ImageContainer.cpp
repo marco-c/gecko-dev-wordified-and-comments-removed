@@ -2966,6 +2966,7 @@ PlanarYCbCrImage
 GetOffscreenFormat
 (
 )
+const
 {
 return
 mOffscreenFormat
@@ -3273,6 +3274,7 @@ NVImage
 GetSize
 (
 )
+const
 {
 return
 mSize
@@ -3285,6 +3287,7 @@ NVImage
 GetPictureRect
 (
 )
+const
 {
 return
 mData
@@ -3735,6 +3738,7 @@ NVImage
 IsValid
 (
 )
+const
 {
 return
 !

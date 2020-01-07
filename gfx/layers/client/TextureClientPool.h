@@ -131,6 +131,7 @@ final
 public
 TextureClientAllocator
 {
+virtual
 ~
 TextureClientPool
 (
@@ -205,7 +206,6 @@ ShrinkToMaximumSize
 (
 )
 ;
-virtual
 void
 ReportClientLost
 (

@@ -106,7 +106,6 @@ SharedPlanarYCbCrImage
 ;
 public
 :
-virtual
 TextureClient
 *
 GetTextureClient
@@ -117,15 +116,14 @@ aForwarder
 )
 override
 ;
-virtual
 uint8_t
 *
 GetBuffer
 (
 )
+const
 override
 ;
-virtual
 already_AddRefed
 <
 gfx
@@ -138,7 +136,6 @@ GetAsSourceSurface
 )
 override
 ;
-virtual
 bool
 CopyData
 (
@@ -149,7 +146,6 @@ aData
 )
 override
 ;
-virtual
 bool
 AdoptData
 (
@@ -160,7 +156,6 @@ aData
 )
 override
 ;
-virtual
 bool
 Allocate
 (
@@ -169,14 +164,13 @@ PlanarYCbCrData
 aData
 )
 ;
-virtual
 bool
 IsValid
 (
 )
+const
 override
 ;
-virtual
 size_t
 SizeOfIncludingThis
 (
@@ -198,7 +192,6 @@ aMallocSizeOf
 )
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (

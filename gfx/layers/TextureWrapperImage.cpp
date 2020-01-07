@@ -69,6 +69,7 @@ TextureWrapperImage
 GetSize
 (
 )
+const
 {
 return
 mTextureClient
@@ -89,6 +90,7 @@ TextureWrapperImage
 GetPictureRect
 (
 )
+const
 {
 return
 mPictureRect

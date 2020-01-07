@@ -97,6 +97,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 return
@@ -123,7 +124,6 @@ GetDevicePixelHeight
 )
 ;
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -136,7 +136,6 @@ GetAsSourceSurface
 )
 override
 ;
-virtual
 TextureClient
 *
 GetTextureClient
@@ -147,7 +146,6 @@ aForwarder
 )
 override
 ;
-virtual
 MacIOSurfaceImage
 *
 AsMacIOSurfaceImage

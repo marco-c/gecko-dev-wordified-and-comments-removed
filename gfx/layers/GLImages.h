@@ -85,7 +85,6 @@ aFormat
 )
 {
 }
-virtual
 already_AddRefed
 <
 gfx
@@ -149,6 +148,7 @@ IntSize
 GetSize
 (
 )
+const
 override
 {
 return
@@ -188,7 +188,6 @@ return
 mOriginPos
 ;
 }
-virtual
 already_AddRefed
 <
 gfx

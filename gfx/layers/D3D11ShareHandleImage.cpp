@@ -338,6 +338,7 @@ D3D11ShareHandleImage
 GetSize
 (
 )
+const
 {
 return
 mSize
