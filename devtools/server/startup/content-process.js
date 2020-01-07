@@ -69,9 +69,11 @@ devtools
 /
 server
 /
+startup
+/
 content
 -
-server
+process
 .
 jsm
 "
