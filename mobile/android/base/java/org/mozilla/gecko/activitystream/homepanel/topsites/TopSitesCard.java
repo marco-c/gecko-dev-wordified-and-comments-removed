@@ -374,7 +374,7 @@ null
 return
 onCardLongClickListener
 .
-onClick
+onLongClick
 (
 topSite
 absolutePosition
