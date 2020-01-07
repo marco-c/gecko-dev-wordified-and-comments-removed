@@ -483,6 +483,9 @@ mMaxValue
 ;
 if
 (
+std
+:
+:
 abs
 (
 value
