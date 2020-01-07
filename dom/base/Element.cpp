@@ -16746,6 +16746,10 @@ nsIFrame
 :
 IN_CSS_UNITS
 )
+.
+GetMatrix
+(
+)
 ;
 }
 DOMMatrixReadOnly
@@ -16831,6 +16835,10 @@ nsIFrame
 :
 IN_CSS_UNITS
 )
+.
+GetMatrix
+(
+)
 ;
 }
 DOMMatrixReadOnly
@@ -16910,6 +16918,10 @@ nsIFrame
 :
 :
 IN_CSS_UNITS
+)
+.
+GetMatrix
+(
 )
 ;
 }

@@ -387,7 +387,7 @@ transform
 ;
 }
 static
-Matrix4x4
+Matrix4x4Flagged
 GetTransformForInvalidation
 (
 Layer
@@ -437,7 +437,7 @@ IntRect
 &
 aRect
 const
-Matrix4x4
+Matrix4x4Flagged
 &
 aTransform
 )
@@ -545,7 +545,7 @@ nsIntRegion
 &
 aSource
 const
-Matrix4x4
+Matrix4x4Flagged
 &
 aTransform
 )
@@ -1810,7 +1810,7 @@ mAncestorMaskLayers
 nsIntRegion
 mVisibleRegion
 ;
-Matrix4x4
+Matrix4x4Flagged
 mTransform
 ;
 float
@@ -2745,6 +2745,10 @@ Transform
 GetTransformForInvalidation
 (
 mLayer
+)
+.
+GetMatrix
+(
 )
 )
 ;

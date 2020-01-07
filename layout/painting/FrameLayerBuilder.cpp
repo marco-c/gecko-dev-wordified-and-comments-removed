@@ -12902,7 +12902,7 @@ SimplifyOutward
 }
 Maybe
 <
-Matrix4x4
+Matrix4x4Flagged
 >
 matrixCache
 ;
@@ -25770,7 +25770,7 @@ GetResolution
 (
 )
 ;
-Matrix4x4
+Matrix4x4Flagged
 transform
 =
 Matrix4x4
