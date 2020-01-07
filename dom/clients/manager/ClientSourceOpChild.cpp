@@ -167,6 +167,7 @@ target
 __func__
 [
 this
+promise
 ]
 (
 const
@@ -202,6 +203,7 @@ aResult
 }
 [
 this
+promise
 ]
 (
 nsresult
