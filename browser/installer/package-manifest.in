@@ -515,14 +515,6 @@ endif
 endif
 #
 ifdef
-MOZ_ICU_DATA_ARCHIVE
-RESPATH
-/
-ICU_DATA_FILE
-#
-endif
-#
-ifdef
 MOZ_GTK3
 BINPATH
 /
