@@ -250,6 +250,11 @@ MOZ_ASSERT
 IsDynamicAtom
 (
 )
+|
+|
+IsHTML5Atom
+(
+)
 )
 ;
 return
@@ -360,6 +365,7 @@ mHash
 ;
 char16_t
 *
+const
 mString
 ;
 }
