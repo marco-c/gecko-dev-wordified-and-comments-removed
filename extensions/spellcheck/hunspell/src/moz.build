@@ -136,7 +136,11 @@ variable
 is
 referenced
 in
-configure
+mozilla
+-
+config
+.
+h
 .
 in
 .
@@ -144,9 +148,9 @@ Make
 sure
 to
 change
+#
 that
 file
-#
 too
 if
 you
