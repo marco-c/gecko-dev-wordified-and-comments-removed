@@ -285,7 +285,6 @@ getSwatchColorPickerTooltip
 onSetGridOverlayColor
 onShowGridAreaHighlight
 onShowGridCellHighlight
-onShowGridLineNamesHighlight
 onToggleGridHighlighter
 onToggleShowGridAreas
 onToggleShowGridLineNumbers
@@ -318,7 +317,6 @@ onShowBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 onShowGridAreaHighlight
 onShowGridCellHighlight
-onShowGridLineNamesHighlight
 onToggleFlexboxHighlighter
 onToggleGeometryEditor
 onToggleGridHighlighter
