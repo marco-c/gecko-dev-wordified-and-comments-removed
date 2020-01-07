@@ -876,6 +876,12 @@ nsRect
 >
 mDestRects
 ;
+float
+mOpacity
+;
+bool
+mHandleOpacity
+;
 }
 ;
 class
