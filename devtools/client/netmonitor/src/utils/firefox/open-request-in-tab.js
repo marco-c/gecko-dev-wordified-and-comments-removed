@@ -47,7 +47,9 @@ devtools
 function
 openRequestInTab
 (
-request
+url
+method
+requestPostData
 )
 {
 let
@@ -67,12 +69,8 @@ chromeWindowType
 let
 rawData
 =
-request
-.
 requestPostData
 ?
-request
-.
 requestPostData
 .
 postData
@@ -172,8 +170,6 @@ gBrowser
 .
 addTab
 (
-request
-.
 url
 null
 null
