@@ -111,8 +111,16 @@ class
 PrincipalInfo
 ;
 }
+namespace
+dom
+{
+namespace
+workers
+{
+class
+WorkerPrivate
+;
 }
-BEGIN_WORKERS_NAMESPACE
 struct
 WorkerLoadInfo
 {
@@ -411,6 +419,9 @@ endif
 bool
 ProxyReleaseMainThreadObjects
 (
+workers
+:
+:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -419,6 +430,9 @@ aWorkerPrivate
 bool
 ProxyReleaseMainThreadObjects
 (
+workers
+:
+:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -432,6 +446,7 @@ aLoadGroupToCancel
 ;
 }
 ;
-END_WORKERS_NAMESPACE
+}
+}
 #
 endif

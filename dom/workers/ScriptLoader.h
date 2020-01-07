@@ -46,11 +46,15 @@ mozilla
 class
 ErrorResult
 ;
-}
-BEGIN_WORKERS_NAMESPACE
+namespace
+dom
+{
 struct
 WorkerLoadInfo
 ;
+}
+}
+BEGIN_WORKERS_NAMESPACE
 enum
 WorkerScriptType
 {
