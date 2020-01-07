@@ -314,7 +314,7 @@ jsm
 const
 HIGHLIGHTS_MAX_LENGTH
 =
-9
+16
 ;
 const
 MANY_EXTRA_LENGTH

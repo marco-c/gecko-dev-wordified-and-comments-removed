@@ -320,6 +320,13 @@ sinon
 stub
 (
 )
+OpenBrowserWindow
+:
+sinon
+.
+stub
+(
+)
 }
 }
 ;
