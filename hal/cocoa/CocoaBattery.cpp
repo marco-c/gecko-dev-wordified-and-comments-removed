@@ -970,6 +970,15 @@ kIOPSCurrentCapacityKey
 )
 )
 ;
+if
+(
+!
+cfRef
+)
+{
+continue
+;
+}
 :
 :
 CFNumberGetValue
