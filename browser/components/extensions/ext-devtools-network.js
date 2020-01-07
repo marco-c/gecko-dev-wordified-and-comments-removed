@@ -49,10 +49,7 @@ fire
 let
 listener
 =
-(
-event
 data
-)
 =
 >
 {

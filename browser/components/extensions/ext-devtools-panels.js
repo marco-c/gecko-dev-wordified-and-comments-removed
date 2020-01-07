@@ -668,7 +668,6 @@ id
 async
 onToolboxPanelSelect
 (
-what
 id
 )
 {
@@ -1566,7 +1565,6 @@ true
 }
 onSelected
 (
-event
 )
 {
 this
@@ -1868,7 +1866,6 @@ true
 }
 onSidebarCreated
 (
-evt
 sidebar
 )
 {
@@ -1911,7 +1908,6 @@ _lazySidebarInit
 }
 onSidebarSelect
 (
-what
 id
 )
 {
