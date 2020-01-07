@@ -108,6 +108,7 @@ blockID
 "
 )
 ;
+async
 function
 getAddonBlocklistURL
 (
@@ -117,6 +118,7 @@ addon
 let
 entry
 =
+await
 Services
 .
 blocklist
@@ -2438,6 +2440,7 @@ true
 ;
 equal
 (
+await
 getAddonBlocklistURL
 (
 addons
@@ -2458,6 +2461,7 @@ id
 ;
 equal
 (
+await
 getAddonBlocklistURL
 (
 addons
@@ -2478,6 +2482,7 @@ id
 ;
 equal
 (
+await
 getAddonBlocklistURL
 (
 addons
@@ -2498,6 +2503,7 @@ id
 ;
 equal
 (
+await
 getAddonBlocklistURL
 (
 addons
@@ -2518,6 +2524,7 @@ id
 ;
 equal
 (
+await
 getAddonBlocklistURL
 (
 addons
