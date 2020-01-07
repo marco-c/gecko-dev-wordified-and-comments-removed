@@ -299,6 +299,10 @@ devtools
 /
 server
 /
+actors
+/
+inspector
+/
 css
 -
 logic
