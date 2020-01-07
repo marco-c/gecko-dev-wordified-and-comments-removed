@@ -183,14 +183,6 @@ pref
 *
 *
 "
-"
-mobile
-/
-android
-/
-*
-*
-"
 ]
 "
 rules
