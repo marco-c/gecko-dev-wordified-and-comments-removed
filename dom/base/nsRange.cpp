@@ -5024,12 +5024,8 @@ eATTRIBUTE
 aRoot
 -
 >
-IsNodeOfType
+IsDocumentFragment
 (
-nsINode
-:
-:
-eDOCUMENT_FRAGMENT
 )
 |
 |

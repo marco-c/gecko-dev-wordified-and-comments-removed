@@ -2108,12 +2108,8 @@ aNode
 mNode
 -
 >
-IsNodeOfType
+IsDocumentFragment
 (
-nsINode
-:
-:
-eDOCUMENT_FRAGMENT
 )
 )
 {

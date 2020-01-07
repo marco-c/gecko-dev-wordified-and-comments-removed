@@ -151,13 +151,7 @@ aFlags
 const
 {
 return
-!
-(
-aFlags
-&
-~
-eDOCUMENT_FRAGMENT
-)
+false
 ;
 }
 #

@@ -55,7 +55,13 @@ ReleaseStatics
 void
 Sanitize
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+DocumentFragment
 *
 aFragment
 )
