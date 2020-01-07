@@ -7949,7 +7949,7 @@ OwnerDoc
 )
 -
 >
-HasBeenUserActivated
+HasBeenUserGestureActivated
 (
 )
 :

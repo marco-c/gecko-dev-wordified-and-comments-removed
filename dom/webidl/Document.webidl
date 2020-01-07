@@ -3557,7 +3557,7 @@ Document
 ChromeOnly
 ]
 void
-notifyUserActivation
+notifyUserGestureActivation
 (
 )
 ;

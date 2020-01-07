@@ -3733,7 +3733,7 @@ doc
 doc
 -
 >
-HasBeenUserActivated
+HasBeenUserGestureActivated
 (
 )
 )
@@ -3918,7 +3918,7 @@ eTouchEnd
 doc
 -
 >
-NotifyUserActivation
+NotifyUserGestureActivation
 (
 )
 ;
