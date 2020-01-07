@@ -1151,8 +1151,6 @@ gecko
 testing
 /
 geckodriver
-/
-*
 .
 [
 README
