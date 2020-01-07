@@ -2381,6 +2381,12 @@ adb
 return
 False
         
+self
+.
+_restart_adbd
+(
+)
+        
 boot_ok
 =
 self
