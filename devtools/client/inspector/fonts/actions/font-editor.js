@@ -86,6 +86,18 @@ value
 updateFontEditor
 (
 fonts
+families
+=
+{
+used
+:
+[
+]
+notUsed
+:
+[
+]
+}
 properties
 =
 {
@@ -98,6 +110,7 @@ type
 :
 UPDATE_EDITOR_STATE
 fonts
+families
 properties
 }
 ;

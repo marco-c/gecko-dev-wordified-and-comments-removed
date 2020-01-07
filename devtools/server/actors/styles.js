@@ -1338,6 +1338,14 @@ CSSFamilyName
 font
 .
 CSSFamilyName
+CSSGeneric
+:
+font
+.
+CSSGeneric
+|
+|
+null
 srcIndex
 :
 font
