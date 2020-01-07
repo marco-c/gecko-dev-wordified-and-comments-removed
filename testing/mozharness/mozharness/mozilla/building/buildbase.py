@@ -11510,6 +11510,11 @@ omni
 .
 ja
 '
+'
+xul
+.
+dll
+'
 ]
         
 installer
