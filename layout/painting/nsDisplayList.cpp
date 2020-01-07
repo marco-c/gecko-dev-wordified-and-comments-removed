@@ -33489,6 +33489,13 @@ const
 if
 (
 !
+HasDifferentFrame
+(
+aItem
+)
+|
+|
+!
 HasSameTypeAndClip
 (
 aItem
@@ -45925,6 +45932,13 @@ const
 {
 if
 (
+!
+HasDifferentFrame
+(
+aItem
+)
+|
+|
 !
 HasSameTypeAndClip
 (
