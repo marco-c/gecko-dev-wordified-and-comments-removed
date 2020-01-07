@@ -1,4 +1,4 @@
-52579
+52616
 0
 /
 nm
@@ -4373,6 +4373,9 @@ Billy
 /
 M
 Bimini
+/
+M
+Bing
 /
 M
 Bink
@@ -16565,6 +16568,7 @@ IDE
 IE
 IED
 IEEE
+IIRC
 IKEA
 /
 M
@@ -19959,6 +19963,7 @@ SM
 Laplace
 /
 M
+Laplacian
 Lapland
 /
 MR
@@ -27678,6 +27683,9 @@ M
 Peugeot
 /
 M
+Peyronie
+'
+s
 Peyton
 /
 M
@@ -41711,6 +41719,9 @@ antidemocratic
 antidepressant
 /
 MS
+antiderivative
+/
+S
 antidote
 /
 MS
@@ -43411,6 +43422,9 @@ asymmetry
 /
 SM
 asymptomatic
+asymptote
+/
+S
 asymptotic
 asymptotically
 asynchronicity
@@ -44483,6 +44497,9 @@ M
 bad
 /
 MYP
+badass
+/
+S
 badder
 baddest
 baddie
@@ -55610,6 +55627,8 @@ M
 colliery
 /
 SM
+collinear
+collinearity
 collision
 /
 SM
@@ -60639,6 +60658,7 @@ M
 cyanide
 /
 M
+cyanobacteria
 cyber
 cyberbully
 /
@@ -61522,6 +61542,9 @@ decided
 /
 Y
 deciduous
+decile
+/
+S
 deciliter
 /
 MS
@@ -63372,6 +63395,7 @@ differences
 different
 /
 IY
+differentiable
 differential
 /
 SM
@@ -63826,7 +63850,7 @@ disbandment
 M
 disbarment
 /
-M
+MS
 disbelieving
 /
 Y
@@ -69318,6 +69342,8 @@ DSG
 euthenics
 /
 M
+eutrophic
+eutrophication
 evacuate
 /
 XDSGN
@@ -70469,6 +70495,7 @@ extravaganza
 /
 MS
 extravehicular
+extrema
 extreme
 /
 PMYTRS
@@ -70484,6 +70511,9 @@ MS
 extremity
 /
 SM
+extremum
+/
+S
 extricable
 /
 I
@@ -76838,6 +76868,9 @@ M
 glockenspiel
 /
 SM
+glom
+/
+SDG
 gloom
 /
 M
@@ -85437,6 +85470,7 @@ MS
 integral
 /
 SMY
+integrand
 integrate
 /
 AEVNGSD
@@ -85800,6 +85834,7 @@ U
 interpreter
 /
 MS
+interquartile
 interracial
 interred
 /
@@ -86117,6 +86152,7 @@ SMDRZG
 inverter
 /
 M
+invertible
 invest
 /
 ASDGL
@@ -86491,6 +86527,7 @@ isometrically
 isometrics
 /
 M
+isometry
 isomorphic
 isosceles
 isotherm
@@ -89205,6 +89242,9 @@ SM
 leach
 /
 DSG
+leachate
+/
+S
 lead
 /
 MDNRSZG
@@ -96128,6 +96168,7 @@ monomaniacal
 monomer
 /
 SM
+monomial
 mononucleosis
 /
 M
@@ -97046,6 +97087,7 @@ multitude
 /
 SM
 multitudinous
+multivariable
 multivariate
 multiverse
 /
@@ -98723,6 +98765,9 @@ M
 nitroglycerine
 /
 M
+nitty
+-
+gritty
 nitwit
 /
 MS
@@ -99100,6 +99145,7 @@ SM
 nonnative
 /
 MS
+nonnegative
 nonnegotiable
 nonnuclear
 nonnumerical
@@ -99170,6 +99216,7 @@ nonracial
 nonradioactive
 nonrandom
 nonreactive
+nonreal
 nonreciprocal
 /
 SM
@@ -100337,6 +100384,10 @@ octal
 octane
 /
 MS
+octant
+/
+S
+octantal
 octave
 /
 MS
@@ -100901,6 +100952,9 @@ opinion
 /
 M
 opinionated
+opioid
+/
+S
 opium
 /
 M
@@ -102167,6 +102221,9 @@ overreaction
 /
 SM
 overrefined
+overrich
+/
+P
 overridden
 override
 /
@@ -103188,6 +103245,9 @@ parameterize
 /
 D
 parametric
+parametrize
+/
+D
 paramilitary
 /
 SM
@@ -105637,6 +105697,7 @@ phyla
 phylactery
 /
 SM
+phyllo
 phylogeny
 /
 M
@@ -105813,6 +105874,7 @@ piece
 /
 DSMG
 piecemeal
+piecewise
 piecework
 /
 MRZ
@@ -111166,6 +111228,9 @@ quarterstaves
 quartet
 /
 SM
+quartile
+/
+S
 quarto
 /
 MS
@@ -112528,6 +112593,7 @@ DSMG
 rebuking
 /
 Y
+rebuttable
 rebuttal
 /
 MS
@@ -113867,6 +113933,7 @@ Y
 reprobate
 /
 MS
+reproducibility
 reproductive
 reprogramming
 reproving
