@@ -2409,6 +2409,7 @@ if
 mWrBridge
 )
 {
+{
 MonitorAutoLock
 lock
 (
@@ -2466,6 +2467,7 @@ nullptr
 }
 )
 ;
+}
 mWrBridge
 -
 >
