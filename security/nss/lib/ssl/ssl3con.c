@@ -9989,6 +9989,16 @@ cipherDef
 max_records
 )
 {
+PORT_Assert
+(
+cwSpec
+-
+>
+version
+<
+SSL_LIBRARY_VERSION_TLS_1_3
+)
+;
 SSL_TRC
 (
 3
@@ -38679,6 +38689,7 @@ unsigned
 char
 *
 buffer
+unsigned
 int
 length
 PRUint8

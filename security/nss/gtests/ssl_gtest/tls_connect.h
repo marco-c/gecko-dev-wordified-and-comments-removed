@@ -509,6 +509,16 @@ check_group
 )
 ;
 void
+CheckEpochs
+(
+uint16_t
+client_epoch
+uint16_t
+server_epoch
+)
+const
+;
+void
 ConfigureVersion
 (
 uint16_t
@@ -619,6 +629,10 @@ const
 void
 SendReceive
 (
+size_t
+total
+=
+50
 )
 ;
 void

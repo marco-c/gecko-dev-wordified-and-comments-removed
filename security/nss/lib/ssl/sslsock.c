@@ -237,12 +237,6 @@ sslSessionIDUncacheFunc
 ssl_sid_uncache
 ;
 static
-PRBool
-ssl_inited
-=
-PR_FALSE
-;
-static
 PRDescIdentity
 ssl_layer_id
 ;
@@ -15102,10 +15096,6 @@ ssl_SetupIOMethods
 (
 )
 ;
-ssl_inited
-=
-PR_TRUE
-;
 return
 PR_SUCCESS
 ;
@@ -15133,12 +15123,6 @@ NULL
 PRStatus
 status
 ;
-if
-(
-!
-ssl_inited
-)
-{
 status
 =
 PR_CallOnce
@@ -15156,6 +15140,7 @@ status
 =
 PR_SUCCESS
 )
+{
 goto
 loser
 ;
@@ -15167,9 +15152,11 @@ ns
 =
 NULL
 )
+{
 goto
 loser
 ;
+}
 layer
 =
 PR_CreateIOLayerStub
@@ -17423,6 +17410,10 @@ HelloRetryRequestCallback
 EXP
 (
 InstallExtensionHooks
+)
+EXP
+(
+KeyUpdate
 )
 EXP
 (

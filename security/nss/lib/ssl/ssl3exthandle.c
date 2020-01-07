@@ -2716,11 +2716,7 @@ rv
 sslBuffer
 plaintext
 =
-{
-NULL
-0
-0
-}
+SSL_BUFFER_EMPTY
 ;
 SECItem
 ticket_buf

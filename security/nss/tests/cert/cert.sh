@@ -5729,12 +5729,7 @@ D_CA
 "
 SHA256
 rm
-CLIENT_CADIR
-/
-rsapssroot
-.
-cert
-SERVER_CADIR
+CADIR
 /
 rsapssroot
 .
@@ -5793,12 +5788,7 @@ D_CA
 "
 SHA1
 rm
-CLIENT_CADIR
-/
-rsapssroot
-.
-cert
-SERVER_CADIR
+CADIR
 /
 rsapssroot
 .

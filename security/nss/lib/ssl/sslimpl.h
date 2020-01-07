@@ -1938,6 +1938,9 @@ ssl3CipherSpec
 *
 pwSpec
 ;
+PRBool
+peerRequestedKeyUpdate
+;
 sslCipherSpecChangedFunc
 changedCipherSpecFunc
 ;
@@ -4374,6 +4377,7 @@ unsigned
 char
 *
 buffer
+unsigned
 int
 length
 PRUint8

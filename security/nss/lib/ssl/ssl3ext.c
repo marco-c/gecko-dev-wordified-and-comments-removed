@@ -2530,11 +2530,7 @@ message
 sslBuffer
 tail
 =
-{
-NULL
-0
-0
-}
+SSL_BUFFER_EMPTY
 ;
 SECStatus
 rv

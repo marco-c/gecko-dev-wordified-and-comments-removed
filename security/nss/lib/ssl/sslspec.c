@@ -1299,8 +1299,10 @@ list
 )
 )
 {
-ssl_FreeCipherSpec
-(
+ssl3CipherSpec
+*
+spec
+=
 (
 ssl3CipherSpec
 *
@@ -1309,6 +1311,10 @@ PR_LIST_TAIL
 (
 list
 )
+;
+ssl_FreeCipherSpec
+(
+spec
 )
 ;
 }
