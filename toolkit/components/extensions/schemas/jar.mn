@@ -125,15 +125,6 @@ extensions
 /
 schemas
 /
-dns
-.
-json
-content
-/
-extensions
-/
-schemas
-/
 downloads
 .
 json
