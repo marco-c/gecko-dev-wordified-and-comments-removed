@@ -1327,7 +1327,7 @@ char
 methodName
 )
 {
-ReportValueError3
+ReportValueError
 (
 cx
 JSMSG_INCOMPATIBLE_PROTO
@@ -3770,7 +3770,7 @@ thisv
 )
 )
 {
-ReportValueError3
+ReportValueError
 (
 cx
 JSMSG_INCOMPATIBLE_PROTO

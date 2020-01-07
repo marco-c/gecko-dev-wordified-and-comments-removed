@@ -17363,7 +17363,7 @@ obj
 )
 )
 ;
-ReportValueError2
+ReportValueError
 (
 cx
 errorNumber
