@@ -93,7 +93,7 @@ H264_LEVEL_1
 level
 <
 =
-H264_LEVEL_5_1
+H264_LEVEL_5_2
 &
 &
 (
