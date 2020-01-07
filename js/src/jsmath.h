@@ -20,6 +20,13 @@ cmath
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 NamespaceImports
 .
@@ -1599,7 +1606,7 @@ powi
 (
 double
 x
-int
+int32_t
 y
 )
 ;
