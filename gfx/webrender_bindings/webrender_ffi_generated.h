@@ -4707,6 +4707,8 @@ Transaction
 *
 wr_transaction_new
 (
+bool
+aDoAsync
 )
 WR_FUNC
 ;
