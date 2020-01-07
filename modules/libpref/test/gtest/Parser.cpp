@@ -2571,6 +2571,9 @@ definition
 "
 )
 ;
+#
+if
+0
 P
 (
 R
@@ -2709,4 +2712,6 @@ keyword
 "
 )
 ;
+#
+endif
 }
