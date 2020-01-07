@@ -224,11 +224,6 @@ DeleteExpiredStoredMarkers
 (
 )
 ;
-void
-Reset
-(
-)
-;
 ProfileBufferEntry
 &
 GetEntry
