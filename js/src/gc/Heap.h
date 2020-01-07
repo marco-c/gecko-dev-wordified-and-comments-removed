@@ -834,6 +834,10 @@ Zone
 zoneArg
 AllocKind
 kind
+const
+AutoLockGC
+&
+lock
 )
 ;
 void
@@ -931,6 +935,10 @@ inline
 void
 release
 (
+const
+AutoLockGC
+&
+lock
 )
 ;
 uintptr_t

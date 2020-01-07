@@ -52,6 +52,10 @@ Zone
 zoneArg
 AllocKind
 kind
+const
+AutoLockGC
+&
+lock
 )
 {
 MOZ_ASSERT
@@ -134,6 +138,7 @@ atomMarking
 registerArena
 (
 this
+lock
 )
 ;
 else
@@ -161,6 +166,10 @@ Arena
 :
 release
 (
+const
+AutoLockGC
+&
+lock
 )
 {
 if
@@ -187,6 +196,7 @@ atomMarking
 unregisterArena
 (
 this
+lock
 )
 ;
 setAsNotAllocated

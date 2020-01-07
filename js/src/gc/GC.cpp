@@ -3374,6 +3374,7 @@ arena
 >
 release
 (
+lock
 )
 ;
 addArenaToFreeList

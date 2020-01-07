@@ -53,7 +53,7 @@ AtomMarkingRuntime
 js
 :
 :
-ExclusiveAccessLockOrGCTaskData
+GCLockData
 <
 Vector
 <
@@ -136,6 +136,10 @@ registerArena
 Arena
 *
 arena
+const
+AutoLockGC
+&
+lock
 )
 ;
 void
@@ -144,6 +148,10 @@ unregisterArena
 Arena
 *
 arena
+const
+AutoLockGC
+&
+lock
 )
 ;
 bool
