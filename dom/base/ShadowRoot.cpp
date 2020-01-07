@@ -310,6 +310,11 @@ DocumentFragment
 (
 aNodeInfo
 )
+StyleScope
+(
+*
+this
+)
 mProtoBinding
 (
 aProtoBinding
