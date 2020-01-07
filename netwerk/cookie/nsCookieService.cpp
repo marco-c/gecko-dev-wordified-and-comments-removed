@@ -6857,6 +6857,14 @@ GetObserverService
 if
 (
 os
+&
+&
+!
+mReadArray
+.
+IsEmpty
+(
+)
 )
 {
 os
