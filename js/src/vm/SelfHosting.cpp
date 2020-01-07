@@ -17908,9 +17908,9 @@ GetCompressedSize
 (
 )
 ;
-UniqueChars
+auto
 src
-(
+=
 selfHostingGlobal_
 -
 >
@@ -17919,13 +17919,12 @@ zone
 )
 -
 >
-pod_malloc
+make_pod_array
 <
 char
 >
 (
 srcLen
-)
 )
 ;
 if

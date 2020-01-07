@@ -12475,9 +12475,9 @@ mode
 XDR_DECODE
 )
 {
-UniqueChars
+auto
 bytes
-(
+=
 xdr
 -
 >
@@ -12487,7 +12487,7 @@ cx
 -
 >
 template
-pod_malloc
+make_pod_array
 <
 char
 >
@@ -12499,7 +12499,6 @@ size_t
 (
 byteLen
 1
-)
 )
 )
 ;
