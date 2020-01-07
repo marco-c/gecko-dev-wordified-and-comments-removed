@@ -1234,13 +1234,6 @@ is
 "
 )
 "
-test
--
-built
--
-in
--
-element
 "
 "
 The
@@ -1253,6 +1246,7 @@ the
 created
 element
 should
+not
 be
 the
 extended
@@ -1331,13 +1325,6 @@ is
 "
 )
 "
-test
--
-built
--
-in
--
-element
 "
 "
 The
@@ -1350,6 +1337,7 @@ the
 created
 element
 should
+not
 be
 the
 extended
@@ -1749,11 +1737,6 @@ is
 "
 )
 "
-test
--
-popup
--
-extend
 "
 "
 The
@@ -1766,6 +1749,7 @@ the
 created
 element
 should
+not
 be
 the
 extended
@@ -1844,11 +1828,6 @@ is
 "
 )
 "
-test
--
-popup
--
-extend
 "
 "
 The
@@ -1861,6 +1840,7 @@ the
 created
 element
 should
+not
 be
 the
 extended
@@ -2657,9 +2637,6 @@ is
 "
 )
 "
-testwithoutdash
--
-extended
 "
 "
 The
@@ -2672,6 +2649,7 @@ the
 created
 element
 should
+not
 be
 the
 extended
@@ -2750,9 +2728,6 @@ is
 "
 )
 "
-testwithoutdash
--
-extended
 "
 "
 The
@@ -2765,6 +2740,7 @@ the
 created
 element
 should
+not
 be
 the
 extended

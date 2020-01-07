@@ -677,6 +677,12 @@ GetNameSpaceID
 (
 )
 ;
+MaybeSerializeIsValue
+(
+aElement
+aStr
+)
+;
 if
 (
 mIsCopying

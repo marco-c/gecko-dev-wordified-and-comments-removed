@@ -19634,6 +19634,10 @@ CustomElementData
 aData
 )
 {
+SetHasCustomElementData
+(
+)
+;
 nsExtendedDOMSlots
 *
 slots
