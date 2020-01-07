@@ -479,15 +479,9 @@ rt
 rt
 -
 >
-resetProfilerSampleBufferGen
+setProfilerSampleBufferRangeStart
 (
-)
-;
-rt
--
->
-resetProfilerSampleBufferLapCount
-(
+0
 )
 ;
 for
