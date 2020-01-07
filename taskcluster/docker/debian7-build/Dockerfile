@@ -166,6 +166,11 @@ taskcluster
 -
 worker
 \
+XZ_OPT
+=
+-
+T0
+\
 DEBIAN_FRONTEND
 =
 noninteractive
