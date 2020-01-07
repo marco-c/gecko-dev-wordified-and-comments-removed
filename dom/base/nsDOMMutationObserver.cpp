@@ -89,13 +89,6 @@ h
 #
 include
 "
-nsIDOMMutationEvent
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h

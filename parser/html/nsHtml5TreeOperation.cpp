@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIDOMMutationEvent
-.
-h
-"
-#
-include
-"
 mozAutoDocUpdate
 .
 h
