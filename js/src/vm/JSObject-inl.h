@@ -2068,7 +2068,7 @@ const
 {
 return
 *
-compartment
+realm
 (
 )
 -
@@ -2095,7 +2095,7 @@ JSTracer
 const
 {
 return
-compartment
+realm
 (
 )
 -

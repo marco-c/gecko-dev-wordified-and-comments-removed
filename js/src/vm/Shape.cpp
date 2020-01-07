@@ -11771,8 +11771,8 @@ entry
 ;
 for
 (
-CompartmentsInZoneIter
-comp
+RealmsInZoneIter
+realm
 (
 shape
 -
@@ -11783,13 +11783,13 @@ zone
 )
 ;
 !
-comp
+realm
 .
 done
 (
 )
 ;
-comp
+realm
 .
 next
 (
@@ -11802,7 +11802,7 @@ GlobalObject
 *
 global
 =
-comp
+realm
 -
 >
 unsafeUnbarrieredMaybeGlobal

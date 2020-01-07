@@ -2328,7 +2328,7 @@ emptyGlobalScope
 cx
 -
 >
-compartment
+realm
 (
 )
 -

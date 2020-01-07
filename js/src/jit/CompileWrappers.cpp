@@ -1028,8 +1028,14 @@ maybeGlobal
 )
 {
 return
+JS
+:
+:
+GetRealmForCompartment
+(
 compartment
 (
+)
 )
 -
 >

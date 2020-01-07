@@ -1496,9 +1496,9 @@ bool
 isDebuggeeUnbarriered
 (
 const
-JSCompartment
+Realm
 *
-compartment
+realm
 )
 const
 ;

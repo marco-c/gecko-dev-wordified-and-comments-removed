@@ -53,7 +53,10 @@ h
 "
 inline
 void
-JSCompartment
+JS
+:
+:
+Realm
 :
 :
 initGlobal
@@ -70,7 +73,7 @@ MOZ_ASSERT
 (
 global
 .
-compartment
+realm
 (
 )
 =
@@ -98,7 +101,10 @@ js
 :
 GlobalObject
 *
-JSCompartment
+JS
+:
+:
+Realm
 :
 :
 maybeGlobal
@@ -112,7 +118,7 @@ global_
 global_
 -
 >
-compartment
+realm
 (
 )
 =
@@ -129,7 +135,10 @@ js
 :
 GlobalObject
 *
-JSCompartment
+JS
+:
+:
+Realm
 :
 :
 unsafeUnbarrieredMaybeGlobal
@@ -148,7 +157,10 @@ unsafeGet
 }
 inline
 bool
-JSCompartment
+JS
+:
+:
+Realm
 :
 :
 globalIsAboutToBeFinalized

@@ -9146,7 +9146,7 @@ return
 global
 -
 >
-compartment
+realm
 (
 )
 -
@@ -38340,11 +38340,17 @@ GlobalObject
 *
 global
 =
+JS
+:
+:
+GetRealmForCompartment
+(
 activation
 -
 >
 compartment
 (
+)
 )
 -
 >
