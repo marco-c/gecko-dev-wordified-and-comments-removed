@@ -277,9 +277,8 @@ Mutator
 )
 .
 Apply
-<
-nsIStandardURLMutator
->
+(
+NS_MutatorMethod
 (
 &
 nsIStandardURLMutator
@@ -299,6 +298,7 @@ aSpec
 aCharset
 aBaseURI
 nullptr
+)
 )
 .
 Finalize

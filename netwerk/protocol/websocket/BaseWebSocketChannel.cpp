@@ -1234,9 +1234,8 @@ Mutator
 )
 .
 Apply
-<
-nsIStandardURLMutator
->
+(
+NS_MutatorMethod
 (
 &
 nsIStandardURLMutator
@@ -1255,6 +1254,7 @@ aSpec
 aOriginCharset
 aBaseURI
 nullptr
+)
 )
 .
 Finalize

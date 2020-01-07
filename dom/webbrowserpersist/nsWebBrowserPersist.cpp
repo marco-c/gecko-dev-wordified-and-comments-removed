@@ -8464,9 +8464,8 @@ url
 )
 .
 Apply
-<
-nsIURLMutator
->
+(
+NS_MutatorMethod
 (
 &
 nsIURLMutator
@@ -8475,6 +8474,7 @@ nsIURLMutator
 SetFileName
 filename
 nullptr
+)
 )
 .
 Finalize
@@ -9208,9 +9208,8 @@ url
 )
 .
 Apply
-<
-nsIURLMutator
->
+(
+NS_MutatorMethod
 (
 &
 nsIURLMutator
@@ -9219,6 +9218,7 @@ nsIURLMutator
 SetFileName
 newFileName
 nullptr
+)
 )
 .
 Finalize

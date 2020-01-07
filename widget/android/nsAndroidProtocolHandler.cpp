@@ -591,9 +591,8 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 )
 .
 Apply
-<
-nsIStandardURLMutator
->
+(
+NS_MutatorMethod
 (
 &
 nsIStandardURLMutator
@@ -613,6 +612,7 @@ aSpec
 aCharset
 aBaseURI
 nullptr
+)
 )
 .
 Finalize

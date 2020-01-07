@@ -3878,9 +3878,8 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 )
 .
 Apply
-<
-nsIStandardURLMutator
->
+(
+NS_MutatorMethod
 (
 &
 nsIStandardURLMutator
@@ -3897,6 +3896,7 @@ flatSpec
 aOriginCharset
 aBaseURI
 nullptr
+)
 )
 .
 Finalize
