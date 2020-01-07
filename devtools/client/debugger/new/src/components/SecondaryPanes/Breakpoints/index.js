@@ -546,9 +546,17 @@ heading
 "
 title
 :
+(
+0
+_source
+.
+getRawSourceURL
+)
+(
 source
 .
 url
+)
 key
 :
 source

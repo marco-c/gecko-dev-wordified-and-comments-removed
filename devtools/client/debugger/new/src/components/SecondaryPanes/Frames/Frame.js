@@ -432,8 +432,6 @@ if
 (
 e
 .
-nativeEvent
-.
 which
 =
 =

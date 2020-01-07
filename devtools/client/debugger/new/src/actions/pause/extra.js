@@ -365,6 +365,15 @@ getState
 )
 )
 ;
+if
+(
+!
+frame
+)
+{
+return
+;
+}
 const
 extra
 =

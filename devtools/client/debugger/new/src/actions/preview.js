@@ -441,6 +441,15 @@ getState
 )
 )
 ;
+if
+(
+!
+source
+)
+{
+return
+;
+}
 const
 sourceId
 =
