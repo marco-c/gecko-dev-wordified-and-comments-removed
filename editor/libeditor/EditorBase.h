@@ -1163,7 +1163,7 @@ typename
 CT
 >
 nsresult
-InsertNode
+InsertNodeWithTransaction
 (
 nsIContent
 &
