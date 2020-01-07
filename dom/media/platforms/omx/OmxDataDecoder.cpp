@@ -381,6 +381,9 @@ const
 TrackInfo
 &
 aTrackInfo
+TaskQueue
+*
+aTaskQueue
 layers
 :
 :
@@ -400,6 +403,10 @@ OmxDataDecoder
 mOmxTaskQueue
 "
 )
+)
+mTaskQueue
+(
+aTaskQueue
 )
 mImageContainer
 (
