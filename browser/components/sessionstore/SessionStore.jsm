@@ -14507,6 +14507,11 @@ userContextId
 skipBackgroundNotify
 :
 true
+bulkOrderedOpen
+:
+this
+.
+_browserSetState
 }
 )
 ;
