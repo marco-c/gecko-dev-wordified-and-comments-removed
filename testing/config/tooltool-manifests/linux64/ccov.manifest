@@ -28,8 +28,6 @@ grcov
 -
 linux
 -
-standalone
--
 x86_64
 .
 tar
