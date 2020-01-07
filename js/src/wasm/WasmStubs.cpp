@@ -9411,6 +9411,12 @@ case
 Trap
 :
 :
+IndirectCallToNull
+:
+case
+Trap
+:
+:
 ImpreciseSimdConversion
 :
 case
@@ -9438,12 +9444,6 @@ Trap
 :
 :
 UnalignedAccess
-:
-case
-Trap
-:
-:
-IndirectCallToNull
 :
 case
 Trap
