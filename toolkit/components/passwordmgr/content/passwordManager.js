@@ -3900,7 +3900,7 @@ siteCol
 ;
 window
 .
-openUILinkIn
+openWebLinkIn
 (
 url
 "
@@ -4019,7 +4019,7 @@ if
 (
 window
 .
-openUILinkIn
+openWebLinkIn
 )
 {
 menuItems

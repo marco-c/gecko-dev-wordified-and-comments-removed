@@ -9758,7 +9758,7 @@ baseURL
 ;
 window
 .
-openUILinkIn
+openTrustedLinkIn
 (
 baseURL
 +

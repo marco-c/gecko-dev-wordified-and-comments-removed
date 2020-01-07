@@ -306,7 +306,7 @@ window
 .
 top
 .
-openUILinkIn
+openWebLinkIn
 (
 "
 about
