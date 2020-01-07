@@ -188,15 +188,6 @@ NestedRuleIterationCondition
 RulesIterator
 }
 ;
-use
-values
-:
-:
-specified
-:
-:
-NamespaceId
-;
 pub
 struct
 UserAgentStylesheets
@@ -243,10 +234,7 @@ default
 :
 Option
 <
-(
 Namespace
-NamespaceId
-)
 >
 pub
 prefixes
@@ -254,10 +242,7 @@ prefixes
 FnvHashMap
 <
 Prefix
-(
 Namespace
-NamespaceId
-)
 >
 }
 #
