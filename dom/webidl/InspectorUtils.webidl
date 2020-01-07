@@ -531,6 +531,14 @@ Range
 range
 )
 ;
+sequence
+<
+DOMString
+>
+getCSSPseudoElementNames
+(
+)
+;
 }
 ;
 dictionary
