@@ -2750,7 +2750,7 @@ Private
 )
 -
 >
-LoadScriptAsPartOfLoadingServiceWorkerScript
+IsLoadingWorkerScript
 (
 )
 )
