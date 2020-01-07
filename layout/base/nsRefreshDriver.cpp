@@ -7389,7 +7389,7 @@ if
 !
 mResizeEventFlushObservers
 .
-Contains
+RemoveElement
 (
 shell
 )
@@ -7398,13 +7398,6 @@ shell
 continue
 ;
 }
-mResizeEventFlushObservers
-.
-RemoveElement
-(
-shell
-)
-;
 shell
 -
 >
