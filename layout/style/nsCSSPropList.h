@@ -82,7 +82,7 @@ align
 content
 align_content
 AlignContent
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_HK
@@ -95,7 +95,7 @@ align
 items
 align_items
 AlignItems
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_HK
@@ -108,7 +108,7 @@ align
 self
 align_self
 AlignSelf
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_HK
@@ -119,7 +119,7 @@ CSS_PROP_SHORTHAND
 all
 all
 All
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 layout
 .
@@ -137,7 +137,7 @@ CSS_PROP_SHORTHAND
 animation
 animation
 Animation
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -298,7 +298,7 @@ CSS_PROP_SHORTHAND
 background
 background
 Background
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -400,7 +400,7 @@ background
 position
 background_position
 BackgroundPosition
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -413,7 +413,7 @@ position
 x
 background_position_x
 BackgroundPositionX
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -428,7 +428,7 @@ position
 y
 background_position_y
 BackgroundPositionY
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -441,7 +441,7 @@ background
 repeat
 background_repeat
 BackgroundRepeat
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_KEYWORD
@@ -454,7 +454,7 @@ background
 size
 background_size
 BackgroundSize
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -497,7 +497,7 @@ CSS_PROP_SHORTHAND
 border
 border
 Border
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -510,7 +510,7 @@ block
 end
 border_block_end
 BorderBlockEnd
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -576,7 +576,7 @@ block
 start
 border_block_start
 BorderBlockStart
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -640,7 +640,7 @@ border
 bottom
 border_bottom
 BorderBottom
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -670,7 +670,7 @@ left
 radius
 border_bottom_left_radius
 BorderBottomLeftRadius
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -687,7 +687,7 @@ right
 radius
 border_bottom_right_radius
 BorderBottomRightRadius
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -745,7 +745,7 @@ border
 color
 border_color
 BorderColor
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -756,7 +756,7 @@ border
 image
 border_image
 BorderImage
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -769,7 +769,7 @@ image
 outset
 border_image_outset
 BorderImageOutset
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -784,7 +784,7 @@ image
 repeat
 border_image_repeat
 BorderImageRepeat
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -799,7 +799,7 @@ image
 slice
 border_image_slice
 BorderImageSlice
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -831,7 +831,7 @@ image
 width
 border_image_width
 BorderImageWidth
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -846,7 +846,7 @@ inline
 end
 border_inline_end
 BorderInlineEnd
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -912,7 +912,7 @@ inline
 start
 border_inline_start
 BorderInlineStart
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -976,7 +976,7 @@ border
 left
 border_left
 BorderLeft
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1034,7 +1034,7 @@ border
 radius
 border_radius
 BorderRadius
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1045,7 +1045,7 @@ border
 right
 border_right
 BorderRight
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1103,7 +1103,7 @@ border
 spacing
 border_spacing
 BorderSpacing
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -1116,7 +1116,7 @@ border
 style
 border_style
 BorderStyle
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1127,7 +1127,7 @@ border
 top
 border_top
 BorderTop
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1157,7 +1157,7 @@ left
 radius
 border_top_left_radius
 BorderTopLeftRadius
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -1174,7 +1174,7 @@ right
 radius
 border_top_right_radius
 BorderTopRightRadius
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -1219,7 +1219,7 @@ border
 width
 border_width
 BorderWidth
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1385,7 +1385,7 @@ box
 shadow
 box_shadow
 BoxShadow
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_COLOR
@@ -1456,7 +1456,7 @@ CSS_PROP_
 clip
 clip
 Clip
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_AH
@@ -1469,7 +1469,7 @@ clip
 path
 clip_path
 ClipPath
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 VARIANT_HUO
@@ -1599,7 +1599,7 @@ column
 rule
 column_rule
 ColumnRule
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1692,7 +1692,7 @@ CSS_PROP_SHORTHAND
 columns
 columns
 Columns
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1701,7 +1701,7 @@ CSS_PROP_
 contain
 contain
 Contain
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -1721,7 +1721,7 @@ CSS_PROP_
 content
 content
 Content
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_HMK
@@ -1751,8 +1751,6 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 ContextProperties
 )
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_INTERNAL
 "
 "
@@ -1789,7 +1787,7 @@ counter
 increment
 counter_increment
 CounterIncrement
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_INHERIT
@@ -1804,7 +1802,7 @@ counter
 reset
 counter_reset
 CounterReset
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_INHERIT
@@ -1817,7 +1815,7 @@ CSS_PROP_
 cursor
 cursor
 Cursor
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -1881,7 +1879,7 @@ CSS_PROP_
 fill
 fill
 Fill
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -1920,7 +1918,7 @@ CSS_PROP_
 filter
 filter
 Filter
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -1931,7 +1929,7 @@ CSS_PROP_SHORTHAND
 flex
 flex
 Flex
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -1970,7 +1968,7 @@ flex
 flow
 flex_flow
 FlexFlow
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2078,7 +2076,7 @@ CSS_PROP_SHORTHAND
 font
 font
 Font
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2089,7 +2087,7 @@ font
 family
 font_family
 FontFamily
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2104,7 +2102,7 @@ feature
 settings
 font_feature_settings
 FontFeatureSettings
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2269,7 +2267,7 @@ font
 synthesis
 font_synthesis
 FontSynthesis
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2282,7 +2280,7 @@ font
 variant
 font_variant
 FontVariant
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2295,7 +2293,7 @@ variant
 alternates
 font_variant_alternates
 FontVariantAlternates
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2327,7 +2325,7 @@ east
 asian
 font_variant_east_asian
 FontVariantEastAsian
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2342,7 +2340,7 @@ variant
 ligatures
 font_variant_ligatures
 FontVariantLigatures
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2357,7 +2355,7 @@ variant
 numeric
 font_variant_numeric
 FontVariantNumeric
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2387,7 +2385,7 @@ variation
 settings
 font_variation_settings
 FontVariationSettings
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -2409,7 +2407,7 @@ font
 weight
 font_weight
 FontWeight
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2443,7 +2441,7 @@ CSS_PROP_SHORTHAND
 gap
 gap
 Gap
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2452,7 +2450,7 @@ CSS_PROP_SHORTHAND
 grid
 grid
 Grid
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2463,7 +2461,7 @@ grid
 area
 grid_area
 GridArea
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2476,7 +2474,7 @@ auto
 columns
 grid_auto_columns
 GridAutoColumns
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2491,7 +2489,7 @@ auto
 flow
 grid_auto_flow
 GridAutoFlow
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2506,7 +2504,7 @@ auto
 rows
 grid_auto_rows
 GridAutoRows
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2519,7 +2517,7 @@ grid
 column
 grid_column
 GridColumn
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2532,7 +2530,7 @@ column
 end
 grid_column_end
 GridColumnEnd
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2547,7 +2545,7 @@ column
 start
 grid_column_start
 GridColumnStart
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2560,7 +2558,7 @@ grid
 row
 grid_row
 GridRow
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2573,7 +2571,7 @@ row
 end
 grid_row_end
 GridRowEnd
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2588,7 +2586,7 @@ row
 start
 grid_row_start
 GridRowStart
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2601,7 +2599,7 @@ grid
 template
 grid_template
 GridTemplate
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2614,7 +2612,7 @@ template
 areas
 grid_template_areas
 GridTemplateAreas
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2629,8 +2627,6 @@ template
 columns
 grid_template_columns
 GridTemplateColumns
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
@@ -2646,8 +2642,6 @@ template
 rows
 grid_template_rows
 GridTemplateRows
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
@@ -2685,7 +2679,7 @@ image
 orientation
 image_orientation
 ImageOrientation
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -2713,7 +2707,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 ImageRegion
 )
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -2752,7 +2746,7 @@ initial
 letter
 initial_letter
 InitialLetter
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 layout
 .
@@ -2807,7 +2801,7 @@ justify
 content
 justify_content
 JustifyContent
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_HK
@@ -2820,7 +2814,7 @@ justify
 items
 justify_items
 JustifyItems
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_HK
@@ -2833,7 +2827,7 @@ justify
 self
 justify_self
 JustifySelf
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_HK
@@ -2936,7 +2930,7 @@ list
 style
 list_style
 ListStyle
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -2979,7 +2973,7 @@ style
 type
 list_style_type
 ListStyleType
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -2990,7 +2984,7 @@ CSS_PROP_SHORTHAND
 margin
 margin
 Margin
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -3127,7 +3121,7 @@ CSS_PROP_SHORTHAND
 marker
 marker
 Marker
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -3175,7 +3169,7 @@ CSS_PROP_SHORTHAND
 mask
 mask
 Mask
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -3251,7 +3245,7 @@ mask
 position
 mask_position
 MaskPosition
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -3264,7 +3258,7 @@ position
 x
 mask_position_x
 MaskPositionX
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -3279,7 +3273,7 @@ position
 y
 mask_position_y
 MaskPositionY
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -3292,7 +3286,7 @@ mask
 repeat
 mask_repeat
 MaskRepeat
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_KEYWORD
@@ -3305,7 +3299,7 @@ mask
 size
 mask_size
 MaskSize
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -3576,7 +3570,7 @@ object
 position
 object_position
 ObjectPosition
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_CALC
@@ -3726,7 +3720,7 @@ CSS_PROP_SHORTHAND
 outline
 outline
 Outline
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -3771,7 +3765,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadius
 )
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -3790,7 +3784,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusBottomleft
 )
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -3811,7 +3805,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusBottomright
 )
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -3832,7 +3826,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusTopleft
 )
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -3853,7 +3847,7 @@ CSS_PROP_DOMPROP_PREFIXED
 (
 OutlineRadiusTopright
 )
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -3892,7 +3886,7 @@ CSS_PROP_SHORTHAND
 overflow
 overflow
 Overflow
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -3905,8 +3899,6 @@ clip
 box
 overflow_clip_box
 OverflowClipBox
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_ENABLED_IN_UA_SHEETS
 "
 layout
@@ -4024,7 +4016,7 @@ overscroll
 behavior
 overscroll_behavior
 OverscrollBehavior
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 layout
 .
@@ -4090,7 +4082,7 @@ CSS_PROP_SHORTHAND
 padding
 padding
 Padding
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -4274,7 +4266,7 @@ paint
 order
 paint_order
 PaintOrder
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -4304,8 +4296,6 @@ perspective
 origin
 perspective_origin
 PerspectiveOrigin
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
@@ -4319,7 +4309,7 @@ place
 content
 place_content
 PlaceContent
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -4330,7 +4320,7 @@ place
 items
 place_items
 PlaceItems
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -4341,7 +4331,7 @@ place
 self
 place_self
 PlaceSelf
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -4374,7 +4364,7 @@ CSS_PROP_
 quotes
 quotes
 Quotes
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_HOS
@@ -4409,7 +4399,7 @@ CSS_PROP_
 rotate
 rotate
 Rotate
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 layout
 .
@@ -4472,7 +4462,7 @@ CSS_PROP_
 scale
 scale
 Scale
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 layout
 .
@@ -4588,7 +4578,7 @@ snap
 coordinate
 scroll_snap_coordinate
 ScrollSnapCoordinate
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -4612,7 +4602,7 @@ snap
 destination
 scroll_snap_destination
 ScrollSnapDestination
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -4638,7 +4628,7 @@ points
 x
 scroll_snap_points_x
 ScrollSnapPointsX
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -4664,7 +4654,7 @@ points
 y
 scroll_snap_points_y
 ScrollSnapPointsY
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -4688,7 +4678,7 @@ snap
 type
 scroll_snap_type
 ScrollSnapType
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 layout
 .
@@ -4808,7 +4798,7 @@ shape
 outside
 shape_outside
 ShapeOutside
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -4912,7 +4902,7 @@ CSS_PROP_
 stroke
 stroke
 Stroke
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -4925,7 +4915,7 @@ stroke
 dasharray
 stroke_dasharray
 StrokeDasharray
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -5056,7 +5046,7 @@ text
 align
 text_align
 TextAlign
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 VARIANT_HK
@@ -5071,7 +5061,7 @@ align
 last
 text_align_last
 TextAlignLast
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 VARIANT_HK
@@ -5099,7 +5089,7 @@ combine
 upright
 text_combine_upright
 TextCombineUpright
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -5123,7 +5113,7 @@ text
 decoration
 text_decoration
 TextDecoration
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -5151,7 +5141,7 @@ decoration
 line
 text_decoration_line
 TextDecorationLine
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -5179,7 +5169,7 @@ text
 emphasis
 text_emphasis
 TextEmphasis
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -5207,7 +5197,7 @@ emphasis
 position
 text_emphasis_position
 TextEmphasisPosition
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -5222,7 +5212,7 @@ emphasis
 style
 text_emphasis_style
 TextEmphasisStyle
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -5310,7 +5300,7 @@ text
 overflow
 text_overflow
 TextOverflow
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 "
 0
@@ -5336,7 +5326,7 @@ text
 shadow
 text_shadow
 TextShadow
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_COLOR
@@ -5381,7 +5371,7 @@ text
 stroke
 _webkit_text_stroke
 WebkitTextStroke
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 layout
 .
@@ -5531,7 +5521,7 @@ touch
 action
 touch_action
 TouchAction
-CSS_PROPERTY_VALUE_PARSER_FUNCTION
+0
 "
 layout
 .
@@ -5549,8 +5539,6 @@ CSS_PROP_
 transform
 transform
 Transform
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 |
 CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
@@ -5586,8 +5574,6 @@ transform
 origin
 transform_origin
 TransformOrigin
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
@@ -5612,7 +5598,7 @@ CSS_PROP_SHORTHAND
 transition
 transition
 Transition
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 )
@@ -5651,7 +5637,7 @@ transition
 property
 transition_property
 TransitionProperty
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 VARIANT_IDENTIFIER
@@ -5683,8 +5669,6 @@ CSS_PROP_
 translate
 translate
 Translate
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 layout
@@ -5866,7 +5850,7 @@ will
 change
 will_change
 WillChange
-CSS_PROPERTY_PARSE_FUNCTION
+0
 "
 "
 0
@@ -5949,8 +5933,6 @@ WindowTransform
 )
 CSS_PROPERTY_INTERNAL
 |
-CSS_PROPERTY_PARSE_FUNCTION
-|
 CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 "
@@ -5973,8 +5955,6 @@ CSS_PROP_DOMPROP_PREFIXED
 WindowTransformOrigin
 )
 CSS_PROPERTY_INTERNAL
-|
-CSS_PROPERTY_PARSE_FUNCTION
 |
 CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
