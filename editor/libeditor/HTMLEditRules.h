@@ -825,11 +825,12 @@ int32_t
 aInOutDestOffset
 )
 ;
+MOZ_MUST_USE
 nsresult
-DeleteNonTableElements
+DeleteElementsExceptTableRelatedElements
 (
 nsINode
-*
+&
 aNode
 )
 ;
