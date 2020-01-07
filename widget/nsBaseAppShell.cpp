@@ -127,6 +127,10 @@ mBlockNativeEvent
 (
 false
 )
+mProcessedGeckoEvents
+(
+false
+)
 {
 }
 nsBaseAppShell
