@@ -120,11 +120,6 @@ TelemetryTestHelpers
 cpp
 '
 '
-TestCounters
-.
-cpp
-'
-'
 TestHistograms
 .
 cpp
