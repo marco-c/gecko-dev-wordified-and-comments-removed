@@ -405,6 +405,14 @@ namespace
 gc
 {
 void
+FinishGC
+(
+JSContext
+*
+cx
+)
+;
+void
 MergeCompartments
 (
 JSCompartment

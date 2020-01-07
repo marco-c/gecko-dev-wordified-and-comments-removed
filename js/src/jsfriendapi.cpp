@@ -72,6 +72,15 @@ h
 #
 include
 "
+gc
+/
+Iteration
+.
+h
+"
+#
+include
+"
 js
 /
 Proxy
@@ -7150,7 +7159,6 @@ AutoPrepareForTracing
 prep
 (
 cx
-WithAtoms
 )
 ;
 gcstats

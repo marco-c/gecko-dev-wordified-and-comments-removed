@@ -73,14 +73,6 @@ js
 namespace
 gc
 {
-void
-FinishGC
-(
-JSContext
-*
-cx
-)
-;
 class
 MOZ_RAII
 AutoTraceSession
@@ -195,8 +187,6 @@ AutoPrepareForTracing
 JSContext
 *
 cx
-ZoneSelector
-selector
 )
 ;
 AutoTraceSession

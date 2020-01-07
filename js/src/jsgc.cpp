@@ -419,7 +419,7 @@ include
 "
 gc
 /
-Heap
+GCIteration
 -
 inl
 .
@@ -430,7 +430,7 @@ include
 "
 gc
 /
-Iteration
+Heap
 -
 inl
 .
@@ -37798,8 +37798,6 @@ AutoPrepareForTracing
 JSContext
 *
 cx
-ZoneSelector
-selector
 )
 {
 js

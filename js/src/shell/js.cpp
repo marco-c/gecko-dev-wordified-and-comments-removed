@@ -424,7 +424,7 @@ include
 "
 gc
 /
-GCInternals
+Iteration
 .
 h
 "
@@ -24778,7 +24778,8 @@ cx
 expected
 object
 (
-ArrayBuffer
+typed
+array
 )
 to
 parse
@@ -24811,7 +24812,7 @@ toObject
 if
 (
 !
-JS_IsArrayBufferObject
+JS_IsTypedArrayObject
 (
 obj
 )
@@ -24835,7 +24836,8 @@ JS_ReportErrorASCII
 cx
 "
 expected
-ArrayBuffer
+typed
+array
 to
 parse
 got

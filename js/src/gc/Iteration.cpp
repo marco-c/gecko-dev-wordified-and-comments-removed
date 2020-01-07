@@ -1,17 +1,6 @@
 #
 include
 "
-gc
-/
-Iteration
--
-inl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 DebugOnly
@@ -57,7 +46,11 @@ h
 #
 include
 "
-jsgcinlines
+gc
+/
+GCIteration
+-
+inl
 .
 h
 "
@@ -288,7 +281,6 @@ AutoPrepareForTracing
 prop
 (
 cx
-WithAtoms
 )
 ;
 for
@@ -375,7 +367,6 @@ AutoPrepareForTracing
 prop
 (
 cx
-WithAtoms
 )
 ;
 (
@@ -424,7 +415,6 @@ AutoPrepareForTracing
 prep
 (
 cx
-SkipAtoms
 )
 ;
 AutoLockGC
@@ -522,7 +512,6 @@ AutoPrepareForTracing
 prep
 (
 cx
-SkipAtoms
 )
 ;
 if
@@ -785,7 +774,6 @@ TlsContext
 get
 (
 )
-SkipAtoms
 )
 ;
 :

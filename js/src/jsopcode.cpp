@@ -268,7 +268,7 @@ include
 "
 gc
 /
-Iteration
+GCIteration
 -
 inl
 .
@@ -14552,7 +14552,6 @@ AutoPrepareForTracing
 apft
 (
 cx
-SkipAtoms
 )
 ;
 }
