@@ -320,6 +320,11 @@ TestThreadManager
 cpp
 '
 '
+TestThreadMetrics
+.
+cpp
+'
+'
 TestThreadPool
 .
 cpp

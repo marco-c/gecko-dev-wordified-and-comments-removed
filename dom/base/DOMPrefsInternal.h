@@ -46,6 +46,17 @@ enable_user_timing_logging
 )
 DOM_PREF
 (
+SchedulerLoggingEnabled
+"
+dom
+.
+performance
+.
+enable_scheduler_timing
+"
+)
+DOM_PREF
+(
 NotificationEnabled
 "
 dom
