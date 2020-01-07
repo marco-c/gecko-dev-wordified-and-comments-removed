@@ -58580,6 +58580,7 @@ bug_numbers
 :
 [
 1335907
+1425173
 ]
 "
 alert_emails
@@ -58598,7 +58599,7 @@ expires_in_version
 "
 :
 "
-59
+66
 "
 "
 kind
@@ -58632,6 +58633,9 @@ sync
 "
 "
 advanced
+"
+"
+search
 "
 ]
 "
