@@ -292,6 +292,11 @@ dom
 =
 [
 '
+AutoplayRequest
+.
+h
+'
+'
 HTMLAllCollection
 .
 h
@@ -1121,6 +1126,11 @@ SOURCES
 +
 =
 [
+'
+AutoplayRequest
+.
+cpp
+'
 #
 Includes
 npapi
