@@ -866,6 +866,12 @@ aGlyphs
 )
 override
 ;
+void
+Dump
+(
+)
+override
+;
 protected
 :
 virtual
