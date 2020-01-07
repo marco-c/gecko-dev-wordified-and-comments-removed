@@ -8912,6 +8912,11 @@ get
 )
 )
 ;
+LogCallingScriptLocation
+(
+this
+)
+;
 NS_ENSURE_FALSE
 (
 mOnStartRequestCalled
