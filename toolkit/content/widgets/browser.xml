@@ -128,13 +128,6 @@ id
 "
 browser
 "
-extends
-=
-"
-xul
-:
-browser
-"
 >
 <
 content
@@ -166,6 +159,7 @@ implements
 "
 nsIObserver
 nsIDOMEventListener
+nsIMessageListener
 nsIBrowser
 "
 >
