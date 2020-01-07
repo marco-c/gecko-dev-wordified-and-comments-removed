@@ -1117,6 +1117,9 @@ nsIDocument_Type
 nsCSSUnit
 "
 "
+nsCSSFontDesc
+"
+"
 nsCSSPropertyID
 "
 "
@@ -1720,6 +1723,9 @@ nsCSSCounterDesc
 "
 "
 nsCSSCounterStyleRule
+"
+"
+nsCSSFontDesc
 "
 "
 nsCSSFontFaceRule
@@ -3341,6 +3347,9 @@ nsCSSCounterDesc
 "
 "
 nsCSSCounterStyleRule
+"
+"
+nsCSSFontDesc
 "
 "
 nsCSSFontFaceRule
