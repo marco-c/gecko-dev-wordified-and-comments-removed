@@ -412,12 +412,6 @@ false
 ;
 SET_DEFAULT
 (
-disableFlowAA
-true
-)
-;
-SET_DEFAULT
-(
 disableGvn
 false
 )

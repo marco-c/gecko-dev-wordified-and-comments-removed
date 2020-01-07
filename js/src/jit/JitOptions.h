@@ -183,9 +183,6 @@ bool
 disableEdgeCaseAnalysis
 ;
 bool
-disableFlowAA
-;
-bool
 disableGvn
 ;
 bool
