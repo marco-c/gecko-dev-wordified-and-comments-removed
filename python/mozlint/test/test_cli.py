@@ -296,15 +296,6 @@ ret
 1
     
 assert
-len
-(
-out
-)
-=
-=
-5
-    
-assert
 out
 [
 0
@@ -354,6 +345,27 @@ out
 [
 2
 ]
+    
+assert
+"
+2
+problems
+"
+in
+out
+[
+-
+1
+]
+    
+assert
+len
+(
+out
+)
+=
+=
+5
     
 del
 os
