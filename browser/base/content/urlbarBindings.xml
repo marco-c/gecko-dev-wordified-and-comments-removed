@@ -2725,7 +2725,7 @@ this
 .
 popup
 .
-_matchCount
+matchCount
 ;
 let
 lastResultSelected
@@ -2743,7 +2743,7 @@ this
 .
 popup
 .
-_matchCount
+matchCount
 ;
 return
 maxResultsRemaining
@@ -15640,7 +15640,7 @@ collapsed
 =
 this
 .
-_matchCount
+matchCount
 =
 =
 0
@@ -15653,7 +15653,7 @@ tabScrolling
 =
 this
 .
-_matchCount
+matchCount
 !
 =
 0
@@ -15781,7 +15781,7 @@ if
 (
 this
 .
-_matchCount
+matchCount
 )
 {
 /
@@ -16011,7 +16011,7 @@ handleKeyPress
 aEvent
 this
 .
-_matchCount
+matchCount
 !
 this
 .

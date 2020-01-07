@@ -9083,7 +9083,7 @@ collapsed
 (
 this
 .
-_matchCount
+matchCount
 =
 =
 0
@@ -9303,7 +9303,7 @@ property
 name
 =
 "
-_matchCount
+matchCount
 "
 readonly
 =
@@ -9381,7 +9381,7 @@ i
 =
 this
 .
-_matchCount
+matchCount
 ;
 i
 <
@@ -9485,7 +9485,7 @@ min
 (
 this
 .
-_matchCount
+matchCount
 this
 .
 maxRows
@@ -10050,7 +10050,7 @@ matchCount
 =
 this
 .
-_matchCount
+matchCount
 ;
 var
 existingItemsCount
@@ -11027,7 +11027,7 @@ this
 selectedIndex
 this
 .
-_matchCount
+matchCount
 -
 1
 )

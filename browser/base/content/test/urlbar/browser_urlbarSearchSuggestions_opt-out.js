@@ -366,7 +366,7 @@ gURLBar
 .
 popup
 .
-_matchCount
+matchCount
 0
 "
 popup
@@ -646,7 +646,7 @@ gURLBar
 .
 popup
 .
-_matchCount
+matchCount
 0
 "
 popup

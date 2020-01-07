@@ -6513,7 +6513,7 @@ this
 .
 popup
 .
-_matchCount
+matchCount
 ;
 this
 .
@@ -8754,7 +8754,7 @@ collapsed
 (
 this
 .
-_matchCount
+matchCount
 =
 =
 0
