@@ -159,6 +159,18 @@ use
 values
 :
 :
+generics
+:
+:
+font
+:
+:
+FontTag
+;
+use
+values
+:
+:
 specified
 :
 :
@@ -166,7 +178,6 @@ font
 :
 :
 {
-FontTag
 FontVariationSettings
 SpecifiedFontFeatureSettings
 }

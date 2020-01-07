@@ -64,6 +64,7 @@ derive
 (
 MallocSizeOf
 PartialEq
+ToAnimatedZero
 ToComputedValue
 )
 ]
