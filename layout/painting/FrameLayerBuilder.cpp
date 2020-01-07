@@ -19166,6 +19166,15 @@ item
 Frame
 (
 )
+-
+>
+GetContainingBlock
+(
+nsIFrame
+:
+:
+SKIP_SCROLLED_FRAME
+)
 )
 ;
 params
