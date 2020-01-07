@@ -312,15 +312,6 @@ xul
 browser
 -
 test
--
-overlay
-.
-xul
-'
-'
-browser
--
-test
 .
 js
 '
