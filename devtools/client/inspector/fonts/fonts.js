@@ -1861,6 +1861,8 @@ onToggleFontHighlight
 font
 show
 isForCurrentElement
+=
+true
 )
 {
 if

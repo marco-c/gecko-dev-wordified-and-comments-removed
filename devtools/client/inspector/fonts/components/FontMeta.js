@@ -166,13 +166,6 @@ font
 )
 .
 isRequired
-isForCurrentElement
-:
-PropTypes
-.
-bool
-.
-isRequired
 onToggleFontHighlight
 :
 PropTypes
@@ -258,7 +251,6 @@ onNameMouseOver
 let
 {
 font
-isForCurrentElement
 onToggleFontHighlight
 }
 =
@@ -270,7 +262,6 @@ onToggleFontHighlight
 (
 font
 true
-isForCurrentElement
 )
 ;
 }
@@ -281,7 +272,6 @@ onNameMouseOut
 let
 {
 font
-isForCurrentElement
 onToggleFontHighlight
 }
 =
@@ -293,7 +283,6 @@ onToggleFontHighlight
 (
 font
 false
-isForCurrentElement
 )
 ;
 }

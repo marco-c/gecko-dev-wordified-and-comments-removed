@@ -278,6 +278,7 @@ FontEditor
 fontEditor
 onInstanceChange
 onPropertyChange
+onToggleFontHighlight
 }
 )
 FontOverview

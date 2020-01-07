@@ -138,13 +138,6 @@ font
 )
 .
 isRequired
-isCurrentElementFonts
-:
-PropTypes
-.
-bool
-.
-isRequired
 onPreviewFonts
 :
 PropTypes
@@ -170,7 +163,6 @@ let
 {
 fonts
 fontOptions
-isCurrentElementFonts
 onPreviewFonts
 onToggleFontHighlight
 }
@@ -211,9 +203,6 @@ key
 i
 font
 fontOptions
-isForCurrentElement
-:
-isCurrentElementFonts
 onPreviewFonts
 onToggleFontHighlight
 }
