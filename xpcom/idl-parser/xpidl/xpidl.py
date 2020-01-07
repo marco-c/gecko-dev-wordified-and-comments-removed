@@ -6808,11 +6808,21 @@ self
 realtype
 .
 kind
-=
-=
+in
+[
 '
 builtin
 '
+'
+interface
+'
+'
+forward
+'
+'
+webidl
+'
+]
 :
             
 raise
@@ -6825,6 +6835,9 @@ infallible
 only
 works
 on
+interfaces
+domobjects
+and
 builtin
 types
 '

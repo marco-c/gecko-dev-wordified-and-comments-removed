@@ -1610,6 +1610,17 @@ and
 m
 .
 infallible
+and
+m
+.
+realtype
+.
+kind
+=
+=
+'
+builtin
+'
 :
             
 return
