@@ -93,6 +93,17 @@ body
 text
 of
 snippet
+.
+HTML
+subset
+allowed
+:
+i
+b
+u
+strong
+em
+br
 "
 }
 "

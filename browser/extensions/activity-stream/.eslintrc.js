@@ -139,6 +139,13 @@ rules
 :
 {
 "
+no
+-
+undef
+"
+:
+1
+"
 promise
 /
 catch

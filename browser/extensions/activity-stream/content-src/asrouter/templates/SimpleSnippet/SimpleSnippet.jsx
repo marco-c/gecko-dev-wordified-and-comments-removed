@@ -430,6 +430,11 @@ body
 {
 props
 .
+richText
+|
+|
+props
+.
 content
 .
 text
