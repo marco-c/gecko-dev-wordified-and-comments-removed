@@ -969,6 +969,7 @@ aType
 mContentBackendBitmask
 ;
 }
+virtual
 bool
 AllowOpenGLCanvas
 (
