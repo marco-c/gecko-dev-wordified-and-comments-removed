@@ -79,7 +79,7 @@ zoom
 =
 1
 .
-5
+4
 ;
 Services
 .
@@ -116,7 +116,7 @@ menu
 with
 x1
 .
-5
+4
 zoom
 .
 "
@@ -228,7 +228,7 @@ with
 zoom
 x1
 .
-5
+4
 "
 )
 ;
@@ -255,10 +255,7 @@ toFixed
 =
 =
 =
-parseFloat
-(
 zoom
-)
 ;
 }
 )
