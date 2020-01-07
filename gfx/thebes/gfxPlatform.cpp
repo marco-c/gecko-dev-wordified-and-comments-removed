@@ -3895,6 +3895,18 @@ GetFTLibrary
 ;
 #
 endif
+gPlatform
+-
+>
+mHasVariationFontSupport
+=
+gPlatform
+-
+>
+CheckVariationFontSupport
+(
+)
+;
 nsresult
 rv
 ;
@@ -4302,7 +4314,7 @@ if
 gPlatform
 -
 >
-CheckVariationFontSupport
+HasVariationFontSupport
 (
 )
 )

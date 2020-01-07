@@ -2722,7 +2722,7 @@ return
 nsCocoaFeatures
 :
 :
-OnSierraOrLater
+OnHighSierraOrLater
 (
 )
 ;
