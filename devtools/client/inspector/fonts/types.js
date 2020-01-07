@@ -88,7 +88,7 @@ exports
 fontVariationInstance
 =
 {
-axis
+name
 :
 PropTypes
 .
@@ -196,6 +196,11 @@ axes
 PropTypes
 .
 object
+customInstanceValues
+:
+PropTypes
+.
+array
 fonts
 :
 PropTypes
@@ -208,6 +213,14 @@ shape
 (
 font
 )
+)
+instance
+:
+PropTypes
+.
+shape
+(
+fontVariationInstance
 )
 isVisible
 :
