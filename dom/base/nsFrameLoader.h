@@ -136,7 +136,7 @@ class
 nsView
 ;
 class
-nsIInProcessContentFrameMessageManager
+nsInProcessTabChildGlobal
 ;
 class
 AutoResetInShow
@@ -1013,9 +1013,9 @@ ChromeMessageSender
 >
 mMessageManager
 ;
-nsCOMPtr
+RefPtr
 <
-nsIInProcessContentFrameMessageManager
+nsInProcessTabChildGlobal
 >
 mChildMessageManager
 ;
