@@ -50,6 +50,11 @@ aGlobalWindow
 )
 ;
 void
+NotifyAfterLoad
+(
+)
+;
+void
 NotifyVRDisplayMounted
 (
 uint32_t
