@@ -767,6 +767,9 @@ bool
 mInitialised
 ;
 bool
+mSentDL
+;
+bool
 mIsChanged
 ;
 bool
