@@ -1910,7 +1910,7 @@ name
 bindings
 -
 >
-names
+trailingNames
 [
 i
 ]
