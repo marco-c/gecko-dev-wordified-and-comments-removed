@@ -910,6 +910,11 @@ DOMMatrix
 h
 '
 '
+DOMMozPromiseRequestHolder
+.
+h
+'
+'
 DOMParser
 .
 h
