@@ -893,10 +893,9 @@ GenericPromise
 >
 MaybeClaimClient
 (
-const
-ClientInfo
-&
-aClientInfo
+nsIDocument
+*
+aDocument
 ServiceWorkerRegistrationInfo
 *
 aWorkerRegistration
@@ -908,10 +907,9 @@ GenericPromise
 >
 MaybeClaimClient
 (
-const
-ClientInfo
-&
-aClientInfo
+nsIDocument
+*
+aDoc
 const
 ServiceWorkerDescriptor
 &
