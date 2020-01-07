@@ -32,6 +32,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
+skip
 class
 TestCommandLineArguments
 (
@@ -462,6 +463,23 @@ winreg
 CloseKey
 (
 reg_policies
+)
+    
+skip
+(
+"
+Bug
+1430717
+-
+Causes
+'
+1000s
+of
+no
+output
+'
+failures
+"
 )
     
 def
