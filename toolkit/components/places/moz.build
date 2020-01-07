@@ -164,11 +164,6 @@ nsIAnnotationService
 idl
 '
 '
-nsIBrowserHistory
-.
-idl
-'
-'
 nsIFaviconService
 .
 idl
