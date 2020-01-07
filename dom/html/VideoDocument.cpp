@@ -629,9 +629,13 @@ fileName
 aChannel
 )
 ;
+IgnoredErrorResult
+ignored
+;
 SetTitle
 (
 fileName
+ignored
 )
 ;
 }

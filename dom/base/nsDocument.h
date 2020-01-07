@@ -4327,7 +4327,7 @@ virtual
 void
 GetTitle
 (
-nsString
+nsAString
 &
 aTitle
 )

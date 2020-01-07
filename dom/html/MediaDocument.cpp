@@ -1712,9 +1712,13 @@ IsEmpty
 )
 )
 {
+IgnoredErrorResult
+ignored
+;
 SetTitle
 (
 title
+ignored
 )
 ;
 }
@@ -1767,9 +1771,13 @@ formatStrings
 titleWithStatus
 )
 ;
+IgnoredErrorResult
+ignored
+;
 SetTitle
 (
 titleWithStatus
+ignored
 )
 ;
 }
