@@ -338,15 +338,6 @@ reason
 .
 over_quota
 "
-PROLONGED_SYNC_FAILURE
-:
-"
-error
-.
-sync
-.
-prolonged_failure
-"
 SERVER_MAINTENANCE
 :
 "
