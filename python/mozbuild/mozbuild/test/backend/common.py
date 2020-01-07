@@ -1327,6 +1327,14 @@ OBJ_SUFFIX
 '
 o
 '
+            
+'
+EXPAND_LIBS_LIST_STYLE
+'
+:
+'
+list
+'
         
 }
     
