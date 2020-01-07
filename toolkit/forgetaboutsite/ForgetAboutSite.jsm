@@ -134,7 +134,7 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_ALL
+CLEAR_FORGET_ABOUT_SITE
 value
 =
 >
