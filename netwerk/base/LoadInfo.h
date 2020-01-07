@@ -276,6 +276,8 @@ bool
 aInitialSecurityCheckDone
 bool
 aIsThirdPartyRequest
+bool
+aIsDocshellReload
 const
 OriginAttributes
 &
@@ -551,6 +553,9 @@ mInitialSecurityCheckDone
 ;
 bool
 mIsThirdPartyContext
+;
+bool
+mIsDocshellReload
 ;
 OriginAttributes
 mOriginAttributes

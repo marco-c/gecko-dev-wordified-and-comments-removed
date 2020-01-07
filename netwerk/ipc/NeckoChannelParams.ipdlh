@@ -466,6 +466,9 @@ initialSecurityCheckDone
 bool
 isInThirdPartyContext
 ;
+bool
+isDocshellReload
+;
 OriginAttributes
 originAttributes
 ;
