@@ -129,7 +129,7 @@ object
 *
 /
 [
-scriptable
+builtinclass
 uuid
 (
 d6c67f38
@@ -145,6 +145,8 @@ b39a
 ]
 interface
 nsICache
+:
+nsISupports
 {
 /
 *
