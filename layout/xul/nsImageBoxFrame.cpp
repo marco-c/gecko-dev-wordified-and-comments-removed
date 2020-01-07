@@ -2017,7 +2017,7 @@ return
 ImgDrawResult
 :
 :
-BAD_IMAGE
+NOT_READY
 ;
 }
 wr
