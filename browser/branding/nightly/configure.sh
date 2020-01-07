@@ -55,7 +55,7 @@ MPL
 .
 MOZ_APP_DISPLAYNAME
 =
-Nightly
+FirefoxNightly
 MOZ_MACBUNDLE_ID
 =
 nightly
