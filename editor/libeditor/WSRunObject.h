@@ -1092,14 +1092,14 @@ aPoint
 )
 ;
 nsresult
-ConvertToNBSP
+InsertNBSPAndRemoveFollowingASCIIWhitespaces
 (
 WSPoint
 aPoint
 )
 ;
 void
-GetAsciiWSBounds
+GetASCIIWhitespacesBounds
 (
 int16_t
 aDir
