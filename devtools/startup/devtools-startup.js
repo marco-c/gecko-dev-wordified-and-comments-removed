@@ -2422,9 +2422,7 @@ else
 let
 startTime
 =
-window
-.
-performance
+Cu
 .
 now
 (
