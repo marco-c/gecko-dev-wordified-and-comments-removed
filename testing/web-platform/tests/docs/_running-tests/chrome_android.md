@@ -1,3 +1,17 @@
+-
+-
+-
+layout
+:
+page
+title
+:
+Chrome
+for
+Android
+-
+-
+-
 To
 run
 WPT
@@ -180,6 +194,6 @@ product
 wpt
 run
 chrome_android
-<
-test
->
+[
+test_list
+]
