@@ -1009,8 +1009,6 @@ type
 =
 "
 menu
--
-button
 "
 category
 =
@@ -1199,8 +1197,6 @@ type
 =
 "
 menu
--
-button
 "
 category
 =
@@ -1354,8 +1350,6 @@ type
 =
 "
 menu
--
-button
 "
 category
 =
@@ -1509,8 +1503,6 @@ type
 =
 "
 menu
--
-button
 "
 category
 =
@@ -1638,8 +1630,6 @@ type
 =
 "
 menu
--
-button
 "
 category
 =
@@ -1901,8 +1891,6 @@ type
 =
 "
 menu
--
-button
 "
 category
 =
