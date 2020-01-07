@@ -1001,11 +1001,13 @@ if
 (
 negate
 )
+{
 result
 =
 -
 result
 ;
+}
 return
 result
 .
