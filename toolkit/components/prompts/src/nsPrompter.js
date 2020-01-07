@@ -2252,6 +2252,8 @@ winUtils
 =
 domWin
 .
+top
+.
 QueryInterface
 (
 Ci
