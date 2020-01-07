@@ -49,6 +49,7 @@ Qualifier
 css
 (
 comma
+derive_debug
 )
 ]
 #
@@ -56,7 +57,6 @@ comma
 derive
 (
 Clone
-Debug
 MallocSizeOf
 ToCss
 )

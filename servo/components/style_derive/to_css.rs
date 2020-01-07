@@ -1471,6 +1471,10 @@ String
 >
 >
 pub
+derive_debug
+:
+bool
+pub
 comma
 :
 bool
