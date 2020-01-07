@@ -2534,15 +2534,6 @@ LineDecoration
 .
 .
 )
-|
-ClipSource
-:
-:
-BorderCorner
-(
-.
-.
-)
 =
 >
 {

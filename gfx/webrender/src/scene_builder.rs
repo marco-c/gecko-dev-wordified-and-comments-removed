@@ -225,6 +225,10 @@ Vec
 <
 PipelineId
 >
+pub
+scene_id
+:
+u64
 }
 pub
 struct

@@ -2329,6 +2329,14 @@ EnableDualSourceBlending
 (
 bool
 )
+EnableNewFrameIndicator
+(
+bool
+)
+EnableNewSceneIndicator
+(
+bool
+)
 FetchDocuments
 FetchPasses
 FetchClipScrollTree

@@ -502,6 +502,7 @@ stretch_size
 .
 x
 =
+(
 texel_rect
 .
 z
@@ -509,6 +510,9 @@ z
 texel_rect
 .
 x
+)
+/
+uDevicePixelRatio
 ;
 }
 if
@@ -527,6 +531,7 @@ stretch_size
 .
 y
 =
+(
 texel_rect
 .
 w
@@ -534,6 +539,9 @@ w
 texel_rect
 .
 y
+)
+/
+uDevicePixelRatio
 ;
 }
 uv0
