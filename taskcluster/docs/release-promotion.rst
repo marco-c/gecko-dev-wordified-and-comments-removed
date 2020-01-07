@@ -68,7 +68,6 @@ integration
 tests
 .
 This
-also
 meant
 we
 required
@@ -78,7 +77,6 @@ at
 release
 time
 which
-also
 increased
 the
 end
@@ -166,6 +164,11 @@ is
 reduced
 significantly
 .
+.
+.
+_release
+promotion
+phases
 Release
 Promotion
 Phases
