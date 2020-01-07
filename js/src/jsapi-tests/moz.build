@@ -161,6 +161,11 @@ testCloneScript
 cpp
 '
 '
+testCompileNonSyntactic
+.
+cpp
+'
+'
 testDateToLocaleString
 .
 cpp
