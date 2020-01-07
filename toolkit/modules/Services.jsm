@@ -977,9 +977,6 @@ blocklist
 ;
 1
 "
-"
-nsIBlocklistService
-"
 ]
 netUtils
 :
