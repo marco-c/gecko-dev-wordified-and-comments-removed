@@ -25902,10 +25902,6 @@ if
 (
 !
 mPaused
-&
-&
-!
-mPausedForInactiveDocumentOrChannel
 )
 {
 if
@@ -26349,12 +26345,6 @@ CurrentTime
 )
 ;
 }
-MOZ_ASSERT
-(
-!
-mPausedForInactiveDocumentOrChannel
-)
-;
 mDecoder
 -
 >
