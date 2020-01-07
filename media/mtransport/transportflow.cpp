@@ -79,6 +79,11 @@ is_empty
 )
 ;
 }
+if
+(
+target_
+)
+{
 nsAutoPtr
 <
 std
@@ -114,6 +119,7 @@ layers_tmp
 NS_DISPATCH_NORMAL
 )
 ;
+}
 }
 void
 TransportFlow
