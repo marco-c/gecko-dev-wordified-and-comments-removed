@@ -259,17 +259,5 @@ initialized
 false
 }
 ]
-"
-Theme
-"
-:
-{
-"
-className
-"
-:
-"
-"
-}
 }
 ;

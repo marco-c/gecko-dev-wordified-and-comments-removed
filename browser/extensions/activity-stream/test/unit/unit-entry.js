@@ -506,14 +506,6 @@ function
 )
 {
 }
-LightweightThemeManager
-:
-{
-currentThemeForDisplay
-:
-{
-}
-}
 PlacesUtils
 :
 {
