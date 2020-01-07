@@ -75,6 +75,19 @@ NO
 "
 )
 )
+               
+(
+"
+Content
+-
+Type
+"
+"
+text
+/
+plain
+"
+)
 ]
     
 content
