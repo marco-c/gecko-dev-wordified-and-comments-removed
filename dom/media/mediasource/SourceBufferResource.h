@@ -96,6 +96,7 @@ nsresult
 Close
 (
 )
+override
 ;
 nsresult
 ReadAt
