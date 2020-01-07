@@ -28,10 +28,6 @@ LenientThis
 )
 DEPRECATED_OPERATION
 (
-GetPreventDefault
-)
-DEPRECATED_OPERATION
-(
 GetSetUserData
 )
 DEPRECATED_OPERATION
