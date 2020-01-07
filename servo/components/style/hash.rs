@@ -17,7 +17,7 @@ use
 hashglobe
 :
 :
-hash_map
+order
 :
 :
 HashMap
@@ -38,7 +38,7 @@ use
 hashglobe
 :
 :
-hash_set
+order
 :
 :
 HashSet
@@ -87,11 +87,13 @@ use
 hashglobe
 :
 :
-hash_map
+order
 :
 :
 {
 Entry
+MapIter
+as
 Iter
 }
 ;

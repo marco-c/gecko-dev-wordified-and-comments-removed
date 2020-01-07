@@ -1051,11 +1051,12 @@ self
 .
 class_to_selector
 .
-entry
+try_entry
 (
 class
 quirks_mode
 )
+?
 .
 or_insert_with
 (
@@ -1095,11 +1096,12 @@ self
 .
 id_to_selector
 .
-entry
+try_entry
 (
 id
 quirks_mode
 )
+?
 .
 or_insert_with
 (
