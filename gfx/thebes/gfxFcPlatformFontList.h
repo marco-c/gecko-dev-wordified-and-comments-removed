@@ -405,6 +405,11 @@ aCh
 )
 override
 ;
+FT_Face
+GetFTFace
+(
+)
+;
 hb_blob_t
 *
 GetFontTable

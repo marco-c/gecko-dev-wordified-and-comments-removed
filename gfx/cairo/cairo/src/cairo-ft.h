@@ -48,6 +48,12 @@ FT_Face
 face
 int
 load_flags
+const
+FT_Fixed
+*
+var_coords
+int
+num_var_coords
 )
 ;
 cairo_public
@@ -79,6 +85,12 @@ cairo_ft_font_face_create_for_pattern
 FcPattern
 *
 pattern
+const
+FT_Fixed
+*
+var_coords
+int
+num_var_coords
 )
 ;
 cairo_public

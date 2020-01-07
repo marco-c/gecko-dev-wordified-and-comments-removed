@@ -1900,6 +1900,8 @@ font
 cairo_ft_font_face_create_for_pattern
 (
 pattern
+nullptr
+0
 )
 ;
 if

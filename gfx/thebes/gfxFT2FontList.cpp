@@ -1776,6 +1776,8 @@ cairo_ft_font_face_create_for_ft_face
 (
 aFace
 flags
+nullptr
+0
 )
 ;
 FTUserFontData
@@ -1989,6 +1991,8 @@ cairo_ft_font_face_create_for_ft_face
 (
 face
 flags
+nullptr
+0
 )
 ;
 FTUserFontData
