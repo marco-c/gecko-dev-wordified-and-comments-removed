@@ -462,9 +462,7 @@ CLIP_LOG
 Pushing
 override
 %
-"
-PRIu64
-"
+zu
 -
 >
 %
@@ -668,9 +666,7 @@ CLIP_LOG
 Popping
 override
 %
-"
-PRIu64
-"
+zu
 -
 >
 %
@@ -828,9 +824,7 @@ CLIP_LOG
 "
 Overriding
 %
-"
-PRIu64
-"
+zu
 with
 %
 s
@@ -1637,9 +1631,7 @@ p
 =
 >
 %
-"
-PRIu64
-"
+zu
 \
 n
 "
@@ -1835,9 +1827,7 @@ p
 <
 =
 %
-"
-PRIu64
-"
+zu
 \
 n
 "
