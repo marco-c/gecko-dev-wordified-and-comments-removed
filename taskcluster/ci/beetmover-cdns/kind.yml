@@ -106,6 +106,8 @@ release
 generate
 -
 checksums
+-
+beetmover
 job
 -
 defaults
