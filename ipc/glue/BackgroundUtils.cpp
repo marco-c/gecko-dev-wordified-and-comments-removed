@@ -1981,6 +1981,12 @@ GetLoadTriggeredFromExternal
 aLoadInfo
 -
 >
+GetServiceWorkerTaintingSynthesized
+(
+)
+aLoadInfo
+-
+>
 GetForceHSTSPriming
 (
 )
@@ -2566,6 +2572,11 @@ isPreflight
 loadInfoArgs
 .
 loadTriggeredFromExternal
+(
+)
+loadInfoArgs
+.
+serviceWorkerTaintingSynthesized
 (
 )
 loadInfoArgs
