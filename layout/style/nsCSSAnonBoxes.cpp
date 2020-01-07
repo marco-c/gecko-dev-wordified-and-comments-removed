@@ -151,7 +151,7 @@ void
 nsCSSAnonBoxes
 :
 :
-AddRefAtoms
+RegisterStaticAtoms
 (
 )
 {

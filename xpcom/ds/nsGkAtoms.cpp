@@ -92,7 +92,7 @@ void
 nsGkAtoms
 :
 :
-AddRefAtoms
+RegisterStaticAtoms
 (
 )
 {

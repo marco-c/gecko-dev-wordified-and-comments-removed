@@ -358,7 +358,7 @@ void
 nsCSSPseudoClasses
 :
 :
-AddRefAtoms
+RegisterStaticAtoms
 (
 )
 {

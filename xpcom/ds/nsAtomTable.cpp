@@ -2347,7 +2347,7 @@ nsAtomTable
 nsGkAtoms
 :
 :
-AddRefAtoms
+RegisterStaticAtoms
 (
 )
 ;

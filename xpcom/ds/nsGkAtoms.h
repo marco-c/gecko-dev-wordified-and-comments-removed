@@ -18,7 +18,7 @@ public
 :
 static
 void
-AddRefAtoms
+RegisterStaticAtoms
 (
 )
 ;
