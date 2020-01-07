@@ -181,11 +181,6 @@ nsIURIRefObject
 .
 idl
 '
-'
-nsPIEditorTransaction
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
