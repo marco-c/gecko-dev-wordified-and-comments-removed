@@ -1169,10 +1169,6 @@ script
 always
 -
 optimized
-*
-fetch
--
-url
 Task
 Descriptions
 -
