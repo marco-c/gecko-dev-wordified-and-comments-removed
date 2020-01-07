@@ -1741,6 +1741,10 @@ input
 )
 ;
 }
+mOps
++
++
+;
 jemalloc_stats_t
 stats
 ;
