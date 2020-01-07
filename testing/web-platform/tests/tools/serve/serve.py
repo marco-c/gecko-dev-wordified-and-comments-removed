@@ -53,6 +53,12 @@ localpaths
 import
 repo_root
 from
+six
+.
+moves
+import
+reload_module
+from
 manifest
 .
 sourcefile
@@ -4215,7 +4221,7 @@ kwargs
 )
 :
     
-reload
+reload_module
 (
 logging
 )
@@ -4266,7 +4272,7 @@ kwargs
 )
 :
     
-reload
+reload_module
 (
 logging
 )
