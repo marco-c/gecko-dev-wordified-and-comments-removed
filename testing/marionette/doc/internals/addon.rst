@@ -12,6 +12,12 @@ module
 =
 =
 =
+Addon
+-
+-
+-
+-
+-
 .
 .
 js
@@ -19,7 +25,7 @@ js
 autoclass
 :
 :
-addon
+Addon
 :
 members
 :

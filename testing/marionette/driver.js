@@ -98,6 +98,11 @@ js
 "
 )
 ;
+const
+{
+Addon
+}
+=
 ChromeUtils
 .
 import
@@ -115,6 +120,8 @@ addon
 .
 js
 "
+{
+}
 )
 ;
 ChromeUtils
@@ -12084,7 +12091,7 @@ InvalidArgumentError
 ;
 }
 return
-addon
+Addon
 .
 install
 (
@@ -12148,7 +12155,7 @@ InvalidArgumentError
 ;
 }
 return
-addon
+Addon
 .
 uninstall
 (
