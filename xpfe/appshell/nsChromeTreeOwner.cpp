@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIXULBrowserWindow
 .
 h

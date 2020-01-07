@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

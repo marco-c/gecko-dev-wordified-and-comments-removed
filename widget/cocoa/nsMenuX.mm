@@ -264,13 +264,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsBindingManager
 .
 h

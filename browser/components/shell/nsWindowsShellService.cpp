@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIImageLoadingContent
 .
 h

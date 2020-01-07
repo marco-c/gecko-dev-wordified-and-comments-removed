@@ -242,13 +242,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -11157,13 +11150,6 @@ BackingScaleFactorChanged
 )
 ;
 }
-mWidgetListener
--
->
-UIResolutionChanged
-(
-)
-;
 }
 int32_t
 nsCocoaWindow
