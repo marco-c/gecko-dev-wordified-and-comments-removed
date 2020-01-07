@@ -609,14 +609,6 @@ aNewDefaultPort
 )
 ;
 nsresult
-SetFile
-(
-nsIFile
-*
-file
-)
-;
-nsresult
 SetFileNameInternal
 (
 const
@@ -2078,6 +2070,7 @@ T
 ;
 class
 Mutator
+final
 :
 public
 TemplatedMutator
