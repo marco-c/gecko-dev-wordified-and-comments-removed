@@ -178,12 +178,6 @@ std
 :
 :
 string
-appTempDir
-;
-std
-:
-:
-string
 profileDir
 ;
 std
