@@ -5553,7 +5553,6 @@ size_t
 index
 )
 final
-override
 {
 return
 &
@@ -5573,7 +5572,6 @@ index
 )
 const
 final
-override
 {
 return
 &
@@ -5616,7 +5614,6 @@ index
 )
 const
 final
-override
 {
 return
 operands_
@@ -5635,7 +5632,6 @@ numOperands
 )
 const
 final
-override
 {
 return
 Arity
@@ -5663,7 +5659,6 @@ u
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -5713,7 +5708,6 @@ MDefinition
 operand
 )
 final
-override
 {
 operands_
 [
@@ -6428,7 +6422,6 @@ size_t
 index
 )
 final
-override
 {
 return
 &
@@ -6448,7 +6441,6 @@ index
 )
 const
 final
-override
 {
 return
 &
@@ -6469,7 +6461,6 @@ index
 )
 const
 final
-override
 {
 return
 operands_
@@ -6488,7 +6479,6 @@ numOperands
 )
 const
 final
-override
 {
 return
 operands_
@@ -6508,7 +6498,6 @@ u
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -6558,7 +6547,6 @@ MDefinition
 operand
 )
 final
-override
 {
 operands_
 [
@@ -13593,7 +13581,6 @@ u
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -13620,7 +13607,6 @@ MDefinition
 operand
 )
 final
-override
 {
 MOZ_ASSERT
 (
@@ -13725,7 +13711,6 @@ size_t
 index
 )
 final
-override
 {
 return
 &
@@ -13745,7 +13730,6 @@ index
 )
 const
 final
-override
 {
 return
 &
@@ -13788,7 +13772,6 @@ index
 )
 const
 final
-override
 {
 return
 operands_
@@ -13807,7 +13790,6 @@ numOperands
 )
 const
 final
-override
 {
 return
 Arity
@@ -13823,7 +13805,6 @@ u
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -13873,7 +13854,6 @@ MDefinition
 operand
 )
 final
-override
 {
 operands_
 [
@@ -13892,7 +13872,6 @@ numSuccessors
 )
 const
 final
-override
 {
 return
 Successors
@@ -13907,7 +13886,6 @@ i
 )
 const
 final
-override
 {
 return
 successors_
@@ -13926,7 +13904,6 @@ MBasicBlock
 succ
 )
 final
-override
 {
 successors_
 [
@@ -33226,7 +33203,6 @@ u
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -33276,7 +33252,6 @@ MDefinition
 operand
 )
 final
-override
 {
 inputs_
 [
@@ -47438,7 +47413,6 @@ size_t
 index
 )
 final
-override
 {
 MOZ_ASSERT
 (
@@ -47463,7 +47437,6 @@ index
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -47487,7 +47460,6 @@ index
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -47511,7 +47483,6 @@ numOperands
 )
 const
 final
-override
 {
 return
 1
@@ -47527,7 +47498,6 @@ u
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -47554,7 +47524,6 @@ MDefinition
 operand
 )
 final
-override
 {
 MOZ_ASSERT
 (
@@ -47625,7 +47594,6 @@ numSuccessors
 )
 const
 final
-override
 {
 return
 map_
@@ -47653,7 +47621,6 @@ MBasicBlock
 successor
 )
 final
-override
 {
 setSuccessor
 (
@@ -47671,7 +47638,6 @@ i
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -56122,7 +56088,6 @@ u
 )
 const
 final
-override
 {
 MOZ_ASSERT
 (
@@ -56194,7 +56159,6 @@ MDefinition
 operand
 )
 final
-override
 {
 operands_
 [

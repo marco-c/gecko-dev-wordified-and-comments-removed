@@ -1734,7 +1734,6 @@ AutoLock
 &
 )
 final
-override
 {
 }
 void
@@ -1742,7 +1741,6 @@ NotifyHandlerEnd
 (
 )
 final
-override
 {
 }
 protected

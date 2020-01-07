@@ -45,7 +45,6 @@ MakePrintTarget
 (
 )
 final
-override
 ;
 NS_IMETHOD
 Init

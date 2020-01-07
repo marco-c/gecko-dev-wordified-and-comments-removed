@@ -117,7 +117,6 @@ aSubjectPrincipal
 )
 const
 final
-override
 ;
 mozilla
 :

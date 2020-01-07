@@ -106,7 +106,6 @@ MutexAutoLock
 aProofOfLock
 )
 final
-override
 ;
 already_AddRefed
 <
@@ -123,7 +122,6 @@ MutexAutoLock
 aProofOfLock
 )
 final
-override
 ;
 bool
 IsEmpty
@@ -134,7 +132,6 @@ MutexAutoLock
 aProofOfLock
 )
 final
-override
 ;
 size_t
 Count
@@ -146,7 +143,6 @@ aProofOfLock
 )
 const
 final
-override
 ;
 bool
 HasReadyEvent
@@ -157,7 +153,6 @@ MutexAutoLock
 aProofOfLock
 )
 final
-override
 ;
 void
 EnableInputEventPrioritization
@@ -168,7 +163,6 @@ MutexAutoLock
 aProofOfLock
 )
 final
-override
 {
 }
 void
@@ -180,7 +174,6 @@ MutexAutoLock
 aProofOfLock
 )
 final
-override
 {
 }
 void
@@ -192,7 +185,6 @@ MutexAutoLock
 aProofOfLock
 )
 final
-override
 {
 }
 void
@@ -204,7 +196,6 @@ MutexAutoLock
 aProofOfLock
 )
 final
-override
 {
 }
 private

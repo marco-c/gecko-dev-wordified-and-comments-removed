@@ -74,7 +74,6 @@ nsIAccessible
 aCaption
 )
 final
-override
 ;
 NS_IMETHOD
 GetSummary
@@ -84,7 +83,6 @@ nsAString
 aSummary
 )
 final
-override
 ;
 NS_IMETHOD
 GetColumnCount
@@ -94,7 +92,6 @@ int32_t
 aColumnCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetRowCount
@@ -104,7 +101,6 @@ int32_t
 aRowCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetCellAt
@@ -119,7 +115,6 @@ nsIAccessible
 aCell
 )
 final
-override
 ;
 NS_IMETHOD
 GetCellIndexAt
@@ -133,7 +128,6 @@ int32_t
 aCellIndex
 )
 final
-override
 ;
 NS_IMETHOD
 GetColumnIndexAt
@@ -145,7 +139,6 @@ int32_t
 aColumnIndex
 )
 final
-override
 ;
 NS_IMETHOD
 GetRowIndexAt
@@ -157,7 +150,6 @@ int32_t
 aRowIndex
 )
 final
-override
 ;
 NS_IMETHOD
 GetRowAndColumnIndicesAt
@@ -172,7 +164,6 @@ int32_t
 aColumnIndex
 )
 final
-override
 ;
 NS_IMETHOD
 GetColumnExtentAt
@@ -186,7 +177,6 @@ int32_t
 aColumnExtent
 )
 final
-override
 ;
 NS_IMETHOD
 GetRowExtentAt
@@ -200,7 +190,6 @@ int32_t
 aRowExtent
 )
 final
-override
 ;
 NS_IMETHOD
 GetColumnDescription
@@ -212,7 +201,6 @@ nsAString
 aDescription
 )
 final
-override
 ;
 NS_IMETHOD
 GetRowDescription
@@ -224,7 +212,6 @@ nsAString
 aDescription
 )
 final
-override
 ;
 NS_IMETHOD
 IsColumnSelected
@@ -236,7 +223,6 @@ bool
 _retval
 )
 final
-override
 ;
 NS_IMETHOD
 IsRowSelected
@@ -248,7 +234,6 @@ bool
 _retval
 )
 final
-override
 ;
 NS_IMETHOD
 IsCellSelected
@@ -262,7 +247,6 @@ bool
 _retval
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedCellCount
@@ -272,7 +256,6 @@ uint32_t
 aSelectedCellCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedColumnCount
@@ -282,7 +265,6 @@ uint32_t
 aSelectedColumnCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedRowCount
@@ -292,7 +274,6 @@ uint32_t
 aSelectedRowCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedCells
@@ -303,7 +284,6 @@ nsIArray
 aSelectedCell
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedCellIndices
@@ -317,7 +297,6 @@ int32_t
 aCellsArray
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedColumnIndices
@@ -331,7 +310,6 @@ int32_t
 aColsArray
 )
 final
-override
 ;
 NS_IMETHOD
 GetSelectedRowIndices
@@ -345,7 +323,6 @@ int32_t
 aRowsArray
 )
 final
-override
 ;
 NS_IMETHOD
 SelectColumn
@@ -354,7 +331,6 @@ int32_t
 aColIdx
 )
 final
-override
 ;
 NS_IMETHOD
 SelectRow
@@ -363,7 +339,6 @@ int32_t
 aRowIdx
 )
 final
-override
 ;
 NS_IMETHOD
 UnselectColumn
@@ -372,7 +347,6 @@ int32_t
 aColIdx
 )
 final
-override
 ;
 NS_IMETHOD
 UnselectRow
@@ -381,7 +355,6 @@ int32_t
 aRowIdx
 )
 final
-override
 ;
 NS_IMETHOD
 IsProbablyForLayout
@@ -391,7 +364,6 @@ bool
 aIsForLayout
 )
 final
-override
 ;
 protected
 :

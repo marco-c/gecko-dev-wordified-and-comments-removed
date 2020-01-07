@@ -374,7 +374,6 @@ nsIDocument
 aOldDoc
 )
 final
-override
 {
 ClearHasPendingLinkUpdate
 (

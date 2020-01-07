@@ -8956,7 +8956,6 @@ Run
 (
 )
 final
-override
 {
 MOZ_ASSERT
 (
@@ -9749,7 +9748,6 @@ Run
 (
 )
 final
-override
 {
 mSubImages
 .

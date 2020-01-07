@@ -67,7 +67,6 @@ GetType
 )
 const
 final
-override
 {
 return
 Rule
@@ -82,7 +81,6 @@ Type
 )
 const
 final
-override
 {
 return
 CSSRuleBinding
@@ -175,7 +173,6 @@ nsMediaQueryResultCacheKey
 aKey
 )
 final
-override
 ;
 #
 endif
@@ -208,7 +205,6 @@ JSObject
 aGivenProto
 )
 final
-override
 ;
 }
 ;

@@ -376,7 +376,6 @@ aCssText
 )
 const
 final
-override
 ;
 void
 GetConditionText
@@ -386,7 +385,6 @@ nsAString
 aConditionText
 )
 final
-override
 ;
 void
 SetConditionText
@@ -400,7 +398,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 dom
 :
@@ -411,7 +408,6 @@ Media
 (
 )
 final
-override
 ;
 virtual
 size_t
@@ -636,7 +632,6 @@ aCssText
 )
 const
 final
-override
 ;
 void
 GetConditionText
@@ -646,7 +641,6 @@ nsAString
 aConditionText
 )
 final
-override
 ;
 void
 SetConditionText
@@ -660,7 +654,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 virtual
 size_t
@@ -783,7 +776,6 @@ aIndent
 )
 const
 final
-override
 ;
 #
 endif
@@ -802,7 +794,6 @@ Clone
 )
 const
 final
-override
 ;
 void
 GetCssText
@@ -813,7 +804,6 @@ aCssText
 )
 const
 final
-override
 ;
 void
 GetFontFamily
@@ -823,7 +813,6 @@ nsAString
 aFamily
 )
 final
-override
 ;
 void
 SetFontFamily
@@ -840,7 +829,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 void
 GetValueText
@@ -850,7 +838,6 @@ nsAString
 aValueText
 )
 final
-override
 ;
 void
 SetValueText
@@ -867,7 +854,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 mozilla
 :
@@ -943,7 +929,6 @@ aMallocSizeOf
 )
 const
 final
-override
 ;
 protected
 :
@@ -1067,7 +1052,6 @@ aSubjectPrincipal
 )
 const
 final
-override
 ;
 virtual
 nsIDocument
@@ -1275,7 +1259,6 @@ aCssText
 )
 const
 final
-override
 ;
 void
 GetKeyText
@@ -1285,7 +1268,6 @@ nsAString
 aKeyText
 )
 final
-override
 ;
 void
 SetKeyText
@@ -1296,7 +1278,6 @@ nsAString
 aKeyText
 )
 final
-override
 ;
 nsICSSDeclaration
 *
@@ -1304,7 +1285,6 @@ Style
 (
 )
 final
-override
 ;
 const
 nsTArray
@@ -1511,7 +1491,6 @@ aCssText
 )
 const
 final
-override
 ;
 void
 GetName
@@ -1522,7 +1501,6 @@ aName
 )
 const
 final
-override
 ;
 void
 SetName
@@ -1533,7 +1511,6 @@ nsAString
 aName
 )
 final
-override
 ;
 mozilla
 :
@@ -1547,7 +1524,6 @@ CssRules
 (
 )
 final
-override
 {
 return
 GroupRule
@@ -1567,7 +1543,6 @@ nsAString
 aRule
 )
 final
-override
 ;
 void
 DeleteRule
@@ -1578,7 +1553,6 @@ nsAString
 aKey
 )
 final
-override
 ;
 nsCSSKeyframeRule
 *
@@ -1590,7 +1564,6 @@ nsAString
 aKey
 )
 final
-override
 ;
 const
 nsAtom
@@ -1730,7 +1703,6 @@ aSubjectPrincipal
 )
 const
 final
-override
 ;
 virtual
 nsIDocument
@@ -2092,7 +2064,6 @@ aCssText
 )
 const
 final
-override
 ;
 void
 GetConditionText
@@ -2102,7 +2073,6 @@ nsAString
 aConditionText
 )
 final
-override
 ;
 void
 SetConditionText
@@ -2116,7 +2086,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 virtual
 size_t

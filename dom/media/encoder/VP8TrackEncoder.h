@@ -76,7 +76,6 @@ GetMetadata
 (
 )
 final
-override
 ;
 nsresult
 GetEncodedTrack
@@ -86,7 +85,6 @@ EncodedFrameContainer
 aData
 )
 final
-override
 ;
 protected
 :
@@ -103,7 +101,6 @@ int32_t
 aDisplayHeight
 )
 final
-override
 ;
 private
 :

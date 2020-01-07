@@ -43,7 +43,6 @@ nsIAccessible
 aParent
 )
 final
-override
 ;
 NS_IMETHOD
 GetNextSibling
@@ -54,7 +53,6 @@ nsIAccessible
 aNextSibling
 )
 final
-override
 ;
 NS_IMETHOD
 GetPreviousSibling
@@ -65,7 +63,6 @@ nsIAccessible
 aPreviousSibling
 )
 final
-override
 ;
 NS_IMETHOD
 GetFirstChild
@@ -76,7 +73,6 @@ nsIAccessible
 aFirstChild
 )
 final
-override
 ;
 NS_IMETHOD
 GetLastChild
@@ -87,7 +83,6 @@ nsIAccessible
 aLastChild
 )
 final
-override
 ;
 NS_IMETHOD
 GetChildCount
@@ -97,7 +92,6 @@ int32_t
 aChildCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetChildAt
@@ -110,7 +104,6 @@ nsIAccessible
 aChild
 )
 final
-override
 ;
 NS_IMETHOD
 GetChildren
@@ -121,7 +114,6 @@ nsIArray
 aChildren
 )
 final
-override
 ;
 NS_IMETHOD
 GetIndexInParent
@@ -131,7 +123,6 @@ int32_t
 aIndexInParent
 )
 final
-override
 ;
 NS_IMETHOD
 GetDOMNode
@@ -142,7 +133,6 @@ nsIDOMNode
 aDOMNode
 )
 final
-override
 ;
 NS_IMETHOD
 GetId
@@ -152,7 +142,6 @@ nsAString
 aID
 )
 final
-override
 ;
 NS_IMETHOD
 GetDocument
@@ -163,7 +152,6 @@ nsIAccessibleDocument
 aDocument
 )
 final
-override
 ;
 NS_IMETHOD
 GetRootDocument
@@ -174,7 +162,6 @@ nsIAccessibleDocument
 aRootDocument
 )
 final
-override
 ;
 NS_IMETHOD
 GetRole
@@ -184,7 +171,6 @@ uint32_t
 aRole
 )
 final
-override
 ;
 NS_IMETHOD
 GetState
@@ -197,7 +183,6 @@ uint32_t
 aExtraState
 )
 final
-override
 ;
 NS_IMETHOD
 GetDescription
@@ -207,7 +192,6 @@ nsAString
 aDescription
 )
 final
-override
 ;
 NS_IMETHOD
 GetName
@@ -217,7 +201,6 @@ nsAString
 aName
 )
 final
-override
 ;
 NS_IMETHOD
 GetLanguage
@@ -227,7 +210,6 @@ nsAString
 aLanguage
 )
 final
-override
 ;
 NS_IMETHOD
 GetValue
@@ -237,7 +219,6 @@ nsAString
 aValue
 )
 final
-override
 ;
 NS_IMETHOD
 GetHelp
@@ -247,7 +228,6 @@ nsAString
 aHelp
 )
 final
-override
 ;
 NS_IMETHOD
 GetAccessKey
@@ -257,7 +237,6 @@ nsAString
 aAccessKey
 )
 final
-override
 ;
 NS_IMETHOD
 GetKeyboardShortcut
@@ -267,7 +246,6 @@ nsAString
 aKeyBinding
 )
 final
-override
 ;
 NS_IMETHOD
 GetAttributes
@@ -278,7 +256,6 @@ nsIPersistentProperties
 aAttributes
 )
 final
-override
 ;
 NS_IMETHOD
 GetBounds
@@ -297,7 +274,6 @@ int32_t
 aHeight
 )
 final
-override
 ;
 NS_IMETHOD
 GroupPosition
@@ -313,7 +289,6 @@ int32_t
 aPositionInGroup
 )
 final
-override
 ;
 NS_IMETHOD
 GetRelationByType
@@ -326,7 +301,6 @@ nsIAccessibleRelation
 aRelation
 )
 final
-override
 ;
 NS_IMETHOD
 GetRelations
@@ -337,7 +311,6 @@ nsIArray
 aRelations
 )
 final
-override
 ;
 NS_IMETHOD
 GetFocusedChild
@@ -348,7 +321,6 @@ nsIAccessible
 aChild
 )
 final
-override
 ;
 NS_IMETHOD
 GetChildAtPoint
@@ -363,7 +335,6 @@ nsIAccessible
 aAccessible
 )
 final
-override
 ;
 NS_IMETHOD
 GetDeepestChildAtPoint
@@ -378,7 +349,6 @@ nsIAccessible
 aAccessible
 )
 final
-override
 ;
 NS_IMETHOD
 SetSelected
@@ -387,21 +357,18 @@ bool
 aSelect
 )
 final
-override
 ;
 NS_IMETHOD
 TakeSelection
 (
 )
 final
-override
 ;
 NS_IMETHOD
 TakeFocus
 (
 )
 final
-override
 ;
 NS_IMETHOD
 GetActionCount
@@ -411,7 +378,6 @@ uint8_t
 aActionCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetActionName
@@ -423,7 +389,6 @@ nsAString
 aName
 )
 final
-override
 ;
 NS_IMETHOD
 GetActionDescription
@@ -435,7 +400,6 @@ nsAString
 aDescription
 )
 final
-override
 ;
 NS_IMETHOD
 DoAction
@@ -444,7 +408,6 @@ uint8_t
 aIndex
 )
 final
-override
 ;
 NS_IMETHOD
 ScrollTo
@@ -453,7 +416,6 @@ uint32_t
 aHow
 )
 final
-override
 ;
 NS_IMETHOD
 ScrollToPoint
@@ -466,7 +428,6 @@ int32_t
 aY
 )
 final
-override
 ;
 protected
 :

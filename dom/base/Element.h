@@ -4647,7 +4647,6 @@ JSObject
 aGivenProto
 )
 final
-override
 ;
 nsINode
 *

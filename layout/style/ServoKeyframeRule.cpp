@@ -99,7 +99,6 @@ GetParentRule
 (
 )
 final
-override
 {
 return
 mRule
@@ -131,7 +130,6 @@ Operation
 aOperation
 )
 final
-override
 {
 return
 mDecls
@@ -145,7 +143,6 @@ DeclarationBlock
 aDecls
 )
 final
-override
 {
 if
 (
@@ -237,7 +234,6 @@ nsIPrincipal
 aSubjectPrincipal
 )
 final
-override
 {
 MOZ_ASSERT_UNREACHABLE
 (
@@ -273,7 +269,6 @@ aSubjectPrincipal
 )
 const
 final
-override
 {
 return
 GetServoCSSParsingEnvironmentForRule
@@ -288,7 +283,6 @@ DocToUpdate
 (
 )
 final
-override
 {
 return
 nullptr
@@ -300,7 +294,6 @@ GetParentObject
 (
 )
 final
-override
 {
 return
 mRule

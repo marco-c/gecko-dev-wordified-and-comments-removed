@@ -78,7 +78,6 @@ int32_t
 aY
 )
 final
-override
 ;
 NS_IMETHOD
 GetImageSize
@@ -91,7 +90,6 @@ int32_t
 aHeight
 )
 final
-override
 ;
 protected
 :

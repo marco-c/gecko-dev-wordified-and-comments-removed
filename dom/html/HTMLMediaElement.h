@@ -583,7 +583,6 @@ MetadataTags
 aTags
 )
 final
-override
 ;
 virtual
 void
@@ -591,7 +590,6 @@ FirstFrameLoaded
 (
 )
 final
-override
 ;
 virtual
 void
@@ -603,7 +601,6 @@ MediaResult
 aError
 )
 final
-override
 ;
 virtual
 void
@@ -615,7 +612,6 @@ MediaResult
 aError
 )
 final
-override
 ;
 virtual
 void
@@ -627,7 +623,6 @@ MediaResult
 aError
 )
 final
-override
 ;
 virtual
 bool
@@ -636,7 +631,6 @@ HasError
 )
 const
 final
-override
 ;
 virtual
 void
@@ -644,7 +638,6 @@ LoadAborted
 (
 )
 final
-override
 ;
 virtual
 void
@@ -652,7 +645,6 @@ PlaybackEnded
 (
 )
 final
-override
 ;
 virtual
 void
@@ -660,7 +652,6 @@ SeekStarted
 (
 )
 final
-override
 ;
 virtual
 void
@@ -668,7 +659,6 @@ SeekCompleted
 (
 )
 final
-override
 ;
 virtual
 void
@@ -676,7 +666,6 @@ DownloadSuspended
 (
 )
 final
-override
 ;
 void
 DownloadResumed
@@ -689,7 +678,6 @@ DownloadProgressed
 (
 )
 final
-override
 ;
 virtual
 void
@@ -699,7 +687,6 @@ bool
 aSuspendedByCache
 )
 final
-override
 ;
 bool
 IsActive
@@ -720,7 +707,6 @@ GetVideoFrameContainer
 (
 )
 final
-override
 ;
 layers
 :
@@ -777,7 +763,6 @@ nsAString
 aName
 )
 final
-override
 ;
 void
 UpdateReadyState
@@ -848,7 +833,6 @@ NotifyDecoderPrincipalChanged
 (
 )
 final
-override
 ;
 void
 GetEMEInfo
@@ -1079,7 +1063,6 @@ bool
 aPeriodic
 )
 final
-override
 ;
 MediaStream
 *
@@ -1229,7 +1212,6 @@ NotifyXPCOMShutdown
 (
 )
 final
-override
 ;
 virtual
 void
@@ -1239,7 +1221,6 @@ bool
 aAudible
 )
 final
-override
 ;
 void
 NotifyAudioPlaybackChanged
@@ -2306,7 +2287,6 @@ AbstractMainThread
 )
 const
 final
-override
 ;
 enum
 class
@@ -3050,7 +3030,6 @@ GetMediaElement
 (
 )
 final
-override
 {
 return
 this
@@ -3062,7 +3041,6 @@ GetPaused
 (
 )
 final
-override
 {
 return
 Paused

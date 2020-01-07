@@ -109,7 +109,6 @@ ErrorResult
 aRv
 )
 final
-override
 {
 mX
 =
@@ -140,7 +139,6 @@ ErrorResult
 aRv
 )
 final
-override
 {
 mY
 =
@@ -171,7 +169,6 @@ ErrorResult
 aRv
 )
 final
-override
 {
 mWidth
 =
@@ -202,7 +199,6 @@ ErrorResult
 aRv
 )
 final
-override
 {
 mHeight
 =

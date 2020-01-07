@@ -556,7 +556,6 @@ GetDefaultScaleInternal
 (
 )
 final
-override
 ;
 int32_t
 LogToPhys
@@ -565,7 +564,6 @@ double
 aValue
 )
 final
-override
 ;
 mozilla
 :
@@ -575,7 +573,6 @@ GetDesktopToDeviceScale
 (
 )
 final
-override
 {
 if
 (

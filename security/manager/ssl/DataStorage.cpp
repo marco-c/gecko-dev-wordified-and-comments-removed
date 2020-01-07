@@ -233,7 +233,6 @@ bool
 aAnonymize
 )
 final
-override
 {
 nsTArray
 <

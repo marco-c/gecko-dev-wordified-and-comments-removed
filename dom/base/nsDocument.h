@@ -1488,7 +1488,6 @@ StyleSetHandle
 aStyleSet
 )
 final
-override
 ;
 virtual
 void
@@ -3181,7 +3180,6 @@ GetPendingAnimationTracker
 (
 )
 final
-override
 {
 return
 mPendingAnimationTracker

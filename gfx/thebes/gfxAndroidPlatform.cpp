@@ -1599,7 +1599,6 @@ GetGlobalDisplay
 (
 )
 final
-override
 {
 return
 GetDisplayInstance

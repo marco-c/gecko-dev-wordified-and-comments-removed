@@ -110,7 +110,6 @@ nsAString
 aURL
 )
 final
-override
 ;
 NS_IMETHOD
 GetTitle
@@ -120,7 +119,6 @@ nsAString
 aTitle
 )
 final
-override
 ;
 NS_IMETHOD
 GetMimeType
@@ -130,7 +128,6 @@ nsAString
 aType
 )
 final
-override
 ;
 NS_IMETHOD
 GetDocType
@@ -140,7 +137,6 @@ nsAString
 aType
 )
 final
-override
 ;
 NS_IMETHOD
 GetDOMDocument
@@ -151,7 +147,6 @@ nsIDOMDocument
 aDOMDocument
 )
 final
-override
 ;
 NS_IMETHOD
 GetWindow
@@ -162,7 +157,6 @@ mozIDOMWindowProxy
 aDOMWindow
 )
 final
-override
 ;
 NS_IMETHOD
 GetParentDocument
@@ -173,7 +167,6 @@ nsIAccessibleDocument
 aDocument
 )
 final
-override
 ;
 NS_IMETHOD
 GetChildDocumentCount
@@ -183,7 +176,6 @@ uint32_t
 aCount
 )
 final
-override
 ;
 NS_IMETHOD
 GetChildDocumentAt
@@ -196,7 +188,6 @@ nsIAccessibleDocument
 aDocument
 )
 final
-override
 ;
 NS_IMETHOD
 GetVirtualCursor
@@ -207,7 +198,6 @@ nsIAccessiblePivot
 aVirtualCursor
 )
 final
-override
 ;
 xpcAccessibleGeneric
 *

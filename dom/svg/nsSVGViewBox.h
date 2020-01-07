@@ -595,7 +595,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 void
 SetY
@@ -610,7 +609,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 void
 SetWidth
@@ -625,7 +623,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 void
 SetHeight
@@ -640,7 +637,6 @@ ErrorResult
 aRv
 )
 final
-override
 ;
 virtual
 nsIContent
@@ -839,7 +835,6 @@ ErrorResult
 aRv
 )
 final
-override
 {
 aRv
 .
@@ -862,7 +857,6 @@ ErrorResult
 aRv
 )
 final
-override
 {
 aRv
 .
@@ -885,7 +879,6 @@ ErrorResult
 aRv
 )
 final
-override
 {
 aRv
 .
@@ -908,7 +901,6 @@ ErrorResult
 aRv
 )
 final
-override
 {
 aRv
 .

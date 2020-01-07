@@ -125,7 +125,6 @@ nsIDocument
 aOldDoc
 )
 final
-override
 {
 }
 protected

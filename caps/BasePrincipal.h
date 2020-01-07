@@ -161,7 +161,6 @@ nsACString
 aOrigin
 )
 final
-override
 ;
 NS_IMETHOD
 GetOriginNoSuffix
@@ -171,7 +170,6 @@ nsACString
 aOrigin
 )
 final
-override
 ;
 NS_IMETHOD
 Equals
@@ -184,7 +182,6 @@ bool
 _retval
 )
 final
-override
 ;
 NS_IMETHOD
 EqualsConsideringDomain
@@ -197,7 +194,6 @@ bool
 _retval
 )
 final
-override
 ;
 NS_IMETHOD
 Subsumes
@@ -210,7 +206,6 @@ bool
 _retval
 )
 final
-override
 ;
 NS_IMETHOD
 SubsumesConsideringDomain
@@ -223,7 +218,6 @@ bool
 _retval
 )
 final
-override
 ;
 NS_IMETHOD
 SubsumesConsideringDomainIgnoringFPD
@@ -236,7 +230,6 @@ bool
 _retval
 )
 final
-override
 ;
 NS_IMETHOD
 CheckMayLoad
@@ -250,7 +243,6 @@ bool
 allowIfInheritsPrincipal
 )
 final
-override
 ;
 NS_IMETHOD
 GetAddonPolicy
@@ -261,7 +253,6 @@ nsISupports
 aResult
 )
 final
-override
 ;
 NS_IMETHOD
 GetCsp
@@ -382,7 +373,6 @@ Value
 aVal
 )
 final
-override
 ;
 NS_IMETHOD
 GetOriginSuffix
@@ -392,7 +382,6 @@ nsACString
 aOriginSuffix
 )
 final
-override
 ;
 NS_IMETHOD
 GetAppId
@@ -402,7 +391,6 @@ uint32_t
 aAppId
 )
 final
-override
 ;
 NS_IMETHOD
 GetIsInIsolatedMozBrowserElement
@@ -412,7 +400,6 @@ bool
 aIsInIsolatedMozBrowserElement
 )
 final
-override
 ;
 NS_IMETHOD
 GetUserContextId
@@ -422,7 +409,6 @@ uint32_t
 aUserContextId
 )
 final
-override
 ;
 NS_IMETHOD
 GetPrivateBrowsingId
@@ -432,7 +418,6 @@ uint32_t
 aPrivateBrowsingId
 )
 final
-override
 ;
 virtual
 bool
@@ -513,7 +498,6 @@ OriginAttributesRef
 (
 )
 final
-override
 {
 return
 mOriginAttributes

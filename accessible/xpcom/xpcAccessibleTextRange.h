@@ -103,7 +103,6 @@ nsIAccessibleText
 aAnchor
 )
 final
-override
 ;
 NS_IMETHOD
 GetStartOffset
@@ -113,7 +112,6 @@ int32_t
 aOffset
 )
 final
-override
 ;
 NS_IMETHOD
 GetEndContainer
@@ -124,7 +122,6 @@ nsIAccessibleText
 aAnchor
 )
 final
-override
 ;
 NS_IMETHOD
 GetEndOffset
@@ -134,7 +131,6 @@ int32_t
 aOffset
 )
 final
-override
 ;
 NS_IMETHOD
 GetContainer
@@ -145,7 +141,6 @@ nsIAccessible
 aContainer
 )
 final
-override
 ;
 NS_IMETHOD
 GetEmbeddedChildren
@@ -156,7 +151,6 @@ nsIArray
 aList
 )
 final
-override
 ;
 NS_IMETHOD
 Compare
@@ -169,7 +163,6 @@ bool
 aResult
 )
 final
-override
 ;
 NS_IMETHOD
 CompareEndPoints
@@ -186,7 +179,6 @@ int32_t
 aResult
 )
 final
-override
 ;
 NS_IMETHOD
 GetText
@@ -196,7 +188,6 @@ nsAString
 aText
 )
 final
-override
 ;
 NS_IMETHOD
 GetBounds
@@ -207,7 +198,6 @@ nsIArray
 aRectList
 )
 final
-override
 ;
 NS_IMETHOD
 Move
@@ -218,7 +208,6 @@ int32_t
 aCount
 )
 final
-override
 ;
 NS_IMETHOD
 MoveStart
@@ -229,7 +218,6 @@ int32_t
 aCount
 )
 final
-override
 ;
 NS_IMETHOD
 MoveEnd
@@ -240,7 +228,6 @@ int32_t
 aCount
 )
 final
-override
 ;
 NS_IMETHOD
 Normalize
@@ -249,7 +236,6 @@ uint32_t
 aUnit
 )
 final
-override
 ;
 NS_IMETHOD
 Crop
@@ -262,7 +248,6 @@ bool
 aSuccess
 )
 final
-override
 ;
 NS_IMETHOD
 FindText
@@ -281,7 +266,6 @@ nsIAccessibleTextRange
 aRange
 )
 final
-override
 ;
 NS_IMETHOD
 FindAttr
@@ -299,28 +283,24 @@ nsIAccessibleTextRange
 aRange
 )
 final
-override
 ;
 NS_IMETHOD
 AddToSelection
 (
 )
 final
-override
 ;
 NS_IMETHOD
 RemoveFromSelection
 (
 )
 final
-override
 ;
 NS_IMETHOD
 Select
 (
 )
 final
-override
 ;
 NS_IMETHOD
 ScrollIntoView
@@ -329,7 +309,6 @@ uint32_t
 aHow
 )
 final
-override
 ;
 NS_DECLARE_STATIC_IID_ACCESSOR
 (

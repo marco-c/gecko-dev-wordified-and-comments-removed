@@ -132,7 +132,6 @@ JSObject
 aGivenProto
 )
 final
-override
 ;
 nsISupports
 *

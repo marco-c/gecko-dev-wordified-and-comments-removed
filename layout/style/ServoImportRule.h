@@ -85,7 +85,6 @@ aIndent
 )
 const
 final
-override
 ;
 #
 endif
@@ -101,7 +100,6 @@ Clone
 )
 const
 final
-override
 ;
 size_t
 SizeOfIncludingThis
@@ -114,7 +112,6 @@ aMallocSizeOf
 )
 const
 final
-override
 ;
 void
 GetCssText
@@ -135,7 +132,6 @@ aHref
 )
 const
 final
-override
 ;
 dom
 :
@@ -147,7 +143,6 @@ GetMedia
 )
 const
 final
-override
 ;
 StyleSheet
 *
@@ -156,7 +151,6 @@ GetStyleSheet
 )
 const
 final
-override
 ;
 private
 :

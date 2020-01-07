@@ -73,7 +73,6 @@ GetParentRule
 (
 )
 final
-override
 ;
 nsINode
 *
@@ -81,7 +80,6 @@ GetParentObject
 (
 )
 final
-override
 ;
 protected
 :
@@ -93,7 +91,6 @@ Operation
 aOperation
 )
 final
-override
 ;
 nsresult
 SetCSSDeclaration
@@ -103,7 +100,6 @@ DeclarationBlock
 aDecl
 )
 final
-override
 ;
 nsIDocument
 *
@@ -111,7 +107,6 @@ DocToUpdate
 (
 )
 final
-override
 ;
 void
 GetCSSParsingEnvironment
@@ -124,7 +119,6 @@ nsIPrincipal
 aSubjectPrincipal
 )
 final
-override
 ;
 ServoCSSParsingEnvironment
 GetServoCSSParsingEnvironment
@@ -135,7 +129,6 @@ aSubjectPrincipal
 )
 const
 final
-override
 ;
 private
 :
@@ -224,7 +217,6 @@ IsCCLeaf
 )
 const
 final
-override
 MOZ_MUST_OVERRIDE
 ;
 MOZ_DECLARE_WEAKREFERENCE_TYPENAME
@@ -297,7 +289,6 @@ Type
 )
 const
 final
-override
 ;
 void
 GetCssText
@@ -308,7 +299,6 @@ aCssText
 )
 const
 final
-override
 ;
 void
 GetSelectorText
@@ -318,7 +308,6 @@ nsAString
 aSelectorText
 )
 final
-override
 ;
 void
 SetSelectorText
@@ -329,7 +318,6 @@ nsAString
 aSelectorText
 )
 final
-override
 ;
 nsICSSDeclaration
 *
@@ -337,7 +325,6 @@ Style
 (
 )
 final
-override
 ;
 RawServoStyleRule
 *
@@ -356,7 +343,6 @@ GetType
 )
 const
 final
-override
 {
 return
 css
@@ -377,7 +363,6 @@ Clone
 )
 const
 final
-override
 ;
 size_t
 SizeOfIncludingThis
@@ -387,7 +372,6 @@ aMallocSizeOf
 )
 const
 final
-override
 ;
 #
 ifdef
@@ -407,7 +391,6 @@ aIndent
 )
 const
 final
-override
 ;
 #
 endif

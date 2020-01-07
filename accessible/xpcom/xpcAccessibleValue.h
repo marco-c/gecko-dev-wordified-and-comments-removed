@@ -36,7 +36,6 @@ double
 aValue
 )
 final
-override
 ;
 NS_IMETHOD
 GetMinimumValue
@@ -46,7 +45,6 @@ double
 aValue
 )
 final
-override
 ;
 NS_IMETHOD
 GetCurrentValue
@@ -56,7 +54,6 @@ double
 aValue
 )
 final
-override
 ;
 NS_IMETHOD
 SetCurrentValue
@@ -65,7 +62,6 @@ double
 aValue
 )
 final
-override
 ;
 NS_IMETHOD
 GetMinimumIncrement
@@ -75,7 +71,6 @@ double
 aMinIncrement
 )
 final
-override
 ;
 protected
 :
