@@ -654,6 +654,9 @@ DIRS
 =
 [
 '
+rlz
+'
+'
 widevine
 -
 adapter
