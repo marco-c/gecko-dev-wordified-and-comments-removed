@@ -89,8 +89,6 @@ attribute
 boolean
 bodyUsed
 ;
-/
-/
 [
 NewObject
 ]
