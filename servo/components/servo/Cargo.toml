@@ -111,6 +111,15 @@ webvr
 googlevr
 "
 ]
+webrender_debugger
+=
+[
+"
+webrender
+/
+debugger
+"
+]
 oculusvr
 =
 [
