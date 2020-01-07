@@ -1000,13 +1000,6 @@ components
 servicesSettings
 .
 manifest
-BINPATH
-/
-components
-/
-RemoteSettingsComponents
-.
-js
 #
 ifndef
 MOZ_GECKOVIEW_JAR
