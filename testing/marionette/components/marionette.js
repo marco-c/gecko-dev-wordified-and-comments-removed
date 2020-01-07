@@ -603,6 +603,14 @@ true
 "
 dom
 .
+disable_beforeunload
+"
+true
+]
+[
+"
+dom
+.
 disable_open_during_load
 "
 false

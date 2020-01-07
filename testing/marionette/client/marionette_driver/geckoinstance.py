@@ -130,6 +130,14 @@ True
 "
 dom
 .
+disable_beforeunload
+"
+:
+True
+        
+"
+dom
+.
 ipc
 .
 reportProcessHangs
