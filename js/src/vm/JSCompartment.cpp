@@ -307,10 +307,6 @@ gcIncomingGrayPointers
 (
 nullptr
 )
-validAccessPtr
-(
-nullptr
-)
 enumerators
 (
 nullptr
