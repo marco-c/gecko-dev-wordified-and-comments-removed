@@ -1989,7 +1989,7 @@ aVisitor
 )
 ;
 }
-nsresult
+void
 HTMLFormElement
 :
 :
@@ -2064,9 +2064,6 @@ StopPropagation
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 HTMLFormElement

@@ -429,8 +429,7 @@ aVisitor
 )
 override
 ;
-virtual
-nsresult
+void
 WillHandleEvent
 (
 EventChainPostVisitor

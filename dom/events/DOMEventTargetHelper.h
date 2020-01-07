@@ -313,6 +313,15 @@ aRv
 )
 override
 ;
+nsresult
+PostHandleEvent
+(
+EventChainPostVisitor
+&
+aVisitor
+)
+override
+;
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_DOMEVENTTARGETHELPER_IID
