@@ -256,6 +256,14 @@ direct
 /
 deb_archive
 sudo
+apt
+-
+get
+-
+qqy
+update
+&
+&
 gdebi
 -
 n
