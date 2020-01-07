@@ -119,6 +119,17 @@ js
 -
 >
 <
+!
+-
+-
+eslint
+-
+disable
+indent
+-
+-
+>
+<
 bindings
 id
 =
