@@ -7375,6 +7375,12 @@ Data
 )
 ;
 }
+if
+(
+!
+gXPCOMShuttingDown
+)
+{
 aWriter
 .
 StartObjectProperty
@@ -7571,6 +7577,7 @@ EndArray
 (
 )
 ;
+}
 }
 aWriter
 .
