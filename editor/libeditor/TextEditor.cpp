@@ -1082,8 +1082,9 @@ Element
 >
 metaElement
 =
-CreateNode
+CreateNodeWithTransaction
 (
+*
 nsGkAtoms
 :
 :
@@ -2088,8 +2089,9 @@ GetContainer
 }
 newBRElement
 =
-CreateNode
+CreateNodeWithTransaction
 (
+*
 nsGkAtoms
 :
 :
@@ -2115,8 +2117,9 @@ else
 {
 newBRElement
 =
-CreateNode
+CreateNodeWithTransaction
 (
+*
 nsGkAtoms
 :
 :

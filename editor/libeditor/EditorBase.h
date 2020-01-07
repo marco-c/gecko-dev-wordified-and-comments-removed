@@ -1546,10 +1546,10 @@ already_AddRefed
 <
 Element
 >
-CreateNode
+CreateNodeWithTransaction
 (
 nsAtom
-*
+&
 aTag
 const
 EditorDOMPointBase
