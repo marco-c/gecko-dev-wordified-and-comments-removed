@@ -285,9 +285,7 @@ mozilla
 central
 '
 ]
-linux64
-.
-*
+default
 :
 [
 '
@@ -297,13 +295,6 @@ try
 mozilla
 -
 central
-'
-]
-default
-:
-[
-'
-try
 '
 ]
 max
