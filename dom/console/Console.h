@@ -1307,6 +1307,9 @@ mInnerID
 nsString
 mConsoleID
 ;
+nsString
+mPassedInnerID
+;
 enum
 {
 eUnknown

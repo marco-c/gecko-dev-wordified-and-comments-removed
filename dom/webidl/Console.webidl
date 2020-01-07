@@ -1091,14 +1091,14 @@ maxLogLevel
 "
 "
 ;
+*
+/
 DOMString
 innerID
 =
 "
 "
 ;
-*
-/
 DOMString
 consoleID
 =
