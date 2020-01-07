@@ -1507,7 +1507,7 @@ mTextureAllocatorForDXGISurface
 mozilla
 :
 :
-Mutex
+RecursiveMutex
 mCrashReporterMutex
 ;
 UniquePtr

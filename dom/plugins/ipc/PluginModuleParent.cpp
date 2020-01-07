@@ -2637,7 +2637,7 @@ false
 mozilla
 :
 :
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mCrashReporterMutex
@@ -3189,7 +3189,7 @@ WriteExtraDataForMinidump
 {
 mCrashReporterMutex
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -4950,7 +4950,7 @@ aAsync
 mozilla
 :
 :
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mCrashReporterMutex
@@ -5269,7 +5269,7 @@ aAsync
 {
 mCrashReporterMutex
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -5400,7 +5400,7 @@ aBrowserDumpId
 {
 mCrashReporterMutex
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -5822,7 +5822,7 @@ aMonitorDescription
 {
 mCrashReporterMutex
 .
-AssertCurrentThreadOwns
+AssertCurrentThreadIn
 (
 )
 ;
@@ -6694,7 +6694,7 @@ ProcessFirstMinidump
 mozilla
 :
 :
-MutexAutoLock
+RecursiveMutexAutoLock
 lock
 (
 mCrashReporterMutex
