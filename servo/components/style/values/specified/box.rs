@@ -8,6 +8,14 @@ cssparser
 Parser
 ;
 use
+custom_properties
+:
+:
+Name
+as
+CustomPropertyName
+;
+use
 parser
 :
 :
@@ -4141,7 +4149,7 @@ LonghandId
 )
 Custom
 (
-Atom
+CustomPropertyName
 )
 Unsupported
 (
