@@ -24972,6 +24972,11 @@ uint32_t
 lineno
 uint32_t
 column
+frontend
+:
+:
+ParseGoal
+parseGoal
 )
 {
 union
@@ -25075,6 +25080,15 @@ p
 needsHomeObject
 =
 false
+;
+p
+.
+parseGoal
+=
+uint32_t
+(
+parseGoal
+)
 ;
 LazyScript
 *

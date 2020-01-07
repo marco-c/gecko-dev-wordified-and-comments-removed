@@ -1792,6 +1792,12 @@ case
 ParseNodeKind
 :
 :
+ImportMeta
+:
+case
+ParseNodeKind
+:
+:
 PosHolder
 :
 case
@@ -8923,6 +8929,12 @@ ParseNodeKind
 :
 :
 NewTarget
+:
+case
+ParseNodeKind
+:
+:
+ImportMeta
 :
 MOZ_ASSERT
 (

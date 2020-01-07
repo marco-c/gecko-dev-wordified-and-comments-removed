@@ -309,11 +309,15 @@ canLazilyParse
 bool
 createParser
 (
+ParseGoal
+goal
 )
 ;
 bool
 createSourceAndParser
 (
+ParseGoal
+goal
 const
 Maybe
 <
@@ -1030,6 +1034,8 @@ BytecodeCompiler
 :
 createParser
 (
+ParseGoal
+goal
 )
 {
 usedNames
@@ -1082,6 +1088,7 @@ usedNames
 nullptr
 nullptr
 sourceObject
+goal
 )
 ;
 if
@@ -1126,6 +1133,7 @@ nullptr
 )
 nullptr
 sourceObject
+goal
 )
 ;
 parser
@@ -1150,6 +1158,8 @@ BytecodeCompiler
 :
 createSourceAndParser
 (
+ParseGoal
+goal
 const
 Maybe
 <
@@ -1168,6 +1178,7 @@ parameterListEnd
 &
 createParser
 (
+goal
 )
 ;
 }
@@ -1556,6 +1567,10 @@ if
 !
 createSourceAndParser
 (
+ParseGoal
+:
+:
+Script
 )
 )
 return
@@ -1870,6 +1885,10 @@ if
 !
 createSourceAndParser
 (
+ParseGoal
+:
+:
+Module
 )
 )
 return
@@ -2138,6 +2157,10 @@ if
 !
 createSourceAndParser
 (
+ParseGoal
+:
+:
+Script
 parameterListEnd
 )
 )
@@ -3631,6 +3654,12 @@ usedNames
 nullptr
 lazy
 sourceObject
+lazy
+-
+>
+parseGoal
+(
+)
 )
 ;
 if
