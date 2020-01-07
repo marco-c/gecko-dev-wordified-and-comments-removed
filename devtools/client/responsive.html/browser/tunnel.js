@@ -1072,6 +1072,10 @@ OUTER_TO_INNER_MESSAGE_PREFIXES
 :
 [
 "
+Autoscroll
+:
+"
+"
 ContextMenu
 :
 "
@@ -1115,6 +1119,10 @@ ViewSource
 INNER_TO_OUTER_MESSAGE_PREFIXES
 :
 [
+"
+Autoscroll
+:
+"
 "
 ContextMenu
 :
