@@ -131,11 +131,6 @@ nsIDOMEventTarget
 idl
 '
 '
-nsIDOMFocusEvent
-.
-idl
-'
-'
 nsIDOMMouseEvent
 .
 idl
