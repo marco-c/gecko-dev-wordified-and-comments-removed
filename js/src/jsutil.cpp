@@ -761,11 +761,6 @@ ShutDownMallocAllocator
 (
 )
 {
-moz_dispose_arena
-(
-MallocArena
-)
-;
 }
 JS_PUBLIC_API
 (
