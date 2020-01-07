@@ -355,6 +355,18 @@ pushlog_id
 '
     
 '
+release_enable_emefree
+'
+:
+False
+    
+'
+release_enable_partners
+'
+:
+False
+    
+'
 release_eta
 '
 :
@@ -367,6 +379,24 @@ release_history
 :
 {
 }
+    
+'
+release_partners
+'
+:
+None
+    
+'
+release_partner_config
+'
+:
+None
+    
+'
+release_partner_build_number
+'
+:
+1
     
 '
 release_type
