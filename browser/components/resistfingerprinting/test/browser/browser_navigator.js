@@ -139,7 +139,7 @@ x86_64
 win
 :
 "
-Win64
+Win32
 "
 macosx
 :
