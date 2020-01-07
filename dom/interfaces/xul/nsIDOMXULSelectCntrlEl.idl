@@ -133,17 +133,6 @@ attribute
 DOMString
 value
 ;
-nsIDOMXULSelectControlItemElement
-appendItem
-(
-in
-DOMString
-label
-in
-DOMString
-value
-)
-;
 readonly
 attribute
 unsigned
