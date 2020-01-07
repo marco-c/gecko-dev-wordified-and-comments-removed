@@ -1255,6 +1255,7 @@ of
 recipesToRun
 )
 {
+await
 actions
 .
 runRecipe
