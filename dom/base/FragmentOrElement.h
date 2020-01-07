@@ -457,13 +457,6 @@ const
 override
 ;
 virtual
-bool
-HasTextForTranslation
-(
-)
-override
-;
-virtual
 nsXBLBinding
 *
 DoGetXBLBinding

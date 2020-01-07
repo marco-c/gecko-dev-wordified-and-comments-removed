@@ -507,13 +507,6 @@ ThreadSafeTextIsOnlyWhitespace
 const
 final
 ;
-virtual
-bool
-HasTextForTranslation
-(
-)
-override
-;
 void
 AppendTextTo
 (

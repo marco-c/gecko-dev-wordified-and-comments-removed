@@ -2208,7 +2208,6 @@ nsAString
 aOutDescription
 )
 const
-override
 ;
 struct
 MappedAttributeEntry

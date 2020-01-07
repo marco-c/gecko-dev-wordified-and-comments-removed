@@ -129,6 +129,11 @@ ErrorResult
 aRv
 )
 ;
+bool
+HasTextForTranslation
+(
+)
+;
 }
 ;
 }
