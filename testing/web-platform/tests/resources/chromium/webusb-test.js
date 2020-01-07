@@ -2080,7 +2080,7 @@ request
 )
 {
 let
-device
+retrievedDevice
 =
 this
 .
@@ -2093,7 +2093,7 @@ guid
 ;
 if
 (
-device
+retrievedDevice
 )
 {
 let
@@ -2104,8 +2104,6 @@ mojo
 .
 Binding
 (
-window
-.
 device
 .
 mojom
@@ -2114,7 +2112,7 @@ UsbDevice
 new
 FakeDevice
 (
-device
+retrievedDevice
 .
 info
 )
@@ -2132,13 +2130,13 @@ setConnectionErrorHandler
 {
 if
 (
-device
+retrievedDevice
 .
 fakeDevice
 .
 onclose
 )
-device
+retrievedDevice
 .
 fakeDevice
 .
@@ -2149,7 +2147,7 @@ onclose
 }
 )
 ;
-device
+retrievedDevice
 .
 bindingArray
 .
