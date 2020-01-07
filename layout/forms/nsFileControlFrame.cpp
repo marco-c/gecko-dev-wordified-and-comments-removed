@@ -1830,6 +1830,16 @@ DataTransfer
 aDataTransfer
 )
 {
+if
+(
+!
+aDataTransfer
+)
+{
+return
+false
+;
+}
 nsTArray
 <
 nsString
