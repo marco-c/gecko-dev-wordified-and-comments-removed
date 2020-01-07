@@ -31,8 +31,6 @@ actors
 inspector
 /
 walker
--
-actor
 "
 )
 ;

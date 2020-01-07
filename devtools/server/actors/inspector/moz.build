@@ -96,15 +96,11 @@ js
 '
 '
 inspector
--
-actor
 .
 js
 '
 '
 node
--
-actor
 .
 js
 '
@@ -115,8 +111,6 @@ js
 '
 '
 walker
--
-actor
 .
 js
 '

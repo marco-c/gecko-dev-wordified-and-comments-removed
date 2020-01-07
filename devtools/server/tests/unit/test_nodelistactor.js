@@ -20,8 +20,6 @@ actors
 inspector
 /
 node
--
-actor
 "
 )
 ;

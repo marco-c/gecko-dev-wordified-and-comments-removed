@@ -116,8 +116,6 @@ actors
 inspector
 /
 walker
--
-actor
 "
 true
 )
