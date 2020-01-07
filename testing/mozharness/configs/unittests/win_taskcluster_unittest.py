@@ -1060,6 +1060,22 @@ timeout
 =
 180
 "
+                
+"
+-
+-
+sandbox
+-
+read
+-
+whitelist
+=
+%
+(
+abs_work_dir
+)
+s
+"
             
 ]
             
