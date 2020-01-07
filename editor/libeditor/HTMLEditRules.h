@@ -1738,7 +1738,7 @@ typename
 CT
 >
 SplitNodeResult
-MaybeSplitAncestorsForInsert
+MaybeSplitAncestorsForInsertWithTransaction
 (
 nsAtom
 &

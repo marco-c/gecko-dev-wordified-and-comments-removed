@@ -1385,7 +1385,7 @@ error
 ;
 textNodeForTheRange
 =
-SplitNode
+SplitNodeWithTransaction
 (
 atEnd
 error
@@ -1438,7 +1438,7 @@ nsIContent
 >
 newLeftNode
 =
-SplitNode
+SplitNodeWithTransaction
 (
 atStart
 error
@@ -2666,7 +2666,7 @@ isSet
 SplitNodeResult
 splitNodeResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 node
@@ -6958,7 +6958,7 @@ error
 ;
 textNodeForTheRange
 =
-SplitNode
+SplitNodeWithTransaction
 (
 atEnd
 error
@@ -7011,7 +7011,7 @@ nsIContent
 >
 newLeftNode
 =
-SplitNode
+SplitNodeWithTransaction
 (
 atStart
 error

@@ -6718,7 +6718,7 @@ GetChild
 SplitNodeResult
 splitNodeResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsert
@@ -8339,7 +8339,7 @@ GetContainer
 SplitNodeResult
 splitNodeResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsertList
@@ -9093,7 +9093,7 @@ GetContainer
 SplitNodeResult
 splitBlockResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsertBlock
@@ -9536,7 +9536,7 @@ GetContainer
 SplitNodeResult
 splitBlockquoteResult
 =
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 *
 pointToInsertBlockquote

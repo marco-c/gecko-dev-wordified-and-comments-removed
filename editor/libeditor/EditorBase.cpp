@@ -883,7 +883,7 @@ nsIContent
 EditorBase
 :
 :
-SplitNode
+SplitNodeWithTransaction
 (
 const
 EditorDOMPoint
@@ -902,7 +902,7 @@ nsIContent
 EditorBase
 :
 :
-SplitNode
+SplitNodeWithTransaction
 (
 const
 EditorRawDOMPoint
@@ -918,7 +918,7 @@ SplitNodeResult
 EditorBase
 :
 :
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 nsIContent
 &
@@ -936,7 +936,7 @@ SplitNodeResult
 EditorBase
 :
 :
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 nsIContent
 &
@@ -5859,7 +5859,7 @@ nsIContent
 >
 newNode
 =
-SplitNode
+SplitNodeWithTransaction
 (
 EditorRawDOMPoint
 (
@@ -5923,7 +5923,7 @@ nsIContent
 EditorBase
 :
 :
-SplitNode
+SplitNodeWithTransaction
 (
 const
 EditorDOMPointBase
@@ -17012,7 +17012,7 @@ SplitNodeResult
 EditorBase
 :
 :
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 nsIContent
 &
@@ -17217,7 +17217,7 @@ nsIContent
 >
 newLeftNode
 =
-SplitNode
+SplitNodeWithTransaction
 (
 atStartOfRightNode
 error
@@ -18750,7 +18750,7 @@ nsIContent
 >
 newLeftNode
 =
-SplitNode
+SplitNodeWithTransaction
 (
 atAnchor
 error

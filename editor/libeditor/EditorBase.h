@@ -1269,7 +1269,7 @@ already_AddRefed
 <
 nsIContent
 >
-SplitNode
+SplitNodeWithTransaction
 (
 const
 EditorDOMPointBase
@@ -3367,7 +3367,7 @@ typename
 CT
 >
 SplitNodeResult
-SplitNodeDeep
+SplitNodeDeepWithTransaction
 (
 nsIContent
 &
