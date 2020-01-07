@@ -366,6 +366,10 @@ getString
 (
 "
 brandShortName
+"
+)
+]
+;
 default
 :
 return
