@@ -180,6 +180,14 @@ aActor
 ;
 RefPtr
 <
+GenericPromise
+>
+Unregister
+(
+)
+;
+RefPtr
+<
 ServiceWorkerRegistrationPromise
 >
 Update
