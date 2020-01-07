@@ -99,6 +99,7 @@ replace
 MOZ_APP_DISPLAYNAME
 %
 '
+                                
 buildconfig
 .
 substs

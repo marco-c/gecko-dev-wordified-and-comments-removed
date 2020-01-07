@@ -45,6 +45,14 @@ length
 99
 exclude
 =
+browser
+/
+extensions
+/
+mortar
+/
+ppapi
+/
 testing
 /
 mochitest

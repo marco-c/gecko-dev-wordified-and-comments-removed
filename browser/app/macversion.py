@@ -184,7 +184,7 @@ month
 0
 '
 :
-  
+    
 month
 =
 month
@@ -210,7 +210,7 @@ day
 0
 '
 :
-  
+    
 day
 =
 day
@@ -218,6 +218,7 @@ day
 1
 ]
 print
+(
 '
 %
 s
@@ -235,4 +236,5 @@ majorVersion
 twodigityear
 month
 day
+)
 )
