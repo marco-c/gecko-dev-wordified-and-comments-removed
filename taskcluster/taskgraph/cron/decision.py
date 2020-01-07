@@ -39,6 +39,7 @@ run_decision_task
 (
 job
 params
+root
 )
 :
     
@@ -113,6 +114,10 @@ symbol
 arguments
 =
 arguments
+            
+root
+=
+root
 )
     
 ]
@@ -120,6 +125,7 @@ def
 make_decision_task
 (
 params
+root
 symbol
 arguments
 =
@@ -154,11 +160,22 @@ yml
 with
 open
 (
+os
+.
+path
+.
+join
+(
+root
 '
 .
 taskcluster
 .
 yml
+'
+)
+'
+rb
 '
 )
 as
@@ -256,7 +273,7 @@ url
 params
 [
 '
-head_repository
+repository_url
 '
 ]
             
