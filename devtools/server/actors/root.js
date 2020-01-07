@@ -335,9 +335,6 @@ true
 memoryActorAllocations
 :
 true
-noNeedToFakeResumptionOnNavigation
-:
-true
 webConsoleCommands
 :
 true
