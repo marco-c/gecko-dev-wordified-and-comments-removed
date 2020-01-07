@@ -3361,6 +3361,9 @@ ServoRawOffsetArc
 nsIContent
 "
 "
+nsINode
+"
+"
 nsIDocument
 "
 "
