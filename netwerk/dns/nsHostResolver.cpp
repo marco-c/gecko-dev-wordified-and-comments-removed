@@ -9744,6 +9744,12 @@ DNSCacheEntries
 args
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 for
 (
 auto
