@@ -1482,7 +1482,9 @@ nullptr
 {
 if
 (
-mDirty
+HasForcedUniqueInner
+(
+)
 )
 {
 NS_ASSERTION
@@ -2555,7 +2557,9 @@ mInner
 mComplete
 |
 |
-mDirty
+HasForcedUniqueInner
+(
+)
 "
 caller
 must

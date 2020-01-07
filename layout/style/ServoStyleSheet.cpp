@@ -637,7 +637,9 @@ aOwningNodeToUse
 {
 if
 (
-mDirty
+HasForcedUniqueInner
+(
+)
 )
 {
 NS_ASSERTION
