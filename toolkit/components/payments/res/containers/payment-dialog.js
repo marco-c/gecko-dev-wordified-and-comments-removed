@@ -794,6 +794,11 @@ case
 fail
 "
 :
+case
+"
+unknown
+"
+:
 break
 ;
 default
