@@ -128,9 +128,6 @@ interface
 nsIDOMNode
 ;
 interface
-nsIDOMEvent
-;
-interface
 nsISelection
 ;
 webidl

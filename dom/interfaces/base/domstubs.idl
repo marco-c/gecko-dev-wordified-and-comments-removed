@@ -189,9 +189,6 @@ nsIDOMWindowCollection
 /
 Events
 interface
-nsIDOMEvent
-;
-interface
 nsIDOMEventListener
 ;
 /
