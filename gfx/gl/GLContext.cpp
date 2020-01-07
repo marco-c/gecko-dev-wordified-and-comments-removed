@@ -511,6 +511,9 @@ GL_ARB_framebuffer_sRGB
 GL_ARB_geometry_shader4
 "
 "
+GL_ARB_gpu_shader5
+"
+"
 GL_ARB_half_float_pixel
 "
 "
@@ -631,6 +634,9 @@ GL_EXT_framebuffer_sRGB
 GL_EXT_gpu_shader4
 "
 "
+GL_EXT_gpu_shader5
+"
+"
 GL_EXT_multisampled_render_to_texture
 "
 "
@@ -722,6 +728,9 @@ GL_NV_framebuffer_blit
 "
 "
 GL_NV_geometry_program4
+"
+"
+GL_NV_gpu_shader5
 "
 "
 GL_NV_half_float
