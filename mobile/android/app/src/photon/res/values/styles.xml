@@ -5357,10 +5357,10 @@ name
 "
 android
 :
-singleLine
+maxLines
 "
 >
-true
+1
 <
 /
 item
