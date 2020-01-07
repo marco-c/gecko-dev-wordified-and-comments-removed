@@ -5631,7 +5631,7 @@ MediaStreamError
 Name
 :
 :
-InternalError
+AbortError
 sHasShutdown
 ?
 NS_LITERAL_STRING
@@ -18302,7 +18302,7 @@ MediaMgrError
 Name
 :
 :
-InternalError
+AbortError
 ;
 }
 nsString
@@ -20324,7 +20324,7 @@ MediaMgrError
 Name
 :
 :
-InternalError
+AbortError
 log
 )
 __func__
@@ -20439,7 +20439,7 @@ MediaMgrError
 Name
 :
 :
-InternalError
+AbortError
 log
 )
 __func__
