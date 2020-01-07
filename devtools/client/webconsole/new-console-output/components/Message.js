@@ -1148,6 +1148,11 @@ onFrameClick
 serviceContainer
 .
 onViewSourceInStyleEditor
+|
+|
+serviceContainer
+.
+onViewSource
 ;
 }
 else
