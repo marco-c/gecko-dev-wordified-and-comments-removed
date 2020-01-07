@@ -674,11 +674,13 @@ color
 #
 TabsToolbar
 #
-browser
+navigator
 -
-panel
+toolbox
 {
 background
+-
+color
 :
 var
 (
