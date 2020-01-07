@@ -21900,10 +21900,12 @@ clearPendingException
 (
 )
 ;
+UniquePtr
+<
 char16_t
-*
+>
 chars
-=
+{
 JS
 :
 :
@@ -21925,6 +21927,7 @@ length
 get
 (
 )
+}
 ;
 if
 (
@@ -22016,6 +22019,10 @@ tempLifoAlloc
 )
 options
 chars
+.
+get
+(
+)
 length
 true
 usedNames
@@ -22091,11 +22098,6 @@ SetWarningReporter
 (
 cx
 older
-)
-;
-js_free
-(
-chars
 )
 ;
 return
