@@ -193,9 +193,6 @@ aScriptEvaluationResult
 void
 Install
 (
-ServiceWorkerManager
-*
-aSWM
 )
 ;
 void
