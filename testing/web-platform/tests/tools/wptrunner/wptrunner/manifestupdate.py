@@ -770,6 +770,12 @@ True
         
 self
 .
+new_disabled
+=
+False
+        
+self
+.
 update_properties
 =
 {
