@@ -463,7 +463,7 @@ _
 >
 style
 .
-get_parent_inheritedtext
+get_parent_inherited_text
 (
 )
 .
