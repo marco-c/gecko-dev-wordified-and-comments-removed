@@ -3284,7 +3284,7 @@ exe
 )
 paths
 =
-vc_compiler_path
+toolchain_search_path
 )
 add_old_configure_assignment
 (
