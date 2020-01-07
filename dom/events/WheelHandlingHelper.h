@@ -610,6 +610,8 @@ uint8_t
 {
 eNone
 eHorizontalize
+eAutoDir
+eAutoDirWithRootHonour
 }
 ;
 class
