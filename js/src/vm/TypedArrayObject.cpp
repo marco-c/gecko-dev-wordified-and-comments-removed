@@ -1726,7 +1726,6 @@ GlobalObject
 createBlankPrototypeInheriting
 (
 cx
-global
 clasp
 typedArrayProto
 )

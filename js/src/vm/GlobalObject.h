@@ -1006,12 +1006,6 @@ createBlankPrototypeInheriting
 JSContext
 *
 cx
-Handle
-<
-GlobalObject
-*
->
-global
 const
 js
 :
@@ -4655,12 +4649,6 @@ GlobalObject
 createBlankPrototypeInheriting
 (
 cx
-cx
--
->
-global
-(
-)
 clasp
 parentProto
 )

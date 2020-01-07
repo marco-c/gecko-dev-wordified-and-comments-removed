@@ -3471,8 +3471,6 @@ Class
 clasp
 HandleObject
 proto
-HandleObject
-global
 )
 {
 MOZ_ASSERT
@@ -3570,7 +3568,6 @@ CreateBlankProto
 cx
 clasp
 objectProto
-global
 )
 ;
 }
@@ -3584,12 +3581,6 @@ createBlankPrototypeInheriting
 JSContext
 *
 cx
-Handle
-<
-GlobalObject
-*
->
-global
 const
 Class
 *
@@ -3604,7 +3595,6 @@ CreateBlankProto
 cx
 clasp
 proto
-global
 )
 ;
 }
