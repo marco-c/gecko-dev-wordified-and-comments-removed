@@ -20,6 +20,14 @@ ports
 servo
 "
 ]
+exclude
+=
+[
+"
+.
+cargo
+"
+]
 [
 profile
 .
