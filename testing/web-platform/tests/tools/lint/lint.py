@@ -3237,6 +3237,7 @@ href
 )
         
 if
+(
 parts
 .
 scheme
@@ -3244,6 +3245,19 @@ or
 parts
 .
 netloc
+)
+and
+parts
+!
+=
+urlsplit
+(
+"
+about
+:
+blank
+"
+)
 :
             
 errors
