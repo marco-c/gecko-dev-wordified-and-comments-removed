@@ -1403,6 +1403,13 @@ if
 callback
 )
 {
+mElementCreationCallbacks
+.
+Remove
+(
+aTypeAtom
+)
+;
 RefPtr
 <
 Runnable
@@ -1425,9 +1432,11 @@ AddScriptRunner
 runnable
 )
 ;
-mElementCreationCallbacks
+data
+=
+mCustomDefinitions
 .
-Remove
+GetWeak
 (
 aTypeAtom
 )
