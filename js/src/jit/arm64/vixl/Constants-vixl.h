@@ -1653,6 +1653,9 @@ SEV
 SEVL
 =
 5
+CSDB
+=
+0x14
 }
 ;
 enum

@@ -821,6 +821,12 @@ true
 ;
 SET_DEFAULT
 (
+spectreJitToCxxCalls
+true
+)
+;
+SET_DEFAULT
+(
 disableUnboxedObjects
 false
 )

@@ -7176,6 +7176,11 @@ as_isb_trap
 )
 ;
 BufferOffset
+as_csdb
+(
+)
+;
+BufferOffset
 as_bx
 (
 Register

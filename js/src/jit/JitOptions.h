@@ -339,6 +339,9 @@ bool
 spectreValueMasking
 ;
 bool
+spectreJitToCxxCalls
+;
+bool
 disableUnboxedObjects
 ;
 DefaultJitOptions
