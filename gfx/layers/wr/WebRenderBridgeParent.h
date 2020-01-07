@@ -1324,6 +1324,15 @@ GetRootCompositorBridgeParent
 )
 const
 ;
+RefPtr
+<
+WebRenderBridgeParent
+>
+GetRootWebRenderBridgeParent
+(
+)
+const
+;
 void
 SetAPZSampleTime
 (
