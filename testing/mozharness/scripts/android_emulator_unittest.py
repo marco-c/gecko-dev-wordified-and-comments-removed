@@ -528,19 +528,6 @@ apk
         
 self
 .
-minidump_stackwalk_path
-=
-c
-.
-get
-(
-"
-minidump_stackwalk_path
-"
-)
-        
-self
-.
 emulator
 =
 c
@@ -6628,6 +6615,14 @@ _query_suites
 (
 )
         
+minidump
+=
+self
+.
+query_minidump_stackwalk
+(
+)
+        
 for
 (
 verify_suite
@@ -6703,11 +6698,7 @@ query_env
 )
             
 if
-self
-.
-query_minidump_stackwalk
-(
-)
+minidump
 :
                 
 env
@@ -6717,9 +6708,7 @@ MINIDUMP_STACKWALK
 '
 ]
 =
-self
-.
-minidump_stackwalk_path
+minidump
             
 env
 [

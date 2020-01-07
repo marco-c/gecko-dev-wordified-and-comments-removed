@@ -141,10 +141,21 @@ android
 "
     
 "
-download_minidump_stackwalk
+minidump_stackwalk_path
 "
 :
-True
+"
+/
+usr
+/
+local
+/
+bin
+/
+linux64
+-
+minidump_stackwalk
+"
     
 "
 default_blob_upload_servers
