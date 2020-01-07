@@ -1223,6 +1223,15 @@ mozilla
 eSideBitsRight
 ;
 }
+border
+.
+mBoxDecorationBreak
+=
+StyleBoxDecorationBreak
+:
+:
+Clone
+;
 ForEachColumnRule
 (
 [
