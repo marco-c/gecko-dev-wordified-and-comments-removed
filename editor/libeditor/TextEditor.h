@@ -254,7 +254,7 @@ Undo
 uint32_t
 aCount
 )
-override
+final
 ;
 NS_IMETHOD
 Redo
@@ -262,7 +262,7 @@ Redo
 uint32_t
 aCount
 )
-override
+final
 ;
 NS_IMETHOD
 Cut
