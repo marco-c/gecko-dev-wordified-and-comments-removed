@@ -823,6 +823,9 @@ mText
 SetData
 (
 text
+IgnoreErrors
+(
+)
 )
 ;
 }

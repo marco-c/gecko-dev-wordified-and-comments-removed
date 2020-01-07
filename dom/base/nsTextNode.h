@@ -159,12 +159,6 @@ CharacterData
 :
 :
 )
-using
-CharacterData
-:
-:
-SetData
-;
 virtual
 bool
 IsNodeOfType
