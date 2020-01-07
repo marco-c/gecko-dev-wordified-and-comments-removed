@@ -2835,6 +2835,13 @@ file
 .
 path
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 }
