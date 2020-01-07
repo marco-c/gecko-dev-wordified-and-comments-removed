@@ -44,6 +44,8 @@ file
 .
 sed
 -
+r
+-
 f
 dirname
 "
