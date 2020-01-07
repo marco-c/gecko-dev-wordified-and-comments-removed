@@ -10176,7 +10176,7 @@ define
 CSS_PROP_LIST_ONLY_COMPONENTS_OF_ALL_SHORTHAND
 #
 define
-CSS_PROP
+CSS_PROP_LONGHAND
 (
 name_
 id_
@@ -10191,13 +10191,15 @@ id_
 #
 include
 "
-nsCSSPropList
+mozilla
+/
+ServoCSSPropList
 .
 h
 "
 #
 undef
-CSS_PROP
+CSS_PROP_LONGHAND
 #
 undef
 CSS_PROP_LIST_ONLY_COMPONENTS_OF_ALL_SHORTHAND
