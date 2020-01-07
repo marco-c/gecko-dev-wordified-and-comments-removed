@@ -704,13 +704,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

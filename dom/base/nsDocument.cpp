@@ -296,13 +296,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Services

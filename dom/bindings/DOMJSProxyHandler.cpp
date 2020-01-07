@@ -40,13 +40,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h

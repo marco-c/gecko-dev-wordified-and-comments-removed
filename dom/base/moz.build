@@ -1520,11 +1520,6 @@ nsDOMCaretPosition
 cpp
 '
 '
-nsDOMClassInfo
-.
-cpp
-'
-'
 nsDOMMutationObserver
 .
 cpp

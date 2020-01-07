@@ -223,13 +223,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 ShimInterfaceInfo
 .
 h
