@@ -89,6 +89,11 @@ FrameTargetActorProxy
 prototype
 =
 {
+actorPrefix
+:
+"
+frameTargetProxy
+"
 async
 connect
 (
