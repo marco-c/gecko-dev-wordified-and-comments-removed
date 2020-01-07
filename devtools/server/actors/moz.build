@@ -147,6 +147,15 @@ js
 '
 '
 animation
+-
+type
+-
+longhand
+.
+js
+'
+'
+animation
 .
 js
 '
