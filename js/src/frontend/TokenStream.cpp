@@ -2428,7 +2428,7 @@ c
 =
 sourceUnits
 .
-getRawChar
+getCodeUnit
 (
 )
 ;
@@ -2580,7 +2580,7 @@ hasRawChars
 return
 sourceUnits
 .
-getRawChar
+getCodeUnit
 (
 )
 ;
@@ -2640,7 +2640,7 @@ atStart
 ;
 sourceUnits
 .
-ungetRawChar
+ungetCodeUnit
 (
 )
 ;
@@ -2763,7 +2763,7 @@ atStart
 ;
 sourceUnits
 .
-ungetRawChar
+ungetCodeUnit
 (
 )
 ;
@@ -2977,7 +2977,7 @@ CharT
 *
 p
 =
-rawCharPtrAt
+codeUnitPtrAt
 (
 start
 )
@@ -3061,7 +3061,7 @@ end
 =
 sourceUnits
 .
-rawCharPtrAt
+codeUnitPtrAt
 (
 position
 )
@@ -4083,7 +4083,7 @@ windowBuf
 .
 append
 (
-rawCharPtrAt
+codeUnitPtrAt
 (
 windowStart
 )
@@ -7127,7 +7127,7 @@ c
 =
 sourceUnits
 .
-getRawChar
+getCodeUnit
 (
 )
 ;
