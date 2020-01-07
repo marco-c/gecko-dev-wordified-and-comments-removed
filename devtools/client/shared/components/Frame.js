@@ -215,8 +215,6 @@ onClick
 PropTypes
 .
 func
-.
-isRequired
 showFunctionName
 :
 PropTypes

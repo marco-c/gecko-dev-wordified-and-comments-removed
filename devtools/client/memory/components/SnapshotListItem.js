@@ -587,15 +587,6 @@ className
 "
 delete
 "
-"
-aria
--
-role
-"
-:
-"
-button
-"
 title
 :
 L10N

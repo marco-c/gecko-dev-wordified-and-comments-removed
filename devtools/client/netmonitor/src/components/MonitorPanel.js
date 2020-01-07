@@ -330,7 +330,7 @@ selectedRequestVisible
 :
 PropTypes
 .
-func
+bool
 .
 isRequired
 sourceMapService
@@ -661,16 +661,10 @@ container
 "
 initialWidth
 :
-{
 initialWidth
-}
-px
 initialHeight
 :
-{
 initialHeight
-}
-px
 minSize
 :
 "

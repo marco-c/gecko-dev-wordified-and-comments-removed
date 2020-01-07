@@ -281,7 +281,7 @@ messagesUi
 :
 PropTypes
 .
-object
+array
 .
 isRequired
 serviceContainer

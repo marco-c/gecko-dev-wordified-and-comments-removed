@@ -419,7 +419,7 @@ requestFilterTypes
 :
 PropTypes
 .
-string
+object
 .
 isRequired
 }

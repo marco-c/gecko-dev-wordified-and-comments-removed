@@ -461,6 +461,11 @@ panelDefinition
 ToolboxTab
 (
 {
+key
+:
+panelDefinition
+.
+id
 currentToolId
 focusButton
 focusedButton
