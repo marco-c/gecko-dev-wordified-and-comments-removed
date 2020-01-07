@@ -9230,7 +9230,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
@@ -9335,7 +9335,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
@@ -9413,7 +9413,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
@@ -9491,7 +9491,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
@@ -9565,7 +9565,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
@@ -9632,7 +9632,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
@@ -9718,7 +9718,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
@@ -9792,7 +9792,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
