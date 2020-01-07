@@ -585,6 +585,9 @@ BaseWindow
 CGFloat
 mUnifiedToolbarHeight
 ;
+CGFloat
+mSheetAttachmentPosition
+;
 NSRect
 mWindowButtonsRect
 ;
@@ -670,6 +673,12 @@ setSheetAttachmentPosition
 CGFloat
 )
 aY
+;
+-
+(
+CGFloat
+)
+sheetAttachmentPosition
 ;
 -
 (
