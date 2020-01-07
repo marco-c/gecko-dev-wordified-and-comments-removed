@@ -14063,7 +14063,7 @@ Warn
 )
 ;
 #
-ifdef
+if
 MOZ_UPDATE_CHANNEL
 =
 =
