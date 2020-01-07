@@ -45,10 +45,7 @@ IntegerPrintfMacros
 h
 "
 nsTArrayHeader
-nsTArrayHeader
-:
-:
-sEmptyHdr
+sEmptyTArrayHeader
 =
 {
 0
