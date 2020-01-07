@@ -22,7 +22,7 @@ run_test
 (
 )
 {
-ok
+check
 (
 [
 ]
@@ -31,7 +31,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -41,7 +41,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -51,7 +51,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -61,7 +61,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -72,7 +72,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -83,7 +83,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -94,7 +94,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -105,7 +105,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -116,7 +116,7 @@ false
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -128,7 +128,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -140,7 +140,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -152,7 +152,7 @@ true
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -164,7 +164,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -176,7 +176,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -188,7 +188,7 @@ false
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -200,7 +200,7 @@ false
 3
 )
 ;
-ok
+check
 (
 [
 2
@@ -211,7 +211,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -222,7 +222,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -233,7 +233,7 @@ false
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -245,7 +245,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -257,7 +257,7 @@ true
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -269,7 +269,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -281,7 +281,7 @@ false
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -293,7 +293,7 @@ false
 3
 )
 ;
-ok
+check
 (
 [
 2
@@ -305,7 +305,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -317,7 +317,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -329,7 +329,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -341,7 +341,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -353,7 +353,7 @@ false
 3
 )
 ;
-ok
+check
 (
 [
 2
@@ -366,7 +366,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -379,7 +379,7 @@ true
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -392,7 +392,7 @@ true
 3
 )
 ;
-ok
+check
 (
 [
 2
@@ -405,7 +405,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -418,7 +418,7 @@ false
 1
 )
 ;
-ok
+check
 (
 [
 2
@@ -431,7 +431,7 @@ false
 3
 )
 ;
-ok
+check
 (
 [
 2
@@ -444,7 +444,7 @@ false
 4
 )
 ;
-ok
+check
 (
 [
 2
@@ -459,7 +459,7 @@ true
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -474,7 +474,7 @@ true
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -489,7 +489,7 @@ true
 4
 )
 ;
-ok
+check
 (
 [
 2
@@ -504,7 +504,7 @@ false
 0
 )
 ;
-ok
+check
 (
 [
 2
@@ -519,7 +519,7 @@ false
 2
 )
 ;
-ok
+check
 (
 [
 2
@@ -534,7 +534,7 @@ false
 4
 )
 ;
-ok
+check
 (
 [
 2
@@ -551,7 +551,7 @@ false
 ;
 }
 function
-ok
+check
 (
 array
 target
