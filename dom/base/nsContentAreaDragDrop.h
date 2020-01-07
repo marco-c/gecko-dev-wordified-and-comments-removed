@@ -118,9 +118,9 @@ NS_DECL_NSIFLAVORDATAPROVIDER
 nsresult
 SaveURIToFile
 (
-nsIURI
-*
-inSourceURI
+nsAString
+&
+inSourceURIString
 nsIFile
 *
 inDestFile
