@@ -278,7 +278,9 @@ openSplitConsole
 MonitorPanel
 (
 {
+actions
 connector
+openSplitConsole
 sourceMapService
 openLink
 }
