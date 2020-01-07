@@ -1761,15 +1761,6 @@ element
 .
 parentNode
 .
-parentNode
-&
-&
-element
-.
-parentNode
-.
-parentNode
-.
 classList
 .
 contains
@@ -1777,7 +1768,7 @@ contains
 "
 tabbrowser
 -
-tabbox
+tabpanels
 "
 )
 )
