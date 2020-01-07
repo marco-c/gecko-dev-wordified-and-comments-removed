@@ -2820,9 +2820,7 @@ pref
 "
 browser
 .
-chrome
-.
-favicons
+warnOnQuit
 "
 true
 )
@@ -2832,9 +2830,9 @@ pref
 "
 browser
 .
-warnOnQuit
+showQuitWarning
 "
-true
+false
 )
 ;
 pref
