@@ -1355,6 +1355,12 @@ defined
 (
 XP_LINUX
 )
+#
+if
+defined
+(
+MOZ_CONTENT_SANDBOX
+)
 if
 (
 ShouldHaveDirectoryService
@@ -1398,6 +1404,8 @@ mTmpDirName
 ;
 }
 }
+#
+endif
 #
 endif
 }
