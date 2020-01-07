@@ -21245,6 +21245,15 @@ GetContentProcessById
 aCpId
 )
 ;
+if
+(
+!
+cp
+)
+{
+return
+;
+}
 cp
 -
 >
