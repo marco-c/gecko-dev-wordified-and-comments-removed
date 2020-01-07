@@ -32087,6 +32087,12 @@ GetAnyCapturedTouchTarget
 )
 ;
 }
+nsIFrame
+*
+rootFrame
+=
+frame
+;
 for
 (
 int32_t
@@ -32158,7 +32164,7 @@ touch
 -
 >
 mRefPoint
-frame
+rootFrame
 )
 ;
 nsIFrame
@@ -32168,7 +32174,7 @@ target
 FindFrameTargetedByInputEvent
 (
 aEvent
-frame
+rootFrame
 eventPoint
 flags
 )
