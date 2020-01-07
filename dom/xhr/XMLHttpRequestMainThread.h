@@ -1779,19 +1779,6 @@ aBlob
 ;
 protected
 :
-enum
-class
-State
-:
-uint8_t
-{
-unsent
-opened
-headers_received
-loading
-done
-}
-;
 nsresult
 DetectCharset
 (
@@ -1842,7 +1829,7 @@ aCx
 nsresult
 ChangeState
 (
-State
+uint16_t
 aState
 bool
 aBroadcast
@@ -2372,7 +2359,7 @@ ServiceWorkerDescriptor
 >
 mController
 ;
-State
+uint16_t
 mState
 ;
 StyleBackendType
