@@ -562,6 +562,12 @@ case
 nsXPTType
 :
 :
+T_DOMOBJECT
+:
+case
+nsXPTType
+:
+:
 T_ARRAY
 :
 case
