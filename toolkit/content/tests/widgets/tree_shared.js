@@ -803,11 +803,11 @@ inputField
 is
 (
 inputField
-instanceof
-Ci
 .
-nsIDOMXULTextBoxElement
-true
+localName
+"
+textbox
+"
 testid
 +
 "
