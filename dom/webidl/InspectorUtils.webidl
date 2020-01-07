@@ -180,6 +180,16 @@ CSSRule
 rule
 )
 ;
+[
+NewObject
+]
+CSSLexer
+getCSSLexer
+(
+DOMString
+text
+)
+;
 }
 ;
 dictionary

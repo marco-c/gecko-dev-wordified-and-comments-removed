@@ -119,17 +119,6 @@ inIDOMUtils
 :
 nsISupports
 {
-[
-implicit_jscontext
-]
-jsval
-getCSSLexer
-(
-in
-DOMString
-aText
-)
-;
 /
 /
 Utilities

@@ -6700,7 +6700,7 @@ column
 let
 lexer
 =
-DOMUtils
+InspectorUtils
 .
 getCSSLexer
 (
@@ -7010,7 +7010,7 @@ column
 let
 lexer
 =
-DOMUtils
+InspectorUtils
 .
 getCSSLexer
 (

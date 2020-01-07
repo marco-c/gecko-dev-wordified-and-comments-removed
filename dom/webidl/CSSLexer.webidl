@@ -931,7 +931,7 @@ tokens
 *
 *
 see
-inIDOMUtils
+InspectorUtils
 .
 getCSSLexer
 to
