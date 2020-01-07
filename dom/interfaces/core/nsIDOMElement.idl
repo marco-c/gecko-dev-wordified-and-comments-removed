@@ -227,13 +227,5 @@ DOMString
 value
 )
 ;
-boolean
-hasAttribute
-(
-in
-DOMString
-name
-)
-;
 }
 ;
