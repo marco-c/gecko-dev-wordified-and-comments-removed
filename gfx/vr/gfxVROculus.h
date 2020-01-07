@@ -90,6 +90,9 @@ PixelShaderConstants
 namespace
 gfx
 {
+class
+VRThread
+;
 namespace
 impl
 {
@@ -653,9 +656,9 @@ mIndexTrigger
 float
 mHandTrigger
 ;
-nsCOMPtr
+RefPtr
 <
-nsIThread
+VRThread
 >
 mVibrateThread
 ;
