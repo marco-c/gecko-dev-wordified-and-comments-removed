@@ -262,6 +262,12 @@ nsAString
 aStr
 )
 {
+MaybeSerializeIsValue
+(
+aElement
+aStr
+)
+;
 int32_t
 count
 =
