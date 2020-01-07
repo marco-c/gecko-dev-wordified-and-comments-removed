@@ -89,6 +89,10 @@ return
 eExpandedPrincipal
 ;
 }
+ExpandedPrincipal
+(
+)
+;
 NS_DECL_NSIEXPANDEDPRINCIPAL
 NS_DECL_NSISERIALIZABLE
 NS_IMETHOD_
