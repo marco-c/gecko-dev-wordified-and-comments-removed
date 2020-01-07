@@ -1,9 +1,9 @@
 #
 ifndef
-gc_Iteration_h
+gc_PublicIterators_h
 #
 define
-gc_Iteration_h
+gc_PublicIterators_h
 #
 include
 "

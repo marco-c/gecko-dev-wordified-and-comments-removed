@@ -1510,13 +1510,6 @@ cpp
 '
 gc
 /
-Iteration
-.
-cpp
-'
-'
-gc
-/
 Marking
 .
 cpp
@@ -1532,6 +1525,13 @@ cpp
 gc
 /
 Nursery
+.
+cpp
+'
+'
+gc
+/
+PublicIterators
 .
 cpp
 '
