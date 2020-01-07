@@ -1311,17 +1311,6 @@ IsComposedDocParticipant
 return
 ;
 }
-if
-(
-!
-IsComposedDocParticipant
-(
-)
-)
-{
-return
-;
-}
 nsIDocument
 *
 doc
