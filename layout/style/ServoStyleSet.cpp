@@ -1391,6 +1391,10 @@ get
 mAuthorStyleDisabled
 )
 ;
+SetStylistStyleSheetsDirty
+(
+)
+;
 }
 void
 ServoStyleSet
