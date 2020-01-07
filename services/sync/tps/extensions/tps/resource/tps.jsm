@@ -3704,6 +3704,7 @@ action
 case
 ACTION_ADD
 :
+await
 addressOb
 .
 Create
@@ -3715,6 +3716,7 @@ break
 case
 ACTION_MODIFY
 :
+await
 addressOb
 .
 Update
@@ -3730,6 +3732,7 @@ Logger
 .
 AssertTrue
 (
+await
 addressOb
 .
 Find
@@ -3752,6 +3755,7 @@ Logger
 AssertTrue
 (
 !
+await
 addressOb
 .
 Find
@@ -3778,6 +3782,7 @@ Logger
 .
 AssertTrue
 (
+await
 addressOb
 .
 Find
@@ -3790,6 +3795,7 @@ found
 "
 )
 ;
+await
 addressOb
 .
 Remove
@@ -3843,6 +3849,7 @@ catch
 e
 )
 {
+await
 DumpAddresses
 (
 )
@@ -3916,6 +3923,7 @@ action
 case
 ACTION_ADD
 :
+await
 creditCardOb
 .
 Create
@@ -3927,6 +3935,7 @@ break
 case
 ACTION_MODIFY
 :
+await
 creditCardOb
 .
 Update
@@ -3942,6 +3951,7 @@ Logger
 .
 AssertTrue
 (
+await
 creditCardOb
 .
 Find
@@ -3964,6 +3974,7 @@ Logger
 AssertTrue
 (
 !
+await
 creditCardOb
 .
 Find
@@ -3990,6 +4001,7 @@ Logger
 .
 AssertTrue
 (
+await
 creditCardOb
 .
 Find
@@ -4002,6 +4014,7 @@ found
 "
 )
 ;
+await
 creditCardOb
 .
 Remove
@@ -4055,6 +4068,7 @@ catch
 e
 )
 {
+await
 DumpCreditCards
 (
 )
