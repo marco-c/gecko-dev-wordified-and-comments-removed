@@ -886,7 +886,7 @@ SideEffectFreeByte
 (
 )
 ;
-int8_t
+void
 SetSideEffectFreeByte
 (
 int8_t
@@ -897,7 +897,7 @@ DomDependentByte
 (
 )
 ;
-int8_t
+void
 SetDomDependentByte
 (
 int8_t
@@ -6375,7 +6375,7 @@ DeprecatedAttribute
 (
 )
 ;
-int8_t
+void
 SetDeprecatedAttribute
 (
 int8_t
@@ -6463,7 +6463,7 @@ GlobalObject
 )
 ;
 static
-int8_t
+void
 SetStaticDeprecatedAttribute
 (
 const
@@ -6473,7 +6473,7 @@ int8_t
 )
 ;
 static
-int8_t
+void
 StaticDeprecatedMethod
 (
 const
@@ -6482,7 +6482,7 @@ GlobalObject
 )
 ;
 static
-int8_t
+void
 StaticDeprecatedMethodWithContext
 (
 const
