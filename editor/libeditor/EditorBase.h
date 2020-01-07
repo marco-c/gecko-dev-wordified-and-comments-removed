@@ -1074,7 +1074,7 @@ aNode
 ;
 virtual
 nsresult
-InsertTextImpl
+InsertTextWithTransaction
 (
 nsIDocument
 &
@@ -1095,7 +1095,7 @@ nullptr
 )
 ;
 nsresult
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 const
 nsAString

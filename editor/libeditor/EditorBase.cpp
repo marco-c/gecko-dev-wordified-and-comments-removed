@@ -11060,7 +11060,7 @@ nsresult
 EditorBase
 :
 :
-InsertTextImpl
+InsertTextWithTransaction
 (
 nsIDocument
 &
@@ -11375,7 +11375,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 aStringToInsert
 *
@@ -11460,7 +11460,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 aStringToInsert
 *
@@ -11576,7 +11576,7 @@ nsresult
 EditorBase
 :
 :
-InsertTextIntoTextNodeImpl
+InsertTextIntoTextNodeWithTransaction
 (
 const
 nsAString
