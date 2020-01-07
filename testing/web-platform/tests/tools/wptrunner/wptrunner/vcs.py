@@ -152,6 +152,25 @@ proc_kwargs
 )
         
 except
+OSError
+as
+e
+:
+            
+if
+log_error
+:
+                
+logger
+.
+error
+(
+e
+)
+            
+raise
+        
+except
 subprocess
 .
 CalledProcessError
