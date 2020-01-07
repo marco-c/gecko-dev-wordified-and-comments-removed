@@ -1618,6 +1618,7 @@ interface
 Navigator
 {
 [
+SecureContext
 Throws
 Pref
 =
@@ -1654,6 +1655,7 @@ Bug
 1236777
 )
 [
+SecureContext
 Frozen
 Cached
 Pure
