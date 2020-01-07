@@ -427,6 +427,8 @@ outcome
 =
 (
 "
+INTERNAL
+-
 ERROR
 "
 str

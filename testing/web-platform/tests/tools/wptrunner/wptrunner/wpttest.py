@@ -273,6 +273,11 @@ OK
 ERROR
 "
 "
+INTERNAL
+-
+ERROR
+"
+"
 TIMEOUT
 "
 "
@@ -345,6 +350,11 @@ FAIL
 ERROR
 "
 "
+INTERNAL
+-
+ERROR
+"
+"
 TIMEOUT
 "
 "
@@ -352,6 +362,7 @@ EXTERNAL
 -
 TIMEOUT
 "
+                    
 "
 CRASH
 "
@@ -379,6 +390,11 @@ set
 OK
 "
 "
+ERROR
+"
+"
+INTERNAL
+-
 ERROR
 "
 "

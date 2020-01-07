@@ -1250,6 +1250,8 @@ else
 status
 =
 "
+INTERNAL
+-
 ERROR
 "
         
@@ -2622,6 +2624,8 @@ result
 False
 (
 "
+INTERNAL
+-
 ERROR
 "
 message
