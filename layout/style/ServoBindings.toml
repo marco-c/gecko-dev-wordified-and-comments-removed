@@ -1252,12 +1252,6 @@ StyleClear
 mozilla
 :
 :
-StyleComplexColor_Tag
-"
-"
-mozilla
-:
-:
 StyleFloat
 "
 "
@@ -1542,6 +1536,9 @@ types
 RawGecko
 .
 *
+"
+"
+DeclarationBlockMutationClosure
 "
 "
 mozilla
@@ -3335,6 +3332,12 @@ UniquePtr
 "
 "
 ServoRawOffsetArc
+"
+"
+DeclarationBlockMutationClosure
+"
+"
+RawServoUnlockedDeclarationBlock
 "
 "
 nsIContent

@@ -1760,6 +1760,18 @@ raw_data
 )
 SERVO_BINDING_FUNC
 (
+Servo_UnlockedDeclarationBlock_GetCssText
+void
+const
+RawServoUnlockedDeclarationBlock
+*
+declarations
+nsAString
+*
+result
+)
+SERVO_BINDING_FUNC
+(
 Servo_ParseStyleAttribute
 RawServoDeclarationBlockStrong
 const
@@ -1919,6 +1931,7 @@ css
 Loader
 *
 loader
+DeclarationBlockMutationClosure
 )
 SERVO_BINDING_FUNC
 (
@@ -1962,6 +1975,7 @@ css
 Loader
 *
 loader
+DeclarationBlockMutationClosure
 )
 SERVO_BINDING_FUNC
 (
@@ -1973,6 +1987,7 @@ const
 nsACString
 *
 property
+DeclarationBlockMutationClosure
 )
 SERVO_BINDING_FUNC
 (
@@ -1982,6 +1997,7 @@ RawServoDeclarationBlockBorrowed
 declarations
 nsCSSPropertyID
 property
+DeclarationBlockMutationClosure
 )
 SERVO_BINDING_FUNC
 (

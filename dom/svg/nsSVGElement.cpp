@@ -5630,6 +5630,8 @@ GetCompatibilityMode
 (
 )
 mLoader
+{
+}
 )
 ;
 if

@@ -11927,6 +11927,8 @@ aDocument
 CSSLoader
 (
 )
+{
+}
 )
 ;
 }

@@ -1116,6 +1116,8 @@ mCompatMode
 env
 .
 mLoader
+{
+}
 )
 ;
 }
@@ -1209,6 +1211,8 @@ mCompatMode
 env
 .
 mLoader
+{
+}
 )
 ;
 }

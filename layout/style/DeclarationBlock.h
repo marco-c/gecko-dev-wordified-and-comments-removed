@@ -734,6 +734,11 @@ const
 nsAString
 &
 aProperty
+DeclarationBlockMutationClosure
+aClosure
+=
+{
+}
 )
 {
 AssertMutable
@@ -752,6 +757,7 @@ Servo_DeclarationBlock_RemoveProperty
 mRaw
 &
 property
+aClosure
 )
 ;
 }
@@ -760,6 +766,11 @@ RemovePropertyByID
 (
 nsCSSPropertyID
 aProperty
+DeclarationBlockMutationClosure
+aClosure
+=
+{
+}
 )
 {
 AssertMutable
@@ -771,6 +782,7 @@ Servo_DeclarationBlock_RemovePropertyById
 (
 mRaw
 aProperty
+aClosure
 )
 ;
 }

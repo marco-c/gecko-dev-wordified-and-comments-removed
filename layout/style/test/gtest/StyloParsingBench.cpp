@@ -293,6 +293,8 @@ ParsingMode
 Default
 eCompatibility_FullStandards
 nullptr
+{
+}
 )
 ;
 }
@@ -370,6 +372,8 @@ ParsingMode
 Default
 eCompatibility_FullStandards
 nullptr
+{
+}
 )
 ;
 for
