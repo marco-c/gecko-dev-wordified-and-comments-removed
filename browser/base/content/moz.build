@@ -1236,7 +1236,9 @@ with
 Files
 (
 "
-macBrowserOverlay
+macWindow
+.
+inc
 .
 xul
 "
