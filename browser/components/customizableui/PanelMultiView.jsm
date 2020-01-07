@@ -574,8 +574,6 @@ PanelMultiView
 =
 class
 extends
-this
-.
 AssociatedToNode
 {
 static
@@ -4180,8 +4178,6 @@ PanelView
 =
 class
 extends
-this
-.
 AssociatedToNode
 {
 constructor

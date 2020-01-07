@@ -298,16 +298,6 @@ start
 )
 ;
 var
-stopWatchCancel
-=
-stopWatch
-(
-"
-cancel
-"
-)
-;
-var
 stopWatchFinish
 =
 stopWatch

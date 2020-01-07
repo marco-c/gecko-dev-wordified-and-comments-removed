@@ -339,14 +339,6 @@ true
 }
 ;
 const
-kPartialDownloadSuffix
-=
-"
-.
-part
-"
-;
-const
 kMaxHistoryResultsForLimitedView
 =
 42

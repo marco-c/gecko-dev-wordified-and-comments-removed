@@ -1,10 +1,3 @@
-const
-Cm
-=
-Components
-.
-manager
-;
 var
 EXPORTED_SYMBOLS
 =
