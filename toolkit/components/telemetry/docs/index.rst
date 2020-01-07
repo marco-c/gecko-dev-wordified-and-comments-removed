@@ -147,6 +147,9 @@ maxdepth
 :
 titlesonly
 :
+start
+/
+index
 concepts
 /
 index
