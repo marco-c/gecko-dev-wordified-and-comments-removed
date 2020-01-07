@@ -69,10 +69,6 @@ terminate
 (
 )
 ;
-done
-(
-)
-;
 }
 )
 ;
@@ -81,5 +77,9 @@ done
 Nested
 worker
 "
+)
+;
+done
+(
 )
 ;
