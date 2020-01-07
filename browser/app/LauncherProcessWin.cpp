@@ -687,6 +687,15 @@ creationFlags
 =
 EXTENDED_STARTUPINFO_PRESENT
 ;
+if
+(
+attrs
+.
+HasInheritableHandles
+(
+)
+)
+{
 siex
 .
 StartupInfo
@@ -733,6 +742,7 @@ inheritHandles
 =
 TRUE
 ;
+}
 }
 PROCESS_INFORMATION
 pi
