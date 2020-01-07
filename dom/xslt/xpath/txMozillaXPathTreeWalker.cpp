@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMProcessingInstruction
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h

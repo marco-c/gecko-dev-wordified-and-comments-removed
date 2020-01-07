@@ -154,9 +154,6 @@ nsIDOMNode
 interface
 nsIDOMNodeList
 ;
-interface
-nsIDOMProcessingInstruction
-;
 /
 /
 Needed

@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsIDOMProcessingInstruction
+nsIDOMCharacterData
 .
 h
 "
@@ -46,7 +46,7 @@ ProcessingInstruction
 public
 nsGenericDOMDataNode
 public
-nsIDOMProcessingInstruction
+nsIDOMCharacterData
 {
 public
 :
@@ -84,7 +84,6 @@ nsGenericDOMDataNode
 :
 SetData
 ;
-NS_DECL_NSIDOMPROCESSINGINSTRUCTION
 virtual
 bool
 IsNodeOfType
@@ -163,7 +162,7 @@ this
 void
 GetTarget
 (
-nsString
+nsAString
 &
 aTarget
 )
