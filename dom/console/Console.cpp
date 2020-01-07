@@ -4384,12 +4384,11 @@ true
 ;
 }
 return
-nsContentUtils
+DOMPrefs
 :
 :
 DevToolsEnabled
 (
-aCx
 )
 ;
 }

@@ -304,6 +304,12 @@ ResistFingerprintingEnabled
 (
 )
 ;
+static
+bool
+DevToolsEnabled
+(
+)
+;
 }
 ;
 }
