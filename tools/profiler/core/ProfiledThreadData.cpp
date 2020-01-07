@@ -425,7 +425,8 @@ uniqueStacks
 -
 >
 mUniqueStrings
-.
+-
+>
 SpliceStringTableElements
 (
 aWriter

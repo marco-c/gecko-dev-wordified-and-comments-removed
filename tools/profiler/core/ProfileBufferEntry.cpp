@@ -1371,6 +1371,16 @@ UniqueStacks
 UniqueStacks
 (
 )
+:
+mUniqueStrings
+(
+MakeUnique
+<
+UniqueJSONStrings
+>
+(
+)
+)
 {
 mFrameTableWriter
 .
@@ -1804,6 +1814,7 @@ AutoArraySchemaWriter
 writer
 (
 mStackTableWriter
+*
 mUniqueStrings
 )
 ;
@@ -1887,6 +1898,7 @@ AutoArraySchemaWriter
 writer
 (
 mFrameTableWriter
+*
 mUniqueStrings
 )
 ;
@@ -2538,6 +2550,7 @@ AutoArraySchemaWriter
 writer
 (
 mFrameTableWriter
+*
 mUniqueStrings
 )
 ;
@@ -3951,6 +3964,7 @@ Next
 WriteSample
 (
 aWriter
+*
 aUniqueStacks
 .
 mUniqueStrings
