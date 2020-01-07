@@ -132,6 +132,9 @@ nsContentCID
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -140,6 +143,8 @@ GeckoStyleContext
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -216,6 +221,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsBindingManager
 .
 h
 "

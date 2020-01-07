@@ -176,12 +176,17 @@ nsMappedAttributes
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsRuleData
 .
 h
 "
+#
+endif
 #
 include
 "

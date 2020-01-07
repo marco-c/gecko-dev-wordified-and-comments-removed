@@ -664,6 +664,17 @@ Telemetry
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ScriptLoader
+.
+h
+"
 using
 namespace
 mozilla

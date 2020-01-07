@@ -753,6 +753,9 @@ nsIScrollableFrame
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -777,6 +780,8 @@ nsRuleProcessorData
 .
 h
 "
+#
+endif
 #
 include
 "

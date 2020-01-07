@@ -152,6 +152,9 @@ Unused
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -160,6 +163,8 @@ GeckoRestyleManager
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla

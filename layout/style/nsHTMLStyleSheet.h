@@ -26,6 +26,9 @@ nsAtom
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsIStyleRule
@@ -39,6 +42,8 @@ nsIStyleRuleProcessor
 .
 h
 "
+#
+endif
 #
 include
 "

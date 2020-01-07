@@ -73,12 +73,17 @@ nsIDocument
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsRuleNode
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {

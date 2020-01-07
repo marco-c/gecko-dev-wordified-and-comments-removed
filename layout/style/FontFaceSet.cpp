@@ -27,6 +27,9 @@ gfxFontSrcURI
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -37,6 +40,8 @@ Declaration
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -341,12 +346,17 @@ nsPrintfCString
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsStyleSet
 .
 h
 "
+#
+endif
 #
 include
 "

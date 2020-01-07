@@ -30,12 +30,17 @@ nsDataHashtable
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsIStyleRuleProcessor
 .
 h
 "
+#
+endif
 class
 nsRuleWalker
 ;

@@ -5,6 +5,9 @@ mozilla_DeclarationBlockInlines_h
 define
 mozilla_DeclarationBlockInlines_h
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -15,6 +18,8 @@ Declaration
 .
 h
 "
+#
+endif
 #
 include
 "

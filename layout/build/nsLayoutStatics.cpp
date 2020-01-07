@@ -200,6 +200,9 @@ nsLayoutStylesheetCache
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -208,6 +211,8 @@ RuleProcessorCache
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -258,12 +263,17 @@ nsStackLayout
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsStyleSet
 .
 h
 "
+#
+endif
 #
 include
 "

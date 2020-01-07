@@ -23,6 +23,9 @@ ServoStyleSheet
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -31,6 +34,8 @@ CSSStyleSheet
 .
 h
 "
+#
+endif
 #
 include
 "

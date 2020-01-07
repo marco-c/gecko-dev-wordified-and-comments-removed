@@ -7,6 +7,13 @@ mozilla_dom_PaymentRequestService_h
 #
 include
 "
+nsInterfaceHashtable
+.
+h
+"
+#
+include
+"
 nsIPaymentRequest
 .
 h

@@ -229,12 +229,17 @@ nsIScriptError
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsCSSRuleProcessor
 .
 h
 "
+#
+endif
 #
 include
 "

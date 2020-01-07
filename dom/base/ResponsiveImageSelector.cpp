@@ -61,6 +61,9 @@ nsCSSProps
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsMediaList
@@ -81,6 +84,8 @@ nsRuleData
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla

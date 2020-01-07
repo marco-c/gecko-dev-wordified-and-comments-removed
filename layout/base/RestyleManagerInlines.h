@@ -5,6 +5,9 @@ mozilla_RestyleManagerInlines_h
 define
 mozilla_RestyleManagerInlines_h
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -13,6 +16,8 @@ GeckoRestyleManager
 .
 h
 "
+#
+endif
 #
 include
 "

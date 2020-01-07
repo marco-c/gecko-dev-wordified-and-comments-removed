@@ -5,6 +5,9 @@ nsTreeSanitizer_h_
 define
 nsTreeSanitizer_h_
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -15,6 +18,8 @@ StyleRule
 .
 h
 "
+#
+endif
 #
 include
 "

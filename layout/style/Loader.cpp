@@ -247,6 +247,9 @@ nsCSSParser
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -257,6 +260,8 @@ ImportRule
 .
 h
 "
+#
+endif
 #
 include
 "

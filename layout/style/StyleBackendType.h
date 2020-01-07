@@ -4,6 +4,13 @@ mozilla_StyleBackendType_h
 #
 define
 mozilla_StyleBackendType_h
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 mozilla
 {

@@ -94,6 +94,9 @@ nsCOMArray
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsIStyleRule
@@ -112,6 +115,8 @@ StyleRule
 h
 "
 #
+endif
+#
 include
 "
 nsString
@@ -126,12 +131,17 @@ nsStyleContext
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsStyleSet
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -161,6 +171,9 @@ nsCSSPseudoElements
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -171,6 +184,8 @@ Declaration
 .
 h
 "
+#
+endif
 #
 include
 "

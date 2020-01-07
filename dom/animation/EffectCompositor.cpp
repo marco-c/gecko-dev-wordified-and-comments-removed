@@ -103,6 +103,9 @@ EffectSet
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -111,6 +114,8 @@ GeckoStyleContext
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -231,6 +236,9 @@ nsLayoutUtils
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsRuleNode
@@ -244,6 +252,8 @@ nsRuleProcessorData
 .
 h
 "
+#
+endif
 #
 include
 "

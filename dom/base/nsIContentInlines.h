@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsBindingManager
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

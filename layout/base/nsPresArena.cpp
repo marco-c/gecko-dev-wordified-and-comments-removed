@@ -29,12 +29,17 @@ nsPrintfCString
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 GeckoStyleContext
 .
 h
 "
+#
+endif
 #
 include
 "

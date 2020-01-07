@@ -189,6 +189,9 @@ XBLChildrenElement
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsIStyleRuleProcessor
@@ -202,6 +205,8 @@ nsRuleProcessorData
 .
 h
 "
+#
+endif
 #
 include
 "

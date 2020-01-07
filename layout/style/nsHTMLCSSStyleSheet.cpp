@@ -15,6 +15,9 @@ MemoryReporting
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -26,6 +29,8 @@ StyleRule
 h
 "
 #
+endif
+#
 include
 "
 mozilla
@@ -35,6 +40,9 @@ DeclarationBlockInlines
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 nsIStyleRuleProcessor
@@ -42,12 +50,17 @@ nsIStyleRuleProcessor
 h
 "
 #
+endif
+#
 include
 "
 nsPresContext
 .
 h
 "
+#
+ifdef
+MOZ_OLD_STYLE
 #
 include
 "
@@ -62,6 +75,8 @@ nsRuleProcessorData
 .
 h
 "
+#
+endif
 #
 include
 "

@@ -23,6 +23,9 @@ ErrorResult
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -31,6 +34,8 @@ IncrementalClearCOMRuleArray
 .
 h
 "
+#
+endif
 #
 include
 "

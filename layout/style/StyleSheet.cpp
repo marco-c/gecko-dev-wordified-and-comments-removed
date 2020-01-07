@@ -12,6 +12,17 @@ include
 "
 mozilla
 /
+css
+/
+GroupRule
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 CSSImportRule
@@ -79,6 +90,9 @@ StyleSheetInlines
 h
 "
 #
+ifdef
+MOZ_OLD_STYLE
+#
 include
 "
 mozilla
@@ -87,6 +101,8 @@ CSSStyleSheet
 .
 h
 "
+#
+endif
 #
 include
 "
