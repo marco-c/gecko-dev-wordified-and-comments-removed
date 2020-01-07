@@ -2928,10 +2928,8 @@ SingleFontFamily
 :
 Generic
 (
-Atom
-:
-:
-from
+atom
+!
 (
 "
 -
