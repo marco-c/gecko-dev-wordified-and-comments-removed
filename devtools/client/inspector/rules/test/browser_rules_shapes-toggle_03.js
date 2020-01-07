@@ -561,6 +561,7 @@ active
 ;
 ok
 (
+!
 highlighters
 .
 shapesHighlighterShown
@@ -570,7 +571,17 @@ shapes
 highlighter
 is
 still
+no
+longer
+"
++
+"
 shown
+due
+to
+selecting
+another
+node
 .
 "
 )
