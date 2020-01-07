@@ -379,7 +379,18 @@ Length
 "
     
 "
+ListStyleType
+"
+    
+"
 Opacity
+"
+    
+"
+url
+:
+:
+ImageUrlOrNone
 "
 ]
 def
