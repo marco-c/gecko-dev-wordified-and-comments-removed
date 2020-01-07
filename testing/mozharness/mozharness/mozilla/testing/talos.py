@@ -4037,6 +4037,17 @@ install_mitmproxy
 )
         
 if
+(
+'
+talos_extra_options
+'
+in
+self
+.
+config
+and
+\
+            
 '
 -
 -
@@ -4054,6 +4065,18 @@ config
 talos_extra_options
 '
 ]
+)
+or
+\
+            
+'
+talos_extra_options
+'
+not
+in
+self
+.
+config
 :
             
 self
@@ -4363,6 +4386,17 @@ mitmdump
 :
                 
 if
+(
+'
+talos_extra_options
+'
+in
+self
+.
+config
+and
+\
+                   
 '
 -
 -
@@ -4380,6 +4414,18 @@ config
 talos_extra_options
 '
 ]
+)
+or
+\
+                   
+'
+talos_extra_options
+'
+not
+in
+self
+.
+config
 :
                     
 if
