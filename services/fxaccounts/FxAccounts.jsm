@@ -5999,15 +5999,6 @@ currentState
 whenVerifiedDeferred
 ;
 }
-await
-this
-.
-notifyObservers
-(
-ON_FXA_UPDATE_NOTIFICATION
-ONVERIFIED_NOTIFICATION
-)
-;
 }
 catch
 (
