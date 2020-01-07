@@ -2084,6 +2084,9 @@ nullptr
 bool
 ServiceWorkerAllowedToControlWindow
 (
+nsIPrincipal
+*
+aPrincipal
 nsIURI
 *
 aURI
