@@ -78,6 +78,10 @@ length
 RTPHeader
 *
 header
+bool
+secured
+=
+false
 )
 const
 =
