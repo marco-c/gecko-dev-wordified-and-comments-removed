@@ -8005,12 +8005,11 @@ NewRunnableFrom
 [
 id
 result
-{
+=
 Move
 (
 result
 )
-}
 ]
 (
 )
