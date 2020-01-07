@@ -34,10 +34,6 @@ struct
 ReflowInput
 ;
 }
-#
-define
-NS_REFLOW_CALC_BOUNDING_METRICS
-0x0001
 enum
 nsOverflowType
 {

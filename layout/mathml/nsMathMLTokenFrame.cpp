@@ -576,8 +576,6 @@ GetWritingMode
 aDesiredSize
 .
 mFlags
-|
-NS_REFLOW_CALC_BOUNDING_METRICS
 )
 ;
 WritingMode
