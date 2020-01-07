@@ -7293,16 +7293,10 @@ maybeFunctionDisplayAtom
 auto
 principals
 =
-JS
-:
-:
-GetRealmForCompartment
-(
 iter
 .
-compartment
+realm
 (
-)
 )
 -
 >

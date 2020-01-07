@@ -15698,16 +15698,10 @@ Realm
 *
 realm
 =
-JS
-:
-:
-GetRealmForCompartment
-(
 frame
 .
-compartment
+realm
 (
-)
 )
 ;
 if
