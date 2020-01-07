@@ -712,7 +712,6 @@ primaryHost
 "
 localhost
 "
-FAKE_PORT_TWO
 )
 ;
 Assert

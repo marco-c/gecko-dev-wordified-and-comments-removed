@@ -425,12 +425,12 @@ sessionEnumerator
 ;
 Assert
 .
-ok
+equal
 (
 conn
 .
 schemaVersion
-8
+9
 )
 ;
 let

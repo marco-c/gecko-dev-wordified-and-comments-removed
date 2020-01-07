@@ -374,7 +374,6 @@ allIDs
 [
 PREFS_GUID
 ]
-true
 )
 ;
 Assert
