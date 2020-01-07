@@ -706,6 +706,12 @@ uint64_t
 <
 48
 ;
+const
+uint64_t
+LAST_ENTRY
+=
+CURRENT
+;
 }
 }
 }
