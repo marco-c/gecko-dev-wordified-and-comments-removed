@@ -16,6 +16,13 @@ h
 #
 include
 "
+LayersTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
