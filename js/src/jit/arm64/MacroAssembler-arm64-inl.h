@@ -10089,14 +10089,6 @@ failure
 {
 MOZ_ASSERT
 (
-index
-!
-=
-length
-)
-;
-MOZ_ASSERT
-(
 length
 !
 =
