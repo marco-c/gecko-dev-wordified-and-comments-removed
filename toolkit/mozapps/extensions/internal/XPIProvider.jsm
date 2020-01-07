@@ -5007,6 +5007,9 @@ XPIDatabase
 .
 initialized
 )
+|
+|
+false
 ;
 }
 addonIsActive
