@@ -3284,7 +3284,12 @@ web_accessible_resources
 )
 {
 webAccessibleResources
-=
+.
+push
+(
+.
+.
+.
 manifest
 .
 web_accessible_resources
@@ -3307,6 +3312,7 @@ replace
 "
 /
 "
+)
 )
 )
 ;
