@@ -164,6 +164,11 @@ CurrentTimeScrubberController
 js
 '
 '
+KeyframesProgressBar
+.
+js
+'
+'
 KeyframesProgressTickItem
 .
 js
