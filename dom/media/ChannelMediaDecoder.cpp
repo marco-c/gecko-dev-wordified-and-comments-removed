@@ -1280,6 +1280,10 @@ GetStateMachine
 false
 )
 ;
+ComputePlaybackRate
+(
+)
+;
 return
 GetStatistics
 (
@@ -1441,10 +1445,6 @@ newPos
 mPlaybackStatistics
 .
 Stop
-(
-)
-;
-ComputePlaybackRate
 (
 )
 ;
