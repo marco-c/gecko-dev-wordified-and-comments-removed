@@ -139,7 +139,7 @@ label
 style
 :
 {
-left
+marginInlineStart
 :
 {
 tick

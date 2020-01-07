@@ -610,6 +610,17 @@ inspector
 .
 target
 ;
+const
+direction
+=
+this
+.
+win
+.
+document
+.
+dir
+;
 this
 .
 animationsFront
@@ -680,6 +691,7 @@ App
 (
 {
 addAnimationsCurrentTimeListener
+direction
 emitEventForTest
 getAnimatedPropertyMap
 getAnimationsCurrentTime
