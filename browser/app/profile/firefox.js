@@ -5034,6 +5034,16 @@ temporary_permission_expire_time_ms
 pref
 (
 "
+privacy
+.
+spoof_english
+"
+0
+)
+;
+pref
+(
+"
 network
 .
 proxy
