@@ -34,7 +34,7 @@ eDeleteSelectedContent
 eSetTextProperty
 eRemoveTextProperty
 eComputeTextToOutput
-setText
+eSetText
 insertBreak
 =
 3000

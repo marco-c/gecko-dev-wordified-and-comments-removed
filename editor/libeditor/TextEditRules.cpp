@@ -899,7 +899,7 @@ aEditSubAction
 EditSubAction
 :
 :
-setText
+eSetText
 )
 {
 mCachedSelectionNode
@@ -1356,7 +1356,7 @@ case
 EditSubAction
 :
 :
-setText
+eSetText
 :
 UndefineCaretBidiLevel
 (
