@@ -530,8 +530,16 @@ state
 animations
 .
 sidebarSize
+?
+state
+.
+animations
+.
+sidebarSize
 .
 width
+:
+0
 }
 ;
 }
