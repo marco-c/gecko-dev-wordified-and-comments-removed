@@ -39089,9 +39089,15 @@ generation
 group
 -
 >
-compartment_
+realm_
 =
+JS
+:
+:
+GetRealmForCompartment
+(
 target
+)
 ;
 if
 (
