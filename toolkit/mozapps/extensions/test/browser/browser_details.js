@@ -6829,6 +6829,7 @@ run_next_test
 ;
 add_test
 (
+async
 function
 (
 )
@@ -6847,6 +6848,10 @@ UI
 "
 )
 ;
+let
+aAddon
+=
+await
 AddonManager
 .
 getAddonByID
@@ -6859,11 +6864,8 @@ mozilla
 .
 org
 "
-function
-(
-aAddon
 )
-{
+;
 aAddon
 .
 userDisabled
@@ -7067,9 +7069,6 @@ correct
 ;
 run_next_test
 (
-)
-;
-}
 )
 ;
 }

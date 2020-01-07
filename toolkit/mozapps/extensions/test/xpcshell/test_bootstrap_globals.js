@@ -68,6 +68,7 @@ object
 ]
 ]
 ;
+async
 function
 run_test
 (
@@ -165,7 +166,8 @@ globals
 "
 )
 ;
-installAllFiles
+await
+promiseInstallAllFiles
 (
 [
 do_get_addon
@@ -175,10 +177,8 @@ bootstrap_globals
 "
 )
 ]
-function
-(
 )
-{
+;
 Assert
 .
 ok
@@ -192,9 +192,6 @@ shutdownManager
 ;
 do_test_finished
 (
-)
-;
-}
 )
 ;
 }

@@ -562,6 +562,7 @@ return
 new
 Promise
 (
+async
 (
 resolve
 reject
@@ -569,6 +570,10 @@ reject
 =
 >
 {
+let
+install
+=
+await
 AddonManager
 .
 getInstallForFile
@@ -576,10 +581,8 @@ getInstallForFile
 this
 .
 file
-install
-=
->
-{
+)
+;
 let
 listener
 =
@@ -623,9 +626,6 @@ install
 .
 install
 (
-)
-;
-}
 )
 ;
 }

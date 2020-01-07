@@ -360,6 +360,7 @@ backgroundUpdateCheck
 ;
 add_test
 (
+async
 function
 (
 )
@@ -438,6 +439,10 @@ restartManager
 (
 )
 ;
+let
+a11
+=
+await
 AddonManager
 .
 getAddonByID
@@ -450,11 +455,8 @@ mozilla
 .
 org
 "
-function
-(
-a11
 )
-{
+;
 Assert
 .
 notEqual
@@ -516,9 +518,6 @@ run_next_test
 AddonManager
 .
 UPDATE_WHEN_USER_REQUESTED
-)
-;
-}
 )
 ;
 }

@@ -202,6 +202,7 @@ backgroundUpdateCheck
 )
 ;
 }
+async
 function
 run_test
 (
@@ -471,6 +472,10 @@ startupManager
 (
 )
 ;
+let
+a
+=
+await
 AddonManager
 .
 getAddonByID
@@ -483,11 +488,8 @@ mozilla
 .
 org
 "
-function
-(
-a
 )
-{
+;
 Assert
 .
 notEqual
@@ -508,6 +510,7 @@ null
 ;
 backgroundUpdate
 (
+async
 function
 (
 )
@@ -516,6 +519,10 @@ restartManager
 (
 )
 ;
+let
+a2
+=
+await
 AddonManager
 .
 getAddonByID
@@ -528,11 +535,8 @@ mozilla
 .
 org
 "
-function
-(
-a2
 )
-{
+;
 Assert
 .
 notEqual
@@ -579,12 +583,6 @@ xpi
 ;
 do_test_finished
 (
-)
-;
-}
-)
-;
-}
 )
 ;
 }

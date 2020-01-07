@@ -6030,6 +6030,12 @@ getInstallForURL
 aUri
 .
 spec
+null
+mimeType
+)
+.
+then
+(
 install
 =
 >
@@ -6045,7 +6051,6 @@ install
 )
 ;
 }
-mimeType
 )
 ;
 return

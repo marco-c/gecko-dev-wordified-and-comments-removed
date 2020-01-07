@@ -1,3 +1,4 @@
+async
 function
 test
 (
@@ -31,16 +32,16 @@ enabled
 "
 )
 ;
+let
+aAddons
+=
+await
 AddonManager
 .
 getAllAddons
 (
-function
-gAACallback
-(
-aAddons
 )
-{
+;
 aAddons
 .
 sort
@@ -147,9 +148,6 @@ isCompatible
 }
 finish
 (
-)
-;
-}
 )
 ;
 }

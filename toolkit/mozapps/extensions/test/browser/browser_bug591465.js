@@ -2026,6 +2026,7 @@ addEventListener
 "
 popupshown
 "
+async
 function
 (
 )
@@ -2045,6 +2046,10 @@ hidePopup
 (
 )
 ;
+let
+aAddon
+=
+await
 AddonManager
 .
 getAddonByID
@@ -2057,11 +2062,8 @@ mozilla
 .
 org
 "
-function
-(
-aAddon
 )
-{
+;
 aAddon
 .
 uninstall
@@ -2070,9 +2072,6 @@ uninstall
 ;
 run_next_test
 (
-)
-;
-}
 )
 ;
 }

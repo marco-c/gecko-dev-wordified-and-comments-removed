@@ -197,6 +197,7 @@ observer
 {
 observe
 :
+async
 function
 (
 subject
@@ -228,6 +229,10 @@ message
 "
 )
 ;
+let
+addon
+=
+await
 AddonManager
 .
 getAddonByID
@@ -240,11 +245,8 @@ mozilla
 .
 org
 "
-function
-(
-addon
 )
-{
+;
 addon
 .
 uninstall
@@ -348,9 +350,6 @@ SimpleTest
 .
 finish
 (
-)
-;
-}
 )
 ;
 }
