@@ -146,14 +146,6 @@ upload_env
 {
         
 '
-UPLOAD_HOST
-'
-:
-'
-localhost
-'
-        
-'
 UPLOAD_PATH
 '
 :
