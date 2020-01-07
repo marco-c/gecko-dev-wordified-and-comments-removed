@@ -7875,9 +7875,6 @@ loadGroup
 )
 ;
 }
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 bool
 WorkerLoadInfo
 :
@@ -7968,6 +7965,9 @@ return
 false
 ;
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 bool
 WorkerLoadInfo
 :
@@ -16507,9 +16507,6 @@ aChannel
 )
 ;
 }
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 template
 <
 class
@@ -16538,6 +16535,9 @@ aChannel
 )
 ;
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 template
 <
 class

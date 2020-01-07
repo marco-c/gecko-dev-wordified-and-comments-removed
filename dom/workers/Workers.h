@@ -941,9 +941,6 @@ nsIChannel
 aChannel
 )
 ;
-#
-ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
 bool
 FinalChannelPrincipalIsValid
 (
@@ -952,6 +949,9 @@ nsIChannel
 aChannel
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 bool
 PrincipalIsValid
 (
