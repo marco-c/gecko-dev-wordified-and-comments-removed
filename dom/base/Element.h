@@ -558,9 +558,6 @@ class
 DestinationInsertionPointList
 ;
 class
-Flex
-;
-class
 Grid
 ;
 #
@@ -4095,14 +4092,6 @@ XMost
 0
 ;
 }
-already_AddRefed
-<
-Flex
->
-GetAsFlexContainer
-(
-)
-;
 void
 GetGridFragments
 (
