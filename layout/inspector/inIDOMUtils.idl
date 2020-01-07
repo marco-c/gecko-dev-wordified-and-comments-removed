@@ -119,17 +119,6 @@ inIDOMUtils
 :
 nsISupports
 {
-nsIDOMNodeList
-getChildrenForNode
-(
-in
-nsIDOMNode
-aNode
-in
-boolean
-aShowingAnonymousContent
-)
-;
 /
 /
 XBL
