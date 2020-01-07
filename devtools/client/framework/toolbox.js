@@ -155,6 +155,16 @@ Services
 )
 ;
 var
+ChromeUtils
+=
+require
+(
+"
+ChromeUtils
+"
+)
+;
+var
 {
 Task
 }
@@ -349,7 +359,7 @@ const
 BrowserLoader
 }
 =
-Cu
+ChromeUtils
 .
 import
 (

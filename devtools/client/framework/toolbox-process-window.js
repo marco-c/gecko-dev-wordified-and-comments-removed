@@ -1058,6 +1058,12 @@ toolbox
 =
 toolbox
 ;
+sandbox
+.
+ChromeUtils
+=
+ChromeUtils
+;
 Cu
 .
 evalInSandbox
