@@ -161,9 +161,9 @@ Accessible
 New_Accessible
 )
 (
-nsIContent
+Element
 *
-aContent
+aElement
 Accessible
 *
 aContext
