@@ -61,9 +61,6 @@ h
 >
 #
 define
-XRE_DONT_PROTECT_DLL_LOAD
-#
-define
 XRE_WANT_ENVIRON
 #
 include
