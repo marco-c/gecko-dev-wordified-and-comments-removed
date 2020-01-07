@@ -18881,6 +18881,11 @@ NS_NewButtonBoxFrame
 )
 SCROLLABLE_XUL_CREATE
 (
+thumb
+NS_NewButtonBoxFrame
+)
+SCROLLABLE_XUL_CREATE
+(
 checkbox
 NS_NewButtonBoxFrame
 )
