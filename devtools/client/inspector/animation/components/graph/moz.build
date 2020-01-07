@@ -61,6 +61,11 @@ ComputedTimingPath
 js
 '
 '
+DelaySign
+.
+js
+'
+'
 EffectTimingPath
 .
 js
