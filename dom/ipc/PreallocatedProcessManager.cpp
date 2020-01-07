@@ -725,6 +725,15 @@ if
 mPreallocatedProcess
 )
 {
+ProcessPriorityManager
+:
+:
+SetProcessPriority
+(
+mPreallocatedProcess
+PROCESS_PRIORITY_FOREGROUND
+)
+;
 AllocateOnIdle
 (
 )

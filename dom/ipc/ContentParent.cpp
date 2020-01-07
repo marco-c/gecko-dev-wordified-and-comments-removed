@@ -13858,6 +13858,15 @@ shutdown
 )
 )
 {
+ProcessPriorityManager
+:
+:
+SetProcessPriority
+(
+this
+PROCESS_PRIORITY_FOREGROUND
+)
+;
 ShutDownProcess
 (
 SEND_SHUTDOWN_MESSAGE
