@@ -17391,6 +17391,7 @@ flags
 &
 TRUNC_UNSIGNED
 )
+{
 masm
 .
 wasmTruncateFloat32ToUInt64
@@ -17413,7 +17414,9 @@ rejoin
 temp
 )
 ;
+}
 else
+{
 masm
 .
 wasmTruncateFloat32ToInt64
@@ -17436,6 +17439,7 @@ rejoin
 temp
 )
 ;
+}
 return
 true
 ;
@@ -17499,6 +17503,7 @@ flags
 &
 TRUNC_UNSIGNED
 )
+{
 masm
 .
 wasmTruncateDoubleToUInt64
@@ -17521,7 +17526,9 @@ rejoin
 temp
 )
 ;
+}
 else
+{
 masm
 .
 wasmTruncateDoubleToInt64
@@ -17544,6 +17551,7 @@ rejoin
 temp
 )
 ;
+}
 return
 true
 ;
