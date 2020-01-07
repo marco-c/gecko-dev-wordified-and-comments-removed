@@ -2835,6 +2835,11 @@ Frame
 )
 captureCtx
 aItem
+-
+>
+IsSubpixelAADisabled
+(
+)
 )
 ;
 textDrawer
