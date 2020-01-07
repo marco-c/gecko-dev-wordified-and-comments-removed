@@ -134,6 +134,13 @@ h
 #
 include
 "
+CombinedStacks
+.
+h
+"
+#
+include
+"
 nsIComponentManager
 .
 h
