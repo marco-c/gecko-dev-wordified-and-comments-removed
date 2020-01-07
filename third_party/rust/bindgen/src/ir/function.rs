@@ -709,7 +709,7 @@ Tokens
 {
 tokens
 .
-append
+append_all
 (
 match
 *
