@@ -474,6 +474,7 @@ signing_format_scopes
 .
 append
 (
+                
 add_scope_prefix
 (
 config
@@ -491,6 +492,7 @@ format
 format
 )
 )
+            
 )
         
 treeherder
