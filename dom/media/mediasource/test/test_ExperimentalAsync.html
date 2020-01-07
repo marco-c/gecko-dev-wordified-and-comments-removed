@@ -428,7 +428,7 @@ event
 "
 )
 ;
-let
+const
 audiosb
 =
 ms
@@ -454,7 +454,7 @@ mode
 sequence
 "
 ;
-var
+const
 audioInitBuffer
 =
 await
@@ -477,7 +477,7 @@ appendBufferAsync
 audioInitBuffer
 )
 ;
-var
+const
 audioBuffer
 =
 await
@@ -514,7 +514,7 @@ audioBuffer
 async
 function
 (
-ex
+ex1
 )
 {
 /
@@ -522,7 +522,7 @@ ex
 onCaughtExceptionCallback
 is
 (
-ex
+ex1
 .
 name
 "
@@ -557,7 +557,7 @@ range
 "
 )
 ;
-let
+const
 seekTime
 =
 audiosb
@@ -625,7 +625,7 @@ catch
 (
 function
 (
-ex
+ex2
 )
 {
 ok
@@ -687,7 +687,7 @@ catch
 async
 function
 (
-ex
+ex3
 )
 {
 ok
@@ -708,7 +708,7 @@ start
 ;
 is
 (
-ex
+ex3
 .
 name
 "
@@ -734,7 +734,7 @@ catch
 async
 function
 (
-ex
+ex4
 )
 {
 ok
@@ -754,7 +754,7 @@ duration
 ;
 is
 (
-ex
+ex4
 .
 name
 "
@@ -775,7 +775,7 @@ catch
 (
 function
 (
-ex
+ex5
 )
 {
 ok
@@ -901,7 +901,7 @@ finish
 )
 ;
 throw
-ex
+ex4
 ;
 /
 /

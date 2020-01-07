@@ -169,7 +169,7 @@ waitForExplicitFinish
 (
 )
 ;
-var
+let
 receivedSourceOpen
 =
 false
@@ -224,7 +224,7 @@ receivedSourceOpen
 =
 true
 ;
-var
+const
 sb
 =
 ms
@@ -264,9 +264,9 @@ sb
 .
 addEventListener
 (
-'
+"
 error
-'
+"
 (
 e
 )
@@ -350,9 +350,6 @@ arrayBuffer
 )
 )
 )
-.
-then
-(
 /
 *
 Note
@@ -403,6 +400,9 @@ to
 ]
 *
 /
+.
+then
+(
 loadSegment
 .
 bind
@@ -441,7 +441,7 @@ sample
 -
 40ms
 .
-var
+const
 promise
 =
 waitUntilTime
@@ -539,7 +539,7 @@ function
 (
 )
 {
-var
+const
 waitDuration
 =
 (
