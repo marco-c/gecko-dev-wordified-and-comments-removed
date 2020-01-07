@@ -188,17 +188,6 @@ id
 )
 )
 ;
-img
-.
-QueryInterface
-(
-SpecialPowers
-.
-Ci
-.
-nsIImageLoadingContent
-)
-;
 var
 request
 =

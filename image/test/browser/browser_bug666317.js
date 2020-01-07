@@ -184,15 +184,6 @@ testImg
 '
 )
 ;
-img
-.
-QueryInterface
-(
-Ci
-.
-nsIImageLoadingContent
-)
-;
 return
 img
 .

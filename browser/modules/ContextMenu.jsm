@@ -2720,13 +2720,6 @@ request
 =
 aTarget
 .
-QueryInterface
-(
-Ci
-.
-nsIImageLoadingContent
-)
-.
 getRequest
 (
 Ci

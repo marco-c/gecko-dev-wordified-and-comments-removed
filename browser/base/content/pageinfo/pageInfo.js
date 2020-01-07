@@ -1532,15 +1532,6 @@ getClipboardHelper
 )
 ;
 const
-nsIImageLoadingContent
-=
-Components
-.
-interfaces
-.
-nsIImageLoadingContent
-;
-const
 XLinkNS
 =
 "
