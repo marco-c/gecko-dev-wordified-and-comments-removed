@@ -209,12 +209,10 @@ aWhatToShow
 Methods
 and
 attributes
-from
-nsIDOMTreeWalker
-which
-is
-not
-scriptable
+that
+look
+like
+TreeWalker
 .
 /
 /

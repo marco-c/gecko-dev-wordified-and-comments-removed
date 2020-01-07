@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIDOMTreeWalker
-.
-h
-"
-#
-include
-"
 nsIEditorSpellCheck
 .
 h
@@ -367,12 +360,6 @@ mozilla
 EditorSpellCheck
 >
 mPendingSpellCheck
-;
-nsCOMPtr
-<
-nsIDOMTreeWalker
->
-mTreeWalker
 ;
 nsCOMPtr
 <

@@ -1743,7 +1743,6 @@ NS_IMPL_CYCLE_COLLECTION
 mozInlineSpellChecker
 mTextEditor
 mSpellCheck
-mTreeWalker
 mCurrentSelectionAnchorNode
 )
 mozInlineSpellChecker

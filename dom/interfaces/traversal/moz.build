@@ -117,11 +117,6 @@ nsIDOMNodeFilter
 .
 idl
 '
-'
-nsIDOMTreeWalker
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
