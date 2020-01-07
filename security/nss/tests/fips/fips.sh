@@ -414,10 +414,6 @@ fips_init
 (
 )
 {
-export
-NSS_TEST_ENABLE_FIPS
-=
-1
 SCRIPTNAME
 =
 fips

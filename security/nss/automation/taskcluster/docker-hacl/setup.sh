@@ -129,7 +129,7 @@ format
 curl
 -
 LO
-http
+https
 :
 /
 /
@@ -173,7 +173,7 @@ xz
 curl
 -
 LO
-http
+https
 :
 /
 /

@@ -860,9 +860,6 @@ ssl_extended_master_secret_xtn
 ssl_session_ticket_xtn
 =
 35
-ssl_tls13_key_share_xtn
-=
-40
 ssl_tls13_pre_shared_key_xtn
 =
 41
@@ -884,6 +881,12 @@ ssl_tls13_ticket_early_data_info_xtn
 ssl_tls13_certificate_authorities_xtn
 =
 47
+ssl_signature_algorithms_cert_xtn
+=
+50
+ssl_tls13_key_share_xtn
+=
+51
 ssl_next_proto_nego_xtn
 =
 13172
@@ -903,7 +906,7 @@ ssl_supported_groups_xtn
 #
 define
 SSL_MAX_EXTENSIONS
-19
+20
 typedef
 enum
 {
