@@ -3287,10 +3287,13 @@ mFromKey
 )
 /
 (
+double
+(
 aSegment
 -
 >
 mToKey
+)
 -
 aSegment
 -
