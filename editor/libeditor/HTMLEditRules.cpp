@@ -38092,8 +38092,8 @@ GetContainer
 )
 )
 ;
-ErrorResult
-error
+IgnoredErrorResult
+ignoredError
 ;
 range
 -
@@ -38101,13 +38101,13 @@ range
 SetStart
 (
 aPoint
-error
+ignoredError
 )
 ;
 MOZ_ASSERT
 (
 !
-error
+ignoredError
 .
 Failed
 (
