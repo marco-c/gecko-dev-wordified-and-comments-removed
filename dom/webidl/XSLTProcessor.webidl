@@ -345,7 +345,7 @@ transformations
 with
 this
 *
-nsIXSLTProcessor
+XSLTProcessor
 .
 If
 the
@@ -561,7 +561,7 @@ set
 parameters
 from
 this
-nsIXSLTProcessor
+XSLTProcessor
 .
 This
 will
@@ -602,7 +602,7 @@ and
 stylesheets
 from
 this
-nsIXSLTProcessor
+XSLTProcessor
 .
 *
 /

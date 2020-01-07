@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIXSLTProcessor
-.
-h
-"
-#
-include
-"
 nsSyncLoadService
 .
 h

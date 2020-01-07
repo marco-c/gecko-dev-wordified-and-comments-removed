@@ -1360,14 +1360,6 @@ txMozillaXSLTProcessor
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY
 (
-nsIXSLTProcessor
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIXSLTProcessorPrivate
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIDocumentTransformer
 )
 NS_INTERFACE_MAP_ENTRY
@@ -1377,7 +1369,7 @@ nsIMutationObserver
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIXSLTProcessor
+nsIDocumentTransformer
 )
 NS_INTERFACE_MAP_END
 txMozillaXSLTProcessor

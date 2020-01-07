@@ -109,16 +109,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIXSLTProcessor
-.
-idl
-'
-'
-nsIXSLTProcessorPrivate
-.
-idl
-'
-'
 txIEXSLTRegExFunctions
 .
 idl
