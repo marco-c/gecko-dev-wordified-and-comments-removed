@@ -562,11 +562,6 @@ aErrorCode
 =
 NS_ERROR_ILLEGAL_VALUE
 ;
-if
-(
-cp
-)
-{
 auto
 endcp
 =
@@ -745,9 +740,14 @@ break
 }
 if
 (
+!
 done
 )
 {
+return
+0
+;
+}
 cp
 -
 -
@@ -1012,8 +1012,6 @@ result
 -
 result
 ;
-}
-}
 return
 result
 .
