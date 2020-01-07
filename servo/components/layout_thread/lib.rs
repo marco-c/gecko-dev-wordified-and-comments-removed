@@ -3894,7 +3894,7 @@ point
 webrender_api
 :
 :
-IdType
+ScrollNodeIdType
 :
 :
 ExternalScrollId
