@@ -129,6 +129,11 @@ MultiLogCTVerifierTest
 .
 cpp
 '
+'
+TrustOverrideTest
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
@@ -139,6 +144,14 @@ LOCAL_INCLUDES
 security
 /
 certverifier
+'
+'
+/
+security
+/
+manager
+/
+ssl
 '
 '
 /
