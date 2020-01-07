@@ -217,6 +217,15 @@ winapi
 :
 :
 {
+DWRITE_FONT_SIMULATIONS
+}
+;
+pub
+use
+winapi
+:
+:
+{
 DWRITE_RENDERING_MODE
 }
 ;

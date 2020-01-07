@@ -243,6 +243,12 @@ GL_OES_EGL_image
 "
 GL_OES_EGL_image_external
 "
+"
+GL_EXT_disjoint_timer_query
+"
+"
+GL_EXT_debug_marker
+"
 ]
 ;
 let

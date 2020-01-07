@@ -42,7 +42,7 @@ BurntSushi
 /
 byteorder
 .
-png
+svg
 )
 ]
 (
