@@ -171,6 +171,9 @@ namespace
 jit
 {
 class
+AutoSaveLiveRegisters
+;
+class
 MOZ_RAII
 IonCacheIRCompiler
 :
@@ -502,6 +505,9 @@ prepareVMCall
 MacroAssembler
 &
 masm
+const
+AutoSaveLiveRegisters
+&
 )
 ;
 MOZ_MUST_USE
@@ -1540,6 +1546,9 @@ prepareVMCall
 MacroAssembler
 &
 masm
+const
+AutoSaveLiveRegisters
+&
 )
 {
 uint32_t
@@ -6741,6 +6750,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -6911,6 +6921,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -7455,6 +7466,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -7625,6 +7637,7 @@ slow
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -12432,6 +12445,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -12580,6 +12594,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -12732,6 +12747,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
@@ -12852,6 +12868,7 @@ masm
 prepareVMCall
 (
 masm
+save
 )
 ;
 masm
