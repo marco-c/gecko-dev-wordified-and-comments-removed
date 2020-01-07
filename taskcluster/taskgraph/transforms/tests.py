@@ -3148,16 +3148,10 @@ if
 config
 .
 params
-[
-'
-project
-'
-]
-=
-=
-'
-try
-'
+.
+is_try
+(
+)
 :
             
 extra_options
@@ -4053,16 +4047,10 @@ if
 config
 .
 params
-[
-'
-project
-'
-]
-=
-=
-'
-try
-'
+.
+is_try
+(
+)
 :
                 
 test
@@ -7481,19 +7469,14 @@ optimization
 ]
         
 elif
+not
 config
 .
 params
-[
-'
-project
-'
-]
-!
-=
-'
-try
-'
+.
+is_try
+(
+)
 and
 suite
 not
