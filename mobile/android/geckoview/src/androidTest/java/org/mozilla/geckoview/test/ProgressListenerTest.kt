@@ -168,7 +168,7 @@ class
 )
 MediumTest
 class
-ProgressDelegateTest
+ProgressListenerTest
 {
 companion
 object
@@ -305,7 +305,7 @@ object
 :
 Callbacks
 .
-ProgressDelegate
+ProgressListener
 {
 AssertCalled
 (
@@ -396,7 +396,7 @@ securityInfo
 :
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 )
@@ -461,7 +461,7 @@ equalTo
 (
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 .
@@ -560,7 +560,7 @@ object
 :
 Callbacks
 .
-ProgressDelegate
+ProgressListener
 {
 AssertCalled
 (
@@ -736,7 +736,7 @@ object
 :
 Callbacks
 .
-ProgressDelegate
+ProgressListener
 {
 AssertCalled
 (
@@ -799,7 +799,7 @@ securityInfo
 :
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 )
@@ -898,7 +898,7 @@ object
 :
 Callbacks
 .
-ProgressDelegate
+ProgressListener
 {
 AssertCalled
 (
@@ -961,7 +961,7 @@ securityInfo
 :
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 )
@@ -1027,7 +1027,7 @@ object
 :
 Callbacks
 .
-ProgressDelegate
+ProgressListener
 {
 AssertCalled
 (
@@ -1090,7 +1090,7 @@ securityInfo
 :
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 )
@@ -1177,7 +1177,7 @@ object
 :
 Callbacks
 .
-ProgressDelegate
+ProgressListener
 {
 AssertCalled
 (
@@ -1196,7 +1196,7 @@ securityInfo
 :
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 )
@@ -1395,7 +1395,7 @@ equalTo
 (
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 .
@@ -1418,7 +1418,7 @@ equalTo
 (
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 .
@@ -1441,7 +1441,7 @@ equalTo
 (
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 .
@@ -1463,7 +1463,7 @@ equalTo
 (
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 .
@@ -1512,7 +1512,7 @@ object
 :
 Callbacks
 .
-ProgressDelegate
+ProgressListener
 {
 AssertCalled
 (
@@ -1561,7 +1561,7 @@ securityInfo
 :
 GeckoSession
 .
-ProgressDelegate
+ProgressListener
 .
 SecurityInformation
 )
