@@ -1324,7 +1324,7 @@ bool
 aIsPreLoad
 )
 ;
-nsresult
+void
 ParseSheet
 (
 const
@@ -1345,7 +1345,7 @@ bool
 aCompleted
 )
 ;
-nsresult
+void
 DoParseSheetServo
 (
 const

@@ -7279,7 +7279,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 Loader
 :
 :
@@ -7375,7 +7375,6 @@ IsEmpty
 )
 )
 {
-return
 DoParseSheetServo
 (
 NS_ConvertUTF16toUTF8
@@ -7390,7 +7389,6 @@ aCompleted
 }
 else
 {
-return
 DoParseSheetServo
 (
 aUTF8
@@ -7401,7 +7399,7 @@ aCompleted
 ;
 }
 }
-nsresult
+void
 Loader
 :
 :
@@ -7512,7 +7510,6 @@ NS_OK
 ;
 }
 return
-NS_OK
 ;
 }
 BlockOnload
@@ -7629,9 +7626,6 @@ promise
 ;
 }
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -9038,8 +9032,6 @@ completed
 =
 true
 ;
-rv
-=
 ParseSheet
 (
 aBuffer
@@ -9051,21 +9043,6 @@ false
 completed
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-Err
-(
-rv
-)
-;
-}
 if
 (
 !

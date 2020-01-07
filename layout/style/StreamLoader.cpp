@@ -431,7 +431,6 @@ rv
 bool
 dummy
 ;
-return
 mSheetLoadData
 -
 >
@@ -448,6 +447,9 @@ mSheetLoadData
 true
 dummy
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
