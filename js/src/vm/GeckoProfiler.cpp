@@ -2254,6 +2254,12 @@ JSScript
 >
 (
 spOrScript
+.
+operator
+void
+*
+(
+)
 )
 ;
 if
