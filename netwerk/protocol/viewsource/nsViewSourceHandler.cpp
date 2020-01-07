@@ -404,11 +404,6 @@ return
 rv
 ;
 }
-NS_TryToSetImmutable
-(
-uri
-)
-;
 uri
 .
 swap

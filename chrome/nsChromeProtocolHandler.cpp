@@ -347,11 +347,6 @@ rv
 return
 rv
 ;
-NS_TryToSetImmutable
-(
-surl
-)
-;
 surl
 .
 forget

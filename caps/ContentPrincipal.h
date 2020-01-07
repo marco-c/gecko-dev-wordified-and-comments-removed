@@ -244,12 +244,6 @@ nsIURI
 >
 mCodebase
 ;
-bool
-mCodebaseImmutable
-;
-bool
-mDomainImmutable
-;
 protected
 :
 virtual

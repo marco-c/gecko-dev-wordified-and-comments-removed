@@ -16799,11 +16799,6 @@ early
 "
 )
 ;
-NS_TryToSetImmutable
-(
-aURI
-)
-;
 return
 imgLoader
 -

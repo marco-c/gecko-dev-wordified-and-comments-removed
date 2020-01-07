@@ -4642,11 +4642,6 @@ NS_ERROR_DOM_BAD_DOCUMENT_DOMAIN
 return
 ;
 }
-NS_TryToSetImmutable
-(
-newURI
-)
-;
 rv
 =
 NodePrincipal

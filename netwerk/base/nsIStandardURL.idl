@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsIMutable
+nsISupports
 .
 idl
 "
@@ -173,7 +173,7 @@ d6b9e33caa81
 interface
 nsIStandardURL
 :
-nsIMutable
+nsISupports
 {
 /
 *

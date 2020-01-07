@@ -95,9 +95,6 @@ ref
 nsCString
 query
 ;
-bool
-isMutable
-;
 }
 ;
 struct
@@ -161,9 +158,6 @@ query
 ;
 StandardURLSegment
 ref
-;
-bool
-isMutable
 ;
 bool
 supportsFileURL

@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsIMutable
-.
-h
-"
-#
-include
-"
 nsISizeOf
 .
 h
@@ -122,8 +115,6 @@ nsISerializable
 public
 nsIClassInfo
 public
-nsIMutable
-public
 nsISizeOf
 public
 nsIIPCSerializableURI
@@ -148,7 +139,6 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURI
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
-NS_DECL_NSIMUTABLE
 NS_DECL_NSIIPCSERIALIZABLEURI
 static
 already_AddRefed
