@@ -10801,16 +10801,8 @@ Ok
 MatrixDecomposed2D
 {
 translate
-:
-translate
-scale
-:
 scale
 angle
-:
-angle
-matrix
-:
 matrix
 }
 )
