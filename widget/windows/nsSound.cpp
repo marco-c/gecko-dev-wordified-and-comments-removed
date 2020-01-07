@@ -135,6 +135,13 @@ ClearOnShutdown
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
 using
 mozilla
 :
@@ -422,6 +429,9 @@ IsHeadless
 sInstance
 =
 new
+mozilla
+:
+:
 widget
 :
 :
