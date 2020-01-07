@@ -1294,7 +1294,7 @@ dtd
 '
                     
 '
-startupUserHomePage
+homepage2
 .
 label
 '
