@@ -34,7 +34,6 @@ from
 itertools
 import
 chain
-imap
 UNSUPPORTED_FEATURES
 =
 set
@@ -651,29 +650,18 @@ testSource
     
 source
 =
-testSource
-    
-if
-prologue
-:
-        
-source
-=
-prologue
-+
-"
-\
-n
-"
-+
-source
+[
+]
     
 if
 refTest
 :
         
 source
-=
+.
+append
+(
+b
 "
 /
 /
@@ -683,35 +671,84 @@ reftest
 "
 +
 refTest
-+
+.
+encode
+(
 "
-\
-n
+utf
+-
+8
 "
-+
+)
+)
+    
+if
+prologue
+:
+        
 source
+.
+append
+(
+prologue
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
+)
+    
+source
+.
+append
+(
+testSource
+)
     
 if
 epilogue
 :
         
 source
-+
-=
-"
-\
-n
-"
-+
+.
+append
+(
 epilogue
-+
+.
+encode
+(
 "
-\
-n
+utf
+-
+8
 "
+)
+)
+        
+source
+.
+append
+(
+b
+"
+"
+)
     
 return
+b
+"
+\
+n
+"
+.
+join
+(
 source
+)
 def
 writeTestFile
 (
@@ -940,6 +977,7 @@ includeFile
 :
             
 return
+b
 "
 /
 /
@@ -961,6 +999,15 @@ path
 basename
 (
 filePath
+)
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
 includeFile
 .
@@ -985,6 +1032,7 @@ else
     
 includeSource
 =
+b
 "
 \
 n
@@ -992,13 +1040,13 @@ n
 .
 join
 (
-imap
+map
 (
 readIncludeFile
 chain
 (
         
-imap
+map
 (
 partial
 (
@@ -1017,7 +1065,7 @@ findIncludes
 )
 )
         
-imap
+map
 (
 partial
 (
@@ -1107,6 +1155,7 @@ browserFile
 .
 write
 (
+b
 "
 "
 )
@@ -1215,6 +1264,15 @@ tryParseTestFile
 (
 test262parser
 testSource
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 testName
 )
     
@@ -1284,6 +1342,7 @@ in
 testRec
     
 assert
+b
 "
 DONE
 "
@@ -3573,7 +3632,14 @@ INFO
 "
 )
 "
-wb
+w
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
 as
