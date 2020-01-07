@@ -3880,6 +3880,17 @@ document
 "
 )
 ;
+if
+(
+mCompatMode
+=
+=
+aMode
+)
+{
+return
+;
+}
 mCompatMode
 =
 aMode
