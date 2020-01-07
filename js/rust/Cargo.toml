@@ -198,6 +198,16 @@ test
 name
 =
 "
+value
+"
+[
+[
+test
+]
+]
+name
+=
+"
 vec_conversion
 "
 [
