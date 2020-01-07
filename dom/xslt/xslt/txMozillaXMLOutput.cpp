@@ -3092,9 +3092,9 @@ peek
 TABLE
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 tbody
 ;
@@ -3196,9 +3196,9 @@ mMethod
 eHTMLOutput
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIContent
+Element
 >
 meta
 ;
@@ -4218,7 +4218,7 @@ createHTMLElement
 nsAtom
 *
 aName
-nsIContent
+Element
 *
 *
 aResult

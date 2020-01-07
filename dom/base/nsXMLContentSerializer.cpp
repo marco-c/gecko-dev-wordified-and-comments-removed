@@ -3285,10 +3285,10 @@ nsXMLContentSerializer
 :
 ScanNamespaceDeclarations
 (
-nsIContent
+Element
 *
-aContent
-nsIContent
+aElement
+Element
 *
 aOriginalElement
 const
@@ -3307,7 +3307,7 @@ valueStr
 ;
 count
 =
-aContent
+aElement
 -
 >
 GetAttrCount
@@ -3338,7 +3338,7 @@ const
 BorrowedAttrInfo
 info
 =
-aContent
+aElement
 -
 >
 GetAttrInfoAt
@@ -3672,10 +3672,10 @@ nsXMLContentSerializer
 :
 SerializeAttributes
 (
-nsIContent
+Element
 *
-aContent
-nsIContent
+aElement
+Element
 *
 aOriginalElement
 nsAString
@@ -3772,7 +3772,7 @@ aOriginalElement
 }
 count
 =
-aContent
+aElement
 -
 >
 GetAttrCount
@@ -3810,7 +3810,7 @@ nsAttrName
 *
 name
 =
-aContent
+aElement
 -
 >
 GetAttrNameAt
@@ -3947,7 +3947,7 @@ true
 )
 ;
 }
-aContent
+aElement
 -
 >
 GetAttr
@@ -3968,7 +3968,7 @@ isJS
 =
 IsJavaScript
 (
-aContent
+aElement
 attrName
 namespaceID
 valueStr
@@ -4059,12 +4059,6 @@ NS_ENSURE_ARG
 aElement
 )
 ;
-nsIContent
-*
-content
-=
-aElement
-;
 bool
 forceFormat
 =
@@ -4080,7 +4074,7 @@ if
 !
 CheckElementStart
 (
-content
+aElement
 forceFormat
 aStr
 rv
@@ -4089,7 +4083,7 @@ rv
 {
 MaybeEnterInPreContent
 (
-content
+aElement
 )
 ;
 return
@@ -4151,7 +4145,7 @@ skipAttr
 =
 ScanNamespaceDeclarations
 (
-content
+aElement
 aOriginalElement
 tagNamespaceURI
 )
@@ -4160,7 +4154,7 @@ nsAtom
 *
 name
 =
-content
+aElement
 -
 >
 NodeInfo
@@ -4177,7 +4171,7 @@ lineBreakBeforeOpen
 =
 LineBreakBeforeOpen
 (
-content
+aElement
 -
 >
 GetNameSpaceID
@@ -4390,7 +4384,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 MaybeEnterInPreContent
 (
-content
+aElement
 )
 ;
 if
@@ -4427,7 +4421,7 @@ NS_ENSURE_TRUE
 (
 SerializeAttributes
 (
-content
+aElement
 aOriginalElement
 tagPrefix
 tagNamespaceURI
@@ -4472,7 +4466,7 @@ PreLevel
 &
 LineBreakAfterOpen
 (
-content
+aElement
 -
 >
 GetNameSpaceID
@@ -4496,7 +4490,7 @@ NS_ENSURE_TRUE
 (
 AfterElementStart
 (
-content
+aElement
 aOriginalElement
 aStr
 )
@@ -5288,9 +5282,8 @@ nsXMLContentSerializer
 :
 CheckElementStart
 (
-nsIContent
+Element
 *
-aContent
 bool
 &
 aForceFormat

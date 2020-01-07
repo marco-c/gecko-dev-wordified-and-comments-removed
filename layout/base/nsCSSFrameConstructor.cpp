@@ -24847,6 +24847,11 @@ xblService
 LoadBindings
 (
 aContent
+-
+>
+AsElement
+(
+)
 display
 -
 >

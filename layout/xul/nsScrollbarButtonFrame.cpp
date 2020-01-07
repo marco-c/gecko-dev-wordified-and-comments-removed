@@ -477,6 +477,11 @@ index
 mContent
 -
 >
+AsElement
+(
+)
+-
+>
 FindAttrValueIn
 (
 kNameSpaceID_None
@@ -534,6 +539,11 @@ this
 )
 ;
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 SetAttr
@@ -818,6 +828,11 @@ nullptr
 )
 ;
 mContent
+-
+>
+AsElement
+(
+)
 -
 >
 UnsetAttr

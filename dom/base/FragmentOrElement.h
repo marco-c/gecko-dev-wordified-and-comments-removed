@@ -671,15 +671,6 @@ SaveSubtreeState
 )
 override
 ;
-NS_IMETHOD
-WalkContentStyleRules
-(
-nsRuleWalker
-*
-aRuleWalker
-)
-override
-;
 nsIHTMLCollection
 *
 Children

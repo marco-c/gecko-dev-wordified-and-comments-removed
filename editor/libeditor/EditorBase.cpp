@@ -22402,7 +22402,7 @@ SwitchTextDirection
 (
 )
 {
-nsIContent
+Element
 *
 rootElement
 =
@@ -22571,7 +22571,7 @@ uint32_t
 aDirection
 )
 {
-nsIContent
+Element
 *
 rootElement
 =

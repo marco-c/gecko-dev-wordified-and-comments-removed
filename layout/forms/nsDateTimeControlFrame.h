@@ -390,9 +390,15 @@ SyncDisabledState
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 >
 mInputAreaContent
 ;
