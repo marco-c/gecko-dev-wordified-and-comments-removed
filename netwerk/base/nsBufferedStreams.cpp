@@ -607,7 +607,7 @@ rv
 #
 ifdef
 DEBUG
-NS_WARNING
+NS_ERROR
 (
 "
 mStream
