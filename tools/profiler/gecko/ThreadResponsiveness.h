@@ -42,9 +42,6 @@ class
 CheckResponsivenessTask
 ;
 class
-nsIEventTarget
-;
-class
 ThreadResponsiveness
 {
 public
@@ -52,11 +49,6 @@ public
 explicit
 ThreadResponsiveness
 (
-nsIEventTarget
-*
-aThread
-bool
-aIsMainThread
 )
 ;
 ~

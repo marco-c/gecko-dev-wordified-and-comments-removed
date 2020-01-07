@@ -92,12 +92,6 @@ GetCurrentThread
 (
 )
 ;
-bool
-IsNSThread
-(
-)
-const
-;
 nsThread
 *
 CreateCurrentThread

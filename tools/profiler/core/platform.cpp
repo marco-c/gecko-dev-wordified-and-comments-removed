@@ -8771,6 +8771,16 @@ continue
 ;
 }
 }
+if
+(
+info
+-
+>
+IsMainThread
+(
+)
+)
+{
 info
 -
 >
@@ -8783,6 +8793,7 @@ Update
 (
 )
 ;
+}
 int64_t
 rssMemory
 =
@@ -9566,9 +9577,6 @@ GetCurrentId
 (
 )
 NS_IsMainThread
-(
-)
-NS_GetCurrentThreadNoCreate
 (
 )
 aStackTop

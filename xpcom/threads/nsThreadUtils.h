@@ -649,13 +649,6 @@ NS_GetCurrentThread
 )
 ;
 extern
-nsIThread
-*
-NS_GetCurrentThreadNoCreate
-(
-)
-;
-extern
 void
 NS_SetCurrentThreadName
 (
