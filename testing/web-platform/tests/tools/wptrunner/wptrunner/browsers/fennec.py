@@ -41,6 +41,14 @@ browser_command
 )
 from
 .
+.
+executors
+.
+executormarionette
+import
+MarionetteTestharnessExecutor
+from
+.
 firefox
 import
 (
