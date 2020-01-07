@@ -309,7 +309,7 @@ value
 Value
 1
 "
-attrs
+attributes
 :
 null
 }
@@ -321,7 +321,7 @@ key2
 value
 :
 null
-attrs
+attributes
 :
 [
 {
@@ -362,7 +362,7 @@ value
 Value
 3
 "
-attrs
+attributes
 :
 [
 {
@@ -392,7 +392,7 @@ key5
 value
 :
 null
-attrs
+attributes
 :
 [
 {
@@ -922,7 +922,7 @@ if
 (
 translation
 .
-attrs
+attributes
 !
 =
 =
@@ -939,7 +939,7 @@ value
 of
 translation
 .
-attrs
+attributes
 )
 {
 ok
