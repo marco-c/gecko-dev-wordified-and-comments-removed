@@ -481,17 +481,6 @@ mHandlesFetch
 Disabled
 ;
 }
-already_AddRefed
-<
-ServiceWorker
->
-GetOrCreateInstance
-(
-nsPIDOMWindowInner
-*
-aWindow
-)
-;
 void
 UpdateInstalledTime
 (
