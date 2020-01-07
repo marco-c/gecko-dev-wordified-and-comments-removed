@@ -45,6 +45,15 @@ include
 "
 mozilla
 /
+MediaFeatureChange
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PostTraversalTask
 .
 h
@@ -473,8 +482,7 @@ StylistNeedsUpdate
 nsRestyleHint
 MediumFeaturesChanged
 (
-bool
-aViewportChanged
+MediaFeatureChangeReason
 )
 ;
 nscoord
@@ -505,6 +513,7 @@ MediumFeaturesChangedRules
 bool
 *
 aViewportUnitsUsed
+MediaFeatureChangeReason
 )
 ;
 void

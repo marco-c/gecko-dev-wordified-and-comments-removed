@@ -86,6 +86,15 @@ include
 "
 mozilla
 /
+MediaFeatureChange
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheet
 .
 h
@@ -485,6 +494,10 @@ MediumFeaturesChanged
 nsPresContext
 *
 aPresContext
+mozilla
+:
+:
+MediaFeatureChangeReason
 )
 ;
 void
