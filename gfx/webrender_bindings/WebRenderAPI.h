@@ -824,6 +824,11 @@ Resume
 (
 )
 ;
+void
+WakeSceneBuilder
+(
+)
+;
 wr
 :
 :
