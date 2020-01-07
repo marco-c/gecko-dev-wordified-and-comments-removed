@@ -179,16 +179,6 @@ I
 (
 dt16t
 )
-desktop
--
-build
-:
-symbol
-:
-I
-(
-db
-)
 debian7
 -
 base
