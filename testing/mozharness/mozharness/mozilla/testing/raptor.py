@@ -1326,7 +1326,7 @@ binary_path
         
 if
 '
-suite
+test
 '
 in
 self
@@ -1337,7 +1337,7 @@ config
 kw_options
 [
 '
-suite
+test
 '
 ]
 =
@@ -1346,7 +1346,7 @@ self
 config
 [
 '
-suite
+test
 '
 ]
         
@@ -1488,6 +1488,27 @@ items
 )
 :
             
+if
+key
+=
+=
+"
+test
+"
+:
+                
+options
+.
+extend
+(
+[
+value
+]
+)
+            
+else
+:
+                
 options
 .
 extend
@@ -2535,6 +2556,15 @@ SCRIPTSPATH
 ]
 =
 scripts_path
+        
+env
+[
+'
+EXTERNALTOOLSPATH
+'
+]
+=
+external_tools_path
         
 if
 self

@@ -121,6 +121,16 @@ browser
 %
 s
 "
+            
+"
+cs_port
+"
+:
+"
+%
+d
+"
+            
 "
 test_settings_url
 "
@@ -149,6 +159,7 @@ json
 %
 (
 browser
+cs_port
 cs_port
 test
 )

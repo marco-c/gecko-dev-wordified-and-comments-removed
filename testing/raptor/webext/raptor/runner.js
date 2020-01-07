@@ -10,6 +10,11 @@ settingsURL
 null
 ;
 var
+cs_port
+=
+null
+;
+var
 testType
 ;
 var
@@ -1763,7 +1768,11 @@ http
 .
 1
 :
-8000
+"
++
+cs_port
++
+"
 /
 "
 ;
@@ -2063,6 +2072,12 @@ settingsURL
 config
 .
 test_settings_url
+;
+cs_port
+=
+config
+.
+cs_port
 ;
 browserName
 =
