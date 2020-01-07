@@ -107,13 +107,6 @@ location
 js
 '
 '
-network
--
-throttling
-.
-js
-'
-'
 reload
 -
 conditions

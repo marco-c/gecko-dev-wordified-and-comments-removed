@@ -99,6 +99,9 @@ splitter
 tabs
 '
 '
+throttling
+'
+'
 tree
 '
 ]
