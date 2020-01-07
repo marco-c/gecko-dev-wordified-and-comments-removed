@@ -131,6 +131,10 @@ button
 "
 )
 ;
+urlbarContainer
+.
+clientWidth
+;
 simulateItemDrag
 (
 forwardButton
