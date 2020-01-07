@@ -1351,6 +1351,10 @@ mGrabber
 NS_ERROR_FAILURE
 )
 ;
+mHasShownGrabber
+=
+true
+;
 return
 RefreshGrabber
 (

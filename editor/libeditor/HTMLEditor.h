@@ -3544,6 +3544,9 @@ UpdateRootElement
 )
 ;
 bool
+mHasShownResizers
+;
+bool
 mIsObjectResizingEnabled
 ;
 bool
@@ -3562,6 +3565,9 @@ bool
 mResizedObjectIsAbsolutelyPositioned
 ;
 bool
+mHasShownGrabber
+;
+bool
 mGrabberClicked
 ;
 bool
@@ -3569,6 +3575,9 @@ mIsMoving
 ;
 bool
 mSnapToGridEnabled
+;
+bool
+mHasShownInlineTableEditor
 ;
 bool
 mIsInlineTableEditingEnabled
@@ -3668,6 +3677,15 @@ mWidthIncrementFactor
 ;
 int32_t
 mHeightIncrementFactor
+;
+uint32_t
+mResizerUsedCount
+;
+uint32_t
+mGrabberUsedCount
+;
+uint32_t
+mInlineTableEditorUsedCount
 ;
 int8_t
 mInfoXIncrement

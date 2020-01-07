@@ -1481,6 +1481,10 @@ mResizedObject
 aResizedElement
 )
 ;
+mHasShownResizers
+=
+true
+;
 return
 NS_OK
 ;
@@ -2293,6 +2297,10 @@ PreventDefault
 (
 )
 ;
+mResizerUsedCount
++
++
+;
 mOriginalX
 =
 aClientX
@@ -2320,6 +2328,10 @@ mozGrabber
 )
 )
 {
+mGrabberUsedCount
++
++
+;
 mOriginalX
 =
 aClientX

@@ -379,6 +379,10 @@ mInlineEditedCell
 =
 aCell
 ;
+mHasShownInlineTableEditor
+=
+true
+;
 return
 RefreshInlineTableEditingUI
 (
@@ -740,6 +744,10 @@ return
 NS_OK
 ;
 }
++
++
+mInlineTableEditorUsedCount
+;
 if
 (
 Destroyed
