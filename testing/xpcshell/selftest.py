@@ -6248,6 +6248,7 @@ test_simple_uncaught_rejection
 .
 js
 "
+                       
 SIMPLE_UNCAUGHT_REJECTION_TEST
 )
         
@@ -6278,18 +6279,6 @@ assertInLog
 TEST_FAIL_STRING
 )
         
-if
-not
-substs
-.
-get
-(
-'
-RELEASE_OR_BETA
-'
-)
-:
-            
 self
 .
 assertInLog
@@ -6301,7 +6290,7 @@ js
 :
 3
 :
-3
+18
 "
 )
         
