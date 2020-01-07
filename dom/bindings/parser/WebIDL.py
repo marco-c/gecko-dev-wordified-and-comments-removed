@@ -13175,7 +13175,7 @@ isFloat
 )
     
 def
-isSerializable
+isJSONType
 (
 self
 )
@@ -14328,7 +14328,7 @@ isUnion
 )
     
 def
-isSerializable
+isJSONType
 (
 self
 )
@@ -14339,7 +14339,7 @@ self
 .
 inner
 .
-isSerializable
+isJSONType
 (
 )
     
@@ -14774,7 +14774,7 @@ return
 False
     
 def
-isSerializable
+isJSONType
 (
 self
 )
@@ -14785,7 +14785,7 @@ self
 .
 inner
 .
-isSerializable
+isJSONType
 (
 )
     
@@ -15366,7 +15366,7 @@ return
 True
     
 def
-isSerializable
+isJSONType
 (
 self
 )
@@ -15377,7 +15377,7 @@ all
 (
 m
 .
-isSerializable
+isJSONType
 (
 )
 for
@@ -17150,7 +17150,7 @@ IDLEnum
 )
     
 def
-isSerializable
+isJSONType
 (
 self
 )
@@ -17227,7 +17227,7 @@ m
 .
 type
 .
-isSerializable
+isJSONType
 (
 )
 for
@@ -18929,7 +18929,7 @@ unrestricted_double
 )
     
 def
-isSerializable
+isJSONType
 (
 self
 )
