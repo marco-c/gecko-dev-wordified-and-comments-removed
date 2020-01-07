@@ -7103,17 +7103,10 @@ mCDMProxy
 =
 aProxy
 ;
-if
-(
-!
-mCDMProxy
-)
-{
 mEncryptedPlatform
 =
 nullptr
 ;
-}
 if
 (
 !
