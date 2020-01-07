@@ -37,9 +37,6 @@ class
 nsIRequest
 ;
 class
-nsISelection
-;
-class
 nsISupports
 ;
 class
@@ -48,6 +45,13 @@ nsIWebProgress
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+Selection
+;
+}
 namespace
 a11y
 {
@@ -362,7 +366,10 @@ aTarget
 void
 SelChange
 (
-nsISelection
+dom
+:
+:
+Selection
 *
 aSelection
 DocAccessible
