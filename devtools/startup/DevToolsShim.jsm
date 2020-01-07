@@ -716,6 +716,9 @@ getTheme
 "
 openBrowserConsole
 "
+"
+getToolboxes
+"
 ]
 ;
 for
