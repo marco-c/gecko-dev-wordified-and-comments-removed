@@ -1809,6 +1809,10 @@ mFullSpellCheckScheduled
 (
 false
 )
+mIsListeningToEditActions
+(
+false
+)
 {
 nsCOMPtr
 <
