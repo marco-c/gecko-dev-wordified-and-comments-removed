@@ -92,14 +92,14 @@ __name__
         
 self
 .
-assertEqual
+assertIn
 (
+expected_test_name
 self
 .
 marionette
 .
 test_name
-expected_test_name
 )
     
 run_if_manage_instance
