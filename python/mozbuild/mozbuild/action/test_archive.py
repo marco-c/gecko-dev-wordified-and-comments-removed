@@ -626,24 +626,6 @@ tests
 .
 ini
 '
-                
-'
-testing
-/
-marionette
-/
-harness
-/
-marionette_harness
-/
-tests
-/
-webapi
--
-tests
-.
-ini
-'
             
 ]
             
