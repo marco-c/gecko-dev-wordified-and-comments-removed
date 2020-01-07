@@ -6799,6 +6799,11 @@ ins
 )
 -
 >
+toInstruction
+(
+)
+-
+>
 getOperand
 (
 reg
