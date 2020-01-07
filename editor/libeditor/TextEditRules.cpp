@@ -2145,9 +2145,7 @@ nsIDOMNodeFilter
 :
 :
 SHOW_TEXT
-NodeFilterHolder
-(
-)
+nullptr
 )
 ;
 while
