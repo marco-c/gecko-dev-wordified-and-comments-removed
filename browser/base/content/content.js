@@ -4601,12 +4601,6 @@ button
 =
 =
 0
-&
-&
-!
-originalTarget
-.
-disabled
 )
 {
 if
