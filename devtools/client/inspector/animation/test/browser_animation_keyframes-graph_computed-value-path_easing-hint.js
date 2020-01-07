@@ -665,7 +665,7 @@ targetClass
 ;
 const
 {
-inspector
+animationInspector
 panel
 }
 =
@@ -697,13 +697,14 @@ targetClass
 )
 ;
 await
-selectNodeAndWaitForAnimations
+clickOnAnimationByTargetSelector
 (
+animationInspector
+panel
 .
 {
 targetClass
 }
-inspector
 )
 ;
 for
