@@ -2073,9 +2073,6 @@ stack
 null
 )
 ;
-#
-ifndef
-RELEASE_OR_BETA
 /
 *
 *
@@ -2099,8 +2096,6 @@ requestPerformanceMetrics
 (
 )
 ;
-#
-endif
 }
 ;
 /
