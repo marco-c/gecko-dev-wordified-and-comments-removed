@@ -765,6 +765,11 @@ install_rust_panic_hook
 (
 )
 ;
+void
+install_rust_oom_hook
+(
+)
+;
 bool
 get_rust_panic_reason
 (
@@ -7329,6 +7334,10 @@ TerminateHandler
 )
 ;
 install_rust_panic_hook
+(
+)
+;
+install_rust_oom_hook
 (
 )
 ;

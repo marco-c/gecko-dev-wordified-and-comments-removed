@@ -679,6 +679,10 @@ oom_with_global_alloc
 =
 [
 ]
+oom_with_hook
+=
+[
+]
 moz_memory
 =
 [
