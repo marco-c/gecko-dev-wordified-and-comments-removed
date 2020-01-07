@@ -892,10 +892,10 @@ void
 ImageBitmapRenderingContext
 :
 :
-SetIsOpaque
+SetOpaqueValueFromOpaqueAttr
 (
 bool
-aIsOpaque
+aOpaqueAttrValue
 )
 {
 }

@@ -1514,7 +1514,7 @@ override
 ;
 virtual
 void
-SetIsOpaque
+SetOpaqueValueFromOpaqueAttr
 (
 bool
 )

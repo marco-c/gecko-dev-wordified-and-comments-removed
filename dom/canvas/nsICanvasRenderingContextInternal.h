@@ -508,10 +508,10 @@ nullptr
 ;
 virtual
 void
-SetIsOpaque
+SetOpaqueValueFromOpaqueAttr
 (
 bool
-isOpaque
+aOpaqueAttrValue
 )
 =
 0

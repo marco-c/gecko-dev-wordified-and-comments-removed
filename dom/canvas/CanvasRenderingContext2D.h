@@ -2606,10 +2606,10 @@ Snapshot
 }
 virtual
 void
-SetIsOpaque
+SetOpaqueValueFromOpaqueAttr
 (
 bool
-aIsOpaque
+aOpaqueAttrValue
 )
 override
 ;
@@ -3297,6 +3297,11 @@ ErrorResult
 aError
 )
 ;
+void
+UpdateIsOpaque
+(
+)
+;
 static
 void
 EnsureErrorTarget
@@ -3666,6 +3671,12 @@ mHeight
 ;
 bool
 mZero
+;
+bool
+mOpaqueAttrValue
+;
+bool
+mContextAttributesHasAlpha
 ;
 bool
 mOpaque

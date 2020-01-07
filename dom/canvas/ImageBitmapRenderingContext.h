@@ -216,10 +216,10 @@ override
 ;
 virtual
 void
-SetIsOpaque
+SetOpaqueValueFromOpaqueAttr
 (
 bool
-aIsOpaque
+aOpaqueAttrValue
 )
 override
 ;
