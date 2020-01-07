@@ -111,6 +111,7 @@ nsSafeAboutProtocolHandler
 ;
 class
 nsNestedAboutURI
+final
 :
 public
 nsSimpleNestedURI

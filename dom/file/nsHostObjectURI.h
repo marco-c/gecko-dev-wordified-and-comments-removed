@@ -89,6 +89,7 @@ h
 "
 class
 nsHostObjectURI
+final
 :
 public
 mozilla
