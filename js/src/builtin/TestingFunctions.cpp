@@ -12278,12 +12278,7 @@ flags
 promise
 -
 >
-getFixedSlot
-(
-PromiseSlot_Flags
-)
-.
-toInt32
+flags
 (
 )
 ;
