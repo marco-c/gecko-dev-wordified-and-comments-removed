@@ -451,6 +451,8 @@ RendererOGL
 :
 UpdateAndRender
 (
+bool
+aReadback
 )
 {
 uint32_t
@@ -466,6 +468,16 @@ WebRenderDebugFlags
 (
 )
 ;
+if
+(
+aReadback
+)
+{
+flags
+=
+0
+;
+}
 if
 (
 mDebugFlags

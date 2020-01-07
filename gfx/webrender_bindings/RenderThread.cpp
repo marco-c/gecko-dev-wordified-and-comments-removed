@@ -1023,6 +1023,8 @@ wr
 :
 WindowId
 aWindowId
+bool
+aReadback
 )
 {
 AUTO_PROFILER_TRACING
@@ -1106,6 +1108,7 @@ renderer
 >
 UpdateAndRender
 (
+aReadback
 )
 ;
 if

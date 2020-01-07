@@ -1743,6 +1743,7 @@ aRenderThread
 UpdateAndRender
 (
 aWindowId
+true
 )
 ;
 wr_renderer_readback

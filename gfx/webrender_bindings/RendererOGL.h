@@ -147,6 +147,8 @@ Update
 bool
 UpdateAndRender
 (
+bool
+aReadback
 )
 ;
 bool
