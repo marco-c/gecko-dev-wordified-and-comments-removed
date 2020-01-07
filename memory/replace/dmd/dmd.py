@@ -1065,6 +1065,9 @@ start
 of
 live
 blocks
+'
+                   
+'
 or
 zero
 if
@@ -1106,6 +1109,9 @@ pointer
 clamping
 ;
 mostly
+'
+                   
+'
 useful
 for
 debugging
@@ -1673,8 +1679,8 @@ live
 '
     
 if
-not
 mode
+not
 in
 [
 '
@@ -2353,8 +2359,7 @@ if
 record
 .
 allocatedAtDesc
-=
-=
+is
 None
 :
             
@@ -3902,8 +3907,7 @@ n
         
 if
 dmdEnvVar
-=
-=
+is
 None
 :
             
@@ -4935,6 +4939,7 @@ blocks
 :
 '
 +
+            
 str
 (
 self
@@ -4997,6 +5002,9 @@ not
 pointing
 into
 blocks
+'
+                         
+'
 clamped
 to
 null
@@ -5415,10 +5423,10 @@ blockList
 :
         
 if
-not
 '
 contents
 '
+not
 in
 block
 :

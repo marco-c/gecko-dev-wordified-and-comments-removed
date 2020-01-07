@@ -458,6 +458,9 @@ onto
 the
 object
 report
+'
+                    
+'
 the
 next
 one
@@ -587,6 +590,7 @@ alloc_stack
 :
         
 print
+(
 '
 '
 frameTable
@@ -600,6 +604,7 @@ args
 .
 max_stack_frame_length
 ]
+)
 def
 show_referrers
 (
@@ -932,12 +937,14 @@ anyFound
 :
         
 print
+(
 '
 No
 referrers
 found
 .
 '
+)
 def
 show_block_info
 (
@@ -1341,15 +1348,6 @@ outputVersion
 )
 )
     
-invocation
-=
-j
-[
-'
-invocation
-'
-]
-    
 block_list
 =
 j
@@ -1457,13 +1455,14 @@ block
 )
     
 if
-not
 block
+not
 in
 blocks
 :
         
 print
+(
 '
 Object
 '
@@ -1475,8 +1474,10 @@ in
 traces
 .
 '
+)
         
 print
+(
 '
 It
 could
@@ -1489,6 +1490,7 @@ some
 nodes
 .
 '
+)
         
 return
     

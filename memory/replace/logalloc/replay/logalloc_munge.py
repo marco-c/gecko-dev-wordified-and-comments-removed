@@ -455,6 +455,7 @@ args
 result
     
 except
+Exception
 :
         
 raise
