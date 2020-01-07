@@ -1800,6 +1800,17 @@ id
 "
 keepCookiesUntil
 "
+onsyncfrompreference
+=
+"
+return
+gPrivacyPane
+.
+readKeepCookiesUntil
+(
+)
+;
+"
 preference
 =
 "
