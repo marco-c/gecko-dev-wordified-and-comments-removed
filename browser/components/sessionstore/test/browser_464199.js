@@ -790,6 +790,13 @@ up
 "
 )
 ;
+let
+promise
+=
+promiseClearHistory
+(
+)
+;
 await
 ForgetAboutSite
 .
@@ -803,9 +810,7 @@ net
 )
 ;
 await
-promiseClearHistory
-(
-)
+promise
 ;
 closedTabs
 =
