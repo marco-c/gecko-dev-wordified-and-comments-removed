@@ -69,6 +69,17 @@ index
 :
 {
         
+Required
+(
+'
+products
+'
+)
+:
+[
+basestring
+]
+        
 Optional
 (
 '
