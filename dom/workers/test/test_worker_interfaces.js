@@ -54,7 +54,7 @@ ByteLengthQueuingStrategy
 insecureContext
 :
 true
-optional
+disabled
 :
 true
 }
@@ -67,7 +67,7 @@ CountQueuingStrategy
 insecureContext
 :
 true
-optional
+disabled
 :
 true
 }
@@ -300,7 +300,7 @@ ReadableStream
 insecureContext
 :
 true
-optional
+disabled
 :
 true
 }
