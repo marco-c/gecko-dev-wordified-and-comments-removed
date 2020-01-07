@@ -275,6 +275,9 @@ gc
 class
 AutoMaybeStartBackgroundAllocation
 ;
+class
+AutoTraceSession
+;
 struct
 Cell
 ;
@@ -1930,6 +1933,12 @@ gcreason
 :
 Reason
 reason
+gc
+:
+:
+AutoTraceSession
+&
+sesssion
 gc
 :
 :
