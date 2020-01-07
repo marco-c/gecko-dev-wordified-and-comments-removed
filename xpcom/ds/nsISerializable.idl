@@ -181,6 +181,9 @@ method
 .
 *
 /
+[
+must_use
+]
 void
 read
 (
