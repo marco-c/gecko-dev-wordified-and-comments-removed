@@ -2979,7 +2979,7 @@ GetLength
 (
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 length
 >
@@ -4195,7 +4195,7 @@ aType
 4096
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 buffer
 "
@@ -4941,7 +4941,7 @@ Time
 granulepos
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 startTime
 >
@@ -4990,7 +4990,7 @@ Time
 granulepos
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 startTime
 >
@@ -5039,7 +5039,7 @@ Time
 granulepos
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 startTime
 >
@@ -5088,7 +5088,7 @@ Time
 granulepos
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 startTime
 >
@@ -5500,8 +5500,6 @@ mMetadataDuration
 ToMicroseconds
 (
 )
-+
-startTime
 ;
 if
 (
@@ -6387,7 +6385,7 @@ aState
 PAGE_STEP
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 buffer
 "
@@ -6418,7 +6416,7 @@ aEndOffset
 readHead
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 bytesToRead
 <
@@ -6591,7 +6589,7 @@ ret
 0
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 aSkippedBytes
 >
@@ -6611,7 +6609,7 @@ aSkippedBytes
 -
 ret
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 aSkippedBytes
 >
@@ -7919,7 +7917,7 @@ mState
 bytesToRead
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 buffer
 "
@@ -7971,7 +7969,7 @@ bytesToRead
 }
 else
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 readHead
 <
@@ -8755,7 +8753,7 @@ packet
 )
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 packet
 -
@@ -9185,7 +9183,7 @@ maxBackStep
 =
 10
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 static_cast
 <
@@ -9559,7 +9557,7 @@ guess
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 guess
 >
@@ -9577,7 +9575,7 @@ start
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 guess
 <
@@ -9592,7 +9590,7 @@ end
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 guess
 !
@@ -10080,7 +10078,7 @@ audioTime
 :
 videoTime
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 granuleTime
 >
@@ -10124,7 +10122,7 @@ startOffset
 )
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 startTime
 <
@@ -10285,7 +10283,7 @@ granuleTime
 seekTarget
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 pageOffset
 <
@@ -10314,7 +10312,7 @@ granuleTime
 seekTarget
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 pageOffset
 >
@@ -10352,7 +10350,7 @@ startTime
 granuleTime
 ;
 }
-MOZ_ASSERT
+NS_ASSERTION
 (
 startTime
 <
@@ -10367,7 +10365,7 @@ target
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 endTime
 >
