@@ -46,6 +46,17 @@ bin
 /
 cargo
 "
+RUSTDOC
+=
+"
+TOOLTOOL_DIR
+/
+rustc
+/
+bin
+/
+rustdoc
+"
 ac_add_options
 -
 -

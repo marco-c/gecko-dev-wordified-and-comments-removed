@@ -6382,6 +6382,12 @@ RUSTC
 RUSTC
 )
 \
+RUSTDOC
+=
+(
+RUSTDOC
+)
+\
 MOZ_SRC
 =
 (
