@@ -143,11 +143,7 @@ TransferSize
 const
 {
 return
-mTimingAllowed
-?
 mTransferSize
-:
-0
 ;
 }
 uint64_t
@@ -157,11 +153,7 @@ EncodedBodySize
 const
 {
 return
-mTimingAllowed
-?
 mEncodedBodySize
-:
-0
 ;
 }
 uint64_t
@@ -171,11 +163,7 @@ DecodedBodySize
 const
 {
 return
-mTimingAllowed
-?
 mDecodedBodySize
-:
-0
 ;
 }
 inline
