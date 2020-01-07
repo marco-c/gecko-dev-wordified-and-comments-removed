@@ -1181,7 +1181,9 @@ add
 "
 markupview
 -
-events
+event
+-
+badge
 "
 )
 ;
@@ -1204,7 +1206,7 @@ eventNode
 textContent
 =
 "
-ev
+event
 "
 ;
 this
@@ -1264,6 +1266,8 @@ add
 markupview
 -
 display
+-
+badge
 "
 )
 ;

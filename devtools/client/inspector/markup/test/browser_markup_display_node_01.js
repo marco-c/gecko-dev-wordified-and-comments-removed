@@ -184,6 +184,8 @@ querySelector
 markupview
 -
 display
+-
+badge
 "
 )
 ;
@@ -287,6 +289,8 @@ querySelector
 markupview
 -
 display
+-
+badge
 "
 )
 ;
@@ -389,6 +393,8 @@ querySelector
 markupview
 -
 display
+-
+badge
 "
 )
 ;
@@ -486,6 +492,8 @@ querySelector
 markupview
 -
 display
+-
+badge
 "
 )
 ;
