@@ -2098,7 +2098,7 @@ mousemove
 is
 (
 touchPointerEnterLeaveCount
-3
+1
 "
 Wrong
 touch
@@ -2126,7 +2126,7 @@ for
 is
 (
 d3leaveCount
-1
+0
 "
 Wrong
 leave
@@ -2154,7 +2154,7 @@ d1
 is
 (
 d1enterCount
-2
+1
 "
 Wrong
 enter
@@ -2211,7 +2211,7 @@ mousemove
 is
 (
 touchPointerEnterLeaveCount
-5
+1
 "
 Wrong
 touch
@@ -2239,7 +2239,7 @@ for
 is
 (
 d1leaveCount
-2
+1
 "
 Wrong
 leave
@@ -2253,7 +2253,7 @@ d1
 is
 (
 d2enterCount
-2
+1
 "
 Wrong
 enter
@@ -2267,7 +2267,7 @@ d2
 is
 (
 d3leaveCount
-2
+1
 "
 Wrong
 leave
@@ -2310,7 +2310,7 @@ mousemove
 is
 (
 touchPointerEnterLeaveCount
-7
+1
 "
 Wrong
 touch
@@ -2338,7 +2338,7 @@ for
 is
 (
 d2leaveCount
-3
+2
 "
 Wrong
 leave
@@ -2352,7 +2352,7 @@ d2
 is
 (
 d1enterCount
-4
+2
 "
 Wrong
 enter
@@ -2579,7 +2579,7 @@ pointerLeaveTriggeredForCancelEvent
 =
 0
 ;
-d1
+d3
 .
 onpointerout
 =
@@ -2682,7 +2682,7 @@ pointerOutTriggeredForCancelEvent
 ;
 }
 ;
-d1
+d3
 .
 onpointerleave
 =
@@ -2883,8 +2883,7 @@ parent
 postMessage
 (
 "
-run
-next
+finishTest
 "
 "
 *
@@ -2936,7 +2935,7 @@ w3c_pointer_events
 .
 implicit_capture
 "
-false
+true
 ]
 ]
 }
