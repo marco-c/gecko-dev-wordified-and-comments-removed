@@ -20,6 +20,7 @@ Copy
 PartialEq
 Eq
 Hash
+Default
 )
 ]
 pub

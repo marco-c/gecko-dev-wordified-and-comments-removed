@@ -224,6 +224,9 @@ Trait
 (
 TraitBound
 {
+paren_token
+:
+None
 modifier
 :
 TraitBoundModifier

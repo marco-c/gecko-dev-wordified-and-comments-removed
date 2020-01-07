@@ -25,6 +25,10 @@ syn
 ;
 extern
 crate
+proc_macro2
+;
+extern
+crate
 ident_case
 ;
 #
