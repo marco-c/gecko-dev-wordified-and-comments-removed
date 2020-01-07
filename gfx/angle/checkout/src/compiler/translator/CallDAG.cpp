@@ -27,7 +27,7 @@ compiler
 /
 translator
 /
-IntermTraverse
+SymbolTable
 .
 h
 "
@@ -38,7 +38,9 @@ compiler
 /
 translator
 /
-SymbolTable
+tree_util
+/
+IntermTraverse
 .
 h
 "
@@ -513,11 +515,9 @@ return
 false
 ;
 }
-bool
+void
 visitFunctionPrototype
 (
-Visit
-visit
 TIntermFunctionPrototype
 *
 node
@@ -570,9 +570,6 @@ getFunction
 name
 (
 )
-;
-return
-false
 ;
 }
 bool

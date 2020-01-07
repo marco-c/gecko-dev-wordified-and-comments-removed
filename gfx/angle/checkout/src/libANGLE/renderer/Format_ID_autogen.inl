@@ -81,6 +81,7 @@ ID
 {
 NONE
 A16_FLOAT
+A1R5G5B5_UNORM
 A32_FLOAT
 A8_UNORM
 ASTC_10x10_SRGB_BLOCK
@@ -217,7 +218,7 @@ constexpr
 uint32_t
 kNumANGLEFormats
 =
-132
+133
 ;
 }
 /

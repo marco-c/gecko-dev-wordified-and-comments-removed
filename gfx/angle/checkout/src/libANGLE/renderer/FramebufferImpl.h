@@ -443,7 +443,10 @@ const
 0
 ;
 virtual
-void
+gl
+:
+:
+Error
 syncState
 (
 const

@@ -22,6 +22,15 @@ h
 "
 #
 include
+"
+libANGLE
+/
+PackedGLEnums
+.
+h
+"
+#
+include
 <
 EGL
 /
@@ -200,7 +209,7 @@ const
 Texture
 *
 texture
-GLenum
+TextureTarget
 target
 GLint
 level
@@ -218,7 +227,7 @@ const
 Texture
 *
 texture
-GLenum
+TextureTarget
 target
 GLint
 level

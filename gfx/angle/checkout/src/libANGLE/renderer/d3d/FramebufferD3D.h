@@ -414,7 +414,10 @@ context
 const
 override
 ;
-void
+gl
+:
+:
+Error
 syncState
 (
 const

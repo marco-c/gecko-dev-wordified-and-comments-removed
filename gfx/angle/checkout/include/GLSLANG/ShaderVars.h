@@ -294,6 +294,9 @@ flattenedOffsetInParentArrays
 bool
 staticUse
 ;
+bool
+active
+;
 std
 :
 :
@@ -975,6 +978,9 @@ binding
 ;
 bool
 staticUse
+;
+bool
+active
 ;
 BlockType
 blockType

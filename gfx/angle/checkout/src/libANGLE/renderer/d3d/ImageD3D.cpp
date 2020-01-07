@@ -85,9 +85,15 @@ mRenderable
 (
 false
 )
-mTarget
+mType
 (
-GL_NONE
+gl
+:
+:
+TextureType
+:
+:
+InvalidEnum
 )
 mDirty
 (

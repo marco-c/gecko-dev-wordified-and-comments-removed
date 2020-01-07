@@ -23,7 +23,7 @@ compiler
 /
 translator
 /
-IntermTraverse
+SymbolTable
 .
 h
 "
@@ -34,7 +34,9 @@ compiler
 /
 translator
 /
-SymbolTable
+tree_util
+/
+IntermTraverse
 .
 h
 "

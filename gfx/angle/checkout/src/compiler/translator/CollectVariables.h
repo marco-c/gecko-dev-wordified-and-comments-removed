@@ -116,8 +116,6 @@ hashFunction
 TSymbolTable
 *
 symbolTable
-int
-shaderVersion
 GLenum
 shaderType
 const

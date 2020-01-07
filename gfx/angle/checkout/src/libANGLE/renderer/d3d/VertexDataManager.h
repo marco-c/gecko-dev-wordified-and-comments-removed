@@ -363,7 +363,7 @@ AttributesMask
 dynamicAttribsMask
 GLint
 start
-GLsizei
+size_t
 count
 GLsizei
 instances
@@ -397,7 +397,7 @@ gl
 AttributesMask
 &
 dynamicAttribsMask
-GLsizei
+size_t
 count
 )
 ;
@@ -465,10 +465,10 @@ const
 TranslatedAttribute
 &
 translatedAttrib
-GLsizei
-count
 GLint
 start
+size_t
+count
 GLsizei
 instances
 )
@@ -492,11 +492,12 @@ TranslatedAttribute
 translated
 GLint
 start
-GLsizei
+size_t
 count
 GLsizei
 instances
 )
+const
 ;
 BufferFactoryD3D
 *
