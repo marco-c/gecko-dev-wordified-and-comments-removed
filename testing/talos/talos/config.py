@@ -2590,11 +2590,11 @@ environ
 MOZ_DEVELOPER_OBJ_DIR
 '
 ]
-                                             
+                                              
 '
 dist
 '
-                                             
+                                              
 '
 crashreporter
 -
