@@ -116,6 +116,15 @@ ServiceWorkerRegistrationChild
 aActor
 )
 ;
+void
+UpdateState
+(
+const
+ServiceWorkerRegistrationDescriptor
+&
+aDescriptor
+)
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 RemoteServiceWorkerRegistrationImpl

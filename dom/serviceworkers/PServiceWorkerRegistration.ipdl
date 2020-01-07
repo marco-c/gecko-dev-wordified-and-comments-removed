@@ -111,6 +111,13 @@ __delete__
 (
 )
 ;
+async
+UpdateState
+(
+IPCServiceWorkerRegistrationDescriptor
+aDescriptor
+)
+;
 }
 ;
 }
