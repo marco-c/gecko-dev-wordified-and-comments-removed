@@ -155,11 +155,6 @@ Policies
 .
 jsm
 '
-'
-PoliciesValidator
-.
-jsm
-'
 ]
 if
 CONFIG
