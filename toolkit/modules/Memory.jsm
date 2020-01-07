@@ -273,6 +273,13 @@ memMgr
 .
 residentUnique
 ;
+let
+ghosts
+=
+memMgr
+.
+ghostWindows
+;
 this
 .
 _summaries
@@ -282,6 +289,7 @@ Parent
 {
 uss
 rss
+ghosts
 }
 ;
 this
