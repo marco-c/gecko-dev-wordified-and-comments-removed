@@ -24,7 +24,7 @@ devtools
 /
 client
 /
-framework
+shared
 /
 test
 /
@@ -58,7 +58,7 @@ devtools
 /
 client
 /
-framework
+shared
 /
 test
 /
