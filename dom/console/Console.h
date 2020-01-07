@@ -1255,6 +1255,9 @@ Value
 >
 &
 aData
+nsIStackFrame
+*
+aStack
 )
 ;
 void
@@ -1278,17 +1281,6 @@ JS
 Value
 &
 aData
-)
-;
-void
-MaybeExecuteDumpFunctionForTrace
-(
-JSContext
-*
-aCx
-nsIStackFrame
-*
-aStack
 )
 ;
 void
