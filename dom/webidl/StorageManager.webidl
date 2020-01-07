@@ -133,10 +133,10 @@ mozilla
 dom
 :
 :
-StorageManager
+DOMPrefs
 :
 :
-PrefEnabled
+StorageManagerEnabled
 "
 ]
 interface
