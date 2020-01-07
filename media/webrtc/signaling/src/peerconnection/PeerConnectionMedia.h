@@ -410,9 +410,12 @@ AddTransceiver
 JsepTransceiver
 *
 aJsepTransceiver
-DOMMediaStream
+dom
+:
+:
+MediaStreamTrack
 &
-aReceiveStream
+aReceiveTrack
 dom
 :
 :
