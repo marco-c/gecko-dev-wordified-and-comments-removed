@@ -191,6 +191,13 @@ h
 #
 include
 "
+ServiceWorkerRegistrationListener
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -3538,6 +3545,9 @@ forget
 )
 ;
 }
+class
+WorkerListener
+;
 class
 ServiceWorkerRegistrationWorkerThread
 final
