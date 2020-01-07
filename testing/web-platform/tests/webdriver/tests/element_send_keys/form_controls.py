@@ -26,7 +26,7 @@ inline
 import
 inline
 def
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -265,7 +265,7 @@ value
 "
 "
     
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -343,7 +343,7 @@ value
 "
 "
     
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -425,7 +425,7 @@ value
 a
 "
     
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -449,7 +449,7 @@ value
 ab
 "
     
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -528,7 +528,7 @@ value
 a
 "
     
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -552,7 +552,7 @@ value
 ab
 "
     
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -636,7 +636,7 @@ add_event_listeners
 element
 )
     
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -776,7 +776,7 @@ all
 False
 )
     
-send_keys_to_element
+element_send_keys
 (
 session
 element
