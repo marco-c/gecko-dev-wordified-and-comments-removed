@@ -8310,6 +8310,9 @@ mCmapsTested
 ;
 if
 (
+std
+:
+:
 isinf
 (
 distance
