@@ -5307,14 +5307,6 @@ DidInitialize
 )
 )
 {
-nsCOMPtr
-<
-nsIPresShell
->
-shellGrip
-=
-shell
-;
 nsresult
 rv
 =
