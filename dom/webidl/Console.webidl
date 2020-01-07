@@ -179,6 +179,9 @@ well
 /
 /
 Logging
+[
+UseCounter
+]
 void
 assert
 (
@@ -194,11 +197,17 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 clear
 (
 )
 ;
+[
+UseCounter
+]
 void
 count
 (
@@ -211,6 +220,9 @@ default
 "
 )
 ;
+[
+UseCounter
+]
 void
 debug
 (
@@ -221,6 +233,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 error
 (
@@ -231,6 +246,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 info
 (
@@ -241,6 +259,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 log
 (
@@ -251,6 +272,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 table
 (
@@ -273,6 +297,9 @@ unclear
 about
 this
 .
+[
+UseCounter
+]
 void
 trace
 (
@@ -283,6 +310,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 warn
 (
@@ -293,6 +323,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 dir
 (
@@ -316,6 +349,9 @@ the
 spec
 yet
 .
+[
+UseCounter
+]
 void
 dirxml
 (
@@ -329,6 +365,9 @@ data
 /
 /
 Grouping
+[
+UseCounter
+]
 void
 group
 (
@@ -339,6 +378,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 groupCollapsed
 (
@@ -349,6 +391,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 groupEnd
 (
@@ -357,6 +402,9 @@ groupEnd
 /
 /
 Timing
+[
+UseCounter
+]
 void
 time
 (
@@ -369,6 +417,9 @@ default
 "
 )
 ;
+[
+UseCounter
+]
 void
 timeEnd
 (
@@ -388,6 +439,9 @@ only
 or
 Webcompat
 methods
+[
+UseCounter
+]
 void
 _exception
 (
@@ -398,6 +452,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 timeStamp
 (
@@ -406,6 +463,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 profile
 (
@@ -416,6 +476,9 @@ any
 data
 )
 ;
+[
+UseCounter
+]
 void
 profileEnd
 (
