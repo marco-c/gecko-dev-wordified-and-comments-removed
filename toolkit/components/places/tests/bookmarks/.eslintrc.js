@@ -23,16 +23,5 @@ xpcshell
 test
 "
 ]
-"
-parserOptions
-"
-:
-{
-"
-ecmaVersion
-"
-:
-8
-}
 }
 ;
