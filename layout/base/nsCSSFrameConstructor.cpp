@@ -26622,12 +26622,14 @@ if
 isGeneratedContent
 )
 {
-NS_ADDREF
-(
 item
 -
 >
 mContent
+-
+>
+AddRef
+(
 )
 ;
 }
