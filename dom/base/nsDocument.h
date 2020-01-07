@@ -1269,17 +1269,6 @@ BlockedTrackingNodes
 )
 const
 ;
-static
-void
-UnlockPointer
-(
-nsIDocument
-*
-aDoc
-=
-nullptr
-)
-;
 virtual
 void
 DocAddSizeOfExcludingThis
