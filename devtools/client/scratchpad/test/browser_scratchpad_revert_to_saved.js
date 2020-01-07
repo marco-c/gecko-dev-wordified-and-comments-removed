@@ -46,13 +46,6 @@ bar
 "
 ;
 var
-gLength
-=
-gFileContent
-.
-length
-;
-var
 menu
 ;
 function

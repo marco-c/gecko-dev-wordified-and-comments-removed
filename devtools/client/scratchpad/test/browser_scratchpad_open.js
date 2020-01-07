@@ -376,9 +376,6 @@ testOpenTestFile
 (
 )
 {
-let
-win
-=
 openScratchpad
 (
 function

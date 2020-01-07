@@ -65,9 +65,6 @@ tmp
 "
 ;
 var
-gFileContent
-;
-var
 gFileContent01
 =
 "

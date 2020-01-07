@@ -466,7 +466,7 @@ catch
 e
 )
 {
-handlError
+handleError
 (
 e
 )
@@ -749,7 +749,7 @@ waitForFrame
 (
 )
 ;
-return
+await
 ensurePixelIs
 (
 aFront
@@ -758,6 +758,8 @@ aColor
 aWaitFlag
 aSelector
 )
+;
+return
 ;
 }
 ok

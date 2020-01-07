@@ -2026,6 +2026,9 @@ file
 return
 ;
 }
+var
+data
+;
 try
 {
 let
@@ -2043,7 +2046,6 @@ available
 )
 )
 ;
-var
 data
 =
 JSON
