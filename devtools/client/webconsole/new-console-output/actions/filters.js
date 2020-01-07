@@ -135,11 +135,9 @@ toUpperCase
 )
 ]
 filterState
-.
-get
-(
+[
 filter
-)
+]
 )
 ;
 }
@@ -175,10 +173,6 @@ getAllFilters
 getState
 (
 )
-)
-.
-toJS
-(
 )
 ;
 for
