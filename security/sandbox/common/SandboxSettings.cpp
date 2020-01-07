@@ -116,6 +116,7 @@ level
 3
 &
 &
+(
 !
 Preferences
 :
@@ -129,6 +130,18 @@ cubeb
 .
 sandbox
 "
+)
+|
+|
+PR_GetEnv
+(
+"
+VGL_ISACTIVE
+"
+)
+!
+=
+nullptr
 )
 )
 {
