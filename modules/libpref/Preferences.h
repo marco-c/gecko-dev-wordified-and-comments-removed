@@ -531,6 +531,7 @@ GetBool
 aPrefName
 &
 result
+aKind
 )
 ;
 return
@@ -568,6 +569,7 @@ GetInt
 aPrefName
 &
 result
+aKind
 )
 ;
 return
@@ -605,6 +607,7 @@ GetUint
 aPrefName
 &
 result
+aKind
 )
 ;
 return
@@ -644,6 +647,7 @@ GetFloat
 aPrefName
 &
 result
+aKind
 )
 ;
 return
