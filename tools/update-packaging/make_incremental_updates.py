@@ -4,6 +4,17 @@ import
 shutil
 import
 hashlib
+from
+os
+.
+path
+import
+join
+getsize
+from
+stat
+import
+*
 import
 re
 import
@@ -12,6 +23,10 @@ import
 getopt
 import
 time
+import
+datetime
+import
+string
 import
 tempfile
 import
@@ -710,7 +725,6 @@ testdir
 "
 '
 +
-                                   
 patchname
 +
 '
@@ -745,7 +759,6 @@ testdir
 "
 '
 +
-                                   
 patchname
 +
 '
@@ -1939,7 +1952,7 @@ exists
 dst_file_dir
 )
 :
-        
+         
 os
 .
 makedirs
@@ -2365,7 +2378,6 @@ abs_path
 "
 "
 +
-                       
 to_marfile_entry
 .
 abs_path
@@ -2506,7 +2518,6 @@ sha
 ]
 =
 (
-            
 file_in_manifest_name
 file_in_manifest_abspath
 )
@@ -2572,6 +2583,7 @@ name
 .
 patch
 '
+;
             
 patch_info
 .
@@ -3534,7 +3546,7 @@ patch_info
         
 else
 :
-            
+          
 if
 from_marfile_entry
 .
@@ -3549,10 +3561,9 @@ sha
 (
 )
 :
-                
+              
 create_partial_patch_for_file
 (
-                    
 from_marfile_entry
 to_marfile_entry
 shas
@@ -3713,8 +3724,6 @@ patch_info
 .
 work_dir
 +
-\
-        
 '
 -
 c
@@ -4484,7 +4493,6 @@ path
 .
 abspath
 (
-                
 from_filename
 )
 os
@@ -4539,6 +4547,7 @@ work_dir
 from
 "
 )
+;
             
 os
 .
@@ -4702,7 +4711,6 @@ PatchInfo
 (
 work_dir
 [
-                                                    
 '
 update
 .
@@ -4740,6 +4748,10 @@ ini
 '
 ]
 )
+            
+partial_buildid
+=
+to_buildid
             
 partial_shasum
 =
@@ -4783,7 +4795,7 @@ metadata
 append
 (
 {
-                
+             
 '
 to_filename
 '
@@ -4796,7 +4808,7 @@ basename
 (
 to_filename
 )
-                
+             
 '
 from_filename
 '
@@ -4809,7 +4821,7 @@ basename
 (
 from_filename
 )
-                
+             
 '
 partial_filename
 '
@@ -4822,55 +4834,55 @@ basename
 (
 partial_filename
 )
-                
+             
 '
 to_buildid
 '
 :
 to_buildid
-                
+             
 '
 from_buildid
 '
 :
 from_buildid
-                
+             
 '
 to_sha1sum
 '
 :
 to_shasum
-                
+             
 '
 from_sha1sum
 '
 :
 from_shasum
-                
+             
 '
 partial_sha1sum
 '
 :
 partial_shasum
-                
+             
 '
 to_size
 '
 :
 to_size
-                
+             
 '
 from_size
 '
 :
 from_size
-                
+             
 '
 partial_size
 '
 :
 partial_size
-                
+             
 '
 to_version
 '
@@ -4881,7 +4893,7 @@ to_decoded
 version
 '
 ]
-                
+             
 '
 from_version
 '
@@ -4892,7 +4904,7 @@ from_decoded
 version
 '
 ]
-                
+             
 '
 locale
 '
@@ -4903,7 +4915,7 @@ from_decoded
 locale
 '
 ]
-                
+             
 '
 platform
 '
@@ -4957,7 +4969,6 @@ str
 (
 patch_num
 )
-                                                                                        
 str
 (
 len
@@ -5030,7 +5041,7 @@ None
     
 try
 :
-        
+         
 opts
 args
 =
@@ -5053,7 +5064,7 @@ patchlist_file
 "
 ]
 )
-        
+         
 for
 opt
 arg
@@ -5112,11 +5123,11 @@ getopt
 .
 GetoptError
 :
-        
+          
 usage
 (
 )
-        
+          
 sys
 .
 exit

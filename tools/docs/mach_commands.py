@@ -7,6 +7,8 @@ unicode_literals
 import
 os
 import
+platform
+import
 sys
 from
 mach
@@ -353,6 +355,8 @@ False
 try
 :
             
+jsdoc
+=
 which
 .
 which

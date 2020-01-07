@@ -6,6 +6,10 @@ import
 re
 import
 os
+import
+pty
+import
+termios
 from
 StringIO
 import
@@ -16,7 +20,6 @@ re
 .
 compile
 (
-    
 "
 ^
 [
@@ -278,6 +281,7 @@ lib
 /
 debug
 '
+;
 endian_re
 =
 re
@@ -986,6 +990,7 @@ build
 id
 "
 )
+;
     
 if
 buildid
@@ -1185,6 +1190,7 @@ file
 gnu_debuglink
 "
 )
+;
     
 if
 debuglink
@@ -1697,6 +1703,7 @@ groups
 ]
 16
 )
+;
             
 break
     
@@ -1729,8 +1736,8 @@ address
 :
     
 if
-file
 not
+file
 in
 file_stuff
 :
@@ -1894,6 +1901,7 @@ r
 n
 "
 )
+\
               
 addr2line
 .

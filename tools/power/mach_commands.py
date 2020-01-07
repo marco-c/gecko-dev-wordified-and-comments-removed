@@ -26,7 +26,14 @@ mozbuild
 .
 base
 import
+(
+    
 MachCommandBase
+    
+MachCommandConditions
+as
+conditions
+)
 def
 is_osx_10_10_or_greater
 (
@@ -116,13 +123,13 @@ category
 '
 misc
 '
-             
+        
 conditions
 =
 [
 is_osx_10_10_or_greater
 ]
-             
+        
 description
 =
 '
@@ -135,7 +142,7 @@ related
 measurements
 for
 '
-             
+        
 '
 all
 running
@@ -154,7 +161,7 @@ and
 above
 .
 '
-             
+        
 '
 Requires
 root
@@ -180,7 +187,7 @@ int
 default
 =
 30000
-                     
+        
 help
 =
 '
@@ -262,7 +269,6 @@ true
 )
         
 except
-Exception
 :
             
 print

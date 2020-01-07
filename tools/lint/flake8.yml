@@ -203,6 +203,17 @@ py
 -
 tools
 /
+lint
+-
+tools
+/
+mach_commands
+.
+py
+-
+tools
+/
+tryselect
 #
 Excludes
 should
