@@ -158,6 +158,13 @@ mips
 not
 in
 ost
+and
+'
+powerpc
+'
+not
+in
+ost
 :
 SOURCES
 +

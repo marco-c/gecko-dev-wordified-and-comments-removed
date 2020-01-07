@@ -306,6 +306,10 @@ define
 ARCH_CPU_64_BITS
 1
 #
+define
+ARCH_CPU_PPC_FAMILY
+1
+#
 elif
 defined
 (
@@ -324,6 +328,10 @@ ARCH_CPU_PPC
 #
 define
 ARCH_CPU_32_BITS
+1
+#
+define
+ARCH_CPU_PPC_FAMILY
 1
 #
 elif
