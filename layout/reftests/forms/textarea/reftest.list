@@ -265,12 +265,6 @@ layersGPUAccelerated
 102
 4168
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 padding

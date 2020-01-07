@@ -15128,9 +15128,6 @@ DefineClip
 Nothing
 (
 )
-Nothing
-(
-)
 clipRect
 )
 ;
@@ -15139,12 +15136,6 @@ aBuilder
 PushClip
 (
 clipId
-aItem
--
->
-GetClipChain
-(
-)
 )
 ;
 }
@@ -15204,12 +15195,6 @@ aBuilder
 .
 PopClip
 (
-aItem
--
->
-GetClipChain
-(
-)
 )
 ;
 }

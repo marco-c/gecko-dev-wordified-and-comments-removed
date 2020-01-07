@@ -1593,7 +1593,7 @@ AvailableHeight
 )
 )
 ;
-MOZ_ASSERT
+NS_PRECONDITION
 (
 mState
 &

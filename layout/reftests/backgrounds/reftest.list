@@ -3369,12 +3369,9 @@ fuzzy
 if
 (
 webrender
-&
-&
-winWidget
 73
 -
-73
+93
 49600
 -
 49600
