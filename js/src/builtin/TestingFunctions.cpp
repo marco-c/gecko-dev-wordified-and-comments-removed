@@ -18139,9 +18139,6 @@ false
 }
 if
 (
-fuzzingSafe
-&
-&
 *
 maybeScope
 <
@@ -18152,11 +18149,8 @@ JS_ReportErrorASCII
 (
 cx
 "
-Fuzzing
-builds
-must
-not
-set
+Cannot
+use
 less
 restrictive
 scope
