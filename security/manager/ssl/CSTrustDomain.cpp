@@ -351,6 +351,7 @@ candidateCert
 get
 (
 )
+&
 isRoot
 )
 ;

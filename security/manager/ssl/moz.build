@@ -178,6 +178,11 @@ nsILocalCertService
 idl
 '
 '
+nsINSSComponent
+.
+idl
+'
+'
 nsINSSErrorsService
 .
 idl

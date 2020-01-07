@@ -657,6 +657,7 @@ component
 IsCertTestBuiltInRoot
 (
 cert
+&
 result
 )
 ;
