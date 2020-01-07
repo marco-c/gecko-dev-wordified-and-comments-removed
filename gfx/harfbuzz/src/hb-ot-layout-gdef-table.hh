@@ -36,7 +36,7 @@ OT
 typedef
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 AttachPoint
 ;
@@ -118,7 +118,7 @@ point_count
 )
 {
 const
-UINT16
+HBUINT16
 *
 array
 =
@@ -303,10 +303,10 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 caretValueFormat
 ;
-INT16
+HBINT16
 coordinate
 ;
 public
@@ -405,10 +405,10 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 caretValueFormat
 ;
-UINT16
+HBUINT16
 caretValuePoint
 ;
 public
@@ -528,10 +528,10 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 caretValueFormat
 ;
-INT16
+HBINT16
 coordinate
 ;
 OffsetTo
@@ -725,7 +725,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 CaretValueFormat1
@@ -1118,7 +1118,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 ArrayOf
@@ -1250,7 +1250,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 MarkGlyphSetsFormat1

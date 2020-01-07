@@ -20,6 +20,18 @@ srcdir
 srcdir
 =
 .
+test
+-
+z
+"
+libs
+"
+&
+&
+libs
+=
+.
+libs
 stat
 =
 0
@@ -65,7 +77,6 @@ exit
 fi
 OBJS
 =
-.
 libs
 /
 *

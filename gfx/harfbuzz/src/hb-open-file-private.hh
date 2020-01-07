@@ -83,10 +83,10 @@ tag
 CheckSum
 checkSum
 ;
-UINT32
+HBUINT32
 offset
 ;
-UINT32
+HBUINT32
 length
 ;
 public
@@ -502,7 +502,7 @@ LOffsetTo
 <
 OffsetTable
 >
-UINT32
+HBUINT32
 >
 table
 ;

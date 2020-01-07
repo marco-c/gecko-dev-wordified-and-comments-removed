@@ -1377,8 +1377,9 @@ OT
 :
 OpenTypeFontFile
 >
-:
-:
+(
+)
+.
 sanitize
 (
 blob

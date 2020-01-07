@@ -558,10 +558,10 @@ FixedVersion
 >
 version
 ;
-UINT16
+HBUINT16
 reserved
 ;
-UINT16
+HBUINT16
 axisCount
 ;
 SegmentMaps

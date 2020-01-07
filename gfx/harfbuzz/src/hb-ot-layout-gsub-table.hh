@@ -274,7 +274,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -475,7 +475,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -484,7 +484,7 @@ Coverage
 >
 coverage
 ;
-INT16
+HBINT16
 deltaGlyphID
 ;
 public
@@ -784,7 +784,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -1016,7 +1016,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -1339,7 +1339,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 SingleSubstFormat1
@@ -1446,7 +1446,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -1974,7 +1974,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -2243,7 +2243,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -2474,7 +2474,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 MultipleSubstFormat1
@@ -2832,7 +2832,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -3207,7 +3207,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -3438,7 +3438,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 AlternateSubstFormat1
@@ -3658,7 +3658,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -4107,7 +4107,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -4682,7 +4682,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -4976,7 +4976,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -5222,7 +5222,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 LigatureSubstFormat1
@@ -5771,7 +5771,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -5896,7 +5896,7 @@ backtrack
 .
 len
 (
-UINT16
+HBUINT16
 *
 )
 backtrack
@@ -5916,7 +5916,7 @@ lookahead
 .
 len
 (
-UINT16
+HBUINT16
 *
 )
 lookahead
@@ -6074,7 +6074,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -6209,7 +6209,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 ReverseChainSingleSubstFormat1
@@ -6455,7 +6455,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 sub_format
 ;
 SingleSubst
@@ -6601,7 +6601,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -6798,7 +6798,7 @@ static
 bool
 apply_recurse_func
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
@@ -7325,24 +7325,6 @@ get_type
 (
 )
 ;
-if
-(
-unlikely
-(
-type
-=
-=
-SubstLookupSubTable
-:
-:
-Extension
-)
-)
-return_trace
-(
-false
-)
-;
 unsigned
 int
 count
@@ -7773,7 +7755,7 @@ SubstLookup
 :
 apply_recurse_func
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned

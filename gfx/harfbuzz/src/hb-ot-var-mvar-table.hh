@@ -57,7 +57,7 @@ public
 Tag
 valueTag
 ;
-UINT32
+HBUINT32
 varIdx
 ;
 public
@@ -294,13 +294,13 @@ FixedVersion
 >
 version
 ;
-UINT16
+HBUINT16
 reserved
 ;
-UINT16
+HBUINT16
 valueRecordSize
 ;
-UINT16
+HBUINT16
 valueRecordCount
 ;
 OffsetTo
@@ -309,7 +309,7 @@ VariationStore
 >
 varStore
 ;
-UINT8
+HBUINT8
 values
 [
 VAR

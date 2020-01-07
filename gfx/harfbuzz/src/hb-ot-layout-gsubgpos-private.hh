@@ -885,11 +885,11 @@ debug_depth
 }
 ;
 struct
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 hb_dispatch_context_t
 <
-hb_apply_context_t
+hb_ot_apply_context_t
 bool
 HB_DEBUG_APPLY
 >
@@ -958,7 +958,7 @@ match_func_t
 hb_codepoint_t
 glyph_id
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -1071,7 +1071,7 @@ hb_glyph_info_t
 &
 info
 const
-UINT16
+HBUINT16
 *
 glyph_data
 )
@@ -1142,7 +1142,7 @@ may_skip_t
 may_skip
 (
 const
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 const
@@ -1247,7 +1247,7 @@ inline
 void
 init
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c_
 bool
@@ -1377,7 +1377,7 @@ void
 *
 match_data_
 const
-UINT16
+HBUINT16
 glyph_data
 [
 ]
@@ -1482,10 +1482,6 @@ matcher_t
 may_skip_t
 may_skip
 (
-const
-hb_apply_context_t
-*
-c
 const
 hb_glyph_info_t
 &
@@ -1802,7 +1798,7 @@ idx
 ;
 protected
 :
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 ;
@@ -1810,7 +1806,7 @@ matcher_t
 matcher
 ;
 const
-UINT16
+HBUINT16
 *
 match_glyph_data
 ;
@@ -1846,7 +1842,7 @@ return_t
 recurse_func_t
 )
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
@@ -1906,7 +1902,7 @@ recurse
 (
 unsigned
 int
-lookup_index
+sub_lookup_index
 )
 {
 if
@@ -1949,7 +1945,7 @@ ret
 recurse_func
 (
 this
-lookup_index
+sub_lookup_index
 )
 ;
 nesting_level_left
@@ -2024,7 +2020,7 @@ auto_zwj
 bool
 has_glyph_classes
 ;
-hb_apply_context_t
+hb_ot_apply_context_t
 (
 unsigned
 int
@@ -2603,7 +2599,7 @@ hb_set_t
 *
 glyphs
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2623,7 +2619,7 @@ hb_set_t
 *
 glyphs
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2642,7 +2638,7 @@ match_func_t
 hb_codepoint_t
 glyph_id
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2684,7 +2680,7 @@ hb_set_t
 *
 glyphs
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2713,7 +2709,7 @@ hb_set_t
 *
 glyphs
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2757,7 +2753,7 @@ hb_set_t
 *
 glyphs
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2809,7 +2805,7 @@ unsigned
 int
 count
 const
-UINT16
+HBUINT16
 values
 [
 ]
@@ -2872,7 +2868,7 @@ hb_set_t
 *
 glyphs
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2900,7 +2896,7 @@ hb_set_t
 *
 glyphs
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2943,7 +2939,7 @@ hb_set_t
 *
 glyphs
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -2998,7 +2994,7 @@ unsigned
 int
 count
 const
-UINT16
+HBUINT16
 values
 [
 ]
@@ -3045,7 +3041,7 @@ match_glyph
 hb_codepoint_t
 glyph_id
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -3070,7 +3066,7 @@ match_class
 hb_codepoint_t
 glyph_id
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -3115,7 +3111,7 @@ match_coverage
 hb_codepoint_t
 glyph_id
 const
-UINT16
+HBUINT16
 &
 value
 const
@@ -3170,7 +3166,7 @@ unsigned
 int
 count
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -3247,14 +3243,14 @@ inline
 bool
 match_input
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
 int
 count
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -3315,7 +3311,7 @@ c
 >
 buffer
 ;
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -3625,7 +3621,6 @@ skippy_iter
 .
 may_skip
 (
-c
 out
 [
 j
@@ -3633,7 +3628,7 @@ j
 )
 =
 =
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 matcher_t
@@ -3768,7 +3763,7 @@ inline
 bool
 ligate_input
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
@@ -4203,14 +4198,14 @@ inline
 bool
 match_backtrack
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
 int
 count
 const
-UINT16
+HBUINT16
 backtrack
 [
 ]
@@ -4231,7 +4226,7 @@ TRACE_APPLY
 nullptr
 )
 ;
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -4316,14 +4311,14 @@ inline
 bool
 match_lookahead
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
 int
 count
 const
-UINT16
+HBUINT16
 lookahead
 [
 ]
@@ -4347,7 +4342,7 @@ TRACE_APPLY
 nullptr
 )
 ;
-hb_apply_context_t
+hb_ot_apply_context_t
 :
 :
 skipping_iterator_t
@@ -4461,10 +4456,10 @@ this
 )
 ;
 }
-UINT16
+HBUINT16
 sequenceIndex
 ;
-UINT16
+HBUINT16
 lookupListIndex
 ;
 public
@@ -4534,7 +4529,7 @@ inline
 bool
 apply_lookup
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
@@ -5032,7 +5027,7 @@ unsigned
 int
 inputCount
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -5092,7 +5087,7 @@ unsigned
 int
 inputCount
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -5154,7 +5149,7 @@ unsigned
 int
 inputCount
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -5195,14 +5190,14 @@ inline
 bool
 context_apply_lookup
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
 int
 inputCount
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -5477,7 +5472,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 ContextApplyLookupContext
@@ -5599,13 +5594,13 @@ lookupCount
 }
 protected
 :
-UINT16
+HBUINT16
 inputCount
 ;
-UINT16
+HBUINT16
 lookupCount
 ;
-UINT16
+HBUINT16
 inputZ
 [
 VAR
@@ -5823,7 +5818,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 ContextApplyLookupContext
@@ -6201,7 +6196,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -6325,7 +6320,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -6655,7 +6650,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -6817,7 +6812,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -6927,7 +6922,7 @@ c
 glyphCount
 (
 const
-UINT16
+HBUINT16
 *
 )
 (
@@ -7012,7 +7007,7 @@ c
 glyphCount
 (
 const
-UINT16
+HBUINT16
 *
 )
 (
@@ -7082,7 +7077,7 @@ c
 glyphCount
 (
 const
-UINT16
+HBUINT16
 *
 )
 (
@@ -7120,7 +7115,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -7215,7 +7210,7 @@ c
 glyphCount
 (
 const
-UINT16
+HBUINT16
 *
 )
 (
@@ -7378,13 +7373,13 @@ lookupCount
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
-UINT16
+HBUINT16
 glyphCount
 ;
-UINT16
+HBUINT16
 lookupCount
 ;
 OffsetTo
@@ -7544,7 +7539,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 ContextFormat1
@@ -7621,7 +7616,7 @@ unsigned
 int
 backtrackCount
 const
-UINT16
+HBUINT16
 backtrack
 [
 ]
@@ -7629,7 +7624,7 @@ unsigned
 int
 inputCount
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -7637,7 +7632,7 @@ unsigned
 int
 lookaheadCount
 const
-UINT16
+HBUINT16
 lookahead
 [
 ]
@@ -7738,7 +7733,7 @@ unsigned
 int
 backtrackCount
 const
-UINT16
+HBUINT16
 backtrack
 [
 ]
@@ -7746,7 +7741,7 @@ unsigned
 int
 inputCount
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -7754,7 +7749,7 @@ unsigned
 int
 lookaheadCount
 const
-UINT16
+HBUINT16
 lookahead
 [
 ]
@@ -7863,7 +7858,7 @@ unsigned
 int
 backtrackCount
 const
-UINT16
+HBUINT16
 backtrack
 [
 ]
@@ -7872,7 +7867,7 @@ unsigned
 int
 inputCount
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -7880,7 +7875,7 @@ unsigned
 int
 lookaheadCount
 const
-UINT16
+HBUINT16
 lookahead
 [
 ]
@@ -7942,14 +7937,14 @@ inline
 bool
 chain_context_apply_lookup
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 unsigned
 int
 backtrackCount
 const
-UINT16
+HBUINT16
 backtrack
 [
 ]
@@ -7957,7 +7952,7 @@ unsigned
 int
 inputCount
 const
-UINT16
+HBUINT16
 input
 [
 ]
@@ -7965,7 +7960,7 @@ unsigned
 int
 lookaheadCount
 const
-UINT16
+HBUINT16
 lookahead
 [
 ]
@@ -8115,7 +8110,7 @@ this
 const
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 input
@@ -8124,7 +8119,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8134,7 +8129,7 @@ backtrack
 const
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 lookahead
@@ -8143,7 +8138,7 @@ StructAfter
 <
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8221,7 +8216,7 @@ this
 const
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 input
@@ -8230,7 +8225,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8240,7 +8235,7 @@ backtrack
 const
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 lookahead
@@ -8249,7 +8244,7 @@ StructAfter
 <
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8327,7 +8322,7 @@ this
 const
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 input
@@ -8336,7 +8331,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8346,7 +8341,7 @@ backtrack
 const
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 lookahead
@@ -8355,7 +8350,7 @@ StructAfter
 <
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8419,7 +8414,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 ChainContextApplyLookupContext
@@ -8436,7 +8431,7 @@ this
 const
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 input
@@ -8445,7 +8440,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8455,7 +8450,7 @@ backtrack
 const
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 lookahead
@@ -8464,7 +8459,7 @@ StructAfter
 <
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8557,7 +8552,7 @@ false
 const
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 input
@@ -8566,7 +8561,7 @@ StructAfter
 <
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8591,7 +8586,7 @@ false
 const
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 &
 lookahead
@@ -8600,7 +8595,7 @@ StructAfter
 <
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 >
 (
@@ -8656,19 +8651,19 @@ protected
 :
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 backtrack
 ;
 HeadlessArrayOf
 <
-UINT16
+HBUINT16
 >
 inputX
 ;
 ArrayOf
 <
-UINT16
+HBUINT16
 >
 lookaheadX
 ;
@@ -8880,7 +8875,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 ChainContextApplyLookupContext
@@ -9268,7 +9263,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -9396,7 +9391,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -9798,7 +9793,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -10002,7 +9997,7 @@ this
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetTo
@@ -10165,7 +10160,7 @@ backtrack
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 backtrack
@@ -10176,7 +10171,7 @@ input
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 input
@@ -10189,7 +10184,7 @@ lookahead
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 lookahead
@@ -10317,7 +10312,7 @@ backtrack
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 backtrack
@@ -10328,7 +10323,7 @@ input
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 input
@@ -10341,7 +10336,7 @@ lookahead
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 lookahead
@@ -10454,7 +10449,7 @@ backtrack
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 backtrack
@@ -10465,7 +10460,7 @@ input
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 input
@@ -10478,7 +10473,7 @@ lookahead
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 lookahead
@@ -10537,7 +10532,7 @@ inline
 bool
 apply
 (
-hb_apply_context_t
+hb_ot_apply_context_t
 *
 c
 )
@@ -10673,7 +10668,7 @@ backtrack
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 backtrack
@@ -10684,7 +10679,7 @@ input
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 input
@@ -10697,7 +10692,7 @@ lookahead
 len
 (
 const
-UINT16
+HBUINT16
 *
 )
 lookahead
@@ -10859,7 +10854,7 @@ c
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
 OffsetArrayOf
@@ -11026,7 +11021,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 ChainContextFormat1
@@ -11221,18 +11216,30 @@ extensionOffset
 !
 =
 0
+&
+&
+extensionLookupType
+!
+=
+T
+:
+:
+LookupSubTable
+:
+:
+Extension
 )
 ;
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
-UINT16
+HBUINT16
 extensionLookupType
 ;
-UINT32
+HBUINT32
 extensionOffset
 ;
 public
@@ -11438,7 +11445,7 @@ protected
 :
 union
 {
-UINT16
+HBUINT16
 format
 ;
 ExtensionFormat1

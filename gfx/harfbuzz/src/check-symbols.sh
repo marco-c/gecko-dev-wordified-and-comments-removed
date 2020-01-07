@@ -20,6 +20,18 @@ srcdir
 srcdir
 =
 .
+test
+-
+z
+"
+libs
+"
+&
+&
+libs
+=
+.
+libs
 stat
 =
 0
@@ -84,7 +96,6 @@ dylib
 do
 so
 =
-.
 libs
 /
 libharfbuzz

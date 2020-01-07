@@ -292,11 +292,6 @@ exit
 ?
 cd
 olddir
-echo
-"
-running
-configure
-"
 test
 -
 n
@@ -305,6 +300,12 @@ NOCONFIGURE
 "
 |
 |
+{
+echo
+"
+running
+configure
+"
 "
 srcdir
 /
@@ -312,3 +313,4 @@ configure
 "
 "
 "
+}

@@ -124,7 +124,7 @@ FixedVersion
 >
 version
 ;
-UINT16
+HBUINT16
 numGlyphs
 ;
 public

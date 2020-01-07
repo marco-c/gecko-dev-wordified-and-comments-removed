@@ -112,7 +112,7 @@ get_width
 )
 ;
 const
-UINT8
+HBUINT8
 *
 p
 =
@@ -244,13 +244,13 @@ format
 }
 protected
 :
-UINT16
+HBUINT16
 format
 ;
-UINT16
+HBUINT16
 mapCount
 ;
-UINT8
+HBUINT8
 mapData
 [
 VAR
