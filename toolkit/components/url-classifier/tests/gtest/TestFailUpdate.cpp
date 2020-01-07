@@ -347,10 +347,7 @@ SetFullUpdate
 full
 )
 ;
-std
-:
-:
-string
+nsCString
 prefix
 (
 str
@@ -363,7 +360,7 @@ NewPrefixes
 (
 prefix
 .
-length
+Length
 (
 )
 prefix
