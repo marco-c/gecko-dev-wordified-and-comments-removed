@@ -144,7 +144,7 @@ backgroundsTiling
 "
 -
 -
-theme
+lwt
 -
 tab
 -
@@ -216,11 +216,11 @@ toolbar_field_text
 "
 -
 -
-url
+lwt
 -
-and
+toolbar
 -
-searchbar
+field
 -
 border
 -
