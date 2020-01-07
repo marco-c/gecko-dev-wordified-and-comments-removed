@@ -293,13 +293,6 @@ only
 .
 xul
 "
-onload
-=
-"
-load
-(
-)
-"
 >
 <
 script
