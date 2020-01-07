@@ -42743,7 +42743,7 @@ return
 }
 const
 bool
-isWebkitBox
+isLegacyBox
 =
 IsFlexContainerForLegacyBox
 (
@@ -42765,7 +42765,7 @@ iter
 SkipItemsThatDontNeedAnonFlexOrGridItem
 (
 aState
-isWebkitBox
+isLegacyBox
 )
 )
 {
@@ -42827,7 +42827,7 @@ item
 NeedsAnonFlexOrGridItem
 (
 aState
-isWebkitBox
+isLegacyBox
 )
 ;
 if
@@ -42872,7 +42872,7 @@ item
 NeedsAnonFlexOrGridItem
 (
 aState
-isWebkitBox
+isLegacyBox
 )
 "
 hitEnd
@@ -42899,7 +42899,7 @@ endIter
 SkipItemsThatNeedAnonFlexOrGridItem
 (
 aState
-isWebkitBox
+isLegacyBox
 )
 ;
 NS_ASSERTION
@@ -51953,7 +51953,7 @@ aItems
 ;
 const
 bool
-isWebkitBox
+isLegacyBox
 =
 IsFlexContainerForLegacyBox
 (
@@ -51980,7 +51980,7 @@ item
 NeedsAnonFlexOrGridItem
 (
 aState
-isWebkitBox
+isLegacyBox
 )
 )
 {
@@ -52036,7 +52036,7 @@ item
 NeedsAnonFlexOrGridItem
 (
 aState
-isWebkitBox
+isLegacyBox
 )
 )
 {
@@ -52109,7 +52109,7 @@ GetParent
 ;
 const
 bool
-isWebkitBox
+isLegacyBox
 =
 IsFlexContainerForLegacyBox
 (
@@ -52124,7 +52124,7 @@ iter
 SkipItemsThatNeedAnonFlexOrGridItem
 (
 aState
-isWebkitBox
+isLegacyBox
 )
 )
 {
@@ -53483,7 +53483,7 @@ nsFrameConstructorState
 &
 aState
 bool
-aIsWebkitBox
+aIsLegacyBox
 )
 {
 if
@@ -53502,7 +53502,7 @@ true
 }
 if
 (
-aIsWebkitBox
+aIsLegacyBox
 )
 {
 if
@@ -53578,7 +53578,7 @@ nsFrameConstructorState
 &
 aState
 bool
-aIsWebkitBox
+aIsLegacyBox
 )
 {
 NS_PRECONDITION
@@ -53606,7 +53606,7 @@ item
 NeedsAnonFlexOrGridItem
 (
 aState
-aIsWebkitBox
+aIsLegacyBox
 )
 )
 {
@@ -53648,7 +53648,7 @@ nsFrameConstructorState
 &
 aState
 bool
-aIsWebkitBox
+aIsLegacyBox
 )
 {
 NS_PRECONDITION
@@ -53678,7 +53678,7 @@ item
 NeedsAnonFlexOrGridItem
 (
 aState
-aIsWebkitBox
+aIsLegacyBox
 )
 )
 )
