@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIDOMNSEditableElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULButtonElement
 .
 h
