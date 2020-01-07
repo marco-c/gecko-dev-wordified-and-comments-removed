@@ -112,7 +112,6 @@ ipc
 {
 self
 IpcSender
-IpcReceiver
 }
 ;
 use
