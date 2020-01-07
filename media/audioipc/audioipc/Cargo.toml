@@ -13,7 +13,7 @@ version
 .
 2
 .
-2
+3
 "
 authors
 =
@@ -56,7 +56,7 @@ cubeb
 "
 0
 .
-4
+5
 "
 bincode
 =

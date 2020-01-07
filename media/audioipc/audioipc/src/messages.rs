@@ -989,7 +989,6 @@ ContextGetMinLatency
 StreamParams
 )
 ContextGetPreferredSampleRate
-ContextGetPreferredChannelLayout
 ContextGetDeviceEnumeration
 (
 ffi
@@ -1069,13 +1068,6 @@ u32
 ContextPreferredSampleRate
 (
 u32
-)
-ContextPreferredChannelLayout
-(
-ffi
-:
-:
-cubeb_channel_layout
 )
 ContextEnumeratedDevices
 (
