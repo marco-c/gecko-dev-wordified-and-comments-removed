@@ -6407,6 +6407,13 @@ panel
 )
 GK_ATOM
 (
+paragraph
+"
+paragraph
+"
+)
+GK_ATOM
+(
 param
 "
 param
