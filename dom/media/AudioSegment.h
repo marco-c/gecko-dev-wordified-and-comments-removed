@@ -1130,7 +1130,9 @@ aChannel
 )
 ;
 }
+const
 PrincipalHandle
+&
 GetPrincipalHandle
 (
 )

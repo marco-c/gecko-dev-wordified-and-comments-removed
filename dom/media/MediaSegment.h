@@ -178,6 +178,7 @@ nsIPrincipal
 *
 GetPrincipalFromHandle
 (
+const
 PrincipalHandle
 &
 aPrincipalHandle
@@ -202,6 +203,7 @@ inline
 bool
 PrincipalHandleMatches
 (
+const
 PrincipalHandle
 &
 aPrincipalHandle
@@ -341,7 +343,9 @@ return
 mType
 ;
 }
+const
 PrincipalHandle
+&
 GetLastPrincipalHandle
 (
 )
@@ -354,15 +358,19 @@ mLastPrincipalHandle
 void
 SetLastPrincipalHandle
 (
-const
 PrincipalHandle
-&
 aLastPrincipalHandle
 )
 {
 mLastPrincipalHandle
 =
+Forward
+<
+PrincipalHandle
+>
+(
 aLastPrincipalHandle
+)
 ;
 }
 virtual
