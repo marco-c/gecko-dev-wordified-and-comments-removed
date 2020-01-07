@@ -272,6 +272,7 @@ channel
 /
 static
 ChannelWrapper
+?
 getRegisteredChannel
 (
 unsigned
