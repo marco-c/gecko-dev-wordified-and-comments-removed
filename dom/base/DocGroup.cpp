@@ -255,13 +255,14 @@ return
 mTabGroup
 -
 >
-Dispatch
+DispatchWithDocGroup
 (
 aCategory
 Move
 (
 aRunnable
 )
+this
 )
 ;
 }
