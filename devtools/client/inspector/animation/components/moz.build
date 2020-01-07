@@ -69,6 +69,11 @@ AnimationDetailContainer
 js
 '
 '
+AnimationDetailHeader
+.
+js
+'
+'
 AnimationItem
 .
 js
