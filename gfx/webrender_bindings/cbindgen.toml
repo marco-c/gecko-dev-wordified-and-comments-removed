@@ -99,6 +99,8 @@ latest
 cbindgen
 using
 cargo
++
+nightly
 install
 -
 -
