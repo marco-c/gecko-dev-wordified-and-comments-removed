@@ -525,7 +525,11 @@ h
 #
 include
 "
-nsGenericDOMDataNode
+mozilla
+/
+dom
+/
+CharacterData
 .
 h
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-nsGenericDOMDataNode_h___
+mozilla_dom_CharacterData_h
 #
 define
-nsGenericDOMDataNode_h___
+mozilla_dom_CharacterData_h
 #
 include
 "

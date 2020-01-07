@@ -422,11 +422,6 @@ nsFrameMessageManager
 h
 '
 '
-nsGenericDOMDataNode
-.
-h
-'
-'
 nsGlobalWindow
 .
 h
@@ -823,6 +818,11 @@ BorrowedAttrInfo
 h
 '
 '
+CharacterData
+.
+h
+'
+'
 ChildIterator
 .
 h
@@ -1200,6 +1200,11 @@ BorrowedAttrInfo
 cpp
 '
 '
+CharacterData
+.
+cpp
+'
+'
 ChildIterator
 .
 cpp
@@ -1521,11 +1526,6 @@ cpp
 '
 '
 nsGenConImageContent
-.
-cpp
-'
-'
-nsGenericDOMDataNode
 .
 cpp
 '
