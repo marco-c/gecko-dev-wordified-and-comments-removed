@@ -1834,10 +1834,6 @@ DidReflow
 aPresContext
 &
 state
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 nscoord
@@ -2213,10 +2209,6 @@ DidReflow
 aPresContext
 &
 state
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 mDropdownCanGrow

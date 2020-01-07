@@ -3653,10 +3653,6 @@ DidReflow
 (
 aPresContext
 nullptr
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 continue
@@ -5414,10 +5410,6 @@ DidReflow
 (
 aPresContext
 nullptr
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 return

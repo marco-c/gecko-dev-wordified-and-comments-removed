@@ -3016,10 +3016,6 @@ DidReflow
 (
 aPresContext
 nullptr
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 }

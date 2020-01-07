@@ -1056,10 +1056,6 @@ DidReflow
 (
 aPresContext
 nullptr
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 convertedSize

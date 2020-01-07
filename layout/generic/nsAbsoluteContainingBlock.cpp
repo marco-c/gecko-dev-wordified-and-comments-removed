@@ -3490,10 +3490,6 @@ DidReflow
 aPresContext
 &
 kidReflowInput
-nsDidReflowStatus
-:
-:
-FINISHED
 )
 ;
 #
