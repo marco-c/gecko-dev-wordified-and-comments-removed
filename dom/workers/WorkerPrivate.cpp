@@ -16298,9 +16298,6 @@ DestroySyncLoop
 (
 uint32_t
 aLoopIndex
-nsIThreadInternal
-*
-aThread
 )
 {
 MOZ_ASSERT
@@ -16327,17 +16324,6 @@ Length
 aLoopIndex
 )
 ;
-if
-(
-!
-aThread
-)
-{
-aThread
-=
-mThread
-;
-}
 SyncLoopInfo
 *
 loopInfo

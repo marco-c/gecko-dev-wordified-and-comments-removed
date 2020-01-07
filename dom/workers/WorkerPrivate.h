@@ -3346,11 +3346,6 @@ DestroySyncLoop
 (
 uint32_t
 aLoopIndex
-nsIThreadInternal
-*
-aThread
-=
-nullptr
 )
 ;
 void
