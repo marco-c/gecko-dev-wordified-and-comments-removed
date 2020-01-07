@@ -3267,7 +3267,10 @@ reinterpret_cast
 pointer
 >
 (
-0x1
+alignof
+(
+element_type
+)
 )
 )
 {
