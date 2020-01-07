@@ -559,7 +559,7 @@ OpUpdateResource
 [
 ]
 aResourceUpdates
-Shmem
+RefCountedShmem
 [
 ]
 aSmallShmems
@@ -614,7 +614,7 @@ OpUpdateResource
 [
 ]
 aResourceUpdates
-Shmem
+RefCountedShmem
 [
 ]
 aSmallShmems

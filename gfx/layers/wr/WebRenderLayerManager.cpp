@@ -1041,11 +1041,6 @@ resourceUpdates
 WrBridge
 (
 )
--
->
-GetShmemAllocator
-(
-)
 )
 ;
 mWebRenderCommandBuilder
@@ -1696,11 +1691,6 @@ IpcResourceUpdateQueue
 resources
 (
 WrBridge
-(
-)
--
->
-GetShmemAllocator
 (
 )
 )
