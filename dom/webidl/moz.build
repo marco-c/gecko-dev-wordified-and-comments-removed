@@ -2705,6 +2705,11 @@ AudioTrackList
 webidl
 '
 '
+AudioWorklet
+.
+webidl
+'
+'
 AudioWorkletGlobalScope
 .
 webidl
