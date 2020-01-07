@@ -24484,6 +24484,7 @@ NS_OK
 }
 class
 nsDisplayText
+final
 :
 public
 nsCharClipDisplayItem
