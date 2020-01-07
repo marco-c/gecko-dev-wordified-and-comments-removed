@@ -5797,6 +5797,11 @@ tabbrowser
 -
 tabs
 "
+tabbrowser
+=
+"
+content
+"
 flex
 =
 "
@@ -6954,11 +6959,6 @@ urlbar
 .
 placeholder2
 ;
-"
-focused
-=
-"
-true
 "
 type
 =
