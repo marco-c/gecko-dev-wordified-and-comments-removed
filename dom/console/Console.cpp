@@ -4877,8 +4877,6 @@ rv
 nsString
 cause
 ;
-rv
-=
 aStackFrame
 -
 >
@@ -4886,12 +4884,6 @@ GetAsyncCause
 (
 aCx
 cause
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
