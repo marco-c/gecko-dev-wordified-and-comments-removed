@@ -7118,11 +7118,7 @@ None
 '
 '
         
-Report
-emulator
-health
-then
-make
+Make
 sure
 that
 the
@@ -7134,12 +7130,6 @@ stopped
 '
 '
 '
-        
-self
-.
-_verify_emulator
-(
-)
         
 self
 .
