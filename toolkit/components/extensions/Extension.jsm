@@ -7833,7 +7833,7 @@ dontSaveStartupData
 return
 ;
 }
-AddonManagerPrivate
+XPIProvider
 .
 setStartupData
 (

@@ -48,8 +48,6 @@ jsm
 var
 {
 HiddenExtensionPage
-browserPaintedPromise
-browserStartupPromise
 promiseExtensionViewLoaded
 }
 =
@@ -443,6 +441,8 @@ async
 >
 {
 await
+ExtensionParent
+.
 browserPaintedPromise
 ;
 extension
@@ -461,6 +461,8 @@ page
 }
 )
 ;
+ExtensionParent
+.
 browserStartupPromise
 .
 then
