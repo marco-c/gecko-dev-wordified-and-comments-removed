@@ -1420,17 +1420,6 @@ data
 .
 windowId
 ;
-aMessage
-.
-targetFrameLoader
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoader
-)
-;
 let
 processMM
 =

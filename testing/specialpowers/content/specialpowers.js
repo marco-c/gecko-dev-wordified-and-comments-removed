@@ -1153,15 +1153,6 @@ frameLoader
 =
 subject
 ;
-frameLoader
-.
-QueryInterface
-(
-Ci
-.
-nsIFrameLoader
-)
-;
 let
 frame
 =
