@@ -4415,11 +4415,7 @@ const
 override
 {
 return
-mRect
-.
-IsEmpty
-(
-)
+false
 ;
 }
 void
