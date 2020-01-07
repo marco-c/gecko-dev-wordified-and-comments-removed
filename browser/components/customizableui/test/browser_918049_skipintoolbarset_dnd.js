@@ -116,6 +116,12 @@ startCustomizing
 (
 )
 ;
+await
+waitForElementShown
+(
+skippedItem
+)
+;
 ok
 (
 CustomizableUI
@@ -135,6 +141,9 @@ simulateItemDrag
 (
 skippedItem
 libraryButton
+"
+start
+"
 )
 ;
 ok
@@ -190,6 +199,9 @@ simulateItemDrag
 (
 libraryButton
 skippedItem
+"
+start
+"
 )
 ;
 let
