@@ -9362,7 +9362,7 @@ nsDOMCSSAttributeDeclaration
 Element
 :
 :
-GetSMILOverrideStyle
+SMILOverrideStyle
 (
 )
 {
