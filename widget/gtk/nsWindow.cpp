@@ -6246,7 +6246,7 @@ nsWindow
 :
 UpdateClientOffset
 "
-GRAPHICS
+OTHER
 )
 ;
 if
