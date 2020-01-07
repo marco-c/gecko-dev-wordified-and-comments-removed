@@ -7928,6 +7928,14 @@ stride
 aDst
 .
 stride
+&
+&
+skip
+=
+=
+aDst
+.
+skip
 )
 {
 memcpy
