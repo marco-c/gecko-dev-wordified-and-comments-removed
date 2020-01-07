@@ -139,13 +139,8 @@ GetExternalImageHandler
 (
 )
 ;
-void
-Update
-(
-)
-;
 bool
-Render
+UpdateAndRender
 (
 )
 ;
