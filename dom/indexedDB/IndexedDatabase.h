@@ -189,6 +189,13 @@ SerializedStructuredCloneReadInfo
 aOther
 )
 ;
+inline
+size_t
+Size
+(
+)
+const
+;
 }
 ;
 }
