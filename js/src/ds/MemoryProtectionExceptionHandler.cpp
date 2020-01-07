@@ -287,6 +287,7 @@ ProtectedRegionTree
 alloc
 (
 4096
+false
 )
 tree
 (
