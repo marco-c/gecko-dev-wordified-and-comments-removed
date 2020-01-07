@@ -1350,6 +1350,11 @@ Scope
 scope
 )
 ;
+bool
+declareFunctionThis
+(
+)
+;
 public
 :
 bool
@@ -1710,6 +1715,12 @@ usedNames
 ;
 private
 :
+using
+Base
+:
+:
+declareFunctionThis
+;
 using
 Base
 :
@@ -3283,11 +3294,6 @@ isForOfp
 ;
 bool
 declareFunctionArgumentsObject
-(
-)
-;
-bool
-declareFunctionThis
 (
 )
 ;
