@@ -399,7 +399,6 @@ int32_t
 GetWidth
 (
 )
-const
 =
 0
 ;
@@ -408,7 +407,6 @@ int32_t
 GetHeight
 (
 )
-const
 =
 0
 ;
