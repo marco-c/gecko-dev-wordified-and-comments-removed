@@ -48,6 +48,15 @@ MediaRawData
 aSample
 )
 ;
+static
+bool
+RevertSample
+(
+MediaRawData
+*
+aSample
+)
+;
 }
 ;
 }
