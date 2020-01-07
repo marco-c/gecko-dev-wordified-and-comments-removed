@@ -230,27 +230,5 @@ format
 format_params
 )
         
-resolve_keyed_by
-(
-task
-'
-scopes
-'
-'
-snap
-scopes
-'
-project
-=
-config
-.
-params
-[
-'
-project
-'
-]
-)
-        
 yield
 task
