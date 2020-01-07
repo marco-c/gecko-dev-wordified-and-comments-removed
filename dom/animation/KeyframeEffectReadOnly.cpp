@@ -4717,7 +4717,15 @@ IsVisibleOrMayHaveVisibleDescendants
 ;
 if
 (
+(
 isVisibilityHidden
+&
+&
+!
+HasVisibilityChange
+(
+)
+)
 |
 |
 frame
