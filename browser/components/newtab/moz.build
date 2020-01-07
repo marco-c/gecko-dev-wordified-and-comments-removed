@@ -154,11 +154,6 @@ NewTabSearchProvider
 jsm
 '
 '
-NewTabURL
-.
-jsm
-'
-'
 NewTabWebChannel
 .
 jsm
