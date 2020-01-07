@@ -270,11 +270,6 @@ NOTATION_NODE
 =
 12
 ;
-readonly
-attribute
-DOMString
-nodeName
-;
 attribute
 DOMString
 nodeValue

@@ -3868,7 +3868,7 @@ attr
 ;
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 domNode
 (
@@ -3883,12 +3883,13 @@ if
 domNode
 )
 {
+tagName
+=
 domNode
 -
 >
-GetNodeName
+NodeName
 (
-tagName
 )
 ;
 }
