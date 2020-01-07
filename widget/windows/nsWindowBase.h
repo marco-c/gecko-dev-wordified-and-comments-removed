@@ -56,12 +56,10 @@ mozilla
 WidgetEventTime
 WidgetEventTime
 ;
-virtual
 HWND
 GetWindowHandle
 (
 )
-final
 {
 return
 static_cast
