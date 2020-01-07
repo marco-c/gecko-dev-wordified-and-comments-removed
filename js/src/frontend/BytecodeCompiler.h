@@ -124,12 +124,12 @@ const
 ReadOnlyCompileOptions
 &
 options
-Vector
-<
+const
 uint8_t
->
-&
+*
 src
+size_t
+len
 )
 ;
 #
