@@ -2783,7 +2783,7 @@ PersistentStoragePermissionRequest
 :
 GetElement
 (
-nsIDOMElement
+Element
 *
 *
 aElement

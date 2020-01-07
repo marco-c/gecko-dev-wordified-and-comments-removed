@@ -98,8 +98,8 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMElement
+webidl
+Element
 ;
 /
 *
@@ -247,7 +247,7 @@ void
 addItemFor
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 boolean

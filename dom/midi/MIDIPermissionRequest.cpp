@@ -356,7 +356,7 @@ MIDIPermissionRequest
 :
 GetElement
 (
-nsIDOMElement
+Element
 *
 *
 aRequestingElement

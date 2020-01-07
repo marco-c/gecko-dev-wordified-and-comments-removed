@@ -2286,7 +2286,7 @@ NotificationPermissionRequest
 :
 GetElement
 (
-nsIDOMElement
+Element
 *
 *
 aElement

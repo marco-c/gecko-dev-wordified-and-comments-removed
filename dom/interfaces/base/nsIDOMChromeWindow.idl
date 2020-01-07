@@ -102,9 +102,6 @@ interface
 nsIBrowserDOMWindow
 ;
 interface
-nsIDOMElement
-;
-interface
 mozIDOMWindowProxy
 ;
 /

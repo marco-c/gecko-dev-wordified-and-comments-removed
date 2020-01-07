@@ -2767,7 +2767,7 @@ nsContentPermissionRequestProxy
 :
 GetElement
 (
-nsIDOMElement
+Element
 *
 *
 aRequestingElement
@@ -2792,17 +2792,14 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIDOMElement
+Element
 >
 elem
 =
-do_QueryInterface
-(
 mParent
 -
 >
 mElement
-)
 ;
 elem
 .

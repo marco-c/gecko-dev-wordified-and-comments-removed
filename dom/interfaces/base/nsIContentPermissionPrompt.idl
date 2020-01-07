@@ -70,10 +70,10 @@ interface
 mozIDOMWindow
 ;
 interface
-nsIDOMElement
-;
-interface
 nsIArray
+;
+webidl
+Element
 ;
 /
 *
@@ -469,7 +469,7 @@ window
 ;
 readonly
 attribute
-nsIDOMElement
+Element
 element
 ;
 readonly

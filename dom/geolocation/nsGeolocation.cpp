@@ -1496,7 +1496,7 @@ nsGeolocationRequest
 :
 GetElement
 (
-nsIDOMElement
+Element
 *
 *
 aRequestingElement

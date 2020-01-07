@@ -119,11 +119,11 @@ nsISupports
 .
 idl
 "
-interface
-nsIDOMElement
-;
 webidl
 FrameLoader
+;
+webidl
+Element
 ;
 /
 *
@@ -296,7 +296,7 @@ reports
 .
 readonly
 attribute
-nsIDOMElement
+Element
 scriptBrowser
 ;
 readonly

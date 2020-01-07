@@ -94,13 +94,6 @@ MPL
 #
 include
 "
-nsIDOMElement
-.
-idl
-"
-#
-include
-"
 nsIDOMXULLabeledControlEl
 .
 idl
