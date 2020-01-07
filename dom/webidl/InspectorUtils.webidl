@@ -590,6 +590,13 @@ DOMString
 input
 )
 ;
+void
+scrollElementIntoView
+(
+Element
+element
+)
+;
 }
 ;
 dictionary
