@@ -28,9 +28,6 @@ Assertions
 h
 "
 struct
-XPTHeader
-;
-struct
 XPTInterfaceDirectoryEntry
 ;
 struct
@@ -54,9 +51,6 @@ XPTTypeDescriptorPrefix
 struct
 XPTHeader
 {
-uint8_t
-mMajorVersion
-;
 uint16_t
 mNumInterfaces
 ;
@@ -65,12 +59,13 @@ XPTInterfaceDirectoryEntry
 *
 mInterfaceDirectory
 ;
+static
+const
+XPTHeader
+kHeader
+;
 }
 ;
-#
-define
-XPT_MAJOR_INCOMPATIBLE_VERSION
-0x02
 struct
 XPTInterfaceDirectoryEntry
 {
