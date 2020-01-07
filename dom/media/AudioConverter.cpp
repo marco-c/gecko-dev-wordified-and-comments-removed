@@ -3233,15 +3233,14 @@ return
 0
 ;
 }
-return
-speex_resampler_get_output_latency
+aFrames
+=
+speex_resampler_get_input_latency
 (
 mResampler
 )
 ;
 }
-else
-{
 return
 (
 uint64_t
@@ -3262,7 +3261,6 @@ Rate
 +
 1
 ;
-}
 }
 size_t
 AudioConverter
