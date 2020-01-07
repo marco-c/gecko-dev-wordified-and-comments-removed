@@ -17,7 +17,7 @@ void
 0
 ]
 .
-flatten
+flat
 (
 )
 [
@@ -41,7 +41,7 @@ void
 ]
 ]
 .
-flatten
+flat
 (
 )
 [
@@ -69,7 +69,7 @@ void
 ]
 ]
 .
-flatten
+flat
 (
 )
 [
@@ -93,7 +93,7 @@ a
 ]
 ]
 .
-flatten
+flat
 (
 1
 )
@@ -117,7 +117,7 @@ a
 ]
 ]
 .
-flatten
+flat
 (
 2
 )

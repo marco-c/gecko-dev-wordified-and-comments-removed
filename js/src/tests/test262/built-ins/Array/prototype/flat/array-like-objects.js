@@ -26,7 +26,7 @@ actual
 [
 ]
 .
-flatten
+flat
 .
 call
 (
@@ -68,7 +68,7 @@ actual
 [
 ]
 .
-flatten
+flat
 .
 call
 (
@@ -111,7 +111,7 @@ actual
 [
 ]
 .
-flatten
+flat
 .
 call
 (

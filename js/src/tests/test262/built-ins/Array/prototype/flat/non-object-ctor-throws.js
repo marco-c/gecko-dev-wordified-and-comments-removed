@@ -21,7 +21,7 @@ function
 {
 a
 .
-flatten
+flat
 (
 )
 ;
@@ -55,7 +55,7 @@ function
 {
 a
 .
-flatten
+flat
 (
 )
 ;
@@ -91,7 +91,7 @@ function
 {
 a
 .
-flatten
+flat
 (
 )
 ;
@@ -125,7 +125,7 @@ function
 {
 a
 .
-flatten
+flat
 (
 )
 ;

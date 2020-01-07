@@ -25,7 +25,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -56,7 +56,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -87,7 +87,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -117,7 +117,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -147,7 +147,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )
@@ -178,7 +178,7 @@ actual
 =
 a
 .
-flatten
+flat
 (
 depthNum
 )

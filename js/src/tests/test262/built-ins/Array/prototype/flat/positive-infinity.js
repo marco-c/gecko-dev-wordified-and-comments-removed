@@ -19,7 +19,7 @@ compareArray
 (
 a
 .
-flatten
+flat
 (
 Number
 .

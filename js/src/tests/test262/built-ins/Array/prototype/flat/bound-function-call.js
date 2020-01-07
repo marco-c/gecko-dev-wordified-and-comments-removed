@@ -16,7 +16,7 @@ actual
 [
 ]
 .
-flatten
+flat
 .
 bind
 (
@@ -36,7 +36,7 @@ actual
 ]
 '
 bound
-flatten
+flat
 '
 )
 ;
