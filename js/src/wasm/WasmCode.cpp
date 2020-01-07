@@ -4149,7 +4149,7 @@ if
 fun
 -
 >
-hasWasmFuncIndex
+isAsmJSNative
 (
 )
 )
@@ -4157,7 +4157,7 @@ return
 fun
 -
 >
-wasmFuncIndex
+asmJSFuncIndex
 (
 )
 ;
