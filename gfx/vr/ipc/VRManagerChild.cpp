@@ -137,6 +137,13 @@ SyncObject
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 namespace
 {
 const
