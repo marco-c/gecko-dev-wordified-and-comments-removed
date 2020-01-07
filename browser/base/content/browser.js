@@ -3739,7 +3739,7 @@ spaceAlert
 .
 over5GB
 .
-message
+message1
 "
 ;
 let
@@ -3787,7 +3787,7 @@ spaceAlert
 .
 over5GB
 .
-messageWin
+messageWin1
 "
 ;
 prefButtonLabelStringID
@@ -3866,7 +3866,9 @@ win
 openPreferences
 (
 "
-panePrivacy
+privacy
+-
+sitedata
 "
 {
 origin
