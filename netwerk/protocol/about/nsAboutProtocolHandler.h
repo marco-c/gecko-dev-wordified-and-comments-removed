@@ -401,6 +401,12 @@ nsNestedAboutURI
 ;
 }
 ;
+friend
+BaseURIMutator
+<
+nsNestedAboutURI
+>
+;
 }
 ;
 }

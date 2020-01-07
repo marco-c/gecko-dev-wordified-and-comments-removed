@@ -396,7 +396,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -427,27 +427,11 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
 SetHostPort
-(
-const
-nsACString
-&
-aHost
-)
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-}
-NS_IMETHODIMP
-NullPrincipalURI
-:
-:
-SetHostAndPort
 (
 const
 nsACString
@@ -474,7 +458,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -509,7 +493,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -546,7 +530,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -583,7 +567,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -599,7 +583,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -640,7 +624,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -696,7 +680,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -732,7 +716,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -844,7 +828,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :
@@ -875,7 +859,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 NullPrincipalURI
 :
 :

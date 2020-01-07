@@ -501,6 +501,12 @@ return
 NS_OK
 ;
 }
+friend
+BaseURIMutator
+<
+SubstitutingURL
+>
+;
 }
 ;
 }

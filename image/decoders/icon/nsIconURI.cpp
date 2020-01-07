@@ -1431,7 +1431,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1462,7 +1462,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1493,7 +1493,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1524,7 +1524,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1555,27 +1555,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
 SetHostPort
-(
-const
-nsACString
-&
-aHostPort
-)
-{
-return
-NS_ERROR_FAILURE
-;
-}
-NS_IMETHODIMP
-nsMozIconURI
-:
-:
-SetHostAndPort
 (
 const
 nsACString
@@ -1602,7 +1586,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1633,7 +1617,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1668,7 +1652,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1705,7 +1689,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1742,7 +1726,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1758,7 +1742,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
@@ -1799,7 +1783,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMozIconURI
 :
 :
