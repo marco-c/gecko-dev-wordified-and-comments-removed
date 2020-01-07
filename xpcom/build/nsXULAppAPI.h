@@ -412,6 +412,7 @@ GeckoProcessType_Content
 GeckoProcessType_IPDLUnitTest
 GeckoProcessType_GMPlugin
 GeckoProcessType_GPU
+GeckoProcessType_PDFium
 GeckoProcessType_End
 GeckoProcessType_Invalid
 =
@@ -445,6 +446,9 @@ geckomediaplugin
 "
 "
 gpu
+"
+"
+pdfium
 "
 }
 ;
