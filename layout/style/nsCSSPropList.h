@@ -154,7 +154,7 @@ animation
 delay
 animation_delay
 AnimationDelay
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_TIME
@@ -168,7 +168,7 @@ animation
 direction
 animation_direction
 AnimationDirection
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -182,7 +182,7 @@ animation
 duration
 animation_duration
 AnimationDuration
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_TIME
@@ -200,7 +200,7 @@ fill
 mode
 animation_fill_mode
 AnimationFillMode
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -216,7 +216,7 @@ iteration
 count
 animation_iteration_count
 AnimationIterationCount
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -232,7 +232,7 @@ animation
 name
 animation_name
 AnimationName
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_NONE
@@ -252,7 +252,7 @@ play
 state
 animation_play_state
 AnimationPlayState
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -268,7 +268,7 @@ timing
 function
 animation_timing_function
 AnimationTimingFunction
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -325,7 +325,7 @@ background
 attachment
 background_attachment
 BackgroundAttachment
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -341,7 +341,7 @@ blend
 mode
 background_blend_mode
 BackgroundBlendMode
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 layout
 .
@@ -366,7 +366,7 @@ background
 clip
 background_clip
 BackgroundClip
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -394,7 +394,7 @@ background
 image
 background_image
 BackgroundImage
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_IMAGE
@@ -408,7 +408,7 @@ background
 origin
 background_origin
 BackgroundOrigin
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -436,8 +436,6 @@ x
 background_position_x
 BackgroundPositionX
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -454,8 +452,6 @@ y
 background_position_y
 BackgroundPositionY
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -470,8 +466,6 @@ repeat
 background_repeat
 BackgroundRepeat
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_KEYWORD
@@ -486,8 +480,6 @@ size
 background_size
 BackgroundSize
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -1465,8 +1457,6 @@ shadow
 box_shadow
 BoxShadow
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_COLOR
@@ -1856,8 +1846,6 @@ ContextProperties
 )
 CSS_PROPERTY_PARSE_FUNCTION
 |
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
-|
 CSS_PROPERTY_INTERNAL
 "
 "
@@ -1927,8 +1915,6 @@ cursor
 cursor
 Cursor
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -2532,8 +2518,6 @@ settings
 font_variation_settings
 FontVariationSettings
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 layout
 .
@@ -3414,7 +3398,7 @@ mask
 clip
 mask_clip
 MaskClip
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -3428,7 +3412,7 @@ mask
 composite
 mask_composite
 MaskComposite
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -3442,7 +3426,7 @@ mask
 image
 mask_image
 MaskImage
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_IMAGE
@@ -3456,7 +3440,7 @@ mask
 mode
 mask_mode
 MaskMode
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -3470,7 +3454,7 @@ mask
 origin
 mask_origin
 MaskOrigin
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -3498,8 +3482,6 @@ x
 mask_position_x
 MaskPositionX
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -3516,8 +3498,6 @@ y
 mask_position_y
 MaskPositionY
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -3532,8 +3512,6 @@ repeat
 mask_repeat
 MaskRepeat
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_KEYWORD
@@ -3548,8 +3526,6 @@ size
 mask_size
 MaskSize
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -4882,8 +4858,6 @@ coordinate
 scroll_snap_coordinate
 ScrollSnapCoordinate
 CSS_PROPERTY_VALUE_PARSER_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 layout
 .
@@ -5211,8 +5185,6 @@ dasharray
 stroke_dasharray
 StrokeDasharray
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -5649,8 +5621,6 @@ shadow
 text_shadow
 TextShadow
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_COLOR
@@ -5950,7 +5920,7 @@ transition
 delay
 transition_delay
 TransitionDelay
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_TIME
@@ -5964,7 +5934,7 @@ transition
 duration
 transition_duration
 TransitionDuration
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_TIME
@@ -5981,8 +5951,6 @@ property
 transition_property
 TransitionProperty
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_IDENTIFIER
@@ -6002,7 +5970,7 @@ timing
 function
 transition_timing_function
 TransitionTimingFunction
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+0
 "
 "
 VARIANT_KEYWORD
@@ -6211,8 +6179,6 @@ change
 will_change
 WillChange
 CSS_PROPERTY_PARSE_FUNCTION
-|
-CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 0
@@ -6256,8 +6222,6 @@ CSS_PROP_DOMPROP_PREFIXED
 WindowOpacity
 )
 CSS_PROPERTY_INTERNAL
-|
-0
 "
 "
 VARIANT_HN
