@@ -1275,6 +1275,12 @@ finish
 "
 )
 {
+worker
+.
+terminate
+(
+)
+;
 resolve
 (
 )
@@ -1290,6 +1296,12 @@ Unknown
 message
 type
 "
+)
+;
+worker
+.
+terminate
+(
 )
 ;
 resolve
