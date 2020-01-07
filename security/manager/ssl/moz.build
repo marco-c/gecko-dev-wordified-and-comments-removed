@@ -586,11 +586,6 @@ nsNSSModule
 cpp
 '
 '
-nsNSSShutDown
-.
-cpp
-'
-'
 nsNSSVersion
 .
 cpp
