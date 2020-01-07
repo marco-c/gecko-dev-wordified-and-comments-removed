@@ -439,6 +439,12 @@ using
 namespace
 widget
 ;
+const
+char16_t
+kNBSP
+=
+160
+;
 static
 bool
 IsLinkTag
