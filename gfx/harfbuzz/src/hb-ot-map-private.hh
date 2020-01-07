@@ -296,7 +296,6 @@ features
 .
 bsearch
 (
-&
 feature_tag
 )
 ;
@@ -345,7 +344,6 @@ features
 .
 bsearch
 (
-&
 feature_tag
 )
 ;
@@ -378,7 +376,6 @@ features
 .
 bsearch
 (
-&
 feature_tag
 )
 ;
@@ -415,7 +412,6 @@ features
 .
 bsearch
 (
-&
 feature_tag
 )
 ;
@@ -455,7 +451,6 @@ features
 .
 bsearch
 (
-&
 feature_tag
 )
 ;

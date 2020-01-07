@@ -1,9 +1,9 @@
 #
 ifndef
-HB_OT_CBDT_TABLE_HH
+HB_OT_COLOR_CBDT_TABLE_HH
 #
 define
-HB_OT_CBDT_TABLE_HH
+HB_OT_COLOR_CBDT_TABLE_HH
 #
 include
 "
@@ -1492,11 +1492,9 @@ face
 {
 upem
 =
-face
--
->
-get_upem
+hb_face_get_upem
 (
+face
 )
 ;
 cblc_blob

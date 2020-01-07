@@ -60,5 +60,17 @@ hb_buffer_t
 buffer
 )
 ;
+HB_INTERNAL
+void
+hb_aat_layout_position
+(
+hb_font_t
+*
+font
+hb_buffer_t
+*
+buffer
+)
+;
 #
 endif

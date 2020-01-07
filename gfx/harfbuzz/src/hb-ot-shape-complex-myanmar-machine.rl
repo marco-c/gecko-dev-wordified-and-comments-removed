@@ -382,7 +382,12 @@ As
 ;
 main_vowel_group
 =
+(
 VPre
+.
+VS
+?
+)
 *
 VAbv
 *

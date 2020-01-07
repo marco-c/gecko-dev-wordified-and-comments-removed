@@ -41,6 +41,10 @@ d
 struct
 head
 {
+friend
+struct
+OffsetTable
+;
 static
 const
 hb_tag_t

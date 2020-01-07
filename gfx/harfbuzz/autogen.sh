@@ -45,6 +45,7 @@ olddir
 pwd
 cd
 srcdir
+#
 echo
 -
 n
@@ -56,11 +57,13 @@ ragel
 .
 .
 "
+#
 which
 ragel
 |
 |
 {
+#
 echo
 "
 You
@@ -85,8 +88,10 @@ org
 ragel
 /
 "
+#
 exit
 1
+#
 }
 echo
 -

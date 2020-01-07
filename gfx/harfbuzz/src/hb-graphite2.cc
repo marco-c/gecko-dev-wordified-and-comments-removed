@@ -1760,13 +1760,6 @@ cluster
 info
 -
 >
-mask
-=
-HB_GLYPH_FLAG_UNSAFE_TO_BREAK
-;
-info
--
->
 var1
 .
 i32

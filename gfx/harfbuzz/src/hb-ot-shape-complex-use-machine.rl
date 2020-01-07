@@ -683,7 +683,13 @@ GB
 VS
 ?
 consonant_modifiers
+ZWJ
+?
+.
 H
+.
+ZWJ
+?
 ;
 standard_cluster
 =

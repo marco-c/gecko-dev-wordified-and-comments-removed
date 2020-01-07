@@ -634,7 +634,7 @@ unsigned
 int
 global_bit_shift
 =
-_hb_popcount32
+_hb_popcount
 (
 HB_GLYPH_FLAG_DEFINED
 )

@@ -752,7 +752,7 @@ void
 hb_buffer_get_glyph_positions
 (
 buffer
-NULL
+nullptr
 )
 ;
 while
@@ -811,7 +811,7 @@ char
 *
 tok
 =
-NULL
+nullptr
 ;
 int
 cs

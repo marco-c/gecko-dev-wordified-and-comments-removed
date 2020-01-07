@@ -1117,7 +1117,6 @@ base
 ]
 )
 ;
-unsigned
 int
 num_lig_components
 =
@@ -1186,14 +1185,9 @@ component_extents
 =
 base_extents
 ;
-unsigned
 int
 last_lig_component
 =
-(
-unsigned
-int
-)
 -
 1
 ;
@@ -1267,7 +1261,6 @@ i
 ]
 )
 ;
-unsigned
 int
 this_lig_component
 =
@@ -2367,6 +2360,9 @@ i
 .
 x_advance
 =
+(
+int64_t
+)
 font
 -
 >

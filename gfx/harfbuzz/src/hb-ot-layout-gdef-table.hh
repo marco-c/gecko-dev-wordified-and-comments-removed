@@ -306,7 +306,7 @@ protected
 HBUINT16
 caretValueFormat
 ;
-HBINT16
+FWORD
 coordinate
 ;
 public
@@ -531,7 +531,7 @@ protected
 HBUINT16
 caretValueFormat
 ;
-HBINT16
+FWORD
 coordinate
 ;
 OffsetTo

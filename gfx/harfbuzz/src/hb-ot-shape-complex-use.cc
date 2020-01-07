@@ -1169,7 +1169,7 @@ use_category
 (
 )
 =
-hb_use_get_categories
+hb_use_get_category
 (
 info
 [
@@ -2528,7 +2528,7 @@ use_category
 (
 )
 =
-hb_use_get_categories
+hb_use_get_category
 (
 0x25CC
 )

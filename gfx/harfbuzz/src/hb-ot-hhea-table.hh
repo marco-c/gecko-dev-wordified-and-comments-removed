@@ -56,6 +56,11 @@ e
 a
 '
 )
+template
+<
+typename
+T
+>
 struct
 _hea
 {
@@ -165,6 +170,9 @@ struct
 hhea
 :
 _hea
+<
+hhea
+>
 {
 static
 const
@@ -179,6 +187,9 @@ struct
 vhea
 :
 _hea
+<
+vhea
+>
 {
 static
 const

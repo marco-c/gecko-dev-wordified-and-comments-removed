@@ -5052,13 +5052,6 @@ var2
 .
 i32
 ;
-info
--
->
-mask
-=
-HB_GLYPH_FLAG_UNSAFE_TO_BREAK
-;
 }
 if
 (

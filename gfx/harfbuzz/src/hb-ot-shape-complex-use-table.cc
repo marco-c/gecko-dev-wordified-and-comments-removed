@@ -5792,7 +5792,7 @@ O
 }
 ;
 USE_TABLE_ELEMENT_TYPE
-hb_use_get_categories
+hb_use_get_category
 (
 hb_codepoint_t
 u
