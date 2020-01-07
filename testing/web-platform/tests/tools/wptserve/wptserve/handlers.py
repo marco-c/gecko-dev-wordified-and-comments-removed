@@ -1964,6 +1964,12 @@ response
 )
         
 except
+HTTPException
+:
+            
+raise
+        
+except
 Exception
 :
             
