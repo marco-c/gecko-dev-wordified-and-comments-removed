@@ -263,12 +263,6 @@ oauth
 txt
 '
                 
-'
-periodic_clobber
-'
-:
-168
-                
 "
 tools_repo
 "
@@ -483,12 +477,6 @@ clone_by_revision
 '
 :
 False
-                
-'
-use_clobberer
-'
-:
-True
                 
 '
 virtualenv_modules

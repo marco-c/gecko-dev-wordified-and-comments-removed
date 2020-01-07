@@ -24,12 +24,6 @@ _devedition
 '
     
 '
-force_clobber
-'
-:
-True
-    
-'
 stage_platform
 '
 :
