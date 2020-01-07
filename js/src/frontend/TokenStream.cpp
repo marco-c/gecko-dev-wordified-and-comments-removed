@@ -3110,6 +3110,7 @@ strictMode
 unsigned
 errorNumber
 va_list
+*
 args
 )
 {
@@ -3163,6 +3164,7 @@ notes
 )
 JSREPORT_ERROR
 errorNumber
+*
 args
 )
 ;
@@ -3185,6 +3187,7 @@ JSREPORT_WARNING
 |
 JSREPORT_STRICT
 errorNumber
+*
 args
 )
 ;
@@ -3807,6 +3810,7 @@ strictMode
 (
 )
 errorNumber
+&
 args
 )
 ;
@@ -4007,6 +4011,7 @@ offset
 unsigned
 errorNumber
 va_list
+*
 args
 )
 {
@@ -4053,6 +4058,7 @@ JSREPORT_STRICT
 |
 JSREPORT_WARNING
 errorNumber
+*
 args
 )
 ;

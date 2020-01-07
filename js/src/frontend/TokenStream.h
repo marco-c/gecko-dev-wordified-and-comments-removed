@@ -2461,6 +2461,7 @@ strictMode
 unsigned
 errorNumber
 va_list
+*
 args
 )
 ;
@@ -2477,6 +2478,7 @@ offset
 unsigned
 errorNumber
 va_list
+*
 args
 )
 ;
