@@ -1245,11 +1245,17 @@ ai
 new
 AddrInfo
 (
+nsCString
+(
 aCanonHost
+)
 prai
 disableIPv4
 filterNameCollision
+nsCString
+(
 canonName
+)
 )
 )
 ;
