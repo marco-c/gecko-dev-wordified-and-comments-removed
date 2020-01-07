@@ -5021,10 +5021,6 @@ return
 ;
 }
 return
-JSON
-.
-stringify
-(
 result
 [
 0
@@ -5033,7 +5029,6 @@ result
 getInt32
 (
 0
-)
 )
 ;
 }

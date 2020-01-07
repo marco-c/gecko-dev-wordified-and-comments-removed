@@ -912,7 +912,7 @@ getSchemaVersion
 ;
 Assert
 .
-equal
+strictEqual
 (
 version
 0
@@ -936,7 +936,7 @@ getSchemaVersion
 ;
 Assert
 .
-equal
+strictEqual
 (
 version
 14
@@ -1044,7 +1044,7 @@ getSchemaVersion
 ;
 Assert
 .
-equal
+strictEqual
 (
 version
 14
