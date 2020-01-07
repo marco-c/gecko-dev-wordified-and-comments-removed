@@ -99,7 +99,7 @@ bool
 ;
 exports
 .
-deviceListState
+loadableState
 =
 createEnum
 (
@@ -234,7 +234,7 @@ keys
 (
 exports
 .
-deviceListState
+loadableState
 )
 )
 }

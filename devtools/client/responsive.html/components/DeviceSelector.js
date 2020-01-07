@@ -411,7 +411,7 @@ state
 =
 Types
 .
-deviceListState
+loadableState
 .
 LOADED
 )
@@ -517,7 +517,7 @@ state
 =
 Types
 .
-deviceListState
+loadableState
 .
 LOADING
 |
@@ -527,7 +527,7 @@ state
 =
 Types
 .
-deviceListState
+loadableState
 .
 INITIALIZED
 )
@@ -572,7 +572,7 @@ state
 =
 Types
 .
-deviceListState
+loadableState
 .
 ERROR
 )
@@ -638,7 +638,7 @@ state
 =
 Types
 .
-deviceListState
+loadableState
 .
 LOADED
 )
