@@ -64,11 +64,8 @@ aInner
 ThrottledEventQueue
 (
 )
-;
-void
-MaybeStartShutdown
-(
-)
+=
+default
 ;
 public
 :
