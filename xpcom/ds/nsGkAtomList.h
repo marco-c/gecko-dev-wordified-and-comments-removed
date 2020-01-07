@@ -12121,6 +12121,13 @@ rendering
 )
 GK_ATOM
 (
+simpleScopeChain
+"
+simpleScopeChain
+"
+)
+GK_ATOM
+(
 skewX
 "
 skewX

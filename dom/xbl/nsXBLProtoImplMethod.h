@@ -544,6 +544,9 @@ Execute
 nsIContent
 *
 aBoundElement
+const
+nsXBLPrototypeBinding
+&
 )
 ;
 virtual

@@ -196,6 +196,11 @@ date
 -
 input
 "
+simpleScopeChain
+=
+"
+true
+"
 extends
 =
 "
@@ -2861,6 +2866,11 @@ id
 time
 -
 input
+"
+simpleScopeChain
+=
+"
+true
 "
 extends
 =
@@ -7659,6 +7669,11 @@ datetime
 input
 -
 base
+"
+simpleScopeChain
+=
+"
+true
 "
 >
 <

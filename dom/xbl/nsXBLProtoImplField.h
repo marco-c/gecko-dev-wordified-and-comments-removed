@@ -135,9 +135,10 @@ JSObject
 *
 >
 aBoundNode
-nsIURI
-*
-aBindingDocURI
+const
+nsXBLPrototypeBinding
+&
+aProtoBinding
 bool
 *
 aDidInstall

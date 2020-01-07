@@ -1214,6 +1214,10 @@ Execute
 nsIContent
 *
 aBoundElement
+const
+nsXBLPrototypeBinding
+&
+aProtoBinding
 )
 {
 MOZ_ASSERT
@@ -1397,7 +1401,7 @@ if
 nsJSUtils
 :
 :
-GetScopeChainForElement
+GetScopeChainForXBL
 (
 cx
 aBoundElement
@@ -1406,6 +1410,7 @@ aBoundElement
 AsElement
 (
 )
+aProtoBinding
 scopeChain
 )
 )
