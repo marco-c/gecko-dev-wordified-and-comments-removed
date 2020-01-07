@@ -186,8 +186,6 @@ CSS
 string
 and
 the
-min
--
 width
 #
 is
@@ -217,13 +215,11 @@ translate
 .
 search
 -
-field
+input
 =
 .
 style
 =
-min
--
 width
 :
 15

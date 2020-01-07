@@ -313,7 +313,7 @@ Identifier
 '
 search
 -
-field
+input
 '
 )
                 
@@ -343,8 +343,6 @@ FTL
 TextElement
 (
 '
-min
--
 width
 :
 '
