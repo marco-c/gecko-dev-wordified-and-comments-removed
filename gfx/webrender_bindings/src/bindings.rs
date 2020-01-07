@@ -1482,7 +1482,7 @@ offset
 0
 allow_mipmaps
 :
-true
+false
 }
 }
 }
