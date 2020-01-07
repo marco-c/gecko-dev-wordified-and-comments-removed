@@ -1555,6 +1555,9 @@ return
 mDocGroup
 ;
 }
+#
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 NS_IMETHODIMP
 SchedulerGroup
 :
@@ -1617,6 +1620,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 NS_IMETHODIMP
 SchedulerGroup
 :

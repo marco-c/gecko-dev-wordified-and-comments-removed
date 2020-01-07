@@ -334,6 +334,9 @@ DocGroup
 )
 const
 ;
+#
+ifdef
+MOZ_COLLECTING_RUNNABLE_TELEMETRY
 NS_IMETHOD
 GetName
 (
@@ -343,6 +346,8 @@ aName
 )
 override
 ;
+#
+endif
 bool
 IsBackground
 (
