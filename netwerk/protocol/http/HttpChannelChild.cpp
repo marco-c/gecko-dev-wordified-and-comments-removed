@@ -4566,6 +4566,12 @@ CleanupBackgroundChannel
 ;
 if
 (
+NS_SUCCEEDED
+(
+channelStatus
+)
+&
+&
 !
 mPreferredCachedAltDataType
 .
