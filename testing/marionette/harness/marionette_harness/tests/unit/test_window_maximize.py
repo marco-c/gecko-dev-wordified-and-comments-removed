@@ -73,9 +73,11 @@ self
 .
 marionette
 .
-set_window_size
+set_window_rect
 (
             
+width
+=
 self
 .
 max
@@ -86,6 +88,8 @@ width
 ]
 -
 100
+height
+=
 self
 .
 max
@@ -104,7 +108,7 @@ self
 .
 marionette
 .
-window_size
+window_rect
         
 self
 .
@@ -163,9 +167,11 @@ self
 .
 marionette
 .
-set_window_size
+set_window_rect
 (
             
+width
+=
 self
 .
 original_size
@@ -174,6 +180,8 @@ original_size
 width
 "
 ]
+height
+=
 self
 .
 original_size
