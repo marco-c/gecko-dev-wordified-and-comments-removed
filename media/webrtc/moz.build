@@ -1620,7 +1620,7 @@ trace
 pc
 coverage
 for
-libfuzzer
+LibFuzzer
 CFLAGS
 +
 =
