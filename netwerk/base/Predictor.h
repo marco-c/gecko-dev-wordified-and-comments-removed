@@ -1157,9 +1157,6 @@ int32_t
 mPreresolveMinConfidence
 ;
 int32_t
-mRedirectLikelyConfidence
-;
-int32_t
 mPrefetchForceValidFor
 ;
 int32_t
