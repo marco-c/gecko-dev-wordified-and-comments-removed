@@ -4778,6 +4778,9 @@ mBufSize
 (
 aBufSize
 )
+mZs
+(
+)
 #
 ifdef
 MOZ_JAR_BROTLI
