@@ -1190,7 +1190,7 @@ aDoc
 )
 ;
 void
-StopControllingADocument
+StopControllingRegistration
 (
 ServiceWorkerRegistrationInfo
 *
