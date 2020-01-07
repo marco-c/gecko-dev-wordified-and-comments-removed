@@ -1964,17 +1964,6 @@ mozilla
 .
 org
 '
-            
-'
-indexedDB
--
-test
-mozilla
-.
-org
-.
-xpi
-'
         
 ]
 )
