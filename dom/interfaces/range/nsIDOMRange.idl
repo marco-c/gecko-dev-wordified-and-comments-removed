@@ -232,11 +232,6 @@ nsIDOMNode
 newParent
 )
 ;
-nsIDOMRange
-cloneRange
-(
-)
-;
 DOMString
 toString
 (
