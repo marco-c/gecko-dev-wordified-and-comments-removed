@@ -173,16 +173,6 @@ Older
 >
 <
 !
-ENTITY
-aboutTelemetry
-.
-payloadChoiceHeader
-"
-Payload
-"
->
-<
-!
 -
 -
 LOCALIZATION
