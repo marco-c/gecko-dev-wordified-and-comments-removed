@@ -2180,7 +2180,7 @@ helperThread
 )
 )
 return
-refillFreeListFromActiveCooperatingThread
+refillFreeListFromMainThread
 (
 cx
 thingKind
@@ -2199,7 +2199,7 @@ TenuredCell
 GCRuntime
 :
 :
-refillFreeListFromActiveCooperatingThread
+refillFreeListFromMainThread
 (
 JSContext
 *
@@ -2349,7 +2349,7 @@ rt
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

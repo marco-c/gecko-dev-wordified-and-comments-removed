@@ -5853,7 +5853,7 @@ rt
 code
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

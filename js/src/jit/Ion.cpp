@@ -2188,7 +2188,7 @@ script
 )
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 )
@@ -2285,7 +2285,7 @@ script
 )
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 )

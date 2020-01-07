@@ -876,7 +876,7 @@ isAtomsZone
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -1023,7 +1023,7 @@ kind
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -

@@ -768,7 +768,7 @@ storeBuffer
 shape
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -

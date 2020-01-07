@@ -138,7 +138,7 @@ registerAllocator_
 =
 RegisterAllocator_Backtracking
 ;
-inlineMaxBytecodePerCallSiteActiveCooperatingThread_
+inlineMaxBytecodePerCallSiteMainThread_
 =
 550
 ;

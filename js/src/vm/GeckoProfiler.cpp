@@ -1087,7 +1087,7 @@ rt
 script
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

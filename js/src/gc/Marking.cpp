@@ -19917,7 +19917,7 @@ asCell
 )
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

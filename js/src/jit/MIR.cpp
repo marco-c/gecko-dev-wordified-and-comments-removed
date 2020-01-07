@@ -5574,7 +5574,7 @@ zone
 )
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

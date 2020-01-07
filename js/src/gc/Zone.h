@@ -649,7 +649,7 @@ return
 nullptr
 ;
 return
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -807,7 +807,7 @@ js
 :
 CurrentThreadCanAccessRuntime
 (
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 )
@@ -930,7 +930,7 @@ return
 needsIncrementalBarrier
 |
 |
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -2864,7 +2864,7 @@ cell
 &
 &
 !
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -3066,7 +3066,7 @@ js
 :
 CurrentThreadCanAccessRuntime
 (
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 )
@@ -3387,7 +3387,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

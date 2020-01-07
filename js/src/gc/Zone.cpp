@@ -1321,7 +1321,7 @@ usedByHelperThread
 ?
 0
 :
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -1521,7 +1521,7 @@ JSRuntime
 *
 rt
 =
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -1919,7 +1919,7 @@ comp
 >
 destroy
 (
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -

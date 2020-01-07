@@ -23485,7 +23485,7 @@ rt
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

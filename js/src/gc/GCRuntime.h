@@ -2747,7 +2747,7 @@ thingKind
 static
 TenuredCell
 *
-refillFreeListFromActiveCooperatingThread
+refillFreeListFromMainThread
 (
 JSContext
 *

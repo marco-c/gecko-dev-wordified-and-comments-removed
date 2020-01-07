@@ -120,7 +120,7 @@ FreeOp
 )
 ;
 bool
-onActiveCooperatingThread
+onMainThread
 (
 )
 const

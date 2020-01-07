@@ -1361,7 +1361,7 @@ MOZ_ASSERT
 fop
 -
 >
-onActiveCooperatingThread
+onMainThread
 (
 )
 )
@@ -1491,7 +1491,7 @@ nursery
 iter
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -3043,7 +3043,7 @@ rt
 key
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -3557,7 +3557,7 @@ MOZ_ASSERT
 fop
 -
 >
-onActiveCooperatingThread
+onMainThread
 (
 )
 )
@@ -6067,7 +6067,7 @@ MOZ_ASSERT
 fop
 -
 >
-onActiveCooperatingThread
+onMainThread
 (
 )
 )
@@ -6197,7 +6197,7 @@ nursery
 iter
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
@@ -7387,7 +7387,7 @@ MOZ_ASSERT
 fop
 -
 >
-onActiveCooperatingThread
+onMainThread
 (
 )
 )

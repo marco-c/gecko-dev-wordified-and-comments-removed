@@ -6503,7 +6503,7 @@ MOZ_ASSERT
 obj
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 =

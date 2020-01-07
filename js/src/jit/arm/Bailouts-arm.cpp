@@ -438,7 +438,7 @@ compartment
 )
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

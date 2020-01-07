@@ -72,7 +72,7 @@ GenericPrinter
 ;
 extern
 bool
-RuntimeFromActiveCooperatingThreadIsHeapMajorCollecting
+RuntimeFromMainThreadIsHeapMajorCollecting
 (
 JS
 :
@@ -197,7 +197,7 @@ const
 inline
 JSRuntime
 *
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 const
@@ -933,7 +933,7 @@ JSRuntime
 Cell
 :
 :
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 const
@@ -1741,7 +1741,7 @@ needsIncrementalBarrier
 MOZ_ASSERT
 (
 !
-RuntimeFromActiveCooperatingThreadIsHeapMajorCollecting
+RuntimeFromMainThreadIsHeapMajorCollecting
 (
 shadowZone
 )
@@ -1804,7 +1804,7 @@ runtimeFromAnyThread
 if
 (
 !
-RuntimeFromActiveCooperatingThreadIsHeapMajorCollecting
+RuntimeFromMainThreadIsHeapMajorCollecting
 (
 shadowZone
 )
@@ -1923,7 +1923,7 @@ needsIncrementalBarrier
 MOZ_ASSERT
 (
 !
-RuntimeFromActiveCooperatingThreadIsHeapMajorCollecting
+RuntimeFromMainThreadIsHeapMajorCollecting
 (
 shadowZone
 )

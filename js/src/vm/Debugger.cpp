@@ -16099,7 +16099,7 @@ rt
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;

@@ -958,7 +958,7 @@ return
 script
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -976,7 +976,7 @@ return
 comp
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -994,7 +994,7 @@ return
 zone
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -2101,7 +2101,7 @@ rt
 comp
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 ;
@@ -6927,7 +6927,7 @@ js
 GCParallelTask
 :
 :
-runFromActiveCooperatingThread
+runFromMainThread
 (
 JSRuntime
 *

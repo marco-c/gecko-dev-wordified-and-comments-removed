@@ -1554,7 +1554,7 @@ MOZ_ASSERT
 obj
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 =
@@ -1564,7 +1564,7 @@ zone
 )
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 )
@@ -1661,7 +1661,7 @@ zone
 )
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 &

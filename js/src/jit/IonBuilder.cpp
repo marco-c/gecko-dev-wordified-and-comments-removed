@@ -46888,7 +46888,7 @@ isTenured
 tarr
 -
 >
-runtimeFromActiveCooperatingThread
+runtimeFromMainThread
 (
 )
 -
