@@ -535,11 +535,8 @@ _result
 )
 ;
 nsresult
-GetAnnotationNamesTArray
+GetItemAnnotationNamesTArray
 (
-nsIURI
-*
-aURI
 int64_t
 aItemId
 nsTArray
