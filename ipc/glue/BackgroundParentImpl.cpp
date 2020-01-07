@@ -1385,6 +1385,17 @@ bool
 aIsPrivate
 )
 {
+dom
+:
+:
+StorageActivityService
+:
+:
+SendActivity
+(
+aPrincipalInfo
+)
+;
 nsTArray
 <
 PBackgroundParent
