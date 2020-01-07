@@ -4746,6 +4746,8 @@ IMFYCbCrImage
 (
 buffer
 twoDBuffer
+mKnowsCompositor
+mImageContainer
 )
 ;
 VideoData
