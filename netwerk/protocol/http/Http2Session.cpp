@@ -2304,7 +2304,6 @@ aHttpTransaction
 >
 OnActivated
 (
-true
 )
 ;
 if

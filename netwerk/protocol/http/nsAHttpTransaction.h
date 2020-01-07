@@ -109,8 +109,6 @@ virtual
 void
 OnActivated
 (
-bool
-h2
 )
 {
 }
