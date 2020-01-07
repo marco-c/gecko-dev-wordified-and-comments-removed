@@ -86,6 +86,16 @@ UNIFIED_TELEMETRY_VERSION
 =
 4
 ;
+public
+static
+final
+String
+OS_NAME
+=
+"
+Android
+"
+;
 private
 final
 String

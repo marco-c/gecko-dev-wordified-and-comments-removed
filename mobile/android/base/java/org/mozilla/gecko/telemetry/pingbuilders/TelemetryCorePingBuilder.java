@@ -326,16 +326,6 @@ private
 static
 final
 String
-OS_VALUE
-=
-"
-Android
-"
-;
-private
-static
-final
-String
 DEFAULT_BROWSER
 =
 "
@@ -578,7 +568,9 @@ payload
 put
 (
 OS_ATTR
-OS_VALUE
+TelemetryPingBuilder
+.
+OS_NAME
 )
 ;
 final
