@@ -36748,7 +36748,7 @@ nsPrintfCString
 (
 "
 [
-sc
+cs
 =
 %
 p
