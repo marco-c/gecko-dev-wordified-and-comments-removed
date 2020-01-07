@@ -476,7 +476,7 @@ self
 .
 webdriver
 .
-close_window
+close
 (
 )
             

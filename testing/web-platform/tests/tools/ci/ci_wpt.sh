@@ -86,7 +86,7 @@ origin
 *
 hosts_fixup
 install_chrome
-dev
+unstable
 pip
 install
 -
