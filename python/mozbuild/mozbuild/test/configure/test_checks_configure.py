@@ -6244,7 +6244,7 @@ Run
 |
 mach
 artifact
-install
+toolchain
 -
 -
 from
@@ -6253,6 +6253,15 @@ build
 proguard
 -
 jar
+&
+&
+mv
+proguard
+~
+/
+.
+mozbuild
+/
 |
 or
 add
