@@ -372,16 +372,7 @@ isRTL
 =
 document
 .
-defaultView
-.
-getComputedStyle
-(
-document
-.
-documentElement
-)
-.
-direction
+dir
 =
 =
 =
