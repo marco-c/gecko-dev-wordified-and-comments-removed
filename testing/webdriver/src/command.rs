@@ -2583,12 +2583,8 @@ request
 as
 JSON
 :
-\
-"
 {
 }
-\
-"
 "
 body
 )
