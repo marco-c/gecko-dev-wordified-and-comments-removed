@@ -194,11 +194,6 @@ main
 js
 '
 '
-primitive
-.
-js
-'
-'
 service
 -
 worker

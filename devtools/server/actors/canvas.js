@@ -83,6 +83,10 @@ devtools
 /
 server
 /
+actors
+/
+canvas
+/
 primitive
 "
 )
