@@ -119,6 +119,12 @@ GetPrintingScale
 )
 final
 ;
+gfxPoint
+GetPrintingTranslate
+(
+)
+final
+;
 NS_IMETHOD
 BeginDocument
 (

@@ -111,6 +111,13 @@ DEVMODEW
 aOutDevMode
 )
 ;
+void
+InitUnwriteableMargin
+(
+HDC
+aHdc
+)
+;
 nsString
 mDeviceName
 ;

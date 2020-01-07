@@ -105,7 +105,7 @@ width
 GetDeviceCaps
 (
 aDC
-HORZRES
+PHYSICALWIDTH
 )
 *
 POINTS_PER_INCH_FLOAT
@@ -122,7 +122,7 @@ height
 GetDeviceCaps
 (
 aDC
-VERTRES
+PHYSICALHEIGHT
 )
 *
 POINTS_PER_INCH_FLOAT
