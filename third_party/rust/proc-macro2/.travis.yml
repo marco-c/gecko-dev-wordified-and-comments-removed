@@ -71,16 +71,6 @@ build
 features
 nightly
 -
-cargo
-build
--
--
-no
--
-default
--
-features
--
 RUSTFLAGS
 =
 '
