@@ -5354,6 +5354,7 @@ dom
 :
 :
 FlattenedChildIterator
+&
 nsIContent
 *
 aTargetContent
