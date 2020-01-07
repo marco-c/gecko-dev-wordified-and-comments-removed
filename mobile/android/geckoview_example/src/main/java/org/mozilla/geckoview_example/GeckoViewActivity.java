@@ -396,6 +396,16 @@ useContentProcessHint
 (
 useMultiprocess
 )
+.
+nativeCrashReportingEnabled
+(
+true
+)
+.
+javaCrashReportingEnabled
+(
+true
+)
 ;
 sGeckoRuntime
 =
