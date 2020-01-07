@@ -368,6 +368,8 @@ Components
 \
 .
 utils
+|
+ChromeUtils
 )
 \
 .
