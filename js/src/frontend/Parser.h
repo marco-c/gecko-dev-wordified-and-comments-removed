@@ -3704,7 +3704,7 @@ hint
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 )
 ;
 PropertyName
@@ -4073,7 +4073,7 @@ hint
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 )
 ;
 Node

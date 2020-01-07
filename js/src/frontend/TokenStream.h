@@ -566,7 +566,7 @@ type
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 ;
 u
@@ -592,7 +592,7 @@ type
 TokenKind
 :
 :
-TOK_STRING
+String
 |
 |
 type
@@ -601,7 +601,7 @@ type
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 |
 |
 type
@@ -610,7 +610,7 @@ type
 TokenKind
 :
 :
-TOK_NO_SUBS_TEMPLATE
+NoSubsTemplate
 )
 ;
 u
@@ -635,7 +635,7 @@ type
 TokenKind
 :
 :
-TOK_REGEXP
+RegExp
 )
 ;
 MOZ_ASSERT
@@ -674,7 +674,7 @@ type
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 ;
 u
@@ -709,7 +709,7 @@ type
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 ;
 return
@@ -741,7 +741,7 @@ type
 TokenKind
 :
 :
-TOK_STRING
+String
 |
 |
 type
@@ -750,7 +750,7 @@ type
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 |
 |
 type
@@ -759,7 +759,7 @@ type
 TokenKind
 :
 :
-TOK_NO_SUBS_TEMPLATE
+NoSubsTemplate
 )
 ;
 return
@@ -782,7 +782,7 @@ type
 TokenKind
 :
 :
-TOK_REGEXP
+RegExp
 )
 ;
 MOZ_ASSERT
@@ -821,7 +821,7 @@ type
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 ;
 return
@@ -846,7 +846,7 @@ type
 TokenKind
 :
 :
-TOK_NUMBER
+Number
 )
 ;
 return
@@ -1324,7 +1324,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 )
 return
@@ -1372,7 +1372,7 @@ isCurrentTokenType
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 )
 {
@@ -1446,7 +1446,7 @@ type
 TokenKind
 :
 :
-TOK_NAME
+Name
 )
 return
 nextToken
@@ -1708,7 +1708,7 @@ type
 TokenKind
 :
 :
-TOK_DIV
+Div
 "
 next
 token
@@ -1763,7 +1763,7 @@ type
 TokenKind
 :
 :
-TOK_DIV
+Div
 "
 next
 token
@@ -1802,7 +1802,7 @@ type
 TokenKind
 :
 :
-TOK_DIV
+Div
 &
 &
 next
@@ -1813,7 +1813,7 @@ type
 TokenKind
 :
 :
-TOK_REGEXP
+RegExp
 "
 next
 token
@@ -2467,7 +2467,7 @@ size_t
 TokenKind
 :
 :
-TOK_LIMIT
+Limit
 )
 ]
 ;
@@ -3603,7 +3603,7 @@ type
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 |
 |
 anyChars
@@ -3618,7 +3618,7 @@ type
 TokenKind
 :
 :
-TOK_NO_SUBS_TEMPLATE
+NoSubsTemplate
 )
 ;
 const
@@ -3662,7 +3662,7 @@ type
 TokenKind
 :
 :
-TOK_TEMPLATE_HEAD
+TemplateHead
 )
 {
 end
@@ -4016,7 +4016,7 @@ tt
 TokenKind
 :
 :
-TOK_EOL
+Eol
 )
 ;
 verifyConsistentModifier
@@ -4467,7 +4467,7 @@ type
 TokenKind
 :
 :
-TOK_EOL
+Eol
 ;
 return
 true

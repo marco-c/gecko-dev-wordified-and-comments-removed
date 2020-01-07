@@ -14,7 +14,7 @@ range
 \
 macro
 (
-EOF
+Eof
 "
 end
 of
@@ -36,7 +36,7 @@ peekTokenSameLine
 \
 macro
 (
-EOL
+Eol
 "
 line
 terminator
@@ -46,7 +46,7 @@ terminator
 \
 macro
 (
-SEMI
+Semi
 "
 '
 ;
@@ -56,7 +56,7 @@ SEMI
 \
 macro
 (
-COMMA
+Comma
 "
 '
 '
@@ -65,7 +65,7 @@ COMMA
 \
 macro
 (
-HOOK
+Hook
 "
 '
 ?
@@ -80,7 +80,7 @@ conditional
 \
 macro
 (
-COLON
+Colon
 "
 '
 :
@@ -95,7 +95,7 @@ conditional
 \
 macro
 (
-INC
+Inc
 "
 '
 +
@@ -111,7 +111,7 @@ increment
 \
 macro
 (
-DEC
+Dec
 "
 '
 -
@@ -127,7 +127,7 @@ decrement
 \
 macro
 (
-DOT
+Dot
 "
 '
 .
@@ -143,7 +143,7 @@ operator
 \
 macro
 (
-TRIPLEDOT
+TripleDot
 "
 '
 .
@@ -164,7 +164,7 @@ operator
 \
 macro
 (
-LB
+Lb
 "
 '
 [
@@ -174,7 +174,7 @@ LB
 \
 macro
 (
-RB
+Rb
 "
 '
 ]
@@ -184,7 +184,7 @@ RB
 \
 macro
 (
-LC
+Lc
 "
 '
 {
@@ -194,7 +194,7 @@ LC
 \
 macro
 (
-RC
+Rc
 "
 '
 }
@@ -204,7 +204,7 @@ RC
 \
 macro
 (
-LP
+Lp
 "
 '
 (
@@ -214,7 +214,7 @@ LP
 \
 macro
 (
-RP
+Rp
 "
 '
 )
@@ -224,7 +224,7 @@ RP
 \
 macro
 (
-NAME
+Name
 "
 identifier
 "
@@ -232,7 +232,7 @@ identifier
 \
 macro
 (
-NUMBER
+Number
 "
 numeric
 literal
@@ -241,7 +241,7 @@ literal
 \
 macro
 (
-STRING
+String
 "
 string
 literal
@@ -262,7 +262,7 @@ substitutions
 \
 macro
 (
-TEMPLATE_HEAD
+TemplateHead
 "
 '
 {
@@ -281,7 +281,7 @@ substitutions
 \
 macro
 (
-NO_SUBS_TEMPLATE
+NoSubsTemplate
 "
 template
 literal
@@ -291,7 +291,7 @@ literal
 \
 macro
 (
-REGEXP
+RegExp
 "
 regular
 expression
@@ -301,7 +301,7 @@ literal
 \
 macro
 (
-TRUE
+True
 "
 boolean
 literal
@@ -313,13 +313,13 @@ true
 \
 range
 (
-RESERVED_WORD_LITERAL_FIRST
-TRUE
+ReservedWordLiteralFirst
+True
 )
 \
 macro
 (
-FALSE
+False
 "
 boolean
 literal
@@ -331,7 +331,7 @@ false
 \
 macro
 (
-NULL
+Null
 "
 null
 literal
@@ -340,13 +340,13 @@ literal
 \
 range
 (
-RESERVED_WORD_LITERAL_LAST
-NULL
+ReservedWordLiteralLast
+Null
 )
 \
 macro
 (
-THIS
+This
 "
 keyword
 '
@@ -357,13 +357,13 @@ this
 \
 range
 (
-KEYWORD_FIRST
-THIS
+KeywordFirst
+This
 )
 \
 macro
 (
-FUNCTION
+Function
 "
 keyword
 '
@@ -374,7 +374,7 @@ function
 \
 macro
 (
-IF
+If
 "
 keyword
 '
@@ -385,7 +385,7 @@ if
 \
 macro
 (
-ELSE
+Else
 "
 keyword
 '
@@ -396,7 +396,7 @@ else
 \
 macro
 (
-SWITCH
+Switch
 "
 keyword
 '
@@ -407,7 +407,7 @@ switch
 \
 macro
 (
-CASE
+Case
 "
 keyword
 '
@@ -418,7 +418,7 @@ case
 \
 macro
 (
-DEFAULT
+Default
 "
 keyword
 '
@@ -429,7 +429,7 @@ default
 \
 macro
 (
-WHILE
+While
 "
 keyword
 '
@@ -440,7 +440,7 @@ while
 \
 macro
 (
-DO
+Do
 "
 keyword
 '
@@ -451,7 +451,7 @@ do
 \
 macro
 (
-FOR
+For
 "
 keyword
 '
@@ -462,7 +462,7 @@ for
 \
 macro
 (
-BREAK
+Break
 "
 keyword
 '
@@ -473,7 +473,7 @@ break
 \
 macro
 (
-CONTINUE
+Continue
 "
 keyword
 '
@@ -484,7 +484,7 @@ continue
 \
 macro
 (
-VAR
+Var
 "
 keyword
 '
@@ -495,7 +495,7 @@ var
 \
 macro
 (
-CONST
+Const
 "
 keyword
 '
@@ -506,7 +506,7 @@ const
 \
 macro
 (
-WITH
+With
 "
 keyword
 '
@@ -517,7 +517,7 @@ with
 \
 macro
 (
-RETURN
+Return
 "
 keyword
 '
@@ -528,7 +528,7 @@ return
 \
 macro
 (
-NEW
+New
 "
 keyword
 '
@@ -539,7 +539,7 @@ new
 \
 macro
 (
-DELETE
+Delete
 "
 keyword
 '
@@ -550,7 +550,7 @@ delete
 \
 macro
 (
-TRY
+Try
 "
 keyword
 '
@@ -561,7 +561,7 @@ try
 \
 macro
 (
-CATCH
+Catch
 "
 keyword
 '
@@ -572,7 +572,7 @@ catch
 \
 macro
 (
-FINALLY
+Finally
 "
 keyword
 '
@@ -583,7 +583,7 @@ finally
 \
 macro
 (
-THROW
+Throw
 "
 keyword
 '
@@ -594,7 +594,7 @@ throw
 \
 macro
 (
-DEBUGGER
+Debugger
 "
 keyword
 '
@@ -605,7 +605,7 @@ debugger
 \
 macro
 (
-EXPORT
+Export
 "
 keyword
 '
@@ -616,7 +616,7 @@ export
 \
 macro
 (
-IMPORT
+Import
 "
 keyword
 '
@@ -627,7 +627,7 @@ import
 \
 macro
 (
-CLASS
+Class
 "
 keyword
 '
@@ -638,7 +638,7 @@ class
 \
 macro
 (
-EXTENDS
+Extends
 "
 keyword
 '
@@ -649,7 +649,7 @@ extends
 \
 macro
 (
-SUPER
+Super
 "
 keyword
 '
@@ -660,8 +660,8 @@ super
 \
 range
 (
-KEYWORD_LAST
-SUPER
+KeywordLast
+Super
 )
 \
 \
@@ -674,7 +674,7 @@ keywords
 \
 macro
 (
-AS
+As
 "
 '
 as
@@ -684,13 +684,13 @@ as
 \
 range
 (
-CONTEXTUAL_KEYWORD_FIRST
-AS
+ContextualKeywordFirst
+As
 )
 \
 macro
 (
-ASYNC
+Async
 "
 '
 async
@@ -700,7 +700,7 @@ async
 \
 macro
 (
-AWAIT
+Await
 "
 '
 await
@@ -710,7 +710,7 @@ await
 \
 macro
 (
-EACH
+Each
 "
 '
 each
@@ -720,7 +720,7 @@ each
 \
 macro
 (
-FROM
+From
 "
 '
 from
@@ -730,7 +730,7 @@ from
 \
 macro
 (
-GET
+Get
 "
 '
 get
@@ -740,7 +740,7 @@ get
 \
 macro
 (
-LET
+Let
 "
 '
 let
@@ -750,7 +750,7 @@ let
 \
 macro
 (
-OF
+Of
 "
 '
 of
@@ -760,7 +760,7 @@ of
 \
 macro
 (
-SET
+Set
 "
 '
 set
@@ -770,7 +770,7 @@ set
 \
 macro
 (
-STATIC
+Static
 "
 '
 static
@@ -780,7 +780,7 @@ static
 \
 macro
 (
-TARGET
+Target
 "
 '
 target
@@ -790,7 +790,7 @@ target
 \
 macro
 (
-YIELD
+Yield
 "
 '
 yield
@@ -800,8 +800,8 @@ yield
 \
 range
 (
-CONTEXTUAL_KEYWORD_LAST
-YIELD
+ContextualKeywordLast
+Yield
 )
 \
 \
@@ -815,7 +815,7 @@ words
 \
 macro
 (
-ENUM
+Enum
 "
 reserved
 word
@@ -827,14 +827,14 @@ enum
 \
 range
 (
-FUTURE_RESERVED_KEYWORD_FIRST
-ENUM
+FutureReservedKeywordFirst
+Enum
 )
 \
 range
 (
-FUTURE_RESERVED_KEYWORD_LAST
-ENUM
+FutureReservedKeywordLast
+Enum
 )
 \
 \
@@ -850,7 +850,7 @@ mode
 \
 macro
 (
-IMPLEMENTS
+Implements
 "
 reserved
 word
@@ -862,13 +862,13 @@ implements
 \
 range
 (
-STRICT_RESERVED_KEYWORD_FIRST
-IMPLEMENTS
+StrictReservedKeywordFirst
+Implements
 )
 \
 macro
 (
-INTERFACE
+Interface
 "
 reserved
 word
@@ -880,7 +880,7 @@ interface
 \
 macro
 (
-PACKAGE
+Package
 "
 reserved
 word
@@ -892,7 +892,7 @@ package
 \
 macro
 (
-PRIVATE
+Private
 "
 reserved
 word
@@ -904,7 +904,7 @@ private
 \
 macro
 (
-PROTECTED
+Protected
 "
 reserved
 word
@@ -916,7 +916,7 @@ protected
 \
 macro
 (
-PUBLIC
+Public
 "
 reserved
 word
@@ -928,8 +928,8 @@ public
 \
 range
 (
-STRICT_RESERVED_KEYWORD_LAST
-PUBLIC
+StrictReservedKeywordLast
+Public
 )
 \
 \
@@ -964,9 +964,9 @@ testing
 Binary
 operators
 tokens
-TOK_OR
+Or
 thru
-TOK_POW
+Pow
 .
 These
 must
@@ -997,7 +997,7 @@ h
 \
 macro
 (
-PIPELINE
+Pipeline
 "
 '
 |
@@ -1008,13 +1008,13 @@ PIPELINE
 \
 range
 (
-BINOP_FIRST
-PIPELINE
+BinOpFirst
+Pipeline
 )
 \
 macro
 (
-OR
+Or
 "
 '
 |
@@ -1031,7 +1031,7 @@ or
 \
 macro
 (
-AND
+And
 "
 '
 &
@@ -1048,7 +1048,7 @@ and
 \
 macro
 (
-BITOR
+BitOr
 "
 '
 |
@@ -1065,7 +1065,7 @@ or
 \
 macro
 (
-BITXOR
+BitXor
 "
 '
 ^
@@ -1082,7 +1082,7 @@ xor
 \
 macro
 (
-BITAND
+BitAnd
 "
 '
 &
@@ -1111,7 +1111,7 @@ TokenKindIsEquality
 \
 macro
 (
-STRICTEQ
+StrictEq
 "
 '
 =
@@ -1123,13 +1123,13 @@ STRICTEQ
 \
 range
 (
-EQUALITY_START
-STRICTEQ
+EqualityStart
+StrictEq
 )
 \
 macro
 (
-EQ
+Eq
 "
 '
 =
@@ -1140,7 +1140,7 @@ EQ
 \
 macro
 (
-STRICTNE
+StrictNe
 "
 '
 !
@@ -1152,7 +1152,7 @@ STRICTNE
 \
 macro
 (
-NE
+Ne
 "
 '
 !
@@ -1163,8 +1163,8 @@ NE
 \
 range
 (
-EQUALITY_LAST
-NE
+EqualityLast
+Ne
 )
 \
 \
@@ -1180,7 +1180,7 @@ TokenKindIsRelational
 \
 macro
 (
-LT
+Lt
 "
 '
 <
@@ -1190,13 +1190,13 @@ LT
 \
 range
 (
-RELOP_START
-LT
+RelOpStart
+Lt
 )
 \
 macro
 (
-LE
+Le
 "
 '
 <
@@ -1207,7 +1207,7 @@ LE
 \
 macro
 (
-GT
+Gt
 "
 '
 >
@@ -1217,7 +1217,7 @@ GT
 \
 macro
 (
-GE
+Ge
 "
 '
 >
@@ -1228,14 +1228,14 @@ GE
 \
 range
 (
-RELOP_LAST
-GE
+RelOpLast
+Ge
 )
 \
 \
 macro
 (
-INSTANCEOF
+InstanceOf
 "
 keyword
 '
@@ -1246,13 +1246,13 @@ instanceof
 \
 range
 (
-KEYWORD_BINOP_FIRST
-INSTANCEOF
+KeywordBinOpFirst
+InstanceOf
 )
 \
 macro
 (
-IN
+In
 "
 keyword
 '
@@ -1263,8 +1263,8 @@ in
 \
 range
 (
-KEYWORD_BINOP_LAST
-IN
+KeywordBinOpLast
+In
 )
 \
 \
@@ -1280,7 +1280,7 @@ TokenKindIsShift
 \
 macro
 (
-LSH
+Lsh
 "
 '
 <
@@ -1291,13 +1291,13 @@ LSH
 \
 range
 (
-SHIFTOP_START
-LSH
+ShiftOpStart
+Lsh
 )
 \
 macro
 (
-RSH
+Rsh
 "
 '
 >
@@ -1308,7 +1308,7 @@ RSH
 \
 macro
 (
-URSH
+Ursh
 "
 '
 >
@@ -1320,14 +1320,14 @@ URSH
 \
 range
 (
-SHIFTOP_LAST
-URSH
+ShiftOpLast
+Ursh
 )
 \
 \
 macro
 (
-ADD
+Add
 "
 '
 +
@@ -1337,7 +1337,7 @@ ADD
 \
 macro
 (
-SUB
+Sub
 "
 '
 -
@@ -1347,7 +1347,7 @@ SUB
 \
 macro
 (
-MUL
+Mul
 "
 '
 *
@@ -1357,7 +1357,7 @@ MUL
 \
 macro
 (
-DIV
+Div
 "
 '
 /
@@ -1367,7 +1367,7 @@ DIV
 \
 macro
 (
-MOD
+Mod
 "
 '
 %
@@ -1377,7 +1377,7 @@ MOD
 \
 macro
 (
-POW
+Pow
 "
 '
 *
@@ -1388,8 +1388,8 @@ POW
 \
 range
 (
-BINOP_LAST
-POW
+BinOpLast
+Pow
 )
 \
 \
@@ -1404,7 +1404,7 @@ tokens
 \
 macro
 (
-TYPEOF
+TypeOf
 "
 keyword
 '
@@ -1415,13 +1415,13 @@ typeof
 \
 range
 (
-KEYWORD_UNOP_FIRST
-TYPEOF
+KeywordUnOpFirst
+TypeOf
 )
 \
 macro
 (
-VOID
+Void
 "
 keyword
 '
@@ -1432,13 +1432,13 @@ void
 \
 range
 (
-KEYWORD_UNOP_LAST
-VOID
+KeywordUnOpLast
+Void
 )
 \
 macro
 (
-NOT
+Not
 "
 '
 !
@@ -1448,7 +1448,7 @@ NOT
 \
 macro
 (
-BITNOT
+BitNot
 "
 '
 ~
@@ -1459,7 +1459,7 @@ BITNOT
 \
 macro
 (
-ARROW
+Arrow
 "
 '
 =
@@ -1486,7 +1486,7 @@ TokenKindIsAssignment
 \
 macro
 (
-ASSIGN
+Assign
 "
 '
 =
@@ -1496,13 +1496,13 @@ ASSIGN
 \
 range
 (
-ASSIGNMENT_START
-ASSIGN
+AssignmentStart
+Assign
 )
 \
 macro
 (
-ADDASSIGN
+AddAssign
 "
 '
 +
@@ -1513,7 +1513,7 @@ ADDASSIGN
 \
 macro
 (
-SUBASSIGN
+SubAssign
 "
 '
 -
@@ -1524,7 +1524,7 @@ SUBASSIGN
 \
 macro
 (
-BITORASSIGN
+BitOrAssign
 "
 '
 |
@@ -1535,7 +1535,7 @@ BITORASSIGN
 \
 macro
 (
-BITXORASSIGN
+BitXorAssign
 "
 '
 ^
@@ -1546,7 +1546,7 @@ BITXORASSIGN
 \
 macro
 (
-BITANDASSIGN
+BitAndAssign
 "
 '
 &
@@ -1557,7 +1557,7 @@ BITANDASSIGN
 \
 macro
 (
-LSHASSIGN
+LshAssign
 "
 '
 <
@@ -1569,7 +1569,7 @@ LSHASSIGN
 \
 macro
 (
-RSHASSIGN
+RshAssign
 "
 '
 >
@@ -1581,7 +1581,7 @@ RSHASSIGN
 \
 macro
 (
-URSHASSIGN
+UrshAssign
 "
 '
 >
@@ -1594,7 +1594,7 @@ URSHASSIGN
 \
 macro
 (
-MULASSIGN
+MulAssign
 "
 '
 *
@@ -1605,7 +1605,7 @@ MULASSIGN
 \
 macro
 (
-DIVASSIGN
+DivAssign
 "
 '
 /
@@ -1616,7 +1616,7 @@ DIVASSIGN
 \
 macro
 (
-MODASSIGN
+ModAssign
 "
 '
 %
@@ -1627,7 +1627,7 @@ MODASSIGN
 \
 macro
 (
-POWASSIGN
+PowAssign
 "
 '
 *
@@ -1639,8 +1639,8 @@ POWASSIGN
 \
 range
 (
-ASSIGNMENT_LAST
-POWASSIGN
+AssignmentLast
+PowAssign
 )
 #
 define
@@ -1678,9 +1678,6 @@ EMIT_ENUM
 name
 desc
 )
-TOK_
-#
-#
 name
 #
 define
@@ -1689,14 +1686,8 @@ EMIT_ENUM_RANGE
 name
 value
 )
-TOK_
-#
-#
 name
 =
-TOK_
-#
-#
 value
 FOR_EACH_TOKEN_KIND_WITH_RANGE
 (
@@ -1709,7 +1700,7 @@ EMIT_ENUM
 #
 undef
 EMIT_ENUM_RANGE
-TOK_LIMIT
+Limit
 }
 ;
 inline
@@ -1724,7 +1715,7 @@ return
 TokenKind
 :
 :
-TOK_BINOP_FIRST
+BinOpFirst
 <
 =
 tt
@@ -1736,7 +1727,7 @@ tt
 TokenKind
 :
 :
-TOK_BINOP_LAST
+BinOpLast
 ;
 }
 inline
@@ -1751,7 +1742,7 @@ return
 TokenKind
 :
 :
-TOK_EQUALITY_START
+EqualityStart
 <
 =
 tt
@@ -1763,7 +1754,7 @@ tt
 TokenKind
 :
 :
-TOK_EQUALITY_LAST
+EqualityLast
 ;
 }
 inline
@@ -1778,7 +1769,7 @@ return
 TokenKind
 :
 :
-TOK_RELOP_START
+RelOpStart
 <
 =
 tt
@@ -1790,7 +1781,7 @@ tt
 TokenKind
 :
 :
-TOK_RELOP_LAST
+RelOpLast
 ;
 }
 inline
@@ -1805,7 +1796,7 @@ return
 TokenKind
 :
 :
-TOK_SHIFTOP_START
+ShiftOpStart
 <
 =
 tt
@@ -1817,7 +1808,7 @@ tt
 TokenKind
 :
 :
-TOK_SHIFTOP_LAST
+ShiftOpLast
 ;
 }
 inline
@@ -1832,7 +1823,7 @@ return
 TokenKind
 :
 :
-TOK_ASSIGNMENT_START
+AssignmentStart
 <
 =
 tt
@@ -1844,7 +1835,7 @@ tt
 TokenKind
 :
 :
-TOK_ASSIGNMENT_LAST
+AssignmentLast
 ;
 }
 inline
@@ -1861,7 +1852,7 @@ return
 TokenKind
 :
 :
-TOK_KEYWORD_FIRST
+KeywordFirst
 <
 =
 tt
@@ -1873,7 +1864,7 @@ tt
 TokenKind
 :
 :
-TOK_KEYWORD_LAST
+KeywordLast
 )
 |
 |
@@ -1881,7 +1872,7 @@ TOK_KEYWORD_LAST
 TokenKind
 :
 :
-TOK_KEYWORD_BINOP_FIRST
+KeywordBinOpFirst
 <
 =
 tt
@@ -1893,7 +1884,7 @@ tt
 TokenKind
 :
 :
-TOK_KEYWORD_BINOP_LAST
+KeywordBinOpLast
 )
 |
 |
@@ -1901,7 +1892,7 @@ TOK_KEYWORD_BINOP_LAST
 TokenKind
 :
 :
-TOK_KEYWORD_UNOP_FIRST
+KeywordUnOpFirst
 <
 =
 tt
@@ -1913,7 +1904,7 @@ tt
 TokenKind
 :
 :
-TOK_KEYWORD_UNOP_LAST
+KeywordUnOpLast
 )
 ;
 }
@@ -1930,7 +1921,7 @@ return
 TokenKind
 :
 :
-TOK_CONTEXTUAL_KEYWORD_FIRST
+ContextualKeywordFirst
 <
 =
 tt
@@ -1942,7 +1933,7 @@ tt
 TokenKind
 :
 :
-TOK_CONTEXTUAL_KEYWORD_LAST
+ContextualKeywordLast
 ;
 }
 inline
@@ -1958,7 +1949,7 @@ return
 TokenKind
 :
 :
-TOK_FUTURE_RESERVED_KEYWORD_FIRST
+FutureReservedKeywordFirst
 <
 =
 tt
@@ -1970,7 +1961,7 @@ tt
 TokenKind
 :
 :
-TOK_FUTURE_RESERVED_KEYWORD_LAST
+FutureReservedKeywordLast
 ;
 }
 inline
@@ -1986,7 +1977,7 @@ return
 TokenKind
 :
 :
-TOK_STRICT_RESERVED_KEYWORD_FIRST
+StrictReservedKeywordFirst
 <
 =
 tt
@@ -1998,7 +1989,7 @@ tt
 TokenKind
 :
 :
-TOK_STRICT_RESERVED_KEYWORD_LAST
+StrictReservedKeywordLast
 ;
 }
 inline
@@ -2014,7 +2005,7 @@ return
 TokenKind
 :
 :
-TOK_RESERVED_WORD_LITERAL_FIRST
+ReservedWordLiteralFirst
 <
 =
 tt
@@ -2026,7 +2017,7 @@ tt
 TokenKind
 :
 :
-TOK_RESERVED_WORD_LITERAL_LAST
+ReservedWordLiteralLast
 ;
 }
 inline
@@ -2073,7 +2064,7 @@ tt
 TokenKind
 :
 :
-TOK_NAME
+Name
 |
 |
 TokenKindIsContextualKeyword
