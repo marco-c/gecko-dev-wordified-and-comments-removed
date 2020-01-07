@@ -70,10 +70,12 @@ chars
 length
 )
 ]
+;
 }
 return
 result
 ;
 }
+;
 null
 ;

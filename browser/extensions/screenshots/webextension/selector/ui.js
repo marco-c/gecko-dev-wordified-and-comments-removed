@@ -122,6 +122,7 @@ return
 false
 ;
 }
+;
 const
 substitutedCss
 =
@@ -567,6 +568,7 @@ window
 downloadOnly
 ;
 }
+;
 function
 renderDownloadNotice
 (
@@ -1939,6 +1941,7 @@ this
 .
 document
 )
+;
 this
 .
 document
@@ -1982,6 +1985,9 @@ class
 preview
 -
 overlay
+precision
+-
+cursor
 "
 >
 <
@@ -5097,6 +5103,7 @@ delay
 )
 ;
 }
+;
 }
 remove
 (

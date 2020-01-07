@@ -392,6 +392,7 @@ shot
 creatingUrl
 }
 )
+;
 }
 )
 .

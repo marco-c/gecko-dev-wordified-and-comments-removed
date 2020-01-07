@@ -155,11 +155,6 @@ debug
 console
 .
 debug
-.
-bind
-(
-console
-)
 ;
 }
 if
@@ -176,11 +171,6 @@ info
 console
 .
 info
-.
-bind
-(
-console
-)
 ;
 }
 if
@@ -197,11 +187,6 @@ warn
 console
 .
 warn
-.
-bind
-(
-console
-)
 ;
 }
 if
@@ -218,11 +203,6 @@ error
 console
 .
 error
-.
-bind
-(
-console
-)
 ;
 }
 return

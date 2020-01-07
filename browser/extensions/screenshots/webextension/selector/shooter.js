@@ -1335,6 +1335,7 @@ deactivate
 }
 )
 )
+;
 }
 ;
 let
@@ -1402,6 +1403,7 @@ null
 ;
 }
 }
+;
 const
 shotPromise
 =

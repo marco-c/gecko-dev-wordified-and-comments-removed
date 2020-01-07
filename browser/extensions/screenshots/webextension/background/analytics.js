@@ -150,6 +150,7 @@ sendTime
 event
 .
 eventTime
+;
 log
 .
 info

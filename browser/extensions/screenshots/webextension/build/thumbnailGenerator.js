@@ -19,6 +19,7 @@ maxResizeScaleFactor
 0
 .
 5
+;
 const
 maxThumbnailWidth
 =
@@ -193,6 +194,7 @@ thumbnailImageHeight
 scaledX
 scaledY
 }
+;
 }
 function
 createThumbnail
@@ -512,6 +514,7 @@ png
 "
 )
 )
+;
 }
 return
 ;
@@ -535,6 +538,7 @@ toDataURL
 )
 ;
 }
+;
 thumbnailImage
 .
 src
