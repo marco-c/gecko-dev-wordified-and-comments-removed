@@ -60,17 +60,6 @@ include
 "
 mozilla
 /
-dom
-/
-WebAuthnManagerBase
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ErrorResult
 .
 h
@@ -122,7 +111,7 @@ namespace
 dom
 {
 class
-WebAuthnTransactionChild
+U2FTransactionChild
 ;
 class
 U2FRegisterCallback
@@ -203,8 +192,6 @@ final
 :
 public
 nsIDOMEventListener
-public
-WebAuthnManagerBase
 public
 nsWrapperCache
 {
@@ -339,7 +326,7 @@ aRv
 )
 ;
 void
-FinishMakeCredential
+FinishRegister
 (
 const
 uint64_t
@@ -352,10 +339,9 @@ uint8_t
 &
 aRegBuffer
 )
-override
 ;
 void
-FinishGetAssertion
+FinishSign
 (
 const
 uint64_t
@@ -374,7 +360,6 @@ uint8_t
 &
 aSigBuffer
 )
-override
 ;
 void
 RequestAborted
@@ -388,13 +373,11 @@ nsresult
 &
 aError
 )
-override
 ;
 void
 ActorDestroyed
 (
 )
-override
 ;
 private
 :
@@ -470,7 +453,7 @@ mSignCallback
 ;
 RefPtr
 <
-WebAuthnTransactionChild
+U2FTransactionChild
 >
 mChild
 ;

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_WebAuthnTransactionParent_h
+mozilla_dom_U2FTransactionParent_h
 #
 define
-mozilla_dom_WebAuthnTransactionParent_h
+mozilla_dom_U2FTransactionParent_h
 #
 include
 "
@@ -22,7 +22,7 @@ namespace
 dom
 {
 class
-WebAuthnTransactionParent
+U2FTransactionParent
 final
 :
 public
@@ -32,10 +32,10 @@ public
 :
 NS_INLINE_DECL_REFCOUNTING
 (
-WebAuthnTransactionParent
+U2FTransactionParent
 )
 ;
-WebAuthnTransactionParent
+U2FTransactionParent
 (
 )
 =
@@ -112,7 +112,7 @@ override
 private
 :
 ~
-WebAuthnTransactionParent
+U2FTransactionParent
 (
 )
 =

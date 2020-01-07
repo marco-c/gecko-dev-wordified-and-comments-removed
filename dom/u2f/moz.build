@@ -140,6 +140,16 @@ U2F
 .
 cpp
 '
+'
+U2FTransactionChild
+.
+cpp
+'
+'
+U2FTransactionParent
+.
+cpp
+'
 ]
 include
 (

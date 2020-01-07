@@ -1,11 +1,7 @@
 #
 include
 "
-mozilla
-/
-dom
-/
-WebAuthnTransactionParent
+U2FTransactionParent
 .
 h
 "
@@ -44,7 +40,7 @@ ipc
 :
 :
 IPCResult
-WebAuthnTransactionParent
+U2FTransactionParent
 :
 :
 RecvRequestRegister
@@ -97,7 +93,7 @@ ipc
 :
 :
 IPCResult
-WebAuthnTransactionParent
+U2FTransactionParent
 :
 :
 RecvRequestSign
@@ -150,7 +146,7 @@ ipc
 :
 :
 IPCResult
-WebAuthnTransactionParent
+U2FTransactionParent
 :
 :
 RecvRequestCancel
@@ -192,7 +188,7 @@ IPC_OK
 ;
 }
 void
-WebAuthnTransactionParent
+U2FTransactionParent
 :
 :
 ActorDestroy
