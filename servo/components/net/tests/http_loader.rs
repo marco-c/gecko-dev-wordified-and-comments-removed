@@ -3250,7 +3250,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 e
@@ -3504,7 +3506,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 e
