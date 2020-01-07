@@ -1095,6 +1095,14 @@ mInSignalSlotList
 return
 ;
 }
+if
+(
+gXPCOMThreadsShutDown
+)
+{
+return
+;
+}
 DocGroup
 *
 docGroup

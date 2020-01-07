@@ -321,14 +321,6 @@ endif
 #
 endif
 extern
-bool
-gXPCOMShuttingDown
-;
-extern
-bool
-gXPCOMThreadsShutDown
-;
-extern
 char16_t
 *
 gGREBinPath
