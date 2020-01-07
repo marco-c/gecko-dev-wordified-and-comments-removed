@@ -937,6 +937,12 @@ lib_dirs
 [
 android_libcpp_lib_dir
 ]
+if
+(
+!
+build_with_mozilla
+)
+{
 #
 The
 libc
@@ -1415,6 +1421,7 @@ shared
 textrel
 "
 ]
+}
 }
 }
 config

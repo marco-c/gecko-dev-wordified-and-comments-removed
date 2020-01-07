@@ -2524,6 +2524,10 @@ if
 (
 !
 is_android
+&
+&
+!
+build_with_mozilla
 )
 {
 defines
@@ -9254,6 +9258,17 @@ Linux
 defines
 =
 [
+]
+if
+(
+!
+build_with_mozilla
+)
+{
+defines
++
+=
+[
 "
 __STDC_CONSTANT_MACROS
 "
@@ -9261,6 +9276,7 @@ __STDC_CONSTANT_MACROS
 __STDC_FORMAT_MACROS
 "
 ]
+}
 if
 (
 !

@@ -111,6 +111,17 @@ deps
 /
 webrtc
 "
+]
+if
+(
+!
+build_with_mozilla
+)
+{
+deps
++
+=
+[
 "
 /
 /
@@ -126,6 +137,7 @@ webrtc
 tools
 "
 ]
+}
 if
 (
 rtc_include_tests

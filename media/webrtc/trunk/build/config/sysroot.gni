@@ -159,6 +159,10 @@ current_cpu
 "
 ppc
 "
+&
+&
+!
+build_with_mozilla
 }
 if
 (

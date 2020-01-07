@@ -97,6 +97,10 @@ exe
 if
 (
 is_win
+&
+&
+!
+build_with_mozilla
 )
 {
 action
