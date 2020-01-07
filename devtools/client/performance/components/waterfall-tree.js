@@ -772,9 +772,6 @@ return
 Tree
 (
 {
-preventNavigationOnArrowRight
-:
-false
 getRoots
 :
 this
