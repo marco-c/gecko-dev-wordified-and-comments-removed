@@ -552,6 +552,9 @@ RelativeTimeFormat
 "
 )
 ;
+var
+internals
+=
 getRelativeTimeFormatInternals
 (
 relativeTimeFormat
@@ -638,6 +641,9 @@ intl_FormatRelativeTime
 relativeTimeFormat
 t
 u
+internals
+.
+type
 )
 ;
 }
