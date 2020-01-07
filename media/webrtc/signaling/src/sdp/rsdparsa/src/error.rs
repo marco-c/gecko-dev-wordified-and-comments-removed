@@ -66,6 +66,7 @@ SerializeStruct
 derive
 (
 Debug
+Clone
 )
 ]
 pub
@@ -787,6 +788,7 @@ is_none
 derive
 (
 Debug
+Clone
 )
 ]
 pub
