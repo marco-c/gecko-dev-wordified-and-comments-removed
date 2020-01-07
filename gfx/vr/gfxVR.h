@@ -122,6 +122,9 @@ VRDisplayHost
 class
 VRControllerHost
 ;
+class
+VRManagerPromise
+;
 enum
 class
 VRDeviceType
@@ -1587,8 +1590,10 @@ double
 aIntensity
 double
 aDuration
-uint32_t
-aPromiseID
+const
+VRManagerPromise
+&
+aPromise
 )
 =
 0

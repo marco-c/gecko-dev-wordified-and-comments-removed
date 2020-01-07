@@ -240,8 +240,10 @@ double
 aIntensity
 double
 aDuration
-uint32_t
-aPromiseID
+const
+VRManagerPromise
+&
+aPromise
 )
 ;
 void
@@ -254,8 +256,10 @@ aControllerIdx
 void
 NotifyVibrateHapticCompleted
 (
-uint32_t
-aPromiseID
+const
+VRManagerPromise
+&
+aPromise
 )
 ;
 void

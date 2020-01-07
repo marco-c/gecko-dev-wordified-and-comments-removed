@@ -1886,6 +1886,13 @@ Get
 (
 )
 ;
+VRManagerPromise
+promise
+(
+this
+aPromiseID
+)
+;
 vm
 -
 >
@@ -1895,7 +1902,7 @@ aControllerIdx
 aHapticIndex
 aIntensity
 aDuration
-aPromiseID
+promise
 )
 ;
 return
