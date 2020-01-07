@@ -351,7 +351,7 @@ className
 "
 font
 -
-axis
+control
 "
 }
 dom
@@ -364,7 +364,7 @@ className
 "
 font
 -
-axis
+control
 -
 label
 "
@@ -375,6 +375,21 @@ props
 .
 label
 )
+dom
+.
+div
+(
+{
+className
+:
+"
+font
+-
+control
+-
+input
+"
+}
 range
 this
 .
@@ -385,6 +400,7 @@ showInput
 input
 :
 null
+)
 )
 ;
 }

@@ -189,6 +189,13 @@ PropTypes
 func
 .
 isRequired
+onInstanceChange
+:
+PropTypes
+.
+func
+.
+isRequired
 onPreviewFonts
 :
 PropTypes
@@ -209,6 +216,7 @@ fontData
 fontEditor
 fontOptions
 onAxisUpdate
+onInstanceChange
 onPreviewFonts
 }
 =
@@ -251,6 +259,7 @@ FontEditor
 {
 fontEditor
 onAxisUpdate
+onInstanceChange
 }
 )
 :
