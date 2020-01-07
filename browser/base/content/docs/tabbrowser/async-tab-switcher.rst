@@ -406,9 +406,9 @@ compositor
 .
 Setting
 this
-from
-false
 to
+false
+from
 true
 means
 to
@@ -1904,7 +1904,7 @@ loaded
 and
 *
 *
-1
+0
 *
 *
 is
