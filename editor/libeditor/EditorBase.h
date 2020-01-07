@@ -222,6 +222,9 @@ nscore
 h
 "
 class
+mozInlineSpellChecker
+;
+class
 nsAtom
 ;
 class
@@ -250,9 +253,6 @@ nsIEditActionListener
 ;
 class
 nsIEditorObserver
-;
-class
-nsIInlineSpellChecker
 ;
 class
 nsINode
@@ -3649,9 +3649,9 @@ eTriTrue
 nsCString
 mContentMIMEType
 ;
-nsCOMPtr
+RefPtr
 <
-nsIInlineSpellChecker
+mozInlineSpellChecker
 >
 mInlineSpellChecker
 ;

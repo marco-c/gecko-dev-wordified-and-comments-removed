@@ -203,6 +203,11 @@ mozilla
 =
 [
 '
+mozInlineSpellChecker
+.
+h
+'
+'
 mozSpellChecker
 .
 h

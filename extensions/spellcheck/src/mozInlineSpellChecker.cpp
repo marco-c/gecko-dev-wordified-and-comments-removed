@@ -78,6 +78,13 @@ h
 #
 include
 "
+mozISpellI18NUtil
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -6403,7 +6410,7 @@ blur
 )
 {
 return
-Blur
+OnBlur
 (
 aEvent
 )
@@ -6422,7 +6429,7 @@ click
 )
 {
 return
-MouseClick
+OnMouseClick
 (
 aEvent
 )
@@ -6441,7 +6448,7 @@ keypress
 )
 {
 return
-KeyPress
+OnKeyPress
 (
 aEvent
 )
@@ -6455,7 +6462,7 @@ nsresult
 mozInlineSpellChecker
 :
 :
-Blur
+OnBlur
 (
 nsIDOMEvent
 *
@@ -6475,7 +6482,7 @@ nsresult
 mozInlineSpellChecker
 :
 :
-MouseClick
+OnMouseClick
 (
 nsIDOMEvent
 *
@@ -6527,7 +6534,7 @@ nsresult
 mozInlineSpellChecker
 :
 :
-KeyPress
+OnKeyPress
 (
 nsIDOMEvent
 *
