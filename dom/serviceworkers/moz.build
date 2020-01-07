@@ -225,6 +225,11 @@ ServiceWorkerEvents
 cpp
 '
 '
+ServiceWorkerImpl
+.
+cpp
+'
+'
 ServiceWorkerInfo
 .
 cpp
