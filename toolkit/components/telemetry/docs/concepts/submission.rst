@@ -142,9 +142,7 @@ to
 enable
 the
 HealthReport
-and
-SelfSupport
-features
+feature
 .
 They
 will

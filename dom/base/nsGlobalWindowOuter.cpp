@@ -1628,17 +1628,6 @@ mozilla
 /
 dom
 /
-MozSelfSupportBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 PopStateEvent
 .
 h

@@ -499,9 +499,6 @@ class
 MediaQueryList
 ;
 class
-MozSelfSupport
-;
-class
 Navigator
 ;
 class

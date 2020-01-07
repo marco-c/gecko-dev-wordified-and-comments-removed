@@ -140,11 +140,6 @@ MenuBoxObject
 :
 false
 "
-MozSelfSupport
-"
-:
-false
-"
 SharedArrayBuffer
 "
 :
