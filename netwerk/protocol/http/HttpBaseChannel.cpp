@@ -16788,6 +16788,9 @@ MaybeReportTimingData
 if
 (
 mLoadInfo
+&
+&
+mLoadInfo
 -
 >
 GetExternalContentPolicyType
