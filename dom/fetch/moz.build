@@ -284,6 +284,15 @@ LOCAL_INCLUDES
 [
 #
 For
+nsDOMSerializer
+'
+/
+dom
+/
+base
+'
+#
+For
 HttpBaseChannel
 .
 h
