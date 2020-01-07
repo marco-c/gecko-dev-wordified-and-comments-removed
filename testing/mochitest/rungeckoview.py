@@ -264,9 +264,7 @@ adbPath
                         
 default
 =
-"
-adb
-"
+None
                         
 help
 =
@@ -397,6 +395,10 @@ adb
 options
 .
 adbPath
+or
+'
+adb
+'
                                  
 device
 =

@@ -95,6 +95,10 @@ adb
 options
 .
 adb_path
+or
+'
+adb
+'
                                  
 device
 =
@@ -1372,9 +1376,7 @@ adb_path
 "
 ]
 =
-"
-adb
-"
+None
         
 self
 .

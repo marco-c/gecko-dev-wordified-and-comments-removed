@@ -1569,6 +1569,10 @@ options
 adbPath
 '
 ]
+or
+'
+adb
+'
                                  
 device
 =
