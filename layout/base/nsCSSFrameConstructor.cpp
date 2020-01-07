@@ -13333,6 +13333,17 @@ mPendingBinding
 childItems
 )
 ;
+if
+(
+!
+nsLayoutUtils
+:
+:
+IsContentSelectEnabled
+(
+)
+)
+{
 NS_ASSERTION
 (
 listFrame
@@ -13351,6 +13362,7 @@ nullptr
 "
 )
 ;
+}
 AutoTArray
 <
 nsIAnonymousContentCreator
