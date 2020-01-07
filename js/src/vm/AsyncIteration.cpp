@@ -839,6 +839,8 @@ JSContext
 cx
 HandleObject
 iter
+HandleValue
+nextMethod
 )
 {
 return
@@ -849,6 +851,7 @@ create
 (
 cx
 iter
+nextMethod
 )
 ;
 }
@@ -864,6 +867,8 @@ JSContext
 cx
 HandleObject
 iter
+HandleValue
+nextMethod
 )
 {
 RootedObject
@@ -936,6 +941,14 @@ asyncIter
 setIterator
 (
 iter
+)
+;
+asyncIter
+-
+>
+setNextMethod
+(
+nextMethod
 )
 ;
 return
