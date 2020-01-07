@@ -385,16 +385,6 @@ GeckoSessionSettings
 (
 )
 ;
-settings
-.
-setBoolean
-(
-GeckoSessionSettings
-.
-USE_MULTIPROCESS
-false
-)
-;
 }
 final
 GeckoSession
