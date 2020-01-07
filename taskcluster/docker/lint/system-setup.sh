@@ -110,6 +110,14 @@ apt_packages
 =
 (
 '
+shellcheck
+'
+)
+apt_packages
++
+=
+(
+'
 sudo
 '
 )
