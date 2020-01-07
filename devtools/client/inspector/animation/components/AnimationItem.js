@@ -27,8 +27,8 @@ redux
 ;
 const
 {
+Component
 createFactory
-PureComponent
 }
 =
 require
@@ -125,7 +125,7 @@ SummaryGraph
 class
 AnimationItem
 extends
-PureComponent
+Component
 {
 static
 get

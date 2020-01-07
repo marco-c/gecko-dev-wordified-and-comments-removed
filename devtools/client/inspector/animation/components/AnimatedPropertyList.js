@@ -5,8 +5,8 @@ strict
 ;
 const
 {
+Component
 createFactory
-PureComponent
 }
 =
 require
@@ -86,7 +86,7 @@ AnimatedPropertyItem
 class
 AnimatedPropertyList
 extends
-PureComponent
+Component
 {
 static
 get

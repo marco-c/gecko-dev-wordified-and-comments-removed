@@ -5,8 +5,8 @@ strict
 ;
 const
 {
+Component
 createFactory
-PureComponent
 }
 =
 require
@@ -176,7 +176,7 @@ SplitBox
 class
 App
 extends
-PureComponent
+Component
 {
 static
 get

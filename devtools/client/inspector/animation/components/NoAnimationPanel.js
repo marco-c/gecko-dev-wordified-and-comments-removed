@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-PureComponent
+Component
 }
 =
 require
@@ -127,7 +127,7 @@ properties
 class
 NoAnimationPanel
 extends
-PureComponent
+Component
 {
 static
 get

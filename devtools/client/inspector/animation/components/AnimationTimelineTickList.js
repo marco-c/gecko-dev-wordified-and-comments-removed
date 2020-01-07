@@ -5,8 +5,8 @@ strict
 ;
 const
 {
+Component
 createFactory
-PureComponent
 }
 =
 require
@@ -150,7 +150,7 @@ TIME_GRADUATION_MIN_SPACING
 class
 AnimationTimelineTickList
 extends
-PureComponent
+Component
 {
 static
 get

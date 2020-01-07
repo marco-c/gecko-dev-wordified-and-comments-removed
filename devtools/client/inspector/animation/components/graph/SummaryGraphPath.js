@@ -5,8 +5,8 @@ strict
 ;
 const
 {
+Component
 createFactory
-PureComponent
 }
 =
 require
@@ -180,7 +180,7 @@ MIN_KEYFRAMES_EASING_OPACITY
 class
 SummaryGraphPath
 extends
-PureComponent
+Component
 {
 static
 get
