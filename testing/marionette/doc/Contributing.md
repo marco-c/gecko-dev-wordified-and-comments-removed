@@ -282,6 +282,11 @@ _geckodriver_
 .
 .
 /
+.
+.
+/
+geckodriver
+/
 geckodriver
 [
 _webdriver_
