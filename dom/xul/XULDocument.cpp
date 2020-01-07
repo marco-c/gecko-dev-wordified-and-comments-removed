@@ -4779,10 +4779,8 @@ aAttribute
 )
 )
 ;
-nsAutoPtr
-<
-nsString
->
+void
+*
 attrValue
 =
 new
@@ -4862,10 +4860,6 @@ nsContentUtils
 :
 DestroyMatchString
 attrValue
-.
-forget
-(
-)
 true
 attrAtom
 nameSpaceId
