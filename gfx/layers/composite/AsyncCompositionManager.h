@@ -89,17 +89,6 @@ mozilla
 /
 layers
 /
-AnimationMetricsTracker
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 FrameUniformityData
 .
 h
@@ -580,9 +569,6 @@ mLayerTransformRecorder
 ;
 TimeStamp
 mPreviousFrameTimeStamp
-;
-AnimationMetricsTracker
-mAnimationMetricsTracker
 ;
 MOZ_NON_OWNING_REF
 CompositorBridgeParent
