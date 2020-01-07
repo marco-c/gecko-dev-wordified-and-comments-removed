@@ -998,11 +998,6 @@ SubpixelConstantTextColor
 BlendMode
 :
 :
-SubpixelVariableTextColor
-|
-BlendMode
-:
-:
 SubpixelWithBgColor
 =
 >

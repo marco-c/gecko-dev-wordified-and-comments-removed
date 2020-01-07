@@ -132,6 +132,7 @@ use
 FontInstanceKey
 GlyphInstance
 GlyphOptions
+GlyphRasterSpace
 Gradient
 GradientDisplayItem
 GradientStop
@@ -6462,6 +6463,9 @@ Vec
 <
 FilterOp
 >
+glyph_raster_space
+:
+GlyphRasterSpace
 )
 {
 let
@@ -6516,6 +6520,7 @@ perspective
 mix_blend_mode
 reference_frame_id
 clip_node_id
+glyph_raster_space
 }
 }
 )

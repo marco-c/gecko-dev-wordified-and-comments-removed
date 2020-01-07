@@ -516,6 +516,10 @@ Vec
 new
 (
 )
+GlyphRasterSpace
+:
+:
+Screen
 )
 ;
 builder

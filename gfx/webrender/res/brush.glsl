@@ -74,6 +74,8 @@ mat4
 transform
 PictureTask
 pic_task
+vec4
+segment_data
 )
 ;
 #
@@ -825,6 +827,10 @@ scroll_node
 .
 transform
 pic_task
+segment_data
+[
+1
+]
 )
 ;
 }

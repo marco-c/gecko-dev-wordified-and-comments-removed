@@ -59,7 +59,7 @@ MPL
 #
 define
 VECS_PER_SPECIFIC_BRUSH
-0
+2
 #
 include
 shared
@@ -96,6 +96,8 @@ mat4
 transform
 PictureTask
 pic_task
+vec4
+unused
 )
 {
 vec2

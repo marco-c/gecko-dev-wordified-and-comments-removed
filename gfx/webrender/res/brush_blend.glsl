@@ -59,7 +59,7 @@ MPL
 #
 define
 VECS_PER_SPECIFIC_BRUSH
-0
+2
 #
 define
 FORCE_NO_PERSPECTIVE
@@ -115,6 +115,8 @@ mat4
 transform
 PictureTask
 pic_task
+vec4
+unused
 )
 {
 PictureTask

@@ -181,6 +181,10 @@ Vec
 new
 (
 )
+GlyphRasterSpace
+:
+:
+Screen
 )
 ;
 sub_builder
@@ -296,6 +300,10 @@ Vec
 new
 (
 )
+GlyphRasterSpace
+:
+:
+Screen
 )
 ;
 builder

@@ -2401,6 +2401,16 @@ block_index
 0
 ]
 ;
+if
+block
+.
+epoch
+=
+=
+location
+.
+epoch
+{
 block
 .
 epoch
@@ -2409,6 +2419,7 @@ next
 (
 )
 ;
+}
 }
 }
 pub

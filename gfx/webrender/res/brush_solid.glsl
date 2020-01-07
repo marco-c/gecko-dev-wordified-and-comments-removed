@@ -127,6 +127,8 @@ mat4
 transform
 PictureTask
 pic_task
+vec4
+unused
 )
 {
 SolidBrush

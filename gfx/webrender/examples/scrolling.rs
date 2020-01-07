@@ -150,6 +150,10 @@ Vec
 new
 (
 )
+GlyphRasterSpace
+:
+:
+Screen
 )
 ;
 if
@@ -211,6 +215,10 @@ Vec
 new
 (
 )
+GlyphRasterSpace
+:
+:
+Screen
 )
 ;
 let

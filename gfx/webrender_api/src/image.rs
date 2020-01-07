@@ -993,6 +993,17 @@ key
 FontInstanceKey
 )
 ;
+fn
+clear_namespace
+(
+&
+mut
+self
+namespace
+:
+IdNamespace
+)
+;
 }
 pub
 type

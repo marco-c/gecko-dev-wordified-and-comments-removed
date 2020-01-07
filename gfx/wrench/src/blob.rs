@@ -1084,4 +1084,16 @@ FontInstanceKey
 )
 {
 }
+fn
+clear_namespace
+(
+&
+mut
+self
+_namespace
+:
+IdNamespace
+)
+{
+}
 }
