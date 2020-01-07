@@ -110,7 +110,7 @@ h
 #
 include
 "
-NetworkActivityMonitor
+IOActivityMonitor
 .
 h
 "
@@ -5949,10 +5949,10 @@ return
 rv
 ;
 }
-NetworkActivityMonitor
+IOActivityMonitor
 :
 :
-AttachIOLayer
+MonitorSocket
 (
 fd
 )

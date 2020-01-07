@@ -132,7 +132,7 @@ h
 #
 include
 "
-NetworkActivityMonitor
+IOActivityMonitor
 .
 h
 "
@@ -2504,10 +2504,10 @@ addr
 mAddr
 )
 ;
-NetworkActivityMonitor
+IOActivityMonitor
 :
 :
-AttachIOLayer
+MonitorSocket
 (
 mFD
 )

@@ -15,7 +15,7 @@ h
 #
 include
 "
-NetworkActivityMonitor
+IOActivityMonitor
 .
 h
 "
@@ -309,9 +309,9 @@ SOCKET_LIMIT_MIN
 50U
 #
 define
-INTERVAL_PREF
+IO_ACTIVITY_INTERVAL_PREF
 "
-network
+io
 .
 activity
 .
@@ -3546,7 +3546,7 @@ mAfterWakeUpTimer
 nullptr
 ;
 }
-NetworkActivityMonitor
+IOActivityMonitor
 :
 :
 Shutdown
@@ -6619,7 +6619,7 @@ Preferences
 :
 GetInt
 (
-INTERVAL_PREF
+IO_ACTIVITY_INTERVAL_PREF
 0
 )
 ;
@@ -6639,7 +6639,7 @@ return
 net
 :
 :
-NetworkActivityMonitor
+IOActivityMonitor
 :
 :
 Init
