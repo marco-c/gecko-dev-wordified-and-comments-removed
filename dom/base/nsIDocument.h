@@ -377,6 +377,9 @@ class
 nsHTMLStyleSheet
 ;
 class
+nsGenericHTMLElement
+;
+class
 nsAtom
 ;
 class
@@ -3171,6 +3174,12 @@ head
 )
 ;
 }
+nsGenericHTMLElement
+*
+GetBody
+(
+)
+;
 virtual
 void
 EnsureOnDemandBuiltInUASheet
