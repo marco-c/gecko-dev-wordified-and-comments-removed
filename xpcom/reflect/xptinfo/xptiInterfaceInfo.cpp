@@ -540,12 +540,11 @@ NS_ERROR_UNEXPECTED
 *
 result
 =
-XPT_ID_IS_FUNCTION
-(
 mDescriptor
 -
 >
-flags
+IsFunction
+(
 )
 ;
 return
