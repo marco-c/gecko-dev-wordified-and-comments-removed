@@ -39,12 +39,6 @@ import
 pytest
 import
 requests
-from
-mozbuild
-.
-base
-import
-MozbuildObject
 here
 =
 os
@@ -62,6 +56,16 @@ dirname
 __file__
 )
 )
+try
+:
+    
+from
+mozbuild
+.
+base
+import
+MozbuildObject
+    
 build
 =
 MozbuildObject
@@ -72,6 +76,13 @@ cwd
 =
 here
 )
+except
+ImportError
+:
+    
+build
+=
+None
 HARNESS_ROOT_NOT_FOUND
 =
 "
@@ -112,6 +123,10 @@ install_dir
 )
 :
     
+if
+build
+:
+        
 harness_root
 =
 os
@@ -128,7 +143,7 @@ _tests
 '
 install_dir
 )
-    
+        
 if
 os
 .
@@ -139,7 +154,7 @@ isdir
 harness_root
 )
 :
-        
+            
 return
 harness_root
     
@@ -667,3 +682,23 @@ app_name
 firefox
 '
 )
+    
+if
+'
+GECKO_BINARY_PATH
+'
+in
+os
+.
+environ
+:
+        
+return
+os
+.
+environ
+[
+'
+GECKO_BINARY_PATH
+'
+]
