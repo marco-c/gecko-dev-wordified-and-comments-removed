@@ -463,6 +463,15 @@ Disconnect
 )
 ;
 void
+QueueEvent
+(
+AnimationEventInfo
+&
+&
+aEvent
+)
+;
+void
 QueueEvents
 (
 nsTArray
@@ -795,6 +804,11 @@ mIsSorted
 true
 ;
 }
+void
+ScheduleDispatch
+(
+)
+;
 nsPresContext
 *
 mPresContext
