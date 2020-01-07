@@ -1844,11 +1844,6 @@ clamped
 if
 (
 sJitter
-&
-&
-NSS_IsInitialized
-(
-)
 )
 {
 if
