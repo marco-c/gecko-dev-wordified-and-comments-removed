@@ -539,7 +539,7 @@ dest_y
 =
 el
 .
-size
+rect
 [
 '
 width
@@ -547,7 +547,7 @@ width
 ]
 el
 .
-size
+rect
 [
 '
 height
@@ -1364,7 +1364,7 @@ dest_y
 =
 el
 .
-size
+rect
 [
 '
 width
@@ -1372,7 +1372,7 @@ width
 ]
 el
 .
-size
+rect
 [
 '
 height
