@@ -171,8 +171,13 @@ TransactionBuilder
 {
 public
 :
+explicit
 TransactionBuilder
 (
+bool
+aUseSceneBuilderThread
+=
+true
 )
 ;
 ~

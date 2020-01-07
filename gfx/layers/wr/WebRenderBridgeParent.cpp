@@ -6351,6 +6351,7 @@ Now
 )
 )
 ;
+{
 wr
 :
 :
@@ -6373,6 +6374,7 @@ SendTransaction
 txn
 )
 ;
+}
 if
 (
 !
@@ -6420,6 +6422,15 @@ TimeStamp
 return
 ;
 }
+wr
+:
+:
+TransactionBuilder
+txn
+(
+false
+)
+;
 nsTArray
 <
 wr

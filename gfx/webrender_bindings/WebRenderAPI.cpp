@@ -596,6 +596,8 @@ TransactionBuilder
 :
 TransactionBuilder
 (
+bool
+aUseSceneBuilderThread
 )
 :
 mUseSceneBuilderThread
@@ -606,6 +608,9 @@ gfxPrefs
 WebRenderAsyncSceneBuild
 (
 )
+&
+&
+aUseSceneBuilderThread
 )
 {
 mTxn
