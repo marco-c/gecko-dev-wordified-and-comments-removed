@@ -172,6 +172,18 @@ mach
 '
 tools
 /
+mozterm
+'
+    
+'
+tools
+/
+six
+'
+    
+'
+tools
+/
 wptserve
 '
     
