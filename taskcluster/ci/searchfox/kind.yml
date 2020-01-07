@@ -83,6 +83,14 @@ taskgraph
 .
 transforms
 .
+build_lints
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 use_toolchains
 :
 transforms
@@ -194,6 +202,11 @@ run
 time
 :
 36000
+env
+:
+PERFHERDER_EXTRA_OPTIONS
+:
+searchfox
 run
 :
 using
@@ -338,6 +351,9 @@ releng
 .
 manifest
 "
+PERFHERDER_EXTRA_OPTIONS
+:
+searchfox
 run
 :
 using
@@ -540,6 +556,9 @@ releng
 .
 manifest
 "
+PERFHERDER_EXTRA_OPTIONS
+:
+searchfox
 run
 :
 using

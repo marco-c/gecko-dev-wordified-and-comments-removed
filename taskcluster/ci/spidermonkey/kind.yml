@@ -91,6 +91,14 @@ taskgraph
 .
 transforms
 .
+build_lints
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 use_toolchains
 :
 transforms

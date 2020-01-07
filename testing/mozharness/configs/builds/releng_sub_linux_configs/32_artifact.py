@@ -50,16 +50,6 @@ shared
 '
     
 '
-perfherder_extra_options
-'
-:
-[
-'
-artifact
-'
-]
-    
-'
 base_name
 '
 :

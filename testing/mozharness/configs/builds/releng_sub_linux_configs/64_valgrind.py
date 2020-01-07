@@ -43,16 +43,6 @@ valgrind
 '
     
 '
-perfherder_extra_options
-'
-:
-[
-'
-valgrind
-'
-]
-    
-'
 env
 '
 :

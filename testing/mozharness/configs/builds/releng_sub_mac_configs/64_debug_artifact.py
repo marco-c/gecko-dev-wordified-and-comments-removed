@@ -56,16 +56,6 @@ debug_build
 True
     
 '
-perfherder_extra_options
-'
-:
-[
-'
-artifact
-'
-]
-    
-'
 base_name
 '
 :

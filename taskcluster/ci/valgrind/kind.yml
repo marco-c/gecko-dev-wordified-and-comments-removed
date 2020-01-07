@@ -83,6 +83,14 @@ taskgraph
 .
 transforms
 .
+build_lints
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 use_toolchains
 :
 transforms
@@ -188,6 +196,11 @@ run
 time
 :
 72000
+env
+:
+PERFHERDER_EXTRA_OPTIONS
+:
+valgrind
 run
 :
 using

@@ -3,18 +3,6 @@ config
 {
     
 '
-perfherder_extra_options
-'
-:
-[
-'
-static
--
-analysis
-'
-]
-    
-'
 stage_platform
 '
 :

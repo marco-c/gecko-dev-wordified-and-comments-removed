@@ -66,18 +66,6 @@ manifest
 "
     
 '
-perfherder_extra_options
-'
-:
-[
-'
-static
--
-analysis
-'
-]
-    
-'
 env
 '
 :

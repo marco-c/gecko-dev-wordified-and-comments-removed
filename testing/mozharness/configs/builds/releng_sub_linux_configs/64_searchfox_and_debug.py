@@ -54,18 +54,6 @@ shared
 '
     
 '
-perfherder_extra_options
-'
-:
-[
-'
-static
--
-analysis
-'
-]
-    
-'
 base_name
 '
 :
