@@ -179,6 +179,11 @@ WorkerPrivate
 h
 '
 '
+WorkerRef
+.
+h
+'
+'
 WorkerRunnable
 .
 h
@@ -335,6 +340,11 @@ cpp
 '
 '
 WorkerPrivate
+.
+cpp
+'
+'
+WorkerRef
 .
 cpp
 '
