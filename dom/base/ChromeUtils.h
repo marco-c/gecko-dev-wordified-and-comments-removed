@@ -805,6 +805,15 @@ ErrorResult
 aRv
 )
 ;
+static
+void
+RequestIOActivity
+(
+GlobalObject
+&
+aGlobal
+)
+;
 }
 ;
 }
