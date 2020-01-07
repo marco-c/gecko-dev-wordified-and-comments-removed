@@ -3903,11 +3903,8 @@ nsStyleCorners
 aCorners
 )
 ;
-mozilla
-:
-:
-FlushTarget
-GetFlushTarget
+bool
+NeedsToFlush
 (
 nsIDocument
 *
