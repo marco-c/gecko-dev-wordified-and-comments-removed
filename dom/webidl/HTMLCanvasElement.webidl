@@ -213,6 +213,7 @@ null
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 DOMString
 toDataURL
@@ -230,6 +231,7 @@ encoderOptions
 ;
 [
 Throws
+NeedsSubjectPrincipal
 ]
 void
 toBlob
@@ -268,7 +270,7 @@ mozOpaque
 ;
 [
 Throws
-NeedsCallerType
+NeedsSubjectPrincipal
 ]
 File
 mozGetAsFile
@@ -340,6 +342,7 @@ capturestream
 .
 enabled
 "
+NeedsSubjectPrincipal
 ]
 CanvasCaptureMediaStream
 captureStream

@@ -578,6 +578,15 @@ CloneStrippingUserContextIdAndFirstPartyDomain
 (
 )
 ;
+extensions
+:
+:
+WebExtensionPolicy
+*
+ContentScriptAddonPolicy
+(
+)
+;
 bool
 AddonAllowsLoad
 (

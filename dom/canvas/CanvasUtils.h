@@ -214,6 +214,9 @@ aDocument
 JSContext
 *
 aCx
+nsIPrincipal
+&
+aPrincipal
 )
 ;
 bool

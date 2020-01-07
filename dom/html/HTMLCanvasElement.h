@@ -577,6 +577,9 @@ aParams
 nsAString
 &
 aDataURL
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -606,6 +609,9 @@ JS
 Value
 >
 aParams
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -686,8 +692,9 @@ const
 nsAString
 &
 aType
-CallerType
-aCallerType
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -736,6 +743,9 @@ double
 >
 &
 aFrameRate
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -1115,6 +1125,9 @@ ExtractData
 JSContext
 *
 aCx
+nsIPrincipal
+&
+aSubjectPrincipal
 nsAString
 &
 aType
@@ -1134,6 +1147,9 @@ ToDataURLImpl
 JSContext
 *
 aCx
+nsIPrincipal
+&
+aSubjectPrincipal
 const
 nsAString
 &
@@ -1161,6 +1177,9 @@ const
 nsAString
 &
 aType
+nsIPrincipal
+&
+aSubjectPrincipal
 File
 *
 *
