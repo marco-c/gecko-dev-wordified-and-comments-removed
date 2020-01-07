@@ -4275,6 +4275,16 @@ FlushType
 aType
 )
 ;
+void
+FlushPendingNotifications
+(
+mozilla
+:
+:
+ChangesToFlush
+aFlush
+)
+;
 virtual
 void
 FlushExternalResources
