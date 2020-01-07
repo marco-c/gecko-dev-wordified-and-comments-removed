@@ -1026,9 +1026,6 @@ static
 bool
 WriteIndent
 (
-JSContext
-*
-cx
 StringifyContext
 *
 scx
@@ -2227,7 +2224,6 @@ if
 !
 WriteIndent
 (
-cx
 scx
 scx
 -
@@ -2331,7 +2327,6 @@ wroteMember
 !
 WriteIndent
 (
-cx
 scx
 scx
 -
@@ -2440,7 +2435,6 @@ if
 !
 WriteIndent
 (
-cx
 scx
 scx
 -
@@ -2728,7 +2722,6 @@ if
 !
 WriteIndent
 (
-cx
 scx
 scx
 -
@@ -2746,7 +2739,6 @@ if
 !
 WriteIndent
 (
-cx
 scx
 scx
 -

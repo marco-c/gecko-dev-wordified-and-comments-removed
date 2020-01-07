@@ -627,9 +627,6 @@ obj
 void
 UnwindIteratorForUncatchableException
 (
-JSContext
-*
-cx
 JSObject
 *
 obj

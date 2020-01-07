@@ -5923,8 +5923,6 @@ UniqueChars
 inBuf
 int
 num
-bool
-showArgs
 )
 {
 JSAtom
@@ -6174,7 +6172,6 @@ Move
 buf
 )
 num
-showArgs
 )
 ;
 if

@@ -3319,9 +3319,6 @@ RegisterEnumerator
 JSContext
 *
 cx
-PropertyIteratorObject
-*
-iterobj
 NativeIterator
 *
 ni
@@ -3589,7 +3586,6 @@ numGuards
 RegisterEnumerator
 (
 cx
-iterobj
 ni
 )
 ;
@@ -3728,7 +3724,6 @@ nullptr
 RegisterEnumerator
 (
 cx
-iterobj
 ni
 )
 ;
@@ -4166,9 +4161,6 @@ static
 bool
 CanStoreInIteratorCache
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -4307,7 +4299,6 @@ MOZ_ASSERT
 (
 CanStoreInIteratorCache
 (
-cx
 obj
 )
 )
@@ -4504,7 +4495,6 @@ obj
 RegisterEnumerator
 (
 cx
-iterobj
 ni
 )
 ;
@@ -4522,7 +4512,6 @@ numGuards
 !
 CanStoreInIteratorCache
 (
-cx
 obj
 )
 )
@@ -5882,9 +5871,6 @@ js
 :
 UnwindIteratorForUncatchableException
 (
-JSContext
-*
-cx
 JSObject
 *
 obj

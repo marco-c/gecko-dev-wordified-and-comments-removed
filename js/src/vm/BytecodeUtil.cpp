@@ -6145,9 +6145,6 @@ static
 bool
 DumpJumpOrigins
 (
-JSContext
-*
-cx
 HandleScript
 script
 jsbytecode
@@ -6511,7 +6508,6 @@ if
 !
 DumpJumpOrigins
 (
-cx
 script
 pc
 parser

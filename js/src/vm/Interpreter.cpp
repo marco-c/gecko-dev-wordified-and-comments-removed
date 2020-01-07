@@ -6667,7 +6667,6 @@ stackDepth
 ;
 UnwindIteratorForUncatchableException
 (
-cx
 &
 sp
 [
