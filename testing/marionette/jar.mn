@@ -265,6 +265,16 @@ js
 )
 content
 /
+log
+.
+js
+(
+log
+.
+js
+)
+content
+/
 message
 .
 js
