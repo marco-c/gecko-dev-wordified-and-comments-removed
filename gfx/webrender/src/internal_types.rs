@@ -608,10 +608,6 @@ struct
 RenderedDocument
 {
 pub
-pipeline_info
-:
-PipelineInfo
-pub
 frame
 :
 tiling
@@ -626,9 +622,6 @@ pub
 fn
 new
 (
-pipeline_info
-:
-PipelineInfo
 frame
 :
 tiling
@@ -642,7 +635,6 @@ Self
 {
 RenderedDocument
 {
-pipeline_info
 frame
 }
 }
@@ -727,6 +719,10 @@ cancel_rendering
 :
 bool
 }
+PublishPipelineInfo
+(
+PipelineInfo
+)
 PublishDocument
 (
 DocumentId
