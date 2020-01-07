@@ -3926,6 +3926,13 @@ text
 /
 jsx
 "
+vue
+:
+"
+text
+/
+vue
+"
 coffee
 :
 "
