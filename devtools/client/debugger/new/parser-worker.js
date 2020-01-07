@@ -3952,13 +3952,6 @@ generated
 tokens
 :
 true
-plugins
-:
-[
-"
-objectRestSpread
-"
-]
 }
 original
 :
