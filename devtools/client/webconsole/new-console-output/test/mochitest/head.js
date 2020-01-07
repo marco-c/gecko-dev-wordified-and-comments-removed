@@ -1937,6 +1937,7 @@ onTimeout
 function
 openNewBrowserWindow
 (
+options
 )
 {
 let
@@ -1944,6 +1945,7 @@ win
 =
 OpenBrowserWindow
 (
+options
 )
 ;
 return
