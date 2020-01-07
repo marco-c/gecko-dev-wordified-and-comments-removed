@@ -667,6 +667,11 @@ tab_text
 :
 case
 "
+tab_line
+"
+:
+case
+"
 tab_selected
 "
 :
