@@ -677,7 +677,7 @@ structs
 mozilla
 :
 :
-ServoStyleContext
+ComputedStyle
 )
 ;
 impl
@@ -953,8 +953,6 @@ self
 0
 )
 .
-_base
-.
 mPseudoTag
 .
 mRawPtr
@@ -1011,8 +1009,6 @@ self
 .
 0
 )
-.
-_base
 .
 mBits
 ;
@@ -1197,7 +1193,7 @@ unsafe
 bindings
 :
 :
-Gecko_ServoStyleContext_Destroy
+Gecko_ComputedStyle_Destroy
 (
 &
 mut
@@ -1353,7 +1349,7 @@ CSSPseudoElementType
 )
 ;
 type
-ParentStyleContextInfo
+ParentComputedStyleInfo
 <
 '
 a
@@ -1505,7 +1501,7 @@ pres_context
 RawGeckoPresContextBorrowed
 parent
 :
-ParentStyleContextInfo
+ParentComputedStyleInfo
 info
 :
 Option
@@ -1582,7 +1578,7 @@ bindings
 RawGeckoPresContextBorrowed
 parent
 :
-ParentStyleContextInfo
+ParentComputedStyleInfo
 pseudo_ty
 :
 structs
@@ -1630,7 +1626,7 @@ uninitialized
 bindings
 :
 :
-Gecko_ServoStyleContext_Init
+Gecko_ComputedStyle_Init
 (
 &
 arc

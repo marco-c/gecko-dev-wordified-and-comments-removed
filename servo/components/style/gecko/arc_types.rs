@@ -713,7 +713,7 @@ extern
 C
 "
 fn
-Servo_StyleContext_AddRef
+Servo_ComputedStyle_AddRef
 (
 obj
 :
@@ -751,7 +751,7 @@ extern
 C
 "
 fn
-Servo_StyleContext_Release
+Servo_ComputedStyle_Release
 (
 obj
 :
