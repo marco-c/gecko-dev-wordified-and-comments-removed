@@ -582,7 +582,7 @@ hostTab
 ;
 this
 .
-type
+hostType
 =
 hostType
 ;
