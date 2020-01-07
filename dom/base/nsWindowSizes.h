@@ -214,9 +214,6 @@ name_
 0
 )
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -226,9 +223,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
 dummy
 (
 )
@@ -266,9 +260,6 @@ name_
 )
 ;
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -278,9 +269,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
 }
 size_t
 getTotalSize
@@ -309,9 +297,6 @@ name_
 )
 ;
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -321,9 +306,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
 return
 total
 ;
@@ -342,9 +324,6 @@ name_
 )
 ;
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -354,9 +333,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
 int
 dummy
 ;

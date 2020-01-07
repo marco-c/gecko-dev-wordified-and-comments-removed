@@ -2710,9 +2710,6 @@ size
 \
 }
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -2722,9 +2719,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
 if
 (
 styleSundriesSize
@@ -4146,9 +4140,6 @@ name_
 )
 ;
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -4158,9 +4149,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
 REPORT
 (
 "

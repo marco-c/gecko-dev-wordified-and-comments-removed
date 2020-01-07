@@ -355,9 +355,6 @@ gecko
 ;
 }
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -367,9 +364,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
 #
 define
 NS_DECL_THREADSAFE_FFI_REFCOUNTING
@@ -2130,7 +2124,7 @@ ComputedStyleBorrowed
 new_style
 bool
 *
-any_style_changed
+any_style_struct_changed
 bool
 *
 reset_only_changed

@@ -94,7 +94,7 @@ h
 #
 define
 NS_STYLE_INHERIT_MASK
-0x000ffffff
+0x0007fffff
 #
 define
 NS_STYLE_INHERITED_STRUCT_MASK

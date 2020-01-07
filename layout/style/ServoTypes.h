@@ -344,9 +344,6 @@ Gecko
 name_
 ;
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -356,9 +353,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
 class
 ServoStyleSetSizes
 {
@@ -502,9 +496,6 @@ name_
 const
 ;
 #
-define
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-#
 include
 "
 nsStyleStructList
@@ -514,17 +505,6 @@ h
 #
 undef
 STYLE_STRUCT
-#
-undef
-STYLE_STRUCT_LIST_IGNORE_VARIABLES
-const
-nsStyleVariables
-*
-GetStyleVariables
-(
-)
-const
-;
 void
 AddSizeOfExcludingThis
 (
