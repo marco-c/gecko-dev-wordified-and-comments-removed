@@ -1333,7 +1333,6 @@ nsRestyleHint
 aHint
 )
 ;
-virtual
 void
 RecordShadowStyleChange
 (
@@ -1344,11 +1343,9 @@ dom
 :
 :
 ShadowRoot
-*
+&
 aShadowRoot
 )
-=
-0
 ;
 bool
 IsSafeToFlush

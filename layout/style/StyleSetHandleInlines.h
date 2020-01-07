@@ -1481,7 +1481,7 @@ dom
 :
 :
 ShadowRoot
-*
+&
 aShadowRoot
 )
 {

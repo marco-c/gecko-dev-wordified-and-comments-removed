@@ -282,6 +282,11 @@ get
 )
 ;
 }
+void
+SyncServoStyles
+(
+)
+;
 mozilla
 :
 :

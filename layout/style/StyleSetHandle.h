@@ -865,7 +865,7 @@ dom
 :
 :
 ShadowRoot
-*
+&
 aShadowRoot
 )
 ;
