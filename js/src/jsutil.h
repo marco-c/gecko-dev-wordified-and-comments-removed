@@ -1246,6 +1246,10 @@ define
 JS_FREED_HEAP_PTR_PATTERN
 0x6B
 #
+define
+JS_SWEPT_TI_PATTERN
+0x6F
+#
 if
 defined
 (
