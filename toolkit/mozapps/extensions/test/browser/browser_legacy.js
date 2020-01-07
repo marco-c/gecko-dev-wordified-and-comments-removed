@@ -54,6 +54,14 @@ mozilla
 org
 "
 "
+worker
+-
+test
+mozilla
+.
+org
+"
+"
 mozscreenshots
 mozilla
 .

@@ -92,4 +92,7 @@ DIRS
 '
 bootstrap
 '
+'
+traditional
+'
 ]
