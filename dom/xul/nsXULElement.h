@@ -1519,7 +1519,6 @@ aAttribute
 const
 override
 ;
-NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_DECL_NSIDOMXULELEMENT
 virtual
 nsresult

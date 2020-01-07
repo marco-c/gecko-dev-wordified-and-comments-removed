@@ -1273,7 +1273,6 @@ imgRequestProxy
 aImageRequest
 )
 ;
-NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_IMETHOD
 GetSpellcheck
 (
