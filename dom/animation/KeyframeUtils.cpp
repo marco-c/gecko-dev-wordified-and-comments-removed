@@ -4599,15 +4599,8 @@ aCurrentAnimationProperty
 {
 aResult
 .
-RemoveElementAt
+RemoveLastElement
 (
-aResult
-.
-Length
-(
-)
--
-1
 )
 ;
 }

@@ -9913,15 +9913,8 @@ PopClip
 }
 mStyleStack
 .
-RemoveElementAt
+RemoveLastElement
 (
-mStyleStack
-.
-Length
-(
-)
--
-1
 )
 ;
 mTarget

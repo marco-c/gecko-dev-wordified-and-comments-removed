@@ -27835,15 +27835,8 @@ pendingCompositionEnd
 ;
 mPendingActions
 .
-RemoveElementAt
+RemoveLastElement
 (
-mPendingActions
-.
-Length
-(
-)
--
-1
 )
 ;
 MOZ_LOG

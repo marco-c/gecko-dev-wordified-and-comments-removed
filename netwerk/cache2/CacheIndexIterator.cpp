@@ -225,15 +225,8 @@ Hash
 ;
 mRecords
 .
-RemoveElementAt
+RemoveLastElement
 (
-mRecords
-.
-Length
-(
-)
--
-1
 )
 ;
 return

@@ -1124,15 +1124,8 @@ lock
 }
 mNestedQueues
 .
-RemoveElementAt
+RemoveLastElement
 (
-mNestedQueues
-.
-Length
-(
-)
--
-1
 )
 ;
 }

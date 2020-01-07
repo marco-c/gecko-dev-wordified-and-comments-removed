@@ -1935,15 +1935,8 @@ GetBoundElement
 {
 bindings
 .
-RemoveElementAt
+RemoveLastElement
 (
-bindings
-.
-Length
-(
-)
--
-1
 )
 ;
 }

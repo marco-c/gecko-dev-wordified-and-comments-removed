@@ -3538,15 +3538,8 @@ break
 }
 mRangeContexts
 .
-RemoveElementAt
+RemoveLastElement
 (
-mRangeContexts
-.
-Length
-(
-)
--
-1
 )
 ;
 return

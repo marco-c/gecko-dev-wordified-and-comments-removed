@@ -553,15 +553,8 @@ aFiringId
 ;
 mFiringIdStack
 .
-RemoveElementAt
+RemoveLastElement
 (
-mFiringIdStack
-.
-Length
-(
-)
--
-1
 )
 ;
 }

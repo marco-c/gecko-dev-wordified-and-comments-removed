@@ -807,15 +807,8 @@ last
 }
 aArray
 .
-RemoveElementAt
+RemoveLastElement
 (
-aArray
-.
-Length
-(
-)
--
-1
 )
 ;
 }

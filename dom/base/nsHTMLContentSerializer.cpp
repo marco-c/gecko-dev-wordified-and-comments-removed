@@ -1596,15 +1596,8 @@ IsEmpty
 {
 mOLStateStack
 .
-RemoveElementAt
+RemoveLastElement
 (
-mOLStateStack
-.
-Length
-(
-)
--
-1
 )
 ;
 }
