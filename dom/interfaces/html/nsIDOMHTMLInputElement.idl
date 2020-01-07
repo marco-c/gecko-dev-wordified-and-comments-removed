@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-nsIDOMHTMLElement
+nsISupports
 .
 idl
 "
@@ -106,6 +106,9 @@ nsIDOMFileList
 ;
 interface
 nsIDOMValidityState
+;
+interface
+nsIDOMHTMLFormElement
 ;
 /
 *
@@ -241,11 +244,6 @@ formAction
 attribute
 boolean
 indeterminate
-;
-readonly
-attribute
-nsIDOMHTMLElement
-list
 ;
 attribute
 DOMString
