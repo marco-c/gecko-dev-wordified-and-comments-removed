@@ -6283,16 +6283,6 @@ aKeyEvent
 )
 ;
 static
-Element
-*
-GetClosestNonNativeAnonymousAncestor
-(
-Element
-*
-aElement
-)
-;
-static
 already_AddRefed
 <
 nsIPluginTag
