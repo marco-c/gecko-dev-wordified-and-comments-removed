@@ -1381,6 +1381,15 @@ GetController
 )
 const
 ;
+void
+NoteCalledRegisterForServiceWorkerScope
+(
+const
+nsACString
+&
+aScope
+)
+;
 virtual
 nsresult
 FireDelayedDOMEvents

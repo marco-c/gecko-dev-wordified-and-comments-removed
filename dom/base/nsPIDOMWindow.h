@@ -812,6 +812,15 @@ GetController
 )
 const
 ;
+void
+NoteCalledRegisterForServiceWorkerScope
+(
+const
+nsACString
+&
+aScope
+)
+;
 mozilla
 :
 :
