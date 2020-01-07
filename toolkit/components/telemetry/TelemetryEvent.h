@@ -139,6 +139,8 @@ uint32_t
 aDataset
 bool
 aClear
+uint32_t
+aEventLimit
 JSContext
 *
 aCx
