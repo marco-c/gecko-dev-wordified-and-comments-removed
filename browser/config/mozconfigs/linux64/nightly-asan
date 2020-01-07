@@ -85,16 +85,6 @@ usr
 share
 /
 pkgconfig
-.
-topsrcdir
-/
-build
-/
-unix
-/
-mozconfig
-.
-gtk
 #
 Package
 js
