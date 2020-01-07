@@ -5361,10 +5361,6 @@ aWantsUntrusted
 )
 ;
 }
-NS_IMPL_REMOVE_SYSTEM_EVENT_LISTENER
-(
-nsINode
-)
 nsresult
 nsINode
 :

@@ -714,10 +714,6 @@ GetDoc
 )
 ;
 }
-NS_IMPL_REMOVE_SYSTEM_EVENT_LISTENER
-(
-DOMEventTargetHelper
-)
 NS_IMETHODIMP
 DOMEventTargetHelper
 :

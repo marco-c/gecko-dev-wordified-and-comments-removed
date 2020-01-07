@@ -18491,10 +18491,6 @@ this
 )
 ;
 }
-NS_IMPL_REMOVE_SYSTEM_EVENT_LISTENER
-(
-nsGlobalWindowInner
-)
 NS_IMETHODIMP
 nsGlobalWindowInner
 :
