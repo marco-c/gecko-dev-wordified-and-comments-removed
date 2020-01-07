@@ -431,8 +431,11 @@ nsIDOMNode
 >
 domNode
 (
-DOMNode
+do_QueryInterface
 (
+GetNode
+(
+)
 )
 )
 ;
@@ -680,8 +683,11 @@ nsIDOMNode
 >
 domNode
 (
-DOMNode
+do_QueryInterface
 (
+GetNode
+(
+)
 )
 )
 ;
