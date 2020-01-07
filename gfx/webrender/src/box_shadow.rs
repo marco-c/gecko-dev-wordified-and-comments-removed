@@ -69,7 +69,6 @@ prim_store
 :
 :
 {
-BrushAntiAliasMode
 PrimitiveContainer
 }
 ;
@@ -511,10 +510,6 @@ color
 color
 }
 None
-BrushAntiAliasMode
-:
-:
-Primitive
 )
 )
 )
@@ -833,10 +828,6 @@ corner_size
 )
 }
 None
-BrushAntiAliasMode
-:
-:
-Primitive
 )
 ;
 }
@@ -1046,10 +1037,6 @@ shadow_radius
 )
 }
 None
-BrushAntiAliasMode
-:
-:
-Primitive
 )
 ;
 }
@@ -1280,9 +1267,9 @@ adjusted_blur_std_deviation
 5
 ;
 inflate_size
-+
+*
 =
-1
+2
 .
 0
 ;
@@ -1326,10 +1313,6 @@ shadow_radius
 )
 }
 None
-BrushAntiAliasMode
-:
-:
-Primitive
 )
 ;
 let

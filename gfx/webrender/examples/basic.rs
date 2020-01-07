@@ -1518,7 +1518,7 @@ pop_clip_id
 )
 ;
 if
-false
+true
 {
 let
 font_key

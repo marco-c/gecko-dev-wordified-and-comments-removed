@@ -235,9 +235,6 @@ Invalid
 A8
 =
 1
-RGB8
-=
-2
 BGRA8
 =
 3
@@ -271,13 +268,6 @@ A8
 =
 >
 1
-ImageFormat
-:
-:
-RGB8
-=
->
-3
 ImageFormat
 :
 :

@@ -57,6 +57,10 @@ MPL
 *
 /
 #
+define
+VECS_PER_SPECIFIC_BRUSH
+1
+#
 include
 shared
 prim_shared
@@ -119,6 +123,8 @@ RectWithSize
 local_rect
 ivec2
 user_data
+PictureTask
+pic_task
 )
 {
 SolidBrush
