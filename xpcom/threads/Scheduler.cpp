@@ -795,6 +795,10 @@ current
 (
 )
 )
+mOldMainLoop
+(
+nullptr
+)
 mMainQueue
 (
 aQueue
@@ -2260,6 +2264,13 @@ false
 mIsLabeled
 (
 false
+)
+mPriority
+(
+EventPriority
+:
+:
+Normal
 )
 {
 sTopActivation

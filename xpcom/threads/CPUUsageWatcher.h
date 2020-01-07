@@ -120,6 +120,10 @@ mGlobalUpdateTime
 (
 0
 )
+mNumCPUs
+(
+0
+)
 {
 }
 #

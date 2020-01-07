@@ -9964,6 +9964,10 @@ elem_type
 AutoTArray
 (
 )
+:
+mAlign
+(
+)
 {
 Init
 (
@@ -10006,6 +10010,10 @@ base_type
 &
 aOther
 )
+:
+mAlign
+(
+)
 {
 Init
 (
@@ -10027,6 +10035,10 @@ base_type
 &
 &
 aOther
+)
+:
+mAlign
+(
 )
 {
 Init
@@ -10084,6 +10096,10 @@ initializer_list
 E
 >
 aIL
+)
+:
+mAlign
+(
 )
 {
 Init

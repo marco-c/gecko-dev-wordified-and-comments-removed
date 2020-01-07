@@ -932,6 +932,10 @@ nsLocalFile
 nsLocalFile
 (
 )
+:
+mCachedStat
+(
+)
 {
 }
 nsLocalFile
@@ -943,6 +947,10 @@ const
 nsACString
 &
 aFilePath
+)
+:
+mCachedStat
+(
 )
 {
 InitWithNativePath

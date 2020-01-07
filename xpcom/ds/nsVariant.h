@@ -63,6 +63,15 @@ nsIDataType
 VTYPE_EMPTY
 )
 {
+u
+.
+mInt8Value
+=
+'
+\
+0
+'
+;
 }
 nsDiscriminatedUnion
 (
