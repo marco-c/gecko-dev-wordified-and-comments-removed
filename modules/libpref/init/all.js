@@ -6977,7 +6977,7 @@ gfx
 .
 downloadable_fonts
 .
-keep_variation_tables
+validate_variation_tables
 "
 true
 )
@@ -39933,7 +39933,7 @@ blacklist
 -
 duration
 "
-1200
+259200
 )
 ;
 pref
