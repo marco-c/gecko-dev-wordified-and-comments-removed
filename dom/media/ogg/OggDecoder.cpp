@@ -206,15 +206,6 @@ vorbis
 )
 |
 |
-(
-StaticPrefs
-:
-:
-MediaOggFlacEnabled
-(
-)
-&
-&
 codec
 .
 EqualsLiteral
@@ -222,7 +213,6 @@ EqualsLiteral
 "
 flac
 "
-)
 )
 )
 {
