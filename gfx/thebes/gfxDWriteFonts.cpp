@@ -855,7 +855,7 @@ mMetrics
 >
 maxAscent
 =
-ceil
+round
 (
 fontMetrics
 .
@@ -869,7 +869,7 @@ mMetrics
 >
 maxDescent
 =
-ceil
+round
 (
 fontMetrics
 .
