@@ -1160,6 +1160,14 @@ aTopic
 aData
 )
 {
+if
+(
+aTopic
+)
+{
+return
+;
+}
 setTimeout
 (
 function
