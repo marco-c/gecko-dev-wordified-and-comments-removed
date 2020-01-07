@@ -862,10 +862,6 @@ releng_base_linux_64_builds
 .
 py
 -
-disable_signing
-.
-py
--
 taskcluster_nightly
 .
 py
@@ -2252,10 +2248,6 @@ releng_base_linux_32_builds
 .
 py
 -
-disable_signing
-.
-py
--
 taskcluster_nightly
 .
 py
@@ -2447,10 +2439,6 @@ py
 builds
 /
 releng_base_linux_32_builds
-.
-py
--
-disable_signing
 .
 py
 -
@@ -3269,10 +3257,6 @@ py
 builds
 /
 releng_base_linux_64_builds
-.
-py
--
-disable_signing
 .
 py
 -

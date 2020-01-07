@@ -37,12 +37,6 @@ rusttests
 '
     
 '
-enable_signing
-'
-:
-False
-    
-'
 env
 '
 :

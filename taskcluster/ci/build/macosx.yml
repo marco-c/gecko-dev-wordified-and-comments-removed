@@ -905,10 +905,6 @@ releng_base_mac_64_cross_builds
 .
 py
 -
-disable_signing
-.
-py
--
 taskcluster_nightly
 .
 py
@@ -1565,10 +1561,6 @@ py
 builds
 /
 releng_base_mac_64_cross_builds
-.
-py
--
-disable_signing
 .
 py
 -

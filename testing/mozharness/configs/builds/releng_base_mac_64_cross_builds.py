@@ -55,12 +55,6 @@ ini
 '
     
 '
-enable_signing
-'
-:
-True
-    
-'
 secret_files
 '
 :

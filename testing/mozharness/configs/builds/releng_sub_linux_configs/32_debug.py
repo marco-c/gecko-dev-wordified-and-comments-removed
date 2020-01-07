@@ -47,12 +47,6 @@ debug
 '
     
 '
-enable_signing
-'
-:
-False
-    
-'
 env
 '
 :

@@ -246,10 +246,6 @@ builds
 releng_base_android_64_builds
 .
 py
--
-disable_signing
-.
-py
 script
 :
 "
@@ -681,10 +677,6 @@ config
 builds
 /
 releng_base_android_64_builds
-.
-py
--
-disable_signing
 .
 py
 script
@@ -1135,10 +1127,6 @@ builds
 releng_base_android_64_builds
 .
 py
--
-disable_signing
-.
-py
 script
 :
 "
@@ -1551,10 +1539,6 @@ builds
 releng_base_android_64_builds
 .
 py
--
-disable_signing
-.
-py
 script
 :
 "
@@ -1916,10 +1900,6 @@ config
 builds
 /
 releng_base_android_64_builds
-.
-py
--
-disable_signing
 .
 py
 script

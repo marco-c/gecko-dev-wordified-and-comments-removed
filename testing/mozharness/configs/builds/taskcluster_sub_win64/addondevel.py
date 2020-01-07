@@ -3,12 +3,6 @@ config
 {
     
 '
-enable_signing
-'
-:
-False
-    
-'
 base_name
 '
 :

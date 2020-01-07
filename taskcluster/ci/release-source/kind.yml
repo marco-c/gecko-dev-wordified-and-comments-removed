@@ -231,10 +231,6 @@ releng_sub_linux_configs
 64_source
 .
 py
--
-disable_signing
-.
-py
 options
 :
 [

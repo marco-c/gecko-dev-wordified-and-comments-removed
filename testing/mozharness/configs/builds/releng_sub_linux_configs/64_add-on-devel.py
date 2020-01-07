@@ -41,12 +41,6 @@ devel
 '
     
 '
-enable_signing
-'
-:
-False
-    
-'
 env
 '
 :

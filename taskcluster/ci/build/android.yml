@@ -387,10 +387,6 @@ builds
 releng_base_android_64_builds
 .
 py
--
-disable_signing
-.
-py
 script
 :
 "
@@ -905,10 +901,6 @@ config
 builds
 /
 releng_base_android_64_builds
-.
-py
--
-disable_signing
 .
 py
 script
@@ -1444,10 +1436,6 @@ releng_base_android_64_builds
 .
 py
 -
-disable_signing
-.
-py
--
 taskcluster_nightly
 .
 py
@@ -1902,10 +1890,6 @@ builds
 releng_base_android_64_builds
 .
 py
--
-disable_signing
-.
-py
 script
 :
 "
@@ -2319,10 +2303,6 @@ config
 builds
 /
 releng_base_android_64_builds
-.
-py
--
-disable_signing
 .
 py
 script
@@ -2826,10 +2806,6 @@ releng_base_android_64_builds
 .
 py
 -
-disable_signing
-.
-py
--
 taskcluster_nightly
 .
 py
@@ -3275,10 +3251,6 @@ config
 builds
 /
 releng_base_android_64_builds
-.
-py
--
-disable_signing
 .
 py
 script
@@ -3741,10 +3713,6 @@ config
 builds
 /
 releng_base_android_64_builds
-.
-py
--
-disable_signing
 .
 py
 -

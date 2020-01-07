@@ -67,12 +67,6 @@ max_build_output_timeout
 0
     
 '
-enable_signing
-'
-:
-True
-    
-'
 secret_files
 '
 :

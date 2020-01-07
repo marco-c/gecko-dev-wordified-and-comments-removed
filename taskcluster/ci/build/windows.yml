@@ -1308,10 +1308,6 @@ opt
 .
 py
 -
-disable_signing
-.
-py
--
 taskcluster_nightly
 .
 py
@@ -1497,10 +1493,6 @@ builds
 taskcluster_sub_win64
 /
 opt
-.
-py
--
-disable_signing
 .
 py
 -
@@ -3480,10 +3472,6 @@ opt
 .
 py
 -
-disable_signing
-.
-py
--
 taskcluster_nightly
 .
 py
@@ -3688,10 +3676,6 @@ builds
 taskcluster_sub_win64
 /
 opt
-.
-py
--
-disable_signing
 .
 py
 -

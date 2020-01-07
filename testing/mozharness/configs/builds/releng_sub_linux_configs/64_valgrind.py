@@ -43,12 +43,6 @@ valgrind
 '
     
 '
-enable_signing
-'
-:
-False
-    
-'
 perfherder_extra_options
 '
 :
