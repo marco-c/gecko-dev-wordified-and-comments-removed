@@ -670,6 +670,15 @@ destroyed
 )
 ;
 }
+getMappedExpression
+(
+expression
+)
+{
+return
+expression
+;
+}
 isPaused
 (
 )

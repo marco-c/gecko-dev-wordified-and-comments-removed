@@ -80,6 +80,7 @@ shown
 ;
 }
 ;
+await
 jsterm
 .
 execute
@@ -183,6 +184,19 @@ synthesizeKey
 "
 KEY_Enter
 "
+)
+;
+await
+waitFor
+(
+(
+)
+=
+>
+!
+jsterm
+.
+lastInputValue
 )
 ;
 let

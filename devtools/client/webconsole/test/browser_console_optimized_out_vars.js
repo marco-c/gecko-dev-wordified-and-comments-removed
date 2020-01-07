@@ -246,6 +246,7 @@ webconsole
 "
 )
 ;
+yield
 hud
 .
 jsterm

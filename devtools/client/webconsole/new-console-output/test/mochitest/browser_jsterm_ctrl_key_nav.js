@@ -99,6 +99,7 @@ testMultiLineInputNavNoHistory
 jsterm
 )
 ;
+await
 testNavWithHistory
 (
 jsterm
@@ -1031,6 +1032,7 @@ input
 ;
 }
 }
+async
 function
 testNavWithHistory
 (
@@ -1117,6 +1119,7 @@ i
 ]
 )
 ;
+await
 jsterm
 .
 execute
