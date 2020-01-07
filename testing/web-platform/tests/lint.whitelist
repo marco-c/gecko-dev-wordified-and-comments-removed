@@ -2530,6 +2530,8 @@ test
 /
 tests
 /
+functional
+/
 generate
 -
 callback
@@ -3799,6 +3801,8 @@ test
 /
 tests
 /
+functional
+/
 add_cleanup
 .
 html
@@ -3810,6 +3814,8 @@ resources
 test
 /
 tests
+/
+functional
 /
 api
 -
@@ -3826,6 +3832,8 @@ resources
 test
 /
 tests
+/
+functional
 /
 worker
 .
