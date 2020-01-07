@@ -587,11 +587,11 @@ MacroUndefined
 const
 Token
 &
-tok
+Tok
 const
 MacroDefinition
 &
-md
+Md
 const
 MacroDirective
 *
@@ -8306,11 +8306,11 @@ MacroUndefined
 const
 Token
 &
-tok
+Tok
 const
 MacroDefinition
 &
-md
+Md
 const
 MacroDirective
 *
