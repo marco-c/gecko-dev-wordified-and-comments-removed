@@ -4,8 +4,8 @@ tuple
 <
 head
 >
-Pattern
-id
+BindingIdentifier
+label
 value
 <
 /
