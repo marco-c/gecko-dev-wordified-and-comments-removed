@@ -24669,6 +24669,13 @@ mColor
 ctx
 -
 >
+NewPath
+(
+)
+;
+ctx
+-
+>
 Rectangle
 (
 bounds
