@@ -1,4 +1,4 @@
-52463
+52500
 0
 /
 nm
@@ -3171,6 +3171,9 @@ M
 Bahamian
 /
 MS
+Bahasa
+/
+M
 Bahia
 /
 M
@@ -5463,6 +5466,7 @@ M
 Budweiser
 /
 M
+Buenos
 Buffalo
 /
 M
@@ -17176,6 +17180,9 @@ Itaipu
 /
 M
 Ital
+Italia
+/
+M
 Italian
 /
 SM
@@ -24672,6 +24679,9 @@ M
 Muhammad
 /
 M
+Muhammad
+/
+M
 Muhammadan
 /
 MS
@@ -25306,6 +25316,9 @@ M
 Neddy
 /
 M
+Nederland
+/
+MS
 Neel
 /
 M
@@ -28115,6 +28128,7 @@ M
 Polo
 /
 M
+Polska
 Poltava
 /
 M
@@ -29213,8 +29227,8 @@ Rebeca
 /
 M
 Rebecca
-'
-s
+/
+M
 Rebecka
 /
 M
@@ -30568,6 +30582,12 @@ SJ
 SJW
 SK
 SLR
+SME
+/
+MS
+SMEs
+/
+M
 SNP
 /
 SM
@@ -33290,6 +33310,9 @@ Sunny
 '
 s
 Sunnyvale
+/
+M
+Suomi
 /
 M
 Superbowl
@@ -43764,6 +43787,9 @@ austral
 auteur
 '
 s
+auteur
+/
+MS
 auteurs
 authentic
 /
@@ -46756,6 +46782,7 @@ SM
 bio
 /
 SM
+biochem
 biochemical
 /
 SMY
@@ -55755,6 +55782,7 @@ M
 combination
 /
 SM
+combinatorics
 combine
 '
 s
@@ -58455,6 +58483,7 @@ cortex
 M
 cortical
 cortices
+cortisol
 cortisone
 /
 M
@@ -59712,6 +59741,9 @@ M
 croquette
 /
 SM
+crore
+/
+MS
 crosier
 /
 MS
@@ -60019,6 +60051,7 @@ SM
 cryptographer
 /
 SM
+cryptographic
 cryptography
 /
 M
@@ -60657,6 +60690,9 @@ cypress
 /
 MS
 cyst
+/
+MS
+cysteine
 /
 MS
 cystic
@@ -65875,6 +65911,9 @@ MS
 duff
 /
 MDRZGS
+duffel
+/
+S
 duffer
 /
 M
@@ -75992,6 +76031,9 @@ MS
 genome
 /
 MS
+genomic
+/
+MS
 genomics
 genre
 /
@@ -77538,6 +77580,9 @@ MS
 granter
 /
 M
+grantor
+/
+MS
 grantsmanship
 /
 M
@@ -80622,6 +80667,9 @@ SM
 hexane
 '
 s
+hexane
+/
+MS
 hexanes
 hey
 heyday
@@ -81987,6 +82035,9 @@ howler
 /
 M
 howsoever
+howto
+/
+MS
 hoyden
 /
 MS
@@ -82938,6 +82989,9 @@ ignitable
 ignite
 /
 AGDS
+igniter
+/
+MS
 ignition
 /
 MS
@@ -85164,7 +85218,7 @@ instantaneous
 Y
 instantiate
 /
-DSG
+DSGNX
 instar
 instate
 /
@@ -85808,6 +85862,7 @@ Y
 intimidation
 /
 M
+intl
 intonation
 /
 SM
@@ -86592,6 +86647,7 @@ japanning
 jape
 /
 MGDS
+japonica
 jar
 /
 SM
@@ -88600,6 +88656,9 @@ MS
 language
 /
 MS
+langue
+/
+MS
 languid
 /
 PY
@@ -89136,6 +89195,7 @@ MS
 learning
 '
 s
+learnt
 lease
 /
 ADSMG
@@ -94692,6 +94752,8 @@ mimosa
 /
 SM
 min
+/
+S
 minaret
 /
 MS
@@ -98111,6 +98173,9 @@ s
 neuroscience
 '
 s
+neuroscience
+/
+MS
 neurosciences
 neuroscientist
 /
@@ -100694,6 +100759,7 @@ M
 openness
 /
 M
+opensource
 openwork
 /
 M
@@ -105118,6 +105184,9 @@ pharisaic
 pharisee
 /
 SM
+pharma
+/
+MS
 pharmaceutic
 /
 MS
@@ -105277,6 +105346,7 @@ MS
 phlebotomize
 /
 GDS
+phlebotomy
 phlegm
 /
 M
@@ -107192,6 +107262,9 @@ MS
 polypeptide
 '
 s
+polypeptide
+/
+MS
 polyphonic
 polyphony
 /
@@ -107561,6 +107634,9 @@ portion
 KSGMD
 porti
 re
+/
+MS
+portlet
 /
 MS
 portliness
@@ -108793,6 +108869,7 @@ TGDRSMP
 pretzel
 /
 MS
+prev
 prevail
 /
 DGS
@@ -112527,7 +112604,7 @@ recondite
 reconfiguration
 reconfigure
 /
-D
+DB
 reconnaissance
 /
 MS
@@ -115304,7 +115381,7 @@ SM
 rotatably
 rotate
 /
-DSGNX
+DSGNXB
 rotation
 /
 M
@@ -117561,6 +117638,9 @@ S
 scroll
 /
 GSMD
+scrollbar
+/
+S
 scrooge
 /
 MS
@@ -118667,6 +118747,7 @@ sequitur
 sequoia
 /
 MS
+sera
 seraglio
 /
 MS
@@ -125672,6 +125753,9 @@ stroppy
 TRP
 strove
 struck
+struct
+/
+MS
 structural
 /
 Y
@@ -131780,6 +131864,7 @@ MS
 transcription
 /
 SM
+transcriptional
 transducer
 /
 MS
