@@ -1593,7 +1593,9 @@ aAltitude
 float
 aAccuracy
 float
-aBearing
+aAltitudeAccuracy
+float
+aHeading
 float
 aSpeed
 int64_t
@@ -1622,8 +1624,8 @@ aLatitude
 aLongitude
 aAltitude
 aAccuracy
-aAccuracy
-aBearing
+aAltitudeAccuracy
+aHeading
 aSpeed
 aTime
 )
