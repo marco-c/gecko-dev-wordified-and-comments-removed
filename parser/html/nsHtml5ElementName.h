@@ -1745,11 +1745,6 @@ ELT_BASEFONT
 static
 nsHtml5ElementName
 *
-ELT_CONTENT
-;
-static
-nsHtml5ElementName
-*
 ELT_DATALIST
 ;
 static

@@ -137,6 +137,9 @@ shadow
 ref
 .
 html
+#
+bug
+1421542
 pref
 (
 dom
@@ -168,6 +171,9 @@ point
 ref
 .
 html
+#
+bug
+1421542
 pref
 (
 dom
@@ -257,6 +263,9 @@ point
 ref
 .
 html
+#
+bug
+1421542
 pref
 (
 dom
@@ -288,6 +297,9 @@ point
 ref
 .
 html
+#
+bug
+1421542
 pref
 (
 dom
@@ -358,6 +370,9 @@ transition
 ref
 .
 html
+#
+bug
+1421542
 pref
 (
 dom

@@ -315,11 +315,6 @@ HTMLCanvasElement
 h
 '
 '
-HTMLContentElement
-.
-h
-'
-'
 HTMLDataElement
 .
 h
@@ -696,11 +691,6 @@ cpp
 '
 '
 HTMLCanvasElement
-.
-cpp
-'
-'
-HTMLContentElement
 .
 cpp
 '

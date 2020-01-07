@@ -142,12 +142,6 @@ TableCol
 )
 HTML_TAG
 (
-content
-Content
-Content
-)
-HTML_TAG
-(
 data
 Data
 Data

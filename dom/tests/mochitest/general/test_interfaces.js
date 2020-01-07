@@ -831,9 +831,6 @@ HTMLCanvasElement
 HTMLCollection
 "
 "
-HTMLContentElement
-"
-"
 HTMLDataElement
 "
 "
