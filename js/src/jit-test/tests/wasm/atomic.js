@@ -4664,6 +4664,10 @@ unaligned
 ]
 )
 ;
+gc
+(
+)
+;
 for
 (
 let
