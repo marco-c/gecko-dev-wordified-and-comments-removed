@@ -634,6 +634,8 @@ tar
 gz
 curl
 -
+L
+-
 O
 https
 :
