@@ -324,10 +324,10 @@ wrap_content
 "
 android
 :
-lines
+singleLine
 =
 "
-1
+true
 "
 android
 :
@@ -382,13 +382,6 @@ layout_height
 =
 "
 wrap_content
-"
-android
-:
-lines
-=
-"
-1
 "
 android
 :
