@@ -2825,6 +2825,10 @@ uint8_t
 src
 size_t
 len
+ScriptSourceObject
+*
+*
+sourceObjectOut
 )
 {
 AutoAssertReportedException
@@ -2854,7 +2858,7 @@ init
 return
 nullptr
 ;
-RootedObject
+RootedScriptSourceObject
 sourceObj
 (
 cx
@@ -3014,6 +3018,15 @@ pn
 )
 return
 nullptr
+;
+if
+(
+sourceObjectOut
+)
+*
+sourceObjectOut
+=
+sourceObj
 ;
 assertException
 .

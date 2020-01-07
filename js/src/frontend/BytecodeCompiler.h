@@ -130,6 +130,12 @@ uint8_t
 src
 size_t
 len
+ScriptSourceObject
+*
+*
+sourceObjectOut
+=
+nullptr
 )
 ;
 #
