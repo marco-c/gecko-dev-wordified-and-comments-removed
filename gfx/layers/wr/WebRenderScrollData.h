@@ -668,6 +668,17 @@ GetPaintSequenceNumber
 )
 const
 ;
+void
+ApplyUpdates
+(
+const
+ScrollUpdatesMap
+&
+aUpdates
+uint32_t
+aPaintSequenceNumber
+)
+;
 friend
 struct
 IPC
