@@ -7935,6 +7935,9 @@ GeckoStyleContext
 *
 contextIfGecko
 =
+#
+ifdef
+MOZ_OLD_STYLE
 self
 -
 >
@@ -7952,6 +7955,12 @@ GetAsGecko
 :
 nullptr
 ;
+#
+else
+nullptr
+;
+#
+endif
 TransformReferenceBox
 refBox
 (
