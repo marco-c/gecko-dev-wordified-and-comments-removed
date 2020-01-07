@@ -1092,8 +1092,9 @@ self
 .
 hosts_path
 =
-make_hosts_file
+write_hosts_file
 (
+server_config
 )
     
 def
