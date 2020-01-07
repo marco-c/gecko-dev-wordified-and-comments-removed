@@ -53,8 +53,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -68,7 +68,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -87,7 +87,7 @@ node
 let
 front
 =
-yield
+await
 getNodeFrontForSelector
 (
 "
@@ -99,7 +99,7 @@ node
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 front
@@ -246,7 +246,7 @@ occur
 "
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -275,7 +275,7 @@ expanded
 "
 )
 ;
-yield
+await
 selectNode
 (
 front
@@ -420,7 +420,7 @@ occur
 "
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
