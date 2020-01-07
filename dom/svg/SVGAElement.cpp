@@ -400,7 +400,6 @@ aDownload
 {
 GetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -424,17 +423,14 @@ ErrorResult
 rv
 )
 {
-rv
-=
 SetAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
 download
 aDownload
-true
+rv
 )
 ;
 }
