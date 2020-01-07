@@ -387,17 +387,6 @@ Novo
 "
 Africa
 /
-Sao_Tome
-"
-:
-"
-Africa
-/
-Sao_Tome
-"
-"
-Africa
-/
 Timbuktu
 "
 :
