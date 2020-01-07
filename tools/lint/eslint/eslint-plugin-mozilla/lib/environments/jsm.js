@@ -234,11 +234,6 @@ MatchPatternSet
 :
 false
 "
-MessageChannel
-"
-:
-false
-"
 MessageEvent
 "
 :
