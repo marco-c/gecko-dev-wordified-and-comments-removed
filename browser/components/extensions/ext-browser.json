@@ -17,6 +17,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 bookmarks
@@ -80,6 +82,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -154,6 +158,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 browsingData
@@ -217,6 +223,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -293,6 +301,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 commands
@@ -375,6 +385,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 devtools
@@ -448,6 +460,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 devtools
@@ -517,6 +531,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 devtools
@@ -586,6 +602,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 devtools
@@ -655,6 +673,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 find
@@ -718,6 +738,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -782,6 +804,8 @@ chrome
 extensions
 /
 content
+/
+parent
 /
 ext
 -
@@ -846,6 +870,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -921,6 +947,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 omnibox
@@ -993,6 +1021,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -1066,6 +1096,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -1130,6 +1162,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -1194,6 +1228,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -1258,6 +1294,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -1331,6 +1369,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
@@ -1408,6 +1448,8 @@ browser
 /
 content
 /
+parent
+/
 ext
 -
 url
@@ -1482,6 +1524,8 @@ chrome
 browser
 /
 content
+/
+parent
 /
 ext
 -
