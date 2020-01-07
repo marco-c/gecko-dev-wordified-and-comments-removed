@@ -207,7 +207,6 @@ instance_type
 )
 :
             
-raise
 ParserError
 (
 "
@@ -230,7 +229,7 @@ s
 .
 "
 %
-                              
+                        
 (
 identifier
 key
@@ -240,7 +239,7 @@ self
 .
 instance_type
 )
-                               
+                            
 nice_type_name
 (
 type
@@ -249,6 +248,10 @@ value
 )
 )
 )
+)
+.
+handle_later
+(
 )
 class
 MultiTypeChecker
@@ -334,7 +337,6 @@ instance_types
 )
 :
             
-raise
 ParserError
 (
 "
@@ -361,11 +363,11 @@ n
 s
 "
 %
-                              
+                        
 (
 identifier
 key
-                               
+                         
 nice_type_name
 (
 type
@@ -373,7 +375,7 @@ type
 value
 )
 )
-                               
+                         
 "
 or
 "
@@ -389,6 +391,10 @@ instance_types
 )
 )
 )
+)
+.
+handle_later
+(
 )
 class
 ListTypeChecker
@@ -443,7 +449,6 @@ value
 1
 :
             
-raise
 ParserError
 (
 "
@@ -464,11 +469,15 @@ empty
 .
 "
 %
-                              
+                        
 (
 identifier
 key
 )
+)
+.
+handle_now
+(
 )
         
 for
@@ -488,7 +497,6 @@ instance_type
 )
 :
                 
-raise
 ParserError
 (
 "
@@ -510,7 +518,7 @@ type
 s
 got
 "
-                                  
+                            
 "
 %
 s
@@ -526,7 +534,7 @@ self
 .
 instance_type
 )
-                                            
+                                      
 nice_type_name
 (
 type
@@ -535,6 +543,10 @@ x
 )
 )
 )
+)
+.
+handle_later
+(
 )
 class
 DictTypeChecker
@@ -602,7 +614,6 @@ keys
 1
 :
             
-raise
 ParserError
 (
 "
@@ -623,11 +634,15 @@ empty
 .
 "
 %
-                              
+                        
 (
 identifier
 key
 )
+)
+.
+handle_now
+(
 )
         
 for
@@ -651,7 +666,6 @@ keys_instance_type
 )
 :
                 
-raise
 ParserError
 (
 "
@@ -673,25 +687,25 @@ type
 s
 got
 "
-                                  
+                            
 "
 %
 s
 .
 "
 %
-                                  
+                            
 (
 identifier
 key
-                                   
+                             
 nice_type_name
 (
 self
 .
 keys_instance_type
 )
-                                   
+                             
 nice_type_name
 (
 type
@@ -700,6 +714,10 @@ x
 )
 )
 )
+)
+.
+handle_later
+(
 )
         
 for
@@ -724,7 +742,6 @@ values_instance_type
 )
 :
                 
-raise
 ParserError
 (
 "
@@ -740,7 +757,7 @@ for
 s
 -
 "
-                                  
+                            
 "
 expected
 value
@@ -757,18 +774,18 @@ s
 .
 "
 %
-                                  
+                            
 (
 identifier
 key
-                                   
+                             
 nice_type_name
 (
 self
 .
 values_instance_type
 )
-                                   
+                             
 k
 nice_type_name
 (
@@ -778,6 +795,10 @@ v
 )
 )
 )
+)
+.
+handle_later
+(
 )
 def
 type_check_event_fields
@@ -943,7 +964,6 @@ missing_fields
 0
 :
         
-raise
 ParserError
 (
 identifier
@@ -963,6 +983,11 @@ join
 (
 missing_fields
 )
+                    
+)
+.
+handle_now
+(
 )
     
 unknown_fields
@@ -993,7 +1018,6 @@ unknown_fields
 0
 :
         
-raise
 ParserError
 (
 identifier
@@ -1012,6 +1036,10 @@ join
 (
 unknown_fields
 )
+)
+.
+handle_later
+(
 )
     
 for
@@ -1063,7 +1091,6 @@ value
 min_length
 :
         
-raise
 ParserError
 (
 "
@@ -1090,13 +1117,17 @@ d
 .
 "
 %
-                          
+                    
 (
 identifier
 value
 field
 min_length
 )
+)
+.
+handle_later
+(
 )
     
 if
@@ -1110,7 +1141,6 @@ value
 max_length
 :
         
-raise
 ParserError
 (
 "
@@ -1137,13 +1167,17 @@ d
 .
 "
 %
-                          
+                    
 (
 identifier
 value
 field
 max_length
 )
+)
+.
+handle_later
+(
 )
     
 if
@@ -1159,7 +1193,6 @@ value
 )
 :
         
-raise
 ParserError
 (
 '
@@ -1186,13 +1219,17 @@ s
 .
 '
 %
-                          
+                    
 (
 identifier
 value
 field
 regex
 )
+)
+.
+handle_later
+(
 )
 class
 EventData
@@ -1367,7 +1404,6 @@ in
 allowed_rcc
 :
             
-raise
 ParserError
 (
 "
@@ -1387,7 +1423,7 @@ of
 s
 "
 %
-                              
+                        
 (
 self
 .
@@ -1401,6 +1437,10 @@ join
 allowed_rcc
 )
 )
+)
+.
+handle_later
+(
 )
         
 record_in_processes
@@ -1430,7 +1470,6 @@ proc
 )
 :
                 
-raise
 ParserError
 (
 self
@@ -1446,8 +1485,12 @@ record_in_processes
 :
 '
 +
-                                  
+                            
 proc
+)
+.
+handle_later
+(
 )
         
 extra_keys
@@ -1476,7 +1519,6 @@ keys
 MAX_EXTRA_KEYS_COUNT
 :
             
-raise
 ParserError
 (
 "
@@ -1493,13 +1535,17 @@ d
 .
 "
 %
-                              
+                        
 (
 self
 .
 identifier
 MAX_EXTRA_KEYS_COUNT
 )
+)
+.
+handle_later
+(
 )
         
 for
@@ -1547,7 +1593,6 @@ in
 definition
 :
             
-raise
 ParserError
 (
 "
@@ -1561,13 +1606,17 @@ required
 field
 expiry_version
 "
-                              
+                        
 %
 (
 self
 .
 identifier
 )
+)
+.
+handle_later
+(
 )
         
 expiry_version
@@ -1598,7 +1647,6 @@ self
 _strict_type_checks
 :
             
-raise
 ParserError
 (
 '
@@ -1612,7 +1660,7 @@ expiry_version
 }
 .
 '
-                              
+                        
 .
 format
 (
@@ -1621,6 +1669,10 @@ self
 identifier
 expiry_version
 )
+)
+.
+handle_now
+(
 )
         
 definition
@@ -2142,7 +2194,6 @@ IOError
 e
 :
         
-raise
 ParserError
 (
 '
@@ -2164,13 +2215,16 @@ message
 .
 "
 )
+.
+handle_now
+(
+)
     
 except
 ParserError
 e
 :
         
-raise
 ParserError
 (
 '
@@ -2193,6 +2247,10 @@ message
 "
 .
 "
+)
+.
+handle_now
+(
 )
     
 event_list
@@ -2252,7 +2310,6 @@ category
 0
 :
             
-raise
 ParserError
 (
 '
@@ -2270,6 +2327,11 @@ one
 entry
 .
 '
+                        
+)
+.
+handle_now
+(
 )
         
 for
