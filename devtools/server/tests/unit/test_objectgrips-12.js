@@ -582,9 +582,10 @@ Proxy
 output
 :
 "
-<
-proxy
->
+[
+object
+Object
+]
 "
 }
 {
