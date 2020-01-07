@@ -36196,8 +36196,6 @@ _splitMethodDefn
 (
 stmt
 cls
-.
-name
 )
             
 cls
@@ -36231,7 +36229,7 @@ def
 _splitMethodDefn
 (
 md
-clsname
+cls
 )
 :
     
@@ -36248,22 +36246,9 @@ md
 .
 decl
 .
-name
+cls
 =
-(
-clsname
-+
-'
-:
-:
-'
-+
-md
-.
-decl
-.
-name
-)
+cls
     
 md
 .

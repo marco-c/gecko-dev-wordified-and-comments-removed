@@ -2969,6 +2969,9 @@ None
 T
 =
 None
+cls
+=
+None
 )
 :
         
@@ -3103,6 +3106,12 @@ self
 T
 =
 T
+        
+self
+.
+cls
+=
+cls
         
 self
 .
