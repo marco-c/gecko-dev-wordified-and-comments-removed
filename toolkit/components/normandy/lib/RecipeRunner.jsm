@@ -219,17 +219,6 @@ jsm
 }
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-fetch
-"
-]
-)
-;
 var
 EXPORTED_SYMBOLS
 =

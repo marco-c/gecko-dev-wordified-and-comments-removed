@@ -18930,10 +18930,11 @@ External
 ;
 try
 {
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 DOMParser

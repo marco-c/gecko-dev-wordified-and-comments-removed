@@ -101,10 +101,11 @@ mozIAsyncHistory
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 URL

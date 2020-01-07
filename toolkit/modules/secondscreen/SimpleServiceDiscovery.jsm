@@ -76,10 +76,11 @@ Cu
 .
 reportError
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 XMLHttpRequest

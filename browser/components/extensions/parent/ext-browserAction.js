@@ -151,10 +151,11 @@ StartupCache
 =
 ExtensionParent
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 InspectorUtils

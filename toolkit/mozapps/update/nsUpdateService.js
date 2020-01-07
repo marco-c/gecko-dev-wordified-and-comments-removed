@@ -123,10 +123,11 @@ jsm
 this
 )
 ;
-Cu
+XPCOMUtils
 .
-importGlobalProperties
+defineLazyGlobalGetters
 (
+this
 [
 "
 DOMParser
