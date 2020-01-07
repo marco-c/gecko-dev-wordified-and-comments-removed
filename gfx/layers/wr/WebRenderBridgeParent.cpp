@@ -6070,6 +6070,8 @@ SampleAnimations
 mAnimStorage
 *
 testingTimeStamp
+*
+testingTimeStamp
 )
 ;
 return
@@ -6092,15 +6094,7 @@ AnimationHelper
 SampleAnimations
 (
 mAnimStorage
-!
 mPreviousFrameTimeStamp
-.
-IsNull
-(
-)
-?
-mPreviousFrameTimeStamp
-:
 lastComposeTime
 )
 ;

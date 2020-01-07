@@ -537,7 +537,9 @@ SampleResult
 SampleAnimationForEachNode
 (
 TimeStamp
-aTime
+aPreviousFrameTime
+TimeStamp
+aCurrentFrameTime
 AnimationArray
 &
 aAnimations
@@ -590,7 +592,9 @@ CompositorAnimationStorage
 *
 aStorage
 TimeStamp
-aTime
+aPreviousFrameTime
+TimeStamp
+aCurrentFrameTime
 )
 ;
 }

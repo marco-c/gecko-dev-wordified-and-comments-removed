@@ -2934,7 +2934,9 @@ CompositorAnimationStorage
 *
 aStorage
 TimeStamp
-aTime
+aPreviousFrameTime
+TimeStamp
+aCurrentFrameTime
 )
 {
 bool
@@ -3008,7 +3010,8 @@ AnimationHelper
 :
 SampleAnimationForEachNode
 (
-aTime
+aPreviousFrameTime
+aCurrentFrameTime
 animations
 layer
 -
@@ -5276,15 +5279,7 @@ SampleAnimations
 (
 root
 storage
-!
 mPreviousFrameTimeStamp
-.
-IsNull
-(
-)
-?
-mPreviousFrameTimeStamp
-:
 aCurrentFrame
 )
 ;
