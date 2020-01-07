@@ -3973,7 +3973,7 @@ loopUntilIdle
 }
 session
 .
-openWindow
+open
 (
 mInstrumentation
 .
@@ -4175,7 +4175,7 @@ isOpen
 {
 session
 .
-closeWindow
+close
 (
 )
 ;

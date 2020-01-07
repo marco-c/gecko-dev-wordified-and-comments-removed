@@ -377,7 +377,7 @@ recycle
 fun
 GeckoSession
 .
-openWindow
+open
 (
 )
 =

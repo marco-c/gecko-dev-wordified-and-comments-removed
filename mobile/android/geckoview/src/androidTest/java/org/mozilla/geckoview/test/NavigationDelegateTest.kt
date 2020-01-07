@@ -1582,7 +1582,7 @@ settings
 )
 newSession
 .
-openWindow
+open
 (
 )
 response

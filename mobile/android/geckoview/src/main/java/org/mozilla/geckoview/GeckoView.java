@@ -1243,7 +1243,7 @@ isOpen
 {
 mSession
 .
-openWindow
+open
 (
 getContext
 (
@@ -1322,7 +1322,7 @@ isOpen
 {
 mSession
 .
-closeWindow
+close
 (
 )
 ;
