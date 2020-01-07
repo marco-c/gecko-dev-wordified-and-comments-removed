@@ -1,7 +1,9 @@
-class
-TabBrowser
+window
+.
+_gBrowser
+=
 {
-constructor
+init
 (
 )
 {
@@ -20343,6 +20345,7 @@ finishMediaBlockTimer
 ;
 }
 }
+;
 class
 TabProgressListener
 {
