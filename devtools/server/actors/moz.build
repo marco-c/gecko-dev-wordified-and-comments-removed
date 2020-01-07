@@ -107,6 +107,9 @@ utils
 '
 webconsole
 '
+'
+worker
+'
 ]
 DevToolsModules
 (

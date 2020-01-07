@@ -163,15 +163,6 @@ main
 js
 '
 '
-service
--
-worker
--
-child
-.
-js
-'
-'
 worker
 .
 js
