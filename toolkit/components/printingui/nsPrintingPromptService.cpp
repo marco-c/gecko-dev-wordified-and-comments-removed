@@ -538,9 +538,6 @@ parent
 nsIPrintSettings
 *
 printSettings
-nsIObserver
-*
-aObs
 )
 {
 NS_ENSURE_ARG
