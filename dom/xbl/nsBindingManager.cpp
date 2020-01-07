@@ -984,6 +984,11 @@ nullptr
 aContent
 -
 >
+AsElement
+(
+)
+-
+>
 SetXBLBinding
 (
 nullptr
