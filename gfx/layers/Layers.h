@@ -149,15 +149,6 @@ include
 "
 mozilla
 /
-StyleAnimationValue
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
@@ -422,9 +413,6 @@ ComputedTimingFunction
 ;
 class
 FrameLayerBuilder
-;
-class
-StyleAnimationValue
 ;
 namespace
 gl
@@ -4301,7 +4289,8 @@ HasOpacityAnimation
 )
 const
 ;
-AnimationValue
+RawServoAnimationValue
+*
 GetBaseAnimationStyle
 (
 )
