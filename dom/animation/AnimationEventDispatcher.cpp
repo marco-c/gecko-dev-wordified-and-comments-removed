@@ -63,7 +63,7 @@ ImplCycleCollectionTraverse
 cb
 info
 .
-mElement
+mTarget
 "
 mozilla
 :
@@ -72,7 +72,7 @@ AnimationEventDispatcher
 .
 mPendingEvents
 .
-mElement
+mTarget
 "
 )
 ;
