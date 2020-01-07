@@ -6187,6 +6187,17 @@ presence
 ref
 .
 svg
+fuzzy
+-
+if
+(
+skiaContent
+|
+|
+webrender
+72
+871
+)
 =
 =
 pattern
