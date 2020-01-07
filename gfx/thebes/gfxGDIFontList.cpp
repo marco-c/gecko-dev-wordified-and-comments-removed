@@ -1303,8 +1303,6 @@ fakeStyle
 weight
 =
 mWeight
-*
-100
 ;
 RefPtr
 <
