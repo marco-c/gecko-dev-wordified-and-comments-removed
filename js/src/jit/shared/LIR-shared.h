@@ -99,7 +99,6 @@ extraName
 (
 )
 const
-override
 {
 return
 StringFromMIRType
@@ -389,7 +388,6 @@ GenericPrinter
 &
 out
 )
-override
 ;
 bool
 add
@@ -2005,7 +2003,6 @@ extraName
 (
 )
 const
-override
 {
 return
 MSimdBinaryComp
@@ -2216,7 +2213,6 @@ extraName
 (
 )
 const
-override
 {
 return
 MSimdBinaryArith
@@ -2456,7 +2452,6 @@ extraName
 (
 )
 const
-override
 {
 return
 MSimdBinarySaturating
@@ -2722,7 +2717,6 @@ extraName
 (
 )
 const
-override
 {
 return
 MSimdBinaryBitwise
@@ -2877,7 +2871,6 @@ extraName
 (
 )
 const
-override
 {
 return
 MSimdShift
@@ -3339,7 +3332,6 @@ extraName
 (
 )
 const
-override
 {
 return
 kind_
@@ -3922,7 +3914,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -4410,7 +4401,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -9591,7 +9581,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -9780,7 +9769,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -9970,7 +9958,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -10081,7 +10068,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -10261,7 +10247,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -10453,7 +10438,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -13019,7 +13003,6 @@ extraName
 (
 )
 const
-override
 {
 if
 (
@@ -13125,7 +13108,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -13217,7 +13199,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -13304,7 +13285,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -13395,7 +13375,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -13783,7 +13762,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -15255,7 +15233,6 @@ extraName
 (
 )
 const
-override
 {
 return
 MMathFunction
@@ -15355,7 +15332,6 @@ extraName
 (
 )
 const
-override
 {
 return
 MMathFunction
@@ -15411,7 +15387,6 @@ extraName
 (
 )
 const
-override
 {
 return
 snapshot
@@ -15533,7 +15508,6 @@ extraName
 (
 )
 const
-override
 {
 return
 snapshot
@@ -15781,7 +15755,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -15840,7 +15813,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -16008,7 +15980,6 @@ extraName
 (
 )
 const
-override
 {
 return
 CodeName
@@ -17324,7 +17295,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mode
@@ -21942,7 +21912,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -22204,7 +22173,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -22333,7 +22301,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -22884,7 +22851,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -23016,7 +22982,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -23861,7 +23826,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -24008,7 +23972,6 @@ extraName
 (
 )
 const
-override
 {
 return
 mir
@@ -27477,7 +27440,6 @@ extraName
 (
 )
 const
-override
 {
 return
 PropertyNameToExtraName
@@ -27590,7 +27552,6 @@ extraName
 (
 )
 const
-override
 {
 return
 PropertyNameToExtraName
@@ -27854,7 +27815,6 @@ extraName
 (
 )
 const
-override
 {
 return
 StringFromMIRType
