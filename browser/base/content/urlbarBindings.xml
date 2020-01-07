@@ -8421,13 +8421,6 @@ selectedVal
 =
 selection
 .
-QueryInterface
-(
-Ci
-.
-nsISelectionPrivate
-)
-.
 toStringWithFormat
 (
 "

@@ -1619,13 +1619,6 @@ removeAllRanges
 ;
 selection
 .
-QueryInterface
-(
-Ci
-.
-nsISelectionPrivate
-)
-.
 interlinePosition
 =
 true
