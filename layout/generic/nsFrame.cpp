@@ -15826,16 +15826,6 @@ nsDisplayOwnLayerFlags
 :
 :
 eNone
-mozilla
-:
-:
-layers
-:
-:
-FrameMetrics
-:
-:
-NULL_SCROLL_ID
 ScrollbarData
 {
 }
