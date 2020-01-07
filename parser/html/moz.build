@@ -534,12 +534,4 @@ error
 =
 shadow
 '
-'
--
-Wno
--
-implicit
--
-fallthrough
-'
 ]

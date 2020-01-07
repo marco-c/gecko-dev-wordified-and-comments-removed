@@ -2254,6 +2254,8 @@ reconstructTheActiveFormattingElements
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 TEXT
@@ -3383,6 +3385,8 @@ eofloop
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_TEMPLATE
@@ -4008,6 +4012,8 @@ starttagloop
 ;
 }
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -4490,6 +4496,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_TABLE_BODY
@@ -4649,6 +4657,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_TABLE
@@ -5162,6 +5172,8 @@ intableloop
 intableloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_CAPTION
@@ -5276,6 +5288,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_CELL
@@ -5347,6 +5361,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 FRAMESET_OK
@@ -5576,11 +5592,15 @@ mode
 IN_BODY
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_BODY
@@ -6563,6 +6583,8 @@ reconstructTheActiveFormattingElements
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 }
 #
 ifdef
@@ -6803,9 +6825,8 @@ starttagloop
 )
 ;
 }
-else
-{
-}
+MOZ_FALLTHROUGH
+;
 }
 case
 NOFRAMES
@@ -7298,6 +7319,8 @@ starttagloop
 inbodyloop_end
 :
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_HEAD
@@ -7566,6 +7589,8 @@ starttagloop
 }
 inheadloop_end
 :
+;
+MOZ_FALLTHROUGH
 ;
 }
 case
@@ -7993,6 +8018,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_SELECT
@@ -8436,6 +8463,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 AFTER_FRAMESET
@@ -10675,6 +10704,8 @@ endtagloop
 ;
 }
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_ROW
@@ -10915,6 +10946,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_TABLE_BODY
@@ -11076,6 +11109,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_TABLE
@@ -11208,6 +11243,8 @@ name
 ;
 }
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_CAPTION
@@ -11426,6 +11463,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_CELL
@@ -11637,6 +11676,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 FRAMESET_OK
@@ -12811,9 +12852,8 @@ endtagloop
 )
 ;
 }
-else
-{
-}
+MOZ_FALLTHROUGH
+;
 }
 case
 A
@@ -12842,6 +12882,8 @@ endtagloop
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 default
 :
@@ -12983,6 +13025,8 @@ eltPos
 }
 }
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_HEAD
@@ -13392,6 +13436,8 @@ default
 :
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 IN_SELECT

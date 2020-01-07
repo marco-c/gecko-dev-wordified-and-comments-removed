@@ -10802,9 +10802,6 @@ break
 starttagloop
 ;
 }
-else
-{
-}
 case
 NOFRAMES
 :
@@ -16345,9 +16342,6 @@ name
 break
 endtagloop
 ;
-}
-else
-{
 }
 case
 A
