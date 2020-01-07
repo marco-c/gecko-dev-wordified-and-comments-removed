@@ -7664,6 +7664,10 @@ Destroy
 )
 ;
 }
+FlushSceneBuilds
+(
+)
+;
 mAnimStorage
 =
 nullptr
