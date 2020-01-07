@@ -925,12 +925,13 @@ null
 }
 if
 (
-PlacesControllerDragHelper
+this
+.
+controller
 .
 disallowInsertion
 (
 container
-this
 )
 )
 return
