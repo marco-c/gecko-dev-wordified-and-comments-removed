@@ -6091,7 +6091,7 @@ jni
 CallingThread
 :
 :
-ANY
+GECKO
 ;
 static
 const
@@ -6226,7 +6226,7 @@ jni
 CallingThread
 :
 :
-ANY
+GECKO
 ;
 static
 const

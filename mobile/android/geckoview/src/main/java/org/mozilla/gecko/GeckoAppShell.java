@@ -9707,7 +9707,7 @@ WrapForJNI
 calledFrom
 =
 "
-any
+gecko
 "
 )
 public
@@ -9801,7 +9801,7 @@ WrapForJNI
 calledFrom
 =
 "
-any
+gecko
 "
 )
 public
