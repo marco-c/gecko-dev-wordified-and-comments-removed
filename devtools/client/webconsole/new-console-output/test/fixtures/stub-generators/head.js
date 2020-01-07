@@ -470,13 +470,15 @@ timer
 {
 if
 (
+"
+duration
+"
+in
 res
 .
 message
 .
 timer
-.
-duration
 )
 {
 res
