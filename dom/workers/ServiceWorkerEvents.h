@@ -136,6 +136,9 @@ class
 Blob
 ;
 class
+Client
+;
+class
 MessagePort
 ;
 class
@@ -1083,7 +1086,7 @@ mLastEventId
 ;
 RefPtr
 <
-ServiceWorkerClient
+Client
 >
 mClient
 ;

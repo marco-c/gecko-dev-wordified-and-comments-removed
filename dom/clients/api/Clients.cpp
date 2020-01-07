@@ -233,9 +233,6 @@ JSObject
 aGivenProto
 )
 {
-#
-if
-0
 return
 ClientsBinding
 :
@@ -246,11 +243,6 @@ aCx
 this
 aGivenProto
 )
-;
-#
-endif
-return
-nullptr
 ;
 }
 nsIGlobalObject

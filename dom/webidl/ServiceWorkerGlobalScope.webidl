@@ -185,6 +185,11 @@ WorkerGlobalScope
 {
 [
 SameObject
+BinaryName
+=
+"
+GetClients
+"
 ]
 readonly
 attribute

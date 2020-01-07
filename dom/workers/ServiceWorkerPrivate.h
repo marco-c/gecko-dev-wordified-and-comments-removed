@@ -39,6 +39,9 @@ mozilla
 namespace
 dom
 {
+class
+ClientInfoAndState
+;
 namespace
 workers
 {
@@ -167,13 +170,10 @@ JSObject
 >
 &
 aTransferable
-UniquePtr
-<
-ServiceWorkerClientInfo
->
+const
+ClientInfoAndState
 &
-&
-aClientInfo
+aClientInfoAndState
 )
 ;
 nsresult

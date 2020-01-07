@@ -434,9 +434,6 @@ JSObject
 aGivenProto
 )
 {
-#
-if
-0
 if
 (
 mData
@@ -479,11 +476,6 @@ aCx
 this
 aGivenProto
 )
-;
-#
-endif
-return
-nullptr
 ;
 }
 nsIGlobalObject

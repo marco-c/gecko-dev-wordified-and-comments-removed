@@ -138,6 +138,13 @@ frameType
 in
 bug
 1290936
+[
+BinaryName
+=
+"
+GetFrameType
+"
+]
 readonly
 attribute
 FrameType
@@ -198,6 +205,13 @@ WindowClient
 :
 Client
 {
+[
+BinaryName
+=
+"
+GetVisibilityState
+"
+]
 readonly
 attribute
 VisibilityState
