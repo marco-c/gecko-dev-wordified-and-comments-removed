@@ -804,12 +804,12 @@ Instance
 UniqueInstance
 ;
 bool
-InitInstanceStaticData
+InitSignatureSet
 (
 )
 ;
 void
-ShutDownInstanceStaticData
+ReleaseSignatureSet
 (
 )
 ;

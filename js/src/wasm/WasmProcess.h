@@ -92,8 +92,13 @@ CodeSegment
 cs
 )
 ;
+bool
+Init
+(
+)
+;
 void
-ShutDownProcessStaticData
+ShutDown
 (
 )
 ;
