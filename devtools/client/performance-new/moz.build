@@ -80,6 +80,11 @@ browser
 js
 '
 '
+initializer
+.
+js
+'
+'
 panel
 .
 js

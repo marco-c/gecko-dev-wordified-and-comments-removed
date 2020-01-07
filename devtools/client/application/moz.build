@@ -69,6 +69,11 @@ application
 css
 '
 '
+initializer
+.
+js
+'
+'
 panel
 .
 js

@@ -121,6 +121,11 @@ search
 js
 '
 '
+inspector
+.
+js
+'
+'
 panel
 .
 js

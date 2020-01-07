@@ -349,13 +349,13 @@ javascript
 src
 =
 "
-chrome
+resource
 :
 /
 /
 devtools
 /
-content
+client
 /
 scratchpad
 /

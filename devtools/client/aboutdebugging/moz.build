@@ -96,6 +96,14 @@ components
 modules
 '
 ]
+DevToolsModules
+(
+'
+initializer
+.
+js
+'
+)
 BROWSER_CHROME_MANIFESTS
 +
 =
