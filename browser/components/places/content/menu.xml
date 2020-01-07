@@ -1653,13 +1653,8 @@ elt
 .
 lastChild
 .
-showPopup
+openPopup
 (
-this
-.
-_folder
-.
-elt
 )
 ;
 this

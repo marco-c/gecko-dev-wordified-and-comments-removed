@@ -2009,7 +2009,7 @@ popupshown
 ;
 menuPopup
 .
-showPopup
+openPopup
 (
 )
 ;

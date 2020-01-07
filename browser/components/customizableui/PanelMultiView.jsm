@@ -2655,8 +2655,6 @@ this
 .
 _panel
 .
-popupBoxObject
-.
 getOuterScreenRect
 (
 )

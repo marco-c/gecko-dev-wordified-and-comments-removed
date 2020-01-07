@@ -3015,9 +3015,7 @@ is
 (
 gPopup
 .
-popupBoxObject
-.
-popupState
+state
 "
 closed
 "
@@ -4972,9 +4970,7 @@ is
 (
 gPopup
 .
-popupBoxObject
-.
-popupState
+state
 "
 closed
 "

@@ -649,8 +649,6 @@ popup
 &
 popup
 .
-popupBoxObject
-.
 anchorNode
 =
 =

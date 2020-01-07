@@ -235,8 +235,6 @@ is
 (
 highlight
 .
-popupBoxObject
-.
 anchorNode
 .
 id
