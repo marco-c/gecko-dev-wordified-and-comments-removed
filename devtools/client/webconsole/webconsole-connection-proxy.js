@@ -1275,8 +1275,6 @@ this
 .
 webConsoleFrame
 .
-jsterm
-.
 clearPrivateMessages
 (
 )

@@ -219,7 +219,9 @@ value
 browser_console_hide_jsterm_test
 "
 ;
-jsterm
+hud
+.
+ui
 .
 clearOutput
 (

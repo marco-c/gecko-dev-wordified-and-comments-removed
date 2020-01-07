@@ -70,7 +70,7 @@ TEST_URI
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (
@@ -239,7 +239,7 @@ hud
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

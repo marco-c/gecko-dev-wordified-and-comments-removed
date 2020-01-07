@@ -255,7 +255,7 @@ console
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

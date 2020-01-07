@@ -68,7 +68,9 @@ hud
 .
 jsterm
 ;
-jsterm
+hud
+.
+ui
 .
 clearOutput
 (

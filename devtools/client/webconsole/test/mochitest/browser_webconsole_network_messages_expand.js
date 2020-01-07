@@ -461,7 +461,7 @@ target
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

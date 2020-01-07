@@ -162,7 +162,9 @@ split
 0
 ]
 ;
-jsterm
+hud
+.
+ui
 .
 clearOutput
 (

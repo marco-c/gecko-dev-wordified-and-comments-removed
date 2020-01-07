@@ -397,8 +397,6 @@ panel
 .
 hud
 .
-jsterm
-.
 once
 (
 "
@@ -412,7 +410,7 @@ panel
 .
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

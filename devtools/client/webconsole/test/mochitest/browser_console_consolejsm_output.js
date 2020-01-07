@@ -111,7 +111,7 @@ cached
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (
@@ -327,7 +327,7 @@ foobarTimer
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (
@@ -500,7 +500,7 @@ hud
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

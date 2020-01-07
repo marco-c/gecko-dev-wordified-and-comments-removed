@@ -87,7 +87,7 @@ TEST_URI
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

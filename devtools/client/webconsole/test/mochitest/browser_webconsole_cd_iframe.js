@@ -527,7 +527,7 @@ iframe
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

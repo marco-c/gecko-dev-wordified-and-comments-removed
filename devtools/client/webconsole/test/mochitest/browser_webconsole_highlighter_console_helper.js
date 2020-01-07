@@ -299,7 +299,9 @@ jsterm
 =
 hud
 ;
-jsterm
+hud
+.
+ui
 .
 clearOutput
 (
@@ -341,7 +343,9 @@ for
 "
 )
 ;
-jsterm
+hud
+.
+ui
 .
 clearOutput
 (

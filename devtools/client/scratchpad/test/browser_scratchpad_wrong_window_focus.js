@@ -137,7 +137,7 @@ hud
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (

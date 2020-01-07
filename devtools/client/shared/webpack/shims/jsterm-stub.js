@@ -89,11 +89,6 @@ openVariablesView
 )
 {
 }
-clearOutput
-(
-)
-{
-}
 init
 (
 )

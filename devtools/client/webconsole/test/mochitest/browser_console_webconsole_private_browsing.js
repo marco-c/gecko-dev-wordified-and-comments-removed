@@ -531,7 +531,7 @@ onPrivateMessagesCleared
 =
 hud
 .
-jsterm
+ui
 .
 once
 (

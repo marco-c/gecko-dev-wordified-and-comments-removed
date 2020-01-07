@@ -290,6 +290,8 @@ browserConsole
 .
 jsterm
 .
+hud
+.
 clearOutput
 (
 true

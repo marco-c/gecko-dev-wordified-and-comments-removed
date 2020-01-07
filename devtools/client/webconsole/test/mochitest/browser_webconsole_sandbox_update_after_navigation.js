@@ -220,7 +220,7 @@ TEST_URI2
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (
@@ -284,7 +284,7 @@ cleared
 =
 hud
 .
-jsterm
+ui
 .
 once
 (

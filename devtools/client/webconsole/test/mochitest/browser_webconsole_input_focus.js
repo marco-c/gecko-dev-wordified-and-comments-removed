@@ -95,7 +95,7 @@ opened
 ;
 hud
 .
-jsterm
+ui
 .
 clearOutput
 (
