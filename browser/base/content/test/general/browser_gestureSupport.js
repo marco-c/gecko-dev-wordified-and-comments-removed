@@ -380,9 +380,7 @@ shiftKey
 (
 test_expectedModifiers
 &
-Ci
-.
-nsIDOMEvent
+Event
 .
 SHIFT_MASK
 )
@@ -409,9 +407,7 @@ ctrlKey
 (
 test_expectedModifiers
 &
-Ci
-.
-nsIDOMEvent
+Event
 .
 CONTROL_MASK
 )
@@ -438,9 +434,7 @@ altKey
 (
 test_expectedModifiers
 &
-Ci
-.
-nsIDOMEvent
+Event
 .
 ALT_MASK
 )
@@ -467,9 +461,7 @@ metaKey
 (
 test_expectedModifiers
 &
-Ci
-.
-nsIDOMEvent
+Event
 .
 META_MASK
 )
@@ -1074,9 +1066,7 @@ MozEdgeUICompleted
 let
 modifier
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 SHIFT_MASK
 ;
@@ -1094,9 +1084,7 @@ modifier
 ;
 modifier
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 META_MASK
 ;
@@ -1114,9 +1102,7 @@ modifier
 ;
 modifier
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 ALT_MASK
 ;
@@ -1134,9 +1120,7 @@ modifier
 ;
 modifier
 =
-Ci
-.
-nsIDOMEvent
+Event
 .
 CONTROL_MASK
 ;

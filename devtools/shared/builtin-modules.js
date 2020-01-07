@@ -88,6 +88,7 @@ btoa
 ChromeUtils
 CSS
 CSSRule
+Event
 FileReader
 FormData
 indexedDB
@@ -137,6 +138,9 @@ CSS
 "
 "
 CSSRule
+"
+"
+Event
 "
 "
 FileReader
@@ -707,6 +711,7 @@ Element
 Ci
 .
 nsIDOMElement
+Event
 FormData
 isWorker
 :

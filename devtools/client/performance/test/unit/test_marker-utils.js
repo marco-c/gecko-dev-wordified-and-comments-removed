@@ -404,9 +404,7 @@ DOMEvent
 "
 eventPhase
 :
-Ci
-.
-nsIDOMEvent
+Event
 .
 AT_TARGET
 type

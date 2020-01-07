@@ -141,9 +141,7 @@ bubbling
 capturing
 maps
 to
-Ci
-.
-nsIDOMEvent
+Event
 constants
 )
 *
