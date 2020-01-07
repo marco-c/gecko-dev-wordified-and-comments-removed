@@ -842,6 +842,15 @@ javascript
 .
 options
 .
+spectre
+.
+value_masking
+"
+"
+javascript
+.
+options
+.
 streams
 "
 "
