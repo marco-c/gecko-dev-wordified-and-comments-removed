@@ -1572,7 +1572,6 @@ content
 >
 GetOrBuildPath
 (
-*
 drawTarget
 fillRule
 )
@@ -2509,7 +2508,6 @@ element
 >
 GetOrBuildPath
 (
-*
 tmpDT
 fillRule
 )
@@ -3539,7 +3537,6 @@ element
 >
 GetOrBuildPath
 (
-*
 drawTarget
 fillRule
 )
@@ -3634,7 +3631,6 @@ element
 >
 GetOrBuildPath
 (
-*
 drawTarget
 fillRule
 )
@@ -3799,7 +3795,6 @@ element
 >
 GetOrBuildPath
 (
-*
 drawTarget
 fillRule
 )

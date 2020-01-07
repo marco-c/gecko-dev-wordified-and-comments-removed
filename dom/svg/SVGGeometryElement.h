@@ -577,7 +577,7 @@ GetOrBuildPath
 (
 const
 DrawTarget
-&
+*
 aDrawTarget
 FillRule
 fillRule
