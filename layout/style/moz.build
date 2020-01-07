@@ -1603,13 +1603,6 @@ inputs
 =
 [
 '
-nsCSSPropsGenerated
-.
-inc
-.
-in
-'
-'
 !
 ServoCSSPropList
 .
