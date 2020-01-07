@@ -2347,15 +2347,6 @@ resistFingerprinting
 .
 reduceTimerPrecision
 .
-jitter
-"
-"
-privacy
-.
-resistFingerprinting
-.
-reduceTimerPrecision
-.
 microseconds
 "
 "
