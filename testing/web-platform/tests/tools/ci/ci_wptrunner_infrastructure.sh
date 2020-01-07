@@ -119,9 +119,6 @@ PRODUCTS
 "
 firefox
 "
-"
-chrome
-"
 )
 for
 PRODUCT
