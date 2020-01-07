@@ -1949,7 +1949,6 @@ nsGenericHTMLElement
 :
 FromNode
 (
-&
 aElement
 )
 ;
