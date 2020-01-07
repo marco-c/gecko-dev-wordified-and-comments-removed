@@ -733,13 +733,6 @@ contentWin
 =
 subject
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMDocument
-)
-.
 defaultView
 ;
 let

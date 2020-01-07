@@ -5465,10 +5465,13 @@ originalTarget
 if
 (
 browser
-instanceof
-Ci
 .
-nsIDOMDocument
+nodeType
+=
+=
+browser
+.
+DOCUMENT_NODE
 )
 {
 browser

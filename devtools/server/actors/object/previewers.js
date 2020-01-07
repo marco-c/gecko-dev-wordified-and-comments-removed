@@ -2979,10 +2979,13 @@ true
 if
 (
 rawObj
-instanceof
-Ci
 .
-nsIDOMDocument
+nodeType
+=
+=
+rawObj
+.
+DOCUMENT_NODE
 &
 &
 rawObj

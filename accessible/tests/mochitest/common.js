@@ -195,13 +195,6 @@ Ci
 nsIObserverService
 ;
 const
-nsIDOMDocument
-=
-Ci
-.
-nsIDOMDocument
-;
-const
 nsIDOMNode
 =
 Ci

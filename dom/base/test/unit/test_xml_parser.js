@@ -83,7 +83,7 @@ doesn
 '
 t
 return
-nsIDOMDocument
+Document
 "
 ]
 [
@@ -144,6 +144,10 @@ test2
 {
 return
 (
+ChromeUtils
+.
+getClassName
+(
 ParseXML
 (
 "
@@ -153,8 +157,13 @@ root
 >
 "
 )
-instanceof
-nsIDOMDocument
+)
+=
+=
+=
+"
+XMLDocument
+"
 )
 ;
 }
