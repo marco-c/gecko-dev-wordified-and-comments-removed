@@ -604,9 +604,6 @@ window
 .
 *
 /
-[
-Throws
-]
 void
 requestNotifyAfterRemotePaint
 (
