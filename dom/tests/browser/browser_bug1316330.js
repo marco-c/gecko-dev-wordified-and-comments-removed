@@ -229,11 +229,6 @@ synthesizeAndWaitKey
 d
 "
 {
-code
-:
-"
-KeyD
-"
 repeat
 :
 3
@@ -318,11 +313,6 @@ synthesizeAndWaitKey
 p
 "
 {
-code
-:
-"
-KeyP
-"
 repeat
 :
 3

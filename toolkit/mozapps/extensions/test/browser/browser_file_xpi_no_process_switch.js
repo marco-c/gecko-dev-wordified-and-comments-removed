@@ -322,11 +322,6 @@ synthesizeKey
 KEY_Enter
 "
 {
-code
-:
-"
-Enter
-"
 }
 )
 ;

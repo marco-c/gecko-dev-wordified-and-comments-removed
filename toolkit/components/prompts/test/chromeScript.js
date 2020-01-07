@@ -1130,11 +1130,6 @@ synthesizeKey
 KEY_Escape
 "
 {
-code
-:
-"
-Escape
-"
 }
 browserWin
 )

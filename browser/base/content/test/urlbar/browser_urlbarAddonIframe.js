@@ -717,11 +717,6 @@ type
 "
 keydown
 "
-code
-:
-"
-ArrowDown
-"
 }
 )
 ;

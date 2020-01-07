@@ -177,11 +177,6 @@ synthesizeKey
 KEY_ArrowDown
 "
 {
-code
-:
-"
-ArrowDown
-"
 }
 )
 ;
@@ -203,11 +198,6 @@ synthesizeKey
 KEY_ArrowDown
 "
 {
-code
-:
-"
-ArrowDown
-"
 }
 )
 ;

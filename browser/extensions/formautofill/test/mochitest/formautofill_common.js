@@ -762,11 +762,6 @@ synthesizeKey
 KEY_Enter
 "
 {
-code
-:
-"
-Enter
-"
 }
 )
 ;
@@ -1484,11 +1479,6 @@ synthesizeKey
 KEY_ArrowDown
 "
 {
-code
-:
-"
-ArrowDown
-"
 }
 )
 ;
@@ -1520,11 +1510,6 @@ synthesizeKey
 KEY_ArrowDown
 "
 {
-code
-:
-"
-ArrowDown
-"
 }
 )
 ;

@@ -90,11 +90,6 @@ synthesizeKey
 KEY_Escape
 "
 {
-code
-:
-"
-Escape
-"
 }
 win
 )
@@ -119,11 +114,6 @@ synthesizeKey
 KEY_Enter
 "
 {
-code
-:
-"
-Enter
-"
 }
 win
 )

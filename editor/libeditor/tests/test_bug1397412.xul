@@ -546,11 +546,6 @@ synthesizeKey
 t
 "
 {
-code
-:
-"
-KeyT
-"
 }
 )
 ;
@@ -605,11 +600,6 @@ synthesizeKey
 t
 "
 {
-code
-:
-"
-KeyT
-"
 }
 )
 ;

@@ -756,11 +756,6 @@ KEY_ArrowDown
 shiftKey
 :
 true
-code
-:
-"
-ArrowDown
-"
 }
 window
 )
@@ -1251,11 +1246,6 @@ KEY_ArrowDown
 shiftKey
 :
 true
-code
-:
-"
-ArrowDown
-"
 }
 window
 )

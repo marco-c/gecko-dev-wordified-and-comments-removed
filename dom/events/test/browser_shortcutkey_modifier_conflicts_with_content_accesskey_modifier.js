@@ -425,11 +425,6 @@ synthesizeKey
 d
 "
 {
-code
-:
-"
-KeyD
-"
 altKey
 :
 true
@@ -503,11 +498,6 @@ synthesizeKey
 d
 "
 {
-code
-:
-"
-KeyD
-"
 altKey
 :
 true

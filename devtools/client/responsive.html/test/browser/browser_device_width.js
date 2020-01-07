@@ -321,11 +321,6 @@ synthesizeKey
 KEY_ArrowUp
 "
 {
-code
-:
-"
-ArrowUp
-"
 }
 )
 ;
@@ -379,11 +374,6 @@ KEY_ArrowDown
 shiftKey
 :
 true
-code
-:
-"
-ArrowDown
-"
 }
 )
 ;
