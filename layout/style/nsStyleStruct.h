@@ -9263,9 +9263,6 @@ mShapeImageThreshold
 .
 0f
 ;
-nsStyleCoord
-mShapeMargin
-;
 mozilla
 :
 :
