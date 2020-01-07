@@ -1,4 +1,4 @@
-52537
+52547
 0
 /
 nm
@@ -64382,10 +64382,12 @@ distortion
 MS
 distract
 /
-DG
+DGB
+distractability
 distracted
 /
 Y
+distractible
 distraction
 /
 S
@@ -81665,6 +81667,9 @@ SM
 horn
 /
 MDS
+hornbeam
+/
+S
 hornblende
 /
 M
@@ -83402,6 +83407,7 @@ SMR
 impact
 /
 SMDG
+impactful
 impair
 /
 SDGL
@@ -87667,6 +87673,10 @@ SM
 kerfuffle
 /
 S
+kern
+/
+G
+kerne
 kernel
 /
 SM
@@ -97855,6 +97865,7 @@ neath
 neatness
 /
 M
+neato
 nebula
 /
 M
@@ -112640,6 +112651,9 @@ recognized
 /
 U
 recombination
+recommender
+/
+S
 recompense
 /
 DSMG
@@ -113873,6 +113887,7 @@ E
 reputation
 /
 MS
+reputational
 repute
 /
 DSMGB
@@ -138952,6 +138967,7 @@ Y
 woad
 /
 M
+woah
 wobble
 /
 MGDS
