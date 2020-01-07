@@ -319,7 +319,7 @@ thiz
 mDecoder
 -
 >
-NotifyDataArrivedInternal
+NotifyReaderDataArrived
 (
 )
 ;
