@@ -76,6 +76,13 @@ Xlib
 .
 h
 >
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 class
 nsWindow
 ;
