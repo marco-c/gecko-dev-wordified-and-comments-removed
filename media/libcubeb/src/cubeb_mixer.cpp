@@ -2645,7 +2645,7 @@ unsigned
 int
 j
 =
-2
+in_channels
 ;
 j
 <
