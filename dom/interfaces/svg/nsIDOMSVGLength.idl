@@ -199,15 +199,5 @@ SVG_LENGTHTYPE_PC
 =
 10
 ;
-attribute
-DOMString
-valueAsString
-;
-/
-/
-raises
-DOMException
-on
-setting
 }
 ;

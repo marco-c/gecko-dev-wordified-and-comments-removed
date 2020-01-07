@@ -310,6 +310,14 @@ aRv
 )
 ;
 void
+GetValueAsString
+(
+nsAString
+&
+aValue
+)
+;
+void
 SetValueAsString
 (
 const
