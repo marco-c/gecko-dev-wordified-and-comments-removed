@@ -215,9 +215,6 @@ nsIFrame
 *
 GetPointerCapturingFrame
 (
-nsIFrame
-*
-aFrameUnderCursor
 WidgetGUIEvent
 *
 aEvent
