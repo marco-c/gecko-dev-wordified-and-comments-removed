@@ -84,6 +84,11 @@ getRelativeSources
 js
 '
 '
+inComponent
+.
+js
+'
+'
 index
 .
 js
