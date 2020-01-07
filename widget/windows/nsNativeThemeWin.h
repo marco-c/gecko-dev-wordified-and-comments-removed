@@ -326,13 +326,6 @@ aWidgetType
 )
 override
 ;
-virtual
-bool
-ShouldHideScrollbars
-(
-)
-override
-;
 nsNativeThemeWin
 (
 )

@@ -444,16 +444,6 @@ ThemeNeedsComboboxDropmarker
 =
 0
 ;
-virtual
-bool
-ShouldHideScrollbars
-(
-)
-{
-return
-false
-;
-}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

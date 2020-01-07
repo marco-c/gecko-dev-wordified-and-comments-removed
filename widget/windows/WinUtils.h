@@ -1326,12 +1326,6 @@ Initialize
 ;
 static
 bool
-ShouldHideScrollbars
-(
-)
-;
-static
-bool
 SanitizePath
 (
 const
