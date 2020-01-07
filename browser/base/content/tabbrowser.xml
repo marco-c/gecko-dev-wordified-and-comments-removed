@@ -54600,13 +54600,6 @@ visuallyselected
 ]
 )
 ;
-this
-.
-_setPositionAttributes
-(
-val
-)
-;
 return
 val
 ;
