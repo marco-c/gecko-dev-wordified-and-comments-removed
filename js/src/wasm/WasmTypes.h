@@ -4712,7 +4712,6 @@ DebugTrap
 FarJumpIsland
 OutOfBoundsExit
 UnalignedExit
-Interrupt
 Throw
 }
 ;
@@ -5787,7 +5786,6 @@ ExpD
 LogD
 PowD
 ATan2D
-HandleExecutionInterrupt
 HandleDebugTrap
 HandleThrow
 ReportTrap
