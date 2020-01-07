@@ -222,6 +222,8 @@ SetBaseValue
 (
 float
 aValue
+uint8_t
+aUnit
 nsSVGElement
 *
 aSVGElement

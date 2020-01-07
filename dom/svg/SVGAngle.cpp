@@ -193,6 +193,10 @@ mVal
 SetBaseValue
 (
 aValue
+mVal
+-
+>
+mBaseValUnit
 isBaseVal
 ?
 mSVGElement
