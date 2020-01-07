@@ -248,4 +248,8 @@ servodriver
 "
 opera
 "
+                
+"
+webkit
+"
 ]
