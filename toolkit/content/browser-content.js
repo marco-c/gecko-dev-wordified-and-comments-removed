@@ -1861,6 +1861,11 @@ key
 =
 FAYT_TEXT_KEY
 )
+&
+&
+RemoteFinder
+.
+_manualFAYT
 ;
 let
 autostartFAYT
