@@ -1563,7 +1563,7 @@ types
 "
 )
 ;
-let
+const
 stubPreparedMessages
 =
 new
@@ -1571,7 +1571,7 @@ Map
 (
 )
 ;
-let
+const
 stubPackets
 =
 new
