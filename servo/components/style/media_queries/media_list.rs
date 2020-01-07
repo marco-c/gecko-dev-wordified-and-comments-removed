@@ -1,4 +1,10 @@
 use
+context
+:
+:
+QuirksMode
+;
+use
 cssparser
 :
 :
@@ -15,12 +21,6 @@ cssparser
 ParserInput
 Token
 }
-;
-use
-context
-:
-:
-QuirksMode
 ;
 use
 error_reporting
