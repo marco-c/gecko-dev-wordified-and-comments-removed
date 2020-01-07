@@ -412,15 +412,6 @@ aFallbackKey
 override
 ;
 NS_IMETHOD
-GetResponseSynthesized
-(
-bool
-*
-aResponseSynthesized
-)
-override
-;
-NS_IMETHOD
 SetPriority
 (
 int32_t

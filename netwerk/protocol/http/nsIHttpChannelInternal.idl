@@ -1520,14 +1520,6 @@ attribute
 PRTime
 lastModifiedTime
 ;
-[
-must_use
-]
-readonly
-attribute
-boolean
-responseSynthesized
-;
 /
 *
 *

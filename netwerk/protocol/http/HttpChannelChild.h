@@ -842,15 +842,6 @@ aStatus
 )
 override
 ;
-NS_IMETHOD
-GetResponseSynthesized
-(
-bool
-*
-aSynthesized
-)
-override
-;
 nsresult
 AsyncCall
 (
