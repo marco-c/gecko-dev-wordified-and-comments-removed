@@ -341,9 +341,9 @@ com
 await
 browser
 .
-proxy
+browserSettings
 .
-settings
+proxyConfig
 .
 set
 (
@@ -400,6 +400,9 @@ proxy
 "
 "
 webRequest
+"
+"
+browserSettings
 "
 "
 <
