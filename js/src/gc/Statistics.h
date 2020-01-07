@@ -1094,7 +1094,7 @@ runtime
 ;
 FILE
 *
-fp
+gcTimerFile
 ;
 ZoneGCStats
 zoneStats
