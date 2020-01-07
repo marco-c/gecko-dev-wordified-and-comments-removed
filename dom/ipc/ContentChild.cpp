@@ -656,6 +656,15 @@ include
 "
 mozilla
 /
+PerformanceMetricsCollector
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PerformanceUtils
 .
 h
@@ -6615,6 +6624,10 @@ ContentChild
 :
 RecvRequestPerformanceMetrics
 (
+const
+nsID
+&
+aID
 )
 {
 MOZ_ASSERT
@@ -6643,6 +6656,7 @@ info
 ;
 SendAddPerformanceMetrics
 (
+aID
 info
 )
 ;
