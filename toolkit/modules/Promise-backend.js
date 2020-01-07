@@ -2591,16 +2591,12 @@ ex
 &
 ERRORS_TO_REPORT
 .
-indexOf
+includes
 (
 ex
 .
 name
 )
-!
-=
--
-1
 )
 {
 dump

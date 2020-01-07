@@ -475,14 +475,10 @@ found
 (
 cookiesSeen
 .
-indexOf
+includes
 (
 cookieToCheck
 )
-!
-=
--
-1
 )
 ;
 if

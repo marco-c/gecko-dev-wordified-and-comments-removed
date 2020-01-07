@@ -1721,15 +1721,12 @@ toString
 (
 )
 .
-indexOf
+includes
 (
 "
 Something
 "
 )
->
-=
-0
 )
 ;
 run_next_test

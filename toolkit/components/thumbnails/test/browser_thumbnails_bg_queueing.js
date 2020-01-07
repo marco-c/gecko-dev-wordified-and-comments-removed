@@ -94,15 +94,12 @@ isTimeoutTest
 =
 url
 .
-indexOf
+includes
 (
 "
 wait
 "
 )
->
-=
-0
 ;
 BackgroundPageThumbs
 .

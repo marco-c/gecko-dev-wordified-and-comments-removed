@@ -3536,6 +3536,7 @@ uriInfo
 keywordProviderName
 |
 |
+!
 [
 "
 http
@@ -3548,7 +3549,7 @@ ftp
 "
 ]
 .
-indexOf
+includes
 (
 uriInfo
 .
@@ -3556,10 +3557,6 @@ fixedURI
 .
 scheme
 )
-=
-=
--
-1
 )
 {
 return

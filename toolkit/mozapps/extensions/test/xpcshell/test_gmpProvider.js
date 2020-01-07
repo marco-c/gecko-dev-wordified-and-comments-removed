@@ -1879,14 +1879,10 @@ Object
 this
 )
 .
-indexOf
+includes
 (
 element
 )
-!
-=
--
-1
 ;
 }
 ;

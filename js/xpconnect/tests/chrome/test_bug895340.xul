@@ -401,7 +401,7 @@ aMessage
 .
 message
 .
-indexOf
+includes
 (
 "
 Will
@@ -411,10 +411,6 @@ me
 ?
 "
 )
-!
-=
--
-1
 &
 &
 !

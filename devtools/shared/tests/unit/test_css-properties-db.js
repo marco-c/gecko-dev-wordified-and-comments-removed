@@ -297,9 +297,10 @@ name
 name
 &
 &
+!
 name
 .
-indexOf
+includes
 (
 "
 -
@@ -309,11 +310,6 @@ osx
 -
 "
 )
-=
-=
-=
--
-1
 )
 ;
 if

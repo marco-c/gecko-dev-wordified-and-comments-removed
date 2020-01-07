@@ -447,13 +447,10 @@ ok
 (
 messages
 .
-indexOf
+includes
 (
 message
 )
->
-=
-0
 "
 Got
 expected

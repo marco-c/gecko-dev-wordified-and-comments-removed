@@ -505,7 +505,7 @@ navigator
 .
 userAgent
 .
-indexOf
+includes
 (
 "
 Mac
@@ -516,10 +516,6 @@ X
 7
 "
 )
-!
-=
--
-1
 ;
 const
 isOSXMtnLion
@@ -528,7 +524,7 @@ navigator
 .
 userAgent
 .
-indexOf
+includes
 (
 "
 Mac
@@ -539,10 +535,6 @@ X
 8
 "
 )
-!
-=
--
-1
 ;
 const
 isOSXMavericks
@@ -551,7 +543,7 @@ navigator
 .
 userAgent
 .
-indexOf
+includes
 (
 "
 Mac
@@ -562,10 +554,6 @@ X
 9
 "
 )
-!
-=
--
-1
 ;
 const
 isOSXYosemite
@@ -574,7 +562,7 @@ navigator
 .
 userAgent
 .
-indexOf
+includes
 (
 "
 Mac
@@ -585,10 +573,6 @@ X
 10
 "
 )
-!
-=
--
-1
 ;
 if
 (
@@ -1186,15 +1170,12 @@ navigator
 .
 platform
 .
-indexOf
+includes
 (
 "
 Win
 "
 )
->
-=
-0
 )
 {
 todo

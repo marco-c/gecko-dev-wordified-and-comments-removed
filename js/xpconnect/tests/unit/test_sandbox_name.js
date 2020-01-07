@@ -112,14 +112,10 @@ ok
 (
 fileName
 .
-indexOf
+includes
 (
 name
 )
-!
-=
--
-1
 Name
 {
 name

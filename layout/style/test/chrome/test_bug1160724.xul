@@ -381,16 +381,12 @@ toString
 (
 )
 .
-indexOf
+includes
 (
 "
 transform
 "
 )
-!
-=
--
-1
 )
 {
 errorLogged

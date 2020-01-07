@@ -1806,14 +1806,10 @@ colors
 c
 ]
 .
-indexOf
+includes
 (
 rgb
 )
-!
-=
--
-1
 |
 |
 colors

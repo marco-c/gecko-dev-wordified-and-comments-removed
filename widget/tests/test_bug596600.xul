@@ -1345,7 +1345,7 @@ navigator
 .
 userAgent
 .
-indexOf
+includes
 (
 "
 Mac
@@ -1356,10 +1356,6 @@ X
 6
 "
 )
-!
-=
--
-1
 ;
 if
 (

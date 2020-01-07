@@ -2124,16 +2124,12 @@ if
 (
 SUPPORTED_PROPERTIES
 .
-indexOf
+includes
 (
 event
 .
 propertyName
 )
-!
-=
--
-1
 )
 {
 this

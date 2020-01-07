@@ -1022,6 +1022,7 @@ url
 ;
 if
 (
+!
 [
 "
 http
@@ -1031,14 +1032,12 @@ https
 "
 ]
 .
-indexOf
+includes
 (
 uri
 .
 scheme
 )
-<
-0
 )
 {
 return

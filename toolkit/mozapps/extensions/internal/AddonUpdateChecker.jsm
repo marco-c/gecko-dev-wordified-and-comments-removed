@@ -1006,14 +1006,10 @@ this
 .
 resources
 .
-indexOf
+includes
 (
 aResource
 )
-!
-=
--
-1
 )
 {
 throw

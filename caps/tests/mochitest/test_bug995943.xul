@@ -345,7 +345,7 @@ navigator
 .
 userAgent
 .
-indexOf
+includes
 (
 "
 Mac
@@ -356,10 +356,6 @@ X
 10
 "
 )
-!
-=
--
-1
 )
 SimpleTest
 .

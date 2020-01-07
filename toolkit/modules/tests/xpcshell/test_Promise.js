@@ -4716,14 +4716,10 @@ if
 (
 data
 .
-indexOf
+includes
 (
 expected
 )
-!
-=
--
-1
 )
 {
 print

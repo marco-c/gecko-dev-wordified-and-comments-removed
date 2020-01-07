@@ -13,7 +13,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 intercept
@@ -21,10 +21,6 @@ intercept
 this
 "
 )
-!
-=
--
-1
 )
 {
 e

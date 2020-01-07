@@ -3481,14 +3481,10 @@ table
 '
 ]
 .
-indexOf
+includes
 (
 display
 )
-!
-=
--
-1
 )
 {
 return

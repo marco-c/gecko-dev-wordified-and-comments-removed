@@ -208,14 +208,11 @@ needsQuote
 =
 text
 .
-indexOf
+includes
 (
 '
 '
 )
->
-=
-0
 |
 |
 text

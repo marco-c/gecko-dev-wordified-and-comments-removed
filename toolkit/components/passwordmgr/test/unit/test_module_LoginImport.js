@@ -940,7 +940,7 @@ data
 .
 disabledHosts
 .
-indexOf
+includes
 (
 "
 http
@@ -954,10 +954,6 @@ example
 com
 "
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -970,7 +966,7 @@ data
 .
 disabledHosts
 .
-indexOf
+includes
 (
 "
 https
@@ -984,10 +980,6 @@ example
 org
 "
 )
-!
-=
--
-1
 )
 ;
 }

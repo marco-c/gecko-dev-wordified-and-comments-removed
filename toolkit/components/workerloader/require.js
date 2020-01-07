@@ -138,9 +138,10 @@ string
 "
 |
 |
+!
 path
 .
-indexOf
+includes
 (
 "
 :
@@ -148,10 +149,6 @@ indexOf
 /
 "
 )
-=
-=
--
-1
 )
 {
 throw

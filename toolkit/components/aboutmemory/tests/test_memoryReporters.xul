@@ -3144,15 +3144,12 @@ ex
 .
 message
 .
-indexOf
+includes
 (
 "
 NS_ERROR_
 "
 )
->
-=
-0
 "
 WrappedJS
 reporter

@@ -176,7 +176,7 @@ ok
 (
 ct
 .
-indexOf
+includes
 (
 "
 mem
@@ -184,10 +184,6 @@ mem
 mapped
 "
 )
-!
-=
--
-1
 "
 Data
 is
@@ -202,9 +198,10 @@ else
 {
 ok
 (
+!
 ct
 .
-indexOf
+includes
 (
 "
 mem
@@ -212,10 +209,6 @@ mem
 mapped
 "
 )
-=
-=
--
-1
 "
 Data
 is

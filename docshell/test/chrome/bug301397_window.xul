@@ -287,14 +287,10 @@ ok
 (
 iframeInnerHtml
 .
-indexOf
+includes
 (
 string
 )
-!
-=
--
-1
 "
 iframe
 contains

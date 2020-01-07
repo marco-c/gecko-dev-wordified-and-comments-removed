@@ -200,16 +200,12 @@ ok
 (
 msg
 .
-indexOf
+includes
 (
 "
 _PREFIX_
 "
 )
-!
-=
--
-1
 "
 we
 have

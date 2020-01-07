@@ -147,14 +147,10 @@ chr
 return
 base64url
 .
-indexOf
+includes
 (
 chr
 )
-!
-=
--
-1
 ;
 }
 )

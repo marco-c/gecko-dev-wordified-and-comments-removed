@@ -3537,15 +3537,10 @@ res
 .
 apps
 .
-indexOf
+includes
 (
 manifestURL
 )
-!
-=
-=
--
-1
 )
 {
 app

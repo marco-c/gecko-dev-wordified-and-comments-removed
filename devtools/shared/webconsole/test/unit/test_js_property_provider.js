@@ -1664,15 +1664,10 @@ results
 .
 matches
 .
-indexOf
+includes
 (
 requiredSuggestion
 )
-!
-=
-=
--
-1
 )
 ;
 }

@@ -603,7 +603,7 @@ rule
 .
 matchedSelectors
 .
-indexOf
+includes
 (
 "
 :
@@ -612,11 +612,6 @@ any
 link
 "
 )
-!
-=
-=
--
-1
 ;
 }
 )
@@ -648,7 +643,7 @@ rule
 .
 matchedSelectors
 .
-indexOf
+includes
 (
 "
 *
@@ -658,11 +653,6 @@ indexOf
 link
 "
 )
-!
-=
-=
--
-1
 ;
 }
 )

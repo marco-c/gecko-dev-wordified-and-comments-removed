@@ -249,15 +249,10 @@ if
 (
 expectedProperties
 .
-indexOf
+includes
 (
 name
 )
-!
-=
-=
--
-1
 )
 {
 continue

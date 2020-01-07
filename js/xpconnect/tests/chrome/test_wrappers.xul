@@ -673,15 +673,12 @@ toString
 (
 )
 .
-indexOf
+includes
 (
 "
 XPathEvaluator
 "
 )
->
-=
-0
 "
 Can
 access

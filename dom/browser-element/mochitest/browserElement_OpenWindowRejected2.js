@@ -71,7 +71,7 @@ detail
 .
 url
 .
-indexOf
+includes
 (
 '
 does_not_exist
@@ -79,10 +79,6 @@ does_not_exist
 html
 '
 )
-!
-=
--
-1
 '
 Opened
 URL

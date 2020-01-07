@@ -207,14 +207,10 @@ ok
 (
 expectedStates
 .
-indexOf
+includes
 (
 gState
 )
-!
-=
--
-1
 "
 handlers
 called

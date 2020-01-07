@@ -75,7 +75,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 image
@@ -85,9 +85,6 @@ image
 png
 "
 )
->
-=
-0
 )
 {
 event

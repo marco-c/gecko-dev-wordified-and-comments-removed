@@ -121,7 +121,7 @@ if
 (
 key
 .
-indexOf
+includes
 (
 "
 -
@@ -131,11 +131,6 @@ osx
 -
 "
 )
-!
-=
-=
--
-1
 )
 {
 properties

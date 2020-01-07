@@ -230,7 +230,7 @@ detail
 .
 changed
 .
-indexOf
+includes
 (
 "
 activemedia
@@ -238,9 +238,6 @@ activemedia
 blocked
 "
 )
->
-=
-0
 )
 {
 is
@@ -372,15 +369,12 @@ detail
 .
 changed
 .
-indexOf
+includes
 (
 "
 soundplaying
 "
 )
->
-=
-0
 )
 {
 is

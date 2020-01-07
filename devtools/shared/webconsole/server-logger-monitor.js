@@ -673,15 +673,10 @@ if
 (
 acceptableHeaders
 .
-indexOf
+includes
 (
 header
 )
-!
-=
-=
--
-1
 )
 {
 headers

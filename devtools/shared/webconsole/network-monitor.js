@@ -3868,13 +3868,10 @@ this
 .
 httpDownloadActivities
 .
-indexOf
+includes
 (
 activitySubtype
 )
->
-=
-0
 )
 {
 let

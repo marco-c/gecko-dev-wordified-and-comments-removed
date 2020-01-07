@@ -6564,13 +6564,10 @@ if
 (
 keys
 .
-indexOf
+includes
 (
 i
 )
->
-=
-0
 )
 continue
 ;

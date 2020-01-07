@@ -132,16 +132,12 @@ process
 .
 title
 .
-indexOf
+includes
 (
 '
 node
 '
 )
-!
-=
--
-1
 )
 ;
 suite

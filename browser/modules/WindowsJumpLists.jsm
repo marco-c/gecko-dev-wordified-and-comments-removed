@@ -1377,16 +1377,12 @@ this
 .
 _frequentHashList
 .
-indexOf
+includes
 (
 aResult
 .
 uri
 )
-!
-=
--
-1
 )
 {
 return

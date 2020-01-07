@@ -13,15 +13,12 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 Referer
 "
 )
->
-=
-0
 )
 {
 var

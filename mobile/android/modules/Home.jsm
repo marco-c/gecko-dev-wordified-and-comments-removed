@@ -1019,13 +1019,10 @@ null
 |
 ids
 .
-indexOf
+includes
 (
 id
 )
->
-=
-0
 )
 {
 try

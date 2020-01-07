@@ -77,7 +77,7 @@ toString
 (
 )
 .
-indexOf
+includes
 (
 Components
 .
@@ -85,10 +85,6 @@ interfaces
 .
 nsIInterfaceRequestor
 )
-!
-=
--
-1
 ;
 }
 catch

@@ -45,7 +45,7 @@ com
 "
 )
 .
-indexOf
+includes
 (
 "
 www
@@ -55,10 +55,6 @@ google
 fr
 "
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -78,7 +74,7 @@ fr
 "
 )
 .
-indexOf
+includes
 (
 "
 www
@@ -88,10 +84,6 @@ google
 com
 "
 )
-!
-=
--
-1
 )
 ;
 Assert

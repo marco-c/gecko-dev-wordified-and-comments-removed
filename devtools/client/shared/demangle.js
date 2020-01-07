@@ -7458,15 +7458,12 @@ if
 (
 parsed
 .
-indexOf
+includes
 (
 "
 ?
 "
 )
->
-=
-0
 &
 &
 !

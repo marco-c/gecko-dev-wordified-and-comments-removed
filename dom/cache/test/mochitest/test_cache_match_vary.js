@@ -732,13 +732,10 @@ reqs
 .
 url
 .
-indexOf
+includes
 (
 requestURL
 )
->
-=
-0
 "
 The
 correct

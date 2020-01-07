@@ -4421,13 +4421,10 @@ cmd_delete
 return
 blockedSubviewCmds
 .
-indexOf
+includes
 (
 aCommand
 )
->
-=
-0
 ;
 }
 let

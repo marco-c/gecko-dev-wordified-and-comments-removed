@@ -658,14 +658,10 @@ if
 (
 kObservedTopics
 .
-indexOf
+includes
 (
 topic
 )
-!
-=
--
-1
 )
 {
 if

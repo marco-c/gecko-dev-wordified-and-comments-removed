@@ -12,14 +12,10 @@ s
 return
 this
 .
-indexOf
+includes
 (
 s
 )
-!
-=
--
-1
 ;
 }
 var

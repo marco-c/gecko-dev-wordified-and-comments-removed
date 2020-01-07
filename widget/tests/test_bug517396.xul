@@ -261,16 +261,12 @@ navigator
 .
 platform
 .
-indexOf
+includes
 (
 "
 Lin
 "
 )
-!
-=
--
-1
 )
 {
 ok

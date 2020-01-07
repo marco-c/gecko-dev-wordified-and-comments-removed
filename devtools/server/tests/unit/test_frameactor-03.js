@@ -149,7 +149,7 @@ ok
 (
 poppedFrames
 .
-indexOf
+includes
 (
 packet1
 .
@@ -157,9 +157,6 @@ frame
 .
 actor
 )
->
-=
-0
 )
 ;
 gThreadClient

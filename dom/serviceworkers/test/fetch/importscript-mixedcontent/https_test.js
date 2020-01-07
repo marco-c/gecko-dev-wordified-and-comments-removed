@@ -64,7 +64,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 index
@@ -72,9 +72,6 @@ index
 html
 "
 )
->
-=
-0
 )
 {
 var

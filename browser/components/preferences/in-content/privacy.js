@@ -6764,7 +6764,7 @@ if
 (
 malware
 .
-indexOf
+includes
 (
 "
 goog
@@ -6774,10 +6774,6 @@ malware
 shavar
 "
 )
-!
-=
--
-1
 )
 {
 malware

@@ -1987,7 +1987,7 @@ if
 (
 versions
 .
-indexOf
+includes
 (
 Services
 .
@@ -1995,10 +1995,6 @@ appinfo
 .
 version
 )
-!
-=
--
-1
 )
 {
 if

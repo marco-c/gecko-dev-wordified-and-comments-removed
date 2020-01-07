@@ -158,14 +158,10 @@ ok
 (
 result
 .
-indexOf
+includes
 (
 prop
 )
-!
-=
--
-1
 )
 ;
 }

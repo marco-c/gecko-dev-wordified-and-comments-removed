@@ -156,13 +156,10 @@ ok
 (
 types
 .
-indexOf
+includes
 (
 action
 )
->
-=
-0
 The
 type
 attribute

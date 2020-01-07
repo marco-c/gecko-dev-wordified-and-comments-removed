@@ -20,15 +20,12 @@ module
 .
 id
 .
-indexOf
+includes
 (
 "
 worker
 "
 )
->
-=
-0
 )
 {
 const

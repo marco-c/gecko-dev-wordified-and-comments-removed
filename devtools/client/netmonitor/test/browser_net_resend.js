@@ -723,7 +723,7 @@ ok
 (
 headers
 .
-indexOf
+includes
 (
 name
 +
@@ -733,9 +733,6 @@ name
 +
 value
 )
->
-=
-0
 "
 form
 contains

@@ -119,16 +119,12 @@ ok
 (
 answer
 .
-indexOf
+includes
 (
 '
 :
 '
 )
-!
-=
--
-1
 )
 ;
 }

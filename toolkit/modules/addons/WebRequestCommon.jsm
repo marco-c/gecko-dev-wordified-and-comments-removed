@@ -325,7 +325,7 @@ true
 return
 filterTypes
 .
-indexOf
+includes
 (
 this
 .
@@ -334,10 +334,6 @@ typeForPolicyType
 policyType
 )
 )
-!
-=
--
-1
 ;
 }
 urlMatches

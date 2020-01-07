@@ -169,16 +169,12 @@ response
 .
 completions
 .
-indexOf
+includes
 (
 "
 concat
 "
 )
-!
-=
--
-1
 )
 ;
 do_test_finished

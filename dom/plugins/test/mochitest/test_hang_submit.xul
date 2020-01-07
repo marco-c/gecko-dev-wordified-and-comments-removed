@@ -781,16 +781,12 @@ ok
 (
 dumpNames
 .
-indexOf
+includes
 (
 "
 browser
 "
 )
-!
-=
--
-1
 "
 additional_minidumps
 should

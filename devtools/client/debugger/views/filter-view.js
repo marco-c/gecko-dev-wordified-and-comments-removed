@@ -2378,14 +2378,10 @@ LARGE_FILE_SIZE
 &
 SEARCH_AUTOFILL
 .
-indexOf
+includes
 (
 aOperator
 )
-!
-=
--
-1
 )
 {
 let

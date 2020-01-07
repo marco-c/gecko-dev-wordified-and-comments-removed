@@ -159,14 +159,10 @@ if
 (
 EXPECTED_ENTRIES
 .
-indexOf
+includes
 (
 entry
 )
-!
-=
--
-1
 )
 {
 print

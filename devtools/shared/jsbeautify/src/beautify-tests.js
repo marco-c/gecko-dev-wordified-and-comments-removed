@@ -418,16 +418,12 @@ if
 (
 input
 .
-indexOf
+includes
 (
 '
 content
 '
 )
-!
-=
--
-1
 )
 {
 field_input

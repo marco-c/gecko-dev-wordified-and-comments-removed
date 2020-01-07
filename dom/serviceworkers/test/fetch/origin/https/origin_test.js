@@ -142,7 +142,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 index
@@ -154,9 +154,6 @@ https
 sjs
 "
 )
->
-=
-0
 )
 {
 event

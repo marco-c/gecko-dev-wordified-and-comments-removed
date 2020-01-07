@@ -247,14 +247,10 @@ hasChildren
 (
 objectsWithProps
 .
-indexOf
+includes
 (
 k
 )
-!
-=
--
-1
 )
 ;
 hasChildren

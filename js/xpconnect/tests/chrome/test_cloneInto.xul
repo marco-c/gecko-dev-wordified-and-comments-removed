@@ -431,7 +431,7 @@ if
 (
 TypedArrayThings
 .
-indexOf
+includes
 (
 a
 .
@@ -439,11 +439,6 @@ constructor
 .
 name
 )
-!
-=
-=
--
-1
 )
 return
 a

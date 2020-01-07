@@ -18,7 +18,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 index
@@ -26,9 +26,6 @@ index
 html
 "
 )
->
-=
-0
 )
 {
 event
@@ -55,7 +52,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 image
@@ -65,9 +62,6 @@ image
 png
 "
 )
->
-=
-0
 )
 {
 if

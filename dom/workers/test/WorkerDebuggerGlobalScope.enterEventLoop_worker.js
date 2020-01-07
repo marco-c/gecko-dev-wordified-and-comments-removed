@@ -69,15 +69,12 @@ if
 (
 message
 .
-indexOf
+includes
 (
 "
 :
 "
 )
->
-=
-0
 )
 {
 worker

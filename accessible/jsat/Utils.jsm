@@ -4767,6 +4767,7 @@ null
 }
 if
 (
+!
 [
 Roles
 .
@@ -4782,14 +4783,12 @@ Roles
 MATHML_CELL
 ]
 .
-indexOf
+includes
 (
 aAccessible
 .
 role
 )
-<
-0
 )
 {
 return

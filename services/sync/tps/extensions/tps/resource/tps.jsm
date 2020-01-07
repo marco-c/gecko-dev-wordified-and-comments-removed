@@ -4015,15 +4015,12 @@ problemData
 .
 serverUnexpected
 .
-indexOf
+includes
 (
 "
 mobile
 "
 )
->
-=
-0
 )
 {
 -

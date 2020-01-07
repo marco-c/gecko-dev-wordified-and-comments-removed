@@ -175,16 +175,12 @@ if
 (
 host
 .
-indexOf
+includes
 (
 "
 HPKP
 "
 )
-!
-=
--
-1
 )
 {
 expectedColumns

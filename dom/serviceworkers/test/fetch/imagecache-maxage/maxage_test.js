@@ -239,7 +239,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 image
@@ -247,9 +247,6 @@ image
 png
 "
 )
->
-=
-0
 )
 {
 event
@@ -273,7 +270,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 image2
@@ -281,9 +278,6 @@ image2
 png
 "
 )
->
-=
-0
 )
 {
 event

@@ -674,14 +674,10 @@ i
 .
 message
 .
-indexOf
+includes
 (
 errorString
 )
-!
-=
--
-1
 )
 return
 true

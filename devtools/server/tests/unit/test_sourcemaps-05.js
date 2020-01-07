@@ -156,7 +156,7 @@ source
 .
 url
 .
-indexOf
+includes
 (
 "
 sourcemapped
@@ -164,11 +164,6 @@ sourcemapped
 coffee
 "
 )
-!
-=
-=
--
-1
 "
 The
 new

@@ -527,7 +527,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -536,10 +536,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -559,7 +555,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -568,10 +564,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -661,7 +653,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -670,10 +662,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -693,7 +681,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -702,10 +690,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -795,7 +779,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -804,10 +788,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -827,7 +807,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -836,10 +816,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -938,7 +914,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -947,10 +923,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -970,7 +942,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -979,10 +951,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1002,7 +970,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1011,10 +979,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1034,7 +998,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1043,10 +1007,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1136,7 +1096,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1145,10 +1105,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1168,7 +1124,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1177,10 +1133,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1272,7 +1224,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1281,10 +1233,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1304,7 +1252,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1313,10 +1261,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1415,7 +1359,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1424,10 +1368,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1447,7 +1387,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1456,10 +1396,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1479,7 +1415,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1488,10 +1424,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1511,7 +1443,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1520,10 +1452,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1614,7 +1542,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1623,10 +1551,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert
@@ -1646,7 +1570,7 @@ ok
 (
 solutions
 .
-indexOf
+includes
 (
 stmt
 .
@@ -1655,10 +1579,6 @@ getString
 0
 )
 )
-!
-=
--
-1
 )
 ;
 Assert

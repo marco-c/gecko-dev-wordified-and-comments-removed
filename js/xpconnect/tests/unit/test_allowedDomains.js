@@ -425,7 +425,7 @@ e
 .
 message
 .
-indexOf
+includes
 (
 "
 Permission
@@ -435,10 +435,6 @@ access
 property
 "
 )
-!
-=
--
-1
 )
 ;
 }

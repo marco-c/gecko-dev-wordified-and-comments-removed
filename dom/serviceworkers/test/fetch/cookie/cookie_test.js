@@ -18,7 +18,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 synth
@@ -26,9 +26,6 @@ synth
 html
 "
 )
->
-=
-0
 )
 {
 var

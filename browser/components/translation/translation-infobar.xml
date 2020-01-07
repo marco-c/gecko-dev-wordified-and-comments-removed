@@ -3662,14 +3662,10 @@ split
 "
 )
 .
-indexOf
+includes
 (
 lang
 )
-!
-=
--
-1
 ;
 /
 /

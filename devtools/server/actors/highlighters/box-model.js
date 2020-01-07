@@ -1064,9 +1064,10 @@ _show
 {
 if
 (
+!
 BOX_MODEL_REGIONS
 .
-indexOf
+includes
 (
 this
 .
@@ -1074,10 +1075,6 @@ options
 .
 region
 )
-=
-=
--
-1
 )
 {
 this

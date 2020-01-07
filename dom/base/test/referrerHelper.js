@@ -355,13 +355,10 @@ img
 .
 referrers
 .
-indexOf
+includes
 (
 ref
 )
->
-=
-0
 testname
 +
 "

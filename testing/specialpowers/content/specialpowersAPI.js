@@ -581,14 +581,10 @@ true
 return
 arrayClasses
 .
-indexOf
+includes
 (
 className
 )
-!
-=
--
-1
 ;
 }
 function

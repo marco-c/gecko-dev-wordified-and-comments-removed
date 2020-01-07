@@ -1680,7 +1680,7 @@ input
 return
 input
 .
-indexOf
+includes
 (
 "
 -
@@ -1688,11 +1688,6 @@ indexOf
 >
 "
 )
-!
-=
-=
--
-1
 ;
 }
 function

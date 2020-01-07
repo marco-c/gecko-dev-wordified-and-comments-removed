@@ -680,15 +680,11 @@ command
 .
 name
 .
-indexOf
+includes
 (
 '
 '
 )
-!
-=
--
-1
 )
 {
 return

@@ -301,11 +301,12 @@ value
 }
 if
 (
+!
 this
 .
 selfClosingElt
 .
-indexOf
+includes
 (
 node
 .
@@ -315,11 +316,6 @@ toLowerCase
 (
 )
 )
-=
-=
-=
--
-1
 )
 {
 out

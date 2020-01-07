@@ -3369,14 +3369,10 @@ client
 .
 events
 .
-indexOf
+includes
 (
 type
 )
-!
-=
--
-1
 )
 {
 client

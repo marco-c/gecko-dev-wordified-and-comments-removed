@@ -611,16 +611,12 @@ closed
 "
 ]
 .
-indexOf
+includes
 (
 element
 .
 state
 )
-!
-=
--
-1
 ;
 if
 (

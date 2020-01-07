@@ -156,9 +156,10 @@ baseUrl
 )
 &
 &
+!
 url
 .
-indexOf
+includes
 (
 '
 :
@@ -166,11 +167,6 @@ indexOf
 /
 '
 )
-=
-=
-=
--
-1
 )
 {
 try

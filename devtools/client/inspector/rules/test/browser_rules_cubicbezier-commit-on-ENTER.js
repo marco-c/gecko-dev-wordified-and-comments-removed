@@ -293,7 +293,7 @@ valueSpan
 .
 textContent
 .
-indexOf
+includes
 (
 "
 cubic
@@ -302,11 +302,6 @@ bezier
 (
 "
 )
-!
-=
-=
--
-1
 "
 The
 text
@@ -420,7 +415,7 @@ valueSpan
 .
 textContent
 .
-indexOf
+includes
 (
 "
 cubic
@@ -429,11 +424,6 @@ bezier
 (
 "
 )
-!
-=
-=
--
-1
 ;
 ok
 (

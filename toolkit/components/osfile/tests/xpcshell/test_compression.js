@@ -373,7 +373,7 @@ exn
 .
 message
 .
-indexOf
+includes
 (
 Invalid
 header
@@ -389,10 +389,6 @@ Data
 path
 }
 )
-!
-=
--
-1
 )
 ;
 }
@@ -516,7 +512,7 @@ exn
 .
 message
 .
-indexOf
+includes
 (
 Buffer
 is
@@ -533,10 +529,6 @@ Data
 path
 }
 )
-!
-=
--
-1
 )
 ;
 }
@@ -719,7 +711,7 @@ exn
 .
 message
 .
-indexOf
+includes
 (
 Invalid
 content
@@ -735,10 +727,6 @@ Data
 path
 }
 )
-!
-=
--
-1
 )
 ;
 }

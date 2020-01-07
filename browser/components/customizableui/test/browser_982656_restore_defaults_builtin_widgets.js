@@ -239,14 +239,10 @@ CustomizableUI
 .
 areas
 .
-indexOf
+includes
 (
 kToolbarId
 )
-!
-=
--
-1
 "
 Toolbar
 has

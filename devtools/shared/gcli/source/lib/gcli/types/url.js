@@ -156,11 +156,12 @@ ERROR
 ;
 if
 (
+!
 arg
 .
 text
 .
-indexOf
+includes
 (
 '
 :
@@ -168,11 +169,6 @@ indexOf
 /
 '
 )
-=
-=
-=
--
-1
 )
 {
 [

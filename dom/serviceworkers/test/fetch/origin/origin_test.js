@@ -158,7 +158,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 index
@@ -168,9 +168,6 @@ cached
 sjs
 "
 )
->
-=
-0
 )
 {
 event
@@ -224,7 +221,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 index
@@ -238,9 +235,6 @@ cached
 sjs
 "
 )
->
-=
-0
 )
 {
 event

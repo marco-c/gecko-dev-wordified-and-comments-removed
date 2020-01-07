@@ -348,15 +348,12 @@ s
 /
 )
 .
-indexOf
+includes
 (
 "
 searchengine
 "
 )
->
-=
-0
 )
 {
 Assert

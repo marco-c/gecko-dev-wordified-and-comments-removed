@@ -4936,15 +4936,12 @@ filter
 >
 filter
 .
-indexOf
+includes
 (
 "
 .
 "
 )
->
-=
-0
 )
 ;
 Array

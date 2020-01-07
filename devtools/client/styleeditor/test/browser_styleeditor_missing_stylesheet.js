@@ -130,7 +130,7 @@ notif
 .
 label
 .
-indexOf
+includes
 (
 "
 Style
@@ -141,11 +141,6 @@ be
 loaded
 "
 )
-!
-=
-=
--
-1
 "
 The
 error
@@ -163,7 +158,7 @@ notif
 .
 label
 .
-indexOf
+includes
 (
 "
 missing
@@ -173,11 +168,6 @@ stylesheet
 css
 "
 )
-!
-=
-=
--
-1
 "
 The
 error

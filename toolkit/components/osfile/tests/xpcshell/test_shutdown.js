@@ -231,9 +231,10 @@ message
 ;
 if
 (
+!
 message
 .
-indexOf
+includes
 (
 "
 TEST
@@ -242,8 +243,6 @@ Controller
 WARNING
 "
 )
-<
-0
 )
 {
 return
@@ -270,14 +269,13 @@ resource
 ;
 if
 (
+!
 message
 .
-indexOf
+includes
 (
 resource
 )
-<
-0
 )
 {
 return

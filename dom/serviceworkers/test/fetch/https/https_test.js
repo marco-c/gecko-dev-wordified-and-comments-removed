@@ -150,7 +150,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 index
@@ -158,9 +158,6 @@ index
 html
 "
 )
->
-=
-0
 )
 {
 event
@@ -187,7 +184,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 synth
@@ -197,9 +194,6 @@ sw
 html
 "
 )
->
-=
-0
 )
 {
 event
@@ -226,7 +220,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 synth
@@ -236,9 +230,6 @@ window
 html
 "
 )
->
-=
-0
 )
 {
 event
@@ -265,7 +256,7 @@ request
 .
 url
 .
-indexOf
+includes
 (
 "
 synth
@@ -273,9 +264,6 @@ synth
 html
 "
 )
->
-=
-0
 )
 {
 event
