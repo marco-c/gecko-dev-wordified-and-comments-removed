@@ -271,10 +271,8 @@ RegistrationRemovedInternal
 (
 )
 ;
-RefPtr
-<
 ServiceWorkerRegistration
->
+*
 mOuter
 ;
 const
@@ -452,10 +450,8 @@ MutexAutoLock
 aProofOfLock
 )
 ;
-RefPtr
-<
 ServiceWorkerRegistration
->
+*
 mOuter
 ;
 const

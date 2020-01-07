@@ -309,6 +309,11 @@ DisconnectFromOwner
 )
 override
 ;
+void
+RegistrationRemoved
+(
+)
+;
 already_AddRefed
 <
 ServiceWorker
