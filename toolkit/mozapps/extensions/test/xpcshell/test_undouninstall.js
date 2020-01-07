@@ -24,9 +24,9 @@ ADDON_UNINSTALL
 6
 ;
 const
-ADDON_DOWNGRADE
+ADDON_UPGRADE
 =
-8
+7
 ;
 const
 ID
@@ -1404,7 +1404,7 @@ getUninstallReason
 (
 ID
 )
-ADDON_DOWNGRADE
+ADDON_UPGRADE
 )
 ;
 Assert
@@ -1415,7 +1415,7 @@ getInstallReason
 (
 ID
 )
-ADDON_DOWNGRADE
+ADDON_UPGRADE
 )
 ;
 Assert
@@ -1426,7 +1426,7 @@ getStartupReason
 (
 ID
 )
-ADDON_DOWNGRADE
+ADDON_UPGRADE
 )
 ;
 Assert
@@ -2800,7 +2800,7 @@ getUninstallReason
 (
 ID
 )
-ADDON_DOWNGRADE
+ADDON_UPGRADE
 )
 ;
 Assert
@@ -2811,7 +2811,7 @@ getInstallReason
 (
 ID
 )
-ADDON_DOWNGRADE
+ADDON_UPGRADE
 )
 ;
 Assert
