@@ -654,6 +654,8 @@ getData
 (
 country
 level1
+=
+null
 )
 {
 let
