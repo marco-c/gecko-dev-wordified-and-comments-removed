@@ -129,6 +129,9 @@ is_mac
 |
 |
 is_linux
+|
+|
+is_bsd
 }
 group
 (

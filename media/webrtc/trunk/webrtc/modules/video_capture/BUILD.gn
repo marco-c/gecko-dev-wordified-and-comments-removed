@@ -591,6 +591,9 @@ system_wrappers
 if
 (
 is_linux
+|
+|
+is_bsd
 )
 {
 sources
