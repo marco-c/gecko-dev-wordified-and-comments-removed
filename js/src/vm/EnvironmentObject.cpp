@@ -18597,7 +18597,7 @@ GlobalObject
 varObj
 -
 >
-compartment
+realm
 (
 )
 -

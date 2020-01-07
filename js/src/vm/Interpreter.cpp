@@ -24590,7 +24590,7 @@ GlobalObject
 parent
 -
 >
-compartment
+realm
 (
 )
 -
@@ -24713,7 +24713,7 @@ if
 parent
 -
 >
-compartment
+realm
 (
 )
 -
@@ -25833,7 +25833,7 @@ GlobalObject
 scope
 -
 >
-compartment
+realm
 (
 )
 -

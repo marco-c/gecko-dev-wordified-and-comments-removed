@@ -1786,6 +1786,18 @@ JSCompartment
 compartment
 )
 {
+Realm
+*
+realm
+=
+JS
+:
+:
+GetRealmForCompartment
+(
+compartment
+)
+;
 RuntimeStats
 *
 rtStats
@@ -1854,7 +1866,7 @@ compartment
 realmStats
 )
 ;
-compartment
+realm
 -
 >
 setRealmStats
@@ -1863,7 +1875,7 @@ setRealmStats
 realmStats
 )
 ;
-compartment
+realm
 -
 >
 addSizeOfIncludingThis

@@ -2430,7 +2430,7 @@ if
 varobj
 -
 >
-compartment
+realm
 (
 )
 -
