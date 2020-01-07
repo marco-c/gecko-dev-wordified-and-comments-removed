@@ -118,7 +118,7 @@ class
 ProcessGlobal
 :
 public
-nsIContentProcessMessageManager
+nsIMessageManagerGlobal
 public
 nsMessageManagerScriptExecutor
 public
@@ -235,7 +235,7 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 ProcessGlobal
-nsIContentProcessMessageManager
+nsIMessageManagerGlobal
 )
 virtual
 JSObject
@@ -435,10 +435,6 @@ NS_FORWARD_SAFE_NSISYNCMESSAGESENDER
 mMessageManager
 )
 NS_FORWARD_SAFE_NSIMESSAGEMANAGERGLOBAL
-(
-mMessageManager
-)
-NS_FORWARD_SAFE_NSICONTENTPROCESSMESSAGEMANAGER
 (
 mMessageManager
 )

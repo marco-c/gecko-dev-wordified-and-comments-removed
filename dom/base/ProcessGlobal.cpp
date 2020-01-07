@@ -386,7 +386,7 @@ NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIContentProcessMessageManager
+nsIMessageManagerGlobal
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -399,10 +399,6 @@ nsIMessageSender
 NS_INTERFACE_MAP_ENTRY
 (
 nsISyncMessageSender
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIContentProcessMessageManager
 )
 NS_INTERFACE_MAP_ENTRY
 (
