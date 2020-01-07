@@ -975,6 +975,14 @@ aPCHandle
 =
 0
 ;
+virtual
+void
+DeleteStreams
+(
+)
+=
+0
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaSessionConduit
