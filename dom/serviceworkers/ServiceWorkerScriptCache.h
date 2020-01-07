@@ -7,6 +7,13 @@ mozilla_dom_ServiceWorkerScriptCache_h
 #
 include
 "
+nsIRequest
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

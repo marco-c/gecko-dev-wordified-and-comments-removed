@@ -288,10 +288,14 @@ AllocServiceWorkerRegistrationChild
 (
 )
 {
-return
-new
-ServiceWorkerRegistrationChild
+MOZ_CRASH
 (
+"
+should
+not
+be
+called
+"
 )
 ;
 }
