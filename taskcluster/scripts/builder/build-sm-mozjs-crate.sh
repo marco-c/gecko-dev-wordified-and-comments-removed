@@ -115,6 +115,10 @@ export
 RUST_BACKTRACE
 =
 1
+export
+AUTOMATION
+=
+1
 cargo
 build
 -
