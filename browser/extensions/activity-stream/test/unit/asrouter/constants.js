@@ -3,7 +3,7 @@ const
 CHILD_TO_PARENT_MESSAGE_NAME
 =
 "
-MessageCenter
+ASRouter
 :
 child
 -
@@ -17,7 +17,7 @@ const
 PARENT_TO_CHILD_MESSAGE_NAME
 =
 "
-MessageCenter
+ASRouter
 :
 parent
 -
@@ -31,6 +31,6 @@ const
 EXPERIMENT_PREF
 =
 "
-messageCenterExperimentEnabled
+asrouterExperimentEnabled
 "
 ;
