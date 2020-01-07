@@ -95,3 +95,15 @@ logged
 false
 )
 ;
+pref
+(
+"
+devtools
+.
+policy
+.
+disabled
+"
+false
+)
+;
