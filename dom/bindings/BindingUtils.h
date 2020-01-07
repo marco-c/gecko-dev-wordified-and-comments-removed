@@ -14099,6 +14099,9 @@ struct
 NormalThisPolicy
 ;
 struct
+MaybeGlobalThisPolicy
+;
+struct
 ThrowExceptions
 ;
 struct
