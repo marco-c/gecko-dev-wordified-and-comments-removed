@@ -1008,14 +1008,10 @@ nsAtom
 aBlockType
 )
 ;
+MOZ_MUST_USE
 nsresult
 DidMakeBasicBlock
 (
-RulesInfo
-*
-aInfo
-nsresult
-aResult
 )
 ;
 MOZ_MUST_USE
