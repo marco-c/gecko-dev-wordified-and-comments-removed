@@ -166,6 +166,12 @@ Clear
 (
 )
 ;
+bool
+IsEmpty
+(
+)
+const
+;
 protected
 :
 bool
@@ -591,6 +597,12 @@ Shmem
 &
 aLargeAllocs
 )
+;
+bool
+IsEmpty
+(
+)
+const
 ;
 static
 void
