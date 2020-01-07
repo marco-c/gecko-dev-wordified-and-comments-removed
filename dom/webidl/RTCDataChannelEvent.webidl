@@ -131,11 +131,9 @@ RTCDataChannelEventInit
 :
 EventInit
 {
+required
 RTCDataChannel
-?
 channel
-=
-null
 ;
 }
 ;
@@ -153,7 +151,6 @@ Constructor
 (
 DOMString
 type
-optional
 RTCDataChannelEventInit
 eventInitDict
 )
@@ -166,7 +163,6 @@ Event
 readonly
 attribute
 RTCDataChannel
-?
 channel
 ;
 }
