@@ -47,13 +47,6 @@ h
 #
 include
 "
-nsCSSParser
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Encoding

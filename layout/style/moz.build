@@ -281,11 +281,6 @@ nsCSSKeywords
 h
 '
 '
-nsCSSParser
-.
-h
-'
-'
 nsCSSPropAliasList
 .
 h

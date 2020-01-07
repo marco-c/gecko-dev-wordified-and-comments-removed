@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsCSSParser
-.
-h
-"
-#
-include
-"
 nsGlobalWindowInner
 .
 h
