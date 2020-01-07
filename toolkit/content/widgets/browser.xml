@@ -135,6 +135,11 @@ xul
 :
 browser
 "
+role
+=
+"
+outerdoc
+"
 >
 <
 content
@@ -8222,7 +8227,7 @@ CDATA
 const
 POPUP_SIZE
 =
-28
+32
 ;
 if
 (
