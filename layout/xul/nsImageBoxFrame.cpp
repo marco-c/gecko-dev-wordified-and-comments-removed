@@ -1416,11 +1416,10 @@ list
 .
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayXULImage
+>
 (
 aBuilder
 this

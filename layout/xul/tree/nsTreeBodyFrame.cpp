@@ -12952,11 +12952,10 @@ nsDisplayItem
 *
 item
 =
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayTreeBody
+>
 (
 aBuilder
 this

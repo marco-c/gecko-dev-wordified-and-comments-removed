@@ -5819,11 +5819,10 @@ BorderBackground
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayColumnRule
+>
 (
 aBuilder
 this

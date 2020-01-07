@@ -2889,11 +2889,10 @@ Content
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayVideo
+>
 (
 aBuilder
 this

@@ -1425,11 +1425,10 @@ Content
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayRemote
+>
 (
 aBuilder
 aFrame

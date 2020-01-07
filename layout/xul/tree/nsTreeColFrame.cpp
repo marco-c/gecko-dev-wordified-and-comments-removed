@@ -557,11 +557,10 @@ Content
 >
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayXULTreeColSplitterTarget
+>
 (
 aBuilder
 this

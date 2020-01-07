@@ -3485,11 +3485,10 @@ content
 .
 AppendToTop
 (
-new
-(
-aBuilder
-)
+MakeDisplayItem
+<
 nsDisplayTransform
+>
 (
 aBuilder
 this
