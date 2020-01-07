@@ -1186,7 +1186,6 @@ NS_ELEMENT_WAS_THERE
 ;
 if
 (
-!
 tmplKid
 -
 >
@@ -1743,16 +1742,6 @@ realKid
 tmplKid
 )
 ;
-if
-(
-tmplKid
--
->
-IsElement
-(
-)
-)
-{
 rv
 =
 CopyAttributesToElement
@@ -1778,7 +1767,6 @@ rv
 return
 rv
 ;
-}
 if
 (
 isGenerationElement
