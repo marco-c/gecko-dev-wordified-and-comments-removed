@@ -2542,6 +2542,13 @@ continue
 ;
 }
 }
+MOZ_FALLTHROUGH_ASSERT
+(
+"
+unreachable
+"
+)
+;
 }
 default
 :
