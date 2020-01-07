@@ -522,6 +522,9 @@ return
 collection
 ;
 }
+#
+ifdef
+MOZ_OLD_STYLE
 template
 <
 class
@@ -556,6 +559,8 @@ GetAnimationGeneration
 )
 ;
 }
+#
+endif
 template
 <
 class
