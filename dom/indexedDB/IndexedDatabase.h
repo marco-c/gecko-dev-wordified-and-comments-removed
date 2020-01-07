@@ -148,6 +148,17 @@ bool
 mHasPreprocessInfo
 ;
 inline
+explicit
+StructuredCloneReadInfo
+(
+JS
+:
+:
+StructuredCloneScope
+aScope
+)
+;
+inline
 StructuredCloneReadInfo
 (
 )
