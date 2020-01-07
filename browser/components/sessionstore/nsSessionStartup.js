@@ -1401,7 +1401,7 @@ RESUME_SESSION
 ;
 }
 get
-willOverrideHomepagePromise
+willOverrideHomepage
 (
 )
 {
@@ -1420,12 +1420,7 @@ _resumeSessionEnabled
 )
 {
 return
-Promise
-.
-resolve
-(
 false
-)
 ;
 }
 return
