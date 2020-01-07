@@ -252,6 +252,9 @@ aData
 cpows
 aPrincipal
 aRetVal
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -570,10 +573,7 @@ this
 )
 ;
 }
-NS_IMETHODIMP_
-(
-bool
-)
+void
 nsInProcessTabChildGlobal
 :
 :
@@ -585,7 +585,6 @@ MarkScopesForCC
 (
 )
 ;
-return
 MessageManagerGlobal
 :
 :
@@ -719,10 +718,6 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsInProcessTabChildGlobal
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIMessageListenerManager
 )
 NS_INTERFACE_MAP_ENTRY
 (

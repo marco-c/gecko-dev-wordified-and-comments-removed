@@ -164,7 +164,6 @@ implements
 "
 nsIObserver
 nsIDOMEventListener
-nsIMessageListener
 nsIRemoteBrowser
 "
 >

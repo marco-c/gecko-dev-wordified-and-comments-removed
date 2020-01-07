@@ -269,9 +269,6 @@ generateQI
 [
 Ci
 .
-nsIMessageListener
-Ci
-.
 nsIEnterprisePolicies
 ]
 )

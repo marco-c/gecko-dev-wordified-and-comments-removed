@@ -1358,11 +1358,6 @@ content
 >
 <
 implementation
-implements
-=
-"
-nsIMessageListener
-"
 >
 <
 field
@@ -3681,14 +3676,6 @@ body
 <
 /
 method
->
-<
-!
--
--
-nsIMessageListener
--
--
 >
 <
 method

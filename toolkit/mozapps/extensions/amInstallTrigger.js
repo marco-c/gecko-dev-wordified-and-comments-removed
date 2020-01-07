@@ -527,9 +527,6 @@ integration
 .
 getService
 (
-Ci
-.
-nsIMessageListener
 )
 ;
 return

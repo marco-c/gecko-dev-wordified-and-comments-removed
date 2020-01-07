@@ -1821,7 +1821,6 @@ implementation
 implements
 =
 "
-nsIMessageListener
 nsIEditActionListener
 "
 >
@@ -6459,7 +6458,7 @@ method
 -
 -
 See
-nsIMessageListener
+MessageListener
 -
 -
 >

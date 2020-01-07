@@ -288,10 +288,7 @@ get
 )
 ;
 }
-NS_IMETHODIMP_
-(
-bool
-)
+void
 ProcessGlobal
 :
 :
@@ -303,7 +300,6 @@ MarkScopesForCC
 (
 )
 ;
-return
 MessageManagerGlobal
 :
 :
@@ -387,10 +383,6 @@ NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
 nsIMessageSender
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIMessageListenerManager
 )
 NS_INTERFACE_MAP_ENTRY
 (

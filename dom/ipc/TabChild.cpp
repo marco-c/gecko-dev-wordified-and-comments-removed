@@ -1542,6 +1542,9 @@ data
 nullptr
 nullptr
 nullptr
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -10538,6 +10541,9 @@ data
 cpows
 aPrincipal
 nullptr
+IgnoreErrors
+(
+)
 )
 ;
 return
@@ -15738,10 +15744,6 @@ TabChildGlobal
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIMessageListenerManager
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIMessageSender
 )
 NS_INTERFACE_MAP_ENTRY
@@ -15846,10 +15848,7 @@ return
 ok
 ;
 }
-NS_IMETHODIMP_
-(
-bool
-)
+void
 TabChildGlobal
 :
 :
@@ -15891,7 +15890,6 @@ MarkForCC
 )
 ;
 }
-return
 MessageManagerGlobal
 :
 :

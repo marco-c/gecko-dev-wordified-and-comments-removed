@@ -736,9 +736,6 @@ generateQI
 [
 Ci
 .
-nsIMessageListener
-Ci
-.
 nsISupportsWeakReference
 ]
 )
@@ -818,9 +815,6 @@ XPCOMUtils
 generateQI
 (
 [
-Ci
-.
-nsIMessageListener
 Ci
 .
 nsISupportsWeakReference

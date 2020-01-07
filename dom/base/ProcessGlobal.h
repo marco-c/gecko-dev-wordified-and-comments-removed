@@ -243,6 +243,11 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 ProcessGlobal
 nsIMessageSender
 )
+void
+MarkForCC
+(
+)
+;
 virtual
 JSObject
 *
@@ -374,10 +379,6 @@ aError
 )
 ;
 }
-NS_FORWARD_SAFE_NSIMESSAGELISTENERMANAGER
-(
-mMessageManager
-)
 NS_FORWARD_SAFE_NSIMESSAGESENDER
 (
 mMessageManager

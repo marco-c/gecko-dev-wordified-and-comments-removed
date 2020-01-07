@@ -1690,9 +1690,6 @@ Ci
 nsIObserver
 Ci
 .
-nsIMessageListener
-Ci
-.
 nsISupportsWeakReference
 ]
 )
