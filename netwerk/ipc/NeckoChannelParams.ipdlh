@@ -1255,6 +1255,9 @@ int64_t
 creationTime
 ;
 bool
+isHttpOnly
+;
+bool
 isSession
 ;
 bool
