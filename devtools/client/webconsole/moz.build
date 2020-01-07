@@ -96,6 +96,12 @@ actions
 components
 '
 '
+enhancers
+'
+'
+middleware
+'
+'
 reducers
 '
 '
