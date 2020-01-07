@@ -125918,6 +125918,15 @@ kind
 categorical
 "
 "
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
+"
+"
 labels
 "
 :
