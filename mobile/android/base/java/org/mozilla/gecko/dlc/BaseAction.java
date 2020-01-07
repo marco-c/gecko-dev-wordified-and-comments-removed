@@ -10,6 +10,13 @@ dlc
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -483,6 +490,9 @@ kind
 :
 "
 +
+(
+String
+)
 content
 .
 getKind
