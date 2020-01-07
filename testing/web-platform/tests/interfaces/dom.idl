@@ -1301,7 +1301,11 @@ createElement
 DOMString
 localName
 optional
+(
+DOMString
+or
 ElementCreationOptions
+)
 options
 )
 ;
@@ -1317,7 +1321,11 @@ namespace
 DOMString
 qualifiedName
 optional
+(
+DOMString
+or
 ElementCreationOptions
+)
 options
 )
 ;
