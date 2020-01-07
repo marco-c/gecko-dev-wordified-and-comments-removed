@@ -138,6 +138,14 @@ MOZ_ASSERT
 aWorkerPrivate
 )
 ;
+MOZ_ASSERT
+(
+aFailStatus
+>
+=
+Terminating
+)
+;
 aWorkerPrivate
 -
 >
