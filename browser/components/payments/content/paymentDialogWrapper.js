@@ -2189,6 +2189,11 @@ shippingAddressGUID
 }
 )
 {
+if
+(
+shippingAddressGUID
+)
+{
 let
 address
 =
@@ -2212,6 +2217,7 @@ requestId
 address
 )
 ;
+}
 }
 onChangeShippingOption
 (
