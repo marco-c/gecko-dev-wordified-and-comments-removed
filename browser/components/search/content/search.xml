@@ -885,7 +885,7 @@ popup
 }
 }
 {
-capturing
+capture
 :
 true
 once
@@ -3898,7 +3898,7 @@ cxmenu
 ;
 }
 {
-capturing
+capture
 :
 true
 once
