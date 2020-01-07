@@ -190,17 +190,6 @@ healthping
 .
 enabled
 "
-HybridContentEnabled
-:
-"
-toolkit
-.
-telemetry
-.
-hybridContent
-.
-enabled
-"
 OverrideOfficialCheck
 :
 "
