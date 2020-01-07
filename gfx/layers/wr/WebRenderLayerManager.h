@@ -905,14 +905,6 @@ LayoutDeviceIntSize
 aSize
 )
 ;
-void
-ClearLayer
-(
-Layer
-*
-aLayer
-)
-;
 private
 :
 nsIWidget
