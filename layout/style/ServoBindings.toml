@@ -1856,6 +1856,9 @@ ImageURL
 Keyframe
 "
 "
+MediumFeaturesChangedResult
+"
+"
 nsAttrName
 "
 "
@@ -3328,6 +3331,12 @@ MallocSizeOf
 mozilla
 :
 :
+ServoStyleSet
+"
+"
+mozilla
+:
+:
 OriginFlags
 "
 "
@@ -3350,6 +3359,9 @@ nsIDocument_DocumentTheme
 "
 "
 nsSimpleContentList
+"
+"
+MediumFeaturesChangedResult
 "
 "
 RawGeckoAnimationPropertySegment
