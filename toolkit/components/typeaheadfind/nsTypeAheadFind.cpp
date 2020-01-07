@@ -2722,7 +2722,11 @@ selection
 >
 AddRange
 (
+*
 returnRange
+IgnoreErrors
+(
+)
 )
 ;
 }

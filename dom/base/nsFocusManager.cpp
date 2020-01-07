@@ -11149,9 +11149,9 @@ FrameSelection
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsISelection
+Selection
 >
 domSelection
 =
@@ -11286,7 +11286,11 @@ domSelection
 >
 AddRange
 (
+*
 newRange
+IgnoreErrors
+(
+)
 )
 ;
 domSelection

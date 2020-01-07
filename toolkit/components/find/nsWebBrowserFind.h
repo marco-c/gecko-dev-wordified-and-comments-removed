@@ -187,7 +187,7 @@ SetSelectionAndScroll
 nsPIDOMWindowOuter
 *
 aWindow
-nsIDOMRange
+nsRange
 *
 aRange
 )
