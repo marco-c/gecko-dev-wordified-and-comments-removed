@@ -175,16 +175,6 @@ nsIDOMUIEvent
 readonly
 attribute
 long
-screenX
-;
-readonly
-attribute
-long
-screenY
-;
-readonly
-attribute
-long
 mozMovementX
 ;
 readonly
