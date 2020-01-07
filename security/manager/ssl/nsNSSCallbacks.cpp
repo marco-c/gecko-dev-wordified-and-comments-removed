@@ -1898,7 +1898,7 @@ NowLoRes
 (
 )
 ;
-TimeDuration
+PRIntervalTime
 wait_interval
 ;
 bool
@@ -1930,10 +1930,7 @@ Thread
 ;
 wait_interval
 =
-TimeDuration
-:
-:
-FromMicroseconds
+PR_MicrosecondsToInterval
 (
 50
 )
@@ -1943,10 +1940,7 @@ else
 {
 wait_interval
 =
-TimeDuration
-:
-:
-FromMilliseconds
+PR_MillisecondsToInterval
 (
 250
 )

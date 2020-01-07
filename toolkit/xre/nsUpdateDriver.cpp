@@ -520,10 +520,7 @@ monitor
 .
 Wait
 (
-TimeDuration
-:
-:
-FromSeconds
+PR_SecondsToInterval
 (
 60
 )

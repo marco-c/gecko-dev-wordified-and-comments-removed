@@ -14332,6 +14332,10 @@ break
 }
 WaitForWorkerEvents
 (
+PR_MillisecondsToInterval
+(
+UINT32_MAX
+)
 )
 ;
 }
@@ -14757,6 +14761,8 @@ WorkerPrivate
 :
 WaitForWorkerEvents
 (
+PRIntervalTime
+aInterval
 )
 {
 AssertIsOnWorkerThread
@@ -14773,6 +14779,7 @@ mCondVar
 .
 Wait
 (
+aInterval
 )
 ;
 }

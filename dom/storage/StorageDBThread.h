@@ -66,15 +66,6 @@ h
 #
 include
 "
-mozilla
-/
-TimeStamp
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -1212,7 +1203,7 @@ mWorkerStatements
 StatementCache
 mReaderStatements
 ;
-TimeStamp
+PRIntervalTime
 mDirtyEpoch
 ;
 bool
@@ -1296,7 +1287,7 @@ UnscheduleFlush
 (
 )
 ;
-TimeDuration
+PRIntervalTime
 TimeUntilFlush
 (
 )
