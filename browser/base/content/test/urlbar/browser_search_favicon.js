@@ -186,7 +186,7 @@ search
 ?
 q
 =
-foo
+foobar
 &
 client
 =

@@ -354,6 +354,8 @@ gURLBar
 value
 =
 "
+www
+.
 e
 "
 ;
@@ -407,6 +409,8 @@ http
 :
 /
 /
+www
+.
 example
 .
 com
