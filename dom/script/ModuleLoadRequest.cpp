@@ -183,10 +183,9 @@ aParent
 -
 >
 mCORSMode
-aParent
--
->
-mIntegrity
+SRIMetadata
+(
+)
 aParent
 -
 >

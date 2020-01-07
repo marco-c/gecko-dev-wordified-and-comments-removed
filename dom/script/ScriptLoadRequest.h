@@ -170,12 +170,6 @@ mozilla
 CORSMode
 aCORSMode
 const
-mozilla
-:
-:
-dom
-:
-:
 SRIMetadata
 &
 aIntegrity
@@ -647,12 +641,6 @@ CORSMode
 mCORSMode
 ;
 const
-mozilla
-:
-:
-dom
-:
-:
 SRIMetadata
 mIntegrity
 ;

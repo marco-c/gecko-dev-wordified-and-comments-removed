@@ -783,12 +783,6 @@ mozilla
 CORSMode
 aCORSMode
 const
-mozilla
-:
-:
-dom
-:
-:
 SRIMetadata
 &
 aIntegrity
