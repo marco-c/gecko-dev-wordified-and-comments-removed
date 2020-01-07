@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 json
 from
@@ -1141,6 +1145,7 @@ except
 :
     
 print
+(
 "
 Context
 is
@@ -1149,6 +1154,7 @@ failed
 Test
 1
 "
+)
 try
 :
     
@@ -1187,6 +1193,7 @@ except
 :
     
 print
+(
 "
 Cannot
 use
@@ -1199,6 +1206,7 @@ LD
 to
 NQuads
 "
+)
 try
 :
     
@@ -1277,6 +1285,7 @@ except
 :
     
 print
+(
 "
 Different
 triples
@@ -1289,6 +1298,7 @@ non
 isomorphic
 graphs
 "
+)
 try
 :
     
@@ -1324,6 +1334,7 @@ except
 :
     
 print
+(
 "
 Failed
 to
@@ -1331,6 +1342,7 @@ recompact
 parsed
 data
 "
+)
     
 raise
 try
@@ -1719,6 +1731,7 @@ rdfsresource
 :
             
 print
+(
 "
 Found
 inconsistent
@@ -1732,6 +1745,7 @@ range
 "
 %
 p
+)
 for
 c
 in
@@ -1770,6 +1784,7 @@ otherClasses
 :
             
 print
+(
 "
 Found
 inconsistent
@@ -1783,8 +1798,11 @@ superClass
 "
 %
 c
+)
 print
+(
 "
 Done
 .
 "
+)

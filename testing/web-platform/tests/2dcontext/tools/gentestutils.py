@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 re
 import
@@ -1338,6 +1342,7 @@ mapped_name
 :
             
 print
+(
 "
 LIKELY
 ERROR
@@ -1353,6 +1358,7 @@ mapping
 "
 %
 name
+)
         
 if
 '
@@ -2303,6 +2309,7 @@ name
 ]
         
 print
+(
 "
 \
 r
@@ -2321,6 +2328,7 @@ name
 \
 t
 "
+)
         
 if
 name
@@ -2329,6 +2337,7 @@ used_tests
 :
             
 print
+(
 "
 Test
 %
@@ -2339,6 +2348,7 @@ twice
 "
 %
 name
+)
         
 used_tests
 [
@@ -2473,6 +2483,7 @@ spec_ids
 :
                 
 print
+(
 "
 Test
 %
@@ -2488,6 +2499,7 @@ s
 (
 name
 ref
+)
 )
             
 spec_refs
@@ -2519,6 +2531,7 @@ testing
 :
             
 print
+(
 "
 Test
 %
@@ -2534,6 +2547,7 @@ points
 "
 %
 name
+)
         
 if
 test
@@ -2578,6 +2592,7 @@ code
 :
             
 print
+(
 "
 Probable
 incorrect
@@ -2589,6 +2604,7 @@ s
 "
 %
 name
+)
         
 code
 =
@@ -2716,7 +2732,9 @@ if
 in
 expected
 :
+                    
 print
+(
 "
 Found
 semicolon
@@ -2726,6 +2744,7 @@ s
 "
 %
 name
+)
                 
 expected
 =
@@ -3791,6 +3810,8 @@ template_params
 )
     
 print
+(
+)
     
 def
 getNodeText
@@ -4452,6 +4473,7 @@ spec_refs
 :
                 
 print
+(
 "
 Unused
 spec
@@ -4466,6 +4488,7 @@ a
 id
 '
 ]
+)
             
 pattern_text
 =
@@ -4914,6 +4937,7 @@ matched_assertions
 :
                         
 print
+(
 "
 Spec
 statement
@@ -4925,6 +4949,7 @@ places
 "
 %
 id
+)
                     
 matched_assertions
 [
@@ -4943,6 +4968,7 @@ lastindex
 :
                         
 print
+(
 "
 Spec
 statement
@@ -4957,6 +4983,7 @@ groups
 "
 %
 id
+)
                     
 end
 =
@@ -5310,6 +5337,7 @@ matched_assertions
 :
                 
 print
+(
 "
 Annotation
 incomplete
@@ -5327,6 +5355,7 @@ s
 id
 '
 ]
+)
         
 doc
 .

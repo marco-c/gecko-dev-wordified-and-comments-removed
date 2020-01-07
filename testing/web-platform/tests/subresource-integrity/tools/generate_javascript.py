@@ -1,4 +1,8 @@
 from
+__future__
+import
+print_function
+from
 os
 import
 path
@@ -246,6 +250,7 @@ js_files
 :
     
 print
+(
 "
 Generating
 content
@@ -255,6 +260,7 @@ s
 "
 %
 file
+)
     
 base
 =
@@ -327,6 +333,7 @@ content
 )
     
 print
+(
 "
 \
 tSHA512
@@ -340,8 +347,10 @@ sha512_uri
 (
 content
 )
+)
     
 print
+(
 "
 \
 tSHA256
@@ -355,8 +364,10 @@ sha256_uri
 (
 content
 )
+)
     
 print
+(
 "
 \
 tMD5
@@ -369,6 +380,7 @@ s
 md5_uri
 (
 content
+)
 )
 if
 __name__

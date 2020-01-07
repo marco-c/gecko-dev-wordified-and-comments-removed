@@ -6,8 +6,23 @@ import
 os
 import
 progressbar
+try
+:
+    
+from
+urllib
+.
+request
 import
+urlopen
+except
+ImportError
+:
+    
+from
 urllib2
+import
+urlopen
 MathMLAssociationCopyright
 =
 "
@@ -77,8 +92,6 @@ fileName
     
 request
 =
-urllib2
-.
 urlopen
 (
 url
@@ -148,7 +161,7 @@ os
 .
 umask
 (
-0002
+0o002
 )
     
 with

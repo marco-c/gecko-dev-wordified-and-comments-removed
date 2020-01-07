@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 os
 sys
@@ -409,13 +413,16 @@ f
         
 except
 ValueError
+as
 ex
 :
           
 print
+(
 ex
 .
 message
+)
           
 match
 =
@@ -455,6 +462,7 @@ group
 )
             
 print
+(
 read_nth_line
 (
 f
@@ -464,8 +472,10 @@ line_number
 rstrip
 (
 )
+)
             
 print
+(
 "
 "
 *
@@ -478,6 +488,7 @@ column
 "
 ^
 "
+)
           
 sys
 .

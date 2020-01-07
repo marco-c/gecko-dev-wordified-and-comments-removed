@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 json
 sys
@@ -982,10 +986,12 @@ error_details
     
 except
 AssertionError
+as
 err
 :
         
 print
+(
 '
 ERROR
 :
@@ -993,8 +999,10 @@ ERROR
 err
 .
 message
+)
         
 print
+(
 json
 .
 dumps
@@ -1003,6 +1011,7 @@ error_details
 indent
 =
 4
+)
 )
         
 sys
@@ -1030,6 +1039,7 @@ spec_json
 )
     
 print
+(
 "
 Spec
 JSON
@@ -1037,6 +1047,7 @@ is
 valid
 .
 "
+)
 if
 __name__
 =

@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -1570,6 +1574,7 @@ filename_changes
 :
             
 print
+(
 "
 Got
 duplicate
@@ -1584,6 +1589,7 @@ path
 basename
 (
 k
+)
 )
         
 filename_changes

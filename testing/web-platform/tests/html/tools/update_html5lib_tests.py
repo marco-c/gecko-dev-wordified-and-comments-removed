@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 sys
 import
@@ -40,6 +44,7 @@ ImportError
 :
     
 print
+(
 "
 "
 "
@@ -135,6 +140,7 @@ environment
 "
 "
 "
+)
 TESTS_PATH
 =
 "
@@ -354,7 +360,9 @@ ids_seen
 }
     
 print
+(
 input_file_name
+)
     
 for
 test
@@ -452,6 +460,7 @@ ids_seen
 :
             
 print
+(
 "
 WARNING
 :
@@ -492,6 +501,7 @@ ids_seen
 [
 test_id
 ]
+)
 )
             
 continue

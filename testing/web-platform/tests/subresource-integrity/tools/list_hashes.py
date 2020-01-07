@@ -1,4 +1,8 @@
 from
+__future__
+import
+print_function
+from
 os
 import
 path
@@ -415,6 +419,7 @@ js_and_css_files
 :
     
 print
+(
 "
 Listing
 hash
@@ -425,6 +430,7 @@ s
 "
 %
 file
+)
     
 with
 open
@@ -447,6 +453,7 @@ read
 )
       
 print
+(
 "
 \
 tSHA512
@@ -460,8 +467,10 @@ sha512_uri
 (
 content
 )
+)
       
 print
+(
 "
 \
 tSHA384
@@ -475,8 +484,10 @@ sha384_uri
 (
 content
 )
+)
       
 print
+(
 "
 \
 tSHA256
@@ -490,8 +501,10 @@ sha256_uri
 (
 content
 )
+)
       
 print
+(
 "
 \
 tMD5
@@ -505,8 +518,10 @@ md5_uri
 (
 content
 )
+)
       
 print
+(
 "
 \
 tEd25519
@@ -521,8 +536,10 @@ ed25519_signature
 ed25519_key
 content
 )
+)
   
 print
+(
 "
 \
 nEd25519
@@ -543,6 +560,7 @@ ed25519_key
 [
 1
 ]
+)
 )
 if
 __name__
