@@ -105,6 +105,11 @@ GeckoViewAccessibility
 jsm
 '
 '
+GeckoViewConsole
+.
+jsm
+'
+'
 GeckoViewContent
 .
 jsm

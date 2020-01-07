@@ -505,6 +505,11 @@ javaCrashReportingEnabled
 (
 true
 )
+.
+consoleOutput
+(
+true
+)
 ;
 sRuntime
 =

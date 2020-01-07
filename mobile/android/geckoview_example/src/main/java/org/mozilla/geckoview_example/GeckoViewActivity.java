@@ -735,6 +735,11 @@ javaCrashReportingEnabled
 true
 )
 .
+consoleOutput
+(
+true
+)
+.
 trackingProtectionCategories
 (
 TrackingProtectionDelegate

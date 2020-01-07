@@ -75,11 +75,9 @@ true
 pref
 (
 "
-toolkit
+geckoview
 .
-telemetry
-.
-eventping
+console
 .
 enabled
 "
