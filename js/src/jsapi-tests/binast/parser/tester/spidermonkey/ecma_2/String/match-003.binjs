@@ -31,19 +31,19 @@ head
 list
 >
 <
-/
-list
->
-<
-list
->
-<
 string
 >
 AddGlobalRegExpCases
 <
 /
 string
+>
+<
+/
+list
+>
+<
+list
 >
 <
 string
@@ -94,7 +94,6 @@ list
 <
 list
 >
-R
 <
 tuple
 >
@@ -711,7 +710,6 @@ tuple
 <
 list
 >
-O
 <
 tuple
 >
@@ -850,7 +848,6 @@ head
 <
 list
 >
-\
 <
 tuple
 >
@@ -1238,7 +1235,6 @@ head
 <
 list
 >
-\
 <
 tuple
 >
@@ -1733,7 +1729,6 @@ head
 <
 list
 >
-\
 <
 tuple
 >
@@ -1917,7 +1912,6 @@ tuple
 <
 list
 >
-X
 <
 tuple
 >
@@ -2250,7 +2244,6 @@ tuple
 <
 list
 >
-X
 <
 tuple
 >
@@ -2326,7 +2319,6 @@ head
 <
 list
 >
-\
 <
 tuple
 >
@@ -2532,7 +2524,6 @@ tuple
 <
 list
 >
-X
 <
 tuple
 >
@@ -2646,7 +2637,6 @@ tuple
 <
 list
 >
-k
 <
 tuple
 >
@@ -2909,7 +2899,6 @@ tuple
 <
 list
 >
-X
 <
 tuple
 >
@@ -3006,7 +2995,6 @@ head
 <
 list
 >
-\
 <
 tuple
 >
@@ -3121,7 +3109,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -3149,14 +3137,6 @@ head
 >
 <
 list
->
-<
-string
->
-AddGlobalRegExpCases
-<
-/
-string
 >
 <
 string
@@ -3230,7 +3210,6 @@ list
 <
 list
 >
-:
 <
 string
 >
@@ -3302,7 +3281,6 @@ head
 <
 list
 >
-W
 <
 tuple
 >
@@ -3409,7 +3387,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -3445,7 +3422,6 @@ list
 <
 list
 >
-#
 <
 tuple
 >
@@ -3571,7 +3547,6 @@ tuple
 <
 list
 >
-Y
 <
 tuple
 >
@@ -3712,7 +3687,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -3724,7 +3698,6 @@ tuple
 <
 list
 >
-|
 <
 tuple
 >
@@ -3777,7 +3750,6 @@ tuple
 <
 list
 >
--
 <
 tuple
 >
@@ -4043,7 +4015,6 @@ tuple
 <
 list
 >
-Y
 <
 tuple
 >
@@ -4106,7 +4077,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -4133,7 +4103,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -4554,7 +4523,6 @@ tuple
 <
 list
 >
-Y
 <
 tuple
 >
@@ -4835,7 +4803,6 @@ tuple
 <
 list
 >
-Y
 <
 tuple
 >
@@ -5011,7 +4978,6 @@ tuple
 <
 list
 >
-Y
 <
 tuple
 >
@@ -5320,7 +5286,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -5332,7 +5297,6 @@ tuple
 <
 list
 >
-p
 <
 tuple
 >
@@ -5856,7 +5820,6 @@ tuple
 <
 list
 >
-Y
 <
 tuple
 >

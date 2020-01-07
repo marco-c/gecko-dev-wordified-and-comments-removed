@@ -1013,7 +1013,6 @@ tuple
 <
 list
 >
-j
 <
 tuple
 >
@@ -1182,7 +1181,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1194,7 +1192,6 @@ tuple
 <
 list
 >
-)
 <
 tuple
 >
@@ -1474,7 +1471,6 @@ tuple
 <
 list
 >
-z
 <
 tuple
 >

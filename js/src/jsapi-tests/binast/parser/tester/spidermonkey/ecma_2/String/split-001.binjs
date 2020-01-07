@@ -31,13 +31,6 @@ head
 list
 >
 <
-/
-list
->
-<
-list
->
-<
 string
 >
 AddLimitedSplitCases
@@ -52,6 +45,13 @@ AddSplitCases
 <
 /
 string
+>
+<
+/
+list
+>
+<
+list
 >
 <
 string
@@ -102,7 +102,6 @@ list
 <
 list
 >
-Y
 <
 tuple
 >
@@ -616,7 +615,6 @@ head
 <
 list
 >
-P
 <
 tuple
 >
@@ -971,7 +969,6 @@ head
 <
 list
 >
-P
 <
 tuple
 >
@@ -1230,7 +1227,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1258,14 +1255,6 @@ head
 >
 <
 list
->
-<
-string
->
-AddSplitCases
-<
-/
-string
 >
 <
 string
@@ -1339,7 +1328,6 @@ list
 <
 list
 >
-:
 <
 string
 >
@@ -1411,7 +1399,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -1518,7 +1505,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1955,7 +1941,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -2448,7 +2433,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -2529,7 +2513,6 @@ string
 <
 list
 >
-B
 <
 tuple
 >
@@ -2730,7 +2713,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -2906,7 +2888,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -3240,7 +3221,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -3252,7 +3232,6 @@ tuple
 <
 list
 >
-n
 <
 tuple
 >
@@ -3776,7 +3755,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -3879,7 +3857,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -3907,14 +3885,6 @@ head
 >
 <
 list
->
-<
-string
->
-AddLimitedSplitCases
-<
-/
-string
 >
 <
 string
@@ -4221,7 +4191,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -5347,7 +5316,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >
@@ -5677,7 +5645,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -6311,7 +6278,6 @@ tuple
 <
 list
 >
-\
 <
 tuple
 >

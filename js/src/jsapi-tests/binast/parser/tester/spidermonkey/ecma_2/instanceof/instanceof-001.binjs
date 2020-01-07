@@ -37,7 +37,6 @@ list
 <
 list
 >
-l
 <
 string
 >
@@ -95,7 +94,6 @@ list
 <
 list
 >
-=
 <
 tuple
 >
@@ -662,7 +660,6 @@ string
 <
 list
 >
-;
 <
 tuple
 >
@@ -812,7 +809,6 @@ tuple
 <
 list
 >
-"
 <
 tuple
 >
