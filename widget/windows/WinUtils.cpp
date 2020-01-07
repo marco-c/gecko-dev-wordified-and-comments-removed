@@ -7142,7 +7142,7 @@ IsEmpty
 )
 ;
 }
-nsIntRegion
+LayoutDeviceIntRegion
 WinUtils
 :
 :
@@ -7166,7 +7166,7 @@ here
 "
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 rgn
 ;
 DWORD
@@ -7317,7 +7317,7 @@ return
 rgn
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 WinUtils
 :
 :
@@ -7330,7 +7330,7 @@ aRect
 )
 {
 return
-nsIntRect
+LayoutDeviceIntRect
 (
 aRect
 .

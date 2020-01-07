@@ -1214,7 +1214,7 @@ aResultString
 )
 ;
 static
-nsIntRegion
+LayoutDeviceIntRegion
 ConvertHRGNToRegion
 (
 HRGN
@@ -1222,7 +1222,7 @@ aRgn
 )
 ;
 static
-nsIntRect
+LayoutDeviceIntRect
 ToIntRect
 (
 const

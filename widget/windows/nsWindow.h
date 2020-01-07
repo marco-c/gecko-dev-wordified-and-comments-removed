@@ -2262,13 +2262,13 @@ OnDestroy
 )
 override
 ;
-virtual
 bool
 OnResize
 (
-nsIntRect
+const
+LayoutDeviceIntSize
 &
-aWindowRect
+aSize
 )
 ;
 bool
@@ -2561,7 +2561,7 @@ aIntersectWithExisting
 )
 override
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 GetRegionToPaint
 (
 bool
