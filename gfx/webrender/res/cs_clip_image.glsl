@@ -157,14 +157,14 @@ cmi
 render_task_address
 )
 ;
-Transform
-transform
+ClipScrollNode
+scroll_node
 =
-fetch_transform
+fetch_clip_scroll_node
 (
 cmi
 .
-transform_id
+scroll_node_id
 )
 ;
 ImageMaskData
@@ -200,7 +200,7 @@ vi
 write_clip_tile_vertex
 (
 local_rect
-transform
+scroll_node
 area
 )
 ;

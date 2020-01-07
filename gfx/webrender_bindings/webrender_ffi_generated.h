@@ -195,9 +195,6 @@ RGBAF32
 RG8
 =
 5
-RGBAI32
-=
-6
 Sentinel
 }
 ;
@@ -3870,15 +3867,6 @@ bool
 aIsBackfaceVisible
 BorderWidths
 aWidths
-uint32_t
-aWidth
-uint32_t
-aHeight
-SideOffsets2D
-<
-uint32_t
->
-aSlice
 LayoutPoint
 aStartPoint
 LayoutPoint

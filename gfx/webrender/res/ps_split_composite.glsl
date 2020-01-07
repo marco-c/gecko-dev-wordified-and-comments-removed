@@ -265,7 +265,7 @@ ci
 .
 render_task_index
 =
-aData
+aData0
 .
 x
 ;
@@ -273,7 +273,7 @@ ci
 .
 src_task_index
 =
-aData
+aData0
 .
 y
 ;
@@ -281,7 +281,7 @@ ci
 .
 polygons_address
 =
-aData
+aData0
 .
 z
 ;
@@ -291,7 +291,7 @@ z
 =
 float
 (
-aData
+aData0
 .
 w
 )

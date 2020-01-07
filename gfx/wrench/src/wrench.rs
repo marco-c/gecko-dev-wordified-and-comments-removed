@@ -555,12 +555,6 @@ bool
 _composite_needed
 :
 bool
-_render_time
-:
-Option
-<
-u64
->
 )
 {
 self
@@ -861,12 +855,6 @@ bool
 zoom_factor
 :
 f32
-chase_primitive
-:
-webrender
-:
-:
-ChasePrimitive
 notifier
 :
 Option
@@ -1163,7 +1151,6 @@ clone
 )
 )
 disable_dual_source_blending
-chase_primitive
 .
 .
 Default

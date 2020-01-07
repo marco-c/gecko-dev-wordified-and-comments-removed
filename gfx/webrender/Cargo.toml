@@ -273,7 +273,7 @@ version
 "
 0
 .
-19
+18
 "
 }
 lazy_static
@@ -321,7 +321,7 @@ version
 "
 0
 .
-12
+11
 "
 }
 rayon
