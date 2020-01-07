@@ -2096,7 +2096,7 @@ tab
 )
 tabBrowser
 .
-getFindBar
+getCachedFindBar
 (
 tab
 )

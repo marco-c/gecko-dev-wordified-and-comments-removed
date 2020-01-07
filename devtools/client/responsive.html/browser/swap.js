@@ -653,7 +653,7 @@ findBar
 =
 gBrowser
 .
-getFindBar
+getCachedFindBar
 (
 tab
 )
@@ -865,7 +865,7 @@ findBar
 =
 gBrowser
 .
-getFindBar
+getCachedFindBar
 (
 tab
 )
