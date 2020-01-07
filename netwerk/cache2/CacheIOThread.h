@@ -93,6 +93,7 @@ BlockingIOWatcher
 }
 class
 CacheIOThread
+final
 :
 public
 nsIThreadObserver

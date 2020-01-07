@@ -169,6 +169,7 @@ trash
 "
 class
 CacheFileHandle
+final
 :
 public
 nsISupports
@@ -1079,6 +1080,7 @@ CACHEFILEIOLISTENER_IID
 )
 class
 CacheFileIOManager
+final
 :
 public
 nsITimerCallback

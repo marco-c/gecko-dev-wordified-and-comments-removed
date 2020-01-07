@@ -218,6 +218,7 @@ mTx
 ;
 class
 NetworkActivityMonitor
+final
 :
 public
 nsITimerCallback

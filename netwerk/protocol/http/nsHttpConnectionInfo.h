@@ -69,6 +69,7 @@ gHttpLog
 ;
 class
 nsHttpConnectionInfo
+final
 :
 public
 ARefBase

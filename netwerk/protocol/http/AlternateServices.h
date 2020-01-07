@@ -500,6 +500,7 @@ mCallbacks
 ;
 class
 TransactionObserver
+final
 :
 public
 nsIStreamListener

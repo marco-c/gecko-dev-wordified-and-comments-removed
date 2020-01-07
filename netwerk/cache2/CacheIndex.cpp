@@ -870,6 +870,7 @@ mDoNotSearchInUpdates
 ;
 class
 FileOpenHelper
+final
 :
 public
 CacheFileIOListener

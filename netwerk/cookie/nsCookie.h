@@ -60,6 +60,7 @@ OriginAttributes
 ;
 class
 nsCookie
+final
 :
 public
 nsICookie2
