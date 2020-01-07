@@ -241,6 +241,11 @@ nsMacDockSupport
 mm
 '
 '
+nsMacSharingService
+.
+mm
+'
+'
 nsMacWebAppUtils
 .
 mm

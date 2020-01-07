@@ -428,6 +428,11 @@ nsIMacDockSupport
 idl
 '
 '
+nsIMacSharingService
+.
+idl
+'
+'
 nsIMacWebAppUtils
 .
 idl
