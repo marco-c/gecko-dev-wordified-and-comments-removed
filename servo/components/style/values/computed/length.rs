@@ -5053,6 +5053,16 @@ NonNegativeLength
 Normal
 >
 ;
+pub
+type
+NonNegativeLengthOrPercentageOrNormal
+=
+Either
+<
+NonNegativeLengthOrPercentage
+Normal
+>
+;
 #
 [
 allow

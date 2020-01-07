@@ -11908,7 +11908,7 @@ impl_style_coord
 length
 :
 :
-NonNegativeLengthOrNormal
+NonNegativeLengthOrPercentageOrNormal
 "
 :
 impl_style_coord
