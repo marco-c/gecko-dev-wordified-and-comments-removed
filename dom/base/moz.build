@@ -902,6 +902,11 @@ DOMPrefs
 h
 '
 '
+DOMPrefsInternal
+.
+h
+'
+'
 DOMQuad
 .
 h
