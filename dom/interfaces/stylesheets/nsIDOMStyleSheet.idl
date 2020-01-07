@@ -199,10 +199,5 @@ attribute
 DOMString
 title
 ;
-readonly
-attribute
-nsIDOMMediaList
-media
-;
 }
 ;

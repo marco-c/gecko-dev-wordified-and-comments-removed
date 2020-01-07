@@ -300,13 +300,6 @@ h
 #
 include
 "
-nsIDOMMediaList
-.
-h
-"
-#
-include
-"
 nsIDOMMouseEvent
 .
 h
@@ -1965,10 +1958,6 @@ DEFINE_SHIM_WITH_CUSTOM_INTERFACE
 (
 nsIListBoxObject
 ListBoxObject
-)
-DEFINE_SHIM
-(
-MediaList
 )
 DEFINE_SHIM_WITH_CUSTOM_INTERFACE
 (

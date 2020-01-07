@@ -213,9 +213,6 @@ nsIDOMStyleSheetList
 interface
 nsIDOMStyleSheet
 ;
-interface
-nsIDOMMediaList
-;
 /
 /
 Base
