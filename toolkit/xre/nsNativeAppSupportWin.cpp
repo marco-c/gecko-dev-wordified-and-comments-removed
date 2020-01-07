@@ -566,7 +566,7 @@ Unlock
 ;
 BOOL
 rc
-MOZ_UNUSED_ATTRIBUTE
+MOZ_MAYBE_UNUSED
 =
 CloseHandle
 (
