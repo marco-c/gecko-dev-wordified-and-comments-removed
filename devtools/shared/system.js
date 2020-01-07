@@ -1329,9 +1329,3 @@ getScreenDimensions
 =
 getScreenDimensions
 ;
-exports
-.
-constants
-=
-AppConstants
-;
