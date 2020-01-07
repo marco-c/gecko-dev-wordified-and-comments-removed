@@ -308,9 +308,6 @@ class
 PlacesSQLQueryBuilder
 ;
 class
-QueryKeyValuePair
-;
-class
 nsNavHistory
 final
 :
@@ -1724,6 +1721,12 @@ TokensToQuery
 const
 nsTArray
 <
+mozilla
+:
+:
+places
+:
+:
 QueryKeyValuePair
 >
 &

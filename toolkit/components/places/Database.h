@@ -92,7 +92,7 @@ h
 #
 define
 DATABASE_SCHEMA_VERSION
-49
+50
 #
 define
 TOPIC_PLACES_INIT_COMPLETE
@@ -764,6 +764,11 @@ MigrateV49Up
 (
 )
 ;
+nsresult
+MigrateV50Up
+(
+)
+;
 void
 MigrateV48Frecencies
 (
@@ -781,6 +786,14 @@ ConnectionShutdownBlocker
 int64_t
 CreateMobileRoot
 (
+)
+;
+nsresult
+ConvertOldStyleQuery
+(
+nsCString
+&
+aURL
 )
 ;
 nsresult
