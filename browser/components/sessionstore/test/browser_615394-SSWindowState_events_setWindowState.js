@@ -117,7 +117,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 gBrowser
 .
@@ -138,7 +138,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 gBrowser
 .

@@ -235,7 +235,7 @@ ownerGlobal
 &
 SessionStore
 .
-getTabValue
+getCustomTabValue
 (
 tab
 "

@@ -1263,7 +1263,7 @@ set
 *
 /
 AString
-getTabValue
+getCustomTabValue
 (
 in
 nsIDOMNode
@@ -1322,7 +1322,7 @@ objects
 *
 /
 void
-setTabValue
+setCustomTabValue
 (
 in
 nsIDOMNode
@@ -1364,7 +1364,7 @@ name
 *
 /
 void
-deleteTabValue
+deleteCustomTabValue
 (
 in
 nsIDOMNode

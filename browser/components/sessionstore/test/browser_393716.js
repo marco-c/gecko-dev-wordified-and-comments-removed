@@ -63,7 +63,7 @@ URL
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 tab
 key
@@ -328,7 +328,7 @@ ok
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 tab
 key2
@@ -399,7 +399,7 @@ ok
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 tab2
 key2

@@ -92,7 +92,7 @@ newTab
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 tab
 "
@@ -137,7 +137,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 newTab
 "
@@ -151,7 +151,7 @@ bar
 ;
 ss
 .
-setTabValue
+setCustomTabValue
 (
 newTab
 "
@@ -195,7 +195,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 newTab
 "

@@ -576,7 +576,7 @@ extData
 :
 {
 "
-setTabValue
+setCustomTabValue
 "
 :
 "

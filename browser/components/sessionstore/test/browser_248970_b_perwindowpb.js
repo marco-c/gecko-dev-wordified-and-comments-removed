@@ -1066,7 +1066,7 @@ is
 (
 ss
 .
-getTabValue
+getCustomTabValue
 (
 tab_C
 key1
