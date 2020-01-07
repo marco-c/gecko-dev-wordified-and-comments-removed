@@ -103,9 +103,9 @@ transform
 stored
 as
 a
-2
-by
 3
+by
+2
 matrix
 in
 row
