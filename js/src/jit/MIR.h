@@ -39870,10 +39870,6 @@ index
 length
 )
 {
-setGuard
-(
-)
-;
 setMovable
 (
 )

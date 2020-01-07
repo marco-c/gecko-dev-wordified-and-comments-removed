@@ -1150,15 +1150,6 @@ bool
 checkNative
 )
 ;
-enum
-class
-BoundsCheckKind
-{
-IsLoad
-IsStore
-UnusedIndex
-}
-;
 MInstruction
 *
 addBoundsCheck
@@ -1169,8 +1160,6 @@ index
 MDefinition
 *
 length
-BoundsCheckKind
-kind
 )
 ;
 MInstruction
@@ -2452,8 +2441,6 @@ objTypeDescrs
 LinearSum
 *
 indexAsByteOffset
-BoundsCheckKind
-kind
 )
 ;
 AbortReasonOr
@@ -3004,8 +2991,6 @@ MInstruction
 *
 *
 elements
-BoundsCheckKind
-boundsCheckKind
 )
 ;
 MInstruction
@@ -3029,10 +3014,6 @@ nullptr
 &
 length
 nullptr
-BoundsCheckKind
-:
-:
-UnusedIndex
 )
 ;
 return
@@ -5103,8 +5084,6 @@ Scalar
 Type
 *
 arrayType
-BoundsCheckKind
-boundsCheckKind
 )
 ;
 InliningResult
@@ -5506,8 +5485,6 @@ MDefinition
 *
 *
 index
-BoundsCheckKind
-kind
 )
 ;
 bool
