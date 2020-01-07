@@ -407,13 +407,6 @@ h
 #
 include
 "
-nsIDOMSerializer
-.
-h
-"
-#
-include
-"
 nsXPCOM
 .
 h

@@ -162,11 +162,6 @@ nsIDOMParser
 idl
 '
 '
-nsIDOMSerializer
-.
-idl
-'
-'
 nsIDroppedLinkHandler
 .
 idl
