@@ -2833,6 +2833,9 @@ void
 data
 )
 ;
+namespace
+JS
+{
 enum
 class
 PromiseRejectionHandlingState
@@ -2841,6 +2844,7 @@ Unhandled
 Handled
 }
 ;
+}
 typedef
 void
 (
@@ -2856,6 +2860,9 @@ JS
 :
 HandleObject
 promise
+JS
+:
+:
 PromiseRejectionHandlingState
 state
 void
@@ -21482,6 +21489,9 @@ HandleObject
 obj
 )
 ;
+namespace
+JS
+{
 extern
 JS_PUBLIC_API
 (
@@ -21497,6 +21507,7 @@ HandleObject
 obj
 )
 ;
+}
 extern
 JS_PUBLIC_API
 (

@@ -3483,6 +3483,9 @@ promiseRejectionTrackerCallback
 (
 cx
 promise
+JS
+:
+:
 PromiseRejectionHandlingState
 :
 :
@@ -3546,6 +3549,9 @@ promiseRejectionTrackerCallback
 (
 cx
 promise
+JS
+:
+:
 PromiseRejectionHandlingState
 :
 :

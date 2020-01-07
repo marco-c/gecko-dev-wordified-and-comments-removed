@@ -1082,6 +1082,9 @@ JSObject
 *
 stackObject
 =
+JS
+:
+:
 ExceptionStackOrNull
 (
 exceptionObject

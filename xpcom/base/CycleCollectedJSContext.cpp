@@ -1150,6 +1150,9 @@ JS
 :
 HandleObject
 aPromise
+JS
+:
+:
 PromiseRejectionHandlingState
 state
 void
@@ -1203,6 +1206,9 @@ if
 state
 =
 =
+JS
+:
+:
 PromiseRejectionHandlingState
 :
 :
