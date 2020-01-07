@@ -15,7 +15,7 @@ version
 .
 2
 .
-2
+3
 "
 authors
 =
@@ -66,13 +66,15 @@ audioipc
 "
 }
 cubeb
+-
+core
 =
 "
 0
 .
 5
 .
-2
+1
 "
 bytes
 =

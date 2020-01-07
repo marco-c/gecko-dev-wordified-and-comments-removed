@@ -273,6 +273,13 @@ ClientContext
 ClientStream
 )
 ;
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 ClientContext
@@ -1475,7 +1482,7 @@ Some
 (
 s
 .
-to_bytes
+to_bytes_with_nul
 (
 )
 .
@@ -1607,7 +1614,7 @@ debug
 (
 "
 ClientContext
-drop
+dropped
 .
 .
 .

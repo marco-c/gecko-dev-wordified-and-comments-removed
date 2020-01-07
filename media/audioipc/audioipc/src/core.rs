@@ -253,7 +253,7 @@ mut
 self
 )
 {
-trace
+debug
 !
 (
 "

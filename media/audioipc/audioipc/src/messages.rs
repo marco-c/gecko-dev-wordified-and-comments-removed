@@ -648,6 +648,13 @@ latency_hi
 }
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Clone

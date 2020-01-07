@@ -431,7 +431,7 @@ io
 Error
 >
 {
-debug
+trace
 !
 (
 "
@@ -723,7 +723,7 @@ panic
 )
 }
 }
-debug
+trace
 !
 (
 "
