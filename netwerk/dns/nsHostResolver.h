@@ -654,6 +654,9 @@ FAILED
 mTrrAUsed
 mTrrAAAAUsed
 ;
+Mutex
+mTrrLock
+;
 RefPtr
 <
 mozilla
