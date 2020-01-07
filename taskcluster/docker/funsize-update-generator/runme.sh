@@ -216,11 +216,7 @@ S3_BUCKET_AND_PATH
 }
 "
 ]
-&
-&
-getent
-hosts
-taskcluster
+;
 then
 #
 Does
