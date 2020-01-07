@@ -402,6 +402,15 @@ chromium
 /
 base
 /
+environment
+.
+cc
+'
+'
+chromium
+/
+base
+/
 hash
 .
 cc

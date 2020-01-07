@@ -1276,6 +1276,12 @@ const
 wchar_t
 *
 command_line
+base
+:
+:
+EnvironmentMap
+&
+env_map
 scoped_refptr
 <
 TargetPolicy
@@ -1964,6 +1970,7 @@ inherit_handles
 startup_info
 &
 process_info
+env_map
 last_error
 )
 ;
