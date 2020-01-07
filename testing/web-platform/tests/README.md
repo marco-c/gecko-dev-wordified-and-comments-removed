@@ -3462,7 +3462,9 @@ that
 we
 can
 .
-OWNERS
+META
+.
+yml
 files
 are
 used
@@ -3500,7 +3502,9 @@ add
 yourself
 to
 the
-OWNERS
+META
+.
+yml
 file
 .
 Anyone
@@ -3787,7 +3791,7 @@ reviewer
 Open
 PRs
 without
-owners
+reviewers
 ]
 (
 https
@@ -3824,7 +3828,7 @@ label
 %
 3Aneeds
 -
-owners
+reviewers
 )
 *
 [
