@@ -66,7 +66,11 @@ h
 #
 include
 "
-nsIDOMMutationEvent
+mozilla
+/
+dom
+/
+MutationEventBinding
 .
 h
 "
@@ -1047,7 +1051,10 @@ nsGkAtoms
 :
 :
 curpos
-nsIDOMMutationEvent
+dom
+:
+:
+MutationEventBinding
 :
 :
 MODIFICATION
@@ -1157,7 +1164,10 @@ nsGkAtoms
 :
 :
 curpos
-nsIDOMMutationEvent
+dom
+:
+:
+MutationEventBinding
 :
 :
 MODIFICATION

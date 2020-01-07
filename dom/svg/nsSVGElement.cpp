@@ -96,13 +96,6 @@ h
 #
 include
 "
-nsIDOMMutationEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 InternalMutationEvent
@@ -359,6 +352,17 @@ h
 include
 "
 nsSMILAnimationController
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+MutationEventBinding
 .
 h
 "
@@ -6559,7 +6563,7 @@ static_cast
 uint8_t
 >
 (
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 MODIFICATION
@@ -6570,7 +6574,7 @@ static_cast
 uint8_t
 >
 (
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -6677,7 +6681,7 @@ static_cast
 uint8_t
 >
 (
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 MODIFICATION
@@ -6688,7 +6692,7 @@ static_cast
 uint8_t
 >
 (
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 ADDITION
@@ -7306,7 +7310,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -7794,7 +7798,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -8208,7 +8212,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -8484,7 +8488,7 @@ kNameSpaceID_None
 GetPointListAttrName
 (
 )
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -8633,7 +8637,7 @@ kNameSpaceID_None
 GetPathDataAttrName
 (
 )
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -8824,7 +8828,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -9150,7 +9154,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -9341,7 +9345,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -9667,7 +9671,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -9889,7 +9893,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -10075,7 +10079,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -10262,7 +10266,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -10389,7 +10393,7 @@ nsGkAtoms
 :
 :
 viewBox
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -10518,7 +10522,7 @@ nsGkAtoms
 :
 :
 preserveAspectRatio
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL
@@ -10954,7 +10958,7 @@ aAttrEnum
 ]
 .
 mName
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 SMIL

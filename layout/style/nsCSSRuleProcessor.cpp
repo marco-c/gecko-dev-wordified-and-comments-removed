@@ -341,7 +341,11 @@ h
 #
 include
 "
-nsIDOMMutationEvent
+mozilla
+/
+dom
+/
+MutationEventBinding
 .
 h
 "
@@ -11575,7 +11579,7 @@ aData
 mModType
 =
 =
-nsIDOMMutationEvent
+MutationEventBinding
 :
 :
 REMOVAL
