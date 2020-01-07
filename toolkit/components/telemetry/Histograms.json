@@ -92917,6 +92917,12 @@ mozilla
 .
 com
 "
+"
+jkt
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -92930,7 +92936,7 @@ expires_in_version
 "
 :
 "
-60
+67
 "
 "
 kind
