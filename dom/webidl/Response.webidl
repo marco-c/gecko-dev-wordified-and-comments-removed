@@ -311,13 +311,7 @@ GetterThrows
 Func
 =
 "
-mozilla
-:
-:
-dom
-:
-:
-DOMPreferences
+nsContentUtils
 :
 :
 StreamsEnabled

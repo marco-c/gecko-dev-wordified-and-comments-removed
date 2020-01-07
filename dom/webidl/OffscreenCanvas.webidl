@@ -140,10 +140,10 @@ mozilla
 dom
 :
 :
-DOMPreferences
+OffscreenCanvas
 :
 :
-OffscreenCanvasEnabled
+PrefEnabled
 "
 ]
 interface

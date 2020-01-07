@@ -169,6 +169,11 @@ WorkerNavigator
 h
 '
 '
+WorkerPrefs
+.
+h
+'
+'
 WorkerPrivate
 .
 h

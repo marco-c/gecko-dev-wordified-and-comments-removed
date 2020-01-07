@@ -108,13 +108,7 @@ Worker
 Func
 =
 "
-mozilla
-:
-:
-dom
-:
-:
-DOMPreferences
+nsContentUtils
 :
 :
 PromiseRejectionEventsEnabled

@@ -172,10 +172,13 @@ mozilla
 dom
 :
 :
-DOMPreferences
+cache
 :
 :
-DOMCachesEnabled
+CacheStorage
+:
+:
+PrefEnabled
 "
 ]
 interface

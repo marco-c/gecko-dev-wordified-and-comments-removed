@@ -183,17 +183,6 @@ mozilla
 /
 dom
 /
-DOMPreferences
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 BindingDeclarations
 .
 h
