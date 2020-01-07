@@ -56,16 +56,6 @@ in
 Firefox
 for
 Android
-/
-Safari
-/
-Chrome
-for
-Android
-(
-via
-Valence
-)
 .
 Global
 actors
