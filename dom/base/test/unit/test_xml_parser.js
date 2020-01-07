@@ -97,7 +97,7 @@ s
 documentElement
 is
 not
-nsIDOMElement
+Element
 "
 ]
 [
@@ -164,6 +164,9 @@ test3
 )
 {
 return
+Element
+.
+isInstance
 (
 ParseXML
 (
@@ -176,8 +179,6 @@ root
 )
 .
 documentElement
-instanceof
-nsIDOMElement
 )
 ;
 }

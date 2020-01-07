@@ -44,13 +44,6 @@ I
 nsIDOMDocument
 ;
 const
-nsIDOMElement
-=
-I
-.
-nsIDOMElement
-;
-const
 nsIDOMNode
 =
 I
@@ -64,6 +57,9 @@ importGlobalProperties
 [
 "
 DOMParser
+"
+"
+Element
 "
 "
 XMLSerializer
