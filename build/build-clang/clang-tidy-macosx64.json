@@ -426,5 +426,14 @@ codesign
 .
 patch
 "
+"
+clang
+-
+tidy
+-
+cxx14
+.
+patch
+"
 ]
 }
