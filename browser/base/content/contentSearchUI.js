@@ -174,7 +174,7 @@ input
 addEventListener
 (
 "
-keypress
+keydown
 "
 this
 )
@@ -1544,7 +1544,7 @@ _updateSearchWithHeader
 )
 ;
 }
-_onKeypress
+_onKeydown
 (
 event
 )
