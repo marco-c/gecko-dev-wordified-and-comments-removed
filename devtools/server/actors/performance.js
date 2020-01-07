@@ -206,7 +206,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 Actor
@@ -307,7 +307,7 @@ new
 PerformanceRecorder
 (
 conn
-tabActor
+targetActor
 )
 ;
 this

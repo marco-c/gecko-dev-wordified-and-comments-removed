@@ -85,7 +85,7 @@ Firefox
 Chrome
 /
 Safari
-intance
+instance
 the
 toolbox
 is

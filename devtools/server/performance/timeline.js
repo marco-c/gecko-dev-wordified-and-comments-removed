@@ -105,7 +105,7 @@ DEFAULT_TIMELINE_DATA_PULL_TIMEOUT
 function
 Timeline
 (
-tabActor
+targetActor
 )
 {
 EventEmitter
@@ -117,9 +117,9 @@ this
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -173,7 +173,7 @@ this
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -207,7 +207,7 @@ stop
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -223,7 +223,7 @@ _onWindowReady
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;
@@ -246,7 +246,7 @@ if
 (
 this
 .
-tabActor
+targetActor
 .
 isRootActor
 )
@@ -255,7 +255,7 @@ originalDocShell
 =
 this
 .
-tabActor
+targetActor
 .
 docShell
 ;
@@ -266,7 +266,7 @@ originalDocShell
 =
 this
 .
-tabActor
+targetActor
 .
 originalDocShell
 ;
@@ -850,7 +850,7 @@ Framerate
 (
 this
 .
-tabActor
+targetActor
 )
 ;
 this
@@ -883,7 +883,7 @@ Memory
 (
 this
 .
-tabActor
+targetActor
 this
 .
 _stackFrames

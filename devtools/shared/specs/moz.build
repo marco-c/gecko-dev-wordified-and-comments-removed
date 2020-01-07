@@ -85,6 +85,14 @@ MPL
 0
 /
 .
+DIRS
++
+=
+[
+'
+targets
+'
+]
 DevToolsModules
 (
 '
@@ -292,11 +300,6 @@ js
 '
 '
 symbol
-.
-js
-'
-'
-tab
 .
 js
 '

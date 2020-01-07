@@ -181,7 +181,7 @@ do_test_pending
 function
 test_attach_tab
 (
-tabActor
+targetActor
 )
 {
 gClient
@@ -191,7 +191,7 @@ request
 {
 to
 :
-tabActor
+targetActor
 type
 :
 "
@@ -222,7 +222,7 @@ equal
 response
 .
 from
-tabActor
+targetActor
 )
 ;
 Assert

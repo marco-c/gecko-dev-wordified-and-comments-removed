@@ -483,7 +483,7 @@ layoutSpec
 initialize
 (
 conn
-tabActor
+targetActor
 walker
 )
 {
@@ -501,9 +501,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -529,7 +529,7 @@ this
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;

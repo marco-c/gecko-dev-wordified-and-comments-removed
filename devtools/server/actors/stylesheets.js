@@ -2542,7 +2542,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -2563,7 +2563,7 @@ this
 .
 parentActor
 =
-tabActor
+targetActor
 ;
 this
 .

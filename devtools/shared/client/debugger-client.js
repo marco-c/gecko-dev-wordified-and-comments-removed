@@ -1431,7 +1431,7 @@ attachTab
 :
 function
 (
-tabActor
+targetActor
 onResponse
 =
 noop
@@ -1445,7 +1445,7 @@ _clients
 .
 has
 (
-tabActor
+targetActor
 )
 )
 {
@@ -1458,7 +1458,7 @@ _clients
 .
 get
 (
-tabActor
+targetActor
 )
 ;
 const
@@ -1515,7 +1515,7 @@ packet
 {
 to
 :
-tabActor
+targetActor
 type
 :
 "

@@ -214,7 +214,7 @@ this
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -230,7 +230,7 @@ onWillNavigate
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -250,7 +250,7 @@ stopAnimationPlayerUpdates
 ;
 this
 .
-tabActor
+targetActor
 =
 this
 .

@@ -1735,7 +1735,7 @@ parent
 (
 )
 .
-tabActor
+targetActor
 .
 makeDebugger
 (

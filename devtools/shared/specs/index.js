@@ -1229,7 +1229,7 @@ types
 :
 [
 "
-tab
+browsingContextTarget
 "
 ]
 spec
@@ -1241,7 +1241,11 @@ shared
 /
 specs
 /
-tab
+targets
+/
+browsing
+-
+context
 "
 front
 :

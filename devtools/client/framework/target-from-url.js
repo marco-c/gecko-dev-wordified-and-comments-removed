@@ -148,7 +148,7 @@ chrome
 ;
 let
 form
-isTabActor
+isBrowsingContext
 ;
 if
 (
@@ -332,7 +332,7 @@ id
 0
 )
 {
-isTabActor
+isBrowsingContext
 =
 false
 ;
@@ -526,7 +526,7 @@ forRemoteTab
 client
 form
 chrome
-isTabActor
+isBrowsingContext
 }
 )
 ;

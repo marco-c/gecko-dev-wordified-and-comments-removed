@@ -27,7 +27,7 @@ types
 addDictType
 (
 "
-tab
+browsingContextTarget
 .
 attach
 "
@@ -65,7 +65,7 @@ types
 addDictType
 (
 "
-tab
+browsingContextTarget
 .
 detach
 "
@@ -92,7 +92,7 @@ types
 addDictType
 (
 "
-tab
+browsingContextTarget
 .
 switchtoframe
 "
@@ -119,7 +119,7 @@ types
 addDictType
 (
 "
-tab
+browsingContextTarget
 .
 listframes
 "
@@ -129,7 +129,7 @@ frames
 "
 array
 :
-tab
+browsingContextTarget
 .
 window
 "
@@ -141,7 +141,7 @@ types
 addDictType
 (
 "
-tab
+browsingContextTarget
 .
 window
 "
@@ -176,7 +176,7 @@ types
 addDictType
 (
 "
-tab
+browsingContextTarget
 .
 workers
 "
@@ -196,7 +196,7 @@ types
 addDictType
 (
 "
-tab
+browsingContextTarget
 .
 reload
 "
@@ -214,7 +214,7 @@ types
 addDictType
 (
 "
-tab
+browsingContextTarget
 .
 reconfigure
 "
@@ -251,7 +251,7 @@ boolean
 )
 ;
 const
-tabSpec
+browsingContextTargetSpec
 =
 generateActorSpec
 (
@@ -259,7 +259,7 @@ generateActorSpec
 typeName
 :
 "
-tab
+browsingContextTarget
 "
 methods
 :
@@ -276,7 +276,7 @@ response
 RetVal
 (
 "
-tab
+browsingContextTarget
 .
 attach
 "
@@ -294,7 +294,7 @@ response
 RetVal
 (
 "
-tab
+browsingContextTarget
 .
 detach
 "
@@ -336,7 +336,7 @@ Option
 (
 0
 "
-tab
+browsingContextTarget
 .
 reload
 "
@@ -380,7 +380,7 @@ Option
 (
 0
 "
-tab
+browsingContextTarget
 .
 reconfigure
 "
@@ -412,7 +412,7 @@ response
 RetVal
 (
 "
-tab
+browsingContextTarget
 .
 switchtoframe
 "
@@ -430,7 +430,7 @@ response
 RetVal
 (
 "
-tab
+browsingContextTarget
 .
 listframes
 "
@@ -448,7 +448,7 @@ response
 RetVal
 (
 "
-tab
+browsingContextTarget
 .
 workers
 "
@@ -499,7 +499,7 @@ response
 ;
 exports
 .
-tabSpec
+browsingContextTargetSpec
 =
-tabSpec
+browsingContextTargetSpec
 ;

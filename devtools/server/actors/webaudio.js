@@ -1449,7 +1449,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -1468,9 +1468,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -1596,7 +1596,7 @@ reload
 {
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -1628,7 +1628,7 @@ this
 conn
 this
 .
-tabActor
+targetActor
 )
 ;
 this
@@ -1668,7 +1668,7 @@ false
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -1684,7 +1684,7 @@ _onGlobalCreated
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -2080,7 +2080,7 @@ e
 }
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -2096,7 +2096,7 @@ _onGlobalDestroyed
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -2112,7 +2112,7 @@ _onGlobalCreated
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;

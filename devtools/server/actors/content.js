@@ -17,8 +17,8 @@ chrome
 ;
 var
 {
-TabActor
-tabPrototype
+BrowsingContextTargetActor
+browsingContextTargetPrototype
 }
 =
 require
@@ -30,7 +30,11 @@ server
 /
 actors
 /
-tab
+targets
+/
+browsing
+-
+context
 "
 )
 ;
@@ -68,7 +72,7 @@ protocol
 ;
 const
 {
-tabSpec
+browsingContextTargetSpec
 }
 =
 require
@@ -80,7 +84,11 @@ shared
 /
 specs
 /
-tab
+targets
+/
+browsing
+-
+context
 "
 )
 ;
@@ -91,7 +99,7 @@ extend
 (
 {
 }
-tabPrototype
+browsingContextTargetPrototype
 )
 ;
 contentPrototype
@@ -110,7 +118,7 @@ _chromeGlobal
 =
 chromeGlobal
 ;
-TabActor
+BrowsingContextTargetActor
 .
 prototype
 .
@@ -281,7 +289,7 @@ _sendForm
 null
 ;
 }
-TabActor
+BrowsingContextTargetActor
 .
 prototype
 .
@@ -334,7 +342,7 @@ ContentActor
 =
 ActorClassWithSpec
 (
-tabSpec
+browsingContextTargetSpec
 contentPrototype
 )
 ;

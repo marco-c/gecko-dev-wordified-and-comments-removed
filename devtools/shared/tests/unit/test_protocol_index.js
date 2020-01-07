@@ -176,6 +176,8 @@ types
 {
 ok
 (
+!
+!
 getType
 (
 typeName
@@ -251,6 +253,8 @@ typeName
 ;
 ok
 (
+!
+!
 type
 Front
 for

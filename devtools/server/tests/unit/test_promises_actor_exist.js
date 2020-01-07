@@ -129,7 +129,7 @@ actor
 Expect
 the
 target
-TabActor
+BrowsingContextTargetActor
 in
 response
 form

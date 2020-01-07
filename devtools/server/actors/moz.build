@@ -105,6 +105,9 @@ inspector
 object
 '
 '
+targets
+'
+'
 utils
 '
 '
@@ -380,11 +383,6 @@ js
 '
 '
 stylesheets
-.
-js
-'
-'
-tab
 .
 js
 '

@@ -463,7 +463,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -482,9 +482,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -493,7 +493,7 @@ _webGLPrimitiveCounter
 new
 WebGLPrimitiveCounter
 (
-tabActor
+targetActor
 )
 ;
 this
@@ -569,7 +569,7 @@ reload
 {
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -601,7 +601,7 @@ this
 conn
 this
 .
-tabActor
+targetActor
 )
 ;
 this

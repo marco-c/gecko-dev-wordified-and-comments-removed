@@ -67,14 +67,14 @@ WebGLPrimitiveCounter
 {
 constructor
 (
-tabActor
+targetActor
 )
 {
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 }
 destroy
@@ -116,7 +116,7 @@ _startTime
 =
 this
 .
-tabActor
+targetActor
 .
 docShell
 .

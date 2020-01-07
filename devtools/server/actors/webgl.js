@@ -605,7 +605,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 protocol
@@ -624,9 +624,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -739,7 +739,7 @@ WebGLObserver
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -755,7 +755,7 @@ _onGlobalCreated
 ;
 this
 .
-tabActor
+targetActor
 .
 on
 (
@@ -793,7 +793,7 @@ reload
 {
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -830,7 +830,7 @@ false
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -846,7 +846,7 @@ _onGlobalCreated
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -911,7 +911,7 @@ GetInnerWindowID
 (
 this
 .
-tabActor
+targetActor
 .
 window
 )
@@ -950,7 +950,7 @@ defer
 ;
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -990,7 +990,7 @@ canvas
 =
 this
 .
-tabActor
+targetActor
 .
 window
 .
@@ -1045,7 +1045,7 @@ buffer
 new
 this
 .
-tabActor
+targetActor
 .
 window
 .

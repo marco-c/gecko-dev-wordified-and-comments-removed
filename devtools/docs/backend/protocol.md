@@ -7220,7 +7220,7 @@ actor
 "
 :
 <
-tabActor
+targetActor
 >
 "
 title
@@ -7239,7 +7239,7 @@ URL
 }
 where
 *
-tabActor
+targetActor
 *
 is
 the
@@ -7291,7 +7291,7 @@ attach
 to
 a
 *
-tabActor
+targetActor
 *
 a
 client
@@ -7308,7 +7308,7 @@ to
 "
 :
 <
-tabActor
+targetActor
 >
 "
 type
@@ -7319,7 +7319,7 @@ attach
 "
 }
 The
-tab
+target
 actor
 replies
 :
@@ -7329,7 +7329,7 @@ from
 "
 :
 <
-tabActor
+targetActor
 >
 "
 type
@@ -7411,7 +7411,7 @@ attaches
 to
 it
 *
-tabActor
+targetActor
 *
 replies
 :
@@ -7421,7 +7421,7 @@ from
 "
 :
 <
-tabActor
+targetActor
 >
 "
 type
@@ -7454,7 +7454,7 @@ to
 "
 :
 <
-tabActor
+targetActor
 >
 "
 type
@@ -7466,7 +7466,7 @@ detach
 }
 The
 *
-tabActor
+targetActor
 *
 replies
 :
@@ -7476,7 +7476,7 @@ from
 "
 :
 <
-tabActor
+targetActor
 >
 "
 type
@@ -7495,10 +7495,10 @@ already
 attached
 to
 *
-tabActor
+targetActor
 *
 *
-tabActor
+targetActor
 *
 sends
 an
@@ -7514,7 +7514,7 @@ from
 "
 :
 <
-tabActor
+targetActor
 >
 "
 error
@@ -7530,7 +7530,7 @@ client
 is
 attached
 *
-tabActor
+targetActor
 *
 sends
 notifications
@@ -7552,7 +7552,7 @@ When
 navigation
 begins
 *
-tabActor
+targetActor
 *
 sends
 a
@@ -7567,7 +7567,7 @@ from
 "
 :
 <
-tabActor
+targetActor
 >
 "
 type
@@ -7621,7 +7621,7 @@ navigation
 is
 complete
 *
-tabActor
+targetActor
 *
 sends
 a
@@ -7636,7 +7636,7 @@ from
 "
 :
 <
-tabActor
+targetActor
 >
 "
 type
@@ -7728,7 +7728,7 @@ is
 attached
 its
 *
-tabActor
+targetActor
 *
 sends
 a
@@ -7744,7 +7744,7 @@ from
 "
 :
 <
-tabActor
+targetActor
 >
 "
 type

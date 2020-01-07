@@ -2657,7 +2657,7 @@ helper
 new
 CanvasFrameAnonymousContentHelper
 (
-tabActor
+targetActor
 this
 .
 buildMarkup
@@ -2672,7 +2672,7 @@ It
 only
 requires
 a
-tabActor
+targetActor
 which
 highlighters
 get
@@ -3017,14 +3017,14 @@ js
 function
 MyNewHighlighter
 (
-tabActor
+targetActor
 )
 {
 this
 .
 doc
 =
-tabActor
+targetActor
 .
 window
 .
@@ -3037,7 +3037,7 @@ markup
 new
 CanvasFrameAnonymousContentHelper
 (
-tabActor
+targetActor
 this
 .
 _buildMarkup

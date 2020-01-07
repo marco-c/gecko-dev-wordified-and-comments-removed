@@ -87,7 +87,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 Actor
@@ -109,7 +109,7 @@ bridge
 new
 Framerate
 (
-tabActor
+targetActor
 )
 ;
 }

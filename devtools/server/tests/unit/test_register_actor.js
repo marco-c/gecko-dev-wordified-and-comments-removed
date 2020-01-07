@@ -271,7 +271,7 @@ isActorLoaded
 false
 ;
 let
-isActorInstanciated
+isActorInstantiated
 =
 false
 ;
@@ -309,7 +309,7 @@ instantiated
 "
 )
 {
-isActorInstanciated
+isActorInstantiated
 =
 true
 ;
@@ -409,7 +409,7 @@ Assert
 ok
 (
 !
-isActorInstanciated
+isActorInstantiated
 )
 ;
 const
@@ -471,7 +471,7 @@ Assert
 ok
 (
 !
-isActorInstanciated
+isActorInstantiated
 )
 ;
 Assert
@@ -551,7 +551,7 @@ Assert
 .
 ok
 (
-isActorInstanciated
+isActorInstantiated
 )
 ;
 Services

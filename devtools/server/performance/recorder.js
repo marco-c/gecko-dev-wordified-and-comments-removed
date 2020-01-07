@@ -203,7 +203,7 @@ function
 PerformanceRecorder
 (
 conn
-tabActor
+targetActor
 )
 {
 EventEmitter
@@ -221,9 +221,9 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -385,7 +385,7 @@ Profiler
 (
 this
 .
-tabActor
+targetActor
 )
 ;
 this
@@ -397,7 +397,7 @@ Memory
 (
 this
 .
-tabActor
+targetActor
 )
 ;
 this
@@ -409,7 +409,7 @@ Timeline
 (
 this
 .
-tabActor
+targetActor
 )
 ;
 this

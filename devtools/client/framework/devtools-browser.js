@@ -1480,7 +1480,7 @@ client
 chrome
 :
 true
-isTabActor
+isBrowsingContext
 :
 false
 }

@@ -449,7 +449,7 @@ null
 ;
 this
 .
-_tabClosed
+_parentClosed
 =
 false
 ;
@@ -2015,7 +2015,7 @@ TA__pauseAndRespond
 return
 this
 .
-_tabClosed
+_parentClosed
 ?
 null
 :

@@ -569,7 +569,7 @@ if
 (
 target
 .
-isTabActor
+isBrowsingContext
 )
 {
 target

@@ -844,7 +844,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 options
 )
 {
@@ -864,15 +864,15 @@ conn
 ;
 this
 .
-tabActor
+targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
 rootWin
 =
-tabActor
+targetActor
 .
 window
 ;
@@ -1016,7 +1016,7 @@ this
 MUTATIONS_THROTTLING_DELAY
 )
 ;
-tabActor
+targetActor
 .
 on
 (
@@ -1030,7 +1030,7 @@ this
 onFrameUnload
 )
 ;
-tabActor
+targetActor
 .
 on
 (
@@ -1062,7 +1062,7 @@ getLayoutChangesObserver
 (
 this
 .
-tabActor
+targetActor
 )
 ;
 this
@@ -1464,7 +1464,7 @@ null
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -1480,7 +1480,7 @@ onFrameUnload
 ;
 this
 .
-tabActor
+targetActor
 .
 off
 (
@@ -1552,7 +1552,7 @@ releaseLayoutChangesObserver
 (
 this
 .
-tabActor
+targetActor
 )
 ;
 eventListenerService
@@ -1578,7 +1578,7 @@ null
 ;
 this
 .
-tabActor
+targetActor
 =
 null
 ;
@@ -3697,7 +3697,7 @@ document
 of
 this
 .
-tabActor
+targetActor
 .
 windows
 )
@@ -8286,7 +8286,7 @@ this
 conn
 this
 .
-tabActor
+targetActor
 this
 )
 ;

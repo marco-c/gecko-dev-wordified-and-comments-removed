@@ -64,7 +64,7 @@ initialize
 function
 (
 conn
-tabActor
+targetActor
 )
 {
 Actor
@@ -94,9 +94,9 @@ this
 ;
 this
 .
-_tabActor
+_targetActor
 =
-tabActor
+targetActor
 ;
 this
 .
@@ -140,7 +140,7 @@ undefined
 ;
 this
 .
-_tabActor
+_targetActor
 =
 undefined
 ;
@@ -208,7 +208,7 @@ undefined
 ;
 this
 .
-_tabActor
+_targetActor
 =
 undefined
 ;
@@ -790,7 +790,7 @@ if
 (
 this
 .
-_tabActor
+_targetActor
 =
 =
 null
@@ -841,11 +841,11 @@ cli
 Requisition
 ;
 const
-tabActor
+targetActor
 =
 this
 .
-_tabActor
+_targetActor
 ;
 this
 .
@@ -989,7 +989,7 @@ window
 )
 {
 return
-tabActor
+targetActor
 .
 window
 ;
@@ -1000,12 +1000,12 @@ document
 )
 {
 return
-tabActor
+targetActor
 .
 window
 &
 &
-tabActor
+targetActor
 .
 window
 .

@@ -92,7 +92,7 @@ protocol
 ;
 const
 {
-tabSpec
+browsingContextTargetSpec
 }
 =
 require
@@ -104,7 +104,11 @@ shared
 /
 specs
 /
-tab
+targets
+/
+browsing
+-
+context
 "
 )
 ;
@@ -1526,7 +1530,7 @@ WebExtensionChildActor
 =
 ActorClassWithSpec
 (
-tabSpec
+browsingContextTargetSpec
 webExtensionChildPrototype
 )
 ;

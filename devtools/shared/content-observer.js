@@ -44,14 +44,14 @@ emitter
 function
 ContentObserver
 (
-tabActor
+targetActor
 )
 {
 this
 .
 _contentWindow
 =
-tabActor
+targetActor
 .
 window
 ;
