@@ -221,7 +221,7 @@ spidermonkey
 -
 variant
 :
-plain
+plaindebug
 run
 -
 on
@@ -324,7 +324,7 @@ spidermonkey
 -
 variant
 :
-plain
+plaindebug
 run
 -
 on
