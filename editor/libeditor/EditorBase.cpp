@@ -492,13 +492,6 @@ h
 #
 include
 "
-nsIDOMMozNamedAttrMap
-.
-h
-"
-#
-include
-"
 nsIDOMMouseEvent
 .
 h

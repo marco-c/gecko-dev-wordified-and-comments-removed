@@ -159,11 +159,6 @@ nsIDOMElement
 idl
 '
 '
-nsIDOMMozNamedAttrMap
-.
-idl
-'
-'
 nsIDOMNode
 .
 idl

@@ -234,13 +234,6 @@ h
 #
 include
 "
-nsIDOMMozNamedAttrMap
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

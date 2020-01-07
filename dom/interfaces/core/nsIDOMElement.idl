@@ -213,11 +213,6 @@ attribute
 DOMString
 tagName
 ;
-readonly
-attribute
-nsIDOMMozNamedAttrMap
-attributes
-;
 DOMString
 getAttribute
 (

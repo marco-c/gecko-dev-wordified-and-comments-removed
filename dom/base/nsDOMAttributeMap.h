@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIDOMMozNamedAttrMap
-.
-h
-"
-#
-include
-"
 nsRefPtrHashtable
 .
 h
@@ -302,7 +295,7 @@ nsDOMAttributeMap
 final
 :
 public
-nsIDOMMozNamedAttrMap
+nsISupports
 public
 nsWrapperCache
 {
@@ -358,7 +351,6 @@ NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
 nsDOMAttributeMap
 )
-NS_DECL_NSIDOMMOZNAMEDATTRMAP
 void
 DropReference
 (
