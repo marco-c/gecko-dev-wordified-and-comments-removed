@@ -429,6 +429,14 @@ kDontDiscardForSameWReg
 kDiscardForSameWReg
 }
 ;
+enum
+PreShiftImmMode
+{
+kNoShift
+kLimitShiftForSP
+kAnyShift
+}
+;
 class
 MacroAssembler
 :
@@ -1012,6 +1020,8 @@ Register
 dst
 int64_t
 imm
+PreShiftImmMode
+mode
 )
 ;
 void
