@@ -482,6 +482,7 @@ intervalID
 ;
 resolve
 (
+conditionPassed
 )
 ;
 }
