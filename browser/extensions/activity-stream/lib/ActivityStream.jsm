@@ -2328,8 +2328,7 @@ config
 )
 ;
 }
-this
-.
+var
 ActivityStream
 =
 class
@@ -2783,8 +2782,7 @@ break
 }
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

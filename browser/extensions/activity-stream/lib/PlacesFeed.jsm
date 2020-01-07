@@ -1191,8 +1191,7 @@ BookmarksObserver
 =
 BookmarksObserver
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [

@@ -3,8 +3,7 @@ use
 strict
 "
 ;
-this
-.
+var
 MAIN_MESSAGE_TYPE
 =
 "
@@ -13,8 +12,7 @@ ActivityStream
 Main
 "
 ;
-this
-.
+var
 CONTENT_MESSAGE_TYPE
 =
 "
@@ -23,8 +21,7 @@ ActivityStream
 Content
 "
 ;
-this
-.
+var
 PRELOAD_MESSAGE_TYPE
 =
 "
@@ -33,14 +30,12 @@ ActivityStream
 PreloadedBrowser
 "
 ;
-this
-.
+var
 UI_CODE
 =
 1
 ;
-this
-.
+var
 BACKGROUND_PROCESS
 =
 2
@@ -868,8 +863,7 @@ actionTypes
 =
 actionTypes
 ;
-this
-.
+var
 actionCreators
 =
 {
@@ -887,8 +881,7 @@ SetPref
 WebExtEvent
 }
 ;
-this
-.
+var
 actionUtils
 =
 {
@@ -1129,8 +1122,7 @@ null
 _RouteMessage
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
