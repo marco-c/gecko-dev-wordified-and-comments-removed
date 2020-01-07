@@ -2699,6 +2699,14 @@ keyEvent
 IsInputtingText
 (
 )
+&
+&
+!
+keyEvent
+.
+IsInputtingLineBreak
+(
+)
 )
 {
 keyEvent
