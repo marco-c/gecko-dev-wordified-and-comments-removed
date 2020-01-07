@@ -573,6 +573,7 @@ run_next_test
 ;
 add_test
 (
+async
 function
 (
 )
@@ -644,11 +645,15 @@ addon
 "
 )
 ;
+await
 AddonManager
 .
 getAllInstalls
 (
+)
+;
 run_next_test
+(
 )
 ;
 }

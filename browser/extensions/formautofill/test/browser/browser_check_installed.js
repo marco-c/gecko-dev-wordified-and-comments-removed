@@ -15,12 +15,6 @@ let
 addon
 =
 await
-new
-Promise
-(
-resolve
-=
->
 AddonManager
 .
 getAddonByID
@@ -31,8 +25,6 @@ mozilla
 .
 org
 "
-resolve
-)
 )
 ;
 isnot
