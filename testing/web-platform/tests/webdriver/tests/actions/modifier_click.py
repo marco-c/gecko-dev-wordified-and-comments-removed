@@ -431,12 +431,6 @@ prop
 =
 True
     
-print
-get_events
-(
-mod_click_session
-)
-    
 filtered_events
 =
 [
