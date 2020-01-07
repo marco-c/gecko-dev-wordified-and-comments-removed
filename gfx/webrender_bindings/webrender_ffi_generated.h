@@ -3518,7 +3518,7 @@ aMask
 WR_FUNC
 ;
 WR_INLINE
-void
+uint64_t
 wr_dp_define_scroll_layer
 (
 WrState
