@@ -174,6 +174,7 @@ Record
 record
 )
 {
+final
 ContentValues
 cv
 =
@@ -182,6 +183,7 @@ ContentValues
 (
 )
 ;
+final
 HistoryRecord
 rec
 =
@@ -242,6 +244,7 @@ visits
 null
 )
 {
+final
 JSONArray
 visits
 =
@@ -249,6 +252,7 @@ rec
 .
 visits
 ;
+final
 long
 mostRecent
 =
