@@ -635,9 +635,8 @@ i
 ]
 -
 >
-SetNotificationsDeferred
+ClearPendingNotify
 (
-false
 )
 ;
 mTracker
@@ -857,9 +856,8 @@ unknown
 aObserver
 -
 >
-SetNotificationsDeferred
+MarkPendingNotify
 (
-true
 )
 ;
 AsyncNotifyRunnable
@@ -1026,9 +1024,8 @@ thread
 mObserver
 -
 >
-SetNotificationsDeferred
+ClearPendingNotify
 (
-false
 )
 ;
 mProgressTracker
@@ -1171,9 +1168,8 @@ get
 aObserver
 -
 >
-SetNotificationsDeferred
+MarkPendingNotify
 (
-true
 )
 ;
 nsCOMPtr
@@ -2414,9 +2410,8 @@ aObserver
 aObserver
 -
 >
-SetNotificationsDeferred
+ClearPendingNotify
 (
-false
 )
 ;
 }

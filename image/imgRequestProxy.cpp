@@ -476,7 +476,7 @@ mDecodeRequested
 (
 false
 )
-mDeferNotifications
+mPendingNotify
 (
 false
 )
