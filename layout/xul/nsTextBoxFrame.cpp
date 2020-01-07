@@ -3195,7 +3195,7 @@ break
 }
 if
 (
-UCS2_CHAR_IS_BIDI
+UTF16_CODE_UNIT_IS_BIDI
 (
 *
 pos
@@ -3355,7 +3355,7 @@ break
 }
 if
 (
-UCS2_CHAR_IS_BIDI
+UTF16_CODE_UNIT_IS_BIDI
 (
 *
 pos
@@ -3580,7 +3580,7 @@ break
 }
 if
 (
-UCS2_CHAR_IS_BIDI
+UTF16_CODE_UNIT_IS_BIDI
 (
 *
 leftPos
@@ -3665,7 +3665,7 @@ break
 }
 if
 (
-UCS2_CHAR_IS_BIDI
+UTF16_CODE_UNIT_IS_BIDI
 (
 *
 pos
