@@ -31,6 +31,14 @@ head
 list
 >
 <
+string
+>
+SwitchTest
+<
+/
+string
+>
+<
 /
 list
 >
@@ -49,14 +57,6 @@ string
 string
 >
 SECTION
-<
-/
-string
->
-<
-string
->
-SwitchTest
 <
 /
 string
@@ -110,8 +110,6 @@ list
 <
 list
 >
-F
-/
 <
 tuple
 >
@@ -1925,7 +1923,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1953,15 +1951,6 @@ head
 >
 <
 list
->
-X
-<
-string
->
-SwitchTest
-<
-/
-string
 >
 <
 string
@@ -2033,14 +2022,6 @@ list
 >
 <
 list
->
-<
-string
->
-result
-<
-/
-string
 >
 <
 /
@@ -2148,7 +2129,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2347,7 +2327,6 @@ tuple
 <
 list
 >
-U
 <
 tuple
 >
@@ -2472,7 +2451,6 @@ tuple
 <
 list
 >
-U
 <
 tuple
 >
@@ -2596,7 +2574,6 @@ tuple
 <
 list
 >
-U
 <
 tuple
 >
@@ -2720,7 +2697,6 @@ tuple
 <
 list
 >
-U
 <
 tuple
 >
@@ -2832,7 +2808,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -2959,7 +2934,6 @@ tuple
 <
 list
 >
-U
 <
 tuple
 >
@@ -3112,7 +3086,6 @@ tuple
 <
 list
 >
-E
 <
 tuple
 >

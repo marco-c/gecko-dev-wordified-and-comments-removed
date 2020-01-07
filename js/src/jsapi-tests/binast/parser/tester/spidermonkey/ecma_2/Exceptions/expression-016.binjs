@@ -980,7 +980,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -992,7 +991,6 @@ tuple
 <
 list
 >
-?
 <
 tuple
 >
@@ -1204,7 +1202,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1216,7 +1213,6 @@ tuple
 <
 list
 >
-)
 <
 tuple
 >

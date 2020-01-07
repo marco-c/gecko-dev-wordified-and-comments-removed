@@ -37,7 +37,6 @@ list
 <
 list
 >
-t
 <
 string
 >
@@ -95,7 +94,6 @@ list
 <
 list
 >
-=
 <
 tuple
 >

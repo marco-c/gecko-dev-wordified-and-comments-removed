@@ -53,14 +53,6 @@ list
 list
 >
 <
-string
->
-x
-<
-/
-string
->
-<
 /
 list
 >
@@ -145,7 +137,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -206,7 +197,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
