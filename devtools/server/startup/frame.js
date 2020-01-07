@@ -195,7 +195,7 @@ addonId
 {
 const
 {
-WebExtensionChildActor
+WebExtensionTargetActor
 }
 =
 require
@@ -207,7 +207,7 @@ server
 /
 actors
 /
-addon
+targets
 /
 webextension
 "
@@ -216,7 +216,7 @@ webextension
 actor
 =
 new
-WebExtensionChildActor
+WebExtensionTargetActor
 (
 conn
 chromeGlobal

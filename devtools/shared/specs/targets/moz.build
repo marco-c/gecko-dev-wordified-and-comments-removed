@@ -114,6 +114,11 @@ process
 js
 '
 '
+webextension
+.
+js
+'
+'
 worker
 .
 js

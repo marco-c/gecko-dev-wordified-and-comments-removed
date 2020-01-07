@@ -72,7 +72,11 @@ makeDebugger
 require
 (
 "
-.
+devtools
+/
+server
+/
+actors
 /
 utils
 /
@@ -100,7 +104,7 @@ protocol
 ;
 const
 {
-browsingContextTargetSpec
+webExtensionTargetSpec
 }
 =
 require
@@ -114,9 +118,7 @@ specs
 /
 targets
 /
-browsing
--
-context
+webextension
 "
 )
 ;
@@ -167,7 +169,7 @@ yet
 "
 ;
 const
-webExtensionChildPrototype
+webExtensionTargetPrototype
 =
 extend
 (
@@ -176,7 +178,7 @@ extend
 parentProcessTargetPrototype
 )
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 initialize
 =
@@ -397,21 +399,13 @@ extensionWindow
 }
 }
 ;
-webExtensionChildPrototype
-.
-typeName
-=
-"
-webExtension
-"
-;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 isRootActor
 =
 true
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 exit
 =
@@ -498,7 +492,7 @@ this
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _createFallbackWindow
 =
@@ -565,7 +559,7 @@ FALLBACK_DOC_MESSAGE
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _destroyFallbackWindow
 =
@@ -620,7 +614,7 @@ null
 }
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _searchForExtensionWindow
 =
@@ -684,7 +678,7 @@ undefined
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _onDocShellDestroy
 =
@@ -759,7 +753,7 @@ fallbackWindow
 }
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _onNewExtensionWindow
 =
@@ -797,7 +791,7 @@ window
 }
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _attach
 =
@@ -885,7 +879,7 @@ this
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _detach
 =
@@ -912,7 +906,7 @@ _destroyFallbackWindow
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _docShellToWindow
 =
@@ -1021,7 +1015,7 @@ sameTypeRootAddonID
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _docShellsToWindows
 =
@@ -1076,7 +1070,7 @@ id
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 isExtensionWindow
 =
@@ -1101,7 +1095,7 @@ id
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 isExtensionWindowDescendent
 =
@@ -1160,7 +1154,7 @@ rootWin
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _allowSource
 =
@@ -1344,7 +1338,7 @@ false
 }
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _shouldAddNewGlobalAsDebuggee
 =
@@ -1497,7 +1491,7 @@ false
 ;
 }
 ;
-webExtensionChildPrototype
+webExtensionTargetPrototype
 .
 _onParentExit
 =
@@ -1534,11 +1528,11 @@ exit
 ;
 exports
 .
-WebExtensionChildActor
+WebExtensionTargetActor
 =
 ActorClassWithSpec
 (
-browsingContextTargetSpec
-webExtensionChildPrototype
+webExtensionTargetSpec
+webExtensionTargetPrototype
 )
 ;
