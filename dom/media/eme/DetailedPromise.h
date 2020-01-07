@@ -101,8 +101,8 @@ T
 void
 MaybeResolve
 (
-const
 T
+&
 &
 aArg
 )
@@ -134,11 +134,17 @@ Promise
 :
 :
 MaybeResolve
+(
+std
+:
+:
+forward
 <
 T
 >
 (
 aArg
+)
 )
 ;
 }
