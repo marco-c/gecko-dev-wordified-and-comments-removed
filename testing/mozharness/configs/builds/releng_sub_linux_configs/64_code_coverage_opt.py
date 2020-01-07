@@ -192,5 +192,7 @@ mozconfig_variant
 code
 -
 coverage
+-
+opt
 '
 }

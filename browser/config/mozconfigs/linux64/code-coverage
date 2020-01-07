@@ -39,12 +39,6 @@ hack
 ac_add_options
 -
 -
-enable
--
-debug
-ac_add_options
--
--
 disable
 -
 sandbox
