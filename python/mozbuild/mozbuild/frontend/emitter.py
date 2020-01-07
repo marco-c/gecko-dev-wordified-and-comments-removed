@@ -87,11 +87,15 @@ ExternalSharedLibrary
     
 HostDefines
     
+HostGeneratedSources
+    
 HostLibrary
     
 HostProgram
     
 HostRustProgram
+    
+HostSharedLibrary
     
 HostSimpleProgram
     
@@ -1914,6 +1918,7 @@ obj
 (
 StaticLibrary
 HostLibrary
+HostSharedLibrary
                                 
 BaseRustProgram
 )
@@ -4297,6 +4302,25 @@ cls
 HostRustLibrary
 )
             
+elif
+context
+.
+get
+(
+'
+FORCE_SHARED_LIB
+'
+)
+:
+                
+lib
+=
+HostSharedLibrary
+(
+context
+host_libname
+)
+            
 else
 :
                 
@@ -5695,15 +5719,6 @@ not
 gen_sources
 [
 '
-HOST_SOURCES
-'
-]
-        
-assert
-not
-gen_sources
-[
-'
 UNIFIED_SOURCES
 '
 ]
@@ -5962,7 +5977,7 @@ HOST_SOURCES
 =
 (
 HostSources
-None
+HostGeneratedSources
 [
 '
 .

@@ -1393,7 +1393,7 @@ clang
 -
 plugin
 /
-target
+host
 build
 /
 clang
@@ -1419,7 +1419,7 @@ clang
 -
 plugin
 /
-target
+host
 endif
 #
 Interdependencies
@@ -1554,7 +1554,7 @@ clang
 -
 plugin
 /
-target
+host
 :
 config
 /

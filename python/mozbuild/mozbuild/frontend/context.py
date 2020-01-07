@@ -11511,7 +11511,7 @@ HOST_SOURCES
 (
 ContextDerivedTypedList
 (
-SourcePath
+Path
 StrictOrderingOnAppendList
 )
 list
