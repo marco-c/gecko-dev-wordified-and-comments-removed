@@ -93,9 +93,6 @@ nsIDocShellTreeItem
 class
 nsPIDOMWindowOuter
 ;
-class
-nsIMessageBroadcaster
-;
 namespace
 mozilla
 {
@@ -404,16 +401,6 @@ nsFocusManager
 void
 EnsureCurrentWidgetFocused
 (
-)
-;
-void
-ActivateOrDeactivateChildren
-(
-nsIMessageBroadcaster
-*
-aManager
-bool
-aActive
 )
 ;
 void

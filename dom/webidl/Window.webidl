@@ -3298,7 +3298,6 @@ defaultButton
 )
 ;
 [
-Throws
 Func
 =
 "
@@ -3341,7 +3340,6 @@ group
 *
 /
 [
-Throws
 Func
 =
 "

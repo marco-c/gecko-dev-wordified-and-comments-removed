@@ -26,7 +26,7 @@ ipc
 MessageManagerCallback
 *
 aCallback
-nsFrameMessageManager
+ChromeMessageBroadcaster
 *
 aParentManager
 ipc
