@@ -161,16 +161,6 @@ GetContentInsertionFrame
 )
 override
 ;
-virtual
-Element
-*
-GetPseudoElement
-(
-CSSPseudoElementType
-aType
-)
-override
-;
 nsresult
 UpdateColor
 (
