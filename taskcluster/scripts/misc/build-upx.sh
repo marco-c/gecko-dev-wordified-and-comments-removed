@@ -55,6 +55,13 @@ WORKSPACE
 -
 -
 wget
+-
+-
+progress
+=
+dot
+:
+mega
 http
 :
 /

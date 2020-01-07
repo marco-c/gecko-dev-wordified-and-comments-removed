@@ -574,6 +574,13 @@ cd
 .
 .
 wget
+-
+-
+progress
+=
+dot
+:
+mega
 https
 :
 /

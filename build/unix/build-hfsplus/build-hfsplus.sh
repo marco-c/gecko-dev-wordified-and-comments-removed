@@ -149,6 +149,13 @@ wget
 -
 c
 -
+-
+progress
+=
+dot
+:
+mega
+-
 P
 TMPDIR
 http

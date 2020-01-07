@@ -67,6 +67,13 @@ Node
 v6
 .
 wget
+-
+-
+progress
+=
+dot
+:
+mega
 https
 :
 /

@@ -106,6 +106,13 @@ STAGE
 cd
 WORKSPACE
 wget
+-
+-
+progress
+=
+dot
+:
+mega
 URL
 echo
 "

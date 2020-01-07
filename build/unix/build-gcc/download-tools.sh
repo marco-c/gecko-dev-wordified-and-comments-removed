@@ -76,6 +76,13 @@ wget
 -
 c
 -
+-
+progress
+=
+dot
+:
+mega
+-
 P
 TMPDIR
 1
@@ -109,6 +116,13 @@ download
 wget
 -
 c
+-
+-
+progress
+=
+dot
+:
+mega
 -
 P
 TMPDIR

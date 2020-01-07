@@ -487,6 +487,13 @@ wget
 -
 c
 -
+-
+progress
+=
+dot
+:
+mega
+-
 P
 root_dir
 url

@@ -77,6 +77,13 @@ wget
 -
 c
 -
+-
+progress
+=
+dot
+:
+mega
+-
 P
 TMPDIR
 ftp
