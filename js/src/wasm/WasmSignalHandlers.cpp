@@ -88,6 +88,17 @@ WasmInstance
 .
 h
 "
+#
+include
+"
+vm
+/
+ArrayBufferObject
+-
+inl
+.
+h
+"
 using
 namespace
 js
