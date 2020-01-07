@@ -24,7 +24,7 @@ eUndo
 eRedo
 eInsertNode
 eCreateNode
-deleteNode
+eDeleteNode
 splitNode
 joinNode
 deleteText
