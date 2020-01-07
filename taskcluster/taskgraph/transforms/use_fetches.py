@@ -166,6 +166,27 @@ fetches
 ]
 )
         
+if
+config
+.
+params
+.
+get
+(
+'
+ignore_fetches
+'
+)
+:
+            
+fetches
+[
+:
+]
+=
+[
+]
+        
 for
 fetch
 in

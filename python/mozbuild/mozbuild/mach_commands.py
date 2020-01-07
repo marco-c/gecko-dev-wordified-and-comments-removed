@@ -11180,6 +11180,11 @@ MOZ_SCM_LEVEL
 strict
 =
 False
+                
+ignore_fetches
+=
+True
+            
 )
             
 def
