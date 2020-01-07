@@ -248,8 +248,6 @@ wait
 for
 and
 assert
-listener
-/
 delegate
 *
 callbacks
@@ -581,20 +579,6 @@ ifce
 isInterface
 |
 |
-(
-!
-ifce
-.
-simpleName
-.
-endsWith
-(
-"
-Listener
-"
-)
-&
-&
 !
 ifce
 .
@@ -605,7 +589,6 @@ endsWith
 "
 Delegate
 "
-)
 )
 )
 {
@@ -671,7 +654,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 override
 fun
@@ -725,7 +708,7 @@ sessionRule
 .
 session
 .
-progressListener
+progressDelegate
 =
 Callbacks
 .
@@ -783,7 +766,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 override
 fun
@@ -839,7 +822,7 @@ waitUntilCalled
 (
 GeckoSession
 .
-ProgressListener
+ProgressDelegate
 :
 :
 class
@@ -856,7 +839,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 override
 fun
@@ -901,7 +884,7 @@ securityInfo
 :
 GeckoSession
 .
-ProgressListener
+ProgressDelegate
 .
 SecurityInformation
 )
@@ -948,7 +931,7 @@ waitUntilCalled
 (
 GeckoSession
 .
-ProgressListener
+ProgressDelegate
 :
 :
 class
@@ -971,7 +954,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 override
 fun
@@ -1081,7 +1064,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 override
 fun
@@ -1126,7 +1109,7 @@ securityInfo
 :
 GeckoSession
 .
-ProgressListener
+ProgressDelegate
 .
 SecurityInformation
 )
@@ -1179,7 +1162,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 override
@@ -1266,7 +1249,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -1363,7 +1346,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -1498,7 +1481,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 override
 fun
@@ -1567,7 +1550,7 @@ forCallbacksDuringWait
 (
 GeckoSession
 .
-ScrollListener
+ScrollDelegate
 {
 _
 _
@@ -1608,7 +1591,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 override
@@ -1701,7 +1684,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 override
@@ -1788,7 +1771,7 @@ forCallbacksDuringWait
 (
 GeckoSession
 .
-ScrollListener
+ScrollDelegate
 AssertCalled
 {
 _
@@ -1838,7 +1821,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -1945,7 +1928,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2015,7 +1998,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2099,7 +2082,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2183,7 +2166,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2279,7 +2262,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2357,7 +2340,7 @@ forCallbacksDuringWait
 (
 GeckoSession
 .
-ScrollListener
+ScrollDelegate
 AssertCalled
 (
 false
@@ -2406,7 +2389,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2530,7 +2513,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2621,7 +2604,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2733,7 +2716,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2834,7 +2817,7 @@ delegateUntilTestEnd
 (
 GeckoSession
 .
-ScrollListener
+ScrollDelegate
 AssertCalled
 (
 false
@@ -2868,7 +2851,7 @@ delegateUntilTestEnd
 (
 GeckoSession
 .
-ScrollListener
+ScrollDelegate
 AssertCalled
 (
 count
@@ -2911,7 +2894,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -2968,7 +2951,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -3050,7 +3033,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -3157,7 +3140,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
@@ -3290,7 +3273,7 @@ delegateDuringNextWait
 (
 GeckoSession
 .
-ScrollListener
+ScrollDelegate
 AssertCalled
 (
 count
@@ -3339,7 +3322,7 @@ delegateDuringNextWait
 (
 GeckoSession
 .
-ScrollListener
+ScrollDelegate
 AssertCalled
 (
 count
@@ -3382,10 +3365,10 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 Callbacks
 .
-NavigationListener
+NavigationDelegate
 {
 AssertCalled
 (
@@ -3511,7 +3494,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (

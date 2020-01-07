@@ -925,7 +925,7 @@ GeckoMenu
 MenuPresenter
 GeckoSession
 .
-ContentListener
+ContentDelegate
 ScreenOrientationDelegate
 Tabs
 .
@@ -5321,7 +5321,7 @@ xul
 ;
 session
 .
-setContentListener
+setContentDelegate
 (
 this
 )

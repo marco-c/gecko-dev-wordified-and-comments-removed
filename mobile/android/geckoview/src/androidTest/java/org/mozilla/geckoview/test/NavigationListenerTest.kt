@@ -158,7 +158,7 @@ class
 )
 MediumTest
 class
-NavigationListenerTest
+NavigationDelegateTest
 {
 companion
 object
@@ -279,7 +279,7 @@ object
 :
 Callbacks
 .
-NavigationListener
+NavigationDelegate
 {
 AssertCalled
 (
@@ -307,7 +307,7 @@ where
 :
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 )
@@ -381,7 +381,7 @@ equalTo
 (
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 .
@@ -628,7 +628,7 @@ object
 :
 Callbacks
 .
-NavigationListener
+NavigationDelegate
 {
 AssertCalled
 (
@@ -656,7 +656,7 @@ where
 :
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 )
@@ -688,7 +688,7 @@ equalTo
 (
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 .
@@ -880,7 +880,7 @@ object
 :
 Callbacks
 .
-NavigationListener
+NavigationDelegate
 {
 AssertCalled
 (
@@ -936,7 +936,7 @@ object
 :
 Callbacks
 .
-NavigationListener
+NavigationDelegate
 {
 AssertCalled
 (
@@ -964,7 +964,7 @@ where
 :
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 )
@@ -996,7 +996,7 @@ equalTo
 (
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 .
@@ -1167,7 +1167,7 @@ object
 :
 Callbacks
 .
-NavigationListener
+NavigationDelegate
 {
 AssertCalled
 (
@@ -1195,7 +1195,7 @@ where
 :
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 )
@@ -1227,7 +1227,7 @@ equalTo
 (
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 .
@@ -1393,7 +1393,7 @@ object
 :
 Callbacks
 .
-NavigationListener
+NavigationDelegate
 {
 AssertCalled
 (
@@ -1415,7 +1415,7 @@ where
 :
 GeckoSession
 .
-NavigationListener
+NavigationDelegate
 .
 TargetWindow
 )
@@ -1461,7 +1461,7 @@ object
 :
 Callbacks
 .
-ProgressListener
+ProgressDelegate
 {
 AssertCalled
 (
