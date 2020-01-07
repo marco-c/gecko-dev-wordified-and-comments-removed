@@ -4570,6 +4570,16 @@ fields
 )
 {
 }
+bool
+hasPrefix
+(
+const
+StructType
+&
+other
+)
+const
+;
 WASM_DECLARE_SERIALIZABLE
 (
 StructType
