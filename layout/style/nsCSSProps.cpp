@@ -11067,7 +11067,6 @@ eCSSProperty_font_size
 eCSSProperty_line_height
 eCSSProperty_font_size_adjust
 eCSSProperty_font_stretch
-eCSSProperty__x_system_font
 eCSSProperty_font_feature_settings
 eCSSProperty_font_language_override
 eCSSProperty_font_kerning
