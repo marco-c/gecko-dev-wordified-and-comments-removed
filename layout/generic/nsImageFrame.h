@@ -469,6 +469,11 @@ ResponsiveContentDensityChanged
 (
 )
 ;
+void
+SetupForContentURLRequest
+(
+)
+;
 #
 ifdef
 ACCESSIBILITY
@@ -1282,6 +1287,9 @@ mIntrinsicRatio
 const
 Kind
 mKind
+;
+bool
+mContentURLRequestRegistered
 ;
 bool
 mDisplayingIcon
