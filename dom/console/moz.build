@@ -159,6 +159,11 @@ ConsoleInstance
 .
 h
 '
+'
+ConsoleUtils
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -176,6 +181,11 @@ cpp
 '
 '
 ConsoleReportCollector
+.
+cpp
+'
+'
+ConsoleUtils
 .
 cpp
 '
