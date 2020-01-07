@@ -17141,12 +17141,10 @@ internalName
 else
 if
 (
+!
 theme
 .
 userDisabled
-=
-=
-false
 &
 &
 !

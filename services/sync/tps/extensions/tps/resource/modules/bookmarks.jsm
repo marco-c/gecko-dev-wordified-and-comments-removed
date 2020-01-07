@@ -1975,9 +1975,6 @@ guid
 if
 (
 loadInSidebar
-=
-=
-true
 )
 PlacesUtils
 .
@@ -2003,10 +2000,8 @@ EXPIRE_NEVER
 else
 if
 (
+!
 loadInSidebar
-=
-=
-false
 )
 PlacesUtils
 .

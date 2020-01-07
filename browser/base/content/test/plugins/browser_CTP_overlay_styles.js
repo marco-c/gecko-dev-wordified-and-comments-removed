@@ -355,6 +355,8 @@ Assert
 .
 ok
 (
+!
+!
 overlay
 .
 classList
@@ -365,9 +367,6 @@ contains
 visible
 "
 )
-=
-=
-true
 The
 expected
 visibility

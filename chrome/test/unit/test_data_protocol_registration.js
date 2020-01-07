@@ -599,9 +599,6 @@ factory
 if
 (
 ind
-=
-=
-true
 )
 {
 let

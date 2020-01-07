@@ -2402,12 +2402,11 @@ changed
 :
 if
 (
+!
+!
 this
 .
 _enabled
-=
-=
-true
 &
 &
 !
