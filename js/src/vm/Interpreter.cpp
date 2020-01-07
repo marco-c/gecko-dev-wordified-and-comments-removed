@@ -16827,12 +16827,17 @@ isInterpreted
 )
 |
 |
+(
+construct
+&
+&
 !
 maybeFun
 -
 >
 isConstructor
 (
+)
 )
 |
 |
