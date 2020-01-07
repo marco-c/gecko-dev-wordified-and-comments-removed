@@ -195,6 +195,14 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+undefined
+{
+preferredRemoteType
+:
+"
+web
+"
+}
 )
 ;
 let
