@@ -1880,12 +1880,10 @@ JSContext
 :
 setPendingException
 (
-const
-js
+JS
 :
 :
-Value
-&
+HandleValue
 v
 )
 {
