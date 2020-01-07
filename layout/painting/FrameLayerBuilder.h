@@ -333,11 +333,11 @@ NS_LOG_ADDREF
 this
 mRefCnt
 "
-nsStyleContext
+ComputedStyle
 "
 sizeof
 (
-nsStyleContext
+ComputedStyle
 )
 )
 ;
@@ -381,7 +381,7 @@ NS_LOG_RELEASE
 this
 mRefCnt
 "
-nsStyleContext
+ComputedStyle
 "
 )
 ;

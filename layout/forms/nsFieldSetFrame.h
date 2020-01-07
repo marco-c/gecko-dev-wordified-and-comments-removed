@@ -53,9 +53,9 @@ nsFieldSetFrame
 explicit
 nsFieldSetFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 nscoord

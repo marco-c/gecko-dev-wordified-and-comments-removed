@@ -85,9 +85,6 @@ nsThreadUtils
 h
 "
 class
-nsStyleContext
-;
-class
 nsIListControlFrame
 ;
 class
@@ -149,9 +146,9 @@ NS_NewComboboxControlFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 nsFrameState
 aFlags
 )
@@ -163,9 +160,9 @@ nsComboboxDisplayFrame
 explicit
 nsComboboxControlFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 ~

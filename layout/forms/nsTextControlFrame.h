@@ -122,9 +122,9 @@ nsPoint
 explicit
 nsTextControlFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

@@ -32,7 +32,7 @@ namespace
 mozilla
 {
 class
-ServoStyleContext
+ComputedStyle
 ;
 class
 CachedInheritingStyles
@@ -42,12 +42,12 @@ public
 void
 Insert
 (
-ServoStyleContext
+ComputedStyle
 *
 aStyle
 )
 ;
-ServoStyleContext
+ComputedStyle
 *
 Lookup
 (
@@ -96,7 +96,7 @@ IsEmpty
 {
 RefPtr
 <
-ServoStyleContext
+ComputedStyle
 >
 ref
 =
@@ -128,7 +128,7 @@ AutoTArray
 <
 RefPtr
 <
-ServoStyleContext
+ComputedStyle
 >
 4
 >
@@ -159,7 +159,7 @@ mBits
 )
 ;
 }
-ServoStyleContext
+ComputedStyle
 *
 AsDirect
 (
@@ -177,7 +177,7 @@ IsIndirect
 return
 reinterpret_cast
 <
-ServoStyleContext
+ComputedStyle
 *
 >
 (

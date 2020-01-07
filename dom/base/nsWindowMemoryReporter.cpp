@@ -2468,7 +2468,7 @@ contexts
 "
 mArenaSizes
 .
-mStyleContexts
+mComputedStyles
 "
 Memory
 used
@@ -4288,7 +4288,7 @@ windowTotalSizes
 .
 mArenaSizes
 .
-mStyleContexts
+mComputedStyles
 "
 This
 is

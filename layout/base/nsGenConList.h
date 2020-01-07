@@ -164,7 +164,7 @@ mContentIndex
 mPseudoFrame
 -
 >
-StyleContext
+Style
 (
 )
 -
@@ -183,7 +183,7 @@ before
 mPseudoFrame
 -
 >
-StyleContext
+Style
 (
 )
 -

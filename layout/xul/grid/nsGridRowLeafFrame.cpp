@@ -48,9 +48,9 @@ NS_NewGridRowLeafFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 nsCOMPtr
@@ -70,7 +70,7 @@ aPresShell
 )
 nsGridRowLeafFrame
 (
-aContext
+aStyle
 false
 layout
 )

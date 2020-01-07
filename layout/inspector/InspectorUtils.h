@@ -22,7 +22,7 @@ class
 nsIDocument
 ;
 class
-nsStyleContext
+ComputedStyle
 ;
 namespace
 mozilla
@@ -725,9 +725,9 @@ private
 static
 already_AddRefed
 <
-nsStyleContext
+ComputedStyle
 >
-GetCleanStyleContextForElement
+GetCleanComputedStyleForElement
 (
 Element
 *

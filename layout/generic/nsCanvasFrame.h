@@ -79,14 +79,14 @@ public
 explicit
 nsCanvasFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 :
 nsContainerFrame
 (
-aContext
+aStyle
 kClassID
 )
 mDoPaintFocus

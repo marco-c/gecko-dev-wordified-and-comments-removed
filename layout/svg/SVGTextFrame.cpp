@@ -9195,7 +9195,7 @@ svgOwner
 mFrame
 -
 >
-StyleContext
+Style
 (
 )
 nullptr
@@ -9669,9 +9669,9 @@ NS_NewSVGTextFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -9681,7 +9681,7 @@ aPresShell
 )
 SVGTextFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -9944,11 +9944,11 @@ void
 SVGTextFrame
 :
 :
-DidSetStyleContext
+DidSetComputedStyle
 (
-nsStyleContext
+ComputedStyle
 *
-aOldStyleContext
+aOldComputedStyle
 )
 {
 if

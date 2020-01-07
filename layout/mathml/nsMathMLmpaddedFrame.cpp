@@ -87,9 +87,9 @@ NS_NewMathMLmpaddedFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -99,7 +99,7 @@ aPresShell
 )
 nsMathMLmpaddedFrame
 (
-aContext
+aStyle
 )
 ;
 }
@@ -1212,7 +1212,7 @@ CalcLength
 PresContext
 (
 )
-mStyleContext
+mComputedStyle
 aCSSValue
 aFontSizeInflation
 )

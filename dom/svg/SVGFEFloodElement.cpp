@@ -172,14 +172,14 @@ if
 frame
 )
 {
-nsStyleContext
+ComputedStyle
 *
 style
 =
 frame
 -
 >
-StyleContext
+Style
 (
 )
 ;

@@ -942,7 +942,7 @@ rv
 ;
 RefPtr
 <
-nsStyleContext
+ComputedStyle
 >
 sc
 ;
@@ -1022,7 +1022,7 @@ sc
 nsComputedDOMStyle
 :
 :
-GetStyleContext
+GetComputedStyle
 (
 mContent
 -

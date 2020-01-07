@@ -69,9 +69,9 @@ nsMeterFrame
 explicit
 nsMeterFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

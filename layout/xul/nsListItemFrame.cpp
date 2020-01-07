@@ -57,9 +57,9 @@ nsListItemFrame
 :
 nsListItemFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 bool
 aIsRoot
 nsBoxLayout
@@ -69,7 +69,7 @@ aLayoutManager
 :
 nsGridRowLeafFrame
 (
-aContext
+aStyle
 aIsRoot
 aLayoutManager
 kClassID
@@ -212,9 +212,9 @@ NS_NewListItemFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 nsCOMPtr
@@ -244,7 +244,7 @@ aPresShell
 )
 nsListItemFrame
 (
-aContext
+aStyle
 false
 layout
 )

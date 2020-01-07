@@ -36,7 +36,9 @@ h
 #
 include
 "
-nsStyleContext
+mozilla
+/
+ComputedStyle
 .
 h
 "
@@ -105,9 +107,9 @@ NS_NewLeafBoxFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 {
 return
@@ -117,7 +119,7 @@ aPresShell
 )
 nsLeafBoxFrame
 (
-aContext
+aStyle
 )
 ;
 }

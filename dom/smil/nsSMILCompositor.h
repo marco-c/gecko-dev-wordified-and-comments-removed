@@ -268,9 +268,12 @@ nsISMILAttr
 >
 CreateSMILAttr
 (
-nsStyleContext
+mozilla
+:
+:
+ComputedStyle
 *
-aBaseStyleContext
+aBaseComputedStyle
 )
 ;
 nsCSSPropertyID

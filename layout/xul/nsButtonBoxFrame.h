@@ -52,9 +52,9 @@ aPresShell
 explicit
 nsButtonBoxFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 ClassID
 =
 kClassID

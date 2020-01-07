@@ -40,9 +40,9 @@ NS_NewMathMLmsqrtFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual
@@ -119,9 +119,9 @@ protected
 explicit
 nsMathMLmsqrtFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 virtual

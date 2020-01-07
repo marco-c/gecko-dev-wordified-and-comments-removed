@@ -151,9 +151,6 @@ class
 nsPresContext
 ;
 class
-nsStyleContext
-;
-class
 nsStyleSVGPaint
 ;
 class
@@ -1308,9 +1305,12 @@ static
 nscolor
 GetFallbackOrPaintColor
 (
-nsStyleContext
+mozilla
+:
+:
+ComputedStyle
 *
-aStyleContext
+aComputedStyle
 nsStyleSVGPaint
 nsStyleSVG
 :

@@ -40,9 +40,9 @@ NS_NewGridRowLeafFrame
 nsIPresShell
 *
 aPresShell
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 )
 ;
 #
@@ -76,9 +76,9 @@ aResult
 endif
 nsGridRowLeafFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 bool
 aIsRoot
 nsBoxLayout
@@ -92,7 +92,7 @@ kClassID
 :
 nsBoxFrame
 (
-aContext
+aStyle
 aID
 aIsRoot
 aLayoutManager

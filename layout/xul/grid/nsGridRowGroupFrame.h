@@ -64,9 +64,9 @@ aResult
 endif
 nsGridRowGroupFrame
 (
-nsStyleContext
+ComputedStyle
 *
-aContext
+aStyle
 nsBoxLayout
 *
 aLayoutManager
@@ -74,7 +74,7 @@ aLayoutManager
 :
 nsBoxFrame
 (
-aContext
+aStyle
 kClassID
 false
 aLayoutManager
