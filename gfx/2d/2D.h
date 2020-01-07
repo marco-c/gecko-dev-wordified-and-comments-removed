@@ -3444,17 +3444,7 @@ AlphaBoxBlur
 &
 aBlur
 )
-{
-MOZ_CRASH
-(
-"
-GFX
-:
-DoBlur
-"
-)
 ;
-}
 virtual
 already_AddRefed
 <
