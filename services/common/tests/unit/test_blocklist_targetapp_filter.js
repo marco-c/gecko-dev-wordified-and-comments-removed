@@ -125,6 +125,15 @@ record
 )
 ;
 }
+collection
+.
+db
+.
+saveLastModified
+(
+42
+)
+;
 }
 function
 run_test
