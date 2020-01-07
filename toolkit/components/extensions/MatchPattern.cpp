@@ -1445,6 +1445,10 @@ mMatchSubdomain
 =
 true
 ;
+aIgnorePath
+=
+false
+;
 }
 else
 {
