@@ -23,7 +23,7 @@ jsm
 ;
 ChromeMigrationUtils
 .
-getChromeUserDataPath
+getDataPath
 =
 (
 )
