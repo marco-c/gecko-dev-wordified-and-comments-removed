@@ -8746,6 +8746,15 @@ page
 -
 action
 "
+tooltip
+=
+"
+dynamic
+-
+shortcut
+-
+tooltip
+"
 role
 =
 "
