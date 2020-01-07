@@ -40,7 +40,7 @@ virtual
 const
 char
 *
-WaitForClipboardContext
+GetClipboardData
 (
 const
 char
@@ -53,6 +53,16 @@ uint32_t
 aContentLength
 )
 override
+;
+virtual
+void
+ReleaseClipboardData
+(
+const
+char
+*
+aClipboardData
+)
 ;
 virtual
 GdkAtom

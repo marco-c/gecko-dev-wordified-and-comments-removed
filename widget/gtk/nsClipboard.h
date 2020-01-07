@@ -49,7 +49,7 @@ virtual
 const
 char
 *
-WaitForClipboardContext
+GetClipboardData
 (
 const
 char
@@ -60,6 +60,18 @@ aWhichClipboard
 uint32_t
 *
 aContentLength
+)
+=
+0
+;
+virtual
+void
+ReleaseClipboardData
+(
+const
+char
+*
+aClipboardData
 )
 =
 0
