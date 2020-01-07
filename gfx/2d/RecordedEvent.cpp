@@ -448,6 +448,14 @@ return
 UnscaledFontDestruction
 "
 ;
+case
+EXTERNALSURFACECREATION
+:
+return
+"
+ExternalSourceSurfaceCreation
+"
+;
 default
 :
 return

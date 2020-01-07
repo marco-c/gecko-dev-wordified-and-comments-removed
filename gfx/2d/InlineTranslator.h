@@ -111,7 +111,6 @@ NativeFontResource
 ;
 class
 InlineTranslator
-final
 :
 public
 Translator
