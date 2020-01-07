@@ -366,6 +366,7 @@ resource
 /
 /
 android
+/
 "
 ;
 Target
