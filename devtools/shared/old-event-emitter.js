@@ -48,7 +48,7 @@ stack
 let
 loggingEnabled
 =
-true
+false
 ;
 if
 (
