@@ -171,6 +171,13 @@ nsLayoutStatics
 .
 h
 "
+#
+include
+"
+nsLayoutUtils
+.
+h
+"
 using
 namespace
 mozilla

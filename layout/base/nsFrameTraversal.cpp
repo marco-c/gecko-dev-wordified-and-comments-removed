@@ -40,6 +40,10 @@ nsContainerFrame
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsFrameIterator
 :

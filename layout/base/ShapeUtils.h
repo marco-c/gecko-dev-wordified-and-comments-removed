@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsSize
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
