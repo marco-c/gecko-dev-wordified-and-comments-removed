@@ -144,7 +144,6 @@ nsINodeList
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMNODELIST
 virtual
 int32_t
 IndexOf
@@ -169,7 +168,7 @@ uint32_t
 Length
 (
 )
-const
+override
 {
 return
 mElements
@@ -476,7 +475,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsEmptyContentList
 nsBaseContentList
 )
-NS_DECL_NSIDOMNODELIST
 virtual
 nsINode
 *
@@ -925,7 +923,6 @@ aScriptObjectHolder
 }
 public
 :
-NS_DECL_NSIDOMNODELIST
 virtual
 int32_t
 IndexOf
@@ -973,7 +970,6 @@ true
 )
 ;
 }
-virtual
 nsIContent
 *
 Item
@@ -981,7 +977,7 @@ Item
 uint32_t
 aIndex
 )
-override
+final
 ;
 virtual
 mozilla

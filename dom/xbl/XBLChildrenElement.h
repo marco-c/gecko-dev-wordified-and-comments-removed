@@ -531,6 +531,7 @@ mIncludes
 }
 class
 nsAnonymousContentList
+final
 :
 public
 nsINodeList
@@ -556,7 +557,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsAnonymousContentList
 )
-NS_DECL_NSIDOMNODELIST
 virtual
 int32_t
 IndexOf
@@ -586,6 +586,12 @@ Item
 (
 uint32_t
 aIndex
+)
+override
+;
+uint32_t
+Length
+(
 )
 override
 ;

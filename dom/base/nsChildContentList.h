@@ -80,7 +80,6 @@ aGivenProto
 )
 override
 ;
-NS_DECL_NSIDOMNODELIST
 virtual
 int32_t
 IndexOf
@@ -98,6 +97,12 @@ Item
 (
 uint32_t
 aIndex
+)
+override
+;
+uint32_t
+Length
+(
 )
 override
 ;
@@ -173,7 +178,6 @@ ValidateCache
 )
 ;
 }
-NS_DECL_NSIDOMNODELIST
 virtual
 int32_t
 IndexOf
@@ -191,6 +195,12 @@ Item
 (
 uint32_t
 aIndex
+)
+override
+;
+uint32_t
+Length
+(
 )
 override
 ;
