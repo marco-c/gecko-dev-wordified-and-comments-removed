@@ -37,6 +37,13 @@ h
 namespace
 mozilla
 {
+namespace
+webgl
+{
+class
+AvailabilityRunnable
+;
+}
 class
 WebGLQuery
 final
@@ -56,7 +63,10 @@ WebGLQuery
 {
 friend
 class
-AvailableRunnable
+webgl
+:
+:
+AvailabilityRunnable
 ;
 friend
 class
@@ -85,6 +95,8 @@ mActiveSlot
 ;
 bool
 mCanBeAvailable
+=
+false
 ;
 public
 :
