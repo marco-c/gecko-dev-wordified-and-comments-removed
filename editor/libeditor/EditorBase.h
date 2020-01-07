@@ -4394,7 +4394,7 @@ TransactionManager
 >
 mTransactionManager
 ;
-nsCOMPtr
+RefPtr
 <
 Element
 >

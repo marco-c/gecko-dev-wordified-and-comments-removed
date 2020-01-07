@@ -141,6 +141,9 @@ nsIInlineSpellChecker
 interface
 nsITransferable
 ;
+webidl
+Element
+;
 %
 {
 C
@@ -264,7 +267,7 @@ void
 setAttributeOrEquivalent
 (
 in
-nsIDOMElement
+Element
 element
 in
 AString
@@ -281,7 +284,7 @@ void
 removeAttributeOrEquivalent
 (
 in
-nsIDOMElement
+Element
 element
 in
 DOMString
@@ -488,7 +491,7 @@ document
 /
 readonly
 attribute
-nsIDOMElement
+Element
 rootElement
 ;
 /
@@ -2458,7 +2461,7 @@ void
 setAttribute
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 AString
@@ -2547,7 +2550,7 @@ boolean
 getAttributeValue
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 AString
@@ -2613,7 +2616,7 @@ void
 removeAttribute
 (
 in
-nsIDOMElement
+Element
 aElement
 in
 AString
