@@ -207,6 +207,16 @@ bool
 aStackWalk
 )
 ;
+int
+GetThreadId
+(
+)
+const
+{
+return
+mThreadId
+;
+}
 protected
 :
 virtual

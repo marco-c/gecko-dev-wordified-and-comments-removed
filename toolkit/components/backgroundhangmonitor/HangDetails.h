@@ -97,15 +97,6 @@ mDuration
 (
 0
 )
-mEndTime
-(
-TimeStamp
-:
-:
-Now
-(
-)
-)
 mProcess
 (
 GeckoProcessType_Invalid
@@ -142,8 +133,6 @@ HangDetails
 (
 uint32_t
 aDuration
-TimeStamp
-aEndTime
 GeckoProcessType
 aProcess
 const
@@ -170,10 +159,6 @@ aAnnotations
 mDuration
 (
 aDuration
-)
-mEndTime
-(
-aEndTime
 )
 mProcess
 (
@@ -211,9 +196,6 @@ aAnnotations
 }
 uint32_t
 mDuration
-;
-TimeStamp
-mEndTime
 ;
 GeckoProcessType
 mProcess
