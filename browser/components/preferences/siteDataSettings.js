@@ -1638,6 +1638,14 @@ this
 _sites
 )
 ;
+this
+.
+_list
+.
+clearSelection
+(
+)
+;
 }
 onCommandSearch
 (
