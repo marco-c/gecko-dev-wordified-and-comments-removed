@@ -115,7 +115,7 @@ EditorBase
 >
 mEditorBase
 ;
-RangeBoundary
+EditorDOMPoint
 mStartOfRightNode
 ;
 nsCOMPtr

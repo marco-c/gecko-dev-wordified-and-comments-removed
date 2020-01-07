@@ -140,7 +140,7 @@ nsAtom
 >
 mTag
 ;
-RangeBoundary
+EditorDOMPoint
 mPointToInsert
 ;
 nsCOMPtr
