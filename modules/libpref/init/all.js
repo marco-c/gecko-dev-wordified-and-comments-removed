@@ -33406,8 +33406,6 @@ ar
 Noto
 Naskh
 Arabic
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -33471,8 +33469,6 @@ serif
 el
 "
 "
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -33536,8 +33532,7 @@ serif
 he
 "
 "
-Clear
-Sans
+Roboto
 Droid
 Sans
 Hebrew
@@ -33607,8 +33602,6 @@ serif
 ja
 "
 "
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -33695,8 +33688,7 @@ serif
 ko
 "
 "
-Clear
-Sans
+Roboto
 SmartGothic
 NanumGothic
 Noto
@@ -33778,8 +33770,7 @@ serif
 th
 "
 "
-Clear
-Sans
+Roboto
 Droid
 Sans
 Thai
@@ -33852,8 +33843,6 @@ x
 cyrillic
 "
 "
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -33926,8 +33915,6 @@ x
 unicode
 "
 "
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -34000,8 +33987,6 @@ x
 western
 "
 "
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -34077,8 +34062,6 @@ zh
 CN
 "
 "
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -34172,8 +34155,6 @@ zh
 HK
 "
 "
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -34270,8 +34251,6 @@ zh
 TW
 "
 "
-Clear
-Sans
 Roboto
 Droid
 Sans
@@ -34401,8 +34380,7 @@ x
 math
 "
 "
-Clear
-Sans
+Roboto
 "
 )
 ;
