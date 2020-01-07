@@ -157,6 +157,15 @@ const
 void
 GetGlyphVOrigin
 (
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
+&
+aDT
 hb_codepoint_t
 aGlyph
 hb_position_t
@@ -352,7 +361,7 @@ uint32_t
 aAppUnitsPerDevUnit
 )
 ;
-bool
+void
 InitializeVertical
 (
 )
@@ -479,6 +488,10 @@ mNumLongHMetrics
 mutable
 int32_t
 mNumLongVMetrics
+;
+mutable
+gfxFloat
+mDefaultVOrg
 ;
 bool
 mUseFontGetGlyph
