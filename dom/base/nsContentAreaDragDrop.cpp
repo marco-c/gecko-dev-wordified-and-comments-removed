@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMDragEvent
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
