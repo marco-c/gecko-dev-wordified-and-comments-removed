@@ -1431,6 +1431,13 @@ MallocSizeOf
 mallocSizeOf
 )
 ;
+bool
+IsSystemCaller
+(
+)
+const
+override
+;
 AutoMarkingPtr
 *
 *
@@ -1529,7 +1536,6 @@ IDX_STACK
 IDX_MESSAGE
 IDX_LASTINDEX
 IDX_THEN
-IDX_ISINSTANCE
 IDX_TOTAL_COUNT
 }
 ;

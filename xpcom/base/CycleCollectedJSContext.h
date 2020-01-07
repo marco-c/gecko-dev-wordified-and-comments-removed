@@ -763,6 +763,15 @@ nsISupports
 >
 mUncaughtRejectionObservers
 ;
+virtual
+bool
+IsSystemCaller
+(
+)
+const
+=
+0
+;
 private
 :
 bool
