@@ -229,6 +229,16 @@ rejectCallback
 null
 )
 ;
+[
+ChromeOnly
+]
+void
+fireDetailedError
+(
+DOMException
+aError
+)
+;
 }
 ;
 DOMRequest

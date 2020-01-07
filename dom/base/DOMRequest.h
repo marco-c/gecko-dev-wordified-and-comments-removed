@@ -326,7 +326,7 @@ void
 FireDetailedError
 (
 DOMException
-*
+&
 aError
 )
 ;

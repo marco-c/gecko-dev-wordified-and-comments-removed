@@ -274,17 +274,6 @@ error
 )
 ;
 void
-fireDetailedError
-(
-in
-nsIDOMDOMRequest
-request
-in
-nsISupports
-error
-)
-;
-void
 fireSuccessAsync
 (
 in
