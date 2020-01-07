@@ -1761,9 +1761,6 @@ false
 if
 (
 mSuspendCount
-&
-&
-mRetargeting
 )
 {
 mState
@@ -1779,16 +1776,10 @@ break
 }
 if
 (
-!
-mSuspendCount
-&
-&
-(
 stillTransferring
 |
 |
 mRetargeting
-)
 )
 {
 mState
