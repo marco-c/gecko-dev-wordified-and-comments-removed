@@ -179,14 +179,6 @@ L10NBASEDIR
 l10n
 "
         
-"
-MOZ_MAKE_COMPLETE_MAR
-"
-:
-"
-1
-"
-        
 '
 TOOLTOOL_CACHE
 '
