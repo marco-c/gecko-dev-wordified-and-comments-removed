@@ -1176,6 +1176,14 @@ trackId
 )
 ;
 nsresult
+RemoveDuplicateTrackIds
+(
+Sdp
+*
+sdp
+)
+;
+nsresult
 CreateOfferMsection
 (
 const
