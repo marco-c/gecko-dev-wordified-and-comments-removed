@@ -96,13 +96,6 @@ mDocument
 }
 inline
 bool
-ShouldIgnoreColors
-(
-)
-const
-;
-inline
-bool
 PropertyIsSet
 (
 nsCSSPropertyID

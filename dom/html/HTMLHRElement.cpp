@@ -821,15 +821,6 @@ Color
 if
 (
 colorIsSet
-&
-&
-!
-aData
--
->
-ShouldIgnoreColors
-(
-)
 )
 {
 aData
