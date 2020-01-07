@@ -45,6 +45,8 @@ mozbuild
 preprocessor
 import
 Preprocessor
+import
+buildconfig
 def
 write_file
 (
@@ -1047,6 +1049,7 @@ max_app_ver
 app_name
                        
 l10n_basedir
+langpack_eid
 defines
 chrome_entries
 )
@@ -1142,23 +1145,7 @@ gecko
 id
 '
 :
-'
-langpack
--
-{
-0
-}
-firefox
-.
-mozilla
-.
-org
-'
-.
-format
-(
-main_locale
-)
+langpack_eid
                 
 '
 strict_min_version
@@ -1633,6 +1620,32 @@ add_argument
 '
 -
 -
+langpack
+-
+eid
+'
+                        
+help
+=
+'
+Language
+pack
+id
+to
+use
+for
+this
+locale
+'
+)
+    
+parser
+.
+add_argument
+(
+'
+-
+-
 defines
 '
 default
@@ -1749,6 +1762,10 @@ app_name
 args
 .
 l10n_basedir
+        
+args
+.
+langpack_eid
         
 defines
         

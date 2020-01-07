@@ -173,6 +173,17 @@ l10n
 central
 '
             
+'
+langpack
+-
+fi
+firefox
+.
+mozilla
+.
+og
+'
+            
 ctx
             
 {
@@ -303,6 +314,17 @@ vcs
 l10n
 -
 central
+'
+            
+'
+langpack
+-
+fi
+firefox
+.
+mozilla
+.
+og
 '
             
 ctx

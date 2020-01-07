@@ -1857,6 +1857,16 @@ LANGPACK_DEFINES
 )
 -
 -
+langpack
+-
+eid
+"
+(
+MOZ_LANGPACK_EID
+)
+"
+-
+-
 input
 (
 DIST
