@@ -25,12 +25,4 @@ win64
 -
 devedition
 '
-    
-'
-stage_product
-'
-:
-'
-devedition
-'
 }

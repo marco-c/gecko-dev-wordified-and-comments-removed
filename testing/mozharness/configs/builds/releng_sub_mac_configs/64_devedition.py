@@ -25,12 +25,4 @@ macosx64
 -
 devedition
 '
-    
-'
-stage_product
-'
-:
-'
-devedition
-'
 }

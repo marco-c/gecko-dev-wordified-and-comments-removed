@@ -250,10 +250,6 @@ py
 disable_signing
 .
 py
--
-platform_supports_post_upload_to_latest
-.
-py
 script
 :
 "
@@ -693,10 +689,6 @@ releng_base_android_64_builds
 py
 -
 disable_signing
-.
-py
--
-platform_supports_post_upload_to_latest
 .
 py
 script
@@ -1155,10 +1147,6 @@ py
 disable_signing
 .
 py
--
-platform_supports_post_upload_to_latest
-.
-py
 script
 :
 "
@@ -1579,10 +1567,6 @@ py
 disable_signing
 .
 py
--
-platform_supports_post_upload_to_latest
-.
-py
 script
 :
 "
@@ -1952,10 +1936,6 @@ releng_base_android_64_builds
 py
 -
 disable_signing
-.
-py
--
-platform_supports_post_upload_to_latest
 .
 py
 script
