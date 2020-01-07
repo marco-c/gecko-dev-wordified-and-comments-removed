@@ -2729,6 +2729,10 @@ gPSMutex
 Atomic
 <
 uint32_t
+MemoryOrdering
+:
+:
+Relaxed
 >
 RacyFeatures
 :

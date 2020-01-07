@@ -921,6 +921,13 @@ mozilla
 Atomic
 <
 uint32_t
+mozilla
+:
+:
+MemoryOrdering
+:
+:
+Relaxed
 >
 sActiveAndFeatures
 ;
