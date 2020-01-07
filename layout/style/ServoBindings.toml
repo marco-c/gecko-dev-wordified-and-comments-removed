@@ -1930,12 +1930,6 @@ nsCSSValue
 nsCSSValueFloatColor
 "
 "
-nsCSSValueGradient
-"
-"
-nsCSSValueGradientStop
-"
-"
 nsCSSValueList
 "
 "
