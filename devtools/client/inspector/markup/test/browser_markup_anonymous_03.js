@@ -32,6 +32,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 "
 true

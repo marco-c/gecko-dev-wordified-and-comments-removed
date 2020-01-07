@@ -3066,6 +3066,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 true
 )
@@ -3314,6 +3316,8 @@ pref
 dom
 .
 webcomponents
+.
+shadowdom
 .
 enabled
 true

@@ -640,7 +640,7 @@ bool
 nsTextNode
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 JSContext
 *
@@ -654,7 +654,7 @@ return
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 aCx
 aObject

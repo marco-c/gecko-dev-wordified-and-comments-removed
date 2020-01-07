@@ -10265,6 +10265,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 "
 false

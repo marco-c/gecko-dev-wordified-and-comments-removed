@@ -199,6 +199,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 "
 )

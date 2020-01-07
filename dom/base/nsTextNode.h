@@ -274,7 +274,7 @@ this
 }
 static
 bool
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 JSContext
 *

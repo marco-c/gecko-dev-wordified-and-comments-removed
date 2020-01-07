@@ -4,7 +4,7 @@ strict
 "
 ;
 function
-setWebComponentsPrefAndCreateIframe
+setShadowDOMPrefAndCreateIframe
 (
 aSrcDoc
 )
@@ -32,6 +32,8 @@ set
 dom
 .
 webcomponents
+.
+shadowdom
 .
 enabled
 "

@@ -204,7 +204,7 @@ Func
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 "
 ]
 interface

@@ -2701,7 +2701,7 @@ IsSynthesized
 ;
 static
 bool
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 JSContext
 *
@@ -2713,7 +2713,7 @@ aObject
 ;
 static
 bool
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 const
 nsINode

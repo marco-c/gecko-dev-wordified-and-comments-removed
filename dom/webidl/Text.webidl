@@ -198,7 +198,7 @@ Func
 nsTextNode
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 "
 ]
 readonly

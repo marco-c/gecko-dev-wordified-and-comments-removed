@@ -56,6 +56,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 "
 True
@@ -145,6 +147,8 @@ clear_pref
 dom
 .
 webcomponents
+.
+shadowdom
 .
 enabled
 "

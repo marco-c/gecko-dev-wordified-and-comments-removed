@@ -1721,7 +1721,7 @@ Func
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 "
 ]
 ShadowRoot
@@ -1743,7 +1743,7 @@ Func
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 "
 ]
 readonly
@@ -1764,7 +1764,7 @@ Func
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 "
 ]
 readonly
@@ -1783,7 +1783,7 @@ Func
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 "
 ]
 attribute
@@ -1806,7 +1806,7 @@ Func
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 "
 ]
 ShadowRoot

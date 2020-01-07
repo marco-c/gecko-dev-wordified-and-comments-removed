@@ -675,6 +675,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 true
 )
@@ -711,6 +713,8 @@ pref
 dom
 .
 webcomponents
+.
+shadowdom
 .
 enabled
 true
@@ -1680,6 +1684,8 @@ dom
 .
 webcomponents
 .
+shadowdom
+.
 enabled
 true
 )
@@ -1698,6 +1704,8 @@ have
 dom
 .
 webcomponents
+.
+shadowdom
 .
 enabled
 =
@@ -1746,6 +1754,8 @@ pref
 dom
 .
 webcomponents
+.
+shadowdom
 .
 enabled
 true

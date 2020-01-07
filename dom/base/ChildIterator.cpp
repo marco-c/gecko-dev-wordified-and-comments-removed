@@ -118,7 +118,7 @@ mParentAsSlot
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 mParent
 )

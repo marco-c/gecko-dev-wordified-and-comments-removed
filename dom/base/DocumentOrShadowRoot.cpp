@@ -550,7 +550,7 @@ if
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 focusedContent
 )

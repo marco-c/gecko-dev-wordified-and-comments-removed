@@ -166,7 +166,7 @@ Func
 nsDocument
 :
 :
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 "
 Exposed
 =

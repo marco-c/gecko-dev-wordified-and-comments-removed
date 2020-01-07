@@ -8918,13 +8918,13 @@ aAllowPaymentRequest
 0
 ;
 bool
-IsWebComponentsEnabled
+IsShadowDOMEnabled
 (
 )
 const
 {
 return
-mIsWebComponentsEnabled
+mIsShadowDOMEnabled
 ;
 }
 bool
@@ -9762,7 +9762,7 @@ mEncodingMenuDisabled
 1
 ;
 bool
-mIsWebComponentsEnabled
+mIsShadowDOMEnabled
 :
 1
 ;
