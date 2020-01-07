@@ -297,6 +297,12 @@ checkCompatibility
 "
 extensions
 .
+formautofill
+.
+"
+"
+extensions
+.
 lastAppVersion
 "
 "
@@ -430,6 +436,10 @@ services
 sync
 .
 engine
+.
+"
+"
+signon
 .
 "
 "
