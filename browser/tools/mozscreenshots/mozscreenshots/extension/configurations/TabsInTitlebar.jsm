@@ -105,10 +105,6 @@ Linux
 )
 {
 return
-Promise
-.
-reject
-(
 "
 TabsInTitlebar
 isn
@@ -118,7 +114,6 @@ supported
 on
 Linux
 "
-)
 ;
 }
 Services
