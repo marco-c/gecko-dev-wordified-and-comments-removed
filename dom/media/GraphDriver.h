@@ -892,7 +892,8 @@ aListener
 {
 MOZ_ASSERT
 (
-OnThread
+!
+IsStarted
 (
 )
 )
@@ -1099,7 +1100,10 @@ mInputChannels
 uint32_t
 mIterationDurationMS
 ;
+Atomic
+<
 bool
+>
 mStarted
 ;
 RefPtr

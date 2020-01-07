@@ -5355,17 +5355,6 @@ IsStarted
 (
 )
 {
-mGraphImpl
--
->
-GetMonitor
-(
-)
-.
-AssertCurrentThreadOwns
-(
-)
-;
 return
 mStarted
 ;
