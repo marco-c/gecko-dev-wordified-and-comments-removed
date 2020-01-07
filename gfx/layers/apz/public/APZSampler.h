@@ -91,15 +91,6 @@ const
 TimeStamp
 &
 aSampleTime
-nsTArray
-<
-wr
-:
-:
-WrTransformProperty
->
-&
-aTransformArray
 )
 ;
 bool

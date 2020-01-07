@@ -1315,15 +1315,6 @@ wr
 TransactionBuilder
 &
 aTxn
-nsTArray
-<
-wr
-:
-:
-WrTransformProperty
->
-&
-aTransformArray
 )
 ;
 wr

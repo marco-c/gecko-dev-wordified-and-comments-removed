@@ -146,15 +146,6 @@ const
 TimeStamp
 &
 aSampleTime
-nsTArray
-<
-wr
-:
-:
-WrTransformProperty
->
-&
-aTransformArray
 )
 {
 return
@@ -165,7 +156,6 @@ PushStateToWR
 (
 aTxn
 aSampleTime
-aTransformArray
 )
 ;
 }
