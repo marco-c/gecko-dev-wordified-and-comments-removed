@@ -29,15 +29,6 @@ use
 style
 :
 :
-error_reporting
-:
-:
-NullReporter
-;
-use
-style
-:
-:
 gecko
 :
 :
@@ -571,8 +562,7 @@ Some
 &
 self
 )
-&
-NullReporter
+None
 self
 .
 quirks_mode
