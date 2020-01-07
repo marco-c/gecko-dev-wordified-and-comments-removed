@@ -116,6 +116,9 @@ throws
 getInterval
 (
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 force_expiration_start
