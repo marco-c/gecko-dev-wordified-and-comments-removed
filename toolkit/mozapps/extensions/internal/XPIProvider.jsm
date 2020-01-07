@@ -2089,6 +2089,10 @@ try
 return
 file
 .
+clone
+(
+)
+.
 lastModifiedTime
 ;
 }

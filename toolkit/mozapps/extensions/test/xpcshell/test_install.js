@@ -2880,19 +2880,6 @@ a2
 version
 )
 ;
-if
-(
-AppConstants
-.
-platform
-!
-=
-=
-"
-win
-"
-)
-{
 equal
 (
 a2
@@ -2917,7 +2904,6 @@ xpi
 "
 )
 ;
-}
 ok
 (
 !
