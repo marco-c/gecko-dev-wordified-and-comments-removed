@@ -1077,6 +1077,11 @@ HandlePropertyName
 name
 )
 ;
+bool
+declareDotGeneratorName
+(
+)
+;
 }
 ;
 inline
@@ -1779,6 +1784,12 @@ usedNames
 ;
 private
 :
+using
+Base
+:
+:
+declareDotGeneratorName
+;
 using
 Base
 :
@@ -3376,11 +3387,6 @@ isForOfp
 ;
 bool
 declareFunctionArgumentsObject
-(
-)
-;
-bool
-declareDotGeneratorName
 (
 )
 ;
