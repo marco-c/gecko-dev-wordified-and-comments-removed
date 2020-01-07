@@ -48,10 +48,6 @@ a
 tab
 in
 Firefox
-an
-app
-on
-B2G
 or
 a
 remote
@@ -95,8 +91,6 @@ to
 the
 whole
 Firefox
-/
-B2G
 /
 Chrome
 /
@@ -305,10 +299,6 @@ especially
 important
 when
 debugging
-apps
-on
-b2g
-or
 pages
 with
 e10s
