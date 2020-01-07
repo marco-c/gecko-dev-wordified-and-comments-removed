@@ -560,12 +560,6 @@ language
 )
 ;
 }
-int8_t
-ComputeWeight
-(
-)
-const
-;
 void
 AdjustForSubSuperscript
 (
