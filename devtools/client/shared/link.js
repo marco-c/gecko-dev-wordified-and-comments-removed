@@ -137,7 +137,7 @@ top
 typeof
 top
 .
-openWebLinkIn
+openTrustedLinkIn
 =
 =
 =
