@@ -40,6 +40,11 @@ gBrowser
 TEST_PAGE
 )
 ;
+await
+openPageActions
+(
+)
+;
 let
 webcompatButton
 =
@@ -127,10 +132,6 @@ true
 )
 ;
 }
-)
-;
-openPageActions
-(
 )
 ;
 webcompatButton
