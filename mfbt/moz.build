@@ -273,6 +273,11 @@ FloatingPoint
 h
 '
 '
+FStream
+.
+h
+'
+'
 GuardObjects
 .
 h
