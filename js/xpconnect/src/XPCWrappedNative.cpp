@@ -811,7 +811,6 @@ GetClassInfo
 (
 )
 scrProto
-false
 )
 ;
 if

@@ -700,17 +700,6 @@ boolean
 bp
 )
 ;
-void
-postCreatePrototype
-(
-in
-JSContextPtr
-cx
-in
-JSObjectPtr
-proto
-)
-;
 %
 {
 C
