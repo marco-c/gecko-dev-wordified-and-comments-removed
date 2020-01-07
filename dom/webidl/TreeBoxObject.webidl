@@ -412,6 +412,9 @@ visible
 .
 *
 /
+[
+Throws
+]
 void
 ensureCellIsVisible
 (
