@@ -8775,9 +8775,9 @@ SubOperation
 JSContext
 *
 cx
-HandleValue
+MutableHandleValue
 lhs
-HandleValue
+MutableHandleValue
 rhs
 MutableHandleValue
 res
@@ -8832,9 +8832,9 @@ MulOperation
 JSContext
 *
 cx
-HandleValue
+MutableHandleValue
 lhs
-HandleValue
+MutableHandleValue
 rhs
 MutableHandleValue
 res
@@ -8889,9 +8889,9 @@ DivOperation
 JSContext
 *
 cx
-HandleValue
+MutableHandleValue
 lhs
-HandleValue
+MutableHandleValue
 rhs
 MutableHandleValue
 res
@@ -8948,9 +8948,9 @@ ModOperation
 JSContext
 *
 cx
-HandleValue
+MutableHandleValue
 lhs
-HandleValue
+MutableHandleValue
 rhs
 MutableHandleValue
 res
@@ -14260,7 +14260,9 @@ if
 SubOperation
 (
 cx
+&
 lval
+&
 rval
 res
 )
@@ -14335,7 +14337,9 @@ if
 MulOperation
 (
 cx
+&
 lval
+&
 rval
 res
 )
@@ -14410,7 +14414,9 @@ if
 DivOperation
 (
 cx
+&
 lval
+&
 rval
 res
 )
@@ -14485,7 +14491,9 @@ if
 ModOperation
 (
 cx
+&
 lval
+&
 rval
 res
 )
@@ -14705,6 +14713,7 @@ if
 NegOperation
 (
 cx
+&
 val
 res
 )

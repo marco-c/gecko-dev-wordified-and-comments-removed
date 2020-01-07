@@ -2461,7 +2461,7 @@ NegOperation
 JSContext
 *
 cx
-HandleValue
+MutableHandleValue
 val
 MutableHandleValue
 res
