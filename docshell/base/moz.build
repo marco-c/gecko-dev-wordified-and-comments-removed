@@ -310,11 +310,6 @@ nsIContentViewerEdit
 idl
 '
 '
-nsIDocCharset
-.
-idl
-'
-'
 nsIDocShell
 .
 idl

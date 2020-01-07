@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIDocCharset
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -505,8 +498,6 @@ nsIScrollable
 public
 nsITextScroll
 public
-nsIDocCharset
-public
 nsIRefreshURI
 public
 nsIWebProgressListener
@@ -649,7 +640,6 @@ NS_DECL_NSIWEBNAVIGATION
 NS_DECL_NSIBASEWINDOW
 NS_DECL_NSISCROLLABLE
 NS_DECL_NSITEXTSCROLL
-NS_DECL_NSIDOCCHARSET
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIREFRESHURI
