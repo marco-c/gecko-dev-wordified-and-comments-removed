@@ -481,7 +481,7 @@ aWindowId
 )
 ;
 void
-DecPendingFrameCount
+FrameRenderingComplete
 (
 wr
 :

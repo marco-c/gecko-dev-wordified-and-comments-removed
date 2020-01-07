@@ -799,7 +799,7 @@ UpdateAndRender
 aWindowId
 )
 ;
-DecPendingFrameCount
+FrameRenderingComplete
 (
 aWindowId
 )
@@ -1780,7 +1780,7 @@ void
 RenderThread
 :
 :
-DecPendingFrameCount
+FrameRenderingComplete
 (
 wr
 :
