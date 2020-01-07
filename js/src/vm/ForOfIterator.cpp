@@ -15,7 +15,9 @@ h
 #
 include
 "
-jscompartment
+vm
+/
+Interpreter
 .
 h
 "
@@ -24,7 +26,7 @@ include
 "
 vm
 /
-Interpreter
+JSCompartment
 .
 h
 "

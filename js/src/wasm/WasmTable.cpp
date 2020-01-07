@@ -26,7 +26,9 @@ h
 #
 include
 "
-jscompartment
+vm
+/
+JSCompartment
 .
 h
 "

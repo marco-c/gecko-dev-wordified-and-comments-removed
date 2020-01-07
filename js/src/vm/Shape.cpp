@@ -96,7 +96,11 @@ h
 #
 include
 "
-jscompartmentinlines
+vm
+/
+Caches
+-
+inl
 .
 h
 "
@@ -105,7 +109,7 @@ include
 "
 vm
 /
-Caches
+JSCompartment
 -
 inl
 .

@@ -1,9 +1,9 @@
 #
 ifndef
-jscompartment_h
+vm_JSCompartment_h
 #
 define
-jscompartment_h
+vm_JSCompartment_h
 #
 include
 "
@@ -3832,9 +3832,6 @@ jitCompartment
 size_t
 *
 privateData
-size_t
-*
-scriptCountsMapArg
 )
 ;
 js

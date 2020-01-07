@@ -2213,11 +2213,6 @@ jscntxt
 cpp
 '
 '
-jscompartment
-.
-cpp
-'
-'
 jsdate
 .
 cpp
@@ -2505,6 +2500,13 @@ cpp
 vm
 /
 Initialization
+.
+cpp
+'
+'
+vm
+/
+JSCompartment
 .
 cpp
 '
