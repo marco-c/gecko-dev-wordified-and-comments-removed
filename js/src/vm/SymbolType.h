@@ -121,7 +121,7 @@ namespace
 js
 {
 class
-AutoLockForExclusiveAccess
+AutoAccessAtomsZone
 ;
 }
 namespace
@@ -269,12 +269,13 @@ hash
 JSAtom
 *
 description
+const
 js
 :
 :
-AutoLockForExclusiveAccess
+AutoAccessAtomsZone
 &
-lock
+access
 )
 ;
 public

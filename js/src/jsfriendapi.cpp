@@ -7408,8 +7408,6 @@ dtrc
 prep
 .
 session
-(
-)
 )
 ;
 }

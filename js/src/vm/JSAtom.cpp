@@ -1551,9 +1551,10 @@ TraceAtoms
 JSTracer
 *
 trc
-AutoLockForExclusiveAccess
+const
+AutoAccessAtomsZone
 &
-lock
+access
 )
 {
 JSRuntime
@@ -1586,7 +1587,7 @@ rt
 >
 atoms
 (
-lock
+access
 )
 )
 ;

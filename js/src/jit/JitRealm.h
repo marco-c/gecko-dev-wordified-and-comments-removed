@@ -812,12 +812,13 @@ Trace
 JSTracer
 *
 trc
+const
 js
 :
 :
-AutoLockForExclusiveAccess
+AutoAccessAtomsZone
 &
-lock
+access
 )
 ;
 static

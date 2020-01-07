@@ -973,8 +973,6 @@ trc
 prep
 .
 session
-(
-)
 )
 ;
 VerifyNode

@@ -127,7 +127,7 @@ namespace
 js
 {
 class
-AutoLockForExclusiveAccess
+AutoAccessAtomsZone
 ;
 void
 TraceAtoms
@@ -135,9 +135,10 @@ TraceAtoms
 JSTracer
 *
 trc
-AutoLockForExclusiveAccess
+const
+AutoAccessAtomsZone
 &
-lock
+atomsAccess
 )
 ;
 void

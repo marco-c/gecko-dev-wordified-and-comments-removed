@@ -1598,23 +1598,6 @@ get
 suppressGC
 )
 ;
-MOZ_ASSERT_IF
-(
-atomsZone
--
->
-isCollecting
-(
-)
-session
-.
-maybeLock
-.
-isSome
-(
-)
-)
-;
 if
 (
 rt
@@ -1658,7 +1641,7 @@ traceRuntimeAtoms
 trc
 session
 .
-lock
+checkAtomsAccess
 (
 )
 )
@@ -1680,7 +1663,6 @@ traceRuntimeCommon
 (
 trc
 MarkRuntime
-session
 )
 ;
 }
@@ -1750,7 +1732,6 @@ traceRuntimeCommon
 (
 trc
 TraceRuntime
-session
 )
 ;
 }
@@ -1841,8 +1822,6 @@ trc
 prep
 .
 session
-(
-)
 )
 ;
 }
@@ -1909,7 +1888,6 @@ traceRuntimeCommon
 (
 trc
 TraceRuntime
-session
 )
 ;
 }
@@ -1928,9 +1906,10 @@ traceRuntimeAtoms
 JSTracer
 *
 trc
-AutoLockForExclusiveAccess
+const
+AutoAccessAtomsZone
 &
-lock
+access
 )
 {
 gcstats
@@ -1959,7 +1938,7 @@ trc
 TraceAtoms
 (
 trc
-lock
+access
 )
 ;
 TraceWellKnownSymbols
@@ -1976,7 +1955,7 @@ JitRuntime
 Trace
 (
 trc
-lock
+access
 )
 ;
 }
@@ -2060,9 +2039,6 @@ JSTracer
 trc
 TraceOrMarkRuntime
 traceOrMark
-AutoTraceSession
-&
-session
 )
 {
 {
@@ -2254,7 +2230,6 @@ HelperThreadState
 trace
 (
 trc
-session
 )
 ;
 if
@@ -2591,8 +2566,6 @@ trc
 prep
 .
 session
-(
-)
 )
 ;
 grayRootTracer
