@@ -1486,7 +1486,10 @@ PendingIDBTransactionData
 >
 localQueue
 =
-Move
+std
+:
+:
+move
 (
 mPendingIDBTransactions
 )
@@ -1827,7 +1830,10 @@ mStableStateEvents
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -1915,7 +1921,10 @@ mPendingIDBTransactions
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 data
 )

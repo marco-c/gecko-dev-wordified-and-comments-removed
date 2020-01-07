@@ -1880,7 +1880,10 @@ mFailedCertChain
 new
 nsNSSCertList
 (
-Move
+std
+:
+:
+move
 (
 certList
 )

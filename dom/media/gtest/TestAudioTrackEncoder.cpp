@@ -1058,7 +1058,10 @@ encoder
 .
 AppendAudioSegment
 (
-Move
+std
+:
+:
+move
 (
 segment
 )

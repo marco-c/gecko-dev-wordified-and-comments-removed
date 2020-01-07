@@ -144,7 +144,10 @@ buffer
 .
 Insert
 (
-Move
+std
+:
+:
+move
 (
 frame
 -
@@ -736,7 +739,10 @@ buffer
 .
 Insert
 (
-Move
+std
+:
+:
+move
 (
 frame
 -
@@ -896,7 +902,10 @@ i
 {
 firstFrame
 =
-Move
+std
+:
+:
+move
 (
 frame
 )

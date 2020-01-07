@@ -6021,7 +6021,10 @@ LookUpSelection
 aContent
 aContentOffset
 aContentLength
-Move
+std
+:
+:
+move
 (
 details
 )

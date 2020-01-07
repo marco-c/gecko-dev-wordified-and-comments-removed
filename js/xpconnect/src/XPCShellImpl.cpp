@@ -2649,7 +2649,10 @@ names
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 names
 )
@@ -2691,7 +2694,10 @@ names
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 names
 )
@@ -2745,7 +2751,10 @@ names
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 names
 )

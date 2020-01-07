@@ -1450,7 +1450,10 @@ mMenuObjectsArray
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aMenu
 )
@@ -3290,7 +3293,10 @@ menu_ptr
 =
 AddMenu
 (
-Move
+std
+:
+:
+move
 (
 menu
 )

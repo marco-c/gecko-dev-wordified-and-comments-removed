@@ -450,7 +450,10 @@ aSyncLoopTarget
 WorkerSyncRunnable
 (
 aWorkerPrivate
-Move
+std
+:
+:
+move
 (
 aSyncLoopTarget
 )

@@ -514,7 +514,10 @@ aD2
 mTuple
 (
 aPtr
-Move
+std
+:
+:
+move
 (
 aD2
 )
@@ -1361,7 +1364,10 @@ aD2
 mTuple
 (
 aPtr
-Move
+std
+:
+:
+move
 (
 aD2
 )

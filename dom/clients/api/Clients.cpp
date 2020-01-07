@@ -519,7 +519,10 @@ outerPromise
 >
 MaybeResolve
 (
-Move
+std
+:
+:
+move
 (
 client
 )
@@ -1018,7 +1021,10 @@ clientList
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 client
 )

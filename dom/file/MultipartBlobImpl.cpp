@@ -158,7 +158,10 @@ blobImpl
 new
 MultipartBlobImpl
 (
-Move
+std
+:
+:
+move
 (
 aBlobImpls
 )
@@ -235,7 +238,10 @@ blobImpl
 new
 MultipartBlobImpl
 (
-Move
+std
+:
+:
+move
 (
 aBlobImpls
 )
@@ -789,7 +795,10 @@ impl
 =
 Create
 (
-Move
+std
+:
+:
+move
 (
 blobImpls
 )

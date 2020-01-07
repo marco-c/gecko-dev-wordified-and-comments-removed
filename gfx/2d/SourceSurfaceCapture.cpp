@@ -686,7 +686,10 @@ mLock
 ;
 mCommands
 =
-Move
+std
+:
+:
+move
 (
 mOwner
 -

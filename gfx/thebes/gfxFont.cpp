@@ -13086,7 +13086,10 @@ mNonAAFont
 {
 mNonAAFont
 =
-Move
+std
+:
+:
+move
 (
 CopyWithAntialiasOption
 (
@@ -20917,7 +20920,10 @@ metrics
 maxAscent
 ;
 return
-Move
+std
+:
+:
+move
 (
 metrics
 )

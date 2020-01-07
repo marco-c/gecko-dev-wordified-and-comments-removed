@@ -1132,7 +1132,10 @@ result
 {
 aResult
 =
-Move
+std
+:
+:
+move
 (
 result
 )

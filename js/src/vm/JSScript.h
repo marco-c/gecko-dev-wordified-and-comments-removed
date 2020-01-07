@@ -1239,10 +1239,10 @@ str
 :
 string
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 str
 )
@@ -1272,10 +1272,10 @@ uncompressedLength
 :
 raw
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 raw
 )

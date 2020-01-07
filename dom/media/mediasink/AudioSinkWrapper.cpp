@@ -994,7 +994,10 @@ GetDebugInfo
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 str
 )

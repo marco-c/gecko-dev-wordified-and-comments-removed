@@ -266,7 +266,10 @@ mCommitOffset
 *
 this
 =
-Move
+std
+:
+:
+move
 (
 aOther
 )
@@ -953,7 +956,10 @@ mCommitOffset
 *
 this
 =
-Move
+std
+:
+:
+move
 (
 aOther
 )

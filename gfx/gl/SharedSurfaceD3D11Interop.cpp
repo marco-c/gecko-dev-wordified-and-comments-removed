@@ -1558,7 +1558,10 @@ dxgiHandle
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 ret
 )
@@ -2057,7 +2060,10 @@ interop
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 ret
 )

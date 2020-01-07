@@ -1500,7 +1500,10 @@ NS_DispatchToMainThread
 new
 ProxyReleaseRunnable
 (
-Move
+std
+:
+:
+move
 (
 arrayToRelease
 )
@@ -10395,7 +10398,10 @@ mSecurityConsoleMessages
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 pair
 )

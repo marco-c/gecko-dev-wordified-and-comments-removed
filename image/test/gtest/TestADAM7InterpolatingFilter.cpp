@@ -910,7 +910,10 @@ BGRAColor
 >
 pixels
 =
-Move
+std
+:
+:
+move
 (
 ADAM7HorizontallyInterpolatedRow
 (
@@ -1068,7 +1071,10 @@ BGRAColor
 >
 expectedPixels
 =
-Move
+std
+:
+:
+move
 (
 ADAM7HorizontallyInterpolatedRow
 (

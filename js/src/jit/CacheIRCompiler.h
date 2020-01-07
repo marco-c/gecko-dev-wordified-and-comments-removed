@@ -2325,7 +2325,10 @@ other
 :
 inputs_
 (
-Move
+std
+:
+:
+move
 (
 other
 .
@@ -2334,7 +2337,10 @@ inputs_
 )
 spilledRegs_
 (
-Move
+std
+:
+:
+move
 (
 other
 .

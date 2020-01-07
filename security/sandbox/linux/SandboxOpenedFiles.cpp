@@ -51,7 +51,10 @@ aMoved
 :
 mPath
 (
-Move
+std
+:
+:
+move
 (
 aMoved
 .

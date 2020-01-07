@@ -2968,7 +2968,10 @@ ir
 >
 SetPrincipalInfo
 (
-Move
+std
+:
+:
+move
 (
 principalInfo
 )
@@ -4181,7 +4184,10 @@ rv
 AddClientChannelHelper
 (
 channel
-Move
+std
+:
+:
+move
 (
 loadInfo
 .
@@ -7646,7 +7652,10 @@ uint8_t
 "
 0
 mChannelInfo
-Move
+std
+:
+:
+move
 (
 mPrincipalInfo
 )
@@ -7952,7 +7961,10 @@ mIndex
 aString
 aStringLen
 mChannelInfo
-Move
+std
+:
+:
+move
 (
 mPrincipalInfo
 )

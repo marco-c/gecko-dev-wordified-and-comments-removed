@@ -6606,10 +6606,10 @@ stack
 CreateStack
 (
 aCx
-mozilla
+std
 :
 :
-Move
+move
 (
 captureMode
 )
@@ -13121,7 +13121,10 @@ timelines
 AddMarkerForDocShell
 (
 docShell
-Move
+std
+:
+:
+move
 (
 MakeUnique
 <
@@ -13225,7 +13228,10 @@ timelines
 AddMarkerForDocShell
 (
 docShell
-Move
+std
+:
+:
+move
 (
 MakeUnique
 <

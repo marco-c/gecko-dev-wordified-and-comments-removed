@@ -1832,7 +1832,10 @@ B
 A
 "
 TRACING_EVENT
-Move
+std
+:
+:
+move
 (
 bt
 )

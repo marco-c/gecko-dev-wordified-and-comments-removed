@@ -97,7 +97,10 @@ aAnnotations
 :
 mAnnotations
 (
-Move
+std
+:
+:
+move
 (
 aAnnotations
 )
@@ -127,7 +130,10 @@ mHangIndices
 )
 mAnnotations
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -162,7 +168,10 @@ mHangIndices
 ;
 mAnnotations
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

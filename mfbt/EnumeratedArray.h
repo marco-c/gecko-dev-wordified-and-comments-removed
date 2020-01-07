@@ -175,7 +175,10 @@ mArray
 i
 ]
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -261,7 +264,10 @@ mArray
 i
 ]
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

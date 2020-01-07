@@ -1283,7 +1283,10 @@ Some
 (
 U2FTransaction
 (
-Move
+std
+:
+:
+move
 (
 AsVariant
 (
@@ -1957,7 +1960,10 @@ Some
 (
 U2FTransaction
 (
-Move
+std
+:
+:
+move
 (
 AsVariant
 (
@@ -2388,7 +2394,10 @@ U2FTransaction
 >
 maybeTransaction
 (
-Move
+std
+:
+:
+move
 (
 mTransaction
 )

@@ -509,7 +509,10 @@ mHighPriorityQueue
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 task
 )
@@ -522,7 +525,10 @@ mLowPriorityQueue
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 task
 )
@@ -1272,7 +1278,10 @@ mThreads
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 thread
 )

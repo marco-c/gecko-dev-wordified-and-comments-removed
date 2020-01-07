@@ -925,7 +925,10 @@ newContent
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 newContent
 )
@@ -971,7 +974,10 @@ aUseCapture
 }
 DeleteRefToAnonymousNode
 (
-Move
+std
+:
+:
+move
 (
 aElement
 )

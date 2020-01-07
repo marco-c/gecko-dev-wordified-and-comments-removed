@@ -448,7 +448,10 @@ ScreenshotPayload
 >
 (
 timeStamp
-Move
+std
+:
+:
+move
 (
 dataURL
 )

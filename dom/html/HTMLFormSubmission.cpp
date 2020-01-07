@@ -1204,7 +1204,10 @@ getter_AddRefs
 (
 dataStream
 )
-Move
+std
+:
+:
+move
 (
 mQueryString
 )
@@ -3178,7 +3181,10 @@ getter_AddRefs
 (
 bodyStream
 )
-Move
+std
+:
+:
+move
 (
 cbody
 )

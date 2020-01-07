@@ -1111,7 +1111,10 @@ mCTVerifier
 >
 AddLog
 (
-Move
+std
+:
+:
+move
 (
 logVerifier
 )
@@ -2043,7 +2046,10 @@ ctInfo
 >
 verifyResult
 =
-Move
+std
+:
+:
+move
 (
 result
 )

@@ -7571,7 +7571,10 @@ name
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 name
 )
@@ -7651,7 +7654,10 @@ name
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 name
 )
@@ -7692,7 +7698,10 @@ name
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 name
 )
@@ -7772,7 +7781,10 @@ name
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 name
 )

@@ -193,7 +193,10 @@ getter_AddRefs
 (
 stream
 )
-Move
+std
+:
+:
+move
 (
 decodedData
 )

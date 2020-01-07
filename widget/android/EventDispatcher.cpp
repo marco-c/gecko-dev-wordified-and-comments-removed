@@ -4750,7 +4750,10 @@ NS_NewRunnableFunction
 "
 OnNativeCall
 "
-Move
+std
+:
+:
+move
 (
 aCall
 )

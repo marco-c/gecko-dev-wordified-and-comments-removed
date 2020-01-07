@@ -1169,10 +1169,10 @@ aStr
 {
 Assign
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aStr
 )

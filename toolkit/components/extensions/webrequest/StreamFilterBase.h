@@ -62,7 +62,10 @@ aData
 :
 mData
 (
-Move
+std
+:
+:
+move
 (
 aData
 )
@@ -97,7 +100,10 @@ insertBack
 new
 BufferedData
 (
-Move
+std
+:
+:
+move
 (
 aData
 )

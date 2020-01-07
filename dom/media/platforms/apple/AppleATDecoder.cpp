@@ -1224,7 +1224,10 @@ DecodePromise
 :
 CreateAndResolve
 (
-Move
+std
+:
+:
+move
 (
 mDecodedSamples
 )
@@ -1759,7 +1762,10 @@ mAudioConverter
 >
 Process
 (
-Move
+std
+:
+:
+move
 (
 data
 )
@@ -1822,7 +1828,10 @@ mDecodedSamples
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 audio
 )

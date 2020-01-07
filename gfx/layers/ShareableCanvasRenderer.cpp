@@ -261,7 +261,10 @@ mGLFrontbuffer
 {
 mFactory
 =
-Move
+std
+:
+:
+move
 (
 factory
 )
@@ -300,7 +303,10 @@ screen
 >
 Morph
 (
-Move
+std
+:
+:
+move
 (
 factory
 )

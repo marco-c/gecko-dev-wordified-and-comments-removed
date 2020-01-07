@@ -619,7 +619,10 @@ DeregisterAndCancelImageRequest
 ;
 mImageRequest
 =
-Move
+std
+:
+:
+move
 (
 newRequestClone
 )

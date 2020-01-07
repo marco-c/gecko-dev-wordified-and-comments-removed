@@ -143,7 +143,10 @@ aOther
 :
 mBaseFile
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -152,7 +155,10 @@ mBaseFile
 )
 mBaseZip
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -161,7 +167,10 @@ mBaseZip
 )
 mPath
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .

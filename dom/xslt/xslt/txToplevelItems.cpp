@@ -35,12 +35,6 @@ txXSLTPatterns
 .
 h
 "
-using
-mozilla
-:
-:
-Move
-;
 TX_IMPL_GETTYPE
 (
 txAttributeSetItem
@@ -186,7 +180,10 @@ aPrio
 :
 mMatch
 (
-Move
+std
+:
+:
+move
 (
 aMatch
 )
@@ -239,7 +236,10 @@ aName
 )
 mValue
 (
-Move
+std
+:
+:
+move
 (
 aValue
 )

@@ -1561,7 +1561,10 @@ rv
 =
 NewObjectInputStreamFromBuffer
 (
-Move
+std
+:
+:
+move
 (
 buf
 )
@@ -1892,7 +1895,10 @@ spec
 get
 (
 )
-Move
+std
+:
+:
+move
 (
 buf
 )
@@ -2268,7 +2274,10 @@ rv
 =
 NewObjectInputStreamFromBuffer
 (
-Move
+std
+:
+:
+move
 (
 buf
 )
@@ -2627,7 +2636,10 @@ startupCache
 PutBuffer
 (
 kXULCacheInfoKey
-Move
+std
+:
+:
+move
 (
 buf
 )

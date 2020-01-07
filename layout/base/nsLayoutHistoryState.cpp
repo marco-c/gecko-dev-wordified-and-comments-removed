@@ -454,7 +454,10 @@ nsCString
 (
 aKey
 )
-Move
+std
+:
+:
+move
 (
 newState
 )
@@ -486,7 +489,10 @@ mStates
 Put
 (
 aStateKey
-Move
+std
+:
+:
+move
 (
 aState
 )

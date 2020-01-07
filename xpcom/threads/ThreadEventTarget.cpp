@@ -427,7 +427,10 @@ nsIRunnable
 >
 event
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -723,7 +726,10 @@ do_AddRef
 (
 this
 )
-Move
+std
+:
+:
+move
 (
 aEvent
 )

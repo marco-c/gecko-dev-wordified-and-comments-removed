@@ -748,10 +748,10 @@ endif
 *
 this
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aOther
 )

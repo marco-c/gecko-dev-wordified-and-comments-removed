@@ -27969,7 +27969,10 @@ length
 nullptr
 ;
 return
-Move
+std
+:
+:
+move
 (
 ffiType
 )
@@ -30428,10 +30431,10 @@ new_
 FieldInfoHash
 >
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 fields
 .
@@ -30910,7 +30913,10 @@ structAlign
 #
 endif
 return
-Move
+std
+:
+:
+move
 (
 ffiType
 )

@@ -2621,10 +2621,10 @@ CreateShell
 (
 mPresContext
 mViewManager
-mozilla
+std
 :
 :
-Move
+move
 (
 styleSet
 )
@@ -6850,10 +6850,10 @@ nsPrintJob
 >
 printJob
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 mPrintJob
 )

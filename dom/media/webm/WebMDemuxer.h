@@ -131,7 +131,10 @@ mQueue
 .
 push_back
 (
-Move
+std
+:
+:
+move
 (
 aItem
 )
@@ -170,7 +173,10 @@ mQueue
 .
 push_front
 (
-Move
+std
+:
+:
+move
 (
 aItem
 )

@@ -120,7 +120,10 @@ aOther
 :
 mSurface
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -153,7 +156,10 @@ aMatchType
 :
 mSurface
 (
-Move
+std
+:
+:
+move
 (
 aSurface
 )
@@ -256,7 +262,10 @@ aSuggestedSize
 :
 mSurface
 (
-Move
+std
+:
+:
+move
 (
 aSurface
 )
@@ -376,7 +385,10 @@ supported
 ;
 mSurface
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

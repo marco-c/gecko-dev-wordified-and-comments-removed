@@ -4789,7 +4789,10 @@ nullptr
 *
 aSheet
 =
-Move
+std
+:
+:
+move
 (
 clonedSheet
 )
@@ -7457,7 +7460,10 @@ __func__
 [
 loadData
 =
-Move
+std
+:
+:
+move
 (
 loadData
 )

@@ -529,7 +529,10 @@ performanceEntry
 new
 PerformanceResourceTiming
 (
-Move
+std
+:
+:
+move
 (
 performanceTimingData
 )
@@ -1486,7 +1489,10 @@ mDocEntry
 new
 PerformanceNavigationTiming
 (
-Move
+std
+:
+:
+move
 (
 timing
 )
@@ -1568,7 +1574,10 @@ mDocEntry
 new
 PerformanceNavigationTiming
 (
-Move
+std
+:
+:
+move
 (
 timing
 )

@@ -1818,7 +1818,10 @@ kind
 :
 fieldName_
 (
-Move
+std
+:
+:
+move
 (
 fieldName
 )
@@ -1850,7 +1853,10 @@ kind
 :
 fieldName_
 (
-Move
+std
+:
+:
+move
 (
 fieldName
 )
@@ -2287,7 +2293,10 @@ GetCPUID
 )
 buildId
 (
-Move
+std
+:
+:
+move
 (
 buildId
 )

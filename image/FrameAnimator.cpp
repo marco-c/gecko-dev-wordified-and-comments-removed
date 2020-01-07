@@ -1123,7 +1123,10 @@ false
 ;
 aCurrentFrame
 =
-Move
+std
+:
+:
+move
 (
 nextFrame
 )
@@ -1369,7 +1372,10 @@ false
 ;
 aCurrentFrame
 =
-Move
+std
+:
+:
+move
 (
 nextFrame
 )

@@ -281,10 +281,10 @@ aAlreadyAddRefedPtr
 )
 {
 return
-mozilla
+std
 :
 :
-Move
+move
 (
 aAlreadyAddRefedPtr
 )

@@ -857,10 +857,10 @@ edges
 .
 append
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 edge
 )

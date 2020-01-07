@@ -229,7 +229,10 @@ mRecycleBin
 >
 RecycleBuffer
 (
-Move
+std
+:
+:
+move
 (
 mDecodedBuffer
 )
@@ -807,7 +810,10 @@ mRecycleBin
 >
 RecycleBuffer
 (
-Move
+std
+:
+:
+move
 (
 mDecodedBuffer
 )

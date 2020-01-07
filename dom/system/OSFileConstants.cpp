@@ -894,7 +894,10 @@ macUserLibDir
 endif
 mPaths
 =
-Move
+std
+:
+:
+move
 (
 paths
 )

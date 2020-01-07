@@ -2193,7 +2193,10 @@ aOriginAttributes
 )
 mAncestorPrincipals
 (
-Move
+std
+:
+:
+move
 (
 aAncestorPrincipals
 )
@@ -5156,7 +5159,10 @@ aClientSource
 ;
 mReservedClientSource
 =
-Move
+std
+:
+:
+move
 (
 aClientSource
 )
@@ -5196,7 +5202,10 @@ reset
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 mReservedClientSource
 )

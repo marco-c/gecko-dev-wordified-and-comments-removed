@@ -646,7 +646,10 @@ aNotifications
 >
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 mImageCompositeNotifications
 )
@@ -1996,7 +1999,10 @@ aRegion
 {
 mShadowVisibleRegion
 =
-Move
+std
+:
+:
+move
 (
 aRegion
 )

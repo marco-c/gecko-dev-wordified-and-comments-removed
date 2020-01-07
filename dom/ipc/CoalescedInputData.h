@@ -80,7 +80,10 @@ aSource
 {
 mCoalescedInputEvent
 =
-Move
+std
+:
+:
+move
 (
 aSource
 .
@@ -136,7 +139,10 @@ TakeCoalescedEvent
 )
 {
 return
-Move
+std
+:
+:
+move
 (
 mCoalescedInputEvent
 )

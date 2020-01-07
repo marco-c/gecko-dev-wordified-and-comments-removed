@@ -5190,7 +5190,10 @@ i
 }
 alternatives_
 =
-Move
+std
+:
+:
+move
 (
 new_alternatives
 )
@@ -11866,7 +11869,10 @@ masm
 >
 CheckBitInTable
 (
-Move
+std
+:
+:
+move
 (
 boolean_skip_table
 )
@@ -15966,7 +15972,10 @@ masm
 >
 CheckBitInTable
 (
-Move
+std
+:
+:
+move
 (
 ba
 )

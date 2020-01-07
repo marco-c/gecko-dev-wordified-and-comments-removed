@@ -2253,7 +2253,10 @@ lambdaIterator
 SourceBufferIterator
 movedIterator
 =
-Move
+std
+:
+:
+move
 (
 GetIterator
 (
@@ -2303,7 +2306,10 @@ totalLength
 ;
 movedIterator
 =
-Move
+std
+:
+:
+move
 (
 GetIterator
 (

@@ -57,7 +57,10 @@ aSize
 )
 mOStream
 (
-Move
+std
+:
+:
+move
 (
 aStream
 )
@@ -116,7 +119,10 @@ new
 PrintTargetSkPDF
 (
 aSizeInPoints
-Move
+std
+:
+:
+move
 (
 aStream
 )

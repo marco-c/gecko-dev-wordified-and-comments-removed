@@ -819,7 +819,10 @@ slicesTable_
 .
 infallibleAppend
 (
-Move
+std
+:
+:
+move
 (
 slice
 )

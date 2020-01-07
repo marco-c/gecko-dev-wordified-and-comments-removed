@@ -1089,10 +1089,10 @@ aAncestorPrincipals
 {
 mAncestorPrincipals
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aAncestorPrincipals
 )
@@ -1127,10 +1127,10 @@ aAncestorOuterWindowIDs
 {
 mAncestorOuterWindowIDs
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aAncestorOuterWindowIDs
 )

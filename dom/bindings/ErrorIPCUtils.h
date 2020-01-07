@@ -373,7 +373,10 @@ false
 *
 aResult
 =
-Move
+std
+:
+:
+move
 (
 readValue
 )

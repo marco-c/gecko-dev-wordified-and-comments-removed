@@ -29,12 +29,6 @@ using
 mozilla
 :
 :
-Move
-;
-using
-mozilla
-:
-:
 NonDereferenceable
 ;
 #
@@ -217,7 +211,10 @@ i
 ;
 nd3
 =
-Move
+std
+:
+:
+move
 (
 nd1
 )

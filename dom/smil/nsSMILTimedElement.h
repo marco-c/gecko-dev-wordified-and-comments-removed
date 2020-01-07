@@ -1014,10 +1014,10 @@ mCurrentInterval
 auto
 interval
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 mCurrentInterval
 )

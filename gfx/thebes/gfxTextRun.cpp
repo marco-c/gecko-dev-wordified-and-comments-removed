@@ -7217,7 +7217,10 @@ GlyphRun
 >
 runs
 (
-Move
+std
+:
+:
+move
 (
 mGlyphRunArray
 )
@@ -7366,7 +7369,10 @@ mGlyphRunArray
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 run
 )

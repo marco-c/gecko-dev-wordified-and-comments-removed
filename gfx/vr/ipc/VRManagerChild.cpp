@@ -462,7 +462,10 @@ ShutDown
 return
 InitForContent
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

@@ -1968,10 +1968,10 @@ shortcut
 return
 KeyboardMap
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 shortcuts
 )

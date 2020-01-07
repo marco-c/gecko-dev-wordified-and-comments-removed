@@ -224,7 +224,10 @@ surf
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 ret
 )
@@ -717,7 +720,10 @@ ORIGIN_BOTTOM_LEFT
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 ret
 )

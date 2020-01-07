@@ -9486,7 +9486,10 @@ lowPrioNonrepCert
 {
 cert
 =
-Move
+std
+:
+:
+move
 (
 lowPrioNonrepCert
 )

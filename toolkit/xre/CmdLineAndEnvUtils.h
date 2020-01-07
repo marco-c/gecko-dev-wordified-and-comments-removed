@@ -1289,7 +1289,10 @@ c
 '
 ;
 return
-Move
+std
+:
+:
+move
 (
 s
 )

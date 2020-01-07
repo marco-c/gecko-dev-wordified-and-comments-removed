@@ -324,10 +324,10 @@ toMove
 :
 mSettings
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 toMove
 .
@@ -336,10 +336,10 @@ mSettings
 )
 mHostWithPort
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 toMove
 .

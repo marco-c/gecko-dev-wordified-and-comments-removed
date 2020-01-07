@@ -2102,7 +2102,10 @@ nsIInputStream
 >
 asyncInputStream
 =
-Move
+std
+:
+:
+move
 (
 aAsyncStream
 )
@@ -2207,7 +2210,10 @@ rv
 NS_NewCStringInputStream
 (
 aSyncStream
-Move
+std
+:
+:
+move
 (
 buffer
 )

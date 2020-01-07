@@ -334,7 +334,10 @@ sInstance
 new
 CompositorManagerChild
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

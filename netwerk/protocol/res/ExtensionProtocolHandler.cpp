@@ -453,7 +453,10 @@ aLoadInfo
 )
 mJarChannel
 (
-Move
+std
+:
+:
+move
 (
 aJarChannel
 )
@@ -1171,7 +1174,10 @@ nsIInputStream
 >
 stream
 =
-Move
+std
+:
+:
+move
 (
 aStream
 )

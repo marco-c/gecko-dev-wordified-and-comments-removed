@@ -1382,7 +1382,10 @@ NS_OK
 }
 passwordBuffer
 =
-Move
+std
+:
+:
+move
 (
 stringToBigEndianBytes
 (
@@ -1495,7 +1498,10 @@ NS_OK
 }
 passwordBuffer
 =
-Move
+std
+:
+:
+move
 (
 stringToBigEndianBytes
 (

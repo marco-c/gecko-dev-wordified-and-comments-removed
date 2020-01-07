@@ -1281,7 +1281,10 @@ AudioSegment
 AudioChunk
 >
 (
-Move
+std
+:
+:
+move
 (
 aSegment
 )

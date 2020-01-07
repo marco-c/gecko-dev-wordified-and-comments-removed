@@ -4349,7 +4349,10 @@ GetCompatibilityMode
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 p
 )

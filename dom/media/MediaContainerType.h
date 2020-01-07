@@ -61,7 +61,10 @@ aType
 :
 mExtendedMIMEType
 (
-Move
+std
+:
+:
+move
 (
 aType
 )
@@ -94,7 +97,10 @@ aType
 :
 mExtendedMIMEType
 (
-Move
+std
+:
+:
+move
 (
 aType
 )

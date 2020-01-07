@@ -232,7 +232,10 @@ aCloneReadInfo
 :
 mData
 (
-Move
+std
+:
+:
+move
 (
 aCloneReadInfo
 .
@@ -308,7 +311,10 @@ aCloneReadInfo
 :
 mData
 (
-Move
+std
+:
+:
+move
 (
 aCloneReadInfo
 .
@@ -379,7 +385,10 @@ this
 ;
 mData
 =
-Move
+std
+:
+:
+move
 (
 aCloneReadInfo
 .

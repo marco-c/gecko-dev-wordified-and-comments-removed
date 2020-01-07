@@ -23175,7 +23175,10 @@ releaserRunnable
 new
 WidgetsReleaserRunnable
 (
-Move
+std
+:
+:
+move
 (
 widgetArray
 )

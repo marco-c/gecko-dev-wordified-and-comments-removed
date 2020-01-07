@@ -126,7 +126,10 @@ mInfo
 >
 PostMessage
 (
-Move
+std
+:
+:
+move
 (
 aData
 )

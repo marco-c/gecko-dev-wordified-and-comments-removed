@@ -2221,7 +2221,10 @@ buf
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 buf
 )
@@ -2261,7 +2264,10 @@ buf
 =
 JS_sprintf_append
 (
-Move
+std
+:
+:
+move
 (
 buf
 )

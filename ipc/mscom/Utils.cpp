@@ -1214,7 +1214,10 @@ typeInfos
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 typeInfo
 )
@@ -1442,7 +1445,10 @@ typeInfos
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 nextTypeInfo
 )

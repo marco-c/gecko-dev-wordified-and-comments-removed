@@ -726,7 +726,10 @@ mEventQueue
 .
 PutEvent
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -990,7 +993,10 @@ mInner
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -1019,7 +1025,10 @@ mInner
 >
 DelayedDispatch
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )

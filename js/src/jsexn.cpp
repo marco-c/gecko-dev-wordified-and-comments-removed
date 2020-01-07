@@ -1063,7 +1063,10 @@ copy
 >
 notes
 =
-Move
+std
+:
+:
+move
 (
 copiedNotes
 )

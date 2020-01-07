@@ -295,7 +295,10 @@ mLength
 )
 mBuffer
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -353,7 +356,10 @@ this
 )
 AlignedBuffer
 (
-Move
+std
+:
+:
+move
 (
 aOther
 )
@@ -983,7 +989,10 @@ mLength
 }
 mBuffer
 =
-Move
+std
+:
+:
+move
 (
 newBuffer
 )
@@ -1433,7 +1442,10 @@ aRate
 )
 mAudioData
 (
-Move
+std
+:
+:
+move
 (
 aData
 )

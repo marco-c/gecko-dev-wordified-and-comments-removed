@@ -808,10 +808,10 @@ end
 }
 aOutKeyIds
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 keyIds
 )

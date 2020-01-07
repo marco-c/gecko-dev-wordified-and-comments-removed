@@ -10142,7 +10142,10 @@ nsIInputStream
 >
 uploadStream
 =
-Move
+std
+:
+:
+move
 (
 aUploadStream
 )
@@ -12649,7 +12652,10 @@ target
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -12660,7 +12666,10 @@ NS_DISPATCH_NORMAL
 return
 NS_DispatchToMainThread
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

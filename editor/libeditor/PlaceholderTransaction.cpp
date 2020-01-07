@@ -98,7 +98,10 @@ nullptr
 mStartSel
 (
 *
-Move
+std
+:
+:
+move
 (
 aSelState
 )

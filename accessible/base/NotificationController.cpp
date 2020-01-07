@@ -4191,7 +4191,10 @@ newChildDocs
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 mHangingChildDocuments
 [
@@ -4508,7 +4511,10 @@ AccTreeMutationEvent
 >
 mutEvent
 =
-Move
+std
+:
+:
+move
 (
 mFirstMutationEvent
 )

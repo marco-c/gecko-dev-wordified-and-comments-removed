@@ -292,7 +292,10 @@ size
 )
 edges
 (
-Move
+std
+:
+:
+move
 (
 edges
 )
@@ -357,7 +360,10 @@ size
 )
 edges
 (
-Move
+std
+:
+:
+move
 (
 rhs
 .
@@ -424,7 +430,10 @@ this
 )
 DeserializedNode
 (
-Move
+std
+:
+:
+move
 (
 rhs
 )

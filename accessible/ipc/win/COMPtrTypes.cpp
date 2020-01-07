@@ -273,7 +273,10 @@ MainThreadHandoff
 :
 WrapInterface
 (
-Move
+std
+:
+:
+move
 (
 iaToProxy
 )
@@ -315,7 +318,10 @@ nullptr
 return
 IAccessibleHolder
 (
-Move
+std
+:
+:
+move
 (
 intercepted
 )
@@ -367,7 +373,10 @@ nullptr
 return
 IHandlerControlHolder
 (
-Move
+std
+:
+:
+move
 (
 aHandlerControl
 )

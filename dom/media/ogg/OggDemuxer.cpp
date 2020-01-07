@@ -1671,7 +1671,10 @@ aState
 >
 DecodeHeader
 (
-Move
+std
+:
+:
+move
 (
 packet
 )
@@ -3992,7 +3995,10 @@ Notify
 TimedMetadata
 (
 mDecodedAudioDuration
-Move
+std
+:
+:
+move
 (
 tags
 )
@@ -5876,7 +5882,10 @@ state
 >
 PushFront
 (
-Move
+std
+:
+:
+move
 (
 tempPackets
 )
@@ -7315,7 +7324,10 @@ SkipAccessPointPromise
 :
 CreateAndReject
 (
-Move
+std
+:
+:
+move
 (
 failure
 )

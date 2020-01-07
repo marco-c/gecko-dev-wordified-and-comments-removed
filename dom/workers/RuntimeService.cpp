@@ -6173,7 +6173,10 @@ mSharedWorkerInfos
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 sharedWorkerInfo
 )

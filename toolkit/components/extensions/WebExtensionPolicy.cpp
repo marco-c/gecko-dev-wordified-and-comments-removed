@@ -531,7 +531,10 @@ mContentScripts
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 contentScript
 )
@@ -1139,7 +1142,10 @@ mContentScripts
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 newScript
 )

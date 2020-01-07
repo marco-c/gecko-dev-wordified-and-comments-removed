@@ -64,7 +64,10 @@ mThread
 >
 Dispatch
 (
-Move
+std
+:
+:
+move
 (
 runnable
 )
@@ -136,7 +139,10 @@ new
 FunctionBrokerChild
 (
 thread
-Move
+std
+:
+:
+move
 (
 aBrokerEndpoint
 )
@@ -251,7 +257,10 @@ FunctionBrokerChild
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

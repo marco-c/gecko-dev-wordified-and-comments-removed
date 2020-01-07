@@ -94,7 +94,10 @@ new
 FunctionBrokerParent
 (
 thread
-Move
+std
+:
+:
+move
 (
 aParentEnd
 )
@@ -166,7 +169,10 @@ FunctionBrokerParent
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aParentEnd
 )

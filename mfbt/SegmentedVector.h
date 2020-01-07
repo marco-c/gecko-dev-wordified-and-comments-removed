@@ -491,10 +491,10 @@ aOther
 :
 mSegments
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aOther
 .

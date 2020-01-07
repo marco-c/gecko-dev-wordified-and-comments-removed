@@ -3383,7 +3383,10 @@ SendLayersDependentApzcTargetConfirmation
 (
 mPresShell
 mInputBlockId
-Move
+std
+:
+:
+move
 (
 mTargets
 )
@@ -3520,7 +3523,10 @@ DisplayportSetListener
 (
 aShell
 aInputBlockId
-Move
+std
+:
+:
+move
 (
 aTargets
 )
@@ -3840,7 +3846,10 @@ SendSetTargetAPZCNotificationHelper
 aWidget
 shell
 aInputBlockId
-Move
+std
+:
+:
+move
 (
 targets
 )
@@ -3971,7 +3980,10 @@ mRefPoint
 aCallback
 (
 aInputBlockId
-Move
+std
+:
+:
+move
 (
 flags
 )

@@ -435,7 +435,10 @@ extensions
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 extension
 )
@@ -464,7 +467,10 @@ type
 isMIMEInfo
 description
 alwaysAskBeforeHandling
-Move
+std
+:
+:
+move
 (
 extensions
 )

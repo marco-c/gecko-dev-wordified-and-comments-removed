@@ -1516,7 +1516,10 @@ aStreamOffset
 timestamp
 duration
 numFrames
-Move
+std
+:
+:
+move
 (
 audioData
 )

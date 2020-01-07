@@ -21614,7 +21614,10 @@ CurrentState
 .
 dash
 =
-Move
+std
+:
+:
+move
 (
 dash
 )

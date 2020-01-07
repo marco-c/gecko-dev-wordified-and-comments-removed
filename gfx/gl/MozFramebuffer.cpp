@@ -692,7 +692,10 @@ nullptr
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 mozFB
 )

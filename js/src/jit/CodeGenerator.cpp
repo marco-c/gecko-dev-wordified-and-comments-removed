@@ -72836,10 +72836,10 @@ codeLabels_
 .
 append
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 cl
 )
@@ -72875,10 +72875,10 @@ labels_
 .
 append
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 entry
 )

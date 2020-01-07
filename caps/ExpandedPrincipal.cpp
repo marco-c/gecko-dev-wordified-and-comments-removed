@@ -1205,7 +1205,10 @@ mPrincipals
 .
 InsertElementSorted
 (
-Move
+std
+:
+:
+move
 (
 principal
 )

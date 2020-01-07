@@ -2740,7 +2740,10 @@ NewRunnableFrom
 that
 graph
 =
-Move
+std
+:
+:
+move
 (
 aGraph
 )

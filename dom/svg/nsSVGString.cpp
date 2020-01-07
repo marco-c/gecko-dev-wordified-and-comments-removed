@@ -458,7 +458,10 @@ aStr
 ;
 aValue
 =
-Move
+std
+:
+:
+move
 (
 val
 )

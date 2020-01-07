@@ -5736,7 +5736,10 @@ NS_OK
 }
 mPrincipalInfo
 =
-Move
+std
+:
+:
+move
 (
 principalInfo
 )

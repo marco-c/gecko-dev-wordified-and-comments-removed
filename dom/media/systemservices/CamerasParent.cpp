@@ -727,7 +727,10 @@ aStreamId
 )
 mBuffer
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )
@@ -773,7 +776,10 @@ DeliverFrameOverIPC
 (
 mCapEngine
 mStreamId
-Move
+std
+:
+:
+move
 (
 mBuffer
 )
@@ -1554,7 +1560,10 @@ DeliverFrameRunnable
 mParent
 mCapEngine
 mStreamId
-Move
+std
+:
+:
+move
 (
 shMemBuffer
 )
@@ -1883,7 +1892,10 @@ VideoEngine
 :
 Create
 (
-Move
+std
+:
+:
+move
 (
 config
 )

@@ -102,7 +102,10 @@ zone
 )
 array_
 (
-Move
+std
+:
+:
+move
 (
 array
 )
@@ -235,7 +238,10 @@ Table
 cx
 desc
 maybeObject
-Move
+std
+:
+:
+move
 (
 array
 )

@@ -59,7 +59,10 @@ mRuleList
 new
 ServoCSSRuleList
 (
-Move
+std
+:
+:
+move
 (
 aRules
 )

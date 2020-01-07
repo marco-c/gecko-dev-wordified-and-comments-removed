@@ -630,7 +630,10 @@ rhs
 {
 vector_
 =
-Move
+std
+:
+:
+move
 (
 rhs
 .

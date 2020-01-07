@@ -1761,7 +1761,10 @@ aResult
 WorkerSyncRunnable
 (
 aWorkerPrivate
-Move
+std
+:
+:
+move
 (
 aSyncLoopTarget
 )
@@ -2862,7 +2865,10 @@ false
 }
 mWorkerHolder
 =
-Move
+std
+:
+:
+move
 (
 workerHolder
 )

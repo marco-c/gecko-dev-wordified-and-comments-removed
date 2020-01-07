@@ -2439,7 +2439,10 @@ DoOCSPRequest
 (
 aiaLocation
 mOriginAttributes
-Move
+std
+:
+:
+move
 (
 ocspRequest
 )
@@ -3399,7 +3402,10 @@ nssCertList
 new
 nsNSSCertList
 (
-Move
+std
+:
+:
+move
 (
 certListCopy
 )
@@ -3935,7 +3941,10 @@ ERROR_ADDITIONAL_POLICY_CONSTRAINT_FAILED
 }
 mBuiltChain
 =
-Move
+std
+:
+:
+move
 (
 certList
 )

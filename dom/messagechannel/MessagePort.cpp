@@ -1328,7 +1328,10 @@ mWorkerRef
 ;
 mWorkerRef
 =
-Move
+std
+:
+:
+move
 (
 strongWorkerRef
 )
@@ -2141,7 +2144,10 @@ MessagePort
 >
 port
 =
-Move
+std
+:
+:
+move
 (
 mUnshippedEntangledPort
 )

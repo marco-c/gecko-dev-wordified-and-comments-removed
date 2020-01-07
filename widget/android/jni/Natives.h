@@ -2514,7 +2514,10 @@ NS_NewRunnableFunction
 "
 PriorityNativeCall
 "
-Move
+std
+:
+:
+move
 (
 proxy
 )
@@ -2622,7 +2625,10 @@ NS_NewRunnableFunction
 "
 GeckoNativeCall
 "
-Move
+std
+:
+:
+move
 (
 proxy
 )
@@ -4352,10 +4358,10 @@ Impl
 Set
 (
 instance
-mozilla
+std
 :
 :
-Move
+move
 (
 ptr
 )

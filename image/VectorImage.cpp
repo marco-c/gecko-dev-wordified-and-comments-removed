@@ -3079,7 +3079,10 @@ ImgDrawResult
 :
 SUCCESS
 aSize
-Move
+std
+:
+:
+move
 (
 sourceSurface
 )
@@ -3249,7 +3252,10 @@ ImgDrawResult
 :
 SUCCESS
 aSize
-Move
+std
+:
+:
+move
 (
 surface
 )

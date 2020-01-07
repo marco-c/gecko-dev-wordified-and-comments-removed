@@ -5881,7 +5881,10 @@ create
 cx
 self
 exports
-Move
+std
+:
+:
+move
 (
 bindings
 )

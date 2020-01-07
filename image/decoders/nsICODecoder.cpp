@@ -810,7 +810,10 @@ mDirEntry
 {
 mReturnIterator
 =
-Move
+std
+:
+:
+move
 (
 mLexer
 .
@@ -887,7 +890,10 @@ RemoveElementAt
 ;
 mIterator
 =
-Move
+std
+:
+:
+move
 (
 mLexer
 .
@@ -1543,7 +1549,10 @@ DecoderType
 :
 :
 PNG
-Move
+std
+:
+:
+move
 (
 containedIterator
 .
@@ -1833,7 +1842,10 @@ DecoderType
 :
 :
 BMP
-Move
+std
+:
+:
+move
 (
 containedIterator
 .

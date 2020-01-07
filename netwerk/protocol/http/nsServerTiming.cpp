@@ -417,7 +417,10 @@ TakeServerTimingHeaders
 )
 {
 return
-Move
+std
+:
+:
+move
 (
 mServerTimingHeaders
 )

@@ -1017,7 +1017,10 @@ mQueue
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 *
 mCurrentFrameQueueItem

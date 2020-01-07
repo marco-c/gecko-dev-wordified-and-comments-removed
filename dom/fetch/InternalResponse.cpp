@@ -321,7 +321,10 @@ response
 >
 SetPrincipalInfo
 (
-Move
+std
+:
+:
+move
 (
 info
 )
@@ -1535,7 +1538,10 @@ aPrincipalInfo
 {
 mPrincipalInfo
 =
-Move
+std
+:
+:
+move
 (
 aPrincipalInfo
 )

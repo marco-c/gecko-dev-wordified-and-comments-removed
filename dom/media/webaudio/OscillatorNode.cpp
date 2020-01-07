@@ -2243,7 +2243,10 @@ mStream
 >
 SetBuffer
 (
-Move
+std
+:
+:
+move
 (
 data
 )

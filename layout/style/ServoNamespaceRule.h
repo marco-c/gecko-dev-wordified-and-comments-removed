@@ -58,7 +58,10 @@ aColumn
 )
 mRawRule
 (
-Move
+std
+:
+:
+move
 (
 aRule
 )

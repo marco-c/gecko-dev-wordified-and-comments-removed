@@ -154,7 +154,10 @@ aMessage
 .
 mValue
 =
-Move
+std
+:
+:
+move
 (
 aValue
 )

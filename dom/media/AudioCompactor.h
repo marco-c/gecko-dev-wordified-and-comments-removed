@@ -263,7 +263,10 @@ aOffset
 time
 duration
 framesCopied
-Move
+std
+:
+:
+move
 (
 buffer
 )

@@ -1171,7 +1171,10 @@ aEvent
 :
 PrioritizableRunnable
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -1216,7 +1219,10 @@ event
 new
 NativeInputRunnable
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )

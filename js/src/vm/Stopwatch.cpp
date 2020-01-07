@@ -238,7 +238,10 @@ true
 PerformanceGroupVector
 recentGroups
 (
-Move
+std
+:
+:
+move
 (
 recentGroups_
 )

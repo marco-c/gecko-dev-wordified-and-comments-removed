@@ -71,7 +71,10 @@ WorkerThreadUnchangedBusyCount
 )
 mRef
 (
-Move
+std
+:
+:
+move
 (
 aRef
 )
@@ -429,7 +432,10 @@ ref
 >
 mHolder
 =
-Move
+std
+:
+:
+move
 (
 holder
 )
@@ -627,7 +633,10 @@ ref
 >
 mHolder
 =
-Move
+std
+:
+:
+move
 (
 holder
 )

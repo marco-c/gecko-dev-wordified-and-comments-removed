@@ -125,7 +125,10 @@ decoder
 new
 DummyMediaDataDecoder
 (
-Move
+std
+:
+:
+move
 (
 creator
 )

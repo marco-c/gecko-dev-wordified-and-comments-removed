@@ -340,7 +340,10 @@ helper
 new
 SurfaceHelper
 (
-Move
+std
+:
+:
+move
 (
 aImage
 )
@@ -648,7 +651,10 @@ aOptions
 )
 mImageBuffer
 (
-Move
+std
+:
+:
+move
 (
 aImageBuffer
 )
@@ -1270,7 +1276,10 @@ EncodingRunnable
 (
 aType
 aOptions
-Move
+std
+:
+:
+move
 (
 aImageBuffer
 )

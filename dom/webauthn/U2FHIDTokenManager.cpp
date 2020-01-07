@@ -136,7 +136,10 @@ U2FHIDTokenManager
 :
 :
 HandleRegisterResult
-Move
+std
+:
+:
+move
 (
 rv
 )
@@ -236,7 +239,10 @@ U2FHIDTokenManager
 :
 :
 HandleSignResult
-Move
+std
+:
+:
+move
 (
 rv
 )
@@ -1262,7 +1268,10 @@ mRegisterPromise
 .
 Resolve
 (
-Move
+std
+:
+:
+move
 (
 result
 )
@@ -1637,7 +1646,10 @@ mSignPromise
 .
 Resolve
 (
-Move
+std
+:
+:
+move
 (
 result
 )

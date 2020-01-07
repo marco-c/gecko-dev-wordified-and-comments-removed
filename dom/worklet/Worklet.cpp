@@ -206,7 +206,10 @@ aHandler
 )
 mScriptBuffer
 (
-Move
+std
+:
+:
+move
 (
 aScriptBuffer
 )
@@ -1090,7 +1093,10 @@ mWorklet
 Type
 (
 )
-Move
+std
+:
+:
+move
 (
 scriptTextBuf
 )

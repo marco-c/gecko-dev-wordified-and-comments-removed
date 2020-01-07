@@ -140,7 +140,10 @@ ePreservable
 ;
 mPreservedStream
 =
-Move
+std
+:
+:
+move
 (
 proxyStream
 .

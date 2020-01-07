@@ -98,7 +98,10 @@ surf
 :
 mSurf
 (
-Move
+std
+:
+:
+move
 (
 surf
 )
@@ -299,7 +302,10 @@ data
 new
 SharedSurfaceTextureData
 (
-Move
+std
+:
+:
+move
 (
 surf
 )

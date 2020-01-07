@@ -699,7 +699,10 @@ m_bFlash
 =
 true
 ;
-Move
+std
+:
+:
+move
 (
 m_rcInvalid
 false
@@ -739,7 +742,10 @@ m_bFlash
 =
 true
 ;
-Move
+std
+:
+:
+move
 (
 m_rcInvalid
 false

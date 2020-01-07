@@ -853,7 +853,10 @@ mExtensionTLVs
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 extensionTLV
 )
@@ -1509,7 +1512,10 @@ output
 .
 tbsCertificate
 =
-Move
+std
+:
+:
+move
 (
 precertTBSBuffer
 )

@@ -2980,7 +2980,10 @@ nsTextFrameUtils
 Flags
 (
 )
-Move
+std
+:
+:
+move
 (
 styleArray
 )

@@ -1496,7 +1496,10 @@ helper
 .
 reportErrorAfterPop
 (
-Move
+std
+:
+:
+move
 (
 buf
 )
@@ -3692,7 +3695,10 @@ NS_BASE_STREAM_OSERROR
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 str
 )
@@ -7085,7 +7091,10 @@ reportErrorAfterPop
 ;
 mBuf
 =
-Move
+std
+:
+:
+move
 (
 buf
 )

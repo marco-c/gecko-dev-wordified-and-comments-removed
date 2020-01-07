@@ -111,10 +111,10 @@ vec
 :
 vector
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 vec
 .
@@ -136,10 +136,10 @@ vec
 {
 vector
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 vec
 .

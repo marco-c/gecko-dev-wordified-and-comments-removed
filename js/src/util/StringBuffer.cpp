@@ -297,7 +297,10 @@ construct
 TwoByteCharBuffer
 >
 (
-Move
+std
+:
+:
+move
 (
 twoByte
 )

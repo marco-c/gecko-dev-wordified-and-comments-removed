@@ -382,7 +382,10 @@ AppendElement
 Entry
 (
 aId
-Move
+std
+:
+:
+move
 (
 aStream
 )

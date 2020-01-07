@@ -1010,7 +1010,10 @@ UpdateHitTestingTree
 =
 aScrollData
 =
-Move
+std
+:
+:
+move
 (
 aScrollData
 )
@@ -1166,7 +1169,10 @@ UpdateScrollOffsets
 =
 updates
 =
-Move
+std
+:
+:
+move
 (
 aUpdates
 )
@@ -2063,7 +2069,10 @@ APZThreadUtils
 :
 :
 RunOnControllerThread
-Move
+std
+:
+:
+move
 (
 aTask
 )

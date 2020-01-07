@@ -226,7 +226,10 @@ mTransform
 .
 mTransformInDevSpace
 =
-Move
+std
+:
+:
+move
 (
 aTransformInDevSpace
 )
@@ -235,7 +238,10 @@ mTransform
 .
 mFrameTransform
 =
-Move
+std
+:
+:
+move
 (
 aFrameTransform
 )

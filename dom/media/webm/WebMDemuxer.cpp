@@ -2884,7 +2884,10 @@ crypto
 .
 mKeyId
 =
-Move
+std
+:
+:
+move
 (
 initData
 )
@@ -6504,7 +6507,10 @@ mSamples
 .
 PushFront
 (
-Move
+std
+:
+:
+move
 (
 skipSamplesQueue
 )
@@ -7068,7 +7074,10 @@ SkipAccessPointPromise
 :
 CreateAndReject
 (
-Move
+std
+:
+:
+move
 (
 failure
 )

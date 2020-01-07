@@ -7363,7 +7363,10 @@ aWriter
 JSONWriter
 writer
 (
-Move
+std
+:
+:
+move
 (
 aWriter
 )
@@ -9102,7 +9105,10 @@ aWriter
 {
 AnalyzeImpl
 (
-Move
+std
+:
+:
+move
 (
 aWriter
 )

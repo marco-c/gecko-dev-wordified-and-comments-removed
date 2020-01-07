@@ -2282,7 +2282,10 @@ ImageBridgeChild
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -2352,7 +2355,10 @@ ShutdownSingleton
 return
 InitForContent
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -2916,7 +2922,10 @@ ImageBridgeChild
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

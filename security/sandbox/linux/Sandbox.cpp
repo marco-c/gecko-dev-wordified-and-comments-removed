@@ -2747,7 +2747,10 @@ SetCurrentProcessSandbox
 GetContentSandboxPolicy
 (
 sBroker
-Move
+std
+:
+:
+move
 (
 aParams
 )
@@ -2871,7 +2874,10 @@ files
 >
 Add
 (
-Move
+std
+:
+:
+move
 (
 plugin
 )

@@ -223,7 +223,10 @@ new
 AnnotationInfo
 (
 hangIndex
-Move
+std
+:
+:
+move
 (
 aAnnotations
 )

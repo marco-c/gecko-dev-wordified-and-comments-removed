@@ -1094,7 +1094,10 @@ mSamples
 .
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 aHolder
 -
@@ -1137,7 +1140,10 @@ ref
 {
 InitDecoder
 (
-Move
+std
+:
+:
+move
 (
 *
 mTrackDemuxer
@@ -1204,7 +1210,10 @@ NS_ERROR_DOM_MEDIA_END_OF_STREAM
 :
 InitDecoder
 (
-Move
+std
+:
+:
+move
 (
 *
 mTrackDemuxer

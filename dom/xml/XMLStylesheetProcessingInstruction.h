@@ -85,7 +85,10 @@ aData
 :
 ProcessingInstruction
 (
-Move
+std
+:
+:
+move
 (
 aNodeInfo
 )

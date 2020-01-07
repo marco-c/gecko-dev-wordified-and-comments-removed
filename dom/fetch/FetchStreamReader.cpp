@@ -1014,7 +1014,10 @@ mBuffer
 ;
 mBuffer
 =
-Move
+std
+:
+:
+move
 (
 value
 )

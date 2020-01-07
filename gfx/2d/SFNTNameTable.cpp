@@ -1042,7 +1042,10 @@ aU16FullName
 .
 assign
 (
-Move
+std
+:
+:
+move
 (
 familyName
 )

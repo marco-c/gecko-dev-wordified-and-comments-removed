@@ -387,7 +387,10 @@ UniquePtr
 Sdp
 >
 (
-Move
+std
+:
+:
+move
 (
 sipccSdp
 )

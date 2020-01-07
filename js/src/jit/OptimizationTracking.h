@@ -350,10 +350,10 @@ mirType_
 )
 types_
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 other
 .

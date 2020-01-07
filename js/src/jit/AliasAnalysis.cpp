@@ -606,7 +606,10 @@ stores
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 defs
 )

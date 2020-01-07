@@ -5276,7 +5276,10 @@ aFormat
 )
 parameters
 (
-Move
+std
+:
+:
+move
 (
 aParameters
 )
@@ -5430,7 +5433,10 @@ push_back
 Fmtp
 (
 format
-Move
+std
+:
+:
+move
 (
 parameters
 )

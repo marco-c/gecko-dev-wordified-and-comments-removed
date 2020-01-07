@@ -3094,10 +3094,10 @@ PassAsParameter
 )
 {
 return
-mozilla
+std
 :
 :
-Move
+move
 (
 m
 )
@@ -6832,7 +6832,10 @@ Revoke
 ;
 mEvent
 =
-Move
+std
+:
+:
+move
 (
 aEvent
 )

@@ -94,7 +94,10 @@ this
 )
 DeserializedEdge
 (
-Move
+std
+:
+:
+move
 (
 rhs
 )
@@ -391,10 +394,10 @@ edge
 ;
 currentEdge
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 Edge
 (

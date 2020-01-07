@@ -2980,7 +2980,10 @@ get
 )
 mPeerCertChain
 (
-Move
+std
+:
+:
+move
 (
 peerCertChain
 )
@@ -6251,7 +6254,10 @@ status
 >
 SetSucceededCertChain
 (
-Move
+std
+:
+:
+move
 (
 builtCertChain
 )
@@ -6303,7 +6309,10 @@ infoObject
 >
 SetFailedCertChain
 (
-Move
+std
+:
+:
+move
 (
 peerCertChain
 )
@@ -6467,7 +6476,10 @@ certVerifier
 fdForLogging
 infoObject
 serverCert
-Move
+std
+:
+:
+move
 (
 peerCertChainCopy
 )

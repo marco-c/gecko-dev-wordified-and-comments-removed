@@ -158,10 +158,10 @@ if
 Put
 (
 aKey
-mozilla
+std
 :
 :
-Move
+move
 (
 aData
 )

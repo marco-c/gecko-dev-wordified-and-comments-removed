@@ -9726,7 +9726,10 @@ mDocShell
 >
 SetAncestorPrincipals
 (
-Move
+std
+:
+:
+move
 (
 ancestorPrincipals
 )
@@ -9771,7 +9774,10 @@ mDocShell
 >
 SetAncestorOuterWindowIDs
 (
-Move
+std
+:
+:
+move
 (
 ancestorOuterWindowIDs
 )

@@ -501,7 +501,10 @@ nsIInputStream
 >
 inputStream
 =
-Move
+std
+:
+:
+move
 (
 aInputStream
 )
@@ -739,7 +742,10 @@ nsIInputStream
 >
 inputStream
 =
-Move
+std
+:
+:
+move
 (
 aInputStream
 )
@@ -996,7 +1002,10 @@ nsIInputStream
 >
 inputStream
 =
-Move
+std
+:
+:
+move
 (
 aInputStream
 )

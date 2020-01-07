@@ -117,7 +117,10 @@ aDecl
 :
 mRawRule
 (
-Move
+std
+:
+:
+move
 (
 aDecl
 )
@@ -204,7 +207,10 @@ aColumn
 )
 mDecl
 (
-Move
+std
+:
+:
+move
 (
 aRawRule
 )

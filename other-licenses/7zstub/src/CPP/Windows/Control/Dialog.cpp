@@ -911,7 +911,10 @@ SW_SHOWMAXIMIZED
 )
 ;
 else
-Move
+std
+:
+:
+move
 (
 rect
 .
@@ -969,7 +972,10 @@ workRect
 .
 top
 )
-Move
+std
+:
+:
+move
 (
 rect
 .

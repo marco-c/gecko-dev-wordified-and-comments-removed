@@ -996,7 +996,10 @@ GetTargetComputedStyle
 ;
 SetKeyframes
 (
-Move
+std
+:
+:
+move
 (
 keyframes
 )
@@ -1037,7 +1040,10 @@ return
 }
 mKeyframes
 =
-Move
+std
+:
+:
+move
 (
 aKeyframes
 )
@@ -1462,7 +1468,10 @@ mProperty
 }
 mProperties
 =
-Move
+std
+:
+:
+move
 (
 properties
 )

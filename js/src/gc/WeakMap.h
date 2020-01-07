@@ -1166,7 +1166,10 @@ weakEntries
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 markable
 )
@@ -1194,7 +1197,10 @@ weakEntries
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 markable
 )
@@ -1220,7 +1226,10 @@ GCCellPtr
 (
 key
 )
-Move
+std
+:
+:
+move
 (
 weakEntries
 )

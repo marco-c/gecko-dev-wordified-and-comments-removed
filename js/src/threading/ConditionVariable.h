@@ -392,10 +392,10 @@ Now
 )
 +
 rel_time
-mozilla
+std
 :
 :
-Move
+move
 (
 pred
 )

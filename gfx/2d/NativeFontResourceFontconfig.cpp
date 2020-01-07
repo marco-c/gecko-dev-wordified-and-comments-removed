@@ -52,7 +52,10 @@ aFace
 :
 mFontData
 (
-Move
+std
+:
+:
+move
 (
 aFontData
 )
@@ -222,7 +225,10 @@ resource
 new
 NativeFontResourceFontconfig
 (
-Move
+std
+:
+:
+move
 (
 fontData
 )

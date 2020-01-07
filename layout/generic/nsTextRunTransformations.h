@@ -384,7 +384,10 @@ false
 :
 mInnerTransformingTextRunFactory
 (
-Move
+std
+:
+:
+move
 (
 aInnerTransformingTextRunFactory
 )

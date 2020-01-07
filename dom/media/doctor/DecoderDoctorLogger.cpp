@@ -639,7 +639,10 @@ aSubjectTypeName
 aSubjectPointer
 aCategory
 aLabel
-Move
+std
+:
+:
+move
 (
 aValue
 )

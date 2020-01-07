@@ -362,7 +362,10 @@ mQueue
 .
 push_front
 (
-Move
+std
+:
+:
+move
 (
 aItem
 )

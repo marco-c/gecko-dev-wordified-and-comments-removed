@@ -176,7 +176,10 @@ SchedulerNonCoop
 )
 mQueue
 (
-Move
+std
+:
+:
+move
 (
 aQueue
 )
@@ -958,7 +961,10 @@ nsIRunnable
 >
 event
 (
-Move
+std
+:
+:
+move
 (
 aEvent
 )
@@ -1957,7 +1963,10 @@ nsIRunnable
 >
 callbacks
 =
-Move
+std
+:
+:
+move
 (
 mShutdownCallbacks
 )

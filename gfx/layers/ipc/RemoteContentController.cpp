@@ -765,7 +765,10 @@ mCompositorThread
 >
 PostDelayedTask
 (
-Move
+std
+:
+:
+move
 (
 aTask
 )
@@ -811,7 +814,10 @@ mCompositorThread
 >
 PostTask
 (
-Move
+std
+:
+:
+move
 (
 aTask
 )

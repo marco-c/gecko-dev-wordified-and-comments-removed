@@ -338,7 +338,10 @@ TracedTaskCommon
 )
 mOriginalObj
 (
-Move
+std
+:
+:
+move
 (
 aOriginalObj
 )
@@ -444,7 +447,10 @@ runnable
 new
 TracedRunnable
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )

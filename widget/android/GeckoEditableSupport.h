@@ -580,7 +580,10 @@ LambdaEvent
 Functor
 >
 (
-Move
+std
+:
+:
+move
 (
 l
 )
@@ -741,10 +744,10 @@ MakeUnique
 IMEEvent
 >
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aCall
 )

@@ -119,7 +119,10 @@ OnIteratorRelease
 }
 mOwner
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -583,7 +586,10 @@ mChunks
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 *
 aChunk
@@ -2025,7 +2031,10 @@ NS_FAILED
 (
 AppendChunk
 (
-Move
+std
+:
+:
+move
 (
 nextChunk
 )

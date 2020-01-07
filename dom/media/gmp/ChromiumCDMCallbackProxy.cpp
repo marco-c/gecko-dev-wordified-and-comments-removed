@@ -356,7 +356,10 @@ ToDOMMessageType
 (
 aMessageType
 )
-Move
+std
+:
+:
+move
 (
 aMessage
 )

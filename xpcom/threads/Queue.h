@@ -142,7 +142,10 @@ mOffsetTail
 ;
 eltLocation
 =
-Move
+std
+:
+:
+move
 (
 aElement
 )
@@ -215,7 +218,10 @@ mOffsetTail
 T
 result
 =
-Move
+std
+:
+:
+move
 (
 mHead
 -

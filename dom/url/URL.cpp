@@ -1470,7 +1470,10 @@ aURI
 {
 mURI
 =
-Move
+std
+:
+:
+move
 (
 aURI
 )

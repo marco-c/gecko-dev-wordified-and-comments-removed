@@ -1010,7 +1010,10 @@ hangDuration
 stack
 systemUptime
 firefoxUptime
-Move
+std
+:
+:
+move
 (
 annotations
 )

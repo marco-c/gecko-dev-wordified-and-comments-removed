@@ -680,7 +680,10 @@ mTabGroup
 DispatchWithDocGroup
 (
 aCategory
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -879,7 +882,10 @@ aDest
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 slot
 )

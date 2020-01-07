@@ -77,7 +77,10 @@ edges
 .
 append
 (
-Move
+std
+:
+:
+move
 (
 edge
 )
@@ -361,7 +364,10 @@ mocked
 .
 addEdge
 (
-Move
+std
+:
+:
+move
 (
 edge1
 )
@@ -436,7 +442,10 @@ mocked
 .
 addEdge
 (
-Move
+std
+:
+:
+move
 (
 edge2
 )
@@ -511,7 +520,10 @@ mocked
 .
 addEdge
 (
-Move
+std
+:
+:
+move
 (
 edge3
 )

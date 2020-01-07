@@ -1066,10 +1066,10 @@ Clear
 ;
 mAttributeFilter
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aFilter
 )

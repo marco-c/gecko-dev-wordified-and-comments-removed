@@ -743,7 +743,10 @@ aState
 AddState
 (
 stateKey
-Move
+std
+:
+:
+move
 (
 frameState
 )

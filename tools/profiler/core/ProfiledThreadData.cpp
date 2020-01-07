@@ -192,7 +192,10 @@ jitFrameInfo
 UniqueStacks
 uniqueStacks
 (
-Move
+std
+:
+:
+move
 (
 jitFrameInfo
 )
@@ -834,7 +837,10 @@ jitFrameInfo
 =
 mJITFrameInfoForPreviousJSContexts
 ?
-Move
+std
+:
+:
+move
 (
 mJITFrameInfoForPreviousJSContexts
 )
@@ -865,7 +871,10 @@ jitFrameInfo
 ;
 mJITFrameInfoForPreviousJSContexts
 =
-Move
+std
+:
+:
+move
 (
 jitFrameInfo
 )

@@ -1229,7 +1229,10 @@ data
 .
 mBuffer
 =
-Move
+std
+:
+:
+move
 (
 floatBuffer
 )
@@ -1260,7 +1263,10 @@ ns
 >
 SetBuffer
 (
-Move
+std
+:
+:
+move
 (
 data
 )

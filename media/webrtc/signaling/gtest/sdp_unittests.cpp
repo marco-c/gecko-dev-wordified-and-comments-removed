@@ -11363,10 +11363,10 @@ mSipccParser
 ;
 mSdp
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 mSipccParser
 .
@@ -11386,10 +11386,10 @@ mRustParser
 ;
 mSdp
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 mRustParser
 .
@@ -11485,10 +11485,10 @@ GetParam
 {
 mSdp
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 mSipccParser
 .
@@ -11507,10 +11507,10 @@ else
 {
 mSdp
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 mRustParser
 .
@@ -25685,6 +25685,8 @@ NewSdpTest
 BasicAudioVideoDataSdpParse
 )
 {
+SKIP_TEST_WITH_RUST_PARSER
+;
 ParseSdp
 (
 kBasicAudioVideoDataOffer
@@ -25725,6 +25727,8 @@ NewSdpTest
 CheckApplicationParameters
 )
 {
+SKIP_TEST_WITH_RUST_PARSER
+;
 ParseSdp
 (
 kBasicAudioVideoDataOffer
@@ -26040,6 +26044,8 @@ NewSdpTest
 CheckExtmap
 )
 {
+SKIP_TEST_WITH_RUST_PARSER
+;
 ParseSdp
 (
 kBasicAudioVideoDataOffer
@@ -26303,6 +26309,8 @@ NewSdpTest
 CheckRtcpFb
 )
 {
+SKIP_TEST_WITH_RUST_PARSER
+;
 ParseSdp
 (
 kBasicAudioVideoDataOffer

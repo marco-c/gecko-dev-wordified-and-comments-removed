@@ -402,7 +402,10 @@ self
 >
 FinishConnect
 (
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -497,7 +500,10 @@ StreamFilter
 :
 :
 FinishConnect
-Move
+std
+:
+:
+move
 (
 endpoint
 )
@@ -821,7 +827,10 @@ mActor
 >
 Write
 (
-Move
+std
+:
+:
+move
 (
 data
 )

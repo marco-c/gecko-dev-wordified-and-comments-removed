@@ -882,10 +882,10 @@ exceptions
 CreateStack
 (
 cx
-mozilla
+std
 :
 :
-Move
+move
 (
 captureMode
 )
@@ -2735,10 +2735,10 @@ CaptureCurrentStack
 aCx
 &
 stack
-mozilla
+std
 :
 :
-Move
+move
 (
 aCaptureMode
 )

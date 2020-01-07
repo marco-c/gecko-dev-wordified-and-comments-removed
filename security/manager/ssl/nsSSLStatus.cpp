@@ -1533,7 +1533,10 @@ mSucceededCertChain
 new
 nsNSSCertList
 (
-Move
+std
+:
+:
+move
 (
 aCertList
 )

@@ -315,7 +315,10 @@ aMonitor
 Get
 (
 aOrigin
-Move
+std
+:
+:
+move
 (
 callback
 )
@@ -421,7 +424,10 @@ nullptr
 &
 tags
 aNodeId
-Move
+std
+:
+:
+move
 (
 aCallback
 )
@@ -603,7 +609,10 @@ Base
 Get
 (
 mOrigin2
-Move
+std
+:
+:
+move
 (
 callback
 )
@@ -684,7 +693,10 @@ Base
 Get
 (
 aOrigin1
-Move
+std
+:
+:
+move
 (
 callback
 )

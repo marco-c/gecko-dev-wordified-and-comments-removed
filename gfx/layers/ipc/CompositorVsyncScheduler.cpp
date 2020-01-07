@@ -695,7 +695,10 @@ Loop
 >
 PostDelayedTask
 (
-Move
+std
+:
+:
+move
 (
 task
 .
@@ -1349,7 +1352,10 @@ Loop
 >
 PostDelayedTask
 (
-Move
+std
+:
+:
+move
 (
 aTask
 )

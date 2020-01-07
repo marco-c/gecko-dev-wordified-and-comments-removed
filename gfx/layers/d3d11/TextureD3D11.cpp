@@ -1952,7 +1952,10 @@ false
 ;
 aOutDescriptor
 =
-Move
+std
+:
+:
+move
 (
 desc
 )
@@ -1990,7 +1993,10 @@ return
 *
 aOutDesc
 =
-Move
+std
+:
+:
+move
 (
 ret
 )
@@ -3524,7 +3530,10 @@ desc
 ;
 aOutDescriptor
 =
-Move
+std
+:
+:
+move
 (
 desc
 )
@@ -3557,7 +3566,10 @@ desc
 *
 aOutDesc
 =
-Move
+std
+:
+:
+move
 (
 desc
 )

@@ -3139,7 +3139,10 @@ mPrintTarget
 >
 RegisterPageDoneCallback
 (
-Move
+std
+:
+:
+move
 (
 aCallback
 )

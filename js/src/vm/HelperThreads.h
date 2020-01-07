@@ -616,10 +616,10 @@ vector
 index
 ]
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 vector
 .

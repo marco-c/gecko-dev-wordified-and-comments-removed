@@ -303,10 +303,10 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 \
 :
 :
-mozilla
+std
 :
 :
-Move
+move
 (
 _notifier
 )
@@ -316,10 +316,10 @@ MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
 \
 :
 :
-mozilla
+std
 :
 :
-Move
+move
 (
 _notifier
 )

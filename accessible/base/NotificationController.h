@@ -986,10 +986,10 @@ aEvs
 >
 AppendElements
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 mPrecedingEvents
 )

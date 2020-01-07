@@ -8829,7 +8829,10 @@ NS_LITERAL_STRING
 loadingdone
 "
 )
-Move
+std
+:
+:
+move
 (
 loaded
 )
@@ -8853,7 +8856,10 @@ NS_LITERAL_STRING
 loadingerror
 "
 )
-Move
+std
+:
+:
+move
 (
 failed
 )

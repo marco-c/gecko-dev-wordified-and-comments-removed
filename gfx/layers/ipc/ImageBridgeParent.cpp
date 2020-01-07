@@ -593,7 +593,10 @@ ImageBridgeParent
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -1071,7 +1074,10 @@ ImageBridgeParent
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

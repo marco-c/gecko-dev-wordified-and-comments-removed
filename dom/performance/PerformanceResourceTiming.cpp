@@ -106,7 +106,10 @@ resource
 )
 mTimingData
 (
-Move
+std
+:
+:
+move
 (
 aPerformanceTiming
 )

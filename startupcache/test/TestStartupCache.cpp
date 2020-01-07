@@ -993,7 +993,10 @@ sc
 PutBuffer
 (
 id
-Move
+std
+:
+:
+move
 (
 buf
 )
@@ -1051,7 +1054,10 @@ rv
 =
 NewObjectInputStreamFromBuffer
 (
-Move
+std
+:
+:
+move
 (
 buf2
 )

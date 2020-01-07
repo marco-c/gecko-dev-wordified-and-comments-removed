@@ -161,7 +161,10 @@ mTarget
 ConvertToEMFDone
 (
 aResult
-Move
+std
+:
+:
+move
 (
 aEMFContents
 )

@@ -672,7 +672,10 @@ InvalidateCaches
 ;
 mIndexCache
 =
-Move
+std
+:
+:
+move
 (
 newIndexCache
 )

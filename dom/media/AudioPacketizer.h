@@ -172,10 +172,10 @@ InputType
 >
 oldStorage
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 mStorage
 )

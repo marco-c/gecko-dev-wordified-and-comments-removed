@@ -172,10 +172,10 @@ nsIInputStream
 >
 inputStream
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aInputStream
 )
@@ -264,10 +264,10 @@ mInputStream
 ;
 mInputStream
 =
-mozilla
+std
 :
 :
-Move
+move
 (
 aInputStream
 )

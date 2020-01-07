@@ -929,7 +929,10 @@ get
 return
 ToSTAUniquePtr
 (
-Move
+std
+:
+:
+move
 (
 newRef
 )

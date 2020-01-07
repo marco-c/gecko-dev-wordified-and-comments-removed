@@ -1269,7 +1269,10 @@ samples
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 mReorderQueue
 .
@@ -1286,7 +1289,10 @@ DecodePromise
 :
 CreateAndResolve
 (
-Move
+std
+:
+:
+move
 (
 samples
 )
@@ -2351,7 +2357,10 @@ mPromise
 .
 Resolve
 (
-Move
+std
+:
+:
+move
 (
 results
 )

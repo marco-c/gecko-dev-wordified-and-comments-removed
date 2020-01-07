@@ -278,7 +278,10 @@ nsIContentChild
 RecvAsyncMessage
 (
 aMsg
-Move
+std
+:
+:
+move
 (
 aCpows
 )

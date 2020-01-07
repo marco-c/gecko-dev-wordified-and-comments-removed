@@ -26720,7 +26720,10 @@ res
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 impl
 )
@@ -26774,7 +26777,10 @@ res
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 fullPath
 )
@@ -27019,7 +27025,10 @@ contentData
 (
 )
 =
-Move
+std
+:
+:
+move
 (
 value
 )

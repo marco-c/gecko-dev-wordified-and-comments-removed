@@ -1370,7 +1370,10 @@ count
 *
 aSpecs
 =
-Move
+std
+:
+:
+move
 (
 specs
 )

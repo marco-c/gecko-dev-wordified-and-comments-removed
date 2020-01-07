@@ -1243,7 +1243,10 @@ IsWin8OrLater
 {
 SpawnASCReleaseThread
 (
-Move
+std
+:
+:
+move
 (
 mAudioSessionControl
 )

@@ -25568,7 +25568,10 @@ Get
 >
 RunInStableState
 (
-Move
+std
+:
+:
+move
 (
 aRunnable
 )
@@ -25617,7 +25620,10 @@ Get
 >
 AddPendingIDBTransaction
 (
-Move
+std
+:
+:
+move
 (
 aTransaction
 )

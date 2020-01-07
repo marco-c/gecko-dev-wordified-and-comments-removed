@@ -1322,7 +1322,10 @@ aOther
 :
 mSurface
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -1383,7 +1386,10 @@ Unmap
 }
 mSurface
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

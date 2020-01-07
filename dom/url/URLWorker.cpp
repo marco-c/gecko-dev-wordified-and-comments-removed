@@ -902,7 +902,10 @@ true
 }
 mRetval
 =
-Move
+std
+:
+:
+move
 (
 uri
 )
@@ -1225,7 +1228,10 @@ true
 }
 mRetval
 =
-Move
+std
+:
+:
+move
 (
 uri
 )

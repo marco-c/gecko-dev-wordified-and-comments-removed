@@ -502,7 +502,10 @@ AssertIsOnOwningThread
 ;
 mDeviceName
 =
-Move
+std
+:
+:
+move
 (
 aName
 )
@@ -5210,7 +5213,10 @@ AppendElement
 (
 CapabilityCandidate
 (
-Move
+std
+:
+:
+move
 (
 cap
 )
@@ -5427,7 +5433,10 @@ candidateSet
 .
 AppendElements
 (
-Move
+std
+:
+:
+move
 (
 rejects
 )

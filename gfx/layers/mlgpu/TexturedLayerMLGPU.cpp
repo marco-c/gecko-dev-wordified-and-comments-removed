@@ -487,7 +487,10 @@ AssignToView
 (
 aBuilder
 aView
-Move
+std
+:
+:
+move
 (
 aGeometry
 )
@@ -687,7 +690,10 @@ AddBoundsToView
 (
 aBuilder
 aView
-Move
+std
+:
+:
+move
 (
 geometry
 )

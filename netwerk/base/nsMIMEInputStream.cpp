@@ -126,12 +126,6 @@ mozilla
 :
 Maybe
 ;
-using
-mozilla
-:
-:
-Move
-;
 class
 nsMIMEInputStream
 :

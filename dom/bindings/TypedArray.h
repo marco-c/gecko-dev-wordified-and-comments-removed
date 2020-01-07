@@ -125,7 +125,10 @@ aOther
 :
 SpiderMonkeyInterfaceObjectStorage
 (
-Move
+std
+:
+:
+move
 (
 aOther
 )
@@ -470,7 +473,10 @@ aOther
 :
 Base
 (
-Move
+std
+:
+:
+move
 (
 aOther
 )
@@ -765,7 +771,10 @@ aOther
 :
 Base
 (
-Move
+std
+:
+:
+move
 (
 aOther
 )

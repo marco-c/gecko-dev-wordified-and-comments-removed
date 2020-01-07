@@ -1640,7 +1640,10 @@ mFrame
 -
 >
 nb_samples
-Move
+std
+:
+:
+move
 (
 audio
 )

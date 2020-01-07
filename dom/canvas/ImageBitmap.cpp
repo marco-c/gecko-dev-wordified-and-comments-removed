@@ -3732,7 +3732,10 @@ mSurface
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 result
 )
@@ -5763,7 +5766,10 @@ aGlobal
 )
 mInputStream
 (
-Move
+std
+:
+:
+move
 (
 aInputStream
 )
@@ -10160,7 +10166,10 @@ task
 >
 mWorkerHolder
 =
-Move
+std
+:
+:
+move
 (
 holder
 )

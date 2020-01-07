@@ -3369,10 +3369,10 @@ Data
 nsDependentCString
 foo
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 tmp
 )

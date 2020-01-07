@@ -956,7 +956,10 @@ mEntrySize
 ;
 mHashShift
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -965,7 +968,10 @@ mHashShift
 ;
 mEntryCount
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -974,7 +980,10 @@ mEntryCount
 ;
 mRemovedCount
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -1001,7 +1010,10 @@ ifdef
 DEBUG
 mChecker
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

@@ -1230,7 +1230,10 @@ mSwapChain
 >
 ApplyNewInvalidRegion
 (
-Move
+std
+:
+:
+move
 (
 mInvalidRegion
 )
@@ -1986,7 +1989,10 @@ else
 {
 mInvalidRegion
 =
-Move
+std
+:
+:
+move
 (
 mNextFrameInvalidRegion
 )

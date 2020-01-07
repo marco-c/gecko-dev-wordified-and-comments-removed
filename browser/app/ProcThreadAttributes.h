@@ -578,7 +578,10 @@ Nothing
 }
 mAttrList
 =
-Move
+std
+:
+:
+move
 (
 attrList
 )

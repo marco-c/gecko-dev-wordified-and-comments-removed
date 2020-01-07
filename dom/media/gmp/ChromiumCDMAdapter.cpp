@@ -204,7 +204,10 @@ InitializeHooks
 endif
 PopulateHostFiles
 (
-Move
+std
+:
+:
+move
 (
 aHostPathPairs
 )

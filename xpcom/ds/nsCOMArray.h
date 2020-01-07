@@ -420,10 +420,10 @@ InsertElementAt
 Length
 (
 )
-mozilla
+std
 :
 :
-Move
+move
 (
 aElement
 )
@@ -1554,10 +1554,10 @@ nsCOMArray_base
 :
 AppendElement
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aElement
 )

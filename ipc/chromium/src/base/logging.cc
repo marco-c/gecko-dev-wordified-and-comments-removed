@@ -231,10 +231,10 @@ mozilla
 :
 VsmprintfAppend
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 mMsg
 )

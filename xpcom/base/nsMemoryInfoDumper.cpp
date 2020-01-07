@@ -1733,7 +1733,10 @@ aFinishDumpingData
 :
 mWriter
 (
-Move
+std
+:
+:
+move
 (
 aWriter
 )
@@ -2538,7 +2541,10 @@ handleReportAndFinishReporting
 new
 HandleReportAndFinishReportingCallbacks
 (
-Move
+std
+:
+:
+move
 (
 jsonWriter
 )

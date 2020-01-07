@@ -3656,10 +3656,10 @@ CaptureCurrentStack
 cx
 &
 frame
-mozilla
+std
 :
 :
-Move
+move
 (
 captureMode
 )

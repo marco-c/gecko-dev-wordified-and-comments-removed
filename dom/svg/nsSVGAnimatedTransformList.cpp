@@ -1012,7 +1012,10 @@ return
 }
 aResult
 =
-Move
+std
+:
+:
+move
 (
 val
 )

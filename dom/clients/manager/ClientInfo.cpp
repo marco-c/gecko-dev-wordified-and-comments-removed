@@ -198,7 +198,10 @@ aRight
 :
 mData
 (
-Move
+std
+:
+:
+move
 (
 aRight
 .
@@ -229,7 +232,10 @@ reset
 ;
 mData
 =
-Move
+std
+:
+:
+move
 (
 aRight
 .
@@ -580,7 +586,10 @@ PrincipalInfo
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 ref
 )

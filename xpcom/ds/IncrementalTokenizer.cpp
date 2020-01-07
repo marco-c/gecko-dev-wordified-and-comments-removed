@@ -87,7 +87,10 @@ mInputCursor
 )
 mConsumer
 (
-Move
+std
+:
+:
+move
 (
 aConsumer
 )

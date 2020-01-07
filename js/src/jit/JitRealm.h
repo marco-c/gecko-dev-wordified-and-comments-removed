@@ -1492,7 +1492,10 @@ other
 :
 stubInfo
 (
-Move
+std
+:
+:
+move
 (
 other
 .
@@ -1513,7 +1516,10 @@ other
 {
 stubInfo
 =
-Move
+std
+:
+:
+move
 (
 other
 .
@@ -1756,7 +1762,10 @@ baselineCacheIRStubCodes_
 add
 (
 p
-Move
+std
+:
+:
+move
 (
 key
 )
@@ -1878,7 +1887,10 @@ ionCacheIRStubInfoSet_
 add
 (
 p
-Move
+std
+:
+:
+move
 (
 key
 )

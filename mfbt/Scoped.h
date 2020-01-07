@@ -110,7 +110,10 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 mValue
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -347,7 +350,10 @@ this
 )
 Scoped
 (
-Move
+std
+:
+:
+move
 (
 aRhs
 )
@@ -494,7 +500,10 @@ Super
 operator
 =
 (
-Move
+std
+:
+:
+move
 (
 aRhs
 )
@@ -556,7 +565,10 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 Super
 (
-Move
+std
+:
+:
+move
 (
 aRhs
 )

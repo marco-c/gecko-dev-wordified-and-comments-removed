@@ -1594,7 +1594,10 @@ suffix
 )
 ;
 return
-Move
+std
+:
+:
+move
 (
 cacheFile
 )
@@ -2387,7 +2390,10 @@ NS_ERROR_UNEXPECTED
 }
 mPendingScripts
 =
-Move
+std
+:
+:
+move
 (
 scripts
 )

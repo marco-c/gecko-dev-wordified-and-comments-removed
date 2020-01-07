@@ -6811,7 +6811,10 @@ mObjsToRelease
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aObject
 )

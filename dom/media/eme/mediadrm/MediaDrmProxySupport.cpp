@@ -968,10 +968,10 @@ SessionKeyInfo
 LocalRef
 keyInfo
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 keyInfoObject
 )

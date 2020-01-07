@@ -1974,7 +1974,10 @@ int
 >
 i
 =
-Move
+std
+:
+:
+move
 (
 val
 .
@@ -2178,7 +2181,10 @@ ResolveValue
 RRValue
 val
 =
-Move
+std
+:
+:
+move
 (
 aVal
 )

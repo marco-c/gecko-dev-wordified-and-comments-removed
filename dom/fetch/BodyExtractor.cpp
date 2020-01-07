@@ -729,7 +729,10 @@ rv
 NS_NewCStringInputStream
 (
 aResult
-Move
+std
+:
+:
+move
 (
 encoded
 )

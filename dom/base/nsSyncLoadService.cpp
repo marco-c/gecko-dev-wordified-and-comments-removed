@@ -1359,7 +1359,10 @@ nsIInputStream
 >
 in
 =
-Move
+std
+:
+:
+move
 (
 aIn
 )

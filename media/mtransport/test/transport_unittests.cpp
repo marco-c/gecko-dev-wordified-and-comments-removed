@@ -528,7 +528,10 @@ inspector
 {
 inspector_
 =
-Move
+std
+:
+:
+move
 (
 inspector
 )
@@ -3458,7 +3461,10 @@ lossy_
 >
 SetInspector
 (
-Move
+std
+:
+:
+move
 (
 inspector
 )
@@ -3487,7 +3493,10 @@ lossy_
 >
 SetInspector
 (
-Move
+std
+:
+:
+move
 (
 inspector
 )

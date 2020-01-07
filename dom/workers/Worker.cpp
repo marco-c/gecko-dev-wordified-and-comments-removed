@@ -199,7 +199,10 @@ aGlobalObject
 )
 mWorkerPrivate
 (
-Move
+std
+:
+:
+move
 (
 aWorkerPrivate
 )

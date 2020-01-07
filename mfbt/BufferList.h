@@ -364,7 +364,10 @@ mOwning
 )
 mSegments
 (
-Move
+std
+:
+:
+move
 (
 aOther
 .
@@ -435,7 +438,10 @@ mOwning
 ;
 mSegments
 =
-Move
+std
+:
+:
+move
 (
 aOther
 .

@@ -85,12 +85,6 @@ using
 mozilla
 :
 :
-Move
-;
-using
-mozilla
-:
-:
 PointerRangeSize
 ;
 RegExpBuilder
@@ -1380,7 +1374,10 @@ ts
 context
 (
 )
-Move
+std
+:
+:
+move
 (
 err
 )

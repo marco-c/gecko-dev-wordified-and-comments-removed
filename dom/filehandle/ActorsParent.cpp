@@ -2707,7 +2707,10 @@ callback
 new
 StoragesCompleteCallback
 (
-Move
+std
+:
+:
+move
 (
 aDirectoryIds
 )
@@ -4249,7 +4252,10 @@ aCallback
 :
 mDirectoryIds
 (
-Move
+std
+:
+:
+move
 (
 aDirectoryIds
 )

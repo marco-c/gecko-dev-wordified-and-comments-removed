@@ -1636,7 +1636,10 @@ nsIInputStream
 >
 inputStream
 =
-Move
+std
+:
+:
+move
 (
 aInputStream
 )

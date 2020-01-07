@@ -1951,7 +1951,10 @@ i
 .
 initBytes
 (
-Move
+std
+:
+:
+move
 (
 bytes
 )

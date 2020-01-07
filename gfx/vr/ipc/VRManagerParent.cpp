@@ -426,7 +426,10 @@ VRManagerParent
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )
@@ -663,7 +666,10 @@ VRManagerParent
 :
 :
 Bind
-Move
+std
+:
+:
+move
 (
 aEndpoint
 )

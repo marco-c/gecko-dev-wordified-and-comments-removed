@@ -702,7 +702,10 @@ RefCountedObject
 ImageBuffer
 >
 (
-Move
+std
+:
+:
+move
 (
 video
 -
@@ -935,7 +938,10 @@ height
 )
 mImage
 (
-Move
+std
+:
+:
+move
 (
 aImage
 )

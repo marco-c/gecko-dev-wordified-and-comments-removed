@@ -1454,7 +1454,10 @@ mPromiseList
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aPromise
 )
@@ -1854,7 +1857,10 @@ source
 >
 StartOp
 (
-Move
+std
+:
+:
+move
 (
 ClientGetInfoAndStateArgs
 (
@@ -2560,7 +2566,10 @@ OpenWindowRunnable
 (
 promise
 aArgs
-Move
+std
+:
+:
+move
 (
 aSourceProcess
 )

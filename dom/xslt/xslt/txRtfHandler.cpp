@@ -14,12 +14,6 @@ Move
 .
 h
 "
-using
-mozilla
-:
-:
-Move
-;
 txResultTreeFragment
 :
 :
@@ -40,7 +34,10 @@ nullptr
 )
 mBuffer
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )
@@ -204,7 +201,10 @@ aResult
 new
 txResultTreeFragment
 (
-Move
+std
+:
+:
+move
 (
 mBuffer
 )

@@ -2964,7 +2964,10 @@ return
 NS_NewCStringInputStream
 (
 aBody
-Move
+std
+:
+:
+move
 (
 converted
 )

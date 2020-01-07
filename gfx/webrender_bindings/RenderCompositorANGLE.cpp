@@ -167,7 +167,10 @@ MakeUnique
 RenderCompositorANGLE
 >
 (
-Move
+std
+:
+:
+move
 (
 aWidget
 )
@@ -211,7 +214,10 @@ aWidget
 :
 RenderCompositor
 (
-Move
+std
+:
+:
+move
 (
 aWidget
 )

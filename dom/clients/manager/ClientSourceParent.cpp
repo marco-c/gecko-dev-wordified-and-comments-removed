@@ -174,7 +174,10 @@ KillContentParentRunnable
 )
 mContentParent
 (
-Move
+std
+:
+:
+move
 (
 aContentParent
 )
@@ -293,7 +296,10 @@ r
 new
 KillContentParentRunnable
 (
-Move
+std
+:
+:
+move
 (
 process
 )

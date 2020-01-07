@@ -207,10 +207,10 @@ aToMove
 :
 mSettings
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aToMove
 .
@@ -219,10 +219,10 @@ mSettings
 )
 mEntryKey
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 aToMove
 .

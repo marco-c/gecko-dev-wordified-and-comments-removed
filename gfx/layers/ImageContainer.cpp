@@ -409,7 +409,10 @@ mRecycledBuffers
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 aBuffer
 )
@@ -490,7 +493,10 @@ uint8_t
 >
 result
 =
-Move
+std
+:
+:
+move
 (
 mRecycledBuffers
 [
@@ -2444,7 +2450,10 @@ mRecycleBin
 >
 RecycleBuffer
 (
-Move
+std
+:
+:
+move
 (
 mBuffer
 )

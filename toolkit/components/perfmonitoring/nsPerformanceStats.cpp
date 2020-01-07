@@ -5166,7 +5166,10 @@ aPreviousJankLevels
 GroupVector
 alerts
 (
-Move
+std
+:
+:
+move
 (
 mPendingAlerts
 )

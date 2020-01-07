@@ -697,7 +697,10 @@ GPUChild
 :
 Destroy
 (
-Move
+std
+:
+:
+move
 (
 mGPUChild
 )

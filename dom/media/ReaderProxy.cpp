@@ -944,7 +944,10 @@ MediaFormatReader
 :
 :
 Seek
-Move
+std
+:
+:
+move
 (
 adjustedTarget
 )
@@ -1322,7 +1325,10 @@ MetadataPromise
 :
 CreateAndResolve
 (
-Move
+std
+:
+:
+move
 (
 aMetadata
 )

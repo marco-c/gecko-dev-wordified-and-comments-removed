@@ -110,10 +110,10 @@ obj
 method
 )
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 mozilla
 :
@@ -181,10 +181,10 @@ arg
 function
 )
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 mozilla
 :

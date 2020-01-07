@@ -921,7 +921,10 @@ c3
 ;
 c3
 =
-Move
+std
+:
+:
+move
 (
 c2
 )
@@ -951,7 +954,10 @@ SomeClass
 >
 list2
 (
-Move
+std
+:
+:
+move
 (
 list1
 )
@@ -992,7 +998,10 @@ list3
 ;
 list3
 =
-Move
+std
+:
+:
+move
 (
 list2
 )
@@ -1465,7 +1474,10 @@ remove
 ;
 ptr
 =
-Move
+std
+:
+:
+move
 (
 next
 )

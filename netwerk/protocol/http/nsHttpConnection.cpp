@@ -10389,7 +10389,10 @@ getter_AddRefs
 (
 mProxyConnectStream
 )
-Move
+std
+:
+:
+move
 (
 buf
 )

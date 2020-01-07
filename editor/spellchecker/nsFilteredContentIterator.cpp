@@ -503,7 +503,10 @@ aEnd
 ;
 mRange
 =
-Move
+std
+:
+:
+move
 (
 range
 )

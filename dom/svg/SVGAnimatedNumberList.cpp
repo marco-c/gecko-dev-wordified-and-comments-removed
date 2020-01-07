@@ -463,7 +463,10 @@ mElement
 ;
 aValue
 =
-Move
+std
+:
+:
+move
 (
 val
 )

@@ -1533,10 +1533,10 @@ traceLoggerEvents_
 .
 append
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 event
 )

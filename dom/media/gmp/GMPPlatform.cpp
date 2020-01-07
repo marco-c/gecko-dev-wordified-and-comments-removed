@@ -1212,7 +1212,10 @@ aFunction
 :
 mFunction
 (
-Move
+std
+:
+:
+move
 (
 aFunction
 )
@@ -1266,7 +1269,10 @@ return
 new
 Task
 (
-Move
+std
+:
+:
+move
 (
 aFunction
 )

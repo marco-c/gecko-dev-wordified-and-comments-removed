@@ -745,7 +745,10 @@ false
 ;
 row
 =
-Move
+std
+:
+:
+move
 (
 mRows
 )
@@ -804,7 +807,10 @@ false
 ;
 row
 =
-Move
+std
+:
+:
+move
 (
 mColumns
 )
@@ -951,7 +957,10 @@ nullptr
 ;
 }
 return
-Move
+std
+:
+:
+move
 (
 mCellMap
 )

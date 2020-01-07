@@ -114,10 +114,10 @@ other
 :
 uses_
 (
-mozilla
+std
 :
 :
-Move
+move
 (
 other
 .

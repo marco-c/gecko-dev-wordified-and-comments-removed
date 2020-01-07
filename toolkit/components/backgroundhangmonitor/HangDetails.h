@@ -105,7 +105,10 @@ aDetails
 :
 mDetails
 (
-Move
+std
+:
+:
+move
 (
 aDetails
 )
@@ -157,7 +160,10 @@ ProcessHangStackRunnable
 )
 mHangDetails
 (
-Move
+std
+:
+:
+move
 (
 aHangDetails
 )

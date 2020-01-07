@@ -1164,7 +1164,10 @@ needed
 ;
 buf
 =
-Move
+std
+:
+:
+move
 (
 tmp
 )

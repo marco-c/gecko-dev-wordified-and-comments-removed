@@ -1301,7 +1301,10 @@ Destroyer
 )
 mDoomed
 (
-Move
+std
+:
+:
+move
 (
 aDoomed
 )
@@ -1482,7 +1485,10 @@ Other
 )
 mWorkerStreamOwner
 (
-Move
+std
+:
+:
+move
 (
 aWorkerStreamOwner
 )
@@ -1864,7 +1870,10 @@ consumer
 new
 JSStreamConsumer
 (
-Move
+std
+:
+:
+move
 (
 owner
 )

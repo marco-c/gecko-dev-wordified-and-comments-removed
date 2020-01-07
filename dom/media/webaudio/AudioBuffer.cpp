@@ -1090,7 +1090,10 @@ buffer
 >
 mSharedChannels
 =
-Move
+std
+:
+:
+move
 (
 aInitialContents
 )

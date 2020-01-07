@@ -2791,7 +2791,10 @@ aArray
 >
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 counter
 )
@@ -4883,7 +4886,10 @@ mQueue
 .
 AppendElement
 (
-Move
+std
+:
+:
+move
 (
 refptr
 )
@@ -12935,7 +12941,10 @@ imgRequestProxy
 >
 proxies
 (
-Move
+std
+:
+:
+move
 (
 mProxies
 )
