@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+2
+)
+;
 function
 assertBreakpointExists
 (
@@ -167,11 +172,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-2
-)
-;
 const
 dbg
 =
@@ -335,11 +335,10 @@ entrySrc
 ;
 ok
 (
+getCM
+(
 dbg
-.
-win
-.
-cm
+)
 .
 getValue
 (

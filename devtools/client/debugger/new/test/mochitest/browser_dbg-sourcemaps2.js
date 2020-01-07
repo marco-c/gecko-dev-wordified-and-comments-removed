@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+2
+)
+;
 function
 assertBpInGutter
 (
@@ -59,11 +64,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-2
-)
-;
 const
 dbg
 =

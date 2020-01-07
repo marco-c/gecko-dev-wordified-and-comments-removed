@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+2
+)
+;
 var
 gDefaultHostType
 =
@@ -23,11 +28,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-2
-)
-;
 const
 dbg
 =

@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 async
@@ -5,11 +10,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-2
-)
-;
 const
 dbg
 =

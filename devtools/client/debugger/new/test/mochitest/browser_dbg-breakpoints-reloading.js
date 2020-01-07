@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+3
+)
+;
 function
 clickGutter
 (
@@ -123,11 +128,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-3
-)
-;
 const
 dbg
 =
