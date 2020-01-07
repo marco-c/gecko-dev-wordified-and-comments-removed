@@ -4569,6 +4569,16 @@ getArguments
 (
 )
 )
+.
+nativeCrashReportingEnabled
+(
+true
+)
+.
+javaCrashReportingEnabled
+(
+true
+)
 ;
 sRuntime
 =
