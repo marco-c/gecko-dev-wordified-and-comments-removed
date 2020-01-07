@@ -170,6 +170,13 @@ fontEditor
 )
 .
 isRequired
+fontEditorEnabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 fontOptions
 :
 PropTypes
@@ -221,6 +228,7 @@ const
 {
 fontData
 fontEditor
+fontEditorEnabled
 fontOptions
 onInstanceChange
 onPreviewFonts
@@ -258,6 +266,9 @@ panel
 fontinspector
 "
 }
+fontEditorEnabled
+&
+&
 FontEditor
 (
 {
