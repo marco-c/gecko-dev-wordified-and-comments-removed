@@ -8,11 +8,17 @@ set
 -
 xe
 test
+"
 TASK_ID
+"
 test
+"
 SHA1_SIGNING_CERT
+"
 test
+"
 SHA384_SIGNING_CERT
+"
 ARTIFACTS_DIR
 =
 "
@@ -103,7 +109,9 @@ if
 !
 -
 z
+"
 FILENAME_TEMPLATE
+"
 ]
 ;
 then
