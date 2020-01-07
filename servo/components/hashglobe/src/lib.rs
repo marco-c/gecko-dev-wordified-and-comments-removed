@@ -1,7 +1,3 @@
-extern
-crate
-ordermap
-;
 pub
 mod
 alloc
@@ -23,10 +19,6 @@ table
 pub
 mod
 fake
-;
-pub
-mod
-order
 ;
 use
 std
