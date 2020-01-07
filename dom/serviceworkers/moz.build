@@ -185,6 +185,11 @@ ServiceWorkerRegistration
 h
 '
 '
+ServiceWorkerRegistrationDescriptor
+.
+h
+'
+'
 ServiceWorkerRegistrationInfo
 .
 h
@@ -280,6 +285,11 @@ ServiceWorkerRegistration
 cpp
 '
 '
+ServiceWorkerRegistrationDescriptor
+.
+cpp
+'
+'
 ServiceWorkerRegistrationInfo
 .
 cpp
@@ -321,6 +331,11 @@ IPDL_SOURCES
 [
 '
 IPCServiceWorkerDescriptor
+.
+ipdlh
+'
+'
+IPCServiceWorkerRegistrationDescriptor
 .
 ipdlh
 '
