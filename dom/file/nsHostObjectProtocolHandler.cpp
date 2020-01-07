@@ -3623,6 +3623,7 @@ NS_IMPL_ISUPPORTS
 (
 nsHostObjectProtocolHandler
 nsIProtocolHandler
+nsISupportsWeakReference
 )
 NS_IMETHODIMP
 nsHostObjectProtocolHandler
