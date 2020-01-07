@@ -963,10 +963,9 @@ EmptyString
 )
 )
 ;
-nsresult
+void
 Stop
 (
-void
 )
 ;
 bool
