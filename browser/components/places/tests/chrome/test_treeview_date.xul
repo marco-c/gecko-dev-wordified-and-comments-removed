@@ -1336,11 +1336,12 @@ break
 let
 timeStr
 =
+new
 Services
 .
 intl
 .
-createDateTimeFormat
+DateTimeFormat
 (
 undefined
 dtOptions

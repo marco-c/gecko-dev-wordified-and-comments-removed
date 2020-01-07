@@ -920,11 +920,12 @@ this
 .
 __dateFormatter
 =
+new
 Services
 .
 intl
 .
-createDateTimeFormat
+DateTimeFormat
 (
 undefined
 dtOptions

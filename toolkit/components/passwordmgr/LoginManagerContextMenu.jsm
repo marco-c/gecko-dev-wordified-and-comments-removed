@@ -739,11 +739,12 @@ function
 )
 {
 return
+new
 Services
 .
 intl
 .
-createDateTimeFormat
+DateTimeFormat
 (
 undefined
 {
