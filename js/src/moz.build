@@ -285,10 +285,6 @@ stlfile
 in
 [
 '
-jsbool
-*
-'
-'
 jsdate
 .
 *
@@ -1146,6 +1142,13 @@ UNIFIED_SOURCES
 builtin
 /
 AtomicsObject
+.
+cpp
+'
+'
+builtin
+/
+Boolean
 .
 cpp
 '
@@ -2153,11 +2156,6 @@ cpp
 '
 '
 jsapi
-.
-cpp
-'
-'
-jsbool
 .
 cpp
 '

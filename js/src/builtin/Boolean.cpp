@@ -1,7 +1,11 @@
 #
 include
 "
-jsboolinlines
+builtin
+/
+Boolean
+-
+inl
 .
 h
 "
