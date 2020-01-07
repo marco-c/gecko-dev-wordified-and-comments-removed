@@ -9,7 +9,6 @@ symbols
 task
 description
 template
-  
 taskcluster
 /
 ci

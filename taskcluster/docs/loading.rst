@@ -130,7 +130,7 @@ generation
 .
 See
 :
-ref
+doc
 :
 parameters
 for

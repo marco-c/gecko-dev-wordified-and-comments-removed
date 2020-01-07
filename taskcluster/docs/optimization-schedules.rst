@@ -986,6 +986,8 @@ under
 docs
 /
 .
+:
+:
 with
 Files
 (

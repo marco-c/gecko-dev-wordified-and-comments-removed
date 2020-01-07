@@ -374,7 +374,7 @@ file
 .
 _ci
 -
-configuration
+admin
 :
 https
 :

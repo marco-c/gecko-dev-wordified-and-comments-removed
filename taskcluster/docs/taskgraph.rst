@@ -885,7 +885,7 @@ graph
 .
 See
 :
-ref
+doc
 :
 optimization
 .
@@ -1257,7 +1257,7 @@ mach
 taskgraph
 action
 -
-task
+callback
 which
 builds
 up
@@ -1678,6 +1678,7 @@ file
 taskcluster
 /
 ci
+/
 )
 .
 The
@@ -1777,7 +1778,7 @@ of
 trust
 verification
 <
-http
+https
 :
 /
 /
