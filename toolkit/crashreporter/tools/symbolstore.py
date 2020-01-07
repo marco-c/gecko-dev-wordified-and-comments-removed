@@ -645,8 +645,6 @@ template
 =
 {
 node
-|
-short
 }
 '
 )
