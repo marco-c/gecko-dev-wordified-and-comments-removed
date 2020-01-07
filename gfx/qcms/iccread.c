@@ -3653,6 +3653,7 @@ grid_points
 out_chan
 ;
 uint32_t
+input_offset
 clut_offset
 output_offset
 ;
@@ -3689,6 +3690,10 @@ num_output_table_entries
 entry_size
 =
 1
+;
+input_offset
+=
+48
 ;
 }
 else
@@ -3751,6 +3756,10 @@ NULL
 entry_size
 =
 2
+;
+input_offset
+=
+52
 ;
 }
 else
@@ -4187,7 +4196,7 @@ read_uInt8Number
 src
 offset
 +
-52
+input_offset
 +
 i
 *
@@ -4213,7 +4222,7 @@ read_uInt16Number
 src
 offset
 +
-52
+input_offset
 +
 i
 *
@@ -4227,7 +4236,7 @@ clut_offset
 =
 offset
 +
-52
+input_offset
 +
 lut
 -
