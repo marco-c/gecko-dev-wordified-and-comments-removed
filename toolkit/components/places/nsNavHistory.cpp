@@ -803,10 +803,6 @@ nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsPIPlacesDatabase
-)
-NS_INTERFACE_MAP_ENTRY
-(
 mozIStorageVacuumParticipant
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS

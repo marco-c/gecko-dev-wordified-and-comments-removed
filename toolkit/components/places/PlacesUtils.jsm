@@ -8543,13 +8543,6 @@ Ci
 .
 nsINavHistoryService
 )
-.
-QueryInterface
-(
-Ci
-.
-nsPIPlacesDatabase
-)
 ;
 return
 Object

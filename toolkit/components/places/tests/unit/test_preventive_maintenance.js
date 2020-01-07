@@ -57,13 +57,6 @@ mDBConn
 =
 hs
 .
-QueryInterface
-(
-Ci
-.
-nsPIPlacesDatabase
-)
-.
 DBConnection
 ;
 var

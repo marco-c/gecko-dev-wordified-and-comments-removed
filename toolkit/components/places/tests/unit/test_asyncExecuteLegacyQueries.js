@@ -87,13 +87,6 @@ PlacesUtils
 .
 history
 .
-QueryInterface
-(
-Ci
-.
-nsPIPlacesDatabase
-)
-.
 asyncExecuteLegacyQuery
 (
 query
@@ -328,13 +321,6 @@ resolve
 PlacesUtils
 .
 history
-.
-QueryInterface
-(
-Ci
-.
-nsPIPlacesDatabase
-)
 .
 asyncExecuteLegacyQuery
 (
