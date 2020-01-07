@@ -503,9 +503,8 @@ Commit
 message
 :
 Fuzzy
-with
 query
-:
+=
 '
 baz
 Pushed
@@ -545,9 +544,8 @@ Commit
 message
 :
 Fuzzy
-with
 query
-:
+=
 '
 baz
 Pushed
@@ -586,9 +584,8 @@ Commit
 message
 :
 Fuzzy
-with
 query
-:
+=
 '
 baz
 Pushed

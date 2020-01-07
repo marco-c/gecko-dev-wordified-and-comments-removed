@@ -33,9 +33,8 @@ message
 :
 Foobar
 Fuzzy
-with
 query
-:
+=
 foo
 Pushed
 via
@@ -93,9 +92,8 @@ message
 Foobar
 :
 Fuzzy
-with
 query
-:
+=
 foo
 Pushed
 via

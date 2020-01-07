@@ -25,9 +25,8 @@ Commit
 message
 :
 Fuzzy
-with
 query
-:
+=
 '
 foo
 Pushed
@@ -96,9 +95,8 @@ Commit
 message
 :
 Fuzzy
-with
 query
-:
+=
 '
 bar
 Pushed
@@ -158,9 +156,8 @@ Commit
 message
 :
 Fuzzy
-with
 query
-:
+=
 '
 foo
 Pushed
@@ -242,9 +239,8 @@ Commit
 message
 :
 Fuzzy
-with
 query
-:
+=
 '
 foo
 Pushed
