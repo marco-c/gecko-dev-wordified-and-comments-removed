@@ -35,7 +35,7 @@ mSyncBegin
 (
 false
 )
-mRepeatIterationOrAccessKey
+mRepeatIteration
 (
 0
 )
@@ -47,7 +47,6 @@ OFFSET
 SYNCBASE
 EVENT
 REPEAT
-ACCESSKEY
 WALLCLOCK
 INDEFINITE
 }
@@ -72,7 +71,7 @@ bool
 mSyncBegin
 ;
 uint32_t
-mRepeatIterationOrAccessKey
+mRepeatIteration
 ;
 }
 ;
