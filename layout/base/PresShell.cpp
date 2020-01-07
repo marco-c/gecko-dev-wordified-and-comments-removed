@@ -890,7 +890,7 @@ h
 #
 include
 "
-nsITreeColumns
+nsTreeColumns
 .
 h
 "
@@ -37099,9 +37099,9 @@ istree
 =
 true
 ;
-nsCOMPtr
+RefPtr
 <
-nsITreeColumns
+nsTreeColumns
 >
 cols
 ;

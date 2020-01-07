@@ -72,6 +72,9 @@ nsString
 h
 "
 class
+nsAtom
+;
+class
 nsTreeBodyFrame
 ;
 class

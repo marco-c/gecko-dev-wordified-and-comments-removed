@@ -110,13 +110,13 @@ interface
 nsITreeColumn
 ;
 interface
-nsITreeColumns
-;
-interface
 nsIScriptableRegion
 ;
 webidl
 Element
+;
+webidl
+TreeColumns
 ;
 /
 *
@@ -167,7 +167,7 @@ columns
 /
 readonly
 attribute
-nsITreeColumns
+TreeColumns
 columns
 ;
 /

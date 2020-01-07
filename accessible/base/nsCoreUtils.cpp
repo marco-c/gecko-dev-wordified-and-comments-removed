@@ -201,7 +201,7 @@ h
 #
 include
 "
-nsITreeColumns
+nsTreeColumns
 .
 h
 "
@@ -2699,9 +2699,9 @@ nsITreeBoxObject
 aTree
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsITreeColumns
+nsTreeColumns
 >
 cols
 ;
@@ -2781,9 +2781,9 @@ count
 =
 0
 ;
-nsCOMPtr
+RefPtr
 <
-nsITreeColumns
+nsTreeColumns
 >
 cols
 ;

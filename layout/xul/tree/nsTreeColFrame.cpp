@@ -72,7 +72,7 @@ h
 #
 include
 "
-nsITreeColumns
+nsTreeColumns
 .
 h
 "
@@ -805,9 +805,9 @@ if
 treeBoxObject
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsITreeColumns
+nsTreeColumns
 >
 columns
 ;

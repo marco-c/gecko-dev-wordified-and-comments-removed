@@ -63,11 +63,11 @@ nsISupports
 .
 idl
 "
-interface
-nsITreeColumns
-;
 webidl
 Element
+;
+webidl
+TreeColumns
 ;
 [
 scriptable
@@ -96,7 +96,7 @@ element
 ;
 readonly
 attribute
-nsITreeColumns
+TreeColumns
 columns
 ;
 readonly
