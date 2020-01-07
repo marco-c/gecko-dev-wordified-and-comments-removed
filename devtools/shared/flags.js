@@ -14,7 +14,7 @@ Services
 )
 ;
 function
-makeWritableFlag
+makePrefTrackedFlag
 (
 exports
 name
@@ -153,7 +153,7 @@ flag
 )
 ;
 }
-makeWritableFlag
+makePrefTrackedFlag
 (
 exports
 "
@@ -168,7 +168,7 @@ log
 "
 )
 ;
-makeWritableFlag
+makePrefTrackedFlag
 (
 exports
 "
@@ -185,7 +185,7 @@ verbose
 "
 )
 ;
-makeWritableFlag
+makePrefTrackedFlag
 (
 exports
 "
