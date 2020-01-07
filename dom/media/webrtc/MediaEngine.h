@@ -161,14 +161,6 @@ DEFAULT_169_VIDEO_HEIGHT
 =
 720
 ;
-static
-const
-int
-USE_GRAPH_RATE
-=
--
-1
-;
 virtual
 void
 EnumerateVideoDevices
