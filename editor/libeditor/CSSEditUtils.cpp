@@ -2817,7 +2817,7 @@ doc
 aElement
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;

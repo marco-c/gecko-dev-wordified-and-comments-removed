@@ -4728,7 +4728,6 @@ GetStyleContext
 (
 aElement
 aPseudo
-presShell
 )
 ;
 return

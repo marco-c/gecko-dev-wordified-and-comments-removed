@@ -5625,12 +5625,6 @@ mContent
 AsElement
 (
 )
-mDoc
--
->
-PresShell
-(
-)
 )
 ;
 styleInfo

@@ -3554,12 +3554,6 @@ GetStyleContext
 (
 aTargetElement
 nullptr
-presContext
--
->
-PresShell
-(
-)
 )
 ;
 if

@@ -13684,7 +13684,6 @@ GetStyleContextNoFlush
 (
 element
 nullptr
-aPresShell
 )
 ;
 }

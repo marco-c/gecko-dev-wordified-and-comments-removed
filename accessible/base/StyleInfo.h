@@ -33,6 +33,7 @@ StyleInfo
 {
 public
 :
+explicit
 StyleInfo
 (
 dom
@@ -41,9 +42,6 @@ dom
 Element
 *
 aElement
-nsIPresShell
-*
-aPresShell
 )
 ;
 ~

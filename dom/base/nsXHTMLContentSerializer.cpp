@@ -3504,7 +3504,6 @@ AsElement
 (
 )
 nullptr
-nullptr
 )
 ;
 if
