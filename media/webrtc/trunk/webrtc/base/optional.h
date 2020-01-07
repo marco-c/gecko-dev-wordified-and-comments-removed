@@ -61,10 +61,12 @@ optional_internal
 #
 if
 RTC_HAS_ASAN
+const
 void
 *
 FunctionThatDoesNothingImpl
 (
+const
 void
 *
 )
@@ -75,6 +77,7 @@ typename
 T
 >
 inline
+const
 T
 *
 FunctionThatDoesNothing
@@ -87,6 +90,7 @@ x
 return
 reinterpret_cast
 <
+const
 T
 *
 >
@@ -95,6 +99,7 @@ FunctionThatDoesNothingImpl
 (
 reinterpret_cast
 <
+const
 void
 *
 >
@@ -113,6 +118,7 @@ typename
 T
 >
 inline
+const
 T
 *
 FunctionThatDoesNothing
