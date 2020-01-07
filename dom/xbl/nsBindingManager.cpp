@@ -4240,16 +4240,6 @@ GetInstance
 (
 )
 ;
-StyleBackendType
-backendType
-=
-mDocument
--
->
-GetStyleBackendType
-(
-)
-;
 #
 endif
 for
@@ -4305,7 +4295,6 @@ iter
 Key
 (
 )
-backendType
 )
 ;
 if
