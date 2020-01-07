@@ -33,7 +33,7 @@ eInsertTextComingFromIME
 eDeleteSelectedContent
 eSetTextProperty
 eRemoveTextProperty
-outputText
+eComputeTextToOutput
 setText
 insertBreak
 =
