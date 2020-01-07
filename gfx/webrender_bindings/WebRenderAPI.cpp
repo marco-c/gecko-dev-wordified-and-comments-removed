@@ -3320,6 +3320,13 @@ WrFilterOp
 aFilters
 bool
 aIsBackfaceVisible
+const
+wr
+:
+:
+GlyphRasterSpace
+&
+aRasterSpace
 )
 {
 wr
@@ -3470,6 +3477,7 @@ Length
 (
 )
 aIsBackfaceVisible
+aRasterSpace
 )
 ;
 }

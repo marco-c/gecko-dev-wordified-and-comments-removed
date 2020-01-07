@@ -1212,6 +1212,13 @@ WrFilterOp
 aFilters
 bool
 aIsBackfaceVisible
+const
+wr
+:
+:
+GlyphRasterSpace
+&
+aRasterSpace
 )
 ;
 void
