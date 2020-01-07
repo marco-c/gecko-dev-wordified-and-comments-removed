@@ -5586,7 +5586,7 @@ int32_t
 index
 int32_t
 orientation
-nsIDOMDataTransfer
+nsISupports
 *
 aDataTransfer
 bool
@@ -5618,7 +5618,7 @@ int32_t
 row
 int32_t
 orient
-nsIDOMDataTransfer
+nsISupports
 *
 aDataTransfer
 )
