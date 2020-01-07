@@ -701,6 +701,7 @@ DidDeleteSelection
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 InsertBRIfNeeded
 (
