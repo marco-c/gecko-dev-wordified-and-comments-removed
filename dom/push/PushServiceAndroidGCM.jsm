@@ -962,7 +962,6 @@ connect
 function
 (
 records
-broadcastListeners
 )
 {
 console
@@ -1131,16 +1130,6 @@ error
 }
 )
 ;
-}
-sendSubscribeBroadcast
-:
-async
-function
-(
-serviceId
-version
-)
-{
 }
 isConnected
 :
