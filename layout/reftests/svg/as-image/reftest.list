@@ -591,6 +591,15 @@ azureSkia
 1
 40000
 )
+fails
+-
+if
+(
+webrender
+&
+&
+winWidget
+)
 =
 =
 canvas

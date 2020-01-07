@@ -157,6 +157,15 @@ mode
 enabled
 true
 )
+fails
+-
+if
+(
+webrender
+&
+&
+winWidget
+)
 =
 =
 blend

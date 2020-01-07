@@ -232,6 +232,15 @@ opentype_svg
 enabled
 true
 )
+fails
+-
+if
+(
+webrender
+&
+&
+winWidget
+)
 =
 =
 svg

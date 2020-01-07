@@ -42,6 +42,15 @@ interpolation
 ref
 .
 html
+fails
+-
+if
+(
+webrender
+&
+&
+winWidget
+)
 =
 =
 linear

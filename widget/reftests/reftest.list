@@ -43,6 +43,15 @@ Android
 17
 1120
 )
+fails
+-
+if
+(
+webrender
+&
+&
+winWidget
+)
 =
 =
 meter
