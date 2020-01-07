@@ -6269,7 +6269,7 @@ rv
 *
 _retval
 =
-nsCString
+nsDependentCString
 (
 onStartTimeStr
 )
@@ -6351,7 +6351,7 @@ rv
 *
 _retval
 =
-nsCString
+nsDependentCString
 (
 onStopTimeStr
 )
@@ -12300,7 +12300,7 @@ rv
 uint64_t
 n64
 =
-nsCString
+nsDependentCString
 (
 s
 )
