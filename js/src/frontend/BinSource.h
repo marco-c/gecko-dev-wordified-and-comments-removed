@@ -319,6 +319,9 @@ TraceBinParser
 JSTracer
 *
 trc
+JS
+:
+:
 AutoGCRooter
 *
 parser
@@ -1299,6 +1302,9 @@ filename
 ;
 }
 private
+:
+mozilla
+:
 :
 Maybe
 <
