@@ -33,7 +33,7 @@ SharedAll
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -55,7 +55,7 @@ jsm
 SharedAll
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -75,7 +75,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -132,7 +132,7 @@ Constants
 Win
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -165,7 +165,7 @@ Constants
 libc
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -229,7 +229,7 @@ Path
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -251,9 +251,9 @@ jsm
 Path
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -274,9 +274,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -297,7 +297,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -317,7 +317,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -337,7 +337,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -357,7 +357,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -380,7 +380,7 @@ this
 var
 Native
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -3991,7 +3991,7 @@ let
 Deprecated
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

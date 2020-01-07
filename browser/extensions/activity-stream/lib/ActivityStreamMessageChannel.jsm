@@ -12,7 +12,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -30,7 +30,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -62,7 +62,7 @@ actionUtils
 au
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

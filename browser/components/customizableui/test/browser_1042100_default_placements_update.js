@@ -25,7 +25,7 @@ AREA_NAVBAR
 let
 CustomizableUIBSPass
 =
-ChromeUtils
+Cu
 .
 import
 (

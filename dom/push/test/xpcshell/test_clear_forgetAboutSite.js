@@ -16,7 +16,7 @@ const
 ForgetAboutSite
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

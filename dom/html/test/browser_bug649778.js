@@ -30,7 +30,7 @@ var
 LoadContextInfo
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -55,7 +55,7 @@ var
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

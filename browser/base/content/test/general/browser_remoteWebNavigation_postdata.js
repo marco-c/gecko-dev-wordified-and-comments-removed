@@ -1,4 +1,4 @@
-ChromeUtils
+Cu
 .
 import
 (
@@ -76,7 +76,7 @@ obj
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -96,7 +96,7 @@ js
 obj
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

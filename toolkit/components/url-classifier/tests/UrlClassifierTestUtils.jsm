@@ -71,7 +71,7 @@ urlclassifier
 trackingWhitelistTable
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

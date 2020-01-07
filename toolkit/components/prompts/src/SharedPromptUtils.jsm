@@ -39,7 +39,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (

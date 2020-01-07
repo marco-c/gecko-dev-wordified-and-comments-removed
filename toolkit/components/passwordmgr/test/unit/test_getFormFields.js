@@ -17,7 +17,7 @@ URL
 const
 LMCBackstagePass
 =
-ChromeUtils
+Cu
 .
 import
 (

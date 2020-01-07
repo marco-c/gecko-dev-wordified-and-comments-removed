@@ -8,6 +8,9 @@ const
 interfaces
 :
 Ci
+utils
+:
+Cu
 results
 :
 Cr
@@ -15,7 +18,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +37,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -59,7 +62,7 @@ InvalidCookieDomainError
 UnableToSetCookieError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -85,7 +88,7 @@ const
 pprint
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

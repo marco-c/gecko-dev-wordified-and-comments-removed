@@ -8,7 +8,7 @@ const
 GCTelemetry
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -770,7 +770,9 @@ const
 GCTelemetry
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

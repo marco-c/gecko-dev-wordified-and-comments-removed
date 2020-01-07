@@ -10,7 +10,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -81,9 +81,9 @@ org
 xhtml
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

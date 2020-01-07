@@ -8,7 +8,9 @@ let
 AddonManager
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -34,7 +36,9 @@ let
 ExtensionTestCommon
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

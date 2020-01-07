@@ -354,7 +354,9 @@ scope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -683,7 +685,9 @@ scope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -703,7 +707,9 @@ jsm
 scope
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -896,7 +902,9 @@ scope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -916,7 +924,9 @@ jsm
 scope
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -1059,7 +1069,9 @@ scope
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -1079,7 +1091,9 @@ jsm
 scope
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

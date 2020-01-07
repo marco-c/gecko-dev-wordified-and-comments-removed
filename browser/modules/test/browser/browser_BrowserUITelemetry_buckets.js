@@ -17,7 +17,9 @@ s
 {
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

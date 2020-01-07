@@ -13,7 +13,7 @@ Ci
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -52,7 +52,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -72,7 +72,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -1480,7 +1480,9 @@ handleCrash
 )
 ;
 }
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -1497,7 +1499,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -8,7 +8,7 @@ const
 SessionSaver
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -35,7 +35,7 @@ const
 TabStateFlusher
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

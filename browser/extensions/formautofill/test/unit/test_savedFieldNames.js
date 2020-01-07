@@ -8,7 +8,7 @@ let
 FormAutofillParent
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -27,7 +27,7 @@ jsm
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

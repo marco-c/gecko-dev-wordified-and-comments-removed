@@ -3,7 +3,9 @@ run_test
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -22,7 +24,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -41,7 +45,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -21,7 +21,7 @@ let
 require
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

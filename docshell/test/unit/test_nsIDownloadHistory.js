@@ -15,7 +15,9 @@ c9705f6554f1
 }
 "
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -46,7 +48,9 @@ function
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

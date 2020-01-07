@@ -57,7 +57,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -76,7 +76,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

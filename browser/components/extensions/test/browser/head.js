@@ -8,7 +8,7 @@ const
 PromiseTestUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -70,7 +70,7 @@ const
 AppConstants
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -96,7 +96,7 @@ const
 CustomizableUI
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -121,7 +121,7 @@ const
 Preferences
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -160,7 +160,7 @@ const
 Management
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

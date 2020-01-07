@@ -20,7 +20,7 @@ object
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

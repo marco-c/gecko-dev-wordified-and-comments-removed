@@ -16,7 +16,7 @@ Cr
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -36,7 +36,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -56,7 +56,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -76,7 +76,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -96,7 +96,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -116,7 +116,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -136,7 +136,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -156,7 +156,7 @@ js
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -175,9 +175,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -198,9 +198,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -221,9 +221,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -244,9 +244,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -267,9 +267,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -1467,7 +1467,7 @@ clear
 let
 session
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1530,7 +1530,7 @@ const
 modules
 =
 [
-ChromeUtils
+Cu
 .
 import
 (
@@ -1548,7 +1548,7 @@ TelemetrySession
 jsm
 "
 )
-ChromeUtils
+Cu
 .
 import
 (
@@ -1566,7 +1566,7 @@ TelemetryEnvironment
 jsm
 "
 )
-ChromeUtils
+Cu
 .
 import
 (
@@ -1584,7 +1584,7 @@ TelemetryController
 jsm
 "
 )
-ChromeUtils
+Cu
 .
 import
 (
@@ -1602,7 +1602,7 @@ TelemetryStorage
 jsm
 "
 )
-ChromeUtils
+Cu
 .
 import
 (
@@ -1620,7 +1620,7 @@ TelemetrySend
 jsm
 "
 )
-ChromeUtils
+Cu
 .
 import
 (
@@ -1678,7 +1678,7 @@ ms
 const
 m
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1725,7 +1725,7 @@ clear
 let
 module
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1795,7 +1795,7 @@ delayMs
 let
 module
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1838,7 +1838,7 @@ func
 let
 module
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -1877,7 +1877,7 @@ uuid
 let
 module
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -2061,7 +2061,7 @@ setEmptyPrefWatchlist
 let
 TelemetryEnvironment
 =
-ChromeUtils
+Cu
 .
 import
 (

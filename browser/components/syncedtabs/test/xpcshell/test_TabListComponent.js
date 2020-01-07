@@ -8,7 +8,7 @@ let
 SyncedTabs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -34,7 +34,7 @@ let
 TabListComponent
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -61,7 +61,7 @@ let
 SyncedTabsListStore
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -88,7 +88,7 @@ let
 View
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -115,7 +115,7 @@ let
 Services
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

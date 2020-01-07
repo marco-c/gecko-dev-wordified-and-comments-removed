@@ -16,9 +16,9 @@ navigation
 searchbar
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

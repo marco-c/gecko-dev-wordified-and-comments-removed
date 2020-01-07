@@ -8,7 +8,7 @@ const
 PushRecord
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

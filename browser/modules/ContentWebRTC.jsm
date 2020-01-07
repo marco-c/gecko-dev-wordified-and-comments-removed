@@ -31,7 +31,7 @@ ContentWebRTC
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

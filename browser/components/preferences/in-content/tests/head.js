@@ -1,4 +1,6 @@
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -15,7 +17,6 @@ Promise
 .
 jsm
 "
-this
 )
 ;
 const

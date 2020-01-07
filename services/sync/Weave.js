@@ -19,7 +19,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -38,7 +38,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -57,9 +57,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -94,7 +94,7 @@ Utils
 >
 {
 return
-ChromeUtils
+Cu
 .
 import
 (
@@ -199,7 +199,9 @@ ensureLoaded
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -360,7 +362,9 @@ this
 enabled
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

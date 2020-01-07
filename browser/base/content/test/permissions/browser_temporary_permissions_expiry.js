@@ -49,7 +49,7 @@ const
 PromiseTestUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

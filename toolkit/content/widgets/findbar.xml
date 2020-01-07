@@ -3764,7 +3764,9 @@ this
 .
 _pluralForm
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -8182,7 +8184,9 @@ let
 PromiseUtils
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

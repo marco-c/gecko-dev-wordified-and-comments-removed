@@ -20,7 +20,7 @@ const
 pprint
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

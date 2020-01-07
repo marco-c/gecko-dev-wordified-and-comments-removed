@@ -204,7 +204,9 @@ waitForWorkerFinish
 (
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

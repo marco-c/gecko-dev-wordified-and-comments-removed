@@ -211,7 +211,9 @@ source
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

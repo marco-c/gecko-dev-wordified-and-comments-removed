@@ -33,7 +33,7 @@ init
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

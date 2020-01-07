@@ -1454,7 +1454,9 @@ function
 rect
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

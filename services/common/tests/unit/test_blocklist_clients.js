@@ -7,7 +7,7 @@ CC
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -26,7 +26,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -45,7 +45,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -69,7 +69,7 @@ const
 FileUtils
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -95,7 +95,7 @@ const
 OS
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -119,7 +119,7 @@ jsm
 const
 BlocklistClients
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -147,7 +147,7 @@ const
 UptakeTelemetry
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

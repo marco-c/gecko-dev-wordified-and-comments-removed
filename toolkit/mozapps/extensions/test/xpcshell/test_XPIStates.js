@@ -402,7 +402,9 @@ getXS
 let
 XPI
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -112,7 +112,7 @@ URL
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

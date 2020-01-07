@@ -4,7 +4,7 @@ if
 gMultiProcessBrowser
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

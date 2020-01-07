@@ -125,9 +125,9 @@ emitter
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

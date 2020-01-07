@@ -8,7 +8,9 @@ setup_crash
 (
 )
 {
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -95,9 +95,9 @@ subsession
 split
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

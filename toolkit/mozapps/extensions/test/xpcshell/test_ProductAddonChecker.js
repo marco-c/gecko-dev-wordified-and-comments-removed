@@ -3,7 +3,9 @@ use
 strict
 "
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -24,7 +26,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -43,7 +47,9 @@ js
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

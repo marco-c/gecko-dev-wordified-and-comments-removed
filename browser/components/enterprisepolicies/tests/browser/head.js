@@ -133,7 +133,7 @@ customSchema
 let
 schemaModule
 =
-ChromeUtils
+Cu
 .
 import
 (

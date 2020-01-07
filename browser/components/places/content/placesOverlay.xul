@@ -294,7 +294,9 @@ Components
 .
 utils
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -313,7 +315,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -332,9 +336,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 window
 "
@@ -354,9 +358,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 window
 "

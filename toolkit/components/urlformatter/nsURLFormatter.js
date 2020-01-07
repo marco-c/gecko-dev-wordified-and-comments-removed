@@ -19,7 +19,7 @@ Components
 .
 utils
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -38,7 +38,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -57,7 +57,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -94,9 +94,9 @@ distribution
 version
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

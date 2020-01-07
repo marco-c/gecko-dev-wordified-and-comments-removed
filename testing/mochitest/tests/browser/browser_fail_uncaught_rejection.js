@@ -6,7 +6,7 @@ setExpectedFailuresForSelfTest
 let
 JSMPromise
 =
-ChromeUtils
+Cu
 .
 import
 (

@@ -7,7 +7,9 @@ interfaces
 .
 nsIBlocklistService
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

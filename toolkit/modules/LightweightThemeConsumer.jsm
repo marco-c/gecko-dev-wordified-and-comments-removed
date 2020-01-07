@@ -23,7 +23,7 @@ Cc
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -42,7 +42,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -61,7 +61,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -80,9 +80,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -350,7 +350,7 @@ temp
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

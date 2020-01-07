@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -42,7 +42,7 @@ kUsecPerMin
 let
 AutoMigrateBackstage
 =
-ChromeUtils
+Cu
 .
 import
 (

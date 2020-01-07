@@ -22,7 +22,7 @@ u2661
 var
 Preferences
 =
-ChromeUtils
+Cu
 .
 import
 (

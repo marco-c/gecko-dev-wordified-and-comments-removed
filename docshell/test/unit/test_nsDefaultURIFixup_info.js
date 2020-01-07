@@ -23,7 +23,9 @@ Ci
 nsIURIFixup
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

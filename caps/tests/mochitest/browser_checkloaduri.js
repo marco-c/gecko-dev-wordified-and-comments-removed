@@ -2081,7 +2081,7 @@ DONT_REPORT_ERRORS
 let
 makeURI
 =
-ChromeUtils
+Cu
 .
 import
 (

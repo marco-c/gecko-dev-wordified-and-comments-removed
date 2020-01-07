@@ -36,7 +36,7 @@ const
 Management
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -57,7 +57,7 @@ jsm
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -76,7 +76,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -95,9 +95,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -118,9 +118,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

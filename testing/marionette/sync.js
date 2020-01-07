@@ -11,6 +11,9 @@ Cc
 interfaces
 :
 Ci
+utils
+:
+Cu
 }
 =
 Components
@@ -21,7 +24,7 @@ error
 TimeoutError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

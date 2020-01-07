@@ -49,7 +49,7 @@ let
 DownloadLastDir
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

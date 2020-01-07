@@ -25,7 +25,7 @@ AccessFu
 "
 ]
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -44,7 +44,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -80,7 +80,7 @@ android
 "
 )
 {
-ChromeUtils
+Cu
 .
 import
 (
@@ -355,7 +355,7 @@ _enabled
 =
 true
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -376,7 +376,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -397,7 +397,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -2770,7 +2770,7 @@ start
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

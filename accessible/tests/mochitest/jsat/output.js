@@ -16,7 +16,7 @@ accessfu
 utterance
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -37,7 +37,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

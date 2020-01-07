@@ -13,7 +13,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -83,9 +83,9 @@ startup
 finished
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

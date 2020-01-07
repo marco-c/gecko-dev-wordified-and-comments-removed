@@ -55,7 +55,9 @@ import
 resource
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

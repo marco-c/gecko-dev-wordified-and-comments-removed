@@ -7,7 +7,7 @@ CC
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -31,7 +31,7 @@ const
 OneCRLBlocklistClient
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

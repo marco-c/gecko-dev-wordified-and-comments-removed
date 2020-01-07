@@ -26,7 +26,7 @@ var
 WebRequest
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

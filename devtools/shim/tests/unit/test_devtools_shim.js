@@ -8,7 +8,9 @@ const
 DevToolsShim
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -36,7 +38,9 @@ const
 Services
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

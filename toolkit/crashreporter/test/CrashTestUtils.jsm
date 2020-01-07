@@ -90,7 +90,9 @@ MD_MEMORY_INFO_LIST_STREAM
 16
 }
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -109,7 +111,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

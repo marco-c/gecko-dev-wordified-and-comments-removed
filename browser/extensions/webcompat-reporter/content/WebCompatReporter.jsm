@@ -23,7 +23,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -42,7 +42,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -74,9 +74,9 @@ servo
 enabled
 "
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "

@@ -1,4 +1,6 @@
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -18,7 +20,9 @@ jsm
 this
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -38,7 +42,9 @@ jsm
 this
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

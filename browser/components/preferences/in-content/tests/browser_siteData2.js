@@ -8,7 +8,7 @@ const
 SiteDataManager
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

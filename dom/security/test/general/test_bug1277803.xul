@@ -220,7 +220,7 @@ utils
 let
 makeURI
 =
-ChromeUtils
+Cu
 .
 import
 (

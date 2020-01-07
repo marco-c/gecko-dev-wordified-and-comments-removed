@@ -58,7 +58,7 @@ safebrowsing
 debug
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -77,7 +77,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -96,7 +96,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

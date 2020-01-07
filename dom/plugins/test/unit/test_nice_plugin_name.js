@@ -37,7 +37,9 @@ ede71682a1ac
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -56,7 +58,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -101,7 +105,7 @@ tmp
 {
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (

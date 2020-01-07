@@ -3,7 +3,9 @@ use
 strict
 "
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
@@ -25,7 +27,9 @@ jsm
 var
 AsyncFrontGlobal
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

@@ -24,7 +24,7 @@ test_bug1024090_purge
 (
 )
 {
-ChromeUtils
+Cu
 .
 import
 (

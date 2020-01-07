@@ -31,7 +31,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -50,7 +50,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -69,7 +69,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -88,7 +88,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -107,7 +107,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -133,7 +133,7 @@ getCryptoParams
 CryptoError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -157,7 +157,7 @@ const
 PushDB
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -201,7 +201,7 @@ const
 PushServiceWebSocket
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -225,7 +225,7 @@ const
 PushServiceHttp2
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -258,7 +258,7 @@ const
 PushServiceAndroidGCM
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -340,7 +340,7 @@ let
 ConsoleAPI
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

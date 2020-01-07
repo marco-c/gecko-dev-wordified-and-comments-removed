@@ -8,7 +8,7 @@ const
 ShellService
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

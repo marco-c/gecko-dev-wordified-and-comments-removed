@@ -214,7 +214,7 @@ load
 res
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -263,7 +263,7 @@ load
 res
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

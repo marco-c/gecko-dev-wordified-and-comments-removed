@@ -22,7 +22,7 @@ initWithPath
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

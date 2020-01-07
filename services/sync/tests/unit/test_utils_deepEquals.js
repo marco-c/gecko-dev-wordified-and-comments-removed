@@ -16,7 +16,7 @@ equal
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

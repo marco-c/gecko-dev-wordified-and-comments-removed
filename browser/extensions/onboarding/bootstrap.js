@@ -15,7 +15,7 @@ Ci
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (

@@ -11,11 +11,14 @@ Cc
 interfaces
 :
 Ci
+utils
+:
+Cu
 }
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -39,7 +42,7 @@ const
 element
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -67,7 +70,7 @@ MoveTargetOutOfBoundsError
 UnsupportedOperationError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -88,7 +91,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -112,7 +115,7 @@ const
 pprint
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

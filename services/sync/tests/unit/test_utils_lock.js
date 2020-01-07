@@ -13,7 +13,7 @@ lock
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

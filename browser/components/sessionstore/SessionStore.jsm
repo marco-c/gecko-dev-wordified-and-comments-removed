@@ -477,7 +477,7 @@ NAVIGATE_AND_RESTORE
 1
 }
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -497,7 +497,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -517,7 +517,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -537,7 +537,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -557,7 +557,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -577,7 +577,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -597,7 +597,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

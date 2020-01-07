@@ -17,7 +17,7 @@ const
 WebElementEventTarget
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -38,7 +38,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -63,7 +63,7 @@ NoSuchWindowError
 UnsupportedOperationError
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

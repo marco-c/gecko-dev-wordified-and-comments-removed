@@ -12,7 +12,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -41,7 +41,7 @@ actionTypes
 at
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -69,7 +69,7 @@ const
 DefaultPrefs
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -97,7 +97,7 @@ const
 ManualMigration
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -125,7 +125,7 @@ const
 NewTabInit
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -153,7 +153,7 @@ const
 SectionsFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -181,7 +181,7 @@ const
 PlacesFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -209,7 +209,7 @@ const
 PrefsFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -237,7 +237,7 @@ const
 Store
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -265,7 +265,7 @@ const
 SnippetsFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -293,7 +293,7 @@ const
 SystemTickFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -321,7 +321,7 @@ const
 TelemetryFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -349,7 +349,7 @@ const
 FaviconFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -377,7 +377,7 @@ const
 TopSitesFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -405,7 +405,7 @@ const
 TopStoriesFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -433,7 +433,7 @@ const
 HighlightsFeed
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

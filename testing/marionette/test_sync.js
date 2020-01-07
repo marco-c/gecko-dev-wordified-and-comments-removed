@@ -12,7 +12,7 @@ const
 PollPromise
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

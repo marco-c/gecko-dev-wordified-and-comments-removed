@@ -13,7 +13,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -57,7 +57,7 @@ element
 WebElement
 }
 =
-ChromeUtils
+Cu
 .
 import
 (
@@ -78,7 +78,7 @@ js
 }
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -97,7 +97,7 @@ js
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

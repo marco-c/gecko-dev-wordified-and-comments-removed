@@ -471,7 +471,9 @@ T_URI
 10
 )
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

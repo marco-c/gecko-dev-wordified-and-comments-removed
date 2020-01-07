@@ -21,7 +21,7 @@ fetch
 ]
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

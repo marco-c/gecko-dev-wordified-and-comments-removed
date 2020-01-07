@@ -347,7 +347,9 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

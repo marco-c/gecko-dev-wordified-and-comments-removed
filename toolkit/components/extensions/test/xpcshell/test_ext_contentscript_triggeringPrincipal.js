@@ -8,7 +8,7 @@ const
 escaped
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

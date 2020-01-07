@@ -41,7 +41,7 @@ chk
 >
 "
 ;
-ChromeUtils
+Cu
 .
 import
 (

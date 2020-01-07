@@ -31,7 +31,7 @@ Components
 .
 results
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -51,7 +51,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -71,7 +71,7 @@ jsm
 this
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -91,9 +91,9 @@ jsm
 this
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -135,9 +135,9 @@ msg
 )
 ;
 }
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -158,9 +158,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -182,9 +182,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -205,9 +205,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -230,9 +230,9 @@ jsm
 "
 )
 ;
-ChromeUtils
+XPCOMUtils
 .
-defineModuleGetter
+defineLazyModuleGetter
 (
 this
 "
@@ -254,7 +254,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (

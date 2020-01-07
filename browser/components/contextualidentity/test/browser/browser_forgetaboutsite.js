@@ -16,7 +16,7 @@ Cu
 =
 Components
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -35,7 +35,7 @@ jsm
 "
 )
 ;
-ChromeUtils
+Cu
 .
 import
 (
@@ -59,7 +59,7 @@ let
 HttpServer
 }
 =
-ChromeUtils
+Cu
 .
 import
 (

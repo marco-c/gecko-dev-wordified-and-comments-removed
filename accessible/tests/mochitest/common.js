@@ -512,7 +512,9 @@ MAX_TRIM_LENGTH
 =
 100
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

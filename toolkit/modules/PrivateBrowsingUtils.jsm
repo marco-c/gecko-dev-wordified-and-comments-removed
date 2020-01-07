@@ -8,7 +8,9 @@ PrivateBrowsingUtils
 "
 ]
 ;
-ChromeUtils
+Components
+.
+utils
 .
 import
 (

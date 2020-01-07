@@ -95,7 +95,9 @@ const
 Management
 }
 =
-ChromeUtils
+Components
+.
+utils
 .
 import
 (
