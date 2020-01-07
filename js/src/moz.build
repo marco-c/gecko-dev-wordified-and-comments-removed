@@ -3539,6 +3539,13 @@ SOURCES
 =
 [
 '
+builtin
+/
+BigInt
+.
+cpp
+'
+'
 vm
 /
 BigIntType
