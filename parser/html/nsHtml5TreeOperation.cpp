@@ -2122,10 +2122,11 @@ nsAtom
 >
 typeAtom
 =
-isValue
-.
-IsEmpty
 (
+aCreator
+=
+=
+NS_NewCustomElement
 )
 ?
 tagAtom
