@@ -820,6 +820,9 @@ nsChangeHint_UpdateOpacityLayer
 nsChangeHint_AddOrRemoveTransform
 |
 \
+nsChangeHint_UpdateContainingBlock
+|
+\
 nsChangeHint_UpdateOverflow
 |
 \
