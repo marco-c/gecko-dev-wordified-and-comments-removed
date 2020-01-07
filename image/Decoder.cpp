@@ -275,6 +275,10 @@ mFinishedNewFrame
 (
 false
 )
+mHasFrameToTake
+(
+false
+)
 mReachedTerminalState
 (
 false
@@ -1081,6 +1085,10 @@ if
 mCurrentFrame
 )
 {
+mHasFrameToTake
+=
+true
+;
 mCurrentFrame
 -
 >
@@ -2113,6 +2121,10 @@ false
 -
 -
 mFrameCount
+;
+mHasFrameToTake
+=
+false
 ;
 }
 }
