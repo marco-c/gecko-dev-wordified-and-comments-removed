@@ -118,11 +118,6 @@ nsIDOMStorageManager
 .
 idl
 '
-'
-nsIStorageActivityService
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

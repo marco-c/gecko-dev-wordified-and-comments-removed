@@ -133,11 +133,6 @@ Storage
 h
 '
 '
-StorageActivityService
-.
-h
-'
-'
 StorageIPC
 .
 h
@@ -189,11 +184,6 @@ cpp
 '
 '
 Storage
-.
-cpp
-'
-'
-StorageActivityService
 .
 cpp
 '
