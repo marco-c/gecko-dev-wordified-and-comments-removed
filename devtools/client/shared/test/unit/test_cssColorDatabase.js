@@ -242,7 +242,7 @@ b
 let
 domName
 =
-DOMUtils
+InspectorUtils
 .
 rgbToColorName
 (
