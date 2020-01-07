@@ -20,6 +20,7 @@ Promise
 .
 jsm
 "
+this
 )
 ;
 ChromeUtils
