@@ -4270,9 +4270,6 @@ Nullable
 View
 view
 final
-boolean
-inputActive
-final
 int
 action
 NonNull
@@ -4351,10 +4348,6 @@ handled
 ;
 if
 (
-!
-inputActive
-|
-|
 shouldSkipKeyListener
 (
 keyCode
@@ -4631,6 +4624,22 @@ KeyEvent
 event
 )
 {
+if
+(
+mIMEState
+=
+=
+SessionTextInput
+.
+EditableListener
+.
+IME_STATE_DISABLED
+)
+{
+return
+true
+;
+}
 if
 (
 keyCode
@@ -9853,9 +9862,6 @@ Nullable
 View
 view
 final
-boolean
-inputActive
-final
 int
 keyCode
 final
@@ -9877,9 +9883,6 @@ Nullable
 View
 view
 final
-boolean
-inputActive
-final
 int
 keyCode
 final
@@ -9892,7 +9895,6 @@ return
 processKey
 (
 view
-inputActive
 KeyEvent
 .
 ACTION_DOWN
@@ -9910,9 +9912,6 @@ Nullable
 View
 view
 final
-boolean
-inputActive
-final
 int
 keyCode
 final
@@ -9925,7 +9924,6 @@ return
 processKey
 (
 view
-inputActive
 KeyEvent
 .
 ACTION_UP
@@ -9942,9 +9940,6 @@ final
 Nullable
 View
 view
-final
-boolean
-inputActive
 final
 int
 keyCode
@@ -10016,7 +10011,6 @@ if
 processKey
 (
 view
-inputActive
 KeyEvent
 .
 ACTION_DOWN
@@ -10031,7 +10025,6 @@ charEvent
 processKey
 (
 view
-inputActive
 KeyEvent
 .
 ACTION_UP
@@ -10068,7 +10061,6 @@ if
 processKey
 (
 view
-inputActive
 KeyEvent
 .
 ACTION_DOWN
@@ -10081,7 +10073,6 @@ event
 processKey
 (
 view
-inputActive
 KeyEvent
 .
 ACTION_UP
@@ -10107,9 +10098,6 @@ final
 Nullable
 View
 view
-final
-boolean
-inputActive
 final
 int
 keyCode
@@ -10194,9 +10182,6 @@ Nullable
 View
 view
 final
-boolean
-inputActive
-final
 int
 action
 final
@@ -10248,7 +10233,6 @@ run
 sendKeyEvent
 (
 view
-inputActive
 action
 event
 )
