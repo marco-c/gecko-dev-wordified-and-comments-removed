@@ -153,6 +153,16 @@ GetSize
 )
 ;
 }
+int32_t
+NumberOfMaximumTransactions
+(
+)
+const
+{
+return
+mMaxTransactionCount
+;
+}
 bool
 EnableUndoRedo
 (
