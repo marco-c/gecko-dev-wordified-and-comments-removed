@@ -34949,6 +34949,14 @@ if
 (
 !
 priv
+)
+return
+false
+;
+if
+(
+!
+priv
 -
 >
 grayRoot
