@@ -74,7 +74,7 @@ padding
 -
 bottom
 :
-16px
+8px
 ;
 }
 .
@@ -86,5 +86,16 @@ color
 :
 #
 737373
+;
+margin
+-
+top
+:
+-
+0
+.
+5em
+!
+important
 ;
 }
