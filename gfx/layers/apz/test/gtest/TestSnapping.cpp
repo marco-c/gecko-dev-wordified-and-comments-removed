@@ -522,6 +522,17 @@ snap
 )
 )
 ;
+metadata
+.
+GetMetrics
+(
+)
+.
+SetIsRootContent
+(
+true
+)
+;
 root
 -
 >
