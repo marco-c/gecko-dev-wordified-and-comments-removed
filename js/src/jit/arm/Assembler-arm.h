@@ -750,7 +750,7 @@ ScratchFloat32Reg
 FloatRegisters
 :
 :
-d30
+s30
 VFPRegister
 :
 :
