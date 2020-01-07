@@ -4762,6 +4762,12 @@ window_id
 )
 )
 )
+max_texture_size
+:
+Some
+(
+8192
+)
 .
 .
 Default
