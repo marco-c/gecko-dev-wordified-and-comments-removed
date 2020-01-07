@@ -543,6 +543,13 @@ mIPCFileDescriptor
 -
 1
 ;
+private
+int
+mCrashAnnotationFileDescriptor
+=
+-
+1
+;
 GeckoThread
 (
 )
@@ -598,6 +605,9 @@ crashFd
 final
 int
 ipcFd
+final
+int
+crashAnnotationFd
 )
 {
 ThreadUtils
@@ -651,6 +661,10 @@ mIPCFileDescriptor
 =
 ipcFd
 ;
+mCrashAnnotationFileDescriptor
+=
+crashAnnotationFd
+;
 mInitialized
 =
 true
@@ -692,6 +706,8 @@ flags
 1
 -
 1
+-
+1
 )
 ;
 }
@@ -711,6 +727,9 @@ crashFd
 final
 int
 ipcFd
+final
+int
+crashAnnotationFd
 )
 {
 return
@@ -724,6 +743,7 @@ null
 0
 crashFd
 ipcFd
+crashAnnotationFd
 )
 ;
 }
@@ -1973,6 +1993,7 @@ nativeRun
 args
 mCrashFileDescriptor
 mIPCFileDescriptor
+mCrashAnnotationFileDescriptor
 )
 ;
 final

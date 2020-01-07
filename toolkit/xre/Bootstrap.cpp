@@ -329,6 +329,8 @@ int
 aCrashFd
 int
 aIPCFd
+int
+aCrashAnnotationFd
 )
 override
 {
@@ -339,6 +341,7 @@ XRE_SetAndroidChildFds
 aEnv
 aCrashFd
 aIPCFd
+aCrashAnnotationFd
 )
 ;
 }

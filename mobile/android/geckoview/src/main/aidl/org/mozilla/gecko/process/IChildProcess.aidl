@@ -108,6 +108,9 @@ crashReporterPfd
 in
 ParcelFileDescriptor
 ipcPfd
+in
+ParcelFileDescriptor
+crashAnnotationPfd
 )
 ;
 }

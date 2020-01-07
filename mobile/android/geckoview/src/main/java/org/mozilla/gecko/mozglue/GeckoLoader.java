@@ -2845,6 +2845,8 @@ int
 crashFd
 int
 ipcFd
+int
+crashAnnotationFd
 )
 ;
 private
