@@ -64,12 +64,6 @@ Rule
 SUPPORTS_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 uint16_t
 Type
 (
@@ -78,7 +72,7 @@ const
 override
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 SUPPORTS_RULE

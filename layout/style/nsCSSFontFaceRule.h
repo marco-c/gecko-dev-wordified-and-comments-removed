@@ -384,12 +384,6 @@ GetType
 const
 override
 ;
-using
-Rule
-:
-:
-GetType
-;
 virtual
 already_AddRefed
 <

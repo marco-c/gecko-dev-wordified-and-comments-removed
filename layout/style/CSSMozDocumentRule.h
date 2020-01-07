@@ -76,12 +76,6 @@ Rule
 DOCUMENT_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 static
 bool
 Match
@@ -116,7 +110,7 @@ final
 override
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 DOCUMENT_RULE

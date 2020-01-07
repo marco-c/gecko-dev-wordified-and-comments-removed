@@ -86,12 +86,6 @@ Rule
 PAGE_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 uint16_t
 Type
 (
@@ -100,7 +94,7 @@ const
 final
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 PAGE_RULE

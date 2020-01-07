@@ -1441,12 +1441,6 @@ GetType
 const
 override
 ;
-using
-Rule
-:
-:
-GetType
-;
 CSSStyleSheet
 *
 GetStyleSheet

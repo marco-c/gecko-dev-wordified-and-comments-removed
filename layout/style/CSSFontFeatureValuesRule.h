@@ -68,12 +68,6 @@ Rule
 FONT_FEATURE_VALUES_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 virtual
 already_AddRefed
 <
@@ -101,7 +95,7 @@ const
 final
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 FONT_FEATURE_VALUES_RULE

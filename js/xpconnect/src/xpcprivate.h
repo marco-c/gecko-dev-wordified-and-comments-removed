@@ -10000,6 +10000,11 @@ CSS
 1
 ;
 bool
+CSSRule
+:
+1
+;
+bool
 indexedDB
 :
 1

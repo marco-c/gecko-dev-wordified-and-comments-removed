@@ -180,14 +180,5 @@ unsigned
 long
 length
 ;
-nsIDOMCSSRule
-item
-(
-in
-unsigned
-long
-index
-)
-;
 }
 ;

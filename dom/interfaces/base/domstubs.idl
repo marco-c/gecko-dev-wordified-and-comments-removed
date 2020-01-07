@@ -265,9 +265,6 @@ interface
 nsIDOMCSSPrimitiveValue
 ;
 interface
-nsIDOMCSSRule
-;
-interface
 nsIDOMCSSRuleList
 ;
 interface

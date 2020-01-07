@@ -75,12 +75,6 @@ Rule
 KEYFRAMES_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 uint16_t
 Type
 (
@@ -89,7 +83,7 @@ const
 final
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 KEYFRAMES_RULE

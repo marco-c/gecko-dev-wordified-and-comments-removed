@@ -71,12 +71,6 @@ Rule
 IMPORT_RULE
 ;
 }
-using
-Rule
-:
-:
-GetType
-;
 size_t
 SizeOfIncludingThis
 (
@@ -99,7 +93,7 @@ const
 final
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 IMPORT_RULE

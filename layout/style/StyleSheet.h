@@ -862,16 +862,6 @@ aMedia
 final
 ;
 NS_IMETHOD
-GetOwnerRule
-(
-nsIDOMCSSRule
-*
-*
-aOwnerRule
-)
-final
-;
-NS_IMETHOD
 GetCssRules
 (
 nsIDOMCSSRuleList

@@ -380,7 +380,7 @@ Type
 const
 {
 return
-nsIDOMCSSRule
+CSSRuleBinding
 :
 :
 COUNTER_STYLE_RULE

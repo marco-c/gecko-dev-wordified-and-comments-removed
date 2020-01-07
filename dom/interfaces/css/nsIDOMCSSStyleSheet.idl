@@ -173,11 +173,6 @@ nsIDOMStyleSheet
 {
 readonly
 attribute
-nsIDOMCSSRule
-ownerRule
-;
-readonly
-attribute
 nsIDOMCSSRuleList
 cssRules
 ;

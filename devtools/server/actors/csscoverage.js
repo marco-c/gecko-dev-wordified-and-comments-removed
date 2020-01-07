@@ -131,13 +131,6 @@ true
 )
 ;
 const
-CSSRule
-=
-Ci
-.
-nsIDOMCSSRule
-;
-const
 MAX_UNUSED_RULES
 =
 10000

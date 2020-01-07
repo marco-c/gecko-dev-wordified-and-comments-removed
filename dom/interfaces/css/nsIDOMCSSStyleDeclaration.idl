@@ -317,10 +317,5 @@ long
 index
 )
 ;
-readonly
-attribute
-nsIDOMCSSRule
-parentRule
-;
 }
 ;
