@@ -423,6 +423,12 @@ aMixBlendMode
 void
 ApplyAsyncImages
 (
+wr
+:
+:
+TransactionBuilder
+&
+aTxn
 )
 ;
 void

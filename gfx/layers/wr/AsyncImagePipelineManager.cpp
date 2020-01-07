@@ -1366,6 +1366,12 @@ AsyncImagePipelineManager
 :
 ApplyAsyncImages
 (
+wr
+:
+:
+TransactionBuilder
+&
+aTxn
 )
 {
 if
@@ -1395,12 +1401,6 @@ epoch
 GetNextImageEpoch
 (
 )
-;
-wr
-:
-:
-TransactionBuilder
-txn
 ;
 for
 (
@@ -1469,7 +1469,7 @@ op
 =
 UpdateImageKeys
 (
-txn
+aTxn
 pipeline
 keys
 )
@@ -1534,7 +1534,7 @@ if
 updateDisplayList
 )
 {
-txn
+aTxn
 .
 UpdateEpoch
 (
@@ -1934,7 +1934,7 @@ builderContentSize
 dl
 )
 ;
-txn
+aTxn
 .
 SetDisplayList
 (
@@ -1987,14 +1987,6 @@ dl
 )
 ;
 }
-mApi
--
->
-SendTransaction
-(
-txn
-)
-;
 }
 void
 AsyncImagePipelineManager
