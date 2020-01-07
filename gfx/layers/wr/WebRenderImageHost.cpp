@@ -30,6 +30,17 @@ mozilla
 /
 layers
 /
+CompositorVsyncScheduler
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 Effects
 .
 h
