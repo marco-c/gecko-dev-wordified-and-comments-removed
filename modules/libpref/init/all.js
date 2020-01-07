@@ -37701,7 +37701,7 @@ tabhide
 .
 enabled
 "
-false
+true
 )
 ;
 pref
