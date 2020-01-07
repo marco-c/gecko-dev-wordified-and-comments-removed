@@ -4225,6 +4225,7 @@ XULTreeItemAccessibleBase
 IsExpandable
 (
 )
+const
 {
 bool
 isContainer
@@ -4343,6 +4344,7 @@ nsAString
 &
 aName
 )
+const
 {
 mTreeView
 -

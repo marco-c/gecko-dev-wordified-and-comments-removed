@@ -643,6 +643,7 @@ bool
 IsExpandable
 (
 )
+const
 ;
 void
 GetCellName
@@ -654,6 +655,7 @@ nsAString
 &
 aName
 )
+const
 ;
 nsCOMPtr
 <
