@@ -95,12 +95,12 @@ TEST_URI
 let
 {
 inspector
-view
+boxmodel
 testActor
 }
 =
 yield
-openBoxModelView
+openLayoutView
 (
 )
 ;
@@ -175,7 +175,7 @@ top
 "
 0
 "
-view
+boxmodel
 .
 document
 )
@@ -241,7 +241,7 @@ top
 "
 0
 "
-view
+boxmodel
 .
 document
 )
@@ -303,7 +303,7 @@ width
 "
 200
 "
-view
+boxmodel
 .
 document
 )

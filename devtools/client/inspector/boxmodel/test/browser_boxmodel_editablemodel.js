@@ -135,6 +135,11 @@ div
 >
 "
 ;
+requestLongerTimeout
+(
+5
+)
+;
 add_task
 (
 function
@@ -162,12 +167,12 @@ TEST_URI
 let
 {
 inspector
-view
+boxmodel
 testActor
 }
 =
 yield
-openBoxModelView
+openLayoutView
 (
 )
 ;
@@ -175,7 +180,7 @@ yield
 testEditingMargins
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -183,7 +188,7 @@ yield
 testKeyBindings
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -191,7 +196,7 @@ yield
 testEscapeToUndo
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -199,7 +204,7 @@ yield
 testDeletingValue
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -207,7 +212,7 @@ yield
 testRefocusingOnClick
 (
 inspector
-view
+boxmodel
 testActor
 )
 ;
@@ -219,7 +224,7 @@ function
 testEditingMargins
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -292,7 +297,7 @@ inspector
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -339,7 +344,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -349,7 +354,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -406,7 +411,7 @@ synthesizeKey
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -459,7 +464,7 @@ VK_ESCAPE
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -532,7 +537,7 @@ function
 testKeyBindings
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -604,7 +609,7 @@ inspector
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -651,7 +656,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -661,7 +666,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -718,7 +723,7 @@ VK_UP
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -792,7 +797,7 @@ VK_DOWN
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -869,7 +874,7 @@ shiftKey
 :
 true
 }
-view
+boxmodel
 .
 document
 .
@@ -943,7 +948,7 @@ VK_RETURN
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1012,7 +1017,7 @@ function
 testEscapeToUndo
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -1086,7 +1091,7 @@ inspector
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -1133,7 +1138,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1143,7 +1148,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -1200,7 +1205,7 @@ VK_DELETE
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1272,7 +1277,7 @@ VK_ESCAPE
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1347,7 +1352,7 @@ function
 testDeletingValue
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -1400,7 +1405,7 @@ inspector
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -1447,7 +1452,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1457,7 +1462,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -1514,7 +1519,7 @@ VK_DELETE
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1586,7 +1591,7 @@ VK_RETURN
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1654,7 +1659,7 @@ function
 testRefocusingOnClick
 (
 inspector
-view
+boxmodel
 testActor
 )
 {
@@ -1688,7 +1693,7 @@ inspector
 let
 span
 =
-view
+boxmodel
 .
 document
 .
@@ -1735,7 +1740,7 @@ synthesizeMouseAtCenter
 span
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1745,7 +1750,7 @@ defaultView
 let
 editor
 =
-view
+boxmodel
 .
 document
 .
@@ -1792,7 +1797,7 @@ synthesizeMouseAtCenter
 editor
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1802,7 +1807,7 @@ defaultView
 is
 (
 editor
-view
+boxmodel
 .
 document
 .
@@ -1843,7 +1848,7 @@ VK_UP
 "
 {
 }
-view
+boxmodel
 .
 document
 .
@@ -1917,7 +1922,7 @@ VK_RETURN
 "
 {
 }
-view
+boxmodel
 .
 document
 .
