@@ -62,7 +62,11 @@ WidgetWheelEvent
 aWheelEvent
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+WheelEvent
+MouseEvent
+)
 NS_FORWARD_TO_MOUSEEVENT
 static
 already_AddRefed

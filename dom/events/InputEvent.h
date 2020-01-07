@@ -62,7 +62,11 @@ InternalEditorInputEvent
 aEvent
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+InputEvent
+UIEvent
+)
 NS_FORWARD_TO_UIEVENT
 static
 already_AddRefed

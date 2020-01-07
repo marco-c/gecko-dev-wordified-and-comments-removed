@@ -65,7 +65,14 @@ aRule
 )
 {
 }
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+ServoNamespaceRule
+dom
+:
+:
+CSSNamespaceRule
+)
 #
 ifdef
 DEBUG

@@ -69,7 +69,11 @@ InternalTransitionEvent
 aEvent
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+TransitionEvent
+Event
+)
 static
 already_AddRefed
 <
