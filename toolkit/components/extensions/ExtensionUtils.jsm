@@ -1499,13 +1499,6 @@ messageManager
 }
 return
 target
-.
-QueryInterface
-(
-Ci
-.
-nsIMessageSender
-)
 ;
 }
 function
