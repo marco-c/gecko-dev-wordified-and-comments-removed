@@ -65,13 +65,7 @@ jar
 :
 devtools
 (
-en
--
-US
-/
-*
-*
-/
+%
 *
 .
 ftl
