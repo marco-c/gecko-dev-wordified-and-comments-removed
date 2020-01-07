@@ -393,9 +393,6 @@ CairoSurface
 visualid
 ;
 }
-#
-ifdef
-GL_PROVIDER_GLX
 if
 (
 aForwardGLX
@@ -411,8 +408,6 @@ GetGLXPixmap
 )
 ;
 }
-#
-endif
 }
 SurfaceDescriptorX11
 :
@@ -551,9 +546,6 @@ mSize
 )
 ;
 }
-#
-ifdef
-GL_PROVIDER_GLX
 if
 (
 mGLXPixmap
@@ -566,8 +558,6 @@ BindGLXPixmap
 mGLXPixmap
 )
 ;
-#
-endif
 return
 surf
 -

@@ -28,9 +28,6 @@ X11TextureSourceBasic
 h
 "
 #
-ifdef
-GL_PROVIDER_GLX
-#
 include
 "
 mozilla
@@ -52,8 +49,6 @@ X11TextureSourceOGL
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -192,9 +187,6 @@ mSurface
 ;
 break
 ;
-#
-ifdef
-GL_PROVIDER_GLX
 case
 LayersBackend
 :
@@ -217,8 +209,6 @@ mSurface
 ;
 break
 ;
-#
-endif
 default
 :
 return
@@ -314,9 +304,6 @@ GetContentType
 (
 )
 ;
-#
-ifdef
-GL_PROVIDER_GLX
 if
 (
 mCompositor
@@ -343,8 +330,6 @@ type
 )
 ;
 }
-#
-endif
 return
 X11TextureSourceBasic
 :

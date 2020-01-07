@@ -248,9 +248,6 @@ X11Util
 h
 "
 #
-ifdef
-GL_PROVIDER_GLX
-#
 include
 "
 GLContextProvider
@@ -271,8 +268,6 @@ GLXLibrary
 .
 h
 "
-#
-endif
 #
 if
 defined
@@ -2417,7 +2412,7 @@ patch
 }
 #
 ifdef
-GL_PROVIDER_GLX
+MOZ_X11
 class
 GLXVsyncSource
 final

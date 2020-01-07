@@ -6,7 +6,7 @@ define
 MOZILLA_GFX_X11TEXTURESOURCEOGL__H
 #
 ifdef
-GL_PROVIDER_GLX
+MOZ_X11
 #
 include
 "

@@ -348,17 +348,12 @@ TextureClientX11
 h
 "
 #
-ifdef
-GL_PROVIDER_GLX
-#
 include
 "
 GLXLibrary
 .
 h
 "
-#
-endif
 #
 endif
 #
@@ -4628,9 +4623,6 @@ aAllocator
 )
 ;
 }
-#
-ifdef
-GL_PROVIDER_GLX
 if
 (
 !
@@ -4688,8 +4680,6 @@ aAllocator
 )
 ;
 }
-#
-endif
 #
 endif
 #
