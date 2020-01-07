@@ -114,6 +114,16 @@ aType
 ;
 static
 bool
+IsMatroskaType
+(
+const
+MediaContainerType
+&
+aType
+)
+;
+static
+bool
 IsSupportedType
 (
 const
