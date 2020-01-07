@@ -239,16 +239,6 @@ nsIChannel
 aChannel
 )
 ;
-static
-nsPIDOMWindowOuter
-*
-GetWindowForChannel
-(
-nsIChannel
-*
-aChannel
-)
-;
 nsresult
 ShouldEnableTrackingProtectionInternal
 (
