@@ -25685,8 +25685,6 @@ NewSdpTest
 BasicAudioVideoDataSdpParse
 )
 {
-SKIP_TEST_WITH_RUST_PARSER
-;
 ParseSdp
 (
 kBasicAudioVideoDataOffer
@@ -25727,8 +25725,6 @@ NewSdpTest
 CheckApplicationParameters
 )
 {
-SKIP_TEST_WITH_RUST_PARSER
-;
 ParseSdp
 (
 kBasicAudioVideoDataOffer
@@ -26044,8 +26040,6 @@ NewSdpTest
 CheckExtmap
 )
 {
-SKIP_TEST_WITH_RUST_PARSER
-;
 ParseSdp
 (
 kBasicAudioVideoDataOffer
@@ -26309,8 +26303,6 @@ NewSdpTest
 CheckRtcpFb
 )
 {
-SKIP_TEST_WITH_RUST_PARSER
-;
 ParseSdp
 (
 kBasicAudioVideoDataOffer
