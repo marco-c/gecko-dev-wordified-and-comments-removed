@@ -137,6 +137,15 @@ h
 #
 include
 "
+mozilla
+/
+HangDetails
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h

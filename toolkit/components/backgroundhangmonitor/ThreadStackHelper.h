@@ -145,12 +145,6 @@ ThreadStackHelper
 public
 ProfilerStackCollector
 {
-public
-:
-typedef
-NativeHangStack
-NativeStack
-;
 private
 :
 HangStack
@@ -279,10 +273,7 @@ TryAppendFrame
 mozilla
 :
 :
-HangStack
-:
-:
-Frame
+HangEntry
 aFrame
 )
 ;

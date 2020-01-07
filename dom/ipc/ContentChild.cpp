@@ -674,6 +674,15 @@ h
 #
 include
 "
+mozilla
+/
+HangDetails
+.
+h
+"
+#
+include
+"
 imgLoader
 .
 h
