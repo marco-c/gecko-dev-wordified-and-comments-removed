@@ -40,7 +40,7 @@ of
 Firefox
 it
 directly
-superseeds
+supersedes
 DTD
 and
 StringBundle
@@ -55,8 +55,9 @@ features
 and
 improvements
 over
-them
 both
+of
+them
 for
 developers
 and

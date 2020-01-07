@@ -3887,7 +3887,7 @@ it
 available
 to
 be
-references
+referenced
 .
 To
 make
@@ -4170,6 +4170,7 @@ additional
 contexts
 manually
 using
+the
 Localization
 class
 :
@@ -4754,7 +4755,7 @@ which
 transforms
 messages
 on
--
+the
 fly
 using
 specific
@@ -4795,7 +4796,7 @@ pseudolocalization
 should
 expose
 any
-string
+strings
 that
 were
 left
@@ -4809,7 +4810,7 @@ won
 '
 t
 get
-transfomed
+transformed
 .
 -
 UI
@@ -4831,12 +4832,16 @@ English
 For
 example
 German
-string
+strings
 may
 be
 30
 %
 longer
+(
+or
+more
+)
 .
 Turning
 on
@@ -4965,7 +4970,7 @@ equivalents
 and
 duplicates
 some
-vovels
+vowels
 to
 create
 roughly

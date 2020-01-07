@@ -77,7 +77,7 @@ most
 abstract
 level
 Gecko
-internationalizaion
+internationalization
 is
 a
 set
@@ -136,7 +136,7 @@ end
 JS
 engine
 and
-accessiblity
+accessibility
 .
 It
 also

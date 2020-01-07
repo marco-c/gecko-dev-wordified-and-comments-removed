@@ -1027,7 +1027,7 @@ but
 the
 process
 is
-continous
+continuous
 and
 we
 '
@@ -1818,7 +1818,7 @@ support
 .
 Fluent
 strictly
-superseeds
+supersedes
 the
 old
 systems

@@ -501,11 +501,7 @@ settings
 .
 But
 that
-leaves
-out
-a
-lot
-of
+ignores
 bits
 of
 information
@@ -775,7 +771,6 @@ provides
 a
 number
 of
-additional
 features
 in
 form
@@ -856,7 +851,7 @@ options
 that
 provide
 greater
-simplicy
+simplicity
 and
 consistency
 to
@@ -894,7 +889,7 @@ js
 :
 full
 .
-Those
+These
 options
 can
 replace
@@ -984,9 +979,10 @@ Operating
 System
 patterns
 which
-allow
+gives
+users
 the
-user
+ability
 to
 customize
 those
@@ -1064,7 +1060,7 @@ for
 Operating
 System
 regional
-preferneces
+preferences
 customizations
 produce
 the
@@ -1989,7 +1985,7 @@ unit
 .
 It
 is
-inteded
+intended
 to
 just
 offer

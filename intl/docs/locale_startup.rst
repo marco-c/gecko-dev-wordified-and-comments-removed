@@ -119,7 +119,7 @@ values
 for
 those
 lists
-changes
+change
 .
 Data
 Sources
@@ -231,10 +231,9 @@ no
 knowledge
 of
 available
-locales
-nor
-of
+or
 requested
+locales
 .
 Initially
 all
@@ -291,7 +290,7 @@ and
 needs
 to
 know
-what
+which
 locale
 the
 JS
@@ -594,7 +593,6 @@ all
 the
 language
 packs
-and
 they
 get
 added
@@ -606,12 +604,13 @@ L10nRegistry
 and
 in
 result
-update
 LocaleService
 '
 s
 available
 locales
+get
+updated
 .
 That
 triggers
