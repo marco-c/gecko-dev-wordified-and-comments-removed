@@ -2061,8 +2061,6 @@ if
 (
 *
 str
-+
-+
 !
 =
 '
@@ -2074,6 +2072,10 @@ goto
 increment_str
 ;
 }
+str
++
++
+;
 while
 (
 nsCRT
