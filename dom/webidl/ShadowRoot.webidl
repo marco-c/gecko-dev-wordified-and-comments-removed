@@ -278,10 +278,6 @@ attribute
 DOMString
 innerHTML
 ;
-attribute
-boolean
-applyAuthorStyles
-;
 }
 ;
 ShadowRoot
