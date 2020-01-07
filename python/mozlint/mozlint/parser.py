@@ -225,6 +225,11 @@ include
 '
 exclude
 '
+'
+support
+-
+files
+'
 )
 :
             
@@ -704,6 +709,24 @@ self
 _validate
 (
 linter
+)
+            
+linter
+.
+setdefault
+(
+'
+support
+-
+files
+'
+[
+]
+)
+.
+append
+(
+path
 )
             
 linters
