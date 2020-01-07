@@ -16,6 +16,7 @@ from
 voluptuous
 import
 Required
+Optional
 graph_config_schema
 =
 Schema
@@ -56,6 +57,30 @@ basestring
 :
 basestring
 }
+    
+}
+    
+Required
+(
+'
+index
+'
+)
+:
+{
+        
+Optional
+(
+'
+job
+-
+names
+'
+)
+:
+[
+basestring
+]
     
 }
     
