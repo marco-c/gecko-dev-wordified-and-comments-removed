@@ -227,13 +227,6 @@ xul
 :
 box
 "
-role
-=
-"
-xul
-:
-textbox
-"
 >
 <
 resources
