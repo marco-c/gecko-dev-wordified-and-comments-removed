@@ -2953,6 +2953,15 @@ SetEmpty
 ;
 }
 }
+else
+{
+mInvalidBack
+.
+SetEmpty
+(
+)
+;
+}
 }
 }
 }
