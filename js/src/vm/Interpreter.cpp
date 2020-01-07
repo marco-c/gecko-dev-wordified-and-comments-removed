@@ -17798,6 +17798,7 @@ if
 GetIntrinsicOperation
 (
 cx
+script
 REGS
 .
 pc

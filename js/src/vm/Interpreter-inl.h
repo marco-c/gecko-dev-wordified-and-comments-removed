@@ -1391,6 +1391,8 @@ GetIntrinsicOperation
 JSContext
 *
 cx
+HandleScript
+script
 jsbytecode
 *
 pc
@@ -1402,12 +1404,7 @@ RootedPropertyName
 name
 (
 cx
-cx
--
->
-currentScript
-(
-)
+script
 -
 >
 getName

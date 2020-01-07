@@ -7533,6 +7533,7 @@ if
 GetIntrinsicOperation
 (
 cx
+script
 pc
 res
 )
