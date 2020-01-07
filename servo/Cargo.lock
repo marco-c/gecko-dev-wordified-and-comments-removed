@@ -23089,7 +23089,7 @@ mozjs_sys
 .
 50
 .
-0
+1
 (
 registry
 +
@@ -23161,7 +23161,7 @@ version
 .
 50
 .
-0
+1
 "
 source
 =
@@ -53792,7 +53792,7 @@ mozjs_sys
 .
 50
 .
-0
+1
 (
 registry
 +
@@ -53817,7 +53817,7 @@ index
 "
 =
 "
-ef1e24df9f76502cd4459919098ec1ac3af75ce694ec5b8837aa91f69f2ad0eb
+e61a792a125b1364c5ec50255ed8343ce02dc56098f8868dd209d472c8de006a
 "
 "
 checksum
