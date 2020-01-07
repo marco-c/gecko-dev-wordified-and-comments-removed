@@ -38,6 +38,13 @@ stylesheets
 :
 UrlExtraData
 ;
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 enum
 ContextualParseError
