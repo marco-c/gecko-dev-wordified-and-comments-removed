@@ -337,6 +337,7 @@ ImageLoader
 struct
 FrameWithFlags
 {
+explicit
 FrameWithFlags
 (
 nsIFrame
