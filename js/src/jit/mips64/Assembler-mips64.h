@@ -200,6 +200,13 @@ t1
 static
 constexpr
 Register
+ABINonVolatileReg
+=
+s0
+;
+static
+constexpr
+Register
 ABINonArgReturnVolatileReg
 =
 t0
