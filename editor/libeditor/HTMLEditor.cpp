@@ -13497,7 +13497,7 @@ nsresult
 HTMLEditor
 :
 :
-DeleteSelectionImpl
+DeleteSelectionWithTransaction
 (
 EDirection
 aAction
@@ -13525,7 +13525,7 @@ rv
 TextEditor
 :
 :
-DeleteSelectionImpl
+DeleteSelectionWithTransaction
 (
 aAction
 aStripWrappers

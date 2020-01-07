@@ -1153,7 +1153,7 @@ override
 ;
 virtual
 nsresult
-DeleteSelectionImpl
+DeleteSelectionWithTransaction
 (
 EDirection
 aAction
