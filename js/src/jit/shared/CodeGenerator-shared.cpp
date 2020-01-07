@@ -7837,7 +7837,7 @@ frameSize
 (
 )
 <
-64
+MAX_UNCHECKED_LEAF_FRAME_SIZE
 &
 &
 !
