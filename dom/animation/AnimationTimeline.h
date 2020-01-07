@@ -81,6 +81,9 @@ undef
 GetCurrentTime
 #
 endif
+class
+nsIDocument
+;
 namespace
 mozilla
 {
@@ -255,6 +258,16 @@ Animation
 *
 aAnimation
 )
+;
+virtual
+nsIDocument
+*
+GetDocument
+(
+)
+const
+=
+0
 ;
 protected
 :
