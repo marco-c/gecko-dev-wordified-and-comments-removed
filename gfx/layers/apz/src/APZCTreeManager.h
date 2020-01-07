@@ -385,8 +385,8 @@ uint32_t
 aPaintSequenceNumber
 )
 ;
-bool
-PushStateToWR
+void
+SampleForWebRender
 (
 wr
 :

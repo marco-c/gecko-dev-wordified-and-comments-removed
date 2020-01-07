@@ -1306,15 +1306,9 @@ GetRootCompositorBridgeParent
 )
 const
 ;
-bool
-PushAPZStateToWR
+void
+SetAPZSampleTime
 (
-wr
-:
-:
-TransactionBuilder
-&
-aTxn
 )
 ;
 wr
