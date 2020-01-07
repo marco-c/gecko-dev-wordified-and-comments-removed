@@ -115,7 +115,7 @@ this
 .
 _panel
 .
-_walker
+walker
 ;
 }
 get
@@ -258,7 +258,7 @@ this
 .
 _panel
 .
-_front
+front
 .
 enabled
 ;
@@ -269,7 +269,7 @@ this
 .
 _panel
 .
-_front
+front
 .
 enabled
 &

@@ -265,7 +265,7 @@ initialize
 (
 accessibility
 walker
-isOldVersion
+supportsLatestAccessibility
 )
 {
 await
@@ -295,7 +295,8 @@ content
 ;
 if
 (
-isOldVersion
+!
+supportsLatestAccessibility
 )
 {
 ReactDOM
