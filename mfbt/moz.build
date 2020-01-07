@@ -286,11 +286,6 @@ HashFunctions
 h
 '
 '
-IndexSequence
-.
-h
-'
-'
 IntegerPrintfMacros
 .
 h
