@@ -207,7 +207,7 @@ rust_u2f_key_handles
 khs
 )
 ;
-uint64_t
+void
 rust_u2f_mgr_cancel
 (
 rust_u2f_manager

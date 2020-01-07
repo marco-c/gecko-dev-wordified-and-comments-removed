@@ -166,6 +166,8 @@ const
 WebAuthnMakeCredentialInfo
 &
 aInfo
+bool
+aForceNoneAttestation
 )
 ;
 void
@@ -226,7 +228,7 @@ RunResumeRegister
 uint64_t
 aTransactionId
 bool
-aPermitDirectAttestation
+aForceNoneAttestation
 )
 ;
 void

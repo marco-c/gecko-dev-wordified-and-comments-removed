@@ -125,11 +125,6 @@ U2FAuthenticator
 .
 h
 '
-'
-U2FUtil
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
