@@ -152,7 +152,7 @@ junit
 12
 '
 implementation
-'
+"
 com
 .
 android
@@ -163,12 +163,8 @@ support
 -
 annotations
 :
-23
-.
-4
-.
-0
-'
+support_library_version
+"
 androidTestImplementation
 '
 com
@@ -273,7 +269,7 @@ differ
 .
 "
 androidTestImplementation
-'
+"
 com
 .
 android
@@ -284,12 +280,8 @@ support
 -
 annotations
 :
-23
-.
-4
-.
-0
-'
+support_library_version
+"
 implementation
 project
 (
