@@ -1696,12 +1696,9 @@ Ci
 nsPIPlacesDatabase
 )
 .
-asyncExecuteLegacyQueries
+asyncExecuteLegacyQuery
 (
-[
 query
-]
-1
 options
 {
 handleResult

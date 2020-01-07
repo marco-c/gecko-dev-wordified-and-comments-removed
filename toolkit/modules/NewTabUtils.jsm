@@ -2096,12 +2096,9 @@ nsPIPlacesDatabase
 ;
 db
 .
-asyncExecuteLegacyQueries
+asyncExecuteLegacyQuery
 (
-[
 query
-]
-1
 options
 callback
 )
