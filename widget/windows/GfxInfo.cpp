@@ -7977,7 +7977,7 @@ GfxDriverInfo
 :
 GetDeviceVendor
 (
-VendorAMD
+VendorATI
 )
 (
 GfxDeviceFamily
@@ -8026,7 +8026,7 @@ GfxDriverInfo
 :
 GetDeviceVendor
 (
-VendorAMD
+VendorATI
 )
 (
 GfxDeviceFamily
