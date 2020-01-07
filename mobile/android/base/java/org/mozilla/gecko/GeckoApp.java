@@ -4328,6 +4328,17 @@ title
 Override
 public
 void
+onFocusRequest
+(
+final
+GeckoSession
+session
+)
+{
+}
+Override
+public
+void
 onFullScreen
 (
 final
