@@ -1483,17 +1483,6 @@ aWND
 )
 ;
 static
-BOOL
-WINAPI
-ImmReleaseContextProc
-(
-HWND
-aWND
-HIMC
-aIMC
-)
-;
-static
 LONG
 WINAPI
 ImmGetCompositionStringProc
