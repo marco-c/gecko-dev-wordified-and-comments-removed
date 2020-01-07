@@ -38,14 +38,14 @@ DOMEventTargetHelper
 namespace
 dom
 {
-namespace
-workers
-{
 class
 MessageEventRunnable
 final
 :
 public
+workers
+:
+:
 WorkerRunnable
 public
 StructuredCloneHolder
@@ -54,6 +54,9 @@ public
 :
 MessageEventRunnable
 (
+workers
+:
+:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -67,6 +70,9 @@ DispatchDOMEvent
 JSContext
 *
 aCx
+workers
+:
+:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -85,6 +91,9 @@ WorkerRun
 JSContext
 *
 aCx
+workers
+:
+:
 WorkerPrivate
 *
 aWorkerPrivate
@@ -104,7 +113,6 @@ aTarget
 ;
 }
 ;
-}
 }
 }
 #

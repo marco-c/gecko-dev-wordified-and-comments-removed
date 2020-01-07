@@ -11,7 +11,12 @@ WorkerCommon
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 bool
 DefineChromeWorkerFunctions
 (
@@ -29,6 +34,7 @@ JSObject
 aGlobal
 )
 ;
-END_WORKERS_NAMESPACE
+}
+}
 #
 endif

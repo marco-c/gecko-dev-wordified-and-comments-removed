@@ -66,7 +66,16 @@ WorkerScope
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
+using
+namespace
+workers
+;
 MessageEventRunnable
 :
 :
@@ -669,4 +678,5 @@ dummy
 )
 ;
 }
-END_WORKERS_NAMESPACE
+}
+}

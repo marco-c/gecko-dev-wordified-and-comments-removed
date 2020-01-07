@@ -40,14 +40,12 @@ WorkerPrivate
 .
 h
 "
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-;
-USING_WORKERS_NAMESPACE
+{
 namespace
 {
 #
@@ -175,7 +173,6 @@ result
 #
 endif
 }
-BEGIN_WORKERS_NAMESPACE
 bool
 DefineChromeWorkerFunctions
 (
@@ -266,4 +263,5 @@ return
 true
 ;
 }
-END_WORKERS_NAMESPACE
+}
+}
