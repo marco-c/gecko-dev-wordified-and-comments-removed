@@ -819,7 +819,9 @@ aX
 -
 rootRect
 .
-x
+X
+(
+)
 ;
 int32_t
 clientY
@@ -834,7 +836,9 @@ aY
 -
 rootRect
 .
-y
+Y
+(
+)
 ;
 int32_t
 row
