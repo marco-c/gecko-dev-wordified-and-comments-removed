@@ -358,6 +358,8 @@ gfxCharacterMap
 aUnicodeRanges
 uint8_t
 aFontDisplay
+RangeFlags
+aRangeFlags
 )
 override
 ;

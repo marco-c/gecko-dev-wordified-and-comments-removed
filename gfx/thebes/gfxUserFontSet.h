@@ -724,6 +724,13 @@ mozilla
 WeightRange
 WeightRange
 ;
+typedef
+gfxFontEntry
+:
+:
+RangeFlags
+RangeFlags
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 gfxUserFontSet
@@ -876,6 +883,8 @@ gfxCharacterMap
 aUnicodeRanges
 uint8_t
 aFontDisplay
+RangeFlags
+aRangeFlags
 )
 =
 0
@@ -924,6 +933,8 @@ gfxCharacterMap
 aUnicodeRanges
 uint8_t
 aFontDisplay
+RangeFlags
+aRangeFlags
 )
 ;
 void
@@ -1860,6 +1871,8 @@ gfxCharacterMap
 aUnicodeRanges
 uint8_t
 aFontDisplay
+RangeFlags
+aRangeFlags
 )
 ;
 gfxUserFontFamily
@@ -1981,6 +1994,8 @@ gfxCharacterMap
 aUnicodeRanges
 uint8_t
 aFontDisplay
+RangeFlags
+aRangeFlags
 )
 ;
 virtual
@@ -2026,6 +2041,8 @@ gfxCharacterMap
 aUnicodeRanges
 uint8_t
 aFontDisplay
+RangeFlags
+aRangeFlags
 )
 ;
 gfxFont

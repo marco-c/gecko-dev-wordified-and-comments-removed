@@ -187,6 +187,8 @@ gfxCharacterMap
 aUnicodeRanges
 uint8_t
 aFontDisplay
+RangeFlags
+aRangeFlags
 )
 :
 gfxUserFontEntry
@@ -201,6 +203,7 @@ aVariationSettings
 aLanguageOverride
 aUnicodeRanges
 aFontDisplay
+aRangeFlags
 )
 {
 }
