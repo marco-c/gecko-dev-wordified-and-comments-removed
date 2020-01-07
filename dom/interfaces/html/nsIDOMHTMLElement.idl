@@ -237,11 +237,6 @@ nsIDOMElement
 readonly
 attribute
 boolean
-draggable
-;
-readonly
-attribute
-boolean
 spellcheck
 ;
 /
