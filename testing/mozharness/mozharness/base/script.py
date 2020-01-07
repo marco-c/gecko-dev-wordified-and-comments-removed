@@ -12045,6 +12045,9 @@ tmp_stderr
 env
 =
 env
+bufsize
+=
+0
 )
         
 self

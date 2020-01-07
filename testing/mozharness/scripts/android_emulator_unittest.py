@@ -1922,6 +1922,9 @@ tmp_file
 env
 =
 env
+bufsize
+=
+0
 )
         
 return
@@ -2319,6 +2322,9 @@ stderr
 subprocess
 .
 PIPE
+bufsize
+=
+0
 )
         
 out
@@ -2997,6 +3003,9 @@ stdout
 subprocess
 .
 PIPE
+bufsize
+=
+0
 )
         
 out

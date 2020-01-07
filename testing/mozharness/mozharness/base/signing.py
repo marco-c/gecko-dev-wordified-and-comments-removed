@@ -751,6 +751,10 @@ stderr
 subprocess
 .
 STDOUT
+                                 
+bufsize
+=
+0
 )
         
 except
