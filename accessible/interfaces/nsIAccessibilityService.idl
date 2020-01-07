@@ -99,9 +99,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMNode
-;
-interface
 nsIAccessible
 ;
 interface
@@ -112,6 +109,9 @@ nsIPresShell
 ;
 interface
 nsIAccessiblePivot
+;
+webidl
+Node
 ;
 /
 *
@@ -263,7 +263,7 @@ nsIAccessible
 getAccessibleFor
 (
 in
-nsIDOMNode
+Node
 aNode
 )
 ;
@@ -494,7 +494,7 @@ nsIAccessible
 getAccessibleFromCache
 (
 in
-nsIDOMNode
+Node
 aNode
 )
 ;

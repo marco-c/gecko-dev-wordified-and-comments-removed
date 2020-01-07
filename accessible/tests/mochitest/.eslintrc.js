@@ -29,17 +29,6 @@ rules
 :
 {
 "
-mozilla
-/
-reject
--
-importGlobalProperties
-"
-:
-"
-error
-"
-"
 no
 -
 nested

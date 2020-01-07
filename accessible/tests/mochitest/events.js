@@ -360,9 +360,12 @@ return
 ;
 if
 (
+Node
+.
+isInstance
+(
 target
-instanceof
-nsIDOMNode
+)
 &
 &
 target

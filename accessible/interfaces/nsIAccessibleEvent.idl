@@ -104,8 +104,8 @@ nsIAccessible
 interface
 nsIAccessibleDocument
 ;
-interface
-nsIDOMNode
+webidl
+Node
 ;
 %
 {
@@ -2180,7 +2180,7 @@ accessibleDocument
 *
 *
 The
-nsIDOMNode
+Node
 associated
 with
 the
@@ -2201,7 +2201,7 @@ down
 /
 readonly
 attribute
-nsIDOMNode
+Node
 DOMNode
 ;
 /

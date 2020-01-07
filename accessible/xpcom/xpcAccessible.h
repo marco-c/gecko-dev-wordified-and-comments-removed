@@ -127,7 +127,7 @@ final
 NS_IMETHOD
 GetDOMNode
 (
-nsIDOMNode
+nsINode
 *
 *
 aDOMNode

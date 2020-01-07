@@ -98,8 +98,8 @@ nsIDOMXULSelectCntrlEl
 .
 idl
 "
-interface
-nsIDOMNode
+webidl
+Element
 ;
 [
 scriptable
@@ -166,7 +166,7 @@ only
 .
 readonly
 attribute
-nsIDOMNode
+Element
 inputField
 ;
 }

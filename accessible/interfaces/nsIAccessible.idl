@@ -109,13 +109,13 @@ interface
 nsIPersistentProperties
 ;
 interface
-nsIDOMNode
-;
-interface
 nsIAccessibleDocument
 ;
 interface
 nsIAccessibleRelation
+;
+webidl
+Node
 ;
 %
 {
@@ -451,7 +451,7 @@ with
 /
 readonly
 attribute
-nsIDOMNode
+Node
 DOMNode
 ;
 /

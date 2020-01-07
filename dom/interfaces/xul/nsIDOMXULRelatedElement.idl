@@ -98,6 +98,12 @@ domstubs
 .
 idl
 "
+webidl
+Element
+;
+webidl
+Node
+;
 [
 scriptable
 uuid
@@ -177,11 +183,11 @@ versa
 .
 *
 /
-nsIDOMNode
+Element
 getRelatedElement
 (
 in
-nsIDOMNode
+Node
 aElement
 )
 ;
