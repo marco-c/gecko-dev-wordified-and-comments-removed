@@ -8931,6 +8931,11 @@ mAPIRedirectToURI
 =
 targetURI
 ;
+if
+(
+mLoadInfo
+)
+{
 mLoadInfo
 -
 >
@@ -8939,6 +8944,7 @@ SetAllowInsecureRedirectToDataURI
 false
 )
 ;
+}
 return
 NS_OK
 ;
