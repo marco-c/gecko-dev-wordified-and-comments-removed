@@ -774,9 +774,10 @@ wr
 LayoutRect
 r
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 bounds
 )

@@ -1644,11 +1644,12 @@ wr
 :
 :
 LayoutRect
-transformedRect
+roundedRect
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 rect
 )
@@ -1657,8 +1658,8 @@ aBuilder
 .
 PushRect
 (
-transformedRect
-transformedRect
+roundedRect
+roundedRect
 !
 BackfaceIsHidden
 (

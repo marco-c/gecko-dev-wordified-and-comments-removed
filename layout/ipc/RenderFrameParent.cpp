@@ -1920,9 +1920,13 @@ aBuilder
 .
 PushIFrame
 (
-aSc
-.
-ToRelativeLayoutRect
+mozilla
+:
+:
+wr
+:
+:
+ToRoundedLayoutRect
 (
 rect
 )

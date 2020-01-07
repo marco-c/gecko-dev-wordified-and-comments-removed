@@ -18680,9 +18680,10 @@ wr
 LayoutRect
 bounds
 =
-aSc
-.
-ToRelativeLayoutRect
+wr
+:
+:
+ToRoundedLayoutRect
 (
 LayoutDeviceRect
 :
