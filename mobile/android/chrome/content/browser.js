@@ -8254,10 +8254,12 @@ aBrowser
 loadURIWithFlags
 (
 aURI
+{
 flags
 referrerURI
 charset
 postData
+}
 )
 ;
 }
@@ -21432,10 +21434,12 @@ browser
 loadURIWithFlags
 (
 aURL
+{
 flags
 referrerURI
 charset
 postData
+}
 )
 ;
 }

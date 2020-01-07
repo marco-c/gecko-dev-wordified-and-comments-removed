@@ -103,7 +103,9 @@ selectedBrowser
 loadURIWithFlags
 (
 url
+{
 flags
+}
 )
 ;
 await
