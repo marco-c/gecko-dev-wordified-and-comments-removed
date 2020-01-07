@@ -102,12 +102,6 @@ Atomics
 h
 "
 #
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
-#
 include
 "
 mozilla
@@ -116,8 +110,6 @@ JSONWriter
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -10826,12 +10818,6 @@ return
 0
 ;
 }
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 namespace
 base
 {
@@ -13557,5 +13543,3 @@ return
 NS_OK
 ;
 }
-#
-endif

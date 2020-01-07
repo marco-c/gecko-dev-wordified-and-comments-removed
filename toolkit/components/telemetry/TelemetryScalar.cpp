@@ -105,12 +105,6 @@ PContent
 h
 "
 #
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
-#
 include
 "
 mozilla
@@ -119,8 +113,6 @@ JSONWriter
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1001,12 +993,6 @@ ScalarResult
 Ok
 ;
 }
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 nsresult
 WriteVariantToJSONWriter
 (
@@ -1182,8 +1168,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 const
 char
 *
@@ -12598,12 +12582,6 @@ dynamicStubs
 ;
 }
 }
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 nsresult
 TelemetryScalar
 :
@@ -14428,5 +14406,3 @@ return
 NS_OK
 ;
 }
-#
-endif

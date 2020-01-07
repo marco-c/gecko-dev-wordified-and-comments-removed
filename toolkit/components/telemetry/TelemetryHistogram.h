@@ -38,12 +38,6 @@ nsXULAppAPI
 .
 h
 "
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 namespace
 mozilla
 {
@@ -51,8 +45,6 @@ class
 JSONWriter
 ;
 }
-#
-endif
 namespace
 TelemetryHistogram
 {
@@ -445,12 +437,6 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
-#
-if
-defined
-(
-MOZ_TELEMETRY_GECKOVIEW
-)
 nsresult
 SerializeHistograms
 (
@@ -499,8 +485,6 @@ HandleValue
 aData
 )
 ;
-#
-endif
 }
 #
 endif
