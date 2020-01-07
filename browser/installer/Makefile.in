@@ -569,11 +569,11 @@ DEFINES
 -
 DRESPATH
 =
-"
+'
 (
 RESPATH
 )
-"
+'
 LPROJ_ROOT
 =
 (
@@ -813,9 +813,11 @@ find
 (
 PKGCOMP_FIND_OPTS
 )
+'
 (
 FINDPATH
 )
+'
 -
 type
 f
