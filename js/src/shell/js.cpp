@@ -52504,9 +52504,6 @@ argv
 int
 result
 ;
-#
-ifdef
-HAVE_SETLOCALE
 setlocale
 (
 LC_ALL
@@ -52514,8 +52511,6 @@ LC_ALL
 "
 )
 ;
-#
-endif
 RCFile
 rcStdout
 (

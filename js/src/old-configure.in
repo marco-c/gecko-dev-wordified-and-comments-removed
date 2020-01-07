@@ -17279,7 +17279,6 @@ dnl
 MOZ_CHECK_ALLOCATOR
 AC_CHECK_FUNCS
 (
-setlocale
 localeconv
 )
 AC_SUBST
