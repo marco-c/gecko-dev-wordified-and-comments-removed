@@ -1964,6 +1964,7 @@ Length
 (
 )
 <
+=
 mResourceTimingBufferSize
 )
 ;
