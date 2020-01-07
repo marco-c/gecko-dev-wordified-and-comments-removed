@@ -975,15 +975,6 @@ nsStringHashKey
 >
 mPersistenceIds
 ;
-nsTArray
-<
-RefPtr
-<
-StyleSheet
->
->
-mOverlaySheets
-;
 nsCOMPtr
 <
 nsIDOMXULCommandDispatcher
@@ -1184,11 +1175,6 @@ mOffThreadCompileStringBuf
 ;
 size_t
 mOffThreadCompileStringLength
-;
-nsresult
-AddPrototypeSheets
-(
-)
 ;
 protected
 :
