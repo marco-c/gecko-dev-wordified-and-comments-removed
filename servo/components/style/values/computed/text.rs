@@ -156,6 +156,16 @@ as
 TextAlign
 ;
 pub
+use
+values
+:
+:
+specified
+:
+:
+TextEmphasisPosition
+;
+pub
 type
 InitialLetter
 =
