@@ -83,7 +83,12 @@ ServiceWorkerRegistrationListPromise
 >
 GetRegistrations
 (
+const
+ClientInfo
+&
+aClientInfo
 )
+const
 override
 ;
 RefPtr
