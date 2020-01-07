@@ -2161,6 +2161,13 @@ ARM
 static
 unsigned
 int
+ARM64
+(
+)
+;
+static
+unsigned
+int
 MIPS
 (
 )

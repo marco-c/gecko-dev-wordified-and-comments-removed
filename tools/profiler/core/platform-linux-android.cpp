@@ -467,7 +467,7 @@ arm_lr
 elif
 defined
 (
-GP_ARCH_aarch64
+GP_ARCH_arm64
 )
 aRegs
 .
