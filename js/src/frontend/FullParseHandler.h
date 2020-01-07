@@ -3926,7 +3926,7 @@ setFunctionFormalParametersAndBody
 (
 ParseNode
 *
-pn
+funcNode
 ParseNode
 *
 kid
@@ -3944,7 +3944,7 @@ PNK_PARAMSBODY
 )
 )
 ;
-pn
+funcNode
 -
 >
 pn_body

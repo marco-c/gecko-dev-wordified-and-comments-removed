@@ -1905,7 +1905,7 @@ bool
 trySyntaxParseInnerFunction
 (
 Node
-node
+funcNode
 HandleFunction
 fun
 uint32_t
@@ -1934,7 +1934,7 @@ bool
 skipLazyInnerFunction
 (
 Node
-node
+funcNode
 uint32_t
 toStringStart
 FunctionSyntaxKind
@@ -1960,7 +1960,7 @@ bool
 innerFunctionForFunctionBox
 (
 Node
-pn
+funcNode
 ParseContext
 *
 outerpc
@@ -2687,7 +2687,7 @@ Node
 functionDefinition
 (
 Node
-func
+funcNode
 uint32_t
 toStringStart
 InHandling
@@ -3406,7 +3406,7 @@ bool
 innerFunction
 (
 Node
-pn
+funcNode
 ParseContext
 *
 outerpc
@@ -3857,7 +3857,7 @@ bool
 trySyntaxParseInnerFunction
 (
 Node
-node
+funcNode
 HandleFunction
 fun
 uint32_t
@@ -3885,7 +3885,7 @@ bool
 skipLazyInnerFunction
 (
 Node
-node
+funcNode
 uint32_t
 toStringStart
 FunctionSyntaxKind
@@ -4436,7 +4436,7 @@ bool
 trySyntaxParseInnerFunction
 (
 Node
-pn
+funcNode
 HandleFunction
 fun
 uint32_t
@@ -4464,7 +4464,7 @@ bool
 skipLazyInnerFunction
 (
 Node
-node
+funcNode
 uint32_t
 toStringStart
 FunctionSyntaxKind
