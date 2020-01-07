@@ -715,6 +715,7 @@ clearChangedIDs
 (
 )
 ;
+await
 Service
 .
 engineManager
