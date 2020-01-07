@@ -592,6 +592,8 @@ cfg_attr
 feature
 =
 "
+cargo
+-
 clippy
 "
 allow

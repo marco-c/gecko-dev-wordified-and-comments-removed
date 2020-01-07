@@ -48,6 +48,9 @@ RUST_DERIVE_IN_ARRAY_LIMIT
 use
 quote
 ;
+use
+proc_macro2
+;
 pub
 fn
 gen_partialeq_impl
@@ -160,8 +163,6 @@ rust_features
 )
 .
 untagged_union
-(
-)
 )
 ;
 tokens
@@ -512,10 +513,10 @@ quote_equals
 (
 name_ident
 :
-quote
+proc_macro2
 :
 :
-Ident
+Term
 )
 -
 >

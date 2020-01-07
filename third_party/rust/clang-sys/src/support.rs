@@ -186,16 +186,8 @@ args
 Clang
 {
 path
-:
-path
-version
-:
 version
 c_search_paths
-:
-c_search_paths
-cpp_search_paths
-:
 cpp_search_paths
 }
 }

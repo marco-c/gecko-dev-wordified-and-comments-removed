@@ -676,8 +676,6 @@ rust_features
 )
 .
 untagged_union
-(
-)
 )
 {
 trace
@@ -1381,8 +1379,6 @@ rust_features
 )
 .
 untagged_union
-(
-)
 {
 trace
 !
