@@ -2119,6 +2119,12 @@ _onMouseMove
 )
 ;
 }
+sourceEditor
+.
+insertCommandsController
+(
+)
+;
 this
 .
 emit

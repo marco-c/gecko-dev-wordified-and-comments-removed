@@ -8446,6 +8446,14 @@ length
 }
 )
 ;
+this
+.
+editor
+.
+insertCommandsController
+(
+)
+;
 if
 (
 state
