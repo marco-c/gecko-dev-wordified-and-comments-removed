@@ -1290,8 +1290,6 @@ const
 char
 *
 aName
-size_t
-aNameLength
 const
 nsID
 &
@@ -1463,11 +1461,10 @@ mConstantBaseIndex
 xptiInfoFlags
 mFlags
 ;
+const
 char
+*
 mName
-[
-1
-]
 ;
 }
 ;

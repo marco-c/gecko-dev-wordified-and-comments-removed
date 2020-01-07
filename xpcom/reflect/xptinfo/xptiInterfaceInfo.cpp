@@ -77,14 +77,6 @@ xptiTypelibGuts
 aTypelib
 )
 {
-int
-namelen
-=
-strlen
-(
-aName
-)
-;
 void
 *
 place
@@ -96,8 +88,6 @@ sizeof
 (
 xptiInterfaceEntry
 )
-+
-namelen
 )
 ;
 if
@@ -118,7 +108,6 @@ place
 xptiInterfaceEntry
 (
 aName
-namelen
 aIID
 aDescriptor
 aTypelib
@@ -134,8 +123,6 @@ const
 char
 *
 aName
-size_t
-aNameLength
 const
 nsID
 &
@@ -180,14 +167,11 @@ mFlags
 (
 0
 )
-{
-memcpy
-(
 mName
+(
 aName
-aNameLength
 )
-;
+{
 SetResolvedState
 (
 PARTIALLY_RESOLVED
