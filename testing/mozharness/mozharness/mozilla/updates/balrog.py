@@ -1,7 +1,3 @@
-from
-itertools
-import
-chain
 import
 os
 import
@@ -129,27 +125,23 @@ buildbot_properties
         
 balrog_props
 =
-dict
+{
+}
+        
+balrog_props
+.
+update
 (
-properties
-=
-dict
-(
-chain
-(
-            
 buildbot_properties
-            
+)
+        
+balrog_props
+.
+update
+(
 self
 .
 buildbot_properties
-.
-items
-(
-)
-        
-)
-)
 )
         
 if
@@ -166,11 +158,6 @@ stage_platform
 :
             
 balrog_props
-[
-'
-properties
-'
-]
 [
 '
 stage_platform
@@ -200,11 +187,6 @@ platform
 :
             
 balrog_props
-[
-'
-properties
-'
-]
 [
 '
 platform
@@ -234,11 +216,6 @@ balrog_platform
 :
             
 balrog_props
-[
-"
-properties
-"
-]
 [
 "
 platform
@@ -261,19 +238,9 @@ branch
 not
 in
 balrog_props
-[
-"
-properties
-"
-]
 :
             
 balrog_props
-[
-"
-properties
-"
-]
 [
 "
 branch
@@ -289,7 +256,13 @@ self
 dump_config
 (
 props_path
+{
+"
+properties
+"
+:
 balrog_props
+}
 )
     
 def
