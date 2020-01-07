@@ -185,13 +185,13 @@ LoadURIDelegate
 .
 load
 (
+content
 this
 .
 eventDispatcher
 aUri
 aWhere
 aFlags
-aTriggeringPrincipal
 )
 ;
 }

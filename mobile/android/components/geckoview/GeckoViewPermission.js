@@ -317,11 +317,13 @@ PERM_RECORD_AUDIO
 ;
 }
 let
+[
 dispatcher
+]
 =
 GeckoViewUtils
 .
-getActiveDispatcher
+getActiveDispatcherAndWindow
 (
 )
 ;
