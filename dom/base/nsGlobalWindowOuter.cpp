@@ -9203,7 +9203,7 @@ AddonPolicy
 js
 :
 :
-SetCompartmentValidAccessPtr
+SetRealmValidAccessPtr
 (
 cx
 newInnerGlobal

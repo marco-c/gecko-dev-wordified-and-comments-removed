@@ -2733,7 +2733,7 @@ MOZ_ASSERT
 js
 :
 :
-GetContextCompartment
+GetContextRealm
 (
 cx
 (
