@@ -5365,20 +5365,6 @@ self
 .
 create_virtualenv
 (
-            
-modules
-=
-[
-'
-pip
->
-=
-1
-.
-5
-'
-]
-        
 )
         
 self
