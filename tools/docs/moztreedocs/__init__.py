@@ -377,7 +377,7 @@ a
 destination
 .
 '
-                
+                            
 %
 dest_dir
 )
