@@ -8459,6 +8459,15 @@ plugin
 "
 }
 ]
+fileName
+:
+{
+opts
+.
+name
+}
+.
+so
 .
 .
 .
