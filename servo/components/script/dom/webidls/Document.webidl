@@ -684,12 +684,6 @@ open
 optional
 DOMString
 type
-=
-"
-text
-/
-html
-"
 optional
 DOMString
 replace
