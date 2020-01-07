@@ -376,11 +376,7 @@ time
 =
 file
 .
-endedMillis
--
-file
-.
-startedMillis
+totalTime
 ;
 let
 eventTimings
