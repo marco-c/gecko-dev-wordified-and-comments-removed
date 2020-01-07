@@ -7703,10 +7703,9 @@ maxDouble
 UINT32_MAX
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 args
@@ -7722,7 +7721,6 @@ maximum
 frame
 count
 "
-NULL
 )
 ;
 return
@@ -7791,10 +7789,9 @@ isObject
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 args
@@ -7807,7 +7804,6 @@ not
 an
 object
 "
-NULL
 )
 ;
 return
@@ -20875,10 +20871,9 @@ isSymbol
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 args
@@ -20894,7 +20889,6 @@ string
 or
 symbol
 "
-NULL
 )
 ;
 return
@@ -20936,10 +20930,9 @@ isSymbol
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 args
@@ -20955,7 +20948,6 @@ string
 or
 symbol
 "
-NULL
 )
 ;
 return
@@ -21442,10 +21434,9 @@ isSymbol
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 args
@@ -21461,7 +21452,6 @@ string
 or
 symbol
 "
-nullptr
 )
 ;
 return
@@ -21499,10 +21489,9 @@ ArrayObject
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 args
@@ -21516,7 +21505,6 @@ an
 array
 object
 "
-nullptr
 )
 ;
 return
@@ -21563,10 +21551,9 @@ length
 0
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 args
@@ -21586,7 +21573,6 @@ or
 more
 elements
 "
-nullptr
 )
 ;
 return
@@ -21700,10 +21686,9 @@ maxNumPaths
 0
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 args
@@ -21717,7 +21702,6 @@ greater
 than
 0
 "
-nullptr
 )
 ;
 return

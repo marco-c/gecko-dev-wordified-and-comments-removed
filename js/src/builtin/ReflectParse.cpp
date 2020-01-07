@@ -1016,15 +1016,12 @@ JSFunction
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_NOT_FUNCTION
 JSDVG_SEARCH_STACK
 funv
-nullptr
-nullptr
 nullptr
 )
 ;
@@ -18386,10 +18383,9 @@ isObject
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 arg
@@ -18399,7 +18395,6 @@ not
 an
 object
 "
-nullptr
 )
 ;
 return
@@ -18688,10 +18683,9 @@ isObject
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 prop
@@ -18701,7 +18695,6 @@ not
 an
 object
 "
-nullptr
 )
 ;
 return
@@ -18778,10 +18771,9 @@ isString
 )
 )
 {
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 JSMSG_UNEXPECTED_TYPE
 JSDVG_SEARCH_STACK
 prop
@@ -18796,7 +18788,6 @@ or
 module
 '
 "
-nullptr
 )
 ;
 return
