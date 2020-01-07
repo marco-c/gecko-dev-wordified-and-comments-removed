@@ -305,6 +305,7 @@ const
 {
 uri
 referrer
+baseUri
 flags
 }
 =
@@ -415,6 +416,17 @@ referrer
 |
 |
 null
+baseUri
+?
+Services
+.
+io
+.
+newURI
+(
+baseUri
+)
+:
 null
 null
 )
