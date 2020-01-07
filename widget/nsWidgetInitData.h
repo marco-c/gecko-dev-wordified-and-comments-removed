@@ -172,6 +172,10 @@ mHasRemoteContent
 (
 false
 )
+mIsPrivateBrowsing
+(
+false
+)
 {
 }
 nsWindowType
@@ -220,6 +224,9 @@ mMouseTransparent
 ;
 bool
 mHasRemoteContent
+;
+bool
+mIsPrivateBrowsing
 ;
 }
 ;
