@@ -125,6 +125,10 @@ we
 need
 .
 tar
+-
+-
+wildcards
+-
 zxvf
 ARCHIVE
 '
