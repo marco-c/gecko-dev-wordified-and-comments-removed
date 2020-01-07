@@ -210,6 +210,10 @@ cmake
 -
 deb7
 -
+git
+-
+deb7
+-
 mercurial
 -
 deb7
