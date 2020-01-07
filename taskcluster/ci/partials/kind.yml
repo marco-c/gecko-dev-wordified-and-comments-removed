@@ -182,16 +182,6 @@ devedition
 nightly
 /
 opt
--
-linux64
--
-asan
--
-reporter
--
-nightly
-/
-opt
 job
 -
 template
