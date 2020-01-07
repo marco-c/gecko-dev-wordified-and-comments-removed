@@ -20527,11 +20527,6 @@ false
 *
 backEdge
 =
-std
-:
-:
-move
-(
 BackEdge
 (
 origin
@@ -20541,7 +20536,6 @@ std
 move
 (
 edgeName
-)
 )
 )
 ;
