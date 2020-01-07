@@ -27432,7 +27432,6 @@ toGetPropertyPolymorphic
 )
 ;
 }
-virtual
 const
 char
 *
@@ -27544,7 +27543,6 @@ toGetPropertyPolymorphic
 )
 ;
 }
-virtual
 const
 char
 *
