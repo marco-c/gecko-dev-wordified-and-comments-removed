@@ -462,15 +462,19 @@ True
 )
         
 import
-moztreedocs
-        
-import
 webbrowser
         
 from
 livereload
 import
 Server
+        
+from
+moztreedocs
+.
+package
+import
+create_tarball
         
 outdir
 =
@@ -712,8 +716,6 @@ project
 ]
 )
             
-moztreedocs
-.
 create_tarball
 (
 archive_path
@@ -1138,6 +1140,8 @@ boto3
         
 from
 moztreedocs
+.
+package
 import
 distribution_files
         
