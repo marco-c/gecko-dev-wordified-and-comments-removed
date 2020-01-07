@@ -31539,6 +31539,15 @@ onStopTime
 )
 ;
 }
+mResponseTrailers
+=
+mTransaction
+-
+>
+TakeResponseTrailers
+(
+)
+;
 mTransactionTimings
 =
 mTransaction

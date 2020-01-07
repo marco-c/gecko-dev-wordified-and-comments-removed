@@ -275,6 +275,11 @@ HttpInfo
 h
 '
 '
+nsServerTiming
+.
+h
+'
+'
 NullHttpChannel
 .
 h
@@ -504,6 +509,11 @@ cpp
 '
 '
 nsHttpTransaction
+.
+cpp
+'
+'
+nsServerTiming
 .
 cpp
 '
