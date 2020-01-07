@@ -56,6 +56,14 @@ unix
 mozconfig
 .
 asan
+ac_add_options
+-
+-
+disable
+-
+elf
+-
+hack
 #
 Package
 js

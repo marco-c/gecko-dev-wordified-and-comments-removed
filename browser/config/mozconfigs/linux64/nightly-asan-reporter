@@ -63,6 +63,14 @@ asan
 ac_add_options
 -
 -
+disable
+-
+elf
+-
+hack
+ac_add_options
+-
+-
 enable
 -
 address
