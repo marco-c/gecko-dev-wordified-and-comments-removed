@@ -2468,13 +2468,6 @@ GetInFlowParent
 )
 const
 ;
-nsIFrame
-*
-GetFlattenedTreeParentPrimaryFrame
-(
-)
-const
-;
 inline
 nsPlaceholderFrame
 *
