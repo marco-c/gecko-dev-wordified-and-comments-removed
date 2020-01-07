@@ -984,12 +984,6 @@ WindowProxy
 ?
 defaultView
 ;
-readonly
-attribute
-Element
-?
-activeElement
-;
 [
 Throws
 ]
@@ -2076,14 +2070,6 @@ partial
 interface
 Document
 {
-[
-Constant
-]
-readonly
-attribute
-StyleSheetList
-styleSheets
-;
 attribute
 DOMString
 ?
@@ -3477,4 +3463,8 @@ GeometryUtils
 Document
 implements
 FontFaceSource
+;
+Document
+implements
+DocumentOrShadowRoot
 ;

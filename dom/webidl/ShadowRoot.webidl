@@ -212,12 +212,6 @@ ShadowRoot
 :
 DocumentFragment
 {
-readonly
-attribute
-Element
-?
-activeElement
-;
 /
 /
 Shadow
@@ -288,10 +282,9 @@ attribute
 boolean
 applyAuthorStyles
 ;
-readonly
-attribute
-StyleSheetList
-styleSheets
-;
 }
+;
+ShadowRoot
+implements
+DocumentOrShadowRoot
 ;
