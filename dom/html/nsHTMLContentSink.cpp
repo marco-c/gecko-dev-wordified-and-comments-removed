@@ -767,8 +767,6 @@ aContent
 nsIContent
 *
 aChildContent
-int32_t
-aIndexInContainer
 )
 ;
 void
@@ -1455,7 +1453,6 @@ NotifyInsert
 (
 parent
 aContent
-childIndex
 )
 ;
 mStack
@@ -2314,7 +2311,6 @@ NotifyInsert
 (
 content
 child
-childIndex
 )
 ;
 }
@@ -3432,9 +3428,6 @@ NotifyInsert
 (
 parent
 mBody
-insertionPoint
--
-1
 )
 ;
 }
@@ -3735,8 +3728,6 @@ aContent
 nsIContent
 *
 aChildContent
-int32_t
-aIndexInContainer
 )
 {
 if
