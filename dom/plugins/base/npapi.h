@@ -1027,6 +1027,7 @@ NPNVsupportsCompositingCoreAnimationPluginsBool
 74656
 #
 endif
+NPNVLast
 }
 NPNVariable
 ;
