@@ -586,7 +586,12 @@ RGBA4
 constants
 :
 :
-DEPTH_STENCIL
+RGB565
+|
+constants
+:
+:
+RGB5_A1
 |
 constants
 :
@@ -597,8 +602,14 @@ constants
 :
 :
 STENCIL_INDEX8
+|
+constants
+:
+:
+DEPTH_STENCIL
 =
 >
+{
 self
 .
 internal_format
@@ -610,6 +621,7 @@ Some
 internal_format
 )
 )
+}
 _
 =
 >
