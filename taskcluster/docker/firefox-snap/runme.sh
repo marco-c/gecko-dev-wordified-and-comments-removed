@@ -464,6 +464,7 @@ v
 SCRIPT_DIRECTORY
 /
 mime
+"
 {
 -
 handler
@@ -473,7 +474,6 @@ apps
 .
 list
 }
-"
 "
 WORKSPACE
 "
