@@ -359,14 +359,6 @@ CXXFLAGS
 -
 Wno
 -
-error
-=
-shadow
-'
-'
--
-Wno
--
 old
 -
 style

@@ -769,9 +769,6 @@ DigestAlgorithm
 algorithm
 )
 {
-Reader
-r
-;
 return
 der
 :

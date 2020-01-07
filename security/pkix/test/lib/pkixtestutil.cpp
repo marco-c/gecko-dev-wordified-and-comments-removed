@@ -626,14 +626,14 @@ OCSPResponseContext
 const
 CertID
 &
-certID
+aCertID
 time_t
 time
 )
 :
 certID
 (
-certID
+aCertID
 )
 responseStatus
 (
@@ -4795,7 +4795,7 @@ TestKeyPair
 const
 TestPublicKeyAlgorithm
 &
-publicKeyAlg
+aPublicKeyAlg
 const
 ByteString
 &
@@ -4804,7 +4804,7 @@ spk
 :
 publicKeyAlg
 (
-publicKeyAlg
+aPublicKeyAlg
 )
 subjectPublicKeyInfo
 (
@@ -4814,7 +4814,7 @@ der
 :
 :
 SEQUENCE
-publicKeyAlg
+aPublicKeyAlg
 .
 algorithmIdentifier
 +
