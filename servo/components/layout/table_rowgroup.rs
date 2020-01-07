@@ -28,7 +28,7 @@ context
 LayoutContext
 ;
 use
-display_list_builder
+display_list
 :
 :
 {
@@ -37,7 +37,7 @@ DisplayListBuildState
 }
 ;
 use
-display_list_builder
+display_list
 :
 :
 {

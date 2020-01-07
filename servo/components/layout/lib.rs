@@ -195,7 +195,7 @@ data
 ;
 pub
 mod
-display_list_builder
+display_list
 ;
 mod
 flex
@@ -285,10 +285,6 @@ text
 pub
 mod
 traversal
-;
-pub
-mod
-webrender_helpers
 ;
 pub
 mod
