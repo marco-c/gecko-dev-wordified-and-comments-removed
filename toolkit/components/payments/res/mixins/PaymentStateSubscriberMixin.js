@@ -98,6 +98,12 @@ shipping
 "
 }
 }
+selectedPaymentCard
+:
+null
+selectedShippingAddress
+:
+null
 savedAddresses
 :
 {

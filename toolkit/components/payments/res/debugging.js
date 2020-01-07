@@ -1,5 +1,5 @@
 const
-requestStore
+paymentDialog
 =
 window
 .
@@ -15,6 +15,11 @@ payment
 dialog
 "
 )
+;
+const
+requestStore
+=
+paymentDialog
 .
 requestStore
 ;
@@ -639,9 +644,9 @@ savedAddresses
 ]
 ]
 ;
-requestStore
+paymentDialog
 .
-setState
+setStateFromParent
 (
 {
 savedAddresses
@@ -719,9 +724,9 @@ setAddresses1
 (
 )
 {
-requestStore
+paymentDialog
 .
-setState
+setStateFromParent
 (
 {
 savedAddresses
