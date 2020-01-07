@@ -1545,7 +1545,7 @@ internal
 ]
 )
 def
-docker_worker_use_artifacts
+support_use_artifacts
 (
 config
 job
