@@ -21254,10 +21254,6 @@ ChangeNetworkState
 NETWORK_LOADING
 )
 ;
-mMediaSecurityVerified
-=
-false
-;
 SetDecoder
 (
 aDecoder

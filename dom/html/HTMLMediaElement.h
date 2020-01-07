@@ -3663,11 +3663,6 @@ WakeLockBoolWrapper
 mPaused
 ;
 bool
-mStatsShowing
-=
-false
-;
-bool
 mAllowCasting
 =
 false
@@ -3759,11 +3754,6 @@ false
 ;
 bool
 mSrcStreamIsPlaying
-=
-false
-;
-bool
-mMediaSecurityVerified
 =
 false
 ;
