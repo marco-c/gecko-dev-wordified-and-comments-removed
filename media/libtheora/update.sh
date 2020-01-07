@@ -1104,15 +1104,6 @@ p3
 <
 .
 /
-bug703135
-.
-patch
-patch
--
-p3
-<
-.
-/
 bug920992
 .
 patch
