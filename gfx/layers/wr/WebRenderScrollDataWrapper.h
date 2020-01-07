@@ -1056,6 +1056,16 @@ GetFixedPositionScrollContainerId
 )
 ;
 }
+bool
+IsBackfaceHidden
+(
+)
+const
+{
+return
+false
+;
+}
 const
 void
 *

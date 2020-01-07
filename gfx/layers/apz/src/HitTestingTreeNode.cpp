@@ -151,6 +151,10 @@ FrameMetrics
 :
 NULL_SCROLL_ID
 )
+mIsBackfaceHidden
+(
+false
+)
 mOverride
 (
 EventRegionsOverride
@@ -968,6 +972,8 @@ const
 EventRegionsOverride
 &
 aOverride
+bool
+aIsBackfaceHidden
 )
 {
 mEventRegions
@@ -989,6 +995,10 @@ aClipRegion
 mOverride
 =
 aOverride
+;
+mIsBackfaceHidden
+=
+aIsBackfaceHidden
 ;
 }
 bool
@@ -1130,6 +1140,15 @@ Round
 aPoint
 )
 ;
+if
+(
+mIsBackfaceHidden
+)
+{
+return
+result
+;
+}
 if
 (
 !

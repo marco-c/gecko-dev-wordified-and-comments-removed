@@ -235,6 +235,8 @@ const
 EventRegionsOverride
 &
 aOverride
+bool
+aIsBackfaceHidden
 )
 ;
 bool
@@ -481,6 +483,9 @@ mVisibleRegion
 ;
 CSSTransformMatrix
 mTransform
+;
+bool
+mIsBackfaceHidden
 ;
 Maybe
 <
