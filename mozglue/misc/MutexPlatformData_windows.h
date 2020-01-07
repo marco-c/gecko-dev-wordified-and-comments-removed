@@ -32,8 +32,8 @@ MutexImpl
 :
 PlatformData
 {
-SRWLOCK
-lock
+CRITICAL_SECTION
+criticalSection
 ;
 }
 ;
