@@ -328,11 +328,7 @@ tab
 .
 linkedBrowser
 .
-contentWindow
-.
-history
-.
-back
+goBack
 (
 )
 ;

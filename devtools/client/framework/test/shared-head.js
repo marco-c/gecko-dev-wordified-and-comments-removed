@@ -608,6 +608,9 @@ arguments
 ;
 if
 (
+message
+&
+&
 /
 Failed
 propType
@@ -616,6 +619,10 @@ propType
 test
 (
 message
+.
+toString
+(
+)
 )
 )
 {

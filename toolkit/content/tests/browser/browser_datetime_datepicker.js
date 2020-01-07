@@ -1310,9 +1310,9 @@ Assert
 .
 equal
 (
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 .
 querySelector
 (

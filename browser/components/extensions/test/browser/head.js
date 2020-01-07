@@ -1686,7 +1686,7 @@ gBrowser
 .
 selectedBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 ;
 let
 frame

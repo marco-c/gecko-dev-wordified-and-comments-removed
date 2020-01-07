@@ -147,7 +147,7 @@ targetElement
 =
 targetBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 .
 documentElement
 ;
@@ -297,7 +297,7 @@ tab
 .
 linkedBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 ;
 let
 video
@@ -502,7 +502,7 @@ tab
 .
 linkedBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 ;
 let
 video

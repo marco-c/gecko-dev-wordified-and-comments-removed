@@ -2548,7 +2548,9 @@ listener
 true
 )
 ;
-content
+gBrowser
+.
+contentWindowAsCPOW
 .
 history
 .

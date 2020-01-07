@@ -101,9 +101,7 @@ reload
 "
 )
 ;
-content
-.
-location
+gBrowser
 .
 reload
 (
@@ -135,9 +133,9 @@ navigated
 let
 button
 =
-content
+gBrowser
 .
-document
+contentDocumentAsCPOW
 .
 querySelector
 (
@@ -182,7 +180,9 @@ click
 "
 }
 button
-content
+gBrowser
+.
+contentWindowAsCPOW
 )
 ;
 yield

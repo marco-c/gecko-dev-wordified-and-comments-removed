@@ -396,13 +396,14 @@ loadPromise
 =
 BrowserTestUtils
 .
-browserLoaded
+waitForContentEvent
 (
 tab
 .
 linkedBrowser
-false
-VIEW_SRC_URI
+"
+pageshow
+"
 )
 ;
 let

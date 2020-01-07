@@ -587,7 +587,7 @@ tab
 .
 linkedBrowser
 .
-contentDocument
+contentDocumentAsCPOW
 .
 hidden
 )
