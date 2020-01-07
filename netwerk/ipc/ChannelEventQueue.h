@@ -980,6 +980,16 @@ IsEmpty
 (
 )
 ;
+if
+(
+flushQueue
+)
+{
+mFlushing
+=
+true
+;
+}
 }
 if
 (
