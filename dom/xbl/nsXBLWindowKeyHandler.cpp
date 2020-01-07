@@ -881,9 +881,6 @@ valKey
 valCharCode
 valKeyCode
 ;
-bool
-attrExists
-=
 keyElement
 -
 >
@@ -927,9 +924,6 @@ valKeyCode
 ;
 if
 (
-attrExists
-&
-&
 valKey
 .
 IsEmpty
@@ -950,8 +944,10 @@ IsEmpty
 (
 )
 )
+{
 continue
 ;
+}
 XBLReservedKey
 reserved
 =
