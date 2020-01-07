@@ -638,7 +638,7 @@ IsTimerPrecisionReductionEnabled
 ;
 static
 double
-ReduceTimePrecisionAsMSecs
+ReduceTimePrecisionAsUSecs
 (
 double
 aTime
@@ -646,7 +646,7 @@ aTime
 ;
 static
 double
-ReduceTimePrecisionAsUSecs
+ReduceTimePrecisionAsMSecs
 (
 double
 aTime
@@ -658,6 +658,18 @@ ReduceTimePrecisionAsSecs
 (
 double
 aTime
+)
+;
+static
+double
+ReduceTimePrecisionImpl
+(
+double
+aTime
+double
+aResolutionUSec
+double
+aTimeScaleCorrection
 )
 ;
 static
