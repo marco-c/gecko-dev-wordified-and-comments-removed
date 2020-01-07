@@ -2483,6 +2483,17 @@ setSecureContext
 true
 )
 ;
+aOptions
+.
+creationOptions
+(
+)
+.
+setClampAndJitterTime
+(
+false
+)
+;
 }
 if
 (

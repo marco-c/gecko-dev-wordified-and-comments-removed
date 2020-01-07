@@ -7759,6 +7759,17 @@ aURI
 )
 )
 ;
+options
+.
+creationOptions
+(
+)
+.
+setClampAndJitterTime
+(
+false
+)
+;
 }
 options
 .
