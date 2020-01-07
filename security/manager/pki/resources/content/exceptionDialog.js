@@ -296,6 +296,12 @@ exceptionAdded
 false
 ;
 }
+window
+.
+sizeToContent
+(
+)
+;
 }
 function
 grabCert
@@ -679,6 +685,12 @@ status3LongDescription
 "
 "
 "
+)
+;
+window
+.
+sizeToContent
+(
 )
 ;
 }
