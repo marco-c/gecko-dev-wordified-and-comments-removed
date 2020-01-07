@@ -837,6 +837,15 @@ DoNotifyListenerCleanup
 )
 override
 ;
+virtual
+void
+DoAsyncAbort
+(
+nsresult
+aStatus
+)
+override
+;
 NS_IMETHOD
 GetResponseSynthesized
 (

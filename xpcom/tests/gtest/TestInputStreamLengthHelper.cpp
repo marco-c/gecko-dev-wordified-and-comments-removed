@@ -132,7 +132,7 @@ false
 InputStreamLengthHelper
 :
 :
-GetLength
+GetAsyncLength
 (
 stream
 [
@@ -454,7 +454,7 @@ false
 InputStreamLengthHelper
 :
 :
-GetLength
+GetAsyncLength
 (
 stream
 [
@@ -525,7 +525,7 @@ false
 InputStreamLengthHelper
 :
 :
-GetLength
+GetAsyncLength
 (
 stream
 [
@@ -597,7 +597,7 @@ false
 InputStreamLengthHelper
 :
 :
-GetLength
+GetAsyncLength
 (
 stream
 [
@@ -669,7 +669,7 @@ false
 InputStreamLengthHelper
 :
 :
-GetLength
+GetAsyncLength
 (
 stream
 [

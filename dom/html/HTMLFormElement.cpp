@@ -3014,12 +3014,6 @@ nsIInputStream
 >
 postDataStream
 ;
-int64_t
-postDataStreamLength
-=
--
-1
-;
 rv
 =
 aFormSubmission
@@ -3032,8 +3026,6 @@ getter_AddRefs
 (
 postDataStream
 )
-&
-postDataStreamLength
 actionURI
 )
 ;
@@ -3060,7 +3052,6 @@ VoidString
 (
 )
 postDataStream
-postDataStreamLength
 nullptr
 false
 getter_AddRefs

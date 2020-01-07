@@ -161,9 +161,6 @@ nsIInputStream
 *
 *
 aPostDataStream
-int64_t
-*
-aPostDataStreamLength
 nsCOMPtr
 <
 nsIURI
@@ -402,9 +399,6 @@ nsIInputStream
 *
 *
 aPostDataStream
-int64_t
-*
-aPostDataStreamLength
 nsCOMPtr
 <
 nsIURI
