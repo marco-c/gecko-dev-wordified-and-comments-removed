@@ -32,8 +32,6 @@ MOZ_EXPORT
 void
 SandboxEarlyInit
 (
-GeckoProcessType
-aType
 )
 ;
 #

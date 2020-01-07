@@ -100,12 +100,6 @@ kPermissive
 <
 <
 7
-kUnexpectedThreads
-=
-1
-<
-<
-8
 }
 ;
 bool
@@ -177,13 +171,6 @@ return
 mFlags
 ;
 }
-static
-MOZ_EXPORT
-void
-ThreadingCheck
-(
-)
-;
 private
 :
 enum
@@ -191,6 +178,7 @@ Flags
 mFlags
 ;
 static
+const
 MOZ_EXPORT
 SandboxInfo
 sSingleton

@@ -566,7 +566,7 @@ XP_LINUX
 &
 defined
 (
-MOZ_GMP_SANDBOX
+MOZ_SANDBOX
 )
 #
 include
@@ -574,15 +574,6 @@ include
 mozilla
 /
 Sandbox
-.
-h
-"
-#
-include
-"
-mozilla
-/
-SandboxInfo
 .
 h
 "
@@ -1597,9 +1588,6 @@ mozilla
 :
 SandboxEarlyInit
 (
-XRE_GetProcessType
-(
-)
 )
 ;
 #
