@@ -144,6 +144,16 @@ jar
 mn
 '
 ]
+SPHINX_TREES
+[
+'
+l10n
+'
+]
+=
+'
+docs
+'
 FINAL_LIBRARY
 =
 '
