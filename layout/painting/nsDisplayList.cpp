@@ -25496,7 +25496,7 @@ borderRenderer
 )
 {
 return
-false
+true
 ;
 }
 borderRenderer
