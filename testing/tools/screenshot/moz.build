@@ -149,15 +149,6 @@ CONFIG
 TK_LIBS
 '
 ]
-OS_LIBS
-+
-=
-CONFIG
-[
-'
-XSS_LIBS
-'
-]
 elif
 CONFIG
 [
