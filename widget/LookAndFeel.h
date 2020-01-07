@@ -240,6 +240,7 @@ eIntID_GTKCSDAvailable
 eIntID_GTKCSDMinimizeButton
 eIntID_GTKCSDMaximizeButton
 eIntID_GTKCSDCloseButton
+eIntID_SystemUsesDarkTheme
 }
 ;
 enum
