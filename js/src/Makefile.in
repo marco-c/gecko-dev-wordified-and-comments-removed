@@ -312,7 +312,7 @@ style
 (
 cd
 (
-srcdir
+topsrcdir
 )
 &
 &
