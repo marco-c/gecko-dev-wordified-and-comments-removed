@@ -401,11 +401,11 @@ TEST_URI
 let
 {
 inspector
-boxmodel
+view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -421,7 +421,7 @@ tooltips
 ;
 ok
 (
-boxmodel
+view
 .
 document
 .
@@ -453,7 +453,7 @@ tooltip
 ;
 is
 (
-boxmodel
+view
 .
 document
 .
@@ -490,7 +490,7 @@ content
 ;
 ok
 (
-boxmodel
+view
 .
 document
 .
@@ -522,7 +522,7 @@ tooltip
 ;
 is
 (
-boxmodel
+view
 .
 document
 .
@@ -559,7 +559,7 @@ content
 ;
 ok
 (
-boxmodel
+view
 .
 document
 .
@@ -591,7 +591,7 @@ tooltip
 ;
 is
 (
-boxmodel
+view
 .
 document
 .
@@ -628,7 +628,7 @@ content
 ;
 ok
 (
-boxmodel
+view
 .
 document
 .
@@ -660,7 +660,7 @@ tooltip
 ;
 is
 (
-boxmodel
+view
 .
 document
 .
@@ -745,7 +745,7 @@ for
 let
 key
 in
-boxmodel
+view
 .
 map
 )
@@ -767,7 +767,7 @@ continue
 let
 name
 =
-boxmodel
+view
 .
 map
 [
@@ -798,13 +798,13 @@ name
 let
 el
 =
-boxmodel
+view
 .
 document
 .
 querySelector
 (
-boxmodel
+view
 .
 map
 [

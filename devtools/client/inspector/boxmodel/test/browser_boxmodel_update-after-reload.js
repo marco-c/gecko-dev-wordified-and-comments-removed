@@ -25,12 +25,12 @@ html
 let
 {
 inspector
-boxmodel
+view
 testActor
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -55,7 +55,7 @@ yield
 assertBoxModelView
 (
 inspector
-boxmodel
+view
 testActor
 )
 ;
@@ -107,7 +107,7 @@ yield
 assertBoxModelView
 (
 inspector
-boxmodel
+view
 testActor
 )
 ;
@@ -119,7 +119,7 @@ function
 assertBoxModelView
 (
 inspector
-boxmodel
+view
 testActor
 )
 {
@@ -151,7 +151,7 @@ value
 let
 paddingElt
 =
-boxmodel
+view
 .
 document
 .

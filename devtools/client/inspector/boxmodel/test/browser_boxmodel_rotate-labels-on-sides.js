@@ -331,11 +331,11 @@ TEST_URI
 let
 {
 inspector
-boxmodel
+view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -369,7 +369,7 @@ i
 let
 elt
 =
-boxmodel
+view
 .
 document
 .
