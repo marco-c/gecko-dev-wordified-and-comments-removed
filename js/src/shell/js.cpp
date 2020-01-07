@@ -19780,13 +19780,6 @@ cx
 sc
 )
 ;
-JS_SetGrayGCRootsTracer
-(
-cx
-TraceGrayRoots
-nullptr
-)
-;
 SetWorkerContextOptions
 (
 cx
