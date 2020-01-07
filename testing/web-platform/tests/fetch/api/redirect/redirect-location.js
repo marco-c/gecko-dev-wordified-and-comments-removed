@@ -325,7 +325,6 @@ var
 invalidLocationUrl
 =
 "
-#
 invalidurl
 :
 "
