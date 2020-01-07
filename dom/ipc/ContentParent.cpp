@@ -9965,6 +9965,15 @@ safeMode
 )
 ;
 }
+SetOtherProcessId
+(
+kInvalidProcessId
+ProcessIdState
+:
+:
+ePending
+)
+;
 if
 (
 !
