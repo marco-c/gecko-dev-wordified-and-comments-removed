@@ -707,6 +707,7 @@ renderPreferences
 {
 document
 Preferences
+gHomePane
 }
 strings
 prefStructure
@@ -1617,6 +1618,12 @@ bool
 )
 ;
 }
+)
+;
+gHomePane
+.
+toggleRestoreDefaultsBtn
+(
 )
 ;
 }
