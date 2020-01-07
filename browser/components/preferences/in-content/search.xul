@@ -488,17 +488,6 @@ showURLBarSuggestions2
 accesskey
 ;
 "
-preference
-=
-"
-browser
-.
-urlbar
-.
-suggest
-.
-searches
-"
 /
 >
 <
