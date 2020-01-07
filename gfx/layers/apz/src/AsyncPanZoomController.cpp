@@ -4497,6 +4497,15 @@ GetTouchStartTolerance
 (
 )
 ;
+if
+(
+panThreshold
+>
+0
+.
+0f
+)
+{
 UpdateWithTouchAtDevicePoint
 (
 aEvent
@@ -4514,6 +4523,7 @@ panThreshold
 return
 nsEventStatus_eIgnore
 ;
+}
 }
 ParentLayerPoint
 touchPoint
