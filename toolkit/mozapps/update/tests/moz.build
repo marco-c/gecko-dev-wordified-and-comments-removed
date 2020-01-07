@@ -224,16 +224,6 @@ OS_ARCH
 WINNT
 '
 :
-USE_LIBS
-+
-=
-[
-'
-updatecommon
--
-standalone
-'
-]
 OS_LIBS
 +
 =
@@ -242,8 +232,6 @@ OS_LIBS
 shlwapi
 '
 ]
-else
-:
 USE_LIBS
 +
 =

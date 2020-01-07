@@ -95,9 +95,6 @@ DIRS
 =
 [
 '
-common
-'
-'
 updater
 '
 ]
