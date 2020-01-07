@@ -94,3 +94,12 @@ dependencies
 :
 -
 partials
+job
+-
+template
+:
+shipping
+-
+phase
+:
+promote
