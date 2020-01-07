@@ -1148,9 +1148,11 @@ aAddPrefixes
 void
 AddGethashResultToCache
 (
+const
 AddCompleteArray
 &
 aAddCompletes
+const
 MissPrefixArray
 &
 aMissPrefixes

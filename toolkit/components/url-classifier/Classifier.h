@@ -193,7 +193,7 @@ FlushAndDisableAsyncUpdate
 nsresult
 ApplyFullHashes
 (
-TableUpdateArray
+ConstTableUpdateArray
 &
 aUpdates
 )
@@ -427,6 +427,7 @@ UpdateCache
 (
 RefPtr
 <
+const
 TableUpdate
 >
 aUpdates

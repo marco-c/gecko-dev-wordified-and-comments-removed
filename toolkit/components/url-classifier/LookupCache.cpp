@@ -3052,9 +3052,11 @@ LookupCacheV2
 :
 AddGethashResultToCache
 (
+const
 AddCompleteArray
 &
 aAddCompletes
+const
 MissPrefixArray
 &
 aMissPrefixes

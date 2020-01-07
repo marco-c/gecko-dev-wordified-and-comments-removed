@@ -149,8 +149,11 @@ aResponseMap
 nsresult
 WriteMetadata
 (
+RefPtr
+<
+const
 TableUpdateV4
-*
+>
 aTableUpdate
 )
 ;
