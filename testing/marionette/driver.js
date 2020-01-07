@@ -13153,6 +13153,17 @@ teardownReftest
 "
 WebDriver
 :
+AcceptAlert
+"
+:
+GeckoDriver
+.
+prototype
+.
+acceptDialog
+"
+WebDriver
+:
 AcceptDialog
 "
 :
