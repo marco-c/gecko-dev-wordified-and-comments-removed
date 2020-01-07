@@ -7417,7 +7417,7 @@ this
 EditSubAction
 :
 :
-insertQuotation
+eInsertQuotation
 nsIEditor
 :
 :
@@ -8210,7 +8210,7 @@ this
 EditSubAction
 :
 :
-insertQuotation
+eInsertQuotation
 nsIEditor
 :
 :
@@ -8656,7 +8656,7 @@ this
 EditSubAction
 :
 :
-insertQuotation
+eInsertQuotation
 nsIEditor
 :
 :

@@ -44,7 +44,7 @@ eCreateOrRemoveBlock
 eRemoveList
 eCreateOrChangeDefinitionList
 eInsertElement
-insertQuotation
+eInsertQuotation
 htmlPaste
 =
 3012

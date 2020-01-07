@@ -509,7 +509,7 @@ aEditSubAction
 EditSubAction
 :
 :
-insertQuotation
+eInsertQuotation
 ;
 }
 static
