@@ -28349,7 +28349,7 @@ return
 false
 ;
 }
-CompleteLastActionIfStillIncomplete
+RemoveLastCompositionUpdateActions
 (
 )
 ;
