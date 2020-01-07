@@ -45,12 +45,6 @@ call
 get
 untar
 unzip
-from
-mozdownload
-import
-FactoryScraper
-import
-mozinstall
 logger
 =
 logging
@@ -626,6 +620,14 @@ Firefox
 "
 "
 "
+        
+from
+mozdownload
+import
+FactoryScraper
+        
+import
+mozinstall
         
 if
 dest
