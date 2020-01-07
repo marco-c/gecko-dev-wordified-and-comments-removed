@@ -1359,7 +1359,6 @@ libc
 malloc
 (
 (
-(
 buffer
 .
 len
@@ -1370,7 +1369,6 @@ len
 )
 *
 2
-)
 )
 as
 *

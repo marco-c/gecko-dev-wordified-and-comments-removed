@@ -713,9 +713,7 @@ dom_rule
 ;
 Ok
 (
-(
 idx
-)
 )
 }
 pub

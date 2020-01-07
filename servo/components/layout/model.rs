@@ -2610,11 +2610,9 @@ min_size
 =
 max
 (
-(
 min_size
 -
 border
-)
 Au
 (
 0

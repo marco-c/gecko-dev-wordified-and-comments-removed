@@ -714,7 +714,6 @@ is_empty
 return
 Err
 (
-(
 Error
 :
 :
@@ -729,7 +728,6 @@ empty
 .
 to_string
 (
-)
 )
 )
 )

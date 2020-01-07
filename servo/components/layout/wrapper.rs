@@ -303,7 +303,7 @@ opaque
 .
 ptr
 .
-get
+as_ptr
 (
 )
 as
