@@ -6846,9 +6846,12 @@ RealmCreationOptions
 )
 RealmCreationOptionsRef
 (
-JSCompartment
+JS
+:
+:
+Realm
 *
-compartment
+realm
 )
 ;
 JS_PUBLIC_API
