@@ -245,13 +245,7 @@ services
 -
 gcm
 :
-{
-mozconfig
-.
-substs
-.
-ANDROID_GOOGLE_PLAY_SERVICES_VERSION
-}
+google_play_services_version
 "
 }
 }
