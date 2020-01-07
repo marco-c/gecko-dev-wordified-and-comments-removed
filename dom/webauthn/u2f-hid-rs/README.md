@@ -115,9 +115,10 @@ Platforms
 :
 Windows
 Linux
-FreeBSD
 and
-macOS
+Mac
+OS
+X
 .
 *
 *
