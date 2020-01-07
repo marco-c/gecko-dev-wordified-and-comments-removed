@@ -49,6 +49,16 @@ PaymentsStore
 .
 js
 "
+"
+test
+/
+mochitest
+/
+test_
+*
+.
+html
+"
 ]
 parserOptions
 :
