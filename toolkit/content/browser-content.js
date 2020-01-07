@@ -2710,6 +2710,14 @@ case
 resumeMedia
 "
 :
+content
+.
+document
+.
+notifyUserGestureActivation
+(
+)
+;
 utils
 .
 mediaSuspend
