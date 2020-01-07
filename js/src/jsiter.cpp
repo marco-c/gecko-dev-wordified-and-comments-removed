@@ -4926,6 +4926,17 @@ return
 iterResultTemplate_
 ;
 }
+if
+(
+!
+group
+-
+>
+unknownProperties
+(
+)
+)
+{
 HeapTypeSet
 *
 types
@@ -4968,6 +4979,7 @@ makeUnknown
 cx
 )
 ;
+}
 }
 DebugOnly
 <
