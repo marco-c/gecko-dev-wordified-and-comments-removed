@@ -1,15 +1,3 @@
-const
-{
-classes
-:
-Cc
-interfaces
-:
-Ci
-}
-=
-Components
-;
 function
 getGzippedFileBytes
 (

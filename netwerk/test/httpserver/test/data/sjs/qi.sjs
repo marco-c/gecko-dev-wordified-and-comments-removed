@@ -1,10 +1,3 @@
-const
-Ci
-=
-Components
-.
-interfaces
-;
 function
 handleRequest
 (

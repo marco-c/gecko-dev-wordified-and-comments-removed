@@ -476,13 +476,6 @@ header
 ;
 }
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 CC
 =
 Components

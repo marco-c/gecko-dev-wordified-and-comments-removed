@@ -120,13 +120,6 @@ completing
 the
 request
 .
-const
-Ci
-=
-Components
-.
-interfaces
-;
 let
 nsTimer
 =
