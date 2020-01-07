@@ -11638,25 +11638,6 @@ DMD
 '
 )
         
-if
-options
-.
-flavor
-=
-=
-'
-browser
-'
-:
-            
-del
-browserEnv
-[
-"
-MOZ_CRASHREPORTER_SHUTDOWN
-"
-]
-        
 browserEnv
 [
 "
