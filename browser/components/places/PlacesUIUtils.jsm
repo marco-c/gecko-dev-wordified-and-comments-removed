@@ -4385,7 +4385,7 @@ event
 keyCode
 =
 =
-KeyEvent
+event
 .
 DOM_VK_RETURN
 )
