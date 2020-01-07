@@ -152,13 +152,6 @@ xul
 :
 button
 "
-role
-=
-"
-xul
-:
-thumb
-"
 >
 <
 resources
@@ -259,13 +252,6 @@ binding
 id
 =
 "
-scale
-"
-role
-=
-"
-xul
-:
 scale
 "
 extends
