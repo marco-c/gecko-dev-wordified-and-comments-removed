@@ -208,5 +208,16 @@ r317709
 .
 patch
 "
+"
+hide
+-
+gcda
+-
+profiling
+-
+symbols
+.
+patch
+"
 ]
 }
