@@ -3690,6 +3690,14 @@ chromeTargetEtci
 chromeTargetEtci
 -
 >
+SetIsChromeHandler
+(
+true
+)
+;
+chromeTargetEtci
+-
+>
 GetEventTargetParent
 (
 aPreVisitor
