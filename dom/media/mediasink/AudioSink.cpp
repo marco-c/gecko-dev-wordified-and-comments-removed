@@ -1962,11 +1962,16 @@ inputLayout
 data
 -
 >
+mChannels
+data
+-
+>
 mRate
 )
 AudioConfig
 (
 outputLayout
+mOutputChannels
 mOutputRate
 )
 )
