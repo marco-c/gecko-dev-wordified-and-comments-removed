@@ -568,7 +568,10 @@ GlobalJSObject
 )
 const
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 Compartment
 (

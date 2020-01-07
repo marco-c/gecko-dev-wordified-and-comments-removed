@@ -4706,7 +4706,10 @@ JSContext
 *
 cx_
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment_
 ;
@@ -4781,7 +4784,10 @@ return
 cx_
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (
@@ -7016,7 +7022,10 @@ realm
 )
 const
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (

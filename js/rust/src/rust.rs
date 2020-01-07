@@ -6213,7 +6213,10 @@ JSObject
 >
 *
 mut
-JSCompartment
+JS
+:
+:
+Compartment
 {
 let
 realm

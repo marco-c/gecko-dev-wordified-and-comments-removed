@@ -24583,7 +24583,10 @@ edge
 .
 referent
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 =

@@ -3352,7 +3352,10 @@ obj
 JSObject
 *
 global
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 )

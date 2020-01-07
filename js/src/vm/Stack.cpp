@@ -4754,7 +4754,10 @@ state
 )
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 FrameIter
 :

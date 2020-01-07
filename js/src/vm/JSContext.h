@@ -1039,7 +1039,10 @@ return
 nurserySuppressions_
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (

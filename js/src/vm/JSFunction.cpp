@@ -10408,7 +10408,10 @@ js
 :
 CanReuseScriptForClone
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 HandleFunction

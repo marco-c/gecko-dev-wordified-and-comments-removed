@@ -165,7 +165,10 @@ aOptions
 ErrorResult
 &
 aRv
-JSCompartment
+JS
+:
+:
+Compartment
 *
 aCompartment
 =

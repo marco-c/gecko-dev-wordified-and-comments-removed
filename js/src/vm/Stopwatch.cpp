@@ -546,7 +546,10 @@ CPOWTimeStart_
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =
@@ -734,7 +737,10 @@ length
 return
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =

@@ -11664,7 +11664,10 @@ aCx
 oldParent
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 oldCompartment
 =
@@ -11676,7 +11679,10 @@ GetObjectCompartment
 oldParent
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 newCompartment
 =

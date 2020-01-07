@@ -3724,7 +3724,10 @@ const
 void
 callWeakPointerCompartmentCallbacks
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )

@@ -1494,7 +1494,10 @@ js
 :
 Vector
 <
-JSCompartment
+JS
+:
+:
+Compartment
 *
 1
 js
@@ -3371,7 +3374,10 @@ b
 void
 deleteEmptyCompartment
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )

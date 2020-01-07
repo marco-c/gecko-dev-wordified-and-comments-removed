@@ -42,7 +42,10 @@ ASSERT_TRUE
 newGlobal
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 newCompartment
 =

@@ -1668,7 +1668,7 @@ traceKeptAtoms
 trc
 )
 ;
-JSCompartment
+Compartment
 :
 :
 traceIncomingCrossCompartmentEdgesForZoneGC

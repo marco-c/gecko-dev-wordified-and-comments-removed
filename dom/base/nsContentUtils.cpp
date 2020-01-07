@@ -14209,7 +14209,10 @@ aObj
 ;
 #
 endif
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =

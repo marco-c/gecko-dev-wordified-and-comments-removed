@@ -5580,7 +5580,10 @@ MOZ_ASSERT
 realm
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 c
 =

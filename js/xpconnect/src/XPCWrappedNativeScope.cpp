@@ -337,7 +337,10 @@ MOZ_COUNT_CTOR
 XPCWrappedNativeScope
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 c
 =
@@ -1906,7 +1909,10 @@ AssertSameCompartment
 (
 DebugOnly
 <
-JSCompartment
+JS
+:
+:
+Compartment
 *
 >
 &
@@ -1939,7 +1945,10 @@ AssertSameCompartment
 (
 DebugOnly
 <
-JSCompartment
+JS
+:
+:
+Compartment
 *
 >
 &
@@ -2059,7 +2068,10 @@ return
 }
 DebugOnly
 <
-JSCompartment
+JS
+:
+:
+Compartment
 *
 >
 comp

@@ -2528,7 +2528,10 @@ GetGlobalJSObject
 )
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 Promise
 :

@@ -261,10 +261,10 @@ mozilla
 :
 PodArrayZero
 ;
-JSCompartment
+Compartment
 :
 :
-JSCompartment
+Compartment
 (
 Zone
 *
@@ -331,7 +331,7 @@ Realm
 :
 Realm
 (
-JSCompartment
+Compartment
 *
 comp
 const
@@ -528,7 +528,7 @@ numRealms
 ;
 }
 bool
-JSCompartment
+Compartment
 :
 :
 init
@@ -956,7 +956,7 @@ t
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 checkWrapperMapAfterMovingGC
@@ -1070,7 +1070,7 @@ front
 #
 endif
 bool
-JSCompartment
+Compartment
 :
 :
 putWrapper
@@ -1434,7 +1434,7 @@ len
 ;
 }
 bool
-JSCompartment
+Compartment
 :
 :
 wrap
@@ -1615,7 +1615,7 @@ true
 ifdef
 ENABLE_BIGINT
 bool
-JSCompartment
+Compartment
 :
 :
 wrap
@@ -1695,7 +1695,7 @@ true
 #
 endif
 bool
-JSCompartment
+Compartment
 :
 :
 getNonWrapperObjectForCurrentCompartment
@@ -1902,7 +1902,7 @@ true
 ;
 }
 bool
-JSCompartment
+Compartment
 :
 :
 getOrCreateWrapper
@@ -2100,7 +2100,7 @@ true
 ;
 }
 bool
-JSCompartment
+Compartment
 :
 :
 wrap
@@ -2196,7 +2196,7 @@ true
 ;
 }
 bool
-JSCompartment
+Compartment
 :
 :
 rewrap
@@ -2340,7 +2340,7 @@ obj
 ;
 }
 bool
-JSCompartment
+Compartment
 :
 :
 wrap
@@ -2436,7 +2436,7 @@ value
 ;
 }
 bool
-JSCompartment
+Compartment
 :
 :
 wrap
@@ -2892,7 +2892,7 @@ false
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 traceOutgoingCrossCompartmentWrappers
@@ -3031,7 +3031,7 @@ wrapper
 }
 }
 void
-JSCompartment
+Compartment
 :
 :
 traceIncomingCrossCompartmentEdgesForZoneGC
@@ -3647,7 +3647,7 @@ sweepAfterMinorGC
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 sweepAfterMinorGC
@@ -3939,7 +3939,7 @@ sweepNativeIterators
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 sweepCrossCompartmentWrappers
@@ -4187,7 +4187,7 @@ nullptr
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 fixupCrossCompartmentWrappersAfterMovingGC
@@ -4286,7 +4286,7 @@ fixupScriptMapsAfterMovingGC
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 fixupAfterMovingGC
@@ -6378,7 +6378,7 @@ handler
 }
 }
 void
-JSCompartment
+Compartment
 :
 :
 addSizeOfIncludingThis

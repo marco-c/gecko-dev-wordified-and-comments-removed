@@ -3838,7 +3838,10 @@ stubOffset
 )
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =

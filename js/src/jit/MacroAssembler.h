@@ -5485,7 +5485,10 @@ cond
 Register
 obj
 const
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 Register

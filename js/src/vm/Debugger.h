@@ -307,7 +307,10 @@ CountMap
 CountMap
 zoneCounts
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 ;
@@ -7600,12 +7603,6 @@ class
 Breakpoint
 ;
 friend
-struct
-:
-:
-JSCompartment
-;
-friend
 class
 :
 :
@@ -7809,12 +7806,6 @@ asWasm
 class
 Breakpoint
 {
-friend
-struct
-:
-:
-JSCompartment
-;
 friend
 class
 Debugger

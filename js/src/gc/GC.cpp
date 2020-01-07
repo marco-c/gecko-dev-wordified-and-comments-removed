@@ -8613,7 +8613,10 @@ GCRuntime
 :
 callWeakPointerCompartmentCallbacks
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )
@@ -13774,7 +13777,7 @@ trc
 rt
 )
 ;
-JSCompartment
+Compartment
 :
 :
 fixupCrossCompartmentWrappersAfterMovingGC
@@ -17680,7 +17683,7 @@ this
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 destroy
@@ -17822,7 +17825,7 @@ destroyingRuntime
 keepAtleastOne
 )
 ;
-JSCompartment
+Compartment
 *
 *
 read
@@ -17835,7 +17838,7 @@ begin
 (
 )
 ;
-JSCompartment
+Compartment
 *
 *
 end
@@ -17848,7 +17851,7 @@ end
 (
 )
 ;
-JSCompartment
+Compartment
 *
 *
 write
@@ -17862,7 +17865,7 @@ read
 end
 )
 {
-JSCompartment
+Compartment
 *
 comp
 =
@@ -17975,7 +17978,7 @@ empty
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 sweepRealms
@@ -19328,7 +19331,7 @@ Zone
 *
 zone
 ;
-JSCompartment
+Compartment
 *
 compartment
 ;
@@ -19407,7 +19410,7 @@ GCCellPtr
 dst
 )
 {
-JSCompartment
+Compartment
 *
 srccomp
 =
@@ -19490,7 +19493,7 @@ true
 }
 for
 (
-JSCompartment
+Compartment
 :
 :
 WrapperEnum
@@ -19572,7 +19575,10 @@ template
 typename
 T
 >
-JSCompartment
+JS
+:
+:
+Compartment
 *
 operator
 (
@@ -19609,7 +19615,7 @@ GCCellPtr
 thing
 )
 {
-JSCompartment
+Compartment
 *
 comp
 =
@@ -21269,7 +21275,7 @@ MARK_COMPARTMENTS
 ;
 Vector
 <
-JSCompartment
+Compartment
 *
 0
 js
@@ -21335,7 +21341,7 @@ empty
 )
 )
 {
-JSCompartment
+Compartment
 *
 comp
 =
@@ -21347,7 +21353,7 @@ popCopy
 ;
 for
 (
-JSCompartment
+Compartment
 :
 :
 NonStringWrapperEnum
@@ -21370,7 +21376,7 @@ popFront
 )
 )
 {
-JSCompartment
+Compartment
 *
 dest
 =
@@ -23681,7 +23687,7 @@ next
 {
 for
 (
-JSCompartment
+Compartment
 :
 :
 StringWrapperEnum
@@ -23833,7 +23839,7 @@ zone
 ;
 }
 void
-JSCompartment
+Compartment
 :
 :
 findOutgoingEdges
@@ -24479,7 +24485,7 @@ static
 void
 ResetGrayList
 (
-JSCompartment
+Compartment
 *
 comp
 )
@@ -24828,7 +24834,7 @@ gcIncomingGrayPointers
 ;
 for
 (
-JSCompartment
+Compartment
 :
 :
 NonStringWrapperEnum
@@ -25033,7 +25039,7 @@ CrossCompartmentPointerReferent
 src
 )
 ;
-JSCompartment
+Compartment
 *
 comp
 =
@@ -25570,7 +25576,7 @@ UndefinedValue
 )
 )
 ;
-JSCompartment
+Compartment
 *
 comp
 =
@@ -25693,7 +25699,7 @@ static
 void
 ResetGrayList
 (
-JSCompartment
+Compartment
 *
 comp
 )
@@ -38759,11 +38765,11 @@ zoneHolder
 ;
 UniquePtr
 <
-JSCompartment
+Compartment
 >
 compHolder
 ;
-JSCompartment
+Compartment
 *
 comp
 =
@@ -38986,7 +38992,10 @@ cx
 >
 make_unique
 <
-JSCompartment
+JS
+:
+:
+Compartment
 >
 (
 zone

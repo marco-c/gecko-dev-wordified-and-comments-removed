@@ -3982,7 +3982,10 @@ principals
 (
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 (
@@ -3999,7 +4002,10 @@ realm_
 )
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 maybeCompartment
 (

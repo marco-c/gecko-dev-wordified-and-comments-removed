@@ -211,7 +211,10 @@ runtimeFromAnyThread
 const
 ;
 inline
-JSCompartment
+JS
+:
+:
+Compartment
 *
 maybeCompartment
 (

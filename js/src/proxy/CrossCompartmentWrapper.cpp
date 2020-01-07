@@ -1314,7 +1314,10 @@ Reify
 JSContext
 *
 cx
-JSCompartment
+JS
+:
+:
+Compartment
 *
 origin
 HandleObject
@@ -2703,7 +2706,10 @@ JSObject
 wrapper
 )
 {
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 =
@@ -2766,7 +2772,10 @@ const
 CompartmentFilter
 &
 sourceFilter
-JSCompartment
+JS
+:
+:
+Compartment
 *
 target
 js
@@ -2856,7 +2865,7 @@ mozilla
 :
 Maybe
 <
-JSCompartment
+Compartment
 :
 :
 NonStringWrapperEnum
@@ -3163,7 +3172,10 @@ realm
 (
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 wcompartment
 =
@@ -3615,7 +3627,7 @@ true
 }
 for
 (
-JSCompartment
+Compartment
 :
 :
 NonStringWrapperEnum

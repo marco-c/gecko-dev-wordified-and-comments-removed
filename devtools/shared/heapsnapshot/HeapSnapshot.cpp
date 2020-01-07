@@ -5379,7 +5379,10 @@ return
 true
 ;
 }
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =

@@ -747,7 +747,10 @@ JSPrincipals
 )
 JS_GetCompartmentPrincipals
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 )
@@ -1915,7 +1918,10 @@ js
 :
 IsSystemCompartment
 (
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )
@@ -3492,7 +3498,7 @@ next
 {
 for
 (
-JSCompartment
+Compartment
 :
 :
 WrapperEnum

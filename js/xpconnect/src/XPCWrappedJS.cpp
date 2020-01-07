@@ -1920,7 +1920,10 @@ cx
 void
 *
 data
-JSCompartment
+JS
+:
+:
+Compartment
 *
 comp
 )
@@ -2318,7 +2321,10 @@ IsRootWrapper
 )
 )
 ;
-JSCompartment
+JS
+:
+:
+Compartment
 *
 compartment
 =

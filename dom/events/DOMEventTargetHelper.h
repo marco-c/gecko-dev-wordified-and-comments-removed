@@ -98,9 +98,6 @@ EventTarget
 .
 h
 "
-struct
-JSCompartment
-;
 class
 nsIDocument
 ;
