@@ -538,6 +538,9 @@ DW_AT_call_file
 DW_AT_call_line
 =
 0x59
+DW_AT_linkage_name
+=
+0x6e
 DW_AT_MIPS_fde
 =
 0x2001
