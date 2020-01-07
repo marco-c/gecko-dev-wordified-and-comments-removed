@@ -2812,7 +2812,13 @@ GetScreen
 0
 ;
 virtual
-nsIDOMNavigator
+mozilla
+:
+:
+dom
+:
+:
+Navigator
 *
 GetNavigator
 (
