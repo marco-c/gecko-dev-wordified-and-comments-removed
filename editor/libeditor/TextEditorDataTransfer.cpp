@@ -1208,14 +1208,12 @@ destdomdoc
 {
 uint32_t
 dropEffect
-;
+=
 dataTransfer
 -
 >
-GetDropEffectInt
+DropEffectInt
 (
-&
-dropEffect
 )
 ;
 deleteSelection
