@@ -335,10 +335,10 @@ mozilla
 dom
 :
 :
-ServiceWorkerRegistration
+DOMPrefs
 :
 :
-NotificationAPIVisible
+NotificationEnabledInServiceWorkers
 "
 ]
 Promise
@@ -365,10 +365,10 @@ mozilla
 dom
 :
 :
-ServiceWorkerRegistration
+DOMPrefs
 :
 :
-NotificationAPIVisible
+NotificationEnabledInServiceWorkers
 "
 ]
 Promise
