@@ -903,8 +903,6 @@ expectedResult
 :
 [
 [
-[
-]
 ]
 ]
 }

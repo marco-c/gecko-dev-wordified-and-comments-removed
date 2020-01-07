@@ -18,8 +18,6 @@ expectedResult
 :
 [
 [
-[
-]
 ]
 [
 [
@@ -302,8 +300,6 @@ expectedResult
 :
 [
 [
-[
-]
 ]
 [
 [
