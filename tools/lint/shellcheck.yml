@@ -15,14 +15,6 @@ taskcluster
 /
 docker
 /
-funsize
--
-update
--
-generator
-/
-scripts
-/
 exclude
 :
 [
@@ -69,6 +61,9 @@ excludecodes
 [
 '
 1090
+'
+'
+1091
 '
 ]
 type

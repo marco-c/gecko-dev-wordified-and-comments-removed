@@ -444,6 +444,7 @@ yaml
 .
 in
 >
+"
 {
 WORKSPACE
 }
@@ -451,6 +452,7 @@ WORKSPACE
 snapcraft
 .
 yaml
+"
 cd
 "
 {
