@@ -248,9 +248,6 @@ false
 debug
 =
 false
-directInject
-=
-false
 file
 =
 "
@@ -349,12 +346,6 @@ unloaded
 sb
 )
 ;
-if
-(
-!
-directInject
-)
-{
 if
 (
 async
@@ -458,7 +449,6 @@ sb
 CALLBACK
 ]
 ;
-}
 }
 if
 (
