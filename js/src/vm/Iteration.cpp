@@ -4855,6 +4855,12 @@ cx
 templateObject
 -
 >
+realm
+(
+)
+templateObject
+-
+>
 getClass
 (
 )

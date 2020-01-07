@@ -2063,6 +2063,12 @@ cx
 resultPairObj
 -
 >
+realm
+(
+)
+resultPairObj
+-
+>
 getClass
 (
 )
@@ -6635,6 +6641,12 @@ ObjectGroupRealm
 makeGroup
 (
 cx
+resultObj
+-
+>
+realm
+(
+)
 resultObj
 -
 >
