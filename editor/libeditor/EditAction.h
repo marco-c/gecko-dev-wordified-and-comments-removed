@@ -37,8 +37,8 @@ eComputeTextToOutput
 eSetText
 eInsertParagraphSeparator
 eCreateOrChangeList
-indent
-outdent
+eIndent
+eOutdent
 align
 makeBasicBlock
 removeList
