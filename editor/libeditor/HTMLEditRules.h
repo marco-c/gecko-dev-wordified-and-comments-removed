@@ -1160,6 +1160,7 @@ DefaultParagraphSeparator
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 ReturnInHeader
 (
