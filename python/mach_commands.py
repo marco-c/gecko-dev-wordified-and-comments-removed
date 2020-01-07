@@ -277,6 +277,10 @@ CommandArgument
 (
 '
 -
+v
+'
+'
+-
 -
 verbose
 '
