@@ -414,6 +414,13 @@ symbols
 full
 .
 zip
+sparse
+-
+profile
+:
+upload
+-
+symbols
 optimization
 :
 only
