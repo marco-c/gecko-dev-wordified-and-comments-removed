@@ -44,13 +44,6 @@ jsm
 "
 )
 ;
-initTestLogging
-(
-"
-Trace
-"
-)
-;
 function
 mockDoctor
 (

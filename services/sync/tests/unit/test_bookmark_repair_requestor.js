@@ -17,13 +17,6 @@ js
 "
 )
 ;
-initTestLogging
-(
-"
-Trace
-"
-)
-;
 function
 makeClientRecord
 (

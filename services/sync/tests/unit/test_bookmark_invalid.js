@@ -112,13 +112,6 @@ setup
 (
 )
 {
-initTestLogging
-(
-"
-Trace
-"
-)
-;
 engine
 =
 new
