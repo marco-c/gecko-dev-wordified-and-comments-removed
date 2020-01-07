@@ -1741,6 +1741,13 @@ true
 return
 ;
 }
+buffer
+-
+>
+ResetLastUpdateFenceId
+(
+)
+;
 }
 }
 const
