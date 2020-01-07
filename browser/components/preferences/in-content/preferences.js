@@ -554,11 +554,6 @@ general
 :
 case
 "
-home
-"
-:
-case
-"
 privacy
 "
 :
