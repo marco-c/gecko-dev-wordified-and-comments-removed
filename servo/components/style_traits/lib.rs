@@ -437,14 +437,6 @@ CowRcStr
 i
 >
 )
-ExpectedIdentifier
-(
-Token
-<
-'
-i
->
-)
 MediaQueryExpectedFeatureName
 (
 CowRcStr
@@ -454,6 +446,7 @@ i
 >
 )
 MediaQueryExpectedFeatureValue
+MediaQueryUnexpectedOperator
 RangedExpressionWithNoValue
 UnexpectedFunction
 (
