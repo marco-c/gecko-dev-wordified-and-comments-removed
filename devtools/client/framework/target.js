@@ -1423,6 +1423,12 @@ registerAllActors
 (
 )
 ;
+DebuggerServer
+.
+allowChromeProcess
+=
+true
+;
 this
 .
 _client
