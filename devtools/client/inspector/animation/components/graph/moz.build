@@ -71,6 +71,11 @@ EffectTimingPath
 js
 '
 '
+EndDelaySign
+.
+js
+'
+'
 SummaryGraph
 .
 js
