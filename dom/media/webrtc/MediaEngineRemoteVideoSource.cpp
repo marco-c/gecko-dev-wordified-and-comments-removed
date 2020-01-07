@@ -513,7 +513,7 @@ ANDROID
 )
 if
 (
-aName
+mDeviceName
 .
 Find
 (
@@ -545,7 +545,7 @@ Environment
 else
 if
 (
-aName
+mDeviceName
 .
 Find
 (
@@ -581,7 +581,7 @@ ifdef
 XP_MACOSX
 if
 (
-aName
+mDeviceName
 .
 Find
 (
@@ -617,7 +617,7 @@ ifdef
 XP_WIN
 if
 (
-aName
+mDeviceName
 .
 Find
 (
@@ -648,7 +648,7 @@ User
 else
 if
 (
-aName
+mDeviceName
 .
 Find
 (
