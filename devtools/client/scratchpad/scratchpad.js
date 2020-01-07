@@ -9645,7 +9645,7 @@ this
 .
 browserWindow
 .
-openTrustedLinkIn
+openWebLinkIn
 (
 url
 "
