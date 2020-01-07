@@ -107,10 +107,9 @@ markers
 .
 name
 "
-document
-:
-:
-DOMContentLoaded
+dom
+-
+interactive
 "
 "
 The
@@ -132,10 +131,9 @@ markers
 .
 name
 "
-document
-:
-:
-Load
+dom
+-
+complete
 "
 "
 The

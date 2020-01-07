@@ -91,6 +91,13 @@ networkEventUpdate
 networkEventUpdate
 "
 "
+documentEvent
+"
+:
+"
+documentEvent
+"
+"
 newGlobal
 "
 :

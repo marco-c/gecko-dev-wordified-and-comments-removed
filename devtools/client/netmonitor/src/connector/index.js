@@ -173,6 +173,7 @@ this
 )
 ;
 }
+async
 connect
 (
 connection
@@ -214,6 +215,7 @@ case
 chrome
 "
 :
+await
 this
 .
 connectChrome
@@ -230,6 +232,7 @@ case
 firefox
 "
 :
+await
 this
 .
 connectFirefox
@@ -297,6 +300,7 @@ connector
 "
 )
 ;
+return
 this
 .
 connector
@@ -331,6 +335,7 @@ connector
 "
 )
 ;
+return
 this
 .
 connector
@@ -347,6 +352,7 @@ pause
 (
 )
 {
+return
 this
 .
 connector
@@ -360,6 +366,7 @@ resume
 (
 )
 {
+return
 this
 .
 connector
