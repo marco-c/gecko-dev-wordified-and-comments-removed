@@ -9318,6 +9318,7 @@ b
 ]
 ;
 }
+async
 function
 verifyAnnoValues
 (
@@ -9332,9 +9333,10 @@ null
 let
 currentAnnos
 =
+await
 PlacesUtils
 .
-getAnnotationsForItem
+promiseAnnotationsForItem
 (
 itemId
 )
@@ -9419,6 +9421,7 @@ transact
 (
 )
 ;
+await
 verifyAnnoValues
 (
 1
@@ -9432,6 +9435,7 @@ undo
 (
 )
 ;
+await
 verifyAnnoValues
 (
 )
@@ -9443,6 +9447,7 @@ redo
 (
 )
 ;
+await
 verifyAnnoValues
 (
 1
@@ -9472,6 +9477,7 @@ transact
 (
 )
 ;
+await
 verifyAnnoValues
 (
 null
@@ -9504,6 +9510,7 @@ transact
 (
 )
 ;
+await
 verifyAnnoValues
 (
 null
@@ -9517,6 +9524,7 @@ undo
 (
 )
 ;
+await
 verifyAnnoValues
 (
 null
@@ -9530,6 +9538,7 @@ redo
 (
 )
 ;
+await
 verifyAnnoValues
 (
 null
@@ -9543,6 +9552,7 @@ undo
 (
 )
 ;
+await
 verifyAnnoValues
 (
 null
@@ -9556,6 +9566,7 @@ undo
 (
 )
 ;
+await
 verifyAnnoValues
 (
 1
@@ -9569,6 +9580,7 @@ undo
 (
 )
 ;
+await
 verifyAnnoValues
 (
 )

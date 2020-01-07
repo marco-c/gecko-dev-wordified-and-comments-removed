@@ -274,9 +274,10 @@ i
 let
 annotations
 =
+await
 PlacesUtils
 .
-getAnnotationsForItem
+promiseAnnotationsForItem
 (
 ids
 .
