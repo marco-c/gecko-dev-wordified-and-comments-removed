@@ -558,7 +558,7 @@ newSyncId
 {
 HistorySyncLog
 .
-debug
+trace
 (
 "
 History
@@ -580,7 +580,7 @@ return
 }
 HistorySyncLog
 .
-debug
+info
 (
 "
 History
@@ -1964,7 +1964,7 @@ existingSyncId
 {
 BookmarkSyncLog
 .
-debug
+info
 (
 "
 Taking
@@ -2007,7 +2007,7 @@ newSyncId
 {
 BookmarkSyncLog
 .
-debug
+trace
 (
 "
 Bookmarks
@@ -2029,7 +2029,7 @@ return
 }
 BookmarkSyncLog
 .
-debug
+info
 (
 "
 Bookmarks
