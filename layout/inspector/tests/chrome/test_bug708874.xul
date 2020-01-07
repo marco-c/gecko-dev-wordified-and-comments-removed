@@ -223,37 +223,6 @@ element
 *
 /
 var
-DOMUtils
-=
-Components
-.
-classes
-[
-"
-mozilla
-.
-org
-/
-inspector
-/
-dom
--
-utils
-;
-1
-"
-]
-.
-getService
-(
-Components
-.
-interfaces
-.
-inIDOMUtils
-)
-;
-var
 DOMWindowUtils
 =
 window
@@ -368,7 +337,7 @@ disabled
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -440,7 +409,7 @@ start
 lock
 *
 /
-DOMUtils
+InspectorUtils
 .
 addPseudoClassLock
 (
@@ -453,7 +422,7 @@ disabled
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -586,7 +555,7 @@ remove
 lock
 *
 /
-DOMUtils
+InspectorUtils
 .
 removePseudoClassLock
 (
@@ -599,7 +568,7 @@ disabled
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -770,7 +739,7 @@ disabled
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -839,7 +808,7 @@ locking
 lock
 *
 /
-DOMUtils
+InspectorUtils
 .
 addPseudoClassLock
 (
@@ -852,7 +821,7 @@ disabled
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -983,7 +952,7 @@ remove
 lock
 *
 /
-DOMUtils
+InspectorUtils
 .
 removePseudoClassLock
 (
@@ -996,7 +965,7 @@ disabled
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1176,7 +1145,7 @@ lock
 visited
 *
 /
-DOMUtils
+InspectorUtils
 .
 addPseudoClassLock
 (
@@ -1189,7 +1158,7 @@ visited
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1245,7 +1214,7 @@ lock
 unvisited
 *
 /
-DOMUtils
+InspectorUtils
 .
 addPseudoClassLock
 (
@@ -1258,7 +1227,7 @@ link
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1283,7 +1252,7 @@ lock
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1348,7 +1317,7 @@ back
 on
 *
 /
-DOMUtils
+InspectorUtils
 .
 addPseudoClassLock
 (
@@ -1361,7 +1330,7 @@ visited
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1386,7 +1355,7 @@ lock
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1557,7 +1526,7 @@ in
 styles
 )
 {
-DOMUtils
+InspectorUtils
 .
 addPseudoClassLock
 (
@@ -1576,7 +1545,7 @@ styles
 {
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1650,7 +1619,7 @@ locking
 )
 ;
 }
-DOMUtils
+InspectorUtils
 .
 clearPseudoClassLocks
 (
@@ -1667,7 +1636,7 @@ styles
 {
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1819,7 +1788,7 @@ crash
 the
 browser
 .
-DOMUtils
+InspectorUtils
 .
 addPseudoClassLock
 (
@@ -1829,7 +1798,7 @@ pseudo
 ;
 is
 (
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1839,7 +1808,7 @@ pseudo
 false
 )
 ;
-DOMUtils
+InspectorUtils
 .
 removePseudoClassLock
 (
@@ -1875,7 +1844,7 @@ doesThrow
 )
 =
 >
-DOMUtils
+InspectorUtils
 .
 hasPseudoClassLock
 (
@@ -1903,7 +1872,7 @@ doesThrow
 )
 =
 >
-DOMUtils
+InspectorUtils
 .
 addPseudoClassLock
 (
@@ -1931,7 +1900,7 @@ doesThrow
 )
 =
 >
-DOMUtils
+InspectorUtils
 .
 removePseudoClassLock
 (
@@ -1959,7 +1928,7 @@ doesThrow
 )
 =
 >
-DOMUtils
+InspectorUtils
 .
 clearPseudoClassLocks
 (
