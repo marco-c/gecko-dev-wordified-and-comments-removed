@@ -1085,6 +1085,10 @@ version
 "
 )
 ;
+shutdownManager
+(
+)
+;
 end_test
 (
 )

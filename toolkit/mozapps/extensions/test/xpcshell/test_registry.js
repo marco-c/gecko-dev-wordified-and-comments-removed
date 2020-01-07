@@ -74,6 +74,9 @@ name
 Test
 1
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
@@ -129,6 +132,9 @@ name
 Test
 2
 "
+bootstrap
+:
+true
 targetApplications
 :
 [
