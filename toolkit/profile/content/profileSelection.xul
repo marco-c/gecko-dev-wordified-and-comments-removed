@@ -312,9 +312,7 @@ global
 /
 content
 /
-elements
-/
-stringbundle
+customElements
 .
 js
 "

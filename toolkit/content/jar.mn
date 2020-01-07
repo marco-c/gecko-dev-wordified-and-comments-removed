@@ -351,6 +351,13 @@ content
 /
 global
 /
+customElements
+.
+js
+content
+/
+global
+/
 globalOverlay
 .
 js
