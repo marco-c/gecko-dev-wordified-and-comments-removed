@@ -10,10 +10,10 @@ euclid
 :
 {
 Point2D
-Vector2D
 Rect
 SideOffsets2D
 Size2D
+Vector2D
 }
 ;
 use
@@ -1372,6 +1372,7 @@ radius
 )
 =
 >
+{
 result
 .
 push
@@ -1391,6 +1392,7 @@ px
 )
 )
 )
+}
 GenericFilter
 :
 :
@@ -1400,6 +1402,7 @@ amount
 )
 =
 >
+{
 result
 .
 push
@@ -1417,6 +1420,7 @@ amount
 0
 )
 )
+}
 GenericFilter
 :
 :
@@ -1426,6 +1430,7 @@ amount
 )
 =
 >
+{
 result
 .
 push
@@ -1443,6 +1448,7 @@ amount
 0
 )
 )
+}
 GenericFilter
 :
 :
@@ -1452,6 +1458,7 @@ amount
 )
 =
 >
+{
 result
 .
 push
@@ -1469,6 +1476,7 @@ amount
 0
 )
 )
+}
 GenericFilter
 :
 :
@@ -1478,6 +1486,7 @@ angle
 )
 =
 >
+{
 result
 .
 push
@@ -1497,6 +1506,7 @@ radians
 )
 )
 )
+}
 GenericFilter
 :
 :
@@ -1506,6 +1516,7 @@ amount
 )
 =
 >
+{
 result
 .
 push
@@ -1523,6 +1534,7 @@ amount
 0
 )
 )
+}
 GenericFilter
 :
 :
@@ -1568,6 +1580,7 @@ amount
 )
 =
 >
+{
 result
 .
 push
@@ -1585,6 +1598,7 @@ amount
 0
 )
 )
+}
 GenericFilter
 :
 :
@@ -1594,6 +1608,7 @@ amount
 )
 =
 >
+{
 result
 .
 push
@@ -1611,6 +1626,7 @@ amount
 0
 )
 )
+}
 GenericFilter
 :
 :
@@ -2189,8 +2205,8 @@ glyphs
 =
 vec
 !
-(
-)
+[
+]
 ;
 for
 slice
@@ -2370,7 +2386,6 @@ x
 glyph_advance
 ;
 }
-;
 }
 if
 glyphs
@@ -2696,7 +2711,6 @@ image
 )
 =
 >
-{
 match
 image
 .
@@ -2780,7 +2794,6 @@ image
 repeat_vertical
 }
 )
-}
 }
 }
 BorderDetails
@@ -3479,7 +3492,6 @@ map
 |
 transform
 |
-{
 LayoutTransform
 :
 :
@@ -3492,7 +3504,6 @@ transform
 into
 (
 )
-}
 )
 ;
 let
@@ -3507,7 +3518,6 @@ map
 |
 perspective
 |
-{
 LayoutTransform
 :
 :
@@ -3516,7 +3526,6 @@ from_untyped
 &
 perspective
 )
-}
 )
 ;
 builder
@@ -3637,7 +3646,6 @@ ClipScrollNodeType
 Clip
 =
 >
-{
 builder
 .
 define_clip_with_parent
@@ -3656,7 +3664,6 @@ get_complex_clips
 )
 None
 )
-}
 ClipScrollNodeType
 :
 :
@@ -3666,7 +3673,6 @@ scroll_sensitivity
 )
 =
 >
-{
 builder
 .
 define_scroll_frame_with_parent
@@ -3701,7 +3707,6 @@ get_complex_clips
 None
 scroll_sensitivity
 )
-}
 ClipScrollNodeType
 :
 :
