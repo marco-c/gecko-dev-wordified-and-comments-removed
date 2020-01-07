@@ -533,7 +533,7 @@ aUTF16String
 )
 ;
 void
-NS_SealStaticAtomTable
+NS_SetStaticAtomsDone
 (
 )
 ;

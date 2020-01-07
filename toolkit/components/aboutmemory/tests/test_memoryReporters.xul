@@ -1097,10 +1097,7 @@ explicit
 /
 atom
 -
-tables
-\
-/
-main
+table
 /
 )
 >
@@ -2140,9 +2137,7 @@ atomTablesMain
 "
 atom
 -
-tables
-/
-main
+table
 is
 present
 "

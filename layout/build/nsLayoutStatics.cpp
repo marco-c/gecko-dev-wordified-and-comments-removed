@@ -975,7 +975,7 @@ RegisterAtoms
 (
 )
 ;
-NS_SealStaticAtomTable
+NS_SetStaticAtomsDone
 (
 )
 ;
