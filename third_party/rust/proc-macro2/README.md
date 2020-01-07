@@ -295,7 +295,7 @@ macro2
 "
 0
 .
-2
+3
 "
 followed
 by
@@ -451,7 +451,7 @@ version
 "
 0
 .
-2
+3
 "
 features
 =

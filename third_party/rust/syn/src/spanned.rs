@@ -121,6 +121,8 @@ tt
 tt
 .
 span
+(
+)
 None
 =
 >
@@ -155,6 +157,8 @@ join
 tt
 .
 span
+(
+)
 )
 {
 span
@@ -242,6 +246,8 @@ tt
 tt
 .
 span
+(
+)
 None
 =
 >
