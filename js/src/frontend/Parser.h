@@ -1349,6 +1349,11 @@ null
 )
 ;
 }
+Node
+stringLiteral
+(
+)
+;
 const
 char
 *
@@ -2046,6 +2051,12 @@ Base
 :
 :
 setLocalStrictMode
+;
+using
+Base
+:
+:
+stringLiteral
 ;
 using
 Base
@@ -4037,11 +4048,6 @@ pos
 }
 protected
 :
-Node
-stringLiteral
-(
-)
-;
 PropertyName
 *
 bindingIdentifier
