@@ -157,6 +157,11 @@ nsMixedContentBlocker
 h
 '
 '
+PolicyTokenizer
+.
+h
+'
+'
 SRICheck
 .
 h
@@ -228,6 +233,11 @@ cpp
 '
 '
 nsMixedContentBlocker
+.
+cpp
+'
+'
+PolicyTokenizer
 .
 cpp
 '
