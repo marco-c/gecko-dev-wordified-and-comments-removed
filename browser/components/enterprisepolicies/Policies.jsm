@@ -3488,11 +3488,14 @@ param
 Default
 )
 {
-runOnce
+runOncePerModification
 (
 "
 setDefaultSearchEngine
 "
+param
+.
+Default
 (
 )
 =
