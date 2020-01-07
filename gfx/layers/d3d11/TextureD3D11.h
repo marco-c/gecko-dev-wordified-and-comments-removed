@@ -1522,7 +1522,7 @@ PushResourceUpdates
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 &
 aResources
 ResourceUpdateOp
@@ -1821,7 +1821,7 @@ PushResourceUpdates
 wr
 :
 :
-ResourceUpdateQueue
+TransactionBuilder
 &
 aResources
 ResourceUpdateOp
