@@ -4388,11 +4388,6 @@ subresource
 :
 [
 "
-script
--
-tag
-"
-"
 xhr
 -
 request
