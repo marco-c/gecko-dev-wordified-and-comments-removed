@@ -1142,10 +1142,6 @@ implicit_jscontext
 )
 )
     
-implicit_builtinclass
-=
-False
-    
 for
 member
 in
@@ -1198,25 +1194,6 @@ build_method
 (
 member
 )
-            
-if
-member
-.
-notxpcom
-and
-iface
-.
-name
-!
-=
-"
-nsISupports
-"
-:
-                
-implicit_builtinclass
-=
-True
         
 elif
 isinstance
@@ -1366,6 +1343,8 @@ attributes
 .
 builtinclass
 or
+iface
+.
 implicit_builtinclass
 )
             

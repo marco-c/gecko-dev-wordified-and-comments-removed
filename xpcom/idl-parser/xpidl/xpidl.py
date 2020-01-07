@@ -4193,6 +4193,12 @@ nativename
 =
 name
         
+self
+.
+implicit_builtinclass
+=
+False
+        
 for
 m
 in
@@ -4216,6 +4222,34 @@ set
 (
 m
 )
+            
+if
+m
+.
+kind
+=
+=
+'
+method
+'
+and
+m
+.
+notxpcom
+and
+name
+!
+=
+'
+nsISupports
+'
+:
+                
+self
+.
+implicit_builtinclass
+=
+True
     
 def
 __eq__
@@ -4570,6 +4604,18 @@ self
 .
 location
 )
+            
+if
+realbase
+.
+implicit_builtinclass
+:
+                
+self
+.
+implicit_builtinclass
+=
+True
         
 for
 member
