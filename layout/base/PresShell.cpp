@@ -6946,7 +6946,7 @@ AppendStyleSheet
 SheetType
 :
 :
-User
+Agent
 newPrefSheet
 -
 >
@@ -6988,7 +6988,7 @@ RemoveStyleSheet
 SheetType
 :
 :
-User
+Agent
 mPrefStyleSheet
 -
 >
