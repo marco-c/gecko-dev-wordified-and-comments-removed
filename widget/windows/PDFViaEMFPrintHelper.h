@@ -162,7 +162,7 @@ aPageHeight
 )
 ;
 bool
-DrawPageToFile
+SavePageToFile
 (
 const
 wchar_t
