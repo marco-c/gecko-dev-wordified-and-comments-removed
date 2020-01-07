@@ -378,11 +378,9 @@ var
 (
 -
 -
-autocomplete
+panel
 -
-popup
--
-secondary
+disabled
 -
 color
 )
@@ -616,11 +614,9 @@ var
 (
 -
 -
-autocomplete
+panel
 -
-popup
--
-secondary
+disabled
 -
 color
 )
