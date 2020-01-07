@@ -68,12 +68,9 @@ CSS_PSEUDO_ELEMENT_CONTAINS_ELEMENTS
 )
 CSS_PSEUDO_ELEMENT
 (
-mozSelection
+selection
 "
 :
--
-moz
--
 selection
 "
 CSS_PSEUDO_ELEMENT_CONTAINS_ELEMENTS

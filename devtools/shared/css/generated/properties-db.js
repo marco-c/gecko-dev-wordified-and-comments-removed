@@ -36814,9 +36814,6 @@ line
 "
 "
 :
--
-moz
--
 selection
 "
 "

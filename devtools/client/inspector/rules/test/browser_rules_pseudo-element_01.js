@@ -138,7 +138,7 @@ firstLetterRulesNb
 1
 selectionRulesNb
 :
-0
+1
 afterRulesNb
 :
 1
@@ -1171,7 +1171,7 @@ firstLetterRulesNb
 1
 selectionRulesNb
 :
-1
+2
 beforeRulesNb
 :
 0
@@ -1512,9 +1512,6 @@ pseudoElement
 =
 "
 :
--
-moz
--
 selection
 "
 )
