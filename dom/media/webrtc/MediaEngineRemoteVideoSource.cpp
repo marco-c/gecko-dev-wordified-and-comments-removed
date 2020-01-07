@@ -996,12 +996,7 @@ mImages
 .
 AppendElement
 (
-mImageContainer
--
->
-CreatePlanarYCbCrImage
-(
-)
+nullptr
 )
 ;
 MOZ_ASSERT
