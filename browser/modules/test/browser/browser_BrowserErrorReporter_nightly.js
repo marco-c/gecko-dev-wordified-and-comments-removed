@@ -2668,6 +2668,14 @@ testScalars
 (
 )
 {
+if
+(
+SCALARS_EXPIRED
+)
+{
+return
+;
+}
 const
 fetchStub
 =
