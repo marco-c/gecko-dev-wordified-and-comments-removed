@@ -438,6 +438,9 @@ nsCSSValueList
 aListTail
 )
 ;
+uintptr_t
+mGecko
+;
 RefPtr
 <
 RawServoAnimationValue
