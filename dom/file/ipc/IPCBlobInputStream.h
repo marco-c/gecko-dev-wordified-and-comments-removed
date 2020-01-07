@@ -111,6 +111,10 @@ IPCBlobInputStream
 nsresult
 EnsureAsyncRemoteStream
 (
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 void
@@ -120,6 +124,10 @@ uint64_t
 aStart
 uint64_t
 aLength
+const
+MutexAutoLock
+&
+aProofOfLock
 )
 ;
 RefPtr
