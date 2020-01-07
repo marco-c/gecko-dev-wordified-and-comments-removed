@@ -592,6 +592,11 @@ NS_IsMainThread
 )
 )
 {
+if
+(
+mIsMainThread
+)
+{
 CycleCollectedJSContext
 *
 ccjs
@@ -615,6 +620,7 @@ EnterMicroTask
 (
 )
 ;
+}
 }
 nsIPrincipal
 *
@@ -1384,6 +1390,11 @@ reset
 (
 )
 ;
+if
+(
+mIsMainThread
+)
+{
 CycleCollectedJSContext
 *
 ccjs
@@ -1407,6 +1418,7 @@ LeaveMicroTask
 (
 )
 ;
+}
 }
 }
 already_AddRefed

@@ -3704,6 +3704,13 @@ AutoJSAPI
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 Init
@@ -3717,11 +3724,6 @@ AutoSlowOperation
 :
 CheckForInterrupt
 (
-)
-{
-if
-(
-mIsMainThread
 )
 {
 JSAutoCompartment
@@ -3745,6 +3747,5 @@ cx
 )
 )
 ;
-}
 }
 }

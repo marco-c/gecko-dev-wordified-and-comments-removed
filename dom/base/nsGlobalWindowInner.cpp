@@ -27984,6 +27984,13 @@ mIsInterval
 false
 ;
 }
+Promise
+:
+:
+PerformMicroTaskCheckpoint
+(
+)
+;
 if
 (
 trackNestingLevel

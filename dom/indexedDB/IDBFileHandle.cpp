@@ -455,7 +455,7 @@ fileHandle
 nsContentUtils
 :
 :
-AddPendingIDBTransaction
+RunInMetastableState
 (
 runnable
 .

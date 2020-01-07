@@ -3973,13 +3973,13 @@ aRunnable
 ;
 static
 void
-AddPendingIDBTransaction
+RunInMetastableState
 (
 already_AddRefed
 <
 nsIRunnable
 >
-aTransaction
+aRunnable
 )
 ;
 static
