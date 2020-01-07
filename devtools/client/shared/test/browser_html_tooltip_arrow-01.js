@@ -336,7 +336,9 @@ doc
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 const
 panelBounds
@@ -357,7 +359,9 @@ doc
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 const
 anchorBounds
@@ -376,7 +380,9 @@ doc
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 const
 intersects

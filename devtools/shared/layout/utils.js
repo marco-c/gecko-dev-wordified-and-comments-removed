@@ -708,6 +708,15 @@ of
 quads
 )
 {
+const
+bounds
+=
+quad
+.
+getBounds
+(
+)
+;
 adjustedQuads
 .
 push
@@ -894,8 +903,6 @@ bounds
 {
 bottom
 :
-quad
-.
 bounds
 .
 bottom
@@ -905,8 +912,6 @@ scale
 yOffset
 height
 :
-quad
-.
 bounds
 .
 height
@@ -914,8 +919,6 @@ height
 scale
 left
 :
-quad
-.
 bounds
 .
 left
@@ -925,8 +928,6 @@ scale
 xOffset
 right
 :
-quad
-.
 bounds
 .
 right
@@ -936,8 +937,6 @@ scale
 xOffset
 top
 :
-quad
-.
 bounds
 .
 top
@@ -947,8 +946,6 @@ scale
 yOffset
 width
 :
-quad
-.
 bounds
 .
 width
@@ -956,8 +953,6 @@ width
 scale
 x
 :
-quad
-.
 bounds
 .
 x
@@ -967,8 +962,6 @@ scale
 xOffset
 y
 :
-quad
-.
 bounds
 .
 y

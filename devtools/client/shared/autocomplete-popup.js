@@ -1255,7 +1255,9 @@ quads
 0
 ]
 .
-bounds
+getBounds
+(
+)
 ;
 const
 containerHeight
