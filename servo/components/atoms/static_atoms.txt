@@ -57,6 +57,7 @@ playing
 print
 progress
 radio
+range
 readystatechange
 reftest
 -
