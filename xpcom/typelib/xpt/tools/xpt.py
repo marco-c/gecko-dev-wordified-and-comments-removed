@@ -5612,7 +5612,7 @@ interface
 .
     
 (
-ConstantDesciptor
+ConstantDescriptor
 from
 the
 typelib
