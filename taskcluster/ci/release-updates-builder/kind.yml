@@ -177,6 +177,11 @@ macosx64
 win32
 win64
 "
+updater_platform
+:
+"
+linux64
+"
 notifications
 :
 completed
