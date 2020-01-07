@@ -780,6 +780,6 @@ pki
 .
 distrust_ca_policy
 "
-0
+1
 )
 ;
