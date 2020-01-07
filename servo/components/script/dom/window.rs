@@ -570,7 +570,6 @@ jsapi
 :
 :
 {
-HandleValue
 JSAutoCompartment
 JSContext
 }
@@ -595,6 +594,15 @@ jsval
 :
 :
 UndefinedValue
+;
+use
+js
+:
+:
+rust
+:
+:
+HandleValue
 ;
 use
 layout_image

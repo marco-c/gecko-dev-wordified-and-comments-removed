@@ -1147,7 +1147,7 @@ use
 js
 :
 :
-jsapi
+rust
 :
 :
 HandleObject
@@ -1156,7 +1156,7 @@ use
 js
 :
 :
-jsapi
+rust
 :
 :
 MutableHandleObject

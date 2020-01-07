@@ -337,7 +337,7 @@ rval
 js
 :
 :
-jsapi
+rust
 :
 :
 MutableHandleValue

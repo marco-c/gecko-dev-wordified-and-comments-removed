@@ -144,10 +144,7 @@ js
 jsapi
 :
 :
-{
 JSContext
-HandleValue
-}
 ;
 use
 js
@@ -160,6 +157,15 @@ jsval
 JSVal
 UndefinedValue
 }
+;
+use
+js
+:
+:
+rust
+:
+:
+HandleValue
 ;
 use
 msg

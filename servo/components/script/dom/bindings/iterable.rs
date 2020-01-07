@@ -132,10 +132,8 @@ jsapi
 :
 :
 {
-HandleValue
 Heap
 JSContext
-MutableHandleObject
 JSObject
 }
 ;
@@ -147,6 +145,18 @@ jsval
 :
 :
 UndefinedValue
+;
+use
+js
+:
+:
+rust
+:
+:
+{
+HandleValue
+MutableHandleObject
+}
 ;
 use
 std
@@ -741,6 +751,7 @@ cx
 *
 mut
 JSContext
+mut
 result
 :
 MutableHandleObject
@@ -849,6 +860,7 @@ cx
 *
 mut
 JSContext
+mut
 result
 :
 MutableHandleObject

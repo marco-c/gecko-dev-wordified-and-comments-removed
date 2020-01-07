@@ -347,7 +347,6 @@ jsapi
 {
 GCTraceKindToAscii
 Heap
-Handle
 JSObject
 JSTracer
 TraceKind
@@ -371,6 +370,7 @@ rust
 :
 {
 GCMethods
+Handle
 Runtime
 }
 ;

@@ -529,7 +529,6 @@ jsapi
 Heap
 JSContext
 JSObject
-JS_ParseJSON
 }
 ;
 use
@@ -553,6 +552,18 @@ JSVal
 NullValue
 UndefinedValue
 }
+;
+use
+js
+:
+:
+rust
+:
+:
+wrappers
+:
+:
+JS_ParseJSON
 ;
 use
 js
