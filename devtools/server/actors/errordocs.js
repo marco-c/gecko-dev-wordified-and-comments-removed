@@ -424,6 +424,11 @@ JSMSG_EMPTY_ARRAY_REDUCE
 "
 Reduce_of_empty_array_with_no_initial_value
 "
+JSMSG_NOT_ITERABLE
+:
+"
+is_not_iterable
+"
 }
 ;
 const
