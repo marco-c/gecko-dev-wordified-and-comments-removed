@@ -80,6 +80,17 @@ NoInterfaceObject
 interface
 VR
 {
+[
+Pref
+=
+"
+dom
+.
+webvr
+.
+enabled
+"
+]
 Promise
 <
 sequence
