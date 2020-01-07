@@ -1292,10 +1292,6 @@ selText
 if
 (
 focusedElement
-instanceof
-Ci
-.
-nsIDOMNSEditableElement
 &
 &
 focusedElement
@@ -2448,13 +2444,6 @@ nodes
 {
 if
 (
-node
-instanceof
-Ci
-.
-nsIDOMNSEditableElement
-&
-&
 node
 .
 editor

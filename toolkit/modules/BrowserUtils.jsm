@@ -1760,10 +1760,6 @@ selectionStr
 &
 &
 focusedElement
-instanceof
-Ci
-.
-nsIDOMNSEditableElement
 )
 {
 if

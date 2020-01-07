@@ -577,13 +577,6 @@ activeElement
 if
 (
 focus
-instanceof
-Ci
-.
-nsIDOMNSEditableElement
-&
-&
-focus
 .
 editor
 )
