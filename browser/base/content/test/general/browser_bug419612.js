@@ -88,6 +88,7 @@ tab2
 testPage
 )
 ;
+await
 FullZoom
 .
 enlarge
