@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIDOMNotifyPaintEvent
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h
@@ -80,8 +73,6 @@ NotifyPaintEvent
 :
 public
 Event
-public
-nsIDOMNotifyPaintEvent
 {
 public
 :
@@ -110,8 +101,11 @@ DOMHighResTimeStamp
 aTimeStamp
 )
 ;
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMNOTIFYPAINTEVENT
+NS_INLINE_DECL_REFCOUNTING_INHERITED
+(
+NotifyPaintEvent
+Event
+)
 NS_IMETHOD_
 (
 void

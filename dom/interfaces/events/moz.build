@@ -131,11 +131,6 @@ nsIDOMEventTarget
 idl
 '
 '
-nsIDOMNotifyPaintEvent
-.
-idl
-'
-'
 nsIDOMNSEvent
 .
 idl
