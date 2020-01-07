@@ -1631,19 +1631,6 @@ SetData
 aData
 )
 ;
-if
-(
-oldKind
-!
-=
-item
--
->
-Kind
-(
-)
-)
-{
 mDataTransfer
 -
 >
@@ -1651,7 +1638,6 @@ TypesListMayHaveChanged
 (
 )
 ;
-}
 if
 (
 aIndex
