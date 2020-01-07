@@ -416,10 +416,6 @@ mark
 .
 xfail
 (
-    
-strict
-=
-True
 reason
 =
 "
@@ -480,9 +476,6 @@ mark
 .
 xfail
 (
-strict
-=
-True
 reason
 =
 "
