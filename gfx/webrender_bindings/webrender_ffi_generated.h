@@ -3543,11 +3543,9 @@ LayoutSize
 aContentSize
 BuiltDisplayListDescriptor
 aDlDescriptor
-uint8_t
+WrVecU8
 *
 aDlData
-size_t
-aDlSize
 ResourceUpdates
 *
 aResources
