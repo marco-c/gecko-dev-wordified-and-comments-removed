@@ -1168,10 +1168,10 @@ assert_array_equals
 touchedProperties
 [
 '
-readableType
-'
-'
 writableType
+'
+'
+readableType
 '
 '
 transform
@@ -1210,10 +1210,10 @@ assert_array_equals
 touchedProperties
 [
 '
-readableType
-'
-'
 writableType
+'
+'
+readableType
 '
 '
 transform
