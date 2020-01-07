@@ -460,9 +460,7 @@ gHistoryTree
 .
 load
 (
-[
 query
-]
 options
 )
 ;
