@@ -569,6 +569,13 @@ ErrorResult
 aRv
 )
 ;
+void
+UpdatePlaybackRate
+(
+double
+)
+{
+}
 bool
 IsRunningOnCompositor
 (
