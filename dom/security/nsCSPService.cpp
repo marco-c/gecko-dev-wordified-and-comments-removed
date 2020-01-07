@@ -1236,6 +1236,19 @@ nsIContentPolicy
 :
 ACCEPT
 ;
+nsCOMPtr
+<
+nsISupports
+>
+requestContext
+=
+loadInfo
+-
+>
+GetLoadingContext
+(
+)
+;
 if
 (
 isPreload
@@ -1276,7 +1289,7 @@ ShouldLoad
 policyType
 newUri
 nullptr
-nullptr
+requestContext
 EmptyCString
 (
 )
@@ -1348,7 +1361,7 @@ ShouldLoad
 policyType
 newUri
 nullptr
-nullptr
+requestContext
 EmptyCString
 (
 )
