@@ -70,9 +70,6 @@ bool
 ionCompileable_
 ;
 bool
-ionOSRCompileable_
-;
-bool
 compileDebugInstrumentation_
 ;
 TempAllocator
