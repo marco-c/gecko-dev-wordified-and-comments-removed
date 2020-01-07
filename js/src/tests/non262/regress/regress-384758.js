@@ -50,6 +50,10 @@ printStatus
 summary
 )
 ;
+enableExpressionClosures
+(
+)
+;
 expect
 =
 '

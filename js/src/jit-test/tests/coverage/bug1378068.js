@@ -1,11 +1,7 @@
-if
-(
-getBuildConfiguration
+enableExpressionClosures
 (
 )
-.
-release_or_beta
-)
+;
 eval
 (
 m

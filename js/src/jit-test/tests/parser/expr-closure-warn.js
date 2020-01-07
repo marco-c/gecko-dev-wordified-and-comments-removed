@@ -7,6 +7,10 @@ getBuildConfiguration
 .
 release_or_beta
 ;
+enableExpressionClosures
+(
+)
+;
 function
 testWarn
 (
@@ -23,11 +27,6 @@ testPass
 code
 )
 ;
-return
-;
-}
-else
-{
 return
 ;
 }

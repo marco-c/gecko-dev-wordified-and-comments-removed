@@ -9610,15 +9610,10 @@ a
 "
 )
 ;
-if
-(
-getBuildConfiguration
+enableExpressionClosures
 (
 )
-.
-release_or_beta
-)
-{
+;
 test
 (
 "
@@ -9666,7 +9661,6 @@ function
 "
 )
 ;
-}
 test
 (
 "

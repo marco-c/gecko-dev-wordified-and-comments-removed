@@ -1,12 +1,7 @@
-if
-(
-getBuildConfiguration
+enableExpressionClosures
 (
 )
-.
-release_or_beta
-)
-{
+;
 eval
 (
 function
@@ -67,4 +62,3 @@ f
 )
 ;
 )
-}

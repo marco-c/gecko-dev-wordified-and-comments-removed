@@ -1,12 +1,7 @@
-if
-(
-getBuildConfiguration
+enableExpressionClosures
 (
 )
-.
-release_or_beta
-)
-{
+;
 eval
 (
 var
@@ -237,7 +232,6 @@ x
 ;
 )
 ;
-}
 if
 (
 typeof

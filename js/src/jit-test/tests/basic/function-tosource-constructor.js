@@ -270,15 +270,10 @@ n
 "
 )
 ;
-if
-(
-getBuildConfiguration
+enableExpressionClosures
 (
 )
-.
-release_or_beta
-)
-{
+;
 f
 =
 Function
@@ -320,4 +315,3 @@ b
 "
 )
 ;
-}

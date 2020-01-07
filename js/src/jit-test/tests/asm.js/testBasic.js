@@ -20,15 +20,10 @@ js
 "
 )
 ;
-if
-(
-getBuildConfiguration
+enableExpressionClosures
 (
 )
-.
-release_or_beta
-)
-{
+;
 assertAsmTypeFail
 (
 USE_ASM
@@ -74,7 +69,6 @@ f
 '
 )
 ;
-}
 assertAsmTypeFail
 (
 USE_ASM
