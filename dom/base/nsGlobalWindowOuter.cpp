@@ -26434,7 +26434,7 @@ mAction
 }
 ;
 }
-nsresult
+void
 nsGlobalWindowOuter
 :
 :
@@ -26509,7 +26509,6 @@ anAction
 ;
 }
 return
-NS_OK
 ;
 }
 }
@@ -26526,9 +26525,10 @@ if
 !
 rootWindow
 )
+{
 return
-NS_OK
 ;
+}
 nsCOMPtr
 <
 nsIDOMXULDocument
@@ -26598,9 +26598,6 @@ anAction
 ;
 }
 }
-return
-NS_OK
-;
 }
 Selection
 *

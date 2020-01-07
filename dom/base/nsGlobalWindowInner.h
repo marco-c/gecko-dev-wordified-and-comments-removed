@@ -5024,7 +5024,7 @@ ErrorResult
 aError
 )
 ;
-nsresult
+void
 UpdateCommands
 (
 const
@@ -5037,7 +5037,6 @@ aSel
 int16_t
 aReason
 )
-override
 ;
 void
 GetContent
