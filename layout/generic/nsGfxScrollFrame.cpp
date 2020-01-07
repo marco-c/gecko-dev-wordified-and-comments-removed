@@ -16384,6 +16384,14 @@ InsertScrollFrame
 sf
 )
 ;
+aBuilder
+-
+>
+SetDisablePartialUpdates
+(
+true
+)
+;
 }
 }
 }
