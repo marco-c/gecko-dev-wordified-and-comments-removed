@@ -421,7 +421,7 @@ aDropEffect
 void
 GetEffectAllowed
 (
-nsString
+nsAString
 &
 aEffectAllowed
 )
@@ -461,6 +461,15 @@ mEffectAllowed
 ;
 }
 }
+void
+SetEffectAllowed
+(
+const
+nsAString
+&
+aEffectAllowed
+)
+;
 void
 SetDragImage
 (
