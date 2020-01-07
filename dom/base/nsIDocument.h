@@ -8857,6 +8857,14 @@ uint32_t
 aDirtyBits
 )
 ;
+inline
+void
+SetServoRestyleRootDirtyBits
+(
+uint32_t
+aDirtyBits
+)
+;
 bool
 ShouldThrowOnDynamicMarkupInsertion
 (
