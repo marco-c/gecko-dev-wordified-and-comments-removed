@@ -213,6 +213,14 @@ gMainPane
 register_module
 (
 "
+paneHome
+"
+gHomePane
+)
+;
+register_module
+(
+"
 paneSearch
 "
 gSearchPane
