@@ -48,8 +48,8 @@ build
 debian
 /
 "
-done
 >
+"
 /
 etc
 /
@@ -61,6 +61,9 @@ list
 .
 d
 /
-99packages
+99
+task
 .
 list
+"
+done
