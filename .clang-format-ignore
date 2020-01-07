@@ -71,6 +71,14 @@ testsd
 /
 .
 *
+.
+*
+/
+gtest
+/
+ExampleStylesheet
+.
+h
 image
 /
 test
