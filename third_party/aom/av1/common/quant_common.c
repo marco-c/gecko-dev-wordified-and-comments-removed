@@ -2739,6 +2739,7 @@ base_qindex
 #
 if
 CONFIG_AOM_QM
+const
 qm_val_t
 *
 aom_iqmatrix
@@ -2783,6 +2784,7 @@ tx_size
 ]
 ;
 }
+const
 qm_val_t
 *
 aom_qmatrix
@@ -2843,6 +2845,7 @@ QM_TOTAL_SIZE
 #
 endif
 static
+const
 uint16_t
 wt_matrix_ref
 [
@@ -2856,6 +2859,7 @@ QM_TOTAL_SIZE
 ]
 ;
 static
+const
 uint16_t
 iwt_matrix_ref
 [
@@ -3124,6 +3128,7 @@ size
 }
 }
 static
+const
 uint16_t
 iwt_matrix_ref
 [
@@ -110532,6 +110537,7 @@ endif
 }
 ;
 static
+const
 uint16_t
 wt_matrix_ref
 [

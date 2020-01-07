@@ -871,6 +871,7 @@ MAX_SEGMENTS
 #
 if
 CONFIG_AOM_QM
+const
 qm_val_t
 *
 giqmatrix
@@ -887,6 +888,7 @@ NUM_QM_LEVELS
 TX_SIZES_ALL
 ]
 ;
+const
 qm_val_t
 *
 gqmatrix
@@ -903,6 +905,7 @@ NUM_QM_LEVELS
 TX_SIZES_ALL
 ]
 ;
+const
 qm_val_t
 *
 y_iqmatrix
@@ -916,6 +919,7 @@ MAX_SEGMENTS
 TX_SIZES_ALL
 ]
 ;
+const
 qm_val_t
 *
 uv_iqmatrix
@@ -929,6 +933,7 @@ MAX_SEGMENTS
 TX_SIZES_ALL
 ]
 ;
+const
 qm_val_t
 *
 y_qmatrix
@@ -942,6 +947,7 @@ MAX_SEGMENTS
 TX_SIZES_ALL
 ]
 ;
+const
 qm_val_t
 *
 uv_qmatrix
