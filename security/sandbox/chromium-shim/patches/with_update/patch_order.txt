@@ -43,3 +43,6 @@ patch
 revert_TargetNtSetInformationThread_change
 .
 patch
+mingw_base_win_get_caller
+.
+patch
