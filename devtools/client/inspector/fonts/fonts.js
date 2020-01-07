@@ -867,6 +867,13 @@ fonts
 length
 )
 {
+if
+(
+this
+.
+store
+)
+{
 this
 .
 store
@@ -879,6 +886,7 @@ fonts
 )
 )
 ;
+}
 return
 ;
 }
