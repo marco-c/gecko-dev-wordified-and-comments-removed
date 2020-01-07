@@ -1360,6 +1360,13 @@ setState
 state
 )
 ;
+fxAccount
+.
+updateFirstRunScope
+(
+mContext
+)
+;
 if
 (
 callback
