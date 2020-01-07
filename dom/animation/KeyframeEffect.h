@@ -1316,6 +1316,15 @@ aFrame
 const
 ;
 bool
+CanThrottleIfNotVisible
+(
+nsIFrame
+&
+aFrame
+)
+const
+;
+bool
 HasComputedTimingChanged
 (
 )
