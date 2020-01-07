@@ -30169,6 +30169,7 @@ parent
 >
 mIsVisible
 )
+{
 style
 |
 =
@@ -30184,11 +30185,13 @@ mSizeMode
 =
 nsSizeMode_Maximized
 )
+{
 style
 |
 =
 WS_MAXIMIZE
 ;
+}
 else
 if
 (
@@ -30200,11 +30203,14 @@ mSizeMode
 =
 nsSizeMode_Minimized
 )
+{
 style
 |
 =
 WS_MINIMIZE
 ;
+}
+}
 if
 (
 aMode
