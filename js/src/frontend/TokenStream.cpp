@@ -45,6 +45,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
 <
 ctype
 .
@@ -189,6 +198,12 @@ mozilla
 :
 :
 ArrayLength
+;
+using
+mozilla
+:
+:
+IsAsciiAlpha
 ;
 using
 mozilla
@@ -9727,7 +9742,7 @@ UnicodeFlag
 else
 if
 (
-JS7_ISLET
+IsAsciiAlpha
 (
 c
 )

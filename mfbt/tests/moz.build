@@ -228,6 +228,9 @@ TestSplayTree
 TestTemplateLib
 '
 '
+TestTextUtils
+'
+'
 TestThreadSafeWeakPtr
 '
 '

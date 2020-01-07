@@ -516,6 +516,11 @@ TemplateLib
 h
 '
 '
+TextUtils
+.
+h
+'
+'
 ThreadLocal
 .
 h
