@@ -326,6 +326,15 @@ ClientControlledArgs
 aArgs
 )
 ;
+void
+InheritController
+(
+const
+ServiceWorkerDescriptor
+&
+aServiceWorker
+)
+;
 const
 Maybe
 <
