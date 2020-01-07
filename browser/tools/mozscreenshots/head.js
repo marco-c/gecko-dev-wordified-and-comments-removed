@@ -99,6 +99,12 @@ requestLongerTimeout
 100
 )
 ;
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 info
 (
 "
