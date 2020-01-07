@@ -23461,9 +23461,11 @@ InsertNode
 (
 *
 newNode
-*
+EditorRawDOMPoint
+(
 node
 offset
+)
 )
 ;
 NS_ENSURE_SUCCESS
