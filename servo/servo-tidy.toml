@@ -192,6 +192,9 @@ xid
 "
 log
 "
+"
+env_logger
+"
 ]
 #
 Files
