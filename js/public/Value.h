@@ -1249,6 +1249,9 @@ obj
 )
 )
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 JSObject
 *
 testObj
@@ -1264,6 +1267,8 @@ testObj
 nullptr
 )
 ;
+#
+endif
 #
 if
 defined
