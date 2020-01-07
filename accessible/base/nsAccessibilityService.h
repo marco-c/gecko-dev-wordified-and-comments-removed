@@ -479,9 +479,6 @@ nsIPresShell
 aPresShell
 nsIContent
 *
-aContainer
-nsIContent
-*
 aStartChild
 nsIContent
 *

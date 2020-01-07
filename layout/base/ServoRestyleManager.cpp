@@ -3310,12 +3310,6 @@ ContentRangeInserted
 (
 presShell
 aElement
--
->
-GetParent
-(
-)
-aElement
 aElement
 -
 >

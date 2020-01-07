@@ -3275,9 +3275,6 @@ nsIPresShell
 aPresShell
 nsIContent
 *
-aContainer
-nsIContent
-*
 aStartChild
 nsIContent
 *
@@ -3338,7 +3335,12 @@ Node
 "
 container
 "
-aContainer
+aStartChild
+-
+>
+GetParent
+(
+)
 )
 ;
 for
@@ -3403,7 +3405,12 @@ document
 >
 ContentInserted
 (
-aContainer
+aStartChild
+-
+>
+GetParent
+(
+)
 aStartChild
 aEndChild
 )
