@@ -1427,6 +1427,7 @@ clone
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )
@@ -1496,6 +1497,7 @@ ComputedValues
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )
@@ -1789,6 +1791,7 @@ keyframes
 [
 derive
 (
+Clone
 Debug
 MallocSizeOf
 )

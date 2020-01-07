@@ -2475,12 +2475,7 @@ level
 )
 ;
 for
-&
-(
-ref
-counter_name
-value
-)
+pair
 in
 &
 *
@@ -2501,7 +2496,9 @@ counter_name
 =
 &
 *
-counter_name
+pair
+.
+name
 .
 0
 ;
@@ -2532,6 +2529,8 @@ reset
 self
 .
 level
+pair
+.
 value
 )
 ;
@@ -2555,6 +2554,8 @@ reset
 self
 .
 level
+pair
+.
 value
 )
 ;
@@ -2576,12 +2577,7 @@ counter
 ;
 }
 for
-&
-(
-ref
-counter_name
-value
-)
+pair
 in
 &
 *
@@ -2602,7 +2598,9 @@ counter_name
 =
 &
 *
-counter_name
+pair
+.
+name
 .
 0
 ;
@@ -2633,6 +2631,8 @@ increment
 self
 .
 level
+pair
+.
 value
 )
 ;
@@ -2656,6 +2656,8 @@ increment
 self
 .
 level
+pair
+.
 value
 )
 ;
