@@ -7357,6 +7357,12 @@ registration
 Id
 (
 )
+registration
+-
+>
+Version
+(
+)
 currentWorkerURL
 aRegistration
 .

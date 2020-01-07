@@ -132,6 +132,9 @@ IPCServiceWorkerRegistrationDescriptor
 uint64_t
 id
 ;
+uint64_t
+version
+;
 /
 /
 These

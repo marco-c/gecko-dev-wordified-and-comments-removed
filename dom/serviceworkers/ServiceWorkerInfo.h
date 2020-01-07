@@ -268,6 +268,8 @@ nsACString
 aScope
 uint64_t
 aRegistrationId
+uint64_t
+aRegistrationVersion
 const
 nsACString
 &
@@ -414,6 +416,13 @@ Enabled
 Disabled
 ;
 }
+void
+SetRegistrationVersion
+(
+uint64_t
+aVersion
+)
+;
 bool
 HandlesFetch
 (

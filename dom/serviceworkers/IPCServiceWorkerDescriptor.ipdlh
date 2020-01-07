@@ -132,6 +132,9 @@ id
 uint64_t
 registrationId
 ;
+uint64_t
+registrationVersion
+;
 PrincipalInfo
 principalInfo
 ;
