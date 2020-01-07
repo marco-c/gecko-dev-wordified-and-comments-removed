@@ -1194,6 +1194,15 @@ events
 "
 )
 ;
+if
+(
+mRetargetedTouchTargets
+.
+isSome
+(
+)
+)
+{
 WidgetTouchEvent
 :
 :
@@ -1267,6 +1276,7 @@ ElementAt
 i
 )
 ;
+}
 }
 if
 (
