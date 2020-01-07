@@ -3628,13 +3628,6 @@ aCleaner
 {
 if
 (
-"
-deleteByPrincipal
-"
-in
-aCleaner
-&
-&
 aCleaner
 .
 deleteByPrincipal
