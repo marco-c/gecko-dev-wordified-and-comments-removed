@@ -10856,7 +10856,7 @@ options
 .
 shared_memory
 "
-true
+false
 )
 ;
 pref
