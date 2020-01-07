@@ -609,6 +609,17 @@ flex
 ref
 .
 html
+fuzzy
+-
+if
+(
+webrender
+&
+&
+winWidget
+3
+2
+)
 =
 =
 contain
@@ -635,6 +646,9 @@ flex
 ref
 .
 html
+#
+bug
+1474093
 =
 =
 contain
