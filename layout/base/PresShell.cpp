@@ -18351,6 +18351,10 @@ ProcessPendingRestyles
 (
 )
 ;
+mNeedStyleFlush
+=
+false
+;
 }
 didStyleFlush
 =
