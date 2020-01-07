@@ -3301,6 +3301,12 @@ _isOSShutdown
 =
 false
 ;
+this
+.
+_sendingEnabled
+=
+true
+;
 const
 histograms
 =
@@ -3313,6 +3319,9 @@ TELEMETRY_SEND_SUCCESS
 "
 "
 TELEMETRY_SEND_FAILURE
+"
+"
+TELEMETRY_SEND_FAILURE_TYPE
 "
 ]
 ;
@@ -4896,7 +4905,7 @@ eTooLate
 return
 Promise
 .
-resolve
+reject
 (
 )
 ;
