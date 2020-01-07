@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -62,7 +62,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 testActor
 .
 setAttribute
@@ -78,7 +78,7 @@ menu1
 "
 )
 ;
-yield
+await
 onMutated
 ;
 info
@@ -99,7 +99,7 @@ let
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -217,7 +217,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 testActor
 .
 setAttribute
@@ -233,7 +233,7 @@ menu2
 "
 )
 ;
-yield
+await
 onMutated
 ;
 info
@@ -254,7 +254,7 @@ attribute
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "

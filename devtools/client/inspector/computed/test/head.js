@@ -243,12 +243,8 @@ propView
 var
 getComputedViewMatchedRules
 =
-Task
-.
 async
-(
 function
-*
 (
 view
 name
@@ -375,7 +371,7 @@ click
 (
 )
 ;
-yield
+await
 onExpand
 ;
 }
@@ -383,7 +379,6 @@ return
 propertyContent
 ;
 }
-)
 ;
 function
 getComputedViewPropertyValue
@@ -563,8 +558,8 @@ _onSelectAll
 )
 ;
 }
+async
 function
-*
 copyAllAndCheckClipboard
 (
 view
@@ -618,7 +613,7 @@ content
 "
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 (
@@ -652,8 +647,8 @@ expectedPattern
 ;
 }
 }
+async
 function
-*
 copySomeTextAndCheckClipboard
 (
 view
@@ -783,7 +778,7 @@ content
 "
 )
 ;
-yield
+await
 waitForClipboardPromise
 (
 (

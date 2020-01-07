@@ -16,12 +16,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URI
@@ -33,12 +33,12 @@ inspector
 view
 }
 =
-yield
+await
 openComputedView
 (
 )
 ;
-yield
+await
 testTopLeft
 (
 inspector
@@ -48,8 +48,8 @@ view
 }
 )
 ;
+async
 function
-*
 testTopLeft
 (
 inspector
@@ -59,7 +59,7 @@ view
 let
 node
 =
-yield
+await
 getNodeFront
 (
 "
@@ -71,7 +71,7 @@ inspector
 markup
 )
 ;
-yield
+await
 selectNode
 (
 node
@@ -109,7 +109,7 @@ float
 let
 children
 =
-yield
+await
 inspector
 .
 markup
@@ -149,7 +149,7 @@ nodes
 0
 ]
 ;
-yield
+await
 selectNode
 (
 beforeElement
@@ -228,7 +228,7 @@ length
 1
 ]
 ;
-yield
+await
 selectNode
 (
 afterElement

@@ -472,12 +472,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 DOCUMENT_URL
@@ -491,12 +491,12 @@ view
 testActor
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -505,13 +505,13 @@ div
 inspector
 )
 ;
-yield
+await
 testInlineStyle
 (
 view
 )
 ;
-yield
+await
 testFirstInlineStyleSheet
 (
 view
@@ -519,7 +519,7 @@ toolbox
 testActor
 )
 ;
-yield
+await
 testSecondInlineStyleSheet
 (
 view
@@ -527,7 +527,7 @@ toolbox
 testActor
 )
 ;
-yield
+await
 testExternalStyleSheet
 (
 view
@@ -535,7 +535,7 @@ toolbox
 testActor
 )
 ;
-yield
+await
 testDisabledStyleEditor
 (
 view
@@ -545,8 +545,8 @@ toolbox
 }
 )
 ;
+async
 function
-*
 testInlineStyle
 (
 view
@@ -593,7 +593,7 @@ view
 let
 tab
 =
-yield
+await
 onTab
 ;
 let
@@ -645,8 +645,8 @@ tab
 )
 ;
 }
+async
 function
-*
 testFirstInlineStyleSheet
 (
 view
@@ -703,7 +703,7 @@ view
 let
 editor
 =
-yield
+await
 onSwitch
 ;
 ok
@@ -723,7 +723,7 @@ toolbox
 "
 )
 ;
-yield
+await
 validateStyleEditorSheet
 (
 editor
@@ -732,8 +732,8 @@ testActor
 )
 ;
 }
+async
 function
-*
 testSecondInlineStyleSheet
 (
 view
@@ -805,7 +805,7 @@ toolbox
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -841,7 +841,7 @@ view
 let
 editor
 =
-yield
+await
 onSelected
 ;
 is
@@ -862,7 +862,7 @@ again
 "
 )
 ;
-yield
+await
 validateStyleEditorSheet
 (
 editor
@@ -871,8 +871,8 @@ testActor
 )
 ;
 }
+async
 function
-*
 testExternalStyleSheet
 (
 view
@@ -943,7 +943,7 @@ toolbox
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -979,7 +979,7 @@ view
 let
 editor
 =
-yield
+await
 onSelected
 ;
 is
@@ -1000,7 +1000,7 @@ again
 "
 )
 ;
-yield
+await
 validateStyleEditorSheet
 (
 editor
@@ -1009,8 +1009,8 @@ testActor
 )
 ;
 }
+async
 function
-*
 validateStyleEditorSheet
 (
 editor
@@ -1065,7 +1065,7 @@ nodeHref
 let
 expectedHref
 =
-yield
+await
 testActor
 .
 eval
@@ -1108,8 +1108,8 @@ stylesheet
 )
 ;
 }
+async
 function
-*
 testDisabledStyleEditor
 (
 view
@@ -1142,7 +1142,7 @@ toolbox
 "
 )
 ;
-yield
+await
 toolbox
 .
 selectTool
@@ -1302,7 +1302,7 @@ view
 1
 )
 ;
-yield
+await
 onStyleEditorSelected
 ;
 is

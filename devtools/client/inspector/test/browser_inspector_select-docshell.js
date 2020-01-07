@@ -95,8 +95,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -127,7 +127,7 @@ toolbox
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 URL
@@ -136,7 +136,7 @@ URL
 ok
 (
 (
-yield
+await
 testActor
 .
 hasNode
@@ -207,7 +207,7 @@ children
 let
 menu
 =
-yield
+await
 toolbox
 .
 showFramesMenu
@@ -219,7 +219,7 @@ btn
 }
 )
 ;
-yield
+await
 once
 (
 menu
@@ -382,7 +382,7 @@ root
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -410,10 +410,10 @@ click
 (
 )
 ;
-yield
+await
 willNavigate
 ;
-yield
+await
 newRoot
 ;
 info
@@ -438,7 +438,7 @@ ok
 (
 !
 (
-yield
+await
 testActor
 .
 hasNode
@@ -465,7 +465,7 @@ elements
 ok
 (
 (
-yield
+await
 testActor
 .
 hasNode
@@ -494,7 +494,7 @@ assertMarkupViewIsLoaded
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 "

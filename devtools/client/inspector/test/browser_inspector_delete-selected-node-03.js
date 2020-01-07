@@ -22,8 +22,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -32,7 +32,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -41,7 +41,7 @@ TEST_URL
 let
 iframe
 =
-yield
+await
 getNodeFront
 (
 "
@@ -53,7 +53,7 @@ inspector
 let
 node
 =
-yield
+await
 getNodeFrontInFrame
 (
 "
@@ -63,7 +63,7 @@ iframe
 inspector
 )
 ;
-yield
+await
 selectNode
 (
 node
@@ -79,7 +79,7 @@ iframe
 "
 )
 ;
-yield
+await
 inspector
 .
 walker
@@ -89,7 +89,7 @@ removeNode
 iframe
 )
 ;
-yield
+await
 inspector
 .
 selection
@@ -106,7 +106,7 @@ front
 let
 body
 =
-yield
+await
 getNodeFront
 (
 "
@@ -133,7 +133,7 @@ node
 "
 )
 ;
-yield
+await
 inspector
 .
 once

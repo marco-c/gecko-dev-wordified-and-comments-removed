@@ -33,15 +33,15 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 helper
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -83,7 +83,7 @@ eyedropper
 "
 )
 ;
-yield
+await
 show
 (
 "
@@ -94,7 +94,7 @@ html
 let
 hidden
 =
-yield
+await
 isElementHidden
 (
 "
@@ -133,7 +133,7 @@ page
 "
 )
 ;
-yield
+await
 waitForElementAttributeSet
 (
 "
@@ -161,7 +161,7 @@ window
 "
 )
 ;
-yield
+await
 hide
 (
 )

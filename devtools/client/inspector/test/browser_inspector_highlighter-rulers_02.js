@@ -68,8 +68,8 @@ highlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -79,7 +79,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -95,7 +95,7 @@ inspector
 let
 highlighter
 =
-yield
+await
 front
 .
 getHighlighterByType
@@ -108,7 +108,7 @@ RulersHighlighter
 let
 body
 =
-yield
+await
 getNodeFront
 (
 "
@@ -117,7 +117,7 @@ body
 inspector
 )
 ;
-yield
+await
 highlighter
 .
 show
@@ -125,7 +125,7 @@ show
 body
 )
 ;
-yield
+await
 isUpdatedAfterScroll
 (
 highlighter
@@ -133,7 +133,7 @@ inspector
 testActor
 )
 ;
-yield
+await
 highlighter
 .
 finalize
@@ -143,8 +143,8 @@ finalize
 }
 )
 ;
+async
 function
-*
 isUpdatedAfterScroll
 (
 highlighterFront
@@ -168,7 +168,7 @@ default
 let
 xAxisRulerTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -190,7 +190,7 @@ highlighterFront
 let
 xAxisTextTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -212,7 +212,7 @@ highlighterFront
 let
 yAxisRulerTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -234,7 +234,7 @@ highlighterFront
 let
 yAxisTextTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -335,7 +335,7 @@ y
 let
 data
 =
-yield
+await
 testActor
 .
 scrollWindow
@@ -389,7 +389,7 @@ scrolling
 ;
 xAxisRulerTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -410,7 +410,7 @@ highlighterFront
 ;
 xAxisTextTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -431,7 +431,7 @@ highlighterFront
 ;
 yAxisRulerTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -452,7 +452,7 @@ highlighterFront
 ;
 yAxisTextTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -572,7 +572,7 @@ position
 ;
 data
 =
-yield
+await
 testActor
 .
 scrollWindow
@@ -634,7 +634,7 @@ scrolling
 ;
 xAxisRulerTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -655,7 +655,7 @@ highlighterFront
 ;
 xAxisTextTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -676,7 +676,7 @@ highlighterFront
 ;
 yAxisRulerTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -697,7 +697,7 @@ highlighterFront
 ;
 yAxisTextTransform
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute

@@ -354,12 +354,8 @@ validatorFn
 var
 getFontFamilyDataURL
 =
-Task
-.
 async
-(
 function
-*
 (
 font
 nodeFront
@@ -382,7 +378,7 @@ let
 data
 }
 =
-yield
+await
 nodeFront
 .
 getFontFamilyDataURL
@@ -394,7 +390,7 @@ fillStyle
 let
 dataURL
 =
-yield
+await
 data
 .
 string
@@ -405,17 +401,12 @@ return
 dataURL
 ;
 }
-)
 ;
 var
 simulateColorPickerChange
 =
-Task
-.
 async
-(
 function
-*
 (
 ruleView
 colorPicker
@@ -451,7 +442,7 @@ object
 let
 spectrum
 =
-yield
+await
 colorPicker
 .
 spectrum
@@ -506,7 +497,7 @@ update
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 if
@@ -530,7 +521,7 @@ page
 "
 )
 ;
-yield
+await
 waitForSuccess
 (
 (
@@ -576,7 +567,6 @@ page
 ;
 }
 }
-)
 ;
 function
 getComputedViewProperty

@@ -41,12 +41,12 @@ p
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -75,12 +75,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -107,7 +107,7 @@ view
 "
 )
 ;
-yield
+await
 testSelectorHighlight
 (
 view
@@ -116,7 +116,7 @@ p
 "
 )
 ;
-yield
+await
 testEditSelector
 (
 view
@@ -125,7 +125,7 @@ body
 "
 )
 ;
-yield
+await
 testSelectorHighlight
 (
 view
@@ -137,8 +137,8 @@ body
 }
 )
 ;
+async
 function
-*
 testSelectorHighlight
 (
 view
@@ -169,7 +169,7 @@ icon
 let
 icon
 =
-yield
+await
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -207,7 +207,7 @@ styleWindow
 let
 isVisible
 =
-yield
+await
 onToggled
 ;
 ok
@@ -240,8 +240,8 @@ visible
 )
 ;
 }
+async
 function
-*
 testEditSelector
 (
 view
@@ -287,7 +287,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -375,7 +375,7 @@ KEY_Enter
 let
 isVisible
 =
-yield
+await
 onToggled
 ;
 ok

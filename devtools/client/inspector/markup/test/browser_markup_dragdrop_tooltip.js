@@ -36,8 +36,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -46,7 +46,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -80,7 +80,7 @@ attribute
 let
 img
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -130,7 +130,7 @@ target
 "
 )
 ;
-yield
+await
 assertTooltipShownOnHover
 (
 markup
@@ -139,7 +139,7 @@ imagePreviewTooltip
 target
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 markup
@@ -159,7 +159,7 @@ div
 "
 )
 ;
-yield
+await
 simulateNodeDrag
 (
 inspector
@@ -192,7 +192,7 @@ target
 let
 isValid
 =
-yield
+await
 markup
 .
 imagePreviewTooltip
@@ -231,7 +231,7 @@ div
 "
 )
 ;
-yield
+await
 simulateNodeDrop
 (
 inspector
@@ -254,7 +254,7 @@ image
 "
 )
 ;
-yield
+await
 assertTooltipShownOnHover
 (
 markup
@@ -263,7 +263,7 @@ imagePreviewTooltip
 target
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 markup

@@ -74,12 +74,12 @@ FlexboxHighlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -108,7 +108,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -120,7 +120,7 @@ highlighters
 =
 view
 ;
-yield
+await
 selectNode
 (
 "
@@ -350,7 +350,7 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 info
@@ -495,7 +495,7 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterHidden
 ;
 info

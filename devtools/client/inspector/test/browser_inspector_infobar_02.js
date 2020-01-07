@@ -135,8 +135,8 @@ XHTML
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -146,7 +146,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -194,7 +194,7 @@ of
 testData
 )
 {
-yield
+await
 testNode
 (
 currTest
@@ -206,8 +206,8 @@ testActor
 }
 )
 ;
+async
 function
-*
 testNode
 (
 test
@@ -226,7 +226,7 @@ test
 selector
 )
 ;
-yield
+await
 selectAndHighlightNode
 (
 test
@@ -238,7 +238,7 @@ inspector
 let
 tag
 =
-yield
+await
 testActor
 .
 getHighlighterNodeTextContent

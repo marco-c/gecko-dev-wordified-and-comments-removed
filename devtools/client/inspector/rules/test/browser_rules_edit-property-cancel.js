@@ -48,12 +48,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -82,12 +82,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -120,7 +120,7 @@ textProps
 .
 editor
 ;
-yield
+await
 focusEditableField
 (
 view
@@ -129,7 +129,7 @@ propEditor
 nameSpan
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -176,7 +176,7 @@ set
 is
 (
 (
-yield
+await
 getComputedStyleProperty
 (
 "
@@ -210,7 +210,7 @@ set
 "
 )
 ;
-yield
+await
 focusEditableField
 (
 view
@@ -233,7 +233,7 @@ changed
 "
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -250,7 +250,7 @@ ESCAPE
 ]
 )
 ;
-yield
+await
 onValueDeleted
 ;
 is
@@ -281,7 +281,7 @@ set
 is
 (
 (
-yield
+await
 getComputedStyleProperty
 (
 "

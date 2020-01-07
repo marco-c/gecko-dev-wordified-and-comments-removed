@@ -58,12 +58,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -92,12 +92,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -107,7 +107,7 @@ testElement
 inspector
 )
 ;
-yield
+await
 testRuleView
 (
 view
@@ -151,10 +151,10 @@ selectComputedView
 inspector
 )
 ;
-yield
+await
 onComputedViewReady
 ;
-yield
+await
 testComputedView
 (
 view
@@ -165,7 +165,7 @@ selection
 nodeFront
 )
 ;
-yield
+await
 testExpandedComputedViewProperty
 (
 view
@@ -179,8 +179,8 @@ nodeFront
 }
 )
 ;
+async
 function
-*
 testRuleView
 (
 ruleView
@@ -272,7 +272,7 @@ true
 let
 previewTooltip
 =
-yield
+await
 assertShowPreviewTooltip
 (
 ruleView
@@ -342,7 +342,7 @@ expected
 let
 dataURL
 =
-yield
+await
 getFontFamilyDataURL
 (
 valueSpan
@@ -377,7 +377,7 @@ image
 "
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip
@@ -410,7 +410,7 @@ true
 ;
 previewTooltip
 =
-yield
+await
 assertShowPreviewTooltip
 (
 ruleView
@@ -478,7 +478,7 @@ expected
 ;
 dataURL
 =
-yield
+await
 getFontFamilyDataURL
 (
 fontFamilySpan
@@ -513,7 +513,7 @@ image
 "
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip
@@ -521,8 +521,8 @@ fontFamilySpan
 )
 ;
 }
+async
 function
-*
 testComputedView
 (
 computedView
@@ -590,7 +590,7 @@ true
 let
 previewTooltip
 =
-yield
+await
 assertShowPreviewTooltip
 (
 computedView
@@ -660,7 +660,7 @@ expected
 let
 dataURL
 =
-yield
+await
 getFontFamilyDataURL
 (
 valueSpan
@@ -695,7 +695,7 @@ image
 "
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip
@@ -703,8 +703,8 @@ valueSpan
 )
 ;
 }
+async
 function
-*
 testExpandedComputedViewProperty
 (
 computedView
@@ -767,7 +767,7 @@ matchedExpanded
 =
 true
 ;
-yield
+await
 propertyView
 .
 refreshMatchedSelectors
@@ -828,7 +828,7 @@ true
 let
 previewTooltip
 =
-yield
+await
 assertShowPreviewTooltip
 (
 computedView
@@ -898,7 +898,7 @@ expected
 let
 dataURL
 =
-yield
+await
 getFontFamilyDataURL
 (
 valueSpan
@@ -933,7 +933,7 @@ image
 "
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 previewTooltip

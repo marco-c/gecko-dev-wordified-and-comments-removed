@@ -37,12 +37,12 @@ closed
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 data
@@ -94,12 +94,12 @@ toolbox
 inspector
 }
 =
-yield
+await
 openInspector
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -123,7 +123,7 @@ tagname
 let
 container
 =
-yield
+await
 focusNode
 (
 "
@@ -159,7 +159,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -196,7 +196,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -246,7 +246,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -283,7 +283,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -359,7 +359,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -395,7 +395,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -431,7 +431,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -480,10 +480,10 @@ inspector
 panelWin
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -527,7 +527,7 @@ selectLayoutView
 inspector
 )
 ;
-yield
+await
 onBoxModelUpdated
 ;
 info
@@ -577,7 +577,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 checkTextBox
 (
 inspector
@@ -603,8 +603,8 @@ panelWin
 }
 )
 ;
+async
 function
-*
 checkTextBox
 (
 textBox
@@ -682,7 +682,7 @@ ownerDocument
 defaultView
 )
 ;
-yield
+await
 onContextMenu
 ;
 is
@@ -728,7 +728,7 @@ hidePopup
 (
 )
 ;
-yield
+await
 onContextMenuHidden
 ;
 is

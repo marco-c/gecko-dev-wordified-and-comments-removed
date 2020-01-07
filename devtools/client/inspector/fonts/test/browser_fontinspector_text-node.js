@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 view
 }
 =
-yield
+await
 openFontInspectorForURL
 (
 TEST_URI
@@ -62,7 +62,7 @@ body
 let
 bodyNode
 =
-yield
+await
 getNodeFront
 (
 "
@@ -76,7 +76,7 @@ let
 nodes
 }
 =
-yield
+await
 inspector
 .
 walker
@@ -86,7 +86,7 @@ children
 bodyNode
 )
 ;
-yield
+await
 selectNode
 (
 nodes

@@ -347,8 +347,8 @@ u00D7
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -357,7 +357,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 "
@@ -401,7 +401,7 @@ element
 let
 img
 =
-yield
+await
 getNodeFront
 (
 "
@@ -422,7 +422,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 img
@@ -442,7 +442,7 @@ image
 "
 )
 ;
-yield
+await
 updateImageSrc
 (
 img
@@ -524,7 +524,7 @@ link
 "
 )
 ;
-yield
+await
 assertTooltipShownOnHover
 (
 inspector
@@ -541,7 +541,7 @@ INITIAL_SRC_SIZE
 inspector
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 inspector
@@ -563,7 +563,7 @@ src
 "
 )
 ;
-yield
+await
 updateImageSrc
 (
 img
@@ -623,7 +623,7 @@ link
 "
 )
 ;
-yield
+await
 assertTooltipShownOnHover
 (
 inspector
@@ -654,7 +654,7 @@ UPDATED_SRC_SIZE
 inspector
 )
 ;
-yield
+await
 assertTooltipHiddenOnMouseOut
 (
 inspector

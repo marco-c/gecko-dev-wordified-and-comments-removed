@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -44,12 +44,12 @@ view
 testActor
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -106,7 +106,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 testActor
 .
 setAttribute
@@ -124,7 +124,7 @@ id
 "
 )
 ;
-yield
+await
 onMutation
 ;
 info
@@ -197,7 +197,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 testActor
 .
 setAttribute
@@ -215,7 +215,7 @@ class
 "
 )
 ;
-yield
+await
 onMutation
 ;
 info
@@ -287,7 +287,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 testActor
 .
 setAttribute
@@ -304,7 +304,7 @@ c4
 "
 )
 ;
-yield
+await
 onMutation
 ;
 info
@@ -364,7 +364,7 @@ classes
 "
 )
 ;
-yield
+await
 toggleClassPanelCheckBox
 (
 view
@@ -409,7 +409,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -444,7 +444,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 testActor
 .
 setAttribute
@@ -462,7 +462,7 @@ c7
 "
 )
 ;
-yield
+await
 onMutation
 ;
 info
@@ -501,7 +501,7 @@ DOM
 "
 )
 ;
-yield
+await
 selectNode
 (
 "

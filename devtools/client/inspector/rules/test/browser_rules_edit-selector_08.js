@@ -56,12 +56,12 @@ span
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -90,7 +90,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -105,7 +105,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -143,7 +143,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -237,7 +237,7 @@ KEY_Enter
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 info
@@ -267,7 +267,7 @@ view
 ;
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -414,7 +414,7 @@ KEY_Enter
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 is

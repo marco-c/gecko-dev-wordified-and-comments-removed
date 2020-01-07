@@ -63,12 +63,12 @@ span
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -97,7 +97,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -112,7 +112,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -122,7 +122,7 @@ testid
 inspector
 )
 ;
-yield
+await
 testEditSelector
 (
 view
@@ -145,7 +145,7 @@ rule
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -154,7 +154,7 @@ span
 inspector
 )
 ;
-yield
+await
 checkModifiedElement
 (
 view
@@ -166,8 +166,8 @@ span
 }
 )
 ;
+async
 function
-*
 testEditSelector
 (
 view
@@ -213,7 +213,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -305,7 +305,7 @@ KEY_Enter
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 is
@@ -384,7 +384,6 @@ element
 ;
 }
 function
-*
 checkModifiedElement
 (
 view

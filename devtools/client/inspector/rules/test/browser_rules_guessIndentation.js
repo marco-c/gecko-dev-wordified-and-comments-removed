@@ -74,12 +74,12 @@ chartreuse
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -109,12 +109,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -139,7 +139,7 @@ view
 "
 )
 ;
-yield
+await
 addProperty
 (
 view
@@ -169,7 +169,7 @@ let
 UI
 }
 =
-yield
+await
 toolbox
 .
 selectTool
@@ -182,7 +182,7 @@ styleeditor
 let
 styleEditor
 =
-yield
+await
 UI
 .
 editors

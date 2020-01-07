@@ -27,8 +27,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -39,13 +39,13 @@ toolbox
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 startPicker
 (
 toolbox
@@ -106,7 +106,7 @@ div
 }
 )
 ;
-yield
+await
 onHover
 ;
 info
@@ -155,7 +155,7 @@ options
 }
 )
 ;
-yield
+await
 onPickerStopped
 ;
 info
@@ -217,10 +217,10 @@ inspector
 panelWin
 )
 ;
-yield
+await
 onSplitConsole
 ;
-yield
+await
 onConsoleReady
 ;
 ok
@@ -238,7 +238,7 @@ shown
 "
 )
 ;
-yield
+await
 toolbox
 .
 toggleSplitConsole

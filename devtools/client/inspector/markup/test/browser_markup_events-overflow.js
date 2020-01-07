@@ -93,8 +93,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -103,7 +103,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -112,7 +112,7 @@ TEST_URL
 let
 markupContainer
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -176,7 +176,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 tooltip
 .
 once
@@ -385,7 +385,7 @@ header
 ownerGlobal
 )
 ;
-yield
+await
 ready
 ;
 info
@@ -398,7 +398,7 @@ expanded
 "
 )
 ;
-yield
+await
 promiseNextTick
 (
 )

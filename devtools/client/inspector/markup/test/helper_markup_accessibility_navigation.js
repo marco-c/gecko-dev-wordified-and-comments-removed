@@ -79,8 +79,8 @@ id
 )
 ;
 }
+async
 function
-*
 runAccessibilityNavigationTest
 (
 inspector
@@ -176,7 +176,7 @@ options
 win
 )
 ;
-yield
+await
 updated
 ;
 let

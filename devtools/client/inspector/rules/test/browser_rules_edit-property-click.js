@@ -45,12 +45,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -79,12 +79,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -94,7 +94,7 @@ testid
 inspector
 )
 ;
-yield
+await
 testEditPropertyAndCancel
 (
 inspector
@@ -104,8 +104,8 @@ view
 }
 )
 ;
+async
 function
-*
 testEditPropertyAndCancel
 (
 inspector
@@ -150,7 +150,7 @@ name
 "
 )
 ;
-yield
+await
 focusEditableField
 (
 view
@@ -175,7 +175,7 @@ name
 "
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -220,7 +220,7 @@ getBoundingClientRect
 (
 )
 ;
-yield
+await
 focusEditableField
 (
 view
@@ -250,7 +250,7 @@ name
 "
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -279,7 +279,7 @@ value
 "
 )
 ;
-yield
+await
 focusEditableField
 (
 view
@@ -318,7 +318,7 @@ changed
 "
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -332,7 +332,7 @@ ESCAPE
 ]
 )
 ;
-yield
+await
 onRuleviewChanged
 ;
 info
@@ -366,7 +366,7 @@ getBoundingClientRect
 (
 )
 ;
-yield
+await
 focusEditableField
 (
 view
@@ -409,7 +409,7 @@ changed
 "
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -423,7 +423,7 @@ ESCAPE
 ]
 )
 ;
-yield
+await
 onRuleviewChanged
 ;
 }

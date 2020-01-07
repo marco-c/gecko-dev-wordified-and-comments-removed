@@ -381,8 +381,8 @@ noevents
 "
 beforeTest
 :
+async
 function
-*
 (
 inspector
 testActor
@@ -400,7 +400,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 testActor
 .
 eval
@@ -417,7 +417,7 @@ addNoeventsClickHandler
 "
 )
 ;
-yield
+await
 nodeMutated
 ;
 }
@@ -494,8 +494,8 @@ noevents
 "
 beforeTest
 :
+async
 function
-*
 (
 inspector
 testActor
@@ -513,7 +513,7 @@ markupmutation
 "
 )
 ;
-yield
+await
 testActor
 .
 eval
@@ -530,7 +530,7 @@ removeNoeventsClickHandler
 "
 )
 ;
-yield
+await
 nodeMutated
 ;
 }
@@ -668,12 +668,12 @@ n
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 runEventPopupTests
 (
 TEST_URL

@@ -101,8 +101,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -111,7 +111,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -141,7 +141,7 @@ selector
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 selector

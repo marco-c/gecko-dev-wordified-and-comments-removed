@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -27,7 +27,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -57,7 +57,7 @@ container
 let
 div
 =
-yield
+await
 walker
 .
 querySelector
@@ -78,7 +78,7 @@ let
 nodes
 }
 =
-yield
+await
 inspector
 .
 walker
@@ -99,7 +99,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 nodes
@@ -114,7 +114,7 @@ highlight
 "
 )
 ;
-yield
+await
 checkTextNodeInfoBar
 (
 testActor
@@ -131,7 +131,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 nodes
@@ -146,7 +146,7 @@ highlight
 "
 )
 ;
-yield
+await
 checkTextNodeInfoBar
 (
 testActor
@@ -163,7 +163,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 nodes
@@ -178,7 +178,7 @@ highlight
 "
 )
 ;
-yield
+await
 checkTextNodeInfoBar
 (
 testActor
@@ -187,8 +187,8 @@ testActor
 }
 )
 ;
+async
 function
-*
 checkTextNodeInfoBar
 (
 testActor
@@ -197,7 +197,7 @@ testActor
 let
 tag
 =
-yield
+await
 testActor
 .
 getHighlighterNodeTextContent
@@ -233,7 +233,7 @@ text
 let
 dims
 =
-yield
+await
 testActor
 .
 getHighlighterNodeTextContent

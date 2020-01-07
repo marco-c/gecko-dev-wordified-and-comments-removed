@@ -49,12 +49,12 @@ CssTransformHighlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -83,7 +83,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -240,7 +240,7 @@ valueSpan
 }
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 let
@@ -267,7 +267,7 @@ selectComputedView
 inspector
 )
 ;
-yield
+await
 onComputedViewReady
 ;
 hs
@@ -422,7 +422,7 @@ valueSpan
 }
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 ok

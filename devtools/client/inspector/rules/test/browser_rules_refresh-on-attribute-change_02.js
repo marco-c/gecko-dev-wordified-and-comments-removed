@@ -44,12 +44,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -79,12 +79,12 @@ view
 testActor
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -94,14 +94,14 @@ testid
 inspector
 )
 ;
-yield
+await
 testPropertyChanges
 (
 inspector
 view
 )
 ;
-yield
+await
 testPropertyChange0
 (
 inspector
@@ -113,7 +113,7 @@ testid
 testActor
 )
 ;
-yield
+await
 testPropertyChange1
 (
 inspector
@@ -125,7 +125,7 @@ testid
 testActor
 )
 ;
-yield
+await
 testPropertyChange2
 (
 inspector
@@ -137,7 +137,7 @@ testid
 testActor
 )
 ;
-yield
+await
 testPropertyChange3
 (
 inspector
@@ -149,7 +149,7 @@ testid
 testActor
 )
 ;
-yield
+await
 testPropertyChange4
 (
 inspector
@@ -161,7 +161,7 @@ testid
 testActor
 )
 ;
-yield
+await
 testPropertyChange5
 (
 inspector
@@ -173,7 +173,7 @@ testid
 testActor
 )
 ;
-yield
+await
 testPropertyChange6
 (
 inspector
@@ -188,8 +188,8 @@ testActor
 }
 )
 ;
+async
 function
-*
 testPropertyChanges
 (
 inspector
@@ -260,7 +260,7 @@ top
 true
 )
 ;
-yield
+await
 onRefreshed
 ;
 let
@@ -301,8 +301,8 @@ active
 )
 ;
 }
+async
 function
-*
 testPropertyChange0
 (
 inspector
@@ -311,7 +311,7 @@ selector
 testActor
 )
 {
-yield
+await
 changeElementStyle
 (
 selector
@@ -425,8 +425,8 @@ disabled
 )
 ;
 }
+async
 function
-*
 testPropertyChange1
 (
 inspector
@@ -456,7 +456,7 @@ enabled
 "
 )
 ;
-yield
+await
 changeElementStyle
 (
 selector
@@ -571,8 +571,8 @@ disabled
 )
 ;
 }
+async
 function
-*
 testPropertyChange2
 (
 inspector
@@ -622,7 +622,7 @@ one
 "
 )
 ;
-yield
+await
 changeElementStyle
 (
 selector
@@ -737,8 +737,8 @@ disabled
 )
 ;
 }
+async
 function
-*
 testPropertyChange3
 (
 inspector
@@ -773,7 +773,7 @@ it
 "
 )
 ;
-yield
+await
 changeElementStyle
 (
 selector
@@ -854,8 +854,8 @@ disabled
 )
 ;
 }
+async
 function
-*
 testPropertyChange4
 (
 inspector
@@ -889,7 +889,7 @@ property
 "
 )
 ;
-yield
+await
 changeElementStyle
 (
 selector
@@ -975,8 +975,8 @@ enabled
 )
 ;
 }
+async
 function
-*
 testPropertyChange5
 (
 inspector
@@ -996,7 +996,7 @@ property
 "
 )
 ;
-yield
+await
 changeElementStyle
 (
 selector
@@ -1088,8 +1088,8 @@ enabled
 )
 ;
 }
+async
 function
-*
 testPropertyChange6
 (
 inspector
@@ -1110,7 +1110,7 @@ again
 "
 )
 ;
-yield
+await
 changeElementStyle
 (
 selector
@@ -1241,8 +1241,8 @@ set
 )
 ;
 }
+async
 function
-*
 changeElementStyle
 (
 selector
@@ -1267,7 +1267,7 @@ refreshed
 "
 )
 ;
-yield
+await
 testActor
 .
 setAttribute
@@ -1279,7 +1279,7 @@ style
 style
 )
 ;
-yield
+await
 onRefreshed
 ;
 }
