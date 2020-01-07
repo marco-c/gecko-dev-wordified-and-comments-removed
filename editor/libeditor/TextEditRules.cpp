@@ -974,6 +974,7 @@ mTextEditor
 HandleInlineSpellCheck
 (
 aAction
+*
 selection
 mCachedSelectionNode
 mCachedSelectionOffset
