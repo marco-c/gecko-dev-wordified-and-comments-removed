@@ -638,6 +638,7 @@ _checkIfEnabled
 )
 ;
 }
+async
 migrate
 (
 profileStartup
@@ -672,6 +673,7 @@ migrator
 pickedKey
 }
 =
+await
 this
 .
 pickMigrator
@@ -688,6 +690,7 @@ add
 ;
 profileToMigrate
 =
+await
 this
 .
 pickProfile
@@ -706,6 +709,7 @@ add
 let
 resourceTypes
 =
+await
 migrator
 .
 getMigrateData
@@ -925,6 +929,7 @@ ItemError
 "
 )
 ;
+await
 migrator
 .
 migrate
@@ -944,6 +949,7 @@ add
 )
 ;
 }
+async
 pickMigrator
 (
 migratorKey
@@ -1023,6 +1029,7 @@ Firefox
 let
 migrator
 =
+await
 MigrationUtils
 .
 getMigrator
@@ -1075,6 +1082,7 @@ migratorKey
 }
 ;
 }
+async
 pickProfile
 (
 migrator
@@ -1084,9 +1092,12 @@ suggestedId
 let
 profiles
 =
+await
 migrator
 .
-sourceProfiles
+getSourceProfiles
+(
+)
 ;
 if
 (
