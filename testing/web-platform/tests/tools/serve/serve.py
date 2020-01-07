@@ -49,8 +49,6 @@ import
 Process
 Event
 from
-.
-.
 localpaths
 import
 repo_root
