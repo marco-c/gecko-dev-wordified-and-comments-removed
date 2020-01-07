@@ -1915,6 +1915,7 @@ nsINode
 arrayOfNodes
 )
 ;
+MOZ_MUST_USE
 nsresult
 RemoveAlignment
 (
@@ -1926,7 +1927,7 @@ nsAString
 &
 aAlignType
 bool
-aChildrenOnly
+aDescendantsOnly
 )
 ;
 MOZ_MUST_USE
