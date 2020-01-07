@@ -4851,16 +4851,6 @@ sBypassCSSOMOriginCheck
 endif
 }
 static
-bool
-IsScopedStylePrefEnabled
-(
-)
-{
-return
-sIsScopedStyleEnabled
-;
-}
-static
 void
 FireMutationEventsForDirectParsing
 (
@@ -7290,10 +7280,6 @@ sBypassCSSOMOriginCheck
 ;
 #
 endif
-static
-bool
-sIsScopedStyleEnabled
-;
 static
 bool
 sIsBytecodeCacheEnabled

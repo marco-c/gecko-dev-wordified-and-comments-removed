@@ -295,7 +295,7 @@ nsIPrincipal
 *
 aTriggeringPrincipal
 )
-override
+final
 ;
 void
 GetStyleSheetInfo
@@ -311,14 +311,10 @@ nsAString
 aMedia
 bool
 *
-aIsScoped
-bool
-*
 aIsAlternate
 )
-override
+final
 ;
-virtual
 nsGenericDOMDataNode
 *
 CloneDataNode
@@ -336,7 +332,7 @@ bool
 aCloneText
 )
 const
-override
+final
 ;
 }
 ;

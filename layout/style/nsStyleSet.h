@@ -2211,15 +2211,6 @@ nsIStyleRuleProcessor
 >
 mRuleProcessors
 ;
-nsTArray
-<
-nsCOMPtr
-<
-nsIStyleRuleProcessor
->
->
-mScopedDocSheetRuleProcessors
-;
 RefPtr
 <
 nsBindingManager

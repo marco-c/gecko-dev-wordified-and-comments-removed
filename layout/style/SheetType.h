@@ -24,7 +24,6 @@ Agent
 User
 PresHint
 Doc
-ScopedDoc
 StyleAttr
 Override
 Animation
@@ -65,12 +64,6 @@ SheetType
 :
 :
 Doc
-:
-case
-SheetType
-:
-:
-ScopedDoc
 :
 case
 SheetType

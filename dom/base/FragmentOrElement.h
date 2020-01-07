@@ -605,13 +605,6 @@ Length
 )
 ;
 }
-void
-SetIsElementInStyleScopeFlagOnSubtree
-(
-bool
-aInStyleScope
-)
-;
 public
 :
 static
@@ -1150,13 +1143,6 @@ GetExistingExtendedContentSlots
 )
 ;
 }
-void
-SetIsElementInStyleScopeFlagOnShadowTree
-(
-bool
-aInStyleScope
-)
-;
 friend
 class
 :
