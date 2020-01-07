@@ -12180,7 +12180,7 @@ content
 fm
 -
 >
-GetFocusedContent
+GetFocusedElement
 (
 )
 ;
