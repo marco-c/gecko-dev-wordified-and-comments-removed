@@ -1587,6 +1587,12 @@ advancedLayers
 81
 353
 )
+skip
+-
+if
+(
+winWidget
+)
 =
 =
 intersecting
@@ -1610,6 +1616,12 @@ html
 #
 bug
 732535
+#
+Disable
+on
+Windows
+bug
+1451808
 #
 Inheritance
 =
