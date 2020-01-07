@@ -2467,7 +2467,10 @@ throws
 catch
 (
 e
+)
+{
 if
+(
 e
 instanceof
 TypeError
@@ -2490,10 +2493,7 @@ TypeError
 )
 ;
 }
-catch
-(
-e
-)
+else
 {
 ok
 (
@@ -2511,6 +2511,7 @@ TypeError
 '
 )
 ;
+}
 }
 hasProps
 (
