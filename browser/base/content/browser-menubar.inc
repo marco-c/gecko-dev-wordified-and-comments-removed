@@ -1623,6 +1623,15 @@ id
 "
 menu_tabsSidebar
 "
+class
+=
+"
+sync
+-
+ui
+-
+item
+"
 observes
 =
 "
