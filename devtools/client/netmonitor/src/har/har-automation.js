@@ -575,6 +575,9 @@ options
 requestData
 :
 null
+getTimingMarker
+:
+null
 getString
 :
 this

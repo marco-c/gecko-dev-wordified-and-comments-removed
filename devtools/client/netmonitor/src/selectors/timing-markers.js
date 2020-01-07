@@ -14,8 +14,9 @@ return
 state
 .
 timingMarkers
-.
+[
 marker
+]
 -
 state
 .

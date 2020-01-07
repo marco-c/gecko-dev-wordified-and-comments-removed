@@ -516,6 +516,7 @@ let
 {
 getLongString
 getTabTarget
+getTimingMarker
 requestData
 }
 =
@@ -558,6 +559,7 @@ getSortedRequests
 state
 )
 requestData
+getTimingMarker
 title
 :
 title
