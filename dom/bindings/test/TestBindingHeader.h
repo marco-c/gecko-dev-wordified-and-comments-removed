@@ -85,6 +85,9 @@ namespace
 dom
 {
 class
+DocGroup
+;
+class
 TestExternalInterface
 ;
 class
@@ -355,6 +358,13 @@ nsISupports
 GetParentObject
 (
 )
+;
+DocGroup
+*
+GetDocGroup
+(
+)
+const
 ;
 static
 already_AddRefed
@@ -10417,6 +10427,13 @@ nsISupports
 GetParentObject
 (
 )
+;
+DocGroup
+*
+GetDocGroup
+(
+)
+const
 ;
 int32_t
 Item

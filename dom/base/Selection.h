@@ -141,6 +141,13 @@ HTMLEditor
 struct
 AutoPrepareFocusRange
 ;
+namespace
+dom
+{
+class
+DocGroup
+;
+}
 }
 struct
 RangeData
@@ -242,6 +249,13 @@ NO_REASON
 nsIDocument
 *
 GetParentObject
+(
+)
+const
+;
+DocGroup
+*
+GetDocGroup
 (
 )
 const

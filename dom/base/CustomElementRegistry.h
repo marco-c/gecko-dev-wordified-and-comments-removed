@@ -134,6 +134,9 @@ class
 CustomElementReaction
 ;
 class
+DocGroup
+;
+class
 Function
 ;
 class
@@ -1340,6 +1343,13 @@ public
 nsISupports
 *
 GetParentObject
+(
+)
+const
+;
+DocGroup
+*
+GetDocGroup
 (
 )
 const
