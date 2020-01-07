@@ -197,6 +197,10 @@ sysroot
 =
 "
 "
+&
+&
+!
+build_with_mozilla
 )
 {
 #
