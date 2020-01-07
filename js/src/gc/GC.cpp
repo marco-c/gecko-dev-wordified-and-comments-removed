@@ -25936,7 +25936,7 @@ runtime
 runtime
 -
 >
-unsafeSymbolRegistry
+symbolRegistry
 (
 )
 .

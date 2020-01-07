@@ -645,12 +645,6 @@ JSContext
 cx
 )
 {
-AutoLockForExclusiveAccess
-atomsLock
-(
-cx
-)
-;
 MOZ_ASSERT
 (
 !
@@ -718,7 +712,6 @@ jitRuntime_
 initialize
 (
 cx
-atomsLock
 )
 )
 {

@@ -829,12 +829,6 @@ initialize
 JSContext
 *
 cx
-js
-:
-:
-AutoLockForExclusiveAccess
-&
-lock
 )
 ;
 static
