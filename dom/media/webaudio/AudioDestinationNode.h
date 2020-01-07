@@ -68,6 +68,10 @@ aSampleRate
 0
 .
 0f
+bool
+aAllowToStart
+=
+true
 )
 ;
 void
