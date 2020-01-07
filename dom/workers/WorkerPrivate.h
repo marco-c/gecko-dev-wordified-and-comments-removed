@@ -3113,6 +3113,11 @@ const
 ;
 #
 endif
+void
+StartCancelingTimer
+(
+)
+;
 private
 :
 WorkerPrivate
@@ -3641,6 +3646,12 @@ nsCOMPtr
 nsITimerCallback
 >
 mTimerRunnable
+;
+nsCOMPtr
+<
+nsITimer
+>
+mCancelingTimer
 ;
 nsCOMPtr
 <
