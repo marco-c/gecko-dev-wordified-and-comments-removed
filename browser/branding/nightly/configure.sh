@@ -61,4 +61,4 @@ Nightly
 "
 MOZ_MACBUNDLE_ID
 =
-nightly
+firefoxnightly
