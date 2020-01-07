@@ -9303,13 +9303,6 @@ const
 HIRect
 &
 inBoxRect
-EventStates
-inState
-uint8_t
-aWidgetType
-nsIFrame
-*
-aFrame
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
@@ -17856,9 +17849,6 @@ DrawFocusOutline
 (
 cgContext
 macRect
-eventState
-aWidgetType
-aFrame
 )
 ;
 break
