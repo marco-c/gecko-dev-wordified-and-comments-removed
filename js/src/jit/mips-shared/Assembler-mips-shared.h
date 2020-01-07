@@ -838,7 +838,7 @@ constexpr
 uint32_t
 CodeAlignment
 =
-4
+8
 ;
 static
 constexpr
