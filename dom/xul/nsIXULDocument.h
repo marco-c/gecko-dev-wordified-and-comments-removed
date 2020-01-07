@@ -73,14 +73,6 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IXULDOCUMENT_IID
 )
-virtual
-void
-ResetDocumentLWTheme
-(
-)
-=
-0
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
