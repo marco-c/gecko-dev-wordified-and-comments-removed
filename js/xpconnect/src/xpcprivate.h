@@ -9748,6 +9748,11 @@ XMLHttpRequest
 1
 ;
 bool
+XMLSerializer
+:
+1
+;
+bool
 atob
 :
 1
