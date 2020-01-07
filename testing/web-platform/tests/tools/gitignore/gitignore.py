@@ -666,11 +666,7 @@ dir_only
 fnmatch_translate
 (
 line
-"
-/
-"
-in
-line
+dir_only
 )
 class
 PathFilter

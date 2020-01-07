@@ -350,7 +350,6 @@ extras
 .
 git
 /
-*
 "
 ]
 )
@@ -456,6 +455,10 @@ item
                                                    
 repo_root
 )
++
+"
+/
+"
 )
 ]
 def
