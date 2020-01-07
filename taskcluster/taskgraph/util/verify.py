@@ -1018,6 +1018,21 @@ bridge
 continue
                 
 if
+"
+dummy
+"
+in
+taskgraph
+[
+d
+]
+.
+kind
+:
+                    
+continue
+                
+if
 tier
 <
 tiers
