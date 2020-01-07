@@ -3921,6 +3921,7 @@ MAJOR_VERSION
 {
 VERSION
 %
+%
 .
 *
 }
@@ -3980,6 +3981,7 @@ MAJOR_VERSION
 "
 {
 MCVERSION
+%
 %
 .
 *
