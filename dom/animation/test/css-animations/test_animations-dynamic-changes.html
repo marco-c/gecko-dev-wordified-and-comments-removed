@@ -112,7 +112,7 @@ t
 =
 >
 {
-var
+const
 div
 =
 addDiv
@@ -131,7 +131,7 @@ anim1
 100s
 '
 ;
-var
+const
 originalAnimation
 =
 div
@@ -143,10 +143,10 @@ getAnimations
 0
 ]
 ;
-var
+let
 originalStartTime
 ;
-var
+let
 originalCurrentTime
 ;
 /
@@ -256,7 +256,7 @@ animationDuration
 200s
 '
 ;
-var
+const
 animation
 =
 div
@@ -359,7 +359,7 @@ t
 =
 >
 {
-var
+const
 div
 =
 addDiv
@@ -385,7 +385,7 @@ anim1
 Store
 original
 state
-var
+let
 animations
 =
 div
@@ -394,7 +394,7 @@ getAnimations
 (
 )
 ;
-var
+const
 animation1
 =
 animations
@@ -402,7 +402,7 @@ animations
 0
 ]
 ;
-var
+const
 animation2
 =
 animations
@@ -492,7 +492,7 @@ t
 =
 >
 {
-var
+const
 div
 =
 addDiv
@@ -518,7 +518,7 @@ anim1
 Store
 original
 state
-var
+let
 animations
 =
 div
@@ -527,7 +527,7 @@ getAnimations
 (
 )
 ;
-var
+const
 animation1
 =
 animations
@@ -535,7 +535,7 @@ animations
 0
 ]
 ;
-var
+const
 animation2
 =
 animations
@@ -812,7 +812,7 @@ t
 =
 >
 {
-var
+const
 div
 =
 addDiv
@@ -833,7 +833,7 @@ anim1
 100s
 '
 ;
-var
+const
 secondAnimation
 =
 div
@@ -889,7 +889,7 @@ animationName
 anim1
 '
 ;
-var
+const
 animations
 =
 div
@@ -1013,7 +1013,7 @@ t
 =
 >
 {
-var
+const
 div
 =
 addDiv
@@ -1032,7 +1032,7 @@ anim1
 100s
 '
 ;
-var
+const
 firstAddedAnimation
 =
 div
@@ -1043,7 +1043,11 @@ getAnimations
 [
 0
 ]
+;
+let
 secondAddedAnimation
+;
+let
 animations
 ;
 /
