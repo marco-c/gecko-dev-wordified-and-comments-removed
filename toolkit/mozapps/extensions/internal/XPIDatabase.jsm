@@ -6872,6 +6872,7 @@ XPI_PERMISSION
 )
 ;
 }
+async
 addonChanged
 (
 aId
@@ -6924,6 +6925,7 @@ id
 =
 aId
 )
+await
 this
 .
 updateAddonDisabledState

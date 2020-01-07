@@ -6946,6 +6946,7 @@ e
 }
 }
 }
+async
 notifyAddonChanged
 (
 aID
@@ -7066,6 +7067,9 @@ of
 providers
 )
 {
+let
+result
+=
 callProvider
 (
 provider
@@ -7078,6 +7082,15 @@ aType
 aPendingRestart
 )
 ;
+if
+(
+result
+)
+{
+await
+result
+;
+}
 }
 }
 updateAddonAppDisabledStates
