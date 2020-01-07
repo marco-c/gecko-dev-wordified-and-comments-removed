@@ -3736,6 +3736,17 @@ NS_OK
 }
 }
 else
+if
+(
+targetScheme
+.
+EqualsLiteral
+(
+"
+chrome
+"
+)
+)
 {
 nsCOMPtr
 <
