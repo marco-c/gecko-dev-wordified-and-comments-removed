@@ -1056,15 +1056,6 @@ leave
 out
 decision_task_id
 .
-    
-Returns
-an
-updated
-label_to_taskid
-containing
-the
-new
-tasks
 "
 "
 "
@@ -1247,6 +1238,3 @@ label_to_taskid
 params
 decision_task_id
 )
-    
-return
-label_to_taskid
