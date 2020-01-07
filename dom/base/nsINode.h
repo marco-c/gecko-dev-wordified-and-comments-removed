@@ -5720,6 +5720,7 @@ GetNextElementSibling
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Before
 (
@@ -5735,6 +5736,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 After
 (
@@ -5750,6 +5752,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ReplaceWith
 (
@@ -5796,6 +5799,7 @@ GetLastElementChild
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Prepend
 (
@@ -5811,6 +5815,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Append
 (
