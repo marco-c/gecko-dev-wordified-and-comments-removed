@@ -151,6 +151,11 @@ nsSMILCSSProperty
 h
 '
 '
+nsSMILCSSValueType
+.
+h
+'
+'
 nsSMILInstanceTime
 .
 h

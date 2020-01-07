@@ -31,6 +31,9 @@ nsDOMCSSDeclaration
 .
 h
 "
+class
+nsSMILValue
+;
 namespace
 mozilla
 {
@@ -146,6 +149,17 @@ return
 mElement
 ;
 }
+nsresult
+SetSMILValue
+(
+const
+nsCSSPropertyID
+aPropID
+const
+nsSMILValue
+&
+)
+;
 nsresult
 SetPropertyValue
 (
