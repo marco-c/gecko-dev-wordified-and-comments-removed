@@ -49486,9 +49486,9 @@ obj
 )
 ;
 bool
-mayBeFrozen
+mayBeNonExtensible
 =
-ElementAccessMightBeFrozen
+ElementAccessMightBeNonExtensible
 (
 constraints
 (
@@ -49498,7 +49498,7 @@ obj
 ;
 if
 (
-mayBeFrozen
+mayBeNonExtensible
 &
 &
 hasExtraIndexedProperty
@@ -49747,7 +49747,7 @@ hasExtraIndexedProperty
 &
 &
 !
-mayBeFrozen
+mayBeNonExtensible
 )
 {
 MStoreElementHole
@@ -49788,7 +49788,7 @@ ins
 else
 if
 (
-mayBeFrozen
+mayBeNonExtensible
 )
 {
 MOZ_ASSERT
@@ -49807,12 +49807,10 @@ properties
 )
 ;
 bool
-strict
+needsHoleCheck
 =
-IsStrictSetPC
-(
-pc
-)
+!
+packed
 ;
 MFallibleStoreElement
 *
@@ -49830,7 +49828,7 @@ obj
 elements
 id
 newValue
-strict
+needsHoleCheck
 )
 ;
 store

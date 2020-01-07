@@ -41774,7 +41774,7 @@ NoFloatPolicy
 Data
 {
 bool
-strict_
+needsHoleCheck_
 ;
 MFallibleStoreElement
 (
@@ -41791,7 +41791,7 @@ MDefinition
 *
 value
 bool
-strict
+needsHoleCheck
 )
 :
 MQuaternaryInstruction
@@ -41802,9 +41802,9 @@ elements
 index
 value
 )
-strict_
+needsHoleCheck_
 (
-strict
+needsHoleCheck
 )
 {
 MOZ_ASSERT
@@ -41892,13 +41892,13 @@ Element
 ;
 }
 bool
-strict
+needsHoleCheck
 (
 )
 const
 {
 return
-strict_
+needsHoleCheck_
 ;
 }
 ALLOW_CLONE
@@ -63079,7 +63079,7 @@ obj
 )
 ;
 bool
-ElementAccessMightBeFrozen
+ElementAccessMightBeNonExtensible
 (
 CompilerConstraintList
 *

@@ -36319,7 +36319,7 @@ bool
 jit
 :
 :
-ElementAccessMightBeFrozen
+ElementAccessMightBeNonExtensible
 (
 CompilerConstraintList
 *
@@ -36351,7 +36351,7 @@ types
 hasObjectFlags
 (
 constraints
-OBJECT_FLAG_FROZEN_ELEMENTS
+OBJECT_FLAG_NON_EXTENSIBLE_ELEMENTS
 )
 ;
 }
