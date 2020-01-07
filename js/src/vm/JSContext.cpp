@@ -5785,7 +5785,7 @@ arenas_
 (
 nullptr
 )
-enterCompartmentDepth_
+enterRealmDepth_
 (
 0
 )
@@ -6983,9 +6983,9 @@ isMarkingTracer
 )
 &
 &
-compartment_
+realm_
 )
-compartment_
+realm_
 -
 >
 mark

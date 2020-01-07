@@ -4767,7 +4767,7 @@ JS_FRIEND_API
 (
 unsigned
 )
-GetEnterCompartmentDepth
+GetEnterRealmDepth
 (
 JSContext
 *

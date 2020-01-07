@@ -439,10 +439,18 @@ global
 nullptr
 )
 ;
-JSCompartment
+JS
+:
+:
+Realm
 *
 oldRealm
 =
+JS
+:
+:
+GetRealmForCompartment
+(
 JS
 :
 :
@@ -450,6 +458,7 @@ EnterRealm
 (
 cx
 global
+)
 )
 ;
 typedef

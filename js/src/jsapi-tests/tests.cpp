@@ -141,7 +141,13 @@ JS
 LeaveRealm
 (
 cx
+JS
+:
+:
+GetRealmForCompartment
+(
 oldCompartment
+)
 )
 ;
 oldCompartment
