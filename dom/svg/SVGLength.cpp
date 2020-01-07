@@ -59,6 +59,10 @@ algorithm
 namespace
 mozilla
 {
+using
+namespace
+mozilla
+;
 static
 void
 GetUnitString
@@ -258,7 +262,7 @@ return
 aUnit
 >
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_CM
@@ -267,7 +271,7 @@ SVG_LENGTHTYPE_CM
 aUnit
 <
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PC
@@ -460,7 +464,7 @@ if
 aUnit
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -469,7 +473,7 @@ SVG_LENGTHTYPE_NUMBER
 mUnit
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -480,7 +484,7 @@ SVG_LENGTHTYPE_PX
 aUnit
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -489,7 +493,7 @@ SVG_LENGTHTYPE_PX
 mUnit
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -663,13 +667,13 @@ mUnit
 )
 {
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
 :
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -680,7 +684,7 @@ return
 0f
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_MM
@@ -693,7 +697,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_CM
@@ -706,7 +710,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_IN
@@ -717,7 +721,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PT
@@ -736,7 +740,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PC
@@ -755,7 +759,7 @@ GetUserUnitsPerInch
 )
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -768,7 +772,7 @@ aAxis
 )
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_EMS
@@ -790,7 +794,7 @@ aElement
 )
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_EXS
@@ -1051,7 +1055,7 @@ IsEmpty
 )
 )
 return
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -1114,7 +1118,7 @@ i
 }
 }
 return
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_UNKNOWN

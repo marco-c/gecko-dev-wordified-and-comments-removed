@@ -23,6 +23,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGRectElementBinding
 .
 h
@@ -149,7 +160,7 @@ nsGkAtoms
 :
 x
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -165,7 +176,7 @@ nsGkAtoms
 :
 y
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -181,7 +192,7 @@ nsGkAtoms
 :
 width
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -197,7 +208,7 @@ nsGkAtoms
 :
 height
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -213,7 +224,7 @@ nsGkAtoms
 :
 rx
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -229,7 +240,7 @@ nsGkAtoms
 :
 ry
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER

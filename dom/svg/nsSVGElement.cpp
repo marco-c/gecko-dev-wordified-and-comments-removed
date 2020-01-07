@@ -39,6 +39,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGSVGElement
 .
 h
@@ -7571,7 +7582,7 @@ if
 type
 !
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -7580,7 +7591,7 @@ SVG_LENGTHTYPE_NUMBER
 type
 !
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -7597,7 +7608,7 @@ if
 type
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_EMS
@@ -7606,7 +7617,7 @@ SVG_LENGTHTYPE_EMS
 type
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_EXS

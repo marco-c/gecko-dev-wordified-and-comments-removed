@@ -16,6 +16,17 @@ mozilla
 /
 dom
 /
+SVGLengthBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGTextPathElementBinding
 .
 h
@@ -107,7 +118,7 @@ nsGkAtoms
 :
 textLength
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -123,7 +134,7 @@ nsGkAtoms
 :
 startOffset
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER

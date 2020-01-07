@@ -189,7 +189,7 @@ if
 (
 unit
 >
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_UNKNOWN
@@ -198,7 +198,7 @@ SVG_LENGTHTYPE_UNKNOWN
 unit
 <
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PC
@@ -284,7 +284,7 @@ IsEmpty
 )
 )
 return
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
@@ -347,7 +347,7 @@ i
 }
 }
 return
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_UNKNOWN
@@ -1025,13 +1025,13 @@ aUnitType
 )
 {
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_NUMBER
 :
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PX
@@ -1040,7 +1040,7 @@ return
 1
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_MM
@@ -1051,7 +1051,7 @@ DPI
 MM_PER_INCH_FLOAT
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_CM
@@ -1066,7 +1066,7 @@ DPI
 MM_PER_INCH_FLOAT
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_IN
@@ -1075,7 +1075,7 @@ return
 DPI
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PT
@@ -1086,7 +1086,7 @@ DPI
 POINTS_PER_INCH_FLOAT
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PC
@@ -1101,7 +1101,7 @@ DPI
 POINTS_PER_INCH_FLOAT
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -1119,7 +1119,7 @@ mCtxType
 0f
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_EMS
@@ -1132,7 +1132,7 @@ GetEmLength
 )
 ;
 case
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_EXS
@@ -2109,7 +2109,7 @@ aPreventCachingOfSandwich
 unitType
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -2118,7 +2118,7 @@ SVG_LENGTHTYPE_PERCENTAGE
 unitType
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_EMS
@@ -2127,7 +2127,7 @@ SVG_LENGTHTYPE_EMS
 unitType
 =
 =
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_EXS

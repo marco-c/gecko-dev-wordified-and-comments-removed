@@ -270,6 +270,17 @@ SVGFESpotLightElement
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+SVGLengthBinding
+.
+h
+"
+#
 if
 defined
 (
@@ -318,7 +329,7 @@ nsGkAtoms
 :
 x
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -334,7 +345,7 @@ nsGkAtoms
 :
 y
 0
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -350,7 +361,7 @@ nsGkAtoms
 :
 width
 100
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
@@ -366,7 +377,7 @@ nsGkAtoms
 :
 height
 100
-nsIDOMSVGLength
+SVGLengthBinding
 :
 :
 SVG_LENGTHTYPE_PERCENTAGE
