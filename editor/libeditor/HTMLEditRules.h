@@ -1822,6 +1822,7 @@ CheckInterlinePosition
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 AdjustSelection
 (
