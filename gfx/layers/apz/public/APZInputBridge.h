@@ -7,6 +7,13 @@ mozilla_layers_APZInputBridge_h
 #
 include
 "
+APZUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventForwards
@@ -72,8 +79,11 @@ aOutInputBlockId
 )
 ;
 static
-bool
-WillHandleWheelEvent
+Maybe
+<
+APZWheelAction
+>
+ActionForWheelEvent
 (
 WidgetWheelEvent
 *
