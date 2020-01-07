@@ -57,7 +57,7 @@ use
 super
 :
 :
-Builder
+GzBuilder
 ;
 use
 {
@@ -209,7 +209,7 @@ GzEncoder
 W
 >
 {
-Builder
+GzBuilder
 :
 :
 new

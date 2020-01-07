@@ -113,7 +113,9 @@ f
 Compression
 :
 :
-Fast
+fast
+(
+)
 )
 ;
 let

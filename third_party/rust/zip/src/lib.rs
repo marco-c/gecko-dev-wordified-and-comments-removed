@@ -21,6 +21,17 @@ extern
 crate
 bzip2
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+deflate
+"
+)
+]
 extern
 crate
 flate2

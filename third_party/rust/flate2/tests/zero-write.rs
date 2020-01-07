@@ -46,7 +46,9 @@ flate2
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 assert

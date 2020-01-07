@@ -113,7 +113,9 @@ c
 Compression
 :
 :
-Fast
+fast
+(
+)
 )
 ;
 let

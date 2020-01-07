@@ -62,7 +62,9 @@ flate2
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 w
@@ -117,10 +119,6 @@ bytes
 .
 .
 ]
-)
-.
-unwrap
-(
 )
 ;
 let

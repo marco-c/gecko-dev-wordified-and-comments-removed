@@ -361,7 +361,9 @@ a
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 for
@@ -504,7 +506,9 @@ b
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 copy
@@ -887,7 +891,9 @@ a
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 a
@@ -1012,7 +1018,9 @@ b
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 copy

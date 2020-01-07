@@ -67,7 +67,9 @@ new
 Compression
 :
 :
-Default
+default
+(
+)
 )
 ;
 e
@@ -152,7 +154,6 @@ bytes
 .
 ]
 )
-?
 ;
 let
 mut
