@@ -2623,10 +2623,9 @@ config
 )
 ;
 }
-SetLastPrefs
-(
+mLastPrefs
+=
 prefs
-)
 ;
 return
 NS_OK
@@ -2639,7 +2638,7 @@ void
 MediaEngineWebRTCMicrophoneSource
 :
 :
-SetLastPrefs
+ApplySettings
 (
 const
 MediaEnginePrefs
@@ -2701,6 +2700,11 @@ break
 ;
 }
 }
+MOZ_DIAGNOSTIC_ASSERT
+(
+graph
+)
+;
 NS_DispatchToMainThread
 (
 media
@@ -3617,6 +3621,11 @@ mState
 kStarted
 ;
 }
+ApplySettings
+(
+mLastPrefs
+)
+;
 return
 NS_OK
 ;
