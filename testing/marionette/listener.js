@@ -190,7 +190,6 @@ InvalidArgumentError
 InvalidSelectorError
 NoSuchElementError
 NoSuchFrameError
-pprint
 TimeoutError
 UnknownError
 }
@@ -282,6 +281,7 @@ js
 ;
 const
 {
+pprint
 truncate
 }
 =
