@@ -919,7 +919,7 @@ end
 &
 trackingProtection
 .
-detectedBlocked3
+detectedBlocked4
 ;
 <
 /
@@ -943,7 +943,7 @@ end
 &
 trackingProtection
 .
-detectedNotBlocked4
+detectedNotBlocked5
 ;
 <
 /
@@ -969,7 +969,7 @@ end
 &
 trackingProtection
 .
-notDetected4
+notDetected5
 ;
 <
 /
@@ -1049,7 +1049,7 @@ end
 &
 trackingProtection
 .
-reloadRequired
+reloadRequired2
 ;
 <
 /
@@ -1081,7 +1081,7 @@ label
 &
 trackingProtection
 .
-reload
+reload2
 .
 label
 ;
@@ -1092,7 +1092,7 @@ accesskey
 &
 trackingProtection
 .
-reload
+reload2
 .
 accesskey
 ;
@@ -1135,7 +1135,7 @@ label
 &
 trackingProtection
 .
-unblock2
+unblock3
 .
 label
 ;
@@ -1146,7 +1146,7 @@ accesskey
 &
 trackingProtection
 .
-unblock2
+unblock3
 .
 accesskey
 ;
@@ -1191,7 +1191,7 @@ label
 &
 trackingProtection
 .
-unblockPrivate2
+unblockPrivate3
 .
 label
 ;
@@ -1202,7 +1202,7 @@ accesskey
 &
 trackingProtection
 .
-unblockPrivate2
+unblockPrivate3
 .
 accesskey
 ;
@@ -1245,7 +1245,7 @@ label
 &
 trackingProtection
 .
-block3
+block4
 .
 label
 ;
@@ -1256,7 +1256,7 @@ accesskey
 &
 trackingProtection
 .
-block3
+block4
 .
 accesskey
 ;
