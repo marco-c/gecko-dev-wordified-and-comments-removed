@@ -8,7 +8,7 @@ binutils_version
 =
 2
 .
-25
+28
 .
 1
 make_flags
@@ -108,13 +108,13 @@ binutils_version
 .
 tar
 .
-bz2
+xz
 |
 |
 exit
 1
 tar
-xjf
+xJf
 TMPDIR
 /
 binutils
@@ -125,7 +125,7 @@ binutils_version
 .
 tar
 .
-bz2
+xz
 #
 Build
 binutils
