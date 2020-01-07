@@ -357,6 +357,11 @@ aScriptCode
 )
 )
 ;
+if
+(
+tag
+)
+{
 return
 HB_TAG
 (
@@ -377,6 +382,10 @@ tag
 3
 ]
 )
+;
+}
+return
+HB_SCRIPT_UNKNOWN
 ;
 }
 inline
