@@ -457,6 +457,11 @@ Base64
 h
 '
 '
+InputStreamLengthHelper
+.
+h
+'
+'
 NonBlockingAsyncInputStream
 .
 h
@@ -498,6 +503,11 @@ c
 '
 '
 FileDescriptorFile
+.
+cpp
+'
+'
+InputStreamLengthHelper
 .
 cpp
 '

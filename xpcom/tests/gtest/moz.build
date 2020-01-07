@@ -190,6 +190,11 @@ TestID
 cpp
 '
 '
+TestInputStreamLengthHelper
+.
+cpp
+'
+'
 TestLogCommandLineHandler
 .
 cpp

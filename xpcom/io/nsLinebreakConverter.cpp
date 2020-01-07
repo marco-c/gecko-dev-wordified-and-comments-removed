@@ -1766,6 +1766,9 @@ aIoString
 BeginWriting
 (
 stringBuf
+mozilla
+:
+:
 fallible
 )
 )
