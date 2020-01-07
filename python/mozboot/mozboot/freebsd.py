@@ -156,7 +156,9 @@ gtk3
 '
             
 '
-llvm40
+mesa
+-
+dri
 '
             
 '
