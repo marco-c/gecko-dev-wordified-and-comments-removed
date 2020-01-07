@@ -32,13 +32,6 @@ nsPrintSettingsServiceAndroid
 )
 {
 }
-virtual
-~
-nsPrintSettingsServiceAndroid
-(
-)
-{
-}
 nsresult
 _CreatePrintSettings
 (

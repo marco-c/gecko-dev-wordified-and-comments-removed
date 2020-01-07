@@ -36,13 +36,6 @@ nsPrintSettingsServiceGTK
 )
 {
 }
-virtual
-~
-nsPrintSettingsServiceGTK
-(
-)
-{
-}
 NS_IMETHODIMP
 SerializeToPrintData
 (
@@ -62,6 +55,7 @@ PrintData
 *
 data
 )
+override
 ;
 NS_IMETHODIMP
 DeserializeToPrintSettings
@@ -80,6 +74,7 @@ nsIPrintSettings
 *
 settings
 )
+override
 ;
 virtual
 nsresult
@@ -90,6 +85,7 @@ nsIPrintSettings
 *
 _retval
 )
+override
 ;
 }
 ;

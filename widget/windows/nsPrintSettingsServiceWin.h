@@ -42,13 +42,6 @@ nsPrintSettingsServiceWin
 )
 {
 }
-virtual
-~
-nsPrintSettingsServiceWin
-(
-)
-{
-}
 NS_IMETHODIMP
 SerializeToPrintData
 (
@@ -68,6 +61,7 @@ PrintData
 *
 data
 )
+override
 ;
 NS_IMETHODIMP
 DeserializeToPrintSettings
@@ -86,8 +80,8 @@ nsIPrintSettings
 *
 settings
 )
+override
 ;
-virtual
 nsresult
 _CreatePrintSettings
 (
@@ -96,6 +90,7 @@ nsIPrintSettings
 *
 _retval
 )
+override
 ;
 }
 ;
