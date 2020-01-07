@@ -646,16 +646,6 @@ json
 manifest
 '
 '
-nsHandlerService
-.
-js
-'
-'
-nsHandlerService
-.
-manifest
-'
-'
 nsWebHandlerApp
 .
 js
