@@ -1255,12 +1255,11 @@ entry
 )
 ;
 }
-NS_ADDREF
-(
-*
-aCache
-=
 info
+.
+forget
+(
+aCache
 )
 ;
 }

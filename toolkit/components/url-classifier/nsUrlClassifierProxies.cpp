@@ -993,8 +993,10 @@ mTarget
 GetCacheInfo
 (
 mTable
-&
+getter_AddRefs
+(
 mCache
+)
 )
 ;
 nsCOMPtr
@@ -1052,11 +1054,6 @@ mCallback
 -
 >
 OnGetCacheComplete
-(
-mCache
-)
-;
-NS_RELEASE
 (
 mCache
 )

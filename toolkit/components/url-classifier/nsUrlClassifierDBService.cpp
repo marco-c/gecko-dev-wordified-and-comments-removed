@@ -10609,9 +10609,6 @@ aTable
 aCallback
 )
 ;
-return
-NS_OK
-;
 }
 nsresult
 nsUrlClassifierDBService
