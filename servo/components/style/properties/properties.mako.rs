@@ -741,7 +741,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 background
 .
@@ -758,7 +758,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 border
 .
@@ -775,7 +775,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 box
 .
@@ -792,7 +792,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 color
 .
@@ -809,7 +809,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 column
 .
@@ -826,7 +826,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 counters
 .
@@ -843,7 +843,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 effects
 .
@@ -860,7 +860,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 font
 .
@@ -877,7 +877,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 inherited_box
 .
@@ -894,7 +894,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 inherited_table
 .
@@ -911,7 +911,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 inherited_text
 .
@@ -928,7 +928,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 inherited_ui
 .
@@ -945,7 +945,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 list
 .
@@ -962,7 +962,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 margin
 .
@@ -979,7 +979,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 outline
 .
@@ -996,7 +996,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 padding
 .
@@ -1013,7 +1013,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 position
 .
@@ -1030,7 +1030,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 table
 .
@@ -1047,7 +1047,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 text
 .
@@ -1064,7 +1064,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 ui
 .
@@ -1081,7 +1081,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 inherited_svg
 .
@@ -1098,7 +1098,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 svg
 .
@@ -1115,7 +1115,7 @@ file
 =
 "
 /
-longhand
+longhands
 /
 xul
 .
@@ -1399,7 +1399,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 background
 .
@@ -1416,7 +1416,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 border
 .
@@ -1433,7 +1433,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 box
 .
@@ -1450,7 +1450,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 column
 .
@@ -1467,7 +1467,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 font
 .
@@ -1484,7 +1484,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 inherited_text
 .
@@ -1501,7 +1501,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 list
 .
@@ -1518,7 +1518,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 margin
 .
@@ -1535,7 +1535,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 mask
 .
@@ -1552,7 +1552,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 outline
 .
@@ -1569,7 +1569,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 padding
 .
@@ -1586,7 +1586,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 position
 .
@@ -1603,7 +1603,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 inherited_svg
 .
@@ -1620,7 +1620,7 @@ file
 =
 "
 /
-shorthand
+shorthands
 /
 text
 .
