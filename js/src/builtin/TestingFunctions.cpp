@@ -18216,7 +18216,6 @@ isSynthetic
 )
 &
 &
-(
 scope
 !
 =
@@ -18227,10 +18226,6 @@ StructuredCloneScope
 :
 :
 DifferentProcess
-|
-|
-hasTransferable
-)
 )
 {
 JS_ReportErrorASCII
