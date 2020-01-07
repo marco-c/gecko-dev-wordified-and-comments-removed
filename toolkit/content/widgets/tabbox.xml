@@ -209,11 +209,6 @@ base
 >
 <
 implementation
-implements
-=
-"
-nsIDOMEventListener
-"
 >
 <
 property

@@ -1566,11 +1566,6 @@ content
 >
 <
 implementation
-implements
-=
-"
-nsIDOMEventListener
-"
 >
 <
 property

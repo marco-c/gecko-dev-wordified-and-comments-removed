@@ -581,7 +581,6 @@ implements
 =
 "
 nsIObserver
-nsIDOMEventListener
 "
 >
 <

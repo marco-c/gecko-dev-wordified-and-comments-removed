@@ -2286,11 +2286,6 @@ base
 >
 <
 implementation
-implements
-=
-"
-nsIDOMEventListener
-"
 >
 <
 constructor

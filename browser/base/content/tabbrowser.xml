@@ -862,7 +862,6 @@ implementation
 implements
 =
 "
-nsIDOMEventListener
 nsIObserver
 "
 >
@@ -14578,11 +14577,6 @@ popup
 >
 <
 implementation
-implements
-=
-"
-nsIDOMEventListener
-"
 >
 <
 method

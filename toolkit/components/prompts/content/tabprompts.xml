@@ -826,11 +826,6 @@ content
 >
 <
 implementation
-implements
-=
-"
-nsIDOMEventListener
-"
 >
 <
 constructor

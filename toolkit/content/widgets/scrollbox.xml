@@ -4663,7 +4663,6 @@ implements
 =
 "
 nsITimerCallback
-nsIDOMEventListener
 "
 >
 <

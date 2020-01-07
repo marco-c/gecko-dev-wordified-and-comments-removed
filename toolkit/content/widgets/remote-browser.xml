@@ -163,7 +163,6 @@ implements
 =
 "
 nsIObserver
-nsIDOMEventListener
 nsIRemoteBrowser
 "
 >

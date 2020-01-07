@@ -8835,7 +8835,6 @@ implementation
 implements
 =
 "
-nsIDOMEventListener
 nsIObserver
 nsIWeakReference
 "
