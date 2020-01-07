@@ -1739,6 +1739,14 @@ user
 .
 js
 "
+                       
+"
+-
+-
+suite
+=
+jstestbrowser
+"
 ]
             
 '

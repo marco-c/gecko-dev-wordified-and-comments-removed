@@ -1915,6 +1915,14 @@ user
 .
 js
 "
+                       
+"
+-
+-
+suite
+=
+jstestbrowser
+"
 ]
             
 '

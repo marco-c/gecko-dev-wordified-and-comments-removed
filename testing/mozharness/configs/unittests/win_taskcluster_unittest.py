@@ -2020,6 +2020,14 @@ user
 .
 js
 "
+                       
+"
+-
+-
+suite
+=
+jstestbrowser
+"
 ]
             
 '
