@@ -338,6 +338,9 @@ platforms
 :
 [
 "
+linux
+"
+"
 macosx
 "
 ]

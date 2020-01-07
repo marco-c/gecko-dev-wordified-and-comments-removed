@@ -372,9 +372,6 @@ lightweightThemes
 .
 properties
 )
-#
-ifdef
-XP_WIN
 locale
 /
 browser
@@ -392,8 +389,6 @@ uiDensity
 .
 properties
 )
-#
-endif
 locale
 /
 browser
