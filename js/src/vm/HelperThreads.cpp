@@ -8901,6 +8901,13 @@ parseTask
 parseGlobal
 -
 >
+as
+<
+GlobalObject
+>
+(
+)
+.
 realm
 (
 )

@@ -4513,7 +4513,7 @@ PostGlobalWriteBarrier
 JSRuntime
 *
 rt
-JSObject
+GlobalObject
 *
 obj
 )

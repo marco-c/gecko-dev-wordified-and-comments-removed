@@ -18760,6 +18760,13 @@ global
 obj
 -
 >
+as
+<
+NativeObject
+>
+(
+)
+.
 realm
 (
 )

@@ -18678,6 +18678,13 @@ GlobalObject
 varObj
 -
 >
+as
+<
+GlobalObject
+>
+(
+)
+.
 realm
 (
 )
