@@ -144,9 +144,7 @@ test
 -
 platform
 :
-windows7
--
-32
+linux32
 /
 debug
 :
@@ -383,9 +381,7 @@ test
 -
 platform
 :
-windows7
--
-32
+linux32
 /
 debug
 :
@@ -472,9 +468,7 @@ test
 -
 platform
 :
-windows7
--
-32
+linux32
 /
 debug
 :
