@@ -454,6 +454,10 @@ getUrlEditText
 getText
 (
 )
+.
+toString
+(
+)
 )
 ;
 return
