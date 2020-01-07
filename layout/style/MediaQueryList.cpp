@@ -105,6 +105,15 @@ CallerType
 aCallerType
 )
 :
+DOMEventTargetHelper
+(
+aDocument
+-
+>
+GetInnerWindow
+(
+)
+)
 mDocument
 (
 aDocument
