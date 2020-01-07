@@ -110,7 +110,7 @@ method
 void
 SetVersion
 (
-nsHttpVersion
+HttpVersion
 version
 )
 ;
@@ -164,7 +164,7 @@ nsACString
 aMethod
 )
 ;
-nsHttpVersion
+HttpVersion
 Version
 (
 )
@@ -483,7 +483,7 @@ mHeaders
 nsCString
 mMethod
 ;
-nsHttpVersion
+HttpVersion
 mVersion
 ;
 nsCString

@@ -65,7 +65,10 @@ nsHttpResponseHead
 :
 mVersion
 (
-NS_HTTP_VERSION_1_1
+HttpVersion
+:
+:
+v1_1
 )
 mStatus
 (
@@ -153,7 +156,7 @@ Unlock
 )
 ;
 }
-nsHttpVersion
+HttpVersion
 Version
 (
 )
@@ -688,7 +691,7 @@ private
 nsHttpHeaderArray
 mHeaders
 ;
-nsHttpVersion
+HttpVersion
 mVersion
 ;
 uint16_t

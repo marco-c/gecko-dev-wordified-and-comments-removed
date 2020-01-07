@@ -233,7 +233,8 @@ UserAgent
 (
 )
 ;
-nsHttpVersion
+enum
+HttpVersion
 HttpVersion
 (
 )
@@ -242,7 +243,8 @@ return
 mHttpVersion
 ;
 }
-nsHttpVersion
+enum
+HttpVersion
 ProxyHttpVersion
 (
 )
@@ -1673,10 +1675,12 @@ nsHttpConnectionMgr
 >
 mConnMgr
 ;
-uint8_t
+enum
+HttpVersion
 mHttpVersion
 ;
-uint8_t
+enum
+HttpVersion
 mProxyHttpVersion
 ;
 uint32_t

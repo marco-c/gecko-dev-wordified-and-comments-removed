@@ -144,7 +144,8 @@ Http2Session
 (
 nsISocketTransport
 *
-uint32_t
+enum
+SpdyVersion
 version
 bool
 attemptingEarlyData
@@ -184,7 +185,8 @@ RoomForMoreStreams
 )
 override
 ;
-uint32_t
+enum
+SpdyVersion
 SpdyVersion
 (
 )

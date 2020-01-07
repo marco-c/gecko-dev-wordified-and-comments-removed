@@ -1149,7 +1149,13 @@ d
 \
 n
 "
+static_cast
+<
+int32_t
+>
+(
 mUsingSpdyVersion
+)
 mReportedSpdy
 mEverUsedSpdy
 )

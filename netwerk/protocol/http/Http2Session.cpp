@@ -331,7 +331,8 @@ Http2Session
 nsISocketTransport
 *
 aSocketTransport
-uint32_t
+enum
+SpdyVersion
 version
 bool
 attemptingEarlyData
@@ -3211,7 +3212,8 @@ NS_OK
 ;
 }
 }
-uint32_t
+enum
+SpdyVersion
 Http2Session
 :
 :
@@ -3220,7 +3222,10 @@ SpdyVersion
 )
 {
 return
-HTTP_VERSION_2
+SpdyVersion
+:
+:
+HTTP_2
 ;
 }
 uint32_t
