@@ -7,7 +7,6 @@ const
 {
 CC
 Ci
-Cu
 Cc
 }
 =
