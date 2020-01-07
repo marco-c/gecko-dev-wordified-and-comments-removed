@@ -18446,9 +18446,11 @@ JSObject
 *
 objectProto
 =
-GetBuiltinPrototypePure
-(
 global
+-
+>
+maybeGetPrototype
+(
 JSProto_Object
 )
 ;
