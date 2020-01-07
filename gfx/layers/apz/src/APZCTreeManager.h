@@ -199,7 +199,7 @@ namespace
 wr
 {
 class
-TransactionBuilder
+TransactionWrapper
 ;
 class
 WebRenderAPI
@@ -391,7 +391,7 @@ PushStateToWR
 wr
 :
 :
-TransactionBuilder
+TransactionWrapper
 &
 aTxn
 const

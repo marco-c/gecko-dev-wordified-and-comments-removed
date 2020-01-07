@@ -62,7 +62,7 @@ namespace
 wr
 {
 class
-TransactionBuilder
+TransactionWrapper
 ;
 struct
 WrTransformProperty
@@ -135,7 +135,7 @@ PushStateToWR
 wr
 :
 :
-TransactionBuilder
+TransactionWrapper
 &
 aTxn
 const

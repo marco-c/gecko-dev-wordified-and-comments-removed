@@ -15499,7 +15499,12 @@ aSampleTime
 )
 {
 return
-false
+(
+mAnimation
+!
+=
+nullptr
+)
 ;
 }
 bool
