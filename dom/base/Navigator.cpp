@@ -6336,13 +6336,12 @@ GetNetworkProperties
 (
 )
 {
-IgnoredErrorResult
-rv
-;
 return
 GetConnection
 (
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }

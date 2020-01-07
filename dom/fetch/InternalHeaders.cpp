@@ -1588,9 +1588,6 @@ aValue
 )
 override
 {
-IgnoredErrorResult
-result
-;
 mInternalHeaders
 -
 >
@@ -1598,7 +1595,9 @@ Append
 (
 aHeader
 aValue
-result
+IgnoreErrors
+(
+)
 )
 ;
 return

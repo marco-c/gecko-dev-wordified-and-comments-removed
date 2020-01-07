@@ -357,6 +357,12 @@ mozilla
 :
 dom
 ;
+using
+mozilla
+:
+:
+IgnoreErrors
+;
 class
 MOZ_STACK_CLASS
 DragDataProducer
@@ -1382,12 +1388,6 @@ OwnerDoc
 (
 )
 ;
-mozilla
-:
-:
-IgnoredErrorResult
-rv
-;
 RefPtr
 <
 nsRange
@@ -1399,7 +1399,9 @@ doc
 >
 CreateRange
 (
-rv
+IgnoreErrors
+(
+)
 )
 ;
 if
@@ -1414,7 +1416,9 @@ SelectNode
 (
 *
 node
-rv
+IgnoreErrors
+(
+)
 )
 ;
 range

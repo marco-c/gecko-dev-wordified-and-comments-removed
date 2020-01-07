@@ -1959,13 +1959,12 @@ ShouldLoadImages
 )
 )
 {
-IgnoredErrorResult
-error
-;
 ForceReload
 (
 aNotify
-error
+IgnoreErrors
+(
+)
 )
 ;
 }

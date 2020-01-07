@@ -1496,12 +1496,11 @@ FlushAnimations
 }
 else
 {
-IgnoredErrorResult
-rv
-;
 BeginElement
 (
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }

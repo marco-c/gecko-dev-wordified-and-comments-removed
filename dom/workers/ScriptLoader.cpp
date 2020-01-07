@@ -6783,9 +6783,6 @@ if
 mCacheStorage
 )
 {
-IgnoredErrorResult
-rv
-;
 RefPtr
 <
 Promise
@@ -6798,7 +6795,9 @@ mCacheStorage
 Delete
 (
 mCacheName
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -7380,9 +7379,6 @@ GetInternalHeaders
 (
 )
 ;
-IgnoredErrorResult
-ignored
-;
 headers
 -
 >
@@ -7399,7 +7395,9 @@ policy
 "
 )
 mCSPHeaderValue
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 headers
@@ -7422,7 +7420,9 @@ only
 "
 )
 mCSPReportOnlyHeaderValue
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 headers
@@ -7439,7 +7439,9 @@ policy
 "
 )
 mReferrerPolicyHeaderValue
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 nsCOMPtr

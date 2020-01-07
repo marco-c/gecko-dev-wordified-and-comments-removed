@@ -3864,10 +3864,6 @@ Unused
 <
 htmlEditor
 ;
-{
-IgnoredErrorResult
-rv
-;
 htmlDoc
 -
 >
@@ -3882,12 +3878,10 @@ off
 Nothing
 (
 )
-rv
+IgnoreErrors
+(
 )
-;
-}
-IgnoredErrorResult
-rv
+)
 ;
 htmlDoc
 -
@@ -3903,7 +3897,9 @@ on
 Nothing
 (
 )
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }

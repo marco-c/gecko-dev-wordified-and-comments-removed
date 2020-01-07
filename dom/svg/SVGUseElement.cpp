@@ -1102,9 +1102,6 @@ NodeInfoManager
 (
 )
 ;
-IgnoredErrorResult
-rv
-;
 nsCOMPtr
 <
 nsINode
@@ -1120,7 +1117,9 @@ targetContent
 true
 nodeInfoManager
 nullptr
-rv
+IgnoreErrors
+(
+)
 )
 ;
 nsCOMPtr

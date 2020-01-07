@@ -3016,9 +3016,6 @@ if
 mIsOffline
 )
 {
-IgnoredErrorResult
-dummy
-;
 RefPtr
 <
 Promise
@@ -3027,7 +3024,9 @@ ignored
 =
 Close
 (
-dummy
+IgnoreErrors
+(
+)
 )
 ;
 }

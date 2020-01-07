@@ -3891,9 +3891,6 @@ oldKid
 )
 )
 {
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -3905,7 +3902,9 @@ xulElement
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 listBox
@@ -4370,9 +4369,6 @@ aKid
 )
 )
 {
-IgnoredErrorResult
-ignored
-;
 nsCOMPtr
 <
 nsIBoxObject
@@ -4384,7 +4380,9 @@ xulElement
 >
 GetBoxObject
 (
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 listBox

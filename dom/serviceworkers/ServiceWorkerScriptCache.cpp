@@ -2449,9 +2449,6 @@ principalInfo
 )
 ;
 }
-IgnoredErrorResult
-ignored
-;
 RefPtr
 <
 InternalHeaders
@@ -2483,7 +2480,9 @@ get
 (
 )
 )
-ignored
+IgnoreErrors
+(
+)
 )
 ;
 RefPtr

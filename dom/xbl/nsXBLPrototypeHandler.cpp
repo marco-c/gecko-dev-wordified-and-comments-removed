@@ -2986,9 +2986,6 @@ if
 xulElement
 )
 {
-IgnoredErrorResult
-rv
-;
 controllers
 =
 xulElement
@@ -2996,7 +2993,9 @@ xulElement
 >
 GetControllers
 (
-rv
+IgnoreErrors
+(
+)
 )
 ;
 }
