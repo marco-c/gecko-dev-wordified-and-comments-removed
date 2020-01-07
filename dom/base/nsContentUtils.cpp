@@ -30162,7 +30162,7 @@ doc
 aContent
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
