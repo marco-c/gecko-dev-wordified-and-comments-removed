@@ -748,6 +748,12 @@ GetBinaryType
 undef
 RemoveDirectory
 #
+undef
+LoadImage
+#
+undef
+LoadIcon
+#
 endif
 #
 endif

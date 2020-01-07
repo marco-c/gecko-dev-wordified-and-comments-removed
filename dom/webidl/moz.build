@@ -2844,6 +2844,11 @@ ChildNode
 webidl
 '
 '
+ChildSHistory
+.
+webidl
+'
+'
 ChromeNodeList
 .
 webidl
@@ -4275,6 +4280,11 @@ webidl
 '
 '
 ParentNode
+.
+webidl
+'
+'
+ParentSHistory
 .
 webidl
 '
