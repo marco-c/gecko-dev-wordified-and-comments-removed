@@ -607,6 +607,7 @@ derive
 (
 Clone
 Debug
+ToComputedValue
 ToCss
 )
 ]
@@ -633,12 +634,6 @@ RefPtr
 URLValue
 >
 }
-trivial_to_computed_value
-!
-(
-SpecifiedUrl
-)
-;
 impl
 SpecifiedUrl
 {
@@ -895,6 +890,7 @@ derive
 (
 Clone
 Debug
+ToComputedValue
 ToCss
 )
 ]
@@ -921,12 +917,6 @@ RefPtr
 ImageValue
 >
 }
-trivial_to_computed_value
-!
-(
-SpecifiedImageUrl
-)
-;
 impl
 SpecifiedImageUrl
 {

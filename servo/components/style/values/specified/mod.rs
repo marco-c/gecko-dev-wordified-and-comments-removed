@@ -1330,6 +1330,7 @@ PartialEq
 derive
 (
 PartialOrd
+ToComputedValue
 ToCss
 )
 ]
