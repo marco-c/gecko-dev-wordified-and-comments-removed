@@ -47,13 +47,8 @@ gdkx
 h
 >
 #
-if
-(
+ifdef
 MOZ_WIDGET_GTK
-=
-=
-3
-)
 #
 include
 <

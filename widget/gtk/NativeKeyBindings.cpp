@@ -253,13 +253,8 @@ count
 0
 ;
 #
-if
-(
+ifdef
 MOZ_WIDGET_GTK
-=
-=
-3
-)
 if
 (
 del_type

@@ -4169,13 +4169,8 @@ XRE_InstallX11ErrorHandler
 )
 {
 #
-if
-(
+ifdef
 MOZ_WIDGET_GTK
-=
-=
-3
-)
 InstallGdkErrorHandler
 (
 )
