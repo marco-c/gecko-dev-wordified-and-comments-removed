@@ -1552,6 +1552,9 @@ private
 bool
 mNeedIMEStateInit
 ;
+bool
+mIgnoreCompositionEvents
+;
 }
 ;
 class
