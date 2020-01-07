@@ -738,6 +738,10 @@ SwapElements
 aLargeAllocs
 )
 ;
+mCursor
+=
+0
+;
 }
 void
 ShmSegmentsWriter
