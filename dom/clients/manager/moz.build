@@ -249,6 +249,11 @@ ClientOpenWindowOpParent
 cpp
 '
 '
+ClientOpenWindowUtils
+.
+cpp
+'
+'
 ClientPrefs
 .
 cpp
