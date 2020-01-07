@@ -144,6 +144,13 @@ ClearTreeManager
 nsEventStatus
 ReceiveInputEvent
 (
+const
+RefPtr
+<
+APZCTreeManager
+>
+&
+aApz
 InputData
 &
 aEvent
@@ -330,6 +337,13 @@ AndroidDynamicToolbarAnimator
 nsEventStatus
 ProcessTouchDelta
 (
+const
+RefPtr
+<
+APZCTreeManager
+>
+&
+aApz
 StaticToolbarState
 aCurrentToolbarState
 ScreenIntCoord

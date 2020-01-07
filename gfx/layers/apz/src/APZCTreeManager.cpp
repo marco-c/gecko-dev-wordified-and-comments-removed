@@ -5293,6 +5293,14 @@ ScreenIsParentLayerForRoot
 ;
 }
 }
+RefPtr
+<
+APZCTreeManager
+>
+self
+=
+this
+;
 nsEventStatus
 isConsumed
 =
@@ -5301,6 +5309,7 @@ mToolbarAnimator
 >
 ReceiveInputEvent
 (
+self
 aEvent
 scrollOffset
 )
