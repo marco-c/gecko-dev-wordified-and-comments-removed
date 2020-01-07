@@ -11836,6 +11836,11 @@ valueForAfterSetAttr
 if
 (
 aCallAfterSetAttr
+|
+|
+GetCustomElementData
+(
+)
 )
 {
 valueForAfterSetAttr
