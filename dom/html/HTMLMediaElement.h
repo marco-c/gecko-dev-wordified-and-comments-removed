@@ -3038,7 +3038,7 @@ aCapture
 )
 ;
 bool
-IsAllowedToPlay
+AudioChannelAgentBlockedPlay
 (
 )
 ;
