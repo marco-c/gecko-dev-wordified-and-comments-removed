@@ -4862,7 +4862,7 @@ video
 name
     
 def
-sine_source_loaded
+null_sink_loaded
 (
 )
 :
@@ -4904,9 +4904,9 @@ x
 '
 module
 -
-sine
+null
 -
-source
+sink
 '
 in
 x
@@ -4919,7 +4919,7 @@ splitlines
     
 if
 not
-sine_source_loaded
+null_sink_loaded
 (
 )
 :
@@ -4946,16 +4946,16 @@ module
 '
 module
 -
-sine
+null
 -
-source
+sink
 '
 ]
 )
     
 if
 not
-sine_source_loaded
+null_sink_loaded
 (
 )
 :
@@ -4972,14 +4972,40 @@ t
 load
 module
 -
-sine
+null
 -
-source
+sink
 '
 )
         
 return
 None
+    
+subprocess
+.
+check_call
+(
+[
+'
+/
+usr
+/
+bin
+/
+pacmd
+'
+'
+set
+-
+default
+-
+sink
+'
+'
+null
+'
+]
+)
     
 info
 [
@@ -4989,11 +5015,10 @@ audio
 ]
 =
 '
-Sine
-source
-at
-440
-Hz
+Monitor
+of
+Null
+Output
 '
     
 return
