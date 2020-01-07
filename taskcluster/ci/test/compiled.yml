@@ -7,6 +7,15 @@ e10s
 false
 mozharness
 :
+no
+-
+read
+-
+buildbot
+-
+config
+:
+true
 script
 :
 by
