@@ -166,6 +166,12 @@ nsRFPService
 ReduceTimePrecisionAsMSecs
 (
 rawDuration
+mPerformance
+-
+>
+GetRandomTimelineSeed
+(
+)
 )
 ;
 }

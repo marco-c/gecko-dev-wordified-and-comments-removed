@@ -478,6 +478,9 @@ nsRFPService
 ReduceTimePrecisionAsMSecs
 (
 minimallyClamped
+GetRandomTimelineSeed
+(
+)
 )
 ;
 }
@@ -570,6 +573,7 @@ nsRFPService
 ReduceTimePrecisionAsMSecs
 (
 rawTimeOrigin
+0
 )
 ;
 }

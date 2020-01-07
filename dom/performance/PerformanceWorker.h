@@ -190,6 +190,13 @@ nullptr
 ;
 }
 virtual
+uint64_t
+GetRandomTimelineSeed
+(
+)
+override
+;
+virtual
 nsITimedChannel
 *
 GetChannel

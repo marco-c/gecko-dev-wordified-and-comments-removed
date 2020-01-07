@@ -4552,6 +4552,7 @@ nsRFPService
 ReduceTimePrecisionAsMSecs
 (
 ret
+0
 )
 ;
 }
@@ -4699,6 +4700,12 @@ nsRFPService
 ReduceTimePrecisionAsMSecs
 (
 ret
+perf
+-
+>
+GetRandomTimelineSeed
+(
+)
 )
 ;
 }
@@ -4748,6 +4755,12 @@ nsRFPService
 ReduceTimePrecisionAsMSecs
 (
 ret
+workerPrivate
+-
+>
+GetRandomTimelineSeed
+(
+)
 )
 ;
 }
