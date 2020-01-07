@@ -729,6 +729,9 @@ getSymbolRules
 "
 localBreakpad
 remoteBreakpad
+dump_syms
+.
+exe
 "
 )
 ;
