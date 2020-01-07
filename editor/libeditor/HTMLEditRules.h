@@ -901,6 +901,7 @@ bool
 aHandled
 )
 ;
+MOZ_MUST_USE
 nsresult
 WillHTMLIndent
 (
@@ -1252,6 +1253,12 @@ nsIEditor
 :
 EDirection
 aDirection
+)
+;
+MOZ_MUST_USE
+nsresult
+IndentAroundSelectionWithHTML
+(
 )
 ;
 MOZ_MUST_USE
