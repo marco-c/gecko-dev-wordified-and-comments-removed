@@ -130,6 +130,12 @@ JSObject
 aObj
 )
 ;
+static
+bool
+ServiceWorkersTestingEnabled
+(
+)
+;
 }
 ;
 }
