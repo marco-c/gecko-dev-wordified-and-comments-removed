@@ -111,15 +111,4 @@ enabled
 "
 :
 false
-"
-security
-.
-sandbox
-.
-content
-.
-level
-"
-:
-0
 }
