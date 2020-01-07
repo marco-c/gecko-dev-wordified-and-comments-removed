@@ -444,9 +444,6 @@ domParser
 parseFromBuffer
 (
 bytesView
-bytesView
-.
-length
 "
 application
 /
