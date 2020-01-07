@@ -7,7 +7,6 @@ const
 {
 individualsState
 viewState
-censusState
 }
 =
 require
@@ -79,8 +78,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -149,7 +148,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -226,7 +225,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -360,7 +359,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store

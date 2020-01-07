@@ -57,14 +57,6 @@ vars
 "
 local
 "
-"
-varsIgnorePattern
-"
-:
-"
-^
-run_test
-"
 }
 ]
 }
