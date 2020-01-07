@@ -5416,16 +5416,6 @@ sSVGTransformBoxEnabled
 ;
 }
 static
-bool
-TextCombineUprightDigitsEnabled
-(
-)
-{
-return
-sTextCombineUprightDigitsEnabled
-;
-}
-static
 uint32_t
 IdlePeriodDeadlineLimit
 (
@@ -6738,10 +6728,6 @@ sInterruptibleReflowEnabled
 static
 bool
 sSVGTransformBoxEnabled
-;
-static
-bool
-sTextCombineUprightDigitsEnabled
 ;
 static
 uint32_t
