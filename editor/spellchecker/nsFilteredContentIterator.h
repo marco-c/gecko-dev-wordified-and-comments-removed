@@ -217,6 +217,10 @@ mIsOutOfRange
 (
 false
 )
+mDirection
+{
+eDirNotSet
+}
 {
 }
 virtual
