@@ -842,8 +842,6 @@ InspectorFontFace
 aResult
 uint32_t
 aMaxRanges
-bool
-aSkipCollapsedWhitespace
 )
 ;
 NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED

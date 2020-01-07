@@ -576,11 +576,6 @@ long
 maxRanges
 =
 0
-optional
-boolean
-skipCollapsedWhitespace
-=
-true
 )
 ;
 sequence
