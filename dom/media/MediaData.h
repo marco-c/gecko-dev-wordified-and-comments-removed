@@ -2116,6 +2116,7 @@ CryptoSample
 &
 mCrypto
 ;
+MOZ_MUST_USE
 bool
 SetSize
 (
@@ -2123,6 +2124,7 @@ size_t
 aSize
 )
 ;
+MOZ_MUST_USE
 bool
 Prepend
 (
@@ -2134,6 +2136,7 @@ size_t
 aSize
 )
 ;
+MOZ_MUST_USE
 bool
 Replace
 (
@@ -2171,6 +2174,7 @@ MediaRawData
 aMediaRawData
 )
 ;
+MOZ_MUST_USE
 bool
 EnsureSize
 (
