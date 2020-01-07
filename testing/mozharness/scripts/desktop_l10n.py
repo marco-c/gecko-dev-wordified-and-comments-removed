@@ -172,10 +172,6 @@ version
 locale
 '
 '
-from_buildid
-'
-                         
-'
 abs_objdir
 '
 '
@@ -183,21 +179,14 @@ revision
 '
                          
 '
-to_buildid
-'
-'
 en_us_binary_url
 '
-                         
 '
 en_us_installer_binary_url
 '
-'
-mar_tools_url
-'
                          
 '
-who
+mar_tools_url
 '
 )
 class
