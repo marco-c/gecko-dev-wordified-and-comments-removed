@@ -848,6 +848,8 @@ KeyboardEvent
 :
 Which
 (
+CallerType
+aCallerType
 )
 {
 if
@@ -882,6 +884,7 @@ eKeyUpOnPlugin
 return
 KeyCode
 (
+aCallerType
 )
 ;
 case

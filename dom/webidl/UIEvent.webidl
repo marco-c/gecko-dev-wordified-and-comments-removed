@@ -254,6 +254,9 @@ attribute
 long
 pageY
 ;
+[
+NeedsCallerType
+]
 readonly
 attribute
 unsigned
