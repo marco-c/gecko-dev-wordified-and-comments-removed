@@ -81,9 +81,13 @@ dummy
 -
 release
 -
-updates
+secondary
 -
-builder
+balrog
+-
+submit
+-
+toplevel
 -
 release
 -
