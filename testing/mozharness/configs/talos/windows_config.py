@@ -83,12 +83,6 @@ virtualenv_path
 VENV_PATH
     
 "
-pip_index
-"
-:
-False
-    
-"
 find_links
 "
 :

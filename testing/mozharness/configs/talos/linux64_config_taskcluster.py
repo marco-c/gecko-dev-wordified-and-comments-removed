@@ -213,12 +213,6 @@ pub
 ]
     
 "
-pip_index
-"
-:
-False
-    
-"
 exes
 "
 :

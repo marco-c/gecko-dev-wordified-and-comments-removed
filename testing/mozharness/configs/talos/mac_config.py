@@ -165,12 +165,6 @@ pub
 ]
     
 "
-pip_index
-"
-:
-False
-    
-"
 title
 "
 :

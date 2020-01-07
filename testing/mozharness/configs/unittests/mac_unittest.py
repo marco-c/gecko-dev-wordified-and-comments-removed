@@ -93,12 +93,6 @@ pub
 ]
     
 "
-pip_index
-"
-:
-False
-    
-"
 installer_path
 "
 :

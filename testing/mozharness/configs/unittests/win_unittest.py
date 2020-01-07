@@ -202,12 +202,6 @@ pub
 ]
     
 "
-pip_index
-"
-:
-False
-    
-"
 exe_suffix
 "
 :

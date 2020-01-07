@@ -156,12 +156,6 @@ cmd_timeout
 6500
     
 "
-pip_index
-"
-:
-False
-    
-"
 exes
 "
 :

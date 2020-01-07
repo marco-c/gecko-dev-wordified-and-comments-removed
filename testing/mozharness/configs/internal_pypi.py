@@ -45,10 +45,4 @@ pub
 "
     
 ]
-    
-'
-pip_index
-'
-:
-False
 }

@@ -224,12 +224,6 @@ pub
 ]
     
 "
-pip_index
-"
-:
-False
-    
-"
 buildbot_json_path
 "
 :
