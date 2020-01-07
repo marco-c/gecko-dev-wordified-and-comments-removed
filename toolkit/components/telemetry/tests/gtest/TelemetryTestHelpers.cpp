@@ -1297,6 +1297,7 @@ nsITelemetry
 :
 DATASET_RELEASE_CHANNEL_OPTIN
 false
+false
 cx
 &
 snapshots
@@ -1311,6 +1312,7 @@ nsITelemetry
 :
 :
 DATASET_RELEASE_CHANNEL_OPTIN
+false
 false
 cx
 &

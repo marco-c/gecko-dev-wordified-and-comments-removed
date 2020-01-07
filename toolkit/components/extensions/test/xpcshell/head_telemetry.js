@@ -85,6 +85,7 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 true
+true
 )
 ;
 }
@@ -106,6 +107,7 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
+true
 false
 )
 [
@@ -143,6 +145,7 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
+true
 false
 )
 [

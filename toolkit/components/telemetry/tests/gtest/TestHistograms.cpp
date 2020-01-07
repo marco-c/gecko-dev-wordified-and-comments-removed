@@ -2313,7 +2313,7 @@ const
 uint32_t
 expectedAccumulateClampedCount
 =
-2
+4
 ;
 JS
 :

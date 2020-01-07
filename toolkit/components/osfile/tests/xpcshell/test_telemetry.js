@@ -163,6 +163,7 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 false
+false
 )
 .
 parent
@@ -188,6 +189,7 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
+false
 false
 )
 .
@@ -316,6 +318,7 @@ nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
 false
+false
 )
 .
 parent
@@ -372,6 +375,7 @@ Ci
 nsITelemetry
 .
 DATASET_RELEASE_CHANNEL_OPTIN
+false
 false
 )
 .
