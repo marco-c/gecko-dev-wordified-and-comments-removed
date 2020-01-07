@@ -6023,7 +6023,6 @@ aAttrValue
 )
 const
 ;
-virtual
 nsresult
 NodesFromRectHelper
 (
@@ -6048,8 +6047,6 @@ nsIDOMNodeList
 *
 aReturn
 )
-=
-0
 ;
 virtual
 void
