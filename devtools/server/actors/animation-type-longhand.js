@@ -1866,6 +1866,11 @@ row
 gap
 "
 "
+shape
+-
+margin
+"
+"
 stroke
 -
 dashoffset
