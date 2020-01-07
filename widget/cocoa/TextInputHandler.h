@@ -2333,8 +2333,10 @@ nullptr
 )
 ;
 void
-InsertNewline
+HandleCommand
 (
+Command
+aCommand
 )
 ;
 bool
