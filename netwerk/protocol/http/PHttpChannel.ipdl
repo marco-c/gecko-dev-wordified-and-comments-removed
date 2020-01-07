@@ -769,6 +769,8 @@ int64_t
 altDataLength
 bool
 applyConversion
+ResourceTimingStruct
+timing
 )
 ;
 /
