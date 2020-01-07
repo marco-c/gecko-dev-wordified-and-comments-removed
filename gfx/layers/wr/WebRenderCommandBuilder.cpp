@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

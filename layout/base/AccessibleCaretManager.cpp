@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element

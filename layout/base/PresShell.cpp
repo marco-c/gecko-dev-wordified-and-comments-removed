@@ -41,6 +41,15 @@ include
 "
 mozilla
 /
+AutoRestore
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleSheetInlines
 .
 h
