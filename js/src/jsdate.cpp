@@ -14236,9 +14236,6 @@ args
 )
 ;
 }
-#
-if
-JS_HAS_TOSOURCE
 MOZ_ALWAYS_INLINE
 bool
 date_toSource_impl
@@ -14386,8 +14383,6 @@ args
 )
 ;
 }
-#
-endif
 MOZ_ALWAYS_INLINE
 bool
 date_toString_impl
@@ -15159,9 +15154,6 @@ date_toJSON
 1
 0
 )
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -15169,8 +15161,6 @@ date_toSource
 0
 0
 )
-#
-endif
 JS_FN
 (
 js_toString_str

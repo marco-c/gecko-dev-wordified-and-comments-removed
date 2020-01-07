@@ -11533,9 +11533,6 @@ VALUE_SLOT
 }
 #
 endif
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 WebAssembly_toSource
@@ -11581,8 +11578,6 @@ return
 true
 ;
 }
-#
-endif
 static
 bool
 RejectWithPendingException
@@ -15314,9 +15309,6 @@ WebAssembly_static_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -15324,8 +15316,6 @@ WebAssembly_toSource
 0
 0
 )
-#
-endif
 JS_FN
 (
 "

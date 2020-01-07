@@ -41,13 +41,6 @@ config
 h
 "
 #
-include
-"
-jsversion
-.
-h
-"
-#
 define
 JS_EXTERN_API
 (

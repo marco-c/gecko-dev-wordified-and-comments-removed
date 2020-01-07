@@ -2599,9 +2599,6 @@ JSProto_Intl
 )
 }
 ;
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 intl_toSource
@@ -2647,8 +2644,6 @@ return
 true
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -2657,9 +2652,6 @@ intl_static_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -2667,8 +2659,6 @@ intl_toSource
 0
 0
 )
-#
-endif
 JS_SELF_HOSTED_FN
 (
 "

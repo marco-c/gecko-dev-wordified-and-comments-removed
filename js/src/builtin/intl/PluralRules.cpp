@@ -200,9 +200,6 @@ PluralRulesObject
 classOps_
 }
 ;
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 pluralRules_toSource
@@ -248,8 +245,6 @@ return
 true
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -302,9 +297,6 @@ Intl_PluralRules_select
 1
 0
 )
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -312,8 +304,6 @@ pluralRules_toSource
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

@@ -261,9 +261,6 @@ MutableHandleValue
 result
 )
 ;
-#
-if
-JS_HAS_TOSOURCE
 JSString
 *
 ObjectToSource
@@ -278,8 +275,6 @@ HandleObject
 obj
 )
 ;
-#
-endif
 extern
 MOZ_MUST_USE
 bool

@@ -158,9 +158,6 @@ BooleanObject
 )
 ;
 }
-#
-if
-JS_HAS_TOSOURCE
 MOZ_ALWAYS_INLINE
 bool
 bool_toSource_impl
@@ -335,8 +332,6 @@ args
 )
 ;
 }
-#
-endif
 MOZ_ALWAYS_INLINE
 bool
 bool_toString_impl
@@ -573,9 +568,6 @@ boolean_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -583,8 +575,6 @@ bool_toSource
 0
 0
 )
-#
-endif
 JS_FN
 (
 js_toString_str

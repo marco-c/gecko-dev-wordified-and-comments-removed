@@ -5455,9 +5455,6 @@ return
 true
 ;
 }
-#
-if
-JS_HAS_TOSOURCE
 static
 bool
 array_toSource
@@ -5824,8 +5821,6 @@ return
 true
 ;
 }
-#
-endif
 struct
 EmptySeparatorOp
 {
@@ -17075,9 +17070,6 @@ array_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -17085,8 +17077,6 @@ array_toSource
 0
 0
 )
-#
-endif
 JS_SELF_HOSTED_FN
 (
 js_toString_str

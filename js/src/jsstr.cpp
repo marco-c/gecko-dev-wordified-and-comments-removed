@@ -2554,9 +2554,6 @@ return
 true
 ;
 }
-#
-if
-JS_HAS_UNEVAL
 static
 bool
 str_uneval
@@ -2618,8 +2615,6 @@ return
 true
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -2642,9 +2637,6 @@ str_unescape
 1
 JSPROP_RESOLVING
 )
-#
-if
-JS_HAS_UNEVAL
 JS_FN
 (
 js_uneval_str
@@ -2652,8 +2644,6 @@ str_uneval
 1
 JSPROP_RESOLVING
 )
-#
-endif
 JS_FN
 (
 js_decodeURI_str
@@ -3231,9 +3221,6 @@ StringObject
 )
 ;
 }
-#
-if
-JS_HAS_TOSOURCE
 MOZ_ALWAYS_INLINE
 bool
 str_toSource_impl
@@ -3419,8 +3406,6 @@ args
 )
 ;
 }
-#
-endif
 MOZ_ALWAYS_INLINE
 bool
 str_toString_impl
@@ -17237,9 +17222,6 @@ string_methods
 ]
 =
 {
-#
-if
-JS_HAS_TOSOURCE
 JS_FN
 (
 js_toSource_str
@@ -17247,8 +17229,6 @@ str_toSource
 0
 0
 )
-#
-endif
 JS_FN
 (
 js_toString_str
