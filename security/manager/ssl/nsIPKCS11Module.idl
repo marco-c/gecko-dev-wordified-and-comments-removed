@@ -143,17 +143,6 @@ libName
 [
 must_use
 ]
-nsIPKCS11Slot
-findSlotByName
-(
-in
-AUTF8String
-name
-)
-;
-[
-must_use
-]
 nsISimpleEnumerator
 listSlots
 (

@@ -182,17 +182,6 @@ cipherFlags
 [
 must_use
 ]
-nsIPKCS11Module
-findModuleByName
-(
-in
-AString
-name
-)
-;
-[
-must_use
-]
 nsISimpleEnumerator
 listModules
 (
