@@ -1633,6 +1633,19 @@ linux
 '
 )
         
+Required
+(
+'
+max
+-
+run
+-
+time
+'
+)
+:
+int
+        
 Optional
 (
 '
@@ -7439,6 +7452,21 @@ artifacts
 '
 :
 artifacts
+        
+'
+maxRunTime
+'
+:
+worker
+[
+'
+max
+-
+run
+-
+time
+'
+]
     
 }
     
