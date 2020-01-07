@@ -979,12 +979,6 @@ ReadbackManagerD3D11
 >
 mD3D11ReadbackManager
 ;
-nsTArray
-<
-D3D_FEATURE_LEVEL
->
-mFeatureLevels
-;
 }
 ;
 #
