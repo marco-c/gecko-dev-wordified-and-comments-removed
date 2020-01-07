@@ -839,6 +839,14 @@ lir
 )
 ;
 void
+visitUnaryCache
+(
+LUnaryCache
+*
+lir
+)
+;
+void
 visitNullarySharedStub
 (
 LNullarySharedStub

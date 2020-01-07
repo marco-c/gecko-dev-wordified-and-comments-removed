@@ -234,6 +234,11 @@ BinarySharedStub
 \
 _
 (
+UnaryCache
+)
+\
+_
+(
 NullarySharedStub
 )
 \

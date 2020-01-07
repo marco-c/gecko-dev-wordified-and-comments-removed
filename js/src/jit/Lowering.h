@@ -1400,6 +1400,15 @@ ins
 override
 ;
 void
+visitUnaryCache
+(
+MUnaryCache
+*
+ins
+)
+override
+;
+void
 visitNullarySharedStub
 (
 MNullarySharedStub
