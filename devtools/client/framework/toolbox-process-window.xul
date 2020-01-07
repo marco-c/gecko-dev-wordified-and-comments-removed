@@ -431,7 +431,7 @@ vbox
 id
 =
 "
-error
+status
 -
 message
 -
@@ -452,7 +452,7 @@ flex
 box
 >
 &
-browserToolboxErrorMessage
+browserToolboxStatusMessage
 ;
 <
 /
@@ -468,7 +468,7 @@ true
 id
 =
 "
-error
+status
 -
 message
 "
