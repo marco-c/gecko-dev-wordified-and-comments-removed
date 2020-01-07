@@ -2183,7 +2183,7 @@ codeRange
 code_
 -
 >
-lookupRange
+lookupFuncRange
 (
 codeSegment
 .
@@ -2197,14 +2197,6 @@ debugTrapOffset
 MOZ_ASSERT
 (
 codeRange
-&
-&
-codeRange
--
->
-isFunction
-(
-)
 )
 ;
 if
