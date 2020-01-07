@@ -1,5 +1,0 @@
-var
-active
-=
-true
-;
