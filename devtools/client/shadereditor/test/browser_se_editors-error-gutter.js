@@ -18,12 +18,14 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-front
+gFront
 EVENTS
 ShadersEditorsView
 }
 =
 panel
+.
+panelWin
 ;
 reload
 (
@@ -38,7 +40,7 @@ all
 [
 once
 (
-front
+gFront
 "
 program
 -
@@ -48,6 +50,8 @@ linked
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -112,6 +116,8 @@ vertError
 await
 panel
 .
+panelWin
+.
 once
 (
 EVENTS
@@ -164,6 +170,8 @@ ch
 ;
 await
 panel
+.
+panelWin
 .
 once
 (
@@ -226,6 +234,8 @@ vertError
 =
 await
 panel
+.
+panelWin
 .
 once
 (
@@ -295,6 +305,8 @@ fragError
 await
 panel
 .
+panelWin
+.
 once
 (
 EVENTS
@@ -353,6 +365,8 @@ ch
 ;
 await
 panel
+.
+panelWin
 .
 once
 (
@@ -421,6 +435,8 @@ fragError
 =
 await
 panel
+.
+panelWin
 .
 once
 (
@@ -493,6 +509,8 @@ ch
 await
 panel
 .
+panelWin
+.
 once
 (
 EVENTS
@@ -540,6 +558,8 @@ vertError
 =
 await
 panel
+.
+panelWin
 .
 once
 (

@@ -19,17 +19,21 @@ MULTIPLE_CONTEXTS_URL
 ;
 const
 {
-front
+gFront
 EVENTS
 ShadersListView
 ShadersEditorsView
 }
 =
 panel
+.
+panelWin
 ;
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -83,12 +87,14 @@ all
 [
 getPrograms
 (
-front
+gFront
 2
 )
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -185,6 +191,8 @@ changed
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -220,7 +228,7 @@ onward
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -253,7 +261,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -286,7 +294,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -319,7 +327,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -542,7 +550,7 @@ checked
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -575,7 +583,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -608,7 +616,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -641,7 +649,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -785,7 +793,7 @@ unchecked
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -818,7 +826,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -851,7 +859,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -884,7 +892,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -946,7 +954,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -979,7 +987,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1012,7 +1020,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1045,7 +1053,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1126,7 +1134,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1159,7 +1167,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1192,7 +1200,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1225,7 +1233,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1291,7 +1299,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1324,7 +1332,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1357,7 +1365,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1390,7 +1398,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1550,7 +1558,7 @@ rechecked
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1583,7 +1591,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1616,7 +1624,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1649,7 +1657,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1711,7 +1719,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1744,7 +1752,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1777,7 +1785,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1810,7 +1818,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1887,7 +1895,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1920,7 +1928,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1953,7 +1961,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -1986,7 +1994,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -2048,7 +2056,7 @@ panel
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -2081,7 +2089,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -2114,7 +2122,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -2147,7 +2155,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :

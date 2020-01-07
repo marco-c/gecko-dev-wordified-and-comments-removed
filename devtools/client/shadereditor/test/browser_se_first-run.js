@@ -18,10 +18,12 @@ SIMPLE_CANVAS_URL
 ;
 const
 {
-front
+gFront
 }
 =
 panel
+.
+panelWin
 ;
 is
 (
@@ -126,7 +128,7 @@ linked
 =
 once
 (
-front
+gFront
 "
 program
 -

@@ -18,13 +18,15 @@ MULTIPLE_CONTEXTS_URL
 ;
 const
 {
-front
+gFront
 EVENTS
 ShadersListView
 ShadersEditorsView
 }
 =
 panel
+.
+panelWin
 ;
 reload
 (
@@ -39,7 +41,7 @@ all
 [
 once
 (
-front
+gFront
 "
 program
 -
@@ -48,7 +50,7 @@ linked
 )
 once
 (
-front
+gFront
 "
 program
 -
@@ -62,6 +64,8 @@ await
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -280,6 +284,8 @@ await
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -315,6 +321,8 @@ await
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SHADER_COMPILED
@@ -337,7 +345,7 @@ changed
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -370,7 +378,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -403,7 +411,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -436,7 +444,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -469,7 +477,7 @@ canvas1
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -502,7 +510,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -535,7 +543,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -568,7 +576,7 @@ canvas2
 await
 ensurePixelIs
 (
-front
+gFront
 {
 x
 :
@@ -639,6 +647,8 @@ await
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SOURCES_SHOWN
@@ -822,6 +832,8 @@ await
 once
 (
 panel
+.
+panelWin
 EVENTS
 .
 SOURCES_SHOWN
