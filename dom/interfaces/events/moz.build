@@ -111,11 +111,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMBeforeUnloadEvent
-.
-idl
-'
-'
 nsIDOMClipboardEvent
 .
 idl

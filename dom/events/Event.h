@@ -132,6 +132,9 @@ namespace
 dom
 {
 class
+BeforeUnloadEvent
+;
+class
 EventTarget
 ;
 class
@@ -414,6 +417,17 @@ virtual
 TimeEvent
 *
 AsTimeEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+BeforeUnloadEvent
+*
+AsBeforeUnloadEvent
 (
 )
 {
