@@ -748,12 +748,6 @@ y2
 )
 )
 ;
-ctx
-.
-closePath
-(
-)
-;
 }
 function
 drawRect
