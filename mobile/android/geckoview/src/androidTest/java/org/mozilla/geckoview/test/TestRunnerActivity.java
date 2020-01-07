@@ -190,6 +190,8 @@ String
 uri
 int
 target
+int
+flags
 GeckoResponse
 <
 Boolean

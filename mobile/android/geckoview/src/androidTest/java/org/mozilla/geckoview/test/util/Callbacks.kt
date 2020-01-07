@@ -294,6 +294,9 @@ String
 where
 :
 Int
+flags
+:
+Int
 response
 :
 GeckoResponse
