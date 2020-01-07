@@ -2968,6 +2968,11 @@ submitExternalPing
 sync
 "
 record
+{
+usePingSender
+:
+true
+}
 )
 ;
 return
