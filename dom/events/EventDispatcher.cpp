@@ -2922,7 +2922,7 @@ aPresContext
 WidgetEvent
 *
 aEvent
-nsIDOMEvent
+Event
 *
 aDOMEvent
 nsEventStatus
@@ -4549,7 +4549,7 @@ aTarget
 WidgetEvent
 *
 aEvent
-nsIDOMEvent
+Event
 *
 aDOMEvent
 nsPresContext
@@ -4614,13 +4614,13 @@ nullptr
 }
 else
 {
+dontResetTrusted
+=
 aDOMEvent
 -
 >
-GetIsTrusted
+IsTrusted
 (
-&
-dontResetTrusted
 )
 ;
 }

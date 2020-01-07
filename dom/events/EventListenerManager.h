@@ -81,9 +81,6 @@ class
 nsIDocShell
 ;
 class
-nsIDOMEvent
-;
-class
 nsIEventListenerInfo
 ;
 class
@@ -115,6 +112,9 @@ EventListenerManager
 namespace
 dom
 {
+class
+Event
+;
 class
 EventTarget
 ;
@@ -1270,7 +1270,10 @@ aPresContext
 WidgetEvent
 *
 aEvent
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 *
 aDOMEvent
@@ -1604,7 +1607,10 @@ aPresContext
 WidgetEvent
 *
 aEvent
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 *
 aDOMEvent
@@ -1625,7 +1631,10 @@ HandleEventSubType
 Listener
 *
 aListener
-nsIDOMEvent
+dom
+:
+:
+Event
 *
 aDOMEvent
 dom

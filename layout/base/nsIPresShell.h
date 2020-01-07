@@ -342,9 +342,6 @@ class
 nsIScrollableFrame
 ;
 class
-nsIDOMEvent
-;
-class
 nsDisplayList
 ;
 class
@@ -407,6 +404,9 @@ dom
 {
 class
 Element
+;
+class
+Event
 ;
 class
 HTMLSlotElement
@@ -2030,7 +2030,13 @@ HandleDOMEventWithTarget
 nsIContent
 *
 aTargetContent
-nsIDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 *
 aEvent
 nsEventStatus
