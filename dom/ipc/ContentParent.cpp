@@ -7738,16 +7738,11 @@ aCode
 return
 ;
 }
-#
-ifndef
-FUZZING
 KillHard
 (
 aReason
 )
 ;
-#
-endif
 }
 bool
 ContentParent

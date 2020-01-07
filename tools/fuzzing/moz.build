@@ -103,9 +103,6 @@ interface
 '
 registry
 '
-'
-ipc
-'
 ]
 if
 not
