@@ -1286,7 +1286,7 @@ size
 )
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -1371,7 +1371,7 @@ bytes_written_partial
 0
 )
 {
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -1397,7 +1397,7 @@ bytes_written_total
 size
 )
 ;
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -1792,7 +1792,7 @@ bytes_read
 }
 if
 (
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
@@ -1808,7 +1808,7 @@ false
 ;
 if
 (
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (

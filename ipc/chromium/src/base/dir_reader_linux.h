@@ -149,7 +149,7 @@ fd_
 {
 if
 (
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (

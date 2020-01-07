@@ -568,7 +568,7 @@ int
 fd
 )
 {
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (

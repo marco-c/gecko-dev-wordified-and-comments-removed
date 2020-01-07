@@ -724,7 +724,7 @@ process
 }
 #
 else
-HANDLE_EINTR
+IGNORE_EINTR
 (
 close
 (
