@@ -902,7 +902,7 @@ wait_for_quit
 self
 timeout
 =
-75
+15
 )
 :
         
