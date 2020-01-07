@@ -5059,7 +5059,6 @@ n
 GetFlatThreadAnnotation
 (
 getThreadAnnotationCB
-false
 )
 ;
 }
@@ -5864,7 +5863,6 @@ n
 GetFlatThreadAnnotation
 (
 getThreadAnnotationCB
-true
 )
 ;
 }
