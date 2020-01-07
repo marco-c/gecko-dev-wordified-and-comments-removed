@@ -21,11 +21,15 @@ clang
 -
 windows
 -
-helper32
+helper64
 .
 sh
 clang
 -
-win32
+win64
+-
+st
+-
+an
 .
 json

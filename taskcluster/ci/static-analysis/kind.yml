@@ -537,6 +537,10 @@ clang
 -
 cl
 -
+st
+-
+an
+-
 win32
 -
 rust
@@ -706,6 +710,10 @@ win32
 clang
 -
 cl
+-
+st
+-
+an
 -
 win32
 -
@@ -877,6 +885,10 @@ clang
 -
 cl
 -
+st
+-
+an
+-
 win64
 -
 rust
@@ -1046,6 +1058,10 @@ win64
 clang
 -
 cl
+-
+st
+-
+an
 -
 win64
 -
