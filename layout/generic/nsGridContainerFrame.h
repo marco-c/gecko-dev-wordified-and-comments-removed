@@ -1005,16 +1005,6 @@ NS_STATE_GRID_HAS_COL_SUBGRID_ITEM
 static
 nsGridContainerFrame
 *
-GetGridContainerFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
-nsGridContainerFrame
-*
 GetGridFrameWithComputedInfo
 (
 nsIFrame
