@@ -330,6 +330,9 @@ bool
 spectreStringMitigations
 ;
 bool
+spectreValueMasking
+;
+bool
 disableUnboxedObjects
 ;
 DefaultJitOptions

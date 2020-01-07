@@ -807,6 +807,12 @@ true
 ;
 SET_DEFAULT
 (
+spectreValueMasking
+true
+)
+;
+SET_DEFAULT
+(
 disableUnboxedObjects
 false
 )
