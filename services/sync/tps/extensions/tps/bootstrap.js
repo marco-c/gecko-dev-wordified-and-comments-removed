@@ -700,6 +700,7 @@ newURI
 (
 "
 resource
+/
 "
 null
 data
