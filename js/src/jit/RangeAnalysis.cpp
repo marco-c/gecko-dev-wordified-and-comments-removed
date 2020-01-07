@@ -2771,7 +2771,7 @@ if
 def
 -
 >
-isToInt32
+isToNumberInt32
 (
 )
 )
@@ -9223,7 +9223,7 @@ output
 ;
 }
 void
-MToInt32
+MToNumberInt32
 :
 :
 computeRange
@@ -14445,7 +14445,7 @@ block
 ;
 inner
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -15341,7 +15341,7 @@ isTruncateToInt32
 def
 -
 >
-isToInt32
+isToNumberInt32
 (
 )
 )
@@ -15523,7 +15523,7 @@ TruncateAfterBailouts
 )
 op
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -16893,7 +16893,7 @@ false
 ;
 }
 void
-MToInt32
+MToNumberInt32
 :
 :
 collectRangeInfoPreTrunc

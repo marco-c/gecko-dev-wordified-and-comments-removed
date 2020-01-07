@@ -18580,11 +18580,11 @@ MIRType
 Int32
 )
 {
-MToInt32
+auto
 *
 toInt
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -42907,7 +42907,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -45149,7 +45149,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -45382,7 +45382,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -45841,7 +45841,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -46753,7 +46753,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -47893,7 +47893,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -50192,7 +50192,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -50741,7 +50741,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -69967,7 +69967,7 @@ MInstruction
 *
 idInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New

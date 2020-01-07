@@ -10944,7 +10944,7 @@ MInstruction
 *
 index
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -11696,7 +11696,7 @@ MInstruction
 *
 index
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -18596,11 +18596,11 @@ setImplicitlyUsedUnchecked
 (
 )
 ;
-MToInt32
+auto
 *
 toInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New
@@ -25064,7 +25064,7 @@ MInstruction
 *
 indexAsInt32
 =
-MToInt32
+MToNumberInt32
 :
 :
 New

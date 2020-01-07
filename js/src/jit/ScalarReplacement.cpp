@@ -4540,7 +4540,7 @@ if
 indexDef
 -
 >
-isToInt32
+isToNumberInt32
 (
 )
 )
@@ -4549,7 +4549,7 @@ indexDef
 indexDef
 -
 >
-toToInt32
+toToNumberInt32
 (
 )
 -

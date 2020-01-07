@@ -23837,7 +23837,7 @@ None
 }
 ;
 class
-MToInt32
+MToNumberInt32
 :
 public
 MUnaryInstruction
@@ -23857,7 +23857,7 @@ IntConversionInputKind
 conversion_
 ;
 explicit
-MToInt32
+MToNumberInt32
 (
 MDefinition
 *
@@ -23934,7 +23934,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-ToInt32
+ToNumberInt32
 )
 TRIVIAL_NEW_WRAPPERS
 MDefinition
@@ -24005,7 +24005,7 @@ if
 ins
 -
 >
-isToInt32
+isToNumberInt32
 (
 )
 |
@@ -24013,7 +24013,7 @@ isToInt32
 ins
 -
 >
-toToInt32
+toToNumberInt32
 (
 )
 -
@@ -24089,7 +24089,7 @@ true
 endif
 ALLOW_CLONE
 (
-MToInt32
+MToNumberInt32
 )
 }
 ;
