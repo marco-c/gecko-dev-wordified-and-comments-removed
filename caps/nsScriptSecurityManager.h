@@ -257,16 +257,6 @@ JSPrincipals
 second
 )
 ;
-static
-nsIPrincipal
-*
-doGetObjectPrincipal
-(
-JSObject
-*
-obj
-)
-;
 nsresult
 Init
 (
