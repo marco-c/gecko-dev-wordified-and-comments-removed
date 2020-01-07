@@ -356,9 +356,10 @@ tooltool
 package
 .
 mk_add_options
+"
+export
 PATH
 =
-"
 TOOLTOOL_DIR
 /
 gcc
