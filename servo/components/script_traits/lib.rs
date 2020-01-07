@@ -3141,7 +3141,11 @@ String
 )
 -
 >
+Result
+<
 DrawAPaintImageResult
+PaintWorkletError
+>
 ;
 }
 impl
