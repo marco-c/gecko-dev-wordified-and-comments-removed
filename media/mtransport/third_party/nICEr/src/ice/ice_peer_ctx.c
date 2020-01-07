@@ -152,6 +152,8 @@ pstream
 char
 *
 candidate
+int
+trickled
 )
 ;
 static
@@ -872,6 +874,7 @@ attrs
 [
 i
 ]
+0
 )
 )
 {
@@ -975,6 +978,8 @@ pstream
 char
 *
 candidate
+int
+trickled
 )
 {
 nr_ice_candidate
@@ -1071,6 +1076,13 @@ R_BAD_DATA
 )
 ;
 }
+cand
+-
+>
+trickled
+=
+trickled
+;
 j
 =
 1
@@ -1651,6 +1663,7 @@ nr_ice_ctx_parse_candidate
 pctx
 pstream
 candidate
+1
 )
 )
 {

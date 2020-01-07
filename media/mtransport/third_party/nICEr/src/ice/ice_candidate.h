@@ -47,6 +47,9 @@ codeword
 int
 state
 ;
+int
+trickled
+;
 #
 define
 NR_ICE_CAND_STATE_CREATED

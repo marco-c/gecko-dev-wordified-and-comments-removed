@@ -147,6 +147,15 @@ std
 string
 codeword
 ;
+std
+:
+:
+string
+label
+;
+bool
+trickled
+;
 }
 ;
 struct
