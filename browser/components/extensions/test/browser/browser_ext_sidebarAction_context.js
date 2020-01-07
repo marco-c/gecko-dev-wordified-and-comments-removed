@@ -4486,12 +4486,8 @@ data
 +
 "
 is
-cleared
-(
-bug
-1451176
-)
-and
+preserved
+but
 inheritance
 is
 from
@@ -4546,7 +4542,10 @@ true
 ;
 expect
 (
-null
+details
+[
+3
+]
 details
 [
 2

@@ -344,15 +344,9 @@ TabContext
 tab
 =
 >
-Object
-.
-create
-(
 this
 .
 defaults
-)
-extension
 )
 ;
 this
