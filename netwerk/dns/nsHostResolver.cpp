@@ -6975,6 +6975,17 @@ mDefaultCacheLifetime
 if
 (
 sGetTtlEnabled
+|
+|
+rec
+-
+>
+addr_info
+-
+>
+IsTRR
+(
+)
 )
 {
 if
