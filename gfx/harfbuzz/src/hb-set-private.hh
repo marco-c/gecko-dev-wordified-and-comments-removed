@@ -1253,8 +1253,15 @@ if
 unlikely
 (
 in_error
-|
-|
+)
+)
+return
+true
+;
+if
+(
+unlikely
+(
 a
 >
 b
@@ -1630,7 +1637,7 @@ in_error
 )
 )
 return
-false
+true
 ;
 if
 (
