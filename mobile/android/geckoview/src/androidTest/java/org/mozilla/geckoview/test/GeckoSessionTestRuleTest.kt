@@ -265,6 +265,18 @@ util
 .
 Callbacks
 import
+org
+.
+mozilla
+.
+geckoview
+.
+test
+.
+util
+.
+UiThreadUtils
+import
 android
 .
 support
@@ -578,6 +590,8 @@ Test
 (
 expected
 =
+UiThreadUtils
+.
 TimeoutException
 :
 :
@@ -5131,6 +5145,8 @@ Test
 (
 expected
 =
+UiThreadUtils
+.
 TimeoutException
 :
 :
@@ -7593,6 +7609,8 @@ Test
 (
 expected
 =
+UiThreadUtils
+.
 TimeoutException
 :
 :
