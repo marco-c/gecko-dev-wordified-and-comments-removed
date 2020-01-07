@@ -226,6 +226,12 @@ initialization
 "
 )
 ;
+reporter
+.
+uninit
+(
+)
+;
 }
 )
 ;
