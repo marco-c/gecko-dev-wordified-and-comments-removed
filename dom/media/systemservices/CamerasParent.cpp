@@ -337,6 +337,7 @@ if
 (
 candidate
 >
+=
 requested
 )
 {
