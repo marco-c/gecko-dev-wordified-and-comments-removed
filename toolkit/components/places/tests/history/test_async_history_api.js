@@ -463,15 +463,6 @@ aTitle
 )
 {
 let
-stack
-=
-Components
-.
-stack
-.
-caller
-;
-let
 stmt
 =
 DBConn
@@ -518,7 +509,6 @@ stmt
 executeStep
 (
 )
-stack
 )
 ;
 Assert
@@ -531,7 +521,6 @@ row
 .
 title
 aTitle
-stack
 )
 ;
 stmt
