@@ -54,7 +54,9 @@ vector
 #
 include
 "
-woff2_dec
+woff2
+/
+decode
 .
 h
 "

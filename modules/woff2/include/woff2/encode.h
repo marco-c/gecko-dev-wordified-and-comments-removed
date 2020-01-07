@@ -23,12 +23,6 @@ include
 <
 string
 >
-using
-std
-:
-:
-string
-;
 namespace
 woff2
 {
@@ -54,6 +48,9 @@ true
 )
 {
 }
+std
+:
+:
 string
 extended_metadata
 ;
@@ -86,6 +83,9 @@ data
 size_t
 length
 const
+std
+:
+:
 string
 &
 extended_metadata

@@ -14,13 +14,13 @@ h
 "
 #
 include
-"
-.
+<
+woff2
 /
-woff2_dec
+decode
 .
 h
-"
+>
 int
 main
 (

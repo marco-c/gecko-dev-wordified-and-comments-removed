@@ -12,13 +12,13 @@ h
 "
 #
 include
-"
-.
+<
+woff2
 /
-woff2_enc
+encode
 .
 h
-"
+>
 int
 main
 (
