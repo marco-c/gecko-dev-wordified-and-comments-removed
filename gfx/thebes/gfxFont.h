@@ -432,9 +432,13 @@ style
 ;
 uint8_t
 variantCaps
+:
+4
 ;
 uint8_t
 variantSubSuper
+:
+4
 ;
 bool
 systemFont
