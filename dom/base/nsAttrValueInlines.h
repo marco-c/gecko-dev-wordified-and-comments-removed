@@ -71,7 +71,7 @@ uintptr_t
 mozilla
 :
 :
-Relaxed
+ReleaseAcquire
 >
 mStringBits
 ;
