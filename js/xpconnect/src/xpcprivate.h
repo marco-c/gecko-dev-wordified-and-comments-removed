@@ -10093,6 +10093,11 @@ messageChannel
 1
 ;
 bool
+ChromeUtils
+:
+1
+;
+bool
 inspectorUtils
 :
 1
