@@ -2835,6 +2835,14 @@ weight
 ;
 SERVO_BINDING_FUNC
 (
+Servo_ResolveLogicalProperty
+nsCSSPropertyID
+nsCSSPropertyID
+ComputedStyleBorrowed
+)
+;
+SERVO_BINDING_FUNC
+(
 Servo_Property_IsShorthand
 bool
 const
