@@ -15114,8 +15114,6 @@ nsNavHistoryQueryOptions
 >
 &
 aOptions
-bool
-aBatchInProgress
 )
 :
 mRootNode
@@ -15156,7 +15154,7 @@ mBookmarkFolderObservers
 )
 mBatchInProgress
 (
-aBatchInProgress
+false
 )
 mSuppressNotifications
 (
