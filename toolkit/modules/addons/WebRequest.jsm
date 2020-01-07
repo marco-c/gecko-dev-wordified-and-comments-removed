@@ -1119,7 +1119,7 @@ target
 =
 =
 "
-XULElement
+XULFrameElement
 "
 ?
 msg

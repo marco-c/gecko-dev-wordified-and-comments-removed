@@ -1053,6 +1053,13 @@ cfmm
 =
 wn
 .
+QueryInterface
+(
+Ci
+.
+nsIInterfaceRequestor
+)
+.
 getInterface
 (
 Ci

@@ -313,6 +313,11 @@ WebExtensionPolicy
 .
 webidl
 '
+'
+XULFrameElement
+.
+webidl
+'
 ]
 if
 CONFIG

@@ -186,6 +186,11 @@ dom
 =
 [
 '
+XULFrameElement
+.
+h
+'
+'
 XULPopupElement
 .
 h
@@ -237,6 +242,11 @@ cpp
 '
 '
 XULDocument
+.
+cpp
+'
+'
+XULFrameElement
 .
 cpp
 '

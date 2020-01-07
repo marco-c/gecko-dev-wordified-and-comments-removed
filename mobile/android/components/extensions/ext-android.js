@@ -53,7 +53,7 @@ target
 =
 =
 "
-XULElement
+XULFrameElement
 "
 )
 {
