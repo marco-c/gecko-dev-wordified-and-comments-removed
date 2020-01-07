@@ -31,6 +31,14 @@ head
 list
 >
 <
+string
+>
+Nested_1
+<
+/
+string
+>
+<
 /
 list
 >
@@ -41,14 +49,6 @@ list
 string
 >
 BUGNUMBER
-<
-/
-string
->
-<
-string
->
-Nested_1
 <
 /
 string
@@ -783,7 +783,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -795,7 +794,6 @@ tuple
 <
 list
 >
-w
 <
 tuple
 >
@@ -1090,7 +1088,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1266,7 +1263,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1278,7 +1274,6 @@ tuple
 <
 list
 >
-K
 <
 tuple
 >
@@ -1331,7 +1326,6 @@ tuple
 <
 list
 >
-a
 <
 tuple
 >
@@ -1523,7 +1517,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1541,36 +1535,9 @@ tuple
 <
 head
 >
-AssertedParameterScope
-parameterNames
-capturedNames
-hasDirectEval
 <
 /
 head
->
-<
-list
->
-!
-<
-string
->
-Nested_1
-<
-/
-string
->
-<
-/
-list
->
-<
-list
->
-<
-/
-list
 >
 <
 /
@@ -1582,7 +1549,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1641,7 +1607,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1677,7 +1642,6 @@ list
 <
 list
 >
-Z
 <
 tuple
 >
@@ -1711,7 +1675,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1723,7 +1686,6 @@ tuple
 <
 list
 >
-/
 <
 tuple
 >
@@ -1757,7 +1719,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1833,7 +1794,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1876,7 +1836,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1964,7 +1923,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2007,7 +1965,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head

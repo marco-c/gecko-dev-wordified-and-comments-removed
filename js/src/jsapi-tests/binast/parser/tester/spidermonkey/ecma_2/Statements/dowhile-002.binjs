@@ -31,20 +31,19 @@ head
 list
 >
 <
-/
-list
->
-<
-list
->
-z
-<
 string
 >
 LabeledContinue
 <
 /
 string
+>
+<
+/
+list
+>
+<
+list
 >
 <
 string
@@ -103,7 +102,6 @@ list
 <
 list
 >
-'
 <
 tuple
 >
@@ -1141,7 +1139,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1169,15 +1167,6 @@ head
 >
 <
 list
->
-]
-<
-string
->
-LabeledContinue
-<
-/
-string
 >
 <
 string
@@ -1216,7 +1205,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1323,7 +1311,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1359,7 +1346,6 @@ list
 <
 list
 >
-k
 <
 tuple
 >
@@ -1635,7 +1621,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1695,7 +1680,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1906,7 +1890,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2045,7 +2028,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2589,7 +2571,6 @@ tuple
 <
 list
 >
-|
 <
 tuple
 >

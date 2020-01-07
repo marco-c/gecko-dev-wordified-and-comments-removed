@@ -110,7 +110,6 @@ list
 <
 list
 >
-"
 <
 tuple
 >
@@ -526,7 +525,6 @@ tuple
 <
 list
 >
-#
 <
 tuple
 >
@@ -944,7 +942,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -956,7 +953,6 @@ tuple
 <
 list
 >
-v
 <
 tuple
 >
@@ -1177,7 +1173,6 @@ tuple
 <
 list
 >
-_
 <
 tuple
 >
@@ -1518,7 +1513,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1530,7 +1524,6 @@ tuple
 <
 list
 >
-)
 <
 tuple
 >

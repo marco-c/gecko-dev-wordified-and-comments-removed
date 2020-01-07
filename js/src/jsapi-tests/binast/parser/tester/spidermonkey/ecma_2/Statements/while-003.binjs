@@ -31,13 +31,6 @@ head
 list
 >
 <
-/
-list
->
-<
-list
->
-<
 string
 >
 DoWhile
@@ -52,6 +45,13 @@ DoWhileObject
 <
 /
 string
+>
+<
+/
+list
+>
+<
+list
 >
 <
 string
@@ -110,7 +110,6 @@ list
 <
 list
 >
-4
 <
 tuple
 >
@@ -1077,7 +1076,6 @@ tuple
 <
 list
 >
-z
 <
 tuple
 >
@@ -1190,7 +1188,6 @@ tuple
 <
 list
 >
-D
 <
 tuple
 >
@@ -1316,7 +1313,6 @@ tuple
 <
 list
 >
-3
 <
 tuple
 >
@@ -1576,7 +1572,6 @@ tuple
 <
 list
 >
-'
 <
 tuple
 >
@@ -1749,7 +1744,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1777,15 +1772,6 @@ head
 >
 <
 list
->
-h
-<
-string
->
-DoWhileObject
-<
-/
-string
 >
 <
 string
@@ -1832,7 +1818,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1963,7 +1948,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2308,7 +2292,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2336,15 +2320,6 @@ head
 >
 <
 list
->
-;
-<
-string
->
-DoWhile
-<
-/
-string
 >
 <
 string
@@ -2449,7 +2424,6 @@ head
 <
 list
 >
-V
 <
 tuple
 >
@@ -2484,7 +2458,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -3464,7 +3437,6 @@ tuple
 <
 list
 >
-]
 <
 tuple
 >

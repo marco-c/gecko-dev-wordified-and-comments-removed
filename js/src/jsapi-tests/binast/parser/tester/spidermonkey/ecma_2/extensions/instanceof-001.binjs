@@ -31,13 +31,6 @@ head
 list
 >
 <
-/
-list
->
-<
-list
->
-<
 string
 >
 Gen0
@@ -92,6 +85,13 @@ InstanceOf
 <
 /
 string
+>
+<
+/
+list
+>
+<
+list
 >
 <
 string
@@ -150,7 +150,6 @@ list
 <
 list
 >
-s
 *
 <
 tuple
@@ -702,7 +701,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -730,15 +729,6 @@ head
 >
 <
 list
->
-x
-<
-string
->
-InstanceOf
-<
-/
-string
 >
 <
 string
@@ -785,7 +775,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -916,7 +905,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -952,7 +940,6 @@ list
 <
 list
 >
-U
 <
 tuple
 >
@@ -1136,7 +1123,6 @@ tuple
 <
 list
 >
-w
 <
 tuple
 >
@@ -1414,7 +1400,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -1442,15 +1428,6 @@ head
 >
 <
 list
->
-7
-<
-string
->
-Gen3
-<
-/
-string
 >
 <
 string
@@ -1481,7 +1458,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1530,7 +1506,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -1565,7 +1540,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1601,7 +1575,6 @@ list
 <
 list
 >
-&
 <
 tuple
 >
@@ -2196,7 +2169,6 @@ tuple
 <
 list
 >
-v
 <
 tuple
 >
@@ -2255,7 +2227,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2283,15 +2255,6 @@ head
 >
 <
 list
->
-7
-<
-string
->
-Gen2
-<
-/
-string
 >
 <
 string
@@ -2322,7 +2285,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2371,7 +2333,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -2406,7 +2367,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2874,7 +2834,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -2902,15 +2862,6 @@ head
 >
 <
 list
->
-7
-<
-string
->
-Gen1
-<
-/
-string
 >
 <
 string
@@ -2941,7 +2892,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -2990,7 +2940,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -3025,7 +2974,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -3495,7 +3443,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -3523,15 +3471,6 @@ head
 >
 <
 list
->
-7
-<
-string
->
-Gen0
-<
-/
-string
 >
 <
 string
@@ -3562,7 +3501,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -3611,7 +3549,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -3646,7 +3583,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -4114,7 +4050,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -4142,15 +4078,6 @@ head
 >
 <
 list
->
-7
-<
-string
->
-GenA
-<
-/
-string
 >
 <
 string
@@ -4181,7 +4108,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -4230,7 +4156,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -4265,7 +4190,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -4301,7 +4225,6 @@ list
 <
 list
 >
-6
 <
 tuple
 >
@@ -4910,7 +4833,7 @@ tuple
 <
 head
 >
-FunctionDeclaration
+EagerFunctionDeclaration
 isAsync
 isGenerator
 parameterScope
@@ -4938,15 +4861,6 @@ head
 >
 <
 list
->
-7
-<
-string
->
-GenB
-<
-/
-string
 >
 <
 string
@@ -4977,7 +4891,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -5026,7 +4939,6 @@ head
 <
 list
 >
-U
 <
 tuple
 >
@@ -5061,7 +4973,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -5097,7 +5008,6 @@ list
 <
 list
 >
-6
 <
 tuple
 >
@@ -5905,7 +5815,6 @@ tuple
 <
 list
 >
-D
 <
 tuple
 >
@@ -6364,7 +6273,6 @@ tuple
 <
 list
 >
->
 <
 tuple
 >
@@ -6516,7 +6424,6 @@ tuple
 >
 <
 list
->
 >
 <
 tuple
@@ -6670,7 +6577,6 @@ tuple
 <
 list
 >
->
 <
 tuple
 >
@@ -6822,7 +6728,6 @@ tuple
 >
 <
 list
->
 >
 <
 tuple
@@ -6976,7 +6881,6 @@ tuple
 <
 list
 >
->
 <
 tuple
 >
@@ -7128,7 +7032,6 @@ tuple
 >
 <
 list
->
 >
 <
 tuple
@@ -7282,7 +7185,6 @@ tuple
 <
 list
 >
->
 <
 tuple
 >
@@ -7434,7 +7336,6 @@ tuple
 >
 <
 list
->
 >
 <
 tuple
@@ -7740,7 +7641,6 @@ tuple
 <
 list
 >
-B
 <
 tuple
 >

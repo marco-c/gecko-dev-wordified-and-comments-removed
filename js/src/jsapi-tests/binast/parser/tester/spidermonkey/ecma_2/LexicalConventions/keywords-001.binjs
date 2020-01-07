@@ -37,7 +37,6 @@ list
 <
 list
 >
-q
 <
 string
 >
@@ -671,7 +670,6 @@ tuple
 <
 list
 >
-z
 <
 tuple
 >
@@ -735,7 +733,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -747,7 +744,6 @@ tuple
 <
 list
 >
-G
 <
 tuple
 >
@@ -800,7 +796,6 @@ tuple
 <
 list
 >
-]
 <
 tuple
 >
@@ -851,7 +846,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -988,7 +982,6 @@ tuple
 <
 list
 >
-z
 <
 tuple
 >
@@ -1052,7 +1045,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1064,7 +1056,6 @@ tuple
 <
 list
 >
-G
 <
 tuple
 >
@@ -1117,7 +1108,6 @@ tuple
 <
 list
 >
-]
 <
 tuple
 >
@@ -1168,7 +1158,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1339,7 +1328,6 @@ tuple
 <
 list
 >
-D
 <
 tuple
 >
@@ -1392,7 +1380,6 @@ tuple
 <
 list
 >
-]
 <
 tuple
 >
@@ -1494,7 +1481,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1706,7 +1692,6 @@ tuple
 <
 head
 >
-_Null
 <
 /
 head
@@ -1787,7 +1772,6 @@ tuple
 <
 list
 >
-B
 <
 tuple
 >
