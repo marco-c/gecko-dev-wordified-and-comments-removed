@@ -1,0 +1,16 @@
+.
+.
+:
+changelog
+:
+.
+.
+include
+:
+:
+.
+.
+/
+CHANGES
+.
+rst
