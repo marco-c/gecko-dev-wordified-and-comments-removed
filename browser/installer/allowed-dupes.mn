@@ -281,7 +281,7 @@ content
 /
 dom
 /
-index
+dom
 .
 html
 browser
@@ -337,7 +337,7 @@ content
 /
 inspector
 /
-index
+inspector
 .
 xhtml
 browser
@@ -407,7 +407,7 @@ client
 /
 dom
 /
-index
+dom
 .
 html
 browser
@@ -479,7 +479,7 @@ client
 /
 inspector
 /
-index
+inspector
 .
 xhtml
 browser
@@ -1424,19 +1424,6 @@ classic
 global
 /
 richlistbox
-.
-css
-chrome
-/
-toolkit
-/
-skin
-/
-classic
-/
-global
-/
-scale
 .
 css
 chrome

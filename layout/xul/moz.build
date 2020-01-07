@@ -187,11 +187,6 @@ nsIListBoxObject
 .
 idl
 '
-'
-nsISliderListener
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

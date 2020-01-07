@@ -130,11 +130,6 @@ XULSelectControlAccessible
 cpp
 '
 '
-XULSliderAccessible
-.
-cpp
-'
-'
 XULTabAccessible
 .
 cpp
