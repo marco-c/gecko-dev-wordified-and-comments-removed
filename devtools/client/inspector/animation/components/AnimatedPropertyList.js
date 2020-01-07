@@ -534,6 +534,7 @@ map
 (
 (
 {
+isUnchanged
 keyframes
 name
 type
@@ -557,6 +558,7 @@ AnimatedPropertyItem
 (
 {
 getComputedStyle
+isUnchanged
 keyframes
 name
 simulateAnimation
