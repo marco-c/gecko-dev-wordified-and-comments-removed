@@ -2250,6 +2250,10 @@ locale
 message
 =
 message
+                               
+increment_return_code
+=
+False
 *
 *
 kwargs
