@@ -5,15 +5,19 @@ absolute_import
 import
 argparse
 import
-ConfigParser
-from
-StringIO
-import
-StringIO
-import
 os
 import
 re
+from
+six
+import
+StringIO
+from
+six
+.
+moves
+import
+configparser
 import
 sys
 import
@@ -201,7 +205,7 @@ section
         
 config
 =
-ConfigParser
+configparser
 .
 RawConfigParser
 (
