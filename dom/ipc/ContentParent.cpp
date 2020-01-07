@@ -9658,7 +9658,7 @@ prefsLen
 ContentPrefs
 :
 :
-GetContentPrefs
+GetEarlyPrefs
 (
 &
 prefsLen
@@ -9694,14 +9694,14 @@ strcmp
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 i
 )
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 i
 -
@@ -9722,7 +9722,7 @@ GetType
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 i
 )
@@ -9758,7 +9758,7 @@ GetInt
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 i
 )
@@ -9797,7 +9797,7 @@ GetBool
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 i
 )
@@ -9825,7 +9825,7 @@ GetCString
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 i
 )
@@ -9895,7 +9895,7 @@ GetType
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 i
 )

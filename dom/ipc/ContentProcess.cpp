@@ -762,11 +762,6 @@ intPrefs
 )
 )
 {
-SET_PREF_PHASE
-(
-BEGIN_INIT_PREFS
-)
-;
 char
 *
 str
@@ -858,7 +853,7 @@ nsCString
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 index
 )
@@ -878,11 +873,6 @@ pref
 )
 ;
 }
-SET_PREF_PHASE
-(
-END_INIT_PREFS
-)
-;
 foundIntPrefs
 =
 true
@@ -905,11 +895,6 @@ boolPrefs
 )
 )
 {
-SET_PREF_PHASE
-(
-BEGIN_INIT_PREFS
-)
-;
 char
 *
 str
@@ -997,7 +982,7 @@ nsCString
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 index
 )
@@ -1017,11 +1002,6 @@ pref
 )
 ;
 }
-SET_PREF_PHASE
-(
-END_INIT_PREFS
-)
-;
 foundBoolPrefs
 =
 true
@@ -1044,11 +1024,6 @@ stringPrefs
 )
 )
 {
-SET_PREF_PHASE
-(
-BEGIN_INIT_PREFS
-)
-;
 char
 *
 str
@@ -1143,7 +1118,7 @@ nsCString
 ContentPrefs
 :
 :
-GetContentPref
+GetEarlyPref
 (
 index
 )
@@ -1185,11 +1160,6 @@ str
 )
 ;
 }
-SET_PREF_PHASE
-(
-END_INIT_PREFS
-)
-;
 foundStringPrefs
 =
 true
@@ -1416,7 +1386,7 @@ break
 Preferences
 :
 :
-SetInitPreferences
+SetEarlyPreferences
 (
 &
 prefsArray
