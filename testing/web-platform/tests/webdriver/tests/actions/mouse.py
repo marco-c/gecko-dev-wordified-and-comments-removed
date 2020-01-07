@@ -9,7 +9,6 @@ support
 .
 mouse
 import
-assert_move_to_coordinates
 get_center
 from
 tests
@@ -22,6 +21,14 @@ refine
 import
 get_events
 filter_dict
+from
+tests
+.
+support
+.
+asserts
+import
+assert_move_to_coordinates
 from
 tests
 .
