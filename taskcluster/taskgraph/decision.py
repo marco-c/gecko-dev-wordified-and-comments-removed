@@ -41,6 +41,8 @@ from
 parameters
 import
 Parameters
+get_version
+get_app_version
 from
 .
 taskgraph
@@ -965,6 +967,28 @@ build_number
 ]
 =
 1
+    
+parameters
+[
+'
+version
+'
+]
+=
+get_version
+(
+)
+    
+parameters
+[
+'
+app_version
+'
+]
+=
+get_app_version
+(
+)
     
 parameters
 [
