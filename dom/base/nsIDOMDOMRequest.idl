@@ -124,6 +124,9 @@ mozIDOMWindow
 interface
 nsICursorContinueCallback
 ;
+webidl
+DOMRequest
+;
 [
 shim
 (
@@ -197,7 +200,7 @@ nsIDOMRequestService
 :
 nsISupports
 {
-nsIDOMDOMRequest
+DOMRequest
 createRequest
 (
 in
@@ -209,7 +212,7 @@ void
 fireSuccess
 (
 in
-nsIDOMDOMRequest
+DOMRequest
 request
 in
 jsval
@@ -220,7 +223,7 @@ void
 fireError
 (
 in
-nsIDOMDOMRequest
+DOMRequest
 request
 in
 DOMString
@@ -231,7 +234,7 @@ void
 fireSuccessAsync
 (
 in
-nsIDOMDOMRequest
+DOMRequest
 request
 in
 jsval
@@ -242,7 +245,7 @@ void
 fireErrorAsync
 (
 in
-nsIDOMDOMRequest
+DOMRequest
 request
 in
 DOMString
