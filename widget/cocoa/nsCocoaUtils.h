@@ -668,7 +668,9 @@ CGFloat
 )
 aRect
 .
-x
+X
+(
+)
 /
 aBackingScale
 (
@@ -676,7 +678,9 @@ CGFloat
 )
 aRect
 .
-y
+Y
+(
+)
 /
 aBackingScale
 (
@@ -684,7 +688,9 @@ CGFloat
 )
 aRect
 .
-width
+Width
+(
+)
 /
 aBackingScale
 (
@@ -692,7 +698,9 @@ CGFloat
 )
 aRect
 .
-height
+Height
+(
+)
 /
 aBackingScale
 )
