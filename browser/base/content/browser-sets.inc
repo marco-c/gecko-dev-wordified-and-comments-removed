@@ -1131,9 +1131,9 @@ ShowAllTabs
 oncommand
 =
 "
-allTabs
+gTabsPanel
 .
-open
+showAllTabsPanel
 (
 )
 ;
