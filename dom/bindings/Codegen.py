@@ -64069,6 +64069,10 @@ name
 bool
 "
 args
+                                        
+canRunScript
+=
+True
 )
     
 def

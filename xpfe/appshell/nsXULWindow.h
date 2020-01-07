@@ -752,6 +752,7 @@ mPrimaryTabParent
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 GetPrimaryTabParentSize
 (
