@@ -3,18 +3,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-android
--
-api
--
-16
-"
-    
-"
 locales_file
 "
 :
