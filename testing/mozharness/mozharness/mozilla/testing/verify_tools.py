@@ -996,6 +996,25 @@ in
 man
 :
             
+if
+type
+not
+in
+[
+"
+testharness
+"
+"
+reftest
+"
+"
+wdspec
+"
+]
+:
+                
+continue
+            
 repo_path
 =
 os
