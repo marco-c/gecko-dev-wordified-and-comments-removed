@@ -76,7 +76,7 @@ return
 uint32_t
 sp
 =
-pseudoStack_
+profilingStack_
 -
 >
 stackPointer
@@ -87,7 +87,7 @@ sp
 -
 1
 <
-pseudoStack_
+profilingStack_
 -
 >
 stackCapacity
@@ -104,7 +104,7 @@ sp
 ;
 MOZ_ASSERT
 (
-pseudoStack_
+profilingStack_
 -
 >
 frames
@@ -122,7 +122,7 @@ rawScript
 script
 )
 ;
-pseudoStack_
+profilingStack_
 -
 >
 frames
@@ -237,7 +237,7 @@ endif
 profiler_
 -
 >
-pseudoStack_
+profilingStack_
 -
 >
 pushSpMarkerFrame
@@ -248,7 +248,7 @@ this
 profiler_
 -
 >
-pseudoStack_
+profilingStack_
 -
 >
 pushJsFrame
@@ -294,7 +294,7 @@ return
 profiler_
 -
 >
-pseudoStack_
+profilingStack_
 -
 >
 pop
@@ -304,7 +304,7 @@ pop
 profiler_
 -
 >
-pseudoStack_
+profilingStack_
 -
 >
 pop
@@ -397,7 +397,7 @@ endif
 profiler_
 -
 >
-pseudoStack_
+profilingStack_
 -
 >
 pushLabelFrame
@@ -432,7 +432,7 @@ return
 profiler_
 -
 >
-pseudoStack_
+profilingStack_
 -
 >
 pop

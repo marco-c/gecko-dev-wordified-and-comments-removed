@@ -32,13 +32,13 @@ Types
 h
 "
 class
-PseudoStack
+ProfilingStack
 ;
 namespace
 mozilla
 {
 typedef
-PseudoStack
+ProfilingStack
 *
 (
 *
@@ -63,7 +63,7 @@ void
 ProfilerLabelExit
 )
 (
-PseudoStack
+ProfilingStack
 *
 )
 ;
@@ -109,9 +109,9 @@ AutoProfilerLabel
 private
 :
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
-PseudoStack
+ProfilingStack
 *
-mPseudoStack
+mProfilingStack
 ;
 }
 ;

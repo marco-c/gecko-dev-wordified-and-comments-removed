@@ -43,11 +43,11 @@ using
 namespace
 js
 ;
-PseudoStack
+ProfilingStack
 :
 :
 ~
-PseudoStack
+ProfilingStack
 (
 )
 {
@@ -66,7 +66,7 @@ frames
 ;
 }
 bool
-PseudoStack
+ProfilingStack
 :
 :
 ensureCapacitySlow

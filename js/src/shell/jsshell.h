@@ -727,7 +727,7 @@ outFilePtr
 ;
 UniquePtr
 <
-PseudoStack
+ProfilingStack
 >
 geckoProfilingStack
 ;

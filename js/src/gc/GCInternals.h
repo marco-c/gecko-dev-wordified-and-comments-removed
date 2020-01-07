@@ -163,7 +163,7 @@ HeapState
 prevState
 ;
 AutoGeckoProfilerEntry
-pseudoFrame
+profilingStackFrame
 ;
 }
 ;

@@ -28,8 +28,8 @@ JSContext
 h
 "
 static
-PseudoStack
-pseudoStack
+ProfilingStack
+profilingStack
 ;
 static
 uint32_t
@@ -46,7 +46,7 @@ JSContext
 cx
 )
 {
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -126,7 +126,7 @@ vp
 {
 peakStackPointer
 =
-pseudoStack
+profilingStack
 .
 stackPointer
 ;
@@ -390,7 +390,7 @@ SetContextProfilingStack
 (
 cx
 &
-pseudoStack
+profilingStack
 )
 ;
 JS
@@ -657,7 +657,7 @@ rval
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -724,7 +724,7 @@ rval
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -833,7 +833,7 @@ peakStackPointer
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -1099,7 +1099,7 @@ rval
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -1163,7 +1163,7 @@ rval
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -1304,7 +1304,7 @@ ok
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -1475,7 +1475,7 @@ rval
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -1595,7 +1595,7 @@ rval
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -1677,7 +1677,7 @@ rval
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =
@@ -1818,7 +1818,7 @@ rval
 ;
 CHECK
 (
-pseudoStack
+profilingStack
 .
 stackPointer
 =

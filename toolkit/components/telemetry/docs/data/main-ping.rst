@@ -2761,10 +2761,8 @@ this
 section
 capture
 the
-C
-+
-+
-pseudostack
+label
+stack
 <
 https
 :
@@ -2792,7 +2790,7 @@ in_Profiler
 #
 Native_stack_vs
 .
-_Pseudo_stack
+_label_stack
 >
 _
 and
@@ -2954,7 +2952,8 @@ depth
 of
 the
 reported
-pseudostacks
+label
+stacks
 is
 limited
 to
