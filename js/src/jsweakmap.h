@@ -48,6 +48,15 @@ include
 "
 gc
 /
+DeletePolicy
+.
+h
+"
+#
+include
+"
+gc
+/
 StoreBuffer
 .
 h
