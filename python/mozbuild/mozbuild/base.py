@@ -4991,9 +4991,6 @@ activate_pipenv
 (
 self
 path
-args
-=
-None
 )
 :
         
@@ -5038,7 +5035,6 @@ virtualenv_manager
 activate_pipenv
 (
 path
-args
 )
 class
 MachCommandBase
