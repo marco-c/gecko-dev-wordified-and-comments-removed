@@ -1884,6 +1884,11 @@ animation
 :
 :
 update_style_for_animation
+:
+:
+<
+Self
+>
 (
 context
 running_animation
