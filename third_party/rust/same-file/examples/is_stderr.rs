@@ -100,16 +100,13 @@ stderr
 let
 stderr_handle
 =
-try
-!
-(
 Handle
 :
 :
 stderr
 (
 )
-)
+?
 ;
 for
 candidate
@@ -119,9 +116,6 @@ candidates
 let
 handle
 =
-try
-!
-(
 Handle
 :
 :
@@ -129,7 +123,7 @@ from_path
 (
 candidate
 )
-)
+?
 ;
 if
 stderr_handle

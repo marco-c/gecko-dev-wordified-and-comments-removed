@@ -240,7 +240,7 @@ dependencies
 walkdir
 =
 "
-1
+2
 "
 #
 #
@@ -525,7 +525,6 @@ walkdir
 {
 DirEntry
 WalkDir
-WalkDirIterator
 }
 ;
 fn
