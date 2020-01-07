@@ -1075,7 +1075,8 @@ outNumTestsFailed
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 StartOperation
 (
 EditAction
@@ -1088,7 +1089,8 @@ aDirection
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 EndOperation
 (
 )
@@ -1149,7 +1151,8 @@ aNode2
 )
 override
 ;
-NS_IMETHOD
+virtual
+nsresult
 DeleteSelectionImpl
 (
 EDirection
