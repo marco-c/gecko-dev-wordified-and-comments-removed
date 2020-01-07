@@ -2132,7 +2132,7 @@ UpdateStreamOrder
 {
 MOZ_ASSERT
 (
-OnGraphThreadOrNotRunning
+OnGraphThread
 (
 )
 )
@@ -3039,7 +3039,7 @@ aStream
 {
 MOZ_ASSERT
 (
-OnGraphThreadOrNotRunning
+OnGraphThread
 (
 )
 )
