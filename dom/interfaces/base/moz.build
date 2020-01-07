@@ -149,11 +149,6 @@ nsIDOMChromeWindow
 idl
 '
 '
-nsIDOMClientRect
-.
-idl
-'
-'
 nsIDOMConstructor
 .
 idl

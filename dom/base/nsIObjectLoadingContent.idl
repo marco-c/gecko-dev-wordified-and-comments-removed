@@ -116,9 +116,6 @@ interface
 nsIDOMElement
 ;
 interface
-nsIDOMClientRect
-;
-interface
 nsIURI
 ;
 %

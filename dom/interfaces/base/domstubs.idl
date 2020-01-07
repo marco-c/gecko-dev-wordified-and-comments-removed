@@ -163,9 +163,6 @@ nsIDOMProcessingInstruction
 interface
 nsIDOMText
 ;
-interface
-nsIDOMClientRect
-;
 /
 /
 Needed
