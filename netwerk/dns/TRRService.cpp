@@ -1700,6 +1700,7 @@ get
 if
 (
 (
+(
 mConfirmationState
 =
 =
@@ -1720,6 +1721,15 @@ mMode
 =
 =
 MODE_TRRONLY
+)
+)
+|
+|
+(
+mConfirmationState
+=
+=
+CONFIRM_FAILED
 )
 )
 {
