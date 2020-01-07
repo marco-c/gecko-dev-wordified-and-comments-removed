@@ -6941,22 +6941,6 @@ get_timeout_for_category
 suite_category
 )
                 
-if
-self
-.
-per_test_coverage
-:
-                    
-gcov_dir
-jsvm_dir
-=
-self
-.
-set_coverage_env
-(
-env
-)
-                
 for
 per_test_args
 in
@@ -7127,29 +7111,20 @@ self
 per_test_coverage
 :
                         
-grcov_file
-jsvm_file
-=
 self
 .
-parse_coverage_artifacts
+add_per_test_coverage_report
 (
+                            
 gcov_dir
 jsvm_dir
-)
+suite
+per_test_args
+[
+-
+1
+]
                         
-shutil
-.
-rmtree
-(
-gcov_dir
-)
-                        
-shutil
-.
-rmtree
-(
-jsvm_dir
 )
                     
 success_codes
