@@ -198,7 +198,12 @@ simple1
 id
 )
 .
+get
+(
+"
 loadedState
+"
+)
 "
 loading
 "

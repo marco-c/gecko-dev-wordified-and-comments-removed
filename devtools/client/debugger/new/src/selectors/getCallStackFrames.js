@@ -408,7 +408,12 @@ isOriginalId
 (
 selectedSource
 .
+get
+(
+"
 id
+"
+)
 )
 ;
 return
@@ -432,6 +437,10 @@ getSourceForFrame
 sources
 frame
 isGeneratedSource
+)
+.
+toJS
+(
 )
 }
 )

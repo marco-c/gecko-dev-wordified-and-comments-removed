@@ -460,7 +460,7 @@ source
 0
 _selectors
 .
-getSourceFromId
+getSource
 )
 (
 getState
@@ -498,7 +498,7 @@ generatedSource
 0
 _selectors
 .
-getSourceFromId
+getSource
 )
 (
 getState

@@ -374,7 +374,7 @@ source
 0
 _selectors
 .
-getSourceFromId
+getSource
 )
 (
 getState

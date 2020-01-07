@@ -1373,7 +1373,7 @@ actor
 type
 :
 "
-skipBreakpoints
+skipPausing
 "
 }
 )

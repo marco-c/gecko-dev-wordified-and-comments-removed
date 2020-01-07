@@ -32,7 +32,7 @@ const
 selectors
 :
 {
-getSourceCount
+getSources
 }
 getState
 }
@@ -86,12 +86,14 @@ dbg
 ;
 is
 (
-getSourceCount
+getSources
 (
 getState
 (
 )
 )
+.
+size
 1
 "
 Only

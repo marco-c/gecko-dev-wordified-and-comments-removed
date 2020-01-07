@@ -279,7 +279,12 @@ selectedSourceId
 =
 selectedSource
 .
+get
+(
+"
 id
+"
+)
 ;
 const
 startLine

@@ -497,11 +497,15 @@ getState
 )
 sourceId
 )
+.
+toJS
+(
+)
 ;
 if
 (
 !
-source
+sourceMaps
 |
 |
 !
@@ -633,7 +637,7 @@ source
 0
 _selectors
 .
-getSourceFromId
+getSource
 )
 (
 getState
@@ -794,7 +798,7 @@ source
 0
 _selectors
 .
-getSourceFromId
+getSource
 )
 (
 getState
@@ -818,7 +822,12 @@ getState
 )
 source
 .
+get
+(
+"
 url
+"
+)
 )
 ;
 if

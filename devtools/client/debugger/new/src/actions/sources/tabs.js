@@ -284,7 +284,12 @@ removeDocument
 (
 source
 .
+get
+(
+"
 id
+"
+)
 )
 ;
 }
