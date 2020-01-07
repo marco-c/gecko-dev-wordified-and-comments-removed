@@ -189,12 +189,6 @@ profiler
 *
 *
 "
-"
-xpcom
-/
-*
-*
-"
 ]
 "
 rules
