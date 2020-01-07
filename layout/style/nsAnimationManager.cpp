@@ -1011,13 +1011,13 @@ AppendElement
 (
 AnimationEventInfo
 (
+mAnimationName
 mOwningElement
 .
 Target
 (
 )
 aMessage
-mAnimationName
 elapsedTime
 aTimeStamp
 this
