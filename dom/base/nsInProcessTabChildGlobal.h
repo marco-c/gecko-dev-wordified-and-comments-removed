@@ -605,9 +605,9 @@ mIsBrowserFrame
 bool
 mPreventEventsEscaping
 ;
-nsCOMPtr
+RefPtr
 <
-nsIFrameLoader
+nsFrameLoader
 >
 mFrameLoader
 ;

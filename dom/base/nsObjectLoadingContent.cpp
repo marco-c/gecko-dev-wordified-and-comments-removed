@@ -5228,7 +5228,7 @@ nsObjectLoadingContent
 :
 InternalSetFrameLoader
 (
-nsIFrameLoader
+nsFrameLoader
 *
 aNewFrameLoader
 )

@@ -7476,7 +7476,7 @@ nsXULElement
 :
 InternalSetFrameLoader
 (
-nsIFrameLoader
+nsFrameLoader
 *
 aNewFrameLoader
 )
@@ -7499,7 +7499,10 @@ slots
 >
 mFrameLoaderOrOpener
 =
+ToSupports
+(
 aNewFrameLoader
+)
 ;
 }
 void

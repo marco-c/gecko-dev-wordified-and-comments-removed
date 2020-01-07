@@ -2928,7 +2928,7 @@ GetFrameLoader
 void
 InternalSetFrameLoader
 (
-nsIFrameLoader
+nsFrameLoader
 *
 aNewFrameLoader
 )

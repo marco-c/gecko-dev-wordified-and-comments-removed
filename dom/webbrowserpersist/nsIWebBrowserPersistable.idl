@@ -180,7 +180,7 @@ be
 *
 merged
 into
-nsIFrameLoader
+nsFrameLoader
 .
 See
 bug
