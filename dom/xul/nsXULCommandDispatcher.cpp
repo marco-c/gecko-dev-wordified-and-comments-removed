@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsRDFCID
-.
-h
-"
-#
-include
-"
 nsXULCommandDispatcher
 .
 h

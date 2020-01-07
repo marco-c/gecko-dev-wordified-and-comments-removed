@@ -80,13 +80,6 @@ endif
 #
 include
 "
-rdf
-.
-h
-"
-#
-include
-"
 nsFeedSniffer
 .
 h
