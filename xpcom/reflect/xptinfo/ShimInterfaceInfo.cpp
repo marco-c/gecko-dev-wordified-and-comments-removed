@@ -398,13 +398,6 @@ h
 #
 include
 "
-nsIDOMRect
-.
-h
-"
-#
-include
-"
 nsIDOMScreen
 .
 h
@@ -2008,10 +2001,6 @@ ProcessingInstruction
 DEFINE_SHIM
 (
 Range
-)
-DEFINE_SHIM
-(
-Rect
 )
 DEFINE_SHIM
 (

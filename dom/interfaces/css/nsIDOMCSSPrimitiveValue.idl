@@ -416,14 +416,5 @@ raises
 DOMException
 )
 ;
-nsIDOMRect
-getRectValue
-(
-)
-raises
-(
-DOMException
-)
-;
 }
 ;

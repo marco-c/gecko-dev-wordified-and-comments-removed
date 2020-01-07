@@ -132,11 +132,6 @@ nsIDOMCSSValueList
 .
 idl
 '
-'
-nsIDOMRect
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

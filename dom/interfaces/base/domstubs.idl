@@ -254,9 +254,6 @@ nsIDOMCSSPrimitiveValue
 interface
 nsIDOMCSSStyleDeclaration
 ;
-interface
-nsIDOMRect
-;
 /
 /
 Range
