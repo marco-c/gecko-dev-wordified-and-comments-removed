@@ -159,4 +159,9 @@ errors
 "
 :
 2
+"
+use_minidump
+"
+:
+false
 }
