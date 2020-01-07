@@ -242,7 +242,7 @@ pippki
 /
 content
 /
-pippki
+downloadcert
 .
 js
 "
@@ -268,7 +268,7 @@ pippki
 /
 content
 /
-downloadcert
+pippki
 .
 js
 "
