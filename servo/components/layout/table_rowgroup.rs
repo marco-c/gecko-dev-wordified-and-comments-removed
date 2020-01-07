@@ -798,7 +798,7 @@ assign_block_size
 &
 mut
 self
-_
+lc
 :
 &
 LayoutContext
@@ -830,6 +830,7 @@ spacing
 vertical
 (
 )
+lc
 )
 ;
 }
