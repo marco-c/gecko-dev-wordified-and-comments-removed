@@ -313,13 +313,6 @@ uint32_t
 lifetime
 )
 ;
-void
-SSLInt_SetMaxEarlyDataSize
-(
-uint32_t
-size
-)
-;
 SECStatus
 SSLInt_SetSocketMaxEarlyDataSize
 (

@@ -923,6 +923,9 @@ sslOptionsStr
 SECItem
 nextProtoNego
 ;
+PRUint32
+maxEarlyDataSize
+;
 unsigned
 int
 useSecurity
@@ -2637,10 +2640,6 @@ ssl3_sid_timeout
 extern
 PRUint32
 ssl_ticket_lifetime
-;
-extern
-PRUint32
-ssl_max_early_data_size
 ;
 extern
 const
@@ -6137,7 +6136,7 @@ token
 #
 define
 SSLResumptionTokenVersion
-1
+2
 SEC_END_PROTOS
 #
 if

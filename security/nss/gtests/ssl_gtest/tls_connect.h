@@ -1085,6 +1085,16 @@ SetResumptionTokenCallback
 ;
 }
 }
+bool
+use_external_cache
+(
+)
+const
+{
+return
+external_cache_
+;
+}
 }
 ;
 class

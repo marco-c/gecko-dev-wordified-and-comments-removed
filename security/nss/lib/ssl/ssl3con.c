@@ -18512,6 +18512,10 @@ ssl_MapLowLevelError
 SSL_ERROR_DIGEST_FAILURE
 )
 ;
+rv
+=
+SECFailure
+;
 goto
 tls12_loser
 ;
@@ -18574,10 +18578,6 @@ ssl3_GetSuitePrfHash
 (
 ss
 )
-;
-rv
-=
-SECSuccess
 ;
 tls12_loser
 :
@@ -18775,6 +18775,10 @@ ssl_MapLowLevelError
 SSL_ERROR_MD5_DIGEST_FAILURE
 )
 ;
+rv
+=
+SECFailure
+;
 goto
 loser
 ;
@@ -18821,6 +18825,10 @@ ssl_MapLowLevelError
 (
 SSL_ERROR_SHA_DIGEST_FAILURE
 )
+;
+rv
+=
+SECFailure
 ;
 goto
 loser
@@ -19527,10 +19535,6 @@ len
 MD5_LENGTH
 +
 SHA1_LENGTH
-;
-rv
-=
-SECSuccess
 ;
 loser
 :
