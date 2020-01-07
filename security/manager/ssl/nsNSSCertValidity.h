@@ -68,9 +68,6 @@ aTime
 PRTimeParamFn
 aParamFn
 const
-mozilla
-:
-:
 nsTimeFormatSelector
 aTimeFormatSelector
 nsAString
