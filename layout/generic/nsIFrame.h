@@ -2412,6 +2412,15 @@ aComputedStyle
 =
 0
 ;
+already_AddRefed
+<
+ComputedStyle
+>
+ComputeSelectionStyle
+(
+)
+const
+;
 nsContainerFrame
 *
 GetParent
