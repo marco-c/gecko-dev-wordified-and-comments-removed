@@ -10047,7 +10047,7 @@ false
 ;
 #
 ifdef
-XP_LINUX
+MOZ_WIDGET_GTK
 pref
 (
 "
