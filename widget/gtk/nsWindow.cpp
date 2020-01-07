@@ -14034,6 +14034,9 @@ GDK_WINDOW_STATE_FULLSCREEN
 }
 if
 (
+mDrawInTitlebar
+&
+&
 mCSDSupportLevel
 =
 =
@@ -27768,10 +27771,16 @@ nsWindow
 this
 )
 ;
+if
+(
+aState
+)
+{
 UpdateClientOffsetForCSDWindow
 (
 )
 ;
+}
 gtk_widget_destroy
 (
 tmpWindow
