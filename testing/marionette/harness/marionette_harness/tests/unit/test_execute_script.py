@@ -2325,18 +2325,6 @@ send
 (
 "
 return
-(
-typeof
-Components
-=
-=
-'
-undefined
-'
-)
-|
-|
-(
 typeof
 Components
 .
@@ -2346,7 +2334,6 @@ utils
 '
 undefined
 '
-)
 "
 )
 )
