@@ -1693,14 +1693,14 @@ msg
 openWorkerToolbox
 (
 client
-workerActor
+workerTargetActor
 )
 {
 client
 .
 attachWorker
 (
-workerActor
+workerTargetActor
 (
 response
 workerClient

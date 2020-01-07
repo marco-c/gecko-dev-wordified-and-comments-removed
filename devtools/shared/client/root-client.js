@@ -416,7 +416,7 @@ url
 form
 .
 url
-workerActor
+workerTargetActor
 :
 form
 .
@@ -488,7 +488,7 @@ url
 }
 registration
 .
-workerActor
+workerTargetActor
 =
 form
 .

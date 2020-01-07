@@ -1585,7 +1585,7 @@ attachWorker
 :
 function
 (
-workerActor
+workerTargetActor
 onResponse
 =
 noop
@@ -1600,7 +1600,7 @@ _clients
 .
 get
 (
-workerActor
+workerTargetActor
 )
 ;
 if
@@ -1668,7 +1668,7 @@ request
 {
 to
 :
-workerActor
+workerTargetActor
 type
 :
 "

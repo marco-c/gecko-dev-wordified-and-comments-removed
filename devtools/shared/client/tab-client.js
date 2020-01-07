@@ -550,7 +550,7 @@ attachWorker
 :
 function
 (
-workerActor
+workerTargetActor
 onResponse
 )
 {
@@ -561,7 +561,7 @@ client
 .
 attachWorker
 (
-workerActor
+workerTargetActor
 onResponse
 )
 ;

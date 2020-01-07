@@ -192,7 +192,7 @@ PropTypes
 string
 .
 isRequired
-workerActor
+workerTargetActor
 :
 PropTypes
 .
@@ -249,7 +249,7 @@ openWorkerToolbox
 client
 target
 .
-workerActor
+workerTargetActor
 )
 ;
 }

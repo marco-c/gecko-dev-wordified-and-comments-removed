@@ -222,7 +222,7 @@ as
 a
 tab
 )
-WorkerActor
+WorkerTargetActor
 (
 for
 various
@@ -546,7 +546,7 @@ FrameTargetActorProxy
 |
 -
 -
-WorkerActor
+WorkerTargetActor
 (
 worker
 .

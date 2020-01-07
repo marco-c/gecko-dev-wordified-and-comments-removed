@@ -79,7 +79,7 @@ protocol
 ;
 const
 {
-workerSpec
+workerTargetSpec
 }
 =
 require
@@ -91,7 +91,7 @@ shared
 /
 specs
 /
-worker
+targets
 /
 worker
 "
@@ -132,13 +132,13 @@ nsIServiceWorkerManager
 )
 ;
 const
-WorkerActor
+WorkerTargetActor
 =
 protocol
 .
 ActorClassWithSpec
 (
-workerSpec
+workerTargetSpec
 {
 initialize
 (
@@ -918,7 +918,7 @@ false
 ;
 exports
 .
-WorkerActor
+WorkerTargetActor
 =
-WorkerActor
+WorkerTargetActor
 ;

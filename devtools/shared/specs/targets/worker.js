@@ -22,7 +22,7 @@ protocol
 )
 ;
 const
-workerSpec
+workerTargetSpec
 =
 generateActorSpec
 (
@@ -30,7 +30,7 @@ generateActorSpec
 typeName
 :
 "
-worker
+workerTarget
 "
 methods
 :
@@ -114,7 +114,7 @@ json
 ;
 exports
 .
-workerSpec
+workerTargetSpec
 =
-workerSpec
+workerTargetSpec
 ;

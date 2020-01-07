@@ -595,7 +595,7 @@ listWorkers
 )
 ;
 const
-workerActor
+workerTargetActor
 =
 workers
 .
@@ -620,7 +620,7 @@ actor
 if
 (
 !
-workerActor
+workerTargetActor
 )
 {
 console
@@ -659,7 +659,7 @@ tabClient
 .
 attachWorker
 (
-workerActor
+workerTargetActor
 )
 ;
 if

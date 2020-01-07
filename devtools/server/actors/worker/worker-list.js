@@ -43,7 +43,7 @@ lazyRequireGetter
 (
 this
 "
-WorkerActor
+WorkerTargetActor
 "
 "
 devtools
@@ -51,6 +51,8 @@ devtools
 server
 /
 actors
+/
+targets
 /
 worker
 "
@@ -224,7 +226,7 @@ true
 ;
 }
 function
-WorkerActorList
+WorkerTargetActorList
 (
 conn
 options
@@ -290,7 +292,7 @@ this
 )
 ;
 }
-WorkerActorList
+WorkerTargetActorList
 .
 prototype
 =
@@ -424,7 +426,7 @@ set
 (
 dbg
 new
-WorkerActor
+WorkerTargetActor
 (
 this
 .
@@ -727,9 +729,9 @@ _notifyListChanged
 ;
 exports
 .
-WorkerActorList
+WorkerTargetActorList
 =
-WorkerActorList
+WorkerTargetActorList
 ;
 function
 ServiceWorkerRegistrationActorList

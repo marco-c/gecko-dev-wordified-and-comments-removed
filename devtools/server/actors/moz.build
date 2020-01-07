@@ -437,11 +437,6 @@ window
 .
 js
 '
-'
-worker
-.
-js
-'
 )
 with
 Files

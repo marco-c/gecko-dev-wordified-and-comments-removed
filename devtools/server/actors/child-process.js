@@ -137,7 +137,7 @@ lazyRequireGetter
 (
 this
 "
-WorkerActorList
+WorkerTargetActorList
 "
 "
 devtools
@@ -375,7 +375,7 @@ null
 ;
 this
 .
-_workerActorPool
+_workerTargetActorPool
 =
 null
 ;
@@ -629,7 +629,7 @@ this
 _workerList
 =
 new
-WorkerActorList
+WorkerTargetActorList
 (
 this
 .
@@ -689,12 +689,12 @@ removeActorPool
 (
 this
 .
-_workerActorPool
+_workerTargetActorPool
 )
 ;
 this
 .
-_workerActorPool
+_workerTargetActorPool
 =
 pool
 ;
@@ -706,7 +706,7 @@ addActorPool
 (
 this
 .
-_workerActorPool
+_workerTargetActorPool
 )
 ;
 this

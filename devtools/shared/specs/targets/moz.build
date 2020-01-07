@@ -99,4 +99,9 @@ frame
 .
 js
 '
+'
+worker
+.
+js
+'
 )

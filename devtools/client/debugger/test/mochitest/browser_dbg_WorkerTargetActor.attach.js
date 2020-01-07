@@ -15,7 +15,7 @@ TAB1_URL
 EXAMPLE_URL
 +
 "
-doc_WorkerActor
+doc_WorkerTargetActor
 .
 attach
 -
@@ -30,7 +30,7 @@ TAB2_URL
 EXAMPLE_URL
 +
 "
-doc_WorkerActor
+doc_WorkerTargetActor
 .
 attach
 -
@@ -43,7 +43,7 @@ var
 WORKER1_URL
 =
 "
-code_WorkerActor
+code_WorkerTargetActor
 .
 attach
 -
@@ -56,7 +56,7 @@ var
 WORKER2_URL
 =
 "
-code_WorkerActor
+code_WorkerTargetActor
 .
 attach
 -

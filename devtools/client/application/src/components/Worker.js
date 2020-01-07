@@ -234,7 +234,7 @@ registrationActor
 PropTypes
 .
 string
-workerActor
+workerTargetActor
 :
 PropTypes
 .
@@ -348,7 +348,7 @@ openWorkerToolbox
 client
 worker
 .
-workerActor
+workerTargetActor
 )
 ;
 }
@@ -467,7 +467,7 @@ props
 .
 worker
 .
-workerActor
+workerTargetActor
 ;
 }
 isActive

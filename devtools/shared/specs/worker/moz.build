@@ -94,9 +94,4 @@ worker
 .
 js
 '
-'
-worker
-.
-js
-'
 )
