@@ -678,9 +678,9 @@ view
 setSession
 (
 session
-GeckoApplication
+GeckoRuntime
 .
-ensureRuntime
+getDefault
 (
 getContext
 (

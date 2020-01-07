@@ -1907,13 +1907,6 @@ Init
 (
 )
 ;
-GeckoAppShellSupport
-:
-:
-Init
-(
-)
-;
 java
 :
 :
