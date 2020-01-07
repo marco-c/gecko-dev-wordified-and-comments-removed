@@ -270,12 +270,6 @@ STATE_SEEK_TO_END
 }
 }
 Override
-SuppressWarnings
-(
-"
-fallthrough
-"
-)
 public
 long
 read

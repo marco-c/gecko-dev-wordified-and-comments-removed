@@ -650,6 +650,9 @@ archive
 :
 "
 +
+(
+String
+)
 content
 .
 getType

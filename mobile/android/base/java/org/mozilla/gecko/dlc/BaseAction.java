@@ -490,6 +490,9 @@ kind
 :
 "
 +
+(
+String
+)
 content
 .
 getKind

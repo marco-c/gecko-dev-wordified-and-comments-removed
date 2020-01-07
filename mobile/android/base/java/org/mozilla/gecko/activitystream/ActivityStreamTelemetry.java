@@ -1089,6 +1089,9 @@ type
 :
 "
 +
+(
+int
+)
 topSite
 .
 getType
