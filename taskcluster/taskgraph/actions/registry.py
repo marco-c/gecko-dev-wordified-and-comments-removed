@@ -2203,6 +2203,7 @@ task
 input
 callback
 parameters
+root
                             
 test
 =
@@ -2249,11 +2250,7 @@ graph_config
 =
 load_graph_config
 (
-"
-taskcluster
-/
-ci
-"
+root
 )
     
 callbacks
