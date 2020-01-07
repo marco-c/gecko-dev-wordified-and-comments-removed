@@ -29,6 +29,14 @@ xpcprivate
 .
 h
 "
+#
+ifdef
+XP_WIN
+#
+undef
+GetLocaleInfo
+#
+endif
 class
 nsPIDOMWindowInner
 ;
