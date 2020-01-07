@@ -7120,7 +7120,7 @@ code
 (
 )
 .
-lookupFuncIndex
+getFuncIndex
 (
 fun
 )
