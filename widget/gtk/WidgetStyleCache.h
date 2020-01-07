@@ -45,6 +45,15 @@ WidgetNodeType
 aNodeType
 )
 ;
+GdkPixbuf
+*
+GetWidgetIconPixbuf
+(
+GtkWidget
+*
+aWidgetIcon
+)
+;
 GtkStyleContext
 *
 CreateStyleForWidget
