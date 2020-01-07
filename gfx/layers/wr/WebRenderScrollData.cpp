@@ -28,6 +28,17 @@ include
 "
 mozilla
 /
+layers
+/
+WebRenderLayerManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layout
 /
 RenderFrameParent
