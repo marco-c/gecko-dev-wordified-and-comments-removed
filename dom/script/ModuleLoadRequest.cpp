@@ -117,7 +117,7 @@ ScriptLoadRequest
 ScriptKind
 :
 :
-Module
+eModule
 aURI
 aElement
 aValidJSVersion
@@ -169,7 +169,7 @@ ScriptLoadRequest
 ScriptKind
 :
 :
-Module
+eModule
 aURI
 aParent
 -
@@ -271,7 +271,7 @@ ScriptLoadRequest
 Progress
 :
 :
-Ready
+eReady
 ;
 CancelImports
 (

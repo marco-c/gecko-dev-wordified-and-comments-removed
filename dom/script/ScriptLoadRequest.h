@@ -93,8 +93,8 @@ enum
 class
 ScriptKind
 {
-Classic
-Module
+eClassic
+eModule
 }
 ;
 enum
@@ -103,8 +103,8 @@ ValidJSVersion
 :
 bool
 {
-Invalid
-Valid
+eInvalid
+eValid
 }
 ;
 class
@@ -204,7 +204,7 @@ mKind
 ScriptKind
 :
 :
-Module
+eModule
 ;
 }
 ModuleLoadRequest
@@ -344,11 +344,11 @@ Progress
 :
 uint8_t
 {
-Loading
-Loading_Source
-Compiling
-FetchingImports
-Ready
+eLoading
+eLoading_Source
+eCompiling
+eFetchingImports
+eReady
 }
 ;
 bool
@@ -364,7 +364,7 @@ mProgress
 Progress
 :
 :
-Ready
+eReady
 ;
 }
 bool
@@ -380,7 +380,7 @@ mProgress
 Progress
 :
 :
-Loading
+eLoading
 |
 |
 mProgress
@@ -389,7 +389,7 @@ mProgress
 Progress
 :
 :
-Loading_Source
+eLoading_Source
 ;
 }
 bool
@@ -405,7 +405,7 @@ mProgress
 Progress
 :
 :
-Loading_Source
+eLoading_Source
 ;
 }
 bool
@@ -421,7 +421,7 @@ mProgress
 Progress
 :
 :
-Compiling
+eCompiling
 |
 |
 (
@@ -440,9 +440,9 @@ DataType
 :
 uint8_t
 {
-Unknown
-Source
-Bytecode
+eUnknown
+eSource
+eBytecode
 }
 ;
 bool
@@ -458,7 +458,7 @@ mDataType
 DataType
 :
 :
-Unknown
+eUnknown
 ;
 }
 bool
@@ -474,7 +474,7 @@ mDataType
 DataType
 :
 :
-Source
+eSource
 ;
 }
 bool
@@ -490,7 +490,7 @@ mDataType
 DataType
 :
 :
-Bytecode
+eBytecode
 ;
 }
 enum
