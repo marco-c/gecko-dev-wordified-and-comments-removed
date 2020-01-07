@@ -1661,6 +1661,12 @@ mFirstHttpTransaction
 bool
 mTlsHandshakeFinished
 ;
+bool
+mCheckNetworkStallsWithTFO
+;
+PRIntervalTime
+mLastRequestBytesSentTime
+;
 private
 :
 void
