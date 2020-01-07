@@ -288,11 +288,6 @@ firstChild
 readonly
 attribute
 nsIDOMNode
-lastChild
-;
-readonly
-attribute
-nsIDOMNode
 previousSibling
 ;
 readonly
