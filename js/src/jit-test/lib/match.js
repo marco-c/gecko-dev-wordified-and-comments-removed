@@ -9,7 +9,7 @@ loadRelativeToScript
 /
 tests
 /
-js1_8_5
+non262
 /
 reflect
 -

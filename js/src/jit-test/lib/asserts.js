@@ -11,7 +11,7 @@ libdir
 /
 tests
 /
-ecma_6
+non262
 /
 shell
 .

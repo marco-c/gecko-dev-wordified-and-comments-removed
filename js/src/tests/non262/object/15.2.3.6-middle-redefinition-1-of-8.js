@@ -1,0 +1,17 @@
+loadRelativeToScript
+(
+"
+defineProperty
+-
+setup
+.
+js
+"
+)
+;
+runNonTerminalPropertyPresentTestsFraction
+(
+1
+8
+)
+;
