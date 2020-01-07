@@ -949,11 +949,14 @@ The
 result
 list
 is
+canonicalized
+and
 ordered
 according
 to
 the
 order
+*
 of
 the
 requested
