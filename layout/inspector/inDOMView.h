@@ -14,13 +14,6 @@ h
 #
 include
 "
-inIDOMUtils
-.
-h
-"
-#
-include
-"
 nsITreeView
 .
 h
@@ -123,12 +116,6 @@ nsCOMPtr
 nsITreeSelection
 >
 mSelection
-;
-nsCOMPtr
-<
-inIDOMUtils
->
-mDOMUtils
 ;
 bool
 mShowAnonymous

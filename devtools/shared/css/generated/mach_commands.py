@@ -20,7 +20,7 @@ xpcshell
 script
 that
 uses
-inIDOMUtils
+InspectorUtils
 to
 query
 the
