@@ -14105,6 +14105,9 @@ struct
 LenientThisPolicy
 ;
 struct
+CrossOriginThisPolicy
+;
+struct
 ThrowExceptions
 ;
 struct
