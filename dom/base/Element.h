@@ -3892,7 +3892,9 @@ GetClientAreaRect
 (
 )
 .
-y
+Y
+(
+)
 )
 ;
 }
@@ -3912,7 +3914,9 @@ GetClientAreaRect
 (
 )
 .
-x
+X
+(
+)
 )
 ;
 }
@@ -3989,7 +3993,9 @@ GetScrollRange
 (
 )
 .
-y
+Y
+(
+)
 )
 :
 0
@@ -4061,7 +4067,9 @@ GetScrollRange
 (
 )
 .
-x
+X
+(
+)
 )
 :
 0

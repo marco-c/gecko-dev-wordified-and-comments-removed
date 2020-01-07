@@ -8065,7 +8065,9 @@ AppUnitsToFloatCSSPixels
 (
 bounds
 .
-x
+X
+(
+)
 )
 nsPresContext
 :
@@ -8074,7 +8076,9 @@ AppUnitsToFloatCSSPixels
 (
 bounds
 .
-y
+Y
+(
+)
 )
 nsPresContext
 :

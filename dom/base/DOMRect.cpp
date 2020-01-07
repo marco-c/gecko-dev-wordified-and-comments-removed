@@ -509,7 +509,9 @@ RoundFloat
 (
 aLayoutRect
 .
-x
+X
+(
+)
 *
 t2pScaled
 )
@@ -523,7 +525,9 @@ RoundFloat
 (
 aLayoutRect
 .
-y
+Y
+(
+)
 *
 t2pScaled
 )

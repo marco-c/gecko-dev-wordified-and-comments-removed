@@ -15924,7 +15924,9 @@ char
 <
 aDragRect
 .
-height
+Height
+(
+)
 *
 aStride
 )
@@ -15950,10 +15952,14 @@ IntSize
 (
 aDragRect
 .
-width
+Width
+(
+)
 aDragRect
 .
-height
+Height
+(
+)
 )
 static_cast
 <

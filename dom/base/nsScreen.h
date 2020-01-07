@@ -156,7 +156,9 @@ rect
 return
 rect
 .
-y
+Y
+(
+)
 ;
 }
 int32_t
@@ -180,7 +182,9 @@ rect
 return
 rect
 .
-x
+X
+(
+)
 ;
 }
 int32_t
@@ -361,7 +365,9 @@ rect
 return
 rect
 .
-y
+Y
+(
+)
 ;
 }
 int32_t
@@ -385,7 +391,9 @@ rect
 return
 rect
 .
-x
+X
+(
+)
 ;
 }
 int32_t

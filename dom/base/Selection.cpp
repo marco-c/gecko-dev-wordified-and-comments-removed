@@ -9454,7 +9454,9 @@ abs
 (
 screen
 .
-x
+X
+(
+)
 -
 screenPoint
 .
@@ -9514,7 +9516,9 @@ abs
 (
 screen
 .
-y
+Y
+(
+)
 -
 screenPoint
 .
@@ -15160,11 +15164,12 @@ isText
 aRect
 -
 >
-x
-=
+MoveToX
+(
 pt
 .
 x
+)
 ;
 }
 else
@@ -15184,8 +15189,8 @@ CARET_ASSOCIATE_BEFORE
 aRect
 -
 >
-x
-=
+MoveToX
+(
 frame
 -
 >
@@ -15195,6 +15200,7 @@ GetRect
 .
 Width
 (
+)
 )
 ;
 }
