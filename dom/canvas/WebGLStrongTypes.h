@@ -156,16 +156,11 @@ public
 StrongGLenum
 (
 )
-#
-ifdef
-DEBUG
 :
 mValue
 (
 NonexistantGLenum
 )
-#
-endif
 {
 AssertOnceThatEnumValuesAreSorted
 (
