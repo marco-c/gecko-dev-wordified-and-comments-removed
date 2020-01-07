@@ -369,9 +369,6 @@ profile
 '
 extensions
 '
-'
-staged
-'
 )
             
 for
@@ -724,37 +721,6 @@ path
 join
 (
 extensions_path
-addon_id
-+
-'
-.
-xpi
-'
-)
-                 
-os
-.
-path
-.
-join
-(
-extensions_path
-'
-staged
-'
-addon_id
-)
-                 
-os
-.
-path
-.
-join
-(
-extensions_path
-'
-staged
-'
 addon_id
 +
 '
@@ -2645,9 +2611,6 @@ self
 profile
 '
 extensions
-'
-'
-staged
 '
 )
             

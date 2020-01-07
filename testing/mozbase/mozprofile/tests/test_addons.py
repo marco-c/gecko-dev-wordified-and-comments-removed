@@ -5,8 +5,6 @@ absolute_import
 import
 os
 import
-shutil
-import
 tempfile
 import
 unittest
@@ -1259,9 +1257,6 @@ profile
 '
 extensions
 '
-'
-staged
-'
 )
 )
 ]
@@ -1851,9 +1846,6 @@ self
 profile_path
 '
 extensions
-'
-'
-staged
 '
 )
         
@@ -2578,9 +2570,6 @@ profile
 '
 extensions
 '
-'
-staged
-'
 )
 )
 ]
@@ -2927,9 +2916,6 @@ profile
 '
 extensions
 '
-'
-staged
-'
 )
 )
 ]
@@ -3000,9 +2986,6 @@ duplicate_profile
 profile
 '
 extensions
-'
-'
-staged
 '
 )
 )
@@ -3198,9 +3181,6 @@ join
 profile
 '
 extensions
-'
-'
-staged
 '
 )
             
@@ -3423,37 +3403,6 @@ path
 join
 (
 extensions_path
-'
-staged
-'
-)
-        
-shutil
-.
-move
-(
-os
-.
-path
-.
-join
-(
-staging_path
-'
-test
--
-addon
--
-1
-mozilla
-.
-org
-.
-xpi
-'
-)
-                    
-extensions_path
 )
         
 for
@@ -3500,9 +3449,6 @@ listdir
 extensions_path
 )
 [
-'
-staged
-'
 ]
 )
 if
