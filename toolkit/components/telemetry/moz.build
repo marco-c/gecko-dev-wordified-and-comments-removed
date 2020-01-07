@@ -510,6 +510,11 @@ TelemetryEnvironment
 jsm
 '
 '
+TelemetryEventPing
+.
+jsm
+'
+'
 TelemetryHealthPing
 .
 jsm
