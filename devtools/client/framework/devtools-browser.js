@@ -1814,9 +1814,7 @@ gDevTools
 showToolbox
 (
 target
-"
-jsdebugger
-"
+null
 Toolbox
 .
 HostType
