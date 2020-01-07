@@ -48,7 +48,6 @@ function
 openRequestInTab
 (
 url
-method
 requestPostData
 )
 {

@@ -1493,7 +1493,6 @@ openRequestInTab
 (
 id
 url
-method
 requestPostData
 )
 }
@@ -1765,7 +1764,6 @@ openRequestInTab
 (
 id
 url
-method
 requestPostData
 )
 {
@@ -1792,7 +1790,6 @@ requestPostData
 openRequestInTab
 (
 url
-method
 requestPostData
 )
 ;
