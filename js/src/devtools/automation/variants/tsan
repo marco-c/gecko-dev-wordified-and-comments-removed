@@ -165,6 +165,11 @@ sanitize_log
 "
 }
 "
+use_minidump
+"
+:
+false
+"
 [
 comment
 on
