@@ -134,11 +134,6 @@ CurrentTimeLabel
 js
 '
 '
-CurrentTimeScrubber
-.
-js
-'
-'
 CurrentTimeScrubberController
 .
 js
