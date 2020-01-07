@@ -66,6 +66,12 @@ Internal
 <
 <
 5
+SerializedByServo
+=
+1
+<
+<
+6
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
