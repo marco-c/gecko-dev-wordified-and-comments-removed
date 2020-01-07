@@ -110,6 +110,9 @@ require
 "
 loader
 "
+"
+StructuredCloneHolder
+"
 ]
 ;
 function
