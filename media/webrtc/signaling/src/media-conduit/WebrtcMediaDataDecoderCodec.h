@@ -323,9 +323,6 @@ DecodePromise
 >
 mDecodeRequest
 ;
-Monitor
-mMonitor
-;
 MediaResult
 mError
 =
