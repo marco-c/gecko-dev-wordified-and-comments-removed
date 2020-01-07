@@ -296,9 +296,9 @@ const
 void
 LazilyResolveServoDeclaration
 (
-nsPresContext
+nsIDocument
 *
-aPresContext
+aDocument
 )
 ;
 const

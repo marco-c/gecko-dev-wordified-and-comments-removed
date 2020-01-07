@@ -11631,7 +11631,6 @@ dataArray
 get
 (
 )
-mPresContext
 aContext
 )
 ;
@@ -19518,7 +19517,6 @@ dataArray
 get
 (
 )
-aPresContext
 context
 )
 ;
@@ -51975,12 +51973,6 @@ get
 (
 )
 styleContext
--
->
-PresContext
-(
-)
-styleContext
 )
 ;
 if
@@ -52887,12 +52879,6 @@ structBits
 dataArray
 .
 get
-(
-)
-aStyleContext
--
->
-PresContext
 (
 )
 aStyleContext

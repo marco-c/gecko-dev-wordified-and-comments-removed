@@ -1204,12 +1204,12 @@ mode
 aData
 -
 >
-PresContext
+Document
 (
 )
 -
 >
-CompatibilityMode
+GetCompatibilityMode
 (
 )
 ;

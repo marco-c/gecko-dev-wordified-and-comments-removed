@@ -1783,9 +1783,9 @@ nsMappedAttributes
 :
 LazilyResolveServoDeclaration
 (
-nsPresContext
+nsIDocument
 *
-aContext
+aDoc
 )
 {
 MOZ_ASSERT
@@ -1826,7 +1826,7 @@ servo
 =
 ServoSpecifiedValues
 (
-aContext
+aDoc
 mServoStyle
 .
 get
