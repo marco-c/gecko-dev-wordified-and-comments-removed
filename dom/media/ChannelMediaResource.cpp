@@ -150,8 +150,6 @@ aIsPrivateBrowsing
 mSuspendAgent
 (
 mCacheStream
-!
-aChannel
 )
 {
 }
