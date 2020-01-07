@@ -17703,16 +17703,16 @@ structureCounts
 new
 :
 0
-remoteItemDel
+remoteRevives
 :
 0
-localFolderDel
+localDeletes
 :
 0
-localItemDel
+localRevives
 :
 0
-remoteFolderDel
+remoteDeletes
 :
 0
 }
@@ -20701,7 +20701,7 @@ this
 .
 structureCounts
 .
-remoteItemDel
+remoteRevives
 +
 +
 ;
@@ -20745,7 +20745,7 @@ this
 .
 structureCounts
 .
-localFolderDel
+localDeletes
 +
 +
 ;
@@ -21014,7 +21014,7 @@ this
 .
 structureCounts
 .
-localItemDel
+localRevives
 +
 +
 ;
@@ -21058,7 +21058,7 @@ this
 .
 structureCounts
 .
-remoteFolderDel
+remoteDeletes
 +
 +
 ;
