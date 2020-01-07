@@ -1,8 +1,10 @@
 #
 include
-<
-string
->
+"
+structures
+.
+h
+"
 void
 foo
 (
