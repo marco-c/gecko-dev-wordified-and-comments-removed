@@ -995,6 +995,7 @@ DUMMY
 =
 record
 ;
+await
 reconciler
 .
 _addChange
