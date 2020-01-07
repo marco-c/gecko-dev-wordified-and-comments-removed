@@ -5463,6 +5463,16 @@ mut
 Transaction
 )
 {
+if
+transaction
+.
+is_empty
+(
+)
+{
+return
+;
+}
 let
 txn
 =
