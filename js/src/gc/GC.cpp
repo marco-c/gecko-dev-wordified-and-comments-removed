@@ -34280,6 +34280,10 @@ Incremental
 :
 %
 d
+lastMarkSlice
+:
+%
+d
 useZeal
 :
 %
@@ -34292,6 +34296,10 @@ s
 bool
 (
 isIncremental
+)
+bool
+(
+lastMarkSlice
 )
 bool
 (
