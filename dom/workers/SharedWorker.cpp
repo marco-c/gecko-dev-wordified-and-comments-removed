@@ -107,6 +107,14 @@ WorkerPrivate
 .
 h
 "
+#
+ifdef
+XP_WIN
+#
+undef
+PostMessage
+#
+endif
 using
 mozilla
 :

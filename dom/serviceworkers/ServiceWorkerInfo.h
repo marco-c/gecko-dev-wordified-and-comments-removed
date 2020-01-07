@@ -38,6 +38,15 @@ h
 #
 include
 "
+mozilla
+/
+OriginAttributes
+.
+h
+"
+#
+include
+"
 nsIServiceWorkerManager
 .
 h

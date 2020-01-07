@@ -192,6 +192,16 @@ mozilla
 dom
 ;
 using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+workers
+;
+using
 mozilla
 :
 :
