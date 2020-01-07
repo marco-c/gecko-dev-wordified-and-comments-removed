@@ -2396,6 +2396,17 @@ RawGeckoGfxMatrix4x4
 result
 )
 ;
+SERVO_BINDING_FUNC
+(
+Servo_ParseCounterStyleName
+nsAtom
+*
+const
+nsACString
+*
+value
+)
+;
 #
 define
 SERVO_ARC_TYPE
