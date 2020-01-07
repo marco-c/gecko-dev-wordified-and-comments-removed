@@ -35,6 +35,5 @@ toctree
 maxdepth
 :
 1
-UITelemetry
 BrowserUsageTelemetry
 BrowserErrorReporter
