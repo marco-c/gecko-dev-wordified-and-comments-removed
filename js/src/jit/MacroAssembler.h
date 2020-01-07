@@ -11437,6 +11437,7 @@ MacroAssemblerSpecific
 :
 extractTag
 ;
+MOZ_MUST_USE
 Register
 extractTag
 (
@@ -11493,6 +11494,7 @@ MacroAssemblerSpecific
 :
 extractObject
 ;
+MOZ_MUST_USE
 Register
 extractObject
 (

@@ -2673,6 +2673,7 @@ JSVAL_TAG_SHIFT
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractTag
 (
@@ -2700,6 +2701,7 @@ return
 scratch
 ;
 }
+MOZ_MUST_USE
 Register
 extractTag
 (
@@ -2725,6 +2727,7 @@ return
 scratch
 ;
 }
+MOZ_MUST_USE
 Register
 extractObject
 (
@@ -2752,6 +2755,7 @@ return
 scratch
 ;
 }
+MOZ_MUST_USE
 Register
 extractObject
 (
@@ -2773,6 +2777,7 @@ return
 scratch
 ;
 }
+MOZ_MUST_USE
 Register
 extractSymbol
 (
@@ -2794,6 +2799,7 @@ return
 scratch
 ;
 }
+MOZ_MUST_USE
 Register
 extractInt32
 (
@@ -2815,6 +2821,7 @@ return
 scratch
 ;
 }
+MOZ_MUST_USE
 Register
 extractBoolean
 (

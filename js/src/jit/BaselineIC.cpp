@@ -15537,7 +15537,7 @@ takeAny
 ;
 masm
 .
-extractObject
+unboxObject
 (
 arrayVal
 startReg
@@ -19426,7 +19426,7 @@ Size
 ;
 masm
 .
-extractObject
+unboxObject
 (
 arrayVal
 argcReg

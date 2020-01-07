@@ -2143,6 +2143,7 @@ ValueOperand
 dest
 )
 ;
+MOZ_MUST_USE
 Register
 extractObject
 (
@@ -2154,6 +2155,7 @@ Register
 scratch
 )
 ;
+MOZ_MUST_USE
 Register
 extractObject
 (
@@ -2173,6 +2175,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractString
 (
@@ -2192,6 +2195,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractSymbol
 (
@@ -2211,6 +2215,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractInt32
 (
@@ -2230,6 +2235,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractBoolean
 (
@@ -2249,6 +2255,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractTag
 (
@@ -2260,6 +2267,7 @@ Register
 scratch
 )
 ;
+MOZ_MUST_USE
 Register
 extractTag
 (
@@ -2271,6 +2279,7 @@ Register
 scratch
 )
 ;
+MOZ_MUST_USE
 Register
 extractTag
 (

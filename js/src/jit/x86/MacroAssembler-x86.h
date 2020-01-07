@@ -5575,6 +5575,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractObject
 (
@@ -5596,6 +5597,7 @@ return
 dest
 ;
 }
+MOZ_MUST_USE
 Register
 extractObject
 (
@@ -5627,6 +5629,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractSymbol
 (
@@ -5658,6 +5661,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractInt32
 (
@@ -5677,6 +5681,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractBoolean
 (
@@ -5696,6 +5701,7 @@ payloadReg
 )
 ;
 }
+MOZ_MUST_USE
 Register
 extractTag
 (
@@ -5720,6 +5726,7 @@ return
 scratch
 ;
 }
+MOZ_MUST_USE
 Register
 extractTag
 (
