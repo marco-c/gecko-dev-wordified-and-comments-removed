@@ -38,7 +38,7 @@ Exception
 pass
 FAR_IN_FUTURE
 =
-7258114800
+2147483647
 DEFAULTS
 =
 dict
