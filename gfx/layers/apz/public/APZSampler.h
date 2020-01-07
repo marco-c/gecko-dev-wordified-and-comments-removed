@@ -55,7 +55,7 @@ class
 LayerMetricsWrapper
 ;
 struct
-ScrollThumbData
+ScrollbarData
 ;
 class
 APZSampler
@@ -127,7 +127,7 @@ LayerMetricsWrapper
 &
 aContent
 const
-ScrollThumbData
+ScrollbarData
 &
 aThumbData
 bool

@@ -15836,7 +15836,7 @@ FrameMetrics
 :
 :
 NULL_SCROLL_ID
-ScrollThumbData
+ScrollbarData
 {
 }
 false

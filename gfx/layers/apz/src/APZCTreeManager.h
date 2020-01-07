@@ -749,9 +749,9 @@ FrameMetrics
 &
 aMetrics
 const
-ScrollThumbData
+ScrollbarData
 &
-aThumbData
+aScrollbarData
 bool
 aScrollbarIsDescendant
 AsyncTransformComponentMatrix

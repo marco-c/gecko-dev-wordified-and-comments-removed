@@ -6079,7 +6079,7 @@ mozilla
 layers
 :
 :
-ScrollThumbData
+ScrollbarData
 {
 }
 true

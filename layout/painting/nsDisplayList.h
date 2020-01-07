@@ -19535,8 +19535,8 @@ mozilla
 layers
 :
 :
-ScrollThumbData
-ScrollThumbData
+ScrollbarData
+ScrollbarData
 ;
 nsDisplayOwnLayer
 (
@@ -19574,11 +19574,11 @@ FrameMetrics
 :
 NULL_SCROLL_ID
 const
-ScrollThumbData
+ScrollbarData
 &
 aThumbData
 =
-ScrollThumbData
+ScrollbarData
 {
 }
 bool
@@ -19841,7 +19841,7 @@ mFlags
 ViewID
 mScrollTarget
 ;
-ScrollThumbData
+ScrollbarData
 mThumbData
 ;
 bool

@@ -319,7 +319,7 @@ mozilla
 layers
 :
 :
-ScrollThumbData
+ScrollbarData
 ;
 bool
 nsSliderFrame
@@ -2157,9 +2157,16 @@ masterList
 ownLayerASR
 flags
 scrollTargetId
-ScrollThumbData
+ScrollbarData
 {
 scrollDirection
+layers
+:
+:
+ScrollbarLayerType
+:
+:
+Thumb
 GetThumbRatio
 (
 )

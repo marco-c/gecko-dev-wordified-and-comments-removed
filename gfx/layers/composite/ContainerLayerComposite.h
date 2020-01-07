@@ -456,7 +456,7 @@ mScaleToResolution
 return
 mSimpleAttrs
 .
-PostXScale
+GetPostXScale
 (
 )
 *
@@ -466,7 +466,7 @@ mPresShellResolution
 return
 mSimpleAttrs
 .
-PostXScale
+GetPostXScale
 (
 )
 ;
@@ -487,7 +487,7 @@ mScaleToResolution
 return
 mSimpleAttrs
 .
-PostYScale
+GetPostYScale
 (
 )
 *
@@ -497,7 +497,7 @@ mPresShellResolution
 return
 mSimpleAttrs
 .
-PostYScale
+GetPostYScale
 (
 )
 ;
