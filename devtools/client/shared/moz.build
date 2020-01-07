@@ -165,11 +165,6 @@ widgets
 DevToolsModules
 (
 '
-AppCacheUtils
-.
-jsm
-'
-'
 autocomplete
 -
 popup

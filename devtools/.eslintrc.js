@@ -233,15 +233,6 @@ scratchpad
 "
 client
 /
-shared
-/
-AppCacheUtils
-.
-jsm
-"
-"
-client
-/
 webide
 /
 *
