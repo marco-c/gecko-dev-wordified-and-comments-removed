@@ -4322,9 +4322,17 @@ margin
 -
 inline
 -
+start
+:
+1px
+;
+margin
+-
+inline
+-
 end
 :
-10px
+7px
 ;
 padding
 :
@@ -7034,6 +7042,7 @@ auto
 padding
 :
 4px
+5px
 ;
 }
 #
