@@ -85,8 +85,7 @@ of
 bash
 available
 on
-OS
-X
+macOS
 by
 default
 is

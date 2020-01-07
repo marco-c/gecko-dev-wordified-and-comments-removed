@@ -1802,7 +1802,7 @@ to
 understand
 .
 On
-OSX
+macOS
 you
 can
 add
