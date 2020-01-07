@@ -1190,6 +1190,7 @@ return
 "
 tablet
 "
+;
 }
 return
 "
