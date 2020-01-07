@@ -54,9 +54,6 @@ class
 nsICSSDeclaration
 ;
 class
-nsIDOMNode
-;
-class
 nsINode
 ;
 namespace

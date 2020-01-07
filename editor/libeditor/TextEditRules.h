@@ -78,9 +78,6 @@ nscore
 .
 h
 "
-class
-nsIDOMNode
-;
 namespace
 mozilla
 {

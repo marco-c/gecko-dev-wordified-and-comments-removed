@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMNode
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
@@ -846,6 +839,8 @@ forget
 )
 )
 ;
+if
+(
 ServoStyleSet
 *
 styleSet
@@ -856,7 +851,13 @@ ps
 StyleSet
 (
 )
-;
+-
+>
+GetAsServo
+(
+)
+)
+{
 if
 (
 ServoStyleSet
@@ -876,6 +877,7 @@ StyleNewSubtree
 newContent
 )
 ;
+}
 }
 ElementDeletionObserver
 *

@@ -334,15 +334,6 @@ aNode
 ;
 static
 bool
-IsMozDiv
-(
-nsIDOMNode
-*
-aNode
-)
-;
-static
-bool
 IsMailCite
 (
 nsINode
