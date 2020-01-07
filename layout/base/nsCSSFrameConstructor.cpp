@@ -7265,7 +7265,7 @@ nsGkAtoms
 mozgeneratedcontentimage
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -7952,7 +7952,7 @@ GetNodeInfo
 elemName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

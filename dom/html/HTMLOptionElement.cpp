@@ -939,9 +939,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 TEXT_NODE
 |
 |
@@ -953,9 +950,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 CDATA_SECTION_NODE
 )
 {
@@ -1376,9 +1370,6 @@ nsGkAtoms
 option
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
 ELEMENT_NODE
 )
 ;

@@ -6095,7 +6095,7 @@ NodeType
 )
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -6109,7 +6109,7 @@ NodeType
 )
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE

@@ -688,7 +688,7 @@ nsGkAtoms
 label
 nullptr
 kNameSpaceID_XUL
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

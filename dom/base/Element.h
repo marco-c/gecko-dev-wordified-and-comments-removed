@@ -627,9 +627,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 ELEMENT_NODE
 "
 Bad

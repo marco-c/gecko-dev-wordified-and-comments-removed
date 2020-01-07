@@ -5960,9 +5960,6 @@ nsGkAtoms
 documentFragmentNodeName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
-:
-:
 DOCUMENT_FRAGMENT_NODE
 )
 ;
@@ -6737,9 +6734,6 @@ mNodeInfo
 NodeInfoManager
 (
 )
-nsIDOMNode
-:
-:
 ATTRIBUTE_NODE
 getter_AddRefs
 (
@@ -10143,9 +10137,6 @@ Atom
 )
 nullptr
 kNameSpaceID_None
-nsIDOMNode
-:
-:
 ATTRIBUTE_NODE
 )
 ;
@@ -11962,9 +11953,6 @@ GetNodeInfo
 aName
 aPrefix
 aNamespaceID
-nsIDOMNode
-:
-:
 ATTRIBUTE_NODE
 )
 ;
@@ -17945,9 +17933,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 DOCUMENT_NODE
 )
 {
@@ -18031,9 +18016,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 DOCUMENT_FRAGMENT_NODE
 "
 How
@@ -18156,9 +18138,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 DOCUMENT_FRAGMENT_NODE
 "
 How
@@ -18209,9 +18188,6 @@ nsGkAtoms
 body
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
-:
-:
 ELEMENT_NODE
 )
 ;

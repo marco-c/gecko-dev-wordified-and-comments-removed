@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsIScrollbarMediator
 .
 h
@@ -20784,7 +20791,7 @@ nsGkAtoms
 scrollbar
 nullptr
 kNameSpaceID_XUL
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -21074,7 +21081,7 @@ nsGkAtoms
 resizer
 nullptr
 kNameSpaceID_XUL
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -21314,7 +21321,7 @@ nsGkAtoms
 scrollcorner
 nullptr
 kNameSpaceID_XUL
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

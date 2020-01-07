@@ -941,7 +941,7 @@ nodeType
 )
 {
 case
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -958,7 +958,7 @@ ELEMENT_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -975,7 +975,7 @@ ATTRIBUTE_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -992,7 +992,7 @@ TEXT_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 CDATA_SECTION_NODE
@@ -1009,7 +1009,7 @@ CDATA_SECTION_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 ENTITY_REFERENCE_NODE
@@ -1026,7 +1026,7 @@ ENTITY_REFERENCE_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 ENTITY_NODE
@@ -1043,7 +1043,7 @@ ENTITY_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE
@@ -1060,7 +1060,7 @@ PROCESSING_INSTRUCTION_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE
@@ -1077,7 +1077,7 @@ COMMENT_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -1094,7 +1094,7 @@ DOCUMENT_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -1111,7 +1111,7 @@ DOCUMENT_TYPE_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE
@@ -1128,7 +1128,7 @@ DOCUMENT_FRAGMENT_NODE
 break
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 NOTATION_NODE
@@ -4959,7 +4959,7 @@ nodeType
 nodeType
 <
 =
-nsIDOMNode
+nsINode
 :
 :
 NOTATION_NODE
@@ -5006,7 +5006,7 @@ if
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -5015,7 +5015,7 @@ TEXT_NODE
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE

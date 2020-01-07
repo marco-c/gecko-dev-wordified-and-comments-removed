@@ -2312,7 +2312,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -2602,7 +2602,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -6998,7 +6998,7 @@ false
 )
 ;
 return
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -8021,7 +8021,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -8358,7 +8358,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -8453,7 +8453,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -9807,7 +9807,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -9903,7 +9903,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE

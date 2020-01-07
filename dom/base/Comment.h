@@ -59,9 +59,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 COMMENT_NODE
 "
 Bad

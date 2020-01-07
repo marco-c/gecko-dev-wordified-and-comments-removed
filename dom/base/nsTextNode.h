@@ -72,9 +72,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 TEXT_NODE
 "
 Bad

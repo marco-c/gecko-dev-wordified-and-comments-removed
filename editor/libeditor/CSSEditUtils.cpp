@@ -1794,7 +1794,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -6654,7 +6654,7 @@ aNode
 ;
 if
 (
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE

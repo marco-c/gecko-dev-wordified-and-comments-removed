@@ -265,9 +265,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 TEXT_NODE
 |
 |
@@ -279,9 +276,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 CDATA_SECTION_NODE
 |
 |
@@ -293,9 +287,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 COMMENT_NODE
 |
 |
@@ -307,9 +298,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 PROCESSING_INSTRUCTION_NODE
 |
 |
@@ -321,9 +309,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 DOCUMENT_TYPE_NODE
 "
 Bad
@@ -369,9 +354,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 TEXT_NODE
 |
 |
@@ -383,9 +365,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 CDATA_SECTION_NODE
 |
 |
@@ -397,9 +376,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 COMMENT_NODE
 |
 |
@@ -411,9 +387,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 PROCESSING_INSTRUCTION_NODE
 |
 |
@@ -425,9 +398,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 DOCUMENT_TYPE_NODE
 "
 Bad
@@ -1433,9 +1403,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 TEXT_NODE
 &
 &
@@ -1723,9 +1690,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 TEXT_NODE
 )
 ;
@@ -4134,9 +4098,6 @@ NodeType
 )
 !
 =
-nsIDOMNode
-:
-:
 TEXT_NODE
 &
 &
@@ -4145,9 +4106,6 @@ NodeType
 )
 !
 =
-nsIDOMNode
-:
-:
 CDATA_SECTION_NODE
 )
 {

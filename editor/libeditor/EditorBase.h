@@ -2404,7 +2404,7 @@ NodeType
 )
 {
 case
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -2422,7 +2422,7 @@ IsEditable
 true
 ;
 case
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -2587,7 +2587,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE

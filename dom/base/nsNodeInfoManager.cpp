@@ -1693,7 +1693,7 @@ nsGkAtoms
 textTagName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -1753,7 +1753,7 @@ nsGkAtoms
 commentTagName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE
@@ -1824,7 +1824,7 @@ nsGkAtoms
 documentNodeName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE

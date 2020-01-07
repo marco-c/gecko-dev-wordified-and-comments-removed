@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -359,7 +359,7 @@ MOZ_ASSERT
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -368,7 +368,7 @@ ELEMENT_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -377,7 +377,7 @@ ATTRIBUTE_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -386,7 +386,7 @@ TEXT_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 CDATA_SECTION_NODE
@@ -395,7 +395,7 @@ CDATA_SECTION_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE
@@ -404,7 +404,7 @@ PROCESSING_INSTRUCTION_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE
@@ -413,7 +413,7 @@ COMMENT_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -422,7 +422,7 @@ DOCUMENT_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -431,7 +431,7 @@ DOCUMENT_TYPE_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE
@@ -453,7 +453,7 @@ MOZ_ASSERT
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE
@@ -462,7 +462,7 @@ PROCESSING_INSTRUCTION_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -490,7 +490,7 @@ MOZ_ASSERT
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -499,7 +499,7 @@ ELEMENT_NODE
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 ATTRIBUTE_NODE
@@ -553,7 +553,7 @@ MOZ_ASSERT
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -577,7 +577,7 @@ textTagName
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 CDATA_SECTION_NODE
@@ -601,7 +601,7 @@ cdataTagName
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE
@@ -625,7 +625,7 @@ commentTagName
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -649,7 +649,7 @@ documentNodeName
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE
@@ -673,7 +673,7 @@ documentFragmentNodeName
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -697,7 +697,7 @@ documentTypeNodeName
 aNodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE

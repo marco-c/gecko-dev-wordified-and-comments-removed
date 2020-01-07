@@ -1612,7 +1612,7 @@ NodeType
 )
 {
 case
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
@@ -1640,7 +1640,7 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 CDATA_SECTION_NODE
@@ -1668,7 +1668,7 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE
@@ -1696,7 +1696,7 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE
@@ -1724,7 +1724,7 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -2312,7 +2312,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE

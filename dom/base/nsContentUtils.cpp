@@ -11907,7 +11907,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE
@@ -44195,7 +44195,7 @@ NodeType
 )
 !
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -44255,7 +44255,7 @@ NodeType
 )
 {
 case
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -44315,13 +44315,13 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
 :
 case
-nsIDOMNode
+nsINode
 :
 :
 CDATA_SECTION_NODE
@@ -44386,7 +44386,7 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 COMMENT_NODE
@@ -44438,7 +44438,7 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -44480,7 +44480,7 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 PROCESSING_INSTRUCTION_NODE
@@ -44567,7 +44567,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -44732,7 +44732,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE

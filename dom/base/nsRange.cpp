@@ -346,13 +346,13 @@ NodeType
 )
 {
 case
-nsIDOMNode
+nsINode
 :
 :
 TEXT_NODE
 :
 case
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -384,7 +384,7 @@ break
 ;
 }
 case
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -4678,7 +4678,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -13110,7 +13110,7 @@ NodeType
 )
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE
@@ -13457,7 +13457,7 @@ if
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_NODE
@@ -13466,7 +13466,7 @@ DOCUMENT_NODE
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_TYPE_NODE
@@ -13475,7 +13475,7 @@ DOCUMENT_TYPE_NODE
 nodeType
 =
 =
-nsIDOMNode
+nsINode
 :
 :
 DOCUMENT_FRAGMENT_NODE

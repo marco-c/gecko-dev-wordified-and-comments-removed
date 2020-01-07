@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsINode
 .
 h
 "
@@ -47,7 +47,7 @@ nsContentUtils
 h
 "
 typedef
-nsIDOMNode
+nsINode
 txXPathNodeType
 ;
 class

@@ -56,9 +56,6 @@ NodeType
 )
 =
 =
-nsIDOMNode
-:
-:
 CDATA_SECTION_NODE
 "
 Bad
@@ -124,9 +121,6 @@ nsGkAtoms
 cdataTagName
 nullptr
 kNameSpaceID_None
-nsIDOMNode
-:
-:
 CDATA_SECTION_NODE
 )
 )

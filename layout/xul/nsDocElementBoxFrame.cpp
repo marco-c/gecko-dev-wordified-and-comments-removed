@@ -446,7 +446,7 @@ nsGkAtoms
 popupgroup
 nullptr
 kNameSpaceID_XUL
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
@@ -510,7 +510,7 @@ nsGkAtoms
 tooltip
 nullptr
 kNameSpaceID_XUL
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE

@@ -162,14 +162,14 @@ h
 #
 include
 "
-nsPIDOMWindow
+nsINode
 .
 h
 "
 #
 include
 "
-nsIDOMNode
+nsPIDOMWindow
 .
 h
 "
@@ -1469,7 +1469,7 @@ nsGkAtoms
 div
 nullptr
 kNameSpaceID_XHTML
-nsIDOMNode
+nsINode
 :
 :
 ELEMENT_NODE
