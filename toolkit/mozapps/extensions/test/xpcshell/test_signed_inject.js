@@ -188,7 +188,7 @@ else
 var
 zipW
 =
-Cc
+AM_Cc
 [
 "
 mozilla
@@ -203,7 +203,7 @@ zipwriter
 .
 createInstance
 (
-Ci
+AM_Ci
 .
 nsIZipWriter
 )

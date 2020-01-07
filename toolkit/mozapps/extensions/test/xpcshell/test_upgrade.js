@@ -58,7 +58,7 @@ get
 "
 XREAddonAppDir
 "
-Ci
+AM_Ci
 .
 nsIFile
 )

@@ -29,7 +29,7 @@ if
 nsIWindowsRegKey
 "
 in
-Ci
+AM_Ci
 )
 )
 return
@@ -568,7 +568,7 @@ getResourceURI
 let
 fstream
 =
-Cc
+AM_Cc
 [
 "
 mozilla
@@ -589,7 +589,7 @@ stream
 .
 createInstance
 (
-Ci
+AM_Ci
 .
 nsIFileInputStream
 )
@@ -602,7 +602,7 @@ uri
 .
 QueryInterface
 (
-Ci
+AM_Ci
 .
 nsIFileURL
 )
@@ -853,7 +853,7 @@ getResourceURI
 let
 fstream
 =
-Cc
+AM_Cc
 [
 "
 mozilla
@@ -874,7 +874,7 @@ stream
 .
 createInstance
 (
-Ci
+AM_Ci
 .
 nsIFileInputStream
 )
@@ -887,7 +887,7 @@ uri
 .
 QueryInterface
 (
-Ci
+AM_Ci
 .
 nsIFileURL
 )

@@ -32,7 +32,7 @@ profileDir
 .
 create
 (
-Ci
+AM_Ci
 .
 nsIFile
 .

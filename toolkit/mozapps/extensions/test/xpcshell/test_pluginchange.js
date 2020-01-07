@@ -188,7 +188,7 @@ XPCOMUtils
 generateQI
 (
 [
-Ci
+AM_Ci
 .
 nsIPluginHost
 ]

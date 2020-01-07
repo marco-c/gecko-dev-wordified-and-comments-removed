@@ -90,7 +90,7 @@ notify_blocklist
 var
 blocklist
 =
-Cc
+AM_Cc
 [
 "
 mozilla
@@ -107,7 +107,7 @@ blocklist
 .
 getService
 (
-Ci
+AM_Ci
 .
 nsITimerCallback
 )

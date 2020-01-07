@@ -195,7 +195,7 @@ if
 (
 aSource
 instanceof
-Ci
+AM_Ci
 .
 nsIFile
 )
@@ -209,7 +209,7 @@ if
 (
 aDest
 instanceof
-Ci
+AM_Ci
 .
 nsIFile
 )
@@ -255,7 +255,7 @@ parent
 .
 create
 (
-Ci
+AM_Ci
 .
 nsIFile
 .
@@ -1012,7 +1012,7 @@ tempFile
 .
 create
 (
-Ci
+AM_Ci
 .
 nsIFile
 .
