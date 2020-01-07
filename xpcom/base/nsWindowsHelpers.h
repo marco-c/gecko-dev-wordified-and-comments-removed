@@ -1068,5 +1068,13 @@ systemPath
 ;
 }
 }
+const
+DWORD
+kWaitForInputIdleTimeoutMS
+=
+10
+*
+1000
+;
 #
 endif
