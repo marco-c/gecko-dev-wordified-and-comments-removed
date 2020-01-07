@@ -742,6 +742,7 @@ placeholder
 )
 ;
 }
+async
 readAcceptLanguages
 (
 )
@@ -938,6 +939,18 @@ i
 true
 ;
 }
+await
+document
+.
+l10n
+.
+translateFragment
+(
+this
+.
+_activeLanguages
+)
+;
 if
 (
 this
