@@ -469,17 +469,8 @@ npm
         
 self
 .
-_activate_virtualenv
+activate_pipenv
 (
-)
-        
-self
-.
-virtualenv_manager
-.
-install_pip_requirements
-(
-            
 os
 .
 path
@@ -488,14 +479,9 @@ join
 (
 here
 '
-requirements
-.
-txt
+Pipfile
 '
 )
-quiet
-=
-True
 )
         
 import
@@ -1276,24 +1262,6 @@ version
 None
 )
 :
-        
-self
-.
-virtualenv_manager
-.
-install_pip_package
-(
-'
-boto3
-=
-=
-1
-.
-4
-.
-4
-'
-)
         
 from
 moztreedocs
