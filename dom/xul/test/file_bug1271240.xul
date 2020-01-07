@@ -603,8 +603,6 @@ type
 =
 "
 content
--
-primary
 "
 flex
 =
@@ -624,8 +622,6 @@ type
 =
 "
 content
--
-primary
 "
 flex
 =
