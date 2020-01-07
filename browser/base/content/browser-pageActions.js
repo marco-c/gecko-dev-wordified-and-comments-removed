@@ -524,14 +524,6 @@ this
 .
 multiViewNode
 .
-_panelViews
-=
-null
-;
-this
-.
-multiViewNode
-.
 appendChild
 (
 panelViewNode
