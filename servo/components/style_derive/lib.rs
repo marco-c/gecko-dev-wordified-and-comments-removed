@@ -429,6 +429,7 @@ SpecifiedValueInfo
 attributes
 (
 css
+value_info
 )
 )
 ]

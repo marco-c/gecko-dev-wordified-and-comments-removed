@@ -296,6 +296,17 @@ Counters
 I
 >
 (
+#
+[
+css
+(
+if_empty
+=
+"
+none
+"
+)
+]
 Box
 <
 [

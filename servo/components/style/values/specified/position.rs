@@ -2867,6 +2867,13 @@ pub
 autoflow
 :
 AutoFlow
+#
+[
+value_info
+(
+represents_keyword
+)
+]
 pub
 dense
 :

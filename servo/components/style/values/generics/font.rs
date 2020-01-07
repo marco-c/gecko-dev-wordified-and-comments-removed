@@ -1101,6 +1101,13 @@ error
 )
 ]
 Italic
+#
+[
+value_info
+(
+starts_with_keyword
+)
+]
 Oblique
 (
 Angle
