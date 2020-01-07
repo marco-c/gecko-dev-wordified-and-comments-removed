@@ -384,9 +384,6 @@ int32_t
 mIMEFocusCount
 ;
 bool
-mIMEUpdatingContext
-;
-bool
 mIMESelectionChanged
 ;
 bool
@@ -815,10 +812,6 @@ mIMEMaskEventsCount
 mIMEFocusCount
 (
 0
-)
-mIMEUpdatingContext
-(
-false
 )
 mIMESelectionChanged
 (
