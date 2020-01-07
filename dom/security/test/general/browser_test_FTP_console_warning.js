@@ -119,12 +119,8 @@ promise
 var
 openToolboxForTab
 =
-Task
-.
 async
-(
 function
-*
 (
 tab
 toolId
@@ -153,7 +149,7 @@ forTab
 tab
 )
 ;
-yield
+await
 target
 .
 makeRemote
@@ -210,7 +206,7 @@ toolbox
 }
 toolbox
 =
-yield
+await
 gDevTools
 .
 showToolbox
@@ -220,7 +216,7 @@ toolId
 hostType
 )
 ;
-yield
+await
 new
 Promise
 (
@@ -250,7 +246,6 @@ return
 toolbox
 ;
 }
-)
 ;
 function
 console_observer
