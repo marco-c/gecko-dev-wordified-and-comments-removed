@@ -3116,7 +3116,7 @@ url
 "
 )
 ;
-nsDependentString
+nsDependentCSubstring
 url
 (
 sources
@@ -3124,7 +3124,12 @@ sources
 i
 ]
 .
-GetOriginalURLValue
+GetURLStructValue
+(
+)
+-
+>
+GetString
 (
 )
 )
@@ -3134,7 +3139,10 @@ nsStyleUtil
 :
 AppendEscapedCSSString
 (
+NS_ConvertUTF8toUTF16
+(
 url
+)
 aResult
 )
 ;
