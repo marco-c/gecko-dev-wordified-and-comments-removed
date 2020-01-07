@@ -496,9 +496,7 @@ is
 (
 searchPopup
 .
-view
-.
-rowCount
+matchCount
 kValues
 .
 length
