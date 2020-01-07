@@ -785,8 +785,9 @@ states
 OFFSCREEN
 ;
 state
-^
+&
 =
+~
 states
 :
 :
