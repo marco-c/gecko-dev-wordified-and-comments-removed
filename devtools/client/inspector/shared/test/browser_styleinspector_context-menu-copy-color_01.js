@@ -50,8 +50,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -60,7 +60,7 @@ requestLongerTimeout
 2
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -88,12 +88,12 @@ let
 inspector
 }
 =
-yield
+await
 openInspector
 (
 )
 ;
-yield
+await
 testView
 (
 "
@@ -102,7 +102,7 @@ ruleview
 inspector
 )
 ;
-yield
+await
 testView
 (
 "
@@ -114,8 +114,8 @@ inspector
 }
 )
 ;
+async
 function
-*
 testView
 (
 viewId
@@ -131,7 +131,7 @@ Testing
 viewId
 )
 ;
-yield
+await
 inspector
 .
 sidebar
@@ -163,7 +163,7 @@ viewId
 .
 computedView
 ;
-yield
+await
 selectNode
 (
 "
@@ -182,7 +182,7 @@ testIsColorPopupOnAllNodes
 view
 )
 ;
-yield
+await
 clearCurrentNodeSelection
 (
 inspector

@@ -420,12 +420,12 @@ value
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -454,7 +454,7 @@ inspector
 boxmodel
 }
 =
-yield
+await
 openLayoutView
 (
 )
@@ -462,7 +462,7 @@ openLayoutView
 let
 node
 =
-yield
+await
 getNodeFront
 (
 "
@@ -474,7 +474,7 @@ inspector
 let
 children
 =
-yield
+await
 inspector
 .
 markup
@@ -496,14 +496,14 @@ nodes
 0
 ]
 ;
-yield
+await
 selectNode
 (
 beforeElement
 inspector
 )
 ;
-yield
+await
 testInitialValues
 (
 inspector
@@ -514,7 +514,6 @@ boxmodel
 )
 ;
 function
-*
 testInitialValues
 (
 inspector

@@ -20,8 +20,8 @@ png
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -30,7 +30,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL

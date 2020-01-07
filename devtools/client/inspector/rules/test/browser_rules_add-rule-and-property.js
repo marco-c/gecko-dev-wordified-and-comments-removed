@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -48,7 +48,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -63,7 +63,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -92,7 +92,7 @@ field
 "
 )
 ;
-yield
+await
 addNewRuleAndDismissEditor
 (
 inspector
@@ -157,7 +157,7 @@ bold
 true
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 let

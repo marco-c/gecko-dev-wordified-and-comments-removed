@@ -118,8 +118,8 @@ body
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -129,7 +129,7 @@ inspector
 toolbox
 }
 =
-yield
+await
 openInspectorForURL
 (
 "
@@ -152,7 +152,7 @@ TEST_URL
 )
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -164,7 +164,7 @@ expandAll
 let
 container1
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -194,7 +194,7 @@ events
 let
 container2
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -272,7 +272,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 onShown
 ;
 info
@@ -342,7 +342,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 onHidden
 ;
 info
@@ -354,7 +354,7 @@ hidden
 "
 )
 ;
-yield
+await
 onShown
 ;
 info
@@ -444,7 +444,7 @@ panelDoc
 defaultView
 )
 ;
-yield
+await
 onTabInspectorSelected
 ;
 info
@@ -457,7 +457,7 @@ selected
 "
 )
 ;
-yield
+await
 onHighlighterHidden
 ;
 info

@@ -3,8 +3,8 @@ use
 strict
 "
 ;
+async
 function
-*
 runStyleAttributeAutocompleteTests
 (
 inspector
@@ -21,7 +21,7 @@ nodes
 "
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -42,7 +42,7 @@ node14
 let
 container
 =
-yield
+await
 focusNode
 (
 "
@@ -179,7 +179,7 @@ data
 ]
 )
 ;
-yield
+await
 enterData
 (
 data
@@ -201,7 +201,7 @@ state
 .
 )
 ;
-yield
+await
 checkData
 (
 data
@@ -209,7 +209,7 @@ editor
 inspector
 )
 ;
-yield
+await
 onMutation
 ;
 }
@@ -238,14 +238,14 @@ canUndo
 )
 )
 {
-yield
+await
 undoChange
 (
 inspector
 )
 ;
 }
-yield
+await
 onMutation
 ;
 }
@@ -530,8 +530,8 @@ panelWin
 )
 ;
 }
+async
 function
-*
 checkData
 (
 data
@@ -640,7 +640,7 @@ else
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 "

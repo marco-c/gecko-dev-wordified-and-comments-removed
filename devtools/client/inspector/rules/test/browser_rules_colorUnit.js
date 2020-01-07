@@ -50,8 +50,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -130,7 +130,7 @@ name
 let
 tab
 =
-yield
+await
 addTab
 (
 "
@@ -159,12 +159,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -174,7 +174,7 @@ testid
 inspector
 )
 ;
-yield
+await
 basicTest
 (
 view
@@ -192,7 +192,7 @@ forTab
 tab
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -210,8 +210,8 @@ removeCurrentTab
 }
 )
 ;
+async
 function
-*
 basicTest
 (
 view
@@ -278,10 +278,10 @@ click
 (
 )
 ;
-yield
+await
 onColorPickerReady
 ;
-yield
+await
 simulateColorPickerChange
 (
 view
@@ -366,10 +366,10 @@ RETURN
 "
 )
 ;
-yield
+await
 onHidden
 ;
-yield
+await
 onRuleViewChanged
 ;
 is

@@ -138,7 +138,6 @@ node
 getHoveredNode
 :
 function
-*
 (
 )
 {
@@ -173,7 +172,6 @@ node
 getHoveredNode
 :
 function
-*
 (
 view
 )
@@ -211,7 +209,6 @@ name
 getHoveredNode
 :
 function
-*
 (
 view
 )
@@ -308,7 +305,6 @@ value
 getHoveredNode
 :
 function
-*
 (
 view
 )
@@ -405,7 +401,6 @@ url
 getHoveredNode
 :
 function
-*
 (
 view
 )
@@ -566,8 +561,8 @@ bestmatch
 "
 getHoveredNode
 :
+async
 function
-*
 (
 view
 )
@@ -575,7 +570,7 @@ view
 let
 el
 =
-yield
+await
 getComputedViewMatchedRules
 (
 view
@@ -641,8 +636,8 @@ matched
 "
 getHoveredNode
 :
+async
 function
-*
 (
 view
 )
@@ -650,7 +645,7 @@ view
 let
 el
 =
-yield
+await
 getComputedViewMatchedRules
 (
 view
@@ -715,8 +710,8 @@ parentmatch
 "
 getHoveredNode
 :
+async
 function
-*
 (
 view
 )
@@ -724,7 +719,7 @@ view
 let
 el
 =
-yield
+await
 getComputedViewMatchedRules
 (
 view
@@ -784,8 +779,8 @@ value
 "
 getHoveredNode
 :
+async
 function
-*
 (
 view
 )
@@ -793,7 +788,7 @@ view
 let
 el
 =
-yield
+await
 getComputedViewMatchedRules
 (
 view
@@ -874,8 +869,8 @@ link
 "
 getHoveredNode
 :
+async
 function
-*
 (
 view
 )
@@ -883,7 +878,7 @@ view
 let
 el
 =
-yield
+await
 getComputedViewMatchedRules
 (
 view
@@ -929,12 +924,12 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -963,12 +958,12 @@ inspector
 view
 }
 =
-yield
+await
 openComputedView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -1002,7 +997,7 @@ view
 .
 getNodeInfo
 (
-yield
+await
 getHoveredNode
 (
 view

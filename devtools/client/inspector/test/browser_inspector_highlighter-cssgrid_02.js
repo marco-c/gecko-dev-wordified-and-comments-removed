@@ -65,8 +65,8 @@ CssGridHighlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -76,7 +76,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 "
@@ -109,7 +109,7 @@ inspector
 let
 highlighter
 =
-yield
+await
 front
 .
 getHighlighterByType
@@ -135,7 +135,7 @@ container
 let
 node
 =
-yield
+await
 getNodeFront
 (
 "
@@ -145,7 +145,7 @@ grid
 inspector
 )
 ;
-yield
+await
 highlighter
 .
 show
@@ -156,7 +156,7 @@ node
 let
 hidden
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -195,7 +195,7 @@ highlighter
 "
 )
 ;
-yield
+await
 highlighter
 .
 hide
@@ -204,7 +204,7 @@ hide
 ;
 hidden
 =
-yield
+await
 testActor
 .
 getHighlighterNodeAttribute
@@ -233,7 +233,7 @@ hidden
 "
 )
 ;
-yield
+await
 highlighter
 .
 finalize

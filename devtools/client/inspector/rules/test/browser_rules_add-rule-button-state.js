@@ -62,12 +62,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -96,12 +96,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 testDisabledButton
 (
 inspector
@@ -111,8 +111,8 @@ view
 }
 )
 ;
+async
 function
-*
 testDisabledButton
 (
 inspector
@@ -137,7 +137,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 node
@@ -172,7 +172,7 @@ element
 "
 )
 ;
-yield
+await
 view
 .
 selectElement
@@ -207,7 +207,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 node
@@ -245,7 +245,7 @@ element
 let
 pseudo
 =
-yield
+await
 getNodeFront
 (
 "
@@ -258,7 +258,7 @@ inspector
 let
 children
 =
-yield
+await
 inspector
 .
 walker
@@ -278,7 +278,7 @@ nodes
 0
 ]
 ;
-yield
+await
 selectNode
 (
 before
@@ -312,7 +312,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 node

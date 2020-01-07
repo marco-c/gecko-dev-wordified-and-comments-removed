@@ -242,15 +242,15 @@ true
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
 let
 helper
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -286,7 +286,7 @@ of
 TEST_DATA
 )
 {
-yield
+await
 testNode
 (
 helper
@@ -303,12 +303,12 @@ highlighter
 "
 )
 ;
-yield
+await
 hide
 (
 )
 ;
-yield
+await
 finalize
 (
 )
@@ -316,8 +316,8 @@ finalize
 }
 )
 ;
+async
 function
-*
 testNode
 (
 helper
@@ -331,7 +331,7 @@ selector
 =
 data
 ;
-yield
+await
 helper
 .
 show
@@ -344,7 +344,7 @@ selector
 is
 (
 (
-yield
+await
 isOffsetParentVisible
 (
 helper
@@ -372,7 +372,7 @@ selector
 is
 (
 (
-yield
+await
 isCurrentNodeVisible
 (
 helper
@@ -400,7 +400,7 @@ selector
 is
 (
 (
-yield
+await
 hasVisibleArrowsAndHandlers
 (
 helper
@@ -423,8 +423,8 @@ selector
 )
 ;
 }
+async
 function
-*
 isOffsetParentVisible
 (
 {
@@ -435,7 +435,7 @@ isElementHidden
 return
 !
 (
-yield
+await
 isElementHidden
 (
 "
@@ -447,8 +447,8 @@ parent
 )
 ;
 }
+async
 function
-*
 isCurrentNodeVisible
 (
 {
@@ -459,7 +459,7 @@ isElementHidden
 return
 !
 (
-yield
+await
 isElementHidden
 (
 "
@@ -471,8 +471,8 @@ node
 )
 ;
 }
+async
 function
-*
 hasVisibleArrowsAndHandlers
 (
 {
@@ -504,7 +504,7 @@ right
 let
 hidden
 =
-yield
+await
 isElementHidden
 (
 "
@@ -524,7 +524,7 @@ hidden
 return
 !
 (
-yield
+await
 isElementHidden
 (
 "

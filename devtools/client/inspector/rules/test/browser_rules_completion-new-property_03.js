@@ -26,12 +26,12 @@ h1
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -61,7 +61,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -78,7 +78,7 @@ color
 "
 )
 ;
-yield
+await
 runAutocompletionTest
 (
 toolbox
@@ -89,8 +89,8 @@ view
 }
 )
 ;
+async
 function
-*
 runAutocompletionTest
 (
 toolbox
@@ -108,7 +108,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -141,7 +141,7 @@ view
 let
 editor
 =
-yield
+await
 focusNewRuleViewProperty
 (
 ruleEditor
@@ -199,7 +199,7 @@ view
 styleWindow
 )
 ;
-yield
+await
 onSuggest
 ;
 }

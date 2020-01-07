@@ -16,12 +16,12 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 TEST_URI
@@ -32,7 +32,7 @@ let
 inspector
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -40,7 +40,7 @@ openRuleView
 let
 node
 =
-yield
+await
 getNodeFront
 (
 "
@@ -53,7 +53,7 @@ inspector
 let
 children
 =
-yield
+await
 inspector
 .
 markup
@@ -109,7 +109,7 @@ correct
 "
 )
 ;
-yield
+await
 selectNode
 (
 beforeElement
@@ -148,7 +148,7 @@ correct
 "
 )
 ;
-yield
+await
 selectNode
 (
 afterElement

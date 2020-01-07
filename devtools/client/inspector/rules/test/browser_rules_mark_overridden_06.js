@@ -57,12 +57,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -91,12 +91,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -106,7 +106,7 @@ testid
 inspector
 )
 ;
-yield
+await
 testMarkOverridden
 (
 inspector
@@ -116,8 +116,8 @@ view
 }
 )
 ;
+async
 function
-*
 testMarkOverridden
 (
 inspector
@@ -174,7 +174,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -241,7 +241,7 @@ KEY_Enter
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 view

@@ -245,8 +245,8 @@ NODE_SIX
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -256,7 +256,7 @@ inspector
 toolbox
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -274,7 +274,7 @@ scrollBehavior
 instant
 "
 ;
-yield
+await
 toolbox
 .
 switchHost
@@ -326,7 +326,7 @@ ltr
 "
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -337,7 +337,7 @@ uidirection
 0
 )
 ;
-yield
+await
 testBreadcrumbTransitions
 (
 hostWindow
@@ -353,7 +353,7 @@ rtl
 "
 )
 ;
-yield
+await
 pushPref
 (
 "
@@ -364,7 +364,7 @@ uidirection
 1
 )
 ;
-yield
+await
 testBreadcrumbTransitions
 (
 hostWindow
@@ -382,8 +382,8 @@ originalHeight
 }
 )
 ;
+async
 function
-*
 testBreadcrumbTransitions
 (
 hostWindow
@@ -476,14 +476,14 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 NODE_SEVEN
 inspector
 )
 ;
-yield
+await
 breadcrumbsUpdated
 ;
 let
@@ -615,7 +615,7 @@ panelWin
 )
 ;
 }
-yield
+await
 breadcrumbsUpdated
 ;
 let

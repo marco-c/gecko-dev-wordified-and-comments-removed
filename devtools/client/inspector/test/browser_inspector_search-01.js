@@ -378,8 +378,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -388,7 +388,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -401,7 +401,7 @@ searchBox
 =
 inspector
 ;
-yield
+await
 selectNode
 (
 "
@@ -411,7 +411,7 @@ b1
 inspector
 )
 ;
-yield
+await
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -489,7 +489,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 done
 ;
 info
@@ -537,7 +537,7 @@ results
 "
 )
 ;
-yield
+await
 inspector
 .
 search
@@ -564,7 +564,7 @@ complete
 "
 )
 ;
-yield
+await
 inspector
 .
 searchSuggestions
@@ -596,7 +596,7 @@ value
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 "

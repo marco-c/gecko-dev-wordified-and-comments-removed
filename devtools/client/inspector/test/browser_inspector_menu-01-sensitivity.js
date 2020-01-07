@@ -1351,8 +1351,8 @@ null
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1361,7 +1361,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -1406,7 +1406,7 @@ clipboardDataType
 let
 front
 =
-yield
+await
 getNodeFrontForSelector
 (
 selector
@@ -1424,7 +1424,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 front
@@ -1575,8 +1575,8 @@ desc
 }
 )
 ;
+async
 function
-*
 getNodeFrontForSelector
 (
 selector
@@ -1624,7 +1624,7 @@ let
 nodes
 }
 =
-yield
+await
 inspector
 .
 walker

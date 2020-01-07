@@ -27,8 +27,8 @@ showAllAnonymousContent
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -47,7 +47,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -67,7 +67,7 @@ test
 let
 parentFront
 =
-yield
+await
 getNodeFront
 (
 "
@@ -77,7 +77,7 @@ test
 inspector
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -87,7 +87,7 @@ expandNode
 parentFront
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -112,7 +112,7 @@ it
 let
 parentContainer
 =
-yield
+await
 getContainerForNodeFront
 (
 parentFront
@@ -144,7 +144,7 @@ scrollIntoView
 true
 )
 ;
-yield
+await
 selectNode
 (
 beforePseudo
@@ -167,7 +167,7 @@ element
 "
 )
 ;
-yield
+await
 simulateNodeDrag
 (
 inspector
@@ -207,7 +207,7 @@ anonymousParent
 let
 inputFront
 =
-yield
+await
 getNodeFront
 (
 "
@@ -217,7 +217,7 @@ anonymousParent
 inspector
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -227,7 +227,7 @@ expandNode
 inputFront
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -249,7 +249,7 @@ it
 let
 inputContainer
 =
-yield
+await
 getContainerForNodeFront
 (
 inputFront
@@ -281,7 +281,7 @@ scrollIntoView
 true
 )
 ;
-yield
+await
 selectNode
 (
 anonymousDiv
@@ -301,7 +301,7 @@ node
 "
 )
 ;
-yield
+await
 simulateNodeDrag
 (
 inspector

@@ -308,8 +308,8 @@ false
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -318,7 +318,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -345,7 +345,7 @@ test
 selector
 )
 ;
-yield
+await
 selectNode
 (
 test
@@ -375,7 +375,7 @@ let
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 test

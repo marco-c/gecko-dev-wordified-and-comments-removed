@@ -36,12 +36,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -71,12 +71,12 @@ view
 testActor
 }
 =
-yield
+await
 openComputedView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -151,7 +151,7 @@ refreshed
 "
 )
 ;
-yield
+await
 testActor
 .
 setAttribute
@@ -177,7 +177,7 @@ red
 "
 )
 ;
-yield
+await
 onUpdated
 ;
 fontSize

@@ -97,12 +97,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -131,12 +131,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -297,7 +297,7 @@ click
 "
 )
 ;
-yield
+await
 testAppears
 (
 view
@@ -308,8 +308,8 @@ swatch
 }
 )
 ;
+async
 function
-*
 testAppears
 (
 view
@@ -402,7 +402,7 @@ click
 (
 )
 ;
-yield
+await
 onBezierWidgetReady
 ;
 ok
@@ -453,7 +453,7 @@ click
 "
 )
 ;
-yield
+await
 hideTooltipAndWaitForRuleViewChanged
 (
 bezier

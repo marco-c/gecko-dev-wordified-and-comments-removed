@@ -189,8 +189,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -201,7 +201,7 @@ testActor
 tab
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -265,7 +265,7 @@ DOMContentLoaded
 "
 )
 ;
-yield
+await
 domContentLoaded
 ;
 info
@@ -291,7 +291,7 @@ markuploaded
 "
 )
 ;
-yield
+await
 chooseWithInspectElementContextMenu
 (
 "
@@ -309,7 +309,7 @@ load
 "
 )
 ;
-yield
+await
 pageLoaded
 ;
 info
@@ -326,7 +326,7 @@ inspection
 "
 )
 ;
-yield
+await
 markupLoaded
 ;
 info
@@ -343,7 +343,7 @@ inspection
 "
 )
 ;
-yield
+await
 waitForMultipleChildrenUpdates
 (
 inspector
@@ -387,15 +387,15 @@ rendering
 }
 )
 ;
+async
 function
-*
 chooseWithInspectElementContextMenu
 (
 selector
 tab
 )
 {
-yield
+await
 BrowserTestUtils
 .
 synthesizeMouseAtCenter
@@ -416,7 +416,7 @@ tab
 linkedBrowser
 )
 ;
-yield
+await
 EventUtils
 .
 sendString

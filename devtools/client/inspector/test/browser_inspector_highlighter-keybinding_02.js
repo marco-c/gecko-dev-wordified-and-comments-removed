@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,13 +28,13 @@ toolbox
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 startPicker
 (
 toolbox
@@ -64,7 +64,7 @@ DIV
 "
 )
 ;
-yield
+await
 moveMouseOver
 (
 "
@@ -73,7 +73,7 @@ ahoy
 "
 )
 ;
-yield
+await
 doKeyHover
 (
 {
@@ -92,7 +92,7 @@ options
 ok
 (
 (
-yield
+await
 testActor
 .
 assertHighlightedNode
@@ -119,7 +119,7 @@ OK
 "
 )
 ;
-yield
+await
 doKeyHover
 (
 {
@@ -138,7 +138,7 @@ options
 ok
 (
 (
-yield
+await
 testActor
 .
 assertHighlightedNode
@@ -176,7 +176,7 @@ DIV
 "
 )
 ;
-yield
+await
 doKeyHover
 (
 {
@@ -192,7 +192,7 @@ options
 }
 )
 ;
-yield
+await
 doKeyHover
 (
 {
@@ -211,7 +211,7 @@ options
 ok
 (
 (
-yield
+await
 testActor
 .
 assertHighlightedNode
@@ -238,7 +238,7 @@ OK
 "
 )
 ;
-yield
+await
 doKeyHover
 (
 {
@@ -257,7 +257,7 @@ options
 ok
 (
 (
-yield
+await
 testActor
 .
 assertHighlightedNode
@@ -307,7 +307,7 @@ picker
 "
 )
 ;
-yield
+await
 toolbox
 .
 highlighterUtils

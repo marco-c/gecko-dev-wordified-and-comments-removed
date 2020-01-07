@@ -370,12 +370,12 @@ inline
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -404,7 +404,7 @@ inspector
 boxmodel
 }
 =
-yield
+await
 openLayoutView
 (
 )
@@ -723,7 +723,7 @@ tooltips
 "
 )
 ;
-yield
+await
 selectNode
 (
 selector

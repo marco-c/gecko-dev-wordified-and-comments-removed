@@ -29,8 +29,8 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -39,13 +39,13 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 inspector
 .
 markup
@@ -71,7 +71,7 @@ value
 let
 container
 =
-yield
+await
 focusNode
 (
 "
@@ -114,7 +114,7 @@ tagEditor
 inspector
 )
 ;
-yield
+await
 onCancelReselect
 ;
 ok
@@ -191,7 +191,7 @@ span
 inspector
 )
 ;
-yield
+await
 onReselect
 ;
 ok
@@ -212,7 +212,7 @@ event
 let
 spanFront
 =
-yield
+await
 getNodeFront
 (
 "

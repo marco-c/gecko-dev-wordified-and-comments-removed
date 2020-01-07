@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -26,7 +26,7 @@ let
 view
 }
 =
-yield
+await
 openFontInspectorForURL
 (
 TEST_URI
@@ -226,7 +226,7 @@ click
 (
 )
 ;
-yield
+await
 onExpanded
 ;
 ok
@@ -382,7 +382,7 @@ click
 (
 )
 ;
-yield
+await
 onExpanded
 ;
 ok

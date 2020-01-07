@@ -41,12 +41,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -75,12 +75,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -101,7 +101,7 @@ view
 let
 editor
 =
-yield
+await
 focusNewRuleViewProperty
 (
 elementRuleEditor
@@ -164,7 +164,7 @@ KEY_Escape
 "
 )
 ;
-yield
+await
 onBlur
 ;
 is

@@ -64,12 +64,12 @@ ShapesHighlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -98,7 +98,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -110,7 +110,7 @@ view
 .
 highlighters
 ;
-yield
+await
 selectNode
 (
 "
@@ -272,7 +272,7 @@ view
 styleWindow
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 info
@@ -401,7 +401,7 @@ view
 styleWindow
 )
 ;
-yield
+await
 onHighlighterHidden
 ;
 info
@@ -485,7 +485,7 @@ view
 styleWindow
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 info
@@ -621,7 +621,7 @@ view
 styleWindow
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 info

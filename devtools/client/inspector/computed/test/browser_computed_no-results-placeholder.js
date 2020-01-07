@@ -52,12 +52,12 @@ span
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -86,12 +86,12 @@ inspector
 view
 }
 =
-yield
+await
 openComputedView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -101,7 +101,7 @@ matches
 inspector
 )
 ;
-yield
+await
 enterInvalidFilter
 (
 inspector
@@ -113,7 +113,7 @@ checkNoResultsPlaceholderShown
 view
 )
 ;
-yield
+await
 clearFilterText
 (
 inspector
@@ -128,8 +128,8 @@ view
 }
 )
 ;
+async
 function
-*
 enterInvalidFilter
 (
 inspector
@@ -199,7 +199,7 @@ computedView
 styleWindow
 )
 ;
-yield
+await
 onRefreshed
 ;
 }
@@ -263,8 +263,8 @@ visible
 )
 ;
 }
+async
 function
-*
 clearFilterText
 (
 inspector
@@ -331,7 +331,7 @@ computedView
 styleWindow
 )
 ;
-yield
+await
 onRefreshed
 ;
 }

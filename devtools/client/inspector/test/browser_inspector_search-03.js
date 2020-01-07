@@ -856,8 +856,8 @@ p3
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -866,7 +866,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -888,7 +888,7 @@ searchSuggestions
 .
 searchPopup
 ;
-yield
+await
 focusSearchBoxUsingShortcut
 (
 inspector
@@ -949,7 +949,7 @@ inspector
 panelWin
 )
 ;
-yield
+await
 command
 ;
 info
@@ -964,7 +964,7 @@ complete
 "
 )
 ;
-yield
+await
 inspector
 .
 searchSuggestions

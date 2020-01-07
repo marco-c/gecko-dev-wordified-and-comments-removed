@@ -109,12 +109,12 @@ body
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -143,12 +143,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -158,7 +158,7 @@ testid
 inspector
 )
 ;
-yield
+await
 testMarkOverridden
 (
 inspector
@@ -169,7 +169,6 @@ view
 )
 ;
 function
-*
 testMarkOverridden
 (
 inspector

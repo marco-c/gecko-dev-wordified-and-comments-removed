@@ -43,12 +43,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -86,7 +86,7 @@ displayed
 "
 )
 ;
-yield
+await
 checkFlexboxHighlighter
 (
 )
@@ -117,7 +117,7 @@ gBrowser
 selectedTab
 )
 ;
-yield
+await
 gDevTools
 .
 closeToolbox
@@ -125,7 +125,7 @@ closeToolbox
 target
 )
 ;
-yield
+await
 refreshTab
 (
 )
@@ -149,7 +149,7 @@ page
 "
 )
 ;
-yield
+await
 checkFlexboxHighlighter
 (
 )
@@ -157,8 +157,8 @@ checkFlexboxHighlighter
 }
 )
 ;
+async
 function
-*
 checkFlexboxHighlighter
 (
 )
@@ -169,7 +169,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -181,7 +181,7 @@ highlighters
 =
 view
 ;
-yield
+await
 selectNode
 (
 "
@@ -262,7 +262,7 @@ click
 (
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 ok

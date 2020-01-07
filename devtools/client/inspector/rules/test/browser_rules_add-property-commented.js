@@ -23,12 +23,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -57,12 +57,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -72,7 +72,7 @@ testid
 inspector
 )
 ;
-yield
+await
 testCreateNewSetOfCommentedAndUncommentedProperties
 (
 view
@@ -81,8 +81,8 @@ view
 }
 )
 ;
+async
 function
-*
 testCreateNewSetOfCommentedAndUncommentedProperties
 (
 view
@@ -132,7 +132,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -266,7 +266,7 @@ view
 styleWindow
 )
 ;
-yield
+await
 onModifications
 ;
 let

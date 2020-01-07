@@ -2073,12 +2073,12 @@ n
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 runEventPopupTests
 (
 TEST_URL

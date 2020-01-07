@@ -48,12 +48,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -82,12 +82,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -129,7 +129,7 @@ property
 "
 )
 ;
-yield
+await
 togglePropStatus
 (
 view
@@ -157,7 +157,7 @@ disabled
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -211,7 +211,7 @@ view
 styleWindow
 )
 ;
-yield
+await
 onDone
 ;
 is
@@ -259,7 +259,7 @@ enabled
 is
 (
 (
-yield
+await
 getComputedStyleProperty
 (
 "
@@ -355,7 +355,7 @@ set
 is
 (
 (
-yield
+await
 getComputedStyleProperty
 (
 "

@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -43,7 +43,7 @@ view
 testActor
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -85,7 +85,7 @@ updated
 "
 )
 ;
-yield
+await
 toggleClassPanelCheckBox
 (
 view
@@ -124,7 +124,7 @@ true
 let
 newClassName
 =
-yield
+await
 testActor
 .
 getAttribute
@@ -170,7 +170,7 @@ thing
 "
 )
 ;
-yield
+await
 toggleClassPanelCheckBox
 (
 view
@@ -208,7 +208,7 @@ false
 ;
 newClassName
 =
-yield
+await
 testActor
 .
 getAttribute
@@ -256,7 +256,7 @@ again
 "
 )
 ;
-yield
+await
 toggleClassPanelCheckBox
 (
 view
@@ -294,7 +294,7 @@ true
 ;
 newClassName
 =
-yield
+await
 testActor
 .
 getAttribute
@@ -344,7 +344,7 @@ again
 "
 )
 ;
-yield
+await
 toggleClassPanelCheckBox
 (
 view
@@ -382,7 +382,7 @@ true
 ;
 newClassName
 =
-yield
+await
 testActor
 .
 getAttribute

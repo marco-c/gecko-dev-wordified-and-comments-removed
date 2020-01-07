@@ -1013,8 +1013,8 @@ collapseAttributeLength
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1024,13 +1024,13 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 runAddAttributesTests
 (
 TEST_DATA

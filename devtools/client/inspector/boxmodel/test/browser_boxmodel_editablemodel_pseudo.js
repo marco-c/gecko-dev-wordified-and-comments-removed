@@ -70,12 +70,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -99,12 +99,12 @@ boxmodel
 testActor
 }
 =
-yield
+await
 openLayoutView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -133,7 +133,7 @@ element
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -159,7 +159,7 @@ correct
 "
 )
 ;
-yield
+await
 checkValueInBoxModel
 (
 "
@@ -199,7 +199,7 @@ element
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -225,7 +225,7 @@ correct
 "
 )
 ;
-yield
+await
 checkValueInBoxModel
 (
 "
@@ -265,7 +265,7 @@ element
 is
 (
 (
-yield
+await
 getStyle
 (
 testActor
@@ -287,7 +287,7 @@ correct
 "
 )
 ;
-yield
+await
 checkValueInBoxModel
 (
 "
@@ -311,8 +311,8 @@ document
 }
 )
 ;
+async
 function
-*
 checkValueInBoxModel
 (
 selector
@@ -439,7 +439,7 @@ doc
 defaultView
 )
 ;
-yield
+await
 onBlur
 ;
 }

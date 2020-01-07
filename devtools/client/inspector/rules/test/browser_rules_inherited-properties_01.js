@@ -63,12 +63,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -97,12 +97,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -112,7 +112,7 @@ test1
 inspector
 )
 ;
-yield
+await
 simpleInherit
 (
 inspector
@@ -123,7 +123,6 @@ view
 )
 ;
 function
-*
 simpleInherit
 (
 inspector

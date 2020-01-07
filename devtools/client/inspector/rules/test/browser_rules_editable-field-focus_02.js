@@ -67,12 +67,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -101,12 +101,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -116,7 +116,7 @@ testid
 inspector
 )
 ;
-yield
+await
 testEditableFieldFocus
 (
 inspector
@@ -134,8 +134,8 @@ true
 }
 )
 ;
+async
 function
-*
 testEditableFieldFocus
 (
 inspector
@@ -159,7 +159,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -199,7 +199,7 @@ view
 1
 )
 ;
-yield
+await
 focusNextField
 (
 view
@@ -255,7 +255,7 @@ textProp
 .
 editor
 ;
-yield
+await
 focusNextField
 (
 view
@@ -264,7 +264,7 @@ commitKey
 options
 )
 ;
-yield
+await
 assertEditor
 (
 view
@@ -283,7 +283,7 @@ value
 "
 )
 ;
-yield
+await
 focusNextFieldAndExpectChange
 (
 view
@@ -292,7 +292,7 @@ commitKey
 options
 )
 ;
-yield
+await
 assertEditor
 (
 view
@@ -320,7 +320,7 @@ view
 1
 )
 ;
-yield
+await
 focusNextField
 (
 view
@@ -329,7 +329,7 @@ commitKey
 options
 )
 ;
-yield
+await
 assertEditor
 (
 view
@@ -360,7 +360,7 @@ view
 0
 )
 ;
-yield
+await
 focusNextField
 (
 view
@@ -389,8 +389,8 @@ span
 )
 ;
 }
+async
 function
-*
 focusNextFieldAndExpectChange
 (
 view
@@ -413,7 +413,7 @@ changed
 "
 )
 ;
-yield
+await
 focusNextField
 (
 view
@@ -422,12 +422,12 @@ commitKey
 options
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 }
+async
 function
-*
 focusNextField
 (
 view
@@ -461,12 +461,11 @@ view
 styleWindow
 )
 ;
-yield
+await
 onFocus
 ;
 }
 function
-*
 assertEditor
 (
 view

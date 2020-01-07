@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -26,7 +26,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -45,7 +45,7 @@ attribute
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -75,7 +75,7 @@ let
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -154,10 +154,10 @@ target
 tab
 }
 =
-yield
+await
 onTabOpened
 ;
-yield
+await
 BrowserTestUtils
 .
 browserLoaded
@@ -226,7 +226,7 @@ attribute
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -256,7 +256,7 @@ ref
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -335,7 +335,7 @@ onFollowLink
 (
 )
 ;
-yield
+await
 onSelection
 ;
 ok
@@ -385,7 +385,7 @@ attribute
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -415,7 +415,7 @@ ref
 editor
 }
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -498,7 +498,7 @@ onFollowLink
 (
 )
 ;
-yield
+await
 onFailed
 ;
 ok

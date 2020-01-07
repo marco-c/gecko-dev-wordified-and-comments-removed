@@ -116,8 +116,8 @@ show_pseudo_elements
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -131,7 +131,7 @@ PSEUDO_PREF
 true
 )
 ;
-yield
+await
 addTab
 (
 "
@@ -160,7 +160,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -175,7 +175,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -185,7 +185,7 @@ testclass
 inspector
 )
 ;
-yield
+await
 testEditSelector
 (
 view
@@ -211,7 +211,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -221,7 +221,7 @@ testid
 inspector
 )
 ;
-yield
+await
 checkModifiedElement
 (
 view
@@ -247,7 +247,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -257,7 +257,7 @@ testid3
 inspector
 )
 ;
-yield
+await
 testEditSelector
 (
 view
@@ -282,7 +282,7 @@ element
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -292,7 +292,7 @@ testclass2
 inspector
 )
 ;
-yield
+await
 checkModifiedElement
 (
 view
@@ -319,8 +319,8 @@ PSEUDO_PREF
 }
 )
 ;
+async
 function
-*
 testEditSelector
 (
 view
@@ -374,7 +374,7 @@ view
 let
 editor
 =
-yield
+await
 focusEditableField
 (
 view
@@ -467,7 +467,7 @@ KEY_Enter
 "
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 is
@@ -559,7 +559,6 @@ element
 ;
 }
 function
-*
 checkModifiedElement
 (
 view

@@ -73,8 +73,8 @@ div
 "
 validate
 :
+async
 function
-*
 (
 {
 pageNodeFront
@@ -98,7 +98,7 @@ selected
 let
 textNodeName
 =
-yield
+await
 testActor
 .
 eval
@@ -121,7 +121,7 @@ nodeName
 let
 textNodeData
 =
-yield
+await
 testActor
 .
 eval
@@ -246,8 +246,8 @@ body
 "
 validate
 :
+async
 function
-*
 (
 {
 pageNodeFront
@@ -271,7 +271,7 @@ selected
 let
 textNodeName
 =
-yield
+await
 testActor
 .
 eval
@@ -294,7 +294,7 @@ nodeName
 let
 textNodeData
 =
-yield
+await
 testActor
 .
 eval
@@ -408,8 +408,8 @@ div
 "
 validate
 :
+async
 function
-*
 (
 {
 pageNodeFront
@@ -433,7 +433,7 @@ selected
 let
 emText
 =
-yield
+await
 testActor
 .
 getProperty
@@ -451,7 +451,7 @@ textContent
 let
 strongText
 =
-yield
+await
 testActor
 .
 getProperty
@@ -550,8 +550,8 @@ p
 "
 validate
 :
+async
 function
-*
 (
 {
 pageNodeFront
@@ -575,7 +575,7 @@ selected
 let
 divText
 =
-yield
+await
 testActor
 .
 getProperty
@@ -592,7 +592,7 @@ textContent
 let
 divTag
 =
-yield
+await
 testActor
 .
 getProperty
@@ -609,7 +609,7 @@ tagName
 let
 pText
 =
-yield
+await
 testActor
 .
 getProperty
@@ -627,7 +627,7 @@ textContent
 let
 pTag
 =
-yield
+await
 testActor
 .
 getProperty
@@ -767,8 +767,8 @@ p
 "
 validate
 :
+async
 function
-*
 (
 {
 pageNodeFront
@@ -792,7 +792,7 @@ selected
 let
 num
 =
-yield
+await
 testActor
 .
 getNumberOfElementMatches
@@ -807,7 +807,7 @@ div
 let
 pText
 =
-yield
+await
 testActor
 .
 getProperty
@@ -824,7 +824,7 @@ textContent
 let
 pTag
 =
-yield
+await
 testActor
 .
 getProperty
@@ -841,7 +841,7 @@ tagName
 let
 divText
 =
-yield
+await
 testActor
 .
 getProperty
@@ -860,7 +860,7 @@ textContent
 let
 divTag
 =
-yield
+await
 testActor
 .
 getProperty
@@ -1051,8 +1051,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -1062,7 +1062,7 @@ inspector
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -1078,7 +1078,7 @@ focus
 (
 )
 ;
-yield
+await
 runEditOuterHTMLTests
 (
 TEST_DATA

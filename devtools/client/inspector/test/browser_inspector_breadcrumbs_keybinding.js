@@ -184,8 +184,8 @@ i2
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -194,7 +194,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URI
@@ -210,7 +210,7 @@ node
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -345,13 +345,13 @@ synthesizeKey
 key
 )
 ;
-yield
+await
 onUpdated
 ;
 let
 newNodeFront
 =
-yield
+await
 getNodeFront
 (
 newSelection

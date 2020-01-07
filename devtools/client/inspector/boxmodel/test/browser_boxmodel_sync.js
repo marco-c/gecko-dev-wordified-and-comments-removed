@@ -19,12 +19,12 @@ p
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -47,7 +47,7 @@ inspector
 boxmodel
 }
 =
-yield
+await
 openLayoutView
 (
 )
@@ -70,7 +70,7 @@ view
 "
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -163,7 +163,7 @@ document
 defaultView
 )
 ;
-yield
+await
 waitForUpdate
 (
 inspector
@@ -276,7 +276,7 @@ selected
 "
 )
 ;
-yield
+await
 onRuleViewSelected
 ;
 info
@@ -293,7 +293,7 @@ refreshed
 "
 )
 ;
-yield
+await
 onRuleViewRefreshed
 ;
 ok

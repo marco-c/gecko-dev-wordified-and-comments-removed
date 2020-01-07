@@ -67,12 +67,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -101,12 +101,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -116,7 +116,7 @@ testid
 inspector
 )
 ;
-yield
+await
 testComputedList
 (
 inspector
@@ -127,7 +127,6 @@ view
 )
 ;
 function
-*
 testComputedList
 (
 inspector

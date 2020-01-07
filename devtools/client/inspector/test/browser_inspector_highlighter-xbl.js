@@ -16,8 +16,8 @@ xul
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -28,13 +28,13 @@ toolbox
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
 )
 ;
-yield
+await
 startPicker
 (
 toolbox
@@ -49,7 +49,7 @@ scale
 "
 )
 ;
-yield
+await
 moveMouseOver
 (
 "
@@ -58,7 +58,7 @@ scale
 "
 )
 ;
-yield
+await
 doKeyPick
 (
 {

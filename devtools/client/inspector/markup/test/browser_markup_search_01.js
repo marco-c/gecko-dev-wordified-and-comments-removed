@@ -16,8 +16,8 @@ html
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -26,7 +26,7 @@ let
 inspector
 }
 =
-yield
+await
 openInspectorForURL
 (
 TEST_URL
@@ -35,7 +35,7 @@ TEST_URL
 let
 container
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -83,7 +83,7 @@ em
 "
 )
 ;
-yield
+await
 searchFor
 (
 "
@@ -94,7 +94,7 @@ inspector
 ;
 container
 =
-yield
+await
 getContainerForSelector
 (
 "
@@ -126,7 +126,7 @@ view
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 "
@@ -186,7 +186,7 @@ ul
 ]
 )
 {
-yield
+await
 searchFor
 (
 node
@@ -195,7 +195,7 @@ inspector
 ;
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 node
@@ -232,8 +232,8 @@ node
 }
 )
 ;
+async
 function
-*
 searchFor
 (
 selector
@@ -264,10 +264,10 @@ selector
 inspector
 )
 ;
-yield
+await
 onNewNodeFront
 ;
-yield
+await
 inspector
 .
 once

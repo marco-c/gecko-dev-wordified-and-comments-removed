@@ -160,8 +160,8 @@ body
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
@@ -172,7 +172,7 @@ toolbox
 testActor
 }
 =
-yield
+await
 openInspectorForURL
 (
 PAGE_1
@@ -211,7 +211,7 @@ navigation
 "
 )
 ;
-yield
+await
 selectNode
 (
 nodeToSelect
@@ -219,7 +219,7 @@ inspector
 )
 ;
 }
-yield
+await
 navigateToAndWaitForNewRoot
 (
 url
@@ -228,7 +228,7 @@ url
 let
 nodeFront
 =
-yield
+await
 getNodeFront
 (
 selectedNode
@@ -266,8 +266,8 @@ navigation
 )
 ;
 }
+async
 function
-*
 navigateToAndWaitForNewRoot
 (
 url
@@ -293,7 +293,7 @@ navigation
 let
 current
 =
-yield
+await
 testActor
 .
 eval
@@ -371,7 +371,7 @@ target
 .
 activeTab
 ;
-yield
+await
 activeTab
 .
 reload
@@ -391,19 +391,19 @@ ready
 "
 )
 ;
-yield
+await
 markuploaded
 ;
-yield
+await
 onNewRoot
 ;
-yield
+await
 onUpdated
 ;
 }
 else
 {
-yield
+await
 navigateTo
 (
 inspector

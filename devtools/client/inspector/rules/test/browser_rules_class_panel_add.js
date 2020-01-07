@@ -193,12 +193,12 @@ class5
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -223,7 +223,7 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -420,11 +420,11 @@ change
 "
 )
 ;
-yield
+await
 onMutation
 ;
 }
-yield
+await
 onEmpty
 ;
 info
@@ -443,7 +443,7 @@ node
 let
 className
 =
-yield
+await
 testActor
 .
 getAttribute

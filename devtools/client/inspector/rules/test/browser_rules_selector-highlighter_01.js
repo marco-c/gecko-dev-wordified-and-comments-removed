@@ -36,12 +36,12 @@ highlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -69,7 +69,7 @@ let
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
@@ -106,7 +106,7 @@ icon
 let
 icon
 =
-yield
+await
 getRuleViewSelectorHighlighterIcon
 (
 view
@@ -148,7 +148,7 @@ styleWindow
 let
 isVisible
 =
-yield
+await
 onToggled
 ;
 ok

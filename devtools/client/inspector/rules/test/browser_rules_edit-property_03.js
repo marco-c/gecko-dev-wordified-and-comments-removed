@@ -88,12 +88,12 @@ div
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -122,12 +122,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -160,7 +160,7 @@ textProps
 .
 editor
 ;
-yield
+await
 focusEditableField
 (
 view
@@ -198,7 +198,7 @@ changed
 "
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -215,7 +215,7 @@ RETURN
 ]
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 info
@@ -233,7 +233,7 @@ editors
 "
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -260,7 +260,7 @@ changed
 "
 )
 ;
-yield
+await
 sendKeysAndWaitForFocus
 (
 view
@@ -274,7 +274,7 @@ RETURN
 ]
 )
 ;
-yield
+await
 onRuleViewChanged
 ;
 isnot

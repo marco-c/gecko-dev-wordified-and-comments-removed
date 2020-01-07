@@ -75,12 +75,12 @@ CssTransformHighlighter
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 addTab
 (
 "
@@ -109,12 +109,12 @@ inspector
 view
 }
 =
-yield
+await
 openRuleView
 (
 )
 ;
-yield
+await
 selectNode
 (
 "
@@ -233,7 +233,7 @@ click
 (
 )
 ;
-yield
+await
 classRuleEditor
 .
 rule
@@ -359,7 +359,7 @@ valueSpan
 }
 )
 ;
-yield
+await
 onHighlighterShown
 ;
 }
