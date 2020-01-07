@@ -4,6 +4,87 @@ from
 webdriver
 import
 error
+from
+tests
+.
+support
+.
+asserts
+import
+assert_success
+def
+execute_script
+(
+session
+script
+args
+=
+None
+)
+:
+    
+if
+args
+is
+None
+:
+        
+args
+=
+[
+]
+    
+body
+=
+{
+"
+script
+"
+:
+script
+"
+args
+"
+:
+args
+}
+    
+return
+session
+.
+transport
+.
+send
+(
+        
+"
+POST
+"
+"
+/
+session
+/
+{
+session_id
+}
+/
+execute
+/
+sync
+"
+.
+format
+(
+            
+session_id
+=
+session
+.
+session_id
+)
+        
+body
+)
 def
 test_handle_prompt_accept
 (
@@ -43,12 +124,11 @@ accept
 }
 )
     
-value
+response
 =
-session
-.
 execute_script
 (
+session
 "
 window
 .
@@ -62,13 +142,12 @@ Hello
 "
 )
     
-assert
-value
-is
+assert_success
+(
+response
 None
+)
     
-title
-=
 session
 .
 title
@@ -130,12 +209,11 @@ dismiss
 }
 )
     
-value
+response
 =
-session
-.
 execute_script
 (
+session
 "
 window
 .
@@ -149,13 +227,12 @@ Hello
 "
 )
     
-assert
-value
-is
+assert_success
+(
+response
 None
+)
     
-title
-=
 session
 .
 title
@@ -219,12 +296,11 @@ notify
 }
 )
     
-value
+response
 =
-session
-.
 execute_script
 (
+session
 "
 window
 .
@@ -238,10 +314,11 @@ Hello
 "
 )
     
-assert
-value
-is
+assert_success
+(
+response
 None
+)
     
 with
 pytest
@@ -254,8 +331,6 @@ UnexpectedAlertOpenException
 )
 :
         
-title
-=
 session
 .
 title
@@ -319,12 +394,11 @@ notify
 }
 )
     
-value
+response
 =
-session
-.
 execute_script
 (
+session
 "
 window
 .
@@ -338,10 +412,11 @@ Hello
 "
 )
     
-assert
-value
-is
+assert_success
+(
+response
 None
+)
     
 with
 pytest
@@ -354,8 +429,6 @@ UnexpectedAlertOpenException
 )
 :
         
-title
-=
 session
 .
 title
@@ -417,12 +490,11 @@ ignore
 }
 )
     
-value
+response
 =
-session
-.
 execute_script
 (
+session
 "
 window
 .
@@ -436,10 +508,11 @@ Hello
 "
 )
     
-assert
-value
-is
+assert_success
+(
+response
 None
+)
     
 with
 pytest
@@ -452,8 +525,6 @@ UnexpectedAlertOpenException
 )
 :
         
-title
-=
 session
 .
 title
@@ -497,12 +568,11 @@ add_browser_capabilites
 }
 )
     
-value
+response
 =
-session
-.
 execute_script
 (
+session
 "
 window
 .
@@ -516,10 +586,11 @@ Hello
 "
 )
     
-assert
-value
-is
+assert_success
+(
+response
 None
+)
     
 with
 pytest
@@ -532,8 +603,6 @@ UnexpectedAlertOpenException
 )
 :
         
-title
-=
 session
 .
 title
@@ -595,12 +664,11 @@ accept
 }
 )
     
-value
+response
 =
-session
-.
 execute_script
 (
+session
 "
 window
 .
@@ -623,10 +691,11 @@ Bye
 "
 )
     
-assert
-value
-is
+assert_success
+(
+response
 None
+)
     
 session
 .

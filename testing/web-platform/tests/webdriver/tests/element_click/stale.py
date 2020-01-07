@@ -1,7 +1,3 @@
-import
-pytest
-import
-webdriver
 from
 tests
 .
@@ -19,7 +15,7 @@ inline
 import
 inline
 def
-click_element
+element_click
 (
 session
 element
@@ -56,27 +52,18 @@ click
 .
 format
 (
-*
-*
-{
             
-"
 session_id
-"
-:
+=
 session
 .
 session_id
             
-"
 element_id
-"
-:
+=
 element
 .
 id
-        
-}
 )
 )
 def
@@ -140,7 +127,7 @@ button
     
 response
 =
-click_element
+element_click
 (
 session
 button

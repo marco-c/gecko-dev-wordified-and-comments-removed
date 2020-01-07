@@ -27,7 +27,7 @@ inline
 import
 inline
 def
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -42,6 +42,7 @@ transport
 .
 send
 (
+        
 "
 GET
 "
@@ -64,20 +65,20 @@ attribute
 attr
 }
 "
-                                  
 .
 format
 (
+            
 session_id
 =
 session
 .
 session_id
-                                          
+            
 element_id
 =
 element
-                                          
+            
 attr
 =
 attr
@@ -107,7 +108,7 @@ close
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 "
@@ -223,7 +224,7 @@ dismiss1
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -276,7 +277,7 @@ dismiss2
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -329,7 +330,7 @@ dismiss3
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -453,7 +454,7 @@ dismiss1
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -506,7 +507,7 @@ dismiss2
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -559,7 +560,7 @@ dismiss3
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -651,7 +652,7 @@ dismiss1
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -706,7 +707,7 @@ dismiss2
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -761,7 +762,7 @@ dismiss3
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -800,7 +801,7 @@ session
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 "
@@ -867,7 +868,7 @@ refresh
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -928,7 +929,7 @@ False
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -999,7 +1000,7 @@ checked
     
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -1366,7 +1367,7 @@ result
 =
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -1424,7 +1425,7 @@ result
 =
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -1477,7 +1478,7 @@ result
 =
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -1529,7 +1530,7 @@ result
 =
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element
@@ -1582,7 +1583,7 @@ result
 =
 result
 =
-get_attribute
+get_element_attribute
 (
 session
 element

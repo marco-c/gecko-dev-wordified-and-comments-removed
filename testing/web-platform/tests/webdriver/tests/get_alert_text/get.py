@@ -16,7 +16,7 @@ inline
 import
 inline
 def
-get_dialog_text
+get_alert_text
 (
 session
 )
@@ -29,6 +29,7 @@ transport
 .
 send
 (
+        
 "
 GET
 "
@@ -43,15 +44,15 @@ alert
 /
 text
 "
-                                  
 .
 format
 (
-session_id
-=
+*
+*
+vars
+(
 session
-.
-session_id
+)
 )
 )
 def
@@ -78,7 +79,7 @@ close
     
 response
 =
-get_dialog_text
+get_alert_text
 (
 session
 )
@@ -101,7 +102,7 @@ session
     
 response
 =
-get_dialog_text
+get_alert_text
 (
 session
 )
@@ -150,7 +151,7 @@ script
     
 response
 =
-get_dialog_text
+get_alert_text
 (
 session
 )
@@ -238,7 +239,7 @@ script
     
 response
 =
-get_dialog_text
+get_alert_text
 (
 session
 )
@@ -332,7 +333,7 @@ script
     
 response
 =
-get_dialog_text
+get_alert_text
 (
 session
 )

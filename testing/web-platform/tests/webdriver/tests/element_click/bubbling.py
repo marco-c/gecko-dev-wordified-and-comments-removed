@@ -15,7 +15,7 @@ inline
 import
 inline
 def
-click
+element_click
 (
 session
 element
@@ -1028,7 +1028,7 @@ False
     
 response
 =
-click
+element_click
 (
 session
 over

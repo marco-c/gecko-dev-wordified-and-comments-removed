@@ -23,7 +23,7 @@ inline
 import
 inline
 def
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -42,7 +42,6 @@ send
 "
 POST
 "
-        
 "
 /
 session
@@ -137,7 +136,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -208,7 +207,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -338,7 +337,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
@@ -521,7 +520,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 option_bar
@@ -611,7 +610,7 @@ False
     
 response
 =
-send_keys_to_element
+element_send_keys
 (
 session
 element
