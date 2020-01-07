@@ -840,7 +840,7 @@ snapshot
 ;
 }
 }
-Register
+void
 CodeGeneratorMIPS
 :
 :
@@ -850,6 +850,9 @@ const
 ValueOperand
 &
 value
+ScratchTagScope
+&
+tag
 )
 {
 return

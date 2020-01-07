@@ -476,13 +476,16 @@ size_t
 pos
 )
 ;
-Register
+void
 splitTagForTest
 (
 const
 ValueOperand
 &
 value
+ScratchTagScope
+&
+tag
 )
 ;
 public
