@@ -638,7 +638,7 @@ content
 type
 =
 "
-AlignJustifyContent
+ContentDistribution
 "
 initial_value
 =
@@ -646,7 +646,7 @@ initial_value
 specified
 :
 :
-AlignJustifyContent
+ContentDistribution
 :
 :
 normal
@@ -851,7 +851,7 @@ content
 type
 =
 "
-AlignJustifyContent
+ContentDistribution
 "
 initial_value
 =
@@ -859,7 +859,7 @@ initial_value
 specified
 :
 :
-AlignJustifyContent
+ContentDistribution
 :
 :
 normal
@@ -1333,7 +1333,7 @@ self
 type
 =
 "
-AlignJustifySelf
+SelfAlignment
 "
 initial_value
 =
@@ -1341,7 +1341,7 @@ initial_value
 specified
 :
 :
-AlignJustifySelf
+SelfAlignment
 :
 :
 auto
@@ -1399,7 +1399,7 @@ self
 type
 =
 "
-AlignJustifySelf
+SelfAlignment
 "
 initial_value
 =
@@ -1407,7 +1407,7 @@ initial_value
 specified
 :
 :
-AlignJustifySelf
+SelfAlignment
 :
 :
 auto
@@ -1470,7 +1470,7 @@ specified
 align
 :
 :
-AlignJustifySelf
+SelfAlignment
 )
 ;
 %

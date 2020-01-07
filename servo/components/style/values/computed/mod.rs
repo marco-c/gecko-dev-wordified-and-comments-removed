@@ -260,8 +260,8 @@ align
 :
 {
 AlignItems
-AlignJustifyContent
-AlignJustifySelf
+ContentDistribution
+SelfAlignment
 JustifyItems
 }
 ;
