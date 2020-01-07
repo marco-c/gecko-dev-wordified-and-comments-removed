@@ -7985,6 +7985,19 @@ widget
 =
 mWidget
 ;
+wr
+:
+:
+WrWindowId
+windowId
+=
+wr
+:
+:
+NewWindowId
+(
+)
+;
 RefPtr
 <
 wr
@@ -8007,6 +8020,7 @@ Move
 (
 widget
 )
+windowId
 aSize
 )
 ;

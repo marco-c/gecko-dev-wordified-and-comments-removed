@@ -119,7 +119,7 @@ namespace
 layers
 {
 class
-CompositorBridgeParentBase
+CompositorBridgeParent
 ;
 class
 WebRenderBridgeParent
@@ -670,7 +670,7 @@ Create
 layers
 :
 :
-CompositorBridgeParentBase
+CompositorBridgeParent
 *
 aBridge
 RefPtr
@@ -683,6 +683,13 @@ CompositorWidget
 &
 &
 aWidget
+const
+wr
+:
+:
+WrWindowId
+&
+aWindowId
 LayoutDeviceIntSize
 aSize
 )
