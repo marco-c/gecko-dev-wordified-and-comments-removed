@@ -50,6 +50,14 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+ServiceWorkerParentInterceptEnabled
+(
+)
+)
+;
 MOZ_ASSERT
 (
 aPromise
