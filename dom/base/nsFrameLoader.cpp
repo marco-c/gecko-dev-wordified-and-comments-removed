@@ -7349,12 +7349,7 @@ ourHistory
 ourHistory
 -
 >
-LegacySHistoryInternal
-(
-)
--
->
-EvictAllContentViewers
+EvictLocalContentViewers
 (
 )
 ;
@@ -7367,12 +7362,7 @@ otherHistory
 otherHistory
 -
 >
-LegacySHistoryInternal
-(
-)
--
->
-EvictAllContentViewers
+EvictLocalContentViewers
 (
 )
 ;

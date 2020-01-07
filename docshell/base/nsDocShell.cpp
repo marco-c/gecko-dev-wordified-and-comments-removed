@@ -22859,12 +22859,7 @@ mSessionHistory
 mSessionHistory
 -
 >
-LegacySHistoryInternal
-(
-)
--
->
-EvictAllContentViewers
+EvictLocalContentViewers
 (
 )
 ;

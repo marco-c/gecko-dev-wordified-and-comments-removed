@@ -144,6 +144,11 @@ ErrorResult
 aRv
 )
 ;
+void
+EvictLocalContentViewers
+(
+)
+;
 nsISHistory
 *
 LegacySHistory
