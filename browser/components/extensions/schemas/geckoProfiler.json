@@ -132,6 +132,9 @@ tasktracer
 "
 threads
 "
+"
+trackopts
+"
 ]
 }
 ]
