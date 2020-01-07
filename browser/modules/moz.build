@@ -960,11 +960,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-AboutHome
-.
-jsm
-'
-'
 AboutNewTab
 .
 jsm
