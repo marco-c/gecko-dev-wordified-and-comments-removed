@@ -302,7 +302,7 @@ cancelRequest
 (
 )
 {
-PaymentRequest
+paymentRequest
 .
 cancel
 (
@@ -313,7 +313,7 @@ pay
 (
 )
 {
-PaymentRequest
+paymentRequest
 .
 pay
 (
