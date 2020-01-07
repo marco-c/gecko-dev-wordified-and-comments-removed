@@ -413,7 +413,7 @@ global
 .
 print
 =
-do_print
+info
 ;
 }
 if

@@ -1126,12 +1126,12 @@ function
 do_check_throws
 (
 cb
-info
+details
 )
 {
 info
 (
-info
+details
 )
 ;
 let

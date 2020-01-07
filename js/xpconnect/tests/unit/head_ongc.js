@@ -118,7 +118,7 @@ global
 .
 print
 =
-do_print
+info
 ;
 global
 .

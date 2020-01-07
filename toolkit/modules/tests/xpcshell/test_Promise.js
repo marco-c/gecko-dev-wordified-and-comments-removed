@@ -4670,7 +4670,7 @@ defer
 let
 print
 =
-do_print
+info
 ;
 let
 observer

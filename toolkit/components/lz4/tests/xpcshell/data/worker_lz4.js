@@ -35,7 +35,7 @@ jsm
 )
 ;
 function
-do_print
+info
 (
 x
 )

@@ -111,7 +111,7 @@ suite
 testFunc
 )
 {
-do_print
+info
 (
 \
 n
@@ -139,7 +139,7 @@ description
 testFunc
 )
 {
-do_print
+info
 (
 \
 n

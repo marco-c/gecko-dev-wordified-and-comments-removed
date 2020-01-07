@@ -3839,7 +3839,7 @@ flagInputs
 )
 {
 let
-info
+URIInfo
 ;
 let
 fixupURIOnly
@@ -3886,7 +3886,7 @@ null
 }
 try
 {
-info
+URIInfo
 =
 urifixup
 .
@@ -3987,7 +3987,7 @@ equal
 fixupURIOnly
 !
 !
-info
+URIInfo
 .
 preferredURI
 )
@@ -4003,7 +4003,7 @@ equal
 fixupURIOnly
 .
 spec
-info
+URIInfo
 .
 preferredURI
 .
@@ -4049,7 +4049,7 @@ Assert
 .
 equal
 (
-info
+URIInfo
 .
 fixedURI
 .
@@ -4064,12 +4064,12 @@ Assert
 .
 equal
 (
-info
+URIInfo
 .
 fixedURI
 &
 &
-info
+URIInfo
 .
 fixedURI
 .
@@ -4093,7 +4093,7 @@ equal
 (
 !
 !
-info
+URIInfo
 .
 keywordProviderName
 couldDoKeywordLookup
@@ -4106,7 +4106,7 @@ Assert
 .
 equal
 (
-info
+URIInfo
 .
 fixupChangedProtocol
 expectProtocolChange
@@ -4116,7 +4116,7 @@ Assert
 .
 equal
 (
-info
+URIInfo
 .
 fixupCreatedAlternateURI
 makeAlternativeURI
@@ -4213,7 +4213,7 @@ urlparamInput
 let
 spec
 =
-info
+URIInfo
 .
 preferredURI
 .
@@ -4246,7 +4246,7 @@ Assert
 .
 equal
 (
-info
+URIInfo
 .
 preferredURI
 null
@@ -4260,12 +4260,12 @@ Assert
 .
 equal
 (
-info
+URIInfo
 .
 preferredURI
 .
 spec
-info
+URIInfo
 .
 fixedURI
 .
@@ -4280,12 +4280,12 @@ Assert
 .
 equal
 (
-info
+URIInfo
 .
 preferredURI
 .
 spec
-info
+URIInfo
 .
 fixedURI
 .
@@ -4301,7 +4301,7 @@ sanitize
 (
 testInput
 )
-info
+URIInfo
 .
 originalInput
 )

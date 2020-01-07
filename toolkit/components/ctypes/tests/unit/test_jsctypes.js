@@ -19029,15 +19029,15 @@ ctypes
 ;
 s
 .
-do_check_eq
+equal
 =
-do_check_eq
+equal
 ;
 s
 .
-do_check_true
+ok
 =
-do_check_true
+ok
 ;
 Components
 .
@@ -19077,7 +19077,7 @@ utils
 evalInSandbox
 (
 "
-do_check_eq
+equal
 (
 f5_t
 .
@@ -19115,7 +19115,7 @@ utils
 evalInSandbox
 (
 "
-do_check_eq
+equal
 (
 f5_t
 .
@@ -19182,7 +19182,7 @@ utils
 evalInSandbox
 (
 "
-do_check_true
+ok
 (
 f
 (

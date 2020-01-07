@@ -88,9 +88,9 @@ sb
 ;
 sb
 .
-do_check_eq
+equal
 =
-do_check_eq
+equal
 ;
 let
 innerPromise
@@ -155,7 +155,7 @@ then
 h
 =
 >
-do_check_eq
+equal
 (
 new
 Uint16Array

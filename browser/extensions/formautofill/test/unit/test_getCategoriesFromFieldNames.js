@@ -160,7 +160,7 @@ fieldName
 )
 ;
 let
-info
+field
 =
 TEST_CASES
 [
@@ -177,7 +177,7 @@ isAddressField
 (
 fieldName
 )
-info
+field
 .
 isAddressField
 "
@@ -195,7 +195,7 @@ isCreditCardField
 (
 fieldName
 )
-info
+field
 .
 isCreditCardField
 "

@@ -2557,8 +2557,6 @@ function
 (
 )
 {
-do_check_eq
-(
 pb
 .
 getBoolPref
@@ -2569,7 +2567,6 @@ ReadPref
 bool
 "
 )
-)
 ;
 }
 Cr
@@ -2583,8 +2580,6 @@ function
 (
 )
 {
-do_check_eq
-(
 pb
 .
 getIntPref
@@ -2595,7 +2590,6 @@ ReadPref
 int
 "
 )
-)
 ;
 }
 Cr
@@ -2609,8 +2603,6 @@ function
 (
 )
 {
-do_check_eq
-(
 pb
 .
 getCharPref
@@ -2620,7 +2612,6 @@ ReadPref
 .
 char
 "
-)
 )
 ;
 }

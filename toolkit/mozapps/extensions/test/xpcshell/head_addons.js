@@ -6544,7 +6544,7 @@ function
 args
 )
 {
-do_execute_soon
+executeSoon
 (
 function
 (

@@ -225,7 +225,7 @@ AsyncShutdownTimeout
 )
 ;
 let
-info
+data
 =
 JSON
 .
@@ -240,7 +240,7 @@ Assert
 .
 equal
 (
-info
+data
 .
 phase
 "
@@ -258,7 +258,7 @@ Assert
 .
 equal
 (
-info
+data
 .
 conditions
 [
@@ -280,7 +280,7 @@ Assert
 .
 equal
 (
-info
+data
 .
 conditions
 [
@@ -489,7 +489,7 @@ AsyncShutdownTimeout
 )
 ;
 let
-info
+data
 =
 JSON
 .
@@ -503,7 +503,7 @@ AsyncShutdownTimeout
 let
 state
 =
-info
+data
 .
 conditions
 [
@@ -537,7 +537,7 @@ Assert
 .
 equal
 (
-info
+data
 .
 phase
 "
@@ -804,7 +804,7 @@ AsyncShutdownTimeout
 )
 ;
 let
-info
+data
 =
 JSON
 .
@@ -818,7 +818,7 @@ AsyncShutdownTimeout
 let
 state
 =
-info
+data
 .
 conditions
 [
@@ -852,7 +852,7 @@ Assert
 .
 equal
 (
-info
+data
 .
 phase
 "

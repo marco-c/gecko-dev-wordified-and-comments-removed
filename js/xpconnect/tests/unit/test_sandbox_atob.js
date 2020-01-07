@@ -44,9 +44,9 @@ btoa
 ;
 sb
 .
-do_check_eq
+equal
 =
-do_check_eq
+equal
 ;
 Cu
 .
@@ -65,7 +65,7 @@ test
 '
 +
 '
-do_check_eq
+equal
 (
 dummy
 atob
@@ -80,7 +80,7 @@ dummy
 '
 +
 '
-do_check_eq
+equal
 (
 btoa
 (

@@ -75,9 +75,9 @@ Components
 ;
 s
 .
-do_check_neq
+notEqual
 =
-do_check_neq
+notEqual
 ;
 Components
 .
@@ -86,7 +86,7 @@ utils
 evalInSandbox
 (
 "
-do_check_neq
+notEqual
 (
 Cu
 .
