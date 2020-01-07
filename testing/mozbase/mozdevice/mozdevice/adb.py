@@ -12743,9 +12743,7 @@ local
         
 remote
 =
-os
-.
-path
+posixpath
 .
 normpath
 (
@@ -13048,9 +13046,7 @@ local
         
 remote
 =
-os
-.
-path
+posixpath
 .
 normpath
 (
