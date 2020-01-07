@@ -9179,7 +9179,7 @@ UniqueChars
 static
 const
 size_t
-MaxStringLength
+MAX_STRING_LENGTH
 =
 16
 ;
@@ -9203,7 +9203,7 @@ length
 (
 )
 >
-MaxStringLength
+MAX_STRING_LENGTH
 )
 {
 StringBuffer
@@ -9221,7 +9221,7 @@ appendSubstring
 (
 str
 0
-MaxStringLength
+MAX_STRING_LENGTH
 )
 )
 return
