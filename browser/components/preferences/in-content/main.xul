@@ -310,6 +310,17 @@ label
 >
 <
 hbox
+id
+=
+"
+sync
+-
+dev
+-
+edition
+-
+root
+"
 align
 =
 "
