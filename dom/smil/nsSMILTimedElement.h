@@ -425,7 +425,10 @@ protected
 typedef
 nsTArray
 <
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsSMILTimeValueSpec
 >
