@@ -943,6 +943,13 @@ set_ntp_time_ms
 captureTime
 )
 ;
+captureFrame
+.
+set_rotation
+(
+_rotateFrame
+)
+;
 DeliverCapturedFrame
 (
 captureFrame
