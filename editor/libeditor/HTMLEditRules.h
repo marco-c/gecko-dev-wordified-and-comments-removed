@@ -1940,12 +1940,13 @@ aStarts
 ;
 enum
 class
-ContentsOnly
+ResetAlignOf
 {
-no
-yes
+ElementAndDescendants
+OnlyDescendants
 }
 ;
+MOZ_MUST_USE
 nsresult
 AlignBlock
 (
@@ -1956,8 +1957,8 @@ const
 nsAString
 &
 aAlignType
-ContentsOnly
-aContentsOnly
+ResetAlignOf
+aResetAlignOf
 )
 ;
 MOZ_MUST_USE
