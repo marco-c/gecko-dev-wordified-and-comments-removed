@@ -1737,6 +1737,11 @@ MediaByteBuffer
 >
 extra_data
 =
+aSample
+-
+>
+mKeyframe
+?
 H264
 :
 :
@@ -1744,6 +1749,8 @@ ExtractExtraData
 (
 aSample
 )
+:
+nullptr
 ;
 if
 (
