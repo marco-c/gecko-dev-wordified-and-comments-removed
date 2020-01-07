@@ -1533,6 +1533,12 @@ customSections
 CacheableChars
 filename
 ;
+CacheableChars
+baseURL
+;
+CacheableChars
+sourceMapURL
+;
 bool
 debugEnabled
 ;

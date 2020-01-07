@@ -34,6 +34,17 @@ column
 }
 ;
 struct
+ResponseURLs
+{
+UniqueChars
+baseURL
+;
+UniqueChars
+sourceMapURL
+;
+}
+;
+struct
 CompileArgs
 :
 ShareableBase
@@ -46,6 +57,9 @@ assumptions
 ;
 ScriptedCaller
 scriptedCaller
+;
+ResponseURLs
+responseURLs
 ;
 bool
 baselineEnabled
