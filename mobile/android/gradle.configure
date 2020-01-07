@@ -533,7 +533,7 @@ build_config
 '
 Like
 "
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 "
 .
 '

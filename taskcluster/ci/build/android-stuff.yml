@@ -485,7 +485,7 @@ lint
 -
 results
 -
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 .
 html
 path
@@ -521,7 +521,7 @@ lint
 -
 results
 -
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 .
 html
 type
@@ -540,7 +540,7 @@ lint
 -
 results
 -
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 .
 xml
 path
@@ -576,7 +576,7 @@ lint
 -
 results
 -
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 .
 xml
 type
@@ -595,7 +595,7 @@ lint
 -
 results
 -
-officialPhotonDebug_files
+officialWithoutGeckoBinariesNoMinApiPhotonDebug_files
 path
 :
 /
@@ -629,7 +629,7 @@ lint
 -
 results
 -
-officialPhotonDebug_files
+officialWithoutGeckoBinariesNoMinApiPhotonDebug_files
 type
 :
 directory
@@ -1390,7 +1390,7 @@ findbugs
 /
 findbugs
 -
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 -
 output
 .
@@ -1428,7 +1428,7 @@ findbugs
 /
 findbugs
 -
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 -
 output
 .
@@ -1447,7 +1447,7 @@ findbugs
 /
 findbugs
 -
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 -
 output
 .
@@ -1485,7 +1485,7 @@ findbugs
 /
 findbugs
 -
-officialPhotonDebug
+officialWithoutGeckoBinariesNoMinApiPhotonDebug
 -
 output
 .
