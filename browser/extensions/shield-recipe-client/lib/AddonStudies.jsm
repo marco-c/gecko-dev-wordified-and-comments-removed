@@ -502,6 +502,13 @@ study
 )
 ;
 }
+await
+AddonStudies
+.
+close
+(
+)
+;
 try
 {
 await
