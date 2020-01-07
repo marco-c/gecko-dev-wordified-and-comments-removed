@@ -1325,18 +1325,7 @@ mozilla
 /
 dom
 /
-ParentProcessMessageManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-ProcessMessageManager
+ChromeMessageBroadcaster
 .
 h
 "
@@ -3052,7 +3041,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 RefPtr
 <
-ProcessMessageManager
+ChromeMessageSender
 >
 manager
 =
@@ -11088,7 +11077,7 @@ domainPolicy
 ;
 if
 (
-ParentProcessMessageManager
+ChromeMessageBroadcaster
 *
 mm
 =

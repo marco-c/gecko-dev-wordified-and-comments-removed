@@ -22,9 +22,6 @@ namespace
 dom
 {
 class
-MessageBroadcaster
-;
-class
 MessageSender
 :
 public
@@ -53,7 +50,7 @@ ipc
 MessageManagerCallback
 *
 aCallback
-MessageBroadcaster
+ChromeMessageBroadcaster
 *
 aParentManager
 MessageManagerFlags

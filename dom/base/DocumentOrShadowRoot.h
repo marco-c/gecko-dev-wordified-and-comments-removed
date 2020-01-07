@@ -40,9 +40,6 @@ class
 nsContentList
 ;
 class
-nsIDocument
-;
-class
 nsINode
 ;
 namespace
@@ -54,9 +51,6 @@ StyleSheet
 namespace
 dom
 {
-class
-Element
-;
 class
 StyleSheetList
 ;
