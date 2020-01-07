@@ -75,8 +75,6 @@ import
     
 docker_worker_add_workspace_cache
     
-docker_worker_add_gecko_vcs_env_vars
-    
 docker_worker_setup_secrets
     
 docker_worker_add_artifacts
@@ -1437,7 +1435,7 @@ job
 taskdesc
 )
     
-docker_worker_add_gecko_vcs_env_vars
+support_vcs_checkout
 (
 config
 job

@@ -56,8 +56,6 @@ generic_worker_add_artifacts
     
 generic_worker_hg_commands
     
-docker_worker_add_gecko_vcs_env_vars
-    
 docker_worker_add_tooltool
     
 support_vcs_checkout
@@ -660,7 +658,7 @@ job
 taskdesc
 )
     
-docker_worker_add_gecko_vcs_env_vars
+support_vcs_checkout
 (
 config
 job
