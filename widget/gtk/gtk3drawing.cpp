@@ -726,6 +726,10 @@ initialized
 =
 false
 ;
+ResetWidgetCache
+(
+)
+;
 }
 gint
 moz_gtk_checkbox_get_metrics
