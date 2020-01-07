@@ -62,7 +62,7 @@ toolbox
 previousHost
 "
 "
-side
+right
 "
 )
 ;

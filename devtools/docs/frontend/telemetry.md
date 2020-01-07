@@ -2648,7 +2648,7 @@ extra
 host
 :
 "
-side
+right
 "
 width
 :

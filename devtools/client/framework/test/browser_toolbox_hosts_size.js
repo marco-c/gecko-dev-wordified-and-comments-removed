@@ -218,7 +218,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 )
 ;
 iframe
@@ -459,7 +459,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 )
 ;
 iframe

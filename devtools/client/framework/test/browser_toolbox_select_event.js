@@ -148,7 +148,7 @@ tab
 webconsole
 "
 "
-side
+right
 "
 )
 ;

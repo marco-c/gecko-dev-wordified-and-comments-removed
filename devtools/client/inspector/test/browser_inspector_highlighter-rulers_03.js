@@ -399,7 +399,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 )
 ;
 }

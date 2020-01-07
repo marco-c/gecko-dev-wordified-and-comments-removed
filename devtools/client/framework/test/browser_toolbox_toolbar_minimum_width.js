@@ -113,7 +113,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 )
 ;
 await

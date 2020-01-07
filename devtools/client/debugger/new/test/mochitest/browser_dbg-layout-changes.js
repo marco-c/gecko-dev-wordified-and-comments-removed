@@ -70,7 +70,7 @@ bottom
 vertical
 "
 "
-side
+right
 "
 ]
 [

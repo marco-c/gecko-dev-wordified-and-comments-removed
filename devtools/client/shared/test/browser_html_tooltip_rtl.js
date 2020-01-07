@@ -110,7 +110,7 @@ await
 createHost
 (
 "
-side
+right
 "
 TEST_URI
 )

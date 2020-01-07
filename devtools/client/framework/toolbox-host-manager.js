@@ -699,7 +699,7 @@ Toolbox
 .
 HostType
 .
-SIDE
+RIGHT
 ;
 }
 else
