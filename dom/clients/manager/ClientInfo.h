@@ -220,15 +220,6 @@ IsPrivateBrowsing
 )
 const
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-GetPrincipal
-(
-)
-const
-;
 }
 ;
 }

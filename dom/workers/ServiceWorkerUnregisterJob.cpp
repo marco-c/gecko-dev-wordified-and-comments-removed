@@ -397,7 +397,7 @@ if
 registration
 -
 >
-IsControllingClients
+IsControllingDocuments
 (
 )
 &
