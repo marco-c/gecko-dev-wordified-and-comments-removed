@@ -82,7 +82,7 @@ xptiInterfaceEntry
 aHeader
 -
 >
-num_interfaces
+mNumInterfaces
 -
 1
 )
@@ -194,7 +194,7 @@ iface
 mHeader
 -
 >
-interface_directory
+mInterfaceDirectory
 +
 i
 ;
@@ -322,7 +322,7 @@ iface
 mHeader
 -
 >
-interface_directory
+mInterfaceDirectory
 +
 i
 ;

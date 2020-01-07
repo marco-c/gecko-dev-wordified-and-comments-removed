@@ -417,7 +417,7 @@ cursor
 header
 -
 >
-major_version
+mMajorVersion
 )
 |
 |
@@ -439,7 +439,7 @@ if
 header
 -
 >
-major_version
+mMajorVersion
 >
 =
 XPT_MAJOR_INCOMPATIBLE_VERSION
@@ -448,7 +448,7 @@ XPT_MAJOR_INCOMPATIBLE_VERSION
 header
 -
 >
-num_interfaces
+mNumInterfaces
 =
 0
 ;
@@ -466,7 +466,7 @@ cursor
 header
 -
 >
-num_interfaces
+mNumInterfaces
 )
 |
 |
@@ -576,7 +576,7 @@ if
 header
 -
 >
-num_interfaces
+mNumInterfaces
 )
 {
 size_t
@@ -585,7 +585,7 @@ n
 header
 -
 >
-num_interfaces
+mNumInterfaces
 *
 sizeof
 (
@@ -658,7 +658,7 @@ i
 header
 -
 >
-num_interfaces
+mNumInterfaces
 ;
 i
 +
@@ -686,7 +686,7 @@ false
 header
 -
 >
-interface_directory
+mInterfaceDirectory
 =
 interface_directory
 ;
