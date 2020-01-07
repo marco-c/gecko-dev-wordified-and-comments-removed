@@ -669,6 +669,8 @@ media
 mochitest
 -
 webgl
+-
+reftest
 windows
 -
 qr
