@@ -211,7 +211,7 @@ ParentLayerCoord
 GestureEventListener
 :
 :
-GetYSpanFromStartPoint
+GetYSpanFromGestureStartPoint
 (
 )
 {
@@ -219,7 +219,7 @@ const
 ParentLayerPoint
 start
 =
-mTouchStartPosition
+mOneTouchPinchStartPosition
 ;
 const
 ParentLayerPoint
@@ -1327,6 +1327,17 @@ currentFocus
 =
 mTouchStartPosition
 ;
+mOneTouchPinchStartPosition
+=
+mLastTouchInput
+.
+mTouches
+[
+0
+]
+.
+mLocalScreenPoint
+;
 PinchGestureInput
 pinchEvent
 (
@@ -1610,7 +1621,7 @@ GESTURE_ONE_TOUCH_PINCH
 ParentLayerCoord
 currentSpan
 =
-GetYSpanFromStartPoint
+GetYSpanFromGestureStartPoint
 (
 )
 ;

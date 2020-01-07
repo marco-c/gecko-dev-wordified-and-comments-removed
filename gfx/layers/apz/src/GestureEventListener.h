@@ -187,7 +187,7 @@ SecondTapIsFar
 const
 ;
 ParentLayerCoord
-GetYSpanFromStartPoint
+GetYSpanFromGestureStartPoint
 (
 )
 ;
@@ -230,6 +230,9 @@ mLastTouchInput
 ;
 MultiTouchInput
 mLastTapInput
+;
+ParentLayerPoint
+mOneTouchPinchStartPosition
 ;
 ParentLayerPoint
 mTouchStartPosition
