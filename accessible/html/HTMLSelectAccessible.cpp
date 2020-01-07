@@ -1679,6 +1679,7 @@ nsString
 &
 aValue
 )
+const
 {
 Accessible
 *

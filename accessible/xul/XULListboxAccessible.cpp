@@ -430,6 +430,7 @@ nsString
 &
 aValue
 )
+const
 {
 aValue
 .

@@ -191,6 +191,7 @@ nsString
 &
 aValue
 )
+const
 {
 LeafAccessible
 :

@@ -151,6 +151,7 @@ nsString
 &
 aValue
 )
+const
 override
 ;
 virtual
@@ -204,6 +205,7 @@ AccessKey
 const
 override
 ;
+const
 Accessible
 *
 ActionWalk
@@ -224,6 +226,7 @@ aIsLabelWithControl
 =
 nullptr
 )
+const
 ;
 virtual
 already_AddRefed

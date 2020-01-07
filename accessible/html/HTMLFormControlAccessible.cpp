@@ -1448,6 +1448,7 @@ nsString
 &
 aValue
 )
+const
 {
 aValue
 .
@@ -2348,6 +2349,7 @@ nsString
 &
 aValue
 )
+const
 {
 AccessibleWrap
 :
@@ -2659,6 +2661,7 @@ nsString
 &
 aValue
 )
+const
 {
 LeafAccessible
 :

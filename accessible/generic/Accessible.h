@@ -581,6 +581,7 @@ nsString
 &
 aValue
 )
+const
 ;
 void
 Help
