@@ -11472,9 +11472,8 @@ ucs
 nsLayoutStylesheetCache
 :
 :
-For
+Singleton
 (
-backendType
 )
 -
 >
