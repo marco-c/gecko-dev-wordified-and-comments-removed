@@ -969,13 +969,6 @@ type
 "
 boolean
 "
-"
-enum
-"
-:
-[
-true
-]
 }
 "
 DisplayBookmarksToolbar
@@ -1505,13 +1498,6 @@ type
 "
 boolean
 "
-"
-enum
-"
-:
-[
-true
-]
 }
 "
 Popups
