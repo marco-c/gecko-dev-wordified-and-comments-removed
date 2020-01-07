@@ -3624,6 +3624,12 @@ by
 system
 emoji
 font
+fails
+-
+if
+(
+Android
+)
 =
 =
 1463020
@@ -3654,6 +3660,12 @@ transform
 ref
 .
 html
+#
+missing
+font
+coverage
+on
+Android
 #
 ensure
 emoji
