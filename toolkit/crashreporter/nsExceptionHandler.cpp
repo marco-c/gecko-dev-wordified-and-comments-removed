@@ -9500,6 +9500,13 @@ gExceptionHandler
 return
 false
 ;
+MutexAutoLock
+lock
+(
+*
+crashReporterAPILock
+)
+;
 nsAutoCString
 entry
 ;
@@ -13189,6 +13196,14 @@ return
 false
 ;
 }
+{
+MutexAutoLock
+lock
+(
+*
+crashReporterAPILock
+)
+;
 if
 (
 !
@@ -13206,6 +13221,7 @@ true
 return
 false
 ;
+}
 }
 if
 (
