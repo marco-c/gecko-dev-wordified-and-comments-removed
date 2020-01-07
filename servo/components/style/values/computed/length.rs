@@ -642,13 +642,7 @@ Self
 Self
 {
 clamping_mode
-:
-clamping_mode
 length
-:
-length
-percentage
-:
 percentage
 }
 }
