@@ -31696,7 +31696,7 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-SetToRGBAColor
+SetValueFromComplexColor
 (
 val
 StyleSVGReset
@@ -31735,7 +31735,7 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-SetToRGBAColor
+SetValueFromComplexColor
 (
 val
 StyleSVGReset
@@ -31774,7 +31774,7 @@ val
 new
 nsROCSSPrimitiveValue
 ;
-SetToRGBAColor
+SetValueFromComplexColor
 (
 val
 StyleSVGReset
