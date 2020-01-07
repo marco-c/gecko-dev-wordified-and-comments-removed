@@ -267,15 +267,3 @@ alt
 )
 ;
 }
-.
-worker__unregister
--
-button
-{
-text
--
-transform
-:
-capitalize
-;
-}
