@@ -330,15 +330,11 @@ if
 stack
 .
 name
-.
-includes
-(
+=
+=
 "
-run_test
-/
 onConnect
 "
-)
 )
 {
 ok
