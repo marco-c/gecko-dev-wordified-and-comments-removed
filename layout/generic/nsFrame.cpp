@@ -4375,7 +4375,7 @@ items
 )
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 items
