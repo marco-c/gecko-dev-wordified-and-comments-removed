@@ -19510,6 +19510,12 @@ altKey
 )
 ;
 }
+e
+.
+stopPropagation
+(
+)
+;
 }
 }
 )
