@@ -7695,6 +7695,9 @@ gfx
 DrawOptions
 drawOptions
 ;
+gfxFloat
+advanceDirection
+;
 bool
 isVerticalFont
 ;

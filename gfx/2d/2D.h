@@ -4301,10 +4301,6 @@ UnscaledFont
 aUnscaledFont
 Float
 aSize
-bool
-aNeedsOblique
-=
-false
 )
 ;
 #
@@ -4340,10 +4336,6 @@ aUseFontSmoothing
 true
 bool
 aApplySyntheticBold
-=
-false
-bool
-aNeedsOblique
 =
 false
 )
@@ -4882,8 +4874,6 @@ bool
 aUseEmbeddedBitmap
 bool
 aForceGDIMode
-bool
-aNeedsOblique
 IDWriteRenderingParams
 *
 aParams

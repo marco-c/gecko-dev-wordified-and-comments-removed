@@ -2378,9 +2378,6 @@ useGrayscaleAntialiasing
 IsSyntheticBold
 (
 )
-IsSyntheticOblique
-(
-)
 )
 ;
 if
