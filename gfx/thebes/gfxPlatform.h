@@ -1540,6 +1540,13 @@ SurfaceFormat
 X8R8G8B8_UINT32
 ;
 }
+virtual
+bool
+UsesTiling
+(
+)
+const
+;
 static
 mozilla
 :

@@ -427,6 +427,11 @@ nsQueryObject
 h
 '
 '
+nsSystemInfo
+.
+h
+'
+'
 nsTraceRefcnt
 .
 h
