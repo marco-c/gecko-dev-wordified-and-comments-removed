@@ -220,6 +220,10 @@ int32_t
 aSandboxLevel
 =
 0
+bool
+aIsSandboxLoggingEnabled
+=
+false
 )
 ;
 void

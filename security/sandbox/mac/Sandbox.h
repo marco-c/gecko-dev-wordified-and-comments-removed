@@ -37,6 +37,7 @@ MacSandboxPluginType_GMPlugin_Default
 MacSandboxPluginType_GMPlugin_OpenH264
 MacSandboxPluginType_GMPlugin_EME
 MacSandboxPluginType_GMPlugin_EME_Widevine
+MacSandboxPluginType_Flash
 MacSandboxPluginType_Invalid
 }
 ;
