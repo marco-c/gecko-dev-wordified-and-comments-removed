@@ -838,7 +838,7 @@ in
 -
 tree
 :
-desktop
+toolchain
 -
 build
 }
@@ -1011,7 +1011,7 @@ in
 -
 tree
 :
-desktop
+toolchain
 -
 build
 }
@@ -1165,7 +1165,7 @@ in
 -
 tree
 :
-desktop
+toolchain
 -
 build
 }
@@ -1322,7 +1322,7 @@ in
 -
 tree
 :
-desktop
+toolchain
 -
 build
 }
