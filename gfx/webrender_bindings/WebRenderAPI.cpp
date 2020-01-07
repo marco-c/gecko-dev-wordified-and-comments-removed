@@ -251,6 +251,15 @@ mCompositorWidget
 )
 )
 ;
+if
+(
+!
+compositor
+)
+{
+return
+;
+}
 *
 mUseANGLE
 =
