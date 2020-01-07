@@ -6304,7 +6304,7 @@ addonId
 {
 enabled
 :
-true
+false
 file
 :
 file
@@ -6903,6 +6903,9 @@ location
 .
 name
 ]
+|
+|
+undefined
 )
 ;
 changed
