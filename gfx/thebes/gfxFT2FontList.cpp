@@ -1724,7 +1724,10 @@ font
 return
 FontWeight
 (
+int
+(
 result
+)
 )
 ;
 }

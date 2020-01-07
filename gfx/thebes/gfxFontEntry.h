@@ -619,11 +619,9 @@ const
 {
 return
 mWeight
->
-=
-FontWeight
+.
+IsBold
 (
-600
 )
 ;
 }

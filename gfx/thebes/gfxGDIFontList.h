@@ -336,7 +336,7 @@ FillLogFont
 LOGFONTW
 *
 aLogFont
-FontWeight
+LONG
 aWeight
 gfxFloat
 aSize
