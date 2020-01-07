@@ -1548,17 +1548,6 @@ browser
 .
 ini
 '
-'
-mochitest
-/
-ajax
-/
-offline
-/
-browser
-.
-ini
-'
 ]
 TEST_HARNESS_FILES
 .

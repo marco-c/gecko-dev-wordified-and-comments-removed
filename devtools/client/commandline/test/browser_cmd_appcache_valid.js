@@ -1,13 +1,8 @@
-"
-use
-strict
-"
-;
 const
 TEST_URI
 =
 "
-https
+http
 :
 /
 /

@@ -2,7 +2,7 @@ CACHE
 MANIFEST
 CACHE
 :
-https
+http
 :
 /
 /
@@ -19,7 +19,7 @@ SimpleTest
 SimpleTest
 .
 js
-https
+http
 :
 /
 /
