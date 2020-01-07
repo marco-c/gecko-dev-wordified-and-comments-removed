@@ -3563,7 +3563,7 @@ const
 unsigned
 timeout_limit
 =
-5
+3
 ;
 while
 (
