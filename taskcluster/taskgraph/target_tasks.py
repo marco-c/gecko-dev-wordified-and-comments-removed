@@ -1853,20 +1853,6 @@ nightly
 '
 android
 -
-api
--
-16
--
-old
--
-id
--
-nightly
-'
-                        
-'
-android
--
 nightly
 '
                         
@@ -1878,17 +1864,6 @@ x86
 nightly
 '
                         
-'
-android
--
-x86
--
-old
--
-id
--
-nightly
-'
 )
 :
             
@@ -3377,21 +3352,6 @@ label
 in
 filtered_for_project
 :
-            
-if
-'
-old
--
-id
-'
-in
-task
-.
-label
-:
-                
-return
-False
             
 if
 task

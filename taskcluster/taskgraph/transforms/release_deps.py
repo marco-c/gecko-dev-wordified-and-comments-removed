@@ -143,20 +143,6 @@ chunk_locales
 :
                     
 continue
-                
-if
-'
-old
--
-id
-'
-in
-dep_task
-.
-label
-:
-                    
-continue
             
 dep_phase
 =
