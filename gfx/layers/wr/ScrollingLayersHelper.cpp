@@ -221,7 +221,7 @@ if
 (
 aStackingContext
 .
-IsReferenceFrame
+AffectsClipPositioning
 (
 )
 )
@@ -285,7 +285,7 @@ if
 (
 aStackingContext
 .
-IsReferenceFrame
+AffectsClipPositioning
 (
 )
 )
