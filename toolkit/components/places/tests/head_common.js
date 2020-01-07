@@ -4253,11 +4253,9 @@ places
 sqlite
 "
 ;
-var
-setupPlacesDatabase
-=
 async
 function
+setupPlacesDatabase
 (
 aFileName
 aDestFileName
@@ -4368,5 +4366,7 @@ src
 dest
 )
 ;
-}
+return
+dest
 ;
+}
