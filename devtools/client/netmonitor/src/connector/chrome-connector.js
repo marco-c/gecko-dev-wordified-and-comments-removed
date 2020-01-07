@@ -236,12 +236,6 @@ setup
 )
 ;
 }
-enableActions
-(
-enable
-)
-{
-}
 willNavigate
 (
 )
