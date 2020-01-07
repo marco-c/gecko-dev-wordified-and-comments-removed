@@ -1127,8 +1127,11 @@ GetInputQueue
 ReceiveInputEvent
 (
 this
+TargetConfirmationFlags
+{
 !
 mWaitForMainThread
+}
 aEvent
 aOutInputBlockId
 )
