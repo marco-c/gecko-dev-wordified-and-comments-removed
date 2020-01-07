@@ -954,13 +954,6 @@ AddRefTable
 (
 )
 ;
-nsGkAtoms
-:
-:
-AddRefAtoms
-(
-)
-;
 NS_SetStaticAtomsDone
 (
 )
