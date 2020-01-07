@@ -2147,8 +2147,8 @@ T
 wasm
 :
 :
-TrapDesc
-trap
+OldTrapDesc
+oldTrap
 (
 T
 *
@@ -2164,7 +2164,7 @@ return
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 (
 mir
 -

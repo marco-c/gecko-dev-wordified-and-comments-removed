@@ -4552,7 +4552,7 @@ InterpEntry
 ImportJitExit
 ImportInterpExit
 BuiltinThunk
-TrapExit
+OldTrapExit
 DebugTrap
 FarJumpIsland
 OutOfBoundsExit
@@ -4822,7 +4822,7 @@ kind
 )
 =
 =
-TrapExit
+OldTrapExit
 ;
 }
 bool
@@ -5202,13 +5202,13 @@ INVALID
 1
 ;
 uint32_t
-bytecodeOffset
+offset
 ;
 BytecodeOffset
 (
 )
 :
-bytecodeOffset
+offset
 (
 INVALID
 )
@@ -5218,12 +5218,12 @@ explicit
 BytecodeOffset
 (
 uint32_t
-bytecodeOffset
+offset
 )
 :
-bytecodeOffset
+offset
 (
-bytecodeOffset
+offset
 )
 {
 }
@@ -5234,7 +5234,7 @@ isValid
 const
 {
 return
-bytecodeOffset
+offset
 !
 =
 INVALID
@@ -5263,7 +5263,7 @@ Kind
 Func
 Dynamic
 Symbolic
-TrapExit
+OldTrapExit
 EnterFrame
 LeaveFrame
 Breakpoint
@@ -5617,7 +5617,7 @@ ATan2D
 HandleExecutionInterrupt
 HandleDebugTrap
 HandleThrow
-ReportTrap
+OldReportTrap
 ReportOutOfBounds
 ReportUnalignedAccess
 CallImport_Void

@@ -7239,7 +7239,7 @@ as_b
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 Condition
 c
@@ -7792,7 +7792,7 @@ label
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 )
 ;

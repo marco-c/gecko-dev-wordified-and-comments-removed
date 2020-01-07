@@ -2090,7 +2090,7 @@ trapOffset
 0
 )
 ;
-TrapDesc
+OldTrapDesc
 trap
 (
 trapOffset
@@ -2993,7 +2993,7 @@ case
 CodeRange
 :
 :
-TrapExit
+OldTrapExit
 :
 case
 CodeRange
@@ -3350,7 +3350,7 @@ case
 CodeRange
 :
 :
-TrapExit
+OldTrapExit
 :
 case
 CodeRange
@@ -4300,7 +4300,7 @@ case
 CodeRange
 :
 :
-TrapExit
+OldTrapExit
 :
 case
 CodeRange
@@ -4453,7 +4453,7 @@ case
 SymbolicAddress
 :
 :
-ReportTrap
+OldReportTrap
 :
 case
 SymbolicAddress
@@ -5571,7 +5571,7 @@ case
 CodeRange
 :
 :
-TrapExit
+OldTrapExit
 :
 return
 trapDescription

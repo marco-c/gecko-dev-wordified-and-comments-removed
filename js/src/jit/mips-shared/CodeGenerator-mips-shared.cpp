@@ -3579,7 +3579,7 @@ ma_b
 (
 rhs
 rhs
-trap
+oldTrap
 (
 mir
 wasm
@@ -3752,7 +3752,7 @@ ma_b
 (
 rhs
 temp
-trap
+oldTrap
 (
 mir
 wasm
@@ -4498,7 +4498,7 @@ ma_b
 (
 rhs
 rhs
-trap
+oldTrap
 (
 mir
 wasm
@@ -9605,7 +9605,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 ool
 wasm
@@ -9630,7 +9630,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 ool
 wasm
@@ -15501,7 +15501,7 @@ ma_b
 (
 rhs
 rhs
-trap
+oldTrap
 (
 ins
 wasm
@@ -17598,7 +17598,7 @@ offset
 (
 )
 )
-trap
+oldTrap
 (
 mir
 wasm

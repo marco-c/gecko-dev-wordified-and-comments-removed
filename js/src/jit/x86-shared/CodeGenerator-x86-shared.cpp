@@ -2873,7 +2873,7 @@ Assembler
 :
 :
 CarrySet
-trap
+oldTrap
 (
 mir
 wasm
@@ -6413,7 +6413,7 @@ Assembler
 :
 :
 Zero
-trap
+oldTrap
 (
 ins
 wasm
@@ -6756,7 +6756,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 ins
 wasm
@@ -7540,7 +7540,7 @@ Assembler
 :
 :
 Overflow
-trap
+oldTrap
 (
 mir
 wasm
@@ -8190,7 +8190,7 @@ Assembler
 :
 :
 Zero
-trap
+oldTrap
 (
 mir
 wasm
@@ -8344,7 +8344,7 @@ Assembler
 :
 :
 Equal
-trap
+oldTrap
 (
 mir
 wasm
@@ -9212,7 +9212,7 @@ Assembler
 :
 :
 Zero
-trap
+oldTrap
 (
 mir
 wasm
@@ -14621,7 +14621,7 @@ bindLater
 (
 &
 onConversionError
-trap
+oldTrap
 (
 ool
 wasm
@@ -14875,7 +14875,7 @@ Assembler
 :
 :
 NotEqual
-trap
+oldTrap
 (
 mir
 wasm

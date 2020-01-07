@@ -7933,7 +7933,7 @@ builtin
 )
 ;
 void
-wasmEmitTrapOutOfLineCode
+wasmEmitOldTrapOutOfLineCode
 (
 )
 ;

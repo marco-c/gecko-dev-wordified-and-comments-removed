@@ -2266,7 +2266,7 @@ ma_b
 (
 rhs
 rhs
-trap
+oldTrap
 (
 lir
 wasm
@@ -2361,7 +2361,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 lir
 wasm
@@ -2506,7 +2506,7 @@ ma_b
 (
 rhs
 rhs
-trap
+oldTrap
 (
 lir
 wasm

@@ -1892,7 +1892,7 @@ Assembler
 Zero
 rhs
 rhs
-trap
+oldTrap
 (
 lir
 wasm
@@ -1981,7 +1981,7 @@ masm
 .
 jump
 (
-trap
+oldTrap
 (
 lir
 wasm
@@ -2187,7 +2187,7 @@ Assembler
 Zero
 rhs
 rhs
-trap
+oldTrap
 (
 lir
 wasm

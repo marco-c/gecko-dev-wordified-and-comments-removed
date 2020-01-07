@@ -1765,7 +1765,7 @@ jump
 wasm
 :
 :
-TrapDesc
+OldTrapDesc
 target
 )
 {
