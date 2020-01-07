@@ -1470,7 +1470,7 @@ type
 "
 )
 ;
-const
+constexpr
 ResultType
 MaxValue
 =
@@ -1492,7 +1492,7 @@ ResultType
 -
 1
 ;
-const
+constexpr
 ResultType
 MinValue
 =
@@ -1501,7 +1501,9 @@ MaxValue
 -
 1
 ;
-typedef
+using
+UnsignedResult
+=
 typename
 mozilla
 :
@@ -1513,7 +1515,6 @@ ResultType
 :
 :
 Type
-UnsignedResult
 ;
 UnsignedResult
 u
@@ -1546,9 +1547,6 @@ u
 )
 ;
 return
-(
-MinValue
-+
 static_cast
 <
 ResultType
@@ -1556,11 +1554,13 @@ ResultType
 (
 u
 -
-MaxValue
+UnsignedResult
+(
+MinValue
 )
 )
--
-1
++
+MinValue
 ;
 }
 }
