@@ -16018,7 +16018,7 @@ ident
 computed_value
 :
 :
-T
+List
 (
 v
 .
@@ -17501,7 +17501,7 @@ ident
 computed_value
 :
 :
-T
+List
 (
 self
 .

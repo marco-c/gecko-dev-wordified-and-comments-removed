@@ -1298,9 +1298,6 @@ False
 vector
 =
 False
-need_animatable
-=
-False
 servo_restyle_damage
 =
 "

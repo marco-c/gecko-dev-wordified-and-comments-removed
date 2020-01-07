@@ -70,6 +70,7 @@ MallocSizeOf
 PartialEq
 PartialOrd
 SpecifiedValueInfo
+ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 )
