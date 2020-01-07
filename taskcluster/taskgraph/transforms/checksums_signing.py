@@ -58,6 +58,8 @@ import
 get_signing_cert_scope
     
 get_worker_type_for_scope
+    
+add_scope_prefix
 )
 from
 taskgraph
@@ -745,17 +747,17 @@ scopes
                 
 signing_cert_scope
                 
-"
-project
-:
-releng
-:
+add_scope_prefix
+(
+config
+'
 signing
 :
 format
 :
 gpg
-"
+'
+)
             
 ]
             
