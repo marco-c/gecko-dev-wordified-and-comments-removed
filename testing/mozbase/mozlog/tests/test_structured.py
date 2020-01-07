@@ -6846,9 +6846,9 @@ self
 assertIn
 (
 "
+UNEXPECTED
+-
 PASS
-expected
-TIMEOUT
 test2
 "
 self
