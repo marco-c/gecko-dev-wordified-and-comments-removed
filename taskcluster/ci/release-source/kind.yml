@@ -99,7 +99,7 @@ taskgraph
 .
 transforms
 .
-job
+use_toolchains
 :
 transforms
 -
@@ -108,6 +108,14 @@ taskgraph
 transforms
 .
 release_notifications
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
+job
 :
 transforms
 -
