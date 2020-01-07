@@ -356,6 +356,17 @@ output
 >
 {
 const
+babelEnabled
+=
+name
+!
+=
+=
+"
+webpackStandalone
+"
+;
+const
 babelEnv
 =
 name
@@ -413,6 +424,8 @@ module
 {
 loaders
 :
+babelEnabled
+?
 [
 {
 test
@@ -486,6 +499,9 @@ exports
 ]
 }
 }
+]
+:
+[
 ]
 }
 }
