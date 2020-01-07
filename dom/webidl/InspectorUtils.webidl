@@ -252,6 +252,13 @@ pseudo
 "
 )
 ;
+boolean
+isInheritedProperty
+(
+DOMString
+property
+)
+;
 }
 ;
 dictionary
