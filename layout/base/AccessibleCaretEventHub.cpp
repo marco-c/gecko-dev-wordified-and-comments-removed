@@ -2960,8 +2960,10 @@ void
 aAccessibleCaretEventHub
 )
 {
-auto
-*
+RefPtr
+<
+AccessibleCaretEventHub
+>
 self
 =
 static_cast
@@ -3376,8 +3378,10 @@ void
 aAccessibleCaretEventHub
 )
 {
-auto
-*
+RefPtr
+<
+AccessibleCaretEventHub
+>
 self
 =
 static_cast

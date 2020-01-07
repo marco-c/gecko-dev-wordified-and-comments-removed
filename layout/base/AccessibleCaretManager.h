@@ -136,8 +136,6 @@ virtual
 AccessibleCaretManager
 (
 )
-=
-default
 ;
 void
 Terminate
@@ -513,11 +511,11 @@ ClearMaintainedSelection
 )
 const
 ;
-void
+MOZ_MUST_USE
+bool
 FlushLayout
 (
 )
-const
 ;
 dom
 :
@@ -665,7 +663,6 @@ dom
 CaretChangedReason
 aReason
 )
-const
 ;
 nscoord
 mOffsetYToCaretLogicalPosition
@@ -743,6 +740,11 @@ MOZ_SOURCE_UNKNOWN
 ;
 bool
 mIsScrollStarted
+=
+false
+;
+bool
+mFlushingLayout
 =
 false
 ;
