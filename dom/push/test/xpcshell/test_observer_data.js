@@ -271,6 +271,9 @@ data
 json
 (
 )
+/
+InvalidStateError
+/
 '
 Should
 throw

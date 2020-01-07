@@ -147,6 +147,11 @@ false
 )
 }
 )
+/
+Invalid
+page
+record
+/
 '
 Expected
 error

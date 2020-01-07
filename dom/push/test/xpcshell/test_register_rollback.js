@@ -435,6 +435,11 @@ false
 )
 }
 )
+/
+universe
+has
+imploded
+/
 '
 Expected
 error

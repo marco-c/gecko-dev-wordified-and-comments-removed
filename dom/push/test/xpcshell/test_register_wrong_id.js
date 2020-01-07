@@ -274,6 +274,10 @@ false
 )
 }
 )
+/
+Registration
+error
+/
 '
 Expected
 error

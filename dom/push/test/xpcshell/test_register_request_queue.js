@@ -305,6 +305,10 @@ all
 rejects
 (
 firstRegister
+/
+Registration
+error
+/
 '
 Should
 time
@@ -317,6 +321,10 @@ request
 rejects
 (
 secondRegister
+/
+Registration
+error
+/
 '
 Should
 time
