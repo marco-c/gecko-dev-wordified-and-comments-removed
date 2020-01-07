@@ -21983,12 +21983,6 @@ strictCompatibility
 this
 .
 strictCompatibility
-&
-&
-!
-this
-.
-hasBinaryComponents
 )
 {
 let
@@ -25500,9 +25494,6 @@ size
 "
 "
 foreignInstall
-"
-"
-hasBinaryComponents
 "
 "
 strictCompatibility
