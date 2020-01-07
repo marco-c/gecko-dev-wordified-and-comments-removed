@@ -482,7 +482,7 @@ code
 }
 const
 Code
-*
+&
 code
 (
 )
@@ -494,6 +494,7 @@ code_
 )
 ;
 return
+*
 code_
 ;
 }

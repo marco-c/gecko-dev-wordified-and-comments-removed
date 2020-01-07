@@ -117,7 +117,6 @@ fp_
 ;
 if
 (
-!
 activation
 -
 >
@@ -126,21 +125,6 @@ isWasmInterrupted
 )
 )
 {
-popFrame
-(
-)
-;
-MOZ_ASSERT
-(
-!
-done
-(
-)
-)
-;
-return
-;
-}
 code_
 =
 &
@@ -202,6 +186,21 @@ CodeRange
 :
 :
 Function
+)
+;
+MOZ_ASSERT
+(
+!
+done
+(
+)
+)
+;
+return
+;
+}
+popFrame
+(
 )
 ;
 MOZ_ASSERT
@@ -2607,10 +2606,6 @@ ProfilingFrameIterator
 (
 )
 :
-activation_
-(
-nullptr
-)
 code_
 (
 nullptr
@@ -2661,11 +2656,6 @@ JitActivation
 activation
 )
 :
-activation_
-(
-&
-activation
-)
 code_
 (
 nullptr
@@ -2720,11 +2710,6 @@ Frame
 fp
 )
 :
-activation_
-(
-&
-activation
-)
 code_
 (
 nullptr
@@ -2772,10 +2757,6 @@ inline
 void
 AssertMatchesCallSite
 (
-const
-JitActivation
-&
-activation
 void
 *
 callerPC
@@ -2984,8 +2965,6 @@ callerFP
 ;
 AssertMatchesCallSite
 (
-*
-activation_
 callerPC_
 callerFP_
 )
@@ -3080,10 +3059,6 @@ wasm
 :
 StartUnwinding
 (
-const
-JitActivation
-&
-activation
 const
 RegisterState
 &
@@ -3181,6 +3156,7 @@ codeSegment
 {
 code
 =
+&
 codeSegment
 -
 >
@@ -3433,7 +3409,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3484,7 +3459,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3522,7 +3496,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3555,7 +3528,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3608,7 +3580,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3655,7 +3626,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3712,7 +3682,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3748,7 +3717,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3783,7 +3751,6 @@ fp
 ;
 AssertMatchesCallSite
 (
-activation
 fixedPC
 fixedFP
 )
@@ -3852,7 +3819,6 @@ false
 ;
 AssertMatchesCallSite
 (
-activation
 fp
 -
 >
@@ -3895,7 +3861,6 @@ false
 ;
 AssertMatchesCallSite
 (
-activation
 fp
 -
 >
@@ -3982,11 +3947,6 @@ RegisterState
 state
 )
 :
-activation_
-(
-&
-activation
-)
 code_
 (
 nullptr
@@ -4058,8 +4018,6 @@ if
 !
 StartUnwinding
 (
-*
-activation_
 state
 &
 unwindState
@@ -4381,8 +4339,6 @@ returnAddress
 ;
 AssertMatchesCallSite
 (
-*
-activation_
 callerPC_
 callerFP_
 -
@@ -5747,8 +5703,7 @@ codeSegment
 code
 (
 )
--
->
+.
 lookupRange
 (
 pc
@@ -5851,6 +5806,7 @@ code
 )
 =
 =
+&
 codeSegment
 .
 code

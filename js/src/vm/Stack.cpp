@@ -8803,8 +8803,6 @@ wasm
 :
 StartUnwinding
 (
-*
-this
 state
 &
 unwindState

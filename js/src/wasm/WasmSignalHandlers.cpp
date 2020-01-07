@@ -9492,7 +9492,7 @@ false
 ;
 const
 Code
-*
+&
 code
 =
 (
@@ -9511,8 +9511,7 @@ CodeRange
 codeRange
 =
 code
--
->
+.
 lookupRange
 (
 pc

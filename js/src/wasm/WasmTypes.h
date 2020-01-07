@@ -158,12 +158,6 @@ h
 namespace
 js
 {
-class
-PropertyName
-;
-class
-WasmFunctionCallObject
-;
 namespace
 jit
 {
