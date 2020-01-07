@@ -698,6 +698,16 @@ DisableMD5
 (
 )
 ;
+mozilla
+:
+:
+pkix
+:
+:
+RegisterErrorTable
+(
+)
+;
 initialized
 =
 true

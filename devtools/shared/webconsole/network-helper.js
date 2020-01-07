@@ -2841,7 +2841,7 @@ errorMessage
 =
 securityInfo
 .
-errorMessage
+errorCodeString
 ;
 }
 return

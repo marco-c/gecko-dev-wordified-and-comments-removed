@@ -379,16 +379,6 @@ SetCertVerificationResult
 (
 PRErrorCode
 errorCode
-:
-:
-mozilla
-:
-:
-psm
-:
-:
-SSLErrorMessageType
-errorMessageType
 )
 ;
 PRBool
