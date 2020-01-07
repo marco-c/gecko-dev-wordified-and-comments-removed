@@ -900,6 +900,8 @@ MOZ_ASAN
 endif
 #
 Darwin
+ifdef
+MOZ_STYLO
 ifndef
 MOZ_ARTIFACT_BUILDS
 echo
@@ -944,6 +946,9 @@ STYLO_BINDINGS_PACKAGE
 endif
 #
 MOZ_ARTIFACT_BUILDS
+endif
+#
+MOZ_STYLO
 prepare
 -
 package

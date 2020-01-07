@@ -605,7 +605,19 @@ stylo
 '
 ]
 =
-True
+substs
+.
+get
+(
+'
+MOZ_STYLO_ENABLE
+'
+)
+=
+=
+'
+1
+'
     
 d
 [
