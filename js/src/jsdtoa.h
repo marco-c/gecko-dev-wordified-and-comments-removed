@@ -34,6 +34,10 @@ state
 )
 ;
 }
+#
+define
+JS_DTOA_ENOMEM
+2
 double
 js_strtod_harder
 (
@@ -48,6 +52,9 @@ char
 *
 *
 se
+int
+*
+err
 )
 ;
 typedef

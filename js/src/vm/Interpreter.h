@@ -2176,6 +2176,8 @@ ThrowInitializedThis
 JSContext
 *
 cx
+AbstractFramePtr
+frame
 )
 ;
 bool

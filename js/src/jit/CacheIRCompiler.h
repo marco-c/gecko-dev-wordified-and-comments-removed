@@ -2436,6 +2436,8 @@ Address
 fieldAddr
 Register
 scratch
+TypedThingLayout
+layout
 uint32_t
 typeDescr
 const

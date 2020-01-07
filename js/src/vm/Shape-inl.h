@@ -157,6 +157,9 @@ StackBaseShape
 :
 StackBaseShape
 (
+JSContext
+*
+cx
 const
 Class
 *

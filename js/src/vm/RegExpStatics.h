@@ -204,6 +204,9 @@ clear
 void
 reset
 (
+JSContext
+*
+cx
 JSString
 *
 newInput

@@ -910,6 +910,9 @@ isBuiltinAdd
 (
 HandleValue
 add
+JSContext
+*
+cx
 )
 {
 return

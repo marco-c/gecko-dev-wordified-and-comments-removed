@@ -828,6 +828,9 @@ lastAnimationTime
 )
 performanceMonitoring_
 (
+thisFromCtor
+(
+)
 )
 stackFormat_
 (

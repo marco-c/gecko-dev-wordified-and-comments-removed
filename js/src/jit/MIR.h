@@ -41784,6 +41784,9 @@ initialHeap_
 ;
 MArraySlice
 (
+CompilerConstraintList
+*
+constraints
 MDefinition
 *
 obj
