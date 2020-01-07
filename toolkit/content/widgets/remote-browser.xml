@@ -2137,10 +2137,6 @@ if
 (
 !
 tabParent
-|
-|
-!
-tabParent
 .
 hasBeforeUnload
 )
