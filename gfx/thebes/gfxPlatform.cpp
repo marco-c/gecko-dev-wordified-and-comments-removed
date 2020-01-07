@@ -3033,19 +3033,6 @@ GFX_WEBRENDER_DEBUG
 (
 "
 .
-alpha
--
-primitives
-"
-1
-<
-<
-3
-)
-GFX_WEBRENDER_DEBUG
-(
-"
-.
 gpu
 -
 time
@@ -3055,7 +3042,7 @@ queries
 1
 <
 <
-4
+3
 )
 GFX_WEBRENDER_DEBUG
 (
@@ -3070,7 +3057,7 @@ queries
 1
 <
 <
-5
+4
 )
 GFX_WEBRENDER_DEBUG
 (
@@ -3083,7 +3070,7 @@ batching
 1
 <
 <
-6
+5
 )
 GFX_WEBRENDER_DEBUG
 (
@@ -3094,7 +3081,7 @@ epochs
 1
 <
 <
-7
+6
 )
 GFX_WEBRENDER_DEBUG
 (
@@ -3107,7 +3094,7 @@ profiler
 1
 <
 <
-8
+7
 )
 #
 undef
