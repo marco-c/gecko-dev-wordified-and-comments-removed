@@ -807,6 +807,12 @@ ServiceWorkerDescriptor
 >
 mServiceWorkerDescriptor
 ;
+Maybe
+<
+ServiceWorkerDescriptor
+>
+mParentController
+;
 ChannelInfo
 mChannelInfo
 ;
