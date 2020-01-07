@@ -1,4 +1,4 @@
-52808
+52817
 0
 /
 nm
@@ -64806,7 +64806,7 @@ diversity
 SM
 divert
 /
-SDG
+SDGRZ
 diverticulitis
 /
 M
@@ -69876,6 +69876,9 @@ Y
 exasperation
 /
 M
+exbibyte
+/
+MS
 excavate
 /
 GNDSX
@@ -75327,7 +75330,7 @@ SM
 functor
 fund
 /
-AMDGS
+AMDGSRZ
 fundamental
 /
 SMY
@@ -76699,6 +76702,9 @@ gibbous
 gibe
 /
 MGDS
+gibibyte
+/
+MS
 giblet
 /
 SM
@@ -88123,6 +88129,9 @@ kibbutz
 /
 MS
 kibbutzim
+kibibyte
+/
+MS
 kibitz
 /
 ZGDRS
@@ -93849,6 +93858,9 @@ M
 meaty
 /
 TPR
+mebibyte
+/
+MS
 mecca
 /
 SM
@@ -104476,6 +104488,9 @@ pebble
 /
 MGDS
 pebbly
+pebibyte
+/
+MS
 pecan
 /
 SM
@@ -121433,7 +121448,7 @@ skimpy
 RTP
 skin
 /
-MS
+MSA
 skincare
 /
 M
@@ -121449,10 +121464,14 @@ skinhead
 MS
 skinless
 skinned
+/
+A
 skinniness
 /
 M
 skinning
+/
+A
 skinny
 /
 RMTP
@@ -126752,6 +126771,9 @@ SM
 subprogram
 /
 S
+subrogate
+/
+DNS
 subroutine
 /
 SM
@@ -129421,6 +129443,9 @@ MS
 teatime
 /
 S
+tebibyte
+/
+MS
 tech
 /
 M
@@ -140453,6 +140478,9 @@ S
 yobbo
 /
 S
+yobibyte
+/
+MS
 yodel
 /
 SMDRZG
@@ -140610,6 +140638,9 @@ YP
 zealousness
 /
 M
+zebibyte
+/
+MS
 zebra
 /
 SM
