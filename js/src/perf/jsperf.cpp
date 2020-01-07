@@ -464,9 +464,9 @@ rval
 .
 setBoolean
 (
-p
--
->
+PerfMeasurement
+:
+:
 canMeasureSomething
 (
 )

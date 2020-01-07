@@ -4572,8 +4572,9 @@ masm
 .
 profilerEnterFrame
 (
-masm
-.
+MacroAssembler
+:
+:
 getStackPointer
 (
 )
@@ -23022,8 +23023,9 @@ peek
 1
 )
 )
-masm
-.
+MacroAssembler
+:
+:
 getStackPointer
 (
 )

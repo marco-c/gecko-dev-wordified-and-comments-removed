@@ -467,9 +467,9 @@ aCharIndex
 )
 ;
 }
-actor
--
->
+SpeechSynthesisRequestChild
+:
+:
 Send__delete__
 (
 actor

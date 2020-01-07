@@ -443,8 +443,9 @@ if
 index
 !
 =
-mElems
-.
+ArrayType
+:
+:
 NoIndex
 )
 {

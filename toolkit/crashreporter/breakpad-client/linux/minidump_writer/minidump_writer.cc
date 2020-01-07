@@ -3985,8 +3985,9 @@ dso_count
 MDRVA
 linkmap_rva
 =
-minidump_writer_
-.
+MinidumpFileWriter
+:
+:
 kInvalidMDRVA
 ;
 if
