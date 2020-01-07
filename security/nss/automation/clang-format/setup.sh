@@ -121,7 +121,7 @@ clang
 curl
 -
 L
-https
+http
 :
 /
 /
@@ -172,7 +172,7 @@ xz
 curl
 -
 L
-https
+http
 :
 /
 /

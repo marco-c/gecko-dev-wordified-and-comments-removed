@@ -445,7 +445,7 @@ clang
 curl
 -
 LO
-https
+http
 :
 /
 /
@@ -489,7 +489,7 @@ xz
 curl
 -
 LO
-https
+http
 :
 /
 /

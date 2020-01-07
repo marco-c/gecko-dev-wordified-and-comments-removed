@@ -11,7 +11,7 @@ SSL3ProtocolVersion
 #
 define
 TLS_1_3_DRAFT_VERSION
-23
+22
 typedef
 PRUint16
 ssl3CipherSuite
