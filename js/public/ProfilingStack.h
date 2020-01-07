@@ -741,6 +741,7 @@ char
 }
 class
 PseudoStack
+final
 {
 public
 :
