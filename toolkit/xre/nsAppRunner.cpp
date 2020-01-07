@@ -20369,7 +20369,7 @@ MOZ_SANDBOX
 SandboxBroker
 :
 :
-CacheRulesDirectories
+GeckoDependentInitialize
 (
 )
 ;

@@ -6986,7 +6986,7 @@ sandboxBrokerServices
 SandboxBroker
 :
 :
-CacheRulesDirectories
+GeckoDependentInitialize
 (
 )
 ;
