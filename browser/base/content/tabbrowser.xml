@@ -40020,14 +40020,9 @@ setter
 [
 CDATA
 [
-let
-root
-=
-document
+this
 .
-documentElement
-;
-root
+tabContainer
 .
 style
 .
