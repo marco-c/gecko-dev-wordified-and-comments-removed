@@ -3254,6 +3254,14 @@ checkHomepageEnabled
 (
 )
 ;
+await
+ExtensionSettingsStore
+.
+_reloadFile
+(
+false
+)
+;
 let
 storeData
 =
