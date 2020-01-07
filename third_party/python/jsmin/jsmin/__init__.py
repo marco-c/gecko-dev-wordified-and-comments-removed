@@ -59,9 +59,6 @@ def
 jsmin
 (
 js
-*
-*
-kwargs
 )
 :
     
@@ -139,9 +136,6 @@ JavascriptMinify
 (
 ins
 outs
-*
-*
-kwargs
 )
 .
 minify
@@ -192,13 +186,6 @@ None
 outstream
 =
 None
-quote_chars
-=
-"
-'
-\
-"
-"
 )
 :
         
@@ -213,12 +200,6 @@ self
 outs
 =
 outstream
-        
-self
-.
-quote_chars
-=
-quote_chars
     
 def
 minify
@@ -356,11 +337,10 @@ enders
 )
 +
 -
+"
+\
 '
-+
-self
-.
-quote_chars
+'
         
 newlinestart_strings
 =
@@ -519,9 +499,11 @@ previous
 if
 previous
 in
-self
-.
-quote_chars
+"
+'
+\
+"
+"
 :
                 
 in_quote
@@ -1159,9 +1141,11 @@ in_re
 and
 next1
 in
-self
-.
-quote_chars
+"
+'
+\
+"
+"
 :
                     
 in_quote
