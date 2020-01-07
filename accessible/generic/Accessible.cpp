@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULButtonElement
 .
 h

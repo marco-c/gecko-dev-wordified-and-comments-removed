@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIDOMElement
-.
-h
-"
-#
-include
-"
 nsMenuPopupFrame
 .
 h
