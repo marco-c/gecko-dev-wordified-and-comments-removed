@@ -73,15 +73,6 @@ compile
 =
 off
 '
-'
--
--
-non
--
-writable
--
-jitcode
-'
          
 '
 -
@@ -267,33 +258,12 @@ no
 -
 wasm
 '
-         
 '
 -
 -
 ion
 -
 eager
-'
-'
--
--
-ion
--
-offthread
--
-compile
-=
-off
-'
-'
--
--
-non
--
-writable
--
-jitcode
 '
          
 '
@@ -322,13 +292,6 @@ checks
 no
 -
 sse3
-'
-'
--
--
-no
--
-threads
 '
 ]
         
