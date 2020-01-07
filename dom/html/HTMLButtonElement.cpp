@@ -41,13 +41,6 @@ h
 #
 include
 "
-nsIDOMHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsAttrValueInlines
 .
 h

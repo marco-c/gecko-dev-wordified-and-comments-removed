@@ -1030,13 +1030,6 @@ h
 #
 include
 "
-nsIDOMHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsIDOMHTMLFormElement
-.
-h
-"
-#
-include
-"
 PLDHashTable
 .
 h

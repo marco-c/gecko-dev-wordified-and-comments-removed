@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsIDOMHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
