@@ -24,6 +24,11 @@ description
 "
 :
 "
+Rebuild
+assets
+for
+sourcemaps3
+test
 "
 "
 main
@@ -77,7 +82,11 @@ license
 "
 :
 "
-ISC
+MPL
+-
+2
+.
+0
 "
 "
 dependencies
