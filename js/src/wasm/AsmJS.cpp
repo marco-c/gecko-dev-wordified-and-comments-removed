@@ -3004,9 +3004,6 @@ inline
 bool
 IsNormalObjectField
 (
-JSContext
-*
-cx
 ParseNode
 *
 pn
@@ -3057,9 +3054,6 @@ PropertyName
 *
 ObjectNormalFieldName
 (
-JSContext
-*
-cx
 ParseNode
 *
 pn
@@ -3069,7 +3063,6 @@ MOZ_ASSERT
 (
 IsNormalObjectField
 (
-cx
 pn
 )
 )
@@ -3112,9 +3105,6 @@ ParseNode
 *
 ObjectNormalFieldInitializer
 (
-JSContext
-*
-cx
 ParseNode
 *
 pn
@@ -3124,7 +3114,6 @@ MOZ_ASSERT
 (
 IsNormalObjectField
 (
-cx
 pn
 )
 )
@@ -10953,9 +10942,6 @@ g
 bool
 addExportField
 (
-ParseNode
-*
-pn
 const
 Func
 &
@@ -33725,8 +33711,6 @@ f
 ParseNode
 *
 call
-SimdType
-opType
 Type
 *
 type
@@ -33909,7 +33893,6 @@ CheckSimdCheck
 (
 f
 call
-opType
 type
 )
 ;
@@ -44924,7 +44907,6 @@ m
 .
 addExportField
 (
-pn
 *
 func
 maybeFieldName
@@ -44983,11 +44965,6 @@ if
 !
 IsNormalObjectField
 (
-m
-.
-cx
-(
-)
 pn
 )
 )
@@ -45019,11 +44996,6 @@ fieldName
 =
 ObjectNormalFieldName
 (
-m
-.
-cx
-(
-)
 pn
 )
 ;
@@ -45033,11 +45005,6 @@ initNode
 =
 ObjectNormalFieldInitializer
 (
-m
-.
-cx
-(
-)
 pn
 )
 ;
@@ -52814,9 +52781,6 @@ static
 UniqueChars
 BuildConsoleMessage
 (
-JSContext
-*
-cx
 unsigned
 time
 JS
@@ -53240,7 +53204,6 @@ message
 =
 BuildConsoleMessage
 (
-cx
 time
 cacheResult
 )

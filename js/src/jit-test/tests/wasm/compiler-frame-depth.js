@@ -106,14 +106,4 @@ memory
 true
 )
 ;
-assertEq
-(
-getBuildConfiguration
-(
-)
-.
-asan
-true
-)
-;
 }
