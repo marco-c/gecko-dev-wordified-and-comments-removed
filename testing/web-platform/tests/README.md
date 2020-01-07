@@ -2223,7 +2223,7 @@ tests
 Root
 CA
 file
-rootca
+cacert
 .
 pem
 in
