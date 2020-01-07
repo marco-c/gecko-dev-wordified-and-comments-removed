@@ -4,17 +4,6 @@ validCollationOptions
 [
 [
 "
-"
-"
-en
--
-u
--
-co
-"
-]
-[
-"
 abc
 "
 "

@@ -261,7 +261,7 @@ the
 value
 of
 {
-expect
+expected
 }
 )
 ;

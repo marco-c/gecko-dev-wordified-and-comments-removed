@@ -17,14 +17,6 @@ ranges
 ]
 [
 0x000559
-0x00055F
-]
-[
-0x000561
-0x000587
-]
-[
-0x000589
 0x00058A
 ]
 [
@@ -156,8 +148,6 @@ buildString
 loneCodePoints
 :
 [
-0x000560
-0x000588
 ]
 ranges
 :

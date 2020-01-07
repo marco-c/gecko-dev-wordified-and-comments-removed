@@ -3,6 +3,8 @@ invalidCollationOptions
 =
 [
 "
+"
+"
 a
 "
 "

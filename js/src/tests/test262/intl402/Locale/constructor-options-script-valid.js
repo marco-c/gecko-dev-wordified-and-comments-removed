@@ -33,7 +33,7 @@ Bali
 bALI
 '
 '
-BALI
+Bali
 '
 ]
 [

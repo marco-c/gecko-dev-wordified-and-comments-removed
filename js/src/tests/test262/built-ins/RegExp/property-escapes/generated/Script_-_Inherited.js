@@ -12,6 +12,7 @@ loneCodePoints
 0x001CF4
 0x0101FD
 0x0102E0
+0x01133B
 ]
 ranges
 :
@@ -372,6 +373,10 @@ ranges
 ]
 [
 0x0102E1
+0x01133A
+]
+[
+0x01133C
 0x01D166
 ]
 [

@@ -4,17 +4,6 @@ validNumberingSystemOptions
 [
 [
 "
-"
-"
-en
--
-u
--
-nu
-"
-]
-[
-"
 abc
 "
 "

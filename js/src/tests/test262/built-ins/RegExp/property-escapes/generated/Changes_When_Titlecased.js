@@ -549,6 +549,7 @@ loneCodePoints
 0x00A7A9
 0x00A7B5
 0x00A7B7
+0x00A7B9
 0x00AB53
 ]
 ranges
@@ -809,6 +810,10 @@ ranges
 [
 0x0118C0
 0x0118DF
+]
+[
+0x016E60
+0x016E7F
 ]
 [
 0x01E922
@@ -1377,6 +1382,7 @@ loneCodePoints
 0x00A7A6
 0x00A7A8
 0x00A7B6
+0x00A7B8
 ]
 ranges
 :
@@ -1762,7 +1768,7 @@ ranges
 0x00A7B4
 ]
 [
-0x00A7B8
+0x00A7BA
 0x00AB52
 ]
 [
@@ -1803,6 +1809,10 @@ ranges
 ]
 [
 0x0118E0
+0x016E5F
+]
+[
+0x016E80
 0x01E921
 ]
 [

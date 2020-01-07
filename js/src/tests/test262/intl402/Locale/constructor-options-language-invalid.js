@@ -53,7 +53,14 @@ klingon
 "
 zh
 -
-Hant
+min
+"
+"
+zh
+-
+min
+-
+nan
 "
 "
 abcd

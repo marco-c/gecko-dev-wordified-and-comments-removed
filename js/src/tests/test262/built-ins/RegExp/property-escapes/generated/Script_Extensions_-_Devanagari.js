@@ -30,7 +30,7 @@ ranges
 ]
 [
 0x00A8E0
-0x00A8FD
+0x00A8FF
 ]
 ]
 }
@@ -183,7 +183,7 @@ ranges
 0x00A8DF
 ]
 [
-0x00A8FE
+0x00A900
 0x00DBFF
 ]
 [
