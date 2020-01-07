@@ -3457,7 +3457,7 @@ value
 return
 addon
 .
-enable
+disable
 (
 )
 ;
@@ -3465,7 +3465,7 @@ enable
 return
 addon
 .
-disable
+enable
 (
 )
 ;
