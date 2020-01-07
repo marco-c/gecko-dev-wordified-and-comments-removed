@@ -124,7 +124,7 @@ xml
 /
 multilocale
 .
-json
+txt
 '
 ]
 )

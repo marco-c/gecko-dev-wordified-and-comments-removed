@@ -288,7 +288,7 @@ package
 :
 multilocale
 .
-json
+txt
 locale
 -
 manifest
@@ -1839,7 +1839,7 @@ to
 build
 multilocale
 .
-json
+txt
 #
 and
 places
@@ -1862,7 +1862,7 @@ build
 .
 multilocale
 .
-json
+txt
 :
 LOCALES
 ?
@@ -1872,7 +1872,7 @@ MOZ_CHROME_MULTILOCALE
 )
 multilocale
 .
-json
+txt
 :
 (
 call
@@ -1897,7 +1897,7 @@ MULTILOCALE_DIR
 /
 multilocale
 .
-json
+txt
 '
 (
 MDDEPDIR
@@ -1905,7 +1905,7 @@ MDDEPDIR
 /
 multilocale
 .
-json
+txt
 .
 pp
 (
@@ -1924,7 +1924,7 @@ to
 build
 multilocale
 .
-json
+txt
 and
 places
 it
@@ -1949,7 +1949,7 @@ build
 .
 multilocale
 .
-json
+txt
 -
 %
 :
@@ -1961,7 +1961,7 @@ AB_CD
 )
 multilocale
 .
-json
+txt
 -
 %
 :
@@ -1982,7 +1982,7 @@ XPI_NAME
 res
 multilocale
 .
-json
+txt
 -
 %
 :
@@ -2009,7 +2009,7 @@ MULTILOCALE_DIR
 /
 multilocale
 .
-json
+txt
 '
 (
 MDDEPDIR
@@ -2017,7 +2017,7 @@ MDDEPDIR
 /
 multilocale
 .
-json
+txt
 .
 pp
 (
@@ -2067,7 +2067,7 @@ res
 /
 multilocale
 .
-json
+txt
 \
 n
 '

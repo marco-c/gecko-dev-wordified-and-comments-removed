@@ -4,8 +4,6 @@ import
 print_function
 unicode_literals
 import
-json
-import
 sys
 def
 main
@@ -45,19 +43,17 @@ US
 "
 )
     
-json
-.
-dump
+print
 (
-{
-        
 "
-locales
 "
-:
+.
+join
+(
 locales
-    
-}
+)
+file
+=
 output
 )
 if

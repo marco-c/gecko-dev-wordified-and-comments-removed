@@ -434,7 +434,7 @@ MAKE
 )
 multilocale
 .
-json
+txt
 -
 *
 AB_CD

@@ -164,7 +164,7 @@ GENERATED_FILES
 '
 multilocale
 .
-json
+txt
 '
 ]
 multilocale
@@ -174,7 +174,7 @@ GENERATED_FILES
 '
 multilocale
 .
-json
+txt
 '
 ]
 multilocale
@@ -196,7 +196,7 @@ res
 !
 multilocale
 .
-json
+txt
 '
 ]
 if
