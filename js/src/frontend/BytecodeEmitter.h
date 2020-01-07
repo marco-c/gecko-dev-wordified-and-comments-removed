@@ -1295,13 +1295,6 @@ JSContext
 cx
 )
 ;
-inline
-TokenStreamAnyChars
-&
-tokenStream
-(
-)
-;
 BytecodeVector
 &
 code
