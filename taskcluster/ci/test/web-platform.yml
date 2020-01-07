@@ -773,6 +773,16 @@ ccov
 :
 [
 ]
+windows10
+-
+64
+-
+ccov
+/
+debug
+:
+[
+]
 #
 do
 not
