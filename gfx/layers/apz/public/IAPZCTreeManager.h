@@ -34,7 +34,7 @@ mozilla
 /
 layers
 /
-LayersTypes
+APZUtils
 .
 h
 "
