@@ -140,7 +140,7 @@ category
 '
 testing
 '
-        
+             
 conditions
 =
 [
@@ -149,7 +149,7 @@ conditions
 is_firefox
 is_valgrind_build
 ]
-        
+             
 description
 =
 '
@@ -184,13 +184,13 @@ action
 '
 append
 '
-        
+                     
 metavar
 =
 '
 FILENAME
 '
-        
+                     
 help
 =
 '
@@ -205,7 +205,7 @@ use
 .
 Use
 '
-            
+                     
 '
 -
 -
@@ -217,7 +217,7 @@ specify
 multiple
 suppression
 '
-            
+                     
 '
 files
 .
@@ -352,6 +352,7 @@ path
 .
 join
 (
+                
 self
 .
 topsrcdir
@@ -522,6 +523,7 @@ path
 .
 join
 (
+                
 self
 .
 topsrcdir
