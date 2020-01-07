@@ -124,11 +124,14 @@ querySelector
 (
 "
 .
-markupview
--
-event
+markup
 -
 badge
+[
+data
+-
+event
+]
 "
 )
 ;
