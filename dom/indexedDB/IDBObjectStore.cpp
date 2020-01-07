@@ -1684,7 +1684,10 @@ getter_AddRefs
 (
 mStream
 )
+Move
+(
 compiled
+)
 )
 )
 ;
