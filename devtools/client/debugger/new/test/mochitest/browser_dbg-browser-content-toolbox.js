@@ -33,14 +33,16 @@ index
 const
 bp
 =
-findElement
+findAllElements
 (
 dbg
 "
-breakpointItem
+breakpointItems
 "
-index
 )
+[
+index
+]
 ;
 const
 input
@@ -311,7 +313,7 @@ await
 disableBreakpoint
 (
 dbg
-1
+0
 )
 ;
 let
@@ -352,7 +354,7 @@ await
 enableBreakpoint
 (
 dbg
-1
+0
 )
 ;
 bp
