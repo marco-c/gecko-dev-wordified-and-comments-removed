@@ -1326,11 +1326,9 @@ bool
 HasVariations
 (
 )
-{
-return
-false
+=
+0
 ;
-}
 virtual
 void
 GetVariationAxes

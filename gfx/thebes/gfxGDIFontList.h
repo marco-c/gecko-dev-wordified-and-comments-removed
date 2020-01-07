@@ -536,6 +536,16 @@ Clone
 const
 override
 ;
+bool
+HasVariations
+(
+)
+override
+{
+return
+false
+;
+}
 static
 GDIFontEntry
 *

@@ -2268,6 +2268,16 @@ return
 mSrcList
 ;
 }
+bool
+HasVariations
+(
+)
+override
+{
+return
+false
+;
+}
 protected
 :
 const
