@@ -23368,6 +23368,12 @@ endif
 endif
 %
 endfor
+<
+%
+del
+property
+%
+>
 /
 /
 /
@@ -23791,8 +23797,6 @@ name
 %
 if
 not
-property
-.
 style_struct
 .
 inherited
@@ -23864,8 +23868,6 @@ name
 %
 if
 not
-property
-.
 style_struct
 .
 inherited
@@ -24080,6 +24082,12 @@ _arc
 }
 %
 endfor
+<
+%
+del
+style_struct
+%
+>
 /
 /
 /
