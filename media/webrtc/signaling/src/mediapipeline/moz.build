@@ -225,11 +225,6 @@ RtpLogger
 .
 cpp
 '
-'
-SrtpFlow
-.
-cpp
-'
 ]
 FINAL_LIBRARY
 =
