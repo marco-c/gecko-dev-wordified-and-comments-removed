@@ -62,6 +62,17 @@ third_party
 /
 python
 /
+attrs
+/
+src
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 blessings
 mozilla
 .
