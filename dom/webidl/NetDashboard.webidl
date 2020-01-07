@@ -326,6 +326,11 @@ expiration
 =
 0
 ;
+boolean
+trr
+=
+false
+;
 }
 ;
 dictionary
