@@ -109,11 +109,7 @@ aController
 .
 handleKeyNavigation
 (
-Ci
-.
-nsIDOMKeyEvent
-.
-DOM_VK_RIGHT
+0x27
 )
 ;
 Assert

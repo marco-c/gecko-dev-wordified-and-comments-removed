@@ -3015,14 +3015,10 @@ new
 Set
 (
 [
-Ci
-.
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_DOWN
-Ci
-.
-nsIDOMKeyEvent
+KeyboardEvent
 .
 DOM_VK_TAB
 ]

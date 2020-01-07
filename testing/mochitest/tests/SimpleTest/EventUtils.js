@@ -3583,9 +3583,9 @@ return
 var
 KeyEvent
 =
-_EU_Ci
-.
-nsIDOMKeyEvent
+_getKeyboardEvent
+(
+)
 ;
 if
 (
@@ -6744,9 +6744,10 @@ VK_
 {
 keyCode
 =
-_EU_Ci
-.
-nsIDOMKeyEvent
+_getKeyboardEvent
+(
+aWindow
+)
 [
 "
 DOM_

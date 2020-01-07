@@ -1281,9 +1281,7 @@ aEvent
 keyCode
 =
 =
-Ci
-.
-nsIDOMKeyEvent
+aEvent
 .
 DOM_VK_TAB
 |
@@ -1293,9 +1291,7 @@ aEvent
 keyCode
 =
 =
-Ci
-.
-nsIDOMKeyEvent
+aEvent
 .
 DOM_VK_UP
 |
@@ -1305,9 +1301,7 @@ aEvent
 keyCode
 =
 =
-Ci
-.
-nsIDOMKeyEvent
+aEvent
 .
 DOM_VK_DOWN
 )
@@ -1363,9 +1357,7 @@ aEvent
 keyCode
 =
 =
-Ci
-.
-nsIDOMKeyEvent
+aEvent
 .
 DOM_VK_DOWN
 )
@@ -1446,9 +1438,7 @@ aEvent
 keyCode
 =
 =
-Ci
-.
-nsIDOMKeyEvent
+aEvent
 .
 DOM_VK_UP
 &
@@ -1512,9 +1502,7 @@ aEvent
 keyCode
 =
 =
-Ci
-.
-nsIDOMKeyEvent
+aEvent
 .
 DOM_VK_V
 &

@@ -420,7 +420,7 @@ one
 of
 consts
 of
-nsIDOMKeyEvent
+KeyEvent
 .
 DOM
 <
@@ -936,7 +936,7 @@ quot
 ;
 in
 the
-nsIDOMKeyEvent
+KeyEvent
 constant
 name
 for

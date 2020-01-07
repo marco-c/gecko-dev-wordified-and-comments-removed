@@ -571,11 +571,7 @@ controller
 .
 handleKeyNavigation
 (
-Ci
-.
-nsIDOMKeyEvent
-.
-DOM_VK_UP
+0x26
 )
 ;
 }

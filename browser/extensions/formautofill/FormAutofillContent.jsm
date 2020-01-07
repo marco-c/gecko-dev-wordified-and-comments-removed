@@ -2861,9 +2861,7 @@ e
 keyCode
 !
 =
-Ci
-.
-nsIDOMKeyEvent
+e
 .
 DOM_VK_RETURN
 |

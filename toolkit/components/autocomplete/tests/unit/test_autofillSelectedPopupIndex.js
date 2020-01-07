@@ -334,11 +334,7 @@ controller
 .
 handleKeyNavigation
 (
-Ci
-.
-nsIDOMKeyEvent
-.
-DOM_VK_DOWN
+0x28
 )
 ;
 let
@@ -416,11 +412,7 @@ controller
 .
 handleKeyNavigation
 (
-Ci
-.
-nsIDOMKeyEvent
-.
-DOM_VK_UP
+0x26
 )
 ;
 expectedValue

@@ -1264,9 +1264,7 @@ keyCode
 )
 {
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_LEFT
 :
@@ -1290,9 +1288,7 @@ parentElement
 break
 ;
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_RIGHT
 :
@@ -1365,9 +1361,7 @@ child
 break
 ;
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_RETURN
 :
@@ -1381,9 +1375,7 @@ event
 return
 ;
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_ESCAPE
 :
@@ -1411,9 +1403,7 @@ canceled
 return
 ;
 case
-Ci
-.
-nsIDOMKeyEvent
+event
 .
 DOM_VK_C
 :

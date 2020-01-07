@@ -42,9 +42,7 @@ KeyCodes
 [
 key
 ]
-Ci
-.
-nsIDOMKeyEvent
+KeyboardEvent
 [
 key
 ]
