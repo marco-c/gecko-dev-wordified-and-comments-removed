@@ -3557,6 +3557,11 @@ StartForceKillTimer
 (
 )
 ;
+void
+ShutdownInternal
+(
+)
+;
 virtual
 void
 ActorDestroy
