@@ -105,7 +105,9 @@ History
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 PO
 .
@@ -121,6 +123,8 @@ History
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -143,6 +147,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -166,6 +172,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -209,7 +217,9 @@ containerOpen
 =
 true
 ;
-is
+Assert
+.
+equal
 (
 historyNode
 .
@@ -252,7 +262,9 @@ is
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 todayNode
 .
@@ -277,7 +289,9 @@ selectNode
 todayNode
 )
 ;
-is
+Assert
+.
+equal
 (
 PO
 .
@@ -294,6 +308,8 @@ container
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -316,6 +332,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -339,6 +357,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -401,7 +421,9 @@ cmd_delete
 await
 promiseURIRemoved
 ;
-is
+Assert
+.
+equal
 (
 historyNode
 .
@@ -423,6 +445,8 @@ containerOpen
 =
 false
 ;
+Assert
+.
 ok
 (
 !
@@ -499,7 +523,9 @@ BookmarksToolbar
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 PO
 .
@@ -516,7 +542,9 @@ selection
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 PlacesUtils
 .
@@ -543,6 +571,8 @@ node
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -565,6 +595,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -588,6 +620,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -676,6 +710,8 @@ index
 }
 )
 ;
+Assert
+.
 ok
 (
 toolbarNode
@@ -701,7 +737,9 @@ getChild
 0
 )
 ;
-is
+Assert
+.
+equal
 (
 queryNode
 .
@@ -727,7 +765,9 @@ selectNode
 queryNode
 )
 ;
-is
+Assert
+.
+equal
 (
 PO
 .
@@ -744,6 +784,8 @@ node
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -766,6 +808,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -788,6 +832,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -855,7 +901,9 @@ cmd_delete
 await
 promiseItemRemoved
 ;
-is
+Assert
+.
+equal
 (
 (
 await
@@ -989,7 +1037,9 @@ BookmarksToolbar
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 PO
 .
@@ -1006,7 +1056,9 @@ selection
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 PlacesUtils
 .
@@ -1077,7 +1129,9 @@ view
 .
 selectedNode
 ;
-is
+Assert
+.
+equal
 (
 bookmarkNode
 .
@@ -1100,6 +1154,8 @@ bookmark
 "
 )
 ;
+Assert
+.
 ok
 (
 library
@@ -1124,6 +1180,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 library
@@ -1148,6 +1206,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 library
@@ -1310,7 +1370,9 @@ _places
 .
 selectedNode
 ;
-isnot
+Assert
+.
+notEqual
 (
 tagsNode
 null
@@ -1335,7 +1397,9 @@ TagsFolderTitle
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 tagsNode
 .
@@ -1350,6 +1414,8 @@ selected
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -1372,6 +1438,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1395,6 +1463,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1448,7 +1518,9 @@ selectNode
 tag
 )
 ;
-is
+Assert
+.
+equal
 (
 PO
 .
@@ -1471,6 +1543,8 @@ selected
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -1493,6 +1567,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1516,6 +1592,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 PO
@@ -1549,7 +1627,9 @@ view
 .
 selectedNode
 ;
-is
+Assert
+.
+equal
 (
 bookmarkNode
 .
@@ -1572,6 +1652,8 @@ bookmark
 "
 )
 ;
+Assert
+.
 ok
 (
 library
@@ -1596,6 +1678,8 @@ enabled
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1621,6 +1705,8 @@ disabled
 "
 )
 ;
+Assert
+.
 ok
 (
 library
