@@ -631,6 +631,9 @@ AddrInfo
 >
 mFirstTRR
 ;
+nsresult
+mFirstTRRresult
+;
 uint16_t
 mResolving
 ;

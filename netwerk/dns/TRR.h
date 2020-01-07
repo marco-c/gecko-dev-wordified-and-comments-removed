@@ -517,6 +517,8 @@ ReturnData
 nsresult
 FailData
 (
+nsresult
+error
 )
 ;
 nsresult
