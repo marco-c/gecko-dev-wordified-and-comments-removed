@@ -1021,6 +1021,17 @@ env
 [
 0
 ]
+&
+&
+env
+[
+0
+]
+!
+=
+'
+0
+'
 )
 CacheIRSpewer
 :
@@ -1031,6 +1042,7 @@ singleton
 .
 init
 (
+env
 )
 ;
 #
