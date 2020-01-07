@@ -64195,6 +64195,7 @@ alloc
 elements
 scaledOffset
 value
+obj
 elementsOffset
 preBarrier
 )
@@ -73682,6 +73683,7 @@ alloc
 elements
 scaledOffset
 value
+typedObj
 adjustment
 )
 ;
