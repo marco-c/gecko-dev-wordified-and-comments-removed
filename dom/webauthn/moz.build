@@ -176,12 +176,12 @@ WebAuthnManager
 h
 '
 '
-WebAuthnTransactionChild
+WebAuthnManagerBase
 .
 h
 '
 '
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 .
 h
 '
@@ -269,11 +269,6 @@ cpp
 '
 '
 WebAuthnTransactionChild
-.
-cpp
-'
-'
-WebAuthnTransactionChildBase
 .
 cpp
 '

@@ -385,7 +385,7 @@ mozilla
 /
 dom
 /
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 .
 h
 "
@@ -583,7 +583,7 @@ mozilla
 dom
 :
 :
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 ;
 BackgroundChildImpl
 :
@@ -2566,7 +2566,7 @@ RefPtr
 dom
 :
 :
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 >
 child
 =
@@ -2577,7 +2577,7 @@ static_cast
 dom
 :
 :
-WebAuthnTransactionChildBase
+WebAuthnTransactionChild
 *
 >
 (
