@@ -84,6 +84,13 @@ UniquePtr
 .
 h
 "
+#
+include
+"
+HandlerData
+.
+h
+"
 struct
 NEWEST_IA2_INTERFACE
 ;
