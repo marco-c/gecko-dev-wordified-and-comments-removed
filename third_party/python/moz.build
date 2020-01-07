@@ -151,7 +151,9 @@ BUG_COMPONENT
 =
 (
 '
-Taskcluster
+Firefox
+Build
+System
 '
 '
 Task
@@ -711,7 +713,9 @@ BUG_COMPONENT
 =
 (
 '
-Taskcluster
+Firefox
+Build
+System
 '
 '
 Task
