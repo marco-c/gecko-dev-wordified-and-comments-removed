@@ -4,16 +4,6 @@ strict
 "
 ;
 var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-var
 defer
 =
 require
@@ -3707,7 +3697,7 @@ this
 _pendingResponse
 |
 |
-promise
+Promise
 .
 resolve
 (
@@ -5012,7 +5002,7 @@ function
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -5346,7 +5336,7 @@ function
 )
 )
 {
-promise
+Promise
 .
 all
 (
