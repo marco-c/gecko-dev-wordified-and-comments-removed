@@ -169,13 +169,6 @@ js
 '
 '
 react
--
-virtualized
-.
-js
-'
-'
-react
 .
 js
 '
