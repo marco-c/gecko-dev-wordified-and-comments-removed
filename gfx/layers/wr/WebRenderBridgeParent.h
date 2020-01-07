@@ -1536,6 +1536,9 @@ mDestroyed
 bool
 mForceRendering
 ;
+bool
+mReceivedDisplayList
+;
 WebRenderScrollData
 mScrollData
 ;
