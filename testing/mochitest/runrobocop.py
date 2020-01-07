@@ -1853,17 +1853,6 @@ org
 '
             
 '
-worker
--
-test
-mozilla
-.
-org
-.
-xpi
-'
-            
-'
 workerbootstrap
 -
 test

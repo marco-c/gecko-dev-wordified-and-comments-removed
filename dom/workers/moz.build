@@ -444,13 +444,6 @@ extensions
 /
 bootstrap
 '
-'
-test
-/
-extensions
-/
-traditional
-'
 ]
 MOCHITEST_MANIFESTS
 +
