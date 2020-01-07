@@ -882,6 +882,9 @@ empty
 (
 )
 ;
+let
+_
+=
 restyle_damage_rebuild_and_reflow
 !
 (
