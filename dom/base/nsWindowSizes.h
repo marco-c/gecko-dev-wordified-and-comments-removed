@@ -636,6 +636,12 @@ mDOMEventTargetsSize
 macro
 (
 DOM
+mDOMMediaQueryLists
+)
+\
+macro
+(
+DOM
 mDOMPerformanceUserEntries
 )
 \
