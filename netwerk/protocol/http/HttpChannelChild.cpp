@@ -4016,6 +4016,10 @@ const
 ResourceTimingStruct
 &
 timing
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 :
 NeckoTargetChannelEvent
@@ -4033,6 +4037,10 @@ mTiming
 (
 timing
 )
+mResponseTrailers
+(
+aResponseTrailers
+)
 {
 }
 void
@@ -4047,6 +4055,7 @@ OnStopRequest
 (
 mChannelStatus
 mTiming
+mResponseTrailers
 )
 ;
 }
@@ -4057,6 +4066,9 @@ mChannelStatus
 ;
 ResourceTimingStruct
 mTiming
+;
+nsHttpHeaderArray
+mResponseTrailers
 ;
 }
 ;
@@ -4074,6 +4086,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 {
 LOG
@@ -4133,6 +4149,7 @@ StopRequestEvent
 this
 aChannelStatus
 aTiming
+aResponseTrailers
 )
 mDivertingToParent
 )
@@ -4277,6 +4294,10 @@ const
 ResourceTimingStruct
 &
 timing
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 {
 LOG
@@ -4539,6 +4560,14 @@ mCacheReadEnd
 timing
 .
 cacheReadEnd
+;
+mResponseTrailers
+=
+new
+nsHttpHeaderArray
+(
+aResponseTrailers
+)
 ;
 DoPreOnStopRequest
 (

@@ -139,6 +139,10 @@ const
 TimeStamp
 &
 aLastActiveTabOptHit
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 override
 ;

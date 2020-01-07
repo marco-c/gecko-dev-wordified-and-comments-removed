@@ -924,6 +924,10 @@ const
 ResourceTimingStruct
 &
 aTiming
+const
+nsHttpHeaderArray
+&
+aResponseTrailers
 )
 {
 LOG
@@ -1007,6 +1011,8 @@ const
 nsresult
 const
 ResourceTimingStruct
+const
+nsHttpHeaderArray
 >
 (
 "
@@ -1026,6 +1032,7 @@ HttpBackgroundChannelParent
 OnStopRequest
 aChannelStatus
 aTiming
+aResponseTrailers
 )
 NS_DISPATCH_NORMAL
 )
@@ -1061,6 +1068,7 @@ SendOnStopRequest
 aChannelStatus
 aTiming
 lastActTabOpt
+aResponseTrailers
 )
 ;
 }
