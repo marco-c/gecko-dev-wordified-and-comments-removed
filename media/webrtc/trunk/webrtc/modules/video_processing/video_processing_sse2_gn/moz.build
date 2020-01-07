@@ -92,15 +92,6 @@ OS_INCLUDES
 =
 [
 ]
-COMPILE_FLAGS
-[
-"
-STL
-"
-]
-=
-[
-]
 AllowCompilerWarnings
 (
 )
@@ -562,6 +553,10 @@ CXXFLAGS
 -
 msse2
 "
+"
+-
+msse2
+"
 ]
 DEFINES
 [
@@ -750,10 +745,6 @@ CXXFLAGS
 +
 =
 [
-"
--
-msse2
-"
 "
 -
 msse2

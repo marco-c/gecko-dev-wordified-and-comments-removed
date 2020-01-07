@@ -92,15 +92,6 @@ OS_INCLUDES
 =
 [
 ]
-COMPILE_FLAGS
-[
-"
-STL
-"
-]
-=
-[
-]
 AllowCompilerWarnings
 (
 )
