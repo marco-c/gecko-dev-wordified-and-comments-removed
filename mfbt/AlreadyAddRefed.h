@@ -130,6 +130,9 @@ T
 &
 aOther
 )
+#
+ifdef
+DEBUG
 :
 mRawPtr
 (
@@ -141,6 +144,13 @@ take
 )
 {
 }
+#
+else
+=
+default
+;
+#
+endif
 already_AddRefed
 <
 T
@@ -202,6 +212,9 @@ take
 already_AddRefed
 (
 )
+#
+ifdef
+DEBUG
 {
 MOZ_ASSERT
 (
@@ -210,6 +223,13 @@ mRawPtr
 )
 ;
 }
+#
+else
+=
+default
+;
+#
+endif
 friend
 void
 operator
