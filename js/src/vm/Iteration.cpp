@@ -4611,7 +4611,7 @@ cx
 cx
 -
 >
-compartment
+realm
 (
 )
 -
@@ -4657,7 +4657,7 @@ resultObj
 >
 setSlot
 (
-JSCompartment
+Realm
 :
 :
 IterResultObjectValueSlot
@@ -4669,7 +4669,7 @@ resultObj
 >
 setSlot
 (
-JSCompartment
+Realm
 :
 :
 IterResultObjectDoneSlot
@@ -4686,7 +4686,7 @@ resultObj
 }
 NativeObject
 *
-JSCompartment
+Realm
 :
 :
 getOrCreateIterResultTemplateObject
@@ -4696,6 +4696,19 @@ JSContext
 cx
 )
 {
+MOZ_ASSERT
+(
+cx
+-
+>
+realm
+(
+)
+=
+=
+this
+)
+;
 if
 (
 iterResultTemplate_
@@ -4917,7 +4930,7 @@ slot
 )
 =
 =
-JSCompartment
+Realm
 :
 :
 IterResultObjectValueSlot
@@ -4959,7 +4972,7 @@ slot
 )
 =
 =
-JSCompartment
+Realm
 :
 :
 IterResultObjectDoneSlot

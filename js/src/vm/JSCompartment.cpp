@@ -352,18 +352,6 @@ jitCompartment_
 (
 nullptr
 )
-mappedArgumentsTemplate_
-(
-nullptr
-)
-unmappedArgumentsTemplate_
-(
-nullptr
-)
-iterResultTemplate_
-(
-nullptr
-)
 lcovOutput
 (
 )
@@ -3937,7 +3925,7 @@ NeedsSweepUnbarrieredFunctor
 ;
 }
 void
-JSCompartment
+Realm
 :
 :
 sweepTemplateObjects

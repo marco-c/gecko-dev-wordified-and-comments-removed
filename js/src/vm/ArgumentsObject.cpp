@@ -1339,7 +1339,7 @@ obj
 }
 ArgumentsObject
 *
-JSCompartment
+Realm
 :
 :
 maybeArgumentsTemplateObject
@@ -1359,7 +1359,7 @@ unmappedArgumentsTemplate_
 }
 ArgumentsObject
 *
-JSCompartment
+Realm
 :
 :
 getOrCreateArgumentsTemplateObject
@@ -1474,7 +1474,7 @@ templateObj
 cx
 -
 >
-compartment
+realm
 (
 )
 -
