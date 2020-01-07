@@ -380,7 +380,6 @@ Formatted
 exception
 stack
 [
-Throws
 Replaceable
 ]
 readonly
