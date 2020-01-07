@@ -19,14 +19,9 @@ js
 "
 )
 ;
-function
-run_test
-(
-)
-{
-return
 async
 function
+run_test
 (
 )
 {
@@ -432,7 +427,5 @@ client
 do_test_finished
 (
 )
-;
-}
 ;
 }
