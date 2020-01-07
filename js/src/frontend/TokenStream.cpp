@@ -235,12 +235,6 @@ using
 mozilla
 :
 :
-PodArrayZero
-;
-using
-mozilla
-:
-:
 PodCopy
 ;
 struct
@@ -2013,11 +2007,6 @@ strictModeGetter
 smg
 )
 {
-PodArrayZero
-(
-isExprEnding
-)
-;
 isExprEnding
 [
 size_t
@@ -2029,7 +2018,7 @@ Comma
 )
 ]
 =
-1
+true
 ;
 isExprEnding
 [
@@ -2042,7 +2031,7 @@ Semi
 )
 ]
 =
-1
+true
 ;
 isExprEnding
 [
@@ -2055,7 +2044,7 @@ Colon
 )
 ]
 =
-1
+true
 ;
 isExprEnding
 [
@@ -2068,7 +2057,7 @@ Rp
 )
 ]
 =
-1
+true
 ;
 isExprEnding
 [
@@ -2081,7 +2070,7 @@ Rb
 )
 ]
 =
-1
+true
 ;
 isExprEnding
 [
@@ -2094,7 +2083,7 @@ Rc
 )
 ]
 =
-1
+true
 ;
 }
 template

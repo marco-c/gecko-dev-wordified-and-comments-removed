@@ -2610,7 +2610,7 @@ displayURL_
 UniqueTwoByteChars
 sourceMapURL_
 ;
-uint8_t
+bool
 isExprEnding
 [
 size_t
@@ -2621,6 +2621,9 @@ TokenKind
 Limit
 )
 ]
+=
+{
+}
 ;
 JSContext
 *
