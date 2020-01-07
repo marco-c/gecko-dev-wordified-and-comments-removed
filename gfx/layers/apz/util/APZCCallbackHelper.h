@@ -278,6 +278,7 @@ nsIWidget
 aWidget
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 bool
 DispatchMouseEvent
