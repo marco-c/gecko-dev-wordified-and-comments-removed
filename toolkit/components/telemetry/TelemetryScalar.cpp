@@ -108,7 +108,7 @@ h
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 #
 include
@@ -1005,7 +1005,7 @@ Ok
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 nsresult
 WriteVariantToJSONWriter
@@ -12602,7 +12602,7 @@ dynamicStubs
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 nsresult
 TelemetryScalar

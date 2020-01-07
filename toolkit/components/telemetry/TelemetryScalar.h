@@ -29,7 +29,7 @@ mozilla
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 class
 JSONWriter
@@ -584,7 +584,7 @@ DynamicScalarDefinition
 if
 defined
 (
-MOZ_WIDGET_ANDROID
+MOZ_TELEMETRY_GECKOVIEW
 )
 nsresult
 SerializeScalars
