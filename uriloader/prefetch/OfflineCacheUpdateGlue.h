@@ -458,7 +458,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 nsIFile
@@ -475,7 +475,7 @@ OfflineCacheUpdateGlue
 void
 SetDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 )
@@ -498,7 +498,7 @@ mCoalesced
 ;
 nsCOMPtr
 <
-nsIDOMDocument
+nsIDocument
 >
 mDocument
 ;

@@ -5129,17 +5129,6 @@ if
 updateService
 )
 {
-nsCOMPtr
-<
-nsIDOMDocument
->
-domdoc
-=
-do_QueryInterface
-(
-mDocument
-)
-;
 updateService
 -
 >
@@ -5153,7 +5142,7 @@ mDocument
 NodePrincipal
 (
 )
-domdoc
+mDocument
 )
 ;
 }

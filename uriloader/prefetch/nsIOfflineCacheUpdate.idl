@@ -110,9 +110,6 @@ interface
 nsIDOMNode
 ;
 interface
-nsIDOMDocument
-;
-interface
 nsIOfflineCacheUpdate
 ;
 interface
@@ -129,6 +126,9 @@ nsIFile
 ;
 interface
 nsIObserver
+;
+webidl
+Document
 ;
 [
 scriptable
@@ -610,7 +610,7 @@ in
 nsIPrincipal
 aLoadingPrincipal
 in
-nsIDOMDocument
+Document
 aDocument
 [
 optional
@@ -1390,7 +1390,7 @@ in
 nsIPrincipal
 aLoadingPrincipal
 in
-nsIDOMDocument
+Document
 aDocument
 )
 ;
