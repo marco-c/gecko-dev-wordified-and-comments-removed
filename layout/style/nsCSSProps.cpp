@@ -10114,13 +10114,6 @@ StyleUserInput
 None
 }
 {
-eCSSKeyword_enabled
-StyleUserInput
-:
-:
-Enabled
-}
-{
 eCSSKeyword_auto
 StyleUserInput
 :

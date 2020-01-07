@@ -27970,9 +27970,6 @@ other_values
 "
 none
 "
-"
-enabled
-"
 ]
 invalid_values
 :

@@ -289,7 +289,6 @@ StyleUserInput
 uint8_t
 {
 None
-Enabled
 Auto
 }
 ;
