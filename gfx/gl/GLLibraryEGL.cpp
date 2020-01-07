@@ -285,6 +285,9 @@ EGL_ANGLE_device_creation
 "
 EGL_ANGLE_device_creation_d3d11
 "
+"
+EGL_KHR_surfaceless_context
+"
 }
 ;
 #
