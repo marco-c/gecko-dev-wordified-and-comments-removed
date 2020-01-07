@@ -2495,6 +2495,15 @@ mCapturingDecoder
 bool
 mCapturingMediaStream
 ;
+nsTArray
+<
+RefPtr
+<
+MediaStreamTrack
+>
+>
+mPreCreatedTracks
+;
 TrackID
 mNextAvailableTrackID
 ;
