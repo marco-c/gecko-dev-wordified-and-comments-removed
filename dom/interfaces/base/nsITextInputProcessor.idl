@@ -99,13 +99,13 @@ nsISupports
 idl
 "
 interface
-nsIDOMEvent
-;
-interface
 mozIDOMWindow
 ;
 interface
 nsITextInputProcessorCallback
+;
+webidl
+Event
 ;
 /
 *
@@ -3058,7 +3058,7 @@ startComposition
 optional
 ]
 in
-nsIDOMEvent
+Event
 aKeyboardEvent
 [
 optional
@@ -3780,7 +3780,7 @@ flushPendingComposition
 optional
 ]
 in
-nsIDOMEvent
+Event
 aKeyboardEvent
 [
 optional
@@ -3909,7 +3909,7 @@ commitComposition
 optional
 ]
 in
-nsIDOMEvent
+Event
 aKeyboardEvent
 [
 optional
@@ -4097,7 +4097,7 @@ aCommitString
 optional
 ]
 in
-nsIDOMEvent
+Event
 aKeyboardEvent
 [
 optional
@@ -4271,7 +4271,7 @@ cancelComposition
 optional
 ]
 in
-nsIDOMEvent
+Event
 aKeyboardEvent
 [
 optional
@@ -5278,7 +5278,7 @@ long
 keydown
 (
 in
-nsIDOMEvent
+Event
 aKeyboardEvent
 [
 optional
@@ -5315,7 +5315,7 @@ boolean
 keyup
 (
 in
-nsIDOMEvent
+Event
 aKeyboardEvent
 [
 optional

@@ -266,9 +266,6 @@ interface
 nsIDOMElement
 ;
 interface
-nsIDOMEvent
-;
-interface
 nsIPreloadedStyleSheet
 ;
 interface
@@ -309,6 +306,9 @@ DOMRect
 ;
 webidl
 EventTarget
+;
+webidl
+Event
 ;
 [
 scriptable
@@ -2334,7 +2334,7 @@ input
 param
 aIsDOMEventSynthesized
 controls
-nsIDOMEvent
+Event
 .
 isSynthesized
 value
@@ -6433,7 +6433,7 @@ in
 nsIDOMNode
 aTarget
 in
-nsIDOMEvent
+Event
 aEvent
 in
 boolean
@@ -6498,7 +6498,7 @@ in
 EventTarget
 aTarget
 in
-nsIDOMEvent
+Event
 aEvent
 )
 ;

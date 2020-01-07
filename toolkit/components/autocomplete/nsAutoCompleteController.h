@@ -214,7 +214,13 @@ EnterMatch
 (
 bool
 aIsPopupSelection
-nsIDOMEvent
+mozilla
+:
+:
+dom
+:
+:
+Event
 *
 aEvent
 )

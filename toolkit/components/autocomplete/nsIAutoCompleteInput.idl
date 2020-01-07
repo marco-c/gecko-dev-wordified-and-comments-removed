@@ -73,6 +73,9 @@ idl
 interface
 nsIAutoCompletePopup
 ;
+webidl
+Event
+;
 [
 scriptable
 uuid
@@ -667,7 +670,7 @@ onTextEntered
 optional
 ]
 in
-nsIDOMEvent
+Event
 aEvent
 )
 ;

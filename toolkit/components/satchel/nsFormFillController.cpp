@@ -2590,7 +2590,7 @@ nsFormFillController
 :
 OnTextEntered
 (
-nsIDOMEvent
+Event
 *
 aEvent
 bool

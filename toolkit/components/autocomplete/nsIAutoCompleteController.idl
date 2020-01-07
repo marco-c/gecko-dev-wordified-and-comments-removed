@@ -66,8 +66,8 @@ idl
 interface
 nsIAutoCompleteInput
 ;
-interface
-nsIDOMEvent
+webidl
+Event
 ;
 [
 scriptable
@@ -495,7 +495,7 @@ aIsPopupSelection
 optional
 ]
 in
-nsIDOMEvent
+Event
 aEvent
 )
 ;
