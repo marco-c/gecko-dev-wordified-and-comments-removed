@@ -123,10 +123,6 @@ log
 ;
 extern
 crate
-syn
-;
-extern
-crate
 cosec
 ;
 extern
