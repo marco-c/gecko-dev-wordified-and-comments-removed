@@ -173,6 +173,13 @@ PropTypes
 func
 .
 isRequired
+simulateAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -188,6 +195,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 setSelectedNode
+simulateAnimation
 }
 =
 this
@@ -234,6 +242,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 setSelectedNode
+simulateAnimation
 timeScale
 }
 )

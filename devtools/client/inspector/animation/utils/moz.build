@@ -56,6 +56,13 @@ MPL
 DevToolsModules
 (
 '
+graph
+-
+helper
+.
+js
+'
+'
 l10n
 .
 js

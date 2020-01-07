@@ -103,6 +103,13 @@ PropTypes
 object
 .
 isRequired
+simulateAnimation
+:
+PropTypes
+.
+func
+.
+isRequired
 timeScale
 :
 PropTypes
@@ -120,6 +127,7 @@ render
 const
 {
 animation
+simulateAnimation
 timeScale
 }
 =
@@ -147,6 +155,7 @@ SummaryGraphPath
 (
 {
 animation
+simulateAnimation
 timeScale
 }
 )
