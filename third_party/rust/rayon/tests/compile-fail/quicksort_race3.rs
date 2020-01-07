@@ -44,7 +44,7 @@ v
 ;
 let
 (
-lo
+_lo
 hi
 )
 =

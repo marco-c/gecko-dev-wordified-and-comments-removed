@@ -45,7 +45,7 @@ v
 let
 (
 lo
-hi
+_hi
 )
 =
 v

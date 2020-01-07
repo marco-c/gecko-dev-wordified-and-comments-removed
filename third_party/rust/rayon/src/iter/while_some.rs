@@ -17,7 +17,7 @@ use
 super
 :
 :
-internal
+plumbing
 :
 :
 *
@@ -43,6 +43,14 @@ nothing
 unless
 consumed
 "
+]
+#
+[
+derive
+(
+Debug
+Clone
+)
 ]
 pub
 struct

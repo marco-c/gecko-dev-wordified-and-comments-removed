@@ -34,9 +34,7 @@ main
 let
 result
 =
-initialize
-(
-Configuration
+ThreadPoolBuilder
 :
 :
 new
@@ -64,6 +62,9 @@ test
 i
 )
 )
+.
+build_global
+(
 )
 ;
 const

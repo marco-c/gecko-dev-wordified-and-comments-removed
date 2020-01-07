@@ -64,7 +64,7 @@ f32
 )
 )
 .
-collect_into
+collect_into_vec
 (
 &
 mut

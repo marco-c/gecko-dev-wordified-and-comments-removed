@@ -8,7 +8,7 @@ use
 iter
 :
 :
-internal
+plumbing
 :
 :
 *
@@ -22,6 +22,14 @@ ops
 :
 Range
 ;
+#
+[
+derive
+(
+Debug
+Clone
+)
+]
 pub
 struct
 Iter
@@ -231,7 +239,6 @@ fn
 opt_len
 (
 &
-mut
 self
 )
 -
@@ -297,7 +304,6 @@ fn
 len
 (
 &
-mut
 self
 )
 -

@@ -2,7 +2,7 @@ use
 super
 :
 :
-internal
+plumbing
 :
 :
 *
@@ -40,6 +40,14 @@ nothing
 unless
 consumed
 "
+]
+#
+[
+derive
+(
+Debug
+Clone
+)
 ]
 pub
 struct
@@ -172,7 +180,6 @@ fn
 opt_len
 (
 &
-mut
 self
 )
 -
@@ -250,7 +257,6 @@ fn
 len
 (
 &
-mut
 self
 )
 -
@@ -343,12 +349,12 @@ B
 impl
 <
 CB
-A_ITEM
+ITEM
 B
 >
 ProducerCallback
 <
-A_ITEM
+ITEM
 >
 for
 CallbackA
@@ -365,7 +371,7 @@ CB
 ProducerCallback
 <
 (
-A_ITEM
+ITEM
 B
 :
 :
@@ -405,7 +411,7 @@ Producer
 <
 Item
 =
-A_ITEM
+ITEM
 >
 {
 return
@@ -448,11 +454,11 @@ impl
 <
 CB
 A
-B_ITEM
+ITEM
 >
 ProducerCallback
 <
-B_ITEM
+ITEM
 >
 for
 CallbackB
@@ -473,7 +479,7 @@ A
 :
 :
 Item
-B_ITEM
+ITEM
 )
 >
 {
@@ -509,7 +515,7 @@ Producer
 <
 Item
 =
-B_ITEM
+ITEM
 >
 {
 self

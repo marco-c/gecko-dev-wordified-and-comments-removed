@@ -2,7 +2,7 @@ use
 super
 :
 :
-internal
+plumbing
 :
 :
 *
@@ -47,6 +47,14 @@ unless
 consumed
 "
 ]
+#
+[
+derive
+(
+Debug
+Clone
+)
+]
 pub
 struct
 Skip
@@ -68,7 +76,6 @@ new
 I
 >
 (
-mut
 base
 :
 I
@@ -171,7 +178,6 @@ fn
 opt_len
 (
 &
-mut
 self
 )
 -
@@ -210,7 +216,6 @@ fn
 len
 (
 &
-mut
 self
 )
 -

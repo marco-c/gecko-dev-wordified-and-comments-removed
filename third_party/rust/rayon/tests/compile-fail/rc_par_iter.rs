@@ -71,7 +71,7 @@ rc
 rc
 )
 .
-collect_into
+collect_into_vec
 (
 &
 mut

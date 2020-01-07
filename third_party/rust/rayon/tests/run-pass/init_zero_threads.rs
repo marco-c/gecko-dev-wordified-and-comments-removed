@@ -13,9 +13,7 @@ main
 (
 )
 {
-initialize
-(
-Configuration
+ThreadPoolBuilder
 :
 :
 new
@@ -26,6 +24,9 @@ num_threads
 (
 0
 )
+.
+build_global
+(
 )
 .
 unwrap

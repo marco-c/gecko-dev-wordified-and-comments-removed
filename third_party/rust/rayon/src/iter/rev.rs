@@ -2,7 +2,7 @@ use
 super
 :
 :
-internal
+plumbing
 :
 :
 *
@@ -34,6 +34,14 @@ nothing
 unless
 consumed
 "
+]
+#
+[
+derive
+(
+Debug
+Clone
+)
 ]
 pub
 struct
@@ -138,7 +146,6 @@ fn
 opt_len
 (
 &
-mut
 self
 )
 -
@@ -209,7 +216,6 @@ fn
 len
 (
 &
-mut
 self
 )
 -
@@ -230,7 +236,6 @@ with_producer
 CB
 >
 (
-mut
 self
 callback
 :
