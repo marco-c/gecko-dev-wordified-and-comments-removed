@@ -22396,7 +22396,7 @@ mVisibilityState
 ;
 mVisibilityState
 =
-GetVisibilityState
+ComputeVisibilityState
 (
 )
 ;
@@ -52206,7 +52206,7 @@ aDoc
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 UpdateVisibilityState
@@ -52223,7 +52223,7 @@ mVisibilityState
 ;
 mVisibilityState
 =
-GetVisibilityState
+ComputeVisibilityState
 (
 )
 ;
@@ -52287,10 +52287,10 @@ MaybeActiveMediaComponents
 }
 }
 VisibilityState
-nsDocument
+nsIDocument
 :
 :
-GetVisibilityState
+ComputeVisibilityState
 (
 )
 const
@@ -52350,7 +52350,7 @@ Visible
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 PostVisibilityUpdateEvent
@@ -52366,14 +52366,14 @@ event
 NewRunnableMethod
 (
 "
-nsDocument
+nsIDocument
 :
 :
 UpdateVisibilityState
 "
 this
 &
-nsDocument
+nsIDocument
 :
 :
 UpdateVisibilityState
@@ -52394,7 +52394,7 @@ forget
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 MaybeActiveMediaComponents
