@@ -29254,7 +29254,7 @@ msec
 "
 }
 "
-DNS_TRR_RACE
+DNS_TRR_RACE2
 "
 :
 {
@@ -29305,6 +29305,9 @@ labels
 :
 [
 "
+TRRFasterBy100
+"
+"
 TRRFasterBy50
 "
 "
@@ -29315,6 +29318,9 @@ NativeFaster
 "
 "
 NativeFasterBy50
+"
+"
+NativeFasterBy100
 "
 ]
 "
