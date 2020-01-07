@@ -19817,8 +19817,14 @@ AssignDragEventData
 (
 *
 aDragEvent
-true
+false
 )
+;
+event
+.
+mRelatedTarget
+=
+aRelatedTarget
 ;
 mCurrentTargetContent
 =
