@@ -177,6 +177,12 @@ mod
 tests
 {
 use
+super
+:
+:
+Intern
+;
+use
 std
 :
 :
@@ -184,12 +190,6 @@ ffi
 :
 :
 CStr
-;
-use
-super
-:
-:
-Intern
 ;
 #
 [
