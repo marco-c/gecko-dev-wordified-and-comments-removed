@@ -294,46 +294,6 @@ gnu
 :
 DRAFT_CXX_14
 }
-SUPPORTS_DRAFT_CXX14_VERSION
-=
-{
-    
-'
--
-std
-=
-gnu
-+
-+
-14
-'
-:
-DRAFT_CXX_14
-}
-GCC_4_7
-=
-GCC
-(
-'
-4
-.
-7
-.
-3
-'
-)
-GXX_4_7
-=
-GXX
-(
-'
-4
-.
-7
-.
-3
-'
-)
 GCC_4_9
 =
 GCC
@@ -388,6 +348,68 @@ GXX
 )
 +
 SUPPORTS_GNUXX14
+GCC_6
+=
+GCC
+(
+'
+6
+.
+4
+.
+0
+'
+)
++
+DEFAULT_C11
+GXX_6
+=
+GXX
+(
+'
+6
+.
+4
+.
+0
+'
+)
++
+DEFAULT_CXX_14
+GCC_7
+=
+GCC
+(
+'
+7
+.
+3
+.
+0
+'
+)
++
+DEFAULT_C11
+GXX_7
+=
+GXX
+(
+'
+7
+.
+3
+.
+0
+'
+)
++
+DEFAULT_CXX_14
+DEFAULT_GCC
+=
+GCC_6
+DEFAULT_GXX
+=
+GXX_6
 GCC_PLATFORM_LITTLE_ENDIAN
 =
 {
@@ -820,6 +842,12 @@ cxx_alignof
     
 }
 }
+DEFAULT_CLANG
+=
+CLANG_3_6
+DEFAULT_CLANGXX
+=
+CLANGXX_3_6
 def
 CLANG_PLATFORM
 (
@@ -2388,6 +2416,37 @@ k
 ]
 )
 )
+def
+old_gcc_message
+(
+old_ver
+)
+:
+    
+return
+'
+Only
+GCC
+6
+.
+1
+or
+newer
+is
+supported
+(
+found
+version
+{
+}
+)
+.
+'
+.
+format
+(
+old_ver
+)
 class
 LinuxToolchainTest
 (
@@ -2408,7 +2467,7 @@ bin
 gcc
 '
 :
-GCC_4_9
+DEFAULT_GCC
 +
 GCC_PLATFORM_X86_64_LINUX
         
@@ -2423,7 +2482,7 @@ g
 +
 '
 :
-GXX_4_9
+DEFAULT_GXX
 +
 GCC_PLATFORM_X86_64_LINUX
         
@@ -2437,10 +2496,10 @@ gcc
 -
 4
 .
-7
+9
 '
 :
-GCC_4_7
+GCC_4_9
 +
 GCC_PLATFORM_X86_64_LINUX
         
@@ -2456,10 +2515,10 @@ g
 -
 4
 .
-7
+9
 '
 :
-GXX_4_7
+GXX_4_9
 +
 GCC_PLATFORM_X86_64_LINUX
         
@@ -2501,10 +2560,74 @@ usr
 /
 bin
 /
+gcc
+-
+6
+'
+:
+GCC_6
++
+GCC_PLATFORM_X86_64_LINUX
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+6
+'
+:
+GXX_6
++
+GCC_PLATFORM_X86_64_LINUX
+        
+'
+/
+usr
+/
+bin
+/
+gcc
+-
+7
+'
+:
+GCC_7
++
+GCC_PLATFORM_X86_64_LINUX
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+7
+'
+:
+GXX_7
++
+GCC_PLATFORM_X86_64_LINUX
+        
+'
+/
+usr
+/
+bin
+/
 clang
 '
 :
-CLANG_3_6
+DEFAULT_CLANG
 +
 CLANG_PLATFORM_X86_64_LINUX
         
@@ -2519,7 +2642,7 @@ clang
 +
 '
 :
-CLANGXX_3_6
+DEFAULT_CLANGXX
 +
 CLANG_PLATFORM_X86_64_LINUX
         
@@ -2599,30 +2722,14 @@ CLANG_PLATFORM_X86_64_LINUX
     
 GCC_4_7_RESULT
 =
+old_gcc_message
 (
 '
-Only
-GCC
-4
-.
-9
-or
-newer
-is
-supported
-'
-                      
-'
-(
-found
-version
 4
 .
 7
 .
 3
-)
-.
 '
 )
     
@@ -2632,22 +2739,8 @@ GCC_4_7_RESULT
     
 GCC_4_9_RESULT
 =
-CompilerResult
+old_gcc_message
 (
-        
-flags
-=
-[
-'
--
-std
-=
-gnu99
-'
-]
-        
-version
-=
 '
 4
 .
@@ -2655,91 +2748,30 @@ version
 .
 3
 '
-        
-type
-=
-'
-gcc
-'
-        
-compiler
-=
-'
-/
-usr
-/
-bin
-/
-gcc
-'
-        
-language
-=
-'
-C
-'
-    
 )
     
 GXX_4_9_RESULT
 =
-CompilerResult
-(
-        
-flags
-=
-[
-'
--
-std
-=
-gnu
-+
-+
-14
-'
-]
-        
-version
-=
-'
-4
-.
-9
-.
-3
-'
-        
-type
-=
-'
-gcc
-'
-        
-compiler
-=
-'
-/
-usr
-/
-bin
-/
-g
-+
-+
-'
-        
-language
-=
-'
-C
-+
-+
-'
-    
-)
+GCC_4_9_RESULT
     
 GCC_5_RESULT
+=
+old_gcc_message
+(
+'
+5
+.
+2
+.
+1
+'
+)
+    
+GXX_5_RESULT
+=
+GCC_5_RESULT
+    
+GCC_6_RESULT
 =
 CompilerResult
 (
@@ -2758,11 +2790,11 @@ gnu99
 version
 =
 '
-5
+6
 .
-2
+4
 .
-1
+0
 '
         
 type
@@ -2781,7 +2813,7 @@ bin
 /
 gcc
 -
-5
+6
 '
         
 language
@@ -2792,7 +2824,7 @@ C
     
 )
     
-GXX_5_RESULT
+GXX_6_RESULT
 =
 CompilerResult
 (
@@ -2800,25 +2832,16 @@ CompilerResult
 flags
 =
 [
-'
--
-std
-=
-gnu
-+
-+
-14
-'
 ]
         
 version
 =
 '
-5
+6
 .
-2
+4
 .
-1
+0
 '
         
 type
@@ -2839,7 +2862,7 @@ g
 +
 +
 -
-5
+6
 '
         
 language
@@ -2851,6 +2874,150 @@ C
 '
     
 )
+    
+GCC_7_RESULT
+=
+CompilerResult
+(
+        
+flags
+=
+[
+'
+-
+std
+=
+gnu99
+'
+]
+        
+version
+=
+'
+7
+.
+3
+.
+0
+'
+        
+type
+=
+'
+gcc
+'
+        
+compiler
+=
+'
+/
+usr
+/
+bin
+/
+gcc
+-
+7
+'
+        
+language
+=
+'
+C
+'
+    
+)
+    
+GXX_7_RESULT
+=
+CompilerResult
+(
+        
+flags
+=
+[
+]
+        
+version
+=
+'
+7
+.
+3
+.
+0
+'
+        
+type
+=
+'
+gcc
+'
+        
+compiler
+=
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+7
+'
+        
+language
+=
+'
+C
++
++
+'
+    
+)
+    
+DEFAULT_GCC_RESULT
+=
+GCC_6_RESULT
++
+{
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+gcc
+'
+}
+    
+DEFAULT_GXX_RESULT
+=
+GXX_6_RESULT
++
+{
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+g
++
++
+'
+}
     
 CLANG_3_3_RESULT
 =
@@ -2959,6 +3126,10 @@ usr
 bin
 /
 clang
+-
+3
+.
+6
 '
         
 language
@@ -3015,6 +3186,10 @@ bin
 clang
 +
 +
+-
+3
+.
+6
 '
         
 language
@@ -3026,6 +3201,46 @@ C
 '
     
 )
+    
+DEFAULT_CLANG_RESULT
+=
+CLANG_3_6_RESULT
++
+{
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+clang
+'
+}
+    
+DEFAULT_CLANGXX_RESULT
+=
+CLANGXX_3_6_RESULT
++
+{
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+clang
++
++
+'
+}
     
 def
 test_gcc
@@ -3049,7 +3264,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -3057,7 +3272,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 )
@@ -3084,7 +3299,7 @@ c_compiler
 :
 self
 .
-GCC_4_7_RESULT
+GCC_4_9_RESULT
         
 }
 environ
@@ -3100,7 +3315,7 @@ gcc
 -
 4
 .
-7
+9
 '
             
 '
@@ -3114,7 +3329,7 @@ g
 -
 4
 .
-7
+9
 '
         
 }
@@ -3135,7 +3350,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -3143,7 +3358,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_7_RESULT
+GXX_4_9_RESULT
         
 }
 environ
@@ -3161,7 +3376,7 @@ g
 -
 4
 .
-7
+9
 '
         
 }
@@ -3189,7 +3404,7 @@ c_compiler
 :
 self
 .
-GCC_5_RESULT
+GCC_7_RESULT
             
 '
 cxx_compiler
@@ -3197,7 +3412,7 @@ cxx_compiler
 :
 self
 .
-GXX_5_RESULT
+GXX_7_RESULT
         
 }
 environ
@@ -3211,7 +3426,7 @@ CC
 '
 gcc
 -
-5
+7
 '
             
 '
@@ -3223,7 +3438,7 @@ g
 +
 +
 -
-5
+7
 '
         
 }
@@ -3251,7 +3466,7 @@ c_compiler
 :
 self
 .
-GCC_5_RESULT
+GCC_7_RESULT
             
 '
 cxx_compiler
@@ -3259,7 +3474,7 @@ cxx_compiler
 :
 self
 .
-GXX_5_RESULT
+GXX_7_RESULT
         
 }
 environ
@@ -3273,7 +3488,7 @@ CC
 '
 gcc
 -
-5
+7
 '
         
 }
@@ -3301,7 +3516,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -3316,11 +3531,11 @@ C
 compiler
 is
 version
+6
+.
 4
 .
-9
-.
-3
+0
 while
 the
 target
@@ -3333,11 +3548,11 @@ C
 compiler
 is
 version
-5
+7
 .
-2
+3
 .
-1
+0
 .
 Need
 to
@@ -3367,7 +3582,7 @@ g
 +
 +
 -
-5
+7
 '
         
 }
@@ -3388,7 +3603,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -3396,7 +3611,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
             
 '
 host_c_compiler
@@ -3404,7 +3619,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -3419,11 +3634,11 @@ C
 compiler
 is
 version
+6
+.
 4
 .
-9
-.
-3
+0
 while
 the
 host
@@ -3436,11 +3651,11 @@ C
 compiler
 is
 version
-5
+7
 .
-2
+3
 .
-1
+0
 .
 Need
 to
@@ -3470,7 +3685,7 @@ g
 +
 +
 -
-5
+7
 '
         
 }
@@ -3498,7 +3713,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -3570,7 +3785,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -3578,7 +3793,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
             
 '
 host_c_compiler
@@ -3586,7 +3801,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -3717,7 +3932,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -3830,7 +4045,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -3838,7 +4053,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 )
@@ -3866,27 +4081,6 @@ c_compiler
 self
 .
 CLANG_3_6_RESULT
-+
-{
-                
-'
-compiler
-'
-:
-'
-/
-usr
-/
-bin
-/
-clang
--
-3
-.
-6
-'
-            
-}
             
 '
 cxx_compiler
@@ -3895,29 +4089,6 @@ cxx_compiler
 self
 .
 CLANGXX_3_6_RESULT
-+
-{
-                
-'
-compiler
-'
-:
-'
-/
-usr
-/
-bin
-/
-clang
-+
-+
--
-3
-.
-6
-'
-            
-}
         
 }
 environ
@@ -4171,7 +4342,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 +
 {
                 
@@ -4198,7 +4369,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 +
 {
                 
@@ -4388,7 +4559,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 +
 {
                 
@@ -4417,7 +4588,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 +
 {
                 
@@ -4498,7 +4669,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -4506,7 +4677,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
             
 '
 host_c_compiler
@@ -4514,7 +4685,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -4522,7 +4693,7 @@ host_cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 environ
@@ -4563,7 +4734,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -4571,7 +4742,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
             
 '
 host_c_compiler
@@ -4579,7 +4750,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -4587,7 +4758,7 @@ host_cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 environ
@@ -4647,29 +4818,29 @@ LinuxToolchainTest
 .
 PATHS
     
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
 =
 LinuxToolchainTest
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
     
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
 =
 LinuxToolchainTest
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
     
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 =
 LinuxToolchainTest
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
     
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 =
 LinuxToolchainTest
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
     
 def
 test_cross_gcc
@@ -4693,7 +4864,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
 +
 {
                 
@@ -4716,7 +4887,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
 +
 {
                 
@@ -4739,7 +4910,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -4747,7 +4918,7 @@ host_cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 )
@@ -4774,7 +4945,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 +
 {
                 
@@ -4804,7 +4975,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 +
 {
                 
@@ -4834,7 +5005,7 @@ host_c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -4842,7 +5013,7 @@ host_cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 environ
@@ -4903,7 +5074,7 @@ bin
 gcc
 '
 :
-GCC_4_9
+DEFAULT_GCC
 +
 GCC_PLATFORM_X86_LINUX
         
@@ -4918,7 +5089,7 @@ g
 +
 '
 :
-GXX_4_9
+DEFAULT_GXX
 +
 GCC_PLATFORM_X86_LINUX
         
@@ -4931,7 +5102,7 @@ bin
 clang
 '
 :
-CLANG_3_6
+DEFAULT_CLANG
 +
 CLANG_PLATFORM_X86_LINUX
         
@@ -4946,35 +5117,35 @@ clang
 +
 '
 :
-CLANGXX_3_6
+DEFAULT_CLANGXX
 +
 CLANG_PLATFORM_X86_LINUX
     
 }
     
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
 =
 LinuxToolchainTest
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
     
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
 =
 LinuxToolchainTest
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
     
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 =
 LinuxToolchainTest
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
     
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 =
 LinuxToolchainTest
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
     
 def
 test_cross_gcc
@@ -4998,7 +5169,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
 +
 {
                 
@@ -5021,7 +5192,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
 +
 {
                 
@@ -5044,7 +5215,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -5052,7 +5223,7 @@ host_cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 )
@@ -5079,7 +5250,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 +
 {
                 
@@ -5109,7 +5280,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 +
 {
                 
@@ -5139,7 +5310,7 @@ host_c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -5147,7 +5318,7 @@ host_cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 environ
@@ -5196,70 +5367,6 @@ usr
 bin
 /
 gcc
-'
-:
-GCC_4_9
-+
-GCC_PLATFORM_X86_64_OSX
-        
-'
-/
-usr
-/
-bin
-/
-g
-+
-+
-'
-:
-GXX_4_9
-+
-GCC_PLATFORM_X86_64_OSX
-        
-'
-/
-usr
-/
-bin
-/
-gcc
--
-4
-.
-7
-'
-:
-GCC_4_7
-+
-GCC_PLATFORM_X86_64_OSX
-        
-'
-/
-usr
-/
-bin
-/
-g
-+
-+
--
-4
-.
-7
-'
-:
-GXX_4_7
-+
-GCC_PLATFORM_X86_64_OSX
-        
-'
-/
-usr
-/
-bin
-/
-gcc
 -
 5
 '
@@ -5291,10 +5398,42 @@ usr
 /
 bin
 /
+gcc
+-
+7
+'
+:
+GCC_7
++
+GCC_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+7
+'
+:
+GXX_7
++
+GCC_PLATFORM_X86_64_OSX
+        
+'
+/
+usr
+/
+bin
+/
 clang
 '
 :
-CLANG_3_6
+DEFAULT_CLANG
 +
 CLANG_PLATFORM_X86_64_OSX
         
@@ -5309,7 +5448,7 @@ clang
 +
 '
 :
-CLANGXX_3_6
+DEFAULT_CLANGXX
 +
 CLANG_PLATFORM_X86_64_OSX
         
@@ -5399,23 +5538,17 @@ LinuxToolchainTest
 .
 CLANGXX_3_3_RESULT
     
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 =
 LinuxToolchainTest
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
     
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 =
 LinuxToolchainTest
 .
-CLANGXX_3_6_RESULT
-    
-GCC_4_7_RESULT
-=
-LinuxToolchainTest
-.
-GCC_4_7_RESULT
+DEFAULT_CLANGXX_RESULT
     
 GCC_5_RESULT
 =
@@ -5428,6 +5561,18 @@ GXX_5_RESULT
 LinuxToolchainTest
 .
 GXX_5_RESULT
+    
+GCC_7_RESULT
+=
+LinuxToolchainTest
+.
+GCC_7_RESULT
+    
+GXX_7_RESULT
+=
+LinuxToolchainTest
+.
+GXX_7_RESULT
     
 def
 test_clang
@@ -5451,7 +5596,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -5459,7 +5604,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 )
@@ -5625,7 +5770,7 @@ c_compiler
 :
 self
 .
-GCC_5_RESULT
+GCC_7_RESULT
             
 '
 cxx_compiler
@@ -5633,7 +5778,7 @@ cxx_compiler
 :
 self
 .
-GXX_5_RESULT
+GXX_7_RESULT
         
 }
 environ
@@ -5647,7 +5792,7 @@ CC
 '
 gcc
 -
-5
+7
 '
             
 '
@@ -5659,7 +5804,7 @@ g
 +
 +
 -
-5
+7
 '
         
 }
@@ -5687,7 +5832,7 @@ c_compiler
 :
 self
 .
-GCC_4_7_RESULT
+GCC_5_RESULT
         
 }
 environ
@@ -5701,9 +5846,7 @@ CC
 '
 gcc
 -
-4
-.
-7
+5
 '
             
 '
@@ -5715,9 +5858,7 @@ g
 +
 +
 -
-4
-.
-7
+5
 '
         
 }
@@ -5885,7 +6026,7 @@ bin
 gcc
 '
 :
-GCC_4_9
+DEFAULT_GCC
 +
 GCC_PLATFORM_X86_WIN
         
@@ -5900,7 +6041,7 @@ g
 +
 '
 :
-GXX_4_9
+DEFAULT_GXX
 +
 GCC_PLATFORM_X86_WIN
         
@@ -5914,10 +6055,10 @@ gcc
 -
 4
 .
-7
+9
 '
 :
-GCC_4_7
+GCC_4_9
 +
 GCC_PLATFORM_X86_WIN
         
@@ -5933,10 +6074,10 @@ g
 -
 4
 .
-7
+9
 '
 :
-GXX_4_7
+GXX_4_9
 +
 GCC_PLATFORM_X86_WIN
         
@@ -5978,10 +6119,42 @@ usr
 /
 bin
 /
+gcc
+-
+6
+'
+:
+GCC_6
++
+GCC_PLATFORM_X86_WIN
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+6
+'
+:
+GXX_6
++
+GCC_PLATFORM_X86_WIN
+        
+'
+/
+usr
+/
+bin
+/
 clang
 '
 :
-CLANG_3_6
+DEFAULT_CLANG
 +
 CLANG_PLATFORM_X86_WIN
         
@@ -5996,7 +6169,7 @@ clang
 +
 '
 :
-CLANGXX_3_6
+DEFAULT_CLANGXX
 +
 CLANG_PLATFORM_X86_WIN
         
@@ -6793,23 +6966,17 @@ LinuxToolchainTest
 .
 CLANGXX_3_3_RESULT
     
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 =
 LinuxToolchainTest
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
     
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 =
 LinuxToolchainTest
 .
-CLANGXX_3_6_RESULT
-    
-GCC_4_7_RESULT
-=
-LinuxToolchainTest
-.
-GCC_4_7_RESULT
+DEFAULT_CLANGXX_RESULT
     
 GCC_4_9_RESULT
 =
@@ -6819,61 +6986,9 @@ GCC_4_9_RESULT
     
 GXX_4_9_RESULT
 =
-CompilerResult
-(
-        
-flags
-=
-[
-'
--
-std
-=
-gnu
-+
-+
-14
-'
-]
-        
-version
-=
-'
-4
+LinuxToolchainTest
 .
-9
-.
-3
-'
-        
-type
-=
-'
-gcc
-'
-        
-compiler
-=
-'
-/
-usr
-/
-bin
-/
-g
-+
-+
-'
-        
-language
-=
-'
-C
-+
-+
-'
-    
-)
+GXX_4_9_RESULT
     
 GCC_5_RESULT
 =
@@ -6883,63 +6998,33 @@ GCC_5_RESULT
     
 GXX_5_RESULT
 =
-CompilerResult
-(
-        
-flags
-=
-[
-'
--
-std
-=
-gnu
-+
-+
-14
-'
-]
-        
-version
-=
-'
-5
+LinuxToolchainTest
 .
-2
-.
-1
-'
-        
-type
-=
-'
-gcc
-'
-        
-compiler
-=
-'
-/
-usr
-/
-bin
-/
-g
-+
-+
--
-5
-'
-        
-language
-=
-'
-C
-+
-+
-'
+GXX_5_RESULT
     
-)
+GCC_6_RESULT
+=
+LinuxToolchainTest
+.
+GCC_6_RESULT
+    
+GXX_6_RESULT
+=
+LinuxToolchainTest
+.
+GXX_6_RESULT
+    
+DEFAULT_GCC_RESULT
+=
+LinuxToolchainTest
+.
+DEFAULT_GCC_RESULT
+    
+DEFAULT_GXX_RESULT
+=
+LinuxToolchainTest
+.
+DEFAULT_GXX_RESULT
     
 def
 test_msvc
@@ -7395,7 +7480,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -7403,7 +7488,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 )
@@ -7430,7 +7515,7 @@ c_compiler
 :
 self
 .
-GCC_4_7_RESULT
+GCC_5_RESULT
         
 }
 environ
@@ -7444,9 +7529,7 @@ CC
 '
 gcc
 -
-4
-.
-7
+5
 '
             
 '
@@ -7458,9 +7541,7 @@ g
 +
 +
 -
-4
-.
-7
+5
 '
         
 }
@@ -7532,7 +7613,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -7540,7 +7621,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 )
@@ -7839,7 +7920,7 @@ bin
 gcc
 '
 :
-GCC_4_9
+DEFAULT_GCC
 +
 GCC_PLATFORM_X86_64_WIN
         
@@ -7854,7 +7935,7 @@ g
 +
 '
 :
-GXX_4_9
+DEFAULT_GXX
 +
 GCC_PLATFORM_X86_64_WIN
         
@@ -7868,10 +7949,10 @@ gcc
 -
 4
 .
-7
+9
 '
 :
-GCC_4_7
+GCC_4_9
 +
 GCC_PLATFORM_X86_64_WIN
         
@@ -7887,10 +7968,10 @@ g
 -
 4
 .
-7
+9
 '
 :
-GXX_4_7
+GXX_4_9
 +
 GCC_PLATFORM_X86_64_WIN
         
@@ -7932,10 +8013,74 @@ usr
 /
 bin
 /
+gcc
+-
+6
+'
+:
+GCC_6
++
+GCC_PLATFORM_X86_64_WIN
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+6
+'
+:
+GXX_6
++
+GCC_PLATFORM_X86_64_WIN
+        
+'
+/
+usr
+/
+bin
+/
+gcc
+-
+7
+'
+:
+GCC_7
++
+GCC_PLATFORM_X86_64_WIN
+        
+'
+/
+usr
+/
+bin
+/
+g
++
++
+-
+7
+'
+:
+GXX_7
++
+GCC_PLATFORM_X86_64_WIN
+        
+'
+/
+usr
+/
+bin
+/
 clang
 '
 :
-CLANG_3_6
+DEFAULT_CLANG
 +
 CLANG_PLATFORM_X86_64_WIN
         
@@ -7950,7 +8095,7 @@ clang
 +
 '
 :
-CLANGXX_3_6
+DEFAULT_CLANGXX
 +
 CLANG_PLATFORM_X86_64_WIN
         
@@ -8129,6 +8274,10 @@ linux
 gnu
 -
 gcc
+-
+4
+.
+9
 '
 :
 GCC_4_9
@@ -8150,57 +8299,13 @@ gnu
 g
 +
 +
+-
+4
+.
+9
 '
 :
 GXX_4_9
-+
-GCC_PLATFORM_ARM_LINUX
-        
-'
-/
-usr
-/
-bin
-/
-arm
--
-linux
--
-gnu
--
-gcc
--
-4
-.
-7
-'
-:
-GCC_4_7
-+
-GCC_PLATFORM_ARM_LINUX
-        
-'
-/
-usr
-/
-bin
-/
-arm
--
-linux
--
-gnu
--
-g
-+
-+
--
-4
-.
-7
-'
-:
-GXX_4_7
 +
 GCC_PLATFORM_ARM_LINUX
         
@@ -8247,6 +8352,90 @@ g
 GXX_5
 +
 GCC_PLATFORM_ARM_LINUX
+        
+'
+/
+usr
+/
+bin
+/
+arm
+-
+linux
+-
+gnu
+-
+gcc
+'
+:
+DEFAULT_GCC
++
+GCC_PLATFORM_ARM_LINUX
+        
+'
+/
+usr
+/
+bin
+/
+arm
+-
+linux
+-
+gnu
+-
+g
++
++
+'
+:
+DEFAULT_GXX
++
+GCC_PLATFORM_ARM_LINUX
+        
+'
+/
+usr
+/
+bin
+/
+arm
+-
+linux
+-
+gnu
+-
+gcc
+-
+7
+'
+:
+GCC_7
++
+GCC_PLATFORM_ARM_LINUX
+        
+'
+/
+usr
+/
+bin
+/
+arm
+-
+linux
+-
+gnu
+-
+g
++
++
+-
+7
+'
+:
+GXX_7
++
+GCC_PLATFORM_ARM_LINUX
     
 }
     
@@ -8259,17 +8448,95 @@ LinuxToolchainTest
 PATHS
 )
     
-ARM_GCC_4_7_RESULT
+ARM_GCC_4_9_RESULT
 =
 LinuxToolchainTest
 .
-GXX_4_7_RESULT
+GCC_4_9_RESULT
+    
+ARM_GXX_4_9_RESULT
+=
+LinuxToolchainTest
+.
+GXX_4_9_RESULT
     
 ARM_GCC_5_RESULT
 =
 LinuxToolchainTest
 .
 GCC_5_RESULT
+    
+ARM_GXX_5_RESULT
+=
+LinuxToolchainTest
+.
+GXX_5_RESULT
+    
+ARM_DEFAULT_GCC_RESULT
+=
+LinuxToolchainTest
+.
+DEFAULT_GCC_RESULT
++
+{
+        
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+arm
+-
+linux
+-
+gnu
+-
+gcc
+'
+    
+}
+    
+ARM_DEFAULT_GXX_RESULT
+=
+LinuxToolchainTest
+.
+DEFAULT_GXX_RESULT
++
+{
+        
+'
+compiler
+'
+:
+'
+/
+usr
+/
+bin
+/
+arm
+-
+linux
+-
+gnu
+-
+g
++
++
+'
+    
+}
+    
+ARM_GCC_7_RESULT
+=
+LinuxToolchainTest
+.
+GCC_7_RESULT
 +
 {
         
@@ -8291,16 +8558,16 @@ gnu
 -
 gcc
 -
-5
+7
 '
     
 }
     
-ARM_GXX_5_RESULT
+ARM_GXX_7_RESULT
 =
 LinuxToolchainTest
 .
-GXX_5_RESULT
+GXX_7_RESULT
 +
 {
         
@@ -8324,34 +8591,34 @@ g
 +
 +
 -
-5
+7
 '
     
 }
     
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 =
 LinuxToolchainTest
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
     
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 =
 LinuxToolchainTest
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
     
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
 =
 LinuxToolchainTest
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
     
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
 =
 LinuxToolchainTest
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
     
 little_endian
 =
@@ -8930,7 +9197,7 @@ bin
 gcc
 '
 :
-GCC_4_9
+DEFAULT_GCC
 +
 self
 .
@@ -8950,7 +9217,7 @@ g
 +
 '
 :
-GXX_4_9
+DEFAULT_GXX
 +
 self
 .
@@ -9002,7 +9269,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
 +
 cross_flags
             
@@ -9012,7 +9279,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
 +
 cross_flags
             
@@ -9022,7 +9289,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -9030,7 +9297,7 @@ host_cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 )
@@ -9304,7 +9571,7 @@ bin
 gcc
 '
 :
-GCC_4_9
+DEFAULT_GCC
 +
 self
 .
@@ -9324,7 +9591,7 @@ g
 +
 '
 :
-GXX_4_9
+DEFAULT_GXX
 +
 self
 .
@@ -9398,7 +9665,7 @@ gcc
 %
 toolchain_prefix
 :
-GCC_4_9
+DEFAULT_GCC
 +
 self
 .
@@ -9418,7 +9685,7 @@ g
 %
 toolchain_prefix
 :
-GXX_4_9
+DEFAULT_GXX
 +
 self
 .
@@ -9443,7 +9710,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
 +
 {
                 
@@ -9468,7 +9735,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
 +
 {
                 
@@ -9495,7 +9762,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -9503,7 +9770,7 @@ host_cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 )
@@ -9606,7 +9873,7 @@ bin
 gcc
 '
 :
-GCC_4_9
+DEFAULT_GCC
 +
 self
 .
@@ -9634,7 +9901,7 @@ g
 +
 '
 :
-GXX_4_9
+DEFAULT_GXX
 +
 self
 .
@@ -9723,7 +9990,7 @@ c_compiler
 :
 self
 .
-ARM_GCC_5_RESULT
+ARM_GCC_7_RESULT
             
 '
 cxx_compiler
@@ -9731,7 +9998,7 @@ cxx_compiler
 :
 self
 .
-ARM_GXX_5_RESULT
+ARM_GXX_7_RESULT
             
 '
 host_c_compiler
@@ -9739,7 +10006,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -9747,7 +10014,7 @@ host_cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 environ
@@ -9767,7 +10034,7 @@ gnu
 -
 gcc
 -
-5
+7
 '
             
 '
@@ -9785,7 +10052,7 @@ g
 +
 +
 -
-5
+7
 '
         
 }
@@ -9813,7 +10080,7 @@ c_compiler
 :
 self
 .
-ARM_GCC_4_7_RESULT
+ARM_GCC_4_9_RESULT
         
 }
 environ
@@ -9835,7 +10102,7 @@ gcc
 -
 4
 .
-7
+9
 '
             
 '
@@ -9855,7 +10122,7 @@ g
 -
 4
 .
-7
+9
 '
         
 }
@@ -9883,7 +10150,7 @@ c_compiler
 :
 self
 .
-ARM_GCC_5_RESULT
+ARM_GCC_7_RESULT
             
 '
 cxx_compiler
@@ -9891,7 +10158,7 @@ cxx_compiler
 :
 self
 .
-ARM_GXX_5_RESULT
+ARM_GXX_7_RESULT
             
 '
 host_c_compiler
@@ -9899,7 +10166,7 @@ host_c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 host_cxx_compiler
@@ -9907,7 +10174,7 @@ host_cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 environ
@@ -9927,7 +10194,7 @@ gnu
 -
 gcc
 -
-5
+7
 '
         
 }
@@ -9948,7 +10215,7 @@ c_compiler
 :
 self
 .
-ARM_GCC_5_RESULT
+ARM_DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -9956,7 +10223,7 @@ cxx_compiler
 :
 self
 .
-ARM_GXX_5_RESULT
+ARM_DEFAULT_GXX_RESULT
             
 '
 host_c_compiler
@@ -9964,7 +10231,7 @@ host_c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -9972,7 +10239,7 @@ host_cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 environ
@@ -9991,8 +10258,6 @@ linux
 gnu
 -
 gcc
--
-5
 '
             
 '
@@ -10021,7 +10286,7 @@ c_compiler
 :
 self
 .
-ARM_GCC_5_RESULT
+ARM_DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -10029,7 +10294,7 @@ cxx_compiler
 :
 self
 .
-ARM_GXX_5_RESULT
+ARM_DEFAULT_GXX_RESULT
             
 '
 host_c_compiler
@@ -10037,7 +10302,7 @@ host_c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -10045,7 +10310,7 @@ host_cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 environ
@@ -10064,8 +10329,6 @@ linux
 gnu
 -
 gcc
--
-5
 '
             
 '
@@ -10082,8 +10345,6 @@ gnu
 g
 +
 +
--
-5
 '
             
 '
@@ -10108,7 +10369,7 @@ cross_clang_result
 =
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 +
 {
             
@@ -10136,7 +10397,7 @@ cross_clangxx_result
 =
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 +
 {
             
@@ -10187,7 +10448,7 @@ host_c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -10195,7 +10456,7 @@ host_cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 environ
@@ -10248,7 +10509,7 @@ host_c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -10256,7 +10517,7 @@ host_cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 environ
@@ -10357,7 +10618,7 @@ afl_clang_result
 =
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 +
 {
             
@@ -10384,7 +10645,7 @@ afl_clangxx_result
 =
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 +
 {
             
@@ -10544,17 +10805,17 @@ LinuxToolchainTest
 .
 PATHS
     
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 =
 LinuxToolchainTest
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
     
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 =
 LinuxToolchainTest
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
     
 def
 test_osx_cross
@@ -10578,7 +10839,7 @@ c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
 +
 {
                 
@@ -10610,7 +10871,7 @@ cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
 +
 {
                 
@@ -10642,7 +10903,7 @@ host_c_compiler
 :
 self
 .
-CLANG_3_6_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 host_cxx_compiler
@@ -10650,7 +10911,7 @@ host_cxx_compiler
 :
 self
 .
-CLANGXX_3_6_RESULT
+DEFAULT_CLANGXX_RESULT
         
 }
 environ
@@ -10771,7 +11032,7 @@ bin
 gcc
 '
 :
-GCC_4_9
+DEFAULT_GCC
 +
 GCC_PLATFORM_X86_64
 +
@@ -10788,7 +11049,7 @@ g
 +
 '
 :
-GXX_4_9
+DEFAULT_GXX
 +
 GCC_PLATFORM_X86_64
 +
@@ -10796,17 +11057,17 @@ GCC_PLATFORM_OPENBSD
     
 }
     
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
 =
 LinuxToolchainTest
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
     
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
 =
 LinuxToolchainTest
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
     
 def
 test_gcc
@@ -10830,7 +11091,7 @@ c_compiler
 :
 self
 .
-GCC_4_9_RESULT
+DEFAULT_GCC_RESULT
             
 '
 cxx_compiler
@@ -10838,7 +11099,7 @@ cxx_compiler
 :
 self
 .
-GXX_4_9_RESULT
+DEFAULT_GXX_RESULT
         
 }
 )
