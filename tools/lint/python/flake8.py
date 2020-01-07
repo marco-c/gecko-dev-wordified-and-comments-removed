@@ -745,13 +745,9 @@ kill
 (
 )
 def
-lint
+setup
 (
-paths
-config
-*
-*
-lintargs
+root
 )
 :
     
@@ -769,6 +765,16 @@ FLAKE8_INSTALL_ERROR
         
 return
 1
+def
+lint
+(
+paths
+config
+*
+*
+lintargs
+)
+:
     
 binary
 =

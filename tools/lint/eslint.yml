@@ -60,3 +60,8 @@ payload
 eslint
 :
 lint
+setup
+:
+eslint
+:
+setup

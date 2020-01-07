@@ -286,3 +286,10 @@ python
 flake8
 :
 lint
+setup
+:
+python
+.
+flake8
+:
+setup
