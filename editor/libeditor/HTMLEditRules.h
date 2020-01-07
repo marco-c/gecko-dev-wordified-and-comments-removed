@@ -1173,6 +1173,7 @@ int32_t
 aOffset
 )
 ;
+MOZ_MUST_USE
 EditActionResult
 ReturnInParagraph
 (
