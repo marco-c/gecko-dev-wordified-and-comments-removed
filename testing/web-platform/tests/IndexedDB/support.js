@@ -46,7 +46,7 @@ close
 (
 )
 ;
-self
+window
 .
 indexedDB
 .
@@ -288,7 +288,7 @@ version
 )
 rq_open
 =
-self
+window
 .
 indexedDB
 .
@@ -301,7 +301,7 @@ version
 else
 rq_open
 =
-self
+window
 .
 indexedDB
 .
@@ -654,6 +654,8 @@ options
 var
 dbname
 =
+document
+.
 location
 +
 '

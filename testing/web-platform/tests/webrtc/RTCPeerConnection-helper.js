@@ -966,17 +966,6 @@ event
 if
 (
 candidate
-&
-&
-remotePc
-.
-signalingState
-!
-=
-=
-'
-closed
-'
 )
 {
 remotePc
