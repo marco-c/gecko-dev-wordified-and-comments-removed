@@ -919,7 +919,7 @@ R
 .
 drawable
 .
-ic_close_light
+close
 )
 ;
 Drawable
