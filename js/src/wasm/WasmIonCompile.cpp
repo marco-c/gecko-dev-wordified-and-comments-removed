@@ -12324,7 +12324,7 @@ return
 true
 ;
 }
-LitVal
+Val
 value
 =
 global
