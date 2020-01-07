@@ -1105,11 +1105,6 @@ enable_text_antialiasing
 debug_flags
 :
 debug_flags
-debug
-:
-opts
-.
-webrender_debug
 recorder
 :
 recorder

@@ -476,6 +476,9 @@ offset
 :
 0
 is_opaque
+allow_mipmaps
+:
+true
 }
 ;
 let
