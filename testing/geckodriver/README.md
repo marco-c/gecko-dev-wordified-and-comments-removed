@@ -974,6 +974,9 @@ on
 navigation
 .
 <
+td
+>
+<
 /
 tr
 >
@@ -1094,6 +1097,9 @@ after
 starting
 navigation
 .
+<
+td
+>
 <
 /
 tr
