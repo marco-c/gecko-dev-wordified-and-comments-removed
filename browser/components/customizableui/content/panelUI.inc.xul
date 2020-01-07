@@ -2030,6 +2030,11 @@ TrackingProtection
 .
 openPreferences
 (
+'
+appMenu
+-
+trackingprotection
+'
 )
 ;
 "
