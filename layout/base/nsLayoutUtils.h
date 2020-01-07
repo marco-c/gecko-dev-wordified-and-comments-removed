@@ -309,9 +309,6 @@ struct
 nsStyleFont
 ;
 struct
-nsStyleImageOrientation
-;
-struct
 nsOverflowAreas
 ;
 namespace
@@ -352,6 +349,12 @@ EffectSet
 ;
 struct
 ActiveScrolledRoot
+;
+enum
+class
+StyleImageOrientation
+:
+uint8_t
 ;
 namespace
 dom
@@ -4432,7 +4435,10 @@ imgIContainer
 *
 aContainer
 const
-nsStyleImageOrientation
+mozilla
+:
+:
+StyleImageOrientation
 &
 aOrientation
 )
