@@ -206,7 +206,7 @@ const
 UptakeTelemetry
 }
 =
-Cu
+ChromeUtils
 .
 import
 (
@@ -770,6 +770,18 @@ revocation
 *
 certificate
 pinning
+*
+:
+ref
+:
+Shield
+Recipe
+client
+<
+components
+/
+normandy
+>
 Obviously
 the
 goal
@@ -805,7 +817,3 @@ nsUpdateService
 mozapps
 extensions
 update
-*
-Shield
-recipe
-client
