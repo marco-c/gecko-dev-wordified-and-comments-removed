@@ -261,6 +261,11 @@ this
 headers
 =
 headers
+.
+slice
+(
+0
+)
 ;
 this
 .
