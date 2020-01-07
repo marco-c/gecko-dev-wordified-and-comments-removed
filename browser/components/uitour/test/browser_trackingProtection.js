@@ -49,7 +49,7 @@ content
 /
 test
 /
-general
+trackingUI
 /
 benignPage
 .
@@ -80,7 +80,7 @@ content
 /
 test
 /
-general
+trackingUI
 /
 trackingPage
 .
