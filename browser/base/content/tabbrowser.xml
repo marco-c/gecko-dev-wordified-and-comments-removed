@@ -5646,12 +5646,6 @@ window
 )
 break
 ;
-TabsInTitlebar
-.
-updateAppearance
-(
-)
-;
 this
 .
 _updateCloseButtons

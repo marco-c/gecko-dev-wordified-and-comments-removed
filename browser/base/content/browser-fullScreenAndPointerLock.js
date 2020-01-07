@@ -1703,9 +1703,8 @@ cleanup
 ;
 TabsInTitlebar
 .
-updateAppearance
+update
 (
-true
 )
 ;
 }
