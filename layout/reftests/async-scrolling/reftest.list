@@ -2035,12 +2035,6 @@ Android
 6
 8
 )
-fails
--
-if
-(
-webrender
-)
 skip
 -
 if
@@ -2074,11 +2068,6 @@ clip
 ref
 .
 html
-#
-bug
-1458598
-for
-webrender
 fuzzy
 -
 if
