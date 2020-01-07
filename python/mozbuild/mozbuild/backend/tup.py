@@ -1518,10 +1518,14 @@ backend_file
 )
 :
         
-if
+shlib
+=
 backend_file
 .
 shared_lib
+        
+if
+shlib
 .
 name
 =
@@ -1536,9 +1540,7 @@ so
 return
         
 if
-backend_file
-.
-shared_lib
+shlib
 .
 cxx_link
 :
@@ -1645,9 +1647,7 @@ h
 s
 '
 %
-backend_file
-.
-shared_lib
+shlib
 .
 soname
 ]
@@ -1658,9 +1658,7 @@ soname
 -
 o
 '
-backend_file
-.
-shared_lib
+shlib
 .
 lib_name
 ]
@@ -1677,9 +1675,7 @@ self
 .
 _expand_libs
 (
-backend_file
-.
-shared_lib
+shlib
 )
         
 static_libs
@@ -1715,9 +1711,7 @@ s
 list
 '
 %
-backend_file
-.
-shared_lib
+shlib
 .
 name
 .
@@ -1780,9 +1774,7 @@ symbols_file
 ]
         
 if
-backend_file
-.
-shared_lib
+shlib
 .
 symbols_file
 :
@@ -1791,9 +1783,7 @@ inputs
 .
 append
 (
-backend_file
-.
-shared_lib
+shlib
 .
 symbols_file
 )
@@ -1813,9 +1803,7 @@ script
 s
 '
 %
-backend_file
-.
-shared_lib
+shlib
 .
 symbols_file
 ]
@@ -1885,9 +1873,7 @@ inputs
 outputs
 =
 [
-backend_file
-.
-shared_lib
+shlib
 .
 lib_name
 ]
@@ -1900,6 +1886,45 @@ LINK
 o
 '
         
+)
+        
+backend_file
+.
+symlink_rule
+(
+mozpath
+.
+join
+(
+backend_file
+.
+objdir
+                                               
+shlib
+.
+lib_name
+)
+                                  
+output
+=
+mozpath
+.
+join
+(
+self
+.
+environment
+.
+topobjdir
+                                                      
+shlib
+.
+install_target
+                                                      
+shlib
+.
+lib_name
+)
 )
     
 def
