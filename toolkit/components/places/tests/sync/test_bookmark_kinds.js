@@ -608,7 +608,7 @@ menu
 "
 hasDupe
 :
-false
+true
 parentName
 :
 BookmarksMenuTitle
@@ -685,7 +685,7 @@ places
 "
 hasDupe
 :
-false
+true
 parentName
 :
 "
@@ -748,7 +748,7 @@ places
 "
 hasDupe
 :
-false
+true
 parentName
 :
 "
