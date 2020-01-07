@@ -178,6 +178,17 @@ lazy_static
 "
 winapi
 "
+"
+syn
+"
+"
+quote
+"
+"
+unicode
+-
+xid
+"
 ]
 #
 Files
