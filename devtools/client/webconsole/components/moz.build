@@ -74,6 +74,11 @@ types
 DevToolsModules
 (
 '
+App
+.
+js
+'
+'
 CollapseButton
 .
 js
