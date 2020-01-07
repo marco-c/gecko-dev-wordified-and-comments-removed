@@ -119,6 +119,15 @@ macosx64
 debug
 :
 10
+windows10
+-
+64
+-
+ccov
+/
+debug
+:
+15
 default
 :
 12
