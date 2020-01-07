@@ -1120,13 +1120,6 @@ aOther
 =
 delete
 ;
-void
-PageDone
-(
-nsresult
-aResult
-)
-;
 }
 ;
 #

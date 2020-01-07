@@ -196,11 +196,6 @@ mPrintInitialized
 =
 false
 ;
-bool
-mDestroyed
-=
-false
-;
 nsresult
 mInitializationResult
 =

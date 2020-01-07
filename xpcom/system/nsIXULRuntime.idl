@@ -491,13 +491,6 @@ PROCESS_TYPE_GPU
 =
 5
 ;
-const
-unsigned
-long
-PROCESS_TYPE_PDFIUM
-=
-6
-;
 /
 *
 *

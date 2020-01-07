@@ -307,13 +307,6 @@ PRFileDescStream
 aRecording
 )
 ;
-void
-PageDone
-(
-nsresult
-aResult
-)
-;
 nsCOMPtr
 <
 nsIPrintSettings
@@ -340,9 +333,6 @@ mPrintProgressListeners
 ;
 PRFileDescStream
 mCurrentPageStream
-;
-bool
-mIsDoingPrinting
 ;
 }
 ;
