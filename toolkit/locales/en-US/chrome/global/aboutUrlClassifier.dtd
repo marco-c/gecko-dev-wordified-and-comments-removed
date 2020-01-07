@@ -85,14 +85,11 @@ translated
 ENTITY
 aboutUrlClassifier
 .
-pageTitle
+title
 "
+URL
+Classifier
 Information
-about
-the
-url
--
-classifier
 "
 >
 <
