@@ -384,6 +384,16 @@ HasErrorToRethrow
 )
 )
 ;
+MOZ_ASSERT
+(
+mModuleRecord
+|
+|
+HasParseError
+(
+)
+)
+;
 mErrorToRethrow
 =
 aError
