@@ -123,11 +123,9 @@ src
 /
 common
 /
-css
+worklet
 -
-paint
--
-tests
+reftest
 .
 js
 "
@@ -289,8 +287,11 @@ borderImageOutset
 10px
 '
 ;
-importPaintWorkletAndTerminateTestAfterAsyncPaint
+importWorkletAndTerminateTestAfterAsyncPaint
 (
+CSS
+.
+paintWorklet
 document
 .
 getElementById

@@ -95,11 +95,9 @@ src
 /
 common
 /
-css
+worklet
 -
-paint
--
-tests
+reftest
 .
 js
 "
@@ -294,8 +292,11 @@ script
 <
 script
 >
-importPaintWorkletAndTerminateTestAfterAsyncPaint
+importWorkletAndTerminateTestAfterAsyncPaint
 (
+CSS
+.
+paintWorklet
 document
 .
 getElementById
