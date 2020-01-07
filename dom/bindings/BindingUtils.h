@@ -14102,6 +14102,9 @@ struct
 MaybeGlobalThisPolicy
 ;
 struct
+LenientThisPolicy
+;
+struct
 ThrowExceptions
 ;
 struct
