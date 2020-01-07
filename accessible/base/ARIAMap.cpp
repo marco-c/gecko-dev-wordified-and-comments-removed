@@ -2996,7 +2996,7 @@ nsAttrName
 *
 attr
 =
-mElement
+mContent
 -
 >
 GetAttrNameAt
@@ -3087,7 +3087,7 @@ nsAccUtils
 :
 HasDefinedARIAToken
 (
-mElement
+mContent
 attrAtom
 )
 )
@@ -3102,7 +3102,7 @@ ATTR_BYPASSOBJ_IF_FALSE
 )
 &
 &
-mElement
+mContent
 -
 >
 AttrValueIs
@@ -3125,7 +3125,7 @@ value
 ;
 if
 (
-mElement
+mContent
 -
 >
 GetAttr

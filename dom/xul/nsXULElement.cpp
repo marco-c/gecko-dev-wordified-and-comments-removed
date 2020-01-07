@@ -1536,7 +1536,7 @@ nullptr
 void
 NS_TrustedNewXULElement
 (
-Element
+nsIContent
 *
 *
 aResult

@@ -363,9 +363,9 @@ char16_t
 *
 *
 aNode
-Element
+nsIContent
 *
-aElement
+aContent
 )
 ;
 nsresult

@@ -1605,11 +1605,6 @@ CompileSimpleQuery
 (
 query
 content
--
->
-AsElement
-(
-)
 &
 lastnode
 )
@@ -1654,11 +1649,6 @@ CompileSimpleQuery
 (
 query
 content
--
->
-AsElement
-(
-)
 &
 lastnode
 )
@@ -6178,7 +6168,7 @@ CompileSimpleQuery
 nsRDFQuery
 *
 aQuery
-Element
+nsIContent
 *
 aQueryElement
 TestNode

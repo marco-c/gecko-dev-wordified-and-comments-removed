@@ -255,9 +255,9 @@ char16_t
 *
 *
 aAtts
-Element
+nsIContent
 *
-aElement
+aContent
 )
 override
 ;

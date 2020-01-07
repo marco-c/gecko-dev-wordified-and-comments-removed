@@ -1077,7 +1077,7 @@ nsXBLBinding
 :
 SetBoundElement
 (
-Element
+nsIContent
 *
 aElement
 )
@@ -1220,7 +1220,7 @@ blocker
 "
 )
 ;
-Element
+nsIContent
 *
 content
 =
@@ -1769,11 +1769,6 @@ if
 mContent
 )
 mContent
--
->
-AsElement
-(
-)
 -
 >
 UnsetAttr

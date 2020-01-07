@@ -4254,9 +4254,9 @@ NS_OK
 }
 nsCOMPtr
 <
-Element
+nsIContent
 >
-element
+content
 =
 do_QueryInterface
 (
@@ -4280,7 +4280,7 @@ i
 i
 !
 =
-element
+content
 -
 >
 GetAttrCount
@@ -4301,7 +4301,7 @@ nsAttrName
 *
 attrName
 =
-element
+content
 -
 >
 GetAttrNameAt
@@ -4320,7 +4320,7 @@ LocalName
 (
 )
 ;
-element
+content
 -
 >
 GetAttr
@@ -4479,7 +4479,7 @@ param
 }
 if
 (
-element
+content
 -
 >
 IsHTMLElement
@@ -4492,7 +4492,7 @@ object
 &
 &
 !
-element
+content
 -
 >
 HasAttr
@@ -4508,7 +4508,7 @@ src
 MozPluginParameter
 param
 ;
-element
+content
 -
 >
 GetAttr

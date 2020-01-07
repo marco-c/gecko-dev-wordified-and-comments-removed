@@ -939,9 +939,9 @@ nsIContent
 >
 mDisplayContent
 ;
-RefPtr
+nsCOMPtr
 <
-Element
+nsIContent
 >
 mButtonContent
 ;

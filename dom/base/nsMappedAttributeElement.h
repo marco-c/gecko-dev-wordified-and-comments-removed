@@ -114,8 +114,7 @@ GenericSpecifiedValues
 aGenericData
 )
 ;
-virtual
-nsresult
+NS_IMETHOD
 WalkContentStyleRules
 (
 nsRuleWalker

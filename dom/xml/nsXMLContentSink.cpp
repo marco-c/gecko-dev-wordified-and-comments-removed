@@ -4198,11 +4198,6 @@ AddAttributes
 (
 aAtts
 content
--
->
-AsElement
-(
-)
 )
 ;
 if
@@ -6175,7 +6170,7 @@ char16_t
 *
 *
 aAtts
-Element
+nsIContent
 *
 aContent
 )

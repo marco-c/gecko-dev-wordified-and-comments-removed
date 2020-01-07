@@ -600,7 +600,7 @@ AppendAllIdContent
 (
 nsCOMArray
 <
-Element
+nsIContent
 >
 *
 aElements

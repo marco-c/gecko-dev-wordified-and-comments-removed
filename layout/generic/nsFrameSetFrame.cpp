@@ -6609,11 +6609,6 @@ newColAttr
 mContent
 -
 >
-AsElement
-(
-)
--
->
 SetAttr
 (
 kNameSpaceID_None
@@ -6796,11 +6791,6 @@ newRowAttr
 )
 ;
 mContent
--
->
-AsElement
-(
-)
 -
 >
 SetAttr

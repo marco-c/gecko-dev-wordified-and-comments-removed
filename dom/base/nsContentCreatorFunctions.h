@@ -279,13 +279,7 @@ aFromParser
 void
 NS_TrustedNewXULElement
 (
-mozilla
-:
-:
-dom
-:
-:
-Element
+nsIContent
 *
 *
 aResult

@@ -470,6 +470,10 @@ NodeInfo
 >
 nodeInfo
 ;
+Element
+*
+element
+;
 if
 (
 HasVideoElement
@@ -502,7 +506,7 @@ nodeInfo
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-mPosterImage
+element
 =
 NS_NewHTMLImageElement
 (
@@ -512,6 +516,10 @@ forget
 (
 )
 )
+;
+mPosterImage
+=
+element
 ;
 NS_ENSURE_TRUE
 (
@@ -545,7 +553,7 @@ true
 0
 )
 ;
-mPosterImage
+element
 -
 >
 UpdateState
