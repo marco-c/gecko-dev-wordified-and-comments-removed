@@ -382,10 +382,6 @@ mCallback
 &
 aCb
 )
-mRoot
-(
-nullptr
-)
 mConnected
 (
 false
@@ -581,7 +577,7 @@ aTarget
 )
 ;
 void
-UnlinkElement
+UnlinkTarget
 (
 Element
 &
@@ -708,8 +704,10 @@ IntersectionCallback
 >
 mCallback
 ;
+RefPtr
+<
 Element
-*
+>
 mRoot
 ;
 nsCSSRect
