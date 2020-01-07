@@ -710,6 +710,16 @@ includeAliases
 =
 false
 ;
+boolean
+includeShorthands
+=
+true
+;
+boolean
+includeExperimentals
+=
+false
+;
 }
 ;
 dictionary
