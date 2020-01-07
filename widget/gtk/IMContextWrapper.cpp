@@ -5946,9 +5946,10 @@ isCancelled
 mLastFocusedWindow
 -
 >
-DispatchKeyDownEvent
+DispatchKeyDownOrKeyUpEvent
 (
 mProcessingKeyEvent
+true
 &
 isCancelled
 )
