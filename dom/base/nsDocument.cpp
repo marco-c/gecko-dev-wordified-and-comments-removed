@@ -10736,7 +10736,7 @@ aChannel
 ;
 }
 void
-nsDocument
+nsIDocument
 :
 :
 ResetToURI

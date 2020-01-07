@@ -584,6 +584,9 @@ class
 EventStates
 ;
 class
+EventListenerManager
+;
+class
 PendingAnimationTracker
 ;
 class
@@ -5152,8 +5155,6 @@ nsILoadGroup
 *
 aLoadGroup
 )
-=
-0
 ;
 virtual
 void
@@ -5169,8 +5170,6 @@ nsIPrincipal
 *
 aPrincipal
 )
-=
-0
 ;
 virtual
 void
@@ -11772,6 +11771,15 @@ mozilla
 :
 CSSSize
 mViewportSize
+;
+RefPtr
+<
+mozilla
+:
+:
+EventListenerManager
+>
+mListenerManager
 ;
 nsTArray
 <
