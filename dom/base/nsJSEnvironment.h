@@ -298,6 +298,7 @@ IncrementalGC
 NonIncrementalGC
 }
 ;
+static
 void
 EnsureStatics
 (
