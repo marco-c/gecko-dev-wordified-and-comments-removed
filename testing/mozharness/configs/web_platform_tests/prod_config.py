@@ -297,6 +297,20 @@ download_tooltool
 True
     
 "
+geckodriver
+"
+:
+"
+%
+(
+abs_test_bin_dir
+)
+s
+/
+geckodriver
+"
+    
+"
 verify_category
 "
 :
