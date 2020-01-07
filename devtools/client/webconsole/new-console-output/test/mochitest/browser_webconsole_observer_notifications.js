@@ -28,7 +28,7 @@ for
 "
 +
 "
-obeserver
+observer
 notifications
 "
 ;
