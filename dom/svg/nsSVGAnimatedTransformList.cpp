@@ -640,7 +640,7 @@ typeAttr
 aSrcElement
 -
 >
-GetAnimAttr
+GetParsedAttr
 (
 nsGkAtoms
 :

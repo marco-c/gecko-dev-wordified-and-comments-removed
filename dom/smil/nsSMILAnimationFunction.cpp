@@ -2982,7 +2982,7 @@ return
 mAnimationElement
 -
 >
-HasAnimAttr
+HasAttr
 (
 aAttName
 )
@@ -3006,7 +3006,7 @@ return
 mAnimationElement
 -
 >
-GetAnimAttr
+GetParsedAttr
 (
 aAttName
 )
@@ -3031,7 +3031,7 @@ return
 mAnimationElement
 -
 >
-GetAnimAttr
+GetAttr
 (
 aAttName
 aResult

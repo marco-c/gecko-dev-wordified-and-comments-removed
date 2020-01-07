@@ -5627,7 +5627,7 @@ if
 mAnimationElement
 -
 >
-HasAnimAttr
+HasAttr
 (
 nsGkAtoms
 :
@@ -5642,7 +5642,7 @@ attValue
 mAnimationElement
 -
 >
-GetAnimAttr
+GetAttr
 (
 nsGkAtoms
 :
@@ -5664,7 +5664,7 @@ if
 mAnimationElement
 -
 >
-HasAnimAttr
+HasAttr
 (
 nsGkAtoms
 :
@@ -5679,7 +5679,7 @@ attValue
 mAnimationElement
 -
 >
-GetAnimAttr
+GetAttr
 (
 nsGkAtoms
 :
@@ -6592,7 +6592,7 @@ mAnimationElement
 mAnimationElement
 -
 >
-HasAnimAttr
+HasAttr
 (
 nsGkAtoms
 :
