@@ -15,7 +15,7 @@ version
 .
 0
 .
-1
+2
 "
 authors
 =
@@ -47,10 +47,7 @@ dependencies
 bitflags
 =
 "
-^
-0
-.
-7
+1
 .
 0
 "
