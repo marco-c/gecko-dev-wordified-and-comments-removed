@@ -155,6 +155,14 @@ servo_restyle_damage
 "
 rebuild_and_reflow
 "
+needs_context
+=
+product
+=
+=
+"
+gecko
+"
 )
 }
 /
