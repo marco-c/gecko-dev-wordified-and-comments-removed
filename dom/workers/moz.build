@@ -134,6 +134,11 @@ WorkerDebuggerManager
 h
 '
 '
+WorkerHolderToken
+.
+h
+'
+'
 WorkerLoadInfo
 .
 h
@@ -210,11 +215,6 @@ bindings
 [
 '
 WorkerHolder
-.
-h
-'
-'
-WorkerHolderToken
 .
 h
 '

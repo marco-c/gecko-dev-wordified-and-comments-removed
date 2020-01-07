@@ -12,7 +12,16 @@ WorkerPrivate
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
+using
+namespace
+workers
+;
 already_AddRefed
 <
 WorkerHolderToken
@@ -342,4 +351,5 @@ return
 true
 ;
 }
-END_WORKERS_NAMESPACE
+}
+}
