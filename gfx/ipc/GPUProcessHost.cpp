@@ -128,6 +128,8 @@ GPUProcessHost
 :
 Launch
 (
+StringVector
+aExtraOpts
 )
 {
 MOZ_ASSERT
@@ -214,6 +216,7 @@ GeckoChildProcessHost
 :
 AsyncLaunch
 (
+aExtraOpts
 )
 )
 {

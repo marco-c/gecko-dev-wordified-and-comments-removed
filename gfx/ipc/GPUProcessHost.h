@@ -141,6 +141,8 @@ GPUProcessHost
 bool
 Launch
 (
+StringVector
+aExtraOpts
 )
 ;
 bool
