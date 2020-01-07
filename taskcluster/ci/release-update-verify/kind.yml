@@ -2105,7 +2105,7 @@ localtest
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2165,7 +2165,7 @@ cfg
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2272,7 +2272,7 @@ localtest
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2332,7 +2332,7 @@ cfg
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2439,7 +2439,7 @@ localtest
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2499,7 +2499,7 @@ cfg
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2606,7 +2606,7 @@ localtest
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2666,7 +2666,7 @@ cfg
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2773,7 +2773,7 @@ localtest
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
@@ -2833,7 +2833,7 @@ cfg
 "
 mozilla
 -
-aurora
+beta
 :
 "
 aurora
