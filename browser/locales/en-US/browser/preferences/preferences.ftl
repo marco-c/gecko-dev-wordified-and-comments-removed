@@ -2267,7 +2267,7 @@ windows
 -
 tabs
 -
-description
+description2
 =
 Choose
 what
@@ -2283,6 +2283,7 @@ windows
 and
 new
 tabs
+.
 #
 #
 Home
