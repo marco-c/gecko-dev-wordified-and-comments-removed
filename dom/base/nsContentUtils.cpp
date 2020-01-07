@@ -21528,7 +21528,7 @@ n
 n
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 &
@@ -32450,7 +32450,7 @@ aContent
 aContent
 -
 >
-IsInUncomposedDoc
+IsInComposedDoc
 (
 )
 )
