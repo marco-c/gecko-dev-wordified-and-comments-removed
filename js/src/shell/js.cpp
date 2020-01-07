@@ -609,6 +609,15 @@ include
 "
 util
 /
+Text
+.
+h
+"
+#
+include
+"
+util
+/
 Windows
 .
 h
