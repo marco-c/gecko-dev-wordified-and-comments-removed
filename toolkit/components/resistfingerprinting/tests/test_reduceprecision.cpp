@@ -1443,8 +1443,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1464,7 +1463,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-129
+327
 nsRFPService
 :
 :
@@ -1473,8 +1472,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1494,7 +1492,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-130
+328
 nsRFPService
 :
 :
@@ -1503,8 +1501,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1524,7 +1521,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-131
+329
 nsRFPService
 :
 :
@@ -1533,8 +1530,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1563,8 +1559,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1593,8 +1588,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1614,7 +1608,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-600
+540
 nsRFPService
 :
 :
@@ -1623,8 +1617,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1644,7 +1637,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-928
+547
 nsRFPService
 :
 :
@@ -1653,8 +1646,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1674,7 +1666,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-929
+548
 nsRFPService
 :
 :
@@ -1683,8 +1675,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1713,8 +1704,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1743,8 +1733,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1773,8 +1762,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1794,7 +1782,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-4295
+4220
 nsRFPService
 :
 :
@@ -1803,8 +1791,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1824,7 +1811,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-4296
+4224
 nsRFPService
 :
 :
@@ -1833,8 +1820,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1854,7 +1840,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-4297
+4225
 nsRFPService
 :
 :
@@ -1863,8 +1849,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1884,7 +1869,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-4298
+4340
 nsRFPService
 :
 :
@@ -1893,8 +1878,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1923,8 +1907,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1953,8 +1936,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -1983,8 +1965,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -2004,7 +1985,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-4537
+4695
 nsRFPService
 :
 :
@@ -2013,8 +1994,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -2034,7 +2014,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-4538
+4698
 nsRFPService
 :
 :
@@ -2043,8 +2023,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -2064,7 +2043,7 @@ nsRFPService
 :
 ReduceTimePrecisionImpl
 (
-4539
+4726
 nsRFPService
 :
 :
@@ -2073,8 +2052,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
@@ -2103,8 +2081,7 @@ TimeScale
 :
 MicroSeconds
 500
--
-1
+4000
 TimerPrecisionType
 :
 :
