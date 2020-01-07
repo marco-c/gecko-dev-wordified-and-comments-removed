@@ -132,9 +132,6 @@ here
 "
 pywebsocket
 "
-"
-src
-"
 )
 )
 sys

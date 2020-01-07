@@ -4509,6 +4509,21 @@ a
 WebSocket
 connection
 .
+Note
+that
+this
+method
+blocks
+until
+        
+it
+receives
+acknowledgement
+to
+the
+closing
+handshake
+.
         
 Args
 :

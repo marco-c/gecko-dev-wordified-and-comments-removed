@@ -370,10 +370,11 @@ None
 )
 :
     
+r
 "
 "
 "
-Gets
+Get
 #
 !
 -
@@ -720,6 +721,19 @@ o
 )
 :
     
+"
+"
+"
+Return
+the
+logging
+class
+information
+.
+"
+"
+"
+    
 return
 logging
 .
@@ -758,9 +772,12 @@ object
 "
 "
 A
+NoOp
 masking
 object
-that
+.
+    
+This
 has
 the
 same
@@ -768,9 +785,9 @@ interface
 as
 RepeatedXorMasker
 but
-    
 just
 returns
+    
 the
 string
 passed
@@ -792,6 +809,15 @@ self
 )
 :
         
+"
+"
+"
+NoOp
+.
+"
+"
+"
+        
 pass
     
 def
@@ -801,6 +827,15 @@ self
 s
 )
 :
+        
+"
+"
+"
+NoOp
+.
+"
+"
+"
         
 return
 s
@@ -823,15 +858,22 @@ XOR
 on
 the
 string
+.
+    
+Applies
+XOR
+on
+the
+string
 given
 to
 mask
 method
-    
 with
 the
 masking
 bytes
+    
 given
 to
 the
@@ -840,10 +882,10 @@ repeatedly
 .
 This
 object
-    
 remembers
 the
 position
+    
 in
 the
 masking
@@ -853,11 +895,11 @@ last
 mask
 method
 call
-    
 ended
 and
 resumes
 from
+    
 that
 point
 on
@@ -899,6 +941,19 @@ self
 s
 )
 :
+        
+"
+"
+"
+Perform
+the
+mask
+via
+SWIG
+.
+"
+"
+"
         
 masked_data
 =
@@ -951,6 +1006,19 @@ self
 s
 )
 :
+        
+"
+"
+"
+Perform
+the
+mask
+via
+python
+.
+"
+"
+"
         
 result
 =
@@ -1764,6 +1832,14 @@ object
 "
 "
 "
+A
+decompressor
+class
+a
+la
+RFC1979
+.
+    
 A
 decompressor
 class
