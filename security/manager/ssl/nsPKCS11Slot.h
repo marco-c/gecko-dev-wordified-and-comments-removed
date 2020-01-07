@@ -81,6 +81,12 @@ mozilla
 UniquePK11SlotInfo
 mSlot
 ;
+bool
+mIsInternalCryptoSlot
+;
+bool
+mIsInternalKeySlot
+;
 nsCString
 mSlotDesc
 ;

@@ -2050,7 +2050,7 @@ devinfo_label
 )
 selected_token
 .
-tokenLabel
+tokenName
 "
 tok_label
 "

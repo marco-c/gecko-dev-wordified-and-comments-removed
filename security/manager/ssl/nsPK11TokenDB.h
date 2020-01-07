@@ -102,9 +102,6 @@ nsCString
 mTokenName
 ;
 nsCString
-mTokenLabel
-;
-nsCString
 mTokenManufacturerID
 ;
 nsCString
@@ -121,6 +118,12 @@ mozilla
 :
 UniquePK11SlotInfo
 mSlot
+;
+bool
+mIsInternalCryptoToken
+;
+bool
+mIsInternalKeyToken
 ;
 int
 mSeries
