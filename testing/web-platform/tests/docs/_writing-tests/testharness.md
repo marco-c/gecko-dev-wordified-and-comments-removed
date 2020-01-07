@@ -814,6 +814,8 @@ x
 var
 >
 .
+any
+.
 html
 <
 /
@@ -840,6 +842,8 @@ x
 /
 var
 >
+.
+any
 .
 worker
 .
