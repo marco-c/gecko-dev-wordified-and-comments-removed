@@ -216,16 +216,5 @@ DOMString
 name
 )
 ;
-void
-setAttribute
-(
-in
-DOMString
-name
-in
-DOMString
-value
-)
-;
 }
 ;
