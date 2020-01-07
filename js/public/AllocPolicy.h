@@ -23,6 +23,7 @@ Utility
 h
 "
 extern
+MOZ_COLD
 JS_PUBLIC_API
 (
 void
@@ -245,6 +246,7 @@ ShouldFailWithOOM
 }
 }
 ;
+MOZ_COLD
 JS_FRIEND_API
 (
 void

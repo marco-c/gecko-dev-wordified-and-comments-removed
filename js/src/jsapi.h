@@ -19150,6 +19150,7 @@ errorNumber
 )
 ;
 extern
+MOZ_COLD
 JS_PUBLIC_API
 (
 void
