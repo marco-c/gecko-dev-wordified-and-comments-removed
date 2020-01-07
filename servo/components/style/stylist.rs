@@ -8668,9 +8668,6 @@ invalidation_map
 .
 note_selector
 (
-&
-rule
-.
 selector
 quirks_mode
 )

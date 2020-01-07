@@ -1503,6 +1503,10 @@ Component
 :
 :
 Host
+(
+.
+.
+)
 |
 Component
 :
