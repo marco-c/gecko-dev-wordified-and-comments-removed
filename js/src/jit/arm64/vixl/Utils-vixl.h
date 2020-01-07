@@ -1147,8 +1147,11 @@ value
 return
 value
 &
+(
+0
 -
 value
+)
 ;
 }
 template
@@ -1380,7 +1383,7 @@ value
 VIXL_ASSERT
 (
 (
-1U
+1ULL
 <
 <
 block_bytes_log2
