@@ -797,6 +797,7 @@ int32_t
 aRightOffset
 )
 ;
+MOZ_MUST_USE
 EditActionResult
 MoveNodeSmart
 (
