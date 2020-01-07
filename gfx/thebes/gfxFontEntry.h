@@ -1340,8 +1340,9 @@ gfxFontVariationAxis
 &
 aVariationAxes
 )
-{
-}
+=
+0
+;
 virtual
 void
 GetVariationInstances
@@ -1353,8 +1354,9 @@ gfxFontVariationInstance
 &
 aInstances
 )
-{
-}
+=
+0
+;
 void
 SetupVariationRanges
 (
