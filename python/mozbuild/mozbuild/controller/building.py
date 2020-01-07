@@ -6815,6 +6815,22 @@ in
 target_pairs
 :
                     
+no_build_status
+=
+b
+'
+1
+'
+if
+make_dir
+is
+not
+None
+else
+b
+'
+'
+                    
 status
 =
 self
@@ -6859,10 +6875,7 @@ b
 NO_BUILDSTATUS_MESSAGES
 '
 :
-b
-'
-1
-'
+no_build_status
 }
                         
 keep_going
