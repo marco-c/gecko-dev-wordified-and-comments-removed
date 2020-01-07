@@ -2197,7 +2197,7 @@ mResource
 >
 GetCachedDataEnd
 (
-mDecoderPosition
+mPlaybackPosition
 )
 ;
 result
