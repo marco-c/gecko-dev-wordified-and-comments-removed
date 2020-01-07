@@ -182,6 +182,15 @@ include
 "
 mozilla
 /
+EventStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -10372,6 +10381,17 @@ isHTTPS
 =
 false
 ;
+bool
+isHandlingUserInput
+=
+EventStateManager
+:
+:
+IsHandlingUserInput
+(
+)
+;
+;
 docURI
 -
 >
@@ -12179,6 +12199,7 @@ sourceListener
 askPermission
 prefs
 isHTTPS
+isHandlingUserInput
 callID
 principalInfo
 isChrome
@@ -12256,6 +12277,7 @@ sourceListener
 askPermission
 prefs
 isHTTPS
+isHandlingUserInput
 callID
 principalInfo
 isChrome
@@ -12635,6 +12657,7 @@ window
 callID
 c
 isHTTPS
+isHandlingUserInput
 )
 ;
 if

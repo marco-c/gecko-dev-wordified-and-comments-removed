@@ -86,6 +86,8 @@ MediaStreamConstraints
 aConstraints
 bool
 aIsSecure
+bool
+aIsHandlingUserInput
 )
 ;
 GetUserMediaRequest
@@ -147,6 +149,12 @@ bool
 IsSecure
 (
 )
+;
+bool
+IsHandlingUserInput
+(
+)
+const
 ;
 void
 GetCallID
@@ -213,6 +221,9 @@ mConstraints
 ;
 bool
 mIsSecure
+;
+bool
+mIsHandlingUserInput
 ;
 }
 ;

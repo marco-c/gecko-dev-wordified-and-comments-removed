@@ -221,5 +221,10 @@ attribute
 boolean
 isSecure
 ;
+readonly
+attribute
+boolean
+isHandlingUserInput
+;
 }
 ;
