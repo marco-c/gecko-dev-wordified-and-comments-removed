@@ -524,13 +524,6 @@ h
 #
 include
 "
-nsIDOMXULDocument
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

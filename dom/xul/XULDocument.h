@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsIDOMXULDocument
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -241,8 +234,6 @@ public
 XMLDocument
 public
 nsIXULDocument
-public
-nsIDOMXULDocument
 public
 nsIStreamLoaderObserver
 public
@@ -475,7 +466,6 @@ nsIDocument
 :
 GetLocation
 ;
-NS_DECL_NSIDOMXULDOCUMENT
 NS_IMETHOD
 StyleSheetLoaded
 (
