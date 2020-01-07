@@ -1058,9 +1058,7 @@ debug_flags
 DebugFlags
 :
 :
-default
-(
-)
+ECHO_DRIVER_MESSAGES
 ;
 debug_flags
 .

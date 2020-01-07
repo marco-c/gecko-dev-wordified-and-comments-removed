@@ -436,7 +436,7 @@ msg
 =
 >
 {
-println
+error
 !
 (
 "
@@ -658,7 +658,7 @@ address
 3583
 "
 ;
-println
+debug
 !
 (
 "
@@ -688,7 +688,7 @@ listen
 address
 )
 {
-println
+error
 !
 (
 "

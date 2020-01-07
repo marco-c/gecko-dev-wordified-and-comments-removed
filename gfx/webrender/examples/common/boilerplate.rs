@@ -896,6 +896,15 @@ new
 0
 )
 )
+debug_flags
+:
+webrender
+:
+:
+DebugFlags
+:
+:
+ECHO_DRIVER_MESSAGES
 .
 .
 options
