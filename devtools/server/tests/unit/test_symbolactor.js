@@ -32,7 +32,7 @@ test_SA_destroy
 (
 )
 ;
-test_SA_grip
+test_SA_form
 (
 )
 ;
@@ -148,7 +148,7 @@ false
 ;
 }
 function
-test_SA_grip
+test_SA_form
 (
 )
 {
@@ -160,17 +160,17 @@ makeMockSymbolActor
 )
 ;
 let
-grip
+form
 =
 actor
 .
-grip
+form
 (
 )
 ;
 strictEqual
 (
-grip
+form
 .
 type
 "
@@ -180,7 +180,7 @@ symbol
 ;
 strictEqual
 (
-grip
+form
 .
 actor
 actor
@@ -190,7 +190,7 @@ actorID
 ;
 strictEqual
 (
-grip
+form
 .
 name
 SYMBOL_NAME

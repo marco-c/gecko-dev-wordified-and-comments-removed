@@ -284,6 +284,11 @@ iterator
 js
 '
 '
+symbol
+.
+js
+'
+'
 tab
 .
 js
