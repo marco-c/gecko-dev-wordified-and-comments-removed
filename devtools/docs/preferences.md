@@ -595,11 +595,11 @@ devtools
 /
 startup
 /
+preferences
+/
 devtools
 -
 startup
--
-prefs
 .
 js
 Most
@@ -657,11 +657,11 @@ devtools
 /
 startup
 /
+preferences
+/
 devtools
 -
 startup
--
-prefs
 .
 js
 .

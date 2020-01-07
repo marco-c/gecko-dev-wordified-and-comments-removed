@@ -1402,11 +1402,11 @@ devtools
 /
 startup
 /
+preferences
+/
 devtools
 -
 startup
--
-prefs
 .
 js
 #

@@ -2584,8 +2584,6 @@ PREF_DIR
 devtools
 -
 startup
--
-prefs
 .
 js
 ;
