@@ -1200,10 +1200,10 @@ tabContainer
 .
 style
 .
-visibility
+opacity
 =
 "
-hidden
+0
 "
 ;
 let
