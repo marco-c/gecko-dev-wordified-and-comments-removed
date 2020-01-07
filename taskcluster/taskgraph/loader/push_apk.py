@@ -90,6 +90,20 @@ tasks
 =
 dependent_tasks
         
+job
+[
+'
+label
+'
+]
+=
+job
+[
+'
+name
+'
+]
+        
 yield
 job
 def
