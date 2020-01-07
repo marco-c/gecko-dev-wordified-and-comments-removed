@@ -625,10 +625,6 @@ const
 uint32_t
 &
 aFlags
-const
-nsCString
-&
-aNetworkInterface
 )
 override
 ;
@@ -657,10 +653,6 @@ const
 uint32_t
 &
 flags
-const
-nsCString
-&
-aNetworkInterface
 )
 override
 ;

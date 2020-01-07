@@ -639,10 +639,6 @@ mDnsRequest
 -
 >
 mFlags
-mDnsRequest
--
->
-mNetworkInterface
 mReasonForCancel
 )
 ;
@@ -681,10 +677,6 @@ const
 uint32_t
 &
 aFlags
-const
-nsACString
-&
-aNetworkInterface
 nsIDNSListener
 *
 aListener
@@ -716,10 +708,6 @@ aOriginAttributes
 mFlags
 (
 aFlags
-)
-mNetworkInterface
-(
-aNetworkInterface
 )
 mIPCOpen
 (
@@ -853,7 +841,6 @@ this
 mHost
 mOriginAttributes
 mFlags
-mNetworkInterface
 )
 ;
 mIPCOpen

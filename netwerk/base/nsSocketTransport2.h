@@ -1091,9 +1091,6 @@ mInputClosed
 bool
 mOutputClosed
 ;
-nsCString
-mNetworkInterfaceId
-;
 bool
 mResolving
 ;

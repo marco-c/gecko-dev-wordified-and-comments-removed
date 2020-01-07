@@ -250,10 +250,6 @@ pb
 ;
 const
 nsCString
-netInterface
-;
-const
-nsCString
 originSuffix
 ;
 nsHostKey
@@ -268,10 +264,6 @@ uint16_t
 af
 bool
 pb
-const
-nsACString
-&
-netInterface
 const
 nsACString
 &
@@ -293,10 +285,6 @@ af
 pb
 (
 pb
-)
-netInterface
-(
-netInterface
 )
 originSuffix
 (
@@ -886,10 +874,6 @@ pb
 const
 nsCString
 &
-netInterface
-const
-nsCString
-&
 originSuffix
 nsHostRecord
 *
@@ -1001,10 +985,6 @@ uint16_t
 flags
 uint16_t
 af
-const
-char
-*
-netInterface
 nsResolveHostCallback
 *
 callback
@@ -1028,10 +1008,6 @@ uint16_t
 flags
 uint16_t
 af
-const
-char
-*
-netInterface
 nsResolveHostCallback
 *
 callback
@@ -1057,10 +1033,6 @@ uint16_t
 flags
 uint16_t
 af
-const
-char
-*
-netInterface
 nsIDNSListener
 *
 aListener
@@ -1174,10 +1146,6 @@ uint16_t
 af
 bool
 pb
-const
-nsCString
-&
-netInterface
 const
 nsCString
 &

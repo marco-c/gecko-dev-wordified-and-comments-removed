@@ -1119,10 +1119,6 @@ uint16_t
 aAddressFamily
 uint16_t
 aFlags
-const
-char
-*
-aNetworkInterface
 AddrInfo
 *
 *
@@ -1367,10 +1363,6 @@ uint16_t
 aAddressFamily
 uint16_t
 aFlags
-const
-char
-*
-aNetworkInterface
 AddrInfo
 *
 *
@@ -1447,7 +1439,6 @@ _GetAddrInfo_Portable
 aHost
 aAddressFamily
 aFlags
-aNetworkInterface
 aAddrInfo
 )
 ;

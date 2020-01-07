@@ -210,8 +210,6 @@ OriginAttributes
 originAttributes
 uint32_t
 flags
-nsCString
-networkInterface
 nsresult
 reason
 )

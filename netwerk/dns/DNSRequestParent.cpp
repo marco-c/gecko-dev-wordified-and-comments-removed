@@ -113,10 +113,6 @@ OriginAttributes
 originAttributes
 uint32_t
 flags
-const
-nsACString
-&
-networkInterface
 )
 {
 nsresult
@@ -168,11 +164,10 @@ rv
 dns
 -
 >
-AsyncResolveExtendedNative
+AsyncResolveNative
 (
 hostname
 flags
-networkInterface
 this
 main
 originAttributes
@@ -237,10 +232,6 @@ uint32_t
 &
 flags
 const
-nsCString
-&
-networkInterface
-const
 nsresult
 &
 reason
@@ -275,11 +266,10 @@ rv
 dns
 -
 >
-CancelAsyncResolveExtendedNative
+CancelAsyncResolveNative
 (
 hostName
 flags
-networkInterface
 this
 reason
 originAttributes
