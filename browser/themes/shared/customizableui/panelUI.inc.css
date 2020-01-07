@@ -4601,14 +4601,6 @@ remotetabs
 instruction
 -
 label
-#
-PanelUI
--
-remotetabs
--
-mobile
--
-promo
 {
 margin
 :
@@ -4682,8 +4674,6 @@ PanelUI
 -
 remotetabs
 -
-prefs
--
 button
 {
 -
@@ -4746,8 +4736,6 @@ PanelUI
 -
 remotetabs
 -
-prefs
--
 button
 :
 hover
@@ -4764,8 +4752,6 @@ color
 PanelUI
 -
 remotetabs
--
-prefs
 -
 button
 :
@@ -4941,8 +4927,6 @@ svg
 PanelUI
 -
 remotetabs
--
-prefs
 -
 button
 >
