@@ -303,7 +303,11 @@ in
 -
 tree
 :
-desktop
+debian7
+-
+mozjs
+-
+rust
 -
 build
 }
