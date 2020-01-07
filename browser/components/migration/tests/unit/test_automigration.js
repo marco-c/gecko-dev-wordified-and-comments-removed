@@ -4783,9 +4783,9 @@ onEndUpdateBatch
 )
 {
 }
-onVisit
+onVisits
 (
-uri
+visits
 )
 {
 wrongMethodDeferred
@@ -4799,12 +4799,12 @@ Error
 Unexpected
 call
 to
-onVisit
+onVisits
 "
 +
-uri
+visits
 .
-spec
+length
 )
 )
 ;

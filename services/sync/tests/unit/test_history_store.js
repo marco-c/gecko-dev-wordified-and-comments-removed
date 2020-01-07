@@ -211,10 +211,10 @@ onTitleChanged
 )
 {
 }
-onVisit
+onVisits
 :
 function
-onVisit
+onVisits
 (
 )
 {

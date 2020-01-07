@@ -369,7 +369,7 @@ onClearHistory
 )
 {
 }
-onVisit
+onVisits
 (
 )
 {

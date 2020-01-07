@@ -962,9 +962,9 @@ onEndUpdateBatch
 )
 {
 }
-onVisit
+onVisits
 (
-uri
+aVisits
 )
 {
 this
@@ -980,12 +980,12 @@ Error
 Unexpected
 call
 to
-onVisit
+onVisits
 "
 +
-uri
+aVisits
 .
-spec
+length
 )
 )
 ;

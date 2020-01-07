@@ -91,14 +91,9 @@ onEndUpdateBatch
 )
 {
 }
-onVisit
+onVisits
 (
-aURI
-aVisitID
-aTime
-aSessionID
-aReferringID
-aTransitionType
+aVisits
 )
 {
 Services

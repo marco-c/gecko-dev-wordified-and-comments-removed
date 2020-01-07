@@ -212,7 +212,7 @@ function
 )
 {
 }
-onVisit
+onVisits
 :
 function
 (
