@@ -273,6 +273,7 @@ testRatioSample
 (
 )
 {
+await
 Assert
 .
 rejects
@@ -287,6 +288,16 @@ test
 [
 ]
 )
+/
+ratios
+must
+be
+at
+least
+1
+element
+long
+/
 "
 ratioSample
 rejects
