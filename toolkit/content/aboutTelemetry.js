@@ -2054,6 +2054,11 @@ explanation
 "
 )
 ;
+removeAllChildNodes
+(
+pingExplanation
+)
+;
 pingExplanation
 .
 appendChild
