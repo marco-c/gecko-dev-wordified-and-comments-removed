@@ -8740,6 +8740,15 @@ NotifyIntersectionObservers
 0
 ;
 virtual
+bool
+HasIntersectionObservers
+(
+)
+const
+=
+0
+;
+virtual
 nsresult
 Dispatch
 (
