@@ -55,6 +55,8 @@ RUSTC
 unset
 CARGO
 unset
+RUSTDOC
+unset
 MAKECAB
 unset
 TOOLCHAIN_PREFIX
