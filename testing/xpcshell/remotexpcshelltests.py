@@ -2437,6 +2437,9 @@ remoteBinDir
 recursive
 =
 True
+root
+=
+True
 )
     
 def
