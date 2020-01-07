@@ -79,9 +79,6 @@ interface
 nsIDOMHTMLInputElement
 ;
 interface
-nsIDOMHTMLFormElement
-;
-interface
 nsIPropertyBag
 ;
 [

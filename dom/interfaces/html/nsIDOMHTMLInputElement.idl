@@ -104,9 +104,6 @@ nsIControllers
 interface
 nsIDOMFileList
 ;
-interface
-nsIDOMHTMLFormElement
-;
 /
 *
 *

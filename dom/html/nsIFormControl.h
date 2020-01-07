@@ -21,9 +21,6 @@ nsISupports
 h
 "
 class
-nsIDOMHTMLFormElement
-;
-class
 nsPresState
 ;
 namespace
@@ -40,6 +37,9 @@ HTMLFieldSetElement
 ;
 class
 HTMLFormSubmission
+;
+class
+HTMLFormElement
 ;
 }
 }
@@ -264,7 +264,13 @@ virtual
 void
 SetForm
 (
-nsIDOMHTMLFormElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLFormElement
 *
 aForm
 )

@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMHTMLFormElement
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener
 .
 h
@@ -162,8 +155,6 @@ final
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLFormElement
-public
 nsIWebProgressListener
 public
 nsIForm
@@ -206,7 +197,6 @@ FORM_CONTROL_LIST_HASHTABLE_LENGTH
 }
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMHTMLFORMELEMENT
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_IMETHOD_
 (

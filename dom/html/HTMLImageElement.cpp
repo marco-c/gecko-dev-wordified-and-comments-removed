@@ -3379,7 +3379,7 @@ aGivenProto
 #
 ifdef
 DEBUG
-nsIDOMHTMLFormElement
+HTMLFormElement
 *
 HTMLImageElement
 :
@@ -3401,7 +3401,7 @@ HTMLImageElement
 :
 SetForm
 (
-nsIDOMHTMLFormElement
+HTMLFormElement
 *
 aForm
 )
@@ -3444,14 +3444,7 @@ another
 ;
 mForm
 =
-static_cast
-<
-HTMLFormElement
-*
->
-(
 aForm
-)
 ;
 }
 void
