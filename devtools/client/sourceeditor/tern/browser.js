@@ -18646,7 +18646,7 @@ doc
 "
 Refer
 to
-nsIDOMXPathResult
+XPathResult
 for
 more
 detail
@@ -18843,7 +18843,7 @@ doc
 "
 Refer
 to
-nsIDOMXPathResult
+XPathResult
 for
 more
 detail
@@ -19169,7 +19169,7 @@ doc
 "
 Refer
 to
-nsIDOMXPathResult
+XPathResult
 for
 more
 detail

@@ -1103,9 +1103,11 @@ evaluate
 xPath
 context
 null
-Ci
+owner
 .
-nsIDOMXPathResult
+window
+.
+XPathResult
 .
 ANY_TYPE
 null

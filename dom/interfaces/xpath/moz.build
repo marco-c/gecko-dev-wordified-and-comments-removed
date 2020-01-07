@@ -113,11 +113,6 @@ nsIDOMXPathEvaluator
 .
 idl
 '
-'
-nsIDOMXPathResult
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
