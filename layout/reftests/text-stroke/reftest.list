@@ -173,7 +173,13 @@ skiaContent
 gtkWidget
 |
 |
+(
 winWidget
+&
+&
+!
+webrender
+)
 )
 )
 =
@@ -229,7 +235,13 @@ skiaContent
 gtkWidget
 |
 |
+(
 winWidget
+&
+&
+!
+webrender
+)
 )
 )
 =

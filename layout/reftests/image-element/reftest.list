@@ -497,6 +497,15 @@ fails
 if
 (
 usesRepeatResampling
+&
+&
+!
+(
+webrender
+&
+&
+winWidget
+)
 )
 =
 =

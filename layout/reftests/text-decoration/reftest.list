@@ -3,6 +3,9 @@ fails
 if
 (
 webrender
+&
+&
+gtkWidget
 )
 =
 =
@@ -31,6 +34,9 @@ fails
 if
 (
 webrender
+&
+&
+gtkWidget
 )
 =
 =

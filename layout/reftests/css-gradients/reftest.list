@@ -233,6 +233,10 @@ fails
 if
 (
 d2d
+&
+&
+!
+webrender
 )
 =
 =
@@ -278,6 +282,10 @@ fails
 if
 (
 d2d
+&
+&
+!
+webrender
 )
 =
 =
@@ -323,6 +331,10 @@ fails
 if
 (
 d2d
+&
+&
+!
+webrender
 )
 =
 =
@@ -350,6 +362,10 @@ fails
 if
 (
 d2d
+&
+&
+!
+webrender
 )
 =
 =

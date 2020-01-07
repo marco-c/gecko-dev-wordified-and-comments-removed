@@ -15671,6 +15671,15 @@ fails
 if
 (
 usesRepeatResampling
+&
+&
+!
+(
+webrender
+&
+&
+winWidget
+)
 )
 =
 =
@@ -18964,7 +18973,7 @@ fuzzy
 if
 (
 webrender
-9
+8
 -
 9
 8
