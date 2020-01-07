@@ -102,6 +102,17 @@ i
 }
 )
 (
+typeof
+self
+!
+=
+=
+'
+undefined
+'
+?
+self
+:
 this
 function
 (
