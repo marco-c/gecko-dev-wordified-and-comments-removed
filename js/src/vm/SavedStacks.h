@@ -402,12 +402,10 @@ adoptAsyncStack
 JSContext
 *
 cx
-HandleSavedFrame
-asyncStack
-HandleString
-asyncCause
 MutableHandleSavedFrame
-adoptedStack
+asyncStack
+HandleAtom
+asyncCause
 const
 Maybe
 <
