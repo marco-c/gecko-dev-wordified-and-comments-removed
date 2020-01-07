@@ -536,6 +536,16 @@ webgl
 -
 reftest
 -
+test
+-
+verify
+-
+test
+-
+verify
+-
+wpt
+-
 xpcshell
 linux
 -
@@ -671,6 +681,10 @@ mochitest
 webgl
 -
 reftest
+-
+test
+-
+verify
 windows
 -
 qr
