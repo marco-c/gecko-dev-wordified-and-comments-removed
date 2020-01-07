@@ -3431,7 +3431,7 @@ t
 >
 Result
 <
-Length
+Self
 ParseError
 <
 '
@@ -3489,7 +3489,7 @@ AllowQuirks
 >
 Result
 <
-Length
+Self
 ParseError
 <
 '
