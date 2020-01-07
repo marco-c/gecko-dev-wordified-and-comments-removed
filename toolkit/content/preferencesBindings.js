@@ -1548,6 +1548,13 @@ window
 opener
 &
 &
+window
+.
+opener
+.
+Preferences
+&
+&
 Services
 .
 scriptSecurityManager
