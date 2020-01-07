@@ -73,6 +73,20 @@ notifications
 "
 )
 ;
+const
+{
+history
+}
+=
+require
+(
+"
+.
+/
+history
+"
+)
+;
 exports
 .
 reducers
@@ -83,5 +97,6 @@ messages
 prefs
 ui
 notifications
+history
 }
 ;

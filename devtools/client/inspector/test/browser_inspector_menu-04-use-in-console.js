@@ -343,9 +343,13 @@ node
 "
 )
 ;
-jsterm
+hud
 .
-clearHistory
+ui
+.
+consoleOutput
+.
+dispatchClearHistory
 (
 )
 ;

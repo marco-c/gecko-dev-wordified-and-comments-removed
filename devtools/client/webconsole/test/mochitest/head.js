@@ -356,9 +356,11 @@ clearJstermHistory
 await
 hud
 .
-jsterm
+ui
 .
-clearHistory
+consoleOutput
+.
+dispatchClearHistory
 (
 )
 ;

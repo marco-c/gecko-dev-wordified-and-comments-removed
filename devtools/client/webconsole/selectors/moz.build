@@ -69,6 +69,11 @@ filters
 js
 '
 '
+history
+.
+js
+'
+'
 messages
 .
 js
