@@ -93,13 +93,6 @@ MOZ_PLACES
 #
 include
 "
-mozIAsyncFavicons
-.
-h
-"
-#
-include
-"
 nsIFaviconService
 .
 h
@@ -436,7 +429,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 nsCOMPtr
 <
-mozIAsyncFavicons
+nsIFaviconService
 >
 favicons
 (

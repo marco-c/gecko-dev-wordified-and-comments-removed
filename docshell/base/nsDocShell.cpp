@@ -1472,13 +1472,6 @@ mozIPlacesPendingOperation
 h
 "
 #
-include
-"
-mozIAsyncFavicons
-.
-h
-"
-#
 endif
 #
 if
@@ -36215,7 +36208,7 @@ ifdef
 MOZ_PLACES
 nsCOMPtr
 <
-mozIAsyncFavicons
+nsIFaviconService
 >
 favSvc
 =

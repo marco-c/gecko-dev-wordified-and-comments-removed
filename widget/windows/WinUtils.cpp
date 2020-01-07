@@ -226,7 +226,7 @@ MOZ_PLACES
 #
 include
 "
-mozIAsyncFavicons
+nsIFaviconService
 .
 h
 "
@@ -6957,7 +6957,7 @@ ifdef
 MOZ_PLACES
 nsCOMPtr
 <
-mozIAsyncFavicons
+nsIFaviconService
 >
 favIconSvc
 (
