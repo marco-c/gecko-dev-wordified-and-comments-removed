@@ -38723,15 +38723,9 @@ StyleUserInput
 None
 =
 0
-Enabled
-=
-1
-Disabled
-=
-2
 Auto
 =
-3
+1
 }
 #
 [
