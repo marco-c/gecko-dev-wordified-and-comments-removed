@@ -104,6 +104,14 @@ nsStringFwd
 .
 h
 "
+#
+ifdef
+SetProp
+#
+undef
+SetProp
+#
+endif
 class
 nsAtom
 ;

@@ -131,16 +131,6 @@ ini
 '
 ]
 EXPORTS
-+
-=
-[
-'
-nsIEditRules
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 +

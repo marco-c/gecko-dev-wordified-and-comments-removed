@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEditRules
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -81,9 +90,6 @@ class
 nsIDocumentEncoder
 ;
 class
-nsIEditRules
-;
-class
 nsIOutputStream
 ;
 class
@@ -100,9 +106,6 @@ AutoEditInitRulesTrigger
 ;
 class
 HTMLEditRules
-;
-class
-TextEditRules
 ;
 namespace
 dom
@@ -717,9 +720,9 @@ aCharacterSet
 ;
 protected
 :
-nsCOMPtr
+RefPtr
 <
-nsIEditRules
+TextEditRules
 >
 mRules
 ;
