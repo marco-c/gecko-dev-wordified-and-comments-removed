@@ -171,15 +171,6 @@ raises
 DOMException
 )
 ;
-nsIDOMAttr
-item
-(
-in
-unsigned
-long
-index
-)
-;
 readonly
 attribute
 unsigned
