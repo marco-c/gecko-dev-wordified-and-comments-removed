@@ -10956,10 +10956,6 @@ FloatRegister
 tmp
 =
 output
-.
-asDouble
-(
-)
 ;
 if
 (
