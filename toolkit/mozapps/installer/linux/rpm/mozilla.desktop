@@ -95,9 +95,7 @@ Type
 Application
 StartupWMClass
 =
-MOZ_APP_NAME
--
-bin
+MOZ_APP_REMOTINGNAME
 MimeType
 =
 text
