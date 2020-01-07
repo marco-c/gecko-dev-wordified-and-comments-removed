@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsSubstring
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
