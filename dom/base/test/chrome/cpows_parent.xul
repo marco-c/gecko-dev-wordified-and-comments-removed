@@ -1818,16 +1818,6 @@ Components
 .
 interfaces
 .
-nsIDOMAttr
-)
-;
-testNoInterface
-(
-savedElement
-Components
-.
-interfaces
-.
 nsIClassInfo
 )
 ;
