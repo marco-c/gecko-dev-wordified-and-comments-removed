@@ -1986,6 +1986,17 @@ aContent
 )
 ;
 static
+nsIPresShell
+*
+GetPresShellForContent
+(
+const
+nsIContent
+*
+aContent
+)
+;
+static
 bool
 CanLoadImage
 (
