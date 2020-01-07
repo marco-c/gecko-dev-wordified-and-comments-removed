@@ -1703,11 +1703,15 @@ content
 loadURIWithFlags
 (
 pageName
+{
+flags
+:
 Ci
 .
 nsIWebNavigation
 .
 LOAD_FLAGS_BYPASS_CACHE
+}
 )
 ;
 }

@@ -118,10 +118,9 @@ browser
 loadURIWithFlags
 (
 url
+{
 flags
-null
-null
-null
+}
 )
 ;
 }
