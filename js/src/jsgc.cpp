@@ -38864,6 +38864,15 @@ targetProto
 isNewGroupUnknown
 (
 )
+&
+&
+!
+group
+-
+>
+unknownProperties
+(
+)
 )
 group
 -
