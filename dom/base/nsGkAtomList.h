@@ -6694,6 +6694,13 @@ onmessageerror
 )
 GK_ATOM
 (
+onmidimessage
+"
+onmidimessage
+"
+)
+GK_ATOM
+(
 onmousedown
 "
 onmousedown
