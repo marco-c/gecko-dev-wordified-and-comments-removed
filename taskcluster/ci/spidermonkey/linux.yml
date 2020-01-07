@@ -788,6 +788,9 @@ SM
 (
 tsan
 )
+tier
+:
+3
 platform
 :
 linux64
