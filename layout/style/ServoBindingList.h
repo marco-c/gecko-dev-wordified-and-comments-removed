@@ -1934,6 +1934,15 @@ loader
 )
 SERVO_BINDING_FUNC
 (
+Servo_DeclarationBlock_SetPropertyToAnimationValue
+bool
+RawServoDeclarationBlockBorrowed
+declarations
+RawServoAnimationValueBorrowed
+animation_value
+)
+SERVO_BINDING_FUNC
+(
 Servo_DeclarationBlock_SetPropertyById
 bool
 RawServoDeclarationBlockBorrowed
