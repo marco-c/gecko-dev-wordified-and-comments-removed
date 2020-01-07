@@ -207,6 +207,8 @@ Any
 Optional
     
 Required
+    
+Exclusive
 )
 import
 copy
@@ -2368,10 +2370,16 @@ product
 :
 basestring
     
+Exclusive
+(
 Optional
 (
 '
 when
+'
+)
+'
+optimization
 '
 )
 :
@@ -2394,6 +2402,23 @@ basestring
     
 }
 )
+    
+Exclusive
+(
+Optional
+(
+'
+schedules
+-
+component
+'
+)
+'
+optimization
+'
+)
+:
+basestring
     
 Optional
 (
@@ -8032,12 +8057,22 @@ platform
         
 suite
 =
+test
+.
+get
+(
+'
+schedules
+-
+component
+'
 attributes
 [
 '
 unittest_suite
 '
 ]
+)
         
 if
 suite
