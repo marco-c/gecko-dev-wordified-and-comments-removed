@@ -89,6 +89,12 @@ already_AddRefed
 ServoCssRules
 >
 aRules
+StyleSheet
+*
+aSheet
+Rule
+*
+aParentRule
 uint32_t
 aLineNumber
 uint32_t
@@ -148,13 +154,9 @@ override
 ;
 #
 endif
-virtual
 void
-SetStyleSheet
+DropSheetReference
 (
-StyleSheet
-*
-aSheet
 )
 override
 ;

@@ -67,6 +67,15 @@ protected
 :
 BindingStyleRule
 (
+StyleSheet
+*
+aSheet
+css
+:
+:
+Rule
+*
+aParentRule
 uint32_t
 aLineNumber
 uint32_t
@@ -78,6 +87,8 @@ css
 :
 Rule
 (
+aSheet
+aParentRule
 aLineNumber
 aColumnNumber
 )

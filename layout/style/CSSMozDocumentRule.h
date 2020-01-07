@@ -60,6 +60,15 @@ RefPtr
 RawServoMozDocumentRule
 >
 aRawRule
+StyleSheet
+*
+aSheet
+css
+:
+:
+Rule
+*
+aParentRule
 uint32_t
 aLine
 uint32_t
