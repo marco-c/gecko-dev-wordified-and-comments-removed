@@ -10,14 +10,6 @@ new
 PaymentsStore
 (
 {
-changesPrevented
-:
-false
-completionState
-:
-"
-initial
-"
 orderDetailsShowing
 :
 false
