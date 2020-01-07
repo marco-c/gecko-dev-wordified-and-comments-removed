@@ -66,7 +66,7 @@ sab
 new
 SharedArrayBuffer
 (
-1024
+4
 )
 ;
 var
@@ -163,6 +163,7 @@ getReport
 =
 null
 )
+{
 262
 .
 agent
@@ -172,6 +173,7 @@ sleep
 100
 )
 ;
+}
 return
 r
 ;

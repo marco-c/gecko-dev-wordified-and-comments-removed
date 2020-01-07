@@ -1,6 +1,5 @@
-let
-f
-=
+assertNativeFunction
+(
 function
 (
 )
@@ -9,12 +8,9 @@ function
 .
 bind
 (
-null
+{
+}
 )
-;
-assertNativeFunction
-(
-f
 )
 ;
 reportCompare

@@ -1,0 +1,12 @@
+class
+aw
+\
+u0061it
+{
+}
+reportCompare
+(
+0
+0
+)
+;

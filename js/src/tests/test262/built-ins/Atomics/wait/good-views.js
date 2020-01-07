@@ -278,6 +278,7 @@ leaving
 )
 ;
 )
+;
 assert
 .
 sameValue
@@ -326,6 +327,7 @@ getReport
 done
 "
 )
+{
 assert
 .
 sameValue
@@ -339,6 +341,7 @@ equal
 "
 )
 ;
+}
 function
 getReport
 (
@@ -364,6 +367,7 @@ getReport
 =
 null
 )
+{
 262
 .
 agent
@@ -373,6 +377,7 @@ sleep
 100
 )
 ;
+}
 return
 r
 ;

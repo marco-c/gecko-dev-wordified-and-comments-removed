@@ -84,11 +84,6 @@ isInteger
 (
 value
 )
-|
-|
-value
->
-9007199254740991
 )
 {
 assert

@@ -36,11 +36,6 @@ false
 false
 ]
 ;
-function
-testIsLockFree
-(
-)
-{
 var
 saved
 =
@@ -107,6 +102,7 @@ a
 boolean
 '
 )
+{
 assert
 .
 sameValue
@@ -115,7 +111,9 @@ v
 a
 )
 ;
+}
 else
+{
 saved
 [
 sizes
@@ -126,6 +124,7 @@ i
 =
 v
 ;
+}
 }
 assert
 .
@@ -287,11 +286,6 @@ isLockFree
 12
 )
 false
-)
-;
-}
-testIsLockFree
-(
 )
 ;
 reportCompare

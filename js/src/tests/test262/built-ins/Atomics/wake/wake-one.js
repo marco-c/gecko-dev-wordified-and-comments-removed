@@ -161,7 +161,7 @@ agent
 .
 sleep
 (
-500
+50
 )
 ;
 assert
@@ -200,6 +200,7 @@ i
 +
 +
 )
+{
 rs
 .
 push
@@ -209,6 +210,7 @@ getReport
 )
 )
 ;
+}
 rs
 .
 sort
@@ -230,6 +232,7 @@ i
 +
 +
 )
+{
 assert
 .
 sameValue
@@ -243,6 +246,7 @@ ok
 "
 )
 ;
+}
 for
 (
 var
@@ -258,6 +262,7 @@ i
 +
 +
 )
+{
 assert
 .
 sameValue
@@ -273,6 +278,7 @@ out
 "
 )
 ;
+}
 function
 getReport
 (
@@ -298,15 +304,17 @@ getReport
 =
 null
 )
+{
 262
 .
 agent
 .
 sleep
 (
-100
+10
 )
 ;
+}
 return
 r
 ;
@@ -350,7 +358,7 @@ agent
 .
 sleep
 (
-100
+10
 )
 ;
 i

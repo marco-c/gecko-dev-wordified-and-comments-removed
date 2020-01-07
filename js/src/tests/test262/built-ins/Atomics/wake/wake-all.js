@@ -175,7 +175,7 @@ ia
 DUMMY
 }
 0
-1000
+10
 )
 )
 ;
@@ -234,7 +234,7 @@ agent
 .
 sleep
 (
-500
+50
 )
 ;
 assert
@@ -274,6 +274,7 @@ i
 +
 +
 )
+{
 rs
 .
 push
@@ -283,6 +284,7 @@ getReport
 )
 )
 ;
+}
 rs
 .
 sort
@@ -304,6 +306,7 @@ i
 +
 +
 )
+{
 assert
 .
 sameValue
@@ -318,6 +321,7 @@ ok
 "
 )
 ;
+}
 assert
 .
 sameValue
@@ -359,15 +363,17 @@ getReport
 =
 null
 )
+{
 262
 .
 agent
 .
 sleep
 (
-100
+10
 )
 ;
+}
 return
 r
 ;
@@ -411,7 +417,7 @@ agent
 .
 sleep
 (
-100
+10
 )
 ;
 i

@@ -1,5 +1,5 @@
 var
-sab
+buffer
 =
 new
 SharedArrayBuffer
@@ -13,7 +13,7 @@ int32Array
 new
 Int32Array
 (
-sab
+buffer
 )
 ;
 assert

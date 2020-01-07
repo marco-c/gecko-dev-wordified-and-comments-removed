@@ -180,7 +180,7 @@ agent
 .
 sleep
 (
-500
+50
 )
 ;
 for
@@ -216,7 +216,7 @@ agent
 .
 sleep
 (
-500
+50
 )
 ;
 }
@@ -291,15 +291,17 @@ getReport
 =
 null
 )
+{
 262
 .
 agent
 .
 sleep
 (
-100
+10
 )
 ;
+}
 return
 r
 ;
@@ -343,7 +345,7 @@ agent
 .
 sleep
 (
-100
+10
 )
 ;
 i

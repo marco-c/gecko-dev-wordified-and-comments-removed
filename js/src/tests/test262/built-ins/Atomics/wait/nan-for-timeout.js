@@ -23,6 +23,7 @@ getReport
 =
 null
 )
+{
 262
 .
 agent
@@ -32,6 +33,7 @@ sleep
 100
 )
 ;
+}
 return
 r
 ;
@@ -131,20 +133,6 @@ agent
 sleep
 (
 500
-)
-;
-assert
-.
-sameValue
-(
-262
-.
-agent
-.
-getReport
-(
-)
-null
 )
 ;
 assert
