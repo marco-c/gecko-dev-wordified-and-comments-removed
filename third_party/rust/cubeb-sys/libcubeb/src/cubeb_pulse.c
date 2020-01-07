@@ -2896,6 +2896,9 @@ cubeb
 ctx
 )
 {
+int
+r
+;
 if
 (
 ctx
@@ -2985,6 +2988,8 @@ ctx
 mainloop
 )
 ;
+r
+=
 WRAP
 (
 pa_context_connect
@@ -3001,6 +3006,11 @@ NULL
 ;
 if
 (
+r
+<
+0
+|
+|
 wait_until_context_ready
 (
 ctx
