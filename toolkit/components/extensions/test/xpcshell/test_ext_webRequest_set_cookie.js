@@ -1160,11 +1160,6 @@ ExtensionTestUtils
 loadContentPage
 (
 url
-{
-remote
-:
-true
-}
 )
 ;
 extension
