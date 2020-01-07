@@ -2182,6 +2182,11 @@ mAnimationManager
 ;
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
+mTransitionManager
+)
+;
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
 mDocument
 )
 ;
@@ -2213,6 +2218,11 @@ nsPresContext
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mAnimationManager
+)
+;
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
+mTransitionManager
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
