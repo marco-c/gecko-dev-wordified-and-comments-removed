@@ -4676,6 +4676,7 @@ nsCString
 &
 aTables
 )
+const
 {
 aTables
 =

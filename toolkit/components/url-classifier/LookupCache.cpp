@@ -2833,6 +2833,7 @@ LookupCacheV2
 IsEmpty
 (
 )
+const
 {
 bool
 isEmpty
@@ -3363,6 +3364,7 @@ LookupCacheV2
 SizeOfPrefixSet
 (
 )
+const
 {
 return
 mPrefixSet

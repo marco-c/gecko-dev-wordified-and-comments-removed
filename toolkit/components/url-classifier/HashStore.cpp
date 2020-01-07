@@ -918,6 +918,7 @@ const
 Prefix
 &
 aPrefix
+const
 CachedFullHashResponse
 &
 aResponse
@@ -1631,6 +1632,7 @@ HashStore
 SanityCheck
 (
 )
+const
 {
 if
 (
@@ -5771,6 +5773,7 @@ HashStore
 AlreadyReadChunkNumbers
 (
 )
+const
 {
 if
 (
@@ -5829,6 +5832,7 @@ HashStore
 AlreadyReadCompletions
 (
 )
+const
 {
 if
 (

@@ -183,6 +183,7 @@ const
 =
 0
 ;
+const
 nsCString
 mTable
 ;
@@ -789,6 +790,7 @@ const
 Prefix
 &
 aPrefix
+const
 CachedFullHashResponse
 &
 aResponse
@@ -975,6 +977,7 @@ nsresult
 SanityCheck
 (
 )
+const
 ;
 nsresult
 CalculateChecksum
@@ -1055,11 +1058,13 @@ bool
 AlreadyReadChunkNumbers
 (
 )
+const
 ;
 bool
 AlreadyReadCompletions
 (
 )
+const
 ;
 struct
 Header
@@ -1093,6 +1098,7 @@ numSubCompletes
 Header
 mHeader
 ;
+const
 nsCString
 mTableName
 ;

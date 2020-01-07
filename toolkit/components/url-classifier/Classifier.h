@@ -140,6 +140,7 @@ nsCString
 &
 aTables
 )
+const
 ;
 nsresult
 Check
@@ -509,6 +510,7 @@ nsACString
 aResult
 )
 ;
+static
 nsCString
 GetProvider
 (

@@ -176,6 +176,7 @@ Clear
 )
 ;
 }
+const
 nsTArray
 <
 TableUpdate
