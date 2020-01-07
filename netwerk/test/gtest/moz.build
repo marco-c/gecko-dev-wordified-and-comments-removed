@@ -133,6 +133,11 @@ TestReadStreamToString
 cpp
 '
 '
+TestServerTimingHeader
+.
+cpp
+'
+'
 TestStandardURL
 .
 cpp
