@@ -492,11 +492,6 @@ aSending
 )
 ;
 void
-StartReceiveStream
-(
-)
-;
-void
 Stop
 (
 )

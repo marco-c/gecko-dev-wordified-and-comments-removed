@@ -178,13 +178,6 @@ h
 #
 include
 "
-MediaEngine
-.
-h
-"
-#
-include
-"
 AudioConduit
 .
 h
@@ -11614,7 +11607,7 @@ stream
 >
 CreateDOMTrack
 (
-kAudioTrack
+333
 MediaSegment
 :
 :
@@ -11643,7 +11636,7 @@ stream
 >
 CreateDOMTrack
 (
-kVideoTrack
+666
 MediaSegment
 :
 :
