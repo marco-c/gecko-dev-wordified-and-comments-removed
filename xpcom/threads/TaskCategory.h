@@ -19,6 +19,7 @@ IdleCallback
 RefreshDriver
 GarbageCollection
 Other
+Performance
 Count
 }
 ;

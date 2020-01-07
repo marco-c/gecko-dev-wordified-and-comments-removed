@@ -1485,6 +1485,16 @@ EnsurePerformanceStorage
 (
 )
 ;
+#
+ifndef
+RELEASE_OR_BETA
+void
+EnsurePerformanceCounter
+(
+)
+;
+#
+endif
 const
 ClientInfo
 &

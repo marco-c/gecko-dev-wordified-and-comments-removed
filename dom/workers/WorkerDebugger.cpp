@@ -1967,6 +1967,12 @@ GetResolvedScriptURI
 (
 )
 ;
+FallibleTArray
+<
+CategoryDispatch
+>
+items
+;
 CategoryDispatch
 item
 =
@@ -1982,12 +1988,6 @@ GetValue
 )
 count
 )
-;
-FallibleTArray
-<
-CategoryDispatch
->
-items
 ;
 if
 (

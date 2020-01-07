@@ -717,7 +717,7 @@ host
 /
 process
 id
-uint16_t
+uint32_t
 pid
 ;
 /
