@@ -1728,6 +1728,13 @@ wpt_baselinecoverage
 html
 "
 {
+"
+timeout
+"
+:
+"
+long
+"
 }
 ]
 ]
@@ -4946,7 +4953,7 @@ html
 :
 [
 "
-8deca29e7b82fc7ef4c11d2a16e8611dfb8cf487
+7bb4029a6718dbdb06b33fb2d86aef3e7344e20e
 "
 "
 testharness
