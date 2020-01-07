@@ -2269,6 +2269,15 @@ release_enable_emefree
 =
 release_enable_emefree
     
+parameters
+[
+'
+optimize_target_tasks
+'
+]
+=
+True
+    
 partner_config
 =
 input
