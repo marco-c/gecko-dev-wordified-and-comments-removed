@@ -200,6 +200,10 @@ X
 -
 bit
 Linux
+64
+-
+bit
+Windows
 and
 Android
 .
