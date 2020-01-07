@@ -203,8 +203,6 @@ let
 list
 =
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -322,8 +320,6 @@ cmdEvent
 list
 =
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -447,8 +443,6 @@ anotherItem
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -494,8 +488,6 @@ let
 list
 =
 await
-TestUtils
-.
 waitForCondition
 (
 (

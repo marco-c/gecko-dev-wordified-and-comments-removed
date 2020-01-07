@@ -584,8 +584,6 @@ click
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -700,8 +698,6 @@ click
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -761,8 +757,6 @@ click
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -890,8 +884,6 @@ click
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -973,8 +965,6 @@ click
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -1120,8 +1110,6 @@ click
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -1150,8 +1138,6 @@ click
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
@@ -1368,8 +1354,6 @@ click
 )
 ;
 await
-TestUtils
-.
 waitForCondition
 (
 (
