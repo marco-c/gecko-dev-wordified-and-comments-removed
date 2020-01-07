@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIDOMParser
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
@@ -96,8 +89,6 @@ DOMParser
 final
 :
 public
-nsIDOMParser
-public
 nsSupportsWeakReference
 public
 nsWrapperCache
@@ -121,12 +112,10 @@ DOMParser
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMParser
-nsIDOMParser
 )
-NS_DECL_NSIDOMPARSER
 static
 already_AddRefed
 <

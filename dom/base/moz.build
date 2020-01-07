@@ -152,11 +152,6 @@ nsIDocumentEncoder
 idl
 '
 '
-nsIDOMParser
-.
-idl
-'
-'
 nsIDOMRequestService
 .
 idl
