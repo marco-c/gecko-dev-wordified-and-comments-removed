@@ -89,12 +89,6 @@ ftl
 '
 browser
 /
-locales
-/
-en
--
-US
-/
 browser
 /
 preferences
@@ -187,7 +181,7 @@ browser
 /
 preferences
 /
-containers
+preferences
 .
 dtd
 '
@@ -473,12 +467,6 @@ ftl
         
 '
 browser
-/
-locales
-/
-en
--
-US
 /
 browser
 /

@@ -87,12 +87,6 @@ ftl
 '
 browser
 /
-locales
-/
-en
--
-US
-/
 browser
 /
 preferences
