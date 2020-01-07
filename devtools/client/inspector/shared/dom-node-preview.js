@@ -29,8 +29,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -1384,7 +1382,6 @@ onHighlighterLocked
 :
 function
 (
-e
 domNodePreview
 )
 {

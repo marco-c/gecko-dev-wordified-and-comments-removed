@@ -5239,7 +5239,6 @@ _onHoverShapePoint
 :
 function
 (
-event
 point
 )
 {
