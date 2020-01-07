@@ -42,7 +42,11 @@ toSource
 called
 on
 incompatible
-Number
+object
+got
+the
+number
+1
 "
 )
 ;
