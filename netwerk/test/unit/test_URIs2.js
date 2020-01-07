@@ -4585,9 +4585,6 @@ propertiesToCheck
 scheme
 "
 "
-username
-"
-"
 password
 "
 "

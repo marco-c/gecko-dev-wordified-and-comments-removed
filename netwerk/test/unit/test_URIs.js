@@ -3789,9 +3789,6 @@ spec
 scheme
 "
 "
-username
-"
-"
 password
 "
 "
