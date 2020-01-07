@@ -138,6 +138,9 @@ WorkerGlobalScope
 struct
 WorkerOptions
 ;
+class
+WorkerThread
+;
 }
 }
 BEGIN_WORKERS_NAMESPACE
@@ -152,9 +155,6 @@ WorkerEventTarget
 ;
 class
 WorkerRunnable
-;
-class
-WorkerThread
 ;
 class
 SharedMutex
@@ -2257,6 +2257,12 @@ MemoryReporter
 ;
 friend
 class
+mozilla
+:
+:
+dom
+:
+:
 WorkerThread
 ;
 enum

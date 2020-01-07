@@ -80,9 +80,10 @@ mozilla
 namespace
 dom
 {
+using
 namespace
 workers
-{
+;
 using
 namespace
 mozilla
@@ -1270,7 +1271,6 @@ AfterProcessNextEvent
 return
 NS_OK
 ;
-}
 }
 }
 }
