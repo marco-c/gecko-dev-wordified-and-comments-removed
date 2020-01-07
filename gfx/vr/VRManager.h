@@ -71,6 +71,9 @@ class
 VRDisplayHost
 ;
 class
+VRSystemManagerPuppet
+;
+class
 VRManager
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -226,6 +229,12 @@ aControllerInfo
 ;
 void
 CreateVRTestSystem
+(
+)
+;
+VRSystemManagerPuppet
+*
+GetPuppetManager
 (
 )
 ;
@@ -390,8 +399,11 @@ mLastDisplayEnumerationTime
 TimeStamp
 mLastActiveTime
 ;
-bool
-mVRTestSystemCreated
+RefPtr
+<
+VRSystemManagerPuppet
+>
+mPuppetManager
 ;
 bool
 mVRDisplaysRequested
