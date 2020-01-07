@@ -233,7 +233,7 @@ startReloadTest
 aToolbox
 )
 {
-getFrameScript
+loadFrameScriptUtils
 (
 )
 ;

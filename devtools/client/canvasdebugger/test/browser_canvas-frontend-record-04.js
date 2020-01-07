@@ -28,7 +28,7 @@ panel
 .
 panelWin
 ;
-loadFrameScripts
+loadFrameScriptUtils
 (
 )
 ;

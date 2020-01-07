@@ -53,7 +53,7 @@ node
 )
 ;
 yield
-loadFrameScripts
+loadFrameScriptUtils
 (
 )
 ;

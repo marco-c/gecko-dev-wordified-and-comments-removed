@@ -16,7 +16,7 @@ initCanvasDebuggerBackend
 NO_CANVAS_URL
 )
 ;
-loadFrameScripts
+loadFrameScriptUtils
 (
 )
 ;

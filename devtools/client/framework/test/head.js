@@ -702,10 +702,7 @@ url
 }
 )
 ;
-let
-mm
-=
-getFrameScript
+loadFrameScriptUtils
 (
 )
 ;
@@ -753,7 +750,6 @@ null
 return
 evalInDebuggee
 (
-mm
 command
 )
 ;

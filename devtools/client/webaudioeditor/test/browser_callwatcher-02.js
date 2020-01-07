@@ -44,7 +44,7 @@ gAudioNodes
 =
 panelWin
 ;
-loadFrameScripts
+loadFrameScriptUtils
 (
 )
 ;
