@@ -2142,6 +2142,8 @@ window
 title
 fonts
 -
+langgroup
+-
 header
 fonts
 -
@@ -3004,7 +3006,7 @@ select
 -
 language
 .
-label
+placeholder
 languages
 -
 customize
