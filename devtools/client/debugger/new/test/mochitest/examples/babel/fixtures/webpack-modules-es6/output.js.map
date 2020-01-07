@@ -18,7 +18,7 @@ webpack
 webpack
 /
 bootstrap
-40e34282a100f811763e
+ce5a3febd2184465bc3b
 "
 "
 webpack
@@ -362,6 +362,9 @@ aNamespace2
 e
 "
 "
+example
+"
+"
 Promise
 "
 "
@@ -514,6 +517,7 @@ AACA
 AAEA
 ;
 AACA
+;
 ;
 ;
 ;
@@ -709,7 +713,14 @@ CAAE
 AACf
 ;
 ;
-AAED
+AAEM
+SAASC
+OAAT
+GAAkB
+CAAE
+;
+;
+AAE3B
 ;
 AACAC
 QAAQC
@@ -722,7 +733,7 @@ MAAM
 AAC3BC
 SAAOC
 iBAAP
-GAA2BZ
+GAA2Bb
 IAA3B
 ;
 AACD
@@ -735,7 +746,9 @@ E
 ;
 ;
 ;
-AC7CA
+AC
+/
+CA
 yDAAe
 WAAf
 E
@@ -747,7 +760,7 @@ E
 ;
 ;
 ACAO
-MAAMa
+MAAMc
 SAAS
 SAAf
 C
@@ -806,7 +819,7 @@ E
 ;
 ;
 ACAO
-MAAMR
+MAAMT
 UAAU
 UAAhB
 C
@@ -820,7 +833,7 @@ C
 ;
 ;
 ACAA
-MAAMS
+MAAMU
 WAAW
 cAAjB
 C
@@ -914,7 +927,7 @@ C
 ;
 ;
 ACDQ
-SAASd
+SAASf
 YAAT
 GAAwB
 CAAE
@@ -1587,7 +1600,7 @@ n
 webpack
 /
 bootstrap
-40e34282a100f811763e
+ce5a3febd2184465bc3b
 "
 "
 import
@@ -2051,6 +2064,16 @@ e
 }
 \
 n
+}
+\
+n
+\
+nexport
+function
+example
+(
+)
+{
 }
 \
 n

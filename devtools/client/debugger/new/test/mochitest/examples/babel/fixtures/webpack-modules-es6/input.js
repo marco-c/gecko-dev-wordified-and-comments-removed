@@ -329,6 +329,13 @@ e
 {
 }
 }
+export
+function
+example
+(
+)
+{
+}
 Promise
 .
 resolve
