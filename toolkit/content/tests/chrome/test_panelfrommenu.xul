@@ -490,7 +490,7 @@ button
 type
 =
 "
-panel
+menu
 "
 label
 =
@@ -563,7 +563,7 @@ tbutton
 type
 =
 "
-panel
+menu
 "
 label
 =
