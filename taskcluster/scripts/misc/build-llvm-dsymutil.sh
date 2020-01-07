@@ -122,12 +122,6 @@ ninja
 llvm
 -
 dsymutil
-strip
-bin
-/
-llvm
--
-dsymutil
 tar
 -
 -
