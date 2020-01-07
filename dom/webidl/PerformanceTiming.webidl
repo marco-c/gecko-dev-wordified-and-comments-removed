@@ -401,7 +401,13 @@ long
 long
 timeToDOMContentFlushed
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;

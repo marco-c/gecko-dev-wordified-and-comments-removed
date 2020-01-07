@@ -180,7 +180,13 @@ attribute
 DOMHighResTimeStamp
 duration
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;

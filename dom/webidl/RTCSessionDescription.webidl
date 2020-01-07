@@ -213,7 +213,13 @@ attribute
 DOMString
 sdp
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;

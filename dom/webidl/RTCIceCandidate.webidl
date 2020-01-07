@@ -195,7 +195,13 @@ short
 ?
 sdpMLineIndex
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;

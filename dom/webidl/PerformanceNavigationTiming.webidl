@@ -218,7 +218,13 @@ unsigned
 short
 redirectCount
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;

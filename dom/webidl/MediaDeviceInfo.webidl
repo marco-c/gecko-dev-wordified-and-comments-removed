@@ -167,7 +167,13 @@ attribute
 DOMString
 groupId
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;

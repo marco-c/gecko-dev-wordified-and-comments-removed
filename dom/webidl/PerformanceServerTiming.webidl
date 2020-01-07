@@ -166,7 +166,13 @@ attribute
 DOMString
 description
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;

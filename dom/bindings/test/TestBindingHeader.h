@@ -7130,7 +7130,7 @@ PutForwardsAttr3
 )
 ;
 void
-GetJsonifierShouldSkipThis
+GetToJSONShouldSkipThis
 (
 JSContext
 *
@@ -7147,7 +7147,7 @@ Value
 )
 ;
 void
-SetJsonifierShouldSkipThis
+SetToJSONShouldSkipThis
 (
 JSContext
 *
@@ -7166,12 +7166,12 @@ Value
 ;
 TestParentInterface
 *
-JsonifierShouldSkipThis2
+ToJSONShouldSkipThis2
 (
 )
 ;
 void
-SetJsonifierShouldSkipThis2
+SetToJSONShouldSkipThis2
 (
 TestParentInterface
 &
@@ -7179,12 +7179,12 @@ TestParentInterface
 ;
 TestCallbackInterface
 *
-JsonifierShouldSkipThis3
+ToJSONShouldSkipThis3
 (
 )
 ;
 void
-SetJsonifierShouldSkipThis3
+SetToJSONShouldSkipThis3
 (
 TestCallbackInterface
 &

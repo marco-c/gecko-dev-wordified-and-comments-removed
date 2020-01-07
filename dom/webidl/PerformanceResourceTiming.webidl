@@ -319,7 +319,13 @@ PerformanceServerTiming
 >
 serverTiming
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;

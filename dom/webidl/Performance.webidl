@@ -209,7 +209,13 @@ attribute
 PerformanceNavigation
 navigation
 ;
-jsonifier
+[
+Default
+]
+object
+toJSON
+(
+)
 ;
 }
 ;
