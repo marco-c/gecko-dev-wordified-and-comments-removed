@@ -2305,6 +2305,9 @@ aSelection
 SetInterlinePosition
 (
 true
+IgnoreErrors
+(
+)
 )
 ;
 EditorRawDOMPoint
@@ -2418,6 +2421,9 @@ aSelection
 SetInterlinePosition
 (
 true
+IgnoreErrors
+(
+)
 )
 ;
 EditorRawDOMPoint
@@ -4990,6 +4996,9 @@ selection
 SetInterlinePosition
 (
 true
+IgnoreErrors
+(
+)
 )
 ;
 }
