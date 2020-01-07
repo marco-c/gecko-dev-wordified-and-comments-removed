@@ -69,4 +69,17 @@ foo
 .
 js
 '
+'
+inner
+/
+locales
+/
+en
+-
+US
+/
+bar
+.
+ini
+'
 ]
