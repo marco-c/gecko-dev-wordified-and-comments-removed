@@ -124,11 +124,6 @@ nsIDOMXULCommandDispatcher
 idl
 '
 '
-nsIDOMXULCommandEvent
-.
-idl
-'
-'
 nsIDOMXULContainerElement
 .
 idl

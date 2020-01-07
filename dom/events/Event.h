@@ -155,6 +155,9 @@ TimeEvent
 class
 WantsPopupControlCheck
 ;
+class
+XULCommandEvent
+;
 #
 define
 GENERATED_EVENT
@@ -448,6 +451,17 @@ virtual
 DragEvent
 *
 AsDragEvent
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+XULCommandEvent
+*
+AsXULCommandEvent
 (
 )
 {
