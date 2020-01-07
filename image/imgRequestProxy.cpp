@@ -1181,7 +1181,7 @@ mTabGroup
 ;
 mEventTarget
 =
-mTabGroup
+docGroup
 -
 >
 EventTargetFor
