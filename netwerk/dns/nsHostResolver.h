@@ -921,6 +921,17 @@ resolver
 )
 ;
 void
+SetCacheLimits
+(
+uint32_t
+maxCacheEntries
+uint32_t
+defaultCacheEntryLifetime
+uint32_t
+defaultGracePeriod
+)
+;
+void
 Shutdown
 (
 )
