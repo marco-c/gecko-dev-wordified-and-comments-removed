@@ -180,6 +180,12 @@ SPSetTestPluginEnabledState
 "
 SPCleanUpSTSData
 "
+"
+SPRequestDumpCoverageCounters
+"
+"
+SPRequestResetCoverageCounters
+"
 ]
 ;
 this
@@ -224,12 +230,6 @@ SPUnloadExtension
 "
 "
 SPExtensionMessage
-"
-"
-SPRequestDumpCoverageCounters
-"
-"
-SPRequestResetCoverageCounters
 "
 ]
 ;
