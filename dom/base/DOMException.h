@@ -280,6 +280,17 @@ aRetVal
 )
 ;
 }
+void
+GetFilename
+(
+JSContext
+*
+aCx
+nsAString
+&
+aFilename
+)
+;
 uint32_t
 LineNumber
 (
