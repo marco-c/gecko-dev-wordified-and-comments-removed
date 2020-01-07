@@ -46,8 +46,9 @@ AudioWorkletGlobalScope
 AudioWorkletGlobalScope
 (
 )
-{
-}
+=
+default
+;
 bool
 AudioWorkletGlobalScope
 :

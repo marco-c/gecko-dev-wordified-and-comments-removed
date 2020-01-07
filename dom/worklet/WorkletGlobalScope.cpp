@@ -103,8 +103,9 @@ WorkletGlobalScope
 WorkletGlobalScope
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 WorkletGlobalScope
