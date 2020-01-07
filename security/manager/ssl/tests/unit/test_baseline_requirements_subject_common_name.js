@@ -84,6 +84,7 @@ VALIDATION_TIME
 =
 1472083200
 ;
+return
 checkCertErrorGenericAtTime
 (
 gCertDB
@@ -91,8 +92,7 @@ cert
 expectedResult
 certificateUsageSSLServer
 VALIDATION_TIME
-{
-}
+false
 "
 example
 .
@@ -101,8 +101,10 @@ com
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -216,6 +218,7 @@ in
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -231,6 +234,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -246,6 +250,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -261,6 +266,7 @@ older
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -280,6 +286,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -299,6 +306,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -359,6 +367,7 @@ in
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -374,6 +383,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -389,6 +399,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -404,6 +415,7 @@ older
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -423,6 +435,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -442,6 +455,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -502,6 +516,7 @@ in
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -517,6 +532,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -532,6 +548,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -547,6 +564,7 @@ older
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -566,6 +584,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -585,6 +604,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -637,6 +657,7 @@ in
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -652,6 +673,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -667,6 +689,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -682,6 +705,7 @@ older
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -701,6 +725,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -720,6 +745,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -804,6 +830,7 @@ in
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -819,6 +846,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -834,6 +862,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -849,6 +878,7 @@ older
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -868,6 +898,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -887,6 +918,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -946,6 +978,7 @@ in
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -961,6 +994,7 @@ recent
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -976,6 +1010,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -991,6 +1026,7 @@ older
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1010,6 +1046,7 @@ recent
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1029,6 +1066,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1088,6 +1126,7 @@ in
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1103,6 +1142,7 @@ recent
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1118,6 +1158,7 @@ old
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1133,6 +1174,7 @@ older
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1152,6 +1194,7 @@ recent
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1171,6 +1214,7 @@ old
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1222,6 +1266,7 @@ in
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1237,6 +1282,7 @@ recent
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1252,6 +1298,7 @@ old
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1267,6 +1314,7 @@ older
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1286,6 +1334,7 @@ recent
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1305,6 +1354,7 @@ old
 SSL_ERROR_BAD_CERT_DOMAIN
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -1326,3 +1376,5 @@ SSL_ERROR_BAD_CERT_DOMAIN
 ;
 }
 }
+)
+;

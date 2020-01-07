@@ -92,6 +92,7 @@ cert
 expectedResult
 )
 {
+return
 checkCertErrorGenericAtTime
 (
 certdb
@@ -102,8 +103,10 @@ VALIDATION_TIME
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -155,6 +158,7 @@ sha1_enforcement_level
 0
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -170,6 +174,7 @@ pre
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -185,6 +190,7 @@ pre
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -216,6 +222,7 @@ sha1_enforcement_level
 1
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -231,6 +238,7 @@ pre
 SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -246,6 +254,7 @@ pre
 SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -277,6 +286,7 @@ sha1_enforcement_level
 2
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -292,6 +302,7 @@ pre
 SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -307,6 +318,7 @@ pre
 SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -371,6 +383,7 @@ root
 sha256Fingerprint
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -386,6 +399,7 @@ pre
 SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -401,6 +415,7 @@ pre
 SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -432,6 +447,7 @@ built_in_root_hash
 )
 ;
 }
+await
 checkEndEntity
 (
 certFromFile
@@ -447,6 +463,7 @@ pre
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -462,6 +479,7 @@ pre
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -526,6 +544,7 @@ root
 sha256Fingerprint
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -541,6 +560,7 @@ pre
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -556,6 +576,7 @@ pre
 SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -587,6 +608,7 @@ built_in_root_hash
 )
 ;
 }
+await
 checkEndEntity
 (
 certFromFile
@@ -602,6 +624,7 @@ pre
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -617,6 +640,7 @@ pre
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -633,3 +657,5 @@ PRErrorCodeSuccess
 )
 ;
 }
+)
+;

@@ -306,8 +306,10 @@ null
 null
 )
 ;
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -384,6 +386,7 @@ VALIDATION_TIME
 =
 1518739200
 ;
+await
 checkCertErrorGenericAtTime
 (
 certDB
@@ -393,8 +396,6 @@ certificateUsageSSLServer
 VALIDATION_TIME
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}

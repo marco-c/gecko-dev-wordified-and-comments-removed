@@ -107,6 +107,7 @@ CA_CERT
 )
 ;
 }
+async
 function
 test_ca_distrust
 (
@@ -115,6 +116,7 @@ cert_to_modify_trust
 isRootCA
 )
 {
+await
 checkCertErrorGeneric
 (
 certdb
@@ -123,6 +125,7 @@ PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -131,6 +134,7 @@ PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -139,6 +143,7 @@ SEC_ERROR_CA_CERT_INVALID
 certificateUsageSSLCA
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -147,6 +152,7 @@ PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -165,6 +171,7 @@ p
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -173,6 +180,7 @@ SEC_ERROR_UNTRUSTED_ISSUER
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -181,6 +189,7 @@ SEC_ERROR_UNTRUSTED_ISSUER
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -189,6 +198,7 @@ SEC_ERROR_CA_CERT_INVALID
 certificateUsageSSLCA
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -197,6 +207,7 @@ SEC_ERROR_UNTRUSTED_ISSUER
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -215,6 +226,7 @@ T
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -227,6 +239,7 @@ PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -239,6 +252,7 @@ PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -247,6 +261,7 @@ SEC_ERROR_CA_CERT_INVALID
 certificateUsageSSLCA
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -259,6 +274,7 @@ PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -281,6 +297,7 @@ C
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -289,6 +306,7 @@ SEC_ERROR_UNTRUSTED_ISSUER
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -297,6 +315,7 @@ PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -305,6 +324,7 @@ SEC_ERROR_CA_CERT_INVALID
 certificateUsageSSLCA
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -313,6 +333,7 @@ PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -330,6 +351,7 @@ C
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -342,6 +364,7 @@ PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -350,6 +373,7 @@ PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -358,6 +382,7 @@ SEC_ERROR_CA_CERT_INVALID
 certificateUsageSSLCA
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -366,6 +391,7 @@ PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -384,6 +410,7 @@ C
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -392,6 +419,7 @@ PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -400,6 +428,7 @@ SEC_ERROR_UNTRUSTED_ISSUER
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -408,6 +437,7 @@ SEC_ERROR_CA_CERT_INVALID
 certificateUsageSSLCA
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -416,6 +446,7 @@ SEC_ERROR_UNTRUSTED_ISSUER
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -433,6 +464,7 @@ C
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -441,6 +473,7 @@ PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -453,6 +486,7 @@ PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -461,6 +495,7 @@ SEC_ERROR_CA_CERT_INVALID
 certificateUsageSSLCA
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -473,6 +508,7 @@ PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -486,8 +522,10 @@ certificateUsageEmailRecipient
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -605,6 +643,7 @@ ca_cert
 int_cert
 )
 ;
+await
 test_ca_distrust
 (
 ee_cert
@@ -618,6 +657,7 @@ ca_cert
 int_cert
 )
 ;
+await
 test_ca_distrust
 (
 ee_cert
@@ -649,6 +689,7 @@ CTu
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -657,6 +698,7 @@ SEC_ERROR_UNKNOWN_ISSUER
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -665,6 +707,7 @@ SEC_ERROR_UNKNOWN_ISSUER
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -673,6 +716,7 @@ SEC_ERROR_UNKNOWN_ISSUER
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -691,6 +735,7 @@ CTu
 "
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -699,6 +744,7 @@ PRErrorCodeSuccess
 certificateUsageSSLServer
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -707,6 +753,7 @@ PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -715,6 +762,7 @@ PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certdb
@@ -724,3 +772,5 @@ certificateUsageEmailRecipient
 )
 ;
 }
+)
+;

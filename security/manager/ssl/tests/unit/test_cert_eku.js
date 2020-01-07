@@ -79,6 +79,7 @@ cert
 expectedResult
 )
 {
+return
 checkCertErrorGeneric
 (
 certdb
@@ -100,6 +101,7 @@ VALIDATION_TIME
 =
 1472083200
 ;
+return
 checkCertErrorGenericAtTime
 (
 certdb
@@ -110,8 +112,10 @@ VALIDATION_TIME
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
@@ -162,6 +166,7 @@ CTu
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -175,6 +180,7 @@ SA
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -190,6 +196,7 @@ CA
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -203,6 +210,7 @@ CA
 SEC_ERROR_INADEQUATE_CERT_TYPE
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -234,6 +242,7 @@ netscape_step_up_policy
 0
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -263,6 +272,7 @@ netscape_step_up_policy
 1
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -292,6 +302,7 @@ netscape_step_up_policy
 2
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -321,6 +332,7 @@ netscape_step_up_policy
 3
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -334,6 +346,7 @@ nsSGC
 SEC_ERROR_INADEQUATE_CERT_TYPE
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -360,6 +373,7 @@ SA
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -388,6 +402,7 @@ CA
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -416,6 +431,7 @@ CA
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -444,6 +460,7 @@ nsSGC
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -529,6 +546,7 @@ accept
 "
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -546,6 +564,7 @@ recent
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -563,6 +582,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -612,6 +632,7 @@ netscape_step_up_policy
 1
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -629,6 +650,7 @@ recent
 SEC_ERROR_INADEQUATE_CERT_TYPE
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -646,6 +668,7 @@ old
 PRErrorCodeSuccess
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -695,6 +718,7 @@ netscape_step_up_policy
 2
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -712,6 +736,7 @@ recent
 SEC_ERROR_INADEQUATE_CERT_TYPE
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -729,6 +754,7 @@ old
 SEC_ERROR_INADEQUATE_CERT_TYPE
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -775,6 +801,7 @@ netscape_step_up_policy
 3
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -792,6 +819,7 @@ recent
 SEC_ERROR_INADEQUATE_CERT_TYPE
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -809,6 +837,7 @@ old
 SEC_ERROR_INADEQUATE_CERT_TYPE
 )
 ;
+await
 checkCertOn25August2016
 (
 certFromFile
@@ -839,6 +868,7 @@ OCSP
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -857,3 +887,5 @@ PRErrorCodeSuccess
 )
 ;
 }
+)
+;

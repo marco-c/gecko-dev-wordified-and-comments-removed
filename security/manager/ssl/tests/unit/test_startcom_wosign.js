@@ -92,6 +92,7 @@ VALIDATION_TIME
 =
 1477958400
 ;
+return
 checkCertErrorGenericAtTime
 (
 certdb
@@ -102,6 +103,13 @@ VALIDATION_TIME
 )
 ;
 }
+add_task
+(
+async
+function
+(
+)
+{
 loadCertWithTrust
 (
 "
@@ -121,6 +129,7 @@ StartComCA
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -136,6 +145,7 @@ cutoff
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -160,6 +170,7 @@ WoSignCA
 "
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -175,6 +186,7 @@ cutoff
 PRErrorCodeSuccess
 )
 ;
+await
 checkEndEntity
 (
 certFromFile
@@ -188,5 +200,8 @@ cutoff
 "
 )
 SEC_ERROR_REVOKED_CERTIFICATE
+)
+;
+}
 )
 ;

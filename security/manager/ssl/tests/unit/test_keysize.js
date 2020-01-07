@@ -189,6 +189,7 @@ eeCert
 issuerOrganization
 )
 ;
+return
 checkCertErrorGeneric
 (
 certdb
@@ -198,6 +199,7 @@ certificateUsageSSLServer
 )
 ;
 }
+async
 function
 checkRSAChains
 (
@@ -205,6 +207,7 @@ inadequateKeySize
 adequateKeySize
 )
 {
+await
 checkChain
 (
 "
@@ -222,6 +225,7 @@ adequateKeySize
 PRErrorCodeSuccess
 )
 ;
+await
 checkChain
 (
 "
@@ -239,6 +243,7 @@ adequateKeySize
 MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
 )
 ;
+await
 checkChain
 (
 "
@@ -256,6 +261,7 @@ adequateKeySize
 MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
 )
 ;
+await
 checkChain
 (
 "
@@ -274,11 +280,13 @@ MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
 )
 ;
 }
+async
 function
 checkECCChains
 (
 )
 {
+await
 checkChain
 (
 "
@@ -296,6 +304,7 @@ secp521r1
 PRErrorCodeSuccess
 )
 ;
+await
 checkChain
 (
 "
@@ -313,6 +322,7 @@ secp256r1
 SEC_ERROR_UNSUPPORTED_ELLIPTIC_CURVE
 )
 ;
+await
 checkChain
 (
 "
@@ -330,6 +340,7 @@ secp224r1
 SEC_ERROR_UNSUPPORTED_ELLIPTIC_CURVE
 )
 ;
+await
 checkChain
 (
 "
@@ -347,6 +358,7 @@ secp256r1
 SEC_ERROR_UNSUPPORTED_ELLIPTIC_CURVE
 )
 ;
+await
 checkChain
 (
 "
@@ -364,6 +376,7 @@ secp256k1
 SEC_ERROR_UNSUPPORTED_ELLIPTIC_CURVE
 )
 ;
+await
 checkChain
 (
 "
@@ -382,11 +395,13 @@ SEC_ERROR_UNSUPPORTED_ELLIPTIC_CURVE
 )
 ;
 }
+async
 function
 checkCombinationChains
 (
 )
 {
+await
 checkChain
 (
 "
@@ -404,6 +419,7 @@ secp384r1
 PRErrorCodeSuccess
 )
 ;
+await
 checkChain
 (
 "
@@ -421,6 +437,7 @@ secp224r1
 SEC_ERROR_UNSUPPORTED_ELLIPTIC_CURVE
 )
 ;
+await
 checkChain
 (
 "
@@ -439,27 +456,30 @@ MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
 )
 ;
 }
+add_task
+(
+async
 function
-run_test
 (
 )
 {
+await
 checkRSAChains
 (
 1016
 1024
 )
 ;
+await
 checkECCChains
 (
 )
 ;
+await
 checkCombinationChains
 (
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}

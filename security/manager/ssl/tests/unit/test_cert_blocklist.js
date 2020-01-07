@@ -836,6 +836,7 @@ constructCertFromFile
 file
 )
 ;
+return
 checkCertErrorGeneric
 (
 certDB
@@ -845,6 +846,7 @@ certificateUsageSSLServer
 )
 ;
 }
+async
 function
 verify_non_tls_usage_succeeds
 (
@@ -859,6 +861,7 @@ constructCertFromFile
 file
 )
 ;
+await
 checkCertErrorGeneric
 (
 certDB
@@ -867,6 +870,7 @@ PRErrorCodeSuccess
 certificateUsageSSLClient
 )
 ;
+await
 checkCertErrorGeneric
 (
 certDB
@@ -875,6 +879,7 @@ PRErrorCodeSuccess
 certificateUsageEmailSigner
 )
 ;
+await
 checkCertErrorGeneric
 (
 certDB
@@ -1800,8 +1805,9 @@ true
 }
 }
 ;
-add_test
+add_task
 (
+async
 function
 (
 )
@@ -1899,6 +1905,7 @@ ee
 pem
 "
 ;
+await
 verify_cert
 (
 file
@@ -1919,6 +1926,7 @@ ee
 pem
 "
 ;
+await
 verify_cert
 (
 file
@@ -1939,14 +1947,11 @@ ee
 pem
 "
 ;
+await
 verify_cert
 (
 file
 PRErrorCodeSuccess
-)
-;
-run_next_test
-(
 )
 ;
 }
@@ -1957,8 +1962,9 @@ add_task
 fetch_blocklist
 )
 ;
-add_test
+add_task
 (
+async
 function
 (
 )
@@ -2096,12 +2102,14 @@ ee
 pem
 "
 ;
+await
 verify_cert
 (
 file
 SEC_ERROR_REVOKED_CERTIFICATE
 )
 ;
+await
 verify_non_tls_usage_succeeds
 (
 file
@@ -2121,12 +2129,14 @@ ee
 pem
 "
 ;
+await
 verify_cert
 (
 file
 SEC_ERROR_REVOKED_CERTIFICATE
 )
 ;
+await
 verify_non_tls_usage_succeeds
 (
 file
@@ -2146,12 +2156,14 @@ ee
 pem
 "
 ;
+await
 verify_cert
 (
 file
 SEC_ERROR_REVOKED_CERTIFICATE
 )
 ;
+await
 verify_non_tls_usage_succeeds
 (
 file
@@ -2169,6 +2181,7 @@ ee
 pem
 "
 ;
+await
 verify_cert
 (
 file
@@ -2185,6 +2198,7 @@ unknownissuer
 pem
 "
 ;
+await
 verify_cert
 (
 file
@@ -2240,10 +2254,6 @@ the
 backing
 file
 "
-)
-;
-run_next_test
-(
 )
 ;
 }
