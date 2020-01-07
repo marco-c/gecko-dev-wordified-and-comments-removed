@@ -16,11 +16,6 @@ h
 #
 include
 <
-cmath
->
-#
-include
-<
 stdint
 .
 h

@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Compiler
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h
@@ -49,10 +58,7 @@ h
 "
 #
 if
-__GNUC__
->
-=
-5
+MOZ_IS_GCC
 #
 define
 BUILTIN_CHECKED_ARITHMETIC_SUPPORTED
