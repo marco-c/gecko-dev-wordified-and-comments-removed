@@ -67,3 +67,6 @@ patch
 mingw_disable_one_try
 .
 patch
+mingw_noexports_casts
+.
+patch
