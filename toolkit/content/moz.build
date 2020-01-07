@@ -1621,11 +1621,6 @@ BUG_COMPONENT
 Core
 '
 '
-XP
-Toolkit
-/
-Widgets
-:
 XUL
 '
 )

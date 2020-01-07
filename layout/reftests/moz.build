@@ -739,11 +739,6 @@ BUG_COMPONENT
 Core
 '
 '
-XP
-Toolkit
-/
-Widgets
-:
 XUL
 '
 )
@@ -767,11 +762,6 @@ BUG_COMPONENT
 Core
 '
 '
-XP
-Toolkit
-/
-Widgets
-:
 XUL
 '
 )
@@ -3841,11 +3831,6 @@ BUG_COMPONENT
 Core
 '
 '
-XP
-Toolkit
-/
-Widgets
-:
 XUL
 '
 )
@@ -3871,11 +3856,6 @@ BUG_COMPONENT
 Core
 '
 '
-XP
-Toolkit
-/
-Widgets
-:
 XUL
 '
 )
