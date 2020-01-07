@@ -231,6 +231,15 @@ mMappingTable
 MAX_AUDIO_CHANNELS
 ]
 ;
+AudioConfig
+:
+:
+ChannelLayout
+:
+:
+ChannelMap
+mChannelMap
+;
 }
 ;
 }
