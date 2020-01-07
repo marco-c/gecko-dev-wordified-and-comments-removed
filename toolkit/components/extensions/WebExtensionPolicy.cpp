@@ -1290,8 +1290,8 @@ AtomSetPref
 Create
 (
 const
-char
-*
+nsCString
+&
 aPref
 )
 {
@@ -1305,6 +1305,10 @@ new
 AtomSetPref
 (
 aPref
+.
+get
+(
+)
 )
 ;
 Preferences
@@ -1600,7 +1604,10 @@ AtomSetPref
 :
 Create
 (
+nsLiteralCString
+(
 kRestrictedDomainPref
+)
 )
 ;
 ClearOnShutdown

@@ -7431,10 +7431,6 @@ kObservedPrefs
 [
 i
 ]
-.
-get
-(
-)
 )
 ;
 }
@@ -11000,10 +10996,6 @@ kObservedPrefs
 [
 i
 ]
-.
-get
-(
-)
 this
 )
 ;

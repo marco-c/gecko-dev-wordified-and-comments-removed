@@ -1492,10 +1492,6 @@ nameStr
 ToCString
 (
 )
-.
-get
-(
-)
 )
 )
 ;
@@ -1607,10 +1603,6 @@ nameStr
 -
 >
 ToCString
-(
-)
-.
-get
 (
 )
 )
