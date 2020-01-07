@@ -46,7 +46,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 )
 |
 |
@@ -55,7 +55,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 ;
@@ -68,7 +68,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 )
 ?
 pn_funbox
@@ -112,7 +112,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STRING
+String
 )
 )
 ;

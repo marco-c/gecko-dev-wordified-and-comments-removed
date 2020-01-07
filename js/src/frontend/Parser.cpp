@@ -11235,7 +11235,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -12869,7 +12869,7 @@ newList
 ParseNodeKind
 :
 :
-PNK_PARAMSBODY
+ParamsBody
 pos
 (
 )
@@ -14873,7 +14873,7 @@ newList
 ParseNodeKind
 :
 :
-PNK_PARAMSBODY
+ParamsBody
 firstTokenPos
 )
 ;
@@ -16276,7 +16276,7 @@ newList
 ParseNodeKind
 :
 :
-PNK_TEMPLATE_STRING_LIST
+TemplateStringList
 pn
 )
 ;
@@ -21098,7 +21098,7 @@ newAssignment
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 lhs
 rhs
 )
@@ -22721,7 +22721,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 |
 |
 forHeadKind
@@ -22730,7 +22730,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 )
 ;
 Node
@@ -22742,7 +22742,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 ?
 assignExpr
 (
@@ -22876,7 +22876,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 ;
 }
 else
@@ -22891,7 +22891,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 ;
 if
 (
@@ -22919,7 +22919,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 ;
 }
 if
@@ -22931,7 +22931,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 )
 {
 *
@@ -23009,7 +23009,7 @@ newAssignment
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 pattern
 init
 )
@@ -23178,7 +23178,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 ;
 if
 (
@@ -23200,7 +23200,7 @@ expressionAfterForInOrOf
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 yieldHandling
 )
 ;
@@ -23222,7 +23222,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 ;
 }
 }
@@ -23429,7 +23429,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 ;
 }
 else
@@ -23444,7 +23444,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 ;
 if
 (
@@ -23472,7 +23472,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 ;
 }
 }
@@ -23488,7 +23488,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 )
 {
 *
@@ -23602,7 +23602,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 |
 |
 kind
@@ -23611,7 +23611,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_LET
+Let
 |
 |
 kind
@@ -23620,7 +23620,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 )
 ;
 DeclarationKind
@@ -23635,7 +23635,7 @@ case
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 :
 declKind
 =
@@ -23650,7 +23650,7 @@ case
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 :
 declKind
 =
@@ -23665,7 +23665,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LET
+Let
 :
 declKind
 =
@@ -23735,7 +23735,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 )
 ;
 TokenKind
@@ -23823,7 +23823,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 )
 break
 ;
@@ -23926,12 +23926,12 @@ Const
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 :
 ParseNodeKind
 :
 :
-PNK_LET
+Let
 )
 ;
 if
@@ -24514,7 +24514,7 @@ newList
 ParseNodeKind
 :
 :
-PNK_IMPORT_SPEC_LIST
+ImportSpecList
 pos
 (
 )
@@ -25180,7 +25180,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 )
 )
 binding
@@ -25200,7 +25200,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 ;
@@ -25945,7 +25945,7 @@ newList
 ParseNodeKind
 :
 :
-PNK_EXPORT_SPEC_LIST
+ExportSpecList
 pos
 (
 )
@@ -26065,7 +26065,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 ;
@@ -26227,7 +26227,7 @@ newList
 ParseNodeKind
 :
 :
-PNK_EXPORT_SPEC_LIST
+ExportSpecList
 pos
 (
 )
@@ -26622,7 +26622,7 @@ YieldIsName
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 )
 ;
 if
@@ -29117,7 +29117,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 ;
 return
 true
@@ -29151,7 +29151,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 forHeadKind
 forInOrOfExpression
 )
@@ -29317,12 +29317,12 @@ TOK_CONST
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 :
 ParseNodeKind
 :
 :
-PNK_LET
+Let
 forHeadKind
 forInOrOfExpression
 )
@@ -29432,7 +29432,7 @@ forHeadKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 ;
 return
 true
@@ -29472,12 +29472,12 @@ isForIn
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 :
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 ;
 if
 (
@@ -29830,7 +29830,7 @@ headKind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 |
 |
 headKind
@@ -29839,7 +29839,7 @@ headKind
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 |
 |
 headKind
@@ -29848,7 +29848,7 @@ headKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 )
 ;
 if
@@ -29868,7 +29868,7 @@ headKind
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 )
 {
 errorAt
@@ -29894,7 +29894,7 @@ headKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 )
 {
 Node
@@ -30099,7 +30099,7 @@ headKind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 |
 |
 headKind
@@ -30108,7 +30108,7 @@ headKind
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 )
 ;
 Node
@@ -30124,7 +30124,7 @@ headKind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 )
 stmt
 .
@@ -31428,7 +31428,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_YIELD
+Yield
 ;
 TokenKind
 tt
@@ -31513,7 +31513,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_YIELD_STAR
+YieldStar
 ;
 tokenStream
 .
@@ -31558,7 +31558,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_YIELD_STAR
+YieldStar
 )
 return
 handler
@@ -34449,7 +34449,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 )
 ;
 if
@@ -36067,7 +36067,7 @@ size_t
 ParseNodeKind
 :
 :
-PNK_BINOP_FIRST
+BinOpFirst
 )
 +
 (
@@ -36136,7 +36136,7 @@ pnk
 ParseNodeKind
 :
 :
-PNK_LIMIT
+Limit
 )
 return
 0
@@ -36149,7 +36149,7 @@ pnk
 ParseNodeKind
 :
 :
-PNK_BINOP_FIRST
+BinOpFirst
 )
 ;
 MOZ_ASSERT
@@ -36160,7 +36160,7 @@ pnk
 ParseNodeKind
 :
 :
-PNK_BINOP_LAST
+BinOpLast
 )
 ;
 return
@@ -36176,7 +36176,7 @@ size_t
 ParseNodeKind
 :
 :
-PNK_BINOP_FIRST
+BinOpFirst
 )
 ]
 ;
@@ -36388,7 +36388,7 @@ pnk
 ParseNodeKind
 :
 :
-PNK_LIMIT
+Limit
 ;
 }
 possibleError
@@ -36465,7 +36465,7 @@ pnk
 ParseNodeKind
 :
 :
-PNK_LIMIT
+Limit
 )
 break
 ;
@@ -37376,7 +37376,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 ;
 break
 ;
@@ -37388,7 +37388,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_ADDASSIGN
+AddAssign
 ;
 break
 ;
@@ -37400,7 +37400,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_SUBASSIGN
+SubAssign
 ;
 break
 ;
@@ -37412,7 +37412,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_BITORASSIGN
+BitOrAssign
 ;
 break
 ;
@@ -37424,7 +37424,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_BITXORASSIGN
+BitXorAssign
 ;
 break
 ;
@@ -37436,7 +37436,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_BITANDASSIGN
+BitAndAssign
 ;
 break
 ;
@@ -37448,7 +37448,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_LSHASSIGN
+LshAssign
 ;
 break
 ;
@@ -37460,7 +37460,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_RSHASSIGN
+RshAssign
 ;
 break
 ;
@@ -37472,7 +37472,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_URSHASSIGN
+UrshAssign
 ;
 break
 ;
@@ -37484,7 +37484,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_MULASSIGN
+MulAssign
 ;
 break
 ;
@@ -37496,7 +37496,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_DIVASSIGN
+DivAssign
 ;
 break
 ;
@@ -37508,7 +37508,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_MODASSIGN
+ModAssign
 ;
 break
 ;
@@ -37520,7 +37520,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_POWASSIGN
+PowAssign
 ;
 break
 ;
@@ -37595,7 +37595,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 )
 {
 error
@@ -37785,7 +37785,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 )
 handler
 .
@@ -38255,7 +38255,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-PNK_VOID
+Void
 begin
 )
 ;
@@ -38269,7 +38269,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-PNK_NOT
+Not
 begin
 )
 ;
@@ -38283,7 +38283,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-PNK_BITNOT
+BitNot
 begin
 )
 ;
@@ -38297,7 +38297,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-PNK_POS
+Pos
 begin
 )
 ;
@@ -38311,7 +38311,7 @@ yieldHandling
 ParseNodeKind
 :
 :
-PNK_NEG
+Neg
 begin
 )
 ;
@@ -38436,12 +38436,12 @@ TOK_INC
 ParseNodeKind
 :
 :
-PNK_PREINCREMENT
+PreIncrement
 :
 ParseNodeKind
 :
 :
-PNK_PREDECREMENT
+PreDecrement
 ;
 return
 handler
@@ -38715,12 +38715,12 @@ TOK_INC
 ParseNodeKind
 :
 :
-PNK_POSTINCREMENT
+PostIncrement
 :
 ParseNodeKind
 :
 :
-PNK_POSTDECREMENT
+PostDecrement
 ;
 return
 handler
@@ -44399,7 +44399,7 @@ newAssignment
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 lhs
 rhs
 )

@@ -152,7 +152,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 |
 |
@@ -164,7 +164,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ELEM
+Elem
 )
 ;
 }
@@ -185,7 +185,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 ;
 }
@@ -217,7 +217,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 )
 |
 |
@@ -229,7 +229,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ARRAY
+Array
 )
 )
 ;
@@ -261,7 +261,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 )
 |
 |
@@ -273,7 +273,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ARRAY
+Array
 )
 )
 ;
@@ -406,7 +406,7 @@ NameNode
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 JSOP_GETNAME
 name
 pos
@@ -442,7 +442,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_COMPUTED_NAME
+ComputedName
 pos
 expr
 )
@@ -470,7 +470,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-PNK_OBJECT_PROPERTY_NAME
+ObjectPropertyName
 JSOP_NOP
 pos
 atom
@@ -503,7 +503,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-PNK_NUMBER
+Number
 pos
 )
 ;
@@ -573,7 +573,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-PNK_STRING
+String
 JSOP_NOP
 pos
 atom
@@ -602,7 +602,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-PNK_TEMPLATE_STRING
+TemplateString
 JSOP_NOP
 pos
 atom
@@ -696,7 +696,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALLSITEOBJ
+CallSiteObj
 )
 )
 ;
@@ -890,7 +890,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 {
@@ -908,7 +908,7 @@ newUnary
 ParseNodeKind
 :
 :
-PNK_DELETENAME
+DeleteName
 begin
 expr
 )
@@ -924,7 +924,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 )
 return
@@ -933,7 +933,7 @@ newUnary
 ParseNodeKind
 :
 :
-PNK_DELETEPROP
+DeleteProp
 begin
 expr
 )
@@ -948,7 +948,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ELEM
+Elem
 )
 )
 return
@@ -957,7 +957,7 @@ newUnary
 ParseNodeKind
 :
 :
-PNK_DELETEELEM
+DeleteElem
 begin
 expr
 )
@@ -968,7 +968,7 @@ newUnary
 ParseNodeKind
 :
 :
-PNK_DELETEEXPR
+DeleteExpr
 begin
 expr
 )
@@ -996,18 +996,18 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 ?
 ParseNodeKind
 :
 :
-PNK_TYPEOFNAME
+TypeOfName
 :
 ParseNodeKind
 :
 :
-PNK_TYPEOFEXPR
+TypeOfExpr
 ;
 return
 newUnary
@@ -1124,7 +1124,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_SPREAD
+Spread
 pos
 kid
 )
@@ -1231,7 +1231,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_ARRAY
+Array
 TokenPos
 (
 begin
@@ -1265,7 +1265,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ARRAY
+Array
 )
 )
 ;
@@ -1292,7 +1292,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-PNK_ELISION
+Elision
 pos
 )
 ;
@@ -1348,7 +1348,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ARRAY
+Array
 )
 )
 ;
@@ -1467,7 +1467,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 JSOP_CALL
 pos
 )
@@ -1491,7 +1491,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_SUPERCALL
+SuperCall
 JSOP_SUPERCALL
 callee
 )
@@ -1516,7 +1516,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_TAGGED_TEMPLATE
+TaggedTemplate
 JSOP_CALL
 pos
 )
@@ -1539,7 +1539,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 TokenPos
 (
 begin
@@ -1599,7 +1599,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_CLASSMETHODLIST
+ClassMethodList
 TokenPos
 (
 begin
@@ -1659,7 +1659,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_NEWTARGET
+NewTarget
 JSOP_NOP
 newHolder
 targetHolder
@@ -1685,7 +1685,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-PNK_POSHOLDER
+PosHolder
 pos
 )
 ;
@@ -1712,7 +1712,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_SUPERBASE
+SuperBase
 pos
 thisName
 )
@@ -1742,7 +1742,7 @@ TernaryNode
 ParseNodeKind
 :
 :
-PNK_CATCH
+Catch
 catchName
 catchGuard
 catchBody
@@ -1773,7 +1773,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 )
 )
 ;
@@ -1803,7 +1803,7 @@ newUnary
 ParseNodeKind
 :
 :
-PNK_MUTATEPROTO
+MutateProto
 begin
 expr
 )
@@ -1851,7 +1851,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 )
 )
 ;
@@ -1883,7 +1883,7 @@ newBinary
 ParseNodeKind
 :
 :
-PNK_COLON
+Colon
 key
 val
 JSOP_INITPROP
@@ -1932,7 +1932,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 )
 )
 ;
@@ -1957,7 +1957,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT_PROPERTY_NAME
+ObjectPropertyName
 )
 )
 ;
@@ -1971,7 +1971,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 ;
@@ -2004,7 +2004,7 @@ newBinary
 ParseNodeKind
 :
 :
-PNK_SHORTHAND
+Shorthand
 name
 expr
 JSOP_INITPROP
@@ -2052,7 +2052,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 )
 )
 ;
@@ -2195,7 +2195,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CLASSMETHODLIST
+ClassMethodList
 )
 )
 ;
@@ -2272,7 +2272,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_INITIALYIELD
+InitialYield
 pos
 gen
 )
@@ -2316,7 +2316,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_YIELD
+Yield
 pos
 value
 )
@@ -2354,7 +2354,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_YIELD_STAR
+YieldStar
 pos
 value
 )
@@ -2398,7 +2398,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_AWAIT
+Await
 pos
 value
 )
@@ -2423,7 +2423,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 pos
 )
 ;
@@ -2447,7 +2447,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_LABEL
+Label
 )
 )
 stmt
@@ -2475,7 +2475,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 )
 ;
 }
@@ -2500,7 +2500,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -2550,7 +2550,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -2587,7 +2587,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -2601,7 +2601,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CASE
+Case
 )
 )
 ;
@@ -2618,7 +2618,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -2693,7 +2693,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -2739,7 +2739,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-PNK_GENERATOR
+Generator
 yieldPos
 )
 ;
@@ -2781,7 +2781,7 @@ newAssignment
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 genName
 makeGen
 )
@@ -2865,7 +2865,7 @@ newBinary
 ParseNodeKind
 :
 :
-PNK_SETTHIS
+SetThis
 thisName
 val
 )
@@ -2890,7 +2890,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 pos
 nullptr
 )
@@ -2924,7 +2924,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_IMPORT
+Import
 JSOP_NOP
 pos
 importSpecSet
@@ -2963,7 +2963,7 @@ newBinary
 ParseNodeKind
 :
 :
-PNK_IMPORT_SPEC
+ImportSpec
 importNameNode
 bindingName
 )
@@ -2991,7 +2991,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_EXPORT
+Export
 pos
 kid
 )
@@ -3023,7 +3023,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_EXPORT_FROM
+ExportFrom
 JSOP_NOP
 exportSpecSet
 moduleSpec
@@ -3077,7 +3077,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_EXPORT_DEFAULT
+ExportDefault
 JSOP_NOP
 pos
 kid
@@ -3103,7 +3103,7 @@ newBinary
 ParseNodeKind
 :
 :
-PNK_EXPORT_SPEC
+ExportSpec
 bindingName
 exportName
 )
@@ -3128,7 +3128,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-PNK_EXPORT_BATCH_SPEC
+ExportBatchSpec
 JSOP_NOP
 pos
 )
@@ -3167,7 +3167,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 TokenPos
 (
 expr
@@ -3211,7 +3211,7 @@ TernaryNode
 ParseNodeKind
 :
 :
-PNK_IF
+If
 cond
 thenBranch
 elseBranch
@@ -3265,7 +3265,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_DOWHILE
+DoWhile
 JSOP_NOP
 pos
 body
@@ -3308,7 +3308,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_WHILE
+While
 JSOP_NOP
 pos
 cond
@@ -3343,7 +3343,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 )
 ?
 JSOP_ITER
@@ -3362,7 +3362,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_FOR
+For
 op
 TokenPos
 (
@@ -3427,7 +3427,7 @@ TernaryNode
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 init
 test
 update
@@ -3461,7 +3461,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_FORIN
+ForIn
 |
 |
 kind
@@ -3470,7 +3470,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_FOROF
+ForOf
 )
 ;
 return
@@ -3522,7 +3522,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_SWITCH
+Switch
 JSOP_NOP
 pos
 discriminant
@@ -3640,7 +3640,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_RETURN
+Return
 pos
 expr
 )
@@ -3664,7 +3664,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_RETURN
+Return
 expr
 -
 >
@@ -3696,7 +3696,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_WITH
+With
 JSOP_NOP
 TokenPos
 (
@@ -3774,7 +3774,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-PNK_THROW
+Throw
 pos
 expr
 )
@@ -3824,7 +3824,7 @@ TernaryNode
 ParseNodeKind
 :
 :
-PNK_TRY
+Try
 body
 catchScope
 finallyBlock
@@ -3949,7 +3949,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_CATCH
+Catch
 JSOP_NOP
 catchName
 catchBody
@@ -3968,7 +3968,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-PNK_CATCH
+Catch
 JSOP_NOP
 catchBody
 -
@@ -4055,7 +4055,7 @@ CodeNode
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 JSOP_NOP
 pos
 )
@@ -4080,7 +4080,7 @@ CodeNode
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 JSOP_LAMBDA
 pos
 )
@@ -4105,7 +4105,7 @@ CodeNode
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 JSOP_LAMBDA_ARROW
 pos
 )
@@ -4129,7 +4129,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 )
 &
 &
@@ -4184,7 +4184,7 @@ newBinary
 ParseNodeKind
 :
 :
-PNK_COLON
+Colon
 key
 fn
 AccessorTypeToJSOp
@@ -4215,7 +4215,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -4228,7 +4228,7 @@ newList
 ParseNodeKind
 :
 :
-PNK_PARAMSBODY
+ParamsBody
 body
 )
 ;
@@ -4272,7 +4272,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_PARAMSBODY
+ParamsBody
 )
 )
 ;
@@ -4305,7 +4305,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 )
 )
 ;
@@ -4369,7 +4369,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_PARAMSBODY
+ParamsBody
 )
 )
 ;
@@ -4402,7 +4402,7 @@ CodeNode
 ParseNodeKind
 :
 :
-PNK_MODULE
+Module
 JSOP_NOP
 pos
 )
@@ -4456,7 +4456,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_NEW
+New
 JSOP_NEW
 TokenPos
 (
@@ -4525,7 +4525,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 )
 &
 &
@@ -4593,7 +4593,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_VOID
+Void
 |
 |
 kind
@@ -4602,7 +4602,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_NOT
+Not
 |
 |
 kind
@@ -4611,7 +4611,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_BITNOT
+BitNot
 |
 |
 kind
@@ -4620,7 +4620,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_POS
+Pos
 |
 |
 kind
@@ -4629,7 +4629,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_NEG
+Neg
 |
 |
 IsTypeofKind
@@ -4665,7 +4665,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_RETURN
+Return
 )
 ;
 }
@@ -4694,7 +4694,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 |
 |
 kind
@@ -4703,7 +4703,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 |
 |
 kind
@@ -4712,7 +4712,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_BREAK
+Break
 |
 |
 kind
@@ -4721,7 +4721,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_THROW
+Throw
 |
 |
 (
@@ -4731,7 +4731,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 &
 &
 !
@@ -4759,7 +4759,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SUPERBASE
+SuperBase
 )
 ;
 }
@@ -4780,7 +4780,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NUMBER
+Number
 )
 |
 |
@@ -4792,7 +4792,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT_PROPERTY_NAME
+ObjectPropertyName
 )
 |
 |
@@ -4804,7 +4804,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STRING
+String
 )
 |
 |
@@ -4816,7 +4816,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_COMPUTED_NAME
+ComputedName
 )
 ;
 }
@@ -4989,7 +4989,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 |
 |
 kind
@@ -4998,7 +4998,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_LET
+Let
 |
 |
 kind
@@ -5007,7 +5007,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 ;
 }
 ParseNode
@@ -5203,7 +5203,7 @@ ListNode
 ParseNodeKind
 :
 :
-PNK_COMMA
+Comma
 JSOP_NOP
 kid
 )
@@ -5386,7 +5386,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 ;
 }
@@ -5410,7 +5410,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 &
 &
@@ -5450,7 +5450,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 &
 &
@@ -5490,7 +5490,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 &
 &
@@ -5817,7 +5817,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 )
 )
 ;
@@ -5855,7 +5855,7 @@ newBinary
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 arg
 defaultValue
 )

@@ -1683,7 +1683,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 )
 ;
 MOZ_ASSERT
@@ -1694,7 +1694,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_LET
+Let
 )
 ;
 MOZ_ASSERT
@@ -1705,7 +1705,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 )
 ;
 return
@@ -1750,7 +1750,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 )
 return
 NodeVarDeclaration
@@ -1763,7 +1763,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_LET
+Let
 |
 |
 kind
@@ -1772,7 +1772,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 )
 ;
 return
@@ -1898,7 +1898,7 @@ kind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 ?
 NodeUnparenthesizedAssignment
 :

@@ -1630,7 +1630,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_RETURN
+Return
 )
 )
 ;
@@ -1806,7 +1806,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 ;
@@ -1837,7 +1837,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 ;
@@ -1882,7 +1882,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 ;
@@ -1917,7 +1917,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 )
 |
 |
@@ -1929,7 +1929,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 )
 )
 ;
@@ -2180,7 +2180,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STAR
+Star
 )
 )
 ;
@@ -2212,7 +2212,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STAR
+Star
 )
 )
 ;
@@ -2244,7 +2244,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 )
 |
 |
@@ -2256,7 +2256,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SUB
+Sub
 )
 )
 ;
@@ -2288,7 +2288,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 )
 |
 |
@@ -2300,7 +2300,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SUB
+Sub
 )
 )
 ;
@@ -2332,7 +2332,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DIV
+Div
 )
 |
 |
@@ -2344,7 +2344,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_MOD
+Mod
 )
 )
 ;
@@ -2376,7 +2376,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DIV
+Div
 )
 |
 |
@@ -2388,7 +2388,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_MOD
+Mod
 )
 )
 ;
@@ -2454,7 +2454,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 )
 ;
 }
@@ -2479,7 +2479,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 )
 )
 ;
@@ -2511,7 +2511,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_BREAK
+Break
 )
 |
 |
@@ -2523,7 +2523,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CONTINUE
+Continue
 )
 )
 ;
@@ -2627,7 +2627,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NUMBER
+Number
 )
 )
 ;
@@ -2657,7 +2657,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NUMBER
+Number
 )
 )
 ;
@@ -2695,7 +2695,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 )
 ;
@@ -2739,7 +2739,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 )
 ;
@@ -2786,7 +2786,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ELEM
+Elem
 )
 )
 ;
@@ -2817,7 +2817,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ELEM
+Elem
 )
 )
 ;
@@ -2849,7 +2849,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FUNCTION
+Function
 )
 )
 ;
@@ -2939,7 +2939,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_PARAMSBODY
+ParamsBody
 )
 )
 ;
@@ -2967,7 +2967,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_LEXICALSCOPE
+LexicalScope
 )
 )
 ;
@@ -3002,7 +3002,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -3032,7 +3032,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_COLON
+Colon
 )
 &
 &
@@ -3058,7 +3058,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT_PROPERTY_NAME
+ObjectPropertyName
 )
 ;
 }
@@ -3098,7 +3098,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT_PROPERTY_NAME
+ObjectPropertyName
 )
 )
 ;
@@ -3189,7 +3189,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 &
 &
@@ -3253,7 +3253,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 )
 &
 &
@@ -3274,7 +3274,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STRING
+String
 )
 &
 &
@@ -3310,7 +3310,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 )
 &
 &
@@ -3599,7 +3599,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 )
 |
 |
@@ -3614,7 +3614,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 )
 )
 ;
@@ -13165,7 +13165,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NUMBER
+Number
 )
 |
 |
@@ -13178,7 +13178,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NEG
+Neg
 )
 &
 &
@@ -13193,7 +13193,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NUMBER
+Number
 )
 )
 ;
@@ -13229,7 +13229,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 return
@@ -13255,7 +13255,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -13872,7 +13872,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NEG
+Neg
 )
 )
 {
@@ -14768,7 +14768,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 {
@@ -18513,7 +18513,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -18822,7 +18822,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -19031,7 +19031,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BITOR
+BitOr
 :
 {
 ParseNode
@@ -19110,7 +19110,7 @@ case
 ParseNodeKind
 :
 :
-PNK_POS
+Pos
 :
 {
 *
@@ -19141,7 +19141,7 @@ case
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 :
 {
 if
@@ -19247,7 +19247,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 )
 return
@@ -19796,7 +19796,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 )
 {
@@ -19884,7 +19884,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -20948,7 +20948,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 )
 {
@@ -21024,7 +21024,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 )
 {
@@ -21192,7 +21192,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -21480,7 +21480,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -21578,7 +21578,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_BITOR
+BitOr
 )
 |
 |
@@ -21590,7 +21590,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_POS
+Pos
 )
 |
 |
@@ -21602,7 +21602,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 {
@@ -21631,7 +21631,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NEW
+New
 )
 )
 return
@@ -21657,7 +21657,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOT
+Dot
 )
 )
 return
@@ -21898,7 +21898,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CONST
+Const
 )
 )
 )
@@ -22045,7 +22045,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 )
 )
 return
@@ -22392,7 +22392,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 {
@@ -22555,7 +22555,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_RETURN
+Return
 )
 &
 &
@@ -22621,7 +22621,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -22882,7 +22882,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_VAR
+Var
 )
 ;
 stmt
@@ -23598,7 +23598,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -23792,7 +23792,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_RSH
+Rsh
 )
 )
 {
@@ -25490,7 +25490,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 )
 )
 ;
@@ -25525,7 +25525,7 @@ getKind
 ParseNodeKind
 :
 :
-PNK_ELEM
+Elem
 )
 return
 CheckStoreArray
@@ -25549,7 +25549,7 @@ getKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 return
 CheckAssignName
@@ -29017,7 +29017,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -29121,7 +29121,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_BITAND
+BitAnd
 )
 )
 return
@@ -29820,7 +29820,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 return
@@ -33156,7 +33156,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -34484,7 +34484,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 ;
@@ -34574,7 +34574,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 ;
@@ -35453,7 +35453,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ELEM
+Elem
 )
 )
 return
@@ -35476,7 +35476,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -35759,7 +35759,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_POS
+Pos
 )
 )
 ;
@@ -35782,7 +35782,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 return
@@ -35853,7 +35853,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NOT
+Not
 )
 )
 ;
@@ -35964,7 +35964,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NEG
+Neg
 )
 )
 ;
@@ -36147,7 +36147,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_BITNOT
+BitNot
 )
 )
 ;
@@ -36307,7 +36307,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_BITNOT
+BitNot
 )
 )
 ;
@@ -36330,7 +36330,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_BITNOT
+BitNot
 )
 )
 return
@@ -36459,7 +36459,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_COMMA
+Comma
 )
 )
 ;
@@ -36622,7 +36622,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CONDITIONAL
+Conditional
 )
 )
 ;
@@ -37135,7 +37135,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STAR
+Star
 )
 )
 ;
@@ -37443,7 +37443,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 )
 |
 |
@@ -37455,7 +37455,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SUB
+Sub
 )
 )
 ;
@@ -37495,7 +37495,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 )
 |
 |
@@ -37507,7 +37507,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SUB
+Sub
 )
 )
 {
@@ -37576,7 +37576,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 )
 |
 |
@@ -37588,7 +37588,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SUB
+Sub
 )
 )
 {
@@ -37720,7 +37720,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 )
 ?
 Op
@@ -37782,7 +37782,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 )
 ?
 Op
@@ -37844,7 +37844,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 )
 ?
 Op
@@ -37951,7 +37951,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DIV
+Div
 )
 |
 |
@@ -37963,7 +37963,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_MOD
+Mod
 )
 )
 ;
@@ -38051,7 +38051,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DIV
+Div
 )
 )
 return
@@ -38119,7 +38119,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DIV
+Div
 )
 )
 return
@@ -38195,7 +38195,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DIV
+Div
 )
 ?
 Op
@@ -38251,7 +38251,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DIV
+Div
 )
 ?
 Op
@@ -38338,7 +38338,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_LT
+Lt
 )
 |
 |
@@ -38350,7 +38350,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_LE
+Le
 )
 |
 |
@@ -38362,7 +38362,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_GT
+Gt
 )
 |
 |
@@ -38374,7 +38374,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_GE
+Ge
 )
 |
 |
@@ -38386,7 +38386,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_EQ
+Eq
 )
 |
 |
@@ -38398,7 +38398,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NE
+Ne
 )
 )
 ;
@@ -38598,7 +38598,7 @@ case
 ParseNodeKind
 :
 :
-PNK_EQ
+Eq
 :
 stmt
 =
@@ -38613,7 +38613,7 @@ case
 ParseNodeKind
 :
 :
-PNK_NE
+Ne
 :
 stmt
 =
@@ -38628,7 +38628,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LT
+Lt
 :
 stmt
 =
@@ -38643,7 +38643,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LE
+Le
 :
 stmt
 =
@@ -38658,7 +38658,7 @@ case
 ParseNodeKind
 :
 :
-PNK_GT
+Gt
 :
 stmt
 =
@@ -38673,7 +38673,7 @@ case
 ParseNodeKind
 :
 :
-PNK_GE
+Ge
 :
 stmt
 =
@@ -38728,7 +38728,7 @@ case
 ParseNodeKind
 :
 :
-PNK_EQ
+Eq
 :
 stmt
 =
@@ -38743,7 +38743,7 @@ case
 ParseNodeKind
 :
 :
-PNK_NE
+Ne
 :
 stmt
 =
@@ -38758,7 +38758,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LT
+Lt
 :
 stmt
 =
@@ -38773,7 +38773,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LE
+Le
 :
 stmt
 =
@@ -38788,7 +38788,7 @@ case
 ParseNodeKind
 :
 :
-PNK_GT
+Gt
 :
 stmt
 =
@@ -38803,7 +38803,7 @@ case
 ParseNodeKind
 :
 :
-PNK_GE
+Ge
 :
 stmt
 =
@@ -38851,7 +38851,7 @@ case
 ParseNodeKind
 :
 :
-PNK_EQ
+Eq
 :
 stmt
 =
@@ -38866,7 +38866,7 @@ case
 ParseNodeKind
 :
 :
-PNK_NE
+Ne
 :
 stmt
 =
@@ -38881,7 +38881,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LT
+Lt
 :
 stmt
 =
@@ -38896,7 +38896,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LE
+Le
 :
 stmt
 =
@@ -38911,7 +38911,7 @@ case
 ParseNodeKind
 :
 :
-PNK_GT
+Gt
 :
 stmt
 =
@@ -38926,7 +38926,7 @@ case
 ParseNodeKind
 :
 :
-PNK_GE
+Ge
 :
 stmt
 =
@@ -38974,7 +38974,7 @@ case
 ParseNodeKind
 :
 :
-PNK_EQ
+Eq
 :
 stmt
 =
@@ -38989,7 +38989,7 @@ case
 ParseNodeKind
 :
 :
-PNK_NE
+Ne
 :
 stmt
 =
@@ -39004,7 +39004,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LT
+Lt
 :
 stmt
 =
@@ -39019,7 +39019,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LE
+Le
 :
 stmt
 =
@@ -39034,7 +39034,7 @@ case
 ParseNodeKind
 :
 :
-PNK_GT
+Gt
 :
 stmt
 =
@@ -39049,7 +39049,7 @@ case
 ParseNodeKind
 :
 :
-PNK_GE
+Ge
 :
 stmt
 =
@@ -39158,7 +39158,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BITOR
+BitOr
 :
 identityElement
 =
@@ -39182,7 +39182,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BITAND
+BitAnd
 :
 identityElement
 =
@@ -39207,7 +39207,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BITXOR
+BitXor
 :
 identityElement
 =
@@ -39231,7 +39231,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LSH
+Lsh
 :
 identityElement
 =
@@ -39255,7 +39255,7 @@ case
 ParseNodeKind
 :
 :
-PNK_RSH
+Rsh
 :
 identityElement
 =
@@ -39279,7 +39279,7 @@ case
 ParseNodeKind
 :
 :
-PNK_URSH
+Ursh
 :
 identityElement
 =
@@ -39430,7 +39430,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_BITOR
+BitOr
 )
 &
 &
@@ -39442,7 +39442,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 return
@@ -39622,7 +39622,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BITOR
+BitOr
 :
 if
 (
@@ -39650,7 +39650,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BITAND
+BitAnd
 :
 if
 (
@@ -39678,7 +39678,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BITXOR
+BitXor
 :
 if
 (
@@ -39706,7 +39706,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LSH
+Lsh
 :
 if
 (
@@ -39734,7 +39734,7 @@ case
 ParseNodeKind
 :
 :
-PNK_RSH
+Rsh
 :
 if
 (
@@ -39762,7 +39762,7 @@ case
 ParseNodeKind
 :
 :
-PNK_URSH
+Ursh
 :
 if
 (
@@ -39875,7 +39875,7 @@ case
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 :
 return
 CheckVarRef
@@ -39889,7 +39889,7 @@ case
 ParseNodeKind
 :
 :
-PNK_ELEM
+Elem
 :
 return
 CheckLoadArray
@@ -39903,7 +39903,7 @@ case
 ParseNodeKind
 :
 :
-PNK_ASSIGN
+Assign
 :
 return
 CheckAssign
@@ -39917,7 +39917,7 @@ case
 ParseNodeKind
 :
 :
-PNK_POS
+Pos
 :
 return
 CheckPos
@@ -39931,7 +39931,7 @@ case
 ParseNodeKind
 :
 :
-PNK_NOT
+Not
 :
 return
 CheckNot
@@ -39945,7 +39945,7 @@ case
 ParseNodeKind
 :
 :
-PNK_NEG
+Neg
 :
 return
 CheckNeg
@@ -39959,7 +39959,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BITNOT
+BitNot
 :
 return
 CheckBitNot
@@ -39973,7 +39973,7 @@ case
 ParseNodeKind
 :
 :
-PNK_COMMA
+Comma
 :
 return
 CheckComma
@@ -39987,7 +39987,7 @@ case
 ParseNodeKind
 :
 :
-PNK_CONDITIONAL
+Conditional
 :
 return
 CheckConditional
@@ -40001,7 +40001,7 @@ case
 ParseNodeKind
 :
 :
-PNK_STAR
+Star
 :
 return
 CheckMultiply
@@ -40015,7 +40015,7 @@ case
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 :
 return
 CheckUncoercedCall
@@ -40029,13 +40029,13 @@ case
 ParseNodeKind
 :
 :
-PNK_ADD
+Add
 :
 case
 ParseNodeKind
 :
 :
-PNK_SUB
+Sub
 :
 return
 CheckAddOrSub
@@ -40049,13 +40049,13 @@ case
 ParseNodeKind
 :
 :
-PNK_DIV
+Div
 :
 case
 ParseNodeKind
 :
 :
-PNK_MOD
+Mod
 :
 return
 CheckDivOrMod
@@ -40069,37 +40069,37 @@ case
 ParseNodeKind
 :
 :
-PNK_LT
+Lt
 :
 case
 ParseNodeKind
 :
 :
-PNK_LE
+Le
 :
 case
 ParseNodeKind
 :
 :
-PNK_GT
+Gt
 :
 case
 ParseNodeKind
 :
 :
-PNK_GE
+Ge
 :
 case
 ParseNodeKind
 :
 :
-PNK_EQ
+Eq
 :
 case
 ParseNodeKind
 :
 :
-PNK_NE
+Ne
 :
 return
 CheckComparison
@@ -40113,37 +40113,37 @@ case
 ParseNodeKind
 :
 :
-PNK_BITOR
+BitOr
 :
 case
 ParseNodeKind
 :
 :
-PNK_BITAND
+BitAnd
 :
 case
 ParseNodeKind
 :
 :
-PNK_BITXOR
+BitXor
 :
 case
 ParseNodeKind
 :
 :
-PNK_LSH
+Lsh
 :
 case
 ParseNodeKind
 :
 :
-PNK_RSH
+Rsh
 :
 case
 ParseNodeKind
 :
 :
-PNK_URSH
+Ursh
 :
 return
 CheckBitwise
@@ -40204,7 +40204,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_CALL
+Call
 )
 )
 {
@@ -40299,7 +40299,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 )
 )
 ;
@@ -40476,7 +40476,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_WHILE
+While
 )
 )
 ;
@@ -40621,7 +40621,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FOR
+For
 )
 )
 ;
@@ -40654,7 +40654,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_FORHEAD
+ForHead
 )
 )
 return
@@ -40907,7 +40907,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_DOWHILE
+DoWhile
 )
 )
 ;
@@ -41125,7 +41125,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_LABEL
+Label
 )
 )
 ;
@@ -41177,7 +41177,7 @@ getKind
 ParseNodeKind
 :
 :
-PNK_LABEL
+Label
 )
 ;
 switch
@@ -41194,7 +41194,7 @@ case
 ParseNodeKind
 :
 :
-PNK_FOR
+For
 :
 return
 CheckFor
@@ -41209,7 +41209,7 @@ case
 ParseNodeKind
 :
 :
-PNK_DOWHILE
+DoWhile
 :
 return
 CheckDoWhile
@@ -41224,7 +41224,7 @@ case
 ParseNodeKind
 :
 :
-PNK_WHILE
+While
 :
 return
 CheckWhile
@@ -41239,7 +41239,7 @@ case
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 :
 return
 CheckStatementList
@@ -41328,7 +41328,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_IF
+If
 )
 )
 ;
@@ -41475,7 +41475,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_IF
+If
 )
 )
 {
@@ -42124,7 +42124,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_SWITCH
+Switch
 )
 )
 ;
@@ -42156,7 +42156,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_LEXICALSCOPE
+LexicalScope
 )
 )
 {
@@ -43019,7 +43019,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 )
 )
 ;
@@ -43109,7 +43109,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_LEXICALSCOPE
+LexicalScope
 )
 )
 ;
@@ -43248,7 +43248,7 @@ case
 ParseNodeKind
 :
 :
-PNK_SEMI
+Semi
 :
 return
 CheckExprStatement
@@ -43261,7 +43261,7 @@ case
 ParseNodeKind
 :
 :
-PNK_WHILE
+While
 :
 return
 CheckWhile
@@ -43274,7 +43274,7 @@ case
 ParseNodeKind
 :
 :
-PNK_FOR
+For
 :
 return
 CheckFor
@@ -43287,7 +43287,7 @@ case
 ParseNodeKind
 :
 :
-PNK_DOWHILE
+DoWhile
 :
 return
 CheckDoWhile
@@ -43300,7 +43300,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LABEL
+Label
 :
 return
 CheckLabel
@@ -43313,7 +43313,7 @@ case
 ParseNodeKind
 :
 :
-PNK_IF
+If
 :
 return
 CheckIf
@@ -43326,7 +43326,7 @@ case
 ParseNodeKind
 :
 :
-PNK_SWITCH
+Switch
 :
 return
 CheckSwitch
@@ -43339,7 +43339,7 @@ case
 ParseNodeKind
 :
 :
-PNK_RETURN
+Return
 :
 return
 CheckReturn
@@ -43352,7 +43352,7 @@ case
 ParseNodeKind
 :
 :
-PNK_STATEMENTLIST
+StatementList
 :
 return
 CheckStatementList
@@ -43365,7 +43365,7 @@ case
 ParseNodeKind
 :
 :
-PNK_BREAK
+Break
 :
 return
 CheckBreakOrContinue
@@ -43379,7 +43379,7 @@ case
 ParseNodeKind
 :
 :
-PNK_CONTINUE
+Continue
 :
 return
 CheckBreakOrContinue
@@ -43393,7 +43393,7 @@ case
 ParseNodeKind
 :
 :
-PNK_LEXICALSCOPE
+LexicalScope
 :
 return
 CheckLexicalScope
@@ -44273,7 +44273,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -44320,7 +44320,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_ARRAY
+Array
 )
 )
 return
@@ -44437,7 +44437,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -44857,7 +44857,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -44958,7 +44958,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 )
 )
 ;
@@ -45057,7 +45057,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_NAME
+Name
 )
 )
 return
@@ -45254,7 +45254,7 @@ isKind
 ParseNodeKind
 :
 :
-PNK_OBJECT
+Object
 )
 )
 {
