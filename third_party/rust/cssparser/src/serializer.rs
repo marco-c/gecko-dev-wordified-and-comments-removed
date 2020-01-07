@@ -1513,6 +1513,7 @@ dest
 )
 }
 }
+pub
 fn
 serialize_name
 <
