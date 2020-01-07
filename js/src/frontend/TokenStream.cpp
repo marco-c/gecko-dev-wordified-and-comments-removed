@@ -11351,7 +11351,7 @@ ParserAnyCharsAccess
 frontend
 :
 :
-Parser
+GeneralParser
 <
 frontend
 :
@@ -11378,7 +11378,7 @@ ParserAnyCharsAccess
 frontend
 :
 :
-Parser
+GeneralParser
 <
 frontend
 :
@@ -11405,7 +11405,7 @@ ParserAnyCharsAccess
 frontend
 :
 :
-Parser
+GeneralParser
 <
 frontend
 :
@@ -11432,7 +11432,7 @@ ParserAnyCharsAccess
 frontend
 :
 :
-Parser
+GeneralParser
 <
 frontend
 :

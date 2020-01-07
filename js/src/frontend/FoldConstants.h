@@ -30,7 +30,7 @@ typename
 CharT
 >
 class
-Parser
+GeneralParser
 ;
 template
 <
@@ -48,7 +48,7 @@ ParseNode
 *
 *
 pnp
-Parser
+GeneralParser
 <
 FullParseHandler
 CharT
@@ -77,7 +77,7 @@ SyntaxParseHandler
 Node
 *
 pnp
-Parser
+GeneralParser
 <
 SyntaxParseHandler
 CharT
