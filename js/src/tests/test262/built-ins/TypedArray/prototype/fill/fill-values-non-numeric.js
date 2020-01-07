@@ -166,7 +166,9 @@ function
 )
 {
 return
+"
 1
+"
 ;
 }
 valueOf
@@ -222,7 +224,9 @@ function
 )
 {
 return
+"
 7
+"
 ;
 }
 }

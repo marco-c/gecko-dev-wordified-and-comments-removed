@@ -10,15 +10,9 @@ y
 ;
 ;
 }
-assert
-.
-sameValue
+assertToStringOrNativeFunction
 (
 f
-.
-toString
-(
-)
 "
 async
 /

@@ -1,0 +1,16 @@
+assert
+.
+sameValue
+(
+.
+0_1e2
+.
+01e2
+)
+;
+reportCompare
+(
+0
+0
+)
+;

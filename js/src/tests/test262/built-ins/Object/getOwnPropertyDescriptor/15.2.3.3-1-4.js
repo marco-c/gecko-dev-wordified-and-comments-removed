@@ -1,0 +1,17 @@
+Object
+.
+getOwnPropertyDescriptor
+(
+-
+2
+"
+foo
+"
+)
+;
+reportCompare
+(
+0
+0
+)
+;

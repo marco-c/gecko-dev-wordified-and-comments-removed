@@ -1,0 +1,13 @@
+Object
+.
+isSealed
+(
+0
+)
+;
+reportCompare
+(
+0
+0
+)
+;

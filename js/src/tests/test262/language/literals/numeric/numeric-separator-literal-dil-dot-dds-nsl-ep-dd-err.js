@@ -1,0 +1,16 @@
+throw
+"
+Test262
+:
+This
+statement
+should
+not
+be
+evaluated
+.
+"
+;
+10
+.
+0_e1

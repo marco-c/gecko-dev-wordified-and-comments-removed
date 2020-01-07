@@ -54,15 +54,9 @@ d
 "
 )
 ;
-assert
-.
-sameValue
+assertToStringOrNativeFunction
 (
 g
-.
-toString
-(
-)
 "
 async
 function

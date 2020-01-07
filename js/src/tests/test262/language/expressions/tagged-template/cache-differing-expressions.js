@@ -62,7 +62,7 @@ tail
 ;
 assert
 .
-sameValue
+notSameValue
 (
 previousObject
 firstObject

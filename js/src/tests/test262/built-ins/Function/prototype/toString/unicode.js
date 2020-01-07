@@ -24,15 +24,9 @@ return
 b
 ;
 }
-assert
-.
-sameValue
+assertToStringOrNativeFunction
 (
 a
-.
-toString
-(
-)
 "
 function
 \

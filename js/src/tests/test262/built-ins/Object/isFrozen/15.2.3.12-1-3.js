@@ -1,0 +1,13 @@
+Object
+.
+isFrozen
+(
+true
+)
+;
+reportCompare
+(
+0
+0
+)
+;

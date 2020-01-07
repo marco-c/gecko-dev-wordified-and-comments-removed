@@ -53,6 +53,9 @@ push
 arguments
 )
 ;
+return
+0
+;
 }
 thisArg
 )

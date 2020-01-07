@@ -1,3 +1,10 @@
+testWithTypedArrayConstructors
+(
+function
+(
+TA
+)
+{
 var
 obj1
 =
@@ -25,7 +32,9 @@ function
 )
 {
 return
+"
 42
+"
 ;
 }
 }
@@ -51,13 +60,6 @@ obj2
 ]
 ]
 ;
-testWithTypedArrayConstructors
-(
-function
-(
-TA
-)
-{
 var
 sample
 =

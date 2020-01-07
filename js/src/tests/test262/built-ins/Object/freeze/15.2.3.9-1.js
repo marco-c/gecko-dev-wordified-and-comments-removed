@@ -1,0 +1,13 @@
+Object
+.
+freeze
+(
+0
+)
+;
+reportCompare
+(
+0
+0
+)
+;

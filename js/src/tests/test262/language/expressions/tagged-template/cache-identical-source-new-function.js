@@ -81,7 +81,7 @@ tag
 ;
 assert
 .
-sameValue
+notSameValue
 (
 previousObject
 firstObject

@@ -1,0 +1,13 @@
+Object
+.
+getOwnPropertyNames
+(
+0
+)
+;
+reportCompare
+(
+0
+0
+)
+;

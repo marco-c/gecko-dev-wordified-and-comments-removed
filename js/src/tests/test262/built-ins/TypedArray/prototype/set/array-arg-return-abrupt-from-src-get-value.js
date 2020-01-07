@@ -1,3 +1,10 @@
+testWithTypedArrayConstructors
+(
+function
+(
+TA
+)
+{
 var
 obj
 =
@@ -47,13 +54,6 @@ Test262Error
 }
 )
 ;
-testWithTypedArrayConstructors
-(
-function
-(
-TA
-)
-{
 var
 sample
 =

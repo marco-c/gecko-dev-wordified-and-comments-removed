@@ -1,0 +1,13 @@
+Object
+.
+isExtensible
+(
+undefined
+)
+;
+reportCompare
+(
+0
+0
+)
+;

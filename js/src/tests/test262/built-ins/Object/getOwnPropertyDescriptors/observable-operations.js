@@ -22,6 +22,8 @@ c
 var
 handler
 =
+allowProxyTraps
+(
 {
 getOwnPropertyDescriptor
 :
@@ -99,10 +101,13 @@ target
 ;
 }
 }
+)
 ;
 var
 check
 =
+allowProxyTraps
+(
 {
 get
 :
@@ -113,12 +118,11 @@ propertyKey
 receiver
 )
 {
-assertEq
+assert
 (
 propertyKey
 in
 target
-true
 "
 handler
 check
@@ -136,6 +140,7 @@ propertyKey
 ;
 }
 }
+)
 ;
 var
 proxy
@@ -186,5 +191,11 @@ c
 '
 log
 '
+)
+;
+reportCompare
+(
+0
+0
 )
 ;

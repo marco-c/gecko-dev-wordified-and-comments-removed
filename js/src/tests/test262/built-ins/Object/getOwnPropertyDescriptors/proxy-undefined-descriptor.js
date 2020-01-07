@@ -15,6 +15,8 @@ key
 var
 badProxyHandlers
 =
+allowProxyTraps
+(
 {
 getOwnPropertyDescriptor
 :
@@ -34,6 +36,7 @@ ownKeys
 ;
 }
 }
+)
 ;
 var
 proxy
@@ -195,5 +198,11 @@ present
 in
 result
 "
+)
+;
+reportCompare
+(
+0
+0
 )
 ;

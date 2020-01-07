@@ -8,15 +8,9 @@ y
 ;
 ;
 }
-assert
-.
-sameValue
+assertToStringOrNativeFunction
 (
 f
-.
-toString
-(
-)
 "
 function
 \

@@ -36,3 +36,9 @@ undefined
 }
 )
 ;
+reportCompare
+(
+0
+0
+)
+;

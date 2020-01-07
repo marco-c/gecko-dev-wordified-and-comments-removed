@@ -1,0 +1,13 @@
+Object
+.
+preventExtensions
+(
+undefined
+)
+;
+reportCompare
+(
+0
+0
+)
+;
