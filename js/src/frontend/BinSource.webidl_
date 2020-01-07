@@ -1655,13 +1655,13 @@ EagerGetter
 Node
 {
 attribute
+PropertyName
+name
+;
+attribute
 AssertedVarScope
 ?
 bodyScope
-;
-attribute
-PropertyName
-name
 ;
 attribute
 FunctionBody
