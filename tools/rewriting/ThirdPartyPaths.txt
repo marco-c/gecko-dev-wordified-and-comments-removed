@@ -345,16 +345,6 @@ talos
 /
 tests
 /
-canvasmark
-/
-testing
-/
-talos
-/
-talos
-/
-tests
-/
 dromaeo
 /
 testing

@@ -19,9 +19,6 @@ tests
 "
 tresize
 "
-"
-tcanvasmark
-"
 ]
 }
 "
@@ -55,9 +52,6 @@ tests
 [
 "
 tresize
-"
-"
-tcanvasmark
 "
 ]
 }
