@@ -2465,13 +2465,12 @@ GetSize
 height
 ;
 }
-virtual
 nsIPresShell
 *
 GetPresShell
 (
 )
-override
+final
 {
 if
 (
