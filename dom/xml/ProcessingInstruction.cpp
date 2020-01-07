@@ -400,11 +400,7 @@ return
 aFlags
 &
 ~
-(
 ePROCESSING_INSTRUCTION
-|
-eDATA_NODE
-)
 )
 ;
 }

@@ -1263,12 +1263,6 @@ eHTML_FORM_CONTROL
 <
 <
 6
-eDATA_NODE
-=
-1
-<
-<
-8
 eANIMATION
 =
 1

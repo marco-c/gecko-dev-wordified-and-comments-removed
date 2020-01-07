@@ -283,6 +283,14 @@ aNodeInfo
 "
 )
 ;
+MOZ_ASSERT
+(
+!
+IsCharacterData
+(
+)
+)
+;
 }
 DocumentType
 :
@@ -291,8 +299,9 @@ DocumentType
 DocumentType
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS_INHERITED
 (
 DocumentType

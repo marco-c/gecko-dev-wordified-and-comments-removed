@@ -3055,13 +3055,7 @@ aFlags
 const
 {
 return
-!
-(
-aFlags
-&
-~
-eDATA_NODE
-)
+false
 ;
 }
 void

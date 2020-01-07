@@ -13907,12 +13907,8 @@ isData
 =
 aNode
 .
-IsNodeOfType
+IsCharacterData
 (
-nsINode
-:
-:
-eDATA_NODE
 )
 ;
 if

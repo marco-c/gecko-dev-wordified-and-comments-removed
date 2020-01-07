@@ -413,13 +413,7 @@ aFlags
 const
 {
 return
-!
-(
-aFlags
-&
-~
-eDATA_NODE
-)
+false
 ;
 }
 already_AddRefed
