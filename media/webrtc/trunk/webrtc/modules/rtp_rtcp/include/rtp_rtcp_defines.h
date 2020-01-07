@@ -199,6 +199,7 @@ kRtpExtensionPlayoutDelay
 kRtpExtensionRtpStreamId
 kRtpExtensionRepairedRtpStreamId
 kRtpExtensionMId
+kRtpExtensionCsrcAudioLevel
 kRtpExtensionNumberOfExtensions
 }
 ;

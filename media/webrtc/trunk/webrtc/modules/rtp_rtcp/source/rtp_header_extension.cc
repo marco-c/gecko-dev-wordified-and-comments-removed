@@ -185,6 +185,12 @@ MId
 >
 (
 )
+CreateExtensionInfo
+<
+CsrcAudioLevel
+>
+(
+)
 }
 ;
 static_assert
