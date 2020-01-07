@@ -918,6 +918,14 @@ xml
 "
 #
 define
+IMAGE_WEBP
+"
+image
+/
+webp
+"
+#
+define
 MESSAGE_EXTERNAL_BODY
 "
 message

@@ -135,6 +135,11 @@ TestDeinterlacingFilter
 cpp
 '
 '
+TestLoader
+.
+cpp
+'
+'
 TestMetadata
 .
 cpp
