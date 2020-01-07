@@ -4848,13 +4848,6 @@ options
 optionsOrOnSucc
 ;
 }
-this
-.
-_ensureTransceiversForOfferToReceive
-(
-options
-)
-;
 if
 (
 onSuccess
@@ -5142,6 +5135,13 @@ this
 .
 _checkClosed
 (
+)
+;
+this
+.
+_ensureTransceiversForOfferToReceive
+(
+options
 )
 ;
 this
