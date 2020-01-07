@@ -493,6 +493,14 @@ vars
 "
 all
 "
+"
+varsIgnorePattern
+"
+:
+"
+^
+console
+"
 }
 ]
 "
