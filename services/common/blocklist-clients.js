@@ -321,7 +321,11 @@ updateCertBlocklist
 {
 data
 :
+{
+current
+:
 records
+}
 }
 )
 {
@@ -440,7 +444,11 @@ updatePinningList
 {
 data
 :
+{
+current
+:
 records
+}
 }
 )
 {
@@ -605,7 +613,11 @@ client
 {
 data
 :
+{
+current
+:
 records
+}
 }
 )
 {
@@ -810,7 +822,7 @@ OneCRLBlocklistClient
 on
 (
 "
-change
+sync
 "
 updateCertBlocklist
 )
@@ -859,7 +871,7 @@ AddonBlocklistClient
 on
 (
 "
-change
+sync
 "
 updateJSONBlocklist
 .
@@ -914,7 +926,7 @@ PluginBlocklistClient
 on
 (
 "
-change
+sync
 "
 updateJSONBlocklist
 .
@@ -969,7 +981,7 @@ GfxBlocklistClient
 on
 (
 "
-change
+sync
 "
 updateJSONBlocklist
 .
@@ -1024,7 +1036,7 @@ PinningBlocklistClient
 on
 (
 "
-change
+sync
 "
 updatePinningList
 )
