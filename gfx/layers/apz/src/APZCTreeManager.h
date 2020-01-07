@@ -1169,6 +1169,17 @@ GetWebRenderAPI
 )
 const
 ;
+already_AddRefed
+<
+GeckoContentController
+>
+GetContentController
+(
+uint64_t
+aLayersId
+)
+const
+;
 protected
 :
 RefPtr
