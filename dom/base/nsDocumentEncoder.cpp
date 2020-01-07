@@ -2734,7 +2734,7 @@ child
 content
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )
@@ -3585,7 +3585,7 @@ childAsNode
 content
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 j
 )
@@ -8011,7 +8011,7 @@ do_QueryInterface
 content
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aOffset
 )

@@ -2576,7 +2576,7 @@ child
 menuPopup
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )
@@ -3919,7 +3919,7 @@ child
 mContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )

@@ -2979,7 +2979,7 @@ child
 colsContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )

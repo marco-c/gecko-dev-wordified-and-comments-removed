@@ -935,7 +935,7 @@ menuContent
 mContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )

@@ -331,7 +331,7 @@ override
 virtual
 nsIContent
 *
-GetChildAt
+GetChildAt_Deprecated
 (
 uint32_t
 aIndex

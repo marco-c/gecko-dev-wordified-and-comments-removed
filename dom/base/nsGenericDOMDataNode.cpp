@@ -3062,7 +3062,7 @@ nsIContent
 nsGenericDOMDataNode
 :
 :
-GetChildAt
+GetChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -3548,7 +3548,7 @@ sibling
 aParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )
@@ -3611,7 +3611,7 @@ sibling
 aParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )
@@ -3768,7 +3768,7 @@ do_QueryInterface
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 first
 )

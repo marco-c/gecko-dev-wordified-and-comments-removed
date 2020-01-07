@@ -30994,7 +30994,7 @@ child
 aContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )

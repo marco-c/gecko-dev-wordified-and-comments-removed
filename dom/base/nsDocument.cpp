@@ -20025,7 +20025,7 @@ nsIContent
 nsDocument
 :
 :
-GetChildAt
+GetChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -20156,7 +20156,7 @@ nsIContent
 >
 oldKid
 =
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )

@@ -1652,7 +1652,7 @@ currentKid
 aParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aContentIndex
 )
@@ -1760,7 +1760,7 @@ currentKid
 aParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aContentIndex
 )
@@ -2086,7 +2086,7 @@ GetFirstOptionIndex
 aOptions
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )

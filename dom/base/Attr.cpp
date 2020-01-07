@@ -1248,7 +1248,7 @@ nsIContent
 Attr
 :
 :
-GetChildAt
+GetChildAt_Deprecated
 (
 uint32_t
 aIndex

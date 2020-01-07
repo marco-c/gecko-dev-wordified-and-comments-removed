@@ -2014,7 +2014,7 @@ child
 copyParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 templParent
 -
@@ -6784,7 +6784,7 @@ aStream
 element
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )

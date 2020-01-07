@@ -492,7 +492,7 @@ childContent
 parentContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )
@@ -655,7 +655,7 @@ childContent
 parentContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )

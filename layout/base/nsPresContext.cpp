@@ -5887,7 +5887,7 @@ SetImgAnimations
 aParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )

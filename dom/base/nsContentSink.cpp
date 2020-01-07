@@ -5469,7 +5469,7 @@ aContainer
 aContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aStartIndex
 )

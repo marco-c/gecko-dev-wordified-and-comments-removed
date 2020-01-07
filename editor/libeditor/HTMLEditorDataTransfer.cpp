@@ -1891,7 +1891,7 @@ GetContainer
 )
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 pointToInsert
 .

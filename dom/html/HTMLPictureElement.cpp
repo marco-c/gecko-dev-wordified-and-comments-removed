@@ -139,7 +139,7 @@ nsIContent
 >
 child
 =
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )

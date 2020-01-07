@@ -17670,7 +17670,7 @@ rightNodeToJoin
 parentNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 length
 )

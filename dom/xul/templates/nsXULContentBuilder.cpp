@@ -2626,7 +2626,7 @@ tmplKid
 aTemplateNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 loop
 )
@@ -2645,7 +2645,7 @@ realKid
 aRealNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 loop
 )
@@ -3373,7 +3373,7 @@ container
 container
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 newIndexInContainer
 )
@@ -4327,7 +4327,7 @@ child
 element
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )
@@ -6896,7 +6896,7 @@ child
 aContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 staticCount
 )
@@ -6958,7 +6958,7 @@ child
 aContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 realNumChildren
 -
@@ -7047,7 +7047,7 @@ child
 aContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 x
 -

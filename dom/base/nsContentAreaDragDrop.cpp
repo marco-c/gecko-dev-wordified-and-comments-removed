@@ -3647,7 +3647,7 @@ childContent
 selStartContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 childOffset
 )

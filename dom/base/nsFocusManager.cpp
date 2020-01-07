@@ -11741,7 +11741,7 @@ childContent
 startContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 startOffset
 )
@@ -11796,7 +11796,7 @@ childContent
 endContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 endOffset
 )
@@ -14903,7 +14903,7 @@ areaContent
 mapContent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aForward
 ?

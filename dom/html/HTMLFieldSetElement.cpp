@@ -635,7 +635,7 @@ mFirstLegend
 &
 &
 (
-GetChildAt
+GetChildAt_Deprecated
 (
 aIndex
 )

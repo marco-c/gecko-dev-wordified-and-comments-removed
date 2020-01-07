@@ -532,7 +532,7 @@ return
 point
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 remIndex
 )

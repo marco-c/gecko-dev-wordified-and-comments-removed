@@ -280,7 +280,7 @@ mRef
 mParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aOffset
 -
@@ -468,7 +468,7 @@ MOZ_ASSERT
 mParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 Offset
 (
@@ -833,7 +833,7 @@ mRef
 mParent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aOffset
 -

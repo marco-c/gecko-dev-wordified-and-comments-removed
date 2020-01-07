@@ -1351,7 +1351,7 @@ const
 virtual
 nsIContent
 *
-GetChildAt
+GetChildAt_Deprecated
 (
 uint32_t
 aIndex
@@ -3183,7 +3183,7 @@ count
 >
 0
 ?
-GetChildAt
+GetChildAt_Deprecated
 (
 count
 -

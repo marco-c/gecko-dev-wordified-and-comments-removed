@@ -7708,7 +7708,7 @@ NodePosition
 aNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aNodeOffset
 )
@@ -7731,7 +7731,7 @@ node
 aNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 childCount
 -
@@ -8224,7 +8224,7 @@ nextNodeOfRangeEnd
 endNode
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 endOffset
 )
@@ -14585,7 +14585,7 @@ childNode
 container
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 offsetInParentNode
 -

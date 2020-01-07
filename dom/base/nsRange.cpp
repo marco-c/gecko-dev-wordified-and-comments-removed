@@ -17513,7 +17513,7 @@ currentNode
 aStartContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aStartOffset
 )
@@ -17573,7 +17573,7 @@ endNode
 aEndContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 aEndOffset
 )

@@ -1433,7 +1433,7 @@ NS_ASSERTION
 parent
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 childIndex
 )
@@ -2267,7 +2267,7 @@ child
 content
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 childIndex
 )

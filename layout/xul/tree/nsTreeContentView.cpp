@@ -6473,7 +6473,7 @@ content
 aContainer
 -
 >
-GetChildAt
+GetChildAt_Deprecated
 (
 i
 )
