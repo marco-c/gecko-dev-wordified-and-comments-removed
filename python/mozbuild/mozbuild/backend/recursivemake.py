@@ -201,16 +201,6 @@ MOZBUILD_VARIABLES
     
 b
 '
-ANDROID_APK_NAME
-'
-    
-b
-'
-ANDROID_APK_PACKAGE
-'
-    
-b
-'
 ANDROID_ASSETS_DIRS
 '
     
@@ -462,11 +452,6 @@ XPIDL_MODULE
 DEPRECATED_VARIABLES
 =
 [
-    
-b
-'
-ANDROID_RESFILES
-'
     
 b
 '
