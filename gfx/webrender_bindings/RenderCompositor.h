@@ -86,14 +86,6 @@ RenderCompositor
 ;
 virtual
 bool
-Destroy
-(
-)
-=
-0
-;
-virtual
-bool
 BeginFrame
 (
 )
