@@ -652,6 +652,10 @@ mProperties
 (
 aProperties
 )
+mResult
+(
+0
+)
 {
 mAlternateBuffer
 .
@@ -738,6 +742,10 @@ aBuffer
 mProperties
 (
 aProperties
+)
+mResult
+(
+0
 )
 {
 }
