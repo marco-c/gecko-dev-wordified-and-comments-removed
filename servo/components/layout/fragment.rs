@@ -560,7 +560,6 @@ values
 {
 self
 Either
-Auto
 }
 ;
 use
@@ -13415,6 +13414,7 @@ return
 false
 ;
 }
+!
 self
 .
 style
@@ -13426,14 +13426,9 @@ get_position
 )
 .
 z_index
-!
-=
-Either
-:
-:
-Second
+.
+is_auto
 (
-Auto
 )
 }
 pub
