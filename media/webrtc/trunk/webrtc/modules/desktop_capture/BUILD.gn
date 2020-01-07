@@ -931,7 +931,6 @@ build_with_mozilla
 )
 {
 defines
-+
 =
 [
 "
