@@ -310,6 +310,13 @@ PropTypes
 func
 .
 isRequired
+setHighlightedNode
+:
+PropTypes
+.
+func
+.
+isRequired
 setSelectedNode
 :
 PropTypes
@@ -339,6 +346,13 @@ object
 .
 isRequired
 toggleElementPicker
+:
+PropTypes
+.
+func
+.
+isRequired
+toggleLockingHighlight
 :
 PropTypes
 .
@@ -402,6 +416,7 @@ setAnimationsCurrentTime
 setAnimationsPlaybackRate
 setAnimationsPlayState
 setDetailVisibility
+setHighlightedNode
 setSelectedNode
 simulateAnimation
 simulateAnimationForKeyframesProgressBar
@@ -517,6 +532,7 @@ onShowBoxModelHighlighterForNode
 removeAnimationsCurrentTimeListener
 selectAnimation
 setAnimationsCurrentTime
+setHighlightedNode
 setSelectedNode
 simulateAnimation
 timeScale

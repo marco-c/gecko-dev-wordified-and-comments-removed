@@ -186,6 +186,13 @@ PropTypes
 func
 .
 isRequired
+setHighlightedNode
+:
+PropTypes
+.
+func
+.
+isRequired
 setSelectedNode
 :
 PropTypes
@@ -226,6 +233,7 @@ onShowBoxModelHighlighterForNode
 removeAnimationsCurrentTimeListener
 selectAnimation
 setAnimationsCurrentTime
+setHighlightedNode
 setSelectedNode
 simulateAnimation
 timeScale
@@ -270,6 +278,7 @@ getNodeFromActor
 onHideBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 selectAnimation
+setHighlightedNode
 setSelectedNode
 simulateAnimation
 timeScale
