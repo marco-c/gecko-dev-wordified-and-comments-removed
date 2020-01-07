@@ -2181,6 +2181,11 @@ MaybeFileDesc
 DMDFile
 )
 ;
+async
+RequestPerformanceMetrics
+(
+)
+;
 /
 *
 *
@@ -6169,6 +6174,13 @@ BHRThreadHang
 (
 HangDetails
 aHangDetails
+)
+;
+async
+AddPerformanceMetrics
+(
+PerformanceInfo
+aMetrics
 )
 ;
 both

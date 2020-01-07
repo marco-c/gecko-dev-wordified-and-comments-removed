@@ -824,6 +824,16 @@ endif
 /
 /
 NIGHTLY_BUILD
+#
+ifndef
+RELEASE_OR_BETA
+void
+requestPerformanceMetrics
+(
+)
+;
+#
+endif
 /
 *
 *

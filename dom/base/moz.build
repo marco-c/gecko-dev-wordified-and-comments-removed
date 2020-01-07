@@ -202,6 +202,11 @@ nsIObjectLoadingContent
 idl
 '
 '
+nsIPerformanceMetrics
+.
+idl
+'
+'
 nsIRemoteWindowContext
 .
 idl
@@ -599,6 +604,11 @@ h
 '
 '
 nsNodeUtils
+.
+h
+'
+'
+nsPerformanceMetrics
 .
 h
 '
@@ -1606,6 +1616,11 @@ cpp
 '
 '
 nsOpenURIInFrameParams
+.
+cpp
+'
+'
+nsPerformanceMetrics
 .
 cpp
 '
