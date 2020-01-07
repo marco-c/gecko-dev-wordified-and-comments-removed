@@ -587,7 +587,7 @@ fi
 done
 fi
 fi
-AC_SUBST
+AC_SUBST_LIST
 (
 [
 STLPORT_LIBS
