@@ -1269,7 +1269,7 @@ jar
 mn
 '
 ]
-RESOURCE_FILES
+CONTENT_ACCESSIBLE_FILES
 .
 html
 =

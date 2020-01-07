@@ -4449,13 +4449,6 @@ RESPATH
 /
 res
 /
-html
-/
-*
-RESPATH
-/
-res
-/
 language
 .
 properties
