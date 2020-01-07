@@ -3763,13 +3763,6 @@ return
 0
 ;
 }
-getProgressMode
-(
-index
-column
-)
-{
-}
 getCellValue
 (
 index

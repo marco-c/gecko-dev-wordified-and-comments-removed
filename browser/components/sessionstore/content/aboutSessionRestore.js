@@ -2356,13 +2356,6 @@ return
 null
 ;
 }
-getProgressMode
-(
-idx
-column
-)
-{
-}
 cycleHeader
 (
 column

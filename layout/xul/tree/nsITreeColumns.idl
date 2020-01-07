@@ -167,15 +167,9 @@ TYPE_CHECKBOX
 ;
 const
 short
-TYPE_PROGRESSMETER
-=
-3
-;
-const
-short
 TYPE_PASSWORD
 =
-4
+3
 ;
 readonly
 attribute

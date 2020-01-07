@@ -581,16 +581,6 @@ aCol
 )
 {
 }
-getProgressMode
-:
-function
-getProgressMode
-(
-aRow
-aCol
-)
-{
-}
 isContainer
 :
 function
