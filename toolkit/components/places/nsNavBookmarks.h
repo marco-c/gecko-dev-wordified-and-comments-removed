@@ -825,6 +825,15 @@ aValue
 )
 ;
 nsresult
+RemoveFolderChildren
+(
+int64_t
+aFolderId
+uint16_t
+aSource
+)
+;
+nsresult
 GetDescendantChildren
 (
 int64_t
