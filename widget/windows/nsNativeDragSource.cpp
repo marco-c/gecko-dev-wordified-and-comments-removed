@@ -54,6 +54,17 @@ nsIDragService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+DataTransfer
+.
+h
+"
 nsNativeDragSource
 :
 :
