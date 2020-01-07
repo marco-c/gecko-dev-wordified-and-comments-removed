@@ -151,13 +151,6 @@ aURL
 )
 const
 ;
-void
-DispatchStateChange
-(
-ServiceWorkerState
-aState
-)
-;
 #
 ifdef
 XP_WIN
