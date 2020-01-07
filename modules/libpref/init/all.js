@@ -1195,11 +1195,6 @@ etherpad
 /
 pads
 /
-www
-.
-rememberthemilk
-.
-com
 "
 )
 ;
@@ -18699,7 +18694,6 @@ content_privileged_about_uris_without_csp
 "
 "
 blank
-cache
 credits
 home
 logo
