@@ -303,6 +303,9 @@ build_context
 (
 name
 outputFile
+args
+=
+None
 )
 :
     
@@ -411,11 +414,15 @@ image_dir
 outputFile
 "
 "
+args
 )
 def
 build_image
 (
 name
+args
+=
+None
 )
 :
     
@@ -605,6 +612,7 @@ GECKO
 image_dir
 context_path
 name
+args
 )
         
 docker
