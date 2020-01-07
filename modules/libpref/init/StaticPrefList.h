@@ -280,7 +280,7 @@ webkit
 "
 layout_css_prefixes_device_pixel_ratio_webkit
 bool
-false
+true
 )
 VARCACHE_PREF
 (
