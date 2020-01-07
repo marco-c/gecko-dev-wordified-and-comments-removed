@@ -1358,7 +1358,7 @@ wr
 WebRenderAPI
 :
 :
-InitExternalLogHandler
+InitRustLogForGpuProcess
 (
 )
 ;
@@ -2615,7 +2615,7 @@ wr
 WebRenderAPI
 :
 :
-ShutdownExternalLogHandler
+ShutdownRustLogForGpuProcess
 (
 )
 ;

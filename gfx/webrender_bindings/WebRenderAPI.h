@@ -788,13 +788,13 @@ aLayerIndex
 ;
 static
 void
-InitExternalLogHandler
+InitRustLogForGpuProcess
 (
 )
 ;
 static
 void
-ShutdownExternalLogHandler
+ShutdownRustLogForGpuProcess
 (
 )
 ;
