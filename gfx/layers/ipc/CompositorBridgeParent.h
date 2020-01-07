@@ -309,6 +309,9 @@ class
 APZSampler
 ;
 class
+APZUpdater
+;
+class
 AsyncCompositionManager
 ;
 class
@@ -2183,6 +2186,14 @@ GetAPZSampler
 (
 )
 ;
+RefPtr
+<
+APZUpdater
+>
+GetAPZUpdater
+(
+)
+;
 CompositorOptions
 GetOptions
 (
@@ -2731,6 +2742,12 @@ RefPtr
 APZSampler
 >
 mApzSampler
+;
+RefPtr
+<
+APZUpdater
+>
+mApzUpdater
 ;
 RefPtr
 <

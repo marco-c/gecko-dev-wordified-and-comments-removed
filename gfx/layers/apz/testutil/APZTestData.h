@@ -60,6 +60,15 @@ include
 "
 mozilla
 /
+GfxMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ToString
 .
 h

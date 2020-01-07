@@ -1396,6 +1396,12 @@ AssertOnSamplerThread
 )
 const
 ;
+void
+AssertOnUpdaterThread
+(
+)
+const
+;
 bool
 ConvertToGecko
 (
