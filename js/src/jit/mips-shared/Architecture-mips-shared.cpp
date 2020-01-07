@@ -159,6 +159,9 @@ buf
 )
 )
 ;
+(
+void
+)
 fread
 (
 buf
