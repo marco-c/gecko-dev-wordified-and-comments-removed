@@ -280,16 +280,5 @@ initialized
 false
 }
 ]
-"
-PreferencesPane
-"
-:
-{
-"
-visible
-"
-:
-false
-}
 }
 ;
