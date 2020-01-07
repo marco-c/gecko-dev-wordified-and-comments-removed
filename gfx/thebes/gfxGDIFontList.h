@@ -1058,7 +1058,7 @@ aLangGroup
 nsGkAtoms
 :
 :
-el_
+el
 )
 {
 bit

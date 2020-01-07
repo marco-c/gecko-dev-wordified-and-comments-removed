@@ -1022,7 +1022,7 @@ lang
 nsGkAtoms
 :
 :
-list
+list_
 &
 nsGkAtoms
 :
@@ -2979,7 +2979,7 @@ domainofapplication_
 nsGkAtoms
 :
 :
-el_
+el
 &
 nsGkAtoms
 :
@@ -4136,7 +4136,7 @@ order
 nsGkAtoms
 :
 :
-other_
+other
 &
 nsGkAtoms
 :

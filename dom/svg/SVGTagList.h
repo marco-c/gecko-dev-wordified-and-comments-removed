@@ -255,7 +255,7 @@ Script
 )
 SVG_TAG
 (
-set
+set_
 Set
 )
 SVG_TAG

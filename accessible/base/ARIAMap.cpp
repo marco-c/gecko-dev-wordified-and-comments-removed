@@ -1297,7 +1297,7 @@ LINKED
 nsGkAtoms
 :
 :
-list
+list_
 roles
 :
 :
@@ -1881,7 +1881,7 @@ kNoReqStates
 nsGkAtoms
 :
 :
-_switch
+svgSwitch
 roles
 :
 :

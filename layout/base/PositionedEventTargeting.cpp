@@ -993,7 +993,7 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-Remote
+remote
 nsGkAtoms
 :
 :
