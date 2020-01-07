@@ -175,6 +175,7 @@ uint8_t
 ActionCount
 (
 )
+const
 override
 ;
 virtual
@@ -196,6 +197,7 @@ DoAction
 uint8_t
 index
 )
+const
 override
 ;
 virtual

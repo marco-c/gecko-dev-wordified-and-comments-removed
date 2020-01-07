@@ -7786,6 +7786,7 @@ Accessible
 ActionCount
 (
 )
+const
 {
 return
 GetActionRule
@@ -8080,6 +8081,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

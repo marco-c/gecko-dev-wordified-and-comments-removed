@@ -3462,6 +3462,7 @@ XULTreeItemAccessibleBase
 ActionCount
 (
 )
+const
 {
 return
 IsExpandable
@@ -3568,6 +3569,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

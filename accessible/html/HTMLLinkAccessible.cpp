@@ -312,6 +312,7 @@ HTMLLinkAccessible
 ActionCount
 (
 )
+const
 {
 return
 IsLinked
@@ -393,6 +394,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (

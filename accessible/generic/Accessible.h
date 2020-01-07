@@ -2055,6 +2055,7 @@ uint8_t
 ActionCount
 (
 )
+const
 ;
 virtual
 void
@@ -2100,6 +2101,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 ;
 virtual
 KeyBinding

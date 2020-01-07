@@ -1103,6 +1103,7 @@ HTMLSelectOptionAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -1117,6 +1118,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (
@@ -1304,6 +1306,7 @@ HTMLSelectOptGroupAccessible
 ActionCount
 (
 )
+const
 {
 return
 0
@@ -1338,6 +1341,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 return
 false
@@ -1709,6 +1713,7 @@ HTMLComboboxAccessible
 ActionCount
 (
 )
+const
 {
 return
 1
@@ -1723,6 +1728,7 @@ DoAction
 uint8_t
 aIndex
 )
+const
 {
 if
 (
