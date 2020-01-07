@@ -672,16 +672,6 @@ False
 '
 browser
 .
-newtabpage
-.
-introShown
-'
-:
-True
-        
-'
-browser
-.
 safebrowsing
 .
 downloads

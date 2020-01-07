@@ -3003,16 +3003,6 @@ False
 "
 browser
 .
-newtabpage
-.
-introShown
-"
-:
-True
-        
-"
-browser
-.
 pagethumbnails
 .
 capturing_disabled

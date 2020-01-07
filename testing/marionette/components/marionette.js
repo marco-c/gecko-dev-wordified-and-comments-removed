@@ -317,16 +317,6 @@ false
 "
 browser
 .
-newtabpage
-.
-introShown
-"
-true
-]
-[
-"
-browser
-.
 offline
 "
 false
