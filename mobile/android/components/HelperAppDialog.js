@@ -737,6 +737,10 @@ _downloadWithAndroidDownloadManager
 aLauncher
 )
 ;
+}
+}
+finally
+{
 aLauncher
 .
 cancel
@@ -746,10 +750,6 @@ Cr
 NS_BINDING_ABORTED
 )
 ;
-}
-}
-finally
-{
 }
 }
 .
@@ -1160,6 +1160,15 @@ button
 0
 )
 {
+aLauncher
+.
+cancel
+(
+Cr
+.
+NS_BINDING_ABORTED
+)
+;
 return
 ;
 }

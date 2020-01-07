@@ -631,8 +631,7 @@ return
 false
 ;
 }
-get
-sourceHomePageURL
+getSourceHomePageURL
 (
 )
 {

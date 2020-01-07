@@ -13930,7 +13930,7 @@ nsIPresShell
 *
 presShell
 =
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
