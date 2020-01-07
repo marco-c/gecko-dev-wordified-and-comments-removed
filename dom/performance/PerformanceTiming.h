@@ -891,6 +891,9 @@ mInitialized
 bool
 mReportCrossOriginRedirect
 ;
+bool
+mSecureConnection
+;
 }
 ;
 }
