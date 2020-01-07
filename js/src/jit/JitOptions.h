@@ -333,6 +333,9 @@ bool
 spectreObjectMitigationsBarriers
 ;
 bool
+spectreObjectMitigationsMisc
+;
+bool
 spectreStringMitigations
 ;
 bool

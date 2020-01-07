@@ -871,6 +871,17 @@ options
 .
 spectre
 .
+object_mitigations
+.
+misc
+"
+"
+javascript
+.
+options
+.
+spectre
+.
 string_mitigations
 "
 "
