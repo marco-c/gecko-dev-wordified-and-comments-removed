@@ -169,6 +169,7 @@ ReadableStream
 or
 USVString
 )
+?
 body
 optional
 ResponseInit
