@@ -38378,7 +38378,10 @@ TYPE_VECTOR
 {
 imgWidth
 =
+MOZ_KnownLive
+(
 element
+)
 -
 >
 Width
@@ -38387,7 +38390,10 @@ Width
 ;
 imgHeight
 =
+MOZ_KnownLive
+(
 element
+)
 -
 >
 Height
