@@ -113,22 +113,6 @@ pub
 ]
     
 "
-virtualenv_modules
-"
-:
-[
-'
-pypiwin32
-'
-'
-talos
-'
-'
-mozinstall
-'
-]
-    
-"
 exes
 "
 :
