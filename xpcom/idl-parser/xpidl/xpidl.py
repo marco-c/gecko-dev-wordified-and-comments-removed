@@ -1950,7 +1950,8 @@ Exception
 "
 "
 "
-Thie
+    
+This
 exception
 is
 raised
@@ -1965,8 +1966,10 @@ be
 safely
 exposed
 to
+    
 rust
 code
+    
 "
 "
 "
@@ -4760,6 +4763,7 @@ function
 '
 "
 %
+                            
 self
 .
 name
@@ -4880,6 +4884,9 @@ scriptable
 but
 derives
 from
+"
+                               
+"
 non
 -
 scriptable
@@ -4907,6 +4914,7 @@ True
 )
             
 if
+(
 self
 .
 attributes
@@ -4919,12 +4927,14 @@ attributes
 .
 builtinclass
 and
+                
 not
 self
 .
 attributes
 .
 builtinclass
+)
 :
                 
 raise
@@ -4942,6 +4952,9 @@ builtinclass
 but
 derives
 from
+"
+                               
+"
 builtinclass
 '
 %
@@ -4949,8 +4962,8 @@ s
 '
 "
 %
+                               
 (
-                    
 self
 .
 name
@@ -6852,23 +6865,26 @@ self
 .
 infallible
 and
-not
 self
 .
 realtype
 .
 kind
+not
 in
 [
 '
 builtin
 '
+                                                          
 '
 interface
 '
+                                                          
 '
 forward
 '
+                                                          
 '
 webidl
 '
@@ -8075,6 +8091,9 @@ Empty
 '
 Null
 '
+"
+                                   
+"
 or
 '
 Stringify
@@ -8524,6 +8543,7 @@ kwargs
         
 except
 IDLError
+as
 e
 :
             
@@ -8540,6 +8560,7 @@ location
         
 except
 TypeError
+as
 e
 :
             
@@ -8618,6 +8639,7 @@ kwargs
         
 except
 IDLError
+as
 e
 :
             
@@ -8634,6 +8656,7 @@ location
         
 except
 TypeError
+as
 e
 :
             
@@ -10567,7 +10590,7 @@ doccomments
 )
         
 def
-l
+loc
 (
 )
 :
@@ -10641,7 +10664,7 @@ a
 base
 "
                                
-l
+loc
 (
 )
 )
@@ -10658,7 +10681,7 @@ name
 name
 location
 =
-l
+loc
 (
 )
 doccomments
@@ -10694,7 +10717,7 @@ body
                              
 location
 =
-l
+loc
 (
 )
                              
@@ -12201,6 +12224,9 @@ braces
 (
 }
 )
+"
+                
+"
 or
 both
 "
@@ -12507,6 +12533,7 @@ argv
 :
         
 print
+(
 "
 Parsing
 %
@@ -12514,6 +12541,7 @@ s
 "
 %
 f
+)
         
 p
 .

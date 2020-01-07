@@ -241,6 +241,7 @@ out2
 :
                     
 print
+(
 "
 diff
 %
@@ -248,6 +249,7 @@ s
 "
 %
 f
+)
                     
 for
 line
@@ -282,7 +284,9 @@ lineterm
 :
                         
 print
+(
 line
+)
                 
 self
 .
@@ -2682,6 +2686,7 @@ Method
 "
 StringWithSizeMethod
 "
+                                    
 xpt
 .
 Param
@@ -2803,7 +2808,7 @@ Tags
 int32
 )
 )
-        
+                                    
 ]
 )
 )

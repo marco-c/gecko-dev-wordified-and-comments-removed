@@ -14,10 +14,6 @@ file
 "
 "
 import
-os
-import
-sys
-import
 xpidl
 import
 json

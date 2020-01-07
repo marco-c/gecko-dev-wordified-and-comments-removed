@@ -4237,6 +4237,7 @@ _descriptor
 unpack_from
 (
 map
+                                                                                          
 start
 )
         
@@ -4652,6 +4653,8 @@ size_is_arg_num
 length_is_arg_num
 )
 =
+(
+            
 WideStringWithSizeType
 .
 _descriptor
@@ -4659,7 +4662,9 @@ _descriptor
 unpack_from
 (
 map
+                                                           
 start
+)
 )
         
 offset
@@ -7610,6 +7615,7 @@ name
 )
         
 return
+(
 "
 {
 %
@@ -7631,9 +7637,10 @@ d
 }
 "
 %
+                
 (
 string_index
-                                                                 
+                 
 self
 .
 type
@@ -7643,7 +7650,7 @@ code_gen
 typelib
 cd
 )
-                                                                 
+                 
 Constant
 .
 memberTypeMap
@@ -7654,10 +7661,11 @@ type
 .
 tag
 ]
-                                                                 
+                 
 self
 .
 value
+)
 )
     
 def
@@ -7924,6 +7932,9 @@ or
 constants
 with
 an
+"
+                    
+"
 unresolved
 IID
 "
@@ -7971,6 +7982,7 @@ self
 :
         
 return
+(
 "
 Interface
 (
@@ -7993,6 +8005,7 @@ s
 )
 "
 %
+                
 (
 self
 .
@@ -8006,6 +8019,7 @@ namespace
 self
 .
 methods
+)
 )
     
 def
@@ -9923,6 +9937,7 @@ expected
 d
 "
 %
+                
 (
 expected_size
 file_length
@@ -10481,6 +10496,9 @@ parameter
 %
 d
 references
+"
+                                        
+"
 interface
 %
 s
@@ -10492,7 +10510,7 @@ typelib
 "
 %
 (
-                            
+                                            
 i
 .
 name
@@ -10547,6 +10565,9 @@ interface
 %
 s
 not
+"
+                                    
+"
 present
 in
 typelib
@@ -10554,7 +10575,7 @@ typelib
 "
 %
 (
-                        
+                                        
 i
 .
 name
@@ -12754,6 +12775,7 @@ iface
 )
                 
 elif
+(
 isinstance
 (
 p
@@ -12762,6 +12784,7 @@ type
 ArrayType
 )
 and
+                      
 isinstance
 (
 p
@@ -12770,6 +12793,7 @@ type
 .
 element_type
 InterfaceType
+)
 )
 :
                     

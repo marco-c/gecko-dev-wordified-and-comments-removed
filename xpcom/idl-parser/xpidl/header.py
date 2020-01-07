@@ -3559,10 +3559,10 @@ methods
 )
         
 elif
-not
 member
 .
 kind
+not
 in
 (
 '
@@ -3901,10 +3901,10 @@ methods
 )
         
 elif
-not
 member
 .
 kind
+not
 in
 (
 '
@@ -4145,8 +4145,6 @@ remove
 filename
 )
     
-p
-=
 xpidl
 .
 IDLParser
