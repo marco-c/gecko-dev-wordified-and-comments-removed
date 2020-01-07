@@ -30,6 +30,13 @@ NewLinkAttributes
 (
 )
 ;
+static
+nsHtml5HtmlAttributes
+*
+NewMetaViewportAttributes
+(
+)
+;
 }
 ;
 #
