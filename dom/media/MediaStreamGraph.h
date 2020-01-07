@@ -1860,12 +1860,12 @@ aKnownTime
 )
 ;
 void
-FinishWithLockHeld
+FinishPendingWithLockHeld
 (
 )
 ;
 void
-Finish
+FinishPending
 (
 )
 {
@@ -1875,7 +1875,7 @@ lock
 mMutex
 )
 ;
-FinishWithLockHeld
+FinishPendingWithLockHeld
 (
 )
 ;
@@ -2216,7 +2216,7 @@ bool
 mPullEnabled
 ;
 bool
-mUpdateFinished
+mFinishPending
 ;
 bool
 mNeedsMixing
@@ -2786,12 +2786,12 @@ nullptr
 )
 ;
 void
-Finish
+QueueFinish
 (
 )
 ;
 void
-SetAutofinish
+QueueSetAutofinish
 (
 bool
 aAutofinish

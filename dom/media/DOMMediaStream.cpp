@@ -4616,7 +4616,7 @@ CreateTrackUnionStream
 mOwnedStream
 -
 >
-SetAutofinish
+QueueSetAutofinish
 (
 true
 )
@@ -4684,7 +4684,7 @@ CreateTrackUnionStream
 mPlaybackStream
 -
 >
-SetAutofinish
+QueueSetAutofinish
 (
 true
 )

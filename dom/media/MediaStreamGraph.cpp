@@ -7351,7 +7351,7 @@ AsSourceStream
 source
 -
 >
-Finish
+FinishPending
 (
 )
 ;
@@ -12782,7 +12782,7 @@ mPullEnabled
 (
 false
 )
-mUpdateFinished
+mFinishPending
 (
 false
 )
@@ -13212,7 +13212,7 @@ t
 bool
 finished
 =
-mUpdateFinished
+mFinishPending
 ;
 bool
 shouldNotifyTrackCreated
@@ -15585,7 +15585,7 @@ void
 SourceMediaStream
 :
 :
-FinishWithLockHeld
+FinishPendingWithLockHeld
 (
 )
 {
@@ -15595,7 +15595,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-mUpdateFinished
+mFinishPending
 =
 true
 ;
@@ -15862,7 +15862,7 @@ Clear
 (
 )
 ;
-FinishWithLockHeld
+FinishPendingWithLockHeld
 (
 )
 ;
@@ -17098,7 +17098,7 @@ void
 ProcessedMediaStream
 :
 :
-Finish
+QueueFinish
 (
 )
 {
@@ -17167,7 +17167,7 @@ void
 ProcessedMediaStream
 :
 :
-SetAutofinish
+QueueSetAutofinish
 (
 bool
 aAutofinish
