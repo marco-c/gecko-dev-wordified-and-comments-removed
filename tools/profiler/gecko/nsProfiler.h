@@ -48,6 +48,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -170,6 +179,11 @@ FinishGathering
 ;
 void
 ResetGathering
+(
+)
+;
+void
+ClearExpiredExitProfiles
 (
 )
 ;
