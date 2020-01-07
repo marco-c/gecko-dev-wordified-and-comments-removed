@@ -1377,7 +1377,9 @@ Arena
 )
 {
 return
-mPresContext
+PresContext
+(
+)
 -
 >
 PresShell

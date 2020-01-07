@@ -312,7 +312,7 @@ aComputedValues
 ;
 nsPresContext
 *
-PresContextForFrame
+PresContext
 (
 )
 const

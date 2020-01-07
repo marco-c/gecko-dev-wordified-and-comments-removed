@@ -1822,7 +1822,7 @@ Style
 )
 -
 >
-PresContextForFrame
+PresContext
 (
 )
 ;

@@ -5707,7 +5707,6 @@ nsLayoutUtils
 GetFontMetricsForComputedStyle
 (
 textContext
-presContext
 )
 ;
 nscoord
@@ -7421,7 +7420,6 @@ nsLayoutUtils
 GetFontMetricsForComputedStyle
 (
 textContext
-presContext
 )
 ;
 AdjustForCellText
@@ -8017,9 +8015,6 @@ nsLayoutUtils
 GetFontMetricsForComputedStyle
 (
 textContext
-PresContext
-(
-)
 )
 ;
 nscoord
@@ -17186,9 +17181,6 @@ nsLayoutUtils
 GetFontMetricsForComputedStyle
 (
 textContext
-PresContext
-(
-)
 )
 ;
 nscoord

@@ -65,9 +65,6 @@ ComputedStyleContainsFont
 ComputedStyle
 *
 aComputedStyle
-nsPresContext
-*
-aPresContext
 const
 gfxUserFontSet
 *
@@ -163,7 +160,6 @@ nsLayoutUtils
 GetFontMetricsForComputedStyle
 (
 aComputedStyle
-aPresContext
 1
 .
 0f
@@ -206,9 +202,9 @@ gfxUserFontEntry
 aFont
 )
 {
-nsPresContext
+gfxUserFontSet
 *
-pc
+ufs
 =
 aFrame
 -
@@ -216,12 +212,6 @@ aFrame
 PresContext
 (
 )
-;
-gfxUserFontSet
-*
-ufs
-=
-pc
 -
 >
 GetUserFontSet
@@ -238,7 +228,6 @@ aFrame
 Style
 (
 )
-pc
 ufs
 aFont
 )
@@ -281,7 +270,6 @@ if
 ComputedStyleContainsFont
 (
 extraContext
-pc
 ufs
 aFont
 )
