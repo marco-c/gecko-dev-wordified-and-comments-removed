@@ -6221,6 +6221,11 @@ ScrollViewChangeEvent
 webidl
 '
 '
+SecurityPolicyViolationEvent
+.
+webidl
+'
+'
 StyleRuleChangeEvent
 .
 webidl
