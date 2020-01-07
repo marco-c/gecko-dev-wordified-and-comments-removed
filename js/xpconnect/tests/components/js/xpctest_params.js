@@ -258,9 +258,6 @@ f_is
 testInterfaceArray
 :
 f_is
-testJsvalArray
-:
-f_is
 testSizedString
 :
 f_is
