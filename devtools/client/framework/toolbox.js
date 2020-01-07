@@ -191,8 +191,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -2045,10 +2043,7 @@ id
 -
 ready
 "
-(
-e
 initializedPanel
-)
 =
 >
 {
@@ -9868,7 +9863,6 @@ this
 .
 _updateFrames
 (
-null
 {
 frames
 :
@@ -10334,7 +10328,6 @@ _updateFrames
 :
 function
 (
-event
 data
 )
 {
@@ -11114,7 +11107,6 @@ _toolRegistered
 :
 function
 (
-event
 toolId
 )
 {
@@ -11234,7 +11226,6 @@ _toolUnregistered
 :
 function
 (
-event
 toolId
 )
 {
@@ -11456,7 +11447,6 @@ _onNewSelectedNodeFront
 :
 function
 (
-evt
 )
 {
 this
@@ -11475,7 +11465,6 @@ _onInspectObject
 :
 function
 (
-evt
 packet
 )
 {

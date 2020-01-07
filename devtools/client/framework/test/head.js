@@ -42,8 +42,6 @@ devtools
 /
 shared
 /
-old
--
 event
 -
 emitter
@@ -278,8 +276,8 @@ item
 value
 ;
 }
+async
 function
-*
 openScratchpadWindow
 (
 )
@@ -305,7 +303,7 @@ openScratchpad
 (
 )
 ;
-yield
+await
 once
 (
 win
@@ -795,7 +793,6 @@ target
 function
 sourceHandler
 (
-_
 sourceEvent
 )
 {

@@ -334,7 +334,6 @@ this
 .
 _onSourceUpdated
 (
-null
 {
 source
 }
@@ -527,7 +526,6 @@ _onSourceUpdated
 =
 function
 (
-_
 sourceEvent
 )
 {

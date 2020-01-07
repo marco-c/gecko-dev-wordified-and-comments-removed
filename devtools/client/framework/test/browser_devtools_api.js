@@ -202,7 +202,6 @@ toolId1
 init
 "
 (
-event
 toolbox
 iframe
 )
@@ -229,10 +228,7 @@ toolId1
 -
 init
 "
-(
-innerEvent
 innerIframe
-)
 =
 >
 {
@@ -269,7 +265,6 @@ toolId1
 ready
 "
 (
-event
 toolbox
 panel
 )
@@ -296,10 +291,7 @@ toolId1
 -
 ready
 "
-(
-innerEvent
 innerPanel
-)
 =
 >
 {
@@ -555,7 +547,6 @@ toolId2
 init
 "
 (
-event
 toolbox
 iframe
 )
@@ -582,10 +573,7 @@ toolId2
 -
 init
 "
-(
-innerEvent
 innerIframe
-)
 =
 >
 {
@@ -622,7 +610,6 @@ toolId2
 build
 "
 (
-event
 toolbox
 panel
 iframe
@@ -651,7 +638,6 @@ toolId2
 build
 "
 (
-innerEvent
 innerPanel
 innerIframe
 )
@@ -691,7 +677,6 @@ toolId2
 ready
 "
 (
-event
 toolbox
 panel
 )
@@ -718,10 +703,7 @@ toolId2
 -
 ready
 "
-(
-innerEvent
 innerPanel
-)
 =
 >
 {
@@ -842,12 +824,8 @@ toolbox
 var
 continueTests
 =
-Task
-.
 async
-(
 function
-*
 (
 toolbox
 panel
@@ -959,7 +937,7 @@ select
 let
 unregisteredTool
 =
-yield
+await
 new
 Promise
 (
@@ -976,10 +954,7 @@ tool
 -
 unregistered
 "
-(
-e
 id
-)
 =
 >
 resolve
@@ -998,7 +973,7 @@ toolId2
 }
 )
 ;
-yield
+await
 toolSelected
 ;
 is
@@ -1071,7 +1046,7 @@ event
 let
 registeredTool
 =
-yield
+await
 new
 Promise
 (
@@ -1088,10 +1063,7 @@ tool
 -
 registered
 "
-(
-e
 id
-)
 =
 >
 resolve
@@ -1189,7 +1161,6 @@ toolbox
 )
 ;
 }
-)
 ;
 function
 destroyToolbox

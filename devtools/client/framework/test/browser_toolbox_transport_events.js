@@ -364,7 +364,6 @@ received1
 function
 send1
 (
-eventId
 packet
 )
 {
@@ -379,7 +378,6 @@ packet
 function
 onPacket1
 (
-eventId
 packet
 )
 {
@@ -394,7 +392,6 @@ packet
 function
 onToolboxCreated
 (
-eventId
 toolbox
 )
 {
@@ -449,7 +446,8 @@ addOneTimeListener
 "
 closed
 "
-event
+(
+)
 =
 >
 {
@@ -492,7 +490,6 @@ received2
 function
 send2
 (
-eventId
 packet
 )
 {
@@ -507,7 +504,6 @@ packet
 function
 onPacket2
 (
-eventId
 packet
 )
 {
@@ -559,7 +555,8 @@ addOneTimeListener
 "
 closed
 "
-event
+(
+)
 =
 >
 {

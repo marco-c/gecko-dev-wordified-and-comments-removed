@@ -125,7 +125,6 @@ function
 function
 toolRegistered
 (
-event
 toolId
 )
 {
@@ -375,7 +374,6 @@ tool
 function
 toolUnregistered
 (
-event
 toolId
 )
 {

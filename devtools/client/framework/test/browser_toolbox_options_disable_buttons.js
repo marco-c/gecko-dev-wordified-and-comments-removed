@@ -261,10 +261,7 @@ options
 -
 selected
 "
-(
-event
 tool
-)
 =
 >
 {

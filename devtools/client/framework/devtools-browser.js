@@ -3272,7 +3272,6 @@ registered
 "
 function
 (
-ev
 toolId
 )
 {
@@ -3315,7 +3314,6 @@ unregistered
 "
 function
 (
-ev
 toolId
 )
 {
