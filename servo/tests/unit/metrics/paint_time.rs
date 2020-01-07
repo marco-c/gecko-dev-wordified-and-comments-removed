@@ -404,6 +404,7 @@ maybe_observe_paint_time
 dummy_profiler_metadata_factory
 epoch
 &
+*
 display_list
 )
 ;

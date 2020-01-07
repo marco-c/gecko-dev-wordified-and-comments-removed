@@ -5737,6 +5737,7 @@ maybe_observe_paint_time
 self
 epoch
 &
+*
 display_list
 )
 ;
