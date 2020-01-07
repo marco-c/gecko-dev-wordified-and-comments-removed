@@ -798,20 +798,6 @@ locale
 -
 *
 endif
-ifneq
-'
-(
-or
-(
-MOZ_DEV_EDITION
-)
-(
-NIGHTLY_BUILD
-)
-)
-'
-'
-'
 (
 MAKE
 )
@@ -835,7 +821,6 @@ XPI_NAME
 locale
 -
 *
-endif
 (
 MAKE
 )
@@ -1194,8 +1179,6 @@ chrome
 AB_CD
 =
 *
-ifdef
-NIGHTLY_BUILD
 (
 MAKE
 )
@@ -1215,7 +1198,6 @@ chrome
 AB_CD
 =
 *
-endif
 package
 -
 win32
