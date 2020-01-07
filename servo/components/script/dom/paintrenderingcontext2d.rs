@@ -529,6 +529,13 @@ SendData
 (
 sender
 )
+self
+.
+context
+.
+get_canvas_id
+(
+)
 )
 ;
 let

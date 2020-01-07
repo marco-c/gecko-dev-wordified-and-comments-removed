@@ -13,6 +13,7 @@ canvas
 :
 {
 CanvasGradientStop
+CanvasId
 LinearGradientStyle
 RadialGradientStyle
 }
@@ -2777,6 +2778,12 @@ unsafe_no_jsmanaged_fields
 !
 (
 InteractiveWindow
+)
+;
+unsafe_no_jsmanaged_fields
+!
+(
+CanvasId
 )
 ;
 unsafe

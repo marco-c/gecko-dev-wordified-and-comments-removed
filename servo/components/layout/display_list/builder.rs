@@ -8476,6 +8476,13 @@ SendData
 (
 sender
 )
+canvas_fragment_info
+.
+canvas_id
+.
+clone
+(
+)
 )
 )
 .
