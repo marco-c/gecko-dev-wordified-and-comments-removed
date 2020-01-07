@@ -14107,10 +14107,6 @@ if
 NegOperation
 (
 cx
-script
-REGS
-.
-pc
 val
 res
 )
@@ -14580,10 +14576,6 @@ if
 ToIdOperation
 (
 cx
-script
-REGS
-.
-pc
 idval
 res
 )
@@ -14925,11 +14917,6 @@ MOZ_ALWAYS_FALSE
 ThrowInitializedThis
 (
 cx
-REGS
-.
-fp
-(
-)
 )
 )
 ;
@@ -28577,8 +28564,6 @@ ThrowInitializedThis
 JSContext
 *
 cx
-AbstractFramePtr
-frame
 )
 {
 JS_ReportErrorNumberASCII

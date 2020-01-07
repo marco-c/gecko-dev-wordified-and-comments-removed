@@ -1272,17 +1272,11 @@ public
 explicit
 RegExpCompartment
 (
-Zone
-*
-zone
 )
 ;
 void
 sweep
 (
-JSRuntime
-*
-rt
 )
 ;
 ArrayObject

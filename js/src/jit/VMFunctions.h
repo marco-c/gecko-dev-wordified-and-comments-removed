@@ -5340,9 +5340,6 @@ BaselineThrowInitializedThis
 JSContext
 *
 cx
-BaselineFrame
-*
-frame
 )
 ;
 MOZ_MUST_USE

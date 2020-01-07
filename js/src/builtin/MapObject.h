@@ -533,9 +533,6 @@ MOZ_MUST_USE
 bool
 getKeysAndValuesInterleaved
 (
-JSContext
-*
-cx
 HandleObject
 obj
 JS
@@ -1716,9 +1713,6 @@ isBuiltinAdd
 (
 HandleValue
 add
-JSContext
-*
-cx
 )
 ;
 static
@@ -2120,8 +2114,6 @@ bool
 )
 (
 HandleValue
-JSContext
-*
 )
 ;
 template
@@ -2290,7 +2282,6 @@ if
 isBuiltinOp
 (
 add
-cx
 )
 )
 return

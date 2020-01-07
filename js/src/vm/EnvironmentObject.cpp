@@ -13410,9 +13410,6 @@ DebugEnvironments
 :
 sweep
 (
-JSRuntime
-*
-rt
 )
 {
 for

@@ -1574,9 +1574,6 @@ NativeObject
 :
 ensureDenseInitializedLengthNoPackedCheck
 (
-JSContext
-*
-cx
 uint32_t
 index
 uint32_t
@@ -1735,7 +1732,6 @@ cx
 ;
 ensureDenseInitializedLengthNoPackedCheck
 (
-cx
 index
 extra
 )
@@ -1928,7 +1924,6 @@ currentCapacity
 {
 ensureDenseInitializedLengthNoPackedCheck
 (
-cx
 index
 1
 )
@@ -1994,7 +1989,6 @@ currentCapacity
 {
 ensureDenseInitializedLengthNoPackedCheck
 (
-cx
 index
 extra
 )
@@ -2032,7 +2026,6 @@ result
 ;
 ensureDenseInitializedLengthNoPackedCheck
 (
-cx
 index
 extra
 )
