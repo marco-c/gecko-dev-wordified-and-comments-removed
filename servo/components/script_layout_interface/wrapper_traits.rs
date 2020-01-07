@@ -2319,10 +2319,6 @@ empty
 &
 ServoMetricsProvider
 )
-.
-clone
-(
-)
 }
 PseudoElementCascadeType
 :
@@ -2343,7 +2339,6 @@ context
 guards
 unsafe
 {
-&
 self
 .
 unsafe_get
@@ -2370,10 +2365,6 @@ None
 )
 .
 unwrap
-(
-)
-.
-clone
 (
 )
 }
@@ -2420,14 +2411,6 @@ PseudoElement
 :
 :
 Selection
-)
-.
-map
-(
-|
-s
-|
-s
 )
 .
 unwrap_or

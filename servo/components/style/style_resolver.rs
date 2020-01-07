@@ -1884,7 +1884,6 @@ stylist
 .
 push_applicable_declarations
 (
-&
 self
 .
 element
@@ -2280,7 +2279,6 @@ stylist
 .
 push_applicable_declarations
 (
-&
 self
 .
 element
