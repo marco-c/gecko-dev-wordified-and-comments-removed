@@ -147,7 +147,14 @@ document
 headers
 -
 panel
+.
+tree
+-
+section
+.
+treeLabel
 "
+3
 )
 ;
 EventUtils

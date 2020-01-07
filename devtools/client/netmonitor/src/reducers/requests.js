@@ -430,6 +430,11 @@ requestPostData
 clonedRequest
 .
 requestPostData
+requestPostDataAvailable
+:
+clonedRequest
+.
+requestPostDataAvailable
 isCustom
 :
 true
