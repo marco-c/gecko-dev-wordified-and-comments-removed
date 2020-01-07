@@ -429,9 +429,6 @@ requestHeadersFromUploadStream
 requestCookies
 "
 "
-requestCookiesAvailable
-"
-"
 requestPostData
 "
 "
@@ -442,9 +439,6 @@ responseHeaders
 "
 "
 responseCookies
-"
-"
-responseCookiesAvailable
 "
 "
 responseContent

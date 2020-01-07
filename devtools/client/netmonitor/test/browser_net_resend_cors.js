@@ -132,7 +132,8 @@ wait
 waitForNetworkEvents
 (
 monitor
-2
+1
+1
 )
 ;
 yield
@@ -277,6 +278,7 @@ waitForNetworkEvents
 (
 monitor
 1
+0
 )
 ;
 ITEMS

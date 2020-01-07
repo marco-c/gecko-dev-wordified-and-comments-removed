@@ -433,9 +433,8 @@ COOKIES_TITLE
 CookiesPanel
 (
 {
-connector
-openLink
 request
+openLink
 }
 )
 )

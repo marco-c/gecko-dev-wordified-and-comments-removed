@@ -476,12 +476,6 @@ startedMillis
 "
 totalTime
 "
-"
-requestCookies
-"
-"
-responseCookies
-"
 ]
 ;
 const
@@ -515,13 +509,6 @@ propTypes
 {
 return
 {
-connector
-:
-PropTypes
-.
-object
-.
-isRequired
 columns
 :
 PropTypes
@@ -739,7 +726,6 @@ render
 {
 let
 {
-connector
 columns
 item
 index
@@ -998,7 +984,6 @@ cookies
 RequestListColumnCookies
 (
 {
-connector
 item
 }
 )
@@ -1015,7 +1000,6 @@ setCookies
 RequestListColumnSetCookies
 (
 {
-connector
 item
 }
 )
