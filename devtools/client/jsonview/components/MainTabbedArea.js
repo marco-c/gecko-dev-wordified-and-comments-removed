@@ -378,6 +378,15 @@ this
 state
 .
 searchFilter
+dataSize
+:
+this
+.
+state
+.
+jsonText
+.
+length
 }
 )
 )
