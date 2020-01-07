@@ -7867,16 +7867,7 @@ f
 =
 files
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 var
 name

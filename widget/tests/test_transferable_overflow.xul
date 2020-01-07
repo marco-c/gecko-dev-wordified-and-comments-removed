@@ -733,16 +733,7 @@ fdFile
 =
 de
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 var
 fileSize

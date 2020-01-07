@@ -96,14 +96,7 @@ newPath
 =
 drives
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-nsIFile
-)
+nextFile
 .
 path
 ;

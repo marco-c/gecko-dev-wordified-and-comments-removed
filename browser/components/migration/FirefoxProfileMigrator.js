@@ -1556,16 +1556,7 @@ file
 =
 enumerator
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 if
 (

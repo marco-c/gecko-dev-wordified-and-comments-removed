@@ -2442,16 +2442,7 @@ entry
 =
 files
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 if
 (

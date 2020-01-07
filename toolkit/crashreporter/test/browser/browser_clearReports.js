@@ -685,16 +685,7 @@ file
 =
 entries
 .
-getNext
-(
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIFile
-)
+nextFile
 ;
 let
 index
