@@ -466,6 +466,11 @@ about
 blank
 "
 ACTIVITY_STREAM_FLAGS
+|
+nsIAboutModule
+:
+:
+MAKE_LINKABLE
 }
 {
 "
