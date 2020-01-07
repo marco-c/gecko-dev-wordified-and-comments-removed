@@ -569,16 +569,11 @@ NodeIterator
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMNodeIterator
+nsIMutationObserver
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIMutationObserver
-)
-NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
-(
 nsISupports
-nsIDOMNodeIterator
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
