@@ -4063,7 +4063,13 @@ sourceObject
 AutoGCRooter
 (
 cx
-PARSER
+AutoGCRooter
+:
+:
+Tag
+:
+:
+Parser
 )
 context
 (

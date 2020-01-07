@@ -145,7 +145,13 @@ usedNames
 AutoGCRooter
 (
 cx
-BINPARSER
+AutoGCRooter
+:
+:
+Tag
+:
+:
+BinParser
 )
 cx_
 (
