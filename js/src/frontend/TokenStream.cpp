@@ -4982,7 +4982,7 @@ class
 AnyCharsAccess
 >
 uint32_t
-TokenStreamSpecific
+GeneralTokenStreamChars
 <
 CharT
 AnyCharsAccess
@@ -5183,7 +5183,7 @@ class
 AnyCharsAccess
 >
 uint32_t
-TokenStreamSpecific
+GeneralTokenStreamChars
 <
 CharT
 AnyCharsAccess
@@ -5197,6 +5197,20 @@ uint32_t
 codePoint
 )
 {
+MOZ_ASSERT
+(
+sourceUnits
+.
+previousCodeUnit
+(
+)
+=
+=
+'
+{
+'
+)
+;
 int32_t
 c
 =
@@ -5386,7 +5400,7 @@ class
 AnyCharsAccess
 >
 uint32_t
-TokenStreamSpecific
+GeneralTokenStreamChars
 <
 CharT
 AnyCharsAccess
@@ -5448,7 +5462,7 @@ class
 AnyCharsAccess
 >
 bool
-TokenStreamSpecific
+GeneralTokenStreamChars
 <
 CharT
 AnyCharsAccess
