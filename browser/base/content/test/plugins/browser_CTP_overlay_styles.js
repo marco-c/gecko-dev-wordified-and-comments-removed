@@ -355,8 +355,6 @@ Assert
 .
 ok
 (
-!
-!
 overlay
 .
 classList
