@@ -119,14 +119,6 @@ inIDOMUtils
 :
 nsISupports
 {
-nsIDOMFontFaceList
-getUsedFontFaces
-(
-in
-nsIDOMRange
-aRange
-)
-;
 /
 *
 *

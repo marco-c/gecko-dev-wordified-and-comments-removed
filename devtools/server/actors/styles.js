@@ -1180,7 +1180,7 @@ actualNode
 let
 fonts
 =
-DOMUtils
+InspectorUtils
 .
 getUsedFontFaces
 (
@@ -1215,11 +1215,9 @@ let
 font
 =
 fonts
-.
-item
-(
+[
 i
-)
+]
 ;
 let
 fontFace
