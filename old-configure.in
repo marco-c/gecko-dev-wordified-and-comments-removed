@@ -7166,6 +7166,8 @@ LIBS
 -
 luuid
 -
+lusp10
+-
 lgdi32
 -
 lwinmm

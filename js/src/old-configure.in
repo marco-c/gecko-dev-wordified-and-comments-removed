@@ -6005,6 +6005,8 @@ LIBS
 "
 LIBS
 -
+lusp10
+-
 lgdi32
 -
 lwinmm
