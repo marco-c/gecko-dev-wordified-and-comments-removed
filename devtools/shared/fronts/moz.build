@@ -144,11 +144,6 @@ emulation
 js
 '
 '
-eventlooplag
-.
-js
-'
-'
 framerate
 .
 js
