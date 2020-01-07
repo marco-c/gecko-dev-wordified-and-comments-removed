@@ -286,6 +286,9 @@ getBoolPref
 (
 PREF_IMPORT_BOOKMARKS_HTML
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 }

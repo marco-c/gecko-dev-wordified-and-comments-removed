@@ -734,6 +734,9 @@ test
 empty
 "
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -756,6 +759,9 @@ test
 empty
 "
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -778,6 +784,9 @@ test
 empty
 "
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -883,6 +892,9 @@ language
 de
 "
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -909,6 +921,9 @@ language
 reset
 "
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -935,6 +950,9 @@ locale
 reset
 "
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -1128,6 +1146,9 @@ Ci
 .
 nsIPrefLocalizedString
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -1155,6 +1176,9 @@ Ci
 .
 nsIPrefLocalizedString
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert
@@ -1182,6 +1206,9 @@ Ci
 .
 nsIPrefLocalizedString
 )
+/
+NS_ERROR_UNEXPECTED
+/
 )
 ;
 Assert

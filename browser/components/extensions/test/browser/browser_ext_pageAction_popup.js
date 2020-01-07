@@ -1594,7 +1594,10 @@ extension
 startup
 (
 )
-null
+/
+startup
+failed
+/
 "
 Manifest
 rejected

@@ -402,7 +402,11 @@ Assert
 rejects
 (
 p1
-null
+/
+Save
+state
+timeout
+/
 "
 [
 Test
@@ -425,7 +429,11 @@ rejects
 promiseSaveState
 (
 )
-null
+/
+Save
+state
+timeout
+/
 "
 [
 Test

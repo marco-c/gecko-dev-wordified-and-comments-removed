@@ -188,6 +188,12 @@ win
 {
 }
 )
+/
+Window
+is
+not
+tracked
+/
 "
 we
 '
@@ -222,6 +228,12 @@ foo
 baz
 "
 )
+/
+Window
+is
+not
+tracked
+/
 "
 we
 '

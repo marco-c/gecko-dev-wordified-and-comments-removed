@@ -213,14 +213,6 @@ files
 "
 browser
 /
-components
-/
-*
-*
-"
-"
-browser
-/
 extensions
 /
 formautofill
