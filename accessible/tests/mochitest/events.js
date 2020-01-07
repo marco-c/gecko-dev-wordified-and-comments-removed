@@ -926,7 +926,6 @@ event
 ;
 }
 else
-{
 if
 (
 checker
@@ -968,7 +967,6 @@ handled
 .
 )
 ;
-}
 }
 }
 }

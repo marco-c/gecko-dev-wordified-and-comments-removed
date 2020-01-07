@@ -2474,7 +2474,6 @@ false
 }
 }
 else
-{
 if
 (
 received
@@ -2522,7 +2521,6 @@ matches
 =
 false
 ;
-}
 }
 }
 var

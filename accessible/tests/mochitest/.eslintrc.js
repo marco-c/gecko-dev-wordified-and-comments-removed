@@ -57,17 +57,6 @@ error
 "
 no
 -
-lonely
--
-if
-"
-:
-"
-off
-"
-"
-no
--
 nested
 -
 ternary
