@@ -185,8 +185,6 @@ secs
 1000
 }
         
-timeouts
-=
 self
 .
 session

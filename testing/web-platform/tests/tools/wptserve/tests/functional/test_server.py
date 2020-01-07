@@ -52,8 +52,6 @@ as
 cm
 :
             
-resp
-=
 self
 .
 request
@@ -269,8 +267,6 @@ as
 cm
 :
             
-resp
-=
 self
 .
 request

@@ -303,8 +303,6 @@ env_options
                                          
 env_extras
 )
-as
-test_environment
 :
             
 start

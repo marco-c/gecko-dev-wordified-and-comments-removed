@@ -1487,16 +1487,6 @@ dpi
 )
 :
         
-timeout
-=
-test
-.
-timeout
-*
-self
-.
-timeout_multiplier
-        
 key
 =
 (
@@ -2499,8 +2489,6 @@ start
 (
 )
         
-flag
-=
 self
 .
 result_flag
@@ -3447,8 +3435,6 @@ payload
             
 except
 Exception
-as
-e
 :
                 
 self

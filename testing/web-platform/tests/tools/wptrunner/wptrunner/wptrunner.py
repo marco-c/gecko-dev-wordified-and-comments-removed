@@ -697,11 +697,6 @@ logger
 test_paths
 )
     
-rv
-=
-[
-]
-    
 ssl_env
 =
 env

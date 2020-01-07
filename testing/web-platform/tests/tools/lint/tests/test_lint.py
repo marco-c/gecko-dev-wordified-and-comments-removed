@@ -3461,8 +3461,6 @@ file_d
 ]
     
 )
-as
-m
 :
         
 got
@@ -3732,8 +3730,6 @@ bar
 '
 ]
 )
-as
-m2
 :
                 
 lint_mod
@@ -3843,8 +3839,6 @@ bar
 '
 ]
 )
-as
-m2
 :
                 
 lint_mod

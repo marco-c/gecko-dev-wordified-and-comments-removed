@@ -431,8 +431,6 @@ commands
 )
 :
         
-sub_parser
-=
 subparsers
 .
 add_parser
