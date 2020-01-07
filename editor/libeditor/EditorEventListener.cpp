@@ -726,10 +726,8 @@ mEditorBase
 "
 )
 ;
-nsCOMPtr
-<
 EventTarget
->
+*
 piTarget
 =
 mEditorBase
@@ -4665,10 +4663,8 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
-<
 nsIDOMEventTarget
->
+*
 target
 =
 aFocusEvent
@@ -5195,10 +5191,8 @@ DetachedFromEditor
 )
 )
 ;
-nsCOMPtr
-<
 nsIDOMEventTarget
->
+*
 target
 =
 aKeyboardEvent

@@ -3009,13 +3009,11 @@ aEndOffset
 )
 ;
 virtual
-already_AddRefed
-<
 dom
 :
 :
 EventTarget
->
+*
 GetDOMEventTarget
 (
 )
@@ -3620,10 +3618,8 @@ GetInputEventTargetContent
 0
 ;
 virtual
-already_AddRefed
-<
 nsIContent
->
+*
 GetFocusedContent
 (
 )
