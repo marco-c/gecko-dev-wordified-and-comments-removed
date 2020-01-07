@@ -2745,7 +2745,7 @@ label
 =
 "
 &
-clearSiteData
+clearSiteData1
 .
 label
 ;
@@ -2754,7 +2754,7 @@ accesskey
 =
 "
 &
-clearSiteData
+clearSiteData1
 .
 accesskey
 ;
