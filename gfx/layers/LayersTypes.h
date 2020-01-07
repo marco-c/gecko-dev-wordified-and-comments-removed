@@ -888,6 +888,10 @@ DoNotCompress
 }
 ;
 typedef
+uint32_t
+TouchBehaviorFlags
+;
+typedef
 gfx
 :
 :

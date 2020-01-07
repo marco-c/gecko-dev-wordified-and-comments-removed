@@ -152,10 +152,6 @@ Wheel
 Keyboard
 }
 ;
-typedef
-uint32_t
-TouchBehaviorFlags
-;
 const
 float
 COORDINATE_EPSILON

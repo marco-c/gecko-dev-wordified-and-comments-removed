@@ -58,6 +58,17 @@ mozilla
 /
 layers
 /
+LayersTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 AsyncDragMetrics
 .
 h
