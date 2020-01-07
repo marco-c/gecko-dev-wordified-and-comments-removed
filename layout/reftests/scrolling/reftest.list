@@ -1,3 +1,9 @@
+skip
+-
+if
+(
+styloVsGecko
+)
 HTTP
 =
 =
@@ -17,6 +23,9 @@ ref
 xhtml
 #
 d
+#
+bug
+1354406
 fuzzy
 -
 if
@@ -842,6 +851,12 @@ simple
 html
 ?
 ref
+skip
+-
+if
+(
+styloVsGecko
+)
 HTTP
 =
 =
@@ -861,6 +876,9 @@ ref
 html
 #
 d
+#
+bug
+1354406
 fuzzy
 -
 if
