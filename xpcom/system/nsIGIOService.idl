@@ -211,14 +211,6 @@ nsIUTF8StringEnumerator
 supportedURISchemes
 ;
 void
-launch
-(
-in
-AUTF8String
-uri
-)
-;
-void
 setAsDefaultForMimeType
 (
 in
@@ -425,7 +417,7 @@ URI
 scheme
 *
 /
-nsIGIOMimeApp
+nsIHandlerApp
 getAppForURIScheme
 (
 in
@@ -469,7 +461,7 @@ MIME
 type
 *
 /
-nsIGIOMimeApp
+nsIHandlerApp
 getAppForMimeType
 (
 in

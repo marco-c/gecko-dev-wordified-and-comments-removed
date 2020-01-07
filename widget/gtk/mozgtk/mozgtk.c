@@ -1587,6 +1587,10 @@ gtk_settings_get_for_screen
 )
 STUB
 (
+gtk_show_uri
+)
+STUB
+(
 gtk_socket_add_id
 )
 STUB
