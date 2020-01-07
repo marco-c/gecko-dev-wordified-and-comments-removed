@@ -6236,6 +6236,17 @@ HasTransformThatMightAffectOverflow
 )
 )
 {
+if
+(
+HasFiniteActiveDuration
+(
+)
+)
+{
+return
+false
+;
+}
 return
 isVisibilityHidden
 ?
