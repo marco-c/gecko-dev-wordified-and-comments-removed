@@ -900,6 +900,11 @@ aSurface
 CGImageRef
 *
 aResult
+bool
+*
+aIsEntirelyBlack
+=
+nullptr
 )
 ;
 static
