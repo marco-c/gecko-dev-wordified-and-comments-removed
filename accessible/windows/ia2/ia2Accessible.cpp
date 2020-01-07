@@ -2391,6 +2391,10 @@ caretOffset
 ;
 if
 (
+!
+accWithCaret
+|
+|
 acc
 -
 >
