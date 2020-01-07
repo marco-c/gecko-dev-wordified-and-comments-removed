@@ -1699,7 +1699,7 @@ content
 gpu
 ;
 -
-all_child
+all_children
 (
 record
 in

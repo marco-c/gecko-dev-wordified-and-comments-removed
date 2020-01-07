@@ -4845,7 +4845,7 @@ record_in_processes
 :
 -
 '
-all_childs
+all_children
 '
 keyed_accumulations
 :
@@ -4894,7 +4894,7 @@ record_in_processes
 :
 -
 '
-all_childs
+all_children
 '
 scalar_actions
 :
@@ -4942,7 +4942,7 @@ record_in_processes
 :
 -
 '
-all_childs
+all_children
 '
 keyed_scalar_actions
 :
@@ -4991,7 +4991,7 @@ record_in_processes
 :
 -
 '
-all_childs
+all_children
 '
 child_events
 :
@@ -5037,7 +5037,7 @@ record_in_processes
 :
 -
 '
-all_childs
+all_children
 '
 #
 The
@@ -6989,7 +6989,7 @@ record_in_processes
 :
 -
 '
-all_childs
+all_children
 '
 #
 NOTE
