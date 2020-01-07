@@ -1,0 +1,17 @@
+loadRelativeToScript
+(
+"
+defineProperty
+-
+setup
+.
+js
+"
+)
+;
+runDictionaryPropertyPresentTestsFraction
+(
+32
+32
+)
+;
