@@ -81,15 +81,6 @@ include
 "
 mozilla
 /
-TextEditRules
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TransactionManager
 .
 h
@@ -353,6 +344,9 @@ TextComposition
 ;
 class
 TextEditor
+;
+class
+TextEditRules
 ;
 class
 TextInputListener
