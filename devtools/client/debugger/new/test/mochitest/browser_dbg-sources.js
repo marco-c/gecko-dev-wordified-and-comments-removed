@@ -252,6 +252,12 @@ sourceNode
 await
 selected
 ;
+await
+waitForSelectedSource
+(
+dbg
+)
+;
 ok
 (
 findElementWithSelector
