@@ -594,7 +594,7 @@ isSingleton
 )
 )
 return
-singleton
+singletonNoBarrier
 (
 )
 -
@@ -604,7 +604,7 @@ compartment
 )
 ;
 return
-group
+groupNoBarrier
 (
 )
 -
