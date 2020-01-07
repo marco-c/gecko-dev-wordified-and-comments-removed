@@ -50,15 +50,6 @@ include
 "
 mozilla
 /
-ServoMediaList
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs
 .
 h

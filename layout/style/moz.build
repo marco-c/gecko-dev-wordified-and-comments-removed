@@ -579,11 +579,6 @@ ServoKeyframesRule
 h
 '
 '
-ServoMediaList
-.
-h
-'
-'
 ServoMediaRule
 .
 h
@@ -1158,11 +1153,6 @@ cpp
 '
 '
 ServoKeyframesRule
-.
-cpp
-'
-'
-ServoMediaList
 .
 cpp
 '

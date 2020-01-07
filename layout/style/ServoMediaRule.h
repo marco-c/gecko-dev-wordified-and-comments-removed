@@ -28,9 +28,6 @@ namespace
 mozilla
 {
 class
-ServoMediaList
-;
-class
 ServoMediaRule
 final
 :
@@ -175,7 +172,10 @@ mRawRule
 ;
 RefPtr
 <
-ServoMediaList
+dom
+:
+:
+MediaList
 >
 mMediaList
 ;

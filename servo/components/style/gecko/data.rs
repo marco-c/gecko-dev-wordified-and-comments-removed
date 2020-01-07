@@ -574,7 +574,15 @@ gecko_bindings
 structs
 :
 :
-ServoMediaList
+mozilla
+:
+:
+dom
+:
+:
+MediaList
+as
+DomMediaList
 ;
 use
 std
@@ -585,7 +593,7 @@ mem
 unsafe
 {
 let
-servo_media_list
+dom_media_list
 =
 self
 .
@@ -601,10 +609,10 @@ mRawPtr
 as
 *
 const
-ServoMediaList
+DomMediaList
 ;
 if
-servo_media_list
+dom_media_list
 .
 is_null
 (
@@ -621,7 +629,7 @@ raw_list
 *
 (
 *
-servo_media_list
+dom_media_list
 )
 .
 mRawList
