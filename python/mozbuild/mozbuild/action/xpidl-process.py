@@ -13,6 +13,10 @@ io
 import
 BytesIO
 from
+xpidl
+import
+jsonxpt
+from
 buildconfig
 import
 topsrcdir
@@ -37,19 +41,9 @@ print_rust_macros_bindings
 from
 xpidl
 .
-typelib
-import
-write_typelib
-from
-xpidl
-.
 xpidl
 import
 IDLParser
-from
-xpt
-import
-xpt_link
 from
 mozbuild
 .
@@ -95,8 +89,8 @@ cache_dir
     
 xpts
 =
-{
-}
+[
+]
     
 mk
 =
@@ -245,32 +239,17 @@ rs
 stem
 )
         
-xpt
-=
-BytesIO
+xpts
+.
+append
 (
-)
-        
-write_typelib
+jsonxpt
+.
+build_typelib
 (
 idl
-xpt
-path
 )
-        
-xpt
-.
-seek
-(
-0
 )
-        
-xpts
-[
-stem
-]
-=
-xpt
         
 rule
 .
@@ -348,18 +327,26 @@ xpt
 module
 )
     
-xpt_link
+with
+FileAvoidWrite
 (
-xpts
-.
-values
-(
+xpt_path
 )
-)
+as
+fh
+:
+        
+jsonxpt
 .
 write
 (
-xpt_path
+jsonxpt
+.
+link
+(
+xpts
+)
+fh
 )
     
 rule
