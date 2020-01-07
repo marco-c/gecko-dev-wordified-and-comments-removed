@@ -1838,6 +1838,10 @@ nullptr
 0
 0
 false
+nsIBlocklistService
+:
+:
+STATE_NOT_BLOCKED
 )
 ;
 mPlugins
