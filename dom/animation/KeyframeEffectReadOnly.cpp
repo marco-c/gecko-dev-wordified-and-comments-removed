@@ -3846,11 +3846,11 @@ doc
 AnimationUtils
 :
 :
-GetCurrentRealmDocument
+GetDocumentFromGlobal
 (
 aGlobal
 .
-Context
+Get
 (
 )
 )

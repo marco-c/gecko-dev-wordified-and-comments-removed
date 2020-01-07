@@ -53369,8 +53369,27 @@ argsPost
 [
 ]
         
+runConstructorInCallerCompartment
+=
+\
+            
+descriptor
+.
+interface
+.
+getExtendedAttribute
+(
+                
+'
+RunConstructorInCallerCompartment
+'
+)
+        
 if
 isConstructor
+and
+not
+runConstructorInCallerCompartment
 :
             
 needsUnwrap
