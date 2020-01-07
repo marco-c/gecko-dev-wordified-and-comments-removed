@@ -395,6 +395,7 @@ const
 bool
 ComputeRegionInClips
 (
+const
 DisplayItemClip
 *
 aOldClip
