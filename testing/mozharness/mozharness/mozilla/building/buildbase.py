@@ -8577,9 +8577,6 @@ _assert_cfg_valid_for_action
             
 [
 '
-tooltool_script
-'
-'
 tooltool_url
 '
 ]
