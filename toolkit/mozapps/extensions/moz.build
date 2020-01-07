@@ -205,11 +205,6 @@ nsBlocklistService
 .
 js
 '
-'
-nsBlocklistServiceContent
-.
-js
-'
 ]
 EXTRA_PP_COMPONENTS
 +
