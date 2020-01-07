@@ -19,9 +19,6 @@ nsIPropertyBag2
 .
 idl
 "
-interface
-nsIDOMDataChannel
-;
 /
 *
 Do

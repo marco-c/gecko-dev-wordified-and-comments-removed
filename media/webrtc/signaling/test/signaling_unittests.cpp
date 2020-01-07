@@ -1739,7 +1739,7 @@ override
 NS_IMETHOD
 NotifyDataChannel
 (
-nsIDOMDataChannel
+nsDataChannel
 *
 channel
 ER
@@ -2406,7 +2406,7 @@ TestObserver
 :
 NotifyDataChannel
 (
-nsIDOMDataChannel
+nsDataChannel
 *
 channel
 ER

@@ -126,7 +126,7 @@ class
 nsIDOMWindow
 ;
 class
-nsIDOMDataChannel
+nsDOMDataChannel
 ;
 namespace
 test
@@ -413,7 +413,7 @@ ER
 NS_IMETHOD
 NotifyDataChannel
 (
-nsIDOMDataChannel
+nsDataChannel
 *
 channel
 ER

@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsIDOMDataChannel
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h
@@ -93,8 +86,6 @@ mozilla
 :
 :
 DOMEventTargetHelper
-public
-nsIDOMDataChannel
 public
 mozilla
 :
@@ -128,7 +119,6 @@ aDOMWindow
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMDATACHANNEL
 NS_REALLY_FORWARD_NSIDOMEVENTTARGET
 (
 mozilla
