@@ -465,6 +465,10 @@ NS_NATIVE_COMPOSITOR_DISPLAY
 #
 endif
 #
+define
+NS_NATIVE_EGL_WINDOW
+106
+#
 endif
 #
 ifdef
