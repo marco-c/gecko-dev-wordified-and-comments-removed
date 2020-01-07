@@ -7512,6 +7512,16 @@ hasCachedSavedFrame_
 true
 ;
 }
+void
+clearHasCachedSavedFrame
+(
+)
+{
+hasCachedSavedFrame_
+=
+false
+;
+}
 static
 constexpr
 size_t
