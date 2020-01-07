@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_dom_serviceworkerregistrationimpl_h
+#
+define
+mozilla_dom_serviceworkerregistrationimpl_h
+#
 include
 "
 mozilla
@@ -474,3 +480,5 @@ mWorkerRef
 ;
 }
 }
+#
+endif

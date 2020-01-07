@@ -210,6 +210,11 @@ ServiceWorkerContainer
 cpp
 '
 '
+ServiceWorkerContainerImpl
+.
+cpp
+'
+'
 ServiceWorkerDescriptor
 .
 cpp
