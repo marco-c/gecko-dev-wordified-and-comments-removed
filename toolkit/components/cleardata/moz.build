@@ -115,6 +115,16 @@ ClearDataService
 manifest
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+ServiceWorkerCleanUp
+.
+jsm
+'
+]
 XPCSHELL_TESTS_MANIFESTS
 +
 =
