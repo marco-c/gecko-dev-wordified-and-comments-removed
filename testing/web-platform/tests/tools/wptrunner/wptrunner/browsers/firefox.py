@@ -791,7 +791,7 @@ env_options
 return
 {
 "
-host
+host_ip
 "
 :
 "
@@ -805,7 +805,7 @@ host
 "
             
 "
-external_host
+host
 "
 :
 "

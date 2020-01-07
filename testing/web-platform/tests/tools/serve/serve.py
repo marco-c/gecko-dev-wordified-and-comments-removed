@@ -4240,20 +4240,6 @@ host
 config
 [
 "
-external_host
-"
-]
-if
-config
-[
-"
-external_host
-"
-]
-else
-config
-[
-"
 host
 "
 ]
@@ -4383,15 +4369,6 @@ config
 copy
 (
 )
-    
-config_
-[
-"
-host
-"
-]
-=
-host
     
 config_
 [
@@ -4528,6 +4505,15 @@ kwargs
     
 host
 =
+config
+.
+get
+(
+"
+host_ip
+"
+)
+or
 config
 [
 "
