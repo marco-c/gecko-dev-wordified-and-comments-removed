@@ -603,7 +603,7 @@ Result
 {
 unsafe
 {
-try_call
+call
 !
 (
 ffi
@@ -637,7 +637,7 @@ Result
 {
 unsafe
 {
-try_call
+call
 !
 (
 ffi
@@ -671,7 +671,7 @@ Result
 {
 unsafe
 {
-try_call
+call
 !
 (
 ffi
@@ -808,7 +808,7 @@ Result
 {
 unsafe
 {
-try_call
+call
 !
 (
 ffi
@@ -846,7 +846,7 @@ Result
 {
 unsafe
 {
-try_call
+call
 !
 (
 ffi
@@ -953,7 +953,7 @@ Result
 {
 unsafe
 {
-try_call
+call
 !
 (
 ffi
@@ -998,7 +998,7 @@ Result
 {
 unsafe
 {
-try_call
+call
 !
 (
 ffi
