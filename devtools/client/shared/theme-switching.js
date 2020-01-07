@@ -400,17 +400,6 @@ loadPromise
 )
 ;
 }
-if
-(
-os
-!
-=
-=
-"
-win
-"
-)
-{
 try
 {
 const
@@ -550,7 +539,6 @@ firefox
 "
 )
 ;
-}
 }
 Promise
 .
