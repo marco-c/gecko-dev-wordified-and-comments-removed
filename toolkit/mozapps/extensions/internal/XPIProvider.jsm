@@ -28292,7 +28292,7 @@ data
 =
 Cu
 .
-readURI
+readUTF8URI
 (
 url
 )
