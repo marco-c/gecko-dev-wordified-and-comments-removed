@@ -278,14 +278,6 @@ ErrorResult
 aRv
 )
 ;
-Date
-GetLastModifiedDate
-(
-ErrorResult
-&
-aRv
-)
-;
 void
 GetRelativePath
 (

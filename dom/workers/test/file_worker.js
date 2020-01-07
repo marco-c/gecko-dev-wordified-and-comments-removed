@@ -54,11 +54,11 @@ path
 ;
 rtnObj
 .
-lastModifiedDate
+lastModified
 =
 file
 .
-lastModifiedDate
+lastModified
 ;
 postMessage
 (
