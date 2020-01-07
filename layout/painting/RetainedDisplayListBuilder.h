@@ -123,7 +123,7 @@ private
 bool
 PreProcessDisplayList
 (
-RetainedDisplayList
+nsDisplayList
 *
 aList
 AnimatedGeometryRoot
@@ -137,10 +137,10 @@ MergeDisplayLists
 nsDisplayList
 *
 aNewList
-RetainedDisplayList
+nsDisplayList
 *
 aOldList
-RetainedDisplayList
+nsDisplayList
 *
 aOutList
 mozilla
@@ -193,14 +193,10 @@ nsDisplayItem
 aItem
 )
 ;
-friend
-class
-MergeState
-;
 nsDisplayListBuilder
 mBuilder
 ;
-RetainedDisplayList
+nsDisplayList
 mList
 ;
 WeakFrame
