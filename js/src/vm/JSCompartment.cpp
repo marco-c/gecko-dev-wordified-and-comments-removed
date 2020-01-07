@@ -443,6 +443,14 @@ Realm
 (
 )
 {
+MOZ_ASSERT
+(
+!
+hasBeenEnteredIgnoringJit
+(
+)
+)
+;
 JSRuntime
 *
 rt

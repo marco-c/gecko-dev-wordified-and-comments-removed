@@ -19057,6 +19057,8 @@ compartment
 )
 -
 >
+gcState
+.
 scheduledForDestruction
 =
 false
@@ -25094,6 +25096,8 @@ compartment
 )
 -
 >
+gcState
+.
 scheduledForDestruction
 =
 false
