@@ -2806,6 +2806,11 @@ length
 )
 {
 long
+offset
+=
+end
+;
+long
 start
 ;
 BSTR
@@ -2818,7 +2823,7 @@ ht
 >
 get_attributes
 (
-end
+offset
 &
 start
 &
@@ -2833,6 +2838,12 @@ FAILED
 (
 hr
 )
+|
+|
+end
+<
+=
+offset
 )
 {
 break
