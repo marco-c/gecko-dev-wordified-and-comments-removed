@@ -580,7 +580,7 @@ alternatives
 [
 (
 "
-san
+sans
 -
 serif
 "
