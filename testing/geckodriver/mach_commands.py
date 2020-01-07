@@ -310,7 +310,7 @@ ac_add_options
 -
 enable
 -
-geckodrver
+geckodriver
 to
 your
 mozconfig
