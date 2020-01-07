@@ -229,6 +229,17 @@ then
 )
 =
 >
+ContentTask
+.
+spawn
+(
+browser
+null
+function
+(
+)
+{
+return
 new
 Promise
 (
@@ -244,9 +255,7 @@ let
 requirejs
 }
 =
-gBrowser
-.
-contentWindowAsCPOW
+content
 .
 wrappedJSObject
 ;
@@ -287,6 +296,9 @@ err
 }
 }
 )
+;
+}
+)
 )
 ;
 let
@@ -323,8 +335,6 @@ JSONView
 }
 =
 content
-.
-window
 .
 wrappedJSObject
 ;
@@ -465,8 +475,6 @@ document
 }
 =
 content
-.
-window
 ;
 while
 (
