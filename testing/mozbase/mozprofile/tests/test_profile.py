@@ -17,6 +17,8 @@ BaseProfile
     
 Profile
     
+ChromeProfile
+    
 FirefoxProfile
     
 ThunderbirdProfile
@@ -123,6 +125,13 @@ app
 cls
 '
 [
+    
+(
+'
+chrome
+'
+ChromeProfile
+)
     
 (
 '
