@@ -257,6 +257,11 @@ aSuspended
 )
 ;
 void
+NotifyResume
+(
+)
+;
+void
 Pin
 (
 )
