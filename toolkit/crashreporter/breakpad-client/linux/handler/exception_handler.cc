@@ -275,7 +275,7 @@ PR_SET_PTRACER
 endif
 static
 int
-tgkill
+_tgkill
 (
 pid_t
 tgid
@@ -1384,7 +1384,7 @@ SIGABRT
 {
 if
 (
-tgkill
+_tgkill
 (
 getpid
 (
