@@ -251,6 +251,10 @@ mNext
 (
 nullptr
 )
+mName
+(
+nullptr
+)
 mFieldText
 (
 nullptr
