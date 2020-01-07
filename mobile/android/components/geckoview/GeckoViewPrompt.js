@@ -1049,7 +1049,7 @@ target
 =
 aEvent
 .
-target
+composedTarget
 ;
 if
 (
