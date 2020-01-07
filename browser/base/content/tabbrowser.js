@@ -201,7 +201,7 @@ use_system_colors
 {
 this
 .
-mPanelContainer
+tabpanels
 .
 style
 .
@@ -243,7 +243,7 @@ document_color_use
 {
 this
 .
-mPanelContainer
+tabpanels
 .
 style
 .
@@ -328,7 +328,7 @@ this
 ;
 this
 .
-mPanelContainer
+tabpanels
 .
 classList
 .
@@ -1044,19 +1044,19 @@ tabbox
 ;
 }
 get
-mPanelContainer
+tabpanels
 (
 )
 {
 delete
 this
 .
-mPanelContainer
+tabpanels
 ;
 return
 this
 .
-mPanelContainer
+tabpanels
 =
 document
 .
@@ -1087,7 +1087,7 @@ addEventListener
 =
 this
 .
-mPanelContainer
+tabpanels
 .
 addEventListener
 .
@@ -1095,7 +1095,7 @@ bind
 (
 this
 .
-mPanelContainer
+tabpanels
 )
 ;
 }
@@ -1116,7 +1116,7 @@ removeEventListener
 =
 this
 .
-mPanelContainer
+tabpanels
 .
 removeEventListener
 .
@@ -1124,7 +1124,7 @@ bind
 (
 this
 .
-mPanelContainer
+tabpanels
 )
 ;
 }
@@ -1145,7 +1145,7 @@ dispatchEvent
 =
 this
 .
-mPanelContainer
+tabpanels
 .
 dispatchEvent
 .
@@ -1153,7 +1153,7 @@ bind
 (
 this
 .
-mPanelContainer
+tabpanels
 )
 ;
 }
@@ -1576,7 +1576,7 @@ _generateUniquePanelID
 ;
 this
 .
-mPanelContainer
+tabpanels
 .
 childNodes
 [
@@ -8436,7 +8436,7 @@ browser
 ;
 this
 .
-mPanelContainer
+tabpanels
 .
 appendChild
 (
@@ -9665,7 +9665,7 @@ parentNode
 {
 this
 .
-mPanelContainer
+tabpanels
 .
 appendChild
 (
@@ -10075,7 +10075,7 @@ aBrowser
 ;
 this
 .
-mPanelContainer
+tabpanels
 .
 removeChild
 (

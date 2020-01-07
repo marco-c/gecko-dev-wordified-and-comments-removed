@@ -7761,7 +7761,7 @@ addSystemEventListener
 (
 gBrowser
 .
-mPanelContainer
+tabpanels
 "
 click
 "
