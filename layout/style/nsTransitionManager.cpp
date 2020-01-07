@@ -266,6 +266,15 @@ dom
 CSSTransition
 ;
 using
+mozilla
+:
+:
+dom
+:
+:
+Nullable
+;
+using
 namespace
 mozilla
 ;
