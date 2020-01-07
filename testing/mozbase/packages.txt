@@ -7,6 +7,15 @@ testing
 mozbase
 /
 manifestparser
+mozb2g
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozb2g
 mozcrash
 .
 pth
