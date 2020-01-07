@@ -421,6 +421,16 @@ self
 bool
 ;
 fn
+is_html_slot_element
+(
+&
+self
+)
+-
+>
+bool
+;
+fn
 assigned_slot
 (
 &
