@@ -597,17 +597,6 @@ id
 )
 ;
 }
-async
-getAddonsWithOperationsByTypes
-(
-aTypes
-)
-{
-return
-[
-]
-;
-}
 getInstallsByTypes
 (
 aTypes

@@ -898,13 +898,6 @@ AddonManager
 .
 getAddonsByIDs
 ;
-const
-promiseAddonsWithOperationsByTypes
-=
-AddonManager
-.
-getAddonsWithOperationsByTypes
-;
 var
 gPort
 =
