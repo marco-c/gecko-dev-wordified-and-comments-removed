@@ -9,11 +9,11 @@ os
 import
 sys
 from
-sphinx
+docutils
 .
-util
+parsers
 .
-compat
+rst
 import
 Directive
 from

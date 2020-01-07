@@ -587,9 +587,6 @@ base_args
 =
 [
 '
-sphinx
-'
-'
 -
 -
 no
@@ -705,10 +702,14 @@ excludes
             
 sphinx
 .
+ext
+.
 apidoc
 .
 main
 (
+argv
+=
 args
 )
     
