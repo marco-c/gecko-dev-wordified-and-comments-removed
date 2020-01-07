@@ -22,10 +22,6 @@ hal
 enum
 SensorType
 {
-SENSOR_UNKNOWN
-=
--
-1
 SENSOR_ORIENTATION
 =
 0
@@ -118,7 +114,7 @@ mozilla
 hal
 :
 :
-SENSOR_UNKNOWN
+SENSOR_ORIENTATION
 mozilla
 :
 :
