@@ -77,9 +77,6 @@ class
 nsIContent
 ;
 class
-nsIDOMDocument
-;
-class
 nsAtom
 ;
 class

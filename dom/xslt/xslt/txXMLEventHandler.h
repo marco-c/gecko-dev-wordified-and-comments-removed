@@ -46,7 +46,7 @@ class
 txOutputFormat
 ;
 class
-nsIDOMDocument
+nsIDocument
 ;
 class
 txAXMLEventHandler
@@ -390,7 +390,7 @@ virtual
 void
 getOutputDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aDocument
@@ -408,7 +408,7 @@ virtual
 void
 getOutputDocument
 (
-nsIDOMDocument
+nsIDocument
 *
 *
 aDocument

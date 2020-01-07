@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsDOMString
 .
 h

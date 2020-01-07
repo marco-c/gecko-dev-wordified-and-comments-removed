@@ -36,9 +36,6 @@ class
 nsAtom
 ;
 class
-nsIDOMDocument
-;
-class
 txXPathTreeWalker
 {
 public
@@ -572,7 +569,7 @@ txXPathNode
 *
 createXPathNode
 (
-nsIDOMDocument
+nsIDocument
 *
 aDocument
 )
