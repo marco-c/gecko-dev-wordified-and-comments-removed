@@ -233,17 +233,6 @@ Shader
 name
 :
 "
-ps_image
-"
-features
-:
-PRIM_FEATURES
-}
-Shader
-{
-name
-:
-"
 ps_text_run
 "
 features

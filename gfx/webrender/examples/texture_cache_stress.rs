@@ -499,10 +499,6 @@ push_stacking_context
 &
 info
 None
-ScrollPolicy
-:
-:
-Scrollable
 None
 TransformStyle
 :

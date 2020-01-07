@@ -255,6 +255,13 @@ M
 }
 #
 [
+derive
+(
+Debug
+)
+]
+#
+[
 cfg_attr
 (
 feature
@@ -305,6 +312,13 @@ Option
 T
 >
 }
+#
+[
+derive
+(
+Debug
+)
+]
 #
 [
 cfg_attr

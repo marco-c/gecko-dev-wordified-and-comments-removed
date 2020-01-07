@@ -873,7 +873,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
@@ -1365,7 +1365,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
@@ -1417,7 +1417,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
@@ -1797,7 +1797,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
@@ -1850,7 +1850,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
@@ -1963,7 +1963,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
@@ -2205,7 +2205,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
@@ -2374,7 +2374,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
@@ -2540,7 +2540,7 @@ ImageFormat
 :
 :
 BGRA8
-true
+false
 false
 )
 ImageData
