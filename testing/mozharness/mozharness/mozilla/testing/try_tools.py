@@ -47,7 +47,7 @@ action
 "
 store
 "
-     
+      
 "
 dest
 "
@@ -55,13 +55,13 @@ dest
 "
 try_message
 "
-     
+      
 "
 default
 "
 :
 None
-     
+      
 "
 help
 "

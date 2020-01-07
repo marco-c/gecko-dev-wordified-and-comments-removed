@@ -1664,6 +1664,7 @@ config
 .
 get
 (
+            
 '
 mitmproxy
 '
@@ -1778,6 +1779,7 @@ path
 .
 join
 (
+            
 abs_dirs
 [
 '
@@ -2584,6 +2586,7 @@ self
 .
 fatal
 (
+                
 "
 Talos
 requires
@@ -3268,6 +3271,7 @@ tooltool_artifacts
 .
 append
 (
+                
 {
 '
 name
@@ -3298,6 +3302,7 @@ tooltool_artifacts
 .
 append
 (
+                
 {
 '
 name
@@ -3589,7 +3594,7 @@ self
 .
 suite
 or
-           
+                                             
 '
 stylebench
 '
@@ -3598,7 +3603,7 @@ self
 .
 suite
 or
-           
+                                             
 '
 motionmark
 '
@@ -3639,7 +3644,7 @@ third_party
 '
 webkit
 '
-                                 
+                           
 '
 PerformanceTests
 '
@@ -3665,7 +3670,7 @@ tests
 '
 webkit
 '
-                                      
+                            
 '
 PerformanceTests
 '
@@ -3844,8 +3849,7 @@ self
 .
 config
 and
-\
-            
+                
 '
 -
 -
@@ -3866,7 +3870,7 @@ talos_extra_options
 )
 or
 \
-            
+                
 '
 talos_extra_options
 '
@@ -4019,6 +4023,7 @@ talos_path
 '
 talos
 '
+                                     
 '
 mitmproxy
 '
@@ -4193,8 +4198,7 @@ self
 .
 config
 and
-\
-                   
+                    
 '
 -
 -
@@ -4438,6 +4442,7 @@ suite
 .
 get
 (
+                
 config_key
 False
 )
@@ -4700,6 +4705,7 @@ suite
 .
 get
 (
+                
 '
 mitmproxy_recording_set
 '
@@ -4785,6 +4791,7 @@ talos_path
 '
 talos
 '
+                                     
 '
 mitmproxy
 '
@@ -5282,11 +5289,11 @@ path
 join
 (
 tools
-                                              
+                                                  
 '
 view_gecko_profile
 '
-                                              
+                                                  
 '
 requirements
 .
@@ -6156,15 +6163,15 @@ cwd
 self
 .
 workdir
-                                            
+                                                
 output_timeout
 =
 output_timeout
-                                            
+                                                
 output_parser
 =
 parser
-                                            
+                                                
 env
 =
 env
@@ -6353,7 +6360,7 @@ record_status
 parser
 .
 worst_tbpl_status
-                             
+                           
 level
 =
 parser
