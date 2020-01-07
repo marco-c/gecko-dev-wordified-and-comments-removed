@@ -56,12 +56,16 @@ to_io_err
 OnceCallback
 }
 ;
-pub
 enum
 QueueAction
 {
 Register
 {
+flags
+:
+:
+:
+RegisterFlags
 timeout
 :
 u64
@@ -232,6 +236,7 @@ QueueAction
 :
 Register
 {
+flags
 timeout
 challenge
 application
@@ -246,6 +251,7 @@ sm
 .
 register
 (
+flags
 timeout
 challenge
 application
@@ -352,6 +358,11 @@ F
 (
 &
 self
+flags
+:
+:
+:
+RegisterFlags
 timeout
 :
 u64
@@ -523,6 +534,7 @@ QueueAction
 :
 Register
 {
+flags
 timeout
 challenge
 application

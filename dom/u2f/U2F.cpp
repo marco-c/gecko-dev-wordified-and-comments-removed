@@ -2045,7 +2045,15 @@ WebAuthnExtension
 >
 extensions
 ;
-WebAuthnTransactionInfo
+WebAuthnAuthenticatorSelection
+authSelection
+(
+false
+false
+false
+)
+;
+WebAuthnMakeCredentialInfo
 info
 (
 rpIdHash
@@ -2053,6 +2061,7 @@ clientDataHash
 adjustedTimeoutMillis
 excludeList
 extensions
+authSelection
 )
 ;
 MOZ_ASSERT
@@ -2654,7 +2663,7 @@ WebAuthnExtension
 >
 extensions
 ;
-WebAuthnTransactionInfo
+WebAuthnGetAssertionInfo
 info
 (
 rpIdHash

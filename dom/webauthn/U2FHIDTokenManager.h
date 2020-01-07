@@ -336,6 +336,10 @@ WebAuthnScopedCredentialDescriptor
 &
 aDescriptors
 const
+WebAuthnAuthenticatorSelection
+&
+aAuthenticatorSelection
+const
 nsTArray
 <
 uint8_t
