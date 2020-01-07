@@ -3693,7 +3693,6 @@ getHistograms
 function
 getHistograms
 (
-subsession
 clearSubsession
 )
 {
@@ -3709,7 +3708,6 @@ this
 getDatasetType
 (
 )
-subsession
 clearSubsession
 )
 ;
@@ -3801,7 +3799,6 @@ ret
 }
 getKeyedHistograms
 (
-subsession
 clearSubsession
 )
 {
@@ -3817,7 +3814,6 @@ this
 getDatasetType
 (
 )
-subsession
 clearSubsession
 )
 ;
@@ -5398,7 +5394,6 @@ this
 .
 getHistograms
 (
-isSubsession
 clearSubsession
 )
 {
@@ -5416,7 +5411,6 @@ this
 .
 getKeyedHistograms
 (
-isSubsession
 clearSubsession
 )
 {

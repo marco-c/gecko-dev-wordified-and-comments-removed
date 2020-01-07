@@ -389,8 +389,6 @@ unsigned
 int
 aDataset
 bool
-aSubsession
-bool
 aClearSubsession
 )
 ;
@@ -408,8 +406,6 @@ aResult
 unsigned
 int
 aDataset
-bool
-aSubsession
 bool
 aClearSubsession
 )
