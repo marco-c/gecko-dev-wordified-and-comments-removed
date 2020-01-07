@@ -2738,13 +2738,6 @@ cpp
 '
 vm
 /
-JSCompartment
-.
-cpp
-'
-'
-vm
-/
 JSContext
 .
 cpp
@@ -2830,6 +2823,13 @@ cpp
 vm
 /
 ProxyObject
+.
+cpp
+'
+'
+vm
+/
+Realm
 .
 cpp
 '

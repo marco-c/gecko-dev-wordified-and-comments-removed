@@ -1,9 +1,9 @@
 #
 ifndef
-vm_JSCompartment_h
+vm_Realm_h
 #
 define
-vm_JSCompartment_h
+vm_Realm_h
 #
 include
 "

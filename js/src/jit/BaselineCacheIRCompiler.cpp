@@ -88,7 +88,7 @@ include
 "
 vm
 /
-JSCompartment
+JSContext
 -
 inl
 .
@@ -99,7 +99,7 @@ include
 "
 vm
 /
-JSContext
+Realm
 -
 inl
 .

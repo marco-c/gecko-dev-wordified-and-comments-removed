@@ -84,7 +84,7 @@ include
 "
 vm
 /
-JSCompartment
+JSFunction
 .
 h
 "
@@ -93,7 +93,7 @@ include
 "
 vm
 /
-JSFunction
+Realm
 .
 h
 "

@@ -66,7 +66,7 @@ include
 "
 vm
 /
-JSCompartment
+JSObject
 .
 h
 "
@@ -75,7 +75,7 @@ include
 "
 vm
 /
-JSObject
+Realm
 .
 h
 "

@@ -83,7 +83,7 @@ include
 "
 vm
 /
-JSCompartment
+JSObject
 -
 inl
 .
@@ -94,7 +94,7 @@ include
 "
 vm
 /
-JSObject
+Realm
 -
 inl
 .

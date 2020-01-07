@@ -54,7 +54,7 @@ include
 "
 vm
 /
-JSCompartment
+JSContext
 .
 h
 "
@@ -63,7 +63,7 @@ include
 "
 vm
 /
-JSContext
+Realm
 .
 h
 "

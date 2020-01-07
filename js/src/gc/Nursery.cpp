@@ -137,7 +137,7 @@ include
 "
 vm
 /
-JSCompartment
+JSONPrinter
 .
 h
 "
@@ -146,7 +146,7 @@ include
 "
 vm
 /
-JSONPrinter
+Realm
 .
 h
 "

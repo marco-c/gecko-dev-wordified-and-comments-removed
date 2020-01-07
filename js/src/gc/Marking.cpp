@@ -266,7 +266,7 @@ include
 "
 vm
 /
-JSCompartment
+NativeObject
 -
 inl
 .
@@ -277,7 +277,7 @@ include
 "
 vm
 /
-NativeObject
+Realm
 -
 inl
 .
