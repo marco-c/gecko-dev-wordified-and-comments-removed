@@ -2990,6 +2990,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 }
 ;
 MOZ_ASSERT
@@ -5732,6 +5733,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 }
 ;
 if
@@ -6427,6 +6429,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 }
 ;
 if
@@ -6847,6 +6850,7 @@ callbacks
 =
 {
 CommonStructuredCloneReadCallback
+nullptr
 nullptr
 nullptr
 nullptr

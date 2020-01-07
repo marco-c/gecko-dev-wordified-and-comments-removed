@@ -232,6 +232,17 @@ aEntangledPort
 )
 ;
 bool
+CanBeCloned
+(
+)
+const
+{
+return
+!
+mHasBeenTransferredOrClosed
+;
+}
+void
 CloneAndDisentangle
 (
 MessagePortIdentifier
@@ -438,6 +449,9 @@ mMessageQueueEnabled
 ;
 bool
 mIsKeptAlive
+;
+bool
+mHasBeenTransferredOrClosed
 ;
 }
 ;
