@@ -105,7 +105,6 @@ filter
 -
 out
 gtk3
-qt
 (
 MOZ_WIDGET_TOOLKIT
 )
