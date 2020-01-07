@@ -4267,6 +4267,7 @@ FramePtr
 >
 getFramePtr
 (
+const
 FrameIter
 &
 iter

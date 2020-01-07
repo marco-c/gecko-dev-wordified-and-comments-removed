@@ -319,6 +319,7 @@ LiveSavedFrameCache
 :
 getFramePtr
 (
+const
 FrameIter
 &
 iter
