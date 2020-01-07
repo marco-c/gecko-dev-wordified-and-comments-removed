@@ -324,15 +324,6 @@ include
 "
 mozilla
 /
-TextUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TypeTraits
 .
 h
@@ -32170,7 +32161,7 @@ return
 }
 if
 (
-IsAsciiDigit
+NS_IsAsciiDigit
 (
 aToken
 .
@@ -32786,7 +32777,7 @@ Length
 1
 &
 &
-IsAsciiAlpha
+NS_IsAsciiAlpha
 (
 aToken
 .

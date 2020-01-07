@@ -59,15 +59,6 @@ include
 "
 mozilla
 /
-TextUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TypeTraits
 .
 h
@@ -173,12 +164,6 @@ h
 using
 namespace
 js
-;
-using
-mozilla
-:
-:
-IsAsciiDigit
 ;
 using
 mozilla
@@ -5430,7 +5415,7 @@ s
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 ch
 )
@@ -5508,7 +5493,7 @@ index
 {
 while
 (
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 cp

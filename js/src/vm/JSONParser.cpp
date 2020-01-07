@@ -36,15 +36,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-TextUtils
-.
-h
-"
-#
-include
 <
 ctype
 .
@@ -98,12 +89,6 @@ h
 using
 namespace
 js
-;
-using
-mozilla
-:
-:
-IsAsciiDigit
 ;
 using
 mozilla
@@ -1495,7 +1480,7 @@ end
 ;
 MOZ_ASSERT
 (
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 current
@@ -1562,7 +1547,7 @@ current
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 current
@@ -1614,7 +1599,7 @@ current
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 current
@@ -1821,7 +1806,7 @@ Error
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 current
@@ -1856,7 +1841,7 @@ end
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 current
@@ -1973,7 +1958,7 @@ Error
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 current
@@ -2011,7 +1996,7 @@ end
 if
 (
 !
-IsAsciiDigit
+JS7_ISDEC
 (
 *
 current
@@ -2955,7 +2940,7 @@ current
 '
 |
 |
-IsAsciiDigit
+JS7_ISDEC
 (
 current
 [
