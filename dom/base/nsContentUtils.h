@@ -5858,6 +5858,15 @@ aParent
 ;
 static
 StorageAccess
+StorageAllowedForChannel
+(
+nsIChannel
+*
+aChannel
+)
+;
+static
+StorageAccess
 StorageAllowedForPrincipal
 (
 nsIPrincipal
@@ -6864,6 +6873,9 @@ aWindow
 nsIURI
 *
 aURI
+nsIChannel
+*
+aChannel
 )
 ;
 static
