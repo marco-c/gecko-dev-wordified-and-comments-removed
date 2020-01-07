@@ -239,7 +239,13 @@ aBaseURI
 void
 RemoveAllAttributes
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aElement
 )

@@ -41847,9 +41847,9 @@ nsSetAttrRunnable
 :
 nsSetAttrRunnable
 (
-nsIContent
+Element
 *
-aContent
+aElement
 nsAtom
 *
 aAttrName
@@ -41868,9 +41868,9 @@ Runnable
 nsSetAttrRunnable
 "
 )
-mContent
+mElement
 (
-aContent
+aElement
 )
 mAttrName
 (
@@ -41883,7 +41883,7 @@ aValue
 {
 NS_ASSERTION
 (
-aContent
+aElement
 &
 &
 aAttrName
@@ -41902,9 +41902,9 @@ nsSetAttrRunnable
 :
 nsSetAttrRunnable
 (
-nsIContent
+Element
 *
-aContent
+aElement
 nsAtom
 *
 aAttrName
@@ -41921,9 +41921,9 @@ Runnable
 nsSetAttrRunnable
 "
 )
-mContent
+mElement
 (
-aContent
+aElement
 )
 mAttrName
 (
@@ -41932,7 +41932,7 @@ aAttrName
 {
 NS_ASSERTION
 (
-aContent
+aElement
 &
 &
 aAttrName
@@ -41962,7 +41962,7 @@ Run
 )
 {
 return
-mContent
+mElement
 -
 >
 SetAttr
@@ -41979,9 +41979,9 @@ nsUnsetAttrRunnable
 :
 nsUnsetAttrRunnable
 (
-nsIContent
+Element
 *
-aContent
+aElement
 nsAtom
 *
 aAttrName
@@ -41996,9 +41996,9 @@ Runnable
 nsUnsetAttrRunnable
 "
 )
-mContent
+mElement
 (
-aContent
+aElement
 )
 mAttrName
 (
@@ -42007,7 +42007,7 @@ aAttrName
 {
 NS_ASSERTION
 (
-aContent
+aElement
 &
 &
 aAttrName
@@ -42030,7 +42030,7 @@ Run
 )
 {
 return
-mContent
+mElement
 -
 >
 UnsetAttr

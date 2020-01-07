@@ -2052,6 +2052,11 @@ mHorizontal
 aContent
 -
 >
+AsElement
+(
+)
+-
+>
 SetAttr
 (
 kNameSpaceID_None
@@ -2074,6 +2079,11 @@ mVertical
 )
 {
 aContent
+-
+>
+AsElement
+(
+)
 -
 >
 SetAttr

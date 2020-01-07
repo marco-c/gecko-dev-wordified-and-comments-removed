@@ -22701,6 +22701,11 @@ count
 content
 -
 >
+AsElement
+(
+)
+-
+>
 GetAttrCount
 (
 )
@@ -22740,6 +22745,11 @@ BorrowedAttrInfo
 info
 =
 content
+-
+>
+AsElement
+(
+)
 -
 >
 GetAttrInfoAt

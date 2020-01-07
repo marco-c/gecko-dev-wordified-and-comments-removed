@@ -190,7 +190,7 @@ true
 override
 ;
 using
-nsIContent
+Element
 :
 :
 SetAttr

@@ -258,6 +258,11 @@ nsMenuGroupOwnerX
 Create
 (
 content
+-
+>
+AsElement
+(
+)
 )
 ;
 if

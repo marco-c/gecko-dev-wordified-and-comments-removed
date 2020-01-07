@@ -358,7 +358,13 @@ nsMenuGroupOwnerX
 :
 Create
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aContent
 )

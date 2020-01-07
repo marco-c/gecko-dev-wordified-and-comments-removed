@@ -476,7 +476,7 @@ aOldId
 nsIRDFResource
 *
 aNewId
-nsIContent
+Element
 *
 aInsertionPoint
 )
@@ -601,7 +601,7 @@ nullptr
 nsresult
 GetTemplateRoot
 (
-nsIContent
+Element
 *
 *
 aResult
@@ -615,7 +615,7 @@ CompileQueries
 nsresult
 CompileTemplate
 (
-nsIContent
+Element
 *
 aTemplate
 nsTemplateQuerySet
@@ -634,7 +634,7 @@ aCanUseTemplate
 nsresult
 CompileExtendedQuery
 (
-nsIContent
+Element
 *
 aRuleElement
 nsIContent
@@ -674,7 +674,7 @@ aElement
 nsresult
 CompileSimpleQuery
 (
-nsIContent
+Element
 *
 aRuleElement
 nsTemplateQuerySet
@@ -739,7 +739,7 @@ AddSimpleRuleBindings
 nsTemplateRule
 *
 aRule
-nsIContent
+Element
 *
 aElement
 )
@@ -1149,7 +1149,7 @@ nsIXULTemplateResult
 aResult
 nsCOMArray
 <
-nsIContent
+Element
 >
 *
 *
@@ -1171,7 +1171,7 @@ aNewMatch
 nsTemplateRule
 *
 aNewMatchRule
-void
+Element
 *
 aContext
 )

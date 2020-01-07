@@ -77,7 +77,13 @@ nsMenuGroupOwnerX
 nsresult
 Create
 (
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 aContent
 )

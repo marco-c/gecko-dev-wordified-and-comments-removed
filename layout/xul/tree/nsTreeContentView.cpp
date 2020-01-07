@@ -3704,7 +3704,7 @@ if
 realRow
 )
 {
-nsIContent
+Element
 *
 cell
 =
@@ -3866,7 +3866,7 @@ if
 realRow
 )
 {
-nsIContent
+Element
 *
 cell
 =
@@ -7608,7 +7608,7 @@ aCount
 }
 }
 }
-nsIContent
+Element
 *
 nsTreeContentView
 :
@@ -7646,7 +7646,7 @@ GetIndex
 )
 )
 ;
-nsIContent
+Element
 *
 result
 =
@@ -7726,6 +7726,11 @@ eCaseMatters
 result
 =
 cell
+-
+>
+AsElement
+(
+)
 ;
 break
 ;
@@ -7742,6 +7747,11 @@ colIndex
 result
 =
 cell
+-
+>
+AsElement
+(
+)
 ;
 }
 j

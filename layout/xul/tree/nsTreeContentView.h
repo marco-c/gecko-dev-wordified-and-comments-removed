@@ -879,7 +879,13 @@ int32_t
 aCount
 )
 ;
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetCell
 (
