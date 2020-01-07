@@ -1282,14 +1282,14 @@ if
 (
 flags
 &
-ATOM_BIT
+NON_ATOM_BIT
 )
 out
 .
 put
 (
 "
-ATOM
+NON_ATOM
 "
 )
 ;
@@ -6496,7 +6496,7 @@ u1
 .
 flags
 =
-LINEAR_BIT
+INIT_FLAT_FLAGS
 ;
 return
 &

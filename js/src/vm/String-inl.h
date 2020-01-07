@@ -1184,7 +1184,7 @@ u1
 .
 flags
 =
-LINEAR_BIT
+INIT_FLAT_FLAGS
 ;
 d
 .
@@ -1229,7 +1229,7 @@ u1
 .
 flags
 =
-LINEAR_BIT
+INIT_FLAT_FLAGS
 |
 LATIN1_CHARS_BIT
 ;
