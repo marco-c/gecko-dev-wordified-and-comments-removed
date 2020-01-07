@@ -410,6 +410,11 @@ FontLanguageOverride
 )
 COMPUTED_STYLE_PROP
 (
+font_optical_sizing
+FontOpticalSizing
+)
+COMPUTED_STYLE_PROP
+(
 font_size
 FontSize
 )

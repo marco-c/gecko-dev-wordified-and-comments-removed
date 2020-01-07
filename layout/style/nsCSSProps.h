@@ -3319,6 +3319,13 @@ kFontKerningKTable
 static
 const
 KTableEntry
+kFontOpticalSizingKTable
+[
+]
+;
+static
+const
+KTableEntry
 kFontSizeKTable
 [
 ]

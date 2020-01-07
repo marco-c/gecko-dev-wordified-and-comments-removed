@@ -1372,6 +1372,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetFontOpticalSizing
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetFontSize
 (
 )
