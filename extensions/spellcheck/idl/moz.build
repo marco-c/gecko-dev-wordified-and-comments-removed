@@ -99,11 +99,6 @@ mozISpellCheckingEngine
 .
 idl
 '
-'
-mozISpellI18NUtil
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

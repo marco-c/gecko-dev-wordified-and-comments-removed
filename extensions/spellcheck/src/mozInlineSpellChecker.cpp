@@ -115,13 +115,6 @@ h
 #
 include
 "
-mozISpellI18NUtil
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
