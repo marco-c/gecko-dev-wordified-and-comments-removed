@@ -78,8 +78,6 @@ DOMRequest
 :
 public
 DOMEventTargetHelper
-public
-nsIDOMDOMRequest
 {
 protected
 :
@@ -113,7 +111,6 @@ mDone
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMDOMREQUEST
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 DOMRequest
