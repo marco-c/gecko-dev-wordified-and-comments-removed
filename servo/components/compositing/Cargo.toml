@@ -248,6 +248,13 @@ servo
 /
 webrender
 "
+features
+=
+[
+"
+capture
+"
+]
 }
 webrender_api
 =

@@ -101,6 +101,8 @@ mk
 last
 /
 glfw
+capture_webrender
+/
 #
 Editors
 #
