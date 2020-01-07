@@ -1850,6 +1850,7 @@ gen_multilocale
 .
 py
 main
+'
 (
 MULTILOCALE_DIR
 )
@@ -1857,6 +1858,7 @@ MULTILOCALE_DIR
 multilocale
 .
 json
+'
 (
 MDDEPDIR
 )
@@ -1960,6 +1962,7 @@ gen_multilocale
 .
 py
 main
+'
 (
 MULTILOCALE_DIR
 )
@@ -1967,6 +1970,7 @@ MULTILOCALE_DIR
 multilocale
 .
 json
+'
 (
 MDDEPDIR
 )
