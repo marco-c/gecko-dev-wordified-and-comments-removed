@@ -1275,6 +1275,10 @@ NonBlockingAsyncInputStream
 Create
 (
 mStream
+.
+forget
+(
+)
 getter_AddRefs
 (
 mAsyncStream
@@ -1295,6 +1299,11 @@ return
 rv
 ;
 }
+MOZ_ASSERT
+(
+mAsyncStream
+)
+;
 }
 if
 (

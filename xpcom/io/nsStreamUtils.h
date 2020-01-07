@@ -394,8 +394,10 @@ extern
 nsresult
 NS_MakeAsyncNonBlockingInputStream
 (
+already_AddRefed
+<
 nsIInputStream
-*
+>
 aSource
 nsIAsyncInputStream
 *

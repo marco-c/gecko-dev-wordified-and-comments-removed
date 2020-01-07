@@ -800,6 +800,10 @@ stream
 -
 >
 mOriginalInputStream
+.
+forget
+(
+)
 getter_AddRefs
 (
 asyncStream
