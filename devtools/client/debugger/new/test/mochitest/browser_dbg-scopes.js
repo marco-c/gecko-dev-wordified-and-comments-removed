@@ -66,6 +66,15 @@ switching
 "
 )
 ;
+await
+waitForDispatch
+(
+dbg
+"
+MAP_FRAMES
+"
+)
+;
 is
 (
 getLabel
