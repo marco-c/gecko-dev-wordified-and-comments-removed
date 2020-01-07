@@ -83,10 +83,10 @@ use
 self
 :
 :
-builder
+conversions
 :
 :
-ToGfxColor
+ToLayout
 ;
 pub
 use
@@ -103,6 +103,9 @@ background
 ;
 mod
 builder
+;
+mod
+conversions
 ;
 mod
 webrender_helpers
