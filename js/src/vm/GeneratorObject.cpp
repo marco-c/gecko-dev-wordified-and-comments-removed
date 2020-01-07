@@ -32,6 +32,17 @@ include
 "
 vm
 /
+JSAtom
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSScript
 -
 inl

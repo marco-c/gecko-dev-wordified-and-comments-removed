@@ -27,6 +27,15 @@ tests
 .
 h
 "
+#
+include
+"
+vm
+/
+JSAtom
+.
+h
+"
 BEGIN_TEST
 (
 testAssemblerBuffer_BufferOffset

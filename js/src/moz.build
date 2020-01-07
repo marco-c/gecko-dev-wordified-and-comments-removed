@@ -2973,7 +2973,9 @@ jsarray
 .
 cpp
 and
-jsatom
+vm
+/
+JSAtom
 .
 cpp
 cannot
@@ -3205,11 +3207,6 @@ jsarray
 cpp
 '
 '
-jsatom
-.
-cpp
-'
-'
 jsdtoa
 .
 cpp
@@ -3228,6 +3225,13 @@ cpp
 vm
 /
 Interpreter
+.
+cpp
+'
+'
+vm
+/
+JSAtom
 .
 cpp
 '

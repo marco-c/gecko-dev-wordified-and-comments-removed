@@ -122,6 +122,15 @@ include
 "
 vm
 /
+JSAtom
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 .
 h

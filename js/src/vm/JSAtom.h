@@ -1,9 +1,9 @@
 #
 ifndef
-jsatom_h
+vm_JSAtom_h
 #
 define
-jsatom_h
+vm_JSAtom_h
 #
 include
 "

@@ -74,6 +74,17 @@ include
 "
 vm
 /
+JSAtom
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 -
 inl

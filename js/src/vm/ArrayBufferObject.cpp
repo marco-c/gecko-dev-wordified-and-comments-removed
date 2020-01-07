@@ -328,6 +328,17 @@ include
 "
 vm
 /
+JSAtom
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 NativeObject
 -
 inl
