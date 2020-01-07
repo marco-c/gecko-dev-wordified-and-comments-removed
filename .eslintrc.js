@@ -306,14 +306,6 @@ varsIgnorePattern
 :
 "
 ^
-Cc
-|
-Ci
-|
-Cu
-|
-Cr
-|
 EXPORTED_SYMBOLS
 "
 }

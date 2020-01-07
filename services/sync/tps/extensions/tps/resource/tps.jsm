@@ -15,6 +15,9 @@ Addresses
 Bookmarks
 "
 "
+CreditCards
+"
+"
 Formdata
 "
 "

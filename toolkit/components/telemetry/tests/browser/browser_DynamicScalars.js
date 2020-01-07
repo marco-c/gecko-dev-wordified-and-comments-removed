@@ -986,16 +986,6 @@ SCALAR_FULL_NAME
 1
 )
 ;
-let
-processCreated
-=
-TestUtils
-.
-topicObserved
-(
-CONTENT_CREATED
-)
-;
 await
 BrowserTestUtils
 .

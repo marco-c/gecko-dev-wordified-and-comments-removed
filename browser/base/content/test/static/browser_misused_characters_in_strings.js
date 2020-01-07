@@ -1397,7 +1397,7 @@ urisGreD
 .
 concat
 (
-appDirXCurProcD
+urisXCurProcD
 )
 )
 )
