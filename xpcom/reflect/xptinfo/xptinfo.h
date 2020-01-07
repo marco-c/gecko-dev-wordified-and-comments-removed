@@ -622,7 +622,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kGetterMask
 )
@@ -638,7 +638,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kSetterMask
 )
@@ -654,7 +654,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kNotXPCOMMask
 )
@@ -670,7 +670,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kHiddenMask
 )
@@ -686,7 +686,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kOptArgcMask
 )
@@ -702,7 +702,7 @@ return
 !
 !
 (
-flags
+mFlags
 &
 kContextMask
 )
@@ -717,7 +717,7 @@ GetName
 const
 {
 return
-name
+mName
 ;
 }
 uint8_t
@@ -727,7 +727,7 @@ GetParamCount
 const
 {
 return
-num_args
+mNumArgs
 ;
 }
 const
@@ -753,7 +753,7 @@ arg
 )
 ;
 return
-params
+mParams
 [
 idx
 ]
