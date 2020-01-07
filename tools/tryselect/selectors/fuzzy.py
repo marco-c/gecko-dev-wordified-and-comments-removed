@@ -608,6 +608,11 @@ chemspill
 -
 prio
 '
+'
+talos
+-
+profile
+'
 ]
 def
 run
