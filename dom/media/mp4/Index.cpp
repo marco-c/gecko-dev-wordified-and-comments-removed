@@ -488,7 +488,7 @@ s
 >
 mSync
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaRawDataWriter
 >
