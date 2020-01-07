@@ -2053,7 +2053,7 @@ return
 if
 element
 .
-is_native_anonymous
+is_in_native_anonymous_subtree
 (
 )
 {
@@ -2424,7 +2424,7 @@ None
 if
 target
 .
-is_native_anonymous
+is_in_native_anonymous_subtree
 (
 )
 {
@@ -2538,7 +2538,7 @@ debug_assert
 !
 target
 .
-is_native_anonymous
+is_in_native_anonymous_subtree
 (
 )
 )
