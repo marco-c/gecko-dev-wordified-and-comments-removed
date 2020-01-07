@@ -971,6 +971,11 @@ harfbuzz
 -
 devel
 ccache
+mesa
+-
+libGLU
+-
+devel
 #
 #
 #
