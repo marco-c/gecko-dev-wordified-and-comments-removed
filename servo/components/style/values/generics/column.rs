@@ -9,6 +9,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToComputedValue

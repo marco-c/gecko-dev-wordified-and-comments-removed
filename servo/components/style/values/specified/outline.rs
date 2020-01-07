@@ -49,6 +49,7 @@ MallocSizeOf
 Ord
 PartialEq
 PartialOrd
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )

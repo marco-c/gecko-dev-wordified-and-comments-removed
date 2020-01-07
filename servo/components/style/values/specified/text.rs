@@ -1199,6 +1199,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -1400,6 +1401,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -1694,6 +1696,7 @@ bitflags
 derive
 (
 MallocSizeOf
+SpecifiedValueInfo
 ToComputedValue
 )
 ]
@@ -2284,6 +2287,7 @@ Hash
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -2511,6 +2515,7 @@ Debug
 Eq
 Hash
 PartialEq
+SpecifiedValueInfo
 )
 ]
 pub
@@ -3111,6 +3116,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -3136,6 +3142,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -3261,6 +3268,7 @@ Debug
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -3282,6 +3290,7 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -4013,6 +4022,7 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -4035,6 +4045,7 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -4054,6 +4065,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )

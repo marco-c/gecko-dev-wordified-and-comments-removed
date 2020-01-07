@@ -179,6 +179,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -1227,6 +1228,7 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -1248,6 +1250,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 )
 ]

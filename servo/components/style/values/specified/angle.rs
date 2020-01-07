@@ -35,6 +35,7 @@ style_traits
 {
 CssWriter
 ParseError
+SpecifiedValueInfo
 ToCss
 }
 ;
@@ -938,4 +939,10 @@ clone
 )
 )
 }
+}
+impl
+SpecifiedValueInfo
+for
+Angle
+{
 }

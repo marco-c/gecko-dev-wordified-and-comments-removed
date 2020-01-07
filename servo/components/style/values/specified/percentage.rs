@@ -35,6 +35,7 @@ style_traits
 {
 CssWriter
 ParseError
+SpecifiedValueInfo
 ToCss
 }
 ;
@@ -748,4 +749,10 @@ computed
 0
 )
 }
+}
+impl
+SpecifiedValueInfo
+for
+Percentage
+{
 }

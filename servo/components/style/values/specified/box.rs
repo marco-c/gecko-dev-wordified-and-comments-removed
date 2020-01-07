@@ -44,6 +44,7 @@ style_traits
 {
 CssWriter
 ParseError
+SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
 }
@@ -52,13 +53,10 @@ use
 values
 :
 :
+{
 CustomIdent
-;
-use
-values
-:
-:
 KeyframesName
+}
 ;
 use
 values
@@ -148,6 +146,7 @@ Hash
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1525,6 +1524,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 )
 ]
@@ -1789,6 +1789,7 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1835,6 +1836,7 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1881,6 +1883,7 @@ Eq
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1900,6 +1903,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -2608,6 +2612,12 @@ TOUCH_ACTION_PAN_Y
 }
 }
 }
+impl
+SpecifiedValueInfo
+for
+TouchAction
+{
+}
 #
 [
 cfg
@@ -3306,6 +3316,12 @@ UnspecifiedError
 )
 }
 }
+}
+impl
+SpecifiedValueInfo
+for
+Contain
+{
 }
 pub
 type

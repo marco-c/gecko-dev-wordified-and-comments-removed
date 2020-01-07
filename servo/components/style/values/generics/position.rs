@@ -9,6 +9,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 )
@@ -78,6 +79,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
 ToCss

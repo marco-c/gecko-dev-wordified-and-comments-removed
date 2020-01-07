@@ -58,6 +58,7 @@ style_traits
 :
 {
 ParseError
+SpecifiedValueInfo
 StyleParseErrorKind
 }
 ;
@@ -2719,6 +2720,12 @@ px_value
 )
 }
 }
+impl
+SpecifiedValueInfo
+for
+NoCalcLength
+{
+}
 #
 [
 derive
@@ -2727,6 +2734,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -3892,6 +3900,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -4754,6 +4763,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -5670,6 +5680,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -6653,6 +6664,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -6954,6 +6966,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]

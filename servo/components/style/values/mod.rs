@@ -488,6 +488,7 @@ ComputeSquaredDistance
 Copy
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
@@ -712,6 +713,7 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 )
 ]
@@ -928,6 +930,7 @@ Clone
 Debug
 MallocSizeOf
 ToComputedValue
+SpecifiedValueInfo
 )
 ]
 pub

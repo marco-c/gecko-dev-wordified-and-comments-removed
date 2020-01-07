@@ -23,6 +23,7 @@ ComputeSquaredDistance
 Copy
 Debug
 PartialEq
+SpecifiedValueInfo
 ToAnimatedValue
 ToAnimatedZero
 ToComputedValue

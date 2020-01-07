@@ -102,6 +102,7 @@ style_traits
 {
 CssWriter
 ParseError
+SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
 }
@@ -486,6 +487,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -866,6 +868,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -1775,6 +1778,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -2012,6 +2016,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -2042,6 +2047,7 @@ Debug
 MallocSizeOf
 Parse
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -2572,6 +2578,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -3026,6 +3033,12 @@ input
 }
 }
 impl
+SpecifiedValueInfo
+for
+FontFamily
+{
+}
+impl
 Parse
 for
 FamilyName
@@ -3140,6 +3153,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -5726,6 +5740,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -5835,6 +5850,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -5974,6 +5990,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -7420,6 +7437,12 @@ VariantEastAsian
 u16
 )
 ;
+impl
+SpecifiedValueInfo
+for
+VariantEastAsian
+{
+}
 #
 [
 cfg
@@ -7586,6 +7609,7 @@ derive
 Clone
 Debug
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -8776,6 +8800,12 @@ Ok
 )
 }
 }
+impl
+SpecifiedValueInfo
+for
+VariantLigatures
+{
+}
 #
 [
 cfg
@@ -8960,6 +8990,7 @@ derive
 Clone
 Debug
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -10048,6 +10079,12 @@ Ok
 )
 }
 }
+impl
+SpecifiedValueInfo
+for
+VariantNumeric
+{
+}
 #
 [
 cfg
@@ -10225,6 +10262,7 @@ derive
 Clone
 Debug
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -10794,6 +10832,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -11013,6 +11052,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 )
 ]
@@ -11471,6 +11511,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -11922,6 +11963,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -12425,6 +12467,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -12525,6 +12568,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -12667,6 +12711,7 @@ Clone
 Copy
 Debug
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -12807,6 +12852,7 @@ Clone
 Copy
 Debug
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -12949,6 +12995,7 @@ Clone
 Copy
 Debug
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )

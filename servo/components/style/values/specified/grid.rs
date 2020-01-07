@@ -759,6 +759,7 @@ Clone
 Copy
 Debug
 PartialEq
+SpecifiedValueInfo
 )
 ]
 #

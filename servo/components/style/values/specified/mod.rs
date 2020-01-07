@@ -60,6 +60,7 @@ style_traits
 {
 CssWriter
 ParseError
+SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
 }
@@ -1285,6 +1286,7 @@ Ord
 Parse
 PartialEq
 PartialOrd
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1820,6 +1822,12 @@ Ok
 }
 }
 impl
+SpecifiedValueInfo
+for
+Number
+{
+}
+impl
 From
 <
 Number
@@ -2079,6 +2087,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -2316,6 +2325,7 @@ Debug
 MallocSizeOf
 PartialEq
 PartialOrd
+SpecifiedValueInfo
 ToCss
 )
 ]
@@ -3138,6 +3148,12 @@ Ok
 )
 }
 }
+impl
+SpecifiedValueInfo
+for
+Integer
+{
+}
 pub
 type
 PositiveInteger
@@ -3268,6 +3284,7 @@ Clone
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 )
 ]
 pub
@@ -4876,4 +4893,10 @@ write_str
 "
 )
 }
+}
+impl
+SpecifiedValueInfo
+for
+Attr
+{
 }

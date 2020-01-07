@@ -287,6 +287,10 @@ pub
 mod
 cursor
 ;
+pub
+mod
+specified_value_info
+;
 #
 [
 macro_use
@@ -302,6 +306,16 @@ macro_use
 pub
 mod
 viewport
+;
+pub
+use
+specified_value_info
+:
+:
+{
+CssType
+SpecifiedValueInfo
+}
 ;
 pub
 use

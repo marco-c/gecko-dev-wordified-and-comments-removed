@@ -34,6 +34,7 @@ style_traits
 {
 CssWriter
 ParseError
+SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
 }
@@ -647,6 +648,12 @@ write_str
 "
 )
 }
+}
+impl
+SpecifiedValueInfo
+for
+CalcLengthOrPercentage
+{
 }
 impl
 CalcNode

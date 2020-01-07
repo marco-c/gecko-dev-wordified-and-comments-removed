@@ -76,6 +76,7 @@ constants
 derive
 (
 MallocSizeOf
+SpecifiedValueInfo
 ToComputedValue
 )
 ]
@@ -857,6 +858,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1324,6 +1326,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1489,6 +1492,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1654,6 +1658,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -1864,6 +1869,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -2014,6 +2020,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -2164,6 +2171,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToComputedValue
 ToCss
 )
@@ -2345,6 +2353,7 @@ Debug
 Eq
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 ToCss
 )
 ]

@@ -85,6 +85,7 @@ Copy
 Debug
 MallocSizeOf
 PartialEq
+SpecifiedValueInfo
 )
 ]
 pub

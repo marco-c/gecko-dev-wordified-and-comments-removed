@@ -4,6 +4,7 @@ super
 :
 {
 CssWriter
+SpecifiedValueInfo
 ToCss
 }
 ;
@@ -432,6 +433,12 @@ g_css
 +
 }
 }
+}
+impl
+SpecifiedValueInfo
+for
+CursorKind
+{
 }
 }
 }
