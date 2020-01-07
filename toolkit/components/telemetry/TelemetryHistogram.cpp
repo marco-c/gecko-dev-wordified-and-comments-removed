@@ -487,13 +487,6 @@ const
 ;
 }
 ;
-enum
-reflectStatus
-{
-REFLECT_OK
-REFLECT_FAILURE
-}
-;
 struct
 HistogramSnapshotData
 {
