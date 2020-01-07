@@ -47,13 +47,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsIDOMMouseEvent
-.
-h
-"
 enum
 nsDragDropEventStatus
 {
@@ -371,10 +364,7 @@ false
 )
 inputSource
 (
-nsIDOMMouseEvent
-:
-:
-MOZ_SOURCE_MOUSE
+1
 )
 {
 }
@@ -416,10 +406,7 @@ false
 )
 inputSource
 (
-nsIDOMMouseEvent
-:
-:
-MOZ_SOURCE_MOUSE
+1
 )
 {
 }

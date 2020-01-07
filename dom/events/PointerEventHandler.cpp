@@ -28,6 +28,17 @@ PresShell
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+MouseEventBinding
+.
+h
+"
 namespace
 mozilla
 {
@@ -409,7 +420,7 @@ pointerEvent
 inputSource
 !
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -499,7 +510,7 @@ aContent
 ;
 if
 (
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -623,7 +634,7 @@ mPendingContent
 {
 if
 (
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -1274,7 +1285,7 @@ pointerEvent
 inputSource
 !
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -2183,7 +2194,7 @@ aPointerEvent
 >
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH
@@ -2795,7 +2806,7 @@ mPointerType
 ;
 }
 return
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN

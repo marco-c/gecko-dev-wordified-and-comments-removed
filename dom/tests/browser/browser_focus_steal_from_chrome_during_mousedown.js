@@ -257,7 +257,6 @@ button
 :
 button
 }
-null
 )
 ;
 isnot

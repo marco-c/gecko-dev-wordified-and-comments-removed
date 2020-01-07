@@ -302,6 +302,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
@@ -996,7 +1007,7 @@ event
 .
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_UNKNOWN

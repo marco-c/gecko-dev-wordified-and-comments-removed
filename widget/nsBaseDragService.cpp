@@ -254,6 +254,17 @@ include
 "
 mozilla
 /
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -392,7 +403,7 @@ mSuppressLevel
 )
 mInputSource
 (
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_MOUSE
@@ -1743,7 +1754,7 @@ LayoutDeviceIntPoint
 ;
 mInputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_MOUSE

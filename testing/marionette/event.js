@@ -939,9 +939,9 @@ function
 left
 top
 opts
-window
+win
 =
-undefined
+window
 )
 {
 let
@@ -949,7 +949,7 @@ domutils
 =
 getDOMWindowUtils
 (
-window
+win
 )
 ;
 let
@@ -1014,9 +1014,9 @@ opts
 .
 inputSource
 :
-Ci
+win
 .
-nsIDOMMouseEvent
+MouseEvent
 .
 MOZ_SOURCE_MOUSE
 ;

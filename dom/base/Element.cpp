@@ -955,6 +955,17 @@ mozilla
 /
 dom
 /
+ElementBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 KeyframeEffect
 .
 h
@@ -977,7 +988,7 @@ mozilla
 /
 dom
 /
-WindowBinding
+MouseEventBinding
 .
 h
 "
@@ -988,7 +999,7 @@ mozilla
 /
 dom
 /
-ElementBinding
+WindowBinding
 .
 h
 "
@@ -10467,7 +10478,7 @@ true
 ;
 inputSource
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_KEYBOARD

@@ -179,6 +179,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+MouseEventBinding
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
@@ -873,7 +884,7 @@ isTouch
 inputSource
 =
 =
-nsIDOMMouseEvent
+MouseEventBinding
 :
 :
 MOZ_SOURCE_TOUCH

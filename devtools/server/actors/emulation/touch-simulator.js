@@ -496,9 +496,7 @@ evt
 mozInputSource
 !
 =
-Ci
-.
-nsIDOMMouseEvent
+evt
 .
 MOZ_SOURCE_MOUSE
 |
@@ -991,9 +989,7 @@ clientY
 0
 true
 0
-Ci
-.
-nsIDOMMouseEvent
+evt
 .
 MOZ_SOURCE_TOUCH
 )
