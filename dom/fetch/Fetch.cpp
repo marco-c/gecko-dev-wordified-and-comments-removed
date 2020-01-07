@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIThreadRetargetableRequest
-.
-h
-"
-#
-include
-"
 nsCharSeparatedTokenizer
 .
 h
