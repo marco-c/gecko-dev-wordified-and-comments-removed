@@ -1509,7 +1509,7 @@ int32_t
 aX
 int32_t
 aY
-nsIDOMElement
+Element
 *
 aTarget
 dom
@@ -1704,7 +1704,10 @@ GetFocusedNode
 bool
 SetCaretInTableCell
 (
-nsIDOMElement
+dom
+:
+:
+Element
 *
 aElement
 )
@@ -3801,7 +3804,7 @@ aID
 nsresult
 StartResizing
 (
-nsIDOMElement
+Element
 *
 aHandle
 )
