@@ -15,11 +15,6 @@ Init
 (
 )
 ;
-void
-Activate
-(
-)
-;
 }
 }
 #

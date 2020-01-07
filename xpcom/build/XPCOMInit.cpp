@@ -2161,16 +2161,6 @@ gXPCOMShuttingDown
 =
 false
 ;
-mozilla
-:
-:
-AvailableMemoryTracker
-:
-:
-Init
-(
-)
-;
 #
 ifdef
 XP_UNIX
@@ -3095,7 +3085,7 @@ mozilla
 AvailableMemoryTracker
 :
 :
-Activate
+Init
 (
 )
 ;
