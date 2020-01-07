@@ -1,0 +1,4 @@
+.
+globl
+_asfun
+ret

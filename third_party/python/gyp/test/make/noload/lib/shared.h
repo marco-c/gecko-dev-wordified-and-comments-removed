@@ -1,0 +1,7 @@
+extern
+const
+char
+kSharedStr
+[
+]
+;

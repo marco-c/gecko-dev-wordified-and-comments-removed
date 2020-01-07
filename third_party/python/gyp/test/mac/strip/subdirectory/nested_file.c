@@ -1,0 +1,6 @@
+void
+nested_f
+(
+)
+{
+}

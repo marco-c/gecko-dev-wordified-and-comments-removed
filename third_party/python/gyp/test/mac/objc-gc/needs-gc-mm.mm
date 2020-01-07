@@ -1,0 +1,6 @@
+void
+objcpp_fun
+(
+)
+{
+}

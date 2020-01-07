@@ -1,0 +1,9 @@
+int
+mainCRTStartup
+(
+)
+{
+return
+5
+;
+}

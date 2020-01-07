@@ -1,0 +1,17 @@
+{
+'
+variables
+'
+:
+{
+'
+foo
+'
+:
+'
+"
+fromhome
+"
+'
+}
+}

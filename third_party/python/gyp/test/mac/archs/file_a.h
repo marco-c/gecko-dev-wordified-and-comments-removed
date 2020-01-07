@@ -1,0 +1,13 @@
+#
+ifndef
+_INCLUDED_TEST_MAC_DEPENDENCIES_FILE_A_H_
+#
+define
+_INCLUDED_TEST_MAC_DEPENDENCIES_FILE_A_H_
+void
+DependentFunctionA
+(
+)
+;
+#
+endif
