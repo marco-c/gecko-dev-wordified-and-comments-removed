@@ -2689,7 +2689,7 @@ Error
 waitOnEventOrTimeout
 -
 invalid
-paramaters
+parameters
 .
 '
 )

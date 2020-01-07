@@ -110806,7 +110806,7 @@ blockStyle
 ;
 cod
 .
-verticalyStripe
+verticallyStripe
 =
 !
 !
@@ -110971,7 +110971,7 @@ if
 (
 cod
 .
-verticalyStripe
+verticallyStripe
 )
 {
 unsupported
@@ -110979,7 +110979,7 @@ unsupported
 push
 (
 '
-verticalyStripe
+verticallyStripe
 '
 )
 ;
@@ -184006,14 +184006,14 @@ pdfjsVersion
 .
 0
 .
-466
+480
 '
 ;
 var
 pdfjsBuild
 =
 '
-a8e9f6cc
+a7a034d8
 '
 ;
 var
@@ -185035,7 +185035,7 @@ workerVersion
 .
 0
 .
-466
+480
 '
 ;
 if
@@ -264618,7 +264618,7 @@ var
 previous
 ;
 var
-embededUseCMap
+embeddedUseCMap
 ;
 objLoop
 :
@@ -264761,7 +264761,7 @@ previous
 )
 )
 {
-embededUseCMap
+embeddedUseCMap
 =
 previous
 .
@@ -264883,12 +264883,12 @@ if
 useCMap
 &
 &
-embededUseCMap
+embeddedUseCMap
 )
 {
 useCMap
 =
-embededUseCMap
+embeddedUseCMap
 ;
 }
 if
