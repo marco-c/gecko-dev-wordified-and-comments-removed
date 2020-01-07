@@ -7962,6 +7962,9 @@ switchToTabHavingURI
 optionsURL
 true
 {
+relatedToCurrent
+:
+true
 triggeringPrincipal
 :
 Services
