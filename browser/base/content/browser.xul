@@ -1550,6 +1550,8 @@ menupopup
 oncommand
 =
 "
+TabContextMenu
+.
 reopenInContainer
 (
 event
@@ -1559,7 +1561,8 @@ event
 onpopupshowing
 =
 "
-return
+TabContextMenu
+.
 createReopenInContainerMenu
 (
 event
