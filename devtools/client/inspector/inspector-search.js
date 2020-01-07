@@ -114,14 +114,6 @@ null
 ;
 this
 .
-searchClearButton
-.
-hidden
-=
-true
-;
-this
-.
 _onKeyDown
 =
 this
