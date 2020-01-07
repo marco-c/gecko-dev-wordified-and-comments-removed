@@ -326,7 +326,7 @@ documentElement
 .
 style
 .
-width
+minWidth
 =
 FormAutofillUtils
 .
