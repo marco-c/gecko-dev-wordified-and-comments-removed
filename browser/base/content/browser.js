@@ -15936,6 +15936,11 @@ msg
 data
 .
 securityInfoAsString
+msg
+.
+data
+.
+frameId
 )
 ;
 break
@@ -16221,6 +16226,7 @@ elementId
 isTopFrame
 location
 securityInfoAsString
+frameId
 )
 {
 let
@@ -16486,6 +16492,7 @@ errorCode
 info
 :
 errorInfo
+frameId
 }
 )
 ;
