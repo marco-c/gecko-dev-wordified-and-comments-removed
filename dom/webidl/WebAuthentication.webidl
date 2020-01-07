@@ -292,10 +292,13 @@ attribute
 ArrayBuffer
 signature
 ;
+[
+SameObject
+]
 readonly
 attribute
-DOMString
-userId
+ArrayBuffer
+userHandle
 ;
 }
 ;
@@ -374,6 +377,7 @@ Bug
 dictionary
 PublicKeyCredentialEntity
 {
+required
 DOMString
 name
 ;
@@ -397,9 +401,11 @@ PublicKeyCredentialUserEntity
 :
 PublicKeyCredentialEntity
 {
+required
 BufferSource
 id
 ;
+required
 DOMString
 displayName
 ;
