@@ -4376,14 +4376,7 @@ weakWindow
 =
 do_GetWeakReference
 (
-static_cast
-<
-nsIDOMEventTarget
-*
->
-(
 aWindow
-)
 )
 ;
 if

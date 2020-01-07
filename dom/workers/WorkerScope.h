@@ -1664,7 +1664,13 @@ aScope
 return
 static_cast
 <
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 *
 >
 (
