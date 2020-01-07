@@ -115,9 +115,6 @@ namespace
 layers
 {
 class
-DisplayItemLayer
-;
-class
 ImageFactory
 ;
 class
@@ -383,16 +380,6 @@ already_AddRefed
 ReadbackLayer
 >
 CreateReadbackLayer
-(
-)
-override
-;
-virtual
-already_AddRefed
-<
-DisplayItemLayer
->
-CreateDisplayItemLayer
 (
 )
 override
