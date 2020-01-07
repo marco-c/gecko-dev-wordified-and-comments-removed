@@ -4497,16 +4497,6 @@ sIsPerformanceTimingEnabled
 }
 static
 bool
-IsUserTimingLoggingEnabled
-(
-)
-{
-return
-sIsUserTimingLoggingEnabled
-;
-}
-static
-bool
 IsResourceTimingEnabled
 (
 )
@@ -7054,10 +7044,6 @@ sIsResourceTimingEnabled
 static
 bool
 sIsPerformanceNavigationTimingEnabled
-;
-static
-bool
-sIsUserTimingLoggingEnabled
 ;
 static
 bool
