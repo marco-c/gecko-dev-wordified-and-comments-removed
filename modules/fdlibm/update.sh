@@ -282,6 +282,16 @@ sort
 )
 ;
 do
+echo
+"
+Applying
+{
+FILE
+}
+.
+.
+.
+"
 patch
 -
 p3
