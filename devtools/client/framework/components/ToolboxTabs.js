@@ -148,9 +148,7 @@ framework
 /
 components
 /
-toolbox
--
-tab
+ToolboxTab
 "
 )
 )

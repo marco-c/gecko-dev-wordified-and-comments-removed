@@ -3215,9 +3215,7 @@ framework
 /
 components
 /
-toolbox
--
-controller
+ToolboxController
 "
 )
 ;
