@@ -2836,7 +2836,7 @@ type
 }
 masm
 .
-memoryBarrier
+memoryBarrierBefore
 (
 mir
 -
@@ -2845,7 +2845,7 @@ access
 (
 )
 .
-barrierBefore
+sync
 (
 )
 )
@@ -2916,9 +2916,9 @@ SignExtend
 ZeroExtend
 )
 ;
-return
-;
 }
+else
+{
 masm
 .
 ma_load
@@ -2975,9 +2975,10 @@ framePushed
 )
 )
 ;
+}
 masm
 .
-memoryBarrier
+memoryBarrierAfter
 (
 mir
 -
@@ -2986,7 +2987,7 @@ access
 (
 )
 .
-barrierAfter
+sync
 (
 )
 )
@@ -3293,7 +3294,7 @@ type
 }
 masm
 .
-memoryBarrier
+memoryBarrierBefore
 (
 mir
 -
@@ -3302,7 +3303,7 @@ access
 (
 )
 .
-barrierBefore
+sync
 (
 )
 )
@@ -3378,9 +3379,9 @@ SignExtend
 ZeroExtend
 )
 ;
-return
-;
 }
+else
+{
 masm
 .
 ma_store
@@ -3442,9 +3443,10 @@ framePushed
 )
 )
 ;
+}
 masm
 .
-memoryBarrier
+memoryBarrierAfter
 (
 mir
 -
@@ -3453,7 +3455,7 @@ access
 (
 )
 .
-barrierAfter
+sync
 (
 )
 )

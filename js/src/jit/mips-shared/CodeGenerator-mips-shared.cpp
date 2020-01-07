@@ -11693,7 +11693,7 @@ type
 }
 masm
 .
-memoryBarrier
+memoryBarrierBefore
 (
 mir
 -
@@ -11702,7 +11702,7 @@ access
 (
 )
 .
-barrierBefore
+sync
 (
 )
 )
@@ -11841,7 +11841,7 @@ ZeroExtend
 }
 masm
 .
-memoryBarrier
+memoryBarrierAfter
 (
 mir
 -
@@ -11850,7 +11850,7 @@ access
 (
 )
 .
-barrierAfter
+sync
 (
 )
 )
@@ -11973,7 +11973,7 @@ framePushed
 ;
 masm
 .
-memoryBarrier
+memoryBarrierAfter
 (
 mir
 -
@@ -11982,7 +11982,7 @@ access
 (
 )
 .
-barrierAfter
+sync
 (
 )
 )
@@ -12295,7 +12295,7 @@ type
 }
 masm
 .
-memoryBarrier
+memoryBarrierBefore
 (
 mir
 -
@@ -12304,7 +12304,7 @@ access
 (
 )
 .
-barrierBefore
+sync
 (
 )
 )
@@ -12443,7 +12443,7 @@ ZeroExtend
 }
 masm
 .
-memoryBarrier
+memoryBarrierAfter
 (
 mir
 -
@@ -12452,7 +12452,7 @@ access
 (
 )
 .
-barrierAfter
+sync
 (
 )
 )
@@ -12575,7 +12575,7 @@ framePushed
 ;
 masm
 .
-memoryBarrier
+memoryBarrierAfter
 (
 mir
 -
@@ -12584,7 +12584,7 @@ access
 (
 )
 .
-barrierAfter
+sync
 (
 )
 )

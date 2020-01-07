@@ -2999,6 +2999,8 @@ profilerExitTail
 ;
 public
 :
+private
+:
 template
 <
 typename
@@ -5124,6 +5126,8 @@ maskTemp
 )
 ;
 }
+public
+:
 template
 <
 typename
