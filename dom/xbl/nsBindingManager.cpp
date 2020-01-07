@@ -3231,6 +3231,7 @@ point
 AppendInsertedChild
 (
 child
+true
 )
 ;
 }

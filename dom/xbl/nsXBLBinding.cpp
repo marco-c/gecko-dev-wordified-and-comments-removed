@@ -1466,6 +1466,7 @@ mDefaultInsertionPoint
 AppendInsertedChild
 (
 child
+false
 )
 ;
 }
@@ -1521,6 +1522,7 @@ point
 AppendInsertedChild
 (
 child
+false
 )
 ;
 }
