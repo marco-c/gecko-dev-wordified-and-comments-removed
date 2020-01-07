@@ -114,6 +114,9 @@ interface
 nsIArray
 ;
 webidl
+Document
+;
+webidl
 Element
 ;
 webidl
@@ -1158,7 +1161,7 @@ in
 AString
 aFlavor
 in
-nsIDOMDocument
+Document
 aSourceDoc
 in
 nsIDOMNode

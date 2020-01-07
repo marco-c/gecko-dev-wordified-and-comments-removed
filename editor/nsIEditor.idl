@@ -139,6 +139,9 @@ interface
 nsITransferable
 ;
 webidl
+Document
+;
+webidl
 Element
 ;
 webidl
@@ -467,7 +470,7 @@ refcounted
 /
 readonly
 attribute
-nsIDOMDocument
+Document
 document
 ;
 /
