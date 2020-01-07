@@ -2116,7 +2116,7 @@ GetStatement
 "
 DELETE
 FROM
-moz_updatehostsinsert_temp
+moz_updateoriginsinsert_temp
 "
 )
 ;
