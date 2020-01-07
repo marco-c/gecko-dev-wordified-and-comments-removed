@@ -2873,8 +2873,9 @@ interruptRegExpJit_
 =
 true
 ;
-fx
-.
+FutexThread
+:
+:
 lock
 (
 )
