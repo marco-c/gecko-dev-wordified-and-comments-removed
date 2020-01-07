@@ -188,6 +188,15 @@ context
 :
 SharedStyleContext
 ;
+pub
+type
+LayoutFontContext
+=
+FontContext
+<
+FontCacheThread
+>
+;
 thread_local
 !
 (
@@ -198,7 +207,7 @@ RefCell
 <
 Option
 <
-FontContext
+LayoutFontContext
 >
 >
 =
@@ -237,7 +246,7 @@ FnOnce
 (
 &
 mut
-FontContext
+LayoutFontContext
 )
 -
 >
