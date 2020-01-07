@@ -452,15 +452,16 @@ label
 :
 L10N
 .
-getStr
+getFormatStr
 (
 "
 netmonitor
 .
 context
 .
-copyPostData
+copyRequestData
 "
+method
 )
 accesskey
 :
@@ -473,7 +474,7 @@ netmonitor
 .
 context
 .
-copyPostData
+copyRequestData
 .
 accesskey
 "
