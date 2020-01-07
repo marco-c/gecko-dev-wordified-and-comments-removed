@@ -147,13 +147,6 @@ aPreallocateChildren
 const
 override
 ;
-bool
-IsInChromeDoc
-(
-)
-const
-override
-;
 }
 ;
 }

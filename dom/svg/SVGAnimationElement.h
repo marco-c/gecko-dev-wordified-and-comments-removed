@@ -393,14 +393,6 @@ ErrorResult
 rv
 )
 ;
-virtual
-bool
-IsInChromeDoc
-(
-)
-const
-override
-;
 nsSVGElement
 *
 AsSVGElement

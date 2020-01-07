@@ -219,7 +219,12 @@ nsSVGFeatures
 HasExtension
 (
 aExtension
-IsInChromeDoc
+AsSVGElement
+(
+)
+-
+>
+IsInChromeDocument
 (
 )
 )
@@ -574,7 +579,12 @@ EXTENSIONS
 [
 i
 ]
-IsInChromeDoc
+AsSVGElement
+(
+)
+-
+>
+IsInChromeDocument
 (
 )
 )
