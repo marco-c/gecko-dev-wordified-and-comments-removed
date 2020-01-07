@@ -54357,12 +54357,6 @@ alert_emails
 :
 [
 "
-gkrizsanits
-mozilla
-.
-com
-"
-"
 mconley
 mozilla
 .
@@ -54381,7 +54375,7 @@ expires_in_version
 "
 :
 "
-61
+66
 "
 "
 kind
