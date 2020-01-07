@@ -5195,6 +5195,25 @@ runner
 .
 process_handler
         
+outputHandler
+.
+proc_name
+=
+'
+GECKO
+(
+{
+}
+)
+'
+.
+format
+(
+proc
+.
+pid
+)
+        
 marionette_exception
 =
 None
@@ -5360,6 +5379,12 @@ wait
 runner
 .
 process_handler
+=
+None
+        
+outputHandler
+.
+proc_name
 =
 None
         
