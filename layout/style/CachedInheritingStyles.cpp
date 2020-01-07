@@ -12,7 +12,7 @@ include
 "
 mozilla
 /
-ComputedStyle
+ServoStyleContext
 .
 h
 "
@@ -39,7 +39,7 @@ CachedInheritingStyles
 :
 Insert
 (
-ComputedStyle
+ServoStyleContext
 *
 aStyle
 )
@@ -76,7 +76,7 @@ IsEmpty
 {
 RefPtr
 <
-ComputedStyle
+ServoStyleContext
 >
 s
 =
@@ -187,7 +187,7 @@ IsIndirect
 ;
 }
 }
-ComputedStyle
+ServoStyleContext
 *
 CachedInheritingStyles
 :
@@ -261,7 +261,7 @@ return
 nullptr
 ;
 }
-ComputedStyle
+ServoStyleContext
 *
 direct
 =
@@ -349,7 +349,7 @@ aCVsSize
 return
 ;
 }
-ComputedStyle
+ServoStyleContext
 *
 direct
 =

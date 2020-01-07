@@ -268,9 +268,9 @@ NS_NewBlockFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 NS_DECL_QUERYFRAME
@@ -1149,9 +1149,9 @@ protected
 explicit
 nsBlockFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 ClassID
 aID
 =
@@ -1160,7 +1160,7 @@ kClassID
 :
 nsContainerFrame
 (
-aStyle
+aContext
 aID
 )
 mMinWidth
@@ -1193,7 +1193,7 @@ ifdef
 DEBUG
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 GetFirstLetterStyle
 (
@@ -2528,7 +2528,7 @@ RemovePushedFloats
 ;
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 ResolveBulletStyle
 (

@@ -3886,7 +3886,7 @@ bodyFrame
 ;
 }
 }
-ComputedStyle
+nsStyleContext
 *
 bgSC
 =

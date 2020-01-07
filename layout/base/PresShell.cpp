@@ -23729,7 +23729,7 @@ if
 rootStyleFrame
 )
 {
-ComputedStyle
+nsStyleContext
 *
 bgStyle
 =
@@ -43807,7 +43807,7 @@ void
 PresShell
 :
 :
-ListComputedStyles
+ListStyleContexts
 (
 FILE
 *
@@ -43832,7 +43832,7 @@ rootFrame
 rootFrame
 -
 >
-Style
+StyleContext
 (
 )
 -
@@ -43879,7 +43879,7 @@ rootElementFrame
 rootElementFrame
 -
 >
-Style
+StyleContext
 (
 )
 -

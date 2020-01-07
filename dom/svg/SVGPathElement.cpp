@@ -1241,14 +1241,14 @@ strokeWidth
 ;
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 styleContext
 =
 nsComputedDOMStyle
 :
 :
-GetComputedStyleNoFlush
+GetStyleContextNoFlush
 (
 this
 nullptr

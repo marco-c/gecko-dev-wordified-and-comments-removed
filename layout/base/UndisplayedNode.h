@@ -14,9 +14,7 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
+nsStyleContext
 .
 h
 "
@@ -37,7 +35,7 @@ UndisplayedNode
 nsIContent
 *
 aContent
-ComputedStyle
+nsStyleContext
 *
 aStyle
 )
@@ -82,7 +80,7 @@ mContent
 ;
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 mStyle
 ;

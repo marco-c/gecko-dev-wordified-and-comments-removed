@@ -2437,7 +2437,7 @@ profiler_register_thread
 profiler_unregister_thread
 /
 /
-ComputedStyle
+nsStyleContext
 :
 :
 PeekStyle

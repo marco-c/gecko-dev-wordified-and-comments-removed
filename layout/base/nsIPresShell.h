@@ -2288,7 +2288,7 @@ ifdef
 DEBUG
 virtual
 void
-ListComputedStyles
+ListStyleContexts
 (
 FILE
 *

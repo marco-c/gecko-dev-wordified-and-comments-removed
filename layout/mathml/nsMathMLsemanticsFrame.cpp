@@ -30,9 +30,9 @@ NS_NewMathMLsemanticsFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -42,7 +42,7 @@ aPresShell
 )
 nsMathMLsemanticsFrame
 (
-aStyle
+aContext
 )
 ;
 }

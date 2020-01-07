@@ -105,9 +105,9 @@ NS_NewBRFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 ContentOffsets
@@ -304,14 +304,14 @@ protected
 explicit
 BRFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 :
 nsFrame
 (
-aStyle
+aContext
 kClassID
 )
 mAscent
@@ -339,9 +339,9 @@ NS_NewBRFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -351,7 +351,7 @@ aPresShell
 )
 BRFrame
 (
-aStyle
+aContext
 )
 ;
 }
@@ -487,7 +487,7 @@ GetParent
 )
 -
 >
-Style
+StyleContext
 (
 )
 -
@@ -705,7 +705,7 @@ GetParent
 )
 -
 >
-Style
+StyleContext
 (
 )
 -
@@ -749,7 +749,7 @@ GetParent
 )
 -
 >
-Style
+StyleContext
 (
 )
 -

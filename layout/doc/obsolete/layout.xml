@@ -1693,7 +1693,7 @@ the
 frame
 (
 see
-nsIComputedStyle
+nsIStyleContext
 )
 .
 <

@@ -2457,9 +2457,9 @@ CalcLineHeight
 nsIContent
 *
 aContent
-ComputedStyle
+nsStyleContext
 *
-aComputedStyle
+aStyleContext
 nscoord
 aBlockBSize
 float

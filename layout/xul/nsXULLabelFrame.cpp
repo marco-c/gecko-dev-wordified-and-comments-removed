@@ -39,9 +39,9 @@ NS_NewXULLabelFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 nsXULLabelFrame
@@ -54,7 +54,7 @@ aPresShell
 )
 nsXULLabelFrame
 (
-aStyle
+aContext
 )
 ;
 it

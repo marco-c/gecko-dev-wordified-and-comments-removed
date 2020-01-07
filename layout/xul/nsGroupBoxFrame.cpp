@@ -40,9 +40,7 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
+nsStyleContext
 .
 h
 "
@@ -87,14 +85,14 @@ nsGroupBoxFrame
 explicit
 nsGroupBoxFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 :
 nsBoxFrame
 (
-aStyle
+aContext
 kClassID
 )
 {
@@ -279,9 +277,9 @@ NS_NewGroupBoxFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -291,7 +289,7 @@ aPresShell
 )
 nsGroupBoxFrame
 (
-aStyle
+aContext
 )
 ;
 }
@@ -969,7 +967,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-mComputedStyle
+mStyleContext
 PaintBorderFlags
 :
 :
@@ -1053,7 +1051,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-mComputedStyle
+mStyleContext
 PaintBorderFlags
 :
 :
@@ -1128,7 +1126,7 @@ aRenderingContext
 this
 aDirtyRect
 rect
-mComputedStyle
+mStyleContext
 PaintBorderFlags
 :
 :
@@ -1164,7 +1162,7 @@ GetSize
 (
 )
 )
-mComputedStyle
+mStyleContext
 PaintBorderFlags
 :
 :

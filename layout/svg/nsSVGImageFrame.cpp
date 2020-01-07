@@ -189,9 +189,9 @@ NS_NewSVGImageFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -201,7 +201,7 @@ aPresShell
 )
 nsSVGImageFrame
 (
-aStyle
+aContext
 )
 ;
 }

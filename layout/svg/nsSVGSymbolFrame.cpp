@@ -12,9 +12,9 @@ NS_NewSVGSymbolFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -24,7 +24,7 @@ aPresShell
 )
 nsSVGSymbolFrame
 (
-aStyle
+aContext
 )
 ;
 }

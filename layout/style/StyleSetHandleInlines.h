@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-ComputedStyle
+ServoStyleContext
 .
 h
 "
@@ -34,9 +34,7 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
+nsStyleContext
 .
 h
 "
@@ -292,7 +290,7 @@ EndUpdate
 }
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -308,7 +306,7 @@ dom
 Element
 *
 aElement
-ComputedStyle
+nsStyleContext
 *
 aParentContext
 LazyComputeBehavior
@@ -329,7 +327,7 @@ aMayCompute
 }
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -342,7 +340,7 @@ ResolveStyleForText
 nsIContent
 *
 aTextNode
-ComputedStyle
+nsStyleContext
 *
 aParentContext
 )
@@ -360,7 +358,7 @@ parent
 }
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -382,7 +380,7 @@ ResolveStyleForPlaceholder
 }
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -392,7 +390,7 @@ Ptr
 :
 ResolveStyleForFirstLetterContinuation
 (
-ComputedStyle
+nsStyleContext
 *
 aParentContext
 )
@@ -409,7 +407,7 @@ parent
 }
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -427,7 +425,7 @@ Element
 aParentElement
 CSSPseudoElementType
 aType
-ComputedStyle
+nsStyleContext
 *
 aParentContext
 dom
@@ -453,7 +451,7 @@ aPseudoElement
 }
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -466,7 +464,7 @@ ResolveInheritingAnonymousBoxStyle
 nsAtom
 *
 aPseudoTag
-ComputedStyle
+nsStyleContext
 *
 aParentContext
 )
@@ -484,7 +482,7 @@ parent
 }
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -513,7 +511,7 @@ ifdef
 MOZ_XUL
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -532,7 +530,7 @@ aParentElement
 nsICSSAnonBoxPseudo
 *
 aPseudoTag
-ComputedStyle
+nsStyleContext
 *
 aParentContext
 const
@@ -1248,7 +1246,7 @@ InvalidateStyleForCSSRuleChanges
 }
 already_AddRefed
 <
-ComputedStyle
+nsStyleContext
 >
 StyleSetHandle
 :
@@ -1266,7 +1264,7 @@ Element
 aParentElement
 CSSPseudoElementType
 aType
-ComputedStyle
+nsStyleContext
 *
 aParentContext
 )
@@ -1290,7 +1288,7 @@ StyleSetHandle
 Ptr
 :
 :
-RootComputedStyleAdded
+RootStyleContextAdded
 (
 )
 {
@@ -1320,7 +1318,7 @@ StyleSetHandle
 Ptr
 :
 :
-RootComputedStyleRemoved
+RootStyleContextRemoved
 (
 )
 {

@@ -8,16 +8,14 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
+nsPresContext
 .
 h
 "
 #
 include
 "
-nsPresContext
+nsStyleContext
 .
 h
 "
@@ -77,7 +75,7 @@ nsAtom
 *
 pseudoType
 =
-Style
+StyleContext
 (
 )
 -

@@ -34,10 +34,6 @@ StyleSetHandleInlines
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsTreeStyleCache
 :
 :
@@ -144,12 +140,12 @@ hb
 lb
 ;
 }
-ComputedStyle
+nsStyleContext
 *
 nsTreeStyleCache
 :
 :
-GetComputedStyle
+GetStyleContext
 (
 nsPresContext
 *
@@ -157,9 +153,9 @@ aPresContext
 nsIContent
 *
 aContent
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 nsICSSAnonBoxPseudo
 *
 aPseudoElement
@@ -306,7 +302,7 @@ currState
 ;
 }
 }
-ComputedStyle
+nsStyleContext
 *
 result
 =
@@ -336,7 +332,7 @@ result
 {
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 newResult
 =
@@ -357,7 +353,7 @@ AsElement
 (
 )
 aPseudoElement
-aStyle
+aContext
 aInputWord
 )
 ;
@@ -370,7 +366,7 @@ mCache
 mCache
 =
 new
-ComputedStyleCache
+StyleContextCache
 (
 )
 ;

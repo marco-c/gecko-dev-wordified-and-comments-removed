@@ -1236,7 +1236,7 @@ menuitem
 id
 =
 "
-menu_dumpComputedStyles
+menu_dumpStyleContexts
 "
 label
 =
@@ -1244,7 +1244,7 @@ label
 &
 ldb
 .
-dumpComputedStyles
+dumpStyleContexts
 .
 label
 ;
@@ -1255,7 +1255,7 @@ accesskey
 &
 ldb
 .
-dumpComputedStyles
+dumpStyleContexts
 .
 accesskey
 ;
@@ -1265,7 +1265,7 @@ oncommand
 "
 gDebugger
 .
-dumpComputedStyles
+dumpStyleContexts
 (
 )
 ;

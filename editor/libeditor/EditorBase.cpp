@@ -165,15 +165,6 @@ include
 "
 mozilla
 /
-ComputedStyle
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EditAction
 .
 h
@@ -751,6 +742,13 @@ h
 include
 "
 nsStyleConsts
+.
+h
+"
+#
+include
+"
+nsStyleContext
 .
 h
 "
@@ -17250,7 +17248,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 elementStyle
 ;
@@ -17293,7 +17291,7 @@ elementStyle
 nsComputedDOMStyle
 :
 :
-GetComputedStyleNoFlush
+GetStyleContextNoFlush
 (
 content
 -

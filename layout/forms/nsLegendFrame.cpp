@@ -61,9 +61,9 @@ NS_NewLegendFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 #
@@ -74,7 +74,7 @@ nsStyleDisplay
 *
 disp
 =
-aStyle
+aContext
 -
 >
 StyleDisplay
@@ -124,7 +124,7 @@ aPresShell
 )
 nsLegendFrame
 (
-aStyle
+aContext
 )
 ;
 f

@@ -72,9 +72,9 @@ NS_NewSVGMarkerFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -84,7 +84,7 @@ aPresShell
 )
 nsSVGMarkerFrame
 (
-aStyle
+aContext
 )
 ;
 }
@@ -995,9 +995,9 @@ NS_NewSVGMarkerAnonChildFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -1007,7 +1007,7 @@ aPresShell
 )
 nsSVGMarkerAnonChildFrame
 (
-aStyle
+aContext
 )
 ;
 }

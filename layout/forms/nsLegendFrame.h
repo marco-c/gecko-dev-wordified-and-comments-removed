@@ -37,14 +37,14 @@ nsLegendFrame
 explicit
 nsLegendFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 :
 nsBlockFrame
 (
-aStyle
+aContext
 kClassID
 )
 {

@@ -76,12 +76,9 @@ NS_NewMenuBarFrame
 nsIPresShell
 *
 aPresShell
-mozilla
-:
-:
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 class
@@ -103,9 +100,9 @@ nsMenuBarFrame
 explicit
 nsMenuBarFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual

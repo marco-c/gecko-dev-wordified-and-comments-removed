@@ -41,9 +41,7 @@ h
 #
 include
 "
-mozilla
-/
-ComputedStyle
+nsStyleContext
 .
 h
 "
@@ -61,17 +59,14 @@ nsTransformedCharStyle
 explicit
 nsTransformedCharStyle
 (
-mozilla
-:
-:
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 :
 mFont
 (
-aStyle
+aContext
 -
 >
 StyleFont
@@ -83,7 +78,7 @@ mFont
 )
 mLanguage
 (
-aStyle
+aContext
 -
 >
 StyleFont
@@ -95,7 +90,7 @@ mLanguage
 )
 mPresContext
 (
-aStyle
+aContext
 -
 >
 PresContext
@@ -104,7 +99,7 @@ PresContext
 )
 mScriptSizeMultiplier
 (
-aStyle
+aContext
 -
 >
 StyleFont
@@ -116,7 +111,7 @@ mScriptSizeMultiplier
 )
 mTextTransform
 (
-aStyle
+aContext
 -
 >
 StyleText
@@ -128,7 +123,7 @@ mTextTransform
 )
 mMathVariant
 (
-aStyle
+aContext
 -
 >
 StyleFont
@@ -140,7 +135,7 @@ mMathVariant
 )
 mExplicitLanguage
 (
-aStyle
+aContext
 -
 >
 StyleFont

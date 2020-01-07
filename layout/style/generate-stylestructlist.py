@@ -707,7 +707,7 @@ the
 data
 provided
 by
-ComputedStyle
+nsStyleContext
 the
  
 *

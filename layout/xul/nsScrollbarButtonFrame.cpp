@@ -106,9 +106,9 @@ NS_NewScrollbarButtonFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -118,7 +118,7 @@ aPresShell
 )
 nsScrollbarButtonFrame
 (
-aStyle
+aContext
 )
 ;
 }

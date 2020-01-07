@@ -295,7 +295,7 @@ dumpStyleSheets
 )
 ;
 void
-dumpComputedStyles
+dumpStyleContexts
 (
 )
 ;

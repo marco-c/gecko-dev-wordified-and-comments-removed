@@ -46,7 +46,7 @@ class
 nsIDocument
 ;
 class
-ComputedStyle
+nsStyleContext
 ;
 struct
 RawServoDeclarationBlock

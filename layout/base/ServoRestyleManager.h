@@ -608,7 +608,7 @@ aOldValue
 )
 ;
 nsresult
-ReparentComputedStyle
+ReparentStyleContext
 (
 nsIFrame
 *
@@ -702,7 +702,7 @@ ProcessPostTraversal
 Element
 *
 aElement
-ComputedStyle
+ServoStyleContext
 *
 aParentContext
 ServoRestyleState
@@ -847,7 +847,7 @@ aFlags
 )
 ;
 void
-DoReparentComputedStyle
+DoReparentStyleContext
 (
 nsIFrame
 *

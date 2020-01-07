@@ -7937,7 +7937,7 @@ nsStylePosition
 :
 UsedAlignSelf
 (
-ComputedStyle
+nsStyleContext
 *
 aParent
 )
@@ -8012,7 +8012,7 @@ nsStylePosition
 :
 UsedJustifySelf
 (
-ComputedStyle
+nsStyleContext
 *
 aParent
 )
@@ -15211,7 +15211,7 @@ BackgroundColor
 aFrame
 -
 >
-Style
+StyleContext
 (
 )
 )
@@ -15223,12 +15223,9 @@ nsStyleBackground
 :
 BackgroundColor
 (
-mozilla
-:
-:
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 const
 {
@@ -15243,7 +15240,7 @@ mBackgroundColor
 .
 mColor
 :
-aStyle
+aContext
 -
 >
 StyleColor
@@ -15276,7 +15273,7 @@ IsTransparent
 aFrame
 -
 >
-Style
+StyleContext
 (
 )
 )
@@ -15288,12 +15285,9 @@ nsStyleBackground
 :
 IsTransparent
 (
-mozilla
-:
-:
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 const
 {
@@ -15321,7 +15315,7 @@ NS_GET_A
 (
 BackgroundColor
 (
-aStyle
+aContext
 )
 )
 =

@@ -708,7 +708,7 @@ h
 "
 mozilla
 /
-ComputedStyle
+ServoStyleContext
 .
 h
 "
@@ -1657,7 +1657,7 @@ ServoElementSnapshot
 mozilla
 :
 :
-ComputedStyle
+ServoStyleContext
 "
 "
 mozilla
@@ -2051,7 +2051,7 @@ nsStyleContent
 nsStyleContentData
 "
 "
-ComputedStyle
+nsStyleContext
 "
 "
 nsStyleCoord
@@ -2174,13 +2174,13 @@ ServoComputedDataBorrowed
 ServoElementSnapshot
 "
 "
-ComputedStyleStrong
+ServoStyleContextStrong
 "
 "
-ComputedStyleBorrowed
+ServoStyleContextBorrowed
 "
 "
-ComputedStyleBorrowedOrNull
+ServoStyleContextBorrowedOrNull
 "
 "
 SheetParsingMode
@@ -3025,7 +3025,7 @@ false
 gecko
 =
 "
-ComputedStyleStrong
+ServoStyleContextStrong
 "
 servo
 =
@@ -3161,10 +3161,10 @@ nsACString_internal
 nsAString_internal
 "
 "
-ComputedStyleBorrowed
+ServoStyleContextBorrowed
 "
 "
-ComputedStyleBorrowedOrNull
+ServoStyleContextBorrowedOrNull
 "
 ]
 raw
@@ -3225,7 +3225,7 @@ nsAString
 "
 pub
 type
-ComputedStyleBorrowed
+ServoStyleContextBorrowed
 <
 '
 a
@@ -3245,7 +3245,7 @@ ComputedValues
 "
 pub
 type
-ComputedStyleBorrowedOrNull
+ServoStyleContextBorrowedOrNull
 <
 '
 a
@@ -3649,7 +3649,7 @@ nsStyleContentData_CounterFunction
 nsStyleContentType
 "
 "
-ComputedStyle
+nsStyleContext
 "
 "
 nsStyleCoord
@@ -3787,7 +3787,10 @@ ServoStyleSheet
 ServoComputedData
 "
 "
-ComputedStyleStrong
+ServoStyleContext
+"
+"
+ServoStyleContextStrong
 "
 "
 EffectCompositor_CascadeLevel

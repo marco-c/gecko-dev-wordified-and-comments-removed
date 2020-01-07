@@ -44,9 +44,9 @@ NS_NewMathMLmmultiscriptsFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -56,7 +56,7 @@ aPresShell
 )
 nsMathMLmmultiscriptsFrame
 (
-aStyle
+aContext
 )
 ;
 }
@@ -420,7 +420,7 @@ subScriptShift
 PresContext
 (
 )
-mComputedStyle
+mStyleContext
 fontSizeInflation
 )
 ;
@@ -478,7 +478,7 @@ supScriptShift
 PresContext
 (
 )
-mComputedStyle
+mStyleContext
 fontSizeInflation
 )
 ;

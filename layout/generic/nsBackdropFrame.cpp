@@ -50,12 +50,12 @@ aResult
 }
 #
 endif
-ComputedStyle
+nsStyleContext
 *
 nsBackdropFrame
 :
 :
-GetParentComputedStyle
+GetParentStyleContext
 (
 nsIFrame
 *

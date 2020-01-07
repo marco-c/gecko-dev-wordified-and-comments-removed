@@ -98,6 +98,9 @@ nsIFrame
 class
 nsPresContext
 ;
+class
+nsStyleContext
+;
 struct
 RawServoAnimationValueMap
 ;
@@ -109,9 +112,6 @@ RawServoAnimationValueMapBorrowedMut
 namespace
 mozilla
 {
-class
-ComputedStyle
-;
 class
 EffectSet
 ;
@@ -381,9 +381,9 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-ComputedStyle
+nsStyleContext
 *
-aComputedStyle
+aStyleContext
 )
 ;
 static
@@ -403,9 +403,9 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-ComputedStyle
+nsStyleContext
 *
-aComputedStyle
+aStyleContext
 )
 ;
 static
@@ -514,9 +514,9 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-ComputedStyle
+nsStyleContext
 *
-aComputedStyle
+aStyleContext
 )
 ;
 static

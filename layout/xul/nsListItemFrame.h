@@ -21,9 +21,9 @@ NS_NewListItemFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 class
@@ -47,9 +47,9 @@ NS_NewListItemFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual
@@ -81,9 +81,9 @@ protected
 explicit
 nsListItemFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 bool
 aIsRoot
 =

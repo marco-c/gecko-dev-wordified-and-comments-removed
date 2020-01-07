@@ -173,9 +173,9 @@ NS_NewSVGMaskFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -185,7 +185,7 @@ aPresShell
 )
 nsSVGMaskFrame
 (
-aStyle
+aContext
 )
 ;
 }

@@ -510,7 +510,7 @@ GetFallbackOrPaintColor
 aFrame
 -
 >
-Style
+StyleContext
 (
 )
 aFillOrStroke

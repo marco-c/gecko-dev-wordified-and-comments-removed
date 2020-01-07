@@ -5137,7 +5137,7 @@ aChange
 nsChangeHint_RepaintFrame
 )
 {
-ComputedStyle
+nsStyleContext
 *
 bgSC
 ;

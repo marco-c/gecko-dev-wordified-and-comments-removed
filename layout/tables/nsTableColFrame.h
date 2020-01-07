@@ -104,7 +104,7 @@ NS_NewTableColFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
 aContext
 )
@@ -156,11 +156,11 @@ GetWritingMode
 }
 virtual
 void
-DidSetComputedStyle
+DidSetStyleContext
 (
-ComputedStyle
+nsStyleContext
 *
-aOldComputedStyle
+aOldStyleContext
 )
 override
 ;
@@ -849,9 +849,9 @@ protected
 explicit
 nsTableColFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 ~

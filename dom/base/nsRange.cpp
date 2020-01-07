@@ -16969,14 +16969,14 @@ false
 }
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 sc
 =
 nsComputedDOMStyle
 :
 :
-GetComputedStyleNoFlush
+GetStyleContextNoFlush
 (
 aElement
 nullptr

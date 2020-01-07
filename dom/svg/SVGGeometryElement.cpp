@@ -619,14 +619,14 @@ FILL_WINDING
 ;
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 styleContext
 =
 nsComputedDOMStyle
 :
 :
-GetComputedStyleNoFlush
+GetStyleContextNoFlush
 (
 this
 nullptr

@@ -42,9 +42,9 @@ NS_NewMathMLTokenFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -54,7 +54,7 @@ aPresShell
 )
 nsMathMLTokenFrame
 (
-aStyle
+aContext
 )
 ;
 }

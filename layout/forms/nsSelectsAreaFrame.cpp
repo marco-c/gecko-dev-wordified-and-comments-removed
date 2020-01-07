@@ -44,9 +44,9 @@ NS_NewSelectsAreaFrame
 nsIPresShell
 *
 aShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 nsFrameState
 aFlags
 )
@@ -61,7 +61,7 @@ aShell
 )
 nsSelectsAreaFrame
 (
-aStyle
+aContext
 )
 ;
 it

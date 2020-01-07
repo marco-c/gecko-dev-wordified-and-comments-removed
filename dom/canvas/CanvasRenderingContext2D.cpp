@@ -5477,14 +5477,14 @@ mCanvasElement
 {
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 canvasStyle
 =
 nsComputedDOMStyle
 :
 :
-GetComputedStyle
+GetStyleContext
 (
 mCanvasElement
 nullptr
@@ -8614,14 +8614,14 @@ return
 }
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 canvasStyle
 =
 nsComputedDOMStyle
 :
 :
-GetComputedStyle
+GetStyleContext
 (
 mCanvasElement
 nullptr
@@ -12003,7 +12003,7 @@ aDocument
 static
 already_AddRefed
 <
-ComputedStyle
+ServoStyleContext
 >
 GetFontStyleForServo
 (
@@ -12098,7 +12098,7 @@ AsServo
 ;
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 parentStyle
 ;
@@ -12120,7 +12120,7 @@ parentStyle
 nsComputedDOMStyle
 :
 :
-GetComputedStyle
+GetStyleContext
 (
 aElement
 nullptr
@@ -12242,7 +12242,7 @@ destroyed
 ;
 RefPtr
 <
-ComputedStyle
+ServoStyleContext
 >
 sc
 =
@@ -12303,7 +12303,7 @@ aDocument
 static
 already_AddRefed
 <
-ComputedStyle
+ServoStyleContext
 >
 ResolveFilterStyleForServo
 (
@@ -12312,7 +12312,7 @@ nsAString
 &
 aFilterString
 const
-ComputedStyle
+ServoStyleContext
 *
 aParentStyle
 nsIPresShell
@@ -12396,7 +12396,7 @@ AsServo
 ;
 RefPtr
 <
-ComputedStyle
+ServoStyleContext
 >
 computedValues
 =
@@ -12554,7 +12554,7 @@ IsServo
 ;
 RefPtr
 <
-ComputedStyle
+ServoStyleContext
 >
 parentStyle
 =
@@ -12581,7 +12581,7 @@ false
 }
 RefPtr
 <
-ComputedStyle
+ServoStyleContext
 >
 computedValues
 =
@@ -17188,7 +17188,7 @@ false
 }
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 sc
 ;
@@ -20083,7 +20083,7 @@ false
 ;
 RefPtr
 <
-ComputedStyle
+nsStyleContext
 >
 canvasStyle
 ;
@@ -20105,7 +20105,7 @@ canvasStyle
 nsComputedDOMStyle
 :
 :
-GetComputedStyle
+GetStyleContext
 (
 mCanvasElement
 nullptr

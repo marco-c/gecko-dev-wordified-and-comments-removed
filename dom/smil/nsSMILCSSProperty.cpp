@@ -92,9 +92,9 @@ aPropID
 Element
 *
 aElement
-ComputedStyle
+nsStyleContext
 *
-aBaseComputedStyle
+aBaseStyleContext
 )
 :
 mPropID
@@ -105,9 +105,9 @@ mElement
 (
 aElement
 )
-mBaseComputedStyle
+mBaseStyleContext
 (
-aBaseComputedStyle
+aBaseStyleContext
 )
 {
 MOZ_ASSERT
@@ -177,7 +177,7 @@ eCSSProperty_display
 |
 |
 !
-mBaseComputedStyle
+mBaseStyleContext
 )
 {
 nsSMILValue
@@ -219,7 +219,7 @@ mServo
 =
 Servo_ComputedValues_ExtractAnimationValue
 (
-mBaseComputedStyle
+mBaseStyleContext
 -
 >
 AsServo

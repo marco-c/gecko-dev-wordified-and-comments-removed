@@ -182,9 +182,9 @@ nsHTMLFramesetFrame
 explicit
 nsHTMLFramesetFrame
 (
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 ;
 virtual

@@ -19,9 +19,9 @@ NS_NewSVGGenericContainerFrame
 nsIPresShell
 *
 aPresShell
-ComputedStyle
+nsStyleContext
 *
-aStyle
+aContext
 )
 {
 return
@@ -31,7 +31,7 @@ aPresShell
 )
 nsSVGGenericContainerFrame
 (
-aStyle
+aContext
 )
 ;
 }
