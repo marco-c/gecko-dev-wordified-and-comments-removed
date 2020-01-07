@@ -63,13 +63,6 @@ struct
 nsRect
 ;
 namespace
-mozilla
-{
-class
-RuleNodeCacheConditions
-;
-}
-namespace
 nsStyleTransformMatrix
 {
 enum
