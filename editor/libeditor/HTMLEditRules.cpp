@@ -491,7 +491,7 @@ aEditSubAction
 EditSubAction
 :
 :
-makeDefListItem
+eCreateOrChangeDefinitionList
 |
 |
 aEditSubAction
@@ -3455,7 +3455,7 @@ case
 EditSubAction
 :
 :
-makeDefListItem
+eCreateOrChangeDefinitionList
 :
 return
 WillMakeDefListItem

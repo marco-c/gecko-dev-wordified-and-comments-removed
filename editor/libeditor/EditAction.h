@@ -42,7 +42,7 @@ eOutdent
 eSetOrClearAlignment
 eCreateOrRemoveBlock
 eRemoveList
-makeDefListItem
+eCreateOrChangeDefinitionList
 insertElement
 insertQuotation
 htmlPaste

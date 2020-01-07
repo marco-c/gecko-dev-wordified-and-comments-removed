@@ -8811,7 +8811,7 @@ this
 EditSubAction
 :
 :
-makeDefListItem
+eCreateOrChangeDefinitionList
 nsIEditor
 :
 :
@@ -8854,7 +8854,7 @@ subActionInfo
 EditSubAction
 :
 :
-makeDefListItem
+eCreateOrChangeDefinitionList
 )
 ;
 subActionInfo
