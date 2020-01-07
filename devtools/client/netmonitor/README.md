@@ -1247,7 +1247,7 @@ dev
 configs
 .
 *
-index
+launchpad
 .
 js
 the

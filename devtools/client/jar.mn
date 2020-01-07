@@ -6368,3 +6368,17 @@ index
 .
 html
 )
+content
+/
+netmonitor
+/
+initializer
+.
+js
+(
+netmonitor
+/
+initializer
+.
+js
+)
