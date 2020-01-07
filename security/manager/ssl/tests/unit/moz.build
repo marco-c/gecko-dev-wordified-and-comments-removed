@@ -145,6 +145,9 @@ test_cert_trust
 test_cert_version
 '
 '
+test_cert_utf8
+'
+'
 test_certDB_import
 '
 '
