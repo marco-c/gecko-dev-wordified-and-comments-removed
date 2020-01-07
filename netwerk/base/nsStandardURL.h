@@ -1677,6 +1677,10 @@ T
 mURI
 =
 uri
+.
+forget
+(
+)
 ;
 return
 NS_OK

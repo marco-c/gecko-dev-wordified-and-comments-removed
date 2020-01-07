@@ -316,6 +316,10 @@ rv
 mURI
 =
 uri
+.
+forget
+(
+)
 ;
 return
 NS_OK
@@ -372,6 +376,10 @@ NS_ERROR_FAILURE
 mURI
 =
 uri
+.
+forget
+(
+)
 ;
 return
 NS_OK
@@ -460,6 +468,10 @@ rv
 mURI
 =
 uri
+.
+forget
+(
+)
 ;
 return
 NS_OK
