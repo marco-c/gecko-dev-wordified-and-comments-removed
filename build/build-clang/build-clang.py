@@ -2183,6 +2183,8 @@ compile
 (
 r
 "
+format
+|
 tidy
 "
 re
