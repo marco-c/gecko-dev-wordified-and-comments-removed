@@ -179,12 +179,8 @@ revision
 '
                          
 '
-en_us_binary_url
-'
-'
 en_us_installer_binary_url
 '
-                         
 '
 mar_tools_url
 '
@@ -1443,22 +1439,6 @@ self
 .
 query_abs_dirs
 (
-)
-        
-replace_dict
-[
-'
-en_us_binary_url
-'
-]
-=
-config
-.
-get
-(
-'
-en_us_binary_url
-'
 )
         
 bootstrap_env

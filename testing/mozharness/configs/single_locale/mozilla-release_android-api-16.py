@@ -22,9 +22,6 @@ obj
 -
 firefox
 "
-EN_US_BINARY_URL
-=
-None
 HG_SHARE_BASE_DIR
 =
 "
@@ -283,14 +280,11 @@ EN_US_BINARY_URL
 os
 .
 environ
-.
-get
-(
+[
 "
 EN_US_BINARY_URL
 "
-EN_US_BINARY_URL
-)
+]
         
 "
 MOZ_OBJDIR
