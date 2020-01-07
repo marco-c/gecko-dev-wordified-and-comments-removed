@@ -172,6 +172,12 @@ aOriginAttributes
 ;
 static
 bool
+ShouldUpgradeMixedDisplayContent
+(
+)
+;
+static
+bool
 sBlockMixedScript
 ;
 static
@@ -181,6 +187,10 @@ sBlockMixedObjectSubrequest
 static
 bool
 sBlockMixedDisplay
+;
+static
+bool
+sUpgradeMixedDisplay
 ;
 }
 ;

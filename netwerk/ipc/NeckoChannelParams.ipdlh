@@ -446,6 +446,9 @@ bool
 browserUpgradeInsecureRequests
 ;
 bool
+browserWouldUpgradeInsecureRequests
+;
+bool
 verifySignedContent
 ;
 bool
