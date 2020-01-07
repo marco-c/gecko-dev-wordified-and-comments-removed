@@ -74,6 +74,11 @@ breakpointAtLocation
 js
 '
 '
+breakpointSources
+.
+js
+'
+'
 getCallStackFrames
 .
 js
@@ -95,11 +100,6 @@ js
 '
 '
 isSelectedFrameVisible
-.
-js
-'
-'
-mappedBreakpoints
 .
 js
 '

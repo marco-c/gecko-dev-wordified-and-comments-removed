@@ -397,7 +397,6 @@ id
 )
 {
 return
-await
 sourceMaps
 .
 getOriginalSourceText

@@ -240,15 +240,6 @@ clearDocuments
 ;
 (
 0
-_editor
-.
-removeEditor
-)
-(
-)
-;
-(
-0
 _parser
 .
 clearSymbols

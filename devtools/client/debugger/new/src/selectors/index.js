@@ -1471,14 +1471,14 @@ getRelativeSources
 )
 ;
 var
-_mappedBreakpoints
+_breakpointSources
 =
 require
 (
 "
 .
 /
-mappedBreakpoints
+breakpointSources
 "
 )
 ;
@@ -1488,7 +1488,7 @@ defineProperty
 (
 exports
 "
-getMappedBreakpoints
+getBreakpointSources
 "
 {
 enumerable
@@ -1501,9 +1501,9 @@ function
 )
 {
 return
-_mappedBreakpoints
+_breakpointSources
 .
-getMappedBreakpoints
+getBreakpointSources
 ;
 }
 }

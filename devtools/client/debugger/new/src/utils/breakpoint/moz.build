@@ -74,13 +74,6 @@ astBreakpointLocation
 js
 '
 '
-create
--
-editor
-.
-js
-'
-'
 index
 .
 js
