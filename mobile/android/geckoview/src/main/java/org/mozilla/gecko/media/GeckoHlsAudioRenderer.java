@@ -207,15 +207,10 @@ getSimpleName
 ;
 DEBUG
 =
+!
 BuildConfig
 .
-NIGHTLY_BUILD
-|
-|
-BuildConfig
-.
-DEBUG_BUILD
-;
+MOZILLA_OFFICIAL
 ;
 }
 Override

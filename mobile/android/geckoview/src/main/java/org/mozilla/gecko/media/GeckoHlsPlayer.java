@@ -473,14 +473,10 @@ final
 boolean
 DEBUG
 =
+!
 BuildConfig
 .
-NIGHTLY_BUILD
-|
-|
-BuildConfig
-.
-DEBUG_BUILD
+MOZILLA_OFFICIAL
 ;
 private
 static
