@@ -1835,8 +1835,12 @@ static
 ActivityStreamContextMenu
 show
 (
+final
 View
-anchor
+tabletContextMenuAnchor
+final
+View
+snackbarAnchor
 ActivityStreamTelemetry
 .
 Extras
@@ -1887,7 +1891,7 @@ menu
 new
 BottomSheetContextMenu
 (
-anchor
+snackbarAnchor
 telemetryExtraBuilder
 menuMode
 item
@@ -1906,7 +1910,8 @@ menu
 new
 PopupContextMenu
 (
-anchor
+tabletContextMenuAnchor
+snackbarAnchor
 telemetryExtraBuilder
 menuMode
 item

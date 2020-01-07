@@ -885,6 +885,9 @@ final
 int
 absolutePosition
 final
+View
+tabletContextMenuAnchor
+final
 int
 faviconWidth
 final
@@ -896,6 +899,7 @@ openContextMenuForTopSite
 (
 topSite
 absolutePosition
+tabletContextMenuAnchor
 parent
 faviconWidth
 faviconHeight
@@ -2231,6 +2235,11 @@ interactionExtra
 ;
 openContextMenuInner
 (
+webpageItemRow
+.
+getTabletContextMenuAnchor
+(
+)
 snackbarAnchor
 extras
 menuMode
@@ -2259,6 +2268,9 @@ topSite
 final
 int
 absolutePosition
+final
+View
+tabletContextMenuAnchor
 final
 View
 snackbarAnchor
@@ -2302,6 +2314,7 @@ absolutePosition
 ;
 openContextMenuInner
 (
+tabletContextMenuAnchor
 snackbarAnchor
 extras
 ActivityStreamContextMenu
@@ -2320,6 +2333,9 @@ private
 void
 openContextMenuInner
 (
+final
+View
+tabletContextMenuAnchor
 final
 View
 snackbarAnchor
@@ -2353,6 +2369,7 @@ ActivityStreamContextMenu
 .
 show
 (
+tabletContextMenuAnchor
 snackbarAnchor
 extras
 menuMode

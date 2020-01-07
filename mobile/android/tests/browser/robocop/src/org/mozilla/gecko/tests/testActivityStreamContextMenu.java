@@ -772,6 +772,7 @@ ActivityStreamContextMenu
 show
 (
 anchor
+anchor
 ActivityStreamTelemetry
 .
 Extras
