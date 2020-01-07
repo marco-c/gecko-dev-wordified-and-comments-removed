@@ -328,8 +328,6 @@ query
 =
 {
 }
-;
-let
 options
 =
 {
@@ -356,12 +354,10 @@ PlacesUtils
 .
 history
 .
-queryStringToQueries
+queryStringToQuery
 (
 queryString
 query
-{
-}
 options
 )
 ;
@@ -377,9 +373,6 @@ executeQuery
 query
 .
 value
-[
-0
-]
 options
 .
 value

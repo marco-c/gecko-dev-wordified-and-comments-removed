@@ -531,11 +531,9 @@ PlacesUtils
 .
 history
 .
-queryStringToQueries
+queryStringToQuery
 (
 uri
-{
-}
 {
 }
 folderOptions

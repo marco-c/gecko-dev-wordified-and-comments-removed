@@ -647,12 +647,9 @@ queryString
 =
 hs
 .
-queriesToQueryString
+queryToQueryString
 (
-[
 query
-]
-1
 options
 )
 ;

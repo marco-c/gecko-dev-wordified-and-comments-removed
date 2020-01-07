@@ -148,12 +148,9 @@ queryURI
 =
 histsvc
 .
-queriesToQueryString
+queryToQueryString
 (
-[
 query
-]
-1
 options
 )
 ;

@@ -538,12 +538,9 @@ PlacesUtils
 .
 history
 .
-queriesToQueryString
+queryToQueryString
 (
-[
 query
-]
-1
 opts
 )
 ;
