@@ -65,6 +65,11 @@ content
 /
 content
 /
+ErrorPageEventHandler
+.
+js
+content
+/
 geckoview
 .
 xul
