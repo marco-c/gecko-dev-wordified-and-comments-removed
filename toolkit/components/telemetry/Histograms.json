@@ -125617,7 +125617,7 @@ users
 "
 }
 "
-ACTIVE_DOCGROUPS_PER_TABGROUP
+ACTIVE_HTTP_DOCGROUPS_PER_TABGROUP
 "
 :
 {
@@ -125648,6 +125648,7 @@ bug_numbers
 :
 [
 1441972
+1468843
 ]
 "
 expires_in_version
@@ -125681,6 +125682,15 @@ description
 Number
 of
 active
+http
+:
+/
+/
+and
+https
+:
+/
+/
 doc
 groups
 per
@@ -125706,7 +125716,7 @@ unloaded
 "
 }
 "
-TOTAL_DOCGROUPS_PER_TABGROUP
+TOTAL_HTTP_DOCGROUPS_PER_TABGROUP
 "
 :
 {
@@ -125737,6 +125747,7 @@ bug_numbers
 :
 [
 1441972
+1468843
 ]
 "
 expires_in_version
@@ -125770,6 +125781,15 @@ description
 Total
 number
 of
+http
+:
+/
+/
+and
+https
+:
+/
+/
 doc
 groups
 per
