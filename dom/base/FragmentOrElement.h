@@ -109,6 +109,9 @@ class
 nsICSSDeclaration
 ;
 class
+nsDOMCSSAttributeDeclaration
+;
+class
 nsIDocument
 ;
 class
@@ -858,9 +861,9 @@ Unlink
 final
 override
 ;
-nsCOMPtr
+RefPtr
 <
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 >
 mSMILOverrideStyle
 ;

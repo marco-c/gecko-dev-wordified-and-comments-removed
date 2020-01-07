@@ -46,7 +46,7 @@ h
 #
 include
 "
-nsICSSDeclaration
+nsDOMCSSAttrDeclaration
 .
 h
 "
@@ -421,7 +421,7 @@ aValue
 valStr
 )
 ;
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 *
 overrideDecl
 =
@@ -470,6 +470,7 @@ SetPropertyValue
 (
 mPropID
 valStr
+nullptr
 )
 ;
 }
@@ -485,7 +486,7 @@ ClearAnimValue
 (
 )
 {
-nsICSSDeclaration
+nsDOMCSSAttributeDeclaration
 *
 overrideDecl
 =
@@ -510,6 +511,7 @@ mPropID
 EmptyString
 (
 )
+nullptr
 )
 ;
 }
