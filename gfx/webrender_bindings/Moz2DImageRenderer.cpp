@@ -766,7 +766,7 @@ CGFontRef
 (
 aHandle
 )
-true
+false
 )
 ;
 #
