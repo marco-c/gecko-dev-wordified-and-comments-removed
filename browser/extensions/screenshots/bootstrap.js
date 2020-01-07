@@ -778,7 +778,7 @@ command
 >
 win
 .
-openTrustedLinkIn
+openWebLinkIn
 (
 this
 .

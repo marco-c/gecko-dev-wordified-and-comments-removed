@@ -145,6 +145,16 @@ iframe
 .
 style
 .
+display
+=
+"
+block
+"
+;
+iframe
+.
+style
+.
 border
 =
 "

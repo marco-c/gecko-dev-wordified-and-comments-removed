@@ -99,6 +99,16 @@ height
 ;
 element
 .
+style
+.
+display
+=
+"
+block
+"
+;
+element
+.
 addEventListener
 (
 "

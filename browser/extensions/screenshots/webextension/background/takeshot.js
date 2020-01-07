@@ -1452,10 +1452,6 @@ JSON
 stringify
 (
 shot
-.
-asJson
-(
-)
 )
 }
 files
@@ -1482,10 +1478,6 @@ JSON
 stringify
 (
 shot
-.
-asJson
-(
-)
 )
 }
 ;
