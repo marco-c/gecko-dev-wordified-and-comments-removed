@@ -261,6 +261,9 @@ class
 HTMLEditRules
 ;
 class
+ResizerSelectionListener
+;
+class
 TypeInState
 ;
 class
@@ -3055,6 +3058,12 @@ ComposerCommandsUpdater
 >
 mComposerCommandsUpdater
 ;
+RefPtr
+<
+ResizerSelectionListener
+>
+mResizerSelectionListener
+;
 bool
 mCRInParagraphCreatesParagraph
 ;
@@ -3272,12 +3281,6 @@ nsCOMPtr
 nsIDOMEventListener
 >
 mMouseMotionListenerP
-;
-nsCOMPtr
-<
-nsISelectionListener
->
-mSelectionListenerP
 ;
 nsCOMPtr
 <
