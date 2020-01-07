@@ -2231,6 +2231,9 @@ GlyphOptions
 FontRenderMode
 render_mode
 ;
+FontInstanceFlags
+flags
+;
 bool
 operator
 =
@@ -2250,6 +2253,14 @@ render_mode
 aOther
 .
 render_mode
+&
+&
+flags
+=
+=
+aOther
+.
+flags
 ;
 }
 }
