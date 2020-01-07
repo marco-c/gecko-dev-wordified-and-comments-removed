@@ -2005,6 +2005,15 @@ IsNavigation
 ;
 static
 bool
+IsReferrerSchemeAllowed
+(
+nsIURI
+*
+aReferrer
+)
+;
+static
+bool
 ShouldRewriteRedirectToGET
 (
 uint32_t
