@@ -467,17 +467,6 @@ eWithoutAnimation
 )
 ;
 }
-static
-nsIPresShell
-*
-GetPresShellForContent
-(
-const
-nsIContent
-*
-aContent
-)
-;
 void
 SetExposeVisitedStyle
 (

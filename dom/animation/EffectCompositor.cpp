@@ -177,13 +177,6 @@ h
 #
 include
 "
-nsComputedDOMStyle
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -1111,7 +1104,7 @@ return
 if
 (
 !
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
@@ -2124,7 +2117,7 @@ preview
 ;
 MOZ_ASSERT
 (
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
@@ -4338,7 +4331,7 @@ MOZ_ASSERT
 aRoot
 |
 |
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
@@ -4496,7 +4489,7 @@ Key
 if
 (
 !
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
@@ -4949,7 +4942,7 @@ IsServo
 if
 (
 !
-nsComputedDOMStyle
+nsContentUtils
 :
 :
 GetPresShellForContent
