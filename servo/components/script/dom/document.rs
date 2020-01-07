@@ -1435,7 +1435,7 @@ style
 stylesheet_set
 :
 :
-StylesheetSet
+DocumentStylesheetSet
 ;
 use
 style
@@ -2005,7 +2005,7 @@ stylesheets
 :
 DomRefCell
 <
-StylesheetSet
+DocumentStylesheetSet
 <
 StyleSheetInDocument
 >
@@ -12710,7 +12710,7 @@ DomRefCell
 :
 new
 (
-StylesheetSet
+DocumentStylesheetSet
 :
 :
 new
@@ -22217,7 +22217,7 @@ borrow_mut
 (
 )
 =
-StylesheetSet
+DocumentStylesheetSet
 :
 :
 new

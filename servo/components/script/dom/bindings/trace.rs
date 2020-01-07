@@ -820,7 +820,7 @@ style
 stylesheet_set
 :
 :
-StylesheetSet
+DocumentStylesheetSet
 ;
 use
 style
@@ -3837,7 +3837,7 @@ S
 >
 JSTraceable
 for
-StylesheetSet
+DocumentStylesheetSet
 <
 S
 >
