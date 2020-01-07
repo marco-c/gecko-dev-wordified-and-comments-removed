@@ -481,6 +481,11 @@ className
 :
 "
 link
+js
+-
+trusted
+-
+link
 "
 onClick
 :
