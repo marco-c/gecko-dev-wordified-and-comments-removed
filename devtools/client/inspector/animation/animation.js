@@ -2433,6 +2433,14 @@ highlighters
 showBoxModelHighlighter
 (
 nodeFront
+{
+hideInfoBar
+:
+true
+hideGuides
+:
+true
+}
 )
 ;
 }
