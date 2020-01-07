@@ -21,17 +21,6 @@ error
 "
 61
 ]
-"
-mozilla
-/
-use
--
-services
-"
-:
-"
-error
-"
 }
 }
 ;
