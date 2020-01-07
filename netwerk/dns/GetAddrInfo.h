@@ -48,8 +48,8 @@ nsresult
 GetAddrInfo
 (
 const
-char
-*
+nsACString
+&
 aHost
 uint16_t
 aAddressFamily
