@@ -158,6 +158,8 @@ Worker
 ]
 interface
 Performance
+:
+EventTarget
 {
 [
 DependsOn
