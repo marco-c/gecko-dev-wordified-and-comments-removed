@@ -417,7 +417,7 @@ sendAsyncMessage
 "
 GeckoView
 :
-ContentRegistered
+ContentModuleLoaded
 "
 {
 module
