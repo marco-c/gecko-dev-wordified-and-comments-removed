@@ -12,6 +12,17 @@ mozilla
 /
 layers
 /
+CompositorBridgeChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ImageClient
 .
 h
