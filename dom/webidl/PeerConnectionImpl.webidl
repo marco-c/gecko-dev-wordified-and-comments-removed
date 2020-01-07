@@ -744,7 +744,7 @@ channels
 [
 Throws
 ]
-DataChannel
+RTCDataChannel
 createDataChannel
 (
 DOMString

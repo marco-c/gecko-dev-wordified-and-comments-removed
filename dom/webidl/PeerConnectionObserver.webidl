@@ -249,7 +249,7 @@ callbacks
 void
 notifyDataChannel
 (
-DataChannel
+RTCDataChannel
 channel
 )
 ;
