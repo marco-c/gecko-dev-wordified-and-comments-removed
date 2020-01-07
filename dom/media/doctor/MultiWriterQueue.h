@@ -890,6 +890,7 @@ mT
 Atomic
 <
 bool
+ReleaseAcquire
 >
 mValid
 {
@@ -1459,6 +1460,7 @@ Index
 :
 :
 ValueType
+Relaxed
 >
 mNextElementToWrite
 {
@@ -1471,6 +1473,7 @@ Index
 :
 :
 ValueType
+ReleaseAcquire
 >
 mBuffersCoverAtLeastUpTo
 ;
@@ -1478,6 +1481,7 @@ Atomic
 <
 Buffer
 *
+ReleaseAcquire
 >
 mMostRecentBuffer
 ;
@@ -1485,6 +1489,7 @@ Atomic
 <
 Buffer
 *
+ReleaseAcquire
 >
 mReusableBuffers
 ;
@@ -1630,12 +1635,14 @@ private
 Atomic
 <
 int
+Relaxed
 >
 mCount
 ;
 Atomic
 <
 int
+Relaxed
 >
 mWatermark
 ;
