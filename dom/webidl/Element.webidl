@@ -1574,7 +1574,7 @@ SetterNeedsSubjectPrincipal
 =
 NonSystem
 Pure
-Throws
+SetterThrows
 TreatNullAs
 =
 EmptyString

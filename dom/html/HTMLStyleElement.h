@@ -79,15 +79,12 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 HTMLStyleElement
 nsGenericHTMLElement
 )
-void
+NS_IMETHOD
 GetInnerHTML
 (
 nsAString
 &
 aInnerHTML
-ErrorResult
-&
-aRv
 )
 override
 ;

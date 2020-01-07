@@ -79,15 +79,12 @@ aFromParser
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-void
+NS_IMETHOD
 GetInnerHTML
 (
 nsAString
 &
 aInnerHTML
-ErrorResult
-&
-aRv
 )
 override
 ;
