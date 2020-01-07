@@ -231,6 +231,25 @@ CSS_PROPERTY_GETCS_NEEDS_LAYOUT_FLUSH
 "
 )
     
+if
+"
+CAN_ANIMATE_ON_COMPOSITOR
+"
+in
+prop
+.
+flags
+:
+        
+result
+.
+append
+(
+"
+CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
+"
+)
+    
 return
 "
 "
