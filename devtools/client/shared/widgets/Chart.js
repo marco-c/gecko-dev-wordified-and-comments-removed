@@ -1602,6 +1602,14 @@ totals
 {
 }
 ;
+header
+=
+header
+|
+|
+{
+}
+;
 let
 isPlaceholder
 =
