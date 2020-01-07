@@ -4185,12 +4185,12 @@ nsWindow
 GetCSDSupportLevel
 (
 )
-=
+!
 =
 nsWindow
 :
 :
-CSD_SUPPORT_FULL
+CSD_SUPPORT_NONE
 )
 ;
 mCSDCloseButton
