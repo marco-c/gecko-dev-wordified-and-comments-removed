@@ -364,6 +364,7 @@ you
 can
 find
 a
+[
 list
 for
 code
@@ -374,10 +375,8 @@ keys
 in
 the
 spec
+]
 (
-here
-)
-[
 https
 :
 /
@@ -399,7 +398,7 @@ html
 keyboard
 -
 actions
-]
+)
 .
 For
 example
