@@ -95,6 +95,13 @@ walker
 js
 '
 '
+event
+-
+parsers
+.
+js
+'
+'
 inspector
 .
 js

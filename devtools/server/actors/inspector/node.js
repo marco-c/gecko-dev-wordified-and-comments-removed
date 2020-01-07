@@ -319,6 +319,10 @@ devtools
 /
 server
 /
+actors
+/
+inspector
+/
 event
 -
 parsers
