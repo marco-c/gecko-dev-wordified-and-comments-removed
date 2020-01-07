@@ -32,7 +32,17 @@ Addons
 :
 false
 "
+Addresses
+"
+:
+false
+"
 Bookmarks
+"
+:
+false
+"
+CreditCards
 "
 :
 false
