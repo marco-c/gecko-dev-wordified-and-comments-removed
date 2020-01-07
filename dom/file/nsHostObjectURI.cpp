@@ -274,7 +274,7 @@ net
 nsSimpleURI
 :
 :
-ReadPrivate
+Read
 (
 aStream
 )
@@ -953,7 +953,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_NSIURIMUTATOR_ISUPPORTS
+NS_IMPL_ISUPPORTS
 (
 nsHostObjectURI
 :
@@ -963,7 +963,6 @@ nsIURISetters
 nsIURIMutator
 nsIBlobURIMutator
 nsIPrincipalURIMutator
-nsISerializable
 )
 NS_IMETHODIMP
 nsHostObjectURI

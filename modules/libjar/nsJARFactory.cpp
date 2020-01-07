@@ -86,6 +86,10 @@ nsJARProtocolHandler
 :
 GetSingleton
 )
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsJARURI
+)
 typedef
 nsJARURI
 :
@@ -162,7 +166,7 @@ nsJARProtocolHandlerConstructor
 kNS_JARURI_CID
 false
 nullptr
-nsJARURIMutatorConstructor
+nsJARURIConstructor
 }
 {
 &
