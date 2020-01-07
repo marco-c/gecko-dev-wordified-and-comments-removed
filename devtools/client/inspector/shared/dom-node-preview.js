@@ -1413,7 +1413,6 @@ onMarkupMutations
 :
 function
 (
-e
 mutations
 )
 {
