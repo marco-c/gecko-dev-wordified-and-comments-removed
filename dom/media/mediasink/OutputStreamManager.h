@@ -165,6 +165,11 @@ MediaStream
 aStream
 )
 ;
+void
+Clear
+(
+)
+;
 TrackID
 NextAvailableTrackIDFor
 (
