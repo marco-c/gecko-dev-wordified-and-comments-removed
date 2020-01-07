@@ -580,7 +580,6 @@ uint32_t
 *
 countRead
 )
-override
 final
 ;
 MOZ_MUST_USE
@@ -596,7 +595,6 @@ uint32_t
 *
 countWritten
 )
-override
 final
 ;
 nsHttpRequestHead
@@ -604,7 +602,6 @@ nsHttpRequestHead
 RequestHead
 (
 )
-override
 final
 ;
 void
@@ -613,7 +610,6 @@ Close
 nsresult
 reason
 )
-override
 final
 ;
 bool

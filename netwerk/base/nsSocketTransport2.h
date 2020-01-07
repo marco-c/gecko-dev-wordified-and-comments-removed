@@ -484,7 +484,6 @@ OnKeepaliveEnabledPrefChange
 bool
 aEnabled
 )
-override
 final
 ;
 void

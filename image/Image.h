@@ -872,7 +872,6 @@ ProgressTracker
 *
 aProgressTracker
 )
-override
 final
 {
 MOZ_ASSERT

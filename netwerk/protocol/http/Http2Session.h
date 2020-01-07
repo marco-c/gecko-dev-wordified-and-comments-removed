@@ -928,7 +928,6 @@ uint32_t
 bool
 *
 )
-override
 final
 ;
 MOZ_MUST_USE
@@ -943,7 +942,6 @@ uint32_t
 bool
 *
 )
-override
 final
 ;
 MOZ_MUST_USE
@@ -951,7 +949,6 @@ bool
 Do0RTT
 (
 )
-override
 final
 {
 return
@@ -967,7 +964,6 @@ aRestart
 bool
 aAlpnChanged
 )
-override
 final
 ;
 void
@@ -976,7 +972,6 @@ SetFastOpenStatus
 uint8_t
 aStatus
 )
-override
 final
 ;
 void

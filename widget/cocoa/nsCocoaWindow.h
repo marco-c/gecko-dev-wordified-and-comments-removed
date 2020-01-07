@@ -1106,7 +1106,6 @@ aTargetScreen
 =
 nullptr
 )
-override
 final
 ;
 virtual
@@ -1121,7 +1120,6 @@ aTargetScreen
 =
 nullptr
 )
-override
 final
 ;
 NSAnimation

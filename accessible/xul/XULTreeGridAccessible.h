@@ -412,7 +412,6 @@ nsITreeColumn
 aColumn
 )
 const
-override
 final
 ;
 virtual

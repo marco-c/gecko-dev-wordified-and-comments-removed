@@ -328,7 +328,6 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-override
 final
 {
 AssertIsOnMainThread
@@ -973,7 +972,6 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
-override
 final
 {
 AssertIsOnMainThread
@@ -1014,7 +1012,6 @@ bool
 DispatchInternal
 (
 )
-override
 final
 ;
 }

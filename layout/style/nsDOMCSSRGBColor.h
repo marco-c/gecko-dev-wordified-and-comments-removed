@@ -140,7 +140,6 @@ JSObject
 >
 aGivenProto
 )
-override
 final
 ;
 private

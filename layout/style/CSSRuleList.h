@@ -79,7 +79,6 @@ JSObject
 >
 aGivenProto
 )
-override
 final
 ;
 css

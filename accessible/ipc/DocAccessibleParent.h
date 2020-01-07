@@ -332,7 +332,6 @@ bool
 &
 aEnabled
 )
-override
 final
 ;
 virtual
@@ -366,7 +365,6 @@ int32_t
 &
 aOffset
 )
-override
 final
 ;
 virtual
@@ -512,7 +510,6 @@ uint32_t
 &
 aRole
 )
-override
 final
 ;
 virtual

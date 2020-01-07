@@ -264,7 +264,6 @@ void
 ClearAnyCachedPath
 (
 )
-override
 final
 {
 mCachedPath

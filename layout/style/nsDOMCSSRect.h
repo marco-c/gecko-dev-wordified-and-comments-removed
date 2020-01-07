@@ -135,7 +135,6 @@ JSObject
 >
 aGivenProto
 )
-override
 final
 ;
 protected

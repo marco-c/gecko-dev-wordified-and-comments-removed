@@ -1368,7 +1368,6 @@ IMENotification
 &
 aIMENotification
 )
-override
 final
 ;
 virtual
@@ -1564,7 +1563,6 @@ TextEventDispatcher
 GetTextEventDispatcher
 (
 )
-override
 final
 ;
 virtual

@@ -144,7 +144,6 @@ bool
 CanPlayThroughImpl
 (
 )
-override
 final
 {
 return

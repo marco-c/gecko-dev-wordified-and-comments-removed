@@ -155,7 +155,6 @@ DrawTarget
 GetReferenceDrawTarget
 (
 )
-override
 final
 ;
 private

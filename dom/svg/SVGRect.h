@@ -91,7 +91,6 @@ X
 (
 )
 const
-override
 final
 {
 return
@@ -121,7 +120,6 @@ Y
 (
 )
 const
-override
 final
 {
 return
@@ -151,7 +149,6 @@ Width
 (
 )
 const
-override
 final
 {
 return
@@ -181,7 +178,6 @@ Height
 (
 )
 const
-override
 final
 {
 return

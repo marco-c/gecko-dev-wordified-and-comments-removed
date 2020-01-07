@@ -121,7 +121,6 @@ wchar_t
 *
 aFilePath
 )
-override
 final
 {
 if
@@ -261,7 +260,6 @@ DispatchDllLoadNotification
 PCUNICODE_STRING
 aDllName
 )
-override
 final
 {
 nsDependentSubstring

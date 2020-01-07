@@ -84,7 +84,6 @@ JSObject
 >
 aGivenProto
 )
-override
 final
 ;
 nsINode
