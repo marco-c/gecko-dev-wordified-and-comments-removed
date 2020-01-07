@@ -218,6 +218,11 @@ WinCompositorWidget
 h
 '
 '
+WinCompositorWindowThread
+.
+h
+'
+'
 WindowsEMF
 .
 h
@@ -424,6 +429,11 @@ cpp
 '
 '
 WidgetTraceEvent
+.
+cpp
+'
+'
+WinCompositorWindowThread
 .
 cpp
 '
