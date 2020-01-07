@@ -18363,6 +18363,9 @@ JS_DEFINE_SYMBOL_ENUM
 undef
 JS_DEFINE_SYMBOL_ENUM
 Limit
+WellKnownAPILimit
+=
+0x80000000
 InSymbolRegistry
 =
 0xfffffffe
