@@ -2137,6 +2137,7 @@ nsIContentSecurityPolicy
 :
 :
 VIOLATION_TYPE_EVAL
+nullptr
 fileName
 scriptSample
 lineNum

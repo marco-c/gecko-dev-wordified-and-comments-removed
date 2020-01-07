@@ -770,6 +770,12 @@ csp
 >
 Permits
 (
+child
+-
+>
+AsElement
+(
+)
 newBaseURI
 nsIContentSecurityPolicy
 :

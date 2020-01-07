@@ -6274,7 +6274,10 @@ nsIContentPolicy
 TYPE_SCRIPT
 nonce
 parserCreated
-aElement
+scriptContent
+EmptyString
+(
+)
 aElement
 -
 >
@@ -14632,6 +14635,7 @@ nsIContentSecurityPolicy
 :
 :
 VIOLATION_TYPE_REQUIRE_SRI_FOR_SCRIPT
+nullptr
 NS_ConvertUTF8toUTF16
 (
 violationURISpec

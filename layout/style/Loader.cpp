@@ -3595,6 +3595,7 @@ nsIContentSecurityPolicy
 :
 :
 VIOLATION_TYPE_REQUIRE_SRI_FOR_STYLE
+nullptr
 NS_ConvertUTF8toUTF16
 (
 spec
