@@ -187,7 +187,9 @@ in
 tree
 :
 "
-lint
+update
+-
+verify
 "
 }
 run
