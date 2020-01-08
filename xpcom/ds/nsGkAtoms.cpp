@@ -22,7 +22,6 @@ mozilla
 namespace
 detail
 {
-MOZ_PUSH_DISABLE_INTEGRAL_CONSTANT_OVERFLOW_WARNING
 extern
 constexpr
 GkAtoms
@@ -35,6 +34,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )
@@ -60,6 +60,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )
@@ -77,6 +78,8 @@ value_
 )
 -
 1
+\
+hash_
 \
 offsetof
 (
@@ -123,7 +126,6 @@ GK_ATOM
 }
 }
 ;
-MOZ_POP_DISABLE_INTEGRAL_CONSTANT_OVERFLOW_WARNING
 }
 }
 const
@@ -151,6 +153,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )
