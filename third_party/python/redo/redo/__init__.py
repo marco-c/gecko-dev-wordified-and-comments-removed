@@ -86,7 +86,7 @@ sleeptime
 +
 random
 .
-randint
+uniform
 (
 -
 jitter
@@ -141,11 +141,8 @@ tries
 defaults
 to
                            
-60s
-(
-one
-minute
-)
+10
+seconds
         
 max_sleeptime
 (
@@ -195,7 +192,7 @@ to
         
 jitter
 (
-int
+float
 )
 :
 random
@@ -473,7 +470,7 @@ sleeptime
 +
 random
 .
-randint
+uniform
 (
 -
 jitter
@@ -482,12 +479,9 @@ jitter
             
 jitter
 =
-int
-(
 jitter
 *
 sleepscale
-)
         
 else
 :
@@ -592,6 +586,9 @@ kwargs
 =
 {
 }
+log_args
+=
+True
 )
 :
     
@@ -711,7 +708,7 @@ to
         
 jitter
 (
-int
+float
 )
 :
 random
@@ -845,6 +842,29 @@ to
 call
 action
 with
+        
+log_args
+(
+bool
+)
+:
+whether
+or
+not
+to
+include
+args
+and
+kwargs
+in
+log
+                         
+messages
+.
+Defaults
+to
+True
+.
     
 Returns
 :
@@ -1023,12 +1043,16 @@ action
 )
     
 if
+log_args
+and
+(
 args
 or
 kwargs
+)
 :
         
-log_attempt_format
+log_attempt_args
 =
 (
 "
@@ -1043,7 +1067,7 @@ args
 %
 s
 "
-                              
+                            
 "
 kwargs
 :
@@ -1052,22 +1076,18 @@ s
 attempt
 #
 %
-%
 d
 "
-                              
-%
-(
+                            
 action_name
 args
 kwargs
-)
 )
     
 else
 :
         
-log_attempt_format
+log_attempt_args
 =
 (
 "
@@ -1079,11 +1099,9 @@ s
 attempt
 #
 %
-%
 d
 "
-                              
-%
+                            
 action_name
 )
     
@@ -1107,12 +1125,9 @@ sleeptime
 %
 d
 "
-%
-(
-            
+                  
 max_sleeptime
 sleeptime
-)
 )
     
 n
@@ -1162,10 +1177,17 @@ log
 .
 debug
             
+log_attempt_args
++
+=
+(
+n
+)
+            
 logfn
 (
-log_attempt_format
-n
+*
+log_attempt_args
 )
             
 return
@@ -1226,7 +1248,6 @@ on
 %
 s
 "
-%
 action_name
 )
                 

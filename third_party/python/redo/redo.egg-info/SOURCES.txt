@@ -1,3 +1,6 @@
+README
+.
+md
 setup
 .
 cfg
@@ -50,15 +53,6 @@ info
 entry_points
 .
 txt
-redo
-.
-egg
--
-info
-/
-pbr
-.
-json
 redo
 .
 egg
