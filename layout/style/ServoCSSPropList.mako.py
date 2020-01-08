@@ -314,6 +314,18 @@ Appearance
 "
     
 "
+AlignContent
+"
+    
+"
+AlignItems
+"
+    
+"
+AlignSelf
+"
+    
+"
 BackgroundRepeat
 "
     
@@ -435,6 +447,18 @@ Integer
     
 "
 ImageLayer
+"
+    
+"
+JustifyContent
+"
+    
+"
+JustifyItems
+"
+    
+"
+JustifySelf
 "
     
 "

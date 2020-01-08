@@ -626,11 +626,6 @@ left
 )
 CSS_KEY
 (
-legacy
-legacy
-)
-CSS_KEY
-(
 line
 -
 through
@@ -892,11 +887,6 @@ s
 -
 resize
 s_resize
-)
-CSS_KEY
-(
-safe
-safe
 )
 CSS_KEY
 (
@@ -1184,11 +1174,6 @@ CSS_KEY
 (
 underline
 underline
-)
-CSS_KEY
-(
-unsafe
-unsafe
 )
 CSS_KEY
 (
