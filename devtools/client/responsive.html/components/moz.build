@@ -118,11 +118,6 @@ DeviceSelector
 js
 '
 '
-GlobalToolbar
-.
-js
-'
-'
 ReloadConditions
 .
 js
@@ -134,6 +129,11 @@ js
 '
 '
 ToggleMenu
+.
+js
+'
+'
+Toolbar
 .
 js
 '

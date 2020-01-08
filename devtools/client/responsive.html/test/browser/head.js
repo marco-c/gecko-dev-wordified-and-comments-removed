@@ -1857,8 +1857,6 @@ changeSelectValue
 ui
 "
 #
-global
--
 network
 -
 throttling

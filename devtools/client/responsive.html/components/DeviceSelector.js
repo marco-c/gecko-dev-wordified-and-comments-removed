@@ -376,11 +376,6 @@ let
 selectClass
 =
 "
-viewport
--
-device
--
-selector
 toolbar
 -
 dropdown
@@ -620,6 +615,13 @@ dom
 select
 (
 {
+id
+:
+"
+device
+-
+selector
+"
 className
 :
 selectClass
