@@ -727,6 +727,8 @@ const
 nsAString
 *
 aInsertString
+uint32_t
+aIndexOfKeypress
 WidgetKeyboardEvent
 &
 aKeyEvent
