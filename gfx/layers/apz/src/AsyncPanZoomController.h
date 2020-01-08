@@ -2031,8 +2031,10 @@ ArePointerEventsConsumable
 TouchBlockState
 *
 aBlock
-uint32_t
-aTouchPoints
+const
+MultiTouchInput
+&
+aInput
 )
 ;
 void

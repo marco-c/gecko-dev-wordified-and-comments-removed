@@ -471,7 +471,7 @@ float
 DoPanTest
 (
 false
-true
+false
 mozilla
 :
 :
