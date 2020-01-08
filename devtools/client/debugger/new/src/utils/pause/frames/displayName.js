@@ -391,6 +391,9 @@ formatDisplayNameParams
 =
 {
 }
+l10n
+:
+Object
 )
 :
 string
@@ -434,7 +437,7 @@ displayName
 )
 |
 |
-L10N
+l10n
 .
 getStr
 (
@@ -451,6 +454,9 @@ formatCopyName
 frame
 :
 LocalFrame
+l10n
+:
+Object
 )
 :
 string
@@ -461,6 +467,8 @@ displayName
 formatDisplayName
 (
 frame
+undefined
+l10n
 )
 ;
 const

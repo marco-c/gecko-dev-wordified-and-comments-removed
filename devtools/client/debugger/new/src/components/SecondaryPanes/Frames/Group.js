@@ -234,6 +234,9 @@ string
 =
 >
 string
+disableContextMenu
+:
+boolean
 }
 ;
 type
@@ -295,7 +298,7 @@ onContextMenu
 (
 event
 :
-SyntheticKeyboardEvent
+SyntheticMouseEvent
 <
 HTMLElement
 >
@@ -378,6 +381,7 @@ toggleBlackBox
 copyStackTrace
 displayFullUrl
 getFrameTitle
+disableContextMenu
 }
 =
 this
@@ -487,6 +491,11 @@ getFrameTitle
 =
 {
 getFrameTitle
+}
+disableContextMenu
+=
+{
+disableContextMenu
 }
 /
 >
@@ -642,6 +651,15 @@ this
 .
 state
 ;
+const
+{
+disableContextMenu
+}
+=
+this
+.
+props
+;
 return
 (
 <
@@ -664,6 +682,10 @@ expanded
 onContextMenu
 =
 {
+disableContextMenu
+?
+null
+:
 e
 =
 >
