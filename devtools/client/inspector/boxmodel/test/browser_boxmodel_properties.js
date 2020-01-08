@@ -543,9 +543,7 @@ return
 .
 boxmodel
 -
-properties
--
-wrapper
+container
 .
 computed
 -

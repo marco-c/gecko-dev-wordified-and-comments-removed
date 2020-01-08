@@ -102,4 +102,9 @@ FlexContainerList
 .
 js
 '
+'
+FlexContainerProperties
+.
+js
+'
 )

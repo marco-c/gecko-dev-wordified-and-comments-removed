@@ -1392,6 +1392,11 @@ actorID
 color
 highlighted
 nodeFront
+properties
+:
+flexboxFront
+.
+properties
 }
 )
 )

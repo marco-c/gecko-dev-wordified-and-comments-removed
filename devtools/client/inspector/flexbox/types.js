@@ -50,5 +50,10 @@ nodeFront
 PropTypes
 .
 object
+properties
+:
+PropTypes
+.
+object
 }
 ;

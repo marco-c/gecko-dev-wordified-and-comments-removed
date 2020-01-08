@@ -40,6 +40,10 @@ false
 nodeFront
 :
 null
+properties
+:
+{
+}
 }
 ;
 const
