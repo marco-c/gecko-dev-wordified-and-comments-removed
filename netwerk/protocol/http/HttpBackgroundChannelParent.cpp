@@ -51,7 +51,11 @@ h
 #
 include
 "
-nsIBackgroundChannelRegistrar
+mozilla
+/
+net
+/
+BackgroundChannelRegistrar
 .
 h
 "
@@ -243,9 +247,11 @@ nsIBackgroundChannelRegistrar
 >
 registrar
 =
-do_GetService
+BackgroundChannelRegistrar
+:
+:
+GetOrCreate
 (
-NS_BACKGROUNDCHANNELREGISTRAR_CONTRACTID
 )
 ;
 MOZ_ASSERT

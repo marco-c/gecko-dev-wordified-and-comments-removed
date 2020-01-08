@@ -245,6 +245,11 @@ AltDataOutputStreamParent
 h
 '
 '
+BackgroundChannelRegistrar
+.
+h
+'
+'
 HttpAuthUtils
 .
 h
