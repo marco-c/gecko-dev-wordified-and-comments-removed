@@ -827,11 +827,6 @@ consts
 [
 ]
     
-prophooks
-=
-[
-]
-    
 domobjects
 =
 [
