@@ -821,3 +821,9 @@ true
 }
 )
 ;
+window
+.
+AboutDebugging
+=
+AboutDebugging
+;
