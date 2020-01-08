@@ -67,15 +67,6 @@ window
 js
 "
 "
-cookieStore_has_arguments
-.
-tentative
-.
-window
-.
-js
-"
-"
 cookieStore_set_arguments
 .
 tentative

@@ -111,7 +111,9 @@ prefix
 matchType
 :
 '
-startsWith
+starts
+-
+with
 '
 }
 ]
@@ -304,7 +306,9 @@ prefix
 assert_equals
 (
 '
-startsWith
+starts
+-
+with
 '
 subscriptions
 [
@@ -329,7 +333,9 @@ subscriptions
 assert_equals
 (
 '
-startsWith
+starts
+-
+with
 '
 subscriptions
 [

@@ -66,15 +66,6 @@ window
 .
 js
 "
-"
-cookieStore_has_basic
-.
-tentative
-.
-window
-.
-js
-"
 )
 ;
 done

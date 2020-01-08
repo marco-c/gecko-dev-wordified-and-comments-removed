@@ -476,7 +476,9 @@ na
 matchType
 :
 '
-startsWith
+starts
+-
+with
 '
 }
 )
@@ -532,7 +534,9 @@ with
 matchType
 set
 to
-startsWith
+starts
+-
+with
 '
 )
 ;
@@ -653,7 +657,9 @@ get
 matchType
 :
 '
-startsWith
+starts
+-
+with
 '
 name
 :
@@ -716,7 +722,9 @@ with
 matchType
 set
 to
-startsWith
+starts
+-
+with
 and
 name
 in

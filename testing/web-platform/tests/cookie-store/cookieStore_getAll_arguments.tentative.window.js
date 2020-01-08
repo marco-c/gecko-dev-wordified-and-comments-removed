@@ -868,7 +868,9 @@ name
 matchType
 :
 '
-startsWith
+starts
+-
+with
 '
 }
 )
@@ -964,7 +966,9 @@ with
 matchType
 set
 to
-startsWith
+starts
+-
+with
 '
 )
 ;
@@ -1148,7 +1152,9 @@ getAll
 matchType
 :
 '
-startsWith
+starts
+-
+with
 '
 name
 :
@@ -1252,7 +1258,9 @@ with
 matchType
 set
 to
-startsWith
+starts
+-
+with
 and
 name
 in
