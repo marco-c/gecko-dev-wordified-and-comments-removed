@@ -55,12 +55,12 @@ JSString
 struct
 JSFreeOp
 ;
-struct
-jsid
-;
 namespace
 JS
 {
+struct
+PropertyKey
+;
 typedef
 unsigned
 char
@@ -135,7 +135,7 @@ HandleFunction
 typedef
 Handle
 <
-jsid
+PropertyKey
 >
 HandleId
 ;
@@ -208,7 +208,7 @@ MutableHandleFunction
 typedef
 MutableHandle
 <
-jsid
+PropertyKey
 >
 MutableHandleId
 ;
@@ -332,7 +332,7 @@ endif
 typedef
 Rooted
 <
-jsid
+PropertyKey
 >
 RootedId
 ;
@@ -357,7 +357,7 @@ PersistentRootedFunction
 typedef
 PersistentRooted
 <
-jsid
+PropertyKey
 >
 PersistentRootedId
 ;
@@ -420,6 +420,14 @@ Value
 PersistentRootedValue
 ;
 }
+using
+jsid
+=
+JS
+:
+:
+PropertyKey
+;
 #
 ifdef
 ENABLE_BIGINT

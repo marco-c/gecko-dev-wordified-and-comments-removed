@@ -798,6 +798,10 @@ if
 MOZ_LIKELY
 (
 id
+.
+get
+(
+)
 =
 =
 s_length_id

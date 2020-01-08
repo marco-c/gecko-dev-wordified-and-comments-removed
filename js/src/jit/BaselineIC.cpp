@@ -7374,6 +7374,10 @@ updateStubId
 MOZ_ASSERT
 (
 id
+.
+get
+(
+)
 !
 =
 JSID_EMPTY
