@@ -105,4 +105,14 @@ TemporaryExtensionInstaller
 .
 js
 '
+'
+WorkerDetail
+.
+css
+'
+'
+WorkerDetail
+.
+js
+'
 )
