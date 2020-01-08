@@ -7535,6 +7535,12 @@ defined
 (
 GP_PLAT_amd64_linux
 )
+|
+|
+defined
+(
+GP_PLAT_x86_linux
+)
 const
 size_t
 wordSzB
