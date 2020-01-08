@@ -389,6 +389,16 @@ cache
 .
 gradle
 /
+^
+tools
+/
+infer
+/
+test
+/
+.
+gradle
+/
 #
 Local
 Gradle
