@@ -551,6 +551,8 @@ CompositorVsyncScheduler
 :
 PostCompositeTask
 (
+VsyncId
+aId
 TimeStamp
 aCompositeTimestamp
 )
@@ -585,6 +587,7 @@ task
 =
 NewCancelableRunnableMethod
 <
+VsyncId
 TimeStamp
 >
 (
@@ -603,6 +606,7 @@ CompositorVsyncScheduler
 :
 :
 Composite
+aId
 aCompositeTimestamp
 )
 ;
@@ -740,6 +744,9 @@ mAsapScheduling
 {
 PostCompositeTask
 (
+VsyncId
+(
+)
 TimeStamp
 :
 :
@@ -785,6 +792,9 @@ GetVsyncInterval
 {
 PostCompositeTask
 (
+VsyncId
+(
+)
 TimeStamp
 :
 :
@@ -829,6 +839,9 @@ ObserveVsync
 ;
 PostCompositeTask
 (
+VsyncId
+(
+)
 TimeStamp
 :
 :
@@ -892,6 +905,9 @@ NS_IsMainThread
 ;
 PostCompositeTask
 (
+aVsync
+.
+mId
 aVsync
 .
 mTime
@@ -961,6 +977,8 @@ CompositorVsyncScheduler
 :
 Composite
 (
+VsyncId
+aId
 TimeStamp
 aVsyncTimestamp
 )
@@ -1052,6 +1070,7 @@ mVsyncSchedulerOwner
 >
 CompositeToTarget
 (
+aId
 nullptr
 nullptr
 )
@@ -1167,6 +1186,9 @@ mVsyncSchedulerOwner
 >
 CompositeToTarget
 (
+VsyncId
+(
+)
 aTarget
 aRect
 )

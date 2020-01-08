@@ -2559,6 +2559,8 @@ override
 void
 CompositeToTarget
 (
+VsyncId
+aId
 gfx
 :
 :
