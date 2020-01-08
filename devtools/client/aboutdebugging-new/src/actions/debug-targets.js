@@ -316,7 +316,7 @@ devtoolsClient
 =
 runtimeDetails
 .
-client
+clientWrapper
 .
 client
 ;
@@ -488,7 +488,7 @@ getState
 >
 {
 const
-client
+clientWrapper
 =
 getCurrentClient
 (
@@ -502,7 +502,7 @@ runtimes
 try
 {
 await
-client
+clientWrapper
 .
 request
 (
@@ -551,7 +551,7 @@ getState
 >
 {
 const
-client
+clientWrapper
 =
 getCurrentClient
 (
@@ -565,7 +565,7 @@ runtimes
 try
 {
 await
-client
+clientWrapper
 .
 request
 (
@@ -660,7 +660,7 @@ REQUEST_TABS_START
 )
 ;
 const
-client
+clientWrapper
 =
 getCurrentClient
 (
@@ -679,7 +679,7 @@ tabs
 }
 =
 await
-client
+clientWrapper
 .
 listTabs
 (
@@ -758,7 +758,7 @@ runtimes
 )
 ;
 const
-client
+clientWrapper
 =
 getCurrentClient
 (
@@ -777,7 +777,7 @@ addons
 }
 =
 await
-client
+clientWrapper
 .
 listAddons
 (
@@ -917,7 +917,7 @@ REQUEST_WORKERS_START
 )
 ;
 const
-client
+clientWrapper
 =
 getCurrentClient
 (
@@ -938,7 +938,7 @@ sharedWorkers
 }
 =
 await
-client
+clientWrapper
 .
 listWorkers
 (
@@ -994,7 +994,7 @@ getState
 >
 {
 const
-client
+clientWrapper
 =
 getCurrentClient
 (
@@ -1008,7 +1008,7 @@ runtimes
 try
 {
 await
-client
+clientWrapper
 .
 request
 (

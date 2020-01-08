@@ -153,7 +153,7 @@ action
 ;
 const
 {
-client
+clientWrapper
 }
 =
 runtime
@@ -173,7 +173,7 @@ TAB
 )
 )
 {
-client
+clientWrapper
 .
 addListener
 (
@@ -197,7 +197,7 @@ EXTENSION
 )
 )
 {
-client
+clientWrapper
 .
 addListener
 (
@@ -221,7 +221,7 @@ WORKER
 )
 )
 {
-client
+clientWrapper
 .
 addListener
 (
@@ -231,7 +231,7 @@ workerListChanged
 onWorkersUpdated
 )
 ;
-client
+clientWrapper
 .
 addListener
 (
@@ -241,7 +241,7 @@ serviceWorkerRegistrationListChanged
 onWorkersUpdated
 )
 ;
-client
+clientWrapper
 .
 addListener
 (
@@ -251,7 +251,7 @@ processListChanged
 onWorkersUpdated
 )
 ;
-client
+clientWrapper
 .
 addListener
 (
@@ -263,7 +263,7 @@ changed
 onWorkersUpdated
 )
 ;
-client
+clientWrapper
 .
 addListener
 (
@@ -294,7 +294,7 @@ action
 ;
 const
 {
-client
+clientWrapper
 }
 =
 runtime
@@ -314,7 +314,7 @@ TAB
 )
 )
 {
-client
+clientWrapper
 .
 removeListener
 (
@@ -338,7 +338,7 @@ EXTENSION
 )
 )
 {
-client
+clientWrapper
 .
 removeListener
 (
@@ -362,7 +362,7 @@ WORKER
 )
 )
 {
-client
+clientWrapper
 .
 removeListener
 (
@@ -372,7 +372,7 @@ workerListChanged
 onWorkersUpdated
 )
 ;
-client
+clientWrapper
 .
 removeListener
 (
@@ -382,7 +382,7 @@ serviceWorkerRegistrationListChanged
 onWorkersUpdated
 )
 ;
-client
+clientWrapper
 .
 removeListener
 (
@@ -392,7 +392,7 @@ processListChanged
 onWorkersUpdated
 )
 ;
-client
+clientWrapper
 .
 removeListener
 (
@@ -404,7 +404,7 @@ changed
 onWorkersUpdated
 )
 ;
-client
+clientWrapper
 .
 removeListener
 (

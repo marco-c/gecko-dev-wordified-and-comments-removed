@@ -99,7 +99,7 @@ const
 runtimeDetails
 =
 {
-client
+clientWrapper
 :
 PropTypes
 .
