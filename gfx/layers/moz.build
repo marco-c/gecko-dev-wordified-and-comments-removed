@@ -1393,6 +1393,11 @@ LayersTypes
 h
 '
 '
+MemoryPressureObserver
+.
+h
+'
+'
 mlgpu
 /
 LayerManagerMLGPU
@@ -2929,6 +2934,11 @@ cpp
 '
 '
 LayerTreeInvalidation
+.
+cpp
+'
+'
+MemoryPressureObserver
 .
 cpp
 '
