@@ -65,6 +65,7 @@ aActor
 >
 Init
 (
+aInit
 )
 ;
 return
