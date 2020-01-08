@@ -905,6 +905,9 @@ Ssrc
 (
 )
 ;
+#
+if
+0
 if
 (
 has_mid
@@ -1154,6 +1157,8 @@ sink_by_rsid
 ;
 }
 }
+#
+endif
 const
 auto
 ssrc_sink_it
