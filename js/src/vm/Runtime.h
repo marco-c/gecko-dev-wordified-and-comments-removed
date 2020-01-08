@@ -1231,7 +1231,10 @@ ConsumeStreamCallback
 >
 consumeStreamCallback
 ;
-JSObject
+js
+:
+:
+GlobalObject
 *
 getIncumbentGlobal
 (
@@ -1259,7 +1262,14 @@ promise
 js
 :
 :
-HandleObject
+Handle
+<
+js
+:
+:
+GlobalObject
+*
+>
 incumbentGlobal
 )
 ;
