@@ -7529,6 +7529,7 @@ true
 )
 ;
 }
+}
 logger
 .
 debug
@@ -7599,14 +7600,6 @@ maybeResolve
 }
 )
 ;
-}
-else
-{
-flushRendering
-(
-)
-;
-}
 if
 (
 remote
