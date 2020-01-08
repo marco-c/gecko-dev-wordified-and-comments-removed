@@ -15,6 +15,15 @@ jsapi
 h
 "
 #
+include
+"
+js
+/
+Symbol
+.
+h
+"
+#
 ifdef
 ENABLE_BIGINT
 #

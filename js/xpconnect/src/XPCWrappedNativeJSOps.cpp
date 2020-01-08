@@ -59,6 +59,15 @@ Printf
 .
 h
 "
+#
+include
+"
+js
+/
+Symbol
+.
+h
+"
 using
 namespace
 mozilla

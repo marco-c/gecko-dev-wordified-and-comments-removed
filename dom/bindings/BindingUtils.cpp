@@ -108,6 +108,15 @@ h
 #
 include
 "
+js
+/
+Symbol
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h

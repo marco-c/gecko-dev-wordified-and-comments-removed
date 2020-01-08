@@ -48,6 +48,15 @@ h
 #
 include
 "
+js
+/
+Symbol
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h

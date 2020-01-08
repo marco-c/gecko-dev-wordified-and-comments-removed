@@ -23,6 +23,15 @@ HeapAPI
 .
 h
 "
+#
+include
+"
+js
+/
+Symbol
+.
+h
+"
 FRAGMENT
 (
 GCCellPtr
