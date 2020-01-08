@@ -606,7 +606,13 @@ wrappedJSObject
 .
 mutateStorage
 (
+Cu
+.
+cloneInto
+(
 args
+content
+)
 )
 ;
 }
