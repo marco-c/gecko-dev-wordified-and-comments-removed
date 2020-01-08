@@ -13636,6 +13636,17 @@ this
 ;
 if
 (
+!
+mAfterOnStartRequestBegun
+)
+{
+mAfterOnStartRequestBegun
+=
+true
+;
+}
+if
+(
 mListener
 )
 {
