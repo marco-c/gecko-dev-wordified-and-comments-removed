@@ -2287,9 +2287,6 @@ CodeAlignment
 OffsetMap
 existingCallFarJumps
 ;
-TrapMaybeOffsetArray
-existingTrapFarJumps
-;
 for
 (
 ;
@@ -5014,7 +5011,7 @@ ModuleGenerator
 finishMetadata
 (
 const
-ShareableBytes
+Bytes
 &
 bytecode
 )
@@ -5471,6 +5468,8 @@ if
 finishMetadata
 (
 bytecode
+.
+bytes
 )
 )
 {
@@ -5848,6 +5847,13 @@ debugUnlinkedCode
 UniqueLinkData
 debugLinkData
 ;
+const
+ShareableBytes
+*
+debugBytecode
+=
+nullptr
+;
 if
 (
 env_
@@ -5943,6 +5949,11 @@ move
 linkData_
 )
 ;
+debugBytecode
+=
+&
+bytecode
+;
 }
 MutableModule
 module
@@ -6005,7 +6016,6 @@ move
 (
 customSections
 )
-bytecode
 std
 :
 :
@@ -6020,6 +6030,7 @@ move
 (
 debugLinkData
 )
+debugBytecode
 )
 ;
 if
@@ -6052,6 +6063,7 @@ startTier2
 (
 *
 compileArgs_
+bytecode
 )
 ;
 }

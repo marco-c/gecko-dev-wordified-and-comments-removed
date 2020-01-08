@@ -198,11 +198,9 @@ return
 module_
 -
 >
-bytecode
+debugBytecode
 (
 )
-.
-bytes
 ;
 }
 bool
