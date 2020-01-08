@@ -90,6 +90,13 @@ geckodriver
 "
 toolkit
 /
+crashreporter
+/
+rust
+"
+"
+toolkit
+/
 library
 /
 gtest

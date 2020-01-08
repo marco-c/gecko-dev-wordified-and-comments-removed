@@ -328,6 +328,9 @@ mac
 /
 dump_syms
 '
+'
+rust
+'
 ]
 elif
 CONFIG
@@ -400,6 +403,9 @@ tools
 linux
 /
 dump_syms
+'
+'
+rust
 '
 ]
 DIRS

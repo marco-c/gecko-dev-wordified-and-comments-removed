@@ -1,0 +1,6 @@
+HostRustLibrary
+(
+'
+dump_syms_rust_demangle
+'
+)
