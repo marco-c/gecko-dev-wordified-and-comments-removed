@@ -1946,6 +1946,10 @@ setCurrentChunk
 (
 unsigned
 chunkno
+bool
+fullPoison
+=
+false
 )
 ;
 void
