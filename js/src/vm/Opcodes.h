@@ -41,7 +41,6 @@ NULL
 JOF_BYTE
 )
 \
-\
 /
 *
 Long
@@ -64,6 +63,7 @@ onto
 the
 stack
 .
+*
 *
 Category
 :
@@ -209,7 +209,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_ARGUMENTS
@@ -223,7 +222,6 @@ NULL
 1
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -258,7 +256,6 @@ JOF_UINT16
 \
 \
 \
-\
 macro
 (
 JSOP_DUP
@@ -289,7 +286,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_CHECKISOBJ
@@ -303,7 +299,6 @@ NULL
 1
 JOF_UINT8
 )
-\
 \
 \
 macro
@@ -795,7 +790,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_SPREADCALL
@@ -861,7 +855,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_DUPAT
@@ -877,7 +870,6 @@ JOF_UINT24
 )
 \
 \
-\
 macro
 (
 JSOP_SYMBOL
@@ -891,7 +883,6 @@ NULL
 1
 JOF_UINT8
 )
-\
 \
 \
 macro
@@ -1043,7 +1034,6 @@ NULL
 1
 JOF_OBJECT
 )
-\
 \
 \
 macro
@@ -1365,7 +1355,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_TABLESWITCH
@@ -1386,7 +1375,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_RUNONCE
@@ -1400,7 +1388,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 \
@@ -1449,7 +1436,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_THROWMSG
@@ -1463,7 +1449,6 @@ NULL
 0
 JOF_UINT16
 )
-\
 \
 \
 macro
@@ -1532,7 +1517,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_FUNAPPLY
@@ -1555,7 +1539,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_OBJECT
@@ -1571,7 +1554,6 @@ JOF_OBJECT
 )
 \
 \
-\
 macro
 (
 JSOP_POP
@@ -1585,7 +1567,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -1625,7 +1606,6 @@ NULL
 1
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -1698,7 +1678,6 @@ JOF_DETECTING
 )
 \
 \
-\
 macro
 (
 JSOP_UINT16
@@ -1712,7 +1691,6 @@ NULL
 1
 JOF_UINT16
 )
-\
 \
 \
 \
@@ -1767,7 +1745,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_INITHOMEOBJECT
@@ -1781,7 +1758,6 @@ NULL
 2
 JOF_UINT8
 )
-\
 \
 \
 macro
@@ -1807,7 +1783,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_INITELEM
@@ -1831,7 +1806,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_INITELEM_INC
@@ -1851,7 +1825,6 @@ JOF_PROPINIT
 |
 JOF_IC
 )
-\
 \
 \
 macro
@@ -1875,7 +1848,6 @@ JOF_DETECTING
 |
 JOF_IC
 )
-\
 \
 \
 macro
@@ -1977,7 +1949,6 @@ JOF_OBJECT
 )
 \
 \
-\
 macro
 (
 JSOP_NEWARRAY_COPYONWRITE
@@ -1991,7 +1962,6 @@ NULL
 1
 JOF_OBJECT
 )
-\
 \
 \
 macro
@@ -2057,7 +2027,6 @@ JOF_CHECKSTRICT
 )
 \
 \
-\
 macro
 (
 JSOP_LABEL
@@ -2071,7 +2040,6 @@ NULL
 0
 JOF_JUMP
 )
-\
 \
 \
 macro
@@ -2099,7 +2067,6 @@ JOF_CHECKSLOPPY
 )
 \
 \
-\
 macro
 (
 JSOP_FUNCALL
@@ -2122,7 +2089,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_LOOPHEAD
@@ -2136,7 +2102,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 \
@@ -2185,7 +2150,6 @@ JOF_IC
 \
 \
 \
-\
 macro
 (
 JSOP_THROW
@@ -2197,7 +2161,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -2230,7 +2193,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_DEBUGGER
@@ -2244,7 +2206,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -2278,7 +2239,6 @@ JOF_BYTE
 \
 \
 \
-\
 macro
 (
 JSOP_EXCEPTION
@@ -2294,7 +2254,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_LINENO
@@ -2308,7 +2267,6 @@ NULL
 0
 JOF_UINT32
 )
-\
 \
 \
 macro
@@ -2357,7 +2315,6 @@ JOF_JUMP
 \
 \
 \
-\
 macro
 (
 JSOP_EVAL
@@ -2380,7 +2337,6 @@ JOF_CHECKSLOPPY
 |
 JOF_IC
 )
-\
 \
 \
 \
@@ -2450,7 +2406,6 @@ JOF_UINT24
 )
 \
 \
-\
 macro
 (
 JSOP_DEFFUN
@@ -2496,7 +2451,6 @@ JOF_ATOM
 )
 \
 \
-\
 macro
 (
 JSOP_LAMBDA
@@ -2527,7 +2481,6 @@ JOF_OBJECT
 )
 \
 \
-\
 macro
 (
 JSOP_CALLEE
@@ -2543,7 +2496,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_PICK
@@ -2557,7 +2509,6 @@ NULL
 0
 JOF_UINT8
 )
-\
 \
 \
 macro
@@ -2588,7 +2539,6 @@ NULL
 2
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -2633,7 +2583,6 @@ JOF_DETECTING
 |
 JOF_IC
 )
-\
 \
 \
 macro
@@ -2885,7 +2834,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_THROWING
@@ -2899,7 +2847,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -2930,7 +2877,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -2981,7 +2927,6 @@ JOF_CHECKSLOPPY
 |
 JOF_IC
 )
-\
 \
 \
 macro
@@ -3081,7 +3026,6 @@ JOF_CHECKSTRICT
 )
 \
 \
-\
 macro
 (
 JSOP_REGEXP
@@ -3095,7 +3039,6 @@ NULL
 1
 JOF_REGEXP
 )
-\
 \
 \
 macro
@@ -3119,7 +3062,6 @@ JOF_GNAME
 |
 JOF_IC
 )
-\
 \
 \
 macro
@@ -3656,7 +3598,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_CALLELEM
@@ -3678,7 +3619,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_MUTATEPROTO
@@ -3692,7 +3632,6 @@ NULL
 1
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -3716,7 +3655,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_TYPEOFEXPR
@@ -3734,7 +3672,6 @@ JOF_DETECTING
 |
 JOF_IC
 )
-\
 \
 \
 \
@@ -3811,7 +3748,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -3891,7 +3827,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_FORCEINTERPRETER
@@ -3905,7 +3840,6 @@ NULL
 0
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -4021,7 +3955,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_INT8
@@ -4052,7 +3985,6 @@ JOF_INT32
 )
 \
 \
-\
 macro
 (
 JSOP_LENGTH
@@ -4074,7 +4006,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_HOLE
@@ -4090,7 +4021,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_CHECKISCALLABLE
@@ -4104,7 +4034,6 @@ NULL
 1
 JOF_UINT8
 )
-\
 \
 \
 macro
@@ -4126,7 +4055,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_BUILTINPROTO
@@ -4140,7 +4068,6 @@ NULL
 1
 JOF_UINT8
 )
-\
 \
 \
 macro
@@ -4173,7 +4100,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_REST
@@ -4193,7 +4119,6 @@ JOF_IC
 )
 \
 \
-\
 macro
 (
 JSOP_TOID
@@ -4207,7 +4132,6 @@ NULL
 1
 JOF_BYTE
 )
-\
 \
 \
 macro
@@ -4224,7 +4148,6 @@ implicitthis
 1
 JOF_ATOM
 )
-\
 \
 \
 macro
