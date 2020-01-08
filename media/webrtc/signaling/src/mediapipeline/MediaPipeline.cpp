@@ -6798,6 +6798,15 @@ mDomTrack
 return
 ;
 }
+if
+(
+!
+mDomTrack
+)
+{
+return
+;
+}
 bool
 enableTrack
 =
