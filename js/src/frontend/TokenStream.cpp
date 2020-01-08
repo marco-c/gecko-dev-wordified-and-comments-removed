@@ -4004,7 +4004,7 @@ return
 true
 ;
 return
-computeLineOfContext
+internalComputeLineOfContext
 (
 err
 offset
@@ -4019,14 +4019,14 @@ class
 AnyCharsAccess
 >
 bool
-TokenStreamSpecific
+GeneralTokenStreamChars
 <
 CharT
 AnyCharsAccess
 >
 :
 :
-computeLineOfContext
+internalComputeLineOfContext
 (
 ErrorMetadata
 *
@@ -4168,6 +4168,11 @@ windowBuf
 .
 append
 (
+this
+-
+>
+sourceUnits
+.
 codeUnitPtrAt
 (
 windowStart
