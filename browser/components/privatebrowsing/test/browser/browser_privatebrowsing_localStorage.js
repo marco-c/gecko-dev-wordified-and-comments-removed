@@ -93,10 +93,11 @@ browserLoaded
 browser
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 http
 :

@@ -2471,10 +2471,11 @@ soundplaying
 )
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 about
 :

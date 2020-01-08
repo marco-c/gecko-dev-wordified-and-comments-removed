@@ -196,10 +196,11 @@ URL
 }
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 about
 :
@@ -480,10 +481,11 @@ URL
 }
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 about
 :

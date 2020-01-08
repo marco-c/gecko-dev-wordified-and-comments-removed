@@ -118,10 +118,11 @@ if
 url
 )
 {
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 url
 )
 ;

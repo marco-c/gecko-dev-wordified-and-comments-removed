@@ -216,12 +216,13 @@ tab
 url
 )
 {
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 url
 )
 ;

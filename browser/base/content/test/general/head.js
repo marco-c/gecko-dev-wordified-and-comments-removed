@@ -1663,12 +1663,13 @@ resolve
 }
 )
 ;
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 url
 )
 ;
