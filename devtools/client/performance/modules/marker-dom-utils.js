@@ -517,7 +517,7 @@ container
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 vbox
