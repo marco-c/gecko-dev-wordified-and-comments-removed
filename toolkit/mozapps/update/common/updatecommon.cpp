@@ -749,7 +749,7 @@ wchar_t
 *
 nextToken
 =
-wcstok
+wcstok_s
 (
 pathCopy
 L
@@ -1012,7 +1012,7 @@ true
 }
 nextToken
 =
-wcstok
+wcstok_s
 (
 nullptr
 L
