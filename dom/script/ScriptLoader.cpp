@@ -5685,6 +5685,15 @@ nsContentUtils
 IsBytecodeCacheEnabled
 (
 )
+&
+&
+!
+aRequest
+-
+>
+IsModuleRequest
+(
+)
 )
 {
 if
