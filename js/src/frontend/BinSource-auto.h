@@ -2121,6 +2121,8 @@ Ok
 >
 parseFunctionExpressionContents
 (
+uint32_t
+funLength
 ListNode
 *
 *
@@ -2140,6 +2142,8 @@ Ok
 >
 parseFunctionOrMethodContents
 (
+uint32_t
+funLength
 ListNode
 *
 *
@@ -2159,6 +2163,8 @@ Ok
 >
 parseGetterContents
 (
+uint32_t
+funLength
 ListNode
 *
 *
@@ -2514,6 +2520,8 @@ Ok
 >
 parseSetterContents
 (
+uint32_t
+funLength
 ListNode
 *
 *
@@ -4285,6 +4293,8 @@ const
 BinFields
 &
 fields
+uint32_t
+funLength
 ListNode
 *
 *
@@ -4314,6 +4324,8 @@ const
 BinFields
 &
 fields
+uint32_t
+funLength
 ListNode
 *
 *
@@ -4343,6 +4355,8 @@ const
 BinFields
 &
 fields
+uint32_t
+funLength
 ListNode
 *
 *
@@ -4988,6 +5002,8 @@ const
 BinFields
 &
 fields
+uint32_t
+funLength
 ListNode
 *
 *
