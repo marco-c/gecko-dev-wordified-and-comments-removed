@@ -81,6 +81,11 @@ helper
 js
 '
 '
+l10n
+.
+js
+'
+'
 network
 -
 locations
