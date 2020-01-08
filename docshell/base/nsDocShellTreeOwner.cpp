@@ -3806,10 +3806,6 @@ webnav
 LoadURI
 (
 url
-.
-get
-(
-)
 0
 nullptr
 nullptr

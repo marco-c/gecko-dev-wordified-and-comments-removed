@@ -3802,12 +3802,14 @@ webNav
 >
 LoadURI
 (
-u
+NS_LITERAL_STRING
+(
 "
 about
 :
 blank
 "
+)
 0
 nullptr
 nullptr

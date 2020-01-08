@@ -2481,8 +2481,8 @@ nsWebBrowser
 LoadURIWithOptions
 (
 const
-char16_t
-*
+nsAString
+&
 aURI
 uint32_t
 aLoadFlags
@@ -2567,8 +2567,8 @@ nsWebBrowser
 LoadURI
 (
 const
-char16_t
-*
+nsAString
+&
 aURI
 uint32_t
 aLoadFlags

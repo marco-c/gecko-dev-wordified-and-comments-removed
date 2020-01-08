@@ -1149,10 +1149,6 @@ webNav
 LoadURI
 (
 urlString
-.
-get
-(
-)
 nsIWebNavigation
 :
 :

@@ -1833,7 +1833,7 @@ void
 loadURI
 (
 in
-wstring
+AString
 aURI
 in
 unsigned
@@ -2278,7 +2278,7 @@ void
 loadURIWithOptions
 (
 in
-wstring
+AString
 aURI
 in
 unsigned
