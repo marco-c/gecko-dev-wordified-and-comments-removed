@@ -79,25 +79,11 @@ def
 test_no_browsing_context
 (
 session
-create_window
+closed_window
 )
 :
     
-session
-.
-window_handle
-=
-create_window
-(
-)
-    
-session
-.
-close
-(
-)
-    
-result
+response
 =
 get_element_attribute
 (
@@ -112,7 +98,7 @@ id
     
 assert_error
 (
-result
+response
 "
 no
 such

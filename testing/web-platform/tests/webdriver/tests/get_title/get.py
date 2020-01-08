@@ -87,29 +87,11 @@ def
 test_no_browsing_context
 (
 session
-create_window
+closed_window
 )
 :
     
-new_window
-=
-create_window
-(
-)
-    
-session
-.
-window_handle
-=
-new_window
-    
-session
-.
-close
-(
-)
-    
-result
+response
 =
 get_title
 (
@@ -118,7 +100,7 @@ session
     
 assert_error
 (
-result
+response
 "
 no
 such

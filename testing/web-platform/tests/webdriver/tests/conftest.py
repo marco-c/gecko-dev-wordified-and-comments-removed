@@ -13,6 +13,8 @@ add_event_listeners
     
 configuration
     
+closed_window
+    
 create_cookie
     
 create_dialog
@@ -237,4 +239,12 @@ fixture
 )
 (
 url
+)
+pytest
+.
+fixture
+(
+)
+(
+closed_window
 )

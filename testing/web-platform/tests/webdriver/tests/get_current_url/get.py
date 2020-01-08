@@ -142,28 +142,14 @@ session
 )
 )
 def
-test_get_current_url_no_browsing_context
+test_no_browsing_context
 (
 session
-create_window
+closed_window
 )
 :
     
-session
-.
-window_handle
-=
-create_window
-(
-)
-    
-session
-.
-close
-(
-)
-    
-result
+response
 =
 get_current_url
 (
@@ -172,7 +158,7 @@ session
     
 assert_error
 (
-result
+response
 "
 no
 such
