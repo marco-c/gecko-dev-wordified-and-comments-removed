@@ -960,11 +960,13 @@ gfx
 :
 IntSize
 aSize
+const
+Range
+<
 uint8_t
-*
+>
+&
 aBuffer
-uint32_t
-aBufferSize
 )
 ;
 void
