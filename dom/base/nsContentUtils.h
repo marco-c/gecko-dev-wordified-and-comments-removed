@@ -833,6 +833,12 @@ IsCallerContentXBL
 ;
 static
 bool
+IsCallerUAWidget
+(
+)
+;
+static
+bool
 IsFuzzingEnabled
 (
 )

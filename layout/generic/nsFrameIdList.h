@@ -104,7 +104,7 @@ FRAME_ID
 (
 nsDateTimeControlFrame
 DateTimeControl
-Leaf
+DynamicLeaf
 )
 FRAME_ID
 (

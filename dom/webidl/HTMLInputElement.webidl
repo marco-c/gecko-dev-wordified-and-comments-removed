@@ -1145,7 +1145,7 @@ element
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 NeedsSubjectPrincipal
 ]
@@ -1450,7 +1450,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 void
@@ -1474,7 +1474,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 void
@@ -1498,7 +1498,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 void
@@ -1519,7 +1519,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 void
@@ -1542,7 +1542,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 void
@@ -1563,7 +1563,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 BinaryName
 =
@@ -1589,7 +1589,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 BinaryName
 =

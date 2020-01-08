@@ -4195,7 +4195,7 @@ HK
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 sequence
@@ -4229,7 +4229,7 @@ Throws
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 readonly
