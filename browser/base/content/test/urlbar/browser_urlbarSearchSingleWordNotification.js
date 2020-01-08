@@ -1001,10 +1001,11 @@ browser
 .
 selectedTab
 =
-browser
+BrowserTestUtils
 .
 addTab
 (
+browser
 "
 about
 :

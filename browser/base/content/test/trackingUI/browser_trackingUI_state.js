@@ -2224,10 +2224,11 @@ tabbrowser
 .
 selectedTab
 =
-tabbrowser
+BrowserTestUtils
 .
 addTab
 (
+tabbrowser
 )
 ;
 TrackingProtection
@@ -2383,10 +2384,11 @@ tabbrowser
 .
 selectedTab
 =
-tabbrowser
+BrowserTestUtils
 .
 addTab
 (
+tabbrowser
 )
 ;
 TrackingProtection

@@ -155,10 +155,11 @@ gBrowser
 TEST_PATH
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 )
 ;
 const
