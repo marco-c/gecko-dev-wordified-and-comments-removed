@@ -1818,7 +1818,6 @@ build
 check
 -
 test
-update
 ]
 options
 :
@@ -2027,7 +2026,6 @@ build
 check
 -
 test
-update
 ]
 options
 :

@@ -19,10 +19,6 @@ multi
 -
 l10n
 '
-        
-'
-update
-'
     
 ]
     

@@ -109,7 +109,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -316,7 +315,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -515,7 +513,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -728,7 +725,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -965,7 +961,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -1185,7 +1180,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -1422,7 +1416,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -1673,7 +1666,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -1872,7 +1864,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :

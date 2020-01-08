@@ -13,10 +13,6 @@ default_actions
 '
 build
 '
-        
-'
-update
-'
     
 ]
     

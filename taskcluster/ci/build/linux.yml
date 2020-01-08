@@ -82,7 +82,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -384,7 +383,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -559,7 +557,6 @@ build
 check
 -
 test
-update
 ]
 options
 :
@@ -728,7 +725,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -895,7 +891,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -1228,7 +1223,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -1423,7 +1417,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -1596,7 +1589,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -1780,7 +1772,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -1951,7 +1942,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -2131,7 +2121,6 @@ build
 check
 -
 test
-update
 ]
 options
 :
@@ -2314,7 +2303,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -2512,7 +2500,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -2730,7 +2717,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -2945,7 +2931,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -3109,7 +3094,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -3284,7 +3268,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -3486,7 +3469,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -3686,7 +3668,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -3876,7 +3857,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -4053,7 +4033,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -4242,7 +4221,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -4405,7 +4383,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -4596,7 +4573,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -4779,7 +4755,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -4959,7 +4934,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
@@ -5142,7 +5116,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -5317,7 +5290,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -5509,7 +5481,6 @@ build
 check
 -
 test
-update
 ]
 config
 :
@@ -5688,7 +5659,6 @@ build
 check
 -
 test
-update
 ]
 config
 :

@@ -17,10 +17,6 @@ check
 -
 test
 '
-        
-'
-update
-'
     
 ]
     

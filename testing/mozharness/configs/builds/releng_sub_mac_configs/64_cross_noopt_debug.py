@@ -17,10 +17,6 @@ clobber
 '
 build
 '
-        
-'
-update
-'
     
 ]
     

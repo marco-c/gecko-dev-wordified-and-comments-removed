@@ -23,10 +23,6 @@ check
 -
 test
 '
-        
-'
-update
-'
     
 ]
     
