@@ -170,6 +170,14 @@ true
 ]
 [
 "
+formatting
+.
+enabled
+"
+false
+]
+[
+"
 insertMethod
 "
 UrlbarUtils

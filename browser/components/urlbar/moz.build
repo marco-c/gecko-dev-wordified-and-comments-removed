@@ -118,6 +118,11 @@ UrlbarUtils
 jsm
 '
 '
+UrlbarValueFormatter
+.
+jsm
+'
+'
 UrlbarView
 .
 jsm
