@@ -3044,7 +3044,7 @@ Preferences
 GetUint
 (
 kFamilySafetyModePref
-0
+1
 )
 ;
 if
