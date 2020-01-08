@@ -148,6 +148,15 @@ ua
 css
 '
 '
+setting
+-
+onboarding
+-
+tooltip
+.
+js
+'
+'
 store
 .
 js
