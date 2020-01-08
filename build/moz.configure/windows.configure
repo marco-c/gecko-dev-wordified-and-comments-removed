@@ -3519,13 +3519,6 @@ LINKER
 '
 (
 '
-lld
--
-link
-.
-exe
-'
-'
 link
 .
 exe

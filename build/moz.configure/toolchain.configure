@@ -5406,11 +5406,11 @@ WINNT
 return
 (
 '
-clang
--
 cl
 '
 '
+clang
+-
 cl
 '
 )
