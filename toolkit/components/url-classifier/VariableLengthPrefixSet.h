@@ -272,6 +272,9 @@ PrefixStringMap
 mVLPrefixSet
 ;
 nsCString
+mName
+;
+nsCString
 mMemoryReportPath
 ;
 }
