@@ -157,6 +157,14 @@ SystemWantsDarkTheme
 (
 )
 ;
+static
+nscolor
+ProcessSelectionBackground
+(
+nscolor
+aColor
+)
+;
 private
 :
 int32_t

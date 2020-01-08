@@ -464,6 +464,12 @@ LOCAL_INCLUDES
 /
 layout
 /
+base
+'
+'
+/
+layout
+/
 forms
 '
 '
