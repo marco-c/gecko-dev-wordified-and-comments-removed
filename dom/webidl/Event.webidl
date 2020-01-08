@@ -159,7 +159,6 @@ Exposed
 (
 Window
 Worker
-System
 )
 ProbablyShortLivingWrapper
 ]

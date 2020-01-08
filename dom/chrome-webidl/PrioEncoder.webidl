@@ -95,10 +95,7 @@ MPL
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 ]
 namespace
 PrioEncoder

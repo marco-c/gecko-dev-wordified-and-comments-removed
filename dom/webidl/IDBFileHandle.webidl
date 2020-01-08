@@ -75,7 +75,6 @@ Exposed
 =
 (
 Window
-System
 )
 ]
 interface

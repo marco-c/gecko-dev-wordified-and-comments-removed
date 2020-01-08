@@ -107,10 +107,7 @@ events
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 Constructor
 (
 PlacesEventCallback
@@ -138,10 +135,7 @@ places
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 ]
 namespace
 PlacesObservers

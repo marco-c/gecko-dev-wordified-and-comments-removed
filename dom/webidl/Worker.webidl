@@ -169,7 +169,6 @@ Exposed
 Window
 DedicatedWorker
 SharedWorker
-System
 )
 ]
 interface
@@ -290,7 +289,6 @@ Exposed
 Window
 DedicatedWorker
 SharedWorker
-System
 )
 ]
 interface

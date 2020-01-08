@@ -63,10 +63,7 @@ added
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 PlacesEvent
@@ -82,10 +79,7 @@ type
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 PlacesVisit
@@ -371,10 +365,7 @@ events
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 PlacesBookmark
@@ -644,10 +635,7 @@ isTagging
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 Constructor
 (
 PlacesBookmarkAdditionInit

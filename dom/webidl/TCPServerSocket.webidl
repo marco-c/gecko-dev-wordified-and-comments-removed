@@ -159,10 +159,7 @@ ShouldTCPSocketExist
 "
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 TCPServerSocket

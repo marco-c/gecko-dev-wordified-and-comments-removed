@@ -123,10 +123,7 @@ parsed
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 PrecompiledScript
