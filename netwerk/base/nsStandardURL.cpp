@@ -157,6 +157,15 @@ MozURL_ffi
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
 static
 LazyLogModule
 gStandardURLLog
@@ -1950,7 +1959,7 @@ base
 10
 &
 &
-isdigit
+IsAsciiDigit
 (
 c
 )
@@ -1988,7 +1997,7 @@ base
 16
 &
 &
-isxdigit
+IsAsciiHexDigit
 (
 c
 )
@@ -1997,7 +2006,7 @@ c
 ;
 if
 (
-isdigit
+IsAsciiDigit
 (
 c
 )
