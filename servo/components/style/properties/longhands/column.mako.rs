@@ -235,6 +235,11 @@ animation_value_type
 "
 discrete
 "
+gecko_enum_prefix
+=
+"
+StyleColumnFill
+"
 spec
 =
 "

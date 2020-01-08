@@ -1600,7 +1600,10 @@ colStyle
 mColumnFill
 =
 =
-NS_STYLE_COLUMN_FILL_BALANCE
+StyleColumnFill
+:
+:
+Balance
 &
 &
 !
@@ -3038,7 +3041,10 @@ StyleColumn
 mColumnFill
 =
 =
-NS_STYLE_COLUMN_FILL_AUTO
+StyleColumnFill
+:
+:
+Auto
 )
 {
 skipIncremental
