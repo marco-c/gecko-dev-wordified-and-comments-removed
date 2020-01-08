@@ -284,7 +284,7 @@ is
 (
 TrackingProtection
 .
-iconBox
+icon
 .
 getAttribute
 (
@@ -300,7 +300,7 @@ tracking
 content
 "
 '
-iconBox
+icon
 :
 state
 =
@@ -326,13 +326,10 @@ tracking
 protection
 -
 icon
--
-box
 "
 )
 "
 icon
-box
 is
 visible
 "
@@ -554,7 +551,7 @@ is
 (
 TrackingProtection
 .
-iconBox
+icon
 .
 getAttribute
 (
@@ -570,7 +567,7 @@ tracking
 content
 "
 '
-iconBox
+icon
 :
 state
 =
@@ -596,13 +593,10 @@ tracking
 protection
 -
 icon
--
-box
 "
 )
 "
 icon
-box
 is
 visible
 "
