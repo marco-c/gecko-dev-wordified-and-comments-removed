@@ -63,7 +63,7 @@ enum
 class
 RecordedProcessType
 :
-uint32_t
+uint8_t
 {
 Main
 =
@@ -91,12 +91,12 @@ GeckoProcessType_GPU
 )
 AllChildren
 =
-0xFFFFFFFF
+0xFF
 -
 1
 All
 =
-0xFFFFFFFF
+0xFF
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
@@ -108,7 +108,7 @@ enum
 class
 SupportedProduct
 :
-uint32_t
+uint8_t
 {
 Firefox
 =
@@ -136,7 +136,7 @@ Geckoview
 )
 All
 =
-0xFFFFFFFF
+0xFF
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
