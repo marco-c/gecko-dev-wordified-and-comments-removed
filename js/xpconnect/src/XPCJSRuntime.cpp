@@ -931,6 +931,10 @@ forcePermissiveCOWs
 (
 false
 )
+wasShutdown
+(
+false
+)
 mWrappedJSMap
 (
 JSObject2WrappedJSMap
@@ -987,6 +991,12 @@ SystemIsBeingShutDown
 (
 )
 {
+if
+(
+!
+wasShutdown
+)
+{
 mWrappedJSMap
 -
 >
@@ -994,6 +1004,11 @@ ShutdownMarker
 (
 )
 ;
+wasShutdown
+=
+true
+;
+}
 }
 RealmPrivate
 :
