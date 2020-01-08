@@ -286,7 +286,6 @@ return
 this
 ;
 }
-virtual
 ~
 ResponseData
 (
