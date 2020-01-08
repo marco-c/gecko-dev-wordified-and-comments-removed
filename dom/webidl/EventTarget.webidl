@@ -197,6 +197,12 @@ once
 =
 false
 ;
+[
+ChromeOnly
+]
+boolean
+wantUntrusted
+;
 }
 ;
 [

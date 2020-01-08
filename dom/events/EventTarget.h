@@ -657,6 +657,10 @@ bool
 >
 &
 aWantsUntrusted
+const
+AddEventListenerOptionsOrBoolean
+*
+aOptions
 ErrorResult
 &
 aRv
