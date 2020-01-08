@@ -3056,11 +3056,6 @@ Browser
 :
 AddBookmarkAs
 "
-observes
-=
-"
-bookmarkThisPageBroadcaster
-"
 key
 =
 "

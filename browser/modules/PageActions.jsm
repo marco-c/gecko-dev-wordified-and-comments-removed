@@ -3090,15 +3090,6 @@ title
 pinnedToUrlbar
 :
 true
-nodeAttributes
-:
-{
-observes
-:
-"
-bookmarkThisPageBroadcaster
-"
-}
 onShowingInPanel
 (
 buttonNode

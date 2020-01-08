@@ -348,11 +348,6 @@ menuitem
 -
 iconic
 "
-observes
-=
-"
-bookmarkThisPageBroadcaster
-"
 aria
 -
 label

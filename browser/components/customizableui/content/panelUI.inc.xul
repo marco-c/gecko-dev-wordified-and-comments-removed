@@ -5023,11 +5023,6 @@ subviewbutton
 -
 iconic
 "
-observes
-=
-"
-bookmarkThisPageBroadcaster
-"
 command
 =
 "
