@@ -975,6 +975,15 @@ return
 result
 ;
 }
+nsCOMPtr
+<
+dom
+:
+:
+EventTarget
+>
+mClickTarget
+;
 Reason
 mReason
 ;

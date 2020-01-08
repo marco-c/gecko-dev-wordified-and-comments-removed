@@ -7861,6 +7861,16 @@ height
 "
 12
 "
+style
+=
+"
+pointer
+-
+events
+:
+none
+;
+"
 >
 <
 path
