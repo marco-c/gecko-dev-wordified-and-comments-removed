@@ -274,6 +274,11 @@ MessageManager
 webidl
 '
 '
+MozSharedMap
+.
+webidl
+'
+'
 MozStorageAsyncStatementParams
 .
 webidl
