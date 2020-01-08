@@ -126,14 +126,6 @@ mozilla
 .
 geckoview
 .
-GeckoSessionSettings
-import
-org
-.
-mozilla
-.
-geckoview
-.
 test
 .
 rule
@@ -698,7 +690,7 @@ this
 .
 settings
 .
-isUseMultiprocess
+getUseMultiprocess
 (
 )
 fun
