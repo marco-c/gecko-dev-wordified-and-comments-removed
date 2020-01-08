@@ -865,11 +865,6 @@ ERROR
 :
 %
 s
-(
-0x
-%
-04x
-)
 %
 s
 \
@@ -882,7 +877,10 @@ GLErrorToString
 (
 error
 )
-error
+.
+c_str
+(
+)
 str
 )
 ;

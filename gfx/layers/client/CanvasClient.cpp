@@ -1958,12 +1958,17 @@ asyncRenderer
 mGLContext
 ;
 }
+if
+(
+!
 gl
 -
 >
 MakeCurrent
 (
 )
+)
+return
 ;
 RefPtr
 <
