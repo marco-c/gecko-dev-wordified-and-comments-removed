@@ -131,9 +131,7 @@ cPicker
 =
 layoutView
 .
-getSwatchColorPickerTooltip
-(
-)
+swatchColorPickerTooltip
 ;
 const
 swatch

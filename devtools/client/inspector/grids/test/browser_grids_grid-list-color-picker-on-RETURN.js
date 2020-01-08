@@ -130,9 +130,7 @@ cPicker
 =
 layoutView
 .
-getSwatchColorPickerTooltip
-(
-)
+swatchColorPickerTooltip
 ;
 const
 spectrum
