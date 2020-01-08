@@ -22,6 +22,9 @@ includes
 (
 '
 dummy
+.
+html
+?
 '
 )
 )
