@@ -114,7 +114,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -1353,7 +1353,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_METERBAR
+StyleAppearance
+:
+:
+Meterbar
 &
 &
 !
@@ -1385,7 +1388,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_METERCHUNK
+StyleAppearance
+:
+:
+Meterchunk
 &
 &
 !

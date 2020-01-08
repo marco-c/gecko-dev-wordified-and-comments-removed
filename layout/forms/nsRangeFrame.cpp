@@ -148,7 +148,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -2714,7 +2714,10 @@ GetMinimumWidgetSize
 (
 presContext
 this
-NS_THEME_RANGE_THUMB
+StyleAppearance
+:
+:
+RangeThumb
 &
 size
 &
@@ -4330,7 +4333,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_RANGE
+StyleAppearance
+:
+:
+Range
 )
 &
 &

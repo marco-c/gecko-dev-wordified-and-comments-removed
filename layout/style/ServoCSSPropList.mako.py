@@ -355,6 +355,10 @@ SERIALIZED_PREDEFINED_TYPES
 [
     
 "
+Appearance
+"
+    
+"
 Clear
 "
     

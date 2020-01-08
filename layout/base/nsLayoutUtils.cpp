@@ -393,7 +393,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -36053,7 +36053,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_WIN_GLASS
+StyleAppearance
+:
+:
+MozWinGlass
 )
 return
 eTransparencyGlass
@@ -36071,7 +36074,10 @@ StyleDisplay
 mAppearance
 =
 =
-NS_THEME_WIN_BORDERLESS_GLASS
+StyleAppearance
+:
+:
+MozWinBorderlessGlass
 )
 return
 eTransparencyBorderlessGlass

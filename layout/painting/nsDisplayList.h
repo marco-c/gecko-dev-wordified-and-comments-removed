@@ -14718,7 +14718,10 @@ nsITheme
 Transparency
 mThemeTransparency
 ;
-uint8_t
+mozilla
+:
+:
+StyleAppearance
 mAppearance
 ;
 }

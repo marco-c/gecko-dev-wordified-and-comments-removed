@@ -227,7 +227,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -5121,7 +5121,10 @@ styles
 mAppearance
 =
 =
-NS_THEME_WIN_EXCLUDE_GLASS
+StyleAppearance
+:
+:
+MozWinExcludeGlass
 )
 {
 aBuilder

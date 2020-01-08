@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -86,7 +86,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 const
 nsRect
@@ -142,7 +142,7 @@ aManager
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 const
 nsRect
@@ -161,7 +161,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -175,7 +175,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -193,7 +193,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 nsRect
 *
@@ -210,7 +210,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 mozilla
 :
@@ -230,7 +230,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 nsAtom
 *
@@ -263,7 +263,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -274,7 +274,7 @@ bool
 )
 WidgetIsContainer
 (
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -285,7 +285,7 @@ bool
 )
 ThemeDrawsFocusForWidget
 (
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -304,7 +304,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -342,7 +342,7 @@ aFrame
 bool
 GetGtkWidgetAndState
 (
-uint8_t
+WidgetType
 aWidgetType
 nsIFrame
 *
@@ -364,7 +364,7 @@ GetExtraSizeForWidget
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 nsIntMargin
 *
@@ -382,7 +382,7 @@ aFrame
 WidgetNodeType
 NativeThemeToGtkTheme
 (
-uint8_t
+WidgetType
 aWidgetType
 nsIFrame
 *
@@ -393,7 +393,19 @@ uint8_t
 mDisabledWidgetTypes
 [
 (
-ThemeWidgetType_COUNT
+static_cast
+<
+size_t
+>
+(
+mozilla
+:
+:
+StyleAppearance
+:
+:
+Count
+)
 +
 7
 )
@@ -404,7 +416,19 @@ ThemeWidgetType_COUNT
 uint8_t
 mSafeWidgetStates
 [
-ThemeWidgetType_COUNT
+static_cast
+<
+size_t
+>
+(
+mozilla
+:
+:
+StyleAppearance
+:
+:
+Count
+)
 *
 4
 ]
@@ -423,7 +447,7 @@ GetCachedWidgetBorder
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 GtkTextDirection
 aDirection

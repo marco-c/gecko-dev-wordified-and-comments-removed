@@ -663,7 +663,9 @@ if
 disp
 -
 >
-mAppearance
+HasAppearance
+(
+)
 &
 &
 gTheme
@@ -775,7 +777,9 @@ if
 disp
 -
 >
-mAppearance
+HasAppearance
+(
+)
 &
 &
 gTheme
@@ -2204,7 +2208,9 @@ if
 display
 -
 >
-mAppearance
+HasAppearance
+(
+)
 )
 {
 nsITheme

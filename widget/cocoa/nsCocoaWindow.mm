@@ -20108,7 +20108,10 @@ for
 the
 widget
 type
-NS_THEME_TOOLBAR
+StyleAppearance
+:
+:
+Toolbar
 .
 /
 /

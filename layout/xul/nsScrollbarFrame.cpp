@@ -59,7 +59,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -731,7 +731,10 @@ ThemeSupportsWidget
 (
 presContext
 this
-NS_THEME_SCROLLBAR
+StyleAppearance
+:
+:
+Scrollbar
 )
 )
 {
@@ -748,7 +751,10 @@ GetMinimumWidgetSize
 (
 presContext
 this
-NS_THEME_SCROLLBAR
+StyleAppearance
+:
+:
+Scrollbar
 &
 size
 &

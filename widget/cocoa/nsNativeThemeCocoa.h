@@ -1760,7 +1760,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 const
 nsRect
@@ -1816,7 +1816,7 @@ aManager
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 const
 nsRect
@@ -1835,7 +1835,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -1849,7 +1849,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -1867,7 +1867,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 nsRect
 *
@@ -1884,7 +1884,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 mozilla
 :
@@ -1904,7 +1904,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 nsAtom
 *
@@ -1934,7 +1934,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -1942,7 +1942,7 @@ override
 bool
 WidgetIsContainer
 (
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -1950,7 +1950,7 @@ override
 bool
 ThemeDrawsFocusForWidget
 (
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -1965,7 +1965,7 @@ virtual
 bool
 WidgetAppearanceDependsOnWindowFocus
 (
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -1977,7 +1977,7 @@ NeedToClearBackgroundBehindWidget
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -1989,7 +1989,7 @@ ThemeGeometryTypeForWidget
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -2001,7 +2001,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 override
@@ -2018,7 +2018,7 @@ ComputeWidgetInfo
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 const
 nsRect

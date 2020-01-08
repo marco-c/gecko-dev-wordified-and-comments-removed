@@ -710,7 +710,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -15192,6 +15192,7 @@ NS_FORM_INPUT_RADIO
 )
 &
 &
+!
 aStyle
 .
 StyleDisplay
@@ -15199,10 +15200,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
-=
-=
-NS_THEME_NONE
+HasAppearance
+(
+)
 )
 {
 return

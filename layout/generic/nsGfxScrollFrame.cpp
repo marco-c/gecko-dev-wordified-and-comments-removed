@@ -357,7 +357,7 @@ h
 #
 include
 "
-nsThemeConstants
+nsStyleConsts
 .
 h
 "
@@ -5769,7 +5769,10 @@ verticalWM
 mHScrollbarBox
 :
 mVScrollbarBox
-NS_THEME_SCROLLBAR_NON_DISAPPEARING
+StyleAppearance
+:
+:
+ScrollbarNonDisappearing
 )
 )
 {
@@ -5797,7 +5800,10 @@ verticalWM
 mHScrollbarBox
 :
 mVScrollbarBox
-NS_THEME_SCROLLBAR_NON_DISAPPEARING
+StyleAppearance
+:
+:
+ScrollbarNonDisappearing
 &
 size
 &

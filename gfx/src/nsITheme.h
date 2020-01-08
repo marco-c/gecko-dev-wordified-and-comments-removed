@@ -62,6 +62,12 @@ mozilla
 class
 ComputedStyle
 ;
+enum
+class
+StyleAppearance
+:
+uint8_t
+;
 namespace
 layers
 {
@@ -139,6 +145,14 @@ mozilla
 :
 LayoutDeviceIntMargin
 ;
+using
+WidgetType
+=
+mozilla
+:
+:
+StyleAppearance
+;
 public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
@@ -154,7 +168,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 const
 nsRect
@@ -178,7 +192,7 @@ mozilla
 ComputedStyle
 *
 aStyle
-uint8_t
+WidgetType
 aWidgetType
 )
 {
@@ -235,7 +249,7 @@ aManager
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 const
 nsRect
@@ -258,7 +272,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 =
@@ -274,7 +288,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -293,7 +307,7 @@ aContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 nsRect
 *
@@ -313,7 +327,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 mozilla
 :
@@ -345,7 +359,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 {
@@ -359,7 +373,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 nsAtom
 *
@@ -386,7 +400,7 @@ virtual
 bool
 WidgetAppearanceDependsOnWindowFocus
 (
-uint8_t
+WidgetType
 aWidgetType
 )
 {
@@ -401,7 +415,7 @@ NeedToClearBackgroundBehindWidget
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 {
@@ -427,7 +441,7 @@ ThemeGeometryTypeForWidget
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 {
@@ -445,7 +459,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-uint8_t
+WidgetType
 aWidgetType
 )
 =
@@ -455,7 +469,7 @@ virtual
 bool
 WidgetIsContainer
 (
-uint8_t
+WidgetType
 aWidgetType
 )
 =
@@ -465,7 +479,7 @@ virtual
 bool
 ThemeDrawsFocusForWidget
 (
-uint8_t
+WidgetType
 aWidgetType
 )
 =

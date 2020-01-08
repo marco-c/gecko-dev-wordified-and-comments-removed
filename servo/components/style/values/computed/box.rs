@@ -81,6 +81,7 @@ box_
 :
 {
 AnimationName
+Appearance
 Contain
 Display
 OverflowClipBox
