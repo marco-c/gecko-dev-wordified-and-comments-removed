@@ -200,6 +200,11 @@ PerformanceMetricsCollector
 h
 '
 '
+PerformanceTypes
+.
+h
+'
+'
 PerformanceUtils
 .
 h
@@ -224,6 +229,12 @@ LOCAL_INCLUDES
 dom
 /
 base
+'
+'
+/
+dom
+/
+media
 '
 ]
 FINAL_LIBRARY

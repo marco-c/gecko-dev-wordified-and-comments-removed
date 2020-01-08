@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+PerformanceTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DOMTypes
@@ -116,7 +125,10 @@ nsAString
 aMessage
 )
 ;
-PerformanceInfo
+RefPtr
+<
+PerformanceInfoPromise
+>
 ReportPerformanceInfo
 (
 )
