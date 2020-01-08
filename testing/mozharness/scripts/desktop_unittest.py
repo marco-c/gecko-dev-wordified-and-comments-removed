@@ -6456,6 +6456,7 @@ options
 )
                     
 if
+(
 self
 .
 verify_enabled
@@ -6463,6 +6464,19 @@ or
 self
 .
 per_test_coverage
+or
+                        
+os
+.
+environ
+.
+get
+(
+'
+MOZHARNESS_TEST_PATHS
+'
+)
+)
 :
                         
 tests_list
