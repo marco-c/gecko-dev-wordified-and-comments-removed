@@ -1107,6 +1107,15 @@ eventType
 endif
 if
 (
+!
+origTargetNode
+)
+{
+return
+;
+}
+if
+(
 eventType
 .
 EqualsLiteral
