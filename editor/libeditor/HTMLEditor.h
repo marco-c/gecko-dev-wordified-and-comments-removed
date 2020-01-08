@@ -583,6 +583,7 @@ Element
 aTarget
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OnMouseMove
 (
@@ -5336,12 +5337,6 @@ RefPtr
 Element
 >
 mResizedObject
-;
-nsCOMPtr
-<
-nsIDOMEventListener
->
-mMouseMotionListenerP
 ;
 int32_t
 mOriginalX
