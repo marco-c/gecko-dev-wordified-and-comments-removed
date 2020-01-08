@@ -247,7 +247,7 @@ MOZ_TSAN
 #
 define
 PREF_VALUE
-10
+5
 #
 else
 #

@@ -3036,6 +3036,15 @@ ProcessPriority
 aPriority
 )
 ;
+void
+GeneratePairedMinidump
+(
+const
+char
+*
+aReason
+)
+;
 virtual
 ~
 ContentParent
@@ -5534,9 +5543,6 @@ mGeolocationWatchID
 int32_t
 mJSPluginID
 ;
-nsCString
-mKillHardAnnotation
-;
 nsCOMPtr
 <
 nsITimer
@@ -5551,6 +5557,9 @@ mIsAvailable
 ;
 bool
 mIsAlive
+;
+bool
+mShuttingDown
 ;
 bool
 mIsForBrowser
