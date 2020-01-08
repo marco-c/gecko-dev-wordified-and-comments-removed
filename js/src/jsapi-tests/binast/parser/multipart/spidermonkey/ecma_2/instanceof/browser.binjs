@@ -4,7 +4,8 @@ GRAMMAR
 ]
 identity
 ;
-Script
+D
+Script2AssertedScriptGlobalScope
 [
 STRINGS
 ]
