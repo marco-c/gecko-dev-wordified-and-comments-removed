@@ -4085,6 +4085,14 @@ GetAddrInfo
 )
 ;
 }
+if
+(
+mActiveTaskCount
+=
+=
+0
+)
+{
 mResolverThreads
 -
 >
@@ -4092,6 +4100,7 @@ Shutdown
 (
 )
 ;
+}
 }
 nsresult
 nsHostResolver
