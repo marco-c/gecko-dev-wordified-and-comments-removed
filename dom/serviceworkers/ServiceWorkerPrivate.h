@@ -284,6 +284,10 @@ const
 nsAString
 &
 aClientId
+const
+nsAString
+&
+aResultingClientId
 bool
 aIsReload
 )

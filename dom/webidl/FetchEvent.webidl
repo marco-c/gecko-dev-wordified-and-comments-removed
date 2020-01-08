@@ -160,6 +160,11 @@ clientId
 ;
 readonly
 attribute
+DOMString
+resultingClientId
+;
+readonly
+attribute
 boolean
 isReload
 ;
@@ -189,6 +194,12 @@ request
 ;
 DOMString
 clientId
+=
+"
+"
+;
+DOMString
+resultingClientId
 =
 "
 "
