@@ -7452,6 +7452,9 @@ locals
 Decoder
 &
 decoder
+ExclusiveDeferredValidationState
+&
+dvs
 TempAllocator
 *
 alloc
@@ -52264,6 +52267,9 @@ locals
 Decoder
 &
 decoder
+ExclusiveDeferredValidationState
+&
+dvs
 TempAllocator
 *
 alloc
@@ -52280,6 +52286,7 @@ iter_
 (
 env
 decoder
+dvs
 )
 func_
 (
@@ -52892,6 +52899,9 @@ inputs
 CompiledCode
 *
 code
+ExclusiveDeferredValidationState
+&
+dvs
 UniqueChars
 *
 error
@@ -53060,6 +53070,7 @@ env
 func
 locals
 d
+dvs
 &
 alloc
 &

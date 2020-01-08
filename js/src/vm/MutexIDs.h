@@ -250,6 +250,12 @@ WasmCodeSegmentMap
 \
 _
 (
+WasmDeferredValidation
+600
+)
+\
+_
+(
 TraceLoggerGraphState
 600
 )

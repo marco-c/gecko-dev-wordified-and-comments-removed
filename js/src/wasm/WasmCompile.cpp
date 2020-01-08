@@ -2273,6 +2273,11 @@ DecodeModuleTail
 d
 &
 env
+mg
+.
+deferredValidationState
+(
+)
 )
 )
 return
@@ -2464,6 +2469,11 @@ DecodeModuleTail
 d
 &
 env
+mg
+.
+deferredValidationState
+(
+)
 )
 )
 return
@@ -3212,6 +3222,11 @@ d
 env
 .
 ptr
+(
+)
+mg
+.
+deferredValidationState
 (
 )
 )
