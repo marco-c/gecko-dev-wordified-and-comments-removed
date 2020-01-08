@@ -286,7 +286,7 @@ SVGRootRenderingObserver
 final
 :
 public
-nsSVGRenderingObserver
+SVGRenderingObserver
 {
 public
 :
@@ -301,7 +301,7 @@ VectorImage
 aVectorImage
 )
 :
-nsSVGRenderingObserver
+SVGRenderingObserver
 (
 )
 mDocWrapper
