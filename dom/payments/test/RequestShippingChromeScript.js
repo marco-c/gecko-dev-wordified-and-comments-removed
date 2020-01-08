@@ -566,12 +566,6 @@ function
 {
 paymentSrv
 .
-cleanup
-(
-)
-;
-paymentSrv
-.
 setTestingUIService
 (
 null

@@ -3710,12 +3710,6 @@ function
 (
 )
 {
-paymentSrv
-.
-cleanup
-(
-)
-;
 sendAsyncMessage
 (
 "

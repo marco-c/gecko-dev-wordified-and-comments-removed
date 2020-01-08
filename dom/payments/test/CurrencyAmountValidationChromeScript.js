@@ -408,12 +408,6 @@ function
 (
 )
 {
-paymentSrv
-.
-cleanup
-(
-)
-;
 sendAsyncMessage
 (
 "

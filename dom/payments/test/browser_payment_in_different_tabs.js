@@ -14,11 +14,6 @@ simple_payment_request
 html
 "
 ;
-registerCleanupFunction
-(
-cleanup
-)
-;
 add_task
 (
 async
