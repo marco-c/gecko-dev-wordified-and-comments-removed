@@ -476,6 +476,15 @@ short
 name
 }
 Support
+addons
+-
+button
+-
+label
+=
+Extensions
+&
+Themes
 focus
 -
 search
