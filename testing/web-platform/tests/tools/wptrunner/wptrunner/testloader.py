@@ -2877,6 +2877,11 @@ meta_filters
 self
 .
 meta_filters
+types
+=
+self
+.
+types
 )
 def
 iterfilter
