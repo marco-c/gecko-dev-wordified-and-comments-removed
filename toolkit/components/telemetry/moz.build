@@ -672,6 +672,13 @@ jsm
 '
 pings
 /
+UntrustedModulesPing
+.
+jsm
+'
+'
+pings
+/
 UpdatePing
 .
 jsm
