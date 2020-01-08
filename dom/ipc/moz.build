@@ -127,7 +127,7 @@ EXTRA_JS_MODULES
 =
 [
 '
-ManifestMessages
+ManifestMessagesChild
 .
 jsm
 '
