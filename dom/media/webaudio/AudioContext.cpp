@@ -929,6 +929,13 @@ failed
 )
 ;
 }
+FFTBlock
+:
+:
+MainThreadInit
+(
+)
+;
 }
 nsresult
 AudioContext
