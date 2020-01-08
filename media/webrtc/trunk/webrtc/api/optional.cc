@@ -16,10 +16,12 @@ optional_internal
 #
 if
 RTC_HAS_ASAN
+const
 void
 *
 FunctionThatDoesNothingImpl
 (
+const
 void
 *
 x
