@@ -40,7 +40,7 @@ New_HyperText
 roles
 :
 :
-NOTE
+LANDMARK
 )
 MARKUPMAP
 (
@@ -247,6 +247,15 @@ MARKUPMAP
 li
 New_HTMLListitem
 0
+)
+MARKUPMAP
+(
+main
+New_HyperText
+roles
+:
+:
+LANDMARK
 )
 MARKUPMAP
 (
@@ -730,7 +739,7 @@ New_HyperText
 roles
 :
 :
-SECTION
+LANDMARK
 )
 MARKUPMAP
 (
