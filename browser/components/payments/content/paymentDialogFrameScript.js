@@ -460,6 +460,14 @@ waivedContent
 )
 ;
 }
+isOfficialBranding
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 waivedContent

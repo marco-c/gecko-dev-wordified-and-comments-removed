@@ -999,14 +999,6 @@ acceptedCardsLabel
 ;
 this
 .
-acceptedCardsList
-.
-hidden
-=
-editing
-;
-this
-.
 backButton
 .
 hidden
