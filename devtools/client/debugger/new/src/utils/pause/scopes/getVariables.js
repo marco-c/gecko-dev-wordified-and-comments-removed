@@ -49,6 +49,17 @@ bindings
 parentName
 )
 {
+if
+(
+!
+bindings
+)
+{
+return
+[
+]
+;
+}
 const
 args
 =

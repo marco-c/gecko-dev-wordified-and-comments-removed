@@ -1104,6 +1104,11 @@ this
 ;
 if
 (
+result
+.
+bindings
+&
+&
 thisScope
 )
 {

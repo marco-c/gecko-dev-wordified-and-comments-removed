@@ -541,6 +541,11 @@ prefs
 _prefs
 .
 prefs
+asyncStore
+:
+_prefs
+.
+asyncStore
 features
 :
 _prefs
