@@ -110,11 +110,9 @@ ModuleLoadRequest
 nsIURI
 *
 aURI
-nsIScriptElement
+ScriptFetchOptions
 *
-aElement
-CORSMode
-aCORSMode
+aFetchOptions
 const
 SRIMetadata
 &
@@ -122,13 +120,6 @@ aIntegrity
 nsIURI
 *
 aReferrer
-mozilla
-:
-:
-net
-:
-:
-ReferrerPolicy
 ScriptLoader
 *
 aLoader

@@ -806,6 +806,9 @@ aURI
 nsIScriptElement
 *
 aElement
+nsIPrincipal
+*
+aTriggeringPrincipal
 mozilla
 :
 :

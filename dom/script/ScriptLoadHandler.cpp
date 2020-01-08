@@ -1009,7 +1009,9 @@ IsPreload
 mRequest
 -
 >
-mElement
+Element
+(
+)
 -
 >
 GetScriptCharset
@@ -1445,7 +1447,9 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-mElement
+Element
+(
+)
 "
 scriptloader_load_source
 "
@@ -1486,7 +1490,9 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-mElement
+Element
+(
+)
 "
 scriptloader_load_source
 "
@@ -1551,7 +1557,9 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-mElement
+Element
+(
+)
 "
 scriptloader_load_bytecode
 "
@@ -1581,7 +1589,9 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-mElement
+Element
+(
+)
 "
 scriptloader_load_source
 "
@@ -1603,7 +1613,9 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-mElement
+Element
+(
+)
 "
 scriptloader_load_source
 "
