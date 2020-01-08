@@ -19,7 +19,7 @@ namespace
 mozilla
 {
 class
-WorkletImpl
+PaintWorkletImpl
 ;
 namespace
 dom
@@ -39,7 +39,7 @@ public
 explicit
 PaintWorkletGlobalScope
 (
-WorkletImpl
+PaintWorkletImpl
 *
 aImpl
 )
@@ -74,6 +74,14 @@ VoidFunction
 aProcessorCtor
 )
 ;
+WorkletImpl
+*
+Impl
+(
+)
+const
+override
+;
 private
 :
 ~
@@ -82,6 +90,13 @@ PaintWorkletGlobalScope
 )
 =
 default
+;
+const
+RefPtr
+<
+PaintWorkletImpl
+>
+mImpl
 ;
 }
 ;

@@ -37,7 +37,7 @@ namespace
 mozilla
 {
 class
-WorkletImpl
+AudioWorkletImpl
 ;
 namespace
 dom
@@ -61,7 +61,7 @@ WorkletGlobalScope
 explicit
 AudioWorkletGlobalScope
 (
-WorkletImpl
+AudioWorkletImpl
 *
 aImpl
 )
@@ -102,6 +102,14 @@ ErrorResult
 aRv
 )
 ;
+WorkletImpl
+*
+Impl
+(
+)
+const
+override
+;
 uint64_t
 CurrentFrame
 (
@@ -128,6 +136,13 @@ AudioWorkletGlobalScope
 )
 =
 default
+;
+const
+RefPtr
+<
+AudioWorkletImpl
+>
+mImpl
 ;
 uint64_t
 mCurrentFrame
