@@ -3485,6 +3485,8 @@ i
 ]
 .
 mVolume
+*
+mGlobalVolume
 ;
 }
 StreamTime
@@ -18234,6 +18236,15 @@ CubebUtils
 MaxNumberOfChannels
 (
 )
+)
+)
+mGlobalVolume
+(
+CubebUtils
+:
+:
+GetVolumeScale
+(
 )
 )
 #
