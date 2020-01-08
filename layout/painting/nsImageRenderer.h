@@ -408,6 +408,8 @@ aFlags
 nsImageRenderer
 (
 )
+=
+default
 ;
 bool
 PrepareImage

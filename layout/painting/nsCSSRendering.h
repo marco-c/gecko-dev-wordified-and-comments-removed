@@ -470,6 +470,7 @@ GetShadowRect
 (
 const
 nsRect
+&
 aFrameArea
 bool
 aNativeTheme

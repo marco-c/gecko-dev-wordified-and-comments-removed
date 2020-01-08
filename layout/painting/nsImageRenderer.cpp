@@ -337,15 +337,6 @@ NS_STYLE_MASK_MODE_MATCH_SOURCE
 )
 {
 }
-nsImageRenderer
-:
-:
-~
-nsImageRenderer
-(
-)
-{
-}
 static
 bool
 ShouldTreatAsCompleteDueToSyncDecode

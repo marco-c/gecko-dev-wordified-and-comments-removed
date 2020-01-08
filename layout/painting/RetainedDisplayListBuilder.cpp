@@ -1667,7 +1667,6 @@ return
 true
 ;
 }
-else
 if
 (
 type
@@ -1683,7 +1682,6 @@ return
 true
 ;
 }
-else
 if
 (
 type
@@ -1699,7 +1697,6 @@ return
 true
 ;
 }
-else
 if
 (
 type
@@ -1715,7 +1712,6 @@ return
 true
 ;
 }
-else
 if
 (
 type
@@ -2601,8 +2597,6 @@ return
 result
 ;
 }
-else
-{
 ProcessOldNode
 (
 item
@@ -2617,7 +2611,6 @@ result
 )
 )
 ;
-}
 }
 else
 {

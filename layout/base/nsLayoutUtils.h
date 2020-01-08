@@ -1950,7 +1950,7 @@ aMatrixCache
 =
 nullptr
 bool
-aStopAtStackingContextAndDisplayPort
+aStopAtStackingContextAndDisplayPortAndOOFFrame
 =
 false
 nsIFrame
