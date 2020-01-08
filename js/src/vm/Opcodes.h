@@ -317,8 +317,6 @@ bitor
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -337,8 +335,6 @@ bitxor
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -356,8 +352,6 @@ bitand
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 )
@@ -378,8 +372,6 @@ eq
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 |
@@ -402,8 +394,6 @@ ne
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 |
 JOF_DETECTING
@@ -424,8 +414,6 @@ lt
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -445,8 +433,6 @@ le
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -464,8 +450,6 @@ gt
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 )
@@ -485,8 +469,6 @@ ge
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 )
@@ -508,8 +490,6 @@ lsh
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -528,8 +508,6 @@ rsh
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 )
@@ -552,8 +530,6 @@ ursh
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -572,8 +548,6 @@ add
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 )
@@ -594,8 +568,6 @@ sub
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -613,8 +585,6 @@ mul
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 )
@@ -634,8 +604,6 @@ div
 1
 JOF_BYTE
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -653,8 +621,6 @@ mod
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 )
@@ -1120,8 +1086,6 @@ JOF_BYTE
 JOF_ELEM
 |
 JOF_TYPESET
-|
-JOF_LEFTASSOC
 )
 \
 \
@@ -1345,8 +1309,6 @@ NULL
 JOF_JUMP
 |
 JOF_DETECTING
-|
-JOF_LEFTASSOC
 )
 \
 \
@@ -1364,8 +1326,6 @@ NULL
 JOF_JUMP
 |
 JOF_DETECTING
-|
-JOF_LEFTASSOC
 )
 \
 \
@@ -1425,8 +1385,6 @@ JOF_BYTE
 |
 JOF_DETECTING
 |
-JOF_LEFTASSOC
-|
 JOF_ARITH
 )
 \
@@ -1448,8 +1406,6 @@ strictne
 JOF_BYTE
 |
 JOF_DETECTING
-|
-JOF_LEFTASSOC
 |
 JOF_ARITH
 )
@@ -2182,8 +2138,6 @@ js_in_str
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 )
 \
 \
@@ -2197,8 +2151,6 @@ js_instanceof_str
 2
 1
 JOF_BYTE
-|
-JOF_LEFTASSOC
 )
 \
 \
@@ -2396,8 +2348,6 @@ JOF_BYTE
 JOF_ELEM
 |
 JOF_TYPESET
-|
-JOF_LEFTASSOC
 )
 \
 macro
@@ -3606,8 +3556,6 @@ JOF_BYTE
 JOF_ELEM
 |
 JOF_TYPESET
-|
-JOF_LEFTASSOC
 )
 \
 \
