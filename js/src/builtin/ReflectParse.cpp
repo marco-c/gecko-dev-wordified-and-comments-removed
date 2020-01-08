@@ -3081,11 +3081,9 @@ endColumnIndex
 parser
 -
 >
-anyChars
+tokenStream
 .
-srcCoords
-.
-lineNumAndColumnIndex
+computeLineAndColumn
 (
 pos
 -
@@ -3100,11 +3098,9 @@ startColumnIndex
 parser
 -
 >
-anyChars
+tokenStream
 .
-srcCoords
-.
-lineNumAndColumnIndex
+computeLineAndColumn
 (
 pos
 -

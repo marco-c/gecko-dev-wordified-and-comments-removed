@@ -3044,11 +3044,9 @@ uint32_t
 line
 column
 ;
-anyChars
+tokenStream
 .
-srcCoords
-.
-lineNumAndColumnIndex
+computeLineAndColumn
 (
 openedPos
 &
@@ -3258,11 +3256,9 @@ uint32_t
 line
 column
 ;
-anyChars
+tokenStream
 .
-srcCoords
-.
-lineNumAndColumnIndex
+computeLineAndColumn
 (
 prevPos
 &
