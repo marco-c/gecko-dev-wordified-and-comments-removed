@@ -304,7 +304,7 @@ browser
 /
 browser
 /
-extensions
+components
 /
 pocket
 /

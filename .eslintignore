@@ -621,7 +621,7 @@ in
 pocket
 browser
 /
-extensions
+components
 /
 pocket
 /
@@ -636,7 +636,7 @@ tmpl
 js
 browser
 /
-extensions
+components
 /
 pocket
 /
