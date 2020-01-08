@@ -228,9 +228,6 @@ f
 testWstring
 :
 f
-testDOMString
-:
-f
 testAString
 :
 f

@@ -334,17 +334,6 @@ wstring
 b
 )
 ;
-DOMString
-testDOMString
-(
-in
-DOMString
-a
-inout
-DOMString
-b
-)
-;
 AString
 testAString
 (
