@@ -455,6 +455,9 @@ mVideoSinkEndRequest
 TimeUnit
 mVideoFrameEndTime
 ;
+uint32_t
+mOldDroppedCount
+;
 MediaEventListener
 mPushListener
 ;

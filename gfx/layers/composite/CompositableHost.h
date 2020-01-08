@@ -1053,6 +1053,16 @@ BindTextureSource
 )
 {
 }
+virtual
+uint32_t
+GetDroppedFrames
+(
+)
+{
+return
+0
+;
+}
 protected
 :
 HostLayerManager
