@@ -480,6 +480,7 @@ platforms
 TESTS
 =
 "
+abstract
 accept
 acceptread
 acceptreademu

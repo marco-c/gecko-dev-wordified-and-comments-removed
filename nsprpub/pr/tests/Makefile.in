@@ -99,6 +99,10 @@ dll
 CSRCS
 =
 \
+abstract
+.
+c
+\
 accept
 .
 c
