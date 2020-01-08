@@ -2840,6 +2840,10 @@ aState
 nsIChannel
 *
 aChannel
+bool
+aBlocked
+=
+true
 nsIURI
 *
 aURIHint
