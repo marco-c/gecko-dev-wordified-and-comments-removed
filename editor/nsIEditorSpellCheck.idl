@@ -294,7 +294,7 @@ GetSuggestedWord
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 GetNextMisspelledWord
@@ -380,7 +380,7 @@ returned
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 GetSuggestedWord
@@ -446,7 +446,7 @@ GetSuggestedWord
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 CheckCurrentWord
@@ -478,7 +478,7 @@ word
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 CheckCurrentWord
@@ -503,7 +503,7 @@ allOccurrences
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 IgnoreAll
@@ -546,7 +546,7 @@ GetPersonalDictionaryWord
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 GetPersonalDictionary
@@ -620,7 +620,7 @@ dictionary
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 AddWordToDictionary
@@ -650,7 +650,7 @@ dictionary
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 RemoveWordFromPersonalDictionary
@@ -724,7 +724,7 @@ count
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 GetCurrentDictionary
@@ -740,7 +740,7 @@ GetCurrentDictionary
 *
 *
 see
-mozSpellChecker
+nsISpellChecker
 :
 :
 SetCurrentDictionary

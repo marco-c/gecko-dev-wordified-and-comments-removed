@@ -12635,9 +12635,9 @@ haveBidiKeyboards
 )
 ;
 }
-RefPtr
+nsCOMPtr
 <
-mozSpellChecker
+nsISpellChecker
 >
 spellChecker
 (
@@ -22994,9 +22994,9 @@ NotifyUpdatedDictionaries
 (
 )
 {
-RefPtr
+nsCOMPtr
 <
-mozSpellChecker
+nsISpellChecker
 >
 spellChecker
 (
