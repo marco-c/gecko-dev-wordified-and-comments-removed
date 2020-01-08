@@ -11,7 +11,7 @@ tab
 -
 width
 :
-4
+2
 ;
 indent
 -
@@ -32,6 +32,8 @@ offset
 *
 -
 *
+/
+/
 *
 This
 Source
@@ -99,15 +101,6 @@ idl
 interface
 nsISHEntry
 ;
-/
-*
-*
-*
-The
-nsISHTransaction
-.
-*
-/
 [
 scriptable
 uuid
@@ -138,6 +131,7 @@ for
 the
 current
 transaction
+.
 *
 /
 attribute
@@ -153,6 +147,7 @@ parent
 of
 this
 transaction
+.
 *
 /
 attribute
@@ -169,6 +164,7 @@ child
 of
 this
 transaction
+.
 *
 /
 attribute
@@ -218,6 +214,7 @@ parent
 and
 History
 Entry
+.
 *
 /
 void
