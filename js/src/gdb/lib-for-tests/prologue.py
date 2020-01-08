@@ -28,6 +28,12 @@ fragment
 function
 =
 '
+gdb
+-
+tests
+.
+cpp
+:
 breakpoint
 '
 )
