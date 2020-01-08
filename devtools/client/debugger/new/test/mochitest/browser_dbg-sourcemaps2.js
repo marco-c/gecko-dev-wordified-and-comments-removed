@@ -85,7 +85,7 @@ selectors
 :
 {
 getBreakpoint
-getBreakpointCount
+getBreakpoints
 }
 getState
 }
@@ -150,12 +150,14 @@ mainSrc
 ;
 is
 (
-getBreakpointCount
+getBreakpoints
 (
 getState
 (
 )
 )
+.
+size
 1
 "
 One

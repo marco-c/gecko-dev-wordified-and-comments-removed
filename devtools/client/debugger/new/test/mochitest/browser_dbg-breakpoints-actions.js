@@ -87,11 +87,12 @@ dbg
 .
 selectors
 .
-getBreakpointCount
+getBreakpoints
 (
 state
 )
-=
+.
+size
 =
 =
 0

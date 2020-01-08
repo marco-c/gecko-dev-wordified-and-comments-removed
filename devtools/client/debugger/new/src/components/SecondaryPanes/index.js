@@ -44,7 +44,7 @@ actions
 import
 {
 getTopFrame
-getBreakpointsList
+getBreakpoints
 getBreakpointsDisabled
 getBreakpointsLoading
 getExpressions
@@ -550,8 +550,7 @@ skipPausing
 |
 breakpoints
 .
-length
-=
+size
 =
 =
 0
@@ -2003,7 +2002,7 @@ state
 )
 breakpoints
 :
-getBreakpointsList
+getBreakpoints
 (
 state
 )
