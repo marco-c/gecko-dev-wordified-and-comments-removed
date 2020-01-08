@@ -6902,6 +6902,8 @@ match
 .
 enum
 GeckoAVAuthorizationStatus
+:
+NSInteger
 {
 GeckoAVAuthorizationStatusNotDetermined
 =
@@ -7204,12 +7206,18 @@ NS_ERROR_NOT_IMPLEMENTED
 GeckoAVAuthorizationStatus
 authStatus
 =
+static_cast
+<
+GeckoAVAuthorizationStatus
+>
+(
 [
 AVCaptureDevice
 authorizationStatusForMediaType
 :
 aMediaType
 ]
+)
 ;
 LogAuthorizationStatus
 (
