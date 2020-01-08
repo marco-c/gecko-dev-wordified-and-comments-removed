@@ -1220,12 +1220,12 @@ JS
 SourceBufferHolder
 GetScriptSource
 (
+JSContext
+*
+aCx
 ScriptLoadRequest
 *
 aRequest
-nsAutoString
-&
-inlineData
 )
 ;
 void
