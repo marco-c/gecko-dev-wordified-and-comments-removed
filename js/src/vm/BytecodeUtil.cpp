@@ -5703,7 +5703,7 @@ return
 nullptr
 ;
 return
-JS_EncodeString
+EncodeLatin1
 (
 cx
 str
@@ -5749,7 +5749,7 @@ return
 nullptr
 ;
 return
-JS_EncodeString
+EncodeLatin1
 (
 cx
 source
@@ -11590,7 +11590,7 @@ nullptr
 ;
 }
 return
-JS_EncodeString
+EncodeLatin1
 (
 cx
 fallback
@@ -12025,7 +12025,7 @@ return
 nullptr
 ;
 return
-JS_EncodeString
+EncodeLatin1
 (
 cx
 fallback

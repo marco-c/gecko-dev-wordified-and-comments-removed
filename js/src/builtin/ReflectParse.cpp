@@ -18580,7 +18580,7 @@ false
 ;
 filename
 =
-JS_EncodeString
+EncodeLatin1
 (
 cx
 str

@@ -12269,9 +12269,10 @@ true
 UniqueChars
 bytes
 =
-JS_EncodeStringToUTF8
+StringToNewUTF8CharsZ
 (
 cx
+*
 propname
 )
 ;
