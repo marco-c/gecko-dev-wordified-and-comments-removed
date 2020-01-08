@@ -1534,14 +1534,6 @@ nullptr
 )
 ;
 }
-void
-UpdateViewportOverridden
-(
-bool
-aAfterInitialization
-)
-override
-;
 bool
 IsLayoutFlushObserver
 (

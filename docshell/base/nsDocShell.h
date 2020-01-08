@@ -2955,9 +2955,6 @@ mJSRunToCompletionDepth
 uint32_t
 mTouchEventsOverride
 ;
-uint32_t
-mMetaViewportOverride
-;
 enum
 FullscreenAllowedState
 :
