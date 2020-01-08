@@ -420,7 +420,7 @@ isinstance
 type
 xpidl
 .
-Array
+LegacyArray
 )
 :
         
@@ -432,7 +432,7 @@ tag
 '
 :
 '
-TD_ARRAY
+TD_LEGACY_ARRAY
 '
             
 '
