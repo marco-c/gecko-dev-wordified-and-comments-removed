@@ -1159,6 +1159,9 @@ FirstChild
 if
 (
 childItem
+&
+&
+childItem
 -
 >
 IsTextLeaf
