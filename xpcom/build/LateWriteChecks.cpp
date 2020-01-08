@@ -598,13 +598,11 @@ LateWriteTmpXXXXXX
 char_type
 *
 name
-;
+=
 nameAux
 .
-GetMutableData
+BeginWriting
 (
-&
-name
 )
 ;
 FILE
