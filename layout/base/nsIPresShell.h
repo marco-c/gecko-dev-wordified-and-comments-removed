@@ -3869,6 +3869,9 @@ nsViewManager
 mViewManager
 ;
 nsPresArena
+<
+8192
+>
 mFrameArena
 ;
 RefPtr
