@@ -1710,6 +1710,10 @@ about
 blank
 '
                                             
+e10s
+=
+True
+                                            
 fail_if_running
 =
 False
