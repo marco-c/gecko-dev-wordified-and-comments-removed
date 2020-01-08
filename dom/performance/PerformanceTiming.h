@@ -58,9 +58,6 @@ h
 class
 nsIHttpChannel
 ;
-class
-nsITimedChannel
-;
 namespace
 mozilla
 {
