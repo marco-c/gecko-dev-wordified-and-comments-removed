@@ -53,6 +53,14 @@ MPL
 0
 /
 .
+DevToolsModules
+(
+'
+aboutdebugging
+.
+js
+'
+)
 DIRS
 +
 =
