@@ -21,12 +21,13 @@ installTrigger
 filename
 )
 {
-gBrowser
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
+.
+selectedBrowser
 INSTALL_PAGE
 )
 ;

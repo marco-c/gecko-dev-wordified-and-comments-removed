@@ -285,10 +285,11 @@ true
 }
 )
 ;
-newTabBrowser
+BrowserTestUtils
 .
 loadURI
 (
+newTabBrowser
 "
 about
 :

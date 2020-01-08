@@ -1013,10 +1013,11 @@ com
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 http
 :

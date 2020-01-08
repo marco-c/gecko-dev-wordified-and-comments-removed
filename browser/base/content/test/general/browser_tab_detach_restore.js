@@ -93,12 +93,13 @@ addTab
 gBrowser
 )
 ;
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 uri
 )
 ;

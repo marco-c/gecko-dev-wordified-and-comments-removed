@@ -28,10 +28,11 @@ addProgressListener
 progressListener3
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 data
 :

@@ -751,10 +751,11 @@ of
 urls
 )
 {
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 url
 )
 ;

@@ -108,12 +108,13 @@ nonCustomizingTab
 await
 finishedCustomizing
 ;
-custTab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+custTab
+.
+linkedBrowser
 "
 http
 :

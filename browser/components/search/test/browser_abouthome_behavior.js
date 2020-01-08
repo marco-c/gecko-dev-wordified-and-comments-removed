@@ -81,10 +81,11 @@ removeProgressListener
 listener
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 about
 :
