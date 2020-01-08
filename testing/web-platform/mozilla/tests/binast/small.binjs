@@ -4,13 +4,14 @@ GRAMMAR
 ]
 identity
 ;
+(
+AssertedDeclaredName
+Script
 &
 VariableDeclaration
 "
 BindingIdentifier
-AssertedVarScope
-Script
-VariableDeclarator0LiteralBooleanExpression
+VariableDeclarator0LiteralBooleanExpression2AssertedScriptGlobalScope
 [
 STRINGS
 ]
@@ -23,4 +24,3 @@ TREE
 ]
 identity
 ;
-"
