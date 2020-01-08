@@ -70,6 +70,13 @@ keys
 CFBundleName
 =
 "
+Software
+Update
+"
+;
+CFBundleDisplayName
+=
+"
 %
 APP_NAME
 %
