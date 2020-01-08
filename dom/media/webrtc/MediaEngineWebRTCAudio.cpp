@@ -3844,7 +3844,7 @@ GainControl
 Mode
 :
 :
-kDefaultAgcMode
+kFixedDigital
 ;
 }
 #
