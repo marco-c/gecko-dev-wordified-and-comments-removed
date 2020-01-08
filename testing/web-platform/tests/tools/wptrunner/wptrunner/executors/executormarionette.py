@@ -418,6 +418,27 @@ out
 pass
             
 except
+errors
+.
+JavascriptException
+as
+e
+:
+                
+self
+.
+logger
+.
+debug
+(
+e
+.
+message
+)
+                
+pass
+            
+except
 IOError
 :
                 
