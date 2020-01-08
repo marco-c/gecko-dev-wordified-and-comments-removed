@@ -4828,6 +4828,8 @@ yield
 await
 /
 finally
+/
+case
 locations
 "
 )
