@@ -873,10 +873,6 @@ gfx
 :
 SurfaceFormat
 aFormat
-bool
-aExternallyOwned
-=
-false
 )
 ;
 ~
@@ -1110,9 +1106,6 @@ gfx
 :
 SurfaceFormat
 mFormat
-;
-bool
-mExternallyOwned
 ;
 }
 ;
