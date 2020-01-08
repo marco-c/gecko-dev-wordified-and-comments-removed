@@ -230,6 +230,15 @@ attribute
 EventHandler
 onpointermove
 ;
+[
+RuntimeEnabled
+=
+PointerRawMove
+]
+attribute
+EventHandler
+onpointerrawmove
+;
 attribute
 EventHandler
 onpointerup
