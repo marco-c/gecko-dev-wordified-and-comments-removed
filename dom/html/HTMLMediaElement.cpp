@@ -33111,6 +33111,12 @@ AsyncResolvePendingPlayPromises
 (
 )
 {
+mAutoplayPermissionRequest
+.
+DisconnectIfExists
+(
+)
+;
 if
 (
 mShuttingDown
