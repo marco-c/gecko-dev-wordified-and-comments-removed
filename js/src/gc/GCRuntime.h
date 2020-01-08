@@ -1398,7 +1398,7 @@ lock
 ifdef
 JS_GC_ZEAL
 const
-void
+uint32_t
 *
 addressOfZealModeBits
 (
@@ -1407,6 +1407,10 @@ addressOfZealModeBits
 return
 &
 zealModeBits
+.
+refNoCheck
+(
+)
 ;
 }
 void
@@ -4603,7 +4607,6 @@ LifoAlloc
 >
 blocksToFreeAfterMinorGC
 ;
-const
 void
 *
 addressOfNurseryPosition

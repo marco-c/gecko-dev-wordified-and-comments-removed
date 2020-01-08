@@ -2807,7 +2807,13 @@ getOrCreateRandomNumberGenerator
 )
 ;
 const
-void
+mozilla
+:
+:
+non_crypto
+:
+:
+XorShift128PlusRNG
 *
 addressOfRandomNumberGenerator
 (
