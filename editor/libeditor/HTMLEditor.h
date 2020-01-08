@@ -3245,6 +3245,15 @@ eAfterSelectedCell
 }
 ;
 nsresult
+InsertTableColumnsWithTransaction
+(
+int32_t
+aNumberOfColumnsToInsert
+InsertPosition
+aInsertPosition
+)
+;
+nsresult
 InsertTableRowsWithTransaction
 (
 int32_t
