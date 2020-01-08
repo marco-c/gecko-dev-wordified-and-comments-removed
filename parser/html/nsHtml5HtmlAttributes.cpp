@@ -851,9 +851,6 @@ nsHtml5HtmlAttributes
 :
 cloneAttributes
 (
-nsHtml5AtomTable
-*
-aInterner
 )
 {
 MOZ_ASSERT
@@ -900,7 +897,6 @@ entry
 .
 Clone
 (
-aInterner
 )
 )
 ;

@@ -1993,8 +1993,6 @@ mDocWriteSpeculativeTreeBuilder
 loadState
 (
 mTreeBuilder
-&
-mAtomTable
 )
 ;
 mDocWriteSpeculativeLastWasCR
@@ -3283,8 +3281,6 @@ mTreeBuilder
 loadState
 (
 aState
-&
-mAtomTable
 )
 ;
 mLastWasCR

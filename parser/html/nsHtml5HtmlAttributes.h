@@ -305,9 +305,6 @@ nsHtml5HtmlAttributes
 *
 cloneAttributes
 (
-nsHtml5AtomTable
-*
-aInterner
 )
 ;
 bool

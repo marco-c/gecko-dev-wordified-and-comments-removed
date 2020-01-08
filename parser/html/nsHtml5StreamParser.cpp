@@ -7640,8 +7640,6 @@ mTreeBuilder
 loadState
 (
 aTreeBuilder
-&
-mAtomTable
 )
 ;
 }
