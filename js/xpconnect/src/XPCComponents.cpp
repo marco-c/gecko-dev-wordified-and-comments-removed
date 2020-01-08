@@ -9580,10 +9580,10 @@ NS_ERROR_INVALID_ARG
 xpc
 :
 :
-NukeAllWrappersForRealm
+NukeAllWrappersForCompartment
 (
 cx
-GetNonCCWObjectRealm
+GetObjectCompartment
 (
 sb
 )
