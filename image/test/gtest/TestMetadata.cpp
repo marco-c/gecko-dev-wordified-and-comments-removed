@@ -339,6 +339,7 @@ WrapNotNull
 (
 decoder
 )
+false
 )
 ;
 if
@@ -617,6 +618,7 @@ WrapNotNull
 (
 decoder
 )
+false
 )
 ;
 if

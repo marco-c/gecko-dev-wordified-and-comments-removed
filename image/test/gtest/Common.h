@@ -484,6 +484,11 @@ AutoInitializeImageLib
 ;
 }
 ;
+void
+SpinPendingEvents
+(
+)
+;
 already_AddRefed
 <
 nsIInputStream

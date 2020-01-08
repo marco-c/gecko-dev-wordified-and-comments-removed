@@ -277,6 +277,8 @@ Decoder
 *
 >
 aDecoder
+bool
+aResumable
 )
 ;
 void
@@ -315,8 +317,7 @@ Resume
 (
 )
 override
-{
-}
+;
 private
 :
 virtual
@@ -334,6 +335,9 @@ Decoder
 >
 >
 mDecoder
+;
+bool
+mResumable
 ;
 }
 ;
