@@ -24554,7 +24554,15 @@ CanApplyOpacity
 const
 {
 return
-true
+!
+EffectCompositor
+:
+:
+HasAnimationsForCompositor
+(
+mFrame
+eCSSProperty_background_color
+)
 ;
 }
 LayerState
