@@ -73,7 +73,7 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 "
@@ -81,7 +81,7 @@ accentcolor
 FF0000
 "
 "
-textcolor
+tab_background_color
 "
 :
 "

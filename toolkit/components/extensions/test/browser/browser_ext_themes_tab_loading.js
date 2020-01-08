@@ -49,7 +49,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -64,7 +64,7 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 "
@@ -80,7 +80,7 @@ toolbar
 124455
 "
 "
-textcolor
+tab_background_text
 "
 :
 TAB_TEXT_COLOR

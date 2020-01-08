@@ -41,7 +41,7 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 "
@@ -49,7 +49,7 @@ accentcolor
 000
 "
 "
-textcolor
+tab_background_text
 "
 :
 "

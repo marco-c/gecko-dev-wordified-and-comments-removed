@@ -33,7 +33,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -69,7 +69,7 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 rgb
@@ -85,7 +85,7 @@ join
 }
 )
 "
-textcolor
+tab_background_text
 "
 :
 rgb

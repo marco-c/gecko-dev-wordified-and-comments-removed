@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_alpha_accentcolor
+test_alpha_frame_color
 (
 )
 {
@@ -33,7 +33,7 @@ images
 :
 {
 "
-headerURL
+theme_frame
 "
 :
 "
@@ -48,7 +48,7 @@ colors
 :
 {
 "
-accentcolor
+frame
 "
 :
 "
@@ -63,7 +63,7 @@ rgba
 )
 "
 "
-textcolor
+tab_background_text
 "
 :
 TEXT_COLOR
