@@ -604,12 +604,6 @@ transform
 .
 m
 snap_rect
-vec2
-(
-0
-.
-5
-)
 )
 ;
 /

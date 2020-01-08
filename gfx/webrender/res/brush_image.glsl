@@ -233,12 +233,6 @@ compute_snap_offset
 local_pos
 transform
 local_rect
-vec2
-(
-0
-.
-5
-)
 )
 ;
 vec4

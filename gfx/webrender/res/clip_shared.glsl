@@ -410,12 +410,6 @@ snap_positions
 xy
 )
 snap_positions
-vec2
-(
-0
-.
-5
-)
 )
 ;
 device_pos
