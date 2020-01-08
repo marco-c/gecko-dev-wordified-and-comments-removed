@@ -193,6 +193,11 @@ DNSRequestParent
 h
 '
 '
+IDNBlocklistUtils
+.
+h
+'
+'
 PDNSParams
 .
 h
@@ -262,6 +267,11 @@ cpp
 '
 '
 GetAddrInfo
+.
+cpp
+'
+'
+IDNBlocklistUtils
 .
 cpp
 '
