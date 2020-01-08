@@ -106,6 +106,8 @@ firefox
 -
 esr
 -
+next
+-
 latest
 "
             
@@ -445,6 +447,8 @@ alias
 firefox
 -
 esr
+-
+next
 -
 latest
 -
