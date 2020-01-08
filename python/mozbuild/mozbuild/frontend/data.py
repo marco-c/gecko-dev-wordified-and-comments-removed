@@ -6585,10 +6585,6 @@ py
 .
 rs
 '
-            
-'
-new
-'
         
 )
         
@@ -6611,6 +6607,13 @@ endswith
 (
 suffixes
 )
+or
+'
+stl_wrappers
+/
+'
+in
+f
 ]
 class
 ChromeManifestEntry
