@@ -478,7 +478,7 @@ source
 0
 _selectors
 .
-getSourceFromId
+getSource
 )
 (
 getState
@@ -512,6 +512,10 @@ pendingLocation
 pendingLocation
 .
 url
+|
+|
+!
+source
 |
 |
 !
@@ -650,7 +654,7 @@ source
 0
 _selectors
 .
-getSourceFromId
+getSource
 )
 (
 getState
@@ -659,6 +663,15 @@ getState
 sourceId
 )
 ;
+if
+(
+!
+source
+)
+{
+return
+;
+}
 const
 pendingBreakpoints
 =

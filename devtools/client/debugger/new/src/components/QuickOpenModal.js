@@ -2399,7 +2399,7 @@ getStr
 "
 sourceSearch
 .
-search
+search2
 "
 )
 summaryMsg

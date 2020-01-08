@@ -512,6 +512,8 @@ getStr
 (
 "
 copySource
+.
+label
 "
 )
 ;

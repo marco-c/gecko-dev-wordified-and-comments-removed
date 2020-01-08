@@ -1434,6 +1434,15 @@ getSources
 (
 )
 ;
+if
+(
+!
+sources
+)
+{
+return
+;
+}
 return
 sources
 .
