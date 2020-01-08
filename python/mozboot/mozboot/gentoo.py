@@ -15,6 +15,7 @@ linux_common
 import
 NodeInstall
 StyloInstall
+ClangStaticAnalysisInstall
 try
 :
     
@@ -41,6 +42,8 @@ GentooBootstrapper
 (
 NodeInstall
 StyloInstall
+ClangStaticAnalysisInstall
+                         
 BaseBootstrapper
 )
 :

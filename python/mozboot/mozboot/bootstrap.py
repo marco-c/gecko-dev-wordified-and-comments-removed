@@ -2134,6 +2134,15 @@ self
 .
 instance
 .
+ensure_clang_static_analysis_package
+(
+checkout_root
+)
+        
+self
+.
+instance
+.
 ensure_stylo_packages
 (
 state_dir
