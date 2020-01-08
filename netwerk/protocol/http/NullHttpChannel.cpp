@@ -2665,10 +2665,6 @@ const
 nsAString
 &
 aMessage
-const
-nsACString
-&
-aCategory
 )
 {
 return

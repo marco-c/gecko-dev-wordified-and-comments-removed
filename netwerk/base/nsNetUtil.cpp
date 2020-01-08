@@ -11753,12 +11753,9 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
-upgradeInsecureRequest
+CSP
 "
-)
 innerWindowId
 !
 !

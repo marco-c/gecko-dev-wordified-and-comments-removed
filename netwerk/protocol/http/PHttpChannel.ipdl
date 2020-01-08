@@ -1006,8 +1006,6 @@ LogBlockedCORSRequest
 (
 nsString
 message
-nsCString
-category
 )
 ;
 async
