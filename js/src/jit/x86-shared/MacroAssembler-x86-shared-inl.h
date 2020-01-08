@@ -839,14 +839,6 @@ Register
 srcDest
 )
 {
-MOZ_ASSERT
-(
-srcDest
-=
-=
-eax
-)
-;
 imull
 (
 rhs
