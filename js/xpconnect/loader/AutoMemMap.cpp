@@ -566,11 +566,6 @@ reset
 {
 if
 (
-fileMap
-)
-{
-if
-(
 addr
 &
 &
@@ -600,6 +595,11 @@ addr
 nullptr
 ;
 }
+if
+(
+fileMap
+)
+{
 Unused
 <
 <
