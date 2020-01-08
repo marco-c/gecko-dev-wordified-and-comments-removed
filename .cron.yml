@@ -569,7 +569,7 @@ tasks
 -
 method
 :
-cron_bouncer_check
+bouncer_check
 run
 -
 on

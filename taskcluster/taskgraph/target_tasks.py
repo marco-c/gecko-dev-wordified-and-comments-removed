@@ -4337,7 +4337,7 @@ t
 _target_task
 (
 '
-cron_bouncer_check
+bouncer_check
 '
 )
 def
@@ -4383,8 +4383,6 @@ kind
 in
 [
 '
-cron
--
 bouncer
 -
 check
