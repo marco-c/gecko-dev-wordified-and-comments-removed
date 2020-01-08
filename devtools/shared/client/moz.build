@@ -198,11 +198,4 @@ client
 .
 js
 '
-'
-worker
--
-client
-.
-js
-'
 )
