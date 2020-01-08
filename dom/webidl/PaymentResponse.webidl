@@ -178,8 +178,6 @@ PrefEnabled
 ]
 interface
 PaymentResponse
-:
-EventTarget
 {
 [
 Default
@@ -280,10 +278,6 @@ optional
 PaymentValidationErrors
 errorFields
 )
-;
-attribute
-EventHandler
-onpayerdetailchange
 ;
 }
 ;
