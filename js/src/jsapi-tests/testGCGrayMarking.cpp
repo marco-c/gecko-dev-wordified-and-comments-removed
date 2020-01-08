@@ -2310,6 +2310,7 @@ target
 ;
 MOZ_ASSERT
 (
+!
 JS
 :
 :
