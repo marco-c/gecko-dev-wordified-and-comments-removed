@@ -319,6 +319,13 @@ h
 #
 include
 "
+memory_hooks
+.
+h
+"
+#
+include
+"
 shared
 -
 libraries
