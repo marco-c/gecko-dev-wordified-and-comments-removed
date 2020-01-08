@@ -716,10 +716,6 @@ serde_json
 ;
 extern
 crate
-sha2
-;
-extern
-crate
 smallvec
 ;
 extern
@@ -829,6 +825,7 @@ device
 ProgramBinary
 ProgramCache
 ProgramCacheObserver
+ProgramSources
 }
 ;
 pub
@@ -836,7 +833,10 @@ use
 device
 :
 :
+{
 Device
+total_gpu_bytes_allocated
+}
 ;
 pub
 use

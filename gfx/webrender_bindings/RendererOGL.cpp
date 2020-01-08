@@ -1101,6 +1101,14 @@ swap_chain
 =
 swapChainSize
 ;
+aReport
+-
+>
+total_gpu_bytes_allocated
++
+=
+swapChainSize
+;
 }
 static
 void
