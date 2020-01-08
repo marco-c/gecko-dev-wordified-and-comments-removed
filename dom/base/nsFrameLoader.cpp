@@ -11262,6 +11262,16 @@ already
 "
 )
 ;
+if
+(
+!
+mOwnerContent
+)
+{
+return
+false
+;
+}
 nsIDocument
 *
 doc
