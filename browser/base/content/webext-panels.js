@@ -134,9 +134,8 @@ stack
 =
 document
 .
-createElementNS
+createXULElement
 (
-XUL_NS
 "
 stack
 "
@@ -158,9 +157,8 @@ browser
 =
 document
 .
-createElementNS
+createXULElement
 (
-XUL_NS
 "
 browser
 "

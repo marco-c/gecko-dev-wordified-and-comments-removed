@@ -1182,9 +1182,8 @@ win
 .
 document
 .
-createElementNS
+createXULElement
 (
-XUL_NS
 "
 browser
 "
