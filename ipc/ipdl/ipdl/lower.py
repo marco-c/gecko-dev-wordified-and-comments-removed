@@ -755,7 +755,7 @@ actor
 >
 '
 '
-mState
+mLivenessState
 '
 )
 def
@@ -7378,7 +7378,7 @@ mozilla
 ipc
 :
 :
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 '
 )
     
@@ -7395,7 +7395,7 @@ mozilla
 ipc
 :
 :
-State
+LivenessState
 '
 )
 def
@@ -8223,7 +8223,7 @@ actorThis
 >
 '
 '
-mState
+mLivenessState
 '
 )
         
@@ -8231,7 +8231,7 @@ return
 ExprVar
 (
 '
-mState
+mLivenessState
 '
 )
     
@@ -23311,7 +23311,7 @@ ExprBinary
 ExprVar
 (
 '
-mState
+mLivenessState
 '
 )
 '

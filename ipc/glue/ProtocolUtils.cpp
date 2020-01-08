@@ -1650,7 +1650,7 @@ StateTransition
 (
 bool
 aIsDelete
-State
+LivenessState
 *
 aNext
 )
@@ -1662,7 +1662,7 @@ aNext
 )
 {
 case
-State
+LivenessState
 :
 :
 Null
@@ -1675,7 +1675,7 @@ aIsDelete
 *
 aNext
 =
-State
+LivenessState
 :
 :
 Dead
@@ -1684,7 +1684,7 @@ Dead
 break
 ;
 case
-State
+LivenessState
 :
 :
 Dead
@@ -1709,7 +1709,7 @@ bool
 aIsDelete
 bool
 aIsDeleteReply
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 *
 aNext
 )
@@ -1721,7 +1721,7 @@ aNext
 )
 {
 case
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 :
 :
 Null
@@ -1734,7 +1734,7 @@ aIsDelete
 *
 aNext
 =
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 :
 :
 Dying
@@ -1743,7 +1743,7 @@ Dying
 break
 ;
 case
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 :
 :
 Dead
@@ -1752,7 +1752,7 @@ return
 false
 ;
 case
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 :
 :
 Dying
@@ -1765,7 +1765,7 @@ aIsDeleteReply
 *
 aNext
 =
-ReEntrantDeleteState
+ReEntrantDeleteLivenessState
 :
 :
 Dead
