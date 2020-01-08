@@ -56,6 +56,11 @@ MPL
 DevToolsModules
 (
 '
+RefreshDevicesButton
+.
+js
+'
+'
 Sidebar
 .
 css
