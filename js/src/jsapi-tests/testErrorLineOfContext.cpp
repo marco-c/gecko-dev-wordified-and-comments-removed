@@ -19,7 +19,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -287,7 +287,10 @@ global
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 CHECK
@@ -302,10 +305,10 @@ len
 JS
 :
 :
-SourceBufferHolder
+SourceOwnership
 :
 :
-NoOwnership
+Borrowed
 )
 )
 ;

@@ -127,7 +127,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -10907,10 +10907,7 @@ aTextLength
 JS
 :
 :
-SourceBufferHolder
-:
-:
-Ownership
+SourceOwnership
 aOwnership
 nsIURI
 *
@@ -10952,10 +10949,10 @@ aOwnership
 JS
 :
 :
-SourceBufferHolder
+SourceOwnership
 :
 :
-GiveOwnership
+TakeOwnership
 )
 {
 js_free
@@ -10988,7 +10985,10 @@ cx
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 if

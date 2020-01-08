@@ -44,7 +44,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -9561,7 +9561,10 @@ source
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 buffer
 ;
 ok
@@ -9584,10 +9587,10 @@ Length
 JS
 :
 :
-SourceBufferHolder
+SourceOwnership
 :
 :
-NoOwnership
+Borrowed
 )
 &
 &

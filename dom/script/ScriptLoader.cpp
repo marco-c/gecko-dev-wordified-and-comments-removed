@@ -84,7 +84,7 @@ include
 "
 js
 /
-SourceBufferHolder
+SourceText
 .
 h
 "
@@ -469,7 +469,7 @@ using
 JS
 :
 :
-SourceBufferHolder
+SourceText
 ;
 using
 mozilla
@@ -9771,7 +9771,10 @@ mozilla
 :
 Maybe
 <
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 >
 ScriptLoader
 :
@@ -9871,7 +9874,10 @@ get
 nbytes
 )
 ;
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 if
@@ -9906,7 +9912,10 @@ Nothing
 return
 Some
 (
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 (
 std
 :
@@ -9968,7 +9977,10 @@ Nothing
 )
 ;
 }
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 srcBuf
 ;
 if
@@ -9999,7 +10011,10 @@ Nothing
 return
 Some
 (
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 (
 std
 :

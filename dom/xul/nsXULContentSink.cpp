@@ -1965,10 +1965,10 @@ mTextLength
 JS
 :
 :
-SourceBufferHolder
+SourceOwnership
 :
 :
-NoOwnership
+Borrowed
 mDocumentURL
 script
 -

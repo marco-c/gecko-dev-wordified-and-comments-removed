@@ -411,7 +411,10 @@ options
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 &
 srcBuf
 OffThreadCompileCallback
@@ -574,7 +577,10 @@ options
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 &
 srcBuf
 OffThreadCompileCallback

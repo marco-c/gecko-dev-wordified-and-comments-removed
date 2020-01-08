@@ -1249,7 +1249,7 @@ ObjectGroup
 JS
 :
 :
-SourceBufferHolder
+SourceText
 "
 "
 js

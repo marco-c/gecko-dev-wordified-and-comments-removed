@@ -185,8 +185,13 @@ nsIURI
 namespace
 JS
 {
+template
+<
+typename
+UnitT
+>
 class
-SourceBufferHolder
+SourceText
 ;
 }
 namespace
@@ -1235,7 +1240,10 @@ Maybe
 JS
 :
 :
-SourceBufferHolder
+SourceText
+<
+char16_t
+>
 >
 GetScriptSource
 (
