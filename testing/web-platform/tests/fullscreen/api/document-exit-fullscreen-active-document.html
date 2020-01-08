@@ -111,6 +111,15 @@ iframe
 )
 ;
 var
+promiseBeforeNav
+=
+iframe
+.
+contentWindow
+.
+Promise
+;
+var
 documentBeforeNav
 =
 iframe
@@ -143,7 +152,7 @@ assert_true
 (
 p
 instanceof
-Promise
+promiseBeforeNav
 '
 exitFullscreen
 (
