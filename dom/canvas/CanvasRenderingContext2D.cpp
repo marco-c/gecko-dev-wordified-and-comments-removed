@@ -1347,7 +1347,7 @@ mSurface
 )
 {
 return
-IsOpaqueFormat
+IsOpaque
 (
 state
 .

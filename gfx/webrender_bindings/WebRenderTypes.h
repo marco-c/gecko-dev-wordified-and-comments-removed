@@ -601,7 +601,7 @@ opacity
 gfx
 :
 :
-IsOpaqueFormat
+IsOpaque
 (
 aFormat
 )
@@ -670,7 +670,7 @@ opacity
 gfx
 :
 :
-IsOpaqueFormat
+IsOpaque
 (
 aFormat
 )
