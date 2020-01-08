@@ -1020,7 +1020,7 @@ this
 .
 doc
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -1072,7 +1072,7 @@ this
 .
 doc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -1140,7 +1140,7 @@ this
 .
 doc
 .
-createElement
+createXULElement
 (
 "
 button
@@ -1357,7 +1357,7 @@ this
 .
 doc
 .
-createElement
+createXULElement
 (
 "
 panel

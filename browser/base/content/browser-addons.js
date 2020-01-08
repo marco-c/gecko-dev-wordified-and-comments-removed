@@ -624,7 +624,7 @@ container
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -636,7 +636,7 @@ name
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -704,7 +704,7 @@ unsignedLabel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -2795,7 +2795,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

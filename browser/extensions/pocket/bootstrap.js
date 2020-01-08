@@ -477,7 +477,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 type
 )
@@ -671,7 +671,7 @@ wrapper
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -717,7 +717,7 @@ animatableBox
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -741,7 +741,7 @@ animatableImage
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 image
@@ -803,7 +803,7 @@ pocketButton
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 image

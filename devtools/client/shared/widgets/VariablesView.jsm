@@ -516,7 +516,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 scrollbox
@@ -860,7 +860,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 scrollbox
@@ -1280,7 +1280,7 @@ _searchboxContainer
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1317,7 +1317,7 @@ _searchboxNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 textbox
@@ -2851,7 +2851,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -5433,7 +5433,7 @@ _target
 =
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -5463,7 +5463,7 @@ _arrow
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -5490,7 +5490,7 @@ _name
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -5541,7 +5541,7 @@ _title
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -5579,7 +5579,7 @@ _enum
 =
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -5595,7 +5595,7 @@ _nonenum
 =
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -8193,7 +8193,7 @@ _separatorLabel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -8233,7 +8233,7 @@ _valueLabel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -8532,7 +8532,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -8600,7 +8600,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -8665,7 +8665,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -8795,7 +8795,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -8878,7 +8878,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -8953,7 +8953,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -9029,7 +9029,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -9157,7 +9157,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 tooltip
@@ -9234,7 +9234,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -9558,7 +9558,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -15388,7 +15388,7 @@ _variable
 .
 document
 .
-createElement
+createXULElement
 (
 "
 textbox
