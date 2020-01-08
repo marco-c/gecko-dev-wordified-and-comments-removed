@@ -853,6 +853,17 @@ false
 VARCACHE_PREF
 (
 "
+gfx
+.
+font_ahem_antialias_none
+"
+gfx_font_ahem_antialias_none
+RelaxedAtomicBool
+false
+)
+VARCACHE_PREF
+(
+"
 html5
 .
 offmainthread

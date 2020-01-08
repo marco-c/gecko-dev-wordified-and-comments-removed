@@ -7004,6 +7004,16 @@ true
 ;
 #
 endif
+pref
+(
+"
+gfx
+.
+font_ahem_antialias_none
+"
+false
+)
+;
 #
 ifdef
 XP_WIN

@@ -103,3 +103,13 @@ max_resumed_crashes
 1
 )
 ;
+user_pref
+(
+"
+gfx
+.
+font_ahem_antialias_none
+"
+true
+)
+;
