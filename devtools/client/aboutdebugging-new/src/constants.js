@@ -282,6 +282,15 @@ aboutdebugging
 .
 network
 "
+SHOW_SYSTEM_ADDONS
+:
+"
+devtools
+.
+aboutdebugging
+.
+showSystemAddons
+"
 WIFI_ENABLED
 :
 "

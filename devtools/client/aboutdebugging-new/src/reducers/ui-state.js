@@ -40,6 +40,9 @@ false
 wifiEnabled
 =
 false
+showSystemAddons
+=
+false
 )
 {
 return
@@ -58,6 +61,7 @@ locations
 selectedPage
 :
 null
+showSystemAddons
 wifiEnabled
 }
 ;
