@@ -940,7 +940,7 @@ bytecodeTypeMapOffset_
 0
 ;
 uint32_t
-yieldEntriesOffset_
+resumeEntriesOffset_
 =
 0
 ;
@@ -1058,7 +1058,7 @@ pcMappingSize
 size_t
 bytecodeTypeMapEntries
 size_t
-yieldEntries
+resumeEntries
 size_t
 traceLoggerToggleOffsetEntries
 )
@@ -1404,7 +1404,7 @@ retAddrEntriesOffset_
 uint8_t
 *
 *
-yieldEntryList
+resumeEntryList
 (
 )
 {
@@ -1424,7 +1424,7 @@ uint8_t
 this
 )
 +
-yieldEntriesOffset_
+resumeEntriesOffset_
 )
 ;
 }
@@ -1746,7 +1746,7 @@ stubSpace
 )
 ;
 void
-computeYieldAndAwaitNativeOffsets
+computeResumeNativeOffsets
 (
 JSScript
 *
@@ -2043,7 +2043,7 @@ flags_
 }
 static
 size_t
-offsetOfYieldEntriesOffset
+offsetOfResumeEntriesOffset
 (
 )
 {
@@ -2051,7 +2051,7 @@ return
 offsetof
 (
 BaselineScript
-yieldEntriesOffset_
+resumeEntriesOffset_
 )
 ;
 }

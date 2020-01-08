@@ -1258,19 +1258,19 @@ nTypeSets
 1
 ;
 size_t
-yieldAndAwaitEntries
+resumeEntries
 =
 script
 -
 >
-hasYieldAndAwaitOffsets
+hasResumeOffsets
 (
 )
 ?
 script
 -
 >
-yieldAndAwaitOffsets
+resumeOffsets
 (
 )
 .
@@ -1338,7 +1338,7 @@ length
 (
 )
 bytecodeTypeMapEntries
-yieldAndAwaitEntries
+resumeEntries
 traceLoggerToggleOffsets_
 .
 length
@@ -1748,7 +1748,7 @@ nTypeSets
 baselineScript
 -
 >
-computeYieldAndAwaitNativeOffsets
+computeResumeNativeOffsets
 (
 script
 )
@@ -21695,7 +21695,7 @@ genObj
 GeneratorObject
 :
 :
-offsetOfYieldAndAwaitIndexSlot
+offsetOfResumeIndexSlot
 (
 )
 )
@@ -21960,7 +21960,7 @@ genObj
 GeneratorObject
 :
 :
-offsetOfYieldAndAwaitIndexSlot
+offsetOfResumeIndexSlot
 (
 )
 )
@@ -23545,7 +23545,7 @@ scratch1
 BaselineScript
 :
 :
-offsetOfYieldEntriesOffset
+offsetOfResumeEntriesOffset
 (
 )
 )
@@ -23570,7 +23570,7 @@ genObj
 GeneratorObject
 :
 :
-offsetOfYieldAndAwaitIndexSlot
+offsetOfResumeIndexSlot
 (
 )
 )
@@ -23605,7 +23605,7 @@ Int32Value
 GeneratorObject
 :
 :
-YIELD_AND_AWAIT_INDEX_RUNNING
+RESUME_INDEX_RUNNING
 )
 Address
 (
@@ -23613,7 +23613,7 @@ genObj
 GeneratorObject
 :
 :
-offsetOfYieldAndAwaitIndexSlot
+offsetOfResumeIndexSlot
 (
 )
 )

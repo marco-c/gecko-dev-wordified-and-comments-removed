@@ -24597,7 +24597,7 @@ genObj
 GeneratorObject
 :
 :
-offsetOfYieldAndAwaitIndexSlot
+offsetOfResumeIndexSlot
 (
 )
 )
@@ -24639,7 +24639,7 @@ Imm32
 GeneratorObject
 :
 :
-YIELD_AND_AWAIT_INDEX_CLOSING
+RESUME_INDEX_CLOSING
 )
 &
 returnFalse

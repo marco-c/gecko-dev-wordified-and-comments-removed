@@ -501,7 +501,7 @@ prologueLength
 }
 ;
 struct
-CGYieldAndAwaitOffsetList
+CGResumeOffsetList
 {
 Vector
 <
@@ -516,7 +516,7 @@ uint32_t
 numAwaits
 ;
 explicit
-CGYieldAndAwaitOffsetList
+CGResumeOffsetList
 (
 JSContext
 *
@@ -829,8 +829,8 @@ tryNoteList
 CGScopeNoteList
 scopeNoteList
 ;
-CGYieldAndAwaitOffsetList
-yieldAndAwaitOffsetList
+CGResumeOffsetList
+resumeOffsetList
 ;
 uint16_t
 typesetCount
@@ -2666,6 +2666,15 @@ emitGetDotGeneratorInScope
 EmitterScope
 &
 currentScope
+)
+;
+MOZ_MUST_USE
+bool
+allocateResumeIndexForCurrentOffset
+(
+uint32_t
+*
+resumeIndex
 )
 ;
 MOZ_MUST_USE

@@ -4782,7 +4782,7 @@ MOZ_RAII
 AutoSetGeneratorRunning
 {
 int32_t
-yieldAwaitIndex_
+resumeIndex_
 ;
 Rooted
 <
@@ -4806,7 +4806,7 @@ GeneratorObject
 genObj
 )
 :
-yieldAwaitIndex_
+resumeIndex_
 (
 0
 )
@@ -4840,7 +4840,7 @@ isSuspended
 )
 )
 {
-yieldAwaitIndex_
+resumeIndex_
 =
 genObj
 -
@@ -4850,7 +4850,7 @@ getFixedSlot
 GeneratorObject
 :
 :
-YIELD_AND_AWAIT_INDEX_SLOT
+RESUME_INDEX_SLOT
 )
 .
 toInt32
@@ -4902,10 +4902,10 @@ setFixedSlot
 GeneratorObject
 :
 :
-YIELD_AND_AWAIT_INDEX_SLOT
+RESUME_INDEX_SLOT
 Int32Value
 (
-yieldAwaitIndex_
+resumeIndex_
 )
 )
 ;
