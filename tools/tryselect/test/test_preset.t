@@ -529,6 +529,11 @@ build
 baz
 "
 ]
+"
+version
+"
+:
+1
 }
 .
 /
@@ -570,6 +575,11 @@ build
 baz
 "
 ]
+"
+version
+"
+:
+1
 }
 .
 /
@@ -636,6 +646,11 @@ foo
 opt
 "
 ]
+"
+version
+"
+:
+1
 }
 .
 /
@@ -676,6 +691,11 @@ build
 baz
 "
 ]
+"
+version
+"
+:
+1
 }
 .
 /

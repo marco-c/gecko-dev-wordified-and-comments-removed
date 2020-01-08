@@ -67,6 +67,11 @@ foo
 opt
 "
 ]
+"
+version
+"
+:
+1
 }
 .
 /
@@ -126,6 +131,11 @@ foo
 opt
 "
 ]
+"
+version
+"
+:
+1
 }
 unset
 EDITOR
