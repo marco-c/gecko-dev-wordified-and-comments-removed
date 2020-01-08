@@ -403,9 +403,11 @@ dict
 channel
 =
 channel
-[
+.
+get
+(
 browser
-]
+)
     
 return
 channel
