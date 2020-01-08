@@ -167,13 +167,6 @@ asserts
 -
 if
 (
-gtkWidget
-1
-)
-asserts
--
-if
-(
 Android
 &
 &
