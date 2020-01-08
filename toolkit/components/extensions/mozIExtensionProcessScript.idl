@@ -120,6 +120,9 @@ extension
 in
 Document
 doc
+in
+bool
+privileged
 )
 ;
 }
