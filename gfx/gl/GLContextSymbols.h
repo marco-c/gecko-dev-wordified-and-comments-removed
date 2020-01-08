@@ -43,12 +43,6 @@ struct
 GLContextSymbols
 final
 {
-GLContextSymbols
-(
-)
-=
-delete
-;
 void
 (
 GLAPIENTRY
