@@ -59,6 +59,7 @@ NewScript
 ConsoleMessage
 WarpTarget
 ForcedPause
+PositionChange
 )
 )
 ;
@@ -409,6 +410,14 @@ ForcedPause
 return
 "
 ForcedPause
+"
+;
+case
+PositionChange
+:
+return
+"
+PositionChange
 "
 ;
 }
