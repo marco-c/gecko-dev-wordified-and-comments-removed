@@ -8748,8 +8748,10 @@ args
 )
 ;
 }
-static
 bool
+js
+:
+:
 obj_is
 (
 JSContext
