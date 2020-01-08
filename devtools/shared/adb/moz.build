@@ -58,6 +58,13 @@ DevToolsModules
 '
 adb
 -
+addon
+.
+js
+'
+'
+adb
+-
 binary
 .
 js
