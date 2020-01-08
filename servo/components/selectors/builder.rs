@@ -242,7 +242,7 @@ Impl
 >
 )
 {
-debug_assert
+assert
 !
 (
 !
