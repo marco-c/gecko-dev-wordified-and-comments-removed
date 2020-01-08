@@ -936,6 +936,15 @@ None
 PrimitiveInstanceKind
 :
 :
+YuvImage
+{
+.
+.
+}
+|
+PrimitiveInstanceKind
+:
+:
 LineDecoration
 {
 .
