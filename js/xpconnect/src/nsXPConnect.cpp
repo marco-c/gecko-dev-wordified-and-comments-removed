@@ -1586,6 +1586,17 @@ aStackGlobal
 {
 if
 (
+recordreplay
+:
+:
+HasDivergedFromRecording
+(
+)
+)
+return
+;
+if
+(
 aStack
 )
 {
