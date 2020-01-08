@@ -21221,7 +21221,7 @@ setStackSize
 (
 gMaxStackSize
 +
-128
+256
 *
 1024
 )
@@ -21249,7 +21249,7 @@ oomUnsafe
 crash
 (
 "
-EvalInThread
+EvalInWorker
 "
 )
 ;
