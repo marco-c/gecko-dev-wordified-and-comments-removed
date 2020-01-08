@@ -3342,6 +3342,11 @@ content
 blocking
 -
 category
+fast
+-
+block
+-
+ui
 "
 >
 <
@@ -3613,6 +3618,11 @@ content
 blocking
 -
 category
+tracking
+-
+protection
+-
+ui
 "
 >
 <
