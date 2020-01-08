@@ -169,7 +169,7 @@ yaml
 fuzzy
 (
 1
-100
+173
 )
 =
 =
@@ -899,6 +899,11 @@ rect
 ref
 .
 png
+fuzzy
+(
+1
+1
+)
 platform
 (
 linux
