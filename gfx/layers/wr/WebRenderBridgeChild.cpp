@@ -568,14 +568,6 @@ nullptr
 ;
 TimeStamp
 fwdTime
-;
-#
-if
-defined
-(
-ENABLE_FRAME_LATENCY_LOG
-)
-fwdTime
 =
 TimeStamp
 :
@@ -584,8 +576,6 @@ Now
 (
 )
 ;
-#
-endif
 nsTArray
 <
 OpUpdateResource
@@ -722,14 +712,6 @@ mIsInTransaction
 ;
 TimeStamp
 fwdTime
-;
-#
-if
-defined
-(
-ENABLE_FRAME_LATENCY_LOG
-)
-fwdTime
 =
 TimeStamp
 :
@@ -738,8 +720,6 @@ Now
 (
 )
 ;
-#
-endif
 nsTArray
 <
 OpUpdateResource

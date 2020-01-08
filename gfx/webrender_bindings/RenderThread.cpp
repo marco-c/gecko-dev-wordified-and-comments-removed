@@ -1564,7 +1564,9 @@ WebRenderPipelineInfo
 >
 aInfo
 TimeStamp
-aStart
+aCompositeStart
+TimeStamp
+aRenderStart
 TimeStamp
 aEnd
 bool
@@ -1654,7 +1656,8 @@ i
 ]
 .
 epoch
-aStart
+aCompositeStart
+aRenderStart
 aEnd
 &
 aStats
@@ -1769,6 +1772,16 @@ end
 return
 ;
 }
+TimeStamp
+start
+=
+TimeStamp
+:
+:
+Now
+(
+)
+;
 auto
 &
 renderer
@@ -1875,6 +1888,7 @@ GetCompositorBridge
 )
 info
 aStartTime
+start
 end
 aRender
 stats
