@@ -1489,17 +1489,6 @@ unwrap
 )
 ;
 }
-info
-!
-(
-"
-geckodriver
-{
-}
-"
-BuildInfo
-)
-;
 let
 settings
 =
@@ -1584,7 +1573,7 @@ to_string
 )
 ?
 ;
-info
+debug
 !
 (
 "
