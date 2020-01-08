@@ -1799,7 +1799,7 @@ Constructor
 return
 sApiLookup
 .
-getCallVersion
+getMethodVersion
 (
 cls
 .
