@@ -47,9 +47,7 @@ include
 "
 mozilla
 /
-dom
-/
-DOMPrefs
+StaticPrefs
 .
 h
 "
@@ -933,10 +931,10 @@ TUnsafeIPCTabContext
 if
 (
 !
-DOMPrefs
+StaticPrefs
 :
 :
-ServiceWorkersEnabled
+dom_serviceWorkers_enabled
 (
 )
 )

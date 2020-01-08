@@ -161,7 +161,7 @@ dom
 DOMPrefs
 :
 :
-ServiceWorkersEnabled
+dom_serviceWorkers_enabled
 "
 Exposed
 =
