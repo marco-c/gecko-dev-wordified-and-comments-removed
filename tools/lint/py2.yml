@@ -103,10 +103,6 @@ python
 /
 mozbuild
 -
-python
-/
-mozversioncontrol
--
 security
 -
 servo
