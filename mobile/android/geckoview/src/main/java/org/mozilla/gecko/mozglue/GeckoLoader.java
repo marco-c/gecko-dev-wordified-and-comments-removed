@@ -2624,6 +2624,8 @@ args
 int
 prefsFd
 int
+prefMapFd
+int
 ipcFd
 int
 crashFd
