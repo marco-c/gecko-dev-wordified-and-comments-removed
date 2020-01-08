@@ -675,9 +675,9 @@ Context
 context
 )
 {
-DownloadContentService
+DlcStudyService
 .
-startStudy
+enqueueServiceWork
 (
 context
 )
@@ -691,9 +691,9 @@ Context
 context
 )
 {
-DownloadContentService
+DlcCleanupService
 .
-startCleanup
+enqueueServiceWork
 (
 context
 )

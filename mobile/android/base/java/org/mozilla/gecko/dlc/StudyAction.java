@@ -451,9 +451,9 @@ Context
 context
 )
 {
-DownloadContentService
+DlcDownloadService
 .
-startDownloads
+enqueueServiceWork
 (
 context
 )
