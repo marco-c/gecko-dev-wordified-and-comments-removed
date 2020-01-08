@@ -76,7 +76,7 @@ height
 }
 ;
 SVGFilterElement
-implements
+includes
 SVGURIReference
 ;
 interface
@@ -928,7 +928,7 @@ includes
 SVGFilterPrimitiveStandardAttributes
 ;
 SVGFEImageElement
-implements
+includes
 SVGURIReference
 ;
 interface
