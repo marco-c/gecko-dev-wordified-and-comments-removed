@@ -1393,11 +1393,6 @@ Resume
 (
 )
 ;
-async
-ForceIsFirstPaint
-(
-)
-;
 /
 /
 See

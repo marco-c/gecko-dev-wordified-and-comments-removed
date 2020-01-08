@@ -389,7 +389,7 @@ parent
 parent
 -
 >
-RecvForceIsFirstPaint
+ForceIsFirstPaint
 (
 )
 ;
