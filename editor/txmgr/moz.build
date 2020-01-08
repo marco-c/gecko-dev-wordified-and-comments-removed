@@ -160,11 +160,6 @@ TransactionManager
 cpp
 '
 '
-TransactionManagerFactory
-.
-cpp
-'
-'
 TransactionStack
 .
 cpp
