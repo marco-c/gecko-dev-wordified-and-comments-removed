@@ -2738,6 +2738,11 @@ false
 }
 gcState
 ;
+bool
+nukedOutgoingWrappers
+=
+false
+;
 JS
 :
 :
