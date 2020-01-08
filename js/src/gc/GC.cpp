@@ -16913,7 +16913,6 @@ false
 )
 {
 }
-inline
 bool
 BackgroundSweepTask
 :
@@ -16933,7 +16932,6 @@ lock
 )
 ;
 }
-inline
 bool
 BackgroundSweepTask
 :
