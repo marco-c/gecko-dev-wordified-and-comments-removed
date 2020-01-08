@@ -287,6 +287,9 @@ return
 FontPropertyValue
 (
 {
+allowAutoIncrement
+:
+true
 label
 :
 getStr
