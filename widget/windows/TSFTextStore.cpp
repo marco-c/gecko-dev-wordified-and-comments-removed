@@ -25738,16 +25738,6 @@ eMicrosoftWubi
 if
 (
 !
-sTSFHasTheBug
-)
-{
-return
-false
-;
-}
-if
-(
-!
 IsWin8OrLater
 (
 )
