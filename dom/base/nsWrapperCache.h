@@ -69,7 +69,7 @@ class
 InProcessTabChildMessageManager
 ;
 class
-TabChildGlobal
+TabChildMessageManager
 ;
 }
 }

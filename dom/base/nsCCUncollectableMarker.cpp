@@ -1542,7 +1542,7 @@ tabChild
 {
 RefPtr
 <
-TabChildGlobal
+TabChildMessageManager
 >
 mm
 =
