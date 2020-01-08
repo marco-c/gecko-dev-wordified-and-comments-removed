@@ -1577,10 +1577,8 @@ cloned
 (
 )
 .
-unwrap_or_else
+unwrap_or
 (
-|
-|
 self
 .
 column

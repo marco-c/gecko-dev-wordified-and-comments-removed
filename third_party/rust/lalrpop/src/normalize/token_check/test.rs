@@ -570,8 +570,8 @@ check_err
 r
 #
 "
-unclosed
-group
+Unclosed
+parenthesis
 "
 #
 r

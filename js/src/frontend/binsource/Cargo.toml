@@ -4,7 +4,7 @@ package
 name
 =
 "
-binast
+binsource
 "
 version
 =
@@ -13,7 +13,7 @@ version
 .
 1
 .
-1
+0
 "
 authors
 =
@@ -42,9 +42,9 @@ binjs_meta
 ^
 0
 .
-4
-.
 3
+.
+10
 "
 clap
 =
@@ -95,5 +95,7 @@ webidl
 ^
 0
 .
-8
+6
+.
+0
 "

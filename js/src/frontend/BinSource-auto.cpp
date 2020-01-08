@@ -10540,7 +10540,7 @@ name
 tokenizer_
 -
 >
-readIdentifierName
+readAtom
 (
 )
 )
@@ -11123,7 +11123,7 @@ name
 tokenizer_
 -
 >
-readIdentifierName
+readAtom
 (
 )
 )
@@ -11304,7 +11304,7 @@ name
 tokenizer_
 -
 >
-readIdentifierName
+readAtom
 (
 )
 )
@@ -11837,7 +11837,7 @@ name
 tokenizer_
 -
 >
-readIdentifierName
+readAtom
 (
 )
 )
@@ -12078,7 +12078,7 @@ name
 tokenizer_
 -
 >
-readIdentifierName
+readAtom
 (
 )
 )
@@ -13083,7 +13083,7 @@ name
 tokenizer_
 -
 >
-readIdentifierName
+readAtom
 (
 )
 )
@@ -14159,7 +14159,7 @@ name
 tokenizer_
 -
 >
-readIdentifierName
+readAtom
 (
 )
 )
@@ -22135,7 +22135,7 @@ name
 tokenizer_
 -
 >
-readIdentifierName
+readAtom
 (
 )
 )
@@ -26127,7 +26127,7 @@ property
 tokenizer_
 -
 >
-readPropertyKey
+readAtom
 (
 )
 )
@@ -26296,7 +26296,7 @@ property
 tokenizer_
 -
 >
-readPropertyKey
+readAtom
 (
 )
 )

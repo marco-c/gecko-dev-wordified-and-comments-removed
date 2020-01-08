@@ -611,7 +611,9 @@ current
 =
 last
 ;
-while
+loop
+{
+if
 let
 Some
 (
@@ -640,6 +642,11 @@ current
 =
 previous
 ;
+}
+else
+{
+break
+}
 }
 path
 .

@@ -331,7 +331,7 @@ NodeId
 N
 >
 {
-if
+while
 let
 Some
 (
@@ -919,7 +919,7 @@ NodeId
 N
 >
 {
-if
+while
 let
 Some
 (

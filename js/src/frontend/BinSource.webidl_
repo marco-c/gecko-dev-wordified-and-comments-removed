@@ -30,10 +30,6 @@ IdentifierName
 ;
 typedef
 string
-PropertyKey
-;
-typedef
-string
 Label
 ;
 enum

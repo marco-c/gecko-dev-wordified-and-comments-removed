@@ -6059,7 +6059,7 @@ self
 .
 iter
 .
-ex_find_map
+find_map
 (
 |
 (
@@ -6171,7 +6171,7 @@ self
 .
 iter
 .
-ex_rfind_map
+rfind_map
 (
 |
 (
@@ -7243,7 +7243,7 @@ self
 .
 iter
 .
-ex_find_map
+find_map
 (
 |
 (
@@ -7330,7 +7330,7 @@ self
 .
 iter
 .
-ex_rfind_map
+rfind_map
 (
 |
 (
@@ -7975,7 +7975,7 @@ self
 .
 iter
 .
-ex_find_map
+find_map
 (
 |
 (
@@ -8084,7 +8084,7 @@ self
 .
 iter
 .
-ex_rfind_map
+rfind_map
 (
 |
 (
@@ -8315,7 +8315,7 @@ self
 .
 iter
 .
-ex_find_map
+find_map
 (
 |
 (
@@ -8424,7 +8424,7 @@ self
 .
 iter
 .
-ex_rfind_map
+rfind_map
 (
 |
 (
