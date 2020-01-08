@@ -269,7 +269,7 @@ tab
 ;
 win
 .
-BrowserGoHome
+BrowserHome
 (
 )
 ;

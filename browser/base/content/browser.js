@@ -11562,13 +11562,8 @@ reloadFlags
 )
 ;
 }
-var
-BrowserHome
-=
-BrowserGoHome
-;
 function
-BrowserGoHome
+BrowserHome
 (
 aEvent
 )

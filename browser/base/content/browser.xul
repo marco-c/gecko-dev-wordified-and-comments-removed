@@ -7756,7 +7756,7 @@ goHome
 onclick
 =
 "
-BrowserGoHome
+BrowserHome
 (
 event
 )

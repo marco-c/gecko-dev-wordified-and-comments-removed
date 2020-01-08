@@ -1920,7 +1920,7 @@ promisePopupShown
 panel
 )
 ;
-BrowserGoHome
+BrowserHome
 (
 )
 ;
