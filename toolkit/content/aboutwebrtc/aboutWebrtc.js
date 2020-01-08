@@ -5139,7 +5139,7 @@ candidateType
 {
 c
 .
-mozLocalTransport
+relayProtocol
 }
 ;
 }

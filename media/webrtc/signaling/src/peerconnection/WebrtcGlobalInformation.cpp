@@ -4142,7 +4142,7 @@ if
 cand
 -
 >
-mMozLocalTransport
+mRelayProtocol
 .
 WasPassed
 (
@@ -4158,7 +4158,7 @@ NS_ConvertUTF16toUTF8
 cand
 -
 >
-mMozLocalTransport
+mRelayProtocol
 .
 Value
 (

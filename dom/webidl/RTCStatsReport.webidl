@@ -759,8 +759,12 @@ mozLocalTransport
 ;
 /
 /
-needs
-standardization
+obsoleted
+by
+relayProtocol
+DOMString
+relayProtocol
+;
 long
 portNumber
 ;
