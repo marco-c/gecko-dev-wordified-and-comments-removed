@@ -7852,6 +7852,10 @@ if
 docShell
 )
 {
+mFocusedWindow
+=
+nullptr
+;
 mFocusedElement
 =
 nullptr
@@ -7880,6 +7884,10 @@ presShell
 )
 {
 mFocusedElement
+=
+nullptr
+;
+mFocusedWindow
 =
 nullptr
 ;
