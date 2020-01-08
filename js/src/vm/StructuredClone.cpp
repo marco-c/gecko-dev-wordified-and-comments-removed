@@ -8708,7 +8708,7 @@ if
 SavedFrame
 :
 :
-isSavedFrameOrWrapperAndNotProto
+isSavedFrameOrWrapper
 (
 *
 obj
@@ -9982,7 +9982,7 @@ Set
 SavedFrame
 :
 :
-isSavedFrameOrWrapperAndNotProto
+isSavedFrameOrWrapper
 (
 *
 obj
