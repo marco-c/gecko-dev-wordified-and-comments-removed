@@ -12,16 +12,6 @@ test_default_additional_backgrounds_alignment
 )
 {
 const
-LEFT_TOP
-=
-"
-0
-%
-0
-%
-"
-;
-const
 RIGHT_TOP
 =
 "
@@ -198,7 +188,7 @@ background
 position
 "
 )
-LEFT_TOP
+RIGHT_TOP
 toolbox
 .
 id
