@@ -2287,6 +2287,14 @@ set
         
 self
 .
+_rust_dirs
+=
+set
+(
+)
+        
+self
+.
 _no_skip
 =
 {
@@ -4057,6 +4065,17 @@ obj
 backend_file
 )
             
+self
+.
+_rust_dirs
+.
+add
+(
+obj
+.
+relobjdir
+)
+            
 build_target
 =
 self
@@ -4087,6 +4106,17 @@ _process_host_rust_program
 (
 obj
 backend_file
+)
+            
+self
+.
+_rust_dirs
+.
+add
+(
+obj
+.
+relobjdir
 )
             
 build_target
@@ -4342,6 +4372,17 @@ _process_rust_library
 (
 obj
 backend_file
+)
+            
+self
+.
+_rust_dirs
+.
+add
+(
+obj
+.
+relobjdir
 )
             
 build_target
@@ -5220,11 +5261,16 @@ r
 in
 roots
 if
-'
-rust
-'
-in
+mozpath
+.
+dirname
+(
 r
+)
+in
+self
+.
+_rust_dirs
 )
                                         
 (
@@ -5234,12 +5280,17 @@ r
 in
 roots
 if
-'
-rust
-'
+mozpath
+.
+dirname
+(
+r
+)
 not
 in
-r
+self
+.
+_rust_dirs
 )
 )
 )
