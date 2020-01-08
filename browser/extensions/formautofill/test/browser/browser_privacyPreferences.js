@@ -30,7 +30,7 @@ group
 :
 "
 #
-passwordsGroup
+formAutofillGroupBox
 "
 addressAutofillCheckbox
 :
