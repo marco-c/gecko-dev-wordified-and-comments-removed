@@ -446,8 +446,10 @@ weakMapAction
 =
 DoNotTraceWeakMaps
 )
+{
 return
 ;
+}
 if
 (
 trc
@@ -483,6 +485,7 @@ popFront
 (
 )
 )
+{
 TraceEdge
 (
 trc
@@ -503,6 +506,7 @@ key
 "
 )
 ;
+}
 }
 for
 (
@@ -529,6 +533,7 @@ popFront
 (
 )
 )
+{
 TraceEdge
 (
 trc
@@ -549,6 +554,7 @@ value
 "
 )
 ;
+}
 }
 template
 <
@@ -645,6 +651,7 @@ append
 markable
 )
 )
+{
 marker
 -
 >
@@ -652,6 +659,7 @@ abortLinearWeakMarking
 (
 )
 ;
+}
 }
 else
 {
@@ -699,6 +707,7 @@ weakEntries
 )
 )
 )
+{
 marker
 -
 >
@@ -706,6 +715,7 @@ abortLinearWeakMarking
 (
 )
 ;
+}
 }
 }
 template
@@ -966,6 +976,7 @@ key
 )
 )
 )
+{
 addWeakEntry
 (
 marker
@@ -979,6 +990,7 @@ delegate
 markable
 )
 ;
+}
 }
 }
 return
@@ -1036,9 +1048,11 @@ if
 !
 op
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 obj
@@ -1053,9 +1067,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 obj
@@ -1310,12 +1326,14 @@ mutableKey
 )
 )
 )
+{
 e
 .
 removeFront
 (
 )
 ;
+}
 }
 #
 if

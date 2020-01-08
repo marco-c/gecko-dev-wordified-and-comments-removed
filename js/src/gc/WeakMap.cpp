@@ -192,6 +192,7 @@ gcWeakMapList
 (
 )
 )
+{
 m
 -
 >
@@ -199,6 +200,7 @@ marked
 =
 false
 ;
+}
 }
 void
 WeakMapBase
@@ -319,10 +321,12 @@ markIteratively
 marker
 )
 )
+{
 markedAny
 =
 true
 ;
+}
 }
 return
 markedAny
@@ -366,9 +370,11 @@ findZoneEdges
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -480,6 +486,7 @@ gcWeakMapList
 (
 )
 )
+{
 MOZ_ASSERT
 (
 m
@@ -496,6 +503,7 @@ m
 marked
 )
 ;
+}
 #
 endif
 }
@@ -620,9 +628,11 @@ put
 m
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -774,8 +784,10 @@ isMarkedBlack
 (
 )
 )
+{
 continue
 ;
+}
 JSObject
 *
 delegate
@@ -790,8 +802,10 @@ if
 !
 delegate
 )
+{
 continue
 ;
+}
 Zone
 *
 delegateZone
@@ -821,8 +835,10 @@ isGCMarking
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -843,9 +859,11 @@ zone
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -903,6 +921,7 @@ obj
 )
 )
 )
+{
 return
 &
 p
@@ -916,6 +935,7 @@ toObject
 (
 )
 ;
+}
 return
 nullptr
 ;

@@ -612,6 +612,7 @@ if
 !
 aborted
 )
+{
 slices_
 .
 back
@@ -622,6 +623,7 @@ resetReason
 =
 reason
 ;
+}
 }
 void
 nonincremental
@@ -1737,6 +1739,7 @@ if
 (
 enabled
 )
+{
 stats
 .
 beginPhase
@@ -1744,6 +1747,7 @@ beginPhase
 phaseKind
 )
 ;
+}
 }
 ~
 AutoPhase
@@ -1754,6 +1758,7 @@ if
 (
 enabled
 )
+{
 stats
 .
 endPhase
@@ -1761,6 +1766,7 @@ endPhase
 phaseKind
 )
 ;
+}
 }
 Statistics
 &

@@ -465,6 +465,7 @@ if
 (
 p
 )
+{
 exposeGCThingToActiveJS
 (
 p
@@ -475,6 +476,7 @@ value
 )
 )
 ;
+}
 return
 p
 ;
@@ -503,6 +505,7 @@ if
 (
 p
 )
+{
 exposeGCThingToActiveJS
 (
 p
@@ -513,6 +516,7 @@ value
 )
 )
 ;
+}
 return
 p
 ;

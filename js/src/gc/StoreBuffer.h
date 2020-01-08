@@ -332,6 +332,7 @@ put
 last_
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -349,6 +350,7 @@ put
 "
 )
 ;
+}
 }
 last_
 =
@@ -369,6 +371,7 @@ count
 MaxEntries
 )
 )
+{
 owner
 -
 >
@@ -380,6 +383,7 @@ T
 FullBufferReason
 )
 ;
+}
 }
 bool
 has
@@ -539,6 +543,7 @@ if
 !
 storage_
 )
+{
 storage_
 =
 js_new
@@ -549,6 +554,7 @@ LifoAlloc
 LifoAllocBlockSize
 )
 ;
+}
 clear
 (
 )
@@ -739,6 +745,7 @@ if
 !
 storage_
 )
+{
 storage_
 =
 js_new
@@ -749,6 +756,7 @@ LifoAlloc
 LifoAllocBlockSize
 )
 ;
+}
 clear
 (
 )
@@ -770,8 +778,10 @@ if
 !
 storage_
 )
+{
 return
 ;
+}
 storage_
 -
 >
@@ -897,6 +907,7 @@ if
 !
 sizep
 )
+{
 oomUnsafe
 .
 crash
@@ -914,6 +925,7 @@ put
 "
 )
 ;
+}
 *
 sizep
 =
@@ -939,6 +951,7 @@ if
 !
 tp
 )
+{
 oomUnsafe
 .
 crash
@@ -956,12 +969,14 @@ put
 "
 )
 ;
+}
 if
 (
 isAboutToOverflow
 (
 )
 )
+{
 owner
 -
 >
@@ -976,6 +991,7 @@ gcreason
 FULL_GENERIC_BUFFER
 )
 ;
+}
 }
 size_t
 sizeOfExcludingThis
@@ -1813,9 +1829,11 @@ other
 .
 objectAndKind_
 )
+{
 return
 false
 ;
+}
 uint32_t
 end
 =
@@ -2119,8 +2137,10 @@ isEnabled
 (
 )
 )
+{
 return
 ;
+}
 mozilla
 :
 :
@@ -2185,8 +2205,10 @@ isEnabled
 (
 )
 )
+{
 return
 ;
+}
 mozilla
 :
 :
@@ -2206,6 +2228,7 @@ maybeInRememberedSet
 nursery_
 )
 )
+{
 buffer
 .
 put
@@ -2214,6 +2237,7 @@ this
 edge
 )
 ;
+}
 }
 MonoTypeBuffer
 <
@@ -2497,6 +2521,7 @@ overlaps
 edge
 )
 )
+{
 bufferSlot
 .
 last_
@@ -2506,13 +2531,16 @@ merge
 edge
 )
 ;
+}
 else
+{
 put
 (
 bufferSlot
 edge
 )
 ;
+}
 }
 inline
 void

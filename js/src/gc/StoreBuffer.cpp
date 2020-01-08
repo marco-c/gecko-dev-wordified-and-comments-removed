@@ -109,8 +109,10 @@ if
 !
 storage_
 )
+{
 return
 ;
+}
 for
 (
 LifoAlloc
@@ -237,9 +239,11 @@ if
 (
 enabled_
 )
+{
 return
 true
 ;
+}
 checkEmpty
 (
 )
@@ -291,8 +295,10 @@ if
 !
 enabled_
 )
+{
 return
 ;
+}
 aboutToOverflow_
 =
 false
@@ -315,8 +321,10 @@ if
 !
 enabled_
 )
+{
 return
 ;
+}
 aboutToOverflow_
 =
 false
@@ -611,9 +619,11 @@ isEnabled
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
@@ -637,6 +647,7 @@ if
 !
 cells
 )
+{
 oomUnsafe
 .
 crash
@@ -649,6 +660,7 @@ ArenaCellSet
 "
 )
 ;
+}
 arena
 -
 >
@@ -668,6 +680,7 @@ isAboutToOverflow
 (
 )
 )
+{
 rt
 -
 >
@@ -688,6 +701,7 @@ gcreason
 FULL_WHOLE_CELL_BUFFER
 )
 ;
+}
 return
 cells
 ;
@@ -720,6 +734,7 @@ set
 >
 next
 )
+{
 set
 -
 >
@@ -736,6 +751,7 @@ ArenaCellSet
 :
 Empty
 ;
+}
 head_
 =
 nullptr
@@ -744,6 +760,7 @@ if
 (
 storage_
 )
+{
 storage_
 -
 >
@@ -765,6 +782,7 @@ freeAll
 (
 )
 ;
+}
 }
 template
 struct
