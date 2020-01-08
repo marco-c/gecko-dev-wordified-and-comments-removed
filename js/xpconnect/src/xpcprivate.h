@@ -6923,10 +6923,6 @@ nsXPTInterfaceInfo
 *
 mInfo
 ;
-char
-*
-mName
-;
 nsIID
 mIID
 ;
