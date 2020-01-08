@@ -43,13 +43,6 @@ nsIWeakReferenceUtils
 .
 h
 "
-#
-include
-"
-nsWeakReference
-.
-h
-"
 class
 nsGlobalWindowInner
 ;

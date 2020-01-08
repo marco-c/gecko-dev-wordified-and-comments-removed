@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIWeakReference
+nsIWeakReferenceUtils
 .
 h
 "
@@ -65,10 +65,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_XPCIJSWEAKREFERENCE
 private
 :
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 mReferent
 ;
 }

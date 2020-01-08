@@ -126,14 +126,14 @@ h
 #
 include
 "
-ThreadSafeRefcountingWithMainThreadDestruction
+nsIWeakReferenceUtils
 .
 h
 "
 #
 include
 "
-nsWeakReference
+ThreadSafeRefcountingWithMainThreadDestruction
 .
 h
 "

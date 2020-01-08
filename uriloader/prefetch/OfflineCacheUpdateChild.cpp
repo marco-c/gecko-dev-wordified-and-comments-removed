@@ -1295,10 +1295,7 @@ if
 aHoldWeak
 )
 {
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weakRef
 =
 do_GetWeakReference

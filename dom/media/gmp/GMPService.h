@@ -97,13 +97,6 @@ h
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AbstractThread

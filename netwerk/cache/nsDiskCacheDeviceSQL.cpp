@@ -11171,10 +11171,7 @@ cache
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weak
 =
 do_GetWeakReference

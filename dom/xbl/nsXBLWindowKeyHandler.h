@@ -27,14 +27,14 @@ h
 #
 include
 "
-nsWeakPtr
+nsIDOMEventListener
 .
 h
 "
 #
 include
 "
-nsIDOMEventListener
+nsIWeakReferenceUtils
 .
 h
 "

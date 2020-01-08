@@ -74,7 +74,7 @@ h
 #
 include
 "
-nsWeakPtr
+nsWeakReference
 .
 h
 "
@@ -82,13 +82,6 @@ h
 include
 "
 nsIPrompt
-.
-h
-"
-#
-include
-"
-nsWeakReference
 .
 h
 "

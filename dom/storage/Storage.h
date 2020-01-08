@@ -41,7 +41,7 @@ h
 #
 include
 "
-nsWeakReference
+nsCOMPtr
 .
 h
 "

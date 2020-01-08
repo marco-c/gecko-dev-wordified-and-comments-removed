@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
@@ -57,13 +64,6 @@ h
 include
 "
 nsStubMutationObserver
-.
-h
-"
-#
-include
-"
-nsWeakPtr
 .
 h
 "

@@ -540,10 +540,7 @@ nsIPrincipal
 >
 mLoadingPrincipal
 ;
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 mDocument
 ;
 bool

@@ -171,6 +171,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -3867,10 +3874,7 @@ MOZ_ASSERT
 mPrototypeBinding
 )
 ;
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weak
 =
 do_GetWeakReference

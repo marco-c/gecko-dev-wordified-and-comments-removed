@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsWeakPtr
-.
-h
-"
-#
-include
-"
 nsIControllers
 .
 h

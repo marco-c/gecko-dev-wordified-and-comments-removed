@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 nsPluginHost
 .
 h

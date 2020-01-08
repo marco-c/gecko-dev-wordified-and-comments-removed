@@ -780,10 +780,7 @@ nsXBLBindingRequest
 >
 mBindingRequests
 ;
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 mBoundDocument
 ;
 nsCOMPtr

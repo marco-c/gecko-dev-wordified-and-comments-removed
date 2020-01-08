@@ -47,14 +47,14 @@ h
 #
 include
 "
-nsWrapperCache
+nsIWeakReferenceUtils
 .
 h
 "
 #
 include
 "
-nsWeakPtr
+nsWrapperCache
 .
 h
 "

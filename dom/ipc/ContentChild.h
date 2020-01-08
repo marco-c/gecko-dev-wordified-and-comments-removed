@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsWeakPtr
-.
-h
-"
-#
-include
-"
 nsIWindowProvider
 .
 h

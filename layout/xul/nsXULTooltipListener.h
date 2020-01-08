@@ -47,7 +47,7 @@ endif
 #
 include
 "
-nsWeakPtr
+nsIWeakReferenceUtils
 .
 h
 "

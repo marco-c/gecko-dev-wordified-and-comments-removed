@@ -34,13 +34,6 @@ nsIObserver
 .
 h
 "
-#
-include
-"
-nsWeakPtr
-.
-h
-"
 class
 nsIDocument
 ;

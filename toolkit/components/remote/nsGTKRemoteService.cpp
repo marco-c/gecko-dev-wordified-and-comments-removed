@@ -72,7 +72,7 @@ h
 #
 include
 "
-nsIWeakReference
+nsIWeakReferenceUtils
 .
 h
 "
@@ -329,10 +329,7 @@ widget
 NS_ERROR_FAILURE
 )
 ;
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weak
 =
 do_GetWeakReference

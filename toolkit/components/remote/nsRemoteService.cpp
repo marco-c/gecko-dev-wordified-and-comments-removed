@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 nsGTKToolkit
 .
 h

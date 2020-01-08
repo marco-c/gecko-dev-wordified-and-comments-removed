@@ -48,13 +48,6 @@ h
 #
 include
 "
-nsWeakPtr
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

@@ -352,13 +352,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsIPrompt
 .
 h

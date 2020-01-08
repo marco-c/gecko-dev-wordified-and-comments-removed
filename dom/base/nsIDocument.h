@@ -186,6 +186,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
@@ -226,13 +233,6 @@ mozilla
 net
 /
 ReferrerPolicy
-.
-h
-"
-#
-include
-"
-nsWeakReference
 .
 h
 "

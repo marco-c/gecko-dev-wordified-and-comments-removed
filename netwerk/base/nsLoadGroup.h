@@ -42,13 +42,6 @@ h
 #
 include
 "
-nsWeakPtr
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h

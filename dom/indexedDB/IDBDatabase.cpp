@@ -359,6 +359,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 ProfilerHelpers
 .
 h
@@ -4140,10 +4147,7 @@ MOZ_ASSERT
 mBackgroundActor
 )
 ;
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weakRef
 =
 do_GetWeakReference
@@ -4873,10 +4877,7 @@ if
 shouldExpire
 )
 {
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 weakRef
 =
 do_QueryInterface

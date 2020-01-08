@@ -41,6 +41,13 @@ h
 #
 include
 "
+nsIWeakReference
+.
+h
+"
+#
+include
+"
 nsInterfaceHashtable
 .
 h

@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsIWeakReferenceUtils
-.
-h
-"
-#
-include
-"
 nsILoadContext
 .
 h

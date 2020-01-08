@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsZipArchive
 .
 h

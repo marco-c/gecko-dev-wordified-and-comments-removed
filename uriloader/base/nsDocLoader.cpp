@@ -96,7 +96,7 @@ h
 #
 include
 "
-nsWeakPtr
+nsIWeakReferenceUtils
 .
 h
 "

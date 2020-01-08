@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 nsIWidgetListener
 .
 h
@@ -719,10 +712,7 @@ nsPIDOMWindowOuter
 >
 mDOMWindow
 ;
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 mParentWindow
 ;
 nsCOMPtr

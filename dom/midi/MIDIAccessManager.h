@@ -38,13 +38,6 @@ Observer
 .
 h
 "
-#
-include
-"
-nsWeakPtr
-.
-h
-"
 namespace
 mozilla
 {

@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsIXMLContentSink
 .
 h
@@ -31,13 +38,6 @@ h
 include
 "
 nsNodeInfoManager
-.
-h
-"
-#
-include
-"
-nsWeakPtr
 .
 h
 "

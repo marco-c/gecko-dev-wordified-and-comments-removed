@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h
@@ -201,13 +208,6 @@ h
 include
 "
 nsRefreshDriver
-.
-h
-"
-#
-include
-"
-nsWeakReference
 .
 h
 "

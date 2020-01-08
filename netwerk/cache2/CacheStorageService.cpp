@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

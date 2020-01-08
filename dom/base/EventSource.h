@@ -67,13 +67,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsDeque
 .
 h

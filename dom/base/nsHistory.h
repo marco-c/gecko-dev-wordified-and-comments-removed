@@ -384,10 +384,7 @@ GetSessionHistory
 )
 const
 ;
-nsCOMPtr
-<
-nsIWeakReference
->
+nsWeakPtr
 mInnerWindow
 ;
 }
