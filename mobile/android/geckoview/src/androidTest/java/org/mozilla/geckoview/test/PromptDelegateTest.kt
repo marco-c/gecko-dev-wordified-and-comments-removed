@@ -13,6 +13,14 @@ mozilla
 .
 geckoview
 .
+AllowOrDeny
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoResult
 import
 org
@@ -208,7 +216,7 @@ String
 :
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 ?
 {
@@ -324,7 +332,7 @@ String
 :
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 ?
 {
@@ -374,7 +382,9 @@ GeckoResult
 .
 fromValue
 (
-true
+AllowOrDeny
+.
+ALLOW
 )
 }
 AssertCalled
@@ -403,7 +413,7 @@ Int
 :
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 ?
 {
@@ -545,7 +555,7 @@ String
 :
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 ?
 {
@@ -595,7 +605,9 @@ GeckoResult
 .
 fromValue
 (
-false
+AllowOrDeny
+.
+DENY
 )
 }
 AssertCalled
@@ -624,7 +636,7 @@ Int
 :
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 ?
 {

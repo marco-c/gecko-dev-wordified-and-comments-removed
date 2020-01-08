@@ -89,6 +89,14 @@ mozilla
 .
 geckoview
 .
+AllowOrDeny
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoResult
 import
 org
@@ -429,7 +437,7 @@ Int
 :
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 ?
 {
