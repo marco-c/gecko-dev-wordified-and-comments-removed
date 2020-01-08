@@ -4616,6 +4616,9 @@ bind
 success
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 GetJitContext
@@ -4665,6 +4668,8 @@ temp
 )
 ;
 }
+#
+endif
 }
 void
 MacroAssembler
@@ -5506,6 +5511,12 @@ size
 result
 )
 ;
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 CompileZone
 *
 zone
@@ -5622,6 +5633,8 @@ temp
 )
 ;
 }
+#
+endif
 }
 void
 MacroAssembler

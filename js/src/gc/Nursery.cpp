@@ -2032,6 +2032,12 @@ position
 +
 size
 ;
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 runtime
 (
 )
@@ -2047,6 +2053,8 @@ noteNurseryAlloc
 (
 )
 ;
+#
+endif
 JS_EXTRA_POISON
 (
 thing
@@ -3277,6 +3285,12 @@ json
 MICROSECONDS
 )
 ;
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 json
 .
 property
@@ -3323,6 +3337,8 @@ allocsSinceMinorGCTenured
 )
 )
 ;
+#
+endif
 json
 .
 beginObjectProperty
