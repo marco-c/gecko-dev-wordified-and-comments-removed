@@ -931,6 +931,13 @@ MemoryOrdering
 :
 :
 Relaxed
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 sActiveAndFeatures
 ;
