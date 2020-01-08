@@ -1,8 +1,4 @@
 import
-base64
-import
-imghdr
-import
 pytest
 from
 tests
@@ -11,6 +7,7 @@ support
 .
 asserts
 import
+assert_png
 assert_success
 from
 tests
@@ -145,29 +142,10 @@ assert_success
 response
 )
         
-image
-=
-base64
-.
-decodestring
+assert_png
 (
 value
 )
-        
-assert
-imghdr
-.
-what
-(
-"
-"
-image
-)
-=
-=
-"
-png
-"
         
 assert
 session
