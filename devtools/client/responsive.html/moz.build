@@ -141,13 +141,6 @@ reducers
 js
 '
 '
-responsive
--
-ua
-.
-css
-'
-'
 setting
 -
 onboarding
