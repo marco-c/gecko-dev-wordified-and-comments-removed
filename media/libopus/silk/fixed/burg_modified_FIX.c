@@ -187,7 +187,7 @@ SILK_MAX_ORDER_LPC
 opus_int64
 C0_64
 ;
-silk_assert
+celt_assert
 (
 subfr_length
 *

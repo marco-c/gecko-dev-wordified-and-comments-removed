@@ -193,6 +193,10 @@ int
 C
 int
 M
+const
+int
+*
+spread_weight
 )
 ;
 #

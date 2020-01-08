@@ -312,7 +312,7 @@ LSF_COS_TAB_SZ_FIX
 128
 )
 ;
-silk_assert
+celt_assert
 (
 d
 =

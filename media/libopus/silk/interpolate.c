@@ -48,7 +48,7 @@ d
 opus_int
 i
 ;
-silk_assert
+celt_assert
 (
 ifact_Q2
 >
@@ -56,7 +56,7 @@ ifact_Q2
 0
 )
 ;
-silk_assert
+celt_assert
 (
 ifact_Q2
 <

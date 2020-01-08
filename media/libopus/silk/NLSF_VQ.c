@@ -67,7 +67,7 @@ opus_uint8
 *
 cb_Q8_ptr
 ;
-silk_assert
+celt_assert
 (
 (
 LPC_order

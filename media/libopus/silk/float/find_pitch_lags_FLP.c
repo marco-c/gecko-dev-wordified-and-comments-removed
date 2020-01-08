@@ -120,7 +120,7 @@ sCmn
 .
 ltp_mem_length
 ;
-silk_assert
+celt_assert
 (
 buf_len
 >

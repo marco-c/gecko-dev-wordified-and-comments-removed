@@ -394,7 +394,7 @@ Lag_CB_ptr
 ;
 SAVE_STACK
 ;
-silk_assert
+celt_assert
 (
 Fs_kHz
 =
@@ -414,7 +414,7 @@ Fs_kHz
 16
 )
 ;
-silk_assert
+celt_assert
 (
 complexity
 >
@@ -422,7 +422,7 @@ complexity
 SILK_PE_MIN_COMPLEX
 )
 ;
-silk_assert
+celt_assert
 (
 complexity
 <
@@ -695,7 +695,7 @@ frame_8kHz_buf
 }
 else
 {
-silk_assert
+celt_assert
 (
 Fs_kHz
 =
@@ -841,7 +841,7 @@ k
 +
 )
 {
-silk_assert
+celt_assert
 (
 target_ptr
 >
@@ -849,7 +849,7 @@ target_ptr
 frame_4kHz
 )
 ;
-silk_assert
+celt_assert
 (
 target_ptr
 +
@@ -867,7 +867,7 @@ target_ptr
 -
 MIN_LAG_4KHZ
 ;
-silk_assert
+celt_assert
 (
 basis_ptr
 >
@@ -875,7 +875,7 @@ basis_ptr
 frame_4kHz
 )
 ;
-silk_assert
+celt_assert
 (
 basis_ptr
 +
@@ -1229,7 +1229,7 @@ complexity
 1
 )
 ;
-silk_assert
+celt_assert
 (
 3
 *
@@ -1363,7 +1363,7 @@ break
 ;
 }
 }
-silk_assert
+celt_assert
 (
 length_d_srch
 >
@@ -1662,7 +1662,7 @@ k
 +
 )
 {
-silk_assert
+celt_assert
 (
 target_ptr
 >
@@ -1670,7 +1670,7 @@ target_ptr
 frame_8kHz
 )
 ;
-silk_assert
+celt_assert
 (
 target_ptr
 +
@@ -3047,7 +3047,7 @@ opus_int8
 CBimax
 ;
 }
-silk_assert
+celt_assert
 (
 *
 lagIndex
@@ -3127,7 +3127,7 @@ Lag_CB_ptr
 ;
 SAVE_STACK
 ;
-silk_assert
+celt_assert
 (
 complexity
 >
@@ -3135,7 +3135,7 @@ complexity
 SILK_PE_MIN_COMPLEX
 )
 ;
-silk_assert
+celt_assert
 (
 complexity
 <
@@ -3190,7 +3190,7 @@ PE_NB_CBKS_STAGE3_MAX
 }
 else
 {
-silk_assert
+celt_assert
 (
 nb_subfr
 =
@@ -3297,7 +3297,7 @@ k
 2
 )
 ;
-silk_assert
+celt_assert
 (
 lag_high
 -
@@ -3529,7 +3529,7 @@ Lag_CB_ptr
 ;
 SAVE_STACK
 ;
-silk_assert
+celt_assert
 (
 complexity
 >
@@ -3537,7 +3537,7 @@ complexity
 SILK_PE_MIN_COMPLEX
 )
 ;
-silk_assert
+celt_assert
 (
 complexity
 <
@@ -3592,7 +3592,7 @@ PE_NB_CBKS_STAGE3_MAX
 }
 else
 {
-silk_assert
+celt_assert
 (
 nb_subfr
 =

@@ -289,7 +289,7 @@ opus_int32
 XXLTP_Q17
 )
 ;
-silk_assert
+celt_assert
 (
 psEnc
 -

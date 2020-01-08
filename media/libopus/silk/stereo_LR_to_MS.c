@@ -597,7 +597,7 @@ silk_SMLABB
 (
 2000
 fs_kHz
-900
+600
 )
 ;
 silk_assert

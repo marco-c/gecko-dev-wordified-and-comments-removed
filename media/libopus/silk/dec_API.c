@@ -298,7 +298,7 @@ delay_stack_alloc
 ;
 SAVE_STACK
 ;
-silk_assert
+celt_assert
 (
 decControl
 -
@@ -605,7 +605,7 @@ nb_subfr
 }
 else
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -650,7 +650,7 @@ fs_kHz_dec
 16
 )
 {
-silk_assert
+celt_assert
 (
 0
 )

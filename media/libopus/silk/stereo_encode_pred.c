@@ -56,7 +56,7 @@ ix
 2
 ]
 ;
-silk_assert
+celt_assert
 (
 n
 <
@@ -86,7 +86,7 @@ n
 +
 )
 {
-silk_assert
+celt_assert
 (
 ix
 [
@@ -99,7 +99,7 @@ n
 3
 )
 ;
-silk_assert
+celt_assert
 (
 ix
 [

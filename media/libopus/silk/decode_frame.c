@@ -91,7 +91,7 @@ LTP_scale_Q14
 =
 0
 ;
-silk_assert
+celt_assert
 (
 L
 >
@@ -239,7 +239,7 @@ indices
 .
 signalType
 ;
-silk_assert
+celt_assert
 (
 psDec
 -
@@ -291,7 +291,7 @@ arch
 )
 ;
 }
-silk_assert
+celt_assert
 (
 psDec
 -

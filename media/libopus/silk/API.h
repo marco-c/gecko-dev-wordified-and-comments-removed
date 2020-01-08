@@ -116,6 +116,8 @@ nBytesOut
 const
 opus_int
 prefillFlag
+int
+activity
 )
 ;
 opus_int

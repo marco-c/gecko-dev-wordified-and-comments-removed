@@ -751,7 +751,7 @@ LTP_ORDER
 /
 2
 ;
-silk_assert
+celt_assert
 (
 start_idx
 >
@@ -1148,7 +1148,7 @@ i
 +
 )
 {
-silk_assert
+celt_assert
 (
 psDec
 -

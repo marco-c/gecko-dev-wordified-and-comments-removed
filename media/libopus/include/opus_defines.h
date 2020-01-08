@@ -549,6 +549,9 @@ OPUS_GET_PHASE_INVERSION_DISABLED_REQUEST
 4047
 #
 define
+OPUS_HAVE_OPUS_PROJECTION_H
+#
+define
 __opus_check_int
 (
 x

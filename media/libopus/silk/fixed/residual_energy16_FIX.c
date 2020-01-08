@@ -64,7 +64,7 @@ opus_int32
 *
 pRow
 ;
-silk_assert
+celt_assert
 (
 D
 >
@@ -72,7 +72,7 @@ D
 0
 )
 ;
-silk_assert
+celt_assert
 (
 D
 <
@@ -80,14 +80,14 @@ D
 16
 )
 ;
-silk_assert
+celt_assert
 (
 cQ
 >
 0
 )
 ;
-silk_assert
+celt_assert
 (
 cQ
 <

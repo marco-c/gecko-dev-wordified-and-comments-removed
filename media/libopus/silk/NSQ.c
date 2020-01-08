@@ -596,7 +596,7 @@ LTP_ORDER
 /
 2
 ;
-silk_assert
+celt_assert
 (
 start_idx
 >
@@ -1162,7 +1162,7 @@ LTP_pred_Q13
 0
 ;
 }
-silk_assert
+celt_assert
 (
 (
 shapingLPCOrder
@@ -1235,7 +1235,7 @@ sLF_AR_shp_Q14
 LF_shp_Q14
 )
 ;
-silk_assert
+celt_assert
 (
 lag
 >

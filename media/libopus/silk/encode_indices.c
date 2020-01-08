@@ -102,7 +102,7 @@ psIndices
 >
 quantOffsetType
 ;
-silk_assert
+celt_assert
 (
 typeOffset
 >
@@ -115,7 +115,7 @@ typeOffset
 6
 )
 ;
-silk_assert
+celt_assert
 (
 encode_LBRR
 =
@@ -401,7 +401,7 @@ NLSFIndices
 ]
 )
 ;
-silk_assert
+celt_assert
 (
 psEncC
 -

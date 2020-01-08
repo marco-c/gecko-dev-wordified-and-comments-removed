@@ -53,7 +53,7 @@ Ctmp1_Q30
 Ctmp2_Q30
 rc_tmp_Q31
 ;
-silk_assert
+celt_assert
 (
 order
 >

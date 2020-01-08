@@ -53,7 +53,7 @@ Ctmp1
 Ctmp2
 rc_tmp
 ;
-silk_assert
+celt_assert
 (
 order
 >

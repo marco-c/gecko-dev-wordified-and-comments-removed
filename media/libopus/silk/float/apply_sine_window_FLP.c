@@ -46,7 +46,7 @@ c
 S0
 S1
 ;
-silk_assert
+celt_assert
 (
 win_type
 =
@@ -60,7 +60,7 @@ win_type
 2
 )
 ;
-silk_assert
+celt_assert
 (
 (
 length

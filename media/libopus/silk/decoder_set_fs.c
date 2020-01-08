@@ -35,7 +35,7 @@ ret
 =
 0
 ;
-silk_assert
+celt_assert
 (
 fs_kHz
 =
@@ -55,7 +55,7 @@ fs_kHz
 16
 )
 ;
-silk_assert
+celt_assert
 (
 psDec
 -
@@ -361,7 +361,7 @@ silk_uniform4_iCDF
 }
 else
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -443,7 +443,7 @@ frame_length
 frame_length
 ;
 }
-silk_assert
+celt_assert
 (
 psDec
 -

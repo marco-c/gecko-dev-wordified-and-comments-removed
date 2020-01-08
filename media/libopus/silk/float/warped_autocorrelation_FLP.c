@@ -102,7 +102,7 @@ MAX_SHAPE_LPC_ORDER
 0
 }
 ;
-silk_assert
+celt_assert
 (
 (
 order

@@ -2849,7 +2849,7 @@ q
 opus_val32
 tmp
 ;
-celt_assert
+celt_sig_assert
 (
 c
 <

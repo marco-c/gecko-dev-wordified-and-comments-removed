@@ -121,7 +121,7 @@ offset
 opus_int16
 )
 ;
-silk_assert
+celt_assert
 (
 (
 nb_subfr

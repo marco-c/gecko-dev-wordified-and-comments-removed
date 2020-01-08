@@ -240,7 +240,7 @@ Fs_Hz_out
 )
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -326,7 +326,7 @@ Fs_Hz_out
 )
 )
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -670,7 +670,7 @@ silk_Resampler_1_6_COEFS
 }
 else
 {
-silk_assert
+celt_assert
 (
 0
 )
@@ -764,7 +764,7 @@ inLen
 opus_int
 nSamples
 ;
-silk_assert
+celt_assert
 (
 inLen
 >
@@ -775,7 +775,7 @@ S
 Fs_in_kHz
 )
 ;
-silk_assert
+celt_assert
 (
 S
 -

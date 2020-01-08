@@ -84,7 +84,7 @@ opus_int32
 S0_Q16
 S1_Q16
 ;
-silk_assert
+celt_assert
 (
 win_type
 =
@@ -98,7 +98,7 @@ win_type
 2
 )
 ;
-silk_assert
+celt_assert
 (
 length
 >
@@ -112,7 +112,7 @@ length
 120
 )
 ;
-silk_assert
+celt_assert
 (
 (
 length
@@ -135,7 +135,7 @@ length
 -
 4
 ;
-silk_assert
+celt_assert
 (
 k
 >

@@ -63,7 +63,7 @@ nrg
 0f
 regularization
 ;
-silk_assert
+celt_assert
 (
 D
 >

@@ -139,6 +139,8 @@ silk_encode_do_VAD_FIX
 silk_encoder_state_FIX
 *
 psEnc
+opus_int
+activity
 )
 ;
 opus_int

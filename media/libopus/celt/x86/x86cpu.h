@@ -204,6 +204,12 @@ x
 endif
 #
 if
+defined
+(
+__clang__
+)
+|
+|
 !
 defined
 (

@@ -1266,7 +1266,7 @@ LTP_ORDER
 /
 2
 ;
-silk_assert
+celt_assert
 (
 start_idx
 >
@@ -1955,7 +1955,7 @@ psSS
 ;
 SAVE_STACK
 ;
-silk_assert
+celt_assert
 (
 nStatesDelayedDecision
 >
@@ -2289,7 +2289,7 @@ LPC_pred_Q14
 4
 )
 ;
-silk_assert
+celt_assert
 (
 (
 shapingLPCOrder

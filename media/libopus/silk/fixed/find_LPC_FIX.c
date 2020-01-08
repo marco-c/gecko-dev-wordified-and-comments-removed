@@ -573,7 +573,7 @@ predictLPCOrder
 )
 ;
 }
-silk_assert
+celt_assert
 (
 psEncC
 -
