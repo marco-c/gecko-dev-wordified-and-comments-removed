@@ -175,9 +175,6 @@ amount
 bool
 pending
 ;
-nsString
-type
-;
 }
 ;
 struct

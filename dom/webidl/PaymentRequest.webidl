@@ -185,14 +185,6 @@ iso
 ;
 }
 ;
-enum
-PaymentItemType
-{
-"
-tax
-"
-}
-;
 dictionary
 PaymentItem
 {
@@ -208,9 +200,6 @@ boolean
 pending
 =
 false
-;
-PaymentItemType
-type
 ;
 }
 ;
