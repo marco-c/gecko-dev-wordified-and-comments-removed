@@ -4381,6 +4381,8 @@ bug_numbers
 :
 -
 1476456
+-
+1499803
 description
 :
 >
@@ -4424,7 +4426,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
@@ -4437,6 +4439,8 @@ bug_numbers
 :
 -
 1476456
+-
+1499803
 description
 :
 >
@@ -4491,7 +4495,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
@@ -4504,6 +4508,8 @@ bug_numbers
 :
 -
 1476456
+-
+1499803
 description
 :
 >
@@ -4564,7 +4570,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
@@ -4577,6 +4583,8 @@ bug_numbers
 :
 -
 1476456
+-
+1499803
 description
 :
 >
@@ -4647,7 +4655,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
@@ -4660,6 +4668,8 @@ bug_numbers
 :
 -
 1480484
+-
+1499803
 description
 :
 >
@@ -4710,7 +4720,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
@@ -4723,6 +4733,8 @@ bug_numbers
 :
 -
 1476456
+-
+1499803
 description
 :
 >
@@ -4782,7 +4794,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
@@ -4795,6 +4807,8 @@ bug_numbers
 :
 -
 1483703
+-
+1499803
 description
 :
 >
@@ -4843,7 +4857,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
@@ -4856,6 +4870,8 @@ bug_numbers
 :
 -
 1483703
+-
+1499803
 description
 :
 >
@@ -4911,7 +4927,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 -
