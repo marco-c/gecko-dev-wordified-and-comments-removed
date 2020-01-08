@@ -12,8 +12,26 @@ import
 os
 import
 unittest
+from
+six
+.
+moves
+.
+urllib
+.
+request
 import
-urllib2
+urlopen
+from
+six
+.
+moves
+.
+urllib
+.
+error
+import
+HTTPError
 import
 mozunit
 class
@@ -36,8 +54,6 @@ expected_contents
         
 f
 =
-urllib2
-.
 urlopen
 (
 url
@@ -80,16 +96,12 @@ self
 .
 assertRaises
 (
-urllib2
-.
 HTTPError
 )
 as
 cm
 :
             
-urllib2
-.
 urlopen
 (
 url
@@ -256,6 +268,7 @@ test1
 txt
 "
 )
+b
 "
 test
 1
@@ -280,6 +293,7 @@ test2
 txt
 "
 )
+b
 "
 test
 2
@@ -467,6 +481,7 @@ test1
 txt
 "
 )
+b
 "
 test
 1
@@ -491,6 +506,7 @@ test2
 txt
 "
 )
+b
 "
 test
 2
@@ -622,6 +638,7 @@ test1
 txt
 "
 )
+b
 "
 test
 1

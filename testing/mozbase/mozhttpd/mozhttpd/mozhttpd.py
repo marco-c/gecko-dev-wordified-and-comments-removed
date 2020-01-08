@@ -614,6 +614,8 @@ disk_path
         
 path_components
 =
+list
+(
 filter
 (
 None
@@ -628,6 +630,7 @@ split
 '
 /
 '
+)
 )
 )
         
@@ -645,6 +648,8 @@ path_mappings
             
 prefix_components
 =
+list
+(
 filter
 (
 None
@@ -655,6 +660,7 @@ split
 '
 /
 '
+)
 )
 )
             
@@ -986,10 +992,13 @@ split
         
 words
 =
+list
+(
 filter
 (
 None
 words
+)
 )
         
 path

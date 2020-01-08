@@ -5,11 +5,19 @@ absolute_import
 import
 mozhttpd
 import
-urllib2
-import
 os
 import
 unittest
+from
+six
+.
+moves
+.
+urllib
+.
+request
+import
+urlopen
 import
 mozunit
 here
@@ -108,8 +116,6 @@ server_port
         
 f
 =
-urllib2
-.
 urlopen
 (
 url
