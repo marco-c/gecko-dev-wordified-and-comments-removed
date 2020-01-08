@@ -3496,6 +3496,15 @@ MatchPatternSet
 this
 .
 documentUrlPatterns
+{
+restrictSchemes
+:
+this
+.
+extension
+.
+restrictSchemes
+}
 )
 ;
 }
