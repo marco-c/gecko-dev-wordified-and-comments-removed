@@ -20,3 +20,6 @@ ac_add_options
 enable
 -
 debug
+=
+-
+g1
