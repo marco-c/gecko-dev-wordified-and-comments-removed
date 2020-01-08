@@ -1452,7 +1452,7 @@ len
 ;
 log
 .
-SetCapacity
+SetLength
 (
 len
 )
@@ -1482,13 +1482,6 @@ log
 BeginWriting
 (
 )
-)
-;
-log
-.
-SetLength
-(
-len
 )
 ;
 printf_stderr
@@ -1628,7 +1621,7 @@ len
 ;
 log
 .
-SetCapacity
+SetLength
 (
 len
 )
@@ -1655,13 +1648,6 @@ log
 BeginWriting
 (
 )
-)
-;
-log
-.
-SetLength
-(
-len
 )
 ;
 printf_stderr
