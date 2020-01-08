@@ -27816,10 +27816,6 @@ const
 nsCString
 &
 aGrantedOrigin
-FirstPartyStorageAccessGrantedForOriginResolver
-&
-&
-aResolver
 )
 {
 AntiTrackingCommon
@@ -27830,13 +27826,6 @@ SaveFirstPartyStorageAccessGrantedForOriginOnParentProcess
 aParentPrincipal
 aTrackingOrigin
 aGrantedOrigin
-std
-:
-:
-move
-(
-aResolver
-)
 )
 ;
 return

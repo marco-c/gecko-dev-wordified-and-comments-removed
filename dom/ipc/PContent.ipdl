@@ -6342,11 +6342,6 @@ aTrackingOrigin
 nsCString
 aGrantedOrigin
 )
-returns
-(
-bool
-unused
-)
 ;
 both
 :
