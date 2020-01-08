@@ -111,10 +111,6 @@ WebGLFramebufferAttachable
 :
 InvalidateStatusOfAttachedFBs
 (
-const
-char
-*
-funcName
 )
 const
 {
@@ -166,7 +162,6 @@ mFB
 >
 InvalidateFramebufferStatus
 (
-funcName
 )
 ;
 }
