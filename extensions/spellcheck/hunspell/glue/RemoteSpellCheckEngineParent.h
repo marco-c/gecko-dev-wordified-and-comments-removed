@@ -97,10 +97,10 @@ nsString
 &
 &
 aList
-const
-intptr_t
+SetDictionaryFromListResolver
 &
-aPromiseId
+&
+aResolve
 )
 override
 ;
