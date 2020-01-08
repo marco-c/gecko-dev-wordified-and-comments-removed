@@ -49,7 +49,7 @@ search
 xml
 "
 "
-enableOneOffSearches
+set_oneOffSearchesEnabled
 chrome
 :
 /
