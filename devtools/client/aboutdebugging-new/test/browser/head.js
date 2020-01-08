@@ -138,7 +138,7 @@ e
 }
 const
 {
-ADB
+adbProcess
 }
 =
 require
@@ -151,11 +151,13 @@ shared
 adb
 /
 adb
+-
+process
 "
 )
 ;
 await
-ADB
+adbProcess
 .
 kill
 (

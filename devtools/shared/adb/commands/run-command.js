@@ -43,7 +43,7 @@ jsm
 ;
 const
 {
-ADB
+adbProcess
 }
 =
 require
@@ -53,6 +53,8 @@ require
 .
 /
 adb
+-
+process
 "
 )
 ;
@@ -107,7 +109,7 @@ reject
 if
 (
 !
-ADB
+adbProcess
 .
 ready
 )

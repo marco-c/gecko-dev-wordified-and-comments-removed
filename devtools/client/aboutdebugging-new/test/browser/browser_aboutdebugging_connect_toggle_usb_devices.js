@@ -27,7 +27,7 @@ jsm
 ;
 const
 {
-ADB
+adbProcess
 }
 =
 require
@@ -40,6 +40,8 @@ shared
 adb
 /
 adb
+-
+process
 "
 )
 ;
@@ -424,7 +426,7 @@ waitUntil
 )
 =
 >
-ADB
+adbProcess
 .
 ready
 )

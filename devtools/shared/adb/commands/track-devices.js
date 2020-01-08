@@ -59,7 +59,7 @@ jsm
 ;
 const
 {
-ADB
+adbProcess
 }
 =
 require
@@ -69,6 +69,8 @@ require
 .
 /
 adb
+-
+process
 "
 )
 ;
@@ -362,12 +364,12 @@ setTimeout
 {
 if
 (
-ADB
+adbProcess
 .
 ready
 )
 {
-ADB
+adbProcess
 .
 start
 (

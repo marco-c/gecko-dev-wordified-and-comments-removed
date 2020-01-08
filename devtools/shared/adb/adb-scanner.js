@@ -37,7 +37,7 @@ DevToolsUtils
 ;
 const
 {
-ADB
+adbProcess
 }
 =
 require
@@ -50,6 +50,8 @@ shared
 adb
 /
 adb
+-
+process
 "
 )
 ;
@@ -265,7 +267,7 @@ this
 _updateRuntimes
 )
 ;
-ADB
+adbProcess
 .
 start
 (

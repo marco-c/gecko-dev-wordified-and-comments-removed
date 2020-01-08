@@ -111,7 +111,7 @@ checker
 ;
 const
 {
-ADB
+adbProcess
 }
 =
 require
@@ -124,6 +124,8 @@ shared
 adb
 /
 adb
+-
+process
 "
 )
 ;
@@ -981,7 +983,7 @@ startup
 )
 ;
 await
-ADB
+adbProcess
 .
 start
 (
@@ -989,7 +991,7 @@ start
 ;
 ok
 (
-ADB
+adbProcess
 .
 ready
 )
@@ -1009,7 +1011,7 @@ running
 )
 ;
 await
-ADB
+adbProcess
 .
 stop
 (
@@ -1018,7 +1020,7 @@ stop
 ok
 (
 !
-ADB
+adbProcess
 .
 ready
 )
@@ -1042,14 +1044,14 @@ running
 )
 ;
 await
-ADB
+adbProcess
 .
 start
 (
 )
 ;
 await
-ADB
+adbProcess
 .
 start
 (
@@ -1057,7 +1059,7 @@ start
 ;
 ok
 (
-ADB
+adbProcess
 .
 ready
 )
@@ -1077,7 +1079,7 @@ running
 )
 ;
 await
-ADB
+adbProcess
 .
 stop
 (
@@ -1086,7 +1088,7 @@ stop
 ok
 (
 !
-ADB
+adbProcess
 .
 ready
 )
@@ -1261,7 +1263,7 @@ startup
 )
 ;
 await
-ADB
+adbProcess
 .
 start
 (
@@ -1269,7 +1271,7 @@ start
 ;
 ok
 (
-ADB
+adbProcess
 .
 ready
 )
@@ -1346,7 +1348,7 @@ receivedDeviceId
 )
 ;
 await
-ADB
+adbProcess
 .
 stop
 (
@@ -1355,7 +1357,7 @@ stop
 ok
 (
 !
-ADB
+adbProcess
 .
 ready
 )
