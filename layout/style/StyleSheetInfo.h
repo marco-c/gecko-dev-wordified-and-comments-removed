@@ -180,9 +180,6 @@ dom
 SRIMetadata
 mIntegrity
 ;
-bool
-mComplete
-;
 RefPtr
 <
 StyleSheet
