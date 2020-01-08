@@ -409,7 +409,7 @@ richlistbox
 id
 =
 "
-requestedLocales
+selectedLocales
 "
 /
 >
