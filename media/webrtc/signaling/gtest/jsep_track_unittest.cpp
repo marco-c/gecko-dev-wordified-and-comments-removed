@@ -867,6 +867,7 @@ mSendOff
 AddToOffer
 (
 mSsrcGenerator
+true
 &
 GetOffer
 (
@@ -878,6 +879,7 @@ mRecvOff
 AddToOffer
 (
 mSsrcGenerator
+true
 &
 GetOffer
 (
@@ -928,6 +930,7 @@ GetOffer
 (
 )
 mSsrcGenerator
+true
 &
 GetAnswer
 (
@@ -942,6 +945,7 @@ GetOffer
 (
 )
 mSsrcGenerator
+true
 &
 GetAnswer
 (

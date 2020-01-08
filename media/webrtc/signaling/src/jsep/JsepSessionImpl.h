@@ -241,6 +241,10 @@ mRunSdpComparer
 (
 false
 )
+mEncodeTrackId
+(
+true
+)
 {
 }
 virtual
@@ -1532,6 +1536,9 @@ mRunRustParser
 ;
 bool
 mRunSdpComparer
+;
+bool
+mEncodeTrackId
 ;
 RsdparsaSdpParser
 mRsdparsaParser

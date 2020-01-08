@@ -558,6 +558,8 @@ AddToOffer
 SsrcGenerator
 &
 ssrcGenerator
+bool
+encodeTrackId
 SdpMediaSection
 *
 offer
@@ -566,6 +568,7 @@ offer
 AddToMsection
 (
 mPrototypeCodecs
+encodeTrackId
 offer
 )
 ;
@@ -630,6 +633,8 @@ offer
 SsrcGenerator
 &
 ssrcGenerator
+bool
+encodeTrackId
 SdpMediaSection
 *
 answer
@@ -675,6 +680,7 @@ return
 AddToMsection
 (
 codecs
+encodeTrackId
 answer
 )
 ;
@@ -866,6 +872,8 @@ JsepCodecDescription
 >
 &
 codecs
+bool
+encodeTrackId
 SdpMediaSection
 *
 msection
@@ -963,7 +971,12 @@ AddMsid
 "
 -
 "
+encodeTrackId
+?
 mTrackId
+:
+"
+"
 )
 ;
 }
@@ -988,7 +1001,12 @@ msection
 AddMsid
 (
 streamId
+encodeTrackId
+?
 mTrackId
+:
+"
+"
 )
 ;
 break
