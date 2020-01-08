@@ -83,7 +83,7 @@ automation
 BENCHMARK_REVISION
 =
 '
-4befd28725c687b91ce749420eab29352ecbcab4
+2720cdc790828952964524bb44ce8b4c14670e90
 '
 class
 RaptorRunner

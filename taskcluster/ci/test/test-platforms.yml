@@ -1900,6 +1900,12 @@ hw
 arm7
 -
 raptor
+-
+raptor
+-
+fetch
+-
+geckoview
 #
 android
 -
@@ -1968,6 +1974,12 @@ hw
 arm7
 -
 raptor
+-
+raptor
+-
+fetch
+-
+geckoview
 android
 -
 hw
