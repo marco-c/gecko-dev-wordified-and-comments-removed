@@ -6582,7 +6582,7 @@ ifneq
 (
 WINNT
 (
-OS_ARCH
+HOST_OS_ARCH
 )
 )
 ifndef
