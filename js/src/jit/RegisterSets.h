@@ -3261,6 +3261,9 @@ reg
 MOZ_ASSERT
 (
 !
+this
+-
+>
 has
 (
 reg
@@ -3288,6 +3291,9 @@ reg
 {
 MOZ_ASSERT
 (
+this
+-
+>
 has
 (
 reg
@@ -3462,6 +3468,9 @@ preclude
 if
 (
 !
+this
+-
+>
 has
 (
 preclude
@@ -3678,6 +3687,9 @@ const
 ifdef
 JS_NUNBOX32
 return
+this
+-
+>
 has
 (
 v
@@ -3688,6 +3700,9 @@ typeReg
 )
 |
 |
+this
+-
+>
 has
 (
 v
@@ -3700,6 +3715,9 @@ payloadReg
 #
 else
 return
+this
+-
+>
 has
 (
 v
@@ -3917,6 +3935,9 @@ isFloat
 (
 )
 ?
+this
+-
+>
 has
 (
 reg
@@ -3926,6 +3947,9 @@ fpu
 )
 )
 :
+this
+-
+>
 has
 (
 reg
@@ -4042,6 +4066,9 @@ reg
 MOZ_ASSERT
 (
 !
+this
+-
+>
 has
 (
 reg
@@ -4064,6 +4091,9 @@ reg
 MOZ_ASSERT
 (
 !
+this
+-
+>
 has
 (
 reg
