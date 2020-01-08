@@ -673,9 +673,11 @@ sProgressVal
 .
 0f
 )
+{
 return
 0
 ;
+}
 char
 path
 [
@@ -708,10 +710,12 @@ sLabels
 =
 OK
 )
+{
 return
 -
 1
 ;
+}
 /
 /
 Continue
@@ -767,10 +771,12 @@ MAX_TEXT_LEN
 1
 )
 )
+{
 return
 -
 1
 ;
+}
 sIndeterminate
 =
 indeterminate
