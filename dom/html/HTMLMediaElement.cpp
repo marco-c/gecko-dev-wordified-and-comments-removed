@@ -29029,6 +29029,12 @@ mShuttingDown
 =
 true
 ;
+mAutoplayPermissionRequest
+.
+DisconnectIfExists
+(
+)
+;
 ResetState
 (
 )
