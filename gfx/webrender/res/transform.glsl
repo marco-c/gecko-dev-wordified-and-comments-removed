@@ -170,7 +170,7 @@ versions
 /
 /
 of
-OSX
+macOS
 .
 ivec2
 uv

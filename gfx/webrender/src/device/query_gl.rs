@@ -1293,7 +1293,7 @@ warn
 (
 "
 Expect
-OSX
+macOS
 driver
 bugs
 related
