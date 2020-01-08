@@ -6359,7 +6359,6 @@ control
 ref
 .
 html
-fails
 =
 =
 hyphenation
@@ -6378,10 +6377,6 @@ control
 ref
 .
 html
-#
-bug
-1476437
-fails
 =
 =
 hyphenation
@@ -6400,9 +6395,6 @@ control
 ref
 .
 html
-#
-bug
-1476437
 #
 osx
 -
