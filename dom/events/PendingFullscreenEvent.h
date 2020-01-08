@@ -155,8 +155,16 @@ GetComposedDoc
 mDocument
 ?
 mTarget
+.
+get
+(
+)
 :
 mDocument
+.
+get
+(
+)
 ;
 Unused
 <
