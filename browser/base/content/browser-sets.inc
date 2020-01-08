@@ -763,8 +763,11 @@ oncommand
 "
 PlacesCommandHook
 .
-bookmarkCurrentPages
+bookmarkPages
 (
+PlacesCommandHook
+.
+uniqueCurrentPages
 )
 ;
 "
@@ -3854,8 +3857,11 @@ oncommand
 "
 PlacesCommandHook
 .
-bookmarkCurrentPages
+bookmarkPages
 (
+PlacesCommandHook
+.
+uniqueCurrentPages
 )
 ;
 "
