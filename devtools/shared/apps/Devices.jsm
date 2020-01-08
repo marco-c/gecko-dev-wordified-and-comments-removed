@@ -48,6 +48,7 @@ emitter
 const
 {
 adbAddon
+ADB_ADDON_STATES
 }
 =
 require
@@ -83,9 +84,9 @@ status
 =
 =
 =
-"
-installed
-"
+ADB_ADDON_STATES
+.
+INSTALLED
 ;
 const
 Devices
@@ -259,9 +260,9 @@ status
 =
 =
 =
-"
-installed
-"
+ADB_ADDON_STATES
+.
+INSTALLED
 ;
 }
 }
