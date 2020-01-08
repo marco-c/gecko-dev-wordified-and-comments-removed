@@ -274,6 +274,7 @@ now
 -
 1000
 ;
+await
 CommonUtils
 .
 writeJSON
@@ -608,6 +609,7 @@ now
 -
 1000
 ;
+await
 CommonUtils
 .
 writeJSON
