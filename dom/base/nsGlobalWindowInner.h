@@ -1335,14 +1335,6 @@ aVisitor
 )
 override
 ;
-virtual
-PopupControlState
-GetPopupControlState
-(
-)
-const
-override
-;
 void
 Suspend
 (

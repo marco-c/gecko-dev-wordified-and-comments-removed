@@ -282,7 +282,7 @@ mozilla
 /
 dom
 /
-Event
+PointerEventHandler
 .
 h
 "
@@ -293,7 +293,7 @@ mozilla
 /
 dom
 /
-PointerEventHandler
+PopupBlocker
 .
 h
 "
@@ -34477,7 +34477,7 @@ mTimeStamp
 nsAutoPopupStatePusher
 popupStatePusher
 (
-Event
+PopupBlocker
 :
 :
 GetEventPopupControlState

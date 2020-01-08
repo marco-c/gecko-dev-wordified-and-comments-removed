@@ -1564,6 +1564,9 @@ nsISupports
 >
 mPastNameLookupTable
 ;
+PopupBlocker
+:
+:
 PopupControlState
 mSubmitPopupState
 ;

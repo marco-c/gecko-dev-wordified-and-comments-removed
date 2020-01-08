@@ -1110,6 +1110,11 @@ PlacesWeakCallbackWrapper
 h
 '
 '
+PopupBlocker
+.
+h
+'
+'
 Pose
 .
 h
@@ -1863,6 +1868,11 @@ cpp
 '
 '
 ParentProcessMessageManager
+.
+cpp
+'
+'
+PopupBlocker
 .
 cpp
 '

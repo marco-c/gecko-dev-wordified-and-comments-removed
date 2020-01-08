@@ -16,6 +16,13 @@ TimeoutManager
 .
 h
 "
+#
+include
+"
+nsGlobalWindowInner
+.
+h
+"
 namespace
 mozilla
 {
@@ -42,6 +49,9 @@ InvalidFiringId
 )
 mPopupState
 (
+PopupBlocker
+:
+:
 openAllowed
 )
 mReason

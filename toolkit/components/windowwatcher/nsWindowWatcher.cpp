@@ -4880,6 +4880,9 @@ else
 nsAutoPopupStatePusher
 popupStatePusher
 (
+PopupBlocker
+:
+:
 openAbused
 )
 ;

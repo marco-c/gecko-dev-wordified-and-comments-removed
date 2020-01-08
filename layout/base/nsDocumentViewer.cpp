@@ -93,6 +93,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+PopupBlocker
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -4538,6 +4549,9 @@ false
 nsAutoPopupStatePusher
 popupStatePusher
 (
+PopupBlocker
+:
+:
 openAbused
 true
 )
@@ -5431,6 +5445,9 @@ mDocument
 nsAutoPopupStatePusher
 popupStatePusher
 (
+PopupBlocker
+:
+:
 openAbused
 true
 )

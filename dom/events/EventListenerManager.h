@@ -1433,12 +1433,6 @@ nsAtom
 aEvent
 )
 ;
-static
-void
-Shutdown
-(
-)
-;
 bool
 MayHavePaintEventListener
 (
