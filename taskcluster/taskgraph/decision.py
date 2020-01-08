@@ -348,7 +348,7 @@ target_tasks_method
 '
 :
 '
-mozilla_beta_tasks
+mozilla_esr60_tasks
 '
         
 '

@@ -75,6 +75,12 @@ comm
 -
 beta
 '
+    
+'
+comm
+-
+esr60
+'
 }
 RELEASE_PROMOTION_PROJECTS
 =
