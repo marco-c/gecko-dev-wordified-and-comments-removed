@@ -2093,10 +2093,10 @@ class
 "
 subviewkeynav
 "
-observes
+enabled
 =
 "
-trackingProtectionBroadcaster
+false
 "
 oncommand
 =
