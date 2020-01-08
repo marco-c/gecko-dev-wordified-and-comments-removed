@@ -4005,8 +4005,7 @@ BeginUpdateViewBatch
 (
 )
 ;
-virtual
-nsresult
+void
 EndUpdateViewBatch
 (
 )

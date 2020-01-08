@@ -2037,13 +2037,6 @@ OnEndHandlingTopLevelEditSubAction
 )
 override
 ;
-virtual
-nsresult
-EndUpdateViewBatch
-(
-)
-override
-;
 protected
 :
 virtual
