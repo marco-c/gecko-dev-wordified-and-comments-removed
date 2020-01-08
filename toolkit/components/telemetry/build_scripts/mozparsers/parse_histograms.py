@@ -800,20 +800,6 @@ content
 '
 ]
 )
-            
-definition
-.
-setdefault
-(
-'
-releaseChannelCollection
-'
-'
-opt
--
-out
-'
-)
         
 self
 .
