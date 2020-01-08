@@ -1006,6 +1006,9 @@ out
 size_t
 *
 index
+bool
+*
+isMutable
 )
 const
 {
@@ -1059,6 +1062,17 @@ index
 )
 )
 ;
+*
+isMutable
+=
+descr
+.
+fieldIsMutable
+(
+*
+index
+)
+;
 return
 true
 ;
@@ -1080,6 +1094,9 @@ fieldType
 size_t
 *
 fieldIndex
+bool
+*
+fieldMutable
 )
 const
 {
@@ -1142,6 +1159,7 @@ id
 fieldOffset
 fieldType
 fieldIndex
+fieldMutable
 )
 ;
 case
@@ -1168,6 +1186,7 @@ id
 fieldOffset
 fieldType
 fieldIndex
+fieldMutable
 )
 ;
 default

@@ -8119,6 +8119,17 @@ to
 allocate
 "
 )
+MSG_DEF
+(
+JSMSG_TYPEDOBJECT_SETTING_IMMUTABLE
+0
+JSEXN_ERR
+"
+setting
+immutable
+field
+"
+)
 /
 /
 Array

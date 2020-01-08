@@ -1399,6 +1399,12 @@ ids
 AutoValueVector
 &
 fieldTypeObjs
+Vector
+<
+bool
+>
+&
+fieldMutabilities
 )
 ;
 static
@@ -1569,6 +1575,14 @@ const
 ;
 size_t
 fieldOffset
+(
+size_t
+index
+)
+const
+;
+bool
+fieldIsMutable
 (
 size_t
 index

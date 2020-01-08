@@ -249,6 +249,9 @@ out
 size_t
 *
 index
+bool
+*
+isMutable
 )
 const
 ;
@@ -407,6 +410,9 @@ fieldType
 size_t
 *
 fieldIndex
+bool
+*
+fieldMutable
 )
 const
 ;
