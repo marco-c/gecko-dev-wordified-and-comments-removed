@@ -221,7 +221,7 @@ using
 mozilla
 :
 :
-StaticMutex
+StaticMutexNotRecorded
 ;
 using
 mozilla
@@ -415,7 +415,7 @@ mozilla
 TelemetryIPCAccumulator
 ;
 static
-StaticMutex
+StaticMutexNotRecorded
 gTelemetryHistogramMutex
 ;
 namespace
