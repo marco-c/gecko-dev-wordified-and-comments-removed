@@ -18535,9 +18535,6 @@ aContext
 )
 {
 return
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

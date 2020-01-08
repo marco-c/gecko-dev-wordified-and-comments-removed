@@ -2040,11 +2040,6 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 extent
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )
