@@ -106,6 +106,17 @@ WasmJS
 .
 h
 "
+#
+include
+"
+gc
+/
+Zone
+-
+inl
+.
+h
+"
 namespace
 js
 {
