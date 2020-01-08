@@ -1036,6 +1036,12 @@ mChecker
 endif
 aOther
 .
+mEntryCount
+=
+0
+;
+aOther
+.
 mEntryStore
 .
 Set
