@@ -3662,8 +3662,7 @@ t
 0
 '
 ;
-return
-buffer
+break
 ;
 }
 if
@@ -3732,7 +3731,7 @@ true
 )
 ;
 return
-nullptr
+buffer
 ;
 }
 static
@@ -40618,9 +40617,14 @@ clearPendingException
 ;
 }
 }
+#
+ifdef
+__AFL_HAVE_MANUAL_CONTROL
 return
 true
 ;
+#
+endif
 }
 static
 const
