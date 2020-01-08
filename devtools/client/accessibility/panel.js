@@ -1089,6 +1089,13 @@ this
 onAccessibilityInspectorUpdated
 )
 ;
+if
+(
+this
+.
+picker
+)
+{
 this
 .
 picker
@@ -1103,6 +1110,7 @@ picker
 =
 null
 ;
+}
 if
 (
 this
