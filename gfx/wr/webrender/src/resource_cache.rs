@@ -5713,6 +5713,13 @@ blob_image_handler
 is_none
 (
 )
+|
+|
+keys
+.
+is_empty
+(
+)
 {
 return
 (
