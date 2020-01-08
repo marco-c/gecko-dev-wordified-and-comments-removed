@@ -125,6 +125,11 @@ nsCommandParams
 .
 h
 '
+'
+nsControllerCommandTable
+.
+h
+'
 ]
 XPIDL_SOURCES
 +
