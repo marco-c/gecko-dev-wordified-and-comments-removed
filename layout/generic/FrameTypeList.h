@@ -40,6 +40,10 @@ ColumnSet
 )
 FRAME_TYPE
 (
+ColumnSetWrapper
+)
+FRAME_TYPE
+(
 ComboboxControl
 )
 FRAME_TYPE

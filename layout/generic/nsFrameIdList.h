@@ -78,6 +78,12 @@ NotLeaf
 )
 FRAME_ID
 (
+ColumnSetWrapperFrame
+ColumnSetWrapper
+NotLeaf
+)
+FRAME_ID
+(
 nsComboboxControlFrame
 ComboboxControl
 NotLeaf
