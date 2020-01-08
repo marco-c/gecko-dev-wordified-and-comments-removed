@@ -435,6 +435,15 @@ aExternalImageId
 )
 ;
 void
+UpdateRenderTextureHost
+(
+uint64_t
+aSrcExternalImageId
+uint64_t
+aWrappedExternalImageId
+)
+;
+void
 UnregisterExternalImageDuringShutdown
 (
 uint64_t

@@ -1905,6 +1905,16 @@ return
 false
 ;
 }
+virtual
+bool
+SupportsWrNativeTexture
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 virtual

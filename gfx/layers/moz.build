@@ -1668,6 +1668,13 @@ h
 '
 wr
 /
+WebRenderTextureHostWrapper
+.
+h
+'
+'
+wr
+/
 WebRenderUserData
 .
 h
@@ -3244,6 +3251,13 @@ cpp
 wr
 /
 WebRenderScrollData
+.
+cpp
+'
+'
+wr
+/
+WebRenderTextureHostWrapper
 .
 cpp
 '

@@ -295,6 +295,13 @@ aImageKeys
 )
 override
 ;
+virtual
+bool
+SupportsWrNativeTexture
+(
+)
+override
+;
 protected
 :
 void

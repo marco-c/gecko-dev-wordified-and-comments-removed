@@ -62,6 +62,9 @@ class
 RenderTextureHostOGL
 ;
 class
+RenderTextureHostWrapper
+;
+class
 RenderTextureHost
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -107,6 +110,17 @@ ClearCachedResources
 (
 )
 {
+}
+virtual
+RenderTextureHostWrapper
+*
+AsRenderTextureHostWrapper
+(
+)
+{
+return
+nullptr
+;
 }
 protected
 :

@@ -150,6 +150,11 @@ RenderTextureHostOGL
 h
 '
 '
+RenderTextureHostWrapper
+.
+h
+'
+'
 RenderThread
 .
 h
@@ -216,6 +221,11 @@ cpp
 '
 '
 RenderTextureHostOGL
+.
+cpp
+'
+'
+RenderTextureHostWrapper
 .
 cpp
 '
