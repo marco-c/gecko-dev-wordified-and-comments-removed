@@ -2045,7 +2045,7 @@ iconic
 oncommand
 =
 "
-TrackingProtection
+ContentBlocking
 .
 openPreferences
 (
