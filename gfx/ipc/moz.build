@@ -132,6 +132,11 @@ gfx
 =
 [
 '
+CrossProcessPaint
+.
+h
+'
+'
 GPUChild
 .
 h
@@ -283,6 +288,11 @@ cpp
 '
 '
 CompositorWidgetVsyncObserver
+.
+cpp
+'
+'
+CrossProcessPaint
 .
 cpp
 '
