@@ -201,16 +201,6 @@ global
 netError
 .
 css
-*
-skin
-/
-classic
-/
-global
-/
-numberbox
-.
-css
 skin
 /
 classic

@@ -231,16 +231,6 @@ classic
 /
 global
 /
-numberbox
-.
-css
-*
-skin
-/
-classic
-/
-global
-/
 notification
 .
 css
