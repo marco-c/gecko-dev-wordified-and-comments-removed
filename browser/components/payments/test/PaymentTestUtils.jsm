@@ -535,15 +535,6 @@ destruct
 (
 )
 ;
-return
-{
-requestId
-:
-rq
-.
-id
-}
-;
 }
 }
 DialogContentTasks
