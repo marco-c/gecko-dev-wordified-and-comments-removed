@@ -5277,11 +5277,6 @@ if
 (
 !
 keepFocusOnUrlBar
-&
-&
-document
-.
-activeElement
 )
 {
 document
