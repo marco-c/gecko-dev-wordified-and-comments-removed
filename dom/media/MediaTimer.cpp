@@ -92,12 +92,6 @@ MediaTimer
 Monitor
 "
 )
-mTimer
-(
-NS_NewTimer
-(
-)
-)
 mCreationTimeStamp
 (
 TimeStamp
@@ -156,9 +150,8 @@ get
 )
 ;
 mTimer
--
->
-SetTarget
+=
+NS_NewTimer
 (
 mThread
 )
