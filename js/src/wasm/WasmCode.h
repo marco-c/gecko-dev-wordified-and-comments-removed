@@ -2258,12 +2258,14 @@ Tier
 :
 Baseline
 )
+{
 return
 mutexid
 :
 :
 WasmLazyStubsTier1
 ;
+}
 MOZ_ASSERT
 (
 tier
@@ -2779,6 +2781,7 @@ CompileMode
 :
 Tier1
 )
+{
 tiering_
 .
 get
@@ -2790,6 +2793,7 @@ i
 =
 target
 ;
+}
 }
 void
 *
