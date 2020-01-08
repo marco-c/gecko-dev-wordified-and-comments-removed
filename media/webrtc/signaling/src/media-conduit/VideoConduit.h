@@ -1882,6 +1882,15 @@ VideoAdapter
 >
 mVideoAdapter
 ;
+UniquePtr
+<
+cricket
+:
+:
+VideoAdapter
+>
+mSimulcastAdapter
+;
 AutoTArray
 <
 rtc
