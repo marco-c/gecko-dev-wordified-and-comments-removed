@@ -1331,7 +1331,7 @@ FindOrMakeFont
 (
 &
 fakeStyle
-false
+nullptr
 )
 ;
 if
