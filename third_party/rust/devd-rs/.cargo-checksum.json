@@ -5,6 +5,16 @@ files
 :
 {
 "
+.
+rustfmt
+.
+toml
+"
+:
+"
+2af0439152afb5f592e67eb815db1a2711e3951d94d6ec2a3343ccf17cf7eb53
+"
+"
 CODE_OF_CONDUCT
 .
 md

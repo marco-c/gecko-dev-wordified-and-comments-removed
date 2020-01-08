@@ -5,6 +5,16 @@ files
 :
 {
 "
+.
+cargo_vcs_info
+.
+json
+"
+:
+"
+13d7d8f1c677eb54c2b0005b8e048b79461b91176796088fc70f5d40ffbefd0a
+"
+"
 Cargo
 .
 toml

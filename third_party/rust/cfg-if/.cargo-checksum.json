@@ -5,6 +5,16 @@ files
 :
 {
 "
+.
+travis
+.
+yml
+"
+:
+"
+50f67b20a376d437e0706d9bbb0343c677295529991370b2962f814c0b2efea3
+"
+"
 Cargo
 .
 toml
