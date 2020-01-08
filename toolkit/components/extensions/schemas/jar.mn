@@ -301,6 +301,15 @@ extensions
 /
 schemas
 /
+telemetry
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 test
 .
 json
