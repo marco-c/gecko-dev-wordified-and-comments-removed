@@ -132,12 +132,7 @@ enabled
 )
 {
 return
-Promise
-.
-resolve
-(
 false
-)
 ;
 }
 if
