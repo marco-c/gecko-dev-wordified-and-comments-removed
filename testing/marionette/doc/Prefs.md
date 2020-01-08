@@ -269,7 +269,7 @@ descending
 order
 of
 severity
-trace
+Trace
 debug
 config
 info

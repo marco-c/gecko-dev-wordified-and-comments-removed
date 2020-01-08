@@ -2962,10 +2962,9 @@ code
 The
 value
 is
-treated
 case
 -
-insensitively
+insensitive
 .
 <
 /

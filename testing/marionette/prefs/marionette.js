@@ -30,7 +30,7 @@ log
 level
 "
 "
-info
+Info
 "
 )
 ;
