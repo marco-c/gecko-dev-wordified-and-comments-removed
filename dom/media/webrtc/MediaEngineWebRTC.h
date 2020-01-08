@@ -21,6 +21,13 @@ h
 #
 include
 "
+AudioDeviceInfo
+.
+h
+"
+#
+include
+"
 CamerasChild
 .
 h
