@@ -223,7 +223,13 @@ mozilla
 .
 org
 /
-En
+docs
+/
+Mozilla
+/
+Developer_guide
+/
+Build_Instructions
 /
 Simple_Firefox_build
 )
