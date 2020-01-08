@@ -4760,6 +4760,10 @@ const
 Element
 &
 aElement
+const
+ComputedStyle
+&
+aStyle
 nsAtom
 *
 aName
@@ -4793,6 +4797,8 @@ get
 )
 &
 aElement
+&
+aStyle
 aName
 &
 aTimingFunction
