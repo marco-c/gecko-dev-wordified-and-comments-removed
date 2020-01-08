@@ -224,8 +224,6 @@ server_config
 "
 :
 config
-.
-ssl_config
         
 "
 user_stylesheets
