@@ -475,7 +475,7 @@ connect
 )
 ;
 const
-response
+front
 =
 await
 client
@@ -488,11 +488,9 @@ getMainProcess
 ;
 return
 {
-form
+activeTab
 :
-response
-.
-form
+front
 client
 chrome
 :
