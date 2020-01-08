@@ -10025,7 +10025,6 @@ aCSSValue
 >
 SetCalcValue
 (
-&
 aCalc
 )
 ;
