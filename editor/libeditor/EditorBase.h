@@ -5561,7 +5561,7 @@ OwningNonNull
 <
 nsIEditActionListener
 >
-5
+2
 >
 AutoActionListenerArray
 ;
@@ -5575,7 +5575,7 @@ OwningNonNull
 <
 nsIEditorObserver
 >
-3
+0
 >
 AutoEditorObserverArray
 ;
