@@ -222,17 +222,5 @@ DOMString
 attr
 )
 ;
-[
-Throws
-]
-BoxObject
-?
-getBoxObjectFor
-(
-Element
-?
-element
-)
-;
 }
 ;
