@@ -9057,6 +9057,12 @@ HasBeenUserGestureActivated
 )
 ;
 bool
+IsExtensionPage
+(
+)
+const
+;
+bool
 HasScriptsBlockedBySandbox
 (
 )
