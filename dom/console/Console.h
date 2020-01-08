@@ -164,6 +164,9 @@ CreateForWorklet
 JSContext
 *
 aCx
+nsIGlobalObject
+*
+aGlobal
 uint64_t
 aOuterWindowID
 uint64_t
@@ -654,9 +657,9 @@ Console
 JSContext
 *
 aCx
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aWindow
+aGlobal
 uint64_t
 aOuterWindowID
 uint64_t
@@ -1428,9 +1431,9 @@ const
 ;
 nsCOMPtr
 <
-nsPIDOMWindowInner
+nsIGlobalObject
 >
-mWindow
+mGlobal
 ;
 nsCOMPtr
 <
