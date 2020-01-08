@@ -667,6 +667,14 @@ attributeList
 )
 ;
 void
+LoadDtlsMessage
+(
+RustAttributeList
+*
+attributeList
+)
+;
+void
 LoadSetup
 (
 RustAttributeList
