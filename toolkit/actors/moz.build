@@ -133,6 +133,11 @@ actors
 =
 [
 '
+AudibleAutoplayChild
+.
+jsm
+'
+'
 AudioPlaybackChild
 .
 jsm
