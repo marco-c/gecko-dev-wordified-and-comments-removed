@@ -141,7 +141,6 @@ properties
 {
 CSSWideKeyword
 CustomDeclaration
-DeclarationPushMode
 }
 ;
 use
@@ -152,7 +151,7 @@ properties
 :
 :
 {
-DeclaredValueOwned
+CustomDeclarationValue
 Importance
 }
 ;
@@ -286,9 +285,6 @@ values
 specified
 :
 :
-transform
-:
-:
 TimingFunction
 ;
 pub
@@ -343,10 +339,6 @@ push
 (
 d
 i
-DeclarationPushMode
-:
-:
-Append
 )
 ;
 }
@@ -967,7 +959,7 @@ a
 )
 value
 :
-DeclaredValueOwned
+CustomDeclarationValue
 :
 :
 CSSWideKeyword
