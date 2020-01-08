@@ -1696,8 +1696,10 @@ this
 ;
 }
 void
-SetPullEnabled
+SetPullingEnabled
 (
+TrackID
+aTrackID
 bool
 aEnabled
 )
@@ -1977,6 +1979,9 @@ mData
 uint32_t
 mCommands
 ;
+bool
+mPullingEnabled
+;
 }
 ;
 bool
@@ -2167,9 +2172,6 @@ DirectMediaStreamTrackListener
 >
 >
 mDirectTrackListeners
-;
-bool
-mPullEnabled
 ;
 bool
 mFinishPending
