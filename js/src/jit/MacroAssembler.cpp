@@ -18791,7 +18791,7 @@ loadWasmGlobalPtr
 (
 callee
 .
-tableBaseGlobalDataOffset
+tableFunctionBaseGlobalDataOffset
 (
 )
 scratch
@@ -18982,7 +18982,7 @@ loadWasmGlobalPtr
 (
 callee
 .
-tableBaseGlobalDataOffset
+tableFunctionBaseGlobalDataOffset
 (
 )
 scratch

@@ -3661,7 +3661,7 @@ funcTableEntry
 ;
 table
 .
-set
+setAnyFunc
 (
 dstOffset
 +
@@ -3695,7 +3695,7 @@ funcTableEntry
 ;
 table
 .
-set
+setAnyFunc
 (
 dstOffset
 +
@@ -3815,6 +3815,21 @@ tables
 [
 0
 ]
+;
+MOZ_ASSERT
+(
+table
+.
+kind
+(
+)
+=
+=
+TableKind
+:
+:
+AnyFunction
+)
 ;
 if
 (
@@ -5035,7 +5050,7 @@ length
 ;
 table
 .
-base
+functionBase
 =
 tables_
 [
@@ -5043,7 +5058,7 @@ i
 ]
 -
 >
-base
+functionBase
 (
 )
 ;
@@ -7355,7 +7370,7 @@ length
 ;
 table
 .
-base
+functionBase
 =
 tables_
 [
@@ -7363,7 +7378,7 @@ tables_
 ]
 -
 >
-base
+functionBase
 (
 )
 ;

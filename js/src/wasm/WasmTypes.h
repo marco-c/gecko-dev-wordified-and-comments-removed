@@ -7763,6 +7763,7 @@ class
 TableKind
 {
 AnyFunction
+AnyRef
 TypedFunction
 }
 ;
@@ -8077,7 +8078,7 @@ length
 ;
 void
 *
-base
+functionBase
 ;
 }
 ;
@@ -8495,7 +8496,7 @@ length
 ;
 }
 uint32_t
-tableBaseGlobalDataOffset
+tableFunctionBaseGlobalDataOffset
 (
 )
 const
@@ -8517,7 +8518,7 @@ globalDataOffset_
 offsetof
 (
 TableTls
-base
+functionBase
 )
 ;
 }
