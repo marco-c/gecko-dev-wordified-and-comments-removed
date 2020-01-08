@@ -2288,22 +2288,17 @@ version
 :
             
 product
-=
-release_info
-[
-'
-product
-'
-]
-            
 version
 =
-release_info
-[
+release_name
+.
+split
+(
 '
-version
+-
 '
-]
+1
+)
             
 category
 =
