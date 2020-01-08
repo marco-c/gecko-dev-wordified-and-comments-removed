@@ -113,6 +113,9 @@ EXPORTED_SYMBOLS
 =
 [
 "
+MessageManagerDestroyedPromise
+"
+"
 PollPromise
 "
 "
@@ -120,9 +123,6 @@ Sleep
 "
 "
 TimedPromise
-"
-"
-MessageManagerDestroyedPromise
 "
 ]
 ;
