@@ -479,13 +479,6 @@ actor
 this
 .
 actorID
-traits
-:
-{
-autoHideOnDestroy
-:
-true
-}
 }
 ;
 }
