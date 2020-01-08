@@ -2257,7 +2257,7 @@ PebBaseAddress
 ULONG_PTR
 AffinityMask
 ;
-KPRIORITY
+LONG
 BasePriority
 ;
 ULONG_PTR
