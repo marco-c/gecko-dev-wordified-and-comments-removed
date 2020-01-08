@@ -3709,6 +3709,12 @@ AsHyperText
 (
 )
 ;
+if
+(
+sibling
+)
+break
+;
 sibling
 =
 aBackward
@@ -3726,12 +3732,6 @@ temp
 NextSibling
 (
 )
-;
-if
-(
-sibling
-)
-break
 ;
 }
 while
