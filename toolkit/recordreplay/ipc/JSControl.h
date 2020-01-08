@@ -56,6 +56,7 @@ OnStep
 OnPop
 EnterFrame
 NewScript
+WarpTarget
 )
 )
 ;
@@ -382,6 +383,14 @@ NewScript
 return
 "
 NewScript
+"
+;
+case
+WarpTarget
+:
+return
+"
+WarpTarget
 "
 ;
 }

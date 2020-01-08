@@ -741,6 +741,12 @@ ExecutionProgressCounter
 ;
 }
 MFBT_API
+ProgressCounter
+NewTimeWarpTarget
+(
+)
+;
+MFBT_API
 bool
 IsInternalScript
 (
