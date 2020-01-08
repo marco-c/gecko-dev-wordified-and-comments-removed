@@ -2555,7 +2555,7 @@ equal
 (
 h
 .
-counts
+values
 [
 2
 ]
@@ -2666,7 +2666,7 @@ equal
 (
 h
 .
-counts
+values
 [
 2
 ]
