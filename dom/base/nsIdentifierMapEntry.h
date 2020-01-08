@@ -517,7 +517,7 @@ GetImageIdElement
 (
 )
 ;
-bool
+void
 AddIdElement
 (
 Element
