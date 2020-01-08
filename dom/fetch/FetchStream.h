@@ -190,8 +190,6 @@ aStream
 void
 *
 aUnderlyingSource
-uint8_t
-aFlags
 size_t
 aDesiredSize
 )
@@ -211,8 +209,6 @@ aStream
 void
 *
 aUnderlyingSource
-uint8_t
-aFlags
 void
 *
 aBuffer
@@ -241,8 +237,6 @@ aStream
 void
 *
 aUnderlyingSource
-uint8_t
-aFlags
 JS
 :
 :
@@ -265,8 +259,6 @@ aStream
 void
 *
 aUnderlyingSource
-uint8_t
-aFlags
 )
 ;
 static
@@ -284,8 +276,6 @@ aStream
 void
 *
 aUnderlyingSource
-uint8_t
-aFlags
 JS
 :
 :
@@ -300,8 +290,6 @@ FinalizeCallback
 void
 *
 aUnderlyingSource
-uint8_t
-aFlags
 )
 ;
 void
