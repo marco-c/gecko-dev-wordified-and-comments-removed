@@ -2328,7 +2328,7 @@ PR_GetCurrentThread
 ;
 }
 void
-OffTheBooksCondVar
+CondVar
 :
 :
 Wait
@@ -2361,7 +2361,7 @@ NoTimeout
 ;
 }
 CVStatus
-OffTheBooksCondVar
+CondVar
 :
 :
 Wait
