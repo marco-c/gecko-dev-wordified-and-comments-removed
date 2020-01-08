@@ -3356,6 +3356,16 @@ IsInSyncOperation
 )
 ;
 }
+void
+ParentWindowChanged
+(
+)
+{
+mHasStorageAccess
+=
+false
+;
+}
 public
 :
 int32_t
