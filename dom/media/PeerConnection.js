@@ -3300,7 +3300,7 @@ goes
 away
 in
 Firefox
-58
+65
 but
 won
 '
@@ -3325,9 +3325,9 @@ webrtc
 /
 getstats
 -
-firefox
+isremote
 -
-58
+65
 /
 "
 )
