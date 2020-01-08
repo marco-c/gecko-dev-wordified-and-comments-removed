@@ -3226,7 +3226,7 @@ store_true
                              
 default
 =
-True
+None
 help
 =
 "
@@ -5698,6 +5698,26 @@ extra_prefs
 '
 ]
 ]
+    
+if
+kwargs
+[
+"
+reftest_internal
+"
+]
+is
+None
+:
+        
+kwargs
+[
+"
+reftest_internal
+"
+]
+=
+True
     
 return
 kwargs
