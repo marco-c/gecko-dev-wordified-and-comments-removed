@@ -1905,12 +1905,6 @@ String
 ?
 =
 null
-baseUri
-:
-String
-?
-=
-null
 )
 {
 val
@@ -1945,7 +1939,6 @@ loadData
 (
 bytes
 mimeType
-baseUri
 )
 ;
 sessionRule
