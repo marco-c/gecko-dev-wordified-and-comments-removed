@@ -240,7 +240,7 @@ run
 -
 time
 :
-7200
+3600
 retry
 -
 exit
