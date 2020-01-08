@@ -1244,6 +1244,16 @@ chromium
 /
 .
 *
+security
+/
+sandbox
+/
+chromium
+-
+shim
+/
+.
+*
 testing
 /
 gtest
