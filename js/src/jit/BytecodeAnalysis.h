@@ -208,6 +208,7 @@ pc
 .
 initialized
 )
+{
 return
 &
 infos_
@@ -221,6 +222,7 @@ pc
 )
 ]
 ;
+}
 return
 nullptr
 ;

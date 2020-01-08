@@ -83,8 +83,10 @@ isBitAnd
 (
 )
 )
+{
 return
 ;
+}
 MDefinition
 *
 lhs
@@ -128,6 +130,7 @@ isConstant
 (
 )
 )
+{
 mozilla
 :
 :
@@ -137,6 +140,7 @@ lhs
 rhs
 )
 ;
+}
 if
 (
 !
@@ -156,8 +160,10 @@ isConstant
 (
 )
 )
+{
 return
 ;
+}
 MDefinition
 *
 op0
@@ -201,6 +207,7 @@ isConstant
 (
 )
 )
+{
 mozilla
 :
 :
@@ -210,6 +217,7 @@ op0
 op1
 )
 ;
+}
 if
 (
 !
@@ -220,8 +228,10 @@ isConstant
 (
 )
 )
+{
 return
 ;
+}
 uint32_t
 i
 =
@@ -270,8 +280,10 @@ m
 =
 i
 )
+{
 return
 ;
+}
 MInstruction
 *
 and_
@@ -455,9 +467,11 @@ ensureBallast
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 i
@@ -467,6 +481,7 @@ isAsmJSLoadHeap
 (
 )
 )
+{
 AnalyzeAsmHeapAddress
 (
 i
@@ -483,6 +498,7 @@ base
 graph_
 )
 ;
+}
 else
 if
 (
@@ -493,6 +509,7 @@ isAsmJSStoreHeap
 (
 )
 )
+{
 AnalyzeAsmHeapAddress
 (
 i
@@ -509,6 +526,7 @@ base
 graph_
 )
 ;
+}
 }
 }
 return

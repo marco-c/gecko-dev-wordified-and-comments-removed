@@ -444,8 +444,10 @@ word_
 =
 numWords
 )
+{
 return
 ;
+}
 index_
 =
 word_
