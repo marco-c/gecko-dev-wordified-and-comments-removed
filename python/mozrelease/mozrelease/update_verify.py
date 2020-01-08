@@ -84,12 +84,15 @@ to
 mar_channel_IDs
 "
 "
+override_certs
+"
+"
 to_build_id
 "
+                       
 "
 to_display_version
 "
-                       
 "
 to_app_version
 "
@@ -122,6 +125,9 @@ to_display_version
 "
 "
 to_app_version
+"
+"
+override_certs
 "
 )
     
@@ -184,6 +190,9 @@ to_display_version
 "
 to_app_version
 "
+"
+override_certs
+"
 )
     
 compare_attrs
@@ -221,6 +230,10 @@ to_display_version
 =
 None
 to_app_version
+=
+None
+                 
+override_certs
 =
 None
 )
@@ -267,6 +280,12 @@ self
 to_app_version
 =
 to_app_version
+        
+self
+.
+override_certs
+=
+override_certs
         
 self
 .
@@ -1503,6 +1522,10 @@ to_display_version
 self
 .
 to_app_version
+                                       
+self
+.
+override_certs
 )
         
 for
