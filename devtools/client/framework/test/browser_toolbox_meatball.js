@@ -481,9 +481,14 @@ waitUntil
 )
 =
 >
-meatballButton
+toolbox
 .
-style
+win
+.
+getComputedStyle
+(
+meatballButton
+)
 .
 pointerEvents
 =
