@@ -487,6 +487,9 @@ nsString
 region
 ;
 nsString
+regionCode
+;
+nsString
 city
 ;
 nsString
