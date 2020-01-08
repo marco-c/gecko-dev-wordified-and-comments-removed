@@ -1059,7 +1059,7 @@ attr
 markerUnits
 "
 "
-strokewidth
+strokeWidth
 "
 )
 .
