@@ -1933,7 +1933,7 @@ Ok
 CHECK_EQUAL
 (
 column
-5U
+9U
 )
 ;
 result
