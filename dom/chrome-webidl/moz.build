@@ -274,6 +274,11 @@ MessageManager
 webidl
 '
 '
+MozSharedMap
+.
+webidl
+'
+'
 MozStorageAsyncStatementParams
 .
 webidl
@@ -315,11 +320,6 @@ webidl
 '
 '
 XULFrameElement
-.
-webidl
-'
-'
-XULScrollElement
 .
 webidl
 '

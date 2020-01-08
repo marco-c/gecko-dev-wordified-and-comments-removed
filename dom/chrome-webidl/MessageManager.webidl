@@ -3157,6 +3157,11 @@ attribute
 any
 initialProcessData
 ;
+readonly
+attribute
+MozWritableSharedMap
+sharedData
+;
 }
 ;
 [
@@ -3368,6 +3373,11 @@ readonly
 attribute
 any
 initialProcessData
+;
+readonly
+attribute
+MozSharedMap
+sharedData
 ;
 }
 ;
