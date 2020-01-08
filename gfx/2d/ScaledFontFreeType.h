@@ -77,7 +77,7 @@ USE_SKIA
 virtual
 SkTypeface
 *
-GetSkTypeface
+CreateSkTypeface
 (
 )
 override
