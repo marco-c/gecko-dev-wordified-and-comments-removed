@@ -603,7 +603,13 @@ DispatchTable
 =
 {
 {
+const_cast
+<
+LPWSTR
+>
+(
 SVC_NAME
+)
 (
 LPSERVICE_MAIN_FUNCTIONW
 )

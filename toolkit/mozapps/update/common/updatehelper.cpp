@@ -450,9 +450,15 @@ si
 .
 lpDesktop
 =
+const_cast
+<
+LPWSTR
+>
+(
 L
 "
 "
+)
 ;
 PROCESS_INFORMATION
 pi

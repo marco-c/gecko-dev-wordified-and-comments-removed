@@ -126,7 +126,7 @@ CERT_ENHKEY_USAGE
 )
 )
 ;
-LPSTR
+LPCSTR
 identifiers
 [
 ]
@@ -166,7 +166,14 @@ enhkeyUsage
 .
 rgpszUsageIdentifier
 =
+const_cast
+<
+LPSTR
+*
+>
+(
 identifiers
+)
 ;
 CERT_USAGE_MATCH
 certUsage

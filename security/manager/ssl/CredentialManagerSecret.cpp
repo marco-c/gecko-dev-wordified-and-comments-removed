@@ -305,8 +305,15 @@ cred
 .
 UserName
 =
+const_cast
+<
+char
+*
+>
+(
 "
 "
+)
 ;
 BOOL
 ok

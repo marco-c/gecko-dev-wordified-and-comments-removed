@@ -998,7 +998,14 @@ policy
 .
 pszOID
 =
+const_cast
+<
+char
+*
+>
+(
 szOID_CERT_STRONG_SIGN_OS_CURRENT
+)
 ;
 if
 (

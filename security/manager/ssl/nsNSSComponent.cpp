@@ -1481,9 +1481,11 @@ nsIWindowsRegKey
 regKey
 uint32_t
 flags
+const
 wchar_t
 *
 optionalChildName
+const
 wchar_t
 *
 valueName

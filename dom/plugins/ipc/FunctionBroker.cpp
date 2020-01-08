@@ -5599,7 +5599,14 @@ FixedValue
 :
 value
 =
+const_cast
+<
+char
+*
+>
+(
 UNISP_NAME_A
+)
 ;
 template
 <
