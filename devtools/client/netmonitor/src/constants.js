@@ -504,9 +504,6 @@ formDataSections
 "
 stacktrace
 "
-"
-isTrackingResource
-"
 ]
 ;
 const

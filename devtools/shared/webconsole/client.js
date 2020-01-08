@@ -464,11 +464,6 @@ fromServiceWorker
 actor
 .
 fromServiceWorker
-isTrackingResource
-:
-actor
-.
-isTrackingResource
 }
 ;
 this

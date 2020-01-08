@@ -252,11 +252,6 @@ private
 this
 .
 _private
-isTrackingResource
-:
-this
-.
-_isTrackingResource
 }
 ;
 }
@@ -392,14 +387,6 @@ _fromServiceWorker
 networkEvent
 .
 fromServiceWorker
-;
-this
-.
-_isTrackingResource
-=
-networkEvent
-.
-isTrackingResource
 ;
 this
 .
