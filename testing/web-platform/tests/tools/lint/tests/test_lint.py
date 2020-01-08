@@ -1653,6 +1653,8 @@ _mock_lint
 check_path
 "
 )
+as
+mocked_check_path
 :
         
 with
@@ -1674,6 +1676,8 @@ _dummy_repo
 [
 "
 about_blank
+-
+ref
 .
 html
 "
@@ -1690,12 +1694,16 @@ rv
 0
             
 assert
+not
+mocked_check_path
+.
+called
+            
+assert
+not
 mocked_check_file_contents
 .
-call_count
-=
-=
-1
+called
     
 assert
 caplog

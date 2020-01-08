@@ -12,15 +12,11 @@ length
 ;
 window
 .
-opener
-.
 testdriver_callback
 =
 callback
 ;
 window
-.
-opener
 .
 process_next_event
 (

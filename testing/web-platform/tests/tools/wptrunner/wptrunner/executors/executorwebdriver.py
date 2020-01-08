@@ -330,12 +330,6 @@ parent
 .
 webdriver
         
-self
-.
-runner_handle
-=
-None
-        
 with
 open
 (
@@ -374,22 +368,6 @@ self
 url_protocol
 )
 :
-        
-if
-self
-.
-runner_handle
-:
-            
-self
-.
-webdriver
-.
-window_handle
-=
-self
-.
-runner_handle
         
 url
 =
@@ -439,16 +417,6 @@ url
 =
 url
         
-self
-.
-runner_handle
-=
-self
-.
-webdriver
-.
-window_handle
-        
 format_map
 =
 {
@@ -497,6 +465,14 @@ self
 )
 :
         
+exclude
+=
+self
+.
+webdriver
+.
+window_handle
+        
 handles
 =
 [
@@ -513,9 +489,7 @@ if
 item
 !
 =
-self
-.
-runner_handle
+exclude
 ]
         
 for
@@ -557,14 +531,10 @@ webdriver
 .
 window_handle
 =
-self
-.
-runner_handle
+exclude
         
 return
-self
-.
-runner_handle
+exclude
     
 def
 get_test_window
@@ -2139,9 +2109,6 @@ self
 script
 %
 format_map
-async
-=
-True
 )
         
 test_window
@@ -2172,17 +2139,6 @@ test_window
 while
 True
 :
-            
-self
-.
-protocol
-.
-base
-.
-set_window
-(
-test_window
-)
             
 result
 =
