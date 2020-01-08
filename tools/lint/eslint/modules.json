@@ -3794,17 +3794,6 @@ trackBrowserWindow
 "
 ]
 "
-UrlbarTokenizer
-.
-jsm
-"
-:
-[
-"
-UrlbarTokenizer
-"
-]
-"
 util
 .
 js
