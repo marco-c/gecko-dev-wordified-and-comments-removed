@@ -40,6 +40,11 @@ ownerDocument
 .
 defaultView
 ;
+}
+onsetup
+(
+)
+{
 const
 parser
 =

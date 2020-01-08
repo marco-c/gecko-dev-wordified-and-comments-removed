@@ -5,7 +5,7 @@ strict
 ;
 this
 .
-VideoControlsPageWidget
+VideoControlsWidget
 =
 class
 {
@@ -67,6 +67,11 @@ Android
 "
 )
 ;
+}
+onsetup
+(
+)
+{
 this
 .
 switchImpl
@@ -74,7 +79,7 @@ switchImpl
 )
 ;
 }
-onattributechange
+onchange
 (
 )
 {
@@ -103,7 +108,7 @@ controls
 {
 newImpl
 =
-VideoControlsImplPageWidget
+VideoControlsImplWidget
 ;
 }
 else
@@ -116,7 +121,7 @@ isMobile
 {
 newImpl
 =
-NoControlsImplPageWidget
+NoControlsImplWidget
 ;
 }
 if
@@ -182,6 +187,14 @@ this
 shadowRoot
 )
 ;
+this
+.
+impl
+.
+onsetup
+(
+)
+;
 }
 else
 {
@@ -236,7 +249,7 @@ impl
 ;
 this
 .
-VideoControlsImplPageWidget
+VideoControlsImplWidget
 =
 class
 {
@@ -279,6 +292,11 @@ document
 .
 defaultView
 ;
+}
+onsetup
+(
+)
+{
 this
 .
 generateContent
@@ -12152,7 +12170,7 @@ event
 ;
 this
 .
-NoControlsImplPageWidget
+NoControlsImplWidget
 =
 class
 {
@@ -12195,6 +12213,11 @@ document
 .
 defaultView
 ;
+}
+onsetup
+(
+)
+{
 this
 .
 generateContent

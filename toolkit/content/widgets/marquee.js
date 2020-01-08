@@ -28,6 +28,11 @@ shadowRoot
 .
 host
 ;
+}
+onsetup
+(
+)
+{
 this
 .
 switchImpl
@@ -35,7 +40,7 @@ switchImpl
 )
 ;
 }
-onattributechange
+onchange
 (
 )
 {
@@ -138,6 +143,14 @@ this
 shadowRoot
 )
 ;
+this
+.
+impl
+.
+onsetup
+(
+)
+;
 }
 }
 destructor
@@ -226,6 +239,11 @@ document
 .
 defaultView
 ;
+}
+onsetup
+(
+)
+{
 this
 .
 generateContent
