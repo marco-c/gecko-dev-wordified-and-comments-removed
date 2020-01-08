@@ -7071,6 +7071,15 @@ testShutdown
 (
 )
 ;
+gClientID
+=
+await
+ClientID
+.
+getClientID
+(
+)
+;
 await
 checkPendingShutdownPing
 (
