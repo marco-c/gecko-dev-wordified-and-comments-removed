@@ -258,6 +258,15 @@ InitCurrentThread
 (
 )
 ;
+private
+:
+void
+InitCommon
+(
+)
+;
+public
+:
 PRThread
 *
 GetPRThread
