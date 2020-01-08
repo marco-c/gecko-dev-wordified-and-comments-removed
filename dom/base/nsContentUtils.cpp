@@ -8736,10 +8736,6 @@ menu
 nsGkAtoms
 :
 :
-multicol
-nsGkAtoms
-:
-:
 nav
 nsGkAtoms
 :
