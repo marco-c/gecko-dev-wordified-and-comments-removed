@@ -3178,7 +3178,7 @@ rv
 annosvc
 -
 >
-RemoveItemAnnotationsWithoutNotifying
+RemoveItemAnnotations
 (
 bookmark
 .
