@@ -5514,7 +5514,7 @@ bool
 HandleMissing
 >
 bool
-GetNativeDataPropertyByValue
+GetNativeDataPropertyByValuePure
 (
 JSContext
 *
@@ -5533,7 +5533,7 @@ bool
 HasOwn
 >
 bool
-HasNativeDataProperty
+HasNativeDataPropertyPure
 (
 JSContext
 *

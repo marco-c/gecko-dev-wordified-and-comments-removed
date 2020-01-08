@@ -21121,7 +21121,7 @@ JS_FUNC_TO_DATA_PTR
 void
 *
 (
-GetNativeDataPropertyByValue
+GetNativeDataPropertyByValuePure
 <
 true
 >
@@ -21141,7 +21141,7 @@ JS_FUNC_TO_DATA_PTR
 void
 *
 (
-GetNativeDataPropertyByValue
+GetNativeDataPropertyByValuePure
 <
 false
 >
@@ -21469,7 +21469,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-HasNativeDataProperty
+HasNativeDataPropertyPure
 <
 true
 >
@@ -21487,7 +21487,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-HasNativeDataProperty
+HasNativeDataPropertyPure
 <
 false
 >
