@@ -1423,6 +1423,16 @@ return
 mGdkWindow
 ;
 }
+GtkWidget
+*
+GetGtkWidget
+(
+)
+{
+return
+mShell
+;
+}
 bool
 IsDestroyed
 (
