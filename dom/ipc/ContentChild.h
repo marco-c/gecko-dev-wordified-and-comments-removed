@@ -3780,9 +3780,6 @@ aMsg
 )
 override
 ;
-#
-ifdef
-NIGHTLY_BUILD
 virtual
 void
 OnChannelReceivedMessage
@@ -3794,6 +3791,9 @@ aMsg
 )
 override
 ;
+#
+ifdef
+NIGHTLY_BUILD
 virtual
 PContentChild
 :

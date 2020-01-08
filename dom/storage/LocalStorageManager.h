@@ -374,11 +374,7 @@ LocalStorageManager
 Self
 (
 )
-{
-return
-sSelf
 ;
-}
 static
 LocalStorageManager
 *

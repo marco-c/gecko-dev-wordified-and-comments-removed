@@ -434,6 +434,9 @@ simpledb
 '
 reporting
 '
+'
+localstorage
+'
 ]
 if
 CONFIG
