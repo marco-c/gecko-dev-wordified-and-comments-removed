@@ -25,6 +25,17 @@ nsDocShellLoadTypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+ReferrerPolicy
+.
+h
+"
 class
 nsIInputStream
 ;
