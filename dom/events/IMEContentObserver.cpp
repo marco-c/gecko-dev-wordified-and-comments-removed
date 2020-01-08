@@ -6300,6 +6300,8 @@ IMEContentObserver
 :
 UpdateSelectionCache
 (
+bool
+aRequireFlush
 )
 {
 MOZ_ASSERT
@@ -6333,6 +6335,12 @@ true
 eQuerySelectedText
 mWidget
 )
+;
+selection
+.
+mNeedsToFlushLayout
+=
+aRequireFlush
 ;
 ContentEventHandler
 handler
@@ -8081,6 +8089,7 @@ observer
 >
 UpdateSelectionCache
 (
+false
 )
 ;
 MOZ_LOG

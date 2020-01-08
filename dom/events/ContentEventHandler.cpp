@@ -860,6 +860,8 @@ ContentEventHandler
 :
 InitBasic
 (
+bool
+aRequireFlush
 )
 {
 NS_ENSURE_TRUE
@@ -868,6 +870,11 @@ mDocument
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+if
+(
+aRequireFlush
+)
+{
 mDocument
 -
 >
@@ -879,6 +886,7 @@ FlushType
 Layout
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1123,6 +1131,8 @@ InitCommon
 (
 SelectionType
 aSelectionType
+bool
+aRequireFlush
 )
 {
 if
@@ -1164,6 +1174,7 @@ rv
 =
 InitBasic
 (
+aRequireFlush
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1536,6 +1547,12 @@ rv
 InitCommon
 (
 selectionType
+aEvent
+-
+>
+NeedsToFlushLayout
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

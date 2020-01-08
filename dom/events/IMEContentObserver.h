@@ -788,6 +788,10 @@ mNeedsToNotifyIMEOfCompositionEventHandled
 bool
 UpdateSelectionCache
 (
+bool
+aRequireFlush
+=
+true
 )
 ;
 nsCOMPtr
