@@ -200,6 +200,11 @@ EXPORTS
 =
 [
 '
+CubebDeviceEnumerator
+.
+h
+'
+'
 MediaEngineRemoteVideoSource
 .
 h
@@ -268,6 +273,11 @@ SOURCES
 +
 =
 [
+'
+CubebDeviceEnumerator
+.
+cpp
+'
 '
 MediaEngineWebRTC
 .
