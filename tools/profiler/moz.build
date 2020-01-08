@@ -141,6 +141,13 @@ h
 '
 public
 /
+ProfileJSONWriter
+.
+h
+'
+'
+public
+/
 ProfilerChild
 .
 h
