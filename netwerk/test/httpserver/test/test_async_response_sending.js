@@ -1780,7 +1780,7 @@ arr
 )
 {
 var
-sum
+s
 =
 0
 ;
@@ -1804,7 +1804,7 @@ i
 +
 +
 )
-sum
+s
 +
 =
 arr
@@ -1813,7 +1813,7 @@ i
 ]
 ;
 return
-sum
+s
 ;
 }
 function
@@ -6412,11 +6412,6 @@ _currentTask
 +
 +
 ]
-;
-var
-self
-=
-this
 ;
 var
 event

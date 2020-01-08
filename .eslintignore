@@ -217,14 +217,6 @@ netwerk
 /
 test
 /
-httpserver
-/
-*
-*
-netwerk
-/
-test
-/
 mochitests
 /
 *

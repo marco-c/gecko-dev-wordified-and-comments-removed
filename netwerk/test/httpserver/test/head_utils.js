@@ -23,7 +23,8 @@ _HTTPD_JS_PATH
 path
 )
 ;
-DEBUG
+var
+linDEBUG
 =
 true
 ;
@@ -186,9 +187,6 @@ data
 )
 {
 var
-start
-=
-0
 index
 =
 0
@@ -823,7 +821,7 @@ ch
 }
 catch
 (
-e
+x
 )
 {
 }

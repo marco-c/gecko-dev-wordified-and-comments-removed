@@ -659,7 +659,7 @@ function
 )
 {
 var
-body
+preBody
 =
 "
 BO
@@ -671,8 +671,8 @@ bodyOutputStream
 .
 write
 (
-body
-body
+preBody
+preBody
 .
 length
 )
@@ -762,7 +762,7 @@ function
 )
 {
 var
-body
+postBody
 =
 "
 DY
@@ -774,8 +774,8 @@ bodyOutputStream
 .
 write
 (
-body
-body
+postBody
+postBody
 .
 length
 )

@@ -87,13 +87,8 @@ createServer
 (
 )
 ;
-var
-qi
-;
 try
 {
-qi
-=
 srv
 .
 identity
