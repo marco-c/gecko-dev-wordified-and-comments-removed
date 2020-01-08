@@ -1675,7 +1675,6 @@ static
 bool
 CanCallerAccess
 (
-const
 nsINode
 *
 aNode
