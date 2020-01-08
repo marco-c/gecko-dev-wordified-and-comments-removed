@@ -1492,7 +1492,6 @@ PROFILER_RAII
 (
 label
 nullptr
-__LINE__
 \
 js
 :
@@ -1523,7 +1522,6 @@ PROFILER_RAII
 (
 label
 cStr
-__LINE__
 js
 :
 :
@@ -1591,7 +1589,6 @@ autoCStr
 get
 (
 )
-__LINE__
 \
 js
 :
@@ -1663,7 +1660,6 @@ asciiStr
 get
 (
 )
-__LINE__
 \
 js
 :
@@ -1697,7 +1693,6 @@ PROFILER_RAII
 ctx
 label
 nullptr
-__LINE__
 \
 js
 :
@@ -2183,8 +2178,6 @@ const
 char
 *
 aDynamicString
-uint32_t
-aLine
 js
 :
 :
@@ -2207,7 +2200,6 @@ get
 )
 aLabel
 aDynamicString
-aLine
 aCategory
 )
 ;
@@ -2225,8 +2217,6 @@ const
 char
 *
 aDynamicString
-uint32_t
-aLine
 js
 :
 :
@@ -2251,7 +2241,6 @@ aJSContext
 )
 aLabel
 aDynamicString
-aLine
 aCategory
 )
 ;
@@ -2270,8 +2259,6 @@ const
 char
 *
 aDynamicString
-uint32_t
-aLine
 js
 :
 :
@@ -2299,7 +2286,6 @@ pushLabelFrame
 aLabel
 aDynamicString
 this
-aLine
 aCategory
 )
 ;

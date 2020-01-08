@@ -53,7 +53,6 @@ char
 *
 void
 *
-uint32_t
 )
 ;
 typedef
@@ -96,8 +95,6 @@ const
 char
 *
 aDynamicString
-uint32_t
-aLine
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
