@@ -803,6 +803,16 @@ spidermonkey
 variant
 :
 tsan
+toolchains
+:
+-
+linux64
+-
+clang
+-
+linux64
+-
+rust
 sm
 -
 rootanalysis

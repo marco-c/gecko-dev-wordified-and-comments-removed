@@ -153,6 +153,12 @@ spidermonkey
 variant
 :
 plaindebug
+toolchains
+:
+-
+win64
+-
+rust
 sm
 -
 plain
@@ -202,6 +208,12 @@ spidermonkey
 variant
 :
 plain
+toolchains
+:
+-
+win64
+-
+rust
 sm
 -
 compacting
@@ -251,3 +263,9 @@ spidermonkey
 variant
 :
 compacting
+toolchains
+:
+-
+win64
+-
+rust
