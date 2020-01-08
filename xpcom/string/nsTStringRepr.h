@@ -285,10 +285,8 @@ char_type
 const_iterator
 ;
 typedef
-nsWritingIterator
-<
 char_type
->
+*
 iterator
 ;
 typedef
