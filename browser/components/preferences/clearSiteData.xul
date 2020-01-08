@@ -166,11 +166,6 @@ id
 "
 ClearSiteDataDialog
 "
-class
-=
-"
-windowDialog
-"
 windowtype
 =
 "
@@ -352,12 +347,6 @@ class
 =
 "
 contentPane
-largeDialogContainer
-"
-flex
-=
-"
-1
 "
 >
 <
@@ -556,9 +545,6 @@ vbox
 vbox
 >
 <
-vbox
->
-<
 hbox
 class
 =
@@ -637,10 +623,6 @@ clear
 <
 /
 hbox
->
-<
-/
-vbox
 >
 <
 /

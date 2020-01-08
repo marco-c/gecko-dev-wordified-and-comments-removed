@@ -166,11 +166,6 @@ id
 "
 SitePermissionsDialog
 "
-class
-=
-"
-windowDialog
-"
 windowtype
 =
 "
@@ -409,12 +404,6 @@ class
 =
 "
 contentPane
-largeDialogContainer
-"
-flex
-=
-"
-1
 "
 >
 <
@@ -647,9 +636,6 @@ richlistbox
 >
 <
 /
-vbox
->
-<
 vbox
 >
 <
@@ -955,10 +941,6 @@ ok
 <
 /
 hbox
->
-<
-/
-vbox
 >
 <
 /

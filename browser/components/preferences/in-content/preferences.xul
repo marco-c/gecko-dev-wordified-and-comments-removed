@@ -2152,12 +2152,6 @@ id
 "
 mainPrefPane
 "
-class
-=
-"
-prefpane
-prefwindow
-"
 >
 #
 include

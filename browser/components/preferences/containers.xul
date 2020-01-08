@@ -135,11 +135,6 @@ id
 "
 ContainersDialog
 "
-class
-=
-"
-windowDialog
-"
 windowtype
 =
 "
@@ -315,12 +310,6 @@ class
 =
 "
 contentPane
-largeDialogContainer
-"
-flex
-=
-"
-1
 "
 hidden
 =
@@ -531,9 +520,6 @@ hbox
 vbox
 >
 <
-vbox
->
-<
 hbox
 class
 =
@@ -596,10 +582,6 @@ done
 <
 /
 hbox
->
-<
-/
-vbox
 >
 <
 /

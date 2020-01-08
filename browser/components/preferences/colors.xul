@@ -387,16 +387,6 @@ keyset
 >
 <
 vbox
-id
-=
-"
-ColorsDialogPane
-"
-class
-=
-"
-prefpane
-"
 >
 <
 script

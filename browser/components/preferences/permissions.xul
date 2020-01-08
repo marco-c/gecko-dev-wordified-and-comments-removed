@@ -166,11 +166,6 @@ id
 "
 PermissionsDialog
 "
-class
-=
-"
-windowDialog
-"
 windowtype
 =
 "
@@ -383,12 +378,6 @@ class
 =
 "
 contentPane
-largeDialogContainer
-"
-flex
-=
-"
-1
 "
 >
 <
@@ -784,9 +773,6 @@ richlistbox
 vbox
 >
 <
-vbox
->
-<
 hbox
 class
 =
@@ -982,10 +968,6 @@ ok
 <
 /
 hbox
->
-<
-/
-vbox
 >
 <
 /
