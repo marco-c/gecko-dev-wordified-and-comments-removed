@@ -266,11 +266,8 @@ false
 )
 .
 content
-[
-"
+.
 FX_TAB_REMOTE_NAVIGATION_DELAY_MS
-"
-]
 ;
 return
 s
@@ -312,11 +309,8 @@ false
 )
 .
 content
-[
-"
+.
 FX_TAB_REMOTE_NAVIGATION_DELAY_MS
-"
-]
 ;
 let
 restoreTabSnapshot
