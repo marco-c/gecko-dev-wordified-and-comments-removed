@@ -1289,7 +1289,7 @@ length
 }
 else
 {
-LOG
+RTC_LOG
 (
 LS_ERROR
 )

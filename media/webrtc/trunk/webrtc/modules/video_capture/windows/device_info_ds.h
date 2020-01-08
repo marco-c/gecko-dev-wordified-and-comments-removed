@@ -29,7 +29,14 @@ h
 #
 include
 <
-Dshow
+dshow
+.
+h
+>
+#
+include
+<
+windows
 .
 h
 >

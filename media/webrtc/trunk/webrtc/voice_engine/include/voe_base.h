@@ -99,6 +99,16 @@ VoiceEngine
 )
 {
 }
+private
+:
+virtual
+void
+DummyVS2015BugFix
+(
+)
+{
+}
+;
 }
 ;
 class

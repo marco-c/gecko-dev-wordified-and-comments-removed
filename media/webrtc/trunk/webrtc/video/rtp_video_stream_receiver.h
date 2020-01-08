@@ -402,6 +402,17 @@ csrcs
 )
 const
 ;
+void
+GetRID
+(
+char
+rid
+[
+256
+]
+)
+const
+;
 RtpReceiver
 *
 GetRtpReceiver
