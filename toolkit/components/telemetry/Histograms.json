@@ -117343,7 +117343,7 @@ alert_emails
 :
 [
 "
-amarchesini
+dtownsend
 mozilla
 .
 com
@@ -117354,7 +117354,7 @@ expires_in_version
 "
 :
 "
-59
+70
 "
 "
 bug_numbers
@@ -117362,6 +117362,7 @@ bug_numbers
 :
 [
 1296606
+1488881
 ]
 "
 kind
