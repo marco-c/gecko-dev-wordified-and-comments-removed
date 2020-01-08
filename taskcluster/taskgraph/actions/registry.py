@@ -725,6 +725,30 @@ task
 .
 tags
 .
+        
+If
+this
+is
+a
+function
+it
+is
+given
+the
+decision
+parameters
+and
+must
+return
+        
+a
+value
+of
+the
+form
+described
+above
+.
     
 available
 :
@@ -974,6 +998,25 @@ description
 strip
 (
 )
+    
+if
+not
+callable
+(
+context
+)
+:
+        
+context_value
+=
+context
+        
+context
+=
+lambda
+params
+:
+context_value
     
 def
 register_callback
@@ -1451,6 +1494,9 @@ context
 '
 :
 context
+(
+parameters
+)
             
 }
             
