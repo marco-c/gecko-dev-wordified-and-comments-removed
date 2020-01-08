@@ -643,13 +643,6 @@ optional
 =
 true
 }
-arrayvec
-=
-"
-0
-.
-4
-"
 [
 build
 -
