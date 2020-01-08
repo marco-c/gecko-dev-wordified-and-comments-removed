@@ -1799,17 +1799,17 @@ create_window
 )
 :
     
-new_handle
-=
-create_window
-(
-)
-    
 original_handle
 =
 session
 .
 window_handle
+    
+new_handle
+=
+create_window
+(
+)
     
 session
 .
