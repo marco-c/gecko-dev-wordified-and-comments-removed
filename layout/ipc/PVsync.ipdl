@@ -97,6 +97,17 @@ include
 protocol
 PBackground
 ;
+include
+"
+mozilla
+/
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
 using
 class
 mozilla
