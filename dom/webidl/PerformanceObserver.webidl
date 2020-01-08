@@ -162,7 +162,7 @@ dom
 DOMPrefs
 :
 :
-PerformanceObserverEnabled
+dom_enable_performance_observer
 "
 Constructor
 (

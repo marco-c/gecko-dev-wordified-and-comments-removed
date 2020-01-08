@@ -764,16 +764,6 @@ pref
 "
 dom
 .
-enable_performance_observer
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 requestIdleCallback
 .
 enabled
