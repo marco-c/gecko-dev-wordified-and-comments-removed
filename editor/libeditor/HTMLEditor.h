@@ -2402,7 +2402,10 @@ StyleSheet
 aStyleSheet
 )
 ;
-nsresult
+already_AddRefed
+<
+StyleSheet
+>
 RemoveStyleSheetFromList
 (
 const
@@ -2413,6 +2416,15 @@ aURL
 ;
 nsresult
 AddOverrideStyleSheetInternal
+(
+const
+nsAString
+&
+aURL
+)
+;
+nsresult
+RemoveOverrideStyleSheetInternal
 (
 const
 nsAString
