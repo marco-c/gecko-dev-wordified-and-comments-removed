@@ -3272,9 +3272,6 @@ int32_t
 (
 kind
 )
-<
-<
-1
 ;
 }
 virtual
@@ -4302,9 +4299,6 @@ int32_t
 (
 kind
 )
-<
-<
-1
 |
 (
 static_cast
@@ -4316,7 +4310,7 @@ flags_
 )
 <
 <
-17
+16
 )
 ;
 }
@@ -6423,9 +6417,6 @@ int32_t
 (
 kind
 )
-<
-<
-1
 |
 (
 static_cast
@@ -6437,7 +6428,7 @@ hasReceiver_
 )
 <
 <
-17
+16
 )
 ;
 }
@@ -7331,9 +7322,6 @@ int32_t
 (
 kind
 )
-<
-<
-1
 |
 (
 static_cast
@@ -7345,7 +7333,7 @@ hasReceiver_
 )
 <
 <
-17
+16
 )
 ;
 }
@@ -7833,9 +7821,6 @@ int32_t
 (
 kind
 )
-<
-<
-1
 |
 (
 static_cast
@@ -7847,7 +7832,7 @@ isSpread_
 )
 <
 <
-17
+16
 )
 |
 (
@@ -7860,7 +7845,7 @@ isConstructing_
 )
 <
 <
-18
+17
 )
 ;
 }
@@ -8176,9 +8161,6 @@ int32_t
 (
 kind
 )
-<
-<
-1
 |
 (
 static_cast
@@ -8190,7 +8172,7 @@ isConstructing_
 )
 <
 <
-17
+16
 )
 |
 (
@@ -8203,7 +8185,7 @@ isSpread_
 )
 <
 <
-18
+17
 )
 |
 (
@@ -8216,7 +8198,7 @@ maybeCrossRealm_
 )
 <
 <
-19
+18
 )
 ;
 }
@@ -8586,9 +8568,6 @@ int32_t
 (
 kind
 )
-<
-<
-1
 |
 (
 static_cast
@@ -8600,7 +8579,7 @@ isSpread_
 )
 <
 <
-17
+16
 )
 |
 (
@@ -8613,7 +8592,7 @@ isConstructing_
 )
 <
 <
-18
+17
 )
 |
 (
@@ -8626,7 +8605,7 @@ ignoresReturnValue_
 )
 <
 <
-19
+18
 )
 |
 (
@@ -8639,7 +8618,7 @@ isCrossRealm_
 )
 <
 <
-20
+19
 )
 ;
 }
@@ -8941,9 +8920,6 @@ int32_t
 (
 kind
 )
-<
-<
-1
 |
 (
 static_cast
@@ -8955,7 +8931,7 @@ isConstructing_
 )
 <
 <
-17
+16
 )
 ;
 }
