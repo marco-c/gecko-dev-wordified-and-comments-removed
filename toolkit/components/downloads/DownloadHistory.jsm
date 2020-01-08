@@ -497,7 +497,7 @@ PlacesUtils
 .
 annotations
 .
-EXPIRE_WITH_HISTORY
+EXPIRE_NEVER
 )
 ;
 }

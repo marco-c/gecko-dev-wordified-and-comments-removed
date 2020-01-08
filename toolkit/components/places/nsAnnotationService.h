@@ -155,15 +155,12 @@ final
 public
 nsIAnnotationService
 public
-nsIObserver
-public
 nsSupportsWeakReference
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIANNOTATIONSERVICE
-NS_DECL_NSIOBSERVER
 nsAnnotationService
 (
 )
@@ -256,9 +253,6 @@ nsCOMArray
 nsIAnnotationObserver
 >
 mObservers
-;
-bool
-mHasSessionAnnotations
 ;
 static
 nsAnnotationService

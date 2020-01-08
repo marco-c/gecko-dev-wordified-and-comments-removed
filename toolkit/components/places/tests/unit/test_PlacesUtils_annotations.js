@@ -27,7 +27,7 @@ Ci
 .
 nsIAnnotationService
 .
-EXPIRE_MONTHS
+EXPIRE_NEVER
 }
 {
 name
@@ -49,7 +49,7 @@ Ci
 .
 nsIAnnotationService
 .
-EXPIRE_DAYS
+EXPIRE_NEVER
 }
 ]
 ;

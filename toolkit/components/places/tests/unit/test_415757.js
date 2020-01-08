@@ -314,7 +314,7 @@ PlacesUtils
 .
 annotations
 .
-EXPIRE_WITH_HISTORY
+EXPIRE_NEVER
 )
 ;
 var
@@ -366,7 +366,7 @@ PlacesUtils
 .
 annotations
 .
-EXPIRE_WITH_HISTORY
+EXPIRE_NEVER
 )
 ;
 await
