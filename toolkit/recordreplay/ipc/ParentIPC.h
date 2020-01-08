@@ -106,14 +106,6 @@ SaveAllRecordingsDirectory
 (
 )
 ;
-base
-:
-:
-ProcessId
-ParentProcessId
-(
-)
-;
 void
 SaveRecording
 (

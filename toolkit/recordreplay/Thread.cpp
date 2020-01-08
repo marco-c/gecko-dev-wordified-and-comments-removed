@@ -1084,9 +1084,6 @@ child
 :
 ReportFatalError
 (
-Nothing
-(
-)
 "
 Too
 many
