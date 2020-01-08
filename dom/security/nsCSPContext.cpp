@@ -667,6 +667,8 @@ aMimeTypeGuess
 nsIURI
 *
 aOriginalURIIfRedirect
+bool
+aSendViolationReports
 int16_t
 *
 outDecision
@@ -900,7 +902,7 @@ aOriginalURIIfRedirect
 nonce
 isPreload
 false
-true
+aSendViolationReports
 true
 parserCreated
 )

@@ -1268,6 +1268,9 @@ nsContentPolicyType
 aContentPolicyType
 bool
 aCanMakeNewChannel
+bool
+*
+aNewChannelCreated
 imgRequestProxy
 *
 *
@@ -1321,6 +1324,9 @@ nsIPrincipal
 aLoadingPrincipal
 int32_t
 aCORSMode
+bool
+*
+aNewChannelCreated
 )
 ;
 nsresult

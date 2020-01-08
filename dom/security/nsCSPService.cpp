@@ -837,6 +837,12 @@ requestOrigin
 requestContext
 aMimeTypeGuess
 nullptr
+aLoadInfo
+-
+>
+GetSendCSPViolationEvents
+(
+)
 aDecision
 )
 ;
@@ -904,6 +910,12 @@ requestOrigin
 requestContext
 aMimeTypeGuess
 nullptr
+aLoadInfo
+-
+>
+GetSendCSPViolationEvents
+(
+)
 aDecision
 )
 ;
@@ -1289,6 +1301,7 @@ EmptyCString
 (
 )
 originalUri
+true
 &
 aDecision
 )
@@ -1361,6 +1374,7 @@ EmptyCString
 (
 )
 originalUri
+true
 &
 aDecision
 )

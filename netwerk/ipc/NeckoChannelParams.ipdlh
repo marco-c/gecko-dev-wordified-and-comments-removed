@@ -496,6 +496,9 @@ isInThirdPartyContext
 bool
 isDocshellReload
 ;
+bool
+sendCSPViolationEvents
+;
 OriginAttributes
 originAttributes
 ;

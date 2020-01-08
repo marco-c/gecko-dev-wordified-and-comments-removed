@@ -2004,6 +2004,9 @@ aMimeTypeGuess
 in
 nsIURI
 aOriginalURIIfRedirect
+in
+bool
+aSendViolationReports
 )
 ;
 %
