@@ -19090,11 +19090,8 @@ content_privileged_about_uris_without_csp
 "
 "
 blank
-home
-newtab
 printpreview
 srcdoc
-welcome
 "
 )
 ;
