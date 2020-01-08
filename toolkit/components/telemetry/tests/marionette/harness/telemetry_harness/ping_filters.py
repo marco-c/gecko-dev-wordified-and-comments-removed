@@ -209,6 +209,8 @@ MAIN_ENVIRONMENT_CHANGE_PING
 MainPingReasonFilter
 (
 "
-environment_change
+environment
+-
+change
 "
 )
