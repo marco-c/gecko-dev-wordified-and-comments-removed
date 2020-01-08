@@ -539,14 +539,14 @@ gre
 /
 modules
 /
-RemoteFinder
+FinderParent
 .
 jsm
 "
 ;
 let
 {
-RemoteFinder
+FinderParent
 }
 =
 ChromeUtils
@@ -563,7 +563,7 @@ this
 _remoteFinder
 =
 new
-RemoteFinder
+FinderParent
 (
 this
 )
