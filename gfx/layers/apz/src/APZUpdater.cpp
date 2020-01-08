@@ -2053,6 +2053,14 @@ IsInCompositorThread
 )
 )
 ;
+RefPtr
+<
+Runnable
+>
+task
+=
+aTask
+;
 RunOnUpdaterThread
 (
 aLayersId
@@ -2074,7 +2082,7 @@ std
 :
 move
 (
-aTask
+task
 )
 )
 )
