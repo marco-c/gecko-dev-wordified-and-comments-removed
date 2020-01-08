@@ -61,11 +61,7 @@ height
 480
 pixelRatio
 :
-{
-value
-:
 0
-}
 userContextId
 :
 0
@@ -219,12 +215,6 @@ assign
 viewport
 {
 pixelRatio
-:
-{
-value
-:
-pixelRatio
-}
 }
 )
 ;

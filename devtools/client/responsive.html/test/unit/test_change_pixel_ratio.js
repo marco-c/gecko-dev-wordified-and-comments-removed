@@ -88,8 +88,6 @@ equal
 viewport
 .
 pixelRatio
-.
-value
 NEW_PIXEL_RATIO
 Viewport
 '
