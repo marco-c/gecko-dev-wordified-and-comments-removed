@@ -123,7 +123,7 @@ message
 ;
 const
 {
-getToplevelWindow
+getTopLevelWindow
 }
 =
 require
@@ -516,7 +516,7 @@ ready
 const
 browserWindow
 =
-getToplevelWindow
+getTopLevelWindow
 (
 window
 )
