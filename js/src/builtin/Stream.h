@@ -445,6 +445,12 @@ mode
 )
 const
 ;
+uint8_t
+embeddingFlags
+(
+)
+const
+;
 static
 MOZ_MUST_USE
 bool
@@ -592,12 +598,6 @@ void
 releaseExternalSource
 (
 )
-;
-uint8_t
-embeddingFlags
-(
-)
-const
 ;
 static
 MOZ_MUST_USE
