@@ -2692,6 +2692,9 @@ if
 (
 !
 mApzcTreeManager
+|
+|
+mDestroyed
 )
 {
 return
