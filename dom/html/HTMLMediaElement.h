@@ -3388,6 +3388,11 @@ mSrcStreamPausedCurrentTime
 -
 1
 ;
+bool
+mSrcStreamPlaybackEnded
+=
+false
+;
 RefPtr
 <
 MediaInputPort
