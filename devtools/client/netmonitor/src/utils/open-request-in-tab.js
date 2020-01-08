@@ -27,6 +27,7 @@ function
 openRequestInTab
 (
 url
+requestHeaders
 requestPostData
 )
 {
