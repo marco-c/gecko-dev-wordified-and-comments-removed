@@ -12,10 +12,8 @@ import
 BaseCookie
 from
 six
-.
-moves
 import
-StringIO
+BytesIO
 import
 tempfile
 from
@@ -265,7 +263,7 @@ self
 .
 _buf
 =
-StringIO
+BytesIO
 (
 )
     
@@ -358,6 +356,7 @@ bytes_remaining
 :
             
 return
+b
 "
 "
         
@@ -407,6 +406,7 @@ else
             
 old_data
 =
+b
 "
 "
         
@@ -657,6 +657,7 @@ data
 .
 endswith
 (
+b
 "
 \
 n
@@ -680,6 +681,7 @@ else
             
 data
 =
+b
 "
 "
         
@@ -756,10 +758,14 @@ if
 c
 =
 =
+b
 "
 \
 n
 "
+[
+0
+]
 :
                     
 buf
@@ -805,6 +811,7 @@ break
         
 new_data
 =
+b
 "
 "
 .
@@ -877,7 +884,7 @@ return
 rv
     
 def
-next
+__next__
 (
 self
 )
@@ -903,6 +910,10 @@ else
             
 raise
 StopIteration
+    
+next
+=
+__next__
     
 def
 __iter__
