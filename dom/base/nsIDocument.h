@@ -4218,8 +4218,14 @@ FullscreenElementReadyCheck
 Element
 *
 aElement
-bool
-aWasCallerChrome
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 void
