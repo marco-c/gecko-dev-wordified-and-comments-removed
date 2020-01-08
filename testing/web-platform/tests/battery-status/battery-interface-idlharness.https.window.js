@@ -8,6 +8,8 @@ idl_test
 [
 '
 battery
+-
+status
 '
 ]
 [
