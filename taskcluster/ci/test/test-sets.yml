@@ -442,6 +442,12 @@ raptor
 -
 firefox
 -
+sunspider
+-
+raptor
+-
+firefox
+-
 motionmark
 -
 htmlsuite
@@ -477,6 +483,12 @@ raptor
 chrome
 -
 stylebench
+-
+raptor
+-
+chrome
+-
+sunspider
 -
 raptor
 -
