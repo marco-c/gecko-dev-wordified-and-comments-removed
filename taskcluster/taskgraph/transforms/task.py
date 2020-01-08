@@ -676,6 +676,19 @@ sccache
 :
 bool
     
+Optional
+(
+'
+release
+-
+artifacts
+'
+)
+:
+[
+basestring
+]
+    
 '
 worker
 '
@@ -12039,6 +12052,25 @@ get
 optimization
 '
 None
+)
+            
+'
+release
+-
+artifacts
+'
+:
+task
+.
+get
+(
+'
+release
+-
+artifacts
+'
+[
+]
 )
         
 }
