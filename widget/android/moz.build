@@ -211,11 +211,6 @@ GeneratedJNIWrappers
 .
 cpp
 '
-'
-EventDispatcher
-.
-cpp
-'
 ]
 UNIFIED_SOURCES
 +
@@ -248,6 +243,11 @@ cpp
 '
 '
 ANRReporter
+.
+cpp
+'
+'
+EventDispatcher
 .
 cpp
 '
