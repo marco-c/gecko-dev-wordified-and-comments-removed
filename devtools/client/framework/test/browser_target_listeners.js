@@ -88,6 +88,7 @@ resolve
 const
 getFrontFront
 =
+await
 target
 .
 getFront

@@ -137,6 +137,7 @@ consoleActor
 const
 inspectedWindowFront
 =
+await
 target
 .
 getFront

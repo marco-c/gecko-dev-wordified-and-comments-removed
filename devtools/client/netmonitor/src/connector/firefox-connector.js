@@ -431,6 +431,7 @@ this
 .
 emulationFront
 =
+await
 this
 .
 tabTarget

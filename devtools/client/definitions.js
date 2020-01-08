@@ -4149,6 +4149,7 @@ true
 const
 screenshotFront
 =
+await
 toolbox
 .
 target

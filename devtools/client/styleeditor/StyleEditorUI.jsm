@@ -3272,6 +3272,7 @@ showEditor
 const
 usage
 =
+await
 this
 .
 _target

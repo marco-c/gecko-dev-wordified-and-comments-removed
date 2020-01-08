@@ -13509,6 +13509,7 @@ this
 .
 _performance
 =
+await
 this
 .
 target

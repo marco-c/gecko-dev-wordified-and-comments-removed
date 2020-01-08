@@ -1455,6 +1455,7 @@ this
 .
 changesFront
 =
+await
 this
 .
 toolbox
@@ -11871,6 +11872,7 @@ clipboardEnabled
 const
 screenshotFront
 =
+await
 this
 .
 target

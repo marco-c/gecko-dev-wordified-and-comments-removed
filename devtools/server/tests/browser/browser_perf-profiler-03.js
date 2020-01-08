@@ -114,6 +114,7 @@ html
 const
 firstFront
 =
+await
 target1
 .
 getFront
@@ -155,6 +156,7 @@ html
 const
 secondFront
 =
+await
 target2
 .
 getFront

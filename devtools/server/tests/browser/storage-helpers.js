@@ -151,6 +151,7 @@ selectedTab
 const
 front
 =
+await
 target
 .
 getFront

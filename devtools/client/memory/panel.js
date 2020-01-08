@@ -200,6 +200,7 @@ panelWin
 .
 gFront
 =
+await
 this
 .
 target
