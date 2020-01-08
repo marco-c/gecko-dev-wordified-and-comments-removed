@@ -910,15 +910,6 @@ nsThread
 NOT_MAIN_THREAD
 kWorkletStackSize
 )
-mCreationTimeStamp
-(
-TimeStamp
-:
-:
-Now
-(
-)
-)
 mJSContext
 (
 nullptr

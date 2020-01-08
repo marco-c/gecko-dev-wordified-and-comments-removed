@@ -123,6 +123,16 @@ WorkletGlobalScope
 WorkletGlobalScope
 (
 )
+:
+mCreationTimeStamp
+(
+TimeStamp
+:
+:
+Now
+(
+)
+)
 {
 }
 WorkletGlobalScope
