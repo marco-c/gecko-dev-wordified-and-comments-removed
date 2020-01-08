@@ -7580,7 +7580,13 @@ global
 )
 {
 return
-nullptr
+JS
+:
+:
+CurrentGlobalOrNull
+(
+cx
+)
 ;
 }
 MOZ_ASSERT
