@@ -2490,9 +2490,6 @@ return
 false
 ;
 }
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 virtual
 void
 OnChannelReceivedMessage
@@ -2504,8 +2501,6 @@ aMsg
 )
 {
 }
-#
-endif
 bool
 IsMainThreadProtocol
 (
