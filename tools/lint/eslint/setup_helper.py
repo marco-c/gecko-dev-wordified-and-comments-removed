@@ -585,6 +585,15 @@ npm_path
 "
 install
 "
+"
+-
+-
+no
+-
+package
+-
+lock
+"
 ]
     
 cmd
