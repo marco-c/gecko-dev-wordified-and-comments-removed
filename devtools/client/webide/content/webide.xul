@@ -1981,7 +1981,7 @@ vbox
 toolbar
 >
 <
-notificationbox
+vbox
 flex
 =
 "
@@ -1990,7 +1990,7 @@ flex
 id
 =
 "
-notificationbox
+containerbox
 "
 >
 <
@@ -2459,7 +2459,7 @@ here
 >
 <
 /
-notificationbox
+vbox
 >
 <
 /

@@ -4123,13 +4123,13 @@ menupopup
 popupset
 >
 <
-notificationbox
+vbox
 id
 =
 "
 scratchpad
 -
-notificationbox
+container
 "
 flex
 =
@@ -4246,7 +4246,7 @@ toolbar
 >
 <
 /
-notificationbox
+vbox
 >
 <
 /

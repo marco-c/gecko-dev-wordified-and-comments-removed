@@ -116,13 +116,6 @@ cb
 )
 {
 let
-parent
-=
-notification
-.
-parentNode
-;
-let
 observer
 =
 new
@@ -204,7 +197,11 @@ observer
 .
 observe
 (
-parent
+notification
+.
+control
+.
+stack
 {
 childList
 :

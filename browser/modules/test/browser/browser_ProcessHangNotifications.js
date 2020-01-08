@@ -74,6 +74,8 @@ gHighPriorityNotificationBox
 ;
 notificationBox
 .
+stack
+.
 addEventListener
 (
 "

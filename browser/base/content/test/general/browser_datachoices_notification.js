@@ -235,6 +235,8 @@ defer
 ;
 aNotificationBox
 .
+stack
+.
 addEventListener
 (
 "
