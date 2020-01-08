@@ -289,12 +289,6 @@ MostRecentRefresh
 )
 const
 ;
-int64_t
-MostRecentRefreshEpochTime
-(
-)
-const
-;
 bool
 AddRefreshObserver
 (
@@ -1110,8 +1104,6 @@ UpdateIntersectionObservations
 void
 Tick
 (
-int64_t
-aNowEpoch
 mozilla
 :
 :
@@ -1320,9 +1312,6 @@ mResizeSuppressed
 ;
 bool
 mNotifyDOMContentFlushed
-;
-int64_t
-mMostRecentRefreshEpochTime
 ;
 uint64_t
 mWarningThreshold
