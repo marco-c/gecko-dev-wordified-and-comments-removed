@@ -2079,7 +2079,7 @@ UnspecifiedError
 }
 pub
 fn
-is_non_transparent
+is_transparent
 (
 &
 self
@@ -2107,13 +2107,13 @@ parsed
 parsed
 .
 alpha
-!
+=
 =
 0
 _
 =
 >
-true
+false
 }
 }
 }
