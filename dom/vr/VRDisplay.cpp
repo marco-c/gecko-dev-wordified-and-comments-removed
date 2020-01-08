@@ -1328,8 +1328,6 @@ aRetval
 mPosition
 mVRState
 .
-pose
-.
 position
 3
 !
@@ -1383,8 +1381,6 @@ aCx
 aRetval
 mLinearVelocity
 mVRState
-.
-pose
 .
 linearVelocity
 3
@@ -1440,8 +1436,6 @@ aRetval
 mLinearAcceleration
 mVRState
 .
-pose
-.
 linearAcceleration
 3
 !
@@ -1495,8 +1489,6 @@ aCx
 aRetval
 mOrientation
 mVRState
-.
-pose
 .
 orientation
 4
@@ -1552,8 +1544,6 @@ aRetval
 mAngularVelocity
 mVRState
 .
-pose
-.
 angularVelocity
 3
 !
@@ -1607,8 +1597,6 @@ aCx
 aRetval
 mAngularAcceleration
 mVRState
-.
-pose
 .
 angularAcceleration
 3

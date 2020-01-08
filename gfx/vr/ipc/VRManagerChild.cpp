@@ -249,9 +249,6 @@ mVRMockDisplay
 (
 nullptr
 )
-mLastControllerState
-{
-}
 {
 MOZ_ASSERT
 (

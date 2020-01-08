@@ -192,11 +192,6 @@ FireEvents
 (
 )
 ;
-void
-FireGamepadEvents
-(
-)
-;
 VRDisplayInfo
 mDisplayInfo
 ;
@@ -214,12 +209,6 @@ mLastEventFrameId
 ;
 uint32_t
 mLastPresentingGeneration
-;
-VRControllerState
-mLastEventControllerState
-[
-kVRControllerMaxCount
-]
 ;
 private
 :

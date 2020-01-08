@@ -628,8 +628,6 @@ Cap_Orientation
 ;
 mSensorState
 .
-pose
-.
 orientation
 [
 0
@@ -640,8 +638,6 @@ rot
 x
 ;
 mSensorState
-.
-pose
 .
 orientation
 [
@@ -654,8 +650,6 @@ y
 ;
 mSensorState
 .
-pose
-.
 orientation
 [
 2
@@ -666,8 +660,6 @@ rot
 z
 ;
 mSensorState
-.
-pose
 .
 orientation
 [
@@ -680,8 +672,6 @@ w
 ;
 mSensorState
 .
-pose
-.
 angularVelocity
 [
 0
@@ -692,8 +682,6 @@ angularVelocity
 0f
 ;
 mSensorState
-.
-pose
 .
 angularVelocity
 [
@@ -705,8 +693,6 @@ angularVelocity
 0f
 ;
 mSensorState
-.
-pose
 .
 angularVelocity
 [
@@ -729,8 +715,6 @@ Cap_Position
 ;
 mSensorState
 .
-pose
-.
 position
 [
 0
@@ -741,8 +725,6 @@ position
 0f
 ;
 mSensorState
-.
-pose
 .
 position
 [
@@ -754,8 +736,6 @@ position
 0f
 ;
 mSensorState
-.
-pose
 .
 position
 [
@@ -768,8 +748,6 @@ position
 ;
 mSensorState
 .
-pose
-.
 linearVelocity
 [
 0
@@ -780,8 +758,6 @@ linearVelocity
 0f
 ;
 mSensorState
-.
-pose
 .
 linearVelocity
 [
@@ -793,8 +769,6 @@ linearVelocity
 0f
 ;
 mSensorState
-.
-pose
 .
 linearVelocity
 [
@@ -3309,7 +3283,7 @@ strncpy
 (
 state
 .
-controllerName
+mControllerName
 "
 Puppet
 Gamepad
@@ -3319,19 +3293,19 @@ kVRControllerNameMaxLen
 ;
 state
 .
-numButtons
+mNumButtons
 =
 kNumPuppetButtonMask
 ;
 state
 .
-numAxes
+mNumAxes
 =
 kNumPuppetAxis
 ;
 state
 .
-numHaptics
+mNumHaptics
 =
 kNumPuppetHaptcs
 ;
@@ -3626,7 +3600,7 @@ mControllerInfo
 .
 mControllerState
 .
-axisValue
+mAxisValue
 [
 aAxis
 ]
@@ -3648,7 +3622,7 @@ mControllerInfo
 .
 mControllerState
 .
-axisValue
+mAxisValue
 [
 aAxis
 ]

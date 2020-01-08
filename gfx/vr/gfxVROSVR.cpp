@@ -1719,8 +1719,6 @@ Cap_Orientation
 ;
 result
 .
-pose
-.
 orientation
 [
 0
@@ -1735,8 +1733,6 @@ data
 ;
 result
 .
-pose
-.
 orientation
 [
 1
@@ -1751,8 +1747,6 @@ data
 ;
 result
 .
-pose
-.
 orientation
 [
 2
@@ -1766,8 +1760,6 @@ data
 ]
 ;
 result
-.
-pose
 .
 orientation
 [
@@ -1785,8 +1777,6 @@ data
 else
 {
 result
-.
-pose
 .
 orientation
 [
@@ -1833,8 +1823,6 @@ Cap_Position
 ;
 result
 .
-pose
-.
 position
 [
 0
@@ -1849,8 +1837,6 @@ data
 ;
 result
 .
-pose
-.
 position
 [
 1
@@ -1864,8 +1850,6 @@ data
 ]
 ;
 result
-.
-pose
 .
 position
 [
