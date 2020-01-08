@@ -1216,6 +1216,25 @@ ini
 '
 )
     
+if
+not
+os
+.
+path
+.
+exists
+(
+obj_base_path
+)
+:
+        
+os
+.
+makedirs
+(
+obj_base_path
+)
+    
 path
 =
 os
