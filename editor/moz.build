@@ -122,6 +122,11 @@ nsIEditor
 idl
 '
 '
+nsIEditorBlobListener
+.
+idl
+'
+'
 nsIEditorMailSupport
 .
 idl
@@ -138,11 +143,6 @@ idl
 '
 '
 nsIEditorStyleSheets
-.
-idl
-'
-'
-nsIEditorUtils
 .
 idl
 '
