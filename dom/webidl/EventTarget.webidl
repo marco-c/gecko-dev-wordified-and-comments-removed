@@ -214,6 +214,7 @@ Window
 Worker
 WorkerDebugger
 AudioWorklet
+System
 )
 ]
 interface
@@ -490,7 +491,10 @@ EventTarget
 ChromeOnly
 Exposed
 =
+(
 Window
+System
+)
 BinaryName
 =
 "

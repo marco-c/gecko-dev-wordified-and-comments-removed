@@ -133,6 +133,7 @@ Exposed
 Window
 Worker
 AudioWorklet
+System
 )
 ]
 interface

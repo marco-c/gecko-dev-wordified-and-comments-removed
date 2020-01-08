@@ -201,7 +201,7 @@ overhead
 ChromeOnly
 Exposed
 =
-Window
+System
 ]
 interface
 ChannelWrapper

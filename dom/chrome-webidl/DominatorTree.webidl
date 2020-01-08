@@ -476,6 +476,7 @@ Exposed
 =
 (
 Window
+System
 Worker
 )
 ]

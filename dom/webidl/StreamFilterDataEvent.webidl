@@ -168,7 +168,10 @@ IsAllowedInContext
 "
 Exposed
 =
+(
 Window
+System
+)
 ]
 interface
 StreamFilterDataEvent

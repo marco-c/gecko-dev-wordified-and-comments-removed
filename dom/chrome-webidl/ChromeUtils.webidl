@@ -169,7 +169,10 @@ object
 ChromeOnly
 Exposed
 =
+(
 Window
+System
+)
 ]
 interface
 MozQueryInterface
@@ -244,6 +247,7 @@ Exposed
 =
 (
 Window
+System
 Worker
 )
 ]
@@ -966,7 +970,10 @@ workers
 [
 Exposed
 =
+(
 Window
+System
+)
 ]
 partial
 namespace

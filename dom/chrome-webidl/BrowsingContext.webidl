@@ -97,7 +97,10 @@ nsIDocShell
 [
 Exposed
 =
+(
 Window
+System
+)
 ChromeOnly
 ]
 interface

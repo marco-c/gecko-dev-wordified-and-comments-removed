@@ -296,7 +296,10 @@ options
 ChromeOnly
 Exposed
 =
+(
 Window
+System
+)
 ]
 interface
 MatchPattern
@@ -543,7 +546,10 @@ options
 ChromeOnly
 Exposed
 =
+(
 Window
+System
+)
 ]
 interface
 MatchPatternSet

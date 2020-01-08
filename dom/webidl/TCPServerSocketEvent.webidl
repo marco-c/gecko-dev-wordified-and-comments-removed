@@ -116,7 +116,10 @@ ShouldTCPSocketExist
 "
 Exposed
 =
+(
 Window
+System
+)
 ]
 interface
 TCPServerSocketEvent

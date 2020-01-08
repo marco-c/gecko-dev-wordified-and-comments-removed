@@ -112,7 +112,10 @@ MPL
 [
 Exposed
 =
+(
 Window
+System
+)
 ]
 interface
 IDBFileRequest
