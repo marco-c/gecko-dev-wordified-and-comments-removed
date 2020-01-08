@@ -234,6 +234,11 @@ nsIPrincipal
 aPrincipal
 )
 ;
+void
+ResetSync
+(
+)
+;
 nsresult
 SyncWithMatchingVideoConduits
 (
