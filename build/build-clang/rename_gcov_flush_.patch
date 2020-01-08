@@ -170,7 +170,7 @@ __gcov_flush
 {
 +
 void
-__llvm_gcov_flush
+__custom_llvm_gcov_flush
 (
 )
 {
