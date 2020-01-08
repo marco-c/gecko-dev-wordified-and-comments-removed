@@ -2960,7 +2960,7 @@ resolve_keyed_by
             
 test
 '
-requite
+require
 -
 signed
 -
