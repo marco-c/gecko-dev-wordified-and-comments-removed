@@ -1466,14 +1466,3 @@ appearance
 scrollcorner
 ;
 }
-.
-CodeMirror
--
-scroll
-{
-contain
-:
-layout
-size
-;
-}
