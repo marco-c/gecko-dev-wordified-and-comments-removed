@@ -736,6 +736,7 @@ TBPL_WORST_LEVEL_TUPLE
 )
         
 if
+(
 self
 .
 pass_count
@@ -749,6 +750,24 @@ fail_count
 =
 =
 0
+and
+           
+os
+.
+environ
+.
+get
+(
+'
+TRY_SELECTOR
+'
+)
+!
+=
+'
+coverage
+'
+)
 :
             
 self
