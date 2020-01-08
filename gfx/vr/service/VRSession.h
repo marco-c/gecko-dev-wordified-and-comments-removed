@@ -55,6 +55,8 @@ virtual
 VRSession
 (
 )
+=
+default
 ;
 virtual
 bool

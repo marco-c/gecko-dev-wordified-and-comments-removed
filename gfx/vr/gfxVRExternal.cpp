@@ -3535,8 +3535,6 @@ ScanForControllers
 (
 )
 {
-return
-;
 }
 void
 VRSystemManagerExternal
@@ -3546,8 +3544,6 @@ HandleInput
 (
 )
 {
-return
-;
 }
 void
 VRSystemManagerExternal
