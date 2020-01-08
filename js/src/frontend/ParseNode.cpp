@@ -399,9 +399,14 @@ define
 ARITY
 (
 _name
-arity
+type
 )
+type
+:
+:
 arity
+(
+)
 FOR_EACH_PARSE_NODE_KIND
 (
 ARITY
@@ -429,7 +434,7 @@ define
 STRINGIFY
 (
 name
-_arity
+_type
 )
 #
 name
