@@ -1,3 +1,5 @@
+import
+os
 config
 =
 {
@@ -164,17 +166,23 @@ True
 geckodriver
 "
 :
+os
+.
+path
+.
+join
+(
 "
 %
 (
-test_install_path
+abs_test_bin_dir
 )
 s
-/
-bin
-/
+"
+"
 geckodriver
 "
+)
     
 "
 per_test_category

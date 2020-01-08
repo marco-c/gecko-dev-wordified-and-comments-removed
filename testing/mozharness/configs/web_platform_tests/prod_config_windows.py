@@ -1,4 +1,6 @@
 import
+os
+import
 sys
 config
 =
@@ -199,17 +201,25 @@ True
 geckodriver
 "
 :
+os
+.
+path
+.
+join
+(
 "
 %
 (
-test_install_path
+abs_test_bin_dir
 )
 s
-/
-bin
-/
-geckodriver
 "
+"
+geckodriver
+.
+exe
+"
+)
     
 "
 per_test_category
