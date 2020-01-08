@@ -1068,7 +1068,7 @@ returnAddressToFp
 (
 )
 ;
-BaselineICEntry
+ICEntry
 &
 icEntry
 =
@@ -2324,7 +2324,7 @@ ICEntry
 Kind_CallVM
 :
 {
-BaselineICEntry
+ICEntry
 &
 callVMEntry
 =
@@ -2363,7 +2363,7 @@ ICEntry
 Kind_WarmupCounter
 :
 {
-BaselineICEntry
+ICEntry
 &
 warmupCountEntry
 =
@@ -2418,7 +2418,7 @@ ICEntry
 :
 Kind_EarlyStackCheck
 ;
-BaselineICEntry
+ICEntry
 &
 stackCheckEntry
 =

@@ -114,9 +114,6 @@ class
 IonBuilder
 ;
 class
-IonICEntry
-;
-class
 JitCode
 ;
 typedef
