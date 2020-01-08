@@ -284,12 +284,10 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
-www
-.
 chambers
 .
 co
