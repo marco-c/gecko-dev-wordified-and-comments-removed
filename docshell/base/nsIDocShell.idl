@@ -7273,6 +7273,9 @@ below
 .
 *
 /
+[
+infallible
+]
 attribute
 unsigned
 long
@@ -8017,6 +8020,9 @@ docshell
 .
 *
 /
+[
+infallible
+]
 attribute
 unsigned
 long
