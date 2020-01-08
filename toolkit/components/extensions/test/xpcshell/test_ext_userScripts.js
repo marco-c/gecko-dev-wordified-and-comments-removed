@@ -973,6 +973,11 @@ unload
 }
 )
 ;
+if
+(
+false
+)
+{
 add_task
 (
 async
@@ -1770,6 +1775,7 @@ unload
 }
 )
 ;
+}
 add_task
 (
 async
