@@ -55,8 +55,6 @@ Window
 ]
 interface
 XRDevice
-:
-EventTarget
 {
 /
 /
