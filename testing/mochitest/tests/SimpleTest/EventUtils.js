@@ -11768,9 +11768,12 @@ j
 +
 )
 {
+_EU_maybeWrap
+(
 event
 .
 dataTransfer
+)
 .
 mozSetDataAt
 (
