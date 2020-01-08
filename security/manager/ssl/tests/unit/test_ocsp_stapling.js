@@ -1072,7 +1072,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 0
 ]
@@ -1094,7 +1094,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 1
 ]
@@ -1117,7 +1117,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 2
 ]
@@ -1140,10 +1140,13 @@ equal
 (
 histogram
 .
-counts
+values
 [
 3
 ]
+|
+|
+0
 0
 "
 Actual
@@ -1163,7 +1166,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 4
 ]

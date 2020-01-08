@@ -417,7 +417,7 @@ extensionId
 ;
 equal
 (
-arraySum
+valueSum
 (
 getSnapshots
 (
@@ -427,7 +427,7 @@ process
 HISTOGRAM
 ]
 .
-counts
+values
 )
 1
 Data
@@ -443,7 +443,7 @@ HISTOGRAM
 ;
 equal
 (
-arraySum
+valueSum
 (
 getKeyedSnapshots
 (
@@ -456,7 +456,7 @@ HISTOGRAM_KEYED
 extensionId
 ]
 .
-counts
+values
 )
 1
 Data
@@ -518,7 +518,7 @@ extensionId2
 ;
 equal
 (
-arraySum
+valueSum
 (
 getSnapshots
 (
@@ -528,7 +528,7 @@ process
 HISTOGRAM
 ]
 .
-counts
+values
 )
 1
 No
@@ -549,7 +549,7 @@ HISTOGRAM
 ;
 equal
 (
-arraySum
+valueSum
 (
 getKeyedSnapshots
 (
@@ -562,7 +562,7 @@ HISTOGRAM_KEYED
 extensionId
 ]
 .
-counts
+values
 )
 1
 No
@@ -668,7 +668,7 @@ extensionId2
 ;
 equal
 (
-arraySum
+valueSum
 (
 getSnapshots
 (
@@ -678,7 +678,7 @@ process
 HISTOGRAM
 ]
 .
-counts
+values
 )
 2
 Data
@@ -694,7 +694,7 @@ HISTOGRAM
 ;
 equal
 (
-arraySum
+valueSum
 (
 getKeyedSnapshots
 (
@@ -707,7 +707,7 @@ HISTOGRAM_KEYED
 extensionId
 ]
 .
-counts
+values
 )
 1
 No
@@ -730,7 +730,7 @@ extensionId
 ;
 equal
 (
-arraySum
+valueSum
 (
 getKeyedSnapshots
 (
@@ -743,7 +743,7 @@ HISTOGRAM_KEYED
 extensionId2
 ]
 .
-counts
+values
 )
 1
 Data

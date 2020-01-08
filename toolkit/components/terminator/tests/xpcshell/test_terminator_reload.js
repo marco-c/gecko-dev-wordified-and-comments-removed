@@ -469,9 +469,14 @@ for
 let
 x
 of
+Object
+.
+values
+(
 snapshot
 .
-counts
+values
+)
 )
 {
 count

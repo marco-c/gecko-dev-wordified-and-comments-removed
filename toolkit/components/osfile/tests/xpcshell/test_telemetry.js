@@ -111,9 +111,14 @@ for
 let
 i
 of
+Object
+.
+values
+(
 histogram
 .
-counts
+values
+)
 )
 {
 total

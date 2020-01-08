@@ -798,9 +798,14 @@ Assert
 .
 ok
 (
+Object
+.
+values
+(
 snapshot
 .
-counts
+values
+)
 .
 reduce
 (
@@ -813,6 +818,7 @@ b
 a
 +
 b
+0
 )
 >
 0

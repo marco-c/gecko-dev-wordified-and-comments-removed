@@ -90,11 +90,14 @@ DEVTOOLS_TOOLBOX_OPENED_COUNT
 "
 "
 "
-[
+{
+0
+:
 3
+1
+:
 0
-0
-]
+}
 "
 array
 "

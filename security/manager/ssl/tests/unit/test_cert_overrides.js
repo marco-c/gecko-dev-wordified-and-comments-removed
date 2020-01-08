@@ -34,7 +34,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 0
 ]
@@ -44,7 +44,7 @@ Should
 have
 0
 unclassified
-counts
+values
 "
 )
 ;
@@ -52,7 +52,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 2
 ]
@@ -62,7 +62,7 @@ Actual
 and
 expected
 SEC_ERROR_UNKNOWN_ISSUER
-counts
+values
 should
 match
 "
@@ -72,7 +72,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 3
 ]
@@ -82,7 +82,7 @@ Actual
 and
 expected
 SEC_ERROR_CA_CERT_INVALID
-counts
+values
 should
 match
 "
@@ -92,17 +92,20 @@ equal
 (
 histogram
 .
-counts
+values
 [
 4
 ]
+|
+|
+0
 0
 "
 Actual
 and
 expected
 SEC_ERROR_UNTRUSTED_ISSUER
-counts
+values
 should
 match
 "
@@ -112,7 +115,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 5
 ]
@@ -122,7 +125,7 @@ Actual
 and
 expected
 SEC_ERROR_EXPIRED_ISSUER_CERTIFICATE
-counts
+values
 should
 match
 "
@@ -132,17 +135,20 @@ equal
 (
 histogram
 .
-counts
+values
 [
 6
 ]
+|
+|
+0
 0
 "
 Actual
 and
 expected
 SEC_ERROR_UNTRUSTED_CERT
-counts
+values
 should
 match
 "
@@ -152,17 +158,20 @@ equal
 (
 histogram
 .
-counts
+values
 [
 7
 ]
+|
+|
+0
 0
 "
 Actual
 and
 expected
 SEC_ERROR_INADEQUATE_KEY_USAGE
-counts
+values
 should
 match
 "
@@ -172,7 +181,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 8
 ]
@@ -182,7 +191,7 @@ Actual
 and
 expected
 SEC_ERROR_CERT_SIGNATURE_ALGORITHM_DISABLED
-counts
+values
 should
 match
 "
@@ -192,7 +201,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 9
 ]
@@ -202,7 +211,7 @@ Actual
 and
 expected
 SSL_ERROR_BAD_CERT_DOMAIN
-counts
+values
 should
 match
 "
@@ -212,7 +221,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 10
 ]
@@ -222,7 +231,7 @@ Actual
 and
 expected
 SEC_ERROR_EXPIRED_CERTIFICATE
-counts
+values
 should
 match
 "
@@ -232,7 +241,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 11
 ]
@@ -242,7 +251,7 @@ Actual
 and
 expected
 MOZILLA_PKIX_ERROR_CA_CERT_USED_AS_END_ENTITY
-counts
+values
 should
 match
 "
@@ -252,7 +261,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 12
 ]
@@ -262,7 +271,7 @@ Actual
 and
 expected
 MOZILLA_PKIX_ERROR_V1_CERT_USED_AS_CA
-counts
+values
 should
 match
 "
@@ -272,7 +281,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 13
 ]
@@ -282,7 +291,7 @@ Actual
 and
 expected
 MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
-counts
+values
 should
 match
 "
@@ -292,7 +301,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 14
 ]
@@ -302,7 +311,7 @@ Actual
 and
 expected
 MOZILLA_PKIX_ERROR_NOT_YET_VALID_CERTIFICATE
-counts
+values
 should
 match
 "
@@ -312,7 +321,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 15
 ]
@@ -322,7 +331,7 @@ Actual
 and
 expected
 MOZILLA_PKIX_ERROR_NOT_YET_VALID_ISSUER_CERTIFICATE
-counts
+values
 should
 match
 "
@@ -332,7 +341,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 16
 ]
@@ -342,7 +351,7 @@ Actual
 and
 expected
 SEC_ERROR_INVALID_TIME
-counts
+values
 should
 match
 "
@@ -352,7 +361,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 17
 ]
@@ -362,7 +371,7 @@ Actual
 and
 expected
 MOZILLA_PKIX_ERROR_EMPTY_ISSUER_NAME
-counts
+values
 should
 match
 "
@@ -372,7 +381,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 19
 ]
@@ -382,7 +391,7 @@ Actual
 and
 expected
 MOZILLA_PKIX_ERROR_SELF_SIGNED_CERT
-counts
+values
 should
 match
 "
@@ -392,7 +401,7 @@ equal
 (
 histogram
 .
-counts
+values
 [
 20
 ]
@@ -402,7 +411,7 @@ Actual
 and
 expected
 MOZILLA_PKIX_ERROR_MITM_DETECTED
-counts
+values
 should
 match
 "
@@ -430,7 +439,7 @@ equal
 (
 keySizeHistogram
 .
-counts
+values
 [
 0
 ]
@@ -442,7 +451,7 @@ expected
 unchecked
 key
 size
-counts
+values
 should
 match
 "
@@ -452,7 +461,7 @@ equal
 (
 keySizeHistogram
 .
-counts
+values
 [
 1
 ]
@@ -477,10 +486,13 @@ equal
 (
 keySizeHistogram
 .
-counts
+values
 [
 2
 ]
+|
+|
+0
 0
 "
 Actual
@@ -502,7 +514,7 @@ equal
 (
 keySizeHistogram
 .
-counts
+values
 [
 3
 ]

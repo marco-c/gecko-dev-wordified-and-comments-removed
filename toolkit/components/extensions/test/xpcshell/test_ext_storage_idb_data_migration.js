@@ -387,7 +387,7 @@ snapshot
 (
 )
 .
-counts
+values
 [
 CATEGORIES
 .
