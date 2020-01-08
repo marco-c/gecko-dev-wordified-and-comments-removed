@@ -102,6 +102,15 @@ include
 "
 js
 /
+CharacterEncoding
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
@@ -1080,8 +1089,10 @@ isString
 )
 )
 ;
-JSAutoByteString
+UniqueChars
 locale
+=
+JS_EncodeString
 (
 cx
 args
@@ -1117,7 +1128,7 @@ IcuLocale
 (
 locale
 .
-ptr
+get
 (
 )
 )
@@ -1286,8 +1297,10 @@ value
 return
 nullptr
 ;
-JSAutoByteString
+UniqueChars
 locale
+=
+JS_EncodeString
 (
 cx
 value
@@ -1894,7 +1907,7 @@ IcuLocale
 (
 locale
 .
-ptr
+get
 (
 )
 )

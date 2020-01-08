@@ -103,7 +103,7 @@ include
 "
 js
 /
-AutoByteString
+CharacterEncoding
 .
 h
 "
@@ -1228,7 +1228,7 @@ JSContext
 *
 cx
 const
-JSAutoByteString
+UniqueChars
 &
 locale
 MutableHandleValue
@@ -1250,7 +1250,7 @@ nullptr
 0
 locale
 .
-ptr
+get
 (
 )
 UCAL_DEFAULT
@@ -1457,8 +1457,10 @@ isString
 )
 )
 ;
-JSAutoByteString
+UniqueChars
 locale
+=
+JS_EncodeString
 (
 cx
 args
@@ -1554,7 +1556,7 @@ ca
 "
 locale
 .
-ptr
+get
 (
 )
 false
@@ -1874,8 +1876,10 @@ isString
 )
 )
 ;
-JSAutoByteString
+UniqueChars
 locale
+=
+JS_EncodeString
 (
 cx
 args
@@ -2842,8 +2846,10 @@ isString
 )
 )
 ;
-JSAutoByteString
+UniqueChars
 locale
+=
+JS_EncodeString
 (
 cx
 args
@@ -2922,7 +2928,7 @@ IcuLocale
 (
 locale
 .
-ptr
+get
 (
 )
 )
@@ -3081,8 +3087,10 @@ isString
 )
 )
 ;
-JSAutoByteString
+UniqueChars
 locale
+=
+JS_EncodeString
 (
 cx
 args
@@ -3389,7 +3397,7 @@ IcuLocale
 (
 locale
 .
-ptr
+get
 (
 )
 )
@@ -3568,8 +3576,10 @@ value
 return
 nullptr
 ;
-JSAutoByteString
+UniqueChars
 locale
+=
+JS_EncodeString
 (
 cx
 value
@@ -3730,7 +3740,7 @@ IcuLocale
 (
 locale
 .
-ptr
+get
 (
 )
 )

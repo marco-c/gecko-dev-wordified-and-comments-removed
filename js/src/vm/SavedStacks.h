@@ -954,7 +954,10 @@ get
 }
 }
 ;
-UTF8CharsZ
+JS
+:
+:
+UniqueChars
 BuildUTF8StackString
 (
 JSContext

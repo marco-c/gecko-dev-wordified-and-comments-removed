@@ -119,6 +119,15 @@ include
 "
 js
 /
+CharacterEncoding
+.
+h
+"
+#
+include
+"
+js
+/
 Conversions
 .
 h
@@ -4166,8 +4175,10 @@ return
 false
 ;
 }
-JSAutoByteString
+UniqueChars
 numBytes
+=
+JS_EncodeString
 (
 cx
 str
@@ -4188,7 +4199,7 @@ num
 =
 numBytes
 .
-ptr
+get
 (
 )
 ;

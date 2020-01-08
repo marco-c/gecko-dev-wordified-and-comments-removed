@@ -18579,14 +18579,11 @@ return
 false
 ;
 filename
-.
-reset
-(
+=
 JS_EncodeString
 (
 cx
 str
-)
 )
 ;
 if

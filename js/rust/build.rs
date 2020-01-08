@@ -1698,9 +1698,6 @@ Dump
 *
 "
 "
-JS_EncodeStringToUTF8
-"
-"
 JS
 :
 :

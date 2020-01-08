@@ -14,7 +14,7 @@ include
 "
 js
 /
-AutoByteString
+CharacterEncoding
 .
 h
 "
@@ -170,7 +170,7 @@ cx
 JSFunction
 *
 fun
-JSAutoByteString
+UniqueChars
 *
 bytes
 )
@@ -202,11 +202,10 @@ probes
 :
 anonymousName
 ;
-return
+*
 bytes
--
->
-encodeLatin1
+=
+JS_EncodeString
 (
 cx
 fun
@@ -216,11 +215,15 @@ displayAtom
 (
 )
 )
+;
+return
+*
+bytes
 ?
 bytes
 -
 >
-ptr
+get
 (
 )
 :
@@ -247,7 +250,7 @@ JSScript
 script
 )
 {
-JSAutoByteString
+UniqueChars
 funNameBytes
 ;
 JAVASCRIPT_FUNCTION_ENTRY
@@ -287,7 +290,7 @@ JSScript
 script
 )
 {
-JSAutoByteString
+UniqueChars
 funNameBytes
 ;
 JAVASCRIPT_FUNCTION_RETURN
