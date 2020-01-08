@@ -323,7 +323,7 @@ options
 sampleFrequency
 |
 |
-1
+1000
 }
 ;
 this

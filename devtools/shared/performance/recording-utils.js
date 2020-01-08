@@ -37,13 +37,9 @@ sampleFrequency
 (
 1000
 /
-(
 options
 .
 sampleFrequency
-*
-1000
-)
 )
 :
 void

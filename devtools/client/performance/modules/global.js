@@ -234,7 +234,7 @@ sample
 -
 frequency
 -
-khz
+hz
 "
 ]
 "

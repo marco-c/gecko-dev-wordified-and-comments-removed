@@ -918,9 +918,9 @@ sample
 -
 frequency
 -
-khz
+hz
 "
-1
+1000
 )
 ;
 pref
