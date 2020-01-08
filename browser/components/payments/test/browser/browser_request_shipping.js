@@ -233,7 +233,7 @@ selectedShippingAddress
 "
 ;
 let
-shippingAddress
+shippingAddressPicker
 =
 content
 .
@@ -250,7 +250,7 @@ content
 .
 isVisible
 (
-shippingAddress
+shippingAddressPicker
 )
 "
 shipping
@@ -265,18 +265,11 @@ visible
 let
 shippingOption
 =
-content
-.
-document
+shippingAddressPicker
 .
 querySelector
 (
 "
-#
-shipping
--
-type
--
 label
 "
 )
