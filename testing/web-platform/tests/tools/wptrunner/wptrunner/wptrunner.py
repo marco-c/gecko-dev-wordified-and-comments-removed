@@ -975,10 +975,15 @@ path
 .
 join
 (
-kwargs
+test_paths
 [
 "
-tests_root
+/
+"
+]
+[
+"
+tests_path
 "
 ]
 "
