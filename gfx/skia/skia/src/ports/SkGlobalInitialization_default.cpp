@@ -1,6 +1,13 @@
 #
 include
 "
+SkFlattenablePriv
+.
+h
+"
+#
+include
+"
 .
 .
 /
