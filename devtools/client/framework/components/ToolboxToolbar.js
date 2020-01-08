@@ -703,8 +703,8 @@ const
 id
 description
 disabled
-onClick
 isChecked
+onClick
 className
 :
 buttonClass
