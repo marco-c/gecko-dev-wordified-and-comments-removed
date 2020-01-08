@@ -782,7 +782,7 @@ const
 char
 *
 aPrefName
-void
+XULDocument
 *
 aData
 )

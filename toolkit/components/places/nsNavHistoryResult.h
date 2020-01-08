@@ -686,9 +686,9 @@ const
 char
 *
 prefName
-void
+nsNavHistoryResult
 *
-closure
+self
 )
 ;
 protected

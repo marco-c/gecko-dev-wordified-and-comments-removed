@@ -974,7 +974,6 @@ FifoWatcher
 :
 :
 kPrefName
-nullptr
 )
 ;
 }
@@ -1098,7 +1097,6 @@ FifoWatcher
 :
 :
 kPrefName
-nullptr
 )
 ;
 }

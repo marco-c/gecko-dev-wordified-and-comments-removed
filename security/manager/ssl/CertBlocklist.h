@@ -307,9 +307,9 @@ const
 char
 *
 aPref
-void
+CertBlocklist
 *
-aClosure
+aBlocklist
 )
 ;
 static
