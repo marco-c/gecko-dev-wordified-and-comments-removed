@@ -92,10 +92,6 @@ httpChannel
 URI
 .
 prePath
-+
-"
-/
-"
 !
 =
 TEST_3RD_PARTY_DOMAIN_TP
