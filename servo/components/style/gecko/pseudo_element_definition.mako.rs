@@ -39,7 +39,7 @@ is_tree_pseudo_element
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }
@@ -55,7 +55,7 @@ else
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }
@@ -306,7 +306,7 @@ PseudoElement
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }
@@ -814,7 +814,7 @@ SERVO_CSS_PSEUDO_ELEMENT_FLAGS_
 {
 pseudo
 .
-original_ident
+pseudo_ident
 }
 %
 endif
@@ -877,7 +877,7 @@ CSSPseudoElementType
 {
 pseudo
 .
-original_ident
+pseudo_ident
 }
 =
 >
@@ -962,7 +962,7 @@ PseudoElement
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }
@@ -974,7 +974,7 @@ CSSPseudoElementType
 {
 pseudo
 .
-original_ident
+pseudo_ident
 }
 %
 elif
@@ -990,7 +990,7 @@ PseudoElement
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }
@@ -1018,7 +1018,7 @@ PseudoElement
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }
@@ -1034,7 +1034,7 @@ PseudoElement
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }
@@ -1147,7 +1147,7 @@ PseudoElement
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }
@@ -1458,7 +1458,7 @@ PseudoElement
 {
 pseudo
 .
-capitalized
+capitalized_pseudo
 (
 )
 }

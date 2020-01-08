@@ -26188,6 +26188,8 @@ nsCSSPseudoElements
 :
 :
 before
+(
+)
 )
 {
 *
