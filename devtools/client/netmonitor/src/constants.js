@@ -507,6 +507,9 @@ stacktrace
 "
 isThirdPartyTrackingResource
 "
+"
+referrerPolicy
+"
 ]
 ;
 const

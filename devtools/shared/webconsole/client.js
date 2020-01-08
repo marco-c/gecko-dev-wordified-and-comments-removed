@@ -469,6 +469,11 @@ isThirdPartyTrackingResource
 actor
 .
 isThirdPartyTrackingResource
+referrerPolicy
+:
+actor
+.
+referrerPolicy
 }
 ;
 this

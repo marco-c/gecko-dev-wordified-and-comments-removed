@@ -257,6 +257,11 @@ isThirdPartyTrackingResource
 this
 .
 _isThirdPartyTrackingResource
+referrerPolicy
+:
+this
+.
+_referrerPolicy
 }
 ;
 }
@@ -400,6 +405,14 @@ _isThirdPartyTrackingResource
 networkEvent
 .
 isThirdPartyTrackingResource
+;
+this
+.
+_referrerPolicy
+=
+networkEvent
+.
+referrerPolicy
 ;
 this
 .
