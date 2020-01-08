@@ -610,7 +610,10 @@ aReflowInput
 mStyleDisplay
 -
 >
-mBreakType
+PhysicalBreakType
+(
+wm
+)
 ;
 if
 (

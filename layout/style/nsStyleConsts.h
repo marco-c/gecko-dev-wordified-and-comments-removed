@@ -125,6 +125,8 @@ None
 0
 Left
 Right
+InlineStart
+InlineEnd
 Both
 Line
 =
@@ -213,6 +215,8 @@ uint8_t
 None
 Left
 Right
+InlineStart
+InlineEnd
 }
 ;
 enum
