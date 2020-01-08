@@ -1,16 +1,4 @@
 var
-functionDeclarationsConfigurable
-=
-typeof
-document
-!
-=
-=
-"
-undefined
-"
-;
-var
 o
 =
 {
@@ -70,7 +58,7 @@ assertEq
 desc
 .
 configurable
-functionDeclarationsConfigurable
+false
 )
 ;
 function
