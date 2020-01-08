@@ -1012,6 +1012,11 @@ aValue
 )
 override
 ;
+bool
+InFullyActiveDocument
+(
+)
+;
 IMPL_EVENT_HANDLER
 (
 merchantvalidation
