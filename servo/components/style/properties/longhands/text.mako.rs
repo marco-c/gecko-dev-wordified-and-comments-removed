@@ -170,7 +170,7 @@ plaintext
 animation_value_type
 =
 "
-discrete
+none
 "
 spec
 =

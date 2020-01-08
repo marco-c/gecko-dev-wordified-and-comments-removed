@@ -4027,7 +4027,7 @@ empty
 animation_value_type
 =
 "
-discrete
+none
 "
 products
 =
@@ -4345,7 +4345,7 @@ gecko
 animation_value_type
 =
 "
-discrete
+none
 "
 spec
 =
