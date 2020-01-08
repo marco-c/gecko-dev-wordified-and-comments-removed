@@ -88,9 +88,6 @@ h
 namespace
 js
 {
-#
-ifdef
-JS_CRASH_DIAGNOSTICS
 class
 CompartmentChecker
 {
@@ -1097,8 +1094,6 @@ argIndex
 }
 }
 ;
-#
-endif
 #
 define
 START_ASSERT_SAME_COMPARTMENT
