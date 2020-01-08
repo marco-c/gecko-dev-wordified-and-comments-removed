@@ -38,12 +38,6 @@ detect_leaks
 "
 "
 :
-malloc_context_size
-=
-20
-"
-"
-:
 max_free_fill_size
 =
 268435456
