@@ -110,7 +110,7 @@ selector_parser
 :
 :
 PseudoElement
-24
+16
 )
 ;
 size_of_test
@@ -127,7 +127,7 @@ Component
 <
 SelectorImpl
 >
-32
+24
 )
 ;
 size_of_test
@@ -138,7 +138,7 @@ selector_parser
 :
 :
 NonTSPseudoClass
-24
+16
 )
 ;
 size_of_test

@@ -209,6 +209,17 @@ smallvec
 .
 6
 "
+thin
+-
+slice
+=
+"
+0
+.
+1
+.
+0
+"
 [
 build
 -
