@@ -767,7 +767,7 @@ disconnect
 function
 IdlePromise
 (
-window
+win
 )
 {
 return
@@ -789,7 +789,7 @@ idleDispatchToMainThread
 =
 >
 {
-window
+win
 .
 requestAnimationFrame
 (

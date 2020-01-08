@@ -659,7 +659,7 @@ uuid
 get
 (
 webEl
-window
+win
 )
 {
 if
@@ -768,7 +768,7 @@ element
 isStale
 (
 el
-window
+win
 )
 )
 {
@@ -2316,7 +2316,7 @@ isStale
 function
 (
 el
-window
+win
 =
 undefined
 )
@@ -2324,7 +2324,7 @@ undefined
 if
 (
 typeof
-window
+win
 =
 =
 "
@@ -2332,7 +2332,7 @@ undefined
 "
 )
 {
-window
+win
 =
 el
 .
@@ -2360,7 +2360,7 @@ ownerDocument
 !
 =
 =
-window
+win
 .
 document
 )
@@ -3508,7 +3508,7 @@ getInViewCentrePoint
 function
 (
 rect
-window
+win
 )
 {
 const
@@ -3546,7 +3546,7 @@ right
 :
 min
 (
-window
+win
 .
 innerWidth
 max
@@ -3592,7 +3592,7 @@ bottom
 :
 min
 (
-window
+win
 .
 innerHeight
 max

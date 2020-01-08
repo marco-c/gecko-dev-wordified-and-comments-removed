@@ -1047,7 +1047,7 @@ called
 false
 ;
 let
-window
+win
 =
 {
 requestAnimationFrame
@@ -1069,7 +1069,7 @@ callback
 await
 IdlePromise
 (
-window
+win
 )
 ;
 ok
