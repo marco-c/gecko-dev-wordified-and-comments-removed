@@ -47,7 +47,7 @@ use
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoAnimationValueMap
