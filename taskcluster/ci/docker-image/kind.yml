@@ -83,6 +83,14 @@ taskgraph
 .
 transforms
 .
+cached_tasks
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
 task
 :
 transforms

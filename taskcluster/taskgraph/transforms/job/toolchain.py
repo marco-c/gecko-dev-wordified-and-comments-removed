@@ -81,14 +81,6 @@ from
 taskgraph
 import
 GECKO
-from
-taskgraph
-.
-util
-.
-cached_tasks
-import
-add_optimization
 import
 taskgraph
 CACHE_TYPE
@@ -96,7 +88,7 @@ CACHE_TYPE
 '
 toolchains
 .
-v2
+v3
 '
 toolchain_run_schema
 =
@@ -331,33 +323,6 @@ files
 )
 ]
     
-deps
-=
-taskdesc
-[
-'
-dependencies
-'
-]
-    
-if
-deps
-:
-        
-data
-.
-extend
-(
-sorted
-(
-deps
-.
-values
-(
-)
-)
-)
-    
 image
 =
 taskdesc
@@ -393,7 +358,7 @@ image
         
 data
 .
-extend
+append
 (
 image
 )
@@ -1032,22 +997,33 @@ kind
 1
 )
         
-add_optimization
-(
-            
-config
 taskdesc
-            
-cache_type
+[
+'
+cache
+'
+]
 =
+{
+            
+'
+type
+'
+:
 CACHE_TYPE
             
-cache_name
-=
+'
+name
+'
+:
 name
             
-digest_data
-=
+'
+digest
+-
+data
+'
+:
 get_digest_data
 (
 config
@@ -1055,7 +1031,7 @@ run
 taskdesc
 )
         
-)
+}
 run_job_using
 (
 "
@@ -1473,22 +1449,33 @@ kind
 1
 )
         
-add_optimization
-(
-            
-config
 taskdesc
-            
-cache_type
+[
+'
+cache
+'
+]
 =
+{
+            
+'
+type
+'
+:
 CACHE_TYPE
             
-cache_name
-=
+'
+name
+'
+:
 name
             
-digest_data
-=
+'
+digest
+-
+data
+'
+:
 get_digest_data
 (
 config
@@ -1496,4 +1483,4 @@ run
 taskdesc
 )
         
-)
+}
