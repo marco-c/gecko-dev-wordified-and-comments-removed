@@ -4085,7 +4085,7 @@ nsAString
 &
 aMethodName
 const
-nsAString
+ResponseData
 &
 aDetails
 const
@@ -4425,7 +4425,7 @@ RespondShowPayment
 EmptyString
 (
 )
-EmptyString
+ResponseData
 (
 )
 EmptyString
