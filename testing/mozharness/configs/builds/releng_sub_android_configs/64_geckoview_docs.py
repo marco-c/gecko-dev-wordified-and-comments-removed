@@ -131,7 +131,7 @@ revision
 variant
 '
 '
-withGeckoBinariesRelease
+officialWithGeckoBinariesRelease
 '
         
 ]
