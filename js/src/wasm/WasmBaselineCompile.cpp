@@ -28046,6 +28046,10 @@ setValue
 Label
 skipBarrier
 ;
+sync
+(
+)
+;
 masm
 .
 branchTestPtr
