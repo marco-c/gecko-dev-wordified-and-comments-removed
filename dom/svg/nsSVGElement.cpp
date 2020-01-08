@@ -10551,7 +10551,7 @@ uint8_t
 aAttrEnum
 )
 {
-nsAtom
+nsStaticAtom
 *
 name
 ;
@@ -10622,7 +10622,7 @@ nsAttrValue
 aEmptyOrOldValue
 )
 {
-nsAtom
+nsStaticAtom
 *
 name
 ;
