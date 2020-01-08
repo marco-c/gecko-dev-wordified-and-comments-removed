@@ -40482,7 +40482,13 @@ mut
 ident
 }
 .
+__bindgen_anon_1
+.
 mShapeImage
+.
+as_mut
+(
+)
 .
 mPtr
 ;
@@ -40634,7 +40640,13 @@ mut
 ident
 }
 .
+__bindgen_anon_1
+.
 mBasicShape
+.
+as_mut
+(
+)
 .
 mPtr
 }

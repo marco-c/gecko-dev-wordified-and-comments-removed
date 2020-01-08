@@ -7684,8 +7684,6 @@ final
 StyleShapeSource
 (
 )
-=
-default
 ;
 StyleShapeSource
 (
@@ -7699,8 +7697,7 @@ aSource
 StyleShapeSource
 (
 )
-{
-}
+;
 StyleShapeSource
 &
 operator
@@ -7979,6 +7976,13 @@ StyleShapeSource
 aOther
 )
 ;
+void
+DoDestroy
+(
+)
+;
+union
+{
 mozilla
 :
 :
@@ -7996,6 +8000,8 @@ UniquePtr
 nsStyleImage
 >
 mShapeImage
+;
+}
 ;
 StyleShapeSourceType
 mType
