@@ -130,6 +130,11 @@ RemoteSettingsWorker
 .
 jsm
 '
+'
+Utils
+.
+jsm
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +

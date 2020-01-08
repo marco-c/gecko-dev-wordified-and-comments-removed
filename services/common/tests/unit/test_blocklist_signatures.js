@@ -1285,15 +1285,6 @@ primaryPort
 v1
 )
 ;
-let
-startTime
-=
-Date
-.
-now
-(
-)
-;
 const
 RECORD1
 =
@@ -2054,7 +2045,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 1000
-startTime
 {
 loadDump
 :
@@ -2255,7 +2245,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 3000
-startTime
 )
 ;
 const
@@ -2423,7 +2412,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 4000
-startTime
 )
 ;
 const
@@ -2564,7 +2552,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 4100
-startTime
 )
 ;
 const
@@ -2886,7 +2873,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 5000
-startTime
 )
 ;
 endHistogram
@@ -3057,7 +3043,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 5000
-startTime
 )
 ;
 equal
@@ -3269,7 +3254,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 5000
-startTime
 {
 loadDump
 :
@@ -3488,7 +3472,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 6000
-startTime
 )
 ;
 do_throw
@@ -3597,7 +3580,6 @@ OneCRLBlocklistClient
 maybeSync
 (
 6000
-startTime
 )
 ;
 do_throw
