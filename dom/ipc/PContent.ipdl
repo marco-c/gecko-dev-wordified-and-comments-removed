@@ -4420,17 +4420,6 @@ uri
 )
 ;
 async
-VisitURI
-(
-URIParams
-uri
-OptionalURIParams
-referrer
-uint32_t
-flags
-)
-;
-async
 SetURITitle
 (
 URIParams

@@ -14,6 +14,9 @@ h
 class
 nsIURI
 ;
+class
+nsIWidget
+;
 namespace
 mozilla
 {
@@ -131,6 +134,9 @@ REDIRECT_SOURCE_PERMANENT
 NS_IMETHOD
 VisitURI
 (
+nsIWidget
+*
+aWidget
 nsIURI
 *
 aURI
@@ -221,6 +227,10 @@ override
 NS_IMETHOD
 VisitURI
 (
+nsIWidget
+*
+aWidget
+\
 nsIURI
 *
 aURI

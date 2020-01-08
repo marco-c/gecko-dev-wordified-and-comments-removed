@@ -1483,6 +1483,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 lastURI
 mozilla
@@ -1603,6 +1604,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 lastURI
 mozilla
@@ -1633,6 +1635,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 lastURI
 mozilla
@@ -1720,6 +1723,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 lastURI
 mozilla
@@ -1736,6 +1740,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 lastURI
 0
@@ -1821,6 +1826,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 lastURI
 mozilla
@@ -1961,6 +1967,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 lastURI
 mozilla
@@ -2068,6 +2075,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 lastURI
 0
@@ -2165,6 +2173,7 @@ history
 >
 VisitURI
 (
+nullptr
 visitedURI
 nullptr
 mozilla
@@ -2298,6 +2307,7 @@ history
 >
 VisitURI
 (
+nullptr
 testURI
 nullptr
 mozilla
