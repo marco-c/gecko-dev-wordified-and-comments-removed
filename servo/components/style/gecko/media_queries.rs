@@ -1086,6 +1086,10 @@ pres_context
 mBackgroundColor
 )
 }
+#
+[
+inline
+]
 pub
 fn
 zoom_text
@@ -1113,6 +1117,10 @@ pres_context
 mEffectiveTextZoom
 )
 }
+#
+[
+inline
+]
 pub
 fn
 unzoom_text
