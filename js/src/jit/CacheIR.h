@@ -9955,6 +9955,11 @@ tryAttachDouble
 )
 ;
 bool
+tryAttachDoubleWithInt32
+(
+)
+;
+bool
 tryAttachBooleanWithInt32
 (
 )
