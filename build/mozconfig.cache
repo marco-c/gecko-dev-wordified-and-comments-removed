@@ -92,6 +92,13 @@ z
 "
 SCCACHE_DISABLE
 "
+-
+a
+-
+z
+"
+MOZ_PGO
+"
 ;
 then
 #
