@@ -9799,6 +9799,7 @@ prim_info
 clip_node_id
 transform_style
 mix_blend_mode
+&
 filters
 glyph_raster_space
 )
