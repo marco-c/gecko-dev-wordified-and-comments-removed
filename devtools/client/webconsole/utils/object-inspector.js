@@ -70,7 +70,7 @@ Grip
 REPS
 ;
 const
-StackTrace
+SmartTrace
 =
 createFactory
 (
@@ -85,7 +85,7 @@ shared
 /
 components
 /
-StackTrace
+SmartTrace
 "
 )
 )
@@ -213,7 +213,7 @@ renderStacktrace
 stacktrace
 =
 >
-StackTrace
+SmartTrace
 (
 {
 stacktrace

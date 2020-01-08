@@ -221,7 +221,7 @@ Frame
 )
 ;
 const
-StackTrace
+SmartTrace
 =
 createFactory
 (
@@ -236,7 +236,7 @@ shared
 /
 components
 /
-StackTrace
+SmartTrace
 "
 )
 )
@@ -928,11 +928,9 @@ devtools
 monospace
 "
 }
-StackTrace
+SmartTrace
 (
 {
-stacktrace
-:
 stacktrace
 onViewSourceInDebugger
 :
