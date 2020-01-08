@@ -1810,6 +1810,27 @@ value
 )
 :
         
+encoding
+=
+'
+mbcs
+'
+if
+sys
+.
+platform
+=
+=
+'
+win32
+'
+else
+'
+utf
+-
+8
+'
+        
 filename
 =
 mozpath
@@ -1840,6 +1861,9 @@ fh
 indent
 =
 4
+encoding
+=
+encoding
 )
         
 return
