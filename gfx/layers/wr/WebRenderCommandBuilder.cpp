@@ -7984,11 +7984,13 @@ appUnitsPerDevPixel
 GP
 (
 "
-app
+App
 unit
 change
 %
 d
+-
+>
 %
 d
 \
@@ -8040,7 +8042,8 @@ d
 d
 %
 d
-vs
+-
+>
 %
 d
 %
@@ -8097,7 +8100,8 @@ Scale
 f
 %
 f
-vs
+-
+>
 %
 f
 %
@@ -8143,7 +8147,8 @@ Offset
 f
 %
 f
-vs
+-
+>
 %
 f
 %
