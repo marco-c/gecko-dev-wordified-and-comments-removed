@@ -7374,11 +7374,9 @@ appinfo
 .
 annotateCrashReport
 (
-Services
-.
-appinfo
-.
+"
 URL
+"
 currentURI
 .
 spec

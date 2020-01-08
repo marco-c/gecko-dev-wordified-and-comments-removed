@@ -45,6 +45,9 @@ classic
 ReleaseChannel
 =
 default
+AddonsShouldHaveBlockedE10s
+=
+1
 ServerURL
 =
 https
