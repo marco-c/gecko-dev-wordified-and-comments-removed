@@ -1101,6 +1101,7 @@ browser
 \
 "
 button
+.
 "
 "
 type
@@ -1133,6 +1134,7 @@ in
 about
 :
 support
+.
 "
 "
 type
@@ -1322,7 +1324,7 @@ description
 "
 Turns
 off
-telemetry
+Telemetry
 .
 "
 "
@@ -1892,7 +1894,7 @@ description
 :
 "
 Allow
-webites
+websites
 to
 install
 add
@@ -2969,7 +2971,8 @@ bar
 Only
 applies
 on
-firtrun
+first
+run
 but
 can
 be
@@ -3015,6 +3018,7 @@ engines
 built
 into
 Firefox
+.
 "
 "
 enterprise_only

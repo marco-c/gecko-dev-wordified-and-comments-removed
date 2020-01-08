@@ -201,7 +201,6 @@ to
 WebsiteFilter
 .
 Block
-list
 :
 {
 blocklist
@@ -301,8 +300,7 @@ added
 to
 WebsiteFilter
 .
-Exceptions
-list
+Exception
 :
 {
 exceptionlist
@@ -327,7 +325,7 @@ pattern
 on
 WebsiteFilter
 .
-Exceptions
+Exception
 :
 {
 exceptionlist
