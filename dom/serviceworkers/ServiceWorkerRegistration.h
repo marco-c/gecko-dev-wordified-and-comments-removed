@@ -425,6 +425,11 @@ ServiceWorkerBoolCallback
 aCallback
 )
 ;
+void
+MaybeDispatchUpdateFoundRunnable
+(
+)
+;
 private
 :
 ServiceWorkerRegistration
@@ -486,11 +491,6 @@ aInstallingDescriptor
 ;
 void
 MaybeDispatchUpdateFound
-(
-)
-;
-void
-UpdatePromiseSettled
 (
 )
 ;
@@ -583,9 +583,6 @@ mScheduledUpdateFoundId
 ;
 uint64_t
 mDispatchedUpdateFoundId
-;
-uint32_t
-mPendingUpdatePromises
 ;
 }
 ;

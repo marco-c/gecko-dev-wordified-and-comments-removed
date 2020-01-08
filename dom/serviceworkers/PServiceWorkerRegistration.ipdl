@@ -118,6 +118,11 @@ IPCServiceWorkerRegistrationDescriptor
 aDescriptor
 )
 ;
+async
+FireUpdateFound
+(
+)
+;
 }
 ;
 }

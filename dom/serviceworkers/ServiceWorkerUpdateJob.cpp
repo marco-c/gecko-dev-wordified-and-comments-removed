@@ -1927,6 +1927,13 @@ InvokeResultCallbacks
 NS_OK
 )
 ;
+mRegistration
+-
+>
+FireUpdateFound
+(
+)
+;
 nsMainThreadPtrHandle
 <
 ServiceWorkerUpdateJob

@@ -101,6 +101,11 @@ aDescriptor
 )
 ;
 void
+FireUpdateFoundOnBGThread
+(
+)
+;
+void
 InitOnMainThread
 (
 )
@@ -122,6 +127,12 @@ const
 ServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+)
+override
+;
+void
+FireUpdateFound
+(
 )
 override
 ;

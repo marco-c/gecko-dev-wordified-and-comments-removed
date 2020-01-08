@@ -169,6 +169,12 @@ aDescriptor
 override
 ;
 void
+FireUpdateFound
+(
+)
+override
+;
+void
 RegistrationRemoved
 (
 )
@@ -351,6 +357,11 @@ const
 ServiceWorkerRegistrationDescriptor
 &
 aDescriptor
+)
+;
+void
+FireUpdateFound
+(
 )
 ;
 WorkerPrivate
