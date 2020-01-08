@@ -441,7 +441,7 @@ builds
 /
 taskcluster_sub_win64
 /
-clang_debug
+debug
 .
 py
 toolchains
