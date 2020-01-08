@@ -5300,7 +5300,7 @@ SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
-TYPE_OTHER
+TYPE_SAVEAS_DOWNLOAD
 nullptr
 nullptr
 static_cast
