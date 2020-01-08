@@ -397,6 +397,10 @@ int
 aDataset
 bool
 aClearSubsession
+bool
+aFilterTest
+=
+false
 )
 ;
 nsresult
@@ -415,6 +419,10 @@ int
 aDataset
 bool
 aClearSubsession
+bool
+aFilterTest
+=
+false
 )
 ;
 size_t

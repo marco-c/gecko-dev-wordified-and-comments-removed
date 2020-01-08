@@ -845,6 +845,7 @@ main
 "
 )
 false
+false
 aCx
 &
 scalarsSnapshot
@@ -866,6 +867,7 @@ NS_LITERAL_CSTRING
 main
 "
 )
+false
 false
 aCx
 &
@@ -1303,6 +1305,7 @@ main
 "
 )
 false
+false
 cx
 &
 snapshots
@@ -1319,6 +1322,7 @@ NS_LITERAL_CSTRING
 main
 "
 )
+false
 false
 cx
 &

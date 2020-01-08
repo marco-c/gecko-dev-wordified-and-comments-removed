@@ -165,6 +165,10 @@ JS
 Value
 >
 aResult
+bool
+aFilterTest
+=
+false
 )
 ;
 nsresult
@@ -254,6 +258,10 @@ JS
 Value
 >
 aResult
+bool
+aFilterTest
+=
+false
 )
 ;
 void
