@@ -1105,6 +1105,7 @@ const
 {
 onAddCustomDevice
 onBrowserMounted
+onChangeDevice
 onChangeNetworkThrottling
 onChangePixelRatio
 onChangeReloadCondition
@@ -1213,12 +1214,15 @@ screenshot
 selectedDevice
 selectedPixelRatio
 touchSimulation
+onChangeDevice
 onChangeNetworkThrottling
 onChangePixelRatio
 onChangeReloadCondition
 onChangeTouchSimulation
 onExit
+onResizeViewport
 onScreenshot
+onUpdateDeviceModal
 }
 )
 Viewports

@@ -267,6 +267,7 @@ value
 {
 onResizeViewport
 (
+viewportId
 device
 .
 width
@@ -277,6 +278,7 @@ height
 ;
 onChangeDevice
 (
+viewportId
 device
 type
 )
