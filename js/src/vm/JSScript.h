@@ -3900,8 +3900,6 @@ uint32_t
 nscopenotes
 uint32_t
 nyieldoffsets
-uint32_t
-nTypeSets
 )
 ;
 private
