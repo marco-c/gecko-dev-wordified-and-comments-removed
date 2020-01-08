@@ -11,8 +11,8 @@ cssparser
 :
 :
 {
-CowRcStr
 serialize_identifier
+CowRcStr
 ToCss
 }
 ;
@@ -21,11 +21,11 @@ cssparser
 :
 :
 {
-SourceLocation
+BasicParseErrorKind
 ParseError
 ParseErrorKind
+SourceLocation
 Token
-BasicParseErrorKind
 }
 ;
 use
@@ -60,8 +60,8 @@ error_reporting
 :
 :
 {
-ParseErrorReporter
 ContextualParseError
+ParseErrorReporter
 }
 ;
 use
@@ -83,13 +83,9 @@ gecko_bindings
 structs
 :
 :
-{
-Loader
-StyleSheet
+URLExtraData
 as
-DomStyleSheet
-nsIURI
-}
+RawUrlExtraData
 ;
 use
 style
@@ -101,9 +97,13 @@ gecko_bindings
 structs
 :
 :
-URLExtraData
+{
+nsIURI
+Loader
+StyleSheet
 as
-RawUrlExtraData
+DomStyleSheet
+}
 ;
 use
 style
@@ -635,7 +635,6 @@ ident
 )
 =
 >
-{
 ErrorString
 :
 :
@@ -643,7 +642,6 @@ Ident
 (
 ident
 )
-}
 ParseErrorKind
 :
 :
@@ -794,7 +792,6 @@ token
 )
 =
 >
-{
 (
 Some
 (
@@ -821,7 +818,6 @@ token
 )
 )
 )
-}
 ParseErrorKind
 :
 :
@@ -887,7 +883,6 @@ token
 )
 =
 >
-{
 (
 Some
 (
@@ -901,7 +896,6 @@ token
 )
 None
 )
-}
 ParseErrorKind
 :
 :
@@ -1087,7 +1081,6 @@ SelectorParseErrorKind
 EmptyNegation
 =
 >
-{
 (
 None
 Some
@@ -1107,7 +1100,6 @@ into
 )
 )
 )
-}
 err
 =
 >
@@ -1341,7 +1333,6 @@ err
 )
 =
 >
-{
 (
 s
 .
@@ -1352,7 +1343,6 @@ err
 .
 kind
 )
-}
 ContextualParseError
 :
 :
@@ -1370,7 +1360,6 @@ s
 )
 =
 >
-{
 (
 s
 .
@@ -1392,7 +1381,6 @@ into
 )
 )
 )
-}
 ContextualParseError
 :
 :
@@ -1409,7 +1397,6 @@ ContextualParseError
 InvalidCounterStyleExtendsWithAdditiveSymbols
 =
 >
-{
 (
 "
 "
@@ -1432,7 +1419,6 @@ into
 )
 )
 )
-}
 }
 }
 fn
@@ -1585,7 +1571,6 @@ _
 )
 =
 >
-{
 (
 cstr
 !
@@ -1599,7 +1584,6 @@ Action
 :
 Skip
 )
-}
 ContextualParseError
 :
 :
@@ -1624,7 +1608,6 @@ err
 )
 =
 >
-{
 match
 *
 err
@@ -1742,7 +1725,6 @@ Action
 Drop
 )
 }
-}
 ContextualParseError
 :
 :
@@ -1753,6 +1735,7 @@ UnsupportedPropertyDeclaration
 )
 =
 >
+{
 (
 cstr
 !
@@ -1766,6 +1749,7 @@ Action
 :
 Drop
 )
+}
 ContextualParseError
 :
 :
@@ -1776,6 +1760,7 @@ UnsupportedFontFaceDescriptor
 )
 =
 >
+{
 (
 cstr
 !
@@ -1789,6 +1774,7 @@ Action
 :
 Skip
 )
+}
 ContextualParseError
 :
 :
@@ -1799,6 +1785,7 @@ InvalidKeyframeRule
 )
 =
 >
+{
 (
 cstr
 !
@@ -1812,6 +1799,7 @@ Action
 :
 Nothing
 )
+}
 ContextualParseError
 :
 :
@@ -1822,6 +1810,7 @@ UnsupportedKeyframePropertyDeclaration
 )
 =
 >
+{
 (
 cstr
 !
@@ -1835,6 +1824,7 @@ Action
 :
 Nothing
 )
+}
 ContextualParseError
 :
 :
@@ -1864,7 +1854,6 @@ _
 )
 =
 >
-{
 (
 cstr
 !
@@ -1878,7 +1867,6 @@ Action
 :
 Nothing
 )
-}
 ContextualParseError
 :
 :
@@ -1936,7 +1924,6 @@ _
 )
 =
 >
-{
 (
 cstr
 !
@@ -1950,7 +1937,6 @@ Action
 :
 Nothing
 )
-}
 ContextualParseError
 :
 :
@@ -1987,6 +1973,7 @@ err
 )
 =
 >
+{
 match
 *
 err
@@ -2302,6 +2289,7 @@ _
 >
 None
 }
+}
 _
 =
 >
@@ -2364,7 +2352,6 @@ MediaQueryExpectedFeatureName
 )
 =
 >
-{
 cstr
 !
 (
@@ -2372,7 +2359,6 @@ cstr
 PEMQExpectedFeatureName
 "
 )
-}
 ParseErrorKind
 :
 :
@@ -2439,7 +2425,6 @@ PEMQNoMinMaxWithoutValue
 _
 =
 >
-{
 cstr
 !
 (
@@ -2447,7 +2432,6 @@ cstr
 PEMQUnexpectedToken
 "
 )
-}
 }
 ;
 (
@@ -2551,6 +2535,7 @@ InvalidFontFeatureValuesRule
 )
 =
 >
+{
 (
 cstr
 !
@@ -2564,6 +2549,7 @@ Action
 :
 Skip
 )
+}
 ContextualParseError
 :
 :
