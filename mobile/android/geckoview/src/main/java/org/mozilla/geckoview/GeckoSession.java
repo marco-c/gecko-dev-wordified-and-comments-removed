@@ -12017,7 +12017,6 @@ fullScreen
 ;
 public
 static
-final
 class
 ContextElement
 {
@@ -12034,6 +12033,7 @@ interface
 Type
 {
 }
+public
 static
 final
 int
@@ -12041,6 +12041,7 @@ TYPE_NONE
 =
 0
 ;
+public
 static
 final
 int
@@ -12048,6 +12049,7 @@ TYPE_IMAGE
 =
 1
 ;
+public
 static
 final
 int
@@ -12055,6 +12057,7 @@ TYPE_VIDEO
 =
 2
 ;
+public
 static
 final
 int
