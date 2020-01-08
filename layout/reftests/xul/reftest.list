@@ -165,12 +165,6 @@ content
 enabled
 true
 )
-fails
--
-if
-(
-cocoaWidget
-)
 fuzzy
 -
 if
