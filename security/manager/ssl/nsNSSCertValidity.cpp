@@ -47,6 +47,10 @@ NS_IMPL_ISUPPORTS
 nsX509CertValidity
 nsIX509CertValidity
 )
+using
+namespace
+mozilla
+;
 nsX509CertValidity
 :
 :

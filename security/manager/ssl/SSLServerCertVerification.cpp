@@ -211,6 +211,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsNSSCertificate
 .
 h
