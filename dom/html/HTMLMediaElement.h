@@ -4139,6 +4139,11 @@ AssertReadyStateIsNothing
 (
 )
 ;
+void
+AttachAndSetUAShadowRoot
+(
+)
+;
 }
 ;
 bool

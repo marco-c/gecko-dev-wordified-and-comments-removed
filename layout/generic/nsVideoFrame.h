@@ -307,6 +307,13 @@ aStatus
 )
 override
 ;
+bool
+IsLeafDynamic
+(
+)
+const
+override
+;
 #
 ifdef
 ACCESSIBILITY
@@ -419,11 +426,7 @@ nsIContent
 GetVideoControls
 (
 )
-{
-return
-mVideoControls
 ;
-}
 #
 ifdef
 DEBUG_FRAME_DUMP
