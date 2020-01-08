@@ -3420,7 +3420,7 @@ if
 JSScript
 :
 :
-partiallyInit
+createPrivateScriptData
 (
 cx
 script
@@ -4168,7 +4168,7 @@ if
 script
 -
 >
-createScriptData
+createSharedScriptData
 (
 cx
 length
@@ -16114,7 +16114,7 @@ bool
 JSScript
 :
 :
-createScriptData
+createSharedScriptData
 (
 JSContext
 *
@@ -16122,7 +16122,7 @@ cx
 uint32_t
 codeLength
 uint32_t
-srcnotesLength
+noteLength
 uint32_t
 natoms
 )
@@ -16146,7 +16146,7 @@ new_
 (
 cx
 codeLength
-srcnotesLength
+noteLength
 natoms
 )
 ;
@@ -18285,7 +18285,7 @@ bool
 JSScript
 :
 :
-partiallyInit
+createPrivateScriptData
 (
 JSContext
 *
@@ -18417,7 +18417,7 @@ numYieldAndAwaitOffsets
 if
 (
 !
-partiallyInit
+createPrivateScriptData
 (
 cx
 script
@@ -18534,7 +18534,7 @@ if
 script
 -
 >
-createScriptData
+createSharedScriptData
 (
 cx
 codeLength
@@ -19191,7 +19191,7 @@ count
 if
 (
 !
-partiallyInit
+createPrivateScriptData
 (
 cx
 script
@@ -19294,7 +19294,7 @@ if
 script
 -
 >
-createScriptData
+createSharedScriptData
 (
 cx
 prologueLength

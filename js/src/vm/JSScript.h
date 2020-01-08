@@ -6490,7 +6490,7 @@ toStringEnd
 ;
 static
 bool
-partiallyInit
+createPrivateScriptData
 (
 JSContext
 *
@@ -9517,7 +9517,7 @@ cx
 )
 ;
 bool
-createScriptData
+createSharedScriptData
 (
 JSContext
 *
@@ -9525,7 +9525,7 @@ cx
 uint32_t
 codeLength
 uint32_t
-srcnotesLength
+noteLength
 uint32_t
 natoms
 )
