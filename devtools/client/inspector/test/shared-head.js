@@ -537,6 +537,13 @@ inspector
 layoutview
 .
 gridInspector
+layoutView
+:
+data
+.
+inspector
+.
+layoutview
 testActor
 :
 data
