@@ -1159,31 +1159,55 @@ False
 "
 "
 "
-Get
-and
-return
+Find
 files
 changed
-since
-current
-branch
-diverged
-from
-master
+in
+certain
+revisions
+.
     
-excluding
-those
+The
+function
+passes
+revish
+directly
+to
+git
+diff
+so
+revish
+can
+have
+a
+    
+variety
+of
+forms
+;
+see
+git
+diff
+-
+-
+help
+for
+details
+.
+Files
+in
+the
+diff
 that
+    
 are
-located
-within
-any
-path
 matched
 by
-    
 ignore_rules
+are
+excluded
 .
+    
 "
 "
 "
@@ -1274,6 +1298,9 @@ load
 manifest_path
 =
 None
+manifest_update
+=
+True
 )
 :
         
@@ -1334,7 +1361,7 @@ manifest_path
                                                 
 update
 =
-True
+manifest_update
 )
         
 c
@@ -1361,10 +1388,16 @@ def
 affected_testfiles
 (
 files_changed
-skip_tests
+skip_dirs
+=
+None
+                       
 manifest_path
 =
 None
+manifest_update
+=
+True
 )
 :
     
@@ -1386,6 +1419,31 @@ files
 "
 "
 "
+    
+if
+skip_dirs
+is
+None
+:
+        
+skip_dirs
+=
+set
+(
+[
+"
+conformance
+-
+checkers
+"
+"
+docs
+"
+"
+tools
+"
+]
+)
     
 affected_testfiles
 =
@@ -1421,6 +1479,7 @@ wpt_manifest
 load_manifest
 (
 manifest_path
+manifest_update
 )
     
 test_types
@@ -1665,7 +1724,7 @@ path_components
 if
 top_level_subdir
 in
-skip_tests
+skip_dirs
 :
             
 continue
@@ -1974,7 +2033,7 @@ wpt_root
 for
 dir_name
 in
-skip_tests
+skip_dirs
 :
                 
 dirs
