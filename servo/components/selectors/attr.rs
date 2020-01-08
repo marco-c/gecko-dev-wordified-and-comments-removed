@@ -27,7 +27,7 @@ PartialEq
 ]
 pub
 struct
-AttrSelectorWithOptionalNamespace
+AttrSelectorWithNamespace
 <
 Impl
 :
@@ -37,8 +37,6 @@ SelectorImpl
 pub
 namespace
 :
-Option
-<
 NamespaceConstraint
 <
 (
@@ -51,7 +49,6 @@ Impl
 :
 NamespaceUrl
 )
->
 >
 pub
 local_name
@@ -88,7 +85,7 @@ Impl
 :
 SelectorImpl
 >
-AttrSelectorWithOptionalNamespace
+AttrSelectorWithNamespace
 <
 Impl
 >
@@ -102,8 +99,6 @@ self
 )
 -
 >
-Option
-<
 NamespaceConstraint
 <
 &
@@ -112,23 +107,11 @@ Impl
 :
 NamespaceUrl
 >
->
 {
+match
 self
 .
 namespace
-.
-as_ref
-(
-)
-.
-map
-(
-|
-ns
-|
-match
-ns
 {
 NamespaceConstraint
 :
@@ -161,7 +144,6 @@ Specific
 url
 )
 }
-)
 }
 }
 #
