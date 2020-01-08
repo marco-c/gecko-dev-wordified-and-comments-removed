@@ -3031,6 +3031,7 @@ void
 *
 aPtr
 )
+const
 {
 return
 static_cast

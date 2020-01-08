@@ -179,6 +179,7 @@ FindActiveBinding
 uint32_t
 hashNumber
 )
+const
 ;
 void
 RemoveBinding

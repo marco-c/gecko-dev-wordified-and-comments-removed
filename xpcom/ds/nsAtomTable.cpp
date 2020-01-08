@@ -968,6 +968,7 @@ AtomTableKey
 &
 aKey
 )
+const
 {
 mLock
 .

@@ -923,6 +923,7 @@ nsIRequest
 *
 aRequest
 )
+const
 ;
 void
 ClearRequestInfoHash
