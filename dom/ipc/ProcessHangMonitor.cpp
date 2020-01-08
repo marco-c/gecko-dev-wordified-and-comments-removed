@@ -1220,6 +1220,15 @@ false
 if
 (
 paintWhileInterruptingJS
+&
+&
+!
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 {
 RefPtr
