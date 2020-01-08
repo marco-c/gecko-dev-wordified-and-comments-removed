@@ -1394,6 +1394,19 @@ signing
 not
 in
 dependencies
+and
+\
+                
+'
+repackage
+-
+signing
+-
+l10n
+'
+not
+in
+dependencies
 :
             
 repackage_signing_name
@@ -1402,6 +1415,27 @@ repackage_signing_name
 repackage
 -
 signing
+"
+            
+if
+job
+.
+get
+(
+'
+locale
+'
+)
+:
+                
+repackage_signing_name
+=
+"
+repackage
+-
+signing
+-
+l10n
 "
             
 repackage_signing_deps

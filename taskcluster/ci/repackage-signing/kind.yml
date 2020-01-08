@@ -102,10 +102,6 @@ dependencies
 :
 -
 repackage
--
-repackage
--
-l10n
 only
 -
 for
