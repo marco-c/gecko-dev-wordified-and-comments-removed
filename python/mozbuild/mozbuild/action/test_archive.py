@@ -1272,7 +1272,7 @@ dest
 '
 tools
 /
-third_party
+wpt_third_party
 '
         
 }

@@ -14,7 +14,7 @@ wptserve
 /
 tools
 /
-third_party
+wpt_third_party
 /
 certifi
 .
@@ -22,7 +22,7 @@ certifi
 /
 tools
 /
-third_party
+wpt_third_party
 /
 enum
 .
@@ -30,7 +30,7 @@ enum
 /
 tools
 /
-third_party
+wpt_third_party
 /
 h2
 .
@@ -38,7 +38,7 @@ h2
 /
 tools
 /
-third_party
+wpt_third_party
 /
 hyperframe
 .
@@ -46,7 +46,7 @@ hyperframe
 /
 tools
 /
-third_party
+wpt_third_party
 /
 hpack
 .
