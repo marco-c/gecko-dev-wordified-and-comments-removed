@@ -114,10 +114,7 @@ STATE_IS_SECURE
 errorCode
 :
 0
-SSLStatus
-:
-{
-cipherSuite
+cipherName
 :
 "
 TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
@@ -131,7 +128,6 @@ serverCert
 validity
 :
 {
-}
 }
 }
 }

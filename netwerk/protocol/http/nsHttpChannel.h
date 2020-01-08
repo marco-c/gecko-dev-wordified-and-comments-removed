@@ -205,7 +205,7 @@ class
 nsInputStreamPump
 ;
 class
-nsISSLStatus
+nsITransportSecurityInfo
 ;
 namespace
 mozilla
@@ -1802,9 +1802,9 @@ ProcessSingleSecurityHeader
 (
 uint32_t
 aType
-nsISSLStatus
+nsITransportSecurityInfo
 *
-aSSLStatus
+aSecInfo
 uint32_t
 aFlags
 )

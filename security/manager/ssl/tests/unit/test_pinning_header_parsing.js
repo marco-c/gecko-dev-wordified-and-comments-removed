@@ -124,10 +124,10 @@ pinValue
 )
 {
 let
-sslStatus
+secInfo
 =
 new
-FakeSSLStatus
+FakeTransportSecurityInfo
 (
 certFromFile
 (
@@ -187,7 +187,7 @@ nsISiteSecurityService
 HEADER_HPKP
 uri
 pinValue
-sslStatus
+secInfo
 0
 Ci
 .
@@ -222,10 +222,10 @@ expectedMaxAge
 )
 {
 let
-sslStatus
+secInfo
 =
 new
-FakeSSLStatus
+FakeTransportSecurityInfo
 (
 certFromFile
 (
@@ -321,7 +321,7 @@ nsISiteSecurityService
 HEADER_HPKP
 uri
 validPinValue
-sslStatus
+secInfo
 0
 Ci
 .
@@ -344,7 +344,7 @@ nsISiteSecurityService
 HEADER_HPKP
 uri
 pinValue
-sslStatus
+secInfo
 0
 Ci
 .

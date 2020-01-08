@@ -2170,7 +2170,7 @@ aIID
 notifyCertProblem
 (
 socketInfo
-sslStatus
+secInfo
 targetHost
 )
 {

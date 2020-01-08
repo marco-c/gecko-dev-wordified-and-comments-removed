@@ -256,10 +256,10 @@ com
 )
 ;
 var
-sslStatus
+secInfo
 =
 new
-FakeSSLStatus
+FakeTransportSecurityInfo
 (
 constructCertFromFile
 (
@@ -299,7 +299,7 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 GOOD_MAX_AGE
-sslStatus
+secInfo
 0
 Ci
 .
@@ -323,7 +323,7 @@ GOOD_MAX_AGE
 VALID_PIN
 +
 BACKUP_PIN
-sslStatus
+secInfo
 0
 Ci
 .
@@ -495,7 +495,7 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 GOOD_MAX_AGE
-sslStatus
+secInfo
 0
 Ci
 .
@@ -519,7 +519,7 @@ GOOD_MAX_AGE
 VALID_PIN
 +
 BACKUP_PIN
-sslStatus
+secInfo
 0
 Ci
 .
@@ -627,7 +627,7 @@ nsISiteSecurityService
 HEADER_HSTS
 unrelatedURI
 GOOD_MAX_AGE
-sslStatus
+secInfo
 0
 Ci
 .
@@ -858,7 +858,7 @@ nsISiteSecurityService
 HEADER_HSTS
 uri
 GOOD_MAX_AGE
-sslStatus
+secInfo
 0
 Ci
 .
@@ -883,7 +883,7 @@ GOOD_MAX_AGE
 VALID_PIN
 +
 BACKUP_PIN
-sslStatus
+secInfo
 0
 Ci
 .
@@ -974,7 +974,7 @@ nsISiteSecurityService
 HEADER_HSTS
 unrelatedURI
 GOOD_MAX_AGE
-sslStatus
+secInfo
 0
 Ci
 .

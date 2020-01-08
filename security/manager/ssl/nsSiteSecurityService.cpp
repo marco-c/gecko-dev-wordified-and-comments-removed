@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsISSLStatus
-.
-h
-"
-#
-include
-"
 nsIScriptSecurityManager
 .
 h
@@ -150,6 +143,13 @@ h
 include
 "
 nsISocketProvider
+.
+h
+"
+#
+include
+"
+nsITransportSecurityInfo
 .
 h
 "
@@ -3325,9 +3325,9 @@ const
 nsACString
 &
 aHeader
-nsISSLStatus
+nsITransportSecurityInfo
 *
-aSSLStatus
+aSecInfo
 uint32_t
 aFlags
 uint32_t
@@ -3394,7 +3394,7 @@ ProcessHeader
 aType
 aSourceURI
 aHeader
-aSSLStatus
+aSecInfo
 aFlags
 aSource
 originAttributes
@@ -3419,9 +3419,9 @@ const
 nsACString
 &
 aHeader
-nsISSLStatus
+nsITransportSecurityInfo
 *
-aSSLStatus
+aSecInfo
 uint32_t
 aFlags
 uint32_t
@@ -3539,7 +3539,7 @@ NS_ERROR_INVALID_ARG
 }
 NS_ENSURE_ARG
 (
-aSSLStatus
+aSecInfo
 )
 ;
 return
@@ -3551,7 +3551,7 @@ PromiseFlatCString
 (
 aHeader
 )
-aSSLStatus
+aSecInfo
 aFlags
 source
 aOriginAttributes
@@ -3576,9 +3576,9 @@ const
 nsCString
 &
 aHeader
-nsISSLStatus
+nsITransportSecurityInfo
 *
-aSSLStatus
+aSecInfo
 uint32_t
 aFlags
 SecurityPropertySource
@@ -3663,7 +3663,7 @@ false
 }
 if
 (
-aSSLStatus
+aSecInfo
 )
 {
 bool
@@ -3679,7 +3679,7 @@ rv
 ;
 rv
 =
-aSSLStatus
+aSecInfo
 -
 >
 GetIsDomainMismatch
@@ -3703,7 +3703,7 @@ trustcheck
 ;
 rv
 =
-aSSLStatus
+aSecInfo
 -
 >
 GetIsNotValidAtThisTime
@@ -3727,7 +3727,7 @@ trustcheck
 ;
 rv
 =
-aSSLStatus
+aSecInfo
 -
 >
 GetIsUntrusted
@@ -3857,7 +3857,7 @@ ProcessPKPHeader
 (
 aSourceURI
 aHeader
-aSSLStatus
+aSecInfo
 aFlags
 aOriginAttributes
 aMaxAge
@@ -4650,9 +4650,9 @@ const
 nsCString
 &
 aHeader
-nsISSLStatus
+nsITransportSecurityInfo
 *
-aSSLStatus
+aSecInfo
 uint32_t
 aFlags
 const
@@ -4708,7 +4708,7 @@ get
 ;
 NS_ENSURE_ARG
 (
-aSSLStatus
+aSecInfo
 )
 ;
 const
@@ -4854,7 +4854,7 @@ cert
 ;
 rv
 =
-aSSLStatus
+aSecInfo
 -
 >
 GetServerCert

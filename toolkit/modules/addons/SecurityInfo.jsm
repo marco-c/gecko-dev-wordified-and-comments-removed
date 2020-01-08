@@ -132,13 +132,6 @@ Ci
 nsITransportSecurityInfo
 )
 ;
-const
-SSLStatus
-=
-securityInfo
-.
-SSLStatus
-;
 if
 (
 NSSErrorsService
@@ -174,7 +167,7 @@ options
 certificateChain
 &
 &
-SSLStatus
+securityInfo
 .
 failedCertChain
 )
@@ -187,7 +180,7 @@ this
 .
 getCertificateChain
 (
-SSLStatus
+securityInfo
 .
 failedCertChain
 options
@@ -313,13 +306,13 @@ info
 .
 cipherSuite
 =
-SSLStatus
+securityInfo
 .
 cipherName
 ;
 if
 (
-SSLStatus
+securityInfo
 .
 keaGroupName
 !
@@ -334,14 +327,14 @@ info
 .
 keaGroupName
 =
-SSLStatus
+securityInfo
 .
 keaGroupName
 ;
 }
 if
 (
-SSLStatus
+securityInfo
 .
 signatureSchemeName
 !
@@ -356,7 +349,7 @@ info
 .
 signatureSchemeName
 =
-SSLStatus
+securityInfo
 .
 signatureSchemeName
 ;
@@ -365,7 +358,7 @@ info
 .
 isDomainMismatch
 =
-SSLStatus
+securityInfo
 .
 isDomainMismatch
 ;
@@ -373,7 +366,7 @@ info
 .
 isExtendedValidation
 =
-SSLStatus
+securityInfo
 .
 isExtendedValidation
 ;
@@ -381,7 +374,7 @@ info
 .
 isNotValidAtThisTime
 =
-SSLStatus
+securityInfo
 .
 isNotValidAtThisTime
 ;
@@ -389,7 +382,7 @@ info
 .
 isUntrusted
 =
-SSLStatus
+securityInfo
 .
 isUntrusted
 ;
@@ -401,7 +394,7 @@ this
 .
 getTransparencyStatus
 (
-SSLStatus
+securityInfo
 .
 certificateTransparencyStatus
 )
@@ -414,7 +407,7 @@ this
 .
 formatSecurityProtocol
 (
-SSLStatus
+securityInfo
 .
 protocolVersion
 )
@@ -426,7 +419,7 @@ options
 certificateChain
 &
 &
-SSLStatus
+securityInfo
 .
 succeededCertChain
 )
@@ -439,7 +432,7 @@ this
 .
 getCertificateChain
 (
-SSLStatus
+securityInfo
 .
 succeededCertChain
 options
@@ -457,7 +450,7 @@ this
 .
 parseCertificateInfo
 (
-SSLStatus
+securityInfo
 .
 serverCert
 options
@@ -752,7 +745,7 @@ status
 case
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 CERTIFICATE_TRANSPARENCY_NOT_APPLICABLE
 :
@@ -764,7 +757,7 @@ not_applicable
 case
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT
 :
@@ -776,7 +769,7 @@ policy_compliant
 case
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS
 :
@@ -788,7 +781,7 @@ policy_not_enough_scts
 case
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 CERTIFICATE_TRANSPARENCY_POLICY_NOT_DIVERSE_SCTS
 :
@@ -817,7 +810,7 @@ version
 case
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 TLS_VERSION_1
 :
@@ -829,7 +822,7 @@ TLSv1
 case
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 TLS_VERSION_1_1
 :
@@ -843,7 +836,7 @@ TLSv1
 case
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 TLS_VERSION_1_2
 :
@@ -857,7 +850,7 @@ TLSv1
 case
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 TLS_VERSION_1_3
 :

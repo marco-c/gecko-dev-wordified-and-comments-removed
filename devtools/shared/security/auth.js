@@ -449,8 +449,6 @@ Ci
 nsITransportSecurityInfo
 )
 .
-SSLStatus
-.
 serverCert
 ;
 const

@@ -99,10 +99,10 @@ nsISupports
 idl
 "
 interface
-nsISSLStatus
+nsIInterfaceRequestor
 ;
 interface
-nsIInterfaceRequestor
+nsITransportSecurityInfo
 ;
 /
 *
@@ -195,10 +195,9 @@ connection
 .
 *
 param
-status
+secInfo
 The
-SSL
-status
+TransportSecurityinfo
 object
 that
 describes
@@ -263,8 +262,8 @@ in
 nsIInterfaceRequestor
 socketInfo
 in
-nsISSLStatus
-status
+nsITransportSecurityInfo
+secInfo
 in
 AUTF8String
 targetSite

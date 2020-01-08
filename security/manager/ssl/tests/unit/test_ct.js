@@ -45,18 +45,11 @@ securityInfo
 =
 >
 {
-let
-sslStatus
-=
-securityInfo
-.
-SSLStatus
-;
 Assert
 .
 equal
 (
-sslStatus
+securityInfo
 .
 certificateTransparencyStatus
 value
@@ -151,7 +144,7 @@ expectCT
 (
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 CERTIFICATE_TRANSPARENCY_POLICY_COMPLIANT
 )
@@ -176,7 +169,7 @@ expectCT
 (
 Ci
 .
-nsISSLStatus
+nsITransportSecurityInfo
 .
 CERTIFICATE_TRANSPARENCY_POLICY_NOT_ENOUGH_SCTS
 )
