@@ -4883,6 +4883,7 @@ aTransactionId
 aRefreshStartTime
 aTxnStartTime
 aFwdTime
+scheduleComposite
 )
 ;
 if
@@ -7784,6 +7785,9 @@ const
 TimeStamp
 &
 aFwdTime
+const
+bool
+aUseForTelemetry
 )
 {
 MOZ_ASSERT
@@ -7806,6 +7810,7 @@ aTransactionId
 aRefreshStartTime
 aTxnStartTime
 aFwdTime
+aUseForTelemetry
 )
 )
 ;
@@ -7925,6 +7930,11 @@ mVsyncRate
 IsZero
 (
 )
+&
+&
+transactionId
+.
+mUseForTelemetry
 )
 {
 double
