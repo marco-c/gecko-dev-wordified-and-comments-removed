@@ -23,9 +23,10 @@ new
 Error
 )
 ;
-instantiateModule
-(
 a
+.
+declarationInstantiation
+(
 )
 ;
 stackTest
@@ -34,9 +35,10 @@ function
 (
 )
 {
-evaluateModule
-(
 a
+.
+evaluation
+(
 )
 ;
 }

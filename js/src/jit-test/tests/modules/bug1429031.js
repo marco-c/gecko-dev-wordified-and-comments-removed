@@ -91,9 +91,10 @@ b
 \
 )
 ;
-instantiateModule
-(
 b
+.
+declarationInstantiation
+(
 )
 ;
 let

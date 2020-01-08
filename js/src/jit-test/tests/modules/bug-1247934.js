@@ -80,8 +80,6 @@ parseModule
 s
 )
 ;
-instantiateModule
-(
 parseModule
 (
 "
@@ -95,5 +93,8 @@ a
 '
 "
 )
+.
+declarationInstantiation
+(
 )
 ;

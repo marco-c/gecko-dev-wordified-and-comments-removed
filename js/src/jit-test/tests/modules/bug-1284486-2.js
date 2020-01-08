@@ -77,9 +77,10 @@ false
 ;
 try
 {
-instantiateModule
-(
 c
+.
+declarationInstantiation
+(
 )
 ;
 }
@@ -125,9 +126,10 @@ e2
 ;
 try
 {
-instantiateModule
-(
 c
+.
+declarationInstantiation
+(
 )
 ;
 }

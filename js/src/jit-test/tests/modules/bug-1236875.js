@@ -13,8 +13,9 @@ x
 }
 )
 ;
-instantiateModule
-(
 m
+.
+declarationInstantiation
+(
 )
 ;

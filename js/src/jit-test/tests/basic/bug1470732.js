@@ -47,9 +47,10 @@ parseModule
 "
 )
 ;
-instantiateModule
-(
 m
+.
+declarationInstantiation
+(
 )
 ;
 }

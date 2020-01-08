@@ -44,8 +44,9 @@ js
 ;
 )
 ;
-instantiateModule
-(
 m
+.
+declarationInstantiation
+(
 )
 ;
