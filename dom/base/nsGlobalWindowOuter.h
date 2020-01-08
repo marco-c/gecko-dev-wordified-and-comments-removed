@@ -1748,6 +1748,8 @@ aState
 nsIChannel
 *
 aChannel
+bool
+aBlocked
 nsIURI
 *
 aURIHint
