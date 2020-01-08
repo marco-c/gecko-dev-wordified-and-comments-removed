@@ -840,6 +840,11 @@ frame
 let
 sm_pushed
 =
+StackSize
+:
+:
+from
+(
 self
 .
 isa
@@ -851,8 +856,7 @@ flags
 baldrdash_prologue_words
 (
 )
-as
-StackSize
+)
 *
 mem
 :
@@ -1514,9 +1518,9 @@ let
 func_index
 =
 match
+*
 callee
 {
-&
 ir
 :
 :
@@ -2583,9 +2587,9 @@ Addend
 )
 {
 match
+*
 name
 {
-&
 ir
 :
 :
@@ -2604,7 +2608,6 @@ namespace
 >
 {
 }
-&
 ir
 :
 :
@@ -2661,7 +2664,6 @@ sym
 )
 ;
 }
-&
 ir
 :
 :
