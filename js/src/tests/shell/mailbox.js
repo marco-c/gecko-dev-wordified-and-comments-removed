@@ -337,6 +337,12 @@ if
 this
 .
 WebAssembly
+|
+|
+!
+wasmThreadsSupported
+(
+)
 )
 {
 reportCompare
