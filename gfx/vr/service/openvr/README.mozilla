@@ -11,7 +11,7 @@ version
 .
 0
 .
-18
+17
 .
 This
 SDK
@@ -425,6 +425,13 @@ building
 a
 separate
 dll
+.
+-
+Add
+explicit
+in
+CVRSettingHelper
+constructor
 .
 -
 Update
