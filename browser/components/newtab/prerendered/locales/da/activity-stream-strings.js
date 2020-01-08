@@ -1060,9 +1060,13 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+En
+gyldig
+mailadresse
+er
+p
+kr
+vet
 "
 "
 firstrun_extra_legal_links

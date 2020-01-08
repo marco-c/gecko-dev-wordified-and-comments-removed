@@ -249,11 +249,9 @@ FIREFOX_PATH
 /
 browser
 /
-extensions
+components
 /
-activity
--
-stream
+newtab
 "
 #
 By

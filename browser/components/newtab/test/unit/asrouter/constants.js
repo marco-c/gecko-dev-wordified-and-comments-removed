@@ -79,6 +79,9 @@ simple_template
 bundled
 :
 2
+order
+:
+1
 content
 :
 {
@@ -108,6 +111,9 @@ template
 simple_template
 "
 bundled
+:
+2
+order
 :
 2
 content
