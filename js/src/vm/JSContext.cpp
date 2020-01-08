@@ -629,7 +629,6 @@ Simulator
 :
 Create
 (
-this
 )
 ;
 if

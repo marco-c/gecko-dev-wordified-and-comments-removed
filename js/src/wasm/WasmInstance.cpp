@@ -5931,9 +5931,6 @@ wasmMappedSize
 )
 ;
 }
-#
-ifdef
-JS_SIMULATOR
 bool
 Instance
 :
@@ -6028,8 +6025,6 @@ memoryMappedSize
 )
 ;
 }
-#
-endif
 void
 Instance
 :

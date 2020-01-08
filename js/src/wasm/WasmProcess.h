@@ -64,6 +64,14 @@ codeRange
 nullptr
 )
 ;
+bool
+InCompiledCode
+(
+void
+*
+pc
+)
+;
 extern
 mozilla
 :

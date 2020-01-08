@@ -3229,9 +3229,6 @@ Debugger
 :
 Debugger
 (
-JSContext
-*
-cx
 Decoder
 *
 decoder
@@ -3242,7 +3239,6 @@ stream
 :
 Simulator
 (
-cx
 decoder
 stream
 )
