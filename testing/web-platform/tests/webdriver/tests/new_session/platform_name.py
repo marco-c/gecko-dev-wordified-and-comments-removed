@@ -18,7 +18,7 @@ pytest
 .
 mark
 .
-skip_if
+skipif
 (
 platform_name
 is
