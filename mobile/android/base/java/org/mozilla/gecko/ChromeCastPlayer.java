@@ -540,6 +540,17 @@ getMediaStatus
 (
 )
 ;
+if
+(
+mediaStatus
+=
+=
+null
+)
+{
+return
+;
+}
 switch
 (
 mediaStatus
