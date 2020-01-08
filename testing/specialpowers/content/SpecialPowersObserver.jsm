@@ -31,17 +31,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-File
-"
-]
-)
-;
 const
 CHILD_SCRIPT_API
 =

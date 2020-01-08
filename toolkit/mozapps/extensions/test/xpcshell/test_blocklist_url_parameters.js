@@ -49,17 +49,6 @@ update
 channel
 "
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 var
 testserver
 =

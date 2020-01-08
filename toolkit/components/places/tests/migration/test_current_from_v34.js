@@ -4,9 +4,6 @@ importGlobalProperties
 (
 [
 "
-URL
-"
-"
 crypto
 "
 ]
