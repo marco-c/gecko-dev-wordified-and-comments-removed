@@ -372,6 +372,8 @@ NON_OMNIJAR_FILES
 )
 )
 )
+ifdef
+MOZ_AUTOMATION
 (
 PYTHON
 )
@@ -406,6 +408,9 @@ DIST
 (
 MOZ_PKG_DIR
 )
+endif
+#
+MOZ_AUTOMATION
 ifndef
 MOZ_IS_COMM_TOPDIR
 #
