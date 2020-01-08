@@ -3686,7 +3686,7 @@ origURL
 =
 =
 "
-self
+inline
 "
 &
 &

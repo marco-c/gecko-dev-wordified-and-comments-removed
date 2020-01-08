@@ -566,6 +566,7 @@ uri
 "
 :
 "
+inline
 "
 }
 false
@@ -622,6 +623,7 @@ uri
 "
 :
 "
+eval
 "
 "
 script
@@ -833,6 +835,7 @@ uri
 "
 :
 "
+inline
 "
 }
 true
@@ -888,6 +891,7 @@ uri
 "
 :
 "
+inline
 "
 }
 true
