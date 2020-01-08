@@ -256,6 +256,11 @@ messageId
 ;
 if
 (
+message
+.
+executionPoint
+&
+&
 executionPoint
 .
 progress
