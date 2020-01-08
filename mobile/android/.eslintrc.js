@@ -42,17 +42,6 @@ off
 "
 no
 -
-native
--
-reassign
-"
-:
-"
-off
-"
-"
-no
--
 nested
 -
 ternary

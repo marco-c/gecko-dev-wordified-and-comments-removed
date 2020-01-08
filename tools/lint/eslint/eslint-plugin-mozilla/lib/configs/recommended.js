@@ -1046,7 +1046,7 @@ assign
 "
 :
 "
-off
+error
 "
 "
 no
@@ -1149,17 +1149,6 @@ true
 }
 }
 ]
-"
-no
--
-native
--
-reassign
-"
-:
-"
-error
-"
 "
 no
 -
