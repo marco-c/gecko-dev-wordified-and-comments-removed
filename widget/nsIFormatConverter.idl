@@ -100,13 +100,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsIArray
-.
-idl
-"
 [
 scriptable
 uuid
@@ -172,7 +165,10 @@ converter
 .
 *
 /
-nsIArray
+Array
+<
+ACString
+>
 getInputDataFlavors
 (
 )
@@ -231,7 +227,10 @@ supported
 flavors
 *
 /
-nsIArray
+Array
+<
+ACString
+>
 getOutputDataFlavors
 (
 )
