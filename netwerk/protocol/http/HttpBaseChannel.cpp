@@ -5988,6 +5988,7 @@ HttpBaseChannel
 :
 nsContentEncodings
 nsIUTF8StringEnumerator
+nsIStringEnumerator
 )
 nsresult
 HttpBaseChannel

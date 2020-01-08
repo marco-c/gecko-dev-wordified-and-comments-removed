@@ -1698,6 +1698,7 @@ NS_IMPL_ISUPPORTS
 (
 nsJAREnumerator
 nsIUTF8StringEnumerator
+nsIStringEnumerator
 )
 NS_IMETHODIMP
 nsJAREnumerator

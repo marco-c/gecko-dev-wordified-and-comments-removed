@@ -301,6 +301,7 @@ NS_IMPL_ISUPPORTS_INHERITED
 CategoryEnumerator
 nsSimpleEnumerator
 nsIUTF8StringEnumerator
+nsIStringEnumerator
 )
 NS_IMETHODIMP
 CategoryEnumerator
