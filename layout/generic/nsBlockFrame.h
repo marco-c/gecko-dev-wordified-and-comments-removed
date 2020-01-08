@@ -1742,6 +1742,15 @@ aForCounting
 )
 override
 ;
+void
+AddSizeOfExcludingThisForTree
+(
+nsWindowSizes
+&
+)
+const
+override
+;
 protected
 :
 void

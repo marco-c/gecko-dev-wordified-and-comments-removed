@@ -8436,6 +8436,7 @@ this
 )
 ;
 }
+virtual
 void
 AddSizeOfExcludingThisForTree
 (

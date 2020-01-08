@@ -54,6 +54,9 @@ class
 nsFloatCacheFreeList
 ;
 class
+nsWindowSizes
+;
+class
 nsFloatCache
 {
 public
@@ -2199,6 +2202,15 @@ const
 ;
 #
 endif
+void
+AddSizeOfExcludingThis
+(
+nsWindowSizes
+&
+aSizes
+)
+const
+;
 private
 :
 int32_t
