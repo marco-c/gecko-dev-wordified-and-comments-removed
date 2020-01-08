@@ -1155,6 +1155,13 @@ true
 name
 :
 "
+Clipboard
+"
+}
+{
+name
+:
+"
 ClipboardEvent
 "
 insecureContext
