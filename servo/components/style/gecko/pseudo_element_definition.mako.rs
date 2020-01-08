@@ -1771,10 +1771,9 @@ Self
 debug_assert
 !
 (
-name
-.
-starts_with
+starts_with_ignore_ascii_case
 (
+name
 "
 -
 moz
