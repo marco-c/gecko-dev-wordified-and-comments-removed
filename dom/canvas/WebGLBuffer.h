@@ -12,7 +12,7 @@ map
 #
 include
 "
-CacheMap
+CacheInvalidator
 .
 h
 "
@@ -555,7 +555,7 @@ mIndexRanges
 ;
 public
 :
-CacheMapInvalidator
+CacheInvalidator
 mFetchInvalidator
 ;
 void

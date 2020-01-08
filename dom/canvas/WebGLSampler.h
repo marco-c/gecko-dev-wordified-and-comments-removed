@@ -60,6 +60,8 @@ LinkedListElement
 <
 WebGLSampler
 >
+public
+CacheInvalidator
 {
 friend
 class

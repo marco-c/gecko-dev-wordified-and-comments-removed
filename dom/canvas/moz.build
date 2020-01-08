@@ -559,7 +559,7 @@ UNIFIED_SOURCES
 =
 [
 '
-CacheMap
+CacheInvalidator
 .
 cpp
 '
@@ -890,11 +890,6 @@ cpp
 '
 '
 WebGLFramebuffer
-.
-cpp
-'
-'
-WebGLFramebufferAttachable
 .
 cpp
 '

@@ -139,11 +139,6 @@ n
 =
 nullptr
 ;
-InvalidateResolveCacheForTextureWithTexUnit
-(
-n
-)
-;
 }
 }
 sampler
@@ -286,11 +281,6 @@ sampler
 mGLName
 :
 0
-)
-;
-InvalidateResolveCacheForTextureWithTexUnit
-(
-unit
 )
 ;
 mBoundSamplers

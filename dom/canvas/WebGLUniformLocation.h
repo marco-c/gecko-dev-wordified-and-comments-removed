@@ -189,7 +189,10 @@ ValidateSizeAndType
 (
 uint8_t
 setterElemSize
-GLenum
+webgl
+:
+:
+AttribBaseType
 setterType
 )
 const
