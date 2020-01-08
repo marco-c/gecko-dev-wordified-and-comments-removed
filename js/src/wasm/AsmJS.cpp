@@ -36546,6 +36546,12 @@ case
 ValType
 :
 :
+NullRef
+:
+case
+ValType
+:
+:
 AnyRef
 :
 {

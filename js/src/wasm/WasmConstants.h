@@ -103,6 +103,9 @@ Struct
 BlockVoid
 =
 0x40
+NullRef
+=
+0x39
 Limit
 =
 0x80
