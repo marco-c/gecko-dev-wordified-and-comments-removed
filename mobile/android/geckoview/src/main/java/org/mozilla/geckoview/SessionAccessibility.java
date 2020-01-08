@@ -4422,11 +4422,6 @@ performAutoFill
 +
 id
 +
-"
-"
-+
-value
-+
 '
 )
 '

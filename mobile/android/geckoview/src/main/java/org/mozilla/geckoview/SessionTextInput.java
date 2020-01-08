@@ -2262,11 +2262,6 @@ performAutoFill
 +
 id
 +
-"
-"
-+
-values
-+
 '
 )
 '
