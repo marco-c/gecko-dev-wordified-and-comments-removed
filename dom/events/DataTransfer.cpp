@@ -5026,14 +5026,12 @@ aLength
 ;
 uint16_t
 type
-;
+=
 aVariant
 -
 >
 GetDataType
 (
-&
-type
 )
 ;
 if

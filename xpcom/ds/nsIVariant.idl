@@ -369,7 +369,8 @@ nsIVariant
 nsISupports
 {
 [
-noscript
+notxpcom
+nostdcall
 ]
 readonly
 attribute

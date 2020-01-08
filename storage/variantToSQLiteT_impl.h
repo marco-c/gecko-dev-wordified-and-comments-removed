@@ -26,14 +26,12 @@ aObj
 ;
 uint16_t
 valueType
-;
+=
 aValue
 -
 >
 GetDataType
 (
-&
-valueType
 )
 ;
 switch

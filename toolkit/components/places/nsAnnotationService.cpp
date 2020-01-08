@@ -565,23 +565,12 @@ aValue
 ;
 uint16_t
 dataType
-;
-nsresult
-rv
 =
 aValue
 -
 >
 GetDataType
 (
-&
-dataType
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 BookmarkData
@@ -638,6 +627,7 @@ VTYPE_BOOL
 int32_t
 valueInt
 ;
+nsresult
 rv
 =
 aValue
@@ -704,6 +694,7 @@ VTYPE_UINT64
 int64_t
 valueLong
 ;
+nsresult
 rv
 =
 aValue
@@ -770,6 +761,7 @@ VTYPE_DOUBLE
 double
 valueDouble
 ;
+nsresult
 rv
 =
 aValue
@@ -867,6 +859,7 @@ VTYPE_ASTRING
 nsAutoString
 stringValue
 ;
+nsresult
 rv
 =
 aValue
