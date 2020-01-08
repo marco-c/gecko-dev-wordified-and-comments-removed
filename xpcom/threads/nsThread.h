@@ -619,6 +619,10 @@ bool
 aSync
 )
 ;
+friend
+class
+nsThreadManager
+;
 static
 mozilla
 :
@@ -639,6 +643,12 @@ nsThread
 >
 &
 ThreadList
+(
+)
+;
+static
+void
+ClearThreadList
 (
 )
 ;
@@ -737,6 +747,11 @@ MAIN_THREAD
 }
 bool
 mCanInvokeJS
+;
+bool
+mHasTLSEntry
+=
+false
 ;
 nsCOMPtr
 <
