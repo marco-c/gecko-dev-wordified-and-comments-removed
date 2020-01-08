@@ -320,7 +320,6 @@ scope
 ;
 ok
 (
-!
 m
 .
 data
@@ -329,7 +328,6 @@ hasWindow
 "
 ProcessGlobal
 should
-not
 have
 Window
 object
@@ -431,7 +429,6 @@ scope
 ;
 ok
 (
-!
 m
 .
 data
@@ -440,7 +437,6 @@ hasWindow
 "
 TabChildGlobal
 should
-not
 have
 Window
 object
