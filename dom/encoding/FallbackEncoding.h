@@ -68,10 +68,6 @@ bool
 sGuessFallbackFromTopLevelDomain
 ;
 static
-bool
-sFallbackToUTF8ForFile
-;
-static
 NotNull
 <
 const
