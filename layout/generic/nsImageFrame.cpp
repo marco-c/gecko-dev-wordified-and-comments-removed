@@ -10240,7 +10240,7 @@ FillCursorInformationFromStyle
 areaStyle
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 aCursor
