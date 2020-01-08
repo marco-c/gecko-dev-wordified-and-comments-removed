@@ -1939,6 +1939,7 @@ count
 .
 value
 )
+{
 ma_drol
 (
 dest
@@ -1950,7 +1951,9 @@ reg
 count
 )
 ;
+}
 else
+{
 ma_move
 (
 dest
@@ -1961,6 +1964,7 @@ src
 reg
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -2028,6 +2032,7 @@ count
 .
 value
 )
+{
 ma_dror
 (
 dest
@@ -2039,7 +2044,9 @@ reg
 count
 )
 ;
+}
 else
+{
 ma_move
 (
 dest
@@ -2050,6 +2057,7 @@ src
 reg
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -2545,11 +2553,13 @@ if
 (
 fail
 )
+{
 jump
 (
 fail
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -2686,11 +2696,13 @@ if
 (
 fail
 )
+{
 jump
 (
 fail
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -2845,12 +2857,14 @@ rhs
 =
 ScratchRegister
 )
+{
 movePtr
 (
 rhs
 ScratchRegister
 )
 ;
+}
 rshiftPtr
 (
 Imm32
@@ -3943,6 +3957,7 @@ address
 .
 offset
 )
+{
 asMasm
 (
 )
@@ -3958,6 +3973,7 @@ offset
 dest
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64Compat

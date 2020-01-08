@@ -100,6 +100,7 @@ usedArgSlots_
 destReg
 )
 )
+{
 current_
 =
 ABIArg
@@ -107,7 +108,9 @@ ABIArg
 destReg
 )
 ;
+}
 else
+{
 current_
 =
 ABIArg
@@ -120,6 +123,7 @@ intptr_t
 )
 )
 ;
+}
 usedArgSlots_
 +
 +
@@ -181,10 +185,12 @@ usedArgSlots_
 <
 NumIntArgRegs
 )
+{
 usedArgSlots_
 =
 NumIntArgRegs
 ;
+}
 usedArgSlots_
 +
 =
@@ -291,10 +297,12 @@ usedArgSlots_
 <
 NumIntArgRegs
 )
+{
 usedArgSlots_
 =
 NumIntArgRegs
 ;
+}
 current_
 =
 ABIArg
@@ -396,10 +404,12 @@ usedArgSlots_
 <
 NumIntArgRegs
 )
+{
 usedArgSlots_
 =
 NumIntArgRegs
 ;
+}
 usedArgSlots_
 +
 =
@@ -692,6 +702,7 @@ if
 (
 flushICache
 )
+{
 AutoFlushICache
 :
 :
@@ -708,6 +719,7 @@ size
 )
 )
 ;
+}
 }
 uintptr_t
 Assembler

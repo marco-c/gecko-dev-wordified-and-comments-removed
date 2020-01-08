@@ -2696,6 +2696,7 @@ extension
 =
 ZeroExtend
 )
+{
 load
 =
 as_lbu
@@ -2705,7 +2706,9 @@ base
 hiOffset
 )
 ;
+}
 else
+{
 load
 =
 as_lb
@@ -2715,6 +2718,7 @@ base
 hiOffset
 )
 ;
+}
 as_lbu
 (
 dest
@@ -2761,6 +2765,7 @@ extension
 =
 ZeroExtend
 )
+{
 as_dext
 (
 dest
@@ -2769,6 +2774,7 @@ dest
 32
 )
 ;
+}
 #
 endif
 break
@@ -3820,12 +3826,14 @@ c
 =
 AboveOrEqual
 )
+{
 ma_b
 (
 label
 jumpKind
 )
 ;
+}
 else
 if
 (
@@ -3834,8 +3842,11 @@ c
 =
 Below
 )
+{
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -3851,6 +3862,7 @@ label
 jumpKind
 )
 ;
+}
 }
 else
 {
@@ -5062,19 +5074,23 @@ moveCondition
 =
 TestForTrue
 )
+{
 as_movf
 (
 dest
 zero
 )
 ;
+}
 else
+{
 as_movt
 (
 dest
 zero
 )
 ;
+}
 }
 void
 MacroAssemblerMIPSShared
@@ -5121,19 +5137,23 @@ moveCondition
 =
 TestForTrue
 )
+{
 as_movf
 (
 dest
 zero
 )
 ;
+}
 else
+{
 as_movt
 (
 dest
 zero
 )
 ;
+}
 }
 void
 MacroAssemblerMIPSShared
@@ -5238,6 +5258,7 @@ c
 =
 LessThanOrEqual
 )
+{
 as_xori
 (
 rd
@@ -5245,6 +5266,7 @@ rd
 1
 )
 ;
+}
 break
 ;
 case
@@ -5267,6 +5289,7 @@ c
 =
 GreaterThanOrEqual
 )
+{
 as_xori
 (
 rd
@@ -5274,6 +5297,7 @@ rd
 1
 )
 ;
+}
 break
 ;
 case
@@ -5379,6 +5403,7 @@ c
 =
 Equal
 )
+{
 as_sltiu
 (
 rd
@@ -5386,7 +5411,9 @@ rd
 1
 )
 ;
+}
 else
+{
 as_sltu
 (
 rd
@@ -5394,6 +5421,7 @@ zero
 rd
 )
 ;
+}
 break
 ;
 case
@@ -7971,12 +7999,14 @@ ptr
 =
 buffer
 )
+{
 movePtr
 (
 ptr
 buffer
 )
 ;
+}
 orPtr
 (
 Imm32
@@ -8475,6 +8505,7 @@ MIRType
 :
 Double
 )
+{
 asMasm
 (
 )
@@ -8487,7 +8518,9 @@ loadConstantDouble
 ScratchDoubleReg
 )
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -8500,6 +8533,7 @@ loadConstantFloat32
 ScratchFloat32Reg
 )
 ;
+}
 if
 (
 isUnsigned
@@ -8699,6 +8733,7 @@ MIRType
 :
 Double
 )
+{
 asMasm
 (
 )
@@ -8715,6 +8750,7 @@ input
 inputIsNaN
 )
 ;
+}
 else
 if
 (
@@ -8726,6 +8762,7 @@ MIRType
 :
 Float32
 )
+{
 asMasm
 (
 )
@@ -8742,6 +8779,7 @@ input
 inputIsNaN
 )
 ;
+}
 asMasm
 (
 )
@@ -8855,6 +8893,7 @@ MIRType
 :
 Double
 )
+{
 asMasm
 (
 )
@@ -8867,7 +8906,9 @@ loadConstantDouble
 ScratchDoubleReg
 )
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -8880,6 +8921,7 @@ loadConstantFloat32
 ScratchFloat32Reg
 )
 ;
+}
 if
 (
 isUnsigned
@@ -9089,6 +9131,7 @@ MIRType
 :
 Double
 )
+{
 asMasm
 (
 )
@@ -9105,6 +9148,7 @@ input
 inputIsNaN
 )
 ;
+}
 else
 if
 (
@@ -9116,6 +9160,7 @@ MIRType
 :
 Float32
 )
+{
 asMasm
 (
 )
@@ -9132,6 +9177,7 @@ input
 inputIsNaN
 )
 ;
+}
 #
 if
 defined
@@ -9762,6 +9808,7 @@ byteSize
 =
 4
 )
+{
 asMasm
 (
 )
@@ -9778,7 +9825,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -9795,6 +9844,7 @@ fpu
 )
 )
 ;
+}
 }
 else
 {
@@ -9857,6 +9907,7 @@ byteSize
 =
 4
 )
+{
 asMasm
 (
 )
@@ -9871,7 +9922,9 @@ fpu
 address
 )
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -9886,6 +9939,7 @@ fpu
 address
 )
 ;
+}
 }
 else
 {
@@ -10208,6 +10262,7 @@ byteSize
 =
 4
 )
+{
 asMasm
 (
 )
@@ -10224,7 +10279,9 @@ tmp
 address
 )
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -10241,6 +10298,7 @@ tmp
 address
 )
 ;
+}
 }
 else
 {
@@ -10303,6 +10361,7 @@ byteSize
 =
 4
 )
+{
 asMasm
 (
 )
@@ -10317,7 +10376,9 @@ fpu
 address
 )
 ;
+}
 else
+{
 asMasm
 (
 )
@@ -10332,6 +10393,7 @@ fpu
 address
 )
 ;
+}
 }
 else
 {
@@ -14118,19 +14180,23 @@ if
 (
 isUnsigned
 )
+{
 as_divu
 (
 srcDest
 rhs
 )
 ;
+}
 else
+{
 as_div
 (
 srcDest
 rhs
 )
 ;
+}
 as_mfhi
 (
 remOutput

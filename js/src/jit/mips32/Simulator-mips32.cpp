@@ -1995,9 +1995,11 @@ if
 !
 sim
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -2008,9 +2010,11 @@ init
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 char
 *
 stopAtStr
@@ -2423,6 +2427,7 @@ regnum
 =
 kPCRegister
 )
+{
 return
 sim_
 -
@@ -2431,6 +2436,7 @@ get_pc
 (
 )
 ;
+}
 return
 sim_
 -
@@ -2644,9 +2650,11 @@ break_pc_
 =
 nullptr
 )
+{
 return
 false
 ;
+}
 sim_
 -
 >
@@ -2691,6 +2699,7 @@ break_pc_
 =
 nullptr
 )
+{
 sim_
 -
 >
@@ -2705,6 +2714,7 @@ sim_
 break_instr_
 )
 ;
+}
 sim_
 -
 >
@@ -2738,6 +2748,7 @@ sim_
 >
 break_pc_
 )
+{
 sim_
 -
 >
@@ -2752,6 +2763,7 @@ sim_
 break_instr_
 )
 ;
+}
 }
 void
 MipsDebugger
@@ -2768,6 +2780,7 @@ sim_
 >
 break_pc_
 )
+{
 sim_
 -
 >
@@ -2779,6 +2792,7 @@ setInstructionBits
 kBreakpointInstr
 )
 ;
+}
 }
 void
 MipsDebugger
@@ -2846,6 +2860,7 @@ i
 %
 2
 )
+{
 printf
 (
 "
@@ -2854,6 +2869,7 @@ n
 "
 )
 ;
+}
 }
 printf
 (
@@ -3210,9 +3226,11 @@ if
 !
 result
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -3242,9 +3260,11 @@ if
 !
 new_result
 )
+{
 return
 nullptr
 ;
+}
 memcpy
 (
 new_result
@@ -3456,6 +3476,7 @@ system
 llvmcmd
 )
 )
+{
 printf
 (
 "
@@ -3468,6 +3489,7 @@ n
 "
 )
 ;
+}
 }
 void
 MipsDebugger
@@ -4825,6 +4847,7 @@ value
 )
 )
 )
+{
 printf
 (
 "
@@ -4836,6 +4859,7 @@ n
 "
 )
 ;
+}
 }
 else
 {
@@ -6234,6 +6258,7 @@ if
 (
 p
 )
+{
 return
 p
 -
@@ -6242,6 +6267,7 @@ value
 (
 )
 ;
+}
 AutoEnterOOMUnsafeRegion
 oomUnsafe
 ;
@@ -6272,6 +6298,7 @@ page
 new_page
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -6282,6 +6309,7 @@ CachePage
 "
 )
 ;
+}
 return
 new_page
 ;
@@ -7065,6 +7093,7 @@ i
 +
 +
 )
+{
 exceptions
 [
 i
@@ -7072,6 +7101,7 @@ i
 =
 0
 ;
+}
 lastDebuggerInput_
 =
 nullptr
@@ -7111,9 +7141,11 @@ if
 !
 stack_
 )
+{
 return
 false
 ;
+}
 stackLimit_
 =
 reinterpret_cast
@@ -7484,10 +7516,12 @@ MIPS_SIM_ICACHE_CHECKS
 "
 )
 )
+{
 ICacheCheckingDisableCount
 =
 0
 ;
+}
 }
 SimulatorProcess
 :
@@ -7870,9 +7904,11 @@ reg
 =
 0
 )
+{
 return
 0
 ;
+}
 return
 registers_
 [
@@ -8376,6 +8412,7 @@ if
 (
 value
 )
+{
 FCSR_
 |
 =
@@ -8386,7 +8423,9 @@ FCSR_
 cc
 )
 ;
+}
 else
+{
 FCSR_
 &
 =
@@ -8398,6 +8437,7 @@ FCSR_
 cc
 )
 ;
+}
 }
 bool
 Simulator
@@ -8769,9 +8809,11 @@ wasm
 :
 CodeExists
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -8806,9 +8848,11 @@ isJit
 (
 )
 )
+{
 return
 false
 ;
+}
 JitActivation
 *
 act
@@ -8889,9 +8933,11 @@ isModule
 (
 )
 )
+{
 return
 false
 ;
+}
 const
 wasm
 :
@@ -8930,9 +8976,11 @@ if
 !
 instance
 )
+{
 return
 false
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 &
@@ -8969,9 +9017,11 @@ addr
 numBytes
 )
 )
+{
 return
 false
 ;
+}
 LLBit_
 =
 false
@@ -9076,9 +9126,11 @@ wasm
 :
 CodeExists
 )
+{
 return
 false
 ;
+}
 JSContext
 *
 cx
@@ -9113,9 +9165,11 @@ isJit
 (
 )
 )
+{
 return
 false
 ;
+}
 JitActivation
 *
 act
@@ -9177,9 +9231,11 @@ isModule
 (
 )
 )
+{
 return
 false
 ;
+}
 const
 wasm
 :
@@ -9226,9 +9282,11 @@ trap
 bytecode
 )
 )
+{
 return
 false
 ;
+}
 act
 -
 >
@@ -9283,10 +9341,12 @@ addr
 4
 )
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 (
@@ -9396,8 +9456,10 @@ addr
 4
 )
 )
+{
 return
 ;
+}
 if
 (
 (
@@ -9509,9 +9571,11 @@ addr
 8
 )
 )
+{
 return
 NAN
 ;
+}
 if
 (
 (
@@ -9624,8 +9688,10 @@ addr
 8
 )
 )
+{
 return
 ;
+}
 if
 (
 (
@@ -9740,9 +9806,11 @@ addr
 2
 )
 )
+{
 return
 0xffff
 ;
+}
 if
 (
 (
@@ -9852,10 +9920,12 @@ addr
 2
 )
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 (
@@ -9967,8 +10037,10 @@ addr
 2
 )
 )
+{
 return
 ;
+}
 if
 (
 (
@@ -10084,8 +10156,10 @@ addr
 2
 )
 )
+{
 return
 ;
+}
 if
 (
 (
@@ -10195,9 +10269,11 @@ addr
 1
 )
 )
+{
 return
 0xff
 ;
+}
 uint8_t
 *
 ptr
@@ -10234,10 +10310,12 @@ addr
 1
 )
 )
+{
 return
 -
 1
 ;
+}
 int8_t
 *
 ptr
@@ -10276,8 +10354,10 @@ addr
 1
 )
 )
+{
 return
 ;
+}
 uint8_t
 *
 ptr
@@ -10321,8 +10401,10 @@ addr
 1
 )
 )
+{
 return
 ;
+}
 int8_t
 *
 ptr
@@ -10379,10 +10461,12 @@ addr
 1
 )
 )
+{
 return
 -
 1
 ;
+}
 volatile
 int32_t
 *
@@ -10697,6 +10781,7 @@ newsp
 =
 0
 )
+{
 newsp
 =
 getRegister
@@ -10704,6 +10789,7 @@ getRegister
 sp
 )
 ;
+}
 return
 newsp
 <
@@ -11453,6 +11539,7 @@ if
 (
 single_stepping_
 )
+{
 single_step_callback_
 (
 single_step_callback_arg_
@@ -11460,6 +11547,7 @@ this
 nullptr
 )
 ;
+}
 switch
 (
 redirection
@@ -12668,6 +12756,7 @@ if
 (
 single_stepping_
 )
+{
 single_step_callback_
 (
 single_step_callback_arg_
@@ -12675,6 +12764,7 @@ this
 nullptr
 )
 ;
+}
 setRegister
 (
 ra
@@ -12780,8 +12870,10 @@ handleWasmTrapFault
 (
 )
 )
+{
 return
 ;
+}
 }
 ;
 MipsDebugger
@@ -13088,6 +13180,7 @@ isEnabledStop
 code
 )
 )
+{
 watchedStops_
 [
 code
@@ -13099,6 +13192,7 @@ count_
 ~
 kStopDisabledBit
 ;
+}
 }
 void
 Simulator
@@ -13117,6 +13211,7 @@ isEnabledStop
 code
 )
 )
+{
 watchedStops_
 [
 code
@@ -13127,6 +13222,7 @@ count_
 =
 kStopDisabledBit
 ;
+}
 }
 void
 Simulator
@@ -13455,6 +13551,7 @@ i
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -13466,6 +13563,7 @@ raised
 "
 )
 ;
+}
 }
 }
 void
@@ -14580,6 +14678,7 @@ if
 =
 sa
 )
+{
 alu_out
 =
 I32
@@ -14590,6 +14689,7 @@ rt
 )
 )
 ;
+}
 else
 if
 (
@@ -14598,6 +14698,7 @@ if
 =
 sa
 )
+{
 alu_out
 =
 I32
@@ -14608,6 +14709,7 @@ rt
 )
 )
 ;
+}
 else
 {
 MOZ_CRASH
@@ -18779,11 +18881,13 @@ next_pc
 =
 bad_ra
 )
+{
 set_pc
 (
 next_pc
 )
 ;
+}
 }
 void
 Simulator
@@ -18859,6 +18963,7 @@ isLinkingInstruction
 (
 )
 )
+{
 setRegister
 (
 31
@@ -18872,6 +18977,7 @@ SimInstruction
 kInstrSize
 )
 ;
+}
 set_pc
 (
 next_pc
@@ -18979,6 +19085,7 @@ if
 !
 pc_modified_
 )
+{
 setRegister
 (
 pc
@@ -18996,6 +19103,7 @@ SimInstruction
 kInstrSize
 )
 ;
+}
 }
 void
 Simulator
@@ -19109,8 +19217,10 @@ if
 !
 single_stepping_
 )
+{
 return
 ;
+}
 single_step_callback_
 (
 single_step_callback_arg_
@@ -19154,6 +19264,7 @@ if
 (
 single_stepping_
 )
+{
 single_step_callback_
 (
 single_step_callback_arg_
@@ -19161,6 +19272,7 @@ this
 nullptr
 )
 ;
+}
 int
 program_counter
 =
@@ -19211,6 +19323,7 @@ if
 (
 single_stepping_
 )
+{
 single_step_callback_
 (
 single_step_callback_arg_
@@ -19222,6 +19335,7 @@ void
 program_counter
 )
 ;
+}
 SimInstruction
 *
 instr
@@ -19256,6 +19370,7 @@ if
 (
 single_stepping_
 )
+{
 single_step_callback_
 (
 single_step_callback_arg_
@@ -19263,6 +19378,7 @@ this
 nullptr
 )
 ;
+}
 }
 void
 Simulator
@@ -19457,6 +19573,7 @@ StopSimAt
 -
 1
 )
+{
 execute
 <
 true
@@ -19464,7 +19581,9 @@ true
 (
 )
 ;
+}
 else
+{
 execute
 <
 false
@@ -19472,6 +19591,7 @@ false
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 callee_saved_value
@@ -19693,6 +19813,7 @@ argument_count
 >
 kCArgSlotCount
 )
+{
 entry_stack
 =
 entry_stack
@@ -19704,13 +19825,16 @@ sizeof
 int32_t
 )
 ;
+}
 else
+{
 entry_stack
 =
 entry_stack
 -
 kCArgsSlotsSize
 ;
+}
 entry_stack
 &
 =
@@ -19768,6 +19892,7 @@ i
 argReg
 )
 )
+{
 setRegister
 (
 argReg
@@ -19782,7 +19907,9 @@ int32_t
 )
 )
 ;
+}
 else
+{
 stack_argument
 [
 i
@@ -19794,6 +19921,7 @@ parameters
 int32_t
 )
 ;
+}
 }
 va_end
 (

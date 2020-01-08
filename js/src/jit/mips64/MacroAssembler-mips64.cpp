@@ -1090,6 +1090,7 @@ value
 16
 )
 )
+{
 as_ori
 (
 dest
@@ -1103,6 +1104,7 @@ value
 )
 )
 ;
+}
 as_dsll
 (
 dest
@@ -1155,6 +1157,7 @@ value
 16
 )
 )
+{
 as_ori
 (
 dest
@@ -1168,6 +1171,7 @@ value
 )
 )
 ;
+}
 as_dsll
 (
 dest
@@ -1200,6 +1204,7 @@ value
 32
 )
 )
+{
 as_ori
 (
 dest
@@ -1213,6 +1218,7 @@ value
 )
 )
 ;
+}
 if
 (
 uint16_t
@@ -1270,6 +1276,7 @@ uint16_t
 value
 )
 )
+{
 as_ori
 (
 dest
@@ -1280,6 +1287,7 @@ value
 )
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64
@@ -1584,6 +1592,7 @@ shift
 .
 value
 )
+{
 as_dsll32
 (
 rd
@@ -1593,7 +1602,9 @@ shift
 value
 )
 ;
+}
 else
+{
 as_dsll
 (
 rd
@@ -1603,6 +1614,7 @@ shift
 value
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64
@@ -1626,6 +1638,7 @@ shift
 .
 value
 )
+{
 as_dsrl32
 (
 rd
@@ -1635,7 +1648,9 @@ shift
 value
 )
 ;
+}
 else
+{
 as_dsrl
 (
 rd
@@ -1645,6 +1660,7 @@ shift
 value
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64
@@ -1668,6 +1684,7 @@ shift
 .
 value
 )
+{
 as_dsra32
 (
 rd
@@ -1677,7 +1694,9 @@ shift
 value
 )
 ;
+}
 else
+{
 as_dsra
 (
 rd
@@ -1687,6 +1706,7 @@ shift
 value
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64
@@ -1710,6 +1730,7 @@ shift
 .
 value
 )
+{
 as_drotr32
 (
 rd
@@ -1719,7 +1740,9 @@ shift
 value
 )
 ;
+}
 else
+{
 as_drotr
 (
 rd
@@ -1729,6 +1752,7 @@ shift
 value
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64
@@ -1759,6 +1783,7 @@ if
 <
 s
 )
+{
 as_drotr32
 (
 rd
@@ -1766,7 +1791,9 @@ rt
 s
 )
 ;
+}
 else
+{
 as_drotr
 (
 rd
@@ -1774,6 +1801,7 @@ rt
 s
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64
@@ -1937,6 +1965,7 @@ value
 >
 32
 )
+{
 as_dinsm
 (
 rt
@@ -1949,7 +1978,9 @@ size
 value
 )
 ;
+}
 else
+{
 as_dins
 (
 rt
@@ -1962,6 +1993,7 @@ size
 value
 )
 ;
+}
 }
 else
 {
@@ -2020,6 +2052,7 @@ value
 >
 32
 )
+{
 as_dextm
 (
 rt
@@ -2032,7 +2065,9 @@ size
 value
 )
 ;
+}
 else
+{
 as_dext
 (
 rt
@@ -2045,6 +2080,7 @@ size
 value
 )
 ;
+}
 }
 else
 {
@@ -2719,6 +2755,7 @@ ZeroExtend
 =
 extension
 )
+{
 as_lbu
 (
 dest
@@ -2726,7 +2763,9 @@ base
 encodedOffset
 )
 ;
+}
 else
+{
 as_lb
 (
 dest
@@ -2734,6 +2773,7 @@ base
 encodedOffset
 )
 ;
+}
 break
 ;
 case
@@ -2746,6 +2786,7 @@ ZeroExtend
 =
 extension
 )
+{
 as_lhu
 (
 dest
@@ -2753,7 +2794,9 @@ base
 encodedOffset
 )
 ;
+}
 else
+{
 as_lh
 (
 dest
@@ -2761,6 +2804,7 @@ base
 encodedOffset
 )
 ;
+}
 break
 ;
 case
@@ -2773,6 +2817,7 @@ ZeroExtend
 =
 extension
 )
+{
 as_lwu
 (
 dest
@@ -2780,7 +2825,9 @@ base
 encodedOffset
 )
 ;
+}
 else
+{
 as_lw
 (
 dest
@@ -2788,6 +2835,7 @@ base
 encodedOffset
 )
 ;
+}
 break
 ;
 case
@@ -3503,10 +3551,12 @@ delaySlotFill
 =
 FillDelaySlot
 )
+{
 as_nop
 (
 )
 ;
+}
 return
 ;
 }
@@ -3585,6 +3635,7 @@ oom
 (
 )
 )
+{
 label
 -
 >
@@ -3597,6 +3648,7 @@ getOffset
 )
 )
 ;
+}
 as_nop
 (
 )
@@ -3616,10 +3668,12 @@ delaySlotFill
 =
 FillDelaySlot
 )
+{
 as_nop
 (
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64
@@ -3727,10 +3781,12 @@ IsInRange
 offset
 )
 )
+{
 jumpKind
 =
 ShortJump
 ;
+}
 if
 (
 jumpKind
@@ -4017,6 +4073,7 @@ oom
 (
 )
 )
+{
 label
 -
 >
@@ -4029,6 +4086,7 @@ getOffset
 )
 )
 ;
+}
 return
 ;
 }
@@ -4094,6 +4152,7 @@ oom
 (
 )
 )
+{
 label
 -
 >
@@ -4106,6 +4165,7 @@ getOffset
 )
 )
 ;
+}
 as_nop
 (
 )
@@ -4126,10 +4186,12 @@ if
 (
 conditional
 )
+{
 as_nop
 (
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64
@@ -8599,6 +8661,7 @@ valueReg
 (
 )
 )
+{
 ma_move
 (
 dest
@@ -8609,6 +8672,7 @@ valueReg
 payload
 )
 ;
+}
 ma_li
 (
 ScratchRegister
@@ -9840,6 +9904,7 @@ imm32
 .
 value
 )
+{
 asMasm
 (
 )
@@ -9850,6 +9915,7 @@ imm32
 StackPointer
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -10087,6 +10153,7 @@ has
 iter
 )
 )
+{
 loadPtr
 (
 Address
@@ -10098,6 +10165,7 @@ diff
 iter
 )
 ;
+}
 }
 for
 (
@@ -10145,6 +10213,7 @@ has
 iter
 )
 )
+{
 loadDouble
 (
 Address
@@ -10156,6 +10225,7 @@ diff
 iter
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -10361,12 +10431,14 @@ isDouble
 (
 )
 )
+{
 storeDouble
 (
 reg
 dest
 )
 ;
+}
 else
 if
 (
@@ -10376,13 +10448,16 @@ isSingle
 (
 )
 )
+{
 storeFloat32
 (
 reg
 dest
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -10393,6 +10468,7 @@ type
 "
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -10627,8 +10703,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 MoveEmitter
 emitter
 (
@@ -10976,8 +11054,10 @@ src
 =
 dest
 )
+{
 return
 ;
+}
 movePtr
 (
 src
@@ -11581,6 +11661,7 @@ MIRType
 :
 Int32
 )
+{
 store32
 (
 Imm32
@@ -11594,7 +11675,9 @@ toInt32
 dest
 )
 ;
+}
 else
+{
 store32
 (
 Imm32
@@ -11612,6 +11695,7 @@ toBoolean
 dest
 )
 ;
+}
 }
 else
 {
@@ -11645,6 +11729,7 @@ constant
 (
 )
 )
+{
 storeValue
 (
 value
@@ -11655,7 +11740,9 @@ value
 dest
 )
 ;
+}
 else
+{
 storeValue
 (
 ValueTypeFromMIRType
@@ -11678,6 +11765,7 @@ gpr
 dest
 )
 ;
+}
 }
 template
 void
@@ -12131,11 +12219,13 @@ if
 (
 isSaturating
 )
+{
 bind
 (
 oolRejoin
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -12329,11 +12419,13 @@ if
 (
 isSaturating
 )
+{
 bind
 (
 oolRejoin
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -12418,11 +12510,13 @@ if
 (
 isSaturating
 )
+{
 bind
 (
 oolRejoin
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -12616,11 +12710,13 @@ if
 (
 isSaturating
 )
+{
 bind
 (
 oolRejoin
 )
 ;
+}
 }
 void
 MacroAssemblerMIPS64Compat

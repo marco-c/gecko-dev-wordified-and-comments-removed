@@ -415,6 +415,7 @@ numAlignedAliased
 =
 1
 )
+{
 offset
 =
 sizeof
@@ -422,6 +423,7 @@ sizeof
 float
 )
 ;
+}
 masm
 .
 loadFloat32

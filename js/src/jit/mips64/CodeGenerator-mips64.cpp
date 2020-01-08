@@ -806,6 +806,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 moveValue
@@ -827,7 +828,9 @@ ScratchRegister
 )
 )
 ;
+}
 else
+{
 masm
 .
 boxValue
@@ -840,6 +843,7 @@ rhs
 ScratchRegister
 )
 ;
+}
 masm
 .
 cmpPtrSet
@@ -935,6 +939,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 moveValue
@@ -956,7 +961,9 @@ ScratchRegister
 )
 )
 ;
+}
 else
+{
 masm
 .
 boxValue
@@ -969,6 +976,7 @@ rhs
 ScratchRegister
 )
 ;
+}
 Assembler
 :
 :
@@ -1815,6 +1823,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 ma_xor
@@ -1823,7 +1832,9 @@ output
 output
 )
 ;
+}
 else
+{
 masm
 .
 wasmTrap
@@ -1843,6 +1854,7 @@ bytecodeOffset
 )
 )
 ;
+}
 masm
 .
 jump
@@ -1882,6 +1894,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 as_mfhi
@@ -1889,7 +1902,9 @@ as_mfhi
 output
 )
 ;
+}
 else
+{
 masm
 .
 as_mflo
@@ -1897,6 +1912,7 @@ as_mflo
 output
 )
 ;
+}
 masm
 .
 bind
@@ -2036,6 +2052,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 as_mfhi
@@ -2043,7 +2060,9 @@ as_mfhi
 output
 )
 ;
+}
 else
+{
 masm
 .
 as_mflo
@@ -2051,6 +2070,7 @@ as_mflo
 output
 )
 ;
+}
 masm
 .
 bind
@@ -2810,6 +2830,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 ma_dext
@@ -2829,7 +2850,9 @@ Imm32
 )
 )
 ;
+}
 else
+{
 masm
 .
 ma_sll
@@ -2845,6 +2868,7 @@ Imm32
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -2907,6 +2931,7 @@ isMemory
 (
 )
 )
+{
 masm
 .
 load32
@@ -2918,7 +2943,9 @@ input
 output
 )
 ;
+}
 else
+{
 masm
 .
 ma_sll
@@ -2934,6 +2961,7 @@ Imm32
 )
 )
 ;
+}
 }
 else
 {
@@ -3369,6 +3397,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 wasmTruncateDoubleToUInt64
@@ -3381,7 +3410,9 @@ oolRejoin
 InvalidFloatReg
 )
 ;
+}
 else
+{
 masm
 .
 wasmTruncateDoubleToInt64
@@ -3395,6 +3426,7 @@ InvalidFloatReg
 )
 ;
 }
+}
 else
 {
 if
@@ -3406,6 +3438,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 wasmTruncateFloat32ToUInt64
@@ -3418,7 +3451,9 @@ oolRejoin
 InvalidFloatReg
 )
 ;
+}
 else
+{
 masm
 .
 wasmTruncateFloat32ToInt64
@@ -3431,6 +3466,7 @@ oolRejoin
 InvalidFloatReg
 )
 ;
+}
 }
 }
 void
@@ -3531,6 +3567,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 convertUInt64ToDouble
@@ -3545,7 +3582,9 @@ Invalid
 )
 )
 ;
+}
 else
+{
 masm
 .
 convertInt64ToDouble
@@ -3554,6 +3593,7 @@ input
 output
 )
 ;
+}
 }
 else
 {
@@ -3571,6 +3611,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 convertUInt64ToFloat32
@@ -3585,7 +3626,9 @@ Invalid
 )
 )
 ;
+}
 else
+{
 masm
 .
 convertInt64ToFloat32
@@ -3594,6 +3637,7 @@ input
 output
 )
 ;
+}
 }
 }
 void

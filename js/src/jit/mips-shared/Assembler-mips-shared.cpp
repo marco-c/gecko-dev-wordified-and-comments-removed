@@ -562,9 +562,11 @@ bytesNeeded
 )
 )
 )
+{
 return
 false
 ;
+}
 m_buffer
 .
 executableCopy
@@ -639,6 +641,7 @@ length
 (
 )
 )
+{
 memcpy
 (
 dest
@@ -654,6 +657,7 @@ length
 )
 )
 ;
+}
 }
 void
 AssemblerMIPSShared
@@ -674,6 +678,7 @@ length
 (
 )
 )
+{
 memcpy
 (
 dest
@@ -689,6 +694,7 @@ length
 )
 )
 ;
+}
 }
 AssemblerMIPSShared
 :
@@ -1108,6 +1114,7 @@ dest
 =
 nullptr
 )
+{
 return
 m_buffer
 .
@@ -1116,6 +1123,7 @@ putInt
 x
 )
 ;
+}
 WriteInstStatic
 (
 x
@@ -1230,10 +1238,12 @@ assigned
 (
 )
 )
+{
 ret
 =
 tmp
 ;
+}
 }
 }
 else
@@ -1283,10 +1293,12 @@ assigned
 (
 )
 )
+{
 ret
 =
 tmp
 ;
+}
 }
 }
 return
@@ -1937,6 +1949,7 @@ jumpOrCall
 =
 BranchIsCall
 )
+{
 return
 InstImm
 (
@@ -1949,6 +1962,7 @@ BOffImm16
 )
 )
 ;
+}
 return
 InstImm
 (
@@ -14509,8 +14523,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 Instruction
 *
 inst
@@ -14946,6 +14962,7 @@ count
 =
 nullptr
 )
+{
 *
 count
 +
@@ -14955,6 +14972,7 @@ sizeof
 Instruction
 )
 ;
+}
 return
 reinterpret_cast
 <
@@ -15221,6 +15239,7 @@ rt
 &
 0x1
 )
+{
 branch
 .
 setRT
@@ -15241,7 +15260,9 @@ RTShift
 )
 )
 ;
+}
 else
+{
 branch
 .
 setRT
@@ -15261,6 +15282,7 @@ RTShift
 )
 )
 ;
+}
 return
 branch
 ;

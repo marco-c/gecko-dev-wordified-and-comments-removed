@@ -815,6 +815,7 @@ isMemory
 (
 )
 )
+{
 masm
 .
 loadDouble
@@ -830,7 +831,9 @@ floatReg
 )
 )
 ;
+}
 else
+{
 masm
 .
 moveToDouble
@@ -847,6 +850,7 @@ floatReg
 )
 )
 ;
+}
 }
 else
 {

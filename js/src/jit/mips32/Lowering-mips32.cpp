@@ -405,6 +405,7 @@ fallible
 (
 )
 )
+{
 assignSnapshot
 (
 lir
@@ -416,6 +417,7 @@ bailoutKind
 )
 )
 ;
+}
 defineReuseInput
 (
 lir
@@ -493,6 +495,7 @@ fallible
 (
 )
 )
+{
 assignSnapshot
 (
 lir
@@ -504,6 +507,7 @@ bailoutKind
 )
 )
 ;
+}
 define
 (
 lir
@@ -562,6 +566,7 @@ fallible
 (
 )
 )
+{
 assignSnapshot
 (
 lir
@@ -573,6 +578,7 @@ bailoutKind
 )
 )
 ;
+}
 defineReuseInput
 (
 lir

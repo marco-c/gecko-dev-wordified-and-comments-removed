@@ -588,6 +588,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 cmp32Set
@@ -615,7 +616,9 @@ toBoolean
 output
 )
 ;
+}
 else
+{
 masm
 .
 cmp32Set
@@ -633,6 +636,7 @@ rhs
 output
 )
 ;
+}
 masm
 .
 jump
@@ -830,6 +834,7 @@ isConstant
 (
 )
 )
+{
 emitBranch
 (
 lhs
@@ -866,7 +871,9 @@ ifFalse
 )
 )
 ;
+}
 else
+{
 emitBranch
 (
 lhs
@@ -893,6 +900,7 @@ ifFalse
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -1910,6 +1918,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 xor64
@@ -1918,7 +1927,9 @@ output
 output
 )
 ;
+}
 else
+{
 masm
 .
 wasmTrap
@@ -1938,6 +1949,7 @@ bytecodeOffset
 )
 )
 ;
+}
 masm
 .
 jump
@@ -2021,6 +2033,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -2040,7 +2053,9 @@ SymbolicAddress
 ModI64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -2060,6 +2075,7 @@ SymbolicAddress
 DivI64
 )
 ;
+}
 MOZ_ASSERT
 (
 ReturnReg64
@@ -2255,6 +2271,7 @@ isMod
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -2274,7 +2291,9 @@ SymbolicAddress
 UModI64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -2294,6 +2313,7 @@ SymbolicAddress
 UDivI64
 )
 ;
+}
 }
 template
 <
@@ -3109,6 +3129,7 @@ output
 .
 low
 )
+{
 masm
 .
 move32
@@ -3119,6 +3140,7 @@ output
 low
 )
 ;
+}
 if
 (
 lir
@@ -3133,6 +3155,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 move32
@@ -3146,7 +3169,9 @@ output
 high
 )
 ;
+}
 else
+{
 masm
 .
 ma_sra
@@ -3163,6 +3188,7 @@ Imm32
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -3215,6 +3241,7 @@ bottomHalf
 (
 )
 )
+{
 masm
 .
 move32
@@ -3230,7 +3257,9 @@ low
 output
 )
 ;
+}
 else
+{
 masm
 .
 move32
@@ -3246,6 +3275,7 @@ high
 output
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -3719,6 +3749,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -3738,7 +3769,9 @@ SymbolicAddress
 TruncateDoubleToUint64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -3758,6 +3791,7 @@ SymbolicAddress
 TruncateDoubleToInt64
 )
 ;
+}
 masm
 .
 Pop
@@ -3856,6 +3890,7 @@ isUnsigned
 (
 )
 )
+{
 masm
 .
 callWithABI
@@ -3875,7 +3910,9 @@ SymbolicAddress
 SaturatingTruncateDoubleToUint64
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -3895,6 +3932,7 @@ SymbolicAddress
 SaturatingTruncateDoubleToInt64
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -4008,6 +4046,7 @@ isUnsigned
 (
 )
 )
+{
 if
 (
 toType
@@ -4018,6 +4057,7 @@ MIRType
 :
 Double
 )
+{
 masm
 .
 callWithABI
@@ -4041,7 +4081,9 @@ MoveOp
 DOUBLE
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -4065,7 +4107,10 @@ MoveOp
 FLOAT32
 )
 ;
+}
+}
 else
+{
 if
 (
 toType
@@ -4076,6 +4121,7 @@ MIRType
 :
 Double
 )
+{
 masm
 .
 callWithABI
@@ -4099,7 +4145,9 @@ MoveOp
 DOUBLE
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -4123,6 +4171,8 @@ MoveOp
 FLOAT32
 )
 ;
+}
+}
 MOZ_ASSERT_IF
 (
 toType

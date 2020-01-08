@@ -273,12 +273,14 @@ name
 =
 0
 )
+{
 return
 Encoding
 (
 i
 )
 ;
+}
 }
 return
 Invalid
@@ -311,6 +313,7 @@ Codes
 :
 Double
 )
+{
 return
 FloatRegister
 (
@@ -321,6 +324,7 @@ Codes
 Single
 )
 ;
+}
 return
 *
 this
@@ -353,6 +357,7 @@ Codes
 :
 Double
 )
+{
 return
 FloatRegister
 (
@@ -363,6 +368,7 @@ Codes
 Double
 )
 ;
+}
 return
 *
 this

@@ -262,12 +262,14 @@ name
 =
 0
 )
+{
 return
 Encoding
 (
 i
 )
 ;
+}
 }
 return
 Invalid
@@ -295,6 +297,7 @@ isSingle
 (
 )
 )
+{
 return
 FloatRegister
 (
@@ -302,6 +305,7 @@ code_
 Double
 )
 ;
+}
 return
 *
 this
@@ -329,6 +333,7 @@ isDouble
 (
 )
 )
+{
 return
 FloatRegister
 (
@@ -336,6 +341,7 @@ code_
 Single
 )
 ;
+}
 return
 *
 this
@@ -460,6 +466,7 @@ if
 (
 ret
 )
+{
 ret
 +
 =
@@ -468,6 +475,7 @@ sizeof
 double
 )
 ;
+}
 return
 ret
 ;

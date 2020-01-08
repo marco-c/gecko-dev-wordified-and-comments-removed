@@ -1349,10 +1349,12 @@ IsInsideNursery
 cell
 )
 )
+{
 embedsNurseryPointers_
 =
 true
 ;
+}
 dataRelocations_
 .
 writeUnsigned
@@ -2853,6 +2855,7 @@ isFloat
 (
 )
 )
+{
 loadInt32OrDouble
 (
 address
@@ -2863,6 +2866,7 @@ fpu
 )
 )
 ;
+}
 else
 if
 (
@@ -2874,6 +2878,7 @@ MIRType
 :
 ObjectOrNull
 )
+{
 unboxObjectOrNull
 (
 address
@@ -2884,7 +2889,9 @@ gpr
 )
 )
 ;
+}
 else
+{
 unboxNonDouble
 (
 address
@@ -2899,6 +2906,7 @@ type
 )
 )
 ;
+}
 }
 void
 storeUnboxedPayload
@@ -2928,13 +2936,16 @@ type
 =
 JSVAL_TYPE_OBJECT
 )
+{
 unboxObjectOrNull
 (
 value
 SecondScratchReg
 )
 ;
+}
 else
+{
 unboxNonDouble
 (
 value
@@ -2942,6 +2953,7 @@ SecondScratchReg
 type
 )
 ;
+}
 computeEffectiveAddress
 (
 address
@@ -3028,13 +3040,16 @@ type
 =
 JSVAL_TYPE_OBJECT
 )
+{
 unboxObjectOrNull
 (
 value
 SecondScratchReg
 )
 ;
+}
 else
+{
 unboxNonDouble
 (
 value
@@ -3042,6 +3057,7 @@ SecondScratchReg
 type
 )
 ;
+}
 storePtr
 (
 SecondScratchReg
