@@ -5581,6 +5581,13 @@ aImageKeys
 wr
 :
 :
+ColorDepth
+:
+:
+Color8
+wr
+:
+:
 ToWrYuvColorSpace
 (
 YUVColorSpace
@@ -6977,6 +6984,13 @@ aImageKeys
 [
 2
 ]
+wr
+:
+:
+ToWrColorDepth
+(
+mColorDepth
+)
 wr
 :
 :
