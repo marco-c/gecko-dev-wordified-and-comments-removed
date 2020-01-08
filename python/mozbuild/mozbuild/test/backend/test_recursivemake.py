@@ -8600,8 +8600,7 @@ expected
 RUST_LIBRARY_FILE
 :
 =
-%
-s
+.
 /
 x86_64
 -
@@ -8617,10 +8616,6 @@ libtest_library
 .
 a
 '
-%
-env
-.
-topobjdir
             
 '
 CARGO_FILE
@@ -8763,8 +8758,7 @@ expected
 HOST_RUST_LIBRARY_FILE
 :
 =
-%
-s
+.
 /
 x86_64
 -
@@ -8780,10 +8774,6 @@ libhostrusttool
 .
 a
 '
-%
-env
-.
-topobjdir
             
 '
 CARGO_FILE
@@ -8931,8 +8921,7 @@ expected
 HOST_RUST_LIBRARY_FILE
 :
 =
-%
-s
+.
 /
 x86_64
 -
@@ -8948,10 +8937,6 @@ libhostrusttool
 .
 a
 '
-%
-env
-.
-topobjdir
             
 '
 CARGO_FILE
@@ -9104,8 +9089,7 @@ expected
 RUST_LIBRARY_FILE
 :
 =
-%
-s
+.
 /
 x86_64
 -
@@ -9121,10 +9105,6 @@ libfeature_library
 .
 a
 '
-%
-env
-.
-topobjdir
             
 '
 CARGO_FILE

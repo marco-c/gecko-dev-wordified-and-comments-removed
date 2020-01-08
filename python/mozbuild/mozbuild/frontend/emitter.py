@@ -3365,9 +3365,15 @@ cargo_target_dir
 =
 context
 .
-config
+get
+(
+'
+RUST_LIBRARY_TARGET_DIR
+'
+'
 .
-topobjdir
+'
+)
         
 dependencies
 =
