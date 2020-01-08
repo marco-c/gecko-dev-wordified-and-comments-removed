@@ -72,14 +72,6 @@ build
 backends
 =
 Tup
-ac_add_options
--
--
-disable
--
-js
--
-shell
 unset
 ENABLE_CLANG_PLUGIN
 #
