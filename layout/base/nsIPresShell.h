@@ -1230,7 +1230,6 @@ eInferFromBitToAdd
 =
 0
 ;
-virtual
 void
 MarkFixedFramesForReflow
 (
@@ -2260,7 +2259,6 @@ bool
 aEnabled
 )
 ;
-virtual
 nsIFrame
 *
 GetAbsoluteContainingBlock
@@ -3554,7 +3552,6 @@ FlushType
 aFlushType
 )
 ;
-virtual
 bool
 AddPostRefreshObserver
 (
@@ -3563,7 +3560,6 @@ nsAPostRefreshObserver
 aObserver
 )
 ;
-virtual
 bool
 RemovePostRefreshObserver
 (

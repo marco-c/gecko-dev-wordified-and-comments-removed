@@ -710,7 +710,6 @@ StartTimer
 ;
 }
 }
-virtual
 void
 RemoveRefreshDriver
 (

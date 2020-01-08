@@ -964,7 +964,6 @@ GetUserData
 )
 ;
 }
-virtual
 void
 NotifyGlyphsChanged
 (
@@ -5104,7 +5103,6 @@ aOffsetIntoTextRun
 )
 {
 }
-virtual
 void
 SetBreaks
 (
@@ -5116,7 +5114,7 @@ uint8_t
 *
 aBreakBefore
 )
-override
+final
 {
 gfxTextRun
 :
@@ -5162,7 +5160,6 @@ TEXT_NO_BREAKS
 ;
 }
 }
-virtual
 void
 SetCapitalization
 (
@@ -5174,7 +5171,7 @@ bool
 *
 aCapitalize
 )
-override
+final
 {
 MOZ_ASSERT
 (
@@ -16284,14 +16281,14 @@ Spacing
 aSpacing
 )
 const
-override
+final
 ;
 gfxFloat
 GetHyphenWidth
 (
 )
 const
-override
+final
 ;
 void
 GetHyphenationBreaks
@@ -16303,14 +16300,14 @@ HyphenType
 aBreakBefore
 )
 const
-override
+final
 ;
 StyleHyphens
 GetHyphensOption
 (
 )
 const
-override
+final
 {
 return
 mTextStyle
@@ -16327,7 +16324,7 @@ GetDrawTarget
 (
 )
 const
-override
+final
 {
 return
 CreateReferenceDrawTarget
@@ -16343,7 +16340,7 @@ GetAppUnitsPerDevUnit
 (
 )
 const
-override
+final
 {
 return
 mTextRun
@@ -22290,7 +22287,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-override
+final
 ;
 void
 DestroyFrom
@@ -22302,7 +22299,7 @@ PostDestroyData
 &
 aPostDestroyData
 )
-override
+final
 ;
 nsTextFrame
 *
@@ -22310,7 +22307,7 @@ GetPrevContinuation
 (
 )
 const
-override
+final
 {
 return
 mPrevContinuation
@@ -22323,7 +22320,7 @@ nsIFrame
 *
 aPrevContinuation
 )
-override
+final
 {
 NS_ASSERTION
 (
@@ -22399,7 +22396,7 @@ GetPrevInFlowVirtual
 (
 )
 const
-override
+final
 {
 return
 GetPrevInFlow
@@ -22435,7 +22432,7 @@ nsIFrame
 *
 aPrevInFlow
 )
-override
+final
 {
 NS_ASSERTION
 (
@@ -22512,7 +22509,7 @@ FirstInFlow
 (
 )
 const
-override
+final
 ;
 nsIFrame
 *
@@ -22520,7 +22517,7 @@ FirstContinuation
 (
 )
 const
-override
+final
 ;
 void
 AddInlineMinISize
@@ -22532,7 +22529,7 @@ InlineMinISizeData
 *
 aData
 )
-override
+final
 ;
 void
 AddInlinePrefISize
@@ -22544,7 +22541,7 @@ InlinePrefISizeData
 *
 aData
 )
-override
+final
 ;
 protected
 :
@@ -24485,12 +24482,11 @@ nsDisplayText
 }
 #
 endif
-virtual
 void
 RestoreState
 (
 )
-override
+final
 {
 nsCharClipDisplayItem
 :
@@ -24506,7 +24502,6 @@ mOpacity
 0f
 ;
 }
-virtual
 nsRect
 GetBounds
 (
@@ -24518,7 +24513,7 @@ bool
 aSnap
 )
 const
-override
+final
 {
 *
 aSnap
@@ -24529,7 +24524,6 @@ return
 mBounds
 ;
 }
-virtual
 void
 HitTest
 (
@@ -24551,7 +24545,7 @@ nsIFrame
 *
 aOutFrames
 )
-override
+final
 {
 if
 (
@@ -24584,7 +24578,6 @@ mFrame
 ;
 }
 }
-virtual
 bool
 CreateWebRenderCommands
 (
@@ -24617,9 +24610,8 @@ nsDisplayListBuilder
 *
 aDisplayListBuilder
 )
-override
+final
 ;
-virtual
 void
 Paint
 (
@@ -24630,7 +24622,7 @@ gfxContext
 *
 aCtx
 )
-override
+final
 ;
 NS_DISPLAY_DECL_NAME
 (
@@ -24639,7 +24631,6 @@ Text
 "
 TYPE_TEXT
 )
-virtual
 nsRect
 GetComponentAlphaBounds
 (
@@ -24648,7 +24639,7 @@ nsDisplayListBuilder
 aBuilder
 )
 const
-override
+final
 {
 if
 (
@@ -24702,7 +24693,6 @@ snap
 )
 ;
 }
-virtual
 nsDisplayItemGeometry
 *
 AllocateGeometry
@@ -24711,9 +24701,8 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-override
+final
 ;
-virtual
 void
 ComputeInvalidationRegion
 (
@@ -24729,7 +24718,7 @@ nsRegion
 aInvalidRegion
 )
 const
-override
+final
 ;
 void
 RenderToContext
@@ -24751,7 +24740,7 @@ CanApplyOpacity
 (
 )
 const
-override
+final
 {
 nsTextFrame
 *
@@ -24858,7 +24847,7 @@ DisplayItemClipChain
 *
 aClip
 )
-override
+final
 {
 NS_ASSERTION
 (
@@ -24895,7 +24884,7 @@ stringstream
 &
 aStream
 )
-override
+final
 {
 #
 ifdef
