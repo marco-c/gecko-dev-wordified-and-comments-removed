@@ -691,9 +691,11 @@ its
 directory
 browser
 /
-components
+extensions
 /
-newtab
+activity
+-
+stream
 /
 *
 *

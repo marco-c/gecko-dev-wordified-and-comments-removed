@@ -172,9 +172,11 @@ l
 codespell
 browser
 /
-components
+extensions
 /
-newtab
+activity
+-
+stream
 \
 &
 &
@@ -184,9 +186,11 @@ mach
 test
 browser
 /
-components
+extensions
 /
-newtab
+activity
+-
+stream
 -
 -
 headless
@@ -203,7 +207,7 @@ components
 /
 newtab
 /
-test
+tests
 /
 browser
 -
@@ -222,7 +226,7 @@ components
 /
 newtab
 /
-test
+tests
 /
 xpcshell
 \

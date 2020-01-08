@@ -90,6 +90,11 @@ DIRS
 =
 [
 '
+activity
+-
+stream
+'
+'
 aushelper
 '
 '
