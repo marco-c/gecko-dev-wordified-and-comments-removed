@@ -179,6 +179,17 @@ browser
 /
 browser
 -
+private
+.
+ini
+'
+'
+test
+/
+browser
+/
+browser
+-
 remote
 .
 ini
