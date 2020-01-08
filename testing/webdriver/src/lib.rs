@@ -24,6 +24,14 @@ log
 ;
 extern
 crate
+futures
+;
+extern
+crate
+http
+;
+extern
+crate
 hyper
 ;
 extern
@@ -49,6 +57,10 @@ serde_json
 extern
 crate
 time
+;
+extern
+crate
+tokio
 ;
 extern
 crate

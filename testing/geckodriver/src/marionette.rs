@@ -5,9 +5,6 @@ use
 hyper
 :
 :
-method
-:
-:
 Method
 ;
 use
@@ -479,7 +476,7 @@ vec
 Method
 :
 :
-Get
+GET
 "
 /
 session
@@ -501,7 +498,7 @@ GetContext
 Method
 :
 :
-Post
+POST
 "
 /
 session
@@ -523,7 +520,7 @@ SetContext
 Method
 :
 :
-Post
+POST
 "
 /
 session
@@ -551,7 +548,7 @@ XblAnonymousChildren
 Method
 :
 :
-Post
+POST
 "
 /
 session
@@ -579,7 +576,7 @@ XblAnonymousByAttribute
 Method
 :
 :
-Post
+POST
 "
 /
 session
@@ -603,7 +600,7 @@ InstallAddon
 Method
 :
 :
-Post
+POST
 "
 /
 session
