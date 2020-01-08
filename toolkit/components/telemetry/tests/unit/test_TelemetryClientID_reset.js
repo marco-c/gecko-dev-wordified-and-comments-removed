@@ -180,6 +180,9 @@ type
 function
 sendPing
 (
+addEnvironment
+=
+false
 )
 {
 let
@@ -190,8 +193,6 @@ addClientId
 :
 true
 addEnvironment
-:
-false
 }
 ;
 return
@@ -1176,6 +1177,13 @@ testShutdown
 )
 ;
 await
+TelemetryStorage
+.
+testClearPendingPings
+(
+)
+;
+await
 TelemetryController
 .
 testReset
@@ -1223,6 +1231,13 @@ await
 TelemetryController
 .
 testShutdown
+(
+)
+;
+await
+TelemetryStorage
+.
+testClearPendingPings
 (
 )
 ;
