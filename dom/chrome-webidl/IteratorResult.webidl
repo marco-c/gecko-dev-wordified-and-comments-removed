@@ -5,9 +5,7 @@
 -
 Mode
 :
-C
-+
-+
+IDL
 ;
 tab
 -
