@@ -92,6 +92,13 @@ getAnimationPlayersForNode
 node
 )
 ;
+await
+player
+.
+ready
+(
+)
+;
 const
 keys
 =
