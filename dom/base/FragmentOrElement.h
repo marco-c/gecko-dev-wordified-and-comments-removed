@@ -536,6 +536,15 @@ UnlinkExtendedSlots
 )
 final
 ;
+size_t
+SizeOfExcludingThis
+(
+MallocSizeOf
+aMallocSizeOf
+)
+const
+final
+;
 RefPtr
 <
 nsDOMCSSAttributeDeclaration
