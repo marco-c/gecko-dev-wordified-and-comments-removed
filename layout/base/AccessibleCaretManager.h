@@ -767,10 +767,6 @@ kBoundaryAppUnits
 ;
 static
 bool
-sSelectionBarEnabled
-;
-static
-bool
 sExtendSelectionForPhoneNumber
 ;
 static
