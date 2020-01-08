@@ -481,7 +481,7 @@ kiss_fft
 /
 media
 /
-libav
+libaom
 /
 media
 /
@@ -552,6 +552,10 @@ third_party
 media
 /
 openmax_dl
+/
+media
+/
+openmax_il
 /
 media
 /
