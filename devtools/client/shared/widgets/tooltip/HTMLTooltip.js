@@ -2557,6 +2557,14 @@ height
 async
 hide
 (
+{
+fromMouseup
+=
+false
+}
+=
+{
+}
 )
 {
 this
@@ -2594,6 +2602,11 @@ hidden
 return
 ;
 }
+if
+(
+fromMouseup
+)
+{
 await
 new
 Promise
@@ -2612,6 +2625,7 @@ resolve
 )
 )
 ;
+}
 this
 .
 removeEventListeners
@@ -3099,6 +3113,11 @@ this
 .
 hide
 (
+{
+fromMouseup
+:
+true
+}
 )
 ;
 }
