@@ -1517,7 +1517,6 @@ for
 const
 [
 variable
-value
 ]
 of
 usedVariables
@@ -2243,18 +2242,13 @@ style
 .
 color
 .
-indexOf
+includes
 (
 "
 var
 (
 "
 )
-!
-=
-=
--
-1
 )
 {
 span
