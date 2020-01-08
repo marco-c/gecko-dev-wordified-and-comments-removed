@@ -1371,12 +1371,6 @@ debugOsrPrologueOffset_
 CodeOffset
 debugOsrEpilogueOffset_
 ;
-Vector
-<
-uint32_t
->
-yieldAndAwaitOffsets_
-;
 bool
 modifiesArguments_
 ;
@@ -2136,12 +2130,6 @@ addPCMappingEntry
 (
 bool
 addIndexEntry
-)
-;
-MOZ_MUST_USE
-bool
-addYieldAndAwaitOffset
-(
 )
 ;
 void
