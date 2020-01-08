@@ -59,16 +59,6 @@ jsm
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 defer
 =
 require
@@ -803,7 +793,7 @@ local_transport
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
