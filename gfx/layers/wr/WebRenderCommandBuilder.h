@@ -233,13 +233,10 @@ ActiveScrolledRoot
 *
 aASR
 const
-Maybe
-<
 wr
 :
 :
 WrClipId
->
 &
 aClipId
 )
