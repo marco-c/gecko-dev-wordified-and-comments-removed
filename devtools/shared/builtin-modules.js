@@ -70,6 +70,8 @@ jsmScope
 const
 {
 console
+DOMPoint
+DOMQuad
 HeapSnapshot
 StructuredCloneHolder
 TelemetryStopwatch
@@ -786,6 +788,8 @@ module
 ;
 }
 DOMParser
+DOMPoint
+DOMQuad
 Element
 Event
 FormData
