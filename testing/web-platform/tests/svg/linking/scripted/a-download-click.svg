@@ -306,8 +306,15 @@ blob
 ;
 link
 .
-click
+dispatchEvent
 (
+new
+Event
+(
+'
+click
+'
+)
 )
 ;
 t
