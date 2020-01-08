@@ -1932,6 +1932,13 @@ cpp
 '
 frontend
 /
+PropOpEmitter
+.
+cpp
+'
+'
+frontend
+/
 SwitchEmitter
 .
 cpp
