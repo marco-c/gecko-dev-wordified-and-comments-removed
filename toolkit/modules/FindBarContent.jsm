@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-FindBarChild
+FindBarContent
 "
 ]
 ;
@@ -74,7 +74,7 @@ FIND_LINKS
 2
 ;
 class
-FindBarChild
+FindBarContent
 {
 constructor
 (

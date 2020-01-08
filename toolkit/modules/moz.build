@@ -1471,7 +1471,7 @@ FileUtils
 jsm
 '
 '
-FindBarChild
+FindBarContent
 .
 jsm
 '

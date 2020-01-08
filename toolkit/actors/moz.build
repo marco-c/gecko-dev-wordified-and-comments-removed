@@ -96,4 +96,9 @@ AudioPlaybackChild
 .
 jsm
 '
+'
+FindBarChild
+.
+jsm
+'
 ]
