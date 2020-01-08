@@ -3821,7 +3821,7 @@ false
 ;
 MOZ_MUST_USE
 bool
-emitCallee
+emitCalleeAndThis
 (
 ParseNode
 *
@@ -3830,8 +3830,9 @@ ParseNode
 *
 call
 bool
-*
-callop
+isCall
+bool
+isNew
 )
 ;
 MOZ_MUST_USE
