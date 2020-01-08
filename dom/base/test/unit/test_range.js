@@ -1363,6 +1363,7 @@ nextNode
 (
 )
 )
+;
 Assert
 .
 ok
@@ -1531,6 +1532,7 @@ nextNode
 (
 )
 )
+;
 Assert
 .
 ok
@@ -2009,6 +2011,7 @@ invalid
 .
 "
 )
+;
 }
 baseRange
 =

@@ -69,6 +69,7 @@ foobar
 Zm9vYmFy
 "
 }
+;
 let
 binaryTests
 =

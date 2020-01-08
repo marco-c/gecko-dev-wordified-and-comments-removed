@@ -38,8 +38,6 @@ asyncXHR
 =
 {
 load
-:
-function
 (
 )
 {
@@ -149,6 +147,7 @@ gNextTestFunc
 ;
 }
 }
+;
 function
 run_test
 (

@@ -118,6 +118,7 @@ random
 )
 )
 ]
+;
 }
 function
 isDeveloperError
@@ -275,4 +276,3 @@ undefined
 ;
 }
 }
-;

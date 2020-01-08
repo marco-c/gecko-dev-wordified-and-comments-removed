@@ -307,9 +307,9 @@ doc
 documentElement
 .
 namespaceURI
-'
+"
 ns1
-'
+"
 )
 ;
 return

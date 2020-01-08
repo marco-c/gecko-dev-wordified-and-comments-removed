@@ -68,11 +68,11 @@ undefined
 )
 aCharset
 =
-'
+"
 UTF
 -
 8
-'
+"
 ;
 var
 file
@@ -87,7 +87,7 @@ ios
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -99,7 +99,7 @@ io
 service
 ;
 1
-'
+"
 ]
 .
 getService
@@ -187,8 +187,8 @@ str
 }
 content
 =
-'
-'
+"
+"
 ;
 while
 (
