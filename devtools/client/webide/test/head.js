@@ -257,9 +257,11 @@ setCharPref
 "
 devtools
 .
-webide
+remote
 .
-adbExtensionURL
+adb
+.
+extensionURL
 "
 TEST_BASE
 +
