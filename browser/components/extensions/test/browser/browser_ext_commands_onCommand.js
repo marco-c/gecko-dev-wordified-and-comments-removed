@@ -776,6 +776,11 @@ totalMacOnlyCommands
 =
 0
 ;
+let
+numberNumericCommands
+=
+4
+;
 for
 (
 let
@@ -1142,6 +1147,8 @@ testCommands
 )
 .
 length
++
+numberNumericCommands
 ;
 let
 expectedCommandsRegistered
