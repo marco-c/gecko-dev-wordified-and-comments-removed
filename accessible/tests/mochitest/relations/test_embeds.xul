@@ -426,6 +426,17 @@ tabBrowser
 loadURI
 (
 aURI
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 }
