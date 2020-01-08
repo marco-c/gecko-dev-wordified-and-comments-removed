@@ -160,7 +160,7 @@ TestManifest
     
 VariablePassthru
     
-XPIDLFile
+XPIDLModule
 )
 from
 .
@@ -2528,7 +2528,7 @@ if
 isinstance
 (
 obj
-XPIDLFile
+XPIDLModule
 )
 :
             
@@ -2545,7 +2545,7 @@ xpt
 %
 obj
 .
-module
+name
             
 self
 .
