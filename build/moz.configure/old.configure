@@ -1769,15 +1769,6 @@ updater
 -
 enable
 -
-verify
--
-mar
-'
-'
--
--
-enable
--
 xul
 '
 '
