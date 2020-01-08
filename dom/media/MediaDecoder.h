@@ -808,6 +808,16 @@ FireTimeUpdate
 )
 ;
 bool
+IsLoopingBack
+(
+double
+aPrevPosition
+double
+aCurPosition
+)
+const
+;
+bool
 CanPlayThrough
 (
 )
