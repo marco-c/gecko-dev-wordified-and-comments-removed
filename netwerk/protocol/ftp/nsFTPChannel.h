@@ -142,6 +142,10 @@ mForcePending
 (
 false
 )
+mSuspendCount
+(
+0
+)
 {
 SetURI
 (
