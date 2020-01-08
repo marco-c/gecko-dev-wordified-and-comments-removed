@@ -249,13 +249,6 @@ players
 playerIndex
 ]
 ;
-await
-player
-.
-ready
-(
-)
-;
 const
 state
 =
