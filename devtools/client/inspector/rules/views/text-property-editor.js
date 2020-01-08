@@ -2168,6 +2168,13 @@ value
 updated
 "
 {
+rule
+:
+this
+.
+prop
+.
+rule
 property
 :
 name
