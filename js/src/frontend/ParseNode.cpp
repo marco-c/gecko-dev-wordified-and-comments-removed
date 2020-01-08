@@ -4,8 +4,6 @@ include
 frontend
 /
 ParseNode
--
-inl
 .
 h
 "
