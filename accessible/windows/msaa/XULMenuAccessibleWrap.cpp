@@ -49,6 +49,7 @@ nsString
 &
 aName
 )
+const
 {
 XULMenuitemAccessible
 :

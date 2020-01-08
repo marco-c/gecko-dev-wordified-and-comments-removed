@@ -56,6 +56,8 @@ nsString
 &
 aName
 )
+const
+override
 ;
 }
 ;
