@@ -1052,11 +1052,6 @@ nsDOMCSSDeclaration
 cpp
 '
 '
-nsDOMCSSRect
-.
-cpp
-'
-'
 nsDOMCSSValueList
 .
 cpp

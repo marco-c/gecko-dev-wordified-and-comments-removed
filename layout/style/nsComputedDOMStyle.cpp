@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsDOMCSSRect
-.
-h
-"
-#
-include
-"
 nsDOMCSSValueList
 .
 h
