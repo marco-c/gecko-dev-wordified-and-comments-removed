@@ -340,6 +340,15 @@ NS_ERROR_CORRUPTED_CONTENT
 )
 ;
 }
+virtual
+void
+SetCleanShutdown
+(
+bool
+)
+=
+0
+;
 }
 ;
 typedef

@@ -918,6 +918,13 @@ return
 mUseH2Deps
 ;
 }
+void
+SetCleanShutdown
+(
+bool
+)
+override
+;
 MOZ_MUST_USE
 nsresult
 ReadSegmentsAgain

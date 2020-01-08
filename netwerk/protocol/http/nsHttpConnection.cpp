@@ -8833,6 +8833,14 @@ DontReuse
 (
 )
 ;
+mSpdySession
+-
+>
+SetCleanShutdown
+(
+aIsShutdown
+)
+;
 mUsingSpdyVersion
 =
 SpdyVersion
