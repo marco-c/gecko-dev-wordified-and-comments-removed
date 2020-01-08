@@ -978,7 +978,7 @@ Instance
 *
 instance
 uint32_t
-cookie
+typeIndex
 )
 ;
 }

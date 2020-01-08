@@ -134,6 +134,7 @@ OutOfBounds
 UnalignedAccess
 IndirectCallToNull
 IndirectCallBadSig
+NullPointerDereference
 StackOverflow
 CheckInterrupt
 ThrowReported
@@ -857,6 +858,12 @@ TableCopy
 StructNew
 =
 0x50
+StructGet
+=
+0x51
+StructSet
+=
+0x52
 Limit
 }
 ;

@@ -5683,6 +5683,17 @@ segment
 )
 MSG_DEF
 (
+JSMSG_WASM_DEREF_NULL
+0
+JSEXN_WASMRUNTIMEERROR
+"
+dereferencing
+null
+pointer
+"
+)
+MSG_DEF
+(
 JSMSG_WASM_BAD_RANGE
 2
 JSEXN_RANGEERR
