@@ -8876,10 +8876,6 @@ return
 false
 ;
 }
-Label
-notInt32
-done
-;
 masm
 .
 branchTestInt32
