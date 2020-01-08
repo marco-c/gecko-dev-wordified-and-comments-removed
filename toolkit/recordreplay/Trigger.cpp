@@ -261,6 +261,9 @@ id
 {
 AutoOrderedAtomicAccess
 order
+(
+gTriggers
+)
 ;
 StaticMutexAutoLock
 lock
