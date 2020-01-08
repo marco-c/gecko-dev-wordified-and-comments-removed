@@ -169,6 +169,14 @@ GetChannel
 (
 )
 ;
+bool
+IsTrackingURLWhitelisted
+(
+nsIURI
+*
+aUri
+)
+;
 private
 :
 bool
