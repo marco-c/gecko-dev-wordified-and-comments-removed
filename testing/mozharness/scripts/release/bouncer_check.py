@@ -801,7 +801,7 @@ Exception
                 
 self
 .
-warning
+error
 (
 "
 FAIL
@@ -847,7 +847,7 @@ https
                 
 self
 .
-warning
+error
 (
 '
 FAIL
@@ -881,7 +881,7 @@ mozilla_locations
                 
 self
 .
-warning
+error
 (
 '
 FAIL
