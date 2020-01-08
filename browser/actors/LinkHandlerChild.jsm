@@ -438,6 +438,17 @@ rel
 link
 .
 href
+|
+|
+!
+link
+.
+getAttribute
+(
+"
+href
+"
+)
 )
 return
 ;
