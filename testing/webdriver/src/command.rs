@@ -398,10 +398,6 @@ U
 WebDriverMessage
 {
 session_id
-:
-session_id
-command
-:
 command
 }
 }

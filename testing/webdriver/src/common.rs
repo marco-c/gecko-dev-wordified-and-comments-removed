@@ -416,8 +416,6 @@ WebElement
 WebElement
 {
 id
-:
-id
 }
 }
 }

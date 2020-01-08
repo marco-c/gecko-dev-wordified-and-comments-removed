@@ -232,8 +232,6 @@ Session
 Session
 {
 id
-:
-id
 }
 }
 }
@@ -365,8 +363,6 @@ U
 {
 Dispatcher
 {
-handler
-:
 handler
 session
 :
@@ -1056,8 +1052,6 @@ new
 chan
 )
 )
-api
-:
 api
 }
 }
