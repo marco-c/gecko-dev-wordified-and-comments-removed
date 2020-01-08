@@ -459,7 +459,7 @@ of
 :
 class
 :
-ResultContainer
+Issue
 objects
 .
 The
@@ -994,7 +994,7 @@ what
 mozlint
 '
 s
-ResultContainer
+Issue
 object
 expects
 .
@@ -1189,7 +1189,7 @@ that
 #
 creates
 a
-ResultContainer
+Issue
 using
 a
 LINTER

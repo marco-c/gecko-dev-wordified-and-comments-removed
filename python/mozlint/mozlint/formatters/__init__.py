@@ -9,7 +9,7 @@ from
 .
 result
 import
-ResultEncoder
+IssueEncoder
 from
 .
 compact
@@ -46,10 +46,7 @@ def
 __call__
 (
 self
-results
-*
-*
-kwargs
+result
 )
 :
         
@@ -58,10 +55,12 @@ json
 .
 dumps
 (
-results
+result
+.
+issues
 cls
 =
-ResultEncoder
+IssueEncoder
 )
 all_formatters
 =

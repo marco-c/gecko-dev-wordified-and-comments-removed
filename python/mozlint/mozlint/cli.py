@@ -1178,7 +1178,7 @@ mozlint
 .
 editor
 import
-edit_results
+edit_issues
     
 if
 list_linters
@@ -1269,7 +1269,7 @@ setup
 return
 ret
     
-results
+result
 =
 lint
 .
@@ -1287,21 +1287,27 @@ workdir
 if
 edit
 and
-results
+result
+.
+issues
 :
         
-edit_results
+edit_issues
 (
-results
+result
+.
+issues
 )
         
-results
+result
 =
 lint
 .
 roll
 (
-results
+result
+.
+issues
 .
 keys
 (
@@ -1321,21 +1327,11 @@ out
 =
 formatter
 (
-results
-failed
-=
-lint
-.
-failed
-|
-lint
-.
-failed_setup
+result
 )
 .
 encode
 (
-                    
 sys
 .
 stdout
@@ -1360,15 +1356,9 @@ out
 )
     
 return
-1
-if
-results
-or
-lint
+result
 .
-failed
-else
-0
+returncode
 if
 __name__
 =

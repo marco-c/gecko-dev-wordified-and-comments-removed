@@ -13,7 +13,8 @@ mozlint
 .
 result
 import
-ResultContainer
+Issue
+ResultSummary
 pytest
 .
 fixture
@@ -127,6 +128,15 @@ assert
 isinstance
 (
 result
+ResultSummary
+)
+    
+assert
+isinstance
+(
+result
+.
+issues
 dict
 )
     
@@ -141,6 +151,8 @@ js
 )
 in
 result
+.
+issues
     
 assert
 path
@@ -154,10 +166,14 @@ js
 not
 in
 result
+.
+issues
     
-result
+issue
 =
 result
+.
+issues
 [
 path
 (
@@ -175,8 +191,8 @@ js
 assert
 isinstance
 (
-result
-ResultContainer
+issue
+Issue
 )
     
 name
@@ -201,7 +217,7 @@ split
 ]
     
 assert
-result
+issue
 .
 linter
 .
@@ -254,6 +270,8 @@ assert
 len
 (
 result
+.
+issues
 )
 =
 =
@@ -283,6 +301,8 @@ assert
 len
 (
 result
+.
+issues
 )
 =
 =

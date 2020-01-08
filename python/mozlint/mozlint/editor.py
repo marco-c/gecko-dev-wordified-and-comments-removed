@@ -32,15 +32,15 @@ EDITOR
 '
 )
 def
-edit_results
+edit_issues
 (
-results
+issues
 )
 :
     
 if
 not
-results
+issues
 :
         
 return
@@ -317,7 +317,7 @@ summary
 False
 )
 (
-results
+issues
 )
             
 fh
@@ -362,7 +362,7 @@ for
 path
 errors
 in
-results
+issues
 .
 iteritems
 (

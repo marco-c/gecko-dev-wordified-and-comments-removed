@@ -13,10 +13,6 @@ sys
 import
 traceback
 from
-collections
-import
-defaultdict
-from
 concurrent
 .
 futures
@@ -69,6 +65,11 @@ import
 findobject
 from
 .
+result
+import
+ResultSummary
+from
+.
 types
 import
 supported_types
@@ -96,25 +97,18 @@ lintargs
 )
 :
     
-results
+result
 =
-defaultdict
+ResultSummary
 (
-list
 )
-    
-failed
-=
-[
-]
     
 if
 SHUTDOWN
 :
         
 return
-results
-failed
+result
     
 func
 =
@@ -167,8 +161,7 @@ SystemExit
 :
         
 return
-results
-failed
+result
     
 finally
 :
@@ -197,9 +190,11 @@ if
 res
 :
             
-failed
+result
 .
-append
+failed_run
+.
+add
 (
 config
 [
@@ -218,7 +213,9 @@ in
 res
 :
             
-results
+result
+.
+issues
 [
 r
 .
@@ -231,8 +228,7 @@ r
 )
     
 return
-results
-failed
+result
 class
 InterruptableQueue
 (
@@ -519,21 +515,11 @@ root
         
 self
 .
-failed
+result
 =
-None
-        
-self
-.
-failed_setup
-=
-None
-        
-self
-.
-results
-=
-None
+ResultSummary
+(
+)
         
 self
 .
@@ -647,14 +633,6 @@ linters
 raise
 LintersNotConfigured
         
-self
-.
-failed_setup
-=
-set
-(
-)
-        
 for
 linter
 in
@@ -714,6 +692,8 @@ res
                 
 self
 .
+result
+.
 failed_setup
 .
 add
@@ -728,6 +708,8 @@ name
         
 if
 self
+.
+result
 .
 failed_setup
 :
@@ -758,6 +740,8 @@ sorted
 (
 self
 .
+result
+.
 failed_setup
 )
 )
@@ -786,6 +770,8 @@ name
 not
 in
 self
+.
+result
 .
 failed_setup
 ]
@@ -1021,52 +1007,17 @@ cancelled
             
 return
         
-results
-failed
-=
+self
+.
+result
+.
+update
+(
 future
 .
 result
 (
 )
-        
-if
-failed
-:
-            
-self
-.
-failed
-.
-update
-(
-set
-(
-failed
-)
-)
-        
-for
-k
-v
-in
-results
-.
-iteritems
-(
-)
-:
-            
-self
-.
-results
-[
-k
-]
-.
-extend
-(
-v
 )
     
 def
@@ -1190,7 +1141,7 @@ class
 ~
 result
 .
-ResultContainer
+Issue
 s
 as
 the
@@ -1213,18 +1164,9 @@ LintersNotConfigured
         
 self
 .
-results
-=
-defaultdict
-(
-list
-)
-        
-self
+result
 .
-failed
-=
-set
+reset
 (
 )
         
@@ -1788,4 +1730,4 @@ orig_sigint
 return
 self
 .
-results
+result

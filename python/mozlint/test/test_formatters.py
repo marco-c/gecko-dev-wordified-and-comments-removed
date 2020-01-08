@@ -7,10 +7,6 @@ import
 json
 import
 os
-from
-collections
-import
-defaultdict
 import
 mozunit
 import
@@ -23,8 +19,11 @@ import
 pytest
 from
 mozlint
+.
+result
 import
-ResultContainer
+Issue
+ResultSummary
 from
 mozlint
 import
@@ -517,7 +516,7 @@ pytest
 .
 fixture
 def
-results
+result
 (
 scope
 =
@@ -531,7 +530,7 @@ containers
 =
 (
         
-ResultContainer
+Issue
 (
             
 linter
@@ -566,7 +565,7 @@ lineno
         
 )
         
-ResultContainer
+Issue
 (
             
 linter
@@ -629,7 +628,7 @@ allowed
         
 )
         
-ResultContainer
+Issue
 (
             
 linter
@@ -674,11 +673,10 @@ baz
     
 )
     
-results
+result
 =
-defaultdict
+ResultSummary
 (
-list
 )
     
 for
@@ -687,7 +685,9 @@ in
 containers
 :
         
-results
+result
+.
+issues
 [
 c
 .
@@ -700,7 +700,7 @@ c
 )
     
 return
-results
+result
 pytest
 .
 mark
@@ -719,7 +719,7 @@ keys
 def
 test_formatters
 (
-results
+result
 name
 )
 :
@@ -751,7 +751,7 @@ kwargs
 assert
 fmt
 (
-results
+result
 )
 =
 =
@@ -764,7 +764,7 @@ format
 def
 test_json_formatter
 (
-results
+result
 )
 :
     
@@ -787,7 +787,7 @@ loads
 (
 fmt
 (
-results
+result
 )
 )
     
@@ -804,7 +804,9 @@ keys
 =
 set
 (
-results
+result
+.
+issues
 .
 keys
 (
@@ -813,7 +815,7 @@ keys
     
 slots
 =
-ResultContainer
+Issue
 .
 __slots__
     

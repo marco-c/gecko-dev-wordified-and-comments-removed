@@ -12,7 +12,7 @@ from
 .
 result
 import
-ResultContainer
+Issue
 class
 StylishFormatter
 (
@@ -408,12 +408,6 @@ __call__
 (
 self
 result
-failed
-=
-None
-*
-*
-kwargs
 )
 :
         
@@ -424,10 +418,9 @@ message
         
 failed
 =
+result
+.
 failed
-or
-[
-]
         
 num_errors
 =
@@ -444,6 +437,8 @@ in
 sorted
 (
 result
+.
+issues
 .
 iteritems
 (
@@ -481,7 +476,7 @@ assert
 isinstance
 (
 err
-ResultContainer
+Issue
 )
                 
 self
