@@ -4477,9 +4477,6 @@ SecurityPolicyViolationEvent
 insecureContext
 :
 true
-release
-:
-false
 }
 {
 name
