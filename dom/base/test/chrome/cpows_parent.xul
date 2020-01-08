@@ -2055,7 +2055,7 @@ docshell
 =
 savedElement
 .
-ownerGlobal
+ownerDocument
 .
 docShell
 ;

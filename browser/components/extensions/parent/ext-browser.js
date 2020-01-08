@@ -2443,7 +2443,7 @@ browser
 =
 browser
 .
-ownerGlobal
+ownerDocument
 .
 docShell
 .

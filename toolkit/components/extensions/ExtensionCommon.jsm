@@ -1312,10 +1312,16 @@ contentWindow
 let
 {
 document
-docShell
 }
 =
 contentWindow
+;
+let
+{
+docShell
+}
+=
+document
 ;
 this
 .

@@ -653,7 +653,7 @@ getSelectionController
 )
 {
 return
-window
+document
 .
 docShell
 .

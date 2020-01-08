@@ -11944,6 +11944,8 @@ options
 .
 window
 .
+document
+.
 docShell
 .
 getOriginAttributes

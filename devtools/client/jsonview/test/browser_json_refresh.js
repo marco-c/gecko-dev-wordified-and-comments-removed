@@ -94,6 +94,8 @@ channel
 =
 content
 .
+document
+.
 docShell
 .
 currentDocumentChannel
@@ -300,6 +302,8 @@ const
 channel
 =
 content
+.
+document
 .
 docShell
 .

@@ -38,6 +38,8 @@ content
 return
 content
 .
+document
+.
 docShell
 .
 contentViewer
@@ -270,6 +272,8 @@ let
 mm
 =
 win
+.
+document
 .
 docShell
 .

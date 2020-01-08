@@ -1037,13 +1037,6 @@ Ci
 .
 nsIWebNavigation
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
 ;
 ok
 (

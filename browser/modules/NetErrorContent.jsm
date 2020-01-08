@@ -3490,6 +3490,8 @@ docShell
 =
 win
 .
+document
+.
 docShell
 ;
 if
@@ -3727,6 +3729,8 @@ docShell
 =
 win
 .
+document
+.
 docShell
 ;
 let
@@ -3804,6 +3808,8 @@ let
 docShell
 =
 win
+.
+document
 .
 docShell
 ;
