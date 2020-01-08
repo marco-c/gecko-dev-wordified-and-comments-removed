@@ -32,10 +32,6 @@ dom_push_enabled
 )
 DOM_WEBIDL_PREF
 (
-dom_streams_enabled
-)
-DOM_WEBIDL_PREF
-(
 gfx_offscreencanvas_enabled
 )
 DOM_WEBIDL_PREF
@@ -57,4 +53,8 @@ dom_enable_performance_observer
 DOM_WEBIDL_PREF
 (
 dom_performance_enable_scheduler_timing
+)
+DOM_WEBIDL_PREF
+(
+javascript_options_streams
 )

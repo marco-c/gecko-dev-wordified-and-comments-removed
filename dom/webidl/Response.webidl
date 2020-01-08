@@ -321,7 +321,7 @@ dom
 DOMPrefs
 :
 :
-dom_streams_enabled
+javascript_options_streams
 "
 ]
 readonly

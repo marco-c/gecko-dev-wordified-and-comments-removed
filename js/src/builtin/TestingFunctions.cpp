@@ -13228,11 +13228,16 @@ setBoolean
 cx
 -
 >
-options
+realm
+(
+)
+-
+>
+creationOptions
 (
 )
 .
-streams
+getStreamsEnabled
 (
 )
 )
@@ -32981,7 +32986,7 @@ enabled
 for
 the
 current
-compartment
+realm
 .
 "
 )
