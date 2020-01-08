@@ -478,9 +478,6 @@ mozilla
 class
 AbstractThread
 ;
-class
-ThrottledEventQueue
-;
 namespace
 dom
 {

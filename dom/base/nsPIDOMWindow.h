@@ -163,9 +163,6 @@ namespace
 mozilla
 {
 class
-ThrottledEventQueue
-;
-class
 AutoplayPermissionManager
 ;
 namespace
