@@ -672,10 +672,10 @@ BUG_COMPONENT
 Core
 "
 "
-JavaScript
-Engine
+Javascript
 :
-JIT
+Web
+Assembly
 "
 )
 with
@@ -4659,10 +4659,10 @@ BUG_COMPONENT
 Core
 "
 "
-JavaScript
-Engine
+Javascript
 :
-JIT
+Web
+Assembly
 "
 )
 with
