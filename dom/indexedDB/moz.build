@@ -638,12 +638,6 @@ xpcom
 /
 build
 '
-'
-/
-xpcom
-/
-threads
-'
 ]
 XPIDL_SOURCES
 +

@@ -97,7 +97,7 @@ h
 #
 include
 "
-nsIThreadPool
+nsThreadPool
 .
 h
 "
@@ -2398,9 +2398,9 @@ nsIThreadPool
 >
 threadPool
 =
-do_CreateInstance
+new
+nsThreadPool
 (
-NS_THREADPOOL_CONTRACTID
 )
 ;
 sThreadPool

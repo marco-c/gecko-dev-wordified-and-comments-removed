@@ -188,6 +188,13 @@ h
 #
 include
 "
+nsThreadPool
+.
+h
+"
+#
+include
+"
 GetAddrInfo
 .
 h
@@ -3043,9 +3050,9 @@ nsIThreadPool
 >
 threadPool
 =
-do_CreateInstance
+new
+nsThreadPool
 (
-NS_THREADPOOL_CONTRACTID
 )
 ;
 MOZ_ALWAYS_SUCCEEDS

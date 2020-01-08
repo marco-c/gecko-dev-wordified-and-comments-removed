@@ -210,6 +210,11 @@ nsThreadManager
 h
 '
 '
+nsThreadPool
+.
+h
+'
+'
 nsThreadUtils
 .
 h
