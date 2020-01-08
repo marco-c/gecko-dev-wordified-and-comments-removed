@@ -3645,6 +3645,12 @@ return
 mVisualViewportOffset
 ;
 }
+nsPoint
+GetVisualViewportOffsetRelativeToLayoutViewport
+(
+)
+const
+;
 virtual
 void
 WindowSizeMoveDone

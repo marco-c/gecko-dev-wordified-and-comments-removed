@@ -318,6 +318,15 @@ const
 0
 ;
 virtual
+nsPoint
+GetVisualViewportOffset
+(
+)
+const
+=
+0
+;
+virtual
 nsSize
 GetLineScrollAmount
 (
