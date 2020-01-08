@@ -169,13 +169,6 @@ client
 js
 '
 '
-root
--
-client
-.
-js
-'
-'
 source
 -
 client
