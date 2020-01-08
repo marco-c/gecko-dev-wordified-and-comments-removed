@@ -160,12 +160,6 @@ mozilla
 :
 dom
 ;
-using
-mozilla
-:
-:
-StyleAnimationValue
-;
 typedef
 AutoTArray
 <

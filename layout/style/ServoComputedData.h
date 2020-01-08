@@ -13,6 +13,9 @@ ServoTypes
 .
 h
 "
+class
+nsWindowSizes
+;
 #
 define
 STYLE_STRUCT
