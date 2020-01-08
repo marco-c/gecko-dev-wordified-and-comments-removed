@@ -1906,6 +1906,12 @@ rv
 rv
 )
 ;
+if
+(
+!
+aAnnotationsOnly
+)
+{
 bool
 isThirdPartyChannel
 =
@@ -2036,6 +2042,7 @@ get
 return
 NS_OK
 ;
+}
 }
 if
 (
