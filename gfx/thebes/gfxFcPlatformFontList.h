@@ -438,6 +438,7 @@ FT_MM_Var
 GetMMVar
 (
 )
+override
 ;
 bool
 HasVariations

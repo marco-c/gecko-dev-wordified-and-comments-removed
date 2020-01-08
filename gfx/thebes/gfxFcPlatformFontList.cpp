@@ -3249,7 +3249,9 @@ gfxFT2FontBase
 :
 SetupVarCoords
 (
-ftFace
+GetMMVar
+(
+)
 settings
 &
 coords
