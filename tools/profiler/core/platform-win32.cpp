@@ -20,18 +20,6 @@ process
 h
 >
 #
-ifdef
-__MINGW32__
-#
-include
-<
-immintrin
-.
-h
->
-#
-endif
-#
 include
 "
 nsWindowsDllInterceptor
@@ -839,7 +827,7 @@ Now
 end
 )
 {
-_mm_pause
+YieldProcessor
 (
 )
 ;
