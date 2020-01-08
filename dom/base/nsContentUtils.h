@@ -4618,16 +4618,6 @@ sAnimationsAPICoreEnabled
 }
 static
 bool
-AnimationsAPIElementAnimateEnabled
-(
-)
-{
-return
-sAnimationsAPIElementAnimateEnabled
-;
-}
-static
-bool
 GetBoxQuadsEnabled
 (
 )
@@ -7110,10 +7100,6 @@ sUseActivityCursor
 static
 bool
 sAnimationsAPICoreEnabled
-;
-static
-bool
-sAnimationsAPIElementAnimateEnabled
 ;
 static
 bool

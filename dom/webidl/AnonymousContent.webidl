@@ -393,14 +393,6 @@ contextId
 )
 ;
 [
-Func
-=
-"
-nsDocument
-:
-:
-IsElementAnimateEnabled
-"
 Throws
 ]
 Animation

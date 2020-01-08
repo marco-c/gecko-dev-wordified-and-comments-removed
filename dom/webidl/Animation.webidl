@@ -159,14 +159,6 @@ finished
 }
 ;
 [
-Func
-=
-"
-nsDocument
-:
-:
-IsElementAnimateEnabled
-"
 Constructor
 (
 optional

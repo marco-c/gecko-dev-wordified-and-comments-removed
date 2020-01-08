@@ -177,14 +177,6 @@ interface
 Animatable
 {
 [
-Func
-=
-"
-nsDocument
-:
-:
-IsElementAnimateEnabled
-"
 Throws
 ]
 Animation
