@@ -3730,7 +3730,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -3753,7 +3753,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -3828,7 +3828,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -3848,7 +3848,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -4109,7 +4109,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -4132,7 +4132,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -4207,7 +4207,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -4227,7 +4227,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -4515,7 +4515,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -5136,7 +5136,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 .
@@ -5156,7 +5156,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 .
@@ -5229,7 +5229,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 .
@@ -5246,7 +5246,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 .
