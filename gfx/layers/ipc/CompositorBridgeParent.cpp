@@ -2871,8 +2871,9 @@ mWrBridge
 mWrBridge
 -
 >
-FlushRenderingAsync
+FlushRendering
 (
+false
 )
 ;
 return

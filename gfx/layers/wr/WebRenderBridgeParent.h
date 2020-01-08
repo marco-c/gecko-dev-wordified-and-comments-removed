@@ -1056,11 +1056,10 @@ mIdNamespace
 void
 FlushRendering
 (
-)
-;
-void
-FlushRenderingAsync
-(
+bool
+aWaitForPresent
+=
+true
 )
 ;
 void
