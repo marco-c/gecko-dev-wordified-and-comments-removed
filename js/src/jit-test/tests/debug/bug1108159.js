@@ -1,17 +1,3 @@
-if
-(
-helperThreadCount
-(
-)
-=
-=
-0
-)
-quit
-(
-0
-)
-;
 var
 s
 =

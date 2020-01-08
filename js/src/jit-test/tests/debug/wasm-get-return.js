@@ -20,17 +20,6 @@ js
 '
 )
 ;
-if
-(
-!
-wasmDebuggingIsSupported
-(
-)
-)
-quit
-(
-)
-;
 function
 monitorFrameOnPopReturns
 (

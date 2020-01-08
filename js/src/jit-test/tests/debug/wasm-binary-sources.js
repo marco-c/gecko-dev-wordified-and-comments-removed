@@ -22,17 +22,6 @@ js
 "
 )
 ;
-if
-(
-!
-wasmDebuggingIsSupported
-(
-)
-)
-quit
-(
-)
-;
 var
 g
 =

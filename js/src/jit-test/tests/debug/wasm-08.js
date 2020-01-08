@@ -9,17 +9,6 @@ js
 "
 )
 ;
-if
-(
-!
-wasmDebuggingIsSupported
-(
-)
-)
-quit
-(
-)
-;
 var
 onStepCalled
 ;

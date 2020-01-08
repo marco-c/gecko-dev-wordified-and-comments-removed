@@ -1,14 +1,3 @@
-if
-(
-!
-wasmDebuggingIsSupported
-(
-)
-)
-quit
-(
-)
-;
 var
 g
 =

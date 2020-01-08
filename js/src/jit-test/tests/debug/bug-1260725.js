@@ -1,17 +1,3 @@
-if
-(
-!
-(
-'
-oomTest
-'
-in
-this
-)
-)
-quit
-(
-)
 var
 dbg
 =
