@@ -139,6 +139,7 @@ const
 id
 :
 messageId
+executionPoint
 indent
 source
 type
@@ -214,6 +215,7 @@ Message
 {
 dispatch
 messageId
+executionPoint
 isPaused
 open
 collapsible
