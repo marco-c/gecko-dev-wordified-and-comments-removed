@@ -4885,12 +4885,19 @@ filename
 )
 ;
 unsigned
+column
+=
+0
+;
+unsigned
 lineno
 =
 PCToLineNumber
 (
 script
 pc
+&
+column
 )
 ;
 RootedFunction
@@ -5566,6 +5573,9 @@ s
 :
 %
 d
+:
+%
+d
 ]
 \
 n
@@ -5588,6 +5598,7 @@ unknown
 >
 "
 lineno
+column
 )
 )
 {
