@@ -599,6 +599,11 @@ NULL_MESSAGE
 "
 nullMessage
 "
+NAVIGATION_MARKER
+:
+"
+navigationMarker
+"
 }
 MESSAGE_LEVEL
 :
