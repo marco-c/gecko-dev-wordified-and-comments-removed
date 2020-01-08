@@ -1480,7 +1480,8 @@ schema
 try
 :
         
-return
+opts
+=
 {
             
 k
@@ -1503,16 +1504,6 @@ ty
 )
 in
 (
-                
-(
-'
-compiler
-'
-'
-CC_TYPE
-'
-str
-)
                 
 (
 '
@@ -1567,6 +1558,37 @@ bool
 )
         
 }
+        
+compiler
+=
+substs
+.
+get
+(
+'
+CC_TYPE
+'
+None
+)
+        
+if
+compiler
+:
+            
+opts
+[
+'
+compiler
+'
+]
+=
+str
+(
+compiler
+)
+        
+return
+opts
     
 except
 BuildEnvironmentNotFoundException
