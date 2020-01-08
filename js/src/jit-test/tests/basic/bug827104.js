@@ -78,13 +78,14 @@ i
 ]
 is
 undefined
+;
 can
 '
 t
 access
-property
+element
+at
+index
 0
-of
-it
 )
 ;
