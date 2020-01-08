@@ -2555,6 +2555,11 @@ c
 =
 aConstraints
 ;
+LogConstraints
+(
+c
+)
+;
 nsTArray
 <
 RefPtr
