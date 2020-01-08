@@ -63335,6 +63335,11 @@ recoverFromOutOfMemory
 (
 )
 ;
+js_delete
+(
+allTypes
+)
+;
 }
 }
 JitcodeGlobalTable
