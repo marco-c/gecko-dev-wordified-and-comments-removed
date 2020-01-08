@@ -10573,6 +10573,7 @@ ld
 lld
 "
 )
+;
 else
 :
 num_cores
