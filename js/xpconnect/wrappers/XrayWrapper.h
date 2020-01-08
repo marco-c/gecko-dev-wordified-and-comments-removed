@@ -1441,6 +1441,11 @@ wrapper
 JS
 :
 :
+HandleObject
+wrapperGlobal
+JS
+:
+:
 HandleId
 id
 JS
