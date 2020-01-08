@@ -669,9 +669,6 @@ D3D11YCbCrRecycleAllocator
 ;
 #
 endif
-class
-SurfaceDescriptorBuffer
-;
 struct
 ImageBackendData
 {
@@ -2399,15 +2396,6 @@ return
 this
 ;
 }
-virtual
-nsresult
-BuildSurfaceDescriptorBuffer
-(
-SurfaceDescriptorBuffer
-&
-aSdBuffer
-)
-;
 protected
 :
 already_AddRefed

@@ -1938,16 +1938,6 @@ NS_ENSURE_STATE
 mAutoreleasePools
 )
 ;
-if
-(
-XRE_GetProcessType
-(
-)
-!
-=
-GeckoProcessType_RDD
-)
-{
 /
 /
 Get
@@ -2146,7 +2136,6 @@ NSDefaultMallocZone
 )
 ]
 ;
-}
 mDelegate
 =
 [
@@ -2344,7 +2333,6 @@ ScreenHelperCocoa
 ;
 }
 }
-nsresult
 rv
 =
 nsBaseAppShell
