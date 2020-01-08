@@ -1483,13 +1483,13 @@ nsPresContext
 aPresContext
 )
 ;
+public
+:
 void
 CreateBulletFrameForListItem
 (
 )
 ;
-public
-:
 enum
 {
 REMOVE_FIXED_CONTINUATIONS

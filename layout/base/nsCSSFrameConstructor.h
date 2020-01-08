@@ -4673,6 +4673,14 @@ PendingBinding
 aPendingBinding
 )
 ;
+void
+CreateBulletFrameForListItemIfNeeded
+(
+nsBlockFrame
+*
+aBlockFrame
+)
+;
 nsIFrame
 *
 ConstructInline
