@@ -35,15 +35,6 @@ WGLLibrary
 {
 public
 :
-WGLLibrary
-(
-)
-:
-mSymbols
-{
-}
-{
-}
 ~
 WGLLibrary
 (
@@ -356,6 +347,9 @@ hObjects
 ;
 }
 mSymbols
+=
+{
+}
 ;
 bool
 EnsureInitialized

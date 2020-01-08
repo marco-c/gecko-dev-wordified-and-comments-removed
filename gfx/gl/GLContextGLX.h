@@ -312,6 +312,8 @@ mPixmap
 ;
 bool
 mOwnsContext
+=
+true
 ;
 }
 ;

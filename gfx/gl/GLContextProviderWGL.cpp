@@ -1289,10 +1289,6 @@ mPixelFormat
 (
 0
 )
-mIsDoubleBuffered
-(
-false
-)
 {
 }
 GLContextWGL
@@ -1344,10 +1340,6 @@ aPbuffer
 mPixelFormat
 (
 aPixelFormat
-)
-mIsDoubleBuffered
-(
-false
 )
 {
 }

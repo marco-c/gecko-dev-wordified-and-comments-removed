@@ -192,6 +192,8 @@ public
 :
 bool
 mIsDoubleBuffered
+=
+false
 ;
 }
 ;
