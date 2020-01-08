@@ -8772,6 +8772,11 @@ if
 obj
 )
 {
+ReportAccessDenied
+(
+cx
+)
+;
 return
 nullptr
 ;
