@@ -515,16 +515,6 @@ TimeDuration
 aDuration
 )
 ;
-async
-StartActivity
-(
-)
-;
-async
-StopActivity
-(
-)
-;
 child
 :
 /

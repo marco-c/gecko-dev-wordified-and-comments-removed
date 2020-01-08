@@ -27516,13 +27516,6 @@ StopGamepadHaptics
 inner
 -
 >
-StopVRActivity
-(
-)
-;
-inner
--
->
 ResetVRTelemetry
 (
 true
@@ -27549,13 +27542,6 @@ inner
 -
 >
 SyncGamepadState
-(
-)
-;
-inner
--
->
-StartVRActivity
 (
 )
 ;

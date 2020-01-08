@@ -160,16 +160,6 @@ VREventObserver
 aObserver
 )
 ;
-void
-StartActivity
-(
-)
-;
-void
-StopActivity
-(
-)
-;
 bool
 GetVRDisplays
 (

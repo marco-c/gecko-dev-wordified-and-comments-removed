@@ -745,6 +745,10 @@ Init
 (
 )
 {
+StartTasks
+(
+)
+;
 mInitialized
 =
 true
@@ -1703,10 +1707,6 @@ EnumerateVRDisplays
 (
 )
 {
-StartTasks
-(
-)
-;
 if
 (
 !

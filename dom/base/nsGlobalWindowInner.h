@@ -2250,16 +2250,6 @@ bool
 aUpdate
 )
 ;
-void
-StartVRActivity
-(
-)
-;
-void
-StopVRActivity
-(
-)
-;
 bool
 UpdateVRDisplays
 (
