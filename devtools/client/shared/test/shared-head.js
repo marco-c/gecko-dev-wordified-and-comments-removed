@@ -1613,14 +1613,6 @@ addListener
 removeListener
 "
 ]
-[
-"
-addMessageListener
-"
-"
-removeMessageListener
-"
-]
 ]
 )
 {
