@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsISocketProviderService
+nsSocketProviderService
 .
 h
 "
@@ -251,9 +251,11 @@ nsISocketProviderService
 >
 spserv
 =
-do_GetService
+nsSocketProviderService
+:
+:
+GetOrCreate
 (
-NS_SOCKETPROVIDERSERVICE_CONTRACTID
 )
 ;
 if

@@ -131,6 +131,16 @@ netwerk
 base
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsSocketProviderService
+.
+h
+'
+]
 UNIFIED_SOURCES
 +
 =
