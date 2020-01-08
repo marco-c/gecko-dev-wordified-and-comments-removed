@@ -622,11 +622,15 @@ warning
             
 lineno
 =
+"
 4
+"
             
 column
 =
+"
 2
+"
             
 rule
 =

@@ -536,12 +536,22 @@ self
 .
 lineno
 =
+int
+(
 lineno
+)
         
 self
 .
 column
 =
+int
+(
+column
+)
+if
+column
+else
 column
         
 self
