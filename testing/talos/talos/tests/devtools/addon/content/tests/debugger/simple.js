@@ -52,6 +52,9 @@ simple
 .
 html
 "
+sourceURL
+:
+SIMPLE_URL
 text
 :
 "
