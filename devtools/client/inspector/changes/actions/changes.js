@@ -37,7 +37,7 @@ RESET_CHANGES
 }
 trackChange
 (
-data
+change
 )
 {
 return
@@ -45,7 +45,7 @@ return
 type
 :
 TRACK_CHANGE
-data
+change
 }
 ;
 }
