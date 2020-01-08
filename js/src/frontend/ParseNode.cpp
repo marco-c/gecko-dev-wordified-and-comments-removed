@@ -283,7 +283,7 @@ kind
 ParseNodeKind
 :
 :
-Pow
+PowExpr
 ?
 !
 left
@@ -900,7 +900,7 @@ case
 ParseNodeKind
 :
 :
-True
+TrueExpr
 :
 out
 .
@@ -918,7 +918,7 @@ case
 ParseNodeKind
 :
 :
-False
+FalseExpr
 :
 out
 .
@@ -936,7 +936,7 @@ case
 ParseNodeKind
 :
 :
-Null
+NullExpr
 :
 out
 .
@@ -954,7 +954,7 @@ case
 ParseNodeKind
 :
 :
-RawUndefined
+RawUndefinedExpr
 :
 out
 .
@@ -1319,7 +1319,7 @@ isKind
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 )
 )
 {
@@ -1912,13 +1912,13 @@ case
 ParseNodeKind
 :
 :
-String
+StringExpr
 :
 case
 ParseNodeKind
 :
 :
-TemplateString
+TemplateStringExpr
 :
 case
 ParseNodeKind
@@ -1954,7 +1954,7 @@ case
 ParseNodeKind
 :
 :
-PropertyName
+PropertyNameExpr
 :
 if
 (
@@ -2134,7 +2134,7 @@ case
 ParseNodeKind
 :
 :
-Label
+LabelStmt
 :
 {
 const

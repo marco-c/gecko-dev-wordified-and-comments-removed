@@ -2764,7 +2764,7 @@ isKind
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 )
 )
 {
@@ -3003,7 +3003,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 |
 |
@@ -3015,7 +3015,7 @@ isKind
 ParseNodeKind
 :
 :
-Array
+ArrayExpr
 )
 )
 ;

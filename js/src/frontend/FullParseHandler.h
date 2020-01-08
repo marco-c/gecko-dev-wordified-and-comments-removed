@@ -196,7 +196,7 @@ isKind
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 )
 |
 |
@@ -208,7 +208,7 @@ isKind
 ParseNodeKind
 :
 :
-Elem
+ElemExpr
 )
 ;
 }
@@ -228,7 +228,7 @@ isKind
 ParseNodeKind
 :
 :
-Call
+CallExpr
 )
 ;
 }
@@ -259,7 +259,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 |
 |
@@ -271,7 +271,7 @@ isKind
 ParseNodeKind
 :
 :
-Array
+ArrayExpr
 )
 )
 ;
@@ -302,7 +302,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 |
 |
@@ -314,7 +314,7 @@ isKind
 ParseNodeKind
 :
 :
-Array
+ArrayExpr
 )
 )
 ;
@@ -644,7 +644,7 @@ NameNode
 ParseNodeKind
 :
 :
-String
+StringExpr
 JSOP_NOP
 atom
 pos
@@ -672,7 +672,7 @@ NameNode
 ParseNodeKind
 :
 :
-TemplateString
+TemplateStringExpr
 JSOP_NOP
 atom
 pos
@@ -767,7 +767,7 @@ isKind
 ParseNodeKind
 :
 :
-CallSiteObj
+CallSiteObjExpr
 )
 )
 ;
@@ -974,7 +974,7 @@ newUnary
 ParseNodeKind
 :
 :
-DeleteName
+DeleteNameExpr
 begin
 expr
 )
@@ -990,7 +990,7 @@ isKind
 ParseNodeKind
 :
 :
-Dot
+DotExpr
 )
 )
 {
@@ -1000,7 +1000,7 @@ newUnary
 ParseNodeKind
 :
 :
-DeleteProp
+DeletePropExpr
 begin
 expr
 )
@@ -1016,7 +1016,7 @@ isKind
 ParseNodeKind
 :
 :
-Elem
+ElemExpr
 )
 )
 {
@@ -1026,7 +1026,7 @@ newUnary
 ParseNodeKind
 :
 :
-DeleteElem
+DeleteElemExpr
 begin
 expr
 )
@@ -1070,7 +1070,7 @@ Name
 ParseNodeKind
 :
 :
-TypeOfName
+TypeOfNameExpr
 :
 ParseNodeKind
 :
@@ -1286,7 +1286,7 @@ ListNode
 ParseNodeKind
 :
 :
-Array
+ArrayExpr
 TokenPos
 (
 begin
@@ -1319,7 +1319,7 @@ isKind
 ParseNodeKind
 :
 :
-Array
+ArrayExpr
 )
 )
 ;
@@ -1395,7 +1395,7 @@ isKind
 ParseNodeKind
 :
 :
-Array
+ArrayExpr
 )
 )
 ;
@@ -1496,7 +1496,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-Call
+CallExpr
 JSOP_CALL
 callee
 args
@@ -1545,7 +1545,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-SuperCall
+SuperCallExpr
 JSOP_SUPERCALL
 callee
 args
@@ -1570,7 +1570,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-TaggedTemplate
+TaggedTemplateExpr
 JSOP_CALL
 tag
 args
@@ -1593,7 +1593,7 @@ ListNode
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 TokenPos
 (
 begin
@@ -1702,7 +1702,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-NewTarget
+NewTargetExpr
 JSOP_NOP
 newHolder
 targetHolder
@@ -1780,7 +1780,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 )
 ;
@@ -1879,7 +1879,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 )
 ;
@@ -1992,7 +1992,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 )
 ;
@@ -2106,7 +2106,7 @@ isKind
 ParseNodeKind
 :
 :
-Object
+ObjectExpr
 )
 )
 ;
@@ -2421,7 +2421,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-Yield
+YieldExpr
 pos
 value
 )
@@ -2457,7 +2457,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-YieldStar
+YieldStarExpr
 pos
 value
 )
@@ -2499,7 +2499,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-Await
+AwaitExpr
 pos
 value
 )
@@ -2546,7 +2546,7 @@ isKind
 ParseNodeKind
 :
 :
-Label
+LabelStmt
 )
 )
 {
@@ -2815,7 +2815,7 @@ newAssignment
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 genName
 makeGen
 )
@@ -2924,7 +2924,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-EmptyStatement
+EmptyStmt
 pos
 )
 ;
@@ -2951,7 +2951,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-Import
+ImportDecl
 JSOP_NOP
 pos
 importSpecSet
@@ -3000,7 +3000,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-Export
+ExportStmt
 pos
 kid
 )
@@ -3029,7 +3029,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-ExportFrom
+ExportFromStmt
 JSOP_NOP
 exportSpecSet
 moduleSpec
@@ -3116,7 +3116,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-ExportDefault
+ExportDefaultStmt
 JSOP_NOP
 pos
 kid
@@ -3163,7 +3163,7 @@ NullaryNode
 ParseNodeKind
 :
 :
-ExportBatchSpec
+ExportBatchSpecStmt
 JSOP_NOP
 pos
 )
@@ -3187,7 +3187,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-ImportMeta
+ImportMetaExpr
 JSOP_NOP
 importHolder
 metaHolder
@@ -3212,7 +3212,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-CallImport
+CallImportExpr
 JSOP_DYNAMIC_IMPORT
 importHolder
 singleArg
@@ -3250,7 +3250,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-ExpressionStatement
+ExpressionStmt
 TokenPos
 (
 expr
@@ -3290,7 +3290,7 @@ TernaryNode
 ParseNodeKind
 :
 :
-If
+IfStmt
 cond
 thenBranch
 elseBranch
@@ -3341,7 +3341,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-DoWhile
+DoWhileStmt
 JSOP_NOP
 pos
 body
@@ -3381,7 +3381,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-While
+WhileStmt
 JSOP_NOP
 pos
 cond
@@ -3634,7 +3634,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-Return
+ReturnStmt
 pos
 expr
 )
@@ -3656,7 +3656,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-Return
+ReturnStmt
 expr
 -
 >
@@ -3685,7 +3685,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-With
+WithStmt
 JSOP_NOP
 TokenPos
 (
@@ -3759,7 +3759,7 @@ UnaryNode
 ParseNodeKind
 :
 :
-Throw
+ThrowStmt
 pos
 expr
 )
@@ -3831,7 +3831,7 @@ NameNode
 ParseNodeKind
 :
 :
-PropertyName
+PropertyNameExpr
 JSOP_NOP
 name
 pos
@@ -4330,7 +4330,7 @@ BinaryNode
 ParseNodeKind
 :
 :
-New
+NewExpr
 JSOP_NEW
 TokenPos
 (
@@ -4366,7 +4366,7 @@ kind
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 &
 &
 lhs
@@ -4426,7 +4426,7 @@ isKind
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 )
 &
 &
@@ -4493,7 +4493,7 @@ kind
 ParseNodeKind
 :
 :
-Void
+VoidExpr
 |
 |
 kind
@@ -4502,7 +4502,7 @@ kind
 ParseNodeKind
 :
 :
-Not
+NotExpr
 |
 |
 kind
@@ -4511,7 +4511,7 @@ kind
 ParseNodeKind
 :
 :
-BitNot
+BitNotExpr
 |
 |
 kind
@@ -4520,7 +4520,7 @@ kind
 ParseNodeKind
 :
 :
-Pos
+PosExpr
 |
 |
 kind
@@ -4529,7 +4529,7 @@ kind
 ParseNodeKind
 :
 :
-Neg
+NegExpr
 |
 |
 IsTypeofKind
@@ -4564,7 +4564,7 @@ isKind
 ParseNodeKind
 :
 :
-Return
+ReturnStmt
 )
 ;
 }
@@ -4601,7 +4601,7 @@ kind
 ParseNodeKind
 :
 :
-Var
+VarStmt
 |
 |
 kind
@@ -4610,7 +4610,7 @@ kind
 ParseNodeKind
 :
 :
-Break
+BreakStmt
 |
 |
 kind
@@ -4619,7 +4619,7 @@ kind
 ParseNodeKind
 :
 :
-Throw
+ThrowStmt
 |
 |
 kind
@@ -4628,7 +4628,7 @@ kind
 ParseNodeKind
 :
 :
-EmptyStatement
+EmptyStmt
 ;
 }
 bool
@@ -4667,7 +4667,7 @@ isKind
 ParseNodeKind
 :
 :
-Number
+NumberExpr
 )
 |
 |
@@ -4691,7 +4691,7 @@ isKind
 ParseNodeKind
 :
 :
-String
+StringExpr
 )
 |
 |
@@ -4867,7 +4867,7 @@ kind
 ParseNodeKind
 :
 :
-Var
+VarStmt
 |
 |
 kind
@@ -4876,7 +4876,7 @@ kind
 ParseNodeKind
 :
 :
-Let
+LetDecl
 |
 |
 kind
@@ -4885,7 +4885,7 @@ kind
 ParseNodeKind
 :
 :
-Const
+ConstDecl
 ;
 }
 ListNodeType
@@ -5055,7 +5055,7 @@ ListNode
 ParseNodeKind
 :
 :
-Comma
+CommaExpr
 JSOP_NOP
 kid
 )
@@ -5666,7 +5666,7 @@ newAssignment
 ParseNodeKind
 :
 :
-Assign
+AssignExpr
 arg
 defaultValue
 )
