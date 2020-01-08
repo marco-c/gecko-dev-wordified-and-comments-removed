@@ -864,9 +864,11 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Bu
+nec
+i
+l
+yir
 "
 "
 pocket_cta_button

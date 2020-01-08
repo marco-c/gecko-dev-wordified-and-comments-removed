@@ -129,17 +129,6 @@ className
 ASRouterButton
 secondary
 "
-title
-=
-{
-this
-.
-props
-.
-content
-.
-block_button_text
-}
 onClick
 =
 {
@@ -157,7 +146,7 @@ props
 .
 content
 .
-dismiss_button_label
+scene2_dismiss_button_text
 }
 <
 /

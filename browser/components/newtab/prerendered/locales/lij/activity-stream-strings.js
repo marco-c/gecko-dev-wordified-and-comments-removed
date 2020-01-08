@@ -799,9 +799,12 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Comme
+o
+fon
+ionn
+-
+a
 "
 "
 pocket_cta_button

@@ -821,9 +821,8 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Kak
+funguje
 "
 "
 pocket_cta_button

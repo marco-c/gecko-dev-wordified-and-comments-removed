@@ -709,9 +709,11 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Kuidas
+see
+t
+tab
+?
 "
 "
 pocket_cta_button
