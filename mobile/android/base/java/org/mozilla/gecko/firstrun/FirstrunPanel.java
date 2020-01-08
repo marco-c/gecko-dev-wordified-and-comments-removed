@@ -308,8 +308,6 @@ next
 "
 )
 ;
-pagerNavigation
-.
 next
 (
 )
