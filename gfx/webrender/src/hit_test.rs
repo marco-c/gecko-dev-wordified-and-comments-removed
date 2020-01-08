@@ -118,14 +118,13 @@ Self
 let
 clips
 =
+&
 clip_store
-.
-get
-(
+[
 node
 .
 clip_sources_index
-)
+]
 ;
 let
 regions

@@ -105,6 +105,14 @@ unused
 )
 {
 vec2
+snapped_device_pos
+=
+snap_device_pos
+(
+vi
+)
+;
+vec2
 texture_size
 =
 vec2
@@ -135,8 +143,6 @@ z
 vec2
 src_uv
 =
-vi
-.
 snapped_device_pos
 +
 src_task
@@ -178,8 +184,6 @@ y
 vec2
 backdrop_uv
 =
-vi
-.
 snapped_device_pos
 +
 backdrop_task

@@ -7897,6 +7897,18 @@ rb_thread_name
 ?
 ;
 let
+ext_debug_marker
+=
+device
+.
+supports_extension
+(
+"
+GL_EXT_debug_marker
+"
+)
+;
+let
 gpu_profile
 =
 GpuProfiler
@@ -7915,6 +7927,7 @@ rc_gl
 (
 )
 )
+ext_debug_marker
 )
 ;
 #

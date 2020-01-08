@@ -421,18 +421,6 @@ ivec4
 )
 )
 ;
-bool
-do_perspective_interpolation
-=
-(
-brush_flags
-&
-BRUSH_FLAG_PERSPECTIVE_INTERPOLATION
-)
-!
-=
-0
-;
 vi
 =
 write_transform_vertex
@@ -465,7 +453,6 @@ ph
 z
 transform
 pic_task
-do_perspective_interpolation
 )
 ;
 }
@@ -539,7 +526,7 @@ write_clip
 (
 vi
 .
-screen_pos
+world_pos
 clip_area
 )
 ;

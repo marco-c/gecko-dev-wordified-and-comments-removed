@@ -556,7 +556,7 @@ BuiltDisplayListDescriptor
 )
 -
 >
-BuiltDisplayList
+Self
 {
 BuiltDisplayList
 {

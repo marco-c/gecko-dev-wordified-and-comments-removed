@@ -147,9 +147,10 @@ xy
 vec2
 uv
 =
+snap_device_pos
+(
 vi
-.
-snapped_device_pos
+)
 +
 src_task
 .
