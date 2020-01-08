@@ -364,6 +364,13 @@ PropTypes
 func
 .
 isRequired
+onToggleLeftAlignment
+:
+PropTypes
+.
+func
+.
+isRequired
 onUpdateDeviceModal
 :
 PropTypes
@@ -399,6 +406,7 @@ onRemoveDeviceAssociation
 onResizeViewport
 onRotateViewport
 onScreenshot
+onToggleLeftAlignment
 onUpdateDeviceModal
 }
 =
@@ -695,6 +703,7 @@ SettingsMenu
 {
 reloadConditions
 onChangeReloadCondition
+onToggleLeftAlignment
 }
 )
 dom
