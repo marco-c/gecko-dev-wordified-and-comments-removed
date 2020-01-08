@@ -203,7 +203,7 @@ testMenuSep
 =
 pageMenuSep
 .
-previousSibling
+previousElementSibling
 ;
 ok
 (
@@ -231,7 +231,7 @@ testMenuItem
 =
 testMenuSep
 .
-previousSibling
+previousElementSibling
 ;
 is
 (

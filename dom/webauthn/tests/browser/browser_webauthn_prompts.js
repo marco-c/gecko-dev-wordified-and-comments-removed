@@ -738,7 +738,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -842,7 +842,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -951,7 +951,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 secondaryButton
 .
@@ -1087,7 +1087,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .
@@ -1163,7 +1163,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 checkbox
 .
@@ -1175,7 +1175,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .

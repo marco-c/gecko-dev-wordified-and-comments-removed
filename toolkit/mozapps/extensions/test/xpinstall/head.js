@@ -1413,7 +1413,7 @@ event
 .
 target
 .
-firstChild
+firstElementChild
 )
 {
 let
@@ -1453,7 +1453,7 @@ event
 .
 target
 .
-firstChild
+firstElementChild
 )
 ;
 }
@@ -1488,7 +1488,7 @@ event
 .
 target
 .
-firstChild
+firstElementChild
 .
 button
 .

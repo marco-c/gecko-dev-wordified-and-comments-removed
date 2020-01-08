@@ -1863,9 +1863,9 @@ notification
 .
 secondaryButton
 .
-nextSibling
+nextElementSibling
 .
-nextSibling
+nextElementSibling
 .
 focus
 (

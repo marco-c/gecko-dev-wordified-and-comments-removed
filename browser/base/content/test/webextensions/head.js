@@ -200,7 +200,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 )
 ;
 }

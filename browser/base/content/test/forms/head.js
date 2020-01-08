@@ -143,7 +143,7 @@ synthesizeMouseAtCenter
 (
 selectPopup
 .
-lastChild
+lastElementChild
 {
 }
 win
