@@ -50,6 +50,7 @@ function
 {
 registerCleanupFunction
 (
+async
 function
 (
 )
@@ -121,6 +122,18 @@ gNewWindow
 .
 close
 (
+)
+;
+await
+BrowserTestUtils
+.
+waitForEvent
+(
+gNewWindow
+"
+unload
+"
+true
 )
 ;
 gNewWindow
