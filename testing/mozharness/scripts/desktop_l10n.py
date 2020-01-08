@@ -2241,7 +2241,7 @@ prop_key
 prop_value
 )
         
-BaseScript
+AutomationMixin
 .
 add_failure
 (
@@ -2250,10 +2250,6 @@ locale
 message
 =
 message
-                               
-increment_return_code
-=
-False
 *
 *
 kwargs

@@ -1382,7 +1382,7 @@ prop_key
 prop_value
 )
         
-MercurialScript
+AutomationMixin
 .
 add_failure
 (
