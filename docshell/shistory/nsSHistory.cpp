@@ -7385,6 +7385,9 @@ JS
 :
 HandleValue
 aOriginAttributes
+JSContext
+*
+aCx
 )
 {
 return

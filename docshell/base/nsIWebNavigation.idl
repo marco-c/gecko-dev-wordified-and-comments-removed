@@ -2947,6 +2947,9 @@ content
 .
 *
 /
+[
+implicit_jscontext
+]
 void
 setOriginAttributesBeforeLoading
 (
