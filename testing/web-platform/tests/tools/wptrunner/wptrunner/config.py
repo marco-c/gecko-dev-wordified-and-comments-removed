@@ -139,13 +139,10 @@ os
 .
 path
 .
-split
+dirname
 (
 config_path
 )
-[
-0
-]
     
 parser
 =
