@@ -41,6 +41,14 @@ aPrivate
 fn
 )
 {
+return
+new
+Promise
+(
+resolve
+=
+>
+{
 let
 mainWindow
 =
@@ -82,9 +90,7 @@ function
 (
 )
 {
-fn
-.
-call
+resolve
 (
 win
 )
@@ -94,6 +100,9 @@ win
 once
 :
 true
+}
+)
+;
 }
 )
 ;

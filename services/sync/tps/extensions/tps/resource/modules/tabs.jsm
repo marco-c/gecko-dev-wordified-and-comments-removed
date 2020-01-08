@@ -216,7 +216,7 @@ newtab
 =
 browser
 .
-addTab
+addTrustedTab
 (
 uri
 )
@@ -432,7 +432,7 @@ for
 {
 client
 .
-clientName
+name
 }
 .
 .
@@ -444,9 +444,11 @@ JSON
 .
 stringify
 (
-client
+tabClient
 .
 tabs
+null
+2
 )
 )
 ;
