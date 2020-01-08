@@ -517,7 +517,7 @@ const
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 &
 aDirtyRect
 )
@@ -564,7 +564,7 @@ const
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 &
 aDirtyRect
 uint8_t
@@ -582,7 +582,7 @@ const
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 &
 aArea
 )
@@ -1101,7 +1101,7 @@ wr
 :
 WindowId
 aId
-uint32_t
+int32_t
 aMaxTextureSize
 bool
 aUseANGLE
@@ -1169,7 +1169,7 @@ wr
 WindowId
 mId
 ;
-uint32_t
+int32_t
 mMaxTextureSize
 ;
 bool
@@ -2241,10 +2241,10 @@ wr
 ImageKey
 aImage
 const
-uint32_t
+int32_t
 aWidth
 const
-uint32_t
+int32_t
 aHeight
 const
 wr
@@ -2252,7 +2252,7 @@ wr
 :
 SideOffsets2D
 <
-uint32_t
+int32_t
 >
 &
 aSlice
@@ -2309,10 +2309,10 @@ LayoutSideOffsets
 &
 aWidths
 const
-uint32_t
+int32_t
 aWidth
 const
-uint32_t
+int32_t
 aHeight
 const
 wr
@@ -2320,7 +2320,7 @@ wr
 :
 SideOffsets2D
 <
-uint32_t
+int32_t
 >
 &
 aSlice

@@ -1828,7 +1828,7 @@ mozilla
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 *
 aDirtyRect
 Range
@@ -2975,9 +2975,9 @@ wr
 :
 ByteSlice
 blob
-uint32_t
+int32_t
 width
-uint32_t
+int32_t
 height
 mozilla
 :
@@ -3008,7 +3008,7 @@ mozilla
 wr
 :
 :
-DeviceUintRect
+DeviceIntRect
 *
 aDirtyRect
 mozilla

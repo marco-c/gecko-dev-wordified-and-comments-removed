@@ -16731,7 +16731,7 @@ appUnitsPerDevPixel
 wr
 :
 :
-ToSideOffsets2D_u32
+ToSideOffsets2D_i32
 (
 slice
 [
@@ -16976,7 +16976,7 @@ appUnitsPerDevPixel
 wr
 :
 :
-ToSideOffsets2D_u32
+ToSideOffsets2D_i32
 (
 slice
 [
