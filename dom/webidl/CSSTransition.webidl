@@ -156,7 +156,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 HeaderFile
 =
