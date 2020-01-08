@@ -4853,7 +4853,7 @@ wasm
 Tier
 :
 :
-Ion
+Optimized
 ;
 }
 RootedValue
