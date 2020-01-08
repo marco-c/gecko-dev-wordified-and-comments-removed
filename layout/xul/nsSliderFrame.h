@@ -553,6 +553,13 @@ GetThumbRatio
 const
 ;
 void
+AsyncScrollbarDragInitiated
+(
+uint64_t
+aDragBlockId
+)
+;
+void
 AsyncScrollbarDragRejected
 (
 )
@@ -829,6 +836,12 @@ mScrollingWithAPZ
 ;
 bool
 mSuppressionActive
+;
+Maybe
+<
+uint64_t
+>
+mAPZDragInitiated
 ;
 static
 bool
