@@ -85,6 +85,9 @@ top
 site
 -
 outer
+search
+-
+shortcut
 "
 >
 <

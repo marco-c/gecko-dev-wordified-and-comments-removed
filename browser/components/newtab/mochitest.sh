@@ -166,9 +166,6 @@ mach
 lint
 -
 l
-eslint
--
-l
 codespell
 browser
 /

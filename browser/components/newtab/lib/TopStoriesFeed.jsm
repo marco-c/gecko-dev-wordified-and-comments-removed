@@ -451,11 +451,6 @@ options
 api_key_pref
 )
 ;
-let
-shouldBroadcast
-=
-false
-;
 this
 .
 stories_endpoint
@@ -566,10 +561,6 @@ storiesLastUpdated
 0
 )
 {
-shouldBroadcast
-=
-true
-;
 await
 this
 .
@@ -589,10 +580,6 @@ topicsLastUpdated
 0
 )
 {
-shouldBroadcast
-=
-true
-;
 await
 this
 .
@@ -605,7 +592,7 @@ this
 .
 doContentUpdate
 (
-shouldBroadcast
+true
 )
 ;
 this

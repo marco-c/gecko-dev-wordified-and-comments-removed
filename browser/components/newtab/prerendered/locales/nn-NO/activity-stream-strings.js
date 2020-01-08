@@ -440,7 +440,7 @@ prefs_topsites_description
 Sidene
 du
 bes
-ker
+kjer
 mest
 "
 "
@@ -936,7 +936,7 @@ section_menu_action_add_search_engine
 Legg
 til
 s
-kemotor
+kjemotor
 "
 "
 section_menu_action_move_up
