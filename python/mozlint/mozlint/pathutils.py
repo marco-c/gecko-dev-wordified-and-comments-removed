@@ -669,6 +669,17 @@ dirname
 base
 )
     
+if
+base
+in
+paths
+:
+        
+return
+[
+base
+]
+    
 covered
 =
 set
