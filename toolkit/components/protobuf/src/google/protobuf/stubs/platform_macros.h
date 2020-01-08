@@ -101,6 +101,12 @@ defined
 (
 __aarch64__
 )
+|
+|
+defined
+(
+_M_ARM64
+)
 #
 define
 GOOGLE_PROTOBUF_ARCH_AARCH64
