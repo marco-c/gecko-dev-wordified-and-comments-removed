@@ -729,7 +729,7 @@ _listeners
 length
 ;
 }
-_addListener
+addSocketListener
 (
 listener
 )
@@ -801,7 +801,7 @@ listener
 )
 ;
 }
-_removeListener
+removeSocketListener
 (
 listener
 )

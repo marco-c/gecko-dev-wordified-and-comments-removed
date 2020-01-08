@@ -1629,7 +1629,7 @@ this
 .
 _debuggerServer
 .
-_addListener
+addSocketListener
 (
 this
 )
@@ -2151,7 +2151,7 @@ this
 .
 _debuggerServer
 .
-_removeListener
+removeSocketListener
 (
 this
 )
