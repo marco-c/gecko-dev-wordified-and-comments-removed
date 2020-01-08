@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-336407
+338614
 "
 "
 stages
@@ -197,16 +197,6 @@ patches
 "
 :
 [
-"
-bug38139
-.
-patch
-"
-"
-bug38105
-.
-patch
-"
 "
 loosen
 -
