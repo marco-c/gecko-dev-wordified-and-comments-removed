@@ -104,11 +104,6 @@ tab
 "
 )
 ;
-const
-[
-tabResponse
-]
-=
 await
 attachTab
 (
@@ -120,7 +115,7 @@ await
 testAttach
 (
 client
-tabResponse
+targetTab
 )
 ;
 await
