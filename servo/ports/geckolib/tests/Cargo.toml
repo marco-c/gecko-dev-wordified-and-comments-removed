@@ -168,6 +168,15 @@ components
 malloc_size_of
 "
 }
+num
+-
+traits
+=
+"
+0
+.
+2
+"
 selectors
 =
 {
