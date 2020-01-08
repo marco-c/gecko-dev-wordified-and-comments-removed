@@ -3021,6 +3021,12 @@ i
 assertEq
 (
 s
+.
+substring
+(
+0
+6
+)
 "
 value
 "

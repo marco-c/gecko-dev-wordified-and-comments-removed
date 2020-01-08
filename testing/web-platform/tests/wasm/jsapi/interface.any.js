@@ -79,7 +79,7 @@ assert_equals
 propdesc
 .
 value
-WebAssembly
+object
 [
 name
 ]
