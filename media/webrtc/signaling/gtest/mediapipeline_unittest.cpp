@@ -839,7 +839,7 @@ ciphers
 .
 push_back
 (
-kDtlsSrtpAeadAes256Gcm
+kDtlsSrtpAes128CmHmacSha1_80
 )
 ;
 dtls
