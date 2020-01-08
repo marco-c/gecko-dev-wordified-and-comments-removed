@@ -658,7 +658,7 @@ child
 .
 setPrivateMode
 (
-true
+isPrivate
 )
 ;
 }
