@@ -2113,6 +2113,17 @@ aContentToSelect
 )
 ;
 nsresult
+CollapseSelectionAfter
+(
+Selection
+&
+aSelection
+Element
+&
+aElement
+)
+;
+nsresult
 PasteInternal
 (
 int32_t
