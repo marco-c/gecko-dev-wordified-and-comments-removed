@@ -1126,7 +1126,7 @@ thread_
 CreateThread
 (
 nullptr
-1024
+256
 *
 1024
 &
@@ -1162,7 +1162,7 @@ pthread_attr_setstacksize
 (
 &
 attr
-1024
+256
 *
 1024
 )
