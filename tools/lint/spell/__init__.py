@@ -345,22 +345,7 @@ res
 path
 '
 :
-os
-.
-path
-.
-relpath
-(
 abspath
-self
-.
-config
-[
-'
-root
-'
-]
-)
                
 '
 message
