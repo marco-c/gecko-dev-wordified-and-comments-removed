@@ -154,6 +154,14 @@ args
 kwargs
 )
             
+if
+m
+.
+is_shutting_down
+:
+                
+raise
+            
 m
 .
 _handle_socket_failure
