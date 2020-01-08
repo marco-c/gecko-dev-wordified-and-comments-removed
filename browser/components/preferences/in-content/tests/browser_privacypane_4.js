@@ -109,7 +109,7 @@ trackers
 .
 enabled
 "
-true
+false
 ]
 ]
 }
