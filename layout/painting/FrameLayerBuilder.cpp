@@ -19988,11 +19988,15 @@ mScrollMetadataASR
 ActiveScrolledRoot
 :
 :
-PickDescendant
+IsAncestor
 (
-mContainerScrollMetadataASR
 scrollMetadataASR
+mContainerScrollMetadataASR
 )
+?
+mContainerScrollMetadataASR
+:
+scrollMetadataASR
 ;
 params
 .
