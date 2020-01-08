@@ -7320,8 +7320,6 @@ nsPrintfCString
 lu
 .
 fxsnapshot
-.
-gz
 "
 ms
 )
@@ -7424,8 +7422,6 @@ sizeof
 "
 .
 fxsnapshot
-.
-gz
 "
 )
 )

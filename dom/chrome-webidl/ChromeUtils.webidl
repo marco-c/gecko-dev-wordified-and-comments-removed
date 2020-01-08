@@ -356,8 +356,6 @@ d
 .
 fxsnapshot
 .
-gz
-.
 *
 /
 [
@@ -414,8 +412,6 @@ trailing
 *
 .
 fxsnapshot
-.
-gz
 .
 *
 /

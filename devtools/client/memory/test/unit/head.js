@@ -948,8 +948,6 @@ TmpD
 tmp
 .
 fxsnapshot
-.
-gz
 "
 ]
 )
