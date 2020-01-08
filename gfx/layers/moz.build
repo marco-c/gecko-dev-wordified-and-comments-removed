@@ -1918,6 +1918,15 @@ AndroidFlingPhysics
 .
 cpp
 '
+'
+apz
+/
+src
+/
+AndroidVelocityTracker
+.
+cpp
+'
 ]
 EXPORTS
 .
