@@ -194,6 +194,12 @@ char
 \
 macro
 (
+FrameFlags
+uint64_t
+)
+\
+macro
+(
 DynamicStringFragment
 char
 *

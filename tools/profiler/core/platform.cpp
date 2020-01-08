@@ -8395,6 +8395,16 @@ frameNameString
 get
 (
 )
+js
+:
+:
+ProfilingStackFrame
+:
+:
+StringTemplate
+:
+:
+DEFAULT
 Nothing
 (
 )
