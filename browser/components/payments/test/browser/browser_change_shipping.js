@@ -2433,9 +2433,9 @@ selectedAddressGuid
 is
 (
 selectedIndex
-0
+1
 "
-First
+Second
 address
 should
 be
@@ -2581,9 +2581,9 @@ selectedAddressGuid
 is
 (
 selectedIndex
-0
+1
 "
-First
+Second
 address
 should
 be
@@ -2804,9 +2804,9 @@ guid
 is
 (
 selectedIndex
-0
+1
 "
-First
+Second
 address
 should
 be
