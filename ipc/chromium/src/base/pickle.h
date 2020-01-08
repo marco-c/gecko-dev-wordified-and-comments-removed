@@ -78,15 +78,6 @@ FUZZING
 #
 include
 "
-base
-/
-singleton
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ipc
