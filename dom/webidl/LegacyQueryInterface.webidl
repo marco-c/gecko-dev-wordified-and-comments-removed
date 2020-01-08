@@ -164,10 +164,6 @@ iid
 ;
 }
 ;
-BoxObject
-implements
-LegacyQueryInterface
-;
 DOMParser
 implements
 LegacyQueryInterface
