@@ -16469,10 +16469,8 @@ CurrentActiveScrolledRoot
 if
 (
 mWillBuildScrollableLayer
-)
-{
-if
-(
+&
+&
 aBuilder
 -
 >
@@ -16500,7 +16498,7 @@ info
 CompositorHitTestInvisibleToHit
 )
 {
-nsDisplayCompositorHitTestInfo
+auto
 *
 hitInfo
 =
@@ -16521,6 +16519,17 @@ aBuilder
 SetCompositorHitTestInfo
 (
 hitInfo
+-
+>
+HitTestArea
+(
+)
+hitInfo
+-
+>
+HitTestFlags
+(
+)
 )
 ;
 scrolledContent
@@ -16535,7 +16544,6 @@ AppendToTop
 hitInfo
 )
 ;
-}
 }
 }
 {

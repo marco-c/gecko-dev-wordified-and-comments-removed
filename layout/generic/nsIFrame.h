@@ -9802,6 +9802,14 @@ mMayHaveWillChangeBudget
 aHasBudget
 ;
 }
+nsRect
+GetCompositorHitTestArea
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+;
 mozilla
 :
 :
