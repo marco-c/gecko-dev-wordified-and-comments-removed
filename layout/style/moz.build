@@ -584,6 +584,11 @@ PreloadedStyleSheet
 h
 '
 '
+RustCell
+.
+h
+'
+'
 ServoArcTypeList
 .
 h

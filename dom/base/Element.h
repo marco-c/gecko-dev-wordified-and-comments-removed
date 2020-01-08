@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-ServoTypes
+RustCell
 .
 h
 "
@@ -315,6 +315,9 @@ nsDocument
 ;
 class
 nsDOMStringMap
+;
+struct
+ServoNodeData
 ;
 namespace
 mozilla
@@ -5296,7 +5299,7 @@ mState
 mozilla
 :
 :
-ServoCell
+RustCell
 <
 ServoNodeData
 *
