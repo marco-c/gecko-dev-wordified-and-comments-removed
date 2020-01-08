@@ -411,15 +411,6 @@ patches
 :
 [
 "
-static
--
-llvm
--
-symbolizer
-.
-patch
-"
-"
 compiler
 -
 rt
