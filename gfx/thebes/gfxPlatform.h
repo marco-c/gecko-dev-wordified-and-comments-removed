@@ -1838,6 +1838,12 @@ GetDefaultFrameRate
 (
 )
 ;
+static
+void
+ReInitFrameRate
+(
+)
+;
 virtual
 bool
 SupportsApzWheelInput
