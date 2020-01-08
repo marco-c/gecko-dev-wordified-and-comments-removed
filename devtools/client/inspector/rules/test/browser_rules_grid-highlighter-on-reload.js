@@ -295,11 +295,14 @@ click
 await
 onHighlighterShown
 ;
-ok
+is
 (
 highlighters
 .
-gridHighlighterShown
+gridHighlighters
+.
+size
+1
 "
 CSS
 grid

@@ -45,6 +45,11 @@ direction
 PropTypes
 .
 string
+disabled
+:
+PropTypes
+.
+bool
 gridFragments
 :
 PropTypes
