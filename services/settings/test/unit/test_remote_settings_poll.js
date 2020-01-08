@@ -3176,7 +3176,7 @@ main
 collection
 :
 "
-tippytop
+example
 "
 }
 ]
@@ -3241,7 +3241,7 @@ details
 .
 collection
 "
-tippytop
+example
 "
 )
 ;
