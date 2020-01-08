@@ -117,7 +117,7 @@ dom
 DOMPrefs
 :
 :
-PromiseRejectionEventsEnabled
+dom_promise_rejection_events_enabled
 "
 ]
 interface
