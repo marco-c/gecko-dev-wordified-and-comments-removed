@@ -3021,16 +3021,12 @@ RefPtr
 nsPresContext
 >
 presContext
-;
+=
 contentViewer
 -
 >
 GetPresContext
 (
-getter_AddRefs
-(
-presContext
-)
 )
 ;
 nsEventStatus

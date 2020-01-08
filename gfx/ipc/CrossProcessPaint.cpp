@@ -395,15 +395,13 @@ if
 aDocShell
 )
 {
+presContext
+=
 aDocShell
 -
 >
 GetPresContext
 (
-getter_AddRefs
-(
-presContext
-)
 )
 ;
 }

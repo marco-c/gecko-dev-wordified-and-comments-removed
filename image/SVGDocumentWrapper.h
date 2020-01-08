@@ -158,13 +158,10 @@ GetRootLayoutFrame
 )
 ;
 inline
-nsresult
-GetPresShell
-(
 nsIPresShell
 *
-*
-aPresShell
+GetPresShell
+(
 )
 {
 return
@@ -173,7 +170,6 @@ mViewer
 >
 GetPresShell
 (
-aPresShell
 )
 ;
 }

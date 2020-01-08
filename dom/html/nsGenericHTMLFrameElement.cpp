@@ -1273,16 +1273,12 @@ RefPtr
 nsPresContext
 >
 presContext
-;
+=
 docshell
 -
 >
 GetPresContext
 (
-getter_AddRefs
-(
-presContext
-)
 )
 ;
 nsIPresShell

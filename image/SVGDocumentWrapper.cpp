@@ -848,16 +848,12 @@ nsCOMPtr
 nsIPresShell
 >
 presShell
-;
+=
 mViewer
 -
 >
 GetPresShell
 (
-getter_AddRefs
-(
-presShell
-)
 )
 ;
 if

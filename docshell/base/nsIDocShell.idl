@@ -1579,7 +1579,8 @@ null
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 readonly
 attribute
@@ -1606,13 +1607,13 @@ null
 *
 /
 [
-noscript
 notxpcom
+nostdcall
 ]
+readonly
+attribute
 nsIPresShell
-GetPresShell
-(
-)
+presShell
 ;
 /
 *
@@ -1637,7 +1638,8 @@ documents
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 readonly
 attribute
@@ -3504,7 +3506,8 @@ docShells
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 attribute
 long
