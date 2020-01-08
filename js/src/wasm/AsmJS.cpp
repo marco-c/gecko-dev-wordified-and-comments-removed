@@ -11381,6 +11381,7 @@ finishModule
 (
 *
 bytes
+nullptr
 linkData
 )
 ;
