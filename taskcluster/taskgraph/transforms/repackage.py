@@ -553,7 +553,11 @@ package
 name
 "
 "
-firefox
+{
+package
+-
+name
+}
 "
             
 "

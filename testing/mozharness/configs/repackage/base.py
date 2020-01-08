@@ -3,6 +3,16 @@ config
 {
     
 "
+package
+-
+name
+"
+:
+"
+firefox
+"
+    
+"
 installer
 -
 tag
