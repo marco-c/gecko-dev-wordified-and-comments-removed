@@ -3555,7 +3555,7 @@ size
 "
 SkiaContentFontCacheSize
 int32_t
-10
+5
 )
 ;
 DECL_GFX_PREF
