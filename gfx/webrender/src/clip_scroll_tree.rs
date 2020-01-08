@@ -207,6 +207,7 @@ Eq
 Hash
 PartialEq
 PartialOrd
+Ord
 )
 ]
 #

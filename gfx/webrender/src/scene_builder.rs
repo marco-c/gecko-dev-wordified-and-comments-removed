@@ -546,10 +546,6 @@ FastHashSet
 <
 PipelineId
 >
-pub
-scene_id
-:
-u64
 }
 #
 [
@@ -574,10 +570,6 @@ pub
 scene
 :
 Scene
-pub
-scene_id
-:
-u64
 pub
 output_pipelines
 :
@@ -1654,9 +1646,6 @@ config
 &
 mut
 new_scene
-item
-.
-scene_id
 &
 mut
 self
@@ -2077,9 +2066,6 @@ config
 &
 mut
 new_scene
-request
-.
-scene_id
 &
 mut
 self
