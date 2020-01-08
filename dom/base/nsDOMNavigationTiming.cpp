@@ -105,12 +105,17 @@ Telemetry
 h
 "
 #
+ifdef
+MOZ_GECKO_PROFILER
+#
 include
 "
 ProfilerMarkerPayload
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
