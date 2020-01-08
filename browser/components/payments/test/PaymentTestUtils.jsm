@@ -373,7 +373,13 @@ content
 .
 PaymentRequest
 (
+Cu
+.
+cloneInto
+(
 methodData
+content
+)
 details
 options
 )
