@@ -469,8 +469,6 @@ it
 AddStateBits
 (
 aStateFlags
-|
-NS_BLOCK_MARGIN_ROOT
 )
 ;
 return
@@ -2271,9 +2269,6 @@ ReflowConfig
 aConfig
 bool
 aLastColumnUnbounded
-nsCollapsingMargin
-*
-aCarriedOutBEndMargin
 ColumnBalanceData
 &
 aColData
@@ -2289,7 +2284,6 @@ aReflowInput
 aReflowStatus
 aConfig
 aLastColumnUnbounded
-aCarriedOutBEndMargin
 aColData
 )
 ;
@@ -2317,7 +2311,6 @@ aReflowInput
 aReflowStatus
 aConfig
 aLastColumnUnbounded
-aCarriedOutBEndMargin
 aColData
 )
 ;
@@ -2749,9 +2742,6 @@ ReflowConfig
 aConfig
 bool
 aUnboundedLastColumn
-nsCollapsingMargin
-*
-aCarriedOutBEndMargin
 ColumnBalanceData
 &
 aColData
@@ -3702,6 +3692,9 @@ CarriedOutBEndMargin
 =
 %
 d
+(
+ignored
+)
 "
 __func__
 columnCount
@@ -3735,6 +3728,14 @@ get
 )
 )
 ;
+kidDesiredSize
+.
+mCarriedOutBEndMargin
+.
+Zero
+(
+)
+;
 NS_FRAME_TRACE_REFLOW_OUT
 (
 "
@@ -3745,13 +3746,6 @@ Reflow
 "
 aStatus
 )
-;
-*
-aCarriedOutBEndMargin
-=
-kidDesiredSize
-.
-mCarriedOutBEndMargin
 ;
 FinishReflowChild
 (
@@ -4743,9 +4737,6 @@ aColData
 ReflowOutput
 &
 aDesiredSize
-nsCollapsingMargin
-&
-aOutMargin
 bool
 &
 aUnboundedLastColumn
@@ -5175,8 +5166,6 @@ aReflowInput
 aStatus
 aConfig
 false
-&
-aOutMargin
 aColData
 )
 ;
@@ -5281,8 +5270,6 @@ availableContentBSize
 =
 =
 NS_UNCONSTRAINEDSIZE
-&
-aOutMargin
 aColData
 )
 ;
@@ -5537,9 +5524,6 @@ mIsBalancing
 !
 nextInFlow
 ;
-nsCollapsingMargin
-carriedOutBottomMargin
-;
 ColumnBalanceData
 colData
 ;
@@ -5553,8 +5537,6 @@ aReflowInput
 aStatus
 config
 unboundedLastColumn
-&
-carriedOutBottomMargin
 colData
 )
 ;
@@ -5581,7 +5563,6 @@ aPresContext
 config
 colData
 aDesiredSize
-carriedOutBottomMargin
 unboundedLastColumn
 feasible
 aStatus
@@ -5673,12 +5654,6 @@ aReflowInput
 aStatus
 false
 )
-;
-aDesiredSize
-.
-mCarriedOutBEndMargin
-=
-carriedOutBottomMargin
 ;
 NS_FRAME_SET_TRUNCATION
 (

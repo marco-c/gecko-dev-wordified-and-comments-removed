@@ -441,9 +441,6 @@ ReflowConfig
 aConfig
 bool
 aLastColumnUnbounded
-nsCollapsingMargin
-*
-aCarriedOutBEndMargin
 ColumnBalanceData
 &
 aColData
@@ -479,9 +476,6 @@ aColData
 ReflowOutput
 &
 aDesiredSize
-nsCollapsingMargin
-&
-aOutMargin
 bool
 &
 aUnboundedLastColumn
@@ -512,9 +506,6 @@ ReflowConfig
 aConfig
 bool
 aLastColumnUnbounded
-nsCollapsingMargin
-*
-aCarriedOutBEndMargin
 ColumnBalanceData
 &
 aColData
