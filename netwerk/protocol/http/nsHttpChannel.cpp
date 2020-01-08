@@ -17523,6 +17523,9 @@ TRR
 }
 if
 (
+mIsThirdPartyTrackingResource
+&
+&
 !
 AntiTrackingCommon
 :
