@@ -627,11 +627,6 @@ const
 char
 *
 aName
-int32_t
-aFeature
-const
-Maybe
-<
 mozilla
 :
 :
@@ -639,7 +634,6 @@ gfx
 :
 :
 FeatureStatus
->
 &
 aKnownStatus
 JS
