@@ -539,8 +539,10 @@ Services
 .
 scriptSecurityManager
 .
-getSystemPrincipal
+createNullPrincipal
 (
+{
+}
 )
 )
 ;
