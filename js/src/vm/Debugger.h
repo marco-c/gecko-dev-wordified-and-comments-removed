@@ -3291,6 +3291,10 @@ JSContext
 cx
 AbstractFramePtr
 frame
+bool
+suspending
+=
+false
 )
 ;
 static
