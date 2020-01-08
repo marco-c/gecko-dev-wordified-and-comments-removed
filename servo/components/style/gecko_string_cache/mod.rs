@@ -6,6 +6,14 @@ allow
 unsafe_code
 )
 ]
+#
+!
+[
+allow
+(
+non_upper_case_globals
+)
+]
 use
 gecko_bindings
 :
@@ -1581,7 +1589,7 @@ from_static
 ptr
 :
 *
-mut
+const
 nsStaticAtom
 )
 -

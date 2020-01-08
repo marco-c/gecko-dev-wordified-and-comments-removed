@@ -2520,7 +2520,6 @@ int32_t
 aStyle
 nsStaticAtom
 *
-*
 aName
 )
 :
@@ -2691,7 +2690,6 @@ private
 :
 nsStaticAtom
 *
-*
 const
 mName
 ;
@@ -2708,7 +2706,6 @@ GetStyleName
 const
 {
 return
-*
 mName
 ;
 }
@@ -3825,7 +3822,6 @@ NS_STYLE_LIST_STYLE_
 #
 #
 value_
-&
 nsGkAtoms
 :
 :
