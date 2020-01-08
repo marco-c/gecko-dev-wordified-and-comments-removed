@@ -2534,6 +2534,12 @@ StyleShapeSourceType
 :
 Box
 :
+case
+StyleShapeSourceType
+:
+:
+Path
+:
 aUsage
 .
 shouldApplyBasicShape

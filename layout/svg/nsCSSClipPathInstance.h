@@ -205,6 +205,17 @@ nsRect
 aRefBox
 )
 ;
+already_AddRefed
+<
+Path
+>
+CreateClipPathPath
+(
+DrawTarget
+*
+aDrawTarget
+)
+;
 nsIFrame
 *
 mTargetFrame

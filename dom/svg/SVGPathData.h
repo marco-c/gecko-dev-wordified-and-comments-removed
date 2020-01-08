@@ -442,6 +442,12 @@ uint8_t
 aCapStyle
 Float
 aStrokeWidth
+float
+aZoomFactor
+=
+1
+.
+0
 )
 ;
 const_iterator
