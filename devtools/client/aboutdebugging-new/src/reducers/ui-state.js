@@ -7,7 +7,6 @@ const
 {
 NETWORK_LOCATIONS_UPDATED
 PAGE_SELECTED
-PAGES
 }
 =
 require
@@ -36,9 +35,7 @@ networkLocations
 locations
 selectedPage
 :
-PAGES
-.
-THIS_FIREFOX
+null
 }
 ;
 }
