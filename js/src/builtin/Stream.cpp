@@ -1446,8 +1446,7 @@ true
 inline
 static
 MOZ_MUST_USE
-NativeObject
-*
+bool
 SetNewList
 (
 JSContext
@@ -1511,7 +1510,7 @@ list
 )
 {
 return
-nullptr
+false
 ;
 }
 unwrappedContainer
@@ -1528,7 +1527,7 @@ list
 )
 ;
 return
-list
+true
 ;
 }
 class
