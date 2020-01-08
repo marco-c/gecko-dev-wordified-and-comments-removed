@@ -1965,7 +1965,7 @@ cx
 JS
 :
 :
-Compile
+CompileUtf8File
 (
 cx
 options
@@ -4282,7 +4282,7 @@ if
 JS
 :
 :
-Compile
+CompileUtf8File
 (
 cx
 options
