@@ -136,7 +136,7 @@ mozilla
 .
 gecko
 .
-GeckoInputDeviceListener
+GeckoSystemStateListener
 ;
 import
 org
@@ -1102,7 +1102,7 @@ Context
 CLIPBOARD_SERVICE
 )
 ;
-GeckoInputDeviceListener
+GeckoSystemStateListener
 .
 getInstance
 (
@@ -1247,7 +1247,7 @@ shutdown
 )
 ;
 }
-GeckoInputDeviceListener
+GeckoSystemStateListener
 .
 getInstance
 (
