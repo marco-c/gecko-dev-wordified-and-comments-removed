@@ -2230,6 +2230,11 @@ GetCommonEditingHostForAllRanges
 (
 )
 ;
+void
+Disconnect
+(
+)
+;
 AutoTArray
 <
 RangeData

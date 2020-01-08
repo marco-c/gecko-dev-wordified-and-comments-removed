@@ -1976,7 +1976,10 @@ nsINode
 MOZ_NON_OWNING_REF
 mRegisteredCommonAncestor
 ;
-RefPtr
+mozilla
+:
+:
+WeakPtr
 <
 mozilla
 :
