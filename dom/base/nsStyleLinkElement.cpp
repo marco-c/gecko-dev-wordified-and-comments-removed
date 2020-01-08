@@ -1321,15 +1321,7 @@ if
 thisContent
 -
 >
-IsInAnonymousSubtree
-(
-)
-&
-&
-thisContent
--
->
-IsAnonymousContentInSVGUseSubtree
+IsInSVGUseShadowTree
 (
 )
 )

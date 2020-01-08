@@ -722,7 +722,7 @@ FRAME_ID
 (
 nsSVGUseFrame
 SVGUse
-Leaf
+NotLeaf
 )
 FRAME_ID
 (

@@ -1709,17 +1709,6 @@ Descendant
 =
 >
 {
-if
-element
-.
-blocks_ancestor_combinators
-(
-)
-{
-return
-None
-;
-}
 match
 element
 .

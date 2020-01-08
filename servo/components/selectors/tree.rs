@@ -554,16 +554,4 @@ bool
 {
 false
 }
-fn
-blocks_ancestor_combinators
-(
-&
-self
-)
--
->
-bool
-{
-false
-}
 }

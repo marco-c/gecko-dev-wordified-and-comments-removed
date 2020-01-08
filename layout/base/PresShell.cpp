@@ -18392,6 +18392,13 @@ FlushType
 ContentAndNotify
 )
 ;
+mDocument
+-
+>
+UpdateSVGUseElementShadowTrees
+(
+)
+;
 if
 (
 !
