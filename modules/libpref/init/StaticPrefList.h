@@ -2334,10 +2334,10 @@ media
 .
 navigator
 .
-mediadatadecoder_enabled
+mediadatadecoder_vpx_enabled
 "
-MediaNavigatorMediadatadecoderEnabled
-bool
+MediaNavigatorMediadatadecoderVPXEnabled
+RelaxedAtomicBool
 false
 )
 #
