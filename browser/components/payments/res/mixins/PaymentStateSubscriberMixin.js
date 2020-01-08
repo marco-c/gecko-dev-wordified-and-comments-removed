@@ -80,6 +80,7 @@ request
 completeStatus
 :
 "
+initial
 "
 tabId
 :
