@@ -6874,6 +6874,9 @@ user
 js
 '
 )
+        
+return
+prefs
     
 def
 buildCoreEnvironment
@@ -8520,6 +8523,7 @@ def
 updateMozinfo
 (
 self
+prefs
 )
 :
         
@@ -8661,6 +8665,30 @@ self
 mozInfo
 =
 fixedInfo
+        
+self
+.
+mozInfo
+[
+'
+serviceworker_e10s
+'
+]
+=
+prefs
+.
+get
+(
+            
+'
+dom
+.
+serviceWorkers
+.
+parent_intercept
+'
+False
+)
         
 mozinfo
 .
@@ -9381,6 +9409,8 @@ setAbsPath
 (
 )
         
+prefs
+=
 self
 .
 buildPrefsFile
@@ -9418,6 +9448,7 @@ self
 .
 updateMozinfo
 (
+prefs
 )
 :
             

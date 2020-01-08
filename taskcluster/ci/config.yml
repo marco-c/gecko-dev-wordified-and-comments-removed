@@ -587,14 +587,15 @@ tests
 '
 X
 -
-e10s
+sw
 '
 :
 '
 Xpcshell
 tests
 with
-e10s
+serviceworker
+redesign
 '
 '
 L10n

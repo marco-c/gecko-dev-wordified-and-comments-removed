@@ -2449,6 +2449,8 @@ extraPrefs
 )
 :
         
+prefs
+=
 super
 (
 XPCShellRemote
@@ -2514,6 +2516,9 @@ self
 prefsFile
 =
 remotePrefsFile
+        
+return
+prefs
     
 def
 buildEnvironment
