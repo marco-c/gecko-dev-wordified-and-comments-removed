@@ -1354,7 +1354,7 @@ initialized
 elementId
 :
 "
-formAutofillGroup
+formAutofillGroupBox
 "
 }
 ]
