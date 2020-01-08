@@ -2320,7 +2320,7 @@ latency
 enabled
 "
 MediaFfmpegLowLatencyEnabled
-bool
+RelaxedAtomicBool
 false
 )
 #
