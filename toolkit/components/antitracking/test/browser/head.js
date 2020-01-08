@@ -2234,13 +2234,15 @@ onSecurityChange
 (
 webProgress
 request
-stateFlags
+oldState
+state
 status
+contentBlockingLogJSON
 )
 {
 if
 (
-stateFlags
+state
 &
 Ci
 .
