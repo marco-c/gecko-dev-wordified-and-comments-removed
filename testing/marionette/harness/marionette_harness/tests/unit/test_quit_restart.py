@@ -960,7 +960,7 @@ assertRaisesRegexp
 (
 errors
 .
-MarionetteException
+InvalidSessionIdException
 "
 Please
 start
@@ -1072,7 +1072,7 @@ assertRaisesRegexp
 (
 errors
 .
-MarionetteException
+InvalidSessionIdException
 "
 Please
 start
@@ -1841,7 +1841,7 @@ assertRaisesRegexp
 (
 errors
 .
-MarionetteException
+InvalidSessionIdException
 "
 Please
 start
@@ -1961,7 +1961,7 @@ assertRaisesRegexp
 (
 errors
 .
-MarionetteException
+InvalidSessionIdException
 "
 Please
 start

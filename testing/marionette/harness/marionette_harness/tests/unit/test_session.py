@@ -230,17 +230,11 @@ self
 with
 self
 .
-assertRaisesRegexp
+assertRaises
 (
 errors
 .
-MarionetteException
-"
-Please
-start
-a
-session
-"
+InvalidSessionIdException
 )
 :
             

@@ -19,7 +19,7 @@ errors
 import
 (
     
-MarionetteException
+InvalidSessionIdException
     
 NoSuchWindowException
     
@@ -547,23 +547,27 @@ marionette
 session
 )
         
+with
 self
 .
 assertRaisesRegexp
 (
-MarionetteException
+InvalidSessionIdException
 '
 Please
 start
 a
 session
 '
-                                
+)
+:
+            
 self
 .
 marionette
 .
 get_url
+(
 )
         
 self
@@ -724,23 +728,27 @@ marionette
 session
 )
         
+with
 self
 .
 assertRaisesRegexp
 (
-MarionetteException
+InvalidSessionIdException
 '
 Please
 start
 a
 session
 '
-                                
+)
+:
+            
 self
 .
 marionette
 .
 get_url
+(
 )
         
 self
