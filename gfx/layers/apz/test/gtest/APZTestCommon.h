@@ -1366,7 +1366,9 @@ lock
 mRecursiveMutex
 )
 ;
-mFrameMetrics
+Metrics
+(
+)
 =
 metrics
 ;
@@ -1384,7 +1386,11 @@ mRecursiveMutex
 )
 ;
 return
-mFrameMetrics
+mScrollMetadata
+.
+GetMetrics
+(
+)
 ;
 }
 ScrollMetadata
@@ -1418,7 +1424,11 @@ mRecursiveMutex
 )
 ;
 return
-mFrameMetrics
+mScrollMetadata
+.
+GetMetrics
+(
+)
 ;
 }
 using
