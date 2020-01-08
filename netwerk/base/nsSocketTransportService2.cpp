@@ -4968,11 +4968,6 @@ Reset
 false
 )
 ;
-NS_ProcessPendingEvents
-(
-mRawThread
-)
-;
 psm
 :
 :
@@ -4984,10 +4979,6 @@ NS_ProcessPendingEvents
 (
 mRawThread
 )
-;
-gSocketThread
-=
-nullptr
 ;
 SOCKET_LOG
 (
