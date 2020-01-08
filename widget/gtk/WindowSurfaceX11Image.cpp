@@ -69,13 +69,6 @@ mozilla
 namespace
 widget
 {
-using
-namespace
-mozilla
-:
-:
-gfx
-;
 #
 define
 SHAPED_IMAGE_SURFACE_BPP

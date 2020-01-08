@@ -113,6 +113,9 @@ MozContainerClass
 ifdef
 MOZ_WAYLAND
 struct
+wl_subcompositor
+;
+struct
 wl_surface
 ;
 struct
@@ -133,6 +136,11 @@ children
 #
 ifdef
 MOZ_WAYLAND
+struct
+wl_subcompositor
+*
+subcompositor
+;
 struct
 wl_surface
 *

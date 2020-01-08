@@ -523,11 +523,6 @@ nsClipboardWayland
 cpp
 '
 '
-nsWaylandDisplay
-.
-cpp
-'
-'
 WindowSurfaceWayland
 .
 cpp
