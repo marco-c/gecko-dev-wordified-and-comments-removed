@@ -160,11 +160,15 @@ factor
 )
 ;
 return
-NS_RGB
+NS_RGBA
 (
 r1
 g1
 b1
+NS_GET_A
+(
+aColor
+)
 )
 ;
 }
