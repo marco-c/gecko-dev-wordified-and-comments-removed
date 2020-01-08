@@ -71,6 +71,9 @@ LSRequestPrepareDatastoreParams
 PrincipalInfo
 principalInfo
 ;
+bool
+createIfNotExists
+;
 }
 ;
 struct

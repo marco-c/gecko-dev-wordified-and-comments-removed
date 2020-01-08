@@ -2866,6 +2866,7 @@ PERSISTENCE_TYPE_TEMPORARY
 mSuffix
 mGroup
 mOrigin
+true
 getter_AddRefs
 (
 mDirectory

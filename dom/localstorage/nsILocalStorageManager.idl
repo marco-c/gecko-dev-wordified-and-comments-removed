@@ -151,6 +151,17 @@ nextGenLocalStorageEnabled
 implicit_jscontext
 ]
 nsISupports
+preload
+(
+in
+nsIPrincipal
+aPrincipal
+)
+;
+[
+implicit_jscontext
+]
+nsISupports
 isPreloaded
 (
 in

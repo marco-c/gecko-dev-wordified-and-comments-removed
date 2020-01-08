@@ -73177,6 +73177,7 @@ persistenceType
 suffix
 group
 origin
+true
 getter_AddRefs
 (
 directory
@@ -85611,6 +85612,7 @@ persistenceType
 mSuffix
 mGroup
 mOrigin
+true
 getter_AddRefs
 (
 dbDirectory
