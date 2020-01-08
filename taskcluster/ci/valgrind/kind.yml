@@ -201,11 +201,6 @@ env
 PERFHERDER_EXTRA_OPTIONS
 :
 valgrind
-FORCE_GCC
-:
-'
-1
-'
 run
 :
 using
