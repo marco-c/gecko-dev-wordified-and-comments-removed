@@ -11100,7 +11100,7 @@ ttBtn
 =
 document
 .
-createXULElement
+createElement
 (
 "
 button
