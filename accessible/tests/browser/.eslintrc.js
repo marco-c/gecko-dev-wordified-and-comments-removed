@@ -58,9 +58,14 @@ reject
 importGlobalProperties
 "
 :
+[
 "
 error
 "
+"
+everything
+"
+]
 "
 mozilla
 /
