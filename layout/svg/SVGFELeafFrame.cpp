@@ -114,6 +114,17 @@ aFlags
 const
 override
 {
+if
+(
+aFlags
+&
+eSupportsContainLayoutAndPaint
+)
+{
+return
+false
+;
+}
 return
 nsFrame
 :
