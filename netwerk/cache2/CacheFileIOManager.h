@@ -1349,6 +1349,10 @@ nsILoadContextInfo
 aLoadContextInfo
 bool
 aPinning
+const
+nsAString
+&
+aOrigin
 )
 ;
 static
@@ -1722,6 +1726,10 @@ nsILoadContextInfo
 aLoadContextInfo
 bool
 aPinning
+const
+nsAString
+&
+aOrigin
 )
 ;
 nsresult

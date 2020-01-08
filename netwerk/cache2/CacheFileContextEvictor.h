@@ -52,6 +52,9 @@ mInfo
 bool
 mPinned
 ;
+nsString
+mOrigin
+;
 PRTime
 mTimeStamp
 ;
@@ -112,6 +115,10 @@ nsILoadContextInfo
 aLoadContextInfo
 bool
 aPinned
+const
+nsAString
+&
+aOrigin
 )
 ;
 nsresult
@@ -147,6 +154,10 @@ nsILoadContextInfo
 aLoadContextInfo
 bool
 aPinned
+const
+nsAString
+&
+aOrigin
 )
 ;
 nsresult
@@ -157,6 +168,10 @@ nsILoadContextInfo
 aLoadContextInfo
 bool
 aPinned
+const
+nsAString
+&
+aOrigin
 )
 ;
 nsresult
@@ -172,6 +187,10 @@ nsILoadContextInfo
 aLoadContextInfo
 bool
 aPinned
+const
+nsAString
+&
+aOrigin
 nsIFile
 *
 *
