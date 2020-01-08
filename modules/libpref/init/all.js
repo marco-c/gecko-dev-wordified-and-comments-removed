@@ -21203,7 +21203,7 @@ colors
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -21219,7 +21219,7 @@ width
 .
 enabled
 "
-false
+true
 )
 ;
 pref
