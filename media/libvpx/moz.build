@@ -1507,6 +1507,7 @@ ASFLAGS
 -
 I
 .
+/
 '
 '
 -
@@ -1519,6 +1520,7 @@ media
 libvpx
 /
 libvpx
+/
 '
 %
 TOPSRCDIR

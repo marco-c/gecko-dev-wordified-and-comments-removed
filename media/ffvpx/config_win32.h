@@ -517,7 +517,7 @@ HAVE_XOP
 #
 define
 HAVE_CPUNOP
-1
+0
 #
 define
 HAVE_I686
