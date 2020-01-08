@@ -3167,10 +3167,8 @@ skippedAsync
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 GetFirstSubsumedSavedFrame
 (
 JSContext
@@ -3580,9 +3578,7 @@ skippedAsync
 ;
 }
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameSource
 (
 JSContext
@@ -3716,9 +3712,7 @@ Ok
 ;
 }
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameLine
 (
 JSContext
@@ -3819,9 +3813,7 @@ Ok
 ;
 }
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameColumn
 (
 JSContext
@@ -3922,9 +3914,7 @@ Ok
 ;
 }
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameFunctionDisplayName
 (
 JSContext
@@ -4053,9 +4043,7 @@ Ok
 ;
 }
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameAsyncCause
 (
 JSContext
@@ -4211,9 +4199,7 @@ Ok
 ;
 }
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameAsyncParent
 (
 JSContext
@@ -4368,9 +4354,7 @@ Ok
 ;
 }
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameParent
 (
 JSContext
@@ -5116,9 +5100,7 @@ n
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 BuildStackString
 (
 JSContext
@@ -5468,9 +5450,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 IsMaybeWrappedSavedFrame
 (
 JSObject
@@ -5499,9 +5479,7 @@ SavedFrame
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 IsUnwrappedSavedFrame
 (
 JSObject
@@ -9485,9 +9463,7 @@ length
 }
 ;
 JS_PUBLIC_API
-(
 bool
-)
 ConstructSavedFrameStackSlow
 (
 JSContext

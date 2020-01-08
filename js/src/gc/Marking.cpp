@@ -1849,9 +1849,7 @@ typename
 T
 >
 JS_PUBLIC_API
-(
 void
-)
 js
 :
 :
@@ -1904,9 +1902,7 @@ typename
 T
 >
 JS_PUBLIC_API
-(
 void
-)
 js
 :
 :
@@ -1941,9 +1937,7 @@ typename
 T
 >
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -1986,9 +1980,7 @@ type
 \
 template
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -2009,9 +2001,7 @@ char
 \
 template
 JS_PUBLIC_API
-(
 void
-)
 js
 :
 :
@@ -2033,9 +2023,7 @@ char
 \
 template
 JS_PUBLIC_API
-(
 void
-)
 js
 :
 :
@@ -18509,9 +18497,7 @@ typename
 T
 >
 JS_PUBLIC_API
-(
 bool
-)
 EdgeNeedsSweep
 (
 JS
@@ -18546,9 +18532,7 @@ typename
 T
 >
 JS_PUBLIC_API
-(
 bool
-)
 EdgeNeedsSweepUnbarrieredSlow
 (
 T
@@ -18575,9 +18559,7 @@ type
 \
 template
 JS_PUBLIC_API
-(
 bool
-)
 EdgeNeedsSweep
 <
 type
@@ -18596,9 +18578,7 @@ type
 \
 template
 JS_PUBLIC_API
-(
 bool
-)
 EdgeNeedsSweepUnbarrieredSlow
 <
 type
@@ -19161,9 +19141,7 @@ unmarkedAny
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS
 :
 :

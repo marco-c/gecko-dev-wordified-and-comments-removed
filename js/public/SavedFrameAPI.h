@@ -50,9 +50,7 @@ Exclude
 ;
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameSource
 (
 JSContext
@@ -84,9 +82,7 @@ Include
 ;
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameLine
 (
 JSContext
@@ -115,9 +111,7 @@ Include
 ;
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameColumn
 (
 JSContext
@@ -146,9 +140,7 @@ Include
 ;
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameFunctionDisplayName
 (
 JSContext
@@ -180,9 +172,7 @@ Include
 ;
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameAsyncCause
 (
 JSContext
@@ -214,9 +204,7 @@ Include
 ;
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameAsyncParent
 (
 JSContext
@@ -248,9 +236,7 @@ Include
 ;
 extern
 JS_PUBLIC_API
-(
 SavedFrameResult
-)
 GetSavedFrameParent
 (
 JSContext
@@ -286,10 +272,8 @@ js
 {
 extern
 JS_FRIEND_API
-(
 JSObject
 *
-)
 GetFirstSubsumedSavedFrame
 (
 JSContext

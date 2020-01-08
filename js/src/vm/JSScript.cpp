@@ -20720,9 +20720,7 @@ offset
 ;
 }
 JS_FRIEND_API
-(
 unsigned
-)
 js
 :
 :

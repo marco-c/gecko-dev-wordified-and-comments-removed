@@ -422,11 +422,9 @@ other
 ;
 }
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 JS
 :
 :
@@ -479,11 +477,9 @@ strategy
 }
 }
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 JS
 :
 :
@@ -536,11 +532,9 @@ outcome
 }
 }
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 JS
 :
 :
@@ -7398,9 +7392,7 @@ entryOffset
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 FrameHandle
 :
 :
@@ -7451,9 +7443,7 @@ pcOut
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 FrameHandle
 :
 :

@@ -1845,10 +1845,8 @@ report
 ;
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -1906,9 +1904,7 @@ stack
 ;
 }
 JS_PUBLIC_API
-(
 uint64_t
-)
 JS
 :
 :
@@ -3083,10 +3079,8 @@ ctor
 ;
 }
 JS_FRIEND_API
-(
 JSFlatString
 *
-)
 js
 :
 :
@@ -5004,9 +4998,7 @@ message
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :

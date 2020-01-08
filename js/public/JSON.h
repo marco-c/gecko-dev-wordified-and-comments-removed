@@ -64,9 +64,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_Stringify
 (
 JSContext
@@ -115,9 +113,7 @@ JS
 {
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToJSONMaybeSafely
 (
 JSContext
@@ -142,9 +138,7 @@ data
 }
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ParseJSON
 (
 JSContext
@@ -171,9 +165,7 @@ vp
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ParseJSON
 (
 JSContext
@@ -203,9 +195,7 @@ vp
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ParseJSONWithReviver
 (
 JSContext
@@ -243,9 +233,7 @@ vp
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ParseJSONWithReviver
 (
 JSContext

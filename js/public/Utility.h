@@ -158,9 +158,7 @@ extern
 MOZ_NORETURN
 MOZ_COLD
 JS_PUBLIC_API
-(
 void
-)
 JS_Assert
 (
 const
@@ -254,9 +252,7 @@ ThreadType
 ;
 extern
 JS_FRIEND_API
-(
 uint32_t
-)
 GetThreadType
 (
 void
@@ -691,9 +687,7 @@ reset
 ;
 extern
 JS_PUBLIC_DATA
-(
 FailureSimulator
-)
 simulator
 ;
 inline
@@ -1177,9 +1171,7 @@ js
 struct
 MOZ_RAII
 JS_PUBLIC_DATA
-(
 AutoEnterOOMUnsafeRegion
-)
 {
 MOZ_NORETURN
 MOZ_COLD
@@ -1348,16 +1340,12 @@ js
 {
 extern
 JS_PUBLIC_DATA
-(
 arena_id_t
-)
 MallocArena
 ;
 extern
 JS_PUBLIC_DATA
-(
 arena_id_t
-)
 ArrayBufferContentsArena
 ;
 extern

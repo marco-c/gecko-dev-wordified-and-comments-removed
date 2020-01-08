@@ -27,9 +27,7 @@ namespace
 shadow
 {
 JS_PUBLIC_API
-(
 void
-)
 RegisterWeakCache
 (
 JS
@@ -50,9 +48,7 @@ cachep
 )
 ;
 JS_PUBLIC_API
-(
 void
-)
 RegisterWeakCache
 (
 JSRuntime

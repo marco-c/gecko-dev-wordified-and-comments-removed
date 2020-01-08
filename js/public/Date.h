@@ -45,9 +45,7 @@ JS
 {
 extern
 JS_PUBLIC_API
-(
 void
-)
 ResetTimeZone
 (
 )
@@ -249,10 +247,8 @@ toDouble
 }
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 NewDateObject
 (
 JSContext
@@ -263,9 +259,7 @@ time
 )
 ;
 JS_PUBLIC_API
-(
 double
-)
 MakeDate
 (
 double
@@ -277,9 +271,7 @@ day
 )
 ;
 JS_PUBLIC_API
-(
 double
-)
 MakeDate
 (
 double
@@ -293,9 +285,7 @@ time
 )
 ;
 JS_PUBLIC_API
-(
 double
-)
 YearFromTime
 (
 double
@@ -303,9 +293,7 @@ time
 )
 ;
 JS_PUBLIC_API
-(
 double
-)
 MonthFromTime
 (
 double
@@ -313,9 +301,7 @@ time
 )
 ;
 JS_PUBLIC_API
-(
 double
-)
 DayFromTime
 (
 double
@@ -323,9 +309,7 @@ time
 )
 ;
 JS_PUBLIC_API
-(
 double
-)
 DayFromYear
 (
 double
@@ -333,9 +317,7 @@ year
 )
 ;
 JS_PUBLIC_API
-(
 double
-)
 DayWithinYear
 (
 double
@@ -356,9 +338,7 @@ double
 )
 ;
 JS_PUBLIC_API
-(
 void
-)
 SetReduceMicrosecondTimePrecisionCallback
 (
 ReduceMicrosecondTimePrecisionCallback
@@ -366,9 +346,7 @@ callback
 )
 ;
 JS_PUBLIC_API
-(
 void
-)
 SetTimeResolutionUsec
 (
 uint32_t

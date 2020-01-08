@@ -515,9 +515,7 @@ BufferIterator
 class
 MOZ_NON_MEMMOVABLE
 JS_PUBLIC_API
-(
 JSStructuredCloneData
-)
 {
 public
 :
@@ -595,9 +593,7 @@ JSStructuredCloneWriter
 friend
 class
 JS_PUBLIC_API
-(
 JSAutoStructuredCloneBuffer
-)
 ;
 template
 <
@@ -1324,9 +1320,7 @@ discardTransferables
 }
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_ReadStructuredClone
 (
 JSContext
@@ -1357,9 +1351,7 @@ closure
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteStructuredClone
 (
 JSContext
@@ -1398,9 +1390,7 @@ transferable
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_StructuredCloneHasTransferables
 (
 JSStructuredCloneData
@@ -1412,9 +1402,7 @@ hasTransferable
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_StructuredClone
 (
 JSContext
@@ -1441,9 +1429,7 @@ closure
 ;
 class
 JS_PUBLIC_API
-(
 JSAutoStructuredCloneBuffer
-)
 {
 const
 JS
@@ -1828,9 +1814,7 @@ define
 JS_SCERR_SHMEM_TRANSFERABLE
 4
 JS_PUBLIC_API
-(
 bool
-)
 JS_ReadUint32Pair
 (
 JSStructuredCloneReader
@@ -1845,9 +1829,7 @@ p2
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_ReadBytes
 (
 JSStructuredCloneReader
@@ -1861,9 +1843,7 @@ len
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_ReadTypedArray
 (
 JSStructuredCloneReader
@@ -1877,9 +1857,7 @@ vp
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteUint32Pair
 (
 JSStructuredCloneWriter
@@ -1892,9 +1870,7 @@ data
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteBytes
 (
 JSStructuredCloneWriter
@@ -1909,9 +1885,7 @@ len
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteString
 (
 JSStructuredCloneWriter
@@ -1925,9 +1899,7 @@ str
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteTypedArray
 (
 JSStructuredCloneWriter
@@ -1941,9 +1913,7 @@ v
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_ObjectNotWritten
 (
 JSStructuredCloneWriter
@@ -1957,12 +1927,10 @@ obj
 )
 ;
 JS_PUBLIC_API
-(
 JS
 :
 :
 StructuredCloneScope
-)
 JS_GetStructuredCloneScope
 (
 JSStructuredCloneWriter

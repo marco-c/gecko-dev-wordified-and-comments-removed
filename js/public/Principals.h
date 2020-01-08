@@ -38,9 +38,7 @@ js
 {
 struct
 JS_PUBLIC_API
-(
 PerformanceGroup
-)
 ;
 }
 struct
@@ -119,9 +117,7 @@ writer
 0
 ;
 JS_PUBLIC_API
-(
 void
-)
 dump
 (
 )
@@ -130,9 +126,7 @@ dump
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_HoldPrincipals
 (
 JSPrincipals
@@ -142,9 +136,7 @@ principals
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_DropPrincipals
 (
 JSContext
@@ -200,9 +192,7 @@ subsumes
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetSecurityCallbacks
 (
 JSContext
@@ -216,11 +206,9 @@ callbacks
 ;
 extern
 JS_PUBLIC_API
-(
 const
 JSSecurityCallbacks
 *
-)
 JS_GetSecurityCallbacks
 (
 JSContext
@@ -230,9 +218,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetTrustedPrincipals
 (
 JSContext
@@ -257,9 +243,7 @@ principals
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_InitDestroyPrincipalsCallback
 (
 JSContext
@@ -291,9 +275,7 @@ outPrincipals
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_InitReadPrincipalsCallback
 (
 JSContext

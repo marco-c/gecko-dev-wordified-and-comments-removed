@@ -209,11 +209,9 @@ args
 #
 endif
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 JS_UnsafeGetLastProfilingError
 (
 )
@@ -324,9 +322,7 @@ true
 #
 endif
 JS_PUBLIC_API
-(
 bool
-)
 JS_StartProfiling
 (
 const
@@ -378,9 +374,7 @@ ok
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_StopProfiling
 (
 const
@@ -616,9 +610,7 @@ ok
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_PauseProfilers
 (
 const
@@ -635,9 +627,7 @@ false
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_ResumeProfilers
 (
 const
@@ -654,9 +644,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_DumpProfile
 (
 const
@@ -1927,9 +1915,7 @@ JS_FS_END
 #
 endif
 JS_PUBLIC_API
-(
 bool
-)
 JS_DefineProfilingFunctions
 (
 JSContext
@@ -2121,9 +2107,7 @@ JS_END_MACRO
 #
 endif
 JS_FRIEND_API
-(
 bool
-)
 js_StartCallgrind
 (
 )
@@ -2143,9 +2127,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js_StopCallgrind
 (
 )
@@ -2160,9 +2142,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js_DumpCallgrind
 (
 const

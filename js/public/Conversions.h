@@ -95,9 +95,7 @@ js
 {
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToBooleanSlow
 (
 JS
@@ -109,9 +107,7 @@ v
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToNumberSlow
 (
 JSContext
@@ -129,9 +125,7 @@ dp
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToInt8Slow
 (
 JSContext
@@ -149,9 +143,7 @@ out
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToUint8Slow
 (
 JSContext
@@ -169,9 +161,7 @@ out
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToInt16Slow
 (
 JSContext
@@ -189,9 +179,7 @@ out
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToInt32Slow
 (
 JSContext
@@ -209,9 +197,7 @@ out
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToUint32Slow
 (
 JSContext
@@ -229,9 +215,7 @@ out
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToUint16Slow
 (
 JSContext
@@ -249,9 +233,7 @@ out
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToInt64Slow
 (
 JSContext
@@ -269,9 +251,7 @@ out
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ToUint64Slow
 (
 JSContext
@@ -289,10 +269,8 @@ out
 ;
 extern
 JS_PUBLIC_API
-(
 JSString
 *
-)
 ToStringSlow
 (
 JSContext
@@ -307,10 +285,8 @@ v
 ;
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 ToObjectSlow
 (
 JSContext
@@ -337,9 +313,7 @@ ifdef
 JS_DEBUG
 extern
 JS_PUBLIC_API
-(
 void
-)
 AssertArgumentsAreSane
 (
 JSContext
@@ -368,9 +342,7 @@ endif
 }
 extern
 JS_PUBLIC_API
-(
 bool
-)
 OrdinaryToPrimitive
 (
 JSContext

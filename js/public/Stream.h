@@ -148,9 +148,7 @@ flags
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 SetReadableStreamCallbacks
 (
 JSContext
@@ -172,9 +170,7 @@ finalizeCallback
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 HasReadableStreamCallbacks
 (
 JSContext
@@ -184,10 +180,8 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 NewReadableDefaultStreamObject
 (
 JSContext
@@ -213,10 +207,8 @@ nullptr
 ;
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 NewReadableExternalSourceStreamObject
 (
 JSContext
@@ -237,9 +229,7 @@ nullptr
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamGetEmbeddingFlags
 (
 JSContext
@@ -254,9 +244,7 @@ flags
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamGetExternalUnderlyingSource
 (
 JSContext
@@ -272,9 +260,7 @@ source
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamReleaseExternalUnderlyingSource
 (
 JSContext
@@ -286,9 +272,7 @@ stream
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamUpdateDataAvailableFromSource
 (
 JSContext
@@ -302,9 +286,7 @@ availableData
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsReadableStream
 (
 JSObject
@@ -314,9 +296,7 @@ obj
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsReadableStreamReader
 (
 JSObject
@@ -326,9 +306,7 @@ obj
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsReadableStreamDefaultReader
 (
 JSObject
@@ -347,9 +325,7 @@ ExternalSource
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamGetMode
 (
 JSContext
@@ -371,9 +347,7 @@ Default
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamIsReadable
 (
 JSContext
@@ -388,9 +362,7 @@ result
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamIsLocked
 (
 JSContext
@@ -405,9 +377,7 @@ result
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamIsDisturbed
 (
 JSContext
@@ -422,10 +392,8 @@ result
 ;
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 ReadableStreamCancel
 (
 JSContext
@@ -439,10 +407,8 @@ reason
 ;
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 ReadableStreamGetReader
 (
 JSContext
@@ -456,9 +422,7 @@ mode
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamTee
 (
 JSContext
@@ -474,9 +438,7 @@ branch2Stream
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamGetDesiredSize
 (
 JSContext
@@ -495,9 +457,7 @@ value
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamClose
 (
 JSContext
@@ -509,9 +469,7 @@ stream
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamReaderIsClosed
 (
 JSContext
@@ -526,9 +484,7 @@ result
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamEnqueue
 (
 JSContext
@@ -542,9 +498,7 @@ chunk
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamError
 (
 JSContext
@@ -558,9 +512,7 @@ error
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamReaderCancel
 (
 JSContext
@@ -574,9 +526,7 @@ reason
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ReadableStreamReaderReleaseLock
 (
 JSContext
@@ -588,10 +538,8 @@ reader
 ;
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 ReadableStreamDefaultReaderRead
 (
 JSContext

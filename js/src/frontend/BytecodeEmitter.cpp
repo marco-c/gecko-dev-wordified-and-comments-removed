@@ -42636,9 +42636,7 @@ arity
 ;
 }
 JS_FRIEND_API
-(
 unsigned
-)
 js
 :
 :
@@ -42703,9 +42701,7 @@ base
 ;
 }
 JS_FRIEND_API
-(
 ptrdiff_t
-)
 js
 :
 :

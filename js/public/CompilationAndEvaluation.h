@@ -86,9 +86,7 @@ SourceText
 }
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_Utf8BufferIsCompilableUnit
 (
 JSContext
@@ -113,9 +111,7 @@ length
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -145,9 +141,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -166,9 +160,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -208,9 +200,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -242,9 +232,7 @@ JS
 {
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CloneAndExecuteScript
 (
 JSContext
@@ -265,9 +253,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CloneAndExecuteScript
 (
 JSContext
@@ -295,9 +281,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 Evaluate
 (
 JSContext
@@ -322,9 +306,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 Evaluate
 (
 JSContext
@@ -356,9 +338,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 EvaluateUtf8
 (
 JSContext
@@ -383,9 +363,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 EvaluateLatin1
 (
 JSContext
@@ -410,9 +388,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 EvaluateUtf8Path
 (
 JSContext
@@ -435,9 +411,7 @@ rval
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 Compile
 (
 JSContext
@@ -463,9 +437,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8
 (
 JSContext
@@ -491,9 +463,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8DontInflate
 (
 JSContext
@@ -519,9 +489,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileLatin1
 (
 JSContext
@@ -547,9 +515,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8File
 (
 JSContext
@@ -572,9 +538,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8FileDontInflate
 (
 JSContext
@@ -597,9 +561,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileUtf8Path
 (
 JSContext
@@ -623,9 +585,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileForNonSyntacticScope
 (
 JSContext
@@ -651,9 +611,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileLatin1ForNonSyntacticScope
 (
 JSContext
@@ -679,9 +637,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileFunction
 (
 JSContext
@@ -726,9 +682,7 @@ fun
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CompileFunctionUtf8
 (
 JSContext
@@ -773,9 +727,7 @@ fun
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 InitScriptSourceElement
 (
 JSContext
@@ -805,9 +757,7 @@ nullptr
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 ExposeScriptToDebugger
 (
 JSContext

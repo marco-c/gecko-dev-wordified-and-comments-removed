@@ -2419,9 +2419,7 @@ obj
 }
 ;
 JS_FRIEND_API
-(
 uint64_t
-)
 js
 :
 :
@@ -15041,9 +15039,7 @@ namespace
 js
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_ReadStructuredClone
 (
 JSContext
@@ -15118,9 +15114,7 @@ closure
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteStructuredClone
 (
 JSContext
@@ -15191,9 +15185,7 @@ transferable
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_StructuredCloneHasTransferables
 (
 JSStructuredCloneData
@@ -15217,9 +15209,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_StructuredClone
 (
 JSContext
@@ -15915,9 +15905,7 @@ ok
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_ReadUint32Pair
 (
 JSStructuredCloneReader
@@ -15955,9 +15943,7 @@ p2
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_ReadBytes
 (
 JSStructuredCloneReader
@@ -15986,9 +15972,7 @@ len
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_ReadTypedArray
 (
 JSStructuredCloneReader
@@ -16126,9 +16110,7 @@ false
 }
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteUint32Pair
 (
 JSStructuredCloneWriter
@@ -16156,9 +16138,7 @@ data
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteBytes
 (
 JSStructuredCloneWriter
@@ -16188,9 +16168,7 @@ len
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteString
 (
 JSStructuredCloneWriter
@@ -16212,9 +16190,7 @@ str
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_WriteTypedArray
 (
 JSStructuredCloneWriter
@@ -16301,9 +16277,7 @@ obj
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_ObjectNotWritten
 (
 JSStructuredCloneWriter
@@ -16336,12 +16310,10 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 JS
 :
 :
 StructuredCloneScope
-)
 JS_GetStructuredCloneScope
 (
 JSStructuredCloneWriter

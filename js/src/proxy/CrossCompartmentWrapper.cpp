@@ -2652,9 +2652,7 @@ wrapper
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -2721,9 +2719,7 @@ wrapper
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -3359,9 +3355,7 @@ RemapWrapper
 }
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -3512,9 +3506,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :

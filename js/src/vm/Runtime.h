@@ -3530,10 +3530,8 @@ nullptr
 ;
 }
 JS_FRIEND_API
-(
 void
 *
-)
 onOutOfMemory
 (
 js
@@ -3556,10 +3554,8 @@ nullptr
 )
 ;
 JS_FRIEND_API
-(
 void
 *
-)
 onOutOfMemoryCanGC
 (
 js

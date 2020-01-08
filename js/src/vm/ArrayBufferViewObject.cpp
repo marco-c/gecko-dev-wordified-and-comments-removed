@@ -953,9 +953,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS_IsArrayBufferViewObject
 (
 JSObject
@@ -986,10 +984,8 @@ ArrayBufferViewObject
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :
@@ -1033,10 +1029,8 @@ nullptr
 ;
 }
 JS_FRIEND_API
-(
 void
 *
-)
 JS_GetArrayBufferViewData
 (
 JSObject
@@ -1106,10 +1100,8 @@ unwrap
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 JS_GetArrayBufferViewBuffer
 (
 JSContext
@@ -1265,9 +1257,7 @@ buffer
 ;
 }
 JS_FRIEND_API
-(
 uint32_t
-)
 JS_GetArrayBufferViewByteLength
 (
 JSObject
@@ -1333,9 +1323,7 @@ byteLength
 ;
 }
 JS_FRIEND_API
-(
 uint32_t
-)
 JS_GetArrayBufferViewByteOffset
 (
 JSObject
@@ -1401,10 +1389,8 @@ byteOffset
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 JS_GetObjectAsArrayBufferView
 (
 JSObject
@@ -1475,9 +1461,7 @@ obj
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :

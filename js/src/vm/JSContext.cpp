@@ -1354,9 +1354,7 @@ mutedErrors
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -1619,9 +1617,7 @@ addPendingOverRecursed
 }
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -5283,11 +5279,9 @@ MSG_DEF
 }
 ;
 JS_FRIEND_API
-(
 const
 JSErrorFormatString
 *
-)
 js
 :
 :
@@ -5462,9 +5456,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -5605,9 +5597,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -5668,9 +5658,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -5698,9 +5686,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :

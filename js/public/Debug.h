@@ -576,9 +576,7 @@ object
 }
 ;
 JS_PUBLIC_API
-(
 void
-)
 SetDebuggerMallocSizeOf
 (
 JSContext
@@ -592,12 +590,10 @@ mallocSizeOf
 )
 ;
 JS_PUBLIC_API
-(
 mozilla
 :
 :
 MallocSizeOf
-)
 GetDebuggerMallocSizeOf
 (
 JSContext
@@ -606,9 +602,7 @@ cx
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 FireOnGarbageCollectionHookRequired
 (
 JSContext
@@ -617,9 +611,7 @@ cx
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 FireOnGarbageCollectionHook
 (
 JSContext
@@ -635,9 +627,7 @@ data
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 IsDebugger
 (
 JSObject
@@ -646,9 +636,7 @@ obj
 )
 ;
 JS_PUBLIC_API
-(
 bool
-)
 GetDebuggeeGlobals
 (
 JSContext
@@ -665,9 +653,7 @@ vector
 class
 MOZ_STACK_CLASS
 JS_PUBLIC_API
-(
 AutoEntryMonitor
-)
 {
 JSContext
 *

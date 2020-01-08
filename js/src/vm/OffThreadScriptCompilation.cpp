@@ -289,9 +289,7 @@ IsRecordingOrReplaying
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -322,9 +320,7 @@ Compile
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -358,9 +354,7 @@ Decode
 ifdef
 JS_BUILD_BINAST
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -393,9 +387,7 @@ DecodeBinAST
 #
 endif
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -450,10 +442,8 @@ callbackData
 ;
 }
 JS_PUBLIC_API
-(
 JSScript
 *
-)
 JS
 :
 :
@@ -501,9 +491,7 @@ token
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -559,9 +547,7 @@ token
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -616,10 +602,8 @@ callbackData
 ;
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -667,9 +651,7 @@ token
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -725,9 +707,7 @@ token
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -806,9 +786,7 @@ callbackData
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -864,9 +842,7 @@ callbackData
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -942,10 +918,8 @@ callbackData
 ;
 }
 JS_PUBLIC_API
-(
 JSScript
 *
-)
 JS
 :
 :
@@ -993,9 +967,7 @@ token
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -1051,9 +1023,7 @@ token
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -1107,9 +1077,7 @@ scripts
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :

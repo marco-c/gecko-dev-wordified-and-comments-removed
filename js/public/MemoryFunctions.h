@@ -32,10 +32,8 @@ JSContext
 ;
 extern
 JS_PUBLIC_API
-(
 void
 *
-)
 JS_malloc
 (
 JSContext
@@ -47,10 +45,8 @@ nbytes
 ;
 extern
 JS_PUBLIC_API
-(
 void
 *
-)
 JS_realloc
 (
 JSContext
@@ -67,9 +63,7 @@ newBytes
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_free
 (
 JSContext
@@ -82,9 +76,7 @@ p
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_freeop
 (
 JSFreeOp
@@ -97,9 +89,7 @@ p
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_updateMallocCounter
 (
 JSContext

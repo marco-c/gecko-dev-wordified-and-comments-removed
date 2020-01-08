@@ -367,9 +367,7 @@ Release
 ifdef
 DEBUG
 JS_PUBLIC_API
-(
 void
-)
 JSPrincipals
 :
 :

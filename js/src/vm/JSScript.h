@@ -13223,9 +13223,7 @@ lineno
 ;
 extern
 JS_FRIEND_API
-(
 unsigned
-)
 GetScriptLineExtent
 (
 JSScript

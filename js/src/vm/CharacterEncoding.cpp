@@ -412,9 +412,7 @@ nbytes
 ;
 }
 JS_PUBLIC_API
-(
 size_t
-)
 JS
 :
 :
@@ -816,9 +814,7 @@ numcharsp
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :

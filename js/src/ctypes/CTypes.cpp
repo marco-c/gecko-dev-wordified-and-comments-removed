@@ -11025,9 +11025,7 @@ js
 ctypes
 ;
 JS_PUBLIC_API
-(
 bool
-)
 JS_InitCTypesClass
 (
 JSContext
@@ -11229,9 +11227,7 @@ ctypes
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS_SetCTypesCallbacks
 (
 JSObject
@@ -11278,9 +11274,7 @@ namespace
 js
 {
 JS_FRIEND_API
-(
 size_t
-)
 SizeOfDataIfCDataObject
 (
 mozilla

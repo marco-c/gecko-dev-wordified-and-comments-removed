@@ -19,9 +19,7 @@ ifdef
 JS_TRACE_LOGGING
 extern
 JS_PUBLIC_API
-(
 void
-)
 StartTraceLogger
 (
 JSContext
@@ -36,9 +34,7 @@ profilerStart
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 StopTraceLogger
 (
 JSContext
@@ -48,9 +44,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 ResetTraceLogger
 (
 void

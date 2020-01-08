@@ -2588,9 +2588,7 @@ address
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -2738,10 +2736,8 @@ true
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :
@@ -2819,9 +2815,7 @@ varEnv
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -2853,9 +2847,7 @@ emptyChain
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -3001,10 +2993,8 @@ env
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 js
 :
 :
@@ -3088,9 +3078,7 @@ env
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :

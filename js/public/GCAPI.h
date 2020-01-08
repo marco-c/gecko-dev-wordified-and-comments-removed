@@ -82,9 +82,7 @@ Wattributes
 endif
 class
 JS_PUBLIC_API
-(
 JSTracer
-)
 ;
 #
 ifdef
@@ -764,11 +762,9 @@ NUM_TELEMETRY_REASONS
 ;
 extern
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 ExplainReason
 (
 JS
@@ -784,9 +780,7 @@ reason
 }
 extern
 JS_PUBLIC_API
-(
 void
-)
 PrepareZoneForGC
 (
 Zone
@@ -796,9 +790,7 @@ zone
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 PrepareForFullGC
 (
 JSContext
@@ -808,9 +800,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 PrepareForIncrementalGC
 (
 JSContext
@@ -820,9 +810,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsGCScheduled
 (
 JSContext
@@ -832,9 +820,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 SkipZoneForGC
 (
 Zone
@@ -844,9 +830,7 @@ zone
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 NonIncrementalGC
 (
 JSContext
@@ -863,9 +847,7 @@ reason
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 StartIncrementalGC
 (
 JSContext
@@ -886,9 +868,7 @@ millis
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 IncrementalGCSlice
 (
 JSContext
@@ -907,9 +887,7 @@ millis
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 FinishIncrementalGC
 (
 JSContext
@@ -924,9 +902,7 @@ reason
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 AbortIncrementalGC
 (
 JSContext
@@ -1095,9 +1071,7 @@ GC_CYCLE_END
 ;
 struct
 JS_PUBLIC_API
-(
 GCDescription
-)
 {
 bool
 isZone_
@@ -1273,9 +1247,7 @@ const
 ;
 extern
 JS_PUBLIC_API
-(
 UniqueChars
-)
 MinorGcToJSON
 (
 JSContext
@@ -1303,9 +1275,7 @@ desc
 ;
 extern
 JS_PUBLIC_API
-(
 GCSliceCallback
-)
 SetGCSliceCallback
 (
 JSContext
@@ -1345,9 +1315,7 @@ reason
 ;
 extern
 JS_PUBLIC_API
-(
 GCNurseryCollectionCallback
-)
 SetGCNurseryCollectionCallback
 (
 JSContext
@@ -1371,9 +1339,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 DoCycleCollectionCallback
-)
 SetDoCycleCollectionCallback
 (
 JSContext
@@ -1385,9 +1351,7 @@ callback
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 DisableIncrementalGC
 (
 JSContext
@@ -1397,9 +1361,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIncrementalGCEnabled
 (
 JSContext
@@ -1409,9 +1371,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIncrementalGCInProgress
 (
 JSContext
@@ -1421,9 +1381,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIncrementalGCInProgress
 (
 JSRuntime
@@ -1433,9 +1391,7 @@ rt
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 WasIncrementalGC
 (
 JSRuntime
@@ -1445,9 +1401,7 @@ rt
 ;
 class
 JS_PUBLIC_API
-(
 AutoDisableGenerationalGC
-)
 {
 JSContext
 *
@@ -1472,9 +1426,7 @@ AutoDisableGenerationalGC
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsGenerationalGCEnabled
 (
 JSRuntime
@@ -1484,9 +1436,7 @@ rt
 ;
 class
 JS_PUBLIC_API
-(
 AutoRequireNoGC
-)
 {
 protected
 :
@@ -1505,9 +1455,7 @@ AutoRequireNoGC
 ;
 class
 JS_PUBLIC_API
-(
 AutoAssertNoGC
-)
 :
 public
 AutoRequireNoGC
@@ -1566,9 +1514,7 @@ ifdef
 DEBUG
 class
 JS_PUBLIC_API
-(
 AutoSuppressGCAnalysis
-)
 :
 public
 AutoAssertNoGC
@@ -1598,9 +1544,7 @@ JS_HAZ_GC_SUPPRESSED
 else
 class
 JS_PUBLIC_API
-(
 AutoSuppressGCAnalysis
-)
 :
 public
 AutoRequireNoGC
@@ -1625,9 +1569,7 @@ JS_HAZ_GC_SUPPRESSED
 endif
 class
 JS_PUBLIC_API
-(
 AutoAssertGCCallback
-)
 :
 public
 AutoSuppressGCAnalysis
@@ -1657,9 +1599,7 @@ ifdef
 DEBUG
 class
 JS_PUBLIC_API
-(
 AutoCheckCannotGC
-)
 :
 public
 AutoAssertNoGC
@@ -1689,9 +1629,7 @@ JS_HAZ_GC_INVALIDATED
 else
 class
 JS_PUBLIC_API
-(
 AutoCheckCannotGC
-)
 :
 public
 AutoRequireNoGC
@@ -1716,9 +1654,7 @@ JS_HAZ_GC_INVALIDATED
 endif
 extern
 JS_FRIEND_API
-(
 void
-)
 NotifyGCRootsRemoved
 (
 JSContext
@@ -1729,9 +1665,7 @@ cx
 }
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_AddExtraGCRootsTracer
 (
 JSContext
@@ -1746,9 +1680,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_RemoveExtraGCRootsTracer
 (
 JSContext
@@ -1763,9 +1695,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_GC
 (
 JSContext
@@ -1775,9 +1705,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_MaybeGC
 (
 JSContext
@@ -1787,9 +1715,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetGCCallback
 (
 JSContext
@@ -1804,9 +1730,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetObjectsTenuredCallback
 (
 JSContext
@@ -1821,9 +1745,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_AddFinalizeCallback
 (
 JSContext
@@ -1838,9 +1760,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_RemoveFinalizeCallback
 (
 JSContext
@@ -1852,9 +1772,7 @@ cb
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_AddWeakPointerZonesCallback
 (
 JSContext
@@ -1869,9 +1787,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_RemoveWeakPointerZonesCallback
 (
 JSContext
@@ -1883,9 +1799,7 @@ cb
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_AddWeakPointerCompartmentCallback
 (
 JSContext
@@ -1900,9 +1814,7 @@ data
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_RemoveWeakPointerCompartmentCallback
 (
 JSContext
@@ -1926,9 +1838,7 @@ Heap
 }
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_UpdateWeakPointerAfterGC
 (
 JS
@@ -1945,9 +1855,7 @@ objp
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_UpdateWeakPointerAfterGCUnbarriered
 (
 JSObject
@@ -1958,9 +1866,7 @@ objp
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetGCParameter
 (
 JSContext
@@ -1974,9 +1880,7 @@ value
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_ResetGCParameter
 (
 JSContext
@@ -1988,9 +1892,7 @@ key
 ;
 extern
 JS_PUBLIC_API
-(
 uint32_t
-)
 JS_GetGCParameter
 (
 JSContext
@@ -2002,9 +1904,7 @@ key
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 JS_SetGCParametersBasedOnAvailableMemory
 (
 JSContext
@@ -2016,10 +1916,8 @@ availMem
 ;
 extern
 JS_PUBLIC_API
-(
 JSString
 *
-)
 JS_NewExternalString
 (
 JSContext
@@ -2039,10 +1937,8 @@ fin
 ;
 extern
 JS_PUBLIC_API
-(
 JSString
 *
-)
 JS_NewMaybeExternalString
 (
 JSContext
@@ -2065,9 +1961,7 @@ allocatedExternal
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_IsExternalString
 (
 JSString
@@ -2077,11 +1971,9 @@ str
 ;
 extern
 JS_PUBLIC_API
-(
 const
 JSStringFinalizer
 *
-)
 JS_GetExternalStringFinalizer
 (
 JSString
@@ -2094,9 +1986,7 @@ JS
 {
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIdleGCTaskNeeded
 (
 JSRuntime
@@ -2106,9 +1996,7 @@ rt
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 RunIdleTimeGCTask
 (
 JSRuntime
@@ -2125,10 +2013,8 @@ gc
 {
 extern
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 NewMemoryInfoObject
 (
 JSContext

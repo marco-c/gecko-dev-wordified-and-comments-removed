@@ -75,9 +75,7 @@ ubi
 {
 struct
 JS_PUBLIC_API
-(
 BackEdge
-)
 {
 private
 :
@@ -320,9 +318,7 @@ BackEdge
 ;
 struct
 JS_PUBLIC_API
-(
 ShortestPaths
-)
 {
 private
 :
@@ -1370,9 +1366,7 @@ true
 ifdef
 DEBUG
 JS_PUBLIC_API
-(
 void
-)
 dumpPaths
 (
 JSRuntime

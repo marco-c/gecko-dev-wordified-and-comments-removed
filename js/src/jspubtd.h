@@ -105,9 +105,7 @@ CallArgs
 ;
 class
 JS_PUBLIC_API
-(
 RealmOptions
-)
 ;
 }
 enum
@@ -187,9 +185,7 @@ JSStructuredCloneWriter
 ;
 class
 JS_PUBLIC_API
-(
 JSTracer
-)
 ;
 class
 JSFlatString
@@ -262,9 +258,7 @@ cx
 )
 ;
 JS_FRIEND_API
-(
 bool
-)
 CurrentThreadCanAccessRuntime
 (
 const
@@ -277,9 +271,7 @@ rt
 ifdef
 DEBUG
 JS_FRIEND_API
-(
 bool
-)
 CurrentThreadIsPerformingGC
 (
 )
@@ -292,9 +284,7 @@ JS
 {
 struct
 JS_PUBLIC_API
-(
 PropertyDescriptor
-)
 ;
 enum
 class
@@ -308,9 +298,7 @@ CycleCollecting
 }
 ;
 JS_PUBLIC_API
-(
 HeapState
-)
 RuntimeHeapState
 (
 )
@@ -457,9 +445,7 @@ CycleCollecting
 class
 MOZ_STACK_CLASS
 JS_PUBLIC_API
-(
 AutoEnterCycleCollection
-)
 {
 #
 ifdef

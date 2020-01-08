@@ -646,9 +646,7 @@ class
 PersistentRooted
 ;
 JS_FRIEND_API
-(
 void
-)
 HeapObjectPostBarrier
 (
 JSObject
@@ -664,9 +662,7 @@ next
 )
 ;
 JS_FRIEND_API
-(
 void
-)
 HeapStringPostBarrier
 (
 JSString
@@ -810,9 +806,7 @@ ifdef
 JS_DEBUG
 extern
 JS_FRIEND_API
-(
 void
-)
 AssertGCThingMustBeTenured
 (
 JSObject
@@ -822,9 +816,7 @@ obj
 ;
 extern
 JS_FRIEND_API
-(
 void
-)
 AssertGCThingIsNotNurseryAllocable
 (
 js
@@ -3135,9 +3127,7 @@ T
 >
 struct
 JS_PUBLIC_API
-(
 MovableCellHasher
-)
 {
 using
 Key
@@ -3220,7 +3210,6 @@ T
 >
 struct
 JS_PUBLIC_API
-(
 MovableCellHasher
 <
 JS
@@ -3231,7 +3220,6 @@ Heap
 T
 >
 >
-)
 {
 using
 Key
@@ -3709,9 +3697,7 @@ JS
 {
 class
 JS_PUBLIC_API
-(
 AutoGCRooter
-)
 ;
 template
 <
@@ -3933,9 +3919,7 @@ cx
 ;
 class
 JS_PUBLIC_API
-(
 AutoGCRooter
-)
 {
 protected
 :
@@ -5256,9 +5240,7 @@ address
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 AddPersistentRoot
 (
 RootingContext
@@ -5276,9 +5258,7 @@ root
 )
 ;
 JS_PUBLIC_API
-(
 void
-)
 AddPersistentRoot
 (
 JSRuntime
@@ -5936,9 +5916,7 @@ JS_HAZ_ROOTED
 ;
 class
 JS_PUBLIC_API
-(
 ObjectPtr
-)
 {
 Heap
 <

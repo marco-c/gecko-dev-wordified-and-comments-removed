@@ -446,14 +446,12 @@ INIT_FUNC
 }
 ;
 JS_FRIEND_API
-(
 const
 js
 :
 :
 Class
 *
-)
 js
 :
 :

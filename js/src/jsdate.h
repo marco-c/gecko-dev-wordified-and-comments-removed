@@ -65,10 +65,8 @@ nullptr
 ;
 extern
 JS_FRIEND_API
-(
 JSObject
 *
-)
 NewDateObject
 (
 JSContext

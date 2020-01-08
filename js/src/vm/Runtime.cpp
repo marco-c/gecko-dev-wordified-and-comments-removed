@@ -3560,10 +3560,8 @@ nbytes
 ;
 }
 JS_FRIEND_API
-(
 void
 *
-)
 JSRuntime
 :
 :
@@ -4036,9 +4034,7 @@ performingGC
 #
 endif
 JS_FRIEND_API
-(
 void
-)
 JS
 :
 :
@@ -4066,9 +4062,7 @@ rangeStart
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS
 :
 :
@@ -4103,9 +4097,7 @@ enabled
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :

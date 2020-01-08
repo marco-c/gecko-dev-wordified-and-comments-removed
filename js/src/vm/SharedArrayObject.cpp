@@ -1910,9 +1910,7 @@ SharedArrayBufferObject
 ;
 }
 JS_FRIEND_API
-(
 uint32_t
-)
 JS_GetSharedArrayBufferByteLength
 (
 JSObject
@@ -1948,9 +1946,7 @@ byteLength
 ;
 }
 JS_FRIEND_API
-(
 void
-)
 js
 :
 :
@@ -2029,10 +2025,8 @@ true
 ;
 }
 JS_FRIEND_API
-(
 JSObject
 *
-)
 JS_NewSharedArrayBuffer
 (
 JSContext
@@ -2082,9 +2076,7 @@ nullptr
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS_IsSharedArrayBufferObject
 (
 JSObject
@@ -2116,10 +2108,8 @@ false
 ;
 }
 JS_FRIEND_API
-(
 uint8_t
 *
-)
 JS_GetSharedArrayBufferData
 (
 JSObject

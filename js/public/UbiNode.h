@@ -237,9 +237,7 @@ SystemAllocPolicy
 ;
 class
 JS_PUBLIC_API
-(
 AtomOrTwoByteChars
-)
 :
 public
 Variant
@@ -1602,9 +1600,7 @@ StackFrame
 ;
 MOZ_MUST_USE
 JS_PUBLIC_API
-(
 bool
-)
 ConstructSavedFrameStackSlow
 (
 JSContext
@@ -1754,9 +1750,7 @@ n
 }
 class
 JS_PUBLIC_API
-(
 Base
-)
 {
 friend
 class
@@ -3558,9 +3552,7 @@ settle
 class
 MOZ_STACK_CLASS
 JS_PUBLIC_API
-(
 RootList
-)
 {
 Maybe
 <
@@ -3655,12 +3647,10 @@ template
 >
 class
 JS_PUBLIC_API
-(
 Concrete
 <
 RootList
 >
-)
 :
 public
 Base
@@ -3771,9 +3761,7 @@ Referent
 >
 class
 JS_PUBLIC_API
-(
 TracerConcrete
-)
 :
 public
 Base
@@ -3853,9 +3841,7 @@ Referent
 >
 class
 JS_PUBLIC_API
-(
 TracerConcreteWithRealm
-)
 :
 public
 TracerConcrete
@@ -3915,7 +3901,6 @@ template
 >
 class
 JS_PUBLIC_API
-(
 Concrete
 <
 JS
@@ -3923,7 +3908,6 @@ JS
 :
 Symbol
 >
-)
 :
 TracerConcrete
 <
@@ -4021,7 +4005,6 @@ template
 >
 class
 JS_PUBLIC_API
-(
 Concrete
 <
 JS
@@ -4029,7 +4012,6 @@ JS
 :
 BigInt
 >
-)
 :
 TracerConcrete
 <
@@ -4126,12 +4108,10 @@ template
 >
 class
 JS_PUBLIC_API
-(
 Concrete
 <
 JSScript
 >
-)
 :
 TracerConcreteWithRealm
 <
@@ -4243,12 +4223,10 @@ template
 >
 class
 JS_PUBLIC_API
-(
 Concrete
 <
 JSObject
 >
-)
 :
 public
 TracerConcrete
@@ -4401,12 +4379,10 @@ template
 >
 class
 JS_PUBLIC_API
-(
 Concrete
 <
 JSString
 >
-)
 :
 TracerConcrete
 <
@@ -4509,12 +4485,10 @@ template
 >
 class
 JS_PUBLIC_API
-(
 Concrete
 <
 void
 >
-)
 :
 public
 Base

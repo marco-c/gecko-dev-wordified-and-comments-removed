@@ -999,9 +999,7 @@ true
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS_NondeterministicGetWeakMapKeys
 (
 JSContext
@@ -1168,10 +1166,8 @@ map
 }
 }
 JS_PUBLIC_API
-(
 JSObject
 *
-)
 JS
 :
 :
@@ -1193,9 +1189,7 @@ cx
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -1219,9 +1213,7 @@ WeakMapObject
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -1334,9 +1326,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :

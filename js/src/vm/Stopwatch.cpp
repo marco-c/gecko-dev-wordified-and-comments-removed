@@ -2039,9 +2039,7 @@ Delete
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 SetStopwatchStartCallback
 (
 JSContext
@@ -2077,9 +2075,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 SetStopwatchCommitCallback
 (
 JSContext
@@ -2115,9 +2111,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 SetGetPerformanceGroupsCallback
 (
 JSContext
@@ -2153,9 +2147,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 FlushPerformanceMonitoring
 (
 JSContext
@@ -2182,9 +2174,7 @@ commit
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 ResetPerformanceMonitoring
 (
 JSContext
@@ -2211,9 +2201,7 @@ reset
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 DisposePerformanceMonitoring
 (
 JSContext
@@ -2246,9 +2234,7 @@ runtime
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 SetStopwatchIsMonitoringJank
 (
 JSContext
@@ -2278,9 +2264,7 @@ value
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 GetStopwatchIsMonitoringJank
 (
 JSContext
@@ -2307,9 +2291,7 @@ isMonitoringJank
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 SetStopwatchIsMonitoringCPOW
 (
 JSContext
@@ -2339,9 +2321,7 @@ value
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 GetStopwatchIsMonitoringCPOW
 (
 JSContext
@@ -2368,9 +2348,7 @@ isMonitoringCPOW
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 GetPerfMonitoringTestCpuRescheduling
 (
 JSContext
@@ -2424,9 +2402,7 @@ moved
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 AddCPOWPerformanceDelta
 (
 JSContext

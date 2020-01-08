@@ -363,11 +363,9 @@ while
 0
 )
 JS_PUBLIC_API
-(
 const
 char
 *
-)
 JS
 :
 :
@@ -774,9 +772,7 @@ nullptr
 undef
 RETURN_IF_FAIL
 JS_PUBLIC_API
-(
 void
-)
 JS_ShutDown
 (
 void
@@ -1030,9 +1026,7 @@ ShutDown
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_SetICUMemoryFunctions
 (
 JS_ICUAllocFn

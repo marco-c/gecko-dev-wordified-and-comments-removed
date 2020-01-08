@@ -1981,9 +1981,7 @@ OnGarbageCollection
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -2016,12 +2014,10 @@ mallocSizeOf
 ;
 }
 JS_PUBLIC_API
-(
 mozilla
 :
 :
 MallocSizeOf
-)
 JS
 :
 :

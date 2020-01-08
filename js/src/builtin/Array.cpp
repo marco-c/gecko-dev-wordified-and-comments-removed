@@ -1327,9 +1327,7 @@ false
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -1392,9 +1390,7 @@ indexp
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :
@@ -1421,9 +1417,7 @@ indexp
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 js
 :
 :

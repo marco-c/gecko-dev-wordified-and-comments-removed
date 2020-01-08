@@ -43,9 +43,7 @@ namespace
 js
 {
 JS_FRIEND_API
-(
 bool
-)
 CurrentThreadCanAccessZone
 (
 JS
@@ -324,9 +322,7 @@ ifdef
 JS_DEBUG
 extern
 JS_FRIEND_API
-(
 void
-)
 AssertGCThingHasType
 (
 js
@@ -1021,9 +1017,7 @@ WellKnownAPILimit
 }
 class
 JS_FRIEND_API
-(
 GCCellPtr
-)
 {
 public
 :
@@ -2219,9 +2213,7 @@ cell
 }
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CellIsMarkedGrayIfKnown
 (
 const
@@ -2235,9 +2227,7 @@ ifdef
 DEBUG
 extern
 JS_PUBLIC_API
-(
 bool
-)
 CellIsNotGray
 (
 const
@@ -2248,9 +2238,7 @@ cell
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 ObjectIsMarkedBlack
 (
 const
@@ -2618,10 +2606,8 @@ unsafeAsUIntPtr
 }
 extern
 JS_PUBLIC_API
-(
 Zone
 *
-)
 GetNurseryStringZone
 (
 JSString
@@ -2699,10 +2685,8 @@ str
 }
 extern
 JS_PUBLIC_API
-(
 Zone
 *
-)
 GetObjectZone
 (
 JSObject
@@ -2754,12 +2738,10 @@ asCell
 }
 extern
 JS_PUBLIC_API
-(
 JS
 :
 :
 TraceKind
-)
 GCThingTraceKind
 (
 void
@@ -2769,9 +2751,7 @@ thing
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 EnableNurseryStrings
 (
 JSContext
@@ -2781,9 +2761,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 DisableNurseryStrings
 (
 JSContext
@@ -2793,9 +2771,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 IsIncrementalBarrierNeeded
 (
 JSContext
@@ -2805,9 +2781,7 @@ cx
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 IncrementalPreWriteBarrier
 (
 JSObject
@@ -2817,9 +2791,7 @@ obj
 ;
 extern
 JS_PUBLIC_API
-(
 void
-)
 IncrementalReadBarrier
 (
 GCCellPtr
@@ -2828,9 +2800,7 @@ thing
 ;
 extern
 JS_FRIEND_API
-(
 bool
-)
 UnmarkGrayGCThingRecursively
 (
 GCCellPtr
@@ -3045,9 +3015,7 @@ T
 >
 extern
 JS_PUBLIC_API
-(
 bool
-)
 EdgeNeedsSweepUnbarrieredSlow
 (
 T

@@ -188,9 +188,7 @@ TranscodeResult_Throw
 ;
 extern
 JS_PUBLIC_API
-(
 TranscodeResult
-)
 EncodeScript
 (
 JSContext
@@ -209,9 +207,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 TranscodeResult
-)
 EncodeInterpretedFunction
 (
 JSContext
@@ -230,9 +226,7 @@ funobj
 ;
 extern
 JS_PUBLIC_API
-(
 TranscodeResult
-)
 DecodeScript
 (
 JSContext
@@ -255,9 +249,7 @@ cursorIndex
 ;
 extern
 JS_PUBLIC_API
-(
 TranscodeResult
-)
 DecodeScript
 (
 JSContext
@@ -277,9 +269,7 @@ scriptp
 ;
 extern
 JS_PUBLIC_API
-(
 TranscodeResult
-)
 DecodeInterpretedFunction
 (
 JSContext
@@ -302,9 +292,7 @@ cursorIndex
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 StartIncrementalEncoding
 (
 JSContext
@@ -320,9 +308,7 @@ script
 ;
 extern
 JS_PUBLIC_API
-(
 bool
-)
 FinishIncrementalEncoding
 (
 JSContext

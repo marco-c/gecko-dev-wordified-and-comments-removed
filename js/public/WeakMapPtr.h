@@ -32,9 +32,7 @@ V
 >
 class
 JS_PUBLIC_API
-(
 WeakMapPtr
-)
 {
 public
 :

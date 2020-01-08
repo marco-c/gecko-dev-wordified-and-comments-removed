@@ -8903,9 +8903,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -9299,9 +9297,7 @@ vp
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -9381,9 +9377,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -9463,9 +9457,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -9545,9 +9537,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -9627,9 +9617,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -9709,9 +9697,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -9891,9 +9877,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :
@@ -9973,9 +9957,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 js
 :
 :

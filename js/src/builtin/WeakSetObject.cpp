@@ -1308,9 +1308,7 @@ global
 ;
 }
 JS_FRIEND_API
-(
 bool
-)
 JS_NondeterministicGetWeakSetKeys
 (
 JSContext

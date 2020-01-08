@@ -625,9 +625,7 @@ contextName_
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -881,9 +879,7 @@ tp
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -1760,9 +1756,7 @@ linear
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS_GetTraceThingInfo
 (
 char

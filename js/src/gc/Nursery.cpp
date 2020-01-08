@@ -6895,9 +6895,7 @@ clearAndFree
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -6949,9 +6947,7 @@ enableStrings
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :

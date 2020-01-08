@@ -80,9 +80,7 @@ DisabledByDebugger
 ;
 class
 JS_PUBLIC_API
-(
 TransitiveCompileOptions
-)
 {
 protected
 :
@@ -311,15 +309,11 @@ delete
 ;
 class
 JS_PUBLIC_API
-(
 CompileOptions
-)
 ;
 class
 JS_PUBLIC_API
-(
 ReadOnlyCompileOptions
-)
 :
 public
 TransitiveCompileOptions
@@ -482,9 +476,7 @@ delete
 ;
 class
 JS_PUBLIC_API
-(
 OwningCompileOptions
-)
 final
 :
 public
@@ -979,9 +971,7 @@ delete
 class
 MOZ_STACK_CLASS
 JS_PUBLIC_API
-(
 CompileOptions
-)
 final
 :
 public

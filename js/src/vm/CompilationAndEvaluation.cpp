@@ -267,9 +267,7 @@ namespace
 js
 ;
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -1111,9 +1109,7 @@ script
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS_Utf8BufferIsCompilableUnit
 (
 JSContext
@@ -1816,9 +1812,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -2071,9 +2065,7 @@ fun
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -2187,9 +2179,7 @@ fun
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -2259,9 +2249,7 @@ elementAttrName
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -2515,9 +2503,7 @@ rval
 }
 MOZ_NEVER_INLINE
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -2563,9 +2549,7 @@ address
 }
 MOZ_NEVER_INLINE
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -2605,9 +2589,7 @@ nullptr
 }
 MOZ_NEVER_INLINE
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -2638,9 +2620,7 @@ address
 }
 MOZ_NEVER_INLINE
 JS_PUBLIC_API
-(
 bool
-)
 JS_ExecuteScript
 (
 JSContext
@@ -2664,9 +2644,7 @@ nullptr
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -2782,9 +2760,7 @@ address
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -3111,9 +3087,7 @@ rval
 }
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -3237,9 +3211,7 @@ rval
 }
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -3353,9 +3325,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -3414,9 +3384,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -3456,9 +3424,7 @@ rval
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :

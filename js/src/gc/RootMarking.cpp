@@ -3368,9 +3368,7 @@ clearAndFree
 }
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :
@@ -3424,9 +3422,7 @@ root
 ;
 }
 JS_PUBLIC_API
-(
 void
-)
 JS
 :
 :

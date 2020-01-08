@@ -62,9 +62,7 @@ Wattributes
 endif
 class
 JS_PUBLIC_API
-(
 JSTracer
-)
 ;
 #
 ifdef
@@ -860,10 +858,8 @@ spOrScript
 ;
 }
 JS_PUBLIC_API
-(
 JSScript
 *
-)
 script
 (
 )
@@ -901,10 +897,8 @@ script
 ;
 }
 JS_FRIEND_API
-(
 jsbytecode
 *
-)
 pc
 (
 )
@@ -937,9 +931,7 @@ NullPCOffset
 }
 ;
 JS_FRIEND_API
-(
 void
-)
 SetContextProfilingStack
 (
 JSContext
@@ -951,9 +943,7 @@ profilingStack
 )
 ;
 JS_FRIEND_API
-(
 void
-)
 EnableContextProfilingStack
 (
 JSContext
@@ -964,9 +954,7 @@ enabled
 )
 ;
 JS_FRIEND_API
-(
 void
-)
 RegisterContextProfilingEventMarker
 (
 JSContext
@@ -1015,9 +1003,7 @@ UnregisterThreadCallback
 )
 ;
 JS_FRIEND_API
-(
 void
-)
 SetProfilingThreadCallbacks
 (
 RegisterThreadCallback

@@ -196,9 +196,7 @@ Wattributes
 endif
 class
 JS_PUBLIC_API
-(
 AutoEntryMonitor
-)
 ;
 #
 ifdef

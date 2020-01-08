@@ -66112,9 +66112,7 @@ savedMonitor_
 }
 extern
 JS_PUBLIC_API
-(
 bool
-)
 JS_DefineDebuggerObject
 (
 JSContext
@@ -66581,9 +66579,7 @@ true
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -66642,9 +66638,7 @@ nullptr
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 JS
 :
 :
@@ -67660,9 +67654,7 @@ obj
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 FireOnGarbageCollectionHookRequired
 (
 JSContext
@@ -67743,9 +67735,7 @@ false
 ;
 }
 JS_PUBLIC_API
-(
 bool
-)
 FireOnGarbageCollectionHook
 (
 JSContext

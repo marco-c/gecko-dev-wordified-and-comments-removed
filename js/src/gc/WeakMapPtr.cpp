@@ -670,12 +670,10 @@ NullValue
 template
 class
 JS_PUBLIC_API
-(
 JS
 :
 :
 WeakMapPtr
-)
 <
 JSObject
 *
@@ -689,12 +687,10 @@ DEBUG
 template
 class
 JS_PUBLIC_API
-(
 JS
 :
 :
 WeakMapPtr
-)
 <
 JSObject
 *
