@@ -26626,6 +26626,9 @@ JSOP_BITAND
 case
 JSOP_MUL
 :
+case
+JSOP_DIV
+:
 break
 ;
 default
