@@ -156,6 +156,11 @@ pipfile
 -
 updates
 }
+taskcluster
+-
+proxy
+:
+true
 max
 -
 run
