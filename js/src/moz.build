@@ -1315,6 +1315,16 @@ h
 /
 public
 /
+SourceBufferHolder
+.
+h
+'
+'
+.
+.
+/
+public
+/
 StableStringChars
 .
 h
