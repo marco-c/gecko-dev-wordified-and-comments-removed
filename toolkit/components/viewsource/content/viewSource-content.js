@@ -938,8 +938,8 @@ nsISHEntry
 ;
 shEntry
 .
-setURI
-(
+URI
+=
 Services
 .
 io
@@ -947,7 +947,6 @@ io
 newURI
 (
 viewSrcURL
-)
 )
 ;
 shEntry
@@ -975,7 +974,7 @@ systemPrincipal
 ;
 shEntry
 .
-setAsHistoryLoad
+setLoadTypeAsHistory
 (
 )
 ;

@@ -3626,7 +3626,7 @@ NS_IMETHODIMP
 nsSHEntry
 :
 :
-SetAsHistoryLoad
+SetLoadTypeAsHistory
 (
 )
 {
