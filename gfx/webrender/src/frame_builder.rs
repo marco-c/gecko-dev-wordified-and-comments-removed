@@ -563,6 +563,10 @@ has_non_root_coord_system
 :
 bool
 pub
+is_cacheable
+:
+bool
+pub
 local_rect_changed
 :
 bool
