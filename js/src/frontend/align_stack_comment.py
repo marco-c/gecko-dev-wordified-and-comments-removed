@@ -55,7 +55,7 @@ import
 sys
 ALIGNMENT_COLUMN
 =
-30
+20
 MAX_CHARS_PER_LINE
 =
 80
