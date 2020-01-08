@@ -503,6 +503,7 @@ def
 start
 (
 self
+group_metadata
 *
 *
 kwargs

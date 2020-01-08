@@ -1020,6 +1020,7 @@ def
 init
 (
 self
+group_metadata
 )
 :
         
@@ -1153,6 +1154,9 @@ browser
 .
 start
 (
+group_metadata
+=
+group_metadata
 *
 *
 self
@@ -2928,6 +2932,11 @@ browser
 .
 init
 (
+self
+.
+state
+.
+group_metadata
 )
         
 if
