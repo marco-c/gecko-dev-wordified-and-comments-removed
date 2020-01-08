@@ -1727,6 +1727,15 @@ strstr
 (
 startName
 "
+CGColorSpaceCreateDeviceGray
+"
+)
+|
+|
+strstr
+(
+startName
+"
 CGColorSpaceCreateDeviceRGB
 "
 )

@@ -2680,6 +2680,14 @@ RR_ScalarRval
 \
 MACRO
 (
+CGColorSpaceCreateDeviceGray
+RR_ScalarRval
+nullptr
+Middleman_CreateCFTypeRval
+)
+\
+MACRO
+(
 CGColorSpaceCreateDeviceRGB
 RR_ScalarRval
 nullptr
