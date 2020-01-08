@@ -1665,6 +1665,21 @@ MT
 "
 )
         
+else
+:
+            
+cmake_args
++
+=
+[
+"
+-
+DLLVM_LINK_LLVM_DYLIB
+=
+ON
+"
+]
+        
 if
 ranlib
 is
