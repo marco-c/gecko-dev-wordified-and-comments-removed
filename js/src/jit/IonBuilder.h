@@ -4073,6 +4073,14 @@ jsop_importmeta
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_dynamic_import
+(
+)
+;
 enum
 InliningStatus
 {

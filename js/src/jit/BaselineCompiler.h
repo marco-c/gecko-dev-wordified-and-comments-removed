@@ -1206,6 +1206,11 @@ _
 (
 JSOP_IMPORTMETA
 )
+\
+_
+(
+JSOP_DYNAMIC_IMPORT
+)
 class
 BaselineCompiler
 final
