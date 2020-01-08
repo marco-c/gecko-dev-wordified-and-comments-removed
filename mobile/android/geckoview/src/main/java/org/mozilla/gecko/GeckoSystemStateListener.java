@@ -52,6 +52,13 @@ Handler
 import
 android
 .
+os
+.
+Looper
+;
+import
+android
+.
 provider
 .
 Settings
@@ -259,6 +266,11 @@ ContentObserver
 new
 Handler
 (
+Looper
+.
+getMainLooper
+(
+)
 )
 )
 {

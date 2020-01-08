@@ -1401,6 +1401,17 @@ null
 )
 ;
 }
+GeckoSystemStateListener
+.
+getInstance
+(
+)
+.
+initialize
+(
+context
+)
+;
 final
 String
 resourcePath
