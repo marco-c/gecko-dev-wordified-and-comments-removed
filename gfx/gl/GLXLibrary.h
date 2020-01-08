@@ -793,6 +793,15 @@ mHasRobustness
 ;
 }
 bool
+HasVideoMemoryPurge
+(
+)
+{
+return
+mHasVideoMemoryPurge
+;
+}
+bool
 HasCreateContextAttribs
 (
 )
@@ -1266,6 +1275,11 @@ false
 ;
 bool
 mHasRobustness
+=
+false
+;
+bool
+mHasVideoMemoryPurge
 =
 false
 ;
