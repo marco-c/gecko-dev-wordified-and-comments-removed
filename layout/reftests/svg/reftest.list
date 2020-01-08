@@ -4640,17 +4640,6 @@ skiaContent
 1
 5
 )
-pref
-(
-svg
-.
-marker
--
-improvements
-.
-enabled
-true
-)
 =
 =
 marker

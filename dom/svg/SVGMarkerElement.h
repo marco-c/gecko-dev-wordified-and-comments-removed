@@ -556,12 +556,6 @@ return
 mOrientType
 ;
 }
-static
-bool
-MarkerImprovementsPrefEnabled
-(
-)
-;
 already_AddRefed
 <
 SVGAnimatedRect
