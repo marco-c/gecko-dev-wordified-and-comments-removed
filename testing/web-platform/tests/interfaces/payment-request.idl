@@ -645,7 +645,7 @@ PaymentValidationErrors
 PayerErrorFields
 payer
 ;
-AddressErrorFields
+AddressErrors
 shippingAddress
 ;
 }
