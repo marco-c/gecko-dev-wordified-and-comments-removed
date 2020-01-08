@@ -185,14 +185,6 @@ mode
 ;
 virtual
 void
-Stop
-(
-)
-=
-0
-;
-virtual
-void
 Capture
 (
 )

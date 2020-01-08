@@ -207,14 +207,6 @@ callback
 ;
 virtual
 void
-Stop
-(
-)
-=
-0
-;
-virtual
-void
 SetSharedMemoryFactory
 (
 std
