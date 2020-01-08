@@ -384,12 +384,6 @@ UpdateStyleSheet
 nsICSSLoaderObserver
 *
 aObserver
-ForceUpdate
-=
-ForceUpdate
-:
-:
-No
 )
 =
 0

@@ -180,7 +180,6 @@ UpdateStyleSheet
 (
 nsICSSLoaderObserver
 *
-ForceUpdate
 )
 override
 ;
