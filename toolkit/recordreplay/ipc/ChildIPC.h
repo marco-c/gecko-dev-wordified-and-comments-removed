@@ -86,17 +86,7 @@ aObserver
 )
 ;
 void
-NotifyVsyncObserver
-(
-)
-;
-void
 NotifyPaintStart
-(
-)
-;
-void
-WaitForPaintToComplete
 (
 )
 ;
