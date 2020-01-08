@@ -846,6 +846,14 @@ this
 buttonRef
 )
 {
+this
+.
+buttonRef
+.
+focus
+(
+)
+;
 if
 (
 this
