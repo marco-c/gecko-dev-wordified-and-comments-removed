@@ -275,12 +275,6 @@ cocoaWidget
 -
 24
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 vertical
@@ -303,11 +297,6 @@ collapse
 ref
 .
 html
-#
-bug
-1393907
-for
-webrender
 =
 =
 fixed
