@@ -8616,13 +8616,6 @@ _handleTabSelect
 (
 )
 ;
-gBrowser
-.
-clearMultiSelectedTabs
-(
-true
-)
-;
 ]
 ]
 >
