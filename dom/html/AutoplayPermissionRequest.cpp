@@ -339,7 +339,7 @@ mManager
 mManager
 -
 >
-DenyPlayRequest
+DenyPlayRequestIfExists
 (
 )
 ;
@@ -373,7 +373,7 @@ mManager
 mManager
 -
 >
-ApprovePlayRequest
+ApprovePlayRequestIfExists
 (
 )
 ;

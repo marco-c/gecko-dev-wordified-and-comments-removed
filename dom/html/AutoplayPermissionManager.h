@@ -96,12 +96,12 @@ RequestWithPrompt
 )
 ;
 void
-ApprovePlayRequest
+ApprovePlayRequestIfExists
 (
 )
 ;
 void
-DenyPlayRequest
+DenyPlayRequestIfExists
 (
 )
 ;
