@@ -210,6 +210,13 @@ propTypes
 {
 return
 {
+dispatch
+:
+PropTypes
+.
+func
+.
+isRequired
 networkLocations
 :
 PropTypes
@@ -364,6 +371,7 @@ renderNetwork
 {
 const
 {
+dispatch
 networkLocations
 }
 =
@@ -396,6 +404,7 @@ Location
 NetworkLocationsList
 (
 {
+dispatch
 networkLocations
 }
 )
@@ -415,6 +424,9 @@ page__network__separator
 )
 NetworkLocationsForm
 (
+{
+dispatch
+}
 )
 )
 ;

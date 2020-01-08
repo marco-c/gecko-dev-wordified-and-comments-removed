@@ -280,6 +280,7 @@ return
 ConnectPage
 (
 {
+dispatch
 networkLocations
 }
 )
