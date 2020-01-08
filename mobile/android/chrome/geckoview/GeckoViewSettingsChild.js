@@ -11,7 +11,7 @@ gre
 /
 modules
 /
-GeckoViewContentModule
+GeckoViewChildModule
 .
 jsm
 "
@@ -71,9 +71,9 @@ USER_AGENT_MODE_DESKTOP
 1
 ;
 class
-GeckoViewContentSettings
+GeckoViewSettingsChild
 extends
-GeckoViewContentModule
+GeckoViewChildModule
 {
 onInit
 (
@@ -319,7 +319,7 @@ debug
 warn
 }
 =
-GeckoViewContentSettings
+GeckoViewSettingsChild
 .
 initLogging
 (
@@ -331,7 +331,7 @@ GeckoViewSettings
 let
 module
 =
-GeckoViewContentSettings
+GeckoViewSettingsChild
 .
 create
 (

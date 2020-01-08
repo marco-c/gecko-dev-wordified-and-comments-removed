@@ -1375,7 +1375,7 @@ geckoview
 /
 content
 /
-GeckoViewContent
+GeckoViewContentChild
 .
 js
 "
@@ -1416,7 +1416,7 @@ geckoview
 /
 content
 /
-GeckoViewNavigationContent
+GeckoViewNavigationChild
 .
 js
 "
@@ -1457,7 +1457,7 @@ geckoview
 /
 content
 /
-GeckoViewProgressContent
+GeckoViewProgressChild
 .
 js
 "
@@ -1483,7 +1483,7 @@ geckoview
 /
 content
 /
-GeckoViewScrollContent
+GeckoViewScrollChild
 .
 js
 "
@@ -1509,7 +1509,7 @@ geckoview
 /
 content
 /
-GeckoViewSelectionActionContent
+GeckoViewSelectionActionChild
 .
 js
 "
@@ -1550,7 +1550,7 @@ geckoview
 /
 content
 /
-GeckoViewContentSettings
+GeckoViewSettingsChild
 .
 js
 "

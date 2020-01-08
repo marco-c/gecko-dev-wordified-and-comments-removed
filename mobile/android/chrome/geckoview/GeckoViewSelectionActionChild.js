@@ -11,7 +11,7 @@ gre
 /
 modules
 /
-GeckoViewContentModule
+GeckoViewChildModule
 .
 jsm
 "
@@ -61,9 +61,9 @@ jsm
 )
 ;
 class
-GeckoViewSelectionActionContent
+GeckoViewSelectionActionChild
 extends
-GeckoViewContentModule
+GeckoViewChildModule
 {
 constructor
 (
@@ -1398,7 +1398,7 @@ debug
 warn
 }
 =
-GeckoViewSelectionActionContent
+GeckoViewSelectionActionChild
 .
 initLogging
 (
@@ -1410,7 +1410,7 @@ GeckoViewSelectionAction
 let
 module
 =
-GeckoViewSelectionActionContent
+GeckoViewSelectionActionChild
 .
 create
 (

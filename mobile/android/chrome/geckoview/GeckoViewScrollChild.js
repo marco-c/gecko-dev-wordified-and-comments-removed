@@ -11,16 +11,16 @@ gre
 /
 modules
 /
-GeckoViewContentModule
+GeckoViewChildModule
 .
 jsm
 "
 )
 ;
 class
-GeckoViewScrollContent
+GeckoViewScrollChild
 extends
-GeckoViewContentModule
+GeckoViewChildModule
 {
 onEnable
 (
@@ -144,7 +144,7 @@ debug
 warn
 }
 =
-GeckoViewScrollContent
+GeckoViewScrollChild
 .
 initLogging
 (
@@ -156,7 +156,7 @@ GeckoViewScroll
 let
 module
 =
-GeckoViewScrollContent
+GeckoViewScrollChild
 .
 create
 (

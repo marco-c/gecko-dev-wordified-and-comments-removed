@@ -11,7 +11,7 @@ gre
 /
 modules
 /
-GeckoViewContentModule
+GeckoViewChildModule
 .
 jsm
 "
@@ -61,9 +61,9 @@ jsm
 )
 ;
 class
-GeckoViewProgressContent
+GeckoViewProgressChild
 extends
-GeckoViewContentModule
+GeckoViewChildModule
 {
 onInit
 (
@@ -1692,7 +1692,7 @@ debug
 warn
 }
 =
-GeckoViewProgressContent
+GeckoViewProgressChild
 .
 initLogging
 (
@@ -1704,7 +1704,7 @@ GeckoViewProgress
 let
 module
 =
-GeckoViewProgressContent
+GeckoViewProgressChild
 .
 create
 (

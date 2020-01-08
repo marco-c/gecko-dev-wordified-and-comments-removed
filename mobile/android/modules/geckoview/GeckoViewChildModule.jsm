@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-GeckoViewContentModule
+GeckoViewChildModule
 "
 ]
 ;
@@ -45,7 +45,7 @@ this
 )
 ;
 class
-GeckoViewContentModule
+GeckoViewChildModule
 {
 static
 initLogging
