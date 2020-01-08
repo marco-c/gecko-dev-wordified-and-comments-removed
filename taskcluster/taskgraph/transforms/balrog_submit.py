@@ -3,7 +3,10 @@
 "
 Transform
 the
-beetmover
+per
+-
+locale
+balrog
 task
 into
 an
