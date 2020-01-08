@@ -87,7 +87,7 @@ dictionary
 XRSessionCreationOptions
 {
 boolean
-exclusive
+immersive
 =
 false
 ;
@@ -118,7 +118,7 @@ device
 readonly
 attribute
 boolean
-exclusive
+immersive
 ;
 readonly
 attribute
