@@ -1,11 +1,3 @@
-requestLongerTimeout
-(
-3
-)
-;
-async
-function
-evalInConsol
 async
 function
 evalInConsoleAtPoint
