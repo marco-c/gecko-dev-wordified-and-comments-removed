@@ -234,6 +234,8 @@ basename
 idl
 .
 source_path
+.
+full_path
 )
         
 dirname
@@ -245,6 +247,8 @@ dirname
 idl
 .
 source_path
+.
+full_path
 )
         
 root
