@@ -12,9 +12,6 @@ nsAString
 h
 "
 class
-nsIMIMEHeaderParam
-;
-class
 nsContentTypeParser
 {
 public
@@ -26,11 +23,6 @@ const
 nsAString
 &
 aString
-)
-;
-~
-nsContentTypeParser
-(
 )
 ;
 nsresult
@@ -59,10 +51,6 @@ private
 :
 NS_ConvertUTF16toUTF8
 mString
-;
-nsIMIMEHeaderParam
-*
-mService
 ;
 }
 ;
