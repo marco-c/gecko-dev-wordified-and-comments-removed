@@ -133,13 +133,6 @@ worker
 :
 queryModuleWorkerTopLevel
 "
-shared
--
-worker
-"
-:
-querySharedWorker
-"
 xhr
 -
 request

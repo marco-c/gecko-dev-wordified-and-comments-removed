@@ -237,6 +237,11 @@ ReportBody
 readonly
 attribute
 DOMString
+crashId
+;
+readonly
+attribute
+DOMString
 ?
 reason
 ;

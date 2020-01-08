@@ -18,7 +18,7 @@ as
 =
 image
 ;
-imagesrcset
+srcset
 =
 "
 resources
@@ -58,7 +58,7 @@ as
 =
 image
 ;
-imagesrcset
+srcset
 =
 "
 resources
@@ -87,7 +87,7 @@ png
 800w
 "
 ;
-imagesizes
+imgsizes
 =
 400px
 Link
@@ -110,7 +110,7 @@ as
 =
 image
 ;
-imagesrcset
+srcset
 =
 "
 resources
@@ -139,7 +139,7 @@ png
 600w
 "
 ;
-imagesizes
+imgsizes
 =
 "
 (

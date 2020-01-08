@@ -80,8 +80,6 @@ type
 feature
 -
 policy
--
-violation
 "
 )
 ;
@@ -103,7 +101,7 @@ report
 .
 body
 .
-featureId
+feature
 "
 encrypted
 -
@@ -135,6 +133,19 @@ document
 location
 .
 href
+)
+;
+assert_equals
+(
+typeof
+report
+.
+body
+.
+message
+"
+string
+"
 )
 ;
 assert_equals
@@ -206,8 +217,6 @@ types
 feature
 -
 policy
--
-violation
 '
 ]
 }

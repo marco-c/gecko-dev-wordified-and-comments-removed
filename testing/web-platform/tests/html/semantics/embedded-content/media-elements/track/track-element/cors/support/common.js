@@ -225,6 +225,14 @@ function
 (
 async_test
 (
+document
+.
+title
+{
+timeout
+:
+10000
+}
 )
 )
 .

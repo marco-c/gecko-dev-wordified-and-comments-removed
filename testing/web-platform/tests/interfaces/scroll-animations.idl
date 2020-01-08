@@ -63,6 +63,9 @@ enum
 ScrollDirection
 {
 "
+auto
+"
+"
 block
 "
 "
@@ -88,16 +91,13 @@ dictionary
 ScrollTimelineOptions
 {
 Element
-?
 scrollSource
-=
-null
 ;
 ScrollDirection
 orientation
 =
 "
-block
+auto
 "
 ;
 DOMString
@@ -135,9 +135,6 @@ none
 }
 ;
 [
-Exposed
-=
-Window
 Constructor
 (
 optional

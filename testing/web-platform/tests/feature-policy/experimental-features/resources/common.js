@@ -362,8 +362,6 @@ types
 feature
 -
 policy
--
-violation
 "
 ]
 }
@@ -430,7 +428,7 @@ report
 .
 body
 .
-featureId
+feature
 )
 ;
 var

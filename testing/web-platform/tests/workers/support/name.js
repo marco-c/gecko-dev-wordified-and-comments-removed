@@ -40,7 +40,6 @@ the
 global
 "
 )
-;
 assert_equals
 (
 self
@@ -51,7 +50,6 @@ my
 name
 "
 )
-;
 }
 name
 property
