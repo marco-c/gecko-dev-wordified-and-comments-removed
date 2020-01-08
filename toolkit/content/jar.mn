@@ -42,13 +42,6 @@ content
 /
 global
 /
-components
-.
-css
-content
-/
-global
-/
 autocomplete
 .
 css
