@@ -16051,6 +16051,12 @@ container
 :
 mShell
 ;
+gtk_widget_set_app_paintable
+(
+eventWidget
+TRUE
+)
+;
 gtk_widget_add_events
 (
 eventWidget
@@ -16061,6 +16067,7 @@ if
 (
 drawToContainer
 )
+{
 gtk_widget_add_events
 (
 mShell
@@ -16069,10 +16076,11 @@ GDK_PROPERTY_CHANGE_MASK
 ;
 gtk_widget_set_app_paintable
 (
-eventWidget
+mShell
 TRUE
 )
 ;
+}
 gtk_widget_set_has_window
 (
 container
