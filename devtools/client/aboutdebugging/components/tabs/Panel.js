@@ -411,7 +411,11 @@ skin
 /
 images
 /
+aboutdebugging
+-
 globe
+-
+icon
 .
 svg
 "
