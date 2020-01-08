@@ -692,7 +692,7 @@ test
 TEST_CASES
 )
 def
-test_include_exclude
+test_filterpaths
 (
 filterpaths
 test
