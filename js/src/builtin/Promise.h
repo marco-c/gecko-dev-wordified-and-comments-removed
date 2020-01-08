@@ -230,6 +230,7 @@ flags
 &
 PROMISE_FLAG_FULFILLED
 )
+{
 return
 JS
 :
@@ -239,6 +240,7 @@ PromiseState
 :
 Fulfilled
 ;
+}
 return
 JS
 :
@@ -1012,10 +1014,12 @@ State
 :
 Initialized
 )
+{
 reset
 (
 )
 ;
+}
 }
 }
 ;
