@@ -113,6 +113,11 @@ ReportBody
 h
 '
 '
+ReportingHeader
+.
+h
+'
+'
 ReportingObserver
 .
 h
@@ -149,6 +154,11 @@ cpp
 '
 '
 ReportBody
+.
+cpp
+'
+'
+ReportingHeader
 .
 cpp
 '
