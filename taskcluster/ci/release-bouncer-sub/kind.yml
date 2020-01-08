@@ -543,6 +543,8 @@ releases
 :
 [
 '
+release
+-
 rc
 '
 ]

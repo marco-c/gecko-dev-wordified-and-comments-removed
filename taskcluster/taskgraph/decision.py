@@ -250,6 +250,14 @@ include_nightly
 '
 :
 True
+        
+'
+release_type
+'
+:
+'
+beta
+'
     
 }
     
@@ -280,6 +288,14 @@ include_nightly
 '
 :
 True
+        
+'
+release_type
+'
+:
+'
+release
+'
     
 }
     
@@ -310,6 +326,14 @@ include_nightly
 '
 :
 True
+        
+'
+release_type
+'
+:
+'
+esr60
+'
     
 }
     
@@ -340,6 +364,14 @@ include_nightly
 '
 :
 True
+        
+'
+release_type
+'
+:
+'
+beta
+'
     
 }
     
@@ -370,6 +402,14 @@ include_nightly
 '
 :
 True
+        
+'
+release_type
+'
+:
+'
+release
+'
     
 }
     
@@ -1108,6 +1148,7 @@ release_type
 ]
 =
 '
+nightly
 '
     
 parameters

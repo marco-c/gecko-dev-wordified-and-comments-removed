@@ -410,6 +410,7 @@ release_type
 '
 :
 '
+nightly
 '
     
 '

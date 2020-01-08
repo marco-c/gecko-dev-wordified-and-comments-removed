@@ -2312,6 +2312,8 @@ release_type
 !
 =
 '
+release
+-
 rc
 '
 :
@@ -2568,6 +2570,8 @@ release_type
 =
 =
 '
+release
+-
 rc
 '
 )
@@ -2961,6 +2965,8 @@ release_type
 =
 =
 '
+release
+-
 rc
 '
 )
