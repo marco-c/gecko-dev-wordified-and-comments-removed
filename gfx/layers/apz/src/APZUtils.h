@@ -335,6 +335,7 @@ mRequiresTargetConfirmation
 }
 ;
 class
+MOZ_RAII
 AutoApplyAsyncTestAttributes
 {
 public
