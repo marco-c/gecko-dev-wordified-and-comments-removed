@@ -7612,6 +7612,9 @@ CompilePattern
 JSContext
 *
 cx
+LifoAlloc
+&
+alloc
 HandleRegExpShared
 shared
 RegExpCompileData
@@ -7678,17 +7681,6 @@ RegExpCode
 )
 ;
 }
-LifoAlloc
-&
-alloc
-=
-cx
--
->
-tempLifoAlloc
-(
-)
-;
 RegExpCompiler
 compiler
 (

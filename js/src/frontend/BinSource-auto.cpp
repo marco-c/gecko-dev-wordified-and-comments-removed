@@ -24846,7 +24846,6 @@ create
 cx_
 pattern
 reflags
-alloc_
 TenuredObject
 )
 )

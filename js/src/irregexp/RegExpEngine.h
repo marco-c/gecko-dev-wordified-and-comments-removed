@@ -169,6 +169,9 @@ CompilePattern
 JSContext
 *
 cx
+LifoAlloc
+&
+alloc
 HandleRegExpShared
 shared
 RegExpCompileData

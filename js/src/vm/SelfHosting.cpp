@@ -19103,12 +19103,6 @@ reobj
 getFlags
 (
 )
-cx
--
->
-tempLifoAlloc
-(
-)
 TenuredObject
 )
 ;

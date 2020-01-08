@@ -29620,12 +29620,6 @@ RegExpFlag
 (
 flags
 )
-cx
--
->
-tempLifoAlloc
-(
-)
 GenericObject
 )
 ;
@@ -29671,12 +29665,6 @@ length
 RegExpFlag
 (
 flags
-)
-cx
--
->
-tempLifoAlloc
-(
 )
 GenericObject
 )

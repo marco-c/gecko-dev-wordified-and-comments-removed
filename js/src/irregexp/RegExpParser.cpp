@@ -10361,13 +10361,6 @@ bool
 unicode
 )
 {
-LifoAllocScope
-scope
-(
-&
-alloc
-)
-;
 RegExpParser
 <
 CharT

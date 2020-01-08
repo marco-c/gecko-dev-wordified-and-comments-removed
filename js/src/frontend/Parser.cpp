@@ -45669,7 +45669,6 @@ length
 )
 flags
 anyChars
-alloc
 TenuredObject
 )
 ;
@@ -45775,6 +45774,14 @@ length
 )
 )
 ;
+{
+LifoAllocScope
+scopeAlloc
+(
+&
+alloc
+)
+;
 if
 (
 !
@@ -45787,7 +45794,11 @@ irregexp
 ParsePatternSyntax
 (
 anyChars
+scopeAlloc
+.
 alloc
+(
+)
 source
 flags
 &
@@ -45800,6 +45811,7 @@ null
 (
 )
 ;
+}
 }
 return
 handler

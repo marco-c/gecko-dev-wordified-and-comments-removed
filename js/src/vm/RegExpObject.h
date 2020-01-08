@@ -250,9 +250,6 @@ size_t
 length
 RegExpFlag
 flags
-LifoAlloc
-&
-alloc
 NewObjectKind
 newKind
 )
@@ -284,9 +281,6 @@ frontend
 TokenStreamAnyChars
 &
 ts
-LifoAlloc
-&
-alloc
 NewObjectKind
 kind
 )
@@ -300,12 +294,9 @@ JSContext
 *
 cx
 HandleAtom
-atom
+source
 RegExpFlag
 flags
-LifoAlloc
-&
-alloc
 NewObjectKind
 newKind
 )
@@ -319,7 +310,7 @@ JSContext
 *
 cx
 HandleAtom
-atom
+source
 RegExpFlag
 flags
 frontend
@@ -328,9 +319,6 @@ frontend
 TokenStreamAnyChars
 &
 ts
-LifoAlloc
-&
-alloc
 NewObjectKind
 newKind
 )
