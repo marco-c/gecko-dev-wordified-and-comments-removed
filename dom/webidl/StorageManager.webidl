@@ -136,7 +136,7 @@ dom
 DOMPrefs
 :
 :
-StorageManagerEnabled
+dom_storageManager_enabled
 "
 ]
 interface
