@@ -493,8 +493,6 @@ workdir
 /
 workspace
 /
-build
-/
 logs
 /
 "
@@ -3104,8 +3102,6 @@ workspace
 /
 build
 /
-upload
-/
 logs
 /
 "
@@ -4027,8 +4023,6 @@ worker
 workspace
 /
 build
-/
-upload
 /
 logs
 "
