@@ -336,14 +336,13 @@ function
 t
 )
 {
-assert_true
+assert_greater_than
 (
 document
 .
 timeline
 .
 currentTime
->
 0
 '
 document
@@ -1066,7 +1065,7 @@ function
 (
 )
 {
-assert_true
+assert_greater_than
 (
 hiddenIFrame
 .
@@ -1075,7 +1074,6 @@ contentDocument
 timeline
 .
 currentTime
->
 0
 '
 document
