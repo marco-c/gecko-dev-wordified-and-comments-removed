@@ -2165,7 +2165,9 @@ names
 optionally_keyed_by
 (
 '
-project
+release
+-
+type
 '
 [
 basestring
@@ -2195,7 +2197,14 @@ rules
 optionally_keyed_by
 (
 '
-project
+release
+-
+type
+'
+'
+release
+-
+level
 '
 [
 int
@@ -2215,8 +2224,16 @@ update
 :
 optionally_keyed_by
 (
+            
 '
-project
+release
+-
+type
+'
+'
+release
+-
+level
 '
 [
 basestring
@@ -7125,7 +7142,9 @@ description
 {
                         
 '
-project
+release
+-
+type
 '
 :
 config
@@ -7133,7 +7152,7 @@ config
 params
 [
 '
-project
+release_type
 '
 ]
                         
