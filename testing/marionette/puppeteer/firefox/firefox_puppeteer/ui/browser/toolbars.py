@@ -3624,7 +3624,7 @@ expander
 property
     
 def
-host
+header
 (
 self
 )
@@ -3642,8 +3642,7 @@ the
 identity
 -
 popup
-content
-host
+header
 .
         
 :
@@ -3655,8 +3654,7 @@ the
 identity
 -
 popup
-content
-host
+header
 .
         
 "
@@ -3672,13 +3670,19 @@ find_element
 (
 By
 .
-CLASS_NAME
+ID
 '
 identity
 -
 popup
 -
-host
+mainView
+-
+panel
+-
+header
+-
+span
 '
 )
     
@@ -4130,7 +4134,7 @@ find_element
 (
 By
 .
-CLASS_NAME
+ID
 '
 identity
 -
