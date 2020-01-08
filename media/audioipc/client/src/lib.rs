@@ -256,15 +256,12 @@ Debug
 struct
 CpuPoolInitParams
 {
-pub
 pool_size
 :
 usize
-pub
 stack_size
 :
 usize
-pub
 thread_create_callback
 :
 Option
@@ -295,7 +292,6 @@ c_char
 impl
 CpuPoolInitParams
 {
-pub
 fn
 init_with
 (

@@ -1,10 +1,4 @@
 use
-{
-RecvMsg
-SendMsg
-}
-;
-use
 bytes
 :
 :
@@ -27,6 +21,15 @@ iovec
 :
 :
 IoVec
+;
+use
+msg
+:
+:
+{
+RecvMsg
+SendMsg
+}
 ;
 use
 std
