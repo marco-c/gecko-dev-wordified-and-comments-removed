@@ -633,6 +633,11 @@ SizeOfState
 h
 '
 '
+StaticMonitor
+.
+h
+'
+'
 StaticMutex
 .
 h
