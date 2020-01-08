@@ -139,6 +139,15 @@ h
 #
 include
 "
+js
+/
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
 nsIInputStreamPump
 .
 h

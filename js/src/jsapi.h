@@ -251,15 +251,6 @@ include
 "
 js
 /
-SourceBufferHolder
-.
-h
-"
-#
-include
-"
-js
-/
 Stream
 .
 h
@@ -321,6 +312,9 @@ h
 namespace
 JS
 {
+class
+SourceBufferHolder
+;
 class
 TwoByteChars
 ;

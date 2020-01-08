@@ -90,6 +90,9 @@ const
 ReadOnlyCompileOptions
 &
 options
+JS
+:
+:
 SourceBufferHolder
 &
 srcBuf
@@ -155,6 +158,9 @@ const
 ReadOnlyCompileOptions
 &
 options
+JS
+:
+:
 SourceBufferHolder
 &
 srcBuf
@@ -177,6 +183,9 @@ const
 ReadOnlyCompileOptions
 &
 options
+JS
+:
+:
 SourceBufferHolder
 &
 srcBuf
@@ -193,6 +202,9 @@ const
 ReadOnlyCompileOptions
 &
 options
+JS
+:
+:
 SourceBufferHolder
 &
 srcBuf

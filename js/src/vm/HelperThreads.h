@@ -88,6 +88,15 @@ include
 "
 js
 /
+SourceBufferHolder
+.
+h
+"
+#
+include
+"
+js
+/
 TypeDecls
 .
 h
