@@ -1270,6 +1270,11 @@ false
 )
 const
 ;
+void
+triggerFreeUnusedMemory
+(
+)
+;
 private
 :
 js
@@ -1405,6 +1410,9 @@ thread
 ;
 bool
 terminate
+;
+bool
+shouldFreeUnusedMemory
 ;
 mozilla
 :
@@ -1730,6 +1738,14 @@ return
 nullptr
 ;
 }
+void
+maybeFreeUnusedMemory
+(
+JSContext
+*
+cx
+)
+;
 void
 handleWasmWorkload
 (
