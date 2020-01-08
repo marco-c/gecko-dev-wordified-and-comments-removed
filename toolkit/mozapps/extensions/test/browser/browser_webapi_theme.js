@@ -150,7 +150,7 @@ update
 let
 promptPromise
 =
-promiseNotification
+acceptAppMenuNotificationWhenShown
 (
 "
 addon

@@ -948,7 +948,7 @@ STATE_INSTALLED
 let
 promptPromise
 =
-promiseNotification
+acceptAppMenuNotificationWhenShown
 (
 "
 addon
