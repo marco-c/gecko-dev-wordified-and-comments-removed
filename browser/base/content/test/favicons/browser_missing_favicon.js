@@ -111,14 +111,6 @@ html
 "
 )
 ;
-await
-BrowserTestUtils
-.
-browserLoaded
-(
-browser
-)
-;
 let
 iconURI
 =
