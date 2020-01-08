@@ -2684,6 +2684,15 @@ sDisabled
 &
 !
 mThread
+&
+&
+!
+recordreplay
+:
+:
+IsMiddleman
+(
+)
 )
 {
 mThread
