@@ -12475,6 +12475,16 @@ AbortReason
 Error
 )
 {
+MOZ_ASSERT
+(
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+;
 return
 Method_Error
 ;
