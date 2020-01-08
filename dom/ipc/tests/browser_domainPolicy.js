@@ -74,7 +74,7 @@ jsm
 )
 ;
 let
-deferred
+outerDeferred
 =
 Promise
 .
@@ -85,7 +85,7 @@ defer
 let
 currentTask
 =
-deferred
+outerDeferred
 .
 promise
 ;
@@ -135,7 +135,7 @@ false
 >
 {
 return
-deferred
+outerDeferred
 .
 resolve
 (
@@ -240,7 +240,7 @@ let
 listener2
 =
 (
-event
+event2
 )
 =
 >
@@ -834,7 +834,6 @@ activateDomainPolicy
 (
 )
 ;
-var
 bl
 =
 policy
@@ -966,8 +965,8 @@ testListInternal
 =
 function
 (
-expectEnabled
-list
+internalExpectEnabled
+internalList
 idx
 )
 {
@@ -1008,7 +1007,7 @@ html
 let
 target
 =
-list
+internalList
 [
 idx
 ]
@@ -1054,7 +1053,7 @@ checkScriptEnabled
 rootFrame
 .
 contentWindow
-expectEnabled
+internalExpectEnabled
 )
 )
 ;
@@ -1063,7 +1062,7 @@ if
 idx
 =
 =
-list
+internalList
 .
 length
 -
@@ -1079,8 +1078,8 @@ results
 else
 testListInternal
 (
-expectEnabled
-list
+internalExpectEnabled
+internalList
 idx
 +
 1
@@ -1354,7 +1353,7 @@ superAllowlist
 ;
 for
 (
-var
+let
 e
 of
 exceptions
@@ -1371,7 +1370,7 @@ e
 ;
 for
 (
-var
+let
 e
 of
 superExceptions
@@ -1590,6 +1589,7 @@ Policy
 "
 )
 ;
+let
 deferred
 =
 Promise
