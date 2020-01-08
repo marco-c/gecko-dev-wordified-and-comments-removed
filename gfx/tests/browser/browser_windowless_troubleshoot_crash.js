@@ -146,6 +146,19 @@ created
 }
 )
 ;
+let
+triggeringPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+createNullPrincipal
+(
+{
+}
+)
+;
 webNav
 .
 loadURI
@@ -159,6 +172,7 @@ blank
 null
 null
 null
+triggeringPrincipal
 )
 ;
 await

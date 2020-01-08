@@ -718,10 +718,11 @@ browserLoaded
 gBrowser
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 data
 :
