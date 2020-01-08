@@ -19308,6 +19308,9 @@ JSOP_MUL
 case
 JSOP_DIV
 :
+case
+JSOP_MOD
+:
 if
 (
 !
@@ -19335,9 +19338,6 @@ break
 }
 MOZ_FALLTHROUGH
 ;
-case
-JSOP_MOD
-:
 case
 JSOP_POW
 :
