@@ -2777,7 +2777,7 @@ result
 ImgDrawResult
 :
 :
-INCOMPLETE
+SUCCESS_NOT_COMPLETE
 ;
 }
 return
@@ -3409,7 +3409,7 @@ SUCCESS
 ImgDrawResult
 :
 :
-INCOMPLETE
+SUCCESS_NOT_COMPLETE
 ;
 }
 already_AddRefed
@@ -4789,7 +4789,7 @@ result
 ImgDrawResult
 :
 :
-INCOMPLETE
+SUCCESS_NOT_COMPLETE
 ;
 }
 return
@@ -4878,7 +4878,7 @@ result
 ImgDrawResult
 :
 :
-INCOMPLETE
+SUCCESS_NOT_COMPLETE
 ;
 }
 return
