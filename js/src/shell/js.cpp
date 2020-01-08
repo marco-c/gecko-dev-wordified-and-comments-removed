@@ -61041,9 +61041,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_SHARED_ARRAY_BUFFER
 if
 (
 const
@@ -61117,8 +61114,6 @@ str
 ;
 }
 }
-#
-endif
 #
 if
 defined
@@ -63911,9 +63906,6 @@ support
 )
 #
 endif
-#
-ifdef
-ENABLE_SHARED_ARRAY_BUFFER
 |
 |
 !
@@ -63968,8 +63960,6 @@ enable
 #
 endif
 )
-#
-endif
 |
 |
 !

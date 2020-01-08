@@ -4666,9 +4666,6 @@ cur_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_THREAD_OPS
 if
 (
 consume
@@ -4720,8 +4717,6 @@ cur_
 break
 ;
 }
-#
-endif
 break
 ;
 case
@@ -7203,9 +7198,6 @@ cur_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_THREAD_OPS
 if
 (
 consume
@@ -8017,8 +8009,6 @@ cur_
 ;
 }
 }
-#
-endif
 break
 ;
 case
@@ -9575,9 +9565,6 @@ cur_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_THREAD_OPS
 if
 (
 consume
@@ -10646,8 +10633,6 @@ cur_
 ;
 }
 }
-#
-endif
 break
 ;
 case
@@ -12965,9 +12950,6 @@ cur_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_THREAD_OPS
 if
 (
 consume
@@ -12991,8 +12973,6 @@ cur_
 )
 ;
 }
-#
-endif
 if
 (
 consume
