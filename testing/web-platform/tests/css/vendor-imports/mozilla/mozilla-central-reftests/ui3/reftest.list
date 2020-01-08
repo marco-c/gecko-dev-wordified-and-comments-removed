@@ -224,6 +224,12 @@ replaced
 ref
 .
 xht
+skip
+-
+if
+(
+cocoaWidget
+)
 =
 =
 box
@@ -246,3 +252,6 @@ replaced
 ref
 .
 xht
+#
+Bug
+1383454
