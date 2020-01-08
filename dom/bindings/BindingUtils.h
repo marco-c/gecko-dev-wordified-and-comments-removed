@@ -4877,7 +4877,7 @@ T
 value
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -5098,7 +5098,7 @@ cx
 {
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
@@ -5347,7 +5347,7 @@ cx
 {
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
@@ -10760,7 +10760,7 @@ obj
 )
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -13413,7 +13413,7 @@ return
 false
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
