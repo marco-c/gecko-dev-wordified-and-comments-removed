@@ -2699,6 +2699,14 @@ SetTlsFlags
 mTlsFlags
 )
 ;
+mConnectionInfo
+-
+>
+SetTrrUsed
+(
+mTRR
+)
+;
 gHttpHandler
 -
 >
