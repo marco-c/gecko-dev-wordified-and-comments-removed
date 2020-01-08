@@ -304,6 +304,7 @@ detail
 :
 :
 SharedRef
+&
 >
 SharedRefAutoLock
 ;
@@ -314,6 +315,7 @@ detail
 :
 :
 SharedRef
+&
 >
 SharedRefAutoUnlock
 ;

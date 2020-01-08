@@ -198,6 +198,7 @@ mozilla
 BaseAutoLock
 <
 MacCrashReporterLock
+&
 >
 CrashReporterAutoLock
 ;

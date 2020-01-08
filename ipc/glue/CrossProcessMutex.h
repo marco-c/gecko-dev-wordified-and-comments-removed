@@ -264,6 +264,7 @@ typedef
 BaseAutoLock
 <
 CrossProcessMutex
+&
 >
 CrossProcessMutexAutoLock
 ;
@@ -271,6 +272,7 @@ typedef
 BaseAutoUnlock
 <
 CrossProcessMutex
+&
 >
 CrossProcessMutexAutoUnlock
 ;
