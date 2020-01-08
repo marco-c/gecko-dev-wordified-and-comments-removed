@@ -56,7 +56,9 @@ enableGeckoProfiling
 (
 )
 ;
-enableSingleStepProfiling
+WasmHelpers
+.
+startProfiling
 (
 )
 ;
