@@ -183,6 +183,17 @@ telemetry
 .
 cachedClientID
 "
+DisableFuzzingDelay
+:
+"
+toolkit
+.
+telemetry
+.
+testing
+.
+disableFuzzingDelay
+"
 FirstRun
 :
 "
