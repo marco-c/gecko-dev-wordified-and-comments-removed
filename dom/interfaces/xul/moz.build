@@ -114,11 +114,6 @@ nsIDOMXULButtonElement
 idl
 '
 '
-nsIDOMXULCheckboxElement
-.
-idl
-'
-'
 nsIDOMXULCommandDispatcher
 .
 idl
