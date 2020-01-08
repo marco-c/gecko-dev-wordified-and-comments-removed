@@ -1062,6 +1062,7 @@ Hash1
 PLDHashNumber
 aHash0
 )
+const
 {
 return
 aHash0
@@ -1085,6 +1086,7 @@ uint32_t
 &
 aSizeMaskOut
 )
+const
 {
 uint32_t
 sizeLog2
@@ -1129,9 +1131,11 @@ PLDHashTable
 :
 MatchEntryKeyhash
 (
+const
 PLDHashEntryHdr
 *
 aEntry
+const
 PLDHashNumber
 aKeyHash
 )
@@ -1161,10 +1165,18 @@ AddressEntry
 uint32_t
 aIndex
 )
+const
 {
 return
+const_cast
+<
+PLDHashEntryHdr
+*
+>
+(
 reinterpret_cast
 <
+const
 PLDHashEntryHdr
 *
 >
@@ -1178,6 +1190,7 @@ Get
 aIndex
 *
 mEntrySize
+)
 )
 ;
 }
@@ -1357,6 +1370,7 @@ aKey
 PLDHashNumber
 aKeyHash
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1596,6 +1610,7 @@ FindFreeEntry
 PLDHashNumber
 aKeyHash
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1989,6 +2004,7 @@ void
 *
 aKey
 )
+const
 {
 MOZ_ASSERT
 (
@@ -2050,6 +2066,7 @@ void
 *
 aKey
 )
+const
 {
 #
 ifdef
