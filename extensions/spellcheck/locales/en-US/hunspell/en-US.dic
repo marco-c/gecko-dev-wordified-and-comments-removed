@@ -1,4 +1,4 @@
-52914
+52921
 0
 /
 nm
@@ -39055,6 +39055,8 @@ acerbically
 acerbity
 /
 M
+acetabular
+acetabulum
 acetaminophen
 /
 M
@@ -40021,6 +40023,9 @@ afford
 GDSB
 affordability
 affordably
+affordance
+/
+S
 afforest
 /
 EGSD
@@ -43083,6 +43088,9 @@ M
 arrest
 /
 AGMDS
+arrestee
+/
+S
 arrhythmia
 /
 M
@@ -43157,6 +43165,7 @@ MS
 arthritis
 /
 M
+arthroplasty
 arthropod
 /
 MS
@@ -61907,6 +61916,7 @@ decision
 /
 IM
 decisions
+decisis
 decisive
 /
 IPY
@@ -69263,6 +69273,8 @@ erg
 /
 SM
 ergo
+ergodic
+ergodicity
 ergonomic
 /
 S
@@ -79770,9 +79782,6 @@ SM
 hangover
 /
 MS
-hangry
-/
-TR
 hangup
 /
 MS
