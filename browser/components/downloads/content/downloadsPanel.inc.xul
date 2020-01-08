@@ -59,6 +59,13 @@ MPL
 -
 -
 >
+#
+include
+downloadsStrings
+.
+inc
+.
+xul
 <
 commandset
 >

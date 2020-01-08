@@ -528,6 +528,13 @@ inc
 xul
 #
 include
+downloadsStrings
+.
+inc
+.
+xul
+#
+include
 downloadsContextMenu
 .
 inc
