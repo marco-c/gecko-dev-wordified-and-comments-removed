@@ -401,7 +401,7 @@ const
 ;
 MOZ_MUST_USE
 bool
-EnsureCommitCompoisition
+EnsureCommitComposition
 (
 )
 ;

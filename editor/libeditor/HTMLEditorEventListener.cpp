@@ -328,7 +328,7 @@ NS_OK
 if
 (
 !
-EnsureCommitCompoisition
+EnsureCommitComposition
 (
 )
 )

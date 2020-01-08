@@ -1671,7 +1671,7 @@ bool
 EditorEventListener
 :
 :
-EnsureCommitCompoisition
+EnsureCommitComposition
 (
 )
 {
@@ -2854,7 +2854,7 @@ NS_OK
 if
 (
 !
-EnsureCommitCompoisition
+EnsureCommitComposition
 (
 )
 )
@@ -3107,7 +3107,7 @@ NS_OK
 Unused
 <
 <
-EnsureCommitCompoisition
+EnsureCommitComposition
 (
 )
 ;
