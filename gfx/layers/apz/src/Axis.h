@@ -147,7 +147,10 @@ aDelta
 0
 ;
 virtual
+Maybe
+<
 float
+>
 ComputeVelocity
 (
 uint32_t

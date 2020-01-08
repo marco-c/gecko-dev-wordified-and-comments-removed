@@ -96,7 +96,10 @@ aDelta
 )
 override
 ;
+Maybe
+<
 float
+>
 ComputeVelocity
 (
 uint32_t
