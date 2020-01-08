@@ -3770,6 +3770,14 @@ P
 )
 ;
 }
+if
+(
+!
+this
+.
+_closed
+)
+{
 this
 .
 _impl
@@ -3778,6 +3786,7 @@ certificate
 =
 certificate
 ;
+}
 }
 _resetPeerIdentityPromise
 (
