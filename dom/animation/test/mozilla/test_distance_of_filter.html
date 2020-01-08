@@ -89,6 +89,13 @@ use
 strict
 '
 ;
+const
+EPSILON
+=
+1e
+-
+6
+;
 /
 /
 We
@@ -1412,12 +1419,13 @@ rotate
 is
 0deg
 .
-assert_equals
+assert_approx_equals
 (
 dist
 Math
 .
 PI
+EPSILON
 '
 hue
 -
@@ -1483,7 +1491,7 @@ rotate
 '
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 5
@@ -1491,6 +1499,7 @@ dist
 Math
 .
 PI
+EPSILON
 '
 hue
 -

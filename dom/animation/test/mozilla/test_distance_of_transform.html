@@ -150,7 +150,7 @@ test
 file
 .
 const
-epsilon
+EPSILON
 =
 0
 .
@@ -1283,7 +1283,7 @@ rotate
 '
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 Math
@@ -1301,6 +1301,7 @@ PI
 4
 .
 0
+EPSILON
 '
 distance
 of
@@ -1353,7 +1354,7 @@ none
 '
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 Math
@@ -1363,6 +1364,7 @@ PI
 4
 .
 0
+EPSILON
 '
 distance
 of
@@ -1420,7 +1422,7 @@ none
 '
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 Math
@@ -1428,6 +1430,7 @@ Math
 PI
 /
 2
+EPSILON
 '
 distance
 of
@@ -1529,7 +1532,7 @@ PI
 0
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 computeRotateDistance
@@ -1537,6 +1540,7 @@ computeRotateDistance
 q1
 q2
 )
+EPSILON
 '
 distance
 of
@@ -1598,7 +1602,7 @@ rotate3d
 '
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 Math
@@ -1606,6 +1610,7 @@ Math
 PI
 /
 2
+EPSILON
 '
 distance
 of
@@ -1670,7 +1675,7 @@ none
 '
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 Math
@@ -1689,6 +1694,7 @@ sqrt
 .
 5
 )
+EPSILON
 '
 distance
 of
@@ -1751,7 +1757,7 @@ skew
 '
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 Math
@@ -1770,6 +1776,7 @@ sqrt
 .
 5
 )
+EPSILON
 '
 distance
 of
@@ -2112,7 +2119,7 @@ PI
 6
 )
 )
-epsilon
+EPSILON
 '
 distance
 of
@@ -2311,7 +2318,7 @@ rotate
 /
 /
 scale
-epsilon
+EPSILON
 '
 distance
 of
@@ -2385,7 +2392,7 @@ Math
 PI
 /
 6
-epsilon
+EPSILON
 '
 distance
 of
@@ -2565,7 +2572,7 @@ PI
 /
 /
 rotate
-epsilon
+EPSILON
 '
 distance
 of
@@ -2787,7 +2794,7 @@ PI
 /
 skew
 angle
-epsilon
+EPSILON
 '
 distance
 of
@@ -2854,7 +2861,7 @@ translate
 '
 )
 ;
-assert_equals
+assert_approx_equals
 (
 dist
 Math
@@ -2873,6 +2880,7 @@ Math
 .
 PI
 )
+EPSILON
 '
 distance
 of
@@ -2978,7 +2986,7 @@ PI
 *
 1
 )
-epsilon
+EPSILON
 '
 distance
 of
@@ -3176,7 +3184,7 @@ sqrt
 *
 2
 )
-epsilon
+EPSILON
 '
 distance
 of

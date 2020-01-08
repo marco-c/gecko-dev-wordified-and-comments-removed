@@ -3719,15 +3719,6 @@ case
 eStyleUnit_Degree
 :
 case
-eStyleUnit_Grad
-:
-case
-eStyleUnit_Radian
-:
-case
-eStyleUnit_Turn
-:
-case
 eStyleUnit_FlexFraction
 :
 case
