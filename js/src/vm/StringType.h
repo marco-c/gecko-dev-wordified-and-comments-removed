@@ -7438,9 +7438,7 @@ str
 )
 ;
 extern
-const
-char
-*
+UniqueChars
 ValueToPrintableLatin1
 (
 JSContext
@@ -7449,9 +7447,6 @@ cx
 const
 Value
 &
-UniqueChars
-*
-bytes
 bool
 asSource
 =
@@ -7459,9 +7454,7 @@ false
 )
 ;
 extern
-const
-char
-*
+UniqueChars
 ValueToPrintableUTF8
 (
 JSContext
@@ -7470,9 +7463,6 @@ cx
 const
 Value
 &
-UniqueChars
-*
-bytes
 bool
 asSource
 =
