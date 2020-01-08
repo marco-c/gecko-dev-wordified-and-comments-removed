@@ -352,6 +352,15 @@ listener
 )
 ;
 "
+"
+myfunc
+.
+addEventListener
+(
+listener
+)
+;
+"
 ]
 invalid
 :
