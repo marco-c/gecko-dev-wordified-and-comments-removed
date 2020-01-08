@@ -815,11 +815,6 @@ name
 "
 breadcrumb
 "
-"
-class
-"
-:
-true
 }
 )
 _react2

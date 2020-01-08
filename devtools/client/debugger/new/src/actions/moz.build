@@ -161,6 +161,11 @@ tree
 js
 '
 '
+tabs
+.
+js
+'
+'
 toolbox
 .
 js

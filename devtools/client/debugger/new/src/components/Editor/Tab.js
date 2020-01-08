@@ -1042,7 +1042,7 @@ className
 key
 :
 sourceId
-onMouseUp
+onClick
 :
 handleTabClick
 onContextMenu
