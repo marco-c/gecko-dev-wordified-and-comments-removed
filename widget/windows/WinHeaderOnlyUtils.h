@@ -460,6 +460,8 @@ IsWin8OrLater
 )
 )
 {
+if
+(
 :
 :
 GetFileInformationByHandleEx
@@ -477,9 +479,11 @@ sizeof
 mId
 )
 )
-;
+)
+{
 return
 ;
+}
 }
 BY_HANDLE_FILE_INFORMATION
 info
