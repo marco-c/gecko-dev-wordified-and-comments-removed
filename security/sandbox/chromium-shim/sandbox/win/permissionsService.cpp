@@ -13,6 +13,11 @@ algorithm
 #
 include
 <
+string
+>
+#
+include
+<
 winternl
 .
 h
