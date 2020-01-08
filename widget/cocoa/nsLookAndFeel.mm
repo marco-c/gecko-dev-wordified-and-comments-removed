@@ -1015,6 +1015,11 @@ opacity
 .
 value
 =
+mozilla
+:
+:
+clamped
+(
 255
 -
 (
@@ -1024,6 +1029,9 @@ value
 )
 *
 factor
+0
+255
+)
 ;
 }
 NS_HSV2RGB
