@@ -9058,6 +9058,22 @@ capabilities
 }
         
 if
+capabilities
+is
+None
+:
+            
+capabilities
+=
+{
+"
+strictFileInteractability
+"
+:
+True
+}
+        
+if
 timeout
 is
 None
