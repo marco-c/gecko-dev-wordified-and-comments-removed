@@ -4271,6 +4271,17 @@ MOZ_AUTOMATION
 '
         
 '
+WORKING_DIR
+'
+:
+'
+/
+builds
+/
+worker
+'
+        
+'
 WORKSPACE
 '
 :
