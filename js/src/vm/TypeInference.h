@@ -1608,7 +1608,7 @@ ref
 }
 ;
 enum
-SpewChannel
+TypeSpewChannel
 {
 ISpewOps
 ISpewResult
@@ -1621,7 +1621,7 @@ DEBUG
 bool
 InferSpewActive
 (
-SpewChannel
+TypeSpewChannel
 channel
 )
 ;

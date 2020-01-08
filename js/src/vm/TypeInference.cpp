@@ -912,7 +912,7 @@ js
 :
 InferSpewActive
 (
-SpewChannel
+TypeSpewChannel
 channel
 )
 {
