@@ -1830,17 +1830,6 @@ return
 }
 this
 .
-client
-.
-removeListener
-(
-"
-newGlobal
-"
-)
-;
-this
-.
 activeThread
 .
 removeListener
