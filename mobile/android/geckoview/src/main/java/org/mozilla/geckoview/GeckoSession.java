@@ -7256,6 +7256,17 @@ LOAD_FLAGS_ALLOW_POPUPS
 3
 ;
 public
+static
+final
+int
+LOAD_FLAGS_BYPASS_CLASSIFIER
+=
+1
+<
+<
+4
+;
+public
 void
 loadUri
 (

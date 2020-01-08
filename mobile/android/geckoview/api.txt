@@ -3852,6 +3852,15 @@ public
 static
 final
 int
+LOAD_FLAGS_BYPASS_CLASSIFIER
+=
+16
+;
+field
+public
+static
+final
+int
 LOAD_FLAGS_BYPASS_PROXY
 =
 2
