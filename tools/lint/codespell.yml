@@ -29,11 +29,9 @@ branding
 -
 browser
 /
-extensions
+components
 /
-activity
--
-stream
+newtab
 /
 prerendered
 /
