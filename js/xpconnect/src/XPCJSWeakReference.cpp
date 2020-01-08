@@ -63,9 +63,11 @@ isObject
 (
 )
 )
+{
 return
 NS_OK
 ;
+}
 JS
 :
 :

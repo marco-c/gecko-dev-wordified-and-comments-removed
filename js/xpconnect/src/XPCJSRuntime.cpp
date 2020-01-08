@@ -1076,9 +1076,11 @@ xb
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 nsCOMPtr
 <
@@ -1100,9 +1102,11 @@ uristr
 )
 )
 )
+{
 return
 false
 ;
+}
 nsAutoCString
 scheme
 ;
@@ -1119,9 +1123,11 @@ scheme
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 scheme
@@ -1143,9 +1149,11 @@ blob
 "
 )
 )
+{
 return
 false
 ;
+}
 uri
 .
 forget
@@ -1179,9 +1187,11 @@ if
 !
 aURI
 )
+{
 return
 false
 ;
+}
 if
 (
 location
@@ -1190,9 +1200,11 @@ IsEmpty
 (
 )
 )
+{
 return
 false
 ;
+}
 static
 const
 nsDependentCString
@@ -1254,6 +1266,7 @@ idx
 <
 0
 )
+{
 return
 TryParseLocationURICandidate
 (
@@ -1262,6 +1275,7 @@ aLocationHint
 aURI
 )
 ;
+}
 if
 (
 TryParseLocationURICandidate
@@ -1407,9 +1421,11 @@ IsSystemPrincipal
 aPrincipal
 )
 )
+{
 return
 true
 ;
+}
 auto
 principal
 =
@@ -2060,9 +2076,11 @@ if
 !
 priv
 )
+{
 return
 false
 ;
+}
 return
 priv
 -
@@ -2098,9 +2116,11 @@ if
 !
 compartment
 )
+{
 return
 false
 ;
+}
 return
 IsUniversalXPConnectEnabled
 (
@@ -2136,9 +2156,11 @@ if
 !
 compartment
 )
+{
 return
 true
 ;
+}
 if
 (
 AccessCheck
@@ -2149,9 +2171,11 @@ isChrome
 compartment
 )
 )
+{
 return
 true
 ;
+}
 CompartmentPrivate
 *
 priv
@@ -2169,9 +2193,11 @@ if
 !
 priv
 )
+{
 return
 true
 ;
+}
 if
 (
 priv
@@ -2179,9 +2205,11 @@ priv
 >
 universalXPConnectEnabled
 )
+{
 return
 true
 ;
+}
 priv
 -
 >
@@ -2248,9 +2276,11 @@ if
 !
 scope
 )
+{
 return
 true
 ;
+}
 scope
 -
 >
@@ -2686,6 +2716,7 @@ cx
 >
 mAutoRoots
 )
+{
 roots
 -
 >
@@ -2694,6 +2725,7 @@ TraceJSAll
 trc
 )
 ;
+}
 }
 dom
 :
@@ -2753,6 +2785,7 @@ GetNextRoot
 (
 )
 )
+{
 static_cast
 <
 XPCTraceableVariant
@@ -2768,6 +2801,7 @@ TraceJS
 trc
 )
 ;
+}
 for
 (
 XPCRootSetElem
@@ -2787,6 +2821,7 @@ GetNextRoot
 (
 )
 )
+{
 static_cast
 <
 nsXPCWrappedJS
@@ -2802,6 +2837,7 @@ TraceJS
 trc
 )
 ;
+}
 }
 void
 XPCJSRuntime
@@ -2908,8 +2944,10 @@ toObject
 )
 )
 )
+{
 continue
 ;
+}
 }
 cb
 .
@@ -3243,8 +3281,10 @@ if
 !
 self
 )
+{
 return
 ;
+}
 CrashReporter
 :
 :
@@ -3266,6 +3306,7 @@ self
 >
 mPrevGCSliceCallback
 )
+{
 (
 *
 self
@@ -3279,6 +3320,7 @@ progress
 desc
 )
 ;
+}
 }
 void
 XPCJSRuntime
@@ -3334,8 +3376,10 @@ if
 !
 self
 )
+{
 return
 ;
+}
 if
 (
 self
@@ -3343,6 +3387,7 @@ self
 >
 mPrevDoCycleCollectionCallback
 )
+{
 (
 *
 self
@@ -3354,6 +3399,7 @@ mPrevDoCycleCollectionCallback
 cx
 )
 ;
+}
 }
 void
 XPCJSRuntime
@@ -3393,6 +3439,7 @@ Length
 +
 i
 )
+{
 callbacks
 [
 i
@@ -3401,6 +3448,7 @@ i
 status
 )
 ;
+}
 }
 void
 XPCJSRuntime
@@ -3434,8 +3482,10 @@ if
 !
 self
 )
+{
 return
 ;
+}
 switch
 (
 status
@@ -3622,6 +3672,7 @@ cx
 >
 mAutoRoots
 )
+{
 roots
 -
 >
@@ -3629,6 +3680,7 @@ MarkAfterJSFinalizeAll
 (
 )
 ;
+}
 XPCCallContext
 *
 ccxp
@@ -3670,6 +3722,7 @@ if
 (
 to
 )
+{
 to
 -
 >
@@ -3677,6 +3730,7 @@ Mark
 (
 )
 ;
+}
 }
 ccxp
 =
@@ -3879,6 +3933,7 @@ if
 (
 xpcComp
 )
+{
 xpcComp
 -
 >
@@ -3886,6 +3941,7 @@ UpdateWeakPointersAfterGC
 (
 )
 ;
+}
 }
 void
 CompartmentPrivate
@@ -5095,6 +5151,7 @@ if
 (
 replaceSlashes
 )
+{
 name
 .
 ReplaceChar
@@ -5108,6 +5165,7 @@ ReplaceChar
 '
 )
 ;
+}
 }
 else
 {
@@ -7833,12 +7891,14 @@ if
 (
 gcTotalOut
 )
+{
 *
 gcTotalOut
 +
 =
 gcTotal
 ;
+}
 #
 undef
 STRING_LENGTH
@@ -9263,12 +9323,14 @@ if
 (
 gcTotalOut
 )
+{
 *
 gcTotalOut
 +
 =
 gcTotal
 ;
+}
 }
 static
 void
@@ -10586,11 +10648,13 @@ if
 (
 rtTotalOut
 )
+{
 *
 rtTotalOut
 =
 rtTotal
 ;
+}
 nsCString
 rtPath2
 (
@@ -10993,6 +11057,7 @@ i
 +
 +
 )
+{
 REPORT
 (
 nsCString
@@ -11019,6 +11084,7 @@ JSRuntime
 "
 )
 ;
+}
 return
 NS_OK
 ;
@@ -11309,6 +11375,7 @@ length
 +
 i
 )
+{
 delete
 static_cast
 <
@@ -11327,6 +11394,7 @@ i
 extra
 )
 ;
+}
 for
 (
 size_t
@@ -11347,6 +11415,7 @@ length
 +
 i
 )
+{
 delete
 static_cast
 <
@@ -11365,6 +11434,7 @@ i
 extra
 )
 ;
+}
 }
 virtual
 void
@@ -11862,6 +11932,7 @@ if
 (
 needZone
 )
+{
 extras
 -
 >
@@ -11892,6 +11963,7 @@ realm
 )
 )
 ;
+}
 extras
 -
 >
@@ -12055,8 +12127,10 @@ CollectGlobalStats
 gStats
 )
 )
+{
 return
 ;
+}
 size_t
 xpcJSRuntimeSize
 =
@@ -14842,6 +14916,7 @@ Length
 =
 bufsize
 )
+{
 name
 .
 Truncate
@@ -14851,6 +14926,7 @@ bufsize
 1
 )
 ;
+}
 memcpy
 (
 buf
@@ -15022,6 +15098,7 @@ filename
 )
 )
 )
+{
 filename
 =
 arrow
@@ -15034,6 +15111,7 @@ strlen
 "
 )
 ;
+}
 nsCOMPtr
 <
 nsIURI
@@ -15161,9 +15239,11 @@ jar
 "
 )
 )
+{
 return
 NS_OK
 ;
+}
 scriptChannel
 -
 >
@@ -15229,18 +15309,22 @@ if
 !
 rawLen
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 if
 (
 rawLen
 >
 UINT32_MAX
 )
+{
 return
 NS_ERROR_FILE_TOO_BIG
 ;
+}
 auto
 buf
 =
@@ -15260,9 +15344,11 @@ if
 !
 buf
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 unsigned
 char
 *
@@ -15322,9 +15408,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 rv
 ;
+}
 MOZ_ASSERT
 (
 bytesRead
@@ -15382,9 +15470,11 @@ if
 *
 src
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 JS_updateMallocCounter
 (
 cx
@@ -15446,17 +15536,21 @@ IsSystemCaller
 cx
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
 filename
 )
+{
 return
 true
 ;
+}
 nsresult
 rv
 =
@@ -16998,6 +17092,7 @@ if
 (
 mNext
 )
+{
 mNext
 -
 >
@@ -17005,6 +17100,7 @@ mSelfp
 =
 mSelfp
 ;
+}
 #
 ifdef
 DEBUG

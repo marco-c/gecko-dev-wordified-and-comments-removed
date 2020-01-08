@@ -236,6 +236,7 @@ GetJSObjectPreserveColor
 (
 )
 )
+{
 dying
 .
 AppendElement
@@ -246,6 +247,7 @@ wrapper
 )
 )
 ;
+}
 }
 wrapper
 =
@@ -286,13 +288,16 @@ if
 !
 obj
 )
+{
 iter
 .
 remove
 (
 )
 ;
+}
 else
+{
 iter
 .
 get
@@ -305,6 +310,7 @@ mutableKey
 =
 obj
 ;
+}
 }
 }
 void
@@ -473,6 +479,7 @@ next
 (
 )
 )
+{
 n
 +
 =
@@ -492,6 +499,7 @@ SizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 return
 n
 ;
@@ -1328,9 +1336,11 @@ Set
 =
 SetInTable
 )
+{
 return
 true
 ;
+}
 uint16_t
 count
 =
@@ -1361,9 +1371,11 @@ GetInterfaceCount
 (
 )
 )
+{
 return
 false
 ;
+}
 XPCNativeInterface
 *
 *
@@ -1421,9 +1433,11 @@ CurrentInTable
 +
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 !

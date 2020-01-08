@@ -694,6 +694,7 @@ if
 !
 mLock
 )
+{
 MOZ_CRASH
 (
 "
@@ -703,6 +704,7 @@ failed
 "
 )
 ;
+}
 mWakeup
 =
 PR_NewCondVar
@@ -715,6 +717,7 @@ if
 !
 mWakeup
 )
+{
 MOZ_CRASH
 (
 "
@@ -724,6 +727,7 @@ failed
 "
 )
 ;
+}
 {
 AutoLockWatchdog
 lock
@@ -749,6 +753,7 @@ if
 !
 mThread
 )
+{
 MOZ_CRASH
 (
 "
@@ -758,6 +763,7 @@ failed
 "
 )
 ;
+}
 mInitialized
 =
 true
@@ -1287,6 +1293,7 @@ Hibernating
 (
 )
 )
+{
 mWatchdog
 -
 >
@@ -1294,6 +1301,7 @@ WakeUp
 (
 )
 ;
+}
 }
 bool
 IsAnyContextActive
@@ -1513,15 +1521,19 @@ if
 (
 wantWatchdog
 )
+{
 StartWatchdog
 (
 )
 ;
+}
 else
+{
 StopWatchdog
 (
 )
 ;
+}
 }
 if
 (
@@ -1547,10 +1559,12 @@ contentTime
 =
 0
 )
+{
 contentTime
 =
 INT32_MAX
 ;
+}
 int32_t
 chromeTime
 =
@@ -1570,10 +1584,12 @@ chromeTime
 =
 0
 )
+{
 chromeTime
 =
 INT32_MAX
 ;
+}
 int32_t
 extTime
 =
@@ -1593,10 +1609,12 @@ extTime
 =
 0
 )
+{
 extTime
 =
 INT32_MAX
 ;
+}
 mWatchdog
 -
 >
@@ -2106,6 +2124,7 @@ if
 (
 dbg
 )
+{
 dbg
 -
 >
@@ -2115,6 +2134,7 @@ GetIsDebuggerAttached
 debuggerAttached
 )
 ;
+}
 if
 (
 debuggerAttached
@@ -2519,9 +2539,11 @@ IsInitialized
 (
 )
 )
+{
 return
 true
 ;
+}
 TimeDuration
 duration
 =
@@ -2675,9 +2697,11 @@ limit
 .
 0
 )
+{
 return
 true
 ;
+}
 self
 -
 >
@@ -2778,9 +2802,11 @@ global
 proto
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 proto
@@ -2947,6 +2973,7 @@ global_stop_script
 true
 )
 )
+{
 xpc
 :
 :
@@ -2962,6 +2989,7 @@ Block
 (
 )
 ;
+}
 return
 false
 ;
@@ -3005,9 +3033,11 @@ global
 !
 obs
 )
+{
 return
 false
 ;
+}
 nsIXPConnect
 *
 xpc
@@ -3114,6 +3144,7 @@ nsGlobalWindowInner
 :
 ContinueSlowScriptAndKeepNotifying
 )
+{
 self
 -
 >
@@ -3126,6 +3157,7 @@ NowLoRes
 (
 )
 ;
+}
 if
 (
 response
@@ -3136,6 +3168,7 @@ nsGlobalWindowInner
 :
 AlwaysContinueSlowScript
 )
+{
 Preferences
 :
 :
@@ -3145,6 +3178,7 @@ prefName
 0
 )
 ;
+}
 return
 true
 ;
@@ -4200,6 +4234,7 @@ if
 (
 mCallContext
 )
+{
 mCallContext
 -
 >
@@ -4207,6 +4242,7 @@ SystemIsBeingShutDown
 (
 )
 ;
+}
 PROFILER_CLEAR_JS_CONTEXT
 (
 )
@@ -4428,6 +4464,7 @@ mbi
 )
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -4436,6 +4473,7 @@ failed
 "
 )
 ;
+}
 const
 uint8_t
 *
@@ -5172,9 +5210,11 @@ Context
 (
 )
 )
+{
 return
 self
 ;
+}
 MOZ_CRASH
 (
 "
