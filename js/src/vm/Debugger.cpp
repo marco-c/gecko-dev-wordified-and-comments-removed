@@ -42666,11 +42666,6 @@ filename
 lineno
 )
 .
-setCanLazilyParse
-(
-false
-)
-.
 setIntroductionType
 (
 "
