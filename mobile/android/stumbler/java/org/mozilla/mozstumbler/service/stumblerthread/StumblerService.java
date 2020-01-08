@@ -760,7 +760,14 @@ notification
 ;
 }
 return
-START_STICKY
+super
+.
+onStartCommand
+(
+intent
+flags
+startId
+)
 ;
 }
 Override
