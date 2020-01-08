@@ -1703,9 +1703,6 @@ total_clip_nodes
 uintptr_t
 total_spatial_nodes
 ;
-uintptr_t
-prim_count_estimate
-;
 bool
 operator
 =
@@ -1757,14 +1754,6 @@ total_spatial_nodes
 aOther
 .
 total_spatial_nodes
-&
-&
-prim_count_estimate
-=
-=
-aOther
-.
-prim_count_estimate
 ;
 }
 }
