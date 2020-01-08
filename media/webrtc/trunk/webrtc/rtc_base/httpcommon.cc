@@ -2543,7 +2543,7 @@ WEBRTC_ANDROID
 |
 defined
 (
-BSD
+WEBRTC_BSD
 )
 tm
 *
