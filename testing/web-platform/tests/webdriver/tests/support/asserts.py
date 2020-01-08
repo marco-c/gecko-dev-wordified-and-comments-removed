@@ -493,6 +493,7 @@ assert_dialog_handled
 (
 session
 expected_text
+expected_retval
 )
 :
     
@@ -532,7 +533,26 @@ except
 NoSuchAlertException
 :
         
-pass
+prompt_retval
+=
+session
+.
+execute_script
+(
+"
+return
+window
+.
+dialog_return_value
+;
+"
+)
+        
+assert
+prompt_retval
+=
+=
+expected_retval
 def
 assert_files_uploaded
 (

@@ -77,17 +77,31 @@ parametrize
 (
 "
 dialog_type
+retval
 "
 [
+    
+(
 "
 alert
 "
+None
+)
+    
+(
 "
 confirm
 "
+True
+)
+    
+(
 "
 prompt
 "
+"
+"
+)
 ]
 )
 def
@@ -96,6 +110,7 @@ test_handle_prompt_accept
 session
 create_dialog
 dialog_type
+retval
 )
 :
     
@@ -112,9 +127,7 @@ create_dialog
 dialog_type
 text
 =
-"
-dialog
-"
+dialog_type
 )
     
 response
@@ -156,9 +169,10 @@ assert_dialog_handled
 session
 expected_text
 =
-"
-dialog
-"
+dialog_type
+expected_retval
+=
+retval
 )
 def
 test_handle_prompt_accept_and_notify
@@ -220,17 +234,30 @@ parametrize
 (
 "
 dialog_type
+retval
 "
 [
+    
+(
 "
 alert
 "
+None
+)
+    
+(
 "
 confirm
 "
+False
+)
+    
+(
 "
 prompt
 "
+None
+)
 ]
 )
 def
@@ -239,6 +266,7 @@ test_handle_prompt_default
 session
 create_dialog
 dialog_type
+retval
 )
 :
     
@@ -255,9 +283,7 @@ create_dialog
 dialog_type
 text
 =
-"
-dialog
-"
+dialog_type
 )
     
 response
@@ -305,7 +331,8 @@ assert_dialog_handled
 session
 expected_text
 =
-"
-dialog
-"
+dialog_type
+expected_retval
+=
+retval
 )
