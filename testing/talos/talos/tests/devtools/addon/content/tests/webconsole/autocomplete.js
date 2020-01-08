@@ -366,7 +366,9 @@ value
 ;
 jsterm
 .
-fetchAutocompletionProperties
+props
+.
+autocompleteUpdate
 (
 )
 ;
