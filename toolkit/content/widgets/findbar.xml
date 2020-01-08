@@ -1842,11 +1842,13 @@ sync
 with
 toolkit
 /
-modules
+content
 /
-FindBarChild
+browser
+-
+content
 .
-jsm
+js
 -
 -
 >

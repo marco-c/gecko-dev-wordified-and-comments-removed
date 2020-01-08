@@ -1037,6 +1037,7 @@ xul
 shouldFastFind
 (
 elt
+win
 )
 {
 if
@@ -1044,13 +1045,6 @@ if
 elt
 )
 {
-let
-win
-=
-elt
-.
-ownerGlobal
-;
 if
 (
 elt
