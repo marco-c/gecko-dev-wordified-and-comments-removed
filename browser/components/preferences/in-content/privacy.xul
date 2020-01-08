@@ -1533,11 +1533,6 @@ value
 "
 trackers
 "
-id
-=
-"
-blockCookiesFromTrackersCB
-"
 data
 -
 l10n
@@ -1558,6 +1553,8 @@ block
 trackers
 -
 option
+-
+recommended
 "
 flex
 =
@@ -2283,6 +2280,8 @@ block
 trackers
 -
 option
+-
+recommended
 "
 value
 =
