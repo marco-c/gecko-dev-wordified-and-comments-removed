@@ -7015,6 +7015,12 @@ connection
 -
 settings
 "
+searchkeywords
+=
+"
+doh
+trr
+"
 search
 -
 l10n
