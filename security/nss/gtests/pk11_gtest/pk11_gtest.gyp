@@ -124,6 +124,11 @@ pk11_chacha20poly1305_unittest
 cc
 '
 '
+pk11_cipherop_unittest
+.
+cc
+'
+'
 pk11_curve25519_unittest
 .
 cc
