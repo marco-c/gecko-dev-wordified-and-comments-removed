@@ -108,6 +108,11 @@ UrlbarProvidersManager
 jsm
 '
 '
+UrlbarProviderUnifiedComplete
+.
+jsm
+'
+'
 UrlbarTokenizer
 .
 jsm
