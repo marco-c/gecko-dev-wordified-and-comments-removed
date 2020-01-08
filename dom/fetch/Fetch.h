@@ -482,14 +482,6 @@ ErrorResult
 aRv
 )
 ;
-const
-PathString
-&
-BodyLocalPath
-(
-)
-const
-;
 void
 MaybeTeeReadableStreamBody
 (
