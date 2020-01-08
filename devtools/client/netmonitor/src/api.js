@@ -640,6 +640,11 @@ this
 harExportConnector
 )
 {
+await
+this
+.
+harExportConnectorReady
+;
 return
 this
 .
@@ -677,7 +682,10 @@ Connector
 (
 )
 ;
-await
+this
+.
+harExportConnectorReady
+=
 this
 .
 connectBackend
@@ -687,6 +695,11 @@ this
 harExportConnector
 connection
 )
+;
+await
+this
+.
+harExportConnectorReady
 ;
 return
 this
