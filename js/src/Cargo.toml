@@ -78,6 +78,15 @@ num_cpus
 .
 0
 "
+glob
+=
+"
+0
+.
+2
+.
+11
+"
 [
 dependencies
 ]
