@@ -134,11 +134,6 @@ featureId
 readonly
 attribute
 DOMString
-message
-;
-readonly
-attribute
-DOMString
 ?
 sourceFile
 ;
