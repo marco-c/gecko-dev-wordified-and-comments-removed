@@ -126,15 +126,15 @@ inspector
 )
 ;
 await
-expandOtherFontsAccordion
+expandFontsAccordion
 (
 viewDoc
 )
 ;
 const
-otherFontsEls
+allFontsEls
 =
-getOtherFontsEls
+getAllFontsEls
 (
 viewDoc
 )
@@ -142,7 +142,7 @@ viewDoc
 const
 fontEl
 =
-otherFontsEls
+allFontsEls
 [
 0
 ]
