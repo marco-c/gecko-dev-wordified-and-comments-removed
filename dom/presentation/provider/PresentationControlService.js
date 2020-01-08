@@ -260,8 +260,6 @@ _controlChannels
 [
 ]
 startServer
-:
-function
 (
 aEncrypted
 aPort
@@ -370,8 +368,6 @@ getOrCreateCert
 kLocalCertName
 {
 handleCert
-:
-function
 (
 aCert
 aRv
@@ -489,8 +485,6 @@ null
 }
 }
 _serverSocketInit
-:
-function
 (
 aPort
 aCert
@@ -685,8 +679,6 @@ _notifyServerReady
 ;
 }
 _notifyServerReady
-:
-function
 (
 )
 {
@@ -728,8 +720,6 @@ certFingerprint
 ;
 }
 _notifyServerStopped
-:
-function
 (
 aRv
 )
@@ -767,8 +757,6 @@ aRv
 ;
 }
 isCompatibleServer
-:
-function
 (
 aVersion
 )
@@ -881,8 +869,6 @@ _listener
 ;
 }
 _isServiceInit
-:
-function
 (
 )
 {
@@ -897,8 +883,6 @@ null
 ;
 }
 connect
-:
-function
 (
 aDeviceInfo
 )
@@ -974,8 +958,6 @@ sender
 ;
 }
 _attemptConnect
-:
-function
 (
 aDeviceInfo
 )
@@ -1159,8 +1141,6 @@ socketTransport
 ;
 }
 responseSession
-:
-function
 (
 aDeviceInfo
 aSocketTransport
@@ -1238,8 +1218,6 @@ receiver
 ;
 }
 onSessionRequest
-:
-function
 (
 aDeviceInfo
 aUrl
@@ -1311,8 +1289,6 @@ aControlChannel
 ;
 }
 onSessionTerminate
-:
-function
 (
 aDeviceInfo
 aPresentationId
@@ -1384,8 +1360,6 @@ aControlChannel
 ;
 }
 onSessionReconnect
-:
-function
 (
 aDeviceInfo
 aUrl
@@ -1457,8 +1431,6 @@ aControlChannel
 ;
 }
 onSocketAccepted
-:
-function
 (
 aServerSocket
 aClientSocket
@@ -1518,8 +1490,6 @@ aClientSocket
 ;
 }
 holdControlChannel
-:
-function
 (
 aControlChannel
 )
@@ -1535,8 +1505,6 @@ aControlChannel
 ;
 }
 releaseControlChannel
-:
-function
 (
 aControlChannel
 )
@@ -1574,8 +1542,6 @@ index
 }
 }
 onStopListening
-:
-function
 (
 aServerSocket
 aStatus
@@ -1598,8 +1564,6 @@ aStatus
 ;
 }
 close
-:
-function
 (
 )
 {
@@ -1688,8 +1652,6 @@ _port
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -1764,8 +1726,6 @@ break
 }
 }
 _restartServer
-:
-function
 (
 )
 {
@@ -2491,8 +2451,6 @@ _pendingReconnect
 :
 false
 sendOffer
-:
-function
 (
 aOffer
 )
@@ -2511,8 +2469,6 @@ aOffer
 ;
 }
 sendAnswer
-:
-function
 (
 aAnswer
 )
@@ -2531,8 +2487,6 @@ aAnswer
 ;
 }
 sendIceCandidate
-:
-function
 (
 aCandidate
 )
@@ -2548,8 +2502,6 @@ aCandidate
 ;
 }
 launch
-:
-function
 (
 aPresentationId
 aUrl
@@ -2567,8 +2519,6 @@ aUrl
 ;
 }
 terminate
-:
-function
 (
 aPresentationId
 )
@@ -2678,8 +2628,6 @@ _terminatingId
 }
 }
 _flushOutgoing
-:
-function
 (
 )
 {
@@ -2723,8 +2671,6 @@ currentThread
 ;
 }
 _send
-:
-function
 (
 aMsg
 )
@@ -2824,8 +2770,6 @@ e
 }
 }
 _setSecurityObserver
-:
-function
 (
 observer
 )
@@ -2885,8 +2829,6 @@ observer
 }
 }
 onHandshakeDone
-:
-function
 (
 socket
 clientStatus
@@ -2935,8 +2877,6 @@ _createInputStreamPump
 ;
 }
 onOutputStreamReady
-:
-function
 (
 )
 {
@@ -3045,8 +2985,6 @@ _flushOutgoing
 ;
 }
 onInputStreamReady
-:
-function
 (
 aStream
 )
@@ -3107,8 +3045,6 @@ result
 }
 }
 onTransportStatus
-:
-function
 (
 aTransport
 aStatus
@@ -3172,8 +3108,6 @@ _createInputStreamPump
 }
 }
 onStartRequest
-:
-function
 (
 )
 {
@@ -3204,8 +3138,6 @@ true
 ;
 }
 onStopRequest
-:
-function
 (
 aRequest
 aContext
@@ -3249,8 +3181,6 @@ true
 ;
 }
 onDataAvailable
-:
-function
 (
 aRequest
 aContext
@@ -3363,8 +3293,6 @@ msg
 }
 }
 _createInputStreamPump
-:
-function
 (
 )
 {
@@ -3462,8 +3390,6 @@ onChannelReady
 ;
 }
 _handleMessage
-:
-function
 (
 aMsg
 )
@@ -3786,8 +3712,6 @@ false
 }
 }
 _onOffer
-:
-function
 (
 aOffer
 )
@@ -3856,8 +3780,6 @@ aOffer
 ;
 }
 _onAnswer
-:
-function
 (
 aAnswer
 )
@@ -3926,8 +3848,6 @@ aAnswer
 ;
 }
 _notifyConnected
-:
-function
 (
 )
 {
@@ -3992,8 +3912,6 @@ notifyConnected
 ;
 }
 _notifyDisconnected
-:
-function
 (
 aReason
 )
@@ -4097,8 +4015,6 @@ aReason
 ;
 }
 _notifyReconnected
-:
-function
 (
 )
 {
@@ -4149,8 +4065,6 @@ notifyReconnected
 ;
 }
 _closeOutgoing
-:
-function
 (
 )
 {
@@ -4178,8 +4092,6 @@ false
 }
 }
 _closeIncoming
-:
-function
 (
 )
 {
@@ -4213,8 +4125,6 @@ false
 }
 }
 _closeTransport
-:
-function
 (
 )
 {
@@ -4296,8 +4206,6 @@ this
 ;
 }
 disconnect
-:
-function
 (
 aReason
 )
@@ -4423,8 +4331,6 @@ kDisconnectTimeout
 }
 }
 reconnect
-:
-function
 (
 aPresentationId
 aUrl
@@ -4479,8 +4385,6 @@ aUrl
 ;
 }
 sendCommand
-:
-function
 (
 command
 )
@@ -4502,8 +4406,6 @@ _flushOutgoing
 ;
 }
 notifyDeviceConnected
-:
-function
 (
 deviceId
 )
@@ -4539,8 +4441,6 @@ _notifyConnected
 ;
 }
 notifyDisconnected
-:
-function
 (
 reason
 )
@@ -4560,8 +4460,6 @@ reason
 ;
 }
 notifyLaunch
-:
-function
 (
 presentationId
 url
@@ -4598,8 +4496,6 @@ break
 }
 }
 notifyTerminate
-:
-function
 (
 presentationId
 )
@@ -4721,8 +4617,6 @@ _pendingDisconnect
 }
 }
 notifyReconnect
-:
-function
 (
 presentationId
 url
@@ -4772,8 +4666,6 @@ break
 }
 }
 notifyOffer
-:
-function
 (
 offer
 )
@@ -4787,8 +4679,6 @@ offer
 ;
 }
 notifyAnswer
-:
-function
 (
 answer
 )
@@ -4802,8 +4692,6 @@ answer
 ;
 }
 notifyIceCandidate
-:
-function
 (
 candidate
 )

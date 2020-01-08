@@ -543,8 +543,6 @@ CommandType
 .
 TERMINATE
 presentationId
-:
-presentationId
 }
 )
 ;
@@ -581,8 +579,6 @@ type
 CommandType
 .
 TERMINATE_ACK
-presentationId
-:
 presentationId
 }
 )
@@ -661,8 +657,6 @@ CommandType
 .
 ANSWER
 answer
-:
-answer
 }
 )
 ;
@@ -699,8 +693,6 @@ type
 CommandType
 .
 ICE_CANDIDATE
-candidate
-:
 candidate
 }
 )
@@ -811,8 +803,6 @@ type
 CommandType
 .
 DISCONNECT
-reason
-:
 reason
 }
 )
