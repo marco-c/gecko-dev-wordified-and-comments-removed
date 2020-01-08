@@ -1108,7 +1108,7 @@ mozilla
 css
 :
 :
-URLMatchingFunction
+DocumentMatchingFunction
 "
 "
 mozilla
@@ -1678,7 +1678,7 @@ mozilla
 css
 :
 :
-URLMatchingFunction
+DocumentMatchingFunction
 "
 "
 mozilla
@@ -3751,7 +3751,7 @@ ParsingMode
 InheritTarget
 "
 "
-URLMatchingFunction
+DocumentMatchingFunction
 "
 "
 StyleAnimation

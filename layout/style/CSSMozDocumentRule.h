@@ -22,7 +22,7 @@ mozilla
 /
 css
 /
-URLMatchingFunction
+DocumentMatchingFunction
 .
 h
 "
@@ -97,8 +97,7 @@ aPattern
 css
 :
 :
-URLMatchingFunction
-aUrlMatchingFunction
+DocumentMatchingFunction
 )
 ;
 #

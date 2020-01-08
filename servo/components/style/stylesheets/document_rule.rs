@@ -407,7 +407,7 @@ ToCss
 ]
 pub
 enum
-UrlMatchingFunction
+DocumentMatchingFunction
 {
 Url
 (
@@ -561,7 +561,7 @@ to_string
 ;
 }
 impl
-UrlMatchingFunction
+DocumentMatchingFunction
 {
 pub
 fn
@@ -630,7 +630,7 @@ parse_quoted_or_unquoted_string
 !
 (
 input
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 UrlPrefix
@@ -664,7 +664,7 @@ parse_quoted_or_unquoted_string
 !
 (
 input
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 Domain
@@ -704,7 +704,7 @@ input
 {
 Ok
 (
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 Regexp
@@ -744,7 +744,7 @@ input
 ;
 Ok
 (
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 Url
@@ -795,9 +795,9 @@ gecko_bindings
 structs
 :
 :
-URLMatchingFunction
+DocumentMatchingFunction
 as
-GeckoUrlMatchingFunction
+GeckoDocumentMatchingFunction
 ;
 use
 nsstring
@@ -812,7 +812,7 @@ match
 *
 self
 {
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 Url
@@ -821,11 +821,11 @@ _
 )
 =
 >
-GeckoUrlMatchingFunction
+GeckoDocumentMatchingFunction
 :
 :
-eURL
-UrlMatchingFunction
+URL
+DocumentMatchingFunction
 :
 :
 UrlPrefix
@@ -834,11 +834,11 @@ _
 )
 =
 >
-GeckoUrlMatchingFunction
+GeckoDocumentMatchingFunction
 :
 :
-eURLPrefix
-UrlMatchingFunction
+URLPrefix
+DocumentMatchingFunction
 :
 :
 Domain
@@ -847,11 +847,11 @@ _
 )
 =
 >
-GeckoUrlMatchingFunction
+GeckoDocumentMatchingFunction
 :
 :
-eDomain
-UrlMatchingFunction
+Domain
+DocumentMatchingFunction
 :
 :
 Regexp
@@ -860,10 +860,10 @@ _
 )
 =
 >
-GeckoUrlMatchingFunction
+GeckoDocumentMatchingFunction
 :
 :
-eRegExp
+RegExp
 }
 ;
 let
@@ -878,7 +878,7 @@ match
 *
 self
 {
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 Url
@@ -893,7 +893,7 @@ url
 as_str
 (
 )
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 UrlPrefix
@@ -902,7 +902,7 @@ ref
 pat
 )
 |
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 Domain
@@ -911,7 +911,7 @@ ref
 pat
 )
 |
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 Regexp
@@ -1002,7 +1002,7 @@ iterable
 ]
 Vec
 <
-UrlMatchingFunction
+DocumentMatchingFunction
 >
 )
 ;
@@ -1057,7 +1057,7 @@ parse_comma_separated
 |
 input
 |
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 parse
@@ -1283,7 +1283,7 @@ self
 0
 ]
 {
-UrlMatchingFunction
+DocumentMatchingFunction
 :
 :
 UrlPrefix

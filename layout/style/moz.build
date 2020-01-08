@@ -697,6 +697,11 @@ css
 =
 [
 '
+DocumentMatchingFunction
+.
+h
+'
+'
 ErrorReporter
 .
 h
@@ -733,11 +738,6 @@ h
 '
 '
 StreamLoader
-.
-h
-'
-'
-URLMatchingFunction
 .
 h
 '
