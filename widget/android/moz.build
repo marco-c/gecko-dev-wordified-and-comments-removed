@@ -316,6 +316,11 @@ ScreenHelperAndroid
 .
 cpp
 '
+'
+WebExecutorSupport
+.
+cpp
+'
 ]
 include
 (
