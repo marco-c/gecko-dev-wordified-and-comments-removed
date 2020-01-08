@@ -1759,18 +1759,14 @@ setup_ssl
 (
 )
         
-debug_args
-cmd
+args
 =
-browser_command
-(
-self
-.
-binary
-                                          
 self
 .
 binary_args
+[
+:
+]
 if
 self
 .
@@ -1778,8 +1774,10 @@ binary_args
 else
 [
 ]
+        
+args
 +
-                                          
+=
 [
 cmd_arg
 (
@@ -1793,6 +1791,17 @@ about
 blank
 "
 ]
+        
+debug_args
+cmd
+=
+browser_command
+(
+self
+.
+binary
+                                          
+args
                                           
 self
 .
