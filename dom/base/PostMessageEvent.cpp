@@ -343,7 +343,7 @@ IsDying
 return
 NS_OK
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

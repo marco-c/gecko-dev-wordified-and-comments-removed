@@ -2878,7 +2878,7 @@ isUndefined
 return
 true
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -7139,7 +7139,7 @@ SetGlobalObject
 glob
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

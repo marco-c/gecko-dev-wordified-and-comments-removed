@@ -468,7 +468,7 @@ return
 nullptr
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

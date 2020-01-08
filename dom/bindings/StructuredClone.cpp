@@ -221,7 +221,7 @@ GetDataObject
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

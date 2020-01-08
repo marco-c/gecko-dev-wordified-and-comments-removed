@@ -380,7 +380,7 @@ if
 jsGlobal
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

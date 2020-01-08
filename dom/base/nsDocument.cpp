@@ -30757,7 +30757,7 @@ GetGlobalJSObject
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -42274,7 +42274,7 @@ global
 NS_ERROR_UNEXPECTED
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

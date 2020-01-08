@@ -199,7 +199,7 @@ JSContext
 *
 mCx
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 mRealm
 ;
 JS

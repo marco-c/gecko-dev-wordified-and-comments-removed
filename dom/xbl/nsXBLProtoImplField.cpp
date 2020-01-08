@@ -674,7 +674,7 @@ nsAutoJSString
 fieldName
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -773,7 +773,7 @@ UncheckedUnwrap
 xblProto
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx
@@ -1460,7 +1460,7 @@ found
 return
 NS_OK
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -1635,7 +1635,7 @@ id
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 aCx
@@ -2102,7 +2102,7 @@ ReportException
 )
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx

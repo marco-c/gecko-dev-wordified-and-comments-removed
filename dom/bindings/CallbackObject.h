@@ -985,7 +985,7 @@ mAsyncStackSetter
 ;
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 mAr
 ;

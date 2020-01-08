@@ -1608,7 +1608,7 @@ scopeObject
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2013,7 +2013,7 @@ argCount
 argNames
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2099,7 +2099,7 @@ handlerFun
 NS_ERROR_FAILURE
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx

@@ -2263,7 +2263,7 @@ global
 return
 nullptr
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2546,7 +2546,7 @@ uint32_t
 aFlags
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aJSContext
@@ -2835,7 +2835,7 @@ aVal
 AutoJSContext
 cx
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -3159,7 +3159,7 @@ aJSContext
 aJSObjArg
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aJSContext
@@ -3789,7 +3789,7 @@ aJSContext
 aScopeArg
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aJSContext

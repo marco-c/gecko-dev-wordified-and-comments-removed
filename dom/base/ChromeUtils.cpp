@@ -1256,7 +1256,7 @@ allowed
 return
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1387,7 +1387,7 @@ cx
 {
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;
@@ -2584,7 +2584,7 @@ aCx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -3800,7 +3800,7 @@ column
 ;
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

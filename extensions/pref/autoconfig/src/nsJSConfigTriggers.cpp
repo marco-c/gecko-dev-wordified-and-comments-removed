@@ -378,7 +378,7 @@ sandbox
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 cx
@@ -790,7 +790,7 @@ script
 ;
 }
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ac
 (
 cx

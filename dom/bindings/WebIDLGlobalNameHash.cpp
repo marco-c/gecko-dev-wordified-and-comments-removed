@@ -1239,7 +1239,7 @@ aCx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

@@ -35,7 +35,7 @@ pub
 struct
 AutoCompartment
 (
-JSAutoRealm
+JSAutoRealmAllowCCW
 )
 ;
 impl
@@ -96,7 +96,7 @@ null_mut
 ;
 AutoCompartment
 (
-JSAutoRealm
+JSAutoRealmAllowCCW
 :
 :
 new
@@ -149,7 +149,7 @@ AutoCompartment
 {
 AutoCompartment
 (
-JSAutoRealm
+JSAutoRealmAllowCCW
 :
 :
 new
@@ -214,7 +214,7 @@ null_mut
 ;
 AutoCompartment
 (
-JSAutoRealm
+JSAutoRealmAllowCCW
 :
 :
 new1
@@ -267,7 +267,7 @@ AutoCompartment
 {
 AutoCompartment
 (
-JSAutoRealm
+JSAutoRealmAllowCCW
 :
 :
 new1

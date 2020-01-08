@@ -2636,7 +2636,7 @@ return
 nullptr
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2655,7 +2655,7 @@ hasXrayWaiver
 )
 {
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx

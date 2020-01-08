@@ -9515,7 +9515,7 @@ UncheckedUnwrap
 obj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -9587,7 +9587,7 @@ UncheckedUnwrap
 obj
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -9693,7 +9693,7 @@ obj
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -9844,7 +9844,7 @@ obj
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -9970,7 +9970,7 @@ obj
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -10379,7 +10379,7 @@ obj
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

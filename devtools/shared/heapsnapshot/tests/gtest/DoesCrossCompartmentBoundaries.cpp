@@ -52,7 +52,7 @@ newCompartment
 nullptr
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

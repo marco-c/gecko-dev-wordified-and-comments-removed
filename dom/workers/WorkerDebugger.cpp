@@ -448,7 +448,7 @@ GetWrapper
 ErrorResult
 rv
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

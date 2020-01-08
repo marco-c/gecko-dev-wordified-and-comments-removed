@@ -1206,7 +1206,7 @@ setUndefined
 ;
 }
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 rar
 (
 cx
@@ -1291,7 +1291,7 @@ if
 startupCache
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2439,7 +2439,7 @@ false
 ;
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;
@@ -2784,7 +2784,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

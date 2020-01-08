@@ -1639,7 +1639,7 @@ return
 false
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -12695,7 +12695,7 @@ InitializeGCTimers
 ;
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 workerCompartment
 ;
@@ -13063,7 +13063,7 @@ MOZ_ASSERT
 globalScope
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -13111,7 +13111,7 @@ GlobalScope
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -21158,7 +21158,7 @@ global
 nullptr
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -21265,7 +21265,7 @@ global
 nullptr
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

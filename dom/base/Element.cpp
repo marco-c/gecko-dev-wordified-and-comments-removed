@@ -16967,7 +16967,7 @@ nullptr
 }
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

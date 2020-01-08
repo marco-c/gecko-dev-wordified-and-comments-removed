@@ -8184,7 +8184,7 @@ if
 wrapper
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 jsapi

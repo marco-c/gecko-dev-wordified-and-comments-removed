@@ -3879,7 +3879,7 @@ Obj
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

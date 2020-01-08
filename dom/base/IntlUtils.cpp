@@ -381,7 +381,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -630,7 +630,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

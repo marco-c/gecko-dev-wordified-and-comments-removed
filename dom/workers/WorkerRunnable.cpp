@@ -1310,7 +1310,7 @@ globalObject
 ;
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

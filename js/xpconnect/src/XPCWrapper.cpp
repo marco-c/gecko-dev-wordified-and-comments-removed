@@ -348,7 +348,7 @@ HandleObject
 aGlobalObject
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

@@ -894,7 +894,7 @@ options
 {
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;
@@ -1326,7 +1326,7 @@ thisObject
 ;
 }
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1886,7 +1886,7 @@ false
 ;
 }
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2255,7 +2255,7 @@ cx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

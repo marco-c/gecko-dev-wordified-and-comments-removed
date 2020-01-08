@@ -773,7 +773,7 @@ global
 >
 scope
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1326,7 +1326,7 @@ mozilla
 :
 Maybe
 <
-JSAutoRealm
+JSAutoRealmAllowCCW
 >
 ar
 ;

@@ -8625,7 +8625,7 @@ obj
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -11731,7 +11731,7 @@ newParent
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 oldAr
 (
 aCx
@@ -11845,7 +11845,7 @@ aObj
 )
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 newAr
 (
 aCx
@@ -17720,7 +17720,7 @@ isUndefined
 )
 {
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -18734,7 +18734,7 @@ MSG_ILLEGAL_CONSTRUCTOR
 ;
 }
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -18852,7 +18852,7 @@ IsCustomBuiltIn
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -19161,7 +19161,7 @@ MSG_ILLEGAL_CONSTRUCTOR
 )
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -19258,7 +19258,7 @@ desiredProto
 )
 {
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -19332,7 +19332,7 @@ IsEmpty
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -19519,7 +19519,7 @@ if
 reflector
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -19574,7 +19574,7 @@ LastElement
 ALREADY_CONSTRUCTED_MARKER
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx
@@ -19675,7 +19675,7 @@ aCx
 aReflector
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aCx

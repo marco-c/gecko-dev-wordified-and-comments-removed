@@ -726,7 +726,7 @@ IDX_WRAPPED_JSOBJECT
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 ccx

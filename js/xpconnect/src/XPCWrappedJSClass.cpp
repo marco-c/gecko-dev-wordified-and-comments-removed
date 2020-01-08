@@ -1973,7 +1973,7 @@ obj
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2534,7 +2534,7 @@ return
 NS_NOINTERFACE
 ;
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 aes
@@ -4287,7 +4287,7 @@ methodIndex
 return
 NS_ERROR_FAILURE
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

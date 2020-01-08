@@ -217,7 +217,7 @@ false
 ;
 }
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

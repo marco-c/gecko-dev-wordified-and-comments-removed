@@ -130,7 +130,7 @@ cx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 a
 (
 cx
@@ -209,7 +209,7 @@ fun
 ;
 }
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 b
 (
 cx
@@ -478,7 +478,7 @@ cx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 a
 (
 cx
@@ -591,7 +591,7 @@ fun
 ;
 }
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 b
 (
 cx

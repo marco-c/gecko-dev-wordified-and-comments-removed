@@ -1389,7 +1389,7 @@ wrapper
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1539,7 +1539,7 @@ hasGetterOrSetter
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1601,7 +1601,7 @@ toObject
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1621,7 +1621,7 @@ propObj
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1674,7 +1674,7 @@ xrayType
 XrayForOpaqueObject
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1712,7 +1712,7 @@ propObj
 )
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -1740,7 +1740,7 @@ callable
 ;
 }
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx
@@ -2465,7 +2465,7 @@ cx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -2738,7 +2738,7 @@ cx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -3116,7 +3116,7 @@ cx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -3361,7 +3361,7 @@ wrapper
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -3730,7 +3730,7 @@ cx
 desc
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -3858,7 +3858,7 @@ wrapper
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -4163,7 +4163,7 @@ empty
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5561,7 +5561,7 @@ cx
 expandoChain
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5865,7 +5865,7 @@ if
 exclusiveWrapper
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -5937,7 +5937,7 @@ cx
 expandoObject
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -6039,7 +6039,7 @@ HandleObject
 target
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -6209,7 +6209,7 @@ if
 movingIntoXrayCompartment
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -6237,7 +6237,7 @@ false
 }
 else
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -7038,7 +7038,7 @@ if
 expando
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -7097,7 +7097,7 @@ cx
 id
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -9648,7 +9648,7 @@ wrapper
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -9876,7 +9876,7 @@ if
 expando
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -10659,7 +10659,7 @@ cx
 )
 ;
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -10905,7 +10905,7 @@ expando
 return
 false
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -11120,7 +11120,7 @@ if
 expando
 )
 {
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx

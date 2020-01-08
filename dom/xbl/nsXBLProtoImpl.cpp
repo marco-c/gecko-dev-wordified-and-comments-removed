@@ -335,7 +335,7 @@ scopeObject
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -704,7 +704,7 @@ NS_ERROR_UNEXPECTED
 }
 }
 }
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx
@@ -874,7 +874,7 @@ v
 cx
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
@@ -947,7 +947,7 @@ toObject
 )
 )
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar2
 (
 cx

@@ -17726,7 +17726,7 @@ shg
 return
 false
 ;
-JSAutoRealm
+JSAutoRealmAllowCCW
 ar
 (
 cx
