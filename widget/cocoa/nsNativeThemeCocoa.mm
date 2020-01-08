@@ -24339,7 +24339,7 @@ CSSPixelsToDevPixels
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 borderWidths
 =
 wr
@@ -24500,7 +24500,7 @@ CSSPixelsToDevPixels
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 borderWidths
 =
 wr

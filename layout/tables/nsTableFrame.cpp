@@ -1231,7 +1231,7 @@ aFrame
 if
 (
 !
-IsTableCell
+IS_TABLE_CELL
 (
 aFrame
 -
@@ -8998,7 +8998,7 @@ Type
 ;
 if
 (
-IsTableCell
+IS_TABLE_CELL
 (
 frameType
 )
@@ -9128,7 +9128,7 @@ aReflowInput
 {
 NS_ASSERTION
 (
-IsTableCell
+IS_TABLE_CELL
 (
 aReflowInput
 .
@@ -9313,7 +9313,7 @@ Type
 ;
 NS_ASSERTION
 (
-IsTableCell
+IS_TABLE_CELL
 (
 frameType
 )
@@ -35786,7 +35786,7 @@ EmptyBorderRadius
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 borderWidths
 =
 wr
@@ -37216,7 +37216,7 @@ EmptyBorderRadius
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 borderWidths
 =
 wr
@@ -38271,7 +38271,7 @@ wrSide
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 wrWidths
 ;
 wr

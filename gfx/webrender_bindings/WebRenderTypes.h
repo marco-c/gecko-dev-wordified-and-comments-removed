@@ -3021,7 +3021,7 @@ inline
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 ToBorderWidths
 (
 float
@@ -3037,7 +3037,7 @@ left
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 bw
 ;
 bw
