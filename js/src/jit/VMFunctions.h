@@ -5719,6 +5719,11 @@ ProxyHasOwnInfo
 extern
 const
 VMFunction
+NativeGetElementInfo
+;
+extern
+const
+VMFunction
 DoConcatStringObjectInfo
 ;
 }
