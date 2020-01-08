@@ -90,7 +90,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 active
@@ -98,7 +98,7 @@ active
 true
 }
 )
-studyFactory
+addonStudyFactory
 (
 {
 active
