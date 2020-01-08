@@ -21,6 +21,15 @@ h
 #
 include
 "
+js
+/
+Stream
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h
