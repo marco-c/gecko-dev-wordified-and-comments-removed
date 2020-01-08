@@ -9053,6 +9053,12 @@ parentlock
 ;
 return
 lock
+!
+=
+null
+&
+&
+lock
 .
 exists
 (
