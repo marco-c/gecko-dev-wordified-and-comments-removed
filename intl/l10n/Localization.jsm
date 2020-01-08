@@ -290,6 +290,7 @@ cached
 .
 push
 (
+await
 cached
 .
 iterator
@@ -351,10 +352,7 @@ if
 last
 &
 &
-await
-(
 last
-)
 .
 done
 )
@@ -366,6 +364,7 @@ this
 .
 push
 (
+await
 this
 .
 iterator
@@ -852,6 +851,15 @@ this
 .
 resourceIds
 )
+)
+;
+this
+.
+ctxs
+.
+touchNext
+(
+2
 )
 ;
 }
