@@ -1343,12 +1343,14 @@ IterHash
 mScripts
 )
 )
+{
 script
 .
 Remove
 (
 )
 ;
+}
 if
 (
 mSaveComplete
@@ -4678,6 +4680,7 @@ length
 (
 )
 )
+{
 script
 -
 >
@@ -4690,6 +4693,7 @@ i
 +
 ]
 ;
+}
 script
 -
 >

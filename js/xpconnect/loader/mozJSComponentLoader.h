@@ -372,9 +372,11 @@ if
 (
 mLoaderGlobal
 )
+{
 return
 mLoaderGlobal
 ;
+}
 return
 GetSharedGlobal
 (
@@ -668,11 +670,13 @@ if
 (
 location
 )
+{
 free
 (
 location
 )
 ;
+}
 obj
 =
 nullptr
