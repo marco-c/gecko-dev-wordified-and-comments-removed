@@ -174,15 +174,6 @@ mozilla
 .
 gecko
 .
-GeckoApplication
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import
@@ -638,6 +629,7 @@ Channel
 String
 >
 (
+4
 )
 {
 {
