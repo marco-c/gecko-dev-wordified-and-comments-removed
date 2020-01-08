@@ -4517,7 +4517,7 @@ ServiceWorkerContainer
 "
 insecureContext
 :
-true
+false
 }
 {
 name
