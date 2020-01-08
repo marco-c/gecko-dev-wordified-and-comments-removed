@@ -2053,7 +2053,7 @@ reportErrorIfExceptionIsNotPending
 JSContext
 *
 cx
-jsid
+HandleId
 id
 )
 ;
