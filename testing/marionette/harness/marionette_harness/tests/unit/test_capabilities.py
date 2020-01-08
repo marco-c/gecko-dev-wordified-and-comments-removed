@@ -1559,7 +1559,9 @@ marionette
 _send_message
 (
 "
-getTimeouts
+WebDriver
+:
+GetTimeouts
 "
 )
 timeouts
