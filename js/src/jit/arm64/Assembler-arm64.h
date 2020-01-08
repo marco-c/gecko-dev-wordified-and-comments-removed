@@ -627,7 +627,7 @@ ip1
 Registers
 :
 :
-x16
+x17
 }
 ;
 static
@@ -638,7 +638,7 @@ fp
 Registers
 :
 :
-x30
+x29
 }
 ;
 static
