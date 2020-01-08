@@ -448,6 +448,11 @@ attribute
 nsIAndroidBrowserApp
 browserApp
 ;
+readonly
+attribute
+boolean
+isFennec
+;
 void
 contentDocumentChanged
 (
