@@ -581,8 +581,6 @@ aRetVal
 )
 ;
 }
-else
-{
 nsAutoCString
 lastFallbackLocale
 ;
@@ -591,6 +589,17 @@ GetLastFallbackLocale
 lastFallbackLocale
 )
 ;
+if
+(
+!
+aRetVal
+.
+Contains
+(
+lastFallbackLocale
+)
+)
+{
 aRetVal
 .
 AppendElement
