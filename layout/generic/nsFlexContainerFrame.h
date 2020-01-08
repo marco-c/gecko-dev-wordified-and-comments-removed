@@ -74,12 +74,6 @@ nsINode
 mNode
 ;
 nscoord
-mMainPosition
-;
-nscoord
-mMainSize
-;
-nscoord
 mMainBaseSize
 ;
 nscoord
@@ -90,12 +84,6 @@ mMainMinSize
 ;
 nscoord
 mMainMaxSize
-;
-nscoord
-mCrossPosition
-;
-nscoord
-mCrossSize
 ;
 nscoord
 mCrossMinSize
