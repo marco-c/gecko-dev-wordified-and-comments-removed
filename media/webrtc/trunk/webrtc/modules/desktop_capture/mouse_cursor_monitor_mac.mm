@@ -523,6 +523,10 @@ mode_
 (
 SHAPE_AND_POSITION
 )
+last_cursor_
+(
+NULL
+)
 full_screen_chrome_window_detector_
 (
 options
@@ -598,6 +602,10 @@ Stop
 )
 {
 callback_
+=
+NULL
+;
+last_cursor_
 =
 NULL
 ;
@@ -1480,6 +1488,9 @@ capture
 .
 if
 (
+last_cursor_
+&
+&
 [
 [
 nsimage

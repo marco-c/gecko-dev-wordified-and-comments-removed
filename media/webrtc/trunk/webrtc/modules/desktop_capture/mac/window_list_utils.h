@@ -144,6 +144,13 @@ CFDictionaryRef
 window
 )
 ;
+int
+GetWindowPID
+(
+CFDictionaryRef
+window
+)
+;
 float
 GetScaleFactorAtPosition
 (
