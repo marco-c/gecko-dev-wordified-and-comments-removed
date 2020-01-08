@@ -3943,9 +3943,6 @@ continue
 }
 if
 (
-aWebRender
-|
-|
 sGLXLibrary
 .
 IsATI
