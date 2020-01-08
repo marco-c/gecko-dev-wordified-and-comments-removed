@@ -1674,6 +1674,15 @@ MOZ_ASSERT
 aChildData
 )
 ;
+recordreplay
+:
+:
+Initialize
+(
+aArgc
+aArgv
+)
+;
 #
 ifdef
 MOZ_ASAN_REPORTER
