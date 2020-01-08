@@ -2625,7 +2625,7 @@ false
 ;
 #
 ifdef
-JS_STRUCTURED_SPEW
+JS_JITSPEW
 void
 JitSpewBaselineICStats
 (
