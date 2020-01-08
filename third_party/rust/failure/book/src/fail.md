@@ -97,7 +97,7 @@ can
 be
 moved
 and
-share
+shared
 between
 threads
 easily

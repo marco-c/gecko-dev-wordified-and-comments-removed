@@ -350,7 +350,7 @@ test
 )
 ]
 mod
-test
+tests
 {
 use
 super
