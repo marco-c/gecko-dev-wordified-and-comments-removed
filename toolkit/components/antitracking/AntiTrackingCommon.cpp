@@ -2838,6 +2838,13 @@ SaveStorageAccessGranted
 permissionKey
 )
 ;
+parentWindow
+-
+>
+StorageAccessGranted
+(
+)
+;
 nsIChannel
 *
 channel

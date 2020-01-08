@@ -6870,6 +6870,11 @@ GetTopLevelStorageAreaPrincipal
 (
 )
 ;
+void
+StorageAccessGranted
+(
+)
+;
 protected
 :
 static
