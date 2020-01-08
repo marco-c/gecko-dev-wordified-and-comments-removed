@@ -286,9 +286,6 @@ js
 /
 >
 <
-groupbox
->
-<
 description
 >
 &
@@ -315,10 +312,6 @@ menupopup
 <
 /
 menulist
->
-<
-/
-groupbox
 >
 <
 /

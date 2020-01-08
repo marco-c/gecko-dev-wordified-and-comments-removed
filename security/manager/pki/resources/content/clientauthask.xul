@@ -290,9 +290,6 @@ js
 /
 >
 <
-groupbox
->
-<
 description
 style
 =
@@ -340,13 +337,6 @@ id
 issuer
 "
 /
->
-<
-/
-groupbox
->
-<
-groupbox
 >
 <
 description
@@ -471,10 +461,6 @@ checked
 true
 "
 /
->
-<
-/
-groupbox
 >
 <
 /
