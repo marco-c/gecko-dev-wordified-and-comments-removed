@@ -216,9 +216,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 JS_DefineProperty
 (
 cx

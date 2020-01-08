@@ -490,9 +490,11 @@ if
 !
 buffer
 )
+{
 return
 nullptr
 ;
+}
 return
 JS_NewDataView
 (

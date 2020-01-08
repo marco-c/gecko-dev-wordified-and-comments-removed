@@ -70,6 +70,7 @@ i
 +
 +
 )
+{
 uc_code
 [
 i
@@ -80,6 +81,7 @@ code
 i
 ]
 ;
+}
 }
 bool
 tryScript

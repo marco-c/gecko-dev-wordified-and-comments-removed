@@ -46,6 +46,7 @@ b
 =
 1
 )
+{
 return
 a
 =
@@ -58,6 +59,7 @@ b
 =
 1
 ;
+}
 return
 CoPrime
 (
@@ -1061,10 +1063,12 @@ bits
 =
 max_bits
 )
+{
 max_bits
 =
 bits
 ;
+}
 }
 BEGIN_TEST
 (
@@ -1146,10 +1150,12 @@ alias_bits
 =
 32
 )
+{
 alias_bits
 =
 32
 ;
+}
 }
 else
 if
@@ -1168,10 +1174,12 @@ alias_bits
 =
 64
 )
+{
 alias_bits
 =
 64
 ;
+}
 }
 else
 if
@@ -1190,10 +1198,12 @@ alias_bits
 =
 128
 )
+{
 alias_bits
 =
 128
 ;
+}
 }
 }
 uint32_t

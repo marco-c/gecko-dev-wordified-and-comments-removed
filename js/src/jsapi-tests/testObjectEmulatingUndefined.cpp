@@ -70,9 +70,11 @@ if
 !
 obj
 )
+{
 return
 false
 ;
+}
 args
 .
 rval

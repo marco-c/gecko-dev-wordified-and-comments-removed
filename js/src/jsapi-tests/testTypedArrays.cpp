@@ -755,9 +755,11 @@ getSharedMemoryAndAtomicsEnabled
 (
 )
 )
+{
 return
 true
 ;
+}
 size_t
 elts
 =

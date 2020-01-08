@@ -754,6 +754,7 @@ k
 +
 +
 )
+{
 CHECK
 (
 elems
@@ -769,6 +770,7 @@ k
 )
 )
 ;
+}
 for
 (
 size_t
@@ -786,6 +788,7 @@ k
 +
 +
 )
+{
 CHECK
 (
 elems
@@ -798,6 +801,7 @@ isNull
 )
 )
 ;
+}
 CHECK
 (
 elems
@@ -860,6 +864,7 @@ i
 +
 +
 )
+{
 elems
 [
 i
@@ -869,6 +874,7 @@ setNull
 (
 )
 ;
+}
 elems
 [
 elems

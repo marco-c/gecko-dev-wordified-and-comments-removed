@@ -125,6 +125,7 @@ isGoto
 (
 )
 )
+{
 block
 =
 block
@@ -145,6 +146,7 @@ getSuccessor
 0
 )
 ;
+}
 return
 block
 ;
@@ -625,9 +627,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 func
@@ -750,9 +754,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 func
@@ -1474,9 +1480,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 func
@@ -1633,9 +1641,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 func
@@ -2424,9 +2434,11 @@ runGVN
 (
 )
 )
+{
 return
 false
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 innerHeader

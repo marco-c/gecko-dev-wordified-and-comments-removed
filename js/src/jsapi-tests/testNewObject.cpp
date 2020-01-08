@@ -258,9 +258,11 @@ callee
 value
 )
 )
+{
 return
 false
 ;
+}
 args
 .
 rval
@@ -545,6 +547,7 @@ i
 +
 +
 )
+{
 argv
 [
 i
@@ -555,6 +558,7 @@ setInt32
 i
 )
 ;
+}
 obj
 =
 JS_New

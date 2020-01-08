@@ -125,8 +125,10 @@ if
 !
 ShowDiagnostics
 )
+{
 return
 ;
+}
 fprintf
 (
 stderr
@@ -167,6 +169,7 @@ uint64_t
 i
 )
 )
+{
 fprintf
 (
 stderr
@@ -175,7 +178,9 @@ stderr
 "
 )
 ;
+}
 else
+{
 fprintf
 (
 stderr
@@ -184,6 +189,7 @@ stderr
 "
 )
 ;
+}
 }
 fprintf
 (
@@ -401,12 +407,14 @@ thread
 :
 threads
 )
+{
 thread
 .
 join
 (
 )
 ;
+}
 return
 true
 ;

@@ -158,6 +158,7 @@ hasEdge
 i
 ]
 )
+{
 finder
 .
 addEdgeTo
@@ -169,6 +170,7 @@ i
 ]
 )
 ;
+}
 }
 }
 BEGIN_TEST
@@ -762,6 +764,7 @@ vertex_count
 +
 i
 )
+{
 finder
 -
 >
@@ -774,6 +777,7 @@ i
 ]
 )
 ;
+}
 resultsList
 =
 finder
@@ -1089,6 +1093,7 @@ if
 (
 edge
 )
+{
 finder
 .
 addEdgeTo
@@ -1096,6 +1101,7 @@ addEdgeTo
 edge
 )
 ;
+}
 }
 BEGIN_TEST
 (
@@ -1145,6 +1151,7 @@ max
 +
 i
 )
+{
 vertices
 [
 i
@@ -1160,6 +1167,7 @@ i
 1
 ]
 ;
+}
 TestComponentFinder2
 finder
 (
@@ -1190,6 +1198,7 @@ max
 +
 i
 )
+{
 finder
 .
 addNode
@@ -1201,6 +1210,7 @@ i
 ]
 )
 ;
+}
 TestNode2
 *
 r

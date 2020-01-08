@@ -892,6 +892,7 @@ isIncrementalGCInProgress
 (
 )
 )
+{
 cx
 -
 >
@@ -907,6 +908,7 @@ debugGCSlice
 budget
 )
 ;
+}
 CHECK
 (
 !
@@ -1021,9 +1023,11 @@ init
 (
 )
 )
+{
 return
 false
 ;
+}
 JS_AddFinalizeCallback
 (
 cx
@@ -1218,6 +1222,7 @@ FinalizeCalls
 <
 BufferSize
 )
+{
 StatusBuffer
 [
 FinalizeCalls
@@ -1225,6 +1230,7 @@ FinalizeCalls
 =
 status
 ;
+}
 +
 +
 FinalizeCalls

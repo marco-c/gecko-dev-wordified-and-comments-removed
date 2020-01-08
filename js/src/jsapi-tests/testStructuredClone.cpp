@@ -1206,9 +1206,11 @@ rank
 unused
 )
 )
+{
 return
 false
 ;
+}
 *
 outPrincipals
 =
@@ -1264,9 +1266,11 @@ if
 !
 p
 )
+{
 return
 0
 ;
+}
 return
 static_cast
 <

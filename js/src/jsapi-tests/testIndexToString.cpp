@@ -306,6 +306,7 @@ hasUint
 u
 )
 )
+{
 CHECK
 (
 cx
@@ -328,6 +329,7 @@ u
 str
 )
 ;
+}
 bool
 match
 =

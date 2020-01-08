@@ -2803,6 +2803,7 @@ i
 +
 +
 )
+{
 fprintf
 (
 stderr
@@ -2831,6 +2832,7 @@ i
 ]
 )
 ;
+}
 CHECK
 (
 visited

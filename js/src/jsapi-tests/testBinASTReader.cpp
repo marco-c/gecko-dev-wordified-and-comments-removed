@@ -236,6 +236,7 @@ appendAll
 intermediate
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -247,6 +248,7 @@ data
 "
 )
 ;
+}
 }
 template
 <
@@ -357,6 +359,7 @@ if
 !
 dir
 )
+{
 MOZ_CRASH
 (
 "
@@ -368,6 +371,7 @@ directory
 "
 )
 ;
+}
 while
 (
 auto
@@ -443,10 +447,12 @@ path
 pathlen
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 if
 (
 !
@@ -459,10 +465,12 @@ append
 '
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 if
 (
 !
@@ -476,10 +484,12 @@ append
 '
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 WIN32_FIND_DATA
 FindFileData
 ;
@@ -577,8 +587,10 @@ d_name
 =
 0
 )
+{
 continue
 ;
+}
 if
 (
 strcmp
@@ -593,8 +605,10 @@ d_name
 =
 0
 )
+{
 continue
 ;
+}
 Vector
 <
 char
@@ -615,10 +629,12 @@ path
 pathlen
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 if
 (
 !
@@ -630,10 +646,12 @@ d_name
 namlen
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 if
 (
 !
@@ -649,10 +667,12 @@ pathlen
 ]
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 if
 (
 !
@@ -663,10 +683,12 @@ append
 0
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 runTestFromPath
 <
 Tok
@@ -749,8 +771,10 @@ sizeof
 BIN_SUFFIX
 )
 )
+{
 continue
 ;
+}
 if
 (
 strncmp
@@ -799,10 +823,12 @@ path
 pathlen
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 if
 (
 !
@@ -814,10 +840,12 @@ d_name
 namlen
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 txtPath
 .
 shrinkBy
@@ -844,10 +872,12 @@ TXT_SUFFIX
 )
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 fprintf
 (
 stderr
@@ -937,6 +967,7 @@ if
 !
 sourceObject
 )
+{
 MOZ_CRASH
 (
 "
@@ -948,6 +979,7 @@ ScriptSourceObject
 "
 )
 ;
+}
 js
 :
 :
@@ -1007,6 +1039,7 @@ checkOptions
 (
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1015,6 +1048,7 @@ options
 "
 )
 ;
+}
 auto
 txtParsed
 =
@@ -1049,6 +1083,7 @@ cx
 txtExn
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1060,6 +1095,7 @@ exception
 "
 )
 ;
+}
 }
 Vector
 <
@@ -1081,10 +1117,12 @@ path
 pathlen
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 if
 (
 !
@@ -1096,10 +1134,12 @@ d_name
 namlen
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 if
 (
 !
@@ -1110,10 +1150,12 @@ append
 0
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 js
 :
 :
@@ -1246,6 +1288,7 @@ cx
 binExn
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1257,6 +1300,7 @@ binExn
 "
 )
 ;
+}
 }
 if
 (
@@ -1310,6 +1354,7 @@ ErrorReport
 WithSideEffects
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1321,6 +1366,7 @@ txtExn
 "
 )
 ;
+}
 PrintError
 (
 cx
@@ -1405,6 +1451,7 @@ ErrorReport
 WithSideEffects
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1416,6 +1463,7 @@ binExn
 "
 )
 ;
+}
 PrintError
 (
 cx
@@ -1507,6 +1555,7 @@ init
 (
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1518,6 +1567,7 @@ binParsed
 "
 )
 ;
+}
 DumpParseTree
 (
 binParsed
@@ -1543,6 +1593,7 @@ init
 (
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1554,6 +1605,7 @@ txtParsed
 "
 )
 ;
+}
 DumpParseTree
 (
 txtParsed
@@ -1684,6 +1736,7 @@ if
 !
 fd
 )
+{
 MOZ_CRASH
 (
 "
@@ -1696,6 +1749,7 @@ ast
 "
 )
 ;
+}
 auto
 result
 =
@@ -1727,6 +1781,7 @@ result
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -1740,6 +1795,7 @@ ast
 "
 )
 ;
+}
 result
 =
 close
@@ -1754,6 +1810,7 @@ result
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -1766,6 +1823,7 @@ ast
 "
 )
 ;
+}
 fd
 =
 open
@@ -1791,6 +1849,7 @@ if
 !
 fd
 )
+{
 MOZ_CRASH
 (
 "
@@ -1803,6 +1862,7 @@ ast
 "
 )
 ;
+}
 result
 =
 write
@@ -1833,6 +1893,7 @@ result
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -1846,6 +1907,7 @@ ast
 "
 )
 ;
+}
 result
 =
 close
@@ -1860,6 +1922,7 @@ result
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -1872,6 +1935,7 @@ ast
 "
 )
 ;
+}
 #
 endif
 MOZ_CRASH
@@ -1923,6 +1987,7 @@ FindClose
 hFind
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1933,6 +1998,7 @@ Find
 "
 )
 ;
+}
 #
 elif
 defined
@@ -1949,6 +2015,7 @@ dir
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -1959,6 +2026,7 @@ dir
 "
 )
 ;
+}
 #
 endif
 }

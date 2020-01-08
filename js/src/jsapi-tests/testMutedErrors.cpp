@@ -506,6 +506,7 @@ len
 +
 i
 )
+{
 chars
 [
 i
@@ -516,6 +517,7 @@ asciiChars
 i
 ]
 ;
+}
 chars
 [
 len

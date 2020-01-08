@@ -236,9 +236,11 @@ iterator
 =
 0
 )
+{
 return
 SYMBOL_ITERATOR
 ;
+}
 if
 (
 strcmp
@@ -266,9 +268,11 @@ foo
 =
 0
 )
+{
 return
 SYMBOL_FOO
 ;
+}
 if
 (
 strcmp
@@ -295,9 +299,11 @@ Symbol
 =
 0
 )
+{
 return
 SYMBOL_EMPTY
 ;
+}
 MOZ_CRASH
 (
 "

@@ -208,6 +208,7 @@ destination
 -
 1
 )
+{
 MOZ_CRASH_UNSAFE_PRINTF
 (
 "
@@ -221,6 +222,7 @@ s
 destination
 )
 ;
+}
 }
 }
 void
@@ -244,6 +246,7 @@ gJsDirectory
 -
 1
 )
+{
 MOZ_CRASH
 (
 "
@@ -256,6 +259,7 @@ directory
 "
 )
 ;
+}
 if
 (
 close
@@ -266,6 +270,7 @@ gJsDirectory
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -277,6 +282,7 @@ directory
 "
 )
 ;
+}
 gJsDirectory
 =
 0
@@ -326,6 +332,7 @@ result
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -337,12 +344,14 @@ directory
 "
 )
 ;
+}
 if
 (
 result
 >
 MAX_PATH
 )
+{
 MOZ_CRASH_UNSAFE_PRINTF
 (
 "
@@ -366,6 +375,7 @@ result
 MAX_PATH
 )
 ;
+}
 char
 destination
 [
@@ -400,9 +410,12 @@ GetLastError
 =
 ERROR_ENVVAR_NOT_FOUND
 )
+{
 return
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -413,6 +426,7 @@ CPP_UNIT_TESTS_DIR_JS_SRC
 "
 )
 ;
+}
 }
 if
 (
@@ -454,6 +468,7 @@ destination
 =
 0
 )
+{
 MOZ_CRASH_UNSAFE_PRINTF
 (
 "
@@ -467,6 +482,7 @@ s
 destination
 )
 ;
+}
 }
 void
 exitJsDirectory
@@ -493,6 +509,7 @@ gJsDirectory
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -505,6 +522,7 @@ directory
 "
 )
 ;
+}
 gJsDirectory
 [
 0
@@ -561,6 +579,7 @@ if
 !
 in
 )
+{
 MOZ_CRASH_UNSAFE_PRINTF
 (
 "
@@ -580,6 +599,7 @@ errno
 )
 )
 ;
+}
 struct
 stat
 info
@@ -595,6 +615,7 @@ info
 <
 0
 )
+{
 MOZ_CRASH_UNSAFE_PRINTF
 (
 "
@@ -609,6 +630,7 @@ s
 path
 )
 ;
+}
 if
 (
 !
@@ -621,6 +643,7 @@ info
 st_size
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -628,6 +651,7 @@ OOM
 "
 )
 ;
+}
 int
 result
 =
@@ -655,6 +679,7 @@ in
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -666,6 +691,7 @@ file
 "
 )
 ;
+}
 if
 (
 result
@@ -675,6 +701,7 @@ info
 .
 st_size
 )
+{
 MOZ_CRASH_UNSAFE_PRINTF
 (
 "
@@ -710,6 +737,7 @@ long
 result
 )
 ;
+}
 exitJsDirectory
 (
 )

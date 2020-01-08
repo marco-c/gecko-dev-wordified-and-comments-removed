@@ -72,9 +72,11 @@ toBoolean
 (
 )
 )
+{
 return
 true
 ;
+}
 CHECK
 (
 JS_SetDefaultLocale

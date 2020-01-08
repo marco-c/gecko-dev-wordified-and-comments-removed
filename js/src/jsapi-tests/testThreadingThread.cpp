@@ -532,12 +532,14 @@ th
 :
 v
 )
+{
 th
 .
 join
 (
 )
 ;
+}
 CHECK
 (
 count

@@ -102,6 +102,7 @@ i
 +
 +
 )
+{
 CHECK
 (
 JS_DefineProperty
@@ -119,6 +120,7 @@ UndefinedHandleValue
 )
 )
 ;
+}
 return
 true
 ;

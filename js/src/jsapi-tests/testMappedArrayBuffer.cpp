@@ -292,9 +292,11 @@ if
 !
 ptr
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 obj
@@ -375,6 +377,7 @@ if
 (
 mapped
 )
+{
 CHECK
 (
 JS_IsMappedArrayBufferObject
@@ -383,7 +386,9 @@ obj
 )
 )
 ;
+}
 else
+{
 CHECK
 (
 !
@@ -393,6 +398,7 @@ obj
 )
 )
 ;
+}
 bool
 sharedDummy
 ;
@@ -517,9 +523,11 @@ if
 !
 ptr
 )
+{
 return
 false
 ;
+}
 JS_ReleaseMappedArrayBufferContents
 (
 ptr
@@ -818,9 +826,11 @@ append
 v1
 )
 )
+{
 return
 false
 ;
+}
 JS
 :
 :

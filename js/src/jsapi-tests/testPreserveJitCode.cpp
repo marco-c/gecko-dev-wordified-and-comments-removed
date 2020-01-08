@@ -87,10 +87,12 @@ hasIonScript
 (
 )
 )
+{
 +
 +
 count
 ;
+}
 }
 BEGIN_TEST
 (
@@ -235,10 +237,12 @@ IsIonEnabled
 cx
 )
 )
+{
 knownFail
 =
 true
 ;
+}
 CHECK_EQUAL
 (
 countIonScripts
@@ -398,6 +402,7 @@ i
 +
 i
 )
+{
 CHECK
 (
 JS_CallFunction
@@ -419,6 +424,7 @@ value
 )
 )
 ;
+}
 CHECK_EQUAL
 (
 value

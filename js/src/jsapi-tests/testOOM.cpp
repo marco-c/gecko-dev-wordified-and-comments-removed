@@ -71,9 +71,11 @@ jsstr
 ch
 )
 )
+{
 return
 false
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 ch
@@ -110,9 +112,11 @@ if
 !
 cx
 )
+{
 return
 nullptr
 ;
+}
 JS_SetGCParameter
 (
 cx
@@ -299,8 +303,10 @@ if
 (
 cx
 )
+{
 OOM_TEST_FINISHED
 ;
+}
 CHECK
 (
 !

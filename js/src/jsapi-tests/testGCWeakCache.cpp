@@ -4360,6 +4360,7 @@ DeadFactor
 =
 0
 )
+{
 CHECK
 (
 liveObjects
@@ -4374,6 +4375,7 @@ obj
 )
 )
 ;
+}
 }
 CHECK
 (
@@ -4415,6 +4417,7 @@ j
 +
 +
 )
+{
 CHECK
 (
 cache
@@ -4428,6 +4431,7 @@ j
 )
 )
 ;
+}
 CHECK
 (
 SweepCacheAndFinishGC

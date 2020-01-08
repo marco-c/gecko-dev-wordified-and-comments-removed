@@ -249,9 +249,11 @@ if
 !
 barker
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 Kennel
