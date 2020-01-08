@@ -881,6 +881,13 @@ Matrix
 aTransform
 )
 ;
+bool
+IsEmpty
+(
+)
+const
+override
+;
 void
 Dump
 (

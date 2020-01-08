@@ -4253,6 +4253,15 @@ true
 ;
 }
 virtual
+bool
+IsEmpty
+(
+)
+const
+=
+0
+;
+virtual
 void
 Dump
 (
