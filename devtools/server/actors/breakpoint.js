@@ -99,7 +99,7 @@ initialize
 function
 (
 threadActor
-originalLocation
+generatedLocation
 )
 {
 this
@@ -119,9 +119,9 @@ threadActor
 ;
 this
 .
-originalLocation
+generatedLocation
 =
-originalLocation
+generatedLocation
 ;
 this
 .
@@ -447,7 +447,7 @@ frame
 .
 onPop
 .
-originalLocation
+generatedLocation
 ;
 if
 (
@@ -456,7 +456,7 @@ locationAtFinish
 &
 locationAtFinish
 .
-originalLine
+generatedLine
 =
 =
 =
@@ -465,7 +465,7 @@ generatedLine
 &
 locationAtFinish
 .
-originalColumn
+generatedColumn
 =
 =
 =
@@ -627,7 +627,7 @@ if
 (
 this
 .
-originalLocation
+generatedLocation
 )
 {
 this
@@ -640,7 +640,7 @@ deleteActor
 (
 this
 .
-originalLocation
+generatedLocation
 )
 ;
 }
