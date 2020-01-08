@@ -461,8 +461,6 @@ true
 ;
 nsresult
 rv
-=
-NS_OK
 ;
 do
 {
