@@ -12026,6 +12026,10 @@ INIT_CANONICAL
 mIsAudioDataAudible
 false
 )
+mSetSinkRequestsCount
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -16834,6 +16838,9 @@ MOZ_ASSERT
 aSink
 )
 ;
+Unused
+<
+<
 +
 +
 mSetSinkRequestsCount
