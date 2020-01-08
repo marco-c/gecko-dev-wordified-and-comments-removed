@@ -1783,6 +1783,7 @@ mut
 c_void
 WrExternalImageId
 u8
+ImageRendering
 )
 -
 >
@@ -1845,6 +1846,9 @@ ExternalImageId
 channel_index
 :
 u8
+rendering
+:
+ImageRendering
 )
 -
 >
@@ -1870,6 +1874,7 @@ into
 (
 )
 channel_index
+rendering
 )
 }
 ;

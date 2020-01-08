@@ -2874,6 +2874,7 @@ void
 *
 WrExternalImageId
 uint8_t
+ImageRendering
 )
 ;
 using

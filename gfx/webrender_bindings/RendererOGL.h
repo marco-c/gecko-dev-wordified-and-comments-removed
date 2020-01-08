@@ -111,6 +111,10 @@ WrExternalImageId
 aId
 uint8_t
 aChannelIndex
+wr
+:
+:
+ImageRendering
 )
 ;
 friend
