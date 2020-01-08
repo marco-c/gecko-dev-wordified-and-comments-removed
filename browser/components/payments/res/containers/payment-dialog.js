@@ -441,9 +441,13 @@ querySelector
 (
 "
 #
-error
+payment
 -
-text
+summary
+.
+page
+-
+error
 "
 )
 ;
