@@ -22054,7 +22054,7 @@ JS_PUBLIC_API
 (
 bool
 )
-IsSavedFrame
+IsMaybeWrappedSavedFrame
 (
 JSObject
 *

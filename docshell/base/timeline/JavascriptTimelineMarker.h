@@ -264,14 +264,6 @@ isObject
 &
 &
 !
-mAsyncStack
-.
-isNullOrUndefined
-(
-)
-&
-&
-!
 mAsyncCause
 .
 IsEmpty
@@ -290,9 +282,10 @@ JSObject
 asyncStack
 (
 aCx
+&
 mAsyncStack
 .
-toObjectOrNull
+toObject
 (
 )
 )
@@ -356,7 +349,7 @@ if
 JS
 :
 :
-IsSavedFrame
+IsMaybeWrappedSavedFrame
 (
 asyncStack
 )
