@@ -5339,11 +5339,6 @@ environ
 HG_STORE_PATH
 '
 ]
-fetch_hgfingerprint
-=
-args
-.
-fetch_hgfingerprint
 base_repo
 =
 base_repo
@@ -5453,11 +5448,6 @@ environ
 HG_STORE_PATH
 '
 ]
-fetch_hgfingerprint
-=
-args
-.
-fetch_hgfingerprint
 #
 Always
 check
@@ -5569,11 +5559,6 @@ environ
 HG_STORE_PATH
 '
 ]
-fetch_hgfingerprint
-=
-args
-.
-fetch_hgfingerprint
 base_repo
 =
 base_repo
