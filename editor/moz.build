@@ -122,11 +122,6 @@ nsIEditor
 idl
 '
 '
-nsIEditorBlobListener
-.
-idl
-'
-'
 nsIEditorMailSupport
 .
 idl
