@@ -57,6 +57,13 @@ __FILE__
 __LINE__
 )
 ;
+options
+.
+setUTF8
+(
+true
+)
+;
 const
 char
 s1chars
@@ -91,7 +98,7 @@ CHECK
 JS
 :
 :
-CompileFunction
+CompileFunctionUtf8
 (
 cx
 emptyScopeChain
@@ -190,7 +197,7 @@ CHECK
 JS
 :
 :
-CompileFunction
+CompileFunctionUtf8
 (
 cx
 emptyScopeChain
@@ -274,7 +281,7 @@ CHECK
 JS
 :
 :
-CompileFunction
+CompileFunctionUtf8
 (
 cx
 emptyScopeChain
