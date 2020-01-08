@@ -195,9 +195,11 @@ JitOptions
 .
 disableCacheIR
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -239,9 +241,11 @@ Mode
 :
 Generic
 )
+{
 return
 false
 ;
+}
 if
 (
 numOptimizedStubs_
@@ -255,9 +259,11 @@ maxFailures
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 numFailures_

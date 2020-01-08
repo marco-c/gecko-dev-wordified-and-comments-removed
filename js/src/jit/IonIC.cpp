@@ -137,9 +137,11 @@ temp
 =
 InvalidReg
 )
+{
 return
 temp
 ;
+}
 TypedOrValueRegister
 output
 =
@@ -574,6 +576,7 @@ if
 (
 script_
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -587,6 +590,7 @@ script_
 "
 )
 ;
+}
 uint8_t
 *
 nextCodeRaw
@@ -724,12 +728,14 @@ idempotent
 (
 )
 )
+{
 adi
 .
 disable
 (
 )
 ;
+}
 if
 (
 ic
@@ -743,6 +749,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -756,6 +763,7 @@ zone
 )
 )
 ;
+}
 bool
 attached
 =
@@ -856,6 +864,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -877,6 +886,7 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
@@ -886,6 +896,7 @@ attached
 !
 isTemporarilyUnoptimizable
 )
+{
 ic
 -
 >
@@ -897,6 +908,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 if
 (
@@ -965,12 +977,14 @@ hasIonScript
 (
 )
 )
+{
 Invalidate
 (
 cx
 outerScript
 )
 ;
+}
 return
 true
 ;
@@ -1022,9 +1036,11 @@ name
 res
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -1065,9 +1081,11 @@ idVal
 res
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -1090,6 +1108,7 @@ monitoredResult
 (
 )
 )
+{
 TypeScript
 :
 :
@@ -1111,6 +1130,7 @@ pc
 res
 )
 ;
+}
 }
 return
 true
@@ -1172,6 +1192,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -1185,6 +1206,7 @@ zone
 )
 )
 ;
+}
 bool
 attached
 =
@@ -1266,6 +1288,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -1287,6 +1310,7 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
@@ -1296,6 +1320,7 @@ attached
 !
 isTemporarilyUnoptimizable
 )
+{
 ic
 -
 >
@@ -1307,6 +1332,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 RootedId
 id
@@ -1328,9 +1354,11 @@ idVal
 id
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1343,9 +1371,11 @@ id
 res
 )
 )
+{
 return
 false
 ;
+}
 TypeScript
 :
 :
@@ -1439,6 +1469,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -1452,6 +1483,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -1491,9 +1523,11 @@ if
 !
 oldGroup
 )
+{
 return
 false
 ;
+}
 if
 (
 obj
@@ -1533,6 +1567,7 @@ maybeExpando
 (
 )
 )
+{
 oldShape
 =
 expando
@@ -1542,6 +1577,7 @@ lastProperty
 (
 )
 ;
+}
 }
 RootedValue
 objv
@@ -1707,9 +1743,11 @@ toInt32
 rhs
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 if
@@ -1736,9 +1774,11 @@ idVal
 rhs
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -1771,9 +1811,11 @@ strict
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 else
@@ -1872,9 +1914,11 @@ idVal
 rhs
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -1928,18 +1972,22 @@ strict
 pc
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 if
 (
 attached
 )
+{
 return
 true
 ;
+}
 if
 (
 ic
@@ -1953,6 +2001,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -1966,6 +2015,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -2112,6 +2162,7 @@ attached
 !
 isTemporarilyUnoptimizable
 )
+{
 ic
 -
 >
@@ -2123,6 +2174,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 return
 true
@@ -2201,6 +2253,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -2214,6 +2267,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -2273,6 +2327,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -2294,11 +2349,13 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
 attached
 )
+{
 ic
 -
 >
@@ -2310,6 +2367,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 RootedObject
 obj
@@ -2348,9 +2406,11 @@ holder
 prop
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 *
@@ -2382,9 +2442,11 @@ prop
 res
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -2407,9 +2469,11 @@ prop
 res
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -2487,6 +2551,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -2500,6 +2565,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -2559,6 +2625,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -2580,11 +2647,13 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
 attached
 )
+{
 ic
 -
 >
@@ -2596,6 +2665,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 RootedObject
 holder
@@ -2615,9 +2685,11 @@ envChain
 holder
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 holder
 ;
@@ -2665,6 +2737,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -2678,6 +2751,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -2741,6 +2815,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -2762,11 +2837,13 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
 attached
 )
+{
 ic
 -
 >
@@ -2778,6 +2855,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 return
 ValueToIterator
@@ -2834,6 +2912,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -2847,6 +2926,7 @@ zone
 )
 )
 ;
+}
 jsbytecode
 *
 pc
@@ -2921,6 +3001,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -2942,11 +3023,13 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
 attached
 )
+{
 ic
 -
 >
@@ -2958,6 +3041,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 bool
 found
@@ -2974,9 +3058,11 @@ idVal
 found
 )
 )
+{
 return
 false
 ;
+}
 *
 res
 =
@@ -3033,6 +3119,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -3046,6 +3133,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -3131,6 +3219,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -3152,11 +3241,13 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
 attached
 )
+{
 ic
 -
 >
@@ -3168,6 +3259,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 return
 OperatorIn
@@ -3226,6 +3318,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -3239,6 +3332,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -3309,6 +3403,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -3330,11 +3425,13 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
 attached
 )
+{
 ic
 -
 >
@@ -3346,6 +3443,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 return
 HasInstance
@@ -3443,9 +3541,11 @@ val
 result
 )
 )
+{
 return
 false
 ;
+}
 res
 .
 setInt32
@@ -3478,9 +3578,11 @@ valCopy
 res
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 }
@@ -3508,6 +3610,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -3521,6 +3624,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -3569,6 +3673,7 @@ tryAttachStub
 (
 )
 )
+{
 ic
 -
 >
@@ -3590,11 +3695,13 @@ ionScript
 attached
 )
 ;
+}
 if
 (
 !
 attached
 )
+{
 ic
 -
 >
@@ -3606,6 +3713,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 return
 true
@@ -3711,9 +3819,11 @@ rhsCopy
 ret
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -3732,9 +3842,11 @@ rhsCopy
 ret
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -3753,9 +3865,11 @@ rhsCopy
 ret
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -3774,9 +3888,11 @@ rhsCopy
 ret
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -3795,9 +3911,11 @@ rhsCopy
 ret
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -3819,9 +3937,11 @@ rhs
 result
 )
 )
+{
 return
 false
 ;
+}
 ret
 .
 setInt32
@@ -3851,9 +3971,11 @@ rhs
 result
 )
 )
+{
 return
 false
 ;
+}
 ret
 .
 setInt32
@@ -3883,9 +4005,11 @@ rhs
 result
 )
 )
+{
 return
 false
 ;
+}
 ret
 .
 setInt32
@@ -3922,6 +4046,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -3935,6 +4060,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -4011,6 +4137,7 @@ if
 !
 attached
 )
+{
 ic
 -
 >
@@ -4022,6 +4149,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 }
 return
@@ -4100,10 +4228,12 @@ op
 =
 JSOP_CASE
 )
+{
 op
 =
 JSOP_STRICTEQ
 ;
+}
 RootedValue
 lhsCopy
 (
@@ -4143,9 +4273,11 @@ rhsCopy
 out
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -4165,9 +4297,11 @@ rhsCopy
 out
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -4187,9 +4321,11 @@ rhsCopy
 out
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -4209,9 +4345,11 @@ rhsCopy
 out
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -4234,9 +4372,11 @@ rhsCopy
 out
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -4259,9 +4399,11 @@ rhsCopy
 out
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -4284,9 +4426,11 @@ rhsCopy
 out
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -4309,9 +4453,11 @@ rhsCopy
 out
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 default
@@ -4350,6 +4496,7 @@ maybeTransition
 (
 )
 )
+{
 ic
 -
 >
@@ -4363,6 +4510,7 @@ zone
 )
 )
 ;
+}
 if
 (
 ic
@@ -4438,6 +4586,7 @@ if
 !
 attached
 )
+{
 ic
 -
 >
@@ -4449,6 +4598,7 @@ trackNotAttached
 (
 )
 ;
+}
 }
 }
 return
@@ -4530,10 +4680,12 @@ next
 (
 )
 )
+{
 last
 =
 next
 ;
+}
 last
 -
 >

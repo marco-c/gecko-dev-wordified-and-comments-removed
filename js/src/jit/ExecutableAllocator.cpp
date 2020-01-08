@@ -50,6 +50,7 @@ bytes
 :
 m_codeBytes
 )
+{
 MOZ_ASSERT
 (
 bytes
@@ -58,6 +59,7 @@ bytes
 0
 )
 ;
+}
 #
 endif
 MOZ_ASSERT
@@ -113,11 +115,13 @@ m_refCount
 =
 0
 )
+{
 js_delete
 (
 this
 )
 ;
+}
 }
 void
 ExecutablePool
@@ -285,6 +289,7 @@ i
 +
 +
 )
+{
 m_smallPools
 [
 i
@@ -296,6 +301,7 @@ release
 true
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 TlsContext
@@ -402,10 +408,12 @@ available
 )
 )
 )
+{
 minPool
 =
 pool
 ;
+}
 }
 if
 (
@@ -429,12 +437,14 @@ n
 >
 ExecutableCodePageSize
 )
+{
 return
 createPool
 (
 n
 )
 ;
+}
 ExecutablePool
 *
 pool
@@ -449,9 +459,11 @@ if
 !
 pool
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 m_smallPools
@@ -472,6 +484,7 @@ append
 pool
 )
 )
+{
 pool
 -
 >
@@ -479,6 +492,7 @@ addRef
 (
 )
 ;
+}
 }
 else
 {
@@ -529,10 +543,12 @@ available
 (
 )
 )
+{
 iMin
 =
 i
 ;
+}
 }
 ExecutablePool
 *
@@ -625,9 +641,11 @@ granularity
 =
 request
 )
+{
 return
 OVERSIZE_ALLOCATION
 ;
+}
 size_t
 size
 =
@@ -689,9 +707,11 @@ allocSize
 =
 OVERSIZE_ALLOCATION
 )
+{
 return
 nullptr
 ;
+}
 ExecutablePool
 :
 :
@@ -710,9 +730,11 @@ a
 .
 pages
 )
+{
 return
 nullptr
 ;
+}
 ExecutablePool
 *
 pool
@@ -832,9 +854,11 @@ if
 *
 poolp
 )
+{
 return
 nullptr
 ;
+}
 void
 *
 result
@@ -914,6 +938,7 @@ lookup
 pool
 )
 )
+{
 m_pools
 .
 remove
@@ -921,6 +946,7 @@ remove
 ptr
 )
 ;
+}
 }
 void
 ExecutableAllocator
@@ -1189,10 +1215,12 @@ start
 protection
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 }
 void
 ExecutableAllocator
@@ -1238,6 +1266,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 !
@@ -1254,6 +1283,7 @@ isMarked
 )
 )
 ;
+}
 #
 endif
 for

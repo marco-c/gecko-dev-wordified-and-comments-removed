@@ -436,9 +436,11 @@ if
 !
 inspector
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 frame
@@ -448,6 +450,7 @@ isFunctionFrame
 (
 )
 )
+{
 inspector
 -
 >
@@ -466,6 +469,7 @@ thisArgument
 )
 )
 ;
+}
 if
 (
 frame
@@ -480,6 +484,7 @@ isSingleton
 (
 )
 )
+{
 inspector
 -
 >
@@ -492,6 +497,7 @@ environmentChain
 (
 )
 ;
+}
 JSScript
 *
 script
@@ -531,9 +537,11 @@ numFormalArgs
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 size_t
@@ -709,9 +717,11 @@ numValueSlots
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 size_t
@@ -1106,6 +1116,7 @@ isAnalysis
 (
 )
 )
+{
 script
 (
 )
@@ -1120,6 +1131,7 @@ setIonCompiledOrInlined
 (
 )
 ;
+}
 }
 void
 IonBuilder
@@ -1370,6 +1382,7 @@ builder
 >
 callerBuilder_
 )
+{
 builder
 =
 builder
@@ -1377,6 +1390,7 @@ builder
 >
 callerBuilder_
 ;
+}
 return
 builder
 ;
@@ -1400,8 +1414,10 @@ isOptimizationTrackingEnabled
 (
 )
 )
+{
 return
 ;
+}
 IonBuilder
 *
 topBuilder
@@ -1419,8 +1435,10 @@ hadActionableAbort
 (
 )
 )
+{
 return
 ;
+}
 topBuilder
 -
 >
@@ -1510,9 +1528,11 @@ if
 !
 calleeTypes
 )
+{
 return
 nullptr
 ;
+}
 TemporaryTypeSet
 :
 :
@@ -1547,9 +1567,11 @@ JSFunction
 :
 class_
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 key
@@ -1559,6 +1581,7 @@ isSingleton
 (
 )
 )
+{
 return
 &
 key
@@ -1576,6 +1599,7 @@ JSFunction
 (
 )
 ;
+}
 if
 (
 JSFunction
@@ -1594,9 +1618,11 @@ maybeInterpretedFunction
 (
 )
 )
+{
 return
 fun
 ;
+}
 return
 nullptr
 ;
@@ -1636,11 +1662,13 @@ if
 !
 calleeTypes
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 calleeTypes
@@ -1653,11 +1681,13 @@ baseFlags
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 unsigned
 objCount
 =
@@ -1680,11 +1710,13 @@ objCount
 >
 maxTargets
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -1695,6 +1727,7 @@ reserve
 objCount
 )
 )
+{
 return
 abort
 (
@@ -1704,6 +1737,7 @@ AbortReason
 Alloc
 )
 ;
+}
 for
 (
 unsigned
@@ -1771,8 +1805,10 @@ if
 !
 group
 )
+{
 continue
 ;
+}
 obj
 =
 group
@@ -1990,8 +2026,10 @@ script
 =
 scriptToInline
 )
+{
 continue
 ;
+}
 IonBuilder
 *
 path
@@ -2022,9 +2060,11 @@ script
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -2292,9 +2332,11 @@ if
 !
 script
 )
+{
 return
 InliningDecision_Error
 ;
+}
 if
 (
 !
@@ -2330,9 +2372,11 @@ status
 =
 Method_Error
 )
+{
 return
 InliningDecision_Error
 ;
+}
 if
 (
 status
@@ -3024,6 +3068,7 @@ resultTypeSet
 )
 )
 )
+{
 return
 abort
 (
@@ -3033,6 +3078,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 loopHeaders_
 [
@@ -3075,6 +3121,7 @@ entry
 )
 )
 )
+{
 return
 abort
 (
@@ -3084,6 +3131,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 if
 (
@@ -3159,6 +3207,7 @@ Value
 nullptr
 )
 )
+{
 return
 abort
 (
@@ -3168,6 +3217,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 jsbytecode
 *
@@ -3250,6 +3300,7 @@ pc
 =
 JSOP_SETLOCAL
 )
+{
 slot
 =
 info
@@ -3264,6 +3315,7 @@ pc
 )
 )
 ;
+}
 else
 if
 (
@@ -3273,6 +3325,7 @@ pc
 =
 JSOP_SETARG
 )
+{
 slot
 =
 info
@@ -3287,9 +3340,12 @@ pc
 )
 )
 ;
+}
 else
+{
 continue
 ;
+}
 if
 (
 slot
@@ -3303,15 +3359,19 @@ firstStackSlot
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
 last
 )
+{
 continue
 ;
+}
 MPhi
 *
 phi
@@ -3337,10 +3397,12 @@ last
 =
 JSOP_POS
 )
+{
 last
 =
 earlier
 ;
+}
 if
 (
 CodeSpec
@@ -3399,6 +3461,7 @@ type
 typeSet
 )
 )
+{
 return
 abort
 (
@@ -3408,6 +3471,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 }
 else
@@ -3527,6 +3591,7 @@ resultTypeSet
 )
 )
 )
+{
 return
 abort
 (
@@ -3536,6 +3601,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 }
 }
@@ -3585,6 +3651,7 @@ hasNonSyntacticScope
 (
 )
 )
+{
 type
 =
 MIRType
@@ -3592,6 +3659,7 @@ MIRType
 :
 Undefined
 ;
+}
 break
 ;
 case
@@ -3814,6 +3882,7 @@ type
 nullptr
 )
 )
+{
 return
 abort
 (
@@ -3823,6 +3892,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 }
 }
@@ -3881,6 +3951,7 @@ argTypes
 typeArray
 )
 )
+{
 return
 abort
 (
@@ -3890,6 +3961,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 if
 (
@@ -3902,6 +3974,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -3911,6 +3984,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 inlineCallInfo_
@@ -3996,6 +4070,7 @@ if
 !
 bytecodeTypeMap
 )
+{
 return
 abort
 (
@@ -4005,6 +4080,7 @@ AbortReason
 Alloc
 )
 ;
+}
 FillBytecodeTypeMap
 (
 script
@@ -4049,6 +4125,7 @@ hasBaselineScript
 (
 )
 )
+{
 script
 (
 )
@@ -4063,6 +4140,7 @@ resetMaxInliningDepth
 (
 )
 ;
+}
 MBasicBlock
 *
 entry
@@ -4484,6 +4562,7 @@ if
 !
 entryRpCopy
 )
+{
 return
 abort
 (
@@ -4493,6 +4572,7 @@ AbortReason
 Alloc
 )
 ;
+}
 check
 -
 >
@@ -4617,6 +4697,7 @@ if
 !
 entryRpCopy
 )
+{
 return
 abort
 (
@@ -4626,6 +4707,7 @@ AbortReason
 Alloc
 )
 ;
+}
 redeclCheck
 -
 >
@@ -4652,10 +4734,12 @@ needsArgsObj
 (
 )
 )
+{
 initArgumentsObject
 (
 )
 ;
+}
 for
 (
 uint32_t
@@ -4710,8 +4794,10 @@ MIRType
 :
 Value
 )
+{
 continue
 ;
+}
 MResumePoint
 *
 entryRpCopy
@@ -4737,6 +4823,7 @@ if
 !
 entryRpCopy
 )
+{
 return
 abort
 (
@@ -4746,6 +4833,7 @@ AbortReason
 Alloc
 )
 ;
+}
 ins
 -
 >
@@ -4778,10 +4866,12 @@ argsObjAliasesFormals
 (
 )
 )
+{
 hasLazyArguments_
 =
 true
 ;
+}
 #
 endif
 insertRecompileCheck
@@ -4889,6 +4979,7 @@ empty
 (
 )
 )
+{
 return
 abort
 (
@@ -4898,6 +4989,7 @@ AbortReason
 PreliminaryObjects
 )
 ;
+}
 MOZ_ASSERT
 (
 loopDepth_
@@ -4982,6 +5074,7 @@ append
 iter
 )
 )
+{
 return
 abort
 (
@@ -4991,6 +5084,7 @@ AbortReason
 Alloc
 )
 ;
+}
 iter
 -
 >
@@ -5134,6 +5228,7 @@ append
 use
 )
 )
+{
 return
 abort
 (
@@ -5143,6 +5238,7 @@ AbortReason
 Alloc
 )
 ;
+}
 use
 -
 >
@@ -5258,10 +5354,12 @@ callerBuilder
 >
 failedBoundsCheck_
 )
+{
 failedBoundsCheck_
 =
 true
 ;
+}
 if
 (
 callerBuilder
@@ -5269,10 +5367,12 @@ callerBuilder
 >
 failedShapeGuard_
 )
+{
 failedShapeGuard_
 =
 true
 ;
+}
 if
 (
 callerBuilder
@@ -5280,10 +5380,12 @@ callerBuilder
 >
 failedLexicalCheck_
 )
+{
 failedLexicalCheck_
 =
 true
 ;
+}
 safeForMinorGC_
 =
 callerBuilder
@@ -5377,6 +5479,7 @@ addPredecessorWithoutPhis
 predecessor
 )
 )
+{
 return
 abort
 (
@@ -5386,6 +5489,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MInstruction
 *
 env
@@ -5798,10 +5902,12 @@ argumentsHasVarBinding
 (
 )
 )
+{
 hasLazyArguments_
 =
 true
 ;
+}
 #
 endif
 insertRecompileCheck
@@ -5928,6 +6034,7 @@ empty
 (
 )
 )
+{
 return
 abort
 (
@@ -5937,6 +6044,7 @@ AbortReason
 PreliminaryObjects
 )
 ;
+}
 return
 Ok
 (
@@ -6007,8 +6115,10 @@ actual
 =
 param
 )
+{
 return
 ;
+}
 current
 -
 >
@@ -6055,11 +6165,13 @@ funMaybeLazy
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 for
 (
 uint32_t
@@ -6099,6 +6211,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -6108,6 +6221,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MDefinition
 *
 param
@@ -6155,11 +6269,13 @@ funMaybeLazy
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 thisTypes
@@ -6192,6 +6308,7 @@ isSingletonUnchecked
 (
 )
 )
+{
 checkNurseryObject
 (
 type
@@ -6201,6 +6318,7 @@ singleton
 )
 )
 ;
+}
 thisTypes
 -
 >
@@ -6339,6 +6457,7 @@ isSingletonUnchecked
 (
 )
 )
+{
 checkNurseryObject
 (
 type
@@ -6348,6 +6467,7 @@ singleton
 )
 )
 ;
+}
 types
 -
 >
@@ -6386,6 +6506,7 @@ if
 !
 param
 )
+{
 return
 abort
 (
@@ -6395,6 +6516,7 @@ AbortReason
 Alloc
 )
 ;
+}
 current
 -
 >
@@ -6447,8 +6569,10 @@ nlocals
 =
 0
 )
+{
 return
 ;
+}
 MConstant
 *
 undef
@@ -6495,6 +6619,7 @@ i
 +
 +
 )
+{
 current
 -
 >
@@ -6511,6 +6636,7 @@ i
 undef
 )
 ;
+}
 }
 bool
 IonBuilder
@@ -6533,9 +6659,11 @@ analysisMode
 =
 Analysis_ArgumentsUsage
 )
+{
 return
 true
 ;
+}
 return
 script
 (
@@ -6589,11 +6717,13 @@ usesEnvironmentChain
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 JSFunction
@@ -6694,6 +6824,7 @@ needsNamedLambdaEnvironment
 (
 )
 )
+{
 env
 =
 createNamedLambdaObject
@@ -6702,6 +6833,7 @@ callee
 env
 )
 ;
+}
 if
 (
 fun
@@ -6711,6 +6843,7 @@ needsExtraBodyVarEnvironment
 (
 )
 )
+{
 return
 abort
 (
@@ -6726,6 +6859,7 @@ unsupported
 "
 )
 ;
+}
 if
 (
 fun
@@ -6735,6 +6869,7 @@ needsCallObject
 (
 )
 )
+{
 MOZ_TRY_VAR
 (
 env
@@ -6745,6 +6880,7 @@ env
 )
 )
 ;
+}
 }
 }
 else
@@ -7110,6 +7246,7 @@ MIRType
 :
 Value
 )
+{
 type
 =
 barrier
@@ -7119,6 +7256,7 @@ type
 (
 )
 ;
+}
 }
 else
 if
@@ -7198,6 +7336,7 @@ if
 !
 typeSet
 )
+{
 return
 abort
 (
@@ -7207,6 +7346,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MInstruction
 *
 barrier
@@ -7570,11 +7710,13 @@ osrPc
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MBasicBlock
 *
 osrBlock
@@ -7735,8 +7877,10 @@ isSlotAliased
 slot
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -7748,6 +7892,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -7757,6 +7902,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MInstruction
 *
 def
@@ -7977,12 +8123,14 @@ aborted
 (
 )
 )
+{
 return
 CFGState
 :
 :
 Abort
 ;
+}
 return
 CFGState
 :
@@ -8060,12 +8208,14 @@ if
 !
 graphAlloc
 )
+{
 return
 CFGState
 :
 :
 Alloc
 ;
+}
 }
 else
 {
@@ -8092,12 +8242,14 @@ if
 !
 cfg
 )
+{
 return
 CFGState
 :
 :
 Alloc
 ;
+}
 if
 (
 script
@@ -8291,6 +8443,7 @@ CFGState
 :
 Alloc
 )
+{
 return
 abort
 (
@@ -8300,6 +8453,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 state
@@ -8310,6 +8464,7 @@ CFGState
 :
 Abort
 )
+{
 return
 abort
 (
@@ -8329,6 +8484,7 @@ script
 "
 )
 ;
+}
 if
 (
 !
@@ -8344,6 +8500,7 @@ numBlocks
 )
 )
 )
+{
 return
 abort
 (
@@ -8353,6 +8510,7 @@ AbortReason
 Alloc
 )
 ;
+}
 blockWorklist
 [
 0
@@ -8388,6 +8546,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -8397,6 +8556,7 @@ AbortReason
 Alloc
 )
 ;
+}
 bool
 restarted
 =
@@ -8698,6 +8858,7 @@ hasScriptCounts
 (
 )
 )
+{
 mblock
 -
 >
@@ -8719,6 +8880,7 @@ pc
 )
 )
 ;
+}
 if
 (
 mblock
@@ -8835,6 +8997,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -8844,6 +9007,7 @@ AbortReason
 Alloc
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -8940,6 +9104,7 @@ defUseCount
 )
 )
 )
+{
 return
 abort
 (
@@ -8949,6 +9114,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 #
 endif
@@ -9072,8 +9238,10 @@ popped
 0
 ]
 )
+{
 break
 ;
+}
 MOZ_FALLTHROUGH
 ;
 default
@@ -9190,9 +9358,11 @@ osrPc
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 entryPc
@@ -9420,6 +9590,7 @@ if
 (
 create
 )
+{
 MOZ_TRY_VAR
 (
 blockWorklist
@@ -9438,6 +9609,7 @@ startPc
 )
 )
 ;
+}
 MBasicBlock
 *
 succ
@@ -9484,6 +9656,7 @@ alloc
 current
 )
 )
+{
 return
 abort
 (
@@ -9493,6 +9666,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 return
 Ok
@@ -9840,6 +10014,7 @@ append
 header
 )
 )
+{
 return
 abort
 (
@@ -9849,6 +10024,7 @@ AbortReason
 Alloc
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -9862,6 +10038,7 @@ append
 successor
 )
 )
+{
 return
 abort
 (
@@ -9871,6 +10048,7 @@ AbortReason
 Alloc
 )
 ;
+}
 #
 endif
 MOZ_TRY
@@ -10976,11 +11154,13 @@ JSOP_POP_LENGTH
 =
 JSOP_POP
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 def
@@ -10990,11 +11170,13 @@ isConstant
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 return
 maybeInsertResume
 (
@@ -11025,6 +11207,7 @@ i
 +
 +
 )
+{
 current
 -
 >
@@ -11032,6 +11215,7 @@ pop
 (
 )
 ;
+}
 return
 Ok
 (
@@ -11334,6 +11518,7 @@ peek
 )
 )
 )
+{
 return
 abort
 (
@@ -11343,6 +11528,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 return
 Ok
@@ -11436,12 +11622,14 @@ hasNonSyntacticScope
 (
 )
 )
+{
 return
 jsop_getgname
 (
 name
 )
 ;
+}
 return
 jsop_getname
 (
@@ -11492,6 +11680,7 @@ hasNonSyntacticScope
 (
 )
 )
+{
 obj
 =
 testGlobalLexicalBinding
@@ -11499,10 +11688,12 @@ testGlobalLexicalBinding
 name
 )
 ;
+}
 if
 (
 obj
 )
+{
 return
 setStaticName
 (
@@ -11510,6 +11701,7 @@ obj
 name
 )
 ;
+}
 return
 jsop_setprop
 (
@@ -11863,6 +12055,7 @@ op
 =
 JSOP_CALLELEM
 )
+{
 MOZ_TRY
 (
 improveThisTypesForCall
@@ -11870,6 +12063,7 @@ improveThisTypesForCall
 )
 )
 ;
+}
 return
 Ok
 (
@@ -12029,6 +12223,7 @@ op
 =
 JSOP_CALLPROP
 )
+{
 MOZ_TRY
 (
 improveThisTypesForCall
@@ -12036,6 +12231,7 @@ improveThisTypesForCall
 )
 )
 ;
+}
 return
 Ok
 (
@@ -12925,6 +13121,7 @@ numLoopRestarts_
 =
 MAX_LOOP_RESTARTS
 )
+{
 return
 abort
 (
@@ -12941,6 +13138,7 @@ flow
 "
 )
 ;
+}
 }
 MBasicBlock
 *
@@ -12973,6 +13171,7 @@ removeSuccessorBlocks
 header
 )
 )
+{
 return
 abort
 (
@@ -12982,6 +13181,7 @@ AbortReason
 Alloc
 )
 ;
+}
 graph
 (
 )
@@ -13083,11 +13283,13 @@ unknown
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 subject
@@ -13113,11 +13315,13 @@ equals
 type
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 else
 {
@@ -13147,11 +13351,13 @@ equals
 type
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MInstruction
 *
@@ -13256,6 +13462,7 @@ if
 !
 intersect
 )
+{
 return
 abort
 (
@@ -13265,6 +13472,7 @@ AbortReason
 Alloc
 )
 ;
+}
 ins
 -
 >
@@ -13311,6 +13519,7 @@ MIRType
 :
 Undefined
 )
+{
 current
 -
 >
@@ -13325,6 +13534,7 @@ UndefinedValue
 )
 )
 ;
+}
 else
 if
 (
@@ -13341,6 +13551,7 @@ MIRType
 :
 Null
 )
+{
 current
 -
 >
@@ -13355,6 +13566,7 @@ NullValue
 )
 )
 ;
+}
 else
 if
 (
@@ -13371,6 +13583,7 @@ MIRType
 :
 MagicOptimizedArguments
 )
+{
 current
 -
 >
@@ -13386,7 +13599,9 @@ JS_OPTIMIZED_ARGUMENTS
 )
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 !
@@ -13401,6 +13616,7 @@ type
 )
 )
 ;
+}
 continue
 ;
 }
@@ -13463,6 +13679,7 @@ MIRType
 :
 Undefined
 )
+{
 replace
 =
 constant
@@ -13472,6 +13689,7 @@ UndefinedValue
 )
 )
 ;
+}
 else
 if
 (
@@ -13488,6 +13706,7 @@ MIRType
 :
 Null
 )
+{
 replace
 =
 constant
@@ -13497,6 +13716,7 @@ NullValue
 )
 )
 ;
+}
 else
 if
 (
@@ -13513,6 +13733,7 @@ MIRType
 :
 MagicOptimizedArguments
 )
+{
 replace
 =
 constant
@@ -13523,7 +13744,9 @@ JS_OPTIMIZED_ARGUMENTS
 )
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 !
@@ -13538,6 +13761,7 @@ type
 )
 )
 ;
+}
 }
 current
 -
@@ -13582,9 +13806,11 @@ numOperands
 =
 2
 )
+{
 return
 false
 ;
+}
 MBasicBlock
 *
 testBlock
@@ -13720,9 +13946,11 @@ numSuccessors
 =
 1
 )
+{
 return
 false
 ;
+}
 if
 (
 branchBlock
@@ -13747,9 +13975,11 @@ getPredecessor
 =
 initialBlock
 )
+{
 return
 false
 ;
+}
 if
 (
 initialBlock
@@ -13762,9 +13992,11 @@ numSuccessors
 =
 2
 )
+{
 return
 false
 ;
+}
 MDefinition
 *
 branchResult
@@ -13818,9 +14050,11 @@ stackDepth
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 branchBlock
@@ -13840,9 +14074,11 @@ stackDepth
 +
 1
 )
+{
 return
 false
 ;
+}
 if
 (
 branchResult
@@ -13870,9 +14106,11 @@ peek
 1
 )
 )
+{
 return
 false
 ;
+}
 MTest
 *
 initialTest
@@ -13920,6 +14158,7 @@ getOperand
 0
 )
 )
+{
 *
 branchIsAnd
 =
@@ -13939,6 +14178,7 @@ getPredecessor
 branchBlock
 )
 ;
+}
 else
 if
 (
@@ -13958,6 +14198,7 @@ getOperand
 1
 )
 )
+{
 *
 branchIsAnd
 =
@@ -13977,10 +14218,13 @@ getPredecessor
 branchBlock
 )
 ;
+}
 else
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -14230,11 +14474,13 @@ MIRType
 :
 String
 )
+{
 return
 Ok
 (
 )
 ;
+}
 bool
 equal
 =
@@ -14287,11 +14533,13 @@ if
 (
 notEqual
 )
+{
 trueBranch
 =
 !
 trueBranch
 ;
+}
 if
 (
 !
@@ -14301,11 +14549,13 @@ equal
 !
 notEqual
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MDefinition
 *
 subject
@@ -14352,11 +14602,13 @@ MIRType
 :
 Value
 )
+{
 return
 Ok
 (
 )
 ;
+}
 inputTypes
 =
 &
@@ -14399,11 +14651,13 @@ unknown
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 TemporaryTypeSet
 filter
 ;
@@ -14466,6 +14720,7 @@ inputMaybeCallableOrEmulatesUndefined
 &
 trueBranch
 )
+{
 filter
 .
 addType
@@ -14484,6 +14739,7 @@ lifoAlloc
 )
 )
 ;
+}
 }
 else
 if
@@ -14691,6 +14947,7 @@ if
 (
 trueBranch
 )
+{
 filter
 .
 addType
@@ -14709,6 +14966,7 @@ lifoAlloc
 )
 )
 ;
+}
 }
 else
 if
@@ -14740,6 +14998,7 @@ inputMaybeCallableOrEmulatesUndefined
 &
 trueBranch
 )
+{
 filter
 .
 addType
@@ -14759,6 +15018,7 @@ lifoAlloc
 )
 ;
 }
+}
 else
 {
 return
@@ -14775,6 +15035,7 @@ if
 (
 trueBranch
 )
+{
 type
 =
 TypeSet
@@ -14793,7 +15054,9 @@ lifoAlloc
 )
 )
 ;
+}
 else
+{
 type
 =
 TypeSet
@@ -14812,11 +15075,13 @@ lifoAlloc
 )
 )
 ;
+}
 if
 (
 !
 type
 )
+{
 return
 abort
 (
@@ -14826,6 +15091,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 replaceTypeSet
 (
@@ -15032,11 +15298,13 @@ MIRType
 :
 Value
 )
+{
 return
 Ok
 (
 )
 ;
+}
 inputTypes
 =
 &
@@ -15079,11 +15347,13 @@ unknown
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 TemporaryTypeSet
 *
 type
@@ -15113,6 +15383,7 @@ if
 (
 altersUndefined
 )
+{
 remove
 .
 addType
@@ -15131,10 +15402,12 @@ lifoAlloc
 )
 )
 ;
+}
 if
 (
 altersNull
 )
+{
 remove
 .
 addType
@@ -15153,6 +15426,7 @@ lifoAlloc
 )
 )
 ;
+}
 type
 =
 TypeSet
@@ -15212,6 +15486,7 @@ constraints
 )
 )
 )
+{
 base
 .
 addType
@@ -15231,10 +15506,12 @@ lifoAlloc
 )
 ;
 }
+}
 if
 (
 altersNull
 )
+{
 base
 .
 addType
@@ -15253,6 +15530,7 @@ lifoAlloc
 )
 )
 ;
+}
 type
 =
 TypeSet
@@ -15277,6 +15555,7 @@ if
 !
 type
 )
+{
 return
 abort
 (
@@ -15286,6 +15565,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 replaceTypeSet
 (
@@ -15410,11 +15690,13 @@ MIRType
 :
 Value
 )
+{
 return
 Ok
 (
 )
 ;
+}
 oldType
 =
 &
@@ -15457,11 +15739,13 @@ unknown
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 TemporaryTypeSet
 *
 type
@@ -15472,6 +15756,7 @@ if
 (
 trueBranch
 )
+{
 type
 =
 oldType
@@ -15487,7 +15772,9 @@ lifoAlloc
 )
 )
 ;
+}
 else
+{
 type
 =
 oldType
@@ -15503,11 +15790,13 @@ lifoAlloc
 )
 )
 ;
+}
 if
 (
 !
 type
 )
+{
 return
 abort
 (
@@ -15517,6 +15806,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 replaceTypeSet
 (
@@ -15738,11 +16028,13 @@ MIRType
 :
 Value
 )
+{
 return
 Ok
 (
 )
 ;
+}
 oldType
 =
 &
@@ -15785,11 +16077,13 @@ unknown
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 trueBranch
@@ -15978,6 +16272,7 @@ constraints
 )
 )
 )
+{
 base
 .
 addType
@@ -15996,6 +16291,7 @@ lifoAlloc
 )
 )
 ;
+}
 type
 =
 TypeSet
@@ -16020,6 +16316,7 @@ if
 !
 type
 )
+{
 return
 abort
 (
@@ -16029,6 +16326,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 replaceTypeSet
 (
@@ -16343,6 +16641,7 @@ hasScriptCounts
 (
 )
 )
+{
 filterBlock
 -
 >
@@ -16364,6 +16663,7 @@ pc
 )
 )
 ;
+}
 blockWorklist
 [
 test
@@ -16688,6 +16988,7 @@ analysisMode
 =
 Analysis_ArgumentsUsage
 )
+{
 return
 abort
 (
@@ -16706,6 +17007,7 @@ analysis
 "
 )
 ;
+}
 graph
 (
 )
@@ -17025,6 +17327,7 @@ addReturn
 current
 )
 )
+{
 return
 abort
 (
@@ -17034,6 +17337,7 @@ AbortReason
 Alloc
 )
 ;
+}
 setCurrent
 (
 nullptr
@@ -17338,6 +17642,7 @@ caseBlock
 index
 )
 )
+{
 return
 abort
 (
@@ -17347,6 +17652,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 else
 {
@@ -17363,6 +17669,7 @@ caseBlock
 index
 )
 )
+{
 return
 abort
 (
@@ -17372,6 +17679,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 !
@@ -17383,6 +17691,7 @@ addCase
 index
 )
 )
+{
 return
 abort
 (
@@ -17392,6 +17701,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MConstant
 *
 constant
@@ -17461,8 +17771,10 @@ getSlot
 j
 )
 )
+{
 continue
 ;
+}
 constant
 -
 >
@@ -17509,6 +17821,7 @@ hasScriptCounts
 (
 )
 )
+{
 caseBlock
 -
 >
@@ -17530,6 +17843,7 @@ pc
 )
 )
 ;
+}
 MBasicBlock
 *
 merge
@@ -17554,6 +17868,7 @@ if
 !
 merge
 )
+{
 return
 abort
 (
@@ -17563,6 +17878,7 @@ AbortReason
 Alloc
 )
 ;
+}
 caseBlock
 -
 >
@@ -17691,11 +18007,13 @@ MIRType
 Symbol
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MBitNot
 *
 ins
@@ -17820,11 +18138,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MBitNot
 *
 ins
@@ -18076,6 +18396,7 @@ isEffectful
 (
 )
 )
+{
 MOZ_TRY
 (
 resumeAfter
@@ -18084,6 +18405,7 @@ ins
 )
 )
 ;
+}
 return
 Ok
 (
@@ -18216,11 +18538,13 @@ op
 =
 JSOP_ADD
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -18522,11 +18846,13 @@ MIRType
 :
 Double
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -18535,11 +18861,13 @@ IsNumberType
 baseType
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -18548,11 +18876,13 @@ IsNumberType
 powerType
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 powerType
@@ -18563,6 +18893,7 @@ MIRType
 :
 Float32
 )
+{
 powerType
 =
 MIRType
@@ -18570,6 +18901,7 @@ MIRType
 :
 Double
 ;
+}
 MPow
 *
 pow
@@ -18886,6 +19218,7 @@ op
 =
 JSOP_MUL
 )
+{
 ins
 -
 >
@@ -18893,6 +19226,7 @@ setCommutative
 (
 )
 ;
+}
 current
 -
 >
@@ -19148,11 +19482,13 @@ JitOptions
 .
 disableCacheIRBinaryArith
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 actualOp
@@ -19166,11 +19502,13 @@ actualOp
 =
 JSOP_POW
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MInstruction
 *
 stub
@@ -19418,11 +19756,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 binaryArithTrySpecialized
@@ -19439,11 +19779,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 binaryArithTrySpecializedOnBaselineInspector
@@ -19460,11 +19802,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -19482,11 +19826,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -19674,11 +20020,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -19696,11 +20044,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MPow
 *
 pow
@@ -19942,11 +20292,13 @@ MIRType
 :
 String
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MDefinition
 *
 value
@@ -20122,6 +20474,7 @@ alloc
 )
 )
 )
+{
 return
 abort
 (
@@ -20131,6 +20484,7 @@ AbortReason
 Alloc
 )
 ;
+}
 callInfo
 .
 setImplicitlyUsedUnchecked
@@ -20170,6 +20524,7 @@ if
 !
 thisDefn
 )
+{
 return
 abort
 (
@@ -20179,6 +20534,7 @@ AbortReason
 Alloc
 )
 ;
+}
 callInfo
 .
 setThis
@@ -20223,6 +20579,7 @@ if
 !
 outerResumePoint
 )
+{
 return
 abort
 (
@@ -20232,6 +20589,7 @@ AbortReason
 Alloc
 )
 ;
+}
 current
 -
 >
@@ -20346,6 +20704,7 @@ if
 !
 clonedTypes
 )
+{
 return
 abort
 (
@@ -20355,6 +20714,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MTypeBarrier
 *
 barrier
@@ -20398,6 +20758,7 @@ MIRType
 :
 Undefined
 )
+{
 callInfo
 .
 setThis
@@ -20410,6 +20771,7 @@ UndefinedValue
 )
 )
 ;
+}
 else
 if
 (
@@ -20426,6 +20788,7 @@ MIRType
 :
 Null
 )
+{
 callInfo
 .
 setThis
@@ -20438,7 +20801,9 @@ NullValue
 )
 )
 ;
+}
 else
+{
 callInfo
 .
 setThis
@@ -20446,6 +20811,7 @@ setThis
 barrier
 )
 ;
+}
 }
 }
 LifoAlloc
@@ -20484,6 +20850,7 @@ if
 !
 inlineScriptTree
 )
+{
 return
 abort
 (
@@ -20493,6 +20860,7 @@ AbortReason
 Alloc
 )
 ;
+}
 CompileInfo
 *
 info
@@ -20532,6 +20900,7 @@ if
 !
 info
 )
+{
 return
 abort
 (
@@ -20541,6 +20910,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MIRGraphReturns
 returns
 (
@@ -20707,6 +21077,7 @@ if
 !
 current
 )
+{
 return
 abort
 (
@@ -20716,6 +21087,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 InliningStatus_NotInlined
 ;
@@ -20776,6 +21148,7 @@ i
 +
 +
 )
+{
 addAbortedPreliminaryGroup
 (
 groups
@@ -20784,6 +21157,7 @@ i
 ]
 )
 ;
+}
 return
 Err
 (
@@ -20889,6 +21263,7 @@ if
 !
 current
 )
+{
 return
 abort
 (
@@ -20898,6 +21273,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 InliningStatus_NotInlined
 ;
@@ -20988,6 +21364,7 @@ if
 !
 retvalDefn
 )
+{
 return
 abort
 (
@@ -20997,6 +21374,7 @@ AbortReason
 Alloc
 )
 ;
+}
 returnBlock
 -
 >
@@ -21018,6 +21396,7 @@ alloc
 )
 )
 )
+{
 return
 abort
 (
@@ -21027,6 +21406,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MOZ_TRY
 (
 setCurrentAndSpecializePhis
@@ -21199,6 +21579,7 @@ isSetter
 (
 )
 )
+{
 rdef
 =
 specializeInlinedReturn
@@ -21207,6 +21588,7 @@ rdef
 exit
 )
 ;
+}
 MGoto
 *
 replacement
@@ -21241,9 +21623,11 @@ addPredecessorWithoutPhis
 exit
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 rdef
 ;
@@ -21289,9 +21673,11 @@ unknown
 (
 )
 )
+{
 return
 rdef
 ;
+}
 if
 (
 rdef
@@ -21317,9 +21703,11 @@ isSubset
 types
 )
 )
+{
 return
 rdef
 ;
+}
 }
 else
 {
@@ -21357,9 +21745,11 @@ MIRType
 :
 Float32
 )
+{
 return
 rdef
 ;
+}
 if
 (
 observedType
@@ -21435,6 +21825,7 @@ if
 (
 barrier
 )
+{
 barrier
 -
 >
@@ -21442,6 +21833,7 @@ setNotMovable
 (
 )
 ;
+}
 return
 rdef
 ;
@@ -21486,6 +21878,7 @@ length
 =
 1
 )
+{
 return
 patchInlinedReturn
 (
@@ -21497,6 +21890,7 @@ returns
 bottom
 )
 ;
+}
 MPhi
 *
 phi
@@ -21526,9 +21920,11 @@ length
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 size_t
@@ -21568,9 +21964,11 @@ if
 !
 rdef
 )
+{
 return
 nullptr
 ;
+}
 phi
 -
 >
@@ -21659,9 +22057,11 @@ realm
 (
 )
 )
+{
 return
 InliningDecision_DontInline
 ;
+}
 if
 (
 !
@@ -21675,9 +22075,11 @@ JSFunction
 (
 )
 )
+{
 return
 InliningDecision_Inline
 ;
+}
 JSFunction
 *
 target
@@ -21706,9 +22108,11 @@ analysisMode
 =
 Analysis_ArgumentsUsage
 )
+{
 return
 InliningDecision_DontInline
 ;
+}
 if
 (
 target
@@ -21718,9 +22122,11 @@ isNative
 (
 )
 )
+{
 return
 InliningDecision_Inline
 ;
+}
 InliningDecision
 decision
 =
@@ -21737,9 +22143,11 @@ decision
 =
 InliningDecision_Inline
 )
+{
 return
 decision
 ;
+}
 JSScript
 *
 targetScript
@@ -22224,6 +22632,7 @@ maxInliningDepth
 (
 )
 )
+{
 outerBaseline
 -
 >
@@ -22232,6 +22641,7 @@ setMaxInliningDepth
 scriptInlineDepth
 )
 ;
+}
 outerBuilder
 -
 >
@@ -22297,6 +22707,7 @@ length
 )
 )
 )
+{
 return
 abort
 (
@@ -22306,6 +22717,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 info
@@ -22328,11 +22740,13 @@ length
 >
 1
 )
+{
 return
 Ok
 (
 )
 ;
+}
 for
 (
 size_t
@@ -22521,10 +22935,12 @@ inlineMaxBytecodePerCallSite
 offThread
 )
 )
+{
 inlineable
 =
 false
 ;
+}
 }
 }
 else
@@ -22545,12 +22961,14 @@ if
 (
 inlineable
 )
+{
 *
 numInlineable
 +
 =
 1
 ;
+}
 }
 if
 (
@@ -22671,9 +23089,11 @@ MIRType
 :
 Object
 )
+{
 return
 false
 ;
+}
 if
 (
 cache
@@ -22686,9 +23106,11 @@ value
 =
 thisDef
 )
+{
 return
 false
 ;
+}
 InlinePropertyTable
 *
 table
@@ -22705,9 +23127,11 @@ if
 !
 table
 )
+{
 return
 false
 ;
+}
 if
 (
 table
@@ -22720,9 +23144,11 @@ numEntries
 =
 0
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -22746,8 +23172,10 @@ if
 !
 cache_
 )
+{
 return
 ;
+}
 InlinePropertyTable
 *
 propTable
@@ -22764,8 +23192,10 @@ if
 !
 propTable
 )
+{
 return
 ;
+}
 MResumePoint
 *
 rp
@@ -22782,8 +23212,10 @@ if
 !
 rp
 )
+{
 return
 ;
+}
 cache_
 -
 >
@@ -22874,9 +23306,11 @@ hasUses
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -22900,9 +23334,11 @@ hasOneUse
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 if
 (
@@ -22913,9 +23349,11 @@ cache_
 thisDef
 )
 )
+{
 return
 nullptr
 ;
+}
 MGetPropertyCache
 *
 ret
@@ -22952,9 +23390,11 @@ constructing
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 MDefinition
 *
 thisDef
@@ -22980,9 +23420,11 @@ MIRType
 :
 Object
 )
+{
 return
 nullptr
 ;
+}
 MDefinition
 *
 funcDef
@@ -23008,9 +23450,11 @@ MIRType
 :
 Object
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 funcDef
@@ -23072,9 +23516,11 @@ hasUses
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 barrier
@@ -23090,9 +23536,11 @@ MIRType
 :
 Object
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -23108,9 +23556,11 @@ isGetPropertyCache
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 WrapMGetPropertyCache
 cache
 (
@@ -23463,6 +23913,7 @@ fun
 (
 )
 )
+{
 callInfo
 .
 setNewTarget
@@ -23470,6 +23921,7 @@ setNewTarget
 constFun
 )
 ;
+}
 callInfo
 .
 setFun
@@ -23516,9 +23968,11 @@ numInlined
 =
 0
 )
+{
 return
 InliningStatus_NotInlined
 ;
+}
 MOZ_TRY
 (
 inlineCalls
@@ -23614,6 +24068,7 @@ init
 callInfo
 )
 )
+{
 return
 abort
 (
@@ -23623,6 +24078,7 @@ AbortReason
 Alloc
 )
 ;
+}
 fallbackInfo
 .
 popCallStack
@@ -23805,6 +24261,7 @@ init
 callInfo
 )
 )
+{
 return
 abort
 (
@@ -23814,6 +24271,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MResumePoint
 *
 preCallResumePoint
@@ -23839,6 +24297,7 @@ if
 !
 preCallResumePoint
 )
+{
 return
 abort
 (
@@ -23848,6 +24307,7 @@ AbortReason
 Alloc
 )
 ;
+}
 DebugOnly
 <
 size_t
@@ -24447,10 +24907,12 @@ numEntries
 =
 0
 )
+{
 maybeCache
 =
 nullptr
 ;
+}
 }
 MDispatchInstruction
 *
@@ -24650,6 +25112,7 @@ alloc
 )
 )
 )
+{
 return
 abort
 (
@@ -24659,6 +25122,7 @@ AbortReason
 Alloc
 )
 ;
+}
 uint32_t
 count
 =
@@ -24691,10 +25155,12 @@ choiceSet
 i
 ]
 )
+{
 count
 +
 +
 ;
+}
 }
 if
 (
@@ -24707,6 +25173,7 @@ reserveLength
 count
 )
 )
+{
 return
 abort
 (
@@ -24716,6 +25183,7 @@ AbortReason
 Alloc
 )
 ;
+}
 for
 (
 uint32_t
@@ -24744,8 +25212,10 @@ choiceSet
 i
 ]
 )
+{
 continue
 ;
+}
 amendOptimizationAttempt
 (
 i
@@ -24845,6 +25315,7 @@ isSingleton
 (
 )
 )
+{
 funcDef
 =
 MConstant
@@ -24865,7 +25336,9 @@ constraints
 )
 )
 ;
+}
 else
+{
 funcDef
 =
 MPolyInlineGuard
@@ -24883,6 +25356,7 @@ fun
 )
 )
 ;
+}
 funcDef
 -
 >
@@ -24971,6 +25445,7 @@ init
 callInfo
 )
 )
+{
 return
 abort
 (
@@ -24980,6 +25455,7 @@ AbortReason
 Alloc
 )
 ;
+}
 inlineInfo
 .
 popCallStack
@@ -25041,6 +25517,7 @@ if
 !
 thisTypes
 )
+{
 return
 abort
 (
@@ -25050,6 +25527,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MFilterTypeSet
 *
 filter
@@ -25171,6 +25649,7 @@ group
 inlineBlock
 )
 )
+{
 return
 abort
 (
@@ -25180,6 +25659,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MDefinition
 *
 retVal
@@ -25229,6 +25709,7 @@ addPredecessorWithoutPhis
 inlineReturnBlock
 )
 )
+{
 return
 abort
 (
@@ -25238,6 +25719,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 bool
 useFallback
@@ -25383,8 +25865,10 @@ if
 !
 obj
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -25648,8 +26132,10 @@ choiceSet
 i
 ]
 )
+{
 continue
 ;
+}
 JSObject
 *
 target
@@ -25704,6 +26190,7 @@ JSFunction
 )
 )
 )
+{
 return
 abort
 (
@@ -25713,6 +26200,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 if
 (
@@ -25827,6 +26315,7 @@ addPredecessorWithoutPhis
 fallbackReturnBlock
 )
 )
+{
 return
 abort
 (
@@ -25836,6 +26325,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 dispatchBlock
 -
@@ -26074,6 +26564,7 @@ isSingleton
 (
 )
 )
+{
 callObj
 =
 MNewSingletonCallObject
@@ -26087,7 +26578,9 @@ alloc
 templateCst
 )
 ;
+}
 else
+{
 callObj
 =
 MNewCallObject
@@ -26101,6 +26594,7 @@ alloc
 templateCst
 )
 ;
+}
 current
 -
 >
@@ -26189,8 +26683,10 @@ closedOver
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -26202,6 +26698,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -26211,6 +26708,7 @@ AbortReason
 Alloc
 )
 ;
+}
 unsigned
 slot
 =
@@ -26258,6 +26756,7 @@ functionHasParameterExprs
 (
 )
 )
+{
 param
 =
 constant
@@ -26268,7 +26767,9 @@ JS_UNINITIALIZED_LEXICAL
 )
 )
 ;
+}
 else
+{
 param
 =
 current
@@ -26286,6 +26787,7 @@ formal
 )
 )
 ;
+}
 if
 (
 slot
@@ -26560,9 +27062,11 @@ unknownProperties
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 jsid
 protoid
 =
@@ -26619,9 +27123,11 @@ hasScript
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 proto
@@ -26636,9 +27142,11 @@ if
 !
 proto
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 templateObject
@@ -26656,9 +27164,11 @@ if
 !
 templateObject
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -26684,9 +27194,11 @@ UnboxedPlainObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 templateObject
@@ -26699,9 +27211,11 @@ staticPrototype
 =
 proto
 )
+{
 return
 nullptr
 ;
+}
 TypeSet
 :
 :
@@ -26738,9 +27252,11 @@ constraints
 OBJECT_FLAG_NEW_SCRIPT_CLEARED
 )
 )
+{
 return
 nullptr
 ;
+}
 StackTypeSet
 *
 thisTypes
@@ -26779,9 +27295,11 @@ templateObject
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 MConstant
 *
 templateConst
@@ -26887,9 +27405,11 @@ hasScript
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 target
@@ -26907,9 +27427,11 @@ isDerivedClassConstructor
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 templateObject
@@ -26927,9 +27449,11 @@ if
 !
 templateObject
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -26955,9 +27479,11 @@ UnboxedPlainObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 Shape
 *
 shape
@@ -26996,9 +27522,11 @@ isDataProperty
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 Value
 protov
 =
@@ -27024,9 +27552,11 @@ isObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 proto
@@ -27053,9 +27583,11 @@ staticPrototype
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 TypeSet
 :
 :
@@ -27092,9 +27624,11 @@ constraints
 OBJECT_FLAG_NEW_SCRIPT_CLEARED
 )
 )
+{
 return
 nullptr
 ;
+}
 StackTypeSet
 *
 thisTypes
@@ -27133,9 +27667,11 @@ templateObject
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 callee
 =
 addShapeGuard
@@ -27380,9 +27916,11 @@ createThisScriptedBaseline
 callee
 )
 )
+{
 return
 createThis
 ;
+}
 MCreateThis
 *
 createThis
@@ -27431,9 +27969,11 @@ isConstructor
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 target
@@ -27497,6 +28037,7 @@ isBoundFunction
 (
 )
 )
+{
 return
 constant
 (
@@ -27506,6 +28047,7 @@ JS_UNINITIALIZED_LEXICAL
 )
 )
 ;
+}
 if
 (
 target
@@ -27547,9 +28089,11 @@ createThisScriptedSingleton
 target
 )
 )
+{
 return
 createThis
 ;
+}
 if
 (
 MDefinition
@@ -27561,9 +28105,11 @@ createThisScriptedBaseline
 callee
 )
 )
+{
 return
 createThis
 ;
+}
 return
 createThisScripted
 (
@@ -27689,6 +28235,7 @@ current
 argc
 )
 )
+{
 return
 abort
 (
@@ -27698,6 +28245,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 makeCall
 (
@@ -27811,6 +28359,7 @@ current
 argc
 )
 )
+{
 return
 abort
 (
@@ -27820,6 +28369,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 !
@@ -27884,11 +28434,13 @@ status
 =
 InliningStatus_Inlined
 )
+{
 return
 Ok
 (
 )
 ;
+}
 break
 ;
 }
@@ -27999,6 +28551,7 @@ current
 argc
 )
 )
+{
 return
 abort
 (
@@ -28008,6 +28561,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 makeCall
 (
@@ -28210,6 +28764,7 @@ current
 argc
 )
 )
+{
 return
 abort
 (
@@ -28219,6 +28774,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 makeCall
 (
@@ -28331,6 +28887,7 @@ resultTypeSet
 (
 )
 )
+{
 if
 (
 const
@@ -28348,6 +28905,7 @@ constraints
 )
 )
 )
+{
 MOZ_ASSERT
 (
 clasp
@@ -28360,6 +28918,8 @@ ArrayObject
 class_
 )
 ;
+}
+}
 #
 endif
 MDefinition
@@ -28521,6 +29081,7 @@ realm
 (
 )
 )
+{
 apply
 -
 >
@@ -28528,6 +29089,7 @@ setNotCrossRealm
 (
 )
 ;
+}
 TemporaryTypeSet
 *
 types
@@ -28766,6 +29328,7 @@ realm
 (
 )
 )
+{
 apply
 -
 >
@@ -28773,6 +29336,7 @@ setNotCrossRealm
 (
 )
 ;
+}
 TemporaryTypeSet
 *
 types
@@ -28832,6 +29396,7 @@ reserve
 peekDepth
 )
 )
+{
 return
 mir
 -
@@ -28844,6 +29409,7 @@ AbortReason
 Alloc
 )
 ;
+}
 while
 (
 peekDepth
@@ -29113,6 +29679,7 @@ realm
 (
 )
 )
+{
 apply
 -
 >
@@ -29120,6 +29687,7 @@ setNotCrossRealm
 (
 )
 ;
+}
 TemporaryTypeSet
 *
 types
@@ -29205,6 +29773,7 @@ argv
 )
 )
 )
+{
 return
 abort
 (
@@ -29214,6 +29783,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 MDefinition
 *
@@ -29327,11 +29897,13 @@ status
 =
 InliningStatus_Inlined
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 }
 return
@@ -29488,6 +30060,7 @@ if
 (
 calleeTypes
 )
+{
 MOZ_TRY
 (
 getPolyCallTargets
@@ -29499,6 +30072,7 @@ targets
 )
 )
 ;
+}
 CallInfo
 callInfo
 (
@@ -29521,6 +30095,7 @@ current
 argc
 )
 )
+{
 return
 abort
 (
@@ -29530,6 +30105,7 @@ AbortReason
 Alloc
 )
 ;
+}
 InliningStatus
 status
 ;
@@ -29550,11 +30126,13 @@ status
 =
 InliningStatus_Inlined
 )
+{
 return
 Ok
 (
 )
 ;
+}
 replaceMaybeFallbackFunctionGetter
 (
 nullptr
@@ -29642,6 +30220,7 @@ JSFunction
 )
 )
 )
+{
 return
 abort
 (
@@ -29651,6 +30230,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 }
 if
@@ -29777,9 +30357,11 @@ hasJitInfo
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 mozilla
@@ -29792,9 +30374,11 @@ IsRecordingOrReplaying
 (
 )
 )
+{
 return
 false
 ;
+}
 DOMInstanceClassHasProtoAtDepth
 instanceChecker
 =
@@ -29837,9 +30421,11 @@ type
 =
 opType
 )
+{
 return
 false
 ;
+}
 for
 (
 unsigned
@@ -29881,8 +30467,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -29894,6 +30482,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -29903,6 +30492,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 !
@@ -29916,9 +30506,11 @@ constraints
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -29940,9 +30532,11 @@ jinfo
 depth
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -29965,9 +30559,11 @@ if
 !
 calleeTypes
 )
+{
 return
 false
 ;
+}
 if
 (
 def
@@ -30038,9 +30634,11 @@ MIRType
 :
 Value
 )
+{
 return
 false
 ;
+}
 if
 (
 def
@@ -30056,6 +30654,7 @@ MIRType
 :
 Object
 )
+{
 return
 calleeTypes
 -
@@ -30064,6 +30663,7 @@ unknownObject
 (
 )
 ;
+}
 return
 calleeTypes
 -
@@ -30102,9 +30702,11 @@ isNative
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -30115,9 +30717,11 @@ hasScript
 (
 )
 )
+{
 return
 true
 ;
+}
 JSScript
 *
 targetScript
@@ -30148,9 +30752,11 @@ targetScript
 )
 )
 )
+{
 return
 true
 ;
+}
 uint32_t
 expected_args
 =
@@ -30209,9 +30815,11 @@ i
 )
 )
 )
+{
 return
 true
 ;
+}
 }
 for
 (
@@ -30259,9 +30867,11 @@ MIRType
 Undefined
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -30322,6 +30932,7 @@ length
 =
 1
 )
+{
 target
 =
 targets
@@ -30333,6 +30944,7 @@ ref
 0
 ]
 ;
+}
 uint32_t
 targetArgs
 =
@@ -30355,6 +30967,7 @@ isNativeWithCppEntry
 (
 )
 )
+{
 targetArgs
 =
 Max
@@ -30375,6 +30988,7 @@ argc
 )
 )
 ;
+}
 bool
 isDOMCall
 =
@@ -30510,6 +31124,7 @@ if
 !
 call
 )
+{
 return
 abort
 (
@@ -30519,6 +31134,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 callInfo
@@ -30527,6 +31143,7 @@ constructing
 (
 )
 )
+{
 call
 -
 >
@@ -30542,6 +31159,7 @@ getNewTarget
 )
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 target
@@ -30608,6 +31226,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -30617,6 +31236,7 @@ AbortReason
 Alloc
 )
 ;
+}
 call
 -
 >
@@ -30649,6 +31269,7 @@ i
 -
 -
 )
+{
 call
 -
 >
@@ -30665,6 +31286,7 @@ i
 )
 )
 ;
+}
 call
 -
 >
@@ -30705,6 +31327,7 @@ if
 !
 create
 )
+{
 return
 abort
 (
@@ -30722,6 +31345,7 @@ call
 "
 )
 ;
+}
 callInfo
 .
 thisArg
@@ -30803,10 +31427,12 @@ target
 callInfo
 )
 )
+{
 needArgCheck
 =
 true
 ;
+}
 if
 (
 target
@@ -30826,16 +31452,19 @@ realm
 (
 )
 )
+{
 maybeCrossRealm
 =
 true
 ;
+}
 }
 if
 (
 !
 needArgCheck
 )
+{
 call
 -
 >
@@ -30843,11 +31472,13 @@ disableArgCheck
 (
 )
 ;
+}
 if
 (
 !
 maybeCrossRealm
 )
+{
 call
 -
 >
@@ -30855,6 +31486,7 @@ setNotCrossRealm
 (
 )
 ;
+}
 }
 call
 -
@@ -30921,9 +31553,11 @@ returnType
 =
 JSVAL_TYPE_UNKNOWN
 )
+{
 return
 true
 ;
+}
 if
 (
 jitinfo
@@ -30936,9 +31570,11 @@ returnType
 =
 JSVAL_TYPE_OBJECT
 )
+{
 return
 true
 ;
+}
 return
 MIRTypeFromValueType
 (
@@ -31007,6 +31643,7 @@ ref
 (
 )
 )
+{
 MOZ_ASSERT
 (
 target
@@ -31017,6 +31654,7 @@ isConstructor
 )
 )
 ;
+}
 }
 #
 endif
@@ -31051,6 +31689,7 @@ isEffectful
 (
 )
 )
+{
 MOZ_TRY
 (
 resumeAfter
@@ -31059,6 +31698,7 @@ call
 )
 )
 ;
+}
 TemporaryTypeSet
 *
 types
@@ -31077,6 +31717,7 @@ isCallDOMNative
 (
 )
 )
+{
 return
 pushDOMTypeBarrier
 (
@@ -31095,6 +31736,7 @@ rawJSFunction
 )
 )
 ;
+}
 return
 pushTypeBarrier
 (
@@ -31155,6 +31797,7 @@ append
 target
 )
 )
+{
 return
 abort
 (
@@ -31164,6 +31807,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 return
 makeCall
@@ -31228,6 +31872,7 @@ empty
 (
 )
 )
+{
 return
 jsop_call
 (
@@ -31236,6 +31881,7 @@ false
 false
 )
 ;
+}
 JSFunction
 *
 target
@@ -31250,6 +31896,7 @@ if
 !
 target
 )
+{
 return
 abort
 (
@@ -31268,6 +31915,7 @@ eval
 "
 )
 ;
+}
 if
 (
 script
@@ -31296,6 +31944,7 @@ argc
 =
 1
 )
+{
 return
 abort
 (
@@ -31314,6 +31963,7 @@ argument
 "
 )
 ;
+}
 if
 (
 !
@@ -31325,6 +31975,7 @@ funMaybeLazy
 (
 )
 )
+{
 return
 abort
 (
@@ -31341,6 +31992,7 @@ code
 "
 )
 ;
+}
 if
 (
 info
@@ -31356,6 +32008,7 @@ isArrow
 (
 )
 )
+{
 return
 abort
 (
@@ -31372,6 +32025,7 @@ function
 "
 )
 ;
+}
 CallInfo
 callInfo
 (
@@ -31397,6 +32051,7 @@ current
 argc
 )
 )
+{
 return
 abort
 (
@@ -31406,6 +32061,7 @@ AbortReason
 Alloc
 )
 ;
+}
 callInfo
 .
 setImplicitlyUsedUnchecked
@@ -31684,6 +32340,7 @@ current
 0
 )
 )
+{
 return
 abort
 (
@@ -31693,6 +32350,7 @@ AbortReason
 Alloc
 )
 ;
+}
 return
 makeCall
 (
@@ -31855,10 +32513,12 @@ if
 (
 canTrackOptimization
 )
+{
 startTrackingOptimizations
 (
 )
 ;
+}
 if
 (
 !
@@ -31883,11 +32543,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 compareTrySpecialized
@@ -31904,11 +32566,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 compareTryBitwise
@@ -31925,11 +32589,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 compareTrySpecializedOnBaselineInspector
@@ -31946,11 +32612,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -31967,15 +32635,18 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 canTrackOptimization
 )
+{
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -31984,6 +32655,7 @@ TrackedStrategy
 Compare_Call
 )
 ;
+}
 MCompare
 *
 ins
@@ -32036,6 +32708,7 @@ isEffectful
 (
 )
 )
+{
 MOZ_TRY
 (
 resumeAfter
@@ -32044,14 +32717,17 @@ ins
 )
 )
 ;
+}
 if
 (
 canTrackOptimization
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 return
 Ok
 (
@@ -32102,6 +32778,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -32110,6 +32787,7 @@ TrackedStrategy
 Compare_Character
 )
 ;
+}
 MConstant
 *
 constant
@@ -32206,11 +32884,13 @@ length
 =
 1
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -32240,11 +32920,13 @@ isCharCodeAt
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 char16_t
 charCode
 =
@@ -32418,10 +33100,12 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 *
 emitted
 =
@@ -32565,6 +33249,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -32573,6 +33258,7 @@ TrackedStrategy
 Compare_SpecializedTypes
 )
 ;
+}
 MCompare
 :
 :
@@ -32604,6 +33290,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -32612,6 +33299,7 @@ TrackedOutcome
 SpeculationOnInputTypesFailed
 )
 ;
+}
 return
 Ok
 (
@@ -32677,6 +33365,7 @@ MIRType
 :
 String
 )
+{
 ins
 -
 >
@@ -32684,6 +33373,7 @@ swapOperands
 (
 )
 ;
+}
 else
 if
 (
@@ -32709,6 +33399,7 @@ MIRType
 :
 Null
 )
+{
 ins
 -
 >
@@ -32716,6 +33407,7 @@ swapOperands
 (
 )
 ;
+}
 else
 if
 (
@@ -32741,6 +33433,7 @@ MIRType
 :
 Undefined
 )
+{
 ins
 -
 >
@@ -32748,6 +33441,7 @@ swapOperands
 (
 )
 ;
+}
 else
 if
 (
@@ -32773,6 +33467,7 @@ MIRType
 :
 Boolean
 )
+{
 ins
 -
 >
@@ -32780,6 +33475,7 @@ swapOperands
 (
 )
 ;
+}
 if
 (
 type
@@ -32790,6 +33486,7 @@ MCompare
 :
 Compare_UInt32
 )
+{
 ins
 -
 >
@@ -32797,6 +33494,7 @@ replaceWithUnsignedOperands
 (
 )
 ;
+}
 current
 -
 >
@@ -32828,10 +33526,12 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 *
 emitted
 =
@@ -32887,6 +33587,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -32895,6 +33596,7 @@ TrackedStrategy
 Compare_Bitwise
 )
 ;
+}
 if
 (
 op
@@ -32925,6 +33627,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -32933,6 +33636,7 @@ TrackedOutcome
 RelationalCompare
 )
 ;
+}
 return
 Ok
 (
@@ -32959,6 +33663,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -32967,6 +33672,7 @@ TrackedOutcome
 OperandTypeNotBitwiseComparable
 )
 ;
+}
 return
 Ok
 (
@@ -33015,6 +33721,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -33023,6 +33730,7 @@ TrackedOutcome
 OperandMaybeEmulatesUndefined
 )
 ;
+}
 return
 Ok
 (
@@ -33087,6 +33795,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -33095,6 +33804,7 @@ TrackedOutcome
 LoosyUndefinedNullCompare
 )
 ;
+}
 return
 Ok
 (
@@ -33159,6 +33869,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -33167,6 +33878,7 @@ TrackedOutcome
 LoosyInt32BooleanCompare
 )
 ;
+}
 return
 Ok
 (
@@ -33289,6 +34001,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -33297,6 +34010,7 @@ TrackedOutcome
 CallsValueOf
 )
 ;
+}
 return
 Ok
 (
@@ -33373,10 +34087,12 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 *
 emitted
 =
@@ -33426,11 +34142,13 @@ IsCallPC
 pc
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -33618,11 +34336,13 @@ JitOptions
 .
 disableCacheIR
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 JSOp
@@ -33640,11 +34360,13 @@ IsCallPC
 pc
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MBinaryCache
 *
 stub
@@ -33785,6 +34507,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -33793,6 +34516,7 @@ TrackedStrategy
 NewArray_TemplateObject
 )
 ;
+}
 if
 (
 !
@@ -33803,6 +34527,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -33811,6 +34536,7 @@ TrackedOutcome
 NoTemplateObject
 )
 ;
+}
 return
 Ok
 (
@@ -33864,6 +34590,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -33872,6 +34599,7 @@ TrackedOutcome
 LengthTooBig
 )
 ;
+}
 return
 Ok
 (
@@ -33963,10 +34691,12 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 *
 emitted
 =
@@ -34019,6 +34749,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -34027,6 +34758,7 @@ TrackedStrategy
 NewArray_Call
 )
 ;
+}
 gc
 :
 :
@@ -34140,10 +34872,12 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 *
 emitted
 =
@@ -34277,10 +35011,12 @@ if
 (
 canTrackOptimization
 )
+{
 startTrackingOptimizations
 (
 )
 ;
+}
 MOZ_TRY
 (
 newArrayTryTemplateObject
@@ -34296,11 +35032,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 newArrayTryVM
@@ -34316,11 +35054,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -34502,6 +35242,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -34510,6 +35251,7 @@ TrackedStrategy
 NewObject_TemplateObject
 )
 ;
+}
 if
 (
 !
@@ -34520,6 +35262,7 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -34528,6 +35271,7 @@ TrackedOutcome
 NoTemplateObject
 )
 ;
+}
 return
 Ok
 (
@@ -34561,6 +35305,7 @@ pc
 =
 JSOP_NEWINIT
 )
+{
 mode
 =
 MNewObject
@@ -34568,7 +35313,9 @@ MNewObject
 :
 ObjectLiteral
 ;
+}
 else
+{
 mode
 =
 MNewObject
@@ -34576,6 +35323,7 @@ MNewObject
 :
 ObjectCreate
 ;
+}
 gc
 :
 :
@@ -34668,10 +35416,12 @@ if
 (
 canTrackOptimization
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 *
 emitted
 =
@@ -34910,11 +35660,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 newObjectTryVM
@@ -34929,11 +35681,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -35045,11 +35799,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -35067,11 +35823,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MInitElem
 *
 initElem
@@ -35219,11 +35977,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -35241,11 +36001,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MCallInitElementArray
 *
 initElem
@@ -35447,10 +36209,12 @@ constraints
 OBJECT_FLAG_NON_PACKED
 )
 )
+{
 needStub
 =
 true
 ;
+}
 }
 else
 if
@@ -35683,6 +36447,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -35701,6 +36466,7 @@ value
 )
 )
 ;
+}
 if
 (
 obj
@@ -35979,10 +36745,12 @@ containsPure
 name
 )
 )
+{
 useFastPath
 =
 true
 ;
+}
 }
 else
 {
@@ -36442,6 +37210,7 @@ if
 !
 block
 )
+{
 return
 abort
 (
@@ -36451,6 +37220,7 @@ AbortReason
 Alloc
 )
 ;
+}
 block
 -
 >
@@ -36512,6 +37282,7 @@ if
 !
 block
 )
+{
 return
 abort
 (
@@ -36521,6 +37292,7 @@ AbortReason
 Alloc
 )
 ;
+}
 block
 -
 >
@@ -36585,6 +37357,7 @@ if
 !
 block
 )
+{
 return
 abort
 (
@@ -36594,6 +37367,7 @@ AbortReason
 Alloc
 )
 ;
+}
 block
 -
 >
@@ -36675,6 +37449,7 @@ if
 !
 block
 )
+{
 return
 abort
 (
@@ -36684,6 +37459,7 @@ AbortReason
 Alloc
 )
 ;
+}
 block
 -
 >
@@ -36822,6 +37598,7 @@ hasScriptCounts
 (
 )
 )
+{
 preheader
 -
 >
@@ -36838,6 +37615,7 @@ beforeLoopEntry
 )
 )
 ;
+}
 MOsrEntry
 *
 entry
@@ -36950,6 +37728,7 @@ noScriptRval
 (
 )
 )
+{
 returnValue
 =
 MOsrReturnValue
@@ -36963,7 +37742,9 @@ alloc
 entry
 )
 ;
+}
 else
+{
 returnValue
 =
 MConstant
@@ -36979,6 +37760,7 @@ UndefinedValue
 )
 )
 ;
+}
 osrBlock
 -
 >
@@ -37035,6 +37817,7 @@ if
 (
 needsArgsObj
 )
+{
 argsObj
 =
 MOsrArgumentsObject
@@ -37048,7 +37831,9 @@ alloc
 entry
 )
 ;
+}
 else
+{
 argsObj
 =
 MConstant
@@ -37064,6 +37849,7 @@ UndefinedValue
 )
 )
 ;
+}
 osrBlock
 -
 >
@@ -37229,6 +38015,7 @@ formalIsAliased
 i
 )
 )
+{
 osrv
 =
 MConstant
@@ -37244,7 +38031,9 @@ UndefinedValue
 )
 )
 ;
+}
 else
+{
 osrv
 =
 MGetArgumentsObjectArg
@@ -37259,6 +38048,7 @@ argsObj
 i
 )
 ;
+}
 osrBlock
 -
 >
@@ -37385,6 +38175,7 @@ if
 !
 osrv
 )
+{
 return
 abort
 (
@@ -37394,6 +38185,7 @@ AbortReason
 Alloc
 )
 ;
+}
 osrBlock
 -
 >
@@ -37502,6 +38294,7 @@ if
 !
 osrv
 )
+{
 return
 abort
 (
@@ -37511,6 +38304,7 @@ AbortReason
 Alloc
 )
 ;
+}
 osrBlock
 -
 >
@@ -37571,6 +38365,7 @@ linkOsrValues
 start
 )
 )
+{
 return
 abort
 (
@@ -37580,6 +38375,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MOZ_ASSERT
 (
 predecessor
@@ -37703,8 +38499,10 @@ isSlotAliased
 i
 )
 )
+{
 continue
 ;
+}
 def
 -
 >
@@ -37763,6 +38561,7 @@ alloc
 osrBlock
 )
 )
+{
 return
 abort
 (
@@ -37772,6 +38571,7 @@ AbortReason
 Alloc
 )
 ;
+}
 graph
 (
 )
@@ -37813,6 +38613,7 @@ if
 (
 canOsr
 )
+{
 stackPhiCount
 =
 predecessor
@@ -37830,6 +38631,7 @@ firstStackSlot
 (
 )
 ;
+}
 MBasicBlock
 *
 block
@@ -37858,6 +38660,7 @@ if
 !
 block
 )
+{
 return
 abort
 (
@@ -37867,6 +38670,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 osr
@@ -37967,8 +38771,10 @@ isSlotAliased
 i
 )
 )
+{
 continue
 ;
+}
 MPhi
 *
 phi
@@ -38047,6 +38853,7 @@ thisSlot
 (
 )
 )
+{
 existingType
 =
 baselineFrame_
@@ -38054,6 +38861,7 @@ baselineFrame_
 >
 thisType
 ;
+}
 else
 if
 (
@@ -38067,6 +38875,7 @@ nargs
 (
 )
 )
+{
 existingType
 =
 baselineFrame_
@@ -38077,7 +38886,9 @@ argTypes
 arg
 ]
 ;
+}
 else
+{
 existingType
 =
 baselineFrame_
@@ -38088,6 +38899,7 @@ varTypes
 var
 ]
 ;
+}
 if
 (
 existingType
@@ -38096,6 +38908,7 @@ isSingletonUnchecked
 (
 )
 )
+{
 checkNurseryObject
 (
 existingType
@@ -38105,6 +38918,7 @@ singleton
 )
 )
 ;
+}
 LifoAlloc
 *
 lifoAlloc
@@ -38138,6 +38952,7 @@ if
 !
 typeSet
 )
+{
 return
 abort
 (
@@ -38147,6 +38962,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MIRType
 type
 =
@@ -38172,6 +38988,7 @@ type
 typeSet
 )
 )
+{
 return
 abort
 (
@@ -38181,6 +38998,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 }
 return
@@ -38304,6 +39122,7 @@ if
 !
 resumePoint
 )
+{
 return
 abort
 (
@@ -38313,6 +39132,7 @@ AbortReason
 Alloc
 )
 ;
+}
 ins
 -
 >
@@ -38400,11 +39220,13 @@ loopDepth_
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MNop
 *
 ins
@@ -38498,8 +39320,10 @@ emptyResultTypeSet
 (
 )
 )
+{
 continue
 ;
+}
 TemporaryTypeSet
 *
 types
@@ -38625,6 +39449,7 @@ maybeTypeDescr
 (
 )
 )
+{
 return
 object
 -
@@ -38654,6 +39479,7 @@ names
 id
 )
 ;
+}
 const
 Class
 *
@@ -38677,6 +39503,7 @@ ArrayObject
 :
 class_
 )
+{
 return
 JSID_IS_ATOM
 (
@@ -38696,6 +39523,7 @@ names
 length
 )
 ;
+}
 JSObject
 *
 singleton
@@ -38764,8 +39592,10 @@ isLastLevel
 curLevel
 )
 )
+{
 return
 ;
+}
 IonBuilder
 *
 topBuilder
@@ -38878,9 +39708,11 @@ getClass
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 TypeSet
 :
 :
@@ -38903,6 +39735,7 @@ if
 (
 analysisContext
 )
+{
 objKey
 -
 >
@@ -38912,6 +39745,7 @@ analysisContext
 id
 )
 ;
+}
 if
 (
 objKey
@@ -38921,9 +39755,11 @@ unknownProperties
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 HeapTypeSetKey
 property
 =
@@ -38956,6 +39792,7 @@ isSingleton
 (
 )
 )
+{
 return
 property
 .
@@ -38966,6 +39803,7 @@ constraints
 )
 )
 ;
+}
 return
 nullptr
 ;
@@ -38979,9 +39817,11 @@ objKey
 id
 )
 )
+{
 return
 nullptr
 ;
+}
 obj
 =
 checkNurseryObject
@@ -39036,9 +39876,11 @@ unknownObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 objectSingleton
@@ -39058,6 +39900,7 @@ if
 (
 objectSingleton
 )
+{
 return
 testSingletonProperty
 (
@@ -39065,6 +39908,7 @@ objectSingleton
 id
 )
 ;
+}
 MIRType
 objType
 =
@@ -39088,6 +39932,7 @@ Value
 &
 types
 )
+{
 objType
 =
 types
@@ -39097,6 +39942,7 @@ getKnownMIRType
 (
 )
 ;
+}
 JSProtoKey
 key
 ;
@@ -39171,9 +40017,11 @@ if
 !
 types
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 singleton
@@ -39221,12 +40069,15 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 if
 (
 analysisContext
 )
+{
 key
 -
 >
@@ -39236,6 +40087,7 @@ analysisContext
 id
 )
 ;
+}
 const
 Class
 *
@@ -39264,9 +40116,11 @@ key
 id
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 key
@@ -39276,9 +40130,11 @@ unknownProperties
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 HeapTypeSetKey
 property
 =
@@ -39301,9 +40157,11 @@ constraints
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 JSObject
@@ -39340,9 +40198,11 @@ if
 !
 thisSingleton
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 singleton
@@ -39355,9 +40215,11 @@ thisSingleton
 =
 singleton
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -39404,6 +40266,7 @@ maybeGetPrototype
 key
 )
 )
+{
 return
 testSingletonProperty
 (
@@ -39411,6 +40274,7 @@ proto
 id
 )
 ;
+}
 return
 nullptr
 ;
@@ -39471,9 +40335,11 @@ MIRType
 :
 Object
 )
+{
 return
 false
 ;
+}
 for
 (
 unsigned
@@ -39518,8 +40384,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 while
 (
 true
@@ -39536,6 +40404,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -39545,6 +40414,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 !
@@ -39566,9 +40436,11 @@ unknownProperties
 (
 )
 )
+{
 return
 false
 ;
+}
 const
 Class
 *
@@ -39597,9 +40469,11 @@ key
 id
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 key
@@ -39673,15 +40547,19 @@ constraints
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 ownProperty
 )
+{
 break
 ;
+}
 JSObject
 *
 proto
@@ -39705,8 +40583,10 @@ if
 !
 proto
 )
+{
 break
 ;
+}
 key
 =
 TypeSet
@@ -39781,6 +40661,7 @@ if
 !
 replace
 )
+{
 return
 abort
 (
@@ -39790,6 +40671,7 @@ AbortReason
 Alloc
 )
 ;
+}
 current
 -
 >
@@ -39832,9 +40714,11 @@ BytecodeIsPopped
 pc
 )
 )
+{
 return
 def
 ;
+}
 if
 (
 kind
@@ -39882,9 +40766,11 @@ unknown
 (
 )
 )
+{
 return
 def
 ;
+}
 MTypeBarrier
 *
 barrier
@@ -39914,11 +40800,13 @@ if
 (
 pbarrier
 )
+{
 *
 pbarrier
 =
 barrier
 ;
+}
 if
 (
 barrier
@@ -39934,6 +40822,7 @@ MIRType
 :
 Undefined
 )
+{
 return
 constant
 (
@@ -39942,6 +40831,7 @@ UndefinedValue
 )
 )
 ;
+}
 if
 (
 barrier
@@ -39957,6 +40847,7 @@ MIRType
 :
 Null
 )
+{
 return
 constant
 (
@@ -39965,6 +40856,7 @@ NullValue
 )
 )
 ;
+}
 return
 barrier
 ;
@@ -40415,9 +41307,11 @@ if
 !
 shape
 )
+{
 return
 false
 ;
+}
 return
 globalLexical
 .
@@ -40557,11 +41451,13 @@ if
 (
 lexicalCheck
 )
+{
 return
 Ok
 (
 )
 ;
+}
 TypeSet
 :
 :
@@ -40584,6 +41480,7 @@ if
 (
 analysisContext
 )
+{
 staticKey
 -
 >
@@ -40596,6 +41493,7 @@ name
 )
 )
 ;
+}
 if
 (
 staticKey
@@ -40605,11 +41503,13 @@ unknownProperties
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 HeapTypeSetKey
 property
 =
@@ -40671,11 +41571,13 @@ staticObject
 name
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 *
 emitted
 =
@@ -40942,6 +41844,7 @@ BarrierKind
 :
 NoBarrier
 )
+{
 rvalType
 =
 MIRType
@@ -40949,6 +41852,7 @@ MIRType
 :
 Value
 ;
+}
 return
 loadSlot
 (
@@ -40996,9 +41900,11 @@ nurseryExists
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 value
@@ -41012,9 +41918,11 @@ MIRType
 Object
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 value
@@ -41036,9 +41944,11 @@ canNurseryAllocateStrings
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -41163,12 +42073,14 @@ unknownProperties
 (
 )
 )
+{
 return
 jsop_setprop
 (
 name
 )
 ;
+}
 HeapTypeSetKey
 property
 =
@@ -41245,12 +42157,14 @@ property
 value
 )
 )
+{
 return
 jsop_setprop
 (
 name
 )
 ;
+}
 if
 (
 isGlobalLexical
@@ -41262,12 +42176,14 @@ staticObject
 name
 )
 )
+{
 return
 jsop_setprop
 (
 name
 )
 ;
+}
 current
 -
 >
@@ -41312,6 +42228,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -41330,6 +42247,7 @@ value
 )
 )
 ;
+}
 MIRType
 slotType
 =
@@ -41360,10 +42278,12 @@ MIRType
 :
 Value
 )
+{
 slotType
 =
 knownType
 ;
+}
 bool
 needsPreBarrier
 =
@@ -41502,6 +42422,7 @@ if
 (
 analysisContext
 )
+{
 lexicalKey
 -
 >
@@ -41511,6 +42432,7 @@ analysisContext
 id
 )
 ;
+}
 Maybe
 <
 HeapTypeSetKey
@@ -41527,6 +42449,7 @@ unknownProperties
 (
 )
 )
+{
 lexicalProperty
 .
 emplace
@@ -41540,6 +42463,7 @@ id
 )
 )
 ;
+}
 Shape
 *
 shape
@@ -41644,6 +42568,7 @@ isSome
 (
 )
 )
+{
 MOZ_ALWAYS_FALSE
 (
 lexicalProperty
@@ -41657,10 +42582,13 @@ constraints
 )
 )
 ;
+}
 else
+{
 return
 nullptr
 ;
+}
 }
 obj
 =
@@ -41816,11 +42744,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -41878,11 +42808,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 }
 return
@@ -41932,6 +42864,7 @@ hasNonSyntacticScope
 (
 )
 )
+{
 object
 =
 constant
@@ -41953,7 +42886,9 @@ lexicalEnvironment
 )
 )
 ;
+}
 else
+{
 object
 =
 current
@@ -41963,6 +42898,7 @@ environmentChain
 (
 )
 ;
+}
 MGetNameCache
 *
 ins
@@ -42133,6 +43069,7 @@ empty
 (
 )
 )
+{
 types
 -
 >
@@ -42154,6 +43091,7 @@ lifoAlloc
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 types
@@ -42439,6 +43377,7 @@ hasNonSyntacticScope
 (
 )
 )
+{
 envChain
 =
 constant
@@ -42460,7 +43399,9 @@ lexicalEnvironment
 )
 )
 ;
+}
 else
+{
 envChain
 =
 current
@@ -42470,6 +43411,7 @@ environmentChain
 (
 )
 ;
+}
 MBindNameCache
 *
 ins
@@ -42613,6 +43555,7 @@ MIRType
 :
 Null
 )
+{
 knownType
 =
 MIRType
@@ -42620,6 +43563,7 @@ MIRType
 :
 Value
 ;
+}
 if
 (
 needsHoleCheck
@@ -42633,6 +43577,7 @@ allowTypedElementHoleCheck
 (
 )
 )
+{
 knownType
 =
 MIRType
@@ -42640,6 +43585,7 @@ MIRType
 :
 Value
 ;
+}
 return
 knownType
 ;
@@ -42851,11 +43797,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -42879,11 +43827,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -42907,11 +43857,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 script
@@ -42974,6 +43926,7 @@ MIRType
 :
 Object
 )
+{
 obj
 =
 convertUnboxedObjects
@@ -42981,6 +43934,7 @@ convertUnboxedObjects
 obj
 )
 ;
+}
 if
 (
 !
@@ -43004,11 +43958,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -43032,11 +43988,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -43060,11 +44018,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -43088,11 +44048,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -43116,11 +44078,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -43144,11 +44108,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 trackOptimizationAttempt
 (
@@ -43219,11 +44185,13 @@ isUseless
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -43233,11 +44201,13 @@ ofArrayKind
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 TypedObjectPrediction
 elemPrediction
 =
@@ -43255,11 +44225,13 @@ isUseless
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 uint32_t
 elemSize
 ;
@@ -43274,11 +44246,13 @@ hasKnownSize
 elemSize
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 switch
 (
 elemPrediction
@@ -43593,11 +44567,13 @@ objPrediction
 indexAsByteOffset
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationSuccess
 (
 )
@@ -43689,11 +44665,13 @@ objPrediction
 indexAsByteOffset
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationSuccess
 (
 )
@@ -44006,6 +44984,7 @@ if
 (
 bailOnUndefined
 )
+{
 barrier
 =
 BarrierKind
@@ -44013,6 +44992,7 @@ BarrierKind
 :
 TypeTagOnly
 ;
+}
 load
 =
 MLoadElement
@@ -44071,6 +45051,7 @@ NullType
 )
 )
 )
+{
 nullBehavior
 =
 MLoadUnboxedObjectOrNull
@@ -44078,7 +45059,9 @@ MLoadUnboxedObjectOrNull
 :
 BailOnNull
 ;
+}
 else
+{
 nullBehavior
 =
 MLoadUnboxedObjectOrNull
@@ -44086,6 +45069,7 @@ MLoadUnboxedObjectOrNull
 :
 HandleNull
 ;
+}
 load
 =
 MLoadUnboxedObjectOrNull
@@ -44249,11 +45233,13 @@ objPrediction
 indexAsByteOffset
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 return
 pushDerivedTypedObject
 (
@@ -44326,6 +45312,7 @@ baseByteOffset
 1
 )
 )
+{
 return
 abort
 (
@@ -44345,6 +45332,7 @@ offset
 "
 )
 ;
+}
 MDefinition
 *
 offset
@@ -44635,11 +45623,13 @@ toJSValue
 id
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 id
@@ -44650,11 +45640,13 @@ IdToTypeId
 id
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 TemporaryTypeSet
 *
 types
@@ -45270,11 +46262,13 @@ isAtom
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 obj
 -
 >
@@ -45576,11 +46570,13 @@ inliningDepth_
 >
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 obj
@@ -45596,11 +46592,13 @@ MIRType
 :
 MagicOptimizedArguments
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -45799,11 +46797,13 @@ inliningDepth_
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 obj
@@ -45819,11 +46819,13 @@ MIRType
 :
 MagicOptimizedArguments
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MConstant
 *
 indexConst
@@ -45854,11 +46856,13 @@ MIRType
 :
 Int32
 )
+{
 return
 Ok
 (
 )
 ;
+}
 obj
 -
 >
@@ -45922,6 +46926,7 @@ id
 =
 0
 )
+{
 current
 -
 >
@@ -45936,7 +46941,9 @@ id
 )
 )
 ;
+}
 else
+{
 pushConstant
 (
 UndefinedValue
@@ -45944,6 +46951,7 @@ UndefinedValue
 )
 )
 ;
+}
 trackOptimizationSuccess
 (
 )
@@ -45995,11 +47003,13 @@ inliningDepth_
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 obj
@@ -46015,11 +47025,13 @@ MIRType
 :
 MagicOptimizedArguments
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -46033,11 +47045,13 @@ type
 )
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 inlineCallInfo_
@@ -46169,6 +47183,7 @@ if
 !
 args
 )
+{
 return
 abort
 (
@@ -46178,6 +47193,7 @@ AbortReason
 Alloc
 )
 ;
+}
 current
 -
 >
@@ -46542,6 +47558,7 @@ MIRType
 :
 Double
 )
+{
 ins
 -
 >
@@ -46550,6 +47567,7 @@ setResultType
 knownType
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -46607,9 +47625,11 @@ getObjectCount
 =
 0
 )
+{
 return
 nullptr
 ;
+}
 TemporaryTypeSet
 *
 acc
@@ -46651,9 +47671,11 @@ getObjectCount
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 unsigned
@@ -46699,9 +47721,11 @@ unknownProperties
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 HeapTypeSetKey
 property
 =
@@ -46736,9 +47760,11 @@ unknown
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 properties
 .
 infallibleAppend
@@ -46788,9 +47814,11 @@ if
 !
 acc
 )
+{
 return
 nullptr
 ;
+}
 }
 for
 (
@@ -46817,6 +47845,7 @@ i
 +
 +
 )
+{
 i
 -
 >
@@ -46827,6 +47856,7 @@ constraints
 )
 )
 ;
+}
 return
 acc
 ;
@@ -46974,6 +48004,7 @@ BarrierKind
 :
 NoBarrier
 )
+{
 knownType
 =
 GetElemKnownType
@@ -46982,6 +48013,7 @@ needsHoleCheck
 types
 )
 ;
+}
 MInstruction
 *
 idInt32
@@ -47156,6 +48188,7 @@ if
 (
 loadDouble
 )
+{
 elements
 =
 addConvertElementsToDoubles
@@ -47163,6 +48196,7 @@ addConvertElementsToDoubles
 elements
 )
 ;
+}
 MInstruction
 *
 load
@@ -47424,6 +48458,7 @@ MIRType
 :
 Object
 )
+{
 tarr
 =
 &
@@ -47434,6 +48469,7 @@ toObject
 (
 )
 ;
+}
 }
 else
 if
@@ -47563,6 +48599,7 @@ TypedArrayObject
 (
 )
 )
+{
 tarrKey
 -
 >
@@ -47573,6 +48610,7 @@ constraints
 )
 )
 ;
+}
 obj
 -
 >
@@ -47641,6 +48679,7 @@ checking
 =
 DoBoundsCheck
 )
+{
 *
 index
 =
@@ -47652,6 +48691,7 @@ index
 length
 )
 ;
+}
 *
 elements
 =
@@ -47716,6 +48756,7 @@ checking
 =
 DoBoundsCheck
 )
+{
 *
 index
 =
@@ -47727,6 +48768,7 @@ index
 length
 )
 ;
+}
 *
 elements
 =
@@ -47996,6 +49038,7 @@ Int32Type
 )
 )
 )
+{
 barrier
 =
 BarrierKind
@@ -48003,6 +49046,7 @@ BarrierKind
 :
 NoBarrier
 ;
+}
 break
 ;
 case
@@ -48021,6 +49065,7 @@ if
 (
 allowDouble
 )
+{
 barrier
 =
 BarrierKind
@@ -48028,6 +49073,7 @@ BarrierKind
 :
 NoBarrier
 ;
+}
 break
 ;
 default
@@ -48287,11 +49333,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -48338,11 +49386,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -48365,11 +49415,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -48394,11 +49446,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 if
 (
@@ -48479,11 +49533,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MInstruction
 *
 ins
@@ -48584,11 +49640,13 @@ isUseless
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -48598,11 +49656,13 @@ ofArrayKind
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 TypedObjectPrediction
 elemPrediction
 =
@@ -48620,11 +49680,13 @@ isUseless
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 uint32_t
 elemSize
 ;
@@ -48639,11 +49701,13 @@ hasKnownSize
 elemSize
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 switch
 (
 elemPrediction
@@ -48790,11 +49854,13 @@ objPrediction
 indexAsByteOffset
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 return
 setPropTryReferenceTypedObjectValue
 (
@@ -48882,11 +49948,13 @@ objPrediction
 indexAsByteOffset
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 return
 setPropTryScalarTypedObjectValue
 (
@@ -49041,6 +50109,7 @@ MIRType
 MagicHole
 )
 {
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -49049,6 +50118,7 @@ TrackedOutcome
 InitHole
 )
 ;
+}
 return
 Ok
 (
@@ -49321,11 +50391,13 @@ MIRType
 :
 MagicOptimizedArguments
 )
+{
 return
 Ok
 (
 )
 ;
+}
 return
 abort
 (
@@ -49420,6 +50492,7 @@ MIRType
 MagicHole
 )
 {
+{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -49428,6 +50501,7 @@ TrackedOutcome
 InitHole
 )
 ;
+}
 return
 Ok
 (
@@ -49600,6 +50674,7 @@ pc
 )
 )
 )
+{
 current
 -
 >
@@ -49608,6 +50683,7 @@ push
 value
 )
 ;
+}
 MOZ_TRY
 (
 resumeAfter
@@ -49725,11 +50801,13 @@ if
 (
 hasExtraIndexedProperty
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 IsPropertyInitOp
@@ -49741,11 +50819,13 @@ pc
 )
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 *
 emitted
@@ -49786,6 +50866,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -49805,6 +50886,7 @@ id
 )
 )
 ;
+}
 obj
 =
 addMaybeCopyElementsForWrite
@@ -50160,6 +51242,7 @@ pc
 )
 )
 )
+{
 current
 -
 >
@@ -50168,6 +51251,7 @@ push
 value
 )
 ;
+}
 MOZ_TRY
 (
 resumeAfter
@@ -50199,6 +51283,7 @@ constraints
 JSID_VOID
 )
 )
+{
 common
 -
 >
@@ -50206,6 +51291,7 @@ setNeedsBarrier
 (
 )
 ;
+}
 if
 (
 elementType
@@ -50219,6 +51305,7 @@ None
 &
 packed
 )
+{
 common
 -
 >
@@ -50227,6 +51314,7 @@ setElementType
 elementType
 )
 ;
+}
 }
 return
 Ok
@@ -50284,6 +51372,7 @@ if
 (
 expectOOB
 )
+{
 spew
 (
 "
@@ -50294,6 +51383,7 @@ SetElem
 "
 )
 ;
+}
 MInstruction
 *
 idInt32
@@ -50490,11 +51580,13 @@ jsop_length_fastPath
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 PropertyName
 *
 name
@@ -50552,9 +51644,11 @@ MIRType
 :
 Int32
 )
+{
 return
 false
 ;
+}
 MDefinition
 *
 obj
@@ -50575,9 +51669,11 @@ shouldAbortOnPreliminaryGroups
 obj
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 obj
@@ -50605,9 +51701,11 @@ MIRType
 Object
 )
 )
+{
 return
 false
 ;
+}
 current
 -
 >
@@ -50833,9 +51931,11 @@ constraints
 OBJECT_FLAG_TYPED_OBJECT_HAS_DETACHED_BUFFER
 )
 )
+{
 return
 false
 ;
+}
 MInstruction
 *
 length
@@ -51497,6 +52597,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -51506,6 +52607,7 @@ AbortReason
 Alloc
 )
 ;
+}
 index
 =
 MConstant
@@ -51579,6 +52681,7 @@ needsPostBarrier
 arg
 )
 )
+{
 current
 -
 >
@@ -51597,6 +52700,7 @@ arg
 )
 )
 ;
+}
 }
 MSetArrayLength
 *
@@ -52055,8 +53159,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 if
 (
 key
@@ -52373,8 +53479,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 if
 (
 key
@@ -52748,6 +53856,7 @@ allowSuperProperty
 (
 )
 )
+{
 return
 abort
 (
@@ -52765,6 +53874,7 @@ methods
 "
 )
 ;
+}
 auto
 *
 homeObject
@@ -53001,6 +54111,7 @@ instrumentedProfiling
 (
 )
 )
+{
 return
 abort
 (
@@ -53020,6 +54131,7 @@ x86
 "
 )
 ;
+}
 #
 endif
 auto
@@ -53120,9 +54232,11 @@ unknownObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 *
 guardGlobal
 =
@@ -53175,8 +54289,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 while
 (
 key
@@ -53191,9 +54307,11 @@ unknownProperties
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 const
 Class
 *
@@ -53214,9 +54332,11 @@ ClassHasEffectlessLookup
 clasp
 )
 )
+{
 return
 nullptr
 ;
+}
 JSObject
 *
 singleton
@@ -53267,9 +54387,11 @@ GlobalObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 *
 guardGlobal
 =
@@ -53288,9 +54410,11 @@ getOpsGetProperty
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -53304,9 +54428,11 @@ getOpsSetProperty
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 singleton
@@ -53325,9 +54451,11 @@ NativeObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 NativeObject
 *
 singletonNative
@@ -53384,9 +54512,11 @@ getterOrUndefined
 =
 getterSetterVal
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -53402,19 +54532,23 @@ setterOrUndefined
 =
 getterSetterVal
 )
+{
 return
 nullptr
 ;
+}
 }
 if
 (
 !
 foundProto
 )
+{
 foundProto
 =
 singletonNative
 ;
+}
 else
 if
 (
@@ -53423,9 +54557,11 @@ foundProto
 =
 singletonNative
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -53475,9 +54611,11 @@ nonDataProperty
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 if
 (
@@ -53626,8 +54764,10 @@ i
 =
 foundProto
 )
+{
 continue
 ;
+}
 TypeSet
 :
 :
@@ -53648,8 +54788,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 while
 (
 true
@@ -53698,8 +54840,10 @@ TaggedProto
 foundProto
 )
 )
+{
 break
 ;
+}
 key
 =
 TypeSet
@@ -53915,9 +55059,11 @@ configurable
 (
 )
 )
+{
 return
 true
 ;
+}
 MInstruction
 *
 wrapper
@@ -54018,11 +55164,13 @@ baseFlags
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 for
 (
 unsigned
@@ -54057,11 +55205,13 @@ i
 =
 nullptr
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 if
 (
@@ -54084,11 +55234,13 @@ unknownObject
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 unsigned
 int
 objCount
@@ -54107,11 +55259,13 @@ objCount
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 InlinePropertyTable
 *
 inlinePropTable
@@ -54132,6 +55286,7 @@ if
 !
 inlinePropTable
 )
+{
 return
 abort
 (
@@ -54141,6 +55296,7 @@ AbortReason
 Alloc
 )
 ;
+}
 for
 (
 unsigned
@@ -54175,8 +55331,10 @@ if
 !
 group
 )
+{
 continue
 ;
+}
 TypeSet
 :
 :
@@ -54217,8 +55375,10 @@ isObject
 (
 )
 )
+{
 continue
 ;
+}
 JSObject
 *
 proto
@@ -54268,8 +55428,10 @@ name
 )
 )
 )
+{
 continue
 ;
+}
 HeapTypeSetKey
 ownTypes
 =
@@ -54295,8 +55457,10 @@ constraints
 )
 )
 )
+{
 continue
 ;
+}
 JSObject
 *
 singleton
@@ -54327,8 +55491,10 @@ JSFunction
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -54346,8 +55512,10 @@ singleton
 )
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -54372,6 +55540,7 @@ JSFunction
 )
 )
 )
+{
 return
 abort
 (
@@ -54381,6 +55550,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 if
 (
@@ -54422,6 +55592,7 @@ numEntries
 >
 0
 )
+{
 JitSpew
 (
 JitSpew_Inlining
@@ -54452,6 +55623,7 @@ int
 objCount
 )
 ;
+}
 #
 endif
 if
@@ -54499,6 +55671,7 @@ if
 !
 resumePoint
 )
+{
 return
 abort
 (
@@ -54508,6 +55681,7 @@ AbortReason
 Alloc
 )
 ;
+}
 inlinePropTable
 -
 >
@@ -54565,9 +55739,11 @@ invalidatedIdempotentCache
 (
 )
 )
+{
 return
 true
 ;
+}
 builder
 =
 builder
@@ -54855,6 +56031,7 @@ if
 (
 needsBarrier
 )
+{
 store
 -
 >
@@ -54862,6 +56039,7 @@ setNeedsBarrier
 (
 )
 ;
+}
 return
 resumeAfter
 (
@@ -54931,6 +56109,7 @@ if
 (
 needsBarrier
 )
+{
 store
 -
 >
@@ -54938,6 +56117,7 @@ setNeedsBarrier
 (
 )
 ;
+}
 if
 (
 slotType
@@ -54948,6 +56128,7 @@ MIRType
 :
 None
 )
+{
 store
 -
 >
@@ -54956,6 +56137,7 @@ setSlotType
 slotType
 )
 ;
+}
 return
 resumeAfter
 (
@@ -55054,9 +56236,11 @@ unknownObject
 (
 )
 )
+{
 return
 false
 ;
+}
 bool
 preliminary
 =
@@ -55103,8 +56287,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 if
 (
 ObjectGroup
@@ -55172,9 +56358,11 @@ MIRType
 :
 Value
 )
+{
 return
 def
 ;
+}
 MIRType
 type
 =
@@ -55206,9 +56394,11 @@ mightBeType
 type
 )
 )
+{
 return
 def
 ;
+}
 MUnbox
 *
 unbox
@@ -55390,11 +56580,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55418,11 +56610,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 obj
 =
@@ -55446,6 +56640,7 @@ MIRType
 :
 Object
 )
+{
 obj
 =
 convertUnboxedObjects
@@ -55453,6 +56648,7 @@ convertUnboxedObjects
 obj
 )
 ;
+}
 BarrierKind
 barrier
 =
@@ -55505,11 +56701,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 else
 {
@@ -55628,11 +56826,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 current
 -
@@ -55686,11 +56886,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -55726,11 +56928,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55758,11 +56962,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55788,11 +56994,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55818,11 +57026,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55847,11 +57057,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55877,11 +57089,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55906,11 +57120,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55936,11 +57152,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -55964,11 +57182,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 trackOptimizationAttempt
 (
@@ -56113,6 +57333,7 @@ if
 !
 types
 )
+{
 return
 abort
 (
@@ -56122,6 +57343,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MFilterTypeSet
 *
 filter
@@ -56545,11 +57767,13 @@ pc
 =
 JSOP_LENGTH
 )
+{
 return
 Ok
 (
 )
 ;
+}
 bool
 isOptimizedArgs
 =
@@ -56570,11 +57794,13 @@ if
 !
 isOptimizedArgs
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationSuccess
 (
 )
@@ -56698,11 +57924,13 @@ names
 .
 callee
 )
+{
 return
 Ok
 (
 )
 ;
+}
 bool
 isOptimizedArgs
 =
@@ -56723,11 +57951,13 @@ if
 !
 isOptimizedArgs
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 script
@@ -57064,11 +58294,13 @@ fieldIndex
 fieldMutable
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 switch
 (
 fieldPrediction
@@ -57213,11 +58445,13 @@ constraints
 OBJECT_FLAG_TYPED_OBJECT_HAS_DETACHED_BUFFER
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationSuccess
 (
 )
@@ -57245,6 +58479,7 @@ add
 fieldOffset
 )
 )
+{
 return
 abort
 (
@@ -57261,6 +58496,7 @@ offsets
 "
 )
 ;
+}
 return
 pushScalarLoadFromTypedObject
 (
@@ -57342,11 +58578,13 @@ constraints
 OBJECT_FLAG_TYPED_OBJECT_HAS_DETACHED_BUFFER
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationSuccess
 (
 )
@@ -57374,6 +58612,7 @@ add
 fieldOffset
 )
 )
+{
 return
 abort
 (
@@ -57390,6 +58629,7 @@ offsets
 "
 )
 ;
+}
 return
 pushReferenceLoadFromTypedObject
 (
@@ -57462,11 +58702,13 @@ constraints
 OBJECT_FLAG_TYPED_OBJECT_HAS_DETACHED_BUFFER
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MDefinition
 *
 type
@@ -57504,6 +58746,7 @@ add
 fieldOffset
 )
 )
+{
 return
 abort
 (
@@ -57520,6 +58763,7 @@ offsets
 "
 )
 ;
+}
 return
 pushDerivedTypedObject
 (
@@ -57576,9 +58820,11 @@ objectOrSentinel
 (
 )
 )
+{
 return
 obj
 ;
+}
 BaselineInspector
 :
 :
@@ -57645,8 +58891,10 @@ isGroup
 (
 )
 )
+{
 continue
 ;
+}
 AutoSweepObjectGroup
 sweep
 (
@@ -57704,6 +58952,7 @@ group
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -57716,6 +58965,7 @@ convertUnboxedObjects
 "
 )
 ;
+}
 }
 }
 return
@@ -57805,8 +59055,10 @@ group
 )
 )
 )
+{
 continue
 ;
+}
 }
 obj
 =
@@ -57903,11 +59155,13 @@ slot
 =
 UINT32_MAX
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 obj
@@ -58030,6 +59284,7 @@ BarrierKind
 :
 NoBarrier
 )
+{
 load
 -
 >
@@ -58043,6 +59298,7 @@ getKnownMIRType
 )
 )
 ;
+}
 current
 -
 >
@@ -58334,6 +59590,7 @@ IsNullOrUndefined
 rvalType
 )
 )
+{
 rvalType
 =
 MIRType
@@ -58341,6 +59598,7 @@ MIRType
 :
 Value
 ;
+}
 MOZ_TRY
 (
 loadSlot
@@ -58630,6 +59888,7 @@ NullType
 )
 )
 )
+{
 nullBehavior
 =
 MLoadUnboxedObjectOrNull
@@ -58637,6 +59896,7 @@ MLoadUnboxedObjectOrNull
 :
 HandleNull
 ;
+}
 else
 if
 (
@@ -58648,6 +59908,7 @@ BarrierKind
 :
 NoBarrier
 )
+{
 nullBehavior
 =
 MLoadUnboxedObjectOrNull
@@ -58655,7 +59916,9 @@ MLoadUnboxedObjectOrNull
 :
 BailOnNull
 ;
+}
 else
+{
 nullBehavior
 =
 MLoadUnboxedObjectOrNull
@@ -58663,6 +59926,7 @@ MLoadUnboxedObjectOrNull
 :
 NullNotPossible
 ;
+}
 load
 =
 MLoadUnboxedObjectOrNull
@@ -58764,11 +60028,13 @@ offset
 =
 UINT32_MAX
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 obj
@@ -59149,6 +60415,7 @@ if
 !
 obj
 )
+{
 return
 abort
 (
@@ -59158,6 +60425,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 }
 else
@@ -59235,6 +60503,7 @@ if
 (
 isDOM
 )
+{
 MOZ_TRY_VAR
 (
 isDOM
@@ -59249,6 +60518,7 @@ Getter
 )
 )
 ;
+}
 if
 (
 isDOM
@@ -59411,6 +60681,7 @@ if
 !
 get
 )
+{
 return
 abort
 (
@@ -59420,6 +60691,7 @@ AbortReason
 Alloc
 )
 ;
+}
 current
 -
 >
@@ -59445,6 +60717,7 @@ isEffectful
 (
 )
 )
+{
 MOZ_TRY
 (
 resumeAfter
@@ -59453,6 +60726,7 @@ get
 )
 )
 ;
+}
 MOZ_TRY
 (
 pushDOMTypeBarrier
@@ -59538,6 +60812,7 @@ ensureHasSlots
 2
 )
 )
+{
 return
 abort
 (
@@ -59547,6 +60822,7 @@ AbortReason
 Alloc
 )
 ;
+}
 current
 -
 >
@@ -59595,6 +60871,7 @@ current
 0
 )
 )
+{
 return
 abort
 (
@@ -59604,6 +60881,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 commonGetter
@@ -59767,10 +61045,12 @@ isInterpreted
 (
 )
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 *
 emitted
 =
@@ -59929,9 +61209,11 @@ i
 .
 group
 )
+{
 return
 nullptr
 ;
+}
 Shape
 *
 shape
@@ -60080,6 +61362,7 @@ receivers
 convertUnboxedGroups
 )
 )
+{
 return
 abort
 (
@@ -60089,6 +61372,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 !
@@ -60097,11 +61381,13 @@ canInlinePropertyOpShapes
 receivers
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 obj
 =
 convertUnboxedObjects
@@ -60136,6 +61422,7 @@ IsNullOrUndefined
 rvalType
 )
 )
+{
 rvalType
 =
 MIRType
@@ -60143,6 +61430,7 @@ MIRType
 :
 Value
 ;
+}
 if
 (
 receivers
@@ -60424,11 +61712,13 @@ group
 )
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 obj
 =
 addGroupGuard
@@ -60570,6 +61860,7 @@ if
 !
 obj
 )
+{
 return
 abort
 (
@@ -60579,6 +61870,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MOZ_TRY
 (
 loadSlot
@@ -60717,6 +62009,7 @@ i
 propShape
 )
 )
+{
 return
 abort
 (
@@ -60727,10 +62020,12 @@ Alloc
 )
 ;
 }
+}
 if
 (
 failedShapeGuard_
 )
+{
 load
 -
 >
@@ -60738,6 +62033,7 @@ setNotMovable
 (
 )
 ;
+}
 load
 -
 >
@@ -60850,6 +62146,7 @@ convertUnboxedGroups
 holder
 )
 )
+{
 return
 abort
 (
@@ -60859,6 +62156,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 !
@@ -60867,11 +62165,13 @@ canInlinePropertyOpShapes
 receivers
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 holder
@@ -60925,6 +62225,7 @@ IsNullOrUndefined
 rvalType
 )
 )
+{
 rvalType
 =
 MIRType
@@ -60932,6 +62233,7 @@ MIRType
 :
 Value
 ;
+}
 obj
 =
 convertUnboxedObjects
@@ -60953,6 +62255,7 @@ if
 !
 obj
 )
+{
 return
 abort
 (
@@ -60962,6 +62265,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MInstruction
 *
 holderDef
@@ -61086,6 +62390,7 @@ MIRType
 :
 Object
 )
+{
 barrier
 =
 BarrierKind
@@ -61093,6 +62398,7 @@ BarrierKind
 :
 TypeSet
 ;
+}
 if
 (
 inspector
@@ -61103,6 +62409,7 @@ hasSeenAccessedGetter
 pc
 )
 )
+{
 barrier
 =
 BarrierKind
@@ -61110,6 +62417,7 @@ BarrierKind
 :
 TypeSet
 ;
+}
 if
 (
 barrier
@@ -61327,6 +62635,7 @@ obj
 name
 )
 )
+{
 load
 -
 >
@@ -61334,6 +62643,7 @@ setIdempotent
 (
 )
 ;
+}
 }
 if
 (
@@ -61354,6 +62664,7 @@ idempotent
 (
 )
 )
+{
 MOZ_TRY
 (
 annotateGetPropertyCache
@@ -61371,6 +62682,7 @@ types
 )
 )
 ;
+}
 current
 -
 >
@@ -61396,6 +62708,7 @@ isEffectful
 (
 )
 )
+{
 MOZ_TRY
 (
 resumeAfter
@@ -61404,6 +62717,7 @@ load
 )
 )
 ;
+}
 MIRType
 rvalType
 =
@@ -61450,6 +62764,7 @@ IsNullOrUndefined
 rvalType
 )
 )
+{
 rvalType
 =
 MIRType
@@ -61457,6 +62772,7 @@ MIRType
 :
 Value
 ;
+}
 }
 load
 -
@@ -61535,9 +62851,11 @@ MIRType
 :
 Object
 )
+{
 return
 obj
 ;
+}
 TemporaryTypeSet
 *
 types
@@ -61554,9 +62872,11 @@ if
 !
 types
 )
+{
 return
 obj
 ;
+}
 JSObject
 *
 singleton
@@ -61573,9 +62893,11 @@ if
 !
 singleton
 )
+{
 return
 obj
 ;
+}
 if
 (
 !
@@ -61584,9 +62906,11 @@ IsWindowProxy
 singleton
 )
 )
+{
 return
 obj
 ;
+}
 MOZ_ASSERT
 (
 ToWindowIfWindowProxy
@@ -61637,9 +62961,11 @@ constraints
 OBJECT_FLAG_UNKNOWN_PROPERTIES
 )
 )
+{
 return
 obj
 ;
+}
 obj
 -
 >
@@ -61712,11 +63038,13 @@ inner
 =
 obj
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -61752,11 +63080,13 @@ if
 *
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -61788,11 +63118,13 @@ if
 *
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -61818,11 +63150,13 @@ if
 *
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 BarrierKind
 barrier
@@ -62057,11 +63391,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -62086,11 +63422,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 TemporaryTypeSet
 *
@@ -62156,11 +63494,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 if
 (
@@ -62195,11 +63535,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 trackOptimizationAttempt
 (
 TrackedStrategy
@@ -62226,11 +63568,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 trackOptimizationAttempt
 (
@@ -62428,6 +63772,7 @@ if
 !
 obj
 )
+{
 return
 abort
 (
@@ -62437,6 +63782,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 }
 else
@@ -62571,6 +63917,7 @@ ensureHasSlots
 3
 )
 )
+{
 return
 abort
 (
@@ -62580,6 +63927,7 @@ AbortReason
 Alloc
 )
 ;
+}
 current
 -
 >
@@ -62636,6 +63984,7 @@ current
 1
 )
 )
+{
 return
 abort
 (
@@ -62645,6 +63994,7 @@ AbortReason
 Alloc
 )
 ;
+}
 callInfo
 .
 markAsSetter
@@ -62760,6 +64110,7 @@ append
 commonSetter
 )
 )
+{
 return
 abort
 (
@@ -62769,6 +64120,7 @@ AbortReason
 Alloc
 )
 ;
+}
 MCall
 *
 call
@@ -62809,10 +64161,12 @@ isInterpreted
 (
 )
 )
+{
 trackOptimizationSuccess
 (
 )
 ;
+}
 *
 emitted
 =
@@ -62886,11 +64240,13 @@ constraints
 objKind
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 bool
 isDOM
 =
@@ -62915,11 +64271,13 @@ if
 !
 isDOM
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 setter
@@ -63062,21 +64420,25 @@ fieldIndex
 fieldMutable
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
 fieldMutable
 )
+{
 return
 Ok
 (
 )
 ;
+}
 switch
 (
 fieldPrediction
@@ -63221,11 +64583,13 @@ constraints
 OBJECT_FLAG_TYPED_OBJECT_HAS_DETACHED_BUFFER
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 LinearSum
 byteOffset
 (
@@ -63244,6 +64608,7 @@ add
 fieldOffset
 )
 )
+{
 return
 abort
 (
@@ -63260,6 +64625,7 @@ offset
 "
 )
 ;
+}
 return
 setPropTryReferenceTypedObjectValue
 (
@@ -63347,11 +64713,13 @@ constraints
 OBJECT_FLAG_TYPED_OBJECT_HAS_DETACHED_BUFFER
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 LinearSum
 byteOffset
 (
@@ -63370,6 +64738,7 @@ add
 fieldOffset
 )
 )
+{
 return
 abort
 (
@@ -63386,6 +64755,7 @@ offet
 "
 )
 ;
+}
 return
 setPropTryScalarTypedObjectValue
 (
@@ -63479,11 +64849,13 @@ slot
 =
 UINT32_MAX
 )
+{
 return
 Ok
 (
 )
 ;
+}
 bool
 writeBarrier
 =
@@ -63540,8 +64912,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 HeapTypeSetKey
 property
 =
@@ -63602,6 +64976,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -63620,6 +64995,7 @@ value
 )
 )
 ;
+}
 MInstruction
 *
 store
@@ -63650,6 +65026,7 @@ if
 (
 writeBarrier
 )
+{
 store
 -
 >
@@ -63662,6 +65039,7 @@ setNeedsBarrier
 (
 )
 ;
+}
 }
 else
 {
@@ -63709,6 +65087,7 @@ if
 (
 writeBarrier
 )
+{
 store
 -
 >
@@ -63721,6 +65100,7 @@ setNeedsBarrier
 (
 )
 ;
+}
 }
 current
 -
@@ -64175,11 +65555,13 @@ offset
 =
 UINT32_MAX
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 obj
@@ -64354,6 +65736,7 @@ receivers
 convertUnboxedGroups
 )
 )
+{
 return
 abort
 (
@@ -64363,6 +65746,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 !
@@ -64371,11 +65755,13 @@ canInlinePropertyOpShapes
 receivers
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 obj
 =
 convertUnboxedObjects
@@ -64463,6 +65849,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -64481,6 +65868,7 @@ value
 )
 )
 ;
+}
 bool
 needsPreBarrier
 =
@@ -64641,6 +66029,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -64659,6 +66048,7 @@ value
 )
 )
 ;
+}
 bool
 needsPreBarrier
 =
@@ -64744,11 +66134,13 @@ group
 )
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 obj
 =
 addGroupGuard
@@ -64765,6 +66157,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -64783,6 +66176,7 @@ value
 )
 )
 ;
+}
 AutoSweepObjectGroup
 sweep
 (
@@ -64912,6 +66306,7 @@ if
 !
 obj
 )
+{
 return
 abort
 (
@@ -64921,6 +66316,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 needsPostBarrier
@@ -64928,6 +66324,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -64946,6 +66343,7 @@ value
 )
 )
 ;
+}
 bool
 needsPreBarrier
 =
@@ -65000,6 +66398,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -65018,6 +66417,7 @@ value
 )
 )
 ;
+}
 MSetPropertyPolymorphic
 *
 ins
@@ -65126,6 +66526,7 @@ i
 propShape
 )
 )
+{
 return
 abort
 (
@@ -65135,6 +66536,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 if
 (
@@ -65152,6 +66554,7 @@ name
 )
 )
 )
+{
 ins
 -
 >
@@ -65159,6 +66562,7 @@ setNeedsBarrier
 (
 )
 ;
+}
 MOZ_TRY
 (
 resumeAfter
@@ -65717,6 +67121,7 @@ IsAsmJSModule
 fun
 )
 )
+{
 return
 abort
 (
@@ -65736,6 +67141,7 @@ function
 "
 )
 ;
+}
 MConstant
 *
 cst
@@ -66239,6 +67645,7 @@ needsPostBarrier
 val
 )
 )
+{
 current
 -
 >
@@ -66262,6 +67669,7 @@ val
 )
 )
 ;
+}
 auto
 *
 ins
@@ -66319,6 +67727,7 @@ hasArguments
 (
 )
 )
+{
 return
 abort
 (
@@ -66336,6 +67745,7 @@ setarg
 "
 )
 ;
+}
 if
 (
 info
@@ -66567,8 +67977,10 @@ def
 =
 val
 )
+{
 continue
 ;
+}
 otherUses
 =
 true
@@ -66884,11 +68296,13 @@ pc
 =
 JSOP_DEFCONST
 )
+{
 attrs
 |
 =
 JSPROP_READONLY
 ;
+}
 MDefLexical
 *
 deflex
@@ -67185,11 +68599,13 @@ nextPc
 =
 JSOP_GETALIASEDVAR
 )
+{
 setLexicalCheck
 (
 let
 )
 ;
+}
 return
 Ok
 (
@@ -67435,6 +68851,7 @@ hasNonSyntacticScope
 (
 )
 )
+{
 return
 abort
 (
@@ -67453,6 +68870,7 @@ global
 "
 )
 ;
+}
 if
 (
 IsNullOrUndefined
@@ -67986,11 +69404,13 @@ MIRType
 :
 Symbol
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MDefinition
 *
 index
@@ -68092,6 +69512,7 @@ append
 ins
 )
 )
+{
 return
 abort
 (
@@ -68101,6 +69522,7 @@ AbortReason
 Alloc
 )
 ;
+}
 current
 -
 >
@@ -68507,9 +69929,11 @@ treatAsRunOnce
 (
 )
 )
+{
 return
 false
 ;
+}
 TypeSet
 :
 :
@@ -68546,9 +69970,11 @@ constraints
 OBJECT_FLAG_RUNONCE_INVALIDATED
 )
 )
+{
 return
 false
 ;
+}
 MDefinition
 *
 envDef
@@ -68972,11 +70398,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MDefinition
 *
@@ -68991,6 +70419,7 @@ if
 !
 load
 )
+{
 load
 =
 getAliasedVar
@@ -68998,6 +70427,7 @@ getAliasedVar
 ec
 )
 ;
+}
 current
 -
 >
@@ -69097,6 +70527,7 @@ nslots
 )
 )
 )
+{
 return
 abort
 (
@@ -69106,6 +70537,7 @@ AbortReason
 Alloc
 )
 ;
+}
 }
 MDefinition
 *
@@ -69242,6 +70674,7 @@ needsPostBarrier
 rval
 )
 )
+{
 current
 -
 >
@@ -69260,6 +70693,7 @@ rval
 )
 )
 ;
+}
 MInstruction
 *
 store
@@ -69432,11 +70866,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 hasTryNotDefined
@@ -69453,11 +70889,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 hasTryDefiniteSlotOrUnboxed
@@ -69473,11 +70911,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MInCache
 *
@@ -69552,11 +70992,13 @@ shouldAbortOnPreliminaryGroups
 obj
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 !
@@ -69569,11 +71011,13 @@ obj
 id
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 bool
 hasExtraIndexedProperty
 ;
@@ -69591,11 +71035,13 @@ if
 (
 hasExtraIndexedProperty
 )
+{
 return
 Ok
 (
 )
 ;
+}
 *
 emitted
 =
@@ -69805,11 +71251,13 @@ toJSValue
 propId
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 propId
@@ -69820,11 +71268,13 @@ IdToTypeId
 propId
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 bool
 res
 ;
@@ -69844,11 +71294,13 @@ if
 !
 res
 )
+{
 return
 Ok
 (
 )
 ;
+}
 *
 emitted
 =
@@ -69924,11 +71376,13 @@ MIRType
 :
 Object
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MConstant
 *
 idConst
@@ -69962,11 +71416,13 @@ toJSValue
 propId
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 propId
@@ -69977,11 +71433,13 @@ IdToTypeId
 propId
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 uint32_t
 nfixed
 ;
@@ -70035,11 +71493,13 @@ offset
 =
 UINT32_MAX
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 *
 emitted
@@ -70139,11 +71599,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MOZ_TRY
 (
 hasTryDefiniteSlotOrUnboxed
@@ -70159,11 +71621,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 }
 MHasOwnCache
 *
@@ -70255,6 +71719,7 @@ ensureBallast
 (
 )
 )
+{
 return
 abort
 (
@@ -70264,6 +71729,7 @@ AbortReason
 Alloc
 )
 ;
+}
 if
 (
 !
@@ -70291,9 +71757,11 @@ isNative
 (
 )
 )
+{
 return
 false
 ;
+}
 JSObject
 *
 proto
@@ -70460,11 +71928,13 @@ unknownObject
 (
 )
 )
+{
 return
 Ok
 (
 )
 ;
+}
 bool
 isFirst
 =
@@ -70516,8 +71986,10 @@ if
 !
 key
 )
+{
 continue
 ;
+}
 bool
 checkSucceeded
 ;
@@ -70541,11 +72013,13 @@ if
 !
 checkSucceeded
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 isFirst
@@ -70754,8 +72228,10 @@ isBoundFunction
 (
 )
 )
+{
 break
 ;
+}
 if
 (
 rhsObject
@@ -70774,8 +72250,10 @@ hasStaticPrototype
 (
 )
 )
+{
 break
 ;
+}
 Value
 funProto
 =
@@ -70818,8 +72296,10 @@ toObject
 (
 )
 )
+{
 break
 ;
+}
 JSFunction
 *
 fun
@@ -70866,8 +72346,10 @@ fun
 symbols
 )
 )
+{
 break
 ;
+}
 TypeSet
 :
 :
@@ -70899,8 +72381,10 @@ constraints
 )
 )
 )
+{
 break
 ;
+}
 if
 (
 rhsKey
@@ -70910,8 +72394,10 @@ unknownProperties
 (
 )
 )
+{
 break
 ;
+}
 HeapTypeSetKey
 hasInstanceObject
 =
@@ -70940,8 +72426,10 @@ constraints
 )
 )
 )
+{
 break
 ;
+}
 HeapTypeSetKey
 protoProperty
 =
@@ -70978,8 +72466,10 @@ if
 !
 protoObject
 )
+{
 break
 ;
+}
 rhs
 -
 >
@@ -71002,11 +72492,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MInstanceOf
 *
 ins
@@ -71081,8 +72573,10 @@ slot
 protoObject
 )
 )
+{
 break
 ;
+}
 rhs
 =
 addShapeGuard
@@ -71222,11 +72716,13 @@ if
 (
 emitted
 )
+{
 return
 Ok
 (
 )
 ;
+}
 MInstanceOf
 *
 ins
@@ -71588,9 +73084,11 @@ constraints
 object
 )
 )
+{
 return
 object
 ;
+}
 MInstruction
 *
 copy
@@ -71662,6 +73160,7 @@ if
 (
 failedBoundsCheck_
 )
+{
 check
 -
 >
@@ -71669,6 +73168,7 @@ setNotMovable
 (
 )
 ;
+}
 if
 (
 JitOptions
@@ -71750,6 +73250,7 @@ if
 (
 failedShapeGuard_
 )
+{
 guard
 -
 >
@@ -71757,6 +73258,7 @@ setNotMovable
 (
 )
 ;
+}
 return
 guard
 ;
@@ -71808,6 +73310,7 @@ if
 (
 failedShapeGuard_
 )
+{
 guard
 -
 >
@@ -71815,6 +73318,7 @@ setNotMovable
 (
 )
 ;
+}
 LifoAlloc
 *
 lifoAlloc
@@ -71900,6 +73404,7 @@ if
 (
 failedShapeGuard_
 )
+{
 guard
 -
 >
@@ -71907,6 +73412,7 @@ setNotMovable
 (
 )
 ;
+}
 return
 guard
 ;
@@ -72029,6 +73535,7 @@ if
 (
 failedShapeGuard_
 )
+{
 guard
 -
 >
@@ -72036,6 +73543,7 @@ setNotMovable
 (
 )
 ;
+}
 for
 (
 size_t
@@ -72070,9 +73578,11 @@ i
 ]
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 guard
@@ -72229,11 +73739,13 @@ MIRType
 :
 Object
 )
+{
 return
 TypedObjectPrediction
 (
 )
 ;
+}
 if
 (
 types
@@ -72243,11 +73755,13 @@ unknownObject
 (
 )
 )
+{
 return
 TypedObjectPrediction
 (
 )
 ;
+}
 TypedObjectPrediction
 out
 ;
@@ -72301,11 +73815,13 @@ clasp
 )
 )
 )
+{
 return
 TypedObjectPrediction
 (
 )
 ;
+}
 if
 (
 !
@@ -72328,11 +73844,13 @@ constraints
 )
 )
 )
+{
 return
 TypedObjectPrediction
 (
 )
 ;
+}
 out
 .
 addDescr
@@ -72371,6 +73889,7 @@ isNewDerivedTypedObject
 (
 )
 )
+{
 return
 typedObj
 -
@@ -72384,6 +73903,7 @@ type
 (
 )
 ;
+}
 MInstruction
 *
 descr
@@ -72493,6 +74013,7 @@ add
 base
 )
 )
+{
 return
 abort
 (
@@ -72512,6 +74033,7 @@ offset
 "
 )
 ;
+}
 *
 owner
 =
@@ -72604,6 +74126,7 @@ add
 baseByteOffset
 )
 )
+{
 return
 abort
 (
@@ -72622,6 +74145,7 @@ offset
 "
 )
 ;
+}
 TemporaryTypeSet
 *
 ownerTypes
@@ -72678,6 +74202,7 @@ offsetOfDataStart
 )
 )
 )
+{
 return
 abort
 (
@@ -72696,6 +74221,7 @@ start
 "
 )
 ;
+}
 *
 ownerElements
 =
@@ -72771,6 +74297,7 @@ ownerByteAdjustment
 negativeAdjustment
 )
 )
+{
 return
 abort
 (
@@ -72780,6 +74307,7 @@ AbortReason
 Disable
 )
 ;
+}
 if
 (
 !
@@ -72790,6 +74318,7 @@ add
 negativeAdjustment
 )
 )
+{
 return
 abort
 (
@@ -72799,6 +74328,7 @@ AbortReason
 Disable
 )
 ;
+}
 if
 (
 ownerByteOffset
@@ -73594,6 +75124,7 @@ needsPostBarrier
 value
 )
 )
+{
 current
 -
 >
@@ -73612,6 +75143,7 @@ value
 )
 )
 ;
+}
 store
 =
 MStoreElement
@@ -73845,6 +75377,7 @@ isObject
 (
 )
 )
+{
 checkNurseryObject
 (
 &
@@ -73855,6 +75388,7 @@ toObject
 )
 )
 ;
+}
 MConstant
 *
 c
@@ -74229,6 +75763,7 @@ if
 (
 failedLexicalCheck_
 )
+{
 lexicalCheck
 -
 >
@@ -74236,6 +75771,7 @@ setNotMovableUnchecked
 (
 )
 ;
+}
 return
 lexicalCheck
 ;
@@ -74344,8 +75880,10 @@ runtime
 )
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 rootList_
@@ -74394,6 +75932,7 @@ if
 (
 backgroundCodegen_
 )
+{
 result
 +
 =
@@ -74402,6 +75941,7 @@ mallocSizeOf
 backgroundCodegen_
 )
 ;
+}
 return
 result
 ;

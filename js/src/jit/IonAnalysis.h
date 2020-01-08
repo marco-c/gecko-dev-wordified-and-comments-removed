@@ -491,6 +491,7 @@ other
 terms_
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -503,6 +504,7 @@ LinearSum
 "
 )
 ;
+}
 }
 MOZ_MUST_USE
 bool

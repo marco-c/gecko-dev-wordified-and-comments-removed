@@ -1141,9 +1141,11 @@ type
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 memcmp
 (
@@ -2628,9 +2630,11 @@ hasLatin1Chars
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 reinterpret_cast
 <
