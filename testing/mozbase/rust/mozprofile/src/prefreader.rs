@@ -6332,11 +6332,8 @@ key
 pref
 )
 in
+&
 p
-.
-iter
-(
-)
 {
 let
 func
