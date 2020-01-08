@@ -237,7 +237,7 @@ AltDataOutputStreamChild
 WriteDataInChunks
 (
 const
-nsCString
+nsDependentCSubstring
 &
 data
 )
@@ -456,7 +456,7 @@ if
 (
 WriteDataInChunks
 (
-nsCString
+nsDependentCSubstring
 (
 aBuf
 aCount
