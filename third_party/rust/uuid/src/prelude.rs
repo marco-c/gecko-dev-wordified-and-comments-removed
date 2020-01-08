@@ -1,0 +1,17 @@
+#
+[
+doc
+(
+inline
+)
+]
+pub
+use
+super
+:
+:
+{
+Uuid
+UuidVariant
+}
+;
