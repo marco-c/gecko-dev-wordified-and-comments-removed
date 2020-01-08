@@ -169,6 +169,13 @@ this
 )
 ;
 }
+start
+:
+function
+(
+)
+{
+}
 changeCount
 :
 function
