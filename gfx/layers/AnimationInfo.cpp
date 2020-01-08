@@ -55,10 +55,6 @@ mCompositorAnimationsId
 (
 0
 )
-mAnimationGeneration
-(
-0
-)
 mMutated
 (
 false
@@ -714,8 +710,6 @@ layer
 )
 {
 return
-Some
-(
 layer
 -
 >
@@ -725,7 +719,6 @@ GetAnimationInfo
 .
 GetAnimationGeneration
 (
-)
 )
 ;
 }
@@ -775,8 +768,6 @@ animationData
 )
 {
 return
-Some
-(
 animationData
 -
 >
@@ -786,7 +777,6 @@ GetAnimationInfo
 .
 GetAnimationGeneration
 (
-)
 )
 ;
 }

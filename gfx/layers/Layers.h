@@ -4263,7 +4263,10 @@ GetAnimationData
 (
 )
 ;
+Maybe
+<
 uint64_t
+>
 GetAnimationGeneration
 (
 )

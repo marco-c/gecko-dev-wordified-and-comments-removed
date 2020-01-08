@@ -93,10 +93,16 @@ aCount
 {
 mAnimationGeneration
 =
+Some
+(
 aCount
+)
 ;
 }
+Maybe
+<
 uint64_t
+>
 GetAnimationGeneration
 (
 )
@@ -229,7 +235,10 @@ AnimData
 >
 mAnimationData
 ;
+Maybe
+<
 uint64_t
+>
 mAnimationGeneration
 ;
 RefPtr
