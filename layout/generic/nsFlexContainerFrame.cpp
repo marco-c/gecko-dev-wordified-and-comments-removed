@@ -15067,12 +15067,13 @@ crossAxisBorderPadding
 =
 aItem
 .
-GetBorderPadding
+GetBorderPaddingSizeInAxis
+(
+aAxisTracker
+.
+GetCrossAxis
 (
 )
-.
-TopBottom
-(
 )
 ;
 if
