@@ -2020,7 +2020,7 @@ SpatialNodeType
 ReferenceFrame
 (
 ref
-info
+_info
 )
 =
 >
@@ -2034,14 +2034,7 @@ format
 (
 "
 ReferenceFrame
-{
-:
-?
-}
 "
-info
-.
-resolved_transform
 )
 )
 ;

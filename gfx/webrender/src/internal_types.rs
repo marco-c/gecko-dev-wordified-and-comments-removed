@@ -227,6 +227,12 @@ pub
 u64
 )
 ;
+pub
+type
+LayerIndex
+=
+usize
+;
 #
 [
 derive

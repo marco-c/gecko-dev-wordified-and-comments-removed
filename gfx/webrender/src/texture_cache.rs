@@ -65,6 +65,7 @@ internal_types
 :
 {
 CacheTextureId
+LayerIndex
 TextureUpdateList
 TextureUpdateSource
 }
@@ -2292,7 +2293,7 @@ TextureCacheHandle
 >
 (
 CacheTextureId
-i32
+LayerIndex
 DeviceUintRect
 )
 {
@@ -2416,7 +2417,7 @@ entry
 texture_id
 layer_index
 as
-i32
+usize
 DeviceUintRect
 :
 :

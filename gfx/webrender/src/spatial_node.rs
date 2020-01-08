@@ -415,14 +415,6 @@ info
 =
 ReferenceFrameInfo
 {
-resolved_transform
-:
-LayoutFastTransform
-:
-:
-identity
-(
-)
 source_transform
 :
 source_transform
@@ -1098,8 +1090,7 @@ state
 parent_accumulated_scroll_offset
 )
 ;
-info
-.
+let
 resolved_transform
 =
 LayoutFastTransform
@@ -1131,8 +1122,6 @@ scrolled_perspective
 let
 relative_transform
 =
-info
-.
 resolved_transform
 .
 post_translate
@@ -2910,10 +2899,6 @@ pub
 struct
 ReferenceFrameInfo
 {
-pub
-resolved_transform
-:
-LayoutFastTransform
 pub
 source_transform
 :
