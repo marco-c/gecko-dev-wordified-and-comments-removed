@@ -413,6 +413,9 @@ ParseNode
 >
 parse
 (
+GlobalSharedContext
+*
+globalsc
 const
 uint8_t
 *
@@ -432,6 +435,9 @@ ParseNode
 >
 parse
 (
+GlobalSharedContext
+*
+globalsc
 const
 Vector
 <
@@ -454,6 +460,9 @@ ParseNode
 >
 parseAux
 (
+GlobalSharedContext
+*
+globalsc
 const
 uint8_t
 *
