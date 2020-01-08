@@ -107,6 +107,11 @@ AddonUpdateChecker
 jsm
 '
 '
+BootstrapLoader
+.
+jsm
+'
+'
 Content
 .
 js
