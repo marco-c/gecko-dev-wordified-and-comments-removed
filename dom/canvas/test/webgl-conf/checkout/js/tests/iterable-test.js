@@ -77,7 +77,7 @@ false
 {
 wtu
 .
-waitForComposite
+dispatchTask
 (
 doNextTest
 )

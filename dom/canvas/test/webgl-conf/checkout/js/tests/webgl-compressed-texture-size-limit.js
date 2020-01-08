@@ -666,7 +666,7 @@ return
 }
 wtu
 .
-waitForComposite
+dispatchTask
 (
 runNextTest
 )

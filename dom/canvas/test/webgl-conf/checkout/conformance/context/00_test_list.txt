@@ -264,13 +264,6 @@ premultiplyalpha
 test
 .
 html
-resource
--
-sharing
--
-test
-.
-html
 -
 -
 min
