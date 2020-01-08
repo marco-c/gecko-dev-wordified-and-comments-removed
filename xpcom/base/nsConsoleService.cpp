@@ -1180,10 +1180,7 @@ aMessage
 >
 GetMessageMoz
 (
-getter_Copies
-(
 msg
-)
 )
 ;
 msg

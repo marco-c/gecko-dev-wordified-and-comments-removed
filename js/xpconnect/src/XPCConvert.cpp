@@ -5789,10 +5789,7 @@ errorObject
 >
 GetMessageMoz
 (
-getter_Copies
-(
 xmsg
-)
 )
 )
 )

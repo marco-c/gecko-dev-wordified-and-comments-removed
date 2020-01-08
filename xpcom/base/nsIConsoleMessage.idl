@@ -267,7 +267,7 @@ MessageMoz
 ]
 readonly
 attribute
-wstring
+AString
 message
 ;
 AUTF8String
