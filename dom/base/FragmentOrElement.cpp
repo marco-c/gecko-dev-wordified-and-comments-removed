@@ -10111,15 +10111,10 @@ docEncoder
 {
 docEncoder
 =
-do_CreateInstance
+do_createDocumentEncoder
 (
 PromiseFlatCString
 (
-nsDependentCString
-(
-NS_DOC_ENCODER_CONTRACTID_BASE
-)
-+
 NS_ConvertUTF16toUTF8
 (
 contentType
@@ -10151,9 +10146,8 @@ xml
 ;
 docEncoder
 =
-do_CreateInstance
+do_createDocumentEncoder
 (
-NS_DOC_ENCODER_CONTRACTID_BASE
 "
 application
 /

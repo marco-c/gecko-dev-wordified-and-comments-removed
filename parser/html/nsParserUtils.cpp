@@ -446,9 +446,8 @@ nsIDocumentEncoder
 >
 encoder
 =
-do_CreateInstance
+do_createDocumentEncoder
 (
-NS_DOC_ENCODER_CONTRACTID_BASE
 "
 text
 /
