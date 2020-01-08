@@ -1310,7 +1310,7 @@ RefPtr
 mozilla
 :
 :
-GenericPromise
+GenericNonExclusivePromise
 >
 WaitForModuleFetch
 (
@@ -1645,7 +1645,7 @@ nsURIHashKey
 mozilla
 :
 :
-GenericPromise
+GenericNonExclusivePromise
 :
 :
 Private

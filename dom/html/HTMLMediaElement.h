@@ -3616,7 +3616,7 @@ mSetCDMRequest
 ;
 MozPromiseRequestHolder
 <
-GenericPromise
+GenericNonExclusivePromise
 >
 mAutoplayPermissionRequest
 ;
