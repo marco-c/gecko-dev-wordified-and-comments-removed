@@ -40,6 +40,14 @@ version
 3
 .
 0
+pathlib2
+=
+=
+2
+.
+3
+.
+2
 pip
 -
 tools
