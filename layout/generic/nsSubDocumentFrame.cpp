@@ -2572,6 +2572,7 @@ nsDisplayZoom
 (
 aBuilder
 subdocRootFrame
+this
 &
 childItems
 subdocAPD
@@ -2621,6 +2622,7 @@ nsDisplayResolution
 (
 aBuilder
 subdocRootFrame
+this
 &
 childItems
 flags
