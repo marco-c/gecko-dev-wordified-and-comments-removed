@@ -1669,9 +1669,6 @@ mozilla
 TimeDuration
 timeInChunkAlloc_
 ;
-float
-previousPromotionRate_
-;
 mozilla
 :
 :
