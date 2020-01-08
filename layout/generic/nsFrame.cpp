@@ -58636,7 +58636,7 @@ mDisplayPixelErrors
 )
 {
 int32_t
-p2t
+d2a
 =
 aPresContext
 -
@@ -58652,7 +58652,7 @@ aReflowInput
 AvailableWidth
 (
 )
-p2t
+d2a
 )
 ;
 CheckPixelError
@@ -58662,7 +58662,7 @@ aReflowInput
 AvailableHeight
 (
 )
-p2t
+d2a
 )
 ;
 CheckPixelError
@@ -58672,7 +58672,7 @@ aReflowInput
 ComputedWidth
 (
 )
-p2t
+d2a
 )
 ;
 CheckPixelError
@@ -58682,7 +58682,7 @@ aReflowInput
 ComputedHeight
 (
 )
-p2t
+d2a
 )
 ;
 }
@@ -59630,7 +59630,7 @@ mDisplayPixelErrors
 )
 {
 int32_t
-p2t
+d2a
 =
 aPresContext
 -
@@ -59646,7 +59646,7 @@ aMetrics
 Width
 (
 )
-p2t
+d2a
 )
 ;
 CheckPixelError
@@ -59656,7 +59656,7 @@ aMetrics
 Height
 (
 )
-p2t
+d2a
 )
 ;
 }
