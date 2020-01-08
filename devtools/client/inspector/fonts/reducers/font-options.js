@@ -27,6 +27,7 @@ INITIAL_FONT_OPTIONS
 previewText
 :
 "
+Abc
 "
 }
 ;

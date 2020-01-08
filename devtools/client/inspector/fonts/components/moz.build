@@ -123,11 +123,6 @@ FontPreview
 js
 '
 '
-FontPreviewInput
-.
-js
-'
-'
 FontPropertyValue
 .
 js
