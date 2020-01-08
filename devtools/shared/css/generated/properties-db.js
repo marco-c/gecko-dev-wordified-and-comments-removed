@@ -35957,6 +35957,13 @@ capitalize
 "
 full
 -
+size
+-
+kana
+"
+"
+full
+-
 width
 "
 "
