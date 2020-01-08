@@ -45,16 +45,6 @@ nsSHTransaction
 ;
 protected
 :
-nsISHTransaction
-*
-mPrev
-;
-nsCOMPtr
-<
-nsISHTransaction
->
-mNext
-;
 nsCOMPtr
 <
 nsISHEntry
