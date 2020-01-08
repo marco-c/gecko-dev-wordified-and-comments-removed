@@ -1448,6 +1448,10 @@ cflags_mozilla
 [
 '
 -
+Xclang
+'
+'
+-
 Wall
 '
 '
