@@ -24,11 +24,6 @@ ContentProcessSingleton
 js
 "
 "
-EnterprisePoliciesContent
-.
-js
-"
-"
 extension
 -
 process

@@ -540,7 +540,6 @@ about
 :
 config
 "
-true
 )
 ;
 setAndLockPref
@@ -582,7 +581,6 @@ about
 :
 profiles
 "
-true
 )
 ;
 }
@@ -612,7 +610,6 @@ about
 :
 support
 "
-true
 )
 ;
 }
@@ -1636,7 +1633,6 @@ disallowFeature
 "
 setDesktopBackground
 "
-true
 )
 ;
 }
