@@ -1490,6 +1490,11 @@ NS_THEME_
 *
 "
 "
+NS_ATTRVALUE_
+.
+*
+"
+"
 NODE_
 .
 *
@@ -3392,6 +3397,9 @@ ServoRawOffsetArc
 "
 "
 DeclarationBlockMutationClosure
+"
+"
+nsAttrValue
 "
 "
 nsIContent
