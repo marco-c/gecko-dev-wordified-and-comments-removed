@@ -132,6 +132,7 @@ uint32_t
 *
 aLength
 )
+const
 ;
 nsresult
 IsEmpty
@@ -140,6 +141,7 @@ bool
 *
 aEmpty
 )
+const
 ;
 nsresult
 LoadFromFile
@@ -156,6 +158,7 @@ nsIFile
 *
 aFile
 )
+const
 ;
 size_t
 SizeOfIncludingThis
@@ -166,6 +169,7 @@ mozilla
 MallocSizeOf
 mallocSizeOf
 )
+const
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
@@ -207,11 +211,13 @@ aPrefixes
 uint32_t
 aPrefixSize
 )
+const
 ;
 uint32_t
 CalculatePreallocateSize
 (
 )
+const
 ;
 nsresult
 WritePrefixes
@@ -220,6 +226,7 @@ nsIOutputStream
 *
 out
 )
+const
 ;
 nsresult
 LoadPrefixes
@@ -229,12 +236,14 @@ nsIInputStream
 in
 )
 ;
+mutable
 mozilla
 :
 :
 Mutex
 mLock
 ;
+const
 RefPtr
 <
 nsUrlClassifierPrefixSet

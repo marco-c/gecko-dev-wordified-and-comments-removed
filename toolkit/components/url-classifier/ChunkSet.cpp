@@ -684,6 +684,7 @@ nsIOutputStream
 *
 aOut
 )
+const
 {
 nsTArray
 <

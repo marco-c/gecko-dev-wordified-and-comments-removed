@@ -95,6 +95,7 @@ nsIOutputStream
 *
 aOut
 )
+const
 ;
 nsresult
 Read
