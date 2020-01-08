@@ -1284,13 +1284,6 @@ kBorderStyleKTable
 static
 const
 KTableEntry
-kClipPathGeometryBoxKTable
-[
-]
-;
-static
-const
-KTableEntry
 kShapeRadiusKTable
 [
 ]
@@ -1299,13 +1292,6 @@ static
 const
 KTableEntry
 kFilterFunctionKTable
-[
-]
-;
-static
-const
-KTableEntry
-kShapeOutsideShapeBoxKTable
 [
 ]
 ;
