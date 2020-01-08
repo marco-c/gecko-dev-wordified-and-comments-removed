@@ -404,7 +404,9 @@ filterinput
 )
 {
 }
-window
+document
+.
+defaultView
 )
 ;
 ok
