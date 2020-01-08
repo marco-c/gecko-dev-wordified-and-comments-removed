@@ -131,7 +131,7 @@ use
 FontInstanceKey
 GlyphInstance
 GlyphOptions
-GlyphRasterSpace
+RasterSpace
 Gradient
 GradientBuilder
 }
@@ -6353,9 +6353,9 @@ Vec
 <
 FilterOp
 >
-glyph_raster_space
+raster_space
 :
-GlyphRasterSpace
+RasterSpace
 )
 {
 let
@@ -6375,7 +6375,7 @@ StackingContext
 transform_style
 mix_blend_mode
 clip_node_id
-glyph_raster_space
+raster_space
 }
 }
 )
