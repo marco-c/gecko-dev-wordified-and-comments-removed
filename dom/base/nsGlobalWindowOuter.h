@@ -3701,6 +3701,9 @@ nsGlobalWindowInner
 *
 CallerInnerWindow
 (
+JSContext
+*
+aCx
 )
 ;
 nsPIDOMWindowOuter
