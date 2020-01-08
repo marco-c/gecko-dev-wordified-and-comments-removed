@@ -461,7 +461,7 @@ run
 -
 time
 :
-1500
+900
 mozharness
 :
 extra
