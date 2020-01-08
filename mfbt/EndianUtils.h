@@ -125,6 +125,16 @@ define
 MOZ_LITTLE_ENDIAN
 1
 #
+elif
+defined
+(
+_M_ARM64
+)
+#
+define
+MOZ_LITTLE_ENDIAN
+1
+#
 else
 #
 error
