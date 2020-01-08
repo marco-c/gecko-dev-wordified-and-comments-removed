@@ -174,6 +174,19 @@ aIndex
 )
 const
 ;
+already_AddRefed
+<
+Gamepad
+>
+GetGamepad
+(
+uint32_t
+aGamepadId
+GamepadServiceType
+aServiceType
+)
+const
+;
 void
 Update
 (
@@ -367,6 +380,7 @@ aIndex
 GamepadServiceType
 aServiceType
 )
+const
 ;
 nsRefPtrHashtable
 <
