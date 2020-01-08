@@ -1060,6 +1060,11 @@ ScheduleGenerateFrame
 (
 )
 ;
+void
+ScheduleForcedGenerateFrame
+(
+)
+;
 wr
 :
 :
