@@ -95,6 +95,8 @@ nsCSSAnonBoxes
 :
 :
 rubyBase
+(
+)
 &
 &
 pseudoType
@@ -104,6 +106,8 @@ nsCSSAnonBoxes
 :
 :
 rubyText
+(
+)
 )
 {
 return

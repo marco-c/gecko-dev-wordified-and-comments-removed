@@ -1090,6 +1090,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeRow
+(
+)
 )
 ;
 nsMargin
@@ -4676,6 +4678,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 )
 aChildElt
 .
@@ -4696,6 +4700,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeTwisty
+(
+)
 )
 aChildElt
 .
@@ -4716,6 +4722,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeImage
+(
+)
 )
 aChildElt
 .
@@ -4736,6 +4744,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCellText
+(
+)
 )
 aChildElt
 .
@@ -4966,6 +4976,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeRow
+(
+)
 )
 ;
 AdjustForBorderPadding
@@ -4984,6 +4996,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 )
 ;
 NS_NAMED_LITERAL_CSTRING
@@ -5141,6 +5155,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeTwisty
+(
+)
 )
 ;
 GetTwistyRect
@@ -5221,6 +5237,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeImage
+(
+)
 )
 ;
 nsRect
@@ -5346,6 +5364,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCellText
+(
+)
 )
 ;
 RefPtr
@@ -6482,6 +6502,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 )
 ;
 nsRect
@@ -6545,6 +6567,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 ;
 }
 nscoord
@@ -6672,6 +6696,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 ;
 }
 nsRect
@@ -6747,6 +6773,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeTwisty
+(
+)
 )
 ;
 nsRect
@@ -6831,6 +6859,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeTwisty
+(
+)
 ;
 else
 return
@@ -6838,6 +6868,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 ;
 }
 if
@@ -6883,6 +6915,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeImage
+(
+)
 )
 ;
 nsRect
@@ -6969,6 +7003,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeImage
+(
+)
 ;
 }
 if
@@ -7031,6 +7067,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCellText
+(
+)
 )
 ;
 nsMargin
@@ -7114,6 +7152,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCellText
+(
+)
 ;
 else
 return
@@ -7121,6 +7161,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 ;
 }
 void
@@ -7302,6 +7344,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeImage
+(
+)
 ;
 else
 *
@@ -7442,6 +7486,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 )
 ;
 nsMargin
@@ -7515,6 +7561,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeTwisty
+(
+)
 )
 ;
 nsRect
@@ -7579,6 +7627,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeImage
+(
+)
 )
 ;
 nsRect
@@ -7650,6 +7700,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCellText
+(
+)
 )
 ;
 GetBorderPadding
@@ -10604,6 +10656,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeRow
+(
+)
 )
 ;
 if
@@ -10804,6 +10858,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeIndentation
+(
+)
 )
 ;
 if
@@ -12704,6 +12760,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeRow
+(
+)
 )
 ;
 auto
@@ -13434,6 +13492,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeColumn
+(
+)
 )
 ;
 nsRect
@@ -13558,6 +13618,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeRow
+(
+)
 )
 ;
 nsRect
@@ -14263,6 +14325,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeSeparator
+(
+)
 )
 ;
 bool
@@ -14587,6 +14651,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 )
 ;
 bool
@@ -14715,6 +14781,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeLine
+(
+)
 )
 ;
 if
@@ -14748,6 +14816,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeTwisty
+(
+)
 )
 ;
 nsRect
@@ -15551,6 +15621,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeTwisty
+(
+)
 )
 ;
 nsRect
@@ -15954,6 +16026,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeImage
+(
+)
 )
 ;
 float
@@ -16668,6 +16742,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCellText
+(
+)
 )
 ;
 float
@@ -17070,6 +17146,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCell
+(
+)
 )
 ;
 if
@@ -17225,6 +17303,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeCheckbox
+(
+)
 )
 ;
 nscoord
@@ -17626,6 +17706,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeDropFeedback
+(
+)
 )
 ;
 ImgDrawResult
@@ -17787,6 +17869,8 @@ nsCSSAnonBoxes
 :
 :
 mozTreeTwisty
+(
+)
 )
 ;
 nsRect

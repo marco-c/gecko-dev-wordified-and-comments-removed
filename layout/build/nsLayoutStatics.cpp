@@ -848,13 +848,6 @@ StartUp
 (
 )
 ;
-nsCSSAnonBoxes
-:
-:
-RegisterStaticAtoms
-(
-)
-;
 nsCSSKeywords
 :
 :
@@ -884,6 +877,13 @@ NS_SetStaticAtomsDone
 ifdef
 DEBUG
 nsCSSPseudoElements
+:
+:
+AssertAtoms
+(
+)
+;
+nsCSSAnonBoxes
 :
 :
 AssertAtoms

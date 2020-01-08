@@ -11805,6 +11805,8 @@ nsCSSAnonBoxes
 :
 :
 cellContent
+(
+)
 )
 {
 nsFrame

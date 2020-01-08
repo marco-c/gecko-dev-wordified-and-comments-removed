@@ -1770,6 +1770,8 @@ nsCSSAnonBoxes
 :
 :
 mozXULAnonymousBlock
+(
+)
 )
 {
 mScrollableFrame
