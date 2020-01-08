@@ -144,6 +144,13 @@ dict
     
 (
 "
+strictFileInteractability
+"
+bool
+)
+    
+(
+"
 unhandledPromptBehavior
 "
 basestring
@@ -250,6 +257,13 @@ script
 :
 30000
 }
+)
+    
+(
+"
+strictFileInteractability
+"
+False
 )
     
 (
