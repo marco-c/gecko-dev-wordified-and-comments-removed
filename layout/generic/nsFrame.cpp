@@ -44953,12 +44953,10 @@ outline
 -
 >
 mOutlineStyle
-=
-=
-StyleBorderStyle
-:
-:
-Auto
+.
+IsAuto
+(
+)
 ;
 if
 (

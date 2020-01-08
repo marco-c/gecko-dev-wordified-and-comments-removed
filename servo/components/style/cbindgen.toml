@@ -251,6 +251,9 @@ struct
 derive_eq
 =
 true
+derive_neq
+=
+true
 [
 enum
 ]
@@ -276,6 +279,12 @@ BreakBetween
 "
 "
 BreakWithin
+"
+"
+BorderStyle
+"
+"
+OutlineStyle
 "
 "
 ComputedFontStretchRange

@@ -326,6 +326,10 @@ BorderImageRepeat
 "
     
 "
+BorderStyle
+"
+    
+"
 BreakBetween
 "
     
@@ -459,6 +463,10 @@ OffsetPath
     
 "
 Opacity
+"
+    
+"
+OutlineStyle
 "
     
 "
