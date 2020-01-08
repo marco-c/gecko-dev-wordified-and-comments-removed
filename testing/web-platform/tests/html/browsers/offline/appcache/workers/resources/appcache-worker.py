@@ -706,6 +706,12 @@ fetchNotInCacheFileTest
 .
 then
 (
+fetchFallbackFileTest
+)
+  
+.
+then
+(
 _
 =
 >
