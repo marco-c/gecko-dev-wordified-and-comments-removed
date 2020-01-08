@@ -59,6 +59,10 @@ mLastEventTime
 (
 0
 )
+mAdditionalDelta
+(
+0
+)
 {
 }
 void
@@ -147,6 +151,8 @@ Length
 ]
 .
 second
+-
+mAdditionalDelta
 ;
 }
 mHistory
@@ -160,6 +166,8 @@ make_pair
 (
 aTimestampMs
 aPos
++
+mAdditionalDelta
 )
 )
 ;
@@ -266,6 +274,11 @@ ParentLayerCoord
 aDelta
 )
 {
+mAdditionalDelta
++
+=
+aDelta
+;
 float
 timeDelta
 =
@@ -1226,6 +1239,10 @@ Clear
 (
 )
 {
+mAdditionalDelta
+=
+0
+;
 mHistory
 .
 Clear
