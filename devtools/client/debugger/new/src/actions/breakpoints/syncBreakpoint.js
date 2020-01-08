@@ -294,9 +294,12 @@ sourceId
 const
 generatedSourceId
 =
-sourceMaps
+(
+0
+_devtoolsSourceMap
 .
 isOriginalId
+)
 (
 sourceId
 )
@@ -542,9 +545,12 @@ scopedGeneratedLocation
 pendingBreakpoint
 .
 condition
-sourceMaps
+(
+0
+_devtoolsSourceMap
 .
 isOriginalId
+)
 (
 sourceId
 )

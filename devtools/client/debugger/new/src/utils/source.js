@@ -330,6 +330,11 @@ ts
 "
 typescript
 "
+vue
+:
+"
+vue
+"
 }
 ;
 function

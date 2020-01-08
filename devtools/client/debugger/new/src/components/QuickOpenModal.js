@@ -1062,7 +1062,7 @@ item
 {
 const
 {
-selectLocation
+selectSpecificLocation
 selectedSource
 highlightLineRange
 }
@@ -1124,7 +1124,7 @@ line
 0
 ;
 return
-selectLocation
+selectSpecificLocation
 (
 {
 sourceId
@@ -1301,7 +1301,7 @@ location
 {
 const
 {
-selectLocation
+selectSpecificLocation
 selectedSource
 }
 =
@@ -1342,7 +1342,7 @@ sourceId
 :
 selectedSourceId
 ;
-selectLocation
+selectSpecificLocation
 (
 {
 sourceId
@@ -2692,13 +2692,13 @@ _actions2
 default
 .
 shortcutsModalEnabled
-selectLocation
+selectSpecificLocation
 :
 _actions2
 .
 default
 .
-selectLocation
+selectSpecificLocation
 setQuickOpenQuery
 :
 _actions2

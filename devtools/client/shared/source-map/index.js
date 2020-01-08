@@ -3599,6 +3599,18 @@ hasMappedSource
 "
 )
 ;
+const
+getOriginalStackFrames
+=
+dispatcher
+.
+task
+(
+"
+getOriginalStackFrames
+"
+)
+;
 module
 .
 exports
@@ -3619,6 +3631,7 @@ getLocationScopes
 getOriginalSourceText
 applySourceMap
 clearSourceMaps
+getOriginalStackFrames
 startSourceMapWorker
 :
 dispatcher

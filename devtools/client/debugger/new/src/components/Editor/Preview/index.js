@@ -212,6 +212,17 @@ closest
 (
 "
 .
+tooltip
+"
+)
+|
+|
+relatedTarget
+.
+closest
+(
+"
+.
 popover
 "
 )

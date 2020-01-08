@@ -533,7 +533,7 @@ this
 .
 props
 .
-selectLocation
+selectSpecificLocation
 (
 {
 .
@@ -1990,13 +1990,13 @@ _actions2
 default
 .
 clearSearch
-selectLocation
+selectSpecificLocation
 :
 _actions2
 .
 default
 .
-selectLocation
+selectSpecificLocation
 setActiveSearch
 :
 _actions2
