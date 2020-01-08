@@ -836,6 +836,8 @@ freeze
 ;
 }
 action_sequence
+:
+function
 (
 actions
 )

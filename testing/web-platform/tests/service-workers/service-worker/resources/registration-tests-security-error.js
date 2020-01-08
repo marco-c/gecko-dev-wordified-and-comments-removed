@@ -640,8 +640,9 @@ promise_rejects
 t
 check_error_types
 ?
-new
-TypeError
+'
+SecurityError
+'
 :
 null
 register_method
@@ -671,7 +672,7 @@ should
 '
 fail
 with
-TypeError
+SecurityError
 .
 '
 )

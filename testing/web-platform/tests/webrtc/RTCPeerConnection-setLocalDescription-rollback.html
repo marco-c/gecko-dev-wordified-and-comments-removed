@@ -135,9 +135,6 @@ js
 /
 assert_session_desc_similar
 /
-/
-generateAudioReceiveOnlyOffer
-/
 *
 4
 .
@@ -755,9 +752,15 @@ close
 )
 ;
 return
-generateAudioReceiveOnlyOffer
-(
 pc
+.
+createOffer
+(
+{
+offerToReceiveAudio
+:
+true
+}
 )
 .
 then
