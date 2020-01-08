@@ -723,7 +723,7 @@ font
 -
 value
 -
-slider
+input
 [
 name
 =
