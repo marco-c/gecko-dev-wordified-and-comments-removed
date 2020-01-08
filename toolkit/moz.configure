@@ -4405,7 +4405,11 @@ eme_default
 help
 =
 '
+{
 Enable
+|
+Disable
+}
 support
 for
 Encrypted

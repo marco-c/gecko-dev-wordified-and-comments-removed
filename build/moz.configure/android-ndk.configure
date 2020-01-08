@@ -226,6 +226,9 @@ help
 android
 platform
 version
+{
+|
+}
 '
 default
 =
