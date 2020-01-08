@@ -2101,8 +2101,6 @@ left
 MDefinition
 *
 right
-bool
-canTrackOptimization
 )
 ;
 AbortReasonOr
