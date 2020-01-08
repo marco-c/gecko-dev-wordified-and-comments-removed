@@ -13028,3 +13028,15 @@ warn
 "
 )
 ;
+pref
+(
+"
+intl
+.
+multilingual
+.
+enabled
+"
+false
+)
+;
