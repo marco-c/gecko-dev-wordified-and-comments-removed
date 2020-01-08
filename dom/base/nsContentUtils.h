@@ -532,6 +532,9 @@ HTMLEditor
 namespace
 dom
 {
+class
+ContentFrameMessageManager
+;
 struct
 CustomElementDefinition
 ;
@@ -6496,9 +6499,9 @@ mozilla
 dom
 :
 :
-EventTarget
+ContentFrameMessageManager
 >
-TryGetTabChildGlobalAsEventTarget
+TryGetTabChildGlobal
 (
 nsISupports
 *
