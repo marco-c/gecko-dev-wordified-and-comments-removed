@@ -7961,7 +7961,6 @@ geckodriver
 MOZ_AUTOMATION
 '
 compile_environment
-cross_compiling
 hazard_analysis
 )
 def
@@ -7970,7 +7969,6 @@ geckodriver
 enable
 automation
 compile_env
-cross_compile
 hazard
 )
 :
@@ -8097,8 +8095,6 @@ default
 :
 broken_platforms
 =
-cross_compile
-or
 hazard
 if
 automation
