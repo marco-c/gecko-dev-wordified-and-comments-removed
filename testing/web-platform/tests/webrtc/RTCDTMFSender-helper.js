@@ -412,11 +412,13 @@ now
 -
 lastEventTime
 ;
-assert_approx_equals
+assert_between_inclusive
 (
 duration
 expectedDuration
-400
+expectedDuration
++
+4000
 Expect
 tonechange
 event
