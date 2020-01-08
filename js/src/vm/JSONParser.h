@@ -98,7 +98,7 @@ Error
 }
 ;
 typedef
-GCVector
+Vector
 <
 Value
 20
@@ -106,7 +106,7 @@ Value
 ElementVector
 ;
 typedef
-GCVector
+Vector
 <
 IdValuePair
 10
