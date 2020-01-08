@@ -410,7 +410,7 @@ aKey
 )
 ;
 void
-AddExternalImageForTexture
+PushExternalImageForTexture
 (
 wr
 :
@@ -428,6 +428,8 @@ layers
 TextureClient
 *
 aTexture
+bool
+aIsUpdate
 )
 ;
 bool

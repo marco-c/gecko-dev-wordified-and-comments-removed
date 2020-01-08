@@ -1235,7 +1235,7 @@ aResources
 )
 ;
 bool
-AddExternalImageForTexture
+PushExternalImageForTexture
 (
 wr
 :
@@ -1250,6 +1250,8 @@ aKey
 TextureHost
 *
 aTexture
+bool
+aIsUpdate
 wr
 :
 :

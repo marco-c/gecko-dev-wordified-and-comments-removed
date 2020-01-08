@@ -1544,7 +1544,7 @@ void
 IpcResourceUpdateQueue
 :
 :
-AddExternalImageForTexture
+PushExternalImageForTexture
 (
 wr
 :
@@ -1562,6 +1562,8 @@ layers
 TextureClient
 *
 aTexture
+bool
+aIsUpdate
 )
 {
 MOZ_ASSERT
@@ -1613,7 +1615,7 @@ AppendElement
 layers
 :
 :
-OpAddExternalImageForTexture
+OpPushExternalImageForTexture
 (
 aExtId
 aKey
@@ -1624,6 +1626,7 @@ aTexture
 GetIPDLActor
 (
 )
+aIsUpdate
 )
 )
 ;

@@ -475,7 +475,7 @@ key
 }
 ;
 struct
-OpAddExternalImageForTexture
+OpPushExternalImageForTexture
 {
 ExternalImageId
 externalImageId
@@ -485,6 +485,9 @@ key
 ;
 PTexture
 texture
+;
+bool
+isUpdate
 ;
 }
 ;
@@ -755,7 +758,7 @@ OpDeleteFontInstance
 ;
 OpAddExternalImage
 ;
-OpAddExternalImageForTexture
+OpPushExternalImageForTexture
 ;
 }
 ;
