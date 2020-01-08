@@ -13,6 +13,13 @@ DOMEventTargetHelper
 .
 h
 "
+#
+include
+"
+nsTObserverArray
+.
+h
+"
 namespace
 mozilla
 {
@@ -130,7 +137,7 @@ default
 ;
 private
 :
-nsTArray
+nsTObserverArray
 <
 AbortFollower
 *
