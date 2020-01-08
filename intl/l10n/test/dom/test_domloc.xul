@@ -227,6 +227,7 @@ addMessages
 file
 -
 menu
+=
 .
 label
 =
@@ -238,6 +239,7 @@ F
 new
 -
 tab
+=
 .
 label
 =

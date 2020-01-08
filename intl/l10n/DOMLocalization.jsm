@@ -318,13 +318,6 @@ xul
 "
 :
 {
-description
-:
-[
-"
-value
-"
-]
 global
 :
 [
@@ -350,6 +343,13 @@ hint
 "
 "
 label
+"
+]
+description
+:
+[
+"
+value
 "
 ]
 key
@@ -1695,6 +1695,7 @@ from
 a
 different
 window
+.
 )
 ;
 }
