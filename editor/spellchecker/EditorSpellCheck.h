@@ -57,9 +57,6 @@ class
 mozSpellChecker
 ;
 class
-nsComposeTxtSrvFilter
-;
-class
 nsIEditor
 ;
 class

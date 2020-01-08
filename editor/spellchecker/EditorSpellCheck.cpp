@@ -118,13 +118,6 @@ h
 #
 include
 "
-nsComposeTxtSrvFilter
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h
