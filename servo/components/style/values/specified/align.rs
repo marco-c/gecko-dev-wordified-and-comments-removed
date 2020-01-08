@@ -633,8 +633,15 @@ AlignFlags
 UNSAFE
 =
 >
-{
-}
+dest
+.
+write_str
+(
+"
+unsafe
+"
+)
+?
 _
 =
 >
