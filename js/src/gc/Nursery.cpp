@@ -1945,10 +1945,7 @@ mozilla
 TimeStamp
 start
 =
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 ;
@@ -1977,10 +1974,7 @@ nullptr
 timeInChunkAlloc_
 +
 =
-TimeStamp
-:
-:
-Now
+ReallyNow
 (
 )
 -
