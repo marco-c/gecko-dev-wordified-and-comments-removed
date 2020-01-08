@@ -10376,8 +10376,6 @@ URLManualDownloadAppend
 FunctionEnd
 Function
 ShouldPromptForProfileCleanup
-Call
-GetLatestReleasedVersion
 ;
 This
 will
@@ -11316,7 +11314,7 @@ aurora
 StrCpy
 1
 "
-FIREFOX_AURORA
+FIREFOX_DEVEDITION
 "
 {
 Case
