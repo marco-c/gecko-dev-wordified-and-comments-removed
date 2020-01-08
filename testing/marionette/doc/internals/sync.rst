@@ -70,3 +70,11 @@ TimedPromise
 :
 members
 :
+.
+.
+js
+:
+autofunction
+:
+:
+waitForEvent
