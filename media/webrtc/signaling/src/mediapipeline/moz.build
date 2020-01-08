@@ -211,11 +211,6 @@ RtpLogger
 .
 cpp
 '
-'
-TransportLayerPacketDumper
-.
-cpp
-'
 ]
 DEFINES
 [

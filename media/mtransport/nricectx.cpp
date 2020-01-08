@@ -3778,10 +3778,6 @@ NrIceCtx
 (
 )
 {
-Destroy
-(
-)
-;
 }
 void
 NrIceCtx
