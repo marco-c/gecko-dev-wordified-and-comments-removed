@@ -638,6 +638,9 @@ ChannelMap
 aChannelMap
 uint32_t
 aRate
+AudioDeviceInfo
+*
+aSinkInfo
 )
 ;
 void
@@ -657,7 +660,7 @@ double
 aVolume
 )
 ;
-void
+nsresult
 Start
 (
 )
@@ -956,6 +959,12 @@ mDataSource
 ;
 bool
 mPrefillQuirk
+;
+RefPtr
+<
+AudioDeviceInfo
+>
+mSinkInfo
 ;
 }
 ;

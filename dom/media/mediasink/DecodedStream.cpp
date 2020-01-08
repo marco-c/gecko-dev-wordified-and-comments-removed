@@ -1229,7 +1229,7 @@ return
 nullptr
 ;
 }
-void
+nsresult
 DecodedStream
 :
 :
@@ -1601,6 +1601,9 @@ SendData
 )
 ;
 }
+return
+NS_OK
+;
 }
 void
 DecodedStream

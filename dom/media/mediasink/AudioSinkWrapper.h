@@ -288,7 +288,7 @@ aPlaying
 )
 override
 ;
-void
+nsresult
 Start
 (
 const
