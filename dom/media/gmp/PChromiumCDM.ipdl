@@ -121,6 +121,8 @@ cdm
 :
 :
 ContentDecryptionModule9
++
+10
 async
 Init
 (
@@ -275,6 +277,8 @@ cdm
 :
 :
 Host9
++
+10
 async
 OnResolvePromiseWithKeyStatus
 (
