@@ -23,6 +23,10 @@ support
 inline
 import
 inline
+from
+.
+import
+map_files_to_multiline_text
 pytest
 .
 fixture
@@ -129,7 +133,7 @@ def
 test_file_upload
 (
 session
-create_file
+create_files
 add_event_listeners
 tracked_events
 )
@@ -149,13 +153,18 @@ change
     
 ]
     
-single_file
+files
 =
-create_file
+create_files
 (
+[
 "
 foo
 "
+"
+bar
+"
+]
 )
     
 session
@@ -203,9 +212,9 @@ element_send_keys
 (
 session
 element
-str
+map_files_to_multiline_text
 (
-single_file
+files
 )
 )
     
