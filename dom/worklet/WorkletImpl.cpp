@@ -430,6 +430,7 @@ dom
 :
 AudioWorkletGlobalScope
 (
+this
 )
 ;
 break
@@ -445,6 +446,7 @@ dom
 :
 PaintWorkletGlobalScope
 (
+this
 )
 ;
 break

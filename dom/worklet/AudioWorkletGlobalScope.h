@@ -18,6 +18,9 @@ h
 namespace
 mozilla
 {
+class
+WorkletImpl
+;
 namespace
 dom
 {
@@ -33,8 +36,12 @@ WorkletGlobalScope
 {
 public
 :
+explicit
 AudioWorkletGlobalScope
 (
+WorkletImpl
+*
+aImpl
 )
 ;
 bool
