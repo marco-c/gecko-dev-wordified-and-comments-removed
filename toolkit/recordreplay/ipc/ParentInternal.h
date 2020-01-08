@@ -975,12 +975,6 @@ SetPauseNeeded
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-!
-mPauseNeeded
-)
-;
 mPauseNeeded
 =
 true
