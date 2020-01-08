@@ -749,6 +749,16 @@ ClassMethod
 classMethod
 "
 )
+ASTDEF
+(
+AST_CLASS_FIELD
+"
+ClassField
+"
+"
+classField
+"
+)
 /
 *
 AST_LIMIT
