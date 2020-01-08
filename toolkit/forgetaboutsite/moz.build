@@ -99,7 +99,6 @@ browser
 ini
 '
 ]
-#
 XPCSHELL_TESTS_MANIFESTS
 +
 =

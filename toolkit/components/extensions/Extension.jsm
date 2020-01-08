@@ -1350,6 +1350,16 @@ addon
 id
 )
 ;
+if
+(
+!
+Services
+.
+lsm
+.
+nextGenLocalStorageEnabled
+)
+{
 let
 storage
 =
@@ -1374,6 +1384,7 @@ clear
 (
 )
 ;
+}
 }
 Services
 .
