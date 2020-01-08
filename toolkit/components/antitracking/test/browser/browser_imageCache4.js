@@ -18,9 +18,9 @@ jsm
 )
 ;
 let
-blockingByCookieBehavior
+cookieBehavior
 =
-true
+BEHAVIOR_REJECT_TRACKER
 ;
 let
 blockingByContentBlocking
