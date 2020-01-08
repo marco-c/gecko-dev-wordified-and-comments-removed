@@ -1807,6 +1807,15 @@ Commit
 )
 ;
 }
+}
+void
+RenderCompositorANGLE
+:
+:
+WaitForGPU
+(
+)
+{
 WaitForPreviousPresentQuery
 (
 )

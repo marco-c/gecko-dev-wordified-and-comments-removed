@@ -2937,10 +2937,12 @@ AsyncImagePipelineManager
 :
 NotifyPipelinesUpdated
 (
+const
 wr
 :
 :
 WrPipelineInfo
+&
 aInfo
 bool
 aRender
