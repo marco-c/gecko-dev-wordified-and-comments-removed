@@ -2314,6 +2314,12 @@ GetChildProcessManager
 )
 )
 {
+recordreplay
+:
+:
+AutoPassThroughThreadEvents
+pt
+;
 ProcessGlobal
 *
 pg
