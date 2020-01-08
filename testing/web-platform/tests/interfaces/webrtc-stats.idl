@@ -819,7 +819,7 @@ RTCNetworkType
 networkType
 ;
 DOMString
-ip
+address
 ;
 long
 port
