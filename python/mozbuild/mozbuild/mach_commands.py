@@ -21,6 +21,8 @@ os
 import
 re
 import
+shutil
+import
 subprocess
 import
 sys
@@ -10880,9 +10882,6 @@ redo
 import
 requests
         
-import
-shutil
-        
 from
 taskgraph
 .
@@ -16354,9 +16353,6 @@ futures
 import
 multiprocessing
         
-import
-shutil
-        
 max_workers
 =
 multiprocessing
@@ -18258,9 +18254,6 @@ json
 )
 )
 )
-        
-import
-shutil
         
 shutil
 .
@@ -21393,9 +21386,6 @@ and
 download_if_needed
 :
             
-import
-shutil
-            
 shutil
 .
 rmtree
@@ -22193,9 +22183,6 @@ and
 download_if_needed
 :
                 
-import
-shutil
-                
 shutil
 .
 rmtree
@@ -22918,9 +22905,6 @@ show
 paths
 )
 :
-        
-import
-shutil
         
 from
 subprocess
