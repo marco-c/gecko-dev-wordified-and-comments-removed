@@ -284,7 +284,7 @@ actor
 ;
 gClient
 .
-attachTarget
+attachTab
 (
 actor
 )

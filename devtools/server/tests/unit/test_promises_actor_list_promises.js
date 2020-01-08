@@ -60,7 +60,7 @@ client
 )
 ;
 await
-attachTarget
+attachTab
 (
 client
 parentProcessActors

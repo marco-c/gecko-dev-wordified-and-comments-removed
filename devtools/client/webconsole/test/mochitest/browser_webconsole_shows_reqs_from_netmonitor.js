@@ -218,7 +218,6 @@ found
 const
 target
 =
-await
 TargetFactory
 .
 forTab

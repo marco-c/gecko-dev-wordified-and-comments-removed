@@ -397,7 +397,7 @@ loadListener
 ;
 client
 .
-attachTarget
+attachTab
 (
 tab
 .

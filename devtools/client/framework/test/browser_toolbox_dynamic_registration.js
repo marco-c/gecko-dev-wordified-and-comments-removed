@@ -31,7 +31,6 @@ TEST_URL
 .
 then
 (
-async
 tab
 =
 >
@@ -39,7 +38,6 @@ tab
 const
 target
 =
-await
 TargetFactory
 .
 forTab

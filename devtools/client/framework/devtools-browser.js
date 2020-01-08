@@ -347,7 +347,6 @@ new
 WeakMap
 (
 )
-async
 toggleToolboxCommand
 (
 gBrowser
@@ -357,7 +356,6 @@ startTime
 const
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -958,7 +956,6 @@ this
 ;
 }
 }
-async
 selectToolCommand
 (
 gBrowser
@@ -969,7 +966,6 @@ startTime
 const
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -1132,7 +1128,6 @@ toolId
 ;
 }
 }
-async
 onKeyShortcut
 (
 window
@@ -1147,7 +1142,6 @@ key
 toolId
 )
 {
-await
 gDevToolsBrowser
 .
 selectToolCommand
@@ -1181,7 +1175,6 @@ case
 toggleToolboxF12
 "
 :
-await
 gDevToolsBrowser
 .
 toggleToolboxCommand
@@ -1295,7 +1288,6 @@ case
 inspectorMac
 "
 :
-await
 gDevToolsBrowser
 .
 selectToolCommand
@@ -2142,7 +2134,6 @@ Ci
 nsISlowScriptDebug
 )
 ;
-async
 function
 slowScriptDebugHandler
 (
@@ -2153,7 +2144,6 @@ callback
 const
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -2444,13 +2434,6 @@ finishDebuggerStartup
 )
 ;
 }
-)
-.
-catch
-(
-console
-.
-error
 )
 ;
 }

@@ -462,7 +462,6 @@ toolbox
 let
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -1260,7 +1259,7 @@ response
 await
 aClient
 .
-attachTarget
+attachTab
 (
 grip
 .
@@ -3633,7 +3632,6 @@ wrappedJSObject
 let
 target
 =
-yield
 TargetFactory
 .
 forTab
@@ -4080,10 +4078,9 @@ this
 .
 target
 =
-yield
 TargetFactory
 .
-forRemoteTab
+forTab
 (
 targetOptions
 )
@@ -6587,7 +6584,7 @@ null
 ;
 }
 function
-attachTarget
+attachTab
 (
 client
 tab
@@ -6617,7 +6614,7 @@ url
 return
 client
 .
-attachTarget
+attachTab
 (
 tab
 .
@@ -7716,7 +7713,7 @@ tabClient
 ]
 =
 await
-attachTarget
+attachTab
 (
 client
 findTab

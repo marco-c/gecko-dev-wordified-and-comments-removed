@@ -223,7 +223,6 @@ test
 }
 )
 ;
-async
 function
 closeToolboxForTab
 (
@@ -233,7 +232,6 @@ tab
 const
 target
 =
-await
 TargetFactory
 .
 forTab

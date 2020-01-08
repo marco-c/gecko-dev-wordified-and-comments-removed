@@ -156,7 +156,6 @@ jsterm
 const
 target
 =
-await
 TargetFactory
 .
 forTab

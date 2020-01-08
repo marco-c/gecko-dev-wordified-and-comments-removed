@@ -160,7 +160,6 @@ tabs
 .
 target
 =
-await
 TargetFactory
 .
 forTab

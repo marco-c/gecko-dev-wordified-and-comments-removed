@@ -104,7 +104,7 @@ tabClient
 ]
 =
 yield
-attachTarget
+attachTab
 (
 client
 findTab

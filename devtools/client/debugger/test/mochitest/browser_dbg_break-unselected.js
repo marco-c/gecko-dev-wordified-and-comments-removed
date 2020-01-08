@@ -39,7 +39,6 @@ TAB_URL
 const
 target
 =
-yield
 TargetFactory
 .
 forTab
