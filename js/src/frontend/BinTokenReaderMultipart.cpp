@@ -97,7 +97,7 @@ const
 uint32_t
 MAGIC_FORMAT_VERSION
 =
-0
+1
 ;
 const
 char
