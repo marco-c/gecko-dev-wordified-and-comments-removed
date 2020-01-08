@@ -3815,14 +3815,12 @@ enable
 av1
 '
 target
-milestone
 )
 def
 av1
 (
 value
 target
-milestone
 )
 :
 enabled
@@ -3863,10 +3861,7 @@ x86
 enabled
 =
 False
-elif
-milestone
-.
-is_nightly
+else
 :
 enabled
 =
