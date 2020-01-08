@@ -1475,6 +1475,9 @@ render_target_textures
 uintptr_t
 texture_cache_textures
 ;
+uintptr_t
+depth_target_textures
+;
 bool
 operator
 =
@@ -1590,6 +1593,14 @@ texture_cache_textures
 aOther
 .
 texture_cache_textures
+&
+&
+depth_target_textures
+=
+=
+aOther
+.
+depth_target_textures
 ;
 }
 }
