@@ -2448,6 +2448,7 @@ NS_IMPL_CYCLE_COLLECTION
 ExtensionPolicyService
 mExtensions
 mExtensionHosts
+mObservers
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
