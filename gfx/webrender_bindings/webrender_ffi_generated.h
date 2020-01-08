@@ -5353,6 +5353,18 @@ WR_FUNC
 ;
 WR_INLINE
 void
+wr_transaction_set_low_priority
+(
+Transaction
+*
+aTxn
+bool
+aLowPriority
+)
+WR_FUNC
+;
+WR_INLINE
+void
 wr_transaction_set_root_pipeline
 (
 Transaction
@@ -5458,6 +5470,8 @@ uint32_t
 aWindowWidth
 uint32_t
 aWindowHeight
+bool
+aSupportLowPriorityTransactions
 void
 *
 aGlContext

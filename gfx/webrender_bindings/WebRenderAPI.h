@@ -189,6 +189,13 @@ TransactionBuilder
 )
 ;
 void
+SetLowPriority
+(
+bool
+aIsLowPriority
+)
+;
+void
 UpdateEpoch
 (
 PipelineId
