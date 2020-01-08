@@ -2757,16 +2757,9 @@ self
 .
 install_apk
 (
-os
-.
-path
-.
-basename
-(
 self
 .
-installer_url
-)
+installer_path
 )
         
 else
