@@ -1080,6 +1080,10 @@ AutoRecordDecoderTelemetry
 ;
 friend
 class
+DecoderTestHelper
+;
+friend
+class
 nsICODecoder
 ;
 friend

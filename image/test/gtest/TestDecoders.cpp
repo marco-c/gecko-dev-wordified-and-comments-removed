@@ -661,6 +661,10 @@ CreateAnonymousDecoder
 decoderType
 sourceBuffer
 aOutputSize
+DecoderFlags
+:
+:
+FIRST_FRAME_ONLY
 DefaultSurfaceFlags
 (
 )
@@ -841,6 +845,10 @@ sourceBuffer
 Nothing
 (
 )
+DecoderFlags
+:
+:
+FIRST_FRAME_ONLY
 DefaultSurfaceFlags
 (
 )
