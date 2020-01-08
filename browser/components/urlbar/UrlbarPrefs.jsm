@@ -258,6 +258,12 @@ false
 ]
 [
 "
+trimURLs
+"
+true
+]
+[
+"
 usepreloadedtopurls
 .
 enabled
