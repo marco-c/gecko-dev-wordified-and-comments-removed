@@ -485,6 +485,17 @@ else
 false
 #
 endif
+ASAN_REPORTER
+:
+#
+ifdef
+MOZ_ASAN_REPORTER
+true
+#
+else
+false
+#
+endif
 MOZ_GRAPHENE
 :
 #
