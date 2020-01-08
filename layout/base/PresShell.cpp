@@ -38018,6 +38018,12 @@ mActiveSuppressDisplayport
 ;
 }
 else
+if
+(
+mActiveSuppressDisplayport
+>
+0
+)
 {
 bool
 isSuppressed
@@ -38065,14 +38071,6 @@ SchedulePaint
 }
 }
 }
-MOZ_ASSERT
-(
-mActiveSuppressDisplayport
->
-=
-0
-)
-;
 }
 static
 bool
