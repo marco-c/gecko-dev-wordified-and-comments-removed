@@ -1700,9 +1700,6 @@ reset_only_changed
 )
 ;
 const
-mozilla
-:
-:
 ServoElementSnapshot
 *
 Gecko_GetElementSnapshot

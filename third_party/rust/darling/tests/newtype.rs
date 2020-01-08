@@ -21,7 +21,7 @@ FromDeriveInput
 derive
 (
 Debug
-FromMeta
+FromMetaItem
 PartialEq
 Eq
 )

@@ -24,7 +24,7 @@ Debug
 Default
 PartialEq
 Eq
-FromMeta
+FromMetaItem
 )
 ]
 #
@@ -52,7 +52,7 @@ derive
 Debug
 PartialEq
 Eq
-FromMeta
+FromMetaItem
 )
 ]
 #

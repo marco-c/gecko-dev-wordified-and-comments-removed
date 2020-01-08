@@ -514,10 +514,6 @@ lang
 .
 org
 /
-en
--
-US
-/
 faq
 .
 html

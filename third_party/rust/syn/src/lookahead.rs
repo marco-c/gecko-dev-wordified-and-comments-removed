@@ -259,7 +259,6 @@ len
 0
 =
 >
-{
 if
 self
 .
@@ -304,7 +303,6 @@ unexpected
 token
 "
 )
-}
 }
 1
 =

@@ -1,20 +1,4 @@
 use
-super
-:
-:
-animate_multiplicative_factor
-;
-use
-super
-:
-:
-{
-Animate
-Procedure
-ToAnimatedZero
-}
-;
-use
 crate
 :
 :
@@ -39,43 +23,11 @@ computed
 transform
 :
 :
-Rotate
-as
-ComputedRotate
-;
-use
-crate
-:
-:
-values
-:
-:
-computed
-:
-:
-transform
-:
-:
-Scale
-as
-ComputedScale
-;
-use
-crate
-:
-:
-values
-:
-:
-computed
-:
-:
-transform
-:
-:
-Transform
-as
-ComputedTransform
+{
+DirectionVector
+Matrix
+Matrix3D
+}
 ;
 use
 crate
@@ -107,6 +59,40 @@ computed
 transform
 :
 :
+Transform
+as
+ComputedTransform
+;
+use
+crate
+:
+:
+values
+:
+:
+computed
+:
+:
+transform
+:
+:
+Rotate
+as
+ComputedRotate
+;
+use
+crate
+:
+:
+values
+:
+:
+computed
+:
+:
+transform
+:
+:
 Translate
 as
 ComputedTranslate
@@ -124,11 +110,9 @@ computed
 transform
 :
 :
-{
-DirectionVector
-Matrix
-Matrix3D
-}
+Scale
+as
+ComputedScale
 ;
 use
 crate
@@ -245,6 +229,22 @@ std
 :
 :
 cmp
+;
+use
+super
+:
+:
+{
+Animate
+Procedure
+ToAnimatedZero
+}
+;
+use
+super
+:
+:
+animate_multiplicative_factor
 ;
 #
 [
@@ -1694,6 +1694,7 @@ to
 )
 =
 >
+{
 Matrix3D
 :
 :
@@ -1713,6 +1714,7 @@ procedure
 into_2d
 (
 )
+}
 _
 =
 >
@@ -3698,6 +3700,7 @@ f32
 3
 ]
 |
+{
 a
 [
 0
@@ -3727,6 +3730,7 @@ b
 [
 2
 ]
+}
 ;
 let
 cross
@@ -5286,6 +5290,7 @@ other
 )
 =
 >
+{
 Ok
 (
 Matrix3D
@@ -5304,6 +5309,7 @@ procedure
 ?
 )
 )
+}
 _
 =
 >
@@ -5458,6 +5464,7 @@ to
 )
 =
 >
+{
 Ok
 (
 Matrix3D
@@ -5476,6 +5483,7 @@ procedure
 ?
 )
 )
+}
 _
 =
 >
@@ -7028,6 +7036,7 @@ ty
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7077,6 +7086,7 @@ procedure
 )
 )
 )
+}
 (
 &
 TransformOperation
@@ -7189,6 +7199,7 @@ tz
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7222,6 +7233,7 @@ procedure
 ?
 )
 )
+}
 (
 &
 TransformOperation
@@ -7246,6 +7258,7 @@ None
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7264,6 +7277,7 @@ procedure
 None
 )
 )
+}
 (
 &
 TransformOperation
@@ -7290,6 +7304,7 @@ ty
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7339,6 +7354,7 @@ procedure
 )
 )
 )
+}
 (
 &
 TransformOperation
@@ -7492,6 +7508,7 @@ tz
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7528,6 +7545,7 @@ procedure
 ?
 )
 )
+}
 (
 &
 TransformOperation
@@ -7550,6 +7568,7 @@ t
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7568,6 +7587,7 @@ procedure
 ?
 )
 )
+}
 (
 &
 TransformOperation
@@ -7590,6 +7610,7 @@ t
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7608,6 +7629,7 @@ procedure
 ?
 )
 )
+}
 (
 &
 TransformOperation
@@ -7630,6 +7652,7 @@ t
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7648,6 +7671,7 @@ procedure
 ?
 )
 )
+}
 (
 &
 TransformOperation
@@ -7719,6 +7743,7 @@ ty
 )
 =
 >
+{
 Ok
 (
 TransformOperation
@@ -7759,6 +7784,7 @@ procedure
 )
 )
 )
+}
 (
 &
 TransformOperation
@@ -8260,6 +8286,7 @@ is_translate
 )
 =
 >
+{
 self
 .
 to_translate_3d
@@ -8276,6 +8303,7 @@ to_translate_3d
 )
 procedure
 )
+}
 _
 if
 self
@@ -8326,6 +8354,7 @@ is_rotate
 )
 =
 >
+{
 self
 .
 to_rotate_3d
@@ -8342,6 +8371,7 @@ to_rotate_3d
 )
 procedure
 )
+}
 _
 =
 >
@@ -8386,6 +8416,7 @@ lop
 &
 LengthOrPercentage
 |
+{
 match
 *
 lop
@@ -8434,6 +8465,7 @@ px
 (
 )
 }
+}
 ;
 match
 (
@@ -8556,6 +8588,7 @@ ty
 )
 =
 >
+{
 Ok
 (
 fx
@@ -8576,6 +8609,7 @@ ty
 )
 ?
 )
+}
 (
 &
 TransformOperation
@@ -8755,6 +8789,7 @@ tz
 )
 =
 >
+{
 Ok
 (
 fx
@@ -8784,6 +8819,7 @@ tz
 )
 ?
 )
+}
 (
 &
 TransformOperation
@@ -8810,6 +8846,7 @@ ta
 )
 =
 >
+{
 Rotate
 :
 :
@@ -8835,6 +8872,7 @@ tz
 ta
 )
 )
+}
 (
 &
 TransformOperation
@@ -8943,12 +8981,14 @@ td
 )
 =
 >
+{
 fd
 .
 compute_squared_distance
 (
 td
 )
+}
 (
 &
 TransformOperation
@@ -9053,6 +9093,7 @@ is_translate
 )
 =
 >
+{
 self
 .
 to_translate_3d
@@ -9068,6 +9109,7 @@ to_translate_3d
 (
 )
 )
+}
 _
 if
 self
@@ -9084,6 +9126,7 @@ is_scale
 )
 =
 >
+{
 self
 .
 to_scale_3d
@@ -9099,6 +9142,7 @@ to_scale_3d
 (
 )
 )
+}
 _
 if
 self
@@ -9115,6 +9159,7 @@ is_rotate
 )
 =
 >
+{
 self
 .
 to_rotate_3d
@@ -9130,6 +9175,7 @@ to_rotate_3d
 (
 )
 )
+}
 _
 =
 >
@@ -10174,6 +10220,7 @@ _
 )
 =
 >
+{
 self
 .
 resolve
@@ -10193,6 +10240,7 @@ resolve
 .
 3
 )
+}
 }
 }
 }
@@ -10223,6 +10271,7 @@ Translate
 None
 =
 >
+{
 (
 LengthOrPercentage
 :
@@ -10243,6 +10292,7 @@ zero
 (
 )
 )
+}
 Translate
 :
 :

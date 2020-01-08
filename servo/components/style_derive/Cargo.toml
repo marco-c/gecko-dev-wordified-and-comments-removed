@@ -60,15 +60,6 @@ darling
 "
 0
 .
-8
-"
-proc
--
-macro2
-=
-"
-0
-.
 4
 "
 quote
@@ -76,7 +67,9 @@ quote
 "
 0
 .
-6
+5
+.
+1
 "
 syn
 =
@@ -86,7 +79,9 @@ version
 "
 0
 .
-15
+13
+.
+1
 "
 features
 =
@@ -101,5 +96,5 @@ synstructure
 "
 0
 .
-10
+8
 "

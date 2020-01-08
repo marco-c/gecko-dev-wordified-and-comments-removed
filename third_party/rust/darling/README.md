@@ -136,7 +136,7 @@ implemented
 .
 1
 .
-FromMeta
+FromMetaItem
 is
 used
 to
@@ -297,7 +297,7 @@ syn
 derive
 (
 Default
-FromMeta
+FromMetaItem
 )
 ]
 #

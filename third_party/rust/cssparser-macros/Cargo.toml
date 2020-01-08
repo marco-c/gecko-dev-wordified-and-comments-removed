@@ -124,7 +124,7 @@ version
 .
 3
 .
-5
+3
 "
 authors
 =
@@ -231,7 +231,7 @@ version
 "
 0
 .
-4
+3
 "
 [
 dependencies
@@ -257,7 +257,7 @@ version
 "
 0
 .
-6
+5
 "
 [
 dependencies
@@ -269,9 +269,7 @@ version
 "
 0
 .
-15
-.
-12
+13
 "
 features
 =

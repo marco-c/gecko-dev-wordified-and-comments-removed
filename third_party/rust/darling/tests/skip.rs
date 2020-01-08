@@ -59,7 +59,7 @@ u8
 derive
 (
 Debug
-FromMeta
+FromMetaItem
 )
 ]
 pub

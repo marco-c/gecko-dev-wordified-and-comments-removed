@@ -66,7 +66,7 @@ LoremField
 derive
 (
 Debug
-FromMeta
+FromMetaItem
 )
 ]
 struct
@@ -328,7 +328,7 @@ len
 derive
 (
 Debug
-FromMeta
+FromMetaItem
 )
 ]
 enum

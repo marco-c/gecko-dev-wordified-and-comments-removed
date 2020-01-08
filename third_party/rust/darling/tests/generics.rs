@@ -22,7 +22,7 @@ derive
 (
 Debug
 Clone
-FromMeta
+FromMetaItem
 )
 ]
 struct

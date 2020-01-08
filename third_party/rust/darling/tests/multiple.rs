@@ -57,7 +57,7 @@ Ipsum
 [
 derive
 (
-FromMeta
+FromMetaItem
 )
 ]
 struct
