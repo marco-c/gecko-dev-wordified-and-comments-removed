@@ -230,9 +230,17 @@ extension
 .
 uninstallURL
 {
+disallowInheritPrincipal
+:
+true
 relatedToCurrent
 :
 true
+triggeringPrincipal
+:
+extension
+.
+principal
 }
 )
 ;

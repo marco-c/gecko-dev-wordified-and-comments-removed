@@ -9141,6 +9141,14 @@ searchTerms
 =
 selectedText
 ;
+menuItem
+.
+principal
+=
+this
+.
+principal
+;
 if
 (
 selectedText

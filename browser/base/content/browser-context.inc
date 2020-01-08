@@ -3084,6 +3084,9 @@ loadSearchFromContext
 this
 .
 searchTerms
+this
+.
+principal
 )
 ;
 "
