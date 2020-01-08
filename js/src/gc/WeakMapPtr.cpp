@@ -140,17 +140,6 @@ typedef
 typename
 DataType
 <
-K
->
-:
-:
-HasherType
-HasherType
-;
-typedef
-typename
-DataType
-<
 V
 >
 :
@@ -163,7 +152,6 @@ WeakMap
 <
 KeyType
 ValueType
-HasherType
 >
 Type
 ;
