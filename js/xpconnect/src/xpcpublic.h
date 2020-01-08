@@ -383,6 +383,17 @@ JSObject
 obj
 )
 ;
+bool
+MightBeWebContentCompartment
+(
+JS
+:
+:
+Compartment
+*
+compartment
+)
+;
 void
 SetCompartmentChangedDocumentDomain
 (

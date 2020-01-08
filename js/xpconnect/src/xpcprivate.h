@@ -10866,6 +10866,12 @@ aOther
 )
 const
 ;
+bool
+MightBeWebContent
+(
+)
+const
+;
 const
 mozilla
 :
