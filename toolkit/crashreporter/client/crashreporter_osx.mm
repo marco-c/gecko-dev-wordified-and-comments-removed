@@ -573,6 +573,13 @@ CFBundleName
 ]
 ]
 ;
+[
+NSApp
+activateIgnoringOtherApps
+:
+YES
+]
+;
 }
 -
 (
