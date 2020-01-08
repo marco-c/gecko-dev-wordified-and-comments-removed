@@ -483,6 +483,12 @@ height
 ;
 }
 .
+flexbox
+-
+color
+-
+swatch
+.
 grid
 -
 color
@@ -545,6 +551,12 @@ align
 middle
 ;
 }
+.
+flexbox
+-
+color
+-
+value
 .
 grid
 -
