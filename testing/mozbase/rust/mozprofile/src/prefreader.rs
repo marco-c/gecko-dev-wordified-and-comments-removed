@@ -2151,8 +2151,11 @@ from_u32
 escape_char
 )
 .
-ok_or
+ok_or_else
 (
+|
+|
+{
 PrefReaderError
 :
 :
@@ -2170,6 +2173,7 @@ self
 position
 None
 )
+}
 )
 ?
 )
