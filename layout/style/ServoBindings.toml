@@ -4155,16 +4155,6 @@ false
 name
 =
 "
-ServoElementSnapshot
-"
-opaque
-=
-false
-}
-{
-name
-=
-"
 RawServoAnimationValueMap
 "
 opaque
