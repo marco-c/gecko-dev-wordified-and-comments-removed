@@ -532,7 +532,7 @@ QueryInterface
 (
 Ci
 .
-nsISSLStatusProvider
+nsITransportSecurityInfo
 )
 .
 SSLStatus

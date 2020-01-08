@@ -104,6 +104,9 @@ mozIDOMWindowProxy
 interface
 nsIDocShell
 ;
+interface
+nsITransportSecurityInfo
+;
 [
 scriptable
 uuid
@@ -145,6 +148,11 @@ attribute
 unsigned
 long
 state
+;
+readonly
+attribute
+nsITransportSecurityInfo
+secInfo
 ;
 }
 ;

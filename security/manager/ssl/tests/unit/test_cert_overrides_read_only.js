@@ -16,13 +16,6 @@ sslstatus
 =
 aSecurityInfo
 .
-QueryInterface
-(
-Ci
-.
-nsISSLStatusProvider
-)
-.
 SSLStatus
 ;
 let

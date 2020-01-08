@@ -243,11 +243,6 @@ nsISSLStatus
 idl
 '
 '
-nsISSLStatusProvider
-.
-idl
-'
-'
 nsITokenDialogs
 .
 idl
