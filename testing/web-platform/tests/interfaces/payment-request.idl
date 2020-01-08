@@ -381,6 +381,16 @@ attribute
 DOMString
 dependentLocality
 ;
+/
+/
+"
+languageCode
+"
+is
+a
+feature
+at
+risk
 readonly
 attribute
 DOMString
