@@ -8536,6 +8536,17 @@ readlines
 2
 :
 ]
+                 
+if
+not
+l
+.
+startswith
+(
+'
+COMPUTED_
+'
+)
 ]
         
 expected
@@ -8683,6 +8694,17 @@ readlines
 2
 :
 ]
+                 
+if
+not
+l
+.
+startswith
+(
+'
+COMPUTED_
+'
+)
 ]
         
 expected
@@ -8835,6 +8857,17 @@ readlines
 2
 :
 ]
+                 
+if
+not
+l
+.
+startswith
+(
+'
+COMPUTED_
+'
+)
 ]
         
 expected
@@ -8992,6 +9025,17 @@ readlines
 2
 :
 ]
+                 
+if
+not
+l
+.
+startswith
+(
+'
+COMPUTED_
+'
+)
 ]
         
 expected
@@ -9148,6 +9192,17 @@ readlines
 2
 :
 ]
+                 
+if
+not
+l
+.
+startswith
+(
+'
+COMPUTED_
+'
+)
 ]
         
 expected

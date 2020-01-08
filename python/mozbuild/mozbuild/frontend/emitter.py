@@ -383,14 +383,6 @@ set
         
 self
 .
-_rust_compile_dirs
-=
-set
-(
-)
-        
-self
-.
 _asm_compile_dirs
 =
 set
@@ -3901,26 +3893,6 @@ programs
                 
 continue
             
-if
-kind
-=
-=
-'
-RUST_PROGRAMS
-'
-:
-                
-self
-.
-_rust_compile_dirs
-.
-add
-(
-context
-.
-objdir
-)
-            
 all_rust_programs
 .
 append
@@ -4065,6 +4037,17 @@ cls
 context
 program
 cargo_file
+)
+                    
+add_program
+(
+self
+.
+_binaries
+[
+program
+]
+kind
 )
         
 for
@@ -5452,42 +5435,9 @@ host_linkables
             
 return
         
-if
-not
-all
-(
-isinstance
-(
-l
-(
-RustLibrary
-)
-)
-for
-l
-in
-linkables
-)
-:
-            
 self
 .
 _compile_dirs
-.
-add
-(
-context
-.
-objdir
-)
-        
-elif
-linkables
-:
-            
-self
-.
-_rust_compile_dirs
 .
 add
 (
@@ -9215,19 +9165,6 @@ objdir
 ]
 =
 computed_flags
-            
-yield
-computed_link_flags
-        
-elif
-context
-.
-objdir
-in
-self
-.
-_rust_compile_dirs
-:
             
 yield
 computed_link_flags

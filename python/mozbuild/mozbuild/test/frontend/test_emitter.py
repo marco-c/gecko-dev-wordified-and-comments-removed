@@ -12771,8 +12771,20 @@ read_topsrcdir
 reader
 )
         
+self
+.
+assertEqual
+(
+len
+(
+objs
+)
+3
+)
+        
 ldflags
 lib
+cflags
 =
 objs
         
@@ -12781,6 +12793,14 @@ self
 assertIsInstance
 (
 ldflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+cflags
 ComputedFlags
 )
         
@@ -12972,8 +12992,20 @@ read_topsrcdir
 reader
 )
         
+self
+.
+assertEqual
+(
+len
+(
+objs
+)
+3
+)
+        
 ldflags
 lib
+cflags
 =
 objs
         
@@ -12982,6 +13014,14 @@ self
 assertIsInstance
 (
 ldflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+cflags
 ComputedFlags
 )
         
@@ -13434,7 +13474,19 @@ read_topsrcdir
 reader
 )
         
+self
+.
+assertEqual
+(
+len
+(
+objs
+)
+3
+)
+        
 ldflags
+cflags
 prog
 =
 objs
@@ -13444,6 +13496,14 @@ self
 assertIsInstance
 (
 ldflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+cflags
 ComputedFlags
 )
         
@@ -13541,17 +13601,50 @@ len
 (
 objs
 )
-1
+4
+)
+        
+print
+(
+objs
+)
+        
+ldflags
+cflags
+hostflags
+prog
+=
+objs
+        
+self
+.
+assertIsInstance
+(
+ldflags
+ComputedFlags
 )
         
 self
 .
 assertIsInstance
 (
-objs
-[
-0
-]
+cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+hostflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+prog
 HostRustProgram
 )
         
@@ -13559,10 +13652,7 @@ self
 .
 assertEqual
 (
-objs
-[
-0
-]
+prog
 .
 name
 '
@@ -13644,17 +13734,36 @@ len
 (
 objs
 )
-1
+3
+)
+        
+ldflags
+lib
+cflags
+=
+objs
+        
+self
+.
+assertIsInstance
+(
+ldflags
+ComputedFlags
 )
         
 self
 .
 assertIsInstance
 (
-objs
-[
-0
-]
+cflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+lib
 HostRustLibrary
 )
         
@@ -13662,10 +13771,7 @@ self
 .
 assertRegexpMatches
 (
-objs
-[
-0
-]
+lib
 .
 lib_name
 '
@@ -13677,10 +13783,7 @@ self
 .
 assertRegexpMatches
 (
-objs
-[
-0
-]
+lib
 .
 import_name
 '
@@ -13754,8 +13857,20 @@ read_topsrcdir
 reader
 )
         
+self
+.
+assertEqual
+(
+len
+(
+objs
+)
+3
+)
+        
 ldflags
 lib
+cflags
 =
 objs
         
@@ -13764,6 +13879,14 @@ self
 assertIsInstance
 (
 ldflags
+ComputedFlags
+)
+        
+self
+.
+assertIsInstance
+(
+cflags
 ComputedFlags
 )
         
