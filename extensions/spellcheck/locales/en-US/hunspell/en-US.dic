@@ -1,4 +1,4 @@
-52853
+52862
 0
 /
 nm
@@ -40895,6 +40895,9 @@ SM
 alumina
 /
 M
+aluminize
+/
+D
 aluminum
 /
 M
@@ -59181,7 +59184,7 @@ couple
 s
 couple
 /
-UCGSD
+UCGSDRZ
 couplet
 /
 MS
@@ -72928,6 +72931,9 @@ SM
 flan
 /
 MS
+flaneur
+/
+MS
 flange
 /
 MS
@@ -85159,6 +85165,9 @@ M
 infrequent
 /
 Y
+infringe
+/
+RZ
 infringement
 /
 MS
@@ -114903,6 +114912,9 @@ GVDS
 retrogression
 /
 M
+retroreflector
+/
+S
 retrorocket
 /
 MS
@@ -125309,7 +125321,7 @@ steakhouse
 SM
 steal
 /
-SMHG
+SMHGRZ
 stealth
 /
 M
@@ -132377,6 +132389,9 @@ M
 trailer
 /
 M
+trailhead
+/
+S
 train
 /
 ZGSMDRBJ
@@ -140630,6 +140645,10 @@ yow
 yowl
 /
 MDSG
+yowsa
+yowsah
+yowza
+yowzah
 yr
 /
 S
