@@ -1831,6 +1831,16 @@ reftest
 test
 -
 verify
+android
+-
+ccov
+-
+tests
+:
+-
+geckoview
+-
+junit
 devtools
 -
 tests
