@@ -322,7 +322,7 @@ sessionRule
 .
 session
 .
-loadUri
+loadTestPath
 (
 HELLO_HTML_PATH
 )
