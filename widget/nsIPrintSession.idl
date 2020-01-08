@@ -241,7 +241,8 @@ process
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 attribute
 RemotePrintJobChildPtr
