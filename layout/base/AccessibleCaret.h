@@ -332,7 +332,7 @@ dom
 :
 :
 Element
-*
+&
 CaretElement
 (
 )
@@ -342,7 +342,7 @@ return
 mCaretElementHolder
 -
 >
-GetContentNode
+ContentNode
 (
 )
 ;

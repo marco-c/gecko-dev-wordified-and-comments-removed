@@ -3444,3 +3444,16 @@ load
 1472027
 .
 html
+pref
+(
+layout
+.
+accessiblecaret
+.
+enabled
+true
+)
+load
+1472020
+.
+html
