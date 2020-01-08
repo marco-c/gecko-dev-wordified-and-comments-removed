@@ -392,6 +392,10 @@ JS
 :
 MutableHandleValue
 aResult
+const
+nsACString
+&
+aStore
 unsigned
 int
 aDataset
