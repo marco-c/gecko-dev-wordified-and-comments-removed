@@ -146,8 +146,8 @@ CROSSTOOL_PORT_REV
 #
 Cherry
 pick
-a
-fix
+two
+fixes
 for
 LTO
 .
@@ -158,6 +158,13 @@ pick
 -
 n
 82381f5038a340025ae145745ae5b325cd1b749a
+git
+cherry
+-
+pick
+-
+n
+328c7371008a854af30823adcd4ec1e763054a1d
 echo
 "
 Building
