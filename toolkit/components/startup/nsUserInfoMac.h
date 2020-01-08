@@ -35,7 +35,7 @@ NS_DECL_NSIUSERINFO
 nsresult
 GetPrimaryEmailAddress
 (
-nsCString
+nsACString
 &
 aEmailAddress
 )
