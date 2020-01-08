@@ -3110,16 +3110,6 @@ elapsedTime
 /
 1000
 )
-uptime
-:
-Math
-.
-round
-(
-elapsedTime
-/
-60000
-)
 }
 ;
 var
