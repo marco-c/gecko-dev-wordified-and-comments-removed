@@ -7571,14 +7571,6 @@ if
 (
 !
 mWidgetListener
-|
-|
-mWidgetListener
--
->
-GetXULWindow
-(
-)
 )
 {
 return
