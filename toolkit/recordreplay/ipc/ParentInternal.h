@@ -74,6 +74,11 @@ MainThreadIsWaitingForIPDLReply
 )
 ;
 void
+ResumeBeforeWaitingForIPDLReply
+(
+)
+;
+void
 InitializeForwarding
 (
 )

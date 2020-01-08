@@ -814,6 +814,10 @@ MOZ_RELEASE_ASSERT
 gMainThreadIsWaitingForIPDLReply
 )
 ;
+ResumeBeforeWaitingForIPDLReply
+(
+)
+;
 gMainThreadIsWaitingForIPDLReply
 =
 true

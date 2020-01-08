@@ -9729,6 +9729,14 @@ NOT_NESTED
 NS_IsMainThread
 (
 )
+|
+|
+recordreplay
+:
+:
+IsMiddleman
+(
+)
 )
 ;
 #

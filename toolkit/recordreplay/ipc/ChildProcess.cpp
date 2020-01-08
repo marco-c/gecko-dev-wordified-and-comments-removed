@@ -3014,6 +3014,11 @@ this
 if
 (
 gChildrenAreDebugging
+|
+|
+IsRecording
+(
+)
 )
 {
 gMonitor
