@@ -95,13 +95,6 @@ js
 '
 scratchpad
 -
-commands
-.
-js
-'
-'
-scratchpad
--
 manager
 .
 jsm

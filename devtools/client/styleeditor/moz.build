@@ -112,13 +112,6 @@ panel
 js
 '
 '
-styleeditor
--
-commands
-.
-js
-'
-'
 StyleEditorUI
 .
 jsm

@@ -75,13 +75,6 @@ new
 DevToolsModules
 (
 '
-debugger
--
-commands
-.
-js
-'
-'
 panel
 .
 js

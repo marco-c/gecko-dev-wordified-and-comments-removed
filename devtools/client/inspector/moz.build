@@ -109,13 +109,6 @@ js
 '
 inspector
 -
-commands
-.
-js
-'
-'
-inspector
--
 search
 .
 js
