@@ -52796,9 +52796,6 @@ op
 b1
 )
 {
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 uint16_t
 (
@@ -53137,8 +53134,6 @@ I64
 )
 )
 ;
-#
-endif
 #
 endif
 #

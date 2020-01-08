@@ -5522,9 +5522,6 @@ op
 b1
 )
 {
-#
-ifdef
-ENABLE_WASM_SATURATING_TRUNC_OPS
 case
 uint16_t
 (
@@ -5673,8 +5670,6 @@ nothing
 )
 )
 ;
-#
-endif
 #
 ifdef
 ENABLE_WASM_BULKMEM_OPS
