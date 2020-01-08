@@ -767,6 +767,11 @@ testErrorInterceptor
 .
 cpp
 '
+'
+testErrorInterceptorGC
+.
+cpp
+'
 ]
 if
 CONFIG
