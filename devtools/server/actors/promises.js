@@ -376,13 +376,13 @@ this
 .
 dbg
 .
-findScripts
+findSources
 (
 )
 .
 forEach
 (
-s
+source
 =
 >
 {
@@ -394,8 +394,6 @@ sources
 .
 createSourceActors
 (
-s
-.
 source
 )
 ;
