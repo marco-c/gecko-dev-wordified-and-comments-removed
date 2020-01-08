@@ -1990,16 +1990,13 @@ NS_STYLE_RUBY_POSITION_UNDER
 #
 define
 NS_STYLE_RUBY_POSITION_INTER_CHARACTER
-\
 2
 /
-*
+/
 placeholder
 not
 yet
 parsed
-*
-/
 #
 define
 NS_STYLE_TEXT_SIZE_ADJUST_NONE
