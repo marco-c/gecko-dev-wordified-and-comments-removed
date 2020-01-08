@@ -2892,6 +2892,22 @@ servo_pref
         
 self
 .
+animatable
+=
+original
+.
+animatable
+        
+self
+.
+transitionable
+=
+original
+.
+transitionable
+        
+self
+.
 gecko_pref
 =
 gecko_pref
