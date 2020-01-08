@@ -2840,6 +2840,11 @@ aState
 nsIChannel
 *
 aChannel
+nsIURI
+*
+aURIHint
+=
+nullptr
 )
 =
 0
