@@ -514,7 +514,7 @@ AccessibilityEvent
 {
 }
 fun
-onWinStateChanged
+onWinContentChanged
 (
 event
 :
@@ -793,12 +793,12 @@ event
 )
 AccessibilityEvent
 .
-TYPE_WINDOW_STATE_CHANGED
+TYPE_WINDOW_CONTENT_CHANGED
 -
 >
 newDelegate
 .
-onWinStateChanged
+onWinContentChanged
 (
 event
 )
@@ -3451,7 +3451,7 @@ order
 )
 override
 fun
-onWinStateChanged
+onWinContentChanged
 (
 event
 :
@@ -3556,7 +3556,7 @@ order
 )
 override
 fun
-onWinStateChanged
+onWinContentChanged
 (
 event
 :
@@ -3660,7 +3660,7 @@ order
 )
 override
 fun
-onWinStateChanged
+onWinContentChanged
 (
 event
 :
@@ -3809,7 +3809,7 @@ order
 )
 override
 fun
-onWinStateChanged
+onWinContentChanged
 (
 event
 :
