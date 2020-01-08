@@ -23622,6 +23622,15 @@ GetInverseTransform
 )
 const
 ;
+bool
+ShouldSkipTransform
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+const
+;
 Matrix4x4
 GetTransformForRendering
 (
