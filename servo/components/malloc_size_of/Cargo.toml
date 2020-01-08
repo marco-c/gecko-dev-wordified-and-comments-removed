@@ -71,6 +71,9 @@ serde
 serde_bytes
 "
 "
+servo_channel
+"
+"
 string_cache
 "
 "
@@ -233,6 +236,9 @@ path
 /
 channel
 "
+optional
+=
+true
 }
 smallbitvec
 =
