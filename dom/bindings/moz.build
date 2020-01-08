@@ -596,6 +596,14 @@ webrtc
 trunk
 /
 '
+'
+/
+third_party
+/
+msgpack
+/
+include
+'
 ]
 DEFINES
 [
