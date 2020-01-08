@@ -321,6 +321,12 @@ function
 e
 )
 {
+e
+.
+preventDefault
+(
+)
+;
 reject
 (
 e
