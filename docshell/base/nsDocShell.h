@@ -2808,9 +2808,6 @@ BrowsingContext
 >
 mBrowsingContext
 ;
-nsWeakPtr
-mTabChild
-;
 nsIntRect
 mBounds
 ;
