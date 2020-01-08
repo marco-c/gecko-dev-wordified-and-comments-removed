@@ -211,6 +211,11 @@ LightWeightThemeInstallChild
 jsm
 '
 '
+NetErrorChild
+.
+jsm
+'
+'
 PageInfoChild
 .
 jsm
