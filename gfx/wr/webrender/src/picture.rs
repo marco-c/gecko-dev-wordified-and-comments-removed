@@ -8525,7 +8525,7 @@ ImageFormat
 :
 :
 BGRA8
-false
+true
 false
 )
 ;
