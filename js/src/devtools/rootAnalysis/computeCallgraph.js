@@ -969,7 +969,7 @@ internalMarker
 "
 )
 ;
-print
+printOnce
 (
 "
 D
@@ -1113,7 +1113,7 @@ variant_mangled
 +
 unmangled
 ;
-print
+printOnce
 (
 "
 D
@@ -1230,7 +1230,7 @@ D2Ev
 "
 )
 ;
-print
+printOnce
 (
 "
 D
@@ -1250,7 +1250,7 @@ D1
 )
 )
 ;
-print
+printOnce
 (
 "
 D
@@ -1270,7 +1270,7 @@ D2
 )
 )
 ;
-print
+printOnce
 (
 "
 D
