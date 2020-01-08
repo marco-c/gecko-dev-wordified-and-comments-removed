@@ -5216,12 +5216,6 @@ AnimatedImageLayersEnabled
 ;
 static
 bool
-CSSFiltersEnabled
-(
-)
-;
-static
-bool
 IsInterCharacterRubyEnabled
 (
 )
