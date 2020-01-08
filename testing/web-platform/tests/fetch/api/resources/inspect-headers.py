@@ -11,11 +11,6 @@ headers
 [
 ]
     
-request_headers
-=
-[
-]
-    
 if
 "
 headers
