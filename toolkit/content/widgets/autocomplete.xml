@@ -14048,6 +14048,10 @@ if
 (
 !
 searchQuery
+.
+trim
+(
+)
 )
 {
 this
