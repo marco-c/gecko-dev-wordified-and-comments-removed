@@ -258,6 +258,15 @@ VideoCodec
 inst
 )
 ;
+int
+UpdateCodecFrameSize
+(
+const
+VideoFrame
+&
+input_image
+)
+;
 void
 PopulateCodecSpecific
 (

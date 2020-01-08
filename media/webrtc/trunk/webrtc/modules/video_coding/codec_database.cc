@@ -1042,6 +1042,16 @@ height
 |
 new_send_codec
 .
+resolution_divisor
+!
+=
+send_codec_
+.
+resolution_divisor
+|
+|
+new_send_codec
+.
 maxBitrate
 !
 =

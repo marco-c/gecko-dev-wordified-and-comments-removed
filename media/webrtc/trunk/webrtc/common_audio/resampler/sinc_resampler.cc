@@ -101,6 +101,9 @@ sinc_scale_factor
 ;
 }
 }
+namespace
+webrtc
+{
 const
 size_t
 SincResampler

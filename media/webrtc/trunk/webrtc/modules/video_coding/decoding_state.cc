@@ -247,7 +247,7 @@ false
 ;
 return
 !
-IsNewerTimestamp
+IsNewerOrSameTimestamp
 (
 frame
 -
@@ -289,7 +289,7 @@ false
 ;
 return
 !
-IsNewerTimestamp
+IsNewerOrSameTimestamp
 (
 packet
 -

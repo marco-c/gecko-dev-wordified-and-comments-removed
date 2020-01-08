@@ -93,6 +93,7 @@ DesktopFrame
 frame
 )
 final
+override
 ;
 private
 :

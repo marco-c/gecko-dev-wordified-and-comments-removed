@@ -243,6 +243,10 @@ RtpHeaderExtensionMap
 ptrExtensionMap
 =
 nullptr
+bool
+secured
+=
+false
 )
 const
 ;
