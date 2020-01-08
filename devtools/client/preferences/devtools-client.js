@@ -2432,7 +2432,13 @@ endif
 if
 defined
 (
-RELEASE_OR_BETA
+NIGHTLY_BUILD
+)
+|
+|
+defined
+(
+MOZ_DEV_EDITION
 )
 pref
 (
@@ -2449,7 +2455,7 @@ await
 -
 expression
 "
-false
+true
 )
 ;
 #
@@ -2469,7 +2475,7 @@ await
 -
 expression
 "
-true
+false
 )
 ;
 #
