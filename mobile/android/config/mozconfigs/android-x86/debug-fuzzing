@@ -29,8 +29,6 @@ debug
 mozconfig
 .
 unset
-MOZILLA_OFFICIAL
-unset
 MOZ_TELEMETRY_REPORTING
 unset
 MOZ_ANDROID_POCKET
