@@ -167,9 +167,11 @@ geckodriver
 "
 %
 (
-abs_test_bin_dir
+test_install_path
 )
 s
+/
+bin
 /
 geckodriver
 "
