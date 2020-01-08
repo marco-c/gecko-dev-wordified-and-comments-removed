@@ -134,11 +134,6 @@ ComposerCommandsUpdater
 cpp
 '
 '
-nsComposerRegistration
-.
-cpp
-'
-'
 nsEditingSession
 .
 cpp
