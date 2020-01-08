@@ -207,7 +207,7 @@ vp
 ;
 extern
 double
-math_sqrt_uncached
+math_sqrt_impl
 (
 double
 x
@@ -294,7 +294,7 @@ res
 ;
 extern
 void
-math_sincos_uncached
+math_sincos_impl
 (
 double
 x
@@ -401,7 +401,7 @@ vp
 ;
 extern
 double
-math_log_uncached
+math_log_impl
 (
 double
 x
@@ -439,7 +439,7 @@ vp
 ;
 extern
 double
-math_sin_uncached
+math_sin_impl
 (
 double
 x
@@ -477,7 +477,7 @@ vp
 ;
 extern
 double
-math_cos_uncached
+math_cos_impl
 (
 double
 x
@@ -502,7 +502,7 @@ vp
 ;
 extern
 double
-math_exp_uncached
+math_exp_impl
 (
 double
 x
@@ -527,7 +527,7 @@ vp
 ;
 extern
 double
-math_tan_uncached
+math_tan_impl
 (
 double
 x
@@ -891,7 +891,7 @@ y
 ;
 extern
 double
-math_atan_uncached
+math_atan_impl
 (
 double
 x
@@ -916,7 +916,7 @@ vp
 ;
 extern
 double
-math_asin_uncached
+math_asin_impl
 (
 double
 x
@@ -941,7 +941,7 @@ vp
 ;
 extern
 double
-math_acos_uncached
+math_acos_impl
 (
 double
 x
@@ -1126,7 +1126,7 @@ y
 ;
 extern
 double
-math_log10_uncached
+math_log10_impl
 (
 double
 x
@@ -1134,7 +1134,7 @@ x
 ;
 extern
 double
-math_log2_uncached
+math_log2_impl
 (
 double
 x
@@ -1142,7 +1142,7 @@ x
 ;
 extern
 double
-math_log1p_uncached
+math_log1p_impl
 (
 double
 x
@@ -1150,7 +1150,7 @@ x
 ;
 extern
 double
-math_expm1_uncached
+math_expm1_impl
 (
 double
 x
@@ -1158,7 +1158,7 @@ x
 ;
 extern
 double
-math_cosh_uncached
+math_cosh_impl
 (
 double
 x
@@ -1166,7 +1166,7 @@ x
 ;
 extern
 double
-math_sinh_uncached
+math_sinh_impl
 (
 double
 x
@@ -1174,7 +1174,7 @@ x
 ;
 extern
 double
-math_tanh_uncached
+math_tanh_impl
 (
 double
 x
@@ -1182,7 +1182,7 @@ x
 ;
 extern
 double
-math_acosh_uncached
+math_acosh_impl
 (
 double
 x
@@ -1190,7 +1190,7 @@ x
 ;
 extern
 double
-math_asinh_uncached
+math_asinh_impl
 (
 double
 x
@@ -1198,7 +1198,7 @@ x
 ;
 extern
 double
-math_atanh_uncached
+math_atanh_impl
 (
 double
 x
@@ -1206,7 +1206,7 @@ x
 ;
 extern
 double
-math_trunc_uncached
+math_trunc_impl
 (
 double
 x
@@ -1235,7 +1235,7 @@ r
 ;
 extern
 double
-math_sign_uncached
+math_sign_impl
 (
 double
 x
@@ -1256,7 +1256,7 @@ r
 ;
 extern
 double
-math_cbrt_uncached
+math_cbrt_impl
 (
 double
 x
