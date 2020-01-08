@@ -119,13 +119,6 @@ gkrust
 gtest
 '
 gkrust_features
-'
-.
-.
-/
-.
-.
-'
 output_category
 =
 None
