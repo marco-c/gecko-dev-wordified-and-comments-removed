@@ -2326,6 +2326,9 @@ resource
 "
 about
 "
+"
+data
+"
 ]
 )
 onLinkIconAvailable
