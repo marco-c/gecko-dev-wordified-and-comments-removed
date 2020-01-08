@@ -604,7 +604,7 @@ h
 #
 include
 "
-nsStyleConsts
+nsThemeConstants
 .
 h
 "
@@ -618,7 +618,7 @@ h
 #
 include
 "
-nsStyleConsts
+nsThemeConstants
 .
 h
 "
@@ -20811,6 +20811,12 @@ WM_SETTINGCHANGE
 {
 if
 (
+wParam
+=
+=
+SPI_SETCLIENTAREAANIMATION
+|
+|
 wParam
 =
 =
