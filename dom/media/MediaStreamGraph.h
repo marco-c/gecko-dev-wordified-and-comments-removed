@@ -2838,11 +2838,6 @@ nullptr
 )
 ;
 void
-QueueFinish
-(
-)
-;
-void
 QueueSetAutofinish
 (
 bool
