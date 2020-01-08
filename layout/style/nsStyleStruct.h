@@ -11374,8 +11374,17 @@ kMaxColumnCount
 =
 1000
 ;
+static
+const
+uint32_t
+kColumnCountAuto
+=
+0
+;
 uint32_t
 mColumnCount
+=
+kColumnCountAuto
 ;
 nsStyleCoord
 mColumnWidth

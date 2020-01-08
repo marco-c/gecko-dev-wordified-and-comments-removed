@@ -44071,7 +44071,7 @@ structs
 :
 :
 {
-NS_STYLE_COLUMN_COUNT_AUTO
+nsStyleColumn_kColumnCountAuto
 nsStyleColumn_kMaxColumnCount
 }
 ;
@@ -44116,7 +44116,7 @@ ColumnCount
 Auto
 =
 >
-NS_STYLE_COLUMN_COUNT_AUTO
+nsStyleColumn_kColumnCountAuto
 }
 ;
 }
@@ -44159,7 +44159,7 @@ structs
 :
 :
 {
-NS_STYLE_COLUMN_COUNT_AUTO
+nsStyleColumn_kColumnCountAuto
 nsStyleColumn_kMaxColumnCount
 }
 ;
@@ -44171,7 +44171,7 @@ gecko
 mColumnCount
 !
 =
-NS_STYLE_COLUMN_COUNT_AUTO
+nsStyleColumn_kColumnCountAuto
 {
 debug_assert
 !

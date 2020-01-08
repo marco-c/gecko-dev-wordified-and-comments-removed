@@ -13535,7 +13535,10 @@ columns
 mColumnCount
 !
 =
-NS_STYLE_COLUMN_COUNT_AUTO
+nsStyleColumn
+:
+:
+kColumnCountAuto
 |
 |
 columns
@@ -16414,7 +16417,10 @@ columns
 mColumnCount
 !
 =
-NS_STYLE_COLUMN_COUNT_AUTO
+nsStyleColumn
+:
+:
+kColumnCountAuto
 |
 |
 columns
@@ -46139,7 +46145,10 @@ columns
 mColumnCount
 !
 =
-NS_STYLE_COLUMN_COUNT_AUTO
+nsStyleColumn
+:
+:
+kColumnCountAuto
 |
 |
 columns

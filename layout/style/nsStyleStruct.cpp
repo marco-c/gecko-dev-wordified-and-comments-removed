@@ -3351,6 +3351,13 @@ nsStyleColumn
 :
 kMaxColumnCount
 ;
+const
+uint32_t
+nsStyleColumn
+:
+:
+kColumnCountAuto
+;
 nsStyleColumn
 :
 :
@@ -3362,10 +3369,6 @@ nsPresContext
 aContext
 )
 :
-mColumnCount
-(
-NS_STYLE_COLUMN_COUNT_AUTO
-)
 mColumnWidth
 (
 eStyleUnit_Auto
