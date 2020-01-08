@@ -5,12 +5,12 @@ strict
 ;
 add_task
 (
+async
 function
-*
 (
 )
 {
-yield
+await
 openTabAndSetupStorage
 (
 MAIN_DOMAIN
@@ -24,7 +24,7 @@ html
 "
 )
 ;
-yield
+await
 checkState
 (
 [
@@ -139,7 +139,7 @@ browser
 ]
 )
 ;
-yield
+await
 finishTests
 (
 )

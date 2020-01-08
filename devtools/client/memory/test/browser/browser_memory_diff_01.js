@@ -58,8 +58,8 @@ test
 makeMemoryTest
 (
 TEST_URL
+async
 function
-*
 (
 {
 tab
@@ -135,7 +135,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitForTime
 (
 1000
@@ -179,7 +179,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -238,7 +238,7 @@ snapshot
 "
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -365,7 +365,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -425,7 +425,7 @@ panel
 panelWin
 )
 ;
-yield
+await
 waitUntilState
 (
 store
@@ -477,7 +477,7 @@ difference
 )
 )
 ;
-yield
+await
 waitUntilState
 (
 store
