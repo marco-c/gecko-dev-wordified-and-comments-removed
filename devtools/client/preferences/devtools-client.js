@@ -566,7 +566,7 @@ fonthighlighter
 .
 enabled
 "
-false
+true
 )
 ;
 pref
