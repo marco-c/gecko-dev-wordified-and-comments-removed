@@ -1094,6 +1094,8 @@ aFrame
 nsIContent
 *
 aContent
+nsChangeHint
+aHintForThisFrame
 nsStyleChangeList
 &
 aChangeListToProcess
