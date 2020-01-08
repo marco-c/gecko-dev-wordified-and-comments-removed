@@ -3070,7 +3070,7 @@ RecordReplayHang
 true
 )
 ;
-SendMessage
+SendMessageRaw
 (
 TerminateMessage
 (
