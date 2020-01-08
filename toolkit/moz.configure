@@ -11331,6 +11331,12 @@ Compile
 =
 =
 =
+with
+only_when
+(
+compile_environment
+)
+:
 fxc
 =
 check_prog
