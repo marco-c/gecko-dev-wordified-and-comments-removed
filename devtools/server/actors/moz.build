@@ -105,6 +105,11 @@ highlighters
 inspector
 '
 '
+network
+-
+monitor
+'
+'
 object
 '
 '
