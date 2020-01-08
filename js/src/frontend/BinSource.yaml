@@ -3626,6 +3626,8 @@ extra
 params
 :
 |
+uint32_t
+funLength
 ListNode
 *
 *
@@ -3638,6 +3640,8 @@ extra
 -
 args
 :
+|
+funLength
 paramsOut
 bodyOut
 fields
@@ -3712,6 +3716,14 @@ params
 after
 :
 |
+MOZ_TRY
+(
+checkFunctionLength
+(
+funLength
+)
+)
+;
 MOZ_TRY
 (
 checkPositionalParameterIndices
@@ -4001,6 +4013,7 @@ extra
 args
 :
 |
+length
 &
 params
 &
@@ -4094,6 +4107,12 @@ AccessorType
 :
 :
 Getter
+;
+const
+uint32_t
+length
+=
+0
 ;
 inherits
 :
