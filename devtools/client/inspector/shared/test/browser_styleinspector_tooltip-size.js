@@ -49,10 +49,8 @@ skin
 icons
 /
 warning
--
-64
 .
-png
+svg
 )
 ;
 }
