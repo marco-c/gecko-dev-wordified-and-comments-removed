@@ -142,6 +142,11 @@ LayerState
 h
 '
 '
+MatrixStack
+.
+h
+'
+'
 nsCSSRenderingBorders
 .
 h
