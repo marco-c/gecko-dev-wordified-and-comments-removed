@@ -336,6 +336,8 @@ try
 {
 errorPageURI
 =
+response
+?
 Services
 .
 io
@@ -344,6 +346,8 @@ newURI
 (
 response
 )
+:
+null
 ;
 }
 catch
