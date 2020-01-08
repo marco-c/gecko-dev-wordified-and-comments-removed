@@ -725,6 +725,7 @@ options
 .
 mRestrictSchemes
 =
+!
 HasPermission
 (
 nsGkAtoms
