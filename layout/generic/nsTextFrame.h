@@ -701,17 +701,6 @@ LastContinuation
 const
 final
 ;
-nsSplittableType
-GetSplittableType
-(
-)
-const
-final
-{
-return
-NS_FRAME_SPLITTABLE
-;
-}
 bool
 IsFrameOfType
 (

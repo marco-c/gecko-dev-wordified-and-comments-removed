@@ -457,13 +457,6 @@ aPostDestroyData
 )
 override
 ;
-nsSplittableType
-GetSplittableType
-(
-)
-const
-override
-;
 bool
 IsFloatContainingBlock
 (
