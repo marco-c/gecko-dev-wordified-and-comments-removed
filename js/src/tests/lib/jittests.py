@@ -1299,6 +1299,7 @@ dir_name
 =
 dir_meta
         
+filename
 file_extension
 =
 os
@@ -1309,9 +1310,6 @@ splitext
 (
 path
 )
-[
-1
-]
         
 if
 file_extension
@@ -1323,6 +1321,38 @@ binjs
 '
 :
             
+meta_file_name
+=
+filename
++
+'
+.
+dir
+'
+            
+if
+os
+.
+path
+.
+exists
+(
+meta_file_name
+)
+:
+                
+meta
+=
+cls
+.
+find_directives
+(
+meta_file_name
+)
+            
+else
+:
+                
 meta
 =
 '
