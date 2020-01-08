@@ -3884,6 +3884,16 @@ nsIDocument
 *
 )
 ;
+mozilla
+:
+:
+PointerCapabilities
+Gecko_MediaFeatures_AllPointerCapabilities
+(
+nsIDocument
+*
+)
+;
 float
 Gecko_MediaFeatures_GetDevicePixelRatio
 (
