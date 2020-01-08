@@ -6595,13 +6595,6 @@ enabled
 ;
 #
 endif
-#
-if
-!
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 pref
 (
 "
@@ -6615,11 +6608,9 @@ frame
 -
 containers
 "
-false
+0
 )
 ;
-#
-endif
 pref
 (
 "
