@@ -16,11 +16,11 @@ execute_script
 "
         
 let
-{
 devicePixelRatio
-}
 =
 window
+.
+devicePixelRatio
 ;
         
 let

@@ -17,18 +17,15 @@ execute_script
 "
         
 let
-{
 devicePixelRatio
-}
 =
 window
+.
+devicePixelRatio
 ;
         
 let
-{
-width
-height
-}
+rect
 =
 document
 .
@@ -45,6 +42,8 @@ Math
 .
 floor
 (
+rect
+.
 width
 *
 devicePixelRatio
@@ -53,6 +52,8 @@ Math
 .
 floor
 (
+rect
+.
 height
 *
 devicePixelRatio
