@@ -2032,7 +2032,13 @@ Document
 (
 )
 target
+std
+:
+:
+move
+(
 timing
+)
 effectOptions
 )
 ;

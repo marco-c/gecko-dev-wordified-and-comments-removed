@@ -121,8 +121,8 @@ AnimationEffect
 nsIDocument
 *
 aDocument
-const
 TimingParams
+&
 &
 aTiming
 )
@@ -133,7 +133,13 @@ aDocument
 )
 mTiming
 (
+std
+:
+:
+move
+(
 aTiming
+)
 )
 {
 }
