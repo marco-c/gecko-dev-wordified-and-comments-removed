@@ -621,6 +621,17 @@ override
 ;
 virtual
 void
+PadEdges
+(
+const
+IntRegion
+&
+aRegion
+)
+override
+;
+virtual
+void
 SetTransform
 (
 const

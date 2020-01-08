@@ -1464,6 +1464,7 @@ void
 *
 closure
 )
+const
 {
 if
 (
@@ -1724,6 +1725,7 @@ bandFinal
 {
 do
 {
+const
 Band
 &
 topBand
@@ -1808,6 +1810,7 @@ topBand
 bottom
 )
 {
+const
 Band
 &
 bottomBand

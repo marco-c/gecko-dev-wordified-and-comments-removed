@@ -1015,6 +1015,11 @@ Blur
 cpp
 '
 '
+BufferEdgePad
+.
+cpp
+'
+'
 CaptureCommandList
 .
 cpp
