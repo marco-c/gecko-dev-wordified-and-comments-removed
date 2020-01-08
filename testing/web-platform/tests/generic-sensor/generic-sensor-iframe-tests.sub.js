@@ -301,6 +301,9 @@ sensor
 '
 reading
 '
+'
+error
+'
 ]
 )
 ;
@@ -585,6 +588,11 @@ sensor
 new
 sensorType
 (
+{
+frequency
+:
+15
+}
 )
 ;
 const
@@ -598,6 +606,9 @@ sensor
 [
 '
 reading
+'
+'
+error
 '
 ]
 )
@@ -687,6 +698,12 @@ cachedTimeStamp
 sensor
 .
 timestamp
+;
+sensor
+.
+stop
+(
+)
 ;
 await
 send_message_to_iframe
