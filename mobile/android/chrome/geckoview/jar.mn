@@ -95,6 +95,11 @@ GeckoViewNavigationContent
 js
 content
 /
+GeckoViewProgressContent
+.
+js
+content
+/
 GeckoViewPromptContent
 .
 js
