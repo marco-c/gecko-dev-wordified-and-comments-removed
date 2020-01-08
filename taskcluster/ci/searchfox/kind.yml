@@ -263,6 +263,10 @@ clang
 -
 linux64
 -
+node
+-
+linux64
+-
 rust
 macosx64
 -
@@ -448,6 +452,10 @@ dsymutil
 -
 linux64
 -
+node
+-
+linux64
+-
 rust
 -
 macos
@@ -622,6 +630,10 @@ win64
 clang
 -
 cl
+-
+win64
+-
+node
 -
 win64
 -
