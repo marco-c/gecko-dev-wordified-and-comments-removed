@@ -220,6 +220,14 @@ iconURL
 addon
 .
 version
+null
+{
+source
+:
+"
+sync
+"
+}
 )
 ;
 }
