@@ -228,6 +228,11 @@ TestMP4Demuxer
 cpp
 '
 '
+TestOpusParser
+.
+cpp
+'
+'
 TestRust
 .
 cpp

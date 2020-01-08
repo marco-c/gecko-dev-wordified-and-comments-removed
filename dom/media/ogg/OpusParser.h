@@ -56,6 +56,14 @@ size_t
 aLength
 )
 ;
+static
+bool
+IsValidMapping2ChannelsCount
+(
+uint8_t
+aChannels
+)
+;
 int
 mRate
 ;
