@@ -1165,6 +1165,10 @@ WebGLExtensionCompressedTextureATC
 ;
 friend
 class
+WebGLExtensionCompressedTextureBPTC
+;
+friend
+class
 WebGLExtensionCompressedTextureES3
 ;
 friend
@@ -1174,6 +1178,10 @@ WebGLExtensionCompressedTextureETC1
 friend
 class
 WebGLExtensionCompressedTexturePVRTC
+;
+friend
+class
+WebGLExtensionCompressedTextureRGTC
 ;
 friend
 class

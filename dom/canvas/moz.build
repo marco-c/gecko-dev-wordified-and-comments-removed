@@ -754,6 +754,11 @@ WebGLExtensionCompressedTextureATC
 cpp
 '
 '
+WebGLExtensionCompressedTextureBPTC
+.
+cpp
+'
+'
 WebGLExtensionCompressedTextureES3
 .
 cpp
@@ -765,6 +770,11 @@ cpp
 '
 '
 WebGLExtensionCompressedTexturePVRTC
+.
+cpp
+'
+'
+WebGLExtensionCompressedTextureRGTC
 .
 cpp
 '

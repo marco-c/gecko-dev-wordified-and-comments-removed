@@ -334,6 +334,8 @@ sync
 texture_3D
 texture_3D_compressed
 texture_3D_copy
+texture_compression_bptc
+texture_compression_rgtc
 texture_float
 texture_float_linear
 texture_half_float
@@ -966,6 +968,8 @@ ARB_seamless_cube_map
 ARB_shader_texture_lod
 ARB_sync
 ARB_texture_compression
+ARB_texture_compression_bptc
+ARB_texture_compression_rgtc
 ARB_texture_float
 ARB_texture_non_power_of_two
 ARB_texture_rectangle
@@ -1001,7 +1005,9 @@ EXT_sRGB
 EXT_sRGB_write_control
 EXT_shader_texture_lod
 EXT_texture3D
+EXT_texture_compression_bptc
 EXT_texture_compression_dxt1
+EXT_texture_compression_rgtc
 EXT_texture_compression_s3tc
 EXT_texture_compression_s3tc_srgb
 EXT_texture_filter_anisotropic
