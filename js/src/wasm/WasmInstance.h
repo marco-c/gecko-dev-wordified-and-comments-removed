@@ -253,6 +253,15 @@ init
 JSContext
 *
 cx
+const
+ShareableBytes
+*
+bytecode
+Handle
+<
+FunctionVector
+>
+funcImports
 )
 ;
 void
