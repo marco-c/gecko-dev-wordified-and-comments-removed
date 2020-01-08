@@ -1596,13 +1596,6 @@ extensions
 -
 enable
 -
-raw
-'
-'
--
--
-enable
--
 readline
 '
 '
