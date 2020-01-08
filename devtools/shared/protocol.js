@@ -3244,9 +3244,6 @@ actorID
 actor
 )
 ;
-return
-actor
-;
 }
 unmanage
 :
@@ -5328,7 +5325,6 @@ typeName
 )
 ;
 }
-return
 Pool
 .
 prototype
