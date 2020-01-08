@@ -59,6 +59,13 @@ n
 "
 FORCE_GCC
 "
+-
+o
+-
+n
+"
+MOZ_PGO
+"
 ]
 ;
 then
