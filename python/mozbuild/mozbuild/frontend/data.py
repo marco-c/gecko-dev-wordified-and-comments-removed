@@ -6818,3 +6818,11 @@ mozilla_flags
 gn_dir_attrs
 .
 mozilla_flags
+        
+self
+.
+gn_target
+=
+gn_dir_attrs
+.
+gn_target
