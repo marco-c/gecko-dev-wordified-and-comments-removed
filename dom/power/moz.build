@@ -118,6 +118,11 @@ nsIPowerManagerService
 .
 idl
 '
+'
+nsIWakeLock
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
