@@ -850,6 +850,7 @@ false
 ;
 }
 }
+typename
 paramType
 :
 :
