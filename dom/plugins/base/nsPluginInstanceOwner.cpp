@@ -1859,7 +1859,7 @@ _new
 {
 unitarget
 .
-AssignASCII
+AssignLiteral
 (
 "
 _blank
@@ -1884,7 +1884,7 @@ _current
 {
 unitarget
 .
-AssignASCII
+AssignLiteral
 (
 "
 _self

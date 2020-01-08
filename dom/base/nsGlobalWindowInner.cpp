@@ -2882,7 +2882,7 @@ aName
 {
 aName
 .
-AssignASCII
+AssignLiteral
 (
 "
 IdleRequestExecutor

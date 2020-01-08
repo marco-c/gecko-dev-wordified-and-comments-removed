@@ -1112,7 +1112,7 @@ aName
 {
 aName
 .
-AssignASCII
+AssignLiteral
 (
 "
 nsAsyncRedirectVerifyHelper

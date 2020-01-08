@@ -981,7 +981,7 @@ nullptr
 {
 mErrorMsgName
 .
-AssignASCII
+AssignLiteral
 (
 "
 "

@@ -199,7 +199,7 @@ style
 ;
 style
 .
-AssignASCII
+AssignLiteral
 (
 "
 -

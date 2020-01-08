@@ -2655,7 +2655,7 @@ XP_MACOSX
 )
 pid
 .
-AssignASCII
+AssignLiteral
 (
 "
 0
@@ -2699,7 +2699,7 @@ else
 {
 pid
 .
-AssignASCII
+AssignLiteral
 (
 "
 -

@@ -4165,7 +4165,7 @@ aName
 {
 aName
 .
-AssignASCII
+AssignLiteral
 (
 "
 DecoderDoctorDocumentWatcher_timer

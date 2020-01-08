@@ -259,7 +259,7 @@ aResult
 {
 aResult
 .
-AssignASCII
+AssignLiteral
 (
 "
 DIRECT

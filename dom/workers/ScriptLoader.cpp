@@ -2519,7 +2519,7 @@ override
 {
 aName
 .
-AssignASCII
+AssignLiteral
 (
 "
 ScriptLoaderRunnable

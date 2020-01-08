@@ -91,7 +91,7 @@ isSecurityError
 ;
 name
 .
-AssignASCII
+AssignLiteral
 (
 NS_SUCCEEDED
 (
