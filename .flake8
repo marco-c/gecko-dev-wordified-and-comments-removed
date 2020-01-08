@@ -79,6 +79,10 @@ tests
 /
 browserscope
 /
+ipc
+/
+chromium
+/
 gfx
 /
 angle
