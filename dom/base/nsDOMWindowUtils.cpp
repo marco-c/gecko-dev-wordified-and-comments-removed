@@ -2080,6 +2080,9 @@ if
 view
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 presShell
 -
 >

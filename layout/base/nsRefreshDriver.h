@@ -1261,7 +1261,10 @@ nsRefreshDriver
 mRootRefresh
 ;
 TransactionId
-mPendingTransaction
+mNextTransactionId
+;
+TransactionId
+mOutstandingTransactionId
 ;
 TransactionId
 mCompletedTransaction
