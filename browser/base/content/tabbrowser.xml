@@ -9582,7 +9582,7 @@ _dndPanel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panel
