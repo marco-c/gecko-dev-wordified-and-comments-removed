@@ -550,6 +550,11 @@ AudioConverter
 h
 '
 '
+AudioDeviceInfo
+.
+h
+'
+'
 AudioMixer
 .
 h
