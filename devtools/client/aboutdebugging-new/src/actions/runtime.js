@@ -632,5 +632,6 @@ connectRuntime
 disconnectRuntime
 inspectDebugTarget
 requestTabs
+requestExtensions
 }
 ;
