@@ -7444,6 +7444,10 @@ FirstChild
 (
 )
 true
+ReparentingDirection
+:
+:
+Forwards
 )
 ;
 }
@@ -8141,6 +8145,8 @@ nsIFrame
 aFrame
 bool
 aReparentSiblings
+ReparentingDirection
+aDirection
 )
 {
 NS_ASSERTION
@@ -8266,6 +8272,7 @@ ReparentFloats
 aFrame
 frameBlock
 false
+aDirection
 )
 ;
 if
@@ -8323,6 +8330,7 @@ ReparentFloatsForInlineChild
 aOurLineContainer
 next
 aReparentSiblings
+aDirection
 )
 ;
 return

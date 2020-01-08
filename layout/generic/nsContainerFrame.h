@@ -1134,6 +1134,8 @@ nsIFrame
 aFrame
 bool
 aReparentSiblings
+ReparentingDirection
+aDirection
 )
 ;
 struct
