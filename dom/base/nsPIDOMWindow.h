@@ -1872,6 +1872,8 @@ protected
 explicit
 nsPIDOMWindowOuter
 (
+uint64_t
+aWindowID
 )
 ;
 ~
