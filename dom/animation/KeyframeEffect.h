@@ -658,13 +658,6 @@ const
 IterationCompositeOperation
 IterationComposite
 (
-CallerType
-aCallerType
-=
-CallerType
-:
-:
-System
 )
 const
 ;
@@ -675,8 +668,6 @@ const
 IterationCompositeOperation
 &
 aIterationComposite
-CallerType
-aCallerType
 )
 ;
 CompositeOperation
