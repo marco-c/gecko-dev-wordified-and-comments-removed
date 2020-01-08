@@ -364,6 +364,11 @@ Unbind
 (
 )
 ;
+void
+Unattach
+(
+)
+;
 nsresult
 Bind
 (
