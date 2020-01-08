@@ -268,10 +268,7 @@ ShouldTCPSocketExist
 "
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 TCPSocket

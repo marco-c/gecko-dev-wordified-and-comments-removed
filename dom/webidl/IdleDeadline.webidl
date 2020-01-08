@@ -117,10 +117,7 @@ requestidlecallback
 [
 Exposed
 =
-(
 Window
-System
-)
 Func
 =
 "

@@ -130,10 +130,7 @@ true
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 MatchGlob

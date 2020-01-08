@@ -112,7 +112,6 @@ Exposed
 =
 (
 Window
-System
 Worker
 )
 ]

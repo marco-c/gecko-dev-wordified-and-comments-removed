@@ -126,7 +126,6 @@ Exposed
 (
 Window
 Worker
-System
 )
 ]
 interface
@@ -149,10 +148,7 @@ thread
 [
 Exposed
 =
-(
 Window
-System
-)
 ChromeOnly
 ]
 nsISupports

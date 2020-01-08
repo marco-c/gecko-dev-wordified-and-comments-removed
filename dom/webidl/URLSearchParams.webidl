@@ -230,7 +230,6 @@ Exposed
 Window
 Worker
 WorkerDebugger
-System
 )
 ]
 interface

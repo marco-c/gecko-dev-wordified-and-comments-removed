@@ -144,7 +144,6 @@ Window
 Worker
 WorkerDebugger
 Worklet
-System
 )
 ClassString
 =
@@ -906,7 +905,6 @@ Window
 Worker
 WorkerDebugger
 Worklet
-System
 )
 ]
 /

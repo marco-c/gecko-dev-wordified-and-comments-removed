@@ -171,10 +171,7 @@ ShouldTCPSocketExist
 "
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 TCPSocketErrorEvent

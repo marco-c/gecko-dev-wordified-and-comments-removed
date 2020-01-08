@@ -388,10 +388,7 @@ p
 ChromeOnly
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 PromiseDebugging

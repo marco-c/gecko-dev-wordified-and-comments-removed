@@ -94,10 +94,7 @@ MPL
 [
 Exposed
 =
-(
 Window
-System
-)
 ]
 interface
 IDBMutableFile
