@@ -917,7 +917,14 @@ string
 <
 td
 >
+<
+code
+>
 normal
+<
+/
+code
+>
 <
 td
 >
