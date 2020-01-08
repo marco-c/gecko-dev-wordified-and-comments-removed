@@ -287,6 +287,10 @@ sccache
 -
 linux64
 -
+cbindgen
+-
+linux64
+-
 node
 win64
 -
@@ -420,6 +424,10 @@ rust
 win64
 -
 sccache
+-
+win64
+-
+cbindgen
 -
 win64
 -

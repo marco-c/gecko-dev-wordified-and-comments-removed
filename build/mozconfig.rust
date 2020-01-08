@@ -68,6 +68,15 @@ bin
 /
 rustfmt
 "
+CBINDGEN
+=
+"
+TOOLTOOL_DIR
+/
+cbindgen
+/
+cbindgen
+"
 ac_add_options
 -
 -
