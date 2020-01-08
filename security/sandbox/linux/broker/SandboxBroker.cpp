@@ -186,13 +186,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 SpecialSystemDirectory
 .
 h
@@ -3422,13 +3415,6 @@ ThreadMain
 void
 )
 {
-(
-void
-)
-NS_GetCurrentThread
-(
-)
-;
 char
 threadName
 [
