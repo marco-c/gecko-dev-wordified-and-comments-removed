@@ -1393,7 +1393,7 @@ shadowdom
 .
 enabled
 "
-true
+false
 )
 ;
 user_pref

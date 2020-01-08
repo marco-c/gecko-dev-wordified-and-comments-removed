@@ -2725,6 +2725,9 @@ HTMLSlotElement
 insecureContext
 :
 true
+disabled
+:
+true
 }
 {
 name
@@ -4562,6 +4565,9 @@ name
 ShadowRoot
 "
 insecureContext
+:
+true
+disabled
 :
 true
 }
