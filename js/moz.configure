@@ -3958,14 +3958,14 @@ True
 set_config
 (
 '
-MOZ_WASM_CRANELIFT
+ENABLE_WASM_CRANELIFT
 '
 enable_cranelift
 )
 set_define
 (
 '
-MOZ_WASM_CRANELIFT
+ENABLE_WASM_CRANELIFT
 '
 enable_cranelift
 )
