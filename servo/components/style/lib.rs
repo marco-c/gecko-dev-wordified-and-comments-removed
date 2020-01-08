@@ -642,6 +642,10 @@ pub
 mod
 traversal_flags
 ;
+pub
+mod
+use_counters
+;
 #
 [
 macro_use
