@@ -101,8 +101,9 @@ _ReadWriteBarrier
 (
 )
 ;
-MemoryBarrier
+__dmb
 (
+_ARM64_BARRIER_SY
 )
 ;
 }
