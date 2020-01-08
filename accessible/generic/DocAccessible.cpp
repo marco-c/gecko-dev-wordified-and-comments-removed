@@ -2947,6 +2947,8 @@ int32_t
 aNewEnd
 PivotMoveReason
 aReason
+TextBoundaryType
+aBoundaryType
 bool
 aIsFromUserInput
 )
@@ -2990,6 +2992,7 @@ nullptr
 aNewStart
 aNewEnd
 aReason
+aBoundaryType
 aIsFromUserInput
 ?
 eFromUserInput
