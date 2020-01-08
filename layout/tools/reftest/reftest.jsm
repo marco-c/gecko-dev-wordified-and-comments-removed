@@ -3431,6 +3431,12 @@ totalTests
 g
 .
 verify
+&
+&
+!
+g
+.
+repeat
 )
 throw
 "
@@ -4115,7 +4121,7 @@ repeat
 -
 -
 ;
-StartTests
+ReadTests
 (
 )
 ;
