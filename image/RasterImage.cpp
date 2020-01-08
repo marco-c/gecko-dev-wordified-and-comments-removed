@@ -6521,6 +6521,10 @@ wasDefaultFlags
 {
 UpdateImageContainer
 (
+Some
+(
+aInvalidRect
+)
 )
 ;
 }

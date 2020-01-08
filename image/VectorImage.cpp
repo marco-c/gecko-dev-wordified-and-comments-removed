@@ -2346,6 +2346,9 @@ GetMaxSizedIntRect
 }
 UpdateImageContainer
 (
+Nothing
+(
+)
 )
 ;
 }
