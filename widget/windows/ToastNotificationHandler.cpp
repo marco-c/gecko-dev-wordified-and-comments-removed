@@ -2102,6 +2102,14 @@ if
 mAlertListener
 )
 {
+nsAutoString
+argString
+;
+if
+(
+inspectable
+)
+{
 ComPtr
 <
 IToastActivatedEventArgs
@@ -2128,9 +2136,6 @@ void
 &
 eventArgs
 )
-;
-nsAutoString
-argString
 ;
 if
 (
@@ -2192,6 +2197,7 @@ buffer
 len
 )
 ;
+}
 }
 }
 }
