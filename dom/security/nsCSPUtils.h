@@ -109,8 +109,8 @@ aColumnNumber
 uint32_t
 aFlags
 const
-char
-*
+nsACString
+&
 aCategory
 uint64_t
 aInnerWindowID
@@ -168,8 +168,8 @@ aColumnNumber
 uint32_t
 aFlags
 const
-char
-*
+nsACString
+&
 aCategory
 uint64_t
 aInnerWindowID
