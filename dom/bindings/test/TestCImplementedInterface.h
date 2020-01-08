@@ -39,6 +39,15 @@ JSObject
 *
 >
 aJSImpl
+JS
+:
+:
+Handle
+<
+JSObject
+*
+>
+aJSImplGlobal
 nsIGlobalObject
 *
 aParent
@@ -47,6 +56,7 @@ aParent
 TestJSImplInterface
 (
 aJSImpl
+aJSImplGlobal
 aParent
 )
 {

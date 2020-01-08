@@ -1738,8 +1738,16 @@ handlerCallback
 new
 EventHandlerNonNull
 (
+static_cast
+<
+JSContext
+*
+>
+(
 nullptr
+)
 bound
+scopeObject
 nullptr
 )
 ;
