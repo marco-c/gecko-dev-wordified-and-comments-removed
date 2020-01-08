@@ -14,10 +14,6 @@ from
 pkg_resources
 import
 parse_version
-from
-simplejson
-import
-JSONDecodeError
 BUGLIST_PREFIX
 =
 '
@@ -780,7 +776,7 @@ n
 except
 (
 KeyError
-JSONDecodeError
+ValueError
 )
 :
                 
