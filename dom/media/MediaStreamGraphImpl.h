@@ -652,14 +652,6 @@ aTime
 const
 ;
 void
-NotifyHasCurrentData
-(
-MediaStream
-*
-aStream
-)
-;
-void
 CreateOrDestroyAudioStreams
 (
 MediaStream
