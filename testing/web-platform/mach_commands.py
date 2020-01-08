@@ -258,26 +258,6 @@ install_fonts
 ]
 =
 True
-            
-if
-kwargs
-[
-"
-reftest_internal
-"
-]
-is
-None
-:
-                
-kwargs
-[
-"
-reftest_internal
-"
-]
-=
-False
         
 if
 kwargs

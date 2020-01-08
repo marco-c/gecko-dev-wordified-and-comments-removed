@@ -1822,12 +1822,7 @@ s
 self
 .
 device_serial
-]
-            
-cmd
-+
-=
-[
+                    
 "
 -
 -
