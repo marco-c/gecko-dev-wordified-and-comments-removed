@@ -4080,7 +4080,7 @@ _send_message
 "
 WebDriver
 :
-AcceptDialog
+AcceptAlert
 "
 )
     
