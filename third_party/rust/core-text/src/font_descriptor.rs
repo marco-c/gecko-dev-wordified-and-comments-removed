@@ -93,7 +93,13 @@ base
 CGFloat
 ;
 use
-libc
+std
+:
+:
+os
+:
+:
+raw
 :
 :
 c_void
