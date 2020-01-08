@@ -59,10 +59,11 @@ then
 =
 >
 {
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 TESTROOT
 +
 "

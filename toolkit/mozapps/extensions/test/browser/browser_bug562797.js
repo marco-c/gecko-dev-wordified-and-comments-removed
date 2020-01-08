@@ -2298,10 +2298,11 @@ false
 false
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 http
 :
