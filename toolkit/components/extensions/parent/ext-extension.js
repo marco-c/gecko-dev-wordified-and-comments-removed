@@ -37,12 +37,9 @@ isAllowedIncognitoAccess
 )
 {
 return
-Promise
+context
 .
-resolve
-(
-true
-)
+privateBrowsingAllowed
 ;
 }
 isAllowedFileSchemeAccess
@@ -50,12 +47,7 @@ isAllowedFileSchemeAccess
 )
 {
 return
-Promise
-.
-resolve
-(
 false
-)
 ;
 }
 }
