@@ -963,10 +963,12 @@ maxSSEVersion
 =
 UnknownSSE
 )
+{
 SetSSEVersion
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 maxSSEVersion
@@ -1007,10 +1009,12 @@ maxSSEVersion
 UnknownSSE
 )
 )
+{
 SetSSEVersion
 (
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 !
@@ -1293,10 +1297,12 @@ ptr
 value
 )
 )
+{
 embedsNurseryPointers_
 =
 true
 ;
+}
 dataRelocations_
 .
 writeUnsigned
@@ -1345,12 +1351,14 @@ HasAVX
 (
 )
 )
+{
 masm
 .
 disableVEX
 (
 )
 ;
+}
 }
 enum
 Condition
@@ -1774,6 +1782,7 @@ j
 :
 jumps_
 )
+{
 MOZ_ASSERT
 (
 j
@@ -1787,6 +1796,7 @@ RelocationKind
 HARDCODED
 )
 ;
+}
 #
 endif
 }
@@ -5486,6 +5496,7 @@ used
 (
 )
 )
+{
 prev
 =
 JmpSrc
@@ -5498,6 +5509,7 @@ offset
 )
 )
 ;
+}
 label
 -
 >
@@ -5577,6 +5589,7 @@ used
 (
 )
 )
+{
 prev
 =
 JmpSrc
@@ -5589,6 +5602,7 @@ offset
 )
 )
 ;
+}
 label
 -
 >
@@ -5669,6 +5683,7 @@ used
 (
 )
 )
+{
 prev
 =
 JmpSrc
@@ -5681,6 +5696,7 @@ offset
 )
 )
 ;
+}
 label
 -
 >
@@ -6270,8 +6286,10 @@ used
 (
 )
 )
+{
 return
 ;
+}
 bool
 more
 ;
@@ -6343,6 +6361,7 @@ used
 (
 )
 )
+{
 prev
 =
 JmpSrc
@@ -6355,6 +6374,7 @@ offset
 )
 )
 ;
+}
 target
 -
 >
@@ -6561,6 +6581,7 @@ used
 (
 )
 )
+{
 prev
 =
 JmpSrc
@@ -6573,6 +6594,7 @@ offset
 )
 )
 ;
+}
 label
 -
 >

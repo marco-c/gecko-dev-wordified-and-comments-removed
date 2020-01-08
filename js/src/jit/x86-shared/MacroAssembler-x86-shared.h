@@ -473,19 +473,23 @@ cond
 &
 DoubleConditionBitInvert
 )
+{
 vucomisd
 (
 lhs
 rhs
 )
 ;
+}
 else
+{
 vucomisd
 (
 rhs
 lhs
 )
 ;
+}
 }
 void
 compareFloat
@@ -504,19 +508,23 @@ cond
 &
 DoubleConditionBitInvert
 )
+{
 vucomiss
 (
 lhs
 rhs
 )
 ;
+}
 else
+{
 vucomiss
 (
 rhs
 lhs
 )
 ;
+}
 }
 void
 branchNegativeZero
@@ -878,13 +886,16 @@ HasSSE2
 (
 )
 )
+{
 masm
 .
 mfence
 (
 )
 ;
+}
 else
+{
 lock_addl
 (
 Imm32
@@ -901,6 +912,7 @@ esp
 )
 )
 ;
+}
 }
 void
 branch16
@@ -1375,6 +1387,7 @@ original_
 =
 substitute_
 )
+{
 masm
 -
 >
@@ -1383,6 +1396,7 @@ pop
 substitute_
 )
 ;
+}
 }
 Register
 reg
@@ -2660,6 +2674,7 @@ SimdSign
 :
 Signed
 )
+{
 vpaddsb
 (
 rhs
@@ -2667,7 +2682,9 @@ lhs
 output
 )
 ;
+}
 else
+{
 vpaddusb
 (
 rhs
@@ -2675,6 +2692,7 @@ lhs
 output
 )
 ;
+}
 }
 void
 addSatInt16x8
@@ -2699,6 +2717,7 @@ SimdSign
 :
 Signed
 )
+{
 vpaddsw
 (
 rhs
@@ -2706,7 +2725,9 @@ lhs
 output
 )
 ;
+}
 else
+{
 vpaddusw
 (
 rhs
@@ -2714,6 +2735,7 @@ lhs
 output
 )
 ;
+}
 }
 void
 subInt8x16
@@ -2814,6 +2836,7 @@ SimdSign
 :
 Signed
 )
+{
 vpsubsb
 (
 rhs
@@ -2821,7 +2844,9 @@ lhs
 output
 )
 ;
+}
 else
+{
 vpsubusb
 (
 rhs
@@ -2829,6 +2854,7 @@ lhs
 output
 )
 ;
+}
 }
 void
 subSatInt16x8
@@ -2853,6 +2879,7 @@ SimdSign
 :
 Signed
 )
+{
 vpsubsw
 (
 rhs
@@ -2860,7 +2887,9 @@ lhs
 output
 )
 ;
+}
 else
+{
 vpsubusw
 (
 rhs
@@ -2868,6 +2897,7 @@ lhs
 output
 )
 ;
+}
 }
 void
 mulInt16x8
@@ -3351,6 +3381,7 @@ HasAVX
 (
 )
 )
+{
 vblendvps
 (
 mask
@@ -3359,7 +3390,9 @@ onFalse
 output
 )
 ;
+}
 else
+{
 selectSimd128
 (
 mask
@@ -3369,6 +3402,7 @@ temp
 output
 )
 ;
+}
 }
 template
 <
@@ -3533,9 +3567,11 @@ HasAVX
 (
 )
 )
+{
 return
 src
 ;
+}
 moveSimd128Int
 (
 src
@@ -3576,6 +3612,7 @@ Operand
 :
 FPREG
 )
+{
 return
 FloatRegister
 :
@@ -3589,6 +3626,7 @@ fpu
 )
 )
 ;
+}
 loadAlignedSimd128Int
 (
 src
@@ -4240,9 +4278,11 @@ HasAVX
 (
 )
 )
+{
 return
 src
 ;
+}
 moveSimd128Float
 (
 src
@@ -4283,6 +4323,7 @@ Operand
 :
 FPREG
 )
+{
 return
 FloatRegister
 :
@@ -4296,6 +4337,7 @@ fpu
 )
 )
 ;
+}
 loadAlignedSimd128Float
 (
 src
@@ -4930,6 +4972,7 @@ if
 (
 negativeZeroCheck
 )
+{
 branchNegativeZero
 (
 src
@@ -4937,6 +4980,7 @@ dest
 fail
 )
 ;
+}
 ScratchDoubleScope
 scratch
 (
@@ -5002,6 +5046,7 @@ if
 (
 negativeZeroCheck
 )
+{
 branchNegativeZeroFloat32
 (
 src
@@ -5009,6 +5054,7 @@ dest
 fail
 )
 ;
+}
 ScratchFloat32Scope
 scratch
 (
@@ -5391,6 +5437,7 @@ Assembler
 :
 NaN_IsFalse
 )
+{
 j
 (
 Assembler
@@ -5401,6 +5448,7 @@ Parity
 ifFalse
 )
 ;
+}
 movl
 (
 Imm32
@@ -5427,6 +5475,7 @@ Assembler
 :
 NaN_IsTrue
 )
+{
 j
 (
 Assembler
@@ -5437,6 +5486,7 @@ Parity
 end
 )
 ;
+}
 bind
 (
 &

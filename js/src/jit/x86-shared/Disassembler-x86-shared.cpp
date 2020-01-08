@@ -1130,6 +1130,7 @@ type
 =
 VEX_PS
 )
+{
 MOZ_CRASH
 (
 "
@@ -1140,6 +1141,7 @@ instruction
 "
 )
 ;
+}
 +
 +
 ptr
@@ -1255,6 +1257,7 @@ type
 =
 VEX_PS
 )
+{
 MOZ_CRASH
 (
 "
@@ -1265,6 +1268,7 @@ instruction
 "
 )
 ;
+}
 +
 +
 ptr
@@ -1328,6 +1332,7 @@ l
 =
 0
 )
+{
 MOZ_CRASH
 (
 "
@@ -1338,6 +1343,7 @@ instruction
 "
 )
 ;
+}
 type
 =
 VexOperandType
@@ -1434,10 +1440,12 @@ REX_W
 rex
 )
 )
+{
 opsize
 =
 8
 ;
+}
 opcode
 =
 *
@@ -1615,6 +1623,7 @@ ModRM_hasSIB
 modrm
 )
 )
+{
 sib
 =
 *
@@ -1622,6 +1631,7 @@ ptr
 +
 +
 ;
+}
 if
 (
 HasDisp8
@@ -1914,6 +1924,7 @@ sib
 rex
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1924,6 +1935,7 @@ instruction
 "
 )
 ;
+}
 size_t
 memSize
 =
@@ -2016,6 +2028,7 @@ RegisterID
 GROUP11_MOV
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -2026,6 +2039,7 @@ instruction
 "
 )
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 haveImm
@@ -2057,6 +2071,7 @@ RegisterID
 GROUP11_MOV
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -2067,6 +2082,7 @@ instruction
 "
 )
 ;
+}
 MOZ_RELEASE_ASSERT
 (
 haveImm
@@ -2151,6 +2167,7 @@ if
 !
 haveImm
 )
+{
 otherOperand
 =
 OtherOperand
@@ -2158,6 +2175,7 @@ OtherOperand
 gpr
 )
 ;
+}
 memSize
 =
 opsize
@@ -2179,6 +2197,7 @@ if
 !
 haveImm
 )
+{
 otherOperand
 =
 OtherOperand
@@ -2186,6 +2205,7 @@ OtherOperand
 gpr
 )
 ;
+}
 memSize
 =
 1

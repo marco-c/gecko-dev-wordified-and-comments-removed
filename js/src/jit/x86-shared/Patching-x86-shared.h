@@ -231,6 +231,7 @@ int32_t
 offset
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -247,6 +248,7 @@ relocation
 "
 )
 ;
+}
 SetInt32
 (
 from

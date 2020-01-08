@@ -316,6 +316,7 @@ Assembler
 :
 NaN_IsFalse
 )
+{
 jumpToBlock
 (
 mirFalse
@@ -325,6 +326,7 @@ Assembler
 Parity
 )
 ;
+}
 else
 if
 (
@@ -336,6 +338,7 @@ Assembler
 :
 NaN_IsTrue
 )
+{
 jumpToBlock
 (
 mirTrue
@@ -345,6 +348,7 @@ Assembler
 Parity
 )
 ;
+}
 if
 (
 isNextBlock
@@ -684,6 +688,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 test32
@@ -711,7 +716,9 @@ right
 )
 )
 ;
+}
 else
+{
 masm
 .
 test32
@@ -736,6 +743,7 @@ right
 )
 )
 ;
+}
 emitBranch
 (
 baab
@@ -831,6 +839,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 cmp32
@@ -848,7 +857,9 @@ right
 )
 )
 ;
+}
 else
+{
 masm
 .
 cmp32
@@ -863,6 +874,7 @@ right
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -1109,6 +1121,7 @@ operandsAreNeverNaN
 (
 )
 )
+{
 nanCond
 =
 Assembler
@@ -1116,6 +1129,7 @@ Assembler
 :
 NaN_HandledByCond
 ;
+}
 masm
 .
 compareDouble
@@ -1235,6 +1249,7 @@ operandsAreNeverNaN
 (
 )
 )
+{
 nanCond
 =
 Assembler
@@ -1242,6 +1257,7 @@ Assembler
 :
 NaN_HandledByCond
 ;
+}
 masm
 .
 compareFloat
@@ -1374,6 +1390,7 @@ operandIsNeverNaN
 (
 )
 )
+{
 nanCond
 =
 Assembler
@@ -1381,6 +1398,7 @@ Assembler
 :
 NaN_HandledByCond
 ;
+}
 ScratchDoubleScope
 scratch
 (
@@ -1476,6 +1494,7 @@ operandIsNeverNaN
 (
 )
 )
+{
 nanCond
 =
 Assembler
@@ -1483,6 +1502,7 @@ Assembler
 :
 NaN_HandledByCond
 ;
+}
 ScratchFloat32Scope
 scratch
 (
@@ -1615,6 +1635,7 @@ operandsAreNeverNaN
 (
 )
 )
+{
 nanCond
 =
 Assembler
@@ -1622,6 +1643,7 @@ Assembler
 :
 NaN_HandledByCond
 ;
+}
 masm
 .
 compareDouble
@@ -1742,6 +1764,7 @@ operandsAreNeverNaN
 (
 )
 )
+{
 nanCond
 =
 Assembler
@@ -1749,6 +1772,7 @@ Assembler
 :
 NaN_HandledByCond
 ;
+}
 masm
 .
 compareFloat
@@ -2016,6 +2040,7 @@ arg
 )
 )
 )
+{
 masm
 .
 store64
@@ -2035,7 +2060,9 @@ arg
 dst
 )
 ;
+}
 else
+{
 masm
 .
 store64
@@ -2052,6 +2079,7 @@ arg
 dst
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -2251,6 +2279,7 @@ Operand
 :
 FPREG
 )
+{
 masm
 .
 moveFloat32
@@ -2267,7 +2296,9 @@ falseExpr
 out
 )
 ;
+}
 else
+{
 masm
 .
 loadFloat32
@@ -2276,6 +2307,7 @@ falseExpr
 out
 )
 ;
+}
 }
 else
 if
@@ -2303,6 +2335,7 @@ Operand
 :
 FPREG
 )
+{
 masm
 .
 moveDouble
@@ -2319,7 +2352,9 @@ falseExpr
 out
 )
 ;
+}
 else
+{
 masm
 .
 loadDouble
@@ -2328,6 +2363,7 @@ falseExpr
 out
 )
 ;
+}
 }
 else
 {
@@ -2778,6 +2814,7 @@ base
 =
 out
 )
+{
 masm
 .
 move32
@@ -2786,6 +2823,7 @@ base
 out
 )
 ;
+}
 masm
 .
 add32
@@ -2982,6 +3020,7 @@ MIRType
 :
 Double
 )
+{
 masm
 .
 wasmTruncateDoubleToUInt32
@@ -2997,6 +3036,7 @@ isSaturating
 oolEntry
 )
 ;
+}
 else
 if
 (
@@ -3008,6 +3048,7 @@ MIRType
 :
 Float32
 )
+{
 masm
 .
 wasmTruncateFloat32ToUInt32
@@ -3023,7 +3064,9 @@ isSaturating
 oolEntry
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -3032,6 +3075,7 @@ type
 "
 )
 ;
+}
 if
 (
 mir
@@ -3041,6 +3085,7 @@ isSaturating
 (
 )
 )
+{
 masm
 .
 bind
@@ -3053,6 +3098,7 @@ rejoin
 )
 )
 ;
+}
 return
 ;
 }
@@ -3066,6 +3112,7 @@ MIRType
 :
 Double
 )
+{
 masm
 .
 wasmTruncateDoubleToInt32
@@ -3081,6 +3128,7 @@ isSaturating
 oolEntry
 )
 ;
+}
 else
 if
 (
@@ -3092,6 +3140,7 @@ MIRType
 :
 Float32
 )
+{
 masm
 .
 wasmTruncateFloat32ToInt32
@@ -3107,7 +3156,9 @@ isSaturating
 oolEntry
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -3116,6 +3167,7 @@ type
 "
 )
 ;
+}
 masm
 .
 bind
@@ -3147,9 +3199,11 @@ generateOutOfLineCode
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 deoptLabel_
@@ -3844,6 +3898,7 @@ isMax
 (
 )
 )
+{
 masm
 .
 maxDouble
@@ -3853,7 +3908,9 @@ first
 handleNaN
 )
 ;
+}
 else
+{
 masm
 .
 minDouble
@@ -3863,6 +3920,7 @@ first
 handleNaN
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -3975,6 +4033,7 @@ isMax
 (
 )
 )
+{
 masm
 .
 maxFloat32
@@ -3984,7 +4043,9 @@ first
 handleNaN
 )
 ;
+}
 else
+{
 masm
 .
 minFloat32
@@ -3994,6 +4055,7 @@ first
 handleNaN
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -4542,6 +4604,7 @@ operandIsNeverNaN
 (
 )
 )
+{
 cond
 =
 Assembler
@@ -4549,6 +4612,7 @@ Assembler
 :
 DoubleNotEqual
 ;
+}
 masm
 .
 branchDouble
@@ -4740,6 +4804,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 addl
@@ -4767,7 +4832,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 addl
@@ -4792,6 +4859,7 @@ lhs
 )
 )
 ;
+}
 if
 (
 ins
@@ -4997,6 +5065,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 subl
@@ -5024,7 +5093,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 subl
@@ -5049,6 +5120,7 @@ lhs
 )
 )
 ;
+}
 if
 (
 ins
@@ -5348,6 +5420,7 @@ isAddI
 (
 )
 )
+{
 masm
 .
 subl
@@ -5356,7 +5429,9 @@ constant
 reg
 )
 ;
+}
 else
+{
 masm
 .
 addl
@@ -5365,6 +5440,7 @@ constant
 reg
 )
 ;
+}
 }
 else
 {
@@ -5377,6 +5453,7 @@ isAddI
 (
 )
 )
+{
 masm
 .
 subl
@@ -5388,7 +5465,9 @@ rhs
 reg
 )
 ;
+}
 else
+{
 masm
 .
 addl
@@ -5400,6 +5479,7 @@ rhs
 reg
 )
 ;
+}
 }
 bailout
 (
@@ -5787,6 +5867,7 @@ canOverflow
 (
 )
 )
+{
 bailoutIf
 (
 Assembler
@@ -5801,6 +5882,7 @@ snapshot
 )
 )
 ;
+}
 }
 else
 {
@@ -5827,6 +5909,7 @@ canOverflow
 (
 )
 )
+{
 bailoutIf
 (
 Assembler
@@ -5841,6 +5924,7 @@ snapshot
 )
 )
 ;
+}
 if
 (
 mul
@@ -6367,6 +6451,7 @@ lhs
 =
 eax
 )
+{
 masm
 .
 mov
@@ -6375,6 +6460,7 @@ lhs
 eax
 )
 ;
+}
 if
 (
 ins
@@ -6786,6 +6872,7 @@ trapOnError
 (
 )
 )
+{
 masm
 .
 wasmTrap
@@ -6805,7 +6892,9 @@ bytecodeOffset
 )
 )
 ;
+}
 else
+{
 masm
 .
 xorl
@@ -6814,6 +6903,7 @@ output
 output
 )
 ;
+}
 }
 else
 {
@@ -7027,6 +7117,7 @@ isTruncated
 (
 )
 )
+{
 bailoutIf
 (
 Assembler
@@ -7041,6 +7132,7 @@ snapshot
 )
 )
 ;
+}
 }
 else
 if
@@ -7463,6 +7555,7 @@ shift
 >
 1
 )
+{
 masm
 .
 sarl
@@ -7474,6 +7567,7 @@ Imm32
 lhs
 )
 ;
+}
 masm
 .
 shrl
@@ -7511,6 +7605,7 @@ if
 (
 negativeDivisor
 )
+{
 masm
 .
 negl
@@ -7518,6 +7613,7 @@ negl
 lhs
 )
 ;
+}
 }
 return
 ;
@@ -7890,6 +7986,7 @@ d
 <
 0
 )
+{
 masm
 .
 negl
@@ -7897,6 +7994,7 @@ negl
 edx
 )
 ;
+}
 if
 (
 !
@@ -8207,6 +8305,7 @@ lhs
 =
 eax
 )
+{
 masm
 .
 mov
@@ -8215,6 +8314,7 @@ lhs
 eax
 )
 ;
+}
 if
 (
 mir
@@ -8302,6 +8402,7 @@ if
 !
 ool
 )
+{
 ool
 =
 new
@@ -8315,6 +8416,7 @@ ReturnZero
 output
 )
 ;
+}
 masm
 .
 j
@@ -8593,6 +8695,7 @@ lhs
 =
 eax
 )
+{
 masm
 .
 mov
@@ -8601,6 +8704,7 @@ lhs
 eax
 )
 ;
+}
 masm
 .
 cdq
@@ -8882,6 +8986,7 @@ isTruncated
 (
 )
 )
+{
 bailoutIf
 (
 Assembler
@@ -8896,6 +9001,7 @@ snapshot
 )
 )
 ;
+}
 masm
 .
 bind
@@ -9240,6 +9346,7 @@ lhs
 =
 eax
 )
+{
 masm
 .
 mov
@@ -9248,6 +9355,7 @@ lhs
 eax
 )
 ;
+}
 MMod
 *
 mir
@@ -9347,6 +9455,7 @@ if
 !
 ool
 )
+{
 ool
 =
 new
@@ -9360,6 +9469,7 @@ ReturnZero
 edx
 )
 ;
+}
 masm
 .
 j
@@ -9408,6 +9518,7 @@ canBeNegativeDividend
 (
 )
 )
+{
 masm
 .
 branchTest32
@@ -9422,6 +9533,7 @@ lhs
 negative
 )
 ;
+}
 {
 if
 (
@@ -9815,6 +9927,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 orl
@@ -9832,7 +9945,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 orl
@@ -9847,6 +9962,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -9861,6 +9977,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 xorl
@@ -9878,7 +9995,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 xorl
@@ -9893,6 +10012,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -9907,6 +10027,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 andl
@@ -9924,7 +10045,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 andl
@@ -9939,6 +10062,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 default
@@ -10029,6 +10153,7 @@ IsConstant
 rhs
 )
 )
+{
 masm
 .
 or64
@@ -10046,7 +10171,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 or64
@@ -10061,6 +10188,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -10073,6 +10201,7 @@ IsConstant
 rhs
 )
 )
+{
 masm
 .
 xor64
@@ -10090,7 +10219,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 xor64
@@ -10105,6 +10236,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -10117,6 +10249,7 @@ IsConstant
 rhs
 )
 )
+{
 masm
 .
 and64
@@ -10134,7 +10267,9 @@ lhs
 )
 )
 ;
+}
 else
+{
 masm
 .
 and64
@@ -10149,6 +10284,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 default
@@ -10237,6 +10373,7 @@ if
 (
 shift
 )
+{
 masm
 .
 shll
@@ -10248,6 +10385,7 @@ shift
 lhs
 )
 ;
+}
 break
 ;
 case
@@ -10257,6 +10395,7 @@ if
 (
 shift
 )
+{
 masm
 .
 sarl
@@ -10268,6 +10407,7 @@ shift
 lhs
 )
 ;
+}
 break
 ;
 case
@@ -10567,6 +10707,7 @@ if
 (
 shift
 )
+{
 masm
 .
 lshift64
@@ -10581,6 +10722,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -10590,6 +10732,7 @@ if
 (
 shift
 )
+{
 masm
 .
 rshift64Arithmetic
@@ -10604,6 +10747,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 case
@@ -10613,6 +10757,7 @@ if
 (
 shift
 )
+{
 masm
 .
 rshift64
@@ -10627,6 +10772,7 @@ lhs
 )
 )
 ;
+}
 break
 ;
 default
@@ -10815,6 +10961,7 @@ if
 (
 shift
 )
+{
 masm
 .
 shrl
@@ -10826,6 +10973,7 @@ shift
 lhs
 )
 ;
+}
 }
 else
 {
@@ -10877,6 +11025,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 Operand
 (
@@ -10892,6 +11041,7 @@ reg
 )
 )
 ;
+}
 if
 (
 a
@@ -10900,6 +11050,7 @@ isFloatReg
 (
 )
 )
+{
 return
 Operand
 (
@@ -10915,6 +11066,7 @@ reg
 )
 )
 ;
+}
 return
 Operand
 (
@@ -10994,6 +11146,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 MoveOperand
 (
@@ -11003,6 +11156,7 @@ a
 )
 )
 ;
+}
 if
 (
 a
@@ -11011,6 +11165,7 @@ isFloatReg
 (
 )
 )
+{
 return
 MoveOperand
 (
@@ -11020,6 +11175,7 @@ a
 )
 )
 ;
+}
 return
 MoveOperand
 (
@@ -11308,6 +11464,7 @@ low
 =
 0
 )
+{
 masm
 .
 subl
@@ -11324,6 +11481,7 @@ low
 index
 )
 ;
+}
 int32_t
 cases
 =
@@ -13991,12 +14149,14 @@ NopSize
 (
 )
 )
+{
 masm
 .
 nop
 (
 )
 ;
+}
 masm
 .
 bind
@@ -15244,12 +15404,14 @@ type
 &
 MembarStoreLoad
 )
+{
 masm
 .
 storeLoadFence
 (
 )
 ;
+}
 }
 void
 CodeGeneratorX86Shared
@@ -15367,6 +15529,7 @@ MIRType
 :
 Int32
 )
+{
 masm
 .
 oolWasmTruncateCheckF32ToI32
@@ -15378,6 +15541,7 @@ off
 oolRejoin
 )
 ;
+}
 else
 if
 (
@@ -15389,6 +15553,7 @@ MIRType
 :
 Int64
 )
+{
 masm
 .
 oolWasmTruncateCheckF32ToI64
@@ -15400,7 +15565,9 @@ off
 oolRejoin
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -15409,6 +15576,7 @@ type
 "
 )
 ;
+}
 }
 else
 if
@@ -15432,6 +15600,7 @@ MIRType
 :
 Int32
 )
+{
 masm
 .
 oolWasmTruncateCheckF64ToI32
@@ -15443,6 +15612,7 @@ off
 oolRejoin
 )
 ;
+}
 else
 if
 (
@@ -15454,6 +15624,7 @@ MIRType
 :
 Int64
 )
+{
 masm
 .
 oolWasmTruncateCheckF64ToI64
@@ -15465,7 +15636,9 @@ off
 oolRejoin
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -15474,6 +15647,7 @@ type
 "
 )
 ;
+}
 }
 else
 {
@@ -15639,6 +15813,7 @@ lhs
 =
 out
 )
+{
 masm
 .
 moveFloat32
@@ -15647,6 +15822,7 @@ lhs
 out
 )
 ;
+}
 return
 ;
 }
@@ -15789,6 +15965,7 @@ lhs
 =
 out
 )
+{
 masm
 .
 moveDouble
@@ -15797,6 +15974,7 @@ lhs
 out
 )
 ;
+}
 return
 ;
 }
@@ -15982,8 +16160,10 @@ if
 !
 c
 )
+{
 return
 ;
+}
 if
 (
 mir
@@ -15993,6 +16173,7 @@ isLeftRotate
 (
 )
 )
+{
 masm
 .
 rotateLeft64
@@ -16006,7 +16187,9 @@ output
 temp
 )
 ;
+}
 else
+{
 masm
 .
 rotateRight64
@@ -16021,6 +16204,7 @@ temp
 )
 ;
 }
+}
 else
 {
 if
@@ -16032,6 +16216,7 @@ isLeftRotate
 (
 )
 )
+{
 masm
 .
 rotateLeft64
@@ -16045,7 +16230,9 @@ output
 temp
 )
 ;
+}
 else
+{
 masm
 .
 rotateRight64
@@ -16059,6 +16246,7 @@ output
 temp
 )
 ;
+}
 }
 }
 void
@@ -16109,6 +16297,7 @@ HasPOPCNT
 (
 )
 )
+{
 temp
 =
 ToRegister
@@ -16122,6 +16311,7 @@ getTemp
 )
 )
 ;
+}
 masm
 .
 popcnt64

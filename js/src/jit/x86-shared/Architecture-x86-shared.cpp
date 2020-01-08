@@ -331,6 +331,7 @@ JitSupportsSimd
 (
 )
 )
+{
 bits
 &
 =
@@ -344,6 +345,7 @@ Codes
 :
 SpreadScalar
 ;
+}
 bits
 &
 =

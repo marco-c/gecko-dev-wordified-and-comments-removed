@@ -480,12 +480,14 @@ input
 =
 output
 )
+{
 movl
 (
 input
 output
 )
 ;
+}
 shrl
 (
 Imm32
@@ -1422,12 +1424,14 @@ count
 .
 value
 )
+{
 roll
 (
 count
 input
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -1512,12 +1516,14 @@ count
 .
 value
 )
+{
 rorl
 (
 count
 input
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -1624,6 +1630,7 @@ dest
 =
 ecx
 )
+{
 masm
 .
 push
@@ -1631,6 +1638,7 @@ push
 ecx
 )
 ;
+}
 masm
 .
 mov
@@ -1660,6 +1668,7 @@ if
 (
 arithmetic
 )
+{
 masm
 .
 rshift32Arithmetic
@@ -1668,7 +1677,9 @@ ecx
 dest
 )
 ;
+}
 else
+{
 masm
 .
 rshift32
@@ -1677,6 +1688,7 @@ ecx
 dest
 )
 ;
+}
 }
 if
 (
@@ -1691,6 +1703,7 @@ dest
 =
 ecx
 )
+{
 masm
 .
 pop
@@ -1698,6 +1711,7 @@ pop
 ecx
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -5167,10 +5181,12 @@ barrier
 &
 MembarStoreLoad
 )
+{
 storeLoadFence
 (
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -5224,6 +5240,7 @@ base
 =
 esp
 )
+{
 src
 .
 offset
@@ -5236,6 +5253,7 @@ sizeof
 int32_t
 )
 ;
+}
 if
 (
 dest
@@ -5245,6 +5263,7 @@ base
 =
 esp
 )
+{
 dest
 .
 offset
@@ -5257,6 +5276,7 @@ sizeof
 int32_t
 )
 ;
+}
 reserveStack
 (
 2
@@ -5418,6 +5438,7 @@ base
 =
 esp
 )
+{
 src
 .
 offset
@@ -5430,6 +5451,7 @@ sizeof
 int32_t
 )
 ;
+}
 if
 (
 dest
@@ -5439,6 +5461,7 @@ base
 =
 esp
 )
+{
 dest
 .
 offset
@@ -5451,6 +5474,7 @@ sizeof
 int32_t
 )
 ;
+}
 reserveStack
 (
 2
