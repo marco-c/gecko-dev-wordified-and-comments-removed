@@ -65,6 +65,15 @@ collapsibilities
 js
 '
 '
+debug
+-
+target
+-
+support
+.
+js
+'
+'
 extensions
 -
 helper
