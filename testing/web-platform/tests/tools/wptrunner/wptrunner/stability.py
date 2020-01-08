@@ -645,6 +645,9 @@ status
 ]
 )
         
+try
+:
+            
 test
 [
 "
@@ -665,6 +668,12 @@ test_timeout
 ]
 *
 1000
+        
+except
+KeyError
+:
+            
+pass
 def
 is_inconsistent
 (
@@ -820,6 +829,18 @@ out
 "
 "
 "
+    
+if
+"
+timeout
+"
+not
+in
+test
+:
+        
+return
+None
     
 threshold
 =
