@@ -3735,6 +3735,8 @@ isRuntimeCodeGenEnabled
 JSContext
 *
 cx
+HandleValue
+code
 Handle
 <
 GlobalObject

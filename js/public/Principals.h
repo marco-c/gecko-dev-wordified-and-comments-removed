@@ -169,6 +169,11 @@ JSCSPEvalChecker
 JSContext
 *
 cx
+JS
+:
+:
+HandleValue
+value
 )
 ;
 struct
