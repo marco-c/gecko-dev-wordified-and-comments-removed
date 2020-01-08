@@ -193,6 +193,11 @@ yaml
 ref
 .
 yaml
+fuzzy
+(
+1
+5
+)
 =
 =
 split
