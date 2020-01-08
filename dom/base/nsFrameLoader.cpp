@@ -206,13 +206,6 @@ h
 #
 include
 "
-nsISHistoryInternal
-.
-h
-"
-#
-include
-"
 nsIXULWindow
 .
 h

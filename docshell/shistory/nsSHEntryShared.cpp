@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsISHistoryInternal
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h
@@ -373,7 +366,7 @@ RemoveFromExpirationTracker
 {
 nsCOMPtr
 <
-nsISHistoryInternal
+nsISHistory
 >
 shistory
 =
@@ -598,7 +591,7 @@ if
 (
 nsCOMPtr
 <
-nsISHistoryInternal
+nsISHistory
 >
 shistory
 =
@@ -714,7 +707,7 @@ Destroy
 }
 nsCOMPtr
 <
-nsISHistoryInternal
+nsISHistory
 >
 shistory
 =
@@ -847,7 +840,7 @@ Destroy
 }
 nsCOMPtr
 <
-nsISHistoryInternal
+nsISHistory
 >
 shistory
 =

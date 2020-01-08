@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsISHistoryInternal
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

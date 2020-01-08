@@ -590,13 +590,6 @@ h
 #
 include
 "
-nsISHistoryInternal
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h
@@ -8068,7 +8061,7 @@ endif
 history
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -

@@ -105,11 +105,6 @@ nsISHistory
 idl
 '
 '
-nsISHistoryInternal
-.
-idl
-'
-'
 nsISHistoryListener
 .
 idl

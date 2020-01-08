@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsISHistoryInternal
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h
@@ -114,8 +107,6 @@ nsSHistory
 >
 public
 nsISHistory
-public
-nsISHistoryInternal
 public
 nsIWebNavigation
 public
@@ -229,7 +220,6 @@ nsSHistory
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHISTORY
-NS_DECL_NSISHISTORYINTERNAL
 NS_DECL_NSIWEBNAVIGATION
 static
 nsresult

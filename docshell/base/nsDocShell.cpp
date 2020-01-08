@@ -862,13 +862,6 @@ h
 #
 include
 "
-nsISHistoryInternal
-.
-h
-"
-#
-include
-"
 nsISiteSecurityService
 .
 h
@@ -2321,7 +2314,7 @@ mSessionHistory
 mSessionHistory
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -5042,7 +5035,7 @@ Index
 rootSH
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -15514,7 +15507,7 @@ rv
 mSessionHistory
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -15863,7 +15856,7 @@ mHistoryID
 sessionHistory
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -16391,7 +16384,7 @@ Index
 rootSH
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -20328,7 +20321,7 @@ rootSH
 rootSH
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -32333,7 +32326,7 @@ Index
 rootSH
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -45013,7 +45006,7 @@ mLSHE
 mSessionHistory
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -45142,7 +45135,7 @@ Index
 rootSH
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -46151,7 +46144,7 @@ curIndex
 rootSH
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -46219,7 +46212,7 @@ index
 rootSH
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -47570,7 +47563,7 @@ rv
 mSessionHistory
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
@@ -47618,7 +47611,7 @@ rv
 mSessionHistory
 -
 >
-LegacySHistoryInternal
+LegacySHistory
 (
 )
 -
