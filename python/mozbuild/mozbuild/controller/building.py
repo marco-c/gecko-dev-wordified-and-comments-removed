@@ -4528,12 +4528,22 @@ STATS_KEYS
         
 (
 '
-stats_zero_time
+stats_zeroed
 '
 '
 stats
 zero
 time
+'
+)
+        
+(
+'
+stats_zeroed
+'
+'
+stats
+zeroed
 '
 )
         
