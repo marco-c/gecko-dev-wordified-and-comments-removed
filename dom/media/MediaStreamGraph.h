@@ -3295,7 +3295,6 @@ uint32_t
 aTicksToProcess
 )
 ;
-virtual
 void
 DispatchToMainThreadAfterStreamStateUpdate
 (
@@ -3415,15 +3414,6 @@ OnGraphThread
 (
 )
 const
-;
-nsTArray
-<
-nsCOMPtr
-<
-nsIRunnable
->
->
-mPendingUpdateRunnables
 ;
 TrackRate
 mSampleRate

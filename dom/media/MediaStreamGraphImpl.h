@@ -1648,6 +1648,15 @@ mLastMainThreadUpdate
 int32_t
 mPortCount
 ;
+nsTArray
+<
+nsCOMPtr
+<
+nsIRunnable
+>
+>
+mPendingUpdateRunnables
+;
 CubebUtils
 :
 :
