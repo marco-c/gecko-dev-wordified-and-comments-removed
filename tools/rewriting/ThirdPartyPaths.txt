@@ -630,6 +630,13 @@ zlib
 /
 netwerk
 /
+dns
+/
+nsIDNKitInterface
+.
+h
+netwerk
+/
 sctp
 /
 src
