@@ -9405,7 +9405,6 @@ specialize
 qw
 /
 vpx_sad64x64x4d
-avx512
 avx2
 neon
 msa
