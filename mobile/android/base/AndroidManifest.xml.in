@@ -887,17 +887,6 @@ android
 scheme
 =
 "
-javascript
-"
-/
->
-<
-data
-android
-:
-scheme
-=
-"
 firefox
 "
 /
