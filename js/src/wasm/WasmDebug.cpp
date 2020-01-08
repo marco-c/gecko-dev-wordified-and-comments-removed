@@ -771,7 +771,7 @@ Tier
 Debug
 )
 [
-debugFuncToCodeRangeIndex
+funcToCodeRangeIndex
 (
 funcIndex
 )
@@ -1014,7 +1014,7 @@ Tier
 Debug
 )
 [
-debugFuncToCodeRangeIndex
+funcToCodeRangeIndex
 (
 funcIndex
 )
@@ -2294,7 +2294,7 @@ Tier
 Debug
 )
 [
-debugFuncToCodeRangeIndex
+funcToCodeRangeIndex
 (
 funcIndex
 )

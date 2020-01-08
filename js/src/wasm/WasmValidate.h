@@ -340,7 +340,7 @@ elemSegments
 MaybeSectionRange
 codeSection
 ;
-DataSegmentVector
+DataSegmentEnvVector
 dataSegments
 ;
 Maybe
