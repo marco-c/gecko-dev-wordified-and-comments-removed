@@ -569,16 +569,6 @@ get
 )
 )
 ;
-aWriter
-.
-IntProperty
-(
-"
-phase
-"
-mPhase
-)
-;
 }
 void
 LayerTranslationMarkerPayload
