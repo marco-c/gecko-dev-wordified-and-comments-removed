@@ -4382,9 +4382,7 @@ true
 "
 )
 ;
-this
-.
-parentNode
+gNavToolbox
 .
 setAttribute
 (
@@ -5391,9 +5389,7 @@ movingtab
 "
 )
 ;
-this
-.
-parentNode
+gNavToolbox
 .
 removeAttribute
 (
@@ -8319,6 +8315,10 @@ id
 =
 "
 TabsToolbar
+-
+customization
+-
+target
 "
 )
 {
