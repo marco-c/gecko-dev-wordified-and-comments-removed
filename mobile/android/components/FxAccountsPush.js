@@ -955,7 +955,7 @@ EventDispatcher
 .
 instance
 .
-sendRequest
+sendRequestForResult
 (
 {
 type
