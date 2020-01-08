@@ -11285,7 +11285,7 @@ ipc
 .
 security
 "
-false
+true
 )
 ;
 pref
@@ -39250,18 +39250,6 @@ activity
 enabled
 "
 false
-)
-;
-pref
-(
-"
-io
-.
-activity
-.
-intervalMilliseconds
-"
-0
 )
 ;
 pref
