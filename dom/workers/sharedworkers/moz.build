@@ -153,11 +153,6 @@ PSharedWorker
 .
 ipdl
 '
-'
-SharedWorkerTypes
-.
-ipdlh
-'
 ]
 include
 (

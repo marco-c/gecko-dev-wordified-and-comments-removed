@@ -232,9 +232,6 @@ include
 RemoteWorkerTypes
 ;
 include
-SharedWorkerTypes
-;
-include
 MIDITypes
 ;
 include
@@ -650,8 +647,12 @@ PWebAuthnTransaction
 async
 PSharedWorker
 (
-SharedWorkerLoadInfo
-loadInfo
+RemoteWorkerData
+data
+uint64_t
+windowID
+MessagePortIdentifier
+portIdentifier
 )
 ;
 async

@@ -61,7 +61,7 @@ protocol
 PBackground
 ;
 include
-SharedWorkerTypes
+RemoteWorkerTypes
 ;
 namespace
 mozilla

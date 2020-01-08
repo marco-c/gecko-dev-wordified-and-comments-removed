@@ -47,6 +47,13 @@ Initialize
 (
 )
 ;
+static
+nsIThread
+*
+Thread
+(
+)
+;
 private
 :
 RemoteWorkerService
