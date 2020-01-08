@@ -2540,6 +2540,30 @@ read_stdout
 (
 )
             
+print
+(
+"
+wait
+for
+%
+s
+complete
+;
+top
+activity
+=
+%
+s
+"
+%
+(
+self
+.
+procName
+top
+)
+)
+            
 return
 status
         
