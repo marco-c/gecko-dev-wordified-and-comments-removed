@@ -159,12 +159,6 @@ aGivenProto
 override
 ;
 void
-DestroyMediaStream
-(
-)
-override
-;
-void
 SetChannelCount
 (
 uint32_t
@@ -881,6 +875,8 @@ aContext
 PannerNode
 (
 )
+=
+default
 ;
 friend
 class
@@ -893,9 +889,6 @@ PannerNodeEngine
 enum
 EngineParameters
 {
-LISTENER_POSITION
-LISTENER_FRONT_VECTOR
-LISTENER_RIGHT_VECTOR
 PANNING_MODEL
 DISTANCE_MODEL
 POSITION
