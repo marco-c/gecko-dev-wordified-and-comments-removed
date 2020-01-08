@@ -340,7 +340,6 @@ nullptr
 NS_IMPL_ISUPPORTS
 (
 nsSHEntry
-nsISHContainer
 nsISHEntry
 )
 NS_IMETHODIMP

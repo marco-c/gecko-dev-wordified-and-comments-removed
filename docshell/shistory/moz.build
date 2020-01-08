@@ -95,11 +95,6 @@ nsIBFCacheEntry
 idl
 '
 '
-nsISHContainer
-.
-idl
-'
-'
 nsISHEntry
 .
 idl
