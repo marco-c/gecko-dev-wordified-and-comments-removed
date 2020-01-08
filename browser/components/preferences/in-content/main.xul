@@ -2847,16 +2847,6 @@ id
 "
 defaultBrowserLanguage
 "
-oncommand
-=
-"
-gMainPane
-.
-onBrowserLanguageChange
-(
-event
-)
-"
 >
 <
 menupopup
