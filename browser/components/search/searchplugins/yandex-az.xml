@@ -172,11 +172,11 @@ https
 :
 /
 /
-suggest
-.
 yandex
 .
-ru
+az
+/
+suggest
 /
 suggest
 -
@@ -228,7 +228,7 @@ https
 /
 yandex
 .
-ru
+az
 /
 search
 "
@@ -237,7 +237,7 @@ resultdomain
 "
 yandex
 .
-ru
+az
 "
 >
 <
@@ -391,7 +391,7 @@ www
 .
 yandex
 .
-ru
+az
 /
 <
 /
