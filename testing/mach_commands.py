@@ -40,10 +40,16 @@ mozbuild
 .
 base
 import
+(
+    
+BuildEnvironmentNotFoundException
+    
 MachCommandBase
+    
 MachCommandConditions
 as
 conditions
+)
 from
 moztest
 .
@@ -2383,6 +2389,9 @@ cls
 )
 :
         
+try
+:
+            
 name
 =
 binary
@@ -2395,6 +2404,13 @@ substs
 BIN_SUFFIX
 '
 ]
+        
+except
+BuildEnvironmentNotFoundException
+:
+            
+return
+False
         
 path
 =
