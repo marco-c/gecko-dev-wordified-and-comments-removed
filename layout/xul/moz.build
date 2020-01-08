@@ -246,11 +246,6 @@ MenuBoxObject
 .
 h
 '
-'
-ScrollBoxObject
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -451,11 +446,6 @@ cpp
 '
 '
 nsXULPopupManager
-.
-cpp
-'
-'
-ScrollBoxObject
 .
 cpp
 '

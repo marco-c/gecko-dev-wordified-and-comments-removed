@@ -347,9 +347,9 @@ height
 -
 richListBox
 .
-scrollBoxObject
+_scrollbox
 .
-height
+clientHeight
 )
 ;
 var
@@ -357,9 +357,9 @@ height
 =
 richListBox
 .
-scrollBoxObject
+_scrollbox
 .
-height
+clientHeight
 ;
 var
 item

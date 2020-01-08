@@ -120,7 +120,7 @@ false
 )
 ;
 var
-sbo
+scrollbox
 =
 document
 .
@@ -130,10 +130,8 @@ getElementById
 s
 '
 )
-.
-boxObject
 ;
-sbo
+scrollbox
 .
 scrollTo
 (
