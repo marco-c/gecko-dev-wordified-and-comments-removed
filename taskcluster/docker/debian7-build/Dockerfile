@@ -140,12 +140,6 @@ multilib
 \
 gnupg
 \
-openjdk
--
-7
--
-jdk
-\
 p7zip
 -
 full
