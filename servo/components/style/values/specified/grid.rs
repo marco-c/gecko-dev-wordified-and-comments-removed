@@ -728,6 +728,9 @@ ident
 "
 span
 "
+"
+auto
+"
 ]
 )
 ?

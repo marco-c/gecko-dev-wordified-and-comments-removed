@@ -677,6 +677,9 @@ location
 name
 &
 [
+"
+auto
+"
 ]
 )
 ?
