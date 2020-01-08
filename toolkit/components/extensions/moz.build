@@ -300,6 +300,11 @@ extensions
 =
 [
 '
+DocumentObserver
+.
+h
+'
+'
 MatchGlob
 .
 h
