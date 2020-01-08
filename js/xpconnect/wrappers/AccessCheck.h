@@ -576,13 +576,16 @@ Wrapper
 :
 ENUMERATE
 )
+{
 return
 true
 ;
+}
 if
 (
 mayThrow
 )
+{
 AccessCheck
 :
 :
@@ -598,6 +601,7 @@ access
 )
 )
 ;
+}
 return
 false
 ;

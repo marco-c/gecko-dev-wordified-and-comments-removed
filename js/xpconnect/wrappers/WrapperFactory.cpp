@@ -249,9 +249,11 @@ scope
 >
 mWaiverWrapperMap
 )
+{
 return
 nullptr
 ;
+}
 return
 scope
 -
@@ -324,9 +326,11 @@ if
 !
 waiver
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -366,9 +370,11 @@ obj
 waiver
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 waiver
 ;
@@ -585,9 +591,11 @@ WrapperFactory
 WAIVE_XRAY_WRAPPER_FLAG
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -600,9 +608,11 @@ Wrapper
 CROSS_COMPARTMENT
 )
 )
+{
 return
 true
 ;
+}
 JS
 :
 :
@@ -1714,6 +1724,7 @@ if
 !
 securityWrapper
 )
+{
 return
 &
 CrossCompartmentWrapper
@@ -1721,6 +1732,7 @@ CrossCompartmentWrapper
 :
 singleton
 ;
+}
 return
 &
 FilteringWrapper
@@ -1746,6 +1758,7 @@ xrayType
 =
 XrayForDOMObject
 )
+{
 return
 &
 PermissiveXrayDOM
@@ -1753,6 +1766,7 @@ PermissiveXrayDOM
 :
 singleton
 ;
+}
 else
 if
 (
@@ -1761,6 +1775,7 @@ xrayType
 =
 XrayForJSObject
 )
+{
 return
 &
 PermissiveXrayJS
@@ -1768,6 +1783,7 @@ PermissiveXrayJS
 :
 singleton
 ;
+}
 MOZ_ASSERT
 (
 xrayType
@@ -1800,6 +1816,7 @@ obj
 =
 CrossOriginOpaque
 )
+{
 return
 &
 FilteringWrapper
@@ -1811,6 +1828,7 @@ CrossOriginAccessiblePropertiesOnly
 :
 singleton
 ;
+}
 if
 (
 xrayType
@@ -1824,6 +1842,7 @@ IsInContentXBLScope
 obj
 )
 )
+{
 return
 &
 FilteringWrapper
@@ -1835,6 +1854,7 @@ OpaqueWithCall
 :
 singleton
 ;
+}
 return
 &
 FilteringWrapper
@@ -2365,6 +2385,7 @@ if
 (
 existing
 )
+{
 return
 Wrapper
 :
@@ -2376,6 +2397,7 @@ obj
 wrapper
 )
 ;
+}
 return
 Wrapper
 :
@@ -2409,6 +2431,7 @@ isPrimitive
 (
 )
 )
+{
 return
 JS_WrapValue
 (
@@ -2416,6 +2439,7 @@ cx
 vp
 )
 ;
+}
 RootedObject
 obj
 (
@@ -2438,9 +2462,11 @@ cx
 obj
 )
 )
+{
 return
 false
 ;
+}
 vp
 .
 setObject
@@ -2570,9 +2596,11 @@ if
 !
 obj
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -2583,9 +2611,11 @@ cx
 obj
 )
 )
+{
 return
 false
 ;
+}
 argObj
 .
 set
@@ -2655,9 +2685,11 @@ if
 !
 newWaiver
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -2671,9 +2703,11 @@ oldWaiver
 newWaiver
 )
 )
+{
 return
 false
 ;
+}
 XPCWrappedNativeScope
 *
 scope
@@ -2777,9 +2811,11 @@ newIdentity
 !
 oldWaiver
 )
+{
 return
 newIdentity
 ;
+}
 if
 (
 !
@@ -2790,9 +2826,11 @@ oldWaiver
 newIdentity
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 newIdentity
 ;

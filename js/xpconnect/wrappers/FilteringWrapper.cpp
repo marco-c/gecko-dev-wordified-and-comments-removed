@@ -286,6 +286,7 @@ Wrapper
 SET
 )
 )
+{
 props
 [
 w
@@ -298,6 +299,7 @@ set
 id
 )
 ;
+}
 else
 if
 (
@@ -306,9 +308,11 @@ JS_IsExceptionPending
 cx
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -320,9 +324,11 @@ resize
 w
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -383,9 +389,11 @@ JS_IsExceptionPending
 cx
 )
 )
+{
 return
 false
 ;
+}
 bool
 setAllowed
 =
@@ -410,9 +418,11 @@ JS_IsExceptionPending
 cx
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 getAllowed
@@ -447,6 +457,7 @@ if
 !
 getAllowed
 )
+{
 desc
 .
 value
@@ -457,6 +468,7 @@ setUndefined
 (
 )
 ;
+}
 }
 else
 {
@@ -478,6 +490,7 @@ if
 !
 getAllowed
 )
+{
 desc
 .
 setGetter
@@ -485,11 +498,13 @@ setGetter
 nullptr
 )
 ;
+}
 if
 (
 !
 setAllowed
 )
+{
 desc
 .
 setSetter
@@ -497,6 +512,7 @@ setSetter
 nullptr
 )
 ;
+}
 }
 return
 true
@@ -569,9 +585,11 @@ id
 desc
 )
 )
+{
 return
 false
 ;
+}
 return
 FilterPropertyDescriptor
 <
@@ -652,9 +670,11 @@ id
 desc
 )
 )
+{
 return
 false
 ;
+}
 return
 FilterPropertyDescriptor
 <
@@ -895,9 +915,11 @@ wrapper
 args
 )
 )
+{
 return
 false
 ;
+}
 return
 Base
 :
@@ -962,9 +984,11 @@ wrapper
 args
 )
 )
+{
 return
 false
 ;
+}
 return
 Base
 :
@@ -1029,6 +1053,7 @@ test
 impl
 )
 )
+{
 return
 Base
 :
@@ -1044,6 +1069,7 @@ impl
 args
 )
 ;
+}
 return
 Base
 :
@@ -1241,9 +1267,11 @@ id
 desc
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 desc
@@ -1341,6 +1369,7 @@ setter
 (
 )
 )
+{
 desc
 .
 attributesRef
@@ -1350,6 +1379,7 @@ attributesRef
 =
 JSPROP_READONLY
 ;
+}
 }
 else
 if

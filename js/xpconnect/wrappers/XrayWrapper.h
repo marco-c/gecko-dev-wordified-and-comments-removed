@@ -149,6 +149,7 @@ if
 (
 target
 )
+{
 JS
 :
 :
@@ -157,6 +158,7 @@ ExposeObjectToActiveJS
 target
 )
 ;
+}
 return
 target
 ;
@@ -1088,6 +1090,7 @@ holder
 =
 JSProto_Function
 )
+{
 return
 baseInstance
 .
@@ -1098,6 +1101,7 @@ wrapper
 args
 )
 ;
+}
 JS
 :
 :
@@ -1262,9 +1266,11 @@ key
 protop
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 JS_WrapObject
@@ -1781,9 +1787,11 @@ JSProto_Object
 protop
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 JS_WrapObject

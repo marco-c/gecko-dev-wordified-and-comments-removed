@@ -104,9 +104,11 @@ value
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 ChromeObjectWrapperBase
 :
@@ -157,9 +159,11 @@ wrapper
 v
 )
 )
+{
 return
 false
 ;
+}
 return
 ChromeObjectWrapperBase
 :
