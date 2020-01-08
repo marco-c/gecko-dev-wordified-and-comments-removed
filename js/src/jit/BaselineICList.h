@@ -276,17 +276,6 @@ GetProp_Fallback
 \
 _
 (
-RetSub_Fallback
-)
-\
-_
-(
-RetSub_Resume
-)
-\
-\
-_
-(
 CacheIR_Regular
 )
 \
