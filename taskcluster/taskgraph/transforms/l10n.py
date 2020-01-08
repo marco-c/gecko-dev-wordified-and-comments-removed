@@ -430,6 +430,17 @@ object
 Required
 (
 '
+primary
+-
+dependency
+'
+)
+:
+object
+    
+Required
+(
+'
 worker
 -
 type
@@ -911,14 +922,9 @@ dep
 job
 [
 '
-dependent
+primary
 -
-tasks
-'
-]
-[
-'
-build
+dependency
 '
 ]
         
@@ -987,14 +993,9 @@ dep
 job
 [
 '
-dependent
+primary
 -
-tasks
-'
-]
-[
-'
-build
+dependency
 '
 ]
         

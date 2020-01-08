@@ -119,6 +119,11 @@ repackage
 signing
 -
 toolchain
+primary
+-
+dependency
+:
+build
 only
 -
 for
