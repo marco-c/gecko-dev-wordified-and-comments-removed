@@ -7975,6 +7975,15 @@ gBrowser
 .
 docShell
 ;
+gURLBar
+.
+removeAttribute
+(
+"
+focused
+"
+)
+;
 try
 {
 gBrowser
