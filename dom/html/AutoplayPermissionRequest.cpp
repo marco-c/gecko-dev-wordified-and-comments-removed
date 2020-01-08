@@ -343,6 +343,10 @@ DenyPlayRequest
 (
 )
 ;
+mManager
+=
+nullptr
+;
 }
 return
 NS_OK
@@ -372,6 +376,10 @@ mManager
 ApprovePlayRequest
 (
 )
+;
+mManager
+=
+nullptr
 ;
 }
 return
