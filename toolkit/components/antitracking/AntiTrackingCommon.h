@@ -149,10 +149,9 @@ StorageAccessGrantPromise
 >
 AddFirstPartyStorageAccessGrantedFor
 (
-const
-nsAString
-&
-aOrigin
+nsIPrincipal
+*
+aPrincipal
 nsPIDOMWindowInner
 *
 aParentWindow
