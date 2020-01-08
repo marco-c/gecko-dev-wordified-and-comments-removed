@@ -4034,7 +4034,7 @@ count
 gcstats
 :
 :
-STAT_NEW_CHUNK
+COUNT_NEW_CHUNK
 )
 ;
 return
