@@ -1408,10 +1408,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS0
-(
-nsNameSpaceManager
-)
 void
 nsNameSpaceManager
 :
