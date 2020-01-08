@@ -11,14 +11,6 @@ default_actions
 '
 build
 '
-        
-'
-ensure
--
-upload
--
-path
-'
     
 ]
     

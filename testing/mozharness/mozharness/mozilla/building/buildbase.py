@@ -8975,6 +8975,12 @@ _create_mozbuild_dir
 (
 )
         
+self
+.
+_ensure_upload_path
+(
+)
+        
 mach_props
 =
 os
@@ -13178,7 +13184,7 @@ errors
 )
     
 def
-ensure_upload_path
+_ensure_upload_path
 (
 self
 )
@@ -13215,9 +13221,9 @@ UPLOAD_PATH
 )
 :
             
-os
+self
 .
-makedirs
+mkdir_p
 (
 env
 [
