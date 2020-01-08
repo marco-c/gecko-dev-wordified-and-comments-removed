@@ -1777,25 +1777,6 @@ numTestFiles
 =
 1
             
-if
-len
-(
-test_list
-)
-!
-=
-1
-:
-                
-import
-pdb
-                
-pdb
-.
-set_trace
-(
-)
-            
 assert
 len
 (
@@ -1804,6 +1785,7 @@ test_list
 =
 =
 1
+test_list
             
 line
 =
