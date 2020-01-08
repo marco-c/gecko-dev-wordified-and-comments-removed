@@ -116,7 +116,7 @@ Worker
 >
 openWorkerToolbox
 :
-string
+object
 =
 >
 void

@@ -94,7 +94,7 @@ workers
 "
 array
 :
-json
+workerTarget
 "
 }
 )

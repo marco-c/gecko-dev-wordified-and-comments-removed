@@ -154,11 +154,11 @@ DEBUG_TARGETS
 WORKER
 ;
 const
-id
+front
 =
 worker
 .
-workerTargetActor
+workerTargetFront
 ;
 const
 icon
@@ -235,7 +235,7 @@ isRunning
 !
 worker
 .
-workerTargetActor
+workerTargetFront
 ;
 status
 =
@@ -250,7 +250,7 @@ return
 {
 name
 icon
-id
+front
 type
 details
 :

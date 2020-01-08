@@ -206,7 +206,7 @@ nullable
 :
 array
 :
-json
+workerTarget
 "
 }
 )

@@ -134,8 +134,11 @@ constants
 function
 inspectDebugTarget
 (
+{
 type
 id
+front
+}
 )
 {
 return
@@ -356,10 +359,7 @@ gDevToolsBrowser
 .
 openWorkerToolbox
 (
-runtimeDetails
-.
-client
-id
+front
 )
 ;
 break
