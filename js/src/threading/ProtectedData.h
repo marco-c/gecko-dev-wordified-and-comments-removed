@@ -66,6 +66,7 @@ other
 )
 const
 {
+\
 return
 ref
 (
@@ -79,6 +80,7 @@ T
 other
 )
 ;
+\
 }
 #
 define

@@ -354,6 +354,8 @@ in
 this
 preview
 release
+"
+"
 (
 AssertedParameterName
 )
@@ -400,6 +402,8 @@ in
 this
 preview
 release
+"
+"
 (
 AssertedRestParameterName
 )
@@ -5896,6 +5900,8 @@ in
 this
 preview
 release
+"
+"
 (
 ArrayAssignmentTarget
 )
@@ -7876,6 +7882,8 @@ entry
 for
 the
 same
+"
+"
 index
 "
 )
@@ -9816,6 +9824,8 @@ in
 this
 preview
 release
+"
+"
 (
 BindingWithInitializer
 )
@@ -11700,6 +11710,8 @@ in
 this
 preview
 release
+"
+"
 (
 ComputedPropertyName
 )
@@ -12783,6 +12795,8 @@ in
 this
 preview
 release
+"
+"
 (
 EagerArrowExpressionWithExpression
 )
@@ -12836,6 +12850,8 @@ in
 this
 preview
 release
+"
+"
 (
 EagerArrowExpressionWithFunctionBody
 )
@@ -17579,6 +17595,8 @@ in
 this
 preview
 release
+"
+"
 (
 LazyArrowExpressionWithExpression
 )
@@ -17632,6 +17650,8 @@ in
 this
 preview
 release
+"
+"
 (
 LazyArrowExpressionWithFunctionBody
 )
@@ -18728,6 +18748,8 @@ in
 this
 preview
 release
+"
+"
 (
 LiteralInfinityExpression
 )
@@ -19817,6 +19839,8 @@ in
 this
 preview
 release
+"
+"
 (
 NewTargetExpression
 )
@@ -19870,6 +19894,8 @@ in
 this
 preview
 release
+"
+"
 (
 ObjectAssignmentTarget
 )
@@ -22180,6 +22206,8 @@ in
 this
 preview
 release
+"
+"
 (
 TemplateExpression
 )
@@ -23953,6 +23981,8 @@ check
 for
 BindingPattern
 variable
+"
+"
 declaration
 "
 )
@@ -24363,6 +24393,8 @@ in
 this
 preview
 release
+"
+"
 (
 YieldStarExpression
 )

@@ -1742,10 +1742,10 @@ using
 mozilla
 :
 :
-scache
+dom
 :
 :
-StartupCache
+ContentChild
 ;
 using
 mozilla
@@ -1760,19 +1760,19 @@ using
 mozilla
 :
 :
-dom
+intl
 :
 :
-ContentChild
+LocaleService
 ;
 using
 mozilla
 :
 :
-intl
+scache
 :
 :
-LocaleService
+StartupCache
 ;
 static
 void
@@ -3295,6 +3295,9 @@ h
 not
 synchronized
 with
+"
+\
+"
 nsIXULRuntime
 .
 idl
@@ -5805,10 +5808,12 @@ define
 APPINFO_CID
 \
 {
+\
 0x95d89e3e
 0xa169
 0x41a3
 {
+\
 0x8e
 0x56
 0x71
@@ -5817,7 +5822,9 @@ APPINFO_CID
 0xe1
 0x5b
 0x12
+\
 }
+\
 }
 static
 const
@@ -6672,6 +6679,8 @@ new
 window
 in
 running
+"
+"
 instance
 .
 \
@@ -6730,6 +6739,8 @@ modules
 >
 environment
 variable
+"
+"
 overrides
 it
 .
@@ -6751,6 +6762,8 @@ MOZ_LOG_FILE
 file
 >
 environment
+"
+"
 variable
 overrides
 it
@@ -6768,6 +6781,8 @@ as
 an
 argument
 or
+"
+"
 as
 an
 environment
@@ -6885,6 +6900,8 @@ content
 processes
 to
 a
+"
+"
 directory
 .
 \
@@ -9626,6 +9643,8 @@ argument
 -
 osint
 is
+"
+"
 specified
 \
 n
@@ -9734,6 +9753,8 @@ is
 invalid
 when
 argument
+"
+"
 -
 -
 osint
@@ -9805,6 +9826,8 @@ argument
 -
 -
 osint
+"
+"
 is
 specified
 \
@@ -10903,6 +10926,8 @@ we
 re
 resetting
 so
+"
+"
 aborting
 reset
 .
@@ -11028,6 +11053,8 @@ is
 invalid
 when
 argument
+"
+"
 -
 -
 osint
@@ -11456,6 +11483,8 @@ we
 re
 resetting
 so
+"
+"
 aborting
 reset
 .
@@ -16172,6 +16201,8 @@ argument
 -
 -
 osint
+"
+"
 is
 specified
 \
@@ -16246,6 +16277,8 @@ is
 invalid
 when
 argument
+"
+"
 -
 -
 osint
@@ -16407,6 +16440,8 @@ argument
 -
 osint
 is
+"
+"
 specified
 \
 n
@@ -19058,7 +19093,6 @@ open
 files
 in
 "
-\
 "
 your
 profile

@@ -70,13 +70,13 @@ using
 SdpAttributeList
 :
 :
-HasAttribute
+GetAttribute
 ;
 using
 SdpAttributeList
 :
 :
-GetAttribute
+HasAttribute
 ;
 virtual
 bool

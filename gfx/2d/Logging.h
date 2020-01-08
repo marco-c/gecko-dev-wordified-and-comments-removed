@@ -3950,6 +3950,7 @@ CriticalLog
 #
 define
 gfxCriticalErrorOnce
+\
 static
 gfxCriticalError
 GFX_LOGGING_GLUE
@@ -3958,10 +3959,12 @@ sOnceAtLine
 __LINE__
 )
 =
+\
 gfxCriticalError
 #
 define
 gfxCriticalNote
+\
 gfxCriticalError
 (
 gfxCriticalError
@@ -3975,6 +3978,7 @@ false
 #
 define
 gfxCriticalNoteOnce
+\
 static
 gfxCriticalError
 GFX_LOGGING_GLUE
@@ -3983,6 +3987,7 @@ sOnceAtLine
 __LINE__
 )
 =
+\
 gfxCriticalNote
 #
 if
@@ -4003,6 +4008,7 @@ DebugLog
 #
 define
 gfxDebugOnce
+\
 static
 gfxDebug
 GFX_LOGGING_GLUE
@@ -4017,12 +4023,16 @@ else
 #
 define
 gfxDebug
+\
 if
 (
 1
 )
+\
 ;
+\
 else
+\
 mozilla
 :
 :
@@ -4033,12 +4043,16 @@ NoLog
 #
 define
 gfxDebugOnce
+\
 if
 (
 1
 )
+\
 ;
+\
 else
+\
 mozilla
 :
 :
@@ -4061,6 +4075,7 @@ WarningLog
 #
 define
 gfxWarningOnce
+\
 static
 gfxWarning
 GFX_LOGGING_GLUE
@@ -4076,6 +4091,7 @@ gfxDevCrash
 (
 reason
 )
+\
 gfxCriticalError
 (
 int
@@ -4089,6 +4105,7 @@ LogOptions
 AutoPrefix
 )
 |
+\
 int
 (
 gfx
@@ -4100,6 +4117,7 @@ LogOptions
 AssertOnCall
 )
 |
+\
 int
 (
 gfx
@@ -4110,6 +4128,7 @@ LogOptions
 :
 CrashAction
 )
+\
 (
 reason
 )

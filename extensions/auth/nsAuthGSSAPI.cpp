@@ -396,6 +396,7 @@ func
 #
 define
 gss_delete_sec_context_ptr
+\
 (
 (
 gss_delete_sec_context_type

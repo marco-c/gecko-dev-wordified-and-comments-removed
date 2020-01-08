@@ -162,7 +162,7 @@ mozilla
 layers
 :
 :
-PlanarYCbCrImage
+PlanarYCbCrData
 ;
 using
 mozilla
@@ -171,7 +171,7 @@ mozilla
 layers
 :
 :
-PlanarYCbCrData
+PlanarYCbCrImage
 ;
 namespace
 mozilla

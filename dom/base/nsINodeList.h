@@ -23,11 +23,12 @@ define
 NS_INODELIST_IID
 \
 {
+\
 0xadb5e54c
 0x6e96
 0x4102
-\
 {
+\
 0x8d
 0x40
 0xe0
@@ -36,7 +37,9 @@ NS_INODELIST_IID
 0xcf
 0x48
 0x7a
+\
 }
+\
 }
 class
 nsIContent

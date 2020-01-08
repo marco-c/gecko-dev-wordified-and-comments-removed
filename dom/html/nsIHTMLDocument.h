@@ -29,11 +29,12 @@ define
 NS_IHTMLDOCUMENT_IID
 \
 {
+\
 0xcf814492
 0x303c
 0x4718
-\
 {
+\
 0x9a
 0x3e
 0x39
@@ -42,7 +43,9 @@ NS_IHTMLDOCUMENT_IID
 0x2c
 0x10
 0xdb
+\
 }
+\
 }
 class
 nsIHTMLDocument

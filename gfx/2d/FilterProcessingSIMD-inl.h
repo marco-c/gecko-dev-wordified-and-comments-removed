@@ -4545,6 +4545,8 @@ lines
 below
 for
 a
+"
+"
 different
 factor
 .
@@ -7595,9 +7597,9 @@ f32x4_t
 i32x4_t
 u8x16_t
 >
-\
 renderer
 (
+\
 aBaseFrequency
 aSeed
 aNumOctaves

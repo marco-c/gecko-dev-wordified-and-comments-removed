@@ -432,9 +432,7 @@ predicate
 (
 )
 const
-\
 {
-\
 MOZ_DIAGNOSTIC_ASSERT
 (
 predicate
@@ -442,7 +440,6 @@ predicate
 )
 )
 ;
-\
 }
 MOZ_DEFINE_THREAD_BOUND_ASSERT
 (

@@ -16,11 +16,12 @@ define
 NS_CODECOVERAGE_CID
 \
 {
+\
 0x93576af0
 0xa62f
 0x4c88
-\
 {
+\
 0xbc
 0x12
 0xf1
@@ -29,7 +30,9 @@ NS_CODECOVERAGE_CID
 0x4e
 0x01
 0x73
+\
 }
+\
 }
 class
 nsCodeCoverage

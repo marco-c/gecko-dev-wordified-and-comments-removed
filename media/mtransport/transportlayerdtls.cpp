@@ -153,7 +153,6 @@ UNIMPLEMENTED
 MOZ_MTLOG
 (
 ML_ERROR
-\
 "
 Call
 to

@@ -56,11 +56,12 @@ define
 NS_INSERTTEXTTXN_IID
 \
 {
+\
 0x8c9ad77f
 0x22a7
 0x4d01
-\
 {
+\
 0xb1
 0x59
 0x8a
@@ -69,7 +70,9 @@ NS_INSERTTEXTTXN_IID
 0x1d
 0x08
 0xe9
+\
 }
+\
 }
 namespace
 mozilla

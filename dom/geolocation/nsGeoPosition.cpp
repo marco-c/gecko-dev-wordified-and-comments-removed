@@ -910,7 +910,6 @@ name
 )
 \
 double
-\
 Coordinates
 :
 :
@@ -918,7 +917,6 @@ name
 (
 )
 const
-\
 {
 \
 double
@@ -954,7 +952,6 @@ Nullable
 <
 double
 >
-\
 Coordinates
 :
 :
@@ -965,7 +962,6 @@ name
 (
 )
 const
-\
 {
 \
 double

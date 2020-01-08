@@ -92,7 +92,6 @@ ReportInternalError
 (
 __FILE__
 __LINE__
-\
 "
 UnknownErr
 "

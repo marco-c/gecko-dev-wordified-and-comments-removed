@@ -104,11 +104,12 @@ define
 NS_IGLOBALOBJECT_IID
 \
 {
+\
 0x11afa8be
 0xd997
 0x4e07
-\
 {
+\
 0xa6
 0xa3
 0x6f
@@ -117,7 +118,9 @@ NS_IGLOBALOBJECT_IID
 0xc3
 0xee
 0x7f
+\
 }
+\
 }
 class
 nsCycleCollectionTraversalCallback

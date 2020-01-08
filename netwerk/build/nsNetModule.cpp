@@ -739,12 +739,10 @@ b148bfce4280
 /
 \
 0xa62af1ba
-\
 0x79b3
-\
 0x4896
-\
 {
+\
 0x8a
 0xaf
 0xb1
@@ -753,6 +751,7 @@ b148bfce4280
 0xce
 0x42
 0x80
+\
 }
 \
 }
@@ -1233,7 +1232,6 @@ secure
 \
 static
 nsresult
-\
 type
 #
 #
@@ -1250,7 +1248,6 @@ void
 *
 aResult
 )
-\
 {
 \
 nsresult

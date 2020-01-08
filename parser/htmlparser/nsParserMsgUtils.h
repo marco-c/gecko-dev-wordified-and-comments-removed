@@ -14,6 +14,7 @@ h
 #
 define
 XMLPARSER_PROPERTIES
+\
 "
 chrome
 :

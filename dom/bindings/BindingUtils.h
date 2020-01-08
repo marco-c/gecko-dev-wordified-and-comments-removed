@@ -1001,6 +1001,7 @@ _Binding
 NativeType
 >
 (
+\
 obj
 value
 )
@@ -1049,6 +1050,7 @@ _Binding
 NativeType
 >
 (
+\
 obj
 )
 #
@@ -1068,6 +1070,7 @@ dom
 :
 UnwrapNonWrapperObject
 <
+\
 mozilla
 :
 :
@@ -3424,6 +3427,7 @@ template
 typename
 V
 >
+\
 static
 yes
 &
@@ -3465,6 +3469,7 @@ template
 typename
 V
 >
+\
 static
 yes
 &
@@ -3514,6 +3519,7 @@ template
 typename
 V
 >
+\
 static
 no
 &

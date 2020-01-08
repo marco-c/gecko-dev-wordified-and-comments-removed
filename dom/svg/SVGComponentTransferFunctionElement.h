@@ -37,11 +37,12 @@ define
 NS_SVG_FE_COMPONENT_TRANSFER_FUNCTION_ELEMENT_CID
 \
 {
+\
 0xafab106d
 0xbc18
 0x4f7f
-\
 {
+\
 0x9e
 0x29
 0xfe
@@ -50,7 +51,9 @@ NS_SVG_FE_COMPONENT_TRANSFER_FUNCTION_ELEMENT_CID
 0x16
 0x5f
 0xf4
+\
 }
+\
 }
 namespace
 mozilla

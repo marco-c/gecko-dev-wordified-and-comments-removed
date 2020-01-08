@@ -258,12 +258,6 @@ using
 mozilla
 :
 :
-Unused
-;
-using
-mozilla
-:
-:
 TimeDuration
 ;
 using
@@ -271,6 +265,12 @@ mozilla
 :
 :
 TimeStamp
+;
+using
+mozilla
+:
+:
+Unused
 ;
 using
 JS
@@ -339,9 +339,9 @@ HelperThread
 AutoProfilerLabel
 PROFILER_RAII
 (
+\
 this
 label
-\
 js
 :
 :

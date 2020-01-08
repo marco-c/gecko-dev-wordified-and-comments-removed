@@ -978,7 +978,6 @@ result
 NS_ERROR_FILE_CORRUPTED
 |
 |
-\
 (
 result
 )
@@ -1027,6 +1026,7 @@ RESPONSE_FROM_NETWORK
 )
 &
 &
+\
 (
 req
 !
@@ -2269,6 +2269,8 @@ Waiting
 until
 resume
 HandleContinueCancelledByTrackingProtection
+"
+"
 [
 this
 =
@@ -11368,6 +11370,8 @@ transaction
 asynchronously
 prompting
 for
+"
+"
 credentials
 "
 )
@@ -13878,7 +13882,6 @@ channel
 p
 ]
 "
-\
 "
 processing
 %
@@ -14072,7 +14075,6 @@ this
 p
 ]
 "
-\
 "
 set
 -
@@ -17515,6 +17517,8 @@ got
 one
 from
 the
+"
+"
 network
 \
 n
@@ -17630,6 +17634,8 @@ no
 store
 request
 cache
+"
+"
 directive
 \
 n
@@ -18989,6 +18995,8 @@ doValidation
 =
 %
 d
+"
+"
 result
 =
 %
@@ -19174,6 +19182,8 @@ re
 racing
 cache
 with
+"
+"
 network
 "
 )
@@ -20022,6 +20032,8 @@ this
 p
 URL
 matches
+"
+"
 NETWORK
 "
 "
@@ -21860,6 +21872,8 @@ first
 response
 was
 from
+"
+"
 network
 \
 n
@@ -22743,6 +22757,8 @@ the
 server
 -
 >
+"
+"
 recreating
 cache
 entry
@@ -23258,7 +23274,6 @@ this
 p
 ]
 "
-\
 "
 processing
 %
@@ -23338,7 +23353,6 @@ this
 p
 ]
 "
-\
 "
 cookie
 -
@@ -23459,7 +23473,6 @@ this
 p
 ]
 "
-\
 "
 clearing
 metadata
@@ -25846,6 +25859,8 @@ won
 t
 have
 any
+"
+"
 effect
 "
 )
@@ -26170,6 +26185,8 @@ to
 be
 handled
 by
+"
+"
 CancelForTrackingProtection
 (
 )
@@ -29179,6 +29196,8 @@ protection
 cancellation
 in
 BeginConnectActual
+"
+"
 [
 this
 =
@@ -29216,6 +29235,8 @@ for
 cancellation
 from
 tracking
+"
+"
 protection
 "
 )
@@ -29944,6 +29965,8 @@ this
 =
 %
 p
+"
+"
 rv
 =
 %
@@ -31564,6 +31587,8 @@ fromCache
 :
 %
 d
+"
+"
 fromNet
 :
 %
@@ -39805,6 +39830,8 @@ CallOnResume
 resuming
 previous
 transaction
+"
+"
 pump
 %
 p
@@ -39851,6 +39878,8 @@ resuming
 previous
 cache
 pump
+"
+"
 %
 p
 this
@@ -39909,6 +39938,8 @@ async
 resuming
 new
 transaction
+"
+"
 pump
 %
 p
@@ -40014,6 +40045,8 @@ resuming
 new
 cache
 pump
+"
+"
 %
 p
 this

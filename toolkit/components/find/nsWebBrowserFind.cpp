@@ -251,7 +251,7 @@ mozilla
 dom
 :
 :
-Selection
+Element
 ;
 using
 mozilla
@@ -260,7 +260,7 @@ mozilla
 dom
 :
 :
-Element
+Selection
 ;
 nsWebBrowserFind
 :

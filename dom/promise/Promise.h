@@ -157,11 +157,12 @@ define
 NS_PROMISE_IID
 \
 {
+\
 0x1b8d6215
 0x3e67
 0x43ba
-\
 {
+\
 0x8a
 0xf9
 0x31
@@ -170,7 +171,9 @@ NS_PROMISE_IID
 0xce
 0x75
 0x65
+\
 }
+\
 }
 class
 Promise

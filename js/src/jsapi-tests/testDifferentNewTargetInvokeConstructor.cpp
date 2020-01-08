@@ -87,6 +87,8 @@ target
 )
 throw
 new
+"
+"
 Error
 (
 '

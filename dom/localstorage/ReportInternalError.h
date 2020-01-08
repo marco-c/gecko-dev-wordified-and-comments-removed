@@ -42,7 +42,6 @@ localstorage
 ReportInternalError
 (
 __FILE__
-\
 __LINE__
 \
 s

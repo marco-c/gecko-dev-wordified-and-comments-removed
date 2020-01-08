@@ -2074,12 +2074,14 @@ endif
 #
 define
 _NS_NEXT_TOKEN
+\
 start
 =
 idx
 +
 1
 ;
+\
 idx
 =
 str
@@ -2092,6 +2094,7 @@ FindChar
 start
 )
 ;
+\
 if
 (
 idx
@@ -3674,6 +3677,8 @@ and
 origin
 content
 types
+"
+"
 dont
 match
 \
@@ -3983,6 +3988,8 @@ alt
 -
 svc
 ma
+"
+"
 so
 ignored
 \
@@ -5464,6 +5471,8 @@ existing
 p
 %
 s
+"
+"
 validated
 =
 %
@@ -5549,6 +5558,8 @@ p
 updates
 ttl
 of
+"
+"
 %
 p
 \
@@ -5613,6 +5624,8 @@ p
 reduces
 ttl
 of
+"
+"
 %
 p
 \
@@ -5660,6 +5673,8 @@ p
 tries
 to
 extend
+"
+"
 %
 p
 but
@@ -5733,6 +5748,8 @@ p
 ttl
 shorter
 than
+"
+"
 %
 p
 ignoring
@@ -6239,6 +6256,8 @@ wk
 checker
 failed
 to
+"
+"
 start
 \
 n

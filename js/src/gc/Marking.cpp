@@ -2018,6 +2018,7 @@ JSTracer
 *
 type
 *
+\
 const
 char
 *
@@ -2035,11 +2036,11 @@ UnsafeTraceManuallyBarrieredEdge
 type
 >
 (
+\
 JSTracer
 *
 type
 *
-\
 const
 char
 *
@@ -2060,6 +2061,7 @@ TraceExternalEdge
 type
 >
 (
+\
 JSTracer
 *
 type
@@ -2140,6 +2142,7 @@ size_t
 len
 type
 *
+\
 const
 char
 *
@@ -2785,6 +2788,8 @@ types
 are
 allowed
 into
+"
+"
 marking
 /
 tracing
@@ -4632,12 +4637,14 @@ addToCCKind
 template
 <
 >
+\
 struct
 TypeParticipatesInCC
 <
 type
 >
 {
+\
 static
 const
 bool
@@ -4645,6 +4652,7 @@ value
 =
 addToCCKind
 ;
+\
 }
 ;
 JS_FOR_EACH_TRACEKIND
@@ -12566,6 +12574,8 @@ look
 like
 a
 valid
+"
+"
 tagged
 pointer
 "
@@ -17877,6 +17887,8 @@ types
 are
 allowed
 into
+"
+"
 marking
 /
 tracing

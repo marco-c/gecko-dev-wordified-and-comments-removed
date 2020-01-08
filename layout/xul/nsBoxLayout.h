@@ -42,11 +42,12 @@ define
 NS_BOX_LAYOUT_IID
 \
 {
+\
 0x09d522a7
 0x304c
 0x4137
-\
 {
+\
 0xaf
 0xc9
 0xe0
@@ -55,7 +56,9 @@ NS_BOX_LAYOUT_IID
 0x89
 0xb7
 0xe8
+\
 }
+\
 }
 class
 nsIGridPart

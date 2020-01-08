@@ -43,12 +43,14 @@ atkRole
 macRole
 msaaRole
 ia2Role
+\
 androidClass
 nameRule
 )
 \
 static_assert
 (
+\
 static_cast
 <
 uint32_t
@@ -59,9 +61,9 @@ roles
 :
 geckoRole
 )
+=
+=
 \
-=
-=
 static_cast
 <
 uint32_t
@@ -109,6 +111,7 @@ ia2Type
 \
 static_assert
 (
+\
 static_cast
 <
 uint32_t
@@ -119,9 +122,9 @@ RelationType
 :
 geckoType
 )
+=
+=
 \
-=
-=
 static_cast
 <
 uint32_t

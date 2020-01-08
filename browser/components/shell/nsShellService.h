@@ -21,6 +21,7 @@ defaultBrowserCheckCount
 #
 define
 SHELLSERVICE_PROPERTIES
+\
 "
 chrome
 :

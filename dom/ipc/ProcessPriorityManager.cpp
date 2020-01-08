@@ -284,14 +284,13 @@ fmt
 __android_log_print
 (
 ANDROID_LOG_INFO
-\
 "
 Gecko
 :
 ProcessPriorityManager
 "
-\
 fmt
+\
 #
 #
 __VA_ARGS__
@@ -309,7 +308,6 @@ fmt
 __android_log_print
 (
 ANDROID_LOG_INFO
-\
 "
 Gecko
 :
@@ -342,7 +340,6 @@ NameWithComma
 get
 (
 )
-\
 static_cast
 <
 uint64_t
@@ -352,6 +349,7 @@ ChildID
 (
 )
 )
+\
 Pid
 (
 )
@@ -421,7 +419,6 @@ d
 ]
 -
 "
-\
 fmt
 "
 \
@@ -435,7 +432,6 @@ NameWithComma
 get
 (
 )
-\
 static_cast
 <
 uint64_t
@@ -448,6 +444,7 @@ ChildID
 Pid
 (
 )
+\
 #
 #
 __VA_ARGS__
@@ -554,7 +551,6 @@ NameWithComma
 get
 (
 )
-\
 static_cast
 <
 uint64_t
@@ -567,6 +563,7 @@ ChildID
 Pid
 (
 )
+\
 #
 #
 __VA_ARGS__

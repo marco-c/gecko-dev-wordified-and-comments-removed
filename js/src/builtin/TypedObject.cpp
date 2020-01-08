@@ -914,6 +914,7 @@ name_
 case
 constant_
 :
+\
 return
 #
 name_
@@ -1565,7 +1566,6 @@ _kind
 _type
 _name
 )
-\
 sizeof
 (
 _type
@@ -1649,6 +1649,7 @@ name_
 case
 constant_
 :
+\
 return
 #
 name_
@@ -6232,11 +6233,11 @@ DefineSimpleTypeDescr
 ReferenceTypeDescr
 >
 (
+\
 cx
 global
 module
 constant_
-\
 cx
 -
 >
@@ -11650,13 +11651,11 @@ class_
 \
 #
 Name
-\
 Class
 :
 :
 NON_NATIVE
 |
-\
 JSCLASS_DELAY_METADATA_BUILDER
 \
 &
@@ -11664,7 +11663,6 @@ Name
 #
 #
 ClassOps
-\
 JS_NULL_CLASS_SPEC
 \
 &
@@ -11672,13 +11670,11 @@ Name
 #
 #
 ClassExt
-\
 &
 TypedObject
 :
 :
 objectOps_
-\
 }
 DEFINE_TYPEDOBJ_CLASS
 (
@@ -13623,7 +13619,6 @@ _name
 )
 \
 bool
-\
 js
 :
 :
@@ -13644,7 +13639,6 @@ Value
 *
 vp
 )
-\
 {
 \
 CallArgs
@@ -13872,7 +13866,6 @@ _name
 )
 \
 bool
-\
 js
 :
 :
@@ -13889,11 +13882,11 @@ JSContext
 cx
 unsigned
 argc
+\
 Value
 *
 vp
 )
-\
 {
 \
 CallArgs
@@ -14135,7 +14128,6 @@ typedObj
 id
 )
 )
-\
 return
 false
 ;
@@ -14166,7 +14158,6 @@ _name
 )
 \
 bool
-\
 js
 :
 :
@@ -14187,7 +14178,6 @@ Value
 *
 vp
 )
-\
 {
 \
 CallArgs
@@ -14388,7 +14378,6 @@ _name
 )
 \
 bool
-\
 js
 :
 :
@@ -14405,11 +14394,11 @@ JSContext
 cx
 unsigned
 argc
+\
 Value
 *
 vp
 )
-\
 {
 \
 CallArgs

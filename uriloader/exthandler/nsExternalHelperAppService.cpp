@@ -638,6 +638,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 nsExternalHelperAppService
@@ -658,6 +659,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 nsExternalHelperAppService
@@ -7480,6 +7482,8 @@ temp
 file
 has
 been
+"
+"
 set
 up
 !
@@ -8194,7 +8198,6 @@ mContentContext
 using
 DocShell
 "
-\
 "
 window
 =
@@ -8207,7 +8210,6 @@ docShell
 %
 p
 "
-\
 "
 prompter
 =

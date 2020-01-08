@@ -1435,7 +1435,6 @@ name
 text
 phase
 )
-\
 name
 FOR_EACH_GC_PROFILE_TIME
 (

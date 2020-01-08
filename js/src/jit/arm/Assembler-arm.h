@@ -1368,6 +1368,8 @@ any
 of
 the
 alignments
+"
+"
 which
 are
 used
@@ -1386,6 +1388,8 @@ Thus
 it
 should
 be
+"
+"
 larger
 than
 the
@@ -1418,6 +1422,8 @@ any
 of
 the
 alignments
+"
+"
 which
 are
 used
@@ -1435,6 +1441,8 @@ larger
 than
 the
 alignment
+"
+"
 for
 SIMD
 accesses
@@ -3339,6 +3347,8 @@ on
 Reg
 /
 Op2Reg
+"
+"
 having
 same
 size

@@ -3074,6 +3074,7 @@ never
 returns
 "
 warning
+\
 *
 /
 #
@@ -9194,6 +9195,8 @@ PRemoteSpellcheckEngineChild
 should
 never
 be
+"
+"
 called
 "
 )

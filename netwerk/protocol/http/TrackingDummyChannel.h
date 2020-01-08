@@ -21,11 +21,12 @@ define
 TRACKING_DUMMY_CHANNEL_IID
 \
 {
+\
 0x70ceb97d
 0xbfa6
 0x4255
-\
 {
+\
 0xb7
 0x08
 0xe1
@@ -34,7 +35,9 @@ TRACKING_DUMMY_CHANNEL_IID
 0x1e
 0x0e
 0x9a
+\
 }
+\
 }
 class
 nsIChannel

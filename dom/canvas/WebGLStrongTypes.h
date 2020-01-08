@@ -505,7 +505,6 @@ STRONG_GLENUM_BEGIN
 (
 NAME
 )
-\
 const
 uint16_t
 NAME
@@ -534,6 +533,7 @@ NAME
 )
 \
 }
+\
 ;
 \
 struct

@@ -770,6 +770,8 @@ wrong
 way
 -
 use
+"
+"
 nsIProtocolHandlerWithDynamicFlags
 instead
 "

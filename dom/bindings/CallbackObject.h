@@ -141,11 +141,12 @@ define
 DOM_CALLBACKOBJECT_IID
 \
 {
+\
 0xbe74c190
 0x6d76
 0x4991
-\
 {
+\
 0x84
 0xb9
 0x65
@@ -154,7 +155,9 @@ DOM_CALLBACKOBJECT_IID
 0xe6
 0x93
 0x2b
+\
 }
+\
 }
 class
 CallbackObject

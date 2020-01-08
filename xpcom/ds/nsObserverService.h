@@ -46,10 +46,12 @@ define
 NS_OBSERVERSERVICE_CID
 \
 {
+\
 0xd07f5195
 0xe3d1
 0x11d2
 {
+\
 0x8a
 0xcd
 0x0
@@ -58,7 +60,9 @@ NS_OBSERVERSERVICE_CID
 0x1b
 0x88
 0x60
+\
 }
+\
 }
 class
 nsIMemoryReporter

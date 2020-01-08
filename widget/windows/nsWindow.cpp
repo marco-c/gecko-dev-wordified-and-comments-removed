@@ -15537,6 +15537,8 @@ SetCompositorWidgetDelegate
 called
 with
 a
+"
+"
 non
 -
 PlatformCompositorWidgetDelegate
@@ -29955,6 +29957,7 @@ ePlatforms
 \
 printf
 (
+\
 "
 Get
 the

@@ -5078,6 +5078,8 @@ nsOfflineCacheDevice
 InitWithSqlite
 called
 before
+"
+"
 nsCacheService
 :
 :
@@ -6699,6 +6701,8 @@ moz_cache_namespaces
 .
 ClientID
 =
+"
+"
 moz_cache_groups
 .
 ActiveClientID
@@ -12153,6 +12157,8 @@ GroupID
 ActiveClientID
 FROM
 moz_cache_groups
+"
+"
 WHERE
 ORIGIN_MATCH
 (

@@ -10,6 +10,7 @@ GET_NATIVE_WINDOW_FROM_REAL_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -28,6 +29,7 @@ GET_NATIVE_WINDOW_FROM_COMPOSITOR_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -42,6 +44,7 @@ RealWidget
 >
 GetNativeData
 (
+\
 NS_NATIVE_EGL_WINDOW
 )
 )
@@ -57,6 +60,7 @@ GET_NATIVE_WINDOW_FROM_REAL_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -75,6 +79,7 @@ GET_NATIVE_WINDOW_FROM_COMPOSITOR_WIDGET
 (
 aWidget
 )
+\
 (
 aWidget
 -
@@ -100,6 +105,7 @@ GET_NATIVE_WINDOW_FROM_REAL_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -118,6 +124,7 @@ GET_NATIVE_WINDOW_FROM_COMPOSITOR_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -142,6 +149,7 @@ GET_NATIVE_WINDOW_FROM_REAL_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -160,6 +168,7 @@ GET_NATIVE_WINDOW_FROM_COMPOSITOR_WIDGET
 (
 aWidget
 )
+\
 (
 (
 EGLNativeWindowType
@@ -650,6 +659,7 @@ _array
 _k
 _v
 )
+\
 do
 {
 \
@@ -685,6 +695,7 @@ ADD_ATTR_1
 _array
 _k
 )
+\
 do
 {
 \

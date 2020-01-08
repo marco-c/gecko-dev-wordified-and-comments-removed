@@ -732,6 +732,8 @@ Fuzzyfox
 queuing
 up
 the
+"
+"
 job
 \
 n
@@ -800,6 +802,8 @@ p
 endTime
 <
 mStartTime
+"
+"
 mStartTime
 %
 "

@@ -192,7 +192,7 @@ mozilla
 dom
 :
 :
-Optional
+GlobalObject
 ;
 using
 mozilla
@@ -201,7 +201,7 @@ mozilla
 dom
 :
 :
-GlobalObject
+Optional
 ;
 already_AddRefed
 <

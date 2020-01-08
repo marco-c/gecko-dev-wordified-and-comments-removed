@@ -180,6 +180,7 @@ aFromPrivateWindow
 #
 define
 INLINE_STYLE_VIOLATION_OBSERVER_TOPIC
+\
 "
 violated
 base
@@ -194,6 +195,7 @@ apply
 #
 define
 INLINE_SCRIPT_VIOLATION_OBSERVER_TOPIC
+\
 "
 violated
 base
@@ -208,6 +210,7 @@ execute
 #
 define
 EVAL_VIOLATION_OBSERVER_TOPIC
+\
 "
 violated
 base
@@ -264,6 +267,7 @@ hash
 #
 define
 REQUIRE_SRI_SCRIPT_VIOLATION_OBSERVER_TOPIC
+\
 "
 Missing
 required
@@ -275,6 +279,7 @@ Script
 #
 define
 REQUIRE_SRI_STYLE_VIOLATION_OBSERVER_TOPIC
+\
 "
 Missing
 required

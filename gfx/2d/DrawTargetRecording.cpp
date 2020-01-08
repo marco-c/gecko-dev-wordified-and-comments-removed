@@ -884,9 +884,11 @@ RecordEvent
 (
 RecordedFilterNodeSetAttribute
 (
+\
 this
 aIndex
 aValue
+\
 RecordedFilterNodeSetAttribute
 :
 :
@@ -1671,6 +1673,8 @@ FillGlyphs
 failed
 to
 serialise
+"
+"
 UnscaledFont
 "
 ;
@@ -2792,6 +2796,8 @@ t
 create
 requested
 similar
+"
+"
 drawtarget
 "
 )
@@ -2921,6 +2927,8 @@ t
 create
 requested
 clipped
+"
+"
 drawtarget
 "
 )

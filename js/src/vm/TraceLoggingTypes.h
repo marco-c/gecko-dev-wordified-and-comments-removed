@@ -459,12 +459,14 @@ NAME
 (
 textId
 )
+\
 case
 TraceLogger_
 #
 #
 textId
 :
+\
 return
 #
 textId

@@ -434,7 +434,6 @@ DEFAULT_APP_KEY
 (
 baseDomain
 )
-\
 nsCookieKey
 (
 baseDomain
@@ -574,6 +573,7 @@ low
 high
 default
 )
+\
 (
 (
 x
@@ -991,7 +991,6 @@ LogLevel
 Debug
 )
 )
-\
 LogEvicted
 (
 a
@@ -2105,6 +2104,7 @@ mozilla
 :
 Smprintf
 (
+\
 "
 NS_ASSERT_SUCCESS
 (
@@ -2118,9 +2118,9 @@ result
 %
 "
 PRIX32
-\
 #
 res
+\
 static_cast
 <
 uint32_t
@@ -4714,6 +4714,8 @@ moz_cookies
 SET
 baseDomain
 =
+"
+"
 :
 baseDomain
 WHERE
@@ -5455,6 +5457,8 @@ name
 value
 host
 path
+"
+"
 expiry
 "
 "
@@ -7318,6 +7322,8 @@ path
 =
 :
 path
+"
+"
 AND
 originAttributes
 =
@@ -7377,6 +7383,8 @@ path
 =
 :
 path
+"
+"
 AND
 originAttributes
 =
@@ -7897,6 +7905,8 @@ UNIQUE
 name
 host
 path
+"
+"
 appId
 inBrowserElement
 )
@@ -8331,6 +8341,8 @@ DBState
 p
 encountered
 error
+"
+"
 rebuilding
 db
 ;
@@ -16404,6 +16416,8 @@ older
 cookie
 is
 secure
+"
+"
 cookie
 but
 newer
@@ -16991,6 +17005,8 @@ domain
 and
 the
 new
+"
+"
 cookie
 is
 not

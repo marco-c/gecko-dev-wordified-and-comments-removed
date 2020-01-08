@@ -1911,6 +1911,7 @@ AssertAnonymousFlexOrGridItemParent
 x
 y
 )
+\
 do
 {
 /
@@ -1918,6 +1919,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -2016,6 +2018,7 @@ _anon_box
 )
 \
 {
+\
 _flags
 |
 FCDATA_CREATE_BLOCK_WRAPPER_FOR_ALL_KIDS
@@ -2028,6 +2031,7 @@ _func
 }
 nullptr
 _anon_box
+\
 }
 #
 define
@@ -5440,6 +5444,7 @@ aChildListID
 #
 define
 NS_NONXUL_LIST_TEST
+\
 (
 &
 aFrameItems
@@ -5449,7 +5454,6 @@ aFrameItems
 mFloatedItems
 &
 &
-\
 aChildListID
 =
 =
@@ -6816,6 +6820,8 @@ comma
 separated
 list
 of
+"
+"
 flag
 \
 n
@@ -14432,6 +14438,7 @@ SIMPLE_INT_CREATE
 _int
 _func
 )
+\
 {
 _int
 SIMPLE_FCDATA
@@ -17142,6 +17149,8 @@ content
 under
 a
 text
+"
+"
 control
 frame
 "
@@ -17411,7 +17420,6 @@ FCDATA_DECL
 FCDATA_DISALLOW_OUT_OF_FLOW
 |
 FCDATA_SKIP_ABSPOS_PUSH
-\
 _func
 )
 #
@@ -17429,6 +17437,7 @@ FCDATA_SKIP_ABSPOS_PUSH
 |
 \
 FCDATA_MAY_NEED_SCROLLFRAME
+\
 _func
 )
 #
@@ -17442,7 +17451,6 @@ FCDATA_DECL
 (
 FCDATA_DISALLOW_OUT_OF_FLOW
 |
-\
 FCDATA_MAY_NEED_SCROLLFRAME
 _func
 )
@@ -20711,11 +20719,11 @@ _func
 )
 \
 {
+\
 nsGkAtoms
 :
 :
 _tag
-\
 FCDATA_DECL
 (
 FCDATA_DISALLOW_OUT_OF_FLOW
@@ -20725,8 +20733,10 @@ FCDATA_FORCE_NULL_ABSPOS_CONTAINER
 |
 \
 FCDATA_WRAP_KIDS_IN_BLOCKS
+\
 _func
 )
+\
 }
 const
 nsCSSFrameConstructor
@@ -21329,11 +21339,11 @@ FCDATA_DECL
 (
 FCDATA_DISALLOW_OUT_OF_FLOW
 |
-\
 FCDATA_SKIP_ABSPOS_PUSH
 |
 \
 FCDATA_DISALLOW_GENERATED_CONTENT
+\
 _func
 )
 #
@@ -27980,6 +27990,8 @@ or
 the
 primary
 frame
+"
+"
 isn
 '
 t
@@ -32377,6 +32389,8 @@ ContentRangeInserted
 :
 resulting
 frame
+"
+"
 model
 :
 \
@@ -36782,6 +36796,7 @@ MaybeRecreateContainerForFrameRemoval
 :
 "
 reason
+\
 TRACING_EVENT
 )
 MOZ_ASSERT
@@ -45456,6 +45471,8 @@ oldTextFrame
 =
 %
 p
+"
+"
 newTextFrame
 =
 %
@@ -50265,6 +50282,8 @@ nsCSSFrameConstructor
 ReframeContainingBlock
 during
 a
+"
+"
 Reflow
 !
 !

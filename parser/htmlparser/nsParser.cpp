@@ -1107,6 +1107,7 @@ EXPR1
 EXPR2
 RV
 )
+\
 {
 \
 nsresult

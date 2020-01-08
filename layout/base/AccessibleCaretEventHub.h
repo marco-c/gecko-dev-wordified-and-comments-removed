@@ -280,7 +280,6 @@ AccessibleCaretEventHub
 aClassName
 (
 )
-\
 {
 \
 static

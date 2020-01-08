@@ -261,8 +261,8 @@ void
 ppv
 )
 override
-\
 {
+\
 return
 mOuter
 -
@@ -273,6 +273,7 @@ riid
 ppv
 )
 ;
+\
 }
 \
 STDMETHODIMP_
@@ -283,7 +284,6 @@ AddRef
 (
 )
 override
-\
 {
 return
 mOuter
@@ -303,7 +303,6 @@ Release
 (
 )
 override
-\
 {
 return
 mOuter
@@ -314,6 +313,7 @@ Release
 )
 ;
 }
+\
 \
 protected
 :

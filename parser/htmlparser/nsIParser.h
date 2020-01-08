@@ -67,11 +67,12 @@ define
 NS_IPARSER_IID
 \
 {
+\
 0x2c4ad90a
 0x740e
 0x4212
-\
 {
+\
 0xba
 0x3f
 0xfe
@@ -80,7 +81,9 @@ NS_IPARSER_IID
 0x4b
 0x92
 0x9e
+\
 }
+\
 }
 class
 nsIContentSink

@@ -322,7 +322,6 @@ StackBstr
 (
 str
 )
-\
 static_cast
 <
 BSTR
@@ -346,7 +345,6 @@ StackBstrVar
 str
 var
 )
-\
 StackBstrT
 <
 sizeof

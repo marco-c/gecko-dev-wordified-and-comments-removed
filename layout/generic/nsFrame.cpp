@@ -1794,6 +1794,8 @@ doesn
 '
 t
 have
+"
+"
 the
 property
 "
@@ -32832,6 +32834,8 @@ t
 compute
 a
 valid
+"
+"
 transform
 "
 )
@@ -56960,6 +56964,8 @@ Try
 -
 -
 setpref
+"
+"
 security
 .
 sandbox

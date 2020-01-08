@@ -3339,12 +3339,10 @@ _cmd
 :
 public
 nsSelectionCommand
-\
 {
 \
 protected
 :
-\
 \
 virtual
 nsresult
@@ -5092,8 +5090,8 @@ inCommandTable
 >
 RegisterCommand
 (
-_cmdName
 \
+_cmdName
 static_cast
 <
 nsIControllerCommand
@@ -5133,8 +5131,8 @@ inCommandTable
 >
 RegisterCommand
 (
-_cmdName
 \
+_cmdName
 static_cast
 <
 nsIControllerCommand
@@ -5160,8 +5158,8 @@ inCommandTable
 >
 RegisterCommand
 (
-_cmdName
 \
+_cmdName
 static_cast
 <
 nsIControllerCommand
@@ -5187,8 +5185,8 @@ inCommandTable
 >
 RegisterCommand
 (
-_cmdName
 \
+_cmdName
 static_cast
 <
 nsIControllerCommand

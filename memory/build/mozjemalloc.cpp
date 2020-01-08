@@ -1047,13 +1047,11 @@ name
 #
 define
 DEFINE_GLOBALS
-\
 static
 void
 DefineGlobals
 (
 )
-\
 {
 #
 define
@@ -16809,6 +16807,7 @@ MozJemalloc
 :
 name
 (
+\
 ARGS_HELPER
 (
 TYPED_ARGS
@@ -16817,7 +16816,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 BaseAllocator
@@ -18871,7 +18869,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 BaseAllocator
@@ -19727,7 +19724,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 if
@@ -20086,7 +20082,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 return

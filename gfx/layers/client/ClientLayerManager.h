@@ -1698,7 +1698,6 @@ CreateShadowFor
 (
 layer
 this
-\
 &
 ShadowLayerForwarder
 :

@@ -800,12 +800,6 @@ using
 SVGPathData
 :
 :
-SetLength
-;
-using
-SVGPathData
-:
-:
 begin
 ;
 using
@@ -813,6 +807,12 @@ SVGPathData
 :
 :
 end
+;
+using
+SVGPathData
+:
+:
+SetLength
 ;
 private
 :

@@ -25,7 +25,7 @@ mozilla
 intl
 :
 :
-WordBreaker
+WordBreakClass
 ;
 using
 mozilla
@@ -34,7 +34,7 @@ mozilla
 intl
 :
 :
-WordBreakClass
+WordBreaker
 ;
 using
 mozilla
@@ -190,6 +190,7 @@ ASCII_IS_ALPHA
 (
 c
 )
+\
 (
 (
 (
@@ -278,6 +279,7 @@ ASCII_IS_SPACE
 (
 c
 )
+\
 (
 (
 '
@@ -347,6 +349,7 @@ IS_HAN
 (
 c
 )
+\
 (
 (
 0x3400

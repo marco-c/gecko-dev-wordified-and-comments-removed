@@ -2357,6 +2357,8 @@ be
 cloned
 .
 Are
+"
+"
 you
 trying
 to
@@ -4493,6 +4495,8 @@ be
 cloned
 .
 Are
+"
+"
 you
 trying
 to
@@ -5724,11 +5728,11 @@ aHandleReport
 >
 Callback
 (
+\
 EmptyCString
 (
 )
 _path
-\
 nsIMemoryReporter
 :
 :
@@ -5739,7 +5743,6 @@ nsIMemoryReporter
 :
 UNITS_COUNT
 _amount
-\
 _desc
 aData
 )

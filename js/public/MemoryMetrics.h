@@ -510,6 +510,7 @@ ServoSizes
 :
 servoKind
 ]
+\
 int
 [
 ServoSizes
@@ -537,6 +538,7 @@ tabKind
 servoKind
 mSize
 )
+\
 sizes
 -
 >
@@ -560,6 +562,7 @@ tabKind
 servoKind
 mSize
 )
+\
 sizes
 -
 >
@@ -1489,7 +1492,6 @@ FOR_EACH_SIZE
 (
 MACRO
 )
-\
 MACRO
 (
 _
@@ -1753,7 +1755,6 @@ FOR_EACH_SIZE
 (
 MACRO
 )
-\
 MACRO
 (
 _

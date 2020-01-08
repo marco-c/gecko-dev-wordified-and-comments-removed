@@ -237,7 +237,6 @@ if
 !
 log
 )
-\
 log
 =
 PR_NewLogModule

@@ -355,6 +355,7 @@ _flags
 NS_MATHML_STRETCH_ALL_CHILDREN_VERTICALLY
 =
 =
+\
 (
 (
 _flags
@@ -374,6 +375,7 @@ _flags
 NS_MATHML_STRETCH_ALL_CHILDREN_HORIZONTALLY
 =
 =
+\
 (
 (
 _flags
@@ -469,6 +471,7 @@ _flags
 NS_MATHML_SHOW_BOUNDING_METRICS
 =
 =
+\
 (
 (
 _flags
@@ -535,6 +538,7 @@ _flags
 NS_MATHML_EMBELLISH_MOVABLELIMITS
 =
 =
+\
 (
 (
 _flags
@@ -592,6 +596,7 @@ _flags
 NS_MATHML_EMBELLISH_ACCENTUNDER
 =
 =
+\
 (
 (
 _flags

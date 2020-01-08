@@ -1259,6 +1259,7 @@ MACRO
 (
 LoopControlStatement
 LoopControlStatementType
+\
 asLoopControlStatement
 )
 \
@@ -1372,6 +1373,7 @@ MACRO
 (
 ConditionalExpression
 ConditionalExpressionType
+\
 asConditionalExpression
 )
 \
@@ -1404,7 +1406,6 @@ typeName
 longTypeName
 asMethodName
 )
-\
 class
 typeName
 ;

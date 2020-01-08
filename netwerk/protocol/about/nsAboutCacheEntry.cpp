@@ -1455,6 +1455,7 @@ buffer
 .
 AppendLiteral
 (
+\
 "
 <
 tr
@@ -1483,6 +1484,7 @@ buffer
 .
 AppendLiteral
 (
+\
 "
 :
 <
@@ -1513,6 +1515,7 @@ buffer
 .
 AppendLiteral
 (
+\
 "
 <
 /

@@ -9,11 +9,12 @@ define
 NS_PLUGIN_HOST_CID
 \
 {
+\
 0x23E8FD98
 0xA625
 0x4B08
-\
 {
+\
 0xBE
 0x1A
 0xF7
@@ -22,7 +23,9 @@ NS_PLUGIN_HOST_CID
 0xA5
 0xB1
 0x06
+\
 }
+\
 }
 #
 endif

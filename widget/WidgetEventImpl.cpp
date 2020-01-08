@@ -838,7 +838,6 @@ aPrefix
 #
 aName
 *
-\
 WidgetEvent
 :
 :
@@ -848,13 +847,10 @@ As
 aName
 (
 )
-\
 {
-\
 return
 nullptr
 ;
-\
 }
 \
 \
@@ -864,7 +860,6 @@ aPrefix
 #
 aName
 *
-\
 WidgetEvent
 :
 :
@@ -875,7 +870,6 @@ aName
 (
 )
 const
-\
 {
 \
 return

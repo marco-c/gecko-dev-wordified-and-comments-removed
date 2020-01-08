@@ -41,10 +41,12 @@ define
 UDPSOCKETCHILD_CID
 \
 {
+\
 0xb47e5a0f
 0xd384
 0x48ef
 {
+\
 0x88
 0x85
 0x42
@@ -53,7 +55,9 @@ UDPSOCKETCHILD_CID
 0x3d
 0x9c
 0xf0
+\
 }
+\
 }
 namespace
 mozilla

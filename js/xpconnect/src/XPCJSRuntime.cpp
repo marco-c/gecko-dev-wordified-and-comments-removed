@@ -479,7 +479,7 @@ mozilla
 dom
 :
 :
-PerThreadAtomCache
+AutoEntryScript
 ;
 using
 mozilla
@@ -488,7 +488,7 @@ mozilla
 dom
 :
 :
-AutoEntryScript
+PerThreadAtomCache
 ;
 const
 char
@@ -5839,7 +5839,6 @@ EmptyCString
 (
 )
 _path
-\
 nsIMemoryReporter
 :
 :
@@ -5858,7 +5857,6 @@ _desc
 data
 )
 ;
-\
 #
 define
 REPORT_BYTES
@@ -6177,7 +6175,6 @@ EmptyCString
 (
 )
 _path
-\
 nsIMemoryReporter
 :
 :
@@ -6244,7 +6241,6 @@ EmptyCString
 (
 )
 _path
-\
 nsIMemoryReporter
 :
 :
@@ -7011,7 +7007,6 @@ stringsNotableAboutMemoryMallocHeap
 #
 define
 MAYBE_INLINE
-\
 "
 The
 characters
@@ -10086,6 +10081,8 @@ text
 shared
 across
 all
+"
+"
 JSRuntimes
 .
 "

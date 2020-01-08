@@ -73,6 +73,7 @@ aStatus
 )
 override
 {
+\
 return
 !
 _to
@@ -87,6 +88,7 @@ GetStatus
 aStatus
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -98,6 +100,7 @@ aPartial
 )
 override
 {
+\
 return
 !
 _to
@@ -112,6 +115,7 @@ GetPartial
 aPartial
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -123,6 +127,7 @@ aIsUpgrade
 )
 override
 {
+\
 return
 !
 _to
@@ -137,6 +142,7 @@ GetIsUpgrade
 aIsUpgrade
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -148,6 +154,7 @@ aUpdateDomain
 )
 override
 {
+\
 return
 !
 _to
@@ -162,6 +169,7 @@ GetUpdateDomain
 aUpdateDomain
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -174,6 +182,7 @@ aManifestURI
 )
 override
 {
+\
 return
 !
 _to
@@ -188,6 +197,7 @@ GetManifestURI
 aManifestURI
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -199,6 +209,7 @@ aSucceeded
 )
 override
 {
+\
 return
 !
 _to
@@ -213,6 +224,7 @@ GetSucceeded
 aSucceeded
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -225,20 +237,24 @@ const
 nsACString
 &
 aClientID
+\
 nsIURI
 *
 aDocumentURI
+\
 nsIPrincipal
 *
 aLoadingPrincipal
 )
 override
 {
+\
 return
 !
 _to
 ?
 NS_ERROR_NULL_POINTER
+\
 :
 _to
 -
@@ -248,9 +264,11 @@ InitPartial
 aManifestURI
 aClientID
 aDocumentURI
+\
 aLoadingPrincipal
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -259,20 +277,24 @@ InitForUpdateCheck
 nsIURI
 *
 aManifestURI
+\
 nsIPrincipal
 *
 aLoadingPrincipal
+\
 nsIObserver
 *
 aObserver
 )
 override
 {
+\
 return
 !
 _to
 ?
 NS_ERROR_NULL_POINTER
+\
 :
 _to
 -
@@ -281,9 +303,11 @@ InitForUpdateCheck
 (
 aManifestURI
 aLoadingPrincipal
+\
 aObserver
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -295,6 +319,7 @@ aURI
 )
 override
 {
+\
 return
 !
 _to
@@ -309,6 +334,7 @@ AddDynamicURI
 aURI
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -317,16 +343,19 @@ AddObserver
 nsIOfflineCacheUpdateObserver
 *
 aObserver
+\
 bool
 aHoldWeak
 )
 override
 {
+\
 return
 !
 _to
 ?
 NS_ERROR_NULL_POINTER
+\
 :
 _to
 -
@@ -337,6 +366,7 @@ aObserver
 aHoldWeak
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -346,8 +376,10 @@ nsIOfflineCacheUpdateObserver
 *
 aObserver
 )
+\
 override
 {
+\
 return
 !
 _to
@@ -362,6 +394,7 @@ RemoveObserver
 aObserver
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -373,6 +406,7 @@ _result
 )
 override
 {
+\
 return
 !
 _to
@@ -387,6 +421,7 @@ GetByteProgress
 _result
 )
 ;
+\
 }
 \
 NS_IMETHOD
@@ -395,6 +430,7 @@ Cancel
 )
 override
 {
+\
 return
 !
 _to
@@ -408,6 +444,7 @@ Cancel
 (
 )
 ;
+\
 }
 class
 OfflineCacheUpdateGlue

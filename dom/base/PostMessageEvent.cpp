@@ -474,6 +474,8 @@ should
 have
 the
 same
+"
+"
 inIsolatedMozBrowser
 attribute
 .

@@ -146,6 +146,12 @@ js
 jit
 ;
 using
+JS
+:
+:
+GenericNaN
+;
+using
 mozilla
 :
 :
@@ -156,12 +162,6 @@ mozilla
 :
 :
 NegativeInfinity
-;
-using
-JS
-:
-:
-GenericNaN
 ;
 CodeGeneratorARM64
 :

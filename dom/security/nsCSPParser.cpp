@@ -139,6 +139,7 @@ CSPPARSERLOG
 (
 args
 )
+\
 MOZ_LOG
 (
 GetCspParserLog
@@ -158,6 +159,7 @@ define
 CSPPARSERLOGENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 GetCspParserLog

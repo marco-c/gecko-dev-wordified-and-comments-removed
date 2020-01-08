@@ -19371,6 +19371,7 @@ name
 slot
 )
 {
+\
 slotname
 =
 js_
@@ -19381,6 +19382,7 @@ name
 #
 _str
 ;
+\
 }
 JS_FOR_EACH_PROTOTYPE
 (

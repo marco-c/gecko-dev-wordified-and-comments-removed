@@ -510,11 +510,12 @@ define
 NS_IWIDGET_IID
 \
 {
+\
 0x06396bf6
 0x2dd8
 0x45e5
-\
 {
+\
 0xac
 0x45
 0x75
@@ -523,7 +524,9 @@ NS_IWIDGET_IID
 0xb1
 0xc9
 0x80
+\
 }
+\
 }
 enum
 nsTransparencyMode

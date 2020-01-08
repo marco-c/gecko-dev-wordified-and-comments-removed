@@ -544,6 +544,7 @@ define
 LOG_ERROR_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 sCssLoaderLog
@@ -560,6 +561,7 @@ define
 LOG_WARN_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 sCssLoaderLog
@@ -576,6 +578,7 @@ define
 LOG_DEBUG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 sCssLoaderLog
@@ -10463,6 +10466,8 @@ LoadSheet
 aURL
 aParsingMode
 aUseSystemPrincipal
+"
+"
 aObserver
 aSheet
 )

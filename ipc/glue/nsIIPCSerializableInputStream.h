@@ -55,10 +55,12 @@ define
 NS_IIPCSERIALIZABLEINPUTSTREAM_IID
 \
 {
+\
 0xb0211b14
 0xea6d
 0x40d4
 {
+\
 0x87
 0xb5
 0x7b
@@ -67,7 +69,9 @@ NS_IIPCSERIALIZABLEINPUTSTREAM_IID
 0xac
 0x09
 0xd1
+\
 }
+\
 }
 class
 NS_NO_VTABLE
@@ -164,7 +168,6 @@ NS_DECL_NSIIPCSERIALIZABLEINPUTSTREAM
 \
 virtual
 void
-\
 Serialize
 (
 mozilla
@@ -185,7 +188,6 @@ override
 \
 virtual
 bool
-\
 Deserialize
 (
 const
@@ -214,7 +216,6 @@ Maybe
 <
 uint64_t
 >
-\
 ExpectedSerializedLength
 (
 )
@@ -229,7 +230,6 @@ _to
 \
 virtual
 void
-\
 Serialize
 (
 mozilla
@@ -247,7 +247,6 @@ FileDescriptorArray
 aFileDescriptors
 )
 override
-\
 {
 \
 _to
@@ -263,7 +262,6 @@ aFileDescriptors
 \
 virtual
 bool
-\
 Deserialize
 (
 const
@@ -282,8 +280,8 @@ FileDescriptorArray
 &
 aFileDescriptors
 )
-override
 \
+override
 {
 \
 return
@@ -306,12 +304,10 @@ Maybe
 <
 uint64_t
 >
-\
 ExpectedSerializedLength
 (
 )
 override
-\
 {
 \
 return
@@ -331,7 +327,6 @@ _to
 \
 virtual
 void
-\
 Serialize
 (
 mozilla
@@ -349,7 +344,6 @@ FileDescriptorArray
 aFileDescriptors
 )
 override
-\
 {
 \
 if
@@ -375,7 +369,6 @@ aFileDescriptors
 \
 virtual
 bool
-\
 Deserialize
 (
 const
@@ -394,8 +387,8 @@ FileDescriptorArray
 &
 aFileDescriptors
 )
-override
 \
+override
 {
 \
 return
@@ -424,12 +417,10 @@ Maybe
 <
 uint64_t
 >
-\
 ExpectedSerializedLength
 (
 )
 override
-\
 {
 \
 return

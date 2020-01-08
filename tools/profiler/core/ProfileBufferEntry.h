@@ -500,6 +500,7 @@ IS_KIND
 k
 t
 )
+\
 bool
 Is
 #

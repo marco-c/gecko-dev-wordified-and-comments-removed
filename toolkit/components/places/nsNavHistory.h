@@ -209,6 +209,7 @@ MOZ_XUL
 #
 define
 TOPIC_AUTOCOMPLETE_FEEDBACK_UPDATED
+\
 "
 places
 -

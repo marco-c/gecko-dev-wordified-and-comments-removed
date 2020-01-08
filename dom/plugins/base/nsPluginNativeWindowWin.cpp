@@ -145,9 +145,9 @@ nsMajorVersion
 (
 requiredV
 )
+&
+&
 \
-&
-&
 nsMinorVersion
 (
 suppliedV
@@ -162,6 +162,7 @@ requiredV
 #
 define
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
+\
 TEXT
 (
 "
@@ -592,6 +593,8 @@ flash
 plugin
 WM_USER
 message
+"
+"
 handling
 !
 "

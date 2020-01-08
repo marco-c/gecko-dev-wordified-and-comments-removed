@@ -30250,6 +30250,7 @@ STATIC_JS_API
 )
 &
 &
+\
 defined
 (
 XP_WIN

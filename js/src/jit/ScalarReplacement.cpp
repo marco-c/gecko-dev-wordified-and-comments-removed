@@ -360,6 +360,7 @@ MIR_OP
 (
 op
 )
+\
 case
 MDefinition
 :
@@ -369,6 +370,7 @@ Opcode
 :
 op
 :
+\
 view
 .
 visit
@@ -387,6 +389,7 @@ op
 )
 )
 ;
+\
 break
 ;
 MIR_OPCODE_LIST

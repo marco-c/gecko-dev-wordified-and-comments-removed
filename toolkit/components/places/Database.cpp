@@ -261,6 +261,7 @@ sqlite
 #
 define
 PREF_FORCE_DATABASE_REPLACEMENT
+\
 "
 places
 .
@@ -301,6 +302,7 @@ disableDurability
 #
 define
 ENV_ALLOW_CORRUPTION
+\
 "
 ALLOW_PLACES_DATABASE_TO_LOSE_DATA_AND_BECOME_CORRUPT
 "
@@ -321,6 +323,7 @@ PREF_HISTORY_MAXURLLEN_DEFAULT
 #
 define
 PREF_MIGRATE_V52_ORIGIN_FRECENCIES
+\
 "
 places
 .
@@ -382,6 +385,7 @@ bookmarksRoot
 #
 define
 LAST_USED_ANNO
+\
 NS_LITERAL_CSTRING
 (
 "
@@ -393,6 +397,7 @@ folderLastUsed
 #
 define
 LAST_USED_FOLDERS_META_KEY
+\
 NS_LITERAL_CSTRING
 (
 "
@@ -6244,6 +6249,8 @@ position
 parent
 FROM
 moz_bookmarks
+"
+"
 WHERE
 guid
 IN
@@ -6868,6 +6875,8 @@ moz_bookmarks
 SET
 syncStatus
 =
+"
+"
 :
 sync_status
 WHERE
@@ -7224,6 +7233,8 @@ root_id
 menu_root_id
 :
 toolbar_root_id
+"
+"
 :
 tags_root_id
 "
@@ -8257,6 +8268,8 @@ url
 :
 maxlen
 AND
+"
+"
 foreign_count
 =
 0
@@ -8342,6 +8355,8 @@ url
 >
 :
 maxlen
+"
+"
 AND
 foreign_count
 =
@@ -8639,6 +8654,7 @@ WHERE
 (
 "
 HOST_TO_REVHOST_PREDICATE
+\
 "
 )
 AND
@@ -8699,6 +8715,7 @@ WHERE
 (
 "
 HOST_TO_REVHOST_PREDICATE
+\
 "
 )
 AND
@@ -8754,6 +8771,7 @@ WHERE
 (
 "
 HOST_TO_REVHOST_PREDICATE
+\
 "
 )
 AND
@@ -8814,6 +8832,7 @@ WHERE
 (
 "
 HOST_TO_REVHOST_PREDICATE
+\
 "
 )
 AND
@@ -9066,6 +9085,8 @@ ADD
 COLUMN
 url_hash
 INTEGER
+"
+"
 DEFAULT
 0
 NOT
@@ -10669,6 +10690,8 @@ moz_bookmarks
 WHERE
 fk
 =
+"
+"
 moz_places
 .
 id
@@ -10924,6 +10947,8 @@ FROM
 moz_keywords
 WHERE
 place_id
+"
+"
 =
 NEW
 .
@@ -11132,6 +11157,8 @@ menu________
 '
 toolbar_____
 '
+"
+"
 '
 tags________
 '
@@ -11186,6 +11213,8 @@ menu________
 '
 toolbar_____
 '
+"
+"
 '
 tags________
 '
@@ -11861,6 +11890,8 @@ excludeItems
 '
 url_hash
 =
+"
+"
 hash
 (
 '
@@ -12722,6 +12753,8 @@ moz_bookmarks
 SET
 syncChangeCounter
 =
+"
+"
 syncChangeCounter
 +
 1
@@ -14773,6 +14806,8 @@ FROM
 moz_bookmarks
 p
 WHERE
+"
+"
 p
 .
 parent

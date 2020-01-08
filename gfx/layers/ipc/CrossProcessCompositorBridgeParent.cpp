@@ -451,6 +451,8 @@ in
 AllocPLayerTransactionParent
 ;
 dropping
+"
+"
 message
 .
 .
@@ -751,6 +753,8 @@ in
 AllocPAPZCTreeManagerParent
 ;
 dropping
+"
+"
 message
 .
 .
@@ -1163,6 +1167,8 @@ in
 AllocPWebRenderBridgeParent
 ;
 dropping
+"
+"
 message
 .
 .

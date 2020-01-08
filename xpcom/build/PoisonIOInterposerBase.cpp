@@ -237,7 +237,6 @@ const
 size_t
 kLength
 =
-\
 (
 chunk_size
 -

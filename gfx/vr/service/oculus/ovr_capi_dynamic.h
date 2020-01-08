@@ -8,6 +8,7 @@ _MSC_VER
 pragma
 message
 (
+\
 "
 ovr_capi_dyanmic
 .

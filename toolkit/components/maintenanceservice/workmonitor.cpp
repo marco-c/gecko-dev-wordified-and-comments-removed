@@ -122,13 +122,13 @@ using
 mozilla
 :
 :
-UniquePtr
+MakeUnique
 ;
 using
 mozilla
 :
 :
-MakeUnique
+UniquePtr
 ;
 #
 include
@@ -3327,6 +3327,8 @@ not
 valid
 for
 this
+"
+"
 application
 .
 "
@@ -3371,6 +3373,8 @@ not
 valid
 for
 this
+"
+"
 application
 .
 "

@@ -91,12 +91,14 @@ zipwriter
 #
 define
 ZIPWRITER_CID
+\
 {
+\
 0x430d416c
 0xa722
 0x4ad1
-\
 {
+\
 0xbe
 0x98
 0xd9
@@ -105,7 +107,9 @@ ZIPWRITER_CID
 0xf8
 0x5e
 0x3f
+\
 }
+\
 }
 #
 define

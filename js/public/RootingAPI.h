@@ -289,12 +289,14 @@ T
 template
 <
 >
+\
 struct
 IsHeapConstructibleType
 <
 T
 >
 {
+\
 static
 constexpr
 bool
@@ -302,6 +304,7 @@ value
 =
 true
 ;
+\
 }
 ;
 FOR_EACH_PUBLIC_GC_POINTER_TYPE
@@ -507,7 +510,6 @@ this
 ;
 \
 }
-\
 #
 define
 DELETE_ASSIGNMENT_OPS
@@ -521,6 +523,7 @@ template
 typename
 S
 >
+\
 Wrapper
 <
 T
@@ -590,7 +593,6 @@ ptr
 )
 ;
 }
-\
 #
 define
 DECLARE_NONPOINTER_MUTABLE_ACCESSOR_METHODS
@@ -624,7 +626,6 @@ ptr
 )
 ;
 }
-\
 }
 namespace
 JS
@@ -702,6 +703,7 @@ XP_MACOSX
 )
 |
 |
+\
 (
 defined
 (

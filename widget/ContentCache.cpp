@@ -3697,6 +3697,8 @@ to
 query
 with
 XP
+"
+"
 linebreaks
 "
 this
@@ -3871,6 +3873,8 @@ failure
 aEvent
 =
 {
+"
+"
 mMessage
 =
 %
@@ -4082,6 +4086,8 @@ due
 to
 mSelection
 is
+"
+"
 invalid
 "
 this

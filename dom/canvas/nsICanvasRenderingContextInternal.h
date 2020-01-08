@@ -97,11 +97,12 @@ define
 NS_ICANVASRENDERINGCONTEXTINTERNAL_IID
 \
 {
+\
 0xb84f2fed
 0x9d4b
 0x430b
-\
 {
+\
 0xbd
 0xfb
 0x85
@@ -110,7 +111,9 @@ NS_ICANVASRENDERINGCONTEXTINTERNAL_IID
 0xc2
 0xb4
 0x4b
+\
 }
+\
 }
 class
 nsDisplayListBuilder

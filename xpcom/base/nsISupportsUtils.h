@@ -63,7 +63,6 @@ NS_ADDREF
 (
 _ptr
 )
-\
 (
 _ptr
 )
@@ -77,7 +76,6 @@ define
 NS_ADDREF_THIS
 (
 )
-\
 AddRef
 (
 )
@@ -155,7 +153,6 @@ define
 NS_RELEASE_THIS
 (
 )
-\
 Release
 (
 )

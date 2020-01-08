@@ -211,6 +211,8 @@ this
 =
 %
 p
+"
+"
 channelId
 =
 %
@@ -1501,6 +1503,8 @@ HttpBackgroundChannelParent
 :
 :
 OnNotifyTrackingProtectionDisabled
+"
+"
 [
 this
 =
@@ -1562,6 +1566,8 @@ net
 HttpBackgroundChannelParent
 :
 :
+"
+"
 OnNotifyTrackingProtectionDisabled
 "
 this

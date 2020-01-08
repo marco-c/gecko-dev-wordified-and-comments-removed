@@ -30,11 +30,12 @@ define
 NS_IDTD_IID
 \
 {
+\
 0x3de05873
 0xefa7
 0x410d
-\
 {
+\
 0xa4
 0x61
 0x80
@@ -43,7 +44,9 @@ NS_IDTD_IID
 0xd9
 0xe3
 0x26
+\
 }
+\
 }
 enum
 eAutoDetectResult
@@ -201,6 +204,7 @@ const
 CParserContext
 &
 aParserContext
+\
 nsITokenizer
 *
 aTokenizer
@@ -208,6 +212,7 @@ nsIContentSink
 *
 aSink
 )
+\
 override
 ;
 \
@@ -230,6 +235,7 @@ nsIContentSink
 *
 aSink
 )
+\
 override
 ;
 \
@@ -237,6 +243,7 @@ NS_IMETHOD_
 (
 bool
 )
+\
 CanContain
 (
 int32_t

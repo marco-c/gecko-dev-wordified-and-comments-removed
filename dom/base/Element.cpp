@@ -1102,6 +1102,7 @@ sizeOn64
 int
 sizeOn32
 >
+\
 struct
 Check
 #
@@ -1110,7 +1111,6 @@ type
 #
 #
 Size
-\
 {
 \
 static_assert
@@ -1150,6 +1150,7 @@ a
 =
 sizeOn32
 )
+\
 "
 DOM
 size
@@ -1173,7 +1174,6 @@ sizeof
 (
 type
 )
-\
 opt_size_64
 +
 EXTRA_DOM_NODE_BYTES
@@ -1182,6 +1182,7 @@ opt_size_32
 +
 EXTRA_DOM_NODE_BYTES
 >
+\
 g
 #
 #

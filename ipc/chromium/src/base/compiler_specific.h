@@ -40,6 +40,7 @@ MSVC_PUSH_DISABLE_WARNING
 (
 n
 )
+\
 __pragma
 (
 warning
@@ -47,7 +48,6 @@ warning
 push
 )
 )
-\
 __pragma
 (
 warning
@@ -117,13 +117,13 @@ ALLOW_THIS_IN_INITIALIZER_LIST
 (
 code
 )
+\
 MSVC_PUSH_DISABLE_WARNING
 (
 4355
 )
 \
 code
-\
 MSVC_POP_WARNING
 (
 )

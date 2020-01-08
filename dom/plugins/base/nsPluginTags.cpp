@@ -175,6 +175,7 @@ enabled
 #
 define
 NS_PLUGIN_FLAG_FROMCACHE
+\
 0x0004
 /
 /
@@ -2927,6 +2928,8 @@ nsPluginTag
 ePluginState_Disabled
 must
 match
+"
+"
 nsIPluginTag
 :
 :
@@ -2956,6 +2959,8 @@ nsPluginTag
 ePluginState_Clicktoplay
 must
 match
+"
+"
 nsIPluginTag
 :
 :
@@ -2985,6 +2990,8 @@ nsPluginTag
 ePluginState_Enabled
 must
 match
+"
+"
 nsIPluginTag
 :
 :

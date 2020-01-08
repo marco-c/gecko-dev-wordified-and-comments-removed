@@ -161,7 +161,9 @@ define
 csf_sprintf
 (
 buffer
+\
 sizeOfBufferInCharsInclNullTerm
+\
 format
 .
 .
@@ -174,6 +176,7 @@ buffer
 sizeOfBufferInCharsInclNullTerm
 _TRUNCATE
 format
+\
 __VA_ARGS__
 )
 #
@@ -183,7 +186,9 @@ define
 csf_sprintf
 (
 buffer
+\
 sizeOfBufferInCharsInclNullTerm
+\
 format
 .
 .
@@ -220,7 +225,9 @@ define
 csf_vsprintf
 (
 buffer
+\
 sizeOfBufferInCharsInclNullTerm
+\
 format
 vaList
 )
@@ -231,6 +238,7 @@ buffer
 sizeOfBufferInCharsInclNullTerm
 _TRUNCATE
 format
+\
 vaList
 )
 ;
@@ -253,7 +261,9 @@ define
 csf_vsprintf
 (
 buffer
+\
 sizeOfBufferInCharsInclNullTerm
+\
 format
 vaList
 )

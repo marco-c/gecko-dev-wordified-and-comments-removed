@@ -119,13 +119,13 @@ using
 mozilla
 :
 :
-UniquePtr
+MakeUnique
 ;
 using
 mozilla
 :
 :
-MakeUnique
+UniquePtr
 ;
 class
 CoInitScope

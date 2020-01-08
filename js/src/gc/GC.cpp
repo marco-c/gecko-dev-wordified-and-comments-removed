@@ -594,13 +594,13 @@ using
 mozilla
 :
 :
-TimeStamp
+TimeDuration
 ;
 using
 mozilla
 :
 :
-TimeDuration
+TimeStamp
 ;
 using
 JS
@@ -1108,6 +1108,7 @@ traceKind
 type
 sizedType
 bgFinal
+\
 nursery
 compact
 )
@@ -1246,6 +1247,7 @@ traceKind
 type
 sizedType
 bgFinal
+\
 nursery
 compact
 )
@@ -1281,6 +1283,7 @@ OFFSET
 (
 type
 )
+\
 uint32_t
 (
 ArenaHeaderSize
@@ -1314,6 +1317,7 @@ allocKind
 traceKind
 type
 sizedType
+\
 bgFinal
 nursery
 compact
@@ -1372,6 +1376,7 @@ allocKind
 traceKind
 type
 sizedType
+\
 bgFinal
 nursery
 compact
@@ -2592,6 +2597,7 @@ type
 sizedType
 bgFinal
 nursery
+\
 compact
 )
 \
@@ -2613,6 +2619,7 @@ src
 dest
 thingKind
 budget
+\
 keepArenas
 )
 ;
@@ -4383,6 +4390,8 @@ be
 Some
 of
 these
+"
+"
 modes
 can
 \
@@ -4407,6 +4416,8 @@ g
 ;
 4
 \
+"
+"
 "
 will
 activate
@@ -4539,6 +4550,8 @@ two
 slices
 that
 yields
+"
+"
 between
 \
 n
@@ -4566,6 +4579,8 @@ two
 slices
 that
 yields
+"
+"
 between
 \
 n
@@ -4675,6 +4690,8 @@ check
 its
 integrity
 after
+"
+"
 every
 GC
 \
@@ -4707,6 +4724,8 @@ in
 two
 slices
 that
+"
+"
 yields
 \
 n
@@ -4748,6 +4767,8 @@ in
 two
 slices
 that
+"
+"
 yields
 \
 n
@@ -4772,6 +4793,8 @@ in
 two
 slices
 that
+"
+"
 yields
 \
 n
@@ -4796,6 +4819,8 @@ in
 two
 slices
 that
+"
+"
 yields
 \
 n
@@ -4821,6 +4846,8 @@ in
 two
 slices
 that
+"
+"
 yields
 \
 n
@@ -4848,6 +4875,8 @@ in
 two
 slices
 that
+"
+"
 yields
 \
 n
@@ -5854,7 +5883,6 @@ _4
 _5
 _6
 )
-\
 #
 allocKind
 FOR_EACH_ALLOCKIND
@@ -12652,6 +12680,7 @@ type
 sizedType
 bgFinal
 nursery
+\
 compact
 )
 \
@@ -18882,6 +18911,7 @@ type
 sizedType
 bgFinal
 nursery
+\
 compact
 )
 \
@@ -18891,6 +18921,7 @@ AllocKind
 :
 allocKind
 :
+\
 return
 #
 allocKind
@@ -33773,6 +33804,8 @@ state
 when
 pushing
 GC
+"
+"
 profiling
 stack
 frames
@@ -35907,6 +35940,8 @@ in
 %
 s
 GC
+"
+"
 for
 %
 s
@@ -42473,6 +42508,7 @@ name
 _0
 _1
 )
+\
 case
 JS
 :
@@ -42482,6 +42518,7 @@ TraceKind
 :
 name
 :
+\
 return
 #
 name
@@ -45840,12 +45877,14 @@ MAKE_CASE
 (
 name
 )
+\
 case
 State
 :
 :
 name
 :
+\
 return
 #
 name

@@ -125,11 +125,12 @@ define
 NS_SCHEDULERGROUPRUNNABLE_IID
 \
 {
+\
 0xd31b7420
 0x872b
 0x4cfb
-\
 {
+\
 0xa9
 0xc6
 0xae
@@ -138,7 +139,9 @@ NS_SCHEDULERGROUPRUNNABLE_IID
 0x06
 0x36
 0x74
+\
 }
+\
 }
 class
 SchedulerGroup

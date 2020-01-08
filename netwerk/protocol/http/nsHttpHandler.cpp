@@ -672,6 +672,7 @@ tcp_fastopen_enable
 #
 define
 TCP_FAST_OPEN_FAILURE_LIMIT
+\
 "
 network
 .
@@ -692,6 +693,7 @@ tcp_fastopen_http_stalls_limit
 #
 define
 TCP_FAST_OPEN_STALLS_IDLE
+\
 "
 network
 .
@@ -702,6 +704,7 @@ tcp_fastopen_http_check_for_stalls_only_if_idle_for
 #
 define
 TCP_FAST_OPEN_STALLS_TIMEOUT
+\
 "
 network
 .
@@ -736,6 +739,7 @@ _pref
 #
 define
 NS_HTTP_PROTOCOL_FLAGS
+\
 (
 URI_STD
 |
@@ -1667,6 +1671,7 @@ ANDROID
 )
 &
 &
+\
 !
 defined
 (
@@ -6916,6 +6921,8 @@ nsHttpHandler
 :
 :
 PrefsChanged
+"
+"
 (
 max
 -
@@ -7057,6 +7064,8 @@ nsHttpHandler
 :
 :
 PrefsChanged
+"
+"
 (
 max
 -
@@ -7194,6 +7203,8 @@ nsHttpHandler
 :
 :
 PrefsChanged
+"
+"
 (
 max
 -

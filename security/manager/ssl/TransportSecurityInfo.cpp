@@ -621,12 +621,14 @@ rv
 #
 define
 TRANSPORTSECURITYINFOMAGIC
+\
 {
+\
 0xa9863a23
 0x1faa
 0x4169
-\
 {
+\
 0xb0
 0xd2
 0x81
@@ -635,7 +637,9 @@ TRANSPORTSECURITYINFOMAGIC
 0x7c
 0xb1
 0xde
+\
 }
+\
 }
 static
 NS_DEFINE_CID

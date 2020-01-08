@@ -227,10 +227,12 @@ define
 NS_OSKEYSTORE_CID
 \
 {
+\
 0x57972956
 0x5718
 0x42d2
 {
+\
 0x80
 0x70
 0xb3
@@ -239,7 +241,9 @@ NS_OSKEYSTORE_CID
 0x21
 0x2e
 0xaf
+\
 }
+\
 }
 nsresult
 GetPromise

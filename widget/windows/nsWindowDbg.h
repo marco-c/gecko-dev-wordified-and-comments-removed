@@ -63,6 +63,7 @@ DISPLAY_NMM_PRT
 (
 _arg
 )
+\
 MOZ_LOG
 (
 gWindowsLog

@@ -1664,7 +1664,6 @@ i
 double
 candidateDensity
 =
-\
 (
 computedWidth
 =

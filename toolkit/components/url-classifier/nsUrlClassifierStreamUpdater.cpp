@@ -288,6 +288,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gUrlClassifierStreamUpdaterLog
@@ -2327,6 +2328,8 @@ fetching
 next
 safebrowsing
 item
+"
+"
 immediately
 "
 )
@@ -4071,6 +4074,8 @@ the
 update
 server
 to
+"
+"
 respond
 .
 "
@@ -4142,6 +4147,8 @@ the
 update
 server
 to
+"
+"
 finish
 .
 "

@@ -1783,6 +1783,8 @@ trans
 =
 %
 p
+"
+"
 classOfService
 =
 %
@@ -3334,6 +3336,8 @@ conn
 p
 that
 has
+"
+"
 null
 weak
 ptr
@@ -3497,6 +3501,8 @@ key
 =
 %
 s
+"
+"
 newCI
 =
 %
@@ -3573,6 +3579,8 @@ key
 =
 %
 s
+"
+"
 newCI
 =
 %
@@ -4154,6 +4162,8 @@ active
 conn
 that
 could
+"
+"
 have
 served
 newConn
@@ -4519,6 +4529,8 @@ connection
 %
 p
 )
+"
+"
 because
 new
 "
@@ -6650,6 +6662,8 @@ number
 of
 max
 persistent
+"
+"
 connections
 .
 \
@@ -7004,6 +7018,8 @@ s
 restricted
 due
 to
+"
+"
 active
 >
 =
@@ -8995,6 +9011,8 @@ ent
 =
 %
 p
+"
+"
 trans
 =
 %
@@ -11889,6 +11907,8 @@ p
 in
 native
 connection
+"
+"
 entry
 \
 n
@@ -11944,6 +11964,8 @@ p
 in
 native
 connection
+"
+"
 entry
 \
 n
@@ -13125,6 +13147,8 @@ nsHttpConnectionMgr
 :
 :
 OnMsgUpdateClassOfServiceOnTransaction
+"
+"
 [
 trans
 =
@@ -18807,6 +18831,8 @@ LOG
 nsHttpConnectionMgr
 :
 :
+"
+"
 CancelDelayedResumeBackgroundThrottledTransactions
 "
 )
@@ -20185,6 +20211,8 @@ h2
 an
 /
 onymous
+"
+"
 connections
 ent
 =
@@ -29357,6 +29385,8 @@ ent
 p
 (
 spdy
+"
+"
 %
 d
 )

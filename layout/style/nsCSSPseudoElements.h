@@ -132,7 +132,6 @@ _name
 _value
 _flags
 )
-\
 _name
 #
 include
@@ -249,7 +248,6 @@ nsCSSPseudoElementStaticAtom
 name_
 (
 )
-\
 {
 \
 return

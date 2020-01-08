@@ -5387,6 +5387,8 @@ argument
 while
 inspecting
 stack
+"
+"
 frame
 >
 \
@@ -5759,6 +5761,8 @@ property
 while
 inspecting
 stack
+"
+"
 frame
 >
 \
@@ -5944,6 +5948,8 @@ values
 while
 inspecting
 stack
+"
+"
 frame
 >
 \

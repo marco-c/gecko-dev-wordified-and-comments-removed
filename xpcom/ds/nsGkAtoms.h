@@ -23,7 +23,6 @@ name_
 :
 public
 nsStaticAtom
-\
 {
 \
 public
@@ -126,7 +125,6 @@ is_ascii_lower_
 type_
 atom_type_
 )
-\
 name_
 #
 include
@@ -283,7 +281,6 @@ nsStaticAtom
 *
 name_
 =
-\
 const_cast
 <
 nsStaticAtom
@@ -302,12 +299,12 @@ gGkAtoms
 .
 mAtoms
 [
-\
 static_cast
 <
 size_t
 >
 (
+\
 mozilla
 :
 :

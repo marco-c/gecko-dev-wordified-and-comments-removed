@@ -3741,7 +3741,6 @@ struct_
 \
 EventHandlerNonNull
 *
-\
 nsGenericHTMLElement
 :
 :
@@ -3751,7 +3750,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 if
@@ -3851,7 +3849,6 @@ name_
 }
 \
 void
-\
 nsGenericHTMLElement
 :
 :
@@ -3864,7 +3861,6 @@ EventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 if
@@ -3967,7 +3963,6 @@ already_AddRefed
 <
 EventHandlerNonNull
 >
-\
 nsGenericHTMLElement
 :
 :
@@ -3977,7 +3972,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 if
@@ -4123,7 +4117,6 @@ forget
 }
 \
 void
-\
 nsGenericHTMLElement
 :
 :
@@ -4136,7 +4129,6 @@ EventHandlerNonNull
 *
 handler
 )
-\
 {
 \
 if

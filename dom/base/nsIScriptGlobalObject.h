@@ -79,11 +79,12 @@ define
 NS_ISCRIPTGLOBALOBJECT_IID
 \
 {
+\
 0x876f83bd
 0x6314
 0x460a
-\
 {
+\
 0xa0
 0x45
 0x1c
@@ -92,7 +93,9 @@ NS_ISCRIPTGLOBALOBJECT_IID
 0x2f
 0xb8
 0xe1
+\
 }
+\
 }
 class
 nsIScriptGlobalObject

@@ -17,7 +17,6 @@ first
 -
 letter
 specific
-layout
 #
 undef
 NOISY_FLOAT
@@ -35,11 +34,6 @@ in
 /
 out
 metrics
-for
-the
-floated
-block
-)
 #
 undef
 NOISY_FLOAT_CLEARING
@@ -56,13 +50,6 @@ desired
 width
 /
 height
-computation
-once
-all
-children
-have
-been
-reflowed
 #
 undef
 NOISY_REMOVE_FRAME
@@ -77,7 +64,6 @@ output
 for
 combined
 area
-computation
 #
 undef
 NOISY_BLOCK_DIR_MARGINS
@@ -95,7 +81,6 @@ why
 each
 reflow
 was
-requested
 #
 undef
 REFLOW_STATUS_COVERAGE
@@ -110,13 +95,6 @@ useful
 for
 printing
 to
-see
-which
-frames
-return
-"
-incomplete
-"
 #
 undef
 NOISY_BLOCK_INVALIDATE
@@ -129,7 +107,6 @@ for
 all
 calls
 to
-invalidate
 #
 undef
 REALLY_NOISY_REFLOW

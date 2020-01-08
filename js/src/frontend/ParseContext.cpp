@@ -30,13 +30,13 @@ using
 mozilla
 :
 :
-Some
+Nothing
 ;
 using
 mozilla
 :
 :
-Nothing
+Some
 ;
 namespace
 js

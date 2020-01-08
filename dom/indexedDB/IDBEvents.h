@@ -58,10 +58,12 @@ define
 IDBVERSIONCHANGEEVENT_IID
 \
 {
+\
 0x3b65d4c3
 0x73ad
 0x492e
 {
+\
 0xb1
 0x2d
 0x15
@@ -70,7 +72,9 @@ IDBVERSIONCHANGEEVENT_IID
 0xc2
 0x08
 0x4b
+\
 }
+\
 }
 namespace
 mozilla

@@ -158,7 +158,6 @@ GetLog
 (
 log
 )
-\
 LogLevel
 :
 :
@@ -2014,6 +2013,7 @@ p
 e
 k
 )
+\
 (
 (
 (
@@ -2068,6 +2068,7 @@ p
 PLATFORM_ID_MICROSOFT
 &
 &
+\
 (
 e
 )
@@ -2077,6 +2078,7 @@ EncodingIDUCS4ForMicrosoftPlatform
 )
 &
 &
+\
 (
 k
 )
@@ -2095,7 +2097,6 @@ p
 PLATFORM_ID_UNICODE
 &
 &
-\
 (
 (
 e
@@ -2116,6 +2117,7 @@ p
 e
 k
 )
+\
 (
 (
 (
@@ -2178,6 +2180,7 @@ acceptablePlatform
 (
 p
 )
+\
 (
 (
 p
@@ -2224,6 +2227,7 @@ isUVSEncoding
 p
 e
 )
+\
 (
 (
 p

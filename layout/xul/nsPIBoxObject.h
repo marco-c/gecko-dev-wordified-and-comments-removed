@@ -16,11 +16,12 @@ define
 NS_PIBOXOBJECT_IID
 \
 {
+\
 0x2b8bb262
 0x1b0f
 0x4572
-\
 {
+\
 0xba
 0x87
 0x5d
@@ -29,7 +30,9 @@ NS_PIBOXOBJECT_IID
 0x95
 0x44
 0x45
+\
 }
+\
 }
 namespace
 mozilla

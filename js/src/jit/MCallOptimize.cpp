@@ -23130,6 +23130,7 @@ ADD_NATIVE
 (
 native
 )
+\
 const
 JSJitInfo
 JitInfo_
@@ -23137,10 +23138,10 @@ JitInfo_
 #
 native
 {
-\
 {
 nullptr
 }
+\
 {
 uint16_t
 (
@@ -23150,9 +23151,11 @@ InlinableNative
 native
 )
 }
+\
 {
 0
 }
+\
 JSJitInfo
 :
 :

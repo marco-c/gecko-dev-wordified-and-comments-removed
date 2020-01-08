@@ -12,6 +12,7 @@ MOZILLA_INTERNAL_API
 )
 #
 error
+\
 "
 This
 header

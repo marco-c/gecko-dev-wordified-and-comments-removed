@@ -113,7 +113,6 @@ MozillaMaintenance
 #
 define
 BASE_SERVICE_REG_KEY
-\
 L
 "
 SOFTWARE

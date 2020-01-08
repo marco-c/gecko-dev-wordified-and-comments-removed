@@ -3319,6 +3319,8 @@ handle
 =
 %
 p
+"
+"
 result
 =
 0x

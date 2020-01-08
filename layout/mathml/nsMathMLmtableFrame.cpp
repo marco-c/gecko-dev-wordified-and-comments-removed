@@ -1754,6 +1754,7 @@ _expected
 \
 MOZ_ASSERT
 (
+\
 mozilla
 :
 :

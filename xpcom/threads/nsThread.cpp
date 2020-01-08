@@ -417,9 +417,11 @@ endif
 #
 define
 HAVE_UALARM
+\
 _BSD_SOURCE
 |
 |
+\
 (
 _XOPEN_SOURCE
 >
@@ -427,7 +429,6 @@ _XOPEN_SOURCE
 500
 |
 |
-\
 _XOPEN_SOURCE
 &
 &
@@ -3713,6 +3714,8 @@ will
 never
 run
 it
+"
+"
 (
 rejected
 )
@@ -3907,9 +3910,9 @@ nsIThreadObserver
 :
 :
 ForwardIterator
-\
 iter_
 (
+\
 observers_
 )
 ;

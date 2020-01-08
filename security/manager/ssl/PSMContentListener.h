@@ -50,11 +50,14 @@ h
 #
 define
 NS_PSMCONTENTLISTEN_CID
+\
 {
+\
 0xc94f4a30
 0x64d7
 0x11d4
 {
+\
 0x99
 0x60
 0x00
@@ -63,7 +66,9 @@ NS_PSMCONTENTLISTEN_CID
 0x23
 0x54
 0xa0
+\
 }
+\
 }
 #
 define

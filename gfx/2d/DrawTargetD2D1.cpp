@@ -1508,6 +1508,8 @@ uploads
 are
 not
 supported
+"
+"
 for
 Shadow
 surfaces
@@ -2214,6 +2216,8 @@ Bitmap
 source
 surfaces
 .
+"
+"
 Falling
 back
 to
@@ -2636,6 +2640,8 @@ uploads
 are
 not
 supported
+"
+"
 for
 CopySurface
 .
@@ -6267,6 +6273,8 @@ obtain
 a
 device
 for
+"
+"
 DrawTargetD2D1
 :
 :
@@ -6686,6 +6694,8 @@ obtain
 a
 device
 for
+"
+"
 DrawTargetD2D1
 :
 :

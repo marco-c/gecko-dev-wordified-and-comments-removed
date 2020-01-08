@@ -22,6 +22,7 @@ STUB
 (
 symbol
 )
+\
 MOZ_EXPORT
 void
 symbol

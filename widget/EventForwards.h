@@ -216,7 +216,6 @@ NS_DEFINE_KEYNAME
 aCPPName
 aDOMKeyName
 )
-\
 KEY_NAME_INDEX_
 #
 #

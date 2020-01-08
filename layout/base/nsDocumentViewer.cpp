@@ -669,6 +669,7 @@ disable_beforeunload
 #
 define
 BEFOREUNLOAD_REQUIRES_INTERACTION_PREFNAME
+\
 "
 dom
 .
@@ -14683,6 +14684,8 @@ nsIWebBrowserPrint
 must
 be
 from
+"
+"
 docshell
 .
 printPreview
@@ -16176,6 +16179,7 @@ MOZ_WIDGET_GTK
 )
 |
 |
+\
 defined
 (
 MOZ_WIDGET_ANDROID

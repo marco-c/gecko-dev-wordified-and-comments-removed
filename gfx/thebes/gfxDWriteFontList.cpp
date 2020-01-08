@@ -175,6 +175,7 @@ LOG_FONTLIST
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxPlatform
@@ -184,7 +185,6 @@ GetLog
 (
 eGfxLog_fontlist
 )
-\
 LogLevel
 :
 :
@@ -196,9 +196,9 @@ define
 LOG_FONTLIST_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -206,7 +206,6 @@ GetLog
 (
 eGfxLog_fontlist
 )
-\
 LogLevel
 :
 :
@@ -218,6 +217,7 @@ LOG_FONTINIT
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxPlatform
@@ -227,7 +227,6 @@ GetLog
 (
 eGfxLog_fontinit
 )
-\
 LogLevel
 :
 :
@@ -239,9 +238,9 @@ define
 LOG_FONTINIT_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -249,7 +248,6 @@ GetLog
 (
 eGfxLog_fontinit
 )
-\
 LogLevel
 :
 :
@@ -260,9 +258,9 @@ define
 LOG_CMAPDATA_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -270,7 +268,6 @@ GetLog
 (
 eGfxLog_cmapdata
 )
-\
 LogLevel
 :
 :
@@ -8489,7 +8486,6 @@ void
 *
 ppvObject
 )
-\
 {
 \
 if

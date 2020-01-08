@@ -223,6 +223,8 @@ to
 d
 and
 buffer
+"
+"
 length
 of
 %
@@ -706,6 +708,8 @@ d
 ERROR_INVALID_PARAMETER
 )
 when
+"
+"
 option
 %
 d

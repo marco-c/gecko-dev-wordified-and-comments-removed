@@ -395,7 +395,6 @@ Node
 node
 )
 {
-\
 return
 &
 node
@@ -408,7 +407,6 @@ typeName
 (
 )
 ;
-\
 }
 FOR_EACH_PARSENODE_SUBCLASS
 (

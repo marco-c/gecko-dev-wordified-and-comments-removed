@@ -51,6 +51,8 @@ target
 )
 throw
 new
+"
+"
 Error
 (
 '

@@ -1368,6 +1368,9 @@ setAndFetchFaviconForPage
 .
 [
 optional
+"
+u
+"
 aLoadingPrincipal
 ]
 )
@@ -2380,6 +2383,9 @@ ReplaceFaviconDataFromDataURL
 .
 [
 optional
+"
+u
+"
 aLoadingPrincipal
 ]
 )

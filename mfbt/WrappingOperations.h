@@ -578,7 +578,6 @@ warning
 push
 )
 )
-\
 __pragma
 (
 warning

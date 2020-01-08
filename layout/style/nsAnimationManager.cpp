@@ -239,7 +239,7 @@ mozilla
 dom
 :
 :
-KeyframeEffect
+CSSAnimation
 ;
 using
 mozilla
@@ -248,7 +248,7 @@ mozilla
 dom
 :
 :
-CSSAnimation
+KeyframeEffect
 ;
 typedef
 mozilla

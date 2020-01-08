@@ -369,7 +369,6 @@ defined
 (
 __FreeBSD__
 )
-\
 |
 |
 defined
@@ -378,6 +377,7 @@ __NetBSD__
 )
 |
 |
+\
 defined
 (
 __OpenBSD__
@@ -875,6 +875,7 @@ name
 #
 define
 PROP_END
+\
 {
 nullptr
 JS

@@ -1433,6 +1433,8 @@ any
 of
 the
 alignments
+"
+"
 which
 are
 used
@@ -1451,6 +1453,8 @@ Thus
 it
 should
 be
+"
+"
 larger
 than
 the
@@ -1483,6 +1487,8 @@ any
 of
 the
 alignments
+"
+"
 which
 are
 used
@@ -1500,6 +1506,8 @@ larger
 than
 the
 alignment
+"
+"
 for
 SIMD
 accesses
@@ -1658,13 +1666,13 @@ using
 AssemblerX86Shared
 :
 :
-push
+pop
 ;
 using
 AssemblerX86Shared
 :
 :
-pop
+push
 ;
 using
 AssemblerX86Shared

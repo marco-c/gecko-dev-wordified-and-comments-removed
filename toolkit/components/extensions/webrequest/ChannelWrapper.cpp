@@ -254,6 +254,7 @@ extensions
 #
 define
 CHANNELWRAPPER_PROP_KEY
+\
 NS_LITERAL_STRING
 (
 "

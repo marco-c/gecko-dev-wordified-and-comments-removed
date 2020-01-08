@@ -271,7 +271,6 @@ name
 {
 \
 js_Object_str
-\
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_
@@ -438,7 +437,6 @@ name
 )
 \
 {
-\
 JS_STRING_PS
 (
 "
@@ -448,7 +446,6 @@ message
 "
 0
 )
-\
 JS_STRING_PS
 (
 "
@@ -458,9 +455,7 @@ name
 name
 0
 )
-\
 JS_PS_END
-\
 }
 static
 const
@@ -535,16 +530,13 @@ ErrorObject
 :
 :
 createConstructor
-\
 ErrorObject
 :
 :
 createProto
-\
 nullptr
 \
 nullptr
-\
 nullptr
 \
 other_error_properties
@@ -558,7 +550,6 @@ JSProto_Error
 -
 1
 ]
-\
 nullptr
 \
 JSProto_Error
@@ -577,16 +568,13 @@ ErrorObject
 :
 :
 createConstructor
-\
 ErrorObject
 :
 :
 createProto
-\
 nullptr
 \
 nullptr
-\
 nullptr
 \
 other_error_properties
@@ -600,7 +588,6 @@ JSProto_Error
 -
 1
 ]
-\
 nullptr
 \
 JSProto_Error

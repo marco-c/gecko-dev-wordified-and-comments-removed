@@ -5481,6 +5481,8 @@ HttpChannelParent
 :
 ContinueRedirect2Verify
 call
+"
+"
 OnRedirectVerifyCallback
 "
 "
@@ -7188,6 +7190,8 @@ HttpBaseChannel
 as
 aRequest
 in
+"
+"
 HttpChannelParent
 :
 :
@@ -7212,6 +7216,8 @@ OnStartRequest
 from
 a
 different
+"
+"
 HttpBaseChannel
 instance
 "

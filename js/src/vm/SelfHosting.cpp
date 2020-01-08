@@ -3651,6 +3651,8 @@ receive
 either
 ATTR_ENUMERABLE
 xor
+"
+"
 ATTR_NONENUMERABLE
 "
 )
@@ -3733,6 +3735,8 @@ receive
 either
 ATTR_WRITABLE
 xor
+"
+"
 ATTR_NONWRITABLE
 "
 )
@@ -20738,6 +20742,8 @@ hosted
 constant
 for
 maximum
+"
+"
 string
 length
 "
@@ -20758,6 +20764,8 @@ hosted
 constant
 for
 maximum
+"
+"
 arguments
 length
 "

@@ -2786,6 +2786,8 @@ DrawTargetType
 for
 DrawTargetCairo
 -
+"
+"
 assuming
 SOFTWARE_RASTER
 "

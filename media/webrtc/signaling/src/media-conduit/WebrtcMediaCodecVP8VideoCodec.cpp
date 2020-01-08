@@ -1430,6 +1430,8 @@ WebrtcAndroidMediaCodec
 s
 CreateEncoderByType
 failed
+"
+"
 err
 =
 %
@@ -1547,6 +1549,8 @@ WebrtcAndroidMediaCodec
 s
 CreateDecoderByType
 failed
+"
+"
 err
 =
 %
@@ -2720,6 +2724,8 @@ mCoder
 DequeueInputBuffer
 (
 )
+"
+"
 return
 err
 =
@@ -2799,6 +2805,8 @@ mCoder
 QueueInputBuffer
 (
 )
+"
+"
 return
 err
 =
@@ -2866,6 +2874,8 @@ mCoder
 DequeueOutputBuffer
 (
 )
+"
+"
 return
 err
 =
@@ -4140,6 +4150,8 @@ Encode
 dequeue
 OMX
 input
+"
+"
 buffer
 took
 %
@@ -4261,6 +4273,8 @@ Encode
 )
 convert
 input
+"
+"
 buffer
 to
 NV12
@@ -4346,6 +4360,8 @@ Encode
 )
 queue
 input
+"
+"
 buffer
 took
 %
@@ -4447,6 +4463,8 @@ BufferInfo
 :
 New
 return
+"
+"
 err
 =
 %
@@ -4789,6 +4807,8 @@ size
 =
 %
 d
+"
+"
 buffer
 offset
 =
@@ -5712,6 +5732,8 @@ Encode
 )
 convert
 input
+"
+"
 buffer
 to
 NV12

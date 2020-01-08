@@ -193,11 +193,12 @@ define
 NS_CHANNELWRAPPER_IID
 \
 {
+\
 0xc06162d2
 0xb803
 0x43b4
-\
 {
+\
 0xaa
 0x31
 0xcf
@@ -206,7 +207,9 @@ NS_CHANNELWRAPPER_IID
 0x93
 0x68
 0x1c
+\
 }
+\
 }
 class
 nsILoadContext

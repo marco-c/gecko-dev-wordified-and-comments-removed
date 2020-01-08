@@ -1028,6 +1028,7 @@ max_chrome_script_run_time
 #
 define
 PREF_MAX_SCRIPT_RUN_TIME_EXT_CONTENT
+\
 "
 dom
 .

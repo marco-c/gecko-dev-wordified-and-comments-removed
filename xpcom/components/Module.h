@@ -328,6 +328,7 @@ __ELF__
 #
 define
 NSMODULE_SECTION
+\
 __attribute__
 (
 (
@@ -354,6 +355,7 @@ __MACH__
 #
 define
 NSMODULE_SECTION
+\
 __attribute__
 (
 (
@@ -445,9 +447,11 @@ NSMODULE_DEFN
 (
 _name
 )
+\
 extern
 NSMODULE_SECTION
 NSMODULE_ASAN_BLACKLIST
+\
 mozilla
 :
 :

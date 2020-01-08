@@ -862,6 +862,7 @@ sOffset
 3
 ;
 \
+\
 private
 :
 \
@@ -907,6 +908,7 @@ sOffset
 \
 }
 \
+\
 public
 :
 \
@@ -922,7 +924,6 @@ s
 )
 const
 {
-\
 return
 mHas
 #
@@ -932,7 +933,6 @@ FieldName
 #
 s
 ;
-\
 }
 \
 const
@@ -962,8 +962,8 @@ SpecT
 >
 *
 >
-\
 (
+\
 FieldName
 #
 #

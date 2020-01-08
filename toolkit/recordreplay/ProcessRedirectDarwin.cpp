@@ -389,7 +389,6 @@ DECLARE_ORIGINAL_FUNCTION
 (
 aName
 )
-\
 static
 void
 *

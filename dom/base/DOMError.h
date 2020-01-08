@@ -39,11 +39,12 @@ define
 DOMERROR_IID
 \
 {
+\
 0x220cb63f
 0xa37d
 0x4ba4
-\
 {
+\
 0x8e
 0x31
 0xfc
@@ -52,7 +53,9 @@ DOMERROR_IID
 0x48
 0xe1
 0x66
+\
 }
+\
 }
 class
 nsPIDOMWindowInner

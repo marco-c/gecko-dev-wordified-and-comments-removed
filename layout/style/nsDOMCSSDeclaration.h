@@ -338,7 +338,6 @@ method_
 )
 \
 void
-\
 Get
 #
 #
@@ -354,7 +353,6 @@ ErrorResult
 &
 rv
 )
-\
 {
 \
 rv
@@ -373,7 +371,6 @@ aValue
 \
 \
 void
-\
 Set
 #
 #
@@ -394,7 +391,6 @@ ErrorResult
 &
 rv
 )
-\
 {
 \
 rv
@@ -458,6 +454,7 @@ method_
 .
 .
 )
+\
 CSS_PROP
 (
 id_

@@ -237,13 +237,13 @@ using
 MacroAssemblerX86Shared
 :
 :
-store32
+store16
 ;
 using
 MacroAssemblerX86Shared
 :
 :
-store16
+store32
 ;
 MacroAssemblerX64
 (

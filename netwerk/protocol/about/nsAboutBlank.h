@@ -74,12 +74,10 @@ NS_ABOUT_BLANK_MODULE_CID
 /
 \
 0x3decd6c8
-\
 0x30ef
-\
 0x11d3
-\
 {
+\
 0x8c
 0xd0
 0x00
@@ -88,6 +86,7 @@ NS_ABOUT_BLANK_MODULE_CID
 0xfc
 0x14
 0xa3
+\
 }
 \
 }

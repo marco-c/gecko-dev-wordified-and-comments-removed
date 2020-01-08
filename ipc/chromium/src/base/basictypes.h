@@ -505,6 +505,7 @@ expr
 )
 )
 >
+\
 msg
 [
 bool
@@ -517,7 +518,6 @@ expr
 -
 1
 ]
-\
 COMPILE_ASSERT_UNUSED_ATTRIBUTE
 #
 endif

@@ -472,6 +472,8 @@ content
 default
 -
 src
+"
+"
 chrome
 :
 \
@@ -522,6 +524,8 @@ rel
 "
 stylesheet
 \
+"
+"
 "
 href
 =
@@ -700,6 +704,8 @@ checkbox
 >
 In
 Browser
+"
+"
 Element
 <
 /

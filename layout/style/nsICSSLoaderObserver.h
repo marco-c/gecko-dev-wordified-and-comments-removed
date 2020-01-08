@@ -16,11 +16,12 @@ define
 NS_ICSSLOADEROBSERVER_IID
 \
 {
+\
 0xf51fbf2c
 0xfe4b
 0x4a15
-\
 {
+\
 0xaf
 0x7e
 0x5e
@@ -29,7 +30,9 @@ NS_ICSSLOADEROBSERVER_IID
 0x5f
 0xaf
 0x58
+\
 }
+\
 }
 namespace
 mozilla

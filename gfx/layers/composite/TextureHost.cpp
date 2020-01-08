@@ -401,8 +401,10 @@ RECYCLE_LOG
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1102,6 +1104,8 @@ address
 space
 using
 a
+"
+"
 X11Texture
 !
 "
@@ -1565,6 +1569,8 @@ to
 fit
 for
 its
+"
+"
 descriptor
 !
 "
@@ -1621,6 +1627,8 @@ our
 address
 space
 using
+"
+"
 a
 MemoryTexture
 !
@@ -1763,6 +1771,8 @@ address
 space
 using
 a
+"
+"
 DIBTexture
 !
 "

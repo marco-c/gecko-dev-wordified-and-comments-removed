@@ -292,6 +292,7 @@ PLUGIN_LOG_DEBUG
 (
 args
 )
+\
 MOZ_LOG
 (
 GetPluginLog
@@ -309,6 +310,7 @@ args
 #
 define
 PLUGIN_LOG_DEBUG_FUNCTION
+\
 MOZ_LOG
 (
 GetPluginLog
@@ -332,6 +334,7 @@ FULLFUNCTION
 #
 define
 PLUGIN_LOG_DEBUG_METHOD
+\
 MOZ_LOG
 (
 GetPluginLog
@@ -344,6 +347,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 %
@@ -570,9 +574,11 @@ VARSTR
 (
 v_
 )
+\
 case
 v_
 :
+\
 return
 #
 v_

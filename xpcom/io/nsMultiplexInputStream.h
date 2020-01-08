@@ -14,6 +14,7 @@ h
 #
 define
 NS_MULTIPLEXINPUTSTREAM_CONTRACTID
+\
 "
 mozilla
 .
@@ -49,12 +50,10 @@ b4cef17e568d
 /
 \
 0x565e3a2c
-\
 0x1dd2
-\
 0x11b2
-\
 {
+\
 0x8d
 0xa1
 0xb4
@@ -63,6 +62,7 @@ b4cef17e568d
 0x7e
 0x56
 0x8d
+\
 }
 \
 }

@@ -654,6 +654,8 @@ attempting
 to
 deallocate
 the
+"
+"
 nsTimerEvent
 allocator
 twice

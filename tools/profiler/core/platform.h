@@ -230,7 +230,6 @@ gProfilerLog
 #
 define
 LOG_TEST
-\
 MOZ_LOG_TEST
 (
 gProfilerLog
@@ -282,7 +281,6 @@ __VA_ARGS__
 #
 define
 DEBUG_LOG_TEST
-\
 MOZ_LOG_TEST
 (
 gProfilerLog

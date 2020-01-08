@@ -482,11 +482,12 @@ define
 NS_IPRESSHELL_IID
 \
 {
+\
 0xb7b89561
 0x4f03
 0x44b3
-\
 {
+\
 0x9a
 0xfa
 0xb4
@@ -495,7 +496,9 @@ NS_IPRESSHELL_IID
 0x31
 0x3f
 0xfb
+\
 }
+\
 }
 #
 define

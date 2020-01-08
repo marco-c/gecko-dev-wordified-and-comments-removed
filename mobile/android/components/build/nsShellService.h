@@ -42,10 +42,12 @@ define
 nsShellService_CID
 \
 {
+\
 0xae9ebe1c
 0x61e9
 0x45fa
 {
+\
 0x8f
 0x34
 0xc1
@@ -54,7 +56,9 @@ nsShellService_CID
 0x3a
 0x5b
 0x44
+\
 }
+\
 }
 #
 define

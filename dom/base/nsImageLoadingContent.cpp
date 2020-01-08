@@ -3605,7 +3605,6 @@ return
 ImageLoadType
 loadType
 =
-\
 (
 mCurrentRequestFlags
 &
@@ -5499,7 +5498,6 @@ mCurrentRequest
 ImageLoadType
 loadType
 =
-\
 (
 mPendingRequestFlags
 &

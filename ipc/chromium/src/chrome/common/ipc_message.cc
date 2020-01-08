@@ -87,6 +87,7 @@ tasktracer
 #
 define
 MSG_HEADER_SZ
+\
 (
 IsStartLogging
 (
@@ -99,12 +100,13 @@ GetOrCreateTraceInfo
 =
 =
 nullptr
-?
 \
+?
 sizeof
 (
 Header
 )
+\
 :
 sizeof
 (
@@ -497,12 +499,13 @@ flags
 IsTaskTracer
 (
 )
-?
 \
+?
 sizeof
 (
 HeaderTaskTracer
 )
+\
 :
 sizeof
 (

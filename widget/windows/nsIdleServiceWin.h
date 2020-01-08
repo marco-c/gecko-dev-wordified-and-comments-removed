@@ -21,6 +21,7 @@ SAFE_COMPARE_EVEN_WITH_WRAPPING
 A
 B
 )
+\
 (
 (
 (

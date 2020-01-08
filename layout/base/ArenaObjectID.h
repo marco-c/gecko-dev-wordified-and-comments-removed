@@ -31,7 +31,6 @@ PRES_ARENA_OBJECT
 (
 name_
 )
-\
 eArenaObjectID_
 #
 #

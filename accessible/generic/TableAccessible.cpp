@@ -70,8 +70,8 @@ heuristic
 mLayoutHeuristic
 =
 isLayout
-?
 \
+?
 NS_LITERAL_STRING
 (
 "
@@ -81,8 +81,8 @@ table
 "
 heuristic
 )
-:
 \
+:
 NS_LITERAL_STRING
 (
 "
@@ -108,6 +108,7 @@ RETURN_LAYOUT_ANSWER
 isLayout
 heuristic
 )
+\
 {
 return
 isLayout
@@ -642,6 +643,8 @@ abbr
 attribute
 -
 -
+"
+"
 legitimate
 table
 structures
@@ -1329,6 +1332,8 @@ iframe
 object
 or
 embed
+"
+"
 typical
 of
 advertisements

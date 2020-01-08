@@ -158,13 +158,13 @@ using
 mozilla
 :
 :
-CountLeadingZeroes32
+CheckedInt
 ;
 using
 mozilla
 :
 :
-CheckedInt
+CountLeadingZeroes32
 ;
 using
 mozilla

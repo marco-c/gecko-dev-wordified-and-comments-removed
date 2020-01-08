@@ -1178,12 +1178,14 @@ XX
 (
 x
 )
+\
 case
 LOCAL_GL_
 #
 #
 x
 :
+\
 return
 #
 x

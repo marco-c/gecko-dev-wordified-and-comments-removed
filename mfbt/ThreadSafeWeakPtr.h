@@ -100,6 +100,7 @@ threadSafeWeakReferenceTypeName
 (
 )
 {
+\
 return
 "
 ThreadSafeWeakReference
@@ -111,6 +112,7 @@ T
 >
 "
 ;
+\
 }
 #
 else

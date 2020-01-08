@@ -121,11 +121,12 @@ define
 NS_PROCESS_CID
 \
 {
+\
 0x7b4eeb20
 0xd781
 0x11d4
-\
 {
+\
 0x8A
 0x83
 0x00
@@ -134,7 +135,9 @@ NS_PROCESS_CID
 0xe0
 0xc9
 0xca
+\
 }
+\
 }
 class
 nsProcess

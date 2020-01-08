@@ -115,7 +115,6 @@ if
 !
 wrapper
 )
-\
 return
 Throw
 (
@@ -134,7 +133,6 @@ IsValid
 (
 )
 )
-\
 return
 Throw
 (
@@ -3204,7 +3202,6 @@ NS_FAILED
 rv
 )
 )
-\
 return
 Throw
 (
@@ -4106,6 +4103,7 @@ IS_CU_CLASS
 (
 clasp
 )
+\
 (
 clasp
 -

@@ -219,7 +219,7 @@ dom
 HTMLMediaElement_Binding
 :
 :
-NETWORK_EMPTY
+HAVE_METADATA
 ;
 using
 mozilla
@@ -231,7 +231,7 @@ dom
 HTMLMediaElement_Binding
 :
 :
-HAVE_METADATA
+NETWORK_EMPTY
 ;
 namespace
 mozilla
@@ -1805,6 +1805,8 @@ an
 existing
 Image
 into
+"
+"
 CreateImageFromRawDataInMainThreadSyncTask
 .
 "
@@ -6479,6 +6481,8 @@ from
 CanvasRenderingContext2D
 off
 the
+"
+"
 main
 thread
 .

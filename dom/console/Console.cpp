@@ -4710,7 +4710,6 @@ name
 string
 )
 void
-\
 Console
 :
 :
@@ -4720,6 +4719,7 @@ const
 GlobalObject
 &
 aGlobal
+\
 const
 Sequence
 <
@@ -4731,7 +4731,6 @@ Value
 &
 aData
 )
-\
 {
 \
 Method

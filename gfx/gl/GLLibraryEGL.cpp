@@ -2107,7 +2107,9 @@ SYMBOL
 (
 X
 )
+\
 {
+\
 (
 PRFuncPtr
 *
@@ -2127,15 +2129,19 @@ egl
 X
 nullptr
 }
+\
 }
 #
 define
 END_OF_SYMBOLS
+\
 {
+\
 nullptr
 {
 nullptr
 }
+\
 }
 GLLibraryLoader
 :
@@ -2676,6 +2682,8 @@ EGL
 supports
 ANGLE_surface_d3d_texture_2d_share_handle
 without
+"
+"
 exposing
 its
 functions
@@ -2886,6 +2894,8 @@ ANDROID_native_fence_sync
 without
 exposing
 its
+"
+"
 functions
 !
 "
@@ -3012,6 +3022,8 @@ KHR_stream_consumer_gltexture
 without
 exposing
 its
+"
+"
 functions
 !
 "
@@ -3126,6 +3138,8 @@ NV_stream_consumer_gltexture_yuv
 without
 exposing
 its
+"
+"
 functions
 !
 "
@@ -3185,6 +3199,8 @@ ANGLE_stream_producer_d3d_texture
 without
 exposing
 its
+"
+"
 functions
 !
 "
@@ -3986,6 +4002,7 @@ ATTR
 (
 _x
 )
+\
 do
 {
 \

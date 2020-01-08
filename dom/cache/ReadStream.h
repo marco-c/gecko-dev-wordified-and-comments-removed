@@ -98,11 +98,12 @@ define
 NS_DOM_CACHE_READSTREAM_IID
 \
 {
+\
 0x8e5da7c9
 0x0940
 0x4f1d
-\
 {
+\
 0x97
 0x25
 0x5c
@@ -111,7 +112,9 @@ NS_DOM_CACHE_READSTREAM_IID
 0xdd
 0xb9
 0x9f
+\
 }
+\
 }
 class
 ReadStream

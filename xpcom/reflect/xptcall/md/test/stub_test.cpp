@@ -624,14 +624,15 @@ callme
 n
 (
 )
-\
 {
+\
 __asm
 push
 n
 __asm
 jmp
 SharedStub
+\
 }
 #
 else
@@ -653,7 +654,6 @@ callme
 n
 (
 )
-\
 {
 \
 uint32_t
@@ -727,7 +727,6 @@ r
 (
 args
 )
-\
 "
 =
 r
@@ -906,7 +905,6 @@ callme
 n
 (
 )
-\
 {
 \
 void
@@ -962,6 +960,7 @@ pushl
 "
 #
 n
+\
 "
 \
 n

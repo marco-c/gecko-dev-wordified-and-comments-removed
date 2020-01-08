@@ -585,6 +585,7 @@ JNIName
 template
 <
 >
+\
 struct
 TypeAdapter
 <

@@ -58,6 +58,7 @@ NIGHTLY_BUILD
 )
 #
 error
+\
 "
 BinTokenReaderTester
 .

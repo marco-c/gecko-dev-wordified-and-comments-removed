@@ -190,9 +190,9 @@ defined
 (
 __FreeBSD__
 )
+|
+|
 \
-|
-|
 defined
 (
 __NetBSD__
@@ -768,9 +768,9 @@ defined
 (
 __FreeBSD__
 )
+|
+|
 \
-|
-|
 defined
 (
 __NetBSD__
@@ -1969,6 +1969,7 @@ __GNUC__
 )
 &
 &
+\
 (
 defined
 (
@@ -2419,6 +2420,7 @@ __GNUC__
 )
 &
 &
+\
 (
 defined
 (

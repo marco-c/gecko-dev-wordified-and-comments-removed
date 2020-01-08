@@ -4855,6 +4855,7 @@ aKeyNameIndex
 case
 aNativeKey
 :
+\
 return
 aKeyNameIndex
 ;
@@ -4908,6 +4909,7 @@ aCodeNameIndex
 case
 aNativeKey
 :
+\
 return
 aCodeNameIndex
 ;

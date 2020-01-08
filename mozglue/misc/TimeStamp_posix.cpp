@@ -40,7 +40,6 @@ defined
 (
 __FreeBSD__
 )
-\
 |
 |
 defined
@@ -49,6 +48,7 @@ __NetBSD__
 )
 |
 |
+\
 defined
 (
 __OpenBSD__
@@ -1120,7 +1120,6 @@ defined
 (
 __FreeBSD__
 )
-\
 |
 |
 defined
@@ -1129,6 +1128,7 @@ __NetBSD__
 )
 |
 |
+\
 defined
 (
 __OpenBSD__

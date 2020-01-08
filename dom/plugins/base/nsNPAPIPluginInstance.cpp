@@ -1773,6 +1773,8 @@ h
 %
 d
 ]
+"
+"
 clip
 [
 t
@@ -2117,6 +2119,8 @@ pDC
 =
 %
 p
+"
+"
 [
 x
 =
@@ -3000,6 +3004,8 @@ nsNPAPIPluginInstance
 informing
 plugin
 of
+"
+"
 CSS
 Zoom
 Factor
@@ -4165,6 +4171,8 @@ nsNPAPIPluginInstance
 informing
 plugin
 of
+"
+"
 private
 mode
 state

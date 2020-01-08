@@ -102,11 +102,12 @@ define
 NS_DOM_BLOB_IID
 \
 {
+\
 0x648c2a83
 0xbdb1
 0x4a7d
-\
 {
+\
 0xb5
 0x0a
 0xca
@@ -115,7 +116,9 @@ NS_DOM_BLOB_IID
 0x87
 0x45
 0xc2
+\
 }
+\
 }
 class
 Blob

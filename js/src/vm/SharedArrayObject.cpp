@@ -112,6 +112,12 @@ using
 mozilla
 :
 :
+CheckedInt
+;
+using
+mozilla
+:
+:
 Maybe
 ;
 using
@@ -119,12 +125,6 @@ mozilla
 :
 :
 Nothing
-;
-using
-mozilla
-:
-:
-CheckedInt
 ;
 using
 namespace

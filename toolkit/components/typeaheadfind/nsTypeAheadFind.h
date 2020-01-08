@@ -118,7 +118,6 @@ Selection
 #
 define
 TYPEAHEADFIND_NOTFOUND_WAV_URL
-\
 "
 chrome
 :

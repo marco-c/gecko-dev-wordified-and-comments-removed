@@ -119,12 +119,10 @@ NS_TREECOLUMN_IMPL_CID
 /
 \
 0x02cd1963
-\
 0x4b5d
-\
 0x4a6c
-\
 {
+\
 0x92
 0x23
 0x81
@@ -133,6 +131,7 @@ NS_TREECOLUMN_IMPL_CID
 0xde
 0x93
 0xa3
+\
 }
 \
 }

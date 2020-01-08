@@ -179,11 +179,12 @@ define
 NS_PK11TOKENDB_CID
 \
 {
+\
 0xb084a2ce
 0x1dd1
 0x11b2
-\
 {
+\
 0xbf
 0x10
 0x83
@@ -192,7 +193,9 @@ NS_PK11TOKENDB_CID
 0xe0
 0x65
 0xcc
+\
 }
+\
 }
 #
 endif

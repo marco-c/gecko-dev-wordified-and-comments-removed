@@ -10,7 +10,6 @@ MOZ_ARRAY_LENGTH
 (
 array_
 )
-\
 (
 sizeof
 (

@@ -949,10 +949,12 @@ define
 NS_REMOTESERVICE_CID
 \
 {
+\
 0xc0773e90
 0x5799
 0x4eff
 {
+\
 0xad
 0x3
 0x3e
@@ -961,7 +963,9 @@ NS_REMOTESERVICE_CID
 0x56
 0x24
 0xac
+\
 }
+\
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (

@@ -32,11 +32,12 @@ define
 NETWORKINFOSERVICE_CID
 \
 {
+\
 0x296d0900
 0xf8ef
 0x4df0
-\
 {
+\
 0x9c
 0x35
 0xdb
@@ -45,7 +46,9 @@ NETWORKINFOSERVICE_CID
 0xab
 0xc5
 0x8d
+\
 }
+\
 }
 namespace
 mozilla

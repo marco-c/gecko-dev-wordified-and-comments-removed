@@ -905,6 +905,8 @@ nsAppFileLocationProvider
 GetFile
 (
 NS_ENV_PLUGINS_DIR
+"
+"
 .
 .
 .

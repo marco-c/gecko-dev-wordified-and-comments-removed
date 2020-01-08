@@ -627,7 +627,6 @@ template
 \
 inline
 T
-\
 js
 :
 :
@@ -781,7 +780,6 @@ template
 \
 inline
 void
-\
 js
 :
 :

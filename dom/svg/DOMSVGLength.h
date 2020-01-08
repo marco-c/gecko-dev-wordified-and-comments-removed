@@ -63,10 +63,12 @@ define
 MOZILLA_DOMSVGLENGTH_IID
 \
 {
+\
 0xA8468350
 0x7F7B
 0x4976
 {
+\
 0x9A
 0x7E
 0x37
@@ -75,7 +77,9 @@ MOZILLA_DOMSVGLENGTH_IID
 0xDA
 0xDF
 0x9A
+\
 }
+\
 }
 #
 define

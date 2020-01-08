@@ -119,7 +119,6 @@ EMPTY_DATA_
 \
 struct
 Data
-\
 {
 \
 static
@@ -144,7 +143,6 @@ Data
 :
 public
 DATA_TYPE
-\
 {
 \
 static

@@ -10313,6 +10313,8 @@ include
 magic
 GeneratorObject
 resumeIndex
+"
+"
 values
 "
 )

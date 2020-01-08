@@ -40,11 +40,12 @@ define
 NS_HTMLUNKNOWNELEMENT_IID
 \
 {
+\
 0xc09e665b
 0x3876
 0x40dd
-\
 {
+\
 0x85
 0x28
 0x44
@@ -53,7 +54,9 @@ NS_HTMLUNKNOWNELEMENT_IID
 0xd4
 0x58
 0xf2
+\
 }
+\
 }
 class
 HTMLUnknownElement

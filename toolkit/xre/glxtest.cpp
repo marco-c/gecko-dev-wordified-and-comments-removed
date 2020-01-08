@@ -297,6 +297,8 @@ error_code
 =
 %
 d
+"
+"
 request_code
 =
 %

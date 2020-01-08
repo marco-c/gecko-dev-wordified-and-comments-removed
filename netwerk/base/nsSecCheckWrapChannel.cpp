@@ -63,6 +63,7 @@ CHANNELWRAPPERLOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gChannelWrapperLog

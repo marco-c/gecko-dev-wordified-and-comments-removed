@@ -621,6 +621,8 @@ file
 '
 s
 length
+"
+"
 -
 -
 "
@@ -640,6 +642,8 @@ more
 than
 N
 bytes
+"
+"
 of
 "
 "
@@ -715,6 +719,8 @@ e
 those
 taking
 up
+"
+"
 less
 "
 "

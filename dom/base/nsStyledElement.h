@@ -43,11 +43,12 @@ define
 NS_STYLED_ELEMENT_IID
 \
 {
+\
 0xacbd9ea6
 0x15aa
 0x4f37
-\
 {
+\
 0x8c
 0xe0
 0x35
@@ -56,7 +57,9 @@ NS_STYLED_ELEMENT_IID
 0x21
 0xca
 0xe9
+\
 }
+\
 }
 typedef
 mozilla

@@ -30,11 +30,12 @@ define
 NS_ICORSPREFLIGHTCALLBACK_IID
 \
 {
+\
 0x3758cfbb
 0x259f
 0x4074
-\
 {
+\
 0xa8
 0xc0
 0x98
@@ -43,7 +44,9 @@ NS_ICORSPREFLIGHTCALLBACK_IID
 0x3c
 0xc0
 0xe3
+\
 }
+\
 }
 class
 nsICorsPreflightCallback

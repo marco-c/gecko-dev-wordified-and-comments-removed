@@ -388,7 +388,6 @@ id
 =
 0
 )
-\
 initValueProfile
 (
 &
@@ -586,7 +585,6 @@ id
 =
 0
 )
-\
 initValueProfile
 (
 &
@@ -664,7 +662,6 @@ id
 =
 0
 )
-\
 initValueProfile
 (
 &
@@ -777,7 +774,6 @@ id
 =
 0
 )
-\
 initValueProfile
 (
 (
@@ -858,7 +854,6 @@ id
 =
 0
 )
-\
 initHistProfile
 (
 (
@@ -890,7 +885,6 @@ _jvprof
 id
 v
 )
-\
 profileValue
 (
 (
@@ -910,7 +904,6 @@ _jhprof
 id
 v
 )
-\
 histValue
 (
 (

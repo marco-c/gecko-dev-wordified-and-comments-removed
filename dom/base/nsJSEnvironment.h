@@ -707,11 +707,12 @@ define
 NS_IJSARGARRAY_IID
 \
 {
+\
 0xb6acdac8
 0xf5c6
 0x432c
-\
 {
+\
 0xa8
 0x6e
 0x33
@@ -720,7 +721,9 @@ NS_IJSARGARRAY_IID
 0xb0
 0xcd
 0xdc
+\
 }
+\
 }
 class
 nsIJSArgArray

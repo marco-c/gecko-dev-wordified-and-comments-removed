@@ -602,6 +602,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gUrlClassifierDbServiceLog
@@ -619,6 +620,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gUrlClassifierDbServiceLog
@@ -4971,6 +4973,8 @@ a
 valid
 completer
 ignoring
+"
+"
 partial
 match
 .
@@ -6399,6 +6403,8 @@ table
 s
 full
 hash
+"
+"
 %
 s
 ]

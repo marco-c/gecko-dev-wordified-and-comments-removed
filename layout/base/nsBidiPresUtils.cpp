@@ -2436,6 +2436,8 @@ parent
 s
 parent
 in
+"
+"
 nsBidiPresUtils
 :
 :
@@ -2903,6 +2905,8 @@ on
 PresContext
 before
 calling
+"
+"
 nsBidiPresUtils
 :
 :
@@ -3599,6 +3603,8 @@ frameCount
 =
 %
 d
+"
+"
 runCount
 =
 %

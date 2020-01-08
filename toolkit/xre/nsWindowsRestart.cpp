@@ -3,6 +3,7 @@ ifdef
 nsWindowsRestart_cpp
 #
 error
+\
 "
 nsWindowsRestart
 .

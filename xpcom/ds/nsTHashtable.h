@@ -1728,7 +1728,7 @@ using
 Base
 :
 :
-GetGeneration
+Clear
 ;
 using
 Base
@@ -1740,13 +1740,13 @@ using
 Base
 :
 :
-IsEmpty
+GetGeneration
 ;
 using
 Base
 :
 :
-Clear
+IsEmpty
 ;
 using
 Base

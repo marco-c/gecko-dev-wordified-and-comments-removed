@@ -171,6 +171,8 @@ stencil
 renderable
 was
 :
+"
+"
 0x
 %
 04x

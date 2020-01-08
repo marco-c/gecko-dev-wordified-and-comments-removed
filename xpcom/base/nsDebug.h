@@ -203,6 +203,7 @@ NS_WARNING_ASSERTION
 _expr
 _msg
 )
+\
 do
 {
 /
@@ -210,6 +211,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -280,6 +282,7 @@ NS_ASSERTION
 expr
 str
 )
+\
 do
 {
 /
@@ -287,6 +290,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -337,6 +341,7 @@ NS_ERROR
 (
 str
 )
+\
 do
 {
 /
@@ -344,6 +349,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -377,6 +383,7 @@ NS_WARNING
 (
 str
 )
+\
 do
 {
 /
@@ -384,6 +391,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -430,6 +438,7 @@ define
 NS_BREAK
 (
 )
+\
 do
 {
 /
@@ -437,6 +446,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -475,6 +485,7 @@ STATIC_PRECONDITION_ASSUME
 (
 COND
 )
+\
 __attribute__
 (
 (
@@ -507,6 +518,7 @@ STATIC_POSTCONDITION_ASSUME
 (
 COND
 )
+\
 __attribute__
 (
 (
@@ -593,10 +605,10 @@ COND
 unused
 )
 )
-\
 int
 STATIC_PASTE1
 (
+\
 assume_static_
 __COUNTER__
 )
@@ -628,10 +640,10 @@ COND
 unused
 )
 )
-\
 int
 STATIC_PASTE1
 (
+\
 assert_static_runtime_
 __COUNTER__
 )
@@ -686,6 +698,7 @@ STATIC_ASSUME
 (
 COND
 )
+\
 do
 {
 /
@@ -693,6 +706,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -704,6 +718,7 @@ STATIC_ASSERT_RUNTIME
 (
 COND
 )
+\
 do
 {
 /
@@ -711,6 +726,7 @@ do
 nothing
 *
 /
+\
 }
 while
 (
@@ -785,7 +801,6 @@ NS_ENSURE_FALSE
 x
 ret
 )
-\
 NS_ENSURE_TRUE
 (
 !
@@ -847,7 +862,6 @@ NS_ENSURE_FALSE_VOID
 (
 x
 )
-\
 NS_ENSURE_TRUE_VOID
 (
 !
@@ -887,6 +901,7 @@ mozilla
 :
 Smprintf
 (
+\
 "
 NS_ENSURE_SUCCESS
 (
@@ -905,11 +920,11 @@ result
 %
 "
 PRIX32
+\
 #
 res
 #
 ret
-\
 static_cast
 <
 uint32_t
@@ -947,6 +962,7 @@ mozilla
 :
 Smprintf
 (
+\
 "
 NS_ENSURE_SUCCESS_VOID
 (
@@ -963,9 +979,9 @@ result
 %
 "
 PRIX32
+\
 #
 res
-\
 static_cast
 <
 uint32_t
@@ -1139,7 +1155,6 @@ NS_ENSURE_ARG
 (
 arg
 )
-\
 NS_ENSURE_TRUE
 (
 arg
@@ -1151,7 +1166,6 @@ NS_ENSURE_ARG_POINTER
 (
 arg
 )
-\
 NS_ENSURE_TRUE
 (
 arg
@@ -1230,7 +1244,6 @@ NS_ENSURE_STATE
 (
 state
 )
-\
 NS_ENSURE_TRUE
 (
 state
@@ -1273,6 +1286,7 @@ MOZ_PROFILING
 )
 &
 &
+\
 !
 defined
 (

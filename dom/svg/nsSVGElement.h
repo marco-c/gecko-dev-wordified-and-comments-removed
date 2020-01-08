@@ -2443,7 +2443,6 @@ _elementName
 )
 \
 nsresult
-\
 NS_NewSVG
 #
 #
@@ -2452,6 +2451,7 @@ _elementName
 #
 Element
 (
+\
 nsIContent
 *
 *
@@ -2471,7 +2471,6 @@ NodeInfo
 &
 aNodeInfo
 )
-\
 {
 \
 RefPtr
@@ -2557,7 +2556,6 @@ _elementName
 )
 \
 nsresult
-\
 NS_NewSVG
 #
 #
@@ -2566,6 +2564,7 @@ _elementName
 #
 Element
 (
+\
 nsIContent
 *
 *
@@ -2585,7 +2584,6 @@ NodeInfo
 &
 aNodeInfo
 )
-\
 {
 \
 RefPtr
@@ -2683,7 +2681,6 @@ _elementName
 )
 \
 nsresult
-\
 NS_NewSVG
 #
 #
@@ -2692,6 +2689,7 @@ _elementName
 #
 Element
 (
+\
 nsIContent
 *
 *
@@ -2720,7 +2718,6 @@ dom
 FromParser
 aFromParser
 )
-\
 {
 \
 RefPtr

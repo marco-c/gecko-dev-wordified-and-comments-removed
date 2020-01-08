@@ -247,7 +247,7 @@ using
 mozilla
 :
 :
-NumbersAreIdentical
+DebugOnly
 ;
 using
 mozilla
@@ -277,7 +277,7 @@ using
 mozilla
 :
 :
-DebugOnly
+NumbersAreIdentical
 ;
 #
 ifdef

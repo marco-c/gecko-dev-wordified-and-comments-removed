@@ -239,6 +239,7 @@ RuntimeClass_Windows_UI_ViewManagement_UIViewSettings
 #
 define
 RuntimeClass_Windows_UI_ViewManagement_UIViewSettings
+\
 L
 "
 Windows

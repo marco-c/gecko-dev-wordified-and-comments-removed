@@ -433,6 +433,7 @@ ENTRY
 (
 _msg
 )
+\
 {
 #
 _msg
@@ -5534,6 +5535,8 @@ AsyncFaviconDataReady
 OnComplete
 failed
 in
+"
+"
 CreateDrawTargetForData
 "
 ;

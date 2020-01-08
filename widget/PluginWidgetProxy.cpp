@@ -127,6 +127,7 @@ nsIWidget
 #
 define
 ENSURE_CHANNEL
+\
 do
 {
 \
@@ -632,6 +633,8 @@ received
 request
 for
 unsupported
+"
+"
 data
 type
 .

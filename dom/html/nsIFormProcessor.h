@@ -41,10 +41,12 @@ define
 NS_FORMPROCESSOR_CID
 \
 {
+\
 0x0ae53c0f
 0x8ea2
 0x4916
 {
+\
 0xbe
 0xdc
 0x71
@@ -53,7 +55,9 @@ NS_FORMPROCESSOR_CID
 0xc3
 0xe1
 0x85
+\
 }
+\
 }
 #
 define
@@ -76,11 +80,12 @@ define
 NS_IFORMPROCESSOR_IID
 \
 {
+\
 0xbf8b1986
 0x8800
 0x424b
-\
 {
+\
 0xb1
 0xe5
 0x7a
@@ -89,7 +94,9 @@ NS_IFORMPROCESSOR_IID
 0xb9
 0xe7
 0x6c
+\
 }
+\
 }
 class
 nsIFormProcessor

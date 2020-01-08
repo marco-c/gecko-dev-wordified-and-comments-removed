@@ -5632,6 +5632,8 @@ ReadSegments
 %
 p
 OnReadSegmentError
+"
+"
 %
 "
 PRIx32
@@ -6063,6 +6065,8 @@ writer
 %
 p
 Error
+"
+"
 %
 "
 PRIx32
@@ -6116,6 +6120,8 @@ total
 of
 ciphered
 data
+"
+"
 buffered
 \
 n
@@ -6286,6 +6292,8 @@ of
 ciphered
 data
 buffered
+"
+"
 rv
 =
 %
@@ -9001,6 +9009,7 @@ FWD_TS_PTR
 fx
 ts
 )
+\
 NS_IMETHODIMP
 \
 SocketTransportShim
@@ -9030,6 +9039,7 @@ FWD_TS_ADDREF
 fx
 ts
 )
+\
 NS_IMETHODIMP
 \
 SocketTransportShim
@@ -9060,6 +9070,7 @@ FWD_TS
 fx
 ts
 )
+\
 NS_IMETHODIMP
 \
 SocketTransportShim

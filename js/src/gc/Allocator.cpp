@@ -1302,6 +1302,7 @@ allocKind
 traceKind
 type
 sizedType
+\
 bgfinal
 nursery
 compact
@@ -1322,6 +1323,7 @@ NoGC
 JSContext
 *
 cx
+\
 InitialHeap
 heap
 )
@@ -1342,6 +1344,7 @@ CanGC
 JSContext
 *
 cx
+\
 InitialHeap
 heap
 )
@@ -1519,6 +1522,7 @@ allocKind
 traceKind
 type
 sizedType
+\
 bgFinal
 nursery
 compact

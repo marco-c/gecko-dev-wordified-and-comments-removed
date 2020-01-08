@@ -529,6 +529,8 @@ to
 main
 thread
 :
+"
+"
 %
 d
 \
@@ -5155,6 +5157,8 @@ nsUpdateProcessor
 FixUpdateDirectoryPerms
 :
 :
+"
+"
 FixUpdateDirectoryPermsRunnable
 :
 :

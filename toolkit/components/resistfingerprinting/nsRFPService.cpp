@@ -276,6 +276,7 @@ reduceTimerPrecision
 #
 define
 RFP_TIMER_VALUE_PREF
+\
 "
 privacy
 .
@@ -292,6 +293,7 @@ RFP_TIMER_VALUE_DEFAULT
 #
 define
 RFP_JITTER_VALUE_PREF
+\
 "
 privacy
 .
@@ -308,6 +310,7 @@ true
 #
 define
 RFP_SPOOFED_FRAMES_PER_SEC_PREF
+\
 "
 privacy
 .
@@ -318,6 +321,7 @@ video_frames_per_sec
 #
 define
 RFP_SPOOFED_DROPPED_RATIO_PREF
+\
 "
 privacy
 .
@@ -328,6 +332,7 @@ video_dropped_ratio
 #
 define
 RFP_TARGET_VIDEO_RES_PREF
+\
 "
 privacy
 .
@@ -1952,6 +1957,8 @@ with
 (
 %
 lli
+"
+"
 Originally
 %
 .
@@ -3259,6 +3266,7 @@ _modifier
 \
 {
 KEY_NAME_INDEX_USE_STRING
+\
 NS_LITERAL_STRING
 (
 key_
@@ -3287,6 +3295,7 @@ KEY_NAME_INDEX_
 #
 #
 keyNameIdx_
+\
 EmptyString
 (
 )

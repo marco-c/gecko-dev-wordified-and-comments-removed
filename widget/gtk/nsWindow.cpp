@@ -7170,6 +7170,8 @@ GetNativeData
 NS_NATIVE_SHAREABLE_WINDOW
 is
 not
+"
+"
 handled
 on
 Wayland
@@ -8205,7 +8207,6 @@ CAPS_LOCK
 #
 define
 WANT_PAINT_FLASHING
-\
 (
 debug_WantPaintFlashing
 (
@@ -27842,6 +27843,8 @@ SetCompositorWidgetDelegate
 called
 with
 a
+"
+"
 non
 -
 PlatformCompositorWidgetDelegate
@@ -30484,6 +30487,8 @@ have
 any
 mContainer
 for
+"
+"
 drawing
 !
 "

@@ -243,6 +243,7 @@ ZipCentral
 #
 define
 ZIPCENTRAL_SIZE
+\
 (
 4
 +

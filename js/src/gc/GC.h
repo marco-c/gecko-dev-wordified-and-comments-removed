@@ -95,6 +95,7 @@ allocKind
 traceKind
 type
 sizedType
+\
 bgFinal
 nursery
 compact
@@ -103,6 +104,7 @@ compact
 template
 <
 >
+\
 struct
 MapTypeToFinalizeKind
 <

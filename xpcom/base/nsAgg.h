@@ -39,7 +39,6 @@ NS_DECL_AGGREGATED_HELPER
 public
 :
 \
-\
 /
 *
 *
@@ -197,7 +196,6 @@ InnerObject
 private
 :
 \
-\
 /
 *
 You
@@ -220,7 +218,6 @@ methods
 /
 \
 nsresult
-\
 AggregatedQueryInterface
 (
 const
@@ -245,7 +242,6 @@ nsISupports
 public
 :
 \
-\
 Internal
 (
 )
@@ -260,12 +256,12 @@ const
 nsIID
 &
 aIID
+\
 void
 *
 *
 aInstancePtr
 )
-\
 override
 ;
 \
@@ -308,6 +304,7 @@ nsISupports
 *
 MOZ_UNSAFE_REF
 (
+\
 "
 fOuter
 can
@@ -357,7 +354,6 @@ macros
 .
 "
 )
-\
 fOuter
 ;
 \
@@ -368,7 +364,6 @@ fAggregated
 \
 public
 :
-\
 #
 define
 NS_DECL_AGGREGATED_CYCLE_COLLECTION_CLASS
@@ -382,7 +377,6 @@ NS_CYCLE_COLLECTION_INNERCLASS
 :
 public
 nsXPCOMCycleCollectionParticipant
-\
 {
 \
 public
@@ -423,6 +417,7 @@ override
 NS_IMETHOD
 TraverseNative
 (
+\
 void
 *
 p
@@ -430,7 +425,6 @@ nsCycleCollectionTraversalCallback
 &
 cb
 )
-\
 override
 ;
 \
@@ -450,7 +444,6 @@ void
 p
 )
 override
-\
 {
 \
 NS_CYCLE_COLLECTION_CLASSNAME
@@ -459,9 +452,9 @@ _class
 )
 :
 :
-\
 Downcast
 (
+\
 static_cast
 <
 nsISupports
@@ -471,6 +464,7 @@ nsISupports
 p
 )
 )
+\
 -
 >
 DeleteCycleCollectable
@@ -489,7 +483,6 @@ nsISupports
 *
 s
 )
-\
 {
 \
 return
@@ -525,9 +518,7 @@ _class
 *
 p
 )
-\
 {
-\
 return
 p
 -
@@ -536,7 +527,6 @@ InnerObject
 (
 )
 ;
-\
 }
 \
 static
@@ -545,7 +535,6 @@ nsXPCOMCycleCollectionParticipant
 GetParticipant
 (
 )
-\
 {
 \
 return
@@ -625,7 +614,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 _class
@@ -728,7 +716,6 @@ Release
 (
 void
 )
-\
 {
 \
 _class
@@ -843,7 +830,6 @@ mRefCnt
 ;
 \
 }
-\
 #
 define
 NS_IMPL_CYCLE_COLLECTING_AGGREGATED
@@ -873,7 +859,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 _class
@@ -967,7 +952,6 @@ Release
 (
 void
 )
-\
 {
 \
 _class
@@ -1052,13 +1036,10 @@ DeleteCycleCollectable
 (
 void
 )
-\
 {
-\
 delete
 this
 ;
-\
 }
 #
 define
@@ -1083,7 +1064,6 @@ void
 *
 aInstancePtr
 )
-\
 {
 \
 return
@@ -1112,9 +1092,7 @@ AddRef
 (
 void
 )
-\
 {
-\
 return
 fOuter
 -
@@ -1123,7 +1101,6 @@ AddRef
 (
 )
 ;
-\
 }
 \
 \
@@ -1139,9 +1116,7 @@ Release
 (
 void
 )
-\
 {
-\
 return
 fOuter
 -
@@ -1150,7 +1125,6 @@ Release
 (
 )
 ;
-\
 }
 \
 \
@@ -1173,7 +1147,6 @@ void
 *
 aInstancePtr
 )
-\
 {
 \
 _class
@@ -1213,7 +1186,6 @@ aInstancePtr
 ;
 \
 }
-\
 #
 define
 NS_AGGREGATED_CYCLECOLLECTIONPARTICIPANT_IID
@@ -1221,12 +1193,10 @@ NS_AGGREGATED_CYCLECOLLECTIONPARTICIPANT_IID
 {
 \
 0x32889b7e
-\
 0xe4fe
-\
 0x43f4
-\
 {
+\
 0x85
 0x31
 0xb5
@@ -1235,6 +1205,7 @@ NS_AGGREGATED_CYCLECOLLECTIONPARTICIPANT_IID
 0xa2
 0xe9
 0xfc
+\
 }
 \
 }
@@ -1389,7 +1360,6 @@ _class
 )
 \
 nsresult
-\
 _class
 :
 :
@@ -1397,12 +1367,12 @@ AggregatedQueryInterface
 (
 REFNSIID
 aIID
+\
 void
 *
 *
 aInstancePtr
 )
-\
 {
 \
 NS_ASSERTION
@@ -1428,7 +1398,6 @@ if
 !
 aInstancePtr
 )
-\
 return
 NS_ERROR_NULL_POINTER
 ;
@@ -1475,14 +1444,14 @@ Equals
 IsPartOfAggregated
 (
 )
-?
 \
+?
 NS_GET_IID
 (
 nsCycleCollectionParticipant
 )
-:
 \
+:
 NS_GET_IID
 (
 nsAggregatedCycleCollectionParticipant
@@ -1515,8 +1484,8 @@ _class
 :
 :
 TraverseNative
-\
 (
+\
 void
 *
 p
@@ -1524,7 +1493,6 @@ nsCycleCollectionTraversalCallback
 &
 cb
 )
-\
 {
 \
 nsISupports
@@ -1608,7 +1576,6 @@ _InstanceClass
 \
 static
 nsresult
-\
 _InstanceClass
 #
 #
@@ -1617,15 +1584,14 @@ Constructor
 nsISupports
 *
 aOuter
+\
 REFNSIID
 aIID
-\
 void
 *
 *
 aResult
 )
-\
 {
 \
 *
@@ -1717,7 +1683,6 @@ rv
 ;
 \
 }
-\
 #
 define
 NS_GENERIC_AGGREGATED_CONSTRUCTOR_INIT
@@ -1728,7 +1693,6 @@ _InitMethod
 \
 static
 nsresult
-\
 _InstanceClass
 #
 #
@@ -1737,15 +1701,14 @@ Constructor
 nsISupports
 *
 aOuter
+\
 REFNSIID
 aIID
-\
 void
 *
 *
 aResult
 )
-\
 {
 \
 *
@@ -1870,6 +1833,5 @@ rv
 ;
 \
 }
-\
 #
 endif

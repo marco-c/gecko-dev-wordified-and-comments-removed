@@ -1072,6 +1072,7 @@ store
 #
 define
 NS_FRAME_OVERFLOW_NONE
+\
 0x00000000
 /
 /
@@ -1084,6 +1085,7 @@ rects
 #
 define
 NS_FRAME_OVERFLOW_LARGE
+\
 0x000000ff
 /
 /
@@ -3469,9 +3471,9 @@ descriptor
 mozilla
 :
 :
-\
 FramePropertyDescriptor
 <
+\
 type
 >
 :
@@ -3610,6 +3612,7 @@ property
 "
 #
 prop
+\
 "
 should
 never
@@ -6914,7 +6917,6 @@ Frame
 (
 )
 const
-\
 {
 \
 return

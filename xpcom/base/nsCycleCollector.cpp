@@ -14406,6 +14406,8 @@ CycleCollectedJSRuntime
 in
 cycle
 collector
+"
+"
 before
 a
 runtime
@@ -14550,6 +14552,8 @@ pointer
 must
 QI
 to
+"
+"
 nsXPCOMCycleCollectionParticipant
 "
 )
@@ -15035,6 +15039,8 @@ freed
 d
 ref
 counted
+"
+"
 and
 %
 d

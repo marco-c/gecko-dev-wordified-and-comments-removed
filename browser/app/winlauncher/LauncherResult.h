@@ -111,9 +111,9 @@ mozilla
 :
 LauncherError
 (
+\
 __FILE__
 __LINE__
-\
 :
 :
 mozilla
@@ -148,9 +148,9 @@ mozilla
 :
 LauncherError
 (
+\
 __FILE__
 __LINE__
-\
 :
 :
 mozilla
@@ -185,6 +185,7 @@ mozilla
 :
 LauncherError
 (
+\
 __FILE__
 __LINE__
 \
@@ -227,9 +228,9 @@ mozilla
 :
 LauncherError
 (
+\
 __FILE__
 __LINE__
-\
 :
 :
 mozilla
@@ -265,9 +266,9 @@ mozilla
 :
 LauncherError
 (
+\
 __FILE__
 __LINE__
-\
 :
 :
 mozilla
@@ -288,7 +289,6 @@ LAUNCHER_ERROR_FROM_RESULT
 (
 result
 )
-\
 :
 :
 mozilla

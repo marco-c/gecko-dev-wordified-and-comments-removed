@@ -84,7 +84,6 @@ final
 :
 public
 HTMLEditorCommandBase
-\
 {
 \
 public

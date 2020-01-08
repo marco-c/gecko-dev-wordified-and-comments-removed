@@ -485,7 +485,6 @@ slots
 mMutationObservers
 nsIMutationObserver
 1
-\
 func_
 params_
 )

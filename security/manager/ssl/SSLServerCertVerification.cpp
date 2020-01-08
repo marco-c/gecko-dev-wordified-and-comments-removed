@@ -884,13 +884,16 @@ name
 value
 nss_name
 )
+\
 case
 nss_name
 :
+\
 probeValue
 =
 value
 ;
+\
 break
 ;
 MOZILLA_PKIX_MAP_LIST

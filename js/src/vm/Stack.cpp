@@ -9792,6 +9792,8 @@ geckoProfiler
 not
 enabled
 for
+"
+"
 runtime
 .
 "

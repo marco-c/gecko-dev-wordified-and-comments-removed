@@ -4457,7 +4457,6 @@ _
 ecmaPow
 MathPow
 )
-\
 #
 define
 DEFINE_UNARY_FLOAT_WRAPPER

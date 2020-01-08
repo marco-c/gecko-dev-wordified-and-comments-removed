@@ -389,6 +389,8 @@ having
 called
 Destroy
 on
+"
+"
 the
 PresShell
 !
@@ -1267,6 +1269,8 @@ floating
 views
 that
 have
+"
+"
 floating
 parents
 "
@@ -1410,6 +1414,8 @@ the
 widget
 '
 s
+"
+"
 view
 (
 %

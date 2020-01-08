@@ -23,11 +23,12 @@ define
 NS_IFRAMEENUMERATOR_IID
 \
 {
+\
 0x7c633f5d
 0x91eb
 0x494e
-\
 {
+\
 0xa1
 0x40
 0x17
@@ -36,7 +37,9 @@ NS_IFRAMEENUMERATOR_IID
 0x4c
 0x23
 0xd3
+\
 }
+\
 }
 class
 nsIFrameEnumerator
@@ -119,10 +122,12 @@ define
 NS_IFRAMETRAVERSAL_IID
 \
 {
+\
 0xd33fe76c
 0x207c
 0x4359
 {
+\
 0xa3
 0x15
 0x8e
@@ -131,7 +136,9 @@ NS_IFRAMETRAVERSAL_IID
 0xcf
 0x80
 0xe5
+\
 }
+\
 }
 class
 nsIFrameTraversal

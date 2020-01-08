@@ -304,6 +304,8 @@ because
 ProfilerScreenshots
 thread
 creation
+"
+"
 failed
 "
 )

@@ -7183,6 +7183,8 @@ from
 the
 cache
 in
+"
+"
 RemoveEntriesFromPrincipal
 (
 )
@@ -7595,6 +7597,8 @@ from
 the
 cache
 in
+"
+"
 ClearCacheForControlledDocument
 (
 )
@@ -10190,13 +10194,13 @@ aRequest
 #
 define
 LOAD_FLAGS_CACHE_MASK
+\
 (
 nsIRequest
 :
 :
 LOAD_BYPASS_CACHE
 |
-\
 nsIRequest
 :
 :
@@ -10205,13 +10209,13 @@ LOAD_FROM_CACHE
 #
 define
 LOAD_FLAGS_VALIDATE_MASK
+\
 (
 nsIRequest
 :
 :
 VALIDATE_ALWAYS
 |
-\
 nsIRequest
 :
 :

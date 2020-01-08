@@ -875,6 +875,7 @@ JS_CODEGEN_X64
 )
 |
 |
+\
 defined
 (
 JS_SIMULATOR_ARM64
@@ -909,6 +910,7 @@ JS_SIMULATOR_MIPS32
 )
 |
 |
+\
 defined
 (
 JS_SIMULATOR_MIPS64
@@ -1222,6 +1224,7 @@ ANDROID
 )
 &
 &
+\
 defined
 (
 __GNUC__

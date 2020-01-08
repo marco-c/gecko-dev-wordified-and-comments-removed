@@ -1675,6 +1675,8 @@ when
 parsing
 %
 s
+"
+"
 (
 %
 p

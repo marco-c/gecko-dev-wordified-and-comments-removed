@@ -5900,8 +5900,8 @@ ruleId
 \
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-winVer
 \
+winVer
 (
 nsAString
 &
@@ -5913,6 +5913,7 @@ GetDeviceVendor
 (
 VendorIntel
 )
+\
 (
 GfxDeviceFamily
 *
@@ -5945,13 +5946,14 @@ IMPLEMENT_INTEL_DRIVER_BLOCKLIST_D2D
 winVer
 devFamily
 driverVer
+\
 ruleId
 )
 \
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-winVer
 \
+winVer
 (
 nsAString
 &
@@ -5963,6 +5965,7 @@ GetDeviceVendor
 (
 VendorIntel
 )
+\
 (
 GfxDeviceFamily
 *
@@ -5979,12 +5982,13 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT2D
+\
 nsIGfxInfo
 :
 :
 FEATURE_BLOCKED_DRIVER_VERSION
-\
 DRIVER_BUILD_ID_LESS_THAN
+\
 driverVer
 ruleId
 )

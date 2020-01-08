@@ -1225,7 +1225,6 @@ aStrokeWidth
 subpathContainsNonMoveTo
 &
 &
-\
 IsValidType
 (
 prevSegType
@@ -1253,6 +1252,7 @@ ApproximateZeroLengthSubpathSquareCaps
 (
 aBuilder
 segStart
+\
 aStrokeWidth
 )
 ;

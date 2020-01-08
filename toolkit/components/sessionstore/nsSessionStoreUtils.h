@@ -37,10 +37,12 @@ define
 NS_SESSIONSTOREUTILS_CID
 \
 {
+\
 0xd713b4be
 0x8285
 0x4cab
 {
+\
 0x9c
 0x0e
 0x0b
@@ -49,7 +51,9 @@ NS_SESSIONSTOREUTILS_CID
 0xbf
 0xb9
 0x3c
+\
 }
+\
 }
 #
 define

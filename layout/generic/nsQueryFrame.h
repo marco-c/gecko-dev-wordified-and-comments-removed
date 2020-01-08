@@ -44,6 +44,7 @@ nsQueryFrame
 FrameIID
 kFrameIID
 =
+\
 nsQueryFrame
 :
 :
@@ -60,7 +61,6 @@ Has_NS_DECL_QUERYFRAME_TARGET
 #
 define
 NS_DECL_QUERYFRAME
-\
 void
 *
 QueryFrame
@@ -88,6 +88,7 @@ FrameIID
 id
 )
 {
+\
 switch
 (
 id
@@ -110,6 +111,7 @@ kFrameIID
 \
 static_assert
 (
+\
 mozilla
 :
 :
@@ -174,12 +176,14 @@ condition
 \
 static_assert
 (
+\
 mozilla
 :
 :
 IsSame
 <
 class
+\
 class
 :
 :
@@ -227,6 +231,7 @@ class
 \
 default
 :
+\
 break
 ;
 \
@@ -249,6 +254,7 @@ NS_QUERYFRAME_TAIL_INHERITANCE_ROOT
 \
 default
 :
+\
 break
 ;
 \

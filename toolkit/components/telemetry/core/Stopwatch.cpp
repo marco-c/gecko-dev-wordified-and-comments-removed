@@ -370,11 +370,12 @@ define
 TIMER_KEYS_IID
 \
 {
+\
 0xef707178
 0x1544
 0x46e2
-\
 {
+\
 0xa3
 0xf5
 0x98
@@ -383,7 +384,9 @@ TIMER_KEYS_IID
 0x60
 0xfd
 0x8f
+\
 }
+\
 }
 class
 TimerKeys

@@ -134,10 +134,12 @@ define
 NS_HTTPCONNECTION_IID
 \
 {
+\
 0x1dcc863e
 0xdb90
 0x4652
 {
+\
 0xa1
 0xfe
 0x13
@@ -146,7 +148,9 @@ NS_HTTPCONNECTION_IID
 0xb5
 0x4e
 0x46
+\
 }
+\
 }
 class
 nsHttpConnection

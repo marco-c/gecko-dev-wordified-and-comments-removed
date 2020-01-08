@@ -4026,6 +4026,8 @@ lastProfilingFrame
 and
 current
 stack
+"
+"
 pointer
 .
 "

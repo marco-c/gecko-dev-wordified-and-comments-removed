@@ -19,10 +19,12 @@ define
 NS_ICHARSETDETECTOR_IID
 \
 {
+\
 0x12bb8f14
 0x2389
 0x11d3
 {
+\
 0xb3
 0xbf
 0x0
@@ -31,7 +33,9 @@ NS_ICHARSETDETECTOR_IID
 0x8a
 0x66
 0x70
+\
 }
+\
 }
 class
 nsICharsetDetector

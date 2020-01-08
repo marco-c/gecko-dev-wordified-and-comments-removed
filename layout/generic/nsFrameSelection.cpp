@@ -8901,6 +8901,8 @@ childContent
 =
 %
 p
+"
+"
 \
 n
 "
@@ -9000,6 +9002,8 @@ curColIndex
 =
 %
 d
+"
+"
 startColIndex
 =
 %
@@ -9570,6 +9574,8 @@ mDragSelectingCells
 =
 %
 d
+"
+"
 mStartSelectedCell
 =
 %
@@ -9706,6 +9712,8 @@ selection
 on
 mouseup
 :
+"
+"
 mAppendStartSelectedCell
 =
 %
@@ -9751,6 +9759,8 @@ HandleTableSelection
 Unselecting
 mUnselectCellOnMouseUp
 ;
+"
+"
 rangeCount
 =
 %
@@ -9950,6 +9960,8 @@ from
 multi
 -
 cell
+"
+"
 selection
 \
 n

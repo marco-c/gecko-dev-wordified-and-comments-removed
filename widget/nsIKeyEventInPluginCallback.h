@@ -25,11 +25,12 @@ define
 NS_IKEYEVENTINPLUGINCALLBACK_IID
 \
 {
+\
 0x543c5a8a
 0xc50e
 0x4cf9
-\
 {
+\
 0xa6
 0xba
 0x29
@@ -38,7 +39,9 @@ NS_IKEYEVENTINPLUGINCALLBACK_IID
 0xa5
 0x47
 0x07
+\
 }
+\
 }
 class
 nsIKeyEventInPluginCallback

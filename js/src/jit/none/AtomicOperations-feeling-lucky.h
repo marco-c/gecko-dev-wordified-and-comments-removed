@@ -59,6 +59,7 @@ __ppc64le__
 )
 |
 |
+\
 defined
 (
 __PPC64LE__

@@ -281,7 +281,6 @@ _class
 \
 Expr
 *
-\
 _class
 :
 :
@@ -290,17 +289,13 @@ getSubExprAt
 uint32_t
 aPos
 )
-\
 {
-\
 return
 nullptr
 ;
-\
 }
 \
 void
-\
 _class
 :
 :
@@ -312,7 +307,6 @@ Expr
 *
 aExpr
 )
-\
 {
 \
 MOZ_ASSERT_UNREACHABLE
@@ -336,7 +330,6 @@ _class
 \
 txPattern
 *
-\
 _class
 :
 :
@@ -345,17 +338,13 @@ getSubPatternAt
 uint32_t
 aPos
 )
-\
 {
-\
 return
 nullptr
 ;
-\
 }
 \
 void
-\
 _class
 :
 :
@@ -367,7 +356,6 @@ txPattern
 *
 aPattern
 )
-\
 {
 \
 MOZ_ASSERT_UNREACHABLE

@@ -1178,6 +1178,8 @@ of
 the
 last
 character
+"
+"
 with
 its
 next

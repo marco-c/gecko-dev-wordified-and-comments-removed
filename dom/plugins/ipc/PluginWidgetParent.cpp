@@ -112,6 +112,7 @@ plugins
 #
 define
 ENSURE_CHANNEL
+\
 {
 \
 if

@@ -1276,7 +1276,6 @@ sIDRequestStateIdentity64
 #
 define
 REQUEST_HEADER_FIELDS
-\
 mach_msg_header_t
 header
 ;
@@ -1347,7 +1346,6 @@ THREAD_STATE_MAX
 #
 define
 REQUEST_TRAILER_FIELDS
-\
 mach_msg_trailer_t
 trailer
 ;
@@ -1363,7 +1361,6 @@ ExceptionRequest
 #
 #
 bits
-\
 {
 \
 REQUEST_HEADER_FIELDS
@@ -1379,7 +1376,6 @@ REQUEST_TRAILER_FIELDS
 \
 }
 ;
-\
 #
 define
 EXCEPTION_REQUEST_STATE
@@ -1392,7 +1388,6 @@ ExceptionRequestState
 #
 #
 bits
-\
 {
 \
 REQUEST_HEADER_FIELDS
@@ -1408,7 +1403,6 @@ REQUEST_TRAILER_FIELDS
 \
 }
 ;
-\
 #
 define
 EXCEPTION_REQUEST_STATE_IDENTITY
@@ -1421,7 +1415,6 @@ ExceptionRequestStateIdentity
 #
 #
 bits
-\
 {
 \
 REQUEST_HEADER_FIELDS
@@ -1439,7 +1432,6 @@ REQUEST_TRAILER_FIELDS
 \
 }
 ;
-\
 #
 ifdef
 __MigPackStructs
@@ -1578,6 +1570,7 @@ header
 .
 msgh_size
 =
+\
 static_cast
 <
 mach_msg_size_t
@@ -1732,6 +1725,7 @@ static_cast
 mach_msg_size_t
 >
 (
+\
 sizeof
 (
 dst
@@ -1744,7 +1738,6 @@ dst
 trailer
 )
 -
-\
 sizeof
 (
 dst
@@ -1788,7 +1781,6 @@ bits
 \
 static
 void
-\
 CopyExceptionRequest
 #
 #
@@ -1805,7 +1797,6 @@ bits
 &
 dst
 )
-\
 {
 \
 COPY_REQUEST_COMMON
@@ -1829,16 +1820,15 @@ bits
 \
 static
 void
-\
 CopyExceptionRequestState
 #
 #
 bits
 (
+\
 ExceptionRequest64
 &
 src
-\
 ExceptionRequestState
 #
 #
@@ -1848,14 +1838,12 @@ dst
 \
 thread_state_flavor_t
 flavor
-\
 mach_msg_type_number_t
 stateCount
 \
 thread_state_t
 state
 )
-\
 {
 \
 COPY_REQUEST_COMMON
@@ -1884,16 +1872,15 @@ bits
 \
 static
 void
-\
 CopyExceptionRequestStateIdentity
 #
 #
 bits
 (
+\
 ExceptionRequest64
 &
 src
-\
 ExceptionRequestStateIdentity
 #
 #
@@ -1903,14 +1890,12 @@ dst
 \
 thread_state_flavor_t
 flavor
-\
 mach_msg_type_number_t
 stateCount
 \
 thread_state_t
 state
 )
-\
 {
 \
 COPY_REQUEST_COMMON

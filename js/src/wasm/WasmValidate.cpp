@@ -116,13 +116,13 @@ using
 mozilla
 :
 :
-IsValidUtf8
+CheckedInt32
 ;
 using
 mozilla
 :
 :
-CheckedInt32
+IsValidUtf8
 ;
 using
 mozilla
@@ -2474,6 +2474,7 @@ CHECK
 (
 c
 )
+\
 if
 (
 !
@@ -2484,6 +2485,7 @@ c
 return
 false
 ;
+\
 break
 while
 (

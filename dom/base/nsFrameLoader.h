@@ -239,11 +239,12 @@ define
 NS_FRAMELOADER_IID
 \
 {
+\
 0x297fd0ea
 0x1b4a
 0x4c9a
-\
 {
+\
 0xa4
 0x04
 0xe5
@@ -252,7 +253,9 @@ NS_FRAMELOADER_IID
 0x95
 0x10
 0x50
+\
 }
+\
 }
 class
 nsFrameLoader

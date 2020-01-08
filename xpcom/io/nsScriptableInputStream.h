@@ -39,10 +39,12 @@ define
 NS_SCRIPTABLEINPUTSTREAM_CID
 \
 {
+\
 0x7225c040
 0xa9bf
 0x11d3
 {
+\
 0xa1
 0x97
 0x0
@@ -51,11 +53,14 @@ NS_SCRIPTABLEINPUTSTREAM_CID
 0x1c
 0xaf
 0x44
+\
 }
+\
 }
 #
 define
 NS_SCRIPTABLEINPUTSTREAM_CONTRACTID
+\
 "
 mozilla
 .

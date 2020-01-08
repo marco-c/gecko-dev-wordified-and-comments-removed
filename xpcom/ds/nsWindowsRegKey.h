@@ -48,11 +48,12 @@ define
 NS_WINDOWSREGKEY_CID
 \
 {
+\
 0xa53bc624
 0xd577
 0x4839
-\
 {
+\
 0xb8
 0xec
 0xbb
@@ -61,7 +62,9 @@ NS_WINDOWSREGKEY_CID
 0xa5
 0x2f
 0xf4
+\
 }
+\
 }
 extern
 MOZ_MUST_USE

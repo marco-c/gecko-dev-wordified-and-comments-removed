@@ -40,6 +40,7 @@ PrfDef
 #
 define
 NS_APP_USER_PROFILES_ROOT_DIR
+\
 "
 DefProfRt
 "
@@ -56,6 +57,7 @@ live
 #
 define
 NS_APP_USER_PROFILES_LOCAL_ROOT_DIR
+\
 "
 DefProfLRt
 "
@@ -85,6 +87,7 @@ AChrom
 #
 define
 NS_APP_PLUGINS_DIR
+\
 "
 APlugns
 "
@@ -146,6 +149,7 @@ PrefDL
 #
 define
 NS_APP_PREFS_OVERRIDE_DIR
+\
 "
 PrefDOverride
 "
@@ -190,6 +194,7 @@ cachePDir
 #
 define
 NS_APP_INSTALL_CLEANUP_DIR
+\
 "
 XPIClnupD
 "

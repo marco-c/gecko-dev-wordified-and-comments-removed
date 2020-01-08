@@ -112,11 +112,12 @@ define
 NS_SVG_FE_CID
 \
 {
+\
 0x60483958
 0xd229
 0x4a77
-\
 {
+\
 0x96
 0xb2
 0x62
@@ -125,7 +126,9 @@ NS_SVG_FE_CID
 0x95
 0x1e
 0x0e
+\
 }
+\
 }
 class
 nsSVGFE

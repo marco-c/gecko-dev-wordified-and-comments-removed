@@ -202,10 +202,12 @@ define
 NS_COMMANDLINE_CID
 \
 {
+\
 0x23bcc750
 0xdc20
 0x460b
 {
+\
 0xb2
 0xd4
 0x74
@@ -214,7 +216,9 @@ NS_COMMANDLINE_CID
 0x8d
 0x36
 0x15
+\
 }
+\
 }
 using
 mozilla
@@ -2159,6 +2163,9 @@ command
 line
 handler
 for
+"
+u
+"
 entry
 '
 %

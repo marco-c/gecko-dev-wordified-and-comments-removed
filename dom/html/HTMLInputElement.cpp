@@ -812,6 +812,7 @@ NS_CONTROL_TYPE
 (
 bits
 )
+\
 (
 (
 bits
@@ -819,14 +820,13 @@ bits
 &
 ~
 (
-\
 NS_OUTER_ACTIVATE_EVENT
 |
 NS_ORIGINAL_CHECKED_VALUE
 |
+\
 NS_NO_CONTENT_DISPATCH
 |
-\
 NS_ORIGINAL_INDETERMINATE_VALUE
 )
 )
@@ -1365,12 +1365,10 @@ b513
 /
 \
 0xdc3b3d14
-\
 0x23e2
-\
 0x4479
-\
 {
+\
 0xb5
 0x13
 0x7b
@@ -1379,6 +1377,7 @@ b513
 0x43
 0xe3
 0xa0
+\
 }
 \
 }

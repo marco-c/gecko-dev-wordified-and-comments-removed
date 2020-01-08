@@ -871,9 +871,6 @@ header
 clashing
 with
 a
-free
-(
-)
 #
 include
 "
@@ -923,7 +920,7 @@ mozilla
 gl
 :
 :
-SkiaGLGlue
+GLContextProvider
 ;
 using
 mozilla
@@ -932,7 +929,7 @@ mozilla
 gl
 :
 :
-GLContextProvider
+SkiaGLGlue
 ;
 #
 ifdef
@@ -19949,6 +19946,8 @@ null
 if
 the
 presshell
+"
+"
 is
 being
 destroyed
@@ -24314,7 +24313,6 @@ EqualsLiteral
 cvsop
 )
 )
-\
 comp_op
 =
 CompositionOp
@@ -24615,7 +24613,6 @@ OP_
 #
 op2d
 )
-\
 aOp
 .
 AssignLiteral

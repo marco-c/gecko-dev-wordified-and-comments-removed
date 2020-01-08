@@ -170,7 +170,9 @@ testFilePtr
 \
 fprintf
 (
+\
 stderr
+\
 "
 Must
 specify
@@ -206,6 +208,7 @@ can
 safely
 call
 getenv
+\
 *
 /
 \
@@ -303,7 +306,6 @@ size
 >
 INT32_MAX
 )
-\
 return
 0
 ;
@@ -318,13 +320,13 @@ stream
 nsresult
 rv
 =
+\
 NS_NewByteInputStream
 (
 getter_AddRefs
 (
 stream
 )
-\
 (
 const
 char
@@ -332,6 +334,7 @@ char
 )
 data
 size
+\
 NS_ASSIGNMENT_DEPEND
 )
 ;
@@ -396,7 +399,6 @@ LibFuzzerTest
 #
 #
 moduleName
-\
 )
 ;
 \
@@ -409,6 +411,7 @@ MOZ_LIBFUZZER_INTERFACE_STREAM
 (
 initFunc
 testFunc
+\
 moduleName
 )
 #

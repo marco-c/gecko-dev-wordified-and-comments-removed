@@ -38,11 +38,12 @@ define
 MOZILLA_NSISVGPOINT_IID
 \
 {
+\
 0xd6b6c440
 0xaf8d
 0x40ee
-\
 {
+\
 0x85
 0x6b
 0x02
@@ -51,7 +52,9 @@ MOZILLA_NSISVGPOINT_IID
 0xca
 0xb2
 0x75
+\
 }
+\
 }
 #
 define

@@ -1285,6 +1285,7 @@ help
 )
 \
 {
+\
 name
 call
 nargs
@@ -1307,6 +1308,7 @@ native
 \
 usage
 help
+\
 }
 #
 define
@@ -5233,7 +5235,6 @@ count
 exception
 format
 )
-\
 name
 #
 include
@@ -6399,7 +6400,6 @@ type
 \
 inline
 void
-\
 Get
 #
 #
@@ -6408,6 +6408,7 @@ Type
 #
 ArrayLengthAndData
 (
+\
 JSObject
 *
 obj
@@ -6422,7 +6423,6 @@ type
 *
 data
 )
-\
 {
 \
 MOZ_ASSERT
@@ -6451,6 +6451,7 @@ Value
 &
 lenSlot
 =
+\
 GetReservedSlot
 (
 obj
@@ -9705,7 +9706,6 @@ JS_COUNT_CTOR
 (
 Class
 )
-\
 LogCtor
 (
 (
@@ -9726,7 +9726,6 @@ JS_COUNT_DTOR
 (
 Class
 )
-\
 LogDtor
 (
 (

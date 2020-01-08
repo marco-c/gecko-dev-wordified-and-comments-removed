@@ -942,9 +942,9 @@ DEBUG
 &
 &
 HAVE_UALARM
+&
+&
 \
-&
-&
 defined
 (
 _GNU_SOURCE

@@ -161,7 +161,6 @@ sLibraryClassOps
 #
 define
 CTYPESFN_FLAGS
-\
 (
 JSPROP_ENUMERATE
 |

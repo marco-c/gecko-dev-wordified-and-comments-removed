@@ -246,6 +246,7 @@ trackingTable
 #
 define
 TRACKING_TABLE_TEST_ENTRIES_PREF
+\
 "
 urlclassifier
 .
@@ -264,6 +265,7 @@ trackingWhitelistTable
 #
 define
 TRACKING_WHITELIST_TABLE_TEST_ENTRIES_PREF
+\
 "
 urlclassifier
 .

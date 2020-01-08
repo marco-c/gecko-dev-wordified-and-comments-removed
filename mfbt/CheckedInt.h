@@ -2749,7 +2749,6 @@ CheckedInt
 <
 T
 >
-\
 operator
 OP
 (
@@ -2760,6 +2759,7 @@ T
 >
 &
 aLhs
+\
 const
 CheckedInt
 <
@@ -2768,7 +2768,6 @@ T
 &
 aRhs
 )
-\
 {
 \
 if
@@ -2857,7 +2856,6 @@ CheckedInt
 <
 T
 >
-\
 operator
 OP
 (
@@ -2868,6 +2866,7 @@ T
 >
 &
 aLhs
+\
 const
 CheckedInt
 <
@@ -2876,7 +2875,6 @@ T
 &
 aRhs
 )
-\
 {
 \
 T
@@ -3185,7 +3183,6 @@ COMPOUND_OP
 U
 aRhs
 )
-\
 {
 \
 *
@@ -3230,6 +3227,7 @@ T
 operator
 COMPOUND_OP
 (
+\
 const
 CheckedInt
 <
@@ -3238,7 +3236,6 @@ T
 &
 aRhs
 )
-\
 {
 \
 *
@@ -3283,7 +3280,6 @@ aLhs
 U
 aRhs
 )
-\
 {
 \
 return
@@ -3326,7 +3322,6 @@ T
 &
 aRhs
 )
-\
 {
 \
 return

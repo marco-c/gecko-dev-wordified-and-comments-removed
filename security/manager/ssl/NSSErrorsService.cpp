@@ -297,12 +297,14 @@ SEC_ERROR_BASE
 EXPECTED_SEC_ERROR_BASE
 |
 |
+\
 SSL_ERROR_BASE
 !
 =
 EXPECTED_SSL_ERROR_BASE
 #
 error
+\
 "
 Unexpected
 change

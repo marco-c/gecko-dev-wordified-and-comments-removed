@@ -22,7 +22,6 @@ DISALLOW_ASSIGNMENT
 (
 T
 )
-\
 void
 operator
 =
@@ -40,7 +39,6 @@ DISALLOW_COPY
 (
 T
 )
-\
 T
 (
 const

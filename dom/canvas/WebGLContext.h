@@ -4278,7 +4278,6 @@ elemCountOverride
 =
 0
 )
-\
 {
 \
 UniformNfv
@@ -4359,7 +4358,6 @@ elemCountOverride
 =
 0
 )
-\
 {
 \
 UniformNiv
@@ -4440,7 +4438,6 @@ elemCountOverride
 =
 0
 )
-\
 {
 \
 UniformNuiv
@@ -4526,7 +4523,6 @@ elemCountOverride
 =
 0
 )
-\
 {
 \
 UniformMatrixAxBfv

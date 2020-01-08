@@ -121,13 +121,13 @@ using
 nsWrapperCache
 :
 :
-GetWrapperPreserveColor
+GetWrapper
 ;
 using
 nsWrapperCache
 :
 :
-GetWrapper
+GetWrapperPreserveColor
 ;
 using
 nsWrapperCache

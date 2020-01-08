@@ -2340,6 +2340,8 @@ to
 call
 TraceXPCGlobal
 for
+"
+"
 XPConnect
 compartments
 .

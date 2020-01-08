@@ -223,13 +223,13 @@ using
 mozilla
 :
 :
-TimeStamp
+TimeDuration
 ;
 using
 mozilla
 :
 :
-TimeDuration
+TimeStamp
 ;
 using
 mozilla

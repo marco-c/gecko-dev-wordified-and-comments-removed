@@ -88,6 +88,7 @@ nsINavBookmarkObserver
 &
 e
 =
+\
 array
 .
 ElementAt
@@ -113,7 +114,6 @@ skipIf
 e
 )
 )
-\
 continue
 ;
 \
@@ -154,14 +154,12 @@ already_AddRefed
 <
 _className
 >
-\
 _className
 :
 :
 GetSingleton
 (
 )
-\
 {
 \
 if

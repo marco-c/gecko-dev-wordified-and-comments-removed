@@ -397,8 +397,10 @@ RECYCLE_LOG
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -5861,6 +5863,8 @@ dest
 )
 failed
 in
+"
+"
 BorrowDrawTarget
 "
 ;
@@ -5899,6 +5903,8 @@ src
 )
 failed
 in
+"
+"
 BorrowDrawTarget
 "
 ;
@@ -6876,6 +6882,8 @@ host
 '
 s
 address
+"
+"
 space
 !
 "

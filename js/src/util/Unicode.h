@@ -1114,7 +1114,6 @@ trail
 =
 TRAIL_TO
 )
-\
 return
 true
 ;

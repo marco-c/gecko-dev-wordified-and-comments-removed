@@ -124,6 +124,7 @@ enabled
 #
 define
 PREF_PRESENTATION_DISCOVERY_TIMEOUT_MS
+\
 "
 dom
 .
@@ -146,6 +147,7 @@ discoverable
 #
 define
 PREF_PRESENTATION_DISCOVERABLE_ENCRYPTED
+\
 "
 dom
 .
@@ -158,6 +160,7 @@ encrypted
 #
 define
 PREF_PRESENTATION_DISCOVERABLE_RETRY_MS
+\
 "
 dom
 .
@@ -224,6 +227,7 @@ LOG_I
 .
 .
 )
+\
 MOZ_LOG
 (
 sMulticastDNSProviderLogModule
@@ -234,6 +238,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 __VA_ARGS__
 )
@@ -249,6 +254,7 @@ LOG_E
 .
 .
 )
+\
 MOZ_LOG
 (
 sMulticastDNSProviderLogModule
@@ -259,6 +265,7 @@ LogLevel
 :
 :
 Error
+\
 (
 __VA_ARGS__
 )

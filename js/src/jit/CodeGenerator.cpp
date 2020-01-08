@@ -508,6 +508,12 @@ js
 jit
 ;
 using
+JS
+:
+:
+GenericNaN
+;
+using
 mozilla
 :
 :
@@ -542,12 +548,6 @@ mozilla
 :
 :
 PositiveInfinity
-;
-using
-JS
-:
-:
-GenericNaN
 ;
 namespace
 js
@@ -5477,6 +5477,8 @@ path
 since
 the
 code
+"
+"
 generator
 will
 try
@@ -5495,6 +5497,8 @@ up
 its
 labels
 which
+"
+"
 will
 cause
 null
@@ -5806,6 +5810,8 @@ this
 should
 have
 been
+"
+"
 folded
 .
 "
@@ -35035,6 +35041,7 @@ LIROP
 (
 op
 )
+\
 case
 LNode
 :
@@ -35044,6 +35051,7 @@ Opcode
 :
 op
 :
+\
 visit
 #
 #
@@ -35060,6 +35068,7 @@ op
 )
 )
 ;
+\
 break
 ;
 LIR_OPCODE_LIST
@@ -49115,6 +49124,8 @@ this
 should
 have
 been
+"
+"
 folded
 .
 "
@@ -49581,6 +49592,8 @@ this
 should
 have
 been
+"
+"
 folded
 .
 "

@@ -648,6 +648,8 @@ because
 of
 unsupported
 compositor
+"
+"
 configuration
 "
 )

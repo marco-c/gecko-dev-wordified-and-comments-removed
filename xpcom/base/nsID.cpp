@@ -89,6 +89,7 @@ the_char
 9
 '
 )
+\
 the_int_var
 -
 =
@@ -115,6 +116,7 @@ the_char
 f
 '
 )
+\
 the_int_var
 -
 =
@@ -143,6 +145,7 @@ the_char
 F
 '
 )
+\
 the_int_var
 -
 =
@@ -154,6 +157,7 @@ A
 ;
 \
 else
+\
 return
 false
 #
@@ -167,6 +171,7 @@ number_of_chars
 \
 do
 {
+\
 int32_t
 _i
 =
@@ -203,6 +208,7 @@ _i
 ;
 \
 }
+\
 }
 while
 (
@@ -214,6 +220,7 @@ PARSE_HYPHEN
 (
 char_pointer
 )
+\
 if
 (
 *

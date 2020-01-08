@@ -1303,6 +1303,7 @@ MOZ_WIDGET_GTK
 )
 &
 &
+\
 (
 defined
 (

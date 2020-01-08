@@ -480,7 +480,6 @@ NS_ERROR_NOT_AVAILABLE
 #
 define
 ENSURE_NOT_CHILD_PROCESS_NORET
-\
 ENSURE_NOT_CHILD_PROCESS_
 (
 ;
@@ -1550,6 +1549,8 @@ origin
 type
 permission
 expireType
+"
+"
 expireTime
 modificationTime
 )
@@ -1942,6 +1943,8 @@ origin
 type
 permission
 expireType
+"
+"
 expireTime
 modificationTime
 )
@@ -5224,6 +5227,8 @@ moz_hosts_new
 already
 exists
 dropping
+"
+"
 it
 .
 "
@@ -6711,6 +6716,8 @@ origin
 type
 permission
 expireType
+"
+"
 expireTime
 modificationTime
 )
@@ -6806,6 +6813,8 @@ expireType
 3
 expireTime
 =
+"
+"
 ?
 4
 modificationTime
@@ -12056,6 +12065,8 @@ origin
 type
 permission
 expireType
+"
+"
 expireTime
 modificationTime
 "
@@ -14829,6 +14840,8 @@ rejected
 We
 '
 re
+"
+"
 probably
 shutting
 down

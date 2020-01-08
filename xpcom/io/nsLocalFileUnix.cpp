@@ -403,7 +403,6 @@ FillStatCache
 (
 )
 )
-\
 return
 NSRESULT_FOR_ERRNO
 (
@@ -432,7 +431,6 @@ IsEmpty
 (
 )
 )
-\
 return
 NS_ERROR_NOT_INITIALIZED
 ;
@@ -5969,6 +5967,8 @@ implemented
 for
 plaforms
 without
+"
+"
 statfs
 .
 \
@@ -8671,7 +8671,6 @@ NS_FAILED
 rv
 )
 )
-\
 return
 rv
 ;
@@ -8763,7 +8762,6 @@ NS_FAILED
 rv
 )
 )
-\
 return
 rv
 ;

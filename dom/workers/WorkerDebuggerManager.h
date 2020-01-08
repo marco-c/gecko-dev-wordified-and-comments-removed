@@ -55,11 +55,12 @@ define
 WORKERDEBUGGERMANAGER_CID
 \
 {
+\
 0x62ec8731
 0x55ad
 0x4246
-\
 {
+\
 0xb2
 0xea
 0xf2
@@ -68,7 +69,9 @@ WORKERDEBUGGERMANAGER_CID
 0xe1
 0x9d
 0x2d
+\
 }
+\
 }
 #
 define

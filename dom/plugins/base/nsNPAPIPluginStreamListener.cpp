@@ -582,6 +582,8 @@ reason
 =
 %
 d
+"
+"
 return
 =
 %
@@ -774,6 +776,8 @@ notify
 =
 %
 p
+"
+"
 reason
 =
 %
@@ -1081,6 +1085,8 @@ seek
 =
 %
 d
+"
+"
 type
 =
 %

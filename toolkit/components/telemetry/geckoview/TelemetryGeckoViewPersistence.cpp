@@ -613,6 +613,8 @@ data
 directory
 in
 the
+"
+"
 environment
 .
 "
@@ -1577,6 +1579,8 @@ parse
 '
 keyedHistograms
 '
+"
+"
 %
 s
 .
@@ -1810,6 +1814,8 @@ error
 opening
 the
 persistence
+"
+"
 file
 .
 "
@@ -2060,6 +2066,8 @@ error
 writing
 to
 the
+"
+"
 persistence
 file
 .

@@ -126,8 +126,10 @@ PROMISE_ASSERT
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -4962,6 +4964,8 @@ MozPromise
 p
 created
 at
+"
+"
 %
 s
 )
@@ -5091,6 +5095,8 @@ MozPromise
 p
 created
 at
+"
+"
 %
 s
 )
@@ -5220,6 +5226,8 @@ MozPromise
 p
 created
 at
+"
+"
 %
 s
 )
@@ -6920,6 +6928,8 @@ InvokeAsync
 Storages
 must
 be
+"
+"
 provided
 "
 )

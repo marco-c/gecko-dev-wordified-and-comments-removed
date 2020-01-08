@@ -3466,7 +3466,6 @@ fnName
 frame
 )
 )
-\
 return
 false
 ;

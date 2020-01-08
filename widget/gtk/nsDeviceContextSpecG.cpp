@@ -223,6 +223,7 @@ DO_PR_DEBUG_LOG
 (
 x
 )
+\
 MOZ_LOG
 (
 sDeviceContextSpecGTKLog

@@ -218,11 +218,11 @@ const
 txXPathNode
 &
 aNode
-\
 bool
 &
 aAllowed
 )
+\
 override
 ;
 \

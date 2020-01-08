@@ -2588,6 +2588,8 @@ read
 this
 type
 of
+"
+"
 file
 flavor
 "
@@ -4652,6 +4654,8 @@ USE
 text
 /
 unicode
+"
+"
 INSTEAD
 "
 )

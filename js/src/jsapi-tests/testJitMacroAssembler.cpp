@@ -98,13 +98,13 @@ using
 mozilla
 :
 :
-PositiveInfinity
+NegativeInfinity
 ;
 using
 mozilla
 :
 :
-NegativeInfinity
+PositiveInfinity
 ;
 #
 if
@@ -1653,6 +1653,7 @@ esp
 0
 )
 temp
+\
 floatTemp
 )
 ;
@@ -3343,6 +3344,7 @@ SHIFT
 "
 #
 INPUT
+\
 "
 )
 failed

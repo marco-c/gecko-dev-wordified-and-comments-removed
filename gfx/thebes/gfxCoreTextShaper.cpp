@@ -986,6 +986,7 @@ success
 #
 define
 SMALL_GLYPH_RUN
+\
 128
 /
 /

@@ -3153,7 +3153,6 @@ JSObject
 %
 p
 "
-\
 IsRootWrapper
 (
 )

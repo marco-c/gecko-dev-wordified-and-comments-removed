@@ -112,6 +112,7 @@ lib
 #
 define
 MAINT_UNINSTALL_KEY
+\
 L
 "
 Software
@@ -129,7 +130,12 @@ CurrentVersion
 Uninstall
 \
 \
-MozillaMaintenanceService
+MozillaMaintenan
+"
+\
+L
+"
+ceService
 "
 static
 BOOL

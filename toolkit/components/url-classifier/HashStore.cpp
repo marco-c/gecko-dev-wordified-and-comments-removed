@@ -115,6 +115,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gUrlClassifierDbServiceLog
@@ -132,6 +133,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 gUrlClassifierDbServiceLog

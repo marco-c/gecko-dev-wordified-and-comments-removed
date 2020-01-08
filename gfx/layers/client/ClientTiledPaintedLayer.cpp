@@ -195,12 +195,6 @@ using
 gfx
 :
 :
-Rect
-;
-using
-gfx
-:
-:
 IntRect
 ;
 using
@@ -208,6 +202,12 @@ gfx
 :
 :
 IntSize
+;
+using
+gfx
+:
+:
+Rect
 ;
 ClientTiledPaintedLayer
 :
@@ -733,6 +733,8 @@ displayPortAncestor
 %
 p
 transform
+"
+"
 %
 d
 \

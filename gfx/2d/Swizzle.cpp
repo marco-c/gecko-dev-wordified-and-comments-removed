@@ -437,7 +437,6 @@ aSrcFormat
 aDstFormat
 \
 Premultiply_SSE2
-\
 <
 ShouldSwapRB
 (
@@ -526,7 +525,6 @@ aSrcFormat
 aDstFormat
 \
 Swizzle_SSE2
-\
 <
 ShouldSwapRB
 (
@@ -580,7 +578,6 @@ aSrcFormat
 aDstFormat
 \
 Premultiply_NEON
-\
 <
 ShouldSwapRB
 (
@@ -669,7 +666,6 @@ aSrcFormat
 aDstFormat
 \
 Swizzle_NEON
-\
 <
 ShouldSwapRB
 (
@@ -975,11 +971,11 @@ aDstFormat
 \
 FORMAT_CASE
 (
+\
 aSrcFormat
 aDstFormat
 \
 PremultiplyFallback
-\
 <
 ShouldSwapRB
 (
@@ -2004,8 +2000,8 @@ aSrcFormat
 aDstFormat
 \
 UnpremultiplyFallback
-\
 <
+\
 ShouldSwapRB
 (
 aSrcFormat
@@ -2641,11 +2637,11 @@ aDstFormat
 \
 FORMAT_CASE
 (
+\
 aSrcFormat
 aDstFormat
 \
 SwizzleFallback
-\
 <
 ShouldSwapRB
 (
@@ -2926,11 +2922,11 @@ aDstFormat
 \
 FORMAT_CASE
 (
+\
 aSrcFormat
 aDstFormat
 \
 SwizzleSwap
-\
 <
 ShouldForceOpaque
 (
@@ -3161,7 +3157,6 @@ FORMAT_CASE
 (
 aSrcFormat
 aDstFormat
-\
 SwizzleOpaque
 <
 AlphaBitShift
@@ -3592,7 +3587,6 @@ aSrcFormat
 aDstFormat
 \
 aPackFunc
-\
 <
 ShouldSwapRB
 (
@@ -3782,7 +3776,6 @@ FORMAT_CASE
 (
 aSrcFormat
 aDstFormat
-\
 aPackFunc
 <
 AlphaByteIndex

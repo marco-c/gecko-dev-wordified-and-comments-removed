@@ -280,6 +280,8 @@ Somebody
 is
 trying
 to
+"
+"
 do_CreateInstance
 (
 \
@@ -827,6 +829,8 @@ non
 main
 thread
 shutting
+"
+"
 down
 ?
 "

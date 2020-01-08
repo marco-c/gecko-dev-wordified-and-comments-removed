@@ -723,6 +723,7 @@ NS_IS_SELECTION_SPECIAL_COLOR
 (
 c
 )
+\
 (
 (
 c
@@ -732,7 +733,6 @@ c
 NS_TRANSPARENT
 |
 |
-\
 (
 c
 )

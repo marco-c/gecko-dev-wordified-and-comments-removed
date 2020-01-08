@@ -206,12 +206,6 @@ using
 mozilla
 :
 :
-Some
-;
-using
-mozilla
-:
-:
 Nothing
 ;
 using
@@ -225,6 +219,12 @@ mozilla
 :
 :
 RangedPtr
+;
+using
+mozilla
+:
+:
+Some
 ;
 static
 void

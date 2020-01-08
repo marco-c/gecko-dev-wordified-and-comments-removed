@@ -52,7 +52,6 @@ h
 #
 define
 JSREFLECT_CONTRACTID
-\
 "
 mozilla
 .
@@ -67,10 +66,12 @@ define
 JSREFLECT_CID
 \
 {
+\
 0x1a817186
 0x357a
 0x47cd
 {
+\
 0x8a
 0xea
 0x28
@@ -79,7 +80,9 @@ JSREFLECT_CID
 0x0e
 0x95
 0x9e
+\
 }
+\
 }
 namespace
 mozilla

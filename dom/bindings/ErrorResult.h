@@ -124,7 +124,6 @@ _argc
 _exn
 _str
 )
-\
 _name
 #
 include
@@ -179,7 +178,6 @@ _argc
 _exn
 _str
 )
-\
 _argc
 #
 include
@@ -318,6 +316,8 @@ string
 arguments
 as
 are
+"
+"
 required
 by
 the
@@ -382,6 +382,8 @@ arguments
 provided
 than
 are
+"
+"
 required
 by
 the
@@ -2619,6 +2621,7 @@ msg
 .
 AppendPrintf
 (
+\
 "
 ENSURE_SUCCESS
 (
@@ -2637,6 +2640,7 @@ result
 %
 X
 "
+\
 #
 res
 #
@@ -2698,6 +2702,7 @@ msg
 .
 AppendPrintf
 (
+\
 "
 ENSURE_SUCCESS_VOID
 (
@@ -2714,6 +2719,7 @@ result
 %
 X
 "
+\
 #
 res
 res

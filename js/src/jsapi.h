@@ -3826,11 +3826,14 @@ JSNATIVE_WRAPPER
 (
 native
 )
+\
 {
+\
 {
 native
 nullptr
 }
+\
 }
 struct
 JSPropertySpec
@@ -4244,6 +4247,7 @@ mozilla
 :
 EnableIf
 <
+\
 (
 (
 flags
@@ -4284,6 +4288,7 @@ extraFlags
 )
 \
 {
+\
 name
 uint8_t
 (
@@ -4294,13 +4299,15 @@ flags
 |
 extraFlags
 )
-\
 {
+\
 {
 getter
 setter
 }
+\
 }
+\
 }
 #
 define
@@ -4312,6 +4319,7 @@ flags
 )
 \
 {
+\
 name
 uint8_t
 (
@@ -4319,8 +4327,8 @@ flags
 |
 JSPROP_INTERNAL_USE_BIT
 )
-\
 {
+\
 {
 value
 JSNATIVE_WRAPPER
@@ -4328,7 +4336,9 @@ JSNATIVE_WRAPPER
 nullptr
 )
 }
+\
 }
+\
 }
 #
 define
@@ -4338,6 +4348,7 @@ name
 )
 \
 {
+\
 {
 nullptr
 JS_CAST_STRING_TO
@@ -4348,6 +4359,7 @@ JSJitInfo
 *
 )
 }
+\
 }
 #
 define
@@ -4357,7 +4369,9 @@ value
 )
 \
 {
+\
 {
+\
 reinterpret_cast
 <
 JSNative
@@ -4365,6 +4379,7 @@ JSNative
 (
 JSVAL_TYPE_STRING
 )
+\
 JS_CAST_STRING_TO
 (
 value
@@ -4372,7 +4387,9 @@ const
 JSJitInfo
 *
 )
+\
 }
+\
 }
 #
 define
@@ -4382,7 +4399,9 @@ value
 )
 \
 {
+\
 {
+\
 reinterpret_cast
 <
 JSNative
@@ -4390,6 +4409,7 @@ JSNative
 (
 JSVAL_TYPE_INT32
 )
+\
 JS_CAST_INT32_TO
 (
 value
@@ -4397,7 +4417,9 @@ const
 JSJitInfo
 *
 )
+\
 }
+\
 }
 #
 define
@@ -4415,12 +4437,12 @@ JSNATIVE_WRAPPER
 (
 getter
 )
+\
 JSNATIVE_WRAPPER
 (
 nullptr
 )
 flags
-\
 0
 )
 #
@@ -4440,12 +4462,12 @@ JSNATIVE_WRAPPER
 (
 getter
 )
+\
 JSNATIVE_WRAPPER
 (
 setter
 )
 flags
-\
 0
 )
 #
@@ -4459,6 +4481,7 @@ flags
 \
 JS_PS_ACCESSOR_SPEC
 (
+\
 reinterpret_cast
 <
 const
@@ -4509,12 +4532,12 @@ SELFHOSTED_WRAPPER
 (
 getterName
 )
+\
 JSNATIVE_WRAPPER
 (
 nullptr
 )
 flags
-\
 JSPROP_GETTER
 )
 #
@@ -4534,12 +4557,13 @@ SELFHOSTED_WRAPPER
 (
 getterName
 )
+\
 SELFHOSTED_WRAPPER
 (
 setterName
 )
-\
 flags
+\
 JSPROP_GETTER
 |
 JSPROP_SETTER
@@ -4555,6 +4579,7 @@ flags
 \
 JS_PS_ACCESSOR_SPEC
 (
+\
 reinterpret_cast
 <
 const
@@ -4619,6 +4644,7 @@ flags
 \
 JS_PS_VALUE_SPEC
 (
+\
 reinterpret_cast
 <
 const
@@ -4677,6 +4703,7 @@ JSNATIVE_WRAPPER
 (
 nullptr
 )
+\
 JSNATIVE_WRAPPER
 (
 nullptr
@@ -4858,6 +4885,7 @@ selfHostedName
 \
 JS_FNSPEC
 (
+\
 reinterpret_cast
 <
 const
@@ -4865,7 +4893,6 @@ char
 *
 >
 (
-\
 uint32_t
 (
 :
@@ -14904,9 +14931,9 @@ warmup
 trigger
 "
 )
-\
 Register
 (
+\
 ION_WARMUP_TRIGGER
 "
 ion
@@ -14916,10 +14943,10 @@ warmup
 trigger
 "
 )
-\
 Register
 (
 ION_GVN_ENABLE
+\
 "
 ion
 .
@@ -14938,9 +14965,9 @@ ion
 forceinlineCaches
 "
 )
-\
 Register
 (
+\
 ION_ENABLE
 "
 ion
@@ -14948,10 +14975,10 @@ ion
 enable
 "
 )
-\
 Register
 (
 ION_CHECK_RANGE_ANALYSIS
+\
 "
 ion
 .
@@ -14966,6 +14993,7 @@ analysis
 Register
 (
 ION_FREQUENT_BAILOUT_THRESHOLD
+\
 "
 ion
 .
@@ -14986,10 +15014,11 @@ baseline
 enable
 "
 )
-\
 Register
 (
+\
 OFFTHREAD_COMPILATION_ENABLE
+\
 "
 offthread
 -
@@ -14998,10 +15027,10 @@ compilation
 enable
 "
 )
-\
 Register
 (
 FULL_DEBUG_CHECKS
+\
 "
 jit
 .
@@ -15009,6 +15038,9 @@ full
 -
 debug
 -
+"
+\
+"
 checks
 "
 )
@@ -15022,9 +15054,9 @@ jump
 threshold
 "
 )
-\
 Register
 (
+\
 TRACK_OPTIMIZATIONS
 "
 jit
@@ -15038,6 +15070,7 @@ optimizations
 Register
 (
 SIMULATOR_ALWAYS_INTERRUPT
+\
 "
 simulator
 .
@@ -15050,6 +15083,7 @@ interrupt
 Register
 (
 SPECTRE_INDEX_MASKING
+\
 "
 spectre
 .
@@ -15062,6 +15096,7 @@ masking
 Register
 (
 SPECTRE_OBJECT_MITIGATIONS_BARRIERS
+\
 "
 spectre
 .
@@ -15076,6 +15111,7 @@ barriers
 Register
 (
 SPECTRE_OBJECT_MITIGATIONS_MISC
+\
 "
 spectre
 .
@@ -15090,6 +15126,7 @@ misc
 Register
 (
 SPECTRE_STRING_MITIGATIONS
+\
 "
 spectre
 .
@@ -15102,6 +15139,7 @@ mitigations
 Register
 (
 SPECTRE_VALUE_MASKING
+\
 "
 spectre
 .
@@ -15113,7 +15151,9 @@ masking
 \
 Register
 (
+\
 SPECTRE_JIT_TO_CXX_CALLS
+\
 "
 spectre
 .
@@ -15131,7 +15171,9 @@ calls
 \
 Register
 (
+\
 WASM_FOLD_OFFSETS
+\
 "
 wasm
 .
@@ -15143,7 +15185,9 @@ offsets
 \
 Register
 (
+\
 WASM_DELAY_TIER2
+\
 "
 wasm
 .
@@ -15163,7 +15207,6 @@ JIT_COMPILER_DECLARE
 key
 str
 )
-\
 JSJITCOMPILER_
 #
 #

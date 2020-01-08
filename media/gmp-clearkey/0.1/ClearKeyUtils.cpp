@@ -1011,6 +1011,7 @@ EXPECT_SYMBOL
 CTX
 X
 )
+\
 do
 {
 \

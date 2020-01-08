@@ -1510,6 +1510,8 @@ d
 d
 )
 ;
+"
+"
 frame
 =
 %
@@ -9808,6 +9810,8 @@ minLineBSize
 =
 %
 d
+"
+"
 zeroEffectiveSpanBox
 =
 %
@@ -10117,6 +10121,8 @@ bp
 d
 %
 d
+"
+"
 zeroEffectiveSpanBox
 =
 %
@@ -11623,6 +11629,8 @@ y
 =
 %
 d
+"
+"
 minBCoord
 =
 %
@@ -12097,6 +12105,8 @@ blockStart
 d
 blockEnd
 :
+"
+"
 %
 d
 \
@@ -12135,6 +12145,8 @@ currentValues
 d
 %
 d
+"
+"
 newValues
 :
 0
@@ -12231,6 +12243,8 @@ ascent
 =
 %
 d
+"
+"
 logicalBSize
 =
 %
@@ -12745,6 +12759,8 @@ ascent
 =
 %
 d
+"
+"
 logicalBSize
 =
 %
@@ -12834,6 +12850,8 @@ maxStartBoxBSize
 =
 %
 d
+"
+"
 maxEndBoxBSize
 =
 %

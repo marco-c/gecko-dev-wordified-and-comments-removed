@@ -37,10 +37,12 @@ define
 NS_CONTENTHANDLERSERVICE_CID
 \
 {
+\
 0xc4b6fb7c
 0xbfb1
 0x49dc
 {
+\
 0xa6
 0x5f
 0x03
@@ -49,7 +51,9 @@ NS_CONTENTHANDLERSERVICE_CID
 0x52
 0x4b
 0x53
+\
 }
+\
 }
 namespace
 mozilla

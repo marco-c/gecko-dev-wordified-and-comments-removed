@@ -107,11 +107,14 @@ nsIClearSiteDataCallback
 #
 define
 nsIGetSitesWithDataCallback_CID
+\
 {
+\
 0xd0028b83
 0xfdf9
 0x4c53
 {
+\
 0xb7
 0xbb
 0x47
@@ -120,7 +123,9 @@ nsIGetSitesWithDataCallback_CID
 0x6b
 0x83
 0x6c
+\
 }
+\
 }
 class
 nsIGetSitesWithDataCallback

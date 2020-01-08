@@ -250,7 +250,6 @@ cpp_type
 id
 (
 )
-\
 {
 \
 MOZ_ASSERT

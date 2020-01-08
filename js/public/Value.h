@@ -725,6 +725,7 @@ JSVAL_TYPE_TO_SHIFTED_TAG
 (
 type
 )
+\
 (
 (
 (
@@ -3648,6 +3649,8 @@ strings
 .
 Make
 a
+"
+"
 StringValue
 instead
 .
@@ -3684,6 +3687,8 @@ symbols
 .
 Make
 a
+"
+"
 SymbolValue
 instead
 .
@@ -3723,6 +3728,8 @@ BigInts
 .
 Make
 a
+"
+"
 BigIntValue
 instead
 .
@@ -3761,6 +3768,8 @@ objects
 .
 Make
 an
+"
+"
 ObjectValue
 instead
 .

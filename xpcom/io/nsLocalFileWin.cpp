@@ -320,7 +320,6 @@ IsEmpty
 (
 )
 )
-\
 return
 NS_ERROR_NOT_INITIALIZED
 ;
@@ -5261,7 +5260,6 @@ z
 '
 )
 ?
-\
 (
 u
 )

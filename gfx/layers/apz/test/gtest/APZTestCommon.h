@@ -217,14 +217,6 @@ using
 testing
 :
 :
-NiceMock
-;
-using
-:
-:
-testing
-:
-:
 AtLeast
 ;
 using
@@ -241,6 +233,14 @@ using
 testing
 :
 :
+InSequence
+;
+using
+:
+:
+testing
+:
+:
 MockFunction
 ;
 using
@@ -249,7 +249,7 @@ using
 testing
 :
 :
-InSequence
+NiceMock
 ;
 typedef
 mozilla
@@ -435,7 +435,6 @@ gfxPrefs
 :
 prefBase
 )
-\
 &
 (
 gfxPrefs
@@ -446,7 +445,6 @@ Set
 #
 prefBase
 )
-\
 prefValue
 )
 #
@@ -478,7 +476,6 @@ gfxVars
 :
 varBase
 )
-\
 &
 (
 gfxVars
@@ -489,7 +486,6 @@ Set
 #
 varBase
 )
-\
 varValue
 )
 static

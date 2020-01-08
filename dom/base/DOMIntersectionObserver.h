@@ -307,11 +307,12 @@ define
 NS_DOM_INTERSECTION_OBSERVER_IID
 \
 {
+\
 0x8570a575
 0xe303
 0x4d18
-\
 {
+\
 0xb6
 0xb1
 0x4d
@@ -320,7 +321,9 @@ NS_DOM_INTERSECTION_OBSERVER_IID
 0xd8
 0xef
 0x94
+\
 }
+\
 }
 class
 DOMIntersectionObserver

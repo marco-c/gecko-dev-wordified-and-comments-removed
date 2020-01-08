@@ -25,6 +25,7 @@ GET_NATIVE_WINDOW
 (
 aWidget
 )
+\
 GDK_WINDOW_XID
 (
 (
@@ -473,7 +474,9 @@ SYMBOL
 (
 X
 )
+\
 {
+\
 (
 PRFuncPtr
 *
@@ -493,15 +496,19 @@ glX
 X
 nullptr
 }
+\
 }
 #
 define
 END_OF_SYMBOLS
+\
 {
+\
 nullptr
 {
 nullptr
 }
+\
 }
 const
 GLLibraryLoader
@@ -1036,6 +1043,8 @@ still
 block
 on
 buffer
+"
+"
 swaps
 .
 "

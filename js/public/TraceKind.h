@@ -193,6 +193,7 @@ tk
 \
 static_assert
 (
+\
 (
 uintptr_t
 (
@@ -428,6 +429,7 @@ _
 template
 <
 >
+\
 struct
 MapTypeToTraceKind
 <
@@ -476,7 +478,6 @@ name
 _0
 _1
 )
-\
 name
 JS_FOR_EACH_TRACEKIND
 (
@@ -513,6 +514,7 @@ _1
 template
 <
 >
+\
 struct
 MapTraceKindToRootKind
 <
@@ -889,6 +891,7 @@ operator
 type
 >
 (
+\
 std
 :
 :

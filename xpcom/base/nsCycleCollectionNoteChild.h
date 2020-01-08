@@ -93,12 +93,10 @@ aFlags
 #
 define
 NS_CYCLE_COLLECTION_INNERCLASS
-\
 cycleCollection
 #
 define
 NS_CYCLE_COLLECTION_INNERNAME
-\
 _cycleCollectorGlobal
 #
 define

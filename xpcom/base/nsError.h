@@ -345,6 +345,7 @@ nsIInputStream
 '
 needs
 to
+\
 have
 dll
 -
@@ -355,6 +356,7 @@ used
 by
 clients
 of
+\
 class
 '
 nsInputStream
@@ -365,6 +367,7 @@ nsInputStream
 pragma
 warning
 (
+\
 disable
 :
 4275
@@ -383,6 +386,7 @@ used
 as
 base
 for
+\
 dll
 -
 interface

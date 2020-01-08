@@ -379,6 +379,7 @@ op
 (
 )
 {
+\
 return
 CacheIRCompiler
 :
@@ -390,6 +391,7 @@ op
 (
 )
 ;
+\
 }
 CACHE_IR_SHARED_OPS
 (
@@ -927,7 +929,6 @@ op
 (
 )
 )
-\
 return
 nullptr
 ;

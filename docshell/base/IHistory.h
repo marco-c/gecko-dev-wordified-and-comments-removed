@@ -32,10 +32,12 @@ define
 IHISTORY_IID
 \
 {
+\
 0x0057c9d3
 0xb98e
 0x4933
 {
+\
 0xbd
 0xc5
 0x02
@@ -44,7 +46,9 @@ IHISTORY_IID
 0x67
 0x05
 0xe1
+\
 }
+\
 }
 class
 IHistory
@@ -230,7 +234,6 @@ VisitURI
 nsIWidget
 *
 aWidget
-\
 nsIURI
 *
 aURI
@@ -238,7 +241,6 @@ aURI
 nsIURI
 *
 aLastVisitedURI
-\
 uint32_t
 aFlags
 )

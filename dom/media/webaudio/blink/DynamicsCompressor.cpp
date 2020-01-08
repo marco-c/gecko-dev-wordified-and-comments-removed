@@ -42,13 +42,13 @@ using
 mozilla
 :
 :
-WEBAUDIO_BLOCK_SIZE
+AudioBlockCopyChannelWithScale
 ;
 using
 mozilla
 :
 :
-AudioBlockCopyChannelWithScale
+WEBAUDIO_BLOCK_SIZE
 ;
 namespace
 WebCore

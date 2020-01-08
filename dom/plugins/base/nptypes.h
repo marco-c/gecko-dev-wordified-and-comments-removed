@@ -65,6 +65,7 @@ IRIX
 )
 |
 |
+\
 defined
 (
 HPUX

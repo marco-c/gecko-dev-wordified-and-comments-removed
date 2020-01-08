@@ -61,11 +61,12 @@ define
 WORKLET_IID
 \
 {
+\
 0x1b3f62e7
 0xe357
 0x44be
-\
 {
+\
 0xbf
 0xe0
 0xdf
@@ -74,7 +75,9 @@ WORKLET_IID
 0x56
 0x85
 0xac
+\
 }
+\
 }
 namespace
 mozilla

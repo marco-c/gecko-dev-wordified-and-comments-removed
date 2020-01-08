@@ -27,11 +27,12 @@ define
 NS_CLIPBOARDPROXY_IID
 \
 {
+\
 0xa64c82da
 0x7326
 0x4681
-\
 {
+\
 0xa0
 0x95
 0x81
@@ -40,7 +41,9 @@ NS_CLIPBOARDPROXY_IID
 0x86
 0xe6
 0xde
+\
 }
+\
 }
 class
 nsIClipboardProxy

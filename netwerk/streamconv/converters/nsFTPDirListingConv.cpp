@@ -238,6 +238,8 @@ converting
 FROM
 raw
 TO
+"
+"
 application
 /
 http
@@ -436,6 +438,8 @@ inStr
 =
 %
 p
+"
+"
 sourceOffset
 =
 %

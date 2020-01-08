@@ -3681,7 +3681,6 @@ rval
 )
 )
 )
-\
 return
 false
 ;
@@ -3731,7 +3730,6 @@ code
 \
 static
 bool
-\
 name
 (
 JSContext
@@ -3743,7 +3741,6 @@ Value
 *
 vp
 )
-\
 {
 \
 CallArgs
@@ -3780,7 +3777,6 @@ if
 !
 res
 )
-\
 return
 false
 ;
@@ -3956,7 +3952,6 @@ code
 \
 static
 bool
-\
 name
 (
 JSContext
@@ -3968,7 +3963,6 @@ Value
 *
 vp
 )
-\
 {
 \
 RegExpStatics
@@ -3995,7 +3989,6 @@ if
 !
 res
 )
-\
 return
 false
 ;

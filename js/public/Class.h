@@ -1926,6 +1926,7 @@ getAddProperty
 )
 const
 {
+\
 return
 cOps
 ?
@@ -1936,6 +1937,7 @@ addProperty
 :
 nullptr
 ;
+\
 }
 \
 JSDeletePropertyOp
@@ -1944,6 +1946,7 @@ getDelProperty
 )
 const
 {
+\
 return
 cOps
 ?
@@ -1954,6 +1957,7 @@ delProperty
 :
 nullptr
 ;
+\
 }
 \
 JSEnumerateOp
@@ -1962,6 +1966,7 @@ getEnumerate
 )
 const
 {
+\
 return
 cOps
 ?
@@ -1972,6 +1977,7 @@ enumerate
 :
 nullptr
 ;
+\
 }
 \
 JSNewEnumerateOp
@@ -1980,6 +1986,7 @@ getNewEnumerate
 )
 const
 {
+\
 return
 cOps
 ?
@@ -1990,6 +1997,7 @@ newEnumerate
 :
 nullptr
 ;
+\
 }
 \
 JSResolveOp
@@ -2016,6 +2024,7 @@ getMayResolve
 )
 const
 {
+\
 return
 cOps
 ?
@@ -2026,6 +2035,7 @@ mayResolve
 :
 nullptr
 ;
+\
 }
 \
 JSNative
@@ -2052,6 +2062,7 @@ getHasInstance
 )
 const
 {
+\
 return
 cOps
 ?
@@ -2062,6 +2073,7 @@ hasInstance
 :
 nullptr
 ;
+\
 }
 \
 JSNative
@@ -2688,6 +2700,7 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 n
 )
+\
 (
 (
 (
@@ -2696,7 +2709,6 @@ n
 &
 JSCLASS_RESERVED_SLOTS_MASK
 )
-\
 <
 <
 JSCLASS_RESERVED_SLOTS_SHIFT
@@ -2707,6 +2719,7 @@ JSCLASS_RESERVED_SLOTS
 (
 clasp
 )
+\
 (
 (
 (
@@ -2715,22 +2728,21 @@ clasp
 -
 >
 flags
-\
 >
 >
 JSCLASS_RESERVED_SLOTS_SHIFT
 )
-\
 &
+\
 JSCLASS_RESERVED_SLOTS_MASK
 )
 #
 define
 JSCLASS_HIGH_FLAGS_SHIFT
+\
 (
 JSCLASS_RESERVED_SLOTS_SHIFT
 +
-\
 JSCLASS_RESERVED_SLOTS_WIDTH
 )
 static
@@ -2903,6 +2915,7 @@ n
 (
 JSCLASS_IS_GLOBAL
 |
+\
 JSCLASS_HAS_RESERVED_SLOTS
 (
 JSCLASS_GLOBAL_SLOT_COUNT
@@ -2915,7 +2928,6 @@ n
 #
 define
 JSCLASS_GLOBAL_FLAGS
-\
 JSCLASS_GLOBAL_FLAGS_WITH_SLOTS
 (
 0
@@ -2938,9 +2950,9 @@ flags
 &
 JSCLASS_IS_GLOBAL
 )
+&
+&
 \
-&
-&
 JSCLASS_RESERVED_SLOTS
 (
 clasp
@@ -2977,6 +2989,7 @@ JSCLASS_HAS_CACHED_PROTO
 (
 key
 )
+\
 (
 uint32_t
 (
@@ -2992,11 +3005,11 @@ JSCLASS_CACHED_PROTO_KEY
 (
 clasp
 )
+\
 (
 (
 JSProtoKey
 )
-\
 (
 (
 (
@@ -3005,19 +3018,19 @@ clasp
 -
 >
 flags
-\
 >
 >
 JSCLASS_CACHED_PROTO_SHIFT
 )
-\
 &
+\
 JSCLASS_CACHED_PROTO_MASK
 )
 )
 #
 define
 JSCLASS_NO_INTERNAL_MEMBERS
+\
 {
 0
 0

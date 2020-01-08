@@ -8161,6 +8161,7 @@ UnboxedInt32Policy
 <
 1
 >
+\
 TruncateToInt32Policy
 <
 2
@@ -8317,6 +8318,7 @@ UnboxedInt32Policy
 <
 2
 >
+\
 UnboxedInt32Policy
 <
 3
@@ -8336,6 +8338,7 @@ UnboxedInt32Policy
 <
 1
 >
+\
 TruncateToInt32Policy
 <
 2
@@ -8382,6 +8385,7 @@ MIRType
 :
 Object
 >
+\
 CacheIdPolicy
 <
 2
@@ -8789,7 +8793,6 @@ DEFINE_TYPE_POLICY_SINGLETON_INSTANCES_
 const
 TypePolicy
 *
-\
 __VA_ARGS__
 :
 :
@@ -8799,7 +8802,6 @@ Data
 thisTypePolicy
 (
 )
-\
 {
 \
 static
@@ -8871,7 +8873,6 @@ op
 const
 TypePolicy
 *
-\
 js
 :
 :
@@ -8887,7 +8888,6 @@ op
 typePolicy
 (
 )
-\
 {
 \
 return
@@ -8906,7 +8906,6 @@ thisTypePolicy
 \
 \
 MIRType
-\
 js
 :
 :
@@ -8922,7 +8921,6 @@ op
 typePolicySpecialization
 (
 )
-\
 {
 \
 return

@@ -3803,6 +3803,8 @@ HTMLMediaElement
 :
 :
 AudioChannelAgentCallback
+"
+"
 WindowSuspendChanged
 "
 "
@@ -4308,6 +4310,8 @@ HTMLMediaElement
 :
 :
 AudioChannelAgentCallback
+"
+"
 SetAudioChannelSuspended
 "
 "
@@ -4362,6 +4366,8 @@ HTMLMediaElement
 :
 :
 AudioChannelAgentCallback
+"
+"
 ResumeFromAudioChannel
 "
 "
@@ -22082,6 +22088,8 @@ not
 supported
 yet
 and
+"
+"
 will
 be
 ignored

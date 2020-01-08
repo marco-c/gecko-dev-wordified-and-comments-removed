@@ -7916,9 +7916,7 @@ Preferences
 :
 RegisterCallbackAndCall
 (
-\
 callback
-\
 name
 )
 )
@@ -9256,9 +9254,7 @@ Preferences
 :
 UnregisterCallback
 (
-\
 callback
-\
 name
 )
 )

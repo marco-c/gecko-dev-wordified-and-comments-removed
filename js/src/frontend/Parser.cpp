@@ -7732,6 +7732,8 @@ function
 box
 scope
 that
+"
+"
 allows
 super
 .
@@ -10665,6 +10667,8 @@ use
 strict
 '
 directive
+"
+"
 is
 present
 "
@@ -15718,6 +15722,8 @@ use
 strict
 '
 directive
+"
+"
 is
 present
 "
@@ -18618,6 +18624,8 @@ which
 belongs
 to
 a
+"
+"
 different
 parser
 "

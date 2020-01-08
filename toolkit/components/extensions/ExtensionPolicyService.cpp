@@ -296,6 +296,9 @@ blob
 :
 filesystem
 :
+"
+\
+"
 '
 unsafe
 -
@@ -334,7 +337,6 @@ filesystem
 #
 define
 DEFAULT_DEFAULT_CSP
-\
 "
 script
 -

@@ -184,6 +184,7 @@ name
 )
 override
 {
+\
 return
 FRAGMENT_STRING_NAME
 (
@@ -191,6 +192,7 @@ category
 subname
 )
 ;
+\
 }
 \
 static
@@ -210,6 +212,7 @@ FRAGMENT_CLASS_NAME
 category
 subname
 )
+\
 FRAGMENT_CLASS_NAME
 (
 category
@@ -233,6 +236,7 @@ run
 JSContext
 *
 cx
+\
 const
 char
 *

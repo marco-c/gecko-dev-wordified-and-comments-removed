@@ -102,7 +102,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 return
@@ -157,7 +156,6 @@ TYPED_ARGS
 __VA_ARGS__
 )
 )
-\
 {
 \
 return

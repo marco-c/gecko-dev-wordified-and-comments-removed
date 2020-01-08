@@ -697,7 +697,6 @@ process
 "
 \
 func
-\
 pref
 )
 ;
@@ -4385,12 +4384,10 @@ method
 (
 )
 const
-\
 {
 \
 struct
 Matcher
-\
 {
 \
 retType
@@ -4507,12 +4504,10 @@ PrefValueKind
 User
 )
 const
-\
 {
 \
 struct
 Matcher
-\
 {
 \
 PrefValueKind
@@ -6427,7 +6422,6 @@ do
 \
 struct
 Matcher
-\
 {
 \
 PrefsIter
@@ -6442,7 +6436,6 @@ HashElem
 &
 pos
 )
-\
 {
 \
 HashElem
@@ -6474,7 +6467,6 @@ SharedElem
 &
 pos
 )
-\
 {
 \
 SharedElem
@@ -7863,6 +7855,8 @@ s
 %
 s
 value
+"
+"
 from
 %
 s
@@ -15746,6 +15740,8 @@ a
 suspiciously
 large
 number
+"
+"
 referents
 (
 symptom
@@ -25684,7 +25680,6 @@ if
 (
 isParent
 )
-\
 SetPref_
 #
 #
@@ -25710,7 +25705,6 @@ NS_LITERAL_CSTRING
 (
 name
 )
-\
 &
 StaticPrefs
 :
@@ -25721,9 +25715,7 @@ sVarCache_
 id
 \
 value
-\
 aIsStartup
-\
 isParent
 )
 ;

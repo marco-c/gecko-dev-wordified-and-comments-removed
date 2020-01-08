@@ -75,13 +75,13 @@ using
 SdpAttributeList
 :
 :
-HasAttribute
+GetAttribute
 ;
 using
 SdpAttributeList
 :
 :
-GetAttribute
+HasAttribute
 ;
 bool
 HasAttribute

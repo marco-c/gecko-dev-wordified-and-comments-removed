@@ -140,7 +140,6 @@ DOM_WEBIDL_PREF
 name
 )
 bool
-\
 DOMPrefs
 :
 :
@@ -153,7 +152,6 @@ JSObject
 *
 aObj
 )
-\
 {
 \
 return

@@ -178,6 +178,7 @@ LOG_NPIO_DEBUG
 .
 .
 )
+\
 MOZ_LOG
 (
 gNamedPipeLog
@@ -188,7 +189,6 @@ LogLevel
 :
 :
 Debug
-\
 (
 __VA_ARGS__
 )
@@ -201,6 +201,7 @@ LOG_NPIO_ERROR
 .
 .
 )
+\
 MOZ_LOG
 (
 gNamedPipeLog
@@ -211,7 +212,6 @@ LogLevel
 :
 :
 Error
-\
 (
 __VA_ARGS__
 )

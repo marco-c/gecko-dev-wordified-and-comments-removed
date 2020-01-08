@@ -23,10 +23,12 @@ define
 PAGETHUMBSPROTOCOL_CID
 \
 {
+\
 0x5a4ae9b5
 0xf475
 0x48ae
 {
+\
 0x9d
 0xce
 0x0b
@@ -35,7 +37,9 @@ PAGETHUMBSPROTOCOL_CID
 0x34
 0x78
 0x84
+\
 }
+\
 }
 class
 PageThumbsProtocol

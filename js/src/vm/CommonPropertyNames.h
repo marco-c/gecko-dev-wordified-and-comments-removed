@@ -178,6 +178,7 @@ MACRO
 (
 AsyncFromSyncIterator
 AsyncFromSyncIterator
+\
 "
 Async
 -
@@ -210,6 +211,7 @@ MACRO
 (
 AsyncGeneratorFunction
 AsyncGeneratorFunction
+\
 "
 AsyncGeneratorFunction
 "
@@ -560,6 +562,7 @@ MACRO
 (
 constructContentFunction
 constructContentFunction
+\
 "
 constructContentFunction
 "
@@ -605,6 +608,7 @@ MACRO
 (
 CopyDataPropertiesUnfiltered
 CopyDataPropertiesUnfiltered
+\
 "
 CopyDataPropertiesUnfiltered
 "
@@ -632,6 +636,7 @@ MACRO
 (
 CreateResolvingFunctions
 CreateResolvingFunctions
+\
 "
 CreateResolvingFunctions
 "
@@ -722,6 +727,7 @@ MACRO
 (
 DefaultBaseClassConstructor
 DefaultBaseClassConstructor
+\
 "
 DefaultBaseClassConstructor
 "
@@ -731,6 +737,7 @@ MACRO
 (
 DefaultDerivedClassConstructor
 DefaultDerivedClassConstructor
+\
 "
 DefaultDerivedClassConstructor
 "
@@ -978,6 +985,7 @@ MACRO
 (
 ErrorToStringWithTrailingNewline
 ErrorToStringWithTrailingNewline
+\
 "
 ErrorToStringWithTrailingNewline
 "
@@ -1360,6 +1368,7 @@ MACRO
 (
 getOwnPropertyDescriptor
 getOwnPropertyDescriptor
+\
 "
 getOwnPropertyDescriptor
 "
@@ -1612,6 +1621,7 @@ MACRO
 (
 InitializeDateTimeFormat
 InitializeDateTimeFormat
+\
 "
 InitializeDateTimeFormat
 "
@@ -1621,6 +1631,7 @@ MACRO
 (
 InitializeNumberFormat
 InitializeNumberFormat
+\
 "
 InitializeNumberFormat
 "
@@ -1639,6 +1650,7 @@ MACRO
 (
 InitializeRelativeTimeFormat
 InitializeRelativeTimeFormat
+\
 "
 InitializeRelativeTimeFormat
 "
@@ -1756,6 +1768,7 @@ MACRO
 (
 InterpretGeneratorResume
 InterpretGeneratorResume
+\
 "
 InterpretGeneratorResume
 "
@@ -2001,6 +2014,7 @@ MACRO
 (
 maximumSignificantDigits
 maximumSignificantDigits
+\
 "
 maximumSignificantDigits
 "
@@ -2055,6 +2069,7 @@ MACRO
 (
 minimumSignificantDigits
 minimumSignificantDigits
+\
 "
 minimumSignificantDigits
 "
@@ -2799,6 +2814,7 @@ MACRO
 (
 RelativeTimeFormatFormat
 RelativeTimeFormatFormat
+\
 "
 Intl_RelativeTimeFormat_Format
 "
@@ -2808,6 +2824,7 @@ MACRO
 (
 RequireObjectCoercible
 RequireObjectCoercible
+\
 "
 RequireObjectCoercible
 "
@@ -3464,6 +3481,7 @@ MACRO
 (
 UnwrapAndCallRegExpBuiltinExec
 UnwrapAndCallRegExpBuiltinExec
+\
 "
 UnwrapAndCallRegExpBuiltinExec
 "
@@ -3613,6 +3631,7 @@ MACRO
 (
 WeakMapConstructorInit
 WeakMapConstructorInit
+\
 "
 WeakMapConstructorInit
 "
@@ -3622,6 +3641,7 @@ MACRO
 (
 WeakSetConstructorInit
 WeakSetConstructorInit
+\
 "
 WeakSetConstructorInit
 "
@@ -3812,6 +3832,7 @@ MACRO
 (
 defineDataPropertyIntrinsic
 defineDataPropertyIntrinsic
+\
 "
 _DefineDataProperty
 "

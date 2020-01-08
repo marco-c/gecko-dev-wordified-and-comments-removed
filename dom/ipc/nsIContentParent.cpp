@@ -242,8 +242,10 @@ ASSERT_UNLESS_FUZZING
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (
@@ -570,6 +572,8 @@ escalate
 privileges
 !
 Aborting
+"
+"
 AllocPBrowserParent
 .
 "

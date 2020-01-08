@@ -2208,6 +2208,7 @@ ObservingLayoutFlushes
 \
 MOZ_ASSERT
 (
+\
 mDocument
 -
 >
@@ -27113,6 +27114,8 @@ a
 root
 prescontext
 from
+"
+"
 GetToplevelContentDocumentPresContext
 ?
 "
@@ -31342,6 +31345,8 @@ up
 outside
 the
 connected
+"
+"
 prescontext
 /
 viewmanager
@@ -35534,6 +35539,8 @@ keypress
 .
 hack
 .
+"
+"
 use_legacy_keycode_and_charcode
 "
 )
@@ -47176,6 +47183,8 @@ table
 border
 =
 1
+"
+"
 style
 =
 \

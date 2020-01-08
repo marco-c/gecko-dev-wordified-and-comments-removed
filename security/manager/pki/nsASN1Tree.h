@@ -70,15 +70,14 @@ h
 #
 define
 NS_NSSASN1OUTINER_CID
+\
 {
 \
 0x4bfaa9f0
-\
 0x1dd2
-\
 0x11b2
-\
 {
+\
 0xaf
 0xae
 0xa8
@@ -87,6 +86,7 @@ NS_NSSASN1OUTINER_CID
 0xa0
 0xb6
 0x06
+\
 }
 \
 }

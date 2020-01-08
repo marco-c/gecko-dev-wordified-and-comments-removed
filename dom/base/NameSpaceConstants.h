@@ -26,6 +26,7 @@ kNameSpaceID_None
 #
 define
 kNameSpaceID_XMLNS
+\
 1
 /
 /

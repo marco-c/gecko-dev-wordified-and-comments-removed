@@ -128,6 +128,7 @@ TLSFilterTransaction
 #
 define
 NS_DECL_NUDGETUNNELCALLBACK
+\
 void
 OnTunnelNudged
 (

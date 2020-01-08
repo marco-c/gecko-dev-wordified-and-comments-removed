@@ -230,6 +230,8 @@ Couldn
 t
 get
 entry
+"
+"
 \
 "
 %
@@ -347,6 +349,8 @@ zip
 Couldn
 '
 t
+"
+"
 get
 entry
 \

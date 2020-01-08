@@ -425,7 +425,6 @@ SourceEventType
 :
 type
 :
-\
 {
 \
 namePtr

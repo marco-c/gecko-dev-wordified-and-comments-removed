@@ -1046,7 +1046,6 @@ aActualName
 )
 \
 bool
-\
 IMMHandler
 :
 :
@@ -1059,7 +1058,6 @@ aReadableName
 Active
 (
 )
-\
 {
 \
 return
@@ -1072,7 +1070,6 @@ aActualName
 ;
 \
 }
-\
 IMPL_IS_IME_ACTIVE
 (
 ATOK2006
@@ -9421,6 +9418,8 @@ TextEventDispatcher
 AppendClauseToPendingComposition
 (
 )
+"
+"
 failure
 "
 )

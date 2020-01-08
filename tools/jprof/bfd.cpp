@@ -574,8 +574,10 @@ sp
 #
 define
 NEXT_SYMBOL
+\
 do
 {
+\
 sp
 +
 +

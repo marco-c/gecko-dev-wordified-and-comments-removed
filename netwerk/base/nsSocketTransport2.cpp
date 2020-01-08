@@ -3324,6 +3324,8 @@ s
 :
 %
 d
+"
+"
 proxy
 =
 %
@@ -5894,6 +5896,8 @@ are
 disabled
 and
 a
+"
+"
 connection
 "
 "
@@ -5943,6 +5947,8 @@ server
 if
 running
 xpcshell
+"
+"
 tests
 )
 .
@@ -5958,6 +5964,8 @@ redirected
 to
 a
 local
+"
+"
 server
 .
 \

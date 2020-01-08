@@ -2485,6 +2485,8 @@ ProcessNativeMouseWheelMessage
 Our
 normal
 window
+"
+"
 which
 "
 "
@@ -4718,6 +4720,8 @@ InitScrollLines
 (
 )
 :
+"
+"
 :
 :
 SystemParametersInfo
@@ -4919,6 +4923,8 @@ InitScrollChars
 (
 )
 :
+"
+"
 :
 :
 SystemParametersInfo
@@ -4934,6 +4940,8 @@ unexpected
 on
 Vista
 or
+"
+"
 later
 "
 )
@@ -5727,6 +5735,8 @@ GetWorkaroundPref
 Failed
 aPrefName
 is
+"
+"
 NULL
 "
 )
@@ -5782,6 +5792,8 @@ Preferences
 GetInt
 (
 )
+"
+"
 failed
 "
 "

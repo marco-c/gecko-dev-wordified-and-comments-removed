@@ -64,6 +64,7 @@ ADDREF_MANUALLY
 (
 obj
 )
+\
 (
 obj
 )
@@ -81,6 +82,7 @@ RELEASE_MANUALLY
 (
 obj
 )
+\
 (
 obj
 )

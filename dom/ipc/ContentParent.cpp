@@ -15979,6 +15979,7 @@ BLACKLIST_ENTRY
 (
 s
 )
+\
 {
 s
 (
@@ -22143,6 +22144,8 @@ the
 Observer
 service
 for
+"
+"
 ContentParent
 :
 :
@@ -30151,6 +30154,8 @@ out
 of
 process
 context
+"
+"
 0x
 %
 08

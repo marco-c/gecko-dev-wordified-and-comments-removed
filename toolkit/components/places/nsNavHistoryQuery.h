@@ -18,10 +18,12 @@ define
 NS_NAVHISTORYQUERY_IID
 \
 {
+\
 0xb10185e0
 0x86eb
 0x4612
 {
+\
 0x95
 0x7c
 0x09
@@ -30,7 +32,9 @@ NS_NAVHISTORYQUERY_IID
 0xb1
 0xce
 0xd7
+\
 }
+\
 }
 class
 nsNavHistoryQuery
@@ -435,10 +439,12 @@ define
 NS_NAVHISTORYQUERYOPTIONS_IID
 \
 {
+\
 0x95f8ba3b
 0xd681
 0x4d89
 {
+\
 0xab
 0xd1
 0xfd
@@ -447,7 +453,9 @@ NS_NAVHISTORYQUERYOPTIONS_IID
 0xa3
 0xde
 0x18
+\
 }
+\
 }
 class
 nsNavHistoryQueryOptions

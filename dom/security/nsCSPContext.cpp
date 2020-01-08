@@ -384,6 +384,7 @@ CSPCONTEXTLOG
 (
 args
 )
+\
 MOZ_LOG
 (
 GetCspContextLog
@@ -403,6 +404,7 @@ define
 CSPCONTEXTLOGENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 GetCspContextLog
@@ -1707,6 +1709,8 @@ nsCSPContext
 AppendPolicy
 added
 UPGRADE_IF_INSECURE_DIRECTIVE
+"
+"
 self
 -
 uri
@@ -2339,7 +2343,6 @@ nonceOrHash
 false
 )
 )
-\
 {
 \
 nsAutoString
@@ -2368,8 +2371,8 @@ TYPE_
 #
 #
 contentPolicyType
-\
 violatedDirective
+\
 &
 reportSample
 )
@@ -2379,23 +2382,20 @@ AsyncReportViolation
 (
 aTriggeringElement
 aCSPEventListener
-\
 nullptr
-blockedContentSource
 \
+blockedContentSource
 nullptr
 violatedDirective
-p
 \
+p
 NS_LITERAL_STRING
 (
 observerTopic
 )
-\
 aSourceFile
 \
 reportSample
-\
 ?
 aScriptSample
 :
@@ -2824,6 +2824,8 @@ query
 loadgroup
 ;
 sending
+"
+"
 reports
 may
 fail
@@ -4603,6 +4605,8 @@ available
 to
 send
 CSP
+"
+"
 violation
 reports
 "
@@ -5985,6 +5989,8 @@ nsIDocument
 from
 nsIDocShellTreeItem
 in
+"
+"
 nsCSPContext
 :
 :
@@ -6561,6 +6567,8 @@ report
 only
 policy
 ignoring
+"
+"
 sandbox
 in
 :

@@ -47,11 +47,12 @@ define
 MOZILLA_DOM_LINK_IMPLEMENTATION_IID
 \
 {
+\
 0xb25edee6
 0xdd35
 0x4f8b
-\
 {
+\
 0xab
 0x90
 0x66
@@ -60,7 +61,9 @@ MOZILLA_DOM_LINK_IMPLEMENTATION_IID
 0x3c
 0x22
 0xd5
+\
 }
+\
 }
 class
 Link

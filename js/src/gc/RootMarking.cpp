@@ -407,6 +407,7 @@ RootKind
 :
 name
 ]
+\
 "
 exact
 -
@@ -648,6 +649,7 @@ RootKind
 :
 name
 ]
+\
 "
 persistent
 -
@@ -3251,6 +3253,8 @@ zu
 of
 %
 zu
+"
+"
 address
 %
 p

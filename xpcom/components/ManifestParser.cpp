@@ -2596,6 +2596,8 @@ arguments
 for
 chrome
 manifest
+"
+"
 directive
 '
 %

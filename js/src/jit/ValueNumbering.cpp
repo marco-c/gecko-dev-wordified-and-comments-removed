@@ -3123,6 +3123,8 @@ in
 block
 without
 entry
+"
+"
 resume
 point
 "

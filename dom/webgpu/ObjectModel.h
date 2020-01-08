@@ -96,6 +96,7 @@ WrapObject
 JSContext
 *
 cx
+\
 JS
 :
 :
@@ -117,7 +118,6 @@ T
 \
 JSObject
 *
-\
 T
 :
 :
@@ -136,7 +136,6 @@ JSObject
 >
 givenProto
 )
-\
 {
 \
 return

@@ -115,6 +115,7 @@ __has_extension
 #
 define
 __has_extension
+\
 __has_feature
 /
 *
@@ -520,6 +521,7 @@ MOZ_HAVE_UNSIGNED_OVERFLOW_SANITIZE_ATTR
 #
 define
 MOZ_NO_SANITIZE_UNSIGNED_OVERFLOW
+\
 __attribute__
 (
 (
@@ -548,6 +550,7 @@ MOZ_HAVE_SIGNED_OVERFLOW_SANITIZE_ATTR
 #
 define
 MOZ_NO_SANITIZE_SIGNED_OVERFLOW
+\
 __attribute__
 (
 (
@@ -772,7 +775,6 @@ warning
 push
 )
 )
-\
 __pragma
 (
 warning
@@ -795,7 +797,6 @@ disable
 #
 define
 MOZ_POP_DISABLE_NONTRIVIAL_UNION_WARNINGS
-\
 __pragma
 (
 warning
@@ -867,6 +868,7 @@ moz_can_run_script
 #
 define
 MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
+\
 __attribute__
 (
 (
@@ -881,6 +883,7 @@ moz_can_run_script
 #
 define
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
+\
 __attribute__
 (
 (
@@ -965,6 +968,7 @@ moz_heap_class
 #
 define
 MOZ_NON_TEMPORARY_CLASS
+\
 __attribute__
 (
 (
@@ -1024,6 +1028,7 @@ DEBUG
 #
 define
 MOZ_ONLY_USED_TO_AVOID_STATIC_CONSTRUCTORS
+\
 __attribute__
 (
 (
@@ -1040,6 +1045,7 @@ else
 #
 define
 MOZ_ONLY_USED_TO_AVOID_STATIC_CONSTRUCTORS
+\
 __attribute__
 (
 (
@@ -1051,7 +1057,6 @@ moz_global_class
 )
 )
 )
-\
 MOZ_TRIVIAL_CTOR_DTOR
 #
 endif
@@ -1072,6 +1077,7 @@ moz_implicit
 #
 define
 MOZ_IS_SMARTPTR_TO_REFCOUNTED
+\
 __attribute__
 (
 (
@@ -1090,6 +1096,7 @@ MOZ_IS_SMARTPTR_TO_REFCOUNTED
 #
 define
 MOZ_NO_ARITHMETIC_EXPR_IN_ARGUMENT
+\
 __attribute__
 (
 (
@@ -1116,6 +1123,7 @@ reason
 #
 define
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
+\
 __attribute__
 (
 (
@@ -1144,6 +1152,7 @@ moz_must_use_type
 #
 define
 MOZ_NEEDS_NO_VTABLE_TYPE
+\
 __attribute__
 (
 (
@@ -1172,6 +1181,7 @@ moz_non_memmovable
 #
 define
 MOZ_NEEDS_MEMMOVABLE_TYPE
+\
 __attribute__
 (
 (
@@ -1186,6 +1196,7 @@ moz_needs_memmovable_type
 #
 define
 MOZ_NEEDS_MEMMOVABLE_MEMBERS
+\
 __attribute__
 (
 (
@@ -1200,6 +1211,7 @@ moz_needs_memmovable_members
 #
 define
 MOZ_NO_DANGLING_ON_TEMPORARIES
+\
 __attribute__
 (
 (
@@ -1249,7 +1261,6 @@ MOZ_IS_CLASS_INIT
 #
 define
 MOZ_NON_PARAM
-\
 __attribute__
 (
 (

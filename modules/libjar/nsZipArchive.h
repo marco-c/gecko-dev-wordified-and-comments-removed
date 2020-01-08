@@ -20,6 +20,7 @@ ZIP_TABSIZE
 #
 define
 ZIP_BUFLEN
+\
 (
 4
 *
@@ -124,6 +125,7 @@ MOZ_WIN_MEM_TRY_CATCH
 (
 cmd
 )
+\
 }
 \
 __except
@@ -134,13 +136,13 @@ GetExceptionCode
 =
 =
 EXCEPTION_IN_PAGE_ERROR
-?
 \
+?
 EXCEPTION_EXECUTE_HANDLER
+\
 :
 EXCEPTION_CONTINUE_SEARCH
 )
-\
 {
 \
 NS_WARNING

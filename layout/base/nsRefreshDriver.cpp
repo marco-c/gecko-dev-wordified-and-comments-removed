@@ -463,6 +463,7 @@ LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 sRefreshDriverLog
@@ -772,6 +773,8 @@ s
 not
 in
 the
+"
+"
 root
 refresh
 list
@@ -857,6 +860,8 @@ display
 root
 for
 a
+"
+"
 driver
 that
 is
@@ -898,6 +903,8 @@ is
 not
 in
 the
+"
+"
 content
 refresh
 list

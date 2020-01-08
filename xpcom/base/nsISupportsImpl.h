@@ -161,6 +161,7 @@ class
 "
 #
 X
+\
 "
 should
 not
@@ -303,6 +304,7 @@ NS_ASSERT_OWNINGTHREAD
 (
 _class
 )
+\
 NS_ASSERT_OWNINGTHREAD_AGGREGATE
 (
 this
@@ -382,7 +384,6 @@ _p
 _rc
 _type
 )
-\
 NS_LogRelease
 (
 (
@@ -473,6 +474,9 @@ to
 call
 MOZ_COUNT_CTOR
 or
+"
+\
+"
 MOZ_COUNT_DTOR
 "
 )
@@ -750,7 +754,6 @@ _p
 =
 nullptr
 )
-\
 NS_LogCOMPtrAddRef
 (
 (
@@ -777,7 +780,6 @@ if
 (
 _p
 )
-\
 NS_LogCOMPtrRelease
 (
 (
@@ -1785,7 +1787,6 @@ QueryInterface
 (
 REFNSIID
 aIID
-\
 void
 *
 *
@@ -1824,6 +1825,7 @@ FalseType
 HasThreadSafeRefCnt
 ;
 \
+\
 protected
 :
 \
@@ -1850,7 +1852,6 @@ QueryInterface
 (
 REFNSIID
 aIID
-\
 void
 *
 *
@@ -1889,6 +1890,7 @@ TrueType
 HasThreadSafeRefCnt
 ;
 \
+\
 protected
 :
 \
@@ -1914,6 +1916,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 \
 NS_DECL_THREADSAFE_ISUPPORTS_WITH_RECORDING
 (
+\
 mozilla
 :
 :
@@ -1958,7 +1961,6 @@ QueryInterface
 (
 REFNSIID
 aIID
-\
 void
 *
 *
@@ -2006,6 +2008,7 @@ mozilla
 FalseType
 HasThreadSafeRefCnt
 ;
+\
 \
 protected
 :
@@ -2135,7 +2138,6 @@ _class
 nsrefcnt
 count
 =
-\
 mRefCnt
 .
 incr
@@ -2282,7 +2284,6 @@ _class
 nsrefcnt
 count
 =
-\
 mRefCnt
 .
 decr
@@ -2342,7 +2343,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 NS_IMPL_CC_NATIVE_ADDREF_BODY
@@ -2356,6 +2356,7 @@ define
 NS_IMPL_CYCLE_COLLECTING_NATIVE_RELEASE_WITH_LAST_RELEASE
 (
 _class
+\
 _last
 )
 \
@@ -2370,7 +2371,6 @@ Release
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT
@@ -2548,7 +2548,6 @@ Release
 (
 void
 )
-\
 {
 \
 NS_IMPL_CC_NATIVE_RELEASE_BODY
@@ -2571,21 +2570,20 @@ NS_METHOD_
 (
 MozExternalRefCountType
 )
+\
 AddRef
 (
 void
 )
 {
-\
 NS_IMPL_CC_NATIVE_ADDREF_BODY
 (
 _class
 )
-\
 }
-\
 NS_METHOD_
 (
+\
 MozExternalRefCountType
 )
 Release
@@ -2609,6 +2607,7 @@ FalseType
 HasThreadSafeRefCnt
 ;
 \
+\
 protected
 :
 \
@@ -2624,6 +2623,7 @@ public
 define
 NS_INLINE_DECL_MAIN_THREAD_ONLY_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
+\
 _class
 )
 \
@@ -2634,19 +2634,18 @@ NS_METHOD_
 (
 MozExternalRefCountType
 )
+\
 AddRef
 (
 void
 )
 {
-\
 NS_IMPL_CC_MAIN_THREAD_ONLY_NATIVE_ADDREF_BODY
 (
+\
 _class
 )
-\
 }
-\
 NS_METHOD_
 (
 MozExternalRefCountType
@@ -2671,6 +2670,7 @@ mozilla
 FalseType
 HasThreadSafeRefCnt
 ;
+\
 \
 protected
 :
@@ -2848,6 +2848,7 @@ FalseType
 HasThreadSafeRefCnt
 ;
 \
+\
 protected
 :
 \
@@ -2885,6 +2886,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING_META
 _class
 _decl
 _recording
+\
 .
 .
 .
@@ -3034,6 +3036,7 @@ TrueType
 HasThreadSafeRefCnt
 ;
 \
+\
 protected
 :
 \
@@ -3049,6 +3052,7 @@ _recording
 mRefCnt
 ;
 \
+\
 public
 :
 #
@@ -3063,9 +3067,9 @@ _class
 \
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_META
 (
+\
 _class
 NS_METHOD_
-\
 mozilla
 :
 :
@@ -3091,9 +3095,9 @@ _class
 \
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_META
 (
+\
 _class
 NS_IMETHOD_
-\
 mozilla
 :
 :
@@ -3119,9 +3123,9 @@ _class
 \
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_META
 (
+\
 _class
 NS_METHOD_
-\
 mozilla
 :
 :
@@ -3147,9 +3151,9 @@ _class
 \
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_META
 (
+\
 _class
 NS_IMETHOD_
-\
 mozilla
 :
 :
@@ -3194,6 +3198,7 @@ void
 0
 ;
 \
+\
 public
 :
 #
@@ -3215,7 +3220,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
@@ -3261,7 +3265,6 @@ mRefCnt
 .
 isThreadSafe
 )
-\
 NS_ASSERT_OWNINGTHREAD
 (
 _class
@@ -3300,7 +3303,6 @@ NS_IMPL_ADDREF
 (
 _class
 )
-\
 NS_IMPL_NAMED_ADDREF
 (
 _class
@@ -3326,7 +3328,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
@@ -3405,7 +3406,6 @@ Release
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT
@@ -3445,7 +3445,6 @@ mRefCnt
 .
 isThreadSafe
 )
-\
 NS_ASSERT_OWNINGTHREAD
 (
 _class
@@ -3574,7 +3573,6 @@ Release
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT
@@ -3617,7 +3615,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
@@ -3711,7 +3708,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
@@ -3809,7 +3805,6 @@ Release
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT
@@ -3886,12 +3881,9 @@ DeleteCycleCollectable
 (
 void
 )
-\
 {
-\
 _destroy
 ;
-\
 }
 #
 define
@@ -3927,7 +3919,6 @@ Release
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT
@@ -4062,13 +4053,10 @@ DeleteCycleCollectable
 (
 void
 )
-\
 {
-\
 delete
 this
 ;
-\
 }
 #
 define
@@ -4088,7 +4076,6 @@ Release
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT
@@ -4168,18 +4155,16 @@ DeleteCycleCollectable
 (
 void
 )
-\
 {
-\
 delete
 this
 ;
-\
 }
 #
 define
 NS_IMPL_MAIN_THREAD_ONLY_CYCLE_COLLECTING_RELEASE_WITH_LAST_RELEASE
 (
+\
 _class
 _last
 )
@@ -4195,7 +4180,6 @@ Release
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT
@@ -4251,6 +4235,7 @@ decr
 NS_CycleCollectorSuspectUsingNursery
 >
 (
+\
 base
 &
 shouldDelete
@@ -4339,13 +4324,10 @@ DeleteCycleCollectable
 (
 void
 )
-\
 {
-\
 delete
 this
 ;
-\
 }
 struct
 QITableEntry
@@ -4399,7 +4381,6 @@ void
 *
 aInstancePtr
 )
-\
 {
 \
 NS_ASSERTION
@@ -4427,7 +4408,6 @@ NS_ERROR_FAILURE
 #
 define
 NS_INTERFACE_TABLE_BEGIN
-\
 static
 const
 QITableEntry
@@ -4453,13 +4433,13 @@ _interface
 \
 int32_t
 (
+\
 reinterpret_cast
 <
 char
 *
 >
 (
-\
 static_cast
 <
 _interface
@@ -4488,7 +4468,6 @@ _class
 0x1000
 )
 )
-\
 }
 #
 define
@@ -4514,7 +4493,6 @@ char
 *
 >
 (
-\
 static_cast
 <
 _interface
@@ -4528,7 +4506,6 @@ _implClass
 *
 >
 (
-\
 (
 _class
 *
@@ -4552,7 +4529,6 @@ _class
 0x1000
 )
 )
-\
 }
 #
 define
@@ -4565,7 +4541,9 @@ _ptr
 nullptr
 0
 }
+\
 }
+\
 ;
 \
 static_assert
@@ -4586,6 +4564,7 @@ table
 )
 >
 1
+\
 "
 need
 at
@@ -4608,7 +4587,6 @@ void
 (
 _ptr
 )
-\
 aIID
 aInstancePtr
 table
@@ -4619,6 +4597,7 @@ define
 NS_INTERFACE_TABLE_END
 \
 NS_INTERFACE_TABLE_END_WITH_PTR
+\
 (
 this
 )
@@ -4645,7 +4624,6 @@ NS_SUCCEEDED
 rv
 )
 )
-\
 return
 rv
 ;
@@ -4676,7 +4654,6 @@ NS_SUCCEEDED
 rv
 )
 )
-\
 return
 rv
 ;
@@ -4722,7 +4699,6 @@ void
 *
 aInstancePtr
 )
-\
 {
 \
 NS_ASSERTION
@@ -4847,7 +4823,6 @@ _interface
 *
 >
 (
-\
 static_cast
 <
 _implClass
@@ -4959,7 +4934,6 @@ if
 !
 foundInterface
 )
-\
 {
 \
 /
@@ -5000,9 +4974,7 @@ NS_NOINTERFACE
 ;
 \
 }
-\
 else
-\
 {
 \
 NS_ADDREF
@@ -5070,7 +5042,6 @@ foundInterface
 ;
 \
 else
-\
 {
 \
 NS_ADDREF
@@ -5150,7 +5121,6 @@ foundInterface
 \
 }
 else
-\
 {
 \
 NS_ADDREF
@@ -5409,7 +5379,6 @@ QueryInterface
 (
 REFNSIID
 aIID
-\
 void
 *
 *
@@ -5439,7 +5408,6 @@ void
 )
 override
 ;
-\
 namespace
 mozilla
 {
@@ -5538,7 +5506,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 NS_IMPL_ADDREF_INHERITED_GUTS
@@ -5630,7 +5597,6 @@ Release
 (
 void
 )
-\
 {
 \
 NS_IMPL_RELEASE_INHERITED_GUTS
@@ -5660,7 +5626,6 @@ AddRef
 (
 void
 )
-\
 {
 \
 MOZ_ASSERT_TYPE_OK_FOR_REFCOUNTING
@@ -5697,7 +5662,6 @@ Release
 (
 void
 )
-\
 {
 \
 return
@@ -5860,7 +5824,6 @@ NS_IMPL_RELEASE_INHERITED
 aClass
 aSuper
 )
-\
 #
 define
 NS_IMPL_ISUPPORTS_INHERITED
@@ -5994,7 +5957,6 @@ nsIID
 *
 _array
 )
-\
 {
 \
 return
@@ -6023,7 +5985,6 @@ nsIXPCScriptable
 *
 _retval
 )
-\
 {
 \
 *
@@ -6050,7 +6011,6 @@ nsACString
 &
 _contractID
 )
-\
 {
 \
 _contractID
@@ -6079,7 +6039,6 @@ nsACString
 &
 _classDescription
 )
-\
 {
 \
 _classDescription
@@ -6109,7 +6068,6 @@ nsCID
 *
 _classID
 )
-\
 {
 \
 *
@@ -6136,7 +6094,6 @@ uint32_t
 *
 _flags
 )
-\
 {
 \
 *
@@ -6166,7 +6123,6 @@ nsCID
 *
 _classIDNoAlloc
 )
-\
 {
 \
 return

@@ -42,6 +42,7 @@ LOG
 .
 .
 )
+\
 __android_log_print
 (
 ANDROID_LOG_INFO
@@ -58,6 +59,7 @@ WARN
 .
 .
 )
+\
 __android_log_print
 (
 ANDROID_LOG_WARN
@@ -74,6 +76,7 @@ ERROR
 .
 .
 )
+\
 __android_log_print
 (
 ANDROID_LOG_ERROR
@@ -107,7 +110,6 @@ N
 .
 .
 )
-\
 N
 #
 define

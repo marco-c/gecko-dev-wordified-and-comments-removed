@@ -6026,7 +6026,6 @@ what
 )
 \
 void
-\
 nsStandardURL
 :
 :
@@ -6035,7 +6034,6 @@ name
 int32_t
 diff
 )
-\
 {
 \
 if
@@ -11612,6 +11610,8 @@ other
 failed
 to
 ensure
+"
+"
 file
 "
 other

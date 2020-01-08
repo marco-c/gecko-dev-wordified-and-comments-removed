@@ -2185,6 +2185,7 @@ enabled
 #
 define
 GFX_PREF_FALLBACK_USE_CMAPS
+\
 "
 gfx
 .
@@ -2631,6 +2632,8 @@ InitChild
 (
 )
 before
+"
+"
 first
 GetPlatform
 (
@@ -6822,6 +6825,8 @@ gfxPlatform
 CreateDrawTargetForSurface
 failed
 in
+"
+"
 CreateDrawTargetForCairoSurface
 "
 ;
@@ -15182,6 +15187,8 @@ main
 -
 thread
 time
+"
+"
 %
 f
 full
@@ -15197,6 +15204,8 @@ Composite
 start
 %
 f
+"
+"
 Resource
 upload
 time
@@ -15212,6 +15221,8 @@ Render
 time
 %
 f
+"
+"
 Composite
 time
 %

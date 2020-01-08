@@ -5540,6 +5540,8 @@ p
 [
 url
 =
+"
+"
 %
 s
 ]
@@ -7084,10 +7086,12 @@ define
 WINDOWSTATEHOLDER_IID
 \
 {
+\
 0x0b917c3e
 0xbd50
 0x4683
 {
+\
 0xaf
 0xc9
 0xc7
@@ -7096,7 +7100,9 @@ WINDOWSTATEHOLDER_IID
 0xae
 0x33
 0x26
+\
 }
+\
 }
 class
 WindowStateHolder

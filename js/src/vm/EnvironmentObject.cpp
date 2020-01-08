@@ -11020,6 +11020,8 @@ prototype
 chain
 of
 a
+"
+"
 DebugEnvironmentProxyHandler
 "
 )

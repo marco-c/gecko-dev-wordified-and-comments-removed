@@ -45,6 +45,7 @@ Length
 _insert
 &
 &
+\
 static_cast
 <
 MatchesArray
@@ -87,7 +88,6 @@ NS_ERROR_ILLEGAL_VALUE
 ;
 \
 }
-\
 NS_IMPL_ISUPPORTS
 (
 nsAutoCompleteSimpleResult

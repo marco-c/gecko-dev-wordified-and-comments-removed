@@ -129,8 +129,10 @@ NATIVE_DRAWING_NOTE
 (
 m
 )
+\
 do
 {
+\
 }
 while
 (

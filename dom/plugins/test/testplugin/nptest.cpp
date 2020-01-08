@@ -4011,6 +4011,8 @@ browser
 windowed
 mode
 not
+"
+"
 supported
 by
 the
@@ -4333,6 +4335,8 @@ t
 create
 a
 plugin
+"
+"
 instance
 \
 n

@@ -231,7 +231,9 @@ testFilePtr
 \
 fprintf
 (
+\
 stderr
+\
 "
 Must
 specify
@@ -268,6 +270,7 @@ can
 safely
 call
 getenv
+\
 *
 /
 \
@@ -382,7 +385,6 @@ afl_fuzz_
 #
 #
 moduleName
-\
 )
 ;
 \
@@ -446,7 +448,6 @@ registerModule
 moduleName
 initFunc
 testFunc
-\
 )
 ;
 \
@@ -459,6 +460,7 @@ MOZ_LIBFUZZER_INTERFACE_RAW
 (
 initFunc
 testFunc
+\
 moduleName
 )
 #

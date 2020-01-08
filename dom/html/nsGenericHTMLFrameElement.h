@@ -84,11 +84,12 @@ define
 NS_GENERICHTMLFRAMEELEMENT_IID
 \
 {
+\
 0x8190db72
 0xdab0
 0x4d72
-\
 {
+\
 0x94
 0x26
 0x87
@@ -97,7 +98,9 @@ NS_GENERICHTMLFRAMEELEMENT_IID
 0x8a
 0x2a
 0xe5
+\
 }
+\
 }
 class
 nsGenericHTMLFrameElement

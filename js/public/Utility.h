@@ -146,6 +146,7 @@ JS_STATIC_ASSERT_IF
 cond
 expr
 )
+\
 MOZ_STATIC_ASSERT_IF
 (
 cond
@@ -395,8 +396,10 @@ define
 JS_OOM_CALL_BP_FUNC
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -902,7 +905,6 @@ ShouldFailWithOOM
 (
 )
 )
-\
 return
 nullptr
 ;
@@ -933,7 +935,6 @@ ShouldFailWithOOM
 (
 )
 )
-\
 return
 false
 ;
@@ -964,7 +965,6 @@ ShouldFailWithStackOOM
 (
 )
 )
-\
 return
 false
 ;
@@ -1078,8 +1078,10 @@ define
 JS_OOM_POSSIBLY_FAIL
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1090,8 +1092,10 @@ define
 JS_OOM_POSSIBLY_FAIL_BOOL
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1102,8 +1106,10 @@ define
 JS_STACK_OOM_POSSIBLY_FAIL
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1114,8 +1120,10 @@ define
 JS_STACK_OOM_POSSIBLY_FAIL_REPORT
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1126,8 +1134,10 @@ define
 JS_INTERRUPT_POSSIBLY_FAIL
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1586,7 +1596,6 @@ Args
 QUALIFIERS
 T
 *
-\
 MOZ_HEAP_ALLOCATOR
 NEWNAME
 (
@@ -1618,7 +1627,6 @@ MOZ_LIKELY
 (
 memory
 )
-\
 ?
 new
 (
@@ -1681,8 +1689,8 @@ DeletePolicy
 T
 >
 >
-\
 MOZ_HEAP_ALLOCATOR
+\
 MAKENAME
 (
 Args
@@ -2428,6 +2436,7 @@ STATIC_PRECONDITION_ASSUME
 (
 COND
 )
+\
 __attribute__
 (
 (
@@ -2460,6 +2469,7 @@ STATIC_POSTCONDITION_ASSUME
 (
 COND
 )
+\
 __attribute__
 (
 (
@@ -2522,10 +2532,10 @@ COND
 unused
 )
 )
-\
 int
 STATIC_PASTE1
 (
+\
 assume_static_
 __COUNTER__
 )
@@ -2576,12 +2586,14 @@ STATIC_ASSUME
 (
 COND
 )
+\
 JS_BEGIN_MACRO
 /
 *
 nothing
 *
 /
+\
 JS_END_MACRO
 #
 endif

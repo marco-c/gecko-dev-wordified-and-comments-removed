@@ -271,6 +271,7 @@ GETFUNC
 (
 name
 )
+\
 f_
 #
 #
@@ -302,6 +303,7 @@ f_
 name
 )
 {
+\
 __android_log_print
 (
 ANDROID_LOG_ERROR
@@ -317,9 +319,11 @@ s
 name
 )
 ;
+\
 return
 FAILURE
 ;
+\
 }
 GETFUNC
 (
@@ -370,6 +374,7 @@ NSPRFUNC
 (
 name
 )
+\
 f_
 #
 #
@@ -401,6 +406,7 @@ f_
 name
 )
 {
+\
 __android_log_print
 (
 ANDROID_LOG_ERROR
@@ -416,9 +422,11 @@ s
 name
 )
 ;
+\
 return
 FAILURE
 ;
+\
 }
 NSPRFUNC
 (
@@ -444,6 +452,7 @@ PLCFUNC
 (
 name
 )
+\
 f_
 #
 #
@@ -475,6 +484,7 @@ f_
 name
 )
 {
+\
 __android_log_print
 (
 ANDROID_LOG_ERROR
@@ -490,9 +500,11 @@ s
 name
 )
 ;
+\
 return
 FAILURE
 ;
+\
 }
 PLCFUNC
 (

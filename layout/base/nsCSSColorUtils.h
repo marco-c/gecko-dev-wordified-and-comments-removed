@@ -30,7 +30,6 @@ mozilla
 :
 Abs
 (
-\
 NS_GetLuminosity
 (
 a
@@ -38,6 +37,7 @@ a
 0xff000000
 )
 -
+\
 NS_GetLuminosity
 (
 b

@@ -10892,6 +10892,7 @@ DUMP_ATTR
 name
 display
 )
+\
 if
 (
 attrs
@@ -11000,6 +11001,7 @@ DUMP_FLAG
 name
 display
 )
+\
 if
 (
 immutableFlags

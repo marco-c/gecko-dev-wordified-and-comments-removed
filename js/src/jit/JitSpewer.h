@@ -1207,6 +1207,7 @@ fmt
 .
 .
 )
+\
 JitSpewCheckArguments
 (
 channel
@@ -1218,6 +1219,7 @@ JitSpewCheckExpandedArgs_
 (
 ArgList
 )
+\
 JitSpewCheckExpandedArgs
 ArgList
 /

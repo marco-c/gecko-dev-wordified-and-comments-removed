@@ -468,8 +468,10 @@ EXEC
 (
 s
 )
+\
 do
 {
+\
 if
 (
 !
@@ -483,6 +485,7 @@ __LINE__
 return
 false
 ;
+\
 }
 while
 (
@@ -525,8 +528,10 @@ EVAL
 s
 vp
 )
+\
 do
 {
+\
 if
 (
 !
@@ -541,6 +546,7 @@ vp
 return
 false
 ;
+\
 }
 while
 (
@@ -952,6 +958,8 @@ different
 signed
 inputs
 triggers
+"
+"
 compiler
 warnings
 "
@@ -991,6 +999,8 @@ signed
 inputs
 triggers
 compiler
+"
+"
 warnings
 "
 )
@@ -1172,7 +1182,6 @@ __FILE__
 __LINE__
 )
 )
-\
 return
 false
 ;
@@ -1369,6 +1378,7 @@ failed
 expr
 )
 __FILE__
+\
 __LINE__
 )
 ;
@@ -2083,6 +2093,7 @@ testname
 )
 \
 }
+\
 ;
 \
 static
@@ -2154,6 +2165,7 @@ testname
 )
 \
 }
+\
 ;
 \
 static

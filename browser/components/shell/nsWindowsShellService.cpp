@@ -284,7 +284,6 @@ REG_SUCCEEDED
 (
 val
 )
-\
 (
 val
 =
@@ -297,7 +296,6 @@ REG_FAILED
 (
 val
 )
-\
 (
 val
 !

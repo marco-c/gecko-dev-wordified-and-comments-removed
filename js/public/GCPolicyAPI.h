@@ -131,7 +131,6 @@ FOR_EACH_PUBLIC_AGGREGATE_GC_POINTER_TYPE
 (
 D
 )
-\
 D
 (
 JSPropertyDescriptor
@@ -482,6 +481,7 @@ Type
 template
 <
 >
+\
 struct
 GCPolicy
 <
@@ -500,6 +500,7 @@ Type
 template
 <
 >
+\
 struct
 GCPolicy
 <

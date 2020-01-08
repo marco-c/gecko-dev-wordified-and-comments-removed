@@ -1111,7 +1111,6 @@ DATA_STORAGE
 (
 _
 )
-\
 aItems
 .
 AppendElement

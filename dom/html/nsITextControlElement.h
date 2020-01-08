@@ -59,11 +59,12 @@ define
 NS_ITEXTCONTROLELEMENT_IID
 \
 {
+\
 0x3df7db6d
 0xa548
 0x4e20
-\
 {
+\
 0x97
 0xfd
 0x75
@@ -72,7 +73,9 @@ NS_ITEXTCONTROLELEMENT_IID
 0xa2
 0xf3
 0xd4
+\
 }
+\
 }
 class
 nsITextControlElement

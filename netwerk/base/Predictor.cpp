@@ -361,6 +361,7 @@ PREDICTOR_LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 gPredictorLog

@@ -1978,7 +1978,6 @@ diagnostic
 push
 "
 )
-\
 /
 *
 If
@@ -1987,6 +1986,7 @@ _Pragmas
 cause
 warnings
 for
+\
 you
 try
 disabling
@@ -2011,10 +2011,11 @@ value
 "
 "
 )
-\
 {
+\
 expr
 ;
+\
 }
 \
 _Pragma
@@ -2068,7 +2069,6 @@ variable
 "
 "
 )
-\
 expr
 ;
 \

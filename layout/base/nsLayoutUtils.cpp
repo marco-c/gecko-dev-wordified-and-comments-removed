@@ -1132,7 +1132,7 @@ dom
 HTMLMediaElement_Binding
 :
 :
-HAVE_NOTHING
+HAVE_METADATA
 ;
 using
 mozilla
@@ -1144,11 +1144,12 @@ dom
 HTMLMediaElement_Binding
 :
 :
-HAVE_METADATA
+HAVE_NOTHING
 ;
 #
 define
 INTERCHARACTER_RUBY_ENABLED_PREF_NAME
+\
 "
 layout
 .
@@ -4043,6 +4044,8 @@ content
 with
 no
 primary
+"
+"
 frame
 !
 "
@@ -9245,6 +9248,8 @@ its
 viewport
 (
 should
+"
+"
 never
 happen
 )
@@ -17851,6 +17856,8 @@ visible
 :
 %
 d
+"
+"
 special
 :
 %

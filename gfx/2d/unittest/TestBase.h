@@ -29,6 +29,7 @@ VERIFY
 (
 arg
 )
+\
 if
 (
 !
@@ -72,6 +73,7 @@ mTests
 .
 push_back
 (
+\
 Test
 (
 static_cast

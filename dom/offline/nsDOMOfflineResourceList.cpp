@@ -189,7 +189,6 @@ define
 IS_CHILD_PROCESS
 (
 )
-\
 (
 GeckoProcessType_Default
 !

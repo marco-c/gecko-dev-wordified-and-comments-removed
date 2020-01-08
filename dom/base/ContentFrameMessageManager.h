@@ -49,11 +49,12 @@ define
 NS_CONTENTFRAMEMESSAGEMANAGER_IID
 \
 {
+\
 0x97e192a6
 0xab7a
 0x4c8f
-\
 {
+\
 0xb7
 0xdd
 0xf7
@@ -62,7 +63,9 @@ NS_CONTENTFRAMEMESSAGEMANAGER_IID
 0x38
 0x71
 0xb5
+\
 }
+\
 }
 class
 ContentFrameMessageManager

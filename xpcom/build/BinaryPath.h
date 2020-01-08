@@ -92,7 +92,6 @@ __NetBSD__
 )
 |
 |
-\
 defined
 (
 __OpenBSD__

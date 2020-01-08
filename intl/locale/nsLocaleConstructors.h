@@ -59,7 +59,6 @@ func_
 \
 static
 nsresult
-\
 ctor_
 (
 nsISupports
@@ -72,7 +71,6 @@ void
 *
 aResult
 )
-\
 {
 \
 *
@@ -85,7 +83,6 @@ if
 (
 aOuter
 )
-\
 return
 NS_ERROR_NO_AGGREGATION
 ;

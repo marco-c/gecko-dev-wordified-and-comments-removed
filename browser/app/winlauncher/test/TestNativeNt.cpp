@@ -256,14 +256,12 @@ EXPECT_FAIL
 fn
 varName
 )
-\
 RUN_TEST
 (
 fn
 varName
 false
 )
-\
 #
 define
 EXPECT_SUCCESS
@@ -271,7 +269,6 @@ EXPECT_SUCCESS
 fn
 varName
 )
-\
 RUN_TEST
 (
 fn
@@ -598,6 +595,8 @@ to
 GetFileVersionInfoSizeW
 failed
 with
+"
+"
 code
 %
 lu
@@ -661,6 +660,8 @@ GetFileVersionInfoW
 failed
 with
 code
+"
+"
 %
 lu
 \
@@ -729,6 +730,8 @@ VerQueryValueW
 failed
 with
 code
+"
+"
 %
 lu
 \
@@ -849,6 +852,8 @@ obtain
 version
 information
 from
+"
+"
 kernel32
 .
 dll

@@ -1549,6 +1549,7 @@ else
 #
 define
 MOZ_FUNCTION_NAME
+\
 __func__
 /
 /
@@ -1565,9 +1566,6 @@ compilers
 .
 Just
 raw
-function
-name
-.
 #
 endif
 #
@@ -1611,6 +1609,7 @@ MOZ_FUNCTION_NAME
 \
 do
 {
+\
 }
 while
 (
@@ -1630,6 +1629,7 @@ MOZ_FUNCTION_NAME
 \
 do
 {
+\
 }
 while
 (
@@ -1833,6 +1833,7 @@ ASSERT_NOT_PASSING_STACK_BUFFER_TO_GL
 (
 ptr
 )
+\
 AssertNotPassingStackBufferToTheGL
 (
 ptr
@@ -1858,6 +1859,7 @@ func
 !
 =
 nullptr
+\
 "
 Mismatched
 symbol
@@ -1926,8 +1928,10 @@ TRACKING_CONTEXT
 (
 a
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1939,8 +1943,10 @@ ASSERT_NOT_PASSING_STACK_BUFFER_TO_GL
 (
 ptr
 )
+\
 do
 {
+\
 }
 while
 (
@@ -1952,8 +1958,10 @@ ASSERT_SYMBOL_PRESENT
 (
 func
 )
+\
 do
 {
+\
 }
 while
 (

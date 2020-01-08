@@ -25,11 +25,12 @@ define
 NS_ISIZEOFEVENTTARGET_IID
 \
 {
+\
 0xa1e08cb9
 0x5455
 0x4593
-\
 {
+\
 0xb4
 0x1f
 0x38
@@ -38,7 +39,9 @@ NS_ISIZEOFEVENTTARGET_IID
 0x44
 0xd0
 0xb5
+\
 }
+\
 }
 class
 nsISizeOfEventTarget

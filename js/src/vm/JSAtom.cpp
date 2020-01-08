@@ -986,6 +986,7 @@ name
 init
 clasp
 )
+\
 const
 char
 js_
@@ -1252,6 +1253,7 @@ idpart
 id
 text
 )
+\
 {
 js_
 #
@@ -1282,6 +1284,7 @@ name
 init
 clasp
 )
+\
 {
 js_
 #

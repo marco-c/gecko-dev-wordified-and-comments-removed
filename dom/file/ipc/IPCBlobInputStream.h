@@ -69,11 +69,12 @@ define
 IPCBLOBINPUTSTREAM_IID
 \
 {
+\
 0xbcfa38fc
 0x8b7f
 0x4d79
-\
 {
+\
 0xbe
 0x3a
 0x1e
@@ -82,7 +83,9 @@ IPCBLOBINPUTSTREAM_IID
 0x52
 0x38
 0xcd
+\
 }
+\
 }
 class
 nsIIPCBlobInputStream

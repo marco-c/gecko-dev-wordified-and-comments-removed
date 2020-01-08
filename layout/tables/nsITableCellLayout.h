@@ -27,6 +27,7 @@ more
 #
 define
 MAX_COLSPAN
+\
 1000
 /
 /

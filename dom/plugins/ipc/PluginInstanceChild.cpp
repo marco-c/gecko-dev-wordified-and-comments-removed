@@ -2527,6 +2527,8 @@ Unhandled
 NPNVariable
 %
 i
+"
+"
 (
 %
 s
@@ -3069,6 +3071,8 @@ Unhandled
 NPPVariable
 %
 i
+"
+"
 (
 %
 s
@@ -5515,6 +5519,8 @@ h
 %
 d
 >
+"
+"
 clip
 =
 <
@@ -14534,6 +14540,8 @@ h
 %
 d
 >
+"
+"
 clip
 =
 <
@@ -16358,6 +16366,8 @@ d
 >
 on
 surface
+"
+"
 <
 w
 =
@@ -16613,6 +16623,8 @@ y
 =
 %
 d
+"
+"
 w
 =
 %

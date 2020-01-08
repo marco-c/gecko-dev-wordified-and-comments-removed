@@ -50,10 +50,12 @@ define
 NS_NULLHTTPTRANSACTION_IID
 \
 {
+\
 0x6c445340
 0x3b82
 0x4345
 {
+\
 0x8e
 0xfa
 0x49
@@ -62,7 +64,9 @@ NS_NULLHTTPTRANSACTION_IID
 0xb8
 0x80
 0x5a
+\
 }
+\
 }
 class
 NullHttpTransaction

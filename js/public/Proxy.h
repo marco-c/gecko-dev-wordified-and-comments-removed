@@ -2474,13 +2474,11 @@ Class
 :
 NON_NATIVE
 |
-\
 JSCLASS_IS_PROXY
 |
 \
 JSCLASS_DELAY_METADATA_BUILDER
 |
-\
 js
 :
 :
@@ -2496,9 +2494,7 @@ js
 :
 :
 ProxyClassOps
-\
 JS_NULL_CLASS_SPEC
-\
 &
 js
 :

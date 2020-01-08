@@ -6988,6 +6988,8 @@ NPP_GetValue
 :
 Unhandled
 NPPVariable
+"
+"
 %
 i
 (
@@ -7144,6 +7146,8 @@ NPP_SetValue
 :
 Unhandled
 NPNVariable
+"
+"
 %
 i
 (

@@ -205,7 +205,6 @@ STYLE_STRUCT
 (
 name_
 )
-\
 NS_STYLE_SIZES_FIELD
 (
 name_
@@ -287,7 +286,6 @@ STYLE_STRUCT
 (
 name_
 )
-\
 total
 +
 =
@@ -316,7 +314,6 @@ STYLE_STRUCT
 (
 name_
 )
-\
 size_t
 NS_STYLE_SIZES_FIELD
 (
@@ -392,7 +389,6 @@ classname
 .
 .
 )
-\
 NS_ARENA_SIZES_FIELD
 (
 classname
@@ -510,7 +506,6 @@ classname
 .
 .
 )
-\
 total
 +
 =
@@ -557,7 +552,6 @@ classname
 .
 .
 )
-\
 size_t
 NS_ARENA_SIZES_FIELD
 (
@@ -770,7 +764,6 @@ MACRO
 Other
 mBindingsSize
 )
-\
 public
 :
 explicit

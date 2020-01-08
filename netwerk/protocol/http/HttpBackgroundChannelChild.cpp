@@ -137,6 +137,8 @@ httpChannel
 =
 %
 p
+"
+"
 channelId
 =
 %
@@ -1438,6 +1440,8 @@ HttpBackgroundChannelChild
 :
 :
 RecvNotifyTrackingProtectionDisabled
+"
+"
 [
 this
 =

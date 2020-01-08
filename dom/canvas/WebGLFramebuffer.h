@@ -511,6 +511,7 @@ ORDER_BY
 (
 X
 )
+\
 if
 (
 X
@@ -947,6 +948,7 @@ GETTER
 (
 X
 )
+\
 const
 decltype
 (

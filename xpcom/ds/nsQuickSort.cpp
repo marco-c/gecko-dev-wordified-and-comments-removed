@@ -115,6 +115,7 @@ parmi
 parmj
 n
 )
+\
 {
 \
 long
@@ -202,6 +203,7 @@ SWAPINIT
 a
 es
 )
+\
 swaptype
 =
 (
@@ -224,15 +226,16 @@ long
 )
 |
 |
-\
 es
 %
 sizeof
 (
 long
 )
+\
 ?
 2
+\
 :
 es
 =
@@ -376,6 +379,7 @@ a
 b
 n
 )
+\
 if
 (
 (

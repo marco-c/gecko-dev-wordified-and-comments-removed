@@ -664,6 +664,8 @@ failed
 to
 get
 a
+"
+"
 D3D11DeviceContextState
 "
 )

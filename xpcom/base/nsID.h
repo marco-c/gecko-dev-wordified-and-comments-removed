@@ -301,7 +301,6 @@ NS_DEFINE_CID
 _name
 _cidspec
 )
-\
 const
 nsCID
 _name
@@ -313,7 +312,6 @@ NS_DEFINE_NAMED_CID
 (
 _name
 )
-\
 static
 const
 nsCID
@@ -346,7 +344,6 @@ NS_DEFINE_IID
 _name
 _iidspec
 )
-\
 const
 nsIID
 _name
@@ -426,6 +423,7 @@ T
 kIID
 NS_HIDDEN
 =
+\
 the_iid
 ;
 #
@@ -443,6 +441,7 @@ GetCID
 (
 )
 {
+\
 static
 const
 nsID
@@ -450,9 +449,11 @@ cid
 =
 the_cid
 ;
+\
 return
 cid
 ;
+\
 }
 #
 define

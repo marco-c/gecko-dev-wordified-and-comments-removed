@@ -14430,6 +14430,8 @@ then
 actualStart
 <
 =
+"
+"
 UINT32_MAX
 "
 )
@@ -15163,6 +15165,8 @@ len
 actualDeleteCount
 +
 itemCount
+"
+"
 <
 =
 UINT32_MAX
@@ -16196,6 +16200,8 @@ should
 be
 rejected
 by
+"
+"
 GetIndexedPropertiesInRange
 "
 )
@@ -16386,6 +16392,8 @@ properties
 so
 we
 can
+"
+"
 directly
 initialize
 the
@@ -21552,6 +21560,8 @@ Array
 .
 prototype
 is
+"
+"
 initialized
 "
 )

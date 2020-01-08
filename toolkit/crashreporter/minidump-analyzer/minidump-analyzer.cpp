@@ -261,6 +261,12 @@ using
 std
 :
 :
+hex
+;
+using
+std
+:
+:
 ios
 ;
 using
@@ -268,12 +274,6 @@ std
 :
 :
 ios_base
-;
-using
-std
-:
-:
-hex
 ;
 using
 std

@@ -392,7 +392,7 @@ mozilla
 dom
 :
 :
-AutoJSAPI
+AutoEntryScript
 ;
 using
 mozilla
@@ -401,7 +401,7 @@ mozilla
 dom
 :
 :
-AutoEntryScript
+AutoJSAPI
 ;
 class
 XPCShellDirProvider
@@ -3793,7 +3793,6 @@ count
 exception
 format
 )
-\
 name
 =
 number
@@ -3830,7 +3829,6 @@ count
 exception
 format
 )
-\
 {
 #
 name
@@ -4608,6 +4606,8 @@ manifest
 -
 WwxiCSsmIp
 ]
+"
+"
 [
 -
 f
@@ -6949,6 +6949,8 @@ to
 obtain
 SystemPrincipal
 from
+"
+"
 ScriptSecurityManager
 service
 .
@@ -6992,6 +6994,8 @@ get
 ScriptSecurityManager
 service
 running
+"
+"
 without
 principals
 "

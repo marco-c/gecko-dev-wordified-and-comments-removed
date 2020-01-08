@@ -100,8 +100,8 @@ NativeType
 :
 Call
 )
-\
 (
+\
 jobject
 jmethodID
 CallArgs
@@ -127,8 +127,8 @@ NativeType
 :
 StaticCall
 )
-\
 (
+\
 jclass
 jmethodID
 CallArgs
@@ -154,11 +154,11 @@ NativeType
 :
 Get
 )
-\
 (
 jobject
 jfieldID
 )
+\
 ABIName
 ;
 \
@@ -177,8 +177,8 @@ NativeType
 :
 StaticGet
 )
-\
 (
+\
 jclass
 jfieldID
 )
@@ -200,10 +200,10 @@ NativeType
 :
 Set
 )
-\
 (
 jobject
 jfieldID
+\
 JNIType
 )
 ABIName
@@ -224,8 +224,8 @@ NativeType
 :
 StaticSet
 )
-\
 (
+\
 jclass
 jfieldID
 JNIType
@@ -248,8 +248,8 @@ NativeType
 :
 GetArray
 )
-\
 (
+\
 JNIType
 #
 #

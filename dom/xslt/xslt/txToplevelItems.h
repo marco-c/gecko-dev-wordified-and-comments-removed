@@ -116,7 +116,6 @@ txToplevelItem
 :
 :
 type
-\
 _class
 :
 :

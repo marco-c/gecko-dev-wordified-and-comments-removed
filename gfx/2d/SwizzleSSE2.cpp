@@ -695,6 +695,7 @@ UNPREMULQ_SSE2
 (
 x
 )
+\
 (
 0x10001U
 *

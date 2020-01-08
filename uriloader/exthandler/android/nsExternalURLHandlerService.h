@@ -16,10 +16,12 @@ define
 NS_EXTERNALURLHANDLERSERVICE_CID
 \
 {
+\
 0x4bf1f8ef
 0xd947
 0x4ba3
 {
+\
 0x9c
 0xd3
 0x8c
@@ -28,7 +30,9 @@ NS_EXTERNALURLHANDLERSERVICE_CID
 0xa6
 0x3a
 0x1c
+\
 }
+\
 }
 class
 nsExternalURLHandlerService

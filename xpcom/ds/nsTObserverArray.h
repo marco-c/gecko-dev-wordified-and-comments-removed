@@ -1407,6 +1407,7 @@ NS_OBSERVER_ARRAY_NOTIFY_XPCOM_OBSERVERS
 array_
 obstype_
 func_
+\
 params_
 )
 \
@@ -1540,6 +1541,7 @@ array_
 obstype_
 num_
 func_
+\
 params_
 )
 \
@@ -1605,6 +1607,7 @@ NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS_WITH_QI
 (
 array_
 basetype_
+\
 obstype_
 func_
 params_
@@ -1689,6 +1692,7 @@ while
 define
 NS_OBSERVER_AUTO_ARRAY_NOTIFY_OBSERVERS_WITH_QI
 (
+\
 array_
 basetype_
 num_

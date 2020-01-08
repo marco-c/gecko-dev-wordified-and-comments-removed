@@ -6925,6 +6925,8 @@ loadInfo
 assuming
 load
 is
+"
+"
 cross
 -
 origin
@@ -8300,6 +8302,8 @@ value
 s
 \
 "
+"
+"
 merge
 =
 %
@@ -8590,6 +8594,8 @@ value
 %
 s
 \
+"
+"
 "
 merge
 =
@@ -9016,6 +9022,8 @@ have
 a
 security
 info
+"
+"
 object
 already
 "
@@ -9057,6 +9065,8 @@ that
 are
 not
 bypassing
+"
+"
 interception
 "
 )
@@ -12966,6 +12976,8 @@ rc
 %
 p
 already
+"
+"
 added
 =
 %
@@ -13113,6 +13125,8 @@ same
 between
 LoadInfo
 and
+"
+"
 LoadContext
 .
 "
@@ -13332,6 +13346,8 @@ have
 the
 same
 inIsolatedMozBrowser
+"
+"
 attribute
 .
 "
@@ -17288,6 +17304,7 @@ NS_OK
 *
 _retval
 =
+\
 mChannelCreationTime
 +
 \

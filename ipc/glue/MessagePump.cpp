@@ -1284,7 +1284,9 @@ nsIThreadObserver
 #
 define
 CHECK_QUIT_STATE
+\
 {
+\
 if
 (
 state_
@@ -1293,9 +1295,12 @@ state_
 should_quit
 )
 {
+\
 break
 ;
+\
 }
+\
 }
 void
 MessagePumpForNonMainUIThreads

@@ -51,13 +51,13 @@ using
 GeckoContentController
 :
 :
-TapType
+APZStateChange
 ;
 using
 GeckoContentController
 :
 :
-APZStateChange
+TapType
 ;
 public
 :

@@ -53,7 +53,6 @@ g_new
 type
 num
 )
-\
 (
 (
 type
@@ -80,7 +79,6 @@ g_new0
 type
 num
 )
-\
 (
 (
 type
@@ -108,7 +106,6 @@ type
 ptr
 num
 )
-\
 (
 (
 type
@@ -168,6 +165,7 @@ G_GSIZE_FORMAT
 %
 "
 G_GSIZE_FORMAT
+\
 "
 bytes
 "

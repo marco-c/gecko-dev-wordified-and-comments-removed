@@ -1031,9 +1031,11 @@ RecordEvent
 (
 RecordedFilterNodeSetAttribute
 (
+\
 this
 aIndex
 aValue
+\
 RecordedFilterNodeSetAttribute
 :
 :
@@ -2223,6 +2225,8 @@ DrawTargetWrapAndRecord
 FillGlyphs
 failed
 to
+"
+"
 serialise
 UnscaledFont
 "

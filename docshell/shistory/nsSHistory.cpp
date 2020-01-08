@@ -204,6 +204,7 @@ max_entries
 #
 define
 PREF_SHISTORY_MAX_TOTAL_VIEWERS
+\
 "
 browser
 .
@@ -214,6 +215,7 @@ max_total_viewers
 #
 define
 CONTENT_VIEWER_TIMEOUT_SECONDS
+\
 "
 browser
 .
@@ -429,7 +431,6 @@ body
 )
 \
 PR_BEGIN_MACRO
-\
 {
 \
 nsAutoTObserverArray
@@ -440,7 +441,6 @@ nsWeakPtr
 :
 :
 EndLimitedIterator
-\
 iter
 (
 mListeners
@@ -499,14 +499,12 @@ args
 \
 ITERATE_LISTENERS
 (
-\
 listener
 -
 >
 method
 args
 ;
-\
 )
 ;
 #
@@ -519,7 +517,6 @@ args
 )
 \
 PR_BEGIN_MACRO
-\
 {
 \
 bool
@@ -535,7 +532,6 @@ true
 \
 ITERATE_LISTENERS
 (
-\
 listener
 -
 >
@@ -549,14 +545,11 @@ if
 retval
 )
 {
-\
 canceled
 =
 true
 ;
-\
 }
-\
 )
 ;
 \

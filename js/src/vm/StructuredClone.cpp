@@ -236,6 +236,12 @@ namespace
 js
 ;
 using
+JS
+:
+:
+CanonicalizeNaN
+;
+using
 mozilla
 :
 :
@@ -258,12 +264,6 @@ mozilla
 :
 :
 RangedPtr
-;
-using
-JS
-:
-:
-CanonicalizeNaN
 ;
 enum
 StructuredDataType

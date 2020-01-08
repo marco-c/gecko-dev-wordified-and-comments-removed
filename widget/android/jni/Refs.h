@@ -5155,7 +5155,6 @@ ArrayRefBase
 JNIType
 ElementType
 >
-\
 {
 \
 public
@@ -5179,7 +5178,6 @@ ElementType
 (
 ctx
 )
-\
 {
 }
 \

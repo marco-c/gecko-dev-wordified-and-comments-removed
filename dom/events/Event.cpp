@@ -4277,6 +4277,7 @@ _struct
 case
 _message
 :
+\
 return
 #
 name_

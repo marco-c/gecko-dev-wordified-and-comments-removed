@@ -90,6 +90,7 @@ args
 #
 define
 MOZ_MAX_DHCP_OPTION_LENGTH
+\
 255
 /
 /
@@ -171,6 +172,8 @@ nsWindowsDHCPClient
 :
 :
 GetOption
+"
+"
 due
 to
 error
@@ -303,6 +306,8 @@ nsWindowsDHCPClient
 GetOption
 due
 to
+"
+"
 error
 %
 d
@@ -337,11 +342,12 @@ define
 NS_WINDOWSDHCPCLIENTSERVICE_CID
 \
 {
+\
 0xFEBF1D69
 0x4D7D
 0x4891
-\
 {
+\
 0x95
 0x24
 0x04
@@ -350,7 +356,9 @@ NS_WINDOWSDHCPCLIENTSERVICE_CID
 0x8b
 0x55
 0x92
+\
 }
+\
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (

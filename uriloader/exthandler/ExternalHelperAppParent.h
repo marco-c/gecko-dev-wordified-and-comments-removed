@@ -83,11 +83,12 @@ define
 NS_IEXTERNALHELPERAPPPARENT_IID
 \
 {
+\
 0x127a01bc
 0x2a49
 0x46a8
-\
 {
+\
 0x8c
 0x63
 0x4b
@@ -96,7 +97,9 @@ NS_IEXTERNALHELPERAPPPARENT_IID
 0xa4
 0x07
 0x9c
+\
 }
+\
 }
 class
 nsIExternalHelperAppParent

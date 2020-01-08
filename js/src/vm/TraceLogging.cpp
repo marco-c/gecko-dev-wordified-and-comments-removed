@@ -3903,6 +3903,8 @@ n
 AnnotateScripts
 Bailout
 Baseline
+"
+"
 BaselineCompilation
 GC
 \
@@ -3912,6 +3914,8 @@ n
 GCAllocation
 GCSweeping
 Interpreter
+"
+"
 IonAnalysis
 IonCompilation
 \
@@ -3922,6 +3926,8 @@ IonLinking
 IonMonkey
 MinorGC
 Frontend
+"
+"
 ParsingFull
 \
 n
@@ -3930,6 +3936,8 @@ n
 ParsingSyntax
 BytecodeEmission
 IrregexpCompile
+"
+"
 IrregexpExecute
 \
 n
@@ -3954,6 +3962,8 @@ about
 compilation
 .
 It
+"
+"
 includes
 :
 \
@@ -3963,6 +3973,8 @@ n
 IonCompilation
 IonLinking
 PruneUnusedBranches
+"
+"
 FoldTests
 \
 n
@@ -3970,6 +3982,8 @@ n
 "
 SplitCriticalEdges
 RenumberBlocks
+"
+"
 ScalarReplacement
 \
 n
@@ -3978,6 +3992,8 @@ n
 DominatorTree
 PhiAnalysis
 MakeLoopsContiguous
+"
+"
 ApplyTypes
 \
 n
@@ -3988,6 +4004,8 @@ AliasAnalysis
 GVN
 LICM
 Sincos
+"
+"
 RangeAnalysis
 \
 n
@@ -3995,6 +4013,8 @@ n
 "
 LoopUnrolling
 FoldLinearArithConstants
+"
+"
 EffectiveAddressAnalysis
 \
 n
@@ -4002,6 +4022,8 @@ n
 "
 AlignmentMaskAnalysis
 EliminateDeadCode
+"
+"
 ReorderInstructions
 \
 n
@@ -4015,6 +4037,8 @@ n
 "
 AddKeepAliveInstructions
 GenerateLIR
+"
+"
 RegisterAllocation
 \
 n
@@ -4056,6 +4080,8 @@ about
 frontend
 compilation
 .
+"
+"
 It
 includes
 :
@@ -4073,6 +4099,8 @@ n
 "
 BytecodeEmission
 BytecodeFoldConstants
+"
+"
 BytecodeNameFunctions
 \
 n
@@ -4394,6 +4422,8 @@ Start
 logging
 helper
 threads
+"
+"
 immediately
 .
 \
@@ -4417,6 +4447,8 @@ tracelogger
 data
 to
 a
+"
+"
 file
 .
 \
@@ -4429,6 +4461,8 @@ errors
 during
 tracing
 to
+"
+"
 stderr
 .
 \

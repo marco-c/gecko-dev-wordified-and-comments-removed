@@ -501,20 +501,19 @@ GP_PLAT_amd64_linux
 )
 |
 |
-\
 defined
 (
 GP_PLAT_x86_linux
 )
 |
 |
+\
 defined
 (
 GP_PLAT_x86_android
 )
 |
 |
-\
 defined
 (
 GP_PLAT_mips64_linux
@@ -771,7 +770,6 @@ m
 name_
 ;
 }
-\
 #
 define
 PS_GET_LOCKLESS
@@ -796,7 +794,6 @@ m
 name_
 ;
 }
-\
 #
 define
 PS_GET_AND_SET
@@ -825,8 +822,8 @@ a
 #
 name_
 )
-\
 {
+\
 sInstance
 -
 >
@@ -840,6 +837,7 @@ a
 #
 name_
 ;
+\
 }
 class
 CorePS
@@ -2393,7 +2391,6 @@ Name_
 (
 PSLockRef
 )
-\
 {
 \
 return
@@ -9757,6 +9754,8 @@ instead
 of
 a
 time
+"
+"
 duration
 .
 "
@@ -9967,6 +9966,8 @@ will
 be
 sampled
 if
+"
+"
 any
 \
 n

@@ -42,6 +42,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla

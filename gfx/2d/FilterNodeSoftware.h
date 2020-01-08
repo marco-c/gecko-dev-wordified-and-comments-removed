@@ -3031,6 +3031,7 @@ MOZILLA_INTERNAL_API
 )
 &
 &
+\
 (
 defined
 (
@@ -3247,6 +3248,7 @@ MOZILLA_INTERNAL_API
 )
 &
 &
+\
 (
 defined
 (

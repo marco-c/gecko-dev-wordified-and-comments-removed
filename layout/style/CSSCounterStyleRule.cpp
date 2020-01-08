@@ -275,7 +275,6 @@ method_
 )
 \
 void
-\
 CSSCounterStyleRule
 :
 :
@@ -288,7 +287,6 @@ nsAString
 &
 aValue
 )
-\
 {
 \
 aValue
@@ -314,7 +312,6 @@ aValue
 }
 \
 void
-\
 CSSCounterStyleRule
 :
 :
@@ -328,7 +325,6 @@ nsAString
 &
 aValue
 )
-\
 {
 \
 NS_ConvertUTF16toUTF8

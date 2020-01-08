@@ -237,6 +237,7 @@ GET_APPCOMMAND_LPARAM
 (
 lParam
 )
+\
 (
 (
 short

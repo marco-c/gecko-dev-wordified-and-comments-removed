@@ -237,7 +237,6 @@ MOZ_MAKE_MEM_NOACCESS
 addr
 size
 )
-\
 __msan_poison
 (
 (
@@ -254,7 +253,6 @@ MOZ_MAKE_MEM_UNDEFINED
 addr
 size
 )
-\
 __msan_poison
 (
 (
@@ -271,7 +269,6 @@ MOZ_MAKE_MEM_DEFINED
 addr
 size
 )
-\
 __msan_unpoison
 (
 (
@@ -348,8 +345,10 @@ MOZ_MAKE_MEM_NOACCESS
 addr
 size
 )
+\
 do
 {
+\
 }
 while
 (
@@ -362,8 +361,10 @@ MOZ_MAKE_MEM_UNDEFINED
 addr
 size
 )
+\
 do
 {
+\
 }
 while
 (
@@ -376,8 +377,10 @@ MOZ_MAKE_MEM_DEFINED
 addr
 size
 )
+\
 do
 {
+\
 }
 while
 (

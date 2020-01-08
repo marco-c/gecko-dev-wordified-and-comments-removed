@@ -3924,6 +3924,8 @@ tests
 multiple
 transferables
 )
+"
+"
 succeeded
 !
 "

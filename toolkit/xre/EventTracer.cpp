@@ -99,6 +99,12 @@ using
 mozilla
 :
 :
+FireAndWaitForTracerEvent
+;
+using
+mozilla
+:
+:
 TimeDuration
 ;
 using
@@ -106,12 +112,6 @@ mozilla
 :
 :
 TimeStamp
-;
-using
-mozilla
-:
-:
-FireAndWaitForTracerEvent
 ;
 namespace
 {

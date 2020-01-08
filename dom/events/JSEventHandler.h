@@ -649,11 +649,12 @@ define
 NS_JSEVENTHANDLER_IID
 \
 {
+\
 0x4f486881
 0x1956
 0x4079
-\
 {
+\
 0x8c
 0xa0
 0xf3
@@ -662,7 +663,9 @@ NS_JSEVENTHANDLER_IID
 0x5c
 0xc2
 0x79
+\
 }
+\
 }
 class
 JSEventHandler

@@ -396,6 +396,7 @@ FILEWATCHERLOG
 .
 .
 )
+\
 MOZ_LOG
 (
 gNativeWatcherPRLog
@@ -1022,6 +1023,8 @@ Run
 Notification
 buffer
 has
+"
+"
 overflowed
 "
 )
@@ -1074,6 +1077,8 @@ Failed
 to
 dispatch
 change
+"
+"
 callbacks
 (
 %
@@ -1112,6 +1117,8 @@ completion
 port
 was
 closed
+"
+"
 (
 %
 x
@@ -1376,6 +1383,8 @@ Failed
 to
 dispatch
 change
+"
+"
 callbacks
 (
 %
@@ -1746,6 +1755,8 @@ AddPathRunnableMethod
 -
 CreateFileW
 failed
+"
+"
 (
 error
 %
@@ -2322,6 +2333,8 @@ RemovePathRunnableMethod
 Unable
 to
 remove
+"
+"
 the
 change
 "
@@ -2402,6 +2415,8 @@ RemovePathRunnableMethod
 Unable
 to
 remove
+"
+"
 the
 error
 "
@@ -2679,6 +2694,8 @@ DeactivateRunnableMethod
 We
 are
 already
+"
+"
 shutting
 down
 .
@@ -3501,6 +3518,8 @@ Failed
 to
 create
 a
+"
+"
 nsIFile
 instance
 .
@@ -3545,6 +3564,8 @@ Failed
 to
 init
 nsIFile
+"
+"
 with
 %
 S
@@ -3601,6 +3622,8 @@ append
 to
 %
 S
+"
+"
 (
 %
 x
@@ -3653,6 +3676,8 @@ to
 get
 native
 path
+"
+"
 from
 nsIFile
 (
@@ -3815,6 +3840,8 @@ create
 and
 dispatch
 the
+"
+"
 worker
 thread
 (

@@ -34,6 +34,7 @@ nsIDocument
 #
 define
 NS_CONTENTSECURITYMANAGER_CONTRACTID
+\
 "
 mozilla
 .
@@ -48,11 +49,12 @@ define
 NS_CONTENTSECURITYMANAGER_CID
 \
 {
+\
 0xcdcc1ab8
 0x3cea
 0x4e6c
-\
 {
+\
 0xa2
 0x94
 0xa6
@@ -61,7 +63,9 @@ NS_CONTENTSECURITYMANAGER_CID
 0x35
 0x22
 0x7f
+\
 }
+\
 }
 class
 nsContentSecurityManager

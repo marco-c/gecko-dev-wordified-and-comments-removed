@@ -465,6 +465,8 @@ chrome
 uri
 passed
 to
+"
+"
 nsChromeProtocolHandler
 :
 :

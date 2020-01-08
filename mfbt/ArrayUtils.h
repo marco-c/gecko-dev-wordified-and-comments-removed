@@ -709,6 +709,7 @@ MOZ_ARRAY_LENGTH
 (
 array
 )
+\
 sizeof
 (
 mozilla

@@ -1286,6 +1286,8 @@ went
 away
 !
 Modal
+"
+"
 dialog
 bug
 ?
@@ -1476,6 +1478,8 @@ XBL
 namespace
 on
 the
+"
+"
 bindings
 tag
 ?
@@ -2535,6 +2539,8 @@ id
 instead
 of
 name
+"
+"
 to
 reference
 bindings
@@ -2547,6 +2553,8 @@ switched
 over
 .
 The
+"
+"
 invalid
 binding
 name
@@ -4588,6 +4596,8 @@ the
 XBL
 namespace
 on
+"
+"
 the
 bindings
 tag

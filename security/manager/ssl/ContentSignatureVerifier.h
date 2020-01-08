@@ -51,11 +51,12 @@ define
 NS_CONTENTSIGNATUREVERIFIER_CID
 \
 {
+\
 0x45a5fe2f
 0xc350
 0x4b86
-\
 {
+\
 0x96
 0x2d
 0x02
@@ -64,7 +65,9 @@ NS_CONTENTSIGNATUREVERIFIER_CID
 0xaa
 0x95
 0x5a
+\
 }
+\
 }
 #
 define

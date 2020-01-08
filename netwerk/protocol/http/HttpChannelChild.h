@@ -221,11 +221,12 @@ define
 HTTP_CHANNEL_CHILD_IID
 \
 {
+\
 0x321bd99e
 0x2242
 0x4dc6
-\
 {
+\
 0xbb
 0xec
 0xd5
@@ -234,7 +235,9 @@ HTTP_CHANNEL_CHILD_IID
 0x7c
 0x39
 0x83
+\
 }
+\
 }
 namespace
 mozilla

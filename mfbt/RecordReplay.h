@@ -909,7 +909,6 @@ inline
 void
 aName
 aFormals
-\
 {
 \
 if
@@ -937,6 +936,7 @@ MOZ_MAKE_RECORD_REPLAY_WRAPPER
 aName
 aReturnType
 aDefaultValue
+\
 aFormals
 aActuals
 )
@@ -955,7 +955,6 @@ inline
 aReturnType
 aName
 aFormals
-\
 {
 \
 if
@@ -1006,6 +1005,7 @@ MOZ_MAKE_RECORD_REPLAY_WRAPPER
 aName
 aReturnType
 aDefaultValue
+\
 aFormals
 aActuals
 )

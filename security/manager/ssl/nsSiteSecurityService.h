@@ -108,11 +108,12 @@ define
 NS_SITE_SECURITY_SERVICE_CID
 \
 {
+\
 0x16955eee
 0x6c48
 0x4152
-\
 {
+\
 0x93
 0x09
 0xc4
@@ -121,7 +122,9 @@ NS_SITE_SECURITY_SERVICE_CID
 0x51
 0x38
 0xa1
+\
 }
+\
 }
 enum
 SecurityPropertyState

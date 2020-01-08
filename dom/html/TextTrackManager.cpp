@@ -181,6 +181,7 @@ WEBVTT_LOGV
 .
 .
 )
+\
 MOZ_LOG
 (
 gTextTrackLog
@@ -3653,6 +3654,8 @@ lf
 currentPlaybackTime
 %
 lf
+"
+"
 hasNormalPlayback
 %
 d

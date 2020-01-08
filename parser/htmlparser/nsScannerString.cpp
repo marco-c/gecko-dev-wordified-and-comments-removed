@@ -24,6 +24,7 @@ h
 #
 define
 MAX_CAPACITY
+\
 (
 (
 UINT32_MAX
@@ -34,7 +35,6 @@ char16_t
 )
 )
 -
-\
 (
 sizeof
 (

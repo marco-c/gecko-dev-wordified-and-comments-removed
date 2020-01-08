@@ -417,15 +417,14 @@ name_
 #
 RuleAt
 (
-\
 mRawRules
 aIndex
 &
 line
 &
 column
-\
 )
+\
 .
 Consume
 (
@@ -455,8 +454,8 @@ forget
 (
 )
 mStyleSheet
-\
 mParentRule
+\
 line
 column
 )

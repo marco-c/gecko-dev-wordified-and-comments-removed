@@ -37,6 +37,7 @@ source
 #
 define
 DEFAULT_FLAGS
+\
 (
 URI_NORELATIVE
 |

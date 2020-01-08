@@ -98,6 +98,7 @@ XBLBinding_Serialize_NoMoreBindings
 #
 define
 XBLBinding_Serialize_NoMoreItems
+\
 0
 /
 /

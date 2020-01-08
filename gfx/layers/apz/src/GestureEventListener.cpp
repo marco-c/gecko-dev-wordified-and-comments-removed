@@ -1410,6 +1410,8 @@ than
 moving
 points
 in
+"
+"
 GESTURE_MULTI_TOUCH_DOWN
 state
 "

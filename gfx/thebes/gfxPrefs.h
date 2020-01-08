@@ -84,6 +84,7 @@ Name
 (
 )
 {
+\
 MOZ_ASSERT
 (
 SingletonExists
@@ -91,6 +92,7 @@ SingletonExists
 )
 )
 ;
+\
 return
 GetSingleton
 (
@@ -103,6 +105,7 @@ Name
 .
 mValue
 ;
+\
 }
 \
 static
@@ -116,6 +119,7 @@ Type
 aVal
 )
 {
+\
 MOZ_ASSERT
 (
 SingletonExists
@@ -139,6 +143,7 @@ UpdatePolicy
 :
 :
 Update
+\
 Get
 #
 #
@@ -151,6 +156,7 @@ PrefName
 aVal
 )
 ;
+\
 }
 \
 static
@@ -229,7 +235,9 @@ SetChangeCallback
 aCallback
 )
 ;
+\
 }
+\
 \
 private
 :
@@ -248,6 +256,7 @@ Name
 #
 #
 PrefDefault
+\
 Get
 #
 #
@@ -256,6 +265,7 @@ Name
 #
 PrefName
 >
+\
 mPref
 #
 #
@@ -279,6 +289,7 @@ Name
 (
 )
 {
+\
 MOZ_ASSERT
 (
 SingletonExists
@@ -318,6 +329,7 @@ BaseValue
 !
 val
 ;
+\
 }
 \
 static
@@ -331,6 +343,7 @@ bool
 aVal
 )
 {
+\
 MOZ_ASSERT
 (
 SingletonExists
@@ -354,6 +367,7 @@ UpdatePolicy
 :
 :
 Update
+\
 Get
 #
 #
@@ -370,6 +384,7 @@ aVal
 0
 )
 ;
+\
 }
 \
 static
@@ -448,7 +463,9 @@ SetChangeCallback
 aCallback
 )
 ;
+\
 }
+\
 \
 private
 :
@@ -467,6 +484,7 @@ Name
 #
 #
 PrefDefault
+\
 Get
 #
 #
@@ -475,6 +493,7 @@ Name
 #
 PrefName
 >
+\
 mPref
 #
 #

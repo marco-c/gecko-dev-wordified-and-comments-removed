@@ -3758,6 +3758,8 @@ HandleEvent
 Need
 a
 valid
+"
+"
 triggeringPrincipal
 "
 )

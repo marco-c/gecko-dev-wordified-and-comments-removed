@@ -274,11 +274,9 @@ Node
 node
 )
 {
-\
 return
 node
 ;
-\
 }
 FOR_EACH_PARSENODE_SUBCLASS
 (

@@ -103,11 +103,12 @@ define
 NS_IMAGE_TO_PIXBUF_CID
 \
 {
+\
 0xfc2389b8
 0xc650
 0x4093
-\
 {
+\
 0x9e
 0x42
 0xb0
@@ -116,7 +117,9 @@ NS_IMAGE_TO_PIXBUF_CID
 0x06
 0x85
 0xb7
+\
 }
+\
 }
 #
 endif

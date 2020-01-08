@@ -827,6 +827,8 @@ nsDeviceContextSpecWin
 :
 Init
 -
+"
+"
 deviceName
 /
 driverName
@@ -1785,6 +1787,8 @@ GetDataFromPrinter
 Couldn
 '
 t
+"
+"
 enumerate
 printers
 !
@@ -2131,6 +2135,8 @@ nsDeviceContextSpecWin
 :
 GetDataFromPrinter
 -
+"
+"
 DocumentProperties
 call
 failed
@@ -2202,6 +2208,8 @@ Couldn
 '
 t
 open
+"
+"
 printer
 :
 [
@@ -2611,6 +2619,8 @@ GetPrinterNameList
 Couldn
 '
 t
+"
+"
 enumerate
 printers
 !
@@ -3338,6 +3348,8 @@ EnumeratePrinterList
 Printers
 aren
 t
+"
+"
 allocated
 \
 n

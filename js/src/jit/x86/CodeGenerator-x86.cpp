@@ -139,6 +139,12 @@ js
 jit
 ;
 using
+JS
+:
+:
+GenericNaN
+;
+using
 mozilla
 :
 :
@@ -155,12 +161,6 @@ mozilla
 :
 :
 FloatingPoint
-;
-using
-JS
-:
-:
-GenericNaN
 ;
 CodeGeneratorX86
 :

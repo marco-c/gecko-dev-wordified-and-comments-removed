@@ -249,6 +249,18 @@ using
 mozilla
 :
 :
+MonitorAutoLock
+;
+using
+mozilla
+:
+:
+MonitorAutoUnlock
+;
+using
+mozilla
+:
+:
 dom
 :
 :
@@ -262,18 +274,6 @@ dom
 :
 :
 ScriptSettingsInitialized
-;
-using
-mozilla
-:
-:
-MonitorAutoLock
-;
-using
-mozilla
-:
-:
-MonitorAutoUnlock
 ;
 #
 define
@@ -295,7 +295,6 @@ if
 _cond
 )
 )
-\
 DebugAbort
 (
 __FILE__
@@ -3154,7 +3153,6 @@ without
 being
 closed
 "
-\
 "
 (
 mChannelState
@@ -3180,7 +3178,6 @@ without
 being
 closed
 "
-\
 "
 (
 mChannelState
@@ -3206,7 +3203,6 @@ without
 being
 closed
 "
-\
 "
 (
 mChannelState
@@ -3232,7 +3228,6 @@ without
 being
 closed
 "
-\
 "
 (
 mChannelState
@@ -3258,7 +3253,6 @@ without
 being
 closed
 "
-\
 "
 (
 mChannelState
@@ -6641,6 +6635,8 @@ than
 what
 '
 s
+"
+"
 being
 dispatched
 "
@@ -11503,6 +11499,8 @@ deserialized
 but
 the
 handler
+"
+"
 returned
 false
 (
@@ -11548,6 +11546,8 @@ but
 contained
 an
 illegal
+"
+"
 value
 "
 ;

@@ -525,6 +525,7 @@ LOGFOCUSNAVIGATION
 (
 args
 )
+\
 MOZ_LOG
 (
 gFocusNavigationLog
@@ -639,6 +640,7 @@ LOGCONTENTNAVIGATION
 format
 content
 )
+\
 LOGTAG
 (
 gFocusNavigationLog

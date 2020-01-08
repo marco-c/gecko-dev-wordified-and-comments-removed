@@ -28,7 +28,6 @@ h
 #
 define
 NS_SDBCONNECTION_CONTRACTID
-\
 "
 mozilla
 .

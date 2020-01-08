@@ -79,7 +79,7 @@ mozilla
 dom
 :
 :
-AutoJSAPI
+AutoEntryScript
 ;
 using
 mozilla
@@ -88,7 +88,7 @@ mozilla
 dom
 :
 :
-AutoEntryScript
+AutoJSAPI
 ;
 using
 xpc

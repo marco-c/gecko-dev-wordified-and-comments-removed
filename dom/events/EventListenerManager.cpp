@@ -390,7 +390,6 @@ mEventMessage
 eUnidentifiedEvent
 |
 |
-\
 ls
 -
 >

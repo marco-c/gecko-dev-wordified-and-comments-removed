@@ -1206,6 +1206,8 @@ MoveTransactionsToSpdy
 moving
 transaction
 list
+"
+"
 len
 =
 %
@@ -2777,6 +2779,8 @@ p
 ]
 closing
 transaction
+"
+"
 %
 p
 "
@@ -2903,6 +2907,8 @@ p
 early
 data
 not
+"
+"
 accepted
 "
 this
@@ -5857,6 +5863,8 @@ trans
 =
 %
 p
+"
+"
 response
 -
 head

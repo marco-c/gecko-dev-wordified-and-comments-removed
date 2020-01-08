@@ -2921,6 +2921,8 @@ no
 direct
 access
 to
+"
+"
 nsISiteSecurityService
 :
 :
@@ -5955,6 +5957,8 @@ no
 direct
 access
 to
+"
+"
 nsISiteSecurityService
 :
 :
@@ -7400,6 +7404,8 @@ no
 direct
 access
 to
+"
+"
 nsISiteSecurityService
 :
 :

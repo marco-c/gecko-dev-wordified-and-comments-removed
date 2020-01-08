@@ -158,13 +158,13 @@ using
 js
 :
 :
-Wrapper
+BaseProxyHandler
 ;
 using
 js
 :
 :
-BaseProxyHandler
+CheckedUnwrap
 ;
 using
 js
@@ -182,7 +182,7 @@ using
 js
 :
 :
-CheckedUnwrap
+Wrapper
 ;
 namespace
 xpc
@@ -245,6 +245,7 @@ key
 JSProto_Error
 JSProto_URIError
 )
+\
 "
 We
 depend
@@ -310,6 +311,7 @@ key
 JSProto_Int8Array
 JSProto_Uint8ClampedArray
 )
+\
 "
 We
 depend
@@ -2699,6 +2701,8 @@ origin
 boundaries
 consider
 using
+"
+"
 Components
 .
 utils
@@ -3770,6 +3774,8 @@ on
 [
 Object
 ]
+"
+"
 or
 [
 Array
@@ -3834,6 +3840,8 @@ cross
 origin
 object
 as
+"
+"
 property
 on
 [
@@ -3871,6 +3879,8 @@ overwrite
 accessor
 property
 on
+"
+"
 [
 Object
 ]
@@ -3919,6 +3929,8 @@ own
 Xray
 -
 resolved
+"
+"
 property
 on
 [

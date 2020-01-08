@@ -1567,6 +1567,8 @@ scope
 )
 scope
 key
+"
+"
 value
 "
 "

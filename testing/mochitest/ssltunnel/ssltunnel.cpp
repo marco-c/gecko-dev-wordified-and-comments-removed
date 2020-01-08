@@ -278,7 +278,6 @@ LOG_DEBUG
 (
 params
 )
-\
 _LOG_OUTPUT
 (
 LEVEL_DEBUG
@@ -291,7 +290,6 @@ LOG_INFO
 (
 params
 )
-\
 _LOG_OUTPUT
 (
 LEVEL_INFO
@@ -304,7 +302,6 @@ LOG_ERROR
 (
 params
 )
-\
 _LOG_OUTPUT
 (
 LEVEL_ERROR
@@ -352,7 +349,6 @@ define
 LOG_BEGIN_BLOCK
 (
 )
-\
 gLastLogLevel
 =
 LEVEL_SILENT
@@ -372,7 +368,6 @@ gLastLogLevel
 =
 LEVEL_ERROR
 )
-\
 LOG_ERROR
 (
 (
@@ -390,7 +385,6 @@ gLastLogLevel
 <
 LEVEL_ERROR
 )
-\
 _LOG_OUTPUT
 (
 gLastLogLevel
@@ -4054,6 +4048,8 @@ connected
 to
 the
 server
+"
+"
 sending
 OK
 to
@@ -4222,6 +4218,8 @@ connect
 request
 closing
 connection
+"
+"
 with
 %
 d
@@ -4575,6 +4573,8 @@ to
 write
 but
 ssl
+"
+"
 has
 not
 been
@@ -4866,6 +4866,8 @@ on
 http_proxy_only
 for
 this
+"
+"
 socket
 "
 )
@@ -4944,6 +4946,8 @@ setting
 other
 socket
 read
+"
+"
 flag
 "
 )
@@ -5754,6 +5758,8 @@ use
 '
 listen
 '
+"
+"
 option
 first
 "
@@ -7029,6 +7035,8 @@ option
 is
 not
 defined
+"
+"
 use
 '
 listen
@@ -7315,6 +7323,8 @@ is
 not
 defined
 use
+"
+"
 '
 listen
 '
@@ -7631,6 +7641,8 @@ database
 \
 n
 use
+"
+"
 certdbdir
 :
 <
@@ -7673,6 +7685,8 @@ configurations
 are
 ignored
 add
+"
+"
 httpproxy
 :
 1
@@ -8163,6 +8177,8 @@ or
 resp
 .
 and
+"
+"
 authenticate
 \
 n
@@ -8189,6 +8205,8 @@ server
 cert
 2
 '
+"
+"
 resp
 .
 \
@@ -8317,6 +8335,8 @@ just
 request
 a
 client
+"
+"
 certificate
 \
 n
@@ -8334,6 +8354,8 @@ This
 can
 only
 be
+"
+"
 used
 \
 n
@@ -8352,6 +8374,8 @@ listen
 '
 option
 has
+"
+"
 been
 \
 n

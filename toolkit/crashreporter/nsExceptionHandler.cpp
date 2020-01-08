@@ -726,13 +726,13 @@ using
 google_breakpad
 :
 :
-CrashGenerationServer
+ClientInfo
 ;
 using
 google_breakpad
 :
 :
-ClientInfo
+CrashGenerationServer
 ;
 #
 ifdef
@@ -7373,6 +7373,8 @@ failed
 crash
 reporter
 is
+"
+"
 vulnerable
 .
 \
@@ -11630,6 +11632,8 @@ events
 may
 not
 be
+"
+"
 produced
 .
 "
@@ -11943,6 +11947,8 @@ will
 go
 in
 an
+"
+"
 unusual
 location
 "
@@ -14077,6 +14083,8 @@ before
 in
 -
 process
+"
+"
 crashreporter
 !
 "

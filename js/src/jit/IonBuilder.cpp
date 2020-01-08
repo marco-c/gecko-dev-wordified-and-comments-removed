@@ -311,13 +311,13 @@ using
 JS
 :
 :
-TrackedStrategy
+TrackedOutcome
 ;
 using
 JS
 :
 :
-TrackedOutcome
+TrackedStrategy
 ;
 using
 JS

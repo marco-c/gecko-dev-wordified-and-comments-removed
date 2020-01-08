@@ -227,6 +227,7 @@ EVENT
 name_
 id_
 type_
+\
 struct_
 )
 #

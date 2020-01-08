@@ -4086,6 +4086,8 @@ d
 d
 %
 d
+"
+"
 %
 d
 <
@@ -6554,6 +6556,8 @@ FilterNodeTransformSoftware
 Render
 failed
 in
+"
+"
 CreateDrawTargetForData
 "
 ;
@@ -17825,6 +17829,7 @@ MOZILLA_INTERNAL_API
 )
 &
 &
+\
 (
 defined
 (

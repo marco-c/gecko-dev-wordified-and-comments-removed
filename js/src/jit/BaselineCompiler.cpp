@@ -5903,7 +5903,6 @@ OP
 )
 )
 )
-\
 return
 Method_Error
 ;

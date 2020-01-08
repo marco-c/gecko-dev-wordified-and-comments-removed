@@ -29,18 +29,21 @@ STYLE_STRUCT
 (
 name_
 )
+\
 struct
 Gecko
 #
 #
 name_
 {
+\
 nsStyle
 #
 #
 name_
 gecko
 ;
+\
 }
 ;
 #
@@ -78,6 +81,7 @@ name_
 )
 const
 {
+\
 return
 &
 name_
@@ -87,6 +91,7 @@ mPtr
 >
 gecko
 ;
+\
 }
 #
 include

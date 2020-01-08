@@ -55,6 +55,7 @@ funcName
 )
 override
 {
+\
 mA
 -
 >
@@ -62,6 +63,7 @@ funcName
 (
 )
 ;
+\
 mB
 -
 >
@@ -69,6 +71,7 @@ funcName
 (
 )
 ;
+\
 }
 #
 define
@@ -88,6 +91,7 @@ var1Name
 )
 override
 {
+\
 mA
 -
 >
@@ -96,6 +100,7 @@ funcName
 var1Name
 )
 ;
+\
 mB
 -
 >
@@ -104,6 +109,7 @@ funcName
 var1Name
 )
 ;
+\
 }
 class
 DrawTargetDual

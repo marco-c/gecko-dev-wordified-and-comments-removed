@@ -191,11 +191,12 @@ define
 NS_IFORMCONTROL_IID
 \
 {
+\
 0x4b89980c
 0x4dcd
 0x428f
-\
 {
+\
 0xb7
 0xad
 0x43
@@ -204,7 +205,9 @@ NS_IFORMCONTROL_IID
 0x29
 0x79
 0xec
+\
 }
+\
 }
 class
 nsIFormControl

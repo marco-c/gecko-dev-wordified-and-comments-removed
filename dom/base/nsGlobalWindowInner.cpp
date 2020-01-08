@@ -2004,13 +2004,13 @@ using
 mozilla
 :
 :
-TimeStamp
+TimeDuration
 ;
 using
 mozilla
 :
 :
-TimeDuration
+TimeStamp
 ;
 using
 mozilla
@@ -2057,7 +2057,6 @@ NS_WARNING
 (
 outer
 ?
-\
 "
 Inner
 window
@@ -2068,8 +2067,8 @@ active
 document
 .
 "
-:
 \
+:
 "
 No
 outer
@@ -2215,7 +2214,6 @@ NS_WARNING
 (
 outer
 ?
-\
 "
 Inner
 window
@@ -2226,8 +2224,8 @@ active
 document
 .
 "
-:
 \
+:
 "
 No
 outer
@@ -5140,6 +5138,8 @@ p
 [
 url
 =
+"
+"
 %
 s
 ]
@@ -23419,6 +23419,8 @@ observers
 No
 idle
 observer
+"
+"
 removed
 .
 "

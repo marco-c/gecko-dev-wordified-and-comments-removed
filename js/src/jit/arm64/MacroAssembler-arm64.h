@@ -105,13 +105,13 @@ using
 vixl
 :
 :
-Operand
+MemOperand
 ;
 using
 vixl
 :
 :
-MemOperand
+Operand
 ;
 struct
 ImmShiftedTag

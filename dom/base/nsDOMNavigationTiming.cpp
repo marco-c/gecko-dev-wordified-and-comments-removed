@@ -1577,6 +1577,8 @@ time
 between
 navigation
 start
+"
+"
 and
 first
 non
@@ -1791,6 +1793,8 @@ time
 between
 navigation
 start
+"
+"
 and
 first
 non
@@ -1974,6 +1978,8 @@ time
 between
 navigation
 start
+"
+"
 and
 DOMContentFlushed
 "

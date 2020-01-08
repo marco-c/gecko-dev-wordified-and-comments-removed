@@ -104,7 +104,6 @@ final
 :
 public
 EditorCommandBase
-\
 {
 \
 public

@@ -337,11 +337,12 @@ define
 HTTP_BASE_CHANNEL_IID
 \
 {
+\
 0x9d5cde03
 0xe6e9
 0x4612
-\
 {
+\
 0xbf
 0xef
 0xbb
@@ -350,7 +351,9 @@ HTTP_BASE_CHANNEL_IID
 0xbb
 0x74
 0x46
+\
 }
+\
 }
 class
 nsISecurityConsoleMessage

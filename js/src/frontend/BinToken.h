@@ -74,6 +74,7 @@ ArrowExpression
 F
 (
 ArrowExpressionContentsWithExpression
+\
 "
 ArrowExpressionContentsWithExpression
 "
@@ -82,6 +83,7 @@ ArrowExpressionContentsWithExpression
 F
 (
 ArrowExpressionContentsWithFunctionBody
+\
 "
 ArrowExpressionContentsWithFunctionBody
 "
@@ -130,6 +132,7 @@ AssertedDeclaredName
 F
 (
 AssertedMaybePositionalParameterName
+\
 "
 AssertedMaybePositionalParameterName
 "
@@ -210,6 +213,7 @@ AssignmentTargetIdentifier
 F
 (
 AssignmentTargetOrAssignmentTargetWithInitializer
+\
 "
 AssignmentTargetOrAssignmentTargetWithInitializer
 "
@@ -498,6 +502,7 @@ EagerArrowExpressionWithExpression
 F
 (
 EagerArrowExpressionWithFunctionBody
+\
 "
 EagerArrowExpressionWithFunctionBody
 "
@@ -714,6 +719,7 @@ FunctionDeclaration
 F
 (
 FunctionDeclarationOrClassDeclarationOrExpression
+\
 "
 FunctionDeclarationOrClassDeclarationOrExpression
 "
@@ -722,6 +728,7 @@ FunctionDeclarationOrClassDeclarationOrExpression
 F
 (
 FunctionDeclarationOrClassDeclarationOrVariableDeclaration
+\
 "
 FunctionDeclarationOrClassDeclarationOrVariableDeclaration
 "
@@ -818,6 +825,7 @@ ImportDeclaration
 F
 (
 ImportDeclarationOrExportDeclarationOrStatement
+\
 "
 ImportDeclarationOrExportDeclarationOrStatement
 "
@@ -874,6 +882,7 @@ LazyArrowExpressionWithExpression
 F
 (
 LazyArrowExpressionWithFunctionBody
+\
 "
 LazyArrowExpressionWithFunctionBody
 "
@@ -938,6 +947,7 @@ ListOfAssertedDeclaredName
 F
 (
 ListOfAssertedMaybePositionalParameterName
+\
 "
 ListOfAssertedMaybePositionalParameterName
 "
@@ -946,6 +956,7 @@ ListOfAssertedMaybePositionalParameterName
 F
 (
 ListOfAssignmentTargetOrAssignmentTargetWithInitializer
+\
 "
 ListOfAssignmentTargetOrAssignmentTargetWithInitializer
 "
@@ -1010,6 +1021,7 @@ ListOfExpressionOrTemplateElement
 F
 (
 ListOfImportDeclarationOrExportDeclarationOrStatement
+\
 "
 ListOfImportDeclarationOrExportDeclarationOrStatement
 "
@@ -1034,6 +1046,7 @@ ListOfObjectProperty
 F
 (
 ListOfOptionalBindingOrBindingWithInitializer
+\
 "
 ListOfOptionalBindingOrBindingWithInitializer
 "
@@ -1042,6 +1055,7 @@ ListOfOptionalBindingOrBindingWithInitializer
 F
 (
 ListOfOptionalSpreadElementOrExpression
+\
 "
 ListOfOptionalSpreadElementOrExpression
 "
@@ -1242,6 +1256,7 @@ OptionalBindingIdentifier
 F
 (
 OptionalBindingOrBindingWithInitializer
+\
 "
 OptionalBindingOrBindingWithInitializer
 "
@@ -1306,6 +1321,7 @@ OptionalStatement
 F
 (
 OptionalVariableDeclarationOrExpression
+\
 "
 OptionalVariableDeclarationOrExpression
 "

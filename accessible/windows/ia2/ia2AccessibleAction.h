@@ -134,7 +134,6 @@ long
 *
 nActions
 )
-\
 {
 \
 return
@@ -158,7 +157,6 @@ doAction
 long
 actionIndex
 )
-\
 {
 \
 return
@@ -186,7 +184,6 @@ BSTR
 *
 description
 )
-\
 {
 \
 return
@@ -208,22 +205,19 @@ HRESULT
 STDMETHODCALLTYPE
 get_keyBinding
 (
+\
 long
 actionIndex
-\
 long
 nMaxBinding
-\
 BSTR
 *
 *
 keyBinding
-\
 long
 *
 nBinding
 )
-\
 {
 \
 return
@@ -235,6 +229,7 @@ get_keyBinding
 actionIndex
 nMaxBinding
 keyBinding
+\
 nBinding
 )
 ;
@@ -253,7 +248,6 @@ BSTR
 *
 name
 )
-\
 {
 \
 return
@@ -282,7 +276,6 @@ BSTR
 *
 localizedName
 )
-\
 {
 \
 return
@@ -297,7 +290,5 @@ localizedName
 ;
 \
 }
-\
-\
 #
 endif

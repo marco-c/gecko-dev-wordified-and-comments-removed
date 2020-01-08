@@ -1273,6 +1273,8 @@ space
 after
 spewing
 graph
+"
+"
 information
 .
 "
@@ -1868,6 +1870,8 @@ pass
 (
 sync
 .
+"
+"
 compiled
 functions
 only
@@ -1893,6 +1897,8 @@ information
 gathered
 by
 the
+"
+"
 Gecko
 profiler
 .

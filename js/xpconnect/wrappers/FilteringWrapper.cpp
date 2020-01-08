@@ -1832,6 +1832,7 @@ failCantSetProto
 #
 define
 XOW
+\
 FilteringWrapper
 <
 CrossOriginXrayWrapper

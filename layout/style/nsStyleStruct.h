@@ -2475,12 +2475,14 @@ NS_FOR_VISIBLE_IMAGE_LAYERS_BACK_TO_FRONT_WITH_RANGE
 (
 var_
 layers_
+\
 start_
 count_
 )
 \
 NS_ASSERTION
 (
+\
 (
 int32_t
 )
@@ -2504,6 +2506,7 @@ layers_
 )
 .
 mImageCount
+\
 "
 Invalid
 layer
@@ -2532,6 +2535,7 @@ start_
 )
 +
 1
+\
 "
 Invalid
 layer
@@ -2552,6 +2556,7 @@ start_
 +
 1
 ;
+\
 var_
 -
 -
@@ -12623,7 +12628,6 @@ and
 T2
 )
 ;
-\
 #
 define
 STATIC_ASSERT_FIELD_OFFSET_MATCHES
@@ -12661,6 +12665,7 @@ between
 "
 #
 T1
+\
 "
 and
 "
@@ -12668,7 +12673,6 @@ and
 T2
 )
 ;
-\
 /
 *
 *

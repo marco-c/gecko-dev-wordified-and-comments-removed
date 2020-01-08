@@ -3135,6 +3135,7 @@ LIROP
 (
 x
 )
+\
 case
 LNode
 :
@@ -3144,6 +3145,7 @@ Opcode
 :
 x
 :
+\
 return
 NumSuccessorsHelper
 (
@@ -3278,6 +3280,7 @@ LIROP
 (
 x
 )
+\
 case
 LNode
 :
@@ -3287,6 +3290,7 @@ Opcode
 :
 x
 :
+\
 return
 GetSuccessorHelper
 (
@@ -3749,6 +3753,7 @@ LIROP
 (
 x
 )
+\
 case
 LNode
 :
@@ -3758,6 +3763,7 @@ Opcode
 :
 x
 :
+\
 return
 to
 #
@@ -4344,6 +4350,7 @@ LIROP
 (
 x
 )
+\
 static_assert
 (
 !

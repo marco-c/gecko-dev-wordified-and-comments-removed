@@ -694,6 +694,8 @@ you
 '
 re
 overriding
+"
+"
 GetD3D11Texture
 !
 "
@@ -780,6 +782,8 @@ D3D11
 TextureSourceD3D11
 :
 GetShaderResourceView
+"
+"
 CreateSRV
 failure
 "
@@ -3917,6 +3921,8 @@ D3D11
 !
 Use
 CreateFromSurface
+"
+"
 instead
 "
 )
@@ -8075,6 +8081,8 @@ DataTextureSourceD3D11
 :
 GetShaderResourceView
 CreateSRV
+"
+"
 failure
 "
 <

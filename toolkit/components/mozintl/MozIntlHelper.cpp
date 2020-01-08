@@ -35,10 +35,12 @@ define
 MOZ_MOZINTLHELPER_CID
 \
 {
+\
 0xb43c96be
 0x2b3a
 0x4dc4
 {
+\
 0x90
 0xe9
 0xb0
@@ -47,7 +49,9 @@ MOZ_MOZINTLHELPER_CID
 0x21
 0x9b
 0x68
+\
 }
+\
 }
 using
 namespace

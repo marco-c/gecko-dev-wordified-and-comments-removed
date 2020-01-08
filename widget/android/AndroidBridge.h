@@ -1382,11 +1382,12 @@ define
 NS_ANDROIDBRIDGE_CID
 \
 {
+\
 0x0FE2321D
 0xEBD9
 0x467D
-\
 {
+\
 0xA7
 0x43
 0x03
@@ -1395,7 +1396,9 @@ NS_ANDROIDBRIDGE_CID
 0x40
 0x59
 0x9E
+\
 }
+\
 }
 class
 nsAndroidBridge

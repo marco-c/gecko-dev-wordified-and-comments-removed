@@ -212,12 +212,6 @@ namespace
 js
 ;
 using
-mozilla
-:
-:
-AssertedCast
-;
-using
 JS
 :
 :
@@ -228,6 +222,12 @@ JS
 :
 :
 ToInt32
+;
+using
+mozilla
+:
+:
+AssertedCast
 ;
 DataViewObject
 *
@@ -530,6 +530,8 @@ numbers
 are
 less
 than
+"
+"
 DOUBLE_INTEGRAL_PRECISION_LIMIT
 "
 )

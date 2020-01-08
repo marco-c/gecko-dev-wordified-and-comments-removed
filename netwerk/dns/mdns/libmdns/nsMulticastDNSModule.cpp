@@ -54,11 +54,12 @@ define
 DNSSERVICEDISCOVERY_CID
 \
 {
+\
 0x8df43d23
 0xd3f9
 0x4dd5
-\
 {
+\
 0xb9
 0x65
 0xde
@@ -67,7 +68,9 @@ DNSSERVICEDISCOVERY_CID
 0xf6
 0xa4
 0x2c
+\
 }
+\
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
@@ -95,11 +98,12 @@ define
 DNSSERVICEINFO_CID
 \
 {
+\
 0x14a50f2b
 0x7ff6
 0x48a5
-\
 {
+\
 0x88
 0xe3
 0x61
@@ -108,7 +112,9 @@ DNSSERVICEINFO_CID
 0x11
 0xf5
 0xd3
+\
 }
+\
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (

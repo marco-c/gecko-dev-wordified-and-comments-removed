@@ -71,6 +71,7 @@ size
 #
 define
 STRETCH_CONSIDER_EMBELLISHMENTS
+\
 0x00000002
 /
 /

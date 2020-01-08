@@ -2822,6 +2822,7 @@ NS_OK
 *
 _retval
 =
+\
 mChannelCreationTime
 +
 \

@@ -2393,6 +2393,8 @@ query
 failed
 because
 there
+"
+"
 is
 no
 DHCP
@@ -2479,6 +2481,8 @@ query
 succeeded
 finding
 PAC
+"
+"
 URL
 %
 s
@@ -2702,6 +2706,8 @@ when
 auto
 -
 detecting
+"
+"
 proxy
 .
 Halting

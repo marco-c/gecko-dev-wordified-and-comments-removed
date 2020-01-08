@@ -316,8 +316,10 @@ MOZ_ASSERT_JNI_THREAD
 (
 thread
 )
+\
 do
 {
+\
 }
 while
 (

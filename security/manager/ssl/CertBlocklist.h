@@ -76,10 +76,12 @@ define
 NS_CERT_BLOCKLIST_CID
 \
 {
+\
 0x11aefd53
 0x2fbb
 0x4c92
 {
+\
 0xa0
 0xc1
 0x05
@@ -88,7 +90,9 @@ NS_CERT_BLOCKLIST_CID
 0xae
 0x42
 0xd0
+\
 }
+\
 }
 enum
 CertBlocklistItemMechanism

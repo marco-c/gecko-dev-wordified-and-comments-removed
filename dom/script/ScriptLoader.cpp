@@ -1708,6 +1708,8 @@ p
 result
 =
 =
+"
+"
 %
 u
 )
@@ -7476,6 +7478,8 @@ document
 without
 an
 active
+"
+"
 parser
 ;
 bug
@@ -11218,13 +11222,13 @@ using
 mozilla
 :
 :
-TimeStamp
+TimeDuration
 ;
 using
 mozilla
 :
 :
-TimeDuration
+TimeStamp
 ;
 if
 (
@@ -12361,6 +12365,8 @@ thread
 parsing
 )
 and
+"
+"
 Execute
 "
 aRequest
@@ -12613,6 +12619,8 @@ rv
 =
 %
 X
+"
+"
 script
 =
 %
@@ -13250,6 +13258,8 @@ large
 to
 be
 decoded
+"
+"
 correctly
 .
 "
@@ -13324,6 +13334,8 @@ rv
 %
 X
 output
+"
+"
 =
 %
 p
@@ -13462,6 +13474,8 @@ length
 =
 %
 u
+"
+"
 written
 =
 %

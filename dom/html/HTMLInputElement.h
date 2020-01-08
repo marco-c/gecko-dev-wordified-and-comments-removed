@@ -437,12 +437,6 @@ InputType
 public
 :
 using
-nsIConstraintValidation
-:
-:
-GetValidationMessage
-;
-using
 nsGenericHTMLFormElementWithState
 :
 :
@@ -453,6 +447,12 @@ nsGenericHTMLFormElementWithState
 :
 :
 GetFormAction
+;
+using
+nsIConstraintValidation
+:
+:
+GetValidationMessage
 ;
 enum
 class

@@ -16,11 +16,12 @@ define
 NSIIMAGETOPIXBUF_IID
 \
 {
+\
 0xdfa4ac93
 0x83f2
 0x4ab8
-\
 {
+\
 0x9b
 0x2a
 0x0f
@@ -29,7 +30,9 @@ NSIIMAGETOPIXBUF_IID
 0x2a
 0xeb
 0xe2
+\
 }
+\
 }
 class
 imgIContainer

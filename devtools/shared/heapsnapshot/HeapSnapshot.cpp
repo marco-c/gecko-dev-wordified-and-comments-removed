@@ -962,6 +962,7 @@ GET_STRING_OR_REF_WITH_PROP_NAMES
 (
 msg
 strPropertyName
+\
 refPropertyName
 )
 \
@@ -1063,7 +1064,6 @@ has_
 property
 (
 )
-\
 ?
 Some
 (

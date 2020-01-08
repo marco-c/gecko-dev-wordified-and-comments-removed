@@ -31,11 +31,12 @@ define
 NS_IGRIDPART_IID
 \
 {
+\
 0x07373ed7
 0xe947
 0x4a5e
-\
 {
+\
 0xb3
 0x6c
 0x69
@@ -44,7 +45,9 @@ NS_IGRIDPART_IID
 0x95
 0x67
 0x7b
+\
 }
+\
 }
 class
 nsIGridPart

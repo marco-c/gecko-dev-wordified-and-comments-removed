@@ -126,6 +126,7 @@ CSPUTILSLOG
 (
 args
 )
+\
 MOZ_LOG
 (
 GetCspUtilsLog
@@ -145,6 +146,7 @@ define
 CSPUTILSLOGENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 GetCspUtilsLog
@@ -3280,6 +3282,8 @@ aHashOrNonce
 s
 mInvalidated
 :
+"
+"
 %
 s
 "

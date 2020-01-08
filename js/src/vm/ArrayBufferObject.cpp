@@ -372,12 +372,6 @@ using
 mozilla
 :
 :
-Some
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
@@ -385,6 +379,12 @@ mozilla
 :
 :
 Nothing
+;
+using
+mozilla
+:
+:
+Some
 ;
 using
 mozilla
@@ -799,6 +799,7 @@ MOZ_VALGRIND
 )
 &
 &
+\
 defined
 (
 VALGRIND_DISABLE_ADDR_ERROR_REPORTING_IN_RANGE
@@ -904,6 +905,7 @@ MOZ_VALGRIND
 )
 &
 &
+\
 defined
 (
 VALGRIND_DISABLE_ADDR_ERROR_REPORTING_IN_RANGE
@@ -1115,6 +1117,7 @@ MOZ_VALGRIND
 )
 &
 &
+\
 defined
 (
 VALGRIND_ENABLE_ADDR_ERROR_REPORTING_IN_RANGE

@@ -1652,6 +1652,8 @@ oohwowlookthiscategoryissolong
 #
 thismethodislongtooo
 #
+"
+"
 thisobjectisnoslouch
 "
 ;
@@ -1722,6 +1724,8 @@ oohwowlookthiscategoryissolong
 #
 thismethodislongtooo
 #
+"
+"
 thisobjectisnoslouch2
 "
 ;
@@ -1947,6 +1951,8 @@ oohwowlookthiscategoryissolong
 #
 thismethodislongtooo
 #
+"
+"
 thisobjectisnoslouch
 "
 ;

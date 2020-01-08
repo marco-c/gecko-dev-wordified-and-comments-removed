@@ -412,6 +412,8 @@ should
 actually
 do
 some
+"
+"
 unescaping
 \
 n
@@ -5820,6 +5822,8 @@ minorType
 %
 s
 '
+"
+"
 description
 =
 '
@@ -5937,6 +5941,8 @@ description
 %
 s
 '
+"
+"
 mozillaFlags
 =
 '
@@ -6528,6 +6534,8 @@ description
 %
 s
 '
+"
+"
 mozillaFlags
 =
 '

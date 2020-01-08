@@ -166,7 +166,6 @@ define
 CURRENTSTATE_CHANGED
 (
 )
-\
 CurrentState
 (
 )

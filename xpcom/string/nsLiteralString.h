@@ -40,6 +40,7 @@ NS_LITERAL_STRING
 (
 s
 )
+\
 static_cast
 <
 const
@@ -77,6 +78,7 @@ NS_LITERAL_CSTRING
 (
 s
 )
+\
 static_cast
 <
 const

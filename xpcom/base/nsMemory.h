@@ -50,12 +50,10 @@ NS_MEMORY_CID
 /
 \
 0x30a04e40
-\
 0x38e7
-\
 0x11d4
-\
 {
+\
 0x8c
 0xf5
 0x00
@@ -64,6 +62,7 @@ NS_MEMORY_CID
 0xfc
 0x14
 0xa3
+\
 }
 \
 }
@@ -119,7 +118,6 @@ iter_
 =
 0
 )
-\
 freeFunc
 (
 (

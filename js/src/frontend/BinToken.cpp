@@ -84,6 +84,7 @@ WITH_VARIANT
 _
 SPEC_NAME
 )
+\
 BinaryASTSupport
 :
 :
@@ -123,6 +124,7 @@ WITH_VARIANT
 _
 SPEC_NAME
 )
+\
 BinaryASTSupport
 :
 :
@@ -162,6 +164,7 @@ WITH_VARIANT
 _
 SPEC_NAME
 )
+\
 BinaryASTSupport
 :
 :

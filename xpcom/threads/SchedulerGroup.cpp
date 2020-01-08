@@ -113,11 +113,12 @@ define
 NS_DISPATCHEREVENTTARGET_IID
 \
 {
+\
 0xbf4e36c8
 0x7d04
 0x4ef4
-\
 {
+\
 0xbb
 0xd8
 0x11
@@ -126,7 +127,9 @@ NS_DISPATCHEREVENTTARGET_IID
 0xdb
 0x4d
 0xf7
+\
 }
+\
 }
 class
 SchedulerEventTarget

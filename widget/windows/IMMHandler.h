@@ -592,7 +592,6 @@ Active
 (
 )
 ;
-\
 DECL_IS_IME_ACTIVE
 (
 ATOK2006

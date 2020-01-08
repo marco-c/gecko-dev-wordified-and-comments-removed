@@ -25,11 +25,12 @@ define
 NS_ISIZEOF_IID
 \
 {
+\
 0x61d05579
 0xd7ec
 0x485c
-\
 {
+\
 0xa4
 0x0c
 0x31
@@ -38,7 +39,9 @@ NS_ISIZEOF_IID
 0x5c
 0xf9
 0xf3
+\
 }
+\
 }
 class
 nsISizeOf

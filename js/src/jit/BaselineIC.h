@@ -1163,9 +1163,11 @@ DEF_KIND_STR
 (
 kindName
 )
+\
 case
 kindName
 :
+\
 return
 #
 kindName

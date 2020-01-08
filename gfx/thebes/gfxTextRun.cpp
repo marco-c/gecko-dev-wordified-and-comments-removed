@@ -3198,6 +3198,8 @@ with
 GLYPH_FILL
 GLYPH_STROKE
 or
+"
+"
 GLYPH_STROKE_UNDERNEATH
 "
 )
@@ -12801,7 +12803,6 @@ LogLevel
 :
 :
 Warning
-\
 (
 "
 (
@@ -13125,7 +13126,6 @@ LogLevel
 :
 :
 Warning
-\
 (
 "
 (
@@ -17214,7 +17214,6 @@ LogLevel
 :
 :
 Debug
-\
 (
 "
 (

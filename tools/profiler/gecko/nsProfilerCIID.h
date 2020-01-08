@@ -9,11 +9,12 @@ define
 NS_PROFILER_CID
 \
 {
+\
 0x25db9b8e
 0x8123
 0x4de1
-\
 {
+\
 0xb6
 0x6d
 0x8b
@@ -22,7 +23,9 @@ NS_PROFILER_CID
 0xf2
 0xcd
 0xf4
+\
 }
+\
 }
 #
 endif

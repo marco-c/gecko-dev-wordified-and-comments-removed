@@ -9153,6 +9153,8 @@ should
 have
 the
 same
+"
+"
 inIsolatedMozBrowser
 attribute
 .
@@ -9178,6 +9180,8 @@ have
 the
 same
 privateBrowsingId
+"
+"
 attribute
 .
 "
@@ -9434,6 +9438,8 @@ to
 Private
 Browsing
 after
+"
+"
 loading
 a
 document
@@ -10228,6 +10234,8 @@ url
 recursion
 ?
 )
+"
+"
 so
 giving
 up

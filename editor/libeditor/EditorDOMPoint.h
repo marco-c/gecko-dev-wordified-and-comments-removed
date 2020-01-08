@@ -1184,6 +1184,8 @@ isSome
 (
 )
 should
+"
+"
 be
 true
 "

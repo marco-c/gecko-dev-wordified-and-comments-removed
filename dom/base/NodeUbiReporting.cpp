@@ -28,7 +28,7 @@ JS
 ubi
 :
 :
-SimpleEdgeRange
+EdgeRange
 ;
 using
 JS
@@ -37,7 +37,7 @@ JS
 ubi
 :
 :
-EdgeRange
+SimpleEdgeRange
 ;
 const
 char16_t

@@ -154,6 +154,7 @@ FixedToIntRound
 (
 f
 )
+\
 (
 (
 f
@@ -173,7 +174,6 @@ f
 >
 16
 )
-\
 :
 -
 (
@@ -6967,6 +6967,7 @@ rv
 #
 define
 SMALL_GLYPH_RUN
+\
 128
 /
 /

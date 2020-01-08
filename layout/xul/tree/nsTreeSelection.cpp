@@ -2804,6 +2804,7 @@ nsTreeRange
 *
 macro_new_range
 =
+\
 new
 nsTreeRange
 (

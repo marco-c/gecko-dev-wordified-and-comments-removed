@@ -31,6 +31,7 @@ POLICYTOKENIZERLOG
 (
 args
 )
+\
 MOZ_LOG
 (
 GetPolicyTokenizerLog

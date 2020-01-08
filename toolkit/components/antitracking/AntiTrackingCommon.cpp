@@ -2579,6 +2579,8 @@ d
 )
 bailing
 out
+"
+"
 early
 "
 StaticPrefs
@@ -2897,6 +2899,8 @@ principal
 and
 tracking
 origin
+"
+"
 bailing
 out
 early
@@ -3049,6 +3053,8 @@ privacy
 .
 restrict3rdpartystorage
 .
+"
+"
 userInteractionRequiredForHosts
 "
 )
@@ -3404,6 +3410,8 @@ permission
 for
 us
 :
+"
+"
 trackingOrigin
 =
 %
@@ -3678,6 +3686,8 @@ on
 %
 s
 for
+"
+"
 trackingOrigin
 =
 %
@@ -3892,6 +3902,8 @@ to
 save
 in
 the
+"
+"
 permission
 manager
 "
@@ -4005,6 +4017,8 @@ to
 save
 in
 the
+"
+"
 permission
 manager
 "
@@ -4358,6 +4372,8 @@ the
 window
 '
 s
+"
+"
 principal
 instead
 "
@@ -4406,6 +4422,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -4503,6 +4521,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -5470,6 +5490,8 @@ loadInfo
 '
 s
 loading
+"
+"
 principal
 instead
 "
@@ -5545,6 +5567,8 @@ this
 is
 a
 document
+"
+"
 channel
 "
 "
@@ -5652,6 +5676,8 @@ the
 loadInfo
 '
 s
+"
+"
 triggering
 principal
 instead
@@ -5731,6 +5757,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -5861,6 +5889,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %
@@ -6301,6 +6331,8 @@ happening
 !
 Bail
 out
+"
+"
 early
 "
 )
@@ -6988,6 +7020,8 @@ non
 -
 default
 access
+"
+"
 code
 (
 %

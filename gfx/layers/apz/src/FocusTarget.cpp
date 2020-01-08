@@ -88,6 +88,7 @@ FMT
 .
 .
 )
+\
 printf_stderr
 (
 "
@@ -99,7 +100,6 @@ s
 :
 "
 FMT
-\
 XRE_IsParentProcess
 (
 )

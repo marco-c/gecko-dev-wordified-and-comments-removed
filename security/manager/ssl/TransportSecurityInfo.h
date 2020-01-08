@@ -560,11 +560,12 @@ define
 TRANSPORTSECURITYINFO_CID
 \
 {
+\
 0x16786594
 0x0296
 0x4471
-\
 {
+\
 0x80
 0x96
 0x8f
@@ -573,7 +574,9 @@ TRANSPORTSECURITYINFO_CID
 0x7c
 0xa4
 0x28
+\
 }
+\
 }
 #
 endif

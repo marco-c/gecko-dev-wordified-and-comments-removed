@@ -34,6 +34,7 @@ format
 .
 .
 )
+\
 CSFLog
 (
 CSF_LOG_ERROR
@@ -53,6 +54,7 @@ tag
 format
 va_list_arg
 )
+\
 CSFLogV
 (
 CSF_LOG_ERROR
@@ -72,6 +74,7 @@ format
 .
 .
 )
+\
 CSFLog
 (
 CSF_LOG_WARNING
@@ -91,6 +94,7 @@ tag
 format
 va_list_arg
 )
+\
 CSFLogV
 (
 CSF_LOG_WARNING
@@ -110,6 +114,7 @@ format
 .
 .
 )
+\
 CSFLog
 (
 CSF_LOG_INFO
@@ -129,6 +134,7 @@ tag
 format
 va_list_arg
 )
+\
 CSFLogV
 (
 CSF_LOG_INFO
@@ -148,6 +154,7 @@ format
 .
 .
 )
+\
 CSFLog
 (
 CSF_LOG_DEBUG
@@ -167,6 +174,7 @@ tag
 format
 va_list_arg
 )
+\
 CSFLogV
 (
 CSF_LOG_DEBUG
@@ -186,6 +194,7 @@ format
 .
 .
 )
+\
 CSFLog
 (
 CSF_LOG_VERBOSE
@@ -205,6 +214,7 @@ tag
 format
 va_list_arg
 )
+\
 CSFLogV
 (
 CSF_LOG_VERBOSE

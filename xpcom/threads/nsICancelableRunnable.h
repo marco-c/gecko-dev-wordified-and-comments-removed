@@ -16,11 +16,12 @@ define
 NS_ICANCELABLERUNNABLE_IID
 \
 {
+\
 0xde93dc4c
 0x5eea
 0x4eb7
-\
 {
+\
 0xb6
 0xd1
 0xdb
@@ -29,7 +30,9 @@ NS_ICANCELABLERUNNABLE_IID
 0xce
 0xf6
 0x5c
+\
 }
+\
 }
 class
 nsICancelableRunnable

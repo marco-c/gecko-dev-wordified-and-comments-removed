@@ -2405,7 +2405,6 @@ sCDataFinalizerClassOps
 #
 define
 CTYPESFN_FLAGS
-\
 (
 JSPROP_ENUMERATE
 |
@@ -2416,7 +2415,6 @@ JSPROP_PERMANENT
 #
 define
 CTYPESCTOR_FLAGS
-\
 (
 CTYPESFN_FLAGS
 |
@@ -2425,7 +2423,6 @@ JSFUN_CONSTRUCTOR
 #
 define
 CTYPESACC_FLAGS
-\
 (
 JSPROP_ENUMERATE
 |
@@ -2434,7 +2431,6 @@ JSPROP_PERMANENT
 #
 define
 CABIFN_FLAGS
-\
 (
 JSPROP_READONLY
 |
@@ -2443,7 +2439,6 @@ JSPROP_PERMANENT
 #
 define
 CDATAFN_FLAGS
-\
 (
 JSPROP_READONLY
 |
@@ -2452,7 +2447,6 @@ JSPROP_PERMANENT
 #
 define
 CDATAFINALIZERFN_FLAGS
-\
 (
 JSPROP_READONLY
 |
@@ -10651,6 +10645,7 @@ typeObj_
 #
 name
 =
+\
 CType
 :
 :
@@ -10661,15 +10656,14 @@ ctypesObj
 #
 name
 CTypeProto
-\
 CDataProto
+\
 #
 name
 TYPE_
 #
 #
 name
-\
 typeVal
 alignVal
 &
@@ -10685,7 +10679,6 @@ typeObj_
 #
 name
 )
-\
 return
 false
 ;
@@ -12557,7 +12550,6 @@ fromType
 (
 )
 )
-\
 return
 false
 ;
@@ -12967,7 +12959,6 @@ fromType
 (
 )
 )
-\
 return
 false
 ;
@@ -14910,7 +14901,6 @@ if
 !
 proto
 )
-\
 return
 false
 ;
@@ -14971,7 +14961,6 @@ if
 !
 proto
 )
-\
 return
 false
 ;
@@ -15008,7 +14997,6 @@ if
 !
 obj
 )
-\
 return
 false
 ;
@@ -15860,8 +15848,8 @@ val
 convType
 funObj
 argIndex
-\
 arrObj
+\
 arrIndex
 )
 ;
@@ -15884,7 +15872,6 @@ if
 !
 linear
 )
-\
 return
 false
 ;
@@ -15925,8 +15912,8 @@ val
 convType
 funObj
 argIndex
-\
 arrObj
+\
 arrIndex
 )
 ;
@@ -16011,8 +15998,8 @@ val
 convType
 funObj
 argIndex
-\
 arrObj
+\
 arrIndex
 )
 ;
@@ -16092,8 +16079,8 @@ val
 convType
 funObj
 argIndex
-\
 arrObj
+\
 arrIndex
 )
 ;

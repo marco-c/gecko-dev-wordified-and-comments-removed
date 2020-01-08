@@ -31799,10 +31799,6 @@ noBase
 since
 we
 know
-it
-is
-hasSib
-!
 putModRmSib
 (
 ModRmMemoryNoDisp

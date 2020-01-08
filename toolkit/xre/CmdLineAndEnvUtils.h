@@ -366,8 +366,8 @@ literal
 template
 <
 >
-inline
 \
+inline
 const
 char
 *
@@ -381,7 +381,6 @@ enum_name
 >
 (
 )
-\
 {
 \
 return
@@ -394,8 +393,8 @@ literal
 template
 <
 >
-inline
 \
+inline
 const
 wchar_t
 *
@@ -409,7 +408,6 @@ enum_name
 >
 (
 )
-\
 {
 \
 return

@@ -254,6 +254,7 @@ WAKE_LOCK_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 gWinWakeLockLog

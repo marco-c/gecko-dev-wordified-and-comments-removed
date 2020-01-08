@@ -194,6 +194,12 @@ WasmProcess
 h
 "
 using
+js
+:
+:
+FutexThread
+;
+using
 JS
 :
 :
@@ -210,12 +216,6 @@ detail
 :
 :
 libraryInitState
-;
-using
-js
-:
-:
-FutexThread
 ;
 InitState
 JS
@@ -343,8 +343,10 @@ RETURN_IF_FAIL
 (
 code
 )
+\
 do
 {
+\
 if
 (
 !
@@ -357,6 +359,7 @@ code
 failed
 "
 ;
+\
 }
 while
 (

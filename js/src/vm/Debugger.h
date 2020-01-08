@@ -441,6 +441,12 @@ using
 Base
 :
 :
+all
+;
+using
+Base
+:
+:
 lookup
 ;
 using
@@ -454,12 +460,6 @@ Base
 :
 :
 remove
-;
-using
-Base
-:
-:
-all
 ;
 using
 Base

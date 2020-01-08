@@ -194,6 +194,7 @@ GET_HEADER_DICTIONARY
 module
 idx
 )
+\
 &
 (
 module
@@ -839,6 +840,8 @@ i
 readable
 %
 i
+"
+"
 writeable
 %
 i

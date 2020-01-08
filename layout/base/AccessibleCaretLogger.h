@@ -36,6 +36,7 @@ AC_LOG_BASE
 .
 .
 )
+\
 MOZ_LOG
 (
 sAccessibleCaretLog

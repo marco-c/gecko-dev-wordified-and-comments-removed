@@ -1406,6 +1406,7 @@ ASSERT_ON_THREAD
 (
 t
 )
+\
 do
 {
 \

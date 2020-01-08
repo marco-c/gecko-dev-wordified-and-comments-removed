@@ -173,13 +173,13 @@ using
 mozilla
 :
 :
-TimeStamp
+TimeDuration
 ;
 using
 mozilla
 :
 :
-TimeDuration
+TimeStamp
 ;
 JS_STATIC_ASSERT
 (
@@ -1527,6 +1527,8 @@ s
 ;
 Reset
 :
+"
+"
 %
 s
 %
@@ -1783,6 +1785,8 @@ MMU
 %
 %
 ;
+"
+"
 Total
 :
 %
@@ -1890,6 +1894,8 @@ d
 d
 )
 ;
+"
+"
 HeapSize
 :
 %
@@ -1898,7 +1904,6 @@ HeapSize
 MiB
 ;
 "
-\
 "
 HeapChange
 (
@@ -4725,6 +4730,7 @@ XP_MACOSX
 )
 |
 |
+\
 (
 defined
 (
@@ -5790,6 +5796,8 @@ The
 report
 is
 unavailable
+"
+"
 for
 this
 GC
@@ -8691,7 +8699,6 @@ name
 text
 phase
 )
-\
 fprintf
 (
 stderr

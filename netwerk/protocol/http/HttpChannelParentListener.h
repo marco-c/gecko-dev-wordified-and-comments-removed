@@ -53,11 +53,12 @@ define
 HTTP_CHANNEL_PARENT_LISTENER_IID
 \
 {
+\
 0xe409da52
 0xda76
 0x4eb7
-\
 {
+\
 0xa7
 0xf4
 0x03
@@ -66,7 +67,9 @@ HTTP_CHANNEL_PARENT_LISTENER_IID
 0xac
 0x87
 0x6d
+\
 }
+\
 }
 class
 HttpChannelParentListener

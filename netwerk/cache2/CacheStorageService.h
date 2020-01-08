@@ -1243,11 +1243,12 @@ define
 NS_CACHE_STORAGE_SERVICE_CID
 \
 {
+\
 0xea70b098
 0x5014
 0x4e21
-\
 {
+\
 0xae
 0xe1
 0x75
@@ -1256,9 +1257,10 @@ NS_CACHE_STORAGE_SERVICE_CID
 0xc4
 0xb8
 0xe0
-}
+\
 }
 \
+}
 #
 define
 NS_CACHE_STORAGE_SERVICE_CONTRACTID

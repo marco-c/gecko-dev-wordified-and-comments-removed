@@ -72,6 +72,7 @@ DTOSTR_VARIABLE_BUFFER_SIZE
 (
 precision
 )
+\
 (
 (
 precision
@@ -80,12 +81,14 @@ precision
 24
 >
 DTOSTR_STANDARD_BUFFER_SIZE
+\
 ?
 (
 precision
 )
 +
 24
+\
 :
 DTOSTR_STANDARD_BUFFER_SIZE
 )

@@ -1801,6 +1801,8 @@ not
 in
 clip
 rectangle
+"
+"
 (
 l
 =
@@ -1937,6 +1939,8 @@ not
 in
 plugin
 rectangle
+"
+"
 (
 x
 =

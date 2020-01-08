@@ -298,6 +298,7 @@ name
 message
 nsresult
 )
+\
 {
 (
 nsresult
@@ -314,6 +315,7 @@ DOM_MSG_DEF
 val
 message
 )
+\
 {
 (
 val

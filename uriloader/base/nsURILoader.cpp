@@ -341,6 +341,7 @@ LOG_ERROR
 (
 args
 )
+\
 MOZ_LOG
 (
 nsURILoader
@@ -1281,6 +1282,8 @@ listener
 %
 p
 rv
+"
+"
 %
 "
 PRIx32
@@ -2570,6 +2573,8 @@ at
 this
 point
 without
+"
+"
 a
 m_targetStreamListener
 "

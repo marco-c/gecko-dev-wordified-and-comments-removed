@@ -199,6 +199,7 @@ NS_DIRECTION_IS_INLINE
 (
 dir
 )
+\
 (
 dir
 =
@@ -206,7 +207,6 @@ dir
 eNavigationDirection_Start
 |
 |
-\
 dir
 =
 =
@@ -218,6 +218,7 @@ NS_DIRECTION_IS_BLOCK
 (
 dir
 )
+\
 (
 dir
 =
@@ -225,7 +226,6 @@ dir
 eNavigationDirection_Before
 |
 |
-\
 dir
 =
 =
@@ -237,6 +237,7 @@ NS_DIRECTION_IS_BLOCK_TO_EDGE
 (
 dir
 )
+\
 (
 dir
 =
@@ -244,7 +245,6 @@ dir
 eNavigationDirection_First
 |
 |
-\
 dir
 =
 =
@@ -315,6 +315,7 @@ mDirection
 [
 keycode
 -
+\
 mozilla
 :
 :

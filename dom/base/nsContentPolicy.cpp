@@ -928,6 +928,7 @@ ptr
 \
 MOZ_LOG
 (
+\
 gConPolLog
 LogLevel
 :
@@ -971,7 +972,6 @@ GetSpecOrDefault
 get
 (
 )
-\
 :
 "
 None
@@ -997,7 +997,6 @@ None
 \
 resultName
 )
-\
 )
 ;
 \

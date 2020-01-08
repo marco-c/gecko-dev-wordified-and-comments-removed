@@ -443,6 +443,7 @@ LOG_FONTINIT
 (
 args
 )
+\
 MOZ_LOG
 (
 gfxPlatform
@@ -452,7 +453,6 @@ GetLog
 (
 eGfxLog_fontinit
 )
-\
 LogLevel
 :
 :
@@ -464,9 +464,9 @@ define
 LOG_FONTINIT_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
-\
 gfxPlatform
 :
 :
@@ -474,7 +474,6 @@ GetLog
 (
 eGfxLog_fontinit
 )
-\
 LogLevel
 :
 :
@@ -11439,6 +11438,8 @@ with
 GLYPH_FILL
 GLYPH_STROKE
 or
+"
+"
 GLYPH_STROKE_UNDERNEATH
 "
 )
@@ -15539,6 +15540,7 @@ aLength
 #
 define
 MAX_SHAPING_LENGTH
+\
 32760
 /
 /
@@ -15552,6 +15554,7 @@ avoid
 #
 define
 BACKTRACK_LIMIT
+\
 16
 /
 /
@@ -18937,6 +18940,7 @@ SET_UNSIGNED
 field
 src
 )
+\
 aMetrics
 .
 field
@@ -20297,6 +20301,7 @@ SET_UNSIGNED
 field
 src
 )
+\
 metrics
 -
 >

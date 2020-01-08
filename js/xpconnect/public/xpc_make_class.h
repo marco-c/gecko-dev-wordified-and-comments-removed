@@ -290,6 +290,7 @@ XPC_MAKE_CLASS_OPS
 (
 _flags
 )
+\
 {
 \
 /
@@ -417,7 +418,6 @@ _flags
 &
 XPC_SCRIPTABLE_WANT_NEWENUMERATE
 )
-\
 ?
 XPC_WN_NewEnumerate
 \
@@ -430,7 +430,6 @@ nullptr
 resolve
 *
 /
-\
 /
 *
 We
@@ -443,6 +442,7 @@ strategy
 at
 call
 time
+\
 *
 /
 \
@@ -471,7 +471,6 @@ _flags
 &
 XPC_SCRIPTABLE_WANT_FINALIZE
 )
-\
 ?
 XPC_WN_Helper_Finalize
 \
@@ -492,10 +491,8 @@ _flags
 &
 XPC_SCRIPTABLE_WANT_CALL
 )
-\
 ?
 XPC_WN_Helper_Call
-\
 :
 nullptr
 \
@@ -513,7 +510,6 @@ _flags
 &
 XPC_SCRIPTABLE_WANT_HASINSTANCE
 )
-\
 ?
 XPC_WN_Helper_HasInstance
 \
@@ -534,7 +530,6 @@ _flags
 &
 XPC_SCRIPTABLE_WANT_CONSTRUCT
 )
-\
 ?
 XPC_WN_Helper_Construct
 \
@@ -555,7 +550,6 @@ _flags
 &
 XPC_SCRIPTABLE_IS_GLOBAL_OBJECT
 )
-\
 ?
 JS_GlobalObjectTraceHook
 \
@@ -571,6 +565,7 @@ _name
 _flags
 _classOps
 )
+\
 {
 \
 /
@@ -590,7 +585,6 @@ flags
 \
 XPC_WRAPPER_FLAGS
 |
-\
 JSCLASS_PRIVATE_IS_NSISUPPORTS
 |
 \

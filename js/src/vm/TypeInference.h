@@ -1705,6 +1705,7 @@ channel
 .
 .
 )
+\
 if
 (
 InferSpewActive
@@ -1713,14 +1714,17 @@ channel
 )
 )
 {
+\
 InferSpewImpl
 (
 __VA_ARGS__
 )
 ;
+\
 }
 else
 {
+\
 }
 void
 InferSpewImpl
@@ -1809,8 +1813,10 @@ channel
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (

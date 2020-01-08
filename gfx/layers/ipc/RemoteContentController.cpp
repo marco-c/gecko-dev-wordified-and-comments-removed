@@ -639,6 +639,8 @@ layers
 RemoteContentController
 :
 :
+"
+"
 NotifyPinchGestureOnCompositorThread
 "
 this

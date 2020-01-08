@@ -19,11 +19,12 @@ define
 NS_ITOKENIZER_IID
 \
 {
+\
 0Xae98a348
 0X5e91
 0X41a8
-\
 {
+\
 0Xa5
 0Xb4
 0Xd2
@@ -32,7 +33,9 @@ NS_ITOKENIZER_IID
 0X1f
 0Xc4
 0Xab
+\
 }
+\
 }
 class
 nsITokenizer
@@ -100,6 +103,5 @@ aFlushTokens
 )
 override
 ;
-\
 #
 endif

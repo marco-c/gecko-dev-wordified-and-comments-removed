@@ -511,6 +511,7 @@ array
 #
 define
 ERROR_GETTING_ARRAY_LENGTH
+\
 "
 %
 s
@@ -1058,7 +1059,9 @@ ENSURE_DEP
 (
 name
 )
+\
 {
+\
 nsresult
 rv
 =
@@ -1069,12 +1072,14 @@ name
 (
 )
 ;
+\
 NS_ENSURE_SUCCESS
 (
 rv
 rv
 )
 ;
+\
 }
 #
 define
@@ -1103,6 +1108,7 @@ self
 .
 .
 )
+\
 {
 \
 if
@@ -1112,7 +1118,6 @@ m
 #
 self
 )
-\
 return
 NS_OK
 ;
@@ -1537,6 +1542,8 @@ fired
 before
 cleaning
 up
+"
+"
 mozJSComponentLoader
 "
 )

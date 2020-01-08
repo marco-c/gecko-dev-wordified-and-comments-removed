@@ -3670,6 +3670,8 @@ present
 Enable
 JS_DISASM_ARM
 in
+"
+"
 configure
 .
 in

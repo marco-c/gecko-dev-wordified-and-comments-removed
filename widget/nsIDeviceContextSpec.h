@@ -43,11 +43,12 @@ define
 NS_IDEVICE_CONTEXT_SPEC_IID
 \
 {
+\
 0xf407cfba
 0xbe28
 0x46c9
-\
 {
+\
 0x8a
 0xba
 0x04
@@ -56,7 +57,9 @@ NS_IDEVICE_CONTEXT_SPEC_IID
 0xbb
 0x4f
 0x23
+\
 }
+\
 }
 class
 nsIDeviceContextSpec

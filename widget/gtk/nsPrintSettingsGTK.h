@@ -40,10 +40,12 @@ define
 NS_PRINTSETTINGSGTK_IID
 \
 {
+\
 0x758df520
 0xc7c3
 0x11dc
 {
+\
 0x95
 0xff
 0x08
@@ -52,7 +54,9 @@ NS_PRINTSETTINGSGTK_IID
 0x0c
 0x9a
 0x66
+\
 }
+\
 }
 class
 nsPrintSettingsGTK

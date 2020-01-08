@@ -1200,6 +1200,8 @@ layerRect
 .
 zw
 +
+"
+"
 layerRect
 .
 xy
@@ -1512,6 +1514,8 @@ uLayerTransform
 vec4
 (
 uVisibleCenter
+"
+"
 0
 .
 0
@@ -1540,6 +1544,8 @@ finalPosition
 .
 w
 -
+"
+"
 visibleCenter
 .
 xy
@@ -1733,6 +1739,8 @@ aTexCoord
 0
 .
 0
+"
+"
 1
 .
 0
@@ -1781,6 +1789,8 @@ textureRect
 .
 zw
 +
+"
+"
 textureRect
 .
 xy
@@ -1968,6 +1978,8 @@ uMaskTransform
 (
 finalPosition
 /
+"
+"
 finalPosition
 .
 w
@@ -2130,6 +2142,8 @@ vec4
 vBackdropCoord
 .
 xy
+"
+"
 0
 .
 0
@@ -4027,6 +4041,8 @@ coord
 .
 y
 >
+"
+"
 1
 .
 )
@@ -4443,6 +4459,8 @@ color
 a
 )
 +
+"
+"
 uColorMatrixVector
 ;
 "
@@ -7706,6 +7724,8 @@ backdrop
 .
 a
 *
+"
+"
 blended
 .
 rgb

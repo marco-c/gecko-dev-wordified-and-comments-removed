@@ -143,6 +143,7 @@ _
 (
 OffscreenFormat
 gfxImageFormat
+\
 mozilla
 :
 :
@@ -314,7 +315,6 @@ CLEARTYPE_QUALITY
 *
 /
 )
-\
 class
 gfxVars
 final
@@ -678,11 +678,9 @@ Default
 (
 )
 {
-\
 return
 DefaultValue
 ;
-\
 }
 \
 VarImpl
@@ -702,6 +700,7 @@ mVar
 CxxName
 ;
 \
+\
 public
 :
 \
@@ -713,7 +712,6 @@ CxxName
 (
 )
 {
-\
 return
 sInstance
 -
@@ -727,7 +725,6 @@ Get
 (
 )
 ;
-\
 }
 \
 static
@@ -826,7 +823,6 @@ CxxName
 \
 static
 void
-\
 Set
 #
 #
@@ -848,7 +844,6 @@ void
 &
 aListener
 )
-\
 {
 \
 sInstance

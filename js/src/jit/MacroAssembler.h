@@ -450,6 +450,7 @@ endif
 #
 define
 DEFINED_ON_RESULT_crash
+\
 {
 MOZ_CRASH
 (
@@ -471,7 +472,6 @@ DEFINED_ON_DISPATCH_RESULT_2
 Macro
 Result
 )
-\
 Macro
 #
 #
@@ -559,7 +559,6 @@ DEFINED_ON
 .
 .
 )
-\
 DEFINED_ON_MAP_ON_ARCHS
 (
 (
@@ -13470,7 +13469,6 @@ arg1f
 arg2
 )
 ;
-\
 void
 loadConstantFloatingPoint
 (

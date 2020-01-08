@@ -2028,6 +2028,7 @@ patLen
 #
 define
 ALMOST_DONE_WITH_PINDEX
+\
 (
 mFindBackward
 ?

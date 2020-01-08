@@ -105,6 +105,7 @@ label
 dynamicString
 category
 ctx
+\
 flags
 )
 #
@@ -123,6 +124,7 @@ channel
 type
 start
 end
+\
 count
 cache
 timings
@@ -1056,7 +1058,6 @@ stackTop
 #
 define
 AUTO_PROFILER_INIT
-\
 mozilla
 :
 :
@@ -1151,9 +1152,11 @@ name
 \
 do
 {
+\
 char
 stackTop
 ;
+\
 profiler_register_thread
 (
 name
@@ -1161,6 +1164,7 @@ name
 stackTop
 )
 ;
+\
 }
 while
 (
@@ -1171,7 +1175,6 @@ define
 PROFILER_UNREGISTER_THREAD
 (
 )
-\
 profiler_unregister_thread
 (
 )
@@ -1285,7 +1288,6 @@ PROFILER_RAII
 #
 define
 AUTO_PROFILER_THREAD_WAKE
-\
 mozilla
 :
 :
@@ -1647,9 +1649,9 @@ mozilla
 AutoProfilerLabel
 PROFILER_RAII
 (
+\
 label
 nullptr
-\
 js
 :
 :
@@ -1674,9 +1676,9 @@ mozilla
 :
 :
 AutoProfilerLabel
-\
 PROFILER_RAII
 (
+\
 label
 cStr
 js
@@ -1810,6 +1812,7 @@ raiiObjectLossyNsString
 .
 emplace
 (
+\
 label
 asciiStr
 -
@@ -1817,7 +1820,6 @@ asciiStr
 get
 (
 )
-\
 js
 :
 :
@@ -1847,10 +1849,10 @@ mozilla
 AutoProfilerLabel
 PROFILER_RAII
 (
+\
 ctx
 label
 nullptr
-\
 js
 :
 :
@@ -1870,6 +1872,7 @@ label
 dynamicString
 category
 ctx
+\
 flags
 )
 \
@@ -1879,10 +1882,10 @@ mozilla
 AutoProfilerLabel
 PROFILER_RAII
 (
+\
 ctx
 label
 dynamicString
-\
 js
 :
 :
@@ -1902,7 +1905,6 @@ PROFILER_ADD_MARKER
 (
 markerName
 )
-\
 profiler_add_marker
 (
 markerName
@@ -1971,6 +1973,7 @@ channel
 type
 start
 end
+\
 count
 cache
 timings
@@ -1986,6 +1989,7 @@ type
 start
 end
 count
+\
 cache
 timings
 redirect
@@ -2351,10 +2355,10 @@ mozilla
 AutoProfilerTracing
 PROFILER_RAII
 (
-\
 category
 markerName
 docShellId
+\
 docShellHistoryId
 )
 mozilla

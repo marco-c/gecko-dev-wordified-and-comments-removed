@@ -444,6 +444,8 @@ widgets
 and
 layer
 managers
+"
+"
 during
 DidCompositeWindow
 if
@@ -894,6 +896,8 @@ BeginTransaction
 with
 IPC
 channel
+"
+"
 down
 .
 GPU
@@ -1136,6 +1140,8 @@ ClientLayerManager
 :
 BeginTransactionWithTarget
 not
+"
+"
 supported
 "
 )

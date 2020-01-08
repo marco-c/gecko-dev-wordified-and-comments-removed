@@ -807,6 +807,8 @@ nsBufferedStream
 Seek
 so
 we
+"
+"
 exit
 early
 .
@@ -858,6 +860,8 @@ Seek
 returned
 error
 within
+"
+"
 nsBufferedStream
 :
 :
@@ -1571,6 +1575,8 @@ error
 rv1
 )
 in
+"
+"
 bsBuffedInputStream
 :
 :
@@ -1631,6 +1637,8 @@ error
 rv2
 )
 within
+"
+"
 nsBufferedInputStream
 :
 :
@@ -3581,6 +3589,8 @@ Close
 )
 returned
 error
+"
+"
 (
 rv1
 )
@@ -3637,6 +3647,8 @@ nsBufferedOutputStream
 Close
 (
 )
+"
+"
 returned
 error
 (
@@ -3687,6 +3699,8 @@ Close
 (
 )
 inside
+"
+"
 nsBufferedOutputStream
 :
 :
@@ -3786,6 +3800,8 @@ nsBufferedOutputStream
 Write
 returns
 NS_BASE_STREAM_CLOSED
+"
+"
 immediately
 (
 mStream
@@ -4103,6 +4119,8 @@ Flush
 )
 failed
 in
+"
+"
 nsBufferedOutputStream
 :
 :
@@ -4158,6 +4176,8 @@ Finish
 (
 )
 !
+"
+"
 Possible
 dataloss
 .
@@ -4199,6 +4219,8 @@ Finish
 )
 failed
 within
+"
+"
 nsBufferedOutputStream
 :
 :

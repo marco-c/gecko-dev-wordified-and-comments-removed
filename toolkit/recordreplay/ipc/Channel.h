@@ -943,12 +943,14 @@ EnumToString
 (
 Kind
 )
+\
 case
 MessageType
 :
 :
 Kind
 :
+\
 return
 #
 Kind

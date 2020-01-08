@@ -313,13 +313,13 @@ using
 MacroAssemblerX86Shared
 :
 :
-load32
+call
 ;
 using
 MacroAssemblerX86Shared
 :
 :
-store32
+load32
 ;
 using
 MacroAssemblerX86Shared
@@ -331,7 +331,7 @@ using
 MacroAssemblerX86Shared
 :
 :
-call
+store32
 ;
 MacroAssemblerX86
 (

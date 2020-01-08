@@ -42,6 +42,7 @@ PRETTYHEX
 (
 x
 )
+\
 (
 (
 (
@@ -58,6 +59,7 @@ x
 "
 "
 )
+\
 (
 (
 unsigned
@@ -211,6 +213,7 @@ offset
 index
 scale
 )
+\
 ADDR_o
 (
 offset
@@ -255,6 +258,7 @@ base
 index
 scale
 )
+\
 ADDR_ob
 (
 offset
@@ -319,6 +323,7 @@ base
 index
 scale
 )
+\
 ADDR_obs
 (
 offset
@@ -362,13 +367,13 @@ using
 SystemAllocPolicy
 :
 :
-reportAllocOverflow
+free_
 ;
 using
 SystemAllocPolicy
 :
 :
-free_
+reportAllocOverflow
 ;
 template
 <

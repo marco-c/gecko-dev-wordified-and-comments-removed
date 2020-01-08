@@ -314,6 +314,7 @@ _flags
 NS_MATHML_OPERATOR_EMBELLISH_ANCESTOR
 =
 =
+\
 (
 (
 _flags
@@ -333,6 +334,7 @@ _flags
 NS_MATHML_OPERATOR_EMBELLISH_ISOLATED
 =
 =
+\
 (
 (
 _flags
@@ -385,7 +387,6 @@ NS_MATHML_OPERATOR_GET_FORM
 (
 _flags
 )
-\
 (
 (
 _flags
@@ -475,6 +476,7 @@ _flags
 NS_MATHML_OPERATOR_DIRECTION_VERTICAL
 =
 =
+\
 (
 (
 _flags
@@ -494,6 +496,7 @@ _flags
 NS_MATHML_OPERATOR_DIRECTION_HORIZONTAL
 =
 =
+\
 (
 (
 _flags
@@ -608,6 +611,7 @@ _flags
 NS_MATHML_OPERATOR_MOVABLELIMITS
 =
 =
+\
 (
 (
 _flags
@@ -684,6 +688,7 @@ _flags
 NS_MATHML_OPERATOR_MINSIZE_ABSOLUTE
 =
 =
+\
 (
 (
 _flags
@@ -703,6 +708,7 @@ _flags
 NS_MATHML_OPERATOR_MAXSIZE_ABSOLUTE
 =
 =
+\
 (
 (
 _flags

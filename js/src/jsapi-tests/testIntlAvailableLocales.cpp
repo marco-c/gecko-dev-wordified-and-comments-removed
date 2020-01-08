@@ -115,6 +115,8 @@ locale
 !
 =
 =
+"
+"
 '
 de
 -
@@ -285,6 +287,8 @@ de
 ZA
 '
 )
+"
+"
 \
 n
 "
@@ -325,6 +329,8 @@ localeMatcher
 '
 lookup
 '
+"
+"
 }
 )
 .
@@ -405,6 +411,8 @@ locale
 !
 =
 =
+"
+"
 '
 de
 -
@@ -582,6 +590,8 @@ proposed
 default
 included
 a
+"
+"
 Unicode
 extension
 '
@@ -694,6 +704,8 @@ with
 last
 -
 ditch
+"
+"
 locale
 as
 default

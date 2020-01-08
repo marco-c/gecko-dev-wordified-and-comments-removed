@@ -114,6 +114,7 @@ CACHE_LOG_WARNING
 (
 args
 )
+\
 MOZ_LOG
 (
 gCacheLog

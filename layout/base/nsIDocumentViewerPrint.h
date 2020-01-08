@@ -44,11 +44,12 @@ define
 NS_IDOCUMENT_VIEWER_PRINT_IID
 \
 {
+\
 0xc6f255cf
 0xcadd
 0x4382
-\
 {
+\
 0xb5
 0x7f
 0xcd
@@ -57,7 +58,9 @@ NS_IDOCUMENT_VIEWER_PRINT_IID
 0x74
 0x16
 0x9b
+\
 }
+\
 }
 class
 nsIDocumentViewerPrint
@@ -237,9 +240,9 @@ mozilla
 :
 ServoStyleSet
 >
-\
 CreateStyleSet
 (
+\
 nsIDocument
 *
 aDocument

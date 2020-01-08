@@ -63,7 +63,7 @@ mozilla
 dom
 :
 :
-HandlerInfo
+ContentHandlerService
 ;
 using
 mozilla
@@ -81,7 +81,7 @@ mozilla
 dom
 :
 :
-ContentHandlerService
+HandlerInfo
 ;
 using
 mozilla

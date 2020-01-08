@@ -1013,7 +1013,6 @@ _type
 )
 )
 )
-\
 return
 false
 ;

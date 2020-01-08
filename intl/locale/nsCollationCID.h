@@ -23,11 +23,12 @@ define
 NS_COLLATIONFACTORY_CID
 \
 {
+\
 0xa1b72850
 0xa999
 0x11d2
-\
 {
+\
 0x91
 0x19
 0x0
@@ -36,7 +37,9 @@ NS_COLLATIONFACTORY_CID
 0xa6
 0xed
 0xf6
+\
 }
+\
 }
 #
 define

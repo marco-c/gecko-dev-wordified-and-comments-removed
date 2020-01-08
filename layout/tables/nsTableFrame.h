@@ -3044,6 +3044,7 @@ ABORT0
 )
 \
 {
+\
 NS_ASSERTION
 (
 false
@@ -3057,6 +3058,7 @@ error
 \
 return
 ;
+\
 }
 #
 define
@@ -3066,6 +3068,7 @@ aReturn
 )
 \
 {
+\
 NS_ASSERTION
 (
 false
@@ -3080,6 +3083,7 @@ error
 return
 aReturn
 ;
+\
 }
 #
 endif

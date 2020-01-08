@@ -379,6 +379,8 @@ AND
 dest
 .
 visit_type
+"
+"
 IN
 (
 %
@@ -496,6 +498,8 @@ hash
 page_url
 )
 AND
+"
+"
 page_url
 =
 :
@@ -4606,6 +4610,8 @@ day
 '
 -
 7
+"
+"
 days
 '
 '
@@ -4803,6 +4809,8 @@ moz_pages_w_icons
 WHERE
 page_url_hash
 =
+"
+"
 hash
 (
 :
@@ -7525,6 +7533,8 @@ moz_pages_w_icons
 WHERE
 page_url_hash
 =
+"
+"
 hash
 (
 :

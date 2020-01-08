@@ -1032,6 +1032,8 @@ String
 INLINE_CHARS_BIT
 must
 match
+"
+"
 JSString
 :
 :
@@ -1058,6 +1060,8 @@ String
 LATIN1_CHARS_BIT
 must
 match
+"
+"
 JSString
 :
 :

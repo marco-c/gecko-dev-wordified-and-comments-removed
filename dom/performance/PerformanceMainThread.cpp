@@ -1201,6 +1201,8 @@ and
 GetPerformanceTimingFromString
 are
 out
+"
+"
 of
 sync
 "

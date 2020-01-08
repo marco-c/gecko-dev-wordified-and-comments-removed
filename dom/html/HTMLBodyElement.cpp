@@ -1656,6 +1656,7 @@ EVENT
 name_
 id_
 type_
+\
 struct_
 )
 #
@@ -1668,7 +1669,6 @@ type_
 \
 type_
 *
-\
 HTMLBodyElement
 :
 :
@@ -1678,7 +1678,6 @@ GetOn
 name_
 (
 )
-\
 {
 \
 if
@@ -1732,7 +1731,6 @@ nullptr
 }
 \
 void
-\
 HTMLBodyElement
 :
 :
@@ -1745,7 +1743,6 @@ type_
 *
 handler
 )
-\
 {
 \
 nsPIDOMWindowInner

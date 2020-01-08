@@ -72,13 +72,13 @@ using
 layers
 :
 :
-LayerManager
+ImageContainer
 ;
 using
 layers
 :
 :
-ImageContainer
+LayerManager
 ;
 namespace
 image

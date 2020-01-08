@@ -1019,7 +1019,10 @@ TestCanonicalizeHelper
 %
 252833
 %
-252944_55
+252944_
+"
+"
+55
 %
 252B
 "
@@ -1101,6 +1104,8 @@ TestCanonicalizeHelper
 %
 65
 /
+"
+"
 %
 77
 %
@@ -1173,6 +1178,8 @@ uploads
 .
 verify
 /
+"
+"
 .
 eBaysecure
 =
@@ -1206,6 +1213,8 @@ uploads
 .
 verify
 /
+"
+"
 .
 eBaysecure
 =

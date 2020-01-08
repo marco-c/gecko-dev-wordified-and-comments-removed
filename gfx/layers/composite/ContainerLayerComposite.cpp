@@ -298,8 +298,10 @@ DUMP
 .
 .
 )
+\
 do
 {
+\
 if
 (
 gfxEnv
@@ -310,12 +312,15 @@ DumpDebug
 )
 )
 {
+\
 printf_stderr
 (
 __VA_ARGS__
 )
 ;
+\
 }
+\
 }
 while
 (

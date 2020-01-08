@@ -42,13 +42,13 @@ using
 std
 :
 :
-pair
+make_pair
 ;
 using
 std
 :
 :
-make_pair
+pair
 ;
 namespace
 mozilla

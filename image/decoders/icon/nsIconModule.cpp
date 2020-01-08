@@ -38,11 +38,12 @@ h
 #
 define
 NS_ICONPROTOCOL_CID
+\
 {
+\
 0xd0f9db12
 0x249c
 0x11d5
-\
 {
 0x99
 0x5
@@ -53,6 +54,7 @@ NS_ICONPROTOCOL_CID
 0xe
 0x9b
 }
+\
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (

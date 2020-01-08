@@ -37,11 +37,12 @@ define
 NS_ICONSTRAINTVALIDATION_IID
 \
 {
+\
 0x983829da
 0x1aaf
 0x449c
-\
 {
+\
 0xa3
 0x06
 0x85
@@ -50,7 +51,9 @@ NS_ICONSTRAINTVALIDATION_IID
 0x31
 0x1c
 0xf6
+\
 }
+\
 }
 class
 nsIConstraintValidation

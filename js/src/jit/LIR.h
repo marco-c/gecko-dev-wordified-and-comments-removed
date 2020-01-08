@@ -3267,6 +3267,7 @@ Opcode
 :
 name
 :
+\
 return
 #
 name
@@ -3546,7 +3547,6 @@ name
 )
 const
 {
-\
 return
 op
 (
@@ -3558,7 +3558,6 @@ Opcode
 :
 name
 ;
-\
 }
 \
 inline
@@ -9655,7 +9654,6 @@ to
 name
 (
 )
-\
 {
 \
 MOZ_ASSERT
@@ -9701,7 +9699,6 @@ name
 (
 )
 const
-\
 {
 \
 MOZ_ASSERT

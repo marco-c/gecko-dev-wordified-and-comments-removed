@@ -74,10 +74,12 @@ define
 NS_DOM_SERVICEWORKER_IID
 \
 {
+\
 0xd42e0611
 0x3647
 0x4319
 {
+\
 0xae
 0x05
 0x19
@@ -86,7 +88,9 @@ NS_DOM_SERVICEWORKER_IID
 0xba
 0x99
 0x5e
+\
 }
+\
 }
 bool
 ServiceWorkerVisible

@@ -125,6 +125,7 @@ _args
 \
 do
 {
+\
 if
 (
 layer
@@ -135,6 +136,7 @@ AsShadowableLayer
 )
 )
 {
+\
 MOZ_LOG
 (
 LayerManager
@@ -150,7 +152,9 @@ Debug
 _args
 )
 ;
+\
 }
+\
 }
 while
 (

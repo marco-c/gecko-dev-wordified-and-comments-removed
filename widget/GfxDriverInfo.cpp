@@ -393,6 +393,7 @@ APPEND_DEVICE2
 (
 device
 )
+\
 deviceFamily
 -
 >

@@ -46,11 +46,12 @@ define
 NS_IFORM_IID
 \
 {
+\
 0x5e8464c8
 0x015d
 0x4cf9
-\
 {
+\
 0x92
 0xc9
 0xa6
@@ -59,7 +60,9 @@ NS_IFORM_IID
 0x8f
 0x60
 0x9d
+\
 }
+\
 }
 class
 nsIForm

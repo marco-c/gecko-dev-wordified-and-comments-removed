@@ -633,6 +633,7 @@ _tag
 _classname
 _interfacename
 )
+\
 HTML
 #
 #
@@ -693,7 +694,6 @@ _argc
 _exn
 _str
 )
-\
 {
 #
 _name
@@ -729,15 +729,16 @@ _str
 \
 static_assert
 (
+\
 _argc
 <
 JS
 :
 :
 MaxNumErrorArguments
-\
 #
 _name
+\
 "
 must
 only
@@ -6569,6 +6570,7 @@ INIT_IDS_IF_DEFINED
 (
 TypeName
 )
+\
 {
 \
 if
@@ -6592,7 +6594,6 @@ s
 InitIdsInternal
 (
 cx
-\
 nativeProperties
 -
 >
@@ -9102,6 +9103,7 @@ DEBUG_CheckXBLLookup
 a
 b
 )
+\
 {
 }
 #
@@ -10389,6 +10391,7 @@ ADD_KEYS_IF_DEFINED
 (
 FieldName
 )
+\
 {
 \
 if
@@ -10413,7 +10416,6 @@ XrayAppendPropertyKeys
 (
 cx
 obj
-\
 nativeProperties
 -
 >
@@ -14197,6 +14199,8 @@ implemented
 WebIDL
 should
 not
+"
+"
 return
 anything
 "

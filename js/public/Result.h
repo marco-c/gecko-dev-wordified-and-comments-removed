@@ -37,7 +37,6 @@ if
 !
 ok_
 )
-\
 return
 (
 cx
@@ -82,7 +81,6 @@ isErr
 (
 )
 )
-\
 return
 (
 cx
@@ -182,7 +180,6 @@ isErr
 (
 )
 )
-\
 return
 (
 cx

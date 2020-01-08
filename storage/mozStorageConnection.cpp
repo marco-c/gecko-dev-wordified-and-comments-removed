@@ -331,7 +331,6 @@ do_GetMainThread
 \
 NS_WARNING_ASSERTION
 (
-\
 threadOpenedOn
 =
 =
@@ -353,6 +352,9 @@ main
 -
 thread
 but
+"
+\
+"
 the
 connection
 was
@@ -380,6 +382,7 @@ define
 CHECK_MAINTHREAD_ABUSE
 (
 )
+\
 do
 {
 /
@@ -387,6 +390,7 @@ do
 Nothing
 *
 /
+\
 }
 while
 (
@@ -3808,6 +3812,8 @@ sqlite_temp_master
 WHERE
 type
 =
+"
+"
 '
 "
 )
@@ -4620,6 +4626,8 @@ been
 finalized
 before
 closing
+"
+"
 the
 connection
 "
@@ -4737,6 +4745,8 @@ connection
 because
 not
 all
+"
+"
 the
 statements
 have
@@ -4775,6 +4785,8 @@ There
 are
 probably
 outstanding
+"
+"
 statements
 that
 are
@@ -5630,6 +5642,8 @@ connection
 that
 executed
 asynchronous
+"
+"
 statements
 .
 "

@@ -62,6 +62,7 @@ ALIGNEDPTR_32
 (
 x
 )
+\
 reinterpret_cast
 <
 uint8_t

@@ -125,7 +125,6 @@ MFPLAT_FUNC
 _func
 _dllname
 )
-\
 decltype
 (
 :

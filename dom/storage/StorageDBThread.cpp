@@ -2477,6 +2477,8 @@ originAttributes
 |
 |
 originKey
+"
+"
 FROM
 webappsstore2
 "
@@ -3991,6 +3993,8 @@ originAttributes
 AND
 originKey
 =
+"
+"
 :
 originKey
 "
@@ -4381,6 +4385,8 @@ INTO
 webappsstore2
 (
 originAttributes
+"
+"
 originKey
 scope
 key
@@ -4632,6 +4638,8 @@ originAttributes
 AND
 originKey
 =
+"
+"
 :
 originKey
 "
@@ -4788,6 +4796,8 @@ originAttributes
 AND
 originKey
 =
+"
+"
 :
 originKey
 "

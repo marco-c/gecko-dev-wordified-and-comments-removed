@@ -137,16 +137,13 @@ command
 )
 \
 void
-\
 DrawTargetOffset
 :
 :
 command
 (
 )
-\
 {
-\
 mDrawTarget
 -
 >
@@ -154,7 +151,6 @@ command
 (
 )
 ;
-\
 }
 #
 define
@@ -165,7 +161,6 @@ type1
 )
 \
 void
-\
 DrawTargetOffset
 :
 :
@@ -174,9 +169,7 @@ command
 type1
 arg1
 )
-\
 {
-\
 mDrawTarget
 -
 >
@@ -185,7 +178,6 @@ command
 arg1
 )
 ;
-\
 }
 #
 define
@@ -198,7 +190,6 @@ type3
 )
 \
 void
-\
 DrawTargetOffset
 :
 :
@@ -211,7 +202,6 @@ arg2
 type3
 arg3
 )
-\
 {
 \
 mDrawTarget
@@ -238,7 +228,6 @@ type4
 )
 \
 void
-\
 DrawTargetOffset
 :
 :
@@ -250,10 +239,10 @@ type2
 arg2
 type3
 arg3
+\
 type4
 arg4
 )
-\
 {
 \
 mDrawTarget
@@ -282,7 +271,6 @@ type5
 )
 \
 void
-\
 DrawTargetOffset
 :
 :
@@ -294,12 +282,12 @@ type2
 arg2
 type3
 arg3
+\
 type4
 arg4
 type5
 arg5
 )
-\
 {
 \
 mDrawTarget

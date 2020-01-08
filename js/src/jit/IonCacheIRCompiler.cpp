@@ -1509,6 +1509,8 @@ are
 called
 with
 a
+"
+"
 VMFunction
 .
 "
@@ -3370,7 +3372,6 @@ op
 (
 )
 )
-\
 return
 nullptr
 ;

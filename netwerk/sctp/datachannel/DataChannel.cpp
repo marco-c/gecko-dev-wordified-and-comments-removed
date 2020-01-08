@@ -305,8 +305,10 @@ ASSERT_WEBRTC
 (
 x
 )
+\
 do
 {
+\
 if
 (
 !
@@ -315,11 +317,14 @@ x
 )
 )
 {
+\
 MOZ_CRASH
 (
 )
 ;
+\
 }
+\
 }
 while
 (
@@ -357,6 +362,7 @@ SCTP_LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -6888,6 +6894,8 @@ u
 is
 in
 state
+"
+"
 %
 d
 instead
@@ -7942,6 +7950,8 @@ u
 buffer
 full
 and
+"
+"
 closing
 "
 data_length
@@ -8013,6 +8023,8 @@ too
 large
 to
 handle
+"
+"
 closing
 channel
 "
@@ -8076,6 +8088,8 @@ u
 )
 on
 channel
+"
+"
 id
 %
 u
@@ -8150,6 +8164,8 @@ is
 >
 announced
 maximum
+"
+"
 message
 size
 (
@@ -8523,6 +8539,8 @@ too
 large
 to
 handle
+"
+"
 closing
 connection
 "
@@ -12281,6 +12299,8 @@ u
 listener
 %
 p
+"
+"
 context
 %
 p

@@ -112,16 +112,16 @@ namespace
 jit
 ;
 using
-mozilla
-:
-:
-DebugOnly
-;
-using
 JS
 :
 :
 GenericNaN
+;
+using
+mozilla
+:
+:
+DebugOnly
 ;
 LBoxAllocation
 LIRGenerator
@@ -4727,6 +4727,8 @@ tryFold
 should
 handle
 the
+"
+"
 never
 -
 emulates
@@ -22122,6 +22124,8 @@ visitLoadElementFromState
 :
 Unsupported
 element
+"
+"
 type
 .
 "
@@ -34499,6 +34503,7 @@ MIR_OP
 (
 op
 )
+\
 case
 MDefinition
 :
@@ -34508,6 +34513,7 @@ Opcode
 :
 op
 :
+\
 visit
 #
 #
@@ -34524,6 +34530,7 @@ op
 )
 )
 ;
+\
 break
 ;
 MIR_OPCODE_LIST

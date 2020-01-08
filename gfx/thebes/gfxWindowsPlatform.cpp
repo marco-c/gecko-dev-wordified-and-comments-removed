@@ -674,6 +674,7 @@ gamma
 #
 define
 GFX_CLEARTYPE_PARAMS_CONTRAST
+\
 "
 gfx
 .
@@ -686,6 +687,7 @@ enhanced_contrast
 #
 define
 GFX_CLEARTYPE_PARAMS_LEVEL
+\
 "
 gfx
 .
@@ -698,6 +700,7 @@ cleartype_level
 #
 define
 GFX_CLEARTYPE_PARAMS_STRUCTURE
+\
 "
 gfx
 .
@@ -710,6 +713,7 @@ pixel_structure
 #
 define
 GFX_CLEARTYPE_PARAMS_MODE
+\
 "
 gfx
 .
@@ -9037,6 +9041,8 @@ falling
 back
 to
 software
+"
+"
 timers
 "
 )

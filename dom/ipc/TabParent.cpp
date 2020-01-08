@@ -15085,6 +15085,7 @@ NS_DECL_ISUPPORTS
 #
 define
 NO_IMPL
+\
 override
 {
 return

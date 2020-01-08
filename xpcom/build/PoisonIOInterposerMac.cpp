@@ -977,7 +977,6 @@ _data
 >
 }
 ;
-\
 DEFINE_PWRITE_DATA
 (
 pwrite
@@ -1111,7 +1110,6 @@ _data
 >
 }
 ;
-\
 DEFINE_WRITEV_DATA
 (
 writev
@@ -1244,7 +1242,6 @@ _data
 >
 }
 ;
-\
 DEFINE_WRITE_DATA
 (
 write

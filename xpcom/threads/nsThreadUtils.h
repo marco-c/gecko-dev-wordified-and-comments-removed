@@ -4756,13 +4756,13 @@ using
 BaseType
 :
 :
-GetTimer
+CancelTimer
 ;
 using
 BaseType
 :
 :
-CancelTimer
+GetTimer
 ;
 private
 :

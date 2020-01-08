@@ -2635,7 +2635,6 @@ ALIGN
 (
 addr
 )
-\
 (
 (
 void

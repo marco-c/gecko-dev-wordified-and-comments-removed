@@ -401,6 +401,7 @@ prefix
 template
 <
 >
+\
 struct
 RewrapTaggedPointer
 <

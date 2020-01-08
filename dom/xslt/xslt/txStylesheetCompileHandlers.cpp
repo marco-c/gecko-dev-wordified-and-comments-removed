@@ -11657,10 +11657,10 @@ _name
 #
 Handler
 =
-\
 new
 txHandlerTable
 (
+\
 gTx
 #
 #
@@ -11670,7 +11670,6 @@ _name
 TableData
 .
 mTextHandler
-\
 &
 gTx
 #
@@ -11706,7 +11705,6 @@ _name
 #
 Handler
 )
-\
 return
 false
 #
@@ -11764,7 +11762,6 @@ NS_FAILED
 rv
 )
 )
-\
 return
 false
 #

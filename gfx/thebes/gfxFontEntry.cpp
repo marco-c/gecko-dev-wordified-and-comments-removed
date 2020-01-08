@@ -3222,6 +3222,7 @@ SCRIPT_FEATURE
 s
 tag
 )
+\
 (
 (
 (
@@ -8768,7 +8769,6 @@ LogLevel
 :
 :
 Debug
-\
 (
 "
 (

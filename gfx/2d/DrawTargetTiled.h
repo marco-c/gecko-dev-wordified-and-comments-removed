@@ -1378,6 +1378,8 @@ DrawTargetTiled
 GetDataSurface
 failed
 in
+"
+"
 CreateDrawTargetForData
 "
 ;

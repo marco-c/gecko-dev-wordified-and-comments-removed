@@ -458,6 +458,8 @@ loadContextInfo
 =
 %
 p
+"
+"
 pinned
 =
 %
@@ -1218,6 +1220,8 @@ Cannot
 get
 last
 modified
+"
+"
 time
 "
 "
@@ -3626,6 +3630,8 @@ EvictEntries
 Skipping
 entry
 since
+"
+"
 pinning
 "
 "
@@ -3820,6 +3826,8 @@ EvictEntries
 Skipping
 entry
 since
+"
+"
 MozURL
 "
 "
@@ -3881,6 +3889,8 @@ EvictEntries
 Skipping
 entry
 since
+"
+"
 origin
 "
 "

@@ -105,10 +105,12 @@ define
 NS_DOM_SERVICEWORKERREGISTRATION_IID
 \
 {
+\
 0x4578a90e
 0xa427
 0x4237
 {
+\
 0x98
 0x4a
 0xbd
@@ -117,7 +119,9 @@ NS_DOM_SERVICEWORKERREGISTRATION_IID
 0xcd
 0x5f
 0x3a
+\
 }
+\
 }
 class
 ServiceWorkerRegistration

@@ -162,7 +162,6 @@ type
 *
 aValue
 )
-\
 {
 \
 MOZ_ASSERT

@@ -256,7 +256,6 @@ class_
 *
 aPtr
 )
-\
 {
 NS_ADDREF
 (
@@ -278,7 +277,6 @@ class_
 *
 aPtr
 )
-\
 {
 NS_RELEASE
 (
@@ -678,10 +676,10 @@ element
 nsAtom
 *
 ns
-\
 nsAtom
 *
 name
+\
 nsAtom
 *
 str
@@ -701,10 +699,10 @@ element
 nsAtom
 *
 ns
-\
 nsAtom
 *
 name
+\
 nsAtom
 *
 str
@@ -731,7 +729,6 @@ name
 nsAtom
 *
 str
-\
 bool
 ignore_case
 )
@@ -748,10 +745,10 @@ element
 nsAtom
 *
 ns
-\
 nsAtom
 *
 name
+\
 nsAtom
 *
 str
@@ -771,10 +768,10 @@ element
 nsAtom
 *
 ns
-\
 nsAtom
 *
 name
+\
 nsAtom
 *
 str
@@ -3037,7 +3034,6 @@ nsStyle
 name
 *
 ptr
-\
 RawGeckoPresContextBorrowed
 pres_context
 )
@@ -3049,7 +3045,6 @@ Gecko_CopyConstruct_nsStyle
 #
 name
 (
-\
 nsStyle
 #
 #

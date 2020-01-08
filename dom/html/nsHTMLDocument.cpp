@@ -11608,6 +11608,7 @@ false
 #
 define
 MidasCommandCount
+\
 (
 (
 sizeof

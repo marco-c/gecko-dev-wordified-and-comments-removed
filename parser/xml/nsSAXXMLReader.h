@@ -104,11 +104,12 @@ define
 NS_SAXXMLREADER_CID
 \
 {
+\
 0xab1da296
 0x6125
 0x40ba
-\
 {
+\
 0x96
 0xd0
 0x47
@@ -117,7 +118,9 @@ NS_SAXXMLREADER_CID
 0x2a
 0xe3
 0xdb
+\
 }
+\
 }
 class
 nsSAXXMLReader

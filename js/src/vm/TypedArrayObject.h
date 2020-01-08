@@ -88,13 +88,11 @@ macro
 int8_t
 Int8
 )
-\
 macro
 (
 uint8_t
 Uint8
 )
-\
 macro
 (
 int16_t
@@ -106,13 +104,11 @@ macro
 uint16_t
 Uint16
 )
-\
 macro
 (
 int32_t
 Int32
 )
-\
 macro
 (
 uint32_t
@@ -124,7 +120,6 @@ macro
 float
 Float32
 )
-\
 macro
 (
 double

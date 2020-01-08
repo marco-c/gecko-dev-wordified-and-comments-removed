@@ -59,12 +59,6 @@ using
 mozilla
 :
 :
-PositiveInfinity
-;
-using
-mozilla
-:
-:
 IsNaN
 ;
 using
@@ -72,6 +66,12 @@ mozilla
 :
 :
 MakeUnique
+;
+using
+mozilla
+:
+:
+PositiveInfinity
 ;
 namespace
 WebCore

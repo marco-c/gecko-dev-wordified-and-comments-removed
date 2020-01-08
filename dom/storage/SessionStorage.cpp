@@ -63,10 +63,10 @@ h
 #
 define
 DATASET
+\
 IsSessionOnly
 (
 )
-\
 ?
 SessionStorageCache
 :

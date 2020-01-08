@@ -2762,9 +2762,11 @@ XPT_TYPE_STRIDE
 tag
 type
 )
+\
 case
 tag
 :
+\
 return
 sizeof
 (

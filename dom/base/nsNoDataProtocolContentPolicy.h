@@ -9,10 +9,12 @@ define
 NS_NODATAPROTOCOLCONTENTPOLICY_CID
 \
 {
+\
 0xac9e3e82
 0xbfbd
 0x4f26
 {
+\
 0x94
 0x1e
 0xf5
@@ -21,7 +23,9 @@ NS_NODATAPROTOCOLCONTENTPOLICY_CID
 0xe1
 0x78
 0xc1
+\
 }
+\
 }
 #
 define

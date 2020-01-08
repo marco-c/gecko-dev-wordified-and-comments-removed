@@ -876,6 +876,7 @@ Y
 \
 static_assert
 (
+\
 static_cast
 <
 int
@@ -902,6 +903,9 @@ dom
 :
 CSSStyleSheetParsingMode
 and
+"
+\
+"
 mozilla
 :
 :
@@ -2540,6 +2544,7 @@ NOTIFY
 function_
 args_
 )
+\
 do
 {
 \
@@ -5155,6 +5160,8 @@ sheet
 that
 is
 not
+"
+"
 our
 child
 !

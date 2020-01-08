@@ -1725,6 +1725,7 @@ source
 #
 define
 APPLICATION_DIRECTORY
+\
 "
 application
 /

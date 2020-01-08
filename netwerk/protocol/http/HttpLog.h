@@ -44,6 +44,7 @@ LOG1
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -68,6 +69,7 @@ LOG2
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -92,6 +94,7 @@ LOG3
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -116,6 +119,7 @@ LOG4
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -140,6 +144,7 @@ LOG5
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -173,6 +178,7 @@ define
 LOG1_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 mozilla
@@ -195,6 +201,7 @@ define
 LOG2_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 mozilla
@@ -217,6 +224,7 @@ define
 LOG3_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 mozilla
@@ -239,6 +247,7 @@ define
 LOG4_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 mozilla
@@ -261,6 +270,7 @@ define
 LOG5_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 mozilla

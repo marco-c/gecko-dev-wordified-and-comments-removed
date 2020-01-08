@@ -192,7 +192,6 @@ type
 (
 )
 const
-\
 {
 \
 MOZ_ASSERT
@@ -231,7 +230,6 @@ As
 type
 (
 )
-\
 {
 \
 MOZ_ASSERT

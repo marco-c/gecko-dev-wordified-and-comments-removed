@@ -98,7 +98,7 @@ mozilla
 layers
 :
 :
-LayerManager
+ImageContainer
 ;
 using
 mozilla
@@ -107,7 +107,7 @@ mozilla
 layers
 :
 :
-ImageContainer
+LayerManager
 ;
 namespace
 mozilla

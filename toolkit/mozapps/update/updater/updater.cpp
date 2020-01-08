@@ -351,7 +351,6 @@ XP_WIN
 )
 &
 &
-\
 !
 defined
 (
@@ -1856,7 +1855,6 @@ a
 trailing
 forward
 "
-\
 "
 slash
 :
@@ -2783,7 +2781,6 @@ directory
 LOG_S
 "
 "
-\
 "
 err
 :
@@ -3985,7 +3982,6 @@ info
 LOG_S
 "
 "
-\
 "
 err
 :
@@ -4104,7 +4100,6 @@ could
 not
 be
 "
-\
 "
 removed
 :
@@ -4148,7 +4143,6 @@ src
 LOG_S
 "
 "
-\
 "
 dst
 :
@@ -4281,6 +4275,8 @@ be
 removed
 on
 OS
+"
+"
 reboot
 :
 "
@@ -4922,7 +4918,6 @@ removed
 on
 OS
 "
-\
 "
 reboot
 :
@@ -4949,7 +4944,6 @@ reboot
 removal
 of
 "
-\
 "
 file
 :
@@ -6972,7 +6966,6 @@ file
 LOG_S
 "
 "
-\
 "
 err
 :
@@ -7022,6 +7015,8 @@ does
 not
 match
 expected
+"
+"
 size
 %
 d
@@ -7188,7 +7183,6 @@ not
 match
 expected
 "
-\
 "
 crc
 %
@@ -10859,7 +10853,6 @@ d
 failed
 .
 "
-\
 "
 File
 :
@@ -12608,6 +12601,8 @@ dir
 wait
 -
 pid
+"
+"
 [
 callback
 -
@@ -12723,7 +12718,6 @@ valid
 for
 this
 "
-\
 "
 application
 (
@@ -12807,7 +12801,6 @@ valid
 for
 this
 "
-\
 "
 application
 (
@@ -13181,7 +13174,6 @@ valid
 for
 this
 "
-\
 "
 application
 (
@@ -13319,7 +13311,6 @@ valid
 for
 this
 "
-\
 "
 application
 (
@@ -13426,7 +13417,6 @@ located
 in
 the
 "
-\
 "
 installation
 directory
@@ -16141,7 +16131,6 @@ d
 failed
 .
 "
-\
 "
 File
 :
@@ -16209,7 +16198,6 @@ to
 exclusively
 open
 "
-\
 "
 executable
 file
@@ -16294,7 +16282,6 @@ use
 continuing
 without
 "
-\
 "
 exclusive
 access
@@ -16541,7 +16528,6 @@ reboot
 removal
 of
 "
-\
 "
 directory
 :
@@ -18944,7 +18930,6 @@ contents
 of
 precomplete
 "
-\
 "
 manifest
 "

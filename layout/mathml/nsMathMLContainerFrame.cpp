@@ -4153,7 +4153,6 @@ space_
 ;
 \
 }
-\
 static
 nscoord
 GetInterFrameSpacing

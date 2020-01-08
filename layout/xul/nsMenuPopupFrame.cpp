@@ -394,7 +394,7 @@ mozilla
 dom
 :
 :
-KeyboardEvent
+Event
 ;
 using
 mozilla
@@ -403,7 +403,7 @@ mozilla
 dom
 :
 :
-Event
+KeyboardEvent
 ;
 int8_t
 nsMenuPopupFrame

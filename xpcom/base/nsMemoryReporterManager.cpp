@@ -696,7 +696,6 @@ defined
 (
 __FreeBSD__
 )
-\
 |
 |
 defined
@@ -705,11 +704,11 @@ __NetBSD__
 )
 |
 |
+\
 defined
 (
 __OpenBSD__
 )
-\
 |
 |
 defined
@@ -748,6 +747,7 @@ __FreeBSD__
 )
 |
 |
+\
 defined
 (
 __FreeBSD_kernel__
@@ -915,6 +915,7 @@ KP_SIZE
 (
 kp
 )
+\
 (
 (
 kp
@@ -924,7 +925,6 @@ p_vm_dsize
 kp
 .
 p_vm_ssize
-\
 +
 kp
 .
@@ -11929,7 +11929,9 @@ DO
 aN
 n
 )
+\
 {
+\
 *
 aN
 =
@@ -11937,6 +11939,7 @@ aN
 n
 )
 ;
+\
 *
 aTotalSize
 +
@@ -11945,6 +11948,7 @@ aTotalSize
 n
 )
 ;
+\
 }
 DO
 (
@@ -12211,7 +12215,6 @@ name
 )
 \
 nsresult
-\
 Register
 #
 #
@@ -12226,7 +12229,6 @@ kind
 AmountFn
 aAmountFn
 )
-\
 {
 \
 GET_MEMORY_REPORTER_MANAGER
@@ -12260,7 +12262,6 @@ name
 )
 \
 nsresult
-\
 Unregister
 #
 #
@@ -12270,7 +12271,6 @@ name
 DistinguishedAmount
 (
 )
-\
 {
 \
 GET_MEMORY_REPORTER_MANAGER
@@ -12368,7 +12368,6 @@ name
 )
 \
 nsresult
-\
 Register
 #
 #
@@ -12383,7 +12382,6 @@ name
 SizeOfTabFn
 aSizeOfTabFn
 )
-\
 {
 \
 GET_MEMORY_REPORTER_MANAGER

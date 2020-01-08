@@ -597,6 +597,8 @@ IPCStreamDestination
 DelayedStartInputStream
 :
 :
+"
+"
 HelperRunnable
 "
 )

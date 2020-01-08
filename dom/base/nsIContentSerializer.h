@@ -52,11 +52,12 @@ define
 NS_ICONTENTSERIALIZER_IID
 \
 {
+\
 0xb1ee32f2
 0xb8c4
 0x49b9
-\
 {
+\
 0x93
 0xdf
 0xb6
@@ -65,7 +66,9 @@ NS_ICONTENTSERIALIZER_IID
 0xd5
 0x46
 0x88
+\
 }
+\
 }
 class
 nsIContentSerializer

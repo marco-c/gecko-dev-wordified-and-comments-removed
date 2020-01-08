@@ -16,11 +16,12 @@ define
 NS_ITIMEOUTHANDLER_IID
 \
 {
+\
 0xb071a1d3
 0xfd54
 0x40a8
-\
 {
+\
 0x91
 0x9f
 0xc8
@@ -29,7 +30,9 @@ NS_ITIMEOUTHANDLER_IID
 0xb8
 0x3c
 0xfe
+\
 }
+\
 }
 class
 nsITimeoutHandler

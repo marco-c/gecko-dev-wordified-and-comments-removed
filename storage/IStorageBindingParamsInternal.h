@@ -28,10 +28,12 @@ define
 ISTORAGEBINDINGPARAMSINTERNAL_IID
 \
 {
+\
 0x4c43d33a
 0xc620
 0x41b8
 {
+\
 0xba
 0x1d
 0x50
@@ -40,7 +42,9 @@ ISTORAGEBINDINGPARAMSINTERNAL_IID
 0xe9
 0x1a
 0x04
+\
 }
+\
 }
 class
 IStorageBindingParamsInternal

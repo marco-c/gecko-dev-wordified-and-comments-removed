@@ -25,10 +25,12 @@ define
 NS_RANDOMGENERATOR_CID
 \
 {
+\
 0xbe65e2b7
 0xfe46
 0x4e0f
 {
+\
 0x88
 0xe0
 0x4b
@@ -37,12 +39,13 @@ NS_RANDOMGENERATOR_CID
 0xb4
 0xd6
 0x8a
+\
 }
+\
 }
 #
 define
 NS_RANDOMGENERATOR_CONTRACTID
-\
 "
 mozilla
 .

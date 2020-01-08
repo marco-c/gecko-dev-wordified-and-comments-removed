@@ -428,7 +428,7 @@ mozilla
 ipc
 :
 :
-MessageChannel
+GeckoChildProcessHost
 ;
 using
 mozilla
@@ -437,7 +437,7 @@ mozilla
 ipc
 :
 :
-GeckoChildProcessHost
+MessageChannel
 ;
 using
 namespace
@@ -6282,6 +6282,8 @@ ActorDestroy
 abnormal
 shutdown
 without
+"
+"
 minidump
 !
 "
@@ -10752,6 +10754,8 @@ PluginModuleParent
 :
 RecvProcessNativeEventsInInterruptCall
 not
+"
+"
 implemented
 !
 "
@@ -10799,6 +10803,8 @@ PluginModuleParent
 :
 ProcessRemoteNativeEventsInInterruptCall
 not
+"
+"
 implemented
 !
 "

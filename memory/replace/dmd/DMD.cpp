@@ -1864,6 +1864,7 @@ DMD_CREATE_TLS_INDEX
 (
 i_
 )
+\
 do
 {
 \

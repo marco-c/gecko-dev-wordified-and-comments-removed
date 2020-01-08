@@ -1441,7 +1441,6 @@ count
 exception
 format
 )
-\
 name
 #
 include
@@ -1577,6 +1576,8 @@ as
 FieldInfo
 but
 with
+"
+"
 unbarriered
 mType
 "

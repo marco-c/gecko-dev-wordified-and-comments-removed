@@ -96,10 +96,12 @@ define
 NS_IXPATHRESULT_IID
 \
 {
+\
 0x662f2c9a
 0xc7cd
 0x4cab
 {
+\
 0x93
 0x49
 0xe7
@@ -108,7 +110,9 @@ NS_IXPATHRESULT_IID
 0x5a
 0x83
 0x8c
+\
 }
+\
 }
 class
 nsIXPathResult

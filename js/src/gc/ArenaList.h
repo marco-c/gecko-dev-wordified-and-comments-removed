@@ -375,7 +375,6 @@ please
 consider
 how
 "
-\
 "
 this
 will
@@ -405,7 +404,6 @@ size
 please
 consider
 "
-\
 "
 how
 this

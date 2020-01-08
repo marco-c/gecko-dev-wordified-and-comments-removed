@@ -319,6 +319,7 @@ HighThreadThreshold
 #
 define
 ShortIdleTimeoutSeconds
+\
 60
 /
 /
@@ -370,6 +371,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -394,6 +396,7 @@ LOG1
 (
 args
 )
+\
 MOZ_LOG
 (
 mozilla
@@ -417,6 +420,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 mozilla
@@ -593,6 +597,7 @@ RES_KEY_FLAGS
 (
 _f
 )
+\
 (
 (
 _f
@@ -604,7 +609,6 @@ nsHostResolver
 :
 RES_CANON_NAME
 |
-\
 nsHostResolver
 :
 :

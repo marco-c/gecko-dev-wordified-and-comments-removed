@@ -2169,6 +2169,8 @@ data
 is
 not
 a
+"
+"
 collection
 !
 "
@@ -2288,6 +2290,8 @@ USE
 text
 /
 unicode
+"
+"
 INSTEAD
 "
 )

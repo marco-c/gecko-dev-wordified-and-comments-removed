@@ -8106,6 +8106,7 @@ type
 case
 tag
 :
+\
 new
 (
 aValue
@@ -8114,6 +8115,7 @@ type
 (
 )
 ;
+\
 break
 ;
 XPT_FOR_EACH_COMPLEX_TYPE
@@ -8213,6 +8215,7 @@ type
 case
 tag
 :
+\
 _DestructValueHelper
 <
 type
@@ -8221,6 +8224,7 @@ type
 aValue
 )
 ;
+\
 break
 ;
 XPT_FOR_EACH_COMPLEX_TYPE

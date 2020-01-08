@@ -622,11 +622,12 @@ define
 NS_MEMORY_REPORTER_MANAGER_CID
 \
 {
+\
 0xfb97e4f5
 0x32dd
 0x497a
-\
 {
+\
 0xba
 0xa2
 0x7d
@@ -635,7 +636,9 @@ NS_MEMORY_REPORTER_MANAGER_CID
 0x7
 0x99
 0x10
+\
 }
+\
 }
 #
 endif

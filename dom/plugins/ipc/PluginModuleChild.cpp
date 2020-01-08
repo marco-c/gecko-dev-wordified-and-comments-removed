@@ -8103,6 +8103,8 @@ in
 the
 instance
 deletion
+"
+"
 hash
 "
 )
@@ -9130,6 +9132,8 @@ PluginModuleChild
 :
 RecvProcessNativeEventsInInterruptCall
 not
+"
+"
 implemented
 !
 "

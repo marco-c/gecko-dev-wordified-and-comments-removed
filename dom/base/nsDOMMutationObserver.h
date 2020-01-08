@@ -2093,11 +2093,12 @@ define
 NS_DOM_MUTATION_OBSERVER_IID
 \
 {
+\
 0x0c3b91f8
 0xcc3b
 0x4b08
-\
 {
+\
 0x9e
 0xab
 0x07
@@ -2106,7 +2107,9 @@ NS_DOM_MUTATION_OBSERVER_IID
 0xe4
 0x65
 0xb4
+\
 }
+\
 }
 class
 nsDOMMutationObserver

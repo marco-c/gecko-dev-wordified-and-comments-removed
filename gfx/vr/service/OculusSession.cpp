@@ -1516,7 +1516,6 @@ status
 .
 ShouldQuit
 ;
-\
 }
 else
 {
@@ -4899,6 +4898,8 @@ for
 Oculus
 texture
 swap
+"
+"
 chain
 .
 "

@@ -3795,7 +3795,6 @@ nsIRunnable
 >
 ev
 =
-\
 new
 nsSimplePluginEvent
 (
@@ -5275,6 +5274,8 @@ make
 any
 sense
 on
+"
+"
 this
 type
 .
@@ -9738,6 +9739,8 @@ nsPluginHost
 :
 :
 RegisterFakePlugin
+"
+"
 shouldn
 '
 t

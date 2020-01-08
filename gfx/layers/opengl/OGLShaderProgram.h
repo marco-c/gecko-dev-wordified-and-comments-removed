@@ -1398,6 +1398,7 @@ ASSERT_THIS_PROGRAM
 \
 do
 {
+\
 }
 while
 (

@@ -7112,7 +7112,6 @@ _parent
 CACHE_POINTER_SHIFT
 )
 &
-\
 (
 CACHE_NUM_SLOTS
 -

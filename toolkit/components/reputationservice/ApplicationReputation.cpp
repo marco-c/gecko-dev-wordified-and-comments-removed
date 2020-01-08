@@ -382,6 +382,15 @@ using
 mozilla
 :
 :
+intl
+:
+:
+LocaleService
+;
+using
+mozilla
+:
+:
 Telemetry
 :
 :
@@ -395,15 +404,6 @@ Telemetry
 :
 :
 AccumulateCategorical
-;
-using
-mozilla
-:
-:
-intl
-:
-:
-LocaleService
 ;
 using
 safe_browsing
@@ -470,6 +470,7 @@ enabled
 #
 define
 PREF_SB_DOWNLOADS_REMOTE_ENABLED
+\
 "
 browser
 .
@@ -484,6 +485,7 @@ enabled
 #
 define
 PREF_SB_DOWNLOADS_REMOTE_TIMEOUT
+\
 "
 browser
 .
@@ -514,6 +516,7 @@ downloadAllowTable
 #
 define
 PREF_BLOCK_DANGEROUS
+\
 "
 browser
 .
@@ -528,6 +531,7 @@ block_dangerous
 #
 define
 PREF_BLOCK_DANGEROUS_HOST
+\
 "
 browser
 .
@@ -542,6 +546,7 @@ block_dangerous_host
 #
 define
 PREF_BLOCK_POTENTIALLY_UNWANTED
+\
 "
 browser
 .
@@ -556,6 +561,7 @@ block_potentially_unwanted
 #
 define
 PREF_BLOCK_UNCOMMON
+\
 "
 browser
 .
@@ -587,6 +593,7 @@ LOG
 (
 args
 )
+\
 MOZ_LOG
 (
 ApplicationReputationService
@@ -607,6 +614,7 @@ define
 LOG_ENABLED
 (
 )
+\
 MOZ_LOG_TEST
 (
 ApplicationReputationService
@@ -5323,6 +5331,8 @@ as
 %
 s
 '
+"
+"
 [
 this
 =
@@ -5482,6 +5492,8 @@ s
 [
 this
 =
+"
+"
 %
 p
 ]
@@ -5544,6 +5556,8 @@ not
 supported
 [
 this
+"
+"
 =
 %
 p

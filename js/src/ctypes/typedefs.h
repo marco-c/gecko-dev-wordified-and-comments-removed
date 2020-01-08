@@ -70,6 +70,7 @@ ffi_type_uint64
 #
 define
 CTYPES_FFI_SIZE_T
+\
 (
 sizeof
 (
@@ -86,6 +87,7 @@ ffi_type_uint64
 #
 define
 CTYPES_FFI_SSIZE_T
+\
 (
 sizeof
 (
@@ -102,6 +104,7 @@ ffi_type_sint64
 #
 define
 CTYPES_FFI_OFF_T
+\
 (
 sizeof
 (
@@ -118,6 +121,7 @@ ffi_type_sint64
 #
 define
 CTYPES_FFI_INTPTR_T
+\
 (
 sizeof
 (
@@ -134,6 +138,7 @@ ffi_type_sint64
 #
 define
 CTYPES_FFI_UINTPTR_T
+\
 (
 sizeof
 (
@@ -153,7 +158,6 @@ CTYPES_FOR_EACH_BOOL_TYPE
 (
 MACRO
 )
-\
 MACRO
 (
 bool

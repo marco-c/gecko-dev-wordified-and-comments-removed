@@ -856,8 +856,10 @@ else
 #
 define
 ASSERT_ACTIVITY_IS_LEGAL
+\
 do
 {
+\
 }
 while
 (
@@ -2566,6 +2568,8 @@ we
 should
 be
 destroying
+"
+"
 it
 .
 "

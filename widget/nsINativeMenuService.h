@@ -33,11 +33,12 @@ define
 NS_INATIVEMENUSERVICE_IID
 \
 {
+\
 0x90DF88F9
 0xF084
 0x4EF3
-\
 {
+\
 0x82
 0x9A
 0x49
@@ -46,7 +47,9 @@ NS_INATIVEMENUSERVICE_IID
 0x63
 0x6D
 0xED
+\
 }
+\
 }
 class
 nsINativeMenuService

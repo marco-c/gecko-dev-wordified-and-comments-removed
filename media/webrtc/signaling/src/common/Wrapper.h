@@ -464,6 +464,7 @@ handle
 )
 ;
 \
+\
 private
 :
 \
@@ -532,7 +533,6 @@ wrap
 handletype
 handle
 )
-\
 {
 \
 return
@@ -555,9 +555,7 @@ classname
 reset
 (
 )
-\
 {
-\
 getWrapper
 (
 )
@@ -566,7 +564,6 @@ reset
 (
 )
 ;
-\
 }
 \
 void
@@ -578,9 +575,7 @@ release
 handletype
 handle
 )
-\
 {
-\
 getWrapper
 (
 )
@@ -590,5 +585,4 @@ release
 handle
 )
 ;
-\
 }

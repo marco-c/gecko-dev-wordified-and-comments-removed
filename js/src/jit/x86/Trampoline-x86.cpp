@@ -1718,6 +1718,8 @@ frame
 pointer
 and
 its
+"
+"
 padding
 for
 aligning
@@ -4554,6 +4556,8 @@ lastProfilingFrame
 and
 current
 stack
+"
+"
 pointer
 .
 "

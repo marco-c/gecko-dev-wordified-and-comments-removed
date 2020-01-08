@@ -340,12 +340,6 @@ using
 JS
 :
 :
-ToInt8
-;
-using
-JS
-:
-:
 ToInt16
 ;
 using
@@ -364,7 +358,7 @@ using
 JS
 :
 :
-ToUint8
+ToInt8
 ;
 using
 JS
@@ -383,6 +377,12 @@ JS
 :
 :
 ToUint64
+;
+using
+JS
+:
+:
+ToUint8
 ;
 static
 bool

@@ -1083,7 +1083,6 @@ atom
 .
 .
 )
-\
 {
 nsGkAtoms
 :
@@ -1101,9 +1100,7 @@ new_type
 \
 XULMAP
 (
-\
 atom
-\
 [
 ]
 (
@@ -1135,7 +1132,6 @@ Document
 ;
 \
 }
-\
 )
 static
 const
@@ -3304,10 +3300,10 @@ ROLE
 geckoRole
 stringRole
 atkRole
-\
 macRole
 msaaRole
 ia2Role
+\
 androidClass
 nameRule
 )

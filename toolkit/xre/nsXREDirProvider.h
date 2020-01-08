@@ -60,11 +60,12 @@ define
 NS_XREDIRPROVIDER_CID
 \
 {
+\
 0x5573967d
 0xf6cf
 0x4c63
-\
 {
+\
 0x8e
 0x0e
 0x9a
@@ -73,7 +74,9 @@ NS_XREDIRPROVIDER_CID
 0x04
 0xd6
 0x2b
+\
 }
+\
 }
 #
 define

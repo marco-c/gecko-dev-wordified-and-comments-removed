@@ -572,8 +572,10 @@ ASSERT_UNLESS_FUZZING
 .
 .
 )
+\
 do
 {
+\
 }
 while
 (

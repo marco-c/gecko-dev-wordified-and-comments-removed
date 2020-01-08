@@ -995,6 +995,8 @@ this
 =
 %
 p
+"
+"
 hash
 =
 %
@@ -5409,6 +5411,8 @@ CacheFileIOManager
 already
 gone
 in
+"
+"
 MetadataWriteScheduleEvent
 :
 :
@@ -11562,6 +11566,8 @@ handle
 =
 %
 p
+"
+"
 ignore
 shutdown
 =
@@ -11828,6 +11834,8 @@ handle
 =
 %
 p
+"
+"
 truncatePos
 =
 %
@@ -15277,6 +15285,8 @@ loadContextInfo
 =
 %
 p
+"
+"
 pinned
 =
 %
@@ -16034,6 +16044,8 @@ TrashDirectory
 -
 Directory
 removed
+"
+"
 [
 rv
 =
@@ -17103,6 +17115,8 @@ Found
 a
 directory
 in
+"
+"
 a
 trash
 "
@@ -17428,6 +17442,8 @@ handle
 =
 %
 p
+"
+"
 originAttrsHash
 =
 %
@@ -19967,6 +19983,8 @@ OpenNSPRHandle
 Create
 failed
 with
+"
+"
 0x
 %
 08
@@ -20349,6 +20367,8 @@ SyncRemoveDir
 Removing
 failed
 !
+"
+"
 [
 rv
 =
@@ -20498,6 +20518,8 @@ an
 unexpected
 error
 .
+"
+"
 [
 rv
 =

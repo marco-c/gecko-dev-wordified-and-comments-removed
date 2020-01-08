@@ -1196,6 +1196,7 @@ for
 const
 nsCSSPropertyID
 *
+\
 it_
 =
 nsCSSProps
@@ -1216,7 +1217,6 @@ nsCSSPropertyID
 enabledstate_
 )
 |
-\
 CSSEnabledState
 (
 0

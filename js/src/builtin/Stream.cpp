@@ -2163,6 +2163,7 @@ cls
 :
 constructor
 nCtorArgs
+\
 gc
 :
 :
@@ -2194,7 +2195,6 @@ _properties
 nullptr
 \
 specFlags
-\
 }
 ;
 \
@@ -2207,7 +2207,6 @@ cls
 class_
 =
 {
-\
 #
 cls
 \
@@ -2229,13 +2228,11 @@ cls
 classFlags
 \
 classOps
-\
 &
 cls
 :
 :
 classSpec_
-\
 }
 ;
 \
@@ -2248,7 +2245,6 @@ cls
 protoClass_
 =
 {
-\
 "
 object
 "
@@ -2262,13 +2258,11 @@ cls
 )
 \
 JS_NULL_CLASS_OPS
-\
 &
 cls
 :
 :
 classSpec_
-\
 }
 ;
 static
@@ -10806,6 +10800,8 @@ same
 -
 compartment
 with
+"
+"
 the
 TeeState
 object

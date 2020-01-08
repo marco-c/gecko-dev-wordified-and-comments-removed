@@ -105,7 +105,6 @@ BTN_MASK_FROM_ID
 (
 _id
 )
-\
 :
 :
 vr
@@ -2775,6 +2774,8 @@ controllers
 need
 to
 increase
+"
+"
 kVRControllerMaxCount
 .
 "

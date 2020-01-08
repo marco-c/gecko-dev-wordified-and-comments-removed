@@ -5330,6 +5330,7 @@ cx
 helperThread
 (
 )
+\
 CurrentThreadCanAccessRuntime
 (
 cx

@@ -76,11 +76,12 @@ define
 NS_ICONTENTCHILD_IID
 \
 {
+\
 0x4eed2e73
 0x94ba
 0x48a8
-\
 {
+\
 0xa2
 0xd1
 0xa5
@@ -89,7 +90,9 @@ NS_ICONTENTCHILD_IID
 0xd7
 0xbb
 0xe4
+\
 }
+\
 }
 namespace
 IPC

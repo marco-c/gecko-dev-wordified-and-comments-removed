@@ -7,7 +7,6 @@ NSEMBEDCID_H
 #
 define
 NS_WEBBROWSER_CONTRACTID
-\
 "
 mozilla
 .
@@ -24,7 +23,6 @@ nsWebBrowser
 #
 define
 NS_PROMPTSERVICE_CONTRACTID
-\
 "
 mozilla
 .

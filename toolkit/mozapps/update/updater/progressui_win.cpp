@@ -723,7 +723,6 @@ textSize
 left
 )
 -
-\
 (
 infoSize
 .
@@ -748,7 +747,6 @@ textSize
 top
 )
 -
-\
 (
 infoSize
 .
