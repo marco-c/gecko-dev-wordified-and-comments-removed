@@ -62,3 +62,13 @@ i686
 pc
 -
 linux
+ac_add_options
+-
+-
+host
+=
+i686
+-
+pc
+-
+linux
