@@ -2374,14 +2374,6 @@ search
 "
 Foo
 "
-{
-disableOneOffButtons
-:
-true
-disableSearchSuggestionsNotification
-:
-true
-}
 )
 ;
 }
