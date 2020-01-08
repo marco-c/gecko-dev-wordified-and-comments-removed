@@ -305,7 +305,7 @@ row
 0
 ]
 .
-innerHTML
+textContent
 =
 this
 .
@@ -358,6 +358,7 @@ this
 result
 =
 =
+=
 true
 )
 {
@@ -394,6 +395,7 @@ if
 this
 .
 result
+=
 =
 =
 false
@@ -435,7 +437,7 @@ row
 1
 ]
 .
-innerHTML
+textContent
 =
 this
 .
@@ -461,7 +463,7 @@ row
 2
 ]
 .
-innerHTML
+textContent
 =
 (
 this
@@ -791,6 +793,7 @@ i
 result
 =
 =
+=
 true
 )
 this
@@ -809,6 +812,7 @@ i
 ]
 .
 result
+=
 =
 =
 false
@@ -844,7 +848,7 @@ this
 .
 passSpan
 .
-innerHTML
+textContent
 =
 this
 .
@@ -854,7 +858,7 @@ this
 .
 failSpan
 .
-innerHTML
+textContent
 =
 this
 .
@@ -864,7 +868,7 @@ this
 .
 pendingSpan
 .
-innerHTML
+textContent
 =
 this
 .
@@ -1221,13 +1225,11 @@ run
 }
 MOCHITEST
 =
-(
 "
 SimpleTest
 "
 in
 window
-)
 ;
 if
 (
