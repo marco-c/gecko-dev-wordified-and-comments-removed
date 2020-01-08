@@ -593,7 +593,7 @@ gecko
 .
 updater
 .
-UpdateService
+UpdateServiceHelper
 ;
 import
 org
@@ -605,6 +605,8 @@ gecko
 updater
 .
 UpdateServiceHelper
+.
+AutoDownloadPolicy
 ;
 import
 org
@@ -6035,8 +6037,6 @@ UpdateServiceHelper
 setAutoDownloadPolicy
 (
 this
-UpdateService
-.
 AutoDownloadPolicy
 .
 get
