@@ -646,9 +646,6 @@ ScheduleProcessing
 void
 ScheduleContentInsertion
 (
-Accessible
-*
-aContainer
 nsIContent
 *
 aStartChildNode

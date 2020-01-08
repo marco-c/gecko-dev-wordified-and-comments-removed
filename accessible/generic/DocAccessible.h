@@ -1042,9 +1042,6 @@ ContentInserted
 (
 nsIContent
 *
-aContainerNode
-nsIContent
-*
 aStartChildNode
 nsIContent
 *
