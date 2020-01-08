@@ -418,6 +418,17 @@ PAGES
 THIS_FIREFOX
 )
 ;
+this
+.
+actions
+.
+updateNetworkLocations
+(
+getNetworkLocations
+(
+)
+)
+;
 addNetworkLocationsObserver
 (
 this
