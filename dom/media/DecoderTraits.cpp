@@ -617,13 +617,6 @@ DecoderDoctorDiagnostics
 aDiagnostics
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 #
 ifdef
 MOZ_ANDROID_HLS_SUPPORT
