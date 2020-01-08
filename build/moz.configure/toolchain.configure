@@ -5676,7 +5676,7 @@ the
 target
 C
 compiler
-if
+is
 GCC
 and
 it
@@ -6000,6 +6000,7 @@ provided
 We
 also
 factor
+in
 the
 target
 C
@@ -6017,10 +6018,16 @@ C
 compiler
 using
 the
-same
+target
+C
++
++
+compiler
 if
 the
-corresponding
+host
+and
+target
 C
 compilers
 are
