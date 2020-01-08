@@ -2036,7 +2036,7 @@ AbortReasonOr
 <
 Ok
 >
-arithTrySharedStub
+arithTryBinaryStub
 (
 bool
 *
