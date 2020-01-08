@@ -621,9 +621,9 @@ trc
 void
 purgeOptimizedStubs
 (
-JSScript
+Zone
 *
-script
+zone
 )
 ;
 ICEntry
