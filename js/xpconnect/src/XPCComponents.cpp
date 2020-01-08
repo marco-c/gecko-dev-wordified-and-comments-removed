@@ -898,6 +898,8 @@ AutoIdVector
 &
 properties
 bool
+enumerableOnly
+bool
 *
 _retval
 )
@@ -1589,6 +1591,8 @@ JS
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 bool
 *
 _retval
@@ -2304,6 +2308,8 @@ JS
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 bool
 *
 _retval
@@ -3067,6 +3073,8 @@ JS
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 bool
 *
 _retval
@@ -3889,6 +3897,8 @@ JS
 AutoIdVector
 &
 properties
+bool
+enumerableOnly
 bool
 *
 _retval

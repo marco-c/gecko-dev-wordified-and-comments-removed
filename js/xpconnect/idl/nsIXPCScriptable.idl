@@ -611,6 +611,9 @@ obj
 in
 JSAutoIdVector
 properties
+in
+boolean
+enumerableOnly
 )
 ;
 boolean

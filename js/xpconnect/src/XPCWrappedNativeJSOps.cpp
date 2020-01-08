@@ -4053,6 +4053,7 @@ wrapper
 cx
 obj
 properties
+enumerableOnly
 &
 retval
 )
