@@ -3897,6 +3897,9 @@ None
 outputHandler
 =
 None
+e10s
+=
+True
 )
 :
 "

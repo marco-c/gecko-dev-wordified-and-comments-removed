@@ -3429,6 +3429,25 @@ test
 target
 '
 ]
+            
+if
+target
+and
+'
+geckoview
+'
+in
+target
+:
+                
+test
+[
+'
+e10s
+'
+]
+=
+True
         
 if
 not

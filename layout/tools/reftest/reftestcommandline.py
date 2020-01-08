@@ -3500,11 +3500,5 @@ components
 "
 )
         
-options
-.
-e10s
-=
-False
-        
 return
 options

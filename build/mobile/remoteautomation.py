@@ -183,6 +183,9 @@ timeout
 maxTime
 =
 None
+e10s
+=
+True
 *
 *
 kwargs
@@ -340,6 +343,9 @@ not
 debuggerInfo
 )
                        
+e10s
+=
+e10s
 *
 *
 self
@@ -1662,6 +1668,9 @@ cmd
 env
 =
 None
+e10s
+=
+True
 messageLogger
 =
 None
@@ -1954,14 +1963,16 @@ launch_activity
 self
 .
 appName
+activity_name
+=
 activity
 e10s
 =
-True
+e10s
+                                            
 moz_env
 =
 env
-                                            
 extra_args
 =
 args
