@@ -359,7 +359,7 @@ override
 ;
 nsIContent
 *
-XULWidgetElm
+BindingParent
 (
 )
 const
