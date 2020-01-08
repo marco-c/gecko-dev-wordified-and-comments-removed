@@ -448,11 +448,11 @@ i32
 pub
 width
 :
-u32
+i32
 pub
 height
 :
-u32
+i32
 pub
 advance
 :

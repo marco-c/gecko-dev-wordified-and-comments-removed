@@ -17,7 +17,7 @@ DeviceIntRect
 DeviceRect
 DevicePoint
 DeviceSize
-DeviceUintSize
+DeviceIntSize
 }
 ;
 use
@@ -1651,7 +1651,7 @@ viewport_size
 :
 Option
 <
-DeviceUintSize
+DeviceIntSize
 >
 )
 {

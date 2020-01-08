@@ -74,7 +74,7 @@ pub
 const
 GPU_CACHE_INITIAL_HEIGHT
 :
-u32
+i32
 =
 512
 ;
@@ -88,7 +88,7 @@ usize
 const
 NEW_ROWS_PER_RESIZE
 :
-u32
+i32
 =
 512
 ;
@@ -1016,7 +1016,7 @@ FrameId
 pub
 height
 :
-u32
+i32
 pub
 updates
 :
@@ -1409,7 +1409,7 @@ Texture
 {
 height
 :
-u32
+i32
 blocks
 :
 Vec
@@ -1661,7 +1661,7 @@ len
 (
 )
 as
-u32
+i32
 =
 =
 self

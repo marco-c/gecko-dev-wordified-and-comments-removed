@@ -42,7 +42,7 @@ pub
 const
 FIRST_GLYPH_INDEX
 :
-u32
+i32
 =
 32
 ;
@@ -50,7 +50,7 @@ pub
 const
 BMP_WIDTH
 :
-u32
+i32
 =
 128
 ;
@@ -58,7 +58,7 @@ pub
 const
 BMP_HEIGHT
 :
-u32
+i32
 =
 128
 ;
@@ -66,7 +66,7 @@ pub
 const
 FONT_SIZE
 :
-u32
+i32
 =
 19
 ;

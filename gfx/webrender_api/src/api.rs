@@ -77,12 +77,12 @@ BuiltDisplayList
 BuiltDisplayListDescriptor
 ColorF
 DeviceIntPoint
-DeviceUintRect
+DeviceIntRect
 }
 ;
 use
 {
-DeviceUintSize
+DeviceIntSize
 ExternalScrollId
 FontInstanceKey
 FontInstanceOptions
@@ -155,7 +155,7 @@ ImageKey
 SetImageVisibleArea
 (
 ImageKey
-DeviceUintRect
+DeviceIntRect
 )
 AddFont
 (
@@ -621,10 +621,10 @@ mut
 self
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 inner_rect
 :
-DeviceUintRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32
@@ -1067,7 +1067,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 )
 {
@@ -1133,7 +1133,7 @@ key
 ImageKey
 area
 :
-DeviceUintRect
+DeviceIntRect
 )
 {
 self
@@ -1739,7 +1739,7 @@ dirty_rect
 :
 Option
 <
-DeviceUintRect
+DeviceIntRect
 >
 }
 #
@@ -1973,10 +1973,10 @@ SetWindowParameters
 {
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 inner_rect
 :
-DeviceUintRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32
@@ -2538,7 +2538,7 @@ PipelineId
 pub
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 }
 #
 [
@@ -2692,7 +2692,7 @@ IdNamespace
 AddDocument
 (
 DocumentId
-DeviceUintSize
+DeviceIntSize
 DocumentLayer
 )
 UpdateDocument
@@ -3984,7 +3984,7 @@ add_document
 self
 initial_size
 :
-DeviceUintSize
+DeviceIntSize
 layer
 :
 DocumentLayer
@@ -4907,10 +4907,10 @@ document_id
 DocumentId
 window_size
 :
-DeviceUintSize
+DeviceIntSize
 inner_rect
 :
-DeviceUintRect
+DeviceIntRect
 device_pixel_ratio
 :
 f32
