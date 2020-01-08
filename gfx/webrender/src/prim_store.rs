@@ -2618,10 +2618,6 @@ pub
 cache_key
 :
 RenderTaskCacheKey
-pub
-is_opaque
-:
-bool
 }
 #
 [
@@ -13034,9 +13030,7 @@ frame_state
 .
 render_tasks
 None
-segment
-.
-is_opaque
+false
 |
 render_tasks
 |
