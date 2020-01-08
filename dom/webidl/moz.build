@@ -5388,11 +5388,6 @@ VideoTrackList
 webidl
 '
 '
-VisualViewport
-.
-webidl
-'
-'
 VRDisplay
 .
 webidl
