@@ -286,6 +286,11 @@ nsIFrame
 aFrame
 )
 ;
+void
+DebugVerifyFrameStateBits
+(
+)
+;
 #
 endif
 }
