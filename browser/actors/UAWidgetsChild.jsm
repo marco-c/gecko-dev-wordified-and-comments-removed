@@ -125,6 +125,12 @@ target
 break
 ;
 }
+aEvent
+.
+stopPropagation
+(
+)
+;
 }
 setupOrNotifyWidget
 (
