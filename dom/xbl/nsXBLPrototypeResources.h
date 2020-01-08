@@ -30,9 +30,6 @@ nsICSSLoaderObserver
 h
 "
 class
-nsCSSRuleProcessor
-;
-class
 nsAtom
 ;
 class
