@@ -958,7 +958,7 @@ type
 {
 case
 "
-audio
+audioinput
 "
 :
 if
@@ -1021,7 +1021,7 @@ break
 ;
 case
 "
-video
+videoinput
 "
 :
 if
