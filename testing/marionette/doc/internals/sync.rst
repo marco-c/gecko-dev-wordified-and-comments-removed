@@ -78,3 +78,11 @@ autofunction
 :
 :
 waitForEvent
+.
+.
+js
+:
+autofunction
+:
+:
+waitForMessage
