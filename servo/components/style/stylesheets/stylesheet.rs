@@ -66,6 +66,16 @@ shared_lock
 DeepCloneParams
 DeepCloneWithLock
 Locked
+}
+;
+use
+crate
+:
+:
+shared_lock
+:
+:
+{
 SharedRwLock
 SharedRwLockReadGuard
 }

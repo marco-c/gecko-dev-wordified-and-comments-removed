@@ -131,6 +131,16 @@ matching
 {
 ElementSelectorFlags
 MatchingContext
+}
+;
+use
+selectors
+:
+:
+matching
+:
+:
+{
 MatchingMode
 VisitedHandlingMode
 }

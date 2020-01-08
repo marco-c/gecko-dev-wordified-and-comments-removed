@@ -379,6 +379,16 @@ DocumentRule
 ImportRule
 KeyframesRule
 MediaRule
+}
+;
+use
+crate
+:
+:
+stylesheets
+:
+:
+{
 NamespaceRule
 PageRule
 }
