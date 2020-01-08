@@ -143,6 +143,17 @@ shared
 moz_memory
 "
 ]
+spidermonkey_rust
+=
+[
+"
+gkrust
+-
+shared
+/
+spidermonkey_rust
+"
+]
 [
 dependencies
 ]
