@@ -3460,7 +3460,9 @@ this
 .
 _subsessionStartActiveTicks
 =
-activeTicks
+this
+.
+_sessionActiveTicks
 ;
 }
 ret
