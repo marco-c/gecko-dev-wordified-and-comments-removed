@@ -1873,7 +1873,7 @@ this
 .
 _fxAccounts
 .
-getKeys
+getSignedInUser
 (
 )
 ;
