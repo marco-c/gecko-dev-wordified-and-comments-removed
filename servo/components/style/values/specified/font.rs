@@ -7453,6 +7453,7 @@ MallocSizeOf
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 SpecifiedValueInfo
@@ -8755,6 +8756,7 @@ MallocSizeOf
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 SpecifiedValueInfo
@@ -9950,6 +9952,7 @@ MallocSizeOf
 derive
 (
 Clone
+Copy
 Debug
 PartialEq
 SpecifiedValueInfo

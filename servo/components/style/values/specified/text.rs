@@ -4114,6 +4114,7 @@ Left
 derive
 (
 Clone
+Copy
 Debug
 MallocSizeOf
 PartialEq
