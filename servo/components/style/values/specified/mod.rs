@@ -632,7 +632,10 @@ self
 list
 :
 :
+{
 Quotes
+QuotePair
+}
 ;
 #
 [
