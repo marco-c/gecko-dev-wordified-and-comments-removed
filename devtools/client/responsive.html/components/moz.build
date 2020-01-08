@@ -138,11 +138,6 @@ ToggleMenu
 js
 '
 '
-Viewport
-.
-js
-'
-'
 ViewportDimension
 .
 js
