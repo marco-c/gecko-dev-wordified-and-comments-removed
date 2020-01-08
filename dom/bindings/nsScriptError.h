@@ -298,6 +298,16 @@ MutableHandleValue
 override
 ;
 NS_IMETHOD
+GetStackGlobal
+(
+JS
+:
+:
+MutableHandleValue
+)
+override
+;
+NS_IMETHOD
 ToString
 (
 nsACString
