@@ -2768,6 +2768,20 @@ self
 )
 :
         
+"
+"
+"
+Tries
+to
+close
+the
+active
+session
+.
+"
+"
+"
+        
 if
 self
 .
@@ -2778,8 +2792,16 @@ None
             
 return
         
-url
-=
+try
+:
+            
+self
+.
+send_command
+(
+"
+DELETE
+"
 "
 session
 /
@@ -2790,17 +2812,19 @@ s
 self
 .
 session_id
-        
-self
-.
-send_command
-(
-"
-DELETE
-"
-url
 )
         
+except
+error
+.
+SessionNotCreatedException
+:
+            
+pass
+        
+finally
+:
+            
 self
 .
 session_id
