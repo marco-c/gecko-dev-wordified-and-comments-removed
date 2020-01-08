@@ -6966,6 +6966,12 @@ cancelEdit
 }
 )
 ;
+if
+(
+!
+isInAutomation
+)
+{
 mBrowserToolbar
 .
 setOnFilterListener
@@ -6998,6 +7004,7 @@ handler
 }
 )
 ;
+}
 mBrowserToolbar
 .
 setOnFocusChangeListener
