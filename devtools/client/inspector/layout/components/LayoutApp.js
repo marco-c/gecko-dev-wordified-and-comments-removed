@@ -890,7 +890,7 @@ items
 .
 splice
 (
-1
+0
 0
 {
 component
