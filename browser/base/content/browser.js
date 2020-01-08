@@ -32728,7 +32728,7 @@ document
 getElementById
 (
 "
-workOfflineMenuitemState
+cmd_toggleOfflineStatus
 "
 )
 ;
