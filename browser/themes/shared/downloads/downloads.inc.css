@@ -902,7 +902,7 @@ downloadMainArea
 downloadContainer
 >
 .
-downloadButtonLabels
+downloadDetailsButtonHover
 {
 display
 :
@@ -996,7 +996,7 @@ downloadMainArea
 downloadContainer
 >
 .
-downloadButtonLabels
+downloadDetailsButtonHover
 item
 :
 not
