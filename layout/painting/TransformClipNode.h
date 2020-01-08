@@ -135,6 +135,7 @@ const
 int32_t
 aA2D
 )
+const
 {
 if
 (
@@ -238,6 +239,7 @@ IntRect
 &
 aRect
 )
+const
 {
 if
 (
@@ -435,6 +437,7 @@ Rect
 &
 aRect
 )
+const
 {
 const
 TransformClipNode
