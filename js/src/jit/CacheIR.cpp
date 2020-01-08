@@ -22882,12 +22882,11 @@ obj
 ;
 wrapper
 =
-NewObjectWithClassProto
+NewBuiltinClassInstance
 (
 cx
 &
 shapeContainerClass
-nullptr
 )
 ;
 if

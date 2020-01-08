@@ -3496,8 +3496,6 @@ JSContext
 cx
 HandleObject
 proto
-=
-nullptr
 NewObjectKind
 newKind
 =

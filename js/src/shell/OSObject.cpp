@@ -2036,13 +2036,12 @@ obj
 js
 :
 :
-NewObjectWithClassProto
+NewBuiltinClassInstance
 <
 FileObject
 >
 (
 cx
-nullptr
 )
 ;
 if
