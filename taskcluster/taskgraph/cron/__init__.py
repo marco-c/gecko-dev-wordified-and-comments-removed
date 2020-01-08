@@ -37,12 +37,7 @@ from
 .
 util
 import
-(
-    
 match_utc
-    
-calculate_head_rev
-)
 from
 .
 .
@@ -62,6 +57,14 @@ util
 attributes
 import
 match_run_on_projects
+from
+taskgraph
+.
+util
+.
+hg
+import
+calculate_head_rev
 from
 taskgraph
 .
