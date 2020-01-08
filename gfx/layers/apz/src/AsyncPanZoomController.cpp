@@ -5349,7 +5349,6 @@ aEvent
 mLocalFocusPoint
 .
 x
-0
 aEvent
 .
 mTime
@@ -5364,7 +5363,6 @@ aEvent
 mLocalFocusPoint
 .
 y
-0
 aEvent
 .
 mTime
@@ -9640,11 +9638,12 @@ mX
 .
 UpdateWithTouchAtDevicePoint
 (
-aEvent
+mX
 .
-mLocalPanStartPoint
-.
-x
+GetPos
+(
+)
++
 logicalPanDisplacement
 .
 x
@@ -9657,11 +9656,12 @@ mY
 .
 UpdateWithTouchAtDevicePoint
 (
-aEvent
+mY
 .
-mLocalPanStartPoint
-.
-y
+GetPos
+(
+)
++
 logicalPanDisplacement
 .
 y
@@ -12084,7 +12084,6 @@ UpdateWithTouchAtDevicePoint
 point
 .
 x
-0
 aEvent
 .
 mTime
@@ -12097,7 +12096,6 @@ UpdateWithTouchAtDevicePoint
 point
 .
 y
-0
 aEvent
 .
 mTime

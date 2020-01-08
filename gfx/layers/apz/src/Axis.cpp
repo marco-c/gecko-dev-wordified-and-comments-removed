@@ -334,8 +334,6 @@ UpdateWithTouchAtDevicePoint
 (
 ParentLayerCoord
 aPos
-ParentLayerCoord
-aAdditionalDelta
 uint32_t
 aTimestampMs
 )
@@ -411,8 +409,6 @@ float
 mVelocitySamplePos
 -
 aPos
-+
-aAdditionalDelta
 )
 /
 (
