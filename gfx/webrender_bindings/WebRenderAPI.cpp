@@ -141,6 +141,9 @@ aUseANGLE
 bool
 *
 aUseDComp
+bool
+*
+aUseTripleBuffering
 RefPtr
 <
 widget
@@ -182,6 +185,10 @@ aUseANGLE
 mUseDComp
 (
 aUseDComp
+)
+mUseTripleBuffering
+(
+aUseTripleBuffering
 )
 mBridge
 (
@@ -294,6 +301,16 @@ compositor
 -
 >
 UseDComp
+(
+)
+;
+*
+mUseTripleBuffering
+=
+compositor
+-
+>
+UseTripleBuffering
 (
 )
 ;
@@ -529,6 +546,10 @@ mUseANGLE
 bool
 *
 mUseDComp
+;
+bool
+*
+mUseTripleBuffering
 ;
 layers
 :
@@ -1309,6 +1330,11 @@ useDComp
 =
 false
 ;
+bool
+useTripleBuffering
+=
+false
+;
 layers
 :
 :
@@ -1346,6 +1372,8 @@ maxTextureSize
 useANGLE
 &
 useDComp
+&
+useTripleBuffering
 std
 :
 :
@@ -1410,6 +1438,7 @@ aWindowId
 maxTextureSize
 useANGLE
 useDComp
+useTripleBuffering
 syncHandle
 )
 )
@@ -1460,6 +1489,7 @@ mId
 mMaxTextureSize
 mUseANGLE
 mUseDComp
+mUseTripleBuffering
 mSyncHandle
 )
 ;
@@ -1552,6 +1582,7 @@ mId
 mMaxTextureSize
 mUseANGLE
 mUseDComp
+mUseTripleBuffering
 mSyncHandle
 )
 )
@@ -1937,7 +1968,6 @@ Some
 (
 mBuffer
 )
-false
 )
 ;
 layers
