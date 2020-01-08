@@ -2782,6 +2782,12 @@ op
 ;
 CatchClause
 :
+type
+-
+ok
+:
+LexicalScopeNode
+*
 init
 :
 |
@@ -5494,6 +5500,14 @@ type
 ok
 :
 Ok
+OptionalCatchClause
+:
+type
+-
+ok
+:
+LexicalScopeNode
+*
 Parameter
 :
 sum

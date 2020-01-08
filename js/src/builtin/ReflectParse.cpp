@@ -8160,7 +8160,7 @@ dst
 bool
 tryStatement
 (
-TernaryNode
+TryNode
 *
 tryNode
 MutableHandleValue
@@ -11346,7 +11346,7 @@ ASTSerializer
 :
 tryStatement
 (
-TernaryNode
+TryNode
 *
 tryNode
 MutableHandleValue
@@ -11360,7 +11360,7 @@ bodyNode
 tryNode
 -
 >
-kid1
+body
 (
 )
 ;
@@ -11380,14 +11380,14 @@ pn_pos
 )
 )
 ;
-ParseNode
+LexicalScopeNode
 *
 catchNode
 =
 tryNode
 -
 >
-kid2
+catchScope
 (
 )
 ;
@@ -11415,7 +11415,7 @@ finallyNode
 tryNode
 -
 >
-kid3
+finallyBlock
 (
 )
 ;
@@ -12314,7 +12314,7 @@ pn
 >
 as
 <
-TernaryNode
+TryNode
 >
 (
 )

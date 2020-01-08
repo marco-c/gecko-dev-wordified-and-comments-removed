@@ -17475,7 +17475,7 @@ JS
 :
 Result
 <
-ParseNode
+LexicalScopeNode
 *
 >
 BinASTParser
@@ -17583,7 +17583,7 @@ JS
 :
 Result
 <
-ParseNode
+LexicalScopeNode
 *
 >
 BinASTParser
@@ -40641,7 +40641,7 @@ JS
 :
 Result
 <
-ParseNode
+LexicalScopeNode
 *
 >
 BinASTParser
@@ -40683,7 +40683,7 @@ guard
 )
 )
 ;
-ParseNode
+LexicalScopeNode
 *
 result
 ;

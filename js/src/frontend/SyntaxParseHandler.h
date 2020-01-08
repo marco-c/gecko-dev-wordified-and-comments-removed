@@ -1460,7 +1460,7 @@ uint32_t
 begin
 Node
 body
-Node
+LexicalScopeNodeType
 catchScope
 Node
 finallyBlock

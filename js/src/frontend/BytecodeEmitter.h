@@ -3052,7 +3052,7 @@ MOZ_MUST_USE
 bool
 emitTry
 (
-TernaryNode
+TryNode
 *
 tryNode
 )
