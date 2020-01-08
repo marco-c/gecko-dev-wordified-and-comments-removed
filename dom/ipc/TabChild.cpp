@@ -976,7 +976,7 @@ h
 #
 include
 "
-nsDocShellLoadState
+nsDocShellLoadInfo
 .
 h
 "
@@ -4404,9 +4404,9 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
-nsDocShellLoadState
+nsDocShellLoadInfo
 *
-aLoadState
+aLoadInfo
 bool
 *
 aWindowIsNew
@@ -4565,7 +4565,7 @@ aURI
 aName
 aFeatures
 aForceNoOpener
-aLoadState
+aLoadInfo
 aWindowIsNew
 aReturn
 )

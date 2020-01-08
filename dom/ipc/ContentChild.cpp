@@ -982,7 +982,7 @@ h
 #
 include
 "
-nsDocShellLoadState
+nsDocShellLoadInfo
 .
 h
 "
@@ -3778,9 +3778,9 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
-nsDocShellLoadState
+nsDocShellLoadInfo
 *
-aLoadState
+aLoadInfo
 bool
 *
 aWindowIsNew
@@ -3804,7 +3804,7 @@ aURI
 aName
 aFeatures
 aForceNoOpener
-aLoadState
+aLoadInfo
 aWindowIsNew
 aReturn
 )
@@ -3817,9 +3817,9 @@ GetCreateWindowParams
 mozIDOMWindowProxy
 *
 aParent
-nsDocShellLoadState
+nsDocShellLoadInfo
 *
-aLoadState
+aLoadInfo
 nsACString
 &
 aBaseURIString
@@ -3977,13 +3977,13 @@ aBaseURIString
 ;
 if
 (
-aLoadState
+aLoadInfo
 )
 {
 if
 (
 !
-aLoadState
+aLoadInfo
 -
 >
 SendReferrer
@@ -4008,7 +4008,7 @@ else
 *
 aReferrerPolicy
 =
-aLoadState
+aLoadInfo
 -
 >
 ReferrerPolicy
@@ -4126,9 +4126,9 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
-nsDocShellLoadState
+nsDocShellLoadInfo
 *
-aLoadState
+aLoadInfo
 bool
 *
 aWindowIsNew
@@ -4346,7 +4346,7 @@ rv
 GetCreateWindowParams
 (
 aParent
-aLoadState
+aLoadInfo
 baseURIString
 &
 fullZoom
@@ -5359,7 +5359,7 @@ rv
 GetCreateWindowParams
 (
 aParent
-aLoadState
+aLoadInfo
 baseURIString
 &
 fullZoom
