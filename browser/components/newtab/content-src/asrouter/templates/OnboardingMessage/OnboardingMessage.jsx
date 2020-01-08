@@ -102,7 +102,9 @@ props
 .
 content
 .
-button_action
+primary_button
+.
+action
 )
 ;
 }
@@ -209,7 +211,9 @@ onClick
 {
 content
 .
-button_label
+primary_button
+.
+label
 }
 <
 /

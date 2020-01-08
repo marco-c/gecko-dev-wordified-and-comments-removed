@@ -82,6 +82,15 @@ properties
 scene2_dismiss_button_text
 .
 default
+scene2_newsletter
+:
+schema
+.
+properties
+.
+scene2_newsletter
+.
+default
 .
 .
 .

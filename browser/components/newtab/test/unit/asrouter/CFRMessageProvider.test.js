@@ -33,12 +33,6 @@ GOOGLE_TRANSLATE
 "
 YOUTUBE_ENHANCE
 "
-"
-WIKIPEDIA_CONTEXT_MENU_SEARCH
-"
-"
-REDDIT_ENHANCEMENT
-"
 ]
 ;
 describe
@@ -59,7 +53,7 @@ have
 a
 total
 of
-5
+3
 messages
 "
 (
@@ -72,7 +66,7 @@ assert
 lengthOf
 (
 messages
-5
+3
 )
 ;
 }
@@ -88,7 +82,7 @@ message
 each
 for
 the
-five
+three
 regular
 addons
 "

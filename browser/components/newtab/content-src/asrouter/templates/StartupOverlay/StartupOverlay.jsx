@@ -412,6 +412,14 @@ true
 }
 )
 ;
+this
+.
+props
+.
+onReady
+(
+)
+;
 }
 10
 )
@@ -445,6 +453,9 @@ remove
 hide
 -
 main
+"
+"
+fxa
 "
 )
 ;

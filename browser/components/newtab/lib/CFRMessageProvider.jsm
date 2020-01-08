@@ -1814,6 +1814,9 @@ template
 "
 cfr_doorhanger
 "
+exclude
+:
+true
 content
 :
 {
@@ -2249,6 +2252,9 @@ template
 "
 cfr_doorhanger
 "
+exclude
+:
+true
 content
 :
 {
@@ -2675,6 +2681,17 @@ getMessages
 {
 return
 CFR_MESSAGES
+.
+filter
+(
+msg
+=
+>
+!
+msg
+.
+exclude
+)
 ;
 }
 }

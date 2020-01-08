@@ -168,6 +168,10 @@ title
 "
 Foo
 "
+primary_button
+:
+{
+}
 body
 :
 "
