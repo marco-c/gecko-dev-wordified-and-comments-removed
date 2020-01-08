@@ -917,7 +917,7 @@ parentProcess
 get
 (
 )
-0
+PROCESS_NAME_NATIVE
 parentExe
 &
 parentExeLen
@@ -1005,6 +1005,10 @@ DoPathsPointToIdenticalFile
 (
 parentExe
 ourExe
+mozilla
+:
+:
+eNtPath
 )
 ;
 if
