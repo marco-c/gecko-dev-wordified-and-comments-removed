@@ -563,6 +563,21 @@ npm_path
 return
 1
     
+node_path
+_
+=
+find_node_executable
+(
+)
+    
+if
+not
+node_path
+:
+        
+return
+1
+    
 extra_parameters
 =
 [
@@ -643,6 +658,7 @@ npm_is_older_version
 cmd
 =
 [
+node_path
 npm_path
 "
 install
@@ -663,6 +679,7 @@ else
 cmd
 =
 [
+node_path
 npm_path
 "
 ci
