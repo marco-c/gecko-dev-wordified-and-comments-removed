@@ -3587,6 +3587,16 @@ WR_FUNC
 ;
 WR_INLINE
 void
+wr_api_clear_all_caches
+(
+DocumentHandle
+*
+aDh
+)
+WR_DESTRUCTOR_SAFE_FUNC
+;
+WR_INLINE
+void
 wr_api_clone
 (
 DocumentHandle

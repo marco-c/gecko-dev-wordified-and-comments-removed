@@ -1644,6 +1644,11 @@ aError
 )
 ;
 void
+NotifyWebRenderContextPurge
+(
+)
+;
+void
 NotifyPipelineRendered
 (
 const
