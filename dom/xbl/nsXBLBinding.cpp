@@ -4201,7 +4201,7 @@ holder
 xblScope
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -4387,7 +4387,7 @@ aProtoBinding
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar3
 (
 cx
