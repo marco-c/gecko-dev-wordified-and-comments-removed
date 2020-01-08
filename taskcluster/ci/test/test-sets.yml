@@ -1095,6 +1095,14 @@ tests
 -
 reftests
 -
+web
+-
+platform
+-
+tests
+-
+wdspec
+-
 xpcshell
 windows
 -
