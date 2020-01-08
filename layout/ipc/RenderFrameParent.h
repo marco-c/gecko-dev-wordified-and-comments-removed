@@ -238,11 +238,6 @@ return
 mLayersConnected
 ;
 }
-void
-ActorDestroy
-(
-)
-;
 private
 :
 base
