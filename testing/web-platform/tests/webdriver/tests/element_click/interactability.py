@@ -612,6 +612,6 @@ response
 "
 element
 not
-visible
+interactable
 "
 )
