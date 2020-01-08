@@ -1304,6 +1304,9 @@ class
 RResumePoint
 ;
 class
+RSimdBox
+;
+class
 SnapshotIterator
 {
 protected
@@ -1524,6 +1527,10 @@ warnUnreadableAllocation
 ;
 private
 :
+friend
+class
+RSimdBox
+;
 const
 FloatRegisters
 :

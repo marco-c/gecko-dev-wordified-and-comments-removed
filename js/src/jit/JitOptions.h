@@ -177,6 +177,9 @@ bool
 disableEaa
 ;
 bool
+disableEagerSimdUnbox
+;
+bool
 disableEdgeCaseAnalysis
 ;
 bool
