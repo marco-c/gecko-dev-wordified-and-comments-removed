@@ -169,11 +169,6 @@ nsIFocusManager
 idl
 '
 '
-nsIIdleObserver
-.
-idl
-'
-'
 nsIQueryContentEventResult
 .
 idl

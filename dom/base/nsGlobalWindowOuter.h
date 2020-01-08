@@ -263,13 +263,6 @@ h
 #
 include
 "
-nsIIdleObserver
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
