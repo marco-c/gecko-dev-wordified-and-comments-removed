@@ -1383,7 +1383,23 @@ workdir
 '
 )
 :
+optionally_keyed_by
+(
+        
+'
+test
+-
+platform
+'
+        
+Any
+(
 basestring
+'
+default
+'
+)
+)
     
 Optional
 (
@@ -2082,29 +2098,6 @@ basestring
 ]
 )
     
-Optional
-(
-'
-run
--
-as
--
-administrator
-'
-)
-:
-optionally_keyed_by
-(
-        
-'
-test
--
-platform
-'
-        
-bool
-)
-    
 '
 build
 -
@@ -2627,20 +2620,6 @@ groups
 '
 [
 ]
-)
-        
-test
-.
-setdefault
-(
-'
-run
--
-as
--
-administrator
-'
-False
 )
         
 test
@@ -4758,14 +4737,6 @@ groups
 '
         
 '
-run
--
-as
--
-administrator
-'
-        
-'
 mozharness
 .
 chunked
@@ -4799,6 +4770,10 @@ builds
 mozharness
 .
 script
+'
+        
+'
+workdir
 '
         
 '

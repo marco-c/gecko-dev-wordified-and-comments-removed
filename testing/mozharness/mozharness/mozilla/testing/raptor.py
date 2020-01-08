@@ -1052,6 +1052,21 @@ get
 gecko_profile_interval
 '
 )
+        
+self
+.
+test_packages_url
+=
+self
+.
+config
+.
+get
+(
+'
+test_packages_url
+'
+)
     
 def
 query_gecko_profile_options
