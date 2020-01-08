@@ -1205,6 +1205,12 @@ aNumVariations
 {
 font
 .
+mNumVariations
+=
+aNumVariations
+;
+font
+.
 mVariations
 .
 reset
