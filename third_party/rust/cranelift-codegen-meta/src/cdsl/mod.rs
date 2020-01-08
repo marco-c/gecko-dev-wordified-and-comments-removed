@@ -1,5 +1,13 @@
 pub
 mod
+isa
+;
+pub
+mod
+regs
+;
+pub
+mod
 types
 ;
 fn

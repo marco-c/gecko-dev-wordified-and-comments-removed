@@ -131,6 +131,7 @@ For
 all
 x
 \
+\
 in
 xforms
 x
@@ -169,6 +170,7 @@ Exists
 single
 x
 \
+\
 in
 xforms
 that
@@ -177,8 +179,8 @@ to
 src
 conretazied
 to
-V
                 
+V
 and
 T
     

@@ -370,7 +370,7 @@ ir
 GlobalValueData
 :
 :
-Sym
+Symbol
 {
 colocated
 .

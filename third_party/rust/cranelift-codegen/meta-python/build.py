@@ -7,8 +7,6 @@ argparse
 import
 isa
 import
-gen_types
-import
 gen_instr
 import
 gen_settings
@@ -18,8 +16,6 @@ import
 gen_encoding
 import
 gen_legalizer
-import
-gen_registers
 import
 gen_binemit
 def
@@ -88,13 +84,6 @@ all_isas
 (
 )
     
-gen_types
-.
-generate
-(
-out_dir
-)
-    
 gen_instr
 .
 generate
@@ -120,14 +109,6 @@ out_dir
 )
     
 gen_legalizer
-.
-generate
-(
-isas
-out_dir
-)
-    
-gen_registers
 .
 generate
 (
