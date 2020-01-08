@@ -350,8 +350,6 @@ ADB_ADDON_INSTALL_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;
@@ -415,8 +413,6 @@ ADB_ADDON_UNINSTALL_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;

@@ -631,8 +631,6 @@ CONNECT_RUNTIME_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;
@@ -735,8 +733,6 @@ DISCONNECT_RUNTIME_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;
@@ -855,8 +851,6 @@ UPDATE_CONNECTION_PROMPT_SETTING_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;
@@ -1021,8 +1015,6 @@ WATCH_RUNTIME_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;
@@ -1117,8 +1109,6 @@ UNWATCH_RUNTIME_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;

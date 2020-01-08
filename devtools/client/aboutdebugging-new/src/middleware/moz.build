@@ -65,6 +65,13 @@ listener
 js
 '
 '
+error
+-
+logging
+.
+js
+'
+'
 extension
 -
 component

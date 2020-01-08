@@ -661,8 +661,6 @@ REQUEST_TABS_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;
@@ -791,8 +789,6 @@ REQUEST_EXTENSIONS_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;
@@ -886,8 +882,6 @@ REQUEST_WORKERS_FAILURE
 error
 :
 e
-.
-message
 }
 )
 ;
