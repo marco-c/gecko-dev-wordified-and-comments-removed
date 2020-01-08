@@ -4257,7 +4257,7 @@ lastOffset
 =
 partition
 ;
-assert
+MOZ_ASSERT
 (
 lastOffset
 <
@@ -4326,7 +4326,7 @@ AppendElement
 )
 ;
 }
-assert
+MOZ_ASSERT
 (
 (
 (
