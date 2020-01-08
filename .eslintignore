@@ -1750,16 +1750,6 @@ notification
 /
 test
 /
-unit
-/
-*
-*
-dom
-/
-notification
-/
-test
-/
 mochitest
 /
 *

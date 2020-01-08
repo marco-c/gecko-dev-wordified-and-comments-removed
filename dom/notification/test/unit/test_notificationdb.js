@@ -98,8 +98,6 @@ systemNotification
 .
 origin
 requestID
-:
-requestID
 }
 )
 ;
@@ -171,8 +169,6 @@ origin
 notification
 :
 systemNotification
-requestID
-:
 requestID
 }
 )
@@ -270,8 +266,6 @@ systemNotification
 .
 origin
 requestID
-:
-requestID
 }
 )
 ;
@@ -345,8 +339,6 @@ id
 systemNotification
 .
 id
-requestID
-:
 requestID
 }
 )
@@ -431,8 +423,6 @@ systemNotification
 .
 origin
 requestID
-:
-requestID
 }
 )
 ;
@@ -506,8 +496,6 @@ id
 systemNotification
 .
 id
-requestID
-:
 requestID
 }
 )
@@ -678,8 +666,6 @@ notification
 :
 systemNotification
 requestID
-:
-requestID
 }
 false
 )
@@ -784,8 +770,6 @@ systemNotification
 .
 id
 requestID
-:
-requestID
 }
 )
 ;
@@ -877,8 +861,6 @@ msgGetNotifHandler
 =
 {
 receiveMessage
-:
-function
 (
 message
 )
@@ -1039,8 +1021,6 @@ origin
 notification
 :
 systemNotification1
-requestID
-:
 requestID
 }
 false
@@ -1156,8 +1136,6 @@ c117573c33e3
 }
 "
 requestID
-:
-requestID
 }
 )
 ;
@@ -1228,8 +1206,6 @@ msgGetHandler
 =
 {
 receiveMessage
-:
-function
 (
 message
 )
@@ -1357,8 +1333,6 @@ msgSaveHandler
 =
 {
 receiveMessage
-:
-function
 (
 message
 )
@@ -1491,8 +1465,6 @@ notification
 :
 systemNotification1
 requestID
-:
-requestID
 }
 )
 ;
@@ -1606,8 +1578,6 @@ b0f4
 f54e10372764
 }
 "
-requestID
-:
 requestID
 }
 )
