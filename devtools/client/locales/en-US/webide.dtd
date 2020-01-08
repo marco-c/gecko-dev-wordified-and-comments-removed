@@ -630,16 +630,6 @@ Other
 <
 !
 ENTITY
-runtimePanel_noadbextension
-"
-Install
-ADB
-Extension
-"
->
-<
-!
-ENTITY
 runtimePanel_nousbdevice
 "
 Can
