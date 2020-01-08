@@ -53,6 +53,14 @@ MPL
 0
 /
 .
+parser
+:
+type
+-
+ok
+:
+ParseNode
+*
 #
 Rules
 for
