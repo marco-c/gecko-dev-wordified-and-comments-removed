@@ -281,14 +281,7 @@ ErrorResult
 &
 aRv
 )
-{
-aRv
-=
-SwapCache
-(
-)
 ;
-}
 IMPL_EVENT_HANDLER
 (
 checking
