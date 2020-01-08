@@ -2057,6 +2057,13 @@ nsIAutoCompleteSimpleResult
 ;
 result
 .
+setDefaultIndex
+(
+0
+)
+;
+result
+.
 setSearchString
 (
 searchString

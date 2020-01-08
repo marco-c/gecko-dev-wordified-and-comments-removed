@@ -761,6 +761,11 @@ completedefaultindex
 "
 true
 "
+completeselectedindex
+=
+"
+true
+"
 tabscrolling
 =
 "

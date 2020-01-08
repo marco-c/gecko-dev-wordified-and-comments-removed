@@ -1392,6 +1392,16 @@ _batchBlockingDeferred
 .
 promise
 ;
+await
+Promise
+.
+all
+(
+gEditItemOverlay
+.
+transactionPromises
+)
+;
 }
 )
 ;
