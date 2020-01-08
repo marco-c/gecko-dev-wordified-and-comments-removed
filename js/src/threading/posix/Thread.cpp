@@ -1096,6 +1096,17 @@ MOZ_RELEASE_ASSERT
 (
 !
 rv
+|
+|
+mozilla
+:
+:
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 ;
 }
