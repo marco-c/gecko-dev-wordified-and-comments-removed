@@ -76,6 +76,14 @@ MFBT_DATA
 Atomic
 <
 uint32_t
+SequentiallyConsistent
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 gChaosModeCounter
 ;
