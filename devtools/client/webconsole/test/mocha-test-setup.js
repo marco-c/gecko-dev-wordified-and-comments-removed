@@ -736,6 +736,17 @@ function
 (
 )
 {
+this
+.
+recordEvent
+=
+(
+)
+=
+>
+{
+}
+;
 }
 ;
 case

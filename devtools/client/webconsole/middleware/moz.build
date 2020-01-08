@@ -64,6 +64,13 @@ MPL
 DevToolsModules
 (
 '
+event
+-
+telemetry
+.
+js
+'
+'
 history
 -
 persistence
