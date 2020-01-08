@@ -3005,6 +3005,17 @@ kind
 '
 builtin
 '
+and
+a
+.
+realtype
+.
+kind
+!
+=
+'
+cenum
+'
 :
                 
 assert
