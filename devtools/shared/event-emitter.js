@@ -229,8 +229,7 @@ return
 if
 (
 length
-=
-=
+>
 =
 3
 )
