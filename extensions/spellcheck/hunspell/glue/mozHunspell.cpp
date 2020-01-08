@@ -169,10 +169,13 @@ template
 mozilla
 :
 :
-Atomic
+CountingAllocatorBase
 <
-size_t
+HunspellAllocator
 >
+:
+:
+AmountType
 mozilla
 :
 :
