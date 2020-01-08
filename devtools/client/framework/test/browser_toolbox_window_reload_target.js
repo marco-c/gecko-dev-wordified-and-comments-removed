@@ -159,7 +159,7 @@ selectedTab
 ;
 target
 .
-makeRemote
+attach
 (
 )
 .

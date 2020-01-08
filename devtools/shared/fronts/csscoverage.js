@@ -459,7 +459,7 @@ trgt
 return
 trgt
 .
-makeRemote
+attach
 (
 )
 .
