@@ -354,11 +354,11 @@ getDeviceDescription
 {
 return
 {
-brandName
+name
 :
 runtimeInfo
 .
-appName
+name
 |
 |
 "
