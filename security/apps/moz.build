@@ -146,14 +146,6 @@ ssl
 '
 '
 /
-security
-/
-pkix
-/
-include
-'
-'
-/
 third_party
 /
 rust

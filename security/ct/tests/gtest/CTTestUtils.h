@@ -12,7 +12,7 @@ iostream
 #
 include
 "
-pkix
+mozpkix
 /
 Input
 .
@@ -21,7 +21,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 Time
 .

@@ -209,14 +209,6 @@ ssl
 '
 '
 /
-security
-/
-pkix
-/
-include
-'
-'
-/
 xpcom
 /
 build

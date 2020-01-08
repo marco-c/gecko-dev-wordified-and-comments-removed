@@ -7,7 +7,7 @@ AppTrustDomain_h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixtypes
 .

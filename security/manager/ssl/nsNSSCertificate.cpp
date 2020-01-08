@@ -228,7 +228,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixnss
 .
@@ -237,7 +237,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkixtypes
 .
@@ -246,7 +246,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 Result
 .

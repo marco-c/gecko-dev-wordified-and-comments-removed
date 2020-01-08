@@ -40,7 +40,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 Input
 .
@@ -49,7 +49,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 Result
 .
@@ -58,7 +58,7 @@ h
 #
 include
 "
-pkix
+mozpkix
 /
 pkix
 .
