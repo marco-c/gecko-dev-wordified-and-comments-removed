@@ -1055,14 +1055,6 @@ aMallocSizeOf
 )
 const
 ;
-nsresult
-ObsoleteSheet
-(
-nsIURI
-*
-aURI
-)
-;
 private
 :
 friend
