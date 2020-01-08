@@ -450,7 +450,7 @@ add
 test
 [
 '
-file_relpath
+srcdir_relpath
 '
 ]
 )
@@ -571,7 +571,7 @@ append
 test
 [
 '
-file_relpath
+srcdir_relpath
 '
 ]
 )
@@ -600,7 +600,7 @@ append
 test
 [
 '
-file_relpath
+srcdir_relpath
 '
 ]
 )
