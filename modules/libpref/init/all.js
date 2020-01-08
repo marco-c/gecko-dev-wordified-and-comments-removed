@@ -19141,6 +19141,16 @@ skip_about_page_has_csp_assert
 false
 )
 ;
+pref
+(
+"
+security
+.
+allow_eval_with_system_principal
+"
+true
+)
+;
 #
 endif
 pref

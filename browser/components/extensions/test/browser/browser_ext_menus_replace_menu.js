@@ -114,6 +114,14 @@ enabled
 "
 true
 ]
+[
+"
+security
+.
+allow_eval_with_system_principal
+"
+true
+]
 ]
 }
 )

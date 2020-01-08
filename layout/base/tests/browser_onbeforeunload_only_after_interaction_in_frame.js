@@ -63,6 +63,14 @@ require_user_interaction_for_beforeunload
 "
 true
 ]
+[
+"
+security
+.
+allow_eval_with_system_principal
+"
+true
+]
 ]
 }
 )
