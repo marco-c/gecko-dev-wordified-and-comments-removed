@@ -15,6 +15,8 @@ BootstrapMonitor
 .
 jsm
 "
+{
+}
 )
 .
 monitor
