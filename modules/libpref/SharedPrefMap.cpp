@@ -396,6 +396,9 @@ mIsSticky
 aFlags
 .
 mIsLocked
+aFlags
+.
+mDefaultChanged
 }
 )
 ;
@@ -488,6 +491,9 @@ mIsSticky
 aFlags
 .
 mIsLocked
+aFlags
+.
+mDefaultChanged
 }
 )
 ;
@@ -604,6 +610,9 @@ mIsSticky
 aFlags
 .
 mIsLocked
+aFlags
+.
+mDefaultChanged
 }
 )
 ;
@@ -1070,6 +1079,10 @@ entry
 -
 >
 mIsLocked
+entry
+-
+>
+mDefaultChanged
 }
 ;
 entryPtr
