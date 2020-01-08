@@ -1671,7 +1671,7 @@ options
 [
 [
 '
-linearRGB
+linearrgb
 '
 '
 auto
@@ -1704,10 +1704,10 @@ options
 [
 [
 '
-sRGB
+srgb
 '
 '
-linearRGB
+linearrgb
 '
 ]
 ]
