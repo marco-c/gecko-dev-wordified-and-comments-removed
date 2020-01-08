@@ -990,6 +990,7 @@ nsCString
 (
 aLocation
 )
+false
 mozilla
 :
 :
@@ -1012,6 +1013,8 @@ nsCString
 &
 &
 aLocation
+bool
+aRelevantForJS
 const
 mozilla
 :
@@ -1049,6 +1052,7 @@ mData
 NormalFrameData
 {
 aLocation
+aRelevantForJS
 aLine
 aColumn
 aCategory
@@ -1132,6 +1136,9 @@ const
 ;
 nsCString
 mLocation
+;
+bool
+mRelevantForJS
 ;
 mozilla
 :
