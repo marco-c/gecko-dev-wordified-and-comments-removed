@@ -11293,6 +11293,15 @@ GetRootScrollFrameAsScrollable
 (
 )
 ;
+if
+(
+!
+sf
+)
+{
+return
+;
+}
 int32_t
 appUnitsPerDevPixel
 =
