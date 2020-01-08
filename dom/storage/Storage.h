@@ -469,6 +469,13 @@ nsIPrincipal
 aSubjectPrincipal
 )
 ;
+virtual
+void
+LastRelease
+(
+)
+{
+}
 private
 :
 nsCOMPtr

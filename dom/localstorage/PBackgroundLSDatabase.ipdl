@@ -214,6 +214,11 @@ DeleteMe
 (
 )
 ;
+async
+AllowToClose
+(
+)
+;
 sync
 GetLength
 (
@@ -285,6 +290,11 @@ child
 :
 async
 __delete__
+(
+)
+;
+async
+RequestAllowToClose
 (
 )
 ;
