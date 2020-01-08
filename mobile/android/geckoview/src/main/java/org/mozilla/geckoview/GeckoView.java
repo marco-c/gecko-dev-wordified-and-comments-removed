@@ -1865,9 +1865,7 @@ session
 ;
 mRuntime
 =
-ss
-.
-session
+mSession
 .
 getRuntime
 (
