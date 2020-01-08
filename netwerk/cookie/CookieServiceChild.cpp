@@ -1695,7 +1695,7 @@ val
 nsICookieService
 :
 :
-BEHAVIOR_LIMIT_FOREIGN
+BEHAVIOR_LAST
 ?
 val
 :
