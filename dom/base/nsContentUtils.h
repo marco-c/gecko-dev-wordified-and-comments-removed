@@ -6685,16 +6685,6 @@ aString
 )
 ;
 static
-bool
-IsCustomElementsEnabled
-(
-)
-{
-return
-sIsCustomElementsEnabled
-;
-}
-static
 uint64_t
 GenerateTabId
 (

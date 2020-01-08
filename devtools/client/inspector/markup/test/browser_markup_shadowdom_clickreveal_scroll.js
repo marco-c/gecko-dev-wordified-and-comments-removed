@@ -317,11 +317,6 @@ function
 (
 )
 {
-await
-enableWebComponents
-(
-)
-;
 const
 {
 inspector

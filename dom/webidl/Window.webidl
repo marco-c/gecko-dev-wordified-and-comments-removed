@@ -523,16 +523,6 @@ attribute
 History
 history
 ;
-[
-Func
-=
-"
-CustomElementRegistry
-:
-:
-IsCustomElementEnabled
-"
-]
 readonly
 attribute
 CustomElementRegistry
