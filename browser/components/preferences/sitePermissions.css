@@ -70,6 +70,8 @@ end
 ;
 }
 #
+browserNotificationsPermissionExtensionContent
+#
 permissionsDisableDescription
 {
 margin
@@ -80,6 +82,10 @@ start
 :
 32px
 ;
+}
+#
+permissionsDisableDescription
+{
 color
 :
 #
