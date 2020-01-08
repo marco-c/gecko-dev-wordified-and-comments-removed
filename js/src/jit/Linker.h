@@ -76,9 +76,9 @@ mozilla
 :
 Maybe
 <
-AutoWritableJitCode
+AutoWritableJitCodeFallible
 >
-awjc
+awjcf
 ;
 JitCode
 *
