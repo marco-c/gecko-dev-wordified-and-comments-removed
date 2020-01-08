@@ -1163,6 +1163,7 @@ getCurrentDisplay
 (
 node
 type
+onlyLookAtCurrentNode
 )
 {
 if
@@ -1243,8 +1244,9 @@ type
 "
 flex
 "
-&
-&
+)
+{
+if
 (
 displayType
 =
@@ -1263,7 +1265,6 @@ displayType
 flex
 "
 )
-)
 {
 return
 new
@@ -1273,6 +1274,17 @@ this
 currentNode
 )
 ;
+}
+else
+if
+(
+onlyLookAtCurrentNode
+)
+{
+return
+null
+;
+}
 }
 else
 if
@@ -1495,6 +1507,7 @@ node
 "
 flex
 "
+onlyLookAtParents
 )
 ;
 }
