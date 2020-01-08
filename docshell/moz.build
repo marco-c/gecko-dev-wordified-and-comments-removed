@@ -164,8 +164,6 @@ ini
 test
 /
 mochitest
-/
-mochitest
 .
 ini
 '
