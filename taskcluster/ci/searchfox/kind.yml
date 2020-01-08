@@ -212,6 +212,11 @@ RUSTC_BOOTSTRAP
 "
 1
 "
+MOZSEARCH_PLATFORM
+:
+"
+linux
+"
 run
 :
 using
@@ -371,6 +376,11 @@ RUSTC_BOOTSTRAP
 :
 "
 1
+"
+MOZSEARCH_PLATFORM
+:
+"
+macosx
 "
 run
 :
