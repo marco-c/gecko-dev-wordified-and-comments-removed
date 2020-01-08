@@ -1,6 +1,3 @@
-use
-style
-;
 #
 [
 cfg
@@ -25,6 +22,9 @@ size_of_specified_values
 (
 )
 {
+use
+style
+;
 use
 std
 :
