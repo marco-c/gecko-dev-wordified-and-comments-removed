@@ -879,6 +879,9 @@ product
 "
 servo
 "
+ignored_when_colors_disabled
+=
+True
 )
 }
 {

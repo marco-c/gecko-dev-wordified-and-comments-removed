@@ -6023,6 +6023,10 @@ BackgroundImage
 LonghandId
 :
 :
+BorderImageSource
+LonghandId
+:
+:
 BorderTopColor
 LonghandId
 :
