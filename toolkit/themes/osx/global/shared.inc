@@ -101,8 +101,15 @@ rgba
 %
 define
 roundButtonPressedBackground
+linear
+-
+gradient
+(
 #
 dadada
+#
+dadada
+)
 %
 define
 roundButtonPressedShadow
