@@ -15468,6 +15468,16 @@ CHECK_THREAD
 cx
 )
 ;
+cx
+-
+>
+check
+(
+underlyingSource
+size
+proto
+)
+;
 RootedObject
 source
 (
@@ -15623,6 +15633,14 @@ must
 be
 aligned
 "
+)
+;
+cx
+-
+>
+check
+(
+proto
 )
 ;
 #
@@ -15839,7 +15857,7 @@ result
 {
 ReadableStream
 *
-stream
+unwrappedStream
 =
 APIToUnwrapped
 <
@@ -15853,7 +15871,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -15863,7 +15881,7 @@ false
 *
 result
 =
-stream
+unwrappedStream
 -
 >
 readable
@@ -15895,7 +15913,7 @@ result
 {
 ReadableStream
 *
-stream
+unwrappedStream
 =
 APIToUnwrapped
 <
@@ -15909,7 +15927,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -15919,7 +15937,7 @@ false
 *
 result
 =
-stream
+unwrappedStream
 -
 >
 locked
@@ -15951,7 +15969,7 @@ result
 {
 ReadableStream
 *
-stream
+unwrappedStream
 =
 APIToUnwrapped
 <
@@ -15965,7 +15983,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -15975,7 +15993,7 @@ false
 *
 result
 =
-stream
+unwrappedStream
 -
 >
 disturbed
@@ -16007,7 +16025,7 @@ flags
 {
 ReadableStream
 *
-stream
+unwrappedStream
 =
 APIToUnwrapped
 <
@@ -16021,7 +16039,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -16031,7 +16049,7 @@ false
 *
 flags
 =
-stream
+unwrappedStream
 -
 >
 embeddingFlags
@@ -16083,7 +16101,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 APIToUnwrapped
@@ -16099,7 +16117,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -16112,7 +16130,7 @@ return
 ReadableStreamCancel
 (
 cx
-stream
+unwrappedStream
 reason
 )
 ;
@@ -16141,7 +16159,7 @@ mode
 {
 ReadableStream
 *
-stream
+unwrappedStream
 =
 APIToUnwrapped
 <
@@ -16155,7 +16173,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -16165,7 +16183,7 @@ false
 *
 mode
 =
-stream
+unwrappedStream
 -
 >
 mode
@@ -16209,7 +16227,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 APIToUnwrapped
@@ -16225,7 +16243,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -16239,7 +16257,7 @@ result
 CreateReadableStreamDefaultReader
 (
 cx
-stream
+unwrappedStream
 )
 ;
 MOZ_ASSERT_IF
@@ -16290,7 +16308,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 APIToUnwrapped
@@ -16306,7 +16324,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -16315,7 +16333,7 @@ false
 }
 MOZ_ASSERT
 (
-stream
+unwrappedStream
 -
 >
 mode
@@ -16334,7 +16352,7 @@ ExternalSource
 ;
 if
 (
-stream
+unwrappedStream
 -
 >
 locked
@@ -16357,7 +16375,7 @@ false
 if
 (
 !
-stream
+unwrappedStream
 -
 >
 readable
@@ -16381,10 +16399,10 @@ false
 ;
 }
 auto
-controller
+unwrappedController
 =
 &
-stream
+unwrappedStream
 -
 >
 controller
@@ -16399,7 +16417,7 @@ ReadableByteStreamController
 (
 )
 ;
-controller
+unwrappedController
 -
 >
 setSourceLocked
@@ -16409,7 +16427,7 @@ setSourceLocked
 *
 source
 =
-controller
+unwrappedController
 -
 >
 underlyingSource
@@ -16442,7 +16460,7 @@ streamObj
 {
 ReadableStream
 *
-stream
+unwrappedStream
 =
 APIToUnwrapped
 <
@@ -16456,7 +16474,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -16465,7 +16483,7 @@ false
 }
 MOZ_ASSERT
 (
-stream
+unwrappedStream
 -
 >
 mode
@@ -16484,7 +16502,7 @@ ExternalSource
 ;
 MOZ_ASSERT
 (
-stream
+unwrappedStream
 -
 >
 locked
@@ -16494,7 +16512,7 @@ locked
 ;
 MOZ_ASSERT
 (
-stream
+unwrappedStream
 -
 >
 controller
@@ -16507,7 +16525,7 @@ sourceLocked
 )
 )
 ;
-stream
+unwrappedStream
 -
 >
 controller
@@ -16558,7 +16576,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 APIToUnwrapped
@@ -16574,7 +16592,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -16586,11 +16604,11 @@ Rooted
 ReadableByteStreamController
 *
 >
-controller
+unwrappedController
 (
 cx
 &
-stream
+unwrappedStream
 -
 >
 controller
@@ -16608,7 +16626,7 @@ ReadableByteStreamController
 ;
 if
 (
-controller
+unwrappedController
 -
 >
 closeRequested
@@ -16634,7 +16652,7 @@ false
 if
 (
 !
-controller
+unwrappedController
 -
 >
 stream
@@ -16662,7 +16680,7 @@ return
 false
 ;
 }
-controller
+unwrappedController
 -
 >
 clearPullFlags
@@ -16675,7 +16693,7 @@ DEBUG
 uint32_t
 oldAvailableData
 =
-controller
+unwrappedController
 -
 >
 getFixedSlot
@@ -16692,7 +16710,7 @@ toInt32
 ;
 #
 endif
-controller
+unwrappedController
 -
 >
 setQueueTotalSize
@@ -16704,7 +16722,7 @@ if
 (
 ReadableStreamGetNumReadRequests
 (
-stream
+unwrappedStream
 )
 =
 =
@@ -16724,7 +16742,7 @@ if
 ReadableStreamHasDefaultReader
 (
 cx
-stream
+unwrappedStream
 &
 hasDefaultReader
 )
@@ -16801,7 +16819,7 @@ void
 *
 underlyingSource
 =
-controller
+unwrappedController
 -
 >
 underlyingSource
@@ -16820,7 +16838,7 @@ AutoRealm
 ar
 (
 cx
-stream
+unwrappedStream
 )
 ;
 JS
@@ -16874,9 +16892,9 @@ cb
 cb
 (
 cx
-stream
+unwrappedStream
 underlyingSource
-stream
+unwrappedStream
 -
 >
 embeddingFlags
@@ -16906,7 +16924,7 @@ if
 ReadableStreamFulfillReadOrReadIntoRequest
 (
 cx
-stream
+unwrappedStream
 chunk
 false
 )
@@ -16916,7 +16934,7 @@ return
 false
 ;
 }
-controller
+unwrappedController
 -
 >
 setQueueTotalSize
@@ -16932,7 +16950,7 @@ else
 MOZ_ASSERT
 (
 !
-stream
+unwrappedStream
 -
 >
 locked
@@ -16979,7 +16997,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 APIToUnwrapped
@@ -16995,7 +17013,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -17028,7 +17046,7 @@ if
 ReadableStreamTee
 (
 cx
-stream
+unwrappedStream
 false
 &
 branch1Stream
@@ -17084,7 +17102,7 @@ value
 {
 ReadableStream
 *
-stream
+unwrappedStream
 =
 APIToUnwrapped
 <
@@ -17098,7 +17116,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -17107,7 +17125,7 @@ false
 }
 if
 (
-stream
+unwrappedStream
 -
 >
 errored
@@ -17131,7 +17149,7 @@ true
 ;
 if
 (
-stream
+unwrappedStream
 -
 >
 closed
@@ -17153,7 +17171,7 @@ value
 =
 ReadableStreamControllerGetDesiredSizeUnchecked
 (
-stream
+unwrappedStream
 -
 >
 controller
@@ -17195,7 +17213,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 APIToUnwrapped
@@ -17211,7 +17229,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -17223,10 +17241,10 @@ Rooted
 ReadableStreamController
 *
 >
-controllerObj
+unwrappedControllerObj
 (
 cx
-stream
+unwrappedStream
 -
 >
 controller
@@ -17240,7 +17258,7 @@ if
 VerifyControllerStateForClosing
 (
 cx
-controllerObj
+unwrappedControllerObj
 )
 )
 {
@@ -17250,7 +17268,7 @@ false
 }
 if
 (
-controllerObj
+unwrappedControllerObj
 -
 >
 is
@@ -17266,15 +17284,15 @@ Rooted
 ReadableStreamDefaultController
 *
 >
-controller
+unwrappedController
 (
 cx
 )
 ;
-controller
+unwrappedController
 =
 &
-controllerObj
+unwrappedControllerObj
 -
 >
 as
@@ -17288,7 +17306,7 @@ return
 ReadableStreamDefaultControllerClose
 (
 cx
-controller
+unwrappedController
 )
 ;
 }
@@ -17297,15 +17315,15 @@ Rooted
 ReadableByteStreamController
 *
 >
-controller
+unwrappedController
 (
 cx
 )
 ;
-controller
+unwrappedController
 =
 &
-controllerObj
+unwrappedControllerObj
 -
 >
 as
@@ -17319,7 +17337,7 @@ return
 ReadableByteStreamControllerClose
 (
 cx
-controller
+unwrappedController
 )
 ;
 }
@@ -17363,7 +17381,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 APIToUnwrapped
@@ -17379,7 +17397,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -17388,7 +17406,7 @@ false
 }
 if
 (
-stream
+unwrappedStream
 -
 >
 mode
@@ -17428,15 +17446,15 @@ Rooted
 ReadableStreamDefaultController
 *
 >
-controller
+unwrappedController
 (
 cx
 )
 ;
-controller
+unwrappedController
 =
 &
-stream
+unwrappedStream
 -
 >
 controller
@@ -17454,7 +17472,7 @@ ReadableStreamDefaultController
 MOZ_ASSERT
 (
 !
-controller
+unwrappedController
 -
 >
 closeRequested
@@ -17464,7 +17482,7 @@ closeRequested
 ;
 MOZ_ASSERT
 (
-stream
+unwrappedStream
 -
 >
 readable
@@ -17476,7 +17494,7 @@ return
 ReadableStreamDefaultControllerEnqueue
 (
 cx
-controller
+unwrappedController
 chunk
 )
 ;
@@ -17521,7 +17539,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 APIToUnwrapped
@@ -17537,7 +17555,7 @@ streamObj
 if
 (
 !
-stream
+unwrappedStream
 )
 {
 return
@@ -17547,7 +17565,7 @@ false
 if
 (
 !
-stream
+unwrappedStream
 -
 >
 readable
@@ -17575,10 +17593,10 @@ Rooted
 ReadableStreamController
 *
 >
-controller
+unwrappedController
 (
 cx
-stream
+unwrappedStream
 -
 >
 controller
@@ -17590,7 +17608,7 @@ return
 ReadableStreamControllerError
 (
 cx
-controller
+unwrappedController
 error
 )
 ;
@@ -17619,7 +17637,7 @@ Rooted
 ReadableStreamReader
 *
 >
-reader
+unwrappedReader
 (
 cx
 APIToUnwrapped
@@ -17635,7 +17653,7 @@ readerObj
 if
 (
 !
-reader
+unwrappedReader
 )
 {
 return
@@ -17645,7 +17663,7 @@ false
 *
 result
 =
-reader
+unwrappedReader
 -
 >
 isClosed
@@ -17696,7 +17714,7 @@ Rooted
 ReadableStreamReader
 *
 >
-reader
+unwrappedReader
 (
 cx
 APIToUnwrapped
@@ -17712,7 +17730,7 @@ readerObj
 if
 (
 !
-reader
+unwrappedReader
 )
 {
 return
@@ -17723,7 +17741,7 @@ return
 ReadableStreamReaderGenericCancel
 (
 cx
-reader
+unwrappedReader
 reason
 )
 ;
@@ -17758,7 +17776,7 @@ Rooted
 ReadableStreamReader
 *
 >
-reader
+unwrappedReader
 (
 cx
 APIToUnwrapped
@@ -17774,7 +17792,7 @@ readerObj
 if
 (
 !
-reader
+unwrappedReader
 )
 {
 return
@@ -17789,7 +17807,7 @@ Rooted
 ReadableStream
 *
 >
-stream
+unwrappedStream
 (
 cx
 )
@@ -17800,9 +17818,9 @@ if
 UnwrapStreamFromReader
 (
 cx
-reader
+unwrappedReader
 &
-stream
+unwrappedStream
 )
 )
 {
@@ -17814,7 +17832,7 @@ MOZ_ASSERT
 (
 ReadableStreamGetNumReadRequests
 (
-stream
+unwrappedStream
 )
 =
 =
@@ -17827,7 +17845,7 @@ return
 ReadableStreamReaderGenericRelease
 (
 cx
-reader
+unwrappedReader
 )
 ;
 }
@@ -17862,12 +17880,12 @@ Rooted
 ReadableStreamDefaultReader
 *
 >
-reader
+unwrappedReader
 (
 cx
 )
 ;
-reader
+unwrappedReader
 =
 APIToUnwrapped
 <
@@ -17881,7 +17899,7 @@ readerObj
 if
 (
 !
-reader
+unwrappedReader
 )
 {
 return
@@ -17894,7 +17912,7 @@ return
 ReadableStreamDefaultReaderRead
 (
 cx
-reader
+unwrappedReader
 )
 ;
 }
