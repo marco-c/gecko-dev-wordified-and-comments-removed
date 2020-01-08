@@ -1,17 +1,3 @@
-if
-(
-typeof
-oomAfterAllocations
-!
-=
-"
-function
-"
-)
-quit
-(
-)
-;
 lfcode
 =
 new
