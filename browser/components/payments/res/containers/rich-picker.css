@@ -159,8 +159,10 @@ option
 rich
 -
 select
+>
+select
 {
-outline
+border
 :
 1px
 solid
