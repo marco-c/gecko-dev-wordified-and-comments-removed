@@ -1846,6 +1846,7 @@ geckoview
 junit
 -
 jsreftest
+#
 -
 mochitest
 #
@@ -1861,6 +1862,7 @@ clipboard
 mochitest
 -
 gpu
+#
 -
 mochitest
 -
@@ -1872,8 +1874,10 @@ mochitest
 webgl1
 -
 core
+#
 -
 reftest
+#
 -
 test
 -

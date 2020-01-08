@@ -1778,11 +1778,6 @@ android
 x86
 -
 tests
-#
-Coming
-soon
-!
-#
 android
 -
 em
@@ -1795,7 +1790,6 @@ x86
 /
 opt
 :
-#
 build
 -
 platform
@@ -1805,12 +1799,10 @@ android
 x86
 /
 opt
-#
 test
 -
 sets
 :
-#
 -
 android
 -
