@@ -36654,13 +36654,6 @@ bar
 "
 "
 :
--
-moz
--
-placeholder
-"
-"
-:
 placeholder
 "
 "
