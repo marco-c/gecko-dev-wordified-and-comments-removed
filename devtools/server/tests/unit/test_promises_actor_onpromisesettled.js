@@ -112,7 +112,7 @@ Promise
 )
 ;
 await
-attachTab
+attachTarget
 (
 client
 parentProcessActors
