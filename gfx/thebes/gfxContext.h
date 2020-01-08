@@ -918,6 +918,15 @@ rect
 )
 ;
 void
+SnappedClip
+(
+const
+gfxRect
+&
+rect
+)
+;
+void
 Clip
 (
 Path
