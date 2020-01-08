@@ -9,8 +9,6 @@ sidebar
 -
 item
 -
-icon
--
 color
 :
 var
@@ -19,7 +17,7 @@ var
 -
 grey
 -
-30
+50
 )
 ;
 -
@@ -47,6 +45,19 @@ sidebar
 -
 item
 {
+color
+:
+var
+(
+-
+-
+sidebar
+-
+item
+-
+color
+)
+;
 align
 -
 items
@@ -86,8 +97,6 @@ var
 sidebar
 -
 item
--
-icon
 -
 color
 )
