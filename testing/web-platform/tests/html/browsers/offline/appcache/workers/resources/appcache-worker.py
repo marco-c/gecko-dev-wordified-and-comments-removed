@@ -219,7 +219,7 @@ resolve
 ;
 }
 function
-importNotInCacheSciptTest
+importNotInCacheScriptTest
 (
 )
 {
@@ -300,7 +300,7 @@ resolve
 ;
 }
 function
-importFallbackSciptTest
+importFallbackScriptTest
 (
 )
 {
@@ -682,13 +682,13 @@ importCachedScriptTest
 .
 then
 (
-importNotInCacheSciptTest
+importNotInCacheScriptTest
 )
   
 .
 then
 (
-importFallbackSciptTest
+importFallbackScriptTest
 )
   
 .
