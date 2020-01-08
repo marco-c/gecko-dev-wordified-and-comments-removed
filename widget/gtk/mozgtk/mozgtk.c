@@ -2112,6 +2112,14 @@ ifdef
 GTK3_SYMBOLS
 STUB
 (
+gtk_css_provider_load_from_data
+)
+STUB
+(
+gtk_css_provider_new
+)
+STUB
+(
 gdk_device_get_source
 )
 STUB
@@ -2284,6 +2292,10 @@ gtk_style_context_add_class
 )
 STUB
 (
+gtk_style_context_add_provider
+)
+STUB
+(
 gtk_style_context_add_region
 )
 STUB
@@ -2385,6 +2397,10 @@ gtk_style_context_set_state
 STUB
 (
 gtk_style_properties_lookup_property
+)
+STUB
+(
+gtk_style_provider_get_type
 )
 STUB
 (

@@ -167,6 +167,12 @@ nsWindow
 aOwnerWindow
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 bool
 IsEnabled
 (
@@ -214,6 +220,12 @@ const
 IMENotification
 &
 aIMENotification
+)
+;
+static
+void
+OnThemeChanged
+(
 )
 ;
 bool
