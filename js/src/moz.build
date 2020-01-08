@@ -1125,6 +1125,16 @@ h
 /
 public
 /
+MemoryFunctions
+.
+h
+'
+'
+.
+.
+/
+public
+/
 MemoryMetrics
 .
 h
