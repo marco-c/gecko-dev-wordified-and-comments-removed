@@ -922,6 +922,10 @@ const
 {
 return
 mFrameConstructor
+.
+get
+(
+)
 ;
 }
 void
@@ -3845,8 +3849,13 @@ ServoStyleSet
 >
 mStyleSet
 ;
+mozilla
+:
+:
+UniquePtr
+<
 nsCSSFrameConstructor
-*
+>
 mFrameConstructor
 ;
 nsViewManager
