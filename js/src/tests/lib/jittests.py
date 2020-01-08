@@ -10,8 +10,6 @@ import
 sys
 import
 traceback
-import
-subprocess
 from
 collections
 import
@@ -64,6 +62,7 @@ from
 results
 import
 TestOutput
+escape_cmdline
 from
 structuredlog
 import
@@ -2857,9 +2856,7 @@ show_cmd
         
 print
 (
-subprocess
-.
-list2cmdline
+escape_cmdline
 (
 cmd
 )
@@ -3959,9 +3956,7 @@ print
 '
 '
 +
-subprocess
-.
-list2cmdline
+escape_cmdline
 (
 res
 .
