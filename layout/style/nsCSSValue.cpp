@@ -4334,7 +4334,9 @@ URLExtraData
 *
 self
 =
-mExtraData
+ExtraData
+(
+)
 ;
 const
 URLExtraData
@@ -4343,7 +4345,9 @@ other
 =
 aOther
 .
-mExtraData
+ExtraData
+(
+)
 ;
 return
 GetString
@@ -4497,7 +4501,9 @@ const
 {
 if
 (
-mExtraData
+ExtraData
+(
+)
 -
 >
 BaseURI
@@ -4507,7 +4513,9 @@ BaseURI
 =
 aOther
 .
-mExtraData
+ExtraData
+(
+)
 -
 >
 BaseURI
@@ -4549,7 +4557,9 @@ aOther
 const
 {
 return
-mExtraData
+ExtraData
+(
+)
 -
 >
 Principal
@@ -4559,7 +4569,9 @@ Principal
 =
 aOther
 .
-mExtraData
+ExtraData
+(
+)
 -
 >
 Principal
@@ -4666,7 +4678,9 @@ GetString
 (
 )
 nullptr
-mExtraData
+ExtraData
+(
+)
 -
 >
 BaseURI

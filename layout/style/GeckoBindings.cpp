@@ -8903,9 +8903,6 @@ Gecko_URLValue_Create
 (
 RawServoCssUrlDataStrong
 aCssUrl
-URLExtraData
-*
-aExtraData
 CORSMode
 aCORSMode
 )
@@ -8930,7 +8927,6 @@ aCssUrl
 Consume
 (
 )
-aExtraData
 aCORSMode
 )
 ;
@@ -11484,7 +11480,9 @@ SetPrincipal
 aURL
 -
 >
-mExtraData
+ExtraData
+(
+)
 -
 >
 Principal
@@ -11567,9 +11565,6 @@ LoaderReusableStyleSheets
 aReusableSheets
 RawServoCssUrlDataStrong
 aCssUrl
-URLExtraData
-*
-aExtraData
 RawServoMediaListStrong
 aMediaList
 )
@@ -11601,7 +11596,6 @@ aCssUrl
 Consume
 (
 )
-aExtraData
 CORS_NONE
 )
 ;
@@ -11636,9 +11630,6 @@ SheetLoadDataHolder
 aParentData
 RawServoCssUrlDataStrong
 aCssUrl
-URLExtraData
-*
-aExtraData
 RawServoMediaListStrong
 aMediaList
 RawServoImportRuleStrong
@@ -11673,7 +11664,6 @@ aCssUrl
 Consume
 (
 )
-aExtraData
 CORS_NONE
 )
 ;

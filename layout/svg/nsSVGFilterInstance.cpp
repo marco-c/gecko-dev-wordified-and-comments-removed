@@ -631,7 +631,9 @@ GetURL
 )
 -
 >
-mExtraData
+ExtraData
+(
+)
 -
 >
 GetReferrer
@@ -644,7 +646,9 @@ GetURL
 )
 -
 >
-mExtraData
+ExtraData
+(
+)
 -
 >
 GetReferrerPolicy
