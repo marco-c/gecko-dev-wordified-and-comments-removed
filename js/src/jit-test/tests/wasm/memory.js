@@ -1636,6 +1636,8 @@ fold
 offsets
 '
 foldOffsets
+|
+0
 )
 ;
 testLoad
