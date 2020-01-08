@@ -726,7 +726,7 @@ const
 rawSocketInfo
 =
 await
-adbDevice
+ADB
 .
 shell
 (
