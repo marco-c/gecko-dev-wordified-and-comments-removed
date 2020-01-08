@@ -1170,6 +1170,8 @@ gridFronts
 length
 )
 {
+try
+{
 this
 .
 store
@@ -1200,6 +1202,15 @@ updated
 ;
 return
 ;
+}
+catch
+(
+e
+)
+{
+return
+;
+}
 }
 const
 currentUrl

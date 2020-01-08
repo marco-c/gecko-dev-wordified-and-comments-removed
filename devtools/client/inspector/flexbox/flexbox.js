@@ -1292,6 +1292,8 @@ if
 flexboxFront
 )
 {
+try
+{
 this
 .
 store
@@ -1303,6 +1305,13 @@ clearFlexbox
 )
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 return
 ;
 }
