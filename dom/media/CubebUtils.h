@@ -148,6 +148,12 @@ GetDefaultStreamPrefs
 (
 )
 ;
+char
+*
+GetForcedOutputDevice
+(
+)
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
