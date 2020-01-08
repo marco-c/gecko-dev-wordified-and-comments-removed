@@ -28196,8 +28196,6 @@ skipBarrier
 )
 ;
 }
-#
-endif
 void
 emitBarrieredStore
 (
@@ -28252,6 +28250,8 @@ otherScratch
 )
 ;
 }
+#
+endif
 struct
 BranchState
 {
