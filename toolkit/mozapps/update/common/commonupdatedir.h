@@ -89,14 +89,6 @@ const
 wchar_t
 *
 installPath
-const
-char
-*
-vendor
-const
-char
-*
-appName
 SetPermissionsOf
 dirPermsToSet
 mozilla

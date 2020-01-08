@@ -3604,8 +3604,6 @@ permResult
 GetCommonUpdateDirectory
 (
 installDir
-nullptr
-nullptr
 SetPermissionsOf
 :
 :
@@ -4275,8 +4273,6 @@ argv
 3
 ]
 :
-nullptr
-nullptr
 nullptr
 SetPermissionsOf
 :

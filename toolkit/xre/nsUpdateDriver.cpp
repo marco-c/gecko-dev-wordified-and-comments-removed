@@ -4366,8 +4366,6 @@ mInstallPath
 get
 (
 )
-nullptr
-nullptr
 SetPermissionsOf
 :
 :
