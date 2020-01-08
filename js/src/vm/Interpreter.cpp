@@ -2068,6 +2068,7 @@ mutableThisv
 }
 static
 MOZ_NEVER_INLINE
+JS_HAZ_JSNATIVE_CALLER
 bool
 Interpret
 (
@@ -10534,6 +10535,7 @@ rref
 }
 static
 MOZ_NEVER_INLINE
+JS_HAZ_JSNATIVE_CALLER
 bool
 Interpret
 (
