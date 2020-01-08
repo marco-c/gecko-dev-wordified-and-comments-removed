@@ -1393,6 +1393,9 @@ uint32_t
 mUsedCommandListsSincePurge
 ;
 uint32_t
+mTransformedGlyphsSinceLastPurge
+;
+uint32_t
 mComplexBlendsWithListInList
 ;
 static
