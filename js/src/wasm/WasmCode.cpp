@@ -6630,7 +6630,7 @@ tier
 Tier
 :
 :
-Ion
+Optimized
 &
 &
 tier1_
@@ -6978,7 +6978,7 @@ case
 Tier
 :
 :
-Ion
+Optimized
 :
 if
 (
@@ -6993,7 +6993,7 @@ tier
 Tier
 :
 :
-Ion
+Optimized
 )
 {
 MOZ_ASSERT
@@ -7043,13 +7043,11 @@ tier
 "
 )
 ;
-default
-:
+}
 MOZ_CRASH
 (
 )
 ;
-}
 }
 bool
 Code
