@@ -188,6 +188,17 @@ mozilla
 /
 dom
 /
+WorkletImpl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkletThread
 .
 h
