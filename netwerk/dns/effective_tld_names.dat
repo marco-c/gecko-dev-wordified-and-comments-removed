@@ -6603,7 +6603,7 @@ tirol
 it
 trentin
 -
-su
+s
 d
 -
 tirol
@@ -6616,7 +6616,7 @@ sudtirol
 it
 trentin
 -
-su
+s
 dtirol
 .
 it
@@ -6677,7 +6677,7 @@ tirol
 it
 trentino
 -
-su
+s
 d
 -
 tirol
@@ -6690,7 +6690,7 @@ sudtirol
 it
 trentino
 -
-su
+s
 dtirol
 .
 it
@@ -6738,7 +6738,7 @@ trentinosud
 tirol
 .
 it
-trentinosu
+trentinos
 d
 -
 tirol
@@ -6747,7 +6747,7 @@ it
 trentinosudtirol
 .
 it
-trentinosu
+trentinos
 dtirol
 .
 it
@@ -6764,7 +6764,7 @@ trentinsud
 tirol
 .
 it
-trentinsu
+trentins
 d
 -
 tirol
@@ -6773,7 +6773,7 @@ it
 trentinsudtirol
 .
 it
-trentinsu
+trentins
 dtirol
 .
 it
@@ -6847,7 +6847,7 @@ vallee
 aoste
 .
 it
-valle
+vall
 e
 -
 aoste
@@ -6860,7 +6860,7 @@ d
 aoste
 .
 it
-valle
+vall
 e
 -
 d
@@ -6871,14 +6871,14 @@ it
 valleeaoste
 .
 it
-valle
+vall
 eaoste
 .
 it
 valleedaoste
 .
 it
-valle
+vall
 edaoste
 .
 it
@@ -6997,7 +6997,7 @@ sudtirol
 it
 balsan
 -
-su
+s
 dtirol
 .
 it
@@ -7067,7 +7067,7 @@ sudtirol
 it
 bozen
 -
-su
+s
 dtirol
 .
 it
@@ -7101,7 +7101,7 @@ sudtirol
 it
 bulsan
 -
-su
+s
 dtirol
 .
 it
@@ -7174,13 +7174,13 @@ forli
 it
 cesena
 -
-forli
+forl
 .
 it
 cesenaforli
 .
 it
-cesenaforli
+cesenaforl
 .
 it
 ch
@@ -7277,7 +7277,7 @@ forli
 cesena
 .
 it
-forli
+forl
 -
 cesena
 .
@@ -7285,7 +7285,7 @@ it
 forlicesena
 .
 it
-forli
+forl
 cesena
 .
 it
@@ -7703,7 +7703,7 @@ it
 suedtirol
 .
 it
-su
+s
 dtirol
 .
 it
@@ -44754,18 +44754,6 @@ Automobile
 Insurance
 Company
 statefarm
-/
-/
-statoil
-:
-2014
--
-12
--
-04
-Statoil
-ASA
-statoil
 /
 /
 stc
