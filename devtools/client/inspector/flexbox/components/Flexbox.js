@@ -369,6 +369,8 @@ renderFlexItemList
 {
 const
 {
+onHideBoxModelHighlighter
+onShowBoxModelHighlighterForNode
 setSelectedNode
 }
 =
@@ -392,6 +394,8 @@ FlexItemList
 (
 {
 flexItems
+onHideBoxModelHighlighter
+onShowBoxModelHighlighterForNode
 setSelectedNode
 }
 )
