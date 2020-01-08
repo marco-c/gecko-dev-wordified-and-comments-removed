@@ -97,6 +97,14 @@ libfuzzer_flags
 =
 [
 ]
+if
+CONFIG
+[
+'
+LIBFUZZER_FLAGS
+'
+]
+:
 libfuzzer_flags
 +
 =
