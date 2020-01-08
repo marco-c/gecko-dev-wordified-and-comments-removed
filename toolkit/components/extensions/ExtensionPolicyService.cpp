@@ -1785,7 +1785,7 @@ iter
 ;
 for
 (
-nsIDocShell
+auto
 &
 docShell
 :
@@ -1802,7 +1802,6 @@ MOZ_TRY
 (
 aCallback
 (
-&
 docShell
 )
 )
