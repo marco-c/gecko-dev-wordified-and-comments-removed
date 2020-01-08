@@ -12,6 +12,8 @@ from
 collections
 import
 deque
+import
+taskgraph
 from
 taskgraph
 .
@@ -600,6 +602,13 @@ parent
 ]
 )
         
+if
+not
+taskgraph
+.
+fast
+:
+            
 context_path
 =
 os
@@ -616,17 +625,28 @@ docker
 '
 definition
 )
-        
+            
 context_hash
 =
 generate_context_hash
 (
-            
+                
 GECKO
 context_path
 image_name
 args
 )
+        
+else
+:
+            
+context_hash
+=
+'
+0
+'
+*
+40
         
 digest_data
 =
