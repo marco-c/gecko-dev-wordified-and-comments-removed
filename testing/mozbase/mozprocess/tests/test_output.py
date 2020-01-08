@@ -173,6 +173,13 @@ ProcessHandler
 self
 .
 python
+                                           
+os
+.
+path
+.
+join
+(
 "
 scripts
 "
@@ -181,6 +188,7 @@ procnonewline
 .
 py
 "
+)
 ]
                                           
 cwd
