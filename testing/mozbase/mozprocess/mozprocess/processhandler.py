@@ -1808,6 +1808,24 @@ joacp
                         
 )
                         
+limit_flags
+=
+winprocess
+.
+JOB_OBJECT_LIMIT_KILL_ON_JOB_CLOSE
+                        
+if
+not
+can_nest_jobs
+:
+                            
+limit_flags
+|
+=
+winprocess
+.
+JOB_OBJECT_LIMIT_BREAKAWAY_OK
+                        
 jbli
 =
 JOBOBJECT_BASIC_LIMIT_INFORMATION
@@ -1823,9 +1841,7 @@ c_longlong
 0
 )
                             
-winprocess
-.
-JOB_OBJECT_LIMIT_BREAKAWAY_OK
+limit_flags
                             
 0
                             
