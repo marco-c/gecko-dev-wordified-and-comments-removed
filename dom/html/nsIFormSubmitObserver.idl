@@ -112,6 +112,9 @@ nsIArray
 webidl
 HTMLFormElement
 ;
+webidl
+Element
+;
 [
 scriptable
 uuid
@@ -156,7 +159,10 @@ in
 HTMLFormElement
 formNode
 in
-nsIArray
+Array
+<
+Element
+>
 invalidElements
 )
 ;

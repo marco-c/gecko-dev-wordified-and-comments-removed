@@ -409,14 +409,9 @@ let
 currentElement
 =
 aInvalidElements
-.
-queryElementAt
-(
+[
 0
-Ci
-.
-nsISupports
-)
+]
 ;
 let
 focused
