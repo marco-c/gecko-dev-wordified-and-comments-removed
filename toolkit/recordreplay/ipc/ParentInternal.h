@@ -149,6 +149,11 @@ BreakpointPosition
 aPosition
 )
 ;
+void
+MaybeSwitchToReplayingChild
+(
+)
+;
 extern
 void
 *
