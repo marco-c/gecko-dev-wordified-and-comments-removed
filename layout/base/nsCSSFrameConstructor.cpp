@@ -16367,7 +16367,7 @@ maybeAbsoluteContainingBlockStyleFrame
 )
 )
 {
-nsContainerFrame
+auto
 *
 cf
 =
@@ -16385,7 +16385,7 @@ aState
 PushAbsoluteContainingBlock
 (
 cf
-cf
+maybeAbsoluteContainingBlockStyleFrame
 absoluteSaveState
 )
 ;
