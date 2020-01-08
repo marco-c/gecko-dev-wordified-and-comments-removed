@@ -24,7 +24,7 @@ namespace
 mozilla
 {
 class
-AutoplayRequest
+AutoplayPermissionManager
 ;
 namespace
 dom
@@ -74,7 +74,7 @@ aContext
 static
 already_AddRefed
 <
-AutoplayRequest
+AutoplayPermissionManager
 >
 RequestFor
 (

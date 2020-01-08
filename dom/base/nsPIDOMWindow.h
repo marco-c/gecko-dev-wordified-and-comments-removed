@@ -163,7 +163,7 @@ class
 ThrottledEventQueue
 ;
 class
-AutoplayRequest
+AutoplayPermissionManager
 ;
 namespace
 dom
@@ -1627,9 +1627,9 @@ already_AddRefed
 mozilla
 :
 :
-AutoplayRequest
+AutoplayPermissionManager
 >
-GetAutoplayRequest
+GetAutoplayPermissionManager
 (
 )
 ;
@@ -1859,9 +1859,9 @@ RefPtr
 mozilla
 :
 :
-AutoplayRequest
+AutoplayPermissionManager
 >
-mAutoplayRequest
+mAutoplayPermissionManager
 ;
 mozilla
 :

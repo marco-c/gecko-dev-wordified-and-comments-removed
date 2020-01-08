@@ -39,9 +39,7 @@ include
 "
 mozilla
 /
-dom
-/
-AutoplayRequest
+AutoplayPermissionManager
 .
 h
 "
@@ -312,7 +310,7 @@ false
 }
 already_AddRefed
 <
-AutoplayRequest
+AutoplayPermissionManager
 >
 AutoplayPolicy
 :
@@ -369,7 +367,7 @@ return
 window
 -
 >
-GetAutoplayRequest
+GetAutoplayPermissionManager
 (
 )
 ;
