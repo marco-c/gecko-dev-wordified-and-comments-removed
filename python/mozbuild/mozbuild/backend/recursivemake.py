@@ -7307,6 +7307,7 @@ add_statement
 '
 %
 s_deps
+:
 =
 %
 s
@@ -7344,6 +7345,7 @@ add_statement
 (
 '
 all_idl_dirs
+:
 =
 %
 s
