@@ -4632,7 +4632,7 @@ mAddActiveEventFuzzTime
 (
 true
 )
-mFullScreen
+mFullscreen
 (
 false
 )
@@ -16467,10 +16467,10 @@ void
 nsGlobalWindowOuter
 :
 :
-SetFullScreenOuter
+SetFullscreenOuter
 (
 bool
-aFullScreen
+aFullscreen
 mozilla
 :
 :
@@ -16487,7 +16487,7 @@ FullscreenReason
 :
 :
 ForFullscreenMode
-aFullScreen
+aFullscreen
 )
 ;
 }
@@ -16498,7 +16498,7 @@ nsGlobalWindowOuter
 SetFullScreen
 (
 bool
-aFullScreen
+aFullscreen
 )
 {
 return
@@ -16508,7 +16508,7 @@ FullscreenReason
 :
 :
 ForFullscreenMode
-aFullScreen
+aFullscreen
 )
 ;
 }
@@ -17012,7 +17012,7 @@ MOZ_UNLIKELY
 mWindow
 -
 >
-mFullScreen
+mFullscreen
 !
 =
 mFullscreen
@@ -17037,7 +17037,7 @@ match
 mWindow
 -
 >
-mFullScreen
+mFullscreen
 =
 mFullscreen
 ;
@@ -17614,7 +17614,7 @@ SetFullscreenInternal
 FullscreenReason
 aReason
 bool
-aFullScreen
+aFullscreen
 )
 {
 MOZ_ASSERT
@@ -17659,7 +17659,7 @@ ForForceExitFullscreen
 |
 |
 !
-aFullScreen
+aFullscreen
 "
 FullscreenReason
 :
@@ -17757,7 +17757,7 @@ window
 SetFullscreenInternal
 (
 aReason
-aFullScreen
+aFullscreen
 )
 ;
 if
@@ -17780,14 +17780,16 @@ NS_ERROR_FAILURE
 ;
 if
 (
-mFullScreen
+mFullscreen
 =
 =
-aFullScreen
+aFullscreen
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 aReason
@@ -17802,7 +17804,7 @@ ForFullscreenMode
 if
 (
 !
-aFullScreen
+aFullscreen
 &
 &
 !
@@ -17821,7 +17823,7 @@ else
 {
 mFullscreenMode
 =
-aFullScreen
+aFullscreen
 ;
 }
 }
@@ -17830,7 +17832,7 @@ else
 if
 (
 !
-aFullScreen
+aFullscreen
 &
 &
 mFullscreenMode
@@ -17871,7 +17873,7 @@ treeOwnerAsWin
 ;
 if
 (
-aFullScreen
+aFullscreen
 &
 &
 xulWin
@@ -17886,9 +17888,9 @@ false
 )
 ;
 }
-mFullScreen
+mFullscreen
 =
-aFullScreen
+aFullscreen
 ;
 if
 (
@@ -17919,7 +17921,7 @@ MakeWidgetFullscreen
 (
 this
 aReason
-aFullScreen
+aFullscreen
 )
 )
 {
@@ -17930,7 +17932,7 @@ NS_OK
 }
 FinishFullscreenChange
 (
-aFullScreen
+aFullscreen
 )
 ;
 return
@@ -18175,7 +18177,7 @@ if
 aIsFullscreen
 !
 =
-mFullScreen
+mFullscreen
 )
 {
 NS_WARNING
@@ -18198,7 +18200,7 @@ if
 aIsFullscreen
 )
 {
-mFullScreen
+mFullscreen
 =
 false
 ;
@@ -18220,7 +18222,7 @@ fullscreen
 "
 )
 ;
-mFullScreen
+mFullscreen
 =
 true
 ;
@@ -18235,7 +18237,7 @@ return
 FinishDOMFullscreenChange
 (
 mDoc
-mFullScreen
+mFullscreen
 )
 ;
 DispatchCustomEvent
@@ -18312,7 +18314,7 @@ if
 mWakeLock
 &
 &
-mFullScreen
+mFullscreen
 )
 {
 RefPtr
@@ -18396,7 +18398,7 @@ mWakeLock
 &
 &
 !
-mFullScreen
+mFullscreen
 )
 {
 ErrorResult
@@ -18426,7 +18428,7 @@ bool
 nsGlobalWindowOuter
 :
 :
-FullScreen
+Fullscreen
 (
 )
 const
@@ -18434,7 +18436,7 @@ const
 NS_ENSURE_TRUE
 (
 mDocShell
-mFullScreen
+mFullscreen
 )
 ;
 nsCOMPtr
@@ -18471,7 +18473,7 @@ XRE_IsContentProcess
 )
 {
 return
-mFullScreen
+mFullscreen
 ;
 }
 if
@@ -18519,7 +18521,7 @@ GetWindow
 NS_ENSURE_TRUE
 (
 window
-mFullScreen
+mFullscreen
 )
 ;
 return
@@ -18532,7 +18534,7 @@ window
 )
 -
 >
-FullScreen
+Fullscreen
 (
 )
 ;
@@ -18541,12 +18543,12 @@ bool
 nsGlobalWindowOuter
 :
 :
-GetFullScreenOuter
+GetFullscreenOuter
 (
 )
 {
 return
-FullScreen
+Fullscreen
 (
 )
 ;

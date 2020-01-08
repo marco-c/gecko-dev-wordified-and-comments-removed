@@ -217,7 +217,7 @@ ScreenOrientation
 )
 ;
 class
-FullScreenEventListener
+FullscreenEventListener
 ;
 class
 VisibleEventListener
@@ -303,9 +303,9 @@ mScreen
 ;
 RefPtr
 <
-FullScreenEventListener
+FullscreenEventListener
 >
-mFullScreenListener
+mFullscreenListener
 ;
 RefPtr
 <

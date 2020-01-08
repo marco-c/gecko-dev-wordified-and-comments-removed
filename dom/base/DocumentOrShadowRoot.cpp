@@ -1018,7 +1018,7 @@ OwnerDoc
 )
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 ;
@@ -1037,7 +1037,7 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_FULL_SCREEN
+NS_EVENT_STATE_FULLSCREEN
 )
 "
 Fullscreen

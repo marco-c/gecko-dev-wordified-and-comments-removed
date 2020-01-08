@@ -4507,7 +4507,7 @@ aContent
 ;
 static
 bool
-IsFullScreenApiEnabled
+IsFullscreenApiEnabled
 (
 )
 ;
@@ -4523,7 +4523,7 @@ sIsUnprefixedFullscreenApiEnabled
 }
 static
 bool
-IsRequestFullScreenAllowed
+IsRequestFullscreenAllowed
 (
 mozilla
 :
@@ -7170,7 +7170,7 @@ sDisablePopups
 ;
 static
 bool
-sIsFullScreenApiEnabled
+sIsFullscreenApiEnabled
 ;
 static
 bool
@@ -7178,7 +7178,7 @@ sIsUnprefixedFullscreenApiEnabled
 ;
 static
 bool
-sTrustedFullScreenOnly
+sTrustedFullscreenOnly
 ;
 static
 bool

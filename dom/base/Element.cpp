@@ -8802,7 +8802,7 @@ mState
 .
 HasState
 (
-NS_EVENT_STATE_FULL_SCREEN
+NS_EVENT_STATE_FULLSCREEN
 )
 )
 {
@@ -16064,7 +16064,7 @@ static
 const
 char
 *
-GetFullScreenError
+GetFullscreenError
 (
 CallerType
 aCallerType
@@ -16076,7 +16076,7 @@ if
 nsContentUtils
 :
 :
-IsRequestFullScreenAllowed
+IsRequestFullscreenAllowed
 (
 aCallerType
 )
@@ -16112,7 +16112,7 @@ char
 *
 error
 =
-GetFullScreenError
+GetFullscreenError
 (
 aCallerType
 )
@@ -16162,7 +16162,7 @@ OwnerDoc
 )
 -
 >
-AsyncRequestFullScreen
+AsyncRequestFullscreen
 (
 std
 :

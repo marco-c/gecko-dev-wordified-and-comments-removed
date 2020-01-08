@@ -2183,7 +2183,7 @@ bool
 nsContentUtils
 :
 :
-sIsFullScreenApiEnabled
+sIsFullscreenApiEnabled
 =
 false
 ;
@@ -2199,7 +2199,7 @@ bool
 nsContentUtils
 :
 :
-sTrustedFullScreenOnly
+sTrustedFullscreenOnly
 =
 true
 ;
@@ -3570,7 +3570,7 @@ Preferences
 AddBoolVarCache
 (
 &
-sIsFullScreenApiEnabled
+sIsFullscreenApiEnabled
 "
 full
 -
@@ -3608,7 +3608,7 @@ Preferences
 AddBoolVarCache
 (
 &
-sTrustedFullScreenOnly
+sTrustedFullscreenOnly
 "
 full
 -
@@ -32033,19 +32033,19 @@ bool
 nsContentUtils
 :
 :
-IsFullScreenApiEnabled
+IsFullscreenApiEnabled
 (
 )
 {
 return
-sIsFullScreenApiEnabled
+sIsFullscreenApiEnabled
 ;
 }
 bool
 nsContentUtils
 :
 :
-IsRequestFullScreenAllowed
+IsRequestFullscreenAllowed
 (
 CallerType
 aCallerType
@@ -32054,7 +32054,7 @@ aCallerType
 if
 (
 !
-sTrustedFullScreenOnly
+sTrustedFullscreenOnly
 |
 |
 aCallerType

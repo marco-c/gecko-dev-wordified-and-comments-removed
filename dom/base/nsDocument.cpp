@@ -37686,7 +37686,7 @@ true
 }
 static
 void
-DispatchFullScreenChange
+DispatchFullscreenChange
 (
 nsIDocument
 *
@@ -38217,7 +38217,7 @@ this
 ;
 if
 (
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -46183,7 +46183,7 @@ ExitFullscreen
 (
 )
 {
-RestorePreviousFullScreenState
+RestorePreviousFullscreenState
 (
 )
 ;
@@ -46425,7 +46425,7 @@ if
 aDoc
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -46494,7 +46494,7 @@ IsFullscreenLeaf
 if
 (
 !
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -46558,13 +46558,12 @@ return
 false
 ;
 }
-else
 if
 (
 aDoc
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -46633,7 +46632,7 @@ if
 root
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -46655,7 +46654,7 @@ leaf
 }
 static
 bool
-ResetFullScreen
+ResetFullscreen
 (
 nsIDocument
 *
@@ -46670,7 +46669,7 @@ if
 aDocument
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -46709,19 +46708,17 @@ NS_ASSERTION
 aDocument
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 "
 Should
 reset
-full
--
-screen
+fullscreen
 "
 )
 ;
-DispatchFullScreenChange
+DispatchFullscreenChange
 (
 aDocument
 )
@@ -46731,7 +46728,7 @@ aDocument
 >
 EnumerateSubDocuments
 (
-ResetFullScreen
+ResetFullscreen
 nullptr
 )
 ;
@@ -46903,7 +46900,7 @@ root
 root
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -46920,7 +46917,7 @@ GetFullscreenLeaf
 root
 )
 ;
-ResetFullScreen
+ResetFullscreen
 (
 root
 nullptr
@@ -46932,7 +46929,7 @@ NS_ASSERTION
 root
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 "
@@ -47022,14 +47019,14 @@ void
 nsIDocument
 :
 :
-RestorePreviousFullScreenState
+RestorePreviousFullscreenState
 (
 )
 {
 NS_ASSERTION
 (
 !
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 |
@@ -47058,7 +47055,7 @@ fullscreen
 if
 (
 !
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 |
@@ -47167,7 +47164,7 @@ MOZ_ASSERT
 doc
 -
 >
-mFullScreenStack
+mFullscreenStack
 .
 IsEmpty
 (
@@ -47200,7 +47197,7 @@ top
 doc
 -
 >
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 ;
@@ -47252,7 +47249,7 @@ if
 doc
 -
 >
-mFullScreenStack
+mFullscreenStack
 .
 Length
 (
@@ -47289,7 +47286,7 @@ GetParentDocument
 lastDoc
 -
 >
-mFullScreenStack
+mFullscreenStack
 .
 Length
 (
@@ -47348,7 +47345,7 @@ if
 lastDoc
 -
 >
-mFullScreenStack
+mFullscreenStack
 .
 Length
 (
@@ -47360,7 +47357,7 @@ Length
 lastDoc
 -
 >
-FullScreenStackPop
+FullscreenStackPop
 (
 )
 ;
@@ -47400,7 +47397,7 @@ exitDocs
 )
 )
 {
-DispatchFullScreenChange
+DispatchFullscreenChange
 (
 d
 )
@@ -47473,7 +47470,7 @@ newFullscreenDoc
 }
 }
 class
-nsCallRequestFullScreen
+nsCallRequestFullscreen
 :
 public
 Runnable
@@ -47481,7 +47478,7 @@ Runnable
 public
 :
 explicit
-nsCallRequestFullScreen
+nsCallRequestFullscreen
 (
 UniquePtr
 <
@@ -47498,7 +47495,7 @@ mozilla
 Runnable
 (
 "
-nsCallRequestFullScreen
+nsCallRequestFullscreen
 "
 )
 mRequest
@@ -47527,7 +47524,7 @@ GetDocument
 )
 -
 >
-RequestFullScreen
+RequestFullscreen
 (
 std
 :
@@ -47554,7 +47551,7 @@ void
 nsIDocument
 :
 :
-AsyncRequestFullScreen
+AsyncRequestFullscreen
 (
 UniquePtr
 <
@@ -47589,7 +47586,7 @@ to
 nsDocument
 :
 :
-AsyncRequestFullScreen
+AsyncRequestFullscreen
 "
 )
 ;
@@ -47610,7 +47607,7 @@ nsIRunnable
 event
 =
 new
-nsCallRequestFullScreen
+nsCallRequestFullscreen
 (
 std
 :
@@ -47761,7 +47758,7 @@ aElement
 EventStateManager
 :
 :
-SetFullScreenState
+SetFullscreenState
 (
 aElement
 false
@@ -47814,7 +47811,7 @@ weakPtr
 :
 Reversed
 (
-mFullScreenStack
+mFullscreenStack
 )
 )
 {
@@ -47839,7 +47836,7 @@ element
 ;
 }
 }
-mFullScreenStack
+mFullscreenStack
 .
 Clear
 (
@@ -47859,7 +47856,7 @@ bool
 nsIDocument
 :
 :
-FullScreenStackPush
+FullscreenStackPush
 (
 Element
 *
@@ -47876,7 +47873,7 @@ non
 -
 null
 to
-FullScreenStackPush
+FullscreenStackPush
 (
 )
 "
@@ -47886,7 +47883,7 @@ Element
 *
 top
 =
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 ;
@@ -47909,13 +47906,13 @@ false
 EventStateManager
 :
 :
-SetFullScreenState
+SetFullscreenState
 (
 aElement
 true
 )
 ;
-mFullScreenStack
+mFullscreenStack
 .
 AppendElement
 (
@@ -47927,7 +47924,7 @@ aElement
 ;
 NS_ASSERTION
 (
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 =
@@ -47952,13 +47949,13 @@ void
 nsIDocument
 :
 :
-FullScreenStackPop
+FullscreenStackPop
 (
 )
 {
 if
 (
-mFullScreenStack
+mFullscreenStack
 .
 IsEmpty
 (
@@ -47970,7 +47967,7 @@ return
 }
 ClearFullscreenStateOnElement
 (
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -47978,7 +47975,7 @@ FullScreenStackTop
 uint32_t
 last
 =
-mFullScreenStack
+mFullscreenStack
 .
 Length
 (
@@ -47986,7 +47983,7 @@ Length
 -
 1
 ;
-mFullScreenStack
+mFullscreenStack
 .
 RemoveElementAt
 (
@@ -47996,7 +47993,7 @@ last
 while
 (
 !
-mFullScreenStack
+mFullscreenStack
 .
 IsEmpty
 (
@@ -48007,7 +48004,7 @@ Element
 *
 element
 =
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 ;
@@ -48049,16 +48046,14 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_FULL_SCREEN
+NS_EVENT_STATE_FULLSCREEN
 )
 "
 Should
 have
 already
 removed
-full
--
-screen
+fullscreen
 styles
 "
 )
@@ -48066,7 +48061,7 @@ styles
 uint32_t
 last
 =
-mFullScreenStack
+mFullscreenStack
 .
 Length
 (
@@ -48074,7 +48069,7 @@ Length
 -
 1
 ;
-mFullScreenStack
+mFullscreenStack
 .
 RemoveElementAt
 (
@@ -48099,13 +48094,13 @@ Element
 nsIDocument
 :
 :
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 {
 if
 (
-mFullScreenStack
+mFullscreenStack
 .
 IsEmpty
 (
@@ -48119,7 +48114,7 @@ nullptr
 uint32_t
 last
 =
-mFullScreenStack
+mFullscreenStack
 .
 Length
 (
@@ -48135,7 +48130,7 @@ element
 (
 do_QueryReferent
 (
-mFullScreenStack
+mFullscreenStack
 [
 last
 ]
@@ -48148,9 +48143,7 @@ element
 "
 Should
 have
-full
--
-screen
+fullscreen
 element
 !
 "
@@ -48165,9 +48158,7 @@ IsInComposedDoc
 (
 )
 "
-Full
--
-screen
+Fullscreen
 element
 should
 be
@@ -48188,9 +48179,7 @@ OwnerDoc
 =
 this
 "
-Full
--
-screen
+Fullscreen
 element
 should
 be
@@ -48231,7 +48220,7 @@ nsWeakPtr
 &
 ptr
 :
-mFullScreenStack
+mFullscreenStack
 )
 {
 if
@@ -48259,7 +48248,7 @@ State
 .
 HasState
 (
-NS_EVENT_STATE_FULL_SCREEN
+NS_EVENT_STATE_FULLSCREEN
 )
 )
 ;
@@ -48473,7 +48462,7 @@ mShouldNotifyNewOrigin
 =
 false
 ;
-RequestFullScreen
+RequestFullscreen
 (
 std
 :
@@ -48496,7 +48485,7 @@ RemoteFrameFullscreenReverted
 (
 )
 {
-RestorePreviousFullScreenState
+RestorePreviousFullscreenState
 (
 )
 ;
@@ -48545,7 +48534,7 @@ IsUnprefixedFullscreenApiEnabled
 }
 static
 bool
-HasFullScreenSubDocument
+HasFullscreenSubDocument
 (
 nsIDocument
 *
@@ -48606,7 +48595,7 @@ apiEnabled
 nsContentUtils
 :
 :
-IsFullScreenApiEnabled
+IsFullscreenApiEnabled
 (
 )
 ;
@@ -48700,7 +48689,7 @@ to
 nsDocument
 :
 :
-RequestFullScreen
+RequestFullscreen
 "
 )
 ;
@@ -48713,7 +48702,7 @@ aElement
 aElement
 =
 =
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -48831,7 +48820,7 @@ false
 }
 if
 (
-HasFullScreenSubDocument
+HasFullscreenSubDocument
 (
 this
 )
@@ -48850,7 +48839,7 @@ false
 }
 if
 (
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 &
@@ -48862,7 +48851,7 @@ nsContentUtils
 ContentIsHostIncludingDescendantOf
 (
 aElement
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 )
@@ -48935,9 +48924,7 @@ retrieve
 focus
 manager
 in
-full
--
-screen
+fullscreen
 request
 .
 "
@@ -49499,7 +49486,7 @@ void
 nsIDocument
 :
 :
-RequestFullScreen
+RequestFullscreen
 (
 UniquePtr
 <
@@ -49901,7 +49888,7 @@ bool
 >
 x
 =
-FullScreenStackPush
+FullscreenStackPush
 (
 elem
 )
@@ -49910,9 +49897,7 @@ NS_ASSERTION
 (
 x
 "
-Full
--
-screen
+Fullscreen
 state
 of
 requesting
@@ -50047,7 +50032,7 @@ parent
 )
 -
 >
-FullScreenStackPush
+FullscreenStackPush
 (
 element
 )
@@ -50151,7 +50136,7 @@ changed
 )
 )
 {
-DispatchFullScreenChange
+DispatchFullscreenChange
 (
 d
 )

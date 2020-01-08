@@ -4201,7 +4201,7 @@ GetFullscreenStack
 const
 ;
 void
-AsyncRequestFullScreen
+AsyncRequestFullscreen
 (
 mozilla
 :
@@ -4225,7 +4225,7 @@ aWasCallerChrome
 )
 ;
 void
-RequestFullScreen
+RequestFullscreen
 (
 mozilla
 :
@@ -4245,7 +4245,7 @@ CleanupFullscreenState
 )
 ;
 bool
-FullScreenStackPush
+FullscreenStackPush
 (
 Element
 *
@@ -4253,7 +4253,7 @@ aElement
 )
 ;
 void
-FullScreenStackPop
+FullscreenStackPop
 (
 )
 ;
@@ -4277,7 +4277,7 @@ RemoteFrameFullscreenReverted
 )
 ;
 void
-RestorePreviousFullScreenState
+RestorePreviousFullscreenState
 (
 )
 ;
@@ -8263,7 +8263,7 @@ aCallerType
 ;
 Element
 *
-FullScreenStackTop
+FullscreenStackTop
 (
 )
 ;
@@ -11598,7 +11598,7 @@ nsTArray
 <
 nsWeakPtr
 >
-mFullScreenStack
+mFullscreenStack
 ;
 nsWeakPtr
 mFullscreenRoot

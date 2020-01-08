@@ -645,7 +645,7 @@ aContent
 ;
 static
 void
-SetFullScreenState
+SetFullscreenState
 (
 dom
 :
@@ -654,7 +654,7 @@ Element
 *
 aElement
 bool
-aIsFullScreen
+aIsFullscreen
 )
 ;
 static

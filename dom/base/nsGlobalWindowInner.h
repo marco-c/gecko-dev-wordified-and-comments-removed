@@ -4966,7 +4966,7 @@ void
 SetFullScreen
 (
 bool
-aFullScreen
+aFullscreen
 mozilla
 :
 :

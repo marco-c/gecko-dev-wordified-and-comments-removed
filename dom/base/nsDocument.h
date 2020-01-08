@@ -1319,7 +1319,7 @@ mRadioGroups
 ;
 friend
 class
-nsCallRequestFullScreen
+nsCallRequestFullscreen
 ;
 nsCOMPtr
 <
