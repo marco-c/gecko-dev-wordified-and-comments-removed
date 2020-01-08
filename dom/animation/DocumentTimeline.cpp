@@ -330,7 +330,7 @@ TimeDuration
 DocumentTimeline
 :
 :
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 const

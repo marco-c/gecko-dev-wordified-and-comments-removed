@@ -73,14 +73,6 @@ nsTHashtable
 .
 h
 "
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 class
 nsIDocument
 ;
@@ -160,7 +152,7 @@ Nullable
 <
 TimeDuration
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 const
@@ -182,7 +174,7 @@ AnimationUtils
 :
 TimeDurationToDouble
 (
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 )
@@ -200,7 +192,7 @@ TimeDuration
 >
 currentTime
 =
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;

@@ -683,14 +683,6 @@ WebRenderScrollData
 .
 h
 "
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 using
 namespace
 mozilla
@@ -3411,7 +3403,7 @@ holdTime
 aAnimation
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .

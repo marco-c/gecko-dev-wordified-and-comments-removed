@@ -596,14 +596,6 @@ effect
 "
 )
 ;
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 dom
 :
 :
@@ -615,7 +607,7 @@ currentTime
 =
 aAnimation
 .
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;

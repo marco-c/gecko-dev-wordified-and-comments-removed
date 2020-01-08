@@ -1793,7 +1793,7 @@ result
 mAnimation
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 ;

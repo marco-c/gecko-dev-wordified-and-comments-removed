@@ -147,14 +147,6 @@ undef
 CurrentTime
 #
 endif
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 struct
 JSContext
 ;
@@ -473,7 +465,7 @@ Nullable
 <
 TimeDuration
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 const
@@ -1015,7 +1007,7 @@ mTimeline
 mTimeline
 -
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 .

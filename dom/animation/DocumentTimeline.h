@@ -64,14 +64,6 @@ h
 struct
 JSContext
 ;
-#
-ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
 namespace
 mozilla
 {
@@ -243,7 +235,7 @@ Nullable
 <
 TimeDuration
 >
-GetCurrentTime
+GetCurrentTimeAsDuration
 (
 )
 const
