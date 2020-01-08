@@ -39182,7 +39182,7 @@ parentFrame
 frame
 -
 >
-GetInFlowParent
+GetClosestFlattenedTreeAncestorPrimaryFrame
 (
 )
 ;
@@ -40404,7 +40404,7 @@ establisher
 establisher
 -
 >
-GetInFlowParent
+GetClosestFlattenedTreeAncestorPrimaryFrame
 (
 )
 )
