@@ -740,6 +740,12 @@ StyleWindowDragging
 mozilla
 :
 :
+StyleAnimationPlayState
+"
+"
+mozilla
+:
+:
 StyleOrient
 "
 "

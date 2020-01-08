@@ -15362,7 +15362,10 @@ None
 ;
 mPlayState
 =
-NS_STYLE_ANIMATION_PLAY_STATE_RUNNING
+StyleAnimationPlayState
+:
+:
+Running
 ;
 mIterationCount
 =

@@ -1778,6 +1778,11 @@ True
 extra_prefixes
 =
 animation_extra_prefixes
+gecko_enum_prefix
+=
+"
+StyleAnimationPlayState
+"
 spec
 =
 "
