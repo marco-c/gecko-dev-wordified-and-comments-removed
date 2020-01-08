@@ -894,6 +894,14 @@ CONFIG
 ENABLE_GECKODRIVER
 '
 ]
+and
+not
+CONFIG
+[
+'
+MOZ_TSAN
+'
+]
 :
 DIRS
 +
