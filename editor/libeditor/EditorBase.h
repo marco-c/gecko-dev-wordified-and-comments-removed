@@ -3982,6 +3982,15 @@ EditorBase
 (
 )
 ;
+nsresult
+GetDocumentCharsetInternal
+(
+nsACString
+&
+aCharset
+)
+const
+;
 virtual
 nsresult
 SelectAllInternal
