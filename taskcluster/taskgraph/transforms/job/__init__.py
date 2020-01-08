@@ -1470,11 +1470,15 @@ type
         
 if
 os
-=
-=
+in
+(
 '
 windows
 '
+'
+macosx
+'
+)
 :
             
 env
