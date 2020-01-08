@@ -1502,7 +1502,10 @@ ReadableStreamMode
 ExternalSource
 )
 {
-void
+JS
+:
+:
+ReadableStreamUnderlyingSource
 *
 underlyingSource
 =
