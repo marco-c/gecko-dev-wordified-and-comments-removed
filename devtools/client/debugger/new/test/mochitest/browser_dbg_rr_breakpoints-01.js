@@ -11,10 +11,11 @@ waitForExplicitFinish
 let
 tab
 =
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+gBrowser
 null
 {
 recordExecution
