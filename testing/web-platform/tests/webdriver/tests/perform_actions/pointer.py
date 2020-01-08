@@ -121,21 +121,6 @@ assert
 value
 is
 None
-    
-value
-=
-session
-.
-actions
-.
-release
-(
-)
-    
-assert
-value
-is
-None
 def
 test_no_browsing_context
 (
@@ -720,7 +705,6 @@ test_click_navigation
 (
 session
 url
-release_actions
 )
 :
     
