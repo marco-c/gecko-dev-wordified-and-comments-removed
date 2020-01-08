@@ -58,6 +58,11 @@ getenv
 MOZPROCESS_DEBUG
 "
 )
+INTERVAL_PROCESS_ALIVE_CHECK
+=
+0
+.
+02
 isWin
 =
 os
@@ -1174,9 +1179,7 @@ time
 .
 sleep
 (
-0
-.
-02
+INTERVAL_PROCESS_ALIVE_CHECK
 )
                     
 else
@@ -4665,8 +4668,6 @@ elif
 hasattr
 (
 self
-.
-proc
 "
 returncode
 "
@@ -4675,8 +4676,6 @@ returncode
             
 return
 self
-.
-proc
 .
 returncode
         
@@ -4987,8 +4986,6 @@ is_alive
 self
 .
 reader
-.
-thread
 .
 join
 (
@@ -5954,9 +5951,7 @@ queue
 get
 (
 True
-0
-.
-02
+INTERVAL_PROCESS_ALIVE_CHECK
 )
             
 except
@@ -6140,6 +6135,33 @@ is_alive
         
 return
 False
+    
+def
+join
+(
+self
+timeout
+=
+None
+)
+:
+        
+if
+self
+.
+thread
+:
+            
+self
+.
+thread
+.
+join
+(
+timeout
+=
+timeout
+)
 class
 StoreOutput
 (
