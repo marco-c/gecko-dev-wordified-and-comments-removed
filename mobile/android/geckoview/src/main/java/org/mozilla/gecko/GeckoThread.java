@@ -1411,6 +1411,17 @@ getPackageResourcePath
 (
 )
 ;
+GeckoSystemStateListener
+.
+getInstance
+(
+)
+.
+initialize
+(
+context
+)
+;
 try
 {
 loadGeckoLibs
