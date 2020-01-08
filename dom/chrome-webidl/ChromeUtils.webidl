@@ -2381,6 +2381,17 @@ requestIOActivity
 (
 )
 ;
+[
+ChromeOnly
+]
+sequence
+<
+BrowsingContext
+>
+getRootBrowsingContexts
+(
+)
+;
 }
 ;
 /
