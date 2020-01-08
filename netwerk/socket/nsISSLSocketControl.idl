@@ -880,7 +880,8 @@ sent
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 attribute
 boolean

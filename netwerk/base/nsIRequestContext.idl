@@ -382,7 +382,8 @@ context
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 readonly
 attribute
@@ -566,7 +567,8 @@ ends
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 attribute
 SpdyPushCachePtr
@@ -590,7 +592,8 @@ override
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 attribute
 ACString
