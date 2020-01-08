@@ -590,6 +590,9 @@ long
         
 if
 context
+and
+not
+debug_command
 :
             
 postrun
