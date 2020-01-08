@@ -2480,8 +2480,10 @@ p
 )
 )
 {
-p
-=
+allTransitionProperties
+.
+AddProperty
+(
 nsCSSProps
 :
 :
@@ -2490,12 +2492,6 @@ Physicalize
 p
 aNewStyle
 )
-;
-allTransitionProperties
-.
-AddProperty
-(
-p
 )
 ;
 }
