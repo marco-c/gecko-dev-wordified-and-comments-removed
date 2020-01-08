@@ -1,7 +1,7 @@
 import
 type
 {
-Position
+PartialPosition
 }
 from
 "
@@ -34,10 +34,10 @@ positionCmp
 (
 p1
 :
-Position
+PartialPosition
 p2
 :
-Position
+PartialPosition
 )
 {
 if

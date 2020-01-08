@@ -128,7 +128,7 @@ types
 import
 type
 {
-ColumnPosition
+Position
 }
 from
 "
@@ -355,7 +355,7 @@ location
 AstLocation
 tokenPos
 :
-ColumnPosition
+Position
 cursorPos
 :
 ClientRect

@@ -8,17 +8,6 @@ expressions
 "
 ;
 import
-eventListeners
-from
-"
-.
-/
-event
--
-listeners
-"
-;
-import
 sources
 from
 "
@@ -164,7 +153,6 @@ export
 default
 {
 expressions
-eventListeners
 sources
 tabs
 breakpoints

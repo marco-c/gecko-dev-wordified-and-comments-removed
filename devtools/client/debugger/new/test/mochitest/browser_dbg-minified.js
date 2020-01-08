@@ -75,12 +75,6 @@ minified2
 .
 html
 "
-)
-;
-await
-waitForSources
-(
-dbg
 "
 sum
 .

@@ -1,7 +1,7 @@
 import
 type
 {
-ColumnPosition
+Position
 }
 from
 "
@@ -41,7 +41,7 @@ line
 column
 }
 :
-ColumnPosition
+Position
 )
 :
 Token
@@ -127,7 +127,7 @@ cm
 any
 coord
 :
-ColumnPosition
+Position
 )
 {
 const

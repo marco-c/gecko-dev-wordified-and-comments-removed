@@ -23,6 +23,9 @@ scripts
 .
 html
 "
+"
+long
+"
 )
 ;
 await

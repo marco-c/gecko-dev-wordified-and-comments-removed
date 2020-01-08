@@ -39,7 +39,7 @@ type
 {
 XHRBreakpoint
 Breakpoint
-Location
+SourceLocation
 }
 from
 "
@@ -1203,7 +1203,7 @@ state
 OuterState
 location
 :
-Location
+SourceLocation
 )
 :
 ?
@@ -1490,7 +1490,7 @@ OuterState
 )
 :
 ?
-Location
+SourceLocation
 {
 const
 hiddenBreakpoint

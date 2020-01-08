@@ -26,7 +26,7 @@ selectors
 import
 type
 {
-Location
+SourceLocation
 MappedLocation
 Source
 }
@@ -65,7 +65,7 @@ source
 Source
 location
 :
-Location
+SourceLocation
 sourceMaps
 :
 Object
@@ -73,7 +73,7 @@ Object
 :
 Promise
 <
-Location
+SourceLocation
 >
 {
 if
@@ -162,12 +162,12 @@ sourceMaps
 Object
 location
 :
-Location
+SourceLocation
 )
 :
 Promise
 <
-Location
+SourceLocation
 >
 {
 const
