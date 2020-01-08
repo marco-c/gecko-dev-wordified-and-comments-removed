@@ -813,10 +813,11 @@ browser
 .
 selectedTab
 =
-browser
+BrowserTestUtils
 .
 addTab
 (
+browser
 url
 aParams
 )

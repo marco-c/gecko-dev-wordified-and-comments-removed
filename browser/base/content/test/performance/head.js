@@ -1323,6 +1323,15 @@ uris
 inBackground
 :
 true
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 }
 )
 ;

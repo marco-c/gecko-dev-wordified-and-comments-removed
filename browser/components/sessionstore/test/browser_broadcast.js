@@ -727,12 +727,13 @@ window
 let
 tab
 =
-win
-.
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+win
+.
+gBrowser
 )
 ;
 let

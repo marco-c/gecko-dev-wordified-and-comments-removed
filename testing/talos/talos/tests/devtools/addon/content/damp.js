@@ -853,7 +853,7 @@ _win
 .
 gBrowser
 .
-addTab
+addTrustedTab
 (
 url
 )

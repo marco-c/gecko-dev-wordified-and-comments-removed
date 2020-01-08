@@ -185,12 +185,13 @@ html
 var
 newTab
 =
-win
-.
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+win
+.
+gBrowser
 )
 ;
 var
