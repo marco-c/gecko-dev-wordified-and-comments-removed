@@ -1094,7 +1094,11 @@ win
 openPreferences
 (
 "
-panePrivacy
+privacy
+-
+form
+-
+autofill
 "
 {
 origin
