@@ -115,6 +115,11 @@ aFrom
 nsIURI
 *
 aURI
+nsIURI
+*
+aReferrer
+uint32_t
+aReferrerPolicy
 bool
 aWatch
 =

@@ -148,6 +148,11 @@ aFromContent
 nsIURI
 *
 aURI
+nsIURI
+*
+aReferrer
+uint32_t
+aReferrerPolicy
 bool
 aWatch
 bool
@@ -502,6 +507,8 @@ doc
 RequestExternalResource
 (
 aURI
+aReferrer
+aReferrerPolicy
 aFromContent
 getter_AddRefs
 (
