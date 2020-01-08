@@ -1904,12 +1904,13 @@ nssCKFWSession_SetPIN
 NSSCKFWSession
 *
 fwSession
-NSSItem
-*
-newPin
+const
 NSSItem
 *
 oldPin
+NSSItem
+*
+newPin
 )
 ;
 NSS_EXTERN
