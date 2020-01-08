@@ -3623,13 +3623,6 @@ None
 None
 }
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 fn
 post_translate

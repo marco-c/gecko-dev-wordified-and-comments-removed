@@ -1114,9 +1114,8 @@ info
 .
 resolved_transform
 .
-pre_translate
+post_translate
 (
-&
 state
 .
 parent_accumulated_scroll_offset
