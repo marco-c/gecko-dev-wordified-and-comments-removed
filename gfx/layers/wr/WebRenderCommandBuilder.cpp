@@ -11125,6 +11125,16 @@ CurrentMatrix
 (
 )
 .
+PreScale
+(
+aScale
+.
+width
+aScale
+.
+height
+)
+.
 PreTranslate
 (
 -
