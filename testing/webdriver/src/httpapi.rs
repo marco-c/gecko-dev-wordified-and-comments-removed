@@ -8,15 +8,6 @@ Captures
 }
 ;
 use
-rustc_serialize
-:
-:
-json
-:
-:
-Json
-;
-use
 hyper
 :
 :
@@ -40,6 +31,12 @@ Get
 Post
 Delete
 }
+;
+use
+serde_json
+:
+:
+Value
 ;
 use
 command
@@ -1361,7 +1358,7 @@ self
 &
 Captures
 &
-Json
+Value
 )
 -
 >
@@ -1412,7 +1409,7 @@ Captures
 _
 :
 &
-Json
+Value
 )
 -
 >
