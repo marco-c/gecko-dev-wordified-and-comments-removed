@@ -155,10 +155,13 @@ ExecutionPoint
 CurrentExecutionPoint
 (
 const
+Maybe
+<
 js
 :
 :
 BreakpointPosition
+>
 &
 aPosition
 )
