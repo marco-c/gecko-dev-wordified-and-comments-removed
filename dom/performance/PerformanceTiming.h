@@ -119,6 +119,9 @@ SetPropertiesFromHttpChannel
 nsIHttpChannel
 *
 aHttpChannel
+nsITimedChannel
+*
+aChannel
 )
 ;
 bool

@@ -1475,6 +1475,7 @@ timing
 SetPropertiesFromHttpChannel
 (
 httpChannel
+mChannel
 )
 ;
 }
