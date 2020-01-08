@@ -670,6 +670,17 @@ LocationView
 this
 )
 ;
+mLocationView
+.
+setId
+(
+R
+.
+id
+.
+url_bar
+)
+;
 getSupportActionBar
 (
 )
