@@ -195,6 +195,11 @@ privateNoteIntentionalCrash
 :
 false
 "
+record
+"
+:
+false
+"
 registerCleanupFunction
 "
 :
