@@ -100,13 +100,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsAbsoluteContainingBlock
 .
 h
