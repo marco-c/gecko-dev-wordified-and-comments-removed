@@ -335,6 +335,14 @@ JSObject
 obj
 )
 ;
+bool
+IsInSandboxCompartment
+(
+JSObject
+*
+obj
+)
+;
 JSObject
 *
 GetXBLScope

@@ -6074,6 +6074,13 @@ isContentXBLScope
 priv
 -
 >
+isSandboxCompartment
+=
+true
+;
+priv
+-
+>
 wantXrays
 =
 AccessCheck

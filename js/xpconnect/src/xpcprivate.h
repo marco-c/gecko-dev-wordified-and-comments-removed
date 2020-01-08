@@ -10615,6 +10615,9 @@ bool
 isContentXBLCompartment
 ;
 bool
+isSandboxCompartment
+;
+bool
 universalXPConnectEnabled
 ;
 bool
