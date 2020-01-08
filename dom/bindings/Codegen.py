@@ -23491,8 +23491,6 @@ dedent
 "
 "
                 
-MOZ_ASSERT
-(
 aObject
 -
 >
@@ -23500,9 +23498,8 @@ mExpandoAndGeneration
 .
 expando
 .
-isUndefined
+setUndefined
 (
-)
 )
 ;
                 
