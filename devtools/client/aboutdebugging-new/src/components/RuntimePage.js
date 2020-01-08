@@ -465,6 +465,7 @@ renderConnectionPromptSetting
 const
 {
 connectionPromptEnabled
+dispatch
 }
 =
 this
@@ -491,6 +492,7 @@ ConnectionPromptSetting
 (
 {
 connectionPromptEnabled
+dispatch
 }
 )
 )
