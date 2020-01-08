@@ -156,6 +156,11 @@ actorID
 PropTypes
 .
 string
+computedStyle
+:
+PropTypes
+.
+object
 flexItemSizing
 :
 PropTypes
