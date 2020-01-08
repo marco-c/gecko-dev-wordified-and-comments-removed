@@ -54,12 +54,6 @@ CanvasRenderingContext2D
 DrawingStyle
 "
 "
-CanvasGradient
-"
-"
-CanvasPattern
-"
-"
 BeforeUnloadEvent
 "
 "
