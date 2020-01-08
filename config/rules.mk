@@ -7284,6 +7284,11 @@ filter
 -
 out
 -
+fsanitize
+=
+cfi
+%
+-
 framework
 Cocoa
 -
