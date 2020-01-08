@@ -622,9 +622,7 @@ label
 className
 :
 "
-notification
--
-button
+notificationButton
 "
 accesskey
 :
@@ -696,15 +694,6 @@ div
 className
 :
 "
-details
-"
-}
-div
-(
-{
-className
-:
-"
 messageImage
 "
 "
@@ -726,6 +715,11 @@ className
 "
 messageText
 "
+title
+:
+notification
+.
+label
 }
 notification
 .
@@ -746,7 +740,6 @@ renderButton
 (
 props
 notification
-)
 )
 )
 div
