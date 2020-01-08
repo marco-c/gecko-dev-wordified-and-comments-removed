@@ -1229,7 +1229,7 @@ selection
 Warning
 (
 "
-fSelection
+fsSelection
 bits
 8
 and

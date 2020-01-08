@@ -41,6 +41,13 @@ parent
 {
 }
 virtual
+~
+TablePart
+(
+)
+{
+}
+virtual
 bool
 ParsePart
 (
