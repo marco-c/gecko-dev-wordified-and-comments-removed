@@ -342,7 +342,9 @@ _connection
 .
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 tabListChanged
@@ -376,7 +378,9 @@ _connection
 .
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 tabListChanged
