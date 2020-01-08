@@ -456,7 +456,7 @@ expressionNodes
 )
 .
 length
-34
+1
 )
 ;
 await
@@ -477,7 +477,7 @@ expressionNodes
 )
 .
 length
-1
+34
 )
 ;
 await

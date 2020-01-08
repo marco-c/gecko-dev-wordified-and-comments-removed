@@ -167,7 +167,7 @@ is
 getLabel
 (
 dbg
-11
+5
 )
 "
 Window
