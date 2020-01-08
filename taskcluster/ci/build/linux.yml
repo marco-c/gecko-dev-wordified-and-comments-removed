@@ -4886,9 +4886,6 @@ opt
 symbol
 :
 Btup
-tier
-:
-2
 worker
 -
 type
