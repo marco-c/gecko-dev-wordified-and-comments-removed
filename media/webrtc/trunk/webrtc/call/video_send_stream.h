@@ -825,15 +825,6 @@ degradation_preference
 0
 ;
 virtual
-CPULoadStateObserver
-*
-LoadStateObserver
-(
-)
-=
-0
-;
-virtual
 void
 ReconfigureVideoEncoder
 (
