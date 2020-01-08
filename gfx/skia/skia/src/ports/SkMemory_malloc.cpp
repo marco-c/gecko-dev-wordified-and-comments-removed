@@ -158,6 +158,16 @@ __debugbreak
 )
 ;
 #
+elif
+defined
+(
+__clang__
+)
+__builtin_debugtrap
+(
+)
+;
+#
 else
 abort
 (

@@ -633,7 +633,10 @@ calcAngles
 (
 )
 ;
-bool
+SkOpSpanBase
+:
+:
+Collapsed
 collapsed
 (
 double
@@ -644,7 +647,7 @@ endT
 const
 ;
 static
-void
+bool
 ComputeOneSum
 (
 const
@@ -661,7 +664,7 @@ IncludeType
 )
 ;
 static
-void
+bool
 ComputeOneSumReverse
 (
 SkOpAngle
@@ -1273,6 +1276,9 @@ nextEnd
 bool
 *
 unsortable
+bool
+*
+simple
 SkPathOp
 op
 int
@@ -1535,6 +1541,7 @@ int
 *
 step
 )
+const
 {
 return
 nextChase
@@ -1666,8 +1673,7 @@ markAllDone
 (
 )
 ;
-SkOpSpanBase
-*
+bool
 markAndChaseDone
 (
 SkOpSpanBase
@@ -1676,6 +1682,10 @@ start
 SkOpSpanBase
 *
 end
+SkOpSpanBase
+*
+*
+found
 )
 ;
 bool
@@ -1714,8 +1724,7 @@ SkOpSpanBase
 lastPtr
 )
 ;
-SkOpSpanBase
-*
+bool
 markAngle
 (
 int
@@ -1726,10 +1735,13 @@ const
 SkOpAngle
 *
 angle
-)
-;
 SkOpSpanBase
 *
+*
+result
+)
+;
+bool
 markAngle
 (
 int
@@ -1744,6 +1756,10 @@ const
 SkOpAngle
 *
 angle
+SkOpSpanBase
+*
+*
+result
 )
 ;
 void

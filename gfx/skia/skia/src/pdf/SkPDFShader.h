@@ -14,6 +14,13 @@ h
 #
 include
 "
+SkMacros
+.
+h
+"
+#
+include
+"
 SkPDFTypes
 .
 h

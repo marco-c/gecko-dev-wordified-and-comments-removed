@@ -61,7 +61,7 @@ FileOutputStream
 )
 override
 {
-ASSERT
+SkASSERT
 (
 !
 fOpen
@@ -90,7 +90,7 @@ b
 )
 override
 {
-ASSERT
+SkASSERT
 (
 fOpen
 )
@@ -131,7 +131,7 @@ s
 )
 override
 {
-ASSERT
+SkASSERT
 (
 fOpen
 )

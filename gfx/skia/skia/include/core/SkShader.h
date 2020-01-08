@@ -100,14 +100,14 @@ kLast_TileMode
 kDecal_TileMode
 }
 ;
-enum
-{
+static
+constexpr
+int
 kTileModeCount
 =
 kLast_TileMode
 +
 1
-}
 ;
 const
 SkMatrix

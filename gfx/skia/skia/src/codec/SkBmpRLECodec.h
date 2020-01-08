@@ -49,12 +49,8 @@ public
 :
 SkBmpRLECodec
 (
-int
-width
-int
-height
-const
 SkEncodedInfo
+&
 &
 info
 std

@@ -104,6 +104,14 @@ GrContext
 *
 )
 ;
+SkIRect
+SkImage_getSubset
+(
+const
+SkImage
+*
+)
+;
 sk_sp
 <
 SkImage

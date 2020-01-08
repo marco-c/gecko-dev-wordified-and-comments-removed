@@ -67,14 +67,6 @@ AlphaOption
 :
 kIgnore
 ;
-SkTransferFunctionBehavior
-fBlendBehavior
-=
-SkTransferFunctionBehavior
-:
-:
-kRespect
-;
 }
 ;
 static

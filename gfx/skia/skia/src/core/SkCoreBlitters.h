@@ -254,6 +254,12 @@ uint32_t
 )
 override
 ;
+private
+:
+typedef
+SkRasterBlitter
+INHERITED
+;
 }
 ;
 class

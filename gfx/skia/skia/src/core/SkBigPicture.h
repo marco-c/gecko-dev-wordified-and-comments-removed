@@ -7,6 +7,13 @@ SkBigPicture_DEFINED
 #
 include
 "
+SkNoncopyable
+.
+h
+"
+#
+include
+"
 SkOnce
 .
 h

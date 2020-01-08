@@ -26,6 +26,11 @@ SkTemplates
 .
 h
 "
+#
+include
+<
+utility
+>
 struct
 DFData
 {
@@ -614,7 +619,13 @@ dx
 dy
 )
 {
-SkTSwap
+using
+std
+:
+:
+swap
+;
+swap
 (
 dx
 dy

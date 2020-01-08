@@ -7,7 +7,7 @@ SkPDFGraphicState_DEFINED
 #
 include
 "
-SkPDFTypes
+SkMacros
 .
 h
 "
@@ -15,6 +15,13 @@ h
 include
 "
 SkOpts
+.
+h
+"
+#
+include
+"
+SkPDFTypes
 .
 h
 "

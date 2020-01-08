@@ -13,6 +13,13 @@ h
 "
 #
 include
+"
+SkMacros
+.
+h
+"
+#
+include
 <
 functional
 >

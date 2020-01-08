@@ -77,8 +77,6 @@ SkRRect
 rrect
 SkBlurStyle
 style
-SkBlurQuality
-quality
 )
 :
 fSigma
@@ -88,10 +86,6 @@ sigma
 fStyle
 (
 style
-)
-fQuality
-(
-quality
 )
 fRRect
 (
@@ -118,11 +112,6 @@ fStyle
 +
 sizeof
 (
-fQuality
-)
-+
-sizeof
-(
 fRRect
 )
 )
@@ -133,9 +122,6 @@ fSigma
 ;
 int32_t
 fStyle
-;
-int32_t
-fQuality
 ;
 SkRRect
 fRRect
@@ -393,8 +379,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRRect
 &
@@ -416,7 +400,6 @@ key
 sigma
 rrect
 style
-quality
 )
 ;
 if
@@ -484,8 +467,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRRect
 &
@@ -508,7 +489,6 @@ key
 sigma
 rrect
 style
-quality
 )
 ;
 return
@@ -550,8 +530,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRect
 rects
@@ -568,10 +546,6 @@ sigma
 fStyle
 (
 style
-)
-fQuality
-(
-quality
 )
 {
 SkASSERT
@@ -786,11 +760,6 @@ fStyle
 +
 sizeof
 (
-fQuality
-)
-+
-sizeof
-(
 fSizes
 )
 )
@@ -801,9 +770,6 @@ fSigma
 ;
 int32_t
 fStyle
-;
-int32_t
-fQuality
 ;
 SkSize
 fSizes
@@ -1067,8 +1033,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRect
 rects
@@ -1092,7 +1056,6 @@ key
 (
 sigma
 style
-quality
 rects
 count
 )
@@ -1162,8 +1125,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRect
 rects
@@ -1188,7 +1149,6 @@ key
 (
 sigma
 style
-quality
 rects
 count
 )

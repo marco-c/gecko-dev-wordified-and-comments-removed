@@ -14,6 +14,13 @@ h
 #
 include
 "
+SkMath
+.
+h
+"
+#
+include
+"
 SkScalar
 .
 h
@@ -21,7 +28,7 @@ h
 #
 include
 "
-SkMath
+SkTo
 .
 h
 "
@@ -136,7 +143,7 @@ inline
 SkFDot6
 SkIntToFDot6
 (
-S16CPU
+int
 x
 )
 {

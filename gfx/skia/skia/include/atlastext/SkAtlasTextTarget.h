@@ -6,11 +6,6 @@ define
 SkAtlasTextTarget_DEFINED
 #
 include
-<
-memory
->
-#
-include
 "
 SkDeque
 .
@@ -30,6 +25,11 @@ SkScalar
 .
 h
 "
+#
+include
+<
+memory
+>
 class
 SkAtlasTextContext
 ;

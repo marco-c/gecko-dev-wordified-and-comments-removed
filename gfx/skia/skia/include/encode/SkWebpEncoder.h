@@ -44,14 +44,6 @@ fQuality
 .
 0f
 ;
-SkTransferFunctionBehavior
-fUnpremulBehavior
-=
-SkTransferFunctionBehavior
-:
-:
-kRespect
-;
 }
 ;
 SK_API

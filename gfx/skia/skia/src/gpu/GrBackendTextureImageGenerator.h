@@ -55,6 +55,7 @@ sk_sp
 <
 GrSemaphore
 >
+SkColorType
 SkAlphaType
 sk_sp
 <
@@ -83,9 +84,6 @@ return
 true
 ;
 }
-#
-if
-SK_SUPPORT_GPU
 TexGenType
 onCanGenerateTexture
 (
@@ -114,14 +112,11 @@ SkImageInfo
 const
 SkIPoint
 &
-SkTransferFunctionBehavior
 bool
 willNeedMipMaps
 )
 override
 ;
-#
-endif
 private
 :
 GrBackendTextureImageGenerator

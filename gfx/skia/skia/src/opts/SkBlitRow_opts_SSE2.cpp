@@ -36,13 +36,6 @@ h
 #
 include
 "
-SkDither
-.
-h
-"
-#
-include
-"
 SkMSAN
 .
 h
@@ -50,7 +43,7 @@ h
 #
 include
 "
-SkUtils
+SkUTF
 .
 h
 "

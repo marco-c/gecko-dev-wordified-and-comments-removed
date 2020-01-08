@@ -333,11 +333,13 @@ serialize
 SkWStream
 *
 )
+const
 ;
 SkFontStyle
 getStyle
 (
 )
+const
 {
 return
 fStyle

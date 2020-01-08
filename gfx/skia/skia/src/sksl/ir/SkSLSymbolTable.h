@@ -7,7 +7,7 @@ SKSL_SYMBOLTABLE
 #
 include
 <
-map
+unordered_map
 >
 #
 include
@@ -147,7 +147,7 @@ markAllFunctionsBuiltin
 std
 :
 :
-map
+unordered_map
 <
 StringFragment
 const
@@ -164,7 +164,7 @@ begin
 std
 :
 :
-map
+unordered_map
 <
 StringFragment
 const
@@ -241,7 +241,7 @@ fOwnedNodes
 std
 :
 :
-map
+unordered_map
 <
 StringFragment
 const

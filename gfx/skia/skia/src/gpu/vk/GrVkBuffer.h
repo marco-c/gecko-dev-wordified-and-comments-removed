@@ -340,10 +340,6 @@ fMapPtr
 (
 nullptr
 )
-fMappedSize
-(
-0
-)
 {
 }
 void
@@ -502,9 +498,6 @@ fOffset
 void
 *
 fMapPtr
-;
-VkDeviceSize
-fMappedSize
 ;
 typedef
 SkNoncopyable

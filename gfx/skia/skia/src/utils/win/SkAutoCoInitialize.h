@@ -21,6 +21,13 @@ SkLeanWindows
 .
 h
 "
+#
+include
+"
+SkNoncopyable
+.
+h
+"
 class
 SkAutoCoInitialize
 :

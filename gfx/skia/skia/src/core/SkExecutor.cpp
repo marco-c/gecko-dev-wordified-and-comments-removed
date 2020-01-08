@@ -58,11 +58,11 @@ SK_BUILD_FOR_WIN
 )
 #
 include
-<
-windows
+"
+SkLeanWindows
 .
 h
->
+"
 static
 int
 num_cores

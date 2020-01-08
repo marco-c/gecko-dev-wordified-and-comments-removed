@@ -108,7 +108,6 @@ GrCaps
 const
 GrAppliedClip
 *
-GrPixelConfigIsClamped
 )
 =
 0

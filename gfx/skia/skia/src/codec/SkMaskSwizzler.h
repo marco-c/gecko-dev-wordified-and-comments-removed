@@ -49,10 +49,8 @@ const
 SkImageInfo
 &
 dstInfo
-const
-SkImageInfo
-&
-srcInfo
+bool
+srcIsOpaque
 SkMasks
 *
 masks
@@ -92,8 +90,6 @@ void
 dst
 size_t
 rowBytes
-uint64_t
-colorOrIndex
 SkCodec
 :
 :
@@ -126,7 +122,6 @@ Fill
 fillInfo
 dst
 rowBytes
-colorOrIndex
 zeroInit
 )
 ;

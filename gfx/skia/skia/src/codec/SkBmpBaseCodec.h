@@ -49,12 +49,8 @@ protected
 :
 SkBmpBaseCodec
 (
-int
-width
-int
-height
-const
 SkEncodedInfo
+&
 &
 info
 std

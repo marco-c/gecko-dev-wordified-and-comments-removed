@@ -932,6 +932,17 @@ cz
 /
 2
 ;
+if
+(
+!
+bz
+)
+{
+bz
+=
+1
+;
+}
 SkDConic
 dst
 =

@@ -292,11 +292,13 @@ return
 nullptr
 ;
 }
-GrGLGetStringProc
+GrGLGetStringFn
+*
 getString
 =
 (
-GrGLGetStringProc
+GrGLGetStringFn
+*
 )
 getter
 .

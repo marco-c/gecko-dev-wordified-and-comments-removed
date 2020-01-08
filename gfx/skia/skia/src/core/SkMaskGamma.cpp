@@ -1,7 +1,7 @@
 #
 include
 "
-SkTypes
+SkMaskGamma
 .
 h
 "
@@ -22,7 +22,14 @@ h
 #
 include
 "
-SkMaskGamma
+SkTo
+.
+h
+"
+#
+include
+"
+SkTypes
 .
 h
 "

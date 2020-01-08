@@ -159,9 +159,7 @@ SkPath
 Iter
 fIter
 ;
-const
 SkPath
-*
 fPath
 ;
 SkScalar
@@ -170,7 +168,7 @@ fTolerance
 SkScalar
 fLength
 ;
-int
+unsigned
 fFirstPtIndex
 ;
 bool
@@ -179,6 +177,17 @@ fIsClosed
 bool
 fForceClosed
 ;
+#
+if
+defined
+(
+IS_FUZZING_WITH_LIBFUZZER
+)
+int
+fSubdivisionsMax
+;
+#
+endif
 struct
 Segment
 {
@@ -249,7 +258,7 @@ int
 mint
 int
 maxt
-int
+unsigned
 ptIndex
 )
 ;
@@ -273,7 +282,7 @@ const
 SkPoint
 &
 maxPt
-int
+unsigned
 ptIndex
 )
 ;
@@ -292,7 +301,7 @@ int
 mint
 int
 maxt
-int
+unsigned
 ptIndex
 )
 ;

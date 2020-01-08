@@ -493,7 +493,6 @@ graph
 >
 swap
 (
-&
 result
 )
 ;

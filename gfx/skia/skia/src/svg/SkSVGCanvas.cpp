@@ -86,10 +86,6 @@ SkCanvas
 >
 (
 device
-.
-get
-(
-)
 )
 ;
 }

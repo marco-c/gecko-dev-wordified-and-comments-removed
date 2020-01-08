@@ -220,7 +220,7 @@ someAssemblyRequired
 (
 )
 ;
-void
+SkPoint
 update
 (
 const

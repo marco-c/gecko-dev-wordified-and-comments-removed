@@ -11,6 +11,13 @@ SkArenaAlloc
 .
 h
 "
+#
+include
+"
+SkTypes
+.
+h
+"
 template
 <
 typename

@@ -97,6 +97,15 @@ SkFrame
 )
 {
 }
+SkFrame
+(
+SkFrame
+&
+&
+)
+=
+default
+;
 int
 frameId
 (

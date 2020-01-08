@@ -80,7 +80,7 @@ SkString
 skname
 )
 ;
-void
+HRESULT
 sk_get_locale_string
 (
 IDWriteLocalizedStrings

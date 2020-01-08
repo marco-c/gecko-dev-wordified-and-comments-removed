@@ -31,7 +31,7 @@ SK_SUPPORT_GPU
 #
 include
 "
-GrTypes
+GrTypesPriv
 .
 h
 "
@@ -134,6 +134,11 @@ sk_sp
 SkColorSpace
 >
 colorSpace
+const
+SkSurfaceProps
+*
+=
+nullptr
 )
 ;
 #

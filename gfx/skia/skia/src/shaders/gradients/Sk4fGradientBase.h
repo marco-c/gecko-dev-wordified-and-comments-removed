@@ -107,7 +107,7 @@ t
 fT1
 ;
 }
-SkPM4f
+SkPMColor4f
 fCb
 fCg
 ;

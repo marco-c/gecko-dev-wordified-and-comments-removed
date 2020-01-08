@@ -37,6 +37,9 @@ class
 GrVkGpu
 ;
 class
+GrVkPipelineLayout
+;
+class
 GrVkUniformBuffer
 ;
 class
@@ -86,6 +89,8 @@ const
 SkIPoint
 &
 dstPoint
+bool
+canDiscardOutsideDstRect
 )
 ;
 void
@@ -129,7 +134,8 @@ GrVkDescriptorSetManager
 Handle
 fSamplerDSHandle
 ;
-VkPipelineLayout
+GrVkPipelineLayout
+*
 fPipelineLayout
 ;
 sk_sp

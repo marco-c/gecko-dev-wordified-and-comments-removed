@@ -145,15 +145,6 @@ options
 .
 fSubset
 ;
-codecOptions
-.
-fPremulBehavior
-=
-SkTransferFunctionBehavior
-:
-:
-kIgnore
-;
 return
 this
 -

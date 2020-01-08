@@ -107,7 +107,7 @@ int
 x
 int
 y
-SkPM4f
+SkPMColor4f
 [
 ]
 int
@@ -117,8 +117,8 @@ override
 ;
 private
 :
-SkPM4f
-fPM4f
+SkPMColor4f
+fPMColor4f
 ;
 SkPMColor
 fPMColor
@@ -163,9 +163,6 @@ override
 ;
 #
 endif
-SK_TO_STRING_OVERRIDE
-(
-)
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
 (
 SkColorShader
@@ -366,7 +363,7 @@ int
 x
 int
 y
-SkPM4f
+SkPMColor4f
 [
 ]
 int
@@ -376,8 +373,8 @@ override
 ;
 private
 :
-SkPM4f
-fPM4f
+SkPMColor4f
+fPMColor4f
 ;
 SkPMColor
 fPMColor
@@ -422,9 +419,6 @@ override
 ;
 #
 endif
-SK_TO_STRING_OVERRIDE
-(
-)
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
 (
 SkColorShader

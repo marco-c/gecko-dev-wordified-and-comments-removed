@@ -62,6 +62,7 @@ char
 SkBlendMode_Name
 (
 SkBlendMode
+blendMode
 )
 ;
 #

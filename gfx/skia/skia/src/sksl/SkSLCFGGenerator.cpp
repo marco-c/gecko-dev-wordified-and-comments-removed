@@ -751,7 +751,7 @@ Node
 kExpression_Kind
 )
 {
-ASSERT
+SkASSERT
 (
 (
 *
@@ -908,7 +908,7 @@ get
 old
 )
 {
-ASSERT
+SkASSERT
 (
 *
 iter
@@ -1068,7 +1068,7 @@ get
 old
 )
 {
-ASSERT
+SkASSERT
 (
 *
 iter
@@ -1525,7 +1525,7 @@ return
 false
 ;
 }
-ASSERT
+SkASSERT
 (
 (
 *
@@ -1814,7 +1814,7 @@ return
 false
 ;
 }
-ASSERT
+SkASSERT
 (
 (
 *
@@ -1901,7 +1901,7 @@ return
 false
 ;
 }
-ASSERT
+SkASSERT
 (
 (
 *
@@ -2449,7 +2449,7 @@ bool
 constantPropagate
 )
 {
-ASSERT
+SkASSERT
 (
 e
 )
@@ -3241,6 +3241,12 @@ case
 Expression
 :
 :
+kAppendStage_Kind
+:
+case
+Expression
+:
+:
 kBoolLiteral_Kind
 :
 case
@@ -3458,7 +3464,7 @@ Expression
 :
 kDefined_Kind
 :
-ASSERT
+SkASSERT
 (
 false
 )
@@ -3682,7 +3688,7 @@ break
 ;
 default
 :
-ASSERT
+SkASSERT
 (
 false
 )

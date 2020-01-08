@@ -577,7 +577,7 @@ return
 S_OK
 ;
 }
-void
+HRESULT
 sk_get_locale_string
 (
 IDWriteLocalizedStrings
@@ -604,7 +604,12 @@ preferedLocale
 {
 BOOL
 nameExists
+=
+FALSE
 ;
+(
+void
+)
 names
 -
 >
@@ -632,7 +637,7 @@ nameIndex
 UINT32
 nameLen
 ;
-HRVM
+HRM
 (
 names
 -
@@ -661,7 +666,7 @@ nameLen
 1
 )
 ;
-HRVM
+HRM
 (
 names
 -
@@ -687,7 +692,7 @@ string
 "
 )
 ;
-HRV
+HR
 (
 sk_wchar_to_skstring
 (
@@ -700,6 +705,9 @@ nameLen
 skname
 )
 )
+;
+return
+S_OK
 ;
 }
 HRESULT

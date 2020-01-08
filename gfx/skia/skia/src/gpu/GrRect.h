@@ -7,6 +7,13 @@ GrRect_DEFINED
 #
 include
 "
+SkTo
+.
+h
+"
+#
+include
+"
 SkTypes
 .
 h

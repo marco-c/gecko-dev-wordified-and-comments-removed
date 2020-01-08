@@ -7,6 +7,13 @@ GrSWMaskHelper_DEFINED
 #
 include
 "
+GrTypesPriv
+.
+h
+"
+#
+include
+"
 SkAutoPixmapStorage
 .
 h

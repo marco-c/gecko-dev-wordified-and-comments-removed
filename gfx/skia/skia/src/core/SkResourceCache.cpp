@@ -1,6 +1,13 @@
 #
 include
 "
+SkResourceCache
+.
+h
+"
+#
+include
+"
 SkDiscardableMemory
 .
 h
@@ -36,7 +43,7 @@ h
 #
 include
 "
-SkResourceCache
+SkTo
 .
 h
 "
@@ -1017,7 +1024,7 @@ SK_DISCARDABLEMEMORY_SCALEDIMAGECACHE_COUNT_LIMIT
 ;
 byteLimit
 =
-SK_MaxU32
+UINT32_MAX
 ;
 }
 else

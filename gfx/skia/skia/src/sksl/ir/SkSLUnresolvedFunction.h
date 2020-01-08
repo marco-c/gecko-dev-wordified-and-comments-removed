@@ -69,7 +69,7 @@ func
 funcs
 )
 {
-ASSERT
+SkASSERT
 (
 func
 -

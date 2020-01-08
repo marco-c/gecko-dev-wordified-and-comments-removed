@@ -52,6 +52,8 @@ GrDrawOp
 >
 MakeAAFill
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -77,6 +79,8 @@ GrDrawOp
 >
 MakeAAFillWithLocalMatrix
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -102,6 +106,8 @@ GrDrawOp
 >
 MakeAAFillWithLocalRect
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -127,6 +133,8 @@ GrDrawOp
 >
 MakeNonAAFill
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -155,6 +163,8 @@ GrDrawOp
 >
 MakeNonAAFillWithLocalMatrix
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -186,6 +196,8 @@ GrDrawOp
 >
 MakeNonAAFillWithLocalRect
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -212,6 +224,8 @@ GrDrawOp
 >
 MakeAAStroke
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -235,6 +249,8 @@ GrDrawOp
 >
 MakeAAFillNestedRects
 (
+GrContext
+*
 GrPaint
 &
 &
@@ -258,6 +274,8 @@ GrDrawOp
 >
 MakeNonAAStroke
 (
+GrContext
+*
 GrPaint
 &
 &

@@ -12,6 +12,13 @@ GrTypes
 h
 "
 #
+include
+"
+SkNoncopyable
+.
+h
+"
+#
 if
 defined
 (
@@ -60,6 +67,11 @@ include
 xlocale
 .
 h
+>
+#
+include
+<
+cstring
 >
 #
 define

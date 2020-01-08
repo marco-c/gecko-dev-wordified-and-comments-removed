@@ -33,7 +33,7 @@ fIndex
 =
 0
 ;
-ASSERT
+SkASSERT
 (
 fStack
 .
@@ -52,7 +52,7 @@ regex
 (
 )
 ;
-ASSERT
+SkASSERT
 (
 fStack
 .
@@ -64,7 +64,7 @@ size
 1
 )
 ;
-ASSERT
+SkASSERT
 (
 fIndex
 =
@@ -830,7 +830,7 @@ pop
 (
 )
 ;
-ASSERT
+SkASSERT
 (
 end
 .
@@ -853,7 +853,7 @@ pop
 (
 )
 ;
-ASSERT
+SkASSERT
 (
 start
 .
@@ -1157,7 +1157,7 @@ return
 ;
 default
 :
-ASSERT
+SkASSERT
 (
 false
 )

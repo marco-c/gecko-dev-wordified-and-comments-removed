@@ -291,13 +291,11 @@ purge
 ;
 virtual
 void
-purgeByKeys
+purgeByImageFilter
 (
 const
-SkImageFilterCacheKey
-[
-]
-int
+SkImageFilter
+*
 )
 =
 0

@@ -101,6 +101,9 @@ const
 {
 return
 fImage
+!
+=
+nullptr
 ;
 }
 const

@@ -4,6 +4,13 @@ SkSafe32_DEFINED
 #
 define
 SkSafe32_DEFINED
+#
+include
+"
+SkTypes
+.
+h
+"
 static
 constexpr
 int32_t
@@ -27,6 +34,9 @@ SK_MaxS32
 ?
 SK_MaxS32
 :
+(
+int32_t
+)
 x
 )
 ;

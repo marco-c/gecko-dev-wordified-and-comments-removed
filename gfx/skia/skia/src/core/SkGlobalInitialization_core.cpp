@@ -43,7 +43,7 @@ h
 #
 include
 "
-SkFlattenable
+SkFlattenablePriv
 .
 h
 "
@@ -172,6 +172,10 @@ SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
 SkRecordedDrawable
 )
 InitEffects
+(
+)
+;
+InitImageFilters
 (
 )
 ;

@@ -14,6 +14,13 @@ h
 #
 include
 "
+SkPaint
+.
+h
+"
+#
+include
+"
 SkTLazy
 .
 h
@@ -111,7 +118,6 @@ SkImageInfo
 const
 SkIPoint
 &
-SkTransferFunctionBehavior
 bool
 willNeedMipMaps
 )

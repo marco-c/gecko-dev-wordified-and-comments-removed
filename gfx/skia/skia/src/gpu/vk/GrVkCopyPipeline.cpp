@@ -262,7 +262,7 @@ VkPipelineColorBlendAttachmentState
 attachmentState
 =
 {
-VK_TRUE
+VK_FALSE
 VK_BLEND_FACTOR_ONE
 VK_BLEND_FACTOR_ZERO
 VK_BLEND_OP_ADD

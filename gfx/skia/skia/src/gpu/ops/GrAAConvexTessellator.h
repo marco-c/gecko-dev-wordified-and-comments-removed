@@ -1200,6 +1200,11 @@ computeBisectors
 )
 ;
 void
+computeNormals
+(
+)
+;
+void
 fanRing
 (
 const

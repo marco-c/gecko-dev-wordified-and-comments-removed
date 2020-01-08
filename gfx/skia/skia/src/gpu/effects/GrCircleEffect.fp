@@ -504,15 +504,9 @@ kHairlineAA
 {
 d
 =
-clamp
+saturate
 (
 d
-0
-.
-0
-1
-.
-0
 )
 ;
 }

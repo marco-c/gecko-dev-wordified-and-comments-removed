@@ -470,6 +470,17 @@ tValues
 nullptr
 )
 ;
+SkScalar
+SkFindCubicCusp
+(
+const
+SkPoint
+src
+[
+4
+]
+)
+;
 bool
 SkChopMonoCubicAtX
 (

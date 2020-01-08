@@ -2533,7 +2533,7 @@ bool
 TestDashPathEffect
 :
 :
-filterPath
+onFilterPath
 (
 SkPath
 *
@@ -2581,7 +2581,7 @@ DashType
 TestDashPathEffect
 :
 :
-asADash
+onAsADash
 (
 DashInfo
 *
@@ -2832,12 +2832,13 @@ srgb
 get
 (
 )
-kSRGBA_8888_GrPixelConfig
+kPremul_SkAlphaType
 spin
 .
 get
 (
 )
+kPremul_SkAlphaType
 )
 ;
 gXforms
@@ -2855,12 +2856,13 @@ spin
 get
 (
 )
-kRGBA_8888_GrPixelConfig
+kPremul_SkAlphaType
 srgb
 .
 get
 (
 )
+kPremul_SkAlphaType
 )
 ;
 }
@@ -2936,7 +2938,6 @@ context
 )
 &
 fViewMatrixStorage
-nullptr
 kNone_SkFilterQuality
 fColorSpaceInfoStorage
 .

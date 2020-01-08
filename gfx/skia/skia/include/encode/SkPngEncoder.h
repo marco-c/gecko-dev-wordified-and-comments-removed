@@ -86,14 +86,6 @@ fZLibLevel
 =
 6
 ;
-SkTransferFunctionBehavior
-fUnpremulBehavior
-=
-SkTransferFunctionBehavior
-:
-:
-kRespect
-;
 sk_sp
 <
 SkDataTable

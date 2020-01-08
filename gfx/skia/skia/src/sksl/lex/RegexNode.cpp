@@ -152,7 +152,7 @@ true
 }
 else
 {
-ASSERT
+SkASSERT
 (
 child
 .

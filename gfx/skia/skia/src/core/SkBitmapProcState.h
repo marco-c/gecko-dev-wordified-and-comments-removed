@@ -7,6 +7,13 @@ SkBitmapProcState_DEFINED
 #
 include
 "
+SkArenaAlloc
+.
+h
+"
+#
+include
+"
 SkBitmap
 .
 h
@@ -204,11 +211,11 @@ kBMStateSize
 136
 }
 ;
-SkAlignedSStorage
+SkSTArenaAlloc
 <
 kBMStateSize
 >
-fBMStateStorage
+fAlloc
 ;
 SkBitmapController
 :

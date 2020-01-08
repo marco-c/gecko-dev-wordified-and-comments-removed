@@ -109,8 +109,6 @@ void
 dst
 size_t
 rowBytes
-uint64_t
-colorOrIndex
 SkCodec
 :
 :
@@ -131,8 +129,6 @@ void
 dst
 size_t
 rowBytes
-uint64_t
-colorOrIndex
 SkCodec
 :
 :

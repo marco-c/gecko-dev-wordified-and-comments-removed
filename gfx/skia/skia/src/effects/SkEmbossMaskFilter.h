@@ -7,6 +7,13 @@ SkEmbossMaskFilter_DEFINED
 #
 include
 "
+SkFlattenablePriv
+.
+h
+"
+#
+include
+"
 SkMaskFilterBase
 .
 h
@@ -85,9 +92,6 @@ margin
 const
 override
 ;
-SK_TO_STRING_OVERRIDE
-(
-)
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
 (
 SkEmbossMaskFilter

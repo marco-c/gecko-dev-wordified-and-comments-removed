@@ -806,8 +806,6 @@ const
 GrCaps
 &
 caps
-GrPixelConfigIsClamped
-dstIsClamped
 )
 ;
 static
@@ -826,7 +824,6 @@ GrProcessorAnalysisCoverage
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 )
 ;
 protected
@@ -856,7 +853,6 @@ hasMixedSamples
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 )
 const
 =
@@ -875,7 +871,6 @@ GrProcessorAnalysisCoverage
 const
 GrCaps
 &
-GrPixelConfigIsClamped
 )
 const
 =

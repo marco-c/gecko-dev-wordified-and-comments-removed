@@ -22,13 +22,6 @@ SkGradientShader
 .
 h
 "
-#
-include
-"
-SkImageSource
-.
-h
-"
 void
 SkFlattenable
 :
@@ -51,11 +44,4 @@ SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
 (
 SkDashImpl
 )
-SkImageFilter
-:
-:
-InitializeFlattenables
-(
-)
-;
 }

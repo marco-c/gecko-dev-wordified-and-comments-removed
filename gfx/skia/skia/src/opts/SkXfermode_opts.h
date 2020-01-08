@@ -872,6 +872,12 @@ zeroAlphas
 undef
 XFERMODE
 #
+if
+defined
+(
+SK_LEGACY_4F_XFERMODES
+)
+#
 define
 XFERMODE
 (
@@ -1439,6 +1445,8 @@ colors
 #
 undef
 XFERMODE
+#
+endif
 template
 <
 typename
@@ -1721,6 +1729,12 @@ Xfermode
 }
 }
 ;
+#
+if
+defined
+(
+SK_LEGACY_4F_XFERMODES
+)
 template
 <
 typename
@@ -1971,6 +1985,8 @@ c
 }
 }
 ;
+#
+endif
 }
 namespace
 SK_OPTS_NS
@@ -2127,6 +2143,12 @@ Lighten
 undef
 CASE
 #
+if
+defined
+(
+SK_LEGACY_4F_XFERMODES
+)
+#
 define
 CASE
 (
@@ -2168,6 +2190,8 @@ SoftLight
 #
 undef
 CASE
+#
+endif
 default
 :
 break

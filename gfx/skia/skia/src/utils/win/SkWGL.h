@@ -503,8 +503,10 @@ SkRefCnt
 public
 :
 static
+sk_sp
+<
 SkWGLPbufferContext
-*
+>
 Create
 (
 HDC

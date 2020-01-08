@@ -77,7 +77,7 @@ SkRect
 &
 queryBounds
 const
-GrShaderCaps
+GrCaps
 *
 caps
 int
@@ -88,10 +88,10 @@ int
 maxAnalyticFPs
 =
 0
-GrCoverageCountingPathRenderer
-*
+int
+maxCCPRClipPaths
 =
-nullptr
+0
 )
 ;
 enum
@@ -328,7 +328,7 @@ GrFragmentProcessor
 >
 finishAndDetachAnalyticFPs
 (
-GrProxyProvider
+GrCoverageCountingPathRenderer
 *
 uint32_t
 opListID
@@ -449,7 +449,7 @@ makeEmpty
 )
 ;
 const
-GrShaderCaps
+GrCaps
 *
 fCaps
 ;
@@ -461,10 +461,9 @@ const
 int
 fMaxAnalyticFPs
 ;
-GrCoverageCountingPathRenderer
-*
 const
-fCCPR
+int
+fMaxCCPRClipPaths
 ;
 InitialState
 fInitialState

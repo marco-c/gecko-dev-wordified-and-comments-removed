@@ -338,6 +338,10 @@ friend
 class
 GrOpFlushState
 ;
+friend
+class
+TestingUploadTarget
+;
 GrDeferredUploadToken
 issueDrawToken
 (

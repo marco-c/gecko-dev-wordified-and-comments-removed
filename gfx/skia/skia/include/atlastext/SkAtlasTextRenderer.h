@@ -43,8 +43,11 @@ fPosition
 uint32_t
 fColor
 ;
-SkIPoint16
-fTextureCoord
+int16_t
+fTextureCoordX
+;
+int16_t
+fTextureCoordY
 ;
 }
 ;

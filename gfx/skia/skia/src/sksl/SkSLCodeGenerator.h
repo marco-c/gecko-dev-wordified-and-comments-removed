@@ -57,6 +57,14 @@ fOut
 out
 )
 {
+SkASSERT
+(
+program
+-
+>
+fIsOptimized
+)
+;
 }
 virtual
 ~

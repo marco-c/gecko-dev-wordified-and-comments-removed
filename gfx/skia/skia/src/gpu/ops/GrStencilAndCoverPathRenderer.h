@@ -18,6 +18,9 @@ class
 GrGpu
 ;
 class
+GrResourceProvider
+;
+class
 GrStencilAndCoverPathRenderer
 :
 public

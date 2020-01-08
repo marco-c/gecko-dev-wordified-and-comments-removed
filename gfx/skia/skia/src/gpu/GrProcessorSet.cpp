@@ -1176,8 +1176,6 @@ const
 GrCaps
 &
 caps
-GrPixelConfigIsClamped
-dstIsClamped
 GrColor
 *
 overrideInputColor
@@ -1527,7 +1525,6 @@ outputColor
 )
 outputCoverage
 caps
-dstIsClamped
 )
 ;
 if
@@ -1780,7 +1777,6 @@ outputColor
 outputCoverage
 isMixedSamples
 caps
-dstIsClamped
 )
 ;
 fXP

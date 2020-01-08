@@ -7,6 +7,13 @@ GrNonAtomicRef_DEFINED
 #
 include
 "
+SkNoncopyable
+.
+h
+"
+#
+include
+"
 SkRefCnt
 .
 h

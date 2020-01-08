@@ -320,6 +320,12 @@ SkAlphaType
 at
 =
 kPremul_SkAlphaType
+const
+SkSurfaceProps
+*
+props
+=
+nullptr
 )
 const
 ;

@@ -142,6 +142,9 @@ kGeneralPathDomain
 geoCnt
 +
 styleCnt
+"
+Path
+"
 )
 ;
 shape

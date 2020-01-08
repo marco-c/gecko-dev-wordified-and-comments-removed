@@ -7,7 +7,7 @@ SkSharedLock_DEFINED
 #
 include
 "
-SkAtomics
+SkMacros
 .
 h
 "
@@ -25,6 +25,11 @@ SkTypes
 .
 h
 "
+#
+include
+<
+atomic
+>
 #
 ifdef
 SK_DEBUG
@@ -144,7 +149,10 @@ fExclusiveQueue
 ;
 #
 else
-SkAtomic
+std
+:
+:
+atomic
 <
 int32_t
 >

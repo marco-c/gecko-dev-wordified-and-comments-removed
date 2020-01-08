@@ -1038,8 +1038,6 @@ const
 GrCaps
 &
 caps
-GrPixelConfigIsClamped
-dstIsClamped
 )
 const
 {

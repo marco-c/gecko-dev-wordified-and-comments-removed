@@ -60,8 +60,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRRect
 &
@@ -85,8 +83,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRect
 rects
@@ -112,8 +108,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRRect
 &
@@ -140,8 +134,6 @@ SkScalar
 sigma
 SkBlurStyle
 style
-SkBlurQuality
-quality
 const
 SkRect
 rects

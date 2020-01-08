@@ -63,7 +63,7 @@ int
 x
 int
 y
-SkPM4f
+SkPMColor4f
 dst
 [
 ]

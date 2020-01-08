@@ -7,7 +7,7 @@ SkPDFMetadata_DEFINED
 #
 include
 "
-SkDocument
+SkPDFDocument
 .
 h
 "
@@ -24,10 +24,10 @@ SkPDFObject
 MakeDocumentInformationDict
 (
 const
-SkDocument
+SkPDF
 :
 :
-PDFMetadata
+Metadata
 &
 )
 ;
@@ -46,10 +46,10 @@ UUID
 CreateUUID
 (
 const
-SkDocument
+SkPDF
 :
 :
-PDFMetadata
+Metadata
 &
 )
 ;
@@ -76,10 +76,10 @@ SkPDFObject
 MakeXMPObject
 (
 const
-SkDocument
+SkPDF
 :
 :
-PDFMetadata
+Metadata
 &
 const
 UUID

@@ -71,6 +71,8 @@ GrTextureDomain
 :
 Mode
 mode
+SkAlphaType
+at
 SkBackingFit
 fit
 =

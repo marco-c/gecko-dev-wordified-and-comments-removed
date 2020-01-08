@@ -12,9 +12,6 @@ SkTypes
 h
 "
 #
-if
-SK_SUPPORT_GPU
-#
 include
 "
 GrFragmentProcessor
@@ -36,7 +33,9 @@ GrFragmentProcessor
 {
 public
 :
+const
 SkMatrix44
+&
 matrix
 (
 )
@@ -322,10 +321,9 @@ proxy
 this
 -
 >
-addTextureSampler
+setTextureSamplerCnt
 (
-&
-fImage
+1
 )
 ;
 this
@@ -368,6 +366,16 @@ GrFragmentProcessor
 const
 override
 ;
+const
+TextureSampler
+&
+onTextureSampler
+(
+int
+)
+const
+override
+;
 GR_DECLARE_FRAGMENT_PROCESSOR_TEST
 TextureSampler
 fImage
@@ -384,7 +392,5 @@ INHERITED
 ;
 }
 ;
-#
-endif
 #
 endif

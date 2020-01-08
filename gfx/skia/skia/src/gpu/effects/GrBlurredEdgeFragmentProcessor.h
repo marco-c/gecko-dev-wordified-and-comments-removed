@@ -12,9 +12,6 @@ SkTypes
 h
 "
 #
-if
-SK_SUPPORT_GPU
-#
 include
 "
 GrFragmentProcessor
@@ -48,7 +45,9 @@ kSmoothStep
 1
 }
 ;
+const
 Mode
+&
 mode
 (
 )
@@ -184,7 +183,5 @@ INHERITED
 ;
 }
 ;
-#
-endif
 #
 endif

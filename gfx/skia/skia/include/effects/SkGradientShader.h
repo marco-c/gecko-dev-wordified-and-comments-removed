@@ -894,9 +894,12 @@ nullptr
 )
 ;
 }
-SK_DECLARE_FLATTENABLE_REGISTRAR_GROUP
+static
+void
+InitializeFlattenables
 (
 )
+;
 }
 ;
 #

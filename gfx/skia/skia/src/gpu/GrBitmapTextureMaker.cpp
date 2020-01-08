@@ -318,7 +318,6 @@ proxyProvider
 createMipMapProxyFromBitmap
 (
 fBitmap
-dstColorSpace
 )
 ;
 }
@@ -334,7 +333,6 @@ GrUploadBitmapToTextureProxy
 (
 proxyProvider
 fBitmap
-dstColorSpace
 )
 ;
 }
@@ -411,6 +409,12 @@ isValid
 GrInstallBitmapUniqueKeyInvalidator
 (
 fOriginalKey
+proxyProvider
+-
+>
+contextUniqueID
+(
+)
 fBitmap
 .
 pixelRef
@@ -523,6 +527,12 @@ get
 GrInstallBitmapUniqueKeyInvalidator
 (
 fOriginalKey
+proxyProvider
+-
+>
+contextUniqueID
+(
+)
 fBitmap
 .
 pixelRef
@@ -556,9 +566,6 @@ copyParams
 GrUniqueKey
 *
 copyKey
-SkColorSpace
-*
-dstColorSpace
 )
 {
 if
@@ -589,11 +596,14 @@ const
 GrUniqueKey
 &
 copyKey
+uint32_t
+contextUniqueID
 )
 {
 GrInstallBitmapUniqueKeyInvalidator
 (
 copyKey
+contextUniqueID
 fBitmap
 .
 pixelRef

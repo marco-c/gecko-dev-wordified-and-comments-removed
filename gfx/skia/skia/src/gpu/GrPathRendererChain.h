@@ -21,6 +21,13 @@ h
 #
 include
 "
+SkNoncopyable
+.
+h
+"
+#
+include
+"
 SkTypes
 .
 h
@@ -60,7 +67,7 @@ fGpuPathRenderers
 GpuPathRenderers
 :
 :
-kDefault
+kAll
 ;
 }
 ;

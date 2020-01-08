@@ -15,6 +15,7 @@ struct
 SkYUVSizeInfo
 {
 enum
+YUVIndex
 {
 kY
 =

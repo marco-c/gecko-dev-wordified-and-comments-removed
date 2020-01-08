@@ -4,6 +4,13 @@ SkBitmapProcState_utils_DEFINED
 #
 define
 SkBitmapProcState_utils_DEFINED
+#
+include
+"
+SkTo
+.
+h
+"
 static
 inline
 unsigned
@@ -89,7 +96,10 @@ count
 )
 ;
 return
-sk_64_isS32
+SkTFitsIn
+<
+int32_t
+>
 (
 lastFx
 )
@@ -100,7 +110,10 @@ unsigned
 )
 SkFixedFloorToInt
 (
-sk_64_asS32
+SkTo
+<
+int32_t
+>
 (
 lastFx
 )
