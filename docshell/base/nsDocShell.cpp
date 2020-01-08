@@ -55912,17 +55912,6 @@ float
 )
 )
 ;
-if
-(
-!
-*
-aMatrix
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 MOZ_ASSERT
 (
 20

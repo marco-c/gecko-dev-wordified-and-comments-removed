@@ -2412,11 +2412,6 @@ wchar_t
 )
 )
 ;
-if
-(
-buffer
-)
-{
 :
 :
 DragQueryFileW
@@ -2448,14 +2443,6 @@ result
 =
 NS_OK
 ;
-}
-else
-{
-result
-=
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 }
 GlobalUnlock
 (

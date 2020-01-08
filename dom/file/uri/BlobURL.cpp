@@ -914,13 +914,6 @@ nsCID
 )
 )
 ;
-NS_ENSURE_TRUE
-(
-*
-aClassID
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 return
 GetClassIDNoAlloc
 (

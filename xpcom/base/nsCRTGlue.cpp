@@ -548,11 +548,6 @@ CharT
 )
 )
 ;
-if
-(
-newBuf
-)
-{
 memcpy
 (
 newBuf
@@ -575,7 +570,6 @@ aLen
 0
 '
 ;
-}
 return
 newBuf
 ;
@@ -645,11 +639,6 @@ len
 1
 )
 ;
-if
-(
-str
-)
-{
 memcpy
 (
 str
@@ -667,7 +656,6 @@ len
 0
 '
 ;
-}
 return
 str
 ;

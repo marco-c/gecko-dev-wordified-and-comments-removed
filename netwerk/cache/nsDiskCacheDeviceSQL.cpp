@@ -11030,14 +11030,6 @@ char
 )
 )
 ;
-if
-(
-!
-ret
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 for
 (
 uint32_t

@@ -264,12 +264,6 @@ moz_xmalloc
 buf_size
 )
 ;
-NS_ENSURE_TRUE
-(
-buf
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 uint8_t
 *
 out

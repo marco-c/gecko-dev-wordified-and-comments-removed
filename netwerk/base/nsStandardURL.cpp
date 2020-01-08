@@ -5593,11 +5593,6 @@ tailLen
 1
 )
 ;
-if
-(
-result
-)
-{
 memcpy
 (
 result
@@ -5632,7 +5627,6 @@ tailLen
 0
 '
 ;
-}
 return
 result
 ;
@@ -17980,15 +17974,6 @@ sizeof
 nsCID
 )
 )
-;
-if
-(
-!
-*
-aClassID
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 return
 GetClassIDNoAlloc

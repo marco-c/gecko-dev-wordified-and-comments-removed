@@ -1617,17 +1617,6 @@ moz_xmalloc
 allocSize
 )
 ;
-if
-(
-!
-*
-aOutValue
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 switch
 (
 aInType

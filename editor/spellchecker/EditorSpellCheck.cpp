@@ -2179,12 +2179,6 @@ char16_t
 )
 )
 ;
-NS_ENSURE_TRUE
-(
-tmpPtr
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 *
 tmpPtr
 =
@@ -2224,12 +2218,6 @@ dictList
 Length
 (
 )
-)
-;
-NS_ENSURE_TRUE
-(
-tmpPtr
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 *

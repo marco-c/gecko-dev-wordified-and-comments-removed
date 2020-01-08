@@ -950,16 +950,6 @@ uint8_t
 )
 )
 ;
-if
-(
-!
-data
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 memcpy
 (
 data
