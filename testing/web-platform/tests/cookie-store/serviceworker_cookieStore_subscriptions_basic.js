@@ -61,6 +61,7 @@ async
 =
 >
 {
+await
 cookieStore
 .
 subscribeToChanges
@@ -375,7 +376,6 @@ async_cleanup
 )
 =
 >
-{
 cookieStore
 .
 delete
@@ -386,8 +386,6 @@ cookie
 name
 '
 )
-;
-}
 )
 ;
 }
@@ -400,6 +398,15 @@ change
 that
 matches
 subscription
+'
++
+'
+to
+event
+handler
+registered
+with
+addEventListener
 '
 )
 ;

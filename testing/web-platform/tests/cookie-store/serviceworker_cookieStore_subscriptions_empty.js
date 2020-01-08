@@ -61,6 +61,7 @@ async
 =
 >
 {
+await
 cookieStore
 .
 subscribeToChanges

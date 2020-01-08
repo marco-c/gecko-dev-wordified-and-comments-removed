@@ -474,5 +474,9 @@ attribute
 CookieStore
 cookieStore
 ;
+attribute
+EventHandler
+oncookiechange
+;
 }
 ;
