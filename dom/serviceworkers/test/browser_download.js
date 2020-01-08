@@ -540,10 +540,11 @@ function
 (
 )
 {
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 url
 )
 ;
