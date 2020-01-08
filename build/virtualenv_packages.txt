@@ -91,15 +91,6 @@ third_party
 /
 python
 /
-Click
-mozilla
-.
-pth
-:
-third_party
-/
-python
-/
 compare
 -
 locales
