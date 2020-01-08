@@ -4484,6 +4484,11 @@ Range
 webidl
 '
 '
+Reporting
+.
+webidl
+'
+'
 Request
 .
 webidl

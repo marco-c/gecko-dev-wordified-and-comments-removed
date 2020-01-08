@@ -56,5 +56,9 @@ dom_performance_enable_scheduler_timing
 )
 DOM_WEBIDL_PREF
 (
+dom_reporting_enabled
+)
+DOM_WEBIDL_PREF
+(
 javascript_options_streams
 )
