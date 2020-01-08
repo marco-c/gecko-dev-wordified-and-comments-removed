@@ -634,11 +634,6 @@ testframe
 )
 {
 var
-test
-=
-0
-;
-var
 {
 done
 value

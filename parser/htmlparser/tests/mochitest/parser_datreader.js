@@ -80,7 +80,7 @@ n
 ;
 for
 (
-var
+let
 line
 of
 lines
@@ -162,7 +162,7 @@ input
 ;
 for
 (
-var
+let
 line
 of
 lines
@@ -727,7 +727,7 @@ attributes
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -918,7 +918,7 @@ sort
 ;
 for
 (
-var
+let
 i
 =
 0
