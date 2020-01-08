@@ -4768,13 +4768,13 @@ mHasStorageAccess
 (
 false
 )
+#
+ifdef
+DEBUG
 mSerial
 (
 0
 )
-#
-ifdef
-DEBUG
 mSetOpenerWindowCalled
 (
 false
@@ -4826,6 +4826,9 @@ IsFrozen
 )
 )
 ;
+#
+ifdef
+DEBUG
 mSerial
 =
 nsContentUtils
@@ -4835,9 +4838,6 @@ InnerOrOuterWindowCreated
 (
 )
 ;
-#
-ifdef
-DEBUG
 if
 (
 !
