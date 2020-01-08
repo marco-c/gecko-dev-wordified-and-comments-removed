@@ -527,7 +527,7 @@ wait_for_pings
 (
 self
 action_func
-ping_filter_func
+ping_filter
 count
 )
 :
@@ -612,7 +612,7 @@ p
 in
 new_pings
 if
-ping_filter_func
+ping_filter
 (
 p
 )
