@@ -671,9 +671,6 @@ printf_stderr
 "
 event
 regions
-:
-%
-s
 override
 :
 0x
@@ -682,14 +679,6 @@ x
 \
 n
 "
-Stringify
-(
-mEventRegions
-)
-.
-c_str
-(
-)
 mEventRegionsOverride
 )
 ;
