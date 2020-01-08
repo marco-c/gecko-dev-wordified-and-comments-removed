@@ -187,6 +187,9 @@ webconsole
 '
 webide
 '
+'
+webreplay
+'
 ]
 JAR_MANIFESTS
 +
