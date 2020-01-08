@@ -306,16 +306,6 @@ aLocalName
 )
 {
 const
-nsString
-&
-qName
-=
-PromiseFlatString
-(
-aName
-)
-;
-const
 char16_t
 *
 colon
@@ -328,7 +318,7 @@ XMLUtils
 :
 isValidQName
 (
-qName
+aName
 &
 colon
 )
@@ -353,7 +343,7 @@ char16_t
 *
 end
 ;
-qName
+aName
 .
 EndReading
 (
@@ -367,9 +357,9 @@ NS_Atomize
 (
 Substring
 (
-qName
+aName
 .
-get
+BeginReading
 (
 )
 colon
@@ -430,7 +420,7 @@ XMLUtils
 isWhitespace
 (
 const
-nsString
+nsAString
 &
 aText
 )
@@ -614,7 +604,7 @@ XMLUtils
 isValidQName
 (
 const
-nsString
+nsAString
 &
 aQName
 const

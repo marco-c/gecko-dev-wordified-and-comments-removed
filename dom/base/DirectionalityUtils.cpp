@@ -4672,12 +4672,9 @@ dir
 =
 GetDirectionFromText
 (
-PromiseFlatString
-(
 value
-)
 .
-get
+BeginReading
 (
 )
 value

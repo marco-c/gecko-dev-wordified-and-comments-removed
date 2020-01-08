@@ -6320,10 +6320,7 @@ rv
 =
 ParseURL
 (
-PromiseFlatString
-(
 aURL
-)
 )
 ;
 NS_ENSURE_SUCCESS

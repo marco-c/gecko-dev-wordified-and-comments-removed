@@ -1960,10 +1960,7 @@ aId
 )
 mName
 (
-PromiseFlatString
-(
 aName
-)
 )
 mMetadata
 (
