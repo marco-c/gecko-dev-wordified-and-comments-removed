@@ -12692,9 +12692,11 @@ this
 .
 walker
 .
-getNodeActorFromObjectActor
+gripToNodeFront
 (
+{
 nodeActor
+}
 )
 ;
 if
