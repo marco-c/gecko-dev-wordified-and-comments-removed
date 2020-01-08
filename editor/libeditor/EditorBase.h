@@ -2587,6 +2587,7 @@ Element
 >
 CreateHTMLContent
 (
+const
 nsAtom
 *
 aTag

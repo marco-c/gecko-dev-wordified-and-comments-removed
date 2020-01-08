@@ -18967,6 +18967,7 @@ EditorBase
 :
 CreateHTMLContent
 (
+const
 nsAtom
 *
 aTag
