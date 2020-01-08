@@ -10,6 +10,12 @@ mozilla
 namespace
 dom
 {
+extern
+const
+char16_t
+*
+kLocalStorageType
+;
 bool
 NextGenLocalStorageEnabled
 (

@@ -24,6 +24,16 @@ gNextGenLocalStorageEnabled
 )
 ;
 }
+const
+char16_t
+*
+kLocalStorageType
+=
+u
+"
+localStorage
+"
+;
 bool
 NextGenLocalStorageEnabled
 (

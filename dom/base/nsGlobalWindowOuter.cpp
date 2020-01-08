@@ -152,6 +152,17 @@ mozilla
 /
 dom
 /
+LSObject
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Storage
 .
 h
