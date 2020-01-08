@@ -253,8 +253,9 @@ index
 void
 *
 code
+const
 Instance
-&
+*
 instance
 )
 ;
@@ -263,6 +264,15 @@ setNull
 (
 uint32_t
 index
+)
+;
+void
+copy
+(
+uint32_t
+dstIndex
+uint32_t
+srcIndex
 )
 ;
 uint32_t
