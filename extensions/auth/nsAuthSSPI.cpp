@@ -2262,10 +2262,7 @@ else
 *
 outToken
 =
-nsMemory
-:
-:
-Clone
+moz_xmemdup
 (
 ib
 [
@@ -2290,15 +2287,6 @@ ib
 .
 pvBuffer
 )
-;
-if
-(
-!
-*
-outToken
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 *

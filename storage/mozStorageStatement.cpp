@@ -3014,10 +3014,7 @@ size
 {
 blob
 =
-nsMemory
-:
-:
-Clone
+moz_xmemdup
 (
 :
 :
@@ -3027,12 +3024,6 @@ mDBStatement
 aIndex
 )
 size
-)
-;
-NS_ENSURE_TRUE
-(
-blob
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
