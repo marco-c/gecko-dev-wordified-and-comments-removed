@@ -2405,6 +2405,7 @@ def
 prune_final_dir_for_clang_tidy
 (
 final_dir
+osx_cross_compile
 )
 :
     
@@ -2664,9 +2665,7 @@ clang
 continue
         
 if
-is_darwin
-(
-)
+osx_cross_compile
 and
 name
 =
@@ -5236,6 +5235,7 @@ final_stage_dir
 clang
 "
 )
+osx_cross_compile
 )
         
 package_name
