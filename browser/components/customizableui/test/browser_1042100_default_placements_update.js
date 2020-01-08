@@ -13,7 +13,9 @@ CustomizableUI
 addWidgetToArea
 (
 "
-feed
+save
+-
+page
 -
 button
 "
