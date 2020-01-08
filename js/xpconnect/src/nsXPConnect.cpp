@@ -675,6 +675,13 @@ InitSingletonScopes
 (
 )
 ;
+mozJSComponentLoader
+:
+:
+InitStatics
+(
+)
+;
 }
 void
 nsXPConnect
@@ -705,6 +712,13 @@ cnt
 )
 ;
 }
+mozJSComponentLoader
+:
+:
+Shutdown
+(
+)
+;
 }
 XPCJSRuntime
 *
