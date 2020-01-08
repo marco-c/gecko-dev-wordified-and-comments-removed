@@ -182,15 +182,6 @@ always
 "
 no
 -
-sequences
-"
-:
-"
-error
-"
-"
-no
--
 template
 -
 curly

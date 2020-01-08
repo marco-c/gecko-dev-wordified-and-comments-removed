@@ -584,15 +584,6 @@ off
 "
 no
 -
-sequences
-"
-:
-"
-error
-"
-"
-no
--
 shadow
 "
 :
