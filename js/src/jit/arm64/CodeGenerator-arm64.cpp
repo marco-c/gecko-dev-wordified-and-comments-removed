@@ -5761,6 +5761,13 @@ bind
 invalidate_
 )
 ;
+masm
+.
+push
+(
+lr
+)
+;
 invalidateEpilogueData_
 =
 masm
