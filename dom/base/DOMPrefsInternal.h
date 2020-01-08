@@ -58,17 +58,3 @@ DOM_WEBIDL_PREF
 (
 dom_performance_enable_scheduler_timing
 )
-DOM_UINT32_PREF
-(
-WorkerCancelingTimeoutMillis
-"
-dom
-.
-worker
-.
-canceling
-.
-timeoutMilliseconds
-"
-30000
-)
