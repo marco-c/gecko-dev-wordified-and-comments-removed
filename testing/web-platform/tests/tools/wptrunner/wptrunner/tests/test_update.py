@@ -281,6 +281,7 @@ logs
 )
 :
     
+id_test_map
 updater
 =
 create_updater
@@ -309,14 +310,40 @@ log
 )
     
 return
+list
+(
 metadata
 .
-coalesce_results
+update_results
 (
-updater
-.
 id_test_map
+                                        
+[
+"
+debug
+"
+"
+os
+"
+"
+version
+"
+"
+processor
+"
+"
+bits
+"
+]
+                                        
+[
+"
+debug
+"
+]
+                                        
 False
+)
 )
 def
 create_updater
@@ -381,6 +408,18 @@ in
 tests
 :
         
+tests
+=
+list
+(
+m
+.
+iterpath
+(
+test_path
+)
+)
+        
 if
 isinstance
 (
@@ -398,7 +437,21 @@ test_ids
 test_ids
 ]
         
-expected
+test_data
+=
+metadata
+.
+TestFileData
+(
+m
+None
+test_path
+tests
+)
+        
+test_data
+.
+_expected
 =
 manifestupdate
 .
@@ -408,7 +461,9 @@ BytesIO
 (
 manifest_str
 )
+                                                     
 test_path
+                                                     
 url_base
 )
         
@@ -423,15 +478,10 @@ id_test_map
 test_id
 ]
 =
-metadata
-.
-TestItem
-(
-m
-expected
-)
+test_data
     
 return
+id_test_map
 metadata
 .
 ExpectedUpdater
@@ -666,8 +716,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 "
@@ -812,7 +860,7 @@ OK
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -823,23 +871,20 @@ log
 assert
 len
 (
-id_test_map
+updated
 )
 =
 =
 1
     
 assert
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
 .
 is_empty
 def
@@ -873,8 +918,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -983,7 +1026,7 @@ OK
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -993,16 +1036,13 @@ log
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -1035,6 +1075,156 @@ expected
 FAIL
 "
 def
+test_skip_0
+(
+)
+:
+    
+test_id
+=
+"
+/
+path
+/
+to
+/
+test
+.
+htm
+"
+    
+tests
+=
+[
+(
+"
+path
+/
+to
+/
+test
+.
+htm
+"
+[
+test_id
+]
+"
+testharness
+"
+              
+"
+"
+"
+[
+test
+.
+htm
+]
+  
+[
+test1
+]
+    
+expected
+:
+FAIL
+"
+"
+"
+)
+]
+    
+log
+=
+suite_log
+(
+[
+(
+"
+test_start
+"
+{
+"
+test
+"
+:
+test_id
+}
+)
+                     
+(
+"
+test_status
+"
+{
+"
+test
+"
+:
+test_id
+                                      
+"
+subtest
+"
+:
+"
+test1
+"
+                                      
+"
+status
+"
+:
+"
+FAIL
+"
+                                      
+"
+expected
+"
+:
+"
+FAIL
+"
+}
+)
+                     
+(
+"
+test_end
+"
+{
+"
+test
+"
+:
+test_id
+                                   
+"
+status
+"
+:
+"
+OK
+"
+}
+)
+]
+)
+    
+updated
+=
+update
+(
+tests
+log
+)
+    
+assert
+not
+updated
+def
 test_new_subtest
 (
 )
@@ -1065,8 +1255,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -1211,7 +1399,7 @@ OK
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -1221,16 +1409,13 @@ log
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -1318,8 +1503,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -1539,7 +1722,7 @@ linux
 }
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -1550,16 +1733,13 @@ log_1
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -1677,8 +1857,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -1898,7 +2076,7 @@ linux
 }
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -1909,16 +2087,13 @@ log_1
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -2076,8 +2251,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -2297,7 +2470,7 @@ osx
 }
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -2308,16 +2481,13 @@ log_1
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -2435,8 +2605,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -2673,7 +2841,7 @@ osx
 }
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -2684,16 +2852,13 @@ log_1
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -2811,8 +2976,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -3049,7 +3212,7 @@ windows
 }
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -3060,16 +3223,13 @@ log_1
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -3187,8 +3347,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -3294,7 +3452,7 @@ OK
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -3304,16 +3462,13 @@ log_0
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -3391,8 +3546,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -3498,7 +3651,7 @@ OK
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -3508,16 +3661,13 @@ log_0
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -3594,8 +3744,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -3701,7 +3849,7 @@ OK
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -3709,64 +3857,9 @@ tests
 log_0
 )
     
-new_manifest
-=
-id_test_map
-.
-popitem
-(
-)
-[
-1
-]
-.
-expected
-    
 assert
 not
-new_manifest
-.
-is_empty
-    
-assert
-new_manifest
-.
-get_test
-(
-test_id
-)
-.
-get
-(
-"
-max
--
-asserts
-"
-)
-=
-=
-4
-    
-assert
-new_manifest
-.
-get_test
-(
-test_id
-)
-.
-get
-(
-"
-min
--
-asserts
-"
-)
-=
-=
-2
+updated
 def
 test_update_assertion_count_3
 (
@@ -3798,8 +3891,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -4001,7 +4092,7 @@ linux
 }
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -4012,16 +4103,13 @@ log_1
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -4099,8 +4187,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -4290,7 +4376,7 @@ linux
 }
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -4301,16 +4387,13 @@ log_1
     
 new_manifest
 =
-id_test_map
-.
-popitem
-(
-)
+updated
+[
+0
+]
 [
 1
 ]
-.
-expected
     
 assert
 not
@@ -4399,8 +4482,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -4419,8 +4500,6 @@ path
 to
 /
 __dir__
-.
-ini
 "
 [
 dir_id
@@ -4469,7 +4548,7 @@ bar
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -4479,12 +4558,13 @@ log_0
     
 new_manifest
 =
-id_test_map
+updated
 [
-dir_id
+0
 ]
-.
-expected
+[
+1
+]
     
 assert
 not
@@ -4551,8 +4631,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -4571,8 +4649,6 @@ path
 to
 /
 __dir__
-.
-ini
 "
 [
 dir_id
@@ -4663,7 +4739,7 @@ foobar
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -4673,12 +4749,13 @@ log_0
     
 new_manifest
 =
-id_test_map
+updated
 [
-dir_id
+0
 ]
-.
-expected
+[
+1
+]
     
 assert
 not
@@ -4748,8 +4825,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -4766,8 +4841,6 @@ testharness
 path
 /
 __dir__
-.
-ini
 "
 [
 "
@@ -4799,8 +4872,6 @@ path
 to
 /
 __dir__
-.
-ini
 "
 [
 dir_id
@@ -4890,7 +4961,7 @@ foobar
 ]
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -4900,12 +4971,13 @@ log_0
     
 new_manifest
 =
-id_test_map
+updated
 [
-dir_id
+0
 ]
-.
-expected
+[
+1
+]
     
 assert
 not
@@ -4972,8 +5044,6 @@ to
 test
 .
 htm
-.
-ini
 "
 [
 test_id
@@ -4992,8 +5062,6 @@ path
 to
 /
 __dir__
-.
-ini
 "
 [
 dir_id
@@ -5104,7 +5172,7 @@ linux
 }
 )
     
-id_test_map
+updated
 =
 update
 (
@@ -5115,12 +5183,13 @@ log_1
     
 new_manifest
 =
-id_test_map
+updated
 [
-dir_id
+0
 ]
-.
-expected
+[
+1
+]
     
 assert
 not
