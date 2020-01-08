@@ -1005,6 +1005,11 @@ ContentSearch
 jsm
 '
 '
+Discovery
+.
+jsm
+'
+'
 ExtensionsUI
 .
 jsm
