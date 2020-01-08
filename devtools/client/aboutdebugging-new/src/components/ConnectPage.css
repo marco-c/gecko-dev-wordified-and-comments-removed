@@ -65,6 +65,10 @@ connect
 -
 page__section__icon
 {
+fill
+:
+currentColor
+;
 height
 :
 32px
@@ -80,5 +84,14 @@ end
 width
 :
 32px
+;
+-
+moz
+-
+context
+-
+properties
+:
+fill
 ;
 }
