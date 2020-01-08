@@ -171,7 +171,6 @@ uint32_t
 int64_t
 uint64_t
 nsCString
-nsString
 bool
 OpenFileNameIPC
 OpenFileNameRetIPC
@@ -197,7 +196,6 @@ uint32_t
 int64_t
 uint64_t
 nsCString
-nsString
 bool
 >
 IpdlTupleElement
