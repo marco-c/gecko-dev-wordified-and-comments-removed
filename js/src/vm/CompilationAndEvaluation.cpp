@@ -3343,8 +3343,15 @@ filename
 1
 )
 ;
+MOZ_ASSERT
+(
+options
+.
+utf8
+)
+;
 return
-Evaluate
+EvaluateUtf8
 (
 cx
 options

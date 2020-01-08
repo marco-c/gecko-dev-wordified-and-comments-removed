@@ -330,6 +330,13 @@ line0
 1
 )
 ;
+opts
+.
+setUTF8
+(
+true
+)
+;
 JS
 :
 :
@@ -348,7 +355,7 @@ cx
 JS
 :
 :
-Evaluate
+EvaluateUtf8
 (
 cx
 opts

@@ -485,7 +485,7 @@ exec
 const
 char
 *
-bytes
+utf8
 const
 char
 *
@@ -500,7 +500,7 @@ execDontReport
 const
 char
 *
-bytes
+utf8
 const
 char
 *
@@ -543,7 +543,7 @@ evaluate
 const
 char
 *
-bytes
+utf8
 const
 char
 *

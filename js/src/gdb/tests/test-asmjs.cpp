@@ -230,6 +230,13 @@ line0
 ;
 opts
 .
+setUTF8
+(
+true
+)
+;
+opts
+.
 asmJSOption
 =
 JS
@@ -258,7 +265,10 @@ false
 ;
 ok
 =
-Evaluate
+JS
+:
+:
+EvaluateUtf8
 (
 cx
 opts
