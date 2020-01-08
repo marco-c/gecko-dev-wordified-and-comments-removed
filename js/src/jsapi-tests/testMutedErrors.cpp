@@ -565,6 +565,17 @@ cx
 global
 )
 ;
+CHECK
+(
+JS
+:
+:
+InitRealmStandardClasses
+(
+cx
+)
+)
+;
 JS
 :
 :
