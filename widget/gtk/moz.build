@@ -647,6 +647,12 @@ LOCAL_INCLUDES
 /
 layout
 /
+base
+'
+'
+/
+layout
+/
 generic
 '
 '
