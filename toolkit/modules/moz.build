@@ -1354,6 +1354,11 @@ AsyncPrefs
 jsm
 '
 '
+AutoCompletePopupContent
+.
+jsm
+'
+'
 AutoScrollController
 .
 jsm
