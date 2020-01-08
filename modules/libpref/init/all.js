@@ -11265,7 +11265,7 @@ ipc
 .
 security
 "
-false
+true
 )
 ;
 pref
