@@ -499,6 +499,11 @@ Observer
 h
 '
 '
+PerfectHash
+.
+h
+'
+'
 SimpleEnumerator
 .
 h
