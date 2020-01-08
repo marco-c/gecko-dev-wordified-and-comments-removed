@@ -3,7 +3,7 @@ sidebar
 -
 fixed
 -
-item
+item__container
 {
 align
 -
@@ -35,6 +35,11 @@ font
 size
 :
 16px
+;
+height
+:
+100
+%
 ;
 }
 .
