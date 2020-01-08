@@ -134,6 +134,9 @@ Array
 AString
 >
 resourceIds
+in
+bool
+aEager
 )
 ;
 unsigned

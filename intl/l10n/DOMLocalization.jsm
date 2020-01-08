@@ -1500,12 +1500,16 @@ L10NARGS_ATTR_NAME
 }
 onChange
 (
+eager
+=
+false
 )
 {
 super
 .
 onChange
 (
+eager
 )
 ;
 this
