@@ -1285,6 +1285,13 @@ cleanup
 =
 >
 {
+if
+(
+this
+.
+_transport
+)
+{
 this
 .
 _transport
@@ -1293,6 +1300,7 @@ close
 (
 )
 ;
+}
 this
 .
 _transport
