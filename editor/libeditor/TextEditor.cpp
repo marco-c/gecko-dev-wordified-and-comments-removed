@@ -1897,7 +1897,7 @@ PreventDefault
 )
 ;
 return
-OnInputParagraphSeparator
+InsertParagraphSeparatorAsAction
 (
 )
 ;
@@ -2023,7 +2023,7 @@ nsresult
 TextEditor
 :
 :
-OnInputParagraphSeparator
+InsertParagraphSeparatorAsAction
 (
 )
 {
@@ -2070,7 +2070,7 @@ TypingTxnName
 nsresult
 rv
 =
-InsertParagraphSeparatorAsAction
+InsertParagraphSeparatorAsSubAction
 (
 )
 ;
@@ -5078,8 +5078,15 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
+AutoPlaceholderBatch
+treatAsOneTransaction
+(
+*
+this
+)
+;
 return
-InsertParagraphSeparatorAsAction
+InsertParagraphSeparatorAsSubAction
 (
 )
 ;
@@ -5088,7 +5095,7 @@ nsresult
 TextEditor
 :
 :
-InsertParagraphSeparatorAsAction
+InsertParagraphSeparatorAsSubAction
 (
 )
 {
@@ -5116,13 +5123,6 @@ TextEditRules
 rules
 (
 mRules
-)
-;
-AutoPlaceholderBatch
-treatAsOneTransaction
-(
-*
-this
 )
 ;
 AutoTopLevelEditSubActionNotifier
