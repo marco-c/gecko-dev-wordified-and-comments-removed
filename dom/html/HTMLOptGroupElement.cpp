@@ -156,16 +156,6 @@ false
 ;
 if
 (
-IsDisabled
-(
-)
-)
-{
-return
-;
-}
-if
-(
 nsIFrame
 *
 frame

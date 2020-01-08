@@ -415,8 +415,9 @@ IsDisabledForEvents
 mozilla
 :
 :
-EventMessage
-aMessage
+WidgetEvent
+*
+aEvent
 )
 {
 return
