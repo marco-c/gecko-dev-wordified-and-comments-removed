@@ -1316,6 +1316,10 @@ args
 '
 unzip
 '
+'
+-
+o
+'
 str
 (
 path

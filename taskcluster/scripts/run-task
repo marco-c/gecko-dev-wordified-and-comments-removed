@@ -5637,6 +5637,8 @@ revision
 )
 return
 1
+try
+:
 fetches
 =
 os
@@ -5656,8 +5658,6 @@ fetch_artifacts
 (
 fetches
 )
-try
-:
 return
 run_and_prefix_output
 (
