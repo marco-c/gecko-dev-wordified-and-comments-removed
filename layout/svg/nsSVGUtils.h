@@ -700,15 +700,6 @@ aFrame
 )
 ;
 static
-void
-NotifyAncestorsOfFilterRegionChange
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 Size
 GetContextSize
 (
