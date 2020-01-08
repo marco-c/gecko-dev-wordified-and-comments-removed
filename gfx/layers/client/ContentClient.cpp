@@ -1616,6 +1616,9 @@ if
 aPaintState
 .
 mAsyncTask
+&
+&
+mBuffer
 )
 {
 aPaintState
