@@ -630,8 +630,7 @@ NS_IsMainThread
 ;
 if
 (
-NS_FAILED
-(
+!
 win
 -
 >
@@ -640,7 +639,6 @@ HandleScriptError
 init
 &
 status
-)
 )
 )
 {
@@ -1734,8 +1732,7 @@ NS_IsMainThread
 ;
 if
 (
-NS_FAILED
-(
+!
 win
 -
 >
@@ -1744,7 +1741,6 @@ HandleScriptError
 init
 &
 status
-)
 )
 )
 {

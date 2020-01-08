@@ -8931,9 +8931,6 @@ WindowAction
 >
 windowActions
 ;
-nsresult
-rv
-;
 for
 (
 size_t
@@ -9365,8 +9362,9 @@ status
 =
 nsEventStatus_eIgnore
 ;
-rv
-=
+if
+(
+!
 sgo
 -
 >
@@ -9376,13 +9374,6 @@ init
 &
 status
 )
-;
-if
-(
-NS_FAILED
-(
-rv
-)
 )
 {
 ThrowAndReport
@@ -9390,7 +9381,7 @@ ThrowAndReport
 windowAction
 .
 mWindow
-rv
+NS_ERROR_UNEXPECTED
 )
 ;
 continue
