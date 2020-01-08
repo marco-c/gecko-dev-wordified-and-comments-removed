@@ -505,10 +505,6 @@ expression
 if
 (
 mapResult
-!
-=
-=
-null
 )
 {
 expression
