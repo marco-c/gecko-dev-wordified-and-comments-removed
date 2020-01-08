@@ -60,17 +60,12 @@ export
 type
 QuickOpenType
 =
-|
 "
 sources
 "
 |
 "
 functions
-"
-|
-"
-variables
 "
 |
 "

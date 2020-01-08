@@ -108,6 +108,7 @@ import
 type
 {
 SymbolDeclaration
+IdentifierDeclaration
 }
 from
 "
@@ -487,12 +488,6 @@ FormattedSymbolDeclarations
 =
 {
 |
-variables
-:
-Array
-<
-QuickOpenResult
->
 functions
 :
 Array
@@ -509,6 +504,8 @@ formatSymbol
 symbol
 :
 SymbolDeclaration
+|
+IdentifierDeclaration
 )
 :
 QuickOpenResult
