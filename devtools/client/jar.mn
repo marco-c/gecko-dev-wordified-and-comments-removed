@@ -2033,11 +2033,11 @@ skin
 /
 images
 /
+aboutdebugging
+-
 firefox
 -
 logo
--
-glyph
 .
 svg
 (
@@ -2045,11 +2045,11 @@ themes
 /
 images
 /
+aboutdebugging
+-
 firefox
 -
 logo
--
-glyph
 .
 svg
 )
