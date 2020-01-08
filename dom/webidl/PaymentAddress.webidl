@@ -218,11 +218,6 @@ sortingCode
 readonly
 attribute
 DOMString
-languageCode
-;
-readonly
-attribute
-DOMString
 organization
 ;
 readonly

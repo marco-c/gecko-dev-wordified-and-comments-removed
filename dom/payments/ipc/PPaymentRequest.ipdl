@@ -471,9 +471,6 @@ nsString
 sortingCode
 ;
 nsString
-languageCode
-;
-nsString
 organization
 ;
 nsString

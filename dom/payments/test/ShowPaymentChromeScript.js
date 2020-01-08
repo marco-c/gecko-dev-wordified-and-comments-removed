@@ -230,9 +230,6 @@ locality
 123456
 "
 "
-en
-"
-"
 Testing
 Org
 "

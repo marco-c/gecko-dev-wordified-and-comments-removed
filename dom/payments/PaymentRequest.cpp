@@ -4672,10 +4672,6 @@ aSortingCode
 const
 nsAString
 &
-aLanguageCode
-const
-nsAString
-&
 aOrganization
 const
 nsAString
@@ -4708,7 +4704,6 @@ aCity
 aDependentLocality
 aPostalCode
 aSortingCode
-aLanguageCode
 EmptyString
 (
 )
@@ -4735,7 +4730,6 @@ aCity
 aDependentLocality
 aPostalCode
 aSortingCode
-aLanguageCode
 aOrganization
 aRecipient
 aPhone

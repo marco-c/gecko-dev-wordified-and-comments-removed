@@ -508,13 +508,6 @@ sortingCode
 "
 1234
 "
-languageCode
-:
-"
-en
--
-CA
-"
 organization
 :
 "

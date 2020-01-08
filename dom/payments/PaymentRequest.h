@@ -553,10 +553,6 @@ aSortingCode
 const
 nsAString
 &
-aLanguageCode
-const
-nsAString
-&
 aOrganization
 const
 nsAString

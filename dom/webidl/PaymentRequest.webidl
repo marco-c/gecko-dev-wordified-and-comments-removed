@@ -286,9 +286,6 @@ DOMString
 dependentLocality
 ;
 DOMString
-languageCode
-;
-DOMString
 organization
 ;
 DOMString

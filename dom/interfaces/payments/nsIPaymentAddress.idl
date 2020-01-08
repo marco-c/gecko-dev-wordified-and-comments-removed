@@ -162,11 +162,6 @@ sortingCode
 readonly
 attribute
 AString
-languageCode
-;
-readonly
-attribute
-AString
 organization
 ;
 readonly
@@ -203,9 +198,6 @@ aPostalCode
 in
 AString
 aSortingCode
-in
-AString
-aLanguageCode
 in
 AString
 aOrganization
