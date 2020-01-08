@@ -1,5 +1,4 @@
-:
-root
+html
 {
 height
 :
@@ -689,9 +688,7 @@ cancel
 {
 margin
 -
-inline
--
-start
+left
 :
 auto
 ;
