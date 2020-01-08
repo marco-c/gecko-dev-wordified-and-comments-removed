@@ -1362,13 +1362,6 @@ bool
 done
 )
 ;
-bool
-IsPropertyIterator
-(
-HandleValue
-v
-)
-;
 enum
 class
 IteratorKind
