@@ -1562,6 +1562,7 @@ maybePreliminaryObjectsDontCheckGeneration
 ;
 }
 struct
+MOZ_RAII
 AutoEnterAnalysis
 {
 UniquePtr
@@ -1770,15 +1771,11 @@ types
 activeAnalysis
 )
 {
-MOZ_RELEASE_ASSERT
-(
-!
-zone
--
->
-types
+oom
 .
-sweepingTypes
+emplace
+(
+zone
 )
 ;
 zone
@@ -6624,9 +6621,6 @@ AutoSweepObjectGroup
 ObjectGroup
 *
 group
-AutoClearTypeInferenceStateOnOOM
-*
-oom
 )
 #
 ifdef
@@ -6656,7 +6650,6 @@ sweep
 (
 *
 this
-oom
 )
 ;
 }
@@ -6696,9 +6689,6 @@ AutoSweepTypeScript
 JSScript
 *
 script
-AutoClearTypeInferenceStateOnOOM
-*
-oom
 )
 #
 ifdef
@@ -6728,7 +6718,6 @@ sweepTypes
 (
 *
 this
-oom
 )
 ;
 }
