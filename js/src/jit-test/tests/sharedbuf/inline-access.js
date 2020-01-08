@@ -1,14 +1,3 @@
-if
-(
-!
-this
-.
-SharedArrayBuffer
-)
-quit
-(
-)
-;
 function
 f
 (

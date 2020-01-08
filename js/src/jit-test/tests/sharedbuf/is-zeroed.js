@@ -49,12 +49,6 @@ y
 )
 ;
 }
-if
-(
-this
-.
-SharedArrayBuffer
-)
 f
 (
 )

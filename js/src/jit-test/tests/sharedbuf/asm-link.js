@@ -49,13 +49,6 @@ v
 return
 f
 }
-if
-(
-this
-.
-SharedArrayBuffer
-)
-{
 var
 heap
 =
@@ -95,4 +88,3 @@ heap
 14159
 )
 ;
-}

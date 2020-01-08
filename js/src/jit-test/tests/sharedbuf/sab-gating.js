@@ -1,15 +1,3 @@
-if
-(
-!
-this
-.
-sharedMemoryEnabled
-)
-quit
-(
-0
-)
-;
 assertEq
 (
 sharedMemoryEnabled

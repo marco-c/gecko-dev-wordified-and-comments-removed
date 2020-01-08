@@ -35,12 +35,6 @@ gc
 )
 ;
 }
-if
-(
-this
-.
-SharedArrayBuffer
-)
 f
 (
 )
