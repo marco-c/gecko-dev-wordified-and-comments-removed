@@ -2052,6 +2052,13 @@ SelectAllInternal
 )
 override
 ;
+nsresult
+PasteInternal
+(
+int32_t
+aClipboardType
+)
+;
 template
 <
 typename
