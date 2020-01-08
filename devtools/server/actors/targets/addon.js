@@ -322,7 +322,7 @@ _addon
 ;
 }
 get
-id
+addonId
 (
 )
 {
@@ -499,7 +499,7 @@ id
 :
 this
 .
-id
+addonId
 name
 :
 this
@@ -1057,7 +1057,7 @@ addonID
 =
 this
 .
-id
+addonId
 ;
 }
 }
@@ -1088,7 +1088,7 @@ addonId
 =
 this
 .
-id
+addonId
 ;
 }
 return
