@@ -15,8 +15,8 @@ NestedMeta
 ;
 use
 {
+FromMeta
 Result
-FromMetaItem
 }
 ;
 use
@@ -468,9 +468,9 @@ impl
 <
 T
 :
-FromMetaItem
+FromMeta
 >
-FromMetaItem
+FromMeta
 for
 Override
 <
@@ -514,7 +514,7 @@ Ok
 (
 Explicit
 (
-FromMetaItem
+FromMeta
 :
 :
 from_list
@@ -544,7 +544,7 @@ Ok
 (
 Explicit
 (
-FromMetaItem
+FromMeta
 :
 :
 from_value

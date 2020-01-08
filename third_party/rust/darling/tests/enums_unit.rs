@@ -15,7 +15,7 @@ syn
 derive
 (
 Debug
-FromMetaItem
+FromMeta
 )
 ]
 #

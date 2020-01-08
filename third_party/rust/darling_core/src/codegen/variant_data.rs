@@ -1,8 +1,14 @@
 use
-quote
+proc_macro2
 :
 :
-Tokens
+TokenStream
+;
+use
+ast
+:
+:
+Fields
 ;
 use
 ast
@@ -21,12 +27,6 @@ codegen
 :
 :
 Field
-;
-use
-ast
-:
-:
-Fields
 ;
 pub
 struct
@@ -74,7 +74,7 @@ self
 )
 -
 >
-Tokens
+TokenStream
 {
 match
 *
@@ -155,7 +155,7 @@ self
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 arms
@@ -276,7 +276,7 @@ self
 )
 -
 >
-Tokens
+TokenStream
 {
 match
 *
@@ -359,7 +359,7 @@ self
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 inits
