@@ -9668,6 +9668,13 @@ const
 ;
 inline
 bool
+IsFixedPosContainingBlockForContainLayoutAndPaintSupportingFrames
+(
+)
+const
+;
+inline
+bool
 IsFixedPosContainingBlockForTransformSupportingFrames
 (
 )
