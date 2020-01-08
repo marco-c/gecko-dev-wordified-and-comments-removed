@@ -5653,6 +5653,14 @@ ENABLE_WASM_GC
 ]
 =
 True
+DEFINES
+[
+'
+WASM_PRIVATE_REFTYPES
+'
+]
+=
+True
 if
 CONFIG
 [
