@@ -247,11 +247,6 @@ mozAutoDocUpdate
 h
 '
 '
-NodeUbiReporting
-.
-h
-'
-'
 nsAttrAndChildArray
 .
 h
@@ -1488,11 +1483,6 @@ cpp
 '
 '
 NodeIterator
-.
-cpp
-'
-'
-NodeUbiReporting
 .
 cpp
 '

@@ -155,15 +155,6 @@ widget
 IMEState
 IMEState
 ;
-void
-ConstructUbiNode
-(
-void
-*
-storage
-)
-override
-;
 #
 ifdef
 MOZILLA_INTERNAL_API

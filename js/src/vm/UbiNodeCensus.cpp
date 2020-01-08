@@ -5237,9 +5237,6 @@ referent
 if
 (
 zone
-&
-&
-zone
 -
 >
 isAtomsZone
