@@ -13833,10 +13833,6 @@ AllocKind
 :
 :
 JITCODE
-AllocKind
-:
-:
-SCOPE
 }
 ;
 static
@@ -13848,6 +13844,10 @@ AllocKind
 :
 :
 LAZY_SCRIPT
+AllocKind
+:
+:
+SCOPE
 AllocKind
 :
 :
