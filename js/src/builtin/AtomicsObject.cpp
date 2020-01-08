@@ -929,7 +929,7 @@ newCandidate
 view
 -
 >
-viewDataShared
+dataPointerShared
 (
 )
 offset
@@ -1104,7 +1104,7 @@ viewData
 view
 -
 >
-viewDataShared
+dataPointerShared
 (
 )
 ;
@@ -1865,7 +1865,7 @@ integerValue
 view
 -
 >
-viewDataShared
+dataPointerShared
 (
 )
 offset
@@ -2100,7 +2100,7 @@ viewData
 view
 -
 >
-viewDataShared
+dataPointerShared
 (
 )
 ;
@@ -3965,7 +3965,7 @@ int32_t
 view
 -
 >
-viewDataShared
+dataPointerShared
 (
 )
 .
@@ -4508,7 +4508,7 @@ int32_t
 view
 -
 >
-viewDataShared
+dataPointerShared
 (
 )
 .

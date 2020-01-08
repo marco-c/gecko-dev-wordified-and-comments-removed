@@ -2119,7 +2119,7 @@ uint8_t
 code
 -
 >
-viewDataEither
+dataPointerEither
 (
 )
 .

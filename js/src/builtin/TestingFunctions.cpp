@@ -4215,7 +4215,7 @@ TypedArrayObject
 (
 )
 .
-viewDataUnshared
+dataPointerUnshared
 (
 )
 bytes

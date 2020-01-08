@@ -1008,7 +1008,7 @@ char
 (
 ta
 .
-viewDataUnshared
+dataPointerUnshared
 (
 )
 )
@@ -1814,7 +1814,7 @@ buf
 obj
 -
 >
-viewDataUnshared
+dataPointerUnshared
 (
 )
 ;

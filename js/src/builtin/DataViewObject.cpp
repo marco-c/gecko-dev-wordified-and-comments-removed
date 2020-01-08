@@ -430,13 +430,9 @@ dataPointerEither
 obj
 -
 >
-initPrivate
+initDataPointer
 (
 ptr
-.
-unwrap
-(
-)
 +
 byteOffset
 )
