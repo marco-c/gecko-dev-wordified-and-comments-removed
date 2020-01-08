@@ -40448,6 +40448,8 @@ MOZ_DEV_EDITION
 export
 RUSTC
 export
+CARGO
+export
 MOZILLA_CENTRAL_PATH
 =
 _topsrcdir
