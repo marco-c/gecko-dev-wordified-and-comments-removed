@@ -114,6 +114,11 @@ ParentProcessId
 (
 )
 ;
+bool
+IsMiddlemanWithRecordingChild
+(
+)
+;
 void
 SaveRecording
 (
