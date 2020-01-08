@@ -7415,6 +7415,7 @@ object
 :
 grip
 onViewSourceInDebugger
+recordTelemetryEvent
 }
 =
 props
@@ -7488,6 +7489,19 @@ stopPropagation
 (
 )
 ;
+if
+(
+recordTelemetryEvent
+)
+{
+recordTelemetryEvent
+(
+"
+jump_to_definition
+"
+)
+;
+}
 onViewSourceInDebugger
 (
 grip
@@ -8837,6 +8851,8 @@ cleanFunctionName
 functionName
 )
 )
+"
+"
 span
 (
 {
