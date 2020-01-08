@@ -739,19 +739,6 @@ symbolPaths
 self
 .
 symbol_paths
-            
-"
-platformsRequiringSymbols
-"
-:
-[
-"
-Windows
-"
-"
-Microsoft
-"
-]
         
 }
 )
