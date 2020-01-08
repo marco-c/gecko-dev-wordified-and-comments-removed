@@ -121,13 +121,7 @@ PrefReaderError
 PrefReaderError
 {
 message
-:
-message
 position
-:
-position
-parent
-:
 parent
 }
 }
@@ -764,13 +758,9 @@ a
 TokenData
 {
 token_type
-:
-token_type
 complete
 :
 false
-position
-:
 position
 data
 :
@@ -782,8 +772,6 @@ Borrowed
 "
 "
 )
-start_pos
-:
 start_pos
 }
 }
@@ -1111,8 +1099,6 @@ a
 {
 PrefTokenizer
 {
-data
-:
 data
 pos
 :

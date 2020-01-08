@@ -206,10 +206,6 @@ Ok
 Profile
 {
 path
-:
-path
-temp_dir
-:
 temp_dir
 prefs
 :
@@ -501,10 +497,6 @@ Ok
 PrefFile
 {
 path
-:
-path
-prefs
-:
 prefs
 }
 )
