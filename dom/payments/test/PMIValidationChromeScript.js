@@ -352,6 +352,14 @@ nsIPaymentActionResponse
 )
 ;
 }
+closePayment
+:
+function
+(
+requestId
+)
+{
+}
 QueryInterface
 :
 ChromeUtils

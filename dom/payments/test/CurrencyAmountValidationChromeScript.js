@@ -154,6 +154,12 @@ requestId
 )
 {
 }
+closePayment
+(
+requestId
+)
+{
+}
 QueryInterface
 :
 ChromeUtils

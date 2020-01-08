@@ -496,6 +496,14 @@ nsIPaymentActionResponse
 updatePayment
 :
 updateRequest
+closePayment
+:
+function
+(
+requestId
+)
+{
+}
 QueryInterface
 :
 ChromeUtils
