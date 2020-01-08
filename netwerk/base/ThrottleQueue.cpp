@@ -63,6 +63,7 @@ aQueue
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
 NS_DECL_NSISEEKABLESTREAM
+NS_DECL_NSITELLABLESTREAM
 NS_DECL_NSIASYNCINPUTSTREAM
 void
 AllowInput
@@ -110,6 +111,7 @@ NS_IMPL_ISUPPORTS
 ThrottleInputStream
 nsIAsyncInputStream
 nsIInputStream
+nsITellableStream
 nsISeekableStream
 )
 ThrottleInputStream
@@ -564,7 +566,7 @@ mClosedStatus
 }
 nsCOMPtr
 <
-nsISeekableStream
+nsITellableStream
 >
 sstream
 =

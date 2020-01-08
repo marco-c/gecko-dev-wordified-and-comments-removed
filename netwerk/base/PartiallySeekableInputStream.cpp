@@ -58,6 +58,10 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsISeekableStream
 )
+NS_INTERFACE_MAP_ENTRY
+(
+nsITellableStream
+)
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
 nsICloneableInputStream

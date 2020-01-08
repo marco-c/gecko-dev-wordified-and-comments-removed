@@ -214,6 +214,7 @@ Close
 NS_IMPL_ISUPPORTS
 (
 nsBufferedStream
+nsITellableStream
 nsISeekableStream
 )
 nsresult
@@ -1264,6 +1265,7 @@ nsBufferedInputStream
 nsIInputStream
 nsIBufferedInputStream
 nsISeekableStream
+nsITellableStream
 nsIStreamBufferAccess
 )
 nsBufferedInputStream

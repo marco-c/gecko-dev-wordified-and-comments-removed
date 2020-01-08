@@ -230,6 +230,11 @@ nsIStringStream
 idl
 '
 '
+nsITellableStream
+.
+idl
+'
+'
 nsIUnicharInputStream
 .
 idl

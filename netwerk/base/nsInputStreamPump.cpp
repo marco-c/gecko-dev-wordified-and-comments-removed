@@ -2148,9 +2148,9 @@ offsetBefore
 ;
 nsCOMPtr
 <
-nsISeekableStream
+nsITellableStream
 >
-seekable
+tellable
 =
 do_QueryInterface
 (
@@ -2159,12 +2159,12 @@ mAsyncStream
 ;
 if
 (
-seekable
+tellable
 &
 &
 NS_FAILED
 (
-seekable
+tellable
 -
 >
 Tell
@@ -2276,7 +2276,7 @@ mStatus
 {
 if
 (
-seekable
+tellable
 )
 {
 int64_t
@@ -2286,7 +2286,7 @@ if
 (
 NS_FAILED
 (
-seekable
+tellable
 -
 >
 Tell

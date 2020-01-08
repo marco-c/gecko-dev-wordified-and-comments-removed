@@ -489,6 +489,12 @@ mSeekableStream
 -
 >
 )
+NS_FORWARD_NSITELLABLESTREAM
+(
+mSeekableStream
+-
+>
+)
 NS_FORWARD_NSICLONEABLEINPUTSTREAM
 (
 mCloneableInputStream
