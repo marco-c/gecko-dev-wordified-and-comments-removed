@@ -40,7 +40,7 @@ ShellWorkerThreads
 \
 _
 (
-ShellArrayBufferMailbox
+ShellObjectMailbox
 100
 )
 \
