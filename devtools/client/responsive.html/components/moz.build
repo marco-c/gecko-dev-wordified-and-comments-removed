@@ -108,7 +108,7 @@ DeviceModal
 js
 '
 '
-DevicePixelRatioSelector
+DevicePixelRatioMenu
 .
 js
 '
