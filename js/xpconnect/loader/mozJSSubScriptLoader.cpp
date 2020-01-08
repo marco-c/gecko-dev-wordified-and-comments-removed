@@ -2782,7 +2782,7 @@ if
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 loadScope
 )
@@ -2791,7 +2791,7 @@ loadScope
 js
 :
 :
-GetObjectCompartment
+GetNonCCWObjectRealm
 (
 targetObj
 )
