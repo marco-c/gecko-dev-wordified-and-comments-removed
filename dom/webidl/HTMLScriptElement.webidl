@@ -237,6 +237,14 @@ crossOrigin
 ;
 [
 CEReactions
+SetterThrows
+]
+attribute
+DOMString
+referrerPolicy
+;
+[
+CEReactions
 Throws
 ]
 attribute
