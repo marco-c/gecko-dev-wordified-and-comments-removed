@@ -2707,6 +2707,10 @@ add_dependencies
 aom_rtcd
 aom_version
 )
+if
+(
+ENABLE_EXAMPLES
+)
 add_library
 (
 aom_encoder_stats
@@ -2714,6 +2718,9 @@ OBJECT
 {
 AOM_ENCODER_STATS_SOURCES
 }
+)
+endif
+(
 )
 add_library
 (
