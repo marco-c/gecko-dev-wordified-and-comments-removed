@@ -101,6 +101,9 @@ idl
 interface
 nsIDOMXULContainerElement
 ;
+webidl
+Element
+;
 [
 scriptable
 uuid
@@ -136,7 +139,7 @@ any
 /
 readonly
 attribute
-nsIDOMXULContainerElement
+Element
 parentContainer
 ;
 }

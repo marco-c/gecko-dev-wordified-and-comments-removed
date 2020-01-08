@@ -101,6 +101,9 @@ idl
 interface
 nsIDOMXULSelectControlElement
 ;
+webidl
+Element
+;
 [
 scriptable
 uuid
@@ -156,7 +159,7 @@ selected
 ;
 readonly
 attribute
-nsIDOMXULSelectControlElement
+Element
 control
 ;
 /

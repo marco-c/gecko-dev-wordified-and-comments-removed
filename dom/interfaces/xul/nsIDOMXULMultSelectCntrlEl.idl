@@ -99,6 +99,9 @@ nsIDOMXULSelectCntrlEl
 idl
 "
 webidl
+Element
+;
+webidl
 NodeList
 ;
 [
@@ -126,7 +129,7 @@ AString
 selType
 ;
 attribute
-nsIDOMXULSelectControlItemElement
+Element
 currentItem
 ;
 attribute
@@ -222,7 +225,7 @@ binaryname
 MultiGetSelectedItem
 )
 ]
-nsIDOMXULSelectControlItemElement
+Element
 getSelectedItem
 (
 in
