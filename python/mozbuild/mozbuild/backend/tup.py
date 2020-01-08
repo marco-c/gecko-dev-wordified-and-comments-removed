@@ -1069,8 +1069,9 @@ export_icecc
 (
 )
                 
-compiler_value
+cmd
 =
+[
 self
 .
 variables
@@ -1086,19 +1087,6 @@ substs
 [
 compiler
 ]
-)
-                
-cmd
-=
-[
-expand_variables
-(
-compiler_value
-self
-.
-environment
-.
-substs
 )
 ]
                 
