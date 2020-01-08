@@ -11824,7 +11824,6 @@ false
 false
 true
 false
-false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -14579,7 +14578,6 @@ false
 false
 true
 true
-false
 )
 ;
 if
@@ -15468,7 +15466,6 @@ false
 false
 true
 aForDocumentNavigation
-false
 )
 ;
 NS_ENSURE_SUCCESS
