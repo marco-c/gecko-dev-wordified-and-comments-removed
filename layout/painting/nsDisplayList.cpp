@@ -4067,6 +4067,18 @@ flags
 "
 )
 ;
+EffectSet
+*
+effects
+=
+EffectSet
+:
+:
+GetEffectSet
+(
+styleFrame
+)
+;
 for
 (
 size_t
@@ -4167,6 +4179,8 @@ keyframeEffect
 GetEffectiveAnimationOfProperty
 (
 aProperty
+*
+effects
 )
 ;
 if

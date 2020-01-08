@@ -763,6 +763,10 @@ HasEffectiveAnimationOfProperty
 (
 nsCSSPropertyID
 aProperty
+const
+EffectSet
+&
+aEffect
 )
 const
 {
@@ -770,6 +774,7 @@ return
 GetEffectiveAnimationOfProperty
 (
 aProperty
+aEffect
 )
 !
 =
@@ -783,6 +788,10 @@ GetEffectiveAnimationOfProperty
 (
 nsCSSPropertyID
 aProperty
+const
+EffectSet
+&
+aEffect
 )
 const
 ;

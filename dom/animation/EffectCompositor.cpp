@@ -390,6 +390,10 @@ const
 nsIFrame
 *
 aFrame
+const
+EffectSet
+&
+aEffects
 )
 {
 const
@@ -473,6 +477,7 @@ aEffect
 HasEffectiveAnimationOfProperty
 (
 aProperty
+aEffects
 )
 )
 {
@@ -895,6 +900,8 @@ IsMatchForCompositor
 effect
 aProperty
 aFrame
+*
+effects
 )
 ;
 if
