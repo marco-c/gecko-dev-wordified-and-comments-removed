@@ -5772,10 +5772,6 @@ owner
 =
 do_QueryInterface
 (
-(
-nsIFrameLoaderOwner
-*
-)
 frame
 )
 ;
