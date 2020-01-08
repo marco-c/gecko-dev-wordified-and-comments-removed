@@ -1,3 +1,8 @@
+from
+__future__
+import
+absolute_import
+print_function
 import
 argparse
 import
@@ -131,28 +136,6 @@ match
 and
 its
 replacement
-Future
-note
--
-this
-may
-need
-to
-move
-into
-the
-tree
-to
-make
-staging
-releases
-or
-release
--
-on
--
-try
-easier
 "
 "
 "
@@ -167,6 +150,7 @@ files
 '
 :
 [
+            
 '
 defaults
 /
@@ -178,6 +162,7 @@ prefs
 .
 js
 '
+            
 '
 Contents
 /
@@ -193,6 +178,7 @@ prefs
 .
 js
 '
+        
 ]
         
 '
@@ -243,6 +229,7 @@ files
 '
 :
 [
+            
 '
 defaults
 /
@@ -254,6 +241,7 @@ prefs
 .
 js
 '
+            
 '
 Contents
 /
@@ -269,6 +257,7 @@ prefs
 .
 js
 '
+        
 ]
         
 '
@@ -344,6 +333,7 @@ files
 '
 :
 [
+            
 '
 defaults
 /
@@ -355,6 +345,7 @@ prefs
 .
 js
 '
+            
 '
 Contents
 /
@@ -370,6 +361,7 @@ prefs
 .
 js
 '
+        
 ]
         
 '
@@ -1056,11 +1048,13 @@ readlines
 transforms
 =
 [
+                
 t
 for
 t
 in
 TRANSFORMS
+                
 if
 filename
 in
@@ -1070,8 +1064,8 @@ t
 files
 '
 ]
+                
 and
-                          
 channel
 .
 startswith
@@ -1086,12 +1080,14 @@ channel_prefix
 ]
 )
 )
+            
 ]
             
 logging
 .
 debug
 (
+                
 '
 Got
 {
@@ -1387,6 +1383,7 @@ argparse
 .
 ArgumentParser
 (
+        
 '
 Compare
 two
@@ -1654,6 +1651,7 @@ file_diff
 =
 compare_common_files
 (
+        
 set
 (
 source_files
