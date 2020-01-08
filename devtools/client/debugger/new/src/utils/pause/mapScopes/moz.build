@@ -84,7 +84,7 @@ findGeneratedBindingFromPosition
 js
 '
 '
-getGeneratedLocationRanges
+getApplicableBindingsForOriginalPosition
 .
 js
 '

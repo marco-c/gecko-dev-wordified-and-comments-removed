@@ -75,13 +75,6 @@ require
 .
 .
 /
-.
-.
-/
-workers
-/
-search
-/
 build
 -
 query

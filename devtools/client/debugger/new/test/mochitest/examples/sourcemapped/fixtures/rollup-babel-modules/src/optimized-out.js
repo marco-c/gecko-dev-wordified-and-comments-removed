@@ -1,0 +1,12 @@
+export
+default
+function
+optimizedOut
+(
+)
+{
+window
+.
+console
+;
+}
