@@ -4684,6 +4684,10 @@ mTopLevelOuterContentWindow
 (
 false
 )
+mHasStorageAccess
+(
+false
+)
 mSerial
 (
 0
@@ -9319,6 +9323,10 @@ LargeAllocStatus
 :
 :
 NONE
+;
+mHasStorageAccess
+=
+false
 ;
 return
 NS_OK
