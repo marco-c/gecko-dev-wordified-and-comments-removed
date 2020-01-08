@@ -170,9 +170,8 @@ uint32_t
 )
 override
 ;
-JSContext
-*
-mJSContext
+bool
+mExitLoop
 ;
 bool
 mIsTerminating
