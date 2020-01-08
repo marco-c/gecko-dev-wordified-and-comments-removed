@@ -1509,7 +1509,6 @@ mAsyncResourceUpdates
 ref
 (
 )
-false
 )
 ;
 }
@@ -3085,7 +3084,6 @@ mAsyncResourceUpdates
 ref
 (
 )
-true
 )
 ;
 }
