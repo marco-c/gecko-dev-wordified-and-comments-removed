@@ -822,9 +822,7 @@ TextureFilter
 :
 :
 Linear
-16
-*
-4
+32
 )
 array_rgba8_nearest
 :
