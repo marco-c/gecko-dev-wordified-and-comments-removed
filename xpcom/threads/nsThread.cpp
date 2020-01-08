@@ -3337,10 +3337,6 @@ mThread
 =
 nullptr
 ;
-ClearObservers
-(
-)
-;
 #
 ifdef
 DEBUG

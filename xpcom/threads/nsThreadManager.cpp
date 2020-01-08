@@ -1277,13 +1277,6 @@ nullptr
 )
 ;
 mMainThread
--
->
-ClearObservers
-(
-)
-;
-mMainThread
 =
 nullptr
 ;
