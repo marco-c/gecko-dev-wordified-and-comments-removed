@@ -5300,16 +5300,6 @@ int64_t
 aOffset
 )
 {
-MOZ_ASSERT_UNREACHABLE
-(
-"
-nsPipeInputStream
-:
-:
-Seek
-"
-)
-;
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
