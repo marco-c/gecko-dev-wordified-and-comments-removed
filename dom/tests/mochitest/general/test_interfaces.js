@@ -6033,6 +6033,16 @@ true
 name
 :
 "
+VisualViewport
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 VRDisplay
 "
 insecureContext

@@ -1200,6 +1200,11 @@ TreeWalker
 h
 '
 '
+VisualViewport
+.
+h
+'
+'
 WebKitCSSMatrix
 .
 h
@@ -1963,6 +1968,11 @@ cpp
 '
 '
 TreeWalker
+.
+cpp
+'
+'
+VisualViewport
 .
 cpp
 '
