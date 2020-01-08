@@ -223,6 +223,15 @@ GeckoLoader
 loadSQLiteLibs
 (
 activity
+activity
+.
+getApplication
+(
+)
+.
+getPackageResourcePath
+(
+)
 )
 ;
 }
