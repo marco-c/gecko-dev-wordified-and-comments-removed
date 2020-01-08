@@ -1560,7 +1560,9 @@ protection
 -
 option
 -
-always
+all
+-
+windows
 "
 value
 =
