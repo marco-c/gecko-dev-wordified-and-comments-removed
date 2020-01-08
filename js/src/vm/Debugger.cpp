@@ -21991,7 +21991,7 @@ zone
 (
 )
 )
-vector
+scriptVector
 (
 cx
 ScriptVector
@@ -22866,7 +22866,7 @@ front
 ;
 MOZ_ASSERT
 (
-vector
+scriptVector
 .
 empty
 (
@@ -22906,7 +22906,7 @@ JSScript
 *
 i
 =
-vector
+scriptVector
 .
 begin
 (
@@ -22915,7 +22915,7 @@ begin
 i
 !
 =
-vector
+scriptVector
 .
 end
 (
@@ -22986,7 +22986,7 @@ value
 if
 (
 !
-vector
+scriptVector
 .
 append
 (
@@ -23110,7 +23110,7 @@ foundScripts
 const
 {
 return
-vector
+scriptVector
 ;
 }
 Handle
@@ -23212,7 +23212,7 @@ Rooted
 <
 ScriptVector
 >
-vector
+scriptVector
 ;
 Rooted
 <
@@ -23918,7 +23918,7 @@ else
 if
 (
 !
-vector
+scriptVector
 .
 append
 (
