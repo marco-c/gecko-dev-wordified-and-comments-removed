@@ -210,7 +210,7 @@ append
 '
 -
 -
-firefox
+gecko
 -
 checkout
 =
@@ -244,7 +244,7 @@ append
 -
 firefox
 -
-sparse
+gecko
 -
 profile
 =

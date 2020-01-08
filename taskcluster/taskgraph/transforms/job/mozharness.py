@@ -1315,7 +1315,7 @@ run
 '
 -
 -
-firefox
+gecko
 -
 checkout
 '

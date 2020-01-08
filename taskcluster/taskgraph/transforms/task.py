@@ -13848,7 +13848,7 @@ startswith
 '
 -
 -
-firefox
+gecko
 -
 sparse
 -
@@ -13877,7 +13877,7 @@ is
 specifying
 -
 -
-firefox
+gecko
 -
 sparse
 -

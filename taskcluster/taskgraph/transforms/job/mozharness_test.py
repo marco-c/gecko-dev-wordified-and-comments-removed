@@ -1086,7 +1086,7 @@ extend
 '
 -
 -
-firefox
+gecko
 -
 checkout
 '

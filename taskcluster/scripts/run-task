@@ -3980,9 +3980,6 @@ collect_vcs_options
 (
 args
 project
-env_prefix
-=
-None
 )
 :
 checkout
@@ -4017,8 +4014,6 @@ return
 None
 env_prefix
 =
-env_prefix
-or
 project
 .
 upper
@@ -4250,9 +4245,6 @@ vcs_checkout_from_args
 (
 args
 project
-env_prefix
-=
-None
 prevent_symbolic_revisions
 =
 True
@@ -4264,9 +4256,6 @@ collect_vcs_options
 (
 args
 project
-env_prefix
-=
-env_prefix
 )
 if
 not
@@ -4532,7 +4521,7 @@ add_vcs_arguments
 (
 parser
 '
-firefox
+gecko
 '
 '
 Firefox
@@ -5417,12 +5406,12 @@ prepare_checkout_dir
 (
 args
 .
-firefox_checkout
+gecko_checkout
 )
 if
 args
 .
-firefox_checkout
+gecko_checkout
 or
 args
 .
@@ -5555,12 +5544,7 @@ vcs_checkout_from_args
 (
 args
 '
-firefox
-'
-env_prefix
-=
-'
-GECKO
+gecko
 '
 )
 vcs_checkout_from_args

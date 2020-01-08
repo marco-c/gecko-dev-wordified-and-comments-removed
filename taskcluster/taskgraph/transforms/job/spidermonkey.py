@@ -545,7 +545,7 @@ run
 '
 -
 -
-firefox
+gecko
 -
 checkout
 '

@@ -334,7 +334,7 @@ run
 '
 -
 -
-firefox
+gecko
 -
 checkout
 '

@@ -358,7 +358,7 @@ task
 \
 -
 -
-firefox
+gecko
 -
 checkout
 "
@@ -374,7 +374,7 @@ gecko
 \
 -
 -
-firefox
+gecko
 -
 sparse
 -
