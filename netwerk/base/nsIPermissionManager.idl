@@ -1024,7 +1024,7 @@ nsIPrincipal
 principal
 in
 string
-typed
+type
 in
 uint32_t
 permission
