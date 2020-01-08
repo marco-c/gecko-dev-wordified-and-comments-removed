@@ -4022,6 +4022,10 @@ const
 nsAString
 &
 aMessage
+const
+nsACString
+&
+aCategory
 )
 {
 if
@@ -4054,6 +4058,7 @@ mHttpChannel
 LogBlockedCORSRequest
 (
 aMessage
+aCategory
 )
 ;
 }
