@@ -765,6 +765,11 @@ principal
 browser
 .
 contentPrincipal
+topLevelPrincipal
+:
+browser
+.
+contentPrincipal
 requester
 :
 null
