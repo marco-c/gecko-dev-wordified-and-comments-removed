@@ -488,10 +488,7 @@ ivec2
 (
 int
 (
-uint
-(
 vpi
-)
 *
 (
 uint
@@ -499,7 +496,6 @@ uint
 i
 )
 %
-uint
 (
 WR_MAX_VERTEX_TEXTURE_WIDTH
 /
@@ -514,7 +510,6 @@ uint
 i
 )
 /
-uint
 (
 WR_MAX_VERTEX_TEXTURE_WIDTH
 /

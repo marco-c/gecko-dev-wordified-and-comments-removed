@@ -3359,6 +3359,15 @@ to_f64
 )
 )
 ;
+if
+let
+Ok
+(
+results
+)
+=
+results
+{
 for
 poly
 in
@@ -3371,6 +3380,7 @@ add
 poly
 )
 ;
+}
 }
 }
 }
@@ -7549,6 +7559,11 @@ get_address
 &
 cache_handle
 )
+rendering
+:
+request
+.
+rendering
 }
 )
 ;

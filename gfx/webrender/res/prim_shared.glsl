@@ -250,11 +250,11 @@ aData
 #
 define
 VECS_PER_PRIM_HEADER_F
-2
+2U
 #
 define
 VECS_PER_PRIM_HEADER_I
-2
+2U
 struct
 PrimitiveHeader
 {

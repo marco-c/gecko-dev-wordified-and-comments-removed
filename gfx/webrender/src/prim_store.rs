@@ -1161,6 +1161,10 @@ pub
 image_properties
 :
 ImageProperties
+pub
+rendering
+:
+ImageRendering
 }
 #
 [

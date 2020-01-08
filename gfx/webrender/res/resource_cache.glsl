@@ -142,10 +142,16 @@ address
 return
 ivec2
 (
+uint
+(
 address
+)
 %
 WR_MAX_VERTEX_TEXTURE_WIDTH
+uint
+(
 address
+)
 /
 WR_MAX_VERTEX_TEXTURE_WIDTH
 )
