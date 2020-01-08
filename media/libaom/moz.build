@@ -245,6 +245,8 @@ win
 /
 mingw64
 /
+config
+/
 aom_config
 .
 h
@@ -306,6 +308,8 @@ config
 win
 /
 x64
+/
+config
 /
 aom_config
 .
@@ -407,6 +411,8 @@ mac
 /
 x64
 /
+config
+/
 aom_config
 .
 h
@@ -474,6 +480,8 @@ config
 linux
 /
 x64
+/
+config
 /
 aom_config
 .
@@ -597,6 +605,8 @@ win
 /
 mingw32
 /
+config
+/
 aom_config
 .
 h
@@ -658,6 +668,8 @@ config
 win
 /
 ia32
+/
+config
 /
 aom_config
 .
@@ -734,6 +746,8 @@ config
 linux
 /
 ia32
+/
+config
 /
 aom_config
 .
@@ -828,6 +842,8 @@ config
 linux
 /
 arm
+/
+config
 /
 aom_config
 .
@@ -1069,6 +1085,8 @@ aom
 config
 /
 generic
+/
+config
 /
 aom_config
 .
