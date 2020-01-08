@@ -53,7 +53,7 @@ test
 {
 }
 )
-false
+true
 )
 ;
 assertEq
@@ -62,7 +62,7 @@ test
 (
 null
 )
-false
+true
 )
 ;
 reportCompare
