@@ -704,6 +704,17 @@ currentURI
 aURI
 )
 {
+let
+systemPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 this
 .
 loadURI
@@ -714,6 +725,7 @@ spec
 null
 null
 null
+systemPrincipal
 )
 ;
 }

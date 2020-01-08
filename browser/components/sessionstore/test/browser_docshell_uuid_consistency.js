@@ -353,6 +353,17 @@ Ci
 nsIWebNavigation
 )
 ;
+let
+systemPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 webnav
 .
 loadURI
@@ -366,6 +377,7 @@ LOAD_FLAGS_NONE
 null
 null
 null
+systemPrincipal
 )
 ;
 }
