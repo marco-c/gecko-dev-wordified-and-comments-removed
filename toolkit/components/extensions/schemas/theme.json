@@ -269,6 +269,11 @@ ImageDataOrExtensionURL
 "
 }
 "
+maxItems
+"
+:
+15
+"
 optional
 "
 :
@@ -2556,6 +2561,11 @@ top
 ]
 }
 "
+maxItems
+"
+:
+15
+"
 optional
 "
 :
@@ -2610,6 +2620,11 @@ y
 "
 ]
 }
+"
+maxItems
+"
+:
+15
 "
 optional
 "
