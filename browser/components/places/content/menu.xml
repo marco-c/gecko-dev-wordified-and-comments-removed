@@ -1000,9 +1000,6 @@ isFolderReadOnly
 elt
 .
 _placesNode
-this
-.
-_rootView
 )
 )
 |

@@ -833,9 +833,6 @@ PlacesUIUtils
 isFolderReadOnly
 (
 selectedNode
-this
-.
-_view
 )
 &
 &
@@ -1553,9 +1550,6 @@ nodes
 [
 i
 ]
-this
-.
-_view
 )
 )
 return
@@ -5748,9 +5742,6 @@ PlacesUIUtils
 isFolderReadOnly
 (
 container
-this
-.
-_view
 )
 )
 ;
@@ -5801,9 +5792,6 @@ PlacesUIUtils
 isFolderReadOnly
 (
 parentNode
-this
-.
-_view
 )
 &
 &
