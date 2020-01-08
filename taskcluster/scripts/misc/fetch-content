@@ -1301,9 +1301,15 @@ it
 .
 ifh
 =
+open
+(
 os
 .
 devnull
+'
+rb
+'
+)
 args
 =
 [
