@@ -197,7 +197,7 @@ app_units
 "
 0
 .
-6
+7
 "
 arrayvec
 =
@@ -275,7 +275,7 @@ euclid
 "
 0
 .
-18
+19
 "
 fallible
 =
@@ -574,6 +574,8 @@ smallvec
 0
 .
 6
+.
+2
 "
 string_cache
 =
@@ -743,9 +745,9 @@ regex
 version
 =
 "
-0
+1
 .
-2
+0
 "
 optional
 =
