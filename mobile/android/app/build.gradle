@@ -3637,7 +3637,7 @@ xml
 )
 dependsOn
 "
-assemble
+bundleAppClasses
 {
 variant
 .
@@ -3866,7 +3866,7 @@ xml
 )
 dependsOn
 "
-assemble
+bundleAppClasses
 {
 variant
 .
