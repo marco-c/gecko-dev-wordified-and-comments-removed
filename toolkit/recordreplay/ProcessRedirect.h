@@ -961,10 +961,11 @@ rval
 =
 len
 ?
-NewLeakyArray
-<
+(
 char
->
+*
+)
+malloc
 (
 len
 )
