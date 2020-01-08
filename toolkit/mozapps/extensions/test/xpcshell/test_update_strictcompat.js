@@ -31,17 +31,6 @@ PREF_EM_STRICT_COMPATIBILITY
 false
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URLSearchParams
-"
-]
-)
-;
 const
 updateFile
 =
