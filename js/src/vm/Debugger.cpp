@@ -28198,9 +28198,7 @@ DebuggerScript_check
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 const
 char
