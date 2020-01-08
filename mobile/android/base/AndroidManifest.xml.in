@@ -4011,6 +4011,17 @@ TelemetryUploadService
 "
 android
 :
+permission
+=
+"
+android
+.
+permission
+.
+BIND_JOB_SERVICE
+"
+android
+:
 exported
 =
 "
