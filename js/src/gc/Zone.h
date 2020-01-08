@@ -3400,6 +3400,13 @@ pod_callocCanGC
 (
 size_t
 numElems
+arena_id_t
+arena
+=
+js
+:
+:
+MallocArena
 )
 {
 T
@@ -3412,6 +3419,7 @@ T
 >
 (
 numElems
+arena
 )
 ;
 if
