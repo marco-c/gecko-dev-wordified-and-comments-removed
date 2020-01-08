@@ -315,5 +315,8 @@ storage
 "
 alarms
 "
+"
+geckoProfiler
+"
 ]
 }

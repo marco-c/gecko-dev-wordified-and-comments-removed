@@ -43,6 +43,11 @@ invalid
 /
 path
 '
+gecko_profile
+=
+'
+False
+'
 )
     
 parser
