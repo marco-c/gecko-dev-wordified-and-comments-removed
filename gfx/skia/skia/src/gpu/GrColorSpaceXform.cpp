@@ -897,7 +897,6 @@ a
 >
 fFlags
 &
-&
 kApplyGamutXform_Flag
 )
 &
