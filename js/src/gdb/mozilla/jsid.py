@@ -51,6 +51,10 @@ TYPE_SYMBOL
 =
 0x4
     
+TYPE_EMPTY
+=
+0x6
+    
 TYPE_MASK
 =
 0x7
@@ -246,20 +250,6 @@ jsid
 TYPE_SYMBOL
 :
             
-if
-bits
-=
-=
-jsid
-.
-TYPE_SYMBOL
-:
-                
-return
-"
-JSID_EMPTY
-"
-            
 body
 =
 (
@@ -282,6 +272,20 @@ cache
 JSSymbol_ptr_t
 )
 )
+        
+elif
+tag
+=
+=
+jsid
+.
+TYPE_EMPTY
+:
+            
+return
+"
+JSID_EMPTY
+"
         
 else
 :
