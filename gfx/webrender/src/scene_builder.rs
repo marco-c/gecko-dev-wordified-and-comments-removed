@@ -2082,6 +2082,11 @@ clip_scroll_tree
 }
 }
 let
+is_low_priority
+=
+false
+;
+let
 blob_requests
 =
 replace
@@ -2128,6 +2133,7 @@ rasterize
 (
 &
 blob_requests
+is_low_priority
 )
 )
 ;
@@ -2846,6 +2852,11 @@ new
 )
 ;
 let
+is_low_priority
+=
+true
+;
+let
 mut
 more_rasterized_blobs
 =
@@ -2874,6 +2885,7 @@ rasterize
 (
 &
 blob_requests
+is_low_priority
 )
 )
 ;

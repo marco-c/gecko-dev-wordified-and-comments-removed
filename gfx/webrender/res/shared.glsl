@@ -381,10 +381,6 @@ uTransform
 /
 Orthographic
 projection
-uniform
-float
-uDevicePixelRatio
-;
 /
 /
 Attribute

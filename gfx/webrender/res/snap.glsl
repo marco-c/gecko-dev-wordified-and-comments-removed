@@ -66,6 +66,8 @@ mat4
 transform
 RectWithSize
 snap_rect
+float
+device_pixel_scale
 )
 {
 /
@@ -176,7 +178,7 @@ vec2
 .
 0
 /
-uDevicePixelRatio
+device_pixel_scale
 )
 )
 ;
@@ -254,7 +256,7 @@ right
 vec4
 world_snap
 =
-uDevicePixelRatio
+device_pixel_scale
 *
 vec4
 (
@@ -419,6 +421,8 @@ mat4
 transform
 RectWithSize
 snap_rect
+float
+device_pixel_scale
 )
 {
 vec4
@@ -428,6 +432,7 @@ compute_snap_positions
 (
 transform
 snap_rect
+device_pixel_scale
 )
 ;
 vec2

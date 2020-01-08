@@ -81,6 +81,7 @@ renderer
 {
 TextureSampler
 VertexArrayKind
+ShaderPrecacheFlags
 }
 ;
 use
@@ -213,9 +214,9 @@ prim_vao
 :
 &
 VAO
-precache_shaders
+precache_flags
 :
-bool
+ShaderPrecacheFlags
 )
 -
 >
@@ -426,7 +427,7 @@ get_feature_string
 )
 ]
 device
-precache_shaders
+precache_flags
 )
 }
 ;
@@ -460,7 +461,7 @@ get_feature_string
 )
 ]
 device
-precache_shaders
+precache_flags
 )
 }
 ;

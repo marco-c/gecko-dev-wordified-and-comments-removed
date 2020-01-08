@@ -113,15 +113,11 @@ floor
 pos
 .
 xy
-*
-uDevicePixelRatio
 +
 0
 .
 5
 )
-/
-uDevicePixelRatio
 ;
 gl_Position
 =

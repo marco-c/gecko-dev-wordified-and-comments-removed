@@ -1209,6 +1209,9 @@ requests
 [
 BlobImageParams
 ]
+_low_priority
+:
+bool
 )
 -
 >

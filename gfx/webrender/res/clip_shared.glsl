@@ -351,6 +351,11 @@ compute_snap_positions
 (
 snap_mat
 local_clip_rect
+area
+.
+common_data
+.
+device_pixel_scale
 )
 ;
 vec2
@@ -388,7 +393,11 @@ world_pos
 =
 device_pos
 /
-uDevicePixelRatio
+area
+.
+common_data
+.
+device_pixel_scale
 ;
 vec4
 pos

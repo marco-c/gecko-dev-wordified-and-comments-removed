@@ -435,7 +435,7 @@ font_program
 =
 device
 .
-create_program
+create_program_linked
 (
 "
 debug_font
@@ -446,6 +446,14 @@ debug_font
 DESC_FONT
 )
 ?
+;
+device
+.
+bind_program
+(
+&
+font_program
+)
 ;
 device
 .
@@ -472,7 +480,7 @@ color_program
 =
 device
 .
-create_program
+create_program_linked
 (
 "
 debug_color
