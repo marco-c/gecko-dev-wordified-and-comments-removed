@@ -70,7 +70,7 @@ autoplay
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -79,7 +79,7 @@ camera
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -90,7 +90,7 @@ media
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -99,7 +99,7 @@ fullscreen
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -108,7 +108,7 @@ geolocation
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -117,7 +117,7 @@ microphone
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -126,7 +126,7 @@ midi
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -135,7 +135,7 @@ payment
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -144,7 +144,7 @@ speaker
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 {
 "
@@ -153,7 +153,7 @@ vr
 FeatureMap
 :
 :
-eAll
+eSelf
 }
 }
 ;
