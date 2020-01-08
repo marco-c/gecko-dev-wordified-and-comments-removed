@@ -2841,13 +2841,9 @@ nsIChannel
 aChannel
 bool
 aBlocked
-=
-true
 nsIURI
 *
 aURIHint
-=
-nullptr
 )
 =
 0
