@@ -3659,10 +3659,6 @@ names
 '
 features
 '
-        
-'
-output_category
-'
     
 )
     
@@ -3695,14 +3691,6 @@ self
 features
 =
 features
-        
-self
-.
-output_category
-=
-'
-rusttests
-'
 class
 BaseLibrary
 (
@@ -6830,3 +6818,11 @@ mozilla_flags
 gn_dir_attrs
 .
 mozilla_flags
+        
+self
+.
+gn_target
+=
+gn_dir_attrs
+.
+gn_target
