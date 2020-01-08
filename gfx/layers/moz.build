@@ -1319,6 +1319,13 @@ h
 '
 ipc
 /
+SharedSurfacesMemoryReport
+.
+h
+'
+'
+ipc
+/
 SharedSurfacesParent
 .
 h
