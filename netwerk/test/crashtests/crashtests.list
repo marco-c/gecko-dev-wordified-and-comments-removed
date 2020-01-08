@@ -1,3 +1,12 @@
+skip
+-
+if
+(
+Android
+&
+&
+browserIsRemote
+)
 load
 675518
 .
