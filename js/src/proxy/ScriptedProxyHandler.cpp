@@ -28,15 +28,6 @@ include
 "
 vm
 /
-Interpreter
-.
-h
-"
-#
-include
-"
-vm
-/
 JSObject
 -
 inl
@@ -6122,7 +6113,7 @@ bp
 const
 {
 return
-InstanceOfOperator
+InstanceofOperator
 (
 cx
 proxy

@@ -3729,7 +3729,7 @@ getBoundFunctionTarget
 )
 ;
 return
-InstanceOfOperator
+InstanceofOperator
 (
 cx
 obj
