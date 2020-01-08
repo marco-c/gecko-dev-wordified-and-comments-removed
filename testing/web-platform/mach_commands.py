@@ -943,6 +943,33 @@ wpt
 import
 run
         
+kwargs
+[
+"
+channel
+"
+]
+=
+None
+        
+kwargs
+[
+"
+prompt
+"
+]
+=
+True
+        
+kwargs
+[
+"
+install_browser
+"
+]
+=
+False
+        
 try
 :
             
