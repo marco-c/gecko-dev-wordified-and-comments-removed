@@ -1183,10 +1183,10 @@ host_or_target
 assert
 host_or_target
 in
-(
+{
 host
 target
-)
+}
 compiler
 =
 {
