@@ -7623,11 +7623,6 @@ MOZ_COLD
 void
 badTrailingUnit
 (
-mozilla
-:
-:
-Utf8Unit
-badUnit
 uint8_t
 unitsObserved
 )
