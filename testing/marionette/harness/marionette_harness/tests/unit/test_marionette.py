@@ -237,7 +237,9 @@ marionette
 _send_message
 (
 "
-acceptConnections
+Marionette
+:
+AcceptConnections
 "
 {
 "
@@ -258,7 +260,9 @@ marionette
 _send_message
 (
 "
-acceptConnections
+Marionette
+:
+AcceptConnections
 "
 {
 "
@@ -331,7 +335,9 @@ marionette
 _send_message
 (
 "
-acceptConnections
+Marionette
+:
+AcceptConnections
 "
 {
 "
@@ -363,7 +369,9 @@ marionette
 _send_message
 (
 "
-acceptConnections
+Marionette
+:
+AcceptConnections
 "
 {
 "
@@ -471,7 +479,9 @@ marionette
 _send_message
 (
 "
-getContext
+Marionette
+:
+GetContext
 "
 key
 =
@@ -496,7 +506,9 @@ marionette
 _send_message
 (
 "
-setContext
+Marionette
+:
+SetContext
 "
 {
 "
