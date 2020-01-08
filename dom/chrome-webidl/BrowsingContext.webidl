@@ -130,5 +130,11 @@ long
 long
 id
 ;
+readonly
+attribute
+BrowsingContext
+?
+opener
+;
 }
 ;
