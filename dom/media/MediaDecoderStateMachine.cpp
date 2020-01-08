@@ -10951,7 +10951,7 @@ AudioQueue
 (
 )
 .
-PopEvent
+PopFrontEvent
 (
 )
 .
@@ -10999,7 +10999,7 @@ VideoQueue
 (
 )
 .
-PopEvent
+PopFrontEvent
 (
 )
 .
@@ -13772,7 +13772,7 @@ AudioQueue
 (
 )
 .
-PopEvent
+PopFrontEvent
 (
 )
 .
@@ -13793,7 +13793,7 @@ VideoQueue
 (
 )
 .
-PopEvent
+PopFrontEvent
 (
 )
 .
