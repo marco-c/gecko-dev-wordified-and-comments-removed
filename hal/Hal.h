@@ -124,6 +124,16 @@ namespace
 MOZ_HAL_NAMESPACE
 {
 void
+Init
+(
+)
+;
+void
+Shutdown
+(
+)
+;
+void
 Vibrate
 (
 const

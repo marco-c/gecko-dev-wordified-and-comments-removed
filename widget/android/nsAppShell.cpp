@@ -1886,6 +1886,13 @@ sAppShell
 this
 ;
 }
+hal
+:
+:
+Init
+(
+)
+;
 if
 (
 !
@@ -2255,6 +2262,13 @@ sWakeLockListener
 nullptr
 ;
 }
+hal
+:
+:
+Shutdown
+(
+)
+;
 if
 (
 jni
