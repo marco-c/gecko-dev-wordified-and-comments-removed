@@ -121,6 +121,7 @@ parse_quote
 #
 param
 :
+crate
 :
 :
 values
@@ -281,6 +282,7 @@ is_empty
 quote
 !
 {
+crate
 :
 :
 values
@@ -387,6 +389,7 @@ parse_quote
 #
 ty
 :
+crate
 :
 :
 values
@@ -446,6 +449,7 @@ Err
 )
 ;
 }
+crate
 :
 :
 values
@@ -470,6 +474,7 @@ else
 quote
 !
 {
+crate
 :
 :
 values
@@ -648,6 +653,7 @@ quote
 impl
 #
 impl_generics
+crate
 :
 :
 values
@@ -691,6 +697,7 @@ Self
 >
 Result
 <
+crate
 :
 :
 values

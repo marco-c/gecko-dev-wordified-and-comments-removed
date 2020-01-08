@@ -176,8 +176,6 @@ parse_quote
 #
 param
 :
-:
-:
 style_traits
 :
 :
@@ -617,8 +615,6 @@ quote
 #
 ty
 as
-:
-:
 style_traits
 :
 :
@@ -664,8 +660,6 @@ quote
 #
 ty
 as
-:
-:
 style_traits
 :
 :
@@ -702,8 +696,6 @@ quote
 !
 {
 |
-:
-:
 style_traits
 :
 :
@@ -801,8 +793,6 @@ quote
 impl
 #
 impl_generics
-:
-:
 style_traits
 :
 :

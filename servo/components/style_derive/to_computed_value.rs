@@ -96,6 +96,7 @@ parse_quote
 #
 param
 :
+crate
 :
 :
 values
@@ -188,6 +189,7 @@ parse_quote
 #
 ident
 as
+crate
 :
 :
 values
@@ -218,6 +220,7 @@ parse_quote
 #
 ty
 :
+crate
 :
 :
 values
@@ -240,6 +243,7 @@ output_type
 quote
 !
 {
+crate
 :
 :
 values
@@ -282,6 +286,7 @@ binding
 quote
 !
 {
+crate
 :
 :
 values
@@ -363,6 +368,7 @@ quote
 impl
 #
 impl_generics
+crate
 :
 :
 values
@@ -397,6 +403,7 @@ self
 _context
 :
 &
+crate
 :
 :
 values
@@ -414,8 +421,6 @@ Self
 :
 ComputedValue
 {
-:
-:
 std
 :
 :
@@ -449,8 +454,6 @@ ComputedValue
 >
 Self
 {
-:
-:
 std
 :
 :
@@ -483,6 +486,9 @@ input
 parse_quote
 !
 (
+crate
+:
+:
 values
 :
 :
@@ -506,6 +512,7 @@ quote
 impl
 #
 impl_generics
+crate
 :
 :
 values
@@ -548,6 +555,7 @@ self
 context
 :
 &
+crate
 :
 :
 values
