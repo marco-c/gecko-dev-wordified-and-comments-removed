@@ -55,6 +55,23 @@ currentColor
 .
 search
 -
+one
+-
+offs
+{
+-
+moz
+-
+box
+-
+orient
+:
+vertical
+;
+}
+.
+search
+-
 panel
 -
 current
@@ -748,8 +765,6 @@ important
 .
 search
 -
-panel
--
 one
 -
 offs
@@ -762,7 +777,6 @@ compact
 true
 ]
 )
->
 .
 searchbar
 -
@@ -782,8 +796,6 @@ row
 .
 search
 -
-panel
--
 one
 -
 offs
@@ -792,7 +804,6 @@ compact
 =
 true
 ]
->
 .
 searchbar
 -
@@ -818,8 +829,6 @@ dummy
 .
 search
 -
-panel
--
 one
 -
 offs
@@ -828,7 +837,6 @@ compact
 =
 true
 ]
->
 .
 searchbar
 -
@@ -854,8 +862,6 @@ row
 .
 search
 -
-panel
--
 one
 -
 offs
@@ -864,7 +870,6 @@ compact
 =
 true
 ]
->
 .
 searchbar
 -
