@@ -9324,11 +9324,6 @@ mDestination
 0
 0
 )
-mScrollPosAtLastPaint
-(
-0
-0
-)
 mRestorePos
 (
 -
@@ -15166,12 +15161,6 @@ IsPaintingToWindow
 )
 )
 {
-mScrollPosAtLastPaint
-=
-GetScrollPosition
-(
-)
-;
 if
 (
 IsMaybeScrollingActive
@@ -15195,7 +15184,9 @@ nsPoint
 {
 mScrollPosForLayerPixelAlignment
 =
-mScrollPosAtLastPaint
+GetScrollPosition
+(
+)
 ;
 }
 }
