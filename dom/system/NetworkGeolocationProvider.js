@@ -1853,6 +1853,13 @@ now
 (
 )
 ;
+if
+(
+this
+.
+listener
+)
+{
 this
 .
 listener
@@ -1864,6 +1871,7 @@ gCachedRequest
 location
 )
 ;
+}
 return
 ;
 }
