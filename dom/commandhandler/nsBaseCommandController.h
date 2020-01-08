@@ -89,6 +89,15 @@ CreateEditingController
 (
 )
 ;
+static
+already_AddRefed
+<
+nsIController
+>
+CreateHTMLEditorController
+(
+)
+;
 protected
 :
 virtual
