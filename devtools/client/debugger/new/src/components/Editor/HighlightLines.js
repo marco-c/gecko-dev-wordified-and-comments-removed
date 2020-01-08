@@ -67,15 +67,6 @@ highlightLineRange
 :
 Function
 ;
-constructor
-(
-)
-{
-super
-(
-)
-;
-}
 componentDidMount
 (
 )
