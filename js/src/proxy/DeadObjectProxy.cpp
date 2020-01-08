@@ -586,11 +586,13 @@ isCallable
 obj
 )
 )
+{
 flags
 |
 =
 DeadObjectProxyIsCallable
 ;
+}
 if
 (
 obj
@@ -606,11 +608,13 @@ isConstructor
 obj
 )
 )
+{
 flags
 |
 =
 DeadObjectProxyIsConstructor
 ;
+}
 if
 (
 obj
@@ -631,11 +635,13 @@ private_
 )
 )
 )
+{
 flags
 |
 =
 DeadObjectProxyIsBackgroundFinalized
 ;
+}
 return
 Int32Value
 (
@@ -693,6 +699,7 @@ ProxyObject
 (
 )
 )
+{
 target
 =
 DeadProxyTargetValue
@@ -709,7 +716,9 @@ ProxyObject
 )
 )
 ;
+}
 else
+{
 target
 =
 Int32Value
@@ -717,6 +726,7 @@ Int32Value
 DeadObjectProxyIsBackgroundFinalized
 )
 ;
+}
 return
 NewProxyObject
 (
