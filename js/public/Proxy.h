@@ -842,17 +842,6 @@ adder
 const
 ;
 virtual
-JSObject
-*
-weakmapKeyDelegate
-(
-JSObject
-*
-proxy
-)
-const
-;
-virtual
 bool
 isScripted
 (

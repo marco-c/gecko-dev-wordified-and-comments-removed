@@ -735,7 +735,6 @@ ClassExtension
 MapIteratorObjectClassExtension
 =
 {
-nullptr
 MapIteratorObject
 :
 :
@@ -5531,7 +5530,6 @@ ClassExtension
 SetIteratorObjectClassExtension
 =
 {
-nullptr
 SetIteratorObject
 :
 :

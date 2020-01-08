@@ -260,7 +260,6 @@ ClassExtension
 SimpleGlobalClassExtension
 =
 {
-nullptr
 SimpleGlobal_moved
 }
 ;

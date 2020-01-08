@@ -1296,7 +1296,6 @@ ClassExtension
 ArrayBufferObjectClassExtension
 =
 {
-nullptr
 ArrayBufferObject
 :
 :

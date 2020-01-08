@@ -11585,13 +11585,6 @@ ClassExt
 =
 {
 \
-nullptr
-/
-*
-weakmapKeyDelegateOp
-*
-/
-\
 Moved
 /
 *

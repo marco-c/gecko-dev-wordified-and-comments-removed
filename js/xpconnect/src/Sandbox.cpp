@@ -2544,7 +2544,6 @@ ClassExtension
 SandboxClassExtension
 =
 {
-nullptr
 sandbox_moved
 }
 ;

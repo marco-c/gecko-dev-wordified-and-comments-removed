@@ -800,7 +800,7 @@ kdelegate
 js
 :
 :
-GetWeakmapKeyDelegate
+UncheckedUnwrapWithoutExpose
 (
 &
 aKey
@@ -1061,7 +1061,7 @@ kdelegate
 js
 :
 :
-GetWeakmapKeyDelegate
+UncheckedUnwrapWithoutExpose
 (
 &
 aKey

@@ -5720,7 +5720,6 @@ MappedArgumentsObject
 classExt_
 =
 {
-nullptr
 ArgumentsObject
 :
 :
@@ -5839,7 +5838,6 @@ UnmappedArgumentsObject
 classExt_
 =
 {
-nullptr
 ArgumentsObject
 :
 :

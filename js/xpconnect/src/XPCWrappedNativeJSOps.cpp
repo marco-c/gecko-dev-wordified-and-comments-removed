@@ -2930,7 +2930,6 @@ ClassExtension
 XPC_WN_JSClassExtension
 =
 {
-nullptr
 WrappedNativeObjectMoved
 }
 ;
@@ -5264,7 +5263,6 @@ ClassExtension
 XPC_WN_Proto_ClassExtension
 =
 {
-nullptr
 XPC_WN_Proto_ObjectMoved
 }
 ;
@@ -5682,7 +5680,6 @@ ClassExtension
 XPC_WN_Tearoff_JSClassExtension
 =
 {
-nullptr
 XPC_WN_TearOff_ObjectMoved
 }
 ;

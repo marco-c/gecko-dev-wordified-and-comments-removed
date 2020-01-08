@@ -9309,7 +9309,6 @@ ClassExtension
 TypedArrayClassExtension
 =
 {
-nullptr
 TypedArrayObject
 :
 :

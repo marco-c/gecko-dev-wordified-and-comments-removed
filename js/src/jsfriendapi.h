@@ -1722,17 +1722,6 @@ closure
 ;
 extern
 JS_FRIEND_API
-JSObject
-*
-GetWeakmapKeyDelegate
-(
-JSObject
-*
-key
-)
-;
-extern
-JS_FRIEND_API
 void
 IterateGrayObjects
 (
