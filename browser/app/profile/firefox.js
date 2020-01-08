@@ -3651,11 +3651,8 @@ false
 #
 endif
 #
-if
-defined
-(
-NIGHTLY_BUILD
-)
+ifdef
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
