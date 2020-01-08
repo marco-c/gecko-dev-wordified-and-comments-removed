@@ -722,7 +722,7 @@ Updates
 .
 accesskey
 =
-F
+U
 .
 tooltiptext
 =
