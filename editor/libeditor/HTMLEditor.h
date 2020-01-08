@@ -1300,6 +1300,11 @@ aRv
 )
 const
 ;
+nsresult
+DeleteTableCellContentsWithTransaction
+(
+)
+;
 void
 IsNextCharInNodeWhitespace
 (
@@ -3271,11 +3276,11 @@ aRowIndex
 )
 ;
 nsresult
-DeleteCellContents
+DeleteAllChildrenWithTransaction
 (
 Element
-*
-aCell
+&
+aElement
 )
 ;
 nsresult
