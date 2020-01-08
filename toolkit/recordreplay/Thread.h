@@ -187,6 +187,9 @@ void
 mUnrecordedWaitCallback
 ;
 bool
+mUnrecordedWaitOnlyWhenDiverged
+;
+bool
 mUnrecordedWaitNotified
 ;
 public
@@ -619,6 +622,8 @@ void
 >
 &
 aCallback
+bool
+aOnlyWhenDiverged
 )
 ;
 static

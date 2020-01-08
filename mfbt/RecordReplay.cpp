@@ -347,9 +347,13 @@ void
 >
 &
 aCallback
+bool
+aOnlyWhenDiverged
 )
+\
 (
 aCallback
+aOnlyWhenDiverged
 )
 )
 \

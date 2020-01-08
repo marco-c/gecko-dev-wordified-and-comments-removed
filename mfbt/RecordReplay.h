@@ -543,6 +543,8 @@ void
 >
 &
 aCallback
+bool
+aOnlyWhenDiverged
 )
 ;
 MFBT_API
