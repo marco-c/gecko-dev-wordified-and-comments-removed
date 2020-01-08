@@ -1217,7 +1217,7 @@ AppendElement
 nsGkAtoms
 :
 :
-scrollbar_start_backward
+_moz_scrollbar_start_backward
 )
 ;
 }
@@ -1239,7 +1239,7 @@ AppendElement
 nsGkAtoms
 :
 :
-scrollbar_start_forward
+_moz_scrollbar_start_forward
 )
 ;
 }
@@ -1261,7 +1261,7 @@ AppendElement
 nsGkAtoms
 :
 :
-scrollbar_end_backward
+_moz_scrollbar_end_backward
 )
 ;
 }
@@ -1283,7 +1283,7 @@ AppendElement
 nsGkAtoms
 :
 :
-scrollbar_end_forward
+_moz_scrollbar_end_forward
 )
 ;
 }
@@ -1319,7 +1319,7 @@ AppendElement
 nsGkAtoms
 :
 :
-scrollbar_thumb_proportional
+_moz_scrollbar_thumb_proportional
 )
 ;
 }
@@ -1349,7 +1349,7 @@ AppendElement
 nsGkAtoms
 :
 :
-overlay_scrollbars
+_moz_overlay_scrollbars
 )
 ;
 }
@@ -1379,7 +1379,7 @@ AppendElement
 nsGkAtoms
 :
 :
-menubar_drag
+_moz_menubar_drag
 )
 ;
 }
@@ -1418,7 +1418,7 @@ AppendElement
 nsGkAtoms
 :
 :
-windows_default_theme
+_moz_windows_default_theme
 )
 ;
 }
@@ -1456,7 +1456,7 @@ AppendElement
 nsGkAtoms
 :
 :
-mac_graphite_theme
+_moz_mac_graphite_theme
 )
 ;
 }
@@ -1494,7 +1494,7 @@ AppendElement
 nsGkAtoms
 :
 :
-mac_yosemite_theme
+_moz_mac_yosemite_theme
 )
 ;
 }
@@ -1532,7 +1532,7 @@ AppendElement
 nsGkAtoms
 :
 :
-windows_accent_color_in_titlebar
+_moz_windows_accent_color_in_titlebar
 )
 ;
 }
@@ -1570,7 +1570,7 @@ AppendElement
 nsGkAtoms
 :
 :
-windows_compositor
+_moz_windows_compositor
 )
 ;
 }
@@ -1608,7 +1608,7 @@ AppendElement
 nsGkAtoms
 :
 :
-windows_glass
+_moz_windows_glass
 )
 ;
 }
@@ -1646,7 +1646,7 @@ AppendElement
 nsGkAtoms
 :
 :
-windows_classic
+_moz_windows_classic
 )
 ;
 }
@@ -1684,7 +1684,7 @@ AppendElement
 nsGkAtoms
 :
 :
-touch_enabled
+_moz_touch_enabled
 )
 ;
 }
@@ -1722,7 +1722,7 @@ AppendElement
 nsGkAtoms
 :
 :
-swipe_animation_enabled
+_moz_swipe_animation_enabled
 )
 ;
 }
@@ -1760,7 +1760,7 @@ AppendElement
 nsGkAtoms
 :
 :
-gtk_csd_available
+_moz_gtk_csd_available
 )
 ;
 }
@@ -1798,7 +1798,7 @@ AppendElement
 nsGkAtoms
 :
 :
-gtk_csd_minimize_button
+_moz_gtk_csd_minimize_button
 )
 ;
 }
@@ -1836,7 +1836,7 @@ AppendElement
 nsGkAtoms
 :
 :
-gtk_csd_maximize_button
+_moz_gtk_csd_maximize_button
 )
 ;
 }
@@ -1874,7 +1874,7 @@ AppendElement
 nsGkAtoms
 :
 :
-gtk_csd_close_button
+_moz_gtk_csd_close_button
 )
 ;
 }
@@ -1904,7 +1904,7 @@ AppendElement
 nsGkAtoms
 :
 :
-system_dark_theme
+_moz_system_dark_theme
 )
 ;
 }
