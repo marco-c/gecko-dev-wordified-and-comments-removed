@@ -734,6 +734,7 @@ this
 free_
 (
 segment
+1
 )
 ;
 }
@@ -883,6 +884,7 @@ this
 free_
 (
 last
+1
 )
 ;
 }
@@ -967,6 +969,7 @@ this
 free_
 (
 last
+1
 )
 ;
 MOZ_ASSERT

@@ -610,6 +610,9 @@ free_
 segment
 .
 mData
+segment
+.
+mCapacity
 )
 ;
 }
@@ -1495,6 +1498,7 @@ this
 free_
 (
 aData
+aCapacity
 )
 ;
 return
@@ -1616,6 +1620,7 @@ this
 free_
 (
 data
+aCapacity
 )
 ;
 return

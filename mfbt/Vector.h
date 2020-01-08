@@ -665,6 +665,11 @@ free_
 aV
 .
 mBegin
+aV
+.
+mTail
+.
+mCapacity
 )
 ;
 aV
@@ -1098,6 +1103,11 @@ free_
 aV
 .
 mBegin
+aV
+.
+mTail
+.
+mCapacity
 )
 ;
 aV
@@ -3366,6 +3376,9 @@ free_
 beginNoCheck
 (
 )
+mTail
+.
+mCapacity
 )
 ;
 }
@@ -4754,6 +4767,9 @@ free_
 beginNoCheck
 (
 )
+mTail
+.
+mCapacity
 )
 ;
 mBegin
@@ -6326,6 +6342,9 @@ free_
 beginNoCheck
 (
 )
+mTail
+.
+mCapacity
 )
 ;
 }
@@ -6382,6 +6401,7 @@ this
 free_
 (
 aP
+aCapacity
 )
 ;
 }

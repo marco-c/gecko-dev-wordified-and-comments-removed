@@ -5530,6 +5530,7 @@ alloc
 free_
 (
 oldTable
+capacity
 )
 ;
 }
@@ -6682,6 +6683,7 @@ this
 free_
 (
 oldTable
+oldCap
 )
 ;
 return
