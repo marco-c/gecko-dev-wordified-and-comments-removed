@@ -466,6 +466,14 @@ gfxPlatform
 IsInLayoutAsapMode
 (
 )
+|
+|
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 ;
 }
 CompositorVsyncScheduler

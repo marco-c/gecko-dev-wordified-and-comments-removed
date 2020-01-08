@@ -4587,6 +4587,15 @@ mVsyncRate
 if
 (
 requestNextFrame
+&
+&
+!
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 {
 ScheduleComposition
