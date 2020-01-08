@@ -22453,6 +22453,11 @@ aTo
 ;
 #
 endif
+bool
+IsValidMask
+(
+)
+;
 void
 PaintAsLayer
 (
