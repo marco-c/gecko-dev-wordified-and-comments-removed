@@ -631,12 +631,6 @@ getBoolPref
 PREF_SEPARATE_PRIVILEGED_CONTENT_PROCESS
 )
 ;
-this
-.
-notifyChange
-(
-)
-;
 }
 else
 if
