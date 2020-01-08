@@ -7084,9 +7084,7 @@ onSecurityChange
 (
 webProgress
 request
-oldState
 state
-contentBlockingLogJSON
 )
 {
 }
