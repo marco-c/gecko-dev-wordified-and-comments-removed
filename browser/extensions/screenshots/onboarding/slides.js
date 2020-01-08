@@ -203,6 +203,16 @@ margin
 ;
 iframe
 .
+style
+.
+backgroundColor
+=
+"
+transparent
+"
+;
+iframe
+.
 scrolling
 =
 "
