@@ -831,6 +831,11 @@ true
 #
 undef
 MOZ_MakeRecordReplayPrinter
+int
+GetRecordingPid
+(
+)
+;
 void
 InitializeCurrentTime
 (
