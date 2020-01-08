@@ -33852,6 +33852,10 @@ SIL
 Compact
 Noto
 Serif
+CJK
+JP
+Noto
+Serif
 Droid
 Serif
 "
@@ -33907,7 +33911,7 @@ ja
 "
 MotoyaLMaru
 MotoyaLCedar
-Droid
+Noto
 Sans
 Mono
 CJK
@@ -33935,6 +33939,10 @@ ko
 Charis
 SIL
 Compact
+Noto
+Serif
+CJK
+KR
 Noto
 Serif
 Droid
@@ -34307,6 +34315,10 @@ SIL
 Compact
 Noto
 Serif
+CJK
+SC
+Noto
+Serif
 Droid
 Serif
 Droid
@@ -34398,6 +34410,10 @@ HK
 Charis
 SIL
 Compact
+Noto
+Serif
+CJK
+TC
 Noto
 Serif
 Droid
@@ -34494,6 +34510,10 @@ TW
 Charis
 SIL
 Compact
+Noto
+Serif
+CJK
+TC
 Noto
 Serif
 Droid
