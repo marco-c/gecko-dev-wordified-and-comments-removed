@@ -40,14 +40,18 @@ OS_ARCH
 '
 ]
 and
+\
+        
 buildconfig
 .
 substs
-[
+.
+get
+(
 '
 GCC_USE_GNU_LD
 '
-]
+)
     
 with
 open
