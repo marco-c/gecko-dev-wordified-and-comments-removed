@@ -119,6 +119,13 @@ nsIPrincipal
 aPrincipal
 )
 ;
+enum
+StorageAccessGrantedReason
+{
+eStorageAccessAPI
+eHeuristic
+}
+;
 typedef
 MozPromise
 <
@@ -143,6 +150,8 @@ aOrigin
 nsPIDOMWindowInner
 *
 aParentWindow
+StorageAccessGrantedReason
+aReason
 )
 ;
 static

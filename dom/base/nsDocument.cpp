@@ -56114,6 +56114,10 @@ AddFirstPartyStorageAccessGrantedFor
 (
 origin
 openerInner
+AntiTrackingCommon
+:
+:
+eHeuristic
 )
 ;
 }

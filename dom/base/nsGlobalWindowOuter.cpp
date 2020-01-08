@@ -29050,6 +29050,10 @@ AddFirstPartyStorageAccessGrantedFor
 (
 origin
 inner
+AntiTrackingCommon
+:
+:
+eHeuristic
 )
 ;
 }
