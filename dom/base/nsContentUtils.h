@@ -5825,6 +5825,15 @@ aURI
 ;
 static
 bool
+IsTrackingResourceWindow
+(
+nsPIDOMWindowInner
+*
+aWindow
+)
+;
+static
+bool
 SerializeNodeToMarkup
 (
 nsINode
