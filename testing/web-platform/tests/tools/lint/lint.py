@@ -1628,10 +1628,24 @@ path
 else
 :
             
-test_files
-[
+name
+=
 source_file
 .
+name
+.
+replace
+(
+'
+-
+manual
+'
+'
+'
+)
+            
+test_files
+[
 name
 ]
 .
