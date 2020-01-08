@@ -82,7 +82,7 @@ win
 )
 ;
 await
-closeWindowAndWaitForXulWindowVisible
+closeWindowAndWaitForWindowActivate
 (
 win
 )
@@ -368,7 +368,7 @@ win
 )
 ;
 await
-closeWindowAndWaitForXulWindowVisible
+closeWindowAndWaitForWindowActivate
 (
 win
 )
