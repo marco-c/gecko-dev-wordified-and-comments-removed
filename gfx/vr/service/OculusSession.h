@@ -39,8 +39,7 @@ h
 #
 include
 "
-.
-.
+oculus
 /
 ovr_capi_dynamic
 .

@@ -220,6 +220,8 @@ gfx
 /
 vr
 /
+service
+/
 openvr
 "
 directory
@@ -238,6 +240,8 @@ to
 gfx
 /
 vr
+/
+service
 /
 openvr
 /
@@ -283,6 +287,8 @@ gfx
 /
 vr
 /
+service
+/
 openvr
 /
 src
@@ -295,6 +301,8 @@ Update
 gfx
 /
 vr
+/
+service
 /
 openvr
 /

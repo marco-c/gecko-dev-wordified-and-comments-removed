@@ -178,6 +178,8 @@ gfx
 /
 vr
 /
+service
+/
 openvr
 /
 gfx
