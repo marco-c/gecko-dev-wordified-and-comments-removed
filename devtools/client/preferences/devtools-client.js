@@ -540,7 +540,7 @@ fonthighlighter
 .
 enabled
 "
-false
+true
 )
 ;
 #
