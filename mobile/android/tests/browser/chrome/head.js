@@ -25,7 +25,7 @@ b
 function
 promiseBrowserEvent
 (
-browser
+browserOrFrame
 eventType
 options
 )
@@ -53,9 +53,16 @@ event
 target
 !
 =
-browser
+(
+browserOrFrame
 .
 contentDocument
+|
+|
+browserOrFrame
+.
+document
+)
 |
 |
 event
@@ -120,7 +127,7 @@ browser
 "
 )
 ;
-browser
+browserOrFrame
 .
 removeEventListener
 (
@@ -162,7 +169,7 @@ event
 ;
 }
 }
-browser
+browserOrFrame
 .
 addEventListener
 (
