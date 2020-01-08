@@ -117,7 +117,7 @@ mp4
 type
 :
 '
-video
+audio
 /
 webm
 ;
@@ -152,7 +152,7 @@ webm
 type
 :
 '
-video
+audio
 /
 mp4
 ;
