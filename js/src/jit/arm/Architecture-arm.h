@@ -2141,6 +2141,7 @@ isDouble
 (
 )
 )
+{
 return
 !
 !
@@ -2163,6 +2164,7 @@ FloatRegisters
 VolatileMask
 )
 ;
+}
 return
 !
 !
@@ -2195,6 +2197,7 @@ isDouble
 (
 )
 )
+{
 return
 FloatRegisters
 :
@@ -2207,6 +2210,7 @@ code_
 )
 )
 ;
+}
 return
 FloatRegisters
 :
@@ -2238,6 +2242,7 @@ other
 .
 kind
 )
+{
 return
 code_
 =
@@ -2246,6 +2251,7 @@ other
 .
 code_
 ;
+}
 return
 doubleOverlay
 (
@@ -2285,9 +2291,11 @@ code_
 <
 NumAliasedDoubles
 )
+{
 return
 3
 ;
+}
 return
 1
 ;
@@ -2310,10 +2318,12 @@ aliasIdx
 =
 0
 )
+{
 return
 *
 this
 ;
+}
 if
 (
 isDouble
@@ -2381,9 +2391,11 @@ code_
 <
 NumAliasedDoubles
 )
+{
 return
 2
 ;
+}
 return
 1
 ;
@@ -2412,10 +2424,12 @@ aliasIdx
 =
 0
 )
+{
 return
 *
 this
 ;
+}
 MOZ_ASSERT
 (
 aliasIdx
@@ -2497,6 +2511,7 @@ code_
 =
 0
 )
+{
 return
 SetType
 (
@@ -2506,6 +2521,7 @@ SetType
 <
 code_
 ;
+}
 return
 (
 SetType

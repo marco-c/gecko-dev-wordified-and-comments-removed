@@ -218,9 +218,11 @@ code
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 (
@@ -240,9 +242,11 @@ code
 =
 0
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -1085,9 +1089,11 @@ can_dbl
 op
 )
 )
+{
 return
 false
 ;
+}
 ALUOp
 interop
 =
@@ -1124,9 +1130,11 @@ invalid
 (
 )
 )
+{
 return
 false
 ;
+}
 as_alu
 (
 dest
@@ -1330,8 +1338,10 @@ s
 c
 )
 )
+{
 return
 ;
+}
 if
 (
 negOp
@@ -1350,8 +1360,10 @@ s
 c
 )
 )
+{
 return
 ;
+}
 ma_mov
 (
 imm
@@ -1792,6 +1804,7 @@ dest
 =
 src
 )
+{
 as_mov
 (
 dest
@@ -1803,6 +1816,7 @@ s
 c
 )
 ;
+}
 }
 void
 MacroAssemblerARM
@@ -1921,6 +1935,7 @@ value
 >
 16
 )
+{
 as_movt
 (
 dest
@@ -1939,6 +1954,7 @@ value
 c
 )
 ;
+}
 return
 ;
 }
@@ -5276,6 +5292,7 @@ size
 IsSigned
 )
 )
+{
 return
 as_dtr
 (
@@ -5296,6 +5313,7 @@ scale
 cc
 )
 ;
+}
 if
 (
 scale
@@ -5411,6 +5429,7 @@ size
 IsSigned
 )
 )
+{
 return
 as_dtr
 (
@@ -5431,6 +5450,7 @@ TimesOne
 cc
 )
 ;
+}
 return
 as_extdtr
 (
@@ -5886,6 +5906,7 @@ off
 -
 256
 )
+{
 return
 as_extdtr
 (
@@ -5905,6 +5926,7 @@ off
 cc
 )
 ;
+}
 int
 bottom
 =
@@ -6462,16 +6484,20 @@ HasDMBDSBISB
 (
 )
 )
+{
 as_dmb
 (
 option
 )
 ;
+}
 else
+{
 as_dmb_trap
 (
 )
 ;
+}
 }
 void
 MacroAssemblerARM
@@ -6489,16 +6515,20 @@ HasDMBDSBISB
 (
 )
 )
+{
 as_dsb
 (
 option
 )
 ;
+}
 else
+{
 as_dsb_trap
 (
 )
 ;
+}
 }
 BufferOffset
 MacroAssemblerARM
@@ -8098,6 +8128,7 @@ off
 <
 1024
 )
+{
 return
 as_vdtr
 (
@@ -8114,6 +8145,7 @@ toVFPAddr
 cc
 )
 ;
+}
 int
 bottom
 =
@@ -12853,18 +12885,22 @@ isMissing
 (
 )
 )
+{
 ma_vcmpz
 (
 lhs
 )
 ;
+}
 else
+{
 ma_vcmp
 (
 lhs
 rhs
 )
 ;
+}
 as_vmrs
 (
 pc
@@ -12891,6 +12927,7 @@ isMissing
 (
 )
 )
+{
 as_vcmpz
 (
 VFPRegister
@@ -12903,7 +12940,9 @@ singleOverlay
 )
 )
 ;
+}
 else
+{
 as_vcmp
 (
 VFPRegister
@@ -12924,6 +12963,7 @@ singleOverlay
 )
 )
 ;
+}
 as_vmrs
 (
 pc
@@ -15273,6 +15313,7 @@ payloadReg
 =
 dest
 )
+{
 ma_mov
 (
 operand
@@ -15284,6 +15325,7 @@ dest
 LeaveCC
 )
 ;
+}
 }
 ;
 if
@@ -15794,6 +15836,7 @@ payloadReg
 (
 )
 )
+{
 ma_mov
 (
 src
@@ -15804,6 +15847,7 @@ payloadReg
 )
 )
 ;
+}
 ma_mov
 (
 ImmType
@@ -17402,6 +17446,7 @@ payloadReg
 (
 )
 )
+{
 ma_mov
 (
 payload
@@ -17412,6 +17457,7 @@ payloadReg
 )
 )
 ;
+}
 ma_mov
 (
 ImmType
@@ -17583,6 +17629,7 @@ isGCThing
 (
 )
 )
+{
 ma_mov
 (
 ImmGCPtr
@@ -17596,7 +17643,9 @@ toGCThing
 scratch
 )
 ;
+}
 else
+{
 ma_mov
 (
 Imm32
@@ -17610,6 +17659,7 @@ toNunboxPayload
 scratch
 )
 ;
+}
 ma_str
 (
 scratch
@@ -17704,6 +17754,7 @@ isGCThing
 (
 )
 )
+{
 ma_mov
 (
 ImmGCPtr
@@ -17717,7 +17768,9 @@ toGCThing
 scratch
 )
 ;
+}
 else
+{
 ma_mov
 (
 Imm32
@@ -17731,6 +17784,7 @@ toNunboxPayload
 scratch
 )
 ;
+}
 JS_STATIC_ASSERT
 (
 NUNBOX32_PAYLOAD_OFFSET
@@ -17748,6 +17802,7 @@ offset
 =
 0
 )
+{
 ma_add
 (
 dest
@@ -17765,6 +17820,7 @@ base
 scratch2
 )
 ;
+}
 as_dtr
 (
 IsStore
@@ -17796,6 +17852,7 @@ offset
 =
 0
 )
+{
 ma_sub
 (
 dest
@@ -17813,6 +17870,7 @@ base
 scratch
 )
 ;
+}
 }
 void
 MacroAssemblerARMCompat
@@ -17870,6 +17928,7 @@ offset
 =
 0
 )
+{
 ma_add
 (
 dest
@@ -17887,6 +17946,7 @@ base
 scratch
 )
 ;
+}
 as_dtr
 (
 IsStore
@@ -17918,6 +17978,7 @@ offset
 =
 0
 )
+{
 ma_sub
 (
 dest
@@ -17935,6 +17996,7 @@ base
 scratch
 )
 ;
+}
 }
 void
 MacroAssemblerARMCompat
@@ -20277,16 +20339,20 @@ if
 (
 enabled
 )
+{
 ma_blx
 (
 scratch
 )
 ;
+}
 else
+{
 ma_nop
 (
 )
 ;
+}
 return
 CodeOffset
 (
@@ -21603,6 +21669,7 @@ imm32
 .
 value
 )
+{
 ma_sub
 (
 imm32
@@ -21610,6 +21677,7 @@ sp
 scratch
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -22243,6 +22311,7 @@ has
 iter
 )
 )
+{
 loadDouble
 (
 Address
@@ -22254,6 +22323,7 @@ diffF
 iter
 )
 ;
+}
 }
 freeStack
 (
@@ -22392,6 +22462,7 @@ has
 iter
 )
 )
+{
 loadPtr
 (
 Address
@@ -22403,6 +22474,7 @@ diffG
 iter
 )
 ;
+}
 }
 freeStack
 (
@@ -23544,8 +23616,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 MoveEmitter
 emitter
 (
@@ -23579,12 +23653,14 @@ secondScratchReg_
 =
 lr
 )
+{
 ma_mov
 (
 lr
 secondScratchReg_
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -23610,12 +23686,14 @@ secondScratchReg_
 =
 lr
 )
+{
 ma_mov
 (
 secondScratchReg_
 lr
 )
 ;
+}
 if
 (
 !
@@ -24002,6 +24080,7 @@ payloadReg
 (
 )
 )
+{
 mov
 (
 reg
@@ -24016,6 +24095,7 @@ payloadReg
 )
 )
 ;
+}
 return
 ;
 }
@@ -24211,12 +24291,14 @@ s0
 =
 d0
 )
+{
 ma_mov
 (
 s0
 d0
 )
 ;
+}
 if
 (
 s1
@@ -24224,12 +24306,14 @@ s1
 =
 d1
 )
+{
 ma_mov
 (
 s1
 d1
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -24272,6 +24356,7 @@ isGCThing
 (
 )
 )
+{
 ma_mov
 (
 ImmGCPtr
@@ -24289,7 +24374,9 @@ payloadReg
 )
 )
 ;
+}
 else
+{
 ma_mov
 (
 Imm32
@@ -24307,6 +24394,7 @@ payloadReg
 )
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -24862,6 +24950,7 @@ isGCThing
 (
 )
 )
+{
 ma_cmp
 (
 lhs
@@ -24880,7 +24969,9 @@ toGCThing
 scratch
 )
 ;
+}
 else
+{
 ma_cmp
 (
 lhs
@@ -24899,6 +24990,7 @@ toNunboxPayload
 scratch
 )
 ;
+}
 ma_cmp
 (
 lhs
@@ -24989,6 +25081,7 @@ valueType
 =
 slotType
 )
+{
 storeTypeTag
 (
 ImmType
@@ -25001,6 +25094,7 @@ valueType
 dest
 )
 ;
+}
 if
 (
 value
@@ -25009,6 +25103,7 @@ constant
 (
 )
 )
+{
 storePayload
 (
 value
@@ -25019,7 +25114,9 @@ value
 dest
 )
 ;
+}
 else
+{
 storePayload
 (
 value
@@ -25038,6 +25135,7 @@ gpr
 dest
 )
 ;
+}
 }
 template
 void
@@ -25140,6 +25238,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 ma_mov
 (
 boundsCheckLimit
@@ -25148,6 +25247,7 @@ LeaveCC
 cond
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -25228,6 +25328,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 ma_mov
 (
 scratch
@@ -25236,6 +25337,7 @@ LeaveCC
 cond
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -26068,6 +26170,7 @@ offset
 =
 0
 )
+{
 masm
 .
 ma_add
@@ -26081,6 +26184,7 @@ r
 scratch
 )
 ;
+}
 return
 r
 ;
@@ -26115,11 +26219,13 @@ offset
 =
 0
 )
+{
 return
 src
 .
 base
 ;
+}
 masm
 .
 ma_add
@@ -26384,6 +26490,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -26397,12 +26504,14 @@ getOffset
 )
 )
 ;
+}
 if
 (
 nbytes
 <
 4
 )
+{
 masm
 .
 as_cmp
@@ -26414,7 +26523,9 @@ scratch
 )
 )
 ;
+}
 else
+{
 masm
 .
 as_cmp
@@ -26426,6 +26537,7 @@ oldval
 )
 )
 ;
+}
 masm
 .
 as_b
@@ -26839,6 +26951,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 as_sxtb
@@ -26848,6 +26961,7 @@ output
 0
 )
 ;
+}
 masm
 .
 as_strexb
@@ -26876,6 +26990,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 as_sxth
@@ -26885,6 +27000,7 @@ output
 0
 )
 ;
+}
 masm
 .
 as_strexh
@@ -26925,6 +27041,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -26938,6 +27055,7 @@ getOffset
 )
 )
 ;
+}
 masm
 .
 as_cmp
@@ -27298,6 +27416,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 as_sxtb
@@ -27307,6 +27426,7 @@ output
 0
 )
 ;
+}
 break
 ;
 case
@@ -27326,6 +27446,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 as_sxth
@@ -27335,6 +27456,7 @@ output
 0
 )
 ;
+}
 break
 ;
 case
@@ -27357,6 +27479,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -27370,6 +27493,7 @@ getOffset
 )
 )
 ;
+}
 switch
 (
 op
@@ -27897,6 +28021,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -27910,6 +28035,7 @@ getOffset
 )
 )
 ;
+}
 switch
 (
 op
@@ -30434,6 +30560,7 @@ if
 (
 isRemainder
 )
+{
 masm
 .
 remainder32
@@ -30443,7 +30570,9 @@ lhsOutput
 isSigned
 )
 ;
+}
 else
+{
 masm
 .
 quotient32
@@ -30453,6 +30582,7 @@ lhsOutput
 isSigned
 )
 ;
+}
 }
 else
 {
@@ -30545,6 +30675,7 @@ if
 (
 isRemainder
 )
+{
 masm
 .
 mov
@@ -30553,7 +30684,9 @@ ReturnRegVal1
 lhsOutput
 )
 ;
+}
 else
+{
 masm
 .
 mov
@@ -30562,6 +30695,7 @@ ReturnRegVal0
 lhsOutput
 )
 ;
+}
 LiveRegisterSet
 ignore
 ;
@@ -30887,12 +31021,14 @@ MIRType
 :
 Double
 )
+{
 ma_vcvt_F64_U32
 (
 input
 scratch
 )
 ;
+}
 else
 if
 (
@@ -30904,13 +31040,16 @@ MIRType
 :
 Float32
 )
+{
 ma_vcvt_F32_U32
 (
 input
 scratch
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -30921,6 +31060,7 @@ visitWasmTruncateToInt32
 "
 )
 ;
+}
 ma_vxfer
 (
 scratch
@@ -30986,6 +31126,7 @@ MIRType
 :
 Double
 )
+{
 asMasm
 (
 )
@@ -30996,6 +31137,7 @@ input
 input
 )
 ;
+}
 else
 if
 (
@@ -31007,6 +31149,7 @@ MIRType
 :
 Float32
 )
+{
 asMasm
 (
 )
@@ -31017,7 +31160,9 @@ input
 input
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -31028,6 +31173,7 @@ visitWasmTruncateToInt32
 "
 )
 ;
+}
 ma_b
 (
 oolEntry
@@ -31056,12 +31202,14 @@ MIRType
 :
 Double
 )
+{
 ma_vcvt_F64_I32
 (
 input
 scratch
 )
 ;
+}
 else
 if
 (
@@ -31073,13 +31221,16 @@ MIRType
 :
 Float32
 )
+{
 ma_vcvt_F32_I32
 (
 input
 scratch
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -31090,6 +31241,7 @@ visitWasmTruncateToInt32
 "
 )
 ;
+}
 ma_vxfer
 (
 scratch
@@ -31167,8 +31319,10 @@ flags
 &
 TRUNC_SATURATING
 )
+{
 return
 ;
+}
 bool
 isUnsigned
 =
@@ -31200,6 +31354,7 @@ MIRType
 :
 Double
 )
+{
 asMasm
 (
 )
@@ -31216,6 +31371,7 @@ input
 inputIsNaN
 )
 ;
+}
 else
 if
 (
@@ -31227,6 +31383,7 @@ MIRType
 :
 Float32
 )
+{
 asMasm
 (
 )
@@ -31243,7 +31400,9 @@ input
 inputIsNaN
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -31254,6 +31413,7 @@ visitOutOfLineWasmTruncateCheck
 "
 )
 ;
+}
 Label
 fail
 ;
@@ -31704,6 +31864,7 @@ if
 (
 offset
 )
+{
 ma_add
 (
 Imm32
@@ -31714,6 +31875,7 @@ ptr
 scratch
 )
 ;
+}
 }
 bool
 isSigned
@@ -31901,6 +32063,7 @@ if
 (
 isSigned
 )
+{
 ma_asr
 (
 Imm32
@@ -31915,7 +32078,9 @@ out64
 high
 )
 ;
+}
 else
+{
 ma_mov
 (
 Imm32
@@ -31927,6 +32092,7 @@ out64
 high
 )
 ;
+}
 }
 }
 else
@@ -32160,6 +32326,7 @@ if
 (
 offset
 )
+{
 ma_add
 (
 Imm32
@@ -32170,6 +32337,7 @@ ptr
 scratch
 )
 ;
+}
 }
 asMasm
 (
@@ -32935,6 +33103,7 @@ if
 (
 isSigned
 )
+{
 ma_asr
 (
 Imm32
@@ -32949,7 +33118,9 @@ out64
 high
 )
 ;
+}
 else
+{
 ma_mov
 (
 Imm32
@@ -32961,6 +33132,7 @@ out64
 high
 )
 ;
+}
 }
 else
 {
@@ -33485,6 +33657,7 @@ if
 (
 access
 )
+{
 append
 (
 *
@@ -33496,6 +33669,7 @@ getOffset
 )
 )
 ;
+}
 ma_lsl
 (
 Imm32
@@ -33688,6 +33862,7 @@ byteSize
 &
 access
 )
+{
 append
 (
 *
@@ -33699,6 +33874,7 @@ getOffset
 )
 )
 ;
+}
 }
 as_dtr
 (

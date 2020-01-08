@@ -323,6 +323,7 @@ base
 =
 StackPointer
 )
+{
 return
 Address
 (
@@ -340,6 +341,7 @@ void
 )
 )
 ;
+}
 return
 ToPayload
 (
@@ -3394,11 +3396,13 @@ isDouble
 (
 )
 )
+{
 offset
 +
 =
 delta
 ;
+}
 transferFloatReg
 (
 *
@@ -5597,6 +5601,7 @@ isFloat
 (
 )
 )
+{
 loadInt32OrDouble
 (
 address
@@ -5615,7 +5620,9 @@ address
 scale
 )
 ;
+}
 else
+{
 load32
 (
 address
@@ -5626,6 +5633,7 @@ gpr
 )
 )
 ;
+}
 }
 template
 <
@@ -5789,6 +5797,7 @@ payloadoffset
 -
 4096
 )
+{
 ma_str
 (
 reg
@@ -5802,7 +5811,9 @@ payloadoffset
 )
 )
 ;
+}
 else
+{
 ma_str
 (
 reg
@@ -5814,6 +5825,7 @@ payloadoffset
 scratch2
 )
 ;
+}
 if
 (
 typeoffset
@@ -6016,6 +6028,7 @@ isGCThing
 (
 )
 )
+{
 ma_mov
 (
 ImmGCPtr
@@ -6029,7 +6042,9 @@ toGCThing
 scratch
 )
 ;
+}
 else
+{
 ma_mov
 (
 Imm32
@@ -6043,6 +6058,7 @@ toNunboxPayload
 scratch
 )
 ;
+}
 ma_str
 (
 scratch
@@ -6235,6 +6251,7 @@ isGCThing
 (
 )
 )
+{
 ma_mov
 (
 ImmGCPtr
@@ -6248,7 +6265,9 @@ toGCThing
 scratch2
 )
 ;
+}
 else
+{
 ma_mov
 (
 Imm32
@@ -6262,6 +6281,7 @@ toNunboxPayload
 scratch2
 )
 ;
+}
 ma_str
 (
 scratch2
@@ -6296,6 +6316,7 @@ isGCThing
 (
 )
 )
+{
 ma_mov
 (
 ImmGCPtr
@@ -6309,7 +6330,9 @@ toGCThing
 scratch2
 )
 ;
+}
 else
+{
 ma_mov
 (
 Imm32
@@ -6323,6 +6346,7 @@ toNunboxPayload
 scratch2
 )
 ;
+}
 ma_str
 (
 scratch2
@@ -6484,6 +6508,7 @@ isGCThing
 (
 )
 )
+{
 push
 (
 ImmGCPtr
@@ -6496,7 +6521,9 @@ toGCThing
 )
 )
 ;
+}
 else
+{
 push
 (
 Imm32
@@ -6509,6 +6536,7 @@ toNunboxPayload
 )
 )
 ;
+}
 }
 void
 pushValue
@@ -7770,6 +7798,7 @@ address
 .
 offset
 )
+{
 ma_add
 (
 dest
@@ -7784,6 +7813,7 @@ scratch
 LeaveCC
 )
 ;
+}
 }
 void
 floor

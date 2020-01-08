@@ -144,6 +144,7 @@ i
 +
 +
 )
+{
 emit
 (
 moves
@@ -154,6 +155,7 @@ i
 )
 )
 ;
+}
 }
 MoveEmitterARM
 :
@@ -387,9 +389,11 @@ spilledReg_
 =
 InvalidReg
 )
+{
 return
 spilledReg_
 ;
+}
 spilledReg_
 =
 r14
@@ -1011,6 +1015,7 @@ numAlignedAliased
 =
 1
 )
+{
 offset
 =
 sizeof
@@ -1018,6 +1023,7 @@ sizeof
 float
 )
 ;
+}
 masm
 .
 ma_vldr
@@ -1184,6 +1190,7 @@ numAlignedAliased
 =
 1
 )
+{
 offset
 =
 sizeof
@@ -1191,6 +1198,7 @@ sizeof
 float
 )
 ;
+}
 masm
 .
 ma_vldr
@@ -1436,6 +1444,7 @@ isMemoryOrEffectiveAddress
 (
 )
 )
+{
 masm
 .
 ma_str
@@ -1452,7 +1461,9 @@ to
 scratch
 )
 ;
+}
 else
+{
 masm
 .
 ma_mov
@@ -1469,6 +1480,7 @@ reg
 )
 )
 ;
+}
 }
 else
 if
@@ -1497,6 +1509,7 @@ isMemory
 (
 )
 )
+{
 masm
 .
 ma_ldr
@@ -1513,7 +1526,9 @@ reg
 scratch
 )
 ;
+}
 else
+{
 masm
 .
 ma_add
@@ -1539,6 +1554,7 @@ reg
 scratch
 )
 ;
+}
 }
 else
 {
@@ -1566,6 +1582,7 @@ isMemory
 (
 )
 )
+{
 masm
 .
 ma_ldr
@@ -1578,7 +1595,9 @@ reg
 scratch
 )
 ;
+}
 else
+{
 masm
 .
 ma_add
@@ -1600,6 +1619,7 @@ reg
 scratch
 )
 ;
+}
 MOZ_ASSERT
 (
 to
@@ -1685,6 +1705,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 ma_vmov_f32
@@ -1701,6 +1722,7 @@ floatReg
 )
 )
 ;
+}
 else
 if
 (
@@ -1710,6 +1732,7 @@ isGeneralReg
 (
 )
 )
+{
 masm
 .
 ma_vxfer
@@ -1726,7 +1749,9 @@ reg
 )
 )
 ;
+}
 else
+{
 masm
 .
 ma_vstr
@@ -1750,6 +1775,7 @@ to
 scratch
 )
 ;
+}
 }
 else
 if
@@ -1997,6 +2023,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 ma_vmov
@@ -2013,6 +2040,7 @@ floatReg
 )
 )
 ;
+}
 else
 if
 (
@@ -2022,6 +2050,7 @@ isGeneralRegPair
 (
 )
 )
+{
 masm
 .
 ma_vxfer
@@ -2043,7 +2072,9 @@ oddReg
 )
 )
 ;
+}
 else
+{
 masm
 .
 ma_vstr
@@ -2060,6 +2091,7 @@ to
 scratch
 )
 ;
+}
 }
 else
 if
@@ -2079,6 +2111,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 ma_vxfer
@@ -2100,6 +2133,7 @@ floatReg
 )
 )
 ;
+}
 else
 if
 (
