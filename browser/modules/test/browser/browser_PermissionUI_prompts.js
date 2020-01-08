@@ -252,6 +252,11 @@ permissionKey
 =
 TestPrompt
 .
+usePermissionManager
+&
+&
+TestPrompt
+.
 permissionKey
 ;
 registerCleanupFunction
