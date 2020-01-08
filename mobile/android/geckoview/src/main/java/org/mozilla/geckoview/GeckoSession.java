@@ -10880,7 +10880,7 @@ type
 if
 (
 "
-video
+videoinput
 "
 .
 equals
@@ -10897,7 +10897,7 @@ else
 if
 (
 "
-audio
+audioinput
 "
 .
 equals
