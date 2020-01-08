@@ -1430,13 +1430,6 @@ kFontSmoothingKTable
 static
 const
 KTableEntry
-kFontVariantAlternatesFuncsKTable
-[
-]
-;
-static
-const
-KTableEntry
 kGridAutoFlowKTable
 [
 ]

@@ -222,6 +222,9 @@ StyleDisplay
 "
 StyleAppearance
 "
+"
+StyleDisplayMode
+"
 ]
 item_types
 =
