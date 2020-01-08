@@ -31,17 +31,6 @@ ConstrainViewportValues
 (
 )
 {
-mMaxZoom
-=
-std
-:
-:
-max
-(
-mMinZoom
-mMaxZoom
-)
-;
 if
 (
 mDefaultZoom
