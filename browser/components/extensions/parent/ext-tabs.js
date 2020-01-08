@@ -4297,6 +4297,17 @@ nativeTab
 false
 )
 ;
+if
+(
+updateProperties
+.
+active
+!
+=
+=
+false
+)
+{
 tabbrowser
 .
 lockClearMultiSelectionOnce
@@ -4309,6 +4320,7 @@ selectedTab
 =
 nativeTab
 ;
+}
 }
 }
 else
