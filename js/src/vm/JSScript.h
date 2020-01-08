@@ -2294,6 +2294,13 @@ Nothing
 )
 )
 ;
+static
+constexpr
+size_t
+MinimumCompressibleLength
+=
+256
+;
 template
 <
 typename
