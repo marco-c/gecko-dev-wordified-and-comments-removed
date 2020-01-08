@@ -1,16 +1,5 @@
 DOM_PREF
 (
-PerformanceLoggingEnabled
-"
-dom
-.
-performance
-.
-enable_user_timing_logging
-"
-)
-DOM_PREF
-(
 NotificationEnabled
 "
 dom

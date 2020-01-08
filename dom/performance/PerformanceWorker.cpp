@@ -12,7 +12,7 @@ mozilla
 /
 dom
 /
-DOMPrefs
+WorkerPrivate
 .
 h
 "
@@ -21,9 +21,7 @@ include
 "
 mozilla
 /
-dom
-/
-WorkerPrivate
+StaticPrefs
 .
 h
 "
@@ -94,10 +92,10 @@ aEntry
 {
 if
 (
-DOMPrefs
+StaticPrefs
 :
 :
-PerformanceLoggingEnabled
+dom_performance_enable_user_timing_logging
 (
 )
 )
