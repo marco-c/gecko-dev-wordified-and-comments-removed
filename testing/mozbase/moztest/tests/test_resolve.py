@@ -2,6 +2,7 @@ from
 __future__
 import
 absolute_import
+print_function
 unicode_literals
 import
 cPickle
@@ -3953,6 +3954,18 @@ mochitest
 -
 e10s
 '
+                
+'
+test
+-
+linux64
+/
+opt
+-
+mochitest
+-
+plain
+'
             
 ]
             
@@ -4126,6 +4139,26 @@ platform
 tests
 -
 reftests
+-
+e10s
+-
+1
+'
+                
+'
+test
+-
+linux64
+/
+opt
+-
+web
+-
+platform
+-
+tests
+-
+reftest
 -
 e10s
 -
@@ -4359,6 +4392,11 @@ items
 )
 )
 :
+            
+print
+(
+suite
+)
             
 regexes
 =
