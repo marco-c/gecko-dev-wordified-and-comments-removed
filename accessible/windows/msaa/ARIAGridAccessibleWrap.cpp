@@ -21,10 +21,11 @@ NS_IMPL_ISUPPORTS_INHERITED0
 ARIAGridAccessibleWrap
 ARIAGridAccessible
 )
-IMPL_IUNKNOWN_INHERITED1
+IMPL_IUNKNOWN_INHERITED2
 (
 ARIAGridAccessibleWrap
 AccessibleWrap
+HyperTextAccessibleWrap
 ia2AccessibleTable
 )
 void
