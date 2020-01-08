@@ -515,6 +515,17 @@ bind
 null
 {
 prefsService
+client
+:
+(
+options
+.
+services
+|
+|
+{
+}
+)
 }
 )
 historyPersistence

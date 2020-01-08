@@ -38,9 +38,14 @@ function
 ?
 action
 (
+{
 dispatch
 getState
+.
+.
+.
 options
+}
 )
 :
 next

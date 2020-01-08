@@ -371,6 +371,15 @@ arguments
 )
 ;
 }
+const
+{
+ObjectInspector
+}
+=
+_devtoolsReps
+.
+objectInspector
+;
 class
 Expressions
 extends
@@ -936,8 +945,6 @@ default
 .
 createElement
 (
-_devtoolsReps
-.
 ObjectInspector
 {
 roots

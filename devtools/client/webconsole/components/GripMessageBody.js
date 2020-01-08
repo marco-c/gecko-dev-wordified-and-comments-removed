@@ -104,7 +104,11 @@ reps
 const
 {
 MODE
-ObjectInspectorUtils
+objectInspector
+:
+{
+utils
+}
 }
 =
 reps
@@ -296,7 +300,7 @@ expanded
 const
 value
 =
-ObjectInspectorUtils
+utils
 .
 node
 .

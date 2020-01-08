@@ -70,9 +70,9 @@ filter
 {
 return
 (
+{
 dispatch
 getState
-{
 prefsService
 }
 )
@@ -129,9 +129,9 @@ filtersClear
 {
 return
 (
+{
 dispatch
 getState
-{
 prefsService
 }
 )
@@ -204,9 +204,9 @@ defaultFiltersReset
 {
 return
 (
+{
 dispatch
 getState
-{
 prefsService
 }
 )

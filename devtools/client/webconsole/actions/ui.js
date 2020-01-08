@@ -77,9 +77,9 @@ filterBarToggle
 {
 return
 (
+{
 dispatch
 getState
-{
 prefsService
 }
 )
@@ -129,9 +129,9 @@ persistToggle
 {
 return
 (
+{
 dispatch
 getState
-{
 prefsService
 }
 )
@@ -255,8 +255,10 @@ messageId
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
