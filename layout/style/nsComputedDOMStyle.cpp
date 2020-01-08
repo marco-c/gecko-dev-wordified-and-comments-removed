@@ -2072,6 +2072,14 @@ nullptr
 }
 if
 (
+aElement
+-
+>
+IsInNativeAnonymousSubtree
+(
+)
+&
+&
 !
 aElement
 -
