@@ -5724,6 +5724,11 @@ NativeGetElementInfo
 extern
 const
 VMFunction
+AddOrUpdateSparseElementHelperInfo
+;
+extern
+const
+VMFunction
 DoConcatStringObjectInfo
 ;
 }
