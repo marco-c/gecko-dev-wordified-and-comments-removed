@@ -256,6 +256,11 @@ LightWeightThemeInstallChild
 jsm
 '
 '
+LinkHandlerChild
+.
+jsm
+'
+'
 NetErrorChild
 .
 jsm
