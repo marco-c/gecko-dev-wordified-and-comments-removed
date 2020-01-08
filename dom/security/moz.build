@@ -113,6 +113,14 @@ TEST_DIRS
 test
 '
 ]
+DIRS
++
+=
+[
+'
+featurepolicy
+'
+]
 EXPORTS
 .
 mozilla
