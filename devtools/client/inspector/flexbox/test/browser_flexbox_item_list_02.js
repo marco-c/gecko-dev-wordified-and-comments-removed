@@ -115,12 +115,7 @@ is
 (
 flexItemList
 .
-querySelectorAll
-(
-"
-button
-"
-)
+children
 .
 length
 1

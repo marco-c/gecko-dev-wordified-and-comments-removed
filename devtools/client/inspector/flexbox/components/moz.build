@@ -98,6 +98,11 @@ FlexContainer
 js
 '
 '
+FlexContainerProperties
+.
+js
+'
+'
 FlexItem
 .
 js
