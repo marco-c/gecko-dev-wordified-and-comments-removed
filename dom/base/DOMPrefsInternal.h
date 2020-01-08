@@ -1,16 +1,5 @@
 DOM_PREF
 (
-NotificationEnabled
-"
-dom
-.
-webnotifications
-.
-enabled
-"
-)
-DOM_PREF
-(
 NotificationEnabledInServiceWorkers
 "
 dom
