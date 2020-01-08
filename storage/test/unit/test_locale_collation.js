@@ -1061,4 +1061,8 @@ run
 }
 )
 ;
+cleanupLocaleTests
+(
+)
+;
 }
