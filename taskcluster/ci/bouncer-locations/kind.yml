@@ -80,16 +80,6 @@ transforms
 task
 :
 transforms
-kind
--
-dependencies
-:
--
-bouncer
--
-locations
--
-breakpoint
 job
 -
 defaults
