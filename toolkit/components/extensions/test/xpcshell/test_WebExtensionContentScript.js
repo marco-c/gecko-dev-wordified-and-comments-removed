@@ -546,17 +546,6 @@ createWindowlessBrowser
 false
 )
 ;
-let
-systemPrincipal
-=
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-;
 webNav
 .
 loadURI
@@ -566,7 +555,6 @@ url
 null
 null
 null
-systemPrincipal
 )
 ;
 await

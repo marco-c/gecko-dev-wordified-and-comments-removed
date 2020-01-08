@@ -236,17 +236,6 @@ load
 "
 )
 ;
-let
-systemPrincipal
-=
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-;
 webNav
 .
 loadURI
@@ -264,7 +253,6 @@ LOAD_FLAGS_NONE
 null
 null
 null
-systemPrincipal
 )
 ;
 await

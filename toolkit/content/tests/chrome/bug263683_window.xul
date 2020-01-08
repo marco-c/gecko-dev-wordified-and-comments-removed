@@ -541,11 +541,10 @@ browserLoaded
 gBrowser
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 '
 data
 :
@@ -1155,11 +1154,10 @@ browserLoaded
 gBrowser
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 '
 data
 :

@@ -817,11 +817,10 @@ window
 num
 )
 ;
-BrowserTestUtils
+remote
 .
 loadURI
 (
-remote
 page
 )
 ;
@@ -833,11 +832,10 @@ browserLoaded
 remote
 )
 ;
-BrowserTestUtils
+nonRemote
 .
 loadURI
 (
-nonRemote
 page
 )
 ;

@@ -321,17 +321,6 @@ FRAME_SCRIPT
 true
 )
 ;
-let
-triggeringPrincipal
-=
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-;
 setTimeout
 (
 function
@@ -350,9 +339,6 @@ browser
 loadURI
 (
 TEST_PAGE
-{
-triggeringPrincipal
-}
 )
 ;
 }
