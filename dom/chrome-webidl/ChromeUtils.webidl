@@ -2451,6 +2451,13 @@ duration
 =
 0
 ;
+unsigned
+long
+long
+counterId
+=
+0
+;
 boolean
 isWorker
 =

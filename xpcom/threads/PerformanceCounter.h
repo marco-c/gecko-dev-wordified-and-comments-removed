@@ -155,6 +155,12 @@ GetTotalDispatchCount
 (
 )
 ;
+uint64_t
+GetID
+(
+)
+const
+;
 private
 :
 ~
@@ -180,6 +186,10 @@ mDispatchCounter
 ;
 nsCString
 mName
+;
+const
+uint64_t
+mID
 ;
 }
 ;

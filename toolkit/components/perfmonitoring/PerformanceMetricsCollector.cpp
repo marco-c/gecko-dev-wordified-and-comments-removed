@@ -435,6 +435,17 @@ duration
 data
 -
 >
+mCounterId
+=
+result
+.
+counterId
+(
+)
+;
+data
+-
+>
 mIsWorker
 =
 result
