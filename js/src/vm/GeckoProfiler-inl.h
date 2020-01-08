@@ -409,7 +409,6 @@ pushLabelFrame
 label
 nullptr
 this
-0
 category
 )
 ;

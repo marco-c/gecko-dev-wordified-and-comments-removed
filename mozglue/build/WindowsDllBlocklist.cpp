@@ -3120,7 +3120,6 @@ WindowsDllBlocklist
 patched_LdrLoadDll
 "
 dllName
-__LINE__
 )
 ;
 #

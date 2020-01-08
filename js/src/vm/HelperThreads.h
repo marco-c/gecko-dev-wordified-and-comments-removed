@@ -1600,8 +1600,6 @@ const
 char
 *
 label
-uint32_t
-line
 ProfilingStackFrame
 :
 :
