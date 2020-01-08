@@ -265,7 +265,7 @@ new_tab_learn_more
 id
 :
 "
-pocket_learn_more
+pocket_how_it_works
 "
 }
 }

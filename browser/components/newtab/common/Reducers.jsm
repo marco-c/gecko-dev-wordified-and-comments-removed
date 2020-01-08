@@ -105,9 +105,6 @@ ASRouter
 initialized
 :
 false
-allowLegacyOnboarding
-:
-null
 allowLegacySnippets
 :
 null

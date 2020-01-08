@@ -831,12 +831,13 @@ More
 Recommendations
 "
 "
-pocket_learn_more
+pocket_how_it_works
 "
 :
 "
-Learn
-More
+How
+it
+works
 "
 "
 pocket_cta_button

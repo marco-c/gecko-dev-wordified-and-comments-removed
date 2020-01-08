@@ -243,6 +243,8 @@ disableOnboarding
 (
 func
 )
+DEPRECATED
+-
 A
 function
 that
@@ -698,6 +700,8 @@ onboardingFinished
 (
 bool
 )
+DEPRECATED
+-
 Has
 the
 onboarding

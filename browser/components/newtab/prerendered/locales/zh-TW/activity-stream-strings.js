@@ -480,10 +480,13 @@ pocket_more_reccommendations
 "
 "
 "
-pocket_learn_more
+pocket_how_it_works
 "
 :
 "
+How
+it
+works
 "
 "
 pocket_cta_button
@@ -685,6 +688,12 @@ firstrun_continue_to_login
 "
 "
 firstrun_skip_login
+"
+:
+"
+"
+"
+pocket_learn_more
 "
 :
 "

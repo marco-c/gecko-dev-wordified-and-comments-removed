@@ -58,11 +58,6 @@ initialized
 :
 false
 "
-allowLegacyOnboarding
-"
-:
-null
-"
 allowLegacySnippets
 "
 :

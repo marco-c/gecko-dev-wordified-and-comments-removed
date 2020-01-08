@@ -40,7 +40,7 @@ foo
 template
 :
 "
-simple_template
+simple_snippet
 "
 content
 :
@@ -66,7 +66,7 @@ foo1
 template
 :
 "
-simple_template
+simple_snippet
 "
 bundled
 :
@@ -100,7 +100,7 @@ foo2
 template
 :
 "
-simple_template
+simple_snippet
 "
 bundled
 :
@@ -234,7 +234,7 @@ qux
 template
 :
 "
-simple_template
+simple_snippet
 "
 content
 :
