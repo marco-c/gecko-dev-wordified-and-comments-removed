@@ -3359,14 +3359,14 @@ init
 {
 let
 =
-selector
+id
 =
 >
 document
 .
-querySelector
+getElementById
 (
-selector
+id
 )
 ;
 this
@@ -3375,7 +3375,6 @@ content
 =
 (
 "
-#
 identity
 -
 popup
@@ -3394,7 +3393,6 @@ icon
 =
 (
 "
-#
 tracking
 -
 protection
@@ -3409,7 +3407,6 @@ iconBox
 =
 (
 "
-#
 tracking
 -
 protection
@@ -3426,7 +3423,6 @@ animatedIcon
 =
 (
 "
-#
 tracking
 -
 protection
@@ -3470,7 +3466,6 @@ identityPopupMultiView
 =
 (
 "
-#
 identity
 -
 popup
@@ -3485,7 +3480,6 @@ reportBreakageButton
 =
 (
 "
-#
 identity
 -
 popup
@@ -3506,7 +3500,6 @@ reportBreakageURL
 =
 (
 "
-#
 identity
 -
 popup
@@ -3525,7 +3518,6 @@ reportBreakageLearnMore
 =
 (
 "
-#
 identity
 -
 popup
