@@ -839,7 +839,11 @@ bool
 sdp_media
 )
 .
-has_connection
+get_connection
+(
+)
+.
+is_some
 (
 )
 }
