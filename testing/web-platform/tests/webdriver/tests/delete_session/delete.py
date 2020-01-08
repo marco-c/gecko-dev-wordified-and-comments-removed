@@ -184,7 +184,7 @@ raises
 (
 error
 .
-SessionNotCreatedException
+InvalidSessionIdException
 )
 :
         
