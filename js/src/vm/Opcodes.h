@@ -43,17 +43,6 @@ JOF_BYTE
 \
 /
 *
-Long
--
-standing
-JavaScript
-bytecodes
-.
-*
-/
-\
-/
-*
 *
 Pushes
 '
@@ -253,7 +242,6 @@ NULL
 0
 JOF_UINT16
 )
-\
 \
 \
 macro
@@ -1390,7 +1378,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_STRICTEQ
@@ -1691,7 +1678,6 @@ NULL
 1
 JOF_UINT16
 )
-\
 \
 \
 macro
@@ -2104,7 +2090,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_BINDNAME
@@ -2147,7 +2132,6 @@ JOF_CHECKSLOPPY
 |
 JOF_IC
 )
-\
 \
 \
 macro
@@ -2238,7 +2222,6 @@ JOF_BYTE
 )
 \
 \
-\
 macro
 (
 JSOP_EXCEPTION
@@ -2314,7 +2297,6 @@ JOF_JUMP
 )
 \
 \
-\
 macro
 (
 JSOP_EVAL
@@ -2337,7 +2319,6 @@ JOF_CHECKSLOPPY
 |
 JOF_IC
 )
-\
 \
 \
 macro
@@ -3672,7 +3653,6 @@ JOF_DETECTING
 |
 JOF_IC
 )
-\
 \
 \
 macro
