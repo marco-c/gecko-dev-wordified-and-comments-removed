@@ -378,6 +378,11 @@ ConnectionDiagnostics
 cpp
 '
 '
+DelayHttpChannelQueue
+.
+cpp
+'
+'
 Http2Compression
 .
 cpp

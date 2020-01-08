@@ -199,6 +199,13 @@ h
 #
 include
 "
+nsDOMNavigationTiming
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h

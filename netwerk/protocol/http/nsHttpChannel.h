@@ -7,6 +7,13 @@ nsHttpChannel_h__
 #
 include
 "
+DelayHttpChannelQueue
+.
+h
+"
+#
+include
+"
 HttpBaseChannel
 .
 h
@@ -894,6 +901,13 @@ return
 mRequestTime
 ;
 }
+nsresult
+AsyncOpenFinal
+(
+TimeStamp
+aTimeStamp
+)
+;
 MOZ_MUST_USE
 nsresult
 OpenCacheEntry
