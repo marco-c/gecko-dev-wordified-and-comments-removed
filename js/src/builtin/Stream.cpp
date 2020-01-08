@@ -2616,7 +2616,7 @@ static
 MOZ_MUST_USE
 ReadableByteStreamController
 *
-CreateReadableByteStreamController
+CreateExternalReadableByteStreamController
 (
 JSContext
 *
@@ -2688,7 +2688,7 @@ cx
 ;
 controller
 =
-CreateReadableByteStreamController
+CreateExternalReadableByteStreamController
 (
 cx
 stream
@@ -12119,6 +12119,9 @@ queueTotalSize
 )
 ;
 }
+#
+if
+0
 static
 MOZ_MUST_USE
 ReadableByteStreamController
@@ -12493,6 +12496,8 @@ return
 controller
 ;
 }
+#
+endif
 bool
 ReadableByteStreamController
 :
@@ -12528,7 +12533,7 @@ static
 MOZ_MUST_USE
 ReadableByteStreamController
 *
-CreateReadableByteStreamController
+CreateExternalReadableByteStreamController
 (
 JSContext
 *
