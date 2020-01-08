@@ -2166,8 +2166,6 @@ virtual
 bool
 Synchronize
 (
-bool
-aFallible
 )
 override
 ;

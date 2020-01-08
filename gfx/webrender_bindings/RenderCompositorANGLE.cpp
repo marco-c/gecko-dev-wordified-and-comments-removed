@@ -1809,7 +1809,6 @@ mSyncObject
 >
 Synchronize
 (
-true
 )
 )
 {

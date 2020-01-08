@@ -99,10 +99,6 @@ virtual
 bool
 Synchronize
 (
-bool
-aFallible
-=
-false
 )
 =
 0
