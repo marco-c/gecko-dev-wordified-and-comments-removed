@@ -5020,6 +5020,15 @@ Switching
 }
 #
 endif
+if
+(
+!
+mInputDeviceID
+)
+{
+return
+;
+}
 nsTArray
 <
 RefPtr
