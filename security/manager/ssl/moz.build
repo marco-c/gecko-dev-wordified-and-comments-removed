@@ -486,6 +486,11 @@ DataStorage
 cpp
 '
 '
+EnterpriseRoots
+.
+cpp
+'
+'
 LocalCertService
 .
 cpp
