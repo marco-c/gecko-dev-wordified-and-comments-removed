@@ -24,6 +24,7 @@ GK_ATOM
 name_
 value_
 hash_
+is_ascii_lower_
 type_
 atom_type_
 )
@@ -50,6 +51,7 @@ GK_ATOM
 name_
 value_
 hash_
+is_ascii_lower_
 type_
 atom_type_
 )
@@ -96,6 +98,7 @@ name_
 #
 _string
 )
+is_ascii_lower_
 )
 #
 include

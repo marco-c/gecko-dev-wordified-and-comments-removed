@@ -24060,6 +24060,7 @@ GK_ATOM
 identifier
 string
 hash
+is_ascii_lower
 gecko_type
 atom_type
 )
@@ -24092,6 +24093,8 @@ s
 s
 %
 s
+%
+s
 )
 \
 n
@@ -24108,6 +24111,16 @@ string
 a
 .
 hash
+str
+(
+a
+.
+is_ascii_lowercase
+)
+.
+lower
+(
+)
 a
 .
 ty
