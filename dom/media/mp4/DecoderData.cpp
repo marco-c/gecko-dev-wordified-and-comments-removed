@@ -573,7 +573,7 @@ mExtendedProfile
 audio
 -
 >
-profile
+extended_profile
 ;
 mDuration
 =

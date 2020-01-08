@@ -192,6 +192,9 @@ sample_rate
 uint16_t
 profile
 ;
+uint16_t
+extended_profile
+;
 Mp4parseByteData
 codec_specific_config
 ;
