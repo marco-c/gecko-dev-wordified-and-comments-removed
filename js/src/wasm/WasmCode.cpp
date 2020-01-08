@@ -3269,7 +3269,7 @@ moduleRanges
 [
 fe
 .
-interpCodeRangeIndex
+funcCodeRangeIndex
 (
 )
 ]
@@ -4287,7 +4287,7 @@ codeRanges
 [
 fe
 .
-interpCodeRangeIndex
+funcCodeRangeIndex
 ]
 .
 begin

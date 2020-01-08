@@ -7714,7 +7714,7 @@ codeRanges
 [
 funcExport
 .
-interpCodeRangeIndex
+funcCodeRangeIndex
 (
 )
 ]
@@ -11277,7 +11277,7 @@ codeRanges
 [
 funcExport
 .
-interpCodeRangeIndex
+funcCodeRangeIndex
 (
 )
 ]
