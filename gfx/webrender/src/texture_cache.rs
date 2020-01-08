@@ -2726,6 +2726,12 @@ cloned
 (
 )
 ;
+entry
+.
+uv_rect_kind
+=
+uv_rect_kind
+;
 gpu_cache
 .
 invalidate
