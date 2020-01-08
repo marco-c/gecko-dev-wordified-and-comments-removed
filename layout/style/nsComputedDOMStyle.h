@@ -1761,14 +1761,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetRotate
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetTransformOrigin
 (
 )

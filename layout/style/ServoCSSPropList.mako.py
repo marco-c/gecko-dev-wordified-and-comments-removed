@@ -466,6 +466,10 @@ Resize
 "
     
 "
+Rotate
+"
+    
+"
 Scale
 "
     
