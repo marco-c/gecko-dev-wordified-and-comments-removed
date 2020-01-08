@@ -118,6 +118,14 @@ StyleParseErrorKind
 ToCss
 }
 ;
+#
+[
+derive
+(
+Debug
+MallocSizeOf
+)
+]
 pub
 struct
 CssEnvironment
