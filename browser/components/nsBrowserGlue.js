@@ -13618,7 +13618,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 wrappedJSObject
 ;

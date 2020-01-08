@@ -263,7 +263,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 if
 (
@@ -474,7 +474,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 if
 (

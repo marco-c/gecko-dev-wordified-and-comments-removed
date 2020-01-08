@@ -999,7 +999,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 val
 ;
@@ -1019,7 +1019,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 return
 currentEngine

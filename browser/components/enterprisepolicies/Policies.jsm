@@ -3973,7 +3973,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 defaultEngine
 ;
