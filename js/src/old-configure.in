@@ -9529,6 +9529,7 @@ _getc_nolock
 gmtime_r
 localtime_r
 pthread_getname_np
+pthread_get_name_np
 ]
 )
 dnl
