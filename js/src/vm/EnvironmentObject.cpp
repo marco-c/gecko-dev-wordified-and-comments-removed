@@ -18881,7 +18881,7 @@ name
 )
 )
 {
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
