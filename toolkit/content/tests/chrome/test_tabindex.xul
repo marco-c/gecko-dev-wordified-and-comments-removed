@@ -683,7 +683,7 @@ tabindex
 hbox
 >
 <
-listbox
+richlistbox
 id
 =
 "
@@ -696,8 +696,11 @@ t7
 "
 >
 <
-listitem
+richlistitem
+>
+<
 label
+value
 =
 "
 Item
@@ -707,7 +710,11 @@ One
 >
 <
 /
-listbox
+richlistitem
+>
+<
+/
+richlistbox
 >
 <
 hbox
