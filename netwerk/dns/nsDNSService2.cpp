@@ -183,6 +183,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
@@ -491,7 +498,7 @@ false
 {
 mHostRecord
 =
-do_QueryInterface
+do_QueryObject
 (
 hostRecord
 )
@@ -507,7 +514,7 @@ nsDNSRecord
 =
 default
 ;
-nsCOMPtr
+RefPtr
 <
 AddrHostRecord
 >
@@ -1562,7 +1569,7 @@ hostRecord
 {
 mHostRecord
 =
-do_QueryInterface
+do_QueryObject
 (
 hostRecord
 )
@@ -1578,7 +1585,7 @@ nsDNSByTypeRecord
 =
 default
 ;
-nsCOMPtr
+RefPtr
 <
 TypeHostRecord
 >
