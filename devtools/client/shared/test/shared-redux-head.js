@@ -96,6 +96,9 @@ waitUntilAction
 (
 store
 actionType
+count
+=
+1
 )
 {
 const
@@ -181,6 +184,19 @@ actionType
 "
 )
 ;
+count
+-
+-
+;
+if
+(
+count
+=
+=
+=
+0
+)
+{
 unsubscribe
 (
 )
@@ -196,6 +212,7 @@ getState
 )
 )
 ;
+}
 }
 }
 return
