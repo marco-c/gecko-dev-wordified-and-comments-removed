@@ -4616,6 +4616,9 @@ bind
 success
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 uint32_t
 *
 countAddress
@@ -4654,6 +4657,8 @@ temp
 )
 )
 ;
+#
+endif
 }
 void
 MacroAssembler
@@ -5495,6 +5500,12 @@ size
 result
 )
 ;
+#
+if
+defined
+(
+NIGHTLY_BUILD
+)
 CompileZone
 *
 zone
@@ -5611,6 +5622,8 @@ temp
 )
 ;
 }
+#
+endif
 }
 void
 MacroAssembler
