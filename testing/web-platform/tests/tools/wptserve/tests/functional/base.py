@@ -781,14 +781,6 @@ test_method
         
 self
 .
-conn
-.
-close
-(
-)
-        
-self
-.
 server
 .
 stop

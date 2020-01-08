@@ -34,8 +34,6 @@ TestUsingServer
 TestUsingH2Server
 doc_root
 from
-hyper
-.
 h2
 .
 exceptions
