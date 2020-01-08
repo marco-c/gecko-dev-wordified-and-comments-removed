@@ -198,6 +198,10 @@ interface
 All
 :
 ContentDelegate
+GeckoSession
+.
+HistoryDelegate
+MediaDelegate
 NavigationDelegate
 PermissionDelegate
 ProgressDelegate
@@ -206,7 +210,6 @@ ScrollDelegate
 SelectionActionDelegate
 TextInputDelegate
 TrackingProtectionDelegate
-MediaDelegate
 interface
 ContentDelegate
 :
