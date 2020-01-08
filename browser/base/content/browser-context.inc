@@ -2698,12 +2698,7 @@ event
 target
 gBrowser
 .
-currentURI
-.
-spec
-gBrowser
-.
-contentTitle
+selectedTab
 )
 ;
 }
