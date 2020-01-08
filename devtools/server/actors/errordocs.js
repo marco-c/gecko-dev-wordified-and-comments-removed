@@ -429,6 +429,16 @@ JSMSG_NOT_ITERABLE
 "
 is_not_iterable
 "
+JSMSG_PROPERTY_FAIL
+:
+"
+cant_access_property
+"
+JSMSG_PROPERTY_FAIL_EXPR
+:
+"
+cant_access_property
+"
 }
 ;
 const
