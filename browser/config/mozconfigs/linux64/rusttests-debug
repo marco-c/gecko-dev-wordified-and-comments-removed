@@ -15,6 +15,16 @@ enable
 rust
 -
 tests
+mk_add_options
+MOZ_MAKE_FLAGS
+=
+-
+-
+output
+-
+sync
+=
+line
 .
 "
 topsrcdir
@@ -29,3 +39,5 @@ linux64
 /
 debug
 "
+unset
+ENABLE_CLANG_PLUGIN
