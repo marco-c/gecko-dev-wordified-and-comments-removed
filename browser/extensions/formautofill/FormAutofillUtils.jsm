@@ -128,6 +128,9 @@ manageCreditCardsTitle
 "
 addNewCreditCardTitle
 "
+"
+showCreditCardsBtnLabel
+"
 ]
 ;
 const
