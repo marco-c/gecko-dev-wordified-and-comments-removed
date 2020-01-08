@@ -54,7 +54,7 @@ LocalizedFiles
     
 LocalizedPreprocessedFiles
     
-XPIDLFile
+XPIDLModule
 )
 from
 mozbuild
