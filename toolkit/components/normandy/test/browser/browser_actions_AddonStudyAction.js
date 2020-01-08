@@ -559,6 +559,11 @@ download
 -
 failure
 "
+detail
+:
+"
+ERROR_NETWORK_FAILURE
+"
 }
 ]
 ]
