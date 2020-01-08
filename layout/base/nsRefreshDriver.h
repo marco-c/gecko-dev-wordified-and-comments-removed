@@ -301,7 +301,7 @@ MostRecentRefresh
 )
 const
 ;
-bool
+void
 AddRefreshObserver
 (
 nsARefreshObserver
