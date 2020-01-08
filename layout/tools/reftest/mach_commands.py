@@ -231,6 +231,15 @@ reftest_dir
 )
         
 if
+args
+.
+suite
+!
+=
+'
+jstestbrowser
+'
+and
 not
 args
 .
@@ -1751,6 +1760,14 @@ self
 _spawn
 (
 ReftestRunner
+)
+        
+reftest
+.
+log_manager
+.
+enable_unstructured
+(
 )
         
 if
