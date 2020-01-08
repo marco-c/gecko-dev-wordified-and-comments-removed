@@ -50,6 +50,15 @@ already_AddRefed
 <
 nsIControllerCommandTable
 >
+CreateEditorCommandTable
+(
+)
+;
+static
+already_AddRefed
+<
+nsIControllerCommandTable
+>
 CreateHTMLEditorCommandTable
 (
 )
