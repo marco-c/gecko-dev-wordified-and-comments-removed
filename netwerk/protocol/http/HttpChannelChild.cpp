@@ -196,13 +196,6 @@ h
 #
 include
 "
-nsChannelClassifier
-.
-h
-"
-#
-include
-"
 nsContentPolicyUtils
 .
 h
@@ -5399,7 +5392,7 @@ NS_ENSURE_SUCCESS_VOID
 rv
 )
 ;
-nsChannelClassifier
+UrlClassifierCommon
 :
 :
 SetBlockedContent

@@ -148,6 +148,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AsyncUrlChannelClassifier
+.
+cpp
+'
+'
 nsChannelClassifier
 .
 cpp
@@ -191,6 +196,11 @@ net
 +
 =
 [
+'
+AsyncUrlChannelClassifier
+.
+h
+'
 '
 UrlClassifierCommon
 .
