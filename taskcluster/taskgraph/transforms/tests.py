@@ -2253,6 +2253,23 @@ None
 )
     
 )
+    
+Optional
+(
+'
+fetches
+'
+)
+:
+{
+        
+basestring
+:
+[
+basestring
+]
+    
+}
 }
 required
 =
