@@ -112,6 +112,10 @@ properties
 :
 {
 }
+id
+:
+"
+"
 warning
 :
 getStr
@@ -338,6 +342,7 @@ state
 fonts
 families
 properties
+id
 }
 )
 {
@@ -487,6 +492,7 @@ axes
 fonts
 families
 properties
+id
 }
 ;
 }

@@ -791,6 +791,15 @@ value
 FontSize
 (
 {
+key
+:
+this
+.
+props
+.
+fontEditor
+.
+id
 onChange
 :
 this
