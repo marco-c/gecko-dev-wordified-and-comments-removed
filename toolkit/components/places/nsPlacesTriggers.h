@@ -1665,7 +1665,7 @@ NS_LITERAL_CSTRING
 CREATE
 TEMP
 TRIGGER
-moz_keyords_foreign_count_afterinsert_trigger
+moz_keywords_foreign_count_afterinsert_trigger
 "
 \
 "
