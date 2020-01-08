@@ -1098,13 +1098,13 @@ if
 CONFIG
 [
 '
-OS_TEST
+CPU_ARCH
 '
 ]
-!
+=
 =
 '
-x86_64
+x86
 '
 :
 ffi_srcs

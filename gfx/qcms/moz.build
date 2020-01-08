@@ -222,7 +222,7 @@ or
 CONFIG
 [
 '
-OS_TEST
+CPU_ARCH
 '
 ]
 !
