@@ -3507,9 +3507,7 @@ mIsColumnBalancing
 =
 aConfig
 .
-mBalanceColCount
-<
-INT32_MAX
+mIsBalancing
 ;
 kidReflowInput
 .
@@ -4066,9 +4064,7 @@ ComputedBSize
 &
 aConfig
 .
-mBalanceColCount
-<
-INT32_MAX
+mIsBalancing
 )
 {
 aColData
