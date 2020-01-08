@@ -1372,6 +1372,17 @@ return
 tc_
 ;
 }
+PackedTypeCode
+*
+packedPtr
+(
+)
+{
+return
+&
+tc_
+;
+}
 Code
 code
 (
