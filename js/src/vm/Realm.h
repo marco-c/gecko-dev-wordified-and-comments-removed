@@ -1524,6 +1524,12 @@ arraySpeciesLookup
 js
 :
 :
+PromiseLookup
+promiseLookup
+;
+js
+:
+:
 PerformanceGroupHolder
 performanceMonitoring
 ;
