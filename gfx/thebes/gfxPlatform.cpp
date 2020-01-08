@@ -12220,7 +12220,7 @@ if
 (
 deviceID
 <
-1000
+0x6c0
 )
 {
 featureWebRenderQualified
