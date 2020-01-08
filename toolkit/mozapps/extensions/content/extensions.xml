@@ -4822,7 +4822,9 @@ xbl
 inherits
 =
 "
-value
+xbl
+:
+text
 =
 name
 "

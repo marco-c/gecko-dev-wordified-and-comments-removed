@@ -258,7 +258,7 @@ is
 (
 name
 .
-value
+textContent
 "
 manually
 updating
