@@ -163,6 +163,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -1589,6 +1598,7 @@ mEditableChild
 ;
 }
 }
+AnyThread
 public
 synchronized
 NonNull
@@ -1724,6 +1734,7 @@ mInputConnection
 )
 ;
 }
+AnyThread
 public
 synchronized
 Nullable

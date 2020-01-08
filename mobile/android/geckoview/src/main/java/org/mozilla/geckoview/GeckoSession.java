@@ -295,6 +295,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -5713,6 +5722,7 @@ clearAutoFill
 ;
 }
 }
+AnyThread
 public
 NonNull
 SessionTextInput
