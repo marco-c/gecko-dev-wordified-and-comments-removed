@@ -353,6 +353,8 @@ CLANG_DIR
 /
 bin
 /
+llvm
+-
 dsymutil
 CROSSTOOLS_BUILD_DIR
 /

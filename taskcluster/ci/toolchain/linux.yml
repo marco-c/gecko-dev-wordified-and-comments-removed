@@ -361,6 +361,13 @@ sh
 '
 toolchain
 -
+alias
+:
+linux64
+-
+clang
+toolchain
+-
 artifact
 :
 public
@@ -509,13 +516,6 @@ download
 .
 sh
 '
-toolchain
--
-alias
-:
-linux64
--
-clang
 toolchain
 -
 artifact
@@ -876,7 +876,7 @@ linux64
 -
 clang
 -
-7
+6
 -
 macosx
 -
@@ -886,7 +886,7 @@ description
 :
 "
 Clang
-7
+6
 toolchain
 build
 with
@@ -909,7 +909,7 @@ symbol
 :
 TL
 (
-clang7
+clang6
 -
 macosx
 -
@@ -980,7 +980,7 @@ build
 -
 clang
 -
-7
+6
 -
 linux
 -
@@ -1015,7 +1015,7 @@ clang
 /
 clang
 -
-7
+6
 -
 macosx64
 .
@@ -1077,7 +1077,7 @@ linux64
 -
 clang
 -
-7
+6
 -
 linux64
 -
@@ -2451,7 +2451,7 @@ linux64
 -
 clang
 -
-7
+6
 linux64
 -
 hfsplus
