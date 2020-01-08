@@ -300,6 +300,8 @@ public
 nsIEditorStyleSheets
 public
 nsStubMutationObserver
+public
+nsIEditorMailSupport
 {
 public
 :

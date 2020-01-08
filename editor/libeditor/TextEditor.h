@@ -30,20 +30,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
-nsIEditorMailSupport
-.
-h
-"
-#
-include
-"
 nsIPlaintextEditor
 .
 h
@@ -106,8 +92,6 @@ public
 EditorBase
 public
 nsIPlaintextEditor
-public
-nsIEditorMailSupport
 {
 public
 :
@@ -122,7 +106,6 @@ TextEditor
 )
 ;
 NS_DECL_NSIPLAINTEXTEDITOR
-NS_DECL_NSIEDITORMAILSUPPORT
 NS_IMETHOD
 GetDocumentIsEmpty
 (
