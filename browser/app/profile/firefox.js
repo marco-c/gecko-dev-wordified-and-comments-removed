@@ -11584,7 +11584,7 @@ ask
 -
 permission
 "
-true
+false
 )
 ;
 pref
@@ -11596,7 +11596,7 @@ autoplay
 .
 default
 "
-2
+1
 )
 ;
 #
