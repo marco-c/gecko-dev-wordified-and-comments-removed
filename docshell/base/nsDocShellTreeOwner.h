@@ -511,6 +511,9 @@ mShowingTooltip
 bool
 mTooltipShownOnce
 ;
+nsString
+mLastShownTooltipText
+;
 nsCOMPtr
 <
 nsINode
