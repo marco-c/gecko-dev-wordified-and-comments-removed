@@ -161,7 +161,11 @@ nsTArray
 RemoteWorkerServiceParent
 *
 >
-mActors
+mChildActors
+;
+RemoteWorkerServiceParent
+*
+mParentActor
 ;
 struct
 Pending
