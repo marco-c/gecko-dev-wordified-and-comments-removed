@@ -3782,13 +3782,6 @@ SourceMediaStream
 ADDTRACK_QUEUED
 )
 ;
-aStream
--
->
-RegisterForAudioMixing
-(
-)
-;
 LOG
 (
 (

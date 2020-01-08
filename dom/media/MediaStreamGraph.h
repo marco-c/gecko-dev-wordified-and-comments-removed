@@ -2015,11 +2015,6 @@ EndAllTrackAndFinish
 (
 )
 ;
-void
-RegisterForAudioMixing
-(
-)
-;
 bool
 HasPendingAudioTrack
 (
@@ -2291,9 +2286,6 @@ mPullEnabled
 ;
 bool
 mFinishPending
-;
-bool
-mNeedsMixing
 ;
 }
 ;
