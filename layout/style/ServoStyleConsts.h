@@ -74,10 +74,10 @@ Scrollbar
 ScrollbarSmall
 ScrollbarHorizontal
 ScrollbarVertical
+ScrollbarbuttonUp
 ScrollbarbuttonDown
 ScrollbarbuttonLeft
 ScrollbarbuttonRight
-ScrollbarbuttonUp
 ScrollbarthumbHorizontal
 ScrollbarthumbVertical
 ScrollbartrackHorizontal

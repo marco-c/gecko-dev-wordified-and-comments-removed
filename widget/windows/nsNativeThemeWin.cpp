@@ -4600,7 +4600,7 @@ int
 StyleAppearance
 :
 :
-ScrollbarbuttonDown
+ScrollbarbuttonUp
 )
 )
 *
@@ -4723,7 +4723,7 @@ int
 StyleAppearance
 :
 :
-ScrollbarbuttonDown
+ScrollbarbuttonUp
 )
 )
 +
