@@ -32250,7 +32250,7 @@ this
 mFloats
 )
 ;
-UniquePtr
+Maybe
 <
 TextOverflow
 >
@@ -32287,6 +32287,10 @@ true
 |
 |
 textOverflow
+.
+isSome
+(
+)
 )
 ?
 nullptr
@@ -32381,8 +32385,11 @@ break
 }
 MOZ_ASSERT
 (
-!
 textOverflow
+.
+isNothing
+(
+)
 )
 ;
 DisplayLine
@@ -32463,8 +32470,9 @@ linesDisplayListCollection
 this
 textOverflow
 .
-get
+ptrOr
 (
+nullptr
 )
 lineCount
 )
@@ -32542,6 +32550,10 @@ SetupLineCursor
 if
 (
 textOverflow
+.
+isSome
+(
+)
 )
 {
 aLists
