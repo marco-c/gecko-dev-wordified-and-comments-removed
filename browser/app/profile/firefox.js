@@ -13718,3 +13718,17 @@ org
 "
 )
 ;
+pref
+(
+"
+browser
+.
+engagement
+.
+recent_visited_origins
+.
+expiry
+"
+86400
+)
+;
