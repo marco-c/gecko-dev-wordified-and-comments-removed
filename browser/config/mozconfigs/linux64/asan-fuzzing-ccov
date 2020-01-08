@@ -144,6 +144,17 @@ LDFLAGS
 -
 -
 coverage
+-
+Wl
+-
+-
+compress
+-
+debug
+-
+sections
+=
+zlib
 "
 ac_add_options
 -
