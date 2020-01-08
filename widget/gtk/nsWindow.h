@@ -1967,6 +1967,15 @@ TopLevelWindowUseARGBVisual
 (
 )
 ;
+static
+bool
+GetTopLevelWindowActiveState
+(
+nsIFrame
+*
+aFrame
+)
+;
 protected
 :
 virtual
@@ -2368,6 +2377,9 @@ mCSDSupportLevel
 ;
 bool
 mDrawInTitlebar
+;
+bool
+mTitlebarBackdropState
 ;
 LayoutDeviceIntRegion
 mDraggableRegion
