@@ -37,6 +37,7 @@ prefs
 import
 {
 getSelectedSource
+getSource
 }
 from
 "
@@ -459,6 +460,11 @@ frames
 action
 .
 frames
+selectedFrameId
+:
+action
+.
+selectedFrameId
 }
 ;
 }
