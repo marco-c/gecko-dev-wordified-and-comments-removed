@@ -431,6 +431,7 @@ tabs
 ;
 tabs
 =
+await
 store
 .
 getAllTabs
@@ -539,7 +540,6 @@ tabs
 .
 icon
 "
-image
 "
 )
 ;
@@ -623,6 +623,7 @@ twoUrls
 ;
 tabs
 =
+await
 store
 .
 getAllTabs
@@ -771,6 +772,7 @@ allURLs
 ;
 tabs
 =
+await
 store
 .
 getAllTabs
@@ -929,7 +931,7 @@ com
 let
 numtabs
 =
-2600
+2700
 ;
 store
 .
@@ -1044,7 +1046,7 @@ record
 tabs
 .
 length
-2501
+2672
 )
 ;
 let
@@ -1071,7 +1073,7 @@ try
 {
 numtabs
 =
-5200
+5400
 ;
 _
 (
@@ -1140,7 +1142,7 @@ record
 tabs
 .
 length
-5021
+5365
 )
 ;
 }
