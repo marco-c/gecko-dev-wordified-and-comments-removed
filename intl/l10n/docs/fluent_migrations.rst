@@ -3391,7 +3391,7 @@ FTL
 .
 SelectExpression
 (
-expression
+selector
 =
 VARIABLE_REFERENCE
 (
