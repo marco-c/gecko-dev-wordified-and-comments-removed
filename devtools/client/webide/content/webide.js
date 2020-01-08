@@ -182,7 +182,7 @@ promise
 ;
 const
 {
-GetAvailableAddons
+getADBAddon
 }
 =
 require
@@ -645,15 +645,13 @@ autoinstallADBExtension
 )
 {
 const
-addons
+adbAddon
 =
-GetAvailableAddons
+getADBAddon
 (
 )
 ;
-addons
-.
-adb
+adbAddon
 .
 install
 (
