@@ -13134,6 +13134,11 @@ DIRECTION_NOT_SET
 =
 2
 ;
+void
+syncFlushCompositor
+(
+)
+;
 }
 ;
 [
