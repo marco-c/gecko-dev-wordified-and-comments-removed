@@ -353,8 +353,8 @@ virtual
 mozilla
 :
 :
-ScrollbarStyles
-GetScrollbarStyles
+ScrollStyles
+GetScrollStyles
 (
 )
 const

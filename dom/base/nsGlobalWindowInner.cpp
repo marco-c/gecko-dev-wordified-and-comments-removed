@@ -16078,7 +16078,7 @@ smoothScroll
 sf
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .
@@ -16338,7 +16338,7 @@ smoothScroll
 sf
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .
@@ -16419,7 +16419,7 @@ smoothScroll
 sf
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .

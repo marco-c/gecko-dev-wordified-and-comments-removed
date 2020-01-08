@@ -47207,7 +47207,7 @@ scrollFrame
 scrollFrame
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .

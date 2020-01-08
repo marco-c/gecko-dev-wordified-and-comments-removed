@@ -3890,13 +3890,13 @@ ScrollBehavior
 Auto
 )
 {
-ScrollbarStyles
+ScrollStyles
 styles
 =
 sf
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 ;
@@ -4379,7 +4379,7 @@ if
 sf
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .
@@ -4489,7 +4489,7 @@ if
 sf
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .
@@ -9079,7 +9079,7 @@ this
 presContext
 -
 >
-GetViewportScrollbarStylesOverrideElement
+GetViewportScrollStylesOverrideElement
 (
 )
 "

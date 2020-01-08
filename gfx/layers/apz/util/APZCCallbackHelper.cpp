@@ -579,7 +579,7 @@ if
 aFrame
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .
@@ -642,7 +642,7 @@ if
 aFrame
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .

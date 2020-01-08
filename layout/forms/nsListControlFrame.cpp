@@ -2537,11 +2537,11 @@ aStatus
 )
 ;
 }
-ScrollbarStyles
+ScrollStyles
 nsListControlFrame
 :
 :
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 const
@@ -2569,7 +2569,7 @@ IsVertical
 )
 {
 return
-ScrollbarStyles
+ScrollStyles
 (
 style
 NS_STYLE_OVERFLOW_HIDDEN
@@ -2579,7 +2579,7 @@ NS_STYLE_OVERFLOW_HIDDEN
 else
 {
 return
-ScrollbarStyles
+ScrollStyles
 (
 NS_STYLE_OVERFLOW_HIDDEN
 style

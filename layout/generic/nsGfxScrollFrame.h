@@ -253,8 +253,8 @@ ScrollFrameHelper
 mozilla
 :
 :
-ScrollbarStyles
-GetScrollbarStylesFromFrame
+ScrollStyles
+GetScrollStylesFromFrame
 (
 )
 const
@@ -2993,8 +2993,8 @@ virtual
 mozilla
 :
 :
-ScrollbarStyles
-GetScrollbarStyles
+ScrollStyles
+GetScrollStyles
 (
 )
 const
@@ -3003,7 +3003,7 @@ override
 return
 mHelper
 .
-GetScrollbarStylesFromFrame
+GetScrollStylesFromFrame
 (
 )
 ;
@@ -5137,8 +5137,8 @@ virtual
 mozilla
 :
 :
-ScrollbarStyles
-GetScrollbarStyles
+ScrollStyles
+GetScrollStyles
 (
 )
 const
@@ -5147,7 +5147,7 @@ override
 return
 mHelper
 .
-GetScrollbarStylesFromFrame
+GetScrollStylesFromFrame
 (
 )
 ;

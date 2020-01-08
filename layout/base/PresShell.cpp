@@ -15045,13 +15045,13 @@ GetLineScrollAmount
 )
 ;
 }
-ScrollbarStyles
+ScrollStyles
 ss
 =
 aFrameAsScrollable
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 ;
@@ -15352,7 +15352,7 @@ autoBehaviorIsSmooth
 aFrameAsScrollable
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .

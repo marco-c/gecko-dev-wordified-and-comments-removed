@@ -390,11 +390,6 @@ nsStyleSheetService
 h
 '
 '
-ScrollbarStyles
-.
-h
-'
-'
 StackArena
 .
 h
@@ -463,6 +458,11 @@ h
 '
 '
 RestyleManager
+.
+h
+'
+'
+ScrollStyles
 .
 h
 '
@@ -622,7 +622,7 @@ RestyleManager
 cpp
 '
 '
-ScrollbarStyles
+ScrollStyles
 .
 cpp
 '

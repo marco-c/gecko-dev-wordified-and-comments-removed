@@ -24655,7 +24655,7 @@ if
 sf
 -
 >
-GetScrollbarStyles
+GetScrollStyles
 (
 )
 .
