@@ -1066,10 +1066,8 @@ vec3
 )
 ;
 return
-mix
+if_then_else
 (
-c1
-c2
 lessThanEqual
 (
 color
@@ -1080,6 +1078,8 @@ vec3
 04045
 )
 )
+c1
+c2
 )
 ;
 }
@@ -1132,10 +1132,8 @@ vec3
 )
 ;
 return
-mix
+if_then_else
 (
-c1
-c2
 lessThanEqual
 (
 color
@@ -1146,6 +1144,8 @@ vec3
 0031308
 )
 )
+c1
+c2
 )
 ;
 }
