@@ -285,6 +285,13 @@ this
 addon
 .
 iconURL
+isSystem
+:
+this
+.
+addon
+.
+isSystem
 debuggable
 :
 this
