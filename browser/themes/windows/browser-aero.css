@@ -265,8 +265,6 @@ compositor
 {
 media
 not
-all
-and
 (
 -
 moz
@@ -282,8 +280,6 @@ win7
 {
 media
 not
-all
-and
 (
 -
 moz
