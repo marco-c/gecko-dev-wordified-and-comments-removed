@@ -397,6 +397,18 @@ args
 .
 jsshell
     
+web_platform
+=
+getattr
+(
+args
+'
+web
+-
+platform
+'
+)
+    
 harness_requirements
 =
 dict
@@ -425,6 +437,18 @@ jittest
 append
 (
 jsshell
+)
+    
+harness_requirements
+[
+'
+jittest
+'
+]
+.
+append
+(
+web_platform
 )
     
 for
