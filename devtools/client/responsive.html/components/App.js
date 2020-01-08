@@ -225,7 +225,7 @@ DeviceModal
 )
 ;
 const
-GlobalToolbar
+Toolbar
 =
 createFactory
 (
@@ -234,7 +234,7 @@ require
 "
 .
 /
-GlobalToolbar
+Toolbar
 "
 )
 )
@@ -1203,7 +1203,7 @@ id
 app
 "
 }
-GlobalToolbar
+Toolbar
 (
 {
 devices

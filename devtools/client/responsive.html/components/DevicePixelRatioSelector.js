@@ -615,8 +615,6 @@ select
 id
 :
 "
-global
--
 device
 -
 pixel
