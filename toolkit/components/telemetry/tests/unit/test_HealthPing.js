@@ -140,7 +140,7 @@ gre
 /
 modules
 /
-TelemetryHealthPing
+HealthPing
 .
 jsm
 "
@@ -245,7 +245,7 @@ gre
 /
 modules
 /
-TelemetryHealthPing
+HealthPing
 .
 jsm
 "

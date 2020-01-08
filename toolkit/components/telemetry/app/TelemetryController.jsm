@@ -452,7 +452,7 @@ gre
 /
 modules
 /
-TelemetryModules
+ModulesPing
 .
 jsm
 "
@@ -482,7 +482,7 @@ gre
 /
 modules
 /
-TelemetryHealthPing
+HealthPing
 .
 jsm
 "
@@ -497,7 +497,7 @@ gre
 /
 modules
 /
-TelemetryEventPing
+EventPing
 .
 jsm
 "

@@ -341,7 +341,7 @@ gre
 /
 modules
 /
-TelemetryHealthPing
+HealthPing
 .
 jsm
 "

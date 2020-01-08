@@ -16,7 +16,7 @@ gre
 /
 modules
 /
-TelemetryModules
+ModulesPing
 .
 jsm
 "
