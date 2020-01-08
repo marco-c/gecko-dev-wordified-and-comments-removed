@@ -113,6 +113,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeleteSyncHangSubprocess
+"
 DeleteSyncHangSubprocess
 MessageLoop
 :
@@ -206,6 +209,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+DeferredSyncHangParentShutdown
+"
 DeferredSyncHangParentShutdown
 )
 )

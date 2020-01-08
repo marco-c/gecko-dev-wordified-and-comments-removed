@@ -310,6 +310,9 @@ PostTask
 (
 NewRunnableFunction
 (
+"
+RunTestsFn
+"
 RunTestsFn
 )
 )
