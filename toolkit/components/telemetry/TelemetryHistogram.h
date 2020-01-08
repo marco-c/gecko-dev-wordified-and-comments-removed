@@ -418,16 +418,6 @@ aClearSubsession
 )
 ;
 size_t
-GetMapShallowSizesOfExcludingThis
-(
-mozilla
-:
-:
-MallocSizeOf
-aMallocSizeOf
-)
-;
-size_t
 GetHistogramSizesOfIncludingThis
 (
 mozilla
