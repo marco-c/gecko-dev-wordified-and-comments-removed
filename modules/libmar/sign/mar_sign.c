@@ -2372,6 +2372,10 @@ free
 extractedSignature
 )
 ;
+extractedSignature
+=
+NULL
+;
 if
 (
 fseeko
