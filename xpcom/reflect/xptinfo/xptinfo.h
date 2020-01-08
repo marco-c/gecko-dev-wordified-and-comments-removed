@@ -286,16 +286,6 @@ sInterfacesSize
 ;
 }
 bool
-IsScriptable
-(
-)
-const
-{
-return
-true
-;
-}
-bool
 IsFunction
 (
 )
