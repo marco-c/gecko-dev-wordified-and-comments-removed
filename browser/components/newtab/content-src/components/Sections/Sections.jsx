@@ -1827,7 +1827,7 @@ extension
 )
 ?
 <
-img
+span
 className
 =
 "
@@ -1864,7 +1864,7 @@ icon
 >
 :
 <
-img
+span
 className
 =
 {

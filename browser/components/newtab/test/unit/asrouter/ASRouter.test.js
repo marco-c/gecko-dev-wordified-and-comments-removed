@@ -554,9 +554,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;
@@ -8928,6 +8926,11 @@ url
 .
 com
 "
+where
+:
+"
+tabshifted
+"
 }
 }
 ;
@@ -9275,7 +9278,7 @@ some
 url
 "
 "
-tabshifted
+current
 "
 {
 "

@@ -323,9 +323,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;
@@ -2177,9 +2175,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;

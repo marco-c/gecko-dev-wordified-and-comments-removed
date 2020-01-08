@@ -49,6 +49,7 @@ asrouterContent
 .
 init
 (
+store
 )
 ;
 }

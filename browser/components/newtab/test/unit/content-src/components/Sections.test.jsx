@@ -3544,7 +3544,7 @@ props
 .
 dispatch
 .
-reset
+resetHistory
 (
 )
 ;
@@ -3638,7 +3638,7 @@ props
 .
 dispatch
 .
-reset
+resetHistory
 (
 )
 ;
@@ -3739,7 +3739,7 @@ props
 .
 dispatch
 .
-reset
+resetHistory
 (
 )
 ;
@@ -3894,7 +3894,7 @@ props
 .
 dispatch
 .
-reset
+resetHistory
 (
 )
 ;

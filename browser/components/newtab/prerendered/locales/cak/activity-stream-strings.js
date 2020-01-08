@@ -1023,9 +1023,12 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Achike
+rub
+'
+eyal
+nisam
+j
 "
 "
 pocket_cta_button

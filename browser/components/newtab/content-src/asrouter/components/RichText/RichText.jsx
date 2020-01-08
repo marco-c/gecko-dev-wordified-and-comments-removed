@@ -152,6 +152,9 @@ convertLinks
 links
 sendClick
 doNotAutoBlock
+openNewWindow
+=
+false
 )
 {
 if
@@ -234,7 +237,7 @@ url
 target
 =
 {
-doNotAutoBlock
+openNewWindow
 ?
 "
 _blank
@@ -423,6 +426,9 @@ sendClick
 props
 .
 doNotAutoBlock
+props
+.
+openNewWindow
 )
 }
 >

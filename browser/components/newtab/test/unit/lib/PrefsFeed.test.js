@@ -107,9 +107,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;

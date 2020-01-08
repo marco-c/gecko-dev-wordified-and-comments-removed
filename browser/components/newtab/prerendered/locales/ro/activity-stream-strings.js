@@ -1232,8 +1232,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Deschide
+meniul
 "
 "
 pocket_learn_more

@@ -1171,7 +1171,8 @@ context_menu_title
 "
 :
 "
-Open
+Otw
+rz
 menu
 "
 "

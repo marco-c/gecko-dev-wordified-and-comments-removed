@@ -24,6 +24,13 @@ scene1_text
 "
 ]
 "
+scene2_text
+"
+:
+"
+scene2_text
+"
+"
 privacy_html
 "
 :

@@ -1140,8 +1140,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+pne
+meny
 "
 "
 pocket_learn_more

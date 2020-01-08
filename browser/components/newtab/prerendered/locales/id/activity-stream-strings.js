@@ -996,7 +996,6 @@ Lanjutkan
 ke
 Firefox
 Sync
-.
 "
 "
 firstrun_email_input_placeholder
@@ -1069,7 +1068,7 @@ context_menu_title
 "
 :
 "
-Open
+Buka
 menu
 "
 "

@@ -10222,7 +10222,7 @@ pinnedLinks
 .
 pin
 .
-reset
+resetHistory
 (
 )
 ;

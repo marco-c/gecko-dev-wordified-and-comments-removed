@@ -208,9 +208,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;
@@ -3660,9 +3658,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;
@@ -6256,7 +6252,7 @@ store
 .
 dispatch
 .
-reset
+resetHistory
 (
 )
 ;
@@ -6461,7 +6457,7 @@ store
 .
 dispatch
 .
-reset
+resetHistory
 (
 )
 ;
@@ -6671,7 +6667,7 @@ store
 .
 dispatch
 .
-reset
+resetHistory
 (
 )
 ;

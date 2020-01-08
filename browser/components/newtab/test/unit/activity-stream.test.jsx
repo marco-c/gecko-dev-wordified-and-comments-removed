@@ -83,9 +83,7 @@ sandbox
 =
 sinon
 .
-sandbox
-.
-create
+createSandbox
 (
 )
 ;
@@ -238,11 +236,12 @@ bar
 ;
 assert
 .
-calledOnce
+calledWith
 (
 asrouterContent
 .
 init
+store
 )
 ;
 }
