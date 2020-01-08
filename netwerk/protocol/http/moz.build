@@ -191,6 +191,11 @@ EXPORTS
 =
 [
 '
+DocumentAnalyticsTrackerFastBlocked
+.
+h
+'
+'
 nsCORSListenerProxy
 .
 h
