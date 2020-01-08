@@ -10822,7 +10822,7 @@ ma_li
 ReturnReg
 Imm32
 (
-BAILOUT_RETURN_OK
+1
 )
 )
 ;

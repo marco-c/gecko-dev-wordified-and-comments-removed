@@ -1235,13 +1235,13 @@ bailoutInfo
 ecx
 )
 ;
-movl
+move32
 (
 Imm32
 (
-BAILOUT_RETURN_OK
+1
 )
-eax
+ReturnReg
 )
 ;
 jmp

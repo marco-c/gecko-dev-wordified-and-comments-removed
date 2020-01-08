@@ -1118,7 +1118,7 @@ target
 Mov
 (
 x0
-BAILOUT_RETURN_OK
+1
 )
 ;
 Br

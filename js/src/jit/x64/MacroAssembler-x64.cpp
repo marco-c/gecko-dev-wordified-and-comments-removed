@@ -1276,13 +1276,13 @@ bailoutInfo
 r9
 )
 ;
-mov
+move32
 (
-ImmWord
+Imm32
 (
-BAILOUT_RETURN_OK
+1
 )
-rax
+ReturnReg
 )
 ;
 jmp

@@ -19038,9 +19038,9 @@ ma_mov
 (
 Imm32
 (
-BAILOUT_RETURN_OK
+1
 )
-r0
+ReturnReg
 )
 ;
 ma_ldr
