@@ -980,7 +980,6 @@ ADB
 .
 stop
 (
-true
 )
 ;
 ok
@@ -1221,7 +1220,6 @@ ADB
 .
 stop
 (
-true
 )
 ;
 ok
