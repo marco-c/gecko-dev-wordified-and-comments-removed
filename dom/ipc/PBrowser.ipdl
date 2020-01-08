@@ -3911,6 +3911,8 @@ ShowCanvasPermissionPrompt
 (
 nsCString
 aFirstPartyURI
+bool
+aHideDoorHanger
 )
 ;
 sync
