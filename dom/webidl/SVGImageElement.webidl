@@ -184,6 +184,14 @@ attribute
 SVGAnimatedPreserveAspectRatio
 preserveAspectRatio
 ;
+[
+CEReactions
+SetterThrows
+]
+attribute
+DOMString
+decoding
+;
 }
 ;
 SVGImageElement

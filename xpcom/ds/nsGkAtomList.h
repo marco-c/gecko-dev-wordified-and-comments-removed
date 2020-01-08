@@ -1964,6 +1964,13 @@ doctor
 )
 GK_ATOM
 (
+decoding
+"
+decoding
+"
+)
+GK_ATOM
+(
 decrement
 "
 decrement

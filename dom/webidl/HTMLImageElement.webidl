@@ -302,6 +302,14 @@ unsigned
 long
 height
 ;
+[
+CEReactions
+SetterThrows
+]
+attribute
+DOMString
+decoding
+;
 readonly
 attribute
 unsigned
