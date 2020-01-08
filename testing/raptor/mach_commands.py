@@ -38,6 +38,14 @@ base
 import
 MozbuildObject
 MachCommandBase
+from
+mozbuild
+.
+base
+import
+MachCommandConditions
+as
+conditions
 HERE
 =
 os
@@ -1167,15 +1175,6 @@ kwargs
 )
 :
         
-from
-mozrunner
-.
-devices
-.
-android_device
-import
-verify_android_device
-        
 build_obj
 =
 MozbuildObject
@@ -1187,6 +1186,36 @@ cwd
 HERE
 )
         
+if
+conditions
+.
+is_android
+(
+build_obj
+)
+or
+kwargs
+[
+'
+app
+'
+]
+=
+=
+'
+geckoview
+'
+:
+            
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+verify_android_device
+            
 if
 not
 verify_android_device
@@ -1205,7 +1234,7 @@ binary
 ]
 )
 :
-            
+                
 return
 1
         
