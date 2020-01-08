@@ -185,7 +185,7 @@ MOZ_ASSERT
 JS
 :
 :
-GetModuleHostDefinedField
+GetModulePrivate
 (
 mModuleRecord
 )
@@ -201,7 +201,7 @@ this
 JS
 :
 :
-SetModuleHostDefinedField
+SetModulePrivate
 (
 mModuleRecord
 JS
@@ -282,7 +282,7 @@ aModuleRecord
 JS
 :
 :
-SetModuleHostDefinedField
+SetModulePrivate
 (
 mModuleRecord
 JS
