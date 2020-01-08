@@ -233,8 +233,7 @@ CONNECT_RUNTIME_SUCCESS
 const
 {
 id
-client
-info
+connection
 }
 =
 action
@@ -246,8 +245,7 @@ _updateRuntimeById
 (
 id
 {
-client
-info
+connection
 }
 state
 )
@@ -271,10 +269,7 @@ _updateRuntimeById
 (
 id
 {
-client
-:
-null
-info
+connection
 :
 null
 }

@@ -212,6 +212,8 @@ client
 action
 .
 runtime
+.
+connection
 ;
 client
 .
@@ -301,6 +303,8 @@ client
 action
 .
 runtime
+.
+connection
 ;
 client
 .
