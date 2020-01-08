@@ -1059,7 +1059,7 @@ hadError
 template
 <
 typename
-CharT
+Unit
 >
 class
 TokenStreamPosition
@@ -1088,7 +1088,7 @@ ntokens
 template
 <
 typename
-CharT
+Unit
 >
 friend
 class
@@ -1332,7 +1332,7 @@ it
 template
 <
 typename
-CharT
+Unit
 class
 AnyCharsAccess
 >
@@ -1342,7 +1342,7 @@ TokenStreamSpecific
 template
 <
 typename
-CharT
+Unit
 >
 class
 MOZ_STACK_CLASS
@@ -1364,7 +1364,7 @@ AutoKeepAtoms
 keepAtoms
 TokenStreamSpecific
 <
-CharT
+Unit
 AnyCharsAccess
 >
 &
@@ -1394,7 +1394,7 @@ class
 TokenStreamSpecific
 ;
 const
-CharT
+Unit
 *
 buf
 ;
@@ -1456,7 +1456,7 @@ smg
 template
 <
 typename
-CharT
+Unit
 class
 AnyCharsAccess
 >
@@ -1467,7 +1467,7 @@ GeneralTokenStreamChars
 template
 <
 typename
-CharT
+Unit
 class
 AnyCharsAccess
 >
@@ -1478,7 +1478,7 @@ TokenStreamChars
 template
 <
 typename
-CharT
+Unit
 class
 AnyCharsAccess
 >
@@ -1489,7 +1489,7 @@ TokenStreamSpecific
 template
 <
 typename
-CharT
+Unit
 >
 friend
 class
@@ -2793,7 +2793,7 @@ toUint8
 template
 <
 typename
-CharT
+Unit
 >
 class
 TokenStreamCharsBase
@@ -2881,7 +2881,7 @@ unit
 template
 <
 typename
-CharT
+Unit
 >
 struct
 SourceUnitTraits
@@ -2985,7 +2985,7 @@ codePoint
 template
 <
 typename
-CharT
+Unit
 >
 class
 PeekedCodePoint
@@ -3011,7 +3011,7 @@ frontend
 :
 SourceUnitTraits
 <
-CharT
+Unit
 >
 ;
 PeekedCodePoint
@@ -3521,7 +3521,7 @@ r
 template
 <
 typename
-CharT
+Unit
 >
 class
 SourceUnits
@@ -3531,9 +3531,9 @@ public
 SourceUnits
 (
 const
-CharT
+Unit
 *
-buf
+units
 size_t
 length
 size_t
@@ -3542,7 +3542,7 @@ startOffset
 :
 base_
 (
-buf
+units
 )
 startOffset_
 (
@@ -3550,13 +3550,13 @@ startOffset
 )
 limit_
 (
-buf
+units
 +
 length
 )
 ptr
 (
-buf
+units
 )
 {
 }
@@ -3681,7 +3681,7 @@ ptr
 ;
 }
 const
-CharT
+Unit
 *
 codeUnitPtrAt
 (
@@ -3726,7 +3726,7 @@ startOffset_
 ;
 }
 const
-CharT
+Unit
 *
 current
 (
@@ -3738,7 +3738,7 @@ ptr
 ;
 }
 const
-CharT
+Unit
 *
 limit
 (
@@ -3749,7 +3749,7 @@ return
 limit_
 ;
 }
-CharT
+Unit
 previousCodeUnit
 (
 )
@@ -3797,7 +3797,7 @@ ptr
 )
 ;
 }
-CharT
+Unit
 getCodeUnit
 (
 )
@@ -3809,7 +3809,7 @@ ptr
 +
 ;
 }
-CharT
+Unit
 peekCodeUnit
 (
 )
@@ -3822,7 +3822,7 @@ ptr
 }
 PeekedCodePoint
 <
-CharT
+Unit
 >
 peekCodePoint
 (
@@ -3848,7 +3848,7 @@ assertNextCodePoint
 const
 PeekedCodePoint
 <
-CharT
+Unit
 >
 &
 peeked
@@ -3864,7 +3864,7 @@ consumeKnownCodePoint
 const
 PeekedCodePoint
 <
-CharT
+Unit
 >
 &
 peeked
@@ -4081,14 +4081,14 @@ false
 ;
 }
 const
-CharT
+Unit
 *
 start
 =
 ptr
 ;
 const
-CharT
+Unit
 *
 end
 =
@@ -4111,7 +4111,7 @@ ptr
 +
 !
 =
-CharT
+Unit
 (
 *
 chars
@@ -4236,13 +4236,13 @@ friend
 class
 TokenStreamCharsBase
 <
-CharT
+Unit
 >
 ;
 bool
 internalMatchCodeUnit
 (
-CharT
+Unit
 c
 )
 {
@@ -4294,7 +4294,7 @@ public
 void
 consumeKnownCodeUnit
 (
-CharT
+Unit
 c
 )
 {
@@ -4363,7 +4363,7 @@ MOZ_ASSERT
 ptr
 =
 =
-CharT
+Unit
 (
 '
 \
@@ -4416,7 +4416,7 @@ ptr
 )
 =
 =
-CharT
+Unit
 (
 '
 \
@@ -4471,7 +4471,7 @@ ptr
 ;
 }
 const
-CharT
+Unit
 *
 addressOfNextCodeUnit
 (
@@ -4497,7 +4497,7 @@ void
 setAddressOfNextCodeUnit
 (
 const
-CharT
+Unit
 *
 a
 bool
@@ -4567,7 +4567,7 @@ const
 private
 :
 const
-CharT
+Unit
 *
 base_
 ;
@@ -4575,12 +4575,12 @@ uint32_t
 startOffset_
 ;
 const
-CharT
+Unit
 *
 limit_
 ;
 const
-CharT
+Unit
 *
 ptr
 ;
@@ -4967,7 +4967,7 @@ size
 template
 <
 typename
-CharT
+Unit
 >
 class
 TokenStreamCharsBase
@@ -4983,9 +4983,9 @@ JSContext
 *
 cx
 const
-CharT
+Unit
 *
-chars
+units
 size_t
 length
 size_t
@@ -4993,8 +4993,8 @@ startOffset
 )
 ;
 inline
-CharT
-toCharT
+Unit
+toUnit
 (
 int32_t
 codeUnitValue
@@ -5040,7 +5040,7 @@ mozilla
 Span
 <
 const
-CharT
+Unit
 >
 units
 )
@@ -5053,7 +5053,7 @@ frontend
 :
 SourceUnits
 <
-CharT
+Unit
 >
 ;
 bool
@@ -5104,7 +5104,7 @@ sourceUnits
 .
 internalMatchCodeUnit
 (
-CharT
+Unit
 (
 expect
 )
@@ -5146,7 +5146,7 @@ sourceUnits
 .
 internalMatchCodeUnit
 (
-CharT
+Unit
 (
 expect
 )
@@ -5234,11 +5234,11 @@ bool
 fillCharBufferFromSourceNormalizingAsciiLineBreaks
 (
 const
-CharT
+Unit
 *
 cur
 const
-CharT
+Unit
 *
 end
 )
@@ -5272,7 +5272,7 @@ char16_t
 >
 :
 :
-toCharT
+toUnit
 (
 int32_t
 codeUnitValue
@@ -5289,7 +5289,7 @@ EOF
 is
 not
 a
-CharT
+Unit
 "
 )
 ;
@@ -5323,7 +5323,7 @@ Utf8Unit
 >
 :
 :
-toCharT
+toUnit
 (
 int32_t
 value
@@ -5340,7 +5340,7 @@ EOF
 is
 not
 a
-CharT
+Unit
 "
 )
 ;
@@ -5350,7 +5350,10 @@ mozilla
 :
 Utf8Unit
 (
-static_cast
+mozilla
+:
+:
+AssertedCast
 <
 unsigned
 char
@@ -5364,13 +5367,13 @@ value
 template
 <
 typename
-CharT
+Unit
 >
 inline
 void
 TokenStreamCharsBase
 <
-CharT
+Unit
 >
 :
 :
@@ -5384,7 +5387,7 @@ sourceUnits
 .
 consumeKnownCodeUnit
 (
-toCharT
+toUnit
 (
 unit
 )
@@ -5498,7 +5501,7 @@ size
 template
 <
 typename
-CharT
+Unit
 >
 class
 SpecializedTokenStreamCharsBase
@@ -6148,7 +6151,7 @@ startOffset_
 template
 <
 typename
-CharT
+Unit
 class
 AnyCharsAccess
 >
@@ -6158,7 +6161,7 @@ GeneralTokenStreamChars
 public
 SpecializedTokenStreamCharsBase
 <
-CharT
+Unit
 >
 {
 using
@@ -6166,7 +6169,7 @@ CharsBase
 =
 TokenStreamCharsBase
 <
-CharT
+Unit
 >
 ;
 using
@@ -6174,7 +6177,7 @@ SpecializedCharsBase
 =
 SpecializedTokenStreamCharsBase
 <
-CharT
+Unit
 >
 ;
 private
@@ -6299,7 +6302,7 @@ using
 CharsBase
 :
 :
-toCharT
+toUnit
 ;
 using
 typename
@@ -6358,7 +6361,7 @@ frontend
 :
 TokenStreamSpecific
 <
-CharT
+Unit
 AnyCharsAccess
 >
 ;
@@ -6741,7 +6744,7 @@ separately
 ;
 MOZ_ASSERT
 (
-toCharT
+toUnit
 (
 lead
 )
@@ -6983,7 +6986,7 @@ NoSubsTemplate
 )
 ;
 const
-CharT
+Unit
 *
 cur
 =
@@ -7008,7 +7011,7 @@ begin
 )
 ;
 const
-CharT
+Unit
 *
 end
 ;
@@ -7105,7 +7108,7 @@ cx
 template
 <
 typename
-CharT
+Unit
 class
 AnyCharsAccess
 >
@@ -7706,7 +7709,7 @@ codePoint
 template
 <
 typename
-CharT
+Unit
 class
 AnyCharsAccess
 >
@@ -7717,7 +7720,7 @@ TokenStreamSpecific
 public
 TokenStreamChars
 <
-CharT
+Unit
 AnyCharsAccess
 >
 public
@@ -7732,7 +7735,7 @@ CharsBase
 =
 TokenStreamCharsBase
 <
-CharT
+Unit
 >
 ;
 using
@@ -7740,7 +7743,7 @@ SpecializedCharsBase
 =
 SpecializedTokenStreamCharsBase
 <
-CharT
+Unit
 >
 ;
 using
@@ -7748,7 +7751,7 @@ GeneralCharsBase
 =
 GeneralTokenStreamChars
 <
-CharT
+Unit
 AnyCharsAccess
 >
 ;
@@ -7757,7 +7760,7 @@ SpecializedChars
 =
 TokenStreamChars
 <
-CharT
+Unit
 AnyCharsAccess
 >
 ;
@@ -7766,7 +7769,7 @@ Position
 =
 TokenStreamPosition
 <
-CharT
+Unit
 >
 ;
 public
@@ -7930,7 +7933,7 @@ using
 CharsBase
 :
 :
-toCharT
+toUnit
 ;
 using
 GeneralCharsBase
@@ -7968,9 +7971,9 @@ ReadOnlyCompileOptions
 &
 options
 const
-CharT
+Unit
 *
-base
+units
 size_t
 length
 )
@@ -8427,7 +8430,7 @@ bool
 putIdentInCharBuffer
 (
 const
-CharT
+Unit
 *
 identStart
 )
@@ -8441,7 +8444,7 @@ unit
 TokenStart
 start
 const
-CharT
+Unit
 *
 numStart
 Modifier
@@ -9203,7 +9206,7 @@ other
 )
 ;
 const
-CharT
+Unit
 *
 codeUnitPtrAt
 (
@@ -9225,7 +9228,7 @@ offset
 ;
 }
 const
-CharT
+Unit
 *
 rawLimit
 (
@@ -9250,7 +9253,7 @@ identifierName
 TokenStart
 start
 const
-CharT
+Unit
 *
 identStart
 IdentifierEscapes
@@ -9355,7 +9358,7 @@ shouldWarnDeprecated
 template
 <
 typename
-CharT
+Unit
 >
 template
 <
@@ -9365,7 +9368,7 @@ AnyCharsAccess
 inline
 TokenStreamPosition
 <
-CharT
+Unit
 >
 :
 :
@@ -9376,7 +9379,7 @@ AutoKeepAtoms
 keepAtoms
 TokenStreamSpecific
 <
-CharT
+Unit
 AnyCharsAccess
 >
 &
@@ -9537,7 +9540,7 @@ TokenStreamAnyCharsAccess
 >
 {
 using
-CharT
+Unit
 =
 char16_t
 ;
@@ -9556,9 +9559,9 @@ ReadOnlyCompileOptions
 &
 options
 const
-CharT
+Unit
 *
-base
+units
 size_t
 length
 StrictModeGetter
@@ -9574,13 +9577,13 @@ smg
 )
 TokenStreamSpecific
 <
-CharT
+Unit
 TokenStreamAnyCharsAccess
 >
 (
 cx
 options
-base
+units
 length
 )
 {
