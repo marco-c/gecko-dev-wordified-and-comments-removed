@@ -33421,6 +33421,17 @@ nsACString
 aOrigin
 )
 {
+if
+(
+!
+IsCurrentInnerWindow
+(
+)
+)
+{
+return
+;
+}
 nsIPrincipal
 *
 principal
