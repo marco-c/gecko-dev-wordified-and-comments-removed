@@ -2039,6 +2039,8 @@ OffScreen
 {
 ref
 texture_cache
+ref
+color
 .
 .
 }
@@ -2054,6 +2056,15 @@ has_texture_cache_tasks
 texture_cache
 .
 is_empty
+(
+)
+;
+has_texture_cache_tasks
+|
+=
+color
+.
+must_be_drawn
 (
 )
 ;
