@@ -300,6 +300,15 @@ patches
 :
 [
 "
+static
+-
+llvm
+-
+symbolizer
+.
+patch
+"
+"
 find_symbolizer_linux
 .
 patch
