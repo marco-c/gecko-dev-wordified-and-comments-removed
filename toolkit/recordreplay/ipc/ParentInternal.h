@@ -490,9 +490,6 @@ mMessages
 size_t
 mNumRecoveredMessages
 ;
-size_t
-mNumRestarts
-;
 UniquePtr
 <
 ChildRole
@@ -595,13 +592,8 @@ size_t
 aNumMessages
 )
 ;
-bool
-CanRestart
-(
-)
-;
 void
-AttemptRestart
+OnCrash
 (
 const
 char

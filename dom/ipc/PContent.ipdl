@@ -4096,13 +4096,6 @@ channelId
 )
 ;
 async
-TerminateReplayingProcess
-(
-uint32_t
-channelId
-)
-;
-async
 CreateGMPService
 (
 )
