@@ -253,6 +253,17 @@ url
 startsWith
 (
 "
+intent
+:
+"
+)
+|
+|
+url
+.
+startsWith
+(
+"
 view
 -
 source
