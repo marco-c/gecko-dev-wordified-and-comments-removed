@@ -104,7 +104,7 @@ this
 )
 ;
 class
-UsbMocks
+Mocks
 {
 constructor
 (
@@ -275,7 +275,7 @@ disableRuntimeClientFactoryMock
 )
 ;
 }
-emitUpdate
+emitUSBUpdate
 (
 )
 {
@@ -295,7 +295,7 @@ updated
 )
 ;
 }
-createRuntime
+createUSBRuntime
 (
 id
 runtimeInfo
@@ -418,7 +418,7 @@ return
 mockUsbClient
 ;
 }
-removeRuntime
+removeUSBRuntime
 (
 id
 )
