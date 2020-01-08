@@ -749,11 +749,6 @@ WebGLExtensionCompressedTextureASTC
 cpp
 '
 '
-WebGLExtensionCompressedTextureATC
-.
-cpp
-'
-'
 WebGLExtensionCompressedTextureBPTC
 .
 cpp
