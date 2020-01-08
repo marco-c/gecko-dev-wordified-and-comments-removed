@@ -64,9 +64,9 @@ dulwich
 =
 0
 .
-8
+19
 .
-7
+6
 hg
 -
 git
@@ -92,11 +92,11 @@ logilab
 common
 =
 =
-0
+1
 .
-59
+4
 .
-0
+2
 mercurial
 =
 =
@@ -141,6 +141,8 @@ pycrypto
 2
 .
 6
+.
+1
 pyflakes
 =
 =
