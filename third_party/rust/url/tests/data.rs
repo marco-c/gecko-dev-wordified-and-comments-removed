@@ -4,6 +4,8 @@ rustc_serialize
 ;
 extern
 crate
+rustc_test
+as
 test
 ;
 extern
