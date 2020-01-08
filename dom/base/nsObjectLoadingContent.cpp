@@ -3280,6 +3280,11 @@ return
 NS_OK
 ;
 }
+nsresult
+rv
+=
+NS_ERROR_FAILURE
+;
 RefPtr
 <
 nsPluginHost
@@ -3341,7 +3346,6 @@ nsPluginInstanceOwner
 >
 newOwner
 ;
-nsresult
 rv
 =
 pluginHost
@@ -9394,6 +9398,10 @@ content
 "
 )
 ;
+rv
+=
+NS_ERROR_UNEXPECTED
+;
 return
 NS_OK
 ;
@@ -9426,6 +9434,10 @@ channel
 state
 "
 )
+;
+rv
+=
+NS_ERROR_UNEXPECTED
 ;
 return
 NS_OK
