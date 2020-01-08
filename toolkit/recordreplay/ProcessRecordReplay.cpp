@@ -687,6 +687,10 @@ gInitializationFailureMessage
 )
 ;
 }
+LateInitializeRedirections
+(
+)
+;
 Thread
 :
 :
