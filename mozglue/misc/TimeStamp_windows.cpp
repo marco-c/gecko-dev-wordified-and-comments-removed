@@ -250,15 +250,6 @@ QueryPerformanceCounter
 pc
 )
 ;
-if
-(
-true
-|
-|
-!
-sHasStableTSC
-)
-{
 AutoCriticalSection
 lock
 (
@@ -297,7 +288,6 @@ pc
 .
 QuadPart
 ;
-}
 return
 pc
 .
