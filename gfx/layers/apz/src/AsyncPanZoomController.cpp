@@ -12400,6 +12400,8 @@ GetApzcTreeManager
 )
 )
 {
+if
+(
 AndroidDynamicToolbarAnimator
 *
 animator
@@ -12410,12 +12412,8 @@ manager
 GetAndroidDynamicToolbarAnimator
 (
 )
-;
-MOZ_ASSERT
-(
-animator
 )
-;
+{
 animator
 -
 >
@@ -12423,6 +12421,7 @@ SetScrollingRootContent
 (
 )
 ;
+}
 }
 }
 #
@@ -18856,6 +18855,8 @@ GetApzcTreeManager
 )
 )
 {
+if
+(
 AndroidDynamicToolbarAnimator
 *
 animator
@@ -18866,12 +18867,8 @@ manager
 GetAndroidDynamicToolbarAnimator
 (
 )
-;
-MOZ_ASSERT
-(
-animator
 )
-;
+{
 animator
 -
 >
@@ -18880,6 +18877,7 @@ MaybeUpdateCompositionSizeAndRootFrameMetrics
 aLayerMetrics
 )
 ;
+}
 }
 }
 #
@@ -21068,6 +21066,8 @@ GetApzcTreeManager
 )
 )
 {
+if
+(
 AndroidDynamicToolbarAnimator
 *
 animator
@@ -21078,12 +21078,8 @@ manager
 GetAndroidDynamicToolbarAnimator
 (
 )
-;
-MOZ_ASSERT
-(
-animator
 )
-;
+{
 animator
 -
 >
@@ -21094,6 +21090,7 @@ Metrics
 )
 )
 ;
+}
 }
 #
 endif
