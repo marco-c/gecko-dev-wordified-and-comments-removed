@@ -41,13 +41,6 @@ h
 #
 include
 "
-nsIDownloadHistory
-.
-h
-"
-#
-include
-"
 Database
 .
 h
@@ -177,8 +170,6 @@ final
 public
 IHistory
 public
-nsIDownloadHistory
-public
 mozIAsyncHistory
 public
 nsIObserver
@@ -189,7 +180,6 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_IHISTORY
-NS_DECL_NSIDOWNLOADHISTORY
 NS_DECL_MOZIASYNCHISTORY
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIMEMORYREPORTER
