@@ -352,6 +352,14 @@ return
 nullptr
 ;
 }
+MOZ_ASSERT
+(
+JS_IsGlobalObject
+(
+sandbox
+)
+)
+;
 nsCOMPtr
 <
 nsIGlobalObject
