@@ -28,8 +28,6 @@ DeflatedFile
 Dest
     
 ManifestFile
-    
-XPTFile
 )
 import
 mozpack
@@ -3553,10 +3551,7 @@ and
 isinstance
 (
 file
-(
 ManifestFile
-XPTFile
-)
 )
 or
                         
