@@ -1,4 +1,4 @@
-52817
+52849
 0
 /
 nm
@@ -6997,6 +6997,9 @@ M
 Charlotte
 /
 M
+Charlottesville
+/
+M
 Charlottetown
 /
 M
@@ -13078,6 +13081,7 @@ M
 GDP
 /
 M
+GDPR
 GE
 /
 M
@@ -44590,6 +44594,7 @@ backlash
 /
 MS
 backless
+backlit
 backlog
 /
 MS
@@ -45279,6 +45284,9 @@ M
 barcarole
 /
 SM
+barcode
+/
+SDG
 bard
 /
 SM
@@ -46904,6 +46912,9 @@ SM
 bigwig
 /
 MS
+bijection
+/
+S
 bijou
 /
 M
@@ -56339,6 +56350,7 @@ commodification
 commodious
 /
 Y
+commoditization
 commodity
 /
 SM
@@ -65622,9 +65634,15 @@ DRSZG
 dowser
 /
 M
+dox
+/
+SDG
 doxology
 /
 SM
+doxx
+/
+SDG
 doyen
 /
 SM
@@ -67669,6 +67687,8 @@ eloquent
 /
 Y
 else
+/
+M
 elsewhere
 elucidate
 /
@@ -76477,6 +76497,8 @@ geocache
 DSG
 geocentric
 geocentrically
+geocentricism
+geocentrism
 geochemistry
 /
 M
@@ -79620,10 +79642,15 @@ handwork
 /
 M
 handwoven
+handwrite
+/
+GS
 handwriting
 /
 M
 handwritten
+handwritten
+handwrote
 handy
 /
 UTR
@@ -80659,6 +80686,9 @@ helicopter
 /
 SGMD
 heliocentric
+heliocentrically
+heliocentricism
+heliocentrism
 heliotrope
 /
 SM
@@ -85021,6 +85051,7 @@ MS
 infinitude
 /
 M
+infinitum
 infinity
 /
 SM
@@ -94344,7 +94375,7 @@ merchandising
 M
 merchant
 /
-MBS
+MBSG
 merchantman
 /
 M
@@ -105957,6 +105988,9 @@ M
 photocopy
 /
 DRSMZG
+photodetector
+/
+S
 photoelectric
 photoelectrically
 photoengrave
@@ -106000,6 +106034,10 @@ photon
 /
 MS
 photosensitive
+photosensor
+/
+S
+photosensory
 photostat
 /
 SM
@@ -108655,6 +108693,11 @@ M
 prayerful
 /
 Y
+pre
+-
+fill
+/
+SDG
 preach
 /
 DRSZGL
@@ -108939,6 +108982,9 @@ preferring
 prefigure
 /
 GDS
+prefill
+/
+SDG
 prefix
 /
 MDSG
@@ -109004,6 +109050,9 @@ preliminary
 /
 SM
 preliterate
+preload
+/
+SDG
 prelude
 /
 MS
@@ -109095,6 +109144,9 @@ GSL
 prepayment
 /
 MS
+prepend
+/
+SDG
 preponderance
 /
 SM
@@ -113797,6 +113849,7 @@ rel
 relate
 /
 DRSBXZGNV
+relatedly
 relatedness
 /
 M
@@ -117919,6 +117972,9 @@ MZGDRS
 scoreboard
 /
 SM
+scorebook
+/
+MS
 scorecard
 /
 MS
@@ -117932,6 +117988,9 @@ S
 scorer
 /
 M
+scoresheet
+/
+MS
 scorn
 /
 MDRSZG
@@ -127792,6 +127851,9 @@ SM
 surgical
 /
 Y
+surjection
+/
+S
 surliness
 /
 M
@@ -131707,6 +131769,7 @@ tony
 /
 RT
 too
+toodles
 took
 /
 A
@@ -135065,6 +135128,8 @@ unpractical
 unprecedented
 /
 Y
+unpressured
+unpressurized
 unprofessional
 /
 Y
@@ -135097,6 +135162,9 @@ Y
 unrepentant
 unreported
 unrepresentative
+unrequest
+/
+D
 unrest
 /
 M
