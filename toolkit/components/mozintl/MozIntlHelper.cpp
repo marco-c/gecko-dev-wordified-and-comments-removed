@@ -143,7 +143,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -346,7 +346,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -445,7 +445,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
