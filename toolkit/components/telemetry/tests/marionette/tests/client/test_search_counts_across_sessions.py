@@ -17,19 +17,6 @@ MAIN_ENVIRONMENT_CHANGE_PING
     
 MAIN_SHUTDOWN_PING
 )
-CANARY_CLIENT_ID
-=
-"
-c0ffeec0
--
-ffee
--
-c0ff
--
-eec0
--
-ffeec0ffeec0
-"
 class
 TestSearchCounts
 (
@@ -443,26 +430,9 @@ clientId
         
 self
 .
-assertIsNotNone
+assertIsValidUUID
 (
 client_id
-)
-        
-self
-.
-assertNotEqual
-(
-client_id
-"
-"
-)
-        
-self
-.
-assertNotEqual
-(
-client_id
-CANARY_CLIENT_ID
 )
         
 ping1_info
