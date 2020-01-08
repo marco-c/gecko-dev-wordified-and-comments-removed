@@ -1360,6 +1360,12 @@ nodeFront
 )
 ;
 }
+this
+.
+_overlayColor
+=
+color
+;
 const
 currentUrl
 =
