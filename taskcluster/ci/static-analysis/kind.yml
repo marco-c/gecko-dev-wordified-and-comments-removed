@@ -294,7 +294,7 @@ py
 toolchains
 :
 -
-win64
+win32
 -
 clang
 -
@@ -304,7 +304,7 @@ st
 -
 an
 -
-win64
+win32
 -
 rust
 -
@@ -481,7 +481,7 @@ py
 toolchains
 :
 -
-win64
+win32
 -
 clang
 -
@@ -491,7 +491,7 @@ st
 -
 an
 -
-win64
+win32
 -
 rust
 -
