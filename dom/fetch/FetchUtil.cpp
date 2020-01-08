@@ -2618,7 +2618,13 @@ xpc
 :
 NativeGlobal
 (
+js
+:
+:
+UncheckedUnwrap
+(
 aObj
+)
 )
 ;
 if
