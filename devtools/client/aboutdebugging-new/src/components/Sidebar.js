@@ -122,7 +122,7 @@ svg
 "
 ;
 const
-MOBILE_ICON
+CONNECT_ICON
 =
 "
 chrome
@@ -137,9 +137,9 @@ images
 /
 aboutdebugging
 -
-firefox
+connect
 -
-logo
+icon
 .
 svg
 "
@@ -246,7 +246,7 @@ CONNECT
 dispatch
 icon
 :
-MOBILE_ICON
+CONNECT_ICON
 isSelected
 :
 PAGES
