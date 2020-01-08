@@ -3813,9 +3813,7 @@ tables
 (
 )
 [
-seg
-.
-tableIndex
+0
 ]
 ;
 if
