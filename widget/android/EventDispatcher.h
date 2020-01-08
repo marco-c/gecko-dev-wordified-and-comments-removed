@@ -155,6 +155,15 @@ nullptr
 )
 ;
 bool
+HasListener
+(
+const
+char16_t
+*
+aEvent
+)
+;
+bool
 HasGeckoListener
 (
 jni
