@@ -370,7 +370,7 @@ nsRefPtrHashtable
 h
 '
 '
-nsStaticAtom
+nsStaticAtomUtils
 .
 h
 '
