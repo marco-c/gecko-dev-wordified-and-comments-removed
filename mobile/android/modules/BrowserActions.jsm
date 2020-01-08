@@ -224,7 +224,7 @@ type
 "
 Menu
 :
-AddBrowserAction
+Add
 "
 uuid
 :
@@ -299,7 +299,7 @@ type
 "
 Menu
 :
-UpdateBrowserAction
+Update
 "
 uuid
 options
@@ -442,7 +442,7 @@ type
 "
 Menu
 :
-RemoveBrowserAction
+Remove
 "
 uuid
 }
