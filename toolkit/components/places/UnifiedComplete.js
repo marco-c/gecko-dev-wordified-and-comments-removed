@@ -1298,7 +1298,12 @@ fixed_up_host
 '
 /
 '
+IFNULL
+(
+:
 prefix
+prefix
+)
 |
 |
 moz_origins
@@ -1315,8 +1320,6 @@ id
 FROM
 (
 SELECT
-host
-AS
 host
 host
 AS
@@ -1364,8 +1367,6 @@ SQL_AUTOFILL_FRECENCY_THRESHOLD
 UNION
 ALL
 SELECT
-host
-AS
 host
 fixup_url
 (
