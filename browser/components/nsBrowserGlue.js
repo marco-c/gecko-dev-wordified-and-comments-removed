@@ -11284,7 +11284,7 @@ sessionWillBeRestored
 "
 tabs
 .
-closeWarningMultipleWindowsSessionRestore
+closeWarningMultipleWindowsSessionRestore2
 "
 :
 "
@@ -11354,7 +11354,7 @@ sessionWillBeRestored
 "
 tabs
 .
-closeWarningMultipleSessionRestore
+closeWarningMultipleSessionRestore2
 "
 :
 "
