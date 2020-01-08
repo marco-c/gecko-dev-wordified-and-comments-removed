@@ -6,6 +6,16 @@ l4_umword_t
 :
 c_ulong
 ;
+pub
+type
+pthread_t
+=
+*
+mut
+:
+:
+c_void
+;
 s
 !
 {

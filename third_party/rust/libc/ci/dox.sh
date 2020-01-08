@@ -142,7 +142,7 @@ rs
 -
 -
 cfg
-dox
+cross_platform_docs
 \
 -
 -

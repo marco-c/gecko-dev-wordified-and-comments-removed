@@ -85,16 +85,13 @@ rd
 wr
 )
 =
-try
-!
-(
 unix
 :
 :
 pipe
 (
 )
-)
+?
 ;
 Ok
 (

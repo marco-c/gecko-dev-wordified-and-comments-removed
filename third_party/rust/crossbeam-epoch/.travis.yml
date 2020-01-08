@@ -9,12 +9,6 @@ stable
 beta
 -
 nightly
--
-1
-.
-13
-.
-0
 addons
 :
 apt

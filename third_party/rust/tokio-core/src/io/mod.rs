@@ -16,6 +16,14 @@ crate
 "
 )
 ]
+#
+!
+[
+allow
+(
+deprecated
+)
+]
 use
 std
 :

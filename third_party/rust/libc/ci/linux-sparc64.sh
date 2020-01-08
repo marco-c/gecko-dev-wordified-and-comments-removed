@@ -27,6 +27,16 @@ cdimage
 /
 ports
 /
+9
+.
+0
+/
+sparc64
+/
+iso
+-
+cd
+/
 debian
 -
 9

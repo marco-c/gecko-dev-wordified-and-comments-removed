@@ -242,15 +242,6 @@ push_front
 item
 )
 ;
-self
-.
-sink
-.
-poll_complete
-(
-)
-?
-;
 return
 Ok
 (

@@ -1,4 +1,12 @@
 pub
+type
+pthread_t
+=
+:
+:
+c_ulong
+;
+pub
 const
 SFD_CLOEXEC
 :

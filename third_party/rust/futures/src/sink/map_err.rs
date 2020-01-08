@@ -15,6 +15,7 @@ Stream
 [
 derive
 (
+Clone
 Debug
 )
 ]

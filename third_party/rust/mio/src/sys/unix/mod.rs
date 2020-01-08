@@ -34,7 +34,7 @@ android
 target_os
 =
 "
-fuchsia
+solaris
 "
 )
 )
@@ -61,7 +61,7 @@ android
 target_os
 =
 "
-fuchsia
+solaris
 "
 )
 )
@@ -258,7 +258,10 @@ self
 ready
 :
 :
+{
 UnixReady
+READY_ALL
+}
 ;
 pub
 use
@@ -403,9 +406,6 @@ pipe2_fn
 =
 >
 {
-try
-!
-(
 cvt
 (
 pipe2_fn
@@ -418,16 +418,13 @@ as_mut_ptr
 flags
 )
 )
-)
+?
 ;
 }
 None
 =
 >
 {
-try
-!
-(
 cvt
 (
 libc
@@ -442,7 +439,7 @@ as_mut_ptr
 )
 )
 )
-)
+?
 ;
 libc
 :

@@ -1,14 +1,11 @@
 use
-std
+core
 :
 :
+{
 char
-;
-use
-std
-:
-:
 mem
+}
 ;
 use
 {

@@ -18,6 +18,7 @@ StartSend
 [
 derive
 (
+Clone
 Debug
 )
 ]

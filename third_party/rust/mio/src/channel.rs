@@ -11,7 +11,6 @@ missing_debug_implementations
 use
 {
 io
-Evented
 Ready
 Poll
 PollOpt
@@ -19,6 +18,12 @@ Registration
 SetReadiness
 Token
 }
+;
+use
+event
+:
+:
+Evented
 ;
 use
 lazycell
@@ -519,9 +524,6 @@ and_then
 _
 |
 {
-try
-!
-(
 self
 .
 ctl
@@ -529,7 +531,7 @@ ctl
 inc
 (
 )
-)
+?
 ;
 Ok
 (
@@ -641,9 +643,6 @@ and_then
 _
 |
 {
-try
-!
-(
 self
 .
 ctl
@@ -651,7 +650,7 @@ ctl
 inc
 (
 )
-)
+?
 ;
 Ok
 (
@@ -706,9 +705,6 @@ and_then
 _
 |
 {
-try
-!
-(
 self
 .
 ctl
@@ -716,7 +712,7 @@ ctl
 inc
 (
 )
-)
+?
 ;
 Ok
 (
@@ -1022,9 +1018,6 @@ borrow
 (
 )
 {
-try
-!
-(
 set_readiness
 .
 set_readiness
@@ -1036,7 +1029,7 @@ readable
 (
 )
 )
-)
+?
 ;
 }
 }
@@ -1196,9 +1189,6 @@ borrow
 (
 )
 {
-try
-!
-(
 set_readiness
 .
 set_readiness
@@ -1210,7 +1200,7 @@ empty
 (
 )
 )
-)
+?
 ;
 }
 }
@@ -1260,9 +1250,6 @@ borrow
 (
 )
 {
-try
-!
-(
 set_readiness
 .
 set_readiness
@@ -1274,7 +1261,7 @@ readable
 (
 )
 )
-)
+?
 ;
 }
 }

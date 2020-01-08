@@ -255,6 +255,9 @@ sdkmanager
 -
 -
 licenses
+-
+-
+no_https
 sdkmanager
 tools
 platform
@@ -293,6 +296,9 @@ arm64
 -
 v8a
 "
+-
+-
+no_https
 echo
 "
 no

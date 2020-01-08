@@ -29,6 +29,8 @@ bytes
 0
 .
 4
+.
+9
 "
 )
 ]
@@ -112,6 +114,10 @@ Bytes
 BytesMut
 }
 ;
+#
+[
+deprecated
+]
 pub
 use
 byteorder

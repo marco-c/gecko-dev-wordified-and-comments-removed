@@ -73,6 +73,11 @@ libstdc
 :
 i386
 \
+libc
++
++
+1
+\
 gcc
 \
 libc6

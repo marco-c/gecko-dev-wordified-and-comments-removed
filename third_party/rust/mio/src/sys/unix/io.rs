@@ -253,9 +253,6 @@ Io
 {
 fd
 :
-try
-!
-(
 self
 .
 fd
@@ -263,7 +260,7 @@ fd
 try_clone
 (
 )
-)
+?
 }
 )
 }

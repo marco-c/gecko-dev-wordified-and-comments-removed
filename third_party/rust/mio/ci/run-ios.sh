@@ -144,8 +144,6 @@ TEST_FILE
 "
 (
 find
-target
-/
 TARGET
 /
 debug

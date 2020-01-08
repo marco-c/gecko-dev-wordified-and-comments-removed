@@ -206,7 +206,7 @@ deque
 "
 0
 .
-1
+3
 "
 Next
 add
@@ -220,6 +220,16 @@ extern
 crate
 crossbeam_deque
 ;
+The
+minimum
+required
+Rust
+version
+is
+1
+.
+20
+.
 #
 #
 License

@@ -615,6 +615,17 @@ contains
 if
 "
 )
+&
+&
+!
+line
+.
+contains
+(
+"
+target_endian
+"
+)
 {
 if
 state

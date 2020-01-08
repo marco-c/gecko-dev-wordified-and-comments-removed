@@ -385,11 +385,11 @@ clone
 )
 ;
 let
-h
+c
 =
 collector
 .
-handle
+clone
 (
 )
 ;
@@ -404,7 +404,11 @@ move
 worker
 (
 a
-h
+c
+.
+register
+(
+)
 )
 )
 }
