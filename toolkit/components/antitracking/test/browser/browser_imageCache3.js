@@ -28,11 +28,6 @@ blockingByContentBlocking
 false
 ;
 let
-blockingByAllowList
-=
-false
-;
-let
 rootDir
 =
 getRootDirectory
