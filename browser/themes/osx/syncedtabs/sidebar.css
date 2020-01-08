@@ -111,6 +111,12 @@ sidebar
 item
 .
 selected
+:
+not
+(
+:
+focus
+)
 >
 .
 item
