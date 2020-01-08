@@ -339,11 +339,6 @@ nsStyleSVG
 :
 *
 aFillOrStroke
-SVGObserverUtils
-:
-:
-PaintingPropertyDescriptor
-aProperty
 imgDrawingParams
 &
 aImgParams
@@ -372,7 +367,6 @@ GetPaintServer
 (
 aFrame
 aFillOrStroke
-aProperty
 )
 ;
 if
@@ -639,12 +633,6 @@ nsStyleSVG
 :
 :
 mFill
-SVGObserverUtils
-:
-:
-FillProperty
-(
-)
 aImgParams
 )
 ;
@@ -721,12 +709,6 @@ nsStyleSVG
 :
 :
 mStroke
-SVGObserverUtils
-:
-:
-StrokeProperty
-(
-)
 aImgParams
 )
 ;
