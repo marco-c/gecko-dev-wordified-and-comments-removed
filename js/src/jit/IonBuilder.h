@@ -5283,7 +5283,10 @@ bool
 guardGlobal
 )
 ;
-void
+AbortReasonOr
+<
+Ok
+>
 freezePropertiesForCommonPrototype
 (
 TemporaryTypeSet
@@ -5301,7 +5304,10 @@ allowEmptyTypesForGlobal
 false
 )
 ;
+AbortReasonOr
+<
 bool
+>
 testCommonGetterSetter
 (
 TemporaryTypeSet
