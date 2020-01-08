@@ -1797,7 +1797,6 @@ return
 }
 _pauseAndRespond
 :
-async
 function
 (
 frame
@@ -1910,7 +1909,6 @@ location
 )
 ;
 return
-undefined
 ;
 }
 packet
@@ -2005,9 +2003,6 @@ pkt
 ;
 }
 )
-;
-return
-undefined
 ;
 }
 )
