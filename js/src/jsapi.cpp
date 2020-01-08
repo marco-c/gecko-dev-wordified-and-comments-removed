@@ -18753,12 +18753,6 @@ rhs
 .
 mutedErrors_
 ;
-utf8
-=
-rhs
-.
-utf8
-;
 selfHostingMode
 =
 rhs
