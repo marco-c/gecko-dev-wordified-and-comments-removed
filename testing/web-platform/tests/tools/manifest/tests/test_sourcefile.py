@@ -2621,8 +2621,6 @@ html
 /
 test
 .
-https
-.
 any
 .
 serviceworker
@@ -3069,8 +3067,6 @@ serviceworker
 html
 /
 test
-.
-https
 .
 any
 .
