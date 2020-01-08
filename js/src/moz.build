@@ -1722,6 +1722,13 @@ cpp
 '
 frontend
 /
+IfEmitter
+.
+cpp
+'
+'
+frontend
+/
 JumpList
 .
 cpp
