@@ -10857,7 +10857,7 @@ bool
 isUAWidgetCompartment
 ;
 bool
-isSandboxCompartment
+hasExclusiveExpandos
 ;
 bool
 universalXPConnectEnabled
