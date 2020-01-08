@@ -129,9 +129,6 @@ _isSyntheticDocument
 "
 _innerWindowID
 "
-"
-_manifestURI
-"
 ]
 ;
 const
