@@ -3948,7 +3948,7 @@ Element
 aCell
 )
 ;
-nsresult
+void
 HideInlineTableEditingUI
 (
 )
