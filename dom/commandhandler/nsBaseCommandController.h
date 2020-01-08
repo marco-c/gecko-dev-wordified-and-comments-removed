@@ -62,6 +62,15 @@ NS_DECL_NSICONTROLLER
 NS_DECL_NSICOMMANDCONTROLLER
 NS_DECL_NSICONTROLLERCONTEXT
 NS_DECL_NSIINTERFACEREQUESTOR
+static
+already_AddRefed
+<
+nsIController
+>
+CreateWindowController
+(
+)
+;
 protected
 :
 virtual
