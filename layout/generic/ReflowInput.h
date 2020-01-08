@@ -3148,6 +3148,11 @@ aFrameType
 )
 ;
 void
+InitDynamicReflowRoot
+(
+)
+;
+void
 InitConstraints
 (
 nsPresContext
