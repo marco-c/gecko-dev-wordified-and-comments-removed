@@ -630,6 +630,14 @@ browser
 '
 '
 /
+toolkit
+/
+components
+/
+find
+'
+'
+/
 tools
 /
 profiler
