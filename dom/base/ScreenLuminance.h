@@ -18,6 +18,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+nsWrapperCache
+.
+h
+"
 class
 nsScreen
 ;
