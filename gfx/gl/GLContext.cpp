@@ -556,12 +556,6 @@ GL_ARB_sync
 GL_ARB_texture_compression
 "
 "
-GL_ARB_texture_compression_bptc
-"
-"
-GL_ARB_texture_compression_rgtc
-"
-"
 GL_ARB_texture_float
 "
 "
@@ -667,13 +661,7 @@ GL_EXT_shader_texture_lod
 GL_EXT_texture3D
 "
 "
-GL_EXT_texture_compression_bptc
-"
-"
 GL_EXT_texture_compression_dxt1
-"
-"
-GL_EXT_texture_compression_rgtc
 "
 "
 GL_EXT_texture_compression_s3tc

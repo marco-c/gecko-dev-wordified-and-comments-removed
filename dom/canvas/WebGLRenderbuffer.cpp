@@ -40,13 +40,6 @@ h
 #
 include
 "
-WebGLFormats
-.
-h
-"
-#
-include
-"
 WebGLStrongTypes
 .
 h

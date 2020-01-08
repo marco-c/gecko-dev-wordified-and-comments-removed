@@ -74,13 +74,6 @@ h
 #
 include
 "
-WebGLFormats
-.
-h
-"
-#
-include
-"
 WebGLTexelConversions
 .
 h
