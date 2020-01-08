@@ -1,13 +1,6 @@
 #
 include
 "
-nsCSSFrameConstructor
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
