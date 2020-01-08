@@ -147,10 +147,17 @@ site
 const
 propOptions
 =
+(
 !
 site
 .
 isDefault
+|
+|
+site
+.
+searchTopSite
+)
 ?
 props
 .

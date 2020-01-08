@@ -5381,11 +5381,13 @@ suitable
 PREF_CHANGED
 events
 "
+async
 (
 )
 =
 >
 {
+await
 feed
 .
 onAction

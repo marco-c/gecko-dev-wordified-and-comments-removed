@@ -2685,6 +2685,7 @@ join
 )
 ;
 }
+async
 onAction
 (
 action
@@ -2789,6 +2790,7 @@ if
 matched
 )
 {
+await
 SectionsManager
 .
 addBuiltInSection

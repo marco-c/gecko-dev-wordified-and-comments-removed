@@ -670,7 +670,7 @@ topsites_form_use_image_link
 "
 :
 "
-Utilizar
+Usar
 uma
 imagem
 personalizada
