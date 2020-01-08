@@ -119,6 +119,17 @@ DllBlocklist_CheckStatus
 ;
 #
 ifdef
+DEBUG
+MFBT_API
+void
+DllBlocklist_Shutdown
+(
+)
+;
+#
+endif
+#
+ifdef
 ENABLE_TESTS
 typedef
 void
