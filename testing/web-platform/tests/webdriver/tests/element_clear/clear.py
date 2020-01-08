@@ -1,5 +1,7 @@
 import
 pytest
+import
+time
 from
 webdriver
 import
@@ -226,6 +228,15 @@ Element
 "
 foo
 "
++
+str
+(
+time
+.
+time
+(
+)
+)
 session
 )
     
