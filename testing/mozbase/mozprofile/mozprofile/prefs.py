@@ -1124,22 +1124,6 @@ lines
 :
             
 if
-isinstance
-(
-line
-bytes
-)
-:
-                
-line
-=
-line
-.
-decode
-(
-)
-            
-if
 not
 line
 .

@@ -16,8 +16,6 @@ import
 zipfile
 import
 hashlib
-import
-binascii
 from
 xml
 .
@@ -39,16 +37,18 @@ import
 getLogger
 _SALT
 =
-binascii
-.
-hexlify
-(
 os
 .
 urandom
 (
 32
 )
+.
+encode
+(
+'
+hex
+'
 )
 _TEMPORARY_ADDON_SUFFIX
 =
@@ -1078,10 +1078,6 @@ hash
 update
 (
 addon_path
-.
-encode
-(
-)
 )
         
 return
@@ -1516,10 +1512,6 @@ manifest
 json
 '
 )
-.
-decode
-(
-)
                         
 manifest
 =
@@ -1674,13 +1666,13 @@ e
 reraise
 (
 AddonFormatError
-AddonFormatError
 (
 str
 (
 e
 )
 )
+None
 sys
 .
 exc_info
@@ -1965,13 +1957,13 @@ e
 reraise
 (
 AddonFormatError
-AddonFormatError
 (
 str
 (
 e
 )
 )
+None
 sys
 .
 exc_info

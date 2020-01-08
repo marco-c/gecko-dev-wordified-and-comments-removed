@@ -30,7 +30,6 @@ from
 six
 import
 string_types
-python_2_unicode_compatible
 from
 .
 addons
@@ -822,7 +821,6 @@ self
 .
 profile
 )
-python_2_unicode_compatible
 class
 Profile
 (
@@ -2806,6 +2804,28 @@ retval
     
 def
 __str__
+(
+self
+)
+:
+        
+return
+unicode
+(
+self
+)
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
+    
+def
+__unicode__
 (
 self
 )
