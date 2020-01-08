@@ -4513,7 +4513,7 @@ global
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -7162,7 +7162,7 @@ JSObject
 aGlobal
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -8596,7 +8596,7 @@ outerObject
 )
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -8754,7 +8754,7 @@ NS_ERROR_FAILURE
 }
 }
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -16006,7 +16006,7 @@ cx
 (
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -23267,7 +23267,7 @@ scope
 )
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -29221,7 +29221,7 @@ Cast
 sourceWindow
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

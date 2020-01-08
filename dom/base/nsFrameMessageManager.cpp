@@ -5037,7 +5037,7 @@ PrivilegedJunkScope
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx

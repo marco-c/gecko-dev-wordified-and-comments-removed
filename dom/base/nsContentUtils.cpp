@@ -31754,7 +31754,7 @@ disabler
 cx
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

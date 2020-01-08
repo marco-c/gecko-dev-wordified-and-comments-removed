@@ -173,7 +173,7 @@ Create
 ;
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
@@ -436,7 +436,7 @@ return
 ;
 }
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
