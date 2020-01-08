@@ -260,7 +260,6 @@ url
 "
 ;
 NFCRecordType
-?
 recordType
 ;
 USVString
