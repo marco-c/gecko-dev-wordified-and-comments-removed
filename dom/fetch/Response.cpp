@@ -707,16 +707,6 @@ mStatus
 =
 aStatus
 ;
-init
-.
-mStatusText
-.
-AssignASCII
-(
-"
-"
-)
-;
 RefPtr
 <
 Response
