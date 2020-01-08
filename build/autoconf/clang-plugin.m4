@@ -600,10 +600,10 @@ then
 CLANG_LDFLAGS
 =
 "
-clang
+clangASTMatchers
 .
 lib
-clangASTMatchers
+clang
 .
 lib
 "
