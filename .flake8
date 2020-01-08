@@ -103,6 +103,10 @@ ipc
 /
 chromium
 /
+src
+/
+third_party
+/
 gfx
 /
 angle

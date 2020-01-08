@@ -369,6 +369,10 @@ ipc
 /
 chromium
 /
+src
+/
+third_party
+/
 js
 /
 src
