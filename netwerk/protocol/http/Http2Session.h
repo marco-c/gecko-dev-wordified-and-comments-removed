@@ -995,6 +995,16 @@ uint8_t
 weight
 )
 ;
+void
+IncrementTrrCounter
+(
+)
+{
+mTrrStreams
++
++
+;
+}
 private
 :
 enum
@@ -1714,6 +1724,9 @@ nsCStringHashKey
 uint32_t
 >
 mTunnelHash
+;
+uint32_t
+mTrrStreams
 ;
 }
 ;
