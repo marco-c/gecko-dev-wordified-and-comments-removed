@@ -24871,9 +24871,7 @@ onSecurityChange
 (
 aWebProgress
 aRequest
-aOldState
 aState
-aContentBlockingLogJSON
 aIsSimulated
 )
 {
@@ -25006,13 +25004,11 @@ ContentBlocking
 .
 onSecurityChange
 (
-aOldState
 this
 .
 _state
 aWebProgress
 aIsSimulated
-aContentBlockingLogJSON
 )
 ;
 }

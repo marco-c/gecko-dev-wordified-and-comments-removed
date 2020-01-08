@@ -197,9 +197,7 @@ onSecurityChange
 (
 aWebProgress
 aRequest
-aOldState
 aState
-aContentBlockingLogJSON
 )
 {
 var
@@ -568,9 +566,7 @@ onSecurityChange
 aBrowser
 aWebProgress
 aRequest
-aOldState
 aState
-aContentBlockingLogJSON
 )
 {
 var

@@ -103,9 +103,6 @@ uri
 )
 ;
 uint32_t
-mOldState
-;
-uint32_t
 mState
 ;
 nsWeakPtr
