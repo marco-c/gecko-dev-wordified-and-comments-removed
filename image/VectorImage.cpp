@@ -403,12 +403,9 @@ virtual
 SVGRootRenderingObserver
 (
 )
-{
-StopObserving
-(
-)
+=
+default
 ;
-}
 Element
 *
 GetReferencedElementWithoutObserving
