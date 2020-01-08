@@ -153,6 +153,9 @@ BinTokenReaderMultipart
 JSContext
 *
 cx
+ErrorReporter
+*
+er
 const
 uint8_t
 *
@@ -167,6 +170,9 @@ BinTokenReaderMultipart
 JSContext
 *
 cx
+ErrorReporter
+*
+er
 const
 Vector
 <
