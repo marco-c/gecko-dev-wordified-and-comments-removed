@@ -23832,7 +23832,6 @@ nsLayoutUtils
 :
 GetParentOrPlaceholderFor
 (
-const
 nsIFrame
 *
 aFrame
