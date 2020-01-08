@@ -124,7 +124,6 @@ mozilla
 :
 dom
 ;
-static
 mozilla
 :
 :
