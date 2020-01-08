@@ -724,6 +724,12 @@ hideBoxModel
 ;
 this
 .
+cancelPick
+(
+)
+;
+this
+.
 _destroyHighlighter
 (
 )
