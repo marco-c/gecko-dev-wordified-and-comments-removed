@@ -2233,13 +2233,6 @@ feature
 const
 unsigned
 long
-STATE_COOKIES_LOADED
-=
-0x00008000
-;
-const
-unsigned
-long
 STATE_COOKIES_BLOCKED_BY_PERMISSION
 =
 0x10000000
