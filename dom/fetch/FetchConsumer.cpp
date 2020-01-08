@@ -1155,9 +1155,9 @@ Derived
 >
 *
 aBody
-AbortSignal
+AbortSignalImpl
 *
-aSignal
+aSignalImpl
 FetchConsumeType
 aType
 ErrorResult
@@ -1515,7 +1515,7 @@ nullptr
 }
 if
 (
-aSignal
+aSignalImpl
 )
 {
 consumer
@@ -1523,7 +1523,7 @@ consumer
 >
 Follow
 (
-aSignal
+aSignalImpl
 )
 ;
 }

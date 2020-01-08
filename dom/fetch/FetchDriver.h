@@ -319,9 +319,9 @@ aIsTrackingFetch
 nsresult
 Fetch
 (
-AbortSignal
+AbortSignalImpl
 *
-aSignal
+aSignalImpl
 FetchDriverObserver
 *
 aObserver

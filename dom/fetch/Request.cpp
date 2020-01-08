@@ -290,6 +290,7 @@ mSignal
 new
 AbortSignal
 (
+aOwner
 aSignal
 -
 >
@@ -3320,6 +3321,7 @@ mSignal
 new
 AbortSignal
 (
+mOwner
 false
 )
 ;
@@ -3328,12 +3330,12 @@ return
 mSignal
 ;
 }
-AbortSignal
+AbortSignalImpl
 *
 Request
 :
 :
-GetSignal
+GetSignalImpl
 (
 )
 const

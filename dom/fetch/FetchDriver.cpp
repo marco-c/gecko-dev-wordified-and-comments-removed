@@ -1248,9 +1248,9 @@ FetchDriver
 :
 Fetch
 (
-AbortSignal
+AbortSignalImpl
 *
-aSignal
+aSignalImpl
 FetchDriverObserver
 *
 aObserver
@@ -1381,12 +1381,12 @@ principalInfo
 ;
 if
 (
-aSignal
+aSignalImpl
 )
 {
 if
 (
-aSignal
+aSignalImpl
 -
 >
 Aborted
@@ -1404,7 +1404,7 @@ NS_OK
 }
 Follow
 (
-aSignal
+aSignalImpl
 )
 ;
 }

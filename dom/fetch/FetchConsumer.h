@@ -109,9 +109,9 @@ Derived
 >
 *
 aBody
-AbortSignal
+AbortSignalImpl
 *
-aSignal
+aSignalImpl
 FetchConsumeType
 aType
 ErrorResult

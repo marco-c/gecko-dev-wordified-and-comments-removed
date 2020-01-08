@@ -509,9 +509,9 @@ GetOrCreateSignal
 (
 )
 ;
-AbortSignal
+AbortSignalImpl
 *
-GetSignal
+GetSignalImpl
 (
 )
 const

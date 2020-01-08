@@ -64,9 +64,9 @@ FetchObserver
 nsIGlobalObject
 *
 aGlobal
-AbortSignal
+AbortSignalImpl
 *
-aSignal
+aSignalImpl
 )
 :
 DOMEventTargetHelper
@@ -83,12 +83,12 @@ Requesting
 {
 if
 (
-aSignal
+aSignalImpl
 )
 {
 Follow
 (
-aSignal
+aSignalImpl
 )
 ;
 }
