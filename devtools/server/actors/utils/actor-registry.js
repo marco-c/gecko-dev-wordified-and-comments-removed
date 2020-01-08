@@ -1276,8 +1276,6 @@ server
 actors
 /
 accessibility
-/
-accessibility
 "
 {
 prefix
