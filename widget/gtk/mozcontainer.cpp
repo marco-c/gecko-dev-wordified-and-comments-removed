@@ -625,7 +625,12 @@ container
 >
 ready_to_draw
 =
-false
+GDK_IS_X11_DISPLAY
+(
+gdk_display_get_default
+(
+)
+)
 ;
 container
 -
