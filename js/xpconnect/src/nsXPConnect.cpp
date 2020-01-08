@@ -3159,13 +3159,6 @@ aJSContext
 aJSObjArg
 )
 ;
-JSAutoRealmAllowCCW
-ar
-(
-aJSContext
-aJSObj
-)
-;
 nsresult
 rv
 =
