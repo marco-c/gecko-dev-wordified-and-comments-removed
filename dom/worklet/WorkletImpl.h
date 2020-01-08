@@ -26,6 +26,9 @@ nsPIDOMWindowInner
 class
 nsIPrincipal
 ;
+class
+nsIRunnable
+;
 namespace
 mozilla
 {
@@ -256,6 +259,16 @@ return
 mWorkletLoadInfo
 ;
 }
+nsresult
+DispatchRunnable
+(
+already_AddRefed
+<
+nsIRunnable
+>
+aRunnable
+)
+;
 private
 :
 WorkletImpl
