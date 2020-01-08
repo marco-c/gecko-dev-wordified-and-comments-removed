@@ -562,6 +562,12 @@ bottom
 -
 2px
 ;
+pointer
+-
+events
+:
+none
+;
 }
 .
 contentSearchOneOffItem
