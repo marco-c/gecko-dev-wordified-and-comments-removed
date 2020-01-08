@@ -1286,9 +1286,14 @@ XPCOMUtils
 defineLazyScriptGetter
 (
 this
+[
 "
 CustomizationHandler
 "
+"
+AutoHideMenubar
+"
+]
 "
 chrome
 :
@@ -7238,6 +7243,12 @@ maximized
 ;
 }
 }
+AutoHideMenubar
+.
+init
+(
+)
+;
 window
 .
 TabBarVisibility
