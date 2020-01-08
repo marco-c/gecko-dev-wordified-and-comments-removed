@@ -465,15 +465,7 @@ ErrorResult
 &
 aRv
 )
-{
-aRv
-=
-MozRemove
-(
-aURI
-)
 ;
-}
 protected
 :
 virtual
