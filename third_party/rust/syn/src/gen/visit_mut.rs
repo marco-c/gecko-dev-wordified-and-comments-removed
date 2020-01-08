@@ -3,15 +3,6 @@
 [
 cfg_attr
 (
-rustfmt
-rustfmt_skip
-)
-]
-#
-!
-[
-cfg_attr
-(
 feature
 =
 "
@@ -25,40 +16,6 @@ match_same_arms
 )
 )
 ]
-use
-*
-;
-#
-[
-cfg
-(
-any
-(
-feature
-=
-"
-full
-"
-feature
-=
-"
-derive
-"
-)
-)
-]
-use
-punctuated
-:
-:
-Punctuated
-;
-use
-proc_macro2
-:
-:
-Span
-;
 #
 [
 cfg
@@ -90,6 +47,40 @@ visit_mut
 :
 *
 ;
+use
+proc_macro2
+:
+:
+Span
+;
+#
+[
+cfg
+(
+any
+(
+feature
+=
+"
+full
+"
+feature
+=
+"
+derive
+"
+)
+)
+]
+use
+punctuated
+:
+:
+Punctuated
+;
+use
+*
+;
 #
 [
 cfg
@@ -115,6 +106,7 @@ expr
 {
 e
 }
+;
 }
 #
 [
@@ -155,6 +147,7 @@ unreachable
 (
 )
 }
+;
 }
 /
 /
@@ -1546,17 +1539,6 @@ self
 i
 )
 }
-#
-[
-cfg
-(
-feature
-=
-"
-full
-"
-)
-]
 #
 [
 cfg
@@ -7732,8 +7714,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 extern_token
@@ -7839,8 +7819,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 lt_token
@@ -7881,15 +7859,12 @@ visit_generic_argument_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 gt_token
@@ -7951,8 +7926,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -8040,8 +8013,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 self_token
@@ -8092,8 +8063,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 and_token
@@ -8155,8 +8124,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 self_token
@@ -8236,7 +8203,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -8295,7 +8261,6 @@ visit_pat_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -8315,8 +8280,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -8349,8 +8312,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 fat_arrow_token
@@ -8529,8 +8490,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 pound_token
@@ -8556,8 +8515,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bracket_token
@@ -8669,8 +8626,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -9598,8 +9553,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -9680,8 +9633,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -9706,7 +9657,6 @@ visit_stmt_mut
 it
 )
 }
-;
 }
 #
 [
@@ -9757,8 +9707,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 for_token
@@ -9773,8 +9721,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 lt_token
@@ -9815,15 +9761,12 @@ visit_lifetime_def_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 gt_token
@@ -9892,15 +9835,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 const_token
@@ -9926,8 +9866,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -10137,8 +10075,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 enum_token
@@ -10153,8 +10089,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -10195,7 +10129,6 @@ visit_variant_mut
 it
 )
 }
-;
 }
 #
 [
@@ -10238,8 +10171,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 struct_token
@@ -10327,8 +10258,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 union_token
@@ -10400,7 +10329,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -11037,15 +10965,11 @@ _binding_0
 =
 >
 {
-full
-!
-(
 _visitor
 .
 visit_expr_field_mut
 (
 _binding_0
-)
 )
 ;
 }
@@ -11489,15 +11413,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bracket_token
@@ -11538,7 +11459,6 @@ visit_expr_mut
 it
 )
 }
-;
 }
 #
 [
@@ -11610,7 +11530,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -11629,8 +11548,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -11722,7 +11639,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -11818,7 +11734,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -11925,7 +11840,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_block_mut
@@ -12008,15 +11922,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 box_token
@@ -12108,15 +12019,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 break_token
@@ -12231,7 +12139,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -12250,8 +12157,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -12292,7 +12197,6 @@ visit_expr_mut
 it
 )
 }
-;
 }
 #
 [
@@ -12353,7 +12257,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -12372,8 +12275,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 as_token
@@ -12465,15 +12366,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 do_token
@@ -12488,8 +12386,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 catch_token
@@ -12580,7 +12476,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -12639,8 +12534,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 or1_token
@@ -12681,15 +12574,12 @@ visit_fn_arg_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 or2_token
@@ -12792,15 +12682,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 continue_token
@@ -12831,17 +12718,6 @@ it
 }
 ;
 }
-#
-[
-cfg
-(
-feature
-=
-"
-full
-"
-)
-]
 #
 [
 cfg
@@ -12901,7 +12777,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -12920,8 +12795,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 dot_token
@@ -13012,7 +12885,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -13040,8 +12912,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 for_token
@@ -13068,8 +12938,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 in_token
@@ -13172,15 +13040,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 group_token
@@ -13272,15 +13137,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 if_token
@@ -13331,8 +13193,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -13430,15 +13290,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 if_token
@@ -13453,8 +13310,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 let_token
@@ -13495,15 +13350,12 @@ visit_pat_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -13554,8 +13406,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -13653,7 +13503,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -13672,8 +13521,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 arrow_token
@@ -13754,7 +13601,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -13773,8 +13619,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bracket_token
@@ -13855,7 +13699,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_lit_mut
@@ -13938,7 +13781,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -13966,8 +13808,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 loop_token
@@ -14058,7 +13898,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_macro_mut
@@ -14141,15 +13980,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 match_token
@@ -14176,8 +14012,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -14202,7 +14036,6 @@ visit_arm_mut
 it
 )
 }
-;
 }
 #
 [
@@ -14274,7 +14107,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -14293,8 +14125,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 dot_token
@@ -14341,8 +14171,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -14383,7 +14211,6 @@ visit_expr_mut
 it
 )
 }
-;
 }
 #
 [
@@ -14444,15 +14271,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -14533,7 +14357,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -14637,7 +14460,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -14770,15 +14592,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 and_token
@@ -14896,15 +14715,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bracket_token
@@ -14931,8 +14747,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -15024,15 +14838,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 return_token
@@ -15137,7 +14948,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_path_mut
@@ -15155,8 +14965,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -15197,7 +15005,6 @@ visit_field_value_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -15320,7 +15127,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -15339,8 +15145,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 question_token
@@ -15420,15 +15224,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -15469,7 +15270,6 @@ visit_expr_mut
 it
 )
 }
-;
 }
 #
 [
@@ -15541,7 +15341,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_expr_mut
@@ -15560,8 +15359,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -15642,7 +15439,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_un_op_mut
@@ -15737,15 +15533,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 unsafe_token
@@ -15888,7 +15681,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -15916,8 +15708,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 while_token
@@ -16020,7 +15810,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -16048,8 +15837,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 while_token
@@ -16064,8 +15851,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 let_token
@@ -16106,15 +15891,12 @@ visit_pat_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -16217,15 +15999,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 yield_token
@@ -16319,7 +16098,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -16460,7 +16238,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_member_mut
@@ -16581,7 +16358,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_member_mut
@@ -16777,8 +16553,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -16819,7 +16593,6 @@ visit_field_mut
 it
 )
 }
-;
 }
 #
 [
@@ -16870,8 +16643,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -16912,7 +16683,6 @@ visit_field_mut
 it
 )
 }
-;
 }
 #
 [
@@ -16973,7 +16743,6 @@ visit_attribute_mut
 it
 )
 }
-;
 for
 it
 in
@@ -16990,7 +16759,6 @@ visit_item_mut
 it
 )
 }
-;
 }
 #
 [
@@ -17174,8 +16942,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 fn_token
@@ -17201,8 +16967,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -17243,7 +17007,6 @@ visit_fn_arg_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -17454,7 +17217,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -17495,8 +17257,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -17557,7 +17317,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -17575,8 +17334,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 static_token
@@ -17628,8 +17385,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -17656,8 +17411,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -17718,7 +17471,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -17736,8 +17488,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 type_token
@@ -17763,8 +17513,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -18257,7 +18005,6 @@ visit_generic_param_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -18523,7 +18270,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -18567,8 +18313,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 const_token
@@ -18594,8 +18338,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -18621,8 +18363,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -18648,8 +18388,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -18710,7 +18448,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_macro_mut
@@ -18800,7 +18537,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -18912,7 +18648,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -18956,8 +18691,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 type_token
@@ -18994,8 +18727,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -19021,8 +18752,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -19551,7 +19280,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -19569,8 +19297,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 const_token
@@ -19596,8 +19322,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -19624,8 +19348,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -19652,8 +19374,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -19714,7 +19434,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -19732,8 +19451,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 enum_token
@@ -19770,8 +19487,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -19812,7 +19527,6 @@ visit_variant_mut
 it
 )
 }
-;
 }
 #
 [
@@ -19865,7 +19579,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -19883,8 +19596,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 extern_token
@@ -19899,8 +19610,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 crate_token
@@ -19939,8 +19648,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -19972,8 +19679,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -20034,7 +19739,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -20206,7 +19910,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_abi_mut
@@ -20224,8 +19927,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -20250,7 +19951,6 @@ visit_foreign_item_mut
 it
 )
 }
-;
 }
 #
 [
@@ -20303,7 +20003,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -20362,8 +20061,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 impl_token
@@ -20443,8 +20140,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -20475,8 +20170,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -20501,7 +20194,6 @@ visit_impl_item_mut
 it
 )
 }
-;
 }
 #
 [
@@ -20554,7 +20246,6 @@ visit_attribute_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -20665,7 +20356,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -20683,8 +20373,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 macro_token
@@ -20710,8 +20398,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -20734,8 +20420,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -20804,7 +20488,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -20822,8 +20505,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 mod_token
@@ -20862,8 +20543,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -20892,7 +20571,6 @@ visit_item_mut
 it
 )
 }
-;
 }
 ;
 if
@@ -20973,7 +20651,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -20991,8 +20668,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 static_token
@@ -21044,8 +20719,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -21072,8 +20745,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -21100,8 +20771,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -21162,7 +20831,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -21180,8 +20848,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 struct_token
@@ -21301,7 +20967,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -21371,8 +21036,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 trait_token
@@ -21461,15 +21124,12 @@ visit_type_param_bound_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -21494,7 +21154,6 @@ visit_trait_item_mut
 it
 )
 }
-;
 }
 #
 [
@@ -21547,7 +21206,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -21565,8 +21223,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 type_token
@@ -21603,8 +21259,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -21631,8 +21285,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -21693,7 +21345,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -21711,8 +21362,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 union_token
@@ -21806,7 +21455,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_visibility_mut
@@ -21824,8 +21472,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 use_token
@@ -21877,8 +21523,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -22003,8 +21647,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -22136,7 +21778,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_lifetime_mut
@@ -22206,7 +21847,6 @@ visit_lifetime_mut
 it
 )
 }
-;
 }
 #
 [
@@ -22914,15 +22554,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 let_token
@@ -22963,7 +22600,6 @@ visit_pat_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -22983,8 +22619,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -23030,8 +22664,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -23064,8 +22696,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -23135,8 +22765,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bang_token
@@ -23547,8 +23175,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -23589,7 +23215,6 @@ visit_nested_meta_mut
 it
 )
 }
-;
 }
 #
 [
@@ -23651,8 +23276,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -23864,8 +23487,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon2_token
@@ -23880,8 +23501,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 lt_token
@@ -23922,15 +23541,12 @@ visit_generic_method_argument_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 gt_token
@@ -24078,8 +23694,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -24120,7 +23734,6 @@ visit_type_mut
 it
 )
 }
-;
 _visitor
 .
 visit_return_type_mut
@@ -24513,8 +24126,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 box_token
@@ -24672,8 +24283,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -25071,8 +24680,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 and_token
@@ -25180,8 +24787,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bracket_token
@@ -25222,7 +24827,6 @@ visit_pat_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -25332,7 +24936,6 @@ visit_pat_mut
 it
 )
 }
-;
 }
 #
 [
@@ -25405,8 +25008,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -25447,7 +25048,6 @@ visit_field_pat_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -25535,8 +25135,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -25577,7 +25175,6 @@ visit_pat_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -25662,7 +25259,6 @@ visit_pat_mut
 it
 )
 }
-;
 }
 #
 [
@@ -25864,8 +25460,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 underscore_token
@@ -25976,7 +25570,6 @@ visit_path_segment_mut
 it
 )
 }
-;
 }
 #
 [
@@ -26201,8 +25794,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 eq_token
@@ -26335,7 +25926,6 @@ visit_lifetime_mut
 it
 )
 }
-;
 }
 #
 [
@@ -26418,8 +26008,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -26460,7 +26048,6 @@ visit_type_param_bound_mut
 it
 )
 }
-;
 }
 #
 [
@@ -26511,8 +26098,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 lt_token
@@ -26573,8 +26158,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 gt_token
@@ -27357,15 +26940,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 const_token
@@ -27391,8 +26971,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon_token
@@ -27431,8 +27009,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -27464,8 +27040,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -27526,7 +27100,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_macro_mut
@@ -27616,7 +27189,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_method_sig_mut
@@ -27727,15 +27299,12 @@ visit_attribute_mut
 it
 )
 }
-;
 tokens_helper
 (
 _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 type_token
@@ -27824,7 +27393,6 @@ visit_type_param_bound_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -27844,8 +27412,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -27877,8 +27443,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -28330,8 +27894,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bracket_token
@@ -28358,8 +27920,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 semi_token
@@ -28476,8 +28036,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 fn_token
@@ -28513,8 +28071,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -28555,7 +28111,6 @@ visit_bare_fn_arg_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -28643,8 +28198,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 group_token
@@ -28715,8 +28268,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 impl_token
@@ -28757,7 +28308,6 @@ visit_type_param_bound_mut
 it
 )
 }
-;
 }
 #
 [
@@ -28808,8 +28358,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 underscore_token
@@ -28923,8 +28471,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bang_token
@@ -28993,7 +28539,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_ident_mut
@@ -29063,7 +28608,6 @@ visit_type_param_bound_mut
 it
 )
 }
-;
 if
 let
 Some
@@ -29250,8 +28794,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -29398,8 +28940,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 star_token
@@ -29522,8 +29062,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 and_token
@@ -29641,8 +29179,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 bracket_token
@@ -29765,7 +29301,6 @@ visit_type_param_bound_mut
 it
 )
 }
-;
 }
 #
 [
@@ -29816,8 +29351,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -29858,7 +29391,6 @@ visit_type_mut
 it
 )
 }
-;
 }
 #
 [
@@ -30077,8 +29609,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 star_token
@@ -30129,8 +29659,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 brace_token
@@ -30171,7 +29699,6 @@ visit_use_tree_mut
 it
 )
 }
-;
 }
 #
 [
@@ -30272,8 +29799,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 colon2_token
@@ -30347,8 +29872,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 as_token
@@ -30569,7 +30092,6 @@ visit_attribute_mut
 it
 )
 }
-;
 _visitor
 .
 visit_ident_mut
@@ -30611,8 +30133,6 @@ _visitor
 &
 mut
 (
-&
-mut
 (
 it
 )
@@ -30688,8 +30208,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 crate_token
@@ -30748,8 +30266,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 pub_token
@@ -30808,8 +30324,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 pub_token
@@ -30824,8 +30338,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 paren_token
@@ -31039,8 +30551,6 @@ _visitor
 &
 mut
 (
-&
-mut
 _i
 .
 where_token
@@ -31081,7 +30591,6 @@ visit_where_predicate_mut
 it
 )
 }
-;
 }
 #
 [
