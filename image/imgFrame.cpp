@@ -1097,6 +1097,10 @@ mFrameRect
 =
 aRect
 ;
+mDirtyRect
+=
+aRect
+;
 if
 (
 aAnimParams
