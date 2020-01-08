@@ -2103,6 +2103,10 @@ const
 nsAString
 &
 aMessage
+const
+nsACString
+&
+aCategory
 )
 {
 if
@@ -2117,6 +2121,7 @@ mWarningReporter
 LogBlockedCORSRequest
 (
 aMessage
+aCategory
 )
 ;
 }
