@@ -1201,6 +1201,11 @@ mControllerState
 {
 if
 (
+displayState
+.
+mSuppressFrames
+|
+|
 !
 displayState
 .
