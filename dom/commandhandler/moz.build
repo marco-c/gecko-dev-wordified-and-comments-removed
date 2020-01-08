@@ -111,6 +111,11 @@ EXPORTS
 =
 [
 '
+nsCommandManager
+.
+h
+'
+'
 nsCommandParams
 .
 h
