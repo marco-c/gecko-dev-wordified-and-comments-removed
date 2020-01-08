@@ -415,14 +415,14 @@ nsIURI
 >
 mResultPrincipalURI
 ;
+bool
+mResultPrincipalURIIsSome
+;
 nsCOMPtr
 <
 nsIPrincipal
 >
 mTriggeringPrincipal
-;
-bool
-mResultPrincipalURIIsSome
 ;
 bool
 mLoadReplace
