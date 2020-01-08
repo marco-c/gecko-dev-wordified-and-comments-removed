@@ -1063,6 +1063,12 @@ srcs
 )
 :
                 
+self
+.
+export_icecc
+(
+)
+                
 compiler_value
 =
 self
@@ -1268,6 +1274,30 @@ MOZILLABUILD
 '
 '
 COMSPEC
+'
+]
+)
+    
+def
+export_icecc
+(
+self
+)
+:
+        
+self
+.
+export
+(
+[
+'
+ICECC_VERSION
+'
+'
+ICECC_CC
+'
+'
+ICECC_CXX
 '
 ]
 )
@@ -4524,6 +4554,12 @@ var
 backend_file
 .
 export_shell
+(
+)
+                    
+backend_file
+.
+export_icecc
 (
 )
                     
