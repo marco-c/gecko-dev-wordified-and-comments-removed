@@ -233,7 +233,7 @@ ok
 .
 .
 .
-getUsedFontsEls
+getUsedFontsEls_obsolete
 (
 viewDoc
 )
