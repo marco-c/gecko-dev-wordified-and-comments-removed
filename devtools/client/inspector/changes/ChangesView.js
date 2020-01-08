@@ -255,7 +255,7 @@ inspector
 .
 target
 .
-once
+on
 (
 "
 will
@@ -264,7 +264,7 @@ navigate
 "
 this
 .
-destroy
+onClearChanges
 )
 ;
 this
