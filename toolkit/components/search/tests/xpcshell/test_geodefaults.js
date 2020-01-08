@@ -481,7 +481,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 getDefaultEngineName
@@ -624,7 +624,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 kTestEngineName
@@ -740,7 +740,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 kTestEngineName
@@ -1190,7 +1190,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 getDefaultEngineName
@@ -1299,7 +1299,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 getDefaultEngineName
@@ -1325,7 +1325,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 kTestEngineName

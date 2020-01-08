@@ -844,7 +844,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 }
 parseSubmissionURL
