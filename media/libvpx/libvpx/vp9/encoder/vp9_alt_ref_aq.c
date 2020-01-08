@@ -33,6 +33,7 @@ ALT_REF_AQ
 *
 vp9_alt_ref_aq_create
 (
+void
 )
 {
 return

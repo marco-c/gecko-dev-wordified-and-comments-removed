@@ -1079,6 +1079,17 @@ GetBlock
 (
 )
 ;
+if
+(
+block
+=
+=
+NULL
+)
+return
+-
+1
+;
 webm_ctx
 -
 >
@@ -1090,6 +1101,9 @@ block_frame_index
 }
 while
 (
+block_entry_eos
+|
+|
 block
 -
 >
@@ -1102,9 +1116,6 @@ webm_ctx
 -
 >
 video_track_index
-|
-|
-block_entry_eos
 )
 ;
 webm_ctx

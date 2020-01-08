@@ -92,6 +92,9 @@ x86_abi_support
 .
 asm
 "
+SECTION
+.
+text
 ;
 unsigned
 int

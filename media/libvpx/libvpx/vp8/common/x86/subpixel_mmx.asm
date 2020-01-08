@@ -109,6 +109,9 @@ vp8_filter_weight
 define
 VP8_FILTER_SHIFT
 7
+SECTION
+.
+text
 ;
 void
 vp8_filter_block1d_h6_mmx

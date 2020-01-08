@@ -135,7 +135,7 @@ cglobal
 %
 1
 4
-7
+8
 4
 +
 AUX_XMM_REGS
@@ -145,9 +145,10 @@ src_stride
 dst
 dst_stride
 \
-fx
+f
+fxo
 fxs
-fy
+fyo
 fys
 w
 h
@@ -163,7 +164,7 @@ convolve_
 %
 1
 4
-7
+8
 4
 +
 AUX_XMM_REGS
@@ -173,9 +174,10 @@ src_stride
 dst
 dst_stride
 \
-fx
+f
+fxo
 fxs
-fy
+fyo
 fys
 w
 h
@@ -194,13 +196,7 @@ shl
 r4d
 1
 shl
-srcq
-1
-shl
 src_strideq
-1
-shl
-dstq
 1
 shl
 dst_strideq

@@ -422,6 +422,9 @@ frame_type
 int
 is_frame_dropped
 ;
+int
+is_frame_dropped_overshoot_maxqp
+;
 double
 low_res_framerate
 ;

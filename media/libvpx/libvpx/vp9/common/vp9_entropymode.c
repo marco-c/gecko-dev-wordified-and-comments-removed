@@ -3223,13 +3223,6 @@ cm
 -
 >
 last_frame_seg_map
-&
-&
-!
-cm
--
->
-frame_parallel_decode
 )
 memset
 (
@@ -3432,13 +3425,6 @@ cm
 -
 >
 prev_mip
-&
-&
-!
-cm
--
->
-frame_parallel_decode
 )
 memset
 (

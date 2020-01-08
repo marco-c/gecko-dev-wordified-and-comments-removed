@@ -748,6 +748,9 @@ rcx
 endm
 %
 endif
+SECTION
+.
+text
 global
 sym
 (

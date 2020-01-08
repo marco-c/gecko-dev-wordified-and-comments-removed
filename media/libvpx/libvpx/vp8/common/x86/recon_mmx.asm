@@ -92,6 +92,9 @@ x86_abi_support
 .
 asm
 "
+SECTION
+.
+text
 ;
 void
 copy_mem8x8_mmx

@@ -314,12 +314,12 @@ OSX_TARGETS
 "
 x86
 -
-darwin15
+darwin16
 -
 gcc
 x86_64
 -
-darwin15
+darwin16
 -
 gcc
 "
@@ -1967,7 +1967,7 @@ libvpx
 macosx
 :
 Uses
-darwin15
+darwin16
 targets
 instead
 of

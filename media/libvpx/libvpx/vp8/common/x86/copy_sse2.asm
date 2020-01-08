@@ -92,6 +92,9 @@ x86_abi_support
 .
 asm
 "
+SECTION
+.
+text
 ;
 void
 vp8_copy32xn_sse2

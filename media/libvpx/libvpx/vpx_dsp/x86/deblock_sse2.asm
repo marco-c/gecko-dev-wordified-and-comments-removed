@@ -268,14 +268,14 @@ endmacro
 macro
 UPDATE_FLIMIT
 0
-movdqa
+movdqu
 xmm2
 XMMWORD
 PTR
 [
 rbx
 ]
-movdqa
+movdqu
 [
 rsp
 ]
@@ -285,6 +285,9 @@ rbx
 16
 %
 endmacro
+SECTION
+.
+text
 ;
 void
 vpx_post_proc_down_and_across_mb_row_sse2

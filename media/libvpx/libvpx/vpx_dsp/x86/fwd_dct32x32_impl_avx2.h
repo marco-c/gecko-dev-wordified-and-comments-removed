@@ -358,9 +358,6 @@ k__cospi_p16_p16
 =
 _mm256_set1_epi16
 (
-(
-int16_t
-)
 cospi_16_64
 )
 ;

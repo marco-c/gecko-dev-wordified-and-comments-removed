@@ -92,6 +92,9 @@ x86_abi_support
 .
 asm
 "
+SECTION
+.
+text
 ;
 int
 vp8_block_error_sse2

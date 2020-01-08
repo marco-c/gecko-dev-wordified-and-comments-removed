@@ -795,6 +795,9 @@ t80
 ]
 %
 endmacro
+SECTION
+.
+text
 ;
 void
 vp8_loop_filter_bh_y_sse2

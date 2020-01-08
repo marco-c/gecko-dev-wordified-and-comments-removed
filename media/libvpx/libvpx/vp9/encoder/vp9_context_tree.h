@@ -213,6 +213,9 @@ best_reference_frame
 MV_REFERENCE_FRAME
 best_zeromv_reference_frame
 ;
+int
+sb_skip_denoising
+;
 #
 endif
 MV
@@ -223,6 +226,9 @@ MAX_REF_FRAMES
 ;
 INTERP_FILTER
 pred_interp_filter
+;
+int32_t
+sum_y_eobs
 ;
 }
 PICK_MODE_CONTEXT

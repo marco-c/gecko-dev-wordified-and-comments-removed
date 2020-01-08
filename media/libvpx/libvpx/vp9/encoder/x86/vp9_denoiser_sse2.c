@@ -26,15 +26,6 @@ h
 #
 include
 "
-vpx_ports
-/
-emmintrin_compat
-.
-h
-"
-#
-include
-"
 vpx
 /
 vpx_integer

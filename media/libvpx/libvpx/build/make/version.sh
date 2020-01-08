@@ -473,6 +473,17 @@ EOF
 >
 .
 tmp
+/
+/
+This
+file
+is
+generated
+.
+Do
+not
+edit
+.
 #
 define
 VERSION_MAJOR

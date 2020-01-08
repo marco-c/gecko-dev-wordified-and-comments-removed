@@ -2601,7 +2601,7 @@ VP9D_DEBLOCK
 )
 )
 {
-vp8_yv12_copy_frame
+vpx_yv12_copy_frame
 (
 ppbuf
 &
@@ -2688,7 +2688,7 @@ limits
 }
 else
 {
-vp8_yv12_copy_frame
+vpx_yv12_copy_frame
 (
 &
 cm
@@ -2765,7 +2765,7 @@ limits
 }
 else
 {
-vp8_yv12_copy_frame
+vpx_yv12_copy_frame
 (
 cm
 -

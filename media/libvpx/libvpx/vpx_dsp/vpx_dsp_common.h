@@ -151,6 +151,10 @@ tran_low_t
 ;
 #
 endif
+typedef
+int16_t
+tran_coef_t
+;
 static
 INLINE
 uint8_t
@@ -242,9 +246,6 @@ value
 )
 ;
 }
-#
-if
-CONFIG_VP9_HIGHBITDEPTH
 static
 INLINE
 uint16_t
@@ -307,8 +308,6 @@ val
 ;
 }
 }
-#
-endif
 #
 ifdef
 __cplusplus

@@ -23,15 +23,6 @@ mem
 .
 h
 "
-#
-include
-"
-vpx_ports
-/
-emmintrin_compat
-.
-h
-"
 static
 INLINE
 __m128i

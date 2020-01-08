@@ -5,11 +5,11 @@ VERSION_MAJOR
 #
 define
 VERSION_MINOR
-6
+7
 #
 define
 VERSION_PATCH
-1
+0
 #
 define
 VERSION_EXTRA
@@ -43,9 +43,9 @@ VERSION_STRING_NOSP
 "
 v1
 .
-6
+7
 .
-1
+0
 "
 #
 define
@@ -53,7 +53,7 @@ VERSION_STRING
 "
 v1
 .
-6
+7
 .
-1
+0
 "

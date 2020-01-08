@@ -231,20 +231,6 @@ int
 bits
 )
 {
-#
-if
-CONFIG_MISC_FIXES
-vpx_wb_write_literal
-(
-wb
-data
-bits
-+
-1
-)
-;
-#
-else
 vpx_wb_write_literal
 (
 wb
@@ -263,6 +249,4 @@ data
 0
 )
 ;
-#
-endif
 }

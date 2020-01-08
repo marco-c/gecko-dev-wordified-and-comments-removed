@@ -513,8 +513,9 @@ u
 0x80
 ;
 }
+static
 void
-vp8_loop_filter_horizontal_edge_c
+loop_filter_horizontal_edge_c
 (
 unsigned
 char
@@ -700,8 +701,9 @@ count
 )
 ;
 }
+static
 void
-vp8_loop_filter_vertical_edge_c
+loop_filter_vertical_edge_c
 (
 unsigned
 char
@@ -1217,8 +1219,9 @@ s
 0x80
 ;
 }
+static
 void
-vp8_mbloop_filter_horizontal_edge_c
+mbloop_filter_horizontal_edge_c
 (
 unsigned
 char
@@ -1415,8 +1418,9 @@ count
 )
 ;
 }
+static
 void
-vp8_mbloop_filter_vertical_edge_c
+mbloop_filter_vertical_edge_c
 (
 unsigned
 char
@@ -2019,7 +2023,7 @@ loop_filter_info
 lfi
 )
 {
-vp8_mbloop_filter_horizontal_edge_c
+mbloop_filter_horizontal_edge_c
 (
 y_ptr
 y_stride
@@ -2043,7 +2047,7 @@ if
 u_ptr
 )
 {
-vp8_mbloop_filter_horizontal_edge_c
+mbloop_filter_horizontal_edge_c
 (
 u_ptr
 uv_stride
@@ -2068,7 +2072,7 @@ if
 v_ptr
 )
 {
-vp8_mbloop_filter_horizontal_edge_c
+mbloop_filter_horizontal_edge_c
 (
 v_ptr
 uv_stride
@@ -2113,7 +2117,7 @@ loop_filter_info
 lfi
 )
 {
-vp8_mbloop_filter_vertical_edge_c
+mbloop_filter_vertical_edge_c
 (
 y_ptr
 y_stride
@@ -2137,7 +2141,7 @@ if
 u_ptr
 )
 {
-vp8_mbloop_filter_vertical_edge_c
+mbloop_filter_vertical_edge_c
 (
 u_ptr
 uv_stride
@@ -2162,7 +2166,7 @@ if
 v_ptr
 )
 {
-vp8_mbloop_filter_vertical_edge_c
+mbloop_filter_vertical_edge_c
 (
 v_ptr
 uv_stride
@@ -2207,7 +2211,7 @@ loop_filter_info
 lfi
 )
 {
-vp8_loop_filter_horizontal_edge_c
+loop_filter_horizontal_edge_c
 (
 y_ptr
 +
@@ -2230,7 +2234,7 @@ hev_thr
 2
 )
 ;
-vp8_loop_filter_horizontal_edge_c
+loop_filter_horizontal_edge_c
 (
 y_ptr
 +
@@ -2253,7 +2257,7 @@ hev_thr
 2
 )
 ;
-vp8_loop_filter_horizontal_edge_c
+loop_filter_horizontal_edge_c
 (
 y_ptr
 +
@@ -2281,7 +2285,7 @@ if
 u_ptr
 )
 {
-vp8_loop_filter_horizontal_edge_c
+loop_filter_horizontal_edge_c
 (
 u_ptr
 +
@@ -2310,7 +2314,7 @@ if
 v_ptr
 )
 {
-vp8_loop_filter_horizontal_edge_c
+loop_filter_horizontal_edge_c
 (
 v_ptr
 +
@@ -2409,7 +2413,7 @@ loop_filter_info
 lfi
 )
 {
-vp8_loop_filter_vertical_edge_c
+loop_filter_vertical_edge_c
 (
 y_ptr
 +
@@ -2430,7 +2434,7 @@ hev_thr
 2
 )
 ;
-vp8_loop_filter_vertical_edge_c
+loop_filter_vertical_edge_c
 (
 y_ptr
 +
@@ -2451,7 +2455,7 @@ hev_thr
 2
 )
 ;
-vp8_loop_filter_vertical_edge_c
+loop_filter_vertical_edge_c
 (
 y_ptr
 +
@@ -2477,7 +2481,7 @@ if
 u_ptr
 )
 {
-vp8_loop_filter_vertical_edge_c
+loop_filter_vertical_edge_c
 (
 u_ptr
 +
@@ -2504,7 +2508,7 @@ if
 v_ptr
 )
 {
-vp8_loop_filter_vertical_edge_c
+loop_filter_vertical_edge_c
 (
 v_ptr
 +

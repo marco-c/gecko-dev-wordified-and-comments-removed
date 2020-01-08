@@ -230,6 +230,9 @@ endif
 ret
 %
 endmacro
+SECTION
+.
+text
 ;
 void
 vp8_short_fdct4x4_sse2

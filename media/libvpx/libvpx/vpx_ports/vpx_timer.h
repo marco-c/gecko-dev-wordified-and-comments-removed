@@ -352,6 +352,9 @@ diff
 )
 ;
 return
+(
+int64_t
+)
 diff
 .
 tv_sec

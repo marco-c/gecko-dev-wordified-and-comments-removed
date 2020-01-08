@@ -109,6 +109,9 @@ VP8_FILTER_WEIGHT
 define
 VP8_FILTER_SHIFT
 7
+SECTION
+.
+text
 ;
 /
 *

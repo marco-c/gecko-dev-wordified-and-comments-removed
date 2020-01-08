@@ -92,6 +92,9 @@ x86_abi_support
 .
 asm
 "
+SECTION
+.
+text
 ;
 void
 vpx_plane_add_noise_sse2
@@ -151,7 +154,7 @@ arg
 )
 mul
 rdx
-movd
+movq
 xmm3
 rax
 pshufd
@@ -178,7 +181,7 @@ arg
 )
 mul
 rdx
-movd
+movq
 xmm4
 rax
 pshufd

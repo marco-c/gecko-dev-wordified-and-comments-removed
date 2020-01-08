@@ -92,6 +92,9 @@ x86_abi_support
 .
 asm
 "
+SECTION
+.
+text
 ;
 void
 vp8_temporal_filter_apply_sse2
@@ -1106,6 +1109,7 @@ dw
 align
 16
 _const_16w
+:
 times
 8
 dw

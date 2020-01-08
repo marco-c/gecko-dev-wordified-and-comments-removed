@@ -1769,6 +1769,9 @@ back
 endif
 %
 endmacro
+SECTION
+.
+text
 %
 if
 ABI_IS_32BIT

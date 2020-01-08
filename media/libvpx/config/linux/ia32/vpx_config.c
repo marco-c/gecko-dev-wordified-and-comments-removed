@@ -73,6 +73,11 @@ enable
 pic
 -
 -
+disable
+-
+avx512
+-
+-
 enable
 -
 postproc

@@ -123,6 +123,9 @@ dst_stride
 3
 ;
 )
+SECTION
+.
+text
 global
 sym
 (

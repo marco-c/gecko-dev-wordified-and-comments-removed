@@ -8171,10 +8171,14 @@ if
 CONFIG_MULTITHREAD
 if
 (
+vpx_atomic_load_acquire
+(
+&
 cpi
 -
 >
 b_multi_threaded
+)
 )
 {
 pack_mb_row_tokens

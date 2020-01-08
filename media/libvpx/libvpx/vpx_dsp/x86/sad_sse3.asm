@@ -784,6 +784,9 @@ mm7
 mm3
 %
 endmacro
+SECTION
+.
+text
 ;
 void
 int

@@ -36,14 +36,6 @@ dest
 int
 dest_size
 ;
-TOKENEXTRA
-*
-tok
-;
-TOKENEXTRA
-*
-tok_end
-;
 vpx_writer
 bit_writer
 ;

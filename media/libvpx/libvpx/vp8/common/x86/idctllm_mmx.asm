@@ -447,6 +447,9 @@ x
 *
 *
 /
+SECTION
+.
+text
 ;
 void
 vp8_short_idct4x4llm_mmx

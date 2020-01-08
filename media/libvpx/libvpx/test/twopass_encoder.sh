@@ -396,6 +396,22 @@ return
 1
 fi
 }
+if
+[
+"
+(
+vpx_config_option_enabled
+CONFIG_REALTIME_ONLY
+)
+"
+!
+=
+"
+yes
+"
+]
+;
+then
 twopass_encoder_tests
 =
 "
@@ -409,3 +425,4 @@ twopass_encoder_verify_environment
 twopass_encoder_tests
 }
 "
+fi

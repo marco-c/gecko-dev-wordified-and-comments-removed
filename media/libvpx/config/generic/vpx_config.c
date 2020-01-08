@@ -69,6 +69,11 @@ limit
 enable
 -
 pic
+-
+-
+disable
+-
+avx512
 "
 ;
 const

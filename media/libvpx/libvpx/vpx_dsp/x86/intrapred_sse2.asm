@@ -423,7 +423,7 @@ psrlq
 m0
 56
 movd
-tempq
+tempd
 m0
 mov
 [

@@ -551,10 +551,9 @@ MAX_MB_PLANE
 int
 vp9_loop_filter_worker
 (
-LFWorkerData
+void
 *
-const
-lf_data
+arg1
 void
 *
 unused

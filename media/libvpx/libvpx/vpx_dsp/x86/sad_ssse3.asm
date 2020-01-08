@@ -596,6 +596,9 @@ jmp
 2_store_off
 %
 endmacro
+SECTION
+.
+text
 ;
 void
 int

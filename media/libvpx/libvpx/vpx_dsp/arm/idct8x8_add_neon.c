@@ -41,6 +41,17 @@ vpx_dsp
 /
 arm
 /
+mem_neon
+.
+h
+"
+#
+include
+"
+vpx_dsp
+/
+arm
+/
 transpose_neon
 .
 h

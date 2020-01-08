@@ -857,6 +857,9 @@ rdi
 xmm0
 %
 endm
+SECTION
+.
+text
 ;
 void
 vpx_filter_block1d4_v8_sse2

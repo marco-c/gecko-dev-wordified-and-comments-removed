@@ -566,6 +566,9 @@ dec
 rcx
 %
 endm
+SECTION
+.
+text
 global
 sym
 (
