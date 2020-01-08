@@ -768,6 +768,12 @@ mIsTransportSeekable
 =
 false
 ;
+int64_t
+mFirstReadLength
+=
+-
+1
+;
 RefPtr
 <
 Listener
