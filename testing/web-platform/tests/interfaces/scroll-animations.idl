@@ -88,7 +88,10 @@ dictionary
 ScrollTimelineOptions
 {
 Element
+?
 scrollSource
+=
+null
 ;
 ScrollDirection
 orientation
@@ -132,6 +135,9 @@ none
 }
 ;
 [
+Exposed
+=
+Window
 Constructor
 (
 optional
