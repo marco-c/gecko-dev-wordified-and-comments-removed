@@ -13,6 +13,9 @@ null
 accesskey
 =
 null
+l10nID
+=
+null
 checked
 =
 false
@@ -70,6 +73,12 @@ this
 accesskey
 =
 accesskey
+;
+this
+.
+l10nID
+=
+l10nID
 ;
 this
 .
