@@ -259,7 +259,7 @@ image
 :
 :
 Image
-32
+24
 )
 ;
 size_of_test
@@ -273,7 +273,7 @@ image
 :
 :
 Image
-32
+24
 )
 ;
 size_of_test
@@ -287,7 +287,7 @@ image
 :
 :
 ImageLayer
-32
+24
 )
 ;
 size_of_test
@@ -301,6 +301,6 @@ image
 :
 :
 ImageLayer
-32
+24
 )
 ;
