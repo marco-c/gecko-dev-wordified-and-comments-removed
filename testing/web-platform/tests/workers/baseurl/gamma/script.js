@@ -1,7 +1,11 @@
-postMessage
-(
+var
+result
+=
 '
 gamma
+/
+script
+.
+js
 '
-)
 ;
