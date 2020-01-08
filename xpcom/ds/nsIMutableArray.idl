@@ -231,6 +231,7 @@ fails
 /
 [
 scriptable
+builtinclass
 uuid
 (
 af059da0

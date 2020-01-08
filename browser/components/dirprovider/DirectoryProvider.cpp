@@ -650,6 +650,10 @@ NS_NewArrayEnumerator
 (
 aResult
 distroFiles
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }

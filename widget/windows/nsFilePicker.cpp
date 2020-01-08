@@ -2620,6 +2620,10 @@ NS_NewArrayEnumerator
 (
 aFiles
 mFiles
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }

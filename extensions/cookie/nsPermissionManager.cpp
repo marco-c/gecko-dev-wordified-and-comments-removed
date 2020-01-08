@@ -10928,6 +10928,10 @@ NS_NewArrayEnumerator
 (
 aEnum
 array
+NS_GET_IID
+(
+nsIPermission
+)
 )
 ;
 }
@@ -11148,6 +11152,10 @@ NS_NewArrayEnumerator
 (
 aEnum
 array
+NS_GET_IID
+(
+nsIPermission
+)
 )
 ;
 }

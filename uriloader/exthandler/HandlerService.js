@@ -1120,6 +1120,9 @@ handlers
 .
 enumerate
 (
+Ci
+.
+nsIHandlerInfo
 )
 ;
 }

@@ -171,6 +171,10 @@ NS_NewArrayEnumerator
 (
 aEnumerator
 dirs
+NS_GET_IID
+(
+nsIFile
+)
 )
 ;
 }

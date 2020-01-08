@@ -2069,6 +2069,10 @@ NS_NewArrayEnumerator
 (
 aResult
 props
+NS_GET_IID
+(
+nsIPropertyElement
+)
 )
 ;
 }

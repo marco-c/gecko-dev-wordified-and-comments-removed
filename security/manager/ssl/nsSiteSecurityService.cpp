@@ -1854,6 +1854,10 @@ NS_NewArrayEnumerator
 (
 aSha256Keys
 keys
+NS_GET_IID
+(
+nsIVariant
+)
 )
 ;
 }
@@ -8662,6 +8666,10 @@ NS_NewArrayEnumerator
 (
 aEnumerator
 states
+NS_GET_IID
+(
+nsISiteSecurityState
+)
 )
 ;
 return

@@ -713,6 +713,10 @@ NS_NewArrayEnumerator
 (
 _retval
 properties
+NS_GET_IID
+(
+nsIVariant
+)
 )
 ;
 }
