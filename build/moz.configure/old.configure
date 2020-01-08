@@ -1592,15 +1592,6 @@ readline
 -
 enable
 -
-reflow
--
-perf
-'
-'
--
--
-enable
--
 sandbox
 '
 '
