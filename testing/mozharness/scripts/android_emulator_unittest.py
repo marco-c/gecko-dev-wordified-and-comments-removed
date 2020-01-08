@@ -5602,17 +5602,29 @@ requirements
 =
 None
         
-if
+suites
+=
 self
 .
-test_suite
-=
-=
+_query_suites
+(
+)
+        
+if
+(
 '
 mochitest
 -
 media
 '
+'
+mochitest
+-
+media
+'
+)
+in
+suites
 :
             
 requirements
@@ -5642,14 +5654,16 @@ txt
 )
         
 elif
-self
-.
-test_suite
-=
-=
+(
 '
 marionette
 '
+'
+marionette
+'
+)
+in
+suites
 :
             
 requirements
