@@ -7998,12 +7998,6 @@ nsCSSPropertyIDSet
 >
 effectiveAnimationProperties
 ;
-Maybe
-<
-uint64_t
->
-generation
-;
 nsChangeHint
 hint
 =
@@ -8107,7 +8101,7 @@ aDisplayItemType
 if
 (
 !
-generation
+aGeneration
 )
 {
 if
