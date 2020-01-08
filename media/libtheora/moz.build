@@ -278,6 +278,12 @@ CFLAGS
 -
 Wno
 -
+parentheses
+'
+'
+-
+Wno
+-
 pointer
 -
 sign
@@ -288,9 +294,9 @@ Wno
 -
 shift
 -
-op
+negative
 -
-parentheses
+value
 '
 ]
 UNIFIED_SOURCES
