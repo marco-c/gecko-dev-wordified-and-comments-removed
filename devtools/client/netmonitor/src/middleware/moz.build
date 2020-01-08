@@ -61,6 +61,13 @@ batching
 js
 '
 '
+event
+-
+telemetry
+.
+js
+'
+'
 prefs
 .
 js
