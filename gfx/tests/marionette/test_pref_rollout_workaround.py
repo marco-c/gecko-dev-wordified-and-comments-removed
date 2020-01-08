@@ -376,7 +376,9 @@ assertEqual
 (
 status
 '
-blocked
+opt
+-
+in
 '
 '
 WR
@@ -388,8 +390,9 @@ non
 qualifying
 hardware
 should
-be
-blocked
+not
+use
+WR
 .
 '
 )
