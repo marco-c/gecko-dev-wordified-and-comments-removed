@@ -597,9 +597,7 @@ hr
 className
 :
 "
-connect
--
-page__network__separator
+separator
 "
 }
 )
@@ -660,8 +658,6 @@ h1
 className
 :
 "
-connect
--
 page__title
 "
 }

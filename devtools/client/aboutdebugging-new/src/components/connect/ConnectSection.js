@@ -121,11 +121,18 @@ section
 {
 className
 :
+page__section
+{
 this
 .
 props
 .
 className
+|
+|
+"
+"
+}
 }
 dom
 .
@@ -135,8 +142,6 @@ h2
 className
 :
 "
-connect
--
 page__section__title
 "
 }
@@ -148,8 +153,6 @@ img
 className
 :
 "
-connect
--
 page__section__icon
 "
 src

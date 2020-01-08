@@ -58,17 +58,7 @@ DevToolsModules
 '
 ConnectPage
 .
-css
-'
-'
-ConnectPage
-.
 js
-'
-'
-ConnectSection
-.
-css
 '
 '
 ConnectSection
