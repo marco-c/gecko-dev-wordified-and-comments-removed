@@ -1081,7 +1081,6 @@ mDecoder
 >
 FindDecoderOutputType
 (
-false
 )
 ;
 NS_ENSURE_TRUE

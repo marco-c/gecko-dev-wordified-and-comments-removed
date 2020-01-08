@@ -223,15 +223,11 @@ const
 GUID
 &
 aSubType
-bool
-aMatchAllAttributes
 )
 ;
 HRESULT
 FindDecoderOutputType
 (
-bool
-aMatchAllAttributes
 )
 ;
 private
@@ -246,8 +242,6 @@ aSubType
 IMFMediaType
 *
 aTypeToUse
-bool
-aMatchAllAttributes
 std
 :
 :
