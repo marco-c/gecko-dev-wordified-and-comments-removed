@@ -64,11 +64,6 @@ buttonbox
 -
 container
 "
-skipintoolbarset
-=
-"
-true
-"
 >
 <
 hbox
