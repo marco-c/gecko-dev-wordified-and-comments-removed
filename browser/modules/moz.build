@@ -941,11 +941,6 @@ AsyncTabSwitcher
 jsm
 '
 '
-BlockedSiteContent
-.
-jsm
-'
-'
 BrowserErrorReporter
 .
 jsm
