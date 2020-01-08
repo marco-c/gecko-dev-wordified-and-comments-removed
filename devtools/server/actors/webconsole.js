@@ -627,6 +627,10 @@ actors
 webconsole
 /
 listeners
+/
+console
+-
+service
 "
 true
 )

@@ -94,4 +94,11 @@ progress
 .
 js
 '
+'
+console
+-
+service
+.
+js
+'
 )
