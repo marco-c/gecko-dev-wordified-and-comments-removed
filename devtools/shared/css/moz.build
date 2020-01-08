@@ -108,6 +108,11 @@ color
 js
 '
 '
+constants
+.
+js
+'
+'
 lexer
 .
 js
