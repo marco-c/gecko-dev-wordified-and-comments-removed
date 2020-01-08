@@ -5166,6 +5166,35 @@ RUSTFLAGS
 }
 )
         
+if
+os
+.
+environ
+.
+get
+(
+'
+MOZ_AUTOMATION
+'
+)
+:
+            
+env
+[
+'
+MOZ_AUTOMATION
+'
+]
+=
+os
+.
+environ
+[
+'
+MOZ_AUTOMATION
+'
+]
+        
 return
 env
     
