@@ -365,16 +365,6 @@ NSEvent
 *
 mClickThroughMouseDownEvent
 ;
-NSMutableArray
-*
-mPendingDirtyRects
-;
-BOOL
-mPendingFullDisplay
-;
-BOOL
-mPendingDisplay
-;
 BOOL
 mExpectingWheelStop
 ;
