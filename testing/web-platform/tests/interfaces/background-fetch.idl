@@ -155,15 +155,9 @@ sequence
 ImageResource
 >
 icons
-=
-[
-]
 ;
 DOMString
 title
-=
-"
-"
 ;
 }
 ;
