@@ -1797,6 +1797,13 @@ TryEmitter
 cpp
 '
 '
+frontend
+/
+WhileEmitter
+.
+cpp
+'
+'
 gc
 /
 Allocator
