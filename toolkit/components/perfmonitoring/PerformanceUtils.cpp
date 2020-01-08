@@ -97,6 +97,11 @@ GetTabGroupList
 (
 )
 ;
+if
+(
+tabGroups
+)
+{
 for
 (
 TabGroup
@@ -183,6 +188,7 @@ ReportPerformanceInfo
 )
 )
 ;
+}
 }
 }
 RefPtr
