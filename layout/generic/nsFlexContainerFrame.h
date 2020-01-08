@@ -220,6 +220,17 @@ aStatus
 )
 override
 ;
+void
+DidReflow
+(
+nsPresContext
+*
+const
+ReflowInput
+*
+)
+final
+;
 nscoord
 GetMinISize
 (
