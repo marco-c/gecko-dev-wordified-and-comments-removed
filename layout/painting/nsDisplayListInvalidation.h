@@ -861,6 +861,12 @@ mUserSpaceOffset
 nsPoint
 mFrameOffsetToReferenceFrame
 ;
+float
+mOpacity
+;
+bool
+mHandleOpacity
+;
 }
 ;
 class
@@ -904,12 +910,6 @@ nsTArray
 nsRect
 >
 mDestRects
-;
-float
-mOpacity
-;
-bool
-mHandleOpacity
 ;
 }
 ;
