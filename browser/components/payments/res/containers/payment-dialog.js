@@ -1444,9 +1444,7 @@ _paymentMethodPicker
 .
 securityCodeInput
 .
-validity
-.
-valid
+isValid
 |
 |
 !
