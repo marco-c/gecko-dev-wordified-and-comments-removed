@@ -264,7 +264,9 @@ char
 ;
 jsterm
 .
-fetchAutocompletionProperties
+props
+.
+autocompleteUpdate
 (
 )
 ;
