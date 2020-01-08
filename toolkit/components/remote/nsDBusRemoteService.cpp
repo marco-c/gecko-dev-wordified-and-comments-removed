@@ -1230,10 +1230,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsAutoCString
-pathName
-;
-pathName
+mPathName
 =
 nsPrintfCString
 (
@@ -1261,7 +1258,7 @@ if
 dbus_connection_register_object_path
 (
 mConnection
-pathName
+mPathName
 .
 get
 (
@@ -1292,6 +1289,16 @@ Shutdown
 (
 )
 {
+dbus_connection_unregister_object_path
+(
+mConnection
+mPathName
+.
+get
+(
+)
+)
+;
 mConnection
 =
 nullptr
