@@ -46506,7 +46506,7 @@ MOZ_ASSERT
 (
 effectProperties
 .
-mFilter
+mFilterObservers
 &
 &
 mFrame
