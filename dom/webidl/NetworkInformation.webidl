@@ -141,7 +141,7 @@ dom
 DOMPrefs
 :
 :
-NetworkInformationEnabled
+dom_netinfo_enabled
 "
 Exposed
 =
