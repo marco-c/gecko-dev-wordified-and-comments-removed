@@ -8,6 +8,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 YCbCrUtils
 .
 h
