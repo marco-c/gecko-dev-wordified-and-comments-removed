@@ -554,6 +554,11 @@ testStringBuffer
 cpp
 '
 '
+testStringIsArrayIndex
+.
+cpp
+'
+'
 testStructuredClone
 .
 cpp
