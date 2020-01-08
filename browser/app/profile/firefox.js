@@ -13108,7 +13108,7 @@ false
 ;
 #
 ifdef
-RELEASE
+RELEASE_OR_BETA
 pref
 (
 "

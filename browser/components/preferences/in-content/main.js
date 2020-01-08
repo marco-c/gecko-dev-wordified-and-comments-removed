@@ -4927,8 +4927,12 @@ value
 ;
 if
 (
-!
 locale
+=
+=
+"
+search
+"
 )
 {
 return
