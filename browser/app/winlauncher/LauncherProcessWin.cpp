@@ -148,6 +148,17 @@ bool
 aIsSafeMode
 )
 {
+#
+if
+defined
+(
+MOZ_ASAN
+)
+return
+true
+;
+#
+else
 return
 mozilla
 :
@@ -157,6 +168,8 @@ InitializeDllBlocklistOOP
 aChildProcess
 )
 ;
+#
+endif
 }
 #
 if
