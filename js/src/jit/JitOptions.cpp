@@ -863,17 +863,6 @@ wasmBatchIonThreshold
 1100
 )
 ;
-#
-ifdef
-JS_TRACE_LOGGING
-SET_DEFAULT
-(
-enableTraceLogger
-false
-)
-;
-#
-endif
 }
 bool
 DefaultJitOptions

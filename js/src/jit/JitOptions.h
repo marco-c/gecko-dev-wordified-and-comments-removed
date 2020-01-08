@@ -248,14 +248,6 @@ wasmFoldOffsets
 bool
 wasmDelayTier2
 ;
-#
-ifdef
-JS_TRACE_LOGGING
-bool
-enableTraceLogger
-;
-#
-endif
 uint32_t
 baselineWarmUpThreshold
 ;
