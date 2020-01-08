@@ -918,7 +918,6 @@ nsLineLayout
 *
 mLineLayout
 ;
-MOZ_INIT_OUTSIDE_CTOR
 const
 ReflowInput
 *

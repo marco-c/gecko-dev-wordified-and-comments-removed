@@ -257,6 +257,10 @@ SizeComputationInput
 aFrame
 aRenderingContext
 )
+mCBReflowInput
+(
+nullptr
+)
 mBlockDelta
 (
 0
@@ -775,6 +779,10 @@ aFrame
 aParentReflowInput
 .
 mRenderingContext
+)
+mCBReflowInput
+(
+nullptr
 )
 mBlockDelta
 (
@@ -1837,6 +1845,10 @@ StyleText
 (
 )
 ;
+InitCBReflowInput
+(
+)
+;
 LayoutFrameType
 type
 =
@@ -1877,10 +1889,6 @@ return
 InitFrameType
 (
 type
-)
-;
-InitCBReflowInput
-(
 )
 ;
 LogicalSize
