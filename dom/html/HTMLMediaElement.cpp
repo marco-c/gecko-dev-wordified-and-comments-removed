@@ -21194,7 +21194,6 @@ shadowRoot
 >
 SetIsUAWidget
 (
-true
 )
 ;
 }

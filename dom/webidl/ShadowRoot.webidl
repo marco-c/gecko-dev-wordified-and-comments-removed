@@ -430,8 +430,6 @@ ChromeOnly
 void
 setIsUAWidget
 (
-boolean
-isUAWidget
 )
 ;
 }
