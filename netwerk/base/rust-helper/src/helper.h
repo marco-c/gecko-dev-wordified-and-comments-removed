@@ -35,6 +35,15 @@ nsACString
 o_accept_languages
 )
 ;
+bool
+rust_net_is_valid_ipv4_addr
+(
+const
+nsACString
+&
+aAddr
+)
+;
 }
 #
 endif

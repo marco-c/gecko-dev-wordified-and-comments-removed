@@ -3891,15 +3891,6 @@ altNameWithoutWildcard
 net_IsValidIPv4Addr
 (
 altName
-.
-get
-(
-)
-altName
-.
-Length
-(
-)
 )
 |
 |
