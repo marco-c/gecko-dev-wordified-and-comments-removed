@@ -14480,6 +14480,13 @@ HAVE_LIBFUZZER_FLAG_FUZZER_NO_LINK
 '
 have_libfuzzer_flag_fuzzer_no_link
 )
+add_old_configure_assignment
+(
+'
+HAVE_LIBFUZZER_FLAG_FUZZER_NO_LINK
+'
+have_libfuzzer_flag_fuzzer_no_link
+)
 #
 Shared
 library

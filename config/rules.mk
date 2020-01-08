@@ -6628,6 +6628,8 @@ ifndef
 MOZ_UBSAN
 ifndef
 MOZ_CODE_COVERAGE
+ifndef
+FUZZING_INTERFACES
 #
 Pass
 the
@@ -6984,6 +6986,9 @@ NULL
 endif
 #
 WINNT
+endif
+#
+FUZZING_INTERFACES
 endif
 #
 MOZ_CODE_COVERAGE
@@ -7406,6 +7411,8 @@ ifndef
 MOZ_TSAN
 ifndef
 MOZ_UBSAN
+ifndef
+FUZZING_INTERFACES
 #
 Cargo
 needs
@@ -7518,6 +7525,9 @@ build
 cargo
 -
 linker
+endif
+#
+FUZZING_INTERFACES
 endif
 #
 MOZ_UBSAN
