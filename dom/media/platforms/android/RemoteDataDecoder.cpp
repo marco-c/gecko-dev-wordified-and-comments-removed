@@ -629,7 +629,7 @@ SurfaceTextureImage
 mDecoder
 -
 >
-mImageHandle
+mSurfaceHandle
 inputInfo
 .
 mImageSize
@@ -882,12 +882,12 @@ __func__
 )
 ;
 }
-mImageHandle
+mSurfaceHandle
 =
 mSurface
 -
 >
-GetImageHandle
+GetHandle
 (
 )
 ;
@@ -1387,7 +1387,7 @@ GlobalRef
 mSurface
 ;
 AndroidSurfaceTextureHandle
-mImageHandle
+mSurfaceHandle
 ;
 bool
 mIsCodecSupportAdaptivePlayback

@@ -247,7 +247,7 @@ describeContents
 )
 {
 return
-CONTENTS_FILE_DESCRIPTOR
+0
 ;
 }
 Override
