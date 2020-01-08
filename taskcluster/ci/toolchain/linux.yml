@@ -1064,8 +1064,6 @@ tar
 xz
 fetches
 :
-fetch
-:
 -
 binutils
 -
@@ -1241,8 +1239,6 @@ tar
 xz
 fetches
 :
-fetch
-:
 -
 binutils
 -
@@ -1400,8 +1396,6 @@ tar
 .
 xz
 fetches
-:
-fetch
 :
 -
 binutils
@@ -1592,8 +1586,6 @@ gcc
 -
 6
 fetches
-:
-fetch
 :
 -
 binutils
@@ -4495,8 +4487,6 @@ tar
 .
 xz
 fetches
-:
-fetch
 :
 -
 binutils
