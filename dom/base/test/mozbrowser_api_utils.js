@@ -48,10 +48,6 @@ getCanGoForward
 :
 {
 }
-getContentDimensions
-:
-{
-}
 findAll
 :
 {
