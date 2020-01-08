@@ -594,11 +594,14 @@ ci
 >
 offset
 =
+key_type
+(
 vi
 -
 m_array
 .
 values
+)
 ;
 }
 ci

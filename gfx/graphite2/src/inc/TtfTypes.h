@@ -97,7 +97,7 @@ members
 aren
 '
 t
-alligned
+aligned
 struct
 OffsetSubTable
 {

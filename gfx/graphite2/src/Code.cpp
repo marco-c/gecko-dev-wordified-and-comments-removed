@@ -2606,11 +2606,14 @@ _slotref
 =
 context
 (
+uint8
+(
 _code
 .
 _instr_count
 +
 1
+)
 )
 ;
 break
@@ -3006,6 +3009,7 @@ data_skip
 =
 instr_skip
 -
+byte
 (
 _code
 .
@@ -3016,11 +3020,14 @@ ctxt_start
 ;
 instr_skip
 =
+byte
+(
 _code
 .
 _instr_count
 -
 ctxt_start
+)
 ;
 _max
 .

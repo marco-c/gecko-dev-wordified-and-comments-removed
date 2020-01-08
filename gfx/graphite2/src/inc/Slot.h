@@ -57,9 +57,6 @@ class
 GlyphFace
 ;
 class
-SegCacheEntry
-;
-class
 Segment
 ;
 struct
@@ -1121,10 +1118,6 @@ m_userAttr
 SlotJustify
 *
 m_justs
-;
-friend
-class
-SegCacheEntry
 ;
 friend
 class

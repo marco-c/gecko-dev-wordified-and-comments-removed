@@ -21,7 +21,7 @@ GR2_VERSION_MINOR
 #
 define
 GR2_VERSION_BUGFIX
-11
+12
 #
 ifdef
 __cplusplus
@@ -228,7 +228,7 @@ int
 faceOptions
 )
 ;
-GR2_API
+GR2_DEPRECATED_API
 gr_face
 *
 gr_make_face
@@ -244,7 +244,7 @@ int
 faceOptions
 )
 ;
-GR2_API
+GR2_DEPRECATED_API
 gr_face
 *
 gr_make_face_with_seg_cache_and_ops
@@ -265,7 +265,7 @@ int
 faceOptions
 )
 ;
-GR2_API
+GR2_DEPRECATED_API
 gr_face
 *
 gr_make_face_with_seg_cache
@@ -444,7 +444,7 @@ int
 faceOptions
 )
 ;
-GR2_API
+GR2_DEPRECATED_API
 gr_face
 *
 gr_make_file_face_with_seg_cache

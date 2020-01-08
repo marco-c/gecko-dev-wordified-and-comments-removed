@@ -160,6 +160,8 @@ t
 {
 foo
 }
+.
+XXX
 |
 |
 exit

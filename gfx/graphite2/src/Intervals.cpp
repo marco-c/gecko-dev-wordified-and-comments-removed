@@ -910,7 +910,7 @@ x
 )
 const
 {
-int
+size_t
 l
 =
 0
@@ -929,7 +929,7 @@ l
 h
 )
 {
-int
+size_t
 const
 p
 =

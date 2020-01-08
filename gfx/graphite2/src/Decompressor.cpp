@@ -494,6 +494,8 @@ literal_len
 )
 ;
 return
+int
+(
 dst
 -
 (
@@ -501,5 +503,6 @@ u8
 *
 )
 out
+)
 ;
 }

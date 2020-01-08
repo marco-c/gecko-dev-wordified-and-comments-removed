@@ -1582,6 +1582,7 @@ error_context
 +
 EC_ASILF
 +
+unsigned
 (
 i
 <
@@ -1850,7 +1851,7 @@ m_nClass
 )
 ;
 const
-size_t
+uint32
 max_off
 =
 (
@@ -2825,8 +2826,7 @@ seg
 0
 )
 ;
-unsigned
-int
+size_t
 maxSize
 =
 seg
