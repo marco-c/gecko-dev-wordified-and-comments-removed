@@ -14696,7 +14696,7 @@ nsresult
 HttpChannelChild
 :
 :
-AsyncCall
+AsyncCallImpl
 (
 void
 (
