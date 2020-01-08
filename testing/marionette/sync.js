@@ -755,7 +755,7 @@ topic
 {
 log
 .
-debug
+trace
 (
 Received
 observer

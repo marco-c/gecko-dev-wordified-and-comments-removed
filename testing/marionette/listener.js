@@ -872,7 +872,7 @@ documentURI
 ;
 logger
 .
-debug
+trace
 (
 truncate
 Check
@@ -1112,7 +1112,7 @@ href
 ;
 logger
 .
-debug
+trace
 (
 truncate
 Received
@@ -1640,7 +1640,7 @@ outerWindowID
 ;
 logger
 .
-debug
+trace
 (
 Received
 observer
@@ -1896,7 +1896,7 @@ registerSelf
 {
 logger
 .
-debug
+trace
 (
 "
 Frame
@@ -2000,7 +2000,7 @@ outerWindowID
 {
 logger
 .
-debug
+trace
 (
 "
 Frame
