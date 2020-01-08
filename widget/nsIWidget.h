@@ -3372,6 +3372,8 @@ NativeIMEContext
 GetNativeIMEContext
 (
 )
+=
+0
 ;
 virtual
 MOZ_MUST_USE
