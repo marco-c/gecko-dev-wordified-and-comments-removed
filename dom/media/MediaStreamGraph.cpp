@@ -6853,10 +6853,17 @@ if
 ensureNextIteration
 |
 |
+(
 aEndBlockingDecisions
 =
 =
 mStateComputedTime
+&
+&
+mStateComputedTime
+<
+mEndTime
+)
 )
 {
 EnsureNextIteration
