@@ -15556,11 +15556,6 @@ case
 advancedButton
 "
 :
-case
-"
-moreInformationButton
-"
-:
 if
 (
 isTopFrame
