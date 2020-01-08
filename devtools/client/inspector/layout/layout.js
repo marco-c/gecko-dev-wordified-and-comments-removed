@@ -276,7 +276,6 @@ const
 {
 onSetFlexboxOverlayColor
 onToggleFlexboxHighlighter
-onToggleFlexItemShown
 }
 =
 this
@@ -345,7 +344,6 @@ onShowBoxModelHighlighter
 onShowBoxModelHighlighterForNode
 onShowGridOutlineHighlight
 onToggleFlexboxHighlighter
-onToggleFlexItemShown
 onToggleGeometryEditor
 onToggleGridHighlighter
 onToggleShowGridAreas

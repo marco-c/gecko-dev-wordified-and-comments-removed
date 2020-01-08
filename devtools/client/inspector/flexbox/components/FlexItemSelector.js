@@ -204,7 +204,7 @@ flexItem
 )
 .
 isRequired
-onToggleFlexItemShown
+setSelectedNode
 :
 PropTypes
 .
@@ -247,7 +247,7 @@ const
 {
 flexItem
 flexItems
-onToggleFlexItemShown
+setSelectedNode
 }
 =
 this
@@ -307,7 +307,7 @@ click
 )
 =
 >
-onToggleFlexItemShown
+setSelectedNode
 (
 item
 .
