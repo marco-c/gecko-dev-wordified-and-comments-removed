@@ -836,7 +836,12 @@ handleCommand
 event
 openWhere
 openParams
+=
+{
+}
 triggeringPrincipal
+=
+null
 )
 {
 let
