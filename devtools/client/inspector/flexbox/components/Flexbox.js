@@ -352,17 +352,6 @@ renderFlexItemSizing
 {
 const
 {
-color
-}
-=
-this
-.
-props
-.
-flexbox
-;
-const
-{
 flexItems
 flexItemShown
 properties
@@ -413,7 +402,6 @@ null
 FlexItemSizingOutline
 (
 {
-color
 flexDirection
 :
 properties
