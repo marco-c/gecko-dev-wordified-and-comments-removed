@@ -222,6 +222,11 @@ className
 extension
 -
 detail__manifest
+js
+-
+manifest
+-
+url
 "
 href
 :
