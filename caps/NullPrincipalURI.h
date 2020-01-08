@@ -1,9 +1,9 @@
 #
 ifndef
-__NullPrincipalURI_h__
+mozilla_NullPrincipalURI_h
 #
 define
-__NullPrincipalURI_h__
+mozilla_NullPrincipalURI_h
 #
 include
 "
@@ -97,7 +97,6 @@ mozilla
 class
 Encoding
 ;
-}
 class
 NullPrincipalURI
 final
@@ -118,9 +117,6 @@ virtual
 size_t
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -131,9 +127,6 @@ virtual
 size_t
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -303,9 +296,6 @@ nsACString
 &
 input
 const
-mozilla
-:
-:
 Encoding
 *
 encoding
@@ -457,5 +447,6 @@ NullPrincipalURI
 ;
 }
 ;
+}
 #
 endif

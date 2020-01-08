@@ -8,6 +8,8 @@ h
 #
 include
 "
+mozilla
+/
 NullPrincipal
 .
 h
@@ -361,6 +363,9 @@ nsIPrincipal
 >
 principal
 =
+mozilla
+:
+:
 NullPrincipal
 :
 :

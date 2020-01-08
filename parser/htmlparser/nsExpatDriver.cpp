@@ -155,6 +155,8 @@ h
 #
 include
 "
+mozilla
+/
 NullPrincipal
 .
 h
@@ -3015,6 +3017,9 @@ loadingPrincipal
 {
 loadingPrincipal
 =
+mozilla
+:
+:
 NullPrincipal
 :
 :

@@ -40,7 +40,9 @@ h
 #
 include
 "
-NullPrincipalURI
+mozilla
+/
+Encoding
 .
 h
 "
@@ -49,7 +51,7 @@ include
 "
 mozilla
 /
-Encoding
+NullPrincipalURI
 .
 h
 "

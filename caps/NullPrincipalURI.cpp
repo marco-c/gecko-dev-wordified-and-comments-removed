@@ -55,6 +55,10 @@ nsIUUIDGenerator
 .
 h
 "
+using
+namespace
+mozilla
+;
 NullPrincipalURI
 :
 :
@@ -1347,9 +1351,6 @@ NullPrincipalURI
 :
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1370,9 +1371,6 @@ NullPrincipalURI
 :
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )

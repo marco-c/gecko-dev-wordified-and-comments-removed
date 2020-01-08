@@ -103,7 +103,9 @@ h
 #
 include
 "
-NullPrincipal
+mozilla
+/
+LoadInfo
 .
 h
 "
@@ -112,7 +114,7 @@ include
 "
 mozilla
 /
-LoadInfo
+NullPrincipal
 .
 h
 "
