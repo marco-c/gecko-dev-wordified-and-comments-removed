@@ -322,12 +322,6 @@ ImageBitmapRenderingContext
 ImageData
 "
 "
-MediaCapabilities
-"
-"
-MediaCapabilitiesInfo
-"
-"
 MessageChannel
 "
 "
