@@ -411,9 +411,12 @@ mReferencedElement
 ResetWithID
 (
 aContextNode
+nsDependentAtomString
+(
 mParams
 .
 mDependentElemID
+)
 )
 ;
 }

@@ -430,16 +430,6 @@ bool
 aForImage
 )
 ;
-Element
-*
-LookupImageElement
-(
-const
-nsAString
-&
-aElementId
-)
-;
 inline
 bool
 CheckGetElementByIdArg
