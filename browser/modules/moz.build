@@ -1085,11 +1085,6 @@ Sanitizer
 jsm
 '
 '
-SchedulePressure
-.
-jsm
-'
-'
 SelectionChangedMenulist
 .
 jsm
