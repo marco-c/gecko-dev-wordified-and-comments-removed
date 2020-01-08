@@ -309,6 +309,24 @@ test_root
 :
                     
 if
+os
+.
+path
+.
+lexists
+(
+test_root
+)
+:
+                        
+os
+.
+remove
+(
+test_root
+)
+                    
+if
 hasattr
 (
 os
