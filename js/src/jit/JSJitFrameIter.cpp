@@ -494,10 +494,8 @@ isScripted
 )
 &
 &
-(
 isFunctionFrame
 (
-)
 )
 )
 return
