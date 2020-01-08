@@ -646,7 +646,7 @@ toU8
 (
 moduleHeaderThen
 (
-42
+37
 )
 )
 )
@@ -666,7 +666,7 @@ toU8
 (
 moduleHeaderThen
 (
-42
+37
 0
 )
 )
@@ -687,7 +687,7 @@ toU8
 (
 moduleHeaderThen
 (
-42
+37
 1
 0
 )

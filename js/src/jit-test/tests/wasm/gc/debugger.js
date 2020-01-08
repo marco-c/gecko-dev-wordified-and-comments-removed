@@ -61,6 +61,10 @@ wasmTextToBinary
 (
 module
 (
+gc_feature_opt_in
+1
+)
+(
 func
 (
 result
@@ -115,6 +119,10 @@ src
 =
 (
 module
+(
+gc_feature_opt_in
+1
+)
 (
 func
 (
