@@ -1308,7 +1308,7 @@ aURL
 const
 ;
 friend
-JSScript
+JSObject
 *
 HostResolveImportedModule
 (
@@ -1320,10 +1320,10 @@ JS
 :
 Handle
 <
-JSScript
+JSObject
 *
 >
-aScript
+aModule
 JS
 :
 :

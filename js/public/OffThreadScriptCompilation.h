@@ -216,7 +216,7 @@ callbackData
 extern
 JS_PUBLIC_API
 (
-JSScript
+JSObject
 *
 )
 FinishOffThreadModule

@@ -60,6 +60,9 @@ class
 LifoAlloc
 ;
 class
+ModuleObject
+;
+class
 ScriptSourceObject
 ;
 namespace
@@ -202,7 +205,7 @@ sourceObjectOut
 nullptr
 )
 ;
-JSScript
+ModuleObject
 *
 CompileModule
 (
@@ -224,7 +227,7 @@ SourceBufferHolder
 srcBuf
 )
 ;
-JSScript
+ModuleObject
 *
 CompileModule
 (
