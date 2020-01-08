@@ -63,9 +63,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -136,15 +136,15 @@ label
 ]
             
 '
-dependent
+primary
 -
-task
+dependency
 '
 :
 dep_job
             
 '
-grandparent
+dependent
 -
 tasks
 '
@@ -152,7 +152,7 @@ tasks
 job
 [
 '
-grandparent
+dependent
 -
 tasks
 '
@@ -177,15 +177,13 @@ phase
 '
 :
 job
-.
-get
-(
+[
 '
 shipping
 -
 phase
 '
-)
+]
             
 '
 shipping
@@ -194,15 +192,13 @@ product
 '
 :
 job
-.
-get
-(
+[
 '
 shipping
 -
 product
 '
-)
+]
         
 }
         
