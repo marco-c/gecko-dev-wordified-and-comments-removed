@@ -465,11 +465,6 @@ linux32
 debug
 :
 5
-macosx
-.
-*
-:
-2
 macosx64
 -
 ccov
