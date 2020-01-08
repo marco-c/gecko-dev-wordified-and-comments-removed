@@ -6630,17 +6630,6 @@ else
 environment_cleaner
 =
 endif
-rust_unlock_unstable
-=
-ifdef
-MOZ_RUST_SIMD
-rust_unlock_unstable
-+
-=
-RUSTC_BOOTSTRAP
-=
-1
-endif
 ifdef
 MOZ_USING_SCCACHE
 sccache_wrap
@@ -7100,9 +7089,6 @@ MAKEFLAGS
 env
 (
 environment_cleaner
-)
-(
-rust_unlock_unstable
 )
 (
 sccache_wrap
