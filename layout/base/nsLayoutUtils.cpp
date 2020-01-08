@@ -24107,6 +24107,7 @@ nsLayoutUtils
 :
 IsFirstContinuationOrIBSplitSibling
 (
+const
 nsIFrame
 *
 aFrame

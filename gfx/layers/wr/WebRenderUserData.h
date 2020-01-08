@@ -1160,6 +1160,7 @@ T
 >
 GetWebRenderUserData
 (
+const
 nsIFrame
 *
 aFrame
