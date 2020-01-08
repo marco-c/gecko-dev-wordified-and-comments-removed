@@ -37,6 +37,15 @@ h
 #
 include
 "
+js
+/
+SavedFrameAPI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CycleCollectedJSContext
