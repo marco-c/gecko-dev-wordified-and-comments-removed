@@ -350,7 +350,7 @@ ChangesHandledFor
 (
 const
 nsIFrame
-&
+*
 )
 const
 ;
@@ -371,7 +371,7 @@ ChangesHandledFor
 (
 const
 nsIFrame
-&
+*
 )
 const
 {

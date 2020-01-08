@@ -8450,13 +8450,14 @@ IsAnonBox
 (
 const
 nsIFrame
-&
+*
 aFrame
 )
 {
 return
 aFrame
-.
+-
+>
 Style
 (
 )
@@ -8507,7 +8508,7 @@ ExpectedOwnerForChild
 (
 const
 nsIFrame
-&
+*
 aFrame
 )
 {
@@ -8517,7 +8518,8 @@ nsIFrame
 parent
 =
 aFrame
-.
+-
+>
 GetParent
 (
 )
@@ -8525,7 +8527,8 @@ GetParent
 if
 (
 aFrame
-.
+-
+>
 IsTableFrame
 (
 )
@@ -8561,7 +8564,8 @@ aFrame
 &
 !
 aFrame
-.
+-
+>
 IsTextFrame
 (
 )
@@ -8606,7 +8610,8 @@ parent
 if
 (
 aFrame
-.
+-
+>
 IsBulletFrame
 (
 )
@@ -8622,7 +8627,8 @@ parent
 if
 (
 aFrame
-.
+-
+>
 IsLineFrame
 (
 )
@@ -8635,7 +8641,8 @@ parent
 if
 (
 aFrame
-.
+-
+>
 IsLetterFrame
 (
 )
@@ -8703,7 +8710,6 @@ parent
 (
 IsAnonBox
 (
-*
 parent
 )
 |
@@ -8776,7 +8782,6 @@ parent
 =
 IsAnonBox
 (
-*
 tableFrame
 )
 ?
@@ -8861,7 +8866,6 @@ owner
 =
 ExpectedOwnerForChild
 (
-*
 mOwner
 )
 ;
@@ -8879,7 +8883,6 @@ MOZ_ASSERT
 (
 IsAnonBox
 (
-*
 owner
 )
 "
@@ -8911,7 +8914,6 @@ owner
 =
 ExpectedOwnerForChild
 (
-*
 owner
 )
 )
@@ -8964,7 +8966,7 @@ ChangesHandledFor
 (
 const
 nsIFrame
-&
+*
 aFrame
 )
 const
@@ -10524,7 +10526,6 @@ mParentRestyleState
 .
 ChangesHandledFor
 (
-*
 aTextFrame
 )
 )
@@ -11076,7 +11077,6 @@ aRestyleState
 .
 ChangesHandledFor
 (
-*
 aFrame
 )
 )
@@ -11758,7 +11758,6 @@ aRestyleState
 .
 ChangesHandledFor
 (
-*
 styleFrame
 )
 )

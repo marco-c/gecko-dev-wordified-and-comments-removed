@@ -50691,7 +50691,6 @@ aRestyleState
 .
 ChangesHandledFor
 (
-*
 aChildFrame
 )
 )
