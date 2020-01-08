@@ -4336,14 +4336,15 @@ mContext
 }
 ;
 class
-CanvasFilterChainObserver
+SVGFilterObserverListForCanvas
+final
 :
 public
 SVGFilterObserverList
 {
 public
 :
-CanvasFilterChainObserver
+SVGFilterObserverListForCanvas
 (
 nsTArray
 <
@@ -4571,7 +4572,7 @@ filterObserverList
 =
 static_cast
 <
-CanvasFilterChainObserver
+SVGFilterObserverListForCanvas
 *
 >
 (
@@ -12564,7 +12565,7 @@ CurrentState
 filterObserverList
 =
 new
-CanvasFilterChainObserver
+SVGFilterObserverListForCanvas
 (
 CurrentState
 (

@@ -251,7 +251,7 @@ class
 TextMetrics
 ;
 class
-CanvasFilterChainObserver
+SVGFilterObserverListForCanvas
 ;
 class
 CanvasPath
@@ -5048,7 +5048,7 @@ CanvasGeneralPattern
 ;
 friend
 class
-CanvasFilterChainObserver
+SVGFilterObserverListForCanvas
 ;
 friend
 class
