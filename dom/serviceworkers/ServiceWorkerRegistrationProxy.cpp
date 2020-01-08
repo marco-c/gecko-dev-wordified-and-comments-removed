@@ -933,6 +933,10 @@ forget
 ;
 return
 promise
+.
+forget
+(
+)
 ;
 }
 namespace
