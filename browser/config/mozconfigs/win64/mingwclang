@@ -120,6 +120,10 @@ mozconfigs
 /
 common
 "
+export
+MOZ_PACKAGE_JSSHELL
+=
+1
 #
 MinGW
 Stuff
