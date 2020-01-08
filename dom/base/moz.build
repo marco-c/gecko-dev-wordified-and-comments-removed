@@ -1297,6 +1297,11 @@ Comment
 cpp
 '
 '
+ContentFrameMessageManager
+.
+cpp
+'
+'
 ContentProcessMessageManager
 .
 cpp

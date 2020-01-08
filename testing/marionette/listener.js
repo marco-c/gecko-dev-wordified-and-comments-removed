@@ -3217,14 +3217,17 @@ length
 ;
 }
 }
-function
+let
 sendToServer
+=
 (
 uuid
 data
 =
 undefined
 )
+=
+>
 {
 let
 channel
@@ -3251,6 +3254,7 @@ data
 )
 ;
 }
+;
 function
 sendResponse
 (

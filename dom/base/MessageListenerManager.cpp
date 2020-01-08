@@ -9,6 +9,17 @@ MessageListenerManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+MessageBroadcaster
+.
+h
+"
 namespace
 mozilla
 {

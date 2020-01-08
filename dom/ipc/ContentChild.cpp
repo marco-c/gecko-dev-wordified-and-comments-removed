@@ -12385,6 +12385,11 @@ ContentProcessMessageManager
 Get
 (
 )
+-
+>
+GetParentObject
+(
+)
 aMapFile
 aMapSize
 std

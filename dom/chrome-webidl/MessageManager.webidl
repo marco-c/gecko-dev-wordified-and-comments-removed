@@ -3166,8 +3166,6 @@ sharedData
 ;
 [
 ChromeOnly
-Global
-NeedResolve
 ]
 interface
 ContentFrameMessageManager
@@ -3334,8 +3332,6 @@ MessageManagerGlobal
 ;
 [
 ChromeOnly
-Global
-NeedResolve
 ]
 interface
 ContentProcessMessageManager

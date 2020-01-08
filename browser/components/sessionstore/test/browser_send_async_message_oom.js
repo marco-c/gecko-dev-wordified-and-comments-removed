@@ -131,6 +131,11 @@ wrap
 mm
 .
 sendAsyncMessage
+.
+bind
+(
+mm
+)
 )
 ;
 mm
@@ -142,6 +147,11 @@ wrap
 mm
 .
 sendSyncMessage
+.
+bind
+(
+mm
+)
 )
 ;
 }
