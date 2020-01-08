@@ -759,7 +759,15 @@ this
 ;
 MOZ_ASSERT
 (
-OnSocketThread
+gSocketTransportService
+)
+;
+MOZ_ASSERT
+(
+gSocketTransportService
+-
+>
+IsOnCurrentThreadInfallible
 (
 )
 )
