@@ -63,9 +63,6 @@ enum
 ScrollDirection
 {
 "
-auto
-"
-"
 block
 "
 "
@@ -97,7 +94,7 @@ ScrollDirection
 orientation
 =
 "
-auto
+block
 "
 ;
 DOMString
