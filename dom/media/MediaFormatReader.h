@@ -1055,11 +1055,11 @@ NotifyNewOutput
 (
 TrackType
 aTrack
-const
 MediaDataDecoder
 :
 :
 DecodedData
+&
 &
 aResults
 )

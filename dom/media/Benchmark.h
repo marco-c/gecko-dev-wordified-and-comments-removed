@@ -115,11 +115,11 @@ aInfo
 void
 Output
 (
-const
 MediaDataDecoder
 :
 :
 DecodedData
+&
 &
 aResults
 )
