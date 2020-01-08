@@ -907,6 +907,11 @@ Encoding
 >
 mEncoding
 ;
+const
+Encoding
+*
+mFeedChardetIfEncoding
+;
 bool
 mReparseForbidden
 ;
@@ -1043,9 +1048,6 @@ nsCOMPtr
 nsICharsetDetector
 >
 mChardet
-;
-bool
-mFeedChardet
 ;
 bool
 mInitialEncodingWasFromParentFrame
