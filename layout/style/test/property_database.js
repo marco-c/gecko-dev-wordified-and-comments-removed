@@ -25802,6 +25802,12 @@ horizontal
 "
 vertical
 "
+"
+inline
+"
+"
+block
+"
 ]
 invalid_values
 :

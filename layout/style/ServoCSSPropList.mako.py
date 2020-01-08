@@ -426,6 +426,10 @@ Opacity
 "
     
 "
+Resize
+"
+    
+"
 url
 :
 :
