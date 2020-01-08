@@ -118,9 +118,7 @@ mozscreenshots
 /
 browser
 /
-chrome
-/
-mozscreenshots
+resources
 /
 lib
 /

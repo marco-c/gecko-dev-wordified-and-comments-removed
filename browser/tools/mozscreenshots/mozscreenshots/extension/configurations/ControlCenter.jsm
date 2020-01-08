@@ -171,9 +171,7 @@ mozscreenshots
 /
 browser
 /
-chrome
-/
-mozscreenshots
+resources
 /
 lib
 /
@@ -400,13 +398,11 @@ newChannel
 uri
 :
 "
-chrome
+resource
 :
 /
 /
 mozscreenshots
-/
-content
 /
 lib
 /
