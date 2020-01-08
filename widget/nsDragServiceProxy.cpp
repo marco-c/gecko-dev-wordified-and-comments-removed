@@ -212,8 +212,12 @@ InvokeDragSessionImpl
 nsIArray
 *
 aArrayTransferables
-nsIScriptableRegion
-*
+const
+Maybe
+<
+CSSIntRegion
+>
+&
 aRegion
 uint32_t
 aActionType
