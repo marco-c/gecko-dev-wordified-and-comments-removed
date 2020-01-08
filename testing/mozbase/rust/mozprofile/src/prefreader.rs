@@ -333,6 +333,7 @@ derive
 Copy
 Clone
 Debug
+Default
 PartialEq
 )
 ]
