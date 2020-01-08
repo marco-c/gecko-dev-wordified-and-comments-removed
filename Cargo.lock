@@ -11669,7 +11669,7 @@ u2fhid
 .
 2
 .
-0
+1
 "
 "
 webrender_bindings
@@ -32059,7 +32059,7 @@ version
 .
 2
 .
-0
+1
 "
 dependencies
 =
@@ -32366,9 +32366,9 @@ index
 winapi
 0
 .
-2
+3
 .
-8
+4
 (
 registry
 +
