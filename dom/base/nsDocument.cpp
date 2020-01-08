@@ -51594,6 +51594,13 @@ mMallocSizeOf
 )
 ;
 }
+mContentBlockingLog
+.
+AddSizeOfExcludingThis
+(
+aSizes
+)
+;
 }
 void
 nsIDocument
