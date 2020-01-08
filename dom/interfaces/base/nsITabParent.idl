@@ -98,11 +98,6 @@ int32_t
 aCssY
 )
 ;
-readonly
-attribute
-boolean
-useAsyncPanZoom
-;
 /
 *
 *
