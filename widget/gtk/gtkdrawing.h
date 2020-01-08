@@ -834,7 +834,7 @@ ToolbarButtonGTKMetrics
 GetToolbarButtonMetrics
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 )
 ;
 int

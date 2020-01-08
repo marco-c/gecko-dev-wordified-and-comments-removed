@@ -18579,7 +18579,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -18590,7 +18590,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -18607,7 +18607,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -18768,12 +18768,12 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -18806,7 +18806,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 return
@@ -18921,7 +18921,7 @@ ComputeMenuItemParams
 (
 aFrame
 eventState
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -18971,7 +18971,7 @@ ButtonArrowDown
 MenuIcon
 icon
 =
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -19029,7 +19029,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 return
@@ -19077,7 +19077,7 @@ bool
 isCheckbox
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -19736,7 +19736,7 @@ ButtonType
 buttonType
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -19844,7 +19844,7 @@ bool
 isSpinner
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20146,7 +20146,7 @@ aFrame
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20697,7 +20697,7 @@ bool
 borderless
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -21112,7 +21112,7 @@ ComputeXULScaleParams
 (
 aFrame
 eventState
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -21222,7 +21222,7 @@ ScrollbarThumb
 ComputeScrollbarParams
 (
 aFrame
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -21282,7 +21282,7 @@ ScrollbarTrack
 ComputeScrollbarParams
 (
 aFrame
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -21378,7 +21378,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 return
@@ -21520,7 +21520,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 return
@@ -21550,7 +21550,7 @@ aFrame
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -21705,7 +21705,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 return
@@ -21756,7 +21756,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -21778,7 +21778,7 @@ widgetInfo
 ComputeWidgetInfo
 (
 aFrame
-aWidgetType
+aAppearance
 aRect
 )
 ;
@@ -23484,7 +23484,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -23534,7 +23534,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 /
@@ -23653,7 +23653,7 @@ here
 .
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -23684,7 +23684,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aBuilder
@@ -23781,7 +23781,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aBuilder
@@ -24538,7 +24538,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aBuilder
@@ -24599,7 +24599,7 @@ type
 ThemeGeometryTypeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aBuilder
@@ -24804,7 +24804,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 LayoutDeviceIntMargin
@@ -24814,7 +24814,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -25133,7 +25133,7 @@ bool
 isHorizontal
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -25415,7 +25415,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntMargin
 *
 aResult
@@ -25449,7 +25449,7 @@ why
 .
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 /
@@ -25531,7 +25531,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsRect
 *
 aOverflowRect
@@ -25542,7 +25542,7 @@ overflow
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -25880,7 +25880,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntSize
 *
 aResult
@@ -25907,7 +25907,7 @@ true
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -26185,7 +26185,7 @@ height
 ;
 if
 (
-aWidgetType
+aAppearance
 !
 =
 StyleAppearance
@@ -26975,7 +26975,7 @@ bool
 isHorizontal
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -27356,7 +27356,7 @@ longer
 .
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -27365,7 +27365,7 @@ StyleAppearance
 ScrollbarbuttonLeft
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -27533,7 +27533,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsAtom
 *
 aAttribute
@@ -27558,7 +27558,7 @@ state
 .
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -27963,12 +27963,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -27985,7 +27985,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -28011,7 +28011,7 @@ always
 no
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28020,7 +28020,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28058,7 +28058,7 @@ false
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 /
@@ -28574,7 +28574,7 @@ IsWidgetStyled
 (
 aPresContext
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 case
@@ -28770,12 +28770,12 @@ nsNativeThemeCocoa
 WidgetIsContainer
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28792,7 +28792,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -28810,7 +28810,7 @@ some
 point
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -28892,12 +28892,12 @@ nsNativeThemeCocoa
 ThemeDrawsFocusForWidget
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28914,7 +28914,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -28924,7 +28924,7 @@ Menulist
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28933,7 +28933,7 @@ StyleAppearance
 Menulist
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28942,7 +28942,7 @@ StyleAppearance
 Button
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28951,7 +28951,7 @@ StyleAppearance
 MozMacHelpButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28960,7 +28960,7 @@ StyleAppearance
 MozMacDisclosureButtonOpen
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28969,7 +28969,7 @@ StyleAppearance
 MozMacDisclosureButtonClosed
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28978,7 +28978,7 @@ StyleAppearance
 Radio
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -28987,7 +28987,7 @@ StyleAppearance
 Range
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -29021,12 +29021,12 @@ nsNativeThemeCocoa
 WidgetAppearanceDependsOnWindowFocus
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -29264,12 +29264,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -29438,12 +29438,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -29564,7 +29564,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 bool
@@ -29677,12 +29677,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case

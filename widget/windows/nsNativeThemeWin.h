@@ -133,7 +133,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -156,7 +156,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 override
 ;
@@ -170,7 +170,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntMargin
 *
 aResult
@@ -188,7 +188,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsRect
 *
 aOverflowRect
@@ -205,7 +205,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 mozilla
 :
 :
@@ -226,7 +226,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 override
 ;
@@ -237,7 +237,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsAtom
 *
 aAttribute
@@ -267,7 +267,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 override
 ;
@@ -275,7 +275,7 @@ bool
 WidgetIsContainer
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 override
 ;
@@ -283,7 +283,7 @@ bool
 ThemeDrawsFocusForWidget
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 override
 ;
@@ -298,7 +298,7 @@ bool
 WidgetAppearanceDependsOnWindowFocus
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 override
 ;
@@ -319,7 +319,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 override
 ;
@@ -339,14 +339,14 @@ nsUXThemeClass
 GetThemeClass
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 HANDLE
 GetTheme
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 nsresult
@@ -356,7 +356,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 int32_t
 &
 aPart
@@ -372,7 +372,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 int32_t
 &
 aPart
@@ -394,7 +394,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -416,7 +416,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 bool
@@ -429,7 +429,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntMargin
 *
 aResult
@@ -442,7 +442,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 mozilla
 :
 :
@@ -461,7 +461,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 void
@@ -497,7 +497,7 @@ ComputedStyle
 *
 aStyle
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -512,7 +512,7 @@ uint32_t
 GetWidgetNativeDrawingFlags
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 int32_t
@@ -522,7 +522,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 bool
 wantFocused
 )
@@ -534,7 +534,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 RECT
@@ -561,7 +561,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 HANDLE
 aTheme
 HDC
@@ -587,7 +587,7 @@ aTheme
 nsUXThemeClass
 aThemeClass
 StyleAppearance
-aWidgetType
+aAppearance
 int32_t
 aPart
 int32_t
@@ -605,7 +605,7 @@ aTheme
 nsUXThemeClass
 aThemeClass
 StyleAppearance
-aWidgetType
+aAppearance
 int32_t
 aPart
 int32_t

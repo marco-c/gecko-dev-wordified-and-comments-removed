@@ -1042,7 +1042,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -1059,7 +1059,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 nsRect
@@ -1075,7 +1075,7 @@ rect
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -1226,7 +1226,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 return
@@ -1248,7 +1248,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntMargin
 *
 aResult
@@ -1256,7 +1256,7 @@ aResult
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -1305,7 +1305,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsRect
 *
 aOverflowRect
@@ -1328,7 +1328,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntSize
 *
 aResult
@@ -1339,7 +1339,7 @@ aIsOverridable
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1348,7 +1348,7 @@ StyleAppearance
 Radio
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1398,7 +1398,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsAtom
 *
 aAttribute
@@ -1413,7 +1413,7 @@ aOldValue
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1422,7 +1422,7 @@ StyleAppearance
 Radio
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1507,12 +1507,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -1547,7 +1547,7 @@ nsNativeThemeAndroid
 WidgetIsContainer
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 return
@@ -1561,7 +1561,7 @@ nsNativeThemeAndroid
 ThemeDrawsFocusForWidget
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 return
@@ -1593,7 +1593,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 return

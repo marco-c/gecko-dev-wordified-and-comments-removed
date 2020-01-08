@@ -722,7 +722,7 @@ uint8_t
 *
 aDisabledVector
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 auto
@@ -733,7 +733,7 @@ static_cast
 size_t
 >
 (
-aWidgetType
+aAppearance
 )
 ;
 MOZ_ASSERT
@@ -789,7 +789,7 @@ uint8_t
 *
 aDisabledVector
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 auto
@@ -800,7 +800,7 @@ static_cast
 size_t
 >
 (
-aWidgetType
+aAppearance
 )
 ;
 MOZ_ASSERT
@@ -849,7 +849,7 @@ uint16_t
 GetWidgetStateKey
 (
 StyleAppearance
-aWidgetType
+aAppearance
 GtkWidgetState
 *
 aWidgetState
@@ -899,7 +899,7 @@ static_cast
 uint16_t
 >
 (
-aWidgetType
+aAppearance
 )
 <
 <
@@ -915,7 +915,7 @@ uint8_t
 *
 aSafeVector
 StyleAppearance
-aWidgetType
+aAppearance
 GtkWidgetState
 *
 aWidgetState
@@ -928,7 +928,7 @@ static_cast
 size_t
 >
 (
-aWidgetType
+aAppearance
 )
 <
 static_cast
@@ -951,7 +951,7 @@ key
 =
 GetWidgetStateKey
 (
-aWidgetType
+aAppearance
 aWidgetState
 )
 ;
@@ -989,7 +989,7 @@ uint8_t
 *
 aSafeVector
 StyleAppearance
-aWidgetType
+aAppearance
 GtkWidgetState
 *
 aWidgetState
@@ -1002,7 +1002,7 @@ static_cast
 size_t
 >
 (
-aWidgetType
+aAppearance
 )
 <
 static_cast
@@ -1025,7 +1025,7 @@ key
 =
 GetWidgetStateKey
 (
-aWidgetType
+aAppearance
 aWidgetState
 )
 ;
@@ -1151,7 +1151,7 @@ aCurpos
 int32_t
 aMaxpos
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 return
@@ -1164,7 +1164,7 @@ aCurpos
 &
 &
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1173,7 +1173,7 @@ StyleAppearance
 ScrollbarbuttonUp
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1192,7 +1192,7 @@ aMaxpos
 &
 &
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1201,7 +1201,7 @@ StyleAppearance
 ScrollbarbuttonDown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1220,7 +1220,7 @@ nsNativeThemeGTK
 GetGtkWidgetAndState
 (
 StyleAppearance
-aWidgetType
+aAppearance
 nsIFrame
 *
 aFrame
@@ -1237,7 +1237,7 @@ aWidgetFlags
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1254,7 +1254,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -1294,7 +1294,7 @@ aWidgetFlags
 &
 &
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1303,7 +1303,7 @@ StyleAppearance
 Checkbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1314,7 +1314,7 @@ Radio
 )
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1323,7 +1323,7 @@ StyleAppearance
 CheckboxLabel
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1350,7 +1350,7 @@ kNameSpaceID_XUL
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1359,7 +1359,7 @@ StyleAppearance
 CheckboxLabel
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1411,7 +1411,7 @@ atom
 atom
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1420,7 +1420,7 @@ StyleAppearance
 Checkbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1517,7 +1517,7 @@ MOZ_GTK_WIDGET_INCONSISTENT
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1526,7 +1526,7 @@ StyleAppearance
 ToolbarbuttonDropdown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1535,7 +1535,7 @@ StyleAppearance
 Treeheadersortarrow
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1544,7 +1544,7 @@ StyleAppearance
 ButtonArrowPrevious
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1553,7 +1553,7 @@ StyleAppearance
 ButtonArrowNext
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1562,7 +1562,7 @@ StyleAppearance
 ButtonArrowUp
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1589,7 +1589,7 @@ eventState
 GetContentState
 (
 stateFrame
-aWidgetType
+aAppearance
 )
 ;
 aState
@@ -1664,7 +1664,7 @@ FALSE
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1726,7 +1726,7 @@ TRUE
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1735,7 +1735,7 @@ StyleAppearance
 Button
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1744,7 +1744,7 @@ StyleAppearance
 Toolbarbutton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1753,7 +1753,7 @@ StyleAppearance
 Dualbutton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1762,7 +1762,7 @@ StyleAppearance
 ToolbarbuttonDropdown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1771,7 +1771,7 @@ StyleAppearance
 Menulist
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1780,7 +1780,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1804,7 +1804,7 @@ inHover
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1813,7 +1813,7 @@ StyleAppearance
 Treetwisty
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1902,7 +1902,7 @@ kNameSpaceID_XUL
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1911,7 +1911,7 @@ StyleAppearance
 NumberInput
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1920,7 +1920,7 @@ StyleAppearance
 Textfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1929,7 +1929,7 @@ StyleAppearance
 TextfieldMultiline
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1938,7 +1938,7 @@ StyleAppearance
 MenulistTextfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1947,7 +1947,7 @@ StyleAppearance
 SpinnerTextfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1956,7 +1956,7 @@ StyleAppearance
 RadioContainer
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1979,7 +1979,7 @@ aFrame
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -1988,7 +1988,7 @@ StyleAppearance
 Radio
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2007,7 +2007,7 @@ FALSE
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2016,7 +2016,7 @@ StyleAppearance
 ScrollbarthumbVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2101,7 +2101,7 @@ TRUE
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2110,7 +2110,7 @@ StyleAppearance
 ScrollbarbuttonUp
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2119,7 +2119,7 @@ StyleAppearance
 ScrollbarbuttonDown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2128,7 +2128,7 @@ StyleAppearance
 ScrollbarbuttonLeft
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2169,7 +2169,7 @@ ShouldScrollbarButtonBeDisabled
 (
 curpos
 maxpos
-aWidgetType
+aAppearance
 )
 )
 {
@@ -2220,7 +2220,7 @@ static_cast
 uint8_t
 >
 (
-aWidgetType
+aAppearance
 )
 -
 static_cast
@@ -2246,7 +2246,7 @@ MOZ_GTK_STEPPER_VERTICAL
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2255,7 +2255,7 @@ StyleAppearance
 Menuitem
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2264,7 +2264,7 @@ StyleAppearance
 Checkmenuitem
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2273,7 +2273,7 @@ StyleAppearance
 Radiomenuitem
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2282,7 +2282,7 @@ StyleAppearance
 Menuseparator
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2364,7 +2364,7 @@ FALSE
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2373,7 +2373,7 @@ StyleAppearance
 Checkmenuitem
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2448,7 +2448,7 @@ eIgnoreCase
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2457,7 +2457,7 @@ StyleAppearance
 Button
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2466,7 +2466,7 @@ StyleAppearance
 Toolbarbutton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2475,7 +2475,7 @@ StyleAppearance
 Dualbutton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2484,7 +2484,7 @@ StyleAppearance
 ToolbarbuttonDropdown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2493,7 +2493,7 @@ StyleAppearance
 Menulist
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2502,7 +2502,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2550,7 +2550,7 @@ menuOpen
 if
 (
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2559,7 +2559,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2588,7 +2588,7 @@ parentfocused
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2597,7 +2597,7 @@ StyleAppearance
 MozWindowTitlebar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2606,7 +2606,7 @@ StyleAppearance
 MozWindowTitlebarMaximized
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2615,7 +2615,7 @@ StyleAppearance
 MozWindowButtonClose
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2624,7 +2624,7 @@ StyleAppearance
 MozWindowButtonMinimize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2633,7 +2633,7 @@ StyleAppearance
 MozWindowButtonMaximize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2659,7 +2659,7 @@ aFrame
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2668,7 +2668,7 @@ StyleAppearance
 ScrollbarbuttonUp
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2677,7 +2677,7 @@ StyleAppearance
 ScrollbarbuttonDown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2686,7 +2686,7 @@ StyleAppearance
 ScrollbarbuttonLeft
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2695,7 +2695,7 @@ StyleAppearance
 ScrollbarbuttonRight
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2704,7 +2704,7 @@ StyleAppearance
 ScrollbarVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2713,7 +2713,7 @@ StyleAppearance
 ScrollbarHorizontal
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2722,7 +2722,7 @@ StyleAppearance
 ScrollbartrackHorizontal
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2731,7 +2731,7 @@ StyleAppearance
 ScrollbartrackVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2740,7 +2740,7 @@ StyleAppearance
 ScrollbarthumbVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2785,7 +2785,7 @@ NS_DOCUMENT_STATE_WINDOW_INACTIVE
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -2863,7 +2863,7 @@ Radio
 aGtkWidgetType
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2923,7 +2923,7 @@ if
 GetWidgetTransparency
 (
 aFrame
-aWidgetType
+aAppearance
 )
 =
 =
@@ -2957,7 +2957,7 @@ if
 GetWidgetTransparency
 (
 aFrame
-aWidgetType
+aAppearance
 )
 =
 =
@@ -3609,7 +3609,7 @@ GTK_ARROW_DOWN
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -3625,7 +3625,7 @@ GTK_ARROW_UP
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -3641,7 +3641,7 @@ GTK_ARROW_RIGHT
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -3795,7 +3795,7 @@ eventStates
 GetContentState
 (
 stateFrame
-aWidgetType
+aAppearance
 )
 ;
 aGtkWidgetType
@@ -3839,7 +3839,7 @@ aWidgetFlags
 *
 aWidgetFlags
 =
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -5468,7 +5468,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsIntMargin
 *
 aExtra
@@ -5487,7 +5487,7 @@ nsIntMargin
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -5790,12 +5790,12 @@ nsNativeThemeGTK
 IsWidgetVisible
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -5829,7 +5829,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -5862,14 +5862,14 @@ if
 !
 IsWidgetVisible
 (
-aWidgetType
+aAppearance
 )
 |
 |
 !
 GetGtkWidgetAndState
 (
-aWidgetType
+aAppearance
 aFrame
 gtkWidgetType
 &
@@ -6012,7 +6012,7 @@ if
 GetExtraSizeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 &
 extraSize
 )
@@ -6090,7 +6090,7 @@ NS_ASSERTION
 IsWidgetTypeDisabled
 (
 mDisabledWidgetTypes
-aWidgetType
+aAppearance
 )
 "
 Trying
@@ -6109,7 +6109,7 @@ safeState
 IsWidgetStateSafe
 (
 mSafeWidgetStates
-aWidgetType
+aAppearance
 &
 state
 )
@@ -6135,7 +6135,7 @@ transparency
 GetWidgetTransparency
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 GdkRectangle
@@ -6295,7 +6295,7 @@ static_cast
 int
 >
 (
-aWidgetType
+aAppearance
 )
 gLastGdkError
 state
@@ -6330,7 +6330,7 @@ widget
 SetWidgetTypeDisabled
 (
 mDisabledWidgetTypes
-aWidgetType
+aAppearance
 )
 ;
 RefreshWidgetWindow
@@ -6344,7 +6344,7 @@ else
 SetWidgetStateSafe
 (
 mSafeWidgetStates
-aWidgetType
+aAppearance
 &
 state
 )
@@ -6444,7 +6444,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -6490,7 +6490,7 @@ AppUnitsPerDevPixel
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -6560,7 +6560,7 @@ nsNativeThemeGTK
 NativeThemeToGtkTheme
 (
 StyleAppearance
-aWidgetType
+aAppearance
 nsIFrame
 *
 aFrame
@@ -6577,7 +6577,7 @@ if
 !
 GetGtkWidgetAndState
 (
-aWidgetType
+aAppearance
 aFrame
 gtkWidgetType
 nullptr
@@ -6617,7 +6617,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 GtkTextDirection
 aDirection
 LayoutDeviceIntMargin
@@ -6646,7 +6646,7 @@ if
 (
 GetGtkWidgetAndState
 (
-aWidgetType
+aAppearance
 aFrame
 gtkWidgetType
 nullptr
@@ -6775,7 +6775,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 LayoutDeviceIntMargin
@@ -6791,7 +6791,7 @@ aFrame
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -6810,7 +6810,7 @@ ScrollbarVertical
 GtkOrientation
 orientation
 =
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -6895,7 +6895,7 @@ ScrollbartrackVertical
 GtkOrientation
 orientation
 =
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -6998,7 +6998,7 @@ if
 !
 GetGtkWidgetAndState
 (
-aWidgetType
+aAppearance
 aFrame
 gtkWidgetType
 nullptr
@@ -7075,7 +7075,7 @@ default
 GetCachedWidgetBorder
 (
 aFrame
-aWidgetType
+aAppearance
 direction
 &
 result
@@ -7136,7 +7136,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntMargin
 *
 aResult
@@ -7144,7 +7144,7 @@ aResult
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7161,7 +7161,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -7171,7 +7171,7 @@ Menulist
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -7341,7 +7341,7 @@ false
 GetCachedWidgetBorder
 (
 aFrame
-aWidgetType
+aAppearance
 GetTextDirection
 (
 aFrame
@@ -7354,7 +7354,7 @@ horizontal_padding
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7457,7 +7457,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsRect
 *
 aOverflowRect
@@ -7472,7 +7472,7 @@ if
 GetExtraSizeForWidget
 (
 aFrame
-aWidgetType
+aAppearance
 &
 extraSize
 )
@@ -7548,7 +7548,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntSize
 *
 aResult
@@ -7576,7 +7576,7 @@ true
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7593,7 +7593,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -7603,7 +7603,7 @@ Menulist
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -7812,7 +7812,7 @@ ScrollbarVertical
 GtkOrientation
 orientation
 =
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7881,7 +7881,7 @@ ScrollbarthumbHorizontal
 GtkOrientation
 orientation
 =
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8070,7 +8070,7 @@ thumb_height
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8258,7 +8258,7 @@ metrics
 =
 GetToggleMetrics
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8537,7 +8537,7 @@ Treeheadercell
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8568,7 +8568,7 @@ border
 GetCachedWidgetBorder
 (
 aFrame
-aWidgetType
+aAppearance
 GetTextDirection
 (
 aFrame
@@ -8829,7 +8829,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsAtom
 *
 aAttribute
@@ -8844,7 +8844,7 @@ aOldValue
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8853,7 +8853,7 @@ StyleAppearance
 Toolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8862,7 +8862,7 @@ StyleAppearance
 Toolbar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8871,7 +8871,7 @@ StyleAppearance
 Statusbar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8880,7 +8880,7 @@ StyleAppearance
 Statusbarpanel
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8889,7 +8889,7 @@ StyleAppearance
 Resizerpanel
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8898,7 +8898,7 @@ StyleAppearance
 Progresschunk
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8907,7 +8907,7 @@ StyleAppearance
 ProgresschunkVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8916,7 +8916,7 @@ StyleAppearance
 Progressbar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8925,7 +8925,7 @@ StyleAppearance
 ProgressbarVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8934,7 +8934,7 @@ StyleAppearance
 Menubar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8943,7 +8943,7 @@ StyleAppearance
 Menupopup
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8952,7 +8952,7 @@ StyleAppearance
 Tooltip
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8961,7 +8961,7 @@ StyleAppearance
 Menuseparator
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8970,7 +8970,7 @@ StyleAppearance
 Window
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8990,7 +8990,7 @@ NS_OK
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8999,7 +8999,7 @@ StyleAppearance
 MozWindowTitlebar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9008,7 +9008,7 @@ StyleAppearance
 MozWindowTitlebarMaximized
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9017,7 +9017,7 @@ StyleAppearance
 MozWindowButtonClose
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9026,7 +9026,7 @@ StyleAppearance
 MozWindowButtonMinimize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9035,7 +9035,7 @@ StyleAppearance
 MozWindowButtonMaximize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9056,7 +9056,7 @@ NS_OK
 if
 (
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9065,7 +9065,7 @@ StyleAppearance
 ScrollbarthumbVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9096,7 +9096,7 @@ NS_OK
 if
 (
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9105,7 +9105,7 @@ StyleAppearance
 ScrollbarbuttonUp
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9114,7 +9114,7 @@ StyleAppearance
 ScrollbarbuttonDown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9123,7 +9123,7 @@ StyleAppearance
 ScrollbarbuttonLeft
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9248,7 +9248,7 @@ ShouldScrollbarButtonBeDisabled
 (
 oldCurpos
 maxpos
-aWidgetType
+aAppearance
 )
 ;
 bool
@@ -9258,7 +9258,7 @@ ShouldScrollbarButtonBeDisabled
 (
 curpos
 maxpos
-aWidgetType
+aAppearance
 )
 ;
 *
@@ -9463,7 +9463,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
@@ -9471,7 +9471,7 @@ if
 IsWidgetTypeDisabled
 (
 mDisabledWidgetTypes
-aWidgetType
+aAppearance
 )
 )
 return
@@ -9481,7 +9481,7 @@ if
 (
 IsWidgetScrollbarPart
 (
-aWidgetType
+aAppearance
 )
 )
 {
@@ -9536,7 +9536,7 @@ false
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9553,7 +9553,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -9563,7 +9563,7 @@ Menulist
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -10056,7 +10056,7 @@ IsWidgetStyled
 (
 aPresContext
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 case
@@ -10118,7 +10118,7 @@ IsWidgetStyled
 (
 aPresContext
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 case
@@ -10173,7 +10173,7 @@ IsWidgetStyled
 (
 aPresContext
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 case
@@ -10204,12 +10204,12 @@ nsNativeThemeGTK
 WidgetIsContainer
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10226,7 +10226,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -10236,7 +10236,7 @@ Menulist
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10245,7 +10245,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10254,7 +10254,7 @@ StyleAppearance
 MozMenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10263,7 +10263,7 @@ StyleAppearance
 Radio
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10272,7 +10272,7 @@ StyleAppearance
 RangeThumb
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10281,7 +10281,7 @@ StyleAppearance
 Checkbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10290,7 +10290,7 @@ StyleAppearance
 TabScrollArrowBack
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10299,7 +10299,7 @@ StyleAppearance
 TabScrollArrowForward
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10308,7 +10308,7 @@ StyleAppearance
 ButtonArrowUp
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10317,7 +10317,7 @@ StyleAppearance
 ButtonArrowDown
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10326,7 +10326,7 @@ StyleAppearance
 ButtonArrowNext
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10348,12 +10348,12 @@ nsNativeThemeGTK
 ThemeDrawsFocusForWidget
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10370,7 +10370,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -10380,7 +10380,7 @@ Menulist
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10389,7 +10389,7 @@ StyleAppearance
 Menulist
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10398,7 +10398,7 @@ StyleAppearance
 Button
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10438,12 +10438,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -10547,12 +10547,12 @@ nsNativeThemeGTK
 WidgetAppearanceDependsOnWindowFocus
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case

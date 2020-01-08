@@ -164,7 +164,7 @@ mozilla
 :
 :
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 bool
@@ -180,7 +180,7 @@ mozilla
 :
 :
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 bool
@@ -722,7 +722,7 @@ mozilla
 :
 :
 StyleAppearance
-aWidgetType
+aAppearance
 )
 ;
 nscolor

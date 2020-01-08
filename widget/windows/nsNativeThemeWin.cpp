@@ -2332,7 +2332,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 HANDLE
 aTheme
 HDC
@@ -2443,7 +2443,7 @@ eventStates
 GetContentState
 (
 parentFrame
-aWidgetType
+aAppearance
 )
 ;
 bool
@@ -2455,7 +2455,7 @@ parentFrame
 )
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2582,7 +2582,7 @@ aTheme
 nsUXThemeClass
 aThemeClass
 StyleAppearance
-aWidgetType
+aAppearance
 int32_t
 aPart
 int32_t
@@ -2776,7 +2776,7 @@ aTheme
 nsUXThemeClass
 aThemeClass
 StyleAppearance
-aWidgetType
+aAppearance
 int32_t
 aPart
 int32_t
@@ -2798,7 +2798,7 @@ aPart
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -2930,7 +2930,7 @@ cy
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -3066,12 +3066,12 @@ nsNativeThemeWin
 GetThemeClass
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -3696,7 +3696,7 @@ nsNativeThemeWin
 GetTheme
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 mozilla
@@ -3710,7 +3710,7 @@ themeClass
 =
 GetThemeClass
 (
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -3750,7 +3750,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 bool
 wantFocused
 )
@@ -3761,7 +3761,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -3819,7 +3819,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 nsIContent
@@ -3890,7 +3890,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 int32_t
 &
 aPart
@@ -3901,7 +3901,7 @@ aState
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -3918,7 +3918,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -3928,7 +3928,7 @@ Menulist
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -3962,7 +3962,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -4010,7 +4010,7 @@ aState
 StandardGetState
 (
 aFrame
-aWidgetType
+aAppearance
 true
 )
 ;
@@ -4052,7 +4052,7 @@ bool
 isCheckbox
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -4148,7 +4148,7 @@ GetParent
 )
 :
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -4172,7 +4172,7 @@ aState
 StandardGetState
 (
 aFrame
-aWidgetType
+aAppearance
 false
 )
 ;
@@ -4239,7 +4239,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aPart
@@ -4421,7 +4421,7 @@ aFrame
 )
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -4471,7 +4471,7 @@ GetParent
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -4537,7 +4537,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -4692,7 +4692,7 @@ aState
 (
 int
 (
-aWidgetType
+aAppearance
 )
 -
 int
@@ -4712,7 +4712,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -4815,7 +4815,7 @@ aState
 (
 int
 (
-aWidgetType
+aAppearance
 )
 -
 int
@@ -4856,7 +4856,7 @@ ScrollbarVertical
 aPart
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -4893,7 +4893,7 @@ ScrollbarthumbVertical
 aPart
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -4912,7 +4912,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -4997,7 +4997,7 @@ ScaleVertical
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -5007,7 +5007,7 @@ ScaleHorizontal
 |
 |
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -5068,7 +5068,7 @@ ScalethumbVertical
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -5110,7 +5110,7 @@ else
 aPart
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -5130,7 +5130,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -5232,7 +5232,7 @@ SpinnerDownbutton
 aPart
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -5251,7 +5251,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -5282,7 +5282,7 @@ aState
 StandardGetState
 (
 aFrame
-aWidgetType
+aAppearance
 false
 )
 ;
@@ -5441,7 +5441,7 @@ Resizer
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -5602,7 +5602,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -5645,7 +5645,7 @@ aState
 StandardGetState
 (
 aFrame
-aWidgetType
+aAppearance
 true
 )
 ;
@@ -5702,7 +5702,7 @@ aState
 StandardGetState
 (
 aFrame
-aWidgetType
+aAppearance
 true
 )
 ;
@@ -5747,7 +5747,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -5939,7 +5939,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aPart
@@ -6186,7 +6186,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 isTopLevel
@@ -6214,7 +6214,7 @@ isHover
 IsMenuActive
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -6333,7 +6333,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aState
@@ -6371,7 +6371,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aPart
@@ -6384,7 +6384,7 @@ MC_CHECKMARKNORMAL
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -6610,7 +6610,7 @@ aFrame
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -6644,7 +6644,7 @@ aFrame
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -6678,7 +6678,7 @@ aFrame
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -6712,7 +6712,7 @@ aFrame
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -7003,7 +7003,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -7016,7 +7016,7 @@ aDirtyRect
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7033,7 +7033,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -7045,7 +7045,7 @@ if
 (
 IsWidgetScrollbarPart
 (
-aWidgetType
+aAppearance
 )
 )
 {
@@ -7075,7 +7075,7 @@ DrawCustomScrollbarPart
 aContext
 aFrame
 style
-aWidgetType
+aAppearance
 aRect
 aDirtyRect
 )
@@ -7087,7 +7087,7 @@ theme
 =
 GetTheme
 (
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -7100,7 +7100,7 @@ ClassicDrawWidgetBackground
 (
 aContext
 aFrame
-aWidgetType
+aAppearance
 aRect
 aDirtyRect
 )
@@ -7117,7 +7117,7 @@ CheckForCompositor
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -7226,7 +7226,7 @@ rv
 GetThemePartAndState
 (
 aFrame
-aWidgetType
+aAppearance
 part
 state
 )
@@ -7415,7 +7415,7 @@ ctx
 dr
 GetWidgetNativeDrawingFlags
 (
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -7593,7 +7593,7 @@ y
 endif
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7626,7 +7626,7 @@ SM_CXFRAME
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7649,7 +7649,7 @@ SM_CYFRAME
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7715,7 +7715,7 @@ edgeSize
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7734,7 +7734,7 @@ CAPTIONBUTTON_MINIMIZE
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7743,7 +7743,7 @@ StyleAppearance
 MozWindowButtonMaximize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7762,7 +7762,7 @@ CAPTIONBUTTON_RESTORE
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7780,7 +7780,7 @@ CAPTIONBUTTON_CLOSE
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7789,7 +7789,7 @@ StyleAppearance
 Range
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7798,7 +7798,7 @@ StyleAppearance
 ScaleHorizontal
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7840,7 +7840,7 @@ siz
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7850,7 +7850,7 @@ ScaleHorizontal
 |
 |
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -7998,7 +7998,7 @@ clipRect
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8007,7 +8007,7 @@ StyleAppearance
 Menucheckbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8048,7 +8048,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -8229,7 +8229,7 @@ clipRect
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8419,7 +8419,7 @@ aFrame
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8485,7 +8485,7 @@ clipRect
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8631,7 +8631,7 @@ aFrame
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8640,7 +8640,7 @@ StyleAppearance
 Resizer
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8649,7 +8649,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8678,7 +8678,7 @@ aFrame
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8687,7 +8687,7 @@ StyleAppearance
 MenulistTextfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8696,7 +8696,7 @@ StyleAppearance
 NumberInput
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8705,7 +8705,7 @@ StyleAppearance
 Textfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8716,7 +8716,7 @@ TextfieldMultiline
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8821,7 +8821,7 @@ COLOR_BTNFACE
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8830,7 +8830,7 @@ StyleAppearance
 Progressbar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8927,7 +8927,7 @@ color
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8936,7 +8936,7 @@ StyleAppearance
 Progresschunk
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8948,7 +8948,7 @@ ProgresschunkVertical
 DrawThemedProgressMeter
 (
 aFrame
-aWidgetType
+aAppearance
 theme
 hdc
 part
@@ -8963,7 +8963,7 @@ clipRect
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -8989,7 +8989,7 @@ DeviceContext
 (
 )
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 widgetRect
@@ -9079,7 +9079,7 @@ clipRect
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9088,7 +9088,7 @@ StyleAppearance
 Range
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9097,7 +9097,7 @@ StyleAppearance
 ScaleHorizontal
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9112,7 +9112,7 @@ contentState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -9223,7 +9223,7 @@ hPen
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9283,7 +9283,7 @@ nullptr
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9292,7 +9292,7 @@ StyleAppearance
 ScrollbarthumbHorizontal
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9311,7 +9311,7 @@ int
 gripPart
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9610,7 +9610,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 LayoutDeviceIntMargin
@@ -9627,7 +9627,7 @@ themeClass
 =
 GetThemeClass
 (
-aWidgetType
+aAppearance
 )
 ;
 HTHEME
@@ -9672,7 +9672,7 @@ ClassicGetWidgetBorder
 (
 aContext
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 ScaleForFrameDPI
@@ -9691,11 +9691,11 @@ if
 !
 WidgetIsContainer
 (
-aWidgetType
+aAppearance
 )
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9704,7 +9704,7 @@ StyleAppearance
 Toolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9713,7 +9713,7 @@ StyleAppearance
 MozWinMediaToolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9722,7 +9722,7 @@ StyleAppearance
 MozWinCommunicationsToolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9731,7 +9731,7 @@ StyleAppearance
 MozWinBrowsertabbarToolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9740,7 +9740,7 @@ StyleAppearance
 Statusbar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9749,7 +9749,7 @@ StyleAppearance
 Resizer
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9758,7 +9758,7 @@ StyleAppearance
 Tabpanel
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9767,7 +9767,7 @@ StyleAppearance
 ScrollbarHorizontal
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9776,7 +9776,7 @@ StyleAppearance
 ScrollbarVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9785,7 +9785,7 @@ StyleAppearance
 Scrollcorner
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9794,7 +9794,7 @@ StyleAppearance
 Menuitem
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9803,7 +9803,7 @@ StyleAppearance
 Checkmenuitem
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9812,7 +9812,7 @@ StyleAppearance
 Radiomenuitem
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9821,7 +9821,7 @@ StyleAppearance
 Menupopup
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9830,7 +9830,7 @@ StyleAppearance
 Menuimage
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9839,7 +9839,7 @@ StyleAppearance
 Menuitemtext
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9848,7 +9848,7 @@ StyleAppearance
 Separator
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9857,7 +9857,7 @@ StyleAppearance
 MozWindowTitlebar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9866,7 +9866,7 @@ StyleAppearance
 MozWindowTitlebarMaximized
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9875,7 +9875,7 @@ StyleAppearance
 MozWinGlass
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9896,7 +9896,7 @@ rv
 GetThemePartAndState
 (
 aFrame
-aWidgetType
+aAppearance
 part
 state
 )
@@ -9913,7 +9913,7 @@ result
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9949,14 +9949,14 @@ themeClass
 value
 (
 )
-aWidgetType
+aAppearance
 part
 state
 )
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -9999,7 +9999,7 @@ aFrame
 &
 &
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10008,7 +10008,7 @@ StyleAppearance
 MenulistTextfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10017,7 +10017,7 @@ StyleAppearance
 NumberInput
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10026,7 +10026,7 @@ StyleAppearance
 Textfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10110,7 +10110,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntMargin
 *
 aResult
@@ -10118,7 +10118,7 @@ aResult
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10135,7 +10135,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -10145,7 +10145,7 @@ Menulist
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -10186,7 +10186,7 @@ true
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10195,7 +10195,7 @@ StyleAppearance
 MozWindowButtonBox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10229,7 +10229,7 @@ true
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10261,7 +10261,7 @@ ok
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10270,7 +10270,7 @@ StyleAppearance
 MozWindowTitlebar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10292,7 +10292,7 @@ SizeTo
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10399,7 +10399,7 @@ theme
 =
 GetTheme
 (
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -10414,7 +10414,7 @@ ClassicGetWidgetPadding
 (
 aContext
 aFrame
-aWidgetType
+aAppearance
 aResult
 )
 ;
@@ -10430,7 +10430,7 @@ ok
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10494,7 +10494,7 @@ ok
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10503,7 +10503,7 @@ StyleAppearance
 MenulistTextfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10512,7 +10512,7 @@ StyleAppearance
 NumberInput
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10521,7 +10521,7 @@ StyleAppearance
 Textfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10530,7 +10530,7 @@ StyleAppearance
 TextfieldMultiline
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10561,7 +10561,7 @@ false
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10570,7 +10570,7 @@ StyleAppearance
 MenulistTextfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10579,7 +10579,7 @@ StyleAppearance
 NumberInput
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10588,7 +10588,7 @@ StyleAppearance
 Textfield
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10640,7 +10640,7 @@ aFrame
 )
 &
 &
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10701,7 +10701,7 @@ bottom
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -10875,7 +10875,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsRect
 *
 aOverflowRect
@@ -10886,7 +10886,7 @@ if
 0
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10963,7 +10963,7 @@ true
 endif
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -10979,7 +10979,7 @@ GetWidgetBorder
 (
 aContext
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 int32_t
@@ -11054,7 +11054,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntSize
 *
 aResult
@@ -11065,7 +11065,7 @@ aIsOverridable
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -11082,7 +11082,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -11123,7 +11123,7 @@ themeClass
 =
 GetThemeClass
 (
-aWidgetType
+aAppearance
 )
 ;
 HTHEME
@@ -11167,7 +11167,7 @@ rv
 ClassicGetMinimumWidgetSize
 (
 aFrame
-aWidgetType
+aAppearance
 aResult
 aIsOverridable
 )
@@ -11184,7 +11184,7 @@ rv
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -11311,7 +11311,7 @@ break
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -11325,9 +11325,11 @@ IsTopLevelMenu
 aFrame
 )
 )
+{
 return
 NS_OK
 ;
+}
 THEMESIZE
 sizeReq
 =
@@ -11335,7 +11337,7 @@ TS_TRUE
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -11404,7 +11406,7 @@ rv
 ClassicGetMinimumWidgetSize
 (
 aFrame
-aWidgetType
+aAppearance
 aResult
 aIsOverridable
 )
@@ -11614,7 +11616,7 @@ false
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -11624,7 +11626,7 @@ ScalethumbHorizontal
 |
 |
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12078,7 +12080,7 @@ SM_CXPADDEDBORDER
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12175,7 +12177,7 @@ rv
 GetThemePartAndState
 (
 aFrame
-aWidgetType
+aAppearance
 part
 state
 )
@@ -12201,7 +12203,7 @@ themeClass
 value
 (
 )
-aWidgetType
+aAppearance
 part
 state
 sizeReq
@@ -12228,7 +12230,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 nsAtom
 *
 aAttribute
@@ -12243,7 +12245,7 @@ aOldValue
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12260,7 +12262,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -12270,7 +12272,7 @@ Menulist
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12279,7 +12281,7 @@ StyleAppearance
 Toolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12288,7 +12290,7 @@ StyleAppearance
 MozWinMediaToolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12297,7 +12299,7 @@ StyleAppearance
 MozWinCommunicationsToolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12306,7 +12308,7 @@ StyleAppearance
 MozWinBrowsertabbarToolbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12315,7 +12317,7 @@ StyleAppearance
 Toolbar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12324,7 +12326,7 @@ StyleAppearance
 Statusbar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12333,7 +12335,7 @@ StyleAppearance
 Statusbarpanel
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12342,7 +12344,7 @@ StyleAppearance
 Resizerpanel
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12351,7 +12353,7 @@ StyleAppearance
 Progresschunk
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12360,7 +12362,7 @@ StyleAppearance
 ProgresschunkVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12369,7 +12371,7 @@ StyleAppearance
 Progressbar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12378,7 +12380,7 @@ StyleAppearance
 ProgressbarVertical
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12387,7 +12389,7 @@ StyleAppearance
 Tooltip
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12396,7 +12398,7 @@ StyleAppearance
 Tabpanels
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12405,7 +12407,7 @@ StyleAppearance
 Tabpanel
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12414,7 +12416,7 @@ StyleAppearance
 Separator
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12423,7 +12425,7 @@ StyleAppearance
 MozWinGlass
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12443,7 +12445,7 @@ NS_OK
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12452,7 +12454,7 @@ StyleAppearance
 MozWindowTitlebar
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12461,7 +12463,7 @@ StyleAppearance
 MozWindowTitlebarMaximized
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12470,7 +12472,7 @@ StyleAppearance
 MozWindowFrameLeft
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12479,7 +12481,7 @@ StyleAppearance
 MozWindowFrameRight
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12488,7 +12490,7 @@ StyleAppearance
 MozWindowFrameBottom
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12497,7 +12499,7 @@ StyleAppearance
 MozWindowButtonClose
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12506,7 +12508,7 @@ StyleAppearance
 MozWindowButtonMinimize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12515,7 +12517,7 @@ StyleAppearance
 MozWindowButtonMaximize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12536,7 +12538,7 @@ NS_OK
 if
 (
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12545,7 +12547,7 @@ StyleAppearance
 Menulist
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12554,7 +12556,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12737,12 +12739,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12762,7 +12764,7 @@ nullptr
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12783,7 +12785,7 @@ Checkbox
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12806,7 +12808,7 @@ theme
 =
 GetTheme
 (
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -12814,7 +12816,7 @@ if
 theme
 &
 &
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12840,7 +12842,7 @@ theme
 ClassicThemeSupportsWidget
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 )
@@ -12851,7 +12853,7 @@ IsWidgetStyled
 (
 aPresContext
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -12866,12 +12868,12 @@ nsNativeThemeWin
 WidgetIsContainer
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12888,7 +12890,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -12898,7 +12900,7 @@ Menulist
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12907,7 +12909,7 @@ StyleAppearance
 MenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12916,7 +12918,7 @@ StyleAppearance
 MozMenulistButton
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12925,7 +12927,7 @@ StyleAppearance
 Radio
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -12947,7 +12949,7 @@ nsNativeThemeWin
 ThemeDrawsFocusForWidget
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 return
@@ -12973,12 +12975,12 @@ nsNativeThemeWin
 WidgetAppearanceDependsOnWindowFocus
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -13058,12 +13060,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -13101,14 +13103,14 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
 IsWidgetScrollbarPart
 (
-aWidgetType
+aAppearance
 )
 )
 {
@@ -13155,7 +13157,7 @@ eTransparent
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -13206,7 +13208,7 @@ break
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -13303,7 +13305,7 @@ theme
 =
 GetTheme
 (
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -13314,7 +13316,7 @@ theme
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -13323,7 +13325,7 @@ StyleAppearance
 Menupopup
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -13350,7 +13352,7 @@ rv
 GetThemePartAndState
 (
 aFrame
-aWidgetType
+aAppearance
 part
 state
 )
@@ -13399,12 +13401,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -13857,12 +13859,12 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -13879,7 +13881,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -13892,7 +13894,7 @@ result
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -14228,7 +14230,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntMargin
 *
 aResult
@@ -14236,7 +14238,7 @@ aResult
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -14272,7 +14274,7 @@ NS_FAILED
 ClassicGetThemePartAndState
 (
 aFrame
-aWidgetType
+aAppearance
 part
 state
 focused
@@ -14474,7 +14476,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 LayoutDeviceIntSize
 *
 aResult
@@ -14485,7 +14487,7 @@ aIsOverridable
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -14502,7 +14504,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -14533,7 +14535,7 @@ true
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -15209,7 +15211,7 @@ if
 !
 GetTheme
 (
-aWidgetType
+aAppearance
 )
 )
 {
@@ -15289,7 +15291,7 @@ if
 !
 GetTheme
 (
-aWidgetType
+aAppearance
 )
 )
 {
@@ -15540,7 +15542,7 @@ height
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -15559,7 +15561,7 @@ CAPTIONBUTTON_MINIMIZE
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -15568,7 +15570,7 @@ StyleAppearance
 MozWindowButtonMaximize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -15587,7 +15589,7 @@ CAPTIONBUTTON_RESTORE
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -15625,7 +15627,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 int32_t
 &
 aPart
@@ -15639,7 +15641,7 @@ aFocused
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -15656,7 +15658,7 @@ layout_css_webkit_appearance_enabled
 )
 )
 {
-aWidgetType
+aAppearance
 =
 StyleAppearance
 :
@@ -15670,7 +15672,7 @@ false
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -15700,7 +15702,7 @@ contentState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -15890,7 +15892,7 @@ bool
 isCheckbox
 =
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -15968,7 +15970,7 @@ contentState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -16077,7 +16079,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aPart
@@ -16149,7 +16151,7 @@ if
 IsMenuActive
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 aState
@@ -16190,7 +16192,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -16211,7 +16213,7 @@ if
 IsMenuActive
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 aState
@@ -16221,7 +16223,7 @@ DFCS_HOT
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -16230,7 +16232,7 @@ StyleAppearance
 Menucheckbox
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -16548,7 +16550,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -16672,7 +16674,7 @@ contentState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aPart
@@ -16681,7 +16683,7 @@ DFC_SCROLL
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -16800,7 +16802,7 @@ contentState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 aPart
@@ -16809,7 +16811,7 @@ DFC_SCROLL
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -17090,7 +17092,7 @@ GetClassicWindowFrameButtonState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -17116,7 +17118,7 @@ GetClassicWindowFrameButtonState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -17142,7 +17144,7 @@ GetClassicWindowFrameButtonState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -17168,7 +17170,7 @@ GetClassicWindowFrameButtonState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -18498,7 +18500,7 @@ nsIFrame
 *
 aFrame
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -18524,7 +18526,7 @@ rv
 ClassicGetThemePartAndState
 (
 aFrame
-aWidgetType
+aAppearance
 part
 state
 focused
@@ -18659,7 +18661,7 @@ ctx
 dr
 GetWidgetNativeDrawingFlags
 (
-aWidgetType
+aAppearance
 )
 )
 ;
@@ -18696,7 +18698,7 @@ NS_OK
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -18900,7 +18902,7 @@ MenulistTextfield
 {
 if
 (
-aWidgetType
+aAppearance
 !
 =
 StyleAppearance
@@ -18932,7 +18934,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -19293,7 +19295,7 @@ eventState
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 :
@@ -19489,7 +19491,7 @@ trackWidth
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -19499,7 +19501,7 @@ ScaleHorizontal
 |
 |
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -19700,7 +19702,7 @@ eventStates
 GetContentState
 (
 stateFrame
-aWidgetType
+aAppearance
 )
 ;
 bool
@@ -19721,7 +19723,7 @@ stateFrame
 )
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20212,7 +20214,7 @@ COLOR_HIGHLIGHTTEXT
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20231,7 +20233,7 @@ color
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20250,7 +20252,7 @@ color
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20720,7 +20722,7 @@ GRADIENT_FILL_RECT_H
 }
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20820,7 +20822,7 @@ MozWindowButtonRestore
 {
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20839,7 +20841,7 @@ CAPTIONBUTTON_MINIMIZE
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20848,7 +20850,7 @@ StyleAppearance
 MozWindowButtonMaximize
 |
 |
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20867,7 +20869,7 @@ CAPTIONBUTTON_RESTORE
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -20967,12 +20969,12 @@ nsNativeThemeWin
 GetWidgetNativeDrawingFlags
 (
 StyleAppearance
-aWidgetType
+aAppearance
 )
 {
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -21504,7 +21506,7 @@ ComputedStyle
 *
 aStyle
 StyleAppearance
-aWidgetType
+aAppearance
 const
 nsRect
 &
@@ -21521,7 +21523,7 @@ eventStates
 GetContentState
 (
 aFrame
-aWidgetType
+aAppearance
 )
 ;
 gfxContextAutoSaveRestore
@@ -21645,7 +21647,7 @@ aStyle
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -21724,7 +21726,7 @@ p2a
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -21797,7 +21799,7 @@ type
 }
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -22033,7 +22035,7 @@ rad
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -22052,7 +22054,7 @@ M_PI
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance
@@ -22069,7 +22071,7 @@ M_PI
 else
 if
 (
-aWidgetType
+aAppearance
 =
 =
 StyleAppearance

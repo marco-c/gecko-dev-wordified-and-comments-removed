@@ -197,7 +197,7 @@ GtkWidget
 CreateScrollbarWidget
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 GtkOrientation
 aOrientation
 )
@@ -1700,7 +1700,7 @@ void
 CreateHeaderBarWidget
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 )
 {
 MOZ_ASSERT
@@ -1733,7 +1733,7 @@ MOZ_ASSERT
 (
 sWidgetStorage
 [
-aWidgetType
+aAppearance
 ]
 =
 =
@@ -1780,7 +1780,7 @@ sGtkHeaderBarNewPtr
 ;
 sWidgetStorage
 [
-aWidgetType
+aAppearance
 ]
 =
 headerbar
@@ -1805,7 +1805,7 @@ window
 ;
 if
 (
-aWidgetType
+aAppearance
 =
 =
 MOZ_GTK_HEADER_BAR_MAXIMIZED
@@ -2259,7 +2259,7 @@ GtkWidget
 *
 aParentWidget
 WidgetNodeType
-aWidgetType
+aAppearance
 )
 {
 GtkWidget
@@ -2307,7 +2307,7 @@ NS_ASSERTION
 (
 sWidgetStorage
 [
-aWidgetType
+aAppearance
 ]
 =
 =
@@ -2324,7 +2324,7 @@ created
 ;
 sWidgetStorage
 [
-aWidgetType
+aAppearance
 ]
 =
 widget
@@ -2359,7 +2359,7 @@ nullptr
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -2530,7 +2530,7 @@ aButtonLayout
 int
 aButtonNums
 WidgetNodeType
-aWidgetType
+aAppearance
 )
 {
 for
@@ -2557,7 +2557,7 @@ i
 ]
 =
 =
-aWidgetType
+aAppearance
 )
 {
 return
@@ -2778,12 +2778,12 @@ GtkWidget
 CreateWidget
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 )
 {
 MOZ_ASSERT
 (
-aWidgetType
+aAppearance
 !
 =
 MOZ_GTK_DROPDOWN_ENTRY
@@ -2798,7 +2798,7 @@ MOZ_GTK_ENTRY
 ;
 switch
 (
-aWidgetType
+aAppearance
 )
 {
 case
@@ -2847,7 +2847,7 @@ MOZ_GTK_SCROLLBAR_HORIZONTAL
 return
 CreateScrollbarWidget
 (
-aWidgetType
+aAppearance
 GTK_ORIENTATION_HORIZONTAL
 )
 ;
@@ -2857,7 +2857,7 @@ MOZ_GTK_SCROLLBAR_VERTICAL
 return
 CreateScrollbarWidget
 (
-aWidgetType
+aAppearance
 GTK_ORIENTATION_VERTICAL
 )
 ;
@@ -3136,7 +3136,7 @@ CreateHeaderBar
 return
 sWidgetStorage
 [
-aWidgetType
+aAppearance
 ]
 ;
 default
@@ -3151,7 +3151,7 @@ GtkWidget
 GetWidget
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 )
 {
 GtkWidget
@@ -3160,7 +3160,7 @@ widget
 =
 sWidgetStorage
 [
-aWidgetType
+aAppearance
 ]
 ;
 if
@@ -3173,7 +3173,7 @@ widget
 =
 CreateWidget
 (
-aWidgetType
+aAppearance
 )
 ;
 if
@@ -3200,7 +3200,7 @@ style
 ;
 sWidgetStorage
 [
-aWidgetType
+aAppearance
 ]
 =
 widget
@@ -3871,7 +3871,7 @@ GtkStyleContext
 CreateSubStyleWithClass
 (
 WidgetNodeType
-aWidgetType
+aAppearance
 const
 gchar
 *
@@ -3913,7 +3913,7 @@ parentStyle
 =
 GetWidgetRootStyle
 (
-aWidgetType
+aAppearance
 )
 ;
 const
