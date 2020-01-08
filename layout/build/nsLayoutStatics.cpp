@@ -869,10 +869,6 @@ AddRefTable
 (
 )
 ;
-NS_SetStaticAtomsDone
-(
-)
-;
 #
 ifdef
 DEBUG
