@@ -2644,9 +2644,6 @@ addr_
 size_t
 size_
 ;
-bool
-madeWritable_
-;
 public
 :
 AutoWritableJitCodeFallible
@@ -2672,10 +2669,6 @@ addr
 size_
 (
 size
-)
-madeWritable_
-(
-false
 )
 {
 rt_
@@ -2750,8 +2743,7 @@ makeWritable
 (
 )
 {
-madeWritable_
-=
+return
 ExecutableAllocator
 :
 :
@@ -2761,18 +2753,10 @@ addr_
 size_
 )
 ;
-return
-madeWritable_
-;
 }
 ~
 AutoWritableJitCodeFallible
 (
-)
-{
-if
-(
-madeWritable_
 )
 {
 if
@@ -2792,7 +2776,6 @@ MOZ_CRASH
 (
 )
 ;
-}
 }
 rt_
 -
