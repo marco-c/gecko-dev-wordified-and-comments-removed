@@ -3401,11 +3401,6 @@ SliceBudget
 budget
 )
 ;
-bool
-shouldReleaseObservedTypes
-(
-)
-;
 void
 sweepDebuggerOnMainThread
 (
@@ -4165,12 +4160,6 @@ MainThreadData
 uint64_t
 >
 majorGCNumber
-;
-MainThreadData
-<
-uint64_t
->
-jitReleaseNumber
 ;
 MainThreadData
 <
