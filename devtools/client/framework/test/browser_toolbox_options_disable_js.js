@@ -21,13 +21,17 @@ TEST_URI
 .
 then
 (
+async
+(
 tab
+)
 =
 >
 {
 const
 target
 =
+await
 TargetFactory
 .
 forTab

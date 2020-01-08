@@ -96,6 +96,7 @@ defer
 const
 target
 =
+await
 TargetFactory
 .
 forTab

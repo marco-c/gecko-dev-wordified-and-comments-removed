@@ -29,6 +29,7 @@ selectedBrowser
 const
 target
 =
+await
 TargetFactory
 .
 forTab

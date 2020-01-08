@@ -63,6 +63,7 @@ modifiedPrefs
 [
 ]
 ;
+async
 function
 test
 (
@@ -79,6 +80,7 @@ blank
 .
 then
 (
+async
 function
 (
 )
@@ -201,6 +203,7 @@ true
 const
 target
 =
+await
 TargetFactory
 .
 forTab

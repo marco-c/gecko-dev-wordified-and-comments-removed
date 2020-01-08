@@ -272,6 +272,7 @@ tab
 let
 target
 =
+await
 TargetFactory
 .
 forTab
