@@ -5,6 +5,7 @@ strict
 ;
 const
 {
+Option
 Arg
 RetVal
 generateActorSpec
@@ -129,6 +130,15 @@ type
 "
 newSource
 "
+source
+:
+Option
+(
+0
+"
+json
+"
+)
 }
 }
 }
