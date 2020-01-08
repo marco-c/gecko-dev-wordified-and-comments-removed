@@ -1679,7 +1679,7 @@ nsIObserver
 #
 endif
 }
-already_AddRefed
+RefPtr
 <
 ClientOpPromise
 >
@@ -1708,14 +1708,6 @@ Private
 (
 __func__
 )
-;
-RefPtr
-<
-ClientOpPromise
->
-ref
-=
-promise
 ;
 #
 ifdef
@@ -1883,7 +1875,7 @@ __func__
 )
 ;
 return
-ref
+promise
 .
 forget
 (
@@ -1926,7 +1918,7 @@ __func__
 )
 ;
 return
-ref
+promise
 .
 forget
 (
@@ -1946,7 +1938,7 @@ promise
 )
 ;
 return
-ref
+promise
 .
 forget
 (
