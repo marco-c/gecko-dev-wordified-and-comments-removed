@@ -3791,8 +3791,8 @@ rv
 )
 ;
 }
-AutoTransactionBatch
-bundleAllTransactions
+AutoTransactionBatchExternal
+treatAsOneTransaction
 (
 *
 mTextEditor
