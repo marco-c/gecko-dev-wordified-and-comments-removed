@@ -3855,6 +3855,7 @@ options
 let
 {
 principal
+doNotRunWorker
 }
 =
 options
@@ -4011,6 +4012,12 @@ DebuggerServer
 test
 )
 ;
+if
+(
+!
+doNotRunWorker
+)
+{
 dump
 (
 "
@@ -4037,6 +4044,7 @@ WorkerDebuggerServer
 test
 )
 ;
+}
 }
 ;
 }
