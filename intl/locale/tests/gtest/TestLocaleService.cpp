@@ -447,7 +447,7 @@ Locale
 locStr
 )
 .
-IsValid
+IsWellFormed
 (
 )
 )

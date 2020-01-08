@@ -522,7 +522,7 @@ ASSERT_TRUE
 (
 loc
 .
-IsValid
+IsWellFormed
 (
 )
 )
@@ -624,7 +624,7 @@ ASSERT_TRUE
 (
 loc2
 .
-IsValid
+IsWellFormed
 (
 )
 )
@@ -733,7 +733,7 @@ ASSERT_TRUE
 (
 loc3
 .
-IsValid
+IsWellFormed
 (
 )
 )
@@ -785,7 +785,7 @@ ASSERT_FALSE
 (
 loc
 .
-IsValid
+IsWellFormed
 (
 )
 )
@@ -806,7 +806,7 @@ ASSERT_FALSE
 (
 loc2
 .
-IsValid
+IsWellFormed
 (
 )
 )
