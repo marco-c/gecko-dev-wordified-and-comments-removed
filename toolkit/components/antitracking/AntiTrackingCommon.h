@@ -70,12 +70,6 @@ FirstPartyStorageAccessGrantedForOriginResolver
 ;
 static
 bool
-ShouldHonorContentBlockingCookieRestrictions
-(
-)
-;
-static
-bool
 IsFirstPartyStorageAccessGrantedFor
 (
 nsPIDOMWindowInner
