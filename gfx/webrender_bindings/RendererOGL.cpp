@@ -383,11 +383,6 @@ if
 mCompositor
 -
 >
-gl
-(
-)
--
->
 MakeCurrent
 (
 )
@@ -486,9 +481,7 @@ mDebugFlags
 }
 if
 (
-gl
-(
-)
+mCompositor
 -
 >
 MakeCurrent
