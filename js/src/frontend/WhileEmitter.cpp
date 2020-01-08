@@ -394,9 +394,7 @@ if
 bce_
 -
 >
-tryNoteList
-.
-append
+addTryNote
 (
 JSTRY_LOOP
 bce_

@@ -588,9 +588,7 @@ return
 bce
 -
 >
-tryNoteList
-.
-append
+addTryNote
 (
 JSTRY_FOR_OF_ITERCLOSE
 0
