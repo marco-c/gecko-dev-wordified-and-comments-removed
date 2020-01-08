@@ -698,6 +698,16 @@ set
 [
 [
 "
+browser
+.
+contentblocking
+.
+enabled
+"
+true
+]
+[
+"
 network
 .
 cookie

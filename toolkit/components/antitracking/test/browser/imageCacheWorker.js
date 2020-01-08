@@ -195,6 +195,14 @@ loaded
 )
 ;
 }
+{
+runExtraTests
+:
+false
+blockingByCookieBehavior
+blockingByContentBlocking
+callback
+:
 async
 _
 =
@@ -357,6 +365,7 @@ loaded
 "
 )
 ;
+}
 }
 null
 null
