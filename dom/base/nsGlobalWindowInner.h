@@ -1336,13 +1336,6 @@ aVisitor
 override
 ;
 virtual
-bool
-IsTopLevelWindowActive
-(
-)
-override
-;
-virtual
 PopupControlState
 GetPopupControlState
 (
