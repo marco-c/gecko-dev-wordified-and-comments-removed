@@ -2436,10 +2436,10 @@ WebRequestError
 (
 WebRequestError
 .
-ERROR_CATEGORY_URI
+ERROR_MALFORMED_URI
 WebRequestError
 .
-ERROR_MALFORMED_URI
+ERROR_CATEGORY_URI
 )
 )
 ;
@@ -4083,6 +4083,9 @@ message
 )
 ;
 final
+SelectionActionDelegate
+.
+Action
 String
 [
 ]
