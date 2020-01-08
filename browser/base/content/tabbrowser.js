@@ -1,3 +1,4 @@
+{
 const
 FAVICON_DEFAULTS
 =
@@ -24014,6 +24015,7 @@ nsISupportsWeakReference
 ]
 )
 ;
+}
 var
 StatusPanel
 =
