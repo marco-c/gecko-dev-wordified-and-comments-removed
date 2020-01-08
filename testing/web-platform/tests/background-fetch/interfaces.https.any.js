@@ -26,7 +26,9 @@ dedicated
 workers
 '
 '
-ServiceWorker
+service
+-
+workers
 '
 '
 dom
