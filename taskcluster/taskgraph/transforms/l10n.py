@@ -29,6 +29,14 @@ chunkify
 from
 taskgraph
 .
+loader
+.
+multi_dep
+import
+schema
+from
+taskgraph
+.
 transforms
 .
 base
@@ -51,8 +59,6 @@ validate_schema
 optionally_keyed_by
     
 resolve_keyed_by
-    
-Schema
 )
 from
 taskgraph
@@ -186,7 +192,9 @@ iteritems
 }
 l10n_description_schema
 =
-Schema
+schema
+.
+extend
 (
 {
     
@@ -411,32 +419,6 @@ on
 projects
 '
 ]
-    
-Required
-(
-'
-dependent
--
-tasks
-'
-)
-:
-{
-basestring
-:
-object
-}
-    
-Required
-(
-'
-primary
--
-dependency
-'
-)
-:
-object
     
 Required
 (
