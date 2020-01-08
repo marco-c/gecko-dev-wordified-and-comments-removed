@@ -210,16 +210,6 @@ XUL
 #
 apps
 .
-Mulet
-also
-uses
-this
-since
-it
-includes
-/
-browser
-.
 if
 CONFIG
 [
