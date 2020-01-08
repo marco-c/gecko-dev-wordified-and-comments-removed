@@ -3529,11 +3529,10 @@ compartment
 ;
 MOZ_ASSERT
 (
-!
 lazy
 -
 >
-isEnclosingScriptLazy
+enclosingScriptHasEverBeenCompiled
 (
 )
 )
