@@ -390,6 +390,7 @@ hiddenWindow
 docShell
 .
 domWindow
+)
 "
 hiddenWindow
 should
@@ -436,6 +437,7 @@ hiddenPrivateWindow
 docShell
 .
 domWindow
+)
 "
 hiddenPrivateWindow
 should
