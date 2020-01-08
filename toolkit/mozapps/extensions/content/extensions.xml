@@ -4235,6 +4235,17 @@ base
 >
 <
 content
+tooltiptext
+=
+"
+&
+addon
+.
+details
+.
+tooltip
+;
+"
 >
 <
 xul
