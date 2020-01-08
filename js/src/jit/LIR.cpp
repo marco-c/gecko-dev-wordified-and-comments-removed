@@ -284,9 +284,11 @@ append
 ins
 )
 )
+{
 return
 false
 ;
+}
 return
 safepoints_
 .
@@ -527,9 +529,11 @@ alloc
 numLPhis
 )
 )
+{
 return
 false
 ;
+}
 size_t
 phiIndex
 =
@@ -678,9 +682,11 @@ if
 !
 inputs
 )
+{
 return
 false
 ;
+}
 void
 *
 addr
@@ -767,10 +773,12 @@ id
 (
 )
 )
+{
 return
 *
 i
 ;
+}
 }
 return
 0
@@ -792,9 +800,11 @@ if
 (
 entryMoveGroup_
 )
+{
 return
 entryMoveGroup_
 ;
+}
 entryMoveGroup_
 =
 LMoveGroup
@@ -834,9 +844,11 @@ if
 (
 exitMoveGroup_
 )
+{
 return
 exitMoveGroup_
 ;
+}
 exitMoveGroup_
 =
 LMoveGroup
@@ -1048,10 +1060,12 @@ isRecoveredOnBailout
 (
 )
 )
+{
 accum
 +
 +
 ;
+}
 }
 return
 accum
@@ -1130,9 +1144,11 @@ init
 mir
 )
 )
+{
 return
 nullptr
 ;
+}
 JitSpew
 (
 JitSpew_IonSnapshots
@@ -1245,9 +1261,11 @@ appendDefinition
 def
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 return
@@ -1312,9 +1330,11 @@ appendOperands
 def
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1325,9 +1345,11 @@ append
 def
 )
 )
+{
 return
 false
 ;
+}
 clearWorklistFlagOnFailure
 .
 release
@@ -1392,9 +1414,11 @@ iter
 operand
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -1417,9 +1441,11 @@ caller
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1428,9 +1454,11 @@ appendOperands
 rp
 )
 )
+{
 return
 false
 ;
+}
 return
 instructions_
 .
@@ -1499,8 +1527,10 @@ isDefinition
 (
 )
 )
+{
 continue
 ;
+}
 (
 *
 it
@@ -1528,9 +1558,11 @@ appendResumePoint
 rp
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 mir
@@ -1669,9 +1701,11 @@ init
 gen
 )
 )
+{
 return
 nullptr
 ;
+}
 JitSpew
 (
 JitSpew_IonSnapshots
@@ -1767,6 +1801,7 @@ virtualRegister
 (
 )
 )
+{
 setEntry
 (
 i
@@ -1784,6 +1819,7 @@ RECOVERED_INPUT
 )
 )
 ;
+}
 }
 }
 #
@@ -1865,6 +1901,7 @@ i
 +
 +
 )
+{
 out
 .
 printf
@@ -1882,6 +1919,7 @@ i
 )
 )
 ;
+}
 }
 void
 LNode
@@ -1931,6 +1969,7 @@ isFloatReg
 (
 )
 )
+{
 return
 toFloatReg
 (
@@ -1955,6 +1994,7 @@ reg
 )
 )
 ;
+}
 return
 *
 this
@@ -2208,6 +2248,7 @@ LDefinition
 :
 FIXED
 )
+{
 buf
 =
 JS_sprintf_append
@@ -2238,6 +2279,7 @@ get
 )
 )
 ;
+}
 else
 if
 (
@@ -2251,6 +2293,7 @@ LDefinition
 :
 MUST_REUSE_INPUT
 )
+{
 buf
 =
 JS_sprintf_append
@@ -2277,11 +2320,13 @@ getReusedInput
 ;
 }
 }
+}
 if
 (
 !
 buf
 )
+{
 oomUnsafe
 .
 crash
@@ -2296,6 +2341,7 @@ toString
 "
 )
 ;
+}
 return
 buf
 ;
@@ -2686,6 +2732,7 @@ if
 !
 buf
 )
+{
 oomUnsafe
 .
 crash
@@ -2700,6 +2747,7 @@ toString
 "
 )
 ;
+}
 return
 buf
 ;
@@ -2840,6 +2888,7 @@ numOperands
 -
 1
 )
+{
 out
 .
 printf
@@ -2848,6 +2897,7 @@ printf
 "
 )
 ;
+}
 }
 }
 void
@@ -2887,6 +2937,7 @@ isPhi
 (
 )
 )
+{
 PrintOperands
 (
 out
@@ -2895,7 +2946,9 @@ toPhi
 )
 )
 ;
+}
 else
+{
 PrintOperands
 (
 out
@@ -2904,6 +2957,7 @@ toInstruction
 )
 )
 ;
+}
 }
 #
 endif
@@ -3370,6 +3424,7 @@ numDefs
 -
 1
 )
+{
 out
 .
 printf
@@ -3378,6 +3433,7 @@ printf
 "
 )
 ;
+}
 }
 out
 .
@@ -3495,6 +3551,7 @@ numTemps
 -
 1
 )
+{
 out
 .
 printf
@@ -3503,6 +3560,7 @@ printf
 "
 )
 ;
+}
 }
 out
 .
@@ -3595,6 +3653,7 @@ numSuccessors
 -
 1
 )
+{
 out
 .
 printf
@@ -3603,6 +3662,7 @@ printf
 "
 )
 ;
+}
 }
 out
 .
@@ -3803,6 +3863,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 to
@@ -3818,6 +3879,7 @@ to
 )
 )
 ;
+}
 if
 (
 LDefinition
@@ -3863,6 +3925,7 @@ isArgument
 (
 )
 )
+{
 MOZ_ASSERT
 (
 from
@@ -3882,7 +3945,9 @@ SimdMemoryAlignment
 0
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 from
@@ -3902,6 +3967,7 @@ SimdMemoryAlignment
 0
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -3936,6 +4002,7 @@ isArgument
 (
 )
 )
+{
 MOZ_ASSERT
 (
 to
@@ -3955,7 +4022,9 @@ SimdMemoryAlignment
 0
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 to
@@ -3975,6 +4044,7 @@ SimdMemoryAlignment
 0
 )
 ;
+}
 }
 }
 #
@@ -4067,9 +4137,11 @@ from
 =
 to
 )
+{
 return
 true
 ;
+}
 for
 (
 size_t
@@ -4252,6 +4324,7 @@ numMoves
 -
 1
 )
+{
 out
 .
 printf
@@ -4260,6 +4333,7 @@ printf
 "
 )
 ;
+}
 }
 }
 #

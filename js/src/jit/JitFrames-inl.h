@@ -126,10 +126,12 @@ isBaselineStub
 (
 )
 )
+{
 +
 +
 frame
 ;
+}
 MOZ_ASSERT
 (
 frame

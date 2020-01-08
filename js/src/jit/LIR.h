@@ -2301,6 +2301,7 @@ type
 =
 FLOAT32
 )
+{
 return
 r
 .
@@ -2312,6 +2313,7 @@ isSingle
 (
 )
 ;
+}
 if
 (
 type
@@ -2321,6 +2323,7 @@ type
 =
 DOUBLE
 )
+{
 return
 r
 .
@@ -2332,12 +2335,14 @@ isDouble
 (
 )
 ;
+}
 if
 (
 isSimdType
 (
 )
 )
+{
 return
 r
 .
@@ -2349,6 +2354,7 @@ isSimd128
 (
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -2409,6 +2415,7 @@ isFloatReg
 (
 )
 )
+{
 return
 type
 (
@@ -2421,6 +2428,7 @@ type
 (
 )
 ;
+}
 return
 !
 isFloatReg
@@ -4171,6 +4179,7 @@ trackedTree
 (
 )
 )
+{
 lastNotInlinedPC_
 =
 ins
@@ -4185,6 +4194,7 @@ profilerLeavePc
 (
 )
 ;
+}
 }
 }
 LElementVisitor
@@ -6244,6 +6254,7 @@ isResumePoint
 (
 )
 )
+{
 rp_
 =
 node_
@@ -6254,6 +6265,7 @@ toResumePoint
 )
 ;
 }
+}
 MDefinition
 *
 operator
@@ -6265,6 +6277,7 @@ if
 (
 rp_
 )
+{
 return
 rp_
 -
@@ -6274,6 +6287,7 @@ getOperand
 op_
 )
 ;
+}
 return
 node_
 -
@@ -6296,6 +6310,7 @@ if
 (
 rp_
 )
+{
 return
 rp_
 -
@@ -6305,6 +6320,7 @@ getOperand
 op_
 )
 ;
+}
 return
 node_
 -
@@ -6334,10 +6350,12 @@ op_
 =
 opEnd_
 )
+{
 return
 *
 this
 ;
+}
 op_
 =
 0
@@ -6358,10 +6376,12 @@ if
 *
 this
 )
+{
 settle
 (
 )
 ;
+}
 return
 *
 this
@@ -7164,10 +7184,12 @@ if
 (
 result
 )
+{
 assertInvariants
 (
 )
 ;
+}
 return
 result
 ;
@@ -7249,10 +7271,12 @@ if
 (
 result
 )
+{
 assertInvariants
 (
 )
 ;
+}
 return
 result
 ;
@@ -7273,6 +7297,7 @@ isMemory
 (
 )
 )
+{
 return
 addSlotsOrElementsSlot
 (
@@ -7288,6 +7313,7 @@ memorySlot
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 alloc
@@ -7334,6 +7360,7 @@ isRegister
 (
 )
 )
+{
 return
 slotsOrElementsRegs
 (
@@ -7352,6 +7379,7 @@ gpr
 )
 )
 ;
+}
 for
 (
 size_t
@@ -7407,9 +7435,11 @@ memorySlot
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -7431,6 +7461,7 @@ isMemory
 (
 )
 )
+{
 return
 addGcSlot
 (
@@ -7446,6 +7477,7 @@ memorySlot
 )
 )
 ;
+}
 if
 (
 alloc
@@ -7454,6 +7486,7 @@ isRegister
 (
 )
 )
+{
 addGcRegister
 (
 alloc
@@ -7467,6 +7500,7 @@ gpr
 )
 )
 ;
+}
 assertInvariants
 (
 )
@@ -7491,6 +7525,7 @@ isRegister
 (
 )
 )
+{
 return
 gcRegs
 (
@@ -7509,6 +7544,7 @@ gpr
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 alloc
@@ -7569,9 +7605,11 @@ memorySlot
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -7605,10 +7643,12 @@ if
 (
 result
 )
+{
 assertInvariants
 (
 )
 ;
+}
 return
 result
 ;
@@ -7676,9 +7716,11 @@ slot
 =
 slot
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -7718,10 +7760,12 @@ if
 (
 result
 )
+{
 assertInvariants
 (
 )
 ;
+}
 return
 result
 ;
@@ -7768,9 +7812,11 @@ type
 =
 type
 )
+{
 return
 true
 ;
+}
 if
 (
 nunboxParts_
@@ -7838,10 +7884,12 @@ if
 (
 result
 )
+{
 assertInvariants
 (
 )
 ;
+}
 return
 result
 ;
@@ -7888,9 +7936,11 @@ payload
 =
 payload
 )
+{
 return
 true
 ;
+}
 if
 (
 nunboxParts_
@@ -7958,10 +8008,12 @@ if
 (
 result
 )
+{
 assertInvariants
 (
 )
 ;
+}
 return
 result
 ;
@@ -8018,6 +8070,7 @@ isUse
 (
 )
 )
+{
 return
 nunboxParts_
 [
@@ -8026,6 +8079,7 @@ i
 .
 type
 ;
+}
 }
 return
 LUse
@@ -8072,9 +8126,11 @@ memorySlot
 )
 )
 )
+{
 return
 true
 ;
+}
 for
 (
 size_t
@@ -8107,9 +8163,11 @@ payload
 =
 payload
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -8201,11 +8259,13 @@ has
 reg
 )
 )
+{
 addValueRegister
 (
 reg
 )
 ;
+}
 return
 true
 ;
@@ -8226,9 +8286,11 @@ memorySlot
 )
 )
 )
+{
 return
 true
 ;
+}
 return
 addValueSlot
 (
@@ -8261,6 +8323,7 @@ isRegister
 (
 )
 )
+{
 return
 valueRegs
 (
@@ -8279,6 +8342,7 @@ gpr
 )
 )
 ;
+}
 return
 hasValueSlot
 (
@@ -8480,6 +8544,7 @@ if
 (
 snapshot_
 )
+{
 return
 idx_
 <
@@ -8494,6 +8559,7 @@ numEntries
 (
 )
 ;
+}
 if
 (
 idx_
@@ -8504,9 +8570,11 @@ numOperands
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 ins_
@@ -8527,9 +8595,11 @@ numEntries
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -8578,6 +8648,7 @@ if
 (
 snapshot_
 )
+{
 ins_
 .
 snapshot
@@ -8591,7 +8662,9 @@ idx_
 alloc
 )
 ;
+}
 else
+{
 ins_
 .
 setOperand
@@ -8600,6 +8673,7 @@ idx_
 alloc
 )
 ;
+}
 }
 LAllocation
 *
@@ -8613,6 +8687,7 @@ if
 (
 snapshot_
 )
+{
 return
 ins_
 .
@@ -8626,6 +8701,7 @@ getEntry
 idx_
 )
 ;
+}
 return
 ins_
 .
@@ -9247,6 +9323,7 @@ isFloat
 (
 )
 )
+{
 *
 this
 =
@@ -9259,7 +9336,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 *
 this
 =
@@ -9272,6 +9351,7 @@ gpr
 )
 )
 ;
+}
 }
 AnyRegister
 LAllocation
@@ -9295,6 +9375,7 @@ isFloatReg
 (
 )
 )
+{
 return
 AnyRegister
 (
@@ -9308,6 +9389,7 @@ reg
 )
 )
 ;
+}
 return
 AnyRegister
 (
@@ -9930,9 +10012,11 @@ LDefinition
 :
 PAYLOAD
 )
+{
 return
 NUNBOX32_PAYLOAD_OFFSET
 ;
+}
 return
 NUNBOX32_TYPE_OFFSET
 ;
@@ -9961,11 +10045,13 @@ LDefinition
 :
 PAYLOAD
 )
+{
 return
 slot
 +
 NUNBOX32_PAYLOAD_OFFSET
 ;
+}
 return
 slot
 +

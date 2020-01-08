@@ -92,6 +92,7 @@ if
 (
 script
 )
+{
 formatProperty
 (
 "
@@ -118,7 +119,9 @@ lineno
 )
 )
 ;
+}
 else
+{
 property
 (
 "
@@ -130,6 +133,7 @@ compilation
 "
 )
 ;
+}
 beginListProperty
 (
 "
@@ -179,8 +183,10 @@ if
 !
 rp
 )
+{
 return
 ;
+}
 beginObjectProperty
 (
 "
@@ -197,6 +203,7 @@ caller
 (
 )
 )
+{
 property
 (
 "
@@ -220,6 +227,7 @@ id
 )
 )
 ;
+}
 switch
 (
 rp
@@ -335,6 +343,7 @@ i
 -
 -
 )
+{
 value
 (
 iter
@@ -351,6 +360,7 @@ id
 )
 )
 ;
+}
 if
 (
 iter
@@ -360,6 +370,7 @@ caller
 (
 )
 )
+{
 value
 (
 "
@@ -367,6 +378,7 @@ value
 "
 )
 ;
+}
 }
 endList
 (
@@ -521,6 +533,7 @@ i
 +
 +
 )
+{
 value
 (
 def
@@ -537,6 +550,7 @@ id
 )
 )
 ;
+}
 endList
 (
 )
@@ -562,6 +576,7 @@ use
 +
 +
 )
+{
 value
 (
 use
@@ -576,6 +591,7 @@ id
 )
 )
 ;
+}
 endList
 (
 )
@@ -607,6 +623,7 @@ dependency
 (
 )
 )
+{
 value
 (
 def
@@ -622,6 +639,7 @@ id
 )
 )
 ;
+}
 endList
 (
 )
@@ -673,6 +691,7 @@ isDiv
 (
 )
 )
+{
 isTruncated
 =
 static_cast
@@ -689,6 +708,7 @@ isTruncated
 (
 )
 ;
+}
 if
 (
 def
@@ -837,11 +857,13 @@ resumePoint
 (
 )
 )
+{
 spewMResumePoint
 (
 rp
 )
 ;
+}
 }
 endObject
 (
@@ -936,6 +958,7 @@ HitState
 :
 Count
 )
+{
 property
 (
 "
@@ -949,6 +972,7 @@ getHitCount
 )
 )
 ;
+}
 beginListProperty
 (
 "
@@ -975,6 +999,7 @@ isLoopBackedge
 (
 )
 )
+{
 value
 (
 "
@@ -982,6 +1007,7 @@ backedge
 "
 )
 ;
+}
 if
 (
 block
@@ -991,6 +1017,7 @@ isLoopHeader
 (
 )
 )
+{
 value
 (
 "
@@ -998,6 +1025,7 @@ loopheader
 "
 )
 ;
+}
 if
 (
 block
@@ -1007,6 +1035,7 @@ isSplitEdge
 (
 )
 )
+{
 value
 (
 "
@@ -1014,6 +1043,7 @@ splitedge
 "
 )
 ;
+}
 }
 endList
 (
@@ -1046,6 +1076,7 @@ i
 +
 +
 )
+{
 value
 (
 block
@@ -1062,6 +1093,7 @@ id
 )
 )
 ;
+}
 endList
 (
 )
@@ -1103,6 +1135,7 @@ i
 +
 +
 )
+{
 value
 (
 block
@@ -1119,6 +1152,7 @@ id
 )
 )
 ;
+}
 }
 endList
 (
@@ -1158,12 +1192,14 @@ phi
 +
 +
 )
+{
 spewMDef
 (
 *
 phi
 )
 ;
+}
 for
 (
 MInstructionIterator
@@ -1191,12 +1227,14 @@ i
 +
 +
 )
+{
 spewMDef
 (
 *
 i
 )
 ;
+}
 endList
 (
 )
@@ -1325,6 +1363,7 @@ isPhi
 (
 )
 )
+{
 value
 (
 ins
@@ -1346,7 +1385,9 @@ virtualRegister
 )
 )
 ;
+}
 else
+{
 value
 (
 ins
@@ -1368,6 +1409,7 @@ virtualRegister
 )
 )
 ;
+}
 }
 endList
 (
@@ -1447,8 +1489,10 @@ if
 !
 block
 )
+{
 continue
 ;
+}
 beginObject
 (
 )
@@ -1493,6 +1537,7 @@ p
 +
 +
 )
+{
 spewLIns
 (
 block
@@ -1504,6 +1549,7 @@ p
 )
 )
 ;
+}
 for
 (
 LInstructionIterator
@@ -1531,12 +1577,14 @@ ins
 +
 +
 )
+{
 spewLIns
 (
 *
 ins
 )
 ;
+}
 endList
 (
 )
