@@ -19,18 +19,6 @@ import
 time
 import
 traceback
-try
-:
-    
-from
-queue
-import
-Queue
-Empty
-except
-ImportError
-:
-    
 from
 Queue
 import
@@ -793,7 +781,7 @@ _maxint
 =
 sys
 .
-maxsize
+maxint
 )
 :
             
@@ -846,7 +834,7 @@ _deadstate
 =
 sys
 .
-maxsize
+maxint
 )
                 
 if
@@ -6205,10 +6193,6 @@ stream
 write
 (
 line
-.
-decode
-(
-)
 +
 '
 \
