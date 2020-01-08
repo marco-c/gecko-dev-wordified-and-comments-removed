@@ -171,7 +171,7 @@ operator
 \
 macro
 (
-Lb
+LeftBracket
 "
 '
 [
@@ -181,7 +181,7 @@ Lb
 \
 macro
 (
-Rb
+RightBracket
 "
 '
 ]
@@ -191,7 +191,7 @@ Rb
 \
 macro
 (
-Lc
+LeftCurly
 "
 '
 {
@@ -201,7 +201,7 @@ Lc
 \
 macro
 (
-Rc
+RightCurly
 "
 '
 }
@@ -211,7 +211,7 @@ Rc
 \
 macro
 (
-Lp
+LeftParen
 "
 '
 (
@@ -221,7 +221,7 @@ Lp
 \
 macro
 (
-Rp
+RightParen
 "
 '
 )

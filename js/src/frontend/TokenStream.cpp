@@ -2175,7 +2175,7 @@ size_t
 TokenKind
 :
 :
-Rp
+RightParen
 )
 ]
 =
@@ -2188,7 +2188,7 @@ size_t
 TokenKind
 :
 :
-Rb
+RightBracket
 )
 ]
 =
@@ -2201,7 +2201,7 @@ size_t
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 ]
 =
@@ -9644,7 +9644,7 @@ size_t
 TokenKind
 :
 :
-Lp
+LeftParen
 )
 #
 define
@@ -9654,7 +9654,7 @@ size_t
 TokenKind
 :
 :
-Rp
+RightParen
 )
 #
 define
@@ -9684,7 +9684,7 @@ size_t
 TokenKind
 :
 :
-Lb
+LeftBracket
 )
 #
 define
@@ -9694,7 +9694,7 @@ size_t
 TokenKind
 :
 :
-Rb
+RightBracket
 )
 #
 define
@@ -9704,7 +9704,7 @@ size_t
 TokenKind
 :
 :
-Lc
+LeftCurly
 )
 #
 define
@@ -9714,7 +9714,7 @@ size_t
 TokenKind
 :
 :
-Rc
+RightCurly
 )
 #
 define
