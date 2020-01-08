@@ -5452,6 +5452,17 @@ uint8_t
 weight
 )
 {
+MOZ_ASSERT
+(
+streamID
+"
+Priority
+on
+stream
+0
+"
+)
+;
 char
 *
 packet

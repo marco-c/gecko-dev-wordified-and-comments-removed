@@ -6397,6 +6397,11 @@ mPriorityDependency
 )
 ;
 }
+if
+(
+mStreamID
+)
+{
 mSession
 -
 >
@@ -6407,6 +6412,7 @@ mPriorityDependency
 mPriorityWeight
 )
 ;
+}
 }
 void
 Http2Stream
