@@ -269,7 +269,7 @@ type
 string
 "
 "
-number
+integer
 "
 "
 boolean
