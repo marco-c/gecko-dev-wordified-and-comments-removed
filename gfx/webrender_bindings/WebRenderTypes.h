@@ -137,6 +137,10 @@ namespace
 wr
 {
 typedef
+uintptr_t
+usize
+;
+typedef
 wr
 :
 :
