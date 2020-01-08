@@ -85,14 +85,6 @@ MPL
 0
 /
 .
-if
-CONFIG
-[
-'
-MOZ_LIBPRIO
-'
-]
-:
 DIRS
 +
 =

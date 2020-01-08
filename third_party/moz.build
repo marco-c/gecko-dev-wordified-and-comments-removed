@@ -91,14 +91,6 @@ System
 General
 '
 )
-if
-CONFIG
-[
-'
-MOZ_LIBPRIO
-'
-]
-:
 with
 Files
 (
