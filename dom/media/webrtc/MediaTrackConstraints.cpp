@@ -1190,7 +1190,7 @@ GetAsStringSequence
 )
 )
 {
-mIdeal
+mExact
 .
 insert
 (
