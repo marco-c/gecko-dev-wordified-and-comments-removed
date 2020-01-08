@@ -5185,15 +5185,6 @@ AreRetainedDisplayListsEnabled
 )
 ;
 static
-bool
-DisplayRootHasRetainedDisplayListBuilder
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 Size
 ComputeSuitableScaleForAnimation
 (
