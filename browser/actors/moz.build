@@ -92,6 +92,11 @@ actors
 =
 [
 '
+AboutReaderChild
+.
+jsm
+'
+'
 BrowserTabChild
 .
 jsm
