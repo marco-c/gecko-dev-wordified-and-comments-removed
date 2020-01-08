@@ -183,6 +183,15 @@ components
 /
 js
 /
+xpctest_cenums
+.
+js
+'
+'
+components
+/
+js
+/
 xpctest_interfaces
 .
 js
