@@ -64,6 +64,14 @@ Injector
 '
 ]
 )
+if
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
+:
 TEST_HARNESS_FILES
 .
 gtest
