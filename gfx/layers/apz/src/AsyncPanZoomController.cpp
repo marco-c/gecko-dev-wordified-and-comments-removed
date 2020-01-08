@@ -17922,6 +17922,17 @@ aMagnitude
 )
 )
 {
+if
+(
+!
+gfxPrefs
+:
+:
+SanityTestRunning
+(
+)
+)
+{
 mozilla
 :
 :
@@ -17998,6 +18009,7 @@ ToMilliseconds
 )
 )
 ;
+}
 mPotentialCheckerboardTracker
 .
 CheckerboardDone
