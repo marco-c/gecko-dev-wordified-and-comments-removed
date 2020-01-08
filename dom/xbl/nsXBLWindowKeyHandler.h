@@ -276,12 +276,6 @@ aWidgetKeyboardEvent
 )
 const
 ;
-static
-void
-EnsureSpecialDocInfo
-(
-)
-;
 nsresult
 EnsureHandlers
 (
@@ -360,10 +354,6 @@ mTarget
 nsXBLPrototypeHandler
 *
 mHandler
-;
-static
-uint32_t
-sRefCnt
 ;
 }
 ;
