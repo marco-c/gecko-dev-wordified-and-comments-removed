@@ -14546,6 +14546,9 @@ id
 Value
 *
 vp
+bool
+*
+found
 )
 {
 PropertyResult
@@ -14572,6 +14575,11 @@ if
 prop
 )
 {
+*
+found
+=
+false
+;
 vp
 -
 >
@@ -14583,6 +14591,11 @@ return
 true
 ;
 }
+*
+found
+=
+true
+;
 return
 obj
 -
