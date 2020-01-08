@@ -58,6 +58,9 @@ netmonitor
 "
 storage
 "
+"
+accessibility
+"
 EXTENSION
 ]
 ;
@@ -399,6 +402,9 @@ netmonitor
 "
 storage
 "
+"
+accessibility
+"
 ]
 ;
 prepareToolTabReorderTest
@@ -510,6 +516,9 @@ memory
 "
 netmonitor
 "
+"
+accessibility
+"
 EXTENSION
 ]
 ;
@@ -598,6 +607,9 @@ memory
 "
 "
 netmonitor
+"
+"
+accessibility
 "
 ]
 )

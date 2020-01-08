@@ -49,6 +49,9 @@ netmonitor
 "
 storage
 "
+"
+accessibility
+"
 ]
 ;
 const
@@ -103,6 +106,9 @@ netmonitor
 "
 storage
 "
+"
+accessibility
+"
 ]
 }
 {
@@ -152,6 +158,9 @@ netmonitor
 "
 "
 storage
+"
+"
+accessibility
 "
 ]
 }
@@ -234,6 +243,9 @@ memory
 "
 storage
 "
+"
+accessibility
+"
 ]
 }
 {
@@ -315,6 +327,9 @@ storage
 "
 webconsole
 "
+"
+accessibility
+"
 ]
 }
 {
@@ -371,6 +386,9 @@ netmonitor
 "
 "
 storage
+"
+"
+accessibility
 "
 ]
 }
@@ -625,6 +643,9 @@ memory
 "
 "
 netmonitor
+"
+"
+accessibility
 "
 ]
 ;
