@@ -3087,12 +3087,6 @@ nsAString
 aName
 )
 ;
-void
-OpenUnsupportedMediaWithExternalAppIfNeeded
-(
-)
-const
-;
 nsTArray
 <
 RefPtr
