@@ -3301,6 +3301,11 @@ GetVRFrame
 (
 )
 ;
+void
+EnsureVRReady
+(
+)
+;
 webgl
 :
 :
@@ -7532,6 +7537,9 @@ mShouldPresent
 ;
 bool
 mDisableFragHighP
+;
+bool
+mVRReady
 ;
 template
 <
