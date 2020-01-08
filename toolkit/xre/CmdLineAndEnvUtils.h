@@ -1489,6 +1489,7 @@ true
 }
 #
 endif
+MOZ_NEVER_INLINE
 inline
 void
 SaveToEnv
