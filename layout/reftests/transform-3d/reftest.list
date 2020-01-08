@@ -1278,12 +1278,6 @@ if
 !
 layersGPUAccelerated
 )
-fails
--
-if
-(
-webrender
-)
 =
 =
 1035611
