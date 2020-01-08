@@ -1508,6 +1508,9 @@ LDFLAGS
 Wl
 -
 object_path_lto
+(
+F
+)
 .
 lto
 .
