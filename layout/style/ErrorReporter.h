@@ -7,7 +7,7 @@ mozilla_css_ErrorReporter_h_
 #
 include
 "
-nsStringFwd
+nsString
 .
 h
 "
