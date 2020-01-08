@@ -2758,6 +2758,15 @@ sCubebSandbox
 XRE_IsContentProcess
 (
 )
+&
+&
+!
+recordreplay
+:
+:
+IsMiddleman
+(
+)
 )
 {
 InitAudioIPCConnection
