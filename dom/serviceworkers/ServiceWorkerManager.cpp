@@ -363,17 +363,6 @@ mozilla
 /
 dom
 /
-PromiseWindowProxy
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Request
 .
 h

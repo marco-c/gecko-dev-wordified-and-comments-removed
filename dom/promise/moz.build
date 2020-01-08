@@ -128,11 +128,6 @@ PromiseNativeHandler
 h
 '
 '
-PromiseWindowProxy
-.
-h
-'
-'
 PromiseWorkerProxy
 .
 h
@@ -149,11 +144,6 @@ cpp
 '
 '
 PromiseDebugging
-.
-cpp
-'
-'
-PromiseWindowProxy
 .
 cpp
 '
