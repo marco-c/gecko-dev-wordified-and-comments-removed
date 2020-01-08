@@ -134,6 +134,9 @@ null
 exceptionDocURL
 :
 null
+executionPoint
+:
+undefined
 userProvidedStyles
 :
 null
