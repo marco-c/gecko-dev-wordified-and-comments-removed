@@ -2941,10 +2941,7 @@ entry
 >
 GetTitle
 (
-getter_Copies
-(
 title
-)
 )
 ;
 #

@@ -1471,8 +1471,8 @@ url
 ;
 shEntry
 .
-setTitle
-(
+title
+=
 entry
 .
 title
@@ -1481,7 +1481,6 @@ title
 entry
 .
 url
-)
 ;
 if
 (

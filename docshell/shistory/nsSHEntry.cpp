@@ -933,9 +933,8 @@ nsSHEntry
 :
 GetTitle
 (
-char16_t
-*
-*
+nsAString
+&
 aTitle
 )
 {
@@ -976,13 +975,9 @@ mTitle
 ;
 }
 }
-*
 aTitle
 =
-ToNewUnicode
-(
 mTitle
-)
 ;
 return
 NS_OK
