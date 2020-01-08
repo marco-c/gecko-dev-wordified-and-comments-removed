@@ -491,6 +491,9 @@ tearDown
 self
 )
         
+try
+:
+            
 self
 .
 logger
@@ -510,14 +513,14 @@ self
 .
 _resultsDir
 )
-        
+            
 perf_blob
 =
 process_perf_data
 .
 create_perf_data
 (
-                        
+                            
 self
 .
 _resultsDir
@@ -526,14 +529,14 @@ self
 perf_suites
 (
 )
-                        
+                            
 self
 .
 perf_checkpoints
 (
 )
 )
-        
+            
 self
 .
 logger
@@ -554,7 +557,7 @@ dumps
 perf_blob
 )
 )
-        
+            
 perf_file
 =
 os
@@ -572,7 +575,7 @@ perfherder_data
 json
 "
 )
-        
+            
 with
 open
 (
@@ -584,7 +587,7 @@ w
 as
 fp
 :
-            
+                
 json
 .
 dump
@@ -595,7 +598,7 @@ indent
 =
 2
 )
-        
+            
 self
 .
 logger
@@ -614,18 +617,26 @@ s
 perf_file
 )
         
+except
+:
+            
+raise
+        
+finally
+:
+            
 if
 self
 .
 _dmd
 :
-            
+                
 self
 .
 cleanup_dmd
 (
 )
-        
+            
 if
 '
 MOZ_UPLOAD_DIR
@@ -635,7 +646,7 @@ os
 .
 environ
 :
-            
+                
 for
 file
 in
@@ -648,7 +659,7 @@ self
 _resultsDir
 )
 :
-                
+                    
 file
 =
 os
@@ -662,7 +673,7 @@ self
 _resultsDir
 file
 )
-                
+                    
 if
 os
 .
@@ -673,7 +684,7 @@ isfile
 file
 )
 :
-                    
+                        
 shutil
 .
 copy2
