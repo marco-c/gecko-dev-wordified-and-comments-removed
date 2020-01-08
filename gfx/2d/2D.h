@@ -1112,6 +1112,15 @@ SurfaceType
 :
 :
 DATA_SHARED
+|
+|
+type
+=
+=
+SurfaceType
+:
+:
+DATA_RECYCLING_SHARED
 ;
 }
 virtual
