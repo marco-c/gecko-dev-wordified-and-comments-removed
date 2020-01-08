@@ -91,10 +91,9 @@ b
 \
 )
 ;
-b
-.
-declarationInstantiation
+instantiateModule
 (
+b
 )
 ;
 let

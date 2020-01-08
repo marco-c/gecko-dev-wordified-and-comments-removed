@@ -160,10 +160,9 @@ assertThrowsInstanceOf
 )
 =
 >
-b
-.
-declarationInstantiation
+instantiateModule
 (
+b
 )
 SyntaxError
 )
@@ -174,10 +173,9 @@ assertThrowsInstanceOf
 )
 =
 >
-c
-.
-declarationInstantiation
+instantiateModule
 (
+c
 )
 SyntaxError
 )
