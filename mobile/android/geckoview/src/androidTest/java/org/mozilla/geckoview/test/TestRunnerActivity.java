@@ -243,12 +243,8 @@ onLoadRequest
 (
 GeckoSession
 session
-String
-uri
-int
-target
-int
-flags
+LoadRequest
+request
 )
 {
 return
