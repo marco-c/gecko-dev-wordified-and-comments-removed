@@ -772,11 +772,6 @@ nsAString
 aUTF16String
 )
 ;
-void
-NS_SetStaticAtomsDone
-(
-)
-;
 class
 nsAtomString
 :
