@@ -10122,6 +10122,7 @@ STATUS_REJECTED
 NotifyRejected
 (
 aHostURI
+aChannel
 )
 ;
 if
@@ -10211,6 +10212,9 @@ NotifyRejected
 nsIURI
 *
 aHostURI
+nsIChannel
+*
+aChannel
 )
 {
 nsCOMPtr
@@ -10249,6 +10253,14 @@ nullptr
 )
 ;
 }
+AntiTrackingCommon
+:
+:
+NotifyRejection
+(
+aChannel
+)
+;
 }
 void
 nsCookieService
@@ -16038,6 +16050,7 @@ manager
 NotifyRejected
 (
 aHostURI
+aChannel
 )
 ;
 return

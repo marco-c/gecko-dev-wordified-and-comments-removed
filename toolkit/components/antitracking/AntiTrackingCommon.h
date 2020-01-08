@@ -30,6 +30,9 @@ RefPtr
 h
 "
 class
+nsIChannel
+;
+class
 nsIHttpChannel
 ;
 class
@@ -167,6 +170,15 @@ aTopWinURI
 bool
 &
 aIsAllowListed
+)
+;
+static
+void
+NotifyRejection
+(
+nsIChannel
+*
+aChannel
 )
 ;
 }
