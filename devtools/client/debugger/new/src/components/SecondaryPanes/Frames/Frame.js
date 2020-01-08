@@ -209,6 +209,9 @@ FrameTitle
 {
 frame
 options
+=
+{
+}
 }
 )
 {
@@ -223,7 +226,15 @@ formatDisplayName
 )
 (
 frame
+{
+.
+.
+.
 options
+maxLength
+:
+null
+}
 )
 ;
 return

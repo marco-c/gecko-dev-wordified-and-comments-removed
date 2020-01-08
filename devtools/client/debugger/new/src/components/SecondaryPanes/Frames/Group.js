@@ -574,6 +574,11 @@ formatDisplayName
 )
 (
 frame
+{
+maxLength
+:
+null
+}
 )
 ;
 return
