@@ -15,8 +15,6 @@ Proxy
 }
 {
 ownKeys
-:
-function
 (
 )
 {
