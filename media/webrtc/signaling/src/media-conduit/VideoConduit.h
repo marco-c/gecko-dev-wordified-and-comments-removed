@@ -2018,6 +2018,12 @@ webrtc
 :
 :
 VideoCodecMode
+mActiveCodecMode
+;
+webrtc
+:
+:
+VideoCodecMode
 mCodecMode
 ;
 const
