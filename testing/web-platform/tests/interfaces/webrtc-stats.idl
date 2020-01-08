@@ -800,10 +800,16 @@ DOMString
 remoteCertificateId
 ;
 DOMString
+tlsVersion
+;
+DOMString
 dtlsCipher
 ;
 DOMString
 srtpCipher
+;
+DOMString
+tlsGroup
 ;
 }
 ;
