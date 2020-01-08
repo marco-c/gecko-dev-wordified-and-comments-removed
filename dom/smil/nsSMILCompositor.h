@@ -114,16 +114,6 @@ nsSMILCompositor
 toMove
 )
 :
-PLDHashEntryHdr
-(
-std
-:
-:
-move
-(
-toMove
-)
-)
 mKey
 (
 std

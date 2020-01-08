@@ -84,12 +84,13 @@ mPseudoType
 )
 {
 }
+explicit
 PseudoElementHashEntry
 (
+const
 PseudoElementHashEntry
 &
-&
-aOther
+aCopy
 )
 =
 default

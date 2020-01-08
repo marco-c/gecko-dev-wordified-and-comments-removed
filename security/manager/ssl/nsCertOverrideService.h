@@ -313,16 +313,6 @@ nsCertOverrideEntry
 toMove
 )
 :
-PLDHashEntryHdr
-(
-std
-:
-:
-move
-(
-toMove
-)
-)
 mSettings
 (
 std

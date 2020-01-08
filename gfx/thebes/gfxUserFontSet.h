@@ -1301,16 +1301,6 @@ Entry
 aOther
 )
 :
-PLDHashEntryHdr
-(
-std
-:
-:
-move
-(
-aOther
-)
-)
 mURI
 (
 std
