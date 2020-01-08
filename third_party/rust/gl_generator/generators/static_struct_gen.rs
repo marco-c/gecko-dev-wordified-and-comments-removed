@@ -512,6 +512,8 @@ F
 FnMut
 (
 &
+'
+static
 str
 )
 -

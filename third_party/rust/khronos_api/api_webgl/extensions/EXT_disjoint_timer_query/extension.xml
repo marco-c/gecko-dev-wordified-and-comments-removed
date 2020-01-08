@@ -483,7 +483,7 @@ query
 void
 beginQueryEXT
 (
-enum
+GLenum
 target
 WebGLTimerQueryEXT
 query
@@ -492,7 +492,7 @@ query
 void
 endQueryEXT
 (
-enum
+GLenum
 target
 )
 ;
@@ -501,16 +501,16 @@ queryCounterEXT
 (
 WebGLTimerQueryEXT
 query
-enum
+GLenum
 target
 )
 ;
 any
 getQueryEXT
 (
-enum
+GLenum
 target
-enum
+GLenum
 pname
 )
 ;
@@ -519,7 +519,7 @@ getQueryObjectEXT
 (
 WebGLTimerQueryEXT
 query
-enum
+GLenum
 pname
 )
 ;

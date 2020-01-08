@@ -50,13 +50,6 @@ use
 generators
 :
 :
-Generator
-;
-pub
-use
-generators
-:
-:
 debug_struct_gen
 :
 :
@@ -101,6 +94,13 @@ struct_gen
 :
 :
 StructGenerator
+;
+pub
+use
+generators
+:
+:
+Generator
 ;
 pub
 use

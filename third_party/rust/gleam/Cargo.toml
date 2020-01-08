@@ -122,7 +122,7 @@ version
 .
 6
 .
-3
+8
 "
 authors
 =
@@ -156,7 +156,7 @@ Servo
 documentation
 =
 "
-http
+https
 :
 /
 /
@@ -207,5 +207,5 @@ version
 "
 0
 .
-9
+10
 "

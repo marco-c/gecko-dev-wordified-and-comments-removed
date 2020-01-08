@@ -1352,7 +1352,7 @@ a
 >
 {
 fn
-to_next_namespace
+go_to_next_namespace
 (
 &
 mut
@@ -1448,7 +1448,7 @@ is_none
 !
 self
 .
-to_next_namespace
+go_to_next_namespace
 (
 )
 {
@@ -1529,7 +1529,7 @@ None
 if
 self
 .
-to_next_namespace
+go_to_next_namespace
 (
 )
 {

@@ -378,7 +378,7 @@ queryCounterEXT
 (
 WebGLQuery
 query
-enum
+GLenum
 target
 )
 ;

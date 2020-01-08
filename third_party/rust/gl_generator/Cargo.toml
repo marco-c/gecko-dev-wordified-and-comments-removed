@@ -120,7 +120,7 @@ version
 "
 0
 .
-9
+10
 .
 0
 "
@@ -179,8 +179,6 @@ brendanzab
 gl
 -
 rs
-/
-gl_generator
 /
 "
 documentation
@@ -286,9 +284,9 @@ khronos_api
 version
 =
 "
-2
+3
 .
-1
+0
 .
 0
 "
@@ -303,8 +301,6 @@ version
 0
 .
 4
-.
-1
 "
 [
 dependencies
@@ -318,9 +314,7 @@ version
 "
 0
 .
-7
-.
-0
+8
 "
 [
 features

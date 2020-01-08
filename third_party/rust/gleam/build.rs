@@ -175,6 +175,9 @@ GL_APPLE_texture_range
 GL_ARB_blend_func_extended
 "
 "
+GL_ARB_copy_image
+"
+"
 GL_ARB_get_program_binary
 "
 "
@@ -216,7 +219,7 @@ Gl
 Profile
 :
 :
-Core
+Compatibility
 Fallbacks
 :
 :
@@ -246,6 +249,9 @@ gles_extensions
 =
 [
 "
+GL_EXT_copy_image
+"
+"
 GL_EXT_debug_marker
 "
 "
@@ -271,6 +277,9 @@ GL_OES_EGL_image_external
 "
 "
 GL_OES_EGL_image
+"
+"
+GL_OES_texture_half_float
 "
 ]
 ;

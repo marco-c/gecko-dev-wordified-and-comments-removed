@@ -451,7 +451,7 @@ GLFW
 :
 initialize
 and
-made
+make
 current
 gl
 :
@@ -467,6 +467,10 @@ get_proc_address
 (
 s
 )
+as
+*
+const
+_
 )
 ;
 }
