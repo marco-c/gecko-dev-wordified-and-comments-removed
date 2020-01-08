@@ -229,3 +229,13 @@ mochitest
 ini
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+tests
+/
+gtest
+'
+]
