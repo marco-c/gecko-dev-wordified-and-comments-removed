@@ -354,6 +354,7 @@ f
 }
 }
 }
+;
 }
 impl_generic_specified_value_info
 !
