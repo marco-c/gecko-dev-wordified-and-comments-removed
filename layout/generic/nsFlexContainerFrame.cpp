@@ -9849,7 +9849,7 @@ origAvailableFreeSpace
 flexFactorSum
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 totalDesiredPortionOfOrigFreeSpace
 =
@@ -9880,11 +9880,11 @@ free
 space
 for
 flex
+"
+"
 factors
 <
 1
-"
-"
 we
 shouldn
 '
@@ -9894,6 +9894,8 @@ the
 sign
 of
 the
+"
+"
 free
 space
 .
