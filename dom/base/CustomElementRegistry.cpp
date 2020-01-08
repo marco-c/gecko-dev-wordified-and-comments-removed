@@ -1131,6 +1131,11 @@ reaction
 mReactionQueue
 )
 {
+if
+(
+reaction
+)
+{
 n
 +
 =
@@ -1142,6 +1147,7 @@ SizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+}
 }
 return
 n
