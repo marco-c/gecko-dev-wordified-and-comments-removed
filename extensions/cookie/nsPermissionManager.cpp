@@ -576,6 +576,14 @@ speculative
 "
 cookie
 "
+"
+trackingprotection
+"
+"
+trackingprotection
+-
+pb
+"
 }
 ;
 static
