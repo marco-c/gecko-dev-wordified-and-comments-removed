@@ -2454,12 +2454,6 @@ SKIPPED_EXIT_STATUS
 )
 ]
         
-if
-self
-.
-is_module
-:
-            
 cmd
 +
 =
@@ -2475,6 +2469,12 @@ path
 '
 moduledir
 ]
+        
+if
+self
+.
+is_module
+:
             
 cmd
 +
