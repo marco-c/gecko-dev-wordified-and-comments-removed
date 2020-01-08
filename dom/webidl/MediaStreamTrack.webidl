@@ -385,6 +385,12 @@ autoGainControl
 ConstrainLong
 channelCount
 ;
+ConstrainBoolean
+mozNoiseSuppression
+;
+ConstrainBoolean
+mozAutoGainControl
+;
 }
 ;
 dictionary
