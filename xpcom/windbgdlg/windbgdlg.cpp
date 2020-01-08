@@ -315,6 +315,11 @@ KEY_READ
 hkeyLM
 )
 ;
+int
+argc
+=
+0
+;
 for
 (
 int
