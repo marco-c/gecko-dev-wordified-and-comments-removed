@@ -3211,7 +3211,7 @@ oncommand
 "
 PlacesUIUtils
 .
-openContainerNodeInTabs
+openMultipleLinksInTabs
 (
 this
 .
