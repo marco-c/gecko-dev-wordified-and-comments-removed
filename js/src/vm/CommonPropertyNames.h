@@ -1367,15 +1367,6 @@ getInternals
 \
 macro
 (
-GetModuleNamespace
-GetModuleNamespace
-"
-GetModuleNamespace
-"
-)
-\
-macro
-(
 getOwnPropertyDescriptor
 getOwnPropertyDescriptor
 "
