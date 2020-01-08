@@ -1277,7 +1277,7 @@ this
 fl
 -
 >
-GetTabChildGlobalAsEventTarget
+GetTabChildGlobal
 (
 )
 "
