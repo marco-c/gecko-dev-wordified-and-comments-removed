@@ -1247,6 +1247,11 @@ BeginConnectActual
 (
 )
 ;
+void
+MaybeStartDNSPrefetch
+(
+)
+;
 nsresult
 BeginConnect
 (
