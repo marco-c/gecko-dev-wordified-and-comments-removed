@@ -2856,10 +2856,10 @@ if
 mIsTrackingFetch
 &
 &
-nsContentUtils
+StaticPrefs
 :
 :
-IsLowerNetworkPriority
+privacy_trackingprotection_lower_network_priority
 (
 )
 )

@@ -207,7 +207,10 @@ uri
 ;
 if
 (
-ChannelNeedsToBeAnnotated
+StaticPrefs
+:
+:
+privacy_trackingprotection_annotate_channels
 (
 )
 )

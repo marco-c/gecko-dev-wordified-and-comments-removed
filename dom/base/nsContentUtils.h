@@ -6779,16 +6779,6 @@ GetUserIsInteracting
 ;
 static
 bool
-IsLowerNetworkPriority
-(
-)
-{
-return
-sLowerNetworkPriority
-;
-}
-static
-bool
 IsTailingEnabled
 (
 )
@@ -7610,10 +7600,6 @@ sSkipCursorMoveForSameValueSet
 static
 bool
 sRequestIdleCallbackEnabled
-;
-static
-bool
-sLowerNetworkPriority
 ;
 static
 bool
