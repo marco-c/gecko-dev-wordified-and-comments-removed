@@ -79,7 +79,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 )
@@ -88,10 +88,11 @@ value
 (
 uint64_t
 )
+&
 s
 -
 >
-ptr
+val
 ;
 else
 {
@@ -330,7 +331,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 &
@@ -398,7 +399,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 &

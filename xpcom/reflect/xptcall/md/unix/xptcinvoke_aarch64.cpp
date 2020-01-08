@@ -302,7 +302,7 @@ if
 s
 -
 >
-IsPtrData
+IsIndirect
 (
 )
 )
@@ -312,10 +312,11 @@ word
 (
 uint64_t
 )
+&
 s
 -
 >
-ptr
+val
 ;
 }
 else
