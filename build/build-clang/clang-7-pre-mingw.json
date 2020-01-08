@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-340494
+338869
 "
 "
 stages
@@ -55,7 +55,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+rc1
 "
 "
 clang_repo
@@ -82,7 +82,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+rc1
 "
 "
 lld_repo
@@ -109,7 +109,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+rc1
 "
 "
 compiler_repo
@@ -138,7 +138,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+rc1
 "
 "
 libcxx_repo
@@ -165,7 +165,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+rc1
 "
 "
 libcxxabi_repo
@@ -192,7 +192,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+rc1
 "
 "
 python_path
@@ -294,4 +294,15 @@ bin
 /
 gcc
 "
+"
+patches
+"
+:
+[
+"
+r339636
+.
+patch
+"
+]
 }
