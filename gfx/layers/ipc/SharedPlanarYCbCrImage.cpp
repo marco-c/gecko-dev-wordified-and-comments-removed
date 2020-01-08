@@ -628,7 +628,7 @@ GetInternalData
 )
 -
 >
-SetDesciptor
+SetDescriptor
 (
 YCbCrDescriptor
 (
