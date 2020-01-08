@@ -4615,6 +4615,13 @@ change
 kStartup
 )
 ;
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIObserver
@@ -4656,6 +4663,7 @@ startup
 nullptr
 )
 ;
+}
 }
 nsCOMPtr
 <
