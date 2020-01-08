@@ -214,6 +214,15 @@ aStr
 )
 override
 ;
+nsresult
+GetSiteIdentifier
+(
+SiteIdentifier
+&
+aSite
+)
+override
+;
 static
 nsresult
 GenerateOriginNoSuffixFromURI

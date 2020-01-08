@@ -383,6 +383,17 @@ JSObject
 obj
 )
 ;
+void
+SetCompartmentChangedDocumentDomain
+(
+JS
+:
+:
+Compartment
+*
+compartment
+)
+;
 JSObject
 *
 GetXBLScope
