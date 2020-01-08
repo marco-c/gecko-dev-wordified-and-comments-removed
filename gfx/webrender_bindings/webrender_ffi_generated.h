@@ -117,6 +117,18 @@ Sentinel
 ;
 enum
 class
+ColorDepth
+:
+uint8_t
+{
+Color8
+Color10
+Color12
+Sentinel
+}
+;
+enum
+class
 ExtendMode
 :
 uint32_t
@@ -3087,6 +3099,11 @@ flags
 }
 ;
 using
+WrColorDepth
+=
+ColorDepth
+;
+using
 WrYuvColorSpace
 =
 YuvColorSpace
@@ -4761,6 +4778,8 @@ WrImageKey
 aImageKey0
 WrImageKey
 aImageKey1
+WrColorDepth
+aColorDepth
 WrYuvColorSpace
 aColorSpace
 ImageRendering
@@ -4783,6 +4802,8 @@ bool
 aIsBackfaceVisible
 WrImageKey
 aImageKey0
+WrColorDepth
+aColorDepth
 WrYuvColorSpace
 aColorSpace
 ImageRendering
@@ -4809,6 +4830,8 @@ WrImageKey
 aImageKey1
 WrImageKey
 aImageKey2
+WrColorDepth
+aColorDepth
 WrYuvColorSpace
 aColorSpace
 ImageRendering

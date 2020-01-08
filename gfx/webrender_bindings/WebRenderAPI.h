@@ -1992,6 +1992,11 @@ aImageChannel2
 wr
 :
 :
+WrColorDepth
+aColorDepth
+wr
+:
+:
 WrYuvColorSpace
 aColorSpace
 wr
@@ -2033,6 +2038,11 @@ aImageChannel1
 wr
 :
 :
+WrColorDepth
+aColorDepth
+wr
+:
+:
 WrYuvColorSpace
 aColorSpace
 wr
@@ -2066,6 +2076,11 @@ wr
 :
 ImageKey
 aImageChannel0
+wr
+:
+:
+WrColorDepth
+aColorDepth
 wr
 :
 :

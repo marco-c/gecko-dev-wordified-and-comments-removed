@@ -5390,6 +5390,11 @@ aImageChannel2
 wr
 :
 :
+WrColorDepth
+aColorDepth
+wr
+:
+:
 WrYuvColorSpace
 aColorSpace
 wr
@@ -5411,6 +5416,7 @@ aIsBackfaceVisible
 aImageChannel0
 aImageChannel1
 aImageChannel2
+aColorDepth
 aColorSpace
 aRendering
 )
@@ -5451,6 +5457,11 @@ aImageChannel1
 wr
 :
 :
+WrColorDepth
+aColorDepth
+wr
+:
+:
 WrYuvColorSpace
 aColorSpace
 wr
@@ -5471,6 +5482,7 @@ aClip
 aIsBackfaceVisible
 aImageChannel0
 aImageChannel1
+aColorDepth
 aColorSpace
 aRendering
 )
@@ -5506,6 +5518,11 @@ aImageChannel0
 wr
 :
 :
+WrColorDepth
+aColorDepth
+wr
+:
+:
 WrYuvColorSpace
 aColorSpace
 wr
@@ -5525,6 +5542,7 @@ aClip
 )
 aIsBackfaceVisible
 aImageChannel0
+aColorDepth
 aColorSpace
 aRendering
 )
