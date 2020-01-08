@@ -96,7 +96,6 @@ EndPage
 )
 final
 ;
-virtual
 already_AddRefed
 <
 DrawTarget
