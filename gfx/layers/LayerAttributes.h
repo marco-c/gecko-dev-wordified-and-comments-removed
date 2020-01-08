@@ -1139,7 +1139,12 @@ GetFixedPositionScrollContainerId
 const
 {
 return
+(
+mIsFixedPosition
+&
+&
 mFixedPositionData
+)
 ?
 mFixedPositionData
 -
