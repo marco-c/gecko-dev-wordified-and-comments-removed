@@ -782,6 +782,7 @@ dom
 :
 :
 MediaSourceEnum
+MediaSinkEnum
 nsTArray
 <
 RefPtr
