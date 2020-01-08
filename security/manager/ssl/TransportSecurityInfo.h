@@ -271,6 +271,11 @@ PRErrorCode
 errorCode
 )
 ;
+bool
+IsCanceled
+(
+)
+;
 void
 SetStatusErrorBits
 (
@@ -373,6 +378,12 @@ mHaveCertErrorBits
 ;
 private
 :
+Atomic
+<
+bool
+>
+mCanceled
+;
 mutable
 :
 :
