@@ -1073,6 +1073,16 @@ DumpFrameTree
 (
 )
 end
+def
+ftl
+call
+arg0
+-
+>
+DumpFrameTreeLimited
+(
+)
+end
 source
 .
 gdbinit_python
