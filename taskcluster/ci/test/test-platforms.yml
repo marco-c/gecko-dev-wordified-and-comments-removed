@@ -335,12 +335,6 @@ raptor
 fetch
 -
 firefox
--
-raptor
--
-fetch
--
-chrome
 linux64
 -
 nightly
@@ -386,6 +380,12 @@ capture
 awsy
 -
 raptor
+-
+chrome
+-
+raptor
+-
+fetch
 -
 chrome
 linux64
