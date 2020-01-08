@@ -97,9 +97,7 @@ run_test
 (
 self
 raptor_args
-app
-=
-None
+kwargs
 )
 :
         
@@ -145,9 +143,7 @@ self
 init_variables
 (
 raptor_args
-app
-=
-app
+kwargs
 )
         
 self
@@ -186,9 +182,7 @@ init_variables
 (
 self
 raptor_args
-app
-=
-None
+kwargs
 )
 :
         
@@ -271,7 +265,12 @@ get_binary_path
 (
 )
 if
+kwargs
+[
+'
 app
+'
+]
 !
 =
 '
@@ -347,6 +346,28 @@ self
 raptor_args
 =
 raptor_args
+        
+self
+.
+host
+=
+kwargs
+[
+'
+host
+'
+]
+        
+self
+.
+is_release_build
+=
+kwargs
+[
+'
+is_release_build
+'
+]
     
 def
 setup_benchmarks
@@ -971,6 +992,22 @@ manifest
 '
             
 }
+            
+'
+host
+'
+:
+self
+.
+host
+            
+'
+is_release_build
+'
+:
+self
+.
+is_release_build
         
 }
     
@@ -1343,14 +1380,7 @@ argv
 2
 :
 ]
-app
-=
 kwargs
-[
-'
-app
-'
-]
 )
         
 except
