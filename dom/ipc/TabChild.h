@@ -3822,6 +3822,9 @@ mChromeOffset
 TabId
 mUniqueId
 ;
+bool
+mHasSiblings
+;
 Maybe
 <
 mozilla
