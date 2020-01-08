@@ -65,6 +65,22 @@ not
 None
 :
       
+request
+.
+server
+.
+stash
+.
+put
+(
+key
+=
+key
+value
+=
+value
+)
+      
 return
 json
 .
