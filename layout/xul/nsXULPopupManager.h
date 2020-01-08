@@ -1760,6 +1760,7 @@ nsMenuPopupFrame
 aFrames
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 InitTriggerEvent
 (
