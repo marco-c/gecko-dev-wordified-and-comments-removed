@@ -2660,6 +2660,11 @@ GetUUID
 (
 )
 )
+NS_LITERAL_STRING
+(
+"
+"
+)
 )
 )
 ;
@@ -2743,6 +2748,11 @@ GetUUID
 (
 )
 )
+NS_LITERAL_STRING
+(
+"
+"
+)
 )
 )
 ;
@@ -2801,6 +2811,11 @@ newSource
 GetUUID
 (
 )
+)
+NS_LITERAL_STRING
+(
+"
+"
 )
 )
 )
