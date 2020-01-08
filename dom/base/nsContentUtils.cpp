@@ -2625,7 +2625,6 @@ AUTOCOMPLETE_FIELD_NAME
 name_
 value_
 )
-\
 eAutocompleteFieldName_
 #
 #
@@ -2670,7 +2669,6 @@ AUTOCOMPLETE_FIELD_HINT
 name_
 value_
 )
-\
 eAutocompleteFieldHint_
 #
 #
@@ -4853,6 +4851,7 @@ struct_
 case
 message_
 :
+\
 return
 struct_
 ;
@@ -4912,6 +4911,7 @@ struct_
 case
 message_
 :
+\
 return
 nsGkAtoms
 :
@@ -14117,6 +14117,8 @@ on
 the
 stack
 is
+"
+"
 forbidden
 "
 )
@@ -26285,6 +26287,7 @@ IS_SEPARATOR
 (
 c
 )
+\
 (
 (
 c
@@ -26315,7 +26318,6 @@ c
 )
 |
 |
-\
 (
 c
 =
@@ -26338,6 +26340,7 @@ n
 )
 |
 |
+\
 (
 c
 =
@@ -51196,6 +51199,7 @@ T
 (
 __VA_ARGS__
 )
+\
 .
 isOk
 (
