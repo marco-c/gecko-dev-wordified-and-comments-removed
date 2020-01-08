@@ -77,8 +77,6 @@ Policy
 content
 =
 "
-require
--
 trusted
 -
 types
@@ -94,6 +92,11 @@ body
 <
 script
 >
+var
+testnb
+=
+0
+;
 /
 /
 TrustedURL
@@ -225,7 +228,9 @@ t
 assert_element_accepts_trusted_url
 (
 window
-c
++
++
+testnb
 t
 c
 [
@@ -320,6 +325,10 @@ src
 ]
 ]
 ;
+testnb
+=
+0
+;
 scriptTestCases
 .
 forEach
@@ -337,7 +346,9 @@ t
 assert_element_accepts_trusted_script_url
 (
 window
-c
++
++
+testnb
 t
 c
 [
@@ -432,6 +443,10 @@ srcdoc
 ]
 ]
 ;
+testnb
+=
+0
+;
 HTMLTestCases
 .
 forEach
@@ -449,7 +464,9 @@ t
 assert_element_accepts_trusted_html
 (
 window
-c
++
++
+testnb
 t
 c
 [
