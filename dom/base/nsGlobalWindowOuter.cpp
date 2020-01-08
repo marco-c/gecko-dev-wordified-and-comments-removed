@@ -7896,11 +7896,6 @@ GetCurrentInnerWindowInternal
 (
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 mDoc
 =
 aDocument
@@ -8294,6 +8289,7 @@ mCreatingInnerWindow
 =
 true
 ;
+nsresult
 rv
 =
 CreateNativeGlobalForInner

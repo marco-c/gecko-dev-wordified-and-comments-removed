@@ -1869,11 +1869,6 @@ aObserver
 return
 ;
 }
-nsresult
-rv
-=
-NS_OK
-;
 RefPtr
 <
 imgRequestProxy
@@ -1885,6 +1880,7 @@ if
 mCurrentRequest
 )
 {
+nsresult
 rv
 =
 mCurrentRequest
@@ -1923,6 +1919,7 @@ if
 mPendingRequest
 )
 {
+nsresult
 rv
 =
 mPendingRequest

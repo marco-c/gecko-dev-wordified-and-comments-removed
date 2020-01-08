@@ -20078,11 +20078,6 @@ here
 "
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 if
 (
 IsFrozen
@@ -20100,6 +20095,7 @@ nsIVariant
 >
 stateObj
 ;
+nsresult
 rv
 =
 mDoc
@@ -20119,14 +20115,10 @@ rv
 rv
 )
 ;
-bool
-result
-=
-true
-;
 AutoJSAPI
 jsapi
 ;
+bool
 result
 =
 jsapi
@@ -28105,8 +28097,6 @@ FastGetGlobalJSObject
 ;
 nsresult
 rv
-=
-NS_OK
 ;
 {
 nsJSUtils
