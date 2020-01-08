@@ -312,6 +312,9 @@ aFloat
 void
 PlaceBelowCurrentLineFloats
 (
+nsFloatCacheFreeList
+&
+aFloats
 nsLineBox
 *
 aLine
@@ -882,6 +885,13 @@ mCurrentLineFloats
 ;
 nsFloatCacheFreeList
 mBelowCurrentLineFloats
+;
+nsTArray
+<
+nsIFrame
+*
+>
+mNoWrapFloats
 ;
 nscoord
 mMinLineHeight
