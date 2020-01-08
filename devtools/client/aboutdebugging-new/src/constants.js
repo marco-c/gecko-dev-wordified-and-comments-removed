@@ -252,15 +252,13 @@ temporaryExtension
 }
 ;
 const
-PAGES
+PAGE_TYPES
 =
 {
-THIS_FIREFOX
+RUNTIME
 :
 "
-this
--
-firefox
+runtime
 "
 CONNECT
 :
@@ -413,7 +411,7 @@ assign
 {
 DEBUG_TARGETS
 DEBUG_TARGET_PANE
-PAGES
+PAGE_TYPES
 PREFERENCES
 RUNTIME_PREFERENCE
 RUNTIMES

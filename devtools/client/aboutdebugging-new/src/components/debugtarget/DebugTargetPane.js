@@ -264,6 +264,14 @@ className
 undecorated
 -
 link
+debug
+-
+target
+-
+pane__title
+"
++
+"
 js
 -
 debug
@@ -273,11 +281,6 @@ target
 pane
 -
 title
-"
-href
-:
-"
-#
 "
 onClick
 :
