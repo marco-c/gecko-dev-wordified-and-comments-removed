@@ -2628,6 +2628,13 @@ GetFlattenedTreeParentNode
 )
 const
 ;
+nsINode
+*
+GetFlattenedTreeParentNodeNonInline
+(
+)
+const
+;
 inline
 nsINode
 *
