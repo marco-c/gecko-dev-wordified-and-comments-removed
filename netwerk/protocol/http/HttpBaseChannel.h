@@ -2383,6 +2383,12 @@ OnModifyRequest
 this
 )
 ;
+MOZ_ASSERT
+(
+!
+mRequestObserversCalled
+)
+;
 mRequestObserversCalled
 =
 true

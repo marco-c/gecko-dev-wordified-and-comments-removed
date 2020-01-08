@@ -2796,14 +2796,6 @@ SetTlsFlags
 mTlsFlags
 )
 ;
-mConnectionInfo
--
->
-SetTrrUsed
-(
-mTRR
-)
-;
 gHttpHandler
 -
 >
@@ -30845,6 +30837,11 @@ ctxt
 nsresult
 rv
 ;
+MOZ_ASSERT
+(
+mRequestObserversCalled
+)
+;
 AUTO_PROFILER_LABEL
 (
 "
@@ -36022,6 +36019,10 @@ nsresult
 rv
 ;
 mIsPending
+=
+false
+;
+mRequestObserversCalled
 =
 false
 ;
