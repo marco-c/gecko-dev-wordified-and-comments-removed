@@ -121,8 +121,8 @@ position
 :
 {
 HorizontalPosition
-VerticalPosition
 Position
+VerticalPosition
 }
 ;
 use
