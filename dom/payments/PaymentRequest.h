@@ -95,6 +95,9 @@ class
 PaymentResponse
 ;
 class
+ResponseData
+;
+class
 PaymentRequest
 final
 :
@@ -400,7 +403,7 @@ nsAString
 &
 aMethodName
 const
-nsAString
+ResponseData
 &
 aDetails
 const
