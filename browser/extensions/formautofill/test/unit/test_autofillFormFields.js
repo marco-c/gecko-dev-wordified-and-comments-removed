@@ -3,6 +3,17 @@ use
 strict
 "
 ;
+let
+MasterPassword
+;
+add_task
+(
+async
+function
+setup
+(
+)
+{
 ChromeUtils
 .
 import
@@ -20,7 +31,7 @@ jsm
 "
 )
 ;
-let
+(
 {
 MasterPassword
 }
@@ -41,6 +52,10 @@ MasterPassword
 jsm
 "
 {
+}
+)
+)
+;
 }
 )
 ;

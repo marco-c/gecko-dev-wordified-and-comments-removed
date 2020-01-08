@@ -3,6 +3,13 @@ use
 strict
 "
 ;
+add_task
+(
+async
+function
+(
+)
+{
 ChromeUtils
 .
 import
@@ -18,6 +25,9 @@ FormAutofillUtils
 .
 jsm
 "
+)
+;
+}
 )
 ;
 add_task
