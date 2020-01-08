@@ -2207,6 +2207,15 @@ mContext
 mFramebuffers
 )
 ;
+#
+ifdef
+ANDROID
+mIsFB
+=
+false
+;
+#
+endif
 }
 Maybe
 <
@@ -5558,7 +5567,7 @@ if
 tex
 -
 >
-Target
+HasEverBeenBound
 (
 )
 )
@@ -6011,7 +6020,7 @@ if
 tex
 -
 >
-Target
+HasEverBeenBound
 (
 )
 )

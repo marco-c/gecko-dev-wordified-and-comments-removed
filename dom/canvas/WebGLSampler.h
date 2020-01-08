@@ -63,6 +63,14 @@ WebGLSampler
 public
 CacheInvalidator
 {
+friend
+class
+WebGLContext2
+;
+friend
+class
+WebGLTexture
+;
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 WebGLSampler

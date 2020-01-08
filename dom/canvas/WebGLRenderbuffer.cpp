@@ -249,6 +249,10 @@ mSecondaryRB
 (
 0
 )
+mHasBeenBound
+(
+false
+)
 {
 mContext
 -
