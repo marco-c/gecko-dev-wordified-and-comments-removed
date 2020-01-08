@@ -1647,11 +1647,6 @@ transform
 ref
 .
 html
-#
-skipped
--
-bug
-1380830
 fuzzy
 -
 if
@@ -1668,7 +1663,6 @@ layersGPUAccelerated
 -
 1764
 )
-skip
 test
 -
 pref
