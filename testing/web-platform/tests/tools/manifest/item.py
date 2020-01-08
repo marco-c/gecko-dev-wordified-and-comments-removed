@@ -222,12 +222,6 @@ None
         
 self
 .
-manifest
-=
-manifest
-        
-self
-.
 source_file
 =
 source_file
