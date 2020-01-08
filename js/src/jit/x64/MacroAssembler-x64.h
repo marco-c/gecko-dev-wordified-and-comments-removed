@@ -299,10 +299,12 @@ IsInsideNursery
 cell
 )
 )
+{
 embedsNurseryPointers_
 =
 true
 ;
+}
 dataRelocations_
 .
 writeUnsigned
@@ -985,6 +987,7 @@ valueReg
 (
 )
 )
+{
 movq
 (
 payload
@@ -995,6 +998,7 @@ valueReg
 )
 )
 ;
+}
 mov
 (
 ImmShiftedTag
@@ -4179,12 +4183,14 @@ src
 =
 dest
 )
+{
 movq
 (
 src
 dest
 )
 ;
+}
 shrq
 (
 Imm32
@@ -5053,12 +5059,14 @@ Operand
 :
 REG
 )
+{
 movq
 (
 src
 dest
 )
 ;
+}
 xorq
 (
 scratch
@@ -5936,6 +5944,7 @@ isFloat
 (
 )
 )
+{
 loadInt32OrDouble
 (
 src
@@ -5946,6 +5955,7 @@ fpu
 )
 )
 ;
+}
 else
 if
 (
@@ -5957,6 +5967,7 @@ MIRType
 :
 ObjectOrNull
 )
+{
 unboxObjectOrNull
 (
 src
@@ -5967,7 +5978,9 @@ gpr
 )
 )
 ;
+}
 else
+{
 unboxNonDouble
 (
 Operand
@@ -5985,6 +5998,7 @@ type
 )
 )
 ;
+}
 }
 template
 <
