@@ -6,6 +6,10 @@ strict
 const
 RecordReplayControl
 =
+!
+isWorker
+&
+&
 require
 (
 "
