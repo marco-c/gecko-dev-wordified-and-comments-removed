@@ -109,10 +109,11 @@ pagePrincipal
 origin
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 data
 :
