@@ -485,6 +485,9 @@ bool
 rtcpMux
 ;
 bool
+rtcpRsize
+;
+bool
 bundleOnly
 ;
 bool
