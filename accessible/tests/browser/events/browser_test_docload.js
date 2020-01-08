@@ -140,6 +140,9 @@ onLoadEvents
 =
 waitForEvents
 (
+{
+expected
+:
 [
 [
 EVENT_REORDER
@@ -162,6 +165,8 @@ false
 )
 ]
 ]
+unexpected
+:
 [
 [
 EVENT_DOCUMENT_LOAD_COMPLETE
@@ -182,6 +187,7 @@ iframe1
 )
 ]
 ]
+}
 )
 ;
 browser
