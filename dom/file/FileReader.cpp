@@ -2215,6 +2215,7 @@ mProgressNotifier
 =
 NS_NewTimer
 (
+mTarget
 )
 ;
 }
@@ -2236,14 +2237,6 @@ mProgressNotifier
 >
 Cancel
 (
-)
-;
-mProgressNotifier
--
->
-SetTarget
-(
-mTarget
 )
 ;
 mProgressNotifier
