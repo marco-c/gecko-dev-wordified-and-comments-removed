@@ -38029,8 +38029,11 @@ globalObjs
 cx
 )
 ;
-RootedWasmTableObject
-table
+Rooted
+<
+WasmTableObjectVector
+>
+tables
 (
 cx
 )
@@ -38044,7 +38047,11 @@ instantiate
 (
 cx
 funcs
-table
+tables
+.
+get
+(
+)
 memory
 valImports
 globalObjs

@@ -193,6 +193,9 @@ HasMaximum
 IsShared
 =
 0x2
+HasTableIndex
+=
+0x4
 }
 ;
 enum
@@ -1235,6 +1238,13 @@ unsigned
 MaxFuncs
 =
 1000000
+;
+static
+const
+unsigned
+MaxTables
+=
+100000
 ;
 static
 const

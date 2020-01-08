@@ -1,4 +1,24 @@
-var
+for
+(
+let
+prefix
+of
+[
+'
+'
+'
+(
+table
+prefix
+0
+32
+anyfunc
+)
+'
+]
+)
+{
+let
 mod
 =
 new
@@ -14,8 +34,12 @@ module
 gc_feature_opt_in
 2
 )
+{
+prefix
+}
 (
 table
+tbl
 0
 anyref
 )
@@ -81,6 +105,7 @@ last
 table
 .
 grow
+tbl
 (
 i32
 .
@@ -99,6 +124,7 @@ anyref
 table
 .
 set
+tbl
 (
 get_local
 last
@@ -159,6 +185,7 @@ tmp
 table
 .
 get
+tbl
 (
 get_local
 i
@@ -200,6 +227,7 @@ item
 table
 .
 set
+tbl
 (
 get_local
 i
@@ -208,6 +236,7 @@ i
 table
 .
 get
+tbl
 (
 get_local
 j
@@ -218,6 +247,7 @@ j
 table
 .
 set
+tbl
 (
 get_local
 j
@@ -417,4 +447,5 @@ run
 1000
 )
 ;
+}
 }
