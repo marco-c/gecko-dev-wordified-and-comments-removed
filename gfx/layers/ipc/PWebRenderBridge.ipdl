@@ -505,6 +505,18 @@ uint64_t
 fwdTransactionId
 TransactionId
 transactionId
+OpUpdateResource
+[
+]
+aResourceUpdates
+RefCountedShmem
+[
+]
+aSmallShmems
+Shmem
+[
+]
+aLargeShmems
 IdNamespace
 aIdNamespace
 TimeStamp
@@ -537,6 +549,8 @@ Shmem
 [
 ]
 aLargeShmems
+bool
+scheduleComposite
 )
 ;
 async
