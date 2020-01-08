@@ -164,13 +164,6 @@ id
 "
 menulist
 "
-display
-=
-"
-xul
-:
-menu
-"
 extends
 =
 "
@@ -2303,13 +2296,6 @@ id
 menulist
 -
 popuponly
-"
-display
-=
-"
-xul
-:
-menu
 "
 extends
 =
