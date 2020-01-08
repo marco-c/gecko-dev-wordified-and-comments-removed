@@ -10940,7 +10940,7 @@ ldflags
 =
 ldflags
 )
-add_old_configure_assignment
+set_config
 (
 '
 MOZ_LTO
@@ -10949,7 +10949,16 @@ lto
 .
 enabled
 )
-add_old_configure_assignment
+set_define
+(
+'
+MOZ_LTO
+'
+lto
+.
+enabled
+)
+set_config
 (
 '
 MOZ_LTO_CFLAGS
@@ -10958,7 +10967,7 @@ lto
 .
 cflags
 )
-add_old_configure_assignment
+set_config
 (
 '
 MOZ_LTO_LDFLAGS

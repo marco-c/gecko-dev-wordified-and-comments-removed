@@ -312,6 +312,12 @@ stack
 -
 protector
 '
+'
+-
+fno
+-
+lto
+'
 ]
 AllowCompilerWarnings
 (
