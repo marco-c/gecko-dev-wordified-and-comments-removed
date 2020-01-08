@@ -64,6 +64,13 @@ nsILabelableRunnable
 h
 "
 #
+include
+"
+nsPrintfCString
+.
+h
+"
+#
 undef
 Yield
 class

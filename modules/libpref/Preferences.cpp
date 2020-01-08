@@ -25002,13 +25002,13 @@ aDefaultValue
 PrefValue
 value
 ;
-nsPrintfCString
+nsAutoCString
 defaultValue
+;
+defaultValue
+.
+AppendFloat
 (
-"
-%
-f
-"
 aDefaultValue
 )
 ;
@@ -25488,7 +25488,6 @@ true
 ;
 }
 }
-MOZ_MAYBE_UNUSED
 static
 void
 InitVarCachePref

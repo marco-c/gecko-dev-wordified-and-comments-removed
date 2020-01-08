@@ -192,6 +192,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsScriptSecurityManager
 .
 h
