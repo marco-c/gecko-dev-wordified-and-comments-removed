@@ -1983,6 +1983,17 @@ options
 baseline
 (
 )
+&
+&
+cx
+-
+>
+runtime
+(
+)
+-
+>
+jitSupportsFloatingPoint
 ;
 #
 endif
