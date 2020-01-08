@@ -203,6 +203,11 @@ GraphicsMemorySize
 *
 4
 ;
+bool
+InRepaintStressMode
+(
+)
+;
 class
 ChildRole
 {

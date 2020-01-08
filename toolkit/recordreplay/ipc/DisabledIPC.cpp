@@ -98,6 +98,16 @@ MOZ_CRASH
 ;
 }
 void
+OnVsync
+(
+)
+{
+MOZ_CRASH
+(
+)
+;
+}
+void
 NotifyPaintStart
 (
 )

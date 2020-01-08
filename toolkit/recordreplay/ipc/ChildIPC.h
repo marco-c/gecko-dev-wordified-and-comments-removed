@@ -86,6 +86,11 @@ aObserver
 )
 ;
 void
+OnVsync
+(
+)
+;
+void
 NotifyPaintStart
 (
 )

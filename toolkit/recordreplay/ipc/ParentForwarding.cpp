@@ -627,6 +627,17 @@ Message
 aMessage
 )
 {
+if
+(
+InRepaintStressMode
+(
+)
+)
+{
+return
+true
+;
+}
 IPC
 :
 :
