@@ -118,6 +118,10 @@ clang
 +
 +
 "
+export
+ENABLE_CLANG_PLUGIN
+=
+1
 fi
 #
 We
