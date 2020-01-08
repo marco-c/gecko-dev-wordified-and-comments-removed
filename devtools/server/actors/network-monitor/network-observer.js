@@ -1870,11 +1870,11 @@ fromServiceWorker
 ;
 event
 .
-isTrackingResource
+isThirdPartyTrackingResource
 =
 channel
 .
-isTrackingResource
+isThirdPartyTrackingResource
 ;
 httpActivity
 .

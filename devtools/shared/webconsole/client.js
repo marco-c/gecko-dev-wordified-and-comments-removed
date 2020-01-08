@@ -464,11 +464,11 @@ fromServiceWorker
 actor
 .
 fromServiceWorker
-isTrackingResource
+isThirdPartyTrackingResource
 :
 actor
 .
-isTrackingResource
+isThirdPartyTrackingResource
 }
 ;
 this

@@ -181,7 +181,7 @@ cause
 startedDateTime
 fromCache
 fromServiceWorker
-isTrackingResource
+isThirdPartyTrackingResource
 }
 =
 data
@@ -228,7 +228,7 @@ cause
 stacktrace
 fromCache
 fromServiceWorker
-isTrackingResource
+isThirdPartyTrackingResource
 }
 true
 )
@@ -1040,7 +1040,7 @@ method
 url
 }
 startedDateTime
-isTrackingResource
+isThirdPartyTrackingResource
 }
 =
 networkInfo
@@ -1059,7 +1059,7 @@ isXHR
 method
 startedDateTime
 url
-isTrackingResource
+isThirdPartyTrackingResource
 }
 )
 ;

@@ -505,7 +505,7 @@ formDataSections
 stacktrace
 "
 "
-isTrackingResource
+isThirdPartyTrackingResource
 "
 ]
 ;
