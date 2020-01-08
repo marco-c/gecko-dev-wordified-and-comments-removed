@@ -1315,7 +1315,7 @@ run
 '
 -
 -
-gecko
+vcs
 -
 checkout
 '
@@ -1325,6 +1325,32 @@ env
 GECKO_PATH
 '
 ]
+        
+'
+-
+-
+tools
+-
+checkout
+'
+'
+{
+workdir
+}
+/
+workspace
+/
+build
+/
+tools
+'
+.
+format
+(
+*
+*
+run
+)
     
 ]
     

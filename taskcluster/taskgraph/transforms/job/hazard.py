@@ -334,7 +334,7 @@ run
 '
 -
 -
-gecko
+vcs
 -
 checkout
 '

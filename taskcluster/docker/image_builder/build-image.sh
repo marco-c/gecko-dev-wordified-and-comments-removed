@@ -358,7 +358,7 @@ task
 \
 -
 -
-gecko
+vcs
 -
 checkout
 "
@@ -373,8 +373,6 @@ gecko
 "
 \
 -
--
-gecko
 -
 sparse
 -

@@ -1086,7 +1086,7 @@ extend
 '
 -
 -
-gecko
+vcs
 -
 checkout
 '

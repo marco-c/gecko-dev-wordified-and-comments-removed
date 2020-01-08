@@ -761,8 +761,6 @@ sparse_profile
 '
 -
 -
-gecko
--
 sparse
 -
 profile
@@ -822,7 +820,7 @@ run
 '
 -
 -
-gecko
+vcs
 -
 checkout
 =
