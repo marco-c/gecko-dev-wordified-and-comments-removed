@@ -301,14 +301,6 @@ sh
 runme
 .
 sh
-COPY
-recompress
-.
-sh
-/
-recompress
-.
-sh
 RUN
 chmod
 755
