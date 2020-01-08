@@ -1226,6 +1226,14 @@ mozilla
 -
 central
 '
+'
+mozilla
+-
+inbound
+'
+'
+autoland
+'
 ]
 max
 -
@@ -1233,7 +1241,7 @@ run
 -
 time
 :
-1800
+1200
 mozharness
 :
 extra
