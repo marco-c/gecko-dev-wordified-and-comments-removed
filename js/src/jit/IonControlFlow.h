@@ -3146,7 +3146,7 @@ state
 )
 ;
 ControlStatus
-processWhileOrForInLoop
+processWhileOrForInOrForOfLoop
 (
 jssrcnote
 *
