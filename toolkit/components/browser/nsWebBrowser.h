@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsITextScroll
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -300,8 +293,6 @@ nsIBaseWindow
 public
 nsIScrollable
 public
-nsITextScroll
-public
 nsIInterfaceRequestor
 public
 nsIWebBrowserPersist
@@ -394,7 +385,6 @@ NS_DECL_NSIBASEWINDOW
 NS_DECL_NSIDOCSHELLTREEITEM
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSISCROLLABLE
-NS_DECL_NSITEXTSCROLL
 NS_DECL_NSIWEBBROWSER
 NS_DECL_NSIWEBNAVIGATION
 NS_DECL_NSIWEBBROWSERSETUP
@@ -522,12 +512,6 @@ nsCOMPtr
 nsIScrollable
 >
 mDocShellAsScrollable
-;
-nsCOMPtr
-<
-nsITextScroll
->
-mDocShellAsTextScroll
 ;
 mozilla
 :
