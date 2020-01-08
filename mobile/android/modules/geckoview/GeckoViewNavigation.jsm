@@ -782,6 +782,7 @@ eventDispatcher
 aUri
 aWhere
 aFlags
+aTriggeringPrincipal
 )
 )
 {
@@ -894,6 +895,9 @@ eventDispatcher
 aUri
 aWhere
 aFlags
+aParams
+.
+triggeringPrincipal
 )
 )
 {
@@ -994,6 +998,7 @@ eventDispatcher
 aUri
 aWhere
 aFlags
+aTriggeringPrincipal
 )
 )
 {
@@ -1139,7 +1144,9 @@ aUri
 null
 aWhere
 aFlags
-null
+aParams
+.
+triggeringPrincipal
 aNextTabParentId
 )
 ;
