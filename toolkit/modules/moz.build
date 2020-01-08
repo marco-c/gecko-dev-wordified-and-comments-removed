@@ -1727,6 +1727,16 @@ WebChannelContent
 jsm
 '
 '
+WebNavigationChild
+.
+jsm
+'
+'
+WebProgressChild
+.
+jsm
+'
+'
 WindowDraggingUtils
 .
 jsm
