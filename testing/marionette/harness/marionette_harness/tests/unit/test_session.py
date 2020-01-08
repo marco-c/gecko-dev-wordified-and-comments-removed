@@ -212,7 +212,9 @@ marionette
 _send_message
 (
 "
-newSession
+WebDriver
+:
+NewSession
 "
 {
 }

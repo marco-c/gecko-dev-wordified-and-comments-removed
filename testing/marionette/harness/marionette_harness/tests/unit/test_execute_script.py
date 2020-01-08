@@ -2207,7 +2207,9 @@ _send_message
 (
                 
 "
-executeScript
+WebDriver
+:
+ExecuteScript
 "
 {
 "
@@ -2820,7 +2822,9 @@ marionette
 _send_message
 (
 "
-executeScript
+WebDriver
+:
+ExecuteScript
 "
 {
 "
