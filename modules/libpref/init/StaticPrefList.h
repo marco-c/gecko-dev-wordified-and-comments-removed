@@ -3268,6 +3268,17 @@ uint32_t
 VARCACHE_PREF
 (
 "
+privacy
+.
+resistFingerprinting
+"
+privacy_resistFingerprinting
+RelaxedAtomicBool
+false
+)
+VARCACHE_PREF
+(
+"
 security
 .
 csp

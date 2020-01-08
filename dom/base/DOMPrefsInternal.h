@@ -1,14 +1,5 @@
 DOM_PREF
 (
-ResistFingerprintingEnabled
-"
-privacy
-.
-resistFingerprinting
-"
-)
-DOM_PREF
-(
 EnableAutoDeclineCanvasPrompts
 "
 privacy

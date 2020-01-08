@@ -9945,16 +9945,6 @@ pref
 privacy
 .
 resistFingerprinting
-"
-false
-)
-;
-pref
-(
-"
-privacy
-.
-resistFingerprinting
 .
 autoDeclineNoUserInputCanvasPrompts
 "
