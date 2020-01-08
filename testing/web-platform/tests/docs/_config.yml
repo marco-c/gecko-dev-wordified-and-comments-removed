@@ -219,6 +219,11 @@ example
 com
 collections
 :
+admin
+:
+output
+:
+true
 appendix
 :
 output
