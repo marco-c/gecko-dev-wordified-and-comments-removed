@@ -142,7 +142,7 @@ ArrayBuffer
 or
 NFCMessage
 )
-NFCPushMessage
+NFCMessageSource
 ;
 [
 SecureContext
@@ -156,7 +156,7 @@ void
 >
 push
 (
-NFCPushMessage
+NFCMessageSource
 message
 optional
 NFCPushOptions
@@ -165,7 +165,7 @@ options
 ;
 Promise
 <
-long
+void
 >
 watch
 (
