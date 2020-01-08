@@ -478,6 +478,8 @@ DohEncode
 nsCString
 &
 target
+bool
+aDisableECS
 )
 ;
 nsresult
