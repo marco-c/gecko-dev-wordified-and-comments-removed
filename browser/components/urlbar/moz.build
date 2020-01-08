@@ -93,6 +93,11 @@ UrlbarMatch
 jsm
 '
 '
+UrlbarMuxerUnifiedComplete
+.
+jsm
+'
+'
 UrlbarPrefs
 .
 jsm
