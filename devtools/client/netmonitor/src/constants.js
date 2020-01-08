@@ -386,6 +386,13 @@ NetMonitor
 :
 PayloadReady
 "
+THROTTLING_CHANGED
+:
+"
+NetMonitor
+:
+ThrottlingChanged
+"
 }
 ;
 const
