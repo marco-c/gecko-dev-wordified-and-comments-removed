@@ -9549,7 +9549,7 @@ highFrequencyHeapGrowthMax
 (
 )
 ;
-float
+size_t
 lowLimit
 =
 tunables
@@ -9558,7 +9558,7 @@ highFrequencyLowLimitBytes
 (
 )
 ;
-float
+size_t
 highLimit
 =
 tunables
