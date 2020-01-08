@@ -24493,7 +24493,9 @@ canHavePageBreak
 &
 display
 .
-mBreakBefore
+BreakBefore
+(
+)
 )
 {
 AddPageBreakItem
@@ -24689,7 +24691,9 @@ canHavePageBreak
 &
 display
 .
-mBreakAfter
+BreakAfter
+(
+)
 )
 {
 AddPageBreakItem

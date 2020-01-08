@@ -326,6 +326,10 @@ BorderImageRepeat
 "
     
 "
+BreakBetween
+"
+    
+"
 Clear
 "
     

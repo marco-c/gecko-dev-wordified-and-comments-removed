@@ -1114,7 +1114,9 @@ if
 display
 -
 >
-mBreakAfter
+BreakAfter
+(
+)
 |
 |
 (
@@ -1180,7 +1182,9 @@ if
 display
 -
 >
-mBreakBefore
+BreakBefore
+(
+)
 |
 |
 (

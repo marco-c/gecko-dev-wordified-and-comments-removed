@@ -25,3 +25,11 @@ X11None
 endif
 #
 endif
+#
+ifdef
+Always
+#
+undef
+Always
+#
+endif

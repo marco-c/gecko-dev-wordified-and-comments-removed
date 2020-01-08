@@ -2130,6 +2130,10 @@ Appearance
 "
                 
 "
+BreakBetween
+"
+                
+"
 BackgroundRepeat
 "
                 

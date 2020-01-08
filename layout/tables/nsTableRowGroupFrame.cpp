@@ -8281,7 +8281,9 @@ StyleDisplay
 )
 -
 >
-mBreakBefore
+BreakBefore
+(
+)
 ;
 }
 bool
@@ -8320,7 +8322,9 @@ StyleDisplay
 )
 -
 >
-mBreakAfter
+BreakAfter
+(
+)
 ;
 }
 nsTableRowGroupFrame
