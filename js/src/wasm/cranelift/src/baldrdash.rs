@@ -1159,6 +1159,10 @@ self
 .
 env
 sig_index
+.
+index
+(
+)
 )
 }
 )
@@ -1190,6 +1194,10 @@ self
 .
 env
 table_index
+.
+index
+(
+)
 )
 }
 )
@@ -1221,6 +1229,10 @@ self
 .
 env
 global_index
+.
+index
+(
+)
 )
 }
 )
