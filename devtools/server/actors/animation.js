@@ -286,6 +286,14 @@ createdTime
 =
 createdTime
 ;
+this
+.
+currentTimeAtCreated
+=
+player
+.
+currentTime
+;
 }
 destroy
 :
@@ -1232,6 +1240,11 @@ createdTime
 this
 .
 createdTime
+currentTimeAtCreated
+:
+this
+.
+currentTimeAtCreated
 }
 ;
 }
