@@ -3,8 +3,6 @@ os
 import
 shutil
 import
-subprocess
-import
 unittest
 import
 mozharness

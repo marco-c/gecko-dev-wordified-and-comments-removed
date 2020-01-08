@@ -39,6 +39,7 @@ PYWIN32
 True
     
 except
+ImportError
 :
         
 pass

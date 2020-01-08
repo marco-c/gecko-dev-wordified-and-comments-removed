@@ -13,14 +13,6 @@ mozharness
 .
 base
 .
-errors
-as
-errors
-import
-mozharness
-.
-base
-.
 vcs
 .
 mercurial
@@ -77,6 +69,7 @@ dirname
 (
 __file__
 )
+                                                      
 '
 helper_files
 '
@@ -238,13 +231,8 @@ retval
 [
 ]
     
-for
-rev
-in
-m
-.
-get_output_from_command
-(
+command
+=
 HG
 +
 [
@@ -269,6 +257,15 @@ node
 n
 '
 ]
+    
+for
+rev
+in
+m
+.
+get_output_from_command
+(
+command
 )
 .
 split
@@ -508,6 +505,7 @@ self
 .
 assertEquals
 (
+                
 m
 .
 _make_absolute
@@ -522,6 +520,7 @@ foo
 bar
 "
 )
+                
 "
 file
 :
@@ -2952,6 +2951,8 @@ https
         
 expected_url
 =
+(
+            
 "
 https
 :
@@ -2971,6 +2972,9 @@ raw
 -
 file
 /
+"
+            
+"
 FIREFOX_3_6_12_RELEASE
 /
 lib
@@ -2983,6 +2987,8 @@ hg
 .
 py
 "
+        
+)
         
 self
 .

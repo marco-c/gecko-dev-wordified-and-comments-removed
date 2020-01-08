@@ -201,6 +201,12 @@ scripts
 -
 testing
 /
+mozharness
+/
+test
+-
+testing
+/
 raptor
 -
 testing
