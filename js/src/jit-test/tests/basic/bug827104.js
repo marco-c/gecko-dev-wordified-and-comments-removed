@@ -70,6 +70,7 @@ e
 toString
 (
 )
+'
 TypeError
 :
 a
@@ -78,14 +79,6 @@ i
 ]
 is
 undefined
-;
-can
 '
-t
-access
-element
-at
-index
-0
 )
 ;
