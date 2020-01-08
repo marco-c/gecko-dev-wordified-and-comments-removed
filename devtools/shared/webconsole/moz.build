@@ -148,13 +148,6 @@ helper
 js
 '
 '
-network
--
-monitor
-.
-js
-'
-'
 screenshot
 -
 helper

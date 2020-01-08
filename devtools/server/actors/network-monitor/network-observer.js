@@ -2011,7 +2011,7 @@ offset
 }
 ;
 function
-NetworkMonitor
+NetworkObserver
 (
 filters
 owner
@@ -2111,11 +2111,11 @@ null
 }
 exports
 .
-NetworkMonitor
+NetworkObserver
 =
-NetworkMonitor
+NetworkObserver
 ;
-NetworkMonitor
+NetworkObserver
 .
 prototype
 =

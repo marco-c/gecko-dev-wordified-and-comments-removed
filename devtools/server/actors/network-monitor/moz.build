@@ -97,6 +97,13 @@ sink
 js
 '
 '
+network
+-
+observer
+.
+js
+'
+'
 stack
 -
 trace
