@@ -606,9 +606,9 @@ IDTracker
 :
 ResetWithID
 (
-nsIContent
-*
-aFromContent
+Element
+&
+aFrom
 nsAtom
 *
 aID
@@ -616,11 +616,6 @@ bool
 aWatch
 )
 {
-MOZ_ASSERT
-(
-aFromContent
-)
-;
 MOZ_ASSERT
 (
 aID
@@ -657,8 +652,7 @@ docOrShadow
 =
 DocOrShadowFromContent
 (
-*
-aFromContent
+aFrom
 )
 ;
 HaveNewDocumentOrShadowRoot

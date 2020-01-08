@@ -770,7 +770,8 @@ mTimedElement
 .
 BindToTree
 (
-aParent
+*
+this
 )
 ;
 }
@@ -940,6 +941,7 @@ SetAttr
 aAttribute
 aValue
 aResult
+*
 this
 &
 rv

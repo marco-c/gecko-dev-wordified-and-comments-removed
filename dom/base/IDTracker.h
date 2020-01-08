@@ -128,8 +128,8 @@ false
 void
 ResetWithID
 (
-nsIContent
-*
+Element
+&
 aFrom
 nsAtom
 *
