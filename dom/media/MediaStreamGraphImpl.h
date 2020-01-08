@@ -803,6 +803,11 @@ DeviceChanged
 (
 )
 ;
+void
+DeviceChangedImpl
+(
+)
+;
 StreamTime
 GetDesiredBufferEnd
 (
