@@ -3,7 +3,15 @@ import
 '
 .
 /
-empty_FIXTURE
+default
+-
+property
+-
+not
+-
+set
+-
+own
 .
 js
 '
