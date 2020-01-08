@@ -10,7 +10,9 @@ import
 assert_error
 assert_success
 from
-conftest
+tests
+.
+support
 import
 platform_name
 pytest
@@ -20,8 +22,6 @@ mark
 skipif
 (
 platform_name
-(
-)
 is
 None
 reason
@@ -29,7 +29,14 @@ reason
 "
 Unsupported
 platform
+{
+}
 "
+.
+format
+(
+platform_name
+)
 )
 pytest
 .
@@ -81,7 +88,6 @@ test_platform_name
 (
 new_session
 add_browser_capabilities
-platform_name
 body
 )
 :
@@ -355,8 +361,6 @@ mark
 skipif
 (
 platform_name
-(
-)
 is
 None
 reason
@@ -364,14 +368,20 @@ reason
 "
 Unsupported
 platform
+{
+}
 "
+.
+format
+(
+platform_name
+)
 )
 def
 test_merge_platformName
 (
 new_session
 add_browser_capabilities
-platform_name
 )
 :
     
