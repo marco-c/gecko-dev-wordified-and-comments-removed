@@ -294,6 +294,14 @@ nullptr
 |
 |
 gShuttingDown
+|
+|
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 {
 return
