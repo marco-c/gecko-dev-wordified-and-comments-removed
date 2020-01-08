@@ -3597,6 +3597,14 @@ aShell
 )
 ;
 nsresult
+RefereshEditingUI
+(
+Selection
+&
+aSelection
+)
+;
+nsresult
 ShowResizersInner
 (
 Element
