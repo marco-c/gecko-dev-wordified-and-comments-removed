@@ -61,6 +61,11 @@ uri
 target
 =
 _blank
+rel
+=
+"
+opener
+"
 >
 Link
 <
