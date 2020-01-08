@@ -2763,6 +2763,13 @@ updateMetaData
 (
 download
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 if
