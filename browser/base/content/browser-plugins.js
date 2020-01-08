@@ -2264,7 +2264,7 @@ chrome
 :
 /
 /
-mozapps
+global
 /
 skin
 /
