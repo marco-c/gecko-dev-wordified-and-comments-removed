@@ -264,6 +264,10 @@ rust
 linux64
 -
 sccache
+-
+linux64
+-
+node
 linux64
 -
 st
@@ -396,6 +400,10 @@ rust
 linux64
 -
 sccache
+-
+linux64
+-
+node
 win32
 -
 st
@@ -575,6 +583,10 @@ rust
 win64
 -
 sccache
+-
+win64
+-
+node
 win32
 -
 st
@@ -754,6 +766,10 @@ rust
 win64
 -
 sccache
+-
+win64
+-
+node
 win64
 -
 st
@@ -933,6 +949,10 @@ rust
 win64
 -
 sccache
+-
+win64
+-
+node
 win64
 -
 st
@@ -1112,3 +1132,7 @@ rust
 win64
 -
 sccache
+-
+win64
+-
+node

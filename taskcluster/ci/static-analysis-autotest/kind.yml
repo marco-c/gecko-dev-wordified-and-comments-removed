@@ -284,6 +284,10 @@ rust
 linux64
 -
 sccache
+-
+linux64
+-
+node
 win64
 -
 st
@@ -422,3 +426,7 @@ win64
 clang
 -
 tidy
+-
+win64
+-
+node

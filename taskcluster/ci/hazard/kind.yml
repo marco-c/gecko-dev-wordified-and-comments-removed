@@ -294,6 +294,10 @@ sixgill
 linux64
 -
 rust
+-
+linux64
+-
+node
 linux64
 -
 haz
@@ -408,3 +412,7 @@ sixgill
 linux64
 -
 rust
+-
+linux64
+-
+node

@@ -197,6 +197,10 @@ size
 linux64
 -
 sccache
+-
+linux64
+-
+node
 macosx64
 /
 opt
@@ -385,6 +389,10 @@ size
 linux64
 -
 sccache
+-
+linux64
+-
+node
 macosx64
 -
 asan
@@ -593,6 +601,10 @@ size
 linux64
 -
 sccache
+-
+linux64
+-
+node
 macosx64
 -
 dmd
@@ -800,6 +812,10 @@ size
 linux64
 -
 sccache
+-
+linux64
+-
+node
 macosx64
 -
 devedition
@@ -1036,6 +1052,10 @@ size
 linux64
 -
 sccache
+-
+linux64
+-
+node
 macosx64
 -
 noopt
@@ -1254,6 +1274,10 @@ size
 linux64
 -
 sccache
+-
+linux64
+-
+node
 macosx64
 -
 add
@@ -1487,6 +1511,10 @@ size
 linux64
 -
 sccache
+-
+linux64
+-
+node
 macosx64
 -
 nightly
@@ -1913,3 +1941,7 @@ size
 linux64
 -
 sccache
+-
+linux64
+-
+node
