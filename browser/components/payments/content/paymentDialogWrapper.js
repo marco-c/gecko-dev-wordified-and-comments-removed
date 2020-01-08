@@ -1102,17 +1102,6 @@ paymentRequest
 .
 xhtml
 "
-{
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-}
 )
 ;
 this

@@ -481,15 +481,6 @@ some
 %
 20text
 "
-{
-triggeringPrincipal
-:
-window
-.
-document
-.
-nodePrincipal
-}
 )
 ;
 await
