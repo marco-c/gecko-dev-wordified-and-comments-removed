@@ -19,6 +19,7 @@ import
 LoadConfig
 SyncFromUpstream
 UpdateMetadata
+RemoveObsolete
 from
 wptrunner
 .
@@ -222,6 +223,8 @@ LoadTrees
 SyncToUpstream
              
 SyncFromUpstream
+             
+RemoveObsolete
              
 UpdateMetadata
 ]
