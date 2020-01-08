@@ -1397,7 +1397,7 @@ nsLayoutUtils
 MIN_ISIZE
 )
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 this
 iSize
@@ -1479,7 +1479,7 @@ aRenderingContext
 nscoord
 maxISize
 ;
-DISPLAY_PREF_WIDTH
+DISPLAY_PREF_INLINE_SIZE
 (
 this
 maxISize

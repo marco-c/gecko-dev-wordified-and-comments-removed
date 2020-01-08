@@ -3436,7 +3436,7 @@ result
 =
 0
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 this
 result
@@ -3487,7 +3487,7 @@ result
 =
 0
 ;
-DISPLAY_PREF_WIDTH
+DISPLAY_PREF_INLINE_SIZE
 (
 this
 result

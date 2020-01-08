@@ -1974,7 +1974,7 @@ aRenderingContext
 nscoord
 result
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 this
 result

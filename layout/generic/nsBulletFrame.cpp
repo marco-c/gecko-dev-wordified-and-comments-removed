@@ -5644,7 +5644,7 @@ reflowOutput
 wm
 )
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 this
 reflowOutput
@@ -5723,7 +5723,7 @@ metrics
 wm
 )
 ;
-DISPLAY_PREF_WIDTH
+DISPLAY_PREF_INLINE_SIZE
 (
 this
 metrics
