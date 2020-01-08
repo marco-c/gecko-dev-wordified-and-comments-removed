@@ -54513,16 +54513,6 @@ openerInner
 nullptr
 nullptr
 )
-|
-|
-!
-nsContentUtils
-:
-:
-IsTrackingResourceWindow
-(
-openerInner
-)
 )
 {
 return
