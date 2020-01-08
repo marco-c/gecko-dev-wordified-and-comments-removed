@@ -77,7 +77,7 @@ namespace
 mozilla
 {
 class
-MediaStream
+AudioNodeStream
 ;
 namespace
 dom
@@ -136,7 +136,7 @@ aCurveLength
 explicit
 AudioTimelineEvent
 (
-MediaStream
+AudioNodeStream
 *
 aStream
 )
@@ -249,7 +249,7 @@ mCurve
 ;
 RefPtr
 <
-MediaStream
+AudioNodeStream
 >
 mStream
 ;
