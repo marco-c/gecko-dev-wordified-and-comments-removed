@@ -104,8 +104,7 @@ Call
 (
 jobject
 jmethodID
-jvalue
-*
+JVALUE_PTR
 )
 MOZ_JNICALL_ABI
 ;
@@ -129,8 +128,7 @@ StaticCall
 (
 jclass
 jmethodID
-jvalue
-*
+JVALUE_PTR
 )
 MOZ_JNICALL_ABI
 ;
