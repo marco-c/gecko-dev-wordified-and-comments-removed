@@ -7265,6 +7265,10 @@ keyword
 =
 this
 .
+_strippedPrefix
++
+this
+.
 _searchTokens
 [
 0
