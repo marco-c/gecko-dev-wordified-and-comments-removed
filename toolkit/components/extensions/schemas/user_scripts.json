@@ -84,7 +84,7 @@ properties
 :
 {
 "
-userScripts
+user_scripts
 "
 :
 {
@@ -106,7 +106,7 @@ properties
 :
 {
 "
-apiScript
+api_script
 "
 :
 {

@@ -229,10 +229,10 @@ file_sample
 html
 "
 ]
-userScripts
+user_scripts
 :
 {
-apiScript
+api_script
 :
 "
 api
