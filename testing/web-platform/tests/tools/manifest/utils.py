@@ -28,6 +28,7 @@ isabs
 (
 rel_path
 )
+rel_path
     
 if
 url_base

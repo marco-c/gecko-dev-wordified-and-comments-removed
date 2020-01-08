@@ -1181,6 +1181,18 @@ None
 "
 "
         
+assert
+not
+os
+.
+path
+.
+isabs
+(
+rel_path
+)
+rel_path
+        
 self
 .
 tests_root
