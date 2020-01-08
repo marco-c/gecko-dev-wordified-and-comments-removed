@@ -64,6 +64,15 @@ GetSingleton
 (
 )
 ;
+static
+void
+GetGPUProcessName
+(
+nsACString
+&
+aStr
+)
+;
 bool
 Init
 (
