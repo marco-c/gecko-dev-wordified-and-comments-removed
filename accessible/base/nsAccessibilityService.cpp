@@ -409,6 +409,17 @@ include
 "
 mozilla
 /
+dom
+/
+HTMLTableElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
