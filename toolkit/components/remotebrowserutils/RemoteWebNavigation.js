@@ -415,6 +415,11 @@ if
 (
 !
 principal
+|
+|
+principal
+.
+isSystemPrincipal
 )
 {
 let
