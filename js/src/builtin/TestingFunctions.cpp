@@ -238,6 +238,15 @@ include
 "
 js
 /
+AutoByteString
+.
+h
+"
+#
+include
+"
+js
+/
 Debug
 .
 h

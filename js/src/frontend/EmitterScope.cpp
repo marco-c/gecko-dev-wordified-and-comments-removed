@@ -25,6 +25,15 @@ TDZCheckCache
 .
 h
 "
+#
+include
+"
+js
+/
+AutoByteString
+.
+h
+"
 using
 namespace
 js

@@ -17,6 +17,15 @@ h
 #
 include
 "
+js
+/
+AutoByteString
+.
+h
+"
+#
+include
+"
 vm
 /
 Interpreter

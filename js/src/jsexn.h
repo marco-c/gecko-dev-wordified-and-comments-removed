@@ -36,6 +36,9 @@ JSContext
 .
 h
 "
+class
+JSAutoByteString
+;
 namespace
 js
 {

@@ -37,6 +37,15 @@ include
 "
 js
 /
+AutoByteString
+.
+h
+"
+#
+include
+"
+js
+/
 Class
 .
 h

@@ -55,6 +55,15 @@ h
 #
 include
 "
+js
+/
+AutoByteString
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

@@ -73,6 +73,15 @@ include
 "
 js
 /
+AutoByteString
+.
+h
+"
+#
+include
+"
+js
+/
 Vector
 .
 h

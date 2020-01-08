@@ -16,6 +16,15 @@ include
 "
 js
 /
+AutoByteString
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h
