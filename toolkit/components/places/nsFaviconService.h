@@ -117,11 +117,10 @@ static
 uint16_t
 sFaviconSizes
 [
-8
+7
 ]
 =
 {
-256
 192
 144
 96
