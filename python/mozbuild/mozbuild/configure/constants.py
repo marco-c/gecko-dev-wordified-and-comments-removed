@@ -551,3 +551,15 @@ Kernel
 .
 POSSIBLE_VALUES
 )
+OS_preprocessor_checks
+=
+{
+    
+'
+Android
+'
+:
+'
+__ANDROID__
+'
+}
