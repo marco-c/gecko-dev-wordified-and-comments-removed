@@ -134,6 +134,10 @@ PPendingIPCBlob
 ;
 include
 protocol
+PSharedWorker
+;
+include
+protocol
 PTemporaryIPCBlob
 ;
 include
@@ -215,6 +219,9 @@ PFileSystemParams
 ;
 include
 ProtocolTypes
+;
+include
+SharedWorkerTypes
 ;
 include
 MIDITypes
@@ -381,6 +388,9 @@ PIPCBlobInputStream
 ;
 manages
 PPendingIPCBlob
+;
+manages
+PSharedWorker
 ;
 manages
 PTemporaryIPCBlob
@@ -618,6 +628,13 @@ channelId
 async
 PWebAuthnTransaction
 (
+)
+;
+async
+PSharedWorker
+(
+SharedWorkerLoadInfo
+loadInfo
 )
 ;
 async
