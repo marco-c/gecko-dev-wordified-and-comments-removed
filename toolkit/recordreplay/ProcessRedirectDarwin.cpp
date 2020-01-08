@@ -7627,6 +7627,12 @@ C
 "
 {
 size_t
+__attribute__
+(
+(
+used
+)
+)
 RecordReplayInterceptObjCMessage
 (
 MessageArguments
