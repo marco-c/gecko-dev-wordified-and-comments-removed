@@ -372,10 +372,6 @@ libxkbcommon
 -
 deb7
 -
-nasm
--
-deb7
--
 pango
 -
 deb7
@@ -500,10 +496,6 @@ gtk3
 deb7
 -
 harfbuzz
--
-deb7
--
-nasm
 -
 deb7
 -
