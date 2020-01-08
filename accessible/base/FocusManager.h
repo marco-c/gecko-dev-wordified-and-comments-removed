@@ -82,6 +82,13 @@ aAccessible
 mActiveItem
 ;
 }
+nsINode
+*
+FocusedDOMNode
+(
+)
+const
+;
 inline
 bool
 HasDOMFocus
@@ -215,13 +222,6 @@ const
 FocusManager
 &
 )
-;
-nsINode
-*
-FocusedDOMNode
-(
-)
-const
 ;
 nsIDocument
 *

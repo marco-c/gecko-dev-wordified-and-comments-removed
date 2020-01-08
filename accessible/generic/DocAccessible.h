@@ -1441,6 +1441,17 @@ uint32_t
 aEventType
 )
 ;
+void
+ARIAActiveDescendantIDMaybeMoved
+(
+dom
+:
+:
+Element
+*
+aElm
+)
+;
 protected
 :
 enum
