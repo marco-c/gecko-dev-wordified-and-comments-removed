@@ -6645,7 +6645,7 @@ actor
 function
 listWorkers
 (
-tabClient
+targetFront
 )
 {
 info
@@ -6658,7 +6658,7 @@ workers
 )
 ;
 return
-tabClient
+targetFront
 .
 listWorkers
 (
@@ -6721,7 +6721,7 @@ null
 function
 attachWorker
 (
-tabClient
+targetFront
 worker
 )
 {
@@ -6747,7 +6747,7 @@ url
 )
 ;
 return
-tabClient
+targetFront
 .
 attachWorker
 (
@@ -7657,7 +7657,7 @@ client
 ;
 let
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -7686,7 +7686,7 @@ workers
 await
 listWorkers
 (
-tabClient
+targetFront
 )
 ;
 let
@@ -7697,7 +7697,7 @@ workerClient
 await
 attachWorker
 (
-tabClient
+targetFront
 findWorker
 (
 workers
@@ -7749,7 +7749,7 @@ return
 {
 client
 tab
-tabClient
+targetFront
 workerClient
 toolbox
 gDebugger

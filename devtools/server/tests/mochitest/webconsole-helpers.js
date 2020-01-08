@@ -305,7 +305,7 @@ url
 }
 const
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -340,7 +340,7 @@ return
 tab
 :
 attachedTab
-tabClient
+targetFront
 consoleClient
 cleanup
 }

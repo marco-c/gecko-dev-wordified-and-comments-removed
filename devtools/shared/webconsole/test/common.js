@@ -540,7 +540,7 @@ selected
 ;
 const
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -610,7 +610,7 @@ workers
 }
 =
 await
-tabClient
+targetFront
 .
 listWorkers
 (
@@ -677,7 +677,7 @@ workerClient
 ]
 =
 await
-tabClient
+targetFront
 .
 attachWorker
 (

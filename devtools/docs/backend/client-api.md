@@ -568,7 +568,7 @@ then
 (
 [
 response
-tabClient
+targetFront
 ]
 )
 =
@@ -577,7 +577,7 @@ tabClient
 if
 (
 !
-tabClient
+targetFront
 )
 {
 return
@@ -587,7 +587,7 @@ return
 /
 Now
 the
-tabClient
+targetFront
 is
 ready
 and
@@ -603,7 +603,7 @@ for
 client
 events
 .
-tabClient
+targetFront
 .
 addListener
 (
@@ -738,7 +738,7 @@ previous
 tab
 .
 await
-tabClient
+targetFront
 .
 activeTab
 .
@@ -1275,7 +1275,7 @@ then
 (
 [
 response
-tabClient
+targetFront
 ]
 )
 =
@@ -1284,7 +1284,7 @@ tabClient
 if
 (
 !
-tabClient
+targetFront
 )
 {
 return

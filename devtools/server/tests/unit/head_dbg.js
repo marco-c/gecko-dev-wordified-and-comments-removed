@@ -1140,7 +1140,7 @@ url
 function
 attachThread
 (
-tabClient
+targetFront
 options
 =
 {
@@ -1160,7 +1160,7 @@ n
 )
 ;
 return
-tabClient
+targetFront
 .
 attachThread
 (
@@ -1886,7 +1886,7 @@ then
 (
 [
 response
-tabClient
+targetFront
 ]
 )
 =
@@ -1895,7 +1895,7 @@ tabClient
 callback
 (
 response
-tabClient
+targetFront
 )
 ;
 }
@@ -1920,7 +1920,7 @@ title
 function
 (
 tabResponse
-tabClient
+targetFront
 )
 {
 function
@@ -1935,13 +1935,13 @@ threadClient
 callback
 (
 response
-tabClient
+targetFront
 threadClient
 tabResponse
 )
 ;
 }
-tabClient
+targetFront
 .
 attachThread
 (
@@ -1996,7 +1996,7 @@ title
 function
 (
 response
-tabClient
+targetFront
 threadClient
 )
 {
@@ -2012,7 +2012,7 @@ response
 callback
 (
 response
-tabClient
+targetFront
 threadClient
 )
 ;
@@ -2020,7 +2020,7 @@ resolve
 (
 [
 response
-tabClient
+targetFront
 threadClient
 ]
 )
@@ -4043,7 +4043,7 @@ test
 ;
 const
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -4061,7 +4061,7 @@ threadClient
 await
 attachThread
 (
-tabClient
+targetFront
 )
 ;
 await

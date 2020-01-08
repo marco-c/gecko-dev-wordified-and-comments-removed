@@ -140,7 +140,7 @@ actor
 let
 [
 response
-tabClient
+targetFront
 ]
 =
 await
@@ -158,7 +158,7 @@ threadClient
 ]
 =
 await
-tabClient
+targetFront
 .
 attachThread
 (

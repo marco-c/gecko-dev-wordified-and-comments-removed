@@ -129,7 +129,7 @@ test
 ;
 const
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -147,7 +147,7 @@ threadClient
 await
 attachThread
 (
-tabClient
+targetFront
 )
 ;
 await

@@ -69,7 +69,7 @@ symbols
 function
 (
 response
-tabClient
+targetFront
 threadClient
 )
 {

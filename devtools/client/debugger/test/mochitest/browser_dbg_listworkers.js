@@ -100,7 +100,7 @@ client
 ;
 let
 [
-tabClient
+targetFront
 ]
 =
 yield
@@ -122,7 +122,7 @@ workers
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 ;
 is
@@ -168,7 +168,7 @@ WORKER1_URL
 yield
 waitForWorkerListChanged
 (
-tabClient
+targetFront
 )
 ;
 (
@@ -179,7 +179,7 @@ workers
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 )
 ;
@@ -237,7 +237,7 @@ WORKER2_URL
 yield
 waitForWorkerListChanged
 (
-tabClient
+targetFront
 )
 ;
 (
@@ -248,7 +248,7 @@ workers
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 )
 ;
@@ -307,7 +307,7 @@ terminate
 yield
 waitForWorkerListChanged
 (
-tabClient
+targetFront
 )
 ;
 (
@@ -318,7 +318,7 @@ workers
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 )
 ;
@@ -366,7 +366,7 @@ terminate
 yield
 waitForWorkerListChanged
 (
-tabClient
+targetFront
 )
 ;
 (
@@ -377,7 +377,7 @@ workers
 yield
 listWorkers
 (
-tabClient
+targetFront
 )
 )
 ;

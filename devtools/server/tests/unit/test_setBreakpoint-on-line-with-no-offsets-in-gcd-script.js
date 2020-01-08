@@ -172,7 +172,7 @@ test
 ;
 const
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -190,7 +190,7 @@ threadClient
 await
 attachThread
 (
-tabClient
+targetFront
 )
 ;
 await
@@ -283,7 +283,7 @@ function
 {
 reload
 (
-tabClient
+targetFront
 )
 .
 then

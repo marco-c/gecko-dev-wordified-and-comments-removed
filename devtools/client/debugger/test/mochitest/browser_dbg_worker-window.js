@@ -138,7 +138,7 @@ client
 ;
 let
 [
-tabClient
+targetFront
 ]
 =
 await
@@ -155,7 +155,7 @@ TAB_URL
 await
 listWorkers
 (
-tabClient
+targetFront
 )
 ;
 await
@@ -173,7 +173,7 @@ workers
 await
 listWorkers
 (
-tabClient
+targetFront
 )
 ;
 let
@@ -184,7 +184,7 @@ workerClient
 await
 attachWorker
 (
-tabClient
+targetFront
 findWorker
 (
 workers
