@@ -1089,7 +1089,7 @@ SVGObserverUtils
 :
 GetAndObserveFilters
 (
-aFrame
+firstFrame
 nullptr
 )
 =
