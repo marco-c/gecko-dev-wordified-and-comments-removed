@@ -988,7 +988,7 @@ if
 text
 )
 {
-NS_NOTREACHED
+NS_ERROR
 (
 "
 We
