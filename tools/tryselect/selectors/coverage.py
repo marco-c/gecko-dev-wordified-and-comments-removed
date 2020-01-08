@@ -63,6 +63,7 @@ tasks
 import
 generate_tasks
 filter_tasks_by_paths
+resolve_tests_by_suite
 from
 .
 .
@@ -2739,13 +2740,14 @@ path_env
 MOZHARNESS_TEST_PATHS
 '
 :
-'
-:
-'
+json
 .
-join
+dumps
+(
+resolve_tests_by_suite
 (
 test_files
+)
 )
 }
     

@@ -33,6 +33,8 @@ absolute_import
 print_function
 unicode_literals
 import
+json
+import
 os
 import
 sys
@@ -59,6 +61,11 @@ base
 import
 BuildEnvironmentNotFoundException
 MozbuildObject
+from
+.
+tasks
+import
+resolve_tests_by_suite
 here
 =
 os
@@ -460,13 +467,14 @@ env
 MOZHARNESS_TEST_PATHS
 '
 :
-'
-:
-'
+json
 .
-join
+dumps
+(
+resolve_tests_by_suite
 (
 paths
+)
 )
             
 }

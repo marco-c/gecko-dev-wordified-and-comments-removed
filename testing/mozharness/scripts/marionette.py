@@ -1,6 +1,8 @@
 import
 copy
 import
+json
+import
 os
 import
 sys
@@ -2504,7 +2506,12 @@ directory
 "
 )
         
-if
+test_paths
+=
+json
+.
+loads
+(
 os
 .
 environ
@@ -2514,7 +2521,21 @@ get
 '
 MOZHARNESS_TEST_PATHS
 '
+'
+"
+"
+'
 )
+)
+        
+if
+test_paths
+and
+'
+marionette
+'
+in
+test_paths
 :
             
 paths
@@ -2544,21 +2565,12 @@ p
 for
 p
 in
-os
-.
-environ
+test_paths
 [
 '
-MOZHARNESS_TEST_PATHS
+marionette
 '
 ]
-.
-split
-(
-'
-:
-'
-)
 ]
             
 cmd

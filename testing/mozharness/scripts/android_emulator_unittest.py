@@ -3,6 +3,8 @@ copy
 import
 datetime
 import
+json
+import
 os
 import
 re
@@ -1801,6 +1803,10 @@ marionette_test_manifest
         
 user_paths
 =
+json
+.
+loads
+(
 os
 .
 environ
@@ -1810,6 +1816,11 @@ get
 '
 MOZHARNESS_TEST_PATHS
 '
+'
+"
+"
+'
+)
 )
         
 for
@@ -2080,18 +2091,24 @@ if
 user_paths
 :
                 
+if
+self
+.
+test_suite
+in
+user_paths
+:
+                    
 cmd
 .
 extend
 (
 user_paths
+[
+self
 .
-split
-(
-'
-:
-'
-)
+test_suite
+]
 )
             
 elif

@@ -513,6 +513,15 @@ dirname
 key
 )
         
+t
+[
+'
+srcdir_relpath
+'
+]
+=
+key
+        
 self
 .
 tests_by_path

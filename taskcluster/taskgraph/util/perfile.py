@@ -5,6 +5,10 @@ absolute_import
 print_function
 unicode_literals
 import
+itertools
+import
+json
+import
 logging
 import
 math
@@ -359,24 +363,39 @@ set
 (
 )
     
-specified_files
-=
-[
-]
-    
 if
 try_task_config
 :
         
+suite_to_paths
+=
+json
+.
+loads
+(
+try_task_config
+)
+        
 specified_files
 =
-try_task_config
+itertools
 .
-split
+chain
+.
+from_iterable
 (
-"
-:
-"
+suite_to_paths
+.
+values
+(
+)
+)
+        
+changed_files
+.
+update
+(
+specified_files
 )
     
 if
@@ -410,13 +429,6 @@ head_repository
                                                              
 head_rev
 )
-)
-    
-changed_files
-.
-update
-(
-specified_files
 )
     
 test_count

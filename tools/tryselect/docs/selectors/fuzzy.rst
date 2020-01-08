@@ -848,6 +848,15 @@ MOZHARNESS_TEST_PATHS
 "
 :
 "
+{
+\
+"
+reftest
+\
+"
+:
+\
+"
 layout
 /
 reftests
@@ -855,6 +864,9 @@ reftests
 reftest
 -
 sanity
+\
+"
+}
 "
 }
 }
