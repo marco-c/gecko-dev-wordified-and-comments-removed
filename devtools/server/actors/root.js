@@ -288,9 +288,6 @@ traits
 sources
 :
 true
-highlightable
-:
-true
 networkMonitor
 :
 true
