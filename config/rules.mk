@@ -279,8 +279,12 @@ EXEC
 )
 sh
 (
-BUILD_TOOLS
+MOZILLA_DIR
 )
+/
+build
+/
+unix
 /
 print
 -
@@ -925,12 +929,6 @@ endif
 #
 !
 GNU_CC
-EXTRA_DEPS
-+
-=
-(
-DEFFILE
-)
 endif
 #
 WINNT
@@ -3742,7 +3740,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -3765,7 +3763,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -3840,7 +3838,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -3860,7 +3858,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -4124,7 +4122,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -4147,7 +4145,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -4222,7 +4220,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -4242,7 +4240,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -4530,7 +4528,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 (
@@ -5151,7 +5149,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 .
@@ -5171,7 +5169,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 .
@@ -5244,7 +5242,7 @@ Embedding
 manifest
 from
 (
-srcdir
+srcdir_rel
 )
 /
 .
@@ -5261,7 +5259,7 @@ NOLOGO
 MANIFEST
 '
 (
-win_srcdir
+srcdir_rel
 )
 /
 .
