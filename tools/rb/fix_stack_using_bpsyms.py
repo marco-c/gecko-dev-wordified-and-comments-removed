@@ -7,6 +7,8 @@ bisect
 import
 collections
 import
+json
+import
 os
 import
 re
@@ -1218,6 +1220,9 @@ fixSymbols
 (
 line
 symbolsDir
+jsonEscape
+=
+False
 )
 :
     
@@ -1295,6 +1300,25 @@ file
 )
 address
 )
+        
+if
+jsonEscape
+:
+            
+symbol
+=
+json
+.
+dumps
+(
+symbol
+)
+[
+1
+:
+-
+1
+]
         
 return
 before

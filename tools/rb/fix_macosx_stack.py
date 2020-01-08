@@ -1,13 +1,15 @@
 import
-subprocess
-import
-sys
-import
-re
+json
 import
 os
 import
 pty
+import
+re
+import
+subprocess
+import
+sys
 import
 termios
 class
@@ -720,6 +722,9 @@ def
 fixSymbols
 (
 line
+jsonEscape
+=
+False
 )
 :
     
@@ -864,6 +869,25 @@ name
 fileline
 library
 )
+            
+if
+jsonEscape
+:
+                
+info
+=
+json
+.
+dumps
+(
+info
+)
+[
+1
+:
+-
+1
+]
             
 nl
 =
