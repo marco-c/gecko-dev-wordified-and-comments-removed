@@ -4272,7 +4272,7 @@ false
 UniqueChars
 numBytes
 =
-JS_EncodeStringToLatin1
+EncodeAscii
 (
 cx
 str

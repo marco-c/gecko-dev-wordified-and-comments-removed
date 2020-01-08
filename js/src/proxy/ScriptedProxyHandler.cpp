@@ -1029,7 +1029,7 @@ func
 UniqueChars
 bytes
 =
-EncodeLatin1
+EncodeAscii
 (
 cx
 name
@@ -1045,7 +1045,7 @@ return
 false
 ;
 }
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
