@@ -3035,6 +3035,12 @@ IsWin10OrLater
 return
 ;
 }
+const
+uint32_t
+FAMILY_SAFETY_MODE_DEFAULT
+=
+0
+;
 uint32_t
 familySafetyMode
 =
@@ -3044,7 +3050,7 @@ Preferences
 GetUint
 (
 kFamilySafetyModePref
-1
+FAMILY_SAFETY_MODE_DEFAULT
 )
 ;
 if
