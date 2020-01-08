@@ -981,11 +981,6 @@ get
 )
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 nsAutoString
 mimeFileName
 ;
@@ -1008,6 +1003,7 @@ helpers
 global_mime_types_file
 "
 ;
+nsresult
 rv
 =
 GetFileLocation
@@ -1436,11 +1432,6 @@ get
 )
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIFileInputStream
@@ -1467,6 +1458,7 @@ more
 =
 false
 ;
+nsresult
 rv
 =
 CreateInputStream
@@ -2021,14 +2013,10 @@ get
 )
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 nsAutoString
 mimeFileName
 ;
+nsresult
 rv
 =
 GetFileLocation
@@ -2248,11 +2236,6 @@ get
 )
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIFileInputStream
@@ -2279,6 +2262,7 @@ more
 =
 false
 ;
+nsresult
 rv
 =
 CreateInputStream
@@ -3867,11 +3851,6 @@ get
 )
 )
 ;
-nsresult
-rv
-=
-NS_OK
-;
 nsAutoString
 mailcapFileName
 ;
@@ -3909,6 +3888,7 @@ PERSONAL_MAILCAP
 MAILCAP
 "
 ;
+nsresult
 rv
 =
 GetFileLocation
