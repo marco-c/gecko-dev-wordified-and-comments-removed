@@ -1240,6 +1240,13 @@ mVelocity
 velocity
 ;
 }
+else
+{
+mVelocity
+=
+0
+;
+}
 AXIS_LOG
 (
 "
