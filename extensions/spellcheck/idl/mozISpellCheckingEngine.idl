@@ -215,7 +215,7 @@ returns
 *
 /
 attribute
-wstring
+AString
 dictionary
 ;
 /
@@ -273,7 +273,7 @@ boolean
 check
 (
 in
-wstring
+AString
 word
 )
 ;
@@ -296,7 +296,7 @@ void
 suggest
 (
 in
-wstring
+AString
 word
 [
 array

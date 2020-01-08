@@ -198,11 +198,8 @@ boolean
 check
 (
 in
-wstring
+AString
 word
-in
-wstring
-lang
 )
 ;
 /
@@ -222,11 +219,8 @@ void
 addWord
 (
 in
-wstring
+AString
 word
-in
-wstring
-lang
 )
 ;
 /
@@ -246,11 +240,8 @@ void
 removeWord
 (
 in
-wstring
+AString
 word
-in
-wstring
-lang
 )
 ;
 /
@@ -271,7 +262,7 @@ void
 ignoreWord
 (
 in
-wstring
+AString
 word
 )
 ;
