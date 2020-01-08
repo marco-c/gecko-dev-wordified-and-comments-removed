@@ -1131,6 +1131,15 @@ devtools
 /
 shared
 /
+gcli
+/
+source
+/
+*
+devtools
+/
+shared
+/
 node
 -
 properties

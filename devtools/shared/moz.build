@@ -122,6 +122,9 @@ discovery
 fronts
 '
 '
+gcli
+'
+'
 heapsnapshot
 '
 '

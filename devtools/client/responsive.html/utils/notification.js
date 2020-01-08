@@ -49,7 +49,7 @@ showNotification
 window
 tab
 {
-toolboxButton
+command
 msg
 priority
 }
@@ -74,7 +74,7 @@ linkedBrowser
 ;
 if
 (
-toolboxButton
+command
 )
 {
 const

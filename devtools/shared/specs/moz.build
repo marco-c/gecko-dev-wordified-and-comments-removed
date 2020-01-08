@@ -173,6 +173,11 @@ framerate
 js
 '
 '
+gcli
+.
+js
+'
+'
 heap
 -
 snapshot
