@@ -411,12 +411,6 @@ kwargs
 )
 :
     
-if
-version
-.
-is_beta
-:
-        
 app_version
 =
 attr
@@ -427,14 +421,10 @@ version
 beta_number
 =
 None
-)
-    
-else
-:
-        
-app_version
+is_esr
 =
-version
+False
+)
     
 files_to_change
 =
