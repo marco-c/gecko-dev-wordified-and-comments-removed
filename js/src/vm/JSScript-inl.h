@@ -1193,14 +1193,13 @@ selfHosted
 )
 &
 &
-!
 mozilla
 :
 :
 recordreplay
 :
 :
-IsInternalScript
+ShouldUpdateProgressCounter
 (
 filename
 (

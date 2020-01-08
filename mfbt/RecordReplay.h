@@ -704,7 +704,7 @@ NewTimeWarpTarget
 ;
 MFBT_API
 bool
-IsInternalScript
+ShouldUpdateProgressCounter
 (
 const
 char
