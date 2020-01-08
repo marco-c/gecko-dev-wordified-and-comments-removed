@@ -31,13 +31,12 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHTRANSACTION
+explicit
 nsSHTransaction
 (
 nsISHEntry
 *
 aSHEntry
-bool
-aPersist
 )
 ;
 protected
@@ -55,9 +54,6 @@ nsCOMPtr
 nsISHEntry
 >
 mSHEntry
-;
-bool
-mPersist
 ;
 }
 ;
