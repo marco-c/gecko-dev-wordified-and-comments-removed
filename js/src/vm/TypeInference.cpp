@@ -24221,6 +24221,8 @@ regexpZone
 +
 =
 regExps
+(
+)
 .
 sizeOfExcludingThis
 (

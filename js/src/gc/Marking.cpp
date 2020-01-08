@@ -161,15 +161,6 @@ include
 "
 vm
 /
-RegExpObject
-.
-h
-"
-#
-include
-"
-vm
-/
 RegExpShared
 .
 h
