@@ -9135,6 +9135,13 @@ nullptr
 )
 const
 ;
+inline
+bool
+IsColumnSpan
+(
+)
+const
+;
 uint8_t
 VerticalAlignEnum
 (
