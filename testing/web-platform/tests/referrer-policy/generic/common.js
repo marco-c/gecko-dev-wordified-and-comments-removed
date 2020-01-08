@@ -1402,6 +1402,8 @@ queryScript
 (
 url
 callback
+attributes
+referrer_policy
 )
 {
 var
@@ -1421,6 +1423,12 @@ script
 src
 =
 url
+;
+script
+.
+referrerPolicy
+=
+referrer_policy
 ;
 var
 listener
