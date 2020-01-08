@@ -21,6 +21,7 @@ final
 GeckoSession
 session
 ;
+protected
 GeckoDisplay
 (
 final
