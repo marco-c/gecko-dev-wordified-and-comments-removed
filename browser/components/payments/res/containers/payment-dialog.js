@@ -979,6 +979,7 @@ return
 state
 ;
 }
+async
 setStateFromParent
 (
 state

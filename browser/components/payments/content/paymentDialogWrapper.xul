@@ -412,11 +412,11 @@ style
 "
 height
 :
-500px
+100vh
 ;
 width
 :
-600px
+100vw
 "
 transparent
 =
