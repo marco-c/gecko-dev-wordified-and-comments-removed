@@ -44,6 +44,8 @@ race
 call
 (
 SubPromise
+[
+]
 )
 ;
 assert

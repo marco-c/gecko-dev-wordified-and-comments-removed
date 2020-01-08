@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+function
+fn
+(
+)
+{
+new
+import
+(
+'
+'
+)
+;
+}

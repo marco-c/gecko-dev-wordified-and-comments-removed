@@ -90,7 +90,7 @@ probeBefore
 3
 '
 reference
-preceeding
+preceding
 statement
 '
 )

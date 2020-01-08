@@ -118,7 +118,7 @@ inside
 from
 default
 clause
-preceeding
+preceding
 case
 clause
 '

@@ -1,14 +1,5 @@
-throw
-"
-Test262
-:
-This
-statement
-should
-not
-be
-evaluated
-.
-"
+DONOTEVALUATE
+(
+)
 ;
 0b0__0

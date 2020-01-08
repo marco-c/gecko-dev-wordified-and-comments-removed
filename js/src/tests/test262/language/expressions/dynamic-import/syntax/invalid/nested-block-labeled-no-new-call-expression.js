@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+label
+:
+{
+new
+import
+(
+'
+'
+)
+;
+}
+;

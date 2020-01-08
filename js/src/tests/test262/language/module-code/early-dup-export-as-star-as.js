@@ -1,15 +1,6 @@
-throw
-"
-Test262
-:
-This
-statement
-should
-not
-be
-evaluated
-.
-"
+DONOTEVALUATE
+(
+)
 ;
 var
 x
@@ -26,7 +17,9 @@ export
 as
 z
 from
-"
+'
+.
+/
 early
 -
 dup
@@ -40,5 +33,5 @@ star
 as
 .
 js
-"
+'
 ;

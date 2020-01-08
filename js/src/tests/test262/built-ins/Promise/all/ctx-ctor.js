@@ -44,6 +44,8 @@ all
 call
 (
 SubPromise
+[
+]
 )
 ;
 assert

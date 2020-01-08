@@ -1,0 +1,15 @@
+'
+use
+strict
+'
+;
+DONOTEVALUATE
+(
+)
+;
+var
+eval
+=
+42
+a
+;

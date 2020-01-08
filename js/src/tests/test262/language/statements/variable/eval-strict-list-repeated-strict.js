@@ -1,0 +1,13 @@
+'
+use
+strict
+'
+;
+DONOTEVALUATE
+(
+)
+;
+var
+eval
+eval
+;
