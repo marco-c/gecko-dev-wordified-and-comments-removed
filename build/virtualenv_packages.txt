@@ -300,6 +300,15 @@ third_party
 /
 python
 /
+scandir
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 slugid
 mozilla
 .
