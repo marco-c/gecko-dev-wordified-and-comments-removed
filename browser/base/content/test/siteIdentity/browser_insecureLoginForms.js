@@ -78,6 +78,17 @@ enabled
 "
 true
 ]
+[
+"
+network
+.
+proxy
+.
+no_proxies_on
+"
+"
+"
+]
 ]
 }
 )
