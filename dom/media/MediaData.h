@@ -2202,7 +2202,6 @@ mTarget
 ;
 class
 MediaRawData
-final
 :
 public
 MediaData
@@ -2373,6 +2372,7 @@ TrackInfoSharedPtr
 >
 mTrackInfo
 ;
+virtual
 already_AddRefed
 <
 MediaRawData
@@ -2382,6 +2382,7 @@ Clone
 )
 const
 ;
+virtual
 UniquePtr
 <
 MediaRawDataWriter
@@ -2390,6 +2391,7 @@ CreateWriter
 (
 )
 ;
+virtual
 size_t
 SizeOfIncludingThis
 (
