@@ -1199,9 +1199,11 @@ true
 ;
 }
 virtual
-void
+bool
 Sync
 (
+bool
+aBlocking
 )
 override
 ;
