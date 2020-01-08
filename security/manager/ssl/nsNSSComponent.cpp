@@ -9179,9 +9179,6 @@ enabled
 true
 )
 ;
-#
-ifdef
-XP_WIN
 nsCOMPtr
 <
 nsINSSComponent
@@ -9221,8 +9218,6 @@ TrustLoaded3rdPartyRoots
 )
 )
 ;
-#
-endif
 if
 (
 SSL_ConfigServerSessionIDCache
