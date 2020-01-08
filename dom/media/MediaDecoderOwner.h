@@ -34,6 +34,13 @@ nsSize
 .
 h
 "
+#
+include
+"
+TrackID
+.
+h
+"
 class
 nsIDocument
 ;

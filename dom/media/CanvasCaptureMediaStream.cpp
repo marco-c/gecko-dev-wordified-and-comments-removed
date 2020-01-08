@@ -989,7 +989,6 @@ aCanvas
 DOMMediaStream
 (
 aWindow
-nullptr
 )
 mCanvas
 (

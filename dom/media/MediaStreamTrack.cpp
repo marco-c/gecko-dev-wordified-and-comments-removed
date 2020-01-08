@@ -2071,7 +2071,6 @@ mOwningStream
 GetParentObject
 (
 )
-nullptr
 )
 ;
 MediaStreamGraph
