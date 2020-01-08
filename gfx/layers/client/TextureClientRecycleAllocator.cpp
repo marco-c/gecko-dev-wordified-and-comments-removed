@@ -427,7 +427,7 @@ mYUVColorSpace
 bufferData
 -
 >
-GetBitDepth
+GetColorDepth
 (
 )
 .
@@ -439,7 +439,7 @@ isNothing
 bufferData
 -
 >
-GetBitDepth
+GetColorDepth
 (
 )
 .
@@ -450,7 +450,7 @@ ref
 =
 mData
 .
-mBitDepth
+mColorDepth
 |
 |
 bufferData
@@ -528,10 +528,10 @@ mData
 mStereoMode
 mData
 .
-mYUVColorSpace
+mColorDepth
 mData
 .
-mBitDepth
+mYUVColorSpace
 mTextureFlags
 )
 ;

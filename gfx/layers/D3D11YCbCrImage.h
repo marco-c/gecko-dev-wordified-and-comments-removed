@@ -293,8 +293,11 @@ gfx
 IntRect
 mPictureRect
 ;
-uint32_t
-mBitDepth
+gfx
+:
+:
+ColorDepth
+mColorDepth
 ;
 YUVColorSpace
 mColorSpace

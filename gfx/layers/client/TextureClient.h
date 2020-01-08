@@ -1200,10 +1200,13 @@ uint32_t
 aCbCrStride
 StereoMode
 aStereoMode
+gfx
+:
+:
+ColorDepth
+aColorDepth
 YUVColorSpace
 aYUVColorSpace
-uint32_t
-aBitDepth
 TextureFlags
 aTextureFlags
 )

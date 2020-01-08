@@ -570,11 +570,11 @@ mStereoMode
 data
 -
 >
-mYUVColorSpace
+mColorDepth
 data
 -
 >
-mBitDepth
+mYUVColorSpace
 TextureFlags
 :
 :

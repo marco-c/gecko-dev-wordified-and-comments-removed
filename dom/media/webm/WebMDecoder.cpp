@@ -367,9 +367,15 @@ GetAsVideoInfo
 )
 -
 >
-mBitDepth
+mColorDepth
 =
+gfx
+:
+:
+ColorDepthForBitDepth
+(
 bitDepth
+)
 ;
 }
 tracks

@@ -195,7 +195,7 @@ uint8_t
 COLOR_8
 COLOR_10
 COLOR_12
-MAX
+UNKNOWN
 }
 ;
 enum

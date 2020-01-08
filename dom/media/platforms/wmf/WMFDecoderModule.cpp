@@ -884,12 +884,12 @@ videoInfo
 &
 &
 !
-SupportsBitDepth
+SupportsColorDepth
 (
 videoInfo
 -
 >
-mBitDepth
+mColorDepth
 aDiagnostics
 )
 )

@@ -4156,12 +4156,12 @@ ps2
 mDevice
 -
 >
-GetBufferForBitDepthCoefficient
+GetBufferForColorDepthCoefficient
 (
 mHost
 -
 >
-GetBitDepth
+GetColorDepth
 (
 )
 )

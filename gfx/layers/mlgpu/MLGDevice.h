@@ -1370,10 +1370,13 @@ RefPtr
 <
 MLGBuffer
 >
-GetBufferForBitDepthCoefficient
+GetBufferForColorDepthCoefficient
 (
-uint8_t
-aBitDepth
+gfx
+:
+:
+ColorDepth
+aColorDepth
 )
 ;
 SharedVertexBuffer
@@ -1824,7 +1827,7 @@ gfx
 ColorDepth
 :
 :
-MAX
+UNKNOWN
 RefPtr
 <
 MLGBuffer
