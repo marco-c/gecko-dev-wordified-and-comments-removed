@@ -514,15 +514,6 @@ client
 /
 shared
 /
-AppCacheUtils
-.
-jsm
-"
-"
-client
-/
-shared
-/
 widgets
 /
 *
