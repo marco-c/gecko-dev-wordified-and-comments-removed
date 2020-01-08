@@ -573,7 +573,7 @@ registry
 id
 &
 wl_shm_interface
-1
+WL_SHM_POOL_RESIZE_SINCE_VERSION
 )
 )
 ;

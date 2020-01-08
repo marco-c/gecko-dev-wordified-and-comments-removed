@@ -637,7 +637,7 @@ registry
 name
 &
 wl_subcompositor_interface
-1
+WL_SUBCOMPOSITOR_GET_SUBSURFACE_SINCE_VERSION
 )
 )
 ;
