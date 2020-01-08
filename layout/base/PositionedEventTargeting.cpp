@@ -1038,10 +1038,6 @@ menu
 nsGkAtoms
 :
 :
-menubutton
-nsGkAtoms
-:
-:
 menuitem
 nsGkAtoms
 :
