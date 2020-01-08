@@ -6281,12 +6281,6 @@ FreeInnerObjects
 (
 )
 ;
-nsGlobalWindowInner
-*
-CallerInnerWindow
-(
-)
-;
 void
 InnerSetNewDocument
 (
