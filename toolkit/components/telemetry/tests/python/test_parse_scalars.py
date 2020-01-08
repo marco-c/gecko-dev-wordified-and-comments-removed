@@ -208,6 +208,12 @@ strict_type_checks
 True
 )
         
+ParserError
+.
+exit_func
+(
+)
+        
 self
 .
 assertEqual
