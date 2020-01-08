@@ -1926,7 +1926,7 @@ aAppearance
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 |
 |
 aAppearance
@@ -3305,7 +3305,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 #
 ifdef
@@ -9772,7 +9772,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance

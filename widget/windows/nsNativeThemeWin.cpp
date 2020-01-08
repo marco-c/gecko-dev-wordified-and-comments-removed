@@ -3135,7 +3135,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance
@@ -4233,7 +4233,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 {
 EventStates
@@ -8699,7 +8699,7 @@ aAppearance
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 )
 {
 if
@@ -10011,7 +10011,7 @@ aAppearance
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 )
 )
 {
@@ -10506,7 +10506,7 @@ aAppearance
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 |
 |
 aAppearance
@@ -10573,7 +10573,7 @@ aAppearance
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 )
 {
 aResult
@@ -13444,7 +13444,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance
@@ -13955,7 +13955,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance
@@ -14966,7 +14966,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance
@@ -16253,7 +16253,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance
@@ -18819,7 +18819,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance
@@ -20911,7 +20911,7 @@ case
 StyleAppearance
 :
 :
-TextfieldMultiline
+Textarea
 :
 case
 StyleAppearance

@@ -1347,6 +1347,9 @@ tabpanel
 tabpanels
 "
 "
+textarea
+"
+"
 textfield
 "
 "
@@ -7356,6 +7359,9 @@ tabpanel
 "
 "
 tabpanels
+"
+"
+textarea
 "
 "
 textfield
