@@ -1,6 +1,10 @@
 #
 include
 "
+mozilla
+/
+dom
+/
 BrowsingContext
 .
 h
