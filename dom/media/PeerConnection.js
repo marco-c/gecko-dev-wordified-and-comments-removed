@@ -8089,6 +8089,12 @@ sendTrackOrKind
 init
 )
 {
+this
+.
+_checkClosed
+(
+)
+;
 let
 transceiver
 =
