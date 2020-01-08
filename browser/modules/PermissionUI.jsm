@@ -3786,7 +3786,7 @@ floor
 (
 URICountListener
 .
-uniqueOriginsVisitedInPast24Hours
+uniqueDomainsVisitedInPast24Hours
 /
 100
 )
