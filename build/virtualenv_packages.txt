@@ -730,17 +730,6 @@ mozilla
 .
 pth
 :
-xpcom
-/
-typelib
-/
-xpt
-/
-tools
-mozilla
-.
-pth
-:
 tools
 /
 docs

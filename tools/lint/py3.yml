@@ -194,10 +194,6 @@ xpcom
 idl
 -
 parser
--
-xpcom
-/
-typelib
 extensions
 :
 [
