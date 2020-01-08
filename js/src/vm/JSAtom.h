@@ -53,9 +53,7 @@ namespace
 js
 {
 extern
-const
-char
-*
+UniqueChars
 AtomToPrintableString
 (
 JSContext
@@ -64,9 +62,6 @@ cx
 JSAtom
 *
 atom
-UniqueChars
-*
-bytes
 )
 ;
 class

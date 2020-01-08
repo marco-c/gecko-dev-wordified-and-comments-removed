@@ -8208,10 +8208,7 @@ bi
 {
 UniqueChars
 bytes
-;
-if
-(
-!
+=
 AtomToPrintableString
 (
 cx
@@ -8220,9 +8217,12 @@ bi
 name
 (
 )
-&
-bytes
 )
+;
+if
+(
+!
+bytes
 )
 return
 ;
