@@ -203,7 +203,7 @@ the
 webpackage
 repository
 ]
-[
+(
 https
 :
 /
@@ -215,7 +215,7 @@ com
 WICG
 /
 webpackage
-]
+)
 .
 To
 install
