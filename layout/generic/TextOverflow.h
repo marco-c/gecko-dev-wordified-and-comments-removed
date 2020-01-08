@@ -106,7 +106,7 @@ TextOverflow
 (
 )
 =
-default
+delete
 ;
 ~
 TextOverflow
