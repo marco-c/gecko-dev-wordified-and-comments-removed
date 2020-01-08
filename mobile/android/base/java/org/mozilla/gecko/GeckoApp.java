@@ -5900,7 +5900,6 @@ Restore
 restoreMessage
 )
 ;
-}
 getProfile
 (
 )
@@ -5910,6 +5909,7 @@ updateSessionFile
 mShouldRestore
 )
 ;
+}
 }
 }
 )
