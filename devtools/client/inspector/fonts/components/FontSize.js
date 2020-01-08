@@ -164,7 +164,7 @@ rem
 :
 max
 =
-10
+4
 ;
 break
 ;
@@ -190,7 +190,7 @@ vmax
 :
 max
 =
-100
+10
 ;
 break
 ;
@@ -201,7 +201,7 @@ case
 :
 max
 =
-500
+200
 ;
 break
 ;
@@ -209,7 +209,7 @@ default
 :
 max
 =
-300
+72
 ;
 break
 ;
