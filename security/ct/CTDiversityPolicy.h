@@ -21,15 +21,6 @@ h
 #
 include
 "
-mozilla
-/
-Vector
-.
-h
-"
-#
-include
-"
 pkix
 /
 Result
@@ -49,10 +40,7 @@ mozilla
 namespace
 ct
 {
-pkix
-:
-:
-Result
+void
 GetCTLogOperatorsFromVerifiedSCTList
 (
 const

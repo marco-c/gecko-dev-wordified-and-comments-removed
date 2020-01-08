@@ -5487,7 +5487,7 @@ verifyResult
 .
 verifiedScts
 .
-length
+size
 (
 )
 )

@@ -56,10 +56,7 @@ LogEntry
 output
 )
 ;
-pkix
-:
-:
-Result
+void
 GetX509LogEntry
 (
 pkix

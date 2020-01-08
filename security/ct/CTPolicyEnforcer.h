@@ -48,10 +48,7 @@ CTPolicyEnforcer
 {
 public
 :
-pkix
-:
-:
-Result
+void
 CheckCompliance
 (
 const

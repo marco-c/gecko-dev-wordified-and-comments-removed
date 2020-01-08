@@ -159,9 +159,6 @@ Included
 )
 )
 ;
-ASSERT_EQ
-(
-Success
 mVerifier
 .
 AddLog
@@ -172,7 +169,6 @@ std
 move
 (
 log
-)
 )
 )
 ;
@@ -251,7 +247,7 @@ result
 .
 verifiedScts
 .
-length
+size
 (
 )
 )
@@ -312,17 +308,18 @@ Buffer
 output
 )
 {
-Vector
+std
+:
+:
+vector
 <
 Input
 >
 list
 ;
-ASSERT_TRUE
-(
 list
 .
-append
+push_back
 (
 std
 :
@@ -330,7 +327,6 @@ std
 move
 (
 sct
-)
 )
 )
 ;
@@ -1027,7 +1023,7 @@ result
 .
 verifiedScts
 .
-length
+size
 (
 )
 )
@@ -1092,9 +1088,6 @@ disqualificationTime
 )
 )
 ;
-ASSERT_EQ
-(
-Success
 verifier
 .
 AddLog
@@ -1105,7 +1098,6 @@ std
 move
 (
 log
-)
 )
 )
 ;
@@ -1176,7 +1168,7 @@ result
 .
 verifiedScts
 .
-length
+size
 (
 )
 )
