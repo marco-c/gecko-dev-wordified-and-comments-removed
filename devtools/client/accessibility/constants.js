@@ -151,6 +151,9 @@ indexInParent
 states
 "
 "
+relations
+"
+"
 attributes
 "
 ]

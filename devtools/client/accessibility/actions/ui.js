@@ -26,7 +26,10 @@ exports
 .
 reset
 =
+(
 accessibility
+supports
+)
 =
 >
 dispatch
@@ -36,6 +39,7 @@ dispatch
 (
 {
 accessibility
+supports
 type
 :
 RESET
