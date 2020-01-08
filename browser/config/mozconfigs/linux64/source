@@ -50,3 +50,9 @@ disable
 compile
 -
 environment
+ac_add_options
+-
+-
+disable
+-
+nodejs
