@@ -9660,6 +9660,11 @@ NodeFilter
 1
 ;
 bool
+PromiseDebugging
+:
+1
+;
+bool
 TextDecoder
 :
 1
