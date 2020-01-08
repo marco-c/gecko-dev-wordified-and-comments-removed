@@ -3039,12 +3039,7 @@ guid
 let
 preserveOldProperties
 =
-collectionName
-=
-=
-"
-creditCards
-"
+true
 ;
 await
 collection
