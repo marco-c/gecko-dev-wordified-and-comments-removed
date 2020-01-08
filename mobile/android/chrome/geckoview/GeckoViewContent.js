@@ -2359,6 +2359,15 @@ value
 )
 )
 )
+origin
+:
+element
+.
+ownerDocument
+.
+location
+.
+origin
 }
 ;
 this
