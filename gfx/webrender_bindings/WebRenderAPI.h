@@ -803,6 +803,13 @@ LayoutPoint
 aScrollPosition
 )
 ;
+void
+UpdatePinchZoom
+(
+float
+aZoom
+)
+;
 private
 :
 Transaction
