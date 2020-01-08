@@ -84,6 +84,10 @@ aOwner
 :
 HTMLFormSubmission
 (
+nullptr
+EmptyString
+(
+)
 UTF_8_ENCODING
 nullptr
 )
@@ -1559,6 +1563,10 @@ const
 FSMultipartFormData
 fs
 (
+nullptr
+EmptyString
+(
+)
 UTF_8_ENCODING
 nullptr
 )
