@@ -138,11 +138,10 @@ then
 =
 >
 {
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 xpipath
 )
 ;

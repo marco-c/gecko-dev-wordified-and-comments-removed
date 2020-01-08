@@ -267,11 +267,10 @@ tab
 .
 linkedBrowser
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 PAGE
 )
 ;

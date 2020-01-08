@@ -1556,17 +1556,6 @@ loadURI
 this
 .
 value
-{
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-}
 )
 ;
 "

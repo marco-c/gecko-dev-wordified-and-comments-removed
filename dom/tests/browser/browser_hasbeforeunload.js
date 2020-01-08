@@ -1131,11 +1131,10 @@ browser
 false
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 PAGE_URL
 )
 ;
@@ -1833,11 +1832,10 @@ browser
 false
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 PAGE_URL
 )
 ;

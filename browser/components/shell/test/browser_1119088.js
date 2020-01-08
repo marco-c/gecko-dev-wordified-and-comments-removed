@@ -427,11 +427,10 @@ logo
 "
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 "
 about
 :

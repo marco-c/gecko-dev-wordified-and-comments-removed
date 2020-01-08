@@ -83,11 +83,10 @@ frames
 "
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 URL_FRAMESET
 )
 ;

@@ -162,11 +162,10 @@ hud
 }
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 "
 data
 :

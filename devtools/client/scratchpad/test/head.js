@@ -387,11 +387,10 @@ aOptions
 }
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 "
 data
 :

@@ -195,13 +195,12 @@ finish
 }
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 "
 http
 :

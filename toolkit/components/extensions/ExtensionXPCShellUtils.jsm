@@ -865,7 +865,6 @@ xul
 null
 null
 null
-system
 )
 ;
 await
@@ -1180,17 +1179,6 @@ browser
 loadURI
 (
 url
-{
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-}
 )
 ;
 return

@@ -2025,11 +2025,10 @@ gBrowser
 selectedBrowser
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 test
 .
 dataUri

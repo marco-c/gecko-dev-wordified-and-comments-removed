@@ -325,11 +325,10 @@ frameScript
 true
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 url
 )
 ;
