@@ -9408,7 +9408,8 @@ whenCreated
 ;
 if
 (
-false
+!
+twoMachines
 )
 {
 if
@@ -9927,7 +9928,10 @@ bytesReceived
 ;
 if
 (
-false
+!
+this
+.
+disableRtpCountChecking
 )
 {
 if
