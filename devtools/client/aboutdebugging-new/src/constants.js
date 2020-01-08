@@ -60,6 +60,17 @@ PAGE_SELECTED
 }
 ;
 const
+DEBUG_TARGETS
+=
+{
+TAB
+:
+"
+TAB
+"
+}
+;
+const
 PAGES
 =
 {
@@ -91,5 +102,8 @@ assign
 PAGES
 }
 actionTypes
+{
+DEBUG_TARGETS
+}
 )
 ;

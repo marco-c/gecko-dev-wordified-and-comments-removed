@@ -6,6 +6,7 @@ strict
 const
 {
 CONNECT_RUNTIME_SUCCESS
+DEBUG_TARGETS
 DISCONNECT_RUNTIME_SUCCESS
 REQUEST_TABS_SUCCESS
 }
@@ -143,6 +144,20 @@ tab
 >
 {
 const
+type
+=
+DEBUG_TARGETS
+.
+TAB
+;
+const
+id
+=
+tab
+.
+outerWindowID
+;
+const
 icon
 =
 tab
@@ -210,6 +225,8 @@ url
 ;
 return
 {
+type
+id
 icon
 name
 url
