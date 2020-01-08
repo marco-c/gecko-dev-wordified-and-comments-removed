@@ -22,6 +22,17 @@ import
 subprocess
 import
 sys
+try
+:
+    
+from
+shutil
+import
+which
+except
+ImportError
+:
+    
 import
 which
 from
