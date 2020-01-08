@@ -101,6 +101,8 @@ default
 content
 -
 blocking
+-
+known
 =
 .
 label
@@ -119,8 +121,8 @@ is
 set
 to
 block
-Detected
-Trackers
+known
+trackers
 do
 -
 not
