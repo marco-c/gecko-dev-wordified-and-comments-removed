@@ -1019,13 +1019,12 @@ RefreshFeaturePolicy
 (
 )
 ;
-nsresult
+already_AddRefed
+<
+nsIPrincipal
+>
 GetFeaturePolicyDefaultOrigin
 (
-nsIPrincipal
-*
-*
-aDefaultOrigin
 )
 const
 ;
