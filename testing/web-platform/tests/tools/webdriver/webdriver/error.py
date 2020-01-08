@@ -21,6 +21,12 @@ def
 __init__
 (
 self
+http_status
+=
+None
+status_code
+=
+None
 message
 =
 None
@@ -35,6 +41,18 @@ super
 WebDriverException
 self
 )
+        
+self
+.
+http_status
+=
+http_status
+        
+self
+.
+status_code
+=
+status_code
         
 self
 .
@@ -708,6 +726,12 @@ raise
 UnknownErrorException
 (
             
+response
+.
+status
+            
+None
+            
 "
 Response
 is
@@ -761,6 +785,12 @@ else
 raise
 UnknownErrorException
 (
+            
+response
+.
+status
+            
+None
             
 "
 Expected
@@ -830,6 +860,10 @@ code
 return
 cls
 (
+response
+.
+status
+code
 message
 stacktrace
 =

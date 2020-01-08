@@ -218,7 +218,15 @@ chrome_android
 "
                 
 "
+chrome_webdriver
+"
+                
+"
 edge
+"
+                
+"
+edge_webdriver
 "
                 
 "
@@ -235,6 +243,10 @@ ie
                 
 "
 safari
+"
+                
+"
+safari_webdriver
 "
                 
 "

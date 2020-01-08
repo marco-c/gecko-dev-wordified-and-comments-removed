@@ -126,6 +126,9 @@ firefox
 "
 chrome
 "
+"
+chrome_webdriver
+"
 )
 for
 PRODUCT
@@ -182,6 +185,7 @@ hosts_fixup
 fi
 if
 [
+[
 "
 PRODUCT
 "
@@ -190,6 +194,8 @@ PRODUCT
 "
 chrome
 "
+*
+]
 ]
 ;
 then
