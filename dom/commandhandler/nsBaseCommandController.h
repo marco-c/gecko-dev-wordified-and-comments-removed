@@ -76,6 +76,15 @@ already_AddRefed
 <
 nsIController
 >
+CreateEditorController
+(
+)
+;
+static
+already_AddRefed
+<
+nsIController
+>
 CreateEditingController
 (
 )
