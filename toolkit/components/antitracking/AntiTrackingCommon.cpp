@@ -3198,9 +3198,8 @@ thirdParty
 =
 false
 ;
-Unused
-<
-<
+rv
+=
 thirdPartyUtil
 -
 >
@@ -3214,6 +3213,12 @@ thirdParty
 ;
 if
 (
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
 !
 thirdParty
 )
