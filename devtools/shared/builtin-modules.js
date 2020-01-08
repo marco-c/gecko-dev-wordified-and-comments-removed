@@ -72,6 +72,7 @@ const
 console
 HeapSnapshot
 StructuredCloneHolder
+TelemetryStopwatch
 }
 =
 Cu
@@ -520,6 +521,7 @@ create
 (
 Services
 )
+TelemetryStopwatch
 }
 ;
 defineLazyGetter

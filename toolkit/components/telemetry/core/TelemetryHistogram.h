@@ -205,7 +205,7 @@ uint32_t
 aSamples
 )
 ;
-void
+bool
 Accumulate
 (
 const
@@ -216,7 +216,7 @@ uint32_t
 sample
 )
 ;
-void
+bool
 Accumulate
 (
 const
