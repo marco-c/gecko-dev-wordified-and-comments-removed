@@ -34,3 +34,10 @@ linux64
 -
 cbindgen
 '
+MACOS_CBINDGEN
+=
+'
+macosx64
+-
+cbindgen
+'
