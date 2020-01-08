@@ -973,7 +973,6 @@ opened
 ?
 CommandLine
 ContextMenu
-DeveloperToolbar
 HamburgerMenu
 KeyShortcut
 SessionRestore

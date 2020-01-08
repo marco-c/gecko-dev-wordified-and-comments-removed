@@ -152,11 +152,6 @@ framerate
 js
 '
 '
-gcli
-.
-js
-'
-'
 highlighters
 .
 js

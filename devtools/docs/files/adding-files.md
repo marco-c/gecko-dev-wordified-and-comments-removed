@@ -1444,7 +1444,7 @@ en
 -
 US
 /
-gcli
+screenshot
 .
 properties
 *
@@ -1460,7 +1460,7 @@ shared
 /
 locale
 /
-gcli
+screenshot
 .
 properties
 #
