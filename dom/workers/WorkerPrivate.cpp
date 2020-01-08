@@ -10330,12 +10330,6 @@ mPRThread
 (
 nullptr
 )
-mMainThreadEventTarget
-(
-GetMainThreadEventTarget
-(
-)
-)
 mWorkerControlEventTarget
 (
 new
