@@ -179,11 +179,6 @@ OnNotifyTrackingProtectionDisabled
 )
 ;
 bool
-OnNotifyCookieAllowed
-(
-)
-;
-bool
 OnNotifyTrackingCookieBlocked
 (
 uint32_t
