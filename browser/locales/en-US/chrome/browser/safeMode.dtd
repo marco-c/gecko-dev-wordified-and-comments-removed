@@ -139,7 +139,7 @@ issues
 <
 !
 ENTITY
-safeModeDescription4
+safeModeDescription5
 .
 label
 "
@@ -154,6 +154,18 @@ will
 be
 temporarily
 disabled
+and
+&
+brandShortName
+;
+features
+may
+not
+perform
+as
+they
+currently
+do
 .
 "
 >
