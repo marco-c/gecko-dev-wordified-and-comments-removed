@@ -1039,6 +1039,14 @@ mAllowDoubleTapZoom
 constraints
 .
 mAllowZoom
+&
+&
+gfxPrefs
+:
+:
+APZAllowDoubleTapZooming
+(
+)
 ;
 if
 (

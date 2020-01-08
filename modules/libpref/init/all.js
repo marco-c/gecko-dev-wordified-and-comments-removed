@@ -5491,6 +5491,16 @@ pref
 "
 apz
 .
+allow_double_tap_zooming
+"
+true
+)
+;
+pref
+(
+"
+apz
+.
 allow_immediate_handoff
 "
 true
