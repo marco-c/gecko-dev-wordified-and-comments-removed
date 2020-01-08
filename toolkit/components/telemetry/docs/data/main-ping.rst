@@ -3262,9 +3262,7 @@ keys
 are
 restricted
 to
-alpha
--
-numeric
+alphanumeric
 characters
 and
 -

@@ -1400,9 +1400,7 @@ category
 names
 must
 be
-alpha
--
-numeric
+alphanumeric
 +
 .
 with
@@ -1419,9 +1417,7 @@ probe
 names
 must
 be
-alpha
--
-numeric
+alphanumeric
 +
 _
 with

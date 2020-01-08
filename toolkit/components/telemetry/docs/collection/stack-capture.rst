@@ -599,9 +599,7 @@ keys
 may
 only
 contain
-alpha
--
-numeric
+alphanumeric
 characters
 or
 -

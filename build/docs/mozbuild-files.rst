@@ -1364,7 +1364,7 @@ specific
 component
 of
 tree
-metdata
+metadata
 .
 e
 .
