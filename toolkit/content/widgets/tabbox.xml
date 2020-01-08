@@ -2389,13 +2389,6 @@ id
 "
 tab
 "
-display
-=
-"
-xul
-:
-button
-"
 extends
 =
 "
