@@ -133,6 +133,7 @@ test
 =
 >
 {
+var
 params
 =
 new
@@ -300,6 +301,7 @@ test
 =
 >
 {
+var
 params
 =
 new
@@ -362,6 +364,7 @@ test
 =
 >
 {
+var
 params
 =
 new
@@ -474,7 +477,6 @@ b
 '
 )
 ;
-var
 params
 =
 new
@@ -550,7 +552,6 @@ c
 '
 )
 ;
-var
 params
 =
 new
@@ -2169,6 +2170,7 @@ test
 =
 >
 {
+var
 params
 =
 new
