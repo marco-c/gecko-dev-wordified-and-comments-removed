@@ -77,9 +77,10 @@ Manager
 ENTITY
 search
 .
-placeholder3
+placeholder2
 "
 Search
+on
 addons
 .
 mozilla
