@@ -391,9 +391,6 @@ input
 class
 =
 "
-autocomplete
--
-textbox
 urlbar
 -
 input
