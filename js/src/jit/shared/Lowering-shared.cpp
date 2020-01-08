@@ -103,9 +103,11 @@ isConstant
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 lhs
@@ -115,9 +117,11 @@ isConstant
 (
 )
 )
+{
 return
 true
 ;
+}
 bool
 rhsSingleUse
 =
@@ -148,9 +152,11 @@ if
 !
 lhsSingleUse
 )
+{
 return
 true
 ;
+}
 }
 else
 {
@@ -158,9 +164,11 @@ if
 (
 lhsSingleUse
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -428,9 +436,11 @@ mir
 =
 rp
 )
+{
 return
 cachedRecoverInfo_
 ;
+}
 LRecoverInfo
 *
 recoverInfo
@@ -449,9 +459,11 @@ if
 !
 recoverInfo
 )
+{
 return
 nullptr
 ;
+}
 cachedRecoverInfo_
 =
 recoverInfo
@@ -578,9 +590,11 @@ if
 !
 recoverInfo
 )
+{
 return
 nullptr
 ;
+}
 LSnapshot
 *
 snapshot
@@ -600,9 +614,11 @@ if
 !
 snapshot
 )
+{
 return
 nullptr
 ;
+}
 size_t
 index
 =
@@ -652,8 +668,10 @@ isRecoveredOnBailout
 (
 )
 )
+{
 continue
 ;
+}
 LAllocation
 *
 type
@@ -691,6 +709,7 @@ isBox
 (
 )
 )
+{
 ins
 =
 ins
@@ -706,6 +725,7 @@ getOperand
 0
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 ins
@@ -880,9 +900,11 @@ if
 !
 recoverInfo
 )
+{
 return
 nullptr
 ;
+}
 LSnapshot
 *
 snapshot
@@ -902,9 +924,11 @@ if
 !
 snapshot
 )
+{
 return
 nullptr
 ;
+}
 size_t
 index
 =
@@ -954,8 +978,10 @@ isRecoveredOnBailout
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 def
@@ -965,6 +991,7 @@ isBox
 (
 )
 )
+{
 def
 =
 def
@@ -980,6 +1007,7 @@ getOperand
 0
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 def
@@ -1105,6 +1133,7 @@ if
 (
 snapshot
 )
+{
 ins
 -
 >
@@ -1113,7 +1142,9 @@ assignSnapshot
 snapshot
 )
 ;
+}
 else
+{
 abort
 (
 AbortReason
@@ -1126,6 +1157,7 @@ failed
 "
 )
 ;
+}
 }
 void
 LIRGeneratorShared
@@ -1251,6 +1283,7 @@ noteNeedsSafepoint
 ins
 )
 )
+{
 abort
 (
 AbortReason
@@ -1263,4 +1296,5 @@ failed
 "
 )
 ;
+}
 }

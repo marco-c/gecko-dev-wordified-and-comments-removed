@@ -574,9 +574,11 @@ LGeneralReg
 reg
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -5031,6 +5033,7 @@ JitStackValueAlignment
 >
 1
 )
+{
 return
 AlignBytes
 (
@@ -5045,6 +5048,7 @@ numStackArgs
 JitStackValueAlignment
 )
 ;
+}
 return
 mir
 (
@@ -10978,6 +10982,7 @@ bailoutsDisabled
 (
 )
 )
+{
 return
 "
 ursh
@@ -10985,6 +10990,7 @@ ursh
 BailoutsDisabled
 "
 ;
+}
 return
 CodeName
 [
@@ -28796,12 +28802,14 @@ hasUnaliasedDouble
 (
 )
 )
+{
 return
 getTemp
 (
 2
 )
 ;
+}
 return
 getTemp
 (
@@ -36646,6 +36654,7 @@ op
 )
 )
 )
+{
 return
 LWasmCallBase
 <
@@ -36658,6 +36667,7 @@ isCallPreserved
 reg
 )
 ;
+}
 return
 false
 ;

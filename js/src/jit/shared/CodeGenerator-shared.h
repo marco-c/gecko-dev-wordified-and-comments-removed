@@ -1049,9 +1049,11 @@ oom
 (
 )
 )
+{
 return
 SIZE_MAX
 ;
+}
 MOZ_ASSERT
 (
 index
@@ -1408,9 +1410,11 @@ target
 <
 i
 )
+{
 return
 false
 ;
+}
 for
 (
 ;
@@ -1439,9 +1443,11 @@ isTrivial
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true

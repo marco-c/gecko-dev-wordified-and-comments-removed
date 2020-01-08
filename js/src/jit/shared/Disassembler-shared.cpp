@@ -462,8 +462,10 @@ isDisabled
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -471,8 +473,10 @@ target
 .
 valid
 )
+{
 return
 ;
+}
 spew
 (
 "
@@ -521,8 +525,10 @@ isDisabled
 (
 )
 )
+{
 return
 ;
+}
 uint32_t
 v
 =
@@ -544,6 +550,7 @@ if
 (
 probe
 )
+{
 probe
 -
 >
@@ -551,6 +558,7 @@ bound
 =
 true
 ;
+}
 spew
 (
 "
@@ -587,8 +595,10 @@ isDisabled
 (
 )
 )
+{
 return
 ;
+}
 LabelDoc
 labelDoc
 =
@@ -636,6 +646,7 @@ if
 (
 probe
 )
+{
 probe
 -
 >
@@ -643,6 +654,7 @@ bound
 =
 true
 ;
+}
 spew
 (
 "
@@ -923,6 +935,7 @@ p
 >
 bound
 )
+{
 spew
 (
 "
@@ -942,6 +955,7 @@ p
 value
 )
 ;
+}
 }
 }
 uint32_t
@@ -1048,9 +1062,11 @@ l
 value
 )
 )
+{
 return
 0
 ;
+}
 return
 value
 ;
@@ -1099,7 +1115,9 @@ p
 >
 next
 )
+{
 ;
+}
 return
 p
 ;
@@ -1236,6 +1254,7 @@ if
 (
 pp
 )
+{
 pp
 -
 >
@@ -1246,7 +1265,9 @@ p
 >
 next
 ;
+}
 else
+{
 nodes_
 =
 p
@@ -1254,6 +1275,7 @@ p
 >
 next
 ;
+}
 js_free
 (
 p

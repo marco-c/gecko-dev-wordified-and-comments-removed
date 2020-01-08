@@ -2259,9 +2259,11 @@ to
 =
 from
 )
+{
 return
 true
 ;
+}
 if
 (
 (
@@ -2452,6 +2454,7 @@ MMathFunction
 :
 Sin
 )
+{
 def
 -
 >
@@ -2465,7 +2468,9 @@ virtualRegister
 )
 )
 ;
+}
 else
+{
 def
 -
 >
@@ -2481,6 +2486,7 @@ virtualRegister
 VREG_INCREMENT
 )
 ;
+}
 }
 void
 LIRGeneratorShared
@@ -2650,6 +2656,7 @@ MIRType
 :
 Int32
 )
+{
 replacement
 =
 MConstant
@@ -2676,7 +2683,9 @@ toInt32
 )
 )
 ;
+}
 else
+{
 replacement
 =
 MConstant
@@ -2703,6 +2712,7 @@ toBoolean
 )
 )
 ;
+}
 def
 -
 >
@@ -3040,9 +3050,11 @@ if
 !
 buf
 )
+{
 return
 nullptr
 ;
+}
 LClass
 *
 ins
@@ -3104,6 +3116,7 @@ i
 +
 +
 )
+{
 ins
 -
 >
@@ -3115,6 +3128,7 @@ LAllocation
 )
 )
 ;
+}
 return
 ins
 ;
@@ -3241,6 +3255,7 @@ isConstant
 (
 )
 )
+{
 return
 LAllocation
 (
@@ -3252,6 +3267,7 @@ toConstant
 )
 )
 ;
+}
 return
 use
 (
@@ -3279,6 +3295,7 @@ isConstant
 (
 )
 )
+{
 return
 LAllocation
 (
@@ -3290,6 +3307,7 @@ toConstant
 )
 )
 ;
+}
 return
 useAtStart
 (
@@ -3317,6 +3335,7 @@ isConstant
 (
 )
 )
+{
 return
 LAllocation
 (
@@ -3328,6 +3347,7 @@ toConstant
 )
 )
 ;
+}
 return
 useRegister
 (
@@ -3355,6 +3375,7 @@ isConstant
 (
 )
 )
+{
 return
 LAllocation
 (
@@ -3366,6 +3387,7 @@ toConstant
 )
 )
 ;
+}
 return
 useRegisterAtStart
 (
@@ -3407,11 +3429,13 @@ isInt32
 0
 )
 )
+{
 return
 LAllocation
 (
 )
 ;
+}
 return
 useRegister
 (
@@ -3453,11 +3477,13 @@ isInt32
 0
 )
 )
+{
 return
 LAllocation
 (
 )
 ;
+}
 return
 useRegisterAtStart
 (
@@ -3513,6 +3539,7 @@ MIRType
 :
 Float32
 )
+{
 return
 LAllocation
 (
@@ -3524,6 +3551,7 @@ toConstant
 )
 )
 ;
+}
 return
 useRegister
 (
@@ -3736,6 +3764,7 @@ isConstant
 (
 )
 )
+{
 return
 LAllocation
 (
@@ -3747,6 +3776,7 @@ toConstant
 )
 )
 ;
+}
 return
 useKeepalive
 (
@@ -4366,6 +4396,7 @@ MIRType
 :
 Float32
 )
+{
 return
 inner
 -
@@ -4374,6 +4405,7 @@ virtualRegister
 (
 )
 ;
+}
 }
 if
 (
@@ -4397,6 +4429,7 @@ canRedefineInput
 (
 )
 )
+{
 return
 VirtualRegisterOfPayload
 (
@@ -4413,6 +4446,7 @@ input
 )
 )
 ;
+}
 return
 mir
 -
@@ -4748,12 +4782,14 @@ MIRType
 :
 Double
 )
+{
 return
 useRegister
 (
 mir
 )
 ;
+}
 #
 endif
 return
@@ -4880,12 +4916,14 @@ MIRType
 :
 Value
 )
+{
 return
 useBox
 (
 mir
 )
 ;
+}
 #
 if
 defined
