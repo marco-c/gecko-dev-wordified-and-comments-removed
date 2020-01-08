@@ -313,6 +313,13 @@ h
 #
 include
 "
+nsCommandParams
+.
+h
+"
+#
+include
+"
 nsPersistentProperties
 .
 h
