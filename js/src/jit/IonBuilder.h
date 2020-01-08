@@ -4910,6 +4910,17 @@ callInfo
 )
 ;
 InliningResult
+inlineWasmCall
+(
+CallInfo
+&
+callInfo
+JSFunction
+*
+target
+)
+;
+InliningResult
 inlineBailout
 (
 CallInfo

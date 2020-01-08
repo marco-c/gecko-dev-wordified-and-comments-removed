@@ -1942,6 +1942,14 @@ code
 )
 ;
 inline
+uint32_t
+callJit
+(
+ImmPtr
+callee
+)
+;
+inline
 void
 makeFrameDescriptor
 (

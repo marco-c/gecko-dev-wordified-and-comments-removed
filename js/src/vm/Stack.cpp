@@ -3390,6 +3390,18 @@ unwoundIonCallerFP
 (
 )
 ;
+jit
+:
+:
+FrameType
+prevFrameType
+=
+wasmFrame
+.
+unwoundIonFrameType
+(
+)
+;
 if
 (
 mustUnwindActivation_
@@ -3419,6 +3431,7 @@ JSJitFrameIter
 >
 (
 act_
+prevFrameType
 prevFP
 )
 ;
