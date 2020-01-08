@@ -236,6 +236,11 @@ SetProxiedTransaction
 nsAHttpTransaction
 *
 aTrans
+nsAHttpTransaction
+*
+aSpdyConnectTransaction
+=
+nullptr
 )
 ;
 void
@@ -437,6 +442,9 @@ RefPtr
 nsAHttpTransaction
 >
 mTransaction
+;
+nsWeakPtr
+mWeakTrans
 ;
 nsCOMPtr
 <
