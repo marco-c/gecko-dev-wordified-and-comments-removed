@@ -1549,10 +1549,10 @@ ThreadEvent
 CallStart
 ;
 return
-gRedirections
-[
+GetRedirection
+(
 callId
-]
+)
 .
 mName
 ;
