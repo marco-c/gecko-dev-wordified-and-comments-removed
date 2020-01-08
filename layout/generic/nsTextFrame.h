@@ -312,7 +312,7 @@ nsDisplayListSet
 &
 aLists
 )
-override
+final
 ;
 void
 Init
@@ -355,7 +355,7 @@ Cursor
 &
 aCursor
 )
-override
+final
 ;
 nsresult
 CharacterDataChanged
@@ -517,7 +517,7 @@ GetNextInFlowVirtual
 (
 )
 const
-override
+final
 {
 return
 GetNextInFlow
@@ -794,7 +794,7 @@ aRebuildDisplayItems
 =
 true
 )
-override
+final
 ;
 void
 InvalidateFrameWithRect
@@ -812,7 +812,7 @@ aRebuildDisplayItems
 =
 true
 )
-override
+final
 ;
 #
 ifdef
@@ -838,7 +838,7 @@ aFlags
 0
 )
 const
-override
+final
 ;
 nsresult
 GetFrameName
@@ -848,7 +848,7 @@ nsAString
 aResult
 )
 const
-override
+final
 ;
 void
 ToCString
@@ -872,7 +872,7 @@ nsPoint
 &
 aPoint
 )
-override
+final
 ;
 ContentOffsets
 GetCharacterOffsetAtFramePoint
@@ -905,7 +905,7 @@ int32_t
 *
 aOffset
 )
-override
+final
 ;
 FrameSearchResult
 PeekOffsetCharacter
@@ -922,7 +922,7 @@ PeekOffsetCharacterOptions
 (
 )
 )
-override
+final
 ;
 FrameSearchResult
 PeekOffsetWord
@@ -940,7 +940,7 @@ PeekWordState
 *
 aState
 )
-override
+final
 ;
 nsresult
 CheckVisibility
@@ -961,7 +961,7 @@ bool
 *
 _retval
 )
-override
+final
 ;
 enum
 {
@@ -995,7 +995,7 @@ int32_t
 end
 )
 const
-override
+final
 ;
 void
 AdjustOffsetsForBidi
@@ -1005,7 +1005,7 @@ start
 int32_t
 end
 )
-override
+final
 ;
 nsresult
 GetPointFromOffset
@@ -1016,7 +1016,7 @@ nsPoint
 *
 outPoint
 )
-override
+final
 ;
 nsresult
 GetCharacterRectsInRange
@@ -1032,7 +1032,7 @@ nsRect
 &
 aRects
 )
-override
+final
 ;
 nsresult
 GetChildFrameContainingOffset
@@ -1049,7 +1049,7 @@ nsIFrame
 *
 outChildFrame
 )
-override
+final
 ;
 bool
 IsVisibleInSelection
@@ -1064,19 +1064,19 @@ Selection
 *
 aSelection
 )
-override
+final
 ;
 bool
 IsEmpty
 (
 )
-override
+final
 ;
 bool
 IsSelfEmpty
 (
 )
-override
+final
 {
 return
 IsEmpty
@@ -1101,7 +1101,7 @@ HasSignificantTerminalNewline
 (
 )
 const
-override
+final
 ;
 bool
 IsAtEndOfLine
@@ -1141,7 +1141,7 @@ AccType
 AccessibleType
 (
 )
-override
+final
 ;
 #
 endif
@@ -1189,7 +1189,7 @@ void
 MarkIntrinsicISizesDirty
 (
 )
-override
+final
 ;
 nscoord
 GetMinISize
@@ -1198,7 +1198,7 @@ gfxContext
 *
 aRenderingContext
 )
-override
+final
 ;
 nscoord
 GetPrefISize
@@ -1207,7 +1207,7 @@ gfxContext
 *
 aRenderingContext
 )
-override
+final
 ;
 void
 AddInlineMinISize
@@ -1280,7 +1280,7 @@ aPadding
 ComputeSizeFlags
 aFlags
 )
-override
+final
 ;
 nsRect
 ComputeTightBounds
@@ -1290,7 +1290,7 @@ DrawTarget
 aDrawTarget
 )
 const
-override
+final
 ;
 nsresult
 GetPrefWidthTightBounds
@@ -1305,7 +1305,7 @@ nscoord
 *
 aXMost
 )
-override
+final
 ;
 void
 Reflow
@@ -1324,14 +1324,14 @@ nsReflowStatus
 &
 aStatus
 )
-override
+final
 ;
 bool
 CanContinueTextRun
 (
 )
 const
-override
+final
 ;
 struct
 TrimOutput
@@ -1378,7 +1378,7 @@ TrailingWhitespace
 :
 TRIM_TRAILING_WHITESPACE
 )
-override
+final
 ;
 nsOverflowAreas
 RecomputeOverflow
@@ -1981,7 +1981,7 @@ GetCaretColorAt
 int32_t
 aOffset
 )
-override
+final
 ;
 int16_t
 GetSelectionStatus
@@ -2281,7 +2281,7 @@ nsOverflowAreas
 &
 aOverflowAreas
 )
-override
+final
 ;
 void
 AssignJustificationGaps
@@ -2314,7 +2314,7 @@ bool
 HasAnyNoncollapsedCharacters
 (
 )
-override
+final
 ;
 void
 NotifyNativeAnonymousTextnodeChange
