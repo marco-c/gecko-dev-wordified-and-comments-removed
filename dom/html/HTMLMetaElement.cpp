@@ -467,10 +467,12 @@ content
 }
 if
 (
-CSPService
+StaticPrefs
 :
 :
-sCSPEnabled
+security_csp_enable
+(
+)
 &
 &
 aDocument

@@ -5096,10 +5096,12 @@ GetCSP
 ;
 if
 (
-CSPService
+StaticPrefs
 :
 :
-sCSPEnabled
+security_csp_enable
+(
+)
 )
 {
 if

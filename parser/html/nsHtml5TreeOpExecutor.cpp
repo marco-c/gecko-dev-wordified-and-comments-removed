@@ -4569,10 +4569,12 @@ aCSP
 if
 (
 !
-CSPService
+StaticPrefs
 :
 :
-sCSPEnabled
+security_csp_enable
+(
+)
 )
 {
 return
