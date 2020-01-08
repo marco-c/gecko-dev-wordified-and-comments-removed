@@ -17407,6 +17407,9 @@ nsCocoaFeatures
 OnMojaveOrLater
 (
 )
+&
+&
+NSWorkspaceAccessibilityDisplayOptionsDidChangeNotification
 )
 {
 [
@@ -17435,6 +17438,9 @@ nsCocoaFeatures
 OnYosemiteOrLater
 (
 )
+&
+&
+NSWorkspaceAccessibilityDisplayOptionsDidChangeNotification
 )
 {
 [
@@ -18859,6 +18865,9 @@ nsCocoaFeatures
 OnMojaveOrLater
 (
 )
+&
+&
+NSWorkspaceAccessibilityDisplayOptionsDidChangeNotification
 )
 {
 [
@@ -18896,6 +18905,9 @@ nsCocoaFeatures
 OnYosemiteOrLater
 (
 )
+&
+&
+NSWorkspaceAccessibilityDisplayOptionsDidChangeNotification
 )
 {
 [
