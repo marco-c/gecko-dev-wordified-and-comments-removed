@@ -131,6 +131,11 @@ function
 toolbox
 sourceURL
 sourceLine
+reason
+=
+"
+unknown
+"
 )
 {
 const
@@ -203,6 +208,7 @@ selectTool
 "
 jsdebugger
 "
+reason
 )
 ;
 dbg
@@ -301,6 +307,7 @@ selectTool
 "
 jsdebugger
 "
+reason
 )
 ;
 const

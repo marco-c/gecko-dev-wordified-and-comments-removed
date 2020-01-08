@@ -14440,6 +14440,7 @@ function
 (
 sourceURL
 sourceLine
+reason
 )
 {
 return
@@ -14450,6 +14451,7 @@ viewSourceInDebugger
 this
 sourceURL
 sourceLine
+reason
 )
 ;
 }
