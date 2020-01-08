@@ -66,6 +66,15 @@ include
 "
 js
 /
+CompilationAndEvaluation
+.
+h
+"
+#
+include
+"
+js
+/
 SourceBufferHolder
 .
 h
