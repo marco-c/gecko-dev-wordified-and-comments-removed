@@ -813,15 +813,14 @@ pocket_learn_more
 "
 :
 "
-Learn
-More
+Kuaave
 "
 "
 pocket_cta_button
 "
 :
 "
-Get
+Eguereko
 Pocket
 "
 "

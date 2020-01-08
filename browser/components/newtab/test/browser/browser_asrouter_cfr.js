@@ -187,10 +187,12 @@ gBrowser
 .
 selectedBrowser
 ;
-browser
+await
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 http
 :
@@ -199,6 +201,7 @@ http
 example
 .
 com
+/
 "
 )
 ;
