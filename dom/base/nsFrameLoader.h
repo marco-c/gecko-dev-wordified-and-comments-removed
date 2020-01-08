@@ -1524,11 +1524,6 @@ mObservingOwnerContent
 :
 1
 ;
-bool
-mFreshProcess
-:
-1
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

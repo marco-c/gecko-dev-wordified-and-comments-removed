@@ -89,6 +89,10 @@ mNumber
 (
 0
 )
+mNegativeNumber
+(
+0
+)
 {
 MOZ_ASSERT
 (

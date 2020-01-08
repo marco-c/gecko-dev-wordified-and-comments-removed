@@ -112,6 +112,9 @@ mEntryType
 (
 aType
 )
+mData
+(
+)
 {
 Reset
 (

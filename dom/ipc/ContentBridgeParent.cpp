@@ -98,6 +98,10 @@ ContentBridgeParent
 (
 )
 :
+mIsForBrowser
+(
+false
+)
 mIsForJSPlugin
 (
 false

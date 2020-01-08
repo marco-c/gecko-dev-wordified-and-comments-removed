@@ -2868,6 +2868,10 @@ mMsaaID
 )
 #
 endif
+mIsForBrowser
+(
+false
+)
 mIsAlive
 (
 true

@@ -887,11 +887,17 @@ MessagePort
 nsIGlobalObject
 *
 aGlobal
+State
+aState
 )
 :
 DOMEventTargetHelper
 (
 aGlobal
+)
+mState
+(
+aState
 )
 mMessageQueueEnabled
 (
@@ -996,6 +1002,7 @@ new
 MessagePort
 (
 aGlobal
+eStateUnshippedEntangled
 )
 ;
 mp
@@ -1007,7 +1014,6 @@ aUUID
 aDestinationUUID
 1
 false
-eStateUnshippedEntangled
 aRv
 )
 ;
@@ -1055,6 +1061,7 @@ new
 MessagePort
 (
 aGlobal
+eStateEntangling
 )
 ;
 mp
@@ -1082,7 +1089,6 @@ aIdentifier
 neutered
 (
 )
-eStateEntangling
 aRv
 )
 ;
@@ -1139,8 +1145,6 @@ uint32_t
 aSequenceID
 bool
 mNeutered
-State
-aState
 ErrorResult
 &
 aRv
@@ -1177,10 +1181,6 @@ sequenceId
 )
 =
 aSequenceID
-;
-mState
-=
-aState
 ;
 if
 (

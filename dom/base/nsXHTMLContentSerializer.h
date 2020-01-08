@@ -383,9 +383,6 @@ bool
 mIsHTMLSerializer
 ;
 bool
-mDoHeader
-;
-bool
 mIsCopying
 ;
 int32_t

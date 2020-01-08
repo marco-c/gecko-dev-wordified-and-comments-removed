@@ -92,6 +92,12 @@ public
 :
 WorkletLoadInfo
 (
+nsPIDOMWindowInner
+*
+aWindow
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 ~

@@ -354,8 +354,12 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSICONTENTPERMISSIONREQUEST
+explicit
 nsContentPermissionRequestProxy
 (
+ContentPermissionRequestParent
+*
+parent
 )
 ;
 nsresult
@@ -374,9 +378,6 @@ PermissionRequest
 >
 &
 requests
-ContentPermissionRequestParent
-*
-parent
 )
 ;
 void

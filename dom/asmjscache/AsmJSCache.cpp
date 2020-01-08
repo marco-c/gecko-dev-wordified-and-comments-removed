@@ -1844,6 +1844,10 @@ mOperationMayProceed
 (
 true
 )
+mModuleIndex
+(
+0
+)
 mState
 (
 eInitial

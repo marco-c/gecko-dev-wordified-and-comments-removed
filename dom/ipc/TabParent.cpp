@@ -999,6 +999,14 @@ mCursor
 (
 eCursorInvalid
 )
+mCustomCursorHotspotX
+(
+0
+)
+mCustomCursorHotspotY
+(
+0
+)
 mTabSetsCursor
 (
 false

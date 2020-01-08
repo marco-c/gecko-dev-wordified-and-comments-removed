@@ -488,6 +488,7 @@ this
 )
 ;
 }
+MOZ_INIT_OUTSIDE_CTOR
 nsString
 :
 :
@@ -495,6 +496,7 @@ char_type
 *
 mData
 ;
+MOZ_INIT_OUTSIDE_CTOR
 nsString
 :
 :
