@@ -4129,10 +4129,10 @@ ModuleMetadataHook
 >
 moduleMetadataHook
 ;
-js
+mozilla
 :
 :
-MainThreadData
+Atomic
 <
 JS
 :
