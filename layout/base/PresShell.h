@@ -2911,13 +2911,6 @@ mFramesToDirty
 ;
 nsTArray
 <
-nsIFrame
-*
->
-mDirtyRoots
-;
-nsTArray
-<
 nsAutoPtr
 <
 DelayedEvent
