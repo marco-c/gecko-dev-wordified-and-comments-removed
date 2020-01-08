@@ -2206,6 +2206,22 @@ self
 start_tab
 )
     
+skip_if_mobile
+(
+"
+Bug
+1487124
+-
+Android
+need
+its
+own
+maximum
+allowed
+dimensions
+"
+)
+    
 def
 test_capture_vertical_bounds
 (
