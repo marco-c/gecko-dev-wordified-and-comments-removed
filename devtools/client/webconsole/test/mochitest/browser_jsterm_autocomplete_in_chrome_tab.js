@@ -131,7 +131,7 @@ node
 )
 ;
 await
-setInputValueForAutocompletion
+jstermSetValueAndComplete
 (
 jsterm
 "

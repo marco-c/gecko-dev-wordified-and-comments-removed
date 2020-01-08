@@ -203,7 +203,7 @@ HELPERS
 )
 {
 await
-setInputValueForAutocompletion
+jstermSetValueAndComplete
 (
 jsterm
 helper
