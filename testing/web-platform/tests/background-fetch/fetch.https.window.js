@@ -921,16 +921,6 @@ assert_equals
 (
 eventRegistration
 .
-state
-'
-success
-'
-)
-;
-assert_equals
-(
-eventRegistration
-.
 failureReason
 '
 '
