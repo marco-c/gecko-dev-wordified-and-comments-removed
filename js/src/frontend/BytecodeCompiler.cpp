@@ -285,7 +285,7 @@ directives
 RootedScript
 script
 ;
-public
+protected
 :
 BytecodeCompiler
 (
@@ -301,6 +301,8 @@ SourceBufferHolder
 sourceBuffer
 )
 ;
+public
+:
 ScriptSourceObject
 *
 sourceObjectPtr
@@ -316,6 +318,8 @@ get
 )
 ;
 }
+protected
+:
 MOZ_MUST_USE
 bool
 prepareScriptParse
@@ -337,8 +341,6 @@ createCompleteScript
 )
 ;
 }
-protected
-:
 void
 assertSourceAndParserCreated
 (
