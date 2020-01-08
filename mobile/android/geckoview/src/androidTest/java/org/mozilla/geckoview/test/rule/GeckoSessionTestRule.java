@@ -4220,11 +4220,8 @@ GeckoSessionSettings
 ;
 mDefaultSettings
 .
-setBoolean
+setUseMultiprocess
 (
-GeckoSessionSettings
-.
-USE_MULTIPROCESS
 env
 .
 isMultiprocess

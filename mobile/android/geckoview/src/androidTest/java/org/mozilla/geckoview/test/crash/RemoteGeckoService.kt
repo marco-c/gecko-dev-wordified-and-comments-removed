@@ -193,13 +193,9 @@ GeckoSessionSettings
 )
 settings
 .
-setBoolean
-(
-GeckoSessionSettings
-.
-USE_MULTIPROCESS
+isUseMultiprocess
+=
 true
-)
 val
 session
 =

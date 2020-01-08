@@ -698,11 +698,8 @@ this
 .
 settings
 .
-getBoolean
+isUseMultiprocess
 (
-GeckoSessionSettings
-.
-USE_MULTIPROCESS
 )
 fun
 createTestUrl
