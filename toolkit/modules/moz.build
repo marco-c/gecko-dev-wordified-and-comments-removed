@@ -1260,6 +1260,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+AboutPagesUtils
+.
+jsm
+'
+'
 ActorChild
 .
 jsm
