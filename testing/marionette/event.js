@@ -97,17 +97,6 @@ getDOMWindowUtils
 win
 )
 {
-if
-(
-!
-win
-)
-{
-win
-=
-window
-;
-}
 return
 win
 .
@@ -320,9 +309,7 @@ function
 (
 mouseEvent
 target
-window
-=
-undefined
+win
 )
 {
 if
@@ -406,7 +393,7 @@ nodeType
 {
 target
 =
-window
+win
 .
 document
 .
@@ -418,9 +405,9 @@ target
 }
 else
 {
-window
+win
 =
-window
+win
 |
 |
 target
@@ -431,7 +418,7 @@ ownerGlobal
 let
 ev
 =
-window
+win
 .
 document
 .
@@ -445,7 +432,7 @@ MouseEvent
 let
 view
 =
-window
+win
 ;
 let
 detail
@@ -642,9 +629,7 @@ sendChar
 function
 (
 char
-window
-=
-undefined
+win
 )
 {
 let
@@ -671,7 +656,7 @@ shiftKey
 :
 hasShift
 }
-window
+win
 )
 ;
 }
@@ -683,9 +668,7 @@ sendString
 function
 (
 string
-window
-=
-undefined
+win
 )
 {
 for
@@ -716,7 +699,7 @@ charAt
 (
 i
 )
-window
+win
 )
 ;
 }
@@ -729,9 +712,7 @@ sendKey
 function
 (
 key
-window
-=
-undefined
+win
 )
 {
 let
@@ -757,7 +738,7 @@ shiftKey
 :
 false
 }
-window
+win
 )
 ;
 }
@@ -904,9 +885,7 @@ element
 offsetX
 offsetY
 opts
-window
-=
-undefined
+win
 )
 {
 let
@@ -933,7 +912,7 @@ top
 +
 offsetY
 opts
-window
+win
 )
 ;
 }
@@ -948,8 +927,6 @@ left
 top
 opts
 win
-=
-window
 )
 {
 let
@@ -1189,7 +1166,7 @@ function
 (
 element
 event
-window
+win
 )
 {
 let
@@ -1217,7 +1194,7 @@ height
 /
 2
 event
-window
+win
 )
 ;
 }
@@ -1227,8 +1204,6 @@ computeKeyCodeFromChar_
 (
 char
 win
-=
-window
 )
 {
 if
@@ -1687,6 +1662,7 @@ isKeypressFiredKey
 function
 (
 key
+win
 )
 {
 let
@@ -1694,6 +1670,7 @@ KeyboardEvent
 =
 getKeyboardEvent_
 (
+win
 )
 ;
 if
@@ -1822,8 +1799,6 @@ function
 key
 event
 win
-=
-undefined
 )
 {
 let
@@ -2071,17 +2046,6 @@ win
 callback
 )
 {
-if
-(
-!
-win
-)
-{
-win
-=
-window
-;
-}
 let
 tip
 ;
@@ -2174,8 +2138,6 @@ function
 getKeyboardEvent_
 (
 win
-=
-window
 )
 {
 if
@@ -2249,8 +2211,6 @@ createKeyboardEventDictionary_
 key
 keyEvent
 win
-=
-window
 )
 {
 let
@@ -2626,8 +2586,6 @@ emulateToActivateModifiers_
 TIP
 keyEvent
 win
-=
-window
 )
 {
 if
@@ -3084,8 +3042,6 @@ emulateToInactivateModifiers_
 TIP
 modifiers
 win
-=
-window
 )
 {
 if
@@ -3292,8 +3248,6 @@ guessKeyNameFromKeyCode_
 (
 aKeyCode
 win
-=
-window
 )
 {
 let
@@ -4256,9 +4210,7 @@ ev
 expectedTarget
 expectedEvent
 testName
-window
-=
-undefined
+win
 )
 {
 let
@@ -4279,7 +4231,7 @@ target
 offsetX
 offsetY
 ev
-window
+win
 )
 ;
 checkExpectedEvent_
@@ -4303,9 +4255,7 @@ ev
 expectedTarget
 expectedEvent
 testName
-window
-=
-undefined
+win
 )
 {
 let
@@ -4324,7 +4274,7 @@ synthesizeKey
 (
 key
 ev
-window
+win
 )
 ;
 checkExpectedEvent_
@@ -4343,9 +4293,7 @@ synthesizeQuerySelectedText
 =
 function
 (
-window
-=
-undefined
+win
 )
 {
 let
@@ -4353,7 +4301,7 @@ domutils
 =
 getDOMWindowUtils
 (
-window
+win
 )
 ;
 return
@@ -4381,9 +4329,7 @@ function
 offset
 length
 reverse
-window
-=
-undefined
+win
 )
 {
 let
@@ -4391,7 +4337,7 @@ domutils
 =
 getDOMWindowUtils
 (
-window
+win
 )
 ;
 return
@@ -4907,8 +4853,6 @@ isPrintable
 (
 c
 win
-=
-window
 )
 {
 let
@@ -5152,7 +5096,7 @@ function
 (
 keyToSend
 modifiers
-document
+win
 )
 {
 modifiers
@@ -5169,7 +5113,7 @@ sendSingleKey
 (
 keyToSend
 modifiers
-document
+win
 )
 ;
 if
@@ -5213,7 +5157,7 @@ sendSingleKey
 (
 keyToSend
 modifiers
-document
+win
 )
 ;
 }
@@ -5232,9 +5176,7 @@ function
 (
 keyToSend
 modifiers
-window
-=
-undefined
+win
 )
 {
 modifiers
@@ -5251,7 +5193,7 @@ sendSingleKey
 (
 keyToSend
 modifiers
-window
+win
 )
 ;
 delete
@@ -5269,9 +5211,7 @@ function
 (
 keyToSend
 modifiers
-window
-=
-undefined
+win
 )
 {
 let
@@ -5340,7 +5280,7 @@ synthesizeKey
 (
 keyName
 modifiers
-window
+win
 )
 ;
 }
@@ -5353,9 +5293,7 @@ function
 (
 keyString
 el
-window
-=
-undefined
+win
 )
 {
 let
@@ -5422,7 +5360,7 @@ sendSingleKey
 (
 c
 modifiers
-window
+win
 )
 ;
 }
