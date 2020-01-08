@@ -82,6 +82,7 @@ typename
 Args
 >
 MOZ_IMPLICIT
+constexpr
 Array
 (
 Args
