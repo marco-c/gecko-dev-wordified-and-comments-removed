@@ -20,6 +20,7 @@ URL
 URLPrefix
 Domain
 RegExp
+MediaDocument
 }
 ;
 }
