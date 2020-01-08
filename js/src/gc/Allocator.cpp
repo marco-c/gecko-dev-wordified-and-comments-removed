@@ -946,6 +946,17 @@ nursery
 isEnabled
 (
 )
+&
+&
+cx
+-
+>
+zone
+(
+)
+-
+>
+allocNurseryStrings
 )
 return
 static_cast
