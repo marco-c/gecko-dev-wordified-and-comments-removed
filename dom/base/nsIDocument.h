@@ -9854,9 +9854,13 @@ MaybeActiveMediaComponents
 bool
 ApplyFullscreen
 (
-const
+mozilla
+:
+:
+UniquePtr
+<
 FullscreenRequest
-&
+>
 aRequest
 )
 ;
