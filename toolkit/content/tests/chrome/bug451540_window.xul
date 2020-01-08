@@ -426,11 +426,10 @@ tarea
 /
 >
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 data
 )
 ;
