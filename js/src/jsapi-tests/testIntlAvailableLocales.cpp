@@ -1,6 +1,15 @@
 #
 include
 "
+js
+/
+LocaleSensitive
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
