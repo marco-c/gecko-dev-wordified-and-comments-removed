@@ -189,6 +189,7 @@ time
 >
 MaxTimeMagnitude
 )
+{
 return
 ClippedTime
 (
@@ -203,6 +204,7 @@ double
 )
 )
 ;
+}
 return
 ClippedTime
 (

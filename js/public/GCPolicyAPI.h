@@ -404,6 +404,7 @@ if
 *
 vp
 )
+{
 js
 :
 :
@@ -414,6 +415,7 @@ vp
 name
 )
 ;
+}
 }
 static
 bool
@@ -429,6 +431,7 @@ if
 *
 vp
 )
+{
 return
 js
 :
@@ -441,6 +444,7 @@ IsAboutToBeFinalizedUnbarriered
 vp
 )
 ;
+}
 return
 false
 ;
@@ -548,6 +552,7 @@ if
 *
 vp
 )
+{
 (
 *
 vp
@@ -559,6 +564,7 @@ trace
 trc
 )
 ;
+}
 }
 static
 bool
@@ -574,6 +580,7 @@ if
 *
 vp
 )
+{
 return
 (
 *
@@ -585,6 +592,7 @@ needsSweep
 (
 )
 ;
+}
 return
 false
 ;
@@ -736,6 +744,7 @@ get
 (
 )
 )
+{
 GCPolicy
 <
 T
@@ -754,6 +763,7 @@ get
 name
 )
 ;
+}
 }
 static
 bool
@@ -780,6 +790,7 @@ get
 (
 )
 )
+{
 return
 GCPolicy
 <
@@ -797,6 +808,7 @@ get
 )
 )
 ;
+}
 return
 false
 ;
@@ -826,6 +838,7 @@ get
 (
 )
 )
+{
 return
 GCPolicy
 <
@@ -843,6 +856,7 @@ get
 )
 )
 ;
+}
 return
 true
 ;
@@ -897,6 +911,7 @@ isSome
 (
 )
 )
+{
 GCPolicy
 <
 T
@@ -915,6 +930,7 @@ ptr
 name
 )
 ;
+}
 }
 static
 bool
@@ -940,6 +956,7 @@ isSome
 (
 )
 )
+{
 return
 GCPolicy
 <
@@ -957,6 +974,7 @@ ptr
 )
 )
 ;
+}
 return
 false
 ;
@@ -985,6 +1003,7 @@ isSome
 (
 )
 )
+{
 return
 GCPolicy
 <
@@ -1001,6 +1020,7 @@ ref
 )
 )
 ;
+}
 return
 true
 ;

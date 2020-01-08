@@ -426,10 +426,12 @@ beginPtr
 >
 endPtr
 )
+{
 beginPtr
 =
 endPtr
 ;
+}
 }
 }
 ;
@@ -712,6 +714,7 @@ growBy
 length
 )
 )
+{
 return
 mozilla
 :
@@ -720,6 +723,7 @@ Nothing
 (
 )
 ;
+}
 memset
 (
 indices
@@ -751,6 +755,7 @@ i
 +
 +
 )
+{
 indices
 [
 doms
@@ -761,6 +766,7 @@ i
 +
 +
 ;
+}
 uint32_t
 sumOfSizes
 =
@@ -1218,6 +1224,7 @@ finger1
 <
 finger2
 )
+{
 finger1
 =
 doms
@@ -1225,6 +1232,7 @@ doms
 finger1
 ]
 ;
+}
 else
 if
 (
@@ -1232,6 +1240,7 @@ finger2
 <
 finger1
 )
+{
 finger2
 =
 doms
@@ -1239,6 +1248,7 @@ doms
 finger2
 ]
 ;
+}
 }
 return
 finger1
@@ -1308,9 +1318,11 @@ nodeCount
 UINT32_MAX
 )
 )
+{
 return
 false
 ;
+}
 return
 postOrder
 .
@@ -1522,9 +1534,11 @@ reserve
 length
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 uint32_t
@@ -1540,6 +1554,7 @@ i
 +
 +
 )
+{
 map
 .
 putNewInfallible
@@ -1551,6 +1566,7 @@ i
 i
 )
 ;
+}
 return
 true
 ;
@@ -1647,9 +1663,11 @@ growBy
 length
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 uint32_t
@@ -1771,9 +1789,11 @@ count
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 auto
@@ -1889,9 +1909,11 @@ growByUninitialized
 length
 )
 )
+{
 return
 false
 ;
+}
 doms
 [
 length
@@ -1920,6 +1942,7 @@ i
 +
 +
 )
+{
 doms
 [
 i
@@ -1927,6 +1950,7 @@ i
 =
 UNDEFINED
 ;
+}
 return
 true
 ;
@@ -2382,6 +2406,7 @@ postOrder
 predecessorSets
 )
 )
+{
 return
 mozilla
 :
@@ -2390,6 +2415,7 @@ Nothing
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 postOrder
@@ -2442,6 +2468,7 @@ postOrder
 nodeToPostOrderIndex
 )
 )
+{
 return
 mozilla
 :
@@ -2450,6 +2477,7 @@ Nothing
 (
 )
 ;
+}
 JS
 :
 :
@@ -2512,6 +2540,7 @@ doms
 length
 )
 )
+{
 return
 mozilla
 :
@@ -2520,6 +2549,7 @@ Nothing
 (
 )
 ;
+}
 bool
 changed
 =
@@ -2715,6 +2745,7 @@ idx
 =
 UNDEFINED
 )
+{
 newIDomIdx
 =
 intersect
@@ -2724,6 +2755,7 @@ newIDomIdx
 idx
 )
 ;
+}
 }
 if
 (
@@ -2773,6 +2805,7 @@ isNothing
 (
 )
 )
+{
 return
 mozilla
 :
@@ -2781,6 +2814,7 @@ Nothing
 (
 )
 ;
+}
 return
 mozilla
 :
@@ -2872,11 +2906,13 @@ if
 !
 ptr
 )
+{
 return
 Node
 (
 )
 ;
+}
 auto
 idx
 =
@@ -2942,6 +2978,7 @@ if
 !
 ptr
 )
+{
 return
 mozilla
 :
@@ -2950,6 +2987,7 @@ Nothing
 (
 )
 ;
+}
 auto
 idx
 =
@@ -3051,9 +3089,11 @@ computeRetainedSizes
 mallocSizeOf
 )
 )
+{
 return
 false
 ;
+}
 auto
 idx
 =

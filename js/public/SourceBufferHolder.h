@@ -213,6 +213,7 @@ if
 (
 ownsChars_
 )
+{
 js_free
 (
 const_cast
@@ -225,6 +226,7 @@ data_
 )
 )
 ;
+}
 }
 const
 char16_t

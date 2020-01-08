@@ -1063,6 +1063,7 @@ ensureCapacitySlow
 )
 )
 )
+{
 frames
 [
 oldStackPointer
@@ -1077,6 +1078,7 @@ line
 category
 )
 ;
+}
 stackPointer
 =
 oldStackPointer
@@ -1114,6 +1116,7 @@ ensureCapacitySlow
 )
 )
 )
+{
 frames
 [
 oldStackPointer
@@ -1124,6 +1127,7 @@ initSpMarkerFrame
 sp
 )
 ;
+}
 stackPointer
 =
 oldStackPointer
@@ -1172,6 +1176,7 @@ ensureCapacitySlow
 )
 )
 )
+{
 frames
 [
 oldStackPointer
@@ -1185,6 +1190,7 @@ script
 pc
 )
 ;
+}
 stackPointer
 =
 oldStackPointer

@@ -345,9 +345,11 @@ bytes
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 static_cast
 <
@@ -416,6 +418,7 @@ MOZ_UNLIKELY
 p
 )
 )
+{
 p
 =
 onOutOfMemoryTyped
@@ -430,6 +433,7 @@ Malloc
 numElems
 )
 ;
+}
 return
 p
 ;
@@ -470,6 +474,7 @@ MOZ_UNLIKELY
 p
 )
 )
+{
 p
 =
 onOutOfMemoryTyped
@@ -484,6 +489,7 @@ Calloc
 numElems
 )
 ;
+}
 return
 p
 ;
@@ -531,6 +537,7 @@ MOZ_UNLIKELY
 p2
 )
 )
+{
 p2
 =
 onOutOfMemoryTyped
@@ -546,6 +553,7 @@ newSize
 prior
 )
 ;
+}
 return
 p2
 ;

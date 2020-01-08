@@ -595,6 +595,7 @@ JSID_IS_STRING
 id
 )
 )
+{
 return
 JS
 :
@@ -611,6 +612,7 @@ TraceKind
 String
 )
 ;
+}
 MOZ_ASSERT
 (
 JSID_IS_SYMBOL
@@ -855,9 +857,11 @@ JSID_IS_GCTHING
 id
 )
 )
+{
 return
 true
 ;
+}
 return
 CellIsNotGray
 (
@@ -906,6 +910,7 @@ JSID_IS_STRING
 id
 )
 )
+{
 return
 reinterpret_cast
 <
@@ -922,6 +927,7 @@ id
 )
 )
 ;
+}
 if
 (
 JSID_IS_SYMBOL
@@ -929,6 +935,7 @@ JSID_IS_SYMBOL
 id
 )
 )
+{
 return
 reinterpret_cast
 <
@@ -945,6 +952,7 @@ id
 )
 )
 ;
+}
 return
 nullptr
 ;
@@ -978,6 +986,7 @@ JSID_IS_GCTHING
 id
 )
 )
+{
 js
 :
 :
@@ -992,6 +1001,7 @@ id
 )
 )
 ;
+}
 }
 }
 ;
@@ -1059,6 +1069,7 @@ JSID_IS_STRING
 id
 )
 )
+{
 return
 f
 (
@@ -1081,6 +1092,7 @@ args
 .
 )
 ;
+}
 if
 (
 JSID_IS_SYMBOL
@@ -1088,6 +1100,7 @@ JSID_IS_SYMBOL
 id
 )
 )
+{
 return
 f
 (
@@ -1110,6 +1123,7 @@ args
 .
 )
 ;
+}
 MOZ_ASSERT
 (
 !

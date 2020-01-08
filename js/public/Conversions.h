@@ -400,6 +400,7 @@ isBoolean
 (
 )
 )
+{
 return
 v
 .
@@ -407,6 +408,7 @@ toBoolean
 (
 )
 ;
+}
 if
 (
 v
@@ -415,6 +417,7 @@ isInt32
 (
 )
 )
+{
 return
 v
 .
@@ -425,6 +428,7 @@ toInt32
 =
 0
 ;
+}
 if
 (
 v
@@ -433,9 +437,11 @@ isNullOrUndefined
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 v
@@ -479,9 +485,11 @@ isSymbol
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 js
 :
@@ -564,9 +572,11 @@ d
 =
 0
 )
+{
 return
 d
 ;
+}
 if
 (
 !
@@ -589,9 +599,11 @@ IsNaN
 d
 )
 )
+{
 return
 0
 ;
+}
 return
 d
 ;
@@ -1130,6 +1142,7 @@ isString
 (
 )
 )
+{
 return
 v
 .
@@ -1137,6 +1150,7 @@ toString
 (
 )
 ;
+}
 return
 js
 :
@@ -1177,6 +1191,7 @@ isObject
 (
 )
 )
+{
 return
 &
 v
@@ -1185,6 +1200,7 @@ toObject
 (
 )
 ;
+}
 return
 js
 :
@@ -1304,9 +1320,11 @@ exp
 <
 0
 )
+{
 return
 0
 ;
+}
 uint_fast16_t
 exponent
 =
@@ -1341,9 +1359,11 @@ DoubleExponentShift
 +
 ResultWidth
 )
+{
 return
 0
 ;
+}
 static_assert
 (
 sizeof

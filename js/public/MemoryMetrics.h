@@ -1935,6 +1935,7 @@ if
 !
 allScriptSources
 )
+{
 MOZ_CRASH
 (
 "
@@ -1942,6 +1943,7 @@ oom
 "
 )
 ;
+}
 }
 ~
 RuntimeSizes

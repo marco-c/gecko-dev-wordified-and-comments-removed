@@ -1588,6 +1588,7 @@ if
 *
 thingp
 )
+{
 js
 :
 :
@@ -1606,6 +1607,7 @@ unsafeGet
 name
 )
 ;
+}
 }
 template
 <

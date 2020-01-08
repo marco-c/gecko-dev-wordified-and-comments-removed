@@ -1401,9 +1401,11 @@ if
 !
 maybeCell
 )
+{
 return
 true
 ;
+}
 return
 js
 :
@@ -1635,11 +1637,13 @@ if
 (
 newPtr
 )
+{
 AssertGCThingMustBeTenured
 (
 newPtr
 )
 ;
+}
 bits
 =
 (
@@ -2615,9 +2619,11 @@ if
 !
 v
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 uintptr_t
@@ -2662,6 +2668,7 @@ if
 (
 next
 )
+{
 JS
 :
 :
@@ -2684,6 +2691,7 @@ next
 )
 ;
 }
+}
 static
 void
 exposeToJS
@@ -2697,6 +2705,7 @@ if
 (
 t
 )
+{
 js
 :
 :
@@ -2716,6 +2725,7 @@ t
 ;
 }
 }
+}
 ;
 template
 <
@@ -2756,9 +2766,11 @@ if
 !
 v
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 uintptr_t
@@ -2823,6 +2835,7 @@ if
 (
 obj
 )
+{
 JS
 :
 :
@@ -2831,6 +2844,7 @@ ExposeObjectToActiveJS
 obj
 )
 ;
+}
 }
 }
 ;
@@ -2873,9 +2887,11 @@ if
 !
 v
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 uintptr_t
@@ -2962,6 +2978,7 @@ if
 (
 fun
 )
+{
 JS
 :
 :
@@ -2977,6 +2994,7 @@ fun
 )
 )
 ;
+}
 }
 }
 ;
@@ -3019,9 +3037,11 @@ if
 !
 v
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 uintptr_t
@@ -3086,6 +3106,7 @@ if
 (
 v
 )
+{
 js
 :
 :
@@ -3103,6 +3124,7 @@ v
 )
 )
 ;
+}
 }
 }
 ;
@@ -4604,12 +4626,14 @@ GetContextRealm
 cx
 )
 )
+{
 return
 GetCompartmentForRealm
 (
 realm
 )
 ;
+}
 return
 nullptr
 ;
