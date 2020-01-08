@@ -348,12 +348,6 @@ TimeDuration
 aTimeout
 )
 ;
-static
-void
-StopVRListenerThreadTasks
-(
-)
-;
 protected
 :
 VRManager

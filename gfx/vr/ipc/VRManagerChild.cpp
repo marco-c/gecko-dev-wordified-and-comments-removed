@@ -530,7 +530,7 @@ sVRManagerParentSingleton
 GetIPCChannel
 (
 )
-VRListenerThreadHolder
+CompositorThreadHolder
 :
 :
 Loop

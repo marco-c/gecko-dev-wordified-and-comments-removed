@@ -35,6 +35,17 @@ mozilla
 /
 layers
 /
+CompositorThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureHost
 .
 h
@@ -1359,7 +1370,7 @@ MessageLoop
 *
 loop
 =
-VRListenerThreadHolder
+CompositorThreadHolder
 :
 :
 Loop

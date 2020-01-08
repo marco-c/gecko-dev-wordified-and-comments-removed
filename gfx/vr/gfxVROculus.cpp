@@ -7626,7 +7626,7 @@ MOZ_ASSERT
 vm
 )
 ;
-VRListenerThreadHolder
+CompositorThreadHolder
 :
 :
 Loop

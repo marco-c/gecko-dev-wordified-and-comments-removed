@@ -347,13 +347,13 @@ mozilla
 :
 :
 Monitor
-mCurrentVRListenerTaskMonitor
+mCurrentVRTaskMonitor
 ;
 RefPtr
 <
 Runnable
 >
-mCurrentVRListenerTask
+mCurrentVRTask
 ;
 }
 ;

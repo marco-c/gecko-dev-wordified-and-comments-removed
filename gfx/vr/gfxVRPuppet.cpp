@@ -71,6 +71,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+CompositorThread
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h
@@ -2204,7 +2215,7 @@ MessageLoop
 *
 loop
 =
-VRListenerThreadHolder
+CompositorThreadHolder
 :
 :
 Loop
@@ -3112,7 +3123,7 @@ MessageLoop
 *
 loop
 =
-VRListenerThreadHolder
+CompositorThreadHolder
 :
 :
 Loop
