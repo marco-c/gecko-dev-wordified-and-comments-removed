@@ -1843,6 +1843,10 @@ focusJob
 )
 ;
 }
+SyncDisabledState
+(
+)
+;
 if
 (
 StyleDisplay
@@ -1906,10 +1910,6 @@ CSSPseudoElementType
 :
 :
 mozNumberSpinDown
-)
-;
-SyncDisabledState
-(
 )
 ;
 return
