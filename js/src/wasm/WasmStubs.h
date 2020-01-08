@@ -490,8 +490,6 @@ JitCallStackArgVector
 stackArgs
 bool
 profilingEnabled
-bool
-wasmGcEnabled
 jit
 :
 :
