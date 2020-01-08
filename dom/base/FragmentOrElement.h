@@ -34,13 +34,6 @@ h
 #
 include
 "
-AttrArray
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -499,7 +492,11 @@ FragmentOrElement
 *
 aDest
 )
+{
+return
+NS_OK
 ;
+}
 public
 :
 class
@@ -931,9 +928,6 @@ class
 :
 :
 ContentUnbinder
-;
-AttrArray
-mAttrs
 ;
 }
 ;
