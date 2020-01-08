@@ -842,11 +842,6 @@ BSPTree
 h
 '
 '
-BufferEdgePad
-.
-h
-'
-'
 BufferTexture
 .
 h
@@ -2357,11 +2352,6 @@ cpp
 '
 '
 BSPTree
-.
-cpp
-'
-'
-BufferEdgePad
 .
 cpp
 '
