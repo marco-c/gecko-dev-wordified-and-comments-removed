@@ -1109,7 +1109,6 @@ return
 NS_OK
 ;
 }
-static
 nsresult
 GetPromise
 (

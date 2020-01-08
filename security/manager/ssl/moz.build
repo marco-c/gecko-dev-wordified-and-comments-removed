@@ -193,6 +193,11 @@ nsIOSKeyStore
 idl
 '
 '
+nsIOSReauthenticator
+.
+idl
+'
+'
 nsIPK11Token
 .
 idl
@@ -642,6 +647,11 @@ cpp
 '
 '
 OSKeyStore
+.
+cpp
+'
+'
+OSReauthenticator
 .
 cpp
 '
