@@ -38819,13 +38819,6 @@ DeserializeWasmModule
 PRFileDesc
 *
 bytecode
-JS
-:
-:
-BuildIdCharVector
-&
-&
-buildId
 UniqueChars
 filename
 unsigned
@@ -38839,13 +38832,6 @@ wasm
 DeserializeModule
 (
 bytecode
-std
-:
-:
-move
-(
-buildId
-)
 std
 :
 :

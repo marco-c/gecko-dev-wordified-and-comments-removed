@@ -488,9 +488,6 @@ ModuleEnvironment
 const
 env_
 ;
-Assumptions
-assumptions_
-;
 UniqueLinkDataTier
 linkDataTier_
 ;
