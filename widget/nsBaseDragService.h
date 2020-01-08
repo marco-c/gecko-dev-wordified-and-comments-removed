@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIScriptableRegion
-.
-h
-"
-#
-include
-"
 nsITransferable
 .
 h
