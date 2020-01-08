@@ -189,6 +189,14 @@ boolean
 fatal
 ;
 [
+Constant
+]
+readonly
+attribute
+boolean
+ignoreBOM
+;
+[
 Throws
 ]
 USVString
@@ -209,6 +217,11 @@ TextDecoderOptions
 {
 boolean
 fatal
+=
+false
+;
+boolean
+ignoreBOM
 =
 false
 ;
