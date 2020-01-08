@@ -22894,6 +22894,13 @@ String
 {
 }
 }
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 RendererStats
