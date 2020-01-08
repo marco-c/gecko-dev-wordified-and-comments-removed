@@ -2728,7 +2728,7 @@ BrushInstance
 {
 segment_index
 :
-0
+INVALID_SEGMENT_INDEX
 edge_flags
 :
 EdgeAaSegmentMask
@@ -3829,7 +3829,7 @@ BrushInstance
 {
 segment_index
 :
-0
+INVALID_SEGMENT_INDEX
 edge_flags
 :
 EdgeAaSegmentMask
@@ -4939,7 +4939,7 @@ BrushInstance
 prim_header_index
 segment_index
 :
-0
+INVALID_SEGMENT_INDEX
 edge_flags
 :
 EdgeAaSegmentMask
@@ -5345,7 +5345,7 @@ shadow_prim_header_index
 clip_task_address
 segment_index
 :
-0
+INVALID_SEGMENT_INDEX
 edge_flags
 :
 EdgeAaSegmentMask
@@ -5378,7 +5378,7 @@ content_prim_header_index
 clip_task_address
 segment_index
 :
-0
+INVALID_SEGMENT_INDEX
 edge_flags
 :
 EdgeAaSegmentMask
@@ -5828,7 +5828,7 @@ prim_header_index
 clip_task_address
 segment_index
 :
-0
+INVALID_SEGMENT_INDEX
 edge_flags
 :
 EdgeAaSegmentMask
@@ -6036,7 +6036,7 @@ prim_header_index
 clip_task_address
 segment_index
 :
-0
+INVALID_SEGMENT_INDEX
 edge_flags
 :
 EdgeAaSegmentMask
@@ -6237,7 +6237,7 @@ prim_header_index
 clip_task_address
 segment_index
 :
-0
+INVALID_SEGMENT_INDEX
 edge_flags
 :
 EdgeAaSegmentMask
