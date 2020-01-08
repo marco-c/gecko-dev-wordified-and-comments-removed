@@ -2299,6 +2299,12 @@ file
 >
 label
 {
+display
+:
+inline
+-
+block
+;
 min
 -
 inline
