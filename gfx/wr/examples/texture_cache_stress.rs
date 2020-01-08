@@ -1266,7 +1266,11 @@ take
 (
 )
 )
-None
+&
+DirtyRect
+:
+:
+All
 )
 ;
 }
