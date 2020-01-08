@@ -570,12 +570,11 @@ tabsToClose
 ;
 if
 (
-isTabEmpty
-(
 gBrowser
 .
 selectedTab
-)
+.
+isEmpty
 )
 {
 tabsToClose

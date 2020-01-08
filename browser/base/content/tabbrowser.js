@@ -5269,10 +5269,9 @@ window
 fullScreen
 |
 |
-isTabEmpty
-(
 newTab
-)
+.
+isEmpty
 )
 {
 focusAndSelectUrlBar
@@ -22969,12 +22968,11 @@ isSuccessful
 &
 &
 !
-isTabEmpty
-(
 this
 .
 mTab
-)
+.
+isEmpty
 )
 {
 this

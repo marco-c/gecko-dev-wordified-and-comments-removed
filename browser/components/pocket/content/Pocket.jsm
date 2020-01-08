@@ -141,14 +141,11 @@ current
 !
 win
 .
-isTabEmpty
-(
-win
-.
 gBrowser
 .
 selectedTab
-)
+.
+isEmpty
 )
 {
 where

@@ -1594,12 +1594,11 @@ newTabPref
 &
 &
 !
-isTabEmpty
-(
 gBrowser
 .
 selectedTab
-)
+.
+isEmpty
 )
 {
 where

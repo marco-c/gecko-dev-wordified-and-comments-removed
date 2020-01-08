@@ -5071,12 +5071,11 @@ tab
 reuseEmpty
 &
 &
-isTabEmpty
-(
 gBrowser
 .
 selectedTab
-)
+.
+isEmpty
 )
 {
 where
@@ -5895,10 +5894,9 @@ loadOpts
 )
 &
 &
-isTabEmpty
-(
 prevTab
-)
+.
+isEmpty
 )
 {
 gBrowser

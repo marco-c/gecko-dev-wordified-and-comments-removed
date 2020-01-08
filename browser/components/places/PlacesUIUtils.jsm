@@ -2738,14 +2738,11 @@ tab
 &
 browserWindow
 .
-isTabEmpty
-(
-browserWindow
-.
 gBrowser
 .
 selectedTab
-)
+.
+isEmpty
 )
 {
 where
