@@ -346,7 +346,7 @@ shippingOption
 }
 ;
 struct
-IPCPaymentCleanupActionRequest
+IPCPaymentCloseActionRequest
 {
 nsString
 requestId
@@ -368,7 +368,7 @@ IPCPaymentCompleteActionRequest
 ;
 IPCPaymentUpdateActionRequest
 ;
-IPCPaymentCleanupActionRequest
+IPCPaymentCloseActionRequest
 ;
 }
 ;

@@ -1758,7 +1758,7 @@ case
 nsIPaymentActionRequest
 :
 :
-CLEANUP_ACTION
+CLOSE_ACTION
 :
 {
 nsCOMPtr
@@ -1894,6 +1894,16 @@ rv
 {
 return
 rv
+;
+}
+if
+(
+!
+request
+)
+{
+return
+NS_ERROR_FAILURE
 ;
 }
 nsCOMPtr

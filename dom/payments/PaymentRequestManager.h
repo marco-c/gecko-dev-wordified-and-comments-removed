@@ -191,7 +191,7 @@ aDeferredShow
 )
 ;
 nsresult
-CleanupPayment
+ClosePayment
 (
 PaymentRequest
 *
