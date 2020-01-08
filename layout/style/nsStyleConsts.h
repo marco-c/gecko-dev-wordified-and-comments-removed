@@ -125,8 +125,6 @@ None
 0
 Left
 Right
-InlineStart
-InlineEnd
 Both
 Line
 =
