@@ -1194,6 +1194,12 @@ getCurrentMatrix
 (
 element
 window
+{
+ignoreWritingModeAndTextDirection
+}
+=
+{
+}
 )
 {
 const
@@ -1398,6 +1404,12 @@ paddingTop
 paddingBottom
 }
 ;
+if
+(
+!
+ignoreWritingModeAndTextDirection
+)
+{
 const
 writingModeMatrix
 =
@@ -1424,6 +1436,7 @@ currentMatrix
 writingModeMatrix
 )
 ;
+}
 }
 return
 {

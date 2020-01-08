@@ -3612,6 +3612,11 @@ currentNode
 this
 .
 win
+{
+ignoreWritingModeAndTextDirection
+:
+true
+}
 )
 ;
 this
