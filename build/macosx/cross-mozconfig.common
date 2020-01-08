@@ -249,13 +249,6 @@ System
 Library
 /
 PrivateFrameworks
-FLAGS
-=
-"
--
-isysroot
-CROSS_SYSROOT
-"
 export
 CC
 =
@@ -267,7 +260,6 @@ clang
 bin
 /
 clang
-FLAGS
 "
 export
 CXX
@@ -282,7 +274,6 @@ bin
 clang
 +
 +
-FLAGS
 "
 export
 CPP
@@ -295,7 +286,6 @@ clang
 bin
 /
 clang
-FLAGS
 -
 E
 "
@@ -325,7 +315,9 @@ export
 BINDGEN_CFLAGS
 =
 "
-FLAGS
+-
+isysroot
+CROSS_SYSROOT
 "
 export
 DSYMUTIL
@@ -451,6 +443,16 @@ x86_64
 apple
 -
 darwin11
+ac_add_options
+-
+-
+with
+-
+macos
+-
+sdk
+=
+CROSS_SYSROOT
 ac_add_options
 -
 -
