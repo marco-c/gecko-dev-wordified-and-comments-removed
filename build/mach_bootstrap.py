@@ -1802,6 +1802,22 @@ TELEMETRY_SUBMISSION_FREQUENCY
             
 return
         
+machpath
+=
+os
+.
+path
+.
+join
+(
+instance
+.
+topsrcdir
+'
+mach
+'
+)
+        
 with
 open
 (
@@ -1821,9 +1837,18 @@ subprocess
 Popen
 (
 [
-sys
-.
-executable
+machpath
+'
+python
+'
+                              
+'
+-
+-
+no
+-
+virtualenv
+'
                               
 os
 .
