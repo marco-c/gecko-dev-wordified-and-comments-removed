@@ -282,7 +282,7 @@ run
 -
 time
 :
-7200
+3600
 env
 :
 TOOLTOOL_MANIFEST
