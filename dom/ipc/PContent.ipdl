@@ -2765,10 +2765,6 @@ SystemFontListEntry
 [
 ]
 systemFontList
-FileDescriptor
-sharedDataMapFile
-uint32_t
-sharedDataMapSize
 )
 ;
 /

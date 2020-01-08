@@ -174,6 +174,7 @@ bool
 initialized
 (
 )
+const
 {
 return
 addr
