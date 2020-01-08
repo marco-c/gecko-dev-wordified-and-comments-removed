@@ -120,6 +120,7 @@ pseudoElement
 ;
 partial
 interface
+mixin
 GlobalEventHandlers
 {
 attribute
