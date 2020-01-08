@@ -357,7 +357,7 @@ true
 )
 mStatus
 (
-nsIDOMOfflineResourceList
+OfflineResourceList_Binding
 :
 :
 IDLE
@@ -2085,7 +2085,7 @@ mDocumentURI
 *
 aStatus
 =
-nsIDOMOfflineResourceList
+OfflineResourceList_Binding
 :
 :
 UNCACHED
@@ -2119,7 +2119,7 @@ appCache
 *
 aStatus
 =
-nsIDOMOfflineResourceList
+OfflineResourceList_Binding
 :
 :
 UNCACHED
@@ -2158,7 +2158,7 @@ rv
 aStatus
 !
 =
-nsIDOMOfflineResourceList
+OfflineResourceList_Binding
 :
 :
 IDLE
@@ -2177,7 +2177,7 @@ mAvailableApplicationCache
 *
 aStatus
 =
-nsIDOMOfflineResourceList
+OfflineResourceList_Binding
 :
 :
 UPDATEREADY
@@ -2405,6 +2405,9 @@ if
 mStatus
 !
 =
+OfflineResourceList_Binding
+:
+:
 OBSOLETE
 )
 {
@@ -2454,7 +2457,7 @@ nullptr
 ;
 mStatus
 =
-nsIDOMOfflineResourceList
+OfflineResourceList_Binding
 :
 :
 IDLE
@@ -2839,7 +2842,7 @@ STATE_OBSOLETE
 :
 mStatus
 =
-nsIDOMOfflineResourceList
+OfflineResourceList_Binding
 :
 :
 OBSOLETE
@@ -3371,7 +3374,7 @@ partial
 {
 mStatus
 =
-nsIDOMOfflineResourceList
+OfflineResourceList_Binding
 :
 :
 IDLE

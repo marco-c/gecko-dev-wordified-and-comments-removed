@@ -405,7 +405,9 @@ value
 *
 defined
 in
-nsIDOMOfflineResourceList
+OfflineResourceList
+.
+webidl
 .
 *
 /
