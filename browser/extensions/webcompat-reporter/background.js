@@ -626,6 +626,13 @@ tabs
 create
 (
 {
+url
+:
+"
+about
+:
+blank
+"
 }
 )
 ;

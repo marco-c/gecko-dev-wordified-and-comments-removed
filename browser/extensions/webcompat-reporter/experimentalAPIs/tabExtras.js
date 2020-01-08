@@ -765,6 +765,15 @@ browser
 tab
 .
 browser
+&
+&
+locationURI
+.
+spec
+=
+=
+=
+url
 )
 {
 windowTracker
