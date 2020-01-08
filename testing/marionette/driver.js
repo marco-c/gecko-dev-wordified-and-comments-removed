@@ -3586,6 +3586,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -3926,6 +3927,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -4045,6 +4047,7 @@ prototype
 .
 getCurrentUrl
 =
+async
 function
 (
 )
@@ -4060,6 +4063,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -4083,6 +4087,7 @@ prototype
 .
 getTitle
 =
+async
 function
 (
 )
@@ -4098,6 +4103,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -4164,6 +4170,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -4264,6 +4271,7 @@ this
 curBrowser
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -4417,6 +4425,7 @@ this
 curBrowser
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -4572,6 +4581,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -4924,6 +4934,7 @@ prototype
 .
 getWindowRect
 =
+async
 function
 (
 )
@@ -4939,6 +4950,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -4986,6 +4998,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -5881,6 +5894,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -5921,6 +5935,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -7101,6 +7116,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -7165,6 +7181,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -7208,6 +7225,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -7330,6 +7348,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -7385,6 +7404,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -7836,6 +7856,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -7876,6 +7897,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -8089,6 +8111,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -8228,6 +8251,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -8365,6 +8389,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -8506,6 +8531,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -8631,6 +8657,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -8761,6 +8788,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -8914,6 +8942,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -9041,6 +9070,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -9171,6 +9201,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -9328,6 +9359,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -9475,6 +9507,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -9704,6 +9737,7 @@ prototype
 .
 addCookie
 =
+async
 function
 (
 cmd
@@ -9729,6 +9763,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -9822,6 +9857,7 @@ prototype
 .
 getCookies
 =
+async
 function
 (
 )
@@ -9846,6 +9882,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -9884,6 +9921,7 @@ prototype
 .
 deleteAllCookies
 =
+async
 function
 (
 )
@@ -9908,6 +9946,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -9954,6 +9993,7 @@ prototype
 .
 deleteCookie
 =
+async
 function
 (
 cmd
@@ -9979,6 +10019,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -10070,6 +10111,7 @@ Content
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -10964,6 +11006,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -11088,6 +11131,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -11325,6 +11369,7 @@ getCurrentWindow
 )
 )
 ;
+await
 this
 .
 _handleUserPrompts
@@ -11425,10 +11470,14 @@ prototype
 .
 dismissDialog
 =
+async
 function
 (
 )
 {
+let
+win
+=
 assert
 .
 open
@@ -11444,6 +11493,48 @@ this
 .
 _checkIfAlertIsPresent
 (
+)
+;
+await
+new
+Promise
+(
+resolve
+=
+>
+{
+win
+.
+addEventListener
+(
+"
+DOMModalDialogClosed
+"
+whenIdle
+(
+win
+(
+)
+=
+>
+{
+this
+.
+dialog
+=
+null
+;
+resolve
+(
+)
+;
+}
+)
+{
+once
+:
+true
+}
 )
 ;
 let
@@ -11470,11 +11561,8 @@ click
 (
 )
 ;
-this
-.
-dialog
-=
-null
+}
+)
 ;
 }
 ;
@@ -11484,10 +11572,14 @@ prototype
 .
 acceptDialog
 =
+async
 function
 (
 )
 {
+let
+win
+=
 assert
 .
 open
@@ -11503,6 +11595,48 @@ this
 .
 _checkIfAlertIsPresent
 (
+)
+;
+await
+new
+Promise
+(
+resolve
+=
+>
+{
+win
+.
+addEventListener
+(
+"
+DOMModalDialogClosed
+"
+whenIdle
+(
+win
+(
+)
+=
+>
+{
+this
+.
+dialog
+=
+null
+;
+resolve
+(
+)
+;
+}
+)
+{
+once
+:
+true
+}
 )
 ;
 let
@@ -11522,11 +11656,8 @@ click
 (
 )
 ;
-this
-.
-dialog
-=
-null
+}
+)
 ;
 }
 ;
@@ -11669,6 +11800,7 @@ prototype
 .
 _handleUserPrompts
 =
+async
 function
 (
 )
@@ -11716,6 +11848,7 @@ UnhandledPromptBehavior
 .
 Accept
 :
+await
 this
 .
 acceptDialog
@@ -11729,6 +11862,7 @@ UnhandledPromptBehavior
 .
 AcceptAndNotify
 :
+await
 this
 .
 acceptDialog
@@ -11746,6 +11880,7 @@ UnhandledPromptBehavior
 .
 Dismiss
 :
+await
 this
 .
 dismissDialog
@@ -11759,6 +11894,7 @@ UnhandledPromptBehavior
 .
 DismissAndNotify
 :
+await
 this
 .
 dismissDialog
