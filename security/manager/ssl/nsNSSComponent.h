@@ -346,9 +346,6 @@ mozilla
 Mutex
 mMutex
 ;
-bool
-mNSSInitialized
-;
 #
 ifdef
 DEBUG
@@ -393,6 +390,9 @@ mFamilySafetyRoot
 static
 int
 mInstanceCount
+;
+bool
+mNonIdempotentCleanupMustHappen
 ;
 }
 ;
