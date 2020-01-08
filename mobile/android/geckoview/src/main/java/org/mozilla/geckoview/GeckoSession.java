@@ -327,6 +327,15 @@ StringDef
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 util
 .
 Base64
@@ -5359,6 +5368,7 @@ return
 initData
 ;
 }
+UiThread
 public
 void
 open
@@ -5565,6 +5575,7 @@ false
 )
 ;
 }
+UiThread
 public
 void
 close
@@ -5713,6 +5724,7 @@ return
 mTextInput
 ;
 }
+UiThread
 public
 NonNull
 SessionAccessibility
@@ -7068,6 +7080,7 @@ return
 mDisplay
 ;
 }
+UiThread
 public
 NonNull
 GeckoDisplay
@@ -7113,6 +7126,7 @@ return
 mDisplay
 ;
 }
+UiThread
 public
 void
 releaseDisplay

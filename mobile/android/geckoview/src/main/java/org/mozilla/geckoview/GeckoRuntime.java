@@ -100,6 +100,15 @@ Nullable
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 text
 .
 TextUtils
@@ -313,6 +322,7 @@ static
 GeckoRuntime
 sDefaultRuntime
 ;
+UiThread
 public
 static
 synchronized
@@ -1117,6 +1127,7 @@ return
 true
 ;
 }
+UiThread
 public
 static
 NonNull
@@ -1140,6 +1151,7 @@ GeckoRuntimeSettings
 )
 ;
 }
+UiThread
 public
 static
 NonNull
@@ -1346,6 +1358,7 @@ false
 ;
 }
 }
+UiThread
 public
 RuntimeTelemetry
 getTelemetry

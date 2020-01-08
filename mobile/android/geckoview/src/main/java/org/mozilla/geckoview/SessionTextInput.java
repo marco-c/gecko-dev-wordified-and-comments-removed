@@ -177,6 +177,15 @@ Nullable
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 text
 .
 Editable
@@ -1613,6 +1622,7 @@ return
 defHandler
 ;
 }
+UiThread
 public
 Nullable
 View
@@ -1641,6 +1651,7 @@ getView
 null
 ;
 }
+UiThread
 public
 synchronized
 void
@@ -1761,6 +1772,7 @@ attrs
 )
 ;
 }
+UiThread
 public
 boolean
 onKeyPreIme
@@ -1793,6 +1805,7 @@ event
 )
 ;
 }
+UiThread
 public
 boolean
 onKeyDown
@@ -1825,6 +1838,7 @@ event
 )
 ;
 }
+UiThread
 public
 boolean
 onKeyUp
@@ -1857,6 +1871,7 @@ event
 )
 ;
 }
+UiThread
 public
 boolean
 onKeyLongPress
@@ -1889,6 +1904,7 @@ event
 )
 ;
 }
+UiThread
 public
 boolean
 onKeyMultiple
@@ -1925,6 +1941,7 @@ event
 )
 ;
 }
+UiThread
 public
 void
 setDelegate
@@ -1948,6 +1965,7 @@ mDelegate
 delegate
 ;
 }
+UiThread
 public
 GeckoSession
 .
