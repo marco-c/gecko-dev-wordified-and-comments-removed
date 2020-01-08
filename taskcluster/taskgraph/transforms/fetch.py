@@ -275,6 +275,17 @@ in
 jobs
 :
         
+if
+'
+fetch
+'
+not
+in
+job
+:
+            
+continue
+        
 typ
 =
 job

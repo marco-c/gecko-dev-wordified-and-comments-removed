@@ -99,6 +99,12 @@ transforms
 task
 :
 transforms
+kind
+-
+dependencies
+:
+-
+fetch
 jobs
 -
 from
