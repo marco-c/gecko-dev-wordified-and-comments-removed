@@ -525,15 +525,9 @@ listTabs
 )
 =
 >
-(
-{
-tabs
-:
 [
 testTab
 ]
-}
-)
 ;
 remoteClient
 .

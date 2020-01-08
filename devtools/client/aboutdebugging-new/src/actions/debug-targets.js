@@ -746,9 +746,7 @@ runtimes
 try
 {
 const
-{
 tabs
-}
 =
 await
 clientWrapper

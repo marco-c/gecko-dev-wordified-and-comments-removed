@@ -576,6 +576,8 @@ tabs
 return
 client
 .
+mainRoot
+.
 listTabs
 (
 )

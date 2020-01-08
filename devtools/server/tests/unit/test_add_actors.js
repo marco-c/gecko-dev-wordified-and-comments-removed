@@ -198,9 +198,7 @@ mainRoot
 rootForm
 ;
 const
-{
 tabs
-}
 =
 await
 client
@@ -270,6 +268,8 @@ tabs
 0
 ]
 .
+targetForm
+.
 preInitTargetScopedActor
 type
 :
@@ -338,6 +338,8 @@ tabs
 [
 0
 ]
+.
+targetForm
 .
 postInitTargetScopedActor
 type

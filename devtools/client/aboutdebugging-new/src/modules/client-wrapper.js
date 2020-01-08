@@ -427,6 +427,8 @@ this
 .
 client
 .
+mainRoot
+.
 listTabs
 (
 options
