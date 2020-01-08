@@ -101,6 +101,10 @@ jobs
 from
 :
 -
+benchmarks
+.
+yml
+-
 toolchains
 .
 yml
