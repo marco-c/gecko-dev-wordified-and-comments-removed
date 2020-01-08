@@ -1839,7 +1839,7 @@ return
 newNode
 ;
 }
-UBool
+int32_t
 StringTrieBuilder
 :
 :

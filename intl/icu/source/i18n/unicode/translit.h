@@ -70,9 +70,6 @@ class
 UnicodeSet
 ;
 class
-CompoundTransliterator
-;
-class
 TransliteratorParser
 ;
 class

@@ -1928,6 +1928,10 @@ s
 ;
 length
 =
+(
+int32_t
+)
+(
 fields
 [
 0
@@ -1937,6 +1941,7 @@ fields
 ]
 -
 s
+)
 ;
 if
 (

@@ -50,9 +50,9 @@ Version
 .
 1
 .
-38
+44
 .
-69
+18
 "
 }
 calendar
@@ -165,15 +165,6 @@ at
 }
 availableFormats
 {
-MEd
-{
-"
-E
-d
-/
-M
-"
-}
 Md
 {
 "

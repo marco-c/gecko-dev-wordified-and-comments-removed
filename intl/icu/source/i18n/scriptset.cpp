@@ -1676,7 +1676,13 @@ diff
 0
 )
 return
+static_cast
+<
+UBool
+>
+(
 diff
+)
 ;
 int32_t
 i0

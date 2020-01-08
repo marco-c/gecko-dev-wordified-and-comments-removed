@@ -379,6 +379,10 @@ GHC
 Sedi
 di
 Gana
+(
+1979
+2007
+)
 "
 }
 GMD
@@ -991,6 +995,10 @@ SDP
 Libra
 sudanes
 antigu
+(
+1957
+1998
+)
 "
 }
 SEK
@@ -1281,7 +1289,6 @@ XPF
 XXX
 {
 "
-XXX
 "
 "
 Mueda
@@ -1340,6 +1347,10 @@ ZWD
 Dola
 di
 Zimbabue
+(
+1980
+2008
+)
 "
 }
 }
@@ -2180,9 +2191,9 @@ Version
 .
 1
 .
-39
+43
 .
-11
+65
 "
 }
 }

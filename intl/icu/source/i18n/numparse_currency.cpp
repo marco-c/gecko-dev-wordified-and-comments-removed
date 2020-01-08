@@ -567,7 +567,7 @@ overlap2
 =
 segment
 .
-getCaseSensitivePrefixLength
+getCommonPrefixLength
 (
 fCurrency2
 )

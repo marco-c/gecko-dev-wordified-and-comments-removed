@@ -180,9 +180,9 @@ Version
 .
 1
 .
-38
+45
 .
-69
+12
 "
 }
 calendar
@@ -290,7 +290,7 @@ format
 abbreviated
 {
 "
-sab
+sap
 "
 "
 ata
@@ -314,7 +314,7 @@ arf
 short
 {
 "
-sab
+sap
 "
 "
 ata
@@ -338,7 +338,7 @@ arf
 wide
 {
 "
-sabaat
+sapaat
 "
 "
 ataasinngorneq
@@ -367,7 +367,7 @@ alone
 short
 {
 "
-sab
+sap
 "
 "
 ata
@@ -391,7 +391,7 @@ arf
 wide
 {
 "
-sabaat
+sapaat
 "
 "
 ataasinngorneq

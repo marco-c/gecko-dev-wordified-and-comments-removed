@@ -2780,7 +2780,7 @@ length
 for
 (
 int32_t
-i
+j
 =
 bucketList
 -
@@ -2794,7 +2794,7 @@ size
 ;
 -
 -
-i
+j
 )
 {
 Bucket
@@ -2805,7 +2805,7 @@ getBucket
 (
 *
 bucketList
-i
+j
 )
 ;
 if
@@ -3284,11 +3284,11 @@ NULL
 for
 (
 int32_t
-i
+j
 =
 0
 ;
-i
+j
 <
 bucketList
 -
@@ -3299,7 +3299,7 @@ size
 ;
 +
 +
-i
+j
 )
 {
 bucket
@@ -3308,7 +3308,7 @@ getBucket
 (
 *
 bucketList
-i
+j
 )
 ;
 if

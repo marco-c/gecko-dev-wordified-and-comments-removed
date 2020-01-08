@@ -1607,9 +1607,15 @@ sourceLimit
 int32_t
 length
 =
+static_cast
+<
+int32_t
+>
+(
 sourceLimit
 -
 source
+)
 ;
 int32_t
 i

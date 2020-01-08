@@ -43,7 +43,8 @@ KES
 Ksh
 "
 "
-KES
+Shilingka
+Kenya
 "
 }
 }

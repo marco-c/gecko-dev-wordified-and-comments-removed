@@ -472,6 +472,9 @@ keyword
 )
 const
 ;
+UErrorCode
+mInternalStatus
+;
 friend
 class
 PluralRuleParser

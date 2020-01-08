@@ -746,7 +746,6 @@ monede
 XXX
 {
 "
-XXX
 "
 "
 Monede

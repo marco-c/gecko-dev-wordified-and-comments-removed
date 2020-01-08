@@ -1575,9 +1575,15 @@ subLen
 ;
 len
 =
+static_cast
+<
+int32_t
+>
+(
 p1
 -
 separator
+)
 ;
 if
 (

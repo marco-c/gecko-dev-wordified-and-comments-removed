@@ -16,14 +16,6 @@ h
 #
 if
 U_PLATFORM_USES_ONLY_WIN32_API
-&
-&
-(
-U_PLATFORM_HAS_WINUWP_API
-=
-=
-0
-)
 U_CDECL_BEGIN
 typedef
 struct

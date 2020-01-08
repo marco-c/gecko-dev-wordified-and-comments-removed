@@ -721,6 +721,9 @@ o
 trie2test
 .
 o
+ucptrietest
+.
+o
 usettest
 .
 o

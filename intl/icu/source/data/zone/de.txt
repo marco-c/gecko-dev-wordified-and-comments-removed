@@ -42,9 +42,9 @@ Version
 .
 1
 .
-41
+44
 .
-97
+91
 "
 }
 zoneStrings
@@ -990,6 +990,8 @@ ls
 {
 "
 Brunei
+-
+Darussalam
 -
 Zeit
 "
@@ -3135,7 +3137,8 @@ Pierre_Miquelon
 ld
 {
 "
-Saint
+St
+.
 -
 Pierre
 -
@@ -3149,7 +3152,8 @@ Sommerzeit
 lg
 {
 "
-Saint
+St
+.
 -
 Pierre
 -
@@ -3163,7 +3167,8 @@ Zeit
 ls
 {
 "
-Saint
+St
+.
 -
 Pierre
 -
@@ -3415,7 +3420,7 @@ Solomon
 ls
 {
 "
-Salomoninseln
+Salomonen
 -
 Zeit
 "

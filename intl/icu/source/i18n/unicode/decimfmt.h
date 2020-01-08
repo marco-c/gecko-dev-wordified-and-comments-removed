@@ -130,6 +130,13 @@ U_PLATFORM
 <
 =
 U_PF_CYGWIN
+&
+&
+!
+defined
+(
+U_IN_DOXYGEN
+)
 template
 class
 U_I18N_API

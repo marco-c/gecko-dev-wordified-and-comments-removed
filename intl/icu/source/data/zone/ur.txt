@@ -42,9 +42,9 @@ Version
 .
 1
 .
-41
+44
 .
-97
+3
 "
 }
 zoneStrings
@@ -2721,10 +2721,6 @@ regionFormatDaylight
 {
 0
 }
-(
-+
-1
-)
 "
 }
 regionFormatStandard
@@ -2733,10 +2729,6 @@ regionFormatStandard
 {
 0
 }
-(
-+
-0
-)
 "
 }
 }

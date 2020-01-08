@@ -981,7 +981,13 @@ toUBytes
 1
 ]
 =
+static_cast
+<
+uint8_t
+>
+(
 mySourceChar
+)
 ;
 args
 -
@@ -1100,7 +1106,13 @@ toUBytes
 1
 ]
 =
+static_cast
+<
+uint8_t
+>
+(
 mySourceChar
+)
 ;
 args
 -

@@ -51,10 +51,9 @@ MZN
 MTn
 "
 "
-Metical
-de
-Mo
-ambique
+metical
+mo
+ambicano
 "
 }
 }

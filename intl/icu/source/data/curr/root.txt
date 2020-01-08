@@ -234,6 +234,14 @@ CFPF
 XPF
 "
 }
+XXX
+{
+"
+"
+"
+XXX
+"
+}
 }
 Currencies
 %
@@ -801,9 +809,9 @@ Version
 .
 1
 .
-41
+44
 .
-58
+91
 "
 }
 currencySpacing

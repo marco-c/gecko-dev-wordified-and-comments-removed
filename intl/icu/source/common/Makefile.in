@@ -648,6 +648,9 @@ o
 udataswp
 .
 o
+utrie_swap
+.
+o
 ucol_swp
 .
 o
@@ -964,6 +967,10 @@ o
 ubidi_props
 .
 o
+characterproperties
+.
+o
+\
 ubidi
 .
 o
@@ -999,6 +1006,13 @@ o
 utrie2_builder
 .
 o
+ucptrie
+.
+o
+umutablecptrie
+.
+o
+\
 bmpset
 .
 o
@@ -1156,12 +1170,6 @@ icudataver
 .
 o
 icuplug
-.
-o
-listformatter
-.
-o
-ulistformatter
 .
 o
 \

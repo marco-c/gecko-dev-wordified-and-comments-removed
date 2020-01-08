@@ -447,9 +447,8 @@ src
 )
 U_NOEXCEPT
 {
-delete
-[
-]
+uprv_free
+(
 LocalPointerBase
 <
 T
@@ -457,6 +456,7 @@ T
 :
 :
 ptr
+)
 ;
 LocalPointerBase
 <

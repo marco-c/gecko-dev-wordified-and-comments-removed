@@ -48,6 +48,10 @@ impl
 ;
 namespace
 {
+alignas
+(
+DecimalFormatProperties
+)
 char
 kRawDefaultProperties
 [

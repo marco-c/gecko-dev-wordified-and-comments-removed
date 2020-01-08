@@ -49,7 +49,6 @@ shir
 XXX
 {
 "
-XXX
 "
 "
 iku

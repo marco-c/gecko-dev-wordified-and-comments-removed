@@ -678,7 +678,13 @@ NULL
 )
 res
 (
+static_cast
+<
+Resource
+>
+(
 URES_NONE
+)
 )
 {
 }

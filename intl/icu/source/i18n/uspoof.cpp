@@ -4611,6 +4611,7 @@ status
 )
 ;
 }
+static
 int32_t
 checkImpl
 (

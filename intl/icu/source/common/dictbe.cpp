@@ -1391,7 +1391,7 @@ uc
 )
 {
 int32_t
-candidates
+num_candidates
 =
 words
 [
@@ -1423,7 +1423,7 @@ chars
 ;
 if
 (
-candidates
+num_candidates
 >
 0
 )
@@ -2501,7 +2501,7 @@ uc
 )
 {
 int32_t
-candidates
+num_candidates
 =
 words
 [
@@ -2533,7 +2533,7 @@ chars
 ;
 if
 (
-candidates
+num_candidates
 >
 0
 )
@@ -3387,7 +3387,7 @@ uc
 )
 {
 int32_t
-candidates
+num_candidates
 =
 words
 [
@@ -3419,7 +3419,7 @@ chars
 ;
 if
 (
-candidates
+num_candidates
 >
 0
 )
@@ -4283,7 +4283,7 @@ uc
 )
 {
 int32_t
-candidates
+num_candidates
 =
 words
 [
@@ -4315,7 +4315,7 @@ chars
 ;
 if
 (
-candidates
+num_candidates
 >
 0
 )

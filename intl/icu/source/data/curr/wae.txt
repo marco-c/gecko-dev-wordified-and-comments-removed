@@ -113,7 +113,6 @@ Dollar
 XXX
 {
 "
-XXX
 "
 "
 Unbekannti

@@ -1609,7 +1609,13 @@ temp
 >
 1
 ?
+static_cast
+<
+int16_t
+>
+(
 temp
+)
 :
 1
 ;

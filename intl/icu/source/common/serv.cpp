@@ -2676,7 +2676,6 @@ return
 result
 ;
 }
-UErrorCode
 status
 =
 U_ZERO_ERROR
@@ -2694,6 +2693,12 @@ status
 ;
 while
 (
+fallbackKey
+!
+=
+NULL
+&
+&
 fallbackKey
 -
 >

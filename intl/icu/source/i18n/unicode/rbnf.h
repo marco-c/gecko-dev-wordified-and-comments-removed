@@ -904,7 +904,7 @@ private
 NFRuleSet
 *
 *
-ruleSets
+fRuleSets
 ;
 UnicodeString
 *
@@ -937,7 +937,7 @@ NFRule
 defaultNaNRule
 ;
 ERoundingMode
-roundingMode
+fRoundingMode
 ;
 UBool
 lenient

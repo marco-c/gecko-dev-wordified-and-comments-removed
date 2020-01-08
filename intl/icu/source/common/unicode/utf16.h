@@ -471,9 +471,6 @@ c
 \
 }
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 define
 U16_GET_OR_FFFD
 (
@@ -642,8 +639,6 @@ c
 \
 }
 #
-endif
-#
 define
 U16_NEXT_UNSAFE
 (
@@ -797,9 +792,6 @@ __c2
 \
 }
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 define
 U16_NEXT_OR_FFFD
 (
@@ -909,8 +901,6 @@ c
 }
 \
 }
-#
-endif
 #
 define
 U16_APPEND_UNSAFE
@@ -1625,9 +1615,6 @@ c
 \
 }
 #
-ifndef
-U_HIDE_DRAFT_API
-#
 define
 U16_PREV_OR_FFFD
 (
@@ -1738,8 +1725,6 @@ c
 }
 \
 }
-#
-endif
 #
 define
 U16_BACK_1_UNSAFE

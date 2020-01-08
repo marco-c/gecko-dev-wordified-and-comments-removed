@@ -281,6 +281,11 @@ Locale
 *
 fLocale
 ;
+private
+:
+UErrorCode
+fInternalStatus
+;
 }
 ;
 inline

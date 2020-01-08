@@ -632,7 +632,7 @@ getArgType
 const
 {
 UMessagePatternPartType
-type
+msgType
 =
 getType
 (
@@ -640,13 +640,13 @@ getType
 ;
 if
 (
-type
+msgType
 =
 =
 UMSGPAT_PART_TYPE_ARG_START
 |
 |
-type
+msgType
 =
 =
 UMSGPAT_PART_TYPE_ARG_LIMIT

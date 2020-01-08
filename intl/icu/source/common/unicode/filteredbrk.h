@@ -75,9 +75,6 @@ status
 ;
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 FilteredBreakIteratorBuilder
 *
@@ -88,8 +85,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 virtual
 UBool
 suppressBreakAfter
@@ -135,9 +130,6 @@ status
 =
 0
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 inline
 BreakIterator
 *
@@ -159,8 +151,6 @@ status
 )
 ;
 }
-#
-endif
 protected
 :
 FilteredBreakIteratorBuilder

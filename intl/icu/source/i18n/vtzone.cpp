@@ -984,7 +984,13 @@ number
 ;
 length
 =
+static_cast
+<
+uint8_t
+>
+(
 i
+)
 ;
 }
 else

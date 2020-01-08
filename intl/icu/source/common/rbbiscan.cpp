@@ -1290,8 +1290,6 @@ destRules
 NULL
 )
 {
-RBBINode
-*
 thisRule
 =
 fNodeStack

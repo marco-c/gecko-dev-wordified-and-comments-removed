@@ -42,9 +42,9 @@ Version
 .
 1
 .
-41
+44
 .
-97
+9
 "
 }
 zoneStrings
@@ -465,7 +465,7 @@ lg
 {
 "
 Hora
-de
+da
 Montanha
 "
 }
@@ -1136,7 +1136,7 @@ de
 ver
 o
 do
-Bangladesh
+Bangladeche
 "
 }
 lg
@@ -1144,7 +1144,7 @@ lg
 "
 Hora
 do
-Bangladesh
+Bangladeche
 "
 }
 ls
@@ -1154,7 +1154,7 @@ Hora
 padr
 o
 do
-Bangladesh
+Bangladeche
 "
 }
 }

@@ -404,6 +404,9 @@ icu
 docs
 .
 zip
+INSTALL_ICU_CONFIG
+=
+INSTALL_ICU_CONFIG
 #
 #
 Files
@@ -551,6 +554,13 @@ TEST
 SECTION
 =
 1
+ifeq
+(
+(
+INSTALL_ICU_CONFIG
+)
+true
+)
 MANX_FILES
 =
 config
@@ -562,6 +572,7 @@ config
 (
 SECTION
 )
+endif
 ALL_MAN_FILES
 =
 (
@@ -1783,6 +1794,13 @@ pkgdatadir
 )
 /
 LICENSE
+ifeq
+(
+(
+INSTALL_ICU_CONFIG
+)
+true
+)
 (
 INSTALL_SCRIPT
 )
@@ -1805,6 +1823,7 @@ bindir
 icu
 -
 config
+endif
 (
 INSTALL_DATA
 )
@@ -1897,7 +1916,7 @@ pkglibdir
 ;
 \
 (
-RM
+RMV
 )
 current
 &
@@ -3543,6 +3562,12 @@ man
 (
 SECTION
 )
+ifneq
+(
+(
+MANX_FILES
+)
+)
 (
 INSTALL_DATA
 )
@@ -3558,6 +3583,7 @@ man
 (
 SECTION
 )
+endif
 config
 /
 %

@@ -246,3 +246,6 @@ txt
 dayPeriods
 .
 txt
+pluralRanges
+.
+txt

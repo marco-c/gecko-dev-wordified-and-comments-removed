@@ -1561,7 +1561,7 @@ status
 return
 ;
 }
-int
+int32_t
 magnitude
 ;
 if
@@ -1590,7 +1590,7 @@ status
 }
 else
 {
-int
+int32_t
 multiplier
 =
 micros

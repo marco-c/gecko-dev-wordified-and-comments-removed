@@ -369,7 +369,7 @@ didn
 t
 download
 from
-Subversion
+GitHub
 you
 will
 also

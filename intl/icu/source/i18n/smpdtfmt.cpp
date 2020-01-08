@@ -698,7 +698,7 @@ cur
 {
 NSOverride
 *
-next
+next_temp
 =
 cur
 -
@@ -710,7 +710,7 @@ cur
 ;
 cur
 =
-next
+next_temp
 ;
 }
 }
@@ -5415,7 +5415,7 @@ hashCode
 ;
 NSOverride
 *
-cur
+curr
 =
 overrideList
 ;
@@ -5433,7 +5433,7 @@ FALSE
 ;
 while
 (
-cur
+curr
 &
 &
 !
@@ -5442,7 +5442,7 @@ found
 {
 if
 (
-cur
+curr
 -
 >
 hash
@@ -5453,7 +5453,7 @@ nsNameHash
 {
 snf
 =
-cur
+curr
 -
 >
 snf
@@ -5463,9 +5463,9 @@ found
 TRUE
 ;
 }
-cur
+curr
 =
-cur
+curr
 -
 >
 next
@@ -8207,7 +8207,7 @@ status
 )
 {
 int32_t
-value
+val
 =
 cal
 .
@@ -8233,7 +8233,7 @@ fSymbols
 >
 fAbbreviatedDayPeriods
 [
-value
+val
 ]
 ;
 }
@@ -8259,7 +8259,7 @@ fSymbols
 >
 fWideDayPeriods
 [
-value
+val
 ]
 ;
 }
@@ -8273,7 +8273,7 @@ fSymbols
 >
 fNarrowDayPeriods
 [
-value
+val
 ]
 ;
 }
@@ -10369,7 +10369,7 @@ length
 )
 {
 UChar
-ch
+c
 =
 fPattern
 .
@@ -10387,7 +10387,7 @@ PatternProps
 :
 isWhiteSpace
 (
-ch
+c
 )
 )
 {
@@ -14327,7 +14327,7 @@ UCAL_YEAR
 )
 {
 UErrorCode
-status
+monthStatus
 =
 U_ZERO_ERROR
 ;
@@ -14345,7 +14345,7 @@ hc
 get
 (
 UCAL_YEAR
-status
+monthStatus
 )
 )
 &
@@ -16399,7 +16399,7 @@ DateFormatSymbols
 ALTERNATE_TIME_SEPARATOR
 ;
 int32_t
-count
+count_sep
 =
 1
 ;
@@ -16440,7 +16440,7 @@ def_sep
 {
 data
 [
-count
+count_sep
 +
 +
 ]
@@ -16476,7 +16476,7 @@ alt_sep
 {
 data
 [
-count
+count_sep
 +
 +
 ]
@@ -16494,7 +16494,7 @@ text
 start
 UCAL_FIELD_COUNT
 data
-count
+count_sep
 NULL
 cal
 )
@@ -16924,7 +16924,7 @@ parseStart
 )
 {
 int32_t
-value
+val
 =
 number
 .
@@ -16959,7 +16959,7 @@ bias
 &
 &
 (
-value
+val
 >
 cal
 .
@@ -16971,7 +16971,7 @@ field
 bias
 |
 |
-value
+val
 <
 cal
 .
@@ -17036,7 +17036,7 @@ UCAL_YEAR
 )
 {
 UErrorCode
-status
+monthStatus
 =
 U_ZERO_ERROR
 ;
@@ -17054,12 +17054,12 @@ hc
 get
 (
 UCAL_YEAR
-status
+monthStatus
 )
 )
 &
 &
-value
+val
 >
 =
 6
@@ -17070,7 +17070,7 @@ cal
 set
 (
 UCAL_MONTH
-value
+val
 )
 ;
 }
@@ -17081,7 +17081,7 @@ cal
 set
 (
 UCAL_MONTH
-value
+val
 -
 1
 )
@@ -17092,7 +17092,7 @@ else
 {
 saveHebrewMonth
 =
-value
+val
 ;
 }
 }
@@ -17103,7 +17103,7 @@ cal
 set
 (
 UCAL_MONTH
-value
+val
 -
 1
 )
@@ -17119,7 +17119,7 @@ cal
 set
 (
 UCAL_MONTH
-value
+val
 -
 1
 )
@@ -17137,7 +17137,7 @@ cal
 set
 (
 UCAL_DOW_LOCAL
-value
+val
 )
 ;
 break
@@ -17154,7 +17154,7 @@ set
 (
 UCAL_MONTH
 (
-value
+val
 -
 1
 )
@@ -17171,7 +17171,7 @@ cal
 .
 setRelatedYear
 (
-value
+val
 )
 ;
 break
@@ -17183,7 +17183,7 @@ cal
 set
 (
 field
-value
+val
 )
 ;
 break
@@ -18084,7 +18084,6 @@ UDISPCTX_CAPITALIZATION_FOR_STANDALONE
 )
 )
 {
-UErrorCode
 status
 =
 U_ZERO_ERROR

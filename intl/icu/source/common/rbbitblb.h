@@ -14,6 +14,10 @@ utypes
 h
 "
 #
+if
+!
+UCONFIG_NO_BREAK_ITERATION
+#
 include
 "
 unicode
@@ -116,7 +120,7 @@ int32_t
 column
 )
 ;
-void
+int32_t
 removeDuplicateStates
 (
 )
@@ -475,5 +479,7 @@ other
 }
 ;
 U_NAMESPACE_END
+#
+endif
 #
 endif

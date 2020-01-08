@@ -15271,10 +15271,7 @@ else
 {
 useLocale
 =
-Locale
-(
 desiredLocale
-)
 ;
 }
 LocalUResourceBundlePointer

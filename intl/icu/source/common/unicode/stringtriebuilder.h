@@ -51,7 +51,7 @@ public
 ifndef
 U_HIDE_INTERNAL_API
 static
-UBool
+int32_t
 hashNode
 (
 const

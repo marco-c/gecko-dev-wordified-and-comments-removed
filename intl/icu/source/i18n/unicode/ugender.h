@@ -71,7 +71,7 @@ ugender_getListGender
 const
 UGenderInfo
 *
-genderinfo
+genderInfo
 const
 UGender
 *

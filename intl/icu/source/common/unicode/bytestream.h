@@ -282,9 +282,6 @@ dest
 )
 {
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 StringByteSink
 (
 StringClass
@@ -345,8 +342,6 @@ initialAppendCapacity
 ;
 }
 }
-#
-endif
 virtual
 void
 Append

@@ -172,9 +172,6 @@ UErrorCode
 errorCode
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 void
 utf8ToLower
@@ -272,8 +269,6 @@ UErrorCode
 errorCode
 )
 ;
-#
-endif
 static
 int32_t
 utf8ToLower

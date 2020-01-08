@@ -4976,6 +4976,9 @@ origStringBlock
 ;
 normStrLen
 =
+(
+int32_t
+)
 uprv_strlen
 (
 normalizedStrings

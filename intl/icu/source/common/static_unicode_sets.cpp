@@ -88,6 +88,10 @@ COUNT
 {
 }
 ;
+alignas
+(
+UnicodeSet
+)
 char
 gEmptyUnicodeSet
 [

@@ -780,17 +780,11 @@ MicroPropsGenerator
 parent
 )
 {
-this
--
->
-multiplier
+fMultiplier
 =
 multiplier
 ;
-this
--
->
-parent
+fParent
 =
 parent
 ;
@@ -813,7 +807,7 @@ status
 )
 const
 {
-parent
+fParent
 -
 >
 processQuantity
@@ -823,7 +817,7 @@ micros
 status
 )
 ;
-multiplier
+fMultiplier
 .
 applyTo
 (

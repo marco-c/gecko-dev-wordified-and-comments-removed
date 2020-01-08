@@ -2717,7 +2717,13 @@ fStatuses
 nextIdx
 ]
 =
+static_cast
+<
+uint16_t
+>
+(
 ruleStatusIdx
+)
 ;
 fEndBufIdx
 =
@@ -2845,7 +2851,13 @@ fStatuses
 nextIdx
 ]
 =
+static_cast
+<
+uint16_t
+>
+(
 ruleStatusIdx
+)
 ;
 fStartBufIdx
 =

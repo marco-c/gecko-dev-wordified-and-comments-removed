@@ -42,9 +42,9 @@ Version
 .
 1
 .
-41
+44
 .
-97
+91
 "
 }
 zoneStrings
@@ -65,6 +65,12 @@ choitcheann
 Co
 -
 rdanaichte
+"
+}
+ss
+{
+"
+UTC
 "
 }
 }

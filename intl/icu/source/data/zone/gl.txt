@@ -42,9 +42,9 @@ Version
 .
 1
 .
-41
+43
 .
-97
+94
 "
 }
 zoneStrings
@@ -3466,11 +3466,8 @@ ver
 n
 de
 Saint
--
 Pierre
--
 et
--
 Miquelon
 "
 }
@@ -3480,11 +3477,8 @@ lg
 Horario
 de
 Saint
--
 Pierre
--
 et
--
 Miquelon
 "
 }
@@ -3496,11 +3490,8 @@ est
 ndar
 de
 Saint
--
 Pierre
--
 et
--
 Miquelon
 "
 }

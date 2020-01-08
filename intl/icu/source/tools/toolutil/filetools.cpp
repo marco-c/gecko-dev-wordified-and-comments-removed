@@ -682,9 +682,15 @@ i
 0
 length
 =
+static_cast
+<
+int32_t
+>
+(
 uprv_strlen
 (
 filePath
+)
 )
 ;
 i

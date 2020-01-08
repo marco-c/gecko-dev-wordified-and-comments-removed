@@ -866,9 +866,15 @@ binarySearch
 (
 commonChars
 commonCharsLen
+static_cast
+<
+uint16_t
+>
+(
 iter
 .
 charValue
+)
 )
 >
 =

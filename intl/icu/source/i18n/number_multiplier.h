@@ -87,12 +87,12 @@ U_OVERRIDE
 private
 :
 Scale
-multiplier
+fMultiplier
 ;
 const
 MicroPropsGenerator
 *
-parent
+fParent
 ;
 }
 ;

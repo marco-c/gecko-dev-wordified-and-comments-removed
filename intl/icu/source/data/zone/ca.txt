@@ -42,9 +42,9 @@ Version
 .
 1
 .
-41
+43
 .
-97
+65
 "
 }
 zoneStrings
@@ -441,6 +441,11 @@ estiu
 del
 Pac
 fic
+d
+Am
+rica
+del
+Nord
 "
 }
 lg
@@ -450,6 +455,11 @@ Hora
 del
 Pac
 fic
+d
+Am
+rica
+del
+Nord
 "
 }
 ls
@@ -461,6 +471,11 @@ ndard
 del
 Pac
 fic
+d
+Am
+rica
+del
+Nord
 "
 }
 }
@@ -1469,7 +1484,6 @@ ls
 Hora
 de
 Dumont
--
 d
 Urville
 "
@@ -2223,8 +2237,6 @@ ls
 {
 "
 Hora
-est
-ndard
 de
 l
 ndia
@@ -3564,7 +3576,9 @@ de
 Saint
 -
 Pierre
-i
+-
+et
+-
 Miquelon
 "
 }
@@ -3576,7 +3590,9 @@ de
 Saint
 -
 Pierre
-i
+-
+et
+-
 Miquelon
 "
 }
@@ -3590,7 +3606,9 @@ de
 Saint
 -
 Pierre
-i
+-
+et
+-
 Miquelon
 "
 }
@@ -4419,7 +4437,7 @@ de
 regionFormatDaylight
 {
 "
-Horari
+Hora
 d
 estiu
 {

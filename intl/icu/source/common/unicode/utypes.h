@@ -358,6 +358,15 @@ U_DATE_MIN
 -
 U_DATE_MAX
 #
+ifdef
+U_IN_DOXYGEN
+#
+define
+U_COMBINED_IMPLEMENTATION
+1
+#
+endif
+#
 if
 defined
 (

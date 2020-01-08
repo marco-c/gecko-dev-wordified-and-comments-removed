@@ -1002,6 +1002,10 @@ status
 }
 if
 (
+!
+isStrict
+&
+&
 affixProvider
 -
 >
@@ -1035,6 +1039,10 @@ symbols
 }
 if
 (
+!
+isStrict
+&
+&
 affixProvider
 -
 >

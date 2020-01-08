@@ -483,9 +483,15 @@ uBuffer
 int32_t
 uBuffSize
 =
+static_cast
+<
+int32_t
+>
+(
 us
 -
 uBuffer
+)
 ;
 int32_t
 uBuffIdx

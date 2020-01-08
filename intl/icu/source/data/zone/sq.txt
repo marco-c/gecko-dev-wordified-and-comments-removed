@@ -42,9 +42,9 @@ Version
 .
 1
 .
-41
+43
 .
-97
+50
 "
 }
 zoneStrings
@@ -260,7 +260,7 @@ ld
 Ora
 verore
 e
-Alsask
+Alask
 s
 "
 }
@@ -1136,8 +1136,7 @@ ld
 Ora
 verore
 e
-Brasil
-s
+Brazilis
 "
 }
 lg
@@ -1145,8 +1144,7 @@ lg
 "
 Ora
 e
-Brasil
-s
+Brazilis
 "
 }
 ls
@@ -1155,8 +1153,7 @@ ls
 Ora
 standarde
 e
-Brasil
-s
+Brazilis
 "
 }
 }
@@ -2020,7 +2017,8 @@ ld
 Ora
 verore
 e
-Grenland
+Gr
+nland
 s
 Per
 ndimore
@@ -2031,7 +2029,8 @@ lg
 "
 Ora
 e
-Grenland
+Gr
+nland
 s
 Per
 ndimore
@@ -2043,7 +2042,8 @@ ls
 Ora
 standarde
 e
-Grenland
+Gr
+nland
 s
 Per
 ndimore
@@ -2607,7 +2607,7 @@ ls
 "
 Ora
 e
-Kirgistanit
+Kirgizis
 "
 }
 }

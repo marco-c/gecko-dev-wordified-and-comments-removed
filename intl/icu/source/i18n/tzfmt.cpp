@@ -13727,7 +13727,7 @@ GMTOffsetField
 :
 :
 FieldType
-type
+fieldType
 =
 item
 -
@@ -13738,7 +13738,7 @@ getType
 ;
 if
 (
-type
+fieldType
 !
 =
 GMTOffsetField
@@ -13762,7 +13762,7 @@ break
 else
 if
 (
-type
+fieldType
 =
 =
 GMTOffsetField

@@ -130,9 +130,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 DecimalFormatSymbols
 (
 const
@@ -148,8 +145,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 DecimalFormatSymbols
 (
 UErrorCode

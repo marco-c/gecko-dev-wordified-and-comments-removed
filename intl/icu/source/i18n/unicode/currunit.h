@@ -57,9 +57,6 @@ CurrencyUnit
 other
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 CurrencyUnit
 (
 const
@@ -71,8 +68,6 @@ UErrorCode
 ec
 )
 ;
-#
-endif
 CurrencyUnit
 &
 operator

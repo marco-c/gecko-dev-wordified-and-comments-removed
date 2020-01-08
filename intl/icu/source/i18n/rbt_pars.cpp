@@ -948,7 +948,7 @@ size
 )
 {
 int32_t
-i
+j
 =
 ch
 -
@@ -960,7 +960,7 @@ variablesBase
 set
 =
 (
-i
+j
 <
 variablesVector
 -
@@ -979,7 +979,7 @@ variablesVector
 >
 elementAt
 (
-i
+j
 )
 :
 0
@@ -4649,7 +4649,7 @@ removeAll
 )
 ;
 int32_t
-pos
+p
 =
 UHASH_FIRST
 ;
@@ -4662,7 +4662,7 @@ variableNames
 .
 nextElement
 (
-pos
+p
 )
 ;
 while
@@ -4750,7 +4750,7 @@ variableNames
 .
 nextElement
 (
-pos
+p
 )
 ;
 }

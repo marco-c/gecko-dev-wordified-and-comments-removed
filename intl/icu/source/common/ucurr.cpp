@@ -4864,7 +4864,7 @@ names
 ;
 }
 UErrorCode
-ec3
+ec5
 =
 U_ZERO_ERROR
 ;
@@ -4878,7 +4878,7 @@ rb
 CURRENCYPLURALS
 NULL
 &
-ec3
+ec5
 )
 ;
 n
@@ -4914,7 +4914,7 @@ curr_p
 i
 NULL
 &
-ec3
+ec5
 )
 ;
 iso
@@ -5017,7 +5017,7 @@ j
 &
 len
 &
-ec3
+ec5
 )
 ;
 (
@@ -6802,12 +6802,6 @@ umtx_lock
 &
 gCurrencyCacheMutex
 )
-;
-int8_t
-found
-=
--
-1
 ;
 for
 (

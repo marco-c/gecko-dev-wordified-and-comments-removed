@@ -51,7 +51,7 @@ AOA
 Kz
 "
 "
-Kwanza
+kwanza
 angolano
 "
 }

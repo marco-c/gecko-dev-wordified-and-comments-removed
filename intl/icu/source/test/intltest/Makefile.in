@@ -993,6 +993,12 @@ o
 numfmtdatadriventest
 .
 o
+numbertest_range
+.
+o
+erarulestest
+.
+o
 DEPS
 =
 (

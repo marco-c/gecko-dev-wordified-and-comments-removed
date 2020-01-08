@@ -16,6 +16,12 @@ h
 #
 if
 UCONFIG_ENABLE_PLUGINS
+|
+|
+defined
+(
+U_IN_DOXYGEN
+)
 #
 ifndef
 U_HIDE_INTERNAL_API
