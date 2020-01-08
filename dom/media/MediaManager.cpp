@@ -15,6 +15,13 @@ h
 #
 include
 "
+AudioDeviceInfo
+.
+h
+"
+#
+include
+"
 MediaStreamGraph
 .
 h
