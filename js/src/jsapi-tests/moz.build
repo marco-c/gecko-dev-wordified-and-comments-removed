@@ -539,6 +539,11 @@ testScriptObject
 cpp
 '
 '
+testScriptSourceCompression
+.
+cpp
+'
+'
 testSetProperty
 .
 cpp
