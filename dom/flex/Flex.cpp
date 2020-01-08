@@ -8,7 +8,7 @@ h
 #
 include
 "
-FlexLine
+FlexLineValues
 .
 h
 "
@@ -153,12 +153,12 @@ containerInfo
 mLines
 )
 {
-FlexLine
+FlexLineValues
 *
 line
 =
 new
-FlexLine
+FlexLineValues
 (
 this
 &
@@ -223,7 +223,7 @@ nsTArray
 <
 RefPtr
 <
-FlexLine
+FlexLineValues
 >
 >
 &

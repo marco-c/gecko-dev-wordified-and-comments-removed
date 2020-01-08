@@ -118,7 +118,7 @@ Flex
 {
 sequence
 <
-FlexLine
+FlexLineValues
 >
 getLines
 (
@@ -174,7 +174,7 @@ growing
 ChromeOnly
 ]
 interface
-FlexLine
+FlexLineValues
 {
 readonly
 attribute
@@ -229,15 +229,15 @@ getItems
 (
 )
 returns
-FlexItems
+FlexItemValues
 only
 for
 the
 Elements
 in
+*
 this
 Flex
-*
 container
 -
 -
@@ -253,7 +253,7 @@ Elements
 /
 sequence
 <
-FlexItem
+FlexItemValues
 >
 getItems
 (
@@ -265,7 +265,7 @@ getItems
 ChromeOnly
 ]
 interface
-FlexItem
+FlexItemValues
 {
 readonly
 attribute
