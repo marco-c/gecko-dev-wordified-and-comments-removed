@@ -168,10 +168,6 @@ extern
 crate
 rsdparsa_capi
 ;
-extern
-crate
-ipdl_bindings
-;
 use
 std
 :

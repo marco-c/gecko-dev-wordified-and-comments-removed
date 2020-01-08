@@ -1,8 +1,0 @@
-var
-IPDLGlob
-=
-new
-IPDL
-(
-)
-;
