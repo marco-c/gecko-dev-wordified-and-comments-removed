@@ -193,7 +193,7 @@ result
 }
 #
 define
-FRAME_STATE_GROUP
+FRAME_STATE_GROUP_CLASS
 (
 name_
 class_
@@ -336,7 +336,7 @@ h
 "
 #
 undef
-FRAME_STATE_GROUP
+FRAME_STATE_GROUP_CLASS
 #
 undef
 FRAME_STATE_BIT
