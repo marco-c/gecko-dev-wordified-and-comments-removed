@@ -73,6 +73,11 @@ class_
 ;
 static
 const
+Class
+protoClass_
+;
+static
+const
 JSPropertySpec
 protoAccessors
 [
