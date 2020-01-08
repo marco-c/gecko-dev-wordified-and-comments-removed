@@ -139,4 +139,11 @@ transport
 .
 js
 '
+'
+worker
+-
+transport
+.
+js
+'
 )
