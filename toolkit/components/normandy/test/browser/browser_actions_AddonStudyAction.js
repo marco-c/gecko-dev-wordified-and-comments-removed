@@ -316,7 +316,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 )
 ]
@@ -1116,7 +1116,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 active
@@ -1202,7 +1202,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 active
@@ -1423,7 +1423,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 {
 active
@@ -1832,7 +1832,7 @@ AddonStudies
 withStudies
 (
 [
-studyFactory
+addonStudyFactory
 (
 )
 ]
