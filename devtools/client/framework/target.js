@@ -558,7 +558,6 @@ d
 +
 \
 .
-(
 content
 -
 process
@@ -567,8 +566,6 @@ d
 +
 \
 /
-)
-?
 contentProcessTarget
 \
 d
