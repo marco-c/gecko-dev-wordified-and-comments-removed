@@ -1679,10 +1679,6 @@ mResetLayer
 (
 true
 )
-mMaybeModified
-(
-false
-)
 mWriteOnly
 (
 false
@@ -4328,10 +4324,6 @@ aContext
 ErrorResult
 rv
 ;
-mMaybeModified
-=
-true
-;
 *
 aContext
 =
@@ -4399,10 +4391,6 @@ return
 nullptr
 ;
 }
-mMaybeModified
-=
-true
-;
 return
 CanvasRenderingContextHelper
 :

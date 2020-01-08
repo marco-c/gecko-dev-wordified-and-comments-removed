@@ -1068,17 +1068,6 @@ GetVRFrame
 (
 )
 ;
-bool
-MaybeModified
-(
-)
-const
-{
-return
-mMaybeModified
-;
-}
-;
 protected
 :
 virtual
@@ -1249,9 +1238,6 @@ GetAsyncCanvasRenderer
 ;
 bool
 mResetLayer
-;
-bool
-mMaybeModified
 ;
 RefPtr
 <
