@@ -3143,13 +3143,6 @@ EnsureTrack
 AUDIO_TRACK
 )
 ;
-mTracks
-.
-AdvanceKnownTracksTime
-(
-STREAM_TIME_MAX
-)
-;
 AudioSegment
 *
 segment
