@@ -8,9 +8,15 @@ import
 defaultdict
 Mapping
 from
-.
+six
 import
+iteritems
+itervalues
+from
+.
 sslutils
+import
+environments
 from
 .
 utils
@@ -72,10 +78,9 @@ for
 key
 value
 in
-base_dict
-.
 iteritems
 (
+base_dict
 )
 :
         
@@ -415,12 +420,11 @@ for
 k
 v
 in
+iteritems
+(
 self
 .
 _default
-.
-iteritems
-(
 )
 :
             
@@ -453,10 +457,9 @@ for
 k
 new_k
 in
-_renamed_props
-.
 iteritems
 (
+_renamed_props
 )
 :
             
@@ -704,10 +707,9 @@ for
 k
 new_k
 in
-_renamed_props
-.
 iteritems
 (
+_renamed_props
 )
 :
             
@@ -875,12 +877,11 @@ for
 scheme
 ports
 in
+iteritems
+(
 self
 .
 _ports
-.
-iteritems
-(
 )
 :
             
@@ -1122,10 +1123,9 @@ for
 name
 host
 in
-hosts
-.
 iteritems
 (
+hosts
 )
 :
             
@@ -1144,6 +1144,13 @@ encode
 (
 "
 idna
+"
+)
+.
+decode
+(
+"
+ascii
 "
 )
 +
@@ -1222,10 +1229,9 @@ for
 name
 host
 in
-hosts
-.
 iteritems
 (
+hosts
 )
 :
             
@@ -1244,6 +1250,13 @@ encode
 (
 "
 idna
+"
+)
+.
+decode
+(
+"
+ascii
 "
 )
 +
@@ -1329,21 +1342,19 @@ domain
 for
 per_host_domains
 in
+itervalues
+(
 self
 .
 domains
-.
-itervalues
-(
 )
                 
 for
 domain
 in
-per_host_domains
-.
 itervalues
 (
+per_host_domains
 )
 }
     
@@ -1363,21 +1374,19 @@ domain
 for
 per_host_domains
 in
+itervalues
+(
 self
 .
 not_domains
-.
-itervalues
-(
 )
                 
 for
 domain
 in
-per_host_domains
-.
 itervalues
 (
+per_host_domains
 )
 }
     
@@ -1467,8 +1476,6 @@ try
             
 cls
 =
-sslutils
-.
 environments
 [
 implementation_type
