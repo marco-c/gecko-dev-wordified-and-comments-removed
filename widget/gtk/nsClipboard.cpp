@@ -1839,9 +1839,6 @@ nsISupports
 >
 item
 ;
-uint32_t
-len
-;
 GdkAtom
 selectionTarget
 =
@@ -1876,8 +1873,6 @@ getter_AddRefs
 (
 item
 )
-&
-len
 )
 ;
 if
@@ -2022,8 +2017,6 @@ getter_AddRefs
 (
 imageItem
 )
-&
-len
 )
 ;
 image
@@ -2108,8 +2101,6 @@ getter_AddRefs
 (
 item
 )
-&
-len
 )
 ;
 if
@@ -2229,8 +2220,6 @@ getter_AddRefs
 (
 item
 )
-&
-len
 )
 ;
 if

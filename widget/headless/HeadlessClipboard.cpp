@@ -94,9 +94,6 @@ nsISupports
 >
 clip
 ;
-uint32_t
-len
-;
 nsresult
 rv
 =
@@ -110,8 +107,6 @@ getter_AddRefs
 (
 clip
 )
-&
-len
 )
 ;
 if

@@ -972,9 +972,6 @@ nsISupports
 *
 *
 aData
-uint32_t
-*
-aDataLen
 )
 {
 MOZ_ASSERT
@@ -986,11 +983,6 @@ mInitialized
 aData
 =
 nullptr
-;
-*
-aDataLen
-=
-0
 ;
 nsresult
 rv
@@ -1089,11 +1081,6 @@ if
 dataBytes
 )
 {
-*
-aDataLen
-=
-len
-;
 dataBytes
 .
 forget
@@ -1236,6 +1223,9 @@ rv
 ;
 }
 }
+uint32_t
+dataLen
+;
 return
 mFormatConv
 -
@@ -1255,7 +1245,8 @@ dataBytes
 len
 aFlavor
 aData
-aDataLen
+&
+dataLen
 )
 ;
 }

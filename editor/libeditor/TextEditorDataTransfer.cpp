@@ -2036,9 +2036,6 @@ nsISupports
 >
 data
 ;
-uint32_t
-dataLen
-;
 nsresult
 rv
 =
@@ -2052,8 +2049,6 @@ getter_AddRefs
 (
 data
 )
-&
-dataLen
 )
 ;
 if
