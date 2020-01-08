@@ -5832,6 +5832,9 @@ aWindow
 nsIChannel
 *
 aChannel
+nsIPrincipal
+*
+aPrincipal
 nsIURI
 *
 aURI
@@ -6871,7 +6874,7 @@ aArg
 ;
 static
 void
-GetCookieBehaviorForPrincipal
+GetCookieLifetimePolicyForPrincipal
 (
 nsIPrincipal
 *
@@ -6879,9 +6882,6 @@ aPrincipal
 uint32_t
 *
 aLifetimePolicy
-uint32_t
-*
-aBehavior
 )
 ;
 static

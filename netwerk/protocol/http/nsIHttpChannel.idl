@@ -3563,11 +3563,12 @@ connection
 Note
 that
 if
+the
 privacy
 .
-restrict3rdpartystorage
+trackingprotection
 .
-enabled
+annotate_channels
 pref
 is
 set
