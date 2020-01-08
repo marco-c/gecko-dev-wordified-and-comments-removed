@@ -64,4 +64,13 @@ listener
 .
 js
 '
+'
+tab
+-
+component
+-
+data
+.
+js
+'
 )
