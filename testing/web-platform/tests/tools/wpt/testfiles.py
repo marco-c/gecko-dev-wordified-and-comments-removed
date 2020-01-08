@@ -24,7 +24,6 @@ from
 manifest
 import
 manifest
-update
 here
 =
 os
