@@ -195,7 +195,7 @@ js
 ;
 static
 bool
-Compile
+CompileSourceBuffer
 (
 JSContext
 *
@@ -349,9 +349,7 @@ GiveOwnership
 )
 ;
 return
-:
-:
-Compile
+CompileSourceBuffer
 (
 cx
 options
@@ -436,9 +434,7 @@ GiveOwnership
 )
 ;
 return
-:
-:
-Compile
+CompileSourceBuffer
 (
 cx
 options
@@ -643,9 +639,7 @@ script
 )
 {
 return
-:
-:
-Compile
+CompileSourceBuffer
 (
 cx
 options
@@ -852,9 +846,7 @@ true
 )
 ;
 return
-:
-:
-Compile
+CompileSourceBuffer
 (
 cx
 options
@@ -1111,9 +1103,7 @@ script
 )
 {
 return
-:
-:
-Compile
+CompileSourceBuffer
 (
 cx
 options
