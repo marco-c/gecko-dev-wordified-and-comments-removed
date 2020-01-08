@@ -287,6 +287,17 @@ nsACString
 aFullHash
 )
 ;
+static
+void
+NotifyChannelBlocked
+(
+nsIChannel
+*
+aChannel
+unsigned
+aBlockedReason
+)
+;
 public
 :
 static
