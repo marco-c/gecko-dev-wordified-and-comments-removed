@@ -527,6 +527,12 @@ nsWrapperCache
 *
 cache
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 CallQueryInterface
 (
 native
