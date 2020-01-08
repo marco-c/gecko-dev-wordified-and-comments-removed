@@ -1702,6 +1702,13 @@ t
 kind
 )
 ;
+cx
+-
+>
+noteTenuredAlloc
+(
+)
+;
 return
 t
 ;

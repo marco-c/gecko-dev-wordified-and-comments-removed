@@ -132,6 +132,12 @@ mainContextPtr
 (
 )
 ;
+uint32_t
+*
+addressOfTenuredAllocCount
+(
+)
+;
 const
 void
 *
@@ -268,6 +274,12 @@ const
 void
 *
 addressOfStringNurseryCurrentEnd
+(
+)
+;
+uint32_t
+*
+addressOfNurseryAllocCount
 (
 )
 ;
