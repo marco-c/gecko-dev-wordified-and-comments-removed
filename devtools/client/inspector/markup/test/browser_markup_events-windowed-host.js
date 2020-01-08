@@ -310,13 +310,13 @@ tooltip
 )
 ;
 const
-h1
+script
 =
 await
 getContainerForSelector
 (
 "
-h1
+script
 "
 inspector
 )
@@ -324,7 +324,7 @@ inspector
 const
 tag
 =
-h1
+script
 .
 elt
 .
