@@ -896,10 +896,6 @@ marionette
 -
 headless
 -
-marionette
--
-gpu
--
 mochitest
 -
 mochitest
