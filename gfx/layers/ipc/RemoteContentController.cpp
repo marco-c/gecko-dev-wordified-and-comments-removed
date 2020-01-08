@@ -94,17 +94,6 @@ include
 "
 mozilla
 /
-layout
-/
-RenderFrameParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 GPUProcessManager

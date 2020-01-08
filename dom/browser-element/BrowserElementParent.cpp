@@ -87,17 +87,6 @@ CustomEvent
 .
 h
 "
-#
-include
-"
-mozilla
-/
-layout
-/
-RenderFrameParent
-.
-h
-"
 using
 namespace
 mozilla
