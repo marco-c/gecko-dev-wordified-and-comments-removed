@@ -3025,6 +3025,15 @@ Window
 Replaceable
 Throws
 UseCounter
+Pref
+=
+"
+dom
+.
+sidebar
+.
+enabled
+"
 ]
 readonly
 attribute
