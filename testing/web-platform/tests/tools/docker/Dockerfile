@@ -54,6 +54,8 @@ dbus
 -
 x11
 \
+earlyoom
+\
 gdebi
 \
 git
