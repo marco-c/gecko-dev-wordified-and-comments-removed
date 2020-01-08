@@ -293,15 +293,7 @@ status
 =
 securityUI
 .
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsISSLStatusProvider
-)
-                                 
+secInfo
 .
 SSLStatus
 ;
