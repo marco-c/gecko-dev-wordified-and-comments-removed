@@ -11117,17 +11117,6 @@ parentNode
 )
 ;
 }
-if
-(
-aOriginArea
-.
-id
-!
-=
-=
-kPaletteId
-)
-{
 this
 .
 _onDragEnd
@@ -11135,7 +11124,6 @@ _onDragEnd
 aEvent
 )
 ;
-}
 return
 ;
 }
