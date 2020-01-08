@@ -71,6 +71,9 @@ i
 )
 ;
 }
+let
+providerName
+=
 registerBasicTestProvider
 (
 matches
@@ -81,6 +84,14 @@ context
 =
 createContext
 (
+undefined
+{
+providers
+:
+[
+providerName
+]
+}
 )
 ;
 let

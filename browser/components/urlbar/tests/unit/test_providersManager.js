@@ -215,6 +215,9 @@ foo
 }
 )
 ;
+let
+providerName
+=
 registerBasicTestProvider
 (
 [
@@ -227,6 +230,14 @@ context
 =
 createContext
 (
+undefined
+{
+providers
+:
+[
+providerName
+]
+}
 )
 ;
 let
