@@ -885,10 +885,12 @@ if
 !
 mar
 )
+{
 return
 -
 1
 ;
+}
 printf
 (
 "
@@ -1144,6 +1146,7 @@ NO_SIGN_VERIFY
 )
 &
 &
+\
 (
 (
 !
@@ -1160,7 +1163,6 @@ XP_WIN
 )
 |
 |
-\
 defined
 (
 XP_MACOSX
@@ -1473,6 +1475,7 @@ NO_SIGN_VERIFY
 )
 &
 &
+\
 (
 (
 !
@@ -1489,7 +1492,6 @@ XP_WIN
 )
 |
 |
-\
 defined
 (
 XP_MACOSX

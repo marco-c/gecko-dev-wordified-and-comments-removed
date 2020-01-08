@@ -31,8 +31,11 @@ cryptox
 h
 "
 #
-ifdef
+if
+defined
+(
 __cplusplus
+)
 extern
 "
 C
@@ -141,8 +144,11 @@ SecTransformSetAttributePtr
 NULL
 ;
 #
-ifdef
+if
+defined
+(
 __cplusplus
+)
 }
 #
 endif
