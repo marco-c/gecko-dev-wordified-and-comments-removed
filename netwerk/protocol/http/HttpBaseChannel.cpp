@@ -10439,7 +10439,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 addr
 .
-SetCapacity
+SetLength
 (
 kIPv6CStrBufSize
 )
@@ -10881,7 +10881,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 addr
 .
-SetCapacity
+SetLength
 (
 kIPv6CStrBufSize
 )
