@@ -63,6 +63,12 @@ HashTableIteration
 ImageCache
 =
 0x20
+TaskDispatching
+=
+0x40
+TaskRunning
+=
+0x80
 Any
 =
 0xffffffff
