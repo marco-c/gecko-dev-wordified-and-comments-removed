@@ -376,7 +376,6 @@ iconURL
 id
 manifestURL
 name
-temporarilyInstalled
 }
 =
 extension
@@ -456,7 +455,6 @@ details
 actor
 location
 manifestURL
-temporarilyInstalled
 uuid
 }
 }
