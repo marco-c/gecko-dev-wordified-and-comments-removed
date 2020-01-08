@@ -716,6 +716,10 @@ serde_json
 ;
 extern
 crate
+sha2
+;
+extern
+crate
 smallvec
 ;
 extern
