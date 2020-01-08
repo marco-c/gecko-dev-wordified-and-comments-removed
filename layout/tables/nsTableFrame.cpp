@@ -25125,7 +25125,7 @@ aSide2
 #
 define
 BORDER_STYLE_UNSET
-0xFF
+0xF
 struct
 BCCornerInfo
 {
@@ -25209,12 +25209,12 @@ ownerSide
 uint32_t
 ownerElem
 :
-3
+4
 ;
 uint32_t
 ownerStyle
 :
-8
+4
 ;
 uint32_t
 subSide
@@ -25224,12 +25224,12 @@ subSide
 uint32_t
 subElem
 :
-3
+4
 ;
 uint32_t
 subStyle
 :
-8
+4
 ;
 uint32_t
 hasDashDot
@@ -25268,6 +25268,8 @@ ownerElem
 aBorder
 .
 owner
+&
+0x7
 ;
 ownerStyle
 =
