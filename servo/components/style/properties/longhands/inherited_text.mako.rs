@@ -155,11 +155,6 @@ extra_gecko_values
 full
 -
 width
-full
--
-size
--
-kana
 "
 animation_value_type
 =

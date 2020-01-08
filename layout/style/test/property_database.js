@@ -48536,13 +48536,6 @@ full
 -
 width
 "
-"
-full
--
-size
--
-kana
-"
 ]
 invalid_values
 :
