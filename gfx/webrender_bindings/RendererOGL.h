@@ -259,6 +259,11 @@ Resume
 (
 )
 ;
+void
+CheckGraphicsResetStatus
+(
+)
+;
 layers
 :
 :

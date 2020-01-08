@@ -1753,6 +1753,13 @@ Update
 )
 ;
 }
+renderer
+-
+>
+CheckGraphicsResetStatus
+(
+)
+;
 TimeStamp
 end
 =
