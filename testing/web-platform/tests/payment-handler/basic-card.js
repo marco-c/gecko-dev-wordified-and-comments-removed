@@ -665,10 +665,6 @@ dependentLocality
 :
 '
 '
-languageCode
-:
-'
-'
 organization
 :
 '
