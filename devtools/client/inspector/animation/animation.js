@@ -686,12 +686,12 @@ Provider
 id
 :
 "
-newanimationinspector
+animationinspector
 "
 key
 :
 "
-newanimationinspector
+animationinspector
 "
 store
 :
@@ -1385,7 +1385,7 @@ getCurrentTabID
 =
 =
 "
-newanimationinspector
+animationinspector
 "
 ;
 }
@@ -2847,7 +2847,7 @@ inspector
 updating
 (
 "
-newanimationinspector
+animationinspector
 "
 )
 ;

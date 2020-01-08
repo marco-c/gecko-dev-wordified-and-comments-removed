@@ -50,7 +50,7 @@ const
 TAB_NAME
 =
 "
-newanimationinspector
+animationinspector
 "
 ;
 const
@@ -1843,7 +1843,7 @@ sidebar
 select
 (
 "
-newanimationinspector
+animationinspector
 "
 )
 ;
