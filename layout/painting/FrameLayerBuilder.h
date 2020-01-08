@@ -106,7 +106,7 @@ h
 #
 include
 "
-TransformClipNode
+MatrixStack
 .
 h
 "
@@ -453,12 +453,6 @@ RefPtr
 TransformClipNode
 >
 mTransform
-;
-RefPtr
-<
-TransformClipNode
->
-mOldTransform
 ;
 private
 :
