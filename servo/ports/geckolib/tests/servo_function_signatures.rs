@@ -113,7 +113,6 @@ allow
 (
 non_snake_case
 unused_unsafe
-private_no_mangle_fns
 )
 ]
 mod
