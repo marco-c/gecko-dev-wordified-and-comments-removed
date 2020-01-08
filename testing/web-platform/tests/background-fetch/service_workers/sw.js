@@ -65,7 +65,7 @@ self
 addEventListener
 (
 '
-backgroundfetched
+backgroundfetchsuccess
 '
 event
 =

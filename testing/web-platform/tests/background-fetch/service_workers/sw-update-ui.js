@@ -26,6 +26,8 @@ switch
 (
 event
 .
+registration
+.
 id
 )
 {
@@ -128,7 +130,7 @@ self
 addEventListener
 (
 '
-backgroundfetched
+backgroundfetchsuccess
 '
 event
 =
