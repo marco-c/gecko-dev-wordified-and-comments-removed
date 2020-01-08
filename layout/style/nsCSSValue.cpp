@@ -6961,14 +6961,15 @@ aCORSMode
 )
 {
 }
-void
+imgRequestProxy
+*
 css
 :
 :
 ImageValue
 :
 :
-Initialize
+LoadImage
 (
 nsIDocument
 *
