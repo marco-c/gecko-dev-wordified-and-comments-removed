@@ -106,6 +106,16 @@ Embedding
 APIs
 "
 )
+EXPORTS
++
+=
+[
+'
+nsCommandParams
+.
+h
+'
+]
 XPIDL_SOURCES
 +
 =
