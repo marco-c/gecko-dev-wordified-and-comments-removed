@@ -5687,13 +5687,10 @@ GetPrevContinuation
 )
 )
 {
-Unused
-<
-<
 SVGObserverUtils
 :
 :
-GetEffectProperties
+InitiateResourceDocLoads
 (
 this
 )

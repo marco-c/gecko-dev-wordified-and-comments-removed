@@ -1629,6 +1629,15 @@ aFrame
 ;
 static
 void
+InitiateResourceDocLoads
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
+void
 UpdateEffects
 (
 nsIFrame
