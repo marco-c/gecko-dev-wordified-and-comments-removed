@@ -7598,6 +7598,11 @@ active
 "
 focus
 "
+"
+focus
+-
+within
+"
 ]
 )
 {

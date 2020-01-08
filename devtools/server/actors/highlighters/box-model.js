@@ -155,6 +155,12 @@ active
 :
 focus
 "
+"
+:
+focus
+-
+within
+"
 ]
 ;
 class
