@@ -594,6 +594,8 @@ HTMLDNSPrefetch
 (
 nsString
 hostname
+bool
+isHttps
 OriginAttributes
 originAttributes
 uint16_t
@@ -605,6 +607,8 @@ CancelHTMLDNSPrefetch
 (
 nsString
 hostname
+bool
+isHttps
 OriginAttributes
 originAttributes
 uint16_t
