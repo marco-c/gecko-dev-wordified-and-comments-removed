@@ -995,6 +995,17 @@ status
 [
 int
 ]
+        
+Optional
+(
+'
+skip
+-
+artifacts
+'
+)
+:
+bool
     
 }
 {
@@ -1264,6 +1275,17 @@ proxy
 )
 :
 bool
+        
+Optional
+(
+'
+skip
+-
+artifacts
+'
+)
+:
+bool
     
 }
 {
@@ -1416,6 +1438,17 @@ basestring
         
 }
 ]
+        
+Optional
+(
+'
+skip
+-
+artifacts
+'
+)
+:
+bool
     
 }
 {
@@ -5414,11 +5447,15 @@ for
 artifact
 in
 worker
-[
+.
+get
+(
 '
 artifacts
 '
+[
 ]
+)
 :
         
 a

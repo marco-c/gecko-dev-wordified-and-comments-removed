@@ -1480,6 +1480,21 @@ worker
 '
 ]
     
+if
+not
+worker
+.
+get
+(
+'
+skip
+-
+artifacts
+'
+False
+)
+:
+        
 generic_worker_add_artifacts
 (
 config
