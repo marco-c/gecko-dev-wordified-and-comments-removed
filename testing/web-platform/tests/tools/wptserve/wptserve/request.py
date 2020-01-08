@@ -2,8 +2,18 @@ import
 base64
 import
 cgi
+from
+six
+.
+moves
+.
+http_cookies
 import
-Cookie
+BaseCookie
+from
+six
+.
+moves
 import
 StringIO
 import
@@ -255,8 +265,6 @@ self
 .
 _buf
 =
-StringIO
-.
 StringIO
 (
 )
@@ -1796,8 +1804,6 @@ None
             
 parser
 =
-Cookie
-.
 BaseCookie
 (
 )

@@ -18,7 +18,7 @@ values
 in
 dict
 .
-iteritems
+items
 (
 )
 :

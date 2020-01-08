@@ -7,8 +7,15 @@ datetime
 import
 datetime
 timedelta
+from
+six
+.
+moves
+.
+http_cookies
 import
-Cookie
+BaseCookie
+Morsel
 import
 json
 import
@@ -873,8 +880,6 @@ max_age
         
 m
 =
-Cookie
-.
 Morsel
 (
 )
@@ -1035,8 +1040,6 @@ Cookie
         
 parser
 =
-Cookie
-.
 BaseCookie
 (
 )

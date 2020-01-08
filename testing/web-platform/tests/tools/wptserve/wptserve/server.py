@@ -1,3 +1,7 @@
+from
+six
+.
+moves
 import
 BaseHTTPServer
 import
@@ -7,7 +11,11 @@ os
 import
 socket
 from
-SocketServer
+six
+.
+moves
+.
+socketserver
 import
 ThreadingMixIn
 import

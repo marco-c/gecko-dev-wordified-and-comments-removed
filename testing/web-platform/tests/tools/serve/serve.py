@@ -36,8 +36,12 @@ import
 time
 import
 traceback
+from
+six
+.
+moves
 import
-urllib2
+urllib
 import
 uuid
 from
@@ -3447,7 +3451,9 @@ range
 try
 :
             
-urllib2
+urllib
+.
+request
 .
 urlopen
 (
@@ -3477,7 +3483,9 @@ True
 break
         
 except
-urllib2
+urllib
+.
+error
 .
 URLError
 :
@@ -3570,7 +3578,9 @@ continue
 try
 :
             
-urllib2
+urllib
+.
+request
 .
 urlopen
 (

@@ -23,7 +23,9 @@ types
 import
 uuid
 from
-cStringIO
+six
+.
+moves
 import
 StringIO
 from
