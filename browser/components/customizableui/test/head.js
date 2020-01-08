@@ -370,6 +370,13 @@ appendChild
 tb
 )
 ;
+CustomizableUI
+.
+registerToolbarNode
+(
+tb
+)
+;
 return
 tb
 ;
@@ -650,6 +657,13 @@ id
 gNavToolbox
 .
 appendChild
+(
+tb
+)
+;
+CustomizableUI
+.
+registerToolbarNode
 (
 tb
 )

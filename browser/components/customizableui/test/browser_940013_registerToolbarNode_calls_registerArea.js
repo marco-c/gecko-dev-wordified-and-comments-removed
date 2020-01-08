@@ -97,6 +97,13 @@ appendChild
 toolbar
 )
 ;
+CustomizableUI
+.
+registerToolbarNode
+(
+toolbar
+)
+;
 ok
 (
 !
