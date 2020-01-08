@@ -412,9 +412,10 @@ if
 aStream
 )
 {
-int64_t
-t
-=
+mOnOutput
+.
+Notify
+(
 aStream
 -
 >
@@ -422,12 +423,6 @@ StreamTimeToMicroseconds
 (
 aCurrentTrackTime
 )
-;
-mOnOutput
-.
-Notify
-(
-t
 )
 ;
 }
