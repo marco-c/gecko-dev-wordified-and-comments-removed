@@ -38,9 +38,7 @@ guid
 null
 selectedStateKey
 :
-"
-selectedPaymentCard
-"
+null
 }
 "
 address
