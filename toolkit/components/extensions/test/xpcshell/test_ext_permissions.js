@@ -3152,6 +3152,9 @@ menus
 mozillaAddons
 "
 "
+search
+"
+"
 storage
 "
 "
