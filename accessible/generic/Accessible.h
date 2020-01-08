@@ -1879,10 +1879,9 @@ IsTableCell
 const
 {
 return
-HasGenericType
-(
+mGenericTypes
+&
 eTableCell
-)
 ;
 }
 virtual
