@@ -1141,7 +1141,13 @@ rv
 )
 {
 return
+std
+:
+:
+move
+(
 name
+)
 ;
 }
 }
