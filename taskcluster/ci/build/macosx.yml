@@ -1794,6 +1794,8 @@ linux64
 -
 rust
 -
+nightly
+-
 macos
 -
 linux64
