@@ -95,9 +95,6 @@ refContent
 self
 .
 refList
-self
-.
-refMap
 =
 p
 .
@@ -188,14 +185,9 @@ self
 .
 refList
 [
-self
-.
-refMap
-[
 l10n
 .
 key
-]
 ]
         
 found
@@ -2398,8 +2390,8 @@ DTDEntity
 (
             
 ctx
-'
-'
+None
+None
 (
 0
 len
@@ -2491,8 +2483,8 @@ DTDEntity
 (
             
 ctx
-'
-'
+None
+None
 (
 0
 len
@@ -3991,9 +3983,6 @@ checker
 set_reference
 (
 ref
-[
-0
-]
 )
         
 ref

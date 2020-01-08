@@ -23,6 +23,10 @@ parser
 import
 getParser
 Junk
+from
+compare_locales
+import
+mozpath
 import
 hglib
 from
@@ -182,12 +186,17 @@ file_blame
         
 path
 =
+mozpath
+.
+normsep
+(
 file_blame
 [
 '
 path
 '
 ]
+)
         
 try
 :
@@ -224,7 +233,6 @@ path
 )
         
 entities
-emap
 =
 parser
 .

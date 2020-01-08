@@ -28,7 +28,7 @@ syntax
 parser
 import
 FluentParser
-FTLParserStream
+FluentParserStream
 fluent_parser
 =
 FluentParser
@@ -138,7 +138,7 @@ code
     
 ps
 =
-FTLParserStream
+FluentParserStream
 (
 ftl
 (

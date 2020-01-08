@@ -168,6 +168,8 @@ ctx
         
 except
 MigrationError
+as
+e
 :
             
 print
@@ -180,6 +182,11 @@ migration
 for
 {
 }
+:
+\
+n
+{
+}
 '
 .
 format
@@ -189,6 +196,7 @@ migration
 .
 __name__
 lang
+e
 )
 )
             

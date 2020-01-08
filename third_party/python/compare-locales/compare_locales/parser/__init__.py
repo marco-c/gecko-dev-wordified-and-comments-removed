@@ -26,6 +26,7 @@ OffsetComment
 Junk
 Whitespace
     
+BadEntity
 Parser
 )
 from
@@ -77,6 +78,14 @@ IniSection
 )
 from
 .
+po
+import
+(
+    
+PoParser
+)
+from
+.
 properties
 import
 (
@@ -121,6 +130,9 @@ OffsetComment
 "
     
 "
+BadEntity
+"
+"
 Parser
 "
     
@@ -164,6 +176,10 @@ IniParser
 "
 "
 IniSection
+"
+    
+"
+PoParser
 "
     
 "
@@ -293,6 +309,19 @@ DefinesParser
 ftl
 '
 FluentParser
+(
+)
+)
+    
+(
+'
+\
+\
+.
+pot
+?
+'
+PoParser
 (
 )
 )

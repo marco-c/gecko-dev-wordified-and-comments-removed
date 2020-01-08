@@ -81,7 +81,6 @@ merge_channels
 self
 .
 name
-*
 channels
 )
 b
@@ -158,7 +157,6 @@ merge_channels
 self
 .
 name
-*
 channels
 )
 b
@@ -601,7 +599,7 @@ Browsing
         
 self
 .
-assertEqual
+assertMultiLineEqual
 (
             
 merge_channels
@@ -609,10 +607,17 @@ merge_channels
 self
 .
 name
-*
 channels
 )
-b
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
 "
 "
 "
@@ -1299,7 +1304,6 @@ merge_channels
 self
 .
 name
-*
 channels
 )
 b

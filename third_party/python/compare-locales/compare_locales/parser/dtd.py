@@ -947,20 +947,14 @@ if
 m
 :
                 
-self
-.
-last_comment
-=
-None
-                
 entity
 =
 DTDEntity
 (
                     
 ctx
-'
-'
+None
+None
 m
 .
 span
@@ -993,6 +987,8 @@ createEntity
 self
 ctx
 m
+current_comment
+white_space
 )
 :
         
@@ -1024,23 +1020,12 @@ valspan
 1
 )
         
-pre_comment
-=
-self
-.
-last_comment
-        
-self
-.
-last_comment
-=
-None
-        
 return
 DTDEntity
 (
 ctx
-pre_comment
+current_comment
+white_space
                          
 m
 .
