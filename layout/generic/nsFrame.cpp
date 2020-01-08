@@ -23909,7 +23909,7 @@ result
 =
 0
 ;
-DISPLAY_MIN_WIDTH
+DISPLAY_MIN_INLINE_SIZE
 (
 this
 result
@@ -23935,7 +23935,7 @@ result
 =
 0
 ;
-DISPLAY_PREF_WIDTH
+DISPLAY_PREF_INLINE_SIZE
 (
 this
 result
@@ -54367,10 +54367,10 @@ mValue
 )
 ;
 }
-DR_intrinsic_width_cookie
+DR_intrinsic_inline_size_cookie
 :
 :
-DR_intrinsic_width_cookie
+DR_intrinsic_inline_size_cookie
 (
 nsIFrame
 *
@@ -54399,7 +54399,7 @@ aResult
 {
 MOZ_COUNT_CTOR
 (
-DR_intrinsic_width_cookie
+DR_intrinsic_inline_size_cookie
 )
 ;
 mValue
@@ -54414,17 +54414,17 @@ mType
 )
 ;
 }
-DR_intrinsic_width_cookie
+DR_intrinsic_inline_size_cookie
 :
 :
 ~
-DR_intrinsic_width_cookie
+DR_intrinsic_inline_size_cookie
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-DR_intrinsic_width_cookie
+DR_intrinsic_inline_size_cookie
 )
 ;
 nsFrame
@@ -58965,7 +58965,7 @@ printf
 "
 Get
 %
-sWidth
+sISize
 \
 n
 "
@@ -59875,7 +59875,7 @@ mIndent
 )
 ;
 char
-width
+iSize
 [
 16
 ]
@@ -59886,7 +59886,7 @@ DR_state
 PrettyUC
 (
 aResult
-width
+iSize
 16
 )
 ;
@@ -59895,7 +59895,7 @@ printf
 "
 Get
 %
-sWidth
+sISize
 =
 %
 s
@@ -59903,7 +59903,7 @@ s
 n
 "
 aType
-width
+iSize
 )
 ;
 }
