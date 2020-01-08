@@ -2203,6 +2203,9 @@ events
 "
 newSource
 "
+"
+progress
+"
 ]
 }
 ;
