@@ -436,9 +436,9 @@ super
 *
 ;
 use
-serde_json
-;
-use
+crate
+:
+:
 test
 :
 :
@@ -446,6 +446,9 @@ test
 check_serialize
 check_serialize_deserialize
 }
+;
+use
+serde_json
 ;
 #
 [

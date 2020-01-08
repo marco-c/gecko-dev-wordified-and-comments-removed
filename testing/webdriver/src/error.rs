@@ -1470,6 +1470,9 @@ super
 *
 ;
 use
+crate
+:
+:
 test
 :
 :
