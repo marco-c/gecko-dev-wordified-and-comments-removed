@@ -1,16 +1,3 @@
-if
-(
-helperThreadCount
-(
-)
-=
-=
-0
-)
-quit
-(
-)
-;
 function
 evalWithCacheLoadOffThread
 (
