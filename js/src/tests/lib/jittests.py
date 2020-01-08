@@ -2522,6 +2522,7 @@ mozdevice
 import
 ADBDevice
 ADBProcessError
+ADBTimeoutError
     
 if
 options
@@ -2691,6 +2692,12 @@ timeout
 returncode
 =
 0
+    
+except
+ADBTimeoutError
+:
+        
+raise
     
 except
 ADBProcessError

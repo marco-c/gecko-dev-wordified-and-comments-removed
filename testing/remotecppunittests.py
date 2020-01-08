@@ -27,6 +27,7 @@ mozdevice
 import
 ADBAndroid
 ADBProcessError
+ADBTimeoutError
 try
 :
     
@@ -1083,6 +1084,12 @@ test_timeout
 returncode
 =
 0
+        
+except
+ADBTimeoutError
+:
+            
+raise
         
 except
 ADBProcessError

@@ -32,6 +32,7 @@ mozdevice
 import
 ADBAndroid
 ADBDevice
+ADBTimeoutError
 import
 mozfile
 import
@@ -1104,6 +1105,12 @@ adb_process
 exitcode
         
 except
+ADBTimeoutError
+:
+            
+raise
+        
+except
 Exception
 as
 e
@@ -1388,6 +1395,12 @@ root
 =
 True
 )
+        
+except
+ADBTimeoutError
+:
+            
+raise
         
 except
 Exception
