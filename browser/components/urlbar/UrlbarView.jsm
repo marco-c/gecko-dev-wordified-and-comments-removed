@@ -1210,9 +1210,12 @@ event
 else
 {
 throw
+new
+Error
+(
 "
 Unrecognized
-urlbar
+UrlbarView
 event
 :
 "
@@ -1220,6 +1223,7 @@ event
 event
 .
 type
+)
 ;
 }
 }
