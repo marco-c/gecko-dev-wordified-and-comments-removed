@@ -207,6 +207,11 @@ env
 PERFHERDER_EXTRA_OPTIONS
 :
 searchfox
+RUSTC_BOOTSTRAP
+:
+"
+1
+"
 run
 :
 using
@@ -362,6 +367,11 @@ manifest
 PERFHERDER_EXTRA_OPTIONS
 :
 searchfox
+RUSTC_BOOTSTRAP
+:
+"
+1
+"
 run
 :
 using
