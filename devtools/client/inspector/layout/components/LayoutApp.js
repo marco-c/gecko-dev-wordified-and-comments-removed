@@ -890,7 +890,7 @@ items
 .
 splice
 (
-0
+1
 0
 {
 component
@@ -982,7 +982,7 @@ dom
 div
 (
 {
-id
+className
 :
 "
 layout
