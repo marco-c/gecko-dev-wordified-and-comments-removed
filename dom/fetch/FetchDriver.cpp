@@ -2829,6 +2829,9 @@ nsContentUtils
 IsTailingEnabled
 (
 )
+&
+&
+cos
 )
 {
 cos
