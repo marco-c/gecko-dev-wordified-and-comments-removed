@@ -653,7 +653,6 @@ public
 interface
 Delegate
 {
-default
 void
 onPlaybackStateChange
 (
@@ -663,9 +662,7 @@ MediaStateFlags
 int
 mediaState
 )
-{
-}
-default
+;
 void
 onReadyStateChange
 (
@@ -675,9 +672,7 @@ ReadyStateFlags
 int
 readyState
 )
-{
-}
-default
+;
 void
 onMetadataChange
 (
@@ -686,9 +681,7 @@ mediaElement
 Metadata
 metaData
 )
-{
-}
-default
+;
 void
 onLoadProgress
 (
@@ -697,9 +690,7 @@ mediaElement
 LoadProgressInfo
 progressInfo
 )
-{
-}
-default
+;
 void
 onVolumeChange
 (
@@ -710,9 +701,7 @@ volume
 boolean
 muted
 )
-{
-}
-default
+;
 void
 onTimeChange
 (
@@ -721,9 +710,7 @@ mediaElement
 double
 time
 )
-{
-}
-default
+;
 void
 onPlaybackRateChange
 (
@@ -732,9 +719,7 @@ mediaElement
 double
 rate
 )
-{
-}
-default
+;
 void
 onFullscreenChange
 (
@@ -743,9 +728,7 @@ mediaElement
 boolean
 fullscreen
 )
-{
-}
-default
+;
 void
 onError
 (
@@ -755,8 +738,7 @@ MediaErrorFlags
 int
 errorCode
 )
-{
-}
+;
 }
 long
 getVideoId

@@ -1881,6 +1881,17 @@ session
 Override
 public
 void
+onFirstComposite
+(
+final
+GeckoSession
+session
+)
+{
+}
+Override
+public
+void
 onFullScreen
 (
 GeckoSession

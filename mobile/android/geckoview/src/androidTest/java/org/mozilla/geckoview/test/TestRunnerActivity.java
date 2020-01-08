@@ -447,6 +447,17 @@ shutdown
 ;
 }
 }
+Override
+public
+void
+onFirstComposite
+(
+final
+GeckoSession
+session
+)
+{
+}
 }
 ;
 private

@@ -4588,6 +4588,17 @@ session
 )
 {
 }
+Override
+public
+void
+onFirstComposite
+(
+final
+GeckoSession
+session
+)
+{
+}
 protected
 void
 setFullScreen

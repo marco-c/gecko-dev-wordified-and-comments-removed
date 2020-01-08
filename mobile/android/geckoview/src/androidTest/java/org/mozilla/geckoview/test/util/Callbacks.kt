@@ -311,6 +311,16 @@ GeckoSession
 )
 {
 }
+override
+fun
+onFirstComposite
+(
+session
+:
+GeckoSession
+)
+{
+}
 }
 interface
 NavigationDelegate
