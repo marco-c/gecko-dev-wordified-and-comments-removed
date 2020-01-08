@@ -857,6 +857,12 @@ resize
 :
 inherit
 ;
+scrollbar
+-
+width
+:
+inherit
+;
 -
 moz
 -
