@@ -115,12 +115,9 @@ DOMString
 aDescriptionURL
 )
 ;
-unsigned
-long
+void
 IsSearchProviderInstalled
 (
-DOMString
-aSearchURL
 )
 ;
 }
