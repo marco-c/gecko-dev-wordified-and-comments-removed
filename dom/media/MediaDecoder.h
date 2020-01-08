@@ -886,12 +886,6 @@ bool
 aAllowed
 )
 ;
-bool
-IsVideoDecodingSuspended
-(
-)
-const
-;
 virtual
 void
 ChangeState
@@ -1557,11 +1551,6 @@ mOnDecodeWarning
 ;
 MediaEventListener
 mOnNextFrameStatus
-;
-bool
-mIsVideoDecodingSuspended
-=
-false
 ;
 protected
 :
