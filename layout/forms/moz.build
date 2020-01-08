@@ -136,11 +136,6 @@ EXPORTS
 =
 [
 '
-nsIComboboxControlFrame
-.
-h
-'
-'
 nsIFormControlFrame
 .
 h

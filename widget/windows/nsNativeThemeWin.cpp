@@ -188,7 +188,7 @@ h
 #
 include
 "
-nsIComboboxControlFrame
+nsComboboxControlFrame
 .
 h
 "
@@ -5943,7 +5943,7 @@ if
 isHTML
 )
 {
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 ccf
 =
@@ -16452,7 +16452,7 @@ if
 isHTML
 )
 {
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 ccf
 =

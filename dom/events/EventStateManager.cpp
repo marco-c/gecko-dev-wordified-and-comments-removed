@@ -331,7 +331,7 @@ h
 #
 include
 "
-nsIComboboxControlFrame
+nsComboboxControlFrame
 .
 h
 "
@@ -11285,7 +11285,7 @@ canScroll
 true
 ;
 }
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 comboBox
 =

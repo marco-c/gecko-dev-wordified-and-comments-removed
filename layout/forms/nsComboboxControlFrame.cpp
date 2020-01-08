@@ -1125,10 +1125,6 @@ nsComboboxControlFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIComboboxControlFrame
-)
-NS_QUERYFRAME_ENTRY
-(
 nsIFormControlFrame
 )
 NS_QUERYFRAME_ENTRY
@@ -4305,7 +4301,7 @@ return
 mDropdownFrame
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsComboboxControlFrame
 :
 :

@@ -60,7 +60,7 @@ KeyPress
 #
 endif
 class
-nsIComboboxControlFrame
+nsComboboxControlFrame
 ;
 class
 nsPresContext
@@ -1103,7 +1103,7 @@ mStartSelectionIndex
 int32_t
 mEndSelectionIndex
 ;
-nsIComboboxControlFrame
+nsComboboxControlFrame
 *
 mComboboxFrame
 ;

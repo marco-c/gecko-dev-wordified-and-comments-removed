@@ -770,6 +770,12 @@ LOCAL_INCLUDES
 /
 layout
 /
+forms
+'
+'
+/
+layout
+/
 generic
 '
 '
