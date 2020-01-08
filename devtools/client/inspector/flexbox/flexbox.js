@@ -1372,14 +1372,14 @@ target
 url
 ;
 const
-hostName
+hostname
 =
 parseURL
 (
 currentUrl
 )
 .
-hostName
+hostname
 |
 |
 parseURL
@@ -1401,7 +1401,7 @@ getCustomHostColors
 ;
 customColors
 [
-hostName
+hostname
 ]
 =
 color
