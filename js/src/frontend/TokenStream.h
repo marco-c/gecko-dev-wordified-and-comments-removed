@@ -7863,6 +7863,12 @@ CharsBase
 peekCodeUnit
 ;
 using
+CharsBase
+:
+:
+toCharT
+;
+using
 GeneralCharsBase
 :
 :
