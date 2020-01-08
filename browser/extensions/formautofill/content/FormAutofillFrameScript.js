@@ -410,12 +410,7 @@ doc
 .
 ownerGlobal
 .
-getInterface
-(
-Ci
-.
-nsIDocShell
-)
+docShell
 ;
 switch
 (
