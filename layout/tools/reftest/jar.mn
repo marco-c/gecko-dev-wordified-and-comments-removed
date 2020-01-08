@@ -2,15 +2,6 @@ reftest
 .
 jar
 :
-%
-content
-reftest
-%
-content
-/
-contentaccessible
-=
-yes
 content
 /
 moz
