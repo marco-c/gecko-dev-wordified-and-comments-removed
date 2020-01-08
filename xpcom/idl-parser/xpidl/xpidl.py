@@ -793,7 +793,7 @@ class
 types
 for
 string
-Sequence
+Array
 elements
 "
 self
@@ -2407,7 +2407,7 @@ name
 =
 =
 '
-Sequence
+Array
 '
 :
             
@@ -2433,7 +2433,7 @@ raise
 IDLError
 (
 "
-Sequence
+Array
 takes
 exactly
 1
@@ -2449,7 +2449,7 @@ hasSequence
 True
             
 return
-Sequence
+Array
 (
 self
 .
@@ -4067,7 +4067,7 @@ qualified
 type
 unsupported
 in
-Sequence
+Array
 <
 T
 >
@@ -4117,7 +4117,7 @@ raise
 IDLError
 (
 "
-Sequence
+Array
 <
 nsIDPtr
 >
@@ -9321,7 +9321,7 @@ legacyelement
 )
 )
 class
-Sequence
+Array
 (
 object
 )
@@ -9330,7 +9330,7 @@ object
 kind
 =
 '
-sequence
+array
 '
     
 def
@@ -9365,7 +9365,7 @@ self
         
 return
 "
-Sequence
+Array
 <
 %
 s
@@ -9438,7 +9438,7 @@ IDLError
 [
 array
 ]
-Sequence
+Array
 <
 T
 >
@@ -9525,7 +9525,7 @@ raise
 RustNoncompat
 (
 "
-Sequence
+Array
 <
 .
 .

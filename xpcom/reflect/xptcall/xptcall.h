@@ -155,8 +155,8 @@ xpt
 detail
 :
 :
-UntypedSequence
-sequence
+UntypedTArray
+array
 ;
 ExtendedVal
 (

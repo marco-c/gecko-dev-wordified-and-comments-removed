@@ -6847,12 +6847,12 @@ Tag
 nsXPTType
 :
 :
-T_SEQUENCE
+T_ARRAY
 )
 {
 auto
 *
-sequence
+array
 =
 (
 xpt
@@ -6861,7 +6861,7 @@ xpt
 detail
 :
 :
-UntypedSequence
+UntypedTArray
 *
 )
 aVal
@@ -6886,7 +6886,7 @@ i
 ;
 i
 <
-sequence
+array
 -
 >
 Length
@@ -6905,7 +6905,7 @@ elty
 .
 ElementPtr
 (
-sequence
+array
 -
 >
 Elements
