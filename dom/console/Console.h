@@ -1563,6 +1563,10 @@ friend
 class
 ConsoleWorkerRunnable
 ;
+friend
+class
+ConsoleWorkletRunnable
+;
 }
 ;
 }
