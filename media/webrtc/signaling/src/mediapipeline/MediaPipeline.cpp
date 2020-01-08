@@ -6430,9 +6430,9 @@ track
 ]
 "
 ;
-return
-;
 }
+else
+{
 nsString
 nsTrackId
 ;
@@ -6472,6 +6472,7 @@ description
 ]
 "
 ;
+}
 RUN_ON_THREAD
 (
 mStsThread
