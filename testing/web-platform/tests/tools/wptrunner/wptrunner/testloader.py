@@ -3555,7 +3555,6 @@ i
 in
 xrange
 (
-1
 len
 (
 path_parts
