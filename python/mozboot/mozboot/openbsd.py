@@ -87,6 +87,10 @@ llvm
 '
             
 '
+nasm
+'
+            
+'
 yasm
 '
             

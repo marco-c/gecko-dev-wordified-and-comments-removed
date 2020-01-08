@@ -162,6 +162,10 @@ dri
 '
             
 '
+nasm
+'
+            
+'
 pulseaudio
 '
             

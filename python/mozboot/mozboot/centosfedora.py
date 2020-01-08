@@ -167,6 +167,10 @@ devel
 '
             
 '
+nasm
+'
+            
+'
 pulseaudio
 -
 libs

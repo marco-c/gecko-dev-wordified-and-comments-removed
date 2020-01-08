@@ -2418,6 +2418,10 @@ packages
 [
             
 '
+nasm
+'
+            
+'
 yasm
 '
         
@@ -2782,6 +2786,10 @@ False
 packages
 =
 [
+            
+'
+nasm
+'
             
 '
 yasm
