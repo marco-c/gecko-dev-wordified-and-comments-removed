@@ -287,7 +287,7 @@ virtualenv
 '
 verify
 -
-emulator
+device
 '
         
 '
