@@ -842,9 +842,6 @@ false
 }
 }
 trackDevices
-:
-function
-adb_trackDevices
 (
 )
 {
@@ -1405,9 +1402,6 @@ dev
 ;
 }
 listDevices
-:
-function
-adb_listDevices
 (
 )
 {
@@ -1514,9 +1508,6 @@ res
 ;
 }
 forwardPort
-:
-function
-adb_forwardPort
 (
 localPort
 devicePort
@@ -1577,9 +1568,6 @@ data
 ;
 }
 pull
-:
-function
-adb_pull
 (
 from
 dest
@@ -2802,9 +2790,6 @@ promise
 ;
 }
 push
-:
-function
-adb_push
 (
 from
 dest
@@ -3742,9 +3727,6 @@ promise
 ;
 }
 shell
-:
-function
-adb_shell
 (
 command
 )
@@ -4252,9 +4234,6 @@ promise
 ;
 }
 reboot
-:
-function
-adb_reboot
 (
 )
 {
@@ -4270,9 +4249,6 @@ reboot
 ;
 }
 rebootRecovery
-:
-function
-adb_rebootRecovery
 (
 )
 {
@@ -4289,9 +4265,6 @@ recovery
 ;
 }
 rebootBootloader
-:
-function
-adb_rebootBootloader
 (
 )
 {
@@ -4308,9 +4281,6 @@ bootloader
 ;
 }
 root
-:
-function
-adb_root
 (
 )
 {
@@ -4708,9 +4678,6 @@ promise
 ;
 }
 runCommand
-:
-function
-adb_runCommand
 (
 command
 )
