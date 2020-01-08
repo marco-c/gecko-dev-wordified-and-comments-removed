@@ -397,6 +397,16 @@ jctrans
 c
 '
 ]
+SOURCES
++
+=
+[
+'
+jpeg_nbits_table
+.
+c
+'
+]
 if
 CONFIG
 [
