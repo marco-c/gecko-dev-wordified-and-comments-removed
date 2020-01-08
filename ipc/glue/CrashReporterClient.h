@@ -202,10 +202,9 @@ GetSingleton
 void
 AnnotateCrashReport
 (
-CrashReporter
-:
-:
-Annotation
+const
+nsCString
+&
 aKey
 const
 nsCString

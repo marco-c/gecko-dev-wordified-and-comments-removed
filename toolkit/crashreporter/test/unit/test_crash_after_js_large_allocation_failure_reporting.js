@@ -70,11 +70,9 @@ crashReporter
 .
 annotateCrashReport
 (
-CrashReporter
-.
-annotations
-.
-TestKey
+"
+TestingOOMCrash
+"
 "
 Yes
 "
@@ -130,7 +128,7 @@ equal
 (
 extra
 .
-TestKey
+TestingOOMCrash
 "
 Yes
 "
