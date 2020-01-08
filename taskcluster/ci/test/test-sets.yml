@@ -1733,6 +1733,8 @@ opt
 unittests
 :
 -
+jittest
+-
 mochitest
 -
 media
