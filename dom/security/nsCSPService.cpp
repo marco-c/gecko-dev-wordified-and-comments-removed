@@ -371,7 +371,7 @@ false
 ;
 }
 bool
-isImgOrStyle
+isImgOrStyleOrDTD
 =
 contentType
 =
@@ -389,6 +389,15 @@ nsIContentPolicy
 :
 :
 TYPE_STYLESHEET
+|
+|
+contentType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_DTD
 ;
 rv
 =
@@ -416,7 +425,7 @@ match
 &
 &
 !
-isImgOrStyle
+isImgOrStyleOrDTD
 )
 {
 return
@@ -449,7 +458,7 @@ match
 &
 &
 !
-isImgOrStyle
+isImgOrStyleOrDTD
 )
 {
 return
