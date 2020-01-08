@@ -1869,6 +1869,13 @@ cpp
 '
 frontend
 /
+ExpressionStatementEmitter
+.
+cpp
+'
+'
+frontend
+/
 FoldConstants
 .
 cpp
