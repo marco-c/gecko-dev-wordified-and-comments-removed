@@ -170,6 +170,15 @@ aPrincipal
 )
 ;
 static
+bool
+HasUserInteraction
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
 void
 SaveFirstPartyStorageAccessGrantedForOriginOnParentProcess
 (
