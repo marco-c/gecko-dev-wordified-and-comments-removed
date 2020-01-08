@@ -41,16 +41,6 @@ abort
 }
     
 '
-mozconfig_variant
-'
-:
-'
-noopt
--
-debug
-'
-    
-'
 artifact_flag_build_variant_in_try
 '
 :

@@ -29,12 +29,4 @@ mozconfig_platform
 '
 win64
 '
-    
-'
-mozconfig_variant
-'
-:
-'
-mingwclang
-'
 }
