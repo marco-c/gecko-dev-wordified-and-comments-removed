@@ -2924,7 +2924,7 @@ server_
 >
 ExpectSendAlert
 (
-kTlsAlertBadRecordMac
+kTlsAlertUnexpectedMessage
 )
 ;
 }
@@ -2962,7 +2962,7 @@ server_
 >
 CheckErrorCode
 (
-SSL_ERROR_BAD_MAC_READ
+SSL_ERROR_RX_UNEXPECTED_RECORD_TYPE
 )
 ;
 }
@@ -4846,7 +4846,7 @@ server_
 >
 ExpectSendAlert
 (
-kTlsAlertBadRecordMac
+kTlsAlertUnexpectedMessage
 )
 ;
 ConnectExpectFail
@@ -4866,7 +4866,7 @@ server_
 >
 CheckErrorCode
 (
-SSL_ERROR_BAD_MAC_READ
+SSL_ERROR_RX_UNEXPECTED_RECORD_TYPE
 )
 ;
 }

@@ -4503,7 +4503,7 @@ server_
 >
 ExpectSendAlert
 (
-kTlsAlertBadRecordMac
+kTlsAlertUnexpectedMessage
 )
 ;
 ConnectExpectFail
@@ -4523,7 +4523,7 @@ error_code
 ;
 EXPECT_EQ
 (
-SSL_ERROR_BAD_MAC_READ
+SSL_ERROR_RX_UNEXPECTED_RECORD_TYPE
 server_
 -
 >
