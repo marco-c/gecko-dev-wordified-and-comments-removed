@@ -112,6 +112,14 @@ DIRS
 blink
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+gtest
+'
+]
 MOCHITEST_MANIFESTS
 +
 =

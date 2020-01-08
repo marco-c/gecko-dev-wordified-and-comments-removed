@@ -67,7 +67,7 @@ osc
 =
 ctx
 .
-createStereoPanner
+createOscillator
 (
 )
 ;
@@ -144,9 +144,14 @@ try
 {
 osc
 .
-channelCount
-=
-3
+frequency
+.
+setValueAtTime
+(
+0
+-
+1
+)
 ;
 }
 catch
