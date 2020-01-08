@@ -8,8 +8,6 @@ Proxy
 }
 {
 ownKeys
-:
-function
 (
 )
 {

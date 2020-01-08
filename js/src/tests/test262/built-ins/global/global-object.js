@@ -3,17 +3,17 @@ assert
 sameValue
 (
 this
-globalThis
+global
 )
 ;
 assert
 .
 sameValue
 (
-globalThis
+global
 .
-globalThis
-globalThis
+global
+global
 )
 ;
 assert
@@ -21,7 +21,7 @@ assert
 sameValue
 (
 Array
-globalThis
+global
 .
 Array
 )
@@ -31,7 +31,7 @@ assert
 sameValue
 (
 Boolean
-globalThis
+global
 .
 Boolean
 )
@@ -41,7 +41,7 @@ assert
 sameValue
 (
 Date
-globalThis
+global
 .
 Date
 )
@@ -51,7 +51,7 @@ assert
 sameValue
 (
 Error
-globalThis
+global
 .
 Error
 )
@@ -61,7 +61,7 @@ assert
 sameValue
 (
 Function
-globalThis
+global
 .
 Function
 )
@@ -71,7 +71,7 @@ assert
 sameValue
 (
 JSON
-globalThis
+global
 .
 JSON
 )
@@ -81,7 +81,7 @@ assert
 sameValue
 (
 Math
-globalThis
+global
 .
 Math
 )
@@ -91,7 +91,7 @@ assert
 sameValue
 (
 Number
-globalThis
+global
 .
 Number
 )
@@ -101,7 +101,7 @@ assert
 sameValue
 (
 RegExp
-globalThis
+global
 .
 RegExp
 )
@@ -111,7 +111,7 @@ assert
 sameValue
 (
 String
-globalThis
+global
 .
 String
 )
@@ -127,7 +127,7 @@ assert
 sameValue
 (
 globalVariable
-globalThis
+global
 .
 globalVariable
 )

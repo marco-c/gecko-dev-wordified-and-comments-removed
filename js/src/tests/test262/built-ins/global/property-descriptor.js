@@ -2,7 +2,7 @@ verifyProperty
 (
 this
 "
-globalThis
+global
 "
 {
 enumerable
