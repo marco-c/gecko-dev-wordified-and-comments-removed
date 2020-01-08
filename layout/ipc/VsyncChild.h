@@ -121,9 +121,9 @@ IPCResult
 RecvNotify
 (
 const
-TimeStamp
+VsyncEvent
 &
-aVsyncTimestamp
+aVsync
 )
 override
 ;

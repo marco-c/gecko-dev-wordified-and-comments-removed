@@ -243,9 +243,9 @@ VsyncBridgeParent
 RecvNotifyVsync
 (
 const
-TimeStamp
+VsyncEvent
 &
-aTimeStamp
+aVsync
 const
 LayersId
 &
@@ -257,7 +257,7 @@ CompositorBridgeParent
 :
 NotifyVsync
 (
-aTimeStamp
+aVsync
 aLayersId
 )
 ;
