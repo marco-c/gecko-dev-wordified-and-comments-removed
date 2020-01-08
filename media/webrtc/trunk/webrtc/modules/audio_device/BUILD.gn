@@ -2193,8 +2193,14 @@ find_bad_constructs
 }
 if
 (
+(
 !
 build_with_chromium
+&
+&
+!
+build_with_mozilla
+)
 &
 &
 is_android

@@ -332,6 +332,15 @@ find_bad_constructs
 "
 ]
 }
+include_dirs
+=
+[
+"
+rtc_libyuv_dir
+/
+include
+"
+]
 }
 rtc_source_set
 (
