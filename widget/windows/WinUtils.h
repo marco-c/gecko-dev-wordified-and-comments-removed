@@ -1294,6 +1294,12 @@ GetMaxTouchPoints
 )
 ;
 static
+POWER_PLATFORM_ROLE
+GetPowerPlatformRole
+(
+)
+;
+static
 bool
 ResolveJunctionPointsAndSymLinks
 (
