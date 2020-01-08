@@ -189,7 +189,7 @@ line
 }
 }
 function
-getAnnotations
+getAllAttributes
 (
 body
 )
@@ -288,7 +288,7 @@ all_annotations
 ;
 }
 function
-getTags
+getAnnotations
 (
 functionName
 body
@@ -303,9 +303,9 @@ Set
 )
 ;
 var
-annotations
+attributes
 =
-getAnnotations
+getAllAttributes
 (
 body
 )
@@ -314,7 +314,7 @@ if
 (
 functionName
 in
-annotations
+attributes
 )
 {
 for
@@ -325,7 +325,7 @@ annName
 annValue
 ]
 of
-annotations
+attributes
 [
 functionName
 ]
@@ -337,7 +337,7 @@ annName
 =
 =
 '
-Tag
+annotate
 '
 )
 tags
@@ -378,7 +378,7 @@ for
 var
 tag
 of
-getTags
+getAnnotations
 (
 functionName
 body

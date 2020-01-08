@@ -13,7 +13,7 @@ JS_HAZ_GC_THING
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 GC
@@ -28,7 +28,7 @@ JS_HAZ_GC_POINTER
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 GC
@@ -43,7 +43,7 @@ JS_HAZ_ROOTED
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 Rooted
@@ -58,7 +58,7 @@ JS_HAZ_GC_INVALIDATED
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 Invalidated
@@ -74,7 +74,7 @@ JS_HAZ_ROOTED_BASE
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 Rooted
@@ -89,7 +89,7 @@ JS_HAZ_NON_GC_POINTER
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 Suppressed
@@ -105,7 +105,7 @@ JS_HAZ_GC_CALL
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 GC
@@ -120,7 +120,7 @@ JS_HAZ_GC_SUPPRESSED
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 Suppress
@@ -135,7 +135,7 @@ JS_HAZ_CAN_RUN_SCRIPT
 __attribute__
 (
 (
-tag
+annotate
 (
 "
 Can

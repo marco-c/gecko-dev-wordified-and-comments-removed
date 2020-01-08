@@ -7,7 +7,7 @@ property
 __attribute__
 (
 (
-tag
+annotate
 (
 property
 )

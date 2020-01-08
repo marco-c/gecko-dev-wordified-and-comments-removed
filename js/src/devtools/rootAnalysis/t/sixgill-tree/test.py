@@ -275,7 +275,7 @@ assert
 (
 annotations
 )
-found_call_tag
+found_call_annotate
 =
 False
 for
@@ -301,7 +301,7 @@ annType
 =
 =
 '
-Tag
+annotate
 '
 and
 value
@@ -313,12 +313,12 @@ Call
 '
 :
         
-found_call_tag
+found_call_annotate
 =
 True
 assert
 (
-found_call_tag
+found_call_annotate
 )
 cell
 =
@@ -394,7 +394,7 @@ tag
 =
 =
 '
-Tag
+annotate
 '
 )
 assert
