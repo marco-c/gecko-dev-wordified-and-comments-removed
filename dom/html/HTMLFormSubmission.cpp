@@ -219,7 +219,7 @@ mozilla
 /
 dom
 /
-DOMPrefs
+File
 .
 h
 "
@@ -228,9 +228,7 @@ include
 "
 mozilla
 /
-dom
-/
-File
+StaticPrefs
 .
 h
 "
@@ -2070,10 +2068,10 @@ relativePath
 ;
 if
 (
-DOMPrefs
+StaticPrefs
 :
 :
-WebkitBlinkDirectoryPickerEnabled
+dom_webkitBlink_dirPicker_enabled
 (
 )
 &
@@ -2333,10 +2331,10 @@ aDirectory
 if
 (
 !
-DOMPrefs
+StaticPrefs
 :
 :
-WebkitBlinkDirectoryPickerEnabled
+dom_webkitBlink_dirPicker_enabled
 (
 )
 )

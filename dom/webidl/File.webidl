@@ -219,7 +219,7 @@ dom
 DOMPrefs
 :
 :
-WebkitBlinkDirectoryPickerEnabled
+dom_webkitBlink_dirPicker_enabled
 "
 ]
 readonly
