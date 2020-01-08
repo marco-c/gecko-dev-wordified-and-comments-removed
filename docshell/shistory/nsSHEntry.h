@@ -65,8 +65,6 @@ public
 nsISHEntry
 public
 nsISHContainer
-public
-nsISHEntryInternal
 {
 public
 :
@@ -84,7 +82,6 @@ aOther
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHENTRY
-NS_DECL_NSISHENTRYINTERNAL
 NS_DECL_NSISHCONTAINER
 void
 DropPresentationState
