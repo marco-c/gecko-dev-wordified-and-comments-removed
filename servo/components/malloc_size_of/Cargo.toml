@@ -170,17 +170,8 @@ version
 .
 4
 .
-2
--
-servo
+3
 "
-features
-=
-[
-"
-serde
-"
-]
 optional
 =
 true
@@ -195,7 +186,7 @@ version
 .
 9
 .
-3
+4
 "
 optional
 =
