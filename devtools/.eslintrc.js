@@ -1463,15 +1463,6 @@ camelcase
 error
 "
 "
-comma
--
-dangle
-"
-:
-"
-off
-"
-"
 complexity
 "
 :
