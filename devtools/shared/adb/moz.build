@@ -122,6 +122,11 @@ scanner
 .
 js
 '
+'
+Devices
+.
+jsm
+'
 )
 with
 Files
