@@ -10286,7 +10286,7 @@ nargs
 help
 =
 '
-Get
+Download
 toolchains
 resulting
 from
@@ -10296,6 +10296,25 @@ build
 (
 s
 )
+;
+'
+             
+'
+BUILD
+is
+a
+name
+of
+a
+toolchain
+task
+e
+.
+g
+.
+linux64
+-
+clang
 '
 )
     
