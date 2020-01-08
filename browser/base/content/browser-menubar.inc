@@ -2632,7 +2632,9 @@ label
 oncommand
 =
 "
-BrowserOpenSyncTabs
+gSync
+.
+openSyncedTabsPanel
 (
 )
 ;
