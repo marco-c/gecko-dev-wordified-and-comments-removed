@@ -577,7 +577,7 @@ mojom
 .
 SensorType
 .
-RELATIVE_ORIENTATION_QUATERNION
+MAX_VALUE
 +
 1
 )
