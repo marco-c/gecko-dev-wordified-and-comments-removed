@@ -17855,7 +17855,7 @@ loader
 mozJSComponentLoader
 :
 :
-GetOrCreate
+Get
 (
 )
 ;
