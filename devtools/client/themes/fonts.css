@@ -743,6 +743,12 @@ font
 -
 name
 {
+display
+:
+inline
+-
+block
+;
 margin
 -
 bottom
@@ -815,12 +821,6 @@ font
 -
 name
 {
-display
-:
-inline
--
-block
-;
 white
 -
 space
