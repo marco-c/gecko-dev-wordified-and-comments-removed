@@ -389,6 +389,11 @@ MemoryReportRequest
 cpp
 '
 '
+MMPrinter
+.
+cpp
+'
+'
 nsIContentChild
 .
 cpp
@@ -775,6 +780,14 @@ js
 xpconnect
 /
 loader
+'
+'
+/
+js
+/
+xpconnect
+/
+src
 '
 '
 /
