@@ -18068,6 +18068,13 @@ LIFECYCLE_THREAD_NOT_STARTED
 )
 mEndTime
 (
+aDriverRequested
+=
+=
+OFFLINE_THREAD_DRIVER
+?
+0
+:
 GRAPH_TIME_MAX
 )
 mForceShutDown
