@@ -335,6 +335,11 @@ NotifyLayersUpdated
 (
 )
 ;
+void
+NotifyFirstPaint
+(
+)
+;
 private
 :
 explicit

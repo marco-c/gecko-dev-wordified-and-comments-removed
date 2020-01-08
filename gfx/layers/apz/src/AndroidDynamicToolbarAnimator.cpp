@@ -1944,11 +1944,6 @@ mCompositorReceivedFirstPaint
 =
 true
 ;
-PostMessage
-(
-FIRST_PAINT
-)
-;
 }
 void
 AndroidDynamicToolbarAnimator
