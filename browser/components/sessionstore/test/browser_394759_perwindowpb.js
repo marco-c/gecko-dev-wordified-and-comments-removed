@@ -122,7 +122,7 @@ url
 ;
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 win
 aTest

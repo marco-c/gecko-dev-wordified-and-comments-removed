@@ -309,7 +309,7 @@ throws
 >
 ss
 .
-getWindowValue
+getCustomWindowValue
 (
 {
 }
@@ -323,7 +323,7 @@ NS_ERROR_ILLEGAL_VALUE
 Invalid
 window
 for
-getWindowValue
+getCustomWindowValue
 throws
 "
 )
@@ -338,7 +338,7 @@ throws
 >
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 {
 }
@@ -354,7 +354,7 @@ NS_ERROR_ILLEGAL_VALUE
 Invalid
 window
 for
-setWindowValue
+setCustomWindowValue
 throws
 "
 )

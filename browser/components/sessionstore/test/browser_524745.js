@@ -47,7 +47,7 @@ function
 {
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 window_B
 uniqKey

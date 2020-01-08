@@ -135,7 +135,7 @@ stop
 ;
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 newWin
 uniqueKey
@@ -531,7 +531,7 @@ is
 (
 ss
 .
-getWindowValue
+getCustomWindowValue
 (
 newWin2
 uniqueKey

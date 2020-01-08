@@ -124,7 +124,7 @@ sessionstore
 ;
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 win
 "
@@ -220,7 +220,7 @@ throws
 >
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 win
 "
@@ -397,7 +397,7 @@ is
 (
 ss
 .
-getWindowValue
+getCustomWindowValue
 (
 window
 "

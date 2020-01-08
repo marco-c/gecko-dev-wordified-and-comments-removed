@@ -111,7 +111,7 @@ test
 >
 ss
 .
-setWindowValue
+setCustomWindowValue
 (
 window
 key
@@ -130,7 +130,7 @@ is
 (
 ss
 .
-getWindowValue
+getCustomWindowValue
 (
 window
 key
@@ -155,7 +155,7 @@ test
 >
 ss
 .
-deleteWindowValue
+deleteCustomWindowValue
 (
 window
 key
@@ -173,7 +173,7 @@ is
 (
 ss
 .
-getWindowValue
+getCustomWindowValue
 (
 window
 key
@@ -198,7 +198,7 @@ test
 >
 ss
 .
-deleteWindowValue
+deleteCustomWindowValue
 (
 window
 key
