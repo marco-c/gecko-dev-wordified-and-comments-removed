@@ -78,7 +78,7 @@ extra
 oldpanel
 :
 "
-computedview
+layoutview
 "
 newpanel
 :
@@ -656,7 +656,7 @@ DEVTOOLS_COMPUTEDVIEW_OPENED_COUNT
 "
 "
 [
-3
+2
 0
 0
 ]
@@ -673,7 +673,7 @@ DEVTOOLS_LAYOUTVIEW_OPENED_COUNT
 "
 "
 [
-2
+3
 0
 0
 ]
