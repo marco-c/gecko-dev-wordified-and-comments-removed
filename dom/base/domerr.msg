@@ -2106,7 +2106,7 @@ is
 '
 or
 '
-document
+text
 '
 .
 "
