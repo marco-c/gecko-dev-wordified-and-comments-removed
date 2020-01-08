@@ -1800,6 +1800,11 @@ GLManager
 .
 h
 '
+'
+TextureSync
+.
+h
+'
 ]
 EXPORTS
 +
@@ -1824,6 +1829,11 @@ UNIFIED_SOURCES
 opengl
 /
 GLManager
+.
+cpp
+'
+'
+TextureSync
 .
 cpp
 '
