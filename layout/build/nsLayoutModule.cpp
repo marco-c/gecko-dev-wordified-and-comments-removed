@@ -1165,10 +1165,6 @@ BlobURLMutator
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-SDBConnection
-)
-NS_GENERIC_FACTORY_CONSTRUCTOR
-(
 LocalStorageManager
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -3778,7 +3774,10 @@ BlobURLMutatorConstructor
 kNS_SDBCONNECTION_CID
 false
 nullptr
-SDBConnectionConstructor
+SDBConnection
+:
+:
+Create
 }
 {
 &
