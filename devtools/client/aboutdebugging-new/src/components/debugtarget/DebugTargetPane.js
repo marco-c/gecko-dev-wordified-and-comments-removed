@@ -243,6 +243,15 @@ debug
 target
 -
 pane__title
+js
+-
+debug
+-
+target
+-
+pane
+-
+title
 "
 +
 (
