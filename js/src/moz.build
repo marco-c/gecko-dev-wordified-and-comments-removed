@@ -2738,6 +2738,13 @@ cpp
 '
 util
 /
+CompleteFile
+.
+cpp
+'
+'
+util
+/
 NativeStack
 .
 cpp
@@ -2837,6 +2844,13 @@ cpp
 vm
 /
 Compartment
+.
+cpp
+'
+'
+vm
+/
+CompilationAndEvaluation
 .
 cpp
 '
