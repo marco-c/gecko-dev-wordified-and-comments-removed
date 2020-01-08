@@ -136,7 +136,7 @@ handleClick
 (
 aEvent
 .
-target
+composedTarget
 )
 ;
 }
