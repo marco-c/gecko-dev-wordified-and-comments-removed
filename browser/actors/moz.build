@@ -231,6 +231,11 @@ PageInfoChild
 jsm
 '
 '
+PageMetadataChild
+.
+jsm
+'
+'
 PageStyleChild
 .
 jsm
