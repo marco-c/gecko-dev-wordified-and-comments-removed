@@ -1031,6 +1031,9 @@ child
 :
 ReportFatalError
 (
+Nothing
+(
+)
 "
 Recording
 invalidated
@@ -1049,6 +1052,9 @@ child
 :
 ReportFatalError
 (
+Nothing
+(
+)
 "
 Recording
 invalidated
@@ -2302,6 +2308,9 @@ child
 :
 ReportFatalError
 (
+Nothing
+(
+)
 "
 Assertion
 Mismatch
@@ -2880,6 +2889,9 @@ child
 :
 ReportFatalError
 (
+Nothing
+(
+)
 "
 Byte
 Comparison
