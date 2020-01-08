@@ -1417,7 +1417,7 @@ execute_script
 "
           
 let
-win
+browser
 =
 arguments
 [
@@ -1430,7 +1430,15 @@ linkedBrowser
 if
 (
 !
-win
+browser
+|
+|
+browser
+.
+outerWindowID
+=
+=
+null
 )
 {
             
@@ -1441,7 +1449,7 @@ null
 }
           
 return
-win
+browser
 .
 outerWindowID
 .
