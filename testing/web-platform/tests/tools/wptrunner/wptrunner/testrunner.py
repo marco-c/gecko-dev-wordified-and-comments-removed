@@ -26,6 +26,8 @@ from
 mozlog
 import
 structuredlog
+import
+wptlogging
 Stop
 =
 object
@@ -206,6 +208,7 @@ def
 __init__
 (
 self
+logger
 command_queue
 result_queue
 executor
@@ -244,6 +247,13 @@ is
 passed
 in
 .
+        
+:
+param
+logger
+:
+Structured
+logger
         
 :
 param
@@ -329,12 +339,7 @@ self
 .
 logger
 =
-MessageLogger
-(
-self
-.
-send_message
-)
+logger
     
 def
 __enter__
@@ -694,6 +699,7 @@ executor_kwargs
 executor_browser_cls
 executor_browser_kwargs
                  
+capture_stdio
 stop_flag
 )
 :
@@ -713,10 +719,11 @@ process
 "
     
 def
-log
+send_message
 (
-level
-msg
+command
+*
+args
 )
 :
         
@@ -725,19 +732,8 @@ runner_result_queue
 put
 (
 (
-"
-log
-"
-(
-level
-{
-"
-message
-"
-:
-msg
-}
-)
+command
+args
 )
 )
     
@@ -748,11 +744,10 @@ e
 )
 :
         
-log
-(
-"
+logger
+.
 critical
-"
+(
 traceback
 .
 format_exc
@@ -766,9 +761,26 @@ set
 (
 )
     
-try
+logger
+=
+MessageLogger
+(
+send_message
+)
+    
+with
+wptlogging
+.
+CaptureIO
+(
+logger
+capture_stdio
+)
 :
         
+try
+:
+            
 browser
 =
 executor_browser_cls
@@ -777,7 +789,7 @@ executor_browser_cls
 *
 executor_browser_kwargs
 )
-        
+            
 executor
 =
 executor_cls
@@ -787,10 +799,11 @@ browser
 *
 executor_kwargs
 )
-        
+            
 with
 TestRunner
 (
+logger
 runner_command_queue
 runner_result_queue
 executor
@@ -798,58 +811,47 @@ executor
 as
 runner
 :
-            
+                
 try
 :
-                
+                    
 runner
 .
 run
 (
 )
-            
+                
 except
 KeyboardInterrupt
 :
-                
+                    
 stop_flag
 .
 set
 (
 )
-            
-except
-Exception
-as
-e
-:
                 
-handle_error
-(
-e
-)
-    
 except
 Exception
 as
 e
 :
-        
+                    
 handle_error
 (
 e
 )
-    
-finally
+        
+except
+Exception
+as
+e
 :
-        
-runner_command_queue
-=
-None
-        
-runner_result_queue
-=
-None
+            
+handle_error
+(
+e
+)
 manager_count
 =
 0
@@ -1608,6 +1610,10 @@ True
 debug_info
 =
 None
+                 
+capture_stdio
+=
+True
 )
 :
         
@@ -1915,6 +1921,12 @@ self
 browser
 =
 None
+        
+self
+.
+capture_stdio
+=
+capture_stdio
     
 def
 run
@@ -3096,6 +3108,10 @@ executor_kwargs
 executor_browser_cls
                 
 executor_browser_kwargs
+                
+self
+.
+capture_stdio
                 
 self
 .
@@ -4863,6 +4879,10 @@ True
 debug_info
 =
 None
+                 
+capture_stdio
+=
+True
 )
 :
         
@@ -4960,6 +4980,12 @@ self
 rerun
 =
 rerun
+        
+self
+.
+capture_stdio
+=
+capture_stdio
         
 self
 .
@@ -5167,6 +5193,10 @@ restart_on_unexpected
 self
 .
 debug_info
+                                        
+self
+.
+capture_stdio
 )
             
 manager
