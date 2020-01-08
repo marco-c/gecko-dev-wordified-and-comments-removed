@@ -116,10 +116,13 @@ chrome
 :
 /
 /
-communicator
+global
 /
 skin
 /
+global
+.
+css
 "
 type
 =
