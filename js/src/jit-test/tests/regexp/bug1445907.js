@@ -1,14 +1,3 @@
-if
-(
-!
-wasmIsSupported
-(
-)
-)
-quit
-(
-)
-;
 var
 g
 =
