@@ -258,7 +258,7 @@ bool
 LookupCompositorFrameMetrics
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1207,7 +1207,7 @@ FrameMetrics
 aFrame
 )
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

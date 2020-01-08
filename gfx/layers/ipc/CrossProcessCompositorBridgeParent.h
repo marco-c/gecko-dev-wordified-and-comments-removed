@@ -603,7 +603,7 @@ LayersId
 &
 aLayersId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -624,7 +624,7 @@ LayersId
 &
 aLayersId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

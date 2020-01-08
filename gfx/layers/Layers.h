@@ -1122,7 +1122,7 @@ return
 mRoot
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2070,7 +2070,7 @@ virtual
 bool
 SetPendingScrollUpdateForNextTransaction
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2087,7 +2087,7 @@ ScrollUpdateInfo
 >
 GetPendingScrollInfoUpdate
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3436,7 +3436,7 @@ ClearCompositorAnimations
 void
 SetFixedPositionData
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3489,7 +3489,7 @@ MutatedSimple
 void
 SetStickyPositionData
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3992,7 +3992,7 @@ IsStickyPosition
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4034,7 +4034,7 @@ GetFixedPositionSides
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

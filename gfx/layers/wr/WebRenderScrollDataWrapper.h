@@ -1003,7 +1003,7 @@ GetScrollbarAnimationId
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

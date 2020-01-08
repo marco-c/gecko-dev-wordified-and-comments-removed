@@ -11576,7 +11576,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -11760,7 +11760,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -12345,7 +12345,7 @@ NS_OK
 uint32_t
 presShellId
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

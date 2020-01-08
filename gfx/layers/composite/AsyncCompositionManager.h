@@ -482,7 +482,7 @@ aTransformedSubtreeRoot
 Layer
 *
 aStartTraversalAt
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -585,7 +585,7 @@ aBottom
 ;
 private
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

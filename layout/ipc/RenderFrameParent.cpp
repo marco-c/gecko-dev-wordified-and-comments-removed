@@ -289,7 +289,7 @@ namespace
 layout
 {
 typedef
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

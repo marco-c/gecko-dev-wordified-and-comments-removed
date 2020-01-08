@@ -20,6 +20,13 @@ h
 #
 include
 "
+FrameMetrics
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Telemetry

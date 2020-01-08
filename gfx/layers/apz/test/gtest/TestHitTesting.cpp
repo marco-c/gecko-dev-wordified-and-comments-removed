@@ -306,7 +306,7 @@ layers
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -325,7 +325,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -346,7 +346,7 @@ layers
 [
 3
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -550,7 +550,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -562,7 +562,7 @@ layers
 [
 2
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -574,7 +574,7 @@ layers
 [
 4
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -588,7 +588,7 @@ layers
 [
 6
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -602,7 +602,7 @@ layers
 [
 7
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -616,7 +616,7 @@ layers
 [
 8
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -630,7 +630,7 @@ layers
 [
 9
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -701,7 +701,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -794,7 +794,7 @@ paintSequenceNumber
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -888,7 +888,7 @@ layers
 [
 3
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -1026,7 +1026,7 @@ layers
 [
 4
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -2035,7 +2035,7 @@ layers
 SetScrollableFrameMetrics
 (
 root
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -2054,7 +2054,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -4247,7 +4247,7 @@ layers
 [
 1
 ]
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -4265,7 +4265,7 @@ rootMetadata
 =
 BuildScrollMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -4290,7 +4290,7 @@ subframeMetadata
 =
 BuildScrollMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID

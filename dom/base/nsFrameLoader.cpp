@@ -775,7 +775,7 @@ mozilla
 layout
 ;
 typedef
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

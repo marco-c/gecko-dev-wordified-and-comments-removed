@@ -1403,7 +1403,7 @@ mBuilder
 >
 GetScrollIdForDefinedScrollLayer
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -1459,7 +1459,7 @@ Nothing
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

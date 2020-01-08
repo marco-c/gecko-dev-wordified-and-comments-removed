@@ -1205,7 +1205,7 @@ false
 #
 endif
 typedef
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1312,7 +1312,7 @@ static
 ViewID
 sScrollIdCounter
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3144,7 +3144,7 @@ MOZ_ASSERT
 aId
 !
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -3372,7 +3372,7 @@ aScrollable
 )
 {
 return
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -3398,7 +3398,7 @@ GetContent
 (
 )
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3425,7 +3425,7 @@ scrollId
 ;
 }
 return
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -9420,7 +9420,7 @@ sides
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -9437,7 +9437,7 @@ aPresContext
 ViewID
 id
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -18738,7 +18738,7 @@ Now
 ViewID
 id
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -45882,7 +45882,7 @@ aViewport
 ViewID
 scrollId
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -46494,7 +46494,7 @@ MOZ_ASSERT
 aScrollParentId
 =
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -46562,7 +46562,7 @@ if
 scrollId
 !
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -47643,7 +47643,7 @@ FindReferenceFrameFor
 frame
 )
 aLayerManager
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -51713,10 +51713,11 @@ OffsetPath
 (
 )
 .
-Path
+GetPath
 (
 )
-.
+-
+>
 Path
 (
 )

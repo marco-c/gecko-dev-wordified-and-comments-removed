@@ -15,6 +15,13 @@ h
 #
 include
 "
+FrameMetrics
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h

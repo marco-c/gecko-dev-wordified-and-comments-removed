@@ -41,13 +41,6 @@ h
 #
 include
 "
-FrameMetrics
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -65,6 +58,9 @@ mozilla
 namespace
 layers
 {
+struct
+FrameMetrics
+;
 class
 WheelScrollAnimation
 ;

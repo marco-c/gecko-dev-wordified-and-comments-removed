@@ -538,7 +538,7 @@ RequestFlingSnap
 void
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -560,7 +560,7 @@ AcknowledgeScrollUpdate
 void
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -690,7 +690,7 @@ NotifyAsyncScrollbarDragRejected
 void
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -704,7 +704,7 @@ NotifyAsyncAutoscrollRejected
 void
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

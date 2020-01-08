@@ -1602,7 +1602,7 @@ uint32_t
 &
 aPresShellId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1667,7 +1667,7 @@ uint32_t
 &
 aPresShellId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3024,7 +3024,7 @@ uint32_t
 &
 aPresShellID
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3053,7 +3053,7 @@ aConstraints
 uint32_t
 mPresShellID
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

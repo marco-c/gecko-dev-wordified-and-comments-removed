@@ -207,6 +207,16 @@ mozilla
 layers
 :
 :
+ScrollableLayerGuid
+ScrollableLayerGuid
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
 ScrollSnapInfo
 ScrollSnapInfo
 ;
@@ -2196,7 +2206,7 @@ mDisplayPortAtLastFrameUpdate
 nsRect
 mPrevScrolledRect
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

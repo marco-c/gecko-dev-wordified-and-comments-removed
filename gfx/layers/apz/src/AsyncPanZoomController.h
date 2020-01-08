@@ -2327,7 +2327,7 @@ mParent
 ;
 public
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

@@ -216,7 +216,7 @@ ContentProcessController
 NotifyMozMouseScrollEvent
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -310,7 +310,7 @@ ContentProcessController
 NotifyAsyncScrollbarDragRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -334,7 +334,7 @@ ContentProcessController
 NotifyAsyncAutoscrollRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

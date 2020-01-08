@@ -14,7 +14,9 @@ h
 #
 include
 "
-FrameMetrics
+mozilla
+/
+DefineEnum
 .
 h
 "
@@ -23,7 +25,9 @@ include
 "
 mozilla
 /
-DefineEnum
+layers
+/
+ScrollableLayerGuid
 .
 h
 "
@@ -54,13 +58,13 @@ public
 struct
 ScrollTargets
 {
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
 mHorizontal
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

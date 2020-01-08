@@ -14,7 +14,11 @@ h
 #
 include
 "
-FrameMetrics
+mozilla
+/
+layers
+/
+LayersTypes
 .
 h
 "
@@ -25,7 +29,7 @@ mozilla
 /
 layers
 /
-LayersTypes
+ScrollableLayerGuid
 .
 h
 "

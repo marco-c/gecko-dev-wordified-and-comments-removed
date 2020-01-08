@@ -170,7 +170,7 @@ std
 stringstream
 &
 aStream
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

@@ -229,7 +229,7 @@ void
 NotifyMozMouseScrollEvent
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -254,7 +254,7 @@ void
 NotifyAsyncScrollbarDragRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -268,7 +268,7 @@ void
 NotifyAsyncAutoscrollRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -336,7 +336,7 @@ nsIDocument
 GetRootContentDocument
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

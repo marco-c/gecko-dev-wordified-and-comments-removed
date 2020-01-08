@@ -1071,7 +1071,7 @@ const
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1170,7 +1170,7 @@ const
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1732,7 +1732,7 @@ aOutPipelineId
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4365,7 +4365,7 @@ GetScrollIdForDefinedScrollLayer
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4381,7 +4381,7 @@ aViewId
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -4453,7 +4453,7 @@ const
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -6286,7 +6286,7 @@ Maybe
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -6328,7 +6328,7 @@ const
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -6416,7 +6416,7 @@ aAsr
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -6472,7 +6472,7 @@ Maybe
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

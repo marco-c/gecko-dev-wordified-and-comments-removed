@@ -4544,7 +4544,7 @@ LayerTransactionParent
 RecvSetAsyncScrollOffset
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4619,7 +4619,7 @@ LayerTransactionParent
 RecvSetAsyncZoom
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

@@ -448,7 +448,7 @@ mScrollbarAnimationId
 void
 SetFixedPositionScrollContainerId
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -460,7 +460,7 @@ mFixedPosScrollContainerId
 aId
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -540,7 +540,7 @@ mScrollbarData
 uint64_t
 mScrollbarAnimationId
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -628,7 +628,7 @@ size_t
 HasMetadataFor
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -728,7 +728,7 @@ std
 :
 map
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

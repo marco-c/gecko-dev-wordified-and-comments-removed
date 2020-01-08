@@ -16,7 +16,11 @@ h
 #
 include
 "
-FrameMetrics
+mozilla
+/
+layers
+/
+ScrollableLayerGuid
 .
 h
 "

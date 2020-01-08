@@ -1215,7 +1215,7 @@ GetScrollId
 )
 =
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -1415,7 +1415,7 @@ GetScrollId
 )
 =
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -1517,7 +1517,7 @@ aContent
 uint32_t
 *
 aPresShellIdOut
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1636,7 +1636,7 @@ return
 uint32_t
 presShellId
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2075,7 +2075,7 @@ aGuid
 mScrollId
 =
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -2984,7 +2984,7 @@ aGuid
 .
 mLayersId
 0
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -4169,7 +4169,7 @@ APZCCallbackHelper
 NotifyMozMouseScrollEvent
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4381,7 +4381,7 @@ APZCCallbackHelper
 NotifyAsyncScrollbarDragRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4427,7 +4427,7 @@ APZCCallbackHelper
 NotifyAsyncAutoscrollRejected
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4503,7 +4503,7 @@ APZCCallbackHelper
 CancelAutoscroll
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

@@ -405,7 +405,7 @@ stderr
 ;
 }
 typedef
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -450,7 +450,7 @@ return
 sLog
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -468,7 +468,7 @@ mRoot
 )
 {
 return
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -529,7 +529,7 @@ GetScrollId
 (
 )
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -12962,7 +12962,7 @@ LayerManager
 :
 SetPendingScrollUpdateForNextTransaction
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -13033,7 +13033,7 @@ LayerManager
 :
 GetPendingScrollInfoUpdate
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

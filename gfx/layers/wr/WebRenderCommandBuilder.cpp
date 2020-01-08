@@ -1383,7 +1383,7 @@ gfx
 Size
 mScale
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1438,7 +1438,7 @@ mAppUnitsPerDevPixel
 )
 mScrollId
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -8429,13 +8429,13 @@ mManager
 )
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
 scrollId
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -8919,7 +8919,7 @@ callback
 aScrollData
 ]
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

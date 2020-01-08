@@ -131,7 +131,7 @@ RepaintRequest
 :
 mScrollId
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -723,7 +723,7 @@ return
 mScrollGeneration
 ;
 }
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -854,7 +854,7 @@ aIsScrollInfoLayer
 }
 private
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

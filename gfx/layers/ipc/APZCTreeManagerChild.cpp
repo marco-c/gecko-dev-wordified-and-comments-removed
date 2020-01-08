@@ -666,7 +666,7 @@ APZCTreeManagerChild
 RecvCancelAutoscroll
 (
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

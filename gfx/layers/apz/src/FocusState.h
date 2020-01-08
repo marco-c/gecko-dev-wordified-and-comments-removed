@@ -17,7 +17,11 @@ unordered_set
 #
 include
 "
-FrameMetrics
+mozilla
+/
+layers
+/
+FocusTarget
 .
 h
 "
@@ -28,7 +32,7 @@ mozilla
 /
 layers
 /
-FocusTarget
+ScrollableLayerGuid
 .
 h
 "
@@ -159,13 +163,13 @@ mReceivedUpdate
 LayersId
 mFocusLayersId
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
 mFocusHorizontalTarget
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

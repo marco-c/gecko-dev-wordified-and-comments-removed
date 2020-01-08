@@ -248,7 +248,7 @@ ZoomConstraints
 ZoomConstraints
 ;
 typedef
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

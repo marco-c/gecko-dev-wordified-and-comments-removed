@@ -1411,7 +1411,7 @@ mozilla
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1435,7 +1435,7 @@ scrollTargetId
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -4658,7 +4658,7 @@ mozilla
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -4690,7 +4690,7 @@ scrollTargetId
 layers
 :
 :
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID

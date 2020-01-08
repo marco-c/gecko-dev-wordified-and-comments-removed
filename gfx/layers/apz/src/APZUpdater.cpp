@@ -1506,7 +1506,7 @@ SetTestAsyncScrollOffset
 LayersId
 aLayersId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1611,7 +1611,7 @@ SetTestAsyncZoom
 LayersId
 aLayersId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

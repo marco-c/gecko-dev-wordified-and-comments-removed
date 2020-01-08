@@ -4177,6 +4177,15 @@ guid
 (
 aLayersId
 aMetrics
+.
+GetPresShellId
+(
+)
+aMetrics
+.
+GetScrollId
+(
+)
 )
 ;
 auto
@@ -5887,7 +5896,7 @@ aOutTargetGuid
 >
 mScrollId
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -8125,7 +8134,7 @@ aOutTargetGuid
 >
 mScrollId
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -10604,7 +10613,7 @@ LayersId
 &
 aLayersId
 const
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -11010,7 +11019,7 @@ wr
 WrPipelineId
 pipelineId
 ;
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -11086,7 +11095,7 @@ MOZ_ASSERT
 scrollId
 =
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -11342,7 +11351,7 @@ GetScrollHandoffParentId
 )
 =
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -11717,7 +11726,7 @@ GetFixedPosTarget
 )
 !
 =
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID

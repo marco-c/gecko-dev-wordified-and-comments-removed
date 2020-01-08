@@ -92,7 +92,7 @@ virtual
 bool
 StopSharingMetrics
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

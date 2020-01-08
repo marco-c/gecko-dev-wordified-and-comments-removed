@@ -995,7 +995,7 @@ override
 void
 LogTestDataForCurrentPaint
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -1056,7 +1056,7 @@ LogTestDataForRepaintRequest
 (
 SequenceNumber
 aSequenceNumber
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

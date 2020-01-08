@@ -804,7 +804,7 @@ mWrChild
 void
 LogTestDataForCurrentPaint
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID

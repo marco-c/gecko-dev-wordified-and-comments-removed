@@ -2643,7 +2643,7 @@ static
 ScrollMetadata
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -2732,7 +2732,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -2748,7 +2748,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -2762,7 +2762,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -2778,7 +2778,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -2794,7 +2794,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -2808,7 +2808,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -2836,7 +2836,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -2869,7 +2869,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -2883,7 +2883,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -2916,7 +2916,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -2949,7 +2949,7 @@ InsertElementAt
 0
 MakeMetadata
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3131,7 +3131,7 @@ get
 ;
 nsTArray
 <
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 ViewID
@@ -3142,7 +3142,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3154,7 +3154,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -3164,7 +3164,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3176,7 +3176,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3188,7 +3188,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -3198,7 +3198,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -3208,7 +3208,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3220,7 +3220,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -3230,7 +3230,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3242,7 +3242,7 @@ expectedIds
 .
 AppendElement
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -3409,7 +3409,7 @@ BOTTOM
 ;
 ASSERT_EQ
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3436,7 +3436,7 @@ GetParent
 ;
 ASSERT_EQ
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
@@ -3493,7 +3493,7 @@ GetParent
 ;
 ASSERT_EQ
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 NULL_SCROLL_ID
@@ -3535,7 +3535,7 @@ GetNextSibling
 ;
 ASSERT_EQ
 (
-FrameMetrics
+ScrollableLayerGuid
 :
 :
 START_SCROLL_ID
