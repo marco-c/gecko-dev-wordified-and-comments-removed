@@ -3100,7 +3100,7 @@ i
 >
 atoms
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

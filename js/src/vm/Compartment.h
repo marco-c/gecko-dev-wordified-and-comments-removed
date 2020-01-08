@@ -2275,7 +2275,7 @@ size
 =
 map
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -2341,7 +2341,7 @@ size
 =
 map
 .
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )

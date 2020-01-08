@@ -424,7 +424,7 @@ n
 =
 mTable
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

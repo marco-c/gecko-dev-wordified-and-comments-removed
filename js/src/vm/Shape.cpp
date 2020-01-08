@@ -12693,7 +12693,7 @@ toHash
 )
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )

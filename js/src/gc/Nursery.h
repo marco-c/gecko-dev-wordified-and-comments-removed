@@ -1322,7 +1322,7 @@ total
 =
 mallocedBuffers
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

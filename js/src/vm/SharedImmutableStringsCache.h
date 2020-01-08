@@ -306,7 +306,7 @@ locked
 >
 set
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

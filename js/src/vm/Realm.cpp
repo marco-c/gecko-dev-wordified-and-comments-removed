@@ -4471,7 +4471,7 @@ varNamesSet
 =
 varNames_
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -4504,7 +4504,7 @@ scriptCountsMapArg
 scriptCountsMap
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )

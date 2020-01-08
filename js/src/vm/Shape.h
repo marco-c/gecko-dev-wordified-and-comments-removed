@@ -3200,7 +3200,7 @@ toHash
 )
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )

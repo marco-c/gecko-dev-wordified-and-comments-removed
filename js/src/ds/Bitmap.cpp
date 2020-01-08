@@ -94,7 +94,7 @@ size
 =
 data
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

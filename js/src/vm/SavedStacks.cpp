@@ -6753,14 +6753,14 @@ mallocSizeOf
 return
 frames
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
 +
 pcLocationMap
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

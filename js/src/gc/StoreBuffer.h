@@ -503,7 +503,7 @@ mallocSizeOf
 return
 stores_
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

@@ -705,7 +705,7 @@ capacity
 ;
 }
 size_t
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -715,14 +715,14 @@ const
 return
 mImpl
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
 ;
 }
 size_t
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -737,7 +737,7 @@ this
 +
 mImpl
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -1656,7 +1656,7 @@ capacity
 ;
 }
 size_t
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -1666,14 +1666,14 @@ const
 return
 mImpl
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
 ;
 }
 size_t
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -1688,7 +1688,7 @@ this
 +
 mImpl
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -7455,7 +7455,7 @@ mGen
 ;
 }
 size_t
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -7470,7 +7470,7 @@ mTable
 ;
 }
 size_t
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 MallocSizeOf
 aMallocSizeOf
@@ -7483,7 +7483,7 @@ aMallocSizeOf
 this
 )
 +
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )

@@ -9571,7 +9571,7 @@ arrayObjectGroupTables
 arrayObjectTable
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )
@@ -9588,7 +9588,7 @@ plainObjectGroupTables
 plainObjectTable
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )

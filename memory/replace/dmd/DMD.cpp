@@ -2287,7 +2287,7 @@ n
 =
 mSet
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -6851,7 +6851,7 @@ mStackTraceTable
 gStackTraceTable
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 MallocSizeOf
 )
@@ -6864,7 +6864,7 @@ mLiveBlockTable
 gLiveBlockTable
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 MallocSizeOf
 )
@@ -6877,7 +6877,7 @@ mDeadBlockTable
 gDeadBlockTable
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 MallocSizeOf
 )
@@ -7095,7 +7095,7 @@ const
 return
 mIdMap
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 aMallocSizeOf
 )
@@ -8895,7 +8895,7 @@ Show
 (
 usedStackTraces
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 MallocSizeOf
 )
@@ -8921,7 +8921,7 @@ Show
 (
 usedPcs
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 MallocSizeOf
 )

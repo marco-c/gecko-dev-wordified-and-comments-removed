@@ -7848,7 +7848,7 @@ vectorSize
 +
 map
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

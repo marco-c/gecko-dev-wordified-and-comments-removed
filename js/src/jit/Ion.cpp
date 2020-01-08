@@ -3530,7 +3530,7 @@ n
 stubCodes_
 -
 >
-sizeOfIncludingThis
+shallowSizeOfIncludingThis
 (
 mallocSizeOf
 )
@@ -3577,7 +3577,7 @@ jitZone
 =
 baselineCacheIRStubCodes_
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
@@ -3588,7 +3588,7 @@ jitZone
 =
 ionCacheIRStubInfoSet_
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )
