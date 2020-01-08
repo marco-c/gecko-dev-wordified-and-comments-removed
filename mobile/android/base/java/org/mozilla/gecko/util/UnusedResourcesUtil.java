@@ -228,11 +228,6 @@ R
 .
 drawable
 .
-sync_promo
-R
-.
-drawable
-.
 undo_button_icon
 }
 ;
