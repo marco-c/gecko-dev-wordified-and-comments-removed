@@ -1536,6 +1536,17 @@ gParentPid
 ;
 }
 void
+MaybeCreateInitialCheckpoint
+(
+)
+{
+NewCheckpoint
+(
+false
+)
+;
+}
+void
 ReportFatalError
 (
 const

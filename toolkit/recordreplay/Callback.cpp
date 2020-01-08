@@ -10,7 +10,7 @@ include
 "
 ipc
 /
-ChildIPC
+ChildInternal
 .
 h
 "
