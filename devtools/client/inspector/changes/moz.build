@@ -102,6 +102,11 @@ reducers
 DevToolsModules
 (
 '
+ChangesManager
+.
+js
+'
+'
 ChangesView
 .
 js
