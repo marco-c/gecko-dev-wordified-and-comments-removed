@@ -4389,9 +4389,6 @@ case
 FarJumpIsland
 :
 case
-OutOfBoundsExit
-:
-case
 UnalignedExit
 :
 case

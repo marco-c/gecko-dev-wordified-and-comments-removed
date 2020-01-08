@@ -93,11 +93,6 @@ struct
 LinkDataTierCacheablePod
 {
 uint32_t
-outOfBoundsOffset
-=
-0
-;
-uint32_t
 unalignedAccessOffset
 =
 0
