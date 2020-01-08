@@ -49,15 +49,8 @@ AnimationInfo
 :
 AnimationInfo
 (
-LayerManager
-*
-aManager
 )
 :
-mManager
-(
-aManager
-)
 mCompositorAnimationsId
 (
 0

@@ -937,10 +937,6 @@ mImplData
 (
 aImplData
 )
-mAnimationInfo
-(
-aManager
-)
 mUseTileSourceRect
 (
 false

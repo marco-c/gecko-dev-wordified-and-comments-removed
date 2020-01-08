@@ -1388,10 +1388,6 @@ WebRenderUserData
 aWRManager
 aItem
 )
-mAnimationInfo
-(
-aWRManager
-)
 {
 }
 WebRenderAnimationData
