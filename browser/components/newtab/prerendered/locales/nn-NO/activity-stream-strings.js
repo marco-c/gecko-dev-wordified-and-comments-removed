@@ -752,8 +752,8 @@ pocket_learn_more
 "
 :
 "
-Learn
-More
+Les
+meir
 "
 "
 pocket_cta_button

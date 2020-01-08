@@ -484,16 +484,12 @@ pocket_more_reccommendations
 "
 :
 "
-More
-Recommendations
 "
 "
 pocket_learn_more
 "
 :
 "
-Learn
-More
 "
 "
 pocket_cta_button

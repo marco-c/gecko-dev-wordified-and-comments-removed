@@ -69,6 +69,16 @@ info_icon
 label
 "
 :
+{
+"
+attributes
+"
+:
+{
+"
+tooltiptext
+"
+:
 "
 Why
 am
@@ -76,6 +86,8 @@ I
 seeing
 this
 "
+}
+}
 "
 sumo_path
 "
