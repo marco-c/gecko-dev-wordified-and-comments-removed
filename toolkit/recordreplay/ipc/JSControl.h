@@ -491,11 +491,12 @@ mProgress
 )
 {
 }
-explicit
 ExecutionPoint
 (
 size_t
 aCheckpoint
+ProgressCounter
+aProgress
 )
 :
 mCheckpoint
@@ -504,7 +505,7 @@ aCheckpoint
 )
 mProgress
 (
-0
+aProgress
 )
 {
 }
