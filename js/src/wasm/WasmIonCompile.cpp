@@ -22317,6 +22317,8 @@ MOZ_ASSERT
 env
 .
 tier
+(
+)
 =
 =
 Tier
