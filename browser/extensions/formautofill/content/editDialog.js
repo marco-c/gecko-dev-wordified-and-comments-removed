@@ -695,7 +695,7 @@ _elements
 .
 form
 .
-reportValidity
+checkValidity
 (
 )
 )

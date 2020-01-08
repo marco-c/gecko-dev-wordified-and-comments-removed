@@ -47,9 +47,6 @@ page
 guid
 :
 null
-selectedStateKey
-:
-null
 title
 :
 "
