@@ -25,7 +25,7 @@ use
 clip
 :
 :
-ClipSource
+ClipItem
 ;
 use
 display_list_flattener
@@ -454,7 +454,7 @@ clips
 .
 push
 (
-ClipSource
+ClipItem
 :
 :
 new_rounded_rect
@@ -493,7 +493,7 @@ clips
 .
 push
 (
-ClipSource
+ClipItem
 :
 :
 new_rounded_rect
@@ -521,7 +521,7 @@ clips
 .
 push
 (
-ClipSource
+ClipItem
 :
 :
 new_rounded_rect
@@ -598,7 +598,7 @@ extra_clips
 .
 push
 (
-ClipSource
+ClipItem
 :
 :
 new_rounded_rect
@@ -644,7 +644,7 @@ None
 let
 shadow_clip_source
 =
-ClipSource
+ClipItem
 :
 :
 new_box_shadow

@@ -2379,6 +2379,10 @@ EnableNewSceneIndicator
 (
 bool
 )
+EnableShowOverdraw
+(
+bool
+)
 FetchDocuments
 FetchPasses
 FetchClipScrollTree

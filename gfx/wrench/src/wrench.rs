@@ -3110,6 +3110,13 @@ primitive
 rects
 "
 "
+V
+-
+Toggle
+showing
+overdraw
+"
+"
 S
 -
 Toggle

@@ -601,6 +601,15 @@ main
 void
 )
 {
+#
+ifdef
+WR_FEATURE_DEBUG_OVERDRAW
+oFragColor
+=
+WR_DEBUG_OVERDRAW_COLOR
+;
+#
+else
 /
 /
 Run
@@ -682,6 +691,8 @@ frag
 .
 color
 ;
+#
+endif
 }
 #
 endif
