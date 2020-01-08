@@ -39,6 +39,15 @@ is_manifest
     
 parse_manifest
 )
+from
+mozpack
+.
+files
+import
+(
+    
+ExecutableFile
+)
 import
 mozpack
 .
@@ -86,6 +95,9 @@ destdir
 =
 '
 '
+xz_compress
+=
+False
 )
 :
         
@@ -134,6 +146,12 @@ self
 _destdir
 =
 destdir
+        
+self
+.
+_xz_compress
+=
+xz_compress
     
 def
 __repr__
@@ -170,6 +188,23 @@ self
 .
 destdir
         
+if
+self
+.
+xz_compress
+:
+            
+s
++
+=
+'
+xz_compress
+=
+"
+1
+"
+'
+        
 return
 s
     
@@ -200,6 +235,20 @@ return
 self
 .
 _destdir
+    
+property
+    
+def
+xz_compress
+(
+self
+)
+:
+        
+return
+self
+.
+_xz_compress
     
 staticmethod
     
@@ -773,6 +822,25 @@ destdir
 '
 )
         
+xz_compress
+=
+options
+.
+pop
+(
+'
+xz_compress
+'
+'
+0
+'
+)
+!
+=
+'
+0
+'
+        
 if
 options
 :
@@ -807,6 +875,9 @@ name
 destdir
 =
 destdir
+xz_compress
+=
+xz_compress
 )
 class
 PackageManifestParser
@@ -2897,6 +2968,22 @@ normalize_path
 p
 )
 )
+            
+if
+isinstance
+(
+f
+ExecutableFile
+)
+:
+                
+f
+.
+xz_compress
+=
+component
+.
+xz_compress
             
 self
 .
