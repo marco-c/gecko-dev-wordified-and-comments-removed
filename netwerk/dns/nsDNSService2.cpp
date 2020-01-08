@@ -2771,6 +2771,12 @@ kPrefDnsLocalDomains
 localDomains
 )
 ;
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 mLocalDomains
 .
 Clear
