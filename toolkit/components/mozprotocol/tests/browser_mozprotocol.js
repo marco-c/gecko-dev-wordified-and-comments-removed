@@ -80,10 +80,11 @@ function
 (
 )
 {
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 moz
 :
