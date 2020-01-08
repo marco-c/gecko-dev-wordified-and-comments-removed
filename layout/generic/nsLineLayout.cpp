@@ -5050,6 +5050,15 @@ LineIsEmpty
 &
 &
 !
+outOfFlowFrame
+-
+>
+IsLetterFrame
+(
+)
+&
+&
+!
 GetOutermostLineLayout
 (
 )
