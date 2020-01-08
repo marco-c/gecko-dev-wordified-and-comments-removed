@@ -4,10 +4,6 @@ testOpen
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 65K
 binary
@@ -31,10 +27,6 @@ testMessage
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 65K
 binary
@@ -58,10 +50,6 @@ testClose
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 65K
 binary

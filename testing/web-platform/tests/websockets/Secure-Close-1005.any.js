@@ -4,10 +4,6 @@ test
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Create
 Secure
 WebSocket

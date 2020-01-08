@@ -26,10 +26,6 @@ CreateWebSocketWithRepeatedProtocolsCaseInsensitive
 ;
 }
 "
-W3C
-WebSocket
-API
--
 Create
 WebSocket
 -

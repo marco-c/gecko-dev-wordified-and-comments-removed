@@ -166,10 +166,6 @@ unreached_func
 ;
 }
 "
-W3C
-WebSocket
-API
--
 origin
 set
 in

@@ -4,10 +4,6 @@ testOpen
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Create
 Secure
 WebSocket
@@ -25,10 +21,6 @@ testClose
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Create
 Secure
 WebSocket

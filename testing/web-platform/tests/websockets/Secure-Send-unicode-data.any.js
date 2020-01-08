@@ -4,10 +4,6 @@ testOpen
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 unicode
 data
@@ -29,10 +25,6 @@ testMessage
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 unicode
 data
@@ -54,10 +46,6 @@ testClose
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 unicode
 data

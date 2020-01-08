@@ -37,10 +37,6 @@ spaceUrl
 ;
 }
 "
-W3C
-WebSocket
-API
--
 Create
 Secure
 WebSocket

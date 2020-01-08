@@ -35,10 +35,6 @@ nonAsciiProtocol
 ;
 }
 "
-W3C
-WebSocket
-API
--
 Create
 WebSocket
 -

@@ -4,10 +4,6 @@ testOpen
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 null
 data
@@ -28,10 +24,6 @@ testMessage
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 null
 data
@@ -52,10 +44,6 @@ testClose
 async_test
 (
 "
-W3C
-WebSocket
-API
--
 Send
 null
 data
