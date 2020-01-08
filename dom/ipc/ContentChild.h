@@ -1914,6 +1914,13 @@ uint32_t
 aMapSize
 nsTArray
 <
+IPCBlob
+>
+&
+&
+aBlobs
+nsTArray
+<
 nsCString
 >
 &

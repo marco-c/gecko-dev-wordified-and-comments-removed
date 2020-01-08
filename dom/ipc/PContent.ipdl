@@ -2502,6 +2502,10 @@ FileDescriptor
 mapFile
 uint32_t
 aSize
+IPCBlob
+[
+]
+blobs
 nsCString
 [
 ]
