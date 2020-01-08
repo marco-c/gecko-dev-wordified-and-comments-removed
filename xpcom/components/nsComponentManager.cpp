@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsLayoutModule
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MemoryReporting
@@ -1387,6 +1394,10 @@ i
 )
 ;
 }
+nsLayoutModuleInitialize
+(
+)
+;
 bool
 loadChromeManifests
 =
