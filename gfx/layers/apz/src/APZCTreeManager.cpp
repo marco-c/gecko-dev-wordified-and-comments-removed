@@ -2578,6 +2578,11 @@ n
 this
 )
 ;
+if
+(
+mRootNode
+)
+{
 mRootNode
 -
 >
@@ -2587,6 +2592,7 @@ Dump
 "
 )
 ;
+}
 #
 endif
 }
