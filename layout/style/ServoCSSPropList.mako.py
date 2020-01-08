@@ -450,6 +450,10 @@ Resize
 "
     
 "
+TextAlign
+"
+    
+"
 TransformStyle
 "
     

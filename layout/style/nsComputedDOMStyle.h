@@ -1616,14 +1616,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetTextAlign
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetTextDecoration
 (
 )
