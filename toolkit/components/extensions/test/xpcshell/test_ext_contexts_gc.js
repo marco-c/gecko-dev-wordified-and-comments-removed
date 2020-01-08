@@ -198,7 +198,7 @@ gcCount
 ;
 Cu
 .
-forceGC
+forceShrinkingGC
 (
 )
 ;
