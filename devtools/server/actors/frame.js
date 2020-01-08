@@ -179,6 +179,8 @@ function
 (
 )
 {
+try
+{
 if
 (
 !
@@ -187,6 +189,17 @@ this
 frame
 .
 environment
+)
+{
+return
+{
+}
+;
+}
+}
+catch
+(
+e
 )
 {
 return
