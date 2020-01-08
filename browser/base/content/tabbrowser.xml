@@ -15613,7 +15613,7 @@ switchToNextMultiSelectedTab
 }
 gBrowser
 .
-updateActiveTabMultiSelectState
+avoidSingleSelectedTab
 (
 )
 ;
