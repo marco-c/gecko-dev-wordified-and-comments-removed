@@ -12910,7 +12910,7 @@ symbols
 '
 )
 def
-rust_compiler_flags
+rust_compile_flags
 (
 opt_level
 debug_rust
@@ -13171,13 +13171,6 @@ opt
 )
 return
 flags
-set_config
-(
-'
-MOZ_RUST_DEFAULT_FLAGS
-'
-rust_compiler_flags
-)
 #
 Rust
 incremental
