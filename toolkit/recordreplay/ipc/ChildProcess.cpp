@@ -2953,7 +2953,7 @@ const
 size_t
 HangSeconds
 =
-5
+30
 ;
 void
 ChildProcessInfo
