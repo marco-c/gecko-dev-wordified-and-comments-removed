@@ -2972,6 +2972,7 @@ porcelain
 ]
         
 if
+not
 untracked
 :
             
@@ -2985,6 +2986,8 @@ append
 untracked
 -
 files
+=
+no
 '
 )
         
