@@ -1799,6 +1799,16 @@ domains_set
 )
             
 "
+dom
+.
+file
+.
+createInChild
+"
+:
+True
+            
+"
 network
 .
 proxy
