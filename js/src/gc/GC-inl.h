@@ -655,6 +655,7 @@ if
 (
 needsBarrier
 )
+{
 ExposeGCThingToActiveJS
 (
 JS
@@ -667,6 +668,7 @@ traceKind
 )
 )
 ;
+}
 return
 cell
 ;
@@ -745,10 +747,12 @@ thing
 <
 ArenaSize
 )
+{
 moveForwardIfFree
 (
 )
 ;
+}
 }
 }
 ;
@@ -960,6 +964,7 @@ needBackgroundFinalizeWait
 kind
 )
 )
+{
 rt
 -
 >
@@ -969,6 +974,7 @@ waitBackgroundSweepEnd
 (
 )
 ;
+}
 arenaIter
 .
 init
@@ -1026,6 +1032,7 @@ IsNurseryAllocable
 kind
 )
 )
+{
 zone
 -
 >
@@ -1040,6 +1047,7 @@ evictNursery
 (
 )
 ;
+}
 init
 (
 zone
@@ -1180,6 +1188,7 @@ done
 (
 )
 )
+{
 cellIter
 .
 reset
@@ -1191,6 +1200,7 @@ get
 )
 )
 ;
+}
 }
 }
 void

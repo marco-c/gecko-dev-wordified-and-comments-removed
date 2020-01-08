@@ -855,6 +855,7 @@ done
 (
 )
 )
+{
 return
 iter0_
 .
@@ -862,6 +863,7 @@ get
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -1881,9 +1883,11 @@ triggered
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1898,9 +1902,11 @@ gcreason
 TOO_MUCH_MALLOC
 )
 )
+{
 return
 false
 ;
+}
 stats
 (
 )
