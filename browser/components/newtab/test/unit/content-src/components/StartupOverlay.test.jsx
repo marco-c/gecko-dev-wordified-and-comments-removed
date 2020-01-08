@@ -239,6 +239,13 @@ event
 at
 .
 SKIPPED_SIGNIN
+value
+:
+{
+has_flow_params
+:
+false
+}
 }
 )
 )
@@ -332,6 +339,13 @@ event
 at
 .
 SUBMIT_EMAIL
+value
+:
+{
+has_flow_params
+:
+false
+}
 }
 )
 )

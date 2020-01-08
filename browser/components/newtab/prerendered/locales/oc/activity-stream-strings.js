@@ -798,8 +798,9 @@ pocket_learn_more
 "
 :
 "
-Learn
-More
+Ne
+saber
+mai
 "
 "
 pocket_cta_button

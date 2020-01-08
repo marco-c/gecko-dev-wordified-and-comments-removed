@@ -391,11 +391,6 @@ prefs_section_rows_option
 num
 }
 baris
-;
-{
-num
-}
-baris
 "
 "
 prefs_search_header
