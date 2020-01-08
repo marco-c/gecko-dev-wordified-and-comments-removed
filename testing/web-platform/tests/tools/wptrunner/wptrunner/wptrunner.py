@@ -257,6 +257,17 @@ browser_channel
 "
 )
                                     
+verify
+=
+kwargs
+.
+get
+(
+"
+verify
+"
+)
+                                    
 debug
 =
 debug
