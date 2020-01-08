@@ -3324,8 +3324,8 @@ emitAssignment
 ParseNode
 *
 lhs
-ParseNodeKind
-pnk
+JSOp
+compoundOp
 ParseNode
 *
 rhs
