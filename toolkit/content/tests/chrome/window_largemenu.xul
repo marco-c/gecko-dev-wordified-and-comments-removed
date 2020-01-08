@@ -661,7 +661,7 @@ getBoundingClientRect
 )
 ;
 var
-sbo
+scrollbox
 =
 document
 .
@@ -673,7 +673,7 @@ popup
 0
 ]
 .
-scrollBoxObject
+_scrollbox
 ;
 var
 expectedScrollPos
@@ -1133,7 +1133,7 @@ gTestIndex
 overflow
 "
 )
-sbo
+scrollbox
 .
 scrollTo
 (
@@ -1277,9 +1277,9 @@ overflow
 }
 is
 (
-sbo
+scrollbox
 .
-positionY
+scrollTop
 expectedScrollPos
 "
 menu
@@ -1287,7 +1287,6 @@ scroll
 position
 "
 )
-;
 hidePopup
 (
 )
