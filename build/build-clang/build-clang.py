@@ -1768,6 +1768,13 @@ OFF
                 
 "
 -
+DCOMPILER_RT_BUILD_XRAY
+=
+OFF
+"
+                
+"
+-
 DLIBCXXABI_LIBCXX_INCLUDES
 =
 %

@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-335538
+342383
 "
 "
 stages
@@ -58,7 +58,7 @@ llvm
 /
 tags
 /
-RELEASE_601
+RELEASE_700
 /
 final
 "
@@ -85,7 +85,7 @@ cfe
 /
 tags
 /
-RELEASE_601
+RELEASE_700
 /
 final
 "
@@ -112,7 +112,7 @@ lld
 /
 tags
 /
-RELEASE_601
+RELEASE_700
 /
 final
 "
@@ -141,7 +141,7 @@ rt
 /
 tags
 /
-RELEASE_601
+RELEASE_700
 /
 final
 "
@@ -168,7 +168,7 @@ libcxx
 /
 tags
 /
-RELEASE_601
+RELEASE_700
 /
 final
 "
@@ -195,7 +195,7 @@ libcxxabi
 /
 tags
 /
-RELEASE_601
+RELEASE_700
 /
 final
 "
@@ -438,21 +438,6 @@ rt
 no
 -
 codesign
-.
-patch
-"
-"
-r322401
-.
-patch
-"
-"
-r325356
-.
-patch
-"
-"
-r339636
 .
 patch
 "

@@ -361,13 +361,6 @@ sh
 '
 toolchain
 -
-alias
-:
-linux64
--
-clang
-toolchain
--
 artifact
 :
 public
@@ -518,6 +511,13 @@ sh
 '
 toolchain
 -
+alias
+:
+linux64
+-
+clang
+toolchain
+-
 artifact
 :
 public
@@ -875,7 +875,7 @@ linux64
 -
 clang
 -
-6
+7
 -
 macosx
 -
@@ -885,7 +885,7 @@ description
 :
 "
 Clang
-6
+7
 toolchain
 build
 with
@@ -908,7 +908,7 @@ symbol
 :
 TL
 (
-clang6
+clang7
 -
 macosx
 -
@@ -979,7 +979,7 @@ build
 -
 clang
 -
-6
+7
 -
 linux
 -
@@ -1014,7 +1014,7 @@ clang
 /
 clang
 -
-6
+7
 -
 macosx64
 .
@@ -1076,7 +1076,7 @@ linux64
 -
 clang
 -
-6
+7
 -
 linux64
 -
@@ -1349,9 +1349,7 @@ in
 -
 tree
 :
-static
--
-analysis
+infer
 -
 build
 }
@@ -2452,7 +2450,7 @@ linux64
 -
 clang
 -
-6
+7
 linux64
 -
 hfsplus
