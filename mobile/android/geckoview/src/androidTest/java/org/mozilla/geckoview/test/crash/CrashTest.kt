@@ -222,9 +222,14 @@ Environment
 )
 if
 (
+"
+x86
+"
+=
+=
 env
 .
-isX86
+cpuArch
 )
 {
 return

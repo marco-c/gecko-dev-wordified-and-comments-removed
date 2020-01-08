@@ -9587,7 +9587,12 @@ sessionRule
 .
 env
 .
-isX86
+cpuArch
+=
+=
+"
+x86
+"
 equalTo
 (
 false
@@ -9712,7 +9717,12 @@ sessionRule
 .
 env
 .
-isX86
+cpuArch
+=
+=
+"
+x86
+"
 equalTo
 (
 false
