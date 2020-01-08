@@ -3073,9 +3073,8 @@ input
 ic
 "
 foo
-!
 "
-4
+3
 )
 ;
 getJS

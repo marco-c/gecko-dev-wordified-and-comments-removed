@@ -357,6 +357,9 @@ mIMEDelaySynchronizeReply
 int32_t
 mIMEActiveSynchronizeCount
 ;
+int32_t
+mIMEActiveCompositionCount
+;
 bool
 mIMESelectionChanged
 ;
