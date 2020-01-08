@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-PureComponent
+Component
 }
 =
 require
@@ -115,7 +115,7 @@ types
 class
 ViewportDimension
 extends
-PureComponent
+Component
 {
 static
 get

@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-TOGGLE_LEFT_ALIGNMENT
+CHANGE_TOUCH_SIMULATION
 }
 =
 require
@@ -22,7 +22,7 @@ module
 exports
 =
 {
-toggleLeftAlignment
+changeTouchSimulation
 (
 enabled
 )
@@ -31,7 +31,7 @@ return
 {
 type
 :
-TOGGLE_LEFT_ALIGNMENT
+CHANGE_TOUCH_SIMULATION
 enabled
 }
 ;
