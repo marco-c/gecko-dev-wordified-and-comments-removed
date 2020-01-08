@@ -411,11 +411,6 @@ aFinalUpdate
 )
 ;
 bool
-AllFinishedStreamsNotified
-(
-)
-;
-bool
 ShouldUpdateMainThread
 (
 )
