@@ -104,7 +104,7 @@ S
 '
 )
     
-HAS_FEATURE
+HAS_FEATURE_OR_BUILTIN
 =
 re
 .
@@ -112,7 +112,12 @@ compile
 (
 '
 (
-__has_feature
+__has_
+(
+feature
+|
+builtin
+)
 )
 \
 (
@@ -249,7 +254,7 @@ return
 value
         
 def
-normalize_has_feature
+normalize_has_feature_or_builtin
 (
 expr
 )
@@ -258,7 +263,7 @@ expr
 return
 self
 .
-HAS_FEATURE
+HAS_FEATURE_OR_BUILTIN
 .
 sub
 (
@@ -282,7 +287,7 @@ Context
 (
             
 (
-normalize_has_feature
+normalize_has_feature_or_builtin
 (
 k
 )
@@ -312,12 +317,12 @@ Preprocessor
 .
 do_if
 (
+                
 self
-normalize_has_feature
+normalize_has_feature_or_builtin
 (
 expression
 )
-                                      
 *
 *
 kwargs

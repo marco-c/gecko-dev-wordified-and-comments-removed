@@ -805,9 +805,9 @@ gnu
 {
         
 '
-__has_feature
+__has_builtin
 (
-cxx_alignof
+__builtin_bitreverse8
 )
 '
 :
@@ -830,9 +830,9 @@ gnu
 {
         
 '
-__has_feature
+__has_builtin
 (
-cxx_alignof
+__builtin_bitreverse8
 )
 '
 :
@@ -3091,7 +3091,7 @@ clang
 llvm
 3
 .
-6
+9
 or
 newer
 is

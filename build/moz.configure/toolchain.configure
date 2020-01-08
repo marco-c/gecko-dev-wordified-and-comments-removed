@@ -2827,7 +2827,7 @@ currently
 clang
 3
 .
-6
+9
 )
 .
 #
@@ -2922,9 +2922,9 @@ if
 __cplusplus
 |
 |
-__has_feature
+__has_builtin
 (
-cxx_alignof
+__builtin_bitreverse8
 )
 %
 VERSION
@@ -7359,7 +7359,7 @@ here
 search
 for
 #
-cxx_alignof
+builtin_bitreverse8
 above
 and
 see
@@ -7392,7 +7392,7 @@ clang
 llvm
 3
 .
-6
+9
 or
 newer
 is
