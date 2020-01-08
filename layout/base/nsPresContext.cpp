@@ -4920,6 +4920,13 @@ mQuirkSheetAdded
 =
 needsQuirkSheet
 ;
+mShell
+-
+>
+ApplicableStylesChanged
+(
+)
+;
 }
 static
 void
