@@ -18,3 +18,9 @@ macosx64
 /
 nightly
 "
+ac_add_options
+-
+-
+disable
+-
+lto
