@@ -154,6 +154,10 @@ value
 "
 bar
 "
+originAttributes
+=
+{
+}
 )
 {
 return
@@ -186,8 +190,7 @@ scriptSecurityManager
 createCodebasePrincipal
 (
 uri
-{
-}
+originAttributes
 )
 ;
 let
