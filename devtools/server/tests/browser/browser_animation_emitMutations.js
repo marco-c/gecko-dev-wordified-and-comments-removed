@@ -12,7 +12,7 @@ function
 {
 const
 {
-target
+client
 walker
 animations
 }
@@ -519,9 +519,9 @@ players
 )
 ;
 await
-target
+client
 .
-destroy
+close
 (
 )
 ;
