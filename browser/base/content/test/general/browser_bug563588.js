@@ -29,6 +29,9 @@ toUpperCase
 accelKey
 :
 true
+shiftKey
+:
+true
 }
 )
 ;
@@ -39,6 +42,8 @@ gBrowser
 selectedTab
 originalSelectedTab
 "
+shift
++
 accel
 +
 "
@@ -66,6 +71,8 @@ tabContainer
 selectedIndex
 expectedPos
 "
+shift
++
 accel
 +
 "
@@ -92,6 +99,8 @@ gBrowser
 .
 selectedTab
 "
+shift
++
 accel
 +
 "
