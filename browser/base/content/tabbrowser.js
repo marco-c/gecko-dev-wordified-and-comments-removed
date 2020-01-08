@@ -11598,7 +11598,7 @@ let
 aParams
 =
 {
-animation
+animate
 :
 true
 }
