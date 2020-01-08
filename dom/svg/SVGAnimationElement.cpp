@@ -288,7 +288,7 @@ attribute
 )
 ;
 return
-GetFlattenedTreeParentElement
+GetParentElement
 (
 )
 ;
@@ -675,18 +675,6 @@ rv
 rv
 )
 ;
-if
-(
-!
-GetCtx
-(
-)
-)
-{
-return
-NS_OK
-;
-}
 if
 (
 nsIDocument
