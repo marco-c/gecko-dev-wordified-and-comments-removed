@@ -414,7 +414,7 @@ buildType
 #
 Like
 '
-OfficialWithoutGeckoBinariesPhotonDebug
+OfficialWithoutGeckoBinariesDebug
 '
 name
 =
@@ -459,9 +459,6 @@ withoutGeckoBinaries
 '
 '
 noMinApi
-'
-'
-photon
 '
 )
 '
@@ -533,7 +530,7 @@ build_config
 '
 Like
 "
-officialWithoutGeckoBinariesNoMinApiPhotonDebug
+officialWithoutGeckoBinariesNoMinApiDebug
 "
 .
 '
@@ -1016,7 +1013,7 @@ s
 #
 Like
 '
-officialPhoton
+productFlavor
 '
 .
 productFlavor
@@ -1044,9 +1041,9 @@ productFlavors
 #
 Like
 '
-official
+product
 -
-photon
+flavor
 '
 .
 product_flavor
