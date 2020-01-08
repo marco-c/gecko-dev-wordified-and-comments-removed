@@ -128,6 +128,7 @@ overlap_flag
 int
 clip_to_restricted_range
 ;
+unsigned
 int
 bit_depth
 ;
@@ -146,6 +147,7 @@ aom_film_grain_t
 void
 av1_add_film_grain_run
 (
+const
 aom_film_grain_t
 *
 grain_params
@@ -179,9 +181,11 @@ mc_identity
 void
 av1_add_film_grain
 (
+const
 aom_film_grain_t
 *
 grain_params
+const
 aom_image_t
 *
 src

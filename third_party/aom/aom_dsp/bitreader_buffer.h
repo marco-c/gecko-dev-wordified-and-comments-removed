@@ -70,6 +70,7 @@ error_handler
 size_t
 aom_rb_bytes_read
 (
+const
 struct
 aom_read_bit_buffer
 *

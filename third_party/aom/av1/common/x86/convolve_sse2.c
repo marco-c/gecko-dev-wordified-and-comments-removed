@@ -90,7 +90,6 @@ y_filter
 =
 av1_get_interp_filter_subpel_kernel
 (
-*
 filter_params
 subpel_q4
 &
@@ -582,9 +581,11 @@ int
 w
 int
 h
+const
 InterpFilterParams
 *
 filter_params_x
+const
 InterpFilterParams
 *
 filter_params_y
@@ -1906,9 +1907,11 @@ int
 w
 int
 h
+const
 InterpFilterParams
 *
 filter_params_x
+const
 InterpFilterParams
 *
 filter_params_y

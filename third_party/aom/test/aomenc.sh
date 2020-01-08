@@ -457,7 +457,6 @@ aomenc_pipe
 )
 {
 local
-readonly
 encoder
 =
 "
@@ -467,7 +466,6 @@ aomenc
 )
 "
 local
-readonly
 input
 =
 "
@@ -554,7 +552,6 @@ aomenc
 )
 {
 local
-readonly
 encoder
 =
 "
@@ -564,7 +561,6 @@ aomenc
 )
 "
 local
-readonly
 input
 =
 "
@@ -1051,7 +1047,6 @@ yes
 ;
 then
 local
-readonly
 output
 =
 "
@@ -1133,7 +1128,6 @@ yes
 ;
 then
 local
-readonly
 output
 =
 "
@@ -1219,7 +1213,6 @@ yes
 ;
 then
 local
-readonly
 output
 =
 "
@@ -1329,17 +1322,14 @@ yes
 ;
 then
 local
-readonly
 lag_total_frames
 =
 10
 local
-readonly
 lag_frames
 =
 5
 local
-readonly
 output
 =
 "
@@ -1464,7 +1454,6 @@ yes
 ;
 then
 local
-readonly
 output
 =
 "
@@ -1562,7 +1551,6 @@ in
 ;
 do
 local
-readonly
 output
 =
 "

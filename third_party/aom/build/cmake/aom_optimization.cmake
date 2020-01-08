@@ -1665,12 +1665,11 @@ config
 AOM_CONFIG_DIR
 }
 /
-{
-AOM_TARGET_CPU
-}
-_rtcd_config
+config
+/
+aom_config
 .
-rtcd
+h
 {
 config
 }

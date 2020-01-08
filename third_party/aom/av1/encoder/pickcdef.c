@@ -2198,6 +2198,8 @@ AOMMAX
 cm
 -
 >
+seq_params
+.
 bit_depth
 -
 8
@@ -2406,6 +2408,8 @@ base_qindex
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 >
@@ -2414,6 +2418,8 @@ bit_depth
 cm
 -
 >
+seq_params
+.
 bit_depth
 -
 8
@@ -2823,6 +2829,8 @@ if
 cm
 -
 >
+seq_params
+.
 use_highbitdepth
 )
 {

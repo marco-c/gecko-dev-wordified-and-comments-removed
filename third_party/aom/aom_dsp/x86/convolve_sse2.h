@@ -30,7 +30,6 @@ filter
 =
 av1_get_interp_filter_subpel_kernel
 (
-*
 filter_params
 subpel_q4
 &

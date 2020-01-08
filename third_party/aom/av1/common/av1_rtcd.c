@@ -33,7 +33,7 @@ av1_rtcd
 (
 )
 {
-once
+aom_once
 (
 setup_rtcd_internal
 )

@@ -437,7 +437,9 @@ INTERP_FILTERS_ALL
 vfilter
 )
 {
+const
 InterpFilterParams
+*
 filter_params_x
 =
 av1_get_interp_filter_params_with_block_size
@@ -449,7 +451,9 @@ hfilter
 out_w
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_y
 =
 av1_get_interp_filter_params_with_block_size
@@ -603,9 +607,7 @@ output
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -627,9 +629,7 @@ output2
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -1000,7 +1000,9 @@ out_w
 out_h
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_x
 =
 av1_get_interp_filter_params_with_block_size
@@ -1012,7 +1014,9 @@ hfilter
 out_w
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_y
 =
 av1_get_interp_filter_params_with_block_size
@@ -1056,9 +1060,7 @@ output
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -1413,7 +1415,9 @@ INTERP_FILTERS_ALL
 vfilter
 )
 {
+const
 InterpFilterParams
+*
 filter_params_x
 =
 av1_get_interp_filter_params_with_block_size
@@ -1425,7 +1429,9 @@ hfilter
 out_w
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_y
 =
 av1_get_interp_filter_params_with_block_size
@@ -1592,9 +1598,7 @@ output8_1
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -1616,9 +1620,7 @@ output8_2
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -2072,9 +2074,7 @@ output8_1
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -2096,9 +2096,7 @@ output8_2
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -2588,7 +2586,9 @@ do_average
 =
 0
 ;
+const
 InterpFilterParams
+*
 filter_params_x
 =
 av1_get_interp_filter_params_with_block_size
@@ -2600,7 +2600,9 @@ hfilter
 out_w
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_y
 =
 av1_get_interp_filter_params_with_block_size
@@ -2704,9 +2706,7 @@ output8
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -3164,7 +3164,9 @@ out_w
 out_h
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_x
 =
 av1_get_interp_filter_params_with_block_size
@@ -3176,7 +3178,9 @@ hfilter
 out_w
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_y
 =
 av1_get_interp_filter_params_with_block_size
@@ -3226,9 +3230,7 @@ output
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -3569,7 +3571,9 @@ INTERP_FILTERS_ALL
 vfilter
 )
 {
+const
 InterpFilterParams
+*
 filter_params_x
 =
 av1_get_interp_filter_params_with_block_size
@@ -3581,7 +3585,9 @@ hfilter
 out_w
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_y
 =
 av1_get_interp_filter_params_with_block_size
@@ -3735,9 +3741,7 @@ output
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -3760,9 +3764,7 @@ output2
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -4140,7 +4142,9 @@ block_size_high
 block_idx
 ]
 ;
+const
 InterpFilterParams
+*
 filter_params_x
 =
 av1_get_interp_filter_params_with_block_size
@@ -4152,7 +4156,9 @@ hfilter
 out_w
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_y
 =
 av1_get_interp_filter_params_with_block_size
@@ -4254,9 +4260,7 @@ output16
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -4579,7 +4583,9 @@ INTERP_FILTERS_ALL
 vfilter
 )
 {
+const
 InterpFilterParams
+*
 filter_params_x
 =
 av1_get_interp_filter_params_with_block_size
@@ -4591,7 +4597,9 @@ hfilter
 out_w
 )
 ;
+const
 InterpFilterParams
+*
 filter_params_y
 =
 av1_get_interp_filter_params_with_block_size
@@ -4758,9 +4766,7 @@ output16_1
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -4783,9 +4789,7 @@ output16_2
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -5248,9 +5252,7 @@ output16_1
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby
@@ -5273,9 +5275,7 @@ output16_2
 MAX_SB_SIZE
 out_w
 out_h
-&
 filter_params_x
-&
 filter_params_y
 subx
 suby

@@ -158,15 +158,6 @@ aom_bit_depth_t
 bit_depth
 )
 ;
-int16_t
-av1_qindex_from_ac_Q3
-(
-int
-ac_Q3
-aom_bit_depth_t
-bit_depth
-)
-;
 int
 av1_get_qindex
 (

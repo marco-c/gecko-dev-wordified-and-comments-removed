@@ -29,6 +29,10 @@ struct
 AvxRational
 time_base
 ;
+unsigned
+int
+is_annexb
+;
 }
 AvxVideoInfo
 ;

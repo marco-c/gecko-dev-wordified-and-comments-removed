@@ -378,7 +378,6 @@ aomdec_pipe
 )
 {
 local
-readonly
 input
 =
 "
@@ -475,7 +474,6 @@ aomdec
 )
 {
 local
-readonly
 decoder
 =
 "
@@ -485,7 +483,6 @@ aomdec
 )
 "
 local
-readonly
 input
 =
 "
@@ -553,7 +550,6 @@ yes
 ;
 then
 local
-readonly
 file
 =
 "
@@ -617,7 +613,6 @@ yes
 ;
 then
 local
-readonly
 file
 =
 "
@@ -692,7 +687,6 @@ yes
 ;
 then
 local
-readonly
 file
 =
 "
@@ -774,7 +768,6 @@ yes
 ;
 then
 local
-readonly
 file
 =
 "
@@ -838,7 +831,6 @@ yes
 ;
 then
 local
-readonly
 file
 =
 "
@@ -910,7 +902,6 @@ yes
 ;
 then
 local
-readonly
 file
 =
 "
@@ -988,7 +979,6 @@ yes
 ;
 then
 local
-readonly
 file
 =
 "

@@ -188,6 +188,10 @@ RD_THRESH_MAX_FACT
 define
 RD_THRESH_INC
 1
+#
+define
+SWITCHABLE_INTERP_RATE_FACTOR
+1
 typedef
 enum
 {

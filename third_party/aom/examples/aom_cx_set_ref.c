@@ -804,7 +804,7 @@ if
 aom_codec_control
 (
 dcodec
-AV1_GET_NEW_FRAME_IMAGE
+AV1_COPY_NEW_FRAME_IMAGE
 ext_ref
 )
 )

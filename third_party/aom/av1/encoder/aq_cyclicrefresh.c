@@ -576,6 +576,8 @@ cpi
 >
 common
 .
+seq_params
+.
 bit_depth
 )
 ;
@@ -723,6 +725,8 @@ correction_factor
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 +
@@ -751,6 +755,8 @@ correction_factor
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 +
@@ -779,6 +785,8 @@ correction_factor
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 )
@@ -904,6 +912,8 @@ correction_factor
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 +
@@ -922,6 +932,8 @@ correction_factor
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 )
@@ -3010,6 +3022,8 @@ base_qindex
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 ;

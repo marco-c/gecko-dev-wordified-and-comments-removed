@@ -1432,6 +1432,9 @@ int
 ml_prune_ab_partition
 ;
 int
+ml_prune_4_partition
+;
+int
 fast_cdef_search
 ;
 int
@@ -1443,8 +1446,8 @@ mode_pruning_based_on_two_pass_partition_search
 int
 less_rectangular_check
 ;
-int
-use_square_partition_only
+BLOCK_SIZE
+use_square_partition_only_threshold
 ;
 AUTO_MIN_MAX_MODE
 auto_min_max_partition_size

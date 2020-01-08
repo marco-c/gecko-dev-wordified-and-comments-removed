@@ -4295,6 +4295,7 @@ return
 }
 const
 InterpFilterParams
+*
 filter
 =
 av1_get_interp_filter_params_with_block_size
@@ -4776,7 +4777,8 @@ subpel_y_q3
 )
 +
 filter
-.
+-
+>
 taps
 ;
 assert
@@ -4804,7 +4806,8 @@ ref_stride
 (
 (
 filter
-.
+-
+>
 taps
 >
 >
@@ -4834,7 +4837,8 @@ MAX_SB_SIZE
 (
 (
 filter
-.
+-
+>
 taps
 >
 >

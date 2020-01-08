@@ -2147,10 +2147,6 @@ encoder_util
 c
 "
 )
-if
-(
-ENABLE_EXAMPLES
-)
 list
 (
 APPEND
@@ -2199,9 +2195,6 @@ rate_hist
 .
 h
 "
-)
-endif
-(
 )
 list
 (

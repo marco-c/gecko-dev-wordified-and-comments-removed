@@ -219,7 +219,6 @@ filter
 =
 av1_get_interp_filter_subpel_kernel
 (
-*
 filter_params
 filter_idx
 )
@@ -963,7 +962,6 @@ filter
 =
 av1_get_interp_filter_subpel_kernel
 (
-*
 filter_params
 filter_idx
 )
@@ -1640,9 +1638,11 @@ int
 w
 int
 h
+const
 InterpFilterParams
 *
 filter_params_x
+const
 InterpFilterParams
 *
 filter_params_y
@@ -1949,7 +1949,6 @@ filter
 =
 av1_get_interp_filter_subpel_kernel
 (
-*
 filter_params
 filter_idx
 )
@@ -2669,7 +2668,6 @@ filter
 =
 av1_get_interp_filter_subpel_kernel
 (
-*
 filter_params
 filter_idx
 )
@@ -3374,9 +3372,11 @@ int
 w
 int
 h
+const
 InterpFilterParams
 *
 filter_params_x
+const
 InterpFilterParams
 *
 filter_params_y

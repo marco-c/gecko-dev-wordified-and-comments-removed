@@ -207,7 +207,7 @@ buffers
 }
 ;
 int
-use_external_refernce_buffers
+use_external_reference_buffers
 ;
 uint8_t
 *

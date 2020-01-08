@@ -38,11 +38,11 @@ h
 >
 static
 LONG
-once_state
+aom_once_state
 ;
 static
 void
-once
+aom_once
 (
 void
 (
@@ -59,7 +59,7 @@ if
 InterlockedCompareExchange
 (
 &
-once_state
+aom_once_state
 1
 0
 )
@@ -75,7 +75,7 @@ func
 InterlockedIncrement
 (
 &
-once_state
+aom_once_state
 )
 ;
 return
@@ -86,7 +86,7 @@ while
 InterlockedCompareExchange
 (
 &
-once_state
+aom_once_state
 2
 2
 )
@@ -125,7 +125,7 @@ h
 >
 static
 void
-once
+aom_once
 (
 void
 (
@@ -186,7 +186,7 @@ h
 >
 static
 void
-once
+aom_once
 (
 void
 (
@@ -216,7 +216,7 @@ func
 else
 static
 void
-once
+aom_once
 (
 void
 (

@@ -66,6 +66,10 @@ CONFIG_DEBUG
 0
 #
 define
+CONFIG_DENOISE
+0
+#
+define
 CONFIG_DIST_8X8
 1
 #

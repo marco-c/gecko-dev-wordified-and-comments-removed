@@ -201,16 +201,13 @@ int
 plane
 const
 int
-blk_row
-const
-int
-blk_col
-const
-int
 block
 const
 TX_SIZE
 tx_size
+const
+TX_TYPE
+tx_type
 const
 TXB_CTX
 *
@@ -380,6 +377,7 @@ int
 av1_optimize_txb_new
 (
 const
+struct
 AV1_COMP
 *
 cpi
@@ -397,6 +395,7 @@ tx_type
 const
 TXB_CTX
 *
+const
 txb_ctx
 int
 *

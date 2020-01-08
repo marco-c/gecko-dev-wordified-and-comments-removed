@@ -58,10 +58,10 @@ int
 encoder_decoder_buffer_delay_length
 ;
 int
-buffer_removal_delay_length
+buffer_removal_time_length
 ;
 int
-frame_presentation_delay_length
+frame_presentation_time_length
 ;
 }
 aom_dec_model_info_t
@@ -79,10 +79,10 @@ bitrate
 int64_t
 buffer_size
 ;
-int
+uint32_t
 decoder_buffer_delay
 ;
-int
+uint32_t
 encoder_buffer_delay
 ;
 int
@@ -101,8 +101,8 @@ typedef
 struct
 aom_op_timing_info_t
 {
-int64_t
-buffer_removal_delay
+uint32_t
+buffer_removal_time
 ;
 }
 aom_op_timing_info_t

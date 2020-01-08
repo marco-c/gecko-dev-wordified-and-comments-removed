@@ -100,9 +100,6 @@ void
 user_priv
 ;
 int
-result
-;
-int
 worker_id
 ;
 int

@@ -33,7 +33,7 @@ aom_scale_rtcd
 (
 )
 {
-once
+aom_once
 (
 setup_rtcd_internal
 )

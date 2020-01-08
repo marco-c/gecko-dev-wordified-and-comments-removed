@@ -5136,6 +5136,8 @@ av1_build_quantizer
 cm
 -
 >
+seq_params
+.
 bit_depth
 cm
 -
@@ -6296,6 +6298,8 @@ if
 cm
 -
 >
+seq_params
+.
 separate_uv_delta_q
 )
 cm

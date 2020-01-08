@@ -178,6 +178,7 @@ uint8_t
 left
 )
 ;
+}
 template
 <
 typename
@@ -249,6 +250,8 @@ bit_depth
 ;
 }
 ;
+namespace
+{
 template
 <
 typename

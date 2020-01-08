@@ -1305,6 +1305,7 @@ highbd_img_upshift
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src
@@ -1538,11 +1539,13 @@ y
 +
 )
 {
+const
 uint16_t
 *
 p_src
 =
 (
+const
 uint16_t
 *
 )
@@ -1635,6 +1638,7 @@ lowbd_img_upshift
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src
@@ -1870,6 +1874,7 @@ y
 +
 )
 {
+const
 uint8_t
 *
 p_src
@@ -1962,6 +1967,7 @@ aom_img_upshift
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src
@@ -2004,6 +2010,7 @@ aom_img_truncate_16_to_8
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src
@@ -2209,11 +2216,13 @@ y
 +
 )
 {
+const
 uint16_t
 *
 p_src
 =
 (
+const
 uint16_t
 *
 )
@@ -2300,6 +2309,7 @@ highbd_img_downshift
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src
@@ -2510,11 +2520,13 @@ y
 +
 )
 {
+const
 uint16_t
 *
 p_src
 =
 (
+const
 uint16_t
 *
 )
@@ -2603,6 +2615,7 @@ lowbd_img_downshift
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src
@@ -2815,11 +2828,13 @@ y
 +
 )
 {
+const
 uint16_t
 *
 p_src
 =
 (
+const
 uint16_t
 *
 )
@@ -2903,6 +2918,7 @@ aom_img_downshift
 aom_image_t
 *
 dst
+const
 aom_image_t
 *
 src

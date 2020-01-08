@@ -365,7 +365,6 @@ yes
 ;
 then
 local
-readonly
 encoder
 =
 "

@@ -1881,7 +1881,6 @@ cleanup
 )
 {
 local
-readonly
 res
 =
 ?

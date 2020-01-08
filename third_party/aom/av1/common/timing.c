@@ -201,14 +201,14 @@ encoder_decoder_buffer_delay_length
 decoder_model
 -
 >
-buffer_removal_delay_length
+buffer_removal_time_length
 =
 10
 ;
 decoder_model
 -
 >
-frame_presentation_delay_length
+frame_presentation_time_length
 =
 10
 ;

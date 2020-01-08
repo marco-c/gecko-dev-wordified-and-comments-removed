@@ -288,10 +288,6 @@ RD_THRESH_POW
 1
 .
 25
-#
-define
-SWITCHABLE_INTERP_RATE_FACTOR
-1
 static
 const
 uint8_t
@@ -2588,6 +2584,8 @@ cpi
 >
 common
 .
+seq_params
+.
 bit_depth
 )
 ;
@@ -2602,6 +2600,8 @@ cpi
 -
 >
 common
+.
+seq_params
 .
 bit_depth
 )
@@ -2942,6 +2942,8 @@ cpi
 >
 common
 .
+seq_params
+.
 bit_depth
 )
 {
@@ -3111,6 +3113,8 @@ qindex
 cm
 -
 >
+seq_params
+.
 bit_depth
 )
 ;
