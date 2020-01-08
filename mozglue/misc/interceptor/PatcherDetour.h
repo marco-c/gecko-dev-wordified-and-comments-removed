@@ -89,6 +89,14 @@ WindowsDllPatcherBase
 VMPolicy
 >
 {
+typedef
+typename
+VMPolicy
+:
+:
+MMPolicyT
+MMPolicyT
+;
 public
 :
 template

@@ -42,6 +42,14 @@ WindowsDllPatcherBase
 VMPolicy
 >
 {
+typedef
+typename
+VMPolicy
+:
+:
+MMPolicyT
+MMPolicyT
+;
 mozilla
 :
 :
