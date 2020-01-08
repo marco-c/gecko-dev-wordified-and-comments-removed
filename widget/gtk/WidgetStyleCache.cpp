@@ -2666,6 +2666,15 @@ MOZ_GTK_HEADER_BAR
 buttonBox
 )
 ;
+gtk_style_context_add_class
+(
+gtk_widget_get_style_context
+(
+buttonBox
+)
+GTK_STYLE_CLASS_LEFT
+)
+;
 WidgetNodeType
 buttonLayout
 [
