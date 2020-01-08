@@ -61,6 +61,9 @@ settings
 threads
 .
 length
+settings
+.
+duration
 )
 ;
 info
