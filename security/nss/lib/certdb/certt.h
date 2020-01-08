@@ -1374,6 +1374,9 @@ certUsageStatusResponder
 certUsageAnyCA
 =
 11
+certUsageIPsec
+=
+12
 }
 SECCertUsage
 ;
@@ -1461,8 +1464,14 @@ certificateUsageAnyCA
 )
 #
 define
+certificateUsageIPsec
+(
+0x1000
+)
+#
+define
 certificateUsageHighest
-certificateUsageAnyCA
+certificateUsageIPsec
 typedef
 enum
 CERTCertOwnerEnum

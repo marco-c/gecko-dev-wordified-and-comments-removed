@@ -1695,6 +1695,17 @@ keyUsage
 =
 certUsageSSLServerWithStepUp
 )
+|
+|
+(
+oldCert
+-
+>
+keyUsage
+=
+=
+certUsageIPsec
+)
 )
 ;
 validity
