@@ -16,7 +16,7 @@ sys
 NDK_VERSION
 =
 '
-r17b
+r15c
 '
 ANDROID_NDK_EXISTS
 =
