@@ -4340,7 +4340,7 @@ if
 node
 )
 {
-NS_ERROR
+MOZ_CRASH
 (
 "
 This
@@ -4415,7 +4415,7 @@ caller
 }
 else
 {
-NS_ERROR
+MOZ_CRASH
 (
 "
 This
