@@ -424,7 +424,7 @@ nonbeta
 esr60
 :
 esr
-nightly
+default
 :
 beta
 last
@@ -515,7 +515,7 @@ esr60
 .
 0esr
 "
-nightly
+default
 :
 "
 default
@@ -605,7 +605,7 @@ esr
 -
 localtest
 "
-nightly
+default
 :
 "
 default
@@ -713,7 +713,7 @@ esr
 -
 localtest
 "
-nightly
+default
 :
 "
 default
@@ -821,7 +821,7 @@ esr
 -
 localtest
 "
-nightly
+default
 :
 "
 default
@@ -929,7 +929,7 @@ esr
 -
 localtest
 "
-nightly
+default
 :
 "
 default
@@ -1037,7 +1037,7 @@ esr
 -
 localtest
 "
-nightly
+default
 :
 "
 default
