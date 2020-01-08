@@ -104,7 +104,7 @@ interface
 nsIURI
 ;
 [
-scriptable
+builtinclass
 uuid
 (
 a71aee68
