@@ -492,6 +492,11 @@ errorValue
 )
 ;
 }
+JS_ClearPendingException
+(
+aCx
+)
+;
 }
 mStreamClosed
 =
