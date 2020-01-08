@@ -958,7 +958,7 @@ height
 imgIContainer
 :
 :
-FLAG_NONE
+FLAG_HIGH_QUALITY_SCALING
 )
 ;
 }

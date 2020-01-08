@@ -243,6 +243,11 @@ imgIContainer
 :
 :
 DECODE_FLAGS_DEFAULT
+|
+imgIContainer
+:
+:
+FLAG_HIGH_QUALITY_SCALING
 )
 ;
 RefPtr
