@@ -1228,6 +1228,19 @@ displayType
 ;
 if
 (
+currentNode
+.
+nodeType
+=
+=
+=
+currentNode
+.
+ELEMENT_NODE
+)
+{
+if
+(
 !
 displayType
 )
@@ -1325,6 +1338,7 @@ this
 currentNode
 )
 ;
+}
 }
 while
 (
