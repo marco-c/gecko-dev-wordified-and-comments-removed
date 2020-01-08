@@ -227,6 +227,8 @@ imgContainer
 {
 bool
 animated
+=
+false
 ;
 imgContainer
 -
