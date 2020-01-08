@@ -1,11 +1,13 @@
 %
-chrome
+http
 :
 /
 /
-tart
+localhost
 /
-content
+tests
+/
+tart
 /
 tart
 .
