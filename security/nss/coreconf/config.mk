@@ -3228,6 +3228,14 @@ DEFINES
 -
 DSEED_ONLY_DEV_URANDOM
 endif
+ifdef
+NSS_PKCS1_AllowMissingParameters
+DEFINES
++
+=
+-
+DNSS_PKCS1_AllowMissingParameters
+endif
 #
 Avoid
 building

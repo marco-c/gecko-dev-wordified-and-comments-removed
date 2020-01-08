@@ -110,6 +110,10 @@ pk11_prng_unittest
 .
 cc
 \
+pk11_rsapkcs1_unittest
+.
+cc
+\
 pk11_rsapss_unittest
 .
 cc
