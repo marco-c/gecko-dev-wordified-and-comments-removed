@@ -10122,6 +10122,15 @@ ValOperandId
 rhsId
 )
 ;
+bool
+tryAttachNullUndefined
+(
+ValOperandId
+lhsId
+ValOperandId
+rhsId
+)
+;
 void
 trackAttached
 (
