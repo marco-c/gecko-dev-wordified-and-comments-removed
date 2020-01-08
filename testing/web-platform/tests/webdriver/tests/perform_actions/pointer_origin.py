@@ -7,7 +7,7 @@ MoveTargetOutOfBoundsException
 from
 tests
 .
-actions
+perform_actions
 .
 support
 .

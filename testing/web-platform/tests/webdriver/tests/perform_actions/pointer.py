@@ -9,7 +9,7 @@ NoSuchWindowException
 from
 tests
 .
-actions
+perform_actions
 .
 support
 .
@@ -20,14 +20,14 @@ get_viewport_rect
 from
 tests
 .
-actions
+perform_actions
 .
 support
 .
 refine
 import
-get_events
 filter_dict
+get_events
 from
 tests
 .

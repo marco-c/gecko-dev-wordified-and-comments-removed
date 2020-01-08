@@ -197,7 +197,7 @@ webdriver
 /
 tests
 /
-actions
+perform_actions
 /
 support
 /

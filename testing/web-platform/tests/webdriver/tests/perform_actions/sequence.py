@@ -1,15 +1,15 @@
 from
 tests
 .
-actions
+perform_actions
 .
 support
 .
 refine
 import
-get_keys
 filter_dict
 get_events
+get_keys
 def
 test_perform_no_actions_send_no_events
 (

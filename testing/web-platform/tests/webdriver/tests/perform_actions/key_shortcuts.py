@@ -1,7 +1,7 @@
 from
 tests
 .
-actions
+perform_actions
 .
 support
 .
@@ -12,7 +12,7 @@ MODIFIER_KEY
 from
 tests
 .
-actions
+perform_actions
 .
 support
 .

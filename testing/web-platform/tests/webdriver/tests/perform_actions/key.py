@@ -9,7 +9,7 @@ NoSuchWindowException
 from
 tests
 .
-actions
+perform_actions
 .
 support
 .
@@ -19,15 +19,15 @@ Keys
 from
 tests
 .
-actions
+perform_actions
 .
 support
 .
 refine
 import
 filter_dict
-get_keys
 get_events
+get_keys
 def
 test_null_response_value
 (
