@@ -573,6 +573,7 @@ its
 parent
 window
 "
++
 "
 got
 "
@@ -580,7 +581,6 @@ got
 str1
 +
 "
-but
 expected
 "
 +
