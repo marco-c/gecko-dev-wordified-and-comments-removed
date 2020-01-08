@@ -162,6 +162,10 @@ CityHash
 .
 dll
 \
+ExecInExplorer
+.
+dll
+\
 InetBgDL
 .
 dll
