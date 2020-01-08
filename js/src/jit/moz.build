@@ -1379,6 +1379,17 @@ arm64
 /
 vixl
 /
+MozCpu
+-
+vixl
+.
+cpp
+'
+'
+arm64
+/
+vixl
+/
 MozInstructions
 -
 vixl
