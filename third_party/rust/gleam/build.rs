@@ -178,7 +178,13 @@ GL_ARB_blend_func_extended
 GL_ARB_get_program_binary
 "
 "
+GL_ARB_invalidate_subdata
+"
+"
 GL_ARB_texture_rectangle
+"
+"
+GL_ARB_texture_storage
 "
 "
 GL_EXT_debug_marker
@@ -253,6 +259,9 @@ GL_EXT_texture_filter_anisotropic
 "
 "
 GL_EXT_texture_format_BGRA8888
+"
+"
+GL_EXT_texture_storage
 "
 "
 GL_KHR_debug
