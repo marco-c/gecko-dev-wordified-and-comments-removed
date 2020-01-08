@@ -390,6 +390,10 @@ mozilla
 release
 |
 beta
+|
+esr
+.
+*
 )
 :
 stage_product
