@@ -3444,6 +3444,12 @@ lookup
 "
 "
         
+if
+key
+in
+self
+:
+            
 return
 dict
 .
@@ -3452,6 +3458,13 @@ __getitem__
 self
 key
 )
+        
+else
+:
+            
+return
+[
+]
     
 classmethod
     
