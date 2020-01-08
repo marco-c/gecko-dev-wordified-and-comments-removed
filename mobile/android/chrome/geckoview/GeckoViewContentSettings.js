@@ -65,6 +65,11 @@ USER_AGENT_MODE_MOBILE
 =
 0
 ;
+const
+USER_AGENT_MODE_DESKTOP
+=
+1
+;
 class
 GeckoViewContentSettings
 extends
@@ -196,9 +201,10 @@ utils
 setDesktopModeViewport
 (
 aMode
-!
 =
-USER_AGENT_MODE_MOBILE
+=
+=
+USER_AGENT_MODE_DESKTOP
 )
 ;
 this
