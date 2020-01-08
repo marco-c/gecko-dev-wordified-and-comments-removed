@@ -610,6 +610,8 @@ sdk
 linux
 fetches
 :
+fetch
+:
 -
 grcov
 -
