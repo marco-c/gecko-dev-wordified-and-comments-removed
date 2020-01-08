@@ -524,6 +524,7 @@ suffix
 origin
 ;
 ExtractOriginData
+extractor
 (
 scope
 suffix
