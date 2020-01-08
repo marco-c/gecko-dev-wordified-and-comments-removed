@@ -2002,6 +2002,13 @@ EqualsLiteral
 x
 /
 x
+;
+test
+=
+\
+"
+\
+"
 "
 )
 )
@@ -4900,7 +4907,10 @@ html
 ;
 charset
 =
-GBK
+\
+"
+\
+"
 "
 )
 )
