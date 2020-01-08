@@ -427,6 +427,9 @@ bool
 mCompositorUseANGLE
 ;
 bool
+mCompositorUseDComp
+;
+bool
 mSupportsTextureBlitting
 ;
 bool
@@ -464,6 +467,10 @@ aCompositorUseANGLE
 =
 false
 bool
+aCompositorUseDComp
+=
+false
+bool
 aSupportsTextureBlitting
 =
 false
@@ -496,6 +503,10 @@ aMaxTextureSize
 mCompositorUseANGLE
 (
 aCompositorUseANGLE
+)
+mCompositorUseDComp
+(
+aCompositorUseDComp
 )
 mSupportsTextureBlitting
 (
@@ -562,6 +573,14 @@ mCompositorUseANGLE
 aOther
 .
 mCompositorUseANGLE
+&
+&
+mCompositorUseDComp
+=
+=
+aOther
+.
+mCompositorUseDComp
 &
 &
 mSupportsTextureBlitting

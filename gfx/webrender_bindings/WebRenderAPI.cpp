@@ -134,6 +134,9 @@ aMaxTextureSize
 bool
 *
 aUseANGLE
+bool
+*
+aUseDComp
 RefPtr
 <
 widget
@@ -171,6 +174,10 @@ aMaxTextureSize
 mUseANGLE
 (
 aUseANGLE
+)
+mUseDComp
+(
+aUseDComp
 )
 mBridge
 (
@@ -273,6 +280,16 @@ compositor
 -
 >
 UseANGLE
+(
+)
+;
+*
+mUseDComp
+=
+compositor
+-
+>
+UseDComp
 (
 )
 ;
@@ -489,6 +506,10 @@ mMaxTextureSize
 bool
 *
 mUseANGLE
+;
+bool
+*
+mUseDComp
 ;
 layers
 :
@@ -1216,6 +1237,11 @@ useANGLE
 =
 false
 ;
+bool
+useDComp
+=
+false
+;
 layers
 :
 :
@@ -1251,6 +1277,8 @@ aBridge
 maxTextureSize
 &
 useANGLE
+&
+useDComp
 std
 :
 :
@@ -1314,6 +1342,7 @@ docHandle
 aWindowId
 maxTextureSize
 useANGLE
+useDComp
 syncHandle
 )
 )
@@ -1363,6 +1392,7 @@ docHandle
 mId
 mMaxTextureSize
 mUseANGLE
+mUseDComp
 mSyncHandle
 )
 ;
@@ -1454,6 +1484,7 @@ newDoc
 mId
 mMaxTextureSize
 mUseANGLE
+mUseDComp
 mSyncHandle
 )
 )
