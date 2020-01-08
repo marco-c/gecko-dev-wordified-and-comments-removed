@@ -1035,6 +1035,13 @@ a
 particular
 index
 .
+Returns
+non
+-
+null
+on
+success
+.
 *
 /
 nsISHTransaction
