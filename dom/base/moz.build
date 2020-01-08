@@ -830,11 +830,6 @@ Comment
 h
 '
 '
-ContentBlockingLog
-.
-h
-'
-'
 ContentFrameMessageManager
 .
 h
@@ -1161,6 +1156,11 @@ h
 '
 '
 StructuredCloneTags
+.
+h
+'
+'
+StructuredCloneTester
 .
 h
 '
@@ -1923,6 +1923,11 @@ cpp
 '
 '
 StructuredCloneHolder
+.
+cpp
+'
+'
+StructuredCloneTester
 .
 cpp
 '
