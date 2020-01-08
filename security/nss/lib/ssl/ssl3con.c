@@ -20876,6 +20876,8 @@ isServer
 ;
 sid
 =
+ssl_ReferenceSID
+(
 ss
 -
 >
@@ -20884,6 +20886,7 @@ sec
 ci
 .
 sid
+)
 ;
 SSL_TRC
 (
@@ -21489,21 +21492,6 @@ ssl_ReleaseSpecWriteLock
 ss
 )
 ;
-if
-(
-ss
--
->
-sec
-.
-ci
-.
-sid
-!
-=
-NULL
-)
-{
 ssl_FreeSID
 (
 ss
@@ -21516,7 +21504,6 @@ ci
 sid
 )
 ;
-}
 ss
 -
 >

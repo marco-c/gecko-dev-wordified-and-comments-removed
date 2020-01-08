@@ -2898,13 +2898,6 @@ ss
 -
 >
 firstHsDone
-&
-&
-!
-ss
--
->
-recvdCloseNotify
 )
 {
 if
@@ -3030,13 +3023,6 @@ ss
 -
 >
 firstHsDone
-&
-&
-!
-ss
--
->
-recvdCloseNotify
 )
 {
 (

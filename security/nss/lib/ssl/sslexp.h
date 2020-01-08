@@ -396,6 +396,9 @@ alpnSelectionLen
 PRUint32
 maxEarlyDataSize
 ;
+PRTime
+expirationTime
+;
 }
 SSLResumptionTokenInfo
 ;
