@@ -4496,6 +4496,16 @@ into
 )
 )
 ;
+if
+shorthand
+.
+is_legacy_shorthand
+(
+)
+{
+continue
+;
+}
 let
 mut
 current_longhands
