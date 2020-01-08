@@ -225,6 +225,9 @@ RG8
 RGBAI32
 =
 6
+RGBA8
+=
+7
 Sentinel
 }
 ;
