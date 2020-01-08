@@ -7450,6 +7450,8 @@ check
 InterpreterFrame
 *
 fp
+int
+argIndex
 )
 {
 if
@@ -7464,6 +7466,7 @@ fp
 environmentChain
 (
 )
+argIndex
 )
 ;
 }
@@ -7475,6 +7478,8 @@ check
 (
 AbstractFramePtr
 frame
+int
+argIndex
 )
 {
 if
@@ -7488,6 +7493,7 @@ frame
 environmentChain
 (
 )
+argIndex
 )
 ;
 }
