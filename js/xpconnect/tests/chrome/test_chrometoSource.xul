@@ -724,13 +724,6 @@ js
 target
 :
 ns
-charset
-:
-"
-UTF
--
-8
-"
 ignoreCache
 :
 true
