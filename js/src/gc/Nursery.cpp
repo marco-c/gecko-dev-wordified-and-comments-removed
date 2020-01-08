@@ -4550,6 +4550,17 @@ JS_TELEMETRY_GC_PRETENURE_COUNT
 pretenureCount
 )
 ;
+rt
+-
+>
+addTelemetry
+(
+JS_TELEMETRY_GC_NURSERY_PROMOTION_RATE
+promotionRate
+*
+100
+)
+;
 stats
 (
 )
