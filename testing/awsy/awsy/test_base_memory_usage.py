@@ -305,6 +305,23 @@ _iterations
 =
 1
         
+process_count
+=
+self
+.
+marionette
+.
+get_pref
+(
+'
+dom
+.
+ipc
+.
+processCount
+'
+)
+        
 self
 .
 _urls
@@ -317,7 +334,7 @@ blank
 '
 ]
 *
-4
+process_count
         
 self
 .
@@ -341,6 +358,10 @@ perTabPause
 %
 d
 settleWaitTime
+%
+d
+content
+processes
 "
                          
 %
@@ -357,6 +378,7 @@ _perTabPause
 self
 .
 _settleWaitTime
+process_count
 )
 )
         
