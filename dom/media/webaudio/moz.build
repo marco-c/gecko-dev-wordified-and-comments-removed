@@ -510,6 +510,11 @@ AudioScheduledSourceNode
 cpp
 '
 '
+AudioWorkletImpl
+.
+cpp
+'
+'
 AudioWorkletNode
 .
 cpp
