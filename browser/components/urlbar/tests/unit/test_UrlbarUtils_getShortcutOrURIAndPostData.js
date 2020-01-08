@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 getPostDataString
 (
@@ -12,7 +17,7 @@ aIS
 return
 null
 ;
-var
+let
 sis
 =
 Cc
@@ -42,7 +47,7 @@ init
 aIS
 )
 ;
-var
+let
 dataLines
 =
 sis
@@ -131,7 +136,11 @@ this
 .
 uri
 =
-makeURI
+Services
+.
+io
+.
+newURI
 (
 aURL
 )
@@ -957,6 +966,8 @@ let
 returnedData
 =
 await
+UrlbarUtils
+.
 getShortcutOrURIAndPostData
 (
 query
@@ -972,7 +983,9 @@ url
 |
 query
 ;
-is
+Assert
+.
+equal
 (
 returnedData
 .
@@ -990,7 +1003,9 @@ data
 keyword
 )
 ;
-is
+Assert
+.
+equal
 (
 getPostDataString
 (
@@ -1013,7 +1028,9 @@ data
 keyword
 )
 ;
-is
+Assert
+.
+equal
 (
 returnedData
 .

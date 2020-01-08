@@ -401,6 +401,8 @@ let
 data
 =
 await
+UrlbarUtils
+.
 getShortcutOrURIAndPostData
 (
 "

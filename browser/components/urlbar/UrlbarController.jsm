@@ -722,9 +722,7 @@ url
 }
 try
 {
-this
-.
-window
+UrlbarUtils
 .
 addToUrlbarHistory
 (

@@ -5810,6 +5810,8 @@ postData
 {
 postData
 =
+UrlbarUtils
+.
 getPostDataStream
 (
 action
@@ -6189,6 +6191,8 @@ browser
 .
 lastLocationChange
 ;
+UrlbarUtils
+.
 getShortcutOrURIAndPostData
 (
 url
@@ -6541,9 +6545,12 @@ url
 }
 try
 {
+UrlbarUtils
+.
 addToUrlbarHistory
 (
 url
+window
 )
 ;
 }
