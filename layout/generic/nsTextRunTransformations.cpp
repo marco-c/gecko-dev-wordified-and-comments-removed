@@ -2813,6 +2813,18 @@ j
 break
 ;
 }
+if
+(
+ch
+<
+0x10D0
+|
+|
+ch
+>
+0x10FF
+)
+{
 ch
 =
 ToUpperCase
@@ -2820,6 +2832,7 @@ ToUpperCase
 ch
 )
 ;
+}
 break
 ;
 case
