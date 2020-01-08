@@ -1,0 +1,8 @@
+var
+IPDLGlob
+=
+new
+IPDL
+(
+)
+;

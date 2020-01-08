@@ -99,6 +99,9 @@ glue
 ipdl
 '
 '
+ipdl_new
+'
+'
 testshell
 '
 ]

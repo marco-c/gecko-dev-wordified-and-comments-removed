@@ -247,6 +247,11 @@ FilePickerParent
 h
 '
 '
+IPDL
+.
+h
+'
+'
 MemoryReportRequest
 .
 h
@@ -476,6 +481,11 @@ SOURCES
 [
 '
 ContentChild
+.
+cpp
+'
+'
+IPDL
 .
 cpp
 '

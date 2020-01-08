@@ -264,6 +264,11 @@ InspectorUtils
 webidl
 '
 '
+IPDL
+.
+webidl
+'
+'
 IteratorResult
 .
 webidl
