@@ -519,6 +519,11 @@ PROCESS_TYPE_GPU
 "
 gpu
 "
+PROCESS_TYPE_RDD
+:
+"
+rdd
+"
 CRASH_TYPE_CRASH
 :
 "
@@ -1520,6 +1525,15 @@ processType
 this
 .
 PROCESS_TYPE_GPU
+|
+|
+processType
+=
+=
+=
+this
+.
+PROCESS_TYPE_RDD
 )
 {
 this
