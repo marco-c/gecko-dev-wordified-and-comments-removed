@@ -536,6 +536,11 @@ now
 )
 const
 ;
+void
+MaybeResetEpoch
+(
+)
+;
 }
 ;
 SocketContext
