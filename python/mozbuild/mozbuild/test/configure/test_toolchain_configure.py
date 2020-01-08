@@ -11378,7 +11378,7 @@ bin
 cl
 '
 :
-VS_2017u6
+VS_2017u8
 +
 VS_PLATFORM_X86_64
         
@@ -11406,7 +11406,7 @@ c_compiler
 :
 WindowsToolchainTest
 .
-VS_2017u6_RESULT
+VS_2017u8_RESULT
             
 '
 cxx_compiler
@@ -11414,7 +11414,7 @@ cxx_compiler
 :
 WindowsToolchainTest
 .
-VSXX_2017u6_RESULT
+VSXX_2017u8_RESULT
             
 '
 host_c_compiler
