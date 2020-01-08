@@ -1051,7 +1051,7 @@ JS
 :
 MutableHandle
 <
-js
+JS
 :
 :
 PropertyDescriptor

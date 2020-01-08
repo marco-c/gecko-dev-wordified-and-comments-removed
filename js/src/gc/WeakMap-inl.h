@@ -16,15 +16,6 @@ h
 #
 include
 "
-gc
-/
-Zone
-.
-h
-"
-#
-include
-"
 vm
 /
 JSContext

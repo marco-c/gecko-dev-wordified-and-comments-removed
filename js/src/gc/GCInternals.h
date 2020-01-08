@@ -43,15 +43,6 @@ h
 #
 include
 "
-gc
-/
-Zone
-.
-h
-"
-#
-include
-"
 vm
 /
 HelperThreads
@@ -1132,6 +1123,9 @@ TenuredCell
 *
 AllocateCellInGC
 (
+JS
+:
+:
 Zone
 *
 zone

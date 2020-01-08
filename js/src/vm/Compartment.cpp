@@ -1710,6 +1710,9 @@ JSContext
 cx
 MutableHandle
 <
+JS
+:
+:
 PropertyDescriptor
 >
 desc
