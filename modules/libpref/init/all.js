@@ -950,12 +950,6 @@ hack
 dispatch_non_printable_keys
 "
 "
-medium
-.
-com
-/
-p
-/
 "
 )
 ;
