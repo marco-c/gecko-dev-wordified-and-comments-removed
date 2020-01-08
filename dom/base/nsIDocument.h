@@ -12291,6 +12291,9 @@ mTrackerBlockedReasons
 DocumentTheme
 mDocLWTheme
 ;
+float
+mSavedResolution
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
