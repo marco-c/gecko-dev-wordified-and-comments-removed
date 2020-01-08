@@ -271,6 +271,11 @@ DOMFullscreenChild
 jsm
 '
 '
+FormSubmitChild
+.
+jsm
+'
+'
 LightweightThemeChild
 .
 jsm

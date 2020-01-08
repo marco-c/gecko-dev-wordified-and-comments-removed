@@ -955,11 +955,6 @@ Feeds
 jsm
 '
 '
-FormSubmitObserver
-.
-jsm
-'
-'
 FormValidationHandler
 .
 jsm
