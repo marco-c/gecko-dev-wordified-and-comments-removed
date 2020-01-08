@@ -3988,6 +3988,12 @@ aRv
 const
 ;
 void
+ReportAutoplayTelemetry
+(
+)
+const
+;
+void
 AfterMaybeChangeAttr
 (
 int32_t

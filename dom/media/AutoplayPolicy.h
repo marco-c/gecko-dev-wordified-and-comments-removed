@@ -52,6 +52,16 @@ aElement
 ;
 static
 bool
+WouldBeAllowedToPlayIfAutoplayDisabled
+(
+const
+HTMLMediaElement
+&
+aElement
+)
+;
+static
+bool
 IsAudioContextAllowedToPlay
 (
 NotNull
