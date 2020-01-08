@@ -155,7 +155,7 @@ tabClient
 await
 client
 .
-attachTab
+attachTarget
 (
 actor
 )

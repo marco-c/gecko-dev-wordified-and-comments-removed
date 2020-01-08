@@ -419,7 +419,7 @@ state
 .
 dbgClient
 .
-attachTab
+attachTarget
 (
 response
 .
@@ -545,7 +545,7 @@ state
 .
 dbgClient
 .
-attachTab
+attachTarget
 (
 tab
 .
