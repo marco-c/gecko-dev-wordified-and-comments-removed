@@ -2189,6 +2189,7 @@ json
 .
 dumps
 (
+                
 new_contents
 sort_keys
 =
@@ -2196,6 +2197,17 @@ True
 indent
 =
 4
+                
+separators
+=
+(
+'
+'
+'
+:
+'
+)
+            
 )
             
 fh
