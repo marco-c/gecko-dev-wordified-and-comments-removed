@@ -4159,18 +4159,6 @@ SetDelayedProcessMitigations
 "
 )
 ;
-#
-ifndef
-NIGHTLY_BUILD
-mPolicy
--
->
-SetDoNotUseRestrictingSIDs
-(
-)
-;
-#
-else
 AddCachedDirRule
 (
 mPolicy
@@ -4192,8 +4180,6 @@ NS_LITERAL_STRING
 )
 )
 ;
-#
-endif
 if
 (
 aSandboxLevel
