@@ -157,9 +157,11 @@ crashReporter
 .
 annotateCrashReport
 (
-"
+CrashReporter
+.
+annotations
+.
 ShutdownProgress
-"
 "
 event
 -

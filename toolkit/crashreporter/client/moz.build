@@ -109,6 +109,14 @@ UNIFIED_SOURCES
 =
 [
 '
+.
+.
+/
+CrashAnnotations
+.
+cpp
+'
+'
 crashreporter
 .
 cpp
