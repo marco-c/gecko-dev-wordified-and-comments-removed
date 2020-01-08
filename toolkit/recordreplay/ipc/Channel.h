@@ -2135,6 +2135,7 @@ mFd
 Monitor
 mMonitor
 ;
+typedef
 InfallibleVector
 <
 char
@@ -2147,6 +2148,10 @@ MemoryKind
 Generic
 >
 >
+MessageBuffer
+;
+MessageBuffer
+*
 mMessageBuffer
 ;
 size_t
