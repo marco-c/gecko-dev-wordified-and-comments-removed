@@ -16691,6 +16691,15 @@ gBrowser
 selectedBrowser
 )
 ;
+PanelMultiView
+.
+hidePopup
+(
+gIdentityHandler
+.
+_identityPopup
+)
+;
 let
 handlingUserInput
 =
