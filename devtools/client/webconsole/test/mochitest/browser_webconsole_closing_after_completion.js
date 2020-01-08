@@ -69,7 +69,7 @@ openConsole
 )
 ;
 await
-jstermSetValueAndComplete
+setInputValueForAutocompletion
 (
 hud
 .
