@@ -77,7 +77,7 @@ filter
 .
 dbcc_classguid
 =
-GUID_DEVINTERFACE_MOUSE
+GUID_DEVINTERFACE_HID
 ;
 return
 RegisterDeviceNotification
