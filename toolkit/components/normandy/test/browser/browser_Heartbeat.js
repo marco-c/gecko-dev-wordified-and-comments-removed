@@ -528,7 +528,6 @@ new
 Heartbeat
 (
 targetWindow
-sandboxManager
 {
 testing
 :
@@ -925,7 +924,6 @@ new
 Heartbeat
 (
 targetWindow
-sandboxManager
 {
 testing
 :
@@ -1263,7 +1261,6 @@ new
 Heartbeat
 (
 targetWindow
-sandboxManager
 {
 testing
 :
