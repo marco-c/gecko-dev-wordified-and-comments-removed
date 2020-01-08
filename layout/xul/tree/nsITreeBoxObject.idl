@@ -103,12 +103,6 @@ idl
 interface
 nsITreeView
 ;
-interface
-nsITreeSelection
-;
-interface
-nsIScriptableRegion
-;
 webidl
 Element
 ;
