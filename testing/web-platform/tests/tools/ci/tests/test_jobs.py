@@ -142,6 +142,10 @@ set
 "
 resources_unittest
 "
+                                                                              
+"
+wptrunner_infrastructure
+"
 ]
 )
     
