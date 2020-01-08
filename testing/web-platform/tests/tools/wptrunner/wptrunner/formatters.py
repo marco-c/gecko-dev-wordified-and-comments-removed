@@ -267,7 +267,7 @@ in
 the
 format
 that
-wpreport
+wptreport
 expects
 .
 "
