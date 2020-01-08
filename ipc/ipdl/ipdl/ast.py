@@ -1751,6 +1751,12 @@ self
 nullable
 =
 0
+        
+self
+.
+uniqueptr
+=
+0
     
 def
 basename
