@@ -2245,7 +2245,7 @@ panel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panel
@@ -2537,7 +2537,7 @@ panel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panel

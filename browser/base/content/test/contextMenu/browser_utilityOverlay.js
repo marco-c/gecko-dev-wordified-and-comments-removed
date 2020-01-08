@@ -126,7 +126,7 @@ key
 =
 document
 .
-createElement
+createXULElement
 (
 "
 key
@@ -213,7 +213,7 @@ key
 =
 document
 .
-createElement
+createXULElement
 (
 "
 key
@@ -292,7 +292,7 @@ key
 =
 document
 .
-createElement
+createXULElement
 (
 "
 key
@@ -367,7 +367,7 @@ key
 =
 document
 .
-createElement
+createXULElement
 (
 "
 key

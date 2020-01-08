@@ -109,7 +109,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -133,7 +133,7 @@ container
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -153,7 +153,7 @@ box
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -185,7 +185,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

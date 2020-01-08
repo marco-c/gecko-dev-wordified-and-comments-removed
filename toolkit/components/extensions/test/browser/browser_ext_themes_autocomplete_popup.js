@@ -1643,7 +1643,7 @@ span
 =
 document
 .
-createElement
+createXULElement
 (
 "
 span

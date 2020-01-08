@@ -67,7 +67,7 @@ toolbar
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbar
@@ -256,7 +256,7 @@ toolbar
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbar

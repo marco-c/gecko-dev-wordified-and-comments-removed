@@ -419,7 +419,7 @@ radiogroup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 radiogroup
@@ -466,7 +466,7 @@ iconSwatch
 =
 document
 .
-createElement
+createXULElement
 (
 "
 radio
@@ -557,7 +557,7 @@ iconElement
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -617,7 +617,7 @@ radiogroup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 radiogroup
@@ -661,7 +661,7 @@ colorSwatch
 =
 document
 .
-createElement
+createXULElement
 (
 "
 radio
@@ -752,7 +752,7 @@ iconElement
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox

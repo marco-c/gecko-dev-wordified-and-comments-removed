@@ -156,7 +156,7 @@ menuitem
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -774,7 +774,7 @@ separator
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuseparator

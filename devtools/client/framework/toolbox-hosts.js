@@ -215,7 +215,7 @@ _splitter
 =
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 splitter
@@ -260,7 +260,7 @@ frame
 =
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 iframe
@@ -667,7 +667,7 @@ _splitter
 =
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 splitter
@@ -698,7 +698,7 @@ frame
 =
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 iframe

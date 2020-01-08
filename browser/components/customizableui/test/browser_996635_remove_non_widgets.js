@@ -30,7 +30,7 @@ btn
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

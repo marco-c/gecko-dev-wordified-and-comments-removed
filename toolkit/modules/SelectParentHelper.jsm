@@ -1708,7 +1708,7 @@ element
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 isOptGroup
 ?
@@ -2244,7 +2244,7 @@ element
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 textbox

@@ -33,7 +33,7 @@ skippedItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

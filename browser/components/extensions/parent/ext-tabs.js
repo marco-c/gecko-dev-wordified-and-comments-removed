@@ -327,7 +327,7 @@ image
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 image

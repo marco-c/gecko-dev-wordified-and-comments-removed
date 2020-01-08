@@ -255,7 +255,7 @@ image
 =
 document
 .
-createElement
+createXULElement
 (
 "
 image
@@ -289,7 +289,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

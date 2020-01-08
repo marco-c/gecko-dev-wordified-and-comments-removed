@@ -70,7 +70,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -82,7 +82,7 @@ top
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -113,7 +113,7 @@ bottom
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -144,7 +144,7 @@ nameLabel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -189,7 +189,7 @@ typeLabel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -214,7 +214,7 @@ urlContainer
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -245,7 +245,7 @@ urlLabel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -322,7 +322,7 @@ subscribeButton
 =
 document
 .
-createElement
+createXULElement
 (
 "
 button

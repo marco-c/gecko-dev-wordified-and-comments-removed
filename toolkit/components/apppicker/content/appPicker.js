@@ -358,7 +358,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -383,7 +383,7 @@ image
 =
 document
 .
-createElement
+createXULElement
 (
 "
 image
@@ -419,7 +419,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

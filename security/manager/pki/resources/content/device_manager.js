@@ -408,7 +408,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treeitem
@@ -420,7 +420,7 @@ row
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treerow
@@ -432,7 +432,7 @@ cell
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treecell
@@ -470,7 +470,7 @@ parent
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treechildren
@@ -490,7 +490,7 @@ child_item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treeitem
@@ -502,7 +502,7 @@ child_row
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treerow
@@ -514,7 +514,7 @@ child_cell
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treecell
@@ -1457,7 +1457,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treeitem
@@ -1469,7 +1469,7 @@ row
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treerow
@@ -1481,7 +1481,7 @@ cell1
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treecell
@@ -1522,7 +1522,7 @@ cell2
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treecell

@@ -184,7 +184,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem

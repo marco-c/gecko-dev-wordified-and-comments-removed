@@ -930,7 +930,7 @@ chromeWindow
 .
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -974,7 +974,7 @@ chromeWindow
 .
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -1225,7 +1225,7 @@ chromeWindow
 .
 document
 .
-createElement
+createXULElement
 (
 "
 spacer
@@ -1293,7 +1293,7 @@ chromeWindow
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label

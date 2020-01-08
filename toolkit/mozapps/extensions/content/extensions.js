@@ -7470,7 +7470,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -8705,7 +8705,7 @@ category
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -16636,7 +16636,7 @@ stack
 =
 document
 .
-createElement
+createXULElement
 (
 "
 stack
@@ -16658,7 +16658,7 @@ browser
 =
 document
 .
-createElement
+createXULElement
 (
 "
 browser

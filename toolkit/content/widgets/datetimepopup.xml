@@ -251,7 +251,7 @@ this
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 iframe

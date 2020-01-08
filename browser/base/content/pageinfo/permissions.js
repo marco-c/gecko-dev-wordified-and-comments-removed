@@ -673,7 +673,7 @@ command
 =
 document
 .
-createElement
+createXULElement
 (
 "
 command
@@ -731,7 +731,7 @@ row
 =
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -765,7 +765,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label
@@ -831,7 +831,7 @@ controls
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -867,7 +867,7 @@ checkbox
 =
 document
 .
-createElement
+createXULElement
 (
 "
 checkbox
@@ -941,7 +941,7 @@ spacer
 =
 document
 .
-createElement
+createXULElement
 (
 "
 spacer
@@ -972,7 +972,7 @@ radiogroup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 radiogroup
@@ -1019,7 +1019,7 @@ radio
 =
 document
 .
-createElement
+createXULElement
 (
 "
 radio

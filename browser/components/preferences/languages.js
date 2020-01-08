@@ -549,7 +549,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -822,7 +822,7 @@ listitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -834,7 +834,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

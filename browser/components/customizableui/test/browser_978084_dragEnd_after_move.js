@@ -17,7 +17,7 @@ draggedItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -148,7 +148,7 @@ draggedItem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton

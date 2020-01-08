@@ -51,7 +51,7 @@ sep
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -81,7 +81,7 @@ menu
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menu
@@ -110,7 +110,7 @@ sep
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator

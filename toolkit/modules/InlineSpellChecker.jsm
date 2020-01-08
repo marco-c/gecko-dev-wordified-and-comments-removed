@@ -677,7 +677,7 @@ menu
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -1123,7 +1123,7 @@ menu
 .
 ownerDocument
 .
-createElement
+createXULElement
 (
 "
 menuitem

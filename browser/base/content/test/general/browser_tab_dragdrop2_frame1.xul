@@ -755,7 +755,7 @@ panel
 =
 document
 .
-createElement
+createXULElement
 (
 "
 panel
@@ -787,7 +787,7 @@ button
 =
 document
 .
-createElement
+createXULElement
 (
 "
 button

@@ -242,7 +242,7 @@ text
 =
 document
 .
-createElement
+createXULElement
 (
 "
 textbox
@@ -823,7 +823,7 @@ treeChild1
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treechildren
@@ -866,7 +866,7 @@ treeElem1
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treeitem
@@ -908,7 +908,7 @@ treeRow
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treerow
@@ -920,7 +920,7 @@ treeCell
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treecell

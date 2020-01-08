@@ -201,7 +201,7 @@ newButton
 =
 document
 .
-createElement
+createXULElement
 (
 "
 button

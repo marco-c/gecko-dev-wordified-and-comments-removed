@@ -35,7 +35,7 @@ testBar
 =
 document
 .
-createElement
+createXULElement
 (
 "
 toolbar

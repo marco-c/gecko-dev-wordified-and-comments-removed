@@ -434,7 +434,7 @@ bogusCol
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treecol

@@ -239,7 +239,7 @@ menuItemNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem

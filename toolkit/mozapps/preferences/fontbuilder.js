@@ -185,7 +185,7 @@ popup
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menupopup
@@ -209,7 +209,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -286,7 +286,7 @@ separator
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -312,7 +312,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -400,7 +400,7 @@ separator
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuseparator
@@ -437,7 +437,7 @@ menuitem
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
