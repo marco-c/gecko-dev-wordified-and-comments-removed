@@ -1397,10 +1397,37 @@ is
 None
 :
             
-assert
-not
+if
 flag
+:
+                
+self
+.
+result
+=
+False
+(
+"
+INTERNAL
+-
+ERROR
+"
+"
+self
+.
+_run
+didn
+'
+t
+set
+a
+result
+"
+)
             
+else
+:
+                
 self
 .
 result
@@ -1555,6 +1582,8 @@ else
                 
 message
 =
+str
+(
 getattr
 (
 e
@@ -1563,6 +1592,7 @@ message
 "
 "
 "
+)
 )
                 
 if
