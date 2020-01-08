@@ -148,6 +148,13 @@ helper
 js
 '
 '
+screenshot
+-
+helper
+.
+js
+'
+'
 throttle
 .
 js
