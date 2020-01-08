@@ -159,6 +159,11 @@ LSObject
 .
 cpp
 '
+'
+ReportInternalError
+.
+cpp
+'
 ]
 IPDL_SOURCES
 +
