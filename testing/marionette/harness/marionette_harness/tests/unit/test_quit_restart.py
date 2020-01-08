@@ -1444,25 +1444,6 @@ self
 )
 :
         
-timeout_shutdown
-=
-self
-.
-marionette
-.
-shutdown_timeout
-        
-self
-.
-marionette
-.
-shutdown_timeout
-=
-70
-        
-try
-:
-            
 with
 self
 .
@@ -1478,7 +1459,7 @@ restarting
 "
 )
 :
-                
+            
 self
 .
 marionette
@@ -1501,17 +1482,6 @@ restart
 False
 )
 )
-        
-finally
-:
-            
-self
-.
-marionette
-.
-shutdown_timeout
-=
-timeout_shutdown
     
 unittest
 .
