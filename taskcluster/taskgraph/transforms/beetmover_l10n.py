@@ -137,6 +137,21 @@ locale
 '
 :
 locale
+                
+'
+shipping
+-
+phase
+'
+:
+job
+[
+'
+shipping
+-
+phase
+'
+]
             
 }
             

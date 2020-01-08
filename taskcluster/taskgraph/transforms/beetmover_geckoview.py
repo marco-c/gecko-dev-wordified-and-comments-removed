@@ -66,11 +66,7 @@ util
 .
 scriptworker
 import
-(
-get_phase
-                                         
 get_worker_type_for_scope
-)
 from
 taskgraph
 .
@@ -834,19 +830,13 @@ phase
 '
 :
 job
-.
-get
-(
+[
 '
 shipping
 -
 phase
 '
-get_phase
-(
-config
-)
-)
+]
         
 }
         

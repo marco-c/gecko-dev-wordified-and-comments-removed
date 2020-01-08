@@ -57,8 +57,6 @@ get_beetmover_bucket_scope
                                          
 get_beetmover_action_scope
                                          
-get_phase
-                                         
 get_worker_type_for_scope
 )
 from
@@ -823,7 +821,7 @@ locale
 :
 basestring
     
-Optional
+Required
 (
 '
 shipping
@@ -1312,13 +1310,6 @@ get_beetmover_action_scope
 config
 )
         
-phase
-=
-get_phase
-(
-config
-)
-        
 task
 =
 {
@@ -1399,7 +1390,14 @@ shipping
 phase
 '
 :
+job
+[
+'
+shipping
+-
 phase
+'
+]
         
 }
         
