@@ -7411,9 +7411,6 @@ class
 accessibility
 -
 indicator
-titlebar
--
-item
 "
 tooltiptext
 =
@@ -7453,9 +7450,6 @@ private
 browsing
 -
 indicator
-titlebar
--
-item
 "
 skipintoolbarset
 =

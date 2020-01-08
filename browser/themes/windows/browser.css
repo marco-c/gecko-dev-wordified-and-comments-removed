@@ -5698,7 +5698,9 @@ TabsToolbar
 .
 titlebar
 -
-item
+buttonbox
+-
+container
 {
 margin
 -
