@@ -3288,6 +3288,12 @@ GetState
 state
 )
 ;
+const
+uint32_t
+oldState
+=
+state
+;
 state
 |
 =
@@ -3302,7 +3308,14 @@ eventSink
 OnSecurityChange
 (
 nullptr
+oldState
 state
+doc
+-
+>
+GetContentBlockingLog
+(
+)
 )
 ;
 return
