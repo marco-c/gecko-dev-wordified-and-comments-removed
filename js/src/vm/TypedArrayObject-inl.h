@@ -1599,26 +1599,6 @@ return
 true
 ;
 }
-#
-if
-defined
-(
-__arm__
-)
-&
-&
-MOZ_IS_GCC
-#
-define
-JS_VOLATILE_ARM
-volatile
-#
-else
-#
-define
-JS_VOLATILE_ARM
-#
-endif
 SharedMem
 <
 void
@@ -1653,7 +1633,6 @@ Int8
 {
 SharedMem
 <
-JS_VOLATILE_ARM
 int8_t
 *
 >
@@ -1663,7 +1642,6 @@ data
 .
 cast
 <
-JS_VOLATILE_ARM
 int8_t
 *
 >
@@ -1730,7 +1708,6 @@ Uint8Clamped
 {
 SharedMem
 <
-JS_VOLATILE_ARM
 uint8_t
 *
 >
@@ -1740,7 +1717,6 @@ data
 .
 cast
 <
-JS_VOLATILE_ARM
 uint8_t
 *
 >
@@ -1801,7 +1777,6 @@ Int16
 {
 SharedMem
 <
-JS_VOLATILE_ARM
 int16_t
 *
 >
@@ -1811,7 +1786,6 @@ data
 .
 cast
 <
-JS_VOLATILE_ARM
 int16_t
 *
 >
@@ -1872,7 +1846,6 @@ Uint16
 {
 SharedMem
 <
-JS_VOLATILE_ARM
 uint16_t
 *
 >
@@ -1882,7 +1855,6 @@ data
 .
 cast
 <
-JS_VOLATILE_ARM
 uint16_t
 *
 >
@@ -1943,7 +1915,6 @@ Int32
 {
 SharedMem
 <
-JS_VOLATILE_ARM
 int32_t
 *
 >
@@ -1953,7 +1924,6 @@ data
 .
 cast
 <
-JS_VOLATILE_ARM
 int32_t
 *
 >
@@ -2014,7 +1984,6 @@ Uint32
 {
 SharedMem
 <
-JS_VOLATILE_ARM
 uint32_t
 *
 >
@@ -2024,7 +1993,6 @@ data
 .
 cast
 <
-JS_VOLATILE_ARM
 uint32_t
 *
 >
@@ -2085,7 +2053,6 @@ Float32
 {
 SharedMem
 <
-JS_VOLATILE_ARM
 float
 *
 >
@@ -2095,7 +2062,6 @@ data
 .
 cast
 <
-JS_VOLATILE_ARM
 float
 *
 >
@@ -2156,7 +2122,6 @@ Float64
 {
 SharedMem
 <
-JS_VOLATILE_ARM
 double
 *
 >
@@ -2166,7 +2131,6 @@ data
 .
 cast
 <
-JS_VOLATILE_ARM
 double
 *
 >
@@ -2235,9 +2199,6 @@ type
 )
 ;
 }
-#
-undef
-JS_VOLATILE_ARM
 return
 true
 ;
