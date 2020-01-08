@@ -7658,8 +7658,6 @@ format
 !
 (
 "
-\
-n
 if
 (
 length
@@ -7667,8 +7665,8 @@ length
 =
 0
 )
-\
-n
+{
+{
 return
 raiseEmpty
 (
@@ -7681,8 +7679,8 @@ kind
 "
 )
 ;
-\
-n
+}
+}
 "
 kind
 =

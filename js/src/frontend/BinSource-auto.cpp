@@ -8996,11 +8996,13 @@ atom
 )
 )
 )
+{
 return
 raiseOOM
 (
 )
 ;
+}
 if
 (
 parseContext_
@@ -9010,6 +9012,7 @@ isFunctionBox
 (
 )
 )
+{
 parseContext_
 -
 >
@@ -9022,6 +9025,7 @@ length
 +
 +
 ;
+}
 break
 ;
 case
@@ -15048,6 +15052,7 @@ length
 (
 )
 )
+{
 return
 raiseError
 (
@@ -15061,6 +15066,7 @@ range
 "
 )
 ;
+}
 if
 (
 positionalParams
@@ -15072,6 +15078,7 @@ get
 index
 ]
 )
+{
 return
 raiseError
 (
@@ -15087,6 +15094,7 @@ index
 "
 )
 ;
+}
 positionalParams
 .
 get
@@ -16511,6 +16519,7 @@ IsIdentifier
 name
 )
 )
+{
 return
 raiseError
 (
@@ -16520,6 +16529,7 @@ identifier
 "
 )
 ;
+}
 BINJS_TRY
 (
 usedNames_
@@ -18125,6 +18135,7 @@ IsIdentifier
 name
 )
 )
+{
 return
 raiseError
 (
@@ -18134,6 +18145,7 @@ identifier
 "
 )
 ;
+}
 BINJS_TRY_DECL
 (
 result
@@ -19143,6 +19155,7 @@ IsIdentifier
 label
 )
 )
+{
 return
 raiseError
 (
@@ -19152,6 +19165,7 @@ identifier
 "
 )
 ;
+}
 auto
 validity
 =
@@ -19548,11 +19562,13 @@ hasDirectEval
 (
 )
 )
+{
 return
 raiseMissingDirectEvalInAssertedScope
 (
 )
 ;
+}
 op
 =
 parseContext_
@@ -21902,6 +21918,7 @@ IsIdentifier
 label
 )
 )
+{
 return
 raiseError
 (
@@ -21916,6 +21933,7 @@ identifier
 "
 )
 ;
+}
 auto
 validity
 =
@@ -22254,6 +22272,7 @@ isUsableAsObjectPropertyName
 name
 )
 )
+{
 return
 raiseError
 (
@@ -22264,6 +22283,7 @@ kind
 "
 )
 ;
+}
 BINJS_TRY_DECL
 (
 result
@@ -29648,6 +29668,7 @@ IsIdentifier
 name
 )
 )
+{
 return
 raiseError
 (
@@ -29657,6 +29678,7 @@ identifier
 "
 )
 ;
+}
 BINJS_TRY
 (
 usedNames_
@@ -30653,6 +30675,7 @@ IsIdentifier
 label
 )
 )
+{
 return
 raiseError
 (
@@ -30662,6 +30685,7 @@ identifier
 "
 )
 ;
+}
 ParseContext
 :
 :
@@ -32841,6 +32865,7 @@ isIndex
 index
 )
 )
+{
 BINJS_TRY_VAR
 (
 result
@@ -32863,7 +32888,9 @@ offset
 )
 )
 ;
+}
 else
+{
 BINJS_TRY_VAR
 (
 result
@@ -32882,6 +32909,7 @@ start
 )
 )
 ;
+}
 return
 result
 ;
@@ -33149,6 +33177,7 @@ reflags
 GlobalFlag
 )
 )
+{
 reflags
 =
 RegExpFlag
@@ -33158,6 +33187,7 @@ reflags
 GlobalFlag
 )
 ;
+}
 else
 if
 (
@@ -33176,6 +33206,7 @@ reflags
 IgnoreCaseFlag
 )
 )
+{
 reflags
 =
 RegExpFlag
@@ -33185,6 +33216,7 @@ reflags
 IgnoreCaseFlag
 )
 ;
+}
 else
 if
 (
@@ -33203,6 +33235,7 @@ reflags
 MultilineFlag
 )
 )
+{
 reflags
 =
 RegExpFlag
@@ -33212,6 +33245,7 @@ reflags
 MultilineFlag
 )
 ;
+}
 else
 if
 (
@@ -33230,6 +33264,7 @@ reflags
 StickyFlag
 )
 )
+{
 reflags
 =
 RegExpFlag
@@ -33239,6 +33274,7 @@ reflags
 StickyFlag
 )
 ;
+}
 else
 if
 (
@@ -33257,6 +33293,7 @@ reflags
 UnicodeFlag
 )
 )
+{
 reflags
 =
 RegExpFlag
@@ -33266,7 +33303,9 @@ reflags
 UnicodeFlag
 )
 ;
+}
 else
+{
 return
 raiseError
 (
@@ -33277,6 +33316,7 @@ flags
 "
 )
 ;
+}
 }
 Rooted
 <
@@ -35725,6 +35765,7 @@ isUsableAsObjectPropertyName
 name
 )
 )
+{
 BINJS_TRY_VAR
 (
 name
@@ -35748,6 +35789,7 @@ start
 )
 )
 ;
+}
 BINJS_TRY_DECL
 (
 result
@@ -38148,6 +38190,7 @@ isFunctionBox
 (
 )
 )
+{
 parseContext_
 -
 >
@@ -38160,6 +38203,7 @@ usesThis
 =
 true
 ;
+}
 TokenPos
 pos
 =
@@ -39395,6 +39439,7 @@ ParseNodeKind
 Name
 )
 )
+{
 pnk
 =
 ParseNodeKind
@@ -39402,7 +39447,9 @@ ParseNodeKind
 :
 TypeOfName
 ;
+}
 else
+{
 pnk
 =
 ParseNodeKind
@@ -39410,6 +39457,7 @@ ParseNodeKind
 :
 TypeOfExpr
 ;
+}
 break
 ;
 }
@@ -40063,6 +40111,7 @@ empty
 (
 )
 )
+{
 return
 raiseEmpty
 (
@@ -40071,6 +40120,7 @@ VariableDeclaration
 "
 )
 ;
+}
 ParseNodeKind
 pnk
 ;
@@ -40442,6 +40492,7 @@ if
 (
 init
 )
+{
 result
 -
 >
@@ -40457,6 +40508,7 @@ setInitializer
 init
 )
 ;
+}
 }
 else
 {
@@ -42847,6 +42899,7 @@ i
 +
 +
 )
+{
 positionalParams
 .
 get
@@ -42858,6 +42911,7 @@ i
 =
 nullptr
 ;
+}
 for
 (
 uint32_t
@@ -43614,6 +43668,7 @@ if
 (
 item
 )
+{
 factory_
 .
 addArrayElement
@@ -43622,7 +43677,9 @@ result
 item
 )
 ;
+}
 else
+{
 BINJS_TRY
 (
 factory_
@@ -43640,6 +43697,7 @@ start
 )
 )
 ;
+}
 }
 MOZ_TRY
 (
