@@ -826,10 +826,10 @@ vp
 define
 JS_FOR_EACH_UNIQUE_SCALAR_TYPE_REPR_CTYPE
 (
-macro_
+MACRO_
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -839,7 +839,7 @@ int8_t
 int8
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -849,7 +849,7 @@ uint8_t
 uint8
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -859,7 +859,7 @@ int16_t
 int16
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -869,7 +869,7 @@ uint16_t
 uint16
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -879,7 +879,7 @@ int32_t
 int32
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -889,7 +889,7 @@ uint32_t
 uint32
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -899,7 +899,7 @@ float
 float32
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -912,15 +912,15 @@ float64
 define
 JS_FOR_EACH_SCALAR_TYPE_REPR
 (
-macro_
+MACRO_
 )
 \
 JS_FOR_EACH_UNIQUE_SCALAR_TYPE_REPR_CTYPE
 (
-macro_
+MACRO_
 )
 \
-macro_
+MACRO_
 (
 Scalar
 :
@@ -1087,10 +1087,10 @@ vp
 define
 JS_FOR_EACH_REFERENCE_TYPE_REPR
 (
-macro_
+MACRO_
 )
 \
-macro_
+MACRO_
 (
 ReferenceType
 :
@@ -1100,7 +1100,7 @@ GCPtrValue
 Any
 )
 \
-macro_
+MACRO_
 (
 ReferenceType
 :
@@ -1110,7 +1110,7 @@ GCPtrObject
 Object
 )
 \
-macro_
+MACRO_
 (
 ReferenceType
 :

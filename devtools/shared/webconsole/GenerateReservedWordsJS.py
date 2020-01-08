@@ -25,7 +25,7 @@ r
 \
 s
 *
-macro
+MACRO
 \
 (
 (

@@ -15,11 +15,11 @@ h
 define
 FOR_EACH_TOKEN_KIND_WITH_RANGE
 (
-macro
-range
+MACRO
+RANGE
 )
 \
-macro
+MACRO
 (
 Eof
 "
@@ -41,7 +41,7 @@ peekTokenSameLine
 *
 /
 \
-macro
+MACRO
 (
 Eol
 "
@@ -51,7 +51,7 @@ terminator
 )
 \
 \
-macro
+MACRO
 (
 Semi
 "
@@ -61,7 +61,7 @@ Semi
 "
 )
 \
-macro
+MACRO
 (
 Comma
 "
@@ -70,7 +70,7 @@ Comma
 "
 )
 \
-macro
+MACRO
 (
 Hook
 "
@@ -85,7 +85,7 @@ conditional
 *
 /
 \
-macro
+MACRO
 (
 Colon
 "
@@ -100,7 +100,7 @@ conditional
 *
 /
 \
-macro
+MACRO
 (
 Inc
 "
@@ -116,7 +116,7 @@ increment
 *
 /
 \
-macro
+MACRO
 (
 Dec
 "
@@ -132,7 +132,7 @@ decrement
 *
 /
 \
-macro
+MACRO
 (
 Dot
 "
@@ -148,7 +148,7 @@ operator
 *
 /
 \
-macro
+MACRO
 (
 TripleDot
 "
@@ -169,7 +169,7 @@ operator
 *
 /
 \
-macro
+MACRO
 (
 LeftBracket
 "
@@ -179,7 +179,7 @@ LeftBracket
 "
 )
 \
-macro
+MACRO
 (
 RightBracket
 "
@@ -189,7 +189,7 @@ RightBracket
 "
 )
 \
-macro
+MACRO
 (
 LeftCurly
 "
@@ -199,7 +199,7 @@ LeftCurly
 "
 )
 \
-macro
+MACRO
 (
 RightCurly
 "
@@ -209,7 +209,7 @@ RightCurly
 "
 )
 \
-macro
+MACRO
 (
 LeftParen
 "
@@ -219,7 +219,7 @@ LeftParen
 "
 )
 \
-macro
+MACRO
 (
 RightParen
 "
@@ -229,7 +229,7 @@ RightParen
 "
 )
 \
-macro
+MACRO
 (
 Name
 "
@@ -237,7 +237,7 @@ identifier
 "
 )
 \
-macro
+MACRO
 (
 PrivateName
 "
@@ -246,7 +246,7 @@ identifier
 "
 )
 \
-macro
+MACRO
 (
 Number
 "
@@ -255,7 +255,7 @@ literal
 "
 )
 \
-macro
+MACRO
 (
 String
 "
@@ -266,7 +266,7 @@ literal
 \
 IF_BIGINT
 (
-macro
+MACRO
 (
 BigInt
 "
@@ -288,7 +288,7 @@ substitutions
 *
 /
 \
-macro
+MACRO
 (
 TemplateHead
 "
@@ -307,7 +307,7 @@ substitutions
 *
 /
 \
-macro
+MACRO
 (
 NoSubsTemplate
 "
@@ -317,7 +317,7 @@ literal
 )
 \
 \
-macro
+MACRO
 (
 RegExp
 "
@@ -327,7 +327,7 @@ literal
 "
 )
 \
-macro
+MACRO
 (
 True
 "
@@ -339,13 +339,13 @@ true
 "
 )
 \
-range
+RANGE
 (
 ReservedWordLiteralFirst
 True
 )
 \
-macro
+MACRO
 (
 False
 "
@@ -357,7 +357,7 @@ false
 "
 )
 \
-macro
+MACRO
 (
 Null
 "
@@ -366,13 +366,13 @@ literal
 "
 )
 \
-range
+RANGE
 (
 ReservedWordLiteralLast
 Null
 )
 \
-macro
+MACRO
 (
 This
 "
@@ -383,13 +383,13 @@ this
 "
 )
 \
-range
+RANGE
 (
 KeywordFirst
 This
 )
 \
-macro
+MACRO
 (
 Function
 "
@@ -400,7 +400,7 @@ function
 "
 )
 \
-macro
+MACRO
 (
 If
 "
@@ -411,7 +411,7 @@ if
 "
 )
 \
-macro
+MACRO
 (
 Else
 "
@@ -422,7 +422,7 @@ else
 "
 )
 \
-macro
+MACRO
 (
 Switch
 "
@@ -433,7 +433,7 @@ switch
 "
 )
 \
-macro
+MACRO
 (
 Case
 "
@@ -444,7 +444,7 @@ case
 "
 )
 \
-macro
+MACRO
 (
 Default
 "
@@ -455,7 +455,7 @@ default
 "
 )
 \
-macro
+MACRO
 (
 While
 "
@@ -466,7 +466,7 @@ while
 "
 )
 \
-macro
+MACRO
 (
 Do
 "
@@ -477,7 +477,7 @@ do
 "
 )
 \
-macro
+MACRO
 (
 For
 "
@@ -488,7 +488,7 @@ for
 "
 )
 \
-macro
+MACRO
 (
 Break
 "
@@ -499,7 +499,7 @@ break
 "
 )
 \
-macro
+MACRO
 (
 Continue
 "
@@ -510,7 +510,7 @@ continue
 "
 )
 \
-macro
+MACRO
 (
 Var
 "
@@ -521,7 +521,7 @@ var
 "
 )
 \
-macro
+MACRO
 (
 Const
 "
@@ -532,7 +532,7 @@ const
 "
 )
 \
-macro
+MACRO
 (
 With
 "
@@ -543,7 +543,7 @@ with
 "
 )
 \
-macro
+MACRO
 (
 Return
 "
@@ -554,7 +554,7 @@ return
 "
 )
 \
-macro
+MACRO
 (
 New
 "
@@ -565,7 +565,7 @@ new
 "
 )
 \
-macro
+MACRO
 (
 Delete
 "
@@ -576,7 +576,7 @@ delete
 "
 )
 \
-macro
+MACRO
 (
 Try
 "
@@ -587,7 +587,7 @@ try
 "
 )
 \
-macro
+MACRO
 (
 Catch
 "
@@ -598,7 +598,7 @@ catch
 "
 )
 \
-macro
+MACRO
 (
 Finally
 "
@@ -609,7 +609,7 @@ finally
 "
 )
 \
-macro
+MACRO
 (
 Throw
 "
@@ -620,7 +620,7 @@ throw
 "
 )
 \
-macro
+MACRO
 (
 Debugger
 "
@@ -631,7 +631,7 @@ debugger
 "
 )
 \
-macro
+MACRO
 (
 Export
 "
@@ -642,7 +642,7 @@ export
 "
 )
 \
-macro
+MACRO
 (
 Import
 "
@@ -653,7 +653,7 @@ import
 "
 )
 \
-macro
+MACRO
 (
 Class
 "
@@ -664,7 +664,7 @@ class
 "
 )
 \
-macro
+MACRO
 (
 Extends
 "
@@ -675,7 +675,7 @@ extends
 "
 )
 \
-macro
+MACRO
 (
 Super
 "
@@ -686,7 +686,7 @@ super
 "
 )
 \
-range
+RANGE
 (
 KeywordLast
 Super
@@ -700,7 +700,7 @@ keywords
 *
 /
 \
-macro
+MACRO
 (
 As
 "
@@ -710,13 +710,13 @@ as
 "
 )
 \
-range
+RANGE
 (
 ContextualKeywordFirst
 As
 )
 \
-macro
+MACRO
 (
 Async
 "
@@ -726,7 +726,7 @@ async
 "
 )
 \
-macro
+MACRO
 (
 Await
 "
@@ -736,7 +736,7 @@ await
 "
 )
 \
-macro
+MACRO
 (
 Each
 "
@@ -746,7 +746,7 @@ each
 "
 )
 \
-macro
+MACRO
 (
 From
 "
@@ -756,7 +756,7 @@ from
 "
 )
 \
-macro
+MACRO
 (
 Get
 "
@@ -766,7 +766,7 @@ get
 "
 )
 \
-macro
+MACRO
 (
 Let
 "
@@ -776,7 +776,7 @@ let
 "
 )
 \
-macro
+MACRO
 (
 Meta
 "
@@ -786,7 +786,7 @@ meta
 "
 )
 \
-macro
+MACRO
 (
 Of
 "
@@ -796,7 +796,7 @@ of
 "
 )
 \
-macro
+MACRO
 (
 Set
 "
@@ -806,7 +806,7 @@ set
 "
 )
 \
-macro
+MACRO
 (
 Static
 "
@@ -816,7 +816,7 @@ static
 "
 )
 \
-macro
+MACRO
 (
 Target
 "
@@ -826,7 +826,7 @@ target
 "
 )
 \
-macro
+MACRO
 (
 Yield
 "
@@ -836,7 +836,7 @@ yield
 "
 )
 \
-range
+RANGE
 (
 ContextualKeywordLast
 Yield
@@ -851,7 +851,7 @@ words
 *
 /
 \
-macro
+MACRO
 (
 Enum
 "
@@ -863,13 +863,13 @@ enum
 "
 )
 \
-range
+RANGE
 (
 FutureReservedKeywordFirst
 Enum
 )
 \
-range
+RANGE
 (
 FutureReservedKeywordLast
 Enum
@@ -886,7 +886,7 @@ mode
 *
 /
 \
-macro
+MACRO
 (
 Implements
 "
@@ -898,13 +898,13 @@ implements
 "
 )
 \
-range
+RANGE
 (
 StrictReservedKeywordFirst
 Implements
 )
 \
-macro
+MACRO
 (
 Interface
 "
@@ -916,7 +916,7 @@ interface
 "
 )
 \
-macro
+MACRO
 (
 Package
 "
@@ -928,7 +928,7 @@ package
 "
 )
 \
-macro
+MACRO
 (
 Private
 "
@@ -940,7 +940,7 @@ private
 "
 )
 \
-macro
+MACRO
 (
 Protected
 "
@@ -952,7 +952,7 @@ protected
 "
 )
 \
-macro
+MACRO
 (
 Public
 "
@@ -964,7 +964,7 @@ public
 "
 )
 \
-range
+RANGE
 (
 StrictReservedKeywordLast
 Public
@@ -1033,7 +1033,7 @@ h
 *
 /
 \
-macro
+MACRO
 (
 Pipeline
 "
@@ -1044,13 +1044,13 @@ Pipeline
 "
 )
 \
-range
+RANGE
 (
 BinOpFirst
 Pipeline
 )
 \
-macro
+MACRO
 (
 Or
 "
@@ -1067,7 +1067,7 @@ or
 *
 /
 \
-macro
+MACRO
 (
 And
 "
@@ -1084,7 +1084,7 @@ and
 *
 /
 \
-macro
+MACRO
 (
 BitOr
 "
@@ -1101,7 +1101,7 @@ or
 *
 /
 \
-macro
+MACRO
 (
 BitXor
 "
@@ -1118,7 +1118,7 @@ xor
 *
 /
 \
-macro
+MACRO
 (
 BitAnd
 "
@@ -1147,7 +1147,7 @@ TokenKindIsEquality
 *
 /
 \
-macro
+MACRO
 (
 StrictEq
 "
@@ -1159,13 +1159,13 @@ StrictEq
 "
 )
 \
-range
+RANGE
 (
 EqualityStart
 StrictEq
 )
 \
-macro
+MACRO
 (
 Eq
 "
@@ -1176,7 +1176,7 @@ Eq
 "
 )
 \
-macro
+MACRO
 (
 StrictNe
 "
@@ -1188,7 +1188,7 @@ StrictNe
 "
 )
 \
-macro
+MACRO
 (
 Ne
 "
@@ -1199,7 +1199,7 @@ Ne
 "
 )
 \
-range
+RANGE
 (
 EqualityLast
 Ne
@@ -1216,7 +1216,7 @@ TokenKindIsRelational
 *
 /
 \
-macro
+MACRO
 (
 Lt
 "
@@ -1226,13 +1226,13 @@ Lt
 "
 )
 \
-range
+RANGE
 (
 RelOpStart
 Lt
 )
 \
-macro
+MACRO
 (
 Le
 "
@@ -1243,7 +1243,7 @@ Le
 "
 )
 \
-macro
+MACRO
 (
 Gt
 "
@@ -1253,7 +1253,7 @@ Gt
 "
 )
 \
-macro
+MACRO
 (
 Ge
 "
@@ -1264,14 +1264,14 @@ Ge
 "
 )
 \
-range
+RANGE
 (
 RelOpLast
 Ge
 )
 \
 \
-macro
+MACRO
 (
 InstanceOf
 "
@@ -1282,13 +1282,13 @@ instanceof
 "
 )
 \
-range
+RANGE
 (
 KeywordBinOpFirst
 InstanceOf
 )
 \
-macro
+MACRO
 (
 In
 "
@@ -1299,7 +1299,7 @@ in
 "
 )
 \
-range
+RANGE
 (
 KeywordBinOpLast
 In
@@ -1316,7 +1316,7 @@ TokenKindIsShift
 *
 /
 \
-macro
+MACRO
 (
 Lsh
 "
@@ -1327,13 +1327,13 @@ Lsh
 "
 )
 \
-range
+RANGE
 (
 ShiftOpStart
 Lsh
 )
 \
-macro
+MACRO
 (
 Rsh
 "
@@ -1344,7 +1344,7 @@ Rsh
 "
 )
 \
-macro
+MACRO
 (
 Ursh
 "
@@ -1356,14 +1356,14 @@ Ursh
 "
 )
 \
-range
+RANGE
 (
 ShiftOpLast
 Ursh
 )
 \
 \
-macro
+MACRO
 (
 Add
 "
@@ -1373,7 +1373,7 @@ Add
 "
 )
 \
-macro
+MACRO
 (
 Sub
 "
@@ -1383,7 +1383,7 @@ Sub
 "
 )
 \
-macro
+MACRO
 (
 Mul
 "
@@ -1393,7 +1393,7 @@ Mul
 "
 )
 \
-macro
+MACRO
 (
 Div
 "
@@ -1403,7 +1403,7 @@ Div
 "
 )
 \
-macro
+MACRO
 (
 Mod
 "
@@ -1413,7 +1413,7 @@ Mod
 "
 )
 \
-macro
+MACRO
 (
 Pow
 "
@@ -1424,7 +1424,7 @@ Pow
 "
 )
 \
-range
+RANGE
 (
 BinOpLast
 Pow
@@ -1440,7 +1440,7 @@ tokens
 *
 /
 \
-macro
+MACRO
 (
 TypeOf
 "
@@ -1451,13 +1451,13 @@ typeof
 "
 )
 \
-range
+RANGE
 (
 KeywordUnOpFirst
 TypeOf
 )
 \
-macro
+MACRO
 (
 Void
 "
@@ -1468,13 +1468,13 @@ void
 "
 )
 \
-range
+RANGE
 (
 KeywordUnOpLast
 Void
 )
 \
-macro
+MACRO
 (
 Not
 "
@@ -1484,7 +1484,7 @@ Not
 "
 )
 \
-macro
+MACRO
 (
 BitNot
 "
@@ -1495,7 +1495,7 @@ BitNot
 )
 \
 \
-macro
+MACRO
 (
 Arrow
 "
@@ -1522,7 +1522,7 @@ TokenKindIsAssignment
 *
 /
 \
-macro
+MACRO
 (
 Assign
 "
@@ -1532,13 +1532,13 @@ Assign
 "
 )
 \
-range
+RANGE
 (
 AssignmentStart
 Assign
 )
 \
-macro
+MACRO
 (
 AddAssign
 "
@@ -1549,7 +1549,7 @@ AddAssign
 "
 )
 \
-macro
+MACRO
 (
 SubAssign
 "
@@ -1560,7 +1560,7 @@ SubAssign
 "
 )
 \
-macro
+MACRO
 (
 BitOrAssign
 "
@@ -1571,7 +1571,7 @@ BitOrAssign
 "
 )
 \
-macro
+MACRO
 (
 BitXorAssign
 "
@@ -1582,7 +1582,7 @@ BitXorAssign
 "
 )
 \
-macro
+MACRO
 (
 BitAndAssign
 "
@@ -1593,7 +1593,7 @@ BitAndAssign
 "
 )
 \
-macro
+MACRO
 (
 LshAssign
 "
@@ -1605,7 +1605,7 @@ LshAssign
 "
 )
 \
-macro
+MACRO
 (
 RshAssign
 "
@@ -1617,7 +1617,7 @@ RshAssign
 "
 )
 \
-macro
+MACRO
 (
 UrshAssign
 "
@@ -1630,7 +1630,7 @@ UrshAssign
 "
 )
 \
-macro
+MACRO
 (
 MulAssign
 "
@@ -1641,7 +1641,7 @@ MulAssign
 "
 )
 \
-macro
+MACRO
 (
 DivAssign
 "
@@ -1652,7 +1652,7 @@ DivAssign
 "
 )
 \
-macro
+MACRO
 (
 ModAssign
 "
@@ -1663,7 +1663,7 @@ ModAssign
 "
 )
 \
-macro
+MACRO
 (
 PowAssign
 "
@@ -1675,7 +1675,7 @@ PowAssign
 "
 )
 \
-range
+RANGE
 (
 AssignmentLast
 PowAssign
@@ -1691,12 +1691,12 @@ value
 define
 FOR_EACH_TOKEN_KIND
 (
-macro
+MACRO
 )
 \
 FOR_EACH_TOKEN_KIND_WITH_RANGE
 (
-macro
+MACRO
 TOKEN_KIND_RANGE_EMIT_NONE
 )
 namespace

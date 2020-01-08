@@ -17,10 +17,10 @@ h
 define
 FOR_EACH_COMMON_PROPERTYNAME
 (
-macro
+MACRO
 )
 \
-macro
+MACRO
 (
 add
 add
@@ -29,7 +29,7 @@ add
 "
 )
 \
-macro
+MACRO
 (
 allowContentIter
 allowContentIter
@@ -38,7 +38,7 @@ allowContentIter
 "
 )
 \
-macro
+MACRO
 (
 anonymous
 anonymous
@@ -47,7 +47,7 @@ anonymous
 "
 )
 \
-macro
+MACRO
 (
 Any
 Any
@@ -56,7 +56,7 @@ Any
 "
 )
 \
-macro
+MACRO
 (
 apply
 apply
@@ -65,7 +65,7 @@ apply
 "
 )
 \
-macro
+MACRO
 (
 arguments
 arguments
@@ -74,7 +74,7 @@ arguments
 "
 )
 \
-macro
+MACRO
 (
 ArrayBufferSpecies
 ArrayBufferSpecies
@@ -83,7 +83,7 @@ ArrayBufferSpecies
 "
 )
 \
-macro
+MACRO
 (
 ArrayIterator
 ArrayIterator
@@ -93,7 +93,7 @@ Iterator
 "
 )
 \
-macro
+MACRO
 (
 ArrayIteratorNext
 ArrayIteratorNext
@@ -102,7 +102,7 @@ ArrayIteratorNext
 "
 )
 \
-macro
+MACRO
 (
 ArraySort
 ArraySort
@@ -111,7 +111,7 @@ ArraySort
 "
 )
 \
-macro
+MACRO
 (
 ArraySpecies
 ArraySpecies
@@ -120,7 +120,7 @@ ArraySpecies
 "
 )
 \
-macro
+MACRO
 (
 ArraySpeciesCreate
 ArraySpeciesCreate
@@ -129,7 +129,7 @@ ArraySpeciesCreate
 "
 )
 \
-macro
+MACRO
 (
 ArrayToLocaleString
 ArrayToLocaleString
@@ -138,7 +138,7 @@ ArrayToLocaleString
 "
 )
 \
-macro
+MACRO
 (
 ArrayType
 ArrayType
@@ -147,7 +147,7 @@ ArrayType
 "
 )
 \
-macro
+MACRO
 (
 ArrayValues
 ArrayValues
@@ -156,7 +156,7 @@ ArrayValues
 "
 )
 \
-macro
+MACRO
 (
 as
 as
@@ -165,7 +165,7 @@ as
 "
 )
 \
-macro
+MACRO
 (
 Async
 Async
@@ -174,7 +174,7 @@ Async
 "
 )
 \
-macro
+MACRO
 (
 AsyncFromSyncIterator
 AsyncFromSyncIterator
@@ -188,7 +188,7 @@ Iterator
 "
 )
 \
-macro
+MACRO
 (
 AsyncFunction
 AsyncFunction
@@ -197,7 +197,7 @@ AsyncFunction
 "
 )
 \
-macro
+MACRO
 (
 AsyncGenerator
 AsyncGenerator
@@ -206,7 +206,7 @@ AsyncGenerator
 "
 )
 \
-macro
+MACRO
 (
 AsyncGeneratorFunction
 AsyncGeneratorFunction
@@ -215,7 +215,7 @@ AsyncGeneratorFunction
 "
 )
 \
-macro
+MACRO
 (
 AsyncWrapped
 AsyncWrapped
@@ -224,7 +224,7 @@ AsyncWrapped
 "
 )
 \
-macro
+MACRO
 (
 async
 async
@@ -233,7 +233,7 @@ async
 "
 )
 \
-macro
+MACRO
 (
 autoAllocateChunkSize
 autoAllocateChunkSize
@@ -242,7 +242,7 @@ autoAllocateChunkSize
 "
 )
 \
-macro
+MACRO
 (
 await
 await
@@ -251,7 +251,7 @@ await
 "
 )
 \
-macro
+MACRO
 (
 Bool8x16
 Bool8x16
@@ -260,7 +260,7 @@ Bool8x16
 "
 )
 \
-macro
+MACRO
 (
 Bool16x8
 Bool16x8
@@ -269,7 +269,7 @@ Bool16x8
 "
 )
 \
-macro
+MACRO
 (
 Bool32x4
 Bool32x4
@@ -278,7 +278,7 @@ Bool32x4
 "
 )
 \
-macro
+MACRO
 (
 Bool64x2
 Bool64x2
@@ -287,7 +287,7 @@ Bool64x2
 "
 )
 \
-macro
+MACRO
 (
 boundWithSpace
 boundWithSpace
@@ -296,7 +296,7 @@ bound
 "
 )
 \
-macro
+MACRO
 (
 break
 break_
@@ -305,7 +305,7 @@ break
 "
 )
 \
-macro
+MACRO
 (
 breakdown
 breakdown
@@ -314,7 +314,7 @@ breakdown
 "
 )
 \
-macro
+MACRO
 (
 buffer
 buffer
@@ -323,7 +323,7 @@ buffer
 "
 )
 \
-macro
+MACRO
 (
 builder
 builder
@@ -332,7 +332,7 @@ builder
 "
 )
 \
-macro
+MACRO
 (
 by
 by
@@ -341,7 +341,7 @@ by
 "
 )
 \
-macro
+MACRO
 (
 byob
 byob
@@ -350,7 +350,7 @@ byob
 "
 )
 \
-macro
+MACRO
 (
 byteAlignment
 byteAlignment
@@ -359,7 +359,7 @@ byteAlignment
 "
 )
 \
-macro
+MACRO
 (
 byteLength
 byteLength
@@ -368,7 +368,7 @@ byteLength
 "
 )
 \
-macro
+MACRO
 (
 byteOffset
 byteOffset
@@ -377,7 +377,7 @@ byteOffset
 "
 )
 \
-macro
+MACRO
 (
 bytes
 bytes
@@ -386,7 +386,7 @@ bytes
 "
 )
 \
-macro
+MACRO
 (
 BYTES_PER_ELEMENT
 BYTES_PER_ELEMENT
@@ -395,7 +395,7 @@ BYTES_PER_ELEMENT
 "
 )
 \
-macro
+MACRO
 (
 call
 call
@@ -404,7 +404,7 @@ call
 "
 )
 \
-macro
+MACRO
 (
 callContentFunction
 callContentFunction
@@ -413,7 +413,7 @@ callContentFunction
 "
 )
 \
-macro
+MACRO
 (
 callee
 callee
@@ -422,7 +422,7 @@ callee
 "
 )
 \
-macro
+MACRO
 (
 caller
 caller
@@ -431,7 +431,7 @@ caller
 "
 )
 \
-macro
+MACRO
 (
 callFunction
 callFunction
@@ -440,7 +440,7 @@ callFunction
 "
 )
 \
-macro
+MACRO
 (
 cancel
 cancel
@@ -449,7 +449,7 @@ cancel
 "
 )
 \
-macro
+MACRO
 (
 case
 case_
@@ -458,7 +458,7 @@ case
 "
 )
 \
-macro
+MACRO
 (
 caseFirst
 caseFirst
@@ -467,7 +467,7 @@ caseFirst
 "
 )
 \
-macro
+MACRO
 (
 catch
 catch_
@@ -476,7 +476,7 @@ catch
 "
 )
 \
-macro
+MACRO
 (
 class
 class_
@@ -485,7 +485,7 @@ class
 "
 )
 \
-macro
+MACRO
 (
 Collator
 Collator
@@ -494,7 +494,7 @@ Collator
 "
 )
 \
-macro
+MACRO
 (
 collections
 collections
@@ -503,7 +503,7 @@ collections
 "
 )
 \
-macro
+MACRO
 (
 columnNumber
 columnNumber
@@ -512,7 +512,7 @@ columnNumber
 "
 )
 \
-macro
+MACRO
 (
 comma
 comma
@@ -520,7 +520,7 @@ comma
 "
 )
 \
-macro
+MACRO
 (
 compare
 compare
@@ -529,7 +529,7 @@ compare
 "
 )
 \
-macro
+MACRO
 (
 configurable
 configurable
@@ -538,7 +538,7 @@ configurable
 "
 )
 \
-macro
+MACRO
 (
 const
 const_
@@ -547,7 +547,7 @@ const
 "
 )
 \
-macro
+MACRO
 (
 construct
 construct
@@ -556,7 +556,7 @@ construct
 "
 )
 \
-macro
+MACRO
 (
 constructContentFunction
 constructContentFunction
@@ -565,7 +565,7 @@ constructContentFunction
 "
 )
 \
-macro
+MACRO
 (
 constructor
 constructor
@@ -574,7 +574,7 @@ constructor
 "
 )
 \
-macro
+MACRO
 (
 continue
 continue_
@@ -583,7 +583,7 @@ continue
 "
 )
 \
-macro
+MACRO
 (
 ConvertAndCopyTo
 ConvertAndCopyTo
@@ -592,7 +592,7 @@ ConvertAndCopyTo
 "
 )
 \
-macro
+MACRO
 (
 CopyDataProperties
 CopyDataProperties
@@ -601,7 +601,7 @@ CopyDataProperties
 "
 )
 \
-macro
+MACRO
 (
 CopyDataPropertiesUnfiltered
 CopyDataPropertiesUnfiltered
@@ -610,7 +610,7 @@ CopyDataPropertiesUnfiltered
 "
 )
 \
-macro
+MACRO
 (
 copyWithin
 copyWithin
@@ -619,7 +619,7 @@ copyWithin
 "
 )
 \
-macro
+MACRO
 (
 count
 count
@@ -628,7 +628,7 @@ count
 "
 )
 \
-macro
+MACRO
 (
 CreateResolvingFunctions
 CreateResolvingFunctions
@@ -637,7 +637,7 @@ CreateResolvingFunctions
 "
 )
 \
-macro
+MACRO
 (
 currency
 currency
@@ -646,7 +646,7 @@ currency
 "
 )
 \
-macro
+MACRO
 (
 currencyDisplay
 currencyDisplay
@@ -655,7 +655,7 @@ currencyDisplay
 "
 )
 \
-macro
+MACRO
 (
 DateTimeFormat
 DateTimeFormat
@@ -664,7 +664,7 @@ DateTimeFormat
 "
 )
 \
-macro
+MACRO
 (
 day
 day
@@ -673,7 +673,7 @@ day
 "
 )
 \
-macro
+MACRO
 (
 dayPeriod
 dayPeriod
@@ -682,7 +682,7 @@ dayPeriod
 "
 )
 \
-macro
+MACRO
 (
 debugger
 debugger
@@ -691,7 +691,7 @@ debugger
 "
 )
 \
-macro
+MACRO
 (
 decimal
 decimal
@@ -700,7 +700,7 @@ decimal
 "
 )
 \
-macro
+MACRO
 (
 decodeURI
 decodeURI
@@ -709,7 +709,7 @@ decodeURI
 "
 )
 \
-macro
+MACRO
 (
 decodeURIComponent
 decodeURIComponent
@@ -718,7 +718,7 @@ decodeURIComponent
 "
 )
 \
-macro
+MACRO
 (
 DefaultBaseClassConstructor
 DefaultBaseClassConstructor
@@ -727,7 +727,7 @@ DefaultBaseClassConstructor
 "
 )
 \
-macro
+MACRO
 (
 DefaultDerivedClassConstructor
 DefaultDerivedClassConstructor
@@ -736,7 +736,7 @@ DefaultDerivedClassConstructor
 "
 )
 \
-macro
+MACRO
 (
 default
 default_
@@ -745,7 +745,7 @@ default
 "
 )
 \
-macro
+MACRO
 (
 defineGetter
 defineGetter
@@ -754,7 +754,7 @@ __defineGetter__
 "
 )
 \
-macro
+MACRO
 (
 defineProperty
 defineProperty
@@ -763,7 +763,7 @@ defineProperty
 "
 )
 \
-macro
+MACRO
 (
 defineSetter
 defineSetter
@@ -772,7 +772,7 @@ __defineSetter__
 "
 )
 \
-macro
+MACRO
 (
 delete
 delete_
@@ -781,7 +781,7 @@ delete
 "
 )
 \
-macro
+MACRO
 (
 deleteProperty
 deleteProperty
@@ -790,7 +790,7 @@ deleteProperty
 "
 )
 \
-macro
+MACRO
 (
 direction
 direction
@@ -799,7 +799,7 @@ direction
 "
 )
 \
-macro
+MACRO
 (
 displayURL
 displayURL
@@ -808,7 +808,7 @@ displayURL
 "
 )
 \
-macro
+MACRO
 (
 do
 do_
@@ -817,7 +817,7 @@ do
 "
 )
 \
-macro
+MACRO
 (
 domNode
 domNode
@@ -826,7 +826,7 @@ domNode
 "
 )
 \
-macro
+MACRO
 (
 done
 done
@@ -835,7 +835,7 @@ done
 "
 )
 \
-macro
+MACRO
 (
 dotGenerator
 dotGenerator
@@ -845,7 +845,7 @@ generator
 "
 )
 \
-macro
+MACRO
 (
 dotThis
 dotThis
@@ -855,7 +855,7 @@ this
 "
 )
 \
-macro
+MACRO
 (
 each
 each
@@ -864,7 +864,7 @@ each
 "
 )
 \
-macro
+MACRO
 (
 elementType
 elementType
@@ -873,7 +873,7 @@ elementType
 "
 )
 \
-macro
+MACRO
 (
 else
 else_
@@ -882,7 +882,7 @@ else
 "
 )
 \
-macro
+MACRO
 (
 empty
 empty
@@ -890,7 +890,7 @@ empty
 "
 )
 \
-macro
+MACRO
 (
 emptyRegExp
 emptyRegExp
@@ -902,7 +902,7 @@ emptyRegExp
 "
 )
 \
-macro
+MACRO
 (
 encodeURI
 encodeURI
@@ -911,7 +911,7 @@ encodeURI
 "
 )
 \
-macro
+MACRO
 (
 encodeURIComponent
 encodeURIComponent
@@ -920,7 +920,7 @@ encodeURIComponent
 "
 )
 \
-macro
+MACRO
 (
 endTimestamp
 endTimestamp
@@ -929,7 +929,7 @@ endTimestamp
 "
 )
 \
-macro
+MACRO
 (
 entries
 entries
@@ -938,7 +938,7 @@ entries
 "
 )
 \
-macro
+MACRO
 (
 enum
 enum_
@@ -947,7 +947,7 @@ enum
 "
 )
 \
-macro
+MACRO
 (
 enumerable
 enumerable
@@ -956,7 +956,7 @@ enumerable
 "
 )
 \
-macro
+MACRO
 (
 enumerate
 enumerate
@@ -965,7 +965,7 @@ enumerate
 "
 )
 \
-macro
+MACRO
 (
 era
 era
@@ -974,7 +974,7 @@ era
 "
 )
 \
-macro
+MACRO
 (
 ErrorToStringWithTrailingNewline
 ErrorToStringWithTrailingNewline
@@ -983,7 +983,7 @@ ErrorToStringWithTrailingNewline
 "
 )
 \
-macro
+MACRO
 (
 escape
 escape
@@ -992,7 +992,7 @@ escape
 "
 )
 \
-macro
+MACRO
 (
 eval
 eval
@@ -1001,7 +1001,7 @@ eval
 "
 )
 \
-macro
+MACRO
 (
 exec
 exec
@@ -1010,7 +1010,7 @@ exec
 "
 )
 \
-macro
+MACRO
 (
 export
 export_
@@ -1019,7 +1019,7 @@ export
 "
 )
 \
-macro
+MACRO
 (
 extends
 extends
@@ -1028,7 +1028,7 @@ extends
 "
 )
 \
-macro
+MACRO
 (
 false
 false_
@@ -1037,7 +1037,7 @@ false
 "
 )
 \
-macro
+MACRO
 (
 fieldOffsets
 fieldOffsets
@@ -1046,7 +1046,7 @@ fieldOffsets
 "
 )
 \
-macro
+MACRO
 (
 fieldTypes
 fieldTypes
@@ -1055,7 +1055,7 @@ fieldTypes
 "
 )
 \
-macro
+MACRO
 (
 fileName
 fileName
@@ -1064,7 +1064,7 @@ fileName
 "
 )
 \
-macro
+MACRO
 (
 fill
 fill
@@ -1073,7 +1073,7 @@ fill
 "
 )
 \
-macro
+MACRO
 (
 finally
 finally_
@@ -1082,7 +1082,7 @@ finally
 "
 )
 \
-macro
+MACRO
 (
 find
 find
@@ -1091,7 +1091,7 @@ find
 "
 )
 \
-macro
+MACRO
 (
 findIndex
 findIndex
@@ -1100,7 +1100,7 @@ findIndex
 "
 )
 \
-macro
+MACRO
 (
 firstDayOfWeek
 firstDayOfWeek
@@ -1109,7 +1109,7 @@ firstDayOfWeek
 "
 )
 \
-macro
+MACRO
 (
 fix
 fix
@@ -1118,7 +1118,7 @@ fix
 "
 )
 \
-macro
+MACRO
 (
 flags
 flags
@@ -1127,7 +1127,7 @@ flags
 "
 )
 \
-macro
+MACRO
 (
 float32
 float32
@@ -1136,7 +1136,7 @@ float32
 "
 )
 \
-macro
+MACRO
 (
 Float32x4
 Float32x4
@@ -1145,7 +1145,7 @@ Float32x4
 "
 )
 \
-macro
+MACRO
 (
 float64
 float64
@@ -1154,7 +1154,7 @@ float64
 "
 )
 \
-macro
+MACRO
 (
 Float64x2
 Float64x2
@@ -1163,7 +1163,7 @@ Float64x2
 "
 )
 \
-macro
+MACRO
 (
 for
 for_
@@ -1172,7 +1172,7 @@ for
 "
 )
 \
-macro
+MACRO
 (
 forceInterpreter
 forceInterpreter
@@ -1181,7 +1181,7 @@ forceInterpreter
 "
 )
 \
-macro
+MACRO
 (
 forEach
 forEach
@@ -1190,7 +1190,7 @@ forEach
 "
 )
 \
-macro
+MACRO
 (
 format
 format
@@ -1199,7 +1199,7 @@ format
 "
 )
 \
-macro
+MACRO
 (
 fraction
 fraction
@@ -1208,7 +1208,7 @@ fraction
 "
 )
 \
-macro
+MACRO
 (
 frame
 frame
@@ -1217,7 +1217,7 @@ frame
 "
 )
 \
-macro
+MACRO
 (
 from
 from
@@ -1226,7 +1226,7 @@ from
 "
 )
 \
-macro
+MACRO
 (
 fulfilled
 fulfilled
@@ -1235,7 +1235,7 @@ fulfilled
 "
 )
 \
-macro
+MACRO
 (
 futexNotEqual
 futexNotEqual
@@ -1246,7 +1246,7 @@ equal
 "
 )
 \
-macro
+MACRO
 (
 futexOK
 futexOK
@@ -1255,7 +1255,7 @@ ok
 "
 )
 \
-macro
+MACRO
 (
 futexTimedOut
 futexTimedOut
@@ -1266,7 +1266,7 @@ out
 "
 )
 \
-macro
+MACRO
 (
 gcCycleNumber
 gcCycleNumber
@@ -1275,7 +1275,7 @@ gcCycleNumber
 "
 )
 \
-macro
+MACRO
 (
 Generator
 Generator
@@ -1284,7 +1284,7 @@ Generator
 "
 )
 \
-macro
+MACRO
 (
 GeneratorFunction
 GeneratorFunction
@@ -1293,7 +1293,7 @@ GeneratorFunction
 "
 )
 \
-macro
+MACRO
 (
 GeneratorNext
 GeneratorNext
@@ -1302,7 +1302,7 @@ GeneratorNext
 "
 )
 \
-macro
+MACRO
 (
 GeneratorReturn
 GeneratorReturn
@@ -1311,7 +1311,7 @@ GeneratorReturn
 "
 )
 \
-macro
+MACRO
 (
 GeneratorThrow
 GeneratorThrow
@@ -1320,7 +1320,7 @@ GeneratorThrow
 "
 )
 \
-macro
+MACRO
 (
 get
 get
@@ -1329,7 +1329,7 @@ get
 "
 )
 \
-macro
+MACRO
 (
 GetInternalError
 GetInternalError
@@ -1338,7 +1338,7 @@ GetInternalError
 "
 )
 \
-macro
+MACRO
 (
 getInternals
 getInternals
@@ -1347,7 +1347,7 @@ getInternals
 "
 )
 \
-macro
+MACRO
 (
 GetModuleNamespace
 GetModuleNamespace
@@ -1356,7 +1356,7 @@ GetModuleNamespace
 "
 )
 \
-macro
+MACRO
 (
 getOwnPropertyDescriptor
 getOwnPropertyDescriptor
@@ -1365,7 +1365,7 @@ getOwnPropertyDescriptor
 "
 )
 \
-macro
+MACRO
 (
 getOwnPropertyNames
 getOwnPropertyNames
@@ -1374,7 +1374,7 @@ getOwnPropertyNames
 "
 )
 \
-macro
+MACRO
 (
 getPrefix
 getPrefix
@@ -1383,7 +1383,7 @@ get
 "
 )
 \
-macro
+MACRO
 (
 getPropertyDescriptor
 getPropertyDescriptor
@@ -1392,7 +1392,7 @@ getPropertyDescriptor
 "
 )
 \
-macro
+MACRO
 (
 getPropertySuper
 getPropertySuper
@@ -1401,7 +1401,7 @@ getPropertySuper
 "
 )
 \
-macro
+MACRO
 (
 getPrototypeOf
 getPrototypeOf
@@ -1410,7 +1410,7 @@ getPrototypeOf
 "
 )
 \
-macro
+MACRO
 (
 GetTypeError
 GetTypeError
@@ -1419,7 +1419,7 @@ GetTypeError
 "
 )
 \
-macro
+MACRO
 (
 global
 global
@@ -1428,7 +1428,7 @@ global
 "
 )
 \
-macro
+MACRO
 (
 globalThis
 globalThis
@@ -1437,7 +1437,7 @@ globalThis
 "
 )
 \
-macro
+MACRO
 (
 group
 group
@@ -1446,7 +1446,7 @@ group
 "
 )
 \
-macro
+MACRO
 (
 Handle
 Handle
@@ -1455,7 +1455,7 @@ Handle
 "
 )
 \
-macro
+MACRO
 (
 has
 has
@@ -1464,7 +1464,7 @@ has
 "
 )
 \
-macro
+MACRO
 (
 hasOwn
 hasOwn
@@ -1473,7 +1473,7 @@ hasOwn
 "
 )
 \
-macro
+MACRO
 (
 hasOwnProperty
 hasOwnProperty
@@ -1482,7 +1482,7 @@ hasOwnProperty
 "
 )
 \
-macro
+MACRO
 (
 highWaterMark
 highWaterMark
@@ -1491,7 +1491,7 @@ highWaterMark
 "
 )
 \
-macro
+MACRO
 (
 hour
 hour
@@ -1500,7 +1500,7 @@ hour
 "
 )
 \
-macro
+MACRO
 (
 if
 if_
@@ -1509,7 +1509,7 @@ if
 "
 )
 \
-macro
+MACRO
 (
 ignoreCase
 ignoreCase
@@ -1518,7 +1518,7 @@ ignoreCase
 "
 )
 \
-macro
+MACRO
 (
 ignorePunctuation
 ignorePunctuation
@@ -1527,7 +1527,7 @@ ignorePunctuation
 "
 )
 \
-macro
+MACRO
 (
 implements
 implements
@@ -1536,7 +1536,7 @@ implements
 "
 )
 \
-macro
+MACRO
 (
 import
 import
@@ -1545,7 +1545,7 @@ import
 "
 )
 \
-macro
+MACRO
 (
 in
 in
@@ -1554,7 +1554,7 @@ in
 "
 )
 \
-macro
+MACRO
 (
 includes
 includes
@@ -1563,7 +1563,7 @@ includes
 "
 )
 \
-macro
+MACRO
 (
 incumbentGlobal
 incumbentGlobal
@@ -1572,7 +1572,7 @@ incumbentGlobal
 "
 )
 \
-macro
+MACRO
 (
 index
 index
@@ -1581,7 +1581,7 @@ index
 "
 )
 \
-macro
+MACRO
 (
 infinity
 infinity
@@ -1590,7 +1590,7 @@ infinity
 "
 )
 \
-macro
+MACRO
 (
 Infinity
 Infinity
@@ -1599,7 +1599,7 @@ Infinity
 "
 )
 \
-macro
+MACRO
 (
 InitializeCollator
 InitializeCollator
@@ -1608,7 +1608,7 @@ InitializeCollator
 "
 )
 \
-macro
+MACRO
 (
 InitializeDateTimeFormat
 InitializeDateTimeFormat
@@ -1617,7 +1617,7 @@ InitializeDateTimeFormat
 "
 )
 \
-macro
+MACRO
 (
 InitializeNumberFormat
 InitializeNumberFormat
@@ -1626,7 +1626,7 @@ InitializeNumberFormat
 "
 )
 \
-macro
+MACRO
 (
 InitializePluralRules
 InitializePluralRules
@@ -1635,7 +1635,7 @@ InitializePluralRules
 "
 )
 \
-macro
+MACRO
 (
 InitializeRelativeTimeFormat
 InitializeRelativeTimeFormat
@@ -1644,7 +1644,7 @@ InitializeRelativeTimeFormat
 "
 )
 \
-macro
+MACRO
 (
 innermost
 innermost
@@ -1653,7 +1653,7 @@ innermost
 "
 )
 \
-macro
+MACRO
 (
 inNursery
 inNursery
@@ -1662,7 +1662,7 @@ inNursery
 "
 )
 \
-macro
+MACRO
 (
 input
 input
@@ -1671,7 +1671,7 @@ input
 "
 )
 \
-macro
+MACRO
 (
 instanceof
 instanceof
@@ -1680,7 +1680,7 @@ instanceof
 "
 )
 \
-macro
+MACRO
 (
 int8
 int8
@@ -1689,7 +1689,7 @@ int8
 "
 )
 \
-macro
+MACRO
 (
 int16
 int16
@@ -1698,7 +1698,7 @@ int16
 "
 )
 \
-macro
+MACRO
 (
 int32
 int32
@@ -1707,7 +1707,7 @@ int32
 "
 )
 \
-macro
+MACRO
 (
 Int8x16
 Int8x16
@@ -1716,7 +1716,7 @@ Int8x16
 "
 )
 \
-macro
+MACRO
 (
 Int16x8
 Int16x8
@@ -1725,7 +1725,7 @@ Int16x8
 "
 )
 \
-macro
+MACRO
 (
 Int32x4
 Int32x4
@@ -1734,7 +1734,7 @@ Int32x4
 "
 )
 \
-macro
+MACRO
 (
 integer
 integer
@@ -1743,7 +1743,7 @@ integer
 "
 )
 \
-macro
+MACRO
 (
 interface
 interface
@@ -1752,7 +1752,7 @@ interface
 "
 )
 \
-macro
+MACRO
 (
 InterpretGeneratorResume
 InterpretGeneratorResume
@@ -1761,7 +1761,7 @@ InterpretGeneratorResume
 "
 )
 \
-macro
+MACRO
 (
 InvalidDate
 InvalidDate
@@ -1771,7 +1771,7 @@ Date
 "
 )
 \
-macro
+MACRO
 (
 isEntryPoint
 isEntryPoint
@@ -1780,7 +1780,7 @@ isEntryPoint
 "
 )
 \
-macro
+MACRO
 (
 isExtensible
 isExtensible
@@ -1789,7 +1789,7 @@ isExtensible
 "
 )
 \
-macro
+MACRO
 (
 isFinite
 isFinite
@@ -1798,7 +1798,7 @@ isFinite
 "
 )
 \
-macro
+MACRO
 (
 isNaN
 isNaN
@@ -1807,7 +1807,7 @@ isNaN
 "
 )
 \
-macro
+MACRO
 (
 isPrototypeOf
 isPrototypeOf
@@ -1816,7 +1816,7 @@ isPrototypeOf
 "
 )
 \
-macro
+MACRO
 (
 IterableToList
 IterableToList
@@ -1825,7 +1825,7 @@ IterableToList
 "
 )
 \
-macro
+MACRO
 (
 iterate
 iterate
@@ -1834,7 +1834,7 @@ iterate
 "
 )
 \
-macro
+MACRO
 (
 join
 join
@@ -1843,7 +1843,7 @@ join
 "
 )
 \
-macro
+MACRO
 (
 js
 js
@@ -1852,7 +1852,7 @@ js
 "
 )
 \
-macro
+MACRO
 (
 keys
 keys
@@ -1861,7 +1861,7 @@ keys
 "
 )
 \
-macro
+MACRO
 (
 label
 label
@@ -1870,7 +1870,7 @@ label
 "
 )
 \
-macro
+MACRO
 (
 lastIndex
 lastIndex
@@ -1879,7 +1879,7 @@ lastIndex
 "
 )
 \
-macro
+MACRO
 (
 length
 length
@@ -1888,7 +1888,7 @@ length
 "
 )
 \
-macro
+MACRO
 (
 let
 let
@@ -1897,7 +1897,7 @@ let
 "
 )
 \
-macro
+MACRO
 (
 line
 line
@@ -1906,7 +1906,7 @@ line
 "
 )
 \
-macro
+MACRO
 (
 lineNumber
 lineNumber
@@ -1915,7 +1915,7 @@ lineNumber
 "
 )
 \
-macro
+MACRO
 (
 literal
 literal
@@ -1924,7 +1924,7 @@ literal
 "
 )
 \
-macro
+MACRO
 (
 loc
 loc
@@ -1933,7 +1933,7 @@ loc
 "
 )
 \
-macro
+MACRO
 (
 locale
 locale
@@ -1942,7 +1942,7 @@ locale
 "
 )
 \
-macro
+MACRO
 (
 lookupGetter
 lookupGetter
@@ -1951,7 +1951,7 @@ __lookupGetter__
 "
 )
 \
-macro
+MACRO
 (
 lookupSetter
 lookupSetter
@@ -1960,7 +1960,7 @@ __lookupSetter__
 "
 )
 \
-macro
+MACRO
 (
 ltr
 ltr
@@ -1969,7 +1969,7 @@ ltr
 "
 )
 \
-macro
+MACRO
 (
 MapConstructorInit
 MapConstructorInit
@@ -1978,7 +1978,7 @@ MapConstructorInit
 "
 )
 \
-macro
+MACRO
 (
 MapIterator
 MapIterator
@@ -1988,7 +1988,7 @@ Iterator
 "
 )
 \
-macro
+MACRO
 (
 maximumFractionDigits
 maximumFractionDigits
@@ -1997,7 +1997,7 @@ maximumFractionDigits
 "
 )
 \
-macro
+MACRO
 (
 maximumSignificantDigits
 maximumSignificantDigits
@@ -2006,7 +2006,7 @@ maximumSignificantDigits
 "
 )
 \
-macro
+MACRO
 (
 message
 message
@@ -2015,7 +2015,7 @@ message
 "
 )
 \
-macro
+MACRO
 (
 meta
 meta
@@ -2024,7 +2024,7 @@ meta
 "
 )
 \
-macro
+MACRO
 (
 minDays
 minDays
@@ -2033,7 +2033,7 @@ minDays
 "
 )
 \
-macro
+MACRO
 (
 minimumFractionDigits
 minimumFractionDigits
@@ -2042,7 +2042,7 @@ minimumFractionDigits
 "
 )
 \
-macro
+MACRO
 (
 minimumIntegerDigits
 minimumIntegerDigits
@@ -2051,7 +2051,7 @@ minimumIntegerDigits
 "
 )
 \
-macro
+MACRO
 (
 minimumSignificantDigits
 minimumSignificantDigits
@@ -2060,7 +2060,7 @@ minimumSignificantDigits
 "
 )
 \
-macro
+MACRO
 (
 minusSign
 minusSign
@@ -2069,7 +2069,7 @@ minusSign
 "
 )
 \
-macro
+MACRO
 (
 minute
 minute
@@ -2078,7 +2078,7 @@ minute
 "
 )
 \
-macro
+MACRO
 (
 missingArguments
 missingArguments
@@ -2087,7 +2087,7 @@ missingArguments
 "
 )
 \
-macro
+MACRO
 (
 mode
 mode
@@ -2096,7 +2096,7 @@ mode
 "
 )
 \
-macro
+MACRO
 (
 module
 module
@@ -2105,7 +2105,7 @@ module
 "
 )
 \
-macro
+MACRO
 (
 Module
 Module
@@ -2114,7 +2114,7 @@ Module
 "
 )
 \
-macro
+MACRO
 (
 ModuleInstantiate
 ModuleInstantiate
@@ -2123,7 +2123,7 @@ ModuleInstantiate
 "
 )
 \
-macro
+MACRO
 (
 ModuleEvaluate
 ModuleEvaluate
@@ -2132,7 +2132,7 @@ ModuleEvaluate
 "
 )
 \
-macro
+MACRO
 (
 month
 month
@@ -2141,7 +2141,7 @@ month
 "
 )
 \
-macro
+MACRO
 (
 multiline
 multiline
@@ -2150,7 +2150,7 @@ multiline
 "
 )
 \
-macro
+MACRO
 (
 name
 name
@@ -2159,7 +2159,7 @@ name
 "
 )
 \
-macro
+MACRO
 (
 nan
 nan
@@ -2168,7 +2168,7 @@ nan
 "
 )
 \
-macro
+MACRO
 (
 NaN
 NaN
@@ -2177,7 +2177,7 @@ NaN
 "
 )
 \
-macro
+MACRO
 (
 NegativeInfinity
 NegativeInfinity
@@ -2187,7 +2187,7 @@ Infinity
 "
 )
 \
-macro
+MACRO
 (
 new
 new_
@@ -2196,7 +2196,7 @@ new
 "
 )
 \
-macro
+MACRO
 (
 next
 next
@@ -2205,7 +2205,7 @@ next
 "
 )
 \
-macro
+MACRO
 (
 NFC
 NFC
@@ -2214,7 +2214,7 @@ NFC
 "
 )
 \
-macro
+MACRO
 (
 NFD
 NFD
@@ -2223,7 +2223,7 @@ NFD
 "
 )
 \
-macro
+MACRO
 (
 NFKC
 NFKC
@@ -2232,7 +2232,7 @@ NFKC
 "
 )
 \
-macro
+MACRO
 (
 NFKD
 NFKD
@@ -2241,7 +2241,7 @@ NFKD
 "
 )
 \
-macro
+MACRO
 (
 noFilename
 noFilename
@@ -2250,7 +2250,7 @@ noFilename
 "
 )
 \
-macro
+MACRO
 (
 nonincrementalReason
 nonincrementalReason
@@ -2259,7 +2259,7 @@ nonincrementalReason
 "
 )
 \
-macro
+MACRO
 (
 noStack
 noStack
@@ -2268,7 +2268,7 @@ noStack
 "
 )
 \
-macro
+MACRO
 (
 notes
 notes
@@ -2277,7 +2277,7 @@ notes
 "
 )
 \
-macro
+MACRO
 (
 NumberFormat
 NumberFormat
@@ -2286,7 +2286,7 @@ NumberFormat
 "
 )
 \
-macro
+MACRO
 (
 numeric
 numeric
@@ -2295,7 +2295,7 @@ numeric
 "
 )
 \
-macro
+MACRO
 (
 objectArguments
 objectArguments
@@ -2307,7 +2307,7 @@ Arguments
 "
 )
 \
-macro
+MACRO
 (
 objectArray
 objectArray
@@ -2319,7 +2319,7 @@ Array
 "
 )
 \
-macro
+MACRO
 (
 objectBigInt
 objectBigInt
@@ -2331,7 +2331,7 @@ BigInt
 "
 )
 \
-macro
+MACRO
 (
 objectBoolean
 objectBoolean
@@ -2343,7 +2343,7 @@ Boolean
 "
 )
 \
-macro
+MACRO
 (
 objectDate
 objectDate
@@ -2355,7 +2355,7 @@ Date
 "
 )
 \
-macro
+MACRO
 (
 objectError
 objectError
@@ -2367,7 +2367,7 @@ Error
 "
 )
 \
-macro
+MACRO
 (
 objectFunction
 objectFunction
@@ -2379,7 +2379,7 @@ Function
 "
 )
 \
-macro
+MACRO
 (
 objectNull
 objectNull
@@ -2391,7 +2391,7 @@ Null
 "
 )
 \
-macro
+MACRO
 (
 objectNumber
 objectNumber
@@ -2403,7 +2403,7 @@ Number
 "
 )
 \
-macro
+MACRO
 (
 objectObject
 objectObject
@@ -2415,7 +2415,7 @@ Object
 "
 )
 \
-macro
+MACRO
 (
 objectRegExp
 objectRegExp
@@ -2427,7 +2427,7 @@ RegExp
 "
 )
 \
-macro
+MACRO
 (
 objects
 objects
@@ -2436,7 +2436,7 @@ objects
 "
 )
 \
-macro
+MACRO
 (
 objectString
 objectString
@@ -2448,7 +2448,7 @@ String
 "
 )
 \
-macro
+MACRO
 (
 objectUndefined
 objectUndefined
@@ -2460,7 +2460,7 @@ Undefined
 "
 )
 \
-macro
+MACRO
 (
 of
 of
@@ -2469,7 +2469,7 @@ of
 "
 )
 \
-macro
+MACRO
 (
 offset
 offset
@@ -2478,7 +2478,7 @@ offset
 "
 )
 \
-macro
+MACRO
 (
 optimizedOut
 optimizedOut
@@ -2487,7 +2487,7 @@ optimizedOut
 "
 )
 \
-macro
+MACRO
 (
 other
 other
@@ -2496,7 +2496,7 @@ other
 "
 )
 \
-macro
+MACRO
 (
 outOfMemory
 outOfMemory
@@ -2507,7 +2507,7 @@ memory
 "
 )
 \
-macro
+MACRO
 (
 ownKeys
 ownKeys
@@ -2516,7 +2516,7 @@ ownKeys
 "
 )
 \
-macro
+MACRO
 (
 Object_valueOf
 Object_valueOf
@@ -2525,7 +2525,7 @@ Object_valueOf
 "
 )
 \
-macro
+MACRO
 (
 package
 package
@@ -2534,7 +2534,7 @@ package
 "
 )
 \
-macro
+MACRO
 (
 parseFloat
 parseFloat
@@ -2543,7 +2543,7 @@ parseFloat
 "
 )
 \
-macro
+MACRO
 (
 parseInt
 parseInt
@@ -2552,7 +2552,7 @@ parseInt
 "
 )
 \
-macro
+MACRO
 (
 pattern
 pattern
@@ -2561,7 +2561,7 @@ pattern
 "
 )
 \
-macro
+MACRO
 (
 pending
 pending
@@ -2570,7 +2570,7 @@ pending
 "
 )
 \
-macro
+MACRO
 (
 PluralRules
 PluralRules
@@ -2579,7 +2579,7 @@ PluralRules
 "
 )
 \
-macro
+MACRO
 (
 percentSign
 percentSign
@@ -2588,7 +2588,7 @@ percentSign
 "
 )
 \
-macro
+MACRO
 (
 plusSign
 plusSign
@@ -2597,7 +2597,7 @@ plusSign
 "
 )
 \
-macro
+MACRO
 (
 public
 public_
@@ -2606,7 +2606,7 @@ public
 "
 )
 \
-macro
+MACRO
 (
 pull
 pull
@@ -2615,7 +2615,7 @@ pull
 "
 )
 \
-macro
+MACRO
 (
 preventExtensions
 preventExtensions
@@ -2624,7 +2624,7 @@ preventExtensions
 "
 )
 \
-macro
+MACRO
 (
 private
 private_
@@ -2633,7 +2633,7 @@ private
 "
 )
 \
-macro
+MACRO
 (
 promise
 promise
@@ -2642,7 +2642,7 @@ promise
 "
 )
 \
-macro
+MACRO
 (
 propertyIsEnumerable
 propertyIsEnumerable
@@ -2651,7 +2651,7 @@ propertyIsEnumerable
 "
 )
 \
-macro
+MACRO
 (
 protected
 protected_
@@ -2660,7 +2660,7 @@ protected
 "
 )
 \
-macro
+MACRO
 (
 proto
 proto
@@ -2669,7 +2669,7 @@ __proto__
 "
 )
 \
-macro
+MACRO
 (
 prototype
 prototype
@@ -2678,7 +2678,7 @@ prototype
 "
 )
 \
-macro
+MACRO
 (
 proxy
 proxy
@@ -2687,7 +2687,7 @@ proxy
 "
 )
 \
-macro
+MACRO
 (
 raw
 raw
@@ -2696,7 +2696,7 @@ raw
 "
 )
 \
-macro
+MACRO
 (
 reason
 reason
@@ -2705,7 +2705,7 @@ reason
 "
 )
 \
-macro
+MACRO
 (
 RegExpBuiltinExec
 RegExpBuiltinExec
@@ -2714,7 +2714,7 @@ RegExpBuiltinExec
 "
 )
 \
-macro
+MACRO
 (
 RegExpFlagsGetter
 RegExpFlagsGetter
@@ -2723,7 +2723,7 @@ RegExpFlagsGetter
 "
 )
 \
-macro
+MACRO
 (
 RegExpMatcher
 RegExpMatcher
@@ -2732,7 +2732,7 @@ RegExpMatcher
 "
 )
 \
-macro
+MACRO
 (
 RegExpSearcher
 RegExpSearcher
@@ -2741,7 +2741,7 @@ RegExpSearcher
 "
 )
 \
-macro
+MACRO
 (
 RegExpTester
 RegExpTester
@@ -2750,7 +2750,7 @@ RegExpTester
 "
 )
 \
-macro
+MACRO
 (
 RegExp_prototype_Exec
 RegExp_prototype_Exec
@@ -2759,7 +2759,7 @@ RegExp_prototype_Exec
 "
 )
 \
-macro
+MACRO
 (
 Reify
 Reify
@@ -2768,7 +2768,7 @@ Reify
 "
 )
 \
-macro
+MACRO
 (
 reject
 reject
@@ -2777,7 +2777,7 @@ reject
 "
 )
 \
-macro
+MACRO
 (
 rejected
 rejected
@@ -2786,7 +2786,7 @@ rejected
 "
 )
 \
-macro
+MACRO
 (
 RelativeTimeFormat
 RelativeTimeFormat
@@ -2795,7 +2795,7 @@ RelativeTimeFormat
 "
 )
 \
-macro
+MACRO
 (
 RelativeTimeFormatFormat
 RelativeTimeFormatFormat
@@ -2804,7 +2804,7 @@ Intl_RelativeTimeFormat_Format
 "
 )
 \
-macro
+MACRO
 (
 RequireObjectCoercible
 RequireObjectCoercible
@@ -2813,7 +2813,7 @@ RequireObjectCoercible
 "
 )
 \
-macro
+MACRO
 (
 resolve
 resolve
@@ -2822,7 +2822,7 @@ resolve
 "
 )
 \
-macro
+MACRO
 (
 resumeGenerator
 resumeGenerator
@@ -2831,7 +2831,7 @@ resumeGenerator
 "
 )
 \
-macro
+MACRO
 (
 return
 return_
@@ -2840,7 +2840,7 @@ return
 "
 )
 \
-macro
+MACRO
 (
 revoke
 revoke
@@ -2849,7 +2849,7 @@ revoke
 "
 )
 \
-macro
+MACRO
 (
 rtl
 rtl
@@ -2858,7 +2858,7 @@ rtl
 "
 )
 \
-macro
+MACRO
 (
 script
 script
@@ -2867,7 +2867,7 @@ script
 "
 )
 \
-macro
+MACRO
 (
 scripts
 scripts
@@ -2876,7 +2876,7 @@ scripts
 "
 )
 \
-macro
+MACRO
 (
 second
 second
@@ -2885,7 +2885,7 @@ second
 "
 )
 \
-macro
+MACRO
 (
 selfHosted
 selfHosted
@@ -2896,7 +2896,7 @@ hosted
 "
 )
 \
-macro
+MACRO
 (
 sensitivity
 sensitivity
@@ -2905,7 +2905,7 @@ sensitivity
 "
 )
 \
-macro
+MACRO
 (
 set
 set
@@ -2914,7 +2914,7 @@ set
 "
 )
 \
-macro
+MACRO
 (
 SetConstructorInit
 SetConstructorInit
@@ -2923,7 +2923,7 @@ SetConstructorInit
 "
 )
 \
-macro
+MACRO
 (
 SetIterator
 SetIterator
@@ -2933,7 +2933,7 @@ Iterator
 "
 )
 \
-macro
+MACRO
 (
 setPrefix
 setPrefix
@@ -2942,7 +2942,7 @@ set
 "
 )
 \
-macro
+MACRO
 (
 setPrototypeOf
 setPrototypeOf
@@ -2951,7 +2951,7 @@ setPrototypeOf
 "
 )
 \
-macro
+MACRO
 (
 shape
 shape
@@ -2960,7 +2960,7 @@ shape
 "
 )
 \
-macro
+MACRO
 (
 size
 size
@@ -2969,7 +2969,7 @@ size
 "
 )
 \
-macro
+MACRO
 (
 source
 source
@@ -2978,7 +2978,7 @@ source
 "
 )
 \
-macro
+MACRO
 (
 SpeciesConstructor
 SpeciesConstructor
@@ -2987,7 +2987,7 @@ SpeciesConstructor
 "
 )
 \
-macro
+MACRO
 (
 stack
 stack
@@ -2996,7 +2996,7 @@ stack
 "
 )
 \
-macro
+MACRO
 (
 star
 star
@@ -3005,7 +3005,7 @@ star
 "
 )
 \
-macro
+MACRO
 (
 start
 start
@@ -3014,7 +3014,7 @@ start
 "
 )
 \
-macro
+MACRO
 (
 startTimestamp
 startTimestamp
@@ -3023,7 +3023,7 @@ startTimestamp
 "
 )
 \
-macro
+MACRO
 (
 state
 state
@@ -3032,7 +3032,7 @@ state
 "
 )
 \
-macro
+MACRO
 (
 static
 static_
@@ -3041,7 +3041,7 @@ static
 "
 )
 \
-macro
+MACRO
 (
 std_Function_apply
 std_Function_apply
@@ -3050,7 +3050,7 @@ std_Function_apply
 "
 )
 \
-macro
+MACRO
 (
 sticky
 sticky
@@ -3059,7 +3059,7 @@ sticky
 "
 )
 \
-macro
+MACRO
 (
 StringIterator
 StringIterator
@@ -3069,7 +3069,7 @@ Iterator
 "
 )
 \
-macro
+MACRO
 (
 strings
 strings
@@ -3078,7 +3078,7 @@ strings
 "
 )
 \
-macro
+MACRO
 (
 StructType
 StructType
@@ -3087,7 +3087,7 @@ StructType
 "
 )
 \
-macro
+MACRO
 (
 style
 style
@@ -3096,7 +3096,7 @@ style
 "
 )
 \
-macro
+MACRO
 (
 super
 super
@@ -3105,7 +3105,7 @@ super
 "
 )
 \
-macro
+MACRO
 (
 switch
 switch_
@@ -3114,7 +3114,7 @@ switch
 "
 )
 \
-macro
+MACRO
 (
 Symbol_iterator_fun
 Symbol_iterator_fun
@@ -3127,7 +3127,7 @@ iterator
 "
 )
 \
-macro
+MACRO
 (
 target
 target
@@ -3136,7 +3136,7 @@ target
 "
 )
 \
-macro
+MACRO
 (
 test
 test
@@ -3145,7 +3145,7 @@ test
 "
 )
 \
-macro
+MACRO
 (
 then
 then
@@ -3154,7 +3154,7 @@ then
 "
 )
 \
-macro
+MACRO
 (
 this
 this_
@@ -3163,7 +3163,7 @@ this
 "
 )
 \
-macro
+MACRO
 (
 throw
 throw_
@@ -3172,7 +3172,7 @@ throw
 "
 )
 \
-macro
+MACRO
 (
 timestamp
 timestamp
@@ -3181,7 +3181,7 @@ timestamp
 "
 )
 \
-macro
+MACRO
 (
 timeZone
 timeZone
@@ -3190,7 +3190,7 @@ timeZone
 "
 )
 \
-macro
+MACRO
 (
 timeZoneName
 timeZoneName
@@ -3199,7 +3199,7 @@ timeZoneName
 "
 )
 \
-macro
+MACRO
 (
 trimEnd
 trimEnd
@@ -3208,7 +3208,7 @@ trimEnd
 "
 )
 \
-macro
+MACRO
 (
 trimLeft
 trimLeft
@@ -3217,7 +3217,7 @@ trimLeft
 "
 )
 \
-macro
+MACRO
 (
 trimRight
 trimRight
@@ -3226,7 +3226,7 @@ trimRight
 "
 )
 \
-macro
+MACRO
 (
 trimStart
 trimStart
@@ -3235,7 +3235,7 @@ trimStart
 "
 )
 \
-macro
+MACRO
 (
 toGMTString
 toGMTString
@@ -3244,7 +3244,7 @@ toGMTString
 "
 )
 \
-macro
+MACRO
 (
 toISOString
 toISOString
@@ -3253,7 +3253,7 @@ toISOString
 "
 )
 \
-macro
+MACRO
 (
 toJSON
 toJSON
@@ -3262,7 +3262,7 @@ toJSON
 "
 )
 \
-macro
+MACRO
 (
 toLocaleString
 toLocaleString
@@ -3271,7 +3271,7 @@ toLocaleString
 "
 )
 \
-macro
+MACRO
 (
 toSource
 toSource
@@ -3280,7 +3280,7 @@ toSource
 "
 )
 \
-macro
+MACRO
 (
 toString
 toString
@@ -3289,7 +3289,7 @@ toString
 "
 )
 \
-macro
+MACRO
 (
 toUTCString
 toUTCString
@@ -3298,7 +3298,7 @@ toUTCString
 "
 )
 \
-macro
+MACRO
 (
 true
 true_
@@ -3307,7 +3307,7 @@ true
 "
 )
 \
-macro
+MACRO
 (
 try
 try_
@@ -3316,7 +3316,7 @@ try
 "
 )
 \
-macro
+MACRO
 (
 type
 type
@@ -3325,7 +3325,7 @@ type
 "
 )
 \
-macro
+MACRO
 (
 typeof
 typeof_
@@ -3334,7 +3334,7 @@ typeof
 "
 )
 \
-macro
+MACRO
 (
 uint8
 uint8
@@ -3343,7 +3343,7 @@ uint8
 "
 )
 \
-macro
+MACRO
 (
 uint8Clamped
 uint8Clamped
@@ -3352,7 +3352,7 @@ uint8Clamped
 "
 )
 \
-macro
+MACRO
 (
 uint16
 uint16
@@ -3361,7 +3361,7 @@ uint16
 "
 )
 \
-macro
+MACRO
 (
 uint32
 uint32
@@ -3370,7 +3370,7 @@ uint32
 "
 )
 \
-macro
+MACRO
 (
 Uint8x16
 Uint8x16
@@ -3379,7 +3379,7 @@ Uint8x16
 "
 )
 \
-macro
+MACRO
 (
 Uint16x8
 Uint16x8
@@ -3388,7 +3388,7 @@ Uint16x8
 "
 )
 \
-macro
+MACRO
 (
 Uint32x4
 Uint32x4
@@ -3397,7 +3397,7 @@ Uint32x4
 "
 )
 \
-macro
+MACRO
 (
 unescape
 unescape
@@ -3406,7 +3406,7 @@ unescape
 "
 )
 \
-macro
+MACRO
 (
 uneval
 uneval
@@ -3415,7 +3415,7 @@ uneval
 "
 )
 \
-macro
+MACRO
 (
 unicode
 unicode
@@ -3424,7 +3424,7 @@ unicode
 "
 )
 \
-macro
+MACRO
 (
 unit
 unit
@@ -3433,7 +3433,7 @@ unit
 "
 )
 \
-macro
+MACRO
 (
 uninitialized
 uninitialized
@@ -3442,7 +3442,7 @@ uninitialized
 "
 )
 \
-macro
+MACRO
 (
 unsized
 unsized
@@ -3451,7 +3451,7 @@ unsized
 "
 )
 \
-macro
+MACRO
 (
 unwatch
 unwatch
@@ -3460,7 +3460,7 @@ unwatch
 "
 )
 \
-macro
+MACRO
 (
 UnwrapAndCallRegExpBuiltinExec
 UnwrapAndCallRegExpBuiltinExec
@@ -3469,7 +3469,7 @@ UnwrapAndCallRegExpBuiltinExec
 "
 )
 \
-macro
+MACRO
 (
 url
 url
@@ -3478,7 +3478,7 @@ url
 "
 )
 \
-macro
+MACRO
 (
 usage
 usage
@@ -3487,7 +3487,7 @@ usage
 "
 )
 \
-macro
+MACRO
 (
 useAsm
 useAsm
@@ -3497,7 +3497,7 @@ asm
 "
 )
 \
-macro
+MACRO
 (
 useGrouping
 useGrouping
@@ -3506,7 +3506,7 @@ useGrouping
 "
 )
 \
-macro
+MACRO
 (
 useStrict
 useStrict
@@ -3516,7 +3516,7 @@ strict
 "
 )
 \
-macro
+MACRO
 (
 void
 void_
@@ -3525,7 +3525,7 @@ void
 "
 )
 \
-macro
+MACRO
 (
 value
 value
@@ -3534,7 +3534,7 @@ value
 "
 )
 \
-macro
+MACRO
 (
 valueOf
 valueOf
@@ -3543,7 +3543,7 @@ valueOf
 "
 )
 \
-macro
+MACRO
 (
 values
 values
@@ -3552,7 +3552,7 @@ values
 "
 )
 \
-macro
+MACRO
 (
 var
 var
@@ -3561,7 +3561,7 @@ var
 "
 )
 \
-macro
+MACRO
 (
 variable
 variable
@@ -3570,7 +3570,7 @@ variable
 "
 )
 \
-macro
+MACRO
 (
 void0
 void0
@@ -3582,7 +3582,7 @@ void
 "
 )
 \
-macro
+MACRO
 (
 wasm
 wasm
@@ -3591,7 +3591,7 @@ wasm
 "
 )
 \
-macro
+MACRO
 (
 wasmcall
 wasmcall
@@ -3600,7 +3600,7 @@ wasmcall
 "
 )
 \
-macro
+MACRO
 (
 watch
 watch
@@ -3609,7 +3609,7 @@ watch
 "
 )
 \
-macro
+MACRO
 (
 WeakMapConstructorInit
 WeakMapConstructorInit
@@ -3618,7 +3618,7 @@ WeakMapConstructorInit
 "
 )
 \
-macro
+MACRO
 (
 WeakSetConstructorInit
 WeakSetConstructorInit
@@ -3627,7 +3627,7 @@ WeakSetConstructorInit
 "
 )
 \
-macro
+MACRO
 (
 WeakSet_add
 WeakSet_add
@@ -3636,7 +3636,7 @@ WeakSet_add
 "
 )
 \
-macro
+MACRO
 (
 weekday
 weekday
@@ -3645,7 +3645,7 @@ weekday
 "
 )
 \
-macro
+MACRO
 (
 weekendEnd
 weekendEnd
@@ -3654,7 +3654,7 @@ weekendEnd
 "
 )
 \
-macro
+MACRO
 (
 weekendStart
 weekendStart
@@ -3663,7 +3663,7 @@ weekendStart
 "
 )
 \
-macro
+MACRO
 (
 while
 while_
@@ -3672,7 +3672,7 @@ while
 "
 )
 \
-macro
+MACRO
 (
 with
 with
@@ -3681,7 +3681,7 @@ with
 "
 )
 \
-macro
+MACRO
 (
 writable
 writable
@@ -3690,7 +3690,7 @@ writable
 "
 )
 \
-macro
+MACRO
 (
 year
 year
@@ -3699,7 +3699,7 @@ year
 "
 )
 \
-macro
+MACRO
 (
 yield
 yield
@@ -3727,7 +3727,7 @@ TypeName
 *
 /
 \
-macro
+MACRO
 (
 undefined
 undefined
@@ -3736,7 +3736,7 @@ undefined
 "
 )
 \
-macro
+MACRO
 (
 object
 object
@@ -3745,7 +3745,7 @@ object
 "
 )
 \
-macro
+MACRO
 (
 function
 function
@@ -3754,7 +3754,7 @@ function
 "
 )
 \
-macro
+MACRO
 (
 string
 string
@@ -3763,7 +3763,7 @@ string
 "
 )
 \
-macro
+MACRO
 (
 number
 number
@@ -3772,7 +3772,7 @@ number
 "
 )
 \
-macro
+MACRO
 (
 boolean
 boolean
@@ -3781,7 +3781,7 @@ boolean
 "
 )
 \
-macro
+MACRO
 (
 null
 null
@@ -3790,7 +3790,7 @@ null
 "
 )
 \
-macro
+MACRO
 (
 symbol
 symbol
@@ -3799,7 +3799,7 @@ symbol
 "
 )
 \
-macro
+MACRO
 (
 bigint
 bigint
@@ -3808,7 +3808,7 @@ bigint
 "
 )
 \
-macro
+MACRO
 (
 defineDataPropertyIntrinsic
 defineDataPropertyIntrinsic

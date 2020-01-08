@@ -8,10 +8,10 @@ vm_ReservedWords_h
 define
 FOR_EACH_JAVASCRIPT_RESERVED_WORD
 (
-macro
+MACRO
 )
 \
-macro
+MACRO
 (
 false
 false_
@@ -21,7 +21,7 @@ TokenKind
 False
 )
 \
-macro
+MACRO
 (
 true
 true_
@@ -31,7 +31,7 @@ TokenKind
 True
 )
 \
-macro
+MACRO
 (
 null
 null
@@ -49,7 +49,7 @@ Keywords
 *
 /
 \
-macro
+MACRO
 (
 break
 break_
@@ -59,7 +59,7 @@ TokenKind
 Break
 )
 \
-macro
+MACRO
 (
 case
 case_
@@ -69,7 +69,7 @@ TokenKind
 Case
 )
 \
-macro
+MACRO
 (
 catch
 catch_
@@ -79,7 +79,7 @@ TokenKind
 Catch
 )
 \
-macro
+MACRO
 (
 const
 const_
@@ -89,7 +89,7 @@ TokenKind
 Const
 )
 \
-macro
+MACRO
 (
 continue
 continue_
@@ -99,7 +99,7 @@ TokenKind
 Continue
 )
 \
-macro
+MACRO
 (
 debugger
 debugger
@@ -109,7 +109,7 @@ TokenKind
 Debugger
 )
 \
-macro
+MACRO
 (
 default
 default_
@@ -119,7 +119,7 @@ TokenKind
 Default
 )
 \
-macro
+MACRO
 (
 delete
 delete_
@@ -129,7 +129,7 @@ TokenKind
 Delete
 )
 \
-macro
+MACRO
 (
 do
 do_
@@ -139,7 +139,7 @@ TokenKind
 Do
 )
 \
-macro
+MACRO
 (
 else
 else_
@@ -149,7 +149,7 @@ TokenKind
 Else
 )
 \
-macro
+MACRO
 (
 finally
 finally_
@@ -159,7 +159,7 @@ TokenKind
 Finally
 )
 \
-macro
+MACRO
 (
 for
 for_
@@ -169,7 +169,7 @@ TokenKind
 For
 )
 \
-macro
+MACRO
 (
 function
 function
@@ -179,7 +179,7 @@ TokenKind
 Function
 )
 \
-macro
+MACRO
 (
 if
 if_
@@ -189,7 +189,7 @@ TokenKind
 If
 )
 \
-macro
+MACRO
 (
 in
 in
@@ -199,7 +199,7 @@ TokenKind
 In
 )
 \
-macro
+MACRO
 (
 instanceof
 instanceof
@@ -209,7 +209,7 @@ TokenKind
 InstanceOf
 )
 \
-macro
+MACRO
 (
 new
 new_
@@ -219,7 +219,7 @@ TokenKind
 New
 )
 \
-macro
+MACRO
 (
 return
 return_
@@ -229,7 +229,7 @@ TokenKind
 Return
 )
 \
-macro
+MACRO
 (
 switch
 switch_
@@ -239,7 +239,7 @@ TokenKind
 Switch
 )
 \
-macro
+MACRO
 (
 this
 this_
@@ -249,7 +249,7 @@ TokenKind
 This
 )
 \
-macro
+MACRO
 (
 throw
 throw_
@@ -259,7 +259,7 @@ TokenKind
 Throw
 )
 \
-macro
+MACRO
 (
 try
 try_
@@ -269,7 +269,7 @@ TokenKind
 Try
 )
 \
-macro
+MACRO
 (
 typeof
 typeof_
@@ -279,7 +279,7 @@ TokenKind
 TypeOf
 )
 \
-macro
+MACRO
 (
 var
 var
@@ -289,7 +289,7 @@ TokenKind
 Var
 )
 \
-macro
+MACRO
 (
 void
 void_
@@ -299,7 +299,7 @@ TokenKind
 Void
 )
 \
-macro
+MACRO
 (
 while
 while_
@@ -309,7 +309,7 @@ TokenKind
 While
 )
 \
-macro
+MACRO
 (
 with
 with
@@ -319,7 +319,7 @@ TokenKind
 With
 )
 \
-macro
+MACRO
 (
 import
 import
@@ -329,7 +329,7 @@ TokenKind
 Import
 )
 \
-macro
+MACRO
 (
 export
 export_
@@ -339,7 +339,7 @@ TokenKind
 Export
 )
 \
-macro
+MACRO
 (
 class
 class_
@@ -349,7 +349,7 @@ TokenKind
 Class
 )
 \
-macro
+MACRO
 (
 extends
 extends
@@ -359,7 +359,7 @@ TokenKind
 Extends
 )
 \
-macro
+MACRO
 (
 super
 super
@@ -379,7 +379,7 @@ words
 *
 /
 \
-macro
+MACRO
 (
 enum
 enum_
@@ -404,7 +404,7 @@ mode
 *
 /
 \
-macro
+MACRO
 (
 implements
 implements
@@ -414,7 +414,7 @@ TokenKind
 Implements
 )
 \
-macro
+MACRO
 (
 interface
 interface
@@ -424,7 +424,7 @@ TokenKind
 Interface
 )
 \
-macro
+MACRO
 (
 package
 package
@@ -434,7 +434,7 @@ TokenKind
 Package
 )
 \
-macro
+MACRO
 (
 private
 private_
@@ -444,7 +444,7 @@ TokenKind
 Private
 )
 \
-macro
+MACRO
 (
 protected
 protected_
@@ -454,7 +454,7 @@ TokenKind
 Protected
 )
 \
-macro
+MACRO
 (
 public
 public_
@@ -473,7 +473,7 @@ keywords
 *
 /
 \
-macro
+MACRO
 (
 as
 as
@@ -483,7 +483,7 @@ TokenKind
 As
 )
 \
-macro
+MACRO
 (
 async
 async
@@ -493,7 +493,7 @@ TokenKind
 Async
 )
 \
-macro
+MACRO
 (
 await
 await
@@ -503,7 +503,7 @@ TokenKind
 Await
 )
 \
-macro
+MACRO
 (
 from
 from
@@ -513,7 +513,7 @@ TokenKind
 From
 )
 \
-macro
+MACRO
 (
 get
 get
@@ -523,7 +523,7 @@ TokenKind
 Get
 )
 \
-macro
+MACRO
 (
 let
 let
@@ -533,7 +533,7 @@ TokenKind
 Let
 )
 \
-macro
+MACRO
 (
 meta
 meta
@@ -543,7 +543,7 @@ TokenKind
 Meta
 )
 \
-macro
+MACRO
 (
 of
 of
@@ -553,7 +553,7 @@ TokenKind
 Of
 )
 \
-macro
+MACRO
 (
 set
 set
@@ -563,7 +563,7 @@ TokenKind
 Set
 )
 \
-macro
+MACRO
 (
 static
 static_
@@ -573,7 +573,7 @@ TokenKind
 Static
 )
 \
-macro
+MACRO
 (
 target
 target
@@ -633,7 +633,7 @@ parser
 *
 /
 \
-macro
+MACRO
 (
 yield
 yield
