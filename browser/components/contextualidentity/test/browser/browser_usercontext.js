@@ -286,9 +286,7 @@ title
 =
 browser
 .
-contentDocumentAsCPOW
-.
-title
+contentTitle
 .
 trim
 (
