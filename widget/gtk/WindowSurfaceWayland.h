@@ -287,6 +287,11 @@ return
 mAttached
 ;
 }
+void
+Clear
+(
+)
+;
 bool
 Resize
 (
@@ -475,6 +480,8 @@ int
 aWidth
 int
 aHeight
+bool
+aClearBuffer
 )
 ;
 already_AddRefed

@@ -1804,6 +1804,11 @@ GetWaylandSurface
 (
 )
 ;
+bool
+WaylandSurfaceNeedsClear
+(
+)
+;
 #
 endif
 virtual

@@ -157,6 +157,9 @@ wl_egl_window
 eglwindow
 ;
 gboolean
+needs_clear
+;
+gboolean
 parent_surface_committed
 ;
 gulong
@@ -246,6 +249,14 @@ container
 ;
 gboolean
 moz_container_has_wl_egl_window
+(
+MozContainer
+*
+container
+)
+;
+gboolean
+moz_container_needs_clear
 (
 MozContainer
 *
