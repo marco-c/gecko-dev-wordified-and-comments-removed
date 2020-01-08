@@ -3616,6 +3616,12 @@ getCurrentWindow
 )
 )
 ;
+this
+.
+_handleUserPrompts
+(
+)
+;
 assert
 .
 string
