@@ -2648,17 +2648,6 @@ Continue
 )
 )
 ;
-MOZ_ASSERT
-(
-pn
--
->
-isArity
-(
-PN_NULLARY
-)
-)
-;
 return
 pn
 -

@@ -3184,14 +3184,14 @@ YieldHandling
 yieldHandling
 )
 ;
-Node
+ContinueStatementType
 continueStatement
 (
 YieldHandling
 yieldHandling
 )
 ;
-Node
+BreakStatementType
 breakStatement
 (
 YieldHandling
@@ -3239,7 +3239,7 @@ Scope
 catchParamScope
 )
 ;
-Node
+DebuggerStatementType
 debuggerStatement
 (
 )
