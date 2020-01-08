@@ -24541,7 +24541,7 @@ switch
 Debugger
 :
 :
-onEnterFrame
+onResumeFrame
 (
 cx
 REGS
