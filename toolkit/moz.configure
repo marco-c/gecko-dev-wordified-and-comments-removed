@@ -9393,8 +9393,6 @@ msvc
 :
 return
 None
-else
-:
 return
 True
 set_config
