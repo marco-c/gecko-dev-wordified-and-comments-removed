@@ -2115,6 +2115,30 @@ project
 "
 ]
 )
+            
+'
+release
+-
+artifacts
+'
+:
+[
+artifact
+[
+'
+name
+'
+]
+for
+artifact
+in
+worker
+[
+'
+artifacts
+'
+]
+]
         
 }
         
