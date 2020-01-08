@@ -641,17 +641,6 @@ topsrcdir
 sccache2
 /
 sccache
-mk_add_options
-"
-UPLOAD_EXTRA_FILES
-+
-=
-sccache
-.
-log
-.
-gz
-"
 case
 "
 platform
