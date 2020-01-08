@@ -9191,7 +9191,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 .
 name
 ;

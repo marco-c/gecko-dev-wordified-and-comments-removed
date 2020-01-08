@@ -4093,7 +4093,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 =
 defaultEngine
 ;

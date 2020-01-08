@@ -1410,7 +1410,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 .
 getIconURLBySize
 (
@@ -1929,7 +1929,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 =
 Services
 .
@@ -2384,7 +2384,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 ;
 let
 favicon

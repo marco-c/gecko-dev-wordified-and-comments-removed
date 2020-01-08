@@ -272,7 +272,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 ;
 let
 submission
@@ -442,13 +442,13 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 =
 Services
 .
 search
 .
-defaultEngine
+currentEngine
 ;
 record
 (
@@ -499,7 +499,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 =
 engine
 ;

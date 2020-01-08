@@ -479,7 +479,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 )
 ;
 }

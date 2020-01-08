@@ -489,7 +489,7 @@ Services
 .
 search
 .
-defaultEngine
+currentEngine
 .
 searchForm
 }
