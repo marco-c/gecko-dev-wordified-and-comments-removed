@@ -12842,6 +12842,10 @@ adjustHeaderState
 (
 )
 ;
+urlStateRestore
+(
+)
+;
 Telemetry
 .
 asyncFetchTelemetryData
@@ -12856,10 +12860,6 @@ await
 PingPicker
 .
 update
-(
-)
-;
-urlStateRestore
 (
 )
 ;
