@@ -180,7 +180,10 @@ nsFontFaceLoader
 (
 )
 ;
-uint8_t
+mozilla
+:
+:
+StyleFontDisplay
 GetFontDisplay
 (
 )
