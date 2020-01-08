@@ -4293,13 +4293,10 @@ cascade
 declaration
 .
 name
+&
 declaration
 .
 value
-.
-borrow
-(
-)
 )
 ;
 }

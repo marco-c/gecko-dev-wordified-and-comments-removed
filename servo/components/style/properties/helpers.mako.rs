@@ -1974,7 +1974,6 @@ properties
 :
 :
 {
-DeclaredValue
 LonghandId
 LonghandIdSet
 }
