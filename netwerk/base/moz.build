@@ -695,6 +695,11 @@ nsIURIMutator
 idl
 '
 '
+nsIURIWithSpecialOrigin
+.
+idl
+'
+'
 nsIURL
 .
 idl
