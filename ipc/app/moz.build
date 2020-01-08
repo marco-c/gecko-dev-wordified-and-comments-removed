@@ -527,15 +527,6 @@ CXXFLAGS
 Wshadow
 '
 ]
-DEFINES
-[
-'
-MOZ_PLUGIN_CONTAINER
-'
-]
-=
-1
-;
 with
 Files
 (
