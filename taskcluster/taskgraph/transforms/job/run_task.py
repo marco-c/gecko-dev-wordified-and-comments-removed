@@ -29,6 +29,14 @@ taskgraph
 .
 transforms
 .
+task
+import
+taskref_or_string
+from
+taskgraph
+.
+transforms
+.
 job
 import
 run_job_using
@@ -130,9 +138,9 @@ command
 Any
 (
 [
-basestring
+taskref_or_string
 ]
-basestring
+taskref_or_string
 )
     
 Required
@@ -571,7 +579,10 @@ if
 isinstance
 (
 run_command
+(
 basestring
+dict
+)
 )
 :
         
