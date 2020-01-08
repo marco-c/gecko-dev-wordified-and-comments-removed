@@ -173,17 +173,6 @@ ErrorResult
 aRv
 )
 ;
-nsPIDOMWindowInner
-*
-GetParentObject
-(
-)
-const
-{
-return
-mWindow
-;
-}
 static
 void
 Log
