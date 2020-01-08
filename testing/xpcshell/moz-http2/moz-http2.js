@@ -3803,7 +3803,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -3979,7 +3979,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -4071,7 +4071,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -4129,8 +4129,6 @@ dns
 -
 get
 ?
-ct
-&
 dns
 =
 AAABAAABAAAAAAAAA2dldAdleGFtcGxlA2NvbQAAAQAB
@@ -4165,7 +4163,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -4259,7 +4257,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -4374,7 +4372,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -4536,7 +4534,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -4624,7 +4622,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -4712,7 +4710,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -4832,8 +4830,6 @@ pushed
 -
 response
 ?
-ct
-&
 dns
 =
 AAAAAAABAAAAAAAABHB1c2gHZXhhbXBsZQNjb20AABwAAQ
@@ -4855,7 +4851,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 }
 }
@@ -4878,7 +4874,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 '
 pushed
@@ -4931,7 +4927,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;
@@ -5095,7 +5091,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 '
 )
 ;

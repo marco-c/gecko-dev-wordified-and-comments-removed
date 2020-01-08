@@ -886,8 +886,6 @@ NS_LITERAL_CSTRING
 (
 "
 ?
-ct
-&
 dns
 =
 "
@@ -1094,7 +1092,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 "
 )
 false
@@ -1350,7 +1348,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 "
 )
 streamLength
@@ -1386,7 +1384,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 "
 )
 )
@@ -5121,7 +5119,7 @@ application
 /
 dns
 -
-udpwireformat
+message
 "
 )
 )
@@ -5139,10 +5137,7 @@ p
 s
 %
 d
-should
-fail
-due
-to
+wrong
 content
 type
 %
