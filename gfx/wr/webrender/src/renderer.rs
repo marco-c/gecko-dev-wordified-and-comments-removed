@@ -23764,6 +23764,10 @@ pub
 namespace_alloc_by_client
 :
 bool
+pub
+enable_picture_caching
+:
+bool
 }
 impl
 Default
@@ -23906,6 +23910,9 @@ support_low_priority_transactions
 :
 false
 namespace_alloc_by_client
+:
+false
+enable_picture_caching
 :
 false
 }
