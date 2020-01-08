@@ -33809,9 +33809,6 @@ aSourceArea
 nscoord
 appUnitsPerCSSPixel
 =
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
