@@ -119,6 +119,9 @@ ParcelFileDescriptor
 prefsPfd
 in
 ParcelFileDescriptor
+prefMapPfd
+in
+ParcelFileDescriptor
 ipcPfd
 in
 ParcelFileDescriptor

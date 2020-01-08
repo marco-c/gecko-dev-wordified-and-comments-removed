@@ -316,6 +316,9 @@ ParcelFileDescriptor
 prefsPfd
 final
 ParcelFileDescriptor
+prefMapPfd
+final
+ParcelFileDescriptor
 ipcPfd
 final
 ParcelFileDescriptor
@@ -367,6 +370,16 @@ int
 prefsFd
 =
 prefsPfd
+.
+detachFd
+(
+)
+;
+final
+int
+prefMapFd
+=
+prefMapPfd
 .
 detachFd
 (
@@ -444,6 +457,7 @@ args
 extras
 flags
 prefsFd
+prefMapFd
 ipcFd
 crashReporterFd
 crashAnnotationFd
