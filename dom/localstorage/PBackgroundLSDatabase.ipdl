@@ -89,6 +89,9 @@ LSItemInfo
 ]
 itemInfos
 ;
+uint32_t
+totalLength
+;
 int64_t
 initialUsage
 ;
