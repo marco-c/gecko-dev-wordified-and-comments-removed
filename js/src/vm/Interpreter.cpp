@@ -1780,17 +1780,6 @@ setIsClassConstructor
 (
 )
 ;
-MOZ_ASSERT
-(
-ctor
--
->
-infallibleIsDefaultClassConstructor
-(
-cx
-)
-)
-;
 JSScript
 *
 ctorScript

@@ -977,15 +977,6 @@ INTERPRETED
 ;
 }
 bool
-infallibleIsDefaultClassConstructor
-(
-JSContext
-*
-cx
-)
-const
-;
-bool
 isArrow
 (
 )
