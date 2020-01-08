@@ -794,6 +794,14 @@ nsISupportsPrimitives
 .
 idl
 *
+param
+aDataLen
+the
+length
+of
+the
+data
+*
 /
 void
 getFlavorData
@@ -807,6 +815,10 @@ aFlavor
 out
 nsISupports
 aData
+out
+unsigned
+long
+aDataLen
 )
 ;
 }
@@ -1122,6 +1134,10 @@ aFlavor
 out
 nsISupports
 aData
+out
+unsigned
+long
+aDataLen
 )
 ;
 /
@@ -1393,6 +1409,10 @@ aFlavor
 in
 nsISupports
 aData
+in
+unsigned
+long
+aDataLen
 )
 ;
 /

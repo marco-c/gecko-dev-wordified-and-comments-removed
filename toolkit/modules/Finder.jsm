@@ -3008,6 +3008,12 @@ data
 {
 }
 ;
+let
+dataLen
+=
+{
+}
+;
 trans
 .
 getTransferData
@@ -3018,6 +3024,7 @@ text
 unicode
 "
 data
+dataLen
 )
 ;
 if

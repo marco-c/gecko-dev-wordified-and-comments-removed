@@ -4816,6 +4816,7 @@ SetTransferData
 (
 kCustomTypesMime
 strSupports
+totalCustomLength
 )
 ;
 if
@@ -4944,6 +4945,7 @@ SetTransferData
 (
 format
 convertedData
+lengthInBytes
 )
 ;
 if

@@ -35592,6 +35592,11 @@ SetTransferData
 (
 kFilePromiseDirectoryMime
 macLocalFile
+sizeof
+(
+nsIFile
+*
+)
 )
 ;
 /
@@ -35625,6 +35630,11 @@ nsISupports
 >
 fileDataPrimitive
 ;
+uint32_t
+dataSize
+=
+0
+;
 item
 -
 >
@@ -35635,6 +35645,8 @@ getter_AddRefs
 (
 fileDataPrimitive
 )
+&
+dataSize
 )
 ;
 }

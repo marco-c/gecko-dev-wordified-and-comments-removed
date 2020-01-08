@@ -1462,6 +1462,7 @@ get
 (
 )
 genericDataWrapper
+dataLength
 )
 ;
 free
@@ -1603,6 +1604,7 @@ get
 (
 )
 genericDataWrapper
+dataLength
 )
 ;
 free
@@ -2061,6 +2063,11 @@ get
 (
 )
 byteStream
+sizeof
+(
+nsIInputStream
+*
+)
 )
 ;
 }
@@ -2317,6 +2324,11 @@ nsISupports
 >
 dataSupports
 ;
+uint32_t
+dataSize
+=
+0
+;
 rv
 =
 mTransferable
@@ -2333,6 +2345,8 @@ getter_AddRefs
 (
 dataSupports
 )
+&
+dataSize
 )
 ;
 if
@@ -2354,6 +2368,7 @@ get
 (
 )
 dataSupports
+dataSize
 )
 ;
 return
@@ -3042,6 +3057,11 @@ pboardType
 )
 )
 {
+uint32_t
+dataSize
+=
+0
+;
 nsCOMPtr
 <
 nsISupports
@@ -3064,6 +3084,8 @@ getter_AddRefs
 (
 genericDataWrapper
 )
+&
+dataSize
 )
 ;
 if
@@ -3200,6 +3222,11 @@ kCustomTypesMime
 )
 )
 {
+uint32_t
+dataSize
+=
+0
+;
 nsCOMPtr
 <
 nsISupports
@@ -3222,6 +3249,8 @@ getter_AddRefs
 (
 genericDataWrapper
 )
+&
+dataSize
 )
 ;
 if
@@ -3359,6 +3388,11 @@ kNativeImageMime
 )
 )
 {
+uint32_t
+dataSize
+=
+0
+;
 nsCOMPtr
 <
 nsISupports
@@ -3379,6 +3413,8 @@ getter_AddRefs
 (
 transferSupports
 )
+&
+dataSize
 )
 ;
 nsCOMPtr
@@ -3607,6 +3643,11 @@ kFileMime
 )
 )
 {
+uint32_t
+len
+=
+0
+;
 nsCOMPtr
 <
 nsISupports
@@ -3629,6 +3670,8 @@ getter_AddRefs
 (
 genericFile
 )
+&
+len
 )
 ;
 if
@@ -3827,6 +3870,11 @@ kURLMime
 )
 )
 {
+uint32_t
+len
+=
+0
+;
 nsCOMPtr
 <
 nsISupports
@@ -3849,6 +3897,8 @@ getter_AddRefs
 (
 genericURL
 )
+&
+len
 )
 ;
 nsCOMPtr
@@ -3959,11 +4009,7 @@ urlTitle
 newlinePos
 +
 1
-urlTitle
-.
-Length
-(
-)
+len
 -
 (
 newlinePos

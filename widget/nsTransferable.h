@@ -77,6 +77,10 @@ char
 aFlavor
 )
 :
+mDataLen
+(
+0
+)
 mCacheFD
 (
 nullptr
@@ -118,6 +122,8 @@ SetData
 nsISupports
 *
 inData
+uint32_t
+inDataLen
 bool
 aIsPrivateData
 )
@@ -129,6 +135,9 @@ nsISupports
 *
 *
 outData
+uint32_t
+*
+outDataLen
 )
 ;
 bool
@@ -139,9 +148,15 @@ const
 {
 return
 mData
-|
-|
+?
+mDataLen
+>
+0
+:
 mCacheFD
+!
+=
+nullptr
 ;
 }
 protected
@@ -156,7 +171,7 @@ kLargeDatasetSize
 nsresult
 WriteCache
 (
-void
+nsISupports
 *
 aData
 uint32_t
@@ -170,6 +185,9 @@ nsISupports
 *
 *
 aData
+uint32_t
+*
+aDataLen
 )
 ;
 nsCOMPtr
@@ -177,6 +195,9 @@ nsCOMPtr
 nsISupports
 >
 mData
+;
+uint32_t
+mDataLen
 ;
 PRFileDesc
 *

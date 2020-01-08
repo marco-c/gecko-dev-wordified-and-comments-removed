@@ -2343,6 +2343,11 @@ nsISupports
 >
 dataSupports
 ;
+uint32_t
+dataSize
+=
+0
+;
 rv
 =
 currentTransferable
@@ -2359,6 +2364,8 @@ getter_AddRefs
 (
 dataSupports
 )
+&
+dataSize
 )
 ;
 if
@@ -2380,6 +2387,7 @@ get
 (
 )
 dataSupports
+dataSize
 )
 ;
 return
@@ -2678,6 +2686,7 @@ get
 (
 )
 file
+dataLength
 )
 ;
 break
@@ -2813,6 +2822,11 @@ get
 (
 )
 genericDataWrapper
+sizeof
+(
+nsIInputStream
+*
+)
 )
 ;
 free
@@ -3230,6 +3244,7 @@ get
 (
 )
 genericDataWrapper
+dataLength
 )
 ;
 free

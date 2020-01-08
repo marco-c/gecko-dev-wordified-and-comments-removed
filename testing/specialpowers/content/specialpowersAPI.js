@@ -8474,6 +8474,8 @@ getTransferData
 (
 flavor
 data
+{
+}
 )
 ;
 }
