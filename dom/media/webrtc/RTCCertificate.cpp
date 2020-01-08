@@ -131,6 +131,7 @@ NS_INTERFACE_MAP_END
 #
 define
 ONE_DAY
+\
 PRTime
 (
 PR_USEC_PER_SEC

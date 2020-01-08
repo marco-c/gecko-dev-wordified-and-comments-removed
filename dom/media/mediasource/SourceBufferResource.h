@@ -48,6 +48,7 @@ define
 UNIMPLEMENTED
 (
 )
+\
 {
 /
 *
@@ -62,6 +63,7 @@ by
 default
 *
 /
+\
 }
 namespace
 mozilla

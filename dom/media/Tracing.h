@@ -179,7 +179,6 @@ EventType
 :
 :
 DURATION
-\
 aFmt
 #
 #
@@ -282,7 +281,6 @@ EventType
 :
 :
 DURATION
-\
 aFmt
 #
 #

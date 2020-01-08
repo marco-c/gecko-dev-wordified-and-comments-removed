@@ -29,10 +29,12 @@ define
 PEERCONNECTION_CID
 \
 {
+\
 0xb93af7a1
 0x3411
 0x44a8
 {
+\
 0xbd
 0x0a
 0x8a
@@ -41,7 +43,9 @@ PEERCONNECTION_CID
 0xe4
 0xd8
 0xd8
+\
 }
+\
 }
 #
 define

@@ -153,13 +153,13 @@ using
 NativeCallbacks
 :
 :
-DisposeNative
+AttachNative
 ;
 using
 NativeCallbacks
 :
 :
-AttachNative
+DisposeNative
 ;
 explicit
 HLSResourceCallbacksSupport

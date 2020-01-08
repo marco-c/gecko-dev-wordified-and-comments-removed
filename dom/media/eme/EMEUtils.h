@@ -61,6 +61,7 @@ EME_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 GetEMELog
@@ -114,6 +115,7 @@ EME_VERBOSE_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 GetEMEVerboseLog

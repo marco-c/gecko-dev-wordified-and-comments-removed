@@ -4858,6 +4858,8 @@ because
 we
 have
 incomplete
+"
+"
 visibility
 states
 .
@@ -4885,6 +4887,8 @@ the
 element
 has
 been
+"
+"
 tainted
 .
 "
@@ -4924,6 +4928,8 @@ element
 is
 not
 in
+"
+"
 tree
 .
 "
@@ -4962,6 +4968,8 @@ element
 is
 forced
 to
+"
+"
 be
 suspended
 .
@@ -5001,6 +5009,8 @@ tab
 is
 in
 background
+"
+"
 and
 hovered
 .
@@ -5078,6 +5088,8 @@ the
 element
 is
 not
+"
+"
 visible
 .
 "

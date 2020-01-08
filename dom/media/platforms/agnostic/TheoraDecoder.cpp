@@ -70,7 +70,6 @@ arg
 DDMOZ_LOG
 (
 gMediaDecoderLog
-\
 mozilla
 :
 :
@@ -78,7 +77,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 :
 :
@@ -89,7 +87,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__

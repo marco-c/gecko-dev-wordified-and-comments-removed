@@ -151,6 +151,7 @@ n
 t
 v
 )
+\
 t
 av_used
 __attribute__
@@ -175,6 +176,7 @@ n
 t
 v
 )
+\
 static
 const
 t
@@ -252,6 +254,7 @@ n
 t
 v
 )
+\
 static
 const
 t

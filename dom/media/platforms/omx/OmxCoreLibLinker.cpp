@@ -61,6 +61,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 sPDMLog
@@ -71,6 +72,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 OmxCoreLibLinker

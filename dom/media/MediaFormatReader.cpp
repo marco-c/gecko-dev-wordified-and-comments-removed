@@ -202,7 +202,6 @@ arg
 DDMOZ_LOG
 (
 sFormatDecoderLog
-\
 mozilla
 :
 :
@@ -210,7 +209,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 :
 :
@@ -221,7 +219,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -239,7 +236,6 @@ arg
 DDMOZ_LOG
 (
 sFormatDecoderLog
-\
 mozilla
 :
 :
@@ -247,7 +243,6 @@ LogLevel
 :
 :
 Verbose
-\
 "
 :
 :
@@ -258,7 +253,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -12480,6 +12474,8 @@ must
 be
 disconnected
 when
+"
+"
 timethreshold
 is
 reset

@@ -3551,6 +3551,8 @@ GeckoMediaPluginServiceParent
 AsyncAddPluginDirectory
 %
 s
+"
+"
 succeeded
 "
 NS_ConvertUTF16toUTF8
@@ -3607,6 +3609,8 @@ GeckoMediaPluginServiceParent
 AsyncAddPluginDirectory
 %
 s
+"
+"
 failed
 "
 NS_ConvertUTF16toUTF8

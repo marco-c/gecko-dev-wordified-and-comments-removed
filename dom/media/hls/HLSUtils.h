@@ -32,6 +32,7 @@ format
 .
 .
 )
+\
 MOZ_LOG
 (
 GetHLSLog
@@ -44,6 +45,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 TAG
 "
@@ -75,6 +77,7 @@ format
 .
 .
 )
+\
 MOZ_LOG
 (
 GetHLSLog
@@ -87,6 +90,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 TAG
 "

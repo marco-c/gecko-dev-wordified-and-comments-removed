@@ -40,6 +40,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 gMediaDemuxerLog
@@ -50,6 +51,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 WebMBufferedParser

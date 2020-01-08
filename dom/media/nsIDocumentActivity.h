@@ -16,11 +16,12 @@ define
 NS_IDOCUMENTACTIVITY_IID
 \
 {
+\
 0x9b9f584e
 0xefa8
 0x11e3
-\
 {
+\
 0xbb
 0x74
 0x5e
@@ -29,7 +30,9 @@ NS_IDOCUMENTACTIVITY_IID
 0x5d
 0x46
 0xb0
+\
 }
+\
 }
 class
 nsIDocumentActivity

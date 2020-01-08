@@ -95,6 +95,7 @@ x
 .
 .
 )
+\
 MOZ_LOG
 (
 gMediaDecoderLog
@@ -121,6 +122,7 @@ x
 .
 .
 )
+\
 MOZ_LOG
 (
 gMediaDecoderLog

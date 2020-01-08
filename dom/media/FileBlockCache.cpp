@@ -104,6 +104,7 @@ x
 .
 .
 )
+\
 MOZ_LOG
 (
 gFileBlockCacheLog
@@ -111,7 +112,6 @@ LogLevel
 :
 :
 Debug
-\
 (
 "
 %

@@ -1468,6 +1468,8 @@ rejects
 the
 promise
 with
+"
+"
 reason
 %
 s

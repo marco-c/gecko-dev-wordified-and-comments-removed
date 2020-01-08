@@ -284,6 +284,7 @@ force_null_context
 #
 define
 PREF_CUBEB_DISABLE_DEVICE_SWITCHING
+\
 "
 media
 .

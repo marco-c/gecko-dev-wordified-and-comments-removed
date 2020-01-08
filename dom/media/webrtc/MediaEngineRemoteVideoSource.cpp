@@ -142,6 +142,7 @@ LOGFRAME
 (
 msg
 )
+\
 MOZ_LOG
 (
 GetMediaManagerLog

@@ -85,7 +85,6 @@ msg
 \
 DDMOZ_LOG
 (
-\
 gMediaResourceIndexLog
 mozilla
 :
@@ -95,6 +94,7 @@ LogLevel
 :
 Debug
 msg
+\
 #
 #
 __VA_ARGS__

@@ -112,7 +112,6 @@ arg
 MOZ_LOG
 (
 sAndroidDecoderModuleLog
-\
 mozilla
 :
 :

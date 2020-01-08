@@ -182,7 +182,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -190,7 +189,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 (
 %
@@ -213,9 +211,7 @@ OriginalString
 Data
 (
 )
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -235,7 +231,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -243,7 +238,6 @@ LogLevel
 :
 :
 Verbose
-\
 "
 (
 %
@@ -266,9 +260,7 @@ OriginalString
 Data
 (
 )
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -288,7 +280,6 @@ DDMOZ_LOG
 GetMediaSourceAPILog
 (
 )
-\
 mozilla
 :
 :
@@ -309,7 +300,6 @@ s
 :
 "
 arg
-\
 mType
 .
 OriginalString
@@ -319,7 +309,6 @@ OriginalString
 Data
 (
 )
-\
 __func__
 \
 #

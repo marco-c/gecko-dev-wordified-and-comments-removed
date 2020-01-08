@@ -85,7 +85,6 @@ MOZ_LOG
 (
 \
 sAndroidDecoderModuleLog
-\
 mozilla
 :
 :

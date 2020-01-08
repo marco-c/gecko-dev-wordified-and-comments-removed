@@ -21,6 +21,7 @@ FFMPEG_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 sPDMLog

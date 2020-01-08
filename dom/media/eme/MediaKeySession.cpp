@@ -1170,6 +1170,8 @@ is
 already
 initialized
 in
+"
+"
 MediaKeySession
 .
 generateRequest
@@ -1367,6 +1369,8 @@ Unsupported
 initDataType
 passed
 to
+"
+"
 MediaKeySession
 .
 generateRequest
@@ -1393,6 +1397,8 @@ GenerateRequest
 )
 failed
 unsupported
+"
+"
 initDataType
 "
 this
@@ -1437,6 +1443,8 @@ initData
 sanitization
 failed
 in
+"
+"
 MediaKeySession
 .
 generateRequest
@@ -1463,6 +1471,8 @@ GenerateRequest
 )
 initData
 sanitization
+"
+"
 failed
 "
 this
@@ -1906,6 +1916,8 @@ a
 non
 -
 persistent
+"
+"
 session
 "
 this
@@ -2207,6 +2219,8 @@ is
 closed
 or
 was
+"
+"
 not
 properly
 initialised

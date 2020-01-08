@@ -167,7 +167,6 @@ arg
 DDMOZ_LOG
 (
 gMediaDemuxerLog
-\
 mozilla
 :
 :
@@ -175,7 +174,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 :
 :
@@ -186,7 +184,6 @@ s
 arg
 \
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -4370,7 +4367,6 @@ end
 )
 0
 )
-\
 +
 std
 :
@@ -4400,7 +4396,6 @@ end
 0
 )
 )
-\
 =
 =
 length

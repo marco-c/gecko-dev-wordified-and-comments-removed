@@ -82,11 +82,12 @@ define
 MOZILLA_DOM_MEDIASTREAMERROR_IMPLEMENTATION_IID
 \
 {
+\
 0x95fa29aa
 0x0cc2
 0x4698
-\
 {
+\
 0x9d
 0xa9
 0xf2
@@ -95,7 +96,9 @@ MOZILLA_DOM_MEDIASTREAMERROR_IMPLEMENTATION_IID
 0x91
 0x0b
 0xd1
+\
 }
+\
 }
 class
 MediaStreamError

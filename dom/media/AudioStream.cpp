@@ -171,6 +171,7 @@ x
 .
 .
 )
+\
 MOZ_LOG
 (
 gAudioStreamLog
@@ -181,6 +182,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 %
@@ -202,6 +204,7 @@ x
 .
 .
 )
+\
 MOZ_LOG
 (
 gAudioStreamLog
@@ -212,6 +215,7 @@ LogLevel
 :
 :
 Warning
+\
 (
 "
 %
@@ -233,9 +237,11 @@ x
 .
 .
 )
+\
 NS_DebugBreak
 (
 NS_DEBUG_WARNING
+\
 nsPrintfCString
 (
 "
@@ -253,6 +259,7 @@ get
 (
 )
 nullptr
+\
 __FILE__
 __LINE__
 )

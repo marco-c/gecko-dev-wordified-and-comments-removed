@@ -1786,6 +1786,7 @@ slice_flags
 #
 define
 SLICE_FLAG_CODED_ORDER
+\
 0x0001
 /
 /
@@ -1805,6 +1806,7 @@ display
 #
 define
 SLICE_FLAG_ALLOW_FIELD
+\
 0x0002
 /
 /
@@ -1827,6 +1829,7 @@ pics
 #
 define
 SLICE_FLAG_ALLOW_PLANE
+\
 0x0004
 /
 /
@@ -2309,6 +2312,7 @@ FF_BUG_DC_CLIP
 #
 define
 FF_BUG_MS
+\
 8192
 /
 /
@@ -2339,6 +2343,7 @@ strict_std_compliance
 #
 define
 FF_COMPLIANCE_VERY_STRICT
+\
 2
 /
 /
@@ -2356,12 +2361,10 @@ of
 the
 spec
 or
-reference
-software
-.
 #
 define
 FF_COMPLIANCE_STRICT
+\
 1
 /
 /
@@ -2379,8 +2382,6 @@ spec
 no
 matter
 what
-consequences
-.
 #
 define
 FF_COMPLIANCE_NORMAL
@@ -2400,6 +2401,7 @@ extensions
 #
 define
 FF_COMPLIANCE_EXPERIMENTAL
+\
 -
 2
 /
@@ -2520,6 +2522,7 @@ debug_mv
 #
 define
 FF_DEBUG_VIS_MV_P_FOR
+\
 0x00000001
 /
 /
@@ -2534,6 +2537,7 @@ frames
 #
 define
 FF_DEBUG_VIS_MV_B_FOR
+\
 0x00000002
 /
 /
@@ -2548,6 +2552,7 @@ frames
 #
 define
 FF_DEBUG_VIS_MV_B_BACK
+\
 0x00000004
 /
 /
@@ -2646,6 +2651,7 @@ continue
 #
 define
 AV_EF_CAREFUL
+\
 (
 1
 <
@@ -2666,19 +2672,10 @@ are
 fast
 to
 calculate
-and
-have
-not
-been
-seen
-in
-the
-wild
-as
-errors
 #
 define
 AV_EF_COMPLIANT
+\
 (
 1
 <
@@ -2699,6 +2696,7 @@ errors
 #
 define
 AV_EF_AGGRESSIVE
+\
 (
 1
 <
@@ -2821,6 +2819,7 @@ FF_IDCT_SIMPLENEON
 #
 define
 FF_IDCT_NONE
+\
 24
 /
 *
@@ -2887,6 +2886,7 @@ once
 #
 define
 FF_THREAD_SLICE
+\
 2
 /
 /
@@ -3481,6 +3481,7 @@ sub_charenc_mode
 #
 define
 FF_SUB_CHARENC_MODE_DO_NOTHING
+\
 -
 1
 /
@@ -3502,17 +3503,10 @@ in
 UTF
 -
 8
-or
-the
-codec
-is
-bitmap
-for
-instance
-)
 #
 define
 FF_SUB_CHARENC_MODE_AUTOMATIC
+\
 0
 /
 /
@@ -3527,6 +3521,7 @@ itself
 #
 define
 FF_SUB_CHARENC_MODE_PRE_DECODER
+\
 1
 /
 /
@@ -3548,12 +3543,10 @@ being
 fed
 to
 the
-decoder
-requires
-iconv
 #
 define
 FF_SUB_CHARENC_MODE_IGNORE
+\
 2
 /
 /
@@ -3587,6 +3580,7 @@ debug_mv
 #
 define
 FF_DEBUG_VIS_MV_P_FOR
+\
 0x00000001
 /
 /
@@ -3600,6 +3594,7 @@ frames
 #
 define
 FF_DEBUG_VIS_MV_B_FOR
+\
 0x00000002
 /
 /
@@ -3613,6 +3608,7 @@ frames
 #
 define
 FF_DEBUG_VIS_MV_B_BACK
+\
 0x00000004
 /
 /

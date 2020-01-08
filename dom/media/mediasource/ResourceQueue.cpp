@@ -83,6 +83,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 GetSourceBufferResourceLog
@@ -95,6 +96,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 ResourceQueue
@@ -125,6 +127,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 GetSourceBufferResourceLog
@@ -137,6 +140,7 @@ LogLevel
 :
 :
 Verbose
+\
 (
 "
 ResourceQueue

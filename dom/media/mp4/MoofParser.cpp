@@ -93,6 +93,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 GetDemuxerLog
@@ -105,6 +106,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 TOSTRING
 (

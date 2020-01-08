@@ -33,10 +33,12 @@ define
 FAKESYNTHSERVICE_CID
 \
 {
+\
 0xe7d52d9e
 0xc148
 0x47d8
 {
+\
 0xab
 0x2a
 0x95
@@ -45,7 +47,9 @@ FAKESYNTHSERVICE_CID
 0x0e
 0xa5
 0x3d
+\
 }
+\
 }
 #
 define

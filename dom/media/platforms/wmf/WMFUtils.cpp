@@ -1004,12 +1004,12 @@ FunctionName
 #
 Ptr
 =
-\
 (
 FunctionType
 )
 GetProcAddress
 (
+\
 GetModuleHandleW
 (
 L

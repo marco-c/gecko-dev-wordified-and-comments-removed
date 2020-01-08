@@ -1264,6 +1264,8 @@ local
 =
 %
 s
+"
+"
 queued
 =
 %
@@ -2868,6 +2870,8 @@ FindBestMatch
 -
 Matched
 C
+"
+"
 locale
 language
 (
@@ -3373,6 +3377,8 @@ uri
 %
 s
 '
+"
+"
 rate
 =
 %
@@ -3906,6 +3912,8 @@ rate
 =
 %
 f
+"
+"
 pitch
 =
 %

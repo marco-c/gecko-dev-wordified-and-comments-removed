@@ -275,6 +275,7 @@ silence_length
 #
 define
 PREFERENCE_ENDPOINTER_LONG_SILENCE_LENGTH
+\
 "
 media
 .
@@ -285,6 +286,7 @@ long_silence_length
 #
 define
 PREFERENCE_ENDPOINTER_LONG_SPEECH_LENGTH
+\
 "
 media
 .
@@ -344,6 +346,7 @@ SR_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 GetSpeechRecognitionLog

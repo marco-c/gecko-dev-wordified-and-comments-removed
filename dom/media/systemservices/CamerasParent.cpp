@@ -203,6 +203,7 @@ LOG_VERBOSE
 (
 args
 )
+\
 MOZ_LOG
 (
 gCamerasParentLog
@@ -4046,6 +4047,8 @@ disabled
 or
 fake
 sources
+"
+"
 active
 "
 )

@@ -26,10 +26,12 @@ define
 ANDROIDSPEECHSERVICE_CID
 \
 {
+\
 0x311b2dab
 0xf4d3
 0x4be4
 {
+\
 0x81
 0x23
 0x67
@@ -38,7 +40,9 @@ ANDROIDSPEECHSERVICE_CID
 0x3d
 0x95
 0xc2
+\
 }
+\
 }
 #
 define

@@ -93,6 +93,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 AudioSink
@@ -124,6 +125,7 @@ LogLevel
 :
 :
 Verbose
+\
 (
 "
 AudioSink

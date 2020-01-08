@@ -137,12 +137,11 @@ msg
 .
 .
 )
+\
 MOZ_LOG
 (
 gVP8TrackEncoderLog
-\
 level
-\
 (
 msg
 #

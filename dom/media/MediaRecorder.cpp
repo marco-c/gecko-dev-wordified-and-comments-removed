@@ -3514,6 +3514,8 @@ Session
 .
 NotifyTracksAvailable
 MediaStreamTracks
+"
+"
 principal
 check
 failed
@@ -4335,6 +4337,8 @@ Bitrates
 higher
 than
 total
+"
+"
 cap
 .
 Recalculating

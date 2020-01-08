@@ -359,6 +359,7 @@ arg
 .
 .
 )
+\
 nsPrintfCString
 (
 "
@@ -383,6 +384,7 @@ arg
 .
 .
 )
+\
 nsPrintfCString
 (
 "

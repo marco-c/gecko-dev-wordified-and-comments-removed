@@ -48,6 +48,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 sPDMLog
@@ -58,6 +59,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 OmxPlatformLayer
@@ -108,7 +110,6 @@ err
 ;
 \
 }
-\
 namespace
 mozilla
 {
@@ -505,6 +506,8 @@ rate
 %
 lu
 profile
+"
+"
 %
 d
 "

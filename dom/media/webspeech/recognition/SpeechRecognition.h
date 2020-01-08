@@ -172,6 +172,7 @@ dom
 #
 define
 SPEECH_RECOGNITION_TEST_EVENT_REQUEST_TOPIC
+\
 "
 SpeechRecognitionTest
 :
@@ -205,6 +206,7 @@ SR_LOG
 .
 .
 )
+\
 MOZ_LOG
 (
 GetSpeechRecognitionLog

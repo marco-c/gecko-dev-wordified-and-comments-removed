@@ -185,11 +185,12 @@ define
 MOZILLA_DOM_MEDIASOURCE_IMPLEMENTATION_IID
 \
 {
+\
 0x3839d699
 0x22c5
 0x439f
-\
 {
+\
 0x94
 0xca
 0x0e
@@ -198,7 +199,9 @@ MOZILLA_DOM_MEDIASOURCE_IMPLEMENTATION_IID
 0xf9
 0xca
 0xbf
+\
 }
+\
 }
 class
 MediaSource

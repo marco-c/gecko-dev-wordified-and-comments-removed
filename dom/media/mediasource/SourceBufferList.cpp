@@ -107,6 +107,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 GetMediaSourceAPILog
@@ -119,6 +120,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 SourceBufferList
@@ -149,6 +151,7 @@ arg
 .
 .
 )
+\
 MOZ_LOG
 (
 GetMediaSourceLog
@@ -161,6 +164,7 @@ LogLevel
 :
 :
 Debug
+\
 (
 "
 SourceBufferList

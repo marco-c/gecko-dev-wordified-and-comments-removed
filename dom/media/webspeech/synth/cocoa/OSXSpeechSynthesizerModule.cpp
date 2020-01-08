@@ -33,10 +33,12 @@ define
 OSXSPEECHSYNTHESIZERSERVICE_CID
 \
 {
+\
 0x914e73b4
 0x6337
 0x4bef
 {
+\
 0x97
 0xf3
 0x4d
@@ -45,7 +47,9 @@ OSXSPEECHSYNTHESIZERSERVICE_CID
 0x05
 0x3a
 0x12
+\
 }
+\
 }
 #
 define

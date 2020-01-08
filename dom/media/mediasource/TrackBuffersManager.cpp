@@ -130,7 +130,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -138,7 +137,6 @@ LogLevel
 :
 :
 Debug
-\
 "
 (
 %
@@ -161,9 +159,7 @@ OriginalString
 Data
 (
 )
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -183,7 +179,6 @@ DDMOZ_LOG
 GetMediaSourceLog
 (
 )
-\
 mozilla
 :
 :
@@ -191,7 +186,6 @@ LogLevel
 :
 :
 Verbose
-\
 "
 (
 %
@@ -214,9 +208,7 @@ OriginalString
 Data
 (
 )
-\
 __func__
-\
 #
 #
 __VA_ARGS__
@@ -261,7 +253,6 @@ DDMOZ_LOG
 GetMediaSourceSamplesLog
 (
 )
-\
 mozilla
 :
 :
@@ -282,7 +273,6 @@ s
 :
 "
 arg
-\
 mType
 .
 OriginalString
@@ -292,7 +282,6 @@ OriginalString
 Data
 (
 )
-\
 __func__
 \
 #
@@ -312,12 +301,6 @@ using
 media
 :
 :
-TimeUnit
-;
-using
-media
-:
-:
 TimeInterval
 ;
 using
@@ -325,6 +308,12 @@ media
 :
 :
 TimeIntervals
+;
+using
+media
+:
+:
+TimeUnit
 ;
 typedef
 SourceBufferTask

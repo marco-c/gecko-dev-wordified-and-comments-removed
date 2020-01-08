@@ -299,6 +299,7 @@ FUNC
 spd_open
 SPDConnection
 *
+\
 (
 const
 char

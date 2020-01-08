@@ -33,10 +33,12 @@ define
 SPEECHDISPATCHERSERVICE_CID
 \
 {
+\
 0x8817b1cf
 0x5ada
 0x43bf
 {
+\
 0xbd
 0x73
 0x60
@@ -45,11 +47,14 @@ SPEECHDISPATCHERSERVICE_CID
 0x70
 0x3d
 0x0d
+\
 }
+\
 }
 #
 define
 SPEECHDISPATCHERSERVICE_CONTRACTID
+\
 "
 mozilla
 .

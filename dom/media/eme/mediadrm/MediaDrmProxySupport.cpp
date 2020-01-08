@@ -91,13 +91,13 @@ using
 MediaDrmProxyNativeCallbacks
 :
 :
-DisposeNative
+AttachNative
 ;
 using
 MediaDrmProxyNativeCallbacks
 :
 :
-AttachNative
+DisposeNative
 ;
 explicit
 MediaDrmJavaCallbacksSupport

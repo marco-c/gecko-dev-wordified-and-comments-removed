@@ -296,6 +296,7 @@ x
 .
 .
 )
+\
 LOG
 (
 mozilla
@@ -319,6 +320,7 @@ d
 "
 x
 this
+\
 mChildPid
 #
 #

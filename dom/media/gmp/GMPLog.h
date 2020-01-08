@@ -32,6 +32,7 @@ msg
 .
 .
 )
+\
 MOZ_LOG
 (
 GetGMPLog
