@@ -2898,9 +2898,11 @@ proxy
 props
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 proxy
 proto
 )

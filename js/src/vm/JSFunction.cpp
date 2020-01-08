@@ -3512,9 +3512,11 @@ AssertHeapIsIdle
 (
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 objArg
 v
 )

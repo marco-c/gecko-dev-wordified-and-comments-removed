@@ -12741,9 +12741,11 @@ cx
 return
 nullptr
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 v
 )
 ;

@@ -1336,9 +1336,11 @@ bool
 forceDebugInstrumentation
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 script
 )
 ;

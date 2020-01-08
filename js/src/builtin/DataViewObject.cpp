@@ -889,9 +889,11 @@ isConstructing
 )
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 bufobj
 )
 ;

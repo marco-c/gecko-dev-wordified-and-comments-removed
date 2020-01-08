@@ -6504,9 +6504,11 @@ rval
 return
 false
 ;
-assertSameCompartment
-(
 this
+-
+>
+check
+(
 rval
 )
 ;

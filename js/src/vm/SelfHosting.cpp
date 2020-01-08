@@ -9503,9 +9503,11 @@ TypedArrayObject
 )
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 target
 )
 ;

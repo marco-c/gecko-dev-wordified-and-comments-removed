@@ -4600,9 +4600,11 @@ PropertyIteratorObject
 (
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 iterobj
 )
 ;

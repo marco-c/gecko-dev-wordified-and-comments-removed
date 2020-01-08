@@ -1235,9 +1235,11 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 key
 )
 ;
@@ -1346,9 +1348,11 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 key
 val
 )

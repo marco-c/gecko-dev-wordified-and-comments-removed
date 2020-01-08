@@ -4142,9 +4142,11 @@ HandleObject
 obj
 )
 {
-assertSameCompartment
-(
 cx
+-
+>
+check
+(
 obj
 )
 ;
