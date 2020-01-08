@@ -1425,17 +1425,6 @@ is
 undefined
 "
 )
-DOM_MSG_DEF
-(
-NS_ERROR_DOM_QUOTA_REACHED
-"
-Persistent
-storage
-maximum
-size
-reached
-"
-)
 DOM4_MSG_DEF
 (
 NotFoundError
