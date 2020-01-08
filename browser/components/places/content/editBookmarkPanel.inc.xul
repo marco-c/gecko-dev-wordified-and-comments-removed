@@ -838,6 +838,13 @@ gEditItemOverlay
 toggleTagsSelector
 (
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 "
 /
