@@ -5384,13 +5384,13 @@ name
 ;
 }
 else
-{
 if
 (
 name
 .
 title
 )
+{
 document
 .
 l10n
@@ -5410,7 +5410,9 @@ title
 }
 )
 ;
+}
 else
+{
 document
 .
 l10n
