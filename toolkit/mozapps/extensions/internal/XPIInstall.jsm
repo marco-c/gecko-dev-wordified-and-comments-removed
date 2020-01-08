@@ -1878,10 +1878,6 @@ for
 let
 path
 of
-XPCOMUtils
-.
-IterStringEnumerator
-(
 this
 .
 zipReader
@@ -1891,7 +1887,6 @@ findEntries
 "
 *
 "
-)
 )
 )
 {
