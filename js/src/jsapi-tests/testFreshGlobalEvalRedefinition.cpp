@@ -118,7 +118,7 @@ g
 return
 false
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

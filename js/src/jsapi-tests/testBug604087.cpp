@@ -74,7 +74,7 @@ HandleObject
 target
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -514,7 +514,7 @@ cx
 )
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

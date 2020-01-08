@@ -70,8 +70,8 @@ g
 )
 ;
 {
-JSAutoRealmAllowCCW
-ae
+JSAutoRealm
+ar
 (
 cx
 g
@@ -221,7 +221,7 @@ JS
 :
 :
 HandleObject
-scope
+global
 const
 char
 *
@@ -239,11 +239,11 @@ hits
 )
 ;
 {
-JSAutoRealmAllowCCW
-ae
+JSAutoRealm
+ar
 (
 cx
-scope
+global
 )
 ;
 JSString
@@ -291,7 +291,7 @@ CHECK
 JS_CallFunctionName
 (
 cx
-scope
+global
 "
 eval
 "

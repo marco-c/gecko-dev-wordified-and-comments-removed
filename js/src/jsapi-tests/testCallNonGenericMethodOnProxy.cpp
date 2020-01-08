@@ -326,7 +326,7 @@ CHECK
 globalB
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 enter
 (
 cx

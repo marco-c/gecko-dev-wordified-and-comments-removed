@@ -205,7 +205,7 @@ CHECK
 global
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

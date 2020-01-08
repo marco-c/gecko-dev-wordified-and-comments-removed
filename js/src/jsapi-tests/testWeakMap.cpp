@@ -411,7 +411,7 @@ cx
 )
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -886,7 +886,7 @@ cx
 )
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -910,7 +910,7 @@ nullptr
 ;
 }
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
