@@ -282,6 +282,14 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
+mozilla
+:
+:
+wr
+:
+:
+ImageRendering
+aRendering
 const
 StackingContextHelper
 &
