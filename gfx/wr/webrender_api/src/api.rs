@@ -3489,6 +3489,10 @@ rasterized_blobs
 :
 usize
 pub
+shader_cache
+:
+usize
+pub
 gpu_cache_textures
 :
 usize
@@ -3510,10 +3514,6 @@ depth_target_textures
 usize
 pub
 swap_chain
-:
-usize
-pub
-total_gpu_bytes_allocated
 :
 usize
 }
@@ -3621,6 +3621,15 @@ rasterized_blobs
 other
 .
 rasterized_blobs
+;
+self
+.
+shader_cache
++
+=
+other
+.
+shader_cache
 ;
 self
 .
