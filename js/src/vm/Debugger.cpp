@@ -39895,12 +39895,12 @@ source
 )
 ;
 bool
-hasSourceData
+hasSourceText
 =
 ss
 -
 >
-hasSourceData
+hasSourceText
 (
 )
 ;
@@ -39910,7 +39910,7 @@ if
 ss
 -
 >
-hasSourceData
+hasSourceText
 (
 )
 &
@@ -39924,7 +39924,7 @@ loadSource
 cx_
 ss
 &
-hasSourceData
+hasSourceText
 )
 )
 {
@@ -39935,7 +39935,7 @@ nullptr
 if
 (
 !
-hasSourceData
+hasSourceText
 )
 {
 return
