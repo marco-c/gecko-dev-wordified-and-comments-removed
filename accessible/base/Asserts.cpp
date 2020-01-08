@@ -43,6 +43,7 @@ atkRole
 macRole
 msaaRole
 ia2Role
+androidClass
 nameRule
 )
 \
