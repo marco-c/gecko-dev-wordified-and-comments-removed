@@ -177,6 +177,14 @@ rv
 =
 c
     
+if
+isinstance
+(
+rv
+unicode
+)
+:
+        
 return
 rv
 .
@@ -186,6 +194,12 @@ encode
 utf8
 "
 )
+    
+else
+:
+        
+return
+rv
 class
 ManifestSerializer
 (
