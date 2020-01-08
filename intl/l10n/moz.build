@@ -211,16 +211,6 @@ chrome
 ini
 '
 ]
-JAR_MANIFESTS
-+
-=
-[
-'
-jar
-.
-mn
-'
-]
 SPHINX_TREES
 [
 '
