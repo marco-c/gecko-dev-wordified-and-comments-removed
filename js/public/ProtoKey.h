@@ -502,7 +502,7 @@ ProxyClass
 REAL
 (
 WeakMap
-InitWeakMapClass
+InitViaClassSpec
 OCLASP
 (
 WeakMap
