@@ -21587,6 +21587,13 @@ gcmarker
 &
 marker
 ;
+gcmarker
+-
+>
+clearMarkCount
+(
+)
+;
 {
 gcstats
 :
