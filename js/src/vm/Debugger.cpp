@@ -45533,12 +45533,6 @@ frontend
 CompileEvalScript
 (
 cx
-cx
--
->
-tempLifoAlloc
-(
-)
 env
 scope
 options
@@ -45569,12 +45563,6 @@ frontend
 CompileGlobalScript
 (
 cx
-cx
--
->
-tempLifoAlloc
-(
-)
 scopeKind
 options
 srcBuf

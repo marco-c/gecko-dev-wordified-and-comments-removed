@@ -287,12 +287,6 @@ frontend
 CompileGlobalScript
 (
 cx
-cx
--
->
-tempLifoAlloc
-(
-)
 scopeKind
 options
 srcBuf
@@ -2611,12 +2605,6 @@ frontend
 CompileGlobalScript
 (
 cx
-cx
--
->
-tempLifoAlloc
-(
-)
 scopeKind
 options
 srcBuf

@@ -1691,12 +1691,6 @@ frontend
 CompileEvalScript
 (
 cx
-cx
--
->
-tempLifoAlloc
-(
-)
 env
 enclosing
 options
@@ -2141,12 +2135,6 @@ frontend
 CompileEvalScript
 (
 cx
-cx
--
->
-tempLifoAlloc
-(
-)
 env
 enclosing
 options
