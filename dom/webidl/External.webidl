@@ -108,6 +108,9 @@ sidebar
 interface
 External
 {
+[
+UseCounter
+]
 void
 AddSearchProvider
 (
