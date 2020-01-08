@@ -156,6 +156,12 @@ name_offset
 uint32_t
 expiration_offset
 ;
+uint32_t
+store_count
+;
+uint16_t
+store_offset
+;
 ScalarInfo
 (
 uint32_t
@@ -190,6 +196,10 @@ Common
 :
 SupportedProduct
 aProducts
+uint32_t
+aStoreCount
+uint16_t
+aStoreOffset
 )
 :
 BaseScalarInfo
