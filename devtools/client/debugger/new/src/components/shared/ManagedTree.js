@@ -529,13 +529,6 @@ listItems
 !
 =
 listItems
-&
-&
-nextProps
-.
-listItems
-.
-length
 )
 {
 this

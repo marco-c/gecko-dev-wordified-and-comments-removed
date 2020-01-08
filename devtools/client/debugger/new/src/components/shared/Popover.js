@@ -389,10 +389,6 @@ props
 .
 onPopoverCoords
 (
-this
-.
-state
-.
 coords
 )
 ;

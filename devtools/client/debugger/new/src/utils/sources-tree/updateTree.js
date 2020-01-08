@@ -226,7 +226,7 @@ _utils
 createParentMap
 )
 (
-sourceTree
+newSourceTree
 )
 focusedItem
 :
