@@ -206,6 +206,14 @@ CSSSize
 aOldViewport
 )
 ;
+enum
+class
+UpdateType
+{
+ViewportSize
+ContentSize
+}
+;
 void
 UpdateResolution
 (
@@ -226,7 +234,7 @@ mozilla
 :
 CSSSize
 &
-aViewport
+aViewportOrContentSize
 const
 mozilla
 :
@@ -237,6 +245,8 @@ float
 >
 &
 aDisplayWidthChangeRatio
+UpdateType
+aType
 )
 ;
 void
