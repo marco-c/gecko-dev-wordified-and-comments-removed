@@ -23927,7 +23927,7 @@ fileAccessDenied
 {
 RuntimePermissions
 .
-checkPermission
+checkPermissions
 (
 RuntimePermissions
 .
