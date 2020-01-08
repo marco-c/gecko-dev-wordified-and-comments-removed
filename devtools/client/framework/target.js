@@ -259,10 +259,12 @@ connect
 )
 ;
 const
-response
+front
 =
 await
 client
+.
+mainRoot
 .
 getTab
 (
@@ -277,11 +279,9 @@ Target
 (
 {
 client
-form
+activeTab
 :
-response
-.
-tab
+front
 chrome
 :
 false

@@ -256,6 +256,8 @@ checkGetTab
 {
 gClient
 .
+mainRoot
+.
 getTab
 (
 {
@@ -267,7 +269,7 @@ gTab1
 .
 then
 (
-response
+front
 =
 >
 {
@@ -283,9 +285,9 @@ JSON
 .
 stringify
 (
-response
+front
 .
-tab
+targetForm
 )
 "
 getTab
@@ -367,6 +369,8 @@ outerWindowID
 return
 gClient
 .
+mainRoot
+.
 getTab
 (
 filter
@@ -377,7 +381,7 @@ filter
 .
 then
 (
-response
+front
 =
 >
 {
@@ -393,9 +397,9 @@ JSON
 .
 stringify
 (
-response
+front
 .
-tab
+targetForm
 )
 "
 getTab
@@ -424,6 +428,8 @@ then
 >
 gClient
 .
+mainRoot
+.
 getTab
 (
 {
@@ -436,7 +442,7 @@ gTab2
 .
 then
 (
-response
+front
 =
 >
 {
@@ -452,9 +458,9 @@ JSON
 .
 stringify
 (
-response
+front
 .
-tab
+targetForm
 )
 "
 getTab
@@ -484,6 +490,8 @@ checkGetTabFailures
 )
 {
 gClient
+.
+mainRoot
 .
 getTab
 (
@@ -550,6 +558,8 @@ then
 =
 >
 gClient
+.
+mainRoot
 .
 getTab
 (

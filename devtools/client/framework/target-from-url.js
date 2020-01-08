@@ -239,11 +239,12 @@ number
 }
 try
 {
-const
-response
+front
 =
 await
 client
+.
+mainRoot
 .
 getTab
 (
@@ -253,12 +254,6 @@ outerWindowID
 id
 }
 )
-;
-form
-=
-response
-.
-tab
 ;
 }
 catch
