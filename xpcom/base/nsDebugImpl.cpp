@@ -1271,6 +1271,12 @@ int32_t
 aLine
 )
 {
+recordreplay
+:
+:
+AutoEnsurePassThroughThreadEvents
+pt
+;
 FixedBuffer
 nonPIDBuf
 ;
