@@ -405,6 +405,7 @@ Iter
 aIter
 const
 EndIter
+&
 aEnd
 OnBadLeadUnit
 aOnBadLeadUnit
@@ -834,6 +835,7 @@ Iter
 aIter
 const
 EndIter
+&
 aEnd
 OnBadLeadUnit
 aOnBadLeadUnit
@@ -883,6 +885,7 @@ Iter
 aIter
 const
 EndIter
+&
 aEnd
 )
 {
@@ -986,6 +989,7 @@ Iter
 aIter
 const
 EndIter
+&
 aEnd
 )
 {
