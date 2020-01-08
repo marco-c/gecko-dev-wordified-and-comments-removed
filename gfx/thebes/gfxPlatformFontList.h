@@ -1989,9 +1989,9 @@ gfxFontFamily
 >
 mReplacementCharFallbackFamily
 ;
-nsTHashtable
+nsTArray
 <
-nsCStringHashKey
+nsCString
 >
 mBadUnderlineFamilyNames
 ;
