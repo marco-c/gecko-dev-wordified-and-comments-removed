@@ -249,6 +249,17 @@ stacks
 patch
 "
 "
+r343123
+-
+pin
+-
+asan
+-
+dll
+.
+patch
+"
+"
 loosen
 -
 msvc
