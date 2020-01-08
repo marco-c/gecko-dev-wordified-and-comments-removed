@@ -7167,8 +7167,10 @@ frame
 if
 (
 genObj
-&
-&
+)
+{
+if
+(
 !
 genObj
 -
@@ -7231,6 +7233,7 @@ setObject
 pair
 )
 ;
+}
 genObj
 -
 >
