@@ -428,7 +428,7 @@ aMallocSizeOf
 )
 ;
 size_t
-GetHistogramSizesofIncludingThis
+GetHistogramSizesOfIncludingThis
 (
 mozilla
 :
