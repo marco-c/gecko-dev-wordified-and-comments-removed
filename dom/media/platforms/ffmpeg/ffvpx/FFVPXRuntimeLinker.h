@@ -11,6 +11,9 @@ PlatformDecoderModule
 .
 h
 "
+struct
+FFmpegRDFTFuncs
+;
 namespace
 mozilla
 {
@@ -32,6 +35,15 @@ PlatformDecoderModule
 >
 CreateDecoderModule
 (
+)
+;
+static
+void
+GetRDFTFuncs
+(
+FFmpegRDFTFuncs
+*
+aOutFuncs
 )
 ;
 private
