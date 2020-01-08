@@ -59,6 +59,9 @@ module
 importedModules
 )
 ;
+return
+importedModules
+;
 }
 )
 ;
