@@ -1159,6 +1159,13 @@ return
 0
 ;
 }
+#
+if
+!
+defined
+(
+DISABLE_STORAGE_SANITY5_DEATH_TEST
+)
 TEST_F
 (
 TESTNAME
@@ -1296,6 +1303,8 @@ regex
 )
 ;
 }
+#
+endif
 struct
 ThreadState
 {
