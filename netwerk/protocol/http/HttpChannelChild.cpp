@@ -150,6 +150,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+UrlClassifierCommon
+.
+h
+"
+#
+include
+"
 AltDataOutputStreamChild
 .
 h
@@ -8318,7 +8329,7 @@ Dispatch
 NS_NewRunnableFunction
 (
 "
-nsChannelClassifier
+UrlClassifierCommon
 :
 :
 NotifyTrackingProtectionDisabled
@@ -8329,7 +8340,7 @@ self
 (
 )
 {
-nsChannelClassifier
+UrlClassifierCommon
 :
 :
 NotifyTrackingProtectionDisabled
@@ -8405,7 +8416,7 @@ Dispatch
 NS_NewRunnableFunction
 (
 "
-nsChannelClassifier
+UrlClassifierCommon
 :
 :
 NotifyBlockingDecision
@@ -8502,10 +8513,10 @@ Dispatch
 NS_NewRunnableFunction
 (
 "
-nsChannelClassifier
+AntiTrackingCommon
 :
 :
-NotifyTrackingCookieBlocked
+NotifyBlockingDecision
 "
 [
 self

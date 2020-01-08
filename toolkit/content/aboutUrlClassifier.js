@@ -2281,6 +2281,9 @@ UrlClassifierDbService
 nsChannelClassifier
 "
 "
+UrlClassifier
+"
+"
 UrlClassifierProtocolParser
 "
 "

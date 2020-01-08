@@ -680,11 +680,6 @@ nsIURI
 idl
 '
 '
-nsIURIClassifier
-.
-idl
-'
-'
 nsIURIMutator
 .
 idl
@@ -1030,11 +1025,6 @@ cpp
 '
 '
 nsBufferedStreams
-.
-cpp
-'
-'
-nsChannelClassifier
 .
 cpp
 '
