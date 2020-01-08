@@ -897,6 +897,12 @@ value
 =
 val
 ;
+this
+.
+formatValue
+(
+)
+;
 return
 val
 ;
