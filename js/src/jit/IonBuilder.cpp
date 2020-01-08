@@ -19302,6 +19302,9 @@ JSOP_ADD
 case
 JSOP_SUB
 :
+case
+JSOP_MUL
+:
 if
 (
 !
@@ -19329,9 +19332,6 @@ break
 }
 MOZ_FALLTHROUGH
 ;
-case
-JSOP_MUL
-:
 case
 JSOP_DIV
 :

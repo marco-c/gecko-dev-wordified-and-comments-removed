@@ -26623,6 +26623,9 @@ JSOP_BITXOR
 case
 JSOP_BITAND
 :
+case
+JSOP_MUL
+:
 break
 ;
 default
