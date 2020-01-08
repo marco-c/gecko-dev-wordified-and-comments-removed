@@ -25961,6 +25961,12 @@ false
 ;
 p
 .
+isBinAST
+=
+false
+;
+p
+.
 parseGoal
 =
 uint32_t
