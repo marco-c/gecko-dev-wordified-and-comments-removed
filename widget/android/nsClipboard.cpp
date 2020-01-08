@@ -109,9 +109,6 @@ nsISupports
 >
 tmp
 ;
-uint32_t
-len
-;
 nsresult
 rv
 =
@@ -125,8 +122,6 @@ getter_AddRefs
 (
 tmp
 )
-&
-len
 )
 ;
 NS_ENSURE_SUCCESS

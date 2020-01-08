@@ -208,8 +208,6 @@ getTransferData
 (
 flavor
 strObj
-{
-}
 )
 ;
 Assert

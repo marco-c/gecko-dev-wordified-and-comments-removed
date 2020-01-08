@@ -400,12 +400,6 @@ str
 {
 }
 ;
-let
-length
-=
-{
-}
-;
 try
 {
 trans
@@ -418,7 +412,6 @@ text
 unicode
 '
 str
-length
 )
 ;
 }
@@ -461,16 +454,6 @@ str
 str
 .
 data
-.
-substring
-(
-0
-length
-.
-value
-/
-2
-)
 ;
 }
 }

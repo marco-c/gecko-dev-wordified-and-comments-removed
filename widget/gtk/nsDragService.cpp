@@ -2990,11 +2990,6 @@ nsISupports
 >
 data
 ;
-uint32_t
-tmpDataLen
-=
-0
-;
 MOZ_LOG
 (
 sDragLm
@@ -3039,8 +3034,6 @@ getter_AddRefs
 (
 data
 )
-&
-tmpDataLen
 )
 ;
 if
@@ -3101,7 +3094,7 @@ get
 (
 )
 data
-tmpDataLen
+0
 )
 ;
 if
@@ -6937,11 +6930,6 @@ nsISupports
 >
 data
 ;
-uint32_t
-len
-=
-0
-;
 nsresult
 rv
 =
@@ -6955,8 +6943,6 @@ getter_AddRefs
 (
 data
 )
-&
-len
 )
 ;
 if
@@ -7058,8 +7044,6 @@ getter_AddRefs
 (
 data
 )
-&
-len
 )
 ;
 if
@@ -7813,9 +7797,6 @@ nsISupports
 >
 data
 ;
-uint32_t
-len
-;
 rv
 =
 item
@@ -7828,8 +7809,6 @@ getter_AddRefs
 (
 data
 )
-&
-len
 )
 ;
 if
@@ -8131,11 +8110,6 @@ nsISupports
 >
 data
 ;
-uint32_t
-dataSize
-=
-0
-;
 transferable
 -
 >
@@ -8146,8 +8120,6 @@ getter_AddRefs
 (
 data
 )
-&
-dataSize
 )
 ;
 nsCOMPtr

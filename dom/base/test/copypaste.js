@@ -596,8 +596,6 @@ getTransferData
 (
 mime
 data
-{
-}
 )
 ;
 return

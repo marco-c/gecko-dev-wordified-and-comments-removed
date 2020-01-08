@@ -2343,11 +2343,6 @@ nsISupports
 >
 dataSupports
 ;
-uint32_t
-dataSize
-=
-0
-;
 rv
 =
 currentTransferable
@@ -2364,8 +2359,6 @@ getter_AddRefs
 (
 dataSupports
 )
-&
-dataSize
 )
 ;
 if
@@ -2387,7 +2380,7 @@ get
 (
 )
 dataSupports
-dataSize
+0
 )
 ;
 return
