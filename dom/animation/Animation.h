@@ -1126,6 +1126,11 @@ NotifyGeometricAnimationsStartingThisFrame
 (
 )
 ;
+void
+ReschedulePendingTasks
+(
+)
+;
 virtual
 void
 MaybeQueueCancelEvent
