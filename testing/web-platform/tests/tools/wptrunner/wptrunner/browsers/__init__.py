@@ -171,7 +171,7 @@ env_options
 String
 naming
 a
-funtion
+function
 of
 no
 arguments

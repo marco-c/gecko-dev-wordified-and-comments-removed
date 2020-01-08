@@ -221,7 +221,7 @@ unit
 and
 tests
 /
-funtional
+functional
 /
 sub
 -
