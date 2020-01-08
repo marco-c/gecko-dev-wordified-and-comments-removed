@@ -1121,7 +1121,7 @@ if
 mInlineEditedCell
 )
 {
-HideInlineTableEditingUI
+HideInlineTableEditingUIInternal
 (
 )
 ;
@@ -1130,7 +1130,7 @@ NS_ASSERTION
 !
 mInlineEditedCell
 "
-HideInlineTableEditingUI
+HideInlineTableEditingUIInternal
 failed
 "
 )
@@ -1224,7 +1224,7 @@ IsInlineTableEditorEnabled
 mInlineEditedCell
 )
 {
-HideInlineTableEditingUI
+HideInlineTableEditingUIInternal
 (
 )
 ;
@@ -1233,7 +1233,7 @@ NS_ASSERTION
 !
 mInlineEditedCell
 "
-HideInlineTableEditingUI
+HideInlineTableEditingUIInternal
 failed
 "
 )
@@ -1654,7 +1654,7 @@ mInlineEditedCell
 cellElement
 )
 {
-HideInlineTableEditingUI
+HideInlineTableEditingUIInternal
 (
 )
 ;
@@ -1663,7 +1663,7 @@ NS_ASSERTION
 !
 mInlineEditedCell
 "
-HideInlineTableEditingUI
+HideInlineTableEditingUIInternal
 failed
 "
 )
@@ -1882,7 +1882,7 @@ mInlineEditedCell
 nsresult
 rv
 =
-RefreshInlineTableEditingUI
+RefreshInlineTableEditingUIInternal
 (
 )
 ;
@@ -1907,8 +1907,9 @@ else
 nsresult
 rv
 =
-ShowInlineTableEditingUI
+ShowInlineTableEditingUIInternal
 (
+*
 cellElement
 )
 ;
