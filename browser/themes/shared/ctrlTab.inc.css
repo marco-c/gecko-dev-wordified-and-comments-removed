@@ -85,6 +85,8 @@ none
 color
 :
 inherit
+!
+important
 ;
 margin
 :
@@ -383,10 +385,6 @@ preview
 -
 inner
 {
-color
-:
-white
-;
 background
 -
 color
