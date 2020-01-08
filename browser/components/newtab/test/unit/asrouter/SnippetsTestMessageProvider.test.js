@@ -99,6 +99,11 @@ fxa_signup_snippet
 "
 :
 SubmitFormSnippetSchema
+"
+send_to_device_snippet
+"
+:
+SubmitFormSnippetSchema
 }
 ;
 describe

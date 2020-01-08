@@ -497,9 +497,6 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
 "
 "
 pocket_cta_button
@@ -719,6 +716,14 @@ firstrun_skip_login
 "
 "
 "
+context_menu_title
+"
+:
+"
+Open
+menu
+"
+"
 default_label_loading
 "
 :
@@ -899,6 +904,12 @@ edit_topsites_dismiss_button
 "
 "
 edit_topsites_add_button
+"
+:
+"
+"
+"
+pocket_learn_more
 "
 :
 "

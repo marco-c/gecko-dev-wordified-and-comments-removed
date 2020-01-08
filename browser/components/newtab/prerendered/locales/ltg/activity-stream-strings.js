@@ -1193,5 +1193,13 @@ it
 s
 li
 "
+"
+context_menu_title
+"
+:
+"
+Open
+menu
+"
 }
 ;

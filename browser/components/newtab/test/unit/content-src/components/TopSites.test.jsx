@@ -4830,7 +4830,7 @@ TopSite
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -4910,7 +4910,7 @@ org
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -4975,7 +4975,7 @@ open
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5066,7 +5066,7 @@ closed
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5139,7 +5139,7 @@ button
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5198,7 +5198,7 @@ clicked
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5300,7 +5300,7 @@ default
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5352,7 +5352,7 @@ LinkMenu
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5463,7 +5463,7 @@ LinkMenu
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5599,7 +5599,7 @@ stub
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5682,7 +5682,7 @@ stub
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -5901,7 +5901,7 @@ google
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite
@@ -6096,7 +6096,7 @@ stub
 const
 wrapper
 =
-shallow
+shallowWithIntl
 (
 <
 TopSite

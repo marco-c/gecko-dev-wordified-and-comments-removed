@@ -1128,8 +1128,9 @@ section_menu_action_manage_webext
 "
 :
 "
-Kiterjeszt
-s
+Kieg
+sz
+t
 kezel
 se
 "
@@ -1349,6 +1350,14 @@ p
 s
 kihagy
 sa
+"
+"
+context_menu_title
+"
+:
+"
+Open
+menu
 "
 "
 pocket_learn_more

@@ -700,9 +700,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Kuinka
+se
+toimii
 "
 "
 pocket_cta_button
@@ -1085,6 +1085,14 @@ Ohita
 t
 m
 vaihe
+"
+"
+context_menu_title
+"
+:
+"
+Open
+menu
 "
 "
 pocket_learn_more

@@ -1197,6 +1197,14 @@ este
 passo
 "
 "
+context_menu_title
+"
+:
+"
+Open
+menu
+"
+"
 pocket_learn_more
 "
 :

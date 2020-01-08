@@ -458,6 +458,7 @@ MIGRATION_COMPLETED
 )
 ;
 }
+async
 onAction
 (
 action
@@ -475,6 +476,7 @@ at
 .
 PREFS_INITIAL_VALUES
 :
+await
 this
 .
 expireIfNecessary

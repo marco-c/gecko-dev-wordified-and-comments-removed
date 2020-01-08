@@ -142,7 +142,7 @@ json
 -
 -
 src
-locales
+npm_package_config_locales_dir
 -
 -
 dest
@@ -275,11 +275,9 @@ newtab
 stringsExport
 :
 cp
-locales
+npm_package_config_locales_dir
 /
-en
--
-US
+npm_package_config_default_locale
 /
 strings
 .
@@ -290,9 +288,7 @@ browser
 /
 locales
 /
-en
--
-US
+npm_package_config_default_locale
 /
 chrome
 /

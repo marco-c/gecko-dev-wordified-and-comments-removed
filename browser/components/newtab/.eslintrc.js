@@ -1781,6 +1781,11 @@ multiline
 "
 :
 true
+"
+consistent
+"
+:
+true
 }
 ]
 "

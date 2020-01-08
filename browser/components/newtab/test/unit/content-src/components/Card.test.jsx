@@ -212,6 +212,16 @@ guid
 :
 1
 }
+intl
+:
+{
+formatMessage
+:
+x
+=
+>
+x
+}
 eventSource
 :
 "

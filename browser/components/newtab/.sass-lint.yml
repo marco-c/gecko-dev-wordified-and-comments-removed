@@ -147,6 +147,12 @@ properties
 properties
 :
 [
+margin
+-
+left
+margin
+-
+right
 text
 -
 transform
