@@ -930,6 +930,8 @@ self
 .
 remoteScriptsDir
         
+xpcsCmd
+=
 xpcshell
 .
 XPCShellTestThread
@@ -940,16 +942,12 @@ self
 )
         
 del
-(
-self
-.
 xpcsCmd
 [
 1
 :
 5
 ]
-)
         
 if
 self
@@ -962,8 +960,6 @@ localAPK
 ]
 :
             
-self
-.
 xpcsCmd
 .
 insert
@@ -976,8 +972,6 @@ greomni
 '
 )
             
-self
-.
 xpcsCmd
 .
 insert
@@ -994,24 +988,21 @@ self
 remoteDebugger
 :
             
-self
-.
 xpcsCmd
 =
 [
-              
 self
 .
 remoteDebugger
-              
 self
 .
 remoteDebuggerArgs
-              
-self
-.
-xpcsCmd
 ]
++
+xpcsCmd
+        
+return
+xpcsCmd
     
 def
 killTimeout
