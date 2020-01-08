@@ -454,6 +454,10 @@ aCallerType
 bool
 ShouldUseSameValueForCharCodeAndKeyCode
 (
+const
+WidgetKeyboardEvent
+&
+aKeyboardEvent
 CallerType
 aCallerType
 )

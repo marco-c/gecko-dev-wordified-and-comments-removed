@@ -3083,7 +3083,12 @@ mForceDispatchKeyPressEventsForNonPrintableKeys
 1
 ;
 bool
-mInitializedForceDispatchKeyPressEventsForNonPrintableKeys
+mForceUseLegacyKeyCodeAndCharCodeValues
+:
+1
+;
+bool
+mInitializedWithKeyPressEventDispatchingBlacklist
 :
 1
 ;

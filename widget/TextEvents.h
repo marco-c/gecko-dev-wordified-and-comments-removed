@@ -475,6 +475,10 @@ mMaybeSkippableInRemoteProcess
 (
 true
 )
+mUseLegacyKeyCodeAndCharCodeValues
+(
+false
+)
 mEditCommandsForSingleLineEditorInitialized
 (
 false
@@ -585,6 +589,10 @@ false
 mMaybeSkippableInRemoteProcess
 (
 true
+)
+mUseLegacyKeyCodeAndCharCodeValues
+(
+false
 )
 mEditCommandsForSingleLineEditorInitialized
 (
@@ -1006,6 +1014,9 @@ mIsSynthesizedByTIP
 ;
 bool
 mMaybeSkippableInRemoteProcess
+;
+bool
+mUseLegacyKeyCodeAndCharCodeValues
 ;
 bool
 CanSkipInRemoteProcess
@@ -1649,6 +1660,12 @@ mMaybeSkippableInRemoteProcess
 aEvent
 .
 mMaybeSkippableInRemoteProcess
+;
+mUseLegacyKeyCodeAndCharCodeValues
+=
+aEvent
+.
+mUseLegacyKeyCodeAndCharCodeValues
 ;
 mEditCommandsForSingleLineEditorInitialized
 =
