@@ -842,10 +842,7 @@ ImageLoader
 :
 RegisterCSSImage
 (
-ImageLoader
-:
-:
-Image
+URLValue
 *
 aImage
 )
@@ -1055,10 +1052,7 @@ ImageLoader
 :
 DeregisterCSSImageFromAllLoaders
 (
-ImageLoader
-:
-:
-Image
+URLValue
 *
 aImage
 )
@@ -2063,10 +2057,7 @@ aPolicy
 nsIDocument
 *
 aDocument
-ImageLoader
-:
-:
-Image
+URLValue
 *
 aImage
 CORSMode

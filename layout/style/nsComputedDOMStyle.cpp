@@ -2525,7 +2525,7 @@ const
 css
 :
 :
-URLValueData
+URLValue
 &
 aURL
 nsTArray
@@ -7538,7 +7538,7 @@ const
 css
 :
 :
-URLValueData
+URLValue
 *
 aURL
 nsROCSSPrimitiveValue

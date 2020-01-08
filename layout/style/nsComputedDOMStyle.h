@@ -2341,7 +2341,7 @@ mozilla
 css
 :
 :
-URLValueData
+URLValue
 *
 aURL
 nsROCSSPrimitiveValue

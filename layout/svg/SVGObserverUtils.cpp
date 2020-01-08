@@ -141,7 +141,7 @@ const
 css
 :
 :
-URLValueData
+URLValue
 *
 aURL
 )
@@ -2615,7 +2615,7 @@ i
 css
 :
 :
-URLValueData
+URLValue
 *
 data
 =

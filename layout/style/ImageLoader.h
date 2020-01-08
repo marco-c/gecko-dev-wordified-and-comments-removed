@@ -107,7 +107,7 @@ namespace
 css
 {
 struct
-ImageValue
+URLValue
 ;
 class
 ImageLoader
@@ -150,16 +150,6 @@ REQUEST_HAS_BLOCKED_ONLOAD
 1
 }
 ;
-typedef
-mozilla
-:
-:
-css
-:
-:
-ImageValue
-Image
-;
 explicit
 ImageLoader
 (
@@ -194,7 +184,7 @@ imgRequestProxy
 *
 RegisterCSSImage
 (
-Image
+URLValue
 *
 aImage
 )
@@ -270,9 +260,9 @@ aPolicy
 nsIDocument
 *
 aDocument
-Image
+URLValue
 *
-aCSSValue
+aImage
 CORSMode
 aCorsMode
 )
@@ -281,7 +271,7 @@ static
 void
 DeregisterCSSImageFromAllLoaders
 (
-Image
+URLValue
 *
 aImage
 )
