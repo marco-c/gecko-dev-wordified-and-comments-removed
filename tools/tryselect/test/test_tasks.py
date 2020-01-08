@@ -17,9 +17,9 @@ TestResolver
 from
 tryselect
 .
-selectors
+tasks
 import
-fuzzy
+filter_tasks_by_paths
 pytest
 .
 fixture
@@ -67,7 +67,7 @@ fake_test_metadata
 return
 inner
 def
-test_filter_by_paths
+test_filter_tasks_by_paths
 (
 patch_resolver
 )
@@ -107,9 +107,7 @@ xpcshell
 )
     
 assert
-fuzzy
-.
-filter_by_paths
+filter_tasks_by_paths
 (
 tasks
 '
@@ -139,9 +137,7 @@ xpcshell
 )
     
 assert
-fuzzy
-.
-filter_by_paths
+filter_tasks_by_paths
 (
 tasks
 '
