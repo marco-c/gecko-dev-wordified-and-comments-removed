@@ -140,7 +140,7 @@ option
 '
 -
 -
-with
+without
 -
 gradle
 '
@@ -149,13 +149,10 @@ nargs
 '
 ?
 '
-default
-=
-True
 help
 =
 '
-Enable
+Disable
 building
 mobile
 /

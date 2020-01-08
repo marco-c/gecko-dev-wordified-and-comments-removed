@@ -386,7 +386,7 @@ js_option
 '
 -
 -
-enable
+disable
 -
 optimize
 '
@@ -395,13 +395,10 @@ nargs
 '
 ?
 '
-default
-=
-True
 help
 =
 '
-Enable
+Disable
 optimizations
 via
 compiler
@@ -8896,7 +8893,7 @@ js_option
 '
 -
 -
-enable
+disable
 -
 debug
 -
@@ -8907,13 +8904,10 @@ nargs
 '
 ?
 '
-default
-=
-True
 help
 =
 '
-Enable
+Disable
 debug
 symbols
 using
