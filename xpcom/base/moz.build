@@ -442,6 +442,11 @@ nsIWeakReferenceUtils
 h
 '
 '
+nsMaybeWeakPtr
+.
+h
+'
+'
 nsMemory
 .
 h

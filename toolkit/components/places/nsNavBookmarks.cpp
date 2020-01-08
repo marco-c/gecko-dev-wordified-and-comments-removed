@@ -10296,7 +10296,7 @@ NS_ERROR_UNEXPECTED
 return
 mObservers
 .
-AppendWeakElement
+AppendWeakElementUnlessExists
 (
 aObserver
 aOwnsWeak

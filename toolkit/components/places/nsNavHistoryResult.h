@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsMaybeWeakPtr
+.
+h
+"
+#
+include
+"
 nsInterfaceHashtable
 .
 h
