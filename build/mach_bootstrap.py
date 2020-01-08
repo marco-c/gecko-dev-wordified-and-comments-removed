@@ -1328,9 +1328,8 @@ return
 None
     
 def
-should_skip_dispatch
+should_skip_telemetry_submission
 (
-context
 handler
 )
 :
@@ -1367,6 +1366,34 @@ environment
 return
 True
         
+if
+any
+(
+e
+in
+os
+.
+environ
+for
+e
+in
+(
+'
+MOZ_AUTOMATION
+'
+'
+TASK_ID
+'
+'
+MACH_TELEMETRY_NO_SUBMIT
+'
+)
+)
+:
+            
+return
+True
+        
 return
 False
     
@@ -1380,6 +1407,7 @@ result
                               
 start_time
 end_time
+depth
 args
 )
 :
@@ -1413,10 +1441,30 @@ telemetry
 "
         
 if
-should_skip_dispatch
+depth
+!
+=
+1
+or
+os
+.
+environ
+.
+get
 (
-context
-handler
+'
+MACH_MAIN_PID
+'
+)
+!
+=
+str
+(
+os
+.
+getpid
+(
+)
 )
 :
             
@@ -1730,21 +1778,10 @@ True
 )
         
 if
-'
-MOZ_AUTOMATION
-'
-in
-os
-.
-environ
-or
-'
-TASK_ID
-'
-in
-os
-.
-environ
+should_skip_telemetry_submission
+(
+handler
+)
 :
             
 return
@@ -2035,6 +2072,43 @@ raise
 AttributeError
 (
 key
+)
+    
+if
+'
+MACH_MAIN_PID
+'
+not
+in
+os
+.
+environ
+:
+        
+os
+.
+environ
+[
+b
+'
+MACH_MAIN_PID
+'
+]
+=
+str
+(
+os
+.
+getpid
+(
+)
+)
+.
+encode
+(
+'
+ascii
+'
 )
     
 driver
