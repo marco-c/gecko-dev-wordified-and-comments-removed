@@ -7441,9 +7441,8 @@ lambda
 x
 :
 x
-[
-1
-]
+.
+directories
 manager
 .
 modules
@@ -7647,7 +7646,7 @@ xpt
 backend_file
 .
 relobjdir
-module
+module_name
 )
 )
             
@@ -7661,7 +7660,7 @@ s
 xpt
 '
 %
-module
+module_name
 ]
             
 stems
@@ -7822,7 +7821,7 @@ XPIDL
 s
 '
 %
-module
+module_name
                 
 cmd
 =
