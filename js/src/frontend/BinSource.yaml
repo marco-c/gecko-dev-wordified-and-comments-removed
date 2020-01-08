@@ -6957,7 +6957,7 @@ NameNode
 (
 )
 .
-setExpression
+setInitializer
 (
 init
 )

@@ -6646,12 +6646,12 @@ pn
 >
 as
 <
-NameNode
+LabeledStatement
 >
 (
 )
 .
-expression
+statement
 (
 )
 answer
@@ -18896,7 +18896,7 @@ NameNode
 (
 )
 .
-expression
+initializer
 (
 )
 )
@@ -24688,7 +24688,7 @@ NameNode
 (
 )
 .
-expression
+initializer
 (
 )
 )

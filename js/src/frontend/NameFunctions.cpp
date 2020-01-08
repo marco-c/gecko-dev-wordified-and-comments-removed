@@ -2273,7 +2273,7 @@ NameNode
 (
 )
 .
-expression
+initializer
 (
 )
 )
@@ -3581,7 +3581,7 @@ MOZ_ASSERT
 outerBinding
 -
 >
-expression
+initializer
 (
 )
 )
@@ -3618,7 +3618,7 @@ MOZ_ASSERT
 innerBinding
 -
 >
-expression
+initializer
 (
 )
 )
@@ -4645,7 +4645,7 @@ NameNode
 (
 )
 .
-expression
+initializer
 (
 )
 )
@@ -4687,7 +4687,7 @@ NameNode
 (
 )
 .
-expression
+initializer
 (
 )
 )
@@ -4816,12 +4816,12 @@ cur
 >
 as
 <
-NameNode
+LabeledStatement
 >
 (
 )
 .
-expression
+statement
 (
 )
 prefix
@@ -4856,7 +4856,7 @@ NameNode
 (
 )
 .
-expression
+initializer
 (
 )
 )
