@@ -128,6 +128,17 @@ p
 )
 ;
 void
+dav1d_picture_move_ref
+(
+Dav1dPicture
+*
+dst
+Dav1dPicture
+*
+src
+)
+;
+int
 dav1d_thread_picture_wait
 (
 const

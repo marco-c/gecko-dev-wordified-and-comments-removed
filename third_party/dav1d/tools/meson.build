@@ -304,6 +304,13 @@ c
 '
 output
 /
+null
+.
+c
+'
+'
+output
+/
 output
 .
 c

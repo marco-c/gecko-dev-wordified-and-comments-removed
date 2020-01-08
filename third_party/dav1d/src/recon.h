@@ -118,7 +118,7 @@ decl_recon_b_inter_fn
 name
 )
 \
-void
+int
 (
 name
 )

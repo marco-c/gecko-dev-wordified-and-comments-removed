@@ -50,6 +50,10 @@ int
 height
 int
 angle
+int
+max_width
+int
+max_height
 )
 typedef
 decl_angular_ipred_fn
@@ -84,6 +88,10 @@ int
 w_pad
 int
 h_pad
+int
+cw
+int
+ch
 )
 typedef
 decl_cfl_ac_fn
@@ -184,9 +192,6 @@ cfl_ac_fn
 cfl_ac
 [
 3
-]
-[
-N_RECT_TX_SIZES
 ]
 ;
 cfl_pred_fn

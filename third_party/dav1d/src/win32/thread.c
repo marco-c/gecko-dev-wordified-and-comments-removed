@@ -14,7 +14,7 @@ _WIN32
 #
 include
 <
-windows
+errno
 .
 h
 >
@@ -28,7 +28,14 @@ h
 #
 include
 <
-errno
+stdlib
+.
+h
+>
+#
+include
+<
+windows
 .
 h
 >

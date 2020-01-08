@@ -103,6 +103,10 @@ topleft_out
 ;
 #
 define
+ANGLE_USE_EDGE_FILTER_FLAG
+1024
+#
+define
 ANGLE_SMOOTH_EDGE_FLAG
 512
 static

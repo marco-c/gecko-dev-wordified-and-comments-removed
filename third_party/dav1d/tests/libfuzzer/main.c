@@ -49,15 +49,11 @@ h
 >
 #
 include
-<
-tests
-/
-libfuzzer
-/
+"
 dav1d_fuzzer
 .
 h
->
+"
 int
 main
 (

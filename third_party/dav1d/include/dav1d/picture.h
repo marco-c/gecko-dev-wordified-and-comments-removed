@@ -256,6 +256,9 @@ typedef
 struct
 Dav1dPicture
 {
+int
+poc
+;
 void
 *
 data
@@ -276,9 +279,6 @@ stride
 ;
 Dav1dPictureParameters
 p
-;
-int
-poc
 ;
 void
 *

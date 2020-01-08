@@ -29,6 +29,7 @@ typedef
 struct
 Dav1dData
 {
+const
 uint8_t
 *
 data
@@ -45,7 +46,8 @@ ref
 Dav1dData
 ;
 DAV1D_API
-int
+uint8_t
+*
 dav1d_data_create
 (
 Dav1dData
@@ -62,6 +64,7 @@ dav1d_data_wrap
 Dav1dData
 *
 data
+const
 uint8_t
 *
 buf
@@ -73,6 +76,7 @@ void
 free_callback
 )
 (
+const
 uint8_t
 *
 buf

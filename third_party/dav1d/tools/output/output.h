@@ -68,5 +68,17 @@ MuxerContext
 ctx
 )
 ;
+int
+output_verify
+(
+MuxerContext
+*
+ctx
+const
+char
+*
+hash_string
+)
+;
 #
 endif

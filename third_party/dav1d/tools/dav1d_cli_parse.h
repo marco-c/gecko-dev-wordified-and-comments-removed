@@ -34,6 +34,11 @@ char
 *
 muxer
 ;
+const
+char
+*
+verify
+;
 unsigned
 limit
 skip

@@ -52,10 +52,15 @@ checked
 {
 #
 if
+(
 ARCH_AARCH64
 |
 |
 ARCH_ARM
+)
+&
+&
+HAVE_ASM
 flags
 =
 dav1d_get_cpu_flags_arm
