@@ -1944,6 +1944,14 @@ arm7
 opt
 -
 unittests
+-
+android
+-
+hw
+-
+arm7
+-
+raptor
 android
 -
 hw
@@ -2026,3 +2034,11 @@ aarch64
 opt
 -
 unittests
+-
+android
+-
+hw
+-
+aarch64
+-
+raptor
