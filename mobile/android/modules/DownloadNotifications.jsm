@@ -1156,6 +1156,11 @@ getCookieFromDownload
 download
 )
 {
+const
+maxUrlLength
+=
+1024
+;
 return
 download
 .
@@ -1168,6 +1173,12 @@ download
 source
 .
 url
+.
+slice
+(
+-
+maxUrlLength
+)
 +
 download
 .
