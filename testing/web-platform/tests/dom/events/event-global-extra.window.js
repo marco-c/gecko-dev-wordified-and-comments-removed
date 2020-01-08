@@ -722,6 +722,7 @@ t
 step_func_done
 (
 (
+load_event
 )
 =
 >
@@ -812,7 +813,7 @@ assert_equals
 frameState
 .
 parentEvent
-undefined
+load_event
 )
 ;
 }
