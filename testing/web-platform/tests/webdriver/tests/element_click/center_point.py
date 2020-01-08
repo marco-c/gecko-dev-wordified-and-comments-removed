@@ -179,16 +179,12 @@ addEventListener
 "
 click
 "
+function
 (
-{
-{
-clientX
-clientY
-}
-}
+e
 )
-=
->
+{
+{
 window
 .
 clicks
@@ -196,10 +192,16 @@ clicks
 push
 (
 [
+e
+.
 clientX
+e
+.
 clientY
 ]
 )
+}
+}
 )
 ;
         
