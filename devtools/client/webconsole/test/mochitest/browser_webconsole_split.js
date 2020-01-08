@@ -572,6 +572,15 @@ hidden
 )
 ;
 const
+splitterHeight
+=
+splitterVisibility
+?
+1
+:
+0
+;
+const
 openedConsolePanel
 =
 toolbox
@@ -607,6 +616,9 @@ webconsoleHeight
 splitterVisibility
 :
 splitterVisibility
+splitterHeight
+:
+splitterHeight
 openedConsolePanel
 :
 openedConsolePanel
@@ -1466,6 +1478,10 @@ deckHeight
 currentUIState
 .
 webconsoleHeight
++
+currentUIState
+.
+splitterHeight
 )
 currentUIState
 .
