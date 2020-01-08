@@ -331,7 +331,7 @@ gCloseWindowTimeoutCounter
 0
 ;
 var
-gAppUpdateEnabled
+gAppUpdateDisabled
 ;
 var
 gAppUpdateServiceEnabled
@@ -3025,11 +3025,11 @@ prefs
 .
 prefHasUserValue
 (
-PREF_APP_UPDATE_ENABLED
+PREF_APP_UPDATE_DISABLEDFORTESTING
 )
 )
 {
-gAppUpdateEnabled
+gAppUpdateDisabled
 =
 Services
 .
@@ -3037,7 +3037,7 @@ prefs
 .
 getBoolPref
 (
-PREF_APP_UPDATE_ENABLED
+PREF_APP_UPDATE_DISABLEDFORTESTING
 )
 ;
 }
@@ -3047,8 +3047,8 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_ENABLED
-true
+PREF_APP_UPDATE_DISABLEDFORTESTING
+false
 )
 ;
 if
@@ -3061,8 +3061,8 @@ prefs
 getBoolPref
 (
 PREF_APP_UPDATE_AUTO
-)
 false
+)
 )
 {
 Services
@@ -3349,7 +3349,7 @@ gAppUpdateURLDefault
 }
 if
 (
-gAppUpdateEnabled
+gAppUpdateDisabled
 !
 =
 =
@@ -3362,8 +3362,8 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_ENABLED
-gAppUpdateEnabled
+PREF_APP_UPDATE_DISABLEDFORTESTING
+gAppUpdateDisabled
 )
 ;
 }
@@ -3376,7 +3376,7 @@ prefs
 .
 prefHasUserValue
 (
-PREF_APP_UPDATE_ENABLED
+PREF_APP_UPDATE_DISABLEDFORTESTING
 )
 )
 {
@@ -3386,7 +3386,7 @@ prefs
 .
 clearUserPref
 (
-PREF_APP_UPDATE_ENABLED
+PREF_APP_UPDATE_DISABLEDFORTESTING
 )
 ;
 }
