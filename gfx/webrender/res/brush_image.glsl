@@ -222,7 +222,7 @@ RectWithSize
 prim_rect
 RectWithSize
 segment_rect
-ivec3
+ivec4
 user_data
 mat4
 transform
@@ -298,7 +298,7 @@ fetch_image_resource
 (
 user_data
 .
-x
+w
 )
 ;
 vec2
@@ -610,10 +610,7 @@ color_mode
 =
 user_data
 .
-y
->
->
-16
+x
 ;
 int
 raster_space
@@ -621,8 +618,6 @@ raster_space
 user_data
 .
 y
-&
-0xffff
 ;
 if
 (
@@ -712,7 +707,7 @@ fetch_image_resource_extra
 (
 user_data
 .
-x
+w
 )
 ;
 vec2

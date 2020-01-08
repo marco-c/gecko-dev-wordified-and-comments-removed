@@ -108,7 +108,7 @@ RectWithSize
 local_rect
 RectWithSize
 segment_rect
-ivec3
+ivec4
 user_data
 mat4
 transform
