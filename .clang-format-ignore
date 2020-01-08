@@ -113,16 +113,6 @@ intl
 TimeZoneDataGenerated
 .
 h
-js
-/
-src
-/
-jsapi
--
-tests
-/
-.
-*
 #
 Generated
 by
