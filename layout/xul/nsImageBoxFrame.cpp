@@ -2443,7 +2443,7 @@ mImageRequest
 )
 {
 return
-false
+true
 ;
 }
 uint32_t
