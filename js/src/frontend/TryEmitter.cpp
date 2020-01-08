@@ -1059,9 +1059,7 @@ if
 bce_
 -
 >
-tryNoteList
-.
-append
+addTryNote
 (
 JSTRY_CATCH
 depth_
@@ -1090,9 +1088,7 @@ if
 bce_
 -
 >
-tryNoteList
-.
-append
+addTryNote
 (
 JSTRY_FINALLY
 depth_
