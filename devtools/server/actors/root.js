@@ -317,7 +317,7 @@ noBlackBoxing
 false
 noPrettyPrinting
 :
-false
+true
 memoryActorAllocations
 :
 true

@@ -153,11 +153,6 @@ platform
 protocol
 '
 '
-pretty
--
-fast
-'
-'
 qrcode
 '
 '

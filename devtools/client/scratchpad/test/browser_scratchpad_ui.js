@@ -214,17 +214,6 @@ sp
 -
 menu
 -
-pprint
-"
-:
-"
-prettyPrint
-"
-"
-sp
--
-menu
--
 line
 -
 numbers
