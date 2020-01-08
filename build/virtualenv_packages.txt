@@ -638,6 +638,15 @@ pth
 :
 xpcom
 /
+ds
+/
+tools
+mozilla
+.
+pth
+:
+xpcom
+/
 typelib
 /
 xpt

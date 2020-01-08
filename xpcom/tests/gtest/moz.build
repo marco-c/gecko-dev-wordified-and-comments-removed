@@ -618,6 +618,8 @@ script
 /
 ds
 /
+tools
+/
 make_dafsa
 .
 py
