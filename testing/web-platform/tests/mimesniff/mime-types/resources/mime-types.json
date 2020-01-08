@@ -1441,7 +1441,10 @@ html
 ;
 charset
 =
-GBK
+\
+"
+\
+"
 "
 "
 navigable
@@ -1452,9 +1455,7 @@ true
 encoding
 "
 :
-"
-GBK
-"
+null
 }
 {
 "
