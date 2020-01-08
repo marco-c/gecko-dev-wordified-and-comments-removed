@@ -377,7 +377,7 @@ implicit_jscontext
 readonly
 attribute
 jsval
-payer
+payerErrors
 ;
 [
 implicit_jscontext
@@ -385,7 +385,7 @@ implicit_jscontext
 readonly
 attribute
 jsval
-paymentMethod
+paymentMethodErrors
 ;
 }
 ;

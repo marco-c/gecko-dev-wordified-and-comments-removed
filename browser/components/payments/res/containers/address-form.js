@@ -2243,7 +2243,7 @@ selectedPayerAddress
 return
 paymentDetails
 .
-payer
+payerErrors
 ;
 }
 case
@@ -2262,12 +2262,12 @@ return
 (
 paymentDetails
 .
-paymentMethod
+paymentMethodErrors
 &
 &
 paymentDetails
 .
-paymentMethod
+paymentMethodErrors
 .
 billingAddress
 )

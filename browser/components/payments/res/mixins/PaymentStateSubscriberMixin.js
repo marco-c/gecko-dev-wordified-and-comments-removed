@@ -158,11 +158,11 @@ displayItems
 :
 [
 ]
-payer
+payerErrors
 :
 {
 }
-paymentMethod
+paymentMethodErrors
 :
 null
 shippingAddressErrors

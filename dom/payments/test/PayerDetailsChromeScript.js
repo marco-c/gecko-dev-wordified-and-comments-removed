@@ -210,7 +210,7 @@ request
 .
 paymentDetails
 .
-payer
+payerErrors
 ;
 const
 {

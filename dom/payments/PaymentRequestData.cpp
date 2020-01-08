@@ -2000,7 +2000,7 @@ NS_IMETHODIMP
 PaymentDetails
 :
 :
-GetPayer
+GetPayerErrors
 (
 JSContext
 *
@@ -2045,7 +2045,7 @@ NS_IMETHODIMP
 PaymentDetails
 :
 :
-GetPaymentMethod
+GetPaymentMethodErrors
 (
 JSContext
 *
@@ -2348,7 +2348,7 @@ mPayerErrors
 rowDetails
 -
 >
-GetPayer
+GetPayerErrors
 (
 )
 ;
@@ -2357,7 +2357,7 @@ mPaymentMethodErrors
 rowDetails
 -
 >
-GetPaymentMethod
+GetPaymentMethodErrors
 (
 )
 ;
@@ -2386,7 +2386,7 @@ nsString
 PaymentDetails
 :
 :
-GetPayer
+GetPayerErrors
 (
 )
 const
@@ -2401,7 +2401,7 @@ nsString
 PaymentDetails
 :
 :
-GetPaymentMethod
+GetPaymentMethodErrors
 (
 )
 const
