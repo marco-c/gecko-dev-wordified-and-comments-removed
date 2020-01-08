@@ -395,13 +395,6 @@ CompositableHandle
 compositable
 )
 ;
-sync
-Create
-(
-IntSize
-aSize
-)
-;
 async
 DeleteCompositorAnimations
 (
