@@ -774,7 +774,7 @@ this
 .
 panel
 .
-mozMatchesSelector
+matches
 (
 "
 :
