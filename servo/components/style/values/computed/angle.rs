@@ -286,8 +286,6 @@ as
 f64
 *
 RAD_PER_DEG
-as
-f64
 }
 #
 [
