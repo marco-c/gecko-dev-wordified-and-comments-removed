@@ -151,6 +151,7 @@ time
 readonly
 attribute
 DOMRectReadOnly
+?
 rootBounds
 ;
 readonly
@@ -189,6 +190,7 @@ time
 ;
 required
 DOMRectInit
+?
 rootBounds
 ;
 required
