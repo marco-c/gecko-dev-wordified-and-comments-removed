@@ -123,6 +123,16 @@ public
 :
 static
 bool
+UsingOverflowAffectingEffects
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
+bool
 UsingEffectsForFrame
 (
 const
