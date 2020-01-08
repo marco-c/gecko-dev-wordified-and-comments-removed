@@ -2595,17 +2595,6 @@ tabspecific
 "
 true
 "
-onpopupshown
-=
-"
-StarUI
-.
-panelShown
-(
-event
-)
-;
-"
 aria
 -
 labelledby
