@@ -14,12 +14,18 @@ util
 Override
 ;
 use
+proc_macro2
+:
+:
+TokenStream
+;
+use
 quote
 :
 :
 {
 ToTokens
-Tokens
+TokenStreamExt
 }
 ;
 use
@@ -57,7 +63,7 @@ DeriveInput
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 mut
@@ -440,7 +446,7 @@ WhereClause
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 bindings
@@ -459,6 +465,7 @@ cg
 :
 to_css_identifier
 (
+&
 variant
 .
 ast
@@ -467,7 +474,7 @@ ast
 .
 ident
 .
-as_ref
+to_string
 (
 )
 )
@@ -801,7 +808,7 @@ str
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 mut
@@ -1095,7 +1102,7 @@ WhereClause
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 mut
@@ -1245,9 +1252,10 @@ cg
 :
 to_css_identifier
 (
+&
 ident
 .
-as_ref
+to_string
 (
 )
 )
