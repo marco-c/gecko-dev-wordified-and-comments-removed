@@ -1,9 +1,9 @@
 #
 ifndef
-DECODETXB_H_
+AOM_AV1_DECODER_DECODETXB_H_
 #
 define
-DECODETXB_H_
+AOM_AV1_DECODER_DECODETXB_H_
 #
 include
 "

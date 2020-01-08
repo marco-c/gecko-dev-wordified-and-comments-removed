@@ -1,9 +1,9 @@
 #
 ifndef
-AOMENC_H_
+AOM_APPS_AOMENC_H_
 #
 define
-AOMENC_H_
+AOM_APPS_AOMENC_H_
 #
 include
 "
@@ -90,9 +90,6 @@ have_framerate
 struct
 aom_rational
 framerate
-;
-int
-out_part
 ;
 int
 debug

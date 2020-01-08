@@ -120,6 +120,12 @@ int
 bit
 )
 ;
+#
+if
+HAVE_SSE4_1
+|
+|
+HAVE_NEON
 const
 int
 kValidBitCheck
@@ -142,6 +148,8 @@ kValidBitCheck
 4
 }
 ;
+#
+endif
 typedef
 :
 :

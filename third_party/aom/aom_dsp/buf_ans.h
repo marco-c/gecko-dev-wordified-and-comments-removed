@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_DSP_BUF_ANS_H_
+AOM_AOM_DSP_BUF_ANS_H_
 #
 define
-AOM_DSP_BUF_ANS_H_
+AOM_AOM_DSP_BUF_ANS_H_
 #
 include
 <

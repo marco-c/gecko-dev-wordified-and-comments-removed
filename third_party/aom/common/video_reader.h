@@ -1,9 +1,9 @@
 #
 ifndef
-VIDEO_READER_H_
+AOM_COMMON_VIDEO_READER_H_
 #
 define
-VIDEO_READER_H_
+AOM_COMMON_VIDEO_READER_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_COMMON_FRAME_BUFFERS_H_
+AOM_AV1_COMMON_FRAME_BUFFERS_H_
 #
 define
-AV1_COMMON_FRAME_BUFFERS_H_
+AOM_AV1_COMMON_FRAME_BUFFERS_H_
 #
 include
 "
@@ -73,6 +73,14 @@ list
 ;
 void
 av1_free_internal_frame_buffers
+(
+InternalFrameBufferList
+*
+list
+)
+;
+void
+av1_zero_unused_internal_frame_buffers
 (
 InternalFrameBufferList
 *

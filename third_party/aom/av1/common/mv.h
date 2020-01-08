@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_COMMON_MV_H_
+AOM_AV1_COMMON_MV_H_
 #
 define
-AV1_COMMON_MV_H_
+AOM_AV1_COMMON_MV_H_
 #
 include
 "
@@ -168,6 +168,7 @@ WARPEDPIXEL_PREC_BITS
 )
 typedef
 enum
+ATTRIBUTE_PACKED
 {
 IDENTITY
 =

@@ -1,4 +1,10 @@
 #
+ifndef
+AOM_AV1_COMMON_X86_CFL_SIMD_H_
+#
+define
+AOM_AV1_COMMON_X86_CFL_SIMD_H_
+#
 include
 "
 av1
@@ -1391,3 +1397,5 @@ int
 bd
 )
 ;
+#
+endif

@@ -1,9 +1,9 @@
 #
 ifndef
-WARNINGS_H_
+AOM_COMMON_WARNINGS_H_
 #
 define
-WARNINGS_H_
+AOM_COMMON_WARNINGS_H_
 #
 ifdef
 __cplusplus

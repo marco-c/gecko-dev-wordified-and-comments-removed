@@ -2016,11 +2016,6 @@ return
 ;
 }
 }
-(
-void
-)
-highbd
-;
 switch
 (
 plane

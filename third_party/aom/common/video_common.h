@@ -1,9 +1,9 @@
 #
 ifndef
-VIDEO_COMMON_H_
+AOM_COMMON_VIDEO_COMMON_H_
 #
 define
-VIDEO_COMMON_H_
+AOM_COMMON_VIDEO_COMMON_H_
 #
 include
 "

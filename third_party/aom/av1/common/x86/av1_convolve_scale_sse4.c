@@ -26,15 +26,6 @@ include
 "
 aom_dsp
 /
-aom_convolve
-.
-h
-"
-#
-include
-"
-aom_dsp
-/
 aom_dsp_common
 .
 h

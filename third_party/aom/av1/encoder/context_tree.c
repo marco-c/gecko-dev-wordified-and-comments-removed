@@ -1397,6 +1397,17 @@ int
 num_planes
 )
 {
+if
+(
+td
+-
+>
+pc_tree
+!
+=
+NULL
+)
+{
 const
 int
 tree_nodes_inc
@@ -1419,11 +1430,9 @@ tree_nodes_inc
 +
 1
 ;
-int
-i
-;
 for
 (
+int
 i
 =
 0
@@ -1436,6 +1445,7 @@ tree_nodes
 +
 i
 )
+{
 free_tree_contexts
 (
 &
@@ -1449,6 +1459,7 @@ i
 num_planes
 )
 ;
+}
 aom_free
 (
 td
@@ -1464,6 +1475,7 @@ pc_tree
 =
 NULL
 ;
+}
 }
 void
 av1_copy_tree_context

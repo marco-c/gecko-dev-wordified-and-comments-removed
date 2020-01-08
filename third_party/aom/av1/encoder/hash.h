@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_ENCODER_HASH_H_
+AOM_AV1_ENCODER_HASH_H_
 #
 define
-AV1_ENCODER_HASH_H_
+AOM_AV1_ENCODER_HASH_H_
 #
 include
 "
@@ -106,6 +106,12 @@ CRC32C
 p_crc32c
 )
 ;
+#
+define
+AOM_BUFFER_SIZE_FOR_BLOCK_HASH
+(
+4096
+)
 #
 ifdef
 __cplusplus

@@ -921,12 +921,15 @@ pass
 ?
 AOMMAX
 (
+exp
+(
 cpi
 -
 >
 twopass
 .
 mb_av_energy
+)
 MIN_DEFAULT_LV_THRESH
 )
 :

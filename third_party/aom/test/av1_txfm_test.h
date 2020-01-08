@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_TXFM_TEST_H_
+AOM_TEST_AV1_TXFM_TEST_H_
 #
 define
-AV1_TXFM_TEST_H_
+AOM_TEST_AV1_TXFM_TEST_H_
 #
 include
 <

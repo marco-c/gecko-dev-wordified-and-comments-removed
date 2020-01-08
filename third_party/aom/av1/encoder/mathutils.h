@@ -1,4 +1,10 @@
 #
+ifndef
+AOM_AV1_ENCODER_MATHUTILS_H_
+#
+define
+AOM_AV1_ENCODER_MATHUTILS_H_
+#
 include
 <
 memory
@@ -3243,3 +3249,5 @@ return
 0
 ;
 }
+#
+endif

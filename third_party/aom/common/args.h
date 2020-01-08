@@ -1,9 +1,9 @@
 #
 ifndef
-ARGS_H_
+AOM_COMMON_ARGS_H_
 #
 define
-ARGS_H_
+AOM_COMMON_ARGS_H_
 #
 include
 <

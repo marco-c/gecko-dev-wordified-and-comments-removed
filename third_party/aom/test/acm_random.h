@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_ACM_RANDOM_H_
+AOM_TEST_ACM_RANDOM_H_
 #
 define
-TEST_ACM_RANDOM_H_
+AOM_TEST_ACM_RANDOM_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_COMMON_COMMON_H_
+AOM_AV1_COMMON_COMMON_H_
 #
 define
-AV1_COMMON_COMMON_H_
+AOM_AV1_COMMON_COMMON_H_
 #
 include
 <

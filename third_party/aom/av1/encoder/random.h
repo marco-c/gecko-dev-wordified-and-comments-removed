@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_ENCODER_RANDOM_H_
+AOM_AV1_ENCODER_RANDOM_H_
 #
 define
-AV1_ENCODER_RANDOM_H_
+AOM_AV1_ENCODER_RANDOM_H_
 #
 ifdef
 __cplusplus

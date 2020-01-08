@@ -1,9 +1,9 @@
 #
 ifndef
-WEBMDEC_H_
+AOM_COMMON_WEBMDEC_H_
 #
 define
-WEBMDEC_H_
+AOM_COMMON_WEBMDEC_H_
 #
 include
 "

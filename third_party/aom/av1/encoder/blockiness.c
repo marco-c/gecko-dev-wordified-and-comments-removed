@@ -61,15 +61,6 @@ include
 "
 aom_dsp
 /
-aom_convolve
-.
-h
-"
-#
-include
-"
-aom_dsp
-/
 aom_filter
 .
 h

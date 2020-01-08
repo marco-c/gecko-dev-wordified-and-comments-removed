@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_AOM_ENCODER_H_
+AOM_AOM_AOM_ENCODER_H_
 #
 define
-AOM_AOM_ENCODER_H_
+AOM_AOM_AOM_ENCODER_H_
 #
 ifdef
 __cplusplus
@@ -56,10 +56,6 @@ packets
 /
 #
 define
-AOM_CODEC_CAP_OUTPUT_PARTITION
-0x20000
-#
-define
 AOM_CODEC_CAP_HIGHBITDEPTH
 0x40000
 #
@@ -77,10 +73,6 @@ each
 frame
 *
 /
-#
-define
-AOM_CODEC_USE_OUTPUT_PARTITION
-0x20000
 #
 define
 AOM_CODEC_USE_HIGHBITDEPTH
@@ -153,10 +145,6 @@ aom_codec_er_flags_t
 define
 AOM_ERROR_RESILIENT_DEFAULT
 0x1
-#
-define
-AOM_ERROR_RESILIENT_PARTITIONS
-0x2
 enum
 aom_codec_cx_pkt_kind
 {

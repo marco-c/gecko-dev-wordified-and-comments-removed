@@ -154,6 +154,9 @@ Long
 ;
 my
 git_desc
+=
+'
+'
 ;
 my
 version_data
@@ -757,6 +760,8 @@ version_extra
 #
 define
 VERSION_PACKED
+\
+\
 version_packed
 #
 define
@@ -809,6 +814,8 @@ version_extra
 #
 define
 VERSION_PACKED
+\
+\
 version_packed
 #
 define

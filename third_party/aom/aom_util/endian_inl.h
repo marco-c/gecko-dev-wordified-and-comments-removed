@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_UTIL_ENDIAN_INL_H_
+AOM_AOM_UTIL_ENDIAN_INL_H_
 #
 define
-AOM_UTIL_ENDIAN_INL_H_
+AOM_AOM_UTIL_ENDIAN_INL_H_
 #
 include
 <

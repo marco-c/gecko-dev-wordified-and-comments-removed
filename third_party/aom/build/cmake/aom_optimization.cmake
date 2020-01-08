@@ -1567,7 +1567,7 @@ using
 #
 build
 /
-make
+cmake
 /
 rtcd
 .
@@ -1634,7 +1634,7 @@ AOM_ROOT
 /
 build
 /
-make
+cmake
 /
 rtcd
 .

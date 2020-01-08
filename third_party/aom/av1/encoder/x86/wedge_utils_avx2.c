@@ -33,6 +33,17 @@ h
 #
 include
 "
+aom_dsp
+/
+x86
+/
+synonyms_avx2
+.
+h
+"
+#
+include
+"
 aom
 /
 aom_integer
@@ -100,7 +111,7 @@ const
 __m256i
 v_zext_q
 =
-_mm256_set1_epi64x
+yy_set1_64_from_32i
 (
 0xffffffff
 )

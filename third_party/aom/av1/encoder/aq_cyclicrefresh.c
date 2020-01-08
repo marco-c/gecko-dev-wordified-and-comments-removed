@@ -288,6 +288,14 @@ CYCLIC_REFRESH
 cr
 )
 {
+if
+(
+cr
+!
+=
+NULL
+)
+{
 aom_free
 (
 cr
@@ -309,6 +317,7 @@ aom_free
 cr
 )
 ;
+}
 }
 static
 int

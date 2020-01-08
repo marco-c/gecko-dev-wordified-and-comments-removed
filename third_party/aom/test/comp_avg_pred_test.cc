@@ -215,6 +215,7 @@ AV1JNTCOMPAVG
 BuildParams
 (
 aom_highbd_jnt_comp_avg_pred_sse2
+1
 )
 )
 ;

@@ -49,6 +49,15 @@ h
 #
 include
 "
+aom_scale
+/
+yv12config
+.
+h
+"
+#
+include
+"
 common
 /
 tools_common
@@ -73,10 +82,6 @@ encoder_util
 .
 h
 "
-#
-define
-AOM_BORDER_IN_PIXELS
-288
 static
 const
 char

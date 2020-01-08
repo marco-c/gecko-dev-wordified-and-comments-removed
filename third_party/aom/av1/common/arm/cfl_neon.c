@@ -953,11 +953,8 @@ end
 ;
 }
 #
-if
-__ARM_ARCH
-<
-=
-7
+ifndef
+__aarch64__
 uint16x8_t
 vpaddq_u16
 (
@@ -2297,11 +2294,8 @@ end
 )
 ;
 #
-if
-__ARM_ARCH
->
-=
-8
+ifdef
+__aarch64__
 sum_32x4
 =
 vpaddq_u32

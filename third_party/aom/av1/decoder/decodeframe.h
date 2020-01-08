@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_DECODER_DECODEFRAME_H_
+AOM_AV1_DECODER_DECODEFRAME_H_
 #
 define
-AV1_DECODER_DECODEFRAME_H_
+AOM_AV1_DECODER_DECODEFRAME_H_
 #
 ifdef
 __cplusplus
@@ -218,8 +218,6 @@ struct
 ThreadData
 *
 thread_data
-int
-use_highbd
 )
 ;
 void

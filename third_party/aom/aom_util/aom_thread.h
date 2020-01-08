@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_THREAD_H_
+AOM_AOM_UTIL_AOM_THREAD_H_
 #
 define
-AOM_THREAD_H_
+AOM_AOM_UTIL_AOM_THREAD_H_
 #
 include
 "

@@ -41,8 +41,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 count
-int
-skip_block
 const
 int16_t
 *
@@ -246,12 +244,6 @@ dqcoeff_ptr
 )
 )
 ;
-if
-(
-!
-skip_block
-)
-{
 for
 (
 i
@@ -665,7 +657,6 @@ eob_i
 }
 }
 }
-}
 *
 eob_ptr
 =
@@ -683,8 +674,6 @@ tran_low_t
 coeff_ptr
 intptr_t
 n_coeffs
-int
-skip_block
 const
 int16_t
 *
@@ -886,12 +875,6 @@ dqcoeff_ptr
 )
 )
 ;
-if
-(
-!
-skip_block
-)
-{
 for
 (
 i
@@ -1248,7 +1231,6 @@ i
 :
 eob
 ;
-}
 }
 *
 eob_ptr

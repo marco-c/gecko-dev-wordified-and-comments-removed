@@ -1,9 +1,9 @@
 #
 ifndef
-TOOLS_OBU_PARSER_H_
+AOM_TOOLS_OBU_PARSER_H_
 #
 define
-TOOLS_OBU_PARSER_H_
+AOM_TOOLS_OBU_PARSER_H_
 #
 include
 <

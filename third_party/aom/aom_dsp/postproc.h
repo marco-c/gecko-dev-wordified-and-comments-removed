@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_DSP_POSTPROC_H_
+AOM_AOM_DSP_POSTPROC_H_
 #
 define
-AOM_DSP_POSTPROC_H_
+AOM_AOM_DSP_POSTPROC_H_
 #
 ifdef
 __cplusplus

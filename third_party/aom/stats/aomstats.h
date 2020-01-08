@@ -1,9 +1,9 @@
 #
 ifndef
-AOMSTATS_H_
+AOM_STATS_AOMSTATS_H_
 #
 define
-AOMSTATS_H_
+AOM_STATS_AOMSTATS_H_
 #
 include
 <

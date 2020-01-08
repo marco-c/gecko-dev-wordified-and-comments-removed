@@ -12548,7 +12548,7 @@ void
 int
 flags
 =
-arm_cpu_caps
+aom_arm_cpu_caps
 (
 )
 ;

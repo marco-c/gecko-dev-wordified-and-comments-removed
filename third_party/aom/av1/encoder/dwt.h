@@ -1,4 +1,10 @@
 #
+ifndef
+AOM_AV1_ENCODER_DWT_H_
+#
+define
+AOM_AV1_ENCODER_DWT_H_
+#
 include
 "
 av1
@@ -64,3 +70,5 @@ int
 hbd
 )
 ;
+#
+endif

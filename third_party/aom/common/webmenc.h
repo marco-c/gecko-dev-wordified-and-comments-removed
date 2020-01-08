@@ -1,9 +1,9 @@
 #
 ifndef
-WEBMENC_H_
+AOM_COMMON_WEBMENC_H_
 #
 define
-WEBMENC_H_
+AOM_COMMON_WEBMENC_H_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_DSP_NOISE_MODEL_H_
+AOM_AOM_DSP_NOISE_MODEL_H_
 #
 define
-AOM_DSP_NOISE_MODEL_H_
+AOM_AOM_DSP_NOISE_MODEL_H_
 #
 ifdef
 __cplusplus

@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_COMMON_OBMC_H_
+AOM_AV1_COMMON_OBMC_H_
 #
 define
-AV1_COMMON_OBMC_H_
+AOM_AV1_COMMON_OBMC_H_
 typedef
 void
 (
@@ -106,7 +106,7 @@ mi_col
 xd
 -
 >
-n8_w
+n4_w
 cm
 -
 >
@@ -218,7 +218,7 @@ AOMMIN
 xd
 -
 >
-n8_w
+n4_w
 mi_step
 )
 *
@@ -307,7 +307,7 @@ mi_row
 xd
 -
 >
-n8_h
+n4_h
 cm
 -
 >
@@ -431,7 +431,7 @@ AOMMIN
 xd
 -
 >
-n8_h
+n4_h
 mi_step
 )
 *

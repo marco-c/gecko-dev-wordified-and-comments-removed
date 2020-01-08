@@ -1,9 +1,9 @@
 #
 ifndef
-RATE_HIST_H_
+AOM_STATS_RATE_HIST_H_
 #
 define
-RATE_HIST_H_
+AOM_STATS_RATE_HIST_H_
 #
 include
 "

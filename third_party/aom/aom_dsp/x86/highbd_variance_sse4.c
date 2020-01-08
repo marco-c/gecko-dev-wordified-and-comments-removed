@@ -1046,7 +1046,10 @@ yoffset
 ;
 aom_highbd_comp_avg_pred
 (
+CONVERT_TO_BYTEPTR
+(
 temp3
+)
 second_pred
 4
 4
@@ -1163,7 +1166,10 @@ yoffset
 ;
 aom_highbd_comp_avg_pred
 (
+CONVERT_TO_BYTEPTR
+(
 temp3
+)
 second_pred
 4
 4
@@ -1280,7 +1286,10 @@ yoffset
 ;
 aom_highbd_comp_avg_pred
 (
+CONVERT_TO_BYTEPTR
+(
 temp3
+)
 second_pred
 4
 4

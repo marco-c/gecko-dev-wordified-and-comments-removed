@@ -1,9 +1,9 @@
 #
 ifndef
-Y4MINPUT_H_
+AOM_COMMON_Y4MINPUT_H_
 #
 define
-Y4MINPUT_H_
+AOM_COMMON_Y4MINPUT_H_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_GRAIN_TEST_VECTORS_H_
+AOM_AV1_ENCODER_GRAIN_TEST_VECTORS_H_
 #
 define
-AV1_GRAIN_TEST_VECTORS_H_
+AOM_AV1_ENCODER_GRAIN_TEST_VECTORS_H_
 static
 aom_film_grain_t
 film_grain_test_vectors

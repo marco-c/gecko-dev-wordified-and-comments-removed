@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_AOM_GRAIN_SYNTHESIS_H_
+AOM_AOM_DSP_GRAIN_SYNTHESIS_H_
 #
 define
-AOM_AOM_GRAIN_SYNTHESIS_H_
+AOM_AOM_DSP_GRAIN_SYNTHESIS_H_
 #
 ifdef
 __cplusplus
@@ -144,7 +144,7 @@ random_seed
 }
 aom_film_grain_t
 ;
-void
+int
 av1_add_film_grain_run
 (
 const
@@ -178,7 +178,7 @@ int
 mc_identity
 )
 ;
-void
+int
 av1_add_film_grain
 (
 const

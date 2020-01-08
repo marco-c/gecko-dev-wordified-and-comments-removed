@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_PORTS_MEM_OPS_H_
+AOM_AOM_PORTS_MEM_OPS_H_
 #
 define
-AOM_PORTS_MEM_OPS_H_
+AOM_AOM_PORTS_MEM_OPS_H_
 #
 ifndef
 MAU_T

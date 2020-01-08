@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_UTIL_DEBUG_UTIL_H_
+AOM_AOM_UTIL_DEBUG_UTIL_H_
 #
 define
-AOM_UTIL_DEBUG_UTIL_H_
+AOM_AOM_UTIL_DEBUG_UTIL_H_
 #
 include
 "

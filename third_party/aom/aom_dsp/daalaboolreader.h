@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_DSP_DAALABOOLREADER_H_
+AOM_AOM_DSP_DAALABOOLREADER_H_
 #
 define
-AOM_DSP_DAALABOOLREADER_H_
+AOM_AOM_DSP_DAALABOOLREADER_H_
 #
 include
 "
@@ -158,6 +158,15 @@ r
 ;
 uint32_t
 aom_daala_reader_tell_frac
+(
+const
+daala_reader
+*
+r
+)
+;
+int
+aom_daala_reader_has_overflowed
 (
 const
 daala_reader

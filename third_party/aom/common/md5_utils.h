@@ -1,9 +1,9 @@
 #
 ifndef
-MD5_UTILS_H_
+AOM_COMMON_MD5_UTILS_H_
 #
 define
-MD5_UTILS_H_
+AOM_COMMON_MD5_UTILS_H_
 #
 ifdef
 __cplusplus

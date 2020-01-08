@@ -1,9 +1,9 @@
 #
 ifndef
-AV1_ENCODER_CONTEXT_TREE_H_
+AOM_AV1_ENCODER_CONTEXT_TREE_H_
 #
 define
-AV1_ENCODER_CONTEXT_TREE_H_
+AOM_AV1_ENCODER_CONTEXT_TREE_H_
 #
 include
 "
@@ -138,6 +138,9 @@ comp_pred_diff
 ;
 int
 single_pred_diff
+;
+int
+skip_ref_frame_mask
 ;
 int
 rate

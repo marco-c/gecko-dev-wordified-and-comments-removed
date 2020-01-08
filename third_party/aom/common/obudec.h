@@ -1,9 +1,9 @@
 #
 ifndef
-OBUDEC_H_
+AOM_COMMON_OBUDEC_H_
 #
 define
-OBUDEC_H_
+AOM_COMMON_OBUDEC_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_CODEC_FACTORY_H_
+AOM_TEST_CODEC_FACTORY_H_
 #
 define
-TEST_CODEC_FACTORY_H_
+AOM_TEST_CODEC_FACTORY_H_
 #
 include
 "
@@ -421,8 +421,9 @@ const
 if
 CONFIG_AV1_DECODER
 return
-&
-aom_codec_av1_dx_algo
+aom_codec_av1_dx
+(
+)
 ;
 #
 else
@@ -476,8 +477,9 @@ const
 if
 CONFIG_AV1_ENCODER
 return
-&
-aom_codec_av1_cx_algo
+aom_codec_av1_cx
+(
+)
 ;
 #
 else
@@ -636,8 +638,9 @@ CONFIG_AV1_ENCODER
 return
 aom_codec_enc_config_default
 (
-&
-aom_codec_av1_cx_algo
+aom_codec_av1_cx
+(
+)
 cfg
 usage
 )

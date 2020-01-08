@@ -9025,6 +9025,14 @@ return
 0
 ;
 }
+uint16_t
+random_seed
+=
+film_grain
+-
+>
+random_seed
+;
 memset
 (
 film_grain
@@ -9035,6 +9043,13 @@ sizeof
 film_grain
 )
 )
+;
+film_grain
+-
+>
+random_seed
+=
+random_seed
 ;
 film_grain
 -
@@ -13106,7 +13121,7 @@ film_grain
 >
 random_seed
 =
-1071
+7391
 ;
 }
 memcpy

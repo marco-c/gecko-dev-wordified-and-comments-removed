@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_AOM_INTEGER_H_
+AOM_AOM_AOM_INTEGER_H_
 #
 define
-AOM_AOM_INTEGER_H_
+AOM_AOM_AOM_INTEGER_H_
 #
 include
 <

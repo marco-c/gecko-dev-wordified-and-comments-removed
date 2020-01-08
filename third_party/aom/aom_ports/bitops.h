@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_PORTS_BITOPS_H_
+AOM_AOM_PORTS_BITOPS_H_
 #
 define
-AOM_PORTS_BITOPS_H_
+AOM_AOM_PORTS_BITOPS_H_
 #
 include
 <
@@ -17,6 +17,15 @@ include
 aom_ports
 /
 msvc
+.
+h
+"
+#
+include
+"
+config
+/
+aom_config
 .
 h
 "

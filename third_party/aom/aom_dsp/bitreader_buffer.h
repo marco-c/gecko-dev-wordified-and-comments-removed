@@ -1,9 +1,9 @@
 #
 ifndef
-AOM_DSP_BITREADER_BUFFER_H_
+AOM_AOM_DSP_BITREADER_BUFFER_H_
 #
 define
-AOM_DSP_BITREADER_BUFFER_H_
+AOM_AOM_DSP_BITREADER_BUFFER_H_
 #
 include
 <
@@ -117,6 +117,15 @@ aom_read_bit_buffer
 rb
 int
 bits
+)
+;
+uint32_t
+aom_rb_read_uvlc
+(
+struct
+aom_read_bit_buffer
+*
+rb
 )
 ;
 #

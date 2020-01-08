@@ -7040,6 +7040,7 @@ x
 )
 ;
 }
+static
 void
 final_filter_fast_internal
 (
@@ -9207,7 +9208,7 @@ width
 ;
 }
 }
-void
+int
 av1_selfguided_restoration_neon
 (
 const
@@ -9443,6 +9444,9 @@ bit_depth
 sgr_params_idx
 1
 )
+;
+return
+0
 ;
 }
 void
