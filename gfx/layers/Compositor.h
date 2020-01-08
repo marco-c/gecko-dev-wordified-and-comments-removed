@@ -1095,15 +1095,6 @@ ReadUnlockTextures
 ;
 }
 virtual
-void
-SetDispAcquireFence
-(
-Layer
-*
-aLayer
-)
-;
-virtual
 bool
 SupportsPartialTextureUpdate
 (

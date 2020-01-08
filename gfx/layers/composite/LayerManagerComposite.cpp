@@ -4999,14 +4999,6 @@ EndFrame
 (
 )
 ;
-mCompositor
--
->
-SetDispAcquireFence
-(
-mRoot
-)
-;
 }
 mCompositor
 -
