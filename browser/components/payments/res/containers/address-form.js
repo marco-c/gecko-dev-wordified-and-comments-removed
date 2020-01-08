@@ -1172,7 +1172,16 @@ relatedInput
 =
 span
 .
-previousElementSibling
+parentNode
+.
+querySelector
+(
+"
+input
+textarea
+select
+"
+)
 ;
 let
 relatedRect
@@ -1190,7 +1199,7 @@ top
 :
 relatedRect
 .
-bottom
+height
 left
 :
 relatedRect
@@ -1252,7 +1261,7 @@ top
 data
 .
 top
--
++
 10
 )
 +
