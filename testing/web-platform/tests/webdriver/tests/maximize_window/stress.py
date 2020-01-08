@@ -295,3 +295,11 @@ size
 =
 =
 size_after_maximize
+        
+time
+.
+sleep
+(
+.
+1
+)
