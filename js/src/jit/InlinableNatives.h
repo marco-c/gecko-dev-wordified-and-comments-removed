@@ -544,6 +544,11 @@ _
 IntrinsicGuardToStringIterator
 )
 \
+_
+(
+IntrinsicGuardToRegExpStringIterator
+)
+\
 \
 _
 (
@@ -575,6 +580,11 @@ IntrinsicNewArrayIterator
 _
 (
 IntrinsicNewStringIterator
+)
+\
+_
+(
+IntrinsicNewRegExpStringIterator
 )
 \
 \

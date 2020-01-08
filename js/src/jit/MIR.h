@@ -11287,6 +11287,7 @@ Type
 {
 ArrayIterator
 StringIterator
+RegExpStringIterator
 }
 ;
 private
