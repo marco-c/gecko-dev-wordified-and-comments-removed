@@ -1761,7 +1761,7 @@ accessibility
 .
 enabled
 "
-true
+false
 )
 ;
 pref
