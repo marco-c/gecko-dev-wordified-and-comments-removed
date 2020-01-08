@@ -40,7 +40,6 @@ properties
 :
 :
 {
-DeclarationPushMode
 Importance
 PropertyDeclaration
 }
@@ -2672,10 +2671,6 @@ Importance
 :
 :
 Normal
-DeclarationPushMode
-:
-:
-Parsing
 )
 ;
 }
