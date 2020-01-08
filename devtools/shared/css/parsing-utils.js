@@ -3093,6 +3093,13 @@ this
 .
 decl
 ;
+const
+priority
+=
+decl
+.
+priority
+;
 let
 copyOffset
 =
@@ -3379,6 +3386,7 @@ value
 decl
 .
 value
+priority
 }
 )
 ;
@@ -3399,6 +3407,7 @@ remove
 "
 index
 name
+priority
 }
 )
 ;
