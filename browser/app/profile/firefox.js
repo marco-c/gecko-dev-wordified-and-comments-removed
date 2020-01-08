@@ -793,6 +793,18 @@ self
 "
 )
 ;
+#
+if
+defined
+(
+XP_WIN
+)
+|
+|
+defined
+(
+XP_MACOSX
+)
 pref
 (
 "
@@ -805,6 +817,8 @@ remote
 true
 )
 ;
+#
+endif
 pref
 (
 "
