@@ -3235,9 +3235,6 @@ import
 wptrunner
 wptcommandline
     
-import
-mozlog
-    
 global
 logger
     
@@ -3290,40 +3287,15 @@ product_parts
 :
 ]
     
-if
-hasattr
-(
-mozlog
-.
-formatters
-"
-GroupingFormatter
-"
-)
-:
-        
-default_formatter
-=
-"
-grouped
-"
-    
-else
-:
-        
-default_formatter
-=
-"
-mach
-"
-    
 wptrunner
 .
 setup_logging
 (
 kwargs
 {
-default_formatter
+"
+mach
+"
 :
 sys
 .

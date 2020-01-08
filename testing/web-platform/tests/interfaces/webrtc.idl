@@ -1317,13 +1317,6 @@ degradationPreference
 balanced
 "
 ;
-RTCPriorityType
-priority
-=
-"
-low
-"
-;
 }
 ;
 dictionary
@@ -1370,6 +1363,13 @@ boolean
 active
 =
 true
+;
+RTCPriorityType
+priority
+=
+"
+low
+"
 ;
 unsigned
 long

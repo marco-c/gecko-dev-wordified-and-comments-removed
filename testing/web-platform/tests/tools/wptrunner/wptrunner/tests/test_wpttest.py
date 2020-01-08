@@ -716,7 +716,8 @@ assert
 test_obj
 .
 lsan_max_stack_depth
-is
+=
+=
 None
     
 test_metadata

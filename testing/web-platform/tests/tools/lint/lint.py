@@ -3465,17 +3465,6 @@ None
 )
 )
     
-about_blank_parts
-=
-urlsplit
-(
-"
-about
-:
-blank
-"
-)
-    
 for
 reftest_node
 in
@@ -3512,15 +3501,6 @@ href
 )
         
 if
-parts
-=
-=
-about_blank_parts
-:
-            
-continue
-        
-if
 (
 parts
 .
@@ -3529,6 +3509,18 @@ or
 parts
 .
 netloc
+)
+and
+parts
+!
+=
+urlsplit
+(
+"
+about
+:
+blank
+"
 )
 :
             
