@@ -1286,7 +1286,6 @@ auto
 marshalFn
 =
 [
-this
 &
 aIID
 aObject

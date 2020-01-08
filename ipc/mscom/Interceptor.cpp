@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-DebugOnly
+Unused
 .
 h
 "
@@ -1212,6 +1212,11 @@ MOZ_ASSERT
 (
 kHasTls
 )
+;
+Unused
+<
+<
+kHasTls
 ;
 MOZ_ASSERT
 (
