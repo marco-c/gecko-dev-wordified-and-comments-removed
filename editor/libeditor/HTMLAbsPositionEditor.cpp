@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsDOMCSSRGBColor
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h

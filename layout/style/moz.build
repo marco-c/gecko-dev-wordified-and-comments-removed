@@ -426,11 +426,6 @@ nsDOMCSSDeclaration
 h
 '
 '
-nsDOMCSSRGBColor
-.
-h
-'
-'
 nsICSSDeclaration
 .
 h
@@ -1058,11 +1053,6 @@ cpp
 '
 '
 nsDOMCSSRect
-.
-cpp
-'
-'
-nsDOMCSSRGBColor
 .
 cpp
 '
