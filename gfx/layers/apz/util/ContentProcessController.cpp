@@ -93,9 +93,9 @@ ContentProcessController
 RequestContentRepaint
 (
 const
-FrameMetrics
+RepaintRequest
 &
-aFrameMetrics
+aRequest
 )
 {
 if
@@ -108,7 +108,7 @@ mBrowser
 >
 UpdateFrame
 (
-aFrameMetrics
+aRequest
 )
 ;
 }

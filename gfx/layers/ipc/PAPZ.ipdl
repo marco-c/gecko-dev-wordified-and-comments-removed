@@ -145,10 +145,14 @@ mozilla
 layers
 :
 :
-FrameMetrics
+RepaintRequest
 from
 "
-FrameMetrics
+mozilla
+/
+layers
+/
+RepaintRequest
 .
 h
 "
@@ -470,8 +474,8 @@ child
 async
 RequestContentRepaint
 (
-FrameMetrics
-frame
+RepaintRequest
+request
 )
 ;
 async

@@ -48316,7 +48316,8 @@ static
 void
 UpdateDisplayPortMarginsForPendingMetrics
 (
-FrameMetrics
+const
+RepaintRequest
 &
 aMetrics
 )
@@ -48504,6 +48505,9 @@ GetScrollPosition
 )
 )
 ;
+ScreenMargin
+displayPortMargins
+=
 APZCCallbackHelper
 :
 :
@@ -48520,11 +48524,7 @@ SetDisplayPortMargins
 (
 content
 shell
-aMetrics
-.
-GetDisplayPortMargins
-(
-)
+displayPortMargins
 0
 )
 ;
@@ -48634,8 +48634,8 @@ iter
 aMsg
 )
 ;
-FrameMetrics
-frame
+RepaintRequest
+request
 ;
 if
 (
@@ -48650,7 +48650,7 @@ aMsg
 &
 iter
 &
-frame
+request
 )
 )
 {
@@ -48665,7 +48665,7 @@ true
 }
 UpdateDisplayPortMarginsForPendingMetrics
 (
-frame
+request
 )
 ;
 }

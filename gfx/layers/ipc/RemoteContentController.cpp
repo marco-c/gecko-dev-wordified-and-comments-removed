@@ -178,9 +178,9 @@ RemoteContentController
 RequestContentRepaint
 (
 const
-FrameMetrics
+RepaintRequest
 &
-aFrameMetrics
+aRequest
 )
 {
 MOZ_ASSERT
@@ -200,7 +200,7 @@ Unused
 <
 SendRequestContentRepaint
 (
-aFrameMetrics
+aRequest
 )
 ;
 }

@@ -117,9 +117,9 @@ APZChild
 RecvRequestContentRepaint
 (
 const
-FrameMetrics
+RepaintRequest
 &
-aFrameMetrics
+aRequest
 )
 {
 MOZ_ASSERT
@@ -137,7 +137,7 @@ mController
 >
 RequestContentRepaint
 (
-aFrameMetrics
+aRequest
 )
 ;
 return

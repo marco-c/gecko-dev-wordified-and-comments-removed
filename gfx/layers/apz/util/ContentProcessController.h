@@ -62,9 +62,9 @@ void
 RequestContentRepaint
 (
 const
-FrameMetrics
+RepaintRequest
 &
-frame
+aRequest
 )
 override
 ;

@@ -527,7 +527,7 @@ RequestContentRepaint
 void
 (
 const
-FrameMetrics
+RepaintRequest
 &
 )
 )
