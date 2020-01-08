@@ -683,12 +683,12 @@ aId
 )
 ;
 bool
-IsIdle
+ShouldIdle
 (
 )
 {
 return
-mIdle
+mShouldIdle
 ;
 }
 }
