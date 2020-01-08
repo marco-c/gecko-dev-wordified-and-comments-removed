@@ -1587,7 +1587,7 @@ MVM_LOG
 p
 :
 Setting
-VVPS
+SPCSPS
 %
 s
 \
@@ -1607,7 +1607,7 @@ c_str
 nsLayoutUtils
 :
 :
-SetVisualViewportSize
+SetScrollPositionClampingScrollPortSize
 (
 mPresShell
 compSize

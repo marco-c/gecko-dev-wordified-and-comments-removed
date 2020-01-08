@@ -1411,7 +1411,7 @@ if
 ps
 -
 >
-IsVisualViewportSizeSet
+IsScrollPositionClampingScrollPortSizeSet
 (
 )
 )
@@ -1423,7 +1423,7 @@ SizeTo
 ps
 -
 >
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 )

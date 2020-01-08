@@ -1844,7 +1844,7 @@ desiredInsideBorderSize
 )
 ;
 nsSize
-visualViewportSize
+scrollPortSize
 =
 nsSize
 (
@@ -1880,6 +1880,11 @@ hScrollbarDesiredHeight
 )
 )
 ;
+nsSize
+visualScrollPortSize
+=
+scrollPortSize
+;
 nsIPresShell
 *
 presShell
@@ -1898,7 +1903,7 @@ mIsRoot
 presShell
 -
 >
-IsVisualViewportSizeSet
+IsScrollPositionClampingScrollPortSizeSet
 (
 )
 )
@@ -1939,7 +1944,7 @@ height
 =
 resolution
 ;
-visualViewportSize
+visualScrollPortSize
 =
 nsSize
 (
@@ -1985,7 +1990,7 @@ mContentsOverflowAreas
 ScrollableOverflow
 (
 )
-visualViewportSize
+scrollPortSize
 )
 ;
 nscoord
@@ -2046,7 +2051,7 @@ XMost
 )
 >
 =
-visualViewportSize
+visualScrollPortSize
 .
 width
 +
@@ -2063,7 +2068,7 @@ oneDevPixel
 ;
 if
 (
-visualViewportSize
+scrollPortSize
 .
 width
 <
@@ -2120,7 +2125,7 @@ YMost
 )
 >
 =
-visualViewportSize
+visualScrollPortSize
 .
 height
 +
@@ -2137,7 +2142,7 @@ oneDevPixel
 ;
 if
 (
-visualViewportSize
+scrollPortSize
 .
 height
 <
@@ -2188,7 +2193,7 @@ if
 scrolledWidth
 <
 =
-visualViewportSize
+scrollPortSize
 .
 width
 )
@@ -2258,7 +2263,7 @@ doc
 UpdateViewportOverflowType
 (
 scrolledWidth
-visualViewportSize
+scrollPortSize
 .
 width
 )
@@ -2279,7 +2284,7 @@ mInsideBorderSize
 .
 width
 -
-visualViewportSize
+scrollPortSize
 .
 width
 ;
@@ -2337,7 +2342,7 @@ mScrollPort
 nsRect
 (
 scrollPortOrigin
-visualViewportSize
+scrollPortSize
 )
 ;
 return
@@ -12348,9 +12353,9 @@ y
 )
 ;
 nsSize
-visualViewportSize
+scrollPortSize
 =
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 ;
@@ -12362,7 +12367,7 @@ std
 :
 max
 (
-visualViewportSize
+scrollPortSize
 .
 width
 /
@@ -12390,7 +12395,7 @@ std
 :
 max
 (
-visualViewportSize
+scrollPortSize
 .
 height
 /
@@ -15460,7 +15465,7 @@ aBuilder
 AddToWillChangeBudget
 (
 mOuter
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 )
@@ -18157,19 +18162,19 @@ nscoord_MIN
 ;
 }
 nsSize
-visualViewportSize
+scrollPortSize
 =
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 ;
 return
 GetScrollRange
 (
-visualViewportSize
+scrollPortSize
 .
 width
-visualViewportSize
+scrollPortSize
 .
 height
 )
@@ -18179,7 +18184,7 @@ nsSize
 ScrollFrameHelper
 :
 :
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 const
@@ -18203,7 +18208,7 @@ mIsRoot
 presShell
 -
 >
-IsVisualViewportSizeSet
+IsScrollPositionClampingScrollPortSizeSet
 (
 )
 )
@@ -18212,7 +18217,7 @@ return
 presShell
 -
 >
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 ;
@@ -24003,7 +24008,7 @@ aBuilder
 IsInWillChangeBudget
 (
 mOuter
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 )
@@ -25088,7 +25093,7 @@ GetScrolledRect
 nsSize
 scrollClampingScrollPort
 =
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 ;
@@ -26242,7 +26247,7 @@ eIntID_UseOverlayScrollbars
 presShell
 -
 >
-IsVisualViewportSizeSet
+IsScrollPositionClampingScrollPortSizeSet
 (
 )
 ;
@@ -26272,7 +26277,7 @@ scrollPortClampingSize
 presShell
 -
 >
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 ;
@@ -27775,9 +27780,9 @@ result
 ;
 }
 nsSize
-visualViewportSize
+scrollPortSize
 =
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 ;
@@ -27819,7 +27824,7 @@ TopLeft
 )
 +
 toReferenceFrame
-visualViewportSize
+scrollPortSize
 )
 ;
 nsRect

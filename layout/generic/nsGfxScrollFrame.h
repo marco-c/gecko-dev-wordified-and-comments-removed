@@ -797,7 +797,7 @@ aHeight
 const
 ;
 nsSize
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 const
@@ -3207,7 +3207,7 @@ GetScrollRange
 }
 virtual
 nsSize
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 const
@@ -3216,7 +3216,7 @@ override
 return
 mHelper
 .
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 ;
@@ -5351,7 +5351,7 @@ GetScrollRange
 }
 virtual
 nsSize
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 const
@@ -5360,7 +5360,7 @@ override
 return
 mHelper
 .
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 ;

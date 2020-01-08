@@ -13326,7 +13326,7 @@ if
 presShell
 -
 >
-IsVisualViewportSizeSet
+IsScrollPositionClampingScrollPortSizeSet
 (
 )
 )
@@ -13341,7 +13341,7 @@ FromAppUnitsRounded
 presShell
 -
 >
-GetVisualViewportSize
+GetScrollPositionClampingScrollPortSize
 (
 )
 )
