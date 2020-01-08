@@ -1,5 +1,7 @@
 .
-sidebar
+runtime
+-
+page
 {
 padding
 -
@@ -7,6 +9,6 @@ block
 -
 start
 :
-70px
+60px
 ;
 }
