@@ -29,6 +29,8 @@ mozprocess
 import
 ProcessHandler
 from
+talos
+.
 utils
 import
 TalosError

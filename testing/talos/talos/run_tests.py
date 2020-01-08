@@ -23,6 +23,8 @@ import
 mozinfo
 import
 mozversion
+from
+talos
 import
 utils
 from

@@ -54,6 +54,14 @@ mozprofile
 0
 .
 25
+mozrunner
+>
+=
+7
+.
+1
+.
+0
 psutil
 >
 =
