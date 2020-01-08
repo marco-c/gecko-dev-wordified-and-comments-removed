@@ -238,16 +238,6 @@ app
 .
 update
 .
-auto
-"
-false
-]
-[
-"
-app
-.
-update
-.
 disabledForTesting
 "
 true
