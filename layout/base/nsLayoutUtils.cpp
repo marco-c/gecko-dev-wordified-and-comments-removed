@@ -25893,6 +25893,15 @@ LayoutFrameType
 :
 :
 Progress
+|
+|
+fType
+=
+=
+LayoutFrameType
+:
+:
+Range
 )
 {
 return
