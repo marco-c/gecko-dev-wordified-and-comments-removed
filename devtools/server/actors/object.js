@@ -625,6 +625,9 @@ unsafeDereference
 ;
 if
 (
+raw
+&
+&
 Cu
 )
 {
@@ -640,6 +643,9 @@ raw
 }
 if
 (
+raw
+&
+&
 !
 DevToolsUtils
 .

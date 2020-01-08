@@ -1999,6 +1999,11 @@ unsafeDereference
 (
 )
 ;
+if
+(
+raw
+)
+{
 const
 global
 =
@@ -2081,6 +2086,7 @@ i
 ]
 )
 ;
+}
 }
 return
 true
