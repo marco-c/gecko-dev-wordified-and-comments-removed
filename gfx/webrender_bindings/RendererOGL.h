@@ -184,6 +184,9 @@ uint8_t
 aReadbackBuffer
 bool
 aHadSlowFrame
+RendererStats
+*
+aOutStats
 )
 ;
 void

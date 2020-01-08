@@ -1077,6 +1077,14 @@ aEndTime
 UiCompositorControllerParent
 *
 aUiController
+wr
+:
+:
+RendererStats
+*
+aStats
+=
+nullptr
 )
 ;
 TextureFactoryIdentifier
