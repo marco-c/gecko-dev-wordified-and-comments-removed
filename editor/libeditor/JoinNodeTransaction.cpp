@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -239,6 +232,7 @@ mEditorBase
 >
 IsModifiableNode
 (
+*
 mLeftNode
 -
 >

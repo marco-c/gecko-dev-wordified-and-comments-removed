@@ -6336,6 +6336,7 @@ TextEditorRef
 .
 IsModifiableNode
 (
+*
 rootElement
 )
 )

@@ -1059,16 +1059,6 @@ aReturn
 ;
 virtual
 bool
-IsModifiableNode
-(
-nsINode
-*
-aNode
-)
-override
-;
-virtual
-bool
 IsBlockNode
 (
 nsINode

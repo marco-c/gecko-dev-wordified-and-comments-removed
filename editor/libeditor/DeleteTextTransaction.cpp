@@ -481,6 +481,7 @@ mEditorBase
 >
 IsModifiableNode
 (
+*
 mCharData
 )
 ;
