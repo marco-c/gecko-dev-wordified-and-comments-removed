@@ -475,6 +475,11 @@ session_foo_path_7
 BASE_URI
 )
 ;
+const
+EXPIRED_TIME
+=
+3
+;
 await
 setCookie
 (
@@ -486,7 +491,7 @@ null
 /
 foo
 "
-1
+EXPIRED_TIME
 FOO_PATH
 )
 ;
@@ -501,7 +506,7 @@ null
 /
 foo
 "
-1
+EXPIRED_TIME
 FOO_PATH
 )
 ;
@@ -536,6 +541,8 @@ resolve
 >
 do_timeout
 (
+EXPIRED_TIME
+*
 1000
 resolve
 )
