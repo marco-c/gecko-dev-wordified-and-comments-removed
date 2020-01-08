@@ -422,8 +422,14 @@ changeOptionsLink
 =
 document
 .
-getElementById
+getAnonymousElementByAttribute
 (
+gURLBar
+.
+popup
+"
+id
+"
 "
 search
 -
