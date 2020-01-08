@@ -1221,14 +1221,14 @@ data
 :
         
 if
-'
-BUILD_SYSTEM_TELEMETRY
-'
 not
-in
-os
+context
 .
-environ
+settings
+.
+build
+.
+telemetry
 :
             
 return
@@ -1500,14 +1500,14 @@ handler
 return
         
 if
-'
-BUILD_SYSTEM_TELEMETRY
-'
 not
-in
-os
+context
 .
-environ
+settings
+.
+build
+.
+telemetry
 :
             
 return
