@@ -6,6 +6,13 @@ PMurHash
 h
 "
 #
+include
+<
+stdint
+.
+h
+>
+#
 undef
 uint32_t
 #
@@ -733,7 +740,7 @@ i
 =
 -
 (
-long
+intptr_t
 )
 ptr
 &
