@@ -4446,15 +4446,6 @@ Services
 .
 console
 .
-logStringMessage
-(
-null
-)
-;
-Services
-.
-console
-.
 reset
 (
 )
