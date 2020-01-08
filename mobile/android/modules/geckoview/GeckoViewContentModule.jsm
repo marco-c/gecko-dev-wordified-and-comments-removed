@@ -36,10 +36,7 @@ GeckoViewUtils
 initLogging
 (
 "
-GeckoView
-.
 Module
-.
 [
 C
 ]
@@ -73,13 +70,10 @@ replace
 GeckoView
 "
 "
-GeckoView
-.
 "
 )
 +
 "
-.
 [
 C
 ]

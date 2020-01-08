@@ -36,8 +36,6 @@ GeckoViewUtils
 initLogging
 (
 "
-GeckoView
-.
 Module
 "
 this

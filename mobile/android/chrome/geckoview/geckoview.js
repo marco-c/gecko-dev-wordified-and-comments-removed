@@ -931,8 +931,6 @@ replace
 GeckoView
 "
 "
-GeckoView
-.
 "
 )
 ;
@@ -1298,8 +1296,6 @@ GeckoViewUtils
 initLogging
 (
 "
-GeckoView
-.
 XUL
 "
 window

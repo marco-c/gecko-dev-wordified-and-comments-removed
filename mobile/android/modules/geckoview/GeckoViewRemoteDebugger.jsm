@@ -159,8 +159,6 @@ GeckoViewUtils
 initLogging
 (
 "
-GeckoView
-.
 RemoteDebugger
 "
 this

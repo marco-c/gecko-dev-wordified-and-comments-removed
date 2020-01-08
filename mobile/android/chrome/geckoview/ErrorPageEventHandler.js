@@ -41,8 +41,6 @@ GeckoViewUtils
 initLogging
 (
 "
-GeckoView
-.
 ErrorPageEventHandler
 "
 this
