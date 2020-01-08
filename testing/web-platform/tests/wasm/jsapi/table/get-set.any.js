@@ -803,7 +803,7 @@ functions
 assert_throws
 (
 new
-RangeError
+TypeError
 (
 )
 (

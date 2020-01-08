@@ -3560,7 +3560,7 @@ initial
 1
 }
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -3584,7 +3584,7 @@ pow
 )
 }
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -3659,7 +3659,7 @@ maximum
 1
 }
 )
-RangeError
+TypeError
 )
 ;
 assert_equals
@@ -4233,7 +4233,7 @@ mem1
 -
 1
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -4255,7 +4255,7 @@ pow
 32
 )
 )
-RangeError
+TypeError
 )
 ;
 var
@@ -4752,7 +4752,7 @@ anyfunc
 "
 }
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -4781,7 +4781,7 @@ anyfunc
 "
 }
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -4839,7 +4839,7 @@ anyfunc
 "
 }
 )
-RangeError
+TypeError
 )
 ;
 assert_equals
@@ -5566,7 +5566,7 @@ tbl1
 -
 1
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -5588,7 +5588,7 @@ pow
 33
 )
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -5812,7 +5812,7 @@ tbl1
 1
 null
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -5835,7 +5835,7 @@ pow
 )
 null
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -6126,7 +6126,7 @@ tbl1
 -
 1
 )
-RangeError
+TypeError
 )
 ;
 assertThrows
@@ -6148,7 +6148,7 @@ pow
 32
 )
 )
-RangeError
+TypeError
 )
 ;
 var
