@@ -3761,7 +3761,7 @@ plain
 "
 )
 ;
-nsCString
+nsAutoCString
 format
 ;
 if
@@ -3776,13 +3776,11 @@ GetCStringValue
 "
 format
 "
-getter_Copies
-(
 format
 )
 )
 )
-)
+{
 mimeType
 .
 Assign
@@ -3790,6 +3788,7 @@ Assign
 format
 )
 ;
+}
 bool
 selectionOnly
 =

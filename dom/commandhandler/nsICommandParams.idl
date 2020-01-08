@@ -355,7 +355,7 @@ string
 name
 )
 ;
-string
+ACString
 getCStringValue
 (
 in
@@ -492,7 +492,7 @@ in
 string
 name
 in
-string
+ACString
 value
 )
 ;
