@@ -156,6 +156,10 @@ gtk3
 '
             
 '
+libXt
+'
+            
+'
 mesa
 -
 dri
