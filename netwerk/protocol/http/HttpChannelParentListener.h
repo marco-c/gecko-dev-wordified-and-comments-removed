@@ -163,8 +163,6 @@ virtual
 HttpChannelParentListener
 (
 )
-=
-default
 ;
 MOZ_MUST_USE
 nsresult
