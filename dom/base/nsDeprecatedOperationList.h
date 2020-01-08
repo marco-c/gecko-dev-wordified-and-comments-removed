@@ -154,3 +154,7 @@ DEPRECATED_OPERATION
 (
 DOMQuadBoundsAttr
 )
+DEPRECATED_OPERATION
+(
+CreateImageBitmapCanvasRenderingContext2D
+)
