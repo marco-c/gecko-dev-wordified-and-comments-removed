@@ -638,7 +638,7 @@ Ptr
 )
 -
 >
-CallbackPreserveColor
+CallbackGlobalOrNull
 (
 )
 )
