@@ -18764,7 +18764,7 @@ rv
 ;
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 enumerator
 ;
