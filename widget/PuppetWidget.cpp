@@ -3611,6 +3611,8 @@ self
 ]
 (
 IMENotificationRequests
+&
+&
 aRequests
 )
 {
@@ -3633,6 +3635,8 @@ ipc
 :
 :
 ResponseRejectReason
+&
+&
 aReason
 )
 {

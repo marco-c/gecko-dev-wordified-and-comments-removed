@@ -3135,7 +3135,6 @@ __func__
 self
 ]
 (
-const
 mozilla
 :
 :
@@ -3143,6 +3142,7 @@ ipc
 :
 :
 Shmem
+&
 &
 aResult
 )
@@ -3188,6 +3188,8 @@ ipc
 :
 :
 ResponseRejectReason
+&
+&
 aReason
 )
 {

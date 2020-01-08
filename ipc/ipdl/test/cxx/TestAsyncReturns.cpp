@@ -126,6 +126,8 @@ called
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
@@ -274,6 +276,8 @@ Close
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
@@ -293,6 +297,8 @@ Ping
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
@@ -513,6 +519,8 @@ true
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {

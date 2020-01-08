@@ -14041,6 +14041,8 @@ Tuple
 nsString
 bool
 >
+&
+&
 aResult
 )
 {
@@ -14060,12 +14062,18 @@ jsPromise
 >
 MaybeResolve
 (
+std
+:
+:
+move
+(
 Get
 <
 0
 >
 (
 aResult
+)
 )
 )
 ;
@@ -14086,6 +14094,8 @@ jsPromise
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
@@ -14609,6 +14619,8 @@ tabId
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
@@ -14713,6 +14725,8 @@ tabId
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {

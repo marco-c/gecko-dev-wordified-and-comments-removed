@@ -470,11 +470,11 @@ aResolver
 holder
 ]
 (
-const
 RefPtr
 <
 nsIInputStream
 >
+&
 &
 aOptionalStream
 )
@@ -487,6 +487,10 @@ nsIInputStream
 >
 (
 aOptionalStream
+.
+forget
+(
+)
 )
 )
 ;
@@ -497,6 +501,8 @@ holder
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {

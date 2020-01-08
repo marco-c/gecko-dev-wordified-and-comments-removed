@@ -372,6 +372,8 @@ promise
 ]
 (
 ResponseRejectReason
+&
+&
 aReason
 )
 {
