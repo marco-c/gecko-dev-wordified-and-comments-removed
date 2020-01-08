@@ -46,6 +46,8 @@ ClickProtocolPart
                        
 SendKeysProtocolPart
                        
+ActionSequenceProtocolPart
+                       
 TestDriverProtocolPart
 )
 from
@@ -83,6 +85,9 @@ None
 RemoteConnection
 =
 None
+Command
+=
+None
 def
 do_delayed_imports
 (
@@ -97,6 +102,9 @@ exceptions
     
 global
 RemoteConnection
+    
+global
+Command
     
 from
 selenium
@@ -120,6 +128,17 @@ remote
 remote_connection
 import
 RemoteConnection
+    
+from
+selenium
+.
+webdriver
+.
+remote
+.
+command
+import
+Command
 class
 SeleniumBaseProtocolPart
 (
@@ -900,6 +919,55 @@ send_keys
 keys
 )
 class
+SeleniumActionSequenceProtocolPart
+(
+ActionSequenceProtocolPart
+)
+:
+    
+def
+setup
+(
+self
+)
+:
+        
+self
+.
+webdriver
+=
+self
+.
+parent
+.
+webdriver
+    
+def
+send_actions
+(
+self
+actions
+)
+:
+        
+self
+.
+webdriver
+.
+execute
+(
+Command
+.
+W3C_ACTIONS
+{
+"
+actions
+"
+:
+actions
+}
+)
+class
 SeleniumTestDriverProtocolPart
 (
 TestDriverProtocolPart
@@ -1029,6 +1097,8 @@ SeleniumClickProtocolPart
 SeleniumSendKeysProtocolPart
                   
 SeleniumTestDriverProtocolPart
+                  
+SeleniumActionSequenceProtocolPart
 ]
     
 def
