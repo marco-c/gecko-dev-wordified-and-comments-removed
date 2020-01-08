@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+Mutex
 .
 h
 "
@@ -207,8 +207,8 @@ mPropertiesURL
 mozilla
 :
 :
-ReentrantMonitor
-mReentrantMonitor
+Mutex
+mMutex
 ;
 bool
 mAttemptedLoad
