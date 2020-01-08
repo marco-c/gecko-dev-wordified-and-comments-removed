@@ -105,13 +105,6 @@ screenshot
 svg
 '
 '
-select
--
-arrow
-.
-svg
-'
-'
 touch
 -
 events
