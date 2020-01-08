@@ -385,6 +385,13 @@ edit_folder_name
 "
 android
 :
+inputType
+=
+"
+text
+"
+android
+:
 layout_width
 =
 "

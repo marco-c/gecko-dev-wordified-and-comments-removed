@@ -183,6 +183,13 @@ edit_bookmark_name
 "
 android
 :
+inputType
+=
+"
+text
+"
+android
+:
 layout_width
 =
 "
@@ -349,6 +356,13 @@ id
 id
 /
 edit_bookmark_keyword
+"
+android
+:
+inputType
+=
+"
+text
 "
 android
 :

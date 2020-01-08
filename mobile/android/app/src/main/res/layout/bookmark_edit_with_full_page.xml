@@ -407,6 +407,13 @@ wrap_content
 "
 android
 :
+inputType
+=
+"
+text
+"
+android
+:
 ellipsize
 =
 "
