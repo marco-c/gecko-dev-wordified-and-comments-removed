@@ -7598,11 +7598,6 @@ active
 "
 focus
 "
-"
-focus
--
-within
-"
 ]
 )
 {
