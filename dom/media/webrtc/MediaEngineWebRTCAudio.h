@@ -875,11 +875,11 @@ mPacketizerOutput
 Mutex
 mMutex
 ;
-nsTArray
+UniquePtr
 <
 Allocation
 >
-mAllocations
+mAllocation
 ;
 Atomic
 <
