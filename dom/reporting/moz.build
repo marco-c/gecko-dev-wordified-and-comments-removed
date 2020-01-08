@@ -98,6 +98,11 @@ DeprecationReportBody
 h
 '
 '
+FeaturePolicyViolationReportBody
+.
+h
+'
+'
 Report
 .
 h
@@ -129,6 +134,11 @@ UNIFIED_SOURCES
 [
 '
 DeprecationReportBody
+.
+cpp
+'
+'
+FeaturePolicyViolationReportBody
 .
 cpp
 '

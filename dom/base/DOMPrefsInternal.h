@@ -64,5 +64,9 @@ dom_reporting_testing_enabled
 )
 DOM_WEBIDL_PREF
 (
+dom_reporting_featurePolicy_enabled
+)
+DOM_WEBIDL_PREF
+(
 javascript_options_streams
 )
