@@ -8566,11 +8566,7 @@ aNodeInserted
 )
 {
 return
-InsertAsQuotation
-(
-aQuotedText
-aNodeInserted
-)
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 nsresult
