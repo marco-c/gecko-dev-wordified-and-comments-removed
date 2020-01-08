@@ -1016,7 +1016,7 @@ RefPtr
 MediaDevice
 >
 >
-SourceSet
+MediaDeviceSet
 ;
 virtual
 int
@@ -1043,7 +1043,7 @@ media
 :
 Pledge
 <
-SourceSet
+MediaDeviceSet
 *
 dom
 :
@@ -1051,7 +1051,7 @@ dom
 MediaStreamError
 *
 >
-PledgeSourceSet
+PledgeMediaDeviceSet
 ;
 typedef
 media
@@ -1113,7 +1113,7 @@ static
 void
 AnonymizeDevices
 (
-SourceSet
+MediaDeviceSet
 &
 aDevices
 const
@@ -1129,7 +1129,7 @@ nsIWritableVariant
 >
 ToJSArray
 (
-SourceSet
+MediaDeviceSet
 &
 aDevices
 )
@@ -1149,7 +1149,7 @@ Loopback
 ;
 already_AddRefed
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 EnumerateRawDevices
 (
@@ -1185,7 +1185,7 @@ Normal
 ;
 already_AddRefed
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 EnumerateDevicesImpl
 (
@@ -1232,7 +1232,7 @@ Refcountable
 <
 UniquePtr
 <
-SourceSet
+MediaDeviceSet
 >
 >
 >
@@ -1406,7 +1406,7 @@ media
 :
 CoatCheck
 <
-PledgeSourceSet
+PledgeMediaDeviceSet
 >
 mOutstandingPledges
 ;
