@@ -8433,6 +8433,17 @@ full_path
 )
 )
                             
+if
+os
+.
+path
+.
+exists
+(
+prefix
+)
+:
+                                
 self
 .
 backend_input_files
