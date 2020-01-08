@@ -262,9 +262,9 @@ bool
 aIsPopupSpam
 bool
 aForceNoOpener
-nsDocShellLoadState
+nsDocShellLoadInfo
 *
-aLoadState
+aLoadInfo
 mozIDOMWindowProxy
 *
 *

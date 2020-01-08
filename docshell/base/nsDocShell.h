@@ -1750,8 +1750,8 @@ nsIPrincipal
 *
 aPrincipalToInherit
 const
-nsACString
-&
+char
+*
 aTypeHint
 const
 nsAString
@@ -2561,14 +2561,6 @@ return
 mCSSErrorReportingEnabled
 ;
 }
-void
-MaybeHandleSubframeHistory
-(
-nsDocShellLoadState
-*
-aLoadState
-)
-;
 private
 :
 static

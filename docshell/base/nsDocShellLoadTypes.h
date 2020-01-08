@@ -24,6 +24,13 @@ h
 #
 include
 "
+nsDocShellLoadInfo
+.
+h
+"
+#
+include
+"
 nsIWebNavigation
 .
 h

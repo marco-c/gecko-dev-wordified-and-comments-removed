@@ -126,7 +126,7 @@ class
 nsIDocShell
 ;
 class
-nsDocShellLoadState
+nsDocShellLoadInfo
 ;
 class
 nsIDocument
@@ -2983,9 +2983,9 @@ const
 nsAString
 &
 aOptions
-nsDocShellLoadState
+nsDocShellLoadInfo
 *
-aLoadState
+aLoadInfo
 bool
 aForceNoOpener
 nsPIDOMWindowOuter
