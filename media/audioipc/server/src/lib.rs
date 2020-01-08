@@ -129,6 +129,12 @@ SharedMemWriter
 }
 ;
 use
+audioipc
+:
+:
+PlatformHandleType
+;
+use
 cubeb
 :
 :
@@ -3008,10 +3014,7 @@ c_void
 )
 -
 >
-libc
-:
-:
-c_int
+PlatformHandleType
 {
 let
 (

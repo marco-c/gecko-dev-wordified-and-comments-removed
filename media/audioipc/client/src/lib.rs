@@ -56,6 +56,12 @@ mod
 stream
 ;
 use
+audioipc
+:
+:
+PlatformHandleType
+;
+use
 context
 :
 :
@@ -201,7 +207,7 @@ AudioIpcInitParams
 pub
 server_connection
 :
-c_int
+PlatformHandleType
 pub
 pool_size
 :
