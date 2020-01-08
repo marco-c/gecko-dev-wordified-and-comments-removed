@@ -6,8 +6,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -19,8 +17,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -32,8 +28,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -45,8 +39,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -60,8 +52,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -75,8 +65,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -90,8 +78,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock

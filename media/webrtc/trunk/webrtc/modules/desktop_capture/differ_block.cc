@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -21,8 +19,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -30,8 +26,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -43,8 +37,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -124,10 +116,15 @@ diff_proc
 {
 #
 if
-!
 defined
 (
-WEBRTC_ARCH_X86_FAMILY
+WEBRTC_ARCH_ARM_FAMILY
+)
+|
+|
+defined
+(
+WEBRTC_ARCH_MIPS_FAMILY
 )
 diff_proc
 =

@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -21,9 +19,7 @@ memory
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

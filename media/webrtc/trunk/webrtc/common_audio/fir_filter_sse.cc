@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 fir_filter_sse
@@ -33,9 +31,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -44,8 +40,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -57,6 +51,15 @@ h
 namespace
 webrtc
 {
+FIRFilterSSE2
+:
+:
+~
+FIRFilterSSE2
+(
+)
+{
+}
 FIRFilterSSE2
 :
 :

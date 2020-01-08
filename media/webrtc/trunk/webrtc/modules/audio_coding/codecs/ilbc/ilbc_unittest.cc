@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -18,8 +16,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -35,8 +31,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -50,8 +44,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -67,10 +59,7 @@ IlbcTest
 BadPacket
 )
 {
-AudioEncoderIlbc
-:
-:
-Config
+AudioEncoderIlbcConfig
 config
 ;
 config
@@ -79,10 +68,11 @@ frame_size_ms
 =
 20
 ;
-AudioEncoderIlbc
+AudioEncoderIlbcImpl
 encoder
 (
 config
+102
 )
 ;
 std
@@ -187,7 +177,7 @@ bad_packet
 =
 0x80
 ;
-AudioDecoderIlbc
+AudioDecoderIlbcImpl
 decoder
 ;
 std
@@ -397,7 +387,7 @@ SplitIlbcTest
 NumFrames
 )
 {
-AudioDecoderIlbc
+AudioDecoderIlbcImpl
 decoder
 ;
 const
@@ -773,7 +763,7 @@ IlbcTest
 SplitTooLargePayload
 )
 {
-AudioDecoderIlbc
+AudioDecoderIlbcImpl
 decoder
 ;
 constexpr
@@ -816,7 +806,7 @@ IlbcTest
 SplitUnevenPayload
 )
 {
-AudioDecoderIlbc
+AudioDecoderIlbcImpl
 decoder
 ;
 constexpr

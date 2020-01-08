@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_MOCKS_MOCK_RTCP_RTT_STATS_H_
+MODULES_RTP_RTCP_MOCKS_MOCK_RTCP_RTT_STATS_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_MOCKS_MOCK_RTCP_RTT_STATS_H_
+MODULES_RTP_RTCP_MOCKS_MOCK_RTCP_RTT_STATS_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -22,8 +20,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock

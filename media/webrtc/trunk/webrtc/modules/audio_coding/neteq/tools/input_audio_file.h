@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_TOOLS_INPUT_AUDIO_FILE_H_
+MODULES_AUDIO_CODING_NETEQ_TOOLS_INPUT_AUDIO_FILE_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_TOOLS_INPUT_AUDIO_FILE_H_
+MODULES_AUDIO_CODING_NETEQ_TOOLS_INPUT_AUDIO_FILE_H_
 #
 include
 <
@@ -19,9 +19,7 @@ string
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -30,8 +28,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -56,6 +52,10 @@ std
 :
 string
 file_name
+bool
+loop_at_end
+=
+true
 )
 ;
 virtual
@@ -105,6 +105,10 @@ private
 FILE
 *
 fp_
+;
+const
+bool
+loop_at_end_
 ;
 RTC_DISALLOW_COPY_AND_ASSIGN
 (

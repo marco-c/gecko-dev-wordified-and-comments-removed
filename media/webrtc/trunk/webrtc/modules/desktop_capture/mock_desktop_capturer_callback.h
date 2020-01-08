@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_DESKTOP_CAPTURE_MOCK_DESKTOP_CAPTURER_CALLBACK_H_
+MODULES_DESKTOP_CAPTURE_MOCK_DESKTOP_CAPTURER_CALLBACK_H_
 #
 define
-WEBRTC_MODULES_DESKTOP_CAPTURE_MOCK_DESKTOP_CAPTURER_CALLBACK_H_
+MODULES_DESKTOP_CAPTURE_MOCK_DESKTOP_CAPTURER_CALLBACK_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -25,8 +23,6 @@ memory
 #
 include
 "
-webrtc
-/
 test
 /
 gmock
@@ -97,7 +93,6 @@ DesktopFrame
 frame
 )
 final
-override
 ;
 private
 :

@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 lapped_transform
@@ -27,8 +25,6 @@ cstring
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

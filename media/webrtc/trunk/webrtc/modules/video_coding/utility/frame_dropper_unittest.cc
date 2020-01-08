@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -16,9 +14,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 logging
 .
@@ -27,8 +23,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

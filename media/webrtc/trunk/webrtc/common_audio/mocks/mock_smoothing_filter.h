@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_COMMON_AUDIO_MOCKS_MOCK_SMOOTHING_FILTER_H_
+COMMON_AUDIO_MOCKS_MOCK_SMOOTHING_FILTER_H_
 #
 define
-WEBRTC_COMMON_AUDIO_MOCKS_MOCK_SMOOTHING_FILTER_H_
+COMMON_AUDIO_MOCKS_MOCK_SMOOTHING_FILTER_H_
 #
 include
 "
-webrtc
-/
 common_audio
 /
 smoothing_filter
@@ -18,8 +16,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock

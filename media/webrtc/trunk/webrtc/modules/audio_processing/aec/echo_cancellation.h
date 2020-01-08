@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_AEC_ECHO_CANCELLATION_H_
+MODULES_AUDIO_PROCESSING_AEC_ECHO_CANCELLATION_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_AEC_ECHO_CANCELLATION_H_
+MODULES_AUDIO_PROCESSING_AEC_ECHO_CANCELLATION_H_
 #
 include
 <
@@ -24,8 +24,6 @@ C
 #
 include
 "
-webrtc
-/
 common_audio
 /
 ring_buffer
@@ -36,8 +34,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -51,8 +47,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

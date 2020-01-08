@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
+MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
+MODULES_AUDIO_CODING_TEST_OPUS_TEST_H_
 #
 include
 <
@@ -19,8 +19,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -36,8 +34,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -51,8 +47,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -66,8 +60,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -81,8 +73,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -96,8 +86,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding

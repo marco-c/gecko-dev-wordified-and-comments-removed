@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -28,8 +26,6 @@ string
 #
 include
 "
-webrtc
-/
 common_types
 .
 h
@@ -37,8 +33,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -52,8 +46,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -67,8 +59,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -82,21 +72,6 @@ h
 #
 include
 "
-webrtc
-/
-system_wrappers
-/
-include
-/
-trace
-.
-h
-"
-#
-include
-"
-webrtc
-/
 test
 /
 gtest
@@ -106,8 +81,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport
@@ -119,8 +92,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -507,7 +478,6 @@ AudioCodingModule
 :
 Create
 (
-0
 )
 )
 acm_b_
@@ -517,7 +487,6 @@ AudioCodingModule
 :
 Create
 (
-1
 )
 )
 channel_a2b_
@@ -540,15 +509,10 @@ counter_
 (
 0
 )
-#
-ifdef
-WEBRTC_CODEC_G722
 g722_pltype_
 (
 0
 )
-#
-endif
 l16_8khz_pltype_
 (
 -
@@ -1102,9 +1066,6 @@ codec_channels
 =
 2
 ;
-#
-ifdef
-WEBRTC_CODEC_G722
 if
 (
 test_mode_
@@ -1365,8 +1326,6 @@ Close
 (
 )
 ;
-#
-endif
 if
 (
 test_mode_
@@ -2848,9 +2807,6 @@ codec_channels
 =
 2
 ;
-#
-ifdef
-WEBRTC_CODEC_G722
 if
 (
 test_mode_
@@ -3006,8 +2962,6 @@ Close
 (
 )
 ;
-#
-endif
 if
 (
 test_mode_
@@ -3833,9 +3787,6 @@ set_codec_mode
 kMono
 )
 ;
-#
-ifdef
-WEBRTC_CODEC_G722
 if
 (
 test_mode_
@@ -4038,8 +3989,6 @@ Close
 (
 )
 ;
-#
-endif
 if
 (
 test_mode_
@@ -5162,9 +5111,6 @@ n
 "
 )
 ;
-#
-ifdef
-WEBRTC_CODEC_G722
 printf
 (
 "
@@ -5176,8 +5122,6 @@ n
 "
 )
 ;
-#
-endif
 printf
 (
 "
@@ -5800,7 +5744,9 @@ Write10MsData
 (
 audio_frame
 .
-data_
+data
+(
+)
 audio_frame
 .
 samples_per_channel_

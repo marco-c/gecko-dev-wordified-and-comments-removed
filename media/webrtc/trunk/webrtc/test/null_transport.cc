@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 test
 /
 null_transport

@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_AUDIO_DEVICE_PULSEAUDIOSYMBOLTABLE_LINUX_H
+AUDIO_DEVICE_PULSEAUDIOSYMBOLTABLE_LINUX_H_
 #
 define
-WEBRTC_AUDIO_DEVICE_PULSEAUDIOSYMBOLTABLE_LINUX_H
+AUDIO_DEVICE_PULSEAUDIOSYMBOLTABLE_LINUX_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_device
@@ -20,7 +18,10 @@ latebindingsymboltable_linux
 h
 "
 namespace
-webrtc_adm_linux_pulse
+webrtc
+{
+namespace
+adm_linux_pulse
 {
 #
 define
@@ -324,6 +325,7 @@ LATE_BINDING_SYMBOL_TABLE_DECLARE_END
 (
 PulseAudioSymbolTable
 )
+}
 }
 #
 endif

@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_VIDEO_CODING_UTILITY_FRAME_DROPPER_H_
+MODULES_VIDEO_CODING_UTILITY_FRAME_DROPPER_H_
 #
 define
-WEBRTC_MODULES_VIDEO_CODING_UTILITY_FRAME_DROPPER_H_
+MODULES_VIDEO_CODING_UTILITY_FRAME_DROPPER_H_
 #
 include
 <
@@ -12,9 +12,7 @@ cstddef
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 numerics
 /
@@ -25,8 +23,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -41,13 +37,6 @@ public
 :
 FrameDropper
 (
-)
-;
-explicit
-FrameDropper
-(
-float
-max_time_drops
 )
 ;
 virtual
@@ -82,9 +71,9 @@ void
 Fill
 (
 size_t
-frameSizeBytes
+framesize_bytes
 bool
-deltaFrame
+delta_frame
 )
 ;
 virtual
@@ -92,7 +81,7 @@ void
 Leak
 (
 uint32_t
-inputFrameRate
+input_framerate
 )
 ;
 virtual
@@ -100,7 +89,7 @@ void
 SetRates
 (
 float
-bitRate
+bitrate
 float
 incoming_frame_rate
 )

@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_SOURCE_TMMBR_HELP_H_
+MODULES_RTP_RTCP_SOURCE_TMMBR_HELP_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_SOURCE_TMMBR_HELP_H_
+MODULES_RTP_RTCP_SOURCE_TMMBR_HELP_H_
 #
 include
 <
@@ -12,8 +12,6 @@ vector
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -29,8 +27,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

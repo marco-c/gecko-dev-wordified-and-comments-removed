@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -28,9 +26,7 @@ algorithm
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -39,9 +35,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 logging
 .
@@ -129,7 +123,7 @@ payload_length_bytes
 4
 )
 {
-LOG
+RTC_LOG
 (
 LS_WARNING
 )
@@ -275,7 +269,7 @@ duration
 65535
 )
 {
-LOG
+RTC_LOG
 (
 LS_WARNING
 )
@@ -766,12 +760,6 @@ fs_hz
 !
 =
 32000
-&
-&
-fs_hz
-!
-=
-44100
 &
 &
 fs_hz

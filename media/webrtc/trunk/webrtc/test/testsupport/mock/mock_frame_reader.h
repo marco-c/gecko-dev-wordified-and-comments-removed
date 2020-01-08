@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_TEST_TESTSUPPORT_MOCK_MOCK_FRAME_READER_H_
+TEST_TESTSUPPORT_MOCK_MOCK_FRAME_READER_H_
 #
 define
-WEBRTC_TEST_TESTSUPPORT_MOCK_MOCK_FRAME_READER_H_
+TEST_TESTSUPPORT_MOCK_MOCK_FRAME_READER_H_
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport
@@ -20,8 +18,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock

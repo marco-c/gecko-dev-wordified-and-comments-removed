@@ -49,6 +49,16 @@ NSString
 *
 sdp
 ;
+property
+(
+nonatomic
+readonly
+nullable
+)
+NSString
+*
+serverUrl
+;
 -
 (
 instancetype

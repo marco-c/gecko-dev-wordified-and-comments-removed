@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -19,11 +17,7 @@ utility
 #
 include
 "
-webrtc
-/
-system_wrappers
-/
-include
+rtc_base
 /
 logging
 .
@@ -285,7 +279,7 @@ if
 bitmap
 )
 {
-LOG
+RTC_LOG
 (
 LS_WARNING
 )

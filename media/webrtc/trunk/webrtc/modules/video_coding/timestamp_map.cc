@@ -15,8 +15,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 include
@@ -28,8 +26,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding

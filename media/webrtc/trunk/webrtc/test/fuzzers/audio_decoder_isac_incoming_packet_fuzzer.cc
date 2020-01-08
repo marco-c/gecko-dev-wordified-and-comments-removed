@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -22,8 +20,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 fuzzers
@@ -46,7 +42,7 @@ size_t
 size
 )
 {
-AudioDecoderIsac
+AudioDecoderIsacFloatImpl
 dec
 (
 16000

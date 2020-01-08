@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_TEST_TESTSUPPORT_PACKET_READER_H_
+TEST_TESTSUPPORT_PACKET_READER_H_
 #
 define
-WEBRTC_TEST_TESTSUPPORT_PACKET_READER_H_
+TEST_TESTSUPPORT_PACKET_READER_H_
 #
 include
 <
@@ -12,8 +12,6 @@ cstddef
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -19,8 +17,6 @@ algorithm
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

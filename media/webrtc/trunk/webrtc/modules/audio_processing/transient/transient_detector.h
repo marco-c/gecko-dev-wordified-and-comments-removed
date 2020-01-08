@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_TRANSIENT_TRANSIENT_DETECTOR_H_
+MODULES_AUDIO_PROCESSING_TRANSIENT_TRANSIENT_DETECTOR_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_TRANSIENT_TRANSIENT_DETECTOR_H_
+MODULES_AUDIO_PROCESSING_TRANSIENT_TRANSIENT_DETECTOR_H_
 #
 include
 <
@@ -17,8 +17,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -32,8 +30,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing

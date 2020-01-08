@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -20,9 +18,12 @@ memory
 >
 #
 include
+<
+utility
+>
+#
+include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -36,8 +37,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -51,8 +50,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -64,8 +61,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -75,8 +70,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

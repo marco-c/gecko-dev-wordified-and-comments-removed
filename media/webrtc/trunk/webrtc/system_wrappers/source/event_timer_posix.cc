@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 source
@@ -65,9 +63,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

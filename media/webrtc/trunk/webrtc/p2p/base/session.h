@@ -1,7 +1,0 @@
-#
-error
-"
-DONT
-INCLUDE
-THIS
-"

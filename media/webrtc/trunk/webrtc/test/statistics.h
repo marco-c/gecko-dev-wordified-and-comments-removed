@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_TEST_STATISTICS_H_
+TEST_STATISTICS_H_
 #
 define
-WEBRTC_TEST_STATISTICS_H_
+TEST_STATISTICS_H_
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

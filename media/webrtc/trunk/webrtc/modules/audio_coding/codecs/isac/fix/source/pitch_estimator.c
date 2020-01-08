@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -22,8 +20,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -37,11 +33,7 @@ h
 #
 include
 "
-webrtc
-/
-system_wrappers
-/
-include
+rtc_base
 /
 compile_assert_c
 .

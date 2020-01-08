@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
+MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
+MODULES_RTP_RTCP_INCLUDE_RTP_CVO_H_
 #
 include
 "
-webrtc
-/
 api
 /
 video
@@ -20,9 +18,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

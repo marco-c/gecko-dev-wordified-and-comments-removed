@@ -26,6 +26,13 @@ camera2
 .
 CameraManager
 ;
+import
+android
+.
+media
+.
+MediaRecorder
+;
 TargetApi
 (
 21
@@ -106,6 +113,8 @@ Context
 applicationContext
 SurfaceTextureHelper
 surfaceTextureHelper
+MediaRecorder
+mediaRecoder
 String
 cameraName
 int
@@ -125,6 +134,7 @@ events
 applicationContext
 cameraManager
 surfaceTextureHelper
+mediaRecoder
 cameraName
 width
 height

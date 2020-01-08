@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MEDIA_BASE_TEST_MOCK_MEDIACHANNEL_H_
+MEDIA_BASE_TEST_MOCK_MEDIACHANNEL_H_
 #
 define
-WEBRTC_MEDIA_BASE_TEST_MOCK_MEDIACHANNEL_H_
+MEDIA_BASE_TEST_MOCK_MEDIACHANNEL_H_
 #
 include
 "
-webrtc
-/
 media
 /
 base
@@ -20,8 +18,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock
@@ -51,7 +47,7 @@ cricket
 :
 FakeVideoMediaChannel
 (
-NULL
+nullptr
 cricket
 :
 :
@@ -96,7 +92,7 @@ cricket
 :
 FakeVoiceMediaChannel
 (
-NULL
+nullptr
 cricket
 :
 :

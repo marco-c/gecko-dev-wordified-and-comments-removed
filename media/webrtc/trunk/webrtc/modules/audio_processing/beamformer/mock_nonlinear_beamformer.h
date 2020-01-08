@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MOCK_BEAMFORMER_H_
+MODULES_AUDIO_PROCESSING_BEAMFORMER_MOCK_BEAMFORMER_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MOCK_BEAMFORMER_H_
+MODULES_AUDIO_PROCESSING_BEAMFORMER_MOCK_BEAMFORMER_H_
 #
 include
 <
@@ -12,8 +12,6 @@ vector
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -27,8 +25,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock

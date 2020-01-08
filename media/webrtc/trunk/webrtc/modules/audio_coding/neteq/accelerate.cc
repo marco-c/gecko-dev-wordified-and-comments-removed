@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -16,8 +14,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing

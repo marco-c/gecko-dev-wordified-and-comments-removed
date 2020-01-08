@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_COMMON_AUDIO_VAD_VAD_FILTERBANK_H_
+COMMON_AUDIO_VAD_VAD_FILTERBANK_H_
 #
 define
-WEBRTC_COMMON_AUDIO_VAD_VAD_FILTERBANK_H_
+COMMON_AUDIO_VAD_VAD_FILTERBANK_H_
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -20,8 +18,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

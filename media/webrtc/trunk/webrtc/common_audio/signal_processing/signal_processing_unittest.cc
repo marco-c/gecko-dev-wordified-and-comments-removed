@@ -11,8 +11,6 @@ sstream
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -26,8 +24,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -167,17 +163,6 @@ WEBRTC_SPL_MUL
 (
 a
 B
-)
-)
-;
-EXPECT_EQ
-(
--
-2147483645
-WEBRTC_SPL_MUL
-(
-a
-b
 )
 )
 ;

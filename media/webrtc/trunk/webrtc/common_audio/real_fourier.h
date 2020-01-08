@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_COMMON_AUDIO_REAL_FOURIER_H_
+COMMON_AUDIO_REAL_FOURIER_H_
 #
 define
-WEBRTC_COMMON_AUDIO_REAL_FOURIER_H_
+COMMON_AUDIO_REAL_FOURIER_H_
 #
 include
 <
@@ -17,8 +17,6 @@ memory
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -93,7 +91,6 @@ RealFourier
 )
 {
 }
-;
 static
 int
 FftOrder

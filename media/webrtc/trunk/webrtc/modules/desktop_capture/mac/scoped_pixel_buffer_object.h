@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_DESKTOP_CAPTURE_SCOPED_PIXEL_BUFFER_OBJECT_H_
+MODULES_DESKTOP_CAPTURE_SCOPED_PIXEL_BUFFER_OBJECT_H_
 #
 define
-WEBRTC_MODULES_DESKTOP_CAPTURE_SCOPED_PIXEL_BUFFER_OBJECT_H_
+MODULES_DESKTOP_CAPTURE_SCOPED_PIXEL_BUFFER_OBJECT_H_
 #
 include
 <
@@ -25,9 +25,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -36,8 +34,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

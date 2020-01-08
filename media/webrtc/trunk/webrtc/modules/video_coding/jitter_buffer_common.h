@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_VIDEO_CODING_JITTER_BUFFER_COMMON_H_
+MODULES_VIDEO_CODING_JITTER_BUFFER_COMMON_H_
 #
 define
-WEBRTC_MODULES_VIDEO_CODING_JITTER_BUFFER_COMMON_H_
+MODULES_VIDEO_CODING_JITTER_BUFFER_COMMON_H_
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -87,9 +85,6 @@ kBufferIncStepSizeBytes
 kMaxJBFrameSizeBytes
 =
 4000000
-kBufferSafetyMargin
-=
-100
 }
 ;
 enum

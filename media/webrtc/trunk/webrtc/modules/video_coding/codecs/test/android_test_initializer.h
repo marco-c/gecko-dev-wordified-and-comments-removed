@@ -1,0 +1,17 @@
+#
+ifndef
+MODULES_VIDEO_CODING_CODECS_TEST_ANDROID_TEST_INITIALIZER_H_
+#
+define
+MODULES_VIDEO_CODING_CODECS_TEST_ANDROID_TEST_INITIALIZER_H_
+namespace
+webrtc
+{
+void
+InitializeAndroidObjects
+(
+)
+;
+}
+#
+endif

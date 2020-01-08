@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_COMMON_AUDIO_LAPPED_TRANSFORM_H_
+COMMON_AUDIO_LAPPED_TRANSFORM_H_
 #
 define
-WEBRTC_COMMON_AUDIO_LAPPED_TRANSFORM_H_
+COMMON_AUDIO_LAPPED_TRANSFORM_H_
 #
 include
 <
@@ -17,8 +17,6 @@ memory
 #
 include
 "
-webrtc
-/
 common_audio
 /
 blocker
@@ -28,8 +26,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 real_fourier
@@ -39,8 +35,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include

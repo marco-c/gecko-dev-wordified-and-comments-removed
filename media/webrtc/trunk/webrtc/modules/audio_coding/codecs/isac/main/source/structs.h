@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_SOURCE_STRUCTS_H_
+MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_SOURCE_STRUCTS_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_SOURCE_STRUCTS_H_
+MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_SOURCE_STRUCTS_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -24,8 +22,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -45,8 +41,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -66,8 +60,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

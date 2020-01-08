@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_TEST_AEC_DUMP_BASED_SIMULATOR_H_
+MODULES_AUDIO_PROCESSING_TEST_AEC_DUMP_BASED_SIMULATOR_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_TEST_AEC_DUMP_BASED_SIMULATOR_H_
+MODULES_AUDIO_PROCESSING_TEST_AEC_DUMP_BASED_SIMULATOR_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -22,9 +20,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -33,9 +29,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 ignore_wundef
 .
@@ -71,8 +65,6 @@ else
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -199,9 +191,6 @@ audioproc
 Stream
 &
 msg
-bool
-*
-set_stream_analog_level_called
 )
 ;
 void

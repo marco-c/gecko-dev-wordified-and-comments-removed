@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_DTMF_BUFFER_H_
+MODULES_AUDIO_CODING_NETEQ_DTMF_BUFFER_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_DTMF_BUFFER_H_
+MODULES_AUDIO_CODING_NETEQ_DTMF_BUFFER_H_
 #
 include
 <
@@ -17,9 +17,7 @@ string
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -28,8 +26,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

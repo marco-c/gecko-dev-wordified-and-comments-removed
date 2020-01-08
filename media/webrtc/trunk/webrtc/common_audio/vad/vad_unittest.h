@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_COMMON_AUDIO_VAD_VAD_UNITTEST_H
+COMMON_AUDIO_VAD_VAD_UNITTEST_H_
 #
 define
-WEBRTC_COMMON_AUDIO_VAD_VAD_UNITTEST_H
+COMMON_AUDIO_VAD_VAD_UNITTEST_H_
 #
 include
 <
@@ -14,8 +14,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -25,13 +23,15 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
 "
 namespace
+webrtc
+{
+namespace
+test
 {
 const
 int
@@ -130,6 +130,7 @@ sizeof
 kFrameLengths
 )
 ;
+}
 }
 class
 VadTest

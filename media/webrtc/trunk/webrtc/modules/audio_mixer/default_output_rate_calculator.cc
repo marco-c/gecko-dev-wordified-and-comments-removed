@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_mixer
@@ -19,8 +17,6 @@ algorithm
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -144,6 +140,7 @@ kSampleRate48kHz
 ;
 const
 auto
+*
 rounded_up_index
 =
 std

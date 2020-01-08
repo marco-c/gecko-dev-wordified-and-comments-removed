@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_INCLUDE_AUDIO_ENCODER_ISAC_H_
+MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_INCLUDE_AUDIO_ENCODER_ISAC_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_INCLUDE_AUDIO_ENCODER_ISAC_H_
+MODULES_AUDIO_CODING_CODECS_ISAC_MAIN_INCLUDE_AUDIO_ENCODER_ISAC_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -24,8 +22,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -46,7 +42,7 @@ namespace
 webrtc
 {
 using
-AudioEncoderIsac
+AudioEncoderIsacFloatImpl
 =
 AudioEncoderIsacT
 <

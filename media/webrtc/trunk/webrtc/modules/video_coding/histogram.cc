@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -19,11 +17,9 @@ algorithm
 #
 include
 "
-webrtc
+rtc_base
 /
-modules
-/
-video_coding
+numerics
 /
 sequence_number_util
 .

@@ -3,14 +3,12 @@ include_rules
 [
 "
 +
-webrtc
-/
-base
+system_wrappers
 "
 "
 +
-webrtc
+logging
 /
-system_wrappers
+rtc_event_log
 "
 ]

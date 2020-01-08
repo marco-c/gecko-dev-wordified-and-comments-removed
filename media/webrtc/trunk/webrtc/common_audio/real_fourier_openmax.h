@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_COMMON_AUDIO_REAL_FOURIER_OPENMAX_H_
+COMMON_AUDIO_REAL_FOURIER_OPENMAX_H_
 #
 define
-WEBRTC_COMMON_AUDIO_REAL_FOURIER_OPENMAX_H_
+COMMON_AUDIO_REAL_FOURIER_OPENMAX_H_
 #
 include
 <
@@ -12,8 +12,6 @@ complex
 #
 include
 "
-webrtc
-/
 common_audio
 /
 real_fourier

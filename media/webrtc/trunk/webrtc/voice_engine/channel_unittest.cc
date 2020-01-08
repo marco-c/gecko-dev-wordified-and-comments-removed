@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -12,8 +10,6 @@ h
 #
 include
 "
-webrtc
-/
 voice_engine
 /
 channel

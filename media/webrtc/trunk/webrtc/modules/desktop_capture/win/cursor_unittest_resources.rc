@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture

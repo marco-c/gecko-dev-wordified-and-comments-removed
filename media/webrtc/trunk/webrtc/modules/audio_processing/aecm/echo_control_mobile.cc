@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -40,8 +38,6 @@ C
 #
 include
 "
-webrtc
-/
 common_audio
 /
 ring_buffer
@@ -51,8 +47,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -67,8 +61,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -222,7 +214,7 @@ WebRtcAecm_EstBufDelay
 (
 AecMobile
 *
-aecmInst
+aecm
 short
 msInSndCardBuf
 )
@@ -233,7 +225,7 @@ WebRtcAecm_DelayComp
 (
 AecMobile
 *
-aecmInst
+aecm
 )
 ;
 void

@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 window_generator
@@ -17,8 +15,6 @@ cstring
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

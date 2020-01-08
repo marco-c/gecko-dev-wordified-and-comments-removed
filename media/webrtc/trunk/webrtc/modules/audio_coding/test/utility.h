@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_TEST_UTILITY_H_
+MODULES_AUDIO_CODING_TEST_UTILITY_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_TEST_UTILITY_H_
+MODULES_AUDIO_CODING_TEST_UTILITY_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -22,8 +20,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -365,6 +361,9 @@ _hour
 ;
 }
 ;
+namespace
+test
+{
 class
 CircularBuffer
 {
@@ -453,6 +452,7 @@ _sumSqr
 ;
 }
 ;
+}
 int16_t
 ChooseCodec
 (

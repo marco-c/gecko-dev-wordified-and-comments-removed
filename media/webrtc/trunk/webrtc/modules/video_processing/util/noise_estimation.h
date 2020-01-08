@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_VIDEO_PROCESSING_UTIL_NOISE_ESTIMATION_H_
+MODULES_VIDEO_PROCESSING_UTIL_NOISE_ESTIMATION_H_
 #
 define
-WEBRTC_MODULES_VIDEO_PROCESSING_UTIL_NOISE_ESTIMATION_H_
+MODULES_VIDEO_PROCESSING_UTIL_NOISE_ESTIMATION_H_
 #
 include
 <
@@ -12,8 +12,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 include
@@ -25,8 +23,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 video_processing

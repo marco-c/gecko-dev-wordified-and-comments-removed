@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 fir_filter_neon
@@ -26,9 +24,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -37,8 +33,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -50,6 +44,15 @@ h
 namespace
 webrtc
 {
+FIRFilterNEON
+:
+:
+~
+FIRFilterNEON
+(
+)
+{
+}
 FIRFilterNEON
 :
 :

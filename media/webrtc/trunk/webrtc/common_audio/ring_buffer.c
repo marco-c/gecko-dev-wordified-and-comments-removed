@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 ring_buffer
@@ -534,6 +532,13 @@ data_ptr
 *
 data_ptr
 =
+read_count
+=
+=
+0
+?
+NULL
+:
 buf_ptr_1
 ;
 }

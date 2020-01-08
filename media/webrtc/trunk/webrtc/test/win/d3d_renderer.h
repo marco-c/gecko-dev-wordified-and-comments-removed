@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_TEST_WIN_D3D_RENDERER_H_
+TEST_WIN_D3D_RENDERER_H_
 #
 define
-WEBRTC_TEST_WIN_D3D_RENDERER_H_
+TEST_WIN_D3D_RENDERER_H_
 #
 include
 <
@@ -38,9 +38,7 @@ SDK
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 scoped_ref_ptr
 .
@@ -49,8 +47,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 video_renderer
@@ -60,8 +56,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
