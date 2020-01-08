@@ -927,11 +927,11 @@ aActor
 override
 ;
 void
-ObserveLayerUpdate
+ObserveLayersUpdate
 (
 LayersId
 aLayersId
-uint64_t
+LayersObserverEpoch
 aEpoch
 bool
 aActive

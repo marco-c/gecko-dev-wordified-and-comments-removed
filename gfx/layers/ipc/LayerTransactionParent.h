@@ -215,7 +215,7 @@ return
 mRoot
 ;
 }
-uint64_t
+LayersObserverEpoch
 GetChildEpoch
 (
 )
@@ -479,12 +479,12 @@ ipc
 :
 :
 IPCResult
-RecvSetLayerObserverEpoch
+RecvSetLayersObserverEpoch
 (
 const
-uint64_t
+LayersObserverEpoch
 &
-aLayerObserverEpoch
+aChildEpoch
 )
 override
 ;
@@ -1001,10 +1001,10 @@ mLayerMap
 LayersId
 mId
 ;
-uint64_t
+LayersObserverEpoch
 mChildEpoch
 ;
-uint64_t
+LayersObserverEpoch
 mParentEpoch
 ;
 TimeDuration

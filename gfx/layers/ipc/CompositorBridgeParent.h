@@ -684,11 +684,11 @@ IPC_OK
 }
 virtual
 void
-ObserveLayerUpdate
+ObserveLayersUpdate
 (
 LayersId
 aLayersId
-uint64_t
+LayersObserverEpoch
 aEpoch
 bool
 aActive
@@ -1698,11 +1698,11 @@ aActor
 override
 ;
 void
-ObserveLayerUpdate
+ObserveLayersUpdate
 (
 LayersId
 aLayersId
-uint64_t
+LayersObserverEpoch
 aEpoch
 bool
 aActive

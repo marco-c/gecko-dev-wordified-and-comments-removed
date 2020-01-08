@@ -1244,14 +1244,14 @@ ipc
 :
 :
 IPCResult
-RecvObserveLayerUpdate
+RecvObserveLayersUpdate
 (
 const
 LayersId
 &
 aLayersId
 const
-uint64_t
+LayersObserverEpoch
 &
 aEpoch
 const

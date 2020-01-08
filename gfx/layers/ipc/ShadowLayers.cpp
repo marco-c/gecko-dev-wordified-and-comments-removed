@@ -4455,10 +4455,10 @@ void
 ShadowLayerForwarder
 :
 :
-SetLayerObserverEpoch
+SetLayersObserverEpoch
 (
-uint64_t
-aLayerObserverEpoch
+LayersObserverEpoch
+aEpoch
 )
 {
 if
@@ -4478,9 +4478,9 @@ Unused
 mShadowManager
 -
 >
-SendSetLayerObserverEpoch
+SendSetLayersObserverEpoch
 (
-aLayerObserverEpoch
+aEpoch
 )
 ;
 }

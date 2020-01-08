@@ -2560,8 +2560,13 @@ TabParent
 aTabParent
 bool
 aForceRepaint
-uint64_t
-aLayerObserverEpoch
+const
+layers
+:
+:
+LayersObserverEpoch
+&
+aEpoch
 )
 ;
 nsresult
