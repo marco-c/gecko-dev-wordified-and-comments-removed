@@ -59,6 +59,15 @@ include
 "
 mozilla
 /
+ArrayUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 BaseSize

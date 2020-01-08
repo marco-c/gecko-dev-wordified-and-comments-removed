@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-PodOperations
+ArrayUtils
 .
 h
 "
@@ -110,7 +110,7 @@ len
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 aCert
 -
@@ -202,7 +202,7 @@ len
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 aCert
 -
@@ -295,7 +295,7 @@ T
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 cert
 -
@@ -322,7 +322,7 @@ R
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 cert
 -

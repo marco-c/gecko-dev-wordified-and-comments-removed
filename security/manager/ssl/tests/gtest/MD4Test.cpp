@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-Casting
+ArrayUtils
 .
 h
 "
@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-PodOperations
+Casting
 .
 h
 "
@@ -298,7 +298,7 @@ EXPECT_TRUE
 mozilla
 :
 :
-PodEqual
+ArrayEqual
 (
 actualHash
 params
