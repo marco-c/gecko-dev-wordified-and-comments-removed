@@ -295,7 +295,9 @@ mLastAudioEndTime
 aAudio
 -
 >
-mTime
+GetEndTime
+(
+)
 ;
 return
 AudioDataPromise
