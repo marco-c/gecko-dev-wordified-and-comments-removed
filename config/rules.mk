@@ -192,6 +192,10 @@ REPORT_BUILD
 (
 info
 (
+relativesrcdir
+)
+/
+(
 notdir
 )
 )
