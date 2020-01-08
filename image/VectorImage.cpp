@@ -414,7 +414,7 @@ Element
 GetReferencedElementWithoutObserving
 (
 )
-override
+final
 {
 return
 mDocWrapper

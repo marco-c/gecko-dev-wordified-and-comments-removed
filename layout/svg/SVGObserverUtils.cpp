@@ -707,6 +707,8 @@ bool
 aReferenceImage
 )
 ;
+protected
+:
 virtual
 ~
 SVGIDRenderingObserver
@@ -718,14 +720,12 @@ StopObserving
 )
 ;
 }
-protected
-:
 Element
 *
 GetReferencedElementWithoutObserving
 (
 )
-override
+final
 {
 return
 mObservedElementTracker
