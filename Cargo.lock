@@ -9666,7 +9666,7 @@ encoding_rs
 .
 8
 .
-8
+9
 (
 registry
 +
@@ -9718,7 +9718,7 @@ encoding_rs
 .
 8
 .
-8
+9
 (
 registry
 +
@@ -9775,7 +9775,7 @@ version
 .
 8
 .
-8
+9
 "
 source
 =
@@ -9840,7 +9840,7 @@ simd
 .
 2
 .
-2
+3
 (
 registry
 +
@@ -20682,7 +20682,7 @@ encoding_rs
 .
 8
 .
-8
+9
 (
 registry
 +
@@ -26807,7 +26807,7 @@ version
 .
 2
 .
-2
+3
 "
 source
 =
@@ -41511,7 +41511,7 @@ encoding_rs
 .
 8
 .
-8
+9
 (
 registry
 +
@@ -41536,7 +41536,7 @@ index
 "
 =
 "
-cc9945e460ad969220c1061b9574fb02ed097c6f0704ce2f3e336cb443c40c73
+f1a79fa56c329a5b087de13748054fb3b974c4a672c12c71f0b66e35c5addec5
 "
 "
 checksum
@@ -46009,7 +46009,7 @@ simd
 .
 2
 .
-2
+3
 (
 registry
 +
@@ -46034,7 +46034,7 @@ index
 "
 =
 "
-ed3686dd9418ebcc3a26a0c0ae56deab0681e53fe899af91f5bbcee667ebffb1
+0048b17eb9577ac545c61d85c3559b41dfb4cbea41c9bd9ca6a4f73ff05fda84
 "
 "
 checksum
