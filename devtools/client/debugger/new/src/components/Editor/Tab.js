@@ -707,6 +707,12 @@ item
 tabMenuItems
 .
 copySourceUri2
+disabled
+:
+!
+selectedSource
+.
+url
 click
 :
 (
@@ -734,12 +740,6 @@ url
 )
 }
 }
-]
-;
-items
-.
-push
-(
 {
 item
 :
@@ -750,6 +750,12 @@ item
 tabMenuItems
 .
 showSource
+disabled
+:
+!
+selectedSource
+.
+url
 click
 :
 (
@@ -762,7 +768,7 @@ tab
 )
 }
 }
-)
+]
 ;
 if
 (

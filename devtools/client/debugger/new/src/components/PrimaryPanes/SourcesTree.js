@@ -560,6 +560,13 @@ debuggeeUrl
 projectRoot
 uncollapsedTree
 sourceTree
+focusedItem
+:
+this
+.
+state
+.
+focusedItem
 }
 )
 )

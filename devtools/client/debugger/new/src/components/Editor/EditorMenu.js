@@ -809,7 +809,10 @@ accesskey
 copySourceUri2Key
 disabled
 :
-false
+!
+selectedSource
+.
+url
 click
 :
 (
@@ -1010,7 +1013,10 @@ accesskey
 revealInTreeKey
 disabled
 :
-false
+!
+selectedSource
+.
+url
 click
 :
 (
@@ -1051,6 +1057,12 @@ isPrettyPrinted
 |
 |
 hasSourceMap
+|
+|
+!
+selectedSource
+.
+url
 click
 :
 (
