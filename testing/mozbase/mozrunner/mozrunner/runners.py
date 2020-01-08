@@ -780,8 +780,6 @@ save
 logfiles
 such
 as
-logcat
-and
 qemu
 output
 .
