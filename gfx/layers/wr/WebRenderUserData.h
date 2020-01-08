@@ -630,6 +630,10 @@ LayoutDeviceRect
 &
 aBounds
 const
+LayoutDeviceRect
+&
+aSCBounds
+const
 gfx
 :
 :
