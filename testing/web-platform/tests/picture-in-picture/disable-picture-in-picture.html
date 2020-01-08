@@ -296,7 +296,7 @@ loadVideo
 (
 )
 ;
-return
+await
 test_driver
 .
 bless
@@ -309,12 +309,8 @@ in
 -
 Picture
 '
-async
-(
 )
-=
->
-{
+;
 const
 promise
 =
@@ -346,9 +342,6 @@ document
 .
 pictureInPictureElement
 null
-)
-;
-}
 )
 ;
 }
