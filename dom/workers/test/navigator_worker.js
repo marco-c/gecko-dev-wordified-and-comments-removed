@@ -30,6 +30,9 @@ language
 languages
 "
 "
+mediaCapabilities
+"
+"
 hardwareConcurrency
 "
 {
