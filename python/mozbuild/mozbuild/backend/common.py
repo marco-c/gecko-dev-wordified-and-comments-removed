@@ -87,7 +87,7 @@ StaticLibrary
     
 UnifiedSources
     
-XPIDLFile
+XPIDLModule
     
 WebIDLCollection
 )
@@ -327,39 +327,37 @@ Module
 )
     
 def
-register_idl
+link_module
 (
 self
-idl
+module
 )
 :
         
 "
 "
 "
-Registers
+Links
 an
-IDL
-file
+XPIDL
+module
+with
 with
 this
 instance
 .
+"
+"
+"
         
-The
-IDL
-file
-will
-be
-built
-installed
-etc
+for
+idl
+in
+module
 .
-        
-"
-"
-"
-        
+idl_files
+:
+            
 basename
 =
 mozpath
@@ -368,11 +366,9 @@ basename
 (
 idl
 .
-source_path
-.
 full_path
 )
-        
+            
 if
 basename
 in
@@ -380,7 +376,7 @@ self
 .
 _idls
 :
-            
+                
 raise
 Exception
 (
@@ -395,7 +391,7 @@ s
 %
 basename
 )
-        
+            
 self
 .
 _idls
@@ -409,18 +405,16 @@ self
 .
 modules
 [
-idl
-.
 module
+.
+name
 ]
 .
 add_idls
 (
-[
-idl
+module
 .
-source_path
-]
+idl_files
 )
     
 def
@@ -622,7 +616,7 @@ if
 isinstance
 (
 obj
-XPIDLFile
+XPIDLModule
 )
 :
             
@@ -630,7 +624,7 @@ self
 .
 _idl_manager
 .
-register_idl
+link_module
 (
 obj
 )
