@@ -2514,9 +2514,6 @@ webrender
 &
 &
 winWidget
-&
-&
-isDebugBuild
 1
 -
 2
