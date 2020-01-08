@@ -303,10 +303,10 @@ app
 .
 update
 .
-enabled
+disabledForTesting
 '
 :
-False
+True
 '
 extensions
 .
