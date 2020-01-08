@@ -9607,7 +9607,7 @@ fuzzyfox
 .
 enabled
 "
-true
+false
 )
 ;
 pref
@@ -9627,7 +9627,7 @@ fuzzyfox
 .
 clockgrainus
 "
-true
+false
 )
 ;
 pref
