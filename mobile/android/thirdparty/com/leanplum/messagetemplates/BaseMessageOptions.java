@@ -229,8 +229,8 @@ imageStream
 }
 catch
 (
-Exception
-e
+Throwable
+t
 )
 {
 Log
@@ -246,7 +246,7 @@ loading
 background
 image
 "
-e
+t
 )
 ;
 }

@@ -39,6 +39,7 @@ leanplum
 .
 LeanplumActivityHelper
 ;
+Deprecated
 public
 abstract
 class

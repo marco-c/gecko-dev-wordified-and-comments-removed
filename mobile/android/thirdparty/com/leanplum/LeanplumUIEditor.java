@@ -10,6 +10,7 @@ app
 .
 Activity
 ;
+Deprecated
 public
 interface
 LeanplumUIEditor

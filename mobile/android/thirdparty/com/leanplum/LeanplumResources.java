@@ -139,6 +139,12 @@ util
 .
 Set
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 class
 LeanplumResources

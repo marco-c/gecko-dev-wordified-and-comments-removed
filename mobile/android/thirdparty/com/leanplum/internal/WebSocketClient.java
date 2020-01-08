@@ -224,6 +224,12 @@ message
 .
 BasicNameValuePair
 ;
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 class
 WebSocketClient
 {

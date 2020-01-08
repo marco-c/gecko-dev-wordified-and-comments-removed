@@ -8,13 +8,6 @@ activities
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 app
 .
 NativeActivity
@@ -42,12 +35,7 @@ leanplum
 .
 LeanplumActivityHelper
 ;
-SuppressLint
-(
-"
-Registered
-"
-)
+Deprecated
 public
 class
 LeanplumNativeActivity

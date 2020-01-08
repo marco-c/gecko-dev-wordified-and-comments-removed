@@ -3,6 +3,7 @@ com
 .
 leanplum
 ;
+Deprecated
 public
 enum
 LeanplumEditorMode
