@@ -9785,7 +9785,7 @@ if
 casepc
 =
 =
-pc
+defaultpc
 )
 {
 caseBlock
