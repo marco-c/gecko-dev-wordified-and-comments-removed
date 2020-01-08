@@ -373,6 +373,10 @@ XRE_IsParentProcess
 )
 )
 ;
+mIsFile
+=
+false
+;
 }
 TemporaryFileBlobImpl
 :
