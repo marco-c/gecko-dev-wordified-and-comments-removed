@@ -257,9 +257,7 @@ TAB
 {
 client
 .
-mainRoot
-.
-on
+addListener
 (
 "
 tabListChanged
@@ -304,9 +302,7 @@ WORKER
 {
 client
 .
-mainRoot
-.
-on
+addListener
 (
 "
 workerListChanged
@@ -316,9 +312,7 @@ onWorkersUpdated
 ;
 client
 .
-mainRoot
-.
-on
+addListener
 (
 "
 serviceWorkerRegistrationListChanged
@@ -328,9 +322,7 @@ onWorkersUpdated
 ;
 client
 .
-mainRoot
-.
-on
+addListener
 (
 "
 processListChanged
@@ -403,9 +395,7 @@ TAB
 {
 client
 .
-mainRoot
-.
-off
+removeListener
 (
 "
 tabListChanged
@@ -450,9 +440,7 @@ WORKER
 {
 client
 .
-mainRoot
-.
-off
+removeListener
 (
 "
 workerListChanged
@@ -462,9 +450,7 @@ onWorkersUpdated
 ;
 client
 .
-mainRoot
-.
-off
+removeListener
 (
 "
 serviceWorkerRegistrationListChanged
@@ -474,9 +460,7 @@ onWorkersUpdated
 ;
 client
 .
-mainRoot
-.
-off
+removeListener
 (
 "
 processListChanged
