@@ -498,17 +498,6 @@ SystemAllocPolicy
 >
 BytecodeLocationVector
 ;
-typedef
-Vector
-<
-const
-char
-*
-0
-SystemAllocPolicy
->
-ProfileStringVector
-;
 struct
 BaseEntry
 {
