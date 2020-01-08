@@ -802,9 +802,6 @@ button
 className
 :
 "
-toolbar
--
-button
 devtools
 -
 button
@@ -947,9 +944,6 @@ className
 device
 -
 remove
--
-button
-toolbar
 -
 button
 devtools
