@@ -86,6 +86,9 @@ Action
 order
 '
 '
+kind
+'
+'
 cb_name
 '
 '
@@ -1966,6 +1969,7 @@ append
 Action
 (
 order
+kind
 cb_name
 generic
 action_builder
@@ -2296,6 +2300,19 @@ format
 callback
 )
 )
+    
+if
+action
+.
+kind
+=
+=
+'
+task
+'
+:
+        
+return
     
 actionPerm
 =
