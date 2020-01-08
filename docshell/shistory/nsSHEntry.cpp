@@ -306,6 +306,12 @@ aOther
 .
 mLoadedInThisProcess
 )
+mPersist
+(
+aOther
+.
+mPersist
+)
 {
 }
 nsSHEntry
