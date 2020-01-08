@@ -158,9 +158,6 @@ warnings
 as
 -
 errors
-MOZ_COPY_PDBS
-=
-1
 #
 Temporary
 config

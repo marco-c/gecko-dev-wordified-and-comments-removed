@@ -79,10 +79,6 @@ x86_64
 lib
 "
 export
-MOZ_COPY_PDBS
-=
-1
-export
 LLVM_SYMBOLIZER
 =
 "
