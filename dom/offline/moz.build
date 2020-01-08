@@ -134,6 +134,12 @@ dom
 /
 base
 '
+'
+/
+uriloader
+/
+prefetch
+'
 ]
 FINAL_LIBRARY
 =
