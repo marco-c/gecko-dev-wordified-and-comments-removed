@@ -7039,6 +7039,12 @@ ICStubEngine
 :
 :
 Baseline
+&
+&
+!
+JitOptions
+.
+disableCacheIR
 )
 {
 RootedScript
