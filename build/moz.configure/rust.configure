@@ -1292,10 +1292,10 @@ configure
 assert
 host_or_target
 in
-(
+{
 host
 target
-)
+}
 depends
 (
 rustc
