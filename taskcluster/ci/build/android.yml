@@ -353,7 +353,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -362,8 +362,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -414,7 +412,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -423,8 +421,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -828,7 +824,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -837,8 +833,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -889,7 +883,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -898,8 +892,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -1532,7 +1524,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -1541,8 +1533,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -1593,7 +1583,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -1602,8 +1592,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -1991,7 +1979,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -2000,8 +1988,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -2052,7 +2038,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -2061,8 +2047,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -2547,7 +2531,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -2556,8 +2540,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -2608,7 +2590,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -2617,8 +2599,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -3092,7 +3072,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -3101,8 +3081,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -3153,7 +3131,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -3162,8 +3140,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -4176,7 +4152,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -4185,8 +4161,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -4237,7 +4211,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -4246,8 +4220,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -4714,7 +4686,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -4723,8 +4695,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -4775,7 +4745,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -4784,8 +4754,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -5264,7 +5232,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -5273,8 +5241,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -5325,7 +5291,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -5334,8 +5300,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -5804,7 +5768,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -5813,8 +5777,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -5865,7 +5827,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -5874,8 +5836,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
@@ -6358,7 +6318,7 @@ apk
 /
 androidTest
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -6367,8 +6327,6 @@ geckoview
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 -
@@ -6419,7 +6377,7 @@ outputs
 /
 apk
 /
-officialWithGeckoBinariesNoMinApi
+officialWithGeckoBinaries
 /
 debug
 /
@@ -6428,8 +6386,6 @@ geckoview_example
 official
 -
 withGeckoBinaries
--
-noMinApi
 -
 debug
 .
