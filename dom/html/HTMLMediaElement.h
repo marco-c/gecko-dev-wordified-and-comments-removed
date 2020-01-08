@@ -1730,6 +1730,12 @@ mIsCasting
 aShow
 ;
 }
+bool
+AllowedToPlay
+(
+)
+const
+;
 already_AddRefed
 <
 MediaSource
