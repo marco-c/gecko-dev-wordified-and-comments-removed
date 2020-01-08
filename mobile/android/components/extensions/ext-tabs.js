@@ -444,6 +444,11 @@ tabId
 tab
 .
 id
+previousTabId
+:
+data
+.
+previousTabId
 windowId
 :
 tab
