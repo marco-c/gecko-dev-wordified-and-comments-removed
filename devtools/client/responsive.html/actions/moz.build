@@ -131,11 +131,6 @@ simulation
 js
 '
 '
-ui
-.
-js
-'
-'
 viewports
 .
 js

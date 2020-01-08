@@ -37,7 +37,7 @@ l10n
 ;
 const
 {
-getTopLevelWindow
+getToplevelWindow
 }
 =
 require
@@ -280,7 +280,7 @@ filename
 const
 chromeWindow
 =
-getTopLevelWindow
+getToplevelWindow
 (
 window
 )

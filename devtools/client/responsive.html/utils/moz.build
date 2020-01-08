@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+css
+.
+js
+'
+'
 e10s
 .
 js

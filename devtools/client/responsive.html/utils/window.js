@@ -14,7 +14,7 @@ Services
 )
 ;
 function
-getTopLevelWindow
+getToplevelWindow
 (
 window
 )
@@ -31,9 +31,9 @@ domWindow
 }
 exports
 .
-getTopLevelWindow
+getToplevelWindow
 =
-getTopLevelWindow
+getToplevelWindow
 ;
 function
 getDOMWindowUtils
