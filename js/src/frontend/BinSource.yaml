@@ -1400,7 +1400,7 @@ list
 result
 /
 *
-child
+kid
 =
 *
 /
@@ -4784,7 +4784,7 @@ list
 result
 /
 *
-item
+kid
 =
 *
 /
@@ -6082,7 +6082,7 @@ body
 catchClause
 /
 *
-finally
+finallyBlock
 =
 *
 /
