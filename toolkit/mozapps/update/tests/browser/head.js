@@ -619,6 +619,16 @@ URL_MANUAL_UPDATE
 PREF_APP_UPDATE_LOG
 DEBUG_AUS_TEST
 ]
+[
+"
+services
+.
+sync
+.
+autoconnectDelay
+"
+600000
+]
 ]
 }
 )
