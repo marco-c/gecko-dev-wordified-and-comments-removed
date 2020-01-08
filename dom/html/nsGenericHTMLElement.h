@@ -1250,6 +1250,11 @@ aArgs
 )
 ;
 }
+void
+AttachAndSetUAShadowRoot
+(
+)
+;
 protected
 :
 virtual

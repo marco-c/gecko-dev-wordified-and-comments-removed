@@ -4190,11 +4190,6 @@ AssertReadyStateIsNothing
 (
 )
 ;
-void
-AttachAndSetUAShadowRoot
-(
-)
-;
 Pair
 <
 nsString
