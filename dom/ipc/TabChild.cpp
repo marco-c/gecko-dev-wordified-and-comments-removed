@@ -10721,11 +10721,12 @@ EventTarget
 >
 ourEventTarget
 =
-ourWindow
--
->
-GetParentTarget
+nsGlobalWindowOuter
+:
+:
+Cast
 (
+ourWindow
 )
 ;
 docShell
@@ -10744,6 +10745,7 @@ FirePageShowEvent
 ourDocShell
 ourEventTarget
 false
+true
 )
 ;
 nsContentUtils
@@ -10753,6 +10755,7 @@ FirePageHideEvent
 (
 ourDocShell
 ourEventTarget
+true
 )
 ;
 MaybeInvalidTabContext
@@ -10876,6 +10879,7 @@ FirePageShowEvent
 (
 ourDocShell
 ourEventTarget
+true
 true
 )
 ;

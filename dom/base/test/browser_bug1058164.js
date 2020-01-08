@@ -186,7 +186,11 @@ eventListener
 pagehide
 "
 )
-false
+{
+mozSystemGroup
+:
+true
+}
 checkFn
 false
 false
@@ -212,7 +216,11 @@ eventListener
 pageshow
 "
 )
-false
+{
+mozSystemGroup
+:
+true
+}
 checkFn
 false
 false
@@ -379,6 +387,11 @@ content
 "
 pageshow
 "
+{
+mozSystemGroup
+:
+true
+}
 )
 ;
 }

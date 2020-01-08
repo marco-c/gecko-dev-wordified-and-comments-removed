@@ -5662,6 +5662,10 @@ EventTarget
 aChromeEventHandler
 bool
 aFireIfShowing
+bool
+aOnlySystemGroup
+=
+false
 )
 ;
 static
@@ -5680,6 +5684,10 @@ dom
 EventTarget
 *
 aChromeEventHandler
+bool
+aOnlySystemGroup
+=
+false
 )
 ;
 static

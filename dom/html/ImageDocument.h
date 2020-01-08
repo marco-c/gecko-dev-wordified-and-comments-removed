@@ -148,6 +148,10 @@ aPersisted
 EventTarget
 *
 aDispatchStartTarget
+bool
+aOnlySystemGroup
+=
+false
 )
 override
 ;

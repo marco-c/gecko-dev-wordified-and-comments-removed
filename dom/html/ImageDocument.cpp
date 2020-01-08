@@ -1507,6 +1507,8 @@ aPersisted
 EventTarget
 *
 aDispatchStartTarget
+bool
+aOnlySystemGroup
 )
 {
 if
@@ -1563,6 +1565,7 @@ OnPageShow
 (
 aPersisted
 aDispatchStartTarget
+aOnlySystemGroup
 )
 ;
 }
