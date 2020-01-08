@@ -656,9 +656,7 @@ marionette
 execute_script
 (
 "
-window
-.
-open
+OpenBrowserWindow
 (
 )
 ;
