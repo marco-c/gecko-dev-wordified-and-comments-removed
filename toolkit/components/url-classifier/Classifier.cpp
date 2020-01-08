@@ -1101,6 +1101,10 @@ Close
 (
 )
 {
+mUpdateInterrupted
+=
+true
+;
 mIsClosed
 =
 true
