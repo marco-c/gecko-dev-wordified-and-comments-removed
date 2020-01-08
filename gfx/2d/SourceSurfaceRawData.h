@@ -471,9 +471,6 @@ aNonHeapSizeOut
 size_t
 &
 aExtHandlesOut
-uint64_t
-&
-aExtIdOut
 )
 const
 override
