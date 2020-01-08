@@ -95,9 +95,6 @@ aWindow
 nsIPrincipal
 *
 aNodePrincipal
-nsIEventTarget
-*
-aMainThreadTarget
 )
 ;
 ~
@@ -110,12 +107,6 @@ WeakPtr
 AutoplayPermissionManager
 >
 mManager
-;
-nsCOMPtr
-<
-nsIEventTarget
->
-mMainThreadTarget
 ;
 }
 ;
