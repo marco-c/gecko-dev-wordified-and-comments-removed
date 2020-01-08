@@ -1788,6 +1788,16 @@ mozilla
 :
 :
 ReleaseAcquire
+mozilla
+:
+:
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 pagesAllocated_
 ;
