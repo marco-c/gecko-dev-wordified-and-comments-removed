@@ -256,6 +256,18 @@ html
 "
     
 "
+foo
+/
+foo
+-
+manual
+.
+html
+.
+headers
+"
+    
+"
 css
 /
 common
@@ -431,6 +443,16 @@ parametrize
 rel_path
 "
 [
+    
+"
+foo
+/
+foo
+-
+manual
+.
+html
+"
     
 "
 html

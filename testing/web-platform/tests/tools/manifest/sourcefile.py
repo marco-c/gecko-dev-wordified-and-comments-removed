@@ -1951,6 +1951,19 @@ or
                 
 self
 .
+filename
+.
+endswith
+(
+"
+.
+headers
+"
+)
+or
+                
+self
+.
 type_flag
 =
 =
