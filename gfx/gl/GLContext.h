@@ -996,6 +996,7 @@ EXT_framebuffer_multisample
 EXT_framebuffer_object
 EXT_framebuffer_sRGB
 EXT_gpu_shader4
+EXT_map_buffer_range
 EXT_multisampled_render_to_texture
 EXT_occlusion_query_boolean
 EXT_packed_depth_stencil

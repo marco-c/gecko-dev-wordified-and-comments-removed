@@ -640,6 +640,9 @@ GL_EXT_framebuffer_sRGB
 GL_EXT_gpu_shader4
 "
 "
+GL_EXT_map_buffer_range
+"
+"
 GL_EXT_multisampled_render_to_texture
 "
 "
