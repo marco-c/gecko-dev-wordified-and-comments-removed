@@ -3863,7 +3863,10 @@ x86
 enabled
 =
 False
-else
+elif
+milestone
+.
+is_nightly
 :
 enabled
 =
