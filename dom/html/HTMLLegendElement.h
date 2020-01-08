@@ -115,6 +115,7 @@ nsIContent
 *
 aBindingParent
 )
+override
 ;
 virtual
 void
