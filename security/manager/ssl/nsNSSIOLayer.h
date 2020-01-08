@@ -731,9 +731,6 @@ ActivateSSL
 nsCString
 mNegotiatedNPN
 ;
-nsCString
-mEsniTxt
-;
 bool
 mNPNCompleted
 ;
