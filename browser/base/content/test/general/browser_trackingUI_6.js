@@ -305,7 +305,7 @@ is
 (
 TrackingProtection
 .
-icon
+iconBox
 .
 getAttribute
 (
@@ -321,7 +321,7 @@ tracking
 content
 "
 '
-icon
+iconBox
 :
 state
 =
@@ -339,7 +339,7 @@ is
 (
 TrackingProtection
 .
-icon
+iconBox
 .
 getAttribute
 (
