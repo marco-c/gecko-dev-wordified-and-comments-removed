@@ -1178,9 +1178,7 @@ in
 -
 tree
 :
-static
--
-analysis
+infer
 -
 build
 }

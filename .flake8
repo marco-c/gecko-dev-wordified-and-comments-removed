@@ -159,12 +159,3 @@ build
 infer
 .
 py
-tools
-/
-infer
-/
-test
-/
-*
-.
-configure
