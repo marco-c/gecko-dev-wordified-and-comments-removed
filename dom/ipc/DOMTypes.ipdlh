@@ -856,6 +856,12 @@ principal
 BrowsingContextId
 browsingContextId
 ;
+uint64_t
+innerWindowId
+;
+uint64_t
+outerWindowId
+;
 }
 ;
 }
