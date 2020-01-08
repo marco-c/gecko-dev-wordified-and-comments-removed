@@ -35624,6 +35624,9 @@ http
 accept
 "
 "
+image
+/
+webp
 *
 /
 *
@@ -35901,7 +35904,7 @@ webp
 .
 enabled
 "
-false
+true
 )
 ;
 pref

@@ -95,6 +95,9 @@ Accept
 =
 =
 "
+image
+/
+webp
 *
 /
 *
