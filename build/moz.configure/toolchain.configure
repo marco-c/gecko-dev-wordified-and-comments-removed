@@ -10325,7 +10325,7 @@ value
 c_compiler
 )
 :
-flags
+cflags
 =
 [
 ]
@@ -10375,7 +10375,7 @@ lower
 full
 '
 :
-flags
+cflags
 .
 append
 (
@@ -10396,7 +10396,7 @@ flto
 elif
 value
 :
-flags
+cflags
 .
 append
 (
@@ -10433,7 +10433,7 @@ multiprocessing
 cpu_count
 (
 )
-flags
+cflags
 .
 append
 (
@@ -10442,7 +10442,7 @@ append
 flto
 "
 )
-flags
+cflags
 .
 append
 (
@@ -10494,9 +10494,9 @@ if
 value
 else
 None
-flags
+cflags
 =
-flags
+cflags
 ldflags
 =
 ldflags
@@ -10517,7 +10517,7 @@ MOZ_LTO_CFLAGS
 '
 lto
 .
-flags
+cflags
 )
 add_old_configure_assignment
 (
