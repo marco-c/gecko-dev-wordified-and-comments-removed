@@ -37038,6 +37038,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+OS_OPENBSD
+)
 pref
 (
 "
