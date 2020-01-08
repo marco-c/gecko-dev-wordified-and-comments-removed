@@ -667,6 +667,10 @@ nsIInProcessContentFrameMessageManager
 )
 NS_INTERFACE_MAP_ENTRY
 (
+ContentFrameMessageManager
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_END_INHERITING
