@@ -179,6 +179,13 @@ h
 #
 include
 "
+MediaShutdownManager
+.
+h
+"
+#
+include
+"
 MediaSourceDecoder
 .
 h
@@ -16241,6 +16248,13 @@ RegisterActivityObserver
 )
 ;
 NotifyOwnerDocumentActivityChanged
+(
+)
+;
+MediaShutdownManager
+:
+:
+InitStatics
 (
 )
 ;

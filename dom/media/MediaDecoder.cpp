@@ -1823,13 +1823,6 @@ MediaDecoder
 NotifyAudibleStateChanged
 )
 ;
-MediaShutdownManager
-:
-:
-InitStatics
-(
-)
-;
 mVideoDecodingOberver
 -
 >
