@@ -285,14 +285,6 @@ replace
 \
 .
 fxsnapshot
-(
-?
-:
-\
-.
-gz
-)
-?
 /
 "
 "
