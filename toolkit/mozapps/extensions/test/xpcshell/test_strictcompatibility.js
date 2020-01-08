@@ -548,7 +548,7 @@ nonStrict
 true
 strict
 :
-false
+true
 }
 }
 }
