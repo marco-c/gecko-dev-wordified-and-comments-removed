@@ -2499,11 +2499,6 @@ currentPersist
 )
 ;
 }
-int32_t
-currentIndex
-=
-mIndex
-;
 if
 (
 !
@@ -2514,7 +2509,7 @@ NOTIFY_LISTENERS
 (
 OnHistoryReplaceEntry
 (
-currentIndex
+mIndex
 )
 )
 ;
@@ -2564,7 +2559,7 @@ NOTIFY_LISTENERS
 OnHistoryNewEntry
 (
 uri
-currentIndex
+mIndex
 )
 )
 ;
