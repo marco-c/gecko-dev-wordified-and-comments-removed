@@ -432,6 +432,14 @@ setIsUAWidget
 (
 )
 ;
+[
+ChromeOnly
+]
+boolean
+isUAWidget
+(
+)
+;
 }
 ;
 ShadowRoot
