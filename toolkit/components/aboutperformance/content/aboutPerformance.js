@@ -5978,8 +5978,7 @@ addEventListener
 "
 click
 "
-(
-)
+event
 =
 >
 {
@@ -6353,8 +6352,7 @@ addEventListener
 "
 dblclick
 "
-(
-)
+event
 =
 >
 {
