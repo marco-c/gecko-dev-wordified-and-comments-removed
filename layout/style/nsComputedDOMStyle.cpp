@@ -429,7 +429,6 @@ new
 nsDOMCSSValueList
 (
 aCommaDelimited
-true
 )
 ;
 }
