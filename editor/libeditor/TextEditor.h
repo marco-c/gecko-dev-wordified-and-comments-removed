@@ -415,6 +415,12 @@ aReplaceRange
 nullptr
 )
 ;
+virtual
+nsresult
+InsertLineBreakAsAction
+(
+)
+;
 nsresult
 InsertParagraphSeparatorAsAction
 (
@@ -726,6 +732,11 @@ const
 nsAString
 &
 aStringToInsert
+)
+;
+nsresult
+InsertLineBreakAsSubAction
+(
 )
 ;
 nsresult
