@@ -4929,6 +4929,12 @@ hidden
 =
 false
 ;
+gMainPane
+.
+requestingLocales
+=
+locales
+;
 }
 hideConfirmLanguageChangeMessageBar
 (
@@ -4972,6 +4978,12 @@ removeAttribute
 locales
 "
 )
+;
+gMainPane
+.
+requestingLocales
+=
+null
 ;
 }
 confirmBrowserLanguageChange
@@ -5605,7 +5617,9 @@ browserLanguages
 xul
 "
 null
-null
+gMainPane
+.
+requestingLocales
 this
 .
 browserLanguagesClosed
