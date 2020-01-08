@@ -302,9 +302,6 @@ CheckURL
 nsIURI
 *
 aURI
-nsIPrincipal
-&
-aSubjectPrincipal
 nsDocShellLoadInfo
 *
 *
@@ -357,6 +354,20 @@ net
 :
 RP_Unset
 ;
+if
+(
+JSContext
+*
+cx
+=
+nsContentUtils
+:
+:
+GetCurrentJSContext
+(
+)
+)
+{
 nsIScriptSecurityManager
 *
 ssm
@@ -379,15 +390,10 @@ rv
 ssm
 -
 >
-CheckLoadURIWithPrincipal
+CheckLoadURIFromScript
 (
-&
-aSubjectPrincipal
+cx
 aURI
-nsIScriptSecurityManager
-:
-:
-STANDARD
 )
 ;
 NS_ENSURE_SUCCESS
@@ -588,9 +594,14 @@ else
 {
 triggeringPrincipal
 =
-&
-aSubjectPrincipal
+nsContentUtils
+:
+:
+SubjectPrincipal
+(
+)
 ;
+}
 }
 RefPtr
 <
@@ -843,9 +854,6 @@ SetURI
 nsIURI
 *
 aURI
-nsIPrincipal
-&
-aSubjectPrincipal
 bool
 aReplace
 )
@@ -880,7 +888,6 @@ NS_FAILED
 CheckURL
 (
 aURI
-aSubjectPrincipal
 getter_AddRefs
 (
 loadInfo
@@ -1292,7 +1299,6 @@ aRv
 SetURI
 (
 uri
-aSubjectPrincipal
 )
 ;
 }
@@ -1507,7 +1513,6 @@ aRv
 SetURI
 (
 uri
-aSubjectPrincipal
 )
 ;
 }
@@ -1698,7 +1703,6 @@ aRv
 SetURI
 (
 uri
-aSubjectPrincipal
 )
 ;
 }
@@ -1803,9 +1807,6 @@ const
 nsAString
 &
 aHref
-nsIPrincipal
-&
-aSubjectPrincipal
 ErrorResult
 &
 aRv
@@ -1814,7 +1815,6 @@ aRv
 DoSetHref
 (
 aHref
-aSubjectPrincipal
 false
 aRv
 )
@@ -1830,9 +1830,6 @@ const
 nsAString
 &
 aHref
-nsIPrincipal
-&
-aSubjectPrincipal
 bool
 aReplace
 ErrorResult
@@ -1856,7 +1853,6 @@ SetHrefWithBase
 (
 aHref
 base
-aSubjectPrincipal
 aReplace
 )
 ;
@@ -1874,9 +1870,6 @@ aHref
 nsIURI
 *
 aBase
-nsIPrincipal
-&
-aSubjectPrincipal
 bool
 aReplace
 )
@@ -2050,7 +2043,6 @@ return
 SetURI
 (
 newUri
-aSubjectPrincipal
 aReplace
 |
 |
@@ -2398,7 +2390,6 @@ aRv
 SetURI
 (
 uri
-aSubjectPrincipal
 )
 ;
 }
@@ -2709,7 +2700,6 @@ aRv
 SetURI
 (
 uri
-aSubjectPrincipal
 )
 ;
 }
@@ -3152,7 +3142,6 @@ aRv
 SetURI
 (
 uri
-aSubjectPrincipal
 )
 ;
 }
@@ -3454,7 +3443,6 @@ aRv
 SetURI
 (
 uri
-aSubjectPrincipal
 )
 ;
 }
@@ -3655,7 +3643,6 @@ aRv
 DoSetHref
 (
 aUrl
-aSubjectPrincipal
 true
 aRv
 )
@@ -3702,7 +3689,6 @@ return
 DoSetHref
 (
 aUrl
-aSubjectPrincipal
 false
 aRv
 )
