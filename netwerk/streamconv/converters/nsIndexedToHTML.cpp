@@ -4978,10 +4978,7 @@ aIndex
 >
 GetLocation
 (
-getter_Copies
-(
 loc
-)
 )
 ;
 loc

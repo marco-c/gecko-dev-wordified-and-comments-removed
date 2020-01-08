@@ -1071,10 +1071,6 @@ aIdx
 SetLocation
 (
 filename
-.
-get
-(
-)
 )
 ;
 if
@@ -1088,10 +1084,6 @@ aIdx
 SetDescription
 (
 result
-.
-get
-(
-)
 )
 ;
 success
@@ -1124,10 +1116,6 @@ aIdx
 SetLocation
 (
 filename
-.
-get
-(
-)
 )
 ;
 if
@@ -1144,10 +1132,6 @@ SetDescription
 NS_ConvertUTF8toUTF16
 (
 value
-)
-.
-get
-(
 )
 )
 ;
@@ -1172,10 +1156,6 @@ SetDescription
 NS_ConvertUTF8toUTF16
 (
 value
-)
-.
-get
-(
 )
 )
 ;
@@ -1275,7 +1255,10 @@ aIdx
 >
 SetContentType
 (
+nsDependentCString
+(
 value
+)
 )
 ;
 break

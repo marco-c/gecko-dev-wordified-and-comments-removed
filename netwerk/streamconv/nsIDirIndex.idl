@@ -270,7 +270,7 @@ directories
 *
 /
 attribute
-string
+ACString
 contentType
 ;
 /
@@ -306,7 +306,7 @@ escaped
 *
 /
 attribute
-string
+ACString
 location
 ;
 /
@@ -329,7 +329,7 @@ viewer
 *
 /
 attribute
-wstring
+AString
 description
 ;
 /
