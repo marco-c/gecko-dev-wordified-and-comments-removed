@@ -1833,12 +1833,10 @@ nsresult
 result
 )
 ;
-void
-SetTimerEventTarget
-(
-nsITimer
+nsIEventTarget
 *
-aTimer
+GetTimerEventTarget
+(
 )
 ;
 nsresult
