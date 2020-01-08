@@ -431,15 +431,6 @@ int64_t
 aPlaceId
 )
 ;
-nsresult
-invalidateFrecencies
-(
-const
-nsCString
-&
-aPlaceIdsQueryString
-)
-;
 nsIStringBundle
 *
 GetBundle

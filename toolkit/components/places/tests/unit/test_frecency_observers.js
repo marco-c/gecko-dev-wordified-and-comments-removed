@@ -149,7 +149,7 @@ add_task
 (
 async
 function
-test_nsNavHistory_invalidateFrecencies_somePages
+test_invalidateFrecencies
 (
 )
 {
@@ -169,11 +169,7 @@ http
 /
 test
 -
-nsNavHistory
--
 invalidateFrecencies
--
-somePages
 .
 com
 /
@@ -238,7 +234,7 @@ add_task
 (
 async
 function
-test_nsNavHistory_invalidateFrecencies_allPages
+test_clear
 (
 )
 {
