@@ -33353,11 +33353,6 @@ addEngine
 engine
 .
 url
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
 engine
 .
 iconURL

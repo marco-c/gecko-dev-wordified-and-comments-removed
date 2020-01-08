@@ -608,7 +608,6 @@ test
 .
 xml
 "
-null
 "
 data
 :
