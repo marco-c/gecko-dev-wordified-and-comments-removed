@@ -24,6 +24,9 @@ Transport
 .
 h
 "
+class
+nsIEventTarget
+;
 namespace
 mozilla
 {
@@ -94,6 +97,11 @@ PBackgroundChild
 *
 GetOrCreateForCurrentThread
 (
+nsIEventTarget
+*
+aMainEventTarget
+=
+nullptr
 )
 ;
 static
