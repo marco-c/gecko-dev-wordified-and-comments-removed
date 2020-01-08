@@ -519,10 +519,11 @@ gBrowser
 selectedBrowser
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 about
 :

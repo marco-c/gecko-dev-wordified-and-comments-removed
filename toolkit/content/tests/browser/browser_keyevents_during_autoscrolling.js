@@ -270,10 +270,11 @@ gBrowser
 selectedBrowser
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 dataUri
 )
 ;
