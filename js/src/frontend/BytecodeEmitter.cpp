@@ -7128,8 +7128,6 @@ BytecodeEmitter
 :
 emitNewInit
 (
-JSProtoKey
-key
 )
 {
 const
@@ -7180,10 +7178,7 @@ code
 1
 ]
 =
-jsbytecode
-(
-key
-)
+0
 ;
 code
 [
@@ -16324,7 +16319,6 @@ if
 !
 emitNewInit
 (
-JSProto_Object
 )
 )
 return
@@ -16799,7 +16793,6 @@ if
 !
 emitNewInit
 (
-JSProto_Object
 )
 )
 return
@@ -34679,7 +34672,6 @@ if
 !
 emitNewInit
 (
-JSProto_Object
 )
 )
 return
@@ -37618,7 +37610,6 @@ if
 !
 emitNewInit
 (
-JSProto_Object
 )
 )
 return

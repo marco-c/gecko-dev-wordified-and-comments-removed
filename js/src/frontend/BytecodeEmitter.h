@@ -2764,8 +2764,6 @@ MOZ_MUST_USE
 bool
 emitNewInit
 (
-JSProtoKey
-key
 )
 ;
 MOZ_MUST_USE
