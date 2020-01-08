@@ -107,11 +107,6 @@ nsITextToSubURI
 .
 idl
 '
-'
-nsIUTF8ConverterService
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
@@ -124,11 +119,6 @@ EXPORTS
 [
 '
 nsConverterInputStream
-.
-h
-'
-'
-nsUConvCID
 .
 h
 '
@@ -159,11 +149,6 @@ cpp
 '
 '
 nsUConvModule
-.
-cpp
-'
-'
-nsUTF8ConverterService
 .
 cpp
 '

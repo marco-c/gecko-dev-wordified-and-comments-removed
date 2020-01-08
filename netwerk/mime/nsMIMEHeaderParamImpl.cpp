@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsUConvCID
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
