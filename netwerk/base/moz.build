@@ -909,6 +909,11 @@ Predictor
 h
 '
 '
+RedirectChannelRegistrar
+.
+h
+'
+'
 ReferrerPolicy
 .
 h
