@@ -164,6 +164,7 @@ utils
 telemetry
 "
 ;
+export
 type
 addBreakpointOptions
 =
@@ -948,7 +949,6 @@ toggleBreakpoint
 (
 line
 :
-?
 number
 column
 ?
@@ -987,10 +987,6 @@ state
 ;
 if
 (
-!
-line
-|
-|
 !
 selectedSource
 )
@@ -1167,10 +1163,6 @@ state
 if
 (
 !
-line
-|
-|
-!
 selectedSource
 )
 {
@@ -1269,7 +1261,6 @@ addOrToggleDisabledBreakpoint
 (
 line
 :
-?
 number
 column
 ?
@@ -1303,10 +1294,6 @@ getState
 ;
 if
 (
-!
-line
-|
-|
 !
 selectedSource
 )
