@@ -513,9 +513,12 @@ request
 let
 selectedCard
 =
-state
+paymentRequest
 .
-savedBasicCards
+getBasicCards
+(
+state
+)
 [
 selectedOption
 .
