@@ -3184,7 +3184,7 @@ add
 (
 cookie
 .
-host
+rawHost
 +
 ChromeUtils
 .
