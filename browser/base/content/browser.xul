@@ -1612,7 +1612,7 @@ oncommand
 "
 gBrowser
 .
-replaceTabWithWindow
+replaceTabsWithWindow
 (
 TabContextMenu
 .
