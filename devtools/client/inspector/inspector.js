@@ -6804,6 +6804,19 @@ null
 ;
 }
 const
+cssPropertiesDestroyer
+=
+this
+.
+_cssProperties
+.
+front
+.
+destroy
+(
+)
+;
+const
 sidebarDestroyer
 =
 this
@@ -6987,6 +7000,7 @@ promise
 all
 (
 [
+cssPropertiesDestroyer
 markupDestroyer
 sidebarDestroyer
 ruleViewSideBarDestroyer
