@@ -550,8 +550,6 @@ SurfaceDescriptorSharedGLTexture
 ;
 SurfaceDescriptorGPUVideo
 ;
-SurfaceDescriptorShared
-;
 null_t
 ;
 }
