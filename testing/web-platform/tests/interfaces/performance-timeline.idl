@@ -179,6 +179,15 @@ takeRecords
 (
 )
 ;
+static
+readonly
+attribute
+FrozenArray
+<
+DOMString
+>
+supportedEntryTypes
+;
 }
 ;
 dictionary
