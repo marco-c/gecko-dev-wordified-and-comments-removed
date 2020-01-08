@@ -4265,7 +4265,7 @@ DEFAULT_STARTUP_TIMEOUT
     
 DEFAULT_SHUTDOWN_TIMEOUT
 =
-120
+70
     
 DEFAULT_SOCKET_TIMEOUT
 =
@@ -4651,6 +4651,14 @@ int
 (
 startup_timeout
 )
+        
+self
+.
+shutdown_timeout
+=
+self
+.
+DEFAULT_SHUTDOWN_TIMEOUT
         
 if
 self
@@ -5936,7 +5944,7 @@ timeout
 =
 self
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 )
             
 if
@@ -8160,7 +8168,7 @@ timeout
 =
 self
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 )
             
 if
@@ -8198,7 +8206,7 @@ format
 (
 self
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 )
 )
             
@@ -8607,7 +8615,7 @@ timeout
 =
 self
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
                                     
 check_process_status
 =
@@ -8681,7 +8689,7 @@ format
 (
 self
 .
-DEFAULT_SHUTDOWN_TIMEOUT
+shutdown_timeout
 )
 tb
 )
