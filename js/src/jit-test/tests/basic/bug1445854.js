@@ -22,7 +22,6 @@ function
 {
 assertThrowsInstanceOf
 (
-TypeError
 (
 )
 =
@@ -34,6 +33,7 @@ prototype
 tee
 (
 )
+TypeError
 )
 ;
 }
