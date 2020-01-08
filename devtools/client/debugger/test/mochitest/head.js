@@ -4078,9 +4078,10 @@ this
 .
 target
 =
+yield
 TargetFactory
 .
-forTab
+forRemoteTab
 (
 targetOptions
 )
