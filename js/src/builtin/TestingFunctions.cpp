@@ -30714,17 +30714,6 @@ options
 cx
 )
 ;
-SourceBufferHolder
-source
-(
-chars
-len
-SourceBufferHolder
-:
-:
-NoOwnership
-)
-;
 if
 (
 !
@@ -30735,7 +30724,8 @@ Compile
 (
 cx
 options
-source
+chars
+len
 &
 script
 )
