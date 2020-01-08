@@ -2473,7 +2473,6 @@ mProgressView
 setProgress
 (
 progress
-true
 )
 ;
 if
