@@ -1363,6 +1363,11 @@ __ARM_ARCH_
 /
 p
 '
+|
+head
+-
+n
+1
 AC_MSG_RESULT
 (
 "
