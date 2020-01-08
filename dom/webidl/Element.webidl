@@ -1599,6 +1599,7 @@ DOM
 v1
 [
 Throws
+UseCounter
 ]
 ShadowRoot
 attachShadow
