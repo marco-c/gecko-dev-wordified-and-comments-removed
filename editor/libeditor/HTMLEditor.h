@@ -2083,6 +2083,15 @@ InsertBrElementAtSelectionWithTransaction
 )
 ;
 nsresult
+InsertTextWithQuotationsInternal
+(
+const
+nsAString
+&
+aStringToInsert
+)
+;
+nsresult
 LoadHTML
 (
 const
