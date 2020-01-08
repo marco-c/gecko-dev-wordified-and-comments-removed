@@ -1241,7 +1241,7 @@ aFrame
 nullptr
 )
 ;
-bool
+void
 AddTreeItemToTreeOwner
 (
 nsIDocShellTreeItem
@@ -1250,11 +1250,6 @@ aItem
 nsIDocShellTreeOwner
 *
 aOwner
-int32_t
-aParentType
-nsIDocShell
-*
-aParentNode
 )
 ;
 nsAtom
