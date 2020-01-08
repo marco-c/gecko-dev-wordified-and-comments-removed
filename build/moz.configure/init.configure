@@ -6954,6 +6954,15 @@ target
 .
 raw_os
 )
+set_config
+(
+'
+TARGET_ENDIANNESS
+'
+target
+.
+endianness
+)
 depends
 (
 host
