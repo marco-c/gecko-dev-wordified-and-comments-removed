@@ -179,7 +179,9 @@ talkToNewActor
 {
 gClient
 .
-listTabs
+mainRoot
+.
+getRoot
 (
 )
 .
@@ -291,9 +293,9 @@ testActorIsUnregistered
 {
 gClient
 .
-listTabs
-(
-)
+mainRoot
+.
+rootForm
 .
 then
 (

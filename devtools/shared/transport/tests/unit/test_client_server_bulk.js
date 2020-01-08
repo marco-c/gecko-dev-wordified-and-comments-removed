@@ -893,9 +893,9 @@ true
 ;
 client
 .
-listTabs
-(
-)
+mainRoot
+.
+rootForm
 .
 then
 (
@@ -1211,9 +1211,9 @@ true
 ;
 client
 .
-listTabs
-(
-)
+mainRoot
+.
+rootForm
 .
 then
 (

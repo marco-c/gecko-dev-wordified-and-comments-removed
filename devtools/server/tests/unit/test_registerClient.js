@@ -291,9 +291,9 @@ then
 >
 gClient
 .
-listTabs
-(
-)
+mainRoot
+.
+rootForm
 )
 .
 then
