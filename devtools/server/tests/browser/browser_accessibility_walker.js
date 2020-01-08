@@ -250,7 +250,7 @@ ancestry
 children
 .
 length
-3
+4
 "
 Root
 doc
@@ -389,7 +389,7 @@ is
 docChildren
 .
 length
-3
+4
 "
 Root
 doc
@@ -505,7 +505,7 @@ is
 docChildren
 .
 length
-4
+5
 "
 Root
 doc

@@ -645,6 +645,9 @@ endPanel
 :
 RightSidebar
 (
+{
+walker
+}
 )
 vert
 :
