@@ -2407,6 +2407,16 @@ int32_t
 aIndex
 )
 {
+if
+(
+aIndex
+<
+0
+)
+{
+return
+;
+}
 nsCOMPtr
 <
 nsINode
