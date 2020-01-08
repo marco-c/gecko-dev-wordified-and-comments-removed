@@ -5438,6 +5438,9 @@ return
 clang
 '
 )
+if
+developer_options
+:
 return
 (
 '
@@ -5446,6 +5449,14 @@ clang
 )
 +
 gcc
+return
+gcc
++
+(
+'
+clang
+'
+)
 return
 default_c_compilers
 template
