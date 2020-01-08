@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 .
 h
 "
@@ -6605,7 +6605,7 @@ exists
 ;
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 entries
 ;

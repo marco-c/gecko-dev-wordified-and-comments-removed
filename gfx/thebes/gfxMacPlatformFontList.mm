@@ -510,7 +510,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 .
 h
 "
@@ -11050,7 +11050,7 @@ return
 }
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 e
 ;

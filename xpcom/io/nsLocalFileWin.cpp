@@ -7786,7 +7786,7 @@ NS_ERROR_FILE_ACCESS_DENIED
 }
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 targetIterator
 ;

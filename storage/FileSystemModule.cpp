@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 .
 h
 "
@@ -137,7 +137,7 @@ private
 :
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 mEntries
 ;

@@ -51,7 +51,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 .
 h
 "
@@ -720,7 +720,7 @@ NS_ERROR_FILE_ACCESS_DENIED
 ;
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 dirEnumerator
 ;
