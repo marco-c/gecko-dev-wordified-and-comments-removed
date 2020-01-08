@@ -249,6 +249,12 @@ error
 nsString
 shippingAddressErrors
 ;
+nsString
+payerErrors
+;
+nsString
+paymentMethodErrors
+;
 }
 ;
 struct

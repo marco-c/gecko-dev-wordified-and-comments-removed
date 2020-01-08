@@ -350,6 +350,12 @@ error
 AddressErrors
 shippingAddressErrors
 ;
+PayerErrorFields
+payerErrors
+;
+object
+paymentMethodErrors
+;
 PaymentItem
 total
 ;
