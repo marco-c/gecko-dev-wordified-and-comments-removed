@@ -231,5 +231,16 @@ cxx14
 .
 patch
 "
+"
+clang
+-
+tidy
+-
+sync
+-
+output
+.
+patch
+"
 ]
 }
