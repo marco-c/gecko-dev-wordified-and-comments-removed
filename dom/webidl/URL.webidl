@@ -278,6 +278,15 @@ toJSON
 ;
 }
 ;
+[
+Exposed
+=
+(
+Window
+DedicatedWorker
+SharedWorker
+)
+]
 partial
 interface
 URL
@@ -316,8 +325,6 @@ DOMString
 url
 )
 ;
-}
-;
 /
 /
 https
@@ -351,10 +358,6 @@ media
 source
 .
 html
-partial
-interface
-URL
-{
 [
 Throws
 ]
