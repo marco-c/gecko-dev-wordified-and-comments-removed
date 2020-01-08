@@ -220,6 +220,7 @@ ANGLE_device_creation
 ANGLE_device_creation_d3d11
 KHR_surfaceless_context
 KHR_create_context_no_error
+MOZ_create_context_provoking_vertex_dont_care
 Extensions_Max
 }
 ;

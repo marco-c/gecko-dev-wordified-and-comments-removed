@@ -332,6 +332,9 @@ EGL_KHR_surfaceless_context
 "
 EGL_KHR_create_context_no_error
 "
+"
+EGL_MOZ_create_context_provoking_vertex_dont_care
+"
 }
 ;
 #
