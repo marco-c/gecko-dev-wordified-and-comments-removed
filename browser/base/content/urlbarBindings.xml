@@ -6021,10 +6021,8 @@ action
 params
 .
 searchSuggestion
-isAlias
+alias
 :
-!
-!
 action
 .
 params
