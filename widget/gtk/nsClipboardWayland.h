@@ -619,10 +619,6 @@ gtk_primary_selection_device_manager
 *
 mPrimarySelectionDataDeviceManager
 ;
-wl_keyboard
-*
-mKeyboard
-;
 GHashTable
 *
 mActiveOffers

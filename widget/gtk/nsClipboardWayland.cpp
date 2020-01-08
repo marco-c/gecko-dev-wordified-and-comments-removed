@@ -2804,10 +2804,6 @@ mPrimarySelectionDataDeviceManager
 (
 nullptr
 )
-mKeyboard
-(
-nullptr
-)
 mActiveOffers
 (
 g_hash_table_new
