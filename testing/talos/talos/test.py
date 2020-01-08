@@ -1655,16 +1655,18 @@ extensions
 talos
 }
 /
-tests
-/
-cpstartup
+pageloader
 '
 '
 {
 talos
 }
 /
-pageloader
+tests
+/
+cpstartup
+/
+extension
 '
 ]
     
@@ -1705,22 +1707,6 @@ ms
 preferences
 =
 {
-        
-'
-addon
-.
-test
-.
-cpstartup
-.
-webserver
-'
-:
-'
-{
-webserver
-}
-'
         
 '
 browser
