@@ -2858,6 +2858,8 @@ cross
 compiling
 for
 Android
+or
+OSX
 .
 if
 toolchain_prefix
@@ -2866,11 +2868,15 @@ and
 target
 .
 os
-=
-=
+in
+(
 '
 Android
 '
+'
+OSX
+'
+)
 or
 len
 (
