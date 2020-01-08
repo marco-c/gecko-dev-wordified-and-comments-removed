@@ -11432,7 +11432,7 @@ const
 int
 stack_protection_size_
 =
-128
+512
 *
 KBytes
 ;
