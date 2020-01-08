@@ -964,6 +964,17 @@ uint32_t
 resumeKind
 )
 ;
+GeneratorObject
+*
+GetGeneratorObjectForFrame
+(
+JSContext
+*
+cx
+AbstractFramePtr
+frame
+)
+;
 void
 SetGeneratorClosed
 (
