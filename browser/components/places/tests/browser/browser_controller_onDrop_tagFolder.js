@@ -333,11 +333,6 @@ itemGuid
 dragBookmark
 .
 guid
-parent
-:
-PlacesUtils
-.
-unfiledBookmarksFolderId
 uri
 :
 dragBookmark
