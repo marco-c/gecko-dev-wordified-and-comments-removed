@@ -16,6 +16,13 @@ attachRefToHud
 >
 {
 }
+canRewind
+:
+(
+)
+=
+>
+false
 emitNewMessage
 :
 (

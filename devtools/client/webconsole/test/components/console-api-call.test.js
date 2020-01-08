@@ -3218,6 +3218,15 @@ wrapper
 =
 render
 (
+Provider
+(
+{
+store
+:
+setupStore
+(
+)
+}
 ConsoleApiCall
 (
 {
@@ -3227,6 +3236,7 @@ open
 :
 true
 }
+)
 )
 )
 ;
