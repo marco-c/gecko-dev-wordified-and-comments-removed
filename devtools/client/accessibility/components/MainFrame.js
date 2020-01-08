@@ -295,15 +295,6 @@ componentWillMount
 (
 )
 {
-gToolbox
-.
-loadTool
-(
-"
-inspector
-"
-)
-;
 this
 .
 props
