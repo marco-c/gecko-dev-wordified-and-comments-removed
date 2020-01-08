@@ -644,6 +644,7 @@ Navigator
 {
 [
 SameObject
+SecureContext
 ]
 readonly
 attribute
@@ -656,6 +657,7 @@ mediaDevices
 Exposed
 =
 Window
+SecureContext
 ]
 interface
 MediaDevices
@@ -752,6 +754,9 @@ partial
 interface
 Navigator
 {
+[
+SecureContext
+]
 void
 getUserMedia
 (
