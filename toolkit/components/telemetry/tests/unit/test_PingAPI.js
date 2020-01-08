@@ -2661,7 +2661,7 @@ equal
 (
 h
 .
-counts
+values
 [
 archivedPingSizeMB
 ]
