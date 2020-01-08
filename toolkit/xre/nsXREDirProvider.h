@@ -251,6 +251,14 @@ mGREDir
 ;
 }
 nsresult
+GetInstallHash
+(
+nsAString
+&
+aPathHash
+)
+;
+nsresult
 GetUpdateRootDir
 (
 nsIFile
