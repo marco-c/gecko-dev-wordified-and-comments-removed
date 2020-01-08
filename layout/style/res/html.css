@@ -2319,7 +2319,7 @@ text
 -
 align
 :
-inherit
+unset
 ;
 padding
 :
@@ -3435,7 +3435,7 @@ important
 ;
 padding
 :
-0
+unset
 !
 important
 ;
@@ -4285,7 +4285,7 @@ font
 -
 size
 :
-inherit
+unset
 ;
 }
 ruby
