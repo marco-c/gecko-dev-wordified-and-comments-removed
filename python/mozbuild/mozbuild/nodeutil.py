@@ -312,6 +312,17 @@ None
     
 if
 wrap_call_with_node
+and
+platform
+.
+system
+(
+)
+!
+=
+"
+Windows
+"
 :
         
 binary
