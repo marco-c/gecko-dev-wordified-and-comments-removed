@@ -524,7 +524,7 @@ value
 status
 tooltiptext
 =
-fullStatus
+status
 "
 /
 >
@@ -772,7 +772,7 @@ inherits
 "
 value
 =
-fullStatus
+status
 "
 /
 >
