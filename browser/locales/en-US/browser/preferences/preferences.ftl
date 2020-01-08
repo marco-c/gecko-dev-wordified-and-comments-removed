@@ -5712,12 +5712,14 @@ autoplay
 -
 option
 -
-block
+dont
 =
 .
 label
 =
-Block
+Don
+'
+t
 Autoplay
 permissions
 -
