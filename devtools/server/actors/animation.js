@@ -3596,13 +3596,6 @@ pauseSync
 player
 )
 {
-this
-.
-playSync
-(
-player
-)
-;
 player
 .
 startTime
