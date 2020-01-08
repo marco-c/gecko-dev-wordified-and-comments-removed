@@ -1597,7 +1597,6 @@ mozilla
 :
 :
 ModuleLoader
-xpcIJSModuleLoader
 nsIObserver
 )
 nsresult
@@ -4978,7 +4977,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 mozJSComponentLoader
 :
 :
@@ -5069,11 +5068,8 @@ modules
 +
 ;
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+void
 mozJSComponentLoader
 :
 :
@@ -5164,11 +5160,8 @@ comp
 +
 ;
 }
-return
-NS_OK
-;
 }
-NS_IMETHODIMP
+nsresult
 mozJSComponentLoader
 :
 :
@@ -5265,7 +5258,7 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 mozJSComponentLoader
 :
 :
