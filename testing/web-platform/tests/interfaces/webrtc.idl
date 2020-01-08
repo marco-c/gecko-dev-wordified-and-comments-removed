@@ -1686,7 +1686,7 @@ EventTarget
 readonly
 attribute
 RTCIceTransport
-transport
+iceTransport
 ;
 readonly
 attribute
