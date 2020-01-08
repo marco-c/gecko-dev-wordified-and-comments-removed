@@ -354,6 +354,9 @@ True
 paths
 =
 node_toolchain_search_path
+paths_have_priority
+=
+True
 )
 depends_if
 (
