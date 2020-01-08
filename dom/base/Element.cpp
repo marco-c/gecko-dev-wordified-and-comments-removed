@@ -3047,7 +3047,7 @@ bindingURL
 mExtraData
 -
 >
-GetPrincipal
+Principal
 (
 )
 ;

@@ -17043,7 +17043,7 @@ policy
 mCachedURLData
 -
 >
-GetPrincipal
+Principal
 (
 )
 !

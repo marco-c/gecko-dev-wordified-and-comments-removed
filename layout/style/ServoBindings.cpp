@@ -6217,16 +6217,6 @@ CORSMode
 aCorsMode
 )
 {
-MOZ_ASSERT
-(
-mExtraData
--
->
-GetPrincipal
-(
-)
-)
-;
 RefPtr
 <
 css
@@ -11548,7 +11538,7 @@ aURL
 mExtraData
 -
 >
-GetPrincipal
+Principal
 (
 )
 )

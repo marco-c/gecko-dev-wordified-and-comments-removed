@@ -496,16 +496,6 @@ MOZ_ASSERT
 mExtraData
 )
 ;
-MOZ_ASSERT
-(
-mExtraData
--
->
-GetPrincipal
-(
-)
-)
-;
 }
 bool
 Equals

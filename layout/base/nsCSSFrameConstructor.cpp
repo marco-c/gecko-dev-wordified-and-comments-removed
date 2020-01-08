@@ -10191,7 +10191,7 @@ mBinding
 mExtraData
 -
 >
-GetPrincipal
+Principal
 (
 )
 getter_AddRefs
@@ -23427,7 +23427,7 @@ binding
 mExtraData
 -
 >
-GetPrincipal
+Principal
 (
 )
 getter_AddRefs
