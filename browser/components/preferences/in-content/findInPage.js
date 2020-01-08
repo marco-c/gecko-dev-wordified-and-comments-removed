@@ -2626,6 +2626,13 @@ parent
 "
 )
 ;
+if
+(
+anchorNode
+.
+tooltipNode
+)
+{
 anchorNode
 .
 tooltipNode
@@ -2634,6 +2641,7 @@ remove
 (
 )
 ;
+}
 anchorNode
 .
 tooltipNode
