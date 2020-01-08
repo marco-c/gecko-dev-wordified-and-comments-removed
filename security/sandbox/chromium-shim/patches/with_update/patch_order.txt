@@ -61,9 +61,6 @@ patch
 mingw_capitalization
 .
 patch
-mingw_noexports_casts
-.
-patch
 mingw_offsetof
 .
 patch
