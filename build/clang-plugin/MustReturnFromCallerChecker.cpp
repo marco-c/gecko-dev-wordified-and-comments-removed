@@ -322,7 +322,7 @@ diag
 Call
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "

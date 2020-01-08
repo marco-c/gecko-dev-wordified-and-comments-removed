@@ -226,7 +226,7 @@ Report
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 ID

@@ -518,7 +518,7 @@ diag
 E
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "
@@ -551,7 +551,7 @@ T
 E
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 )

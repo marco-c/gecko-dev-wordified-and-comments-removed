@@ -863,7 +863,7 @@ diag
 EscapeStmt
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 EscapeStmtNote

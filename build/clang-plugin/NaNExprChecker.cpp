@@ -339,7 +339,7 @@ diag
 Expression
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "
@@ -372,7 +372,7 @@ diag
 Expression
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "

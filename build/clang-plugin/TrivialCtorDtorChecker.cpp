@@ -154,7 +154,7 @@ diag
 Node
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Error

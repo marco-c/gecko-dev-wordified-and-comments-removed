@@ -354,7 +354,7 @@ diag
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Error
@@ -375,7 +375,7 @@ diag
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Note
@@ -507,7 +507,7 @@ diag
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Error
@@ -528,7 +528,7 @@ diag
 D
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 Note

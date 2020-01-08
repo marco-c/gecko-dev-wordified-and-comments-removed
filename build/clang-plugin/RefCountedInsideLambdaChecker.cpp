@@ -716,7 +716,7 @@ emitDiagnostics
 This
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "

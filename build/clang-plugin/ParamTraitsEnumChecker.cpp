@@ -168,7 +168,7 @@ diag
 Decl
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "
@@ -191,7 +191,7 @@ diag
 Decl
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "

@@ -145,7 +145,7 @@ diag
 Call
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "
