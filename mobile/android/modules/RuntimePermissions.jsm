@@ -109,6 +109,17 @@ permission
 WRITE_EXTERNAL_STORAGE
 "
 ;
+const
+READ_EXTERNAL_STORAGE
+=
+"
+android
+.
+permission
+.
+READ_EXTERNAL_STORAGE
+"
+;
 var
 RuntimePermissions
 =
@@ -128,6 +139,9 @@ RECORD_AUDIO
 WRITE_EXTERNAL_STORAGE
 :
 WRITE_EXTERNAL_STORAGE
+READ_EXTERNAL_STORAGE
+:
+READ_EXTERNAL_STORAGE
 waitForPermissions
 :
 function
