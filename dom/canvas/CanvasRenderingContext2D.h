@@ -4544,11 +4544,11 @@ aOther
 .
 filterChain
 )
-filterChainObserver
+filterObserverList
 (
 aOther
 .
-filterChainObserver
+filterObserverList
 )
 filter
 (
@@ -4954,9 +4954,9 @@ filterChain
 ;
 RefPtr
 <
-nsSVGFilterChainObserver
+SVGFilterObserverList
 >
-filterChainObserver
+filterObserverList
 ;
 mozilla
 :
