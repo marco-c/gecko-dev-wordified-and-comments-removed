@@ -307,15 +307,12 @@ ResetIMETextPWBuf
 (
 )
 ;
-static
 void
 HandleNewLines
 (
 nsString
 &
 aString
-int32_t
-aNewLineHandling
 )
 ;
 static
