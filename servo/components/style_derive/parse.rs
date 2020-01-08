@@ -14,10 +14,10 @@ to_css
 CssVariantAttrs
 ;
 use
-quote
+proc_macro2
 :
 :
-Tokens
+TokenStream
 ;
 use
 syn
@@ -79,7 +79,7 @@ DeriveInput
 )
 -
 >
-Tokens
+TokenStream
 {
 let
 name
@@ -240,11 +240,7 @@ ast
 .
 ident
 .
-as_ref
-(
-)
-.
-into
+to_string
 (
 )
 )

@@ -57,14 +57,14 @@ true
 [
 dependencies
 ]
-quote
+proc
+-
+macro2
 =
 "
 0
 .
-5
-.
-1
+4
 "
 syn
 =
@@ -74,9 +74,7 @@ version
 "
 0
 .
-13
-.
-1
+15
 "
 features
 =
@@ -91,5 +89,5 @@ synstructure
 "
 0
 .
-8
+10
 "

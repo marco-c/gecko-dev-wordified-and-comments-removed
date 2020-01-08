@@ -1,6 +1,6 @@
 extern
 crate
-quote
+proc_macro2
 ;
 #
 [
@@ -55,10 +55,10 @@ Structure
 )
 -
 >
-quote
+proc_macro2
 :
 :
-Tokens
+TokenStream
 {
 let
 match_body
@@ -374,6 +374,7 @@ type_params
 let
 ident
 =
+&
 param
 .
 ident
