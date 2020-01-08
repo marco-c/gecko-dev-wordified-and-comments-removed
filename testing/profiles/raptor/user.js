@@ -52,3 +52,17 @@ enabled
 true
 )
 ;
+user_pref
+(
+"
+dom
+.
+push
+.
+connection
+.
+enabled
+"
+false
+)
+;
