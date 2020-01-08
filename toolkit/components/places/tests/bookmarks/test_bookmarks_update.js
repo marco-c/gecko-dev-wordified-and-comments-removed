@@ -1027,6 +1027,7 @@ of
 guids
 )
 {
+await
 Assert
 .
 rejects

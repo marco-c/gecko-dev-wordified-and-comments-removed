@@ -753,6 +753,7 @@ args
 key
 ]
 ;
+await
 Assert
 .
 rejects
@@ -804,6 +805,7 @@ study
 ]
 )
 {
+await
 Assert
 .
 rejects

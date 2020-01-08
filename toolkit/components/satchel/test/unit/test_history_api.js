@@ -2822,6 +2822,7 @@ enable
 false
 )
 ;
+await
 Assert
 .
 rejects
@@ -2876,6 +2877,7 @@ fail
 "
 )
 ;
+await
 Assert
 .
 rejects
@@ -2930,6 +2932,7 @@ fail
 "
 )
 ;
+await
 Assert
 .
 rejects
@@ -3004,6 +3007,7 @@ fail
 "
 )
 ;
+await
 Assert
 .
 rejects

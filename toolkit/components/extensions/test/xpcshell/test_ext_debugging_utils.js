@@ -301,6 +301,7 @@ getExtensionProcessBrowser
 nonExistentAddonActor
 )
 ;
+await
 Assert
 .
 rejects
