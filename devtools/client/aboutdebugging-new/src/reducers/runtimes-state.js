@@ -67,6 +67,15 @@ NETWORK
 "
 networkRuntimes
 "
+[
+RUNTIMES
+.
+USB
+]
+:
+"
+usbRuntimes
+"
 }
 ;
 function
@@ -436,6 +445,11 @@ name
 runtime
 .
 name
+socketPath
+:
+runtime
+.
+_socketPath
 type
 :
 RUNTIMES

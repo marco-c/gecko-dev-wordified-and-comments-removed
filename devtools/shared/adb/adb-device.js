@@ -54,16 +54,6 @@ bind
 (
 ADB
 )
-forwardPort
-:
-ADB
-.
-forwardPort
-.
-bind
-(
-ADB
-)
 getModel
 (
 )
