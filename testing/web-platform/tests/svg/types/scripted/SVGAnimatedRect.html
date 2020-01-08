@@ -129,7 +129,7 @@ viewBox
 .
 baseVal
 instanceof
-SVGRect
+DOMRect
 )
 ;
 assert_equals
@@ -142,6 +142,17 @@ baseVal
 .
 x
 0
+)
+;
+assert_true
+(
+svgElement
+.
+viewBox
+.
+animVal
+instanceof
+DOMRectReadOnly
 )
 ;
 /
@@ -299,7 +310,7 @@ viewBox
 .
 baseVal
 instanceof
-SVGRect
+DOMRect
 )
 ;
 }
