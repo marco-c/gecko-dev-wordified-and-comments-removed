@@ -1198,6 +1198,10 @@ WebGLExtensionLoseContext
 ;
 friend
 class
+WebGLExtensionMOZDebug
+;
+friend
+class
 WebGLExtensionVertexArray
 ;
 friend
