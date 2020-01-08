@@ -400,9 +400,6 @@ title
 "
 Via
 WiFi
-(
-Recommended
-)
 "
 }
 ConnectSteps
