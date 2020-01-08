@@ -1439,13 +1439,6 @@ uint32_t
 frequency
 )
 ;
-void
-unsetZeal
-(
-uint8_t
-zeal
-)
-;
 bool
 parseAndSetZeal
 (
