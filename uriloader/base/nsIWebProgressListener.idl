@@ -2256,7 +2256,7 @@ unsigned
 long
 STATE_COOKIES_BLOCKED_FOREIGN
 =
-0x80000000
+0x00000080
 ;
 const
 unsigned
