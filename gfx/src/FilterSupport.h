@@ -451,6 +451,7 @@ eColorMatrixType
 eColorMatrixValues
 eFloodColor
 eTileSourceRect
+eOpacityOpacity
 eComponentTransferFunctionR
 eComponentTransferFunctionG
 eComponentTransferFunctionB
@@ -1038,6 +1039,7 @@ ColorMatrix
 Flood
 Tile
 ComponentTransfer
+Opacity
 ConvolveMatrix
 Offset
 DisplacementMap
