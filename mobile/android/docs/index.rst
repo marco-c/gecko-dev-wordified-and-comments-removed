@@ -85,6 +85,7 @@ defaultdomains
 shutdown
 push
 gradle
+testcoverage
 Indices
 and
 tables
