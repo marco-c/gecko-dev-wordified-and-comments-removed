@@ -369,7 +369,7 @@ JS_PUBLIC_API
 (
 bool
 )
-Evaluate
+EvaluateUtf8Path
 (
 JSContext
 *
