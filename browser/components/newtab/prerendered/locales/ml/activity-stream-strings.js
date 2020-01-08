@@ -77,16 +77,12 @@ type_label_pocket
 "
 :
 "
-Saved
-to
-Pocket
 "
 "
 type_label_downloaded
 "
 :
 "
-Downloaded
 "
 "
 menu_action_bookmark

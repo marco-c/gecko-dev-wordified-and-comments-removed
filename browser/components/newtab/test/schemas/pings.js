@@ -1296,6 +1296,13 @@ Joi
 number
 (
 )
+topsites_search_shortcuts
+:
+Joi
+.
+number
+(
+)
 visibility_event_rcvd_ts
 :
 Joi
