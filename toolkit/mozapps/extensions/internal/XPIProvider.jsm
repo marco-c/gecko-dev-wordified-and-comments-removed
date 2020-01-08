@@ -6844,6 +6844,7 @@ if
 callUpdate
 )
 {
+await
 this
 .
 callBootstrapMethod
