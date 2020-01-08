@@ -1718,9 +1718,11 @@ div
 WebReplayPlayer
 (
 {
-toolbox
+threadClient
 :
 toolbox
+.
+threadClient
 }
 )
 toolbar
