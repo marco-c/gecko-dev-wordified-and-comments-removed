@@ -414,7 +414,7 @@ buildType
 #
 Like
 '
-OfficialWithoutGeckoBinariesDebug
+WithoutGeckoBinariesDebug
 '
 name
 =
@@ -452,9 +452,6 @@ variant
 (
 (
 '
-official
-'
-'
 withoutGeckoBinaries
 '
 )
@@ -473,9 +470,6 @@ variant
 (
 (
 '
-official
-'
-'
 withGeckoBinaries
 '
 )
@@ -493,9 +487,6 @@ variant
 variant
 (
 (
-'
-official
-'
 '
 withGeckoBinaries
 '
@@ -521,7 +512,7 @@ build_config
 '
 Like
 "
-officialWithoutGeckoBinariesDebug
+withoutGeckoBinariesDebug
 "
 .
 '
