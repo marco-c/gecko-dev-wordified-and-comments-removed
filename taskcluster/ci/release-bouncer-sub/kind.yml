@@ -488,6 +488,13 @@ complete
 mar
 '
 '
+complete
+-
+mar
+-
+bz2
+'
+'
 installer
 '
 '
@@ -508,6 +515,13 @@ jamun
 complete
 -
 mar
+'
+'
+complete
+-
+mar
+-
+bz2
 '
 '
 installer
