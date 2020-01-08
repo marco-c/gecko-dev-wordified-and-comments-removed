@@ -18039,6 +18039,9 @@ aUpdate
 ;
 }
 }
+#
+ifndef
+XP_WIN
 static
 bool
 ShouldShowFocusRingIfFocusedByMouse
@@ -18086,6 +18089,8 @@ audio
 )
 ;
 }
+#
+endif
 void
 nsGlobalWindowInner
 :
