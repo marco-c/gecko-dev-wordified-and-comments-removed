@@ -960,11 +960,6 @@ FromParser
 h
 '
 '
-GeneratedImageContent
-.
-h
-'
-'
 IdleDeadline
 .
 h
@@ -1402,11 +1397,6 @@ FragmentOrElement
 cpp
 '
 '
-GeneratedImageContent
-.
-cpp
-'
-'
 IdleDeadline
 .
 cpp
@@ -1598,6 +1588,11 @@ cpp
 '
 '
 nsFrameLoader
+.
+cpp
+'
+'
+nsGenConImageContent
 .
 cpp
 '
