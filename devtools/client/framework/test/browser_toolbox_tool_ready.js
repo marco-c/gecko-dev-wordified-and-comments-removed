@@ -216,13 +216,6 @@ tab
 )
 ;
 await
-target
-.
-attach
-(
-)
-;
-await
 performChecks
 (
 target

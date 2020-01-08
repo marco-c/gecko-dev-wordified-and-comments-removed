@@ -203,13 +203,6 @@ forTab
 tab
 )
 ;
-await
-target
-.
-attach
-(
-)
-;
 const
 toolbox
 =

@@ -1171,15 +1171,6 @@ toolbox
 await
 this
 .
-target
-.
-attach
-(
-)
-;
-await
-this
-.
 _getPageStyle
 (
 )
