@@ -50,19 +50,6 @@ shared
 '
     
 '
-base_name
-'
-:
-'
-Linux_
-%
-(
-branch
-)
-s_Artifact_build
-'
-    
-'
 platform
 '
 :

@@ -3,26 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-4
-.
-2
-x86
-%
-(
-branch
-)
-s
-debug
-fuzzing
-build
-'
-    
-'
 stage_platform
 '
 :

@@ -863,22 +863,6 @@ multi_locale
 True
     
 '
-base_name
-'
-:
-'
-Android
-2
-.
-3
-%
-(
-branch
-)
-s
-'
-    
-'
 platform
 '
 :

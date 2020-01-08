@@ -56,21 +56,6 @@ debug_build
 True
     
 '
-base_name
-'
-:
-'
-Linux_x86
--
-64_
-%
-(
-branch
-)
-s_Artifact_build
-'
-    
-'
 platform
 '
 :

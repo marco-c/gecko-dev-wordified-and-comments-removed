@@ -333,19 +333,6 @@ shared
 '
     
 '
-base_name
-'
-:
-'
-Linux_
-%
-(
-branch
-)
-s
-'
-    
-'
 platform
 '
 :

@@ -3,21 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-WINNT_6
-.
-1_MINGWCLANG_
-%
-(
-branch
-)
-s
-'
-    
-'
 platform
 '
 :

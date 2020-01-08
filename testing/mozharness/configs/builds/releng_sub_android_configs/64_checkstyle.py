@@ -3,20 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-checkstyle
-%
-(
-branch
-)
-s
-'
-    
-'
 stage_platform
 '
 :

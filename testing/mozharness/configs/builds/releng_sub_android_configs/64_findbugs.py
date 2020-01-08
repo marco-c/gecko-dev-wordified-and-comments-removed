@@ -3,20 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-findbugs
-%
-(
-branch
-)
-s
-'
-    
-'
 stage_platform
 '
 :

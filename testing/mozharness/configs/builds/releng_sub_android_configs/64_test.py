@@ -3,22 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-armv7
-unit
-tests
-%
-(
-branch
-)
-s
-'
-    
-'
 stage_platform
 '
 :

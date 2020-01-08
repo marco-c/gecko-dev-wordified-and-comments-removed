@@ -3,21 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-GeckoView
-docs
-%
-(
-branch
-)
-s
-'
-    
-'
 stage_platform
 '
 :

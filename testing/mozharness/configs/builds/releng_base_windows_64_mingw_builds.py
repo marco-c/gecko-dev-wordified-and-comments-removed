@@ -311,21 +311,6 @@ shared
 '
     
 '
-base_name
-'
-:
-'
-WINNT_6
-.
-1_MINGW_
-%
-(
-branch
-)
-s
-'
-    
-'
 platform
 '
 :

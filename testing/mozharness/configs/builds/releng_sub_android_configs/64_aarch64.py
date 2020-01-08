@@ -3,23 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-aarch64
-API
-21
-+
-%
-(
-branch
-)
-s
-'
-    
-'
 stage_platform
 '
 :

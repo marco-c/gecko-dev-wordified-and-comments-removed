@@ -189,23 +189,6 @@ shared
 '
     
 '
-base_name
-'
-:
-'
-OS
-X
-10
-.
-7
-%
-(
-branch
-)
-s
-'
-    
-'
 platform
 '
 :

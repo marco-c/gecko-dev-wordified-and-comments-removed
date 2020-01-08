@@ -3,20 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-lint
-%
-(
-branch
-)
-s
-'
-    
-'
 stage_platform
 '
 :

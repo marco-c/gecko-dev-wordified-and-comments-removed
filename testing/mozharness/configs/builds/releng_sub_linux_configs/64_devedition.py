@@ -11,21 +11,6 @@ devedition
 '
     
 '
-base_name
-'
-:
-'
-Linux_x86
--
-64_
-%
-(
-branch
-)
-_devedition
-'
-    
-'
 stage_platform
 '
 :

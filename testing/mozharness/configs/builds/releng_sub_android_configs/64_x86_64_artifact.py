@@ -3,27 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-5
-.
-0
-x86
--
-64
-%
-(
-branch
-)
-s
-Artifact
-build
-'
-    
-'
 stage_platform
 '
 :

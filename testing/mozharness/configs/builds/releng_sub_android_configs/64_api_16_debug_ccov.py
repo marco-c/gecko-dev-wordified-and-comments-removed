@@ -3,26 +3,6 @@ config
 {
     
 '
-base_name
-'
-:
-'
-Android
-armv7
-api
--
-16
-+
-%
-(
-branch
-)
-s
-debug
-coverage
-'
-    
-'
 stage_platform
 '
 :
