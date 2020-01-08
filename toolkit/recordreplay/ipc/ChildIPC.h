@@ -56,14 +56,6 @@ char
 aArgv
 )
 ;
-char
-*
-PrefsShmemContents
-(
-size_t
-aPrefsLen
-)
-;
 base
 :
 :

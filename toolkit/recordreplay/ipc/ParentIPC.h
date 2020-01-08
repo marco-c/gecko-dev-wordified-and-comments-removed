@@ -136,16 +136,6 @@ aParentPid
 )
 ;
 void
-NotePrefsShmemContents
-(
-char
-*
-aPrefs
-size_t
-aPrefsLen
-)
-;
-void
 OpenChannel
 (
 base
