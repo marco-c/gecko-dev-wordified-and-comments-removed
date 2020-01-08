@@ -675,7 +675,7 @@ CharT
 >
 static
 bool
-IsIdentifier
+IsIdentifierImpl
 (
 const
 CharT
@@ -887,7 +887,7 @@ js
 ;
 if
 (
-IsIdentifier
+IsIdentifierImpl
 (
 chars
 length
@@ -1020,7 +1020,7 @@ hasLatin1Chars
 return
 :
 :
-IsIdentifier
+IsIdentifierImpl
 (
 str
 -
@@ -1072,7 +1072,7 @@ length
 return
 :
 :
-IsIdentifier
+IsIdentifierImpl
 (
 chars
 length
@@ -1093,7 +1093,7 @@ length
 return
 :
 :
-IsIdentifier
+IsIdentifierImpl
 (
 chars
 length

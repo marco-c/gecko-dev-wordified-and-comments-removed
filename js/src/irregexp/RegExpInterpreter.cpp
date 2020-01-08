@@ -2712,6 +2712,9 @@ bytecode
 }
 }
 }
+#
+undef
+BYTECODE
 template
 RegExpRunStatus
 irregexp
