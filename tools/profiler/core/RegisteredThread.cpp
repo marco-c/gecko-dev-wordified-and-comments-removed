@@ -62,9 +62,9 @@ mJSSampling
 (
 INACTIVE
 )
-mJSTrackOptimizations
+mJSFlags
 (
-false
+0
 )
 {
 MOZ_COUNT_CTOR

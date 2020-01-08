@@ -447,10 +447,14 @@ text
 case
 TraceLogger_Internal
 :
+case
+TraceLogger_TreeItemEnd
+:
 return
 "
 TraceLogger
-overhead
+internal
+event
 "
 ;
 #
