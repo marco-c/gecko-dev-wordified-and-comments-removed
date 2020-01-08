@@ -49,7 +49,6 @@ dom
 {
 class
 ReportBody
-final
 :
 public
 nsISupports
@@ -71,6 +70,7 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
+virtual
 JSObject
 *
 WrapObject
@@ -101,8 +101,9 @@ return
 mWindow
 ;
 }
-private
+protected
 :
+virtual
 ~
 ReportBody
 (
