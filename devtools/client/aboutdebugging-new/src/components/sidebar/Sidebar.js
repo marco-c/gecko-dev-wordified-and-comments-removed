@@ -371,6 +371,13 @@ className
 :
 "
 sidebar__devices__message
+js
+-
+sidebar
+-
+usb
+-
+status
 "
 }
 localizationId
