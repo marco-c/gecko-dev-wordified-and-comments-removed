@@ -1,5 +1,7 @@
 import
 helpers
+import
+urllib
 def
 main
 (
@@ -47,6 +49,19 @@ request
 response
 )
     
+cookie
+=
+urllib
+.
+unquote
+(
+request
+.
+url_parts
+.
+query
+)
+    
 headers
 .
 append
@@ -57,11 +72,7 @@ Set
 -
 Cookie
 "
-request
-.
-url_parts
-.
-query
+cookie
 )
 )
     
