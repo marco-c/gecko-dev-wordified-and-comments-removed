@@ -1277,12 +1277,11 @@ element
 )
 ;
 bool
-Gecko_IsPrivateBrowsingEnabled
+Gecko_VisitedStylesEnabled
 (
 const
 nsIDocument
 *
-aDoc
 )
 ;
 bool

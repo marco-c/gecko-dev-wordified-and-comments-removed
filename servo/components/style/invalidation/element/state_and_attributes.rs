@@ -843,6 +843,16 @@ restyle
 "
 )
 ;
+debug_assert
+!
+(
+self
+.
+shared_context
+.
+visited_styles_enabled
+)
+;
 self
 .
 data
