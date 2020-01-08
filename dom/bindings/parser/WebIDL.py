@@ -11272,6 +11272,13 @@ identifier
 "
 Pref
 "
+or
+identifier
+=
+=
+"
+Func
+"
 :
                 
 if
