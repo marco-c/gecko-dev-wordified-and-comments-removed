@@ -326,9 +326,11 @@ if
 (
 isSafe
 )
+{
 return
 true
 ;
+}
 nsIGlobalObject
 *
 global
@@ -621,8 +623,10 @@ savedNextCPOWNumber_
 =
 nextCPOWNumber_
 )
+{
 return
 ;
+}
 savedNextCPOWNumber_
 =
 nextCPOWNumber_
@@ -640,6 +644,7 @@ active
 (
 )
 )
+{
 Unused
 <
 <
@@ -650,6 +655,7 @@ nextCPOWNumber_
 1
 )
 ;
+}
 }
 PJavaScriptParent
 *
@@ -744,6 +750,7 @@ ManagedPJavaScriptParent
 )
 )
 )
+{
 static_cast
 <
 JavaScriptParent
@@ -758,5 +765,6 @@ afterProcessTask
 (
 )
 ;
+}
 }
 }
