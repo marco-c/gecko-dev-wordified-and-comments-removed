@@ -323,10 +323,6 @@ Wl
 -
 syslibroot
 CROSS_SYSROOT
--
-Wl
--
-dead_strip
 "
 export
 BINDGEN_CFLAGS
