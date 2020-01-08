@@ -805,10 +805,11 @@ file_bug1415918_beforeunload_2
 html
 "
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 url
 )
 ;
@@ -1262,10 +1263,11 @@ file_bug1415918_beforeunload_3
 html
 "
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 url
 )
 ;

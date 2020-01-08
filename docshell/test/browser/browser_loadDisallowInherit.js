@@ -113,10 +113,11 @@ func
 }
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 url
 {
 flags
