@@ -17651,7 +17651,10 @@ nsIFrame
 *
 aContainerReferenceFrame
 const
+Maybe
+<
 ContainerLayerParameters
+>
 &
 aParameters
 const

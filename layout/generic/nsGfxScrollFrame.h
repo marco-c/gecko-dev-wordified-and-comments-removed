@@ -1787,7 +1787,10 @@ nsIFrame
 *
 aContainerReferenceFrame
 const
+Maybe
+<
 ContainerLayerParameters
+>
 &
 aParameters
 const
@@ -3831,7 +3834,10 @@ nsIFrame
 *
 aContainerReferenceFrame
 const
+Maybe
+<
 ContainerLayerParameters
+>
 &
 aParameters
 const
@@ -5988,7 +5994,10 @@ nsIFrame
 *
 aContainerReferenceFrame
 const
+Maybe
+<
 ContainerLayerParameters
+>
 &
 aParameters
 const
