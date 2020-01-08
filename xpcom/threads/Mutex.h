@@ -198,7 +198,7 @@ OffTheBooksMutex
 ;
 friend
 class
-OffTheBooksCondVar
+CondVar
 ;
 #
 ifdef
