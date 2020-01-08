@@ -10,6 +10,14 @@ import
 assert_dialog_handled
 assert_error
 assert_success
+from
+tests
+.
+support
+.
+helpers
+import
+document_hidden
 def
 minimize
 (
@@ -50,25 +58,6 @@ session
 )
 )
 )
-def
-is_minimized
-(
-session
-)
-:
-    
-return
-session
-.
-execute_script
-(
-"
-return
-document
-.
-hidden
-"
-)
 pytest
 .
 fixture
@@ -90,7 +79,7 @@ retval
         
 assert
 not
-is_minimized
+document_hidden
 (
 session
 )
@@ -127,7 +116,7 @@ retval
 )
         
 assert
-is_minimized
+document_hidden
 (
 session
 )
@@ -155,7 +144,7 @@ retval
         
 assert
 not
-is_minimized
+document_hidden
 (
 session
 )
@@ -198,7 +187,7 @@ retval
         
 assert
 not
-is_minimized
+document_hidden
 (
 session
 )
@@ -225,7 +214,7 @@ dialog_type
         
 assert
 not
-is_minimized
+document_hidden
 (
 session
 )
@@ -275,7 +264,7 @@ dismiss
         
 assert
 not
-is_minimized
+document_hidden
 (
 session
 )

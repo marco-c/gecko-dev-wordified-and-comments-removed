@@ -22,6 +22,7 @@ support
 .
 helpers
 import
+document_hidden
 is_fullscreen
 def
 set_window_rect
@@ -1191,19 +1192,10 @@ minimize
 )
     
 assert
-session
-.
-execute_script
+document_hidden
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
-is
-True
     
 response
 =
@@ -1254,19 +1246,11 @@ height
 450
     
 assert
-session
-.
-execute_script
+not
+document_hidden
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
-is
-False
 def
 test_restore_from_maximized
 (

@@ -14,6 +14,7 @@ support
 .
 helpers
 import
+document_hidden
 is_fullscreen
 def
 minimize
@@ -54,25 +55,6 @@ vars
 session
 )
 )
-)
-def
-is_minimized
-(
-session
-)
-:
-    
-return
-session
-.
-execute_script
-(
-"
-return
-document
-.
-hidden
-"
 )
 def
 test_no_browsing_context
@@ -139,7 +121,7 @@ session
 )
     
 assert
-is_minimized
+document_hidden
 (
 session
 )
@@ -152,7 +134,7 @@ session
     
 assert
 not
-is_minimized
+document_hidden
 (
 session
 )
@@ -170,7 +152,7 @@ response
 )
     
 assert
-is_minimized
+document_hidden
 (
 session
 )
@@ -183,7 +165,7 @@ session
     
 assert
 not
-is_minimized
+document_hidden
 (
 session
 )
@@ -297,7 +279,7 @@ int
 )
     
 assert
-is_minimized
+document_hidden
 (
 session
 )
@@ -310,7 +292,7 @@ session
     
 assert
 not
-is_minimized
+document_hidden
 (
 session
 )
@@ -328,7 +310,7 @@ first_response
 )
     
 assert
-is_minimized
+document_hidden
 (
 session
 )
@@ -346,7 +328,7 @@ second_response
 )
     
 assert
-is_minimized
+document_hidden
 (
 session
 )

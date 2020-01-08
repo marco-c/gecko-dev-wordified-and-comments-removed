@@ -14,6 +14,7 @@ support
 .
 helpers
 import
+document_hidden
 is_fullscreen
 def
 maximize
@@ -134,19 +135,10 @@ minimize
 )
     
 assert
-session
-.
-execute_script
+document_hidden
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
-is
-True
     
 response
 =
