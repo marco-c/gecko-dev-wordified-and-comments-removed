@@ -551,7 +551,7 @@ vixl
 Condition
 :
 :
-ge
+NonZero
 )
 ;
 }
