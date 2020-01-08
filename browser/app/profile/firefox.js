@@ -5426,16 +5426,6 @@ false
 pref
 (
 "
-plugins
-.
-remember_infobar_dismissal
-"
-true
-)
-;
-pref
-(
-"
 plugin
 .
 default
