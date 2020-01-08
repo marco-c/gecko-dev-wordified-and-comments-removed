@@ -4367,7 +4367,7 @@ sender
 "
 )
 {
-return
+throw
 Cr
 .
 NS_ERROR_FAILURE

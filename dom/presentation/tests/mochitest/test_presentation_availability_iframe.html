@@ -649,7 +649,7 @@ testConsecutiveGetAvailability
 )
 {
 let
-request
+presRequest
 =
 new
 PresentationRequest
@@ -676,7 +676,7 @@ Promise
 all
 (
 [
-request
+presRequest
 .
 getAvailability
 (
@@ -694,7 +694,7 @@ true
 ;
 }
 )
-request
+presRequest
 .
 getAvailability
 (
@@ -777,7 +777,7 @@ aReject
 )
 {
 let
-request
+presRequest
 =
 new
 PresentationRequest
@@ -793,7 +793,7 @@ com
 "
 )
 ;
-request
+presRequest
 .
 getAvailability
 (
