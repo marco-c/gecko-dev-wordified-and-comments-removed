@@ -18777,10 +18777,6 @@ nsICookieService
 :
 :
 BEHAVIOR_REJECT
-&
-&
-!
-aFirstPartyStorageAccessGranted
 )
 {
 COOKIE_LOGFAILURE
@@ -18869,12 +18865,10 @@ nsICookieService
 :
 :
 BEHAVIOR_LIMIT_FOREIGN
-&
-&
-!
-aFirstPartyStorageAccessGranted
-&
-&
+)
+{
+if
+(
 aNumOfCookies
 =
 =
@@ -18909,6 +18903,7 @@ STATE_COOKIES_BLOCKED_FOREIGN
 return
 STATUS_REJECTED
 ;
+}
 }
 MOZ_ASSERT
 (
