@@ -117,6 +117,14 @@ self
 )
 :
         
+if
+server
+.
+is_shuttingdown
+:
+            
+return
+        
 while
 True
 :
@@ -160,6 +168,12 @@ thread
 exit
 (
 )
+                
+server
+.
+is_shuttingdown
+=
+True
                 
 self
 .
@@ -242,6 +256,48 @@ tdevice
 )
                 
 break
+class
+ADBServer
+(
+SocketServer
+.
+TCPServer
+)
+:
+    
+def
+__init__
+(
+self
+server_address
+)
+:
+        
+SocketServer
+.
+TCPServer
+.
+__init__
+(
+self
+\
+                                        
+server_address
+\
+                                        
+ADBRequestHandler
+\
+                                        
+bind_and_activate
+=
+False
+)
+        
+self
+.
+is_shuttingdown
+=
+False
 if
 len
 (
@@ -312,16 +368,12 @@ exit
         
 server
 =
-SocketServer
-.
-TCPServer
+ADBServer
 (
 (
 HOST
 PORT
 )
-ADBRequestHandler
-False
 )
         
 server
