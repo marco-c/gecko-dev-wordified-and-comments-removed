@@ -252,12 +252,13 @@ name
 knownTab
 )
 ;
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 realUrl
 )
 ;
