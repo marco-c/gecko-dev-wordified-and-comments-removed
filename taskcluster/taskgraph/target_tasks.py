@@ -357,6 +357,16 @@ reporter
 nightly
 '
             
+'
+win64
+-
+asan
+-
+reporter
+-
+nightly
+'
+            
 )
 :
         
@@ -3876,6 +3886,15 @@ make_nightly_filter
 {
 '
 linux64
+-
+asan
+-
+reporter
+-
+nightly
+'
+'
+win64
 -
 asan
 -
