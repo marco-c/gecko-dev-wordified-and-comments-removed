@@ -279,12 +279,8 @@ EXEC
 )
 sh
 (
-MOZILLA_DIR
+BUILD_TOOLS
 )
-/
-build
-/
-unix
 /
 print
 -
@@ -929,6 +925,12 @@ endif
 #
 !
 GNU_CC
+EXTRA_DEPS
++
+=
+(
+DEFFILE
+)
 endif
 #
 WINNT
@@ -3606,6 +3608,9 @@ PROGOBJS
 STATIC_LIBS
 )
 (
+RUST_STATIC_LIB
+)
+(
 EXTRA_DEPS
 )
 (
@@ -3694,6 +3699,9 @@ RESFILE
 STATIC_LIBS
 )
 (
+RUST_STATIC_LIB
+)
+(
 SHARED_LIBS
 )
 (
@@ -3734,7 +3742,7 @@ Embedding
 manifest
 from
 (
-srcdir_rel
+srcdir
 )
 /
 (
@@ -3757,7 +3765,7 @@ NOLOGO
 MANIFEST
 '
 (
-srcdir_rel
+win_srcdir
 )
 /
 (
@@ -3832,7 +3840,7 @@ Embedding
 manifest
 from
 (
-srcdir_rel
+srcdir
 )
 /
 (
@@ -3852,7 +3860,7 @@ NOLOGO
 MANIFEST
 '
 (
-srcdir_rel
+win_srcdir
 )
 /
 (
@@ -3966,6 +3974,9 @@ LDFLAGS
 )
 (
 STATIC_LIBS
+)
+(
+RUST_STATIC_LIB
 )
 (
 MOZ_PROGRAM_LDFLAGS
@@ -4113,7 +4124,7 @@ Embedding
 manifest
 from
 (
-srcdir_rel
+srcdir
 )
 /
 (
@@ -4136,7 +4147,7 @@ NOLOGO
 MANIFEST
 '
 (
-srcdir_rel
+win_srcdir
 )
 /
 (
@@ -4211,7 +4222,7 @@ Embedding
 manifest
 from
 (
-srcdir_rel
+srcdir
 )
 /
 (
@@ -4231,7 +4242,7 @@ NOLOGO
 MANIFEST
 '
 (
-srcdir_rel
+win_srcdir
 )
 /
 (
@@ -4519,7 +4530,7 @@ NOLOGO
 MANIFEST
 '
 (
-srcdir_rel
+win_srcdir
 )
 /
 (
@@ -5034,7 +5045,7 @@ OBJS
 RESFILE
 )
 (
-RUST_STATIC_LIB_FOR_SHARED_LIB
+RUST_STATIC_LIB
 )
 (
 STATIC_LIBS
@@ -5073,7 +5084,7 @@ LDFLAGS
 STATIC_LIBS
 )
 (
-RUST_STATIC_LIB_FOR_SHARED_LIB
+RUST_STATIC_LIB
 )
 (
 SHARED_LIBS
@@ -5140,7 +5151,7 @@ Embedding
 manifest
 from
 (
-srcdir_rel
+srcdir
 )
 /
 .
@@ -5160,7 +5171,7 @@ NOLOGO
 MANIFEST
 '
 (
-srcdir_rel
+win_srcdir
 )
 /
 .
@@ -5233,7 +5244,7 @@ Embedding
 manifest
 from
 (
-srcdir_rel
+srcdir
 )
 /
 .
@@ -5250,7 +5261,7 @@ NOLOGO
 MANIFEST
 '
 (
-srcdir_rel
+win_srcdir
 )
 /
 .

@@ -10289,7 +10289,10 @@ if
 isinstance
 (
 obj
+(
 SharedLibrary
+Program
+)
 )
 :
             
@@ -10326,7 +10329,10 @@ assert
 isinstance
 (
 obj
+(
 SharedLibrary
+Program
+)
 )
         
 direct_linked
@@ -10375,7 +10381,7 @@ backend_file
 write
 (
 '
-RUST_STATIC_LIB_FOR_SHARED_LIB
+RUST_STATIC_LIB
 :
 =
 %
@@ -12254,21 +12260,6 @@ srcdir
 :
 =
 srcdir
-\
-n
-'
-)
-            
-pp
-.
-handleLine
-(
-b
-'
-srcdir_rel
-:
-=
-srcdir_rel
 \
 n
 '
