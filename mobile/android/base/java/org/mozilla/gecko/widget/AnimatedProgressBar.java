@@ -1360,7 +1360,8 @@ interpolator
 =
 (
 itplId
->
+!
+=
 0
 )
 ?
