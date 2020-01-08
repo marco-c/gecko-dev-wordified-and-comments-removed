@@ -252,6 +252,7 @@ next
 (
 )
 )
+{
 (
 *
 cellCallback
@@ -273,6 +274,7 @@ traceKind
 thingSize
 )
 ;
+}
 }
 }
 }
@@ -488,6 +490,7 @@ next
 (
 )
 )
+{
 chunkCallback
 (
 cx
@@ -500,6 +503,7 @@ data
 chunk
 )
 ;
+}
 }
 static
 void
@@ -592,8 +596,10 @@ isInterpretedLazy
 (
 )
 )
+{
 return
 ;
+}
 LazyScript
 *
 lazyScript
@@ -701,8 +707,10 @@ enclosingScriptHasEverBeenCompiled
 (
 )
 )
+{
 return
 ;
+}
 lazyScriptCallback
 (
 cx
@@ -760,8 +768,10 @@ isUncompleted
 (
 )
 )
+{
 return
 ;
+}
 scriptCallback
 (
 cx
@@ -885,6 +895,7 @@ realm
 =
 realm
 )
+{
 DoScriptCallback
 (
 cx
@@ -894,6 +905,7 @@ scriptCallback
 nogc
 )
 ;
+}
 }
 }
 else
@@ -955,6 +967,7 @@ next
 (
 )
 )
+{
 DoScriptCallback
 (
 cx
@@ -964,6 +977,7 @@ scriptCallback
 nogc
 )
 ;
+}
 }
 }
 }
@@ -1089,6 +1103,7 @@ isMarkedGray
 (
 )
 )
+{
 cellCallback
 (
 data
@@ -1105,6 +1120,7 @@ get
 )
 )
 ;
+}
 }
 }
 }
@@ -1274,6 +1290,7 @@ next
 (
 )
 )
+{
 (
 *
 compartmentCallback
@@ -1284,6 +1301,7 @@ data
 c
 )
 ;
+}
 }
 JS_PUBLIC_API
 (

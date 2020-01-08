@@ -846,9 +846,11 @@ gc
 :
 ChunkSize
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -1296,6 +1298,7 @@ popFront
 (
 )
 )
+{
 total
 +
 =
@@ -1308,6 +1311,7 @@ front
 )
 )
 ;
+}
 total
 +
 =

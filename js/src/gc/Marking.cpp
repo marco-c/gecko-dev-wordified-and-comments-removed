@@ -446,9 +446,11 @@ p
 =
 0
 )
+{
 return
 false
 ;
+}
 for
 (
 int
@@ -509,9 +511,11 @@ p
 =
 pw
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -765,8 +769,10 @@ checkEdges
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 IsForwarded
@@ -774,6 +780,7 @@ IsForwarded
 thing
 )
 )
+{
 thing
 =
 Forwarded
@@ -781,6 +788,7 @@ Forwarded
 thing
 )
 ;
+}
 if
 (
 IsInsideNursery
@@ -788,8 +796,10 @@ IsInsideNursery
 thing
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT_IF
 (
 !
@@ -826,8 +836,10 @@ runtime
 thing
 )
 )
+{
 return
 ;
+}
 Zone
 *
 zone
@@ -1306,9 +1318,11 @@ isMarkingTracer
 (
 )
 )
+{
 return
 true
 ;
+}
 MarkColor
 color
 =
@@ -1399,9 +1413,11 @@ isGCMarking
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 color
@@ -1487,11 +1503,13 @@ isMarkedAny
 (
 )
 )
+{
 DelayCrossCompartmentGrayMarking
 (
 src
 )
 ;
+}
 return
 false
 ;
@@ -2180,6 +2198,7 @@ src
 dst
 )
 )
+{
 TraceEdgeInternal
 (
 trc
@@ -2187,6 +2206,7 @@ dst
 name
 )
 ;
+}
 }
 template
 void
@@ -2295,6 +2315,7 @@ get
 )
 )
 )
+{
 TraceEdgeInternal
 (
 trc
@@ -2307,6 +2328,7 @@ unsafeUnbarrieredForTracing
 name
 )
 ;
+}
 }
 template
 <
@@ -2364,6 +2386,7 @@ isMarkingTracer
 (
 )
 )
+{
 thing
 -
 >
@@ -2382,7 +2405,9 @@ MarkColor
 Black
 )
 ;
+}
 else
+{
 DoCallback
 (
 trc
@@ -2399,6 +2424,7 @@ thing
 name
 )
 ;
+}
 }
 template
 void
@@ -2518,8 +2544,10 @@ if
 *
 thingp
 )
+{
 return
 ;
+}
 TraceRootFunctor
 f
 ;
@@ -2615,8 +2643,10 @@ if
 *
 thingp
 )
+{
 return
 ;
+}
 TraceManuallyBarrieredEdgeFunctor
 f
 ;
@@ -2761,6 +2791,7 @@ isMarkingTracer
 (
 )
 )
+{
 return
 DoMarking
 (
@@ -2775,6 +2806,7 @@ trc
 thingp
 )
 ;
+}
 if
 (
 trc
@@ -2784,6 +2816,7 @@ isTenuringTracer
 (
 )
 )
+{
 return
 static_cast
 <
@@ -2800,6 +2833,7 @@ traverse
 thingp
 )
 ;
+}
 MOZ_ASSERT
 (
 trc
@@ -2869,6 +2903,7 @@ traceWeakEdges
 (
 )
 )
+{
 TraceEdgeInternal
 (
 trc
@@ -2876,6 +2911,7 @@ thingp
 name
 )
 ;
+}
 return
 ;
 }
@@ -2956,6 +2992,7 @@ i
 ]
 )
 )
+{
 TraceEdgeInternal
 (
 trc
@@ -2967,6 +3004,7 @@ i
 name
 )
 ;
+}
 +
 +
 index
@@ -3069,6 +3107,7 @@ i
 +
 +
 )
+{
 values
 [
 i
@@ -3089,6 +3128,7 @@ i
 key
 )
 ;
+}
 MOZ_ASSERT
 (
 values
@@ -3124,8 +3164,10 @@ isWeakMarkingTracer
 (
 )
 )
+{
 return
 ;
+}
 Zone
 *
 zone
@@ -3193,8 +3235,10 @@ if
 !
 p
 )
+{
 return
 ;
+}
 WeakEntryVector
 &
 markables
@@ -3294,9 +3338,11 @@ runtime
 thing
 )
 )
+{
 return
 false
 ;
+}
 return
 thing
 -
@@ -3342,9 +3388,11 @@ runtime
 obj
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 IsInsideNursery
@@ -3352,9 +3400,11 @@ IsInsideNursery
 obj
 )
 )
+{
 return
 false
 ;
+}
 return
 obj
 -
@@ -3404,9 +3454,11 @@ runtime
 str
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 IsInsideNursery
@@ -3414,9 +3466,11 @@ IsInsideNursery
 str
 )
 )
+{
 return
 false
 ;
+}
 return
 str
 -
@@ -3460,8 +3514,10 @@ gcmarker
 thing
 )
 )
+{
 return
 ;
+}
 CheckTracedThing
 (
 gcmarker
@@ -3580,8 +3636,10 @@ gcmarker
 thingp
 )
 )
+{
 return
 ;
+}
 CheckTracedThing
 (
 gcmarker
@@ -3602,8 +3660,10 @@ runtime
 thingp
 )
 )
+{
 return
 ;
+}
 gcmarker
 -
 >
@@ -3759,6 +3819,7 @@ edge
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -3776,6 +3837,7 @@ sweeping
 "
 )
 ;
+}
 }
 template
 <
@@ -3803,8 +3865,10 @@ ThingIsPermanentAtomOrWellKnownSymbol
 thing
 )
 )
+{
 return
 ;
+}
 if
 (
 mark
@@ -3812,6 +3876,7 @@ mark
 thing
 )
 )
+{
 thing
 -
 >
@@ -3820,6 +3885,7 @@ traceChildren
 this
 )
 ;
+}
 }
 namespace
 js
@@ -3942,8 +4008,10 @@ ThingIsPermanentAtomOrWellKnownSymbol
 thing
 )
 )
+{
 return
 ;
+}
 if
 (
 mark
@@ -3951,11 +4019,13 @@ mark
 thing
 )
 )
+{
 eagerlyMarkChildren
 (
 thing
 )
 ;
+}
 }
 namespace
 js
@@ -4071,8 +4141,10 @@ mark
 thing
 )
 )
+{
 return
 ;
+}
 pushTaggedPtr
 (
 thing
@@ -4644,9 +4716,11 @@ IsInsideNursery
 thing
 )
 )
+{
 return
 false
 ;
+}
 AssertShouldMarkInZone
 (
 thing
@@ -4675,6 +4749,7 @@ T
 :
 value
 )
+{
 return
 cell
 -
@@ -4687,6 +4762,7 @@ MarkColor
 Black
 )
 ;
+}
 return
 cell
 -
@@ -4714,6 +4790,7 @@ if
 (
 script_
 )
+{
 TraceWeakEdge
 (
 trc
@@ -4724,10 +4801,12 @@ script
 "
 )
 ;
+}
 if
 (
 function_
 )
+{
 TraceEdge
 (
 trc
@@ -4738,10 +4817,12 @@ function
 "
 )
 ;
+}
 if
 (
 sourceObject_
 )
+{
 TraceEdge
 (
 trc
@@ -4752,6 +4833,7 @@ sourceObject
 "
 )
 ;
+}
 if
 (
 enclosingLazyScriptOrScope_
@@ -4813,6 +4895,7 @@ closedOverBindings
 i
 ]
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -4826,6 +4909,7 @@ closedOverBinding
 "
 )
 ;
+}
 }
 GCPtrFunction
 *
@@ -4850,6 +4934,7 @@ numInnerFunctions
 )
 )
 )
+{
 TraceEdge
 (
 trc
@@ -4863,6 +4948,7 @@ lazyScriptInnerFunction
 "
 )
 ;
+}
 }
 inline
 void
@@ -4886,6 +4972,7 @@ thing
 >
 script_
 )
+{
 noteWeakEdge
 (
 thing
@@ -4898,6 +4985,7 @@ unsafeUnbarrieredForTracing
 )
 )
 ;
+}
 if
 (
 thing
@@ -4905,6 +4993,7 @@ thing
 >
 function_
 )
+{
 traverseEdge
 (
 thing
@@ -4921,6 +5010,7 @@ function_
 )
 )
 ;
+}
 if
 (
 thing
@@ -4928,6 +5018,7 @@ thing
 >
 sourceObject_
 )
+{
 traverseEdge
 (
 thing
@@ -4944,6 +5035,7 @@ sourceObject_
 )
 )
 ;
+}
 if
 (
 thing
@@ -5014,6 +5106,7 @@ closedOverBindings
 i
 ]
 )
+{
 traverseEdge
 (
 thing
@@ -5030,6 +5123,7 @@ i
 )
 )
 ;
+}
 }
 GCPtrFunction
 *
@@ -5057,6 +5151,7 @@ numInnerFunctions
 )
 )
 )
+{
 traverseEdge
 (
 thing
@@ -5073,6 +5168,7 @@ i
 )
 )
 ;
+}
 }
 void
 Shape
@@ -5111,6 +5207,7 @@ if
 (
 parent
 )
+{
 TraceEdge
 (
 trc
@@ -5121,12 +5218,14 @@ parent
 "
 )
 ;
+}
 if
 (
 hasGetterObject
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -5141,12 +5240,14 @@ getter
 "
 )
 ;
+}
 if
 (
 hasSetterObject
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -5161,6 +5262,7 @@ setter
 "
 )
 ;
+}
 }
 inline
 void
@@ -5299,6 +5401,7 @@ isTenured
 (
 )
 )
+{
 traverseEdge
 (
 shape
@@ -5310,6 +5413,7 @@ getterObject
 )
 )
 ;
+}
 if
 (
 shape
@@ -5332,6 +5436,7 @@ isTenured
 (
 )
 )
+{
 traverseEdge
 (
 shape
@@ -5343,6 +5448,7 @@ setterObject
 )
 )
 ;
+}
 shape
 =
 shape
@@ -5382,11 +5488,13 @@ hasBase
 (
 )
 )
+{
 traceBase
 (
 trc
 )
 ;
+}
 else
 if
 (
@@ -5394,6 +5502,7 @@ isRope
 (
 )
 )
+{
 asRope
 (
 )
@@ -5403,6 +5512,7 @@ traceChildren
 trc
 )
 ;
+}
 }
 inline
 void
@@ -5425,6 +5535,7 @@ isLinear
 (
 )
 )
+{
 eagerlyMarkChildren
 (
 &
@@ -5436,7 +5547,9 @@ asLinear
 )
 )
 ;
+}
 else
+{
 eagerlyMarkChildren
 (
 &
@@ -5448,6 +5561,7 @@ asRope
 )
 )
 ;
+}
 }
 void
 JSString
@@ -5568,8 +5682,10 @@ isPermanentAtom
 (
 )
 )
+{
 break
 ;
+}
 AssertShouldMarkInZone
 (
 linearStr
@@ -5590,8 +5706,10 @@ linearStr
 )
 )
 )
+{
 break
 ;
+}
 }
 }
 void
@@ -5777,6 +5895,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 history
@@ -5794,6 +5913,7 @@ rope
 "
 )
 ;
+}
 }
 history
 [
@@ -5897,6 +6017,7 @@ isLinear
 (
 )
 )
+{
 eagerlyMarkChildren
 (
 &
@@ -5908,7 +6029,9 @@ asLinear
 )
 )
 ;
+}
 else
+{
 next
 =
 &
@@ -5919,6 +6042,7 @@ asRope
 (
 )
 ;
+}
 }
 JSString
 *
@@ -5985,11 +6109,13 @@ pushTempRope
 next
 )
 )
+{
 delayMarkingChildren
 (
 next
 )
 ;
+}
 next
 =
 &
@@ -6177,6 +6303,7 @@ name
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -6188,6 +6315,7 @@ name
 "
 )
 ;
+}
 }
 }
 ;
@@ -6212,6 +6340,7 @@ name
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -6223,6 +6352,7 @@ name
 "
 )
 ;
+}
 }
 void
 BindingIter
@@ -6790,6 +6920,7 @@ scope
 >
 enclosing_
 )
+{
 traverseEdge
 (
 scope
@@ -6803,6 +6934,7 @@ get
 )
 )
 ;
+}
 if
 (
 scope
@@ -6810,6 +6942,7 @@ scope
 >
 environmentShape_
 )
+{
 traverseEdge
 (
 scope
@@ -6823,6 +6956,7 @@ get
 )
 )
 ;
+}
 TrailingNamesArray
 *
 names
@@ -7319,12 +7453,14 @@ name
 (
 )
 )
+{
 traverseStringEdge
 (
 scope
 name
 )
 ;
+}
 }
 }
 else
@@ -7344,6 +7480,7 @@ i
 +
 +
 )
+{
 traverseStringEdge
 (
 scope
@@ -7360,6 +7497,7 @@ name
 )
 )
 ;
+}
 }
 }
 void
@@ -7432,6 +7570,7 @@ sweep
 i
 )
 )
+{
 TraceEdge
 (
 trc
@@ -7447,6 +7586,7 @@ group_property
 ;
 }
 }
+}
 if
 (
 proto
@@ -7457,6 +7597,7 @@ isObject
 (
 )
 )
+{
 TraceEdge
 (
 trc
@@ -7469,6 +7610,7 @@ group_proto
 "
 )
 ;
+}
 if
 (
 trc
@@ -7478,6 +7620,7 @@ isMarkingTracer
 (
 )
 )
+{
 realm
 (
 )
@@ -7487,6 +7630,7 @@ mark
 (
 )
 ;
+}
 if
 (
 JSObject
@@ -7502,6 +7646,7 @@ unsafeUnbarrieredMaybeGlobal
 (
 )
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -7512,6 +7657,7 @@ group_global
 "
 )
 ;
+}
 if
 (
 newScript
@@ -7519,6 +7665,7 @@ newScript
 sweep
 )
 )
+{
 newScript
 (
 sweep
@@ -7530,6 +7677,7 @@ trace
 trc
 )
 ;
+}
 if
 (
 maybePreliminaryObjects
@@ -7537,6 +7685,7 @@ maybePreliminaryObjects
 sweep
 )
 )
+{
 maybePreliminaryObjects
 (
 sweep
@@ -7548,6 +7697,7 @@ trace
 trc
 )
 ;
+}
 if
 (
 maybeUnboxedLayout
@@ -7555,6 +7705,7 @@ maybeUnboxedLayout
 sweep
 )
 )
+{
 unboxedLayout
 (
 sweep
@@ -7565,6 +7716,7 @@ trace
 trc
 )
 ;
+}
 if
 (
 ObjectGroup
@@ -7730,6 +7882,7 @@ sweep
 i
 )
 )
+{
 traverseEdge
 (
 group
@@ -7744,6 +7897,7 @@ get
 )
 ;
 }
+}
 if
 (
 group
@@ -7757,6 +7911,7 @@ isObject
 (
 )
 )
+{
 traverseEdge
 (
 group
@@ -7772,6 +7927,7 @@ toObject
 )
 )
 ;
+}
 group
 -
 >
@@ -7802,6 +7958,7 @@ unsafeUnbarrieredMaybeGlobal
 (
 )
 )
+{
 traverseEdge
 (
 group
@@ -7815,6 +7972,7 @@ global
 )
 )
 ;
+}
 if
 (
 group
@@ -7825,6 +7983,7 @@ newScript
 sweep
 )
 )
+{
 group
 -
 >
@@ -7839,6 +7998,7 @@ trace
 this
 )
 ;
+}
 if
 (
 group
@@ -7849,6 +8009,7 @@ maybePreliminaryObjects
 sweep
 )
 )
+{
 group
 -
 >
@@ -7863,6 +8024,7 @@ trace
 this
 )
 ;
+}
 if
 (
 group
@@ -7873,6 +8035,7 @@ maybeUnboxedLayout
 sweep
 )
 )
+{
 group
 -
 >
@@ -7886,6 +8049,7 @@ trace
 this
 )
 ;
+}
 if
 (
 ObjectGroup
@@ -7899,12 +8063,14 @@ maybeOriginalUnboxedGroup
 (
 )
 )
+{
 traverseEdge
 (
 group
 unboxedGroup
 )
 ;
+}
 if
 (
 TypeDescr
@@ -7918,6 +8084,7 @@ maybeTypeDescr
 (
 )
 )
+{
 traverseEdge
 (
 group
@@ -7931,6 +8098,7 @@ descr
 )
 )
 ;
+}
 if
 (
 JSFunction
@@ -7944,6 +8112,7 @@ maybeInterpretedFunction
 (
 )
 )
+{
 traverseEdge
 (
 group
@@ -7957,6 +8126,7 @@ fun
 )
 )
 ;
+}
 }
 #
 ifdef
@@ -8105,6 +8275,7 @@ hasTrace
 (
 )
 )
+{
 return
 &
 obj
@@ -8117,6 +8288,7 @@ NativeObject
 (
 )
 ;
+}
 if
 (
 clasp
@@ -8268,6 +8440,7 @@ if
 *
 pexpando
 )
+{
 f
 (
 pexpando
@@ -8286,6 +8459,7 @@ args
 .
 )
 ;
+}
 UnboxedPlainObject
 &
 unboxed
@@ -8386,9 +8560,11 @@ isNative
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 &
 obj
@@ -8515,6 +8691,7 @@ if
 *
 objp
 )
+{
 f
 (
 objp
@@ -8533,6 +8710,7 @@ args
 .
 )
 ;
+}
 traceList
 +
 +
@@ -8639,9 +8817,11 @@ isOverBudget
 (
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 ;
@@ -8688,8 +8868,10 @@ hasDelayedChildren
 (
 )
 )
+{
 break
 ;
+}
 if
 (
 !
@@ -8747,9 +8929,11 @@ isSingleton
 (
 )
 )
+{
 return
 true
 ;
+}
 ObjectGroup
 *
 group
@@ -8778,9 +8962,11 @@ unknownPropertiesDontCheckGeneration
 (
 )
 )
+{
 return
 true
 ;
+}
 HeapTypeSet
 *
 typeSet
@@ -8798,9 +8984,11 @@ if
 !
 typeSet
 )
+{
 return
 true
 ;
+}
 static
 const
 uint32_t
@@ -8883,6 +9071,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 !
@@ -8896,6 +9085,7 @@ isGCThing
 )
 )
 ;
+}
 }
 #
 endif
@@ -9236,6 +9426,7 @@ vp
 end
 )
 )
+{
 pushValueArray
 (
 obj
@@ -9243,12 +9434,15 @@ vp
 end
 )
 ;
+}
 else
+{
 repush
 (
 obj
 )
 ;
+}
 return
 ;
 }
@@ -9613,8 +9807,10 @@ if
 !
 nobj
 )
+{
 return
 ;
+}
 Shape
 *
 shape
@@ -9653,8 +9849,10 @@ hasEmptyElements
 (
 )
 )
+{
 break
 ;
+}
 if
 (
 nobj
@@ -9707,8 +9905,10 @@ ObjectDenseElementsMayBeMarkable
 nobj
 )
 )
+{
 break
 ;
+}
 vp
 =
 nobj
@@ -9734,9 +9934,11 @@ if
 !
 nslots
 )
+{
 goto
 scan_value_array
 ;
+}
 pushValueArray
 (
 nobj
@@ -9997,9 +10199,11 @@ isNative
 (
 )
 )
+{
 return
 false
 ;
+}
 auto
 array
 =
@@ -11586,10 +11790,12 @@ capacity
 >
 maxCapacity_
 )
+{
 capacity
 =
 maxCapacity_
 ;
+}
 return
 resize
 (
@@ -11693,9 +11899,11 @@ ensureSpace
 1
 )
 )
+{
 return
 false
 ;
+}
 *
 topPtr
 (
@@ -11824,9 +12032,11 @@ ensureSpace
 ValueArrayWords
 )
 )
+{
 return
 false
 ;
+}
 *
 reinterpret_cast
 <
@@ -11899,9 +12109,11 @@ ensureSpace
 ValueArrayWords
 )
 )
+{
 return
 false
 ;
+}
 *
 reinterpret_cast
 <
@@ -12198,6 +12410,7 @@ capacity
 (
 )
 )
+{
 return
 !
 js
@@ -12210,6 +12423,7 @@ ShouldFailWithOOM
 (
 )
 ;
+}
 return
 enlarge
 (
@@ -12254,9 +12468,11 @@ capacity
 +
 count
 )
+{
 return
 false
 ;
+}
 return
 resize
 (
@@ -12294,9 +12510,11 @@ resize
 newCapacity
 )
 )
+{
 return
 false
 ;
+}
 poisonUnused
 (
 )
@@ -12681,15 +12899,19 @@ peekTag
 )
 )
 )
+{
 nextArray
 (
 )
 ;
+}
 else
+{
 nextPtr
 (
 )
 ;
+}
 }
 inline
 void
@@ -13050,6 +13272,7 @@ clear
 (
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -13068,6 +13291,7 @@ stop
 "
 )
 ;
+}
 }
 }
 void
@@ -13200,11 +13424,13 @@ push
 ptr
 )
 )
+{
 delayMarkingChildren
 (
 ptr
 )
 ;
+}
 }
 void
 GCMarker
@@ -13235,8 +13461,10 @@ start
 =
 end
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -13249,11 +13477,13 @@ start
 end
 )
 )
+{
 delayMarkingChildren
 (
 obj
 )
 ;
+}
 }
 void
 GCMarker
@@ -13351,8 +13581,10 @@ if
 (
 linearWeakMarkingDisabled_
 )
+{
 return
 ;
+}
 if
 (
 weakMapAction
@@ -13415,6 +13647,7 @@ m
 >
 marked
 )
+{
 (
 void
 )
@@ -13426,6 +13659,7 @@ markIteratively
 this
 )
 ;
+}
 }
 }
 }
@@ -13507,6 +13741,7 @@ clear
 (
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -13525,6 +13760,7 @@ leaveWeakMarkingMode
 "
 )
 ;
+}
 }
 }
 void
@@ -13648,6 +13884,7 @@ isMarkedBlack
 )
 )
 )
+{
 js
 :
 :
@@ -13658,6 +13895,7 @@ t
 kind
 )
 ;
+}
 }
 }
 bool
@@ -13784,9 +14022,11 @@ isOverBudget
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 while
 (
@@ -13841,6 +14081,7 @@ next
 (
 )
 )
+{
 gcmarker
 -
 >
@@ -13856,6 +14097,7 @@ T
 )
 )
 ;
+}
 }
 struct
 PushArenaFunctor
@@ -14034,6 +14276,7 @@ next
 (
 )
 )
+{
 size
 +
 =
@@ -14049,6 +14292,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+}
 return
 size
 ;
@@ -14131,8 +14375,10 @@ MarkStack
 :
 ObjectTag
 )
+{
 continue
 ;
+}
 auto
 source
 =
@@ -14167,8 +14413,10 @@ sourceZone
 =
 targetZone
 )
+{
 continue
 ;
+}
 if
 (
 source
@@ -14237,9 +14485,11 @@ toObject
 =
 target
 )
+{
 return
 sourceZone
 ;
+}
 }
 if
 (
@@ -14252,9 +14502,11 @@ source
 target
 )
 )
+{
 return
 sourceZone
 ;
+}
 }
 return
 nullptr
@@ -14345,8 +14597,10 @@ getForwardedPointer
 cellp
 )
 )
+{
 return
 ;
+}
 JSObject
 *
 obj
@@ -14458,6 +14712,7 @@ getForwardedPointer
 cellp
 )
 )
+{
 *
 strp
 =
@@ -14467,6 +14722,7 @@ moveToTenured
 strp
 )
 ;
+}
 }
 template
 <
@@ -14620,6 +14876,7 @@ if
 (
 last_
 )
+{
 last_
 .
 trace
@@ -14627,6 +14884,7 @@ trace
 mover
 )
 ;
+}
 for
 (
 typename
@@ -14655,6 +14913,7 @@ popFront
 (
 )
 )
+{
 r
 .
 front
@@ -14666,6 +14925,7 @@ trace
 mover
 )
 ;
+}
 }
 namespace
 js
@@ -14788,8 +15048,10 @@ isNative
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 IsInsideNursery
@@ -14797,8 +15059,10 @@ IsInsideNursery
 obj
 )
 )
+{
 return
 ;
+}
 if
 (
 kind
@@ -15030,6 +15294,7 @@ maybeExpando
 (
 )
 )
+{
 expando
 -
 >
@@ -15039,6 +15304,7 @@ traceChildren
 mover
 )
 ;
+}
 }
 }
 static
@@ -15421,8 +15687,10 @@ if
 *
 edge
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 IsCellPointerValid
@@ -15485,8 +15753,10 @@ IsInsideNursery
 edge
 )
 )
+{
 return
 ;
+}
 if
 (
 (
@@ -15499,6 +15769,7 @@ nurseryCellIsString
 (
 )
 )
+{
 mover
 .
 traverse
@@ -15514,7 +15785,9 @@ edge
 )
 )
 ;
+}
 else
+{
 mover
 .
 traverse
@@ -15530,6 +15803,7 @@ edge
 )
 )
 ;
+}
 }
 void
 js
@@ -15558,6 +15832,7 @@ deref
 (
 )
 )
+{
 mover
 .
 traverse
@@ -15565,6 +15840,7 @@ traverse
 edge
 )
 ;
+}
 }
 struct
 TenuringFunctor
@@ -15635,8 +15911,10 @@ if
 !
 nobj
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -15768,6 +16046,7 @@ if
 (
 fixedStart
 )
+{
 traceSlots
 (
 fixedStart
@@ -15784,10 +16063,12 @@ unsafeUnbarrieredForTracing
 )
 )
 ;
+}
 if
 (
 dynStart
 )
+{
 traceSlots
 (
 dynStart
@@ -15804,6 +16085,7 @@ unsafeUnbarrieredForTracing
 )
 )
 ;
+}
 }
 void
 js
@@ -15834,11 +16116,13 @@ end
 +
 vp
 )
+{
 traverse
 (
 vp
 )
 ;
+}
 }
 inline
 void
@@ -16614,9 +16898,11 @@ hasDynamicSlots
 (
 )
 )
+{
 return
 0
 ;
+}
 if
 (
 !
@@ -16698,6 +16984,7 @@ dst
 >
 slots_
 )
+{
 oomUnsafe
 .
 crash
@@ -16719,6 +17006,7 @@ tenuring
 "
 )
 ;
+}
 }
 PodCopy
 (
@@ -16795,9 +17083,11 @@ denseElementsAreCopyOnWrite
 (
 )
 )
+{
 return
 0
 ;
+}
 void
 *
 srcAllocatedHeader
@@ -17417,6 +17707,7 @@ next
 (
 )
 )
+{
 mover
 .
 traceString
@@ -17436,6 +17727,7 @@ forwardingAddress
 )
 )
 ;
+}
 }
 size_t
 js
@@ -17798,9 +18090,11 @@ isGCFinished
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 zone
@@ -17911,9 +18205,11 @@ rt
 thingp
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 MightBeNurseryAllocated
@@ -18200,9 +18496,11 @@ runtime
 =
 rt
 )
+{
 return
 false
 ;
+}
 if
 (
 IsInsideNursery
@@ -18850,8 +19148,10 @@ isMarkedGray
 (
 )
 )
+{
 return
 ;
+}
 tenured
 .
 markBlack
@@ -18872,10 +19172,12 @@ append
 thing
 )
 )
+{
 oom
 =
 true
 ;
+}
 }
 void
 UnmarkGrayTracer
@@ -18917,6 +19219,7 @@ empty
 !
 oom
 )
+{
 TraceChildren
 (
 this
@@ -18927,6 +19230,7 @@ popCopy
 )
 )
 ;
+}
 if
 (
 oom
@@ -19208,12 +19512,14 @@ isTenured
 (
 )
 )
+{
 return
 MarkInfo
 :
 :
 NURSERY
 ;
+}
 TenuredCell
 *
 cell
@@ -19235,12 +19541,14 @@ isMarkedGray
 (
 )
 )
+{
 return
 MarkInfo
 :
 :
 GRAY
 ;
+}
 if
 (
 cell
@@ -19250,12 +19558,14 @@ isMarkedBlack
 (
 )
 )
+{
 return
 MarkInfo
 :
 :
 BLACK
 ;
+}
 return
 MarkInfo
 :
@@ -19282,9 +19592,11 @@ isTenured
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 uintptr_t
 *
 wordp
@@ -19355,9 +19667,11 @@ isTenured
 (
 )
 )
+{
 return
 0
 ;
+}
 ColorBit
 bit
 =

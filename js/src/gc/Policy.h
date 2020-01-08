@@ -131,6 +131,7 @@ if
 (
 v
 )
+{
 Type
 :
 :
@@ -139,6 +140,7 @@ writeBarrierPre
 v
 )
 ;
+}
 }
 static
 void
@@ -158,6 +160,7 @@ if
 *
 vp
 )
+{
 Type
 :
 :
@@ -168,6 +171,7 @@ prev
 next
 )
 ;
+}
 }
 static
 void
@@ -181,6 +185,7 @@ if
 (
 v
 )
+{
 Type
 :
 :
@@ -189,6 +194,7 @@ readBarrier
 v
 )
 ;
+}
 }
 static
 void
@@ -211,6 +217,7 @@ if
 *
 vp
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -218,6 +225,7 @@ vp
 name
 )
 ;
+}
 }
 }
 ;

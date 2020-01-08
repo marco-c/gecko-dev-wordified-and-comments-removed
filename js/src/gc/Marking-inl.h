@@ -488,6 +488,7 @@ IsForwarded
 t
 )
 )
+{
 t
 =
 Forwarded
@@ -495,6 +496,7 @@ Forwarded
 t
 )
 ;
+}
 return
 t
 ;
@@ -596,6 +598,7 @@ if
 (
 t
 )
+{
 MOZ_RELEASE_ASSERT
 (
 IsGCThingValidAfterMovingGC
@@ -604,6 +607,7 @@ t
 )
 )
 ;
+}
 }
 template
 <

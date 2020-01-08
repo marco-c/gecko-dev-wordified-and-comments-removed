@@ -206,6 +206,7 @@ if
 (
 addPtr
 )
+{
 table
 .
 remove
@@ -213,6 +214,7 @@ remove
 addPtr
 )
 ;
+}
 }
 bool
 found
@@ -322,6 +324,7 @@ if
 (
 gcHappened
 )
+{
 addPtr
 =
 table
@@ -331,6 +334,7 @@ lookupForAdd
 key
 )
 ;
+}
 }
 DependentAddPtr
 (

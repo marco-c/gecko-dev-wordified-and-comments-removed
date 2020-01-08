@@ -1327,6 +1327,7 @@ nextSpan
 this
 )
 )
+{
 numFree
 +
 =
@@ -1346,6 +1347,7 @@ thingSize
 +
 1
 ;
+}
 return
 numFree
 ;
@@ -1434,9 +1436,11 @@ span
 >
 first
 )
+{
 return
 false
 ;
+}
 if
 (
 thing
@@ -1449,9 +1453,11 @@ span
 >
 last
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -1552,6 +1558,7 @@ if
 (
 arena
 )
+{
 auxNextLink
 =
 arena
@@ -1564,6 +1571,7 @@ address
 >
 ArenaShift
 ;
+}
 }
 void
 unsetDelayedMarking
@@ -2426,9 +2434,11 @@ word
 &
 mask
 )
+{
 return
 false
 ;
+}
 if
 (
 color
@@ -2469,9 +2479,11 @@ word
 &
 mask
 )
+{
 return
 false
 ;
+}
 *
 word
 |
@@ -2577,12 +2589,14 @@ srcWord
 &
 srcMask
 )
+{
 *
 dstWord
 |
 =
 dstMask
 ;
+}
 }
 MOZ_ALWAYS_INLINE
 void
@@ -3495,6 +3509,7 @@ if
 (
 parent_
 )
+{
 parent_
 -
 >
@@ -3502,6 +3517,7 @@ addGCArena
 (
 )
 ;
+}
 }
 void
 removeGCArena
@@ -3525,6 +3541,7 @@ if
 (
 parent_
 )
+{
 parent_
 -
 >
@@ -3532,6 +3549,7 @@ removeGCArena
 (
 )
 ;
+}
 }
 void
 adopt

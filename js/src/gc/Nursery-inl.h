@@ -166,9 +166,11 @@ isForwarded
 (
 )
 )
+{
 return
 false
 ;
+}
 const
 gc
 :
@@ -234,6 +236,7 @@ isTenuringTracer
 (
 )
 )
+{
 setForwardingPointerWhileTenuring
 (
 oldData
@@ -241,6 +244,7 @@ newData
 direct
 )
 ;
+}
 }
 inline
 void
@@ -269,6 +273,7 @@ isInside
 oldData
 )
 )
+{
 setForwardingPointer
 (
 oldData
@@ -276,6 +281,7 @@ newData
 direct
 )
 ;
+}
 }
 inline
 void
@@ -532,11 +538,13 @@ if
 !
 buffer
 )
+{
 ReportOutOfMemory
 (
 cx
 )
 ;
+}
 return
 buffer
 ;
@@ -571,6 +579,7 @@ helperThread
 (
 )
 )
+{
 return
 cx
 -
@@ -583,6 +592,7 @@ T
 count
 )
 ;
+}
 size_t
 nbytes
 =
@@ -629,11 +639,13 @@ if
 !
 buffer
 )
+{
 ReportOutOfMemory
 (
 cx
 )
 ;
+}
 return
 buffer
 ;
@@ -673,6 +685,7 @@ helperThread
 (
 )
 )
+{
 return
 obj
 -
@@ -692,6 +705,7 @@ oldCount
 newCount
 )
 ;
+}
 T
 *
 buffer
@@ -733,11 +747,13 @@ if
 !
 buffer
 )
+{
 ReportOutOfMemory
 (
 cx
 )
 ;
+}
 return
 buffer
 ;

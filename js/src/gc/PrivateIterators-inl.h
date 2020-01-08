@@ -301,10 +301,12 @@ isCollectingFromAnyThread
 (
 )
 )
+{
 next
 (
 )
 ;
+}
 }
 bool
 done
