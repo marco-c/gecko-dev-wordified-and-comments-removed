@@ -4531,6 +4531,11 @@ if
 depth
 is
 True
+or
+depth
+=
+=
+0
 :
             
 depth
