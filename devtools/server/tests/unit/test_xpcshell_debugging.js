@@ -28,7 +28,9 @@ testResumed
 false
 ;
 const
+{
 DebuggerServer
+}
 =
 _setupDebuggerServer
 (
