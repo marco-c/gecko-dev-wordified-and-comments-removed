@@ -922,7 +922,7 @@ tests
 /
 support
 /
-fixtures
+helpers
 .
 py
 #

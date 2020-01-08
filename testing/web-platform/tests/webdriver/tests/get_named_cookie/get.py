@@ -17,7 +17,7 @@ tests
 .
 support
 .
-fixtures
+helpers
 import
 clear_all_cookies
 from

@@ -11,7 +11,7 @@ tests
 .
 support
 .
-fixtures
+helpers
 import
 is_element_in_viewport
 from
