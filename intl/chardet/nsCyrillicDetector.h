@@ -12,6 +12,13 @@ nsCyrillicClass
 h
 "
 #
+include
+"
+nsIStringCharsetDetector
+.
+h
+"
+#
 define
 NS_RU_PROBDETECTOR_CID
 \

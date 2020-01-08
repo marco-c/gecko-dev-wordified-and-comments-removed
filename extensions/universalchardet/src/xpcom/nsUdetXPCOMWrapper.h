@@ -47,6 +47,13 @@ nsIFactory
 h
 "
 #
+include
+"
+nsUniversalDetector
+.
+h
+"
+#
 define
 NS_JA_PSMDETECTOR_CID
 \
