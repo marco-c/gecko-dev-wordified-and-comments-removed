@@ -78,6 +78,15 @@ mozilla
 .
 gecko
 .
+GeckoStarterService
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 GeckoThread
 ;
 import
@@ -235,7 +244,6 @@ GeckoService
 .
 getIntentToStartGecko
 (
-this
 )
 ;
 final
@@ -270,8 +278,11 @@ getAbsolutePath
 )
 )
 ;
-startService
+GeckoStarterService
+.
+enqueueWork
 (
+this
 intent
 )
 ;
