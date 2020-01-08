@@ -165,6 +165,7 @@ pauseExpression
 const
 target
 =
+await
 TargetFactory
 .
 forTab
