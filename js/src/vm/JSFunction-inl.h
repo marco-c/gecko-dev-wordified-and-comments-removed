@@ -60,6 +60,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+NativeObject
+-
+inl
+.
+h
+"
 namespace
 js
 {
