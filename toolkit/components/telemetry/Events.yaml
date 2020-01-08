@@ -4050,11 +4050,15 @@ objects
 "
 inspector
 "
+"
+netmonitor
+"
 ]
 bug_numbers
 :
 [
 1463083
+1463169
 ]
 notification_emails
 :
