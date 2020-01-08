@@ -3098,13 +3098,6 @@ StartForceKillTimer
 )
 ;
 void
-OnGenerateMinidumpComplete
-(
-bool
-aDumpResult
-)
-;
-void
 EnsurePermissionsByKey
 (
 const
