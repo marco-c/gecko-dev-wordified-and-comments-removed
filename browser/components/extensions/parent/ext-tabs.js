@@ -7483,6 +7483,7 @@ let
 {
 windowId
 tabs
+populate
 }
 =
 highlightInfo
@@ -7619,8 +7620,6 @@ convert
 window
 {
 populate
-:
-true
 }
 )
 ;
