@@ -345,7 +345,7 @@ dom
 DOMPrefs
 :
 :
-FetchObserverEnabled
+dom_fetchObserver_enabled
 "
 ]
 ObserverCallback
