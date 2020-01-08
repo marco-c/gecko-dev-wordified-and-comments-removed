@@ -1117,6 +1117,11 @@ nsTransitionManager
 cpp
 '
 '
+PaintWorkletImpl
+.
+cpp
+'
+'
 PostTraversalTask
 .
 cpp
