@@ -10085,7 +10085,7 @@ JS_FRIEND_API
 (
 bool
 )
-ExecuteInGlobalAndReturnScope
+ExecuteInFrameScriptEnvironment
 (
 JSContext
 *
