@@ -1240,11 +1240,16 @@ mCurrentIterationOnLastCompose
 bool
 mInEffectOnLastAnimationTimingUpdate
 ;
+using
+BaseValuesHashmap
+=
 nsRefPtrHashtable
 <
 nsUint32HashKey
 RawServoAnimationValue
 >
+;
+BaseValuesHashmap
 mBaseValues
 ;
 bool
