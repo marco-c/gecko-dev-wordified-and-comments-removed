@@ -5,6 +5,22 @@ config
 {
     
 '
+default_actions
+'
+:
+[
+        
+'
+clobber
+'
+        
+'
+build
+'
+    
+]
+    
+'
 stage_platform
 '
 :
@@ -15,6 +31,12 @@ tup
 -
 opt
 '
+    
+'
+enable_talos_sendchange
+'
+:
+False
     
 '
 env
@@ -175,6 +197,14 @@ SCCACHE_DISABLE
 '
     
 }
+    
+'
+mozconfig_variant
+'
+:
+'
+tup
+'
     
 '
 disable_package_metrics

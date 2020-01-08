@@ -37,4 +37,12 @@ abort
 '
     
 }
+    
+'
+mozconfig_variant
+'
+:
+'
+debug
+'
 }

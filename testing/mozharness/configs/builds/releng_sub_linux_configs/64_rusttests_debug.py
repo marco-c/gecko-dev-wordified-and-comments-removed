@@ -5,6 +5,28 @@ config
 {
     
 '
+default_actions
+'
+:
+[
+        
+'
+clobber
+'
+        
+'
+build
+'
+        
+'
+check
+-
+test
+'
+    
+]
+    
+'
 stage_platform
 '
 :
@@ -173,6 +195,16 @@ TINDERBOX_OUTPUT
 '
     
 }
+    
+'
+mozconfig_variant
+'
+:
+'
+rusttests
+-
+debug
+'
     
 '
 artifact_flag_build_variant_in_try
