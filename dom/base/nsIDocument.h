@@ -10358,6 +10358,11 @@ MaybeAllowStorageForOpener
 (
 )
 ;
+void
+MaybeStoreUserInteractionAsPermission
+(
+)
+;
 static
 bool
 MatchNameAttribute

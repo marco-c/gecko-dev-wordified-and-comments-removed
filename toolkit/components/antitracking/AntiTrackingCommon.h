@@ -162,6 +162,15 @@ aReason
 ;
 static
 void
+StoreUserInteractionFor
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
+void
 SaveFirstPartyStorageAccessGrantedForOriginOnParentProcess
 (
 nsIPrincipal
