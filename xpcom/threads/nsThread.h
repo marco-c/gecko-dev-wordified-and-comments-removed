@@ -653,6 +653,10 @@ friend
 class
 nsThreadManager
 ;
+friend
+class
+nsThreadPool
+;
 static
 mozilla
 :
