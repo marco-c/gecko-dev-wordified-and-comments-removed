@@ -7505,7 +7505,7 @@ AddonManager
 getPreferredIconURL
 (
 aAddon
-48
+32
 window
 )
 ;

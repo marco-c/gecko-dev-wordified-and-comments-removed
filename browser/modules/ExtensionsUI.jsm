@@ -2446,9 +2446,14 @@ addon
 .
 isWebExtension
 ?
-addon
+AddonManager
 .
-iconURL
+getPreferredIconURL
+(
+addon
+32
+window
+)
 |
 |
 DEFAULT_EXTENSION_ICON
