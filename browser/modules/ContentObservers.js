@@ -47,7 +47,7 @@ defineModuleGetter
 (
 this
 "
-ContentWebRTC
+WebRTCChild
 "
 "
 resource
@@ -55,9 +55,9 @@ resource
 /
 /
 /
-modules
+actors
 /
-ContentWebRTC
+WebRTCChild
 .
 jsm
 "
@@ -242,7 +242,7 @@ aTopic
 aData
 )
 {
-ContentWebRTC
+WebRTCChild
 .
 observe
 (
