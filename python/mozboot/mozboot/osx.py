@@ -3376,7 +3376,7 @@ cbindgen_min_version
 .
 6
 .
-6
+7
 '
         
 self
