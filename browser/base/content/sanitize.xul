@@ -817,11 +817,6 @@ thin
 >
 <
 groupbox
-orient
-=
-"
-horizontal
-"
 >
 <
 caption
@@ -1131,11 +1126,6 @@ groupbox
 >
 <
 groupbox
-orient
-=
-"
-horizontal
-"
 >
 <
 caption
