@@ -80,6 +80,13 @@ onboarding
 .
 json
 '
+'
+sites
+-
+classification
+.
+json
+'
 ]
 if
 CONFIG
