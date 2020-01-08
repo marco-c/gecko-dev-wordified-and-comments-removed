@@ -9535,6 +9535,12 @@ startup
 this
 )
 ;
+await
+Promise
+.
+all
+(
+[
 Management
 .
 emit
@@ -9544,8 +9550,6 @@ startup
 "
 this
 )
-;
-await
 this
 .
 runManifest
@@ -9553,6 +9557,8 @@ runManifest
 this
 .
 manifest
+)
+]
 )
 ;
 Management
