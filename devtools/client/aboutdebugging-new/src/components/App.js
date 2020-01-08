@@ -145,6 +145,8 @@ require
 "
 .
 /
+connect
+/
 ConnectPage
 "
 )

@@ -75,7 +75,7 @@ src
 /
 components
 /
-ConnectPage
+RuntimeInfo
 .
 css
 "
@@ -98,7 +98,9 @@ src
 /
 components
 /
-RuntimeInfo
+connect
+/
+ConnectPage
 .
 css
 "
