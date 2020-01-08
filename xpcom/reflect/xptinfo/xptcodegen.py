@@ -1383,7 +1383,7 @@ tag
 =
 =
 '
-TD_ARRAY
+TD_LEGACY_ARRAY
 '
 :
             
