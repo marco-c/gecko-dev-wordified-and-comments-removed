@@ -16,7 +16,6 @@ from
 import
 metadata
 manifestupdate
-wptmanifest
 from
 mozlog
 import
@@ -1724,7 +1723,7 @@ OK
 }
 )
 ]
-                       
+                      
 run_info
 =
 {
@@ -3119,7 +3118,7 @@ OK
 }
 )
 ]
-                       
+                      
 run_info
 =
 {
