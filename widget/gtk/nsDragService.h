@@ -422,6 +422,14 @@ aTime
 )
 ;
 void
+SourceBeginDrag
+(
+GdkDragContext
+*
+aContext
+)
+;
+void
 SetDragIcon
 (
 GdkDragContext

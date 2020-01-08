@@ -123,6 +123,10 @@ gdk_drag_context_get_dest_window
 )
 STUB
 (
+gdk_drag_context_get_source_window
+)
+STUB
+(
 gdk_drag_context_list_targets
 )
 STUB
@@ -236,6 +240,10 @@ gdk_property_change
 STUB
 (
 gdk_property_get
+)
+STUB
+(
+gdk_property_delete
 )
 STUB
 (
