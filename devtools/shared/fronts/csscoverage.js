@@ -313,7 +313,7 @@ notification
 {
 notification
 .
-remove
+close
 (
 )
 ;

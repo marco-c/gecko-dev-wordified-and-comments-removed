@@ -408,7 +408,12 @@ is
 (
 notification
 .
+getAttribute
+(
+"
 value
+"
+)
 "
 refresh
 -

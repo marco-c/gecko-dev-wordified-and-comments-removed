@@ -954,9 +954,6 @@ return
 true
 ;
 }
-isDefault
-:
-true
 }
 ]
 ;

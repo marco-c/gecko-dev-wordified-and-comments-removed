@@ -63,9 +63,9 @@ browser
 /
 translation
 -
-infobar
+notification
 .
-xml
+js
 content
 /
 browser
