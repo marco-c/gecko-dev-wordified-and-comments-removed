@@ -10430,6 +10430,15 @@ ValOperandId
 valId
 )
 ;
+void
+trackAttached
+(
+const
+char
+*
+name
+)
+;
 public
 :
 TypeOfIRGenerator
