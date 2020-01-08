@@ -2486,6 +2486,7 @@ fillInBillingAddressForm
 (
 frame
 aAddress
+aOptions
 )
 {
 return
@@ -2508,6 +2509,10 @@ page
 billingAddressGUID
 "
 ]
+.
+.
+.
+aOptions
 }
 )
 ;
