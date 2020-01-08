@@ -118,7 +118,7 @@ RuntimeItem
 )
 ;
 class
-RuntimesPane
+Sidebar
 extends
 PureComponent
 {
@@ -174,9 +174,7 @@ section
 className
 :
 "
-runtimes
--
-pane
+sidebar
 "
 }
 dom
@@ -220,5 +218,5 @@ module
 .
 exports
 =
-RuntimesPane
+Sidebar
 ;

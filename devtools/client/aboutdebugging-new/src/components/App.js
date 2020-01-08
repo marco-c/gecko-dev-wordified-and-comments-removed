@@ -123,7 +123,7 @@ firefox
 )
 ;
 const
-RuntimesPane
+Sidebar
 =
 createFactory
 (
@@ -132,7 +132,7 @@ require
 "
 .
 /
-RuntimesPane
+Sidebar
 "
 )
 )
@@ -197,7 +197,7 @@ className
 app
 "
 }
-RuntimesPane
+Sidebar
 (
 {
 selectedRuntime

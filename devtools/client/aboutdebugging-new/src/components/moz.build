@@ -74,12 +74,12 @@ App
 js
 '
 '
-RuntimesPane
+Sidebar
 .
 css
 '
 '
-RuntimesPane
+Sidebar
 .
 js
 '
