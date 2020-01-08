@@ -7266,11 +7266,6 @@ SetIsInDocument
 (
 )
 ;
-SetIsConnected
-(
-true
-)
-;
 }
 nsDocument
 :
