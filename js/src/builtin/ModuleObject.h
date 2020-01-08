@@ -1278,6 +1278,13 @@ fixEnvironmentsAfterCompartmentMerge
 ;
 JSScript
 *
+maybeScript
+(
+)
+const
+;
+JSScript
+*
 script
 (
 )
@@ -1519,12 +1526,6 @@ JSObject
 *
 obj
 )
-;
-bool
-hasScript
-(
-)
-const
 ;
 bool
 hasImportBindings
