@@ -249,10 +249,12 @@ B
 .
 first
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 A
@@ -263,9 +265,11 @@ B
 .
 last
 )
+{
 return
 1
 ;
+}
 return
 0
 ;
@@ -366,6 +370,7 @@ size
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -380,6 +385,7 @@ ID
 "
 )
 ;
+}
 }
 void
 remove
@@ -426,9 +432,11 @@ if
 !
 addr
 )
+{
 return
 false
 ;
+}
 LockGuard
 <
 Mutex
@@ -524,6 +532,7 @@ sExceptionHandlerInstalled
 &
 sProtectedRegionsInit
 )
+{
 sProtectedRegions
 .
 insert
@@ -535,6 +544,7 @@ addr
 size
 )
 ;
+}
 }
 void
 MemoryProtectionExceptionHandler
@@ -554,6 +564,7 @@ sExceptionHandlerInstalled
 &
 sProtectedRegionsInit
 )
+{
 sProtectedRegions
 .
 remove
@@ -564,6 +575,7 @@ addr
 )
 )
 ;
+}
 }
 static
 MOZ_COLD
@@ -827,9 +839,11 @@ isDisabled
 (
 )
 )
+{
 return
 true
 ;
+}
 sVectoredExceptionHandler
 =
 AddVectoredExceptionHandler
@@ -1050,6 +1064,7 @@ sa_flags
 &
 SA_SIGINFO
 )
+{
 sPrevSEGVHandler
 .
 sa_sigaction
@@ -1059,6 +1074,7 @@ info
 context
 )
 ;
+}
 else
 if
 (
@@ -1077,6 +1093,7 @@ sa_handler
 =
 SIG_IGN
 )
+{
 sigaction
 (
 SIGSEGV
@@ -1085,7 +1102,9 @@ sPrevSEGVHandler
 nullptr
 )
 ;
+}
 else
+{
 sPrevSEGVHandler
 .
 sa_handler
@@ -1093,6 +1112,7 @@ sa_handler
 signum
 )
 ;
+}
 }
 bool
 MemoryProtectionExceptionHandler
@@ -1117,9 +1137,11 @@ isDisabled
 (
 )
 )
+{
 return
 true
 ;
+}
 struct
 sigaction
 faultHandler
@@ -2105,6 +2127,7 @@ ret
 =
 MACH_MSG_SUCCESS
 )
+{
 MOZ_CRASH
 (
 "
@@ -2120,6 +2143,7 @@ message
 "
 )
 ;
+}
 if
 (
 request
@@ -2131,8 +2155,10 @@ msgh_id
 =
 sIDQuit
 )
+{
 return
 ;
+}
 if
 (
 request
@@ -2144,6 +2170,7 @@ msgh_id
 =
 sIDRequest64
 )
+{
 MOZ_CRASH
 (
 "
@@ -2156,6 +2183,7 @@ ID
 "
 )
 ;
+}
 if
 (
 request
@@ -2173,6 +2201,7 @@ code_count
 =
 2
 )
+{
 MOZ_CRASH
 (
 "
@@ -2185,6 +2214,7 @@ type
 "
 )
 ;
+}
 uintptr_t
 address
 =
@@ -2309,6 +2339,7 @@ ret
 =
 KERN_SUCCESS
 )
+{
 MOZ_CRASH
 (
 "
@@ -2326,6 +2357,7 @@ forward
 "
 )
 ;
+}
 }
 ExceptionRequestUnion
 forward
@@ -2546,6 +2578,7 @@ ret
 =
 MACH_MSG_SUCCESS
 )
+{
 MOZ_CRASH
 (
 "
@@ -2562,6 +2595,7 @@ handler
 "
 )
 ;
+}
 }
 else
 {
@@ -2682,6 +2716,7 @@ ret
 =
 MACH_MSG_SUCCESS
 )
+{
 MOZ_CRASH
 (
 "
@@ -2698,6 +2733,7 @@ level
 "
 )
 ;
+}
 }
 }
 static
@@ -2788,6 +2824,7 @@ ret
 =
 MACH_MSG_SUCCESS
 )
+{
 sMachExceptionState
 -
 >
@@ -2797,7 +2834,9 @@ join
 (
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -2812,6 +2851,7 @@ terminate
 "
 )
 ;
+}
 }
 bool
 MemoryProtectionExceptionHandler
@@ -2842,9 +2882,11 @@ isDisabled
 (
 )
 )
+{
 return
 true
 ;
+}
 sMachExceptionState
 =
 js_new
@@ -2859,9 +2901,11 @@ if
 !
 sMachExceptionState
 )
+{
 return
 false
 ;
+}
 kern_return_t
 ret
 ;
@@ -2908,9 +2952,11 @@ ret
 =
 KERN_SUCCESS
 )
+{
 return
 false
 ;
+}
 ret
 =
 mach_port_insert_right

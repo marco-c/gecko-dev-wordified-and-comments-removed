@@ -267,6 +267,7 @@ i
 +
 +
 )
+{
 target
 [
 i
@@ -280,6 +281,7 @@ wordStart
 i
 ]
 ;
+}
 }
 }
 ;
@@ -478,6 +480,7 @@ if
 (
 p
 )
+{
 return
 *
 p
@@ -487,6 +490,7 @@ value
 (
 )
 ;
+}
 return
 createBlock
 (

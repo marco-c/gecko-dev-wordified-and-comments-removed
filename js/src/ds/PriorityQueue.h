@@ -196,9 +196,11 @@ append
 v
 )
 )
+{
 return
 false
 ;
+}
 siftUp
 (
 heap
@@ -450,8 +452,10 @@ n
 ]
 )
 )
+{
 break
 ;
+}
 swap
 (
 n
