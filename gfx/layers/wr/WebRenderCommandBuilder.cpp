@@ -11156,7 +11156,10 @@ aItem
 aDisplayListBuilder
 aManager
 context
-aScale
+{
+1
+1
+}
 [
 &
 ]
