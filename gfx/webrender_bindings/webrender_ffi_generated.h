@@ -119,7 +119,7 @@ enum
 class
 ExtendMode
 :
-uint32_t
+uint8_t
 {
 Clamp
 Repeat
