@@ -9,9 +9,11 @@ setup
 PACKAGE_VERSION
 =
 '
+1
+.
 0
 .
-26
+0
 '
 setup
 (
@@ -123,6 +125,24 @@ Language
 :
 :
 Python
+:
+:
+2
+.
+7
+'
+                   
+'
+Programming
+Language
+:
+:
+Python
+:
+:
+3
+.
+5
 '
                    
 '
