@@ -343,6 +343,12 @@ parent
 .
 webdriver
         
+self
+.
+runner_handle
+=
+None
+        
 with
 open
 (
@@ -381,6 +387,23 @@ self
 url_protocol
 )
 :
+        
+if
+self
+.
+runner_handle
+:
+            
+self
+.
+webdriver
+.
+switch_to_window
+(
+self
+.
+runner_handle
+)
         
 url
 =
@@ -431,6 +454,16 @@ get
 url
 )
         
+self
+.
+runner_handle
+=
+self
+.
+webdriver
+.
+current_window_handle
+        
 format_map
 =
 {
@@ -479,14 +512,6 @@ self
 )
 :
         
-exclude
-=
-self
-.
-webdriver
-.
-current_window_handle
-        
 handles
 =
 [
@@ -503,7 +528,9 @@ if
 item
 !
 =
-exclude
+self
+.
+runner_handle
 ]
         
 for
@@ -546,11 +573,15 @@ webdriver
 .
 switch_to_window
 (
-exclude
+self
+.
+runner_handle
 )
         
 return
-exclude
+self
+.
+runner_handle
     
 def
 get_test_window
@@ -2050,6 +2081,9 @@ self
 script
 %
 format_map
+async
+=
+True
 )
         
 test_window
@@ -2080,6 +2114,17 @@ test_window
 while
 True
 :
+            
+self
+.
+protocol
+.
+base
+.
+set_window
+(
+test_window
+)
             
 result
 =
