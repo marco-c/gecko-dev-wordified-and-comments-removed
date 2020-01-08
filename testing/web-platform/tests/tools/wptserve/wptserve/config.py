@@ -952,9 +952,6 @@ port
 =
 get_port
 (
-self
-.
-server_host
 )
                 
 else

@@ -318,6 +318,9 @@ def
 get_port
 (
 host
+=
+'
+'
 )
 :
     
