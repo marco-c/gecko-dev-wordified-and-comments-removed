@@ -98,6 +98,11 @@ IPDL_SOURCES
 =
 [
 '
+PMediaDecoderParams
+.
+ipdlh
+'
+'
 PVideoDecoder
 .
 ipdl
