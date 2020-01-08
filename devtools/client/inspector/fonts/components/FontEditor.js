@@ -555,7 +555,7 @@ getStr
 "
 fontinspector
 .
-usedFontsLabel
+fontsUsedLabel
 "
 )
 )

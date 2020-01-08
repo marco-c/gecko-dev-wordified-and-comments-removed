@@ -305,7 +305,7 @@ getStr
 "
 fontinspector
 .
-lineHeightLabel
+lineHeightLabelCapitalized
 "
 )
 min

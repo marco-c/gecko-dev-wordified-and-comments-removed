@@ -1224,12 +1224,6 @@ right
 :
 10px
 ;
-text
--
-transform
-:
-capitalize
-;
 -
 moz
 -
@@ -1297,12 +1291,6 @@ font
 size
 :
 smaller
-;
-text
--
-transform
-:
-none
 ;
 }
 .
