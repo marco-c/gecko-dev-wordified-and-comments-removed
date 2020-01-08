@@ -21,6 +21,13 @@ string
 .
 h
 >
+#
+include
+<
+stdlib
+.
+h
+>
 namespace
 mozilla
 {
