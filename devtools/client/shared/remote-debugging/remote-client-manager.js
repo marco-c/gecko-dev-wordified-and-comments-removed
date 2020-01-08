@@ -37,10 +37,7 @@ setClient
 (
 id
 type
-{
 client
-transportDetails
-}
 )
 {
 const
@@ -61,10 +58,7 @@ _clients
 set
 (
 key
-{
 client
-transportDetails
-}
 )
 ;
 client
@@ -269,8 +263,6 @@ getClient
 key
 )
 .
-client
-.
 removeListener
 (
 "
@@ -318,9 +310,7 @@ key
 =
 >
 {
-const
-clientInfo
-=
+return
 this
 .
 _clients
@@ -329,11 +319,6 @@ get
 (
 key
 )
-;
-return
-clientInfo
-.
-client
 .
 _closed
 ;
