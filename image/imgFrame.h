@@ -205,6 +205,10 @@ aAnimParams
 Nothing
 (
 )
+bool
+aIsFullFrame
+=
+false
 )
 ;
 nsresult
@@ -264,6 +268,7 @@ Some
 (
 animParams
 )
+false
 )
 ;
 }
@@ -583,6 +588,16 @@ aDirtyRect
 mDirtyRect
 =
 aDirtyRect
+;
+}
+bool
+IsFullFrame
+(
+)
+const
+{
+return
+mIsFullFrame
 ;
 }
 bool
@@ -906,6 +921,9 @@ mPaletteDepth
 ;
 bool
 mNonPremult
+;
+bool
+mIsFullFrame
 ;
 bool
 mCompositingFailed

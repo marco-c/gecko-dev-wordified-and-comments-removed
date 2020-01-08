@@ -166,6 +166,15 @@ decodes
 size_t
 pixelSize
 =
+!
+aDecoder
+-
+>
+ShouldBlendAnimation
+(
+)
+&
+&
 aDecoder
 -
 >
