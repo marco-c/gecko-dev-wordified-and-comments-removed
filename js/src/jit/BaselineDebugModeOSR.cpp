@@ -2197,6 +2197,9 @@ enabled
 )
 )
 {
+PCMappingSlotInfo
+unused
+;
 retAddr
 =
 bl
@@ -2206,6 +2209,8 @@ nativeCodeForPC
 (
 script
 pc
+&
+unused
 )
 ;
 }

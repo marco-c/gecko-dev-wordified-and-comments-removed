@@ -5542,6 +5542,9 @@ setResumePC
 throwPC
 )
 ;
+PCMappingSlotInfo
+unused
+;
 nativeCodeForPC
 =
 baselineScript
@@ -5551,6 +5554,8 @@ nativeCodeForPC
 (
 script
 throwPC
+&
+unused
 )
 ;
 }

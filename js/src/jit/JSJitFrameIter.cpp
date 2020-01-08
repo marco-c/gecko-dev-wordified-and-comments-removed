@@ -3578,6 +3578,9 @@ maybeOverridePc
 )
 )
 {
+PCMappingSlotInfo
+slotInfo
+;
 JSScript
 *
 script
@@ -3603,6 +3606,17 @@ nativeCodeForPC
 (
 script
 override
+&
+slotInfo
+)
+;
+MOZ_ASSERT
+(
+slotInfo
+.
+isStackSynced
+(
+)
 )
 ;
 return
