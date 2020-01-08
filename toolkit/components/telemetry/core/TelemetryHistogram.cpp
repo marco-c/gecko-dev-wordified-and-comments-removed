@@ -11404,7 +11404,7 @@ sample
 ;
 }
 }
-bool
+nsresult
 TelemetryHistogram
 :
 :
@@ -11433,7 +11433,7 @@ internal_CanRecordBase
 )
 {
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 HistogramID
@@ -11462,7 +11462,7 @@ rv
 )
 {
 return
-false
+rv
 ;
 }
 internal_Accumulate
@@ -11473,10 +11473,10 @@ sample
 )
 ;
 return
-true
+NS_OK
 ;
 }
-bool
+nsresult
 TelemetryHistogram
 :
 :
@@ -11515,7 +11515,7 @@ internal_CanRecordBase
 )
 {
 return
-false
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 HistogramID
@@ -11565,7 +11565,7 @@ sample
 )
 ;
 return
-true
+NS_OK
 ;
 }
 keyNotAllowed
@@ -11623,7 +11623,7 @@ name
 ;
 }
 return
-false
+NS_ERROR_FAILURE
 ;
 }
 void

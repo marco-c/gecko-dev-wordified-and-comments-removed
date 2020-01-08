@@ -205,7 +205,7 @@ uint32_t
 aSamples
 )
 ;
-bool
+nsresult
 Accumulate
 (
 const
@@ -216,7 +216,7 @@ uint32_t
 sample
 )
 ;
-bool
+nsresult
 Accumulate
 (
 const
