@@ -439,12 +439,6 @@ base64
 .
 b64encode
 (
-'
-%
-s
-'
-%
-(
 os
 .
 environ
@@ -453,7 +447,6 @@ environ
 GH_TOKEN
 "
 ]
-)
 )
         
 req

@@ -723,11 +723,6 @@ logger
 debug
 (
 "
-%
-s
-"
-%
-"
 "
 .
 join
