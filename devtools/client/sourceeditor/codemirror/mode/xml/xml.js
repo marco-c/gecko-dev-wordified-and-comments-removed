@@ -1517,7 +1517,6 @@ return
 style
 ;
 }
-;
 }
 function
 doctype
