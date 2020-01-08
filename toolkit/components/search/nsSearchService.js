@@ -8626,7 +8626,7 @@ i
 <
 aElement
 .
-childNodes
+children
 .
 length
 ;
@@ -8640,7 +8640,7 @@ param
 =
 aElement
 .
-childNodes
+children
 [
 i
 ]
@@ -9154,7 +9154,7 @@ i
 <
 doc
 .
-childNodes
+children
 .
 length
 ;
@@ -9168,7 +9168,7 @@ child
 =
 doc
 .
-childNodes
+children
 [
 i
 ]
