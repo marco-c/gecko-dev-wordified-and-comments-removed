@@ -153,6 +153,12 @@ CrossMaxSize
 )
 const
 ;
+FlexItemClampState
+ClampState
+(
+)
+const
+;
 protected
 :
 RefPtr
@@ -184,6 +190,9 @@ mCrossMinSize
 ;
 double
 mCrossMaxSize
+;
+FlexItemClampState
+mClampState
 ;
 }
 ;
