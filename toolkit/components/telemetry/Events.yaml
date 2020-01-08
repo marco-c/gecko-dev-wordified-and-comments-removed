@@ -4923,6 +4923,8 @@ bug_numbers
 :
 -
 1484255
+-
+1505310
 description
 :
 >
@@ -4980,6 +4982,11 @@ mozilla
 .
 com
 -
+rtestard
+mozilla
+.
+com
+-
 seceng
 -
 telemetry
@@ -4990,7 +4997,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 [
@@ -5072,6 +5079,8 @@ bug_numbers
 :
 -
 1484255
+-
+1505310
 description
 :
 >
@@ -5133,6 +5142,11 @@ mozilla
 .
 com
 -
+rtestard
+mozilla
+.
+com
+-
 seceng
 -
 telemetry
@@ -5143,7 +5157,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 record_in_processes
 :
 [
