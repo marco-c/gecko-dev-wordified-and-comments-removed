@@ -5,6 +5,9 @@ mochitest
 :
 [
 "
+base
+"
+"
 common
 "
 "
@@ -16,6 +19,9 @@ profileserver
 "
 :
 [
+"
+base
+"
 "
 common
 "
@@ -31,6 +37,9 @@ raptor
 "
 :
 [
+"
+base
+"
 "
 common
 "
@@ -46,6 +55,9 @@ reftest
 "
 :
 [
+"
+base
+"
 "
 common
 "
@@ -59,6 +71,9 @@ talos
 :
 [
 "
+base
+"
+"
 common
 "
 "
@@ -70,6 +85,9 @@ valgrind
 "
 :
 [
+"
+base
+"
 "
 common
 "
@@ -83,6 +101,9 @@ xpcshell
 :
 [
 "
+base
+"
+"
 xpcshell
 "
 ]
@@ -95,6 +116,9 @@ tests
 "
 :
 [
+"
+base
+"
 "
 common
 "

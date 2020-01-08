@@ -89,6 +89,11 @@ profile_files
 =
 [
 '
+base
+/
+*
+'
+'
 common
 /
 *
