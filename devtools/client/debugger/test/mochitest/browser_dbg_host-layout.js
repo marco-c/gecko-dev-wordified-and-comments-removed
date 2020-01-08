@@ -300,7 +300,6 @@ firstHost
 let
 [
 tab
-debuggee
 panel
 ]
 =

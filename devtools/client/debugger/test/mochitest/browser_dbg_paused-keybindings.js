@@ -44,7 +44,6 @@ line
 let
 [
 tab
-debuggee
 panel
 ]
 =

@@ -53,7 +53,6 @@ then
 (
 [
 aTab
-debuggeeWin
 aPanel
 ]
 )

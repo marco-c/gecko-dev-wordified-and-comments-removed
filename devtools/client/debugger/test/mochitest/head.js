@@ -3642,17 +3642,6 @@ urlOrTab
 )
 ;
 let
-debuggee
-=
-tab
-.
-linkedBrowser
-.
-contentWindowAsCPOW
-.
-wrappedJSObject
-;
-let
 target
 =
 yield
@@ -3853,7 +3842,6 @@ onCaretUpdated
 return
 [
 tab
-debuggee
 debuggerPanel
 window
 ]
