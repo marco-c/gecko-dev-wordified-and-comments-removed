@@ -2230,7 +2230,9 @@ target
 )
 {
 return
-true
+target
+.
+isLocalTab
 ;
 }
 ;
