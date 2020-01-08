@@ -319,3 +319,12 @@ macos
 "
 XP_MACOSX
 "
+"
+target_os
+=
+android
+"
+=
+"
+ANDROID
+"
