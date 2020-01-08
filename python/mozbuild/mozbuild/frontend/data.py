@@ -96,7 +96,12 @@ frontend
 .
 context
 import
+(
+    
 ObjDirPath
+    
+SourcePath
+)
 from
 mozbuild
 .
@@ -1086,6 +1091,13 @@ __init__
 (
 self
 context
+)
+        
+assert
+isinstance
+(
+source
+SourcePath
 )
         
 self
