@@ -3123,7 +3123,7 @@ Shutdown
 ;
 }
 }
-nsCString
+nsPrintfCString
 Scheduler
 :
 :

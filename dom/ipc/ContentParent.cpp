@@ -10918,7 +10918,7 @@ get
 )
 )
 ;
-nsCString
+nsPrintfCString
 schedulerPrefs
 =
 Scheduler

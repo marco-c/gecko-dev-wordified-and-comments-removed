@@ -117,7 +117,7 @@ Shutdown
 )
 ;
 static
-nsCString
+nsPrintfCString
 GetPrefs
 (
 )
