@@ -225,9 +225,11 @@ Equals
 aDataFlavor
 )
 )
+{
 return
 i
 ;
+}
 }
 return
 aArray
