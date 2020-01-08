@@ -1430,11 +1430,12 @@ nullptr
 info
 .
 mLoadGroup
-aData
-.
-originalScriptURL
+EmptyString
 (
 )
+info
+.
+mResolvedScriptURI
 clientInfo
 aData
 .

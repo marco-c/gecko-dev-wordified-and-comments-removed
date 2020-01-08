@@ -10724,6 +10724,7 @@ loadInfo
 .
 mLoadGroup
 aScriptURL
+nullptr
 clientInfo
 ContentPolicyType
 (
