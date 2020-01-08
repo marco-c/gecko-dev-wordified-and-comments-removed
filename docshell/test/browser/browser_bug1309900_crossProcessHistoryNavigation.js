@@ -55,10 +55,11 @@ browserLoaded
 browser
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 about
 :
@@ -98,10 +99,11 @@ browserLoaded
 browser
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 data
 :
