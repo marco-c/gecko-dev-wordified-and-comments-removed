@@ -1378,9 +1378,6 @@ UnbindFromTree
 ;
 }
 }
-#
-ifdef
-DEBUG
 std
 :
 :
@@ -1601,6 +1598,9 @@ return
 aStream
 ;
 }
+#
+ifdef
+DEBUG
 static
 bool
 gShowFrameBorders
