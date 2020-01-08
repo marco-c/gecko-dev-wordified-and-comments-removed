@@ -9390,16 +9390,6 @@ version
 <
 !
 ENTITY
-promotion_add_page_shortcut
-"
-Add
-page
-shortcut
-"
->
-<
-!
-ENTITY
 helper_first_offline_bookmark_title
 "
 Read
