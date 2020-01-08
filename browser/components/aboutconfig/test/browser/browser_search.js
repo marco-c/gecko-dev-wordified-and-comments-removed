@@ -153,7 +153,7 @@ aPrefArray
 {
 Assert
 .
-equal
+greater
 (
 content
 .
@@ -170,6 +170,8 @@ childElementCount
 aPrefArray
 .
 length
+-
+50
 )
 ;
 let
@@ -191,7 +193,9 @@ search
 value
 =
 "
-button
+wser
+.
+down
 "
 ;
 search
@@ -238,7 +242,9 @@ pref
 includes
 (
 "
-button
+wser
+.
+down
 "
 )
 )
@@ -318,7 +324,7 @@ aPrefArray
 {
 Assert
 .
-equal
+greater
 (
 content
 .
@@ -335,6 +341,8 @@ childElementCount
 aPrefArray
 .
 length
+-
+50
 )
 ;
 let
