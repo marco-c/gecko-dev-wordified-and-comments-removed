@@ -290,6 +290,7 @@ bool
 IsCurrentThreadIn
 (
 )
+const
 override
 {
 return

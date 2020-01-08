@@ -70,7 +70,7 @@ class
 MediaByteBuffer
 ;
 class
-TaskQueue
+AbstractThread
 ;
 namespace
 dom
@@ -181,7 +181,7 @@ override
 {
 MOZ_ASSERT
 (
-OnTaskQueue
+OnThread
 (
 )
 )
@@ -246,7 +246,7 @@ override
 {
 MOZ_ASSERT
 (
-OnTaskQueue
+OnThread
 (
 )
 )
@@ -327,7 +327,7 @@ override
 {
 MOZ_ASSERT
 (
-OnTaskQueue
+OnThread
 (
 )
 )
@@ -373,7 +373,7 @@ const
 {
 MOZ_ASSERT
 (
-OnTaskQueue
+OnThread
 (
 )
 )
@@ -427,7 +427,7 @@ IsEnded
 {
 MOZ_ASSERT
 (
-OnTaskQueue
+OnThread
 (
 )
 )
@@ -470,7 +470,7 @@ GetSize
 {
 MOZ_ASSERT
 (
-OnTaskQueue
+OnThread
 (
 )
 )
@@ -546,19 +546,20 @@ DEBUG
 const
 RefPtr
 <
-TaskQueue
+AbstractThread
 >
-mTaskQueue
+mThread
 ;
+const
 AbstractThread
 *
-GetTaskQueue
+GetThread
 (
 )
 const
 ;
 bool
-OnTaskQueue
+OnThread
 (
 )
 const

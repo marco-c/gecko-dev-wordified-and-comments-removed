@@ -732,6 +732,7 @@ TaskQueue
 IsCurrentThreadIn
 (
 )
+const
 {
 bool
 in

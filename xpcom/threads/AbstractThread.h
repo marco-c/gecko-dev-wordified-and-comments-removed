@@ -228,6 +228,7 @@ bool
 IsCurrentThreadIn
 (
 )
+const
 =
 0
 ;

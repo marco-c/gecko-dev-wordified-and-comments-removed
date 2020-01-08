@@ -212,9 +212,9 @@ private
 :
 RefPtr
 <
-TaskQueue
+AbstractThread
 >
-mTaskQueue
+mThread
 ;
 RefPtr
 <

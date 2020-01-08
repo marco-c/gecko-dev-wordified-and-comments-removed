@@ -212,6 +212,7 @@ bool
 IsCurrentThreadIn
 (
 )
+const
 override
 ;
 already_AddRefed
