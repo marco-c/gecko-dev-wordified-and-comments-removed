@@ -308,7 +308,7 @@ getStr
 "
 fontinspector
 .
-noFontsOnSelectedElement
+noFontsUsedOnCurrentElement
 "
 )
 )
