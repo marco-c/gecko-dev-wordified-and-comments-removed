@@ -73,6 +73,10 @@ wrapped
 import
 gdbpp
 .
+enumset
+import
+gdbpp
+.
 linkedlist
 import
 gdbpp
