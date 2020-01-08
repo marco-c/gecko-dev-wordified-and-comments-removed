@@ -2323,6 +2323,17 @@ DMD
 1
 '
         
+browserEnv
+[
+"
+MOZ_UPLOAD_DIR
+"
+]
+=
+self
+.
+remoteMozLog
+        
 return
 browserEnv
     
