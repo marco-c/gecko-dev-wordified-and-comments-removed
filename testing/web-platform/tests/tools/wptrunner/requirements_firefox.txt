@@ -31,7 +31,7 @@ mozrunner
 =
 7
 .
-1
+2
 .
 0
 mozleak
