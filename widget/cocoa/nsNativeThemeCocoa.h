@@ -521,6 +521,11 @@ focused
 =
 false
 ;
+bool
+borderless
+=
+false
+;
 }
 ;
 struct
