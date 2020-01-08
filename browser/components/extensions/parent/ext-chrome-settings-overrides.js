@@ -462,7 +462,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 !
@@ -476,7 +476,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 !
@@ -545,7 +545,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
@@ -1148,7 +1148,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 !
 =
 engine
@@ -1201,7 +1201,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 newEngine
@@ -1330,7 +1330,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 ;
@@ -1341,7 +1341,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .
@@ -1448,7 +1448,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 =
 engines
@@ -1570,7 +1570,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
