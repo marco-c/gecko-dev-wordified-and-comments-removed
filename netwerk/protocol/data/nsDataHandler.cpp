@@ -868,6 +868,16 @@ offset
 '
 ;
 '
+|
+|
+mediaType
+[
+offset
+]
+=
+=
+'
+'
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
