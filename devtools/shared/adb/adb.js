@@ -450,12 +450,6 @@ if
 isAdbRunning
 )
 {
-this
-.
-didRunInitially
-=
-false
-;
 dumpn
 (
 "
