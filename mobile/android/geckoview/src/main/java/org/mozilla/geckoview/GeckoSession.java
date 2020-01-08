@@ -4106,8 +4106,6 @@ attachEditable
 (
 IGeckoEditableParent
 parent
-GeckoEditableChild
-child
 )
 ;
 WrapForJNI

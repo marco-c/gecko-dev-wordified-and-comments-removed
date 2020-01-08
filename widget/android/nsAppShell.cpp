@@ -3631,6 +3631,7 @@ GeckoEditableChild
 New
 (
 editableParent
+false
 )
 ;
 NS_ENSURE_TRUE

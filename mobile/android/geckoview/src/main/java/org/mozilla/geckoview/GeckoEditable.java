@@ -3168,9 +3168,10 @@ getUiHandler
 )
 ;
 }
+Override
 public
 void
-setDefaultEditableChild
+setDefaultChild
 (
 final
 IGeckoEditableChild
@@ -3182,12 +3183,6 @@ if
 DEBUG
 )
 {
-ThreadUtils
-.
-assertOnUiThread
-(
-)
-;
 Log
 .
 d
