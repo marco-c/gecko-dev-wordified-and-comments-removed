@@ -1481,7 +1481,7 @@ rv
 =
 p
 .
-waitForFinish
+wait
 (
 )
             
