@@ -25,7 +25,6 @@ exports
 updateFonts
 (
 fonts
-otherFonts
 allFonts
 )
 {
@@ -35,7 +34,6 @@ type
 :
 UPDATE_FONTS
 fonts
-otherFonts
 allFonts
 }
 ;

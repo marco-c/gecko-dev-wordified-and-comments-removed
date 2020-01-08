@@ -32,10 +32,6 @@ fonts
 :
 [
 ]
-otherFonts
-:
-[
-]
 }
 ;
 const
@@ -49,7 +45,6 @@ UPDATE_FONTS
 _
 {
 fonts
-otherFonts
 allFonts
 }
 )
@@ -57,7 +52,6 @@ allFonts
 return
 {
 fonts
-otherFonts
 allFonts
 }
 ;
