@@ -8,7 +8,7 @@ const
 APPEND_TO_HISTORY
 CLEAR_HISTORY
 HISTORY_LOADED
-UPDATE_HISTORY_PLACEHOLDER
+UPDATE_HISTORY_POSITION
 }
 =
 require
@@ -70,7 +70,7 @@ entries
 ;
 }
 function
-updatePlaceHolder
+updateHistoryPosition
 (
 direction
 expression
@@ -80,7 +80,7 @@ return
 {
 type
 :
-UPDATE_HISTORY_PLACEHOLDER
+UPDATE_HISTORY_POSITION
 direction
 expression
 }
@@ -94,6 +94,6 @@ exports
 appendToHistory
 clearHistory
 historyLoaded
-updatePlaceHolder
+updateHistoryPosition
 }
 ;

@@ -101,7 +101,7 @@ state
 .
 history
 .
-placeHolder
+position
 <
 (
 state
@@ -127,14 +127,18 @@ state
 .
 history
 .
-placeHolder
+position
 +
 1
 ]
 ;
 }
 return
-null
+state
+.
+history
+.
+originalUserValue
 ;
 }
 function
@@ -149,7 +153,7 @@ state
 .
 history
 .
-placeHolder
+position
 >
 0
 )
@@ -165,7 +169,7 @@ state
 .
 history
 .
-placeHolder
+position
 -
 1
 ]

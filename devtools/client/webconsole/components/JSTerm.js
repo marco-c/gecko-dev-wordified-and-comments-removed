@@ -481,7 +481,7 @@ codeMirrorEnabled
 PropTypes
 .
 bool
-updatePlaceHolder
+updateHistoryPosition
 :
 PropTypes
 .
@@ -4115,7 +4115,7 @@ direction
 const
 {
 history
-updatePlaceHolder
+updateHistoryPosition
 getValueFromHistory
 }
 =
@@ -4154,7 +4154,7 @@ getInputValue
 (
 )
 ;
-updatePlaceHolder
+updateHistoryPosition
 (
 direction
 expression
@@ -6841,7 +6841,7 @@ clearHistory
 (
 )
 )
-updatePlaceHolder
+updateHistoryPosition
 :
 (
 direction
@@ -6853,7 +6853,7 @@ dispatch
 (
 historyActions
 .
-updatePlaceHolder
+updateHistoryPosition
 (
 direction
 expression
