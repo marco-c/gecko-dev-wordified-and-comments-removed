@@ -1019,6 +1019,12 @@ grow
 flexGrow
 )
 ;
+if
+(
+!
+wasClamped
+)
+{
 reasons
 .
 push
@@ -1035,6 +1041,7 @@ growthAttemptButSiblings
 )
 )
 ;
+}
 }
 else
 if
