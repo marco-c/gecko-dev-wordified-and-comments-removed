@@ -2950,10 +2950,8 @@ true
 }
 if
 (
-treeFile
 !
-=
-nullptr
+treeFile
 )
 return
 false
