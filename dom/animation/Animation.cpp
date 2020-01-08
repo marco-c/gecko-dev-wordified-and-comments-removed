@@ -557,17 +557,6 @@ mEffect
 {
 if
 (
-!
-aEffect
-)
-{
-ResetPendingTasks
-(
-)
-;
-}
-if
-(
 mIsRelevant
 )
 {
