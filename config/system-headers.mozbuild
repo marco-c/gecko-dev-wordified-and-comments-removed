@@ -8003,6 +8003,13 @@ egl
 .
 h
 '
+'
+wayland
+-
+util
+.
+h
+'
 ]
 if
 CONFIG
