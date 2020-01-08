@@ -498,6 +498,13 @@ PROCESS_TYPE_PDFIUM
 =
 6
 ;
+const
+unsigned
+long
+PROCESS_TYPE_VR
+=
+7
+;
 /
 *
 *
