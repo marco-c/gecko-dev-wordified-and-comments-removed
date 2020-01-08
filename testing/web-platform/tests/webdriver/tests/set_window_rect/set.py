@@ -22,8 +22,13 @@ support
 .
 helpers
 import
+(
+available_screen_size
 document_hidden
+                                   
 is_fullscreen
+screen_size
+)
 def
 set_window_rect
 (
@@ -1357,39 +1362,12 @@ window
 .
 rect
     
-max
+screen_width
+screen_height
 =
-session
-.
-execute_script
+screen_size
 (
-"
-"
-"
-        
-return
-{
-          
-width
-:
-window
-.
-screen
-.
-availWidth
-          
-height
-:
-window
-.
-screen
-.
-availHeight
-        
-}
-"
-"
-"
+session
 )
     
 response
@@ -1403,12 +1381,7 @@ session
 width
 "
 :
-max
-[
-"
-width
-"
-]
+screen_width
 -
 100
         
@@ -1416,12 +1389,7 @@ width
 height
 "
 :
-max
-[
-"
-height
-"
-]
+screen_height
 -
 100
     
@@ -1459,12 +1427,7 @@ y
 width
 "
 :
-max
-[
-"
-width
-"
-]
+screen_width
 -
 100
         
@@ -1472,12 +1435,7 @@ width
 height
 "
 :
-max
-[
-"
-height
-"
-]
+screen_height
 -
 100
     
@@ -1490,39 +1448,20 @@ session
 )
 :
     
-max
+screen_width
+screen_height
 =
-session
-.
-execute_script
+screen_size
 (
-"
-"
-"
-        
-return
-{
-          
-width
-:
-window
-.
-screen
-.
-availWidth
-          
-height
-:
-window
-.
-screen
-.
-availHeight
-        
-}
-"
-"
-"
+session
+)
+    
+avail_width
+avail_height
+=
+available_screen_size
+(
+session
 )
     
 response
@@ -1536,12 +1475,7 @@ session
 width
 "
 :
-max
-[
-"
-width
-"
-]
+screen_width
 +
 100
         
@@ -1549,12 +1483,7 @@ width
 height
 "
 :
-max
-[
-"
-height
-"
-]
+screen_height
 +
 100
     
@@ -1577,12 +1506,7 @@ width
 ]
 >
 =
-max
-[
-"
-width
-"
-]
+avail_width
     
 assert
 rect
@@ -1593,12 +1517,7 @@ height
 ]
 >
 =
-max
-[
-"
-height
-"
-]
+avail_height
 def
 test_height_width_as_current
 (
