@@ -1402,6 +1402,11 @@ test
 platform
 :
 linux64
+/
+debug
+:
+12
+linux64
 -
 ccov
 /
