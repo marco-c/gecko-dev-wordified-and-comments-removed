@@ -1490,6 +1490,9 @@ in
 log_file
 :
             
+try
+:
+                
 data
 =
 json
@@ -1498,6 +1501,12 @@ loads
 (
 line
 )
+            
+except
+ValueError
+:
+                
+continue
             
 action
 =
