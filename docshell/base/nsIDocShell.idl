@@ -7021,6 +7021,17 @@ notifyJSRunToCompletionStop
 (
 )
 ;
+[
+noscript
+]
+void
+GetOSHEId
+(
+out
+uint32_t
+aSHEntryId
+)
+;
 /
 *
 *
