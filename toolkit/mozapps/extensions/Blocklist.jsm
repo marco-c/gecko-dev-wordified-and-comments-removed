@@ -5991,7 +5991,7 @@ chrome
 :
 /
 /
-mozapps
+global
 /
 skin
 /
