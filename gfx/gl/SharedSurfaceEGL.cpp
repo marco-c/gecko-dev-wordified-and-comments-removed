@@ -1178,17 +1178,6 @@ WaitForBufferOwnership
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-!
-mSurface
--
->
-GetAvailable
-(
-)
-)
-;
 mSurface
 -
 >
