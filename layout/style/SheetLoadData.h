@@ -168,6 +168,8 @@ aURI
 StyleSheet
 *
 aSheet
+bool
+aSyncLoad
 nsIStyleSheetLinkingElement
 *
 aOwningElement
