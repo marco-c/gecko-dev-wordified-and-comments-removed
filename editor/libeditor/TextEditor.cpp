@@ -9633,7 +9633,9 @@ aEditSubAction
 ;
 MOZ_ASSERT
 (
-mDirection
+GetDirectionOfTopLevelEditSubAction
+(
+)
 =
 =
 aDirection
@@ -9651,7 +9653,7 @@ rules
 BeforeEdit
 (
 aEditSubAction
-mDirection
+aDirection
 )
 ;
 NS_WARNING_ASSERTION
@@ -9708,7 +9710,9 @@ AfterEdit
 GetTopLevelEditSubAction
 (
 )
-mDirection
+GetDirectionOfTopLevelEditSubAction
+(
+)
 )
 :
 NS_OK
@@ -9750,7 +9754,9 @@ GetTopLevelEditSubAction
 ;
 MOZ_ASSERT
 (
-mDirection
+GetDirectionOfTopLevelEditSubAction
+(
+)
 =
 =
 eNone
