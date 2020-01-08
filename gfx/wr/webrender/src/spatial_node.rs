@@ -2252,6 +2252,15 @@ info
 .
 current_offset
 ;
+state
+.
+nearest_scrolling_ancestor_offset
++
+=
+info
+.
+current_offset
+;
 }
 SpatialNodeType
 :
