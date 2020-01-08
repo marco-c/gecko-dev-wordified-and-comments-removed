@@ -4,7 +4,7 @@ llvm_revision
 "
 :
 "
-340491
+342383
 "
 "
 stages
@@ -60,7 +60,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+final
 "
 "
 clang_repo
@@ -87,7 +87,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+final
 "
 "
 extra_repo
@@ -118,7 +118,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+final
 "
 "
 compiler_repo
@@ -147,7 +147,7 @@ tags
 /
 RELEASE_700
 /
-rc2
+final
 "
 "
 libcxx_repo

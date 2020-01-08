@@ -498,8 +498,6 @@ clang
 -
 7
 -
-pre
--
 linux64
 .
 json
@@ -558,7 +556,6 @@ MinGW
 -
 Clang
 7
-Pre
 x86
 toolchain
 build
@@ -577,7 +574,9 @@ symbol
 :
 TMW
 (
-clang7p32
+clang7
+-
+32
 )
 tier
 :
@@ -626,8 +625,6 @@ build
 clang
 -
 7
--
-pre
 -
 mingw
 .
@@ -746,7 +743,9 @@ symbol
 :
 TMW
 (
-clang7p64
+clang7
+-
+64
 )
 tier
 :
@@ -796,8 +795,6 @@ clang
 -
 7
 -
-pre
--
 mingw
 .
 sh
@@ -835,8 +832,6 @@ clang
 clang
 -
 7
--
-pre
 -
 mingw
 .

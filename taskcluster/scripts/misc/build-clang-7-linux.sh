@@ -101,8 +101,6 @@ clang
 -
 7
 -
-pre
--
 linux64
 .
 json
