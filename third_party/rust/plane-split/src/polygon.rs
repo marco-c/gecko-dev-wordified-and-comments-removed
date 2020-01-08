@@ -2555,7 +2555,7 @@ t
 T
 :
 :
-zero
+approx_epsilon
 (
 )
 &
@@ -2566,6 +2566,13 @@ T
 :
 :
 one
+(
+)
+-
+T
+:
+:
+approx_epsilon
 (
 )
 {
