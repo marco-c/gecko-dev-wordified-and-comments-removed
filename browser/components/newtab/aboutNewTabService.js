@@ -589,15 +589,6 @@ Ci
 nsIObserver
 ]
 )
-_xpcom_categories
-:
-[
-{
-service
-:
-true
-}
-]
 observe
 (
 subject

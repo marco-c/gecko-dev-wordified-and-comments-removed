@@ -175,15 +175,6 @@ Ci
 nsIPageThumbsStorageService
 ]
 )
-_xpcom_categories
-:
-[
-{
-service
-:
-true
-}
-]
 _path
 :
 null
