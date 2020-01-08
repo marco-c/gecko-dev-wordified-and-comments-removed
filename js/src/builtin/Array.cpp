@@ -2118,6 +2118,15 @@ true
 ;
 }
 static
+bool
+ObjectMayHaveExtraIndexedProperties
+(
+JSObject
+*
+obj
+)
+;
+static
 inline
 bool
 IsPackedArrayOrNoExtraIndexedProperties
@@ -4896,10 +4905,8 @@ obj
 )
 ;
 }
+static
 bool
-js
-:
-:
 ObjectMayHaveExtraIndexedProperties
 (
 JSObject
