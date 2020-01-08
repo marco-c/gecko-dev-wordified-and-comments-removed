@@ -52,6 +52,9 @@ scripts
 .
 html
 "
+"
+long
+"
 )
 ;
 await

@@ -24,8 +24,8 @@ pausePoints
 import
 type
 {
-Location
-ColumnPosition
+SourceLocation
+Position
 }
 from
 "
@@ -78,7 +78,7 @@ symbols
 Symbols
 tokenPos
 :
-ColumnPosition
+Position
 )
 {
 if
@@ -433,7 +433,7 @@ any
 ]
 location
 :
-Location
+SourceLocation
 )
 {
 if
@@ -592,7 +592,7 @@ symbols
 Symbols
 location
 :
-Location
+SourceLocation
 )
 :
 FunctionDeclaration
@@ -633,7 +633,7 @@ symbols
 Symbols
 location
 :
-Location
+SourceLocation
 )
 :
 ClassDeclaration

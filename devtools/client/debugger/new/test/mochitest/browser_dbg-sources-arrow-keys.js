@@ -18,12 +18,6 @@ sources
 .
 html
 "
-)
-;
-await
-waitForSources
-(
-dbg
 "
 simple1
 "

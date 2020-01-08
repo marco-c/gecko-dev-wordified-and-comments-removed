@@ -3,7 +3,7 @@ type
 {
 Frame
 Source
-Location
+SourceLocation
 }
 from
 "
@@ -306,14 +306,14 @@ createBreakpointLocation
 (
 location
 :
-Location
+SourceLocation
 actualLocation
 ?
 :
 Object
 )
 :
-Location
+SourceLocation
 {
 if
 (

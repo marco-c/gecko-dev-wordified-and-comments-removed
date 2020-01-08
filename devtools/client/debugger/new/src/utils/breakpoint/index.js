@@ -77,7 +77,7 @@ breakpointSources
 import
 type
 {
-Location
+SourceLocation
 PendingLocation
 Breakpoint
 PendingBreakpoint
@@ -160,10 +160,10 @@ locationMoved
 (
 location
 :
-Location
+SourceLocation
 newLocation
 :
-Location
+SourceLocation
 )
 {
 return
@@ -197,7 +197,7 @@ makeLocationId
 (
 location
 :
-Location
+SourceLocation
 )
 {
 const
@@ -238,7 +238,7 @@ getLocationWithoutColumn
 (
 location
 :
-Location
+SourceLocation
 )
 {
 const
@@ -265,7 +265,7 @@ makePendingLocationId
 (
 location
 :
-Location
+SourceLocation
 )
 {
 assertPendingLocation
@@ -368,7 +368,7 @@ assertLocation
 (
 location
 :
-Location
+SourceLocation
 )
 {
 assertPendingLocation
@@ -500,7 +500,7 @@ line
 column
 }
 :
-Location
+SourceLocation
 )
 {
 return
@@ -571,7 +571,7 @@ state
 State
 location
 :
-Location
+SourceLocation
 )
 {
 const
@@ -599,7 +599,7 @@ createBreakpoint
 (
 location
 :
-Location
+SourceLocation
 overrides
 :
 Object

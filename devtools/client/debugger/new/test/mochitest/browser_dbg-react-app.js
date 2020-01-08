@@ -26,17 +26,6 @@ js
 )
 ;
 await
-waitForSource
-(
-dbg
-"
-App
-.
-js
-"
-)
-;
-await
 addBreakpoint
 (
 dbg
