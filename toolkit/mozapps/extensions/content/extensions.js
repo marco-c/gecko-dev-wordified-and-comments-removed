@@ -3540,6 +3540,7 @@ info
 addon
 .
 icon
+install
 permissions
 :
 difference

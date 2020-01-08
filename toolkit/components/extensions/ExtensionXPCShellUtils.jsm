@@ -3342,6 +3342,7 @@ constructor
 testScope
 xpiFile
 installType
+installTelemetryInfo
 )
 {
 super
@@ -3360,6 +3361,12 @@ this
 installType
 =
 installType
+;
+this
+.
+installTelemetryInfo
+=
+installTelemetryInfo
 ;
 this
 .
@@ -3586,6 +3593,10 @@ AddonManager
 getInstallForFile
 (
 xpiFile
+null
+this
+.
+installTelemetryInfo
 )
 .
 then
@@ -4308,6 +4319,9 @@ xpiFile
 data
 .
 useAddonManager
+data
+.
+amInstallTelemetryInfo
 )
 ;
 }
@@ -4340,6 +4354,7 @@ useAddonManager
 "
 temporary
 "
+installTelemetryInfo
 )
 {
 return
@@ -4351,6 +4366,7 @@ this
 currentScope
 xpiFile
 useAddonManager
+installTelemetryInfo
 )
 ;
 }
