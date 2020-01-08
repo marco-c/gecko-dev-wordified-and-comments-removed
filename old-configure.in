@@ -22829,9 +22829,6 @@ fi
 fi
 #
 MOZ_ANGLE_RENDERER
-fi
-#
-COMPILE_ENVIRONMENT
 dnl
 =
 =
@@ -23026,6 +23023,9 @@ headers
 )
 fi
 fi
+fi
+#
+COMPILE_ENVIRONMENT
 dnl
 =
 =
