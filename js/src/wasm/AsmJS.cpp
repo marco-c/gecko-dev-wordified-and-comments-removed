@@ -37045,6 +37045,9 @@ fun
 return
 false
 ;
+JS
+:
+:
 CompileOptions
 options
 (

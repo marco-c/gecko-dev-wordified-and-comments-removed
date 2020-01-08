@@ -436,6 +436,12 @@ using
 JS
 :
 :
+CompileOptions
+;
+using
+JS
+:
+:
 dbg
 :
 :

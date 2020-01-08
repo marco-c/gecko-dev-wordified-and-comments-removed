@@ -216,6 +216,15 @@ h
 #
 include
 "
+js
+/
+CompileOptions
+.
+h
+"
+#
+include
+"
 vm
 /
 BytecodeUtil
@@ -24040,6 +24049,9 @@ mutedErrors
 )
 ;
 const
+JS
+:
+:
 TransitiveCompileOptions
 &
 transitiveOptions
@@ -24051,6 +24063,9 @@ options
 (
 )
 ;
+JS
+:
+:
 CompileOptions
 options
 (

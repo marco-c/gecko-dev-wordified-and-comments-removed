@@ -97,6 +97,15 @@ include
 "
 js
 /
+CompileOptions
+.
+h
+"
+#
+include
+"
+js
+/
 UbiNode
 .
 h
@@ -1573,6 +1582,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -2456,6 +2468,9 @@ cx
 HandleScriptSourceObject
 source
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options

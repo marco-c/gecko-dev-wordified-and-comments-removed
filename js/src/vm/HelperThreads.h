@@ -88,6 +88,15 @@ include
 "
 js
 /
+CompileOptions
+.
+h
+"
+#
+include
+"
+js
+/
 SourceBufferHolder
 .
 h
@@ -2202,6 +2211,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -2228,6 +2240,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -2254,6 +2269,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -2287,6 +2305,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -2315,6 +2336,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -2500,6 +2524,9 @@ OffThreadToken
 ParseTaskKind
 kind
 ;
+JS
+:
+:
 OwningCompileOptions
 options
 ;
@@ -2583,6 +2610,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options

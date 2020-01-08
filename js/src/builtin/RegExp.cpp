@@ -146,6 +146,12 @@ mozilla
 :
 IsAsciiDigit
 ;
+using
+JS
+:
+:
+CompileOptions
+;
 bool
 js
 :

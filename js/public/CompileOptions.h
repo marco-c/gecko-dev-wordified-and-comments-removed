@@ -317,6 +317,12 @@ delete
 class
 JS_PUBLIC_API
 (
+CompileOptions
+)
+;
+class
+JS_PUBLIC_API
+(
 ReadOnlyCompileOptions
 )
 :

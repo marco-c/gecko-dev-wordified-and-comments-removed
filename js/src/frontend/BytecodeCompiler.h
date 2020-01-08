@@ -23,6 +23,15 @@ h
 #
 include
 "
+js
+/
+CompileOptions
+.
+h
+"
+#
+include
+"
 vm
 /
 Scope
@@ -87,6 +96,9 @@ alloc
 ScopeKind
 scopeKind
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -121,6 +133,9 @@ LifoAlloc
 &
 alloc
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -155,6 +170,9 @@ scopeChain
 HandleScope
 enclosingScope
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -180,6 +198,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -199,6 +220,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -250,6 +274,9 @@ cx
 MutableHandleFunction
 fun
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -285,6 +312,9 @@ cx
 MutableHandleFunction
 fun
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -316,6 +346,9 @@ cx
 MutableHandleFunction
 fun
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -347,6 +380,9 @@ cx
 MutableHandleFunction
 fun
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
@@ -376,6 +412,9 @@ JSContext
 *
 cx
 const
+JS
+:
+:
 ReadOnlyCompileOptions
 &
 options
