@@ -292,7 +292,7 @@ baseURI
 Pure
 BinaryName
 =
-getComposedDoc
+isInComposedDoc
 ]
 readonly
 attribute
