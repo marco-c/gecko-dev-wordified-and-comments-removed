@@ -24727,7 +24727,6 @@ onSecurityChange
 this
 .
 _state
-aWebProgress
 aIsSimulated
 )
 ;
