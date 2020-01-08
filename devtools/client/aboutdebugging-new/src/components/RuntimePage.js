@@ -100,6 +100,8 @@ require
 "
 .
 /
+debugtarget
+/
 DebugTargetPane
 "
 )
