@@ -1583,7 +1583,7 @@ mUnicodeDecoder
 mEncoding
 -
 >
-NewDecoderWithBOMRemoval
+NewDecoderWithoutBOMHandling
 (
 )
 ;
