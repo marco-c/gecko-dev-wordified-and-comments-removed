@@ -164,10 +164,14 @@ false
 )
 {
 }
+template
+<
+typename
+ContainerType
+>
 EditorDOMPointBase
 (
-nsINode
-*
+ContainerType
 aContainer
 int32_t
 aOffset
