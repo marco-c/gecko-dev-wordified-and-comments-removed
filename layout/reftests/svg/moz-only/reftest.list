@@ -58,6 +58,7 @@ svg
 pass
 .
 svg
+fails
 =
 =
 xbl
@@ -210,6 +211,7 @@ svg
 pass
 .
 svg
+fails
 =
 =
 xbl
