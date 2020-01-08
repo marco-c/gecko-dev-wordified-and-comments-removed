@@ -12,13 +12,6 @@ Task
 "
 ]
 ;
-Cu
-.
-permitCPOWsInScope
-(
-this
-)
-;
 const
 ERRORS_TO_REPORT
 =

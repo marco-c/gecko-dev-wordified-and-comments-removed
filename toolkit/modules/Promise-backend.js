@@ -150,13 +150,6 @@ nsIFinalizationWitnessService
 "
 )
 ;
-Cu
-.
-permitCPOWsInScope
-(
-this
-)
-;
 }
 const
 STATUS_PENDING
