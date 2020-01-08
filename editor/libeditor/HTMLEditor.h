@@ -2432,6 +2432,17 @@ nsAString
 aURL
 )
 ;
+void
+EnableStyleSheetInternal
+(
+const
+nsAString
+&
+aURL
+bool
+aEnable
+)
+;
 nsresult
 MaybeCollapseSelectionAtFirstEditableNode
 (
