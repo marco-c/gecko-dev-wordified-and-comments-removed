@@ -83,17 +83,7 @@ UrlbarController
 jsm
 '
 '
-UrlbarInput
-.
-jsm
-'
-'
 UrlbarTokenizer
-.
-jsm
-'
-'
-UrlbarView
 .
 jsm
 '
