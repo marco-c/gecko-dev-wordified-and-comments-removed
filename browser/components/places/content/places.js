@@ -1810,7 +1810,7 @@ node
 {
 PlacesUIUtils
 .
-openMultipleLinksInTabs
+openContainerNodeInTabs
 (
 node
 aEvent
@@ -6440,7 +6440,7 @@ node
 {
 PlacesUIUtils
 .
-openMultipleLinksInTabs
+openContainerNodeInTabs
 (
 node
 aEvent

@@ -3454,7 +3454,7 @@ toolbarbutton
 )
 PlacesUIUtils
 .
-openMultipleLinksInTabs
+openContainerNodeInTabs
 (
 target
 .
