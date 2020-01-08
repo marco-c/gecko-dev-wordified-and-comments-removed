@@ -5287,14 +5287,14 @@ finish
 "
         
 for
-item
+manager
 in
 self
 .
 pool
 :
             
-item
+manager
 .
 join
 (
@@ -5364,11 +5364,11 @@ self
 return
 sum
 (
-item
+manager
 .
 test_count
 for
-item
+manager
 in
 self
 .
@@ -5385,11 +5385,11 @@ self
 return
 sum
 (
-item
+manager
 .
 unexpected_count
 for
-item
+manager
 in
 self
 .
