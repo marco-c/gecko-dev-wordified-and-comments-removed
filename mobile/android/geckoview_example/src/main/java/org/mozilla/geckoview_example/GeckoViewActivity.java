@@ -350,13 +350,9 @@ String
 DEFAULT_URL
 =
 "
-https
+about
 :
-/
-/
-mozilla
-.
-org
+blank
 "
 ;
 private
