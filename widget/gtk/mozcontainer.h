@@ -154,13 +154,13 @@ wl_egl_window
 eglwindow
 ;
 gboolean
-needs_clear
+surface_needs_clear
 ;
 gboolean
-parent_surface_committed
+ready_to_draw
 ;
 gulong
-parent_surface_committed_handler
+frame_clock_after_paint_handler
 ;
 #
 endif
@@ -234,7 +234,7 @@ container
 )
 ;
 gboolean
-moz_container_needs_clear
+moz_container_surface_needs_clear
 (
 MozContainer
 *
