@@ -122,12 +122,12 @@ vm
 )
     
 import
-opcode
+jsopcode
     
 try
 :
         
-opcode
+jsopcode
 .
 get_opcodes
 (
