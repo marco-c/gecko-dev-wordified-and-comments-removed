@@ -138,7 +138,7 @@ diag
 FuncCall
 -
 >
-getLocStart
+getBeginLoc
 (
 )
 "
