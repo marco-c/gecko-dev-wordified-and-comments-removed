@@ -3709,6 +3709,16 @@ WR_FUNC
 ;
 WR_INLINE
 void
+wr_api_notify_memory_pressure
+(
+DocumentHandle
+*
+aDh
+)
+WR_FUNC
+;
+WR_INLINE
+void
 wr_api_send_external_event
 (
 DocumentHandle

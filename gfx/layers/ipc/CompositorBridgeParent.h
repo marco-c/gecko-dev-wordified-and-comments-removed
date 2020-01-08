@@ -934,6 +934,13 @@ MOZ_CRASH
 )
 ;
 }
+virtual
+void
+NotifyMemoryPressure
+(
+)
+{
+}
 protected
 :
 ~
@@ -1402,6 +1409,13 @@ ipc
 :
 IPCResult
 RecvAllPluginsCaptured
+(
+)
+override
+;
+virtual
+void
+NotifyMemoryPressure
 (
 )
 override
