@@ -1152,6 +1152,16 @@ LIR_HEADER
 MulI
 )
 ;
+LMulI
+(
+)
+:
+LBinaryMath
+(
+classOpcode
+)
+{
+}
 MMul
 *
 mir
