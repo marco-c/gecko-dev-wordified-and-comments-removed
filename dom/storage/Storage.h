@@ -107,6 +107,7 @@ StorageType
 {
 eSessionStorage
 eLocalStorage
+ePartitionedLocalStorage
 }
 ;
 virtual

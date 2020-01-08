@@ -1538,7 +1538,7 @@ aWindow
 if
 (
 access
-=
+<
 =
 nsContentUtils
 :

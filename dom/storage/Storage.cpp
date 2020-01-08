@@ -186,7 +186,7 @@ Principal
 if
 (
 access
-=
+<
 =
 nsContentUtils
 :

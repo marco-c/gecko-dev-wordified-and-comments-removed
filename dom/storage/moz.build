@@ -126,6 +126,11 @@ LocalStorageManager
 h
 '
 '
+PartitionedLocalStorage
+.
+h
+'
+'
 SessionStorageManager
 .
 h
@@ -177,6 +182,11 @@ cpp
 '
 '
 LocalStorageManager
+.
+cpp
+'
+'
+PartitionedLocalStorage
 .
 cpp
 '
