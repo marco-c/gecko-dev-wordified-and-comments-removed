@@ -6127,7 +6127,9 @@ nsDisplayTransform
 aItem
 )
 ;
+const
 Matrix4x4Flagged
+&
 t
 =
 transformItem
@@ -6926,7 +6928,9 @@ nsDisplayTransform
 item
 )
 ;
+const
 Matrix4x4Flagged
+&
 t
 =
 transformItem
@@ -7223,7 +7227,9 @@ nsDisplayTransform
 item
 )
 ;
+const
 Matrix4x4Flagged
+&
 t
 =
 transformItem
