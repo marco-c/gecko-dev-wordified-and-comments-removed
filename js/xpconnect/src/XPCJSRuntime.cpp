@@ -914,10 +914,6 @@ isSandboxCompartment
 (
 false
 )
-isAddonCompartment
-(
-false
-)
 universalXPConnectEnabled
 (
 false

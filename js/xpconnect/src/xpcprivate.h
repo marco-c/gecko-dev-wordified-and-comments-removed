@@ -10836,9 +10836,6 @@ bool
 isSandboxCompartment
 ;
 bool
-isAddonCompartment
-;
-bool
 universalXPConnectEnabled
 ;
 bool
