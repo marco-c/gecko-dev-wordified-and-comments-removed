@@ -101,6 +101,9 @@ Window
 interface
 TrustedTypePolicyFactory
 {
+[
+Unforgeable
+]
 TrustedTypePolicy
 createPolicy
 (
@@ -121,6 +124,9 @@ that
 have
 been
 created
+[
+Unforgeable
+]
 sequence
 <
 DOMString
@@ -139,11 +145,17 @@ Window
 interface
 TrustedTypePolicy
 {
+[
+Unforgeable
+]
 readonly
 attribute
 DOMString
 name
 ;
+[
+Unforgeable
+]
 TrustedHTML
 createHTML
 (
@@ -151,6 +163,9 @@ DOMString
 input
 )
 ;
+[
+Unforgeable
+]
 TrustedScript
 createScript
 (
@@ -158,6 +173,9 @@ DOMString
 input
 )
 ;
+[
+Unforgeable
+]
 TrustedScriptURL
 createScriptURL
 (
@@ -165,6 +183,9 @@ DOMString
 input
 )
 ;
+[
+Unforgeable
+]
 TrustedURL
 createURL
 (
