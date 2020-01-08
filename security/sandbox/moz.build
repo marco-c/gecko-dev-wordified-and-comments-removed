@@ -1589,11 +1589,15 @@ CONFIG
 CPU_ARCH
 '
 ]
-=
-=
+in
+(
 '
 x86_64
 '
+'
+aarch64
+'
+)
 :
 SOURCES
 +
