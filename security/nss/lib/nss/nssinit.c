@@ -245,6 +245,13 @@ sizeof
 optimizeSpace
 "
 )
++
+sizeof
+(
+"
+printPolicyFeedback
+"
+)
 #
 define
 NSS_DEFAULT_MOD_NAME

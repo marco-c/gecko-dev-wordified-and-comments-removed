@@ -156,6 +156,12 @@ makepqg
 \
 multinit
 \
+nss
+-
+policy
+-
+check
+\
 ocspclnt
 \
 ocspresp

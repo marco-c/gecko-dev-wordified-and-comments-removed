@@ -1996,6 +1996,9 @@ bogo
 "
 interop
 "
+"
+policy
+"
 ]
 parser_test
 .

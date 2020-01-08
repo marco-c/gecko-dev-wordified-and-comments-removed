@@ -430,6 +430,14 @@ for
 everything
 else
 #
+policy
+.
+sh
+-
+Crypto
+Policy
+tests
+#
 bogo
 .
 sh
@@ -3130,6 +3138,7 @@ pkits
 ec
 gtests
 ssl_gtests
+policy
 "
 #
 Don

@@ -269,6 +269,7 @@ CERT_GenTime2FormattedAscii_Util
 CERT_GetCertChainFromCert
 CERT_GetCertEmailAddress
 CERT_GetCertificateRequestExtensions
+CERT_GetCertKeyType
 CERT_GetCertTimes
 CERT_GetCertTrust
 CERT_GetCommonName
@@ -445,6 +446,7 @@ XP_WIN
 _NSSUTIL_Access
 #
 endif
+NSSUTIL_AddNSSFlagToModuleSpec
 NSSUTIL_ArgDecodeNumber
 NSSUTIL_ArgFetchValue
 NSSUTIL_ArgGetLabel
@@ -545,6 +547,7 @@ PK11_GetNextSymKey
 PK11_GetPadMechanism
 PK11_GetPrivateKeyNickname
 PK11_GetPrivateModulusLen
+PK11_GetSlotFromPrivateKey
 PK11_GetSlotID
 PK11_GetSlotInfo
 PK11_GetSlotName

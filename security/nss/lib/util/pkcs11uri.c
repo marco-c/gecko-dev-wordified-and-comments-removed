@@ -3066,7 +3066,7 @@ ret
 ;
 if
 (
-strncmp
+PORT_Strncasecmp
 (
 "
 pkcs11

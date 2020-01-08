@@ -3528,7 +3528,7 @@ tokenName
 if
 (
 !
-strncmp
+PORT_Strncasecmp
 (
 nickname
 "
