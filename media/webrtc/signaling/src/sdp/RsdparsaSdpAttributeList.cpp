@@ -6552,7 +6552,9 @@ direction
 bool
 directionSpecified
 =
-true
+rustExtmap
+.
+direction_specified
 ;
 switch
 (
@@ -6617,11 +6619,7 @@ direction
 SdpDirectionAttribute
 :
 :
-kSendrecv
-;
-directionSpecified
-=
-false
+kInactive
 ;
 break
 ;

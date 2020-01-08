@@ -6467,6 +6467,10 @@ id
 :
 uint16_t
 pub
+direction_specified
+:
+bool
+pub
 direction
 :
 RustDirection
@@ -6515,6 +6519,15 @@ other
 id
 as
 uint16_t
+direction_specified
+:
+other
+.
+direction
+.
+is_some
+(
+)
 direction
 :
 RustDirection

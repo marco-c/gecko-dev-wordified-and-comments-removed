@@ -497,6 +497,9 @@ RustSdpAttributeExtmap
 uint16_t
 id
 ;
+bool
+direction_specified
+;
 RustDirection
 direction
 ;
