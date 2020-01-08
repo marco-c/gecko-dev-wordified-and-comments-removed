@@ -55,7 +55,7 @@ item
 import
 Stub
 ManualTest
-WebdriverSpecTest
+WebDriverSpecTest
 RefTestNode
 TestharnessTest
 SupportFile
@@ -4942,11 +4942,11 @@ name_is_webdriver
             
 rv
 =
-WebdriverSpecTest
+WebDriverSpecTest
 .
 item_type
 [
-WebdriverSpecTest
+WebDriverSpecTest
 (
 self
 self

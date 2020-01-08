@@ -1451,7 +1451,7 @@ item_type
 stub
 "
 class
-WebdriverSpecTest
+WebDriverSpecTest
 (
 URLManifestItem
 )

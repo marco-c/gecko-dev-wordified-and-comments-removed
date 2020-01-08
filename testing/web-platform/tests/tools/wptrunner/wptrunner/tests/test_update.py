@@ -247,7 +247,7 @@ wdspec
 :
 manifest_item
 .
-WebdriverSpecTest
+WebDriverSpecTest
                 
 "
 conformancechecker

@@ -20,7 +20,7 @@ from
 item
 import
 ManualTest
-WebdriverSpecTest
+WebDriverSpecTest
 Stub
 RefTestNode
 RefTest
@@ -1254,7 +1254,7 @@ Stub
 wdspec
 "
 :
-WebdriverSpecTest
+WebDriverSpecTest
                         
 "
 conformancechecker
