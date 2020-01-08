@@ -2584,6 +2584,7 @@ GetAllInFlowRects
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aRelativeTo
@@ -2603,6 +2604,7 @@ GetAllInFlowRectsAndTexts
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aRelativeTo
@@ -2634,6 +2636,7 @@ GetAllInFlowRectsUnion
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aRelativeTo
