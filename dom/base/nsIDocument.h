@@ -6619,16 +6619,6 @@ DocumentOrShadowRoot
 :
 GetElementsByClassName
 ;
-Element
-*
-LookupImageElement
-(
-const
-nsAString
-&
-aElementId
-)
-;
 mozilla
 :
 :
