@@ -56353,7 +56353,7 @@ true
 )
 ;
 }
-MaybeAllowStorageForOpenerAfterUserInteraction
+MaybeAllowStorageForOpener
 (
 )
 ;
@@ -56535,7 +56535,7 @@ void
 nsIDocument
 :
 :
-MaybeAllowStorageForOpenerAfterUserInteraction
+MaybeAllowStorageForOpener
 (
 )
 {
@@ -56755,7 +56755,7 @@ openerInner
 AntiTrackingCommon
 :
 :
-eOpenerAfterUserInteraction
+eHeuristic
 )
 ;
 }
