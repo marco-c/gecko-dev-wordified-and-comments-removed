@@ -316,6 +316,15 @@ android
 .
 support
 .
+annotation
+.
+Nullable
+;
+import
+android
+.
+support
+.
 v7
 .
 app
@@ -2035,6 +2044,7 @@ private
 String
 getProfileName
 (
+Nullable
 File
 profileDir
 )
@@ -2077,6 +2087,12 @@ parser
 getSections
 (
 )
+!
+=
+null
+&
+&
+profileDir
 !
 =
 null
