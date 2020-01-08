@@ -104,6 +104,11 @@ profiles
 json
 '
 '
+profileserver
+/
+*
+'
+'
 reftest
 /
 *
