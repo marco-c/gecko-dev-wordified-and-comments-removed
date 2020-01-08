@@ -822,16 +822,6 @@ return
 true
 ;
 }
-isSelectable
-:
-function
-isSelectable
-(
-aRow
-aCol
-)
-{
-}
 setCellText
 :
 function

@@ -747,16 +747,6 @@ return
 false
 ;
 }
-isSelectable
-(
-row
-column
-)
-{
-return
-false
-;
-}
 performAction
 (
 action

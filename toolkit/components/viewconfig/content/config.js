@@ -658,16 +658,6 @@ return
 false
 ;
 }
-isSelectable
-(
-row
-col
-)
-{
-return
-false
-;
-}
 setCellValue
 (
 row

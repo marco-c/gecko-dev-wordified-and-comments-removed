@@ -4010,16 +4010,6 @@ engineName
 "
 ;
 }
-isSelectable
-(
-index
-column
-)
-{
-return
-false
-;
-}
 setCellValue
 (
 index
