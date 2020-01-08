@@ -12126,6 +12126,12 @@ if
 this
 .
 _inspector
+&
+&
+!
+this
+.
+_initInspector
 )
 {
 return
