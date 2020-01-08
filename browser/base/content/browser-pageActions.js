@@ -2657,6 +2657,18 @@ if
 urlbarNode
 )
 {
+if
+(
+urlbarNode
+.
+nodeName
+!
+=
+"
+hbox
+"
+)
+{
 urlbarNode
 .
 setAttribute
@@ -2669,6 +2681,7 @@ label
 title
 )
 ;
+}
 let
 tooltip
 =
