@@ -122,4 +122,11 @@ process
 .
 js
 '
+'
+document
+-
+events
+.
+js
+'
 )
