@@ -352,16 +352,6 @@ the
 UNIX
 epoch
 .
-hg_branch
-The
-mercurial
-branch
-where
-the
-revision
-lives
-in
-.
 build_date
 The
 timestamp
