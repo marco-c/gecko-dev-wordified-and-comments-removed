@@ -45,15 +45,13 @@ foo
 "
 )
 ;
-aWindow
+Services
 .
-document
+xulStore
 .
 persist
 (
-"
 categories
-"
 "
 last
 -
