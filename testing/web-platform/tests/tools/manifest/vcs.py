@@ -414,13 +414,6 @@ r
 z
 "
 "
--
--
-name
--
-only
-"
-"
 HEAD
 "
 ]
@@ -434,7 +427,7 @@ _local_changes
 )
         
 for
-rel_path
+result
 in
 self
 .
@@ -457,6 +450,33 @@ split
 1
 ]
 :
+            
+rel_path
+=
+result
+.
+split
+(
+"
+\
+t
+"
+)
+[
+-
+1
+]
+            
+hash
+=
+result
+.
+split
+(
+)
+[
+2
+]
             
 if
 not
@@ -514,6 +534,8 @@ rel_path
 self
 .
 url_base
+                                 
+hash
                                  
 contents
 =
