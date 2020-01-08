@@ -796,3 +796,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+security
+.
+pki
+.
+mitm_detected
+"
+false
+)
+;
