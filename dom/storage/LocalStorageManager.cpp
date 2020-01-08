@@ -1013,6 +1013,13 @@ NS_OK
 }
 }
 }
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 PBackgroundChild
 *
 backgroundActor
@@ -1099,6 +1106,8 @@ return
 rv
 ;
 }
+#
+endif
 cache
 =
 PutCache
@@ -1108,6 +1117,13 @@ originKey
 aPrincipal
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 LocalStorageCacheChild
 *
 actor
@@ -1140,6 +1156,8 @@ SetActor
 actor
 )
 ;
+#
+endif
 }
 if
 (
