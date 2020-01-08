@@ -1822,6 +1822,17 @@ Element
 {
 [
 NeedsCallerType
+Pref
+=
+"
+dom
+.
+pointer
+-
+lock
+.
+enabled
+"
 ]
 void
 requestPointerLock
