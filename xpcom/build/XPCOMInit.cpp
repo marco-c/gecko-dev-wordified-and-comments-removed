@@ -196,6 +196,13 @@ h
 #
 include
 "
+nsErrorService
+.
+h
+"
+#
+include
+"
 nsArray
 .
 h
