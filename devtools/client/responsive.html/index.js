@@ -180,7 +180,9 @@ require
 "
 .
 /
-app
+components
+/
+App
 "
 )
 )

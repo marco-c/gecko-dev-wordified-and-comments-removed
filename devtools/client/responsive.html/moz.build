@@ -111,11 +111,6 @@ utils
 DevToolsModules
 (
 '
-app
-.
-js
-'
-'
 commands
 .
 js
