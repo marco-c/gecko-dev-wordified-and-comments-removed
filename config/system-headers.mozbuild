@@ -7961,6 +7961,13 @@ system_headers
 =
 [
 '
+xkbcommon
+/
+xkbcommon
+.
+h
+'
+'
 wayland
 -
 client
