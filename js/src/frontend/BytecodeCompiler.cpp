@@ -253,7 +253,7 @@ Script
 )
 &
 &
-createScript
+createCompleteScript
 (
 )
 ;
@@ -292,7 +292,7 @@ Module
 )
 &
 &
-createScript
+createCompleteScript
 (
 )
 ;
@@ -473,7 +473,7 @@ Nothing
 )
 ;
 bool
-createScript
+createCompleteScript
 (
 )
 ;
@@ -1333,7 +1333,7 @@ bool
 BytecodeCompiler
 :
 :
-createScript
+createCompleteScript
 (
 )
 {
