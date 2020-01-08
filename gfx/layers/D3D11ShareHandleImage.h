@@ -182,6 +182,10 @@ gfx
 IntRect
 &
 aRect
+const
+GUID
+&
+aSourceFormat
 )
 ;
 virtual
@@ -200,8 +204,6 @@ aAllocator
 ID3D11Device
 *
 aDevice
-bool
-aPreferNV12
 )
 ;
 gfx
@@ -270,6 +272,10 @@ gfx
 :
 IntRect
 mPictureRect
+;
+const
+GUID
+mSourceFormat
 ;
 RefPtr
 <

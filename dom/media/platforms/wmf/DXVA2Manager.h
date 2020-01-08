@@ -155,6 +155,10 @@ CopyToBGRATexture
 ID3D11Texture2D
 *
 aInTexture
+const
+GUID
+&
+aSubType
 ID3D11Texture2D
 *
 *
