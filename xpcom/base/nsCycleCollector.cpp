@@ -17603,6 +17603,17 @@ ProcessStableStateQueue
 (
 )
 ;
+data
+-
+>
+mContext
+-
+>
+PerformMicroTaskCheckPoint
+(
+true
+)
+;
 }
 if
 (
