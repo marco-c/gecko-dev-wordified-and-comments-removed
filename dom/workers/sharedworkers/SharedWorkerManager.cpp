@@ -231,6 +231,11 @@ const
 MessagePortIdentifier
 &
 aPortIdentifier
+base
+:
+:
+ProcessId
+aProcessId
 )
 {
 AssertIsOnBackgroundThread
@@ -252,6 +257,7 @@ Create
 (
 aData
 this
+aProcessId
 )
 ;
 if

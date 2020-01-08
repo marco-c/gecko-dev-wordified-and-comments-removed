@@ -78,6 +78,11 @@ aData
 RemoteWorkerObserver
 *
 aObserver
+base
+:
+:
+ProcessId
+aProcessId
 )
 {
 AssertIsOnBackgroundThread
@@ -133,6 +138,7 @@ Launch
 (
 controller
 aData
+aProcessId
 )
 ;
 return
