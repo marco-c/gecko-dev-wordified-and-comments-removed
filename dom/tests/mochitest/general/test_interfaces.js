@@ -2504,6 +2504,16 @@ true
 name
 :
 "
+HTMLMarqueeElement
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 HTMLMediaElement
 "
 insecureContext

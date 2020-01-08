@@ -1508,6 +1508,16 @@ before
 Atom
 (
 "
+behavior
+"
+"
+behavior
+"
+)
+    
+Atom
+(
+"
 bgcolor
 "
 "
@@ -10356,6 +10366,16 @@ scrollbar
 Atom
 (
 "
+scrollamount
+"
+"
+scrollamount
+"
+)
+    
+Atom
+(
+"
 scrollbarbutton
 "
 "
@@ -10436,6 +10456,16 @@ scrollcorner
 "
 "
 scrollcorner
+"
+)
+    
+Atom
+(
+"
+scrolldelay
+"
+"
+scrolldelay
 "
 )
     
@@ -11816,6 +11846,16 @@ _true
 "
 "
 true
+"
+)
+    
+Atom
+(
+"
+truespeed
+"
+"
+truespeed
 "
 )
     

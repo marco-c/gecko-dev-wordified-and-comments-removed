@@ -4121,7 +4121,7 @@ nsGkAtoms
 :
 :
 marquee
-NS_NewHTMLDivElement
+NS_NewHTMLMarqueeElement
 NS_NewSVGUnknownElement
 nsHtml5TreeBuilder
 :

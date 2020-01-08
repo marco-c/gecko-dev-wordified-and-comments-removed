@@ -3589,6 +3589,11 @@ HTMLMapElement
 webidl
 '
 '
+HTMLMarqueeElement
+.
+webidl
+'
+'
 HTMLMediaElement
 .
 webidl

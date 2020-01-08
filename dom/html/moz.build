@@ -479,6 +479,11 @@ HTMLMapElement
 h
 '
 '
+HTMLMarqueeElement
+.
+h
+'
+'
 HTMLMediaElement
 .
 h
@@ -865,6 +870,11 @@ cpp
 '
 '
 HTMLMapElement
+.
+cpp
+'
+'
+HTMLMarqueeElement
 .
 cpp
 '
