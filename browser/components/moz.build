@@ -363,6 +363,9 @@ DIRS
 =
 [
 '
+aboutconfig
+'
+'
 payments
 '
 ]
