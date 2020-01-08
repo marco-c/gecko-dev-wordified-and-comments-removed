@@ -650,6 +650,14 @@ LookAndFeelInt
 aLookAndFeelIntCache
 )
 ;
+static
+void
+SetShouldRetainCacheForTest
+(
+bool
+aValue
+)
+;
 }
 ;
 }

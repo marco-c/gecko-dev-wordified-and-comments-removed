@@ -630,6 +630,14 @@ RefreshImpl
 (
 )
 {
+if
+(
+mShouldRetainCacheForTest
+)
+{
+return
+;
+}
 nsXPLookAndFeel
 :
 :
