@@ -991,7 +991,9 @@ toolbox
 {
 toolbox
 .
-highlighterUtils
+inspector
+.
+nodePicker
 .
 togglePicker
 (

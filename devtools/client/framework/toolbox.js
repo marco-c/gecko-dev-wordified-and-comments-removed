@@ -6175,7 +6175,9 @@ else
 {
 this
 .
-highlighterUtils
+inspector
+.
+nodePicker
 .
 togglePicker
 (
