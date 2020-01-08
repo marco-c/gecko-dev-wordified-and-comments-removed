@@ -2540,7 +2540,7 @@ nsIPrincipal
 aRequestingPrincipal
 )
 {
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aRequestingPrincipal
@@ -2564,7 +2564,7 @@ nsIPrincipal
 aRequestingPrincipal
 )
 {
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aRequestingPrincipal
@@ -2588,7 +2588,7 @@ mozIDOMWindow
 aRequestingWindow
 )
 {
-NS_ADDREF
+NS_IF_ADDREF
 (
 *
 aRequestingWindow
