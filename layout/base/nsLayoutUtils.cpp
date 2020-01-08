@@ -31637,6 +31637,15 @@ LayoutFrameType
 :
 :
 FieldSet
+|
+|
+fType
+=
+=
+LayoutFrameType
+:
+:
+ColumnSet
 )
 {
 LinePosition
