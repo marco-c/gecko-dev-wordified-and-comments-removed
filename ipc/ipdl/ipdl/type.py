@@ -1,5 +1,6 @@
 import
 os
+import
 sys
 from
 ipdl
@@ -998,7 +999,7 @@ nestedRange
 0
 ]
 or
-            
+                
 lesser
 .
 nestedRange
@@ -1026,7 +1027,7 @@ isInterrupt
 (
 )
 and
-            
+                
 lesser
 .
 nestedRange
@@ -1720,6 +1721,7 @@ self
 .
 managers
 :
+            
 return
 mgr
 class
@@ -1983,6 +1985,7 @@ exploring
 if
 isrec
 :
+                
 self
 .
 mutualRec
@@ -2698,6 +2701,7 @@ within
 class
 found
 :
+        
 pass
     
 class
@@ -2856,6 +2860,7 @@ loc
 is
 None
 :
+            
 loc
 =
 Loc
@@ -2864,6 +2869,7 @@ NONE
         
 else
 :
+            
 loc
 =
 loc
@@ -3067,6 +3073,7 @@ is
 not
 None
 :
+                
 return
 decl
         
@@ -3135,11 +3142,11 @@ append
 (
 errormsg
 (
-                        
+                    
 decl
 .
 loc
-                        
+                    
 "
 redeclaration
 of
@@ -3153,7 +3160,7 @@ at
 %
 s
 "
-                        
+                    
 name
 olddecl
 .
@@ -3185,6 +3192,7 @@ decl
 .
 progname
 :
+            
 tryadd
 (
 decl
@@ -3197,6 +3205,7 @@ decl
 .
 shortname
 :
+            
 tryadd
 (
 decl
@@ -3209,6 +3218,7 @@ decl
 .
 fullname
 :
+            
 tryadd
 (
 decl
@@ -3793,6 +3803,7 @@ Endpoint
 <
 '
 +
+                                              
 fullname
 +
 '
@@ -3856,6 +3867,7 @@ Endpoint
 <
 '
 +
+                                              
 fullname
 +
 '
@@ -4095,6 +4107,7 @@ qname
         
 else
 :
+            
 assert
 0
 and
@@ -5090,6 +5103,7 @@ symtab
 .
 lookup
 (
+            
 _DELETE_MSG
 )
 .
@@ -6393,6 +6407,7 @@ isStruct
 (
 )
 :
+            
 t
 .
 defined
@@ -6406,6 +6421,7 @@ isUnion
 (
 )
 :
+            
 t
 .
 defined
@@ -7316,7 +7332,6 @@ values
                        
 mname
 )
-;
         
 if
 (
@@ -7324,7 +7339,7 @@ mtype
 .
 compress
 and
-            
+                
 (
 not
 mtype

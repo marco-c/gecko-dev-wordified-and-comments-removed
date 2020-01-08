@@ -358,6 +358,7 @@ t
 .
 ptr
 :
+            
 ts
 +
 =
@@ -370,6 +371,7 @@ t
 .
 ptrconst
 :
+            
 ts
 +
 =
@@ -383,6 +385,7 @@ t
 .
 ptrptr
 :
+            
 ts
 +
 =
@@ -396,6 +399,7 @@ t
 .
 ptrconstptr
 :
+            
 ts
 +
 =
@@ -898,6 +902,7 @@ fd
 .
 cls
 :
+            
 self
 .
 printdent
@@ -912,6 +917,7 @@ fd
 .
 struct
 :
+            
 self
 .
 printdent
@@ -1482,7 +1488,7 @@ MethodSpec
 VIRTUAL
 or
 \
-             
+                
 md
 .
 methodspec
@@ -2261,6 +2267,7 @@ c
 .
 dynamic
 :
+            
 pfx
 sfx
 =
@@ -2277,6 +2284,7 @@ c
 .
 static
 :
+            
 pfx
 sfx
 =
@@ -2293,6 +2301,7 @@ c
 .
 reinterpret
 :
+            
 pfx
 sfx
 =
@@ -2309,6 +2318,7 @@ c
 .
 const
 :
+            
 pfx
 sfx
 =
@@ -2325,6 +2335,7 @@ c
 .
 C
 :
+            
 pfx
 sfx
 =

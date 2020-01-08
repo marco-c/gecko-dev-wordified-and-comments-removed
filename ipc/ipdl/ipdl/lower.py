@@ -1,6 +1,8 @@
 import
 os
+import
 re
+import
 sys
 from
 copy
@@ -276,6 +278,7 @@ h
 <
 0
 :
+        
 h
 +
 =
@@ -328,6 +331,7 @@ risk
 class
 _struct
 :
+    
 pass
 def
 _namespacedHeaderName
@@ -415,6 +419,7 @@ side
 if
 side
 :
+        
 side
 =
 side
@@ -488,7 +493,7 @@ ifndef
 '
 guard
 )
-             
+            
 CppDirective
 (
 '
@@ -619,6 +624,7 @@ isupper
 (
 )
 :
+        
 tag
 =
 side
@@ -1019,6 +1025,7 @@ len
 namespaces
 )
 :
+        
 return
 cxxthing
     
@@ -2004,6 +2011,7 @@ side
 child
 '
 :
+        
 return
 '
 parent
@@ -2017,6 +2025,7 @@ side
 parent
 '
 :
+        
 return
 '
 child
@@ -2410,7 +2419,7 @@ args
 =
 [
 pid
-               
+              
 ExprVar
 (
 '
@@ -2420,7 +2429,7 @@ base
 PROCESS_END_KILLED_BY_USER
 '
 )
-               
+              
 ExprLiteral
 .
 FALSE
@@ -4053,7 +4062,6 @@ rvalueRefType
 (
 side
 )
-;
     
 def
 outType
@@ -4115,7 +4123,7 @@ t
 ptr
 =
 0
-;
+            
 t
 .
 ptrptr
@@ -6594,6 +6602,7 @@ name
             
 else
 :
+                
 assert
 0
         
@@ -6797,7 +6806,7 @@ self
 .
 returns
 )
-                               
+                              
 makeCallbackRejectDecl
 (
 self
@@ -7041,6 +7050,7 @@ var
                 
 else
 :
+                    
 assert
 0
             
@@ -7095,6 +7105,7 @@ var
                 
 else
 :
+                    
 assert
 0
             
@@ -7464,6 +7475,7 @@ isToplevel
 (
 )
 :
+            
 return
 '
 .
@@ -7590,6 +7602,7 @@ type
 .
 managers
 :
+            
 return
 mgr
     
@@ -8831,12 +8844,12 @@ ipc
 ActorHandle
 '
 )
-                                        
+                                       
 '
 ActorHandle
 '
 )
-                                
+                               
 Typedef
 (
 Type
@@ -8848,12 +8861,12 @@ base
 ProcessId
 '
 )
-                                        
+                                       
 '
 ProcessId
 '
 )
-                                
+                               
 Typedef
 (
 Type
@@ -8868,12 +8881,12 @@ ipc
 ProtocolId
 '
 )
-                                        
+                                       
 '
 ProtocolId
 '
 )
-                                
+                               
 Typedef
 (
 Type
@@ -8888,12 +8901,12 @@ ipc
 Transport
 '
 )
-                                        
+                                       
 '
 Transport
 '
 )
-                                
+                               
 Typedef
 (
 Type
@@ -8908,7 +8921,7 @@ ipc
 Endpoint
 '
 )
-                                        
+                                       
 '
 Endpoint
 '
@@ -8918,7 +8931,7 @@ FooSide
 '
 ]
 )
-                                
+                               
 Typedef
 (
 Type
@@ -8933,12 +8946,12 @@ ipc
 TransportDescriptor
 '
 )
-                                        
+                                       
 '
 TransportDescriptor
 '
 )
-                                
+                               
 Typedef
 (
 Type
@@ -8953,7 +8966,7 @@ ipc
 ResponseRejectReason
 '
 )
-                                        
+                                       
 '
 ResponseRejectReason
 '
@@ -10408,7 +10421,7 @@ addthing
 (
 CppDirective
 (
-                    
+                
 '
 include
 '
@@ -11556,7 +11569,7 @@ parentpidvar
 .
 name
 )
-                     
+                    
 Decl
 (
 Type
@@ -11572,7 +11585,7 @@ childpidvar
 .
 name
 )
-                     
+                    
 Decl
 (
 Type
@@ -11603,7 +11616,7 @@ parentvar
 .
 name
 )
-                     
+                    
 Decl
 (
 Type
@@ -11670,13 +11683,13 @@ args
 _backstagePass
 (
 )
-                   
+                  
 parentpidvar
 childpidvar
-                   
+                  
 parentvar
 childvar
-                   
+                  
 ]
 )
 )
@@ -12094,32 +12107,32 @@ messageEnum
 (
 nestedEnum
 )
-                            
+                           
 messageEnum
 (
 prioEnum
 )
-                            
+                           
 messageEnum
 (
 compression
 )
-                            
+                           
 messageEnum
 (
 ctorEnum
 )
-                            
+                           
 messageEnum
 (
 syncEnum
 )
-                            
+                           
 messageEnum
 (
 interruptEnum
 )
-                            
+                           
 messageEnum
 (
 replyEnum
@@ -12161,12 +12174,12 @@ args
 =
 [
 routingId
-                                      
+                                     
 ExprVar
 (
 msgid
 )
-                                      
+                                     
 ExprLiteral
 .
 Int
@@ -12176,9 +12189,9 @@ int
 segmentSize
 )
 )
-                                      
+                                     
 flags
-                                      
+                                     
 ExprLiteral
 .
 TRUE
@@ -12211,7 +12224,7 @@ Message
 IPDLMessage
 '
 )
-                               
+                                
 args
 =
 [
@@ -12336,7 +12349,7 @@ cxxside
 =
 =
 '
-                            
+                                   
 ExprCall
 (
 ExprSelect
@@ -13031,29 +13044,29 @@ ptr
 =
 1
 )
-                                     
+                                    
 cls
 .
 msgvar
 .
 name
 )
-                                
+                               
 Decl
 (
 iprotocoltype
-                                     
+                                    
 cls
 .
 actor
 .
 name
 )
-                                
+                               
 Decl
 (
 intype
-                                     
+                                    
 cls
 .
 var
@@ -13127,14 +13140,14 @@ const
 =
 1
 )
-                                     
+                                    
 cls
 .
 msgvar
 .
 name
 )
-                                
+                               
 Decl
 (
 _iterType
@@ -13143,29 +13156,29 @@ ptr
 =
 1
 )
-                                     
+                                    
 cls
 .
 itervar
 .
 name
 )
-                                
+                               
 Decl
 (
 iprotocoltype
-                                     
+                                    
 cls
 .
 actor
 .
 name
 )
-                                
+                               
 Decl
 (
 outtype
-                                     
+                                    
 cls
 .
 var
@@ -13173,13 +13186,13 @@ var
 name
 )
 ]
-                        
+                       
 ret
 =
 Type
 .
 BOOL
-                        
+                       
 methodspec
 =
 MethodSpec
@@ -13420,7 +13433,7 @@ write
 =
 [
 ifnull
-                   
+                  
 StmtExpr
 (
 cls
@@ -13510,15 +13523,15 @@ args
 cls
 .
 msgvar
-                                          
+                                         
 cls
 .
 itervar
-                                          
+                                         
 ExprLiteral
 .
 TRUE
-                                          
+                                         
 ExprLiteral
 .
 String
@@ -13529,7 +13542,7 @@ name
 (
 )
 )
-                                          
+                                         
 _protocolId
 (
 actortype
@@ -14244,7 +14257,7 @@ side
 !
 '
 )
-                                                          
+                                                         
 StmtReturn
 .
 FALSE
@@ -14407,7 +14420,7 @@ union
 type
 '
 )
-                                        
+                                       
 StmtReturn
 (
 )
@@ -14436,7 +14449,7 @@ union
 type
 '
 )
-                                       
+                                      
 StmtReturn
 .
 FALSE
@@ -14642,6 +14655,7 @@ self
 .
 visited
 :
+            
 return
         
 self
@@ -14684,6 +14698,7 @@ self
 .
 visited
 :
+            
 return
         
 self
@@ -14811,6 +14826,7 @@ self
 .
 fortype
 :
+            
 return
         
 self
@@ -14958,6 +14974,7 @@ self
 .
 visited
 :
+            
 return
         
 self
@@ -15002,6 +15019,7 @@ self
 .
 visited
 :
+            
 return
         
 self
@@ -15046,6 +15064,7 @@ self
 .
 visited
 :
+            
 return
         
 self
@@ -15377,7 +15396,7 @@ f
 memberVar
 (
 )
-                                           
+                                          
 args
 =
 [
@@ -15388,7 +15407,7 @@ argVar
 )
 ]
 )
-                            
+                           
 for
 f
 in
@@ -15759,7 +15778,7 @@ memberVar
 name
 )
 )
-                      
+                     
 for
 f
 in
@@ -16191,7 +16210,7 @@ typeenum
 '
 )
 )
-                   
+                  
 Whitespace
 .
 NL
@@ -16292,7 +16311,7 @@ valueunion
 '
 )
 )
-                       
+                  
 Whitespace
 .
 NL
@@ -16545,7 +16564,7 @@ callDtor
 (
 )
 )
-                        
+                       
 StmtBreak
 (
 )
@@ -16706,7 +16725,7 @@ MethodDecl
 assertsanityvar
 .
 name
-                       
+                   
 params
 =
 [
@@ -16718,13 +16737,13 @@ atypevar
 name
 )
 ]
-                       
+                   
 ret
 =
 Type
 .
 VOID
-                       
+                   
 const
 =
 1
@@ -17324,6 +17343,7 @@ getTypeName
                 
 StmtExpr
 (
+                    
 voidCast
 (
 ExprCall
@@ -17954,13 +17974,13 @@ rhstypevar
 Type
 .
 VOID
-                                      
+                                     
 static
 =
 1
 )
 )
-                    
+                   
 StmtBreak
 (
 )
@@ -18227,6 +18247,7 @@ getTypeName
                 
 StmtExpr
 (
+                    
 voidCast
 (
 ExprCall
@@ -18302,7 +18323,7 @@ rhstypevar
 )
 )
 )
-                    
+                   
 StmtBreak
 (
 )
@@ -18698,7 +18719,7 @@ _logicError
 unreached
 '
 )
-                    
+                   
 StmtReturn
 .
 FALSE
@@ -19020,10 +19041,10 @@ addstmts
 getvalue
 getconstvalue
 readvalue
-                       
+                      
 optype
 opconsttype
-                       
+                      
 Whitespace
 .
 NL
@@ -19137,7 +19158,6 @@ walkDownTheProtocolTree
 (
 toplvl
 )
-;
         
 return
 self
@@ -19804,7 +19824,7 @@ s
 %
 i
 )
-                     
+                    
 for
 i
 in
@@ -19915,7 +19935,7 @@ forward
 declared
 '
 )
-                  
+                 
 Whitespace
 .
 NL
@@ -20946,7 +20966,7 @@ hdrfile
 addthings
 (
 [
-                    
+                
 _makeForwardDeclForQClass
 (
 '
@@ -20955,11 +20975,11 @@ nsIFile
 [
 ]
 )
-                    
+                
 Whitespace
 .
 NL
-                    
+            
 ]
 )
         
@@ -21790,7 +21810,7 @@ Type
 aCode
 '
 )
-                                    
+                                   
 Param
 (
 Type
@@ -21952,15 +21972,15 @@ addstmts
 (
 [
 processingerror
-                                
+                               
 shouldcontinue
-                                
+                               
 entered
 exited
-                                
+                               
 enteredcall
 exitedcall
-                                
+                               
 Whitespace
 .
 NL
@@ -22242,7 +22262,7 @@ ExprVar
 MOZ_COUNT_DTOR
 '
 )
-                                               
+                                       
 [
 ExprVar
 (
@@ -23043,7 +23063,7 @@ if
 not
 switch
 :
-              
+                
 crash
 =
 StmtExpr
@@ -23056,7 +23076,7 @@ ExprVar
 MOZ_ASSERT_UNREACHABLE
 '
 )
-                               
+                                          
 args
 =
 [
@@ -23074,7 +23094,7 @@ supported
 ]
 )
 )
-              
+                
 method
 .
 addstmts
@@ -23089,7 +23109,7 @@ NotKnown
 )
 ]
 )
-              
+                
 return
 method
             
@@ -23358,6 +23378,7 @@ is_reply
 '
 )
 )
+                                   
 '
 !
 =
@@ -23885,7 +23906,7 @@ processnative
 addstmts
 (
 [
-                    
+                
 CppDirective
 (
 '
@@ -23895,12 +23916,12 @@ ifdef
 OS_WIN
 '
 )
-                    
+                
 StmtExpr
 (
 ExprCall
 (
-                        
+                    
 ExprSelect
 (
 ExprCall
@@ -23916,37 +23937,37 @@ DowncastState
 '
 )
 )
-                                                       
+                                                   
 '
 -
 >
 '
-                                                       
+                                                   
 '
 GetIPCChannel
 '
 )
 )
-                                   
+                               
 '
 -
 >
 '
-                                   
+                               
 '
 ProcessNativeEventsInInterruptCall
 '
 )
 )
 )
-                    
+                
 CppDirective
 (
 '
 else
 '
 )
-                    
+                
 _fatalError
 (
 '
@@ -23958,14 +23979,14 @@ Windows
 only
 '
 )
-                    
+                
 CppDirective
 (
 '
 endif
 '
 )
-                    
+            
 ]
 )
             
@@ -24518,18 +24539,18 @@ responses
 \
 n
 '
-                                             
+                                            
 indent
 =
 1
 )
-                                  
+                                 
 StmtExpr
 (
 ExprCall
 (
 rejectPendingResponsesMethod
-                                                    
+                                                   
 args
 =
 [
@@ -24542,7 +24563,7 @@ this
 ]
 )
 )
-                                  
+                                 
 Whitespace
 .
 NL
@@ -24569,12 +24590,12 @@ us
 \
 n
 '
-                                             
+                                            
 indent
 =
 1
 )
-                                  
+                                 
 StmtExpr
 (
 ExprCall
@@ -24582,7 +24603,7 @@ ExprCall
 _destroyMethod
 (
 )
-                                                    
+                                                   
 args
 =
 [
@@ -24590,7 +24611,7 @@ whyvar
 ]
 )
 )
-                                
+                                 
 ]
 )
         
@@ -24809,6 +24830,7 @@ MethodDefn
 (
 MethodDecl
 (
+                
 deallocselfvar
 .
 name
@@ -25296,7 +25318,7 @@ pvar
 .
 name
 )
-                     
+                    
 Decl
 (
 protocolbase
@@ -25892,6 +25914,7 @@ case
             
 else
 :
+                
 assert
 0
         
@@ -26681,6 +26704,7 @@ actor
 s
 "
 %
+                                 
 actortype
 .
 name
@@ -26836,7 +26860,7 @@ destroyActor
 (
 md
 actorvar
-                              
+                                                
 why
 =
 _DestroyReason
@@ -27305,7 +27329,7 @@ addifstmts
 Whitespace
 .
 NL
-                              
+                             
 StmtExpr
 (
 ExprAssn
@@ -27477,7 +27501,7 @@ managervar
 .
 name
 )
-                           
+                          
 init
 =
 self
@@ -27489,7 +27513,7 @@ managerVar
 actorexpr
 )
 )
-                  
+                 
 StmtExpr
 (
 self
@@ -27500,7 +27524,7 @@ actorexpr
 why
 )
 )
-                  
+                 
 StmtExpr
 (
 self
@@ -27511,26 +27535,26 @@ md
 actorexpr
 )
 )
-                  
+                 
 StmtExpr
 (
 self
 .
 callRemoveActor
 (
-                      
+                     
 actorexpr
-                      
+                     
 manager
 =
 managervar
-                      
+                     
 ipdltype
 =
 destroyedType
 )
 )
-                
+                 
 ]
 )
     
@@ -27802,7 +27826,7 @@ getcallback
 Whitespace
 .
 NL
-                        
+                       
 StmtDecl
 (
 Decl
@@ -27815,7 +27839,7 @@ untypedcallback
 untypedCallback
 '
 )
-                                 
+                                
 init
 =
 ExprCall
@@ -27829,7 +27853,7 @@ protocol
 callGetChannel
 (
 )
-                                                          
+                                                         
 '
 -
 >
@@ -27838,7 +27862,7 @@ callGetChannel
 PopCallback
 '
 )
-                                               
+                                              
 args
 =
 [
@@ -27848,7 +27872,7 @@ msgvar
 ]
 )
 )
-                        
+                       
 StmtDecl
 (
 Decl
@@ -27858,7 +27882,7 @@ callback
 .
 name
 )
-                                 
+                                
 init
 =
 ExprCast
@@ -27873,7 +27897,7 @@ ExprVar
 untypedCallback
 '
 )
-                                                                   
+                                                                  
 '
 .
 '
@@ -27882,15 +27906,15 @@ get
 '
 )
 )
-                                               
+                                              
 callbackptr
-                                               
+                                              
 static
 =
 1
 )
 )
-                        
+                       
 ifnocallback
 ]
         
@@ -27912,7 +27936,7 @@ callback
 Resolve
 '
 )
-                                              
+                                             
 args
 =
 [
@@ -27940,7 +27964,7 @@ callback
 Reject
 '
 )
-                                             
+                                            
 args
 =
 [
@@ -28893,7 +28917,7 @@ var
 name
 )
 )
-                      
+                     
 for
 r
 in
@@ -29092,7 +29116,7 @@ protocol
 unregisterMethod
 (
 )
-                                   
+                                  
 args
 =
 [
@@ -29150,6 +29174,7 @@ isDtor
 (
 )
 :
+            
 this
 =
 md
@@ -29186,7 +29211,7 @@ msgvar
 .
 name
 )
-                            
+                           
 init
 =
 ExprCall
@@ -29199,7 +29224,7 @@ pqMsgCtorFunc
 (
 )
 )
-                                          
+                                         
 args
 =
 [
@@ -29231,7 +29256,7 @@ var
 (
 )
 msgvar
-                                               
+                                              
 sentinelKey
 =
 p
@@ -29677,7 +29702,7 @@ destroyed
 .
 "
 )
-                                  
+                                       
 StmtReturn
 (
 )
@@ -29688,7 +29713,7 @@ returnifactorisdead
 =
 [
 ifactorisdead
-                                
+                               
 ifactorisdestroyed
 ]
         
@@ -29704,7 +29729,7 @@ selfvar
 routingId
 seqno
 ]
-                                 
+                                
 [
 resolvedecl
 ]
@@ -29729,7 +29754,7 @@ resolve
 .
 name
 )
-                                         
+                                        
 init
 =
 ExprLiteral
@@ -29761,7 +29786,7 @@ var
 name
 )
 )
-                               
+                                
 for
 p
 in
@@ -29845,7 +29870,7 @@ resolve
 self
 .
 replyvar
-                                                          
+                                                         
 sentinelKey
 =
 resolve
@@ -29874,7 +29899,7 @@ var
 self
 .
 replyvar
-                                                          
+                                                         
 sentinelKey
 =
 r
@@ -29907,7 +29932,7 @@ makeresolver
 Whitespace
 .
 NL
-                         
+                        
 StmtDecl
 (
 Decl
@@ -29919,7 +29944,7 @@ seqno
 .
 name
 )
-                                  
+                                 
 init
 =
 ExprCall
@@ -29938,7 +29963,7 @@ seqno
 )
 )
 )
-                         
+                        
 StmtDecl
 (
 Decl
@@ -29957,19 +29982,19 @@ self
 clsname
 )
 )
-                                       
+                                      
 selfvar
 .
 name
 )
-                                  
+                                 
 init
 =
 ExprVar
 .
 THIS
 )
-                         
+                        
 StmtDecl
 (
 Decl
@@ -29979,7 +30004,7 @@ resolvertype
 resolver
 '
 )
-                                  
+                                 
 init
 =
 resolverfn
@@ -30092,7 +30117,7 @@ routingId
 )
 )
 )
-              
+             
 Whitespace
 .
 NL
@@ -30113,7 +30138,7 @@ var
 (
 )
 replyvar
-                                          
+                                         
 sentinelKey
 =
 r
@@ -30251,7 +30276,7 @@ ptr
 msgverify__
 '
 )
-                                   
+                              
 init
 =
 ExprMove
@@ -30285,7 +30310,7 @@ itervar
 .
 name
 )
-                       
+                      
 initargs
 =
 [
@@ -30319,7 +30344,7 @@ Copy
 '
 )
 )
-                      
+                
 for
 p
 in
@@ -30342,7 +30367,7 @@ checkedRead
 p
 .
 ipdltype
-                                         
+                                        
 ExprAddrOf
 (
 ExprVar
@@ -30360,13 +30385,13 @@ Copy
 '
 )
 )
-                                         
+                                        
 msgexpr
 ExprAddrOf
 (
 itervar
 )
-                                         
+                                        
 errfn
 p
 .
@@ -30376,19 +30401,19 @@ side
 )
 .
 name
-                                         
+                                        
 sentinelKey
 =
 p
 .
 name
-                                         
+                                        
 errfnSentinel
 =
 errfnSentinel
 (
 )
-                                         
+                                        
 actor
 =
 ExprVar
@@ -30430,7 +30455,7 @@ msgvar
 )
 )
 ]
-            
+        
 )
 )
         
@@ -30645,14 +30670,14 @@ ExprAddrOf
 handlevar
 )
 msgexpr
-                                               
+                                              
 ExprAddrOf
 (
 self
 .
 itervar
 )
-                                               
+                                              
 errfn
 "
 '
@@ -30664,7 +30689,7 @@ s
 handletype
 .
 name
-                                               
+                                              
 sentinelKey
 =
 '
@@ -30673,7 +30698,7 @@ actor
 errfnSentinel
 =
 errfnSent
-                                               
+                                              
 actor
 =
 ExprVar
@@ -30709,7 +30734,7 @@ itervar
 .
 name
 )
-                       
+                      
 initargs
 =
 [
@@ -30741,7 +30766,7 @@ var
 name
 )
 )
-                      
+                       
 for
 p
 in
@@ -30776,13 +30801,13 @@ var
 (
 )
 )
-                                                 
+                                                
 msgexpr
 ExprAddrOf
 (
 itervar
 )
-                                                 
+                                                
 errfn
 "
 '
@@ -30799,7 +30824,7 @@ side
 )
 .
 name
-                                                 
+                                                
 sentinelKey
 =
 p
@@ -30808,14 +30833,14 @@ name
 errfnSentinel
 =
 errfnSent
-                                                 
+                                                
 actor
 =
 ExprVar
 .
 THIS
 )
-                        
+                       
 for
 p
 in
@@ -30919,7 +30944,7 @@ resolve
 name
 )
 )
-                       
+                      
 _ParamTraits
 .
 checkedRead
@@ -30930,12 +30955,12 @@ ExprAddrOf
 resolve
 )
 msgexpr
-                                                
+                                               
 ExprAddrOf
 (
 itervar
 )
-                                                
+                                               
 errfn
 "
 '
@@ -30947,7 +30972,7 @@ s
 resolve
 .
 name
-                                                
+                                               
 sentinelKey
 =
 resolve
@@ -30956,7 +30981,7 @@ name
 errfnSentinel
 =
 errfnSent
-                                                
+                                               
 actor
 =
 ExprVar
@@ -30982,7 +31007,7 @@ reason
 name
 )
 )
-                   
+                  
 _ParamTraits
 .
 checkedRead
@@ -30993,12 +31018,12 @@ ExprAddrOf
 reason
 )
 msgexpr
-                                            
+                                           
 ExprAddrOf
 (
 itervar
 )
-                                            
+                                           
 errfn
 "
 '
@@ -31010,7 +31035,7 @@ s
 reason
 .
 name
-                                            
+                                           
 sentinelKey
 =
 reason
@@ -31019,14 +31044,14 @@ name
 errfnSentinel
 =
 errfnSent
-                                            
+                                           
 actor
 =
 ExprVar
 .
 THIS
 )
-                   
+                  
 self
 .
 endRead
@@ -31099,7 +31124,7 @@ itervar
 .
 name
 )
-                                   
+                                  
 initargs
 =
 [
@@ -31169,12 +31194,12 @@ ExprAddrOf
 handlevar
 )
 msgexpr
-                                               
+                                              
 ExprAddrOf
 (
 itervar
 )
-                                               
+                                              
 errfn
 "
 '
@@ -31186,7 +31211,7 @@ s
 handletype
 .
 name
-                                               
+                                              
 sentinelKey
 =
 '
@@ -31195,7 +31220,7 @@ actor
 errfnSentinel
 =
 errfnSent
-                                               
+                                              
 actor
 =
 ExprVar
@@ -31234,7 +31259,7 @@ var
 name
 )
 )
-                      
+                     
 for
 p
 in
@@ -31269,13 +31294,13 @@ var
 (
 )
 )
-                                                 
+                                                
 msgexpr
 ExprAddrOf
 (
 itervar
 )
-                                                 
+                                                
 errfn
 "
 '
@@ -31292,7 +31317,7 @@ side
 )
 .
 name
-                                                 
+                                                
 sentinelKey
 =
 p
@@ -31301,14 +31326,14 @@ name
 errfnSentinel
 =
 errfnSent
-                                                 
+                                                
 actor
 =
 ExprVar
 .
 THIS
 )
-                        
+                       
 for
 p
 in
@@ -31364,14 +31389,14 @@ stmts
 Whitespace
 .
 NL
-                   
+                 
 self
 .
 logMessage
 (
 md
 replyexpr
-                                   
+                                 
 '
 Received
 reply
@@ -31412,7 +31437,7 @@ declstmts
 if
 decls
 :
-             
+            
 declstmts
 =
 [
@@ -31435,7 +31460,7 @@ var
 name
 )
 )
-                           
+                         
 for
 p
 in
@@ -31453,7 +31478,7 @@ extend
 Whitespace
 .
 NL
-              
+             
 StmtDecl
 (
 Decl
@@ -31468,7 +31493,7 @@ itervar
 .
 name
 )
-                       
+                      
 initargs
 =
 [
@@ -31503,21 +31528,21 @@ r
 var
 (
 )
-                                         
+                                        
 ExprAddrOf
 (
 self
 .
 replyvar
 )
-                                         
+                                        
 ExprAddrOf
 (
 self
 .
 itervar
 )
-                                         
+                                        
 errfn
 "
 '
@@ -31534,7 +31559,7 @@ side
 )
 .
 name
-                                         
+                                        
 sentinelKey
 =
 r
@@ -31543,7 +31568,7 @@ name
 errfnSentinel
 =
 errfnSentinel
-                                         
+                                        
 actor
 =
 ExprVar
@@ -31627,7 +31652,7 @@ stmts
 Whitespace
 .
 NL
-                  
+                 
 self
 .
 logMessage
@@ -31639,7 +31664,7 @@ Sending
 '
 actor
 )
-                  
+                 
 self
 .
 profilerLabel
@@ -31708,19 +31733,19 @@ args
 =
 [
 msgexpr
-                                                        
+                                                       
 ExprVar
 (
 '
 this
 '
 )
-                                                        
+                                                       
 ExprMove
 (
 resolvefn
 )
-                                                        
+                                                       
 ExprMove
 (
 rejectfn
@@ -31809,7 +31834,7 @@ sendok
 Whitespace
 .
 NL
-               
+              
 self
 .
 logMessage
@@ -31821,7 +31846,7 @@ Sending
 '
 actor
 )
-               
+              
 self
 .
 profilerLabel
@@ -31829,7 +31854,7 @@ profilerLabel
 md
 )
 ]
-            
+             
 +
 self
 .
@@ -31841,7 +31866,7 @@ errorfn
 =
 errfnUnreachable
 )
-            
+             
 +
 [
 Whitespace
@@ -31875,7 +31900,7 @@ ExprVar
 AUTO_PROFILER_TRACING
 '
 )
-                             
+                                      
 [
 ExprLiteral
 .
@@ -31885,7 +31910,7 @@ String
 IPC
 "
 )
-                               
+                                       
 ExprLiteral
 .
 String
@@ -31960,7 +31985,7 @@ replyexpr
                 
 ]
 )
-            
+                
 ]
 )
         
@@ -32004,7 +32029,7 @@ stmts
 Whitespace
 .
 NL
-                  
+                 
 StmtDecl
 (
 Decl
@@ -32017,7 +32042,7 @@ retpromise
 .
 name
 )
-                           
+                          
 init
 =
 ExprNew
@@ -32148,7 +32173,7 @@ aValue
 '
 )
 )
-                                     
+                                    
 ExprVar
 (
 '
@@ -32216,7 +32241,7 @@ ExprVar
 aReason
 '
 )
-                                     
+                                    
 ExprVar
 (
 '
@@ -32258,7 +32283,7 @@ stmts
 Whitespace
 .
 NL
-                   
+                  
 StmtExpr
 (
 ExprCall
@@ -32278,7 +32303,7 @@ args
 args
 )
 )
-                   
+                  
 StmtReturn
 (
 retpromise
@@ -32391,6 +32416,7 @@ ipdltype
 is
 None
 :
+            
 ipdltype
 =
 self
@@ -32464,7 +32490,7 @@ _protocolId
 (
 ipdltype
 )
-                               
+                              
 actorexpr
 ]
 )
@@ -32920,7 +32946,7 @@ String
 (
 actorname
 )
-                                     
+                                    
 self
 .
 protocol
@@ -32929,14 +32955,14 @@ callOtherPid
 (
 actor
 )
-                                     
+                                    
 ExprLiteral
 .
 String
 (
 pfx
 )
-                                     
+                                    
 ExprCall
 (
 ExprSelect
@@ -32951,7 +32977,7 @@ type
 '
 )
 )
-                                     
+                                    
 ExprVar
 (
 '
@@ -32966,10 +32992,10 @@ MessageDirection
 :
 eReceiving
 '
-                                             
+                                            
 if
 receiving
-                                             
+                                            
 else
 '
 mozilla
@@ -33036,7 +33062,7 @@ String
 (
 labelStr
 )
-                                   
+                                  
 ExprVar
 (
 '
@@ -33090,7 +33116,7 @@ idvar
 .
 name
 )
-                                     
+                                    
 self
 .
 protocol
@@ -34015,13 +34041,13 @@ md
 .
 name
 )
-                                             
+                                     
 params
 =
 md
 .
 params
-                                             
+                                     
 ret
 =
 md
@@ -34156,7 +34182,7 @@ ExprVar
 MOZ_COUNT_CTOR
 '
 )
-                                               
+                                       
 [
 ExprVar
 (
@@ -34242,7 +34268,7 @@ ExprVar
 MOZ_COUNT_DTOR
 '
 )
-                                               
+                                       
 [
 ExprVar
 (

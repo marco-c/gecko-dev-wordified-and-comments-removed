@@ -1,5 +1,6 @@
 import
 copy
+import
 sys
 class
 Visitor
@@ -1404,6 +1405,7 @@ t
 in
 things
 :
+            
 self
 .
 addthing
@@ -1455,6 +1457,7 @@ s
 in
 stmts
 :
+            
 self
 .
 addstmt
@@ -1593,6 +1596,7 @@ s
 in
 stmts
 :
+            
 self
 .
 addstmt
@@ -3007,6 +3011,7 @@ decl
 in
 params
 :
+            
 assert
 not
 isinstance
@@ -4296,6 +4301,7 @@ arg
 in
 args
 :
+            
 assert
 arg
 and
@@ -4867,6 +4873,7 @@ elseb
 is
 None
 :
+            
 self
 .
 elseb
@@ -4899,6 +4906,7 @@ elseb
 is
 None
 :
+            
 self
 .
 elseb

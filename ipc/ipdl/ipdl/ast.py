@@ -1020,7 +1020,6 @@ isinstance
 cxxHeader
 str
 )
-;
         
 assert
 kind
@@ -1785,6 +1784,7 @@ qual
 in
 quals
 :
+            
 assert
 isinstance
 (
