@@ -887,15 +887,6 @@ const
 LayoutDeviceIntSize
 &
 aSize
-TextureFactoryIdentifier
-*
-aTextureFactoryIdentifier
-wr
-:
-:
-IdNamespace
-*
-aIdNamespace
 )
 override
 ;
