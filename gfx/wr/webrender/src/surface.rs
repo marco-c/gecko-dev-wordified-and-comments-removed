@@ -963,6 +963,15 @@ NormalBorder
 PrimitiveInstanceKind
 :
 :
+Rectangle
+{
+.
+.
+}
+|
+PrimitiveInstanceKind
+:
+:
 ImageBorder
 {
 .
