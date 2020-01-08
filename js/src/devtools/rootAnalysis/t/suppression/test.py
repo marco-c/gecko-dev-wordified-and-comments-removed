@@ -29,7 +29,6 @@ load_suppressed_functions
 (
 )
 assert
-(
 len
 (
 list
@@ -51,9 +50,7 @@ suppressed
 =
 =
 1
-)
 assert
-(
 len
 (
 list
@@ -75,9 +72,7 @@ suppressed
 =
 =
 0
-)
 assert
-(
 len
 (
 list
@@ -99,7 +94,6 @@ suppressed
 =
 =
 0
-)
 gcFunctions
 =
 test
@@ -107,12 +101,7 @@ test
 load_gcFunctions
 (
 )
-print
-(
-gcFunctions
-)
 assert
-(
 '
 void
 GC
@@ -121,9 +110,7 @@ GC
 '
 in
 gcFunctions
-)
 assert
-(
 '
 void
 suppressedFunction
@@ -133,9 +120,7 @@ suppressedFunction
 not
 in
 gcFunctions
-)
 assert
-(
 '
 void
 halfSuppressedFunction
@@ -144,9 +129,7 @@ halfSuppressedFunction
 '
 in
 gcFunctions
-)
 assert
-(
 '
 void
 unsuppressedFunction
@@ -155,9 +138,7 @@ unsuppressedFunction
 '
 in
 gcFunctions
-)
 assert
-(
 '
 void
 f
@@ -166,4 +147,3 @@ f
 '
 in
 gcFunctions
-)
