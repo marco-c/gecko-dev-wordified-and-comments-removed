@@ -274,17 +274,9 @@ for
 const
 cookie
 of
-XPCOMUtils
-.
-IterSimpleEnumerator
-(
 cookieMgr
 .
 enumerator
-Ci
-.
-nsICookie2
-)
 )
 {
 if
