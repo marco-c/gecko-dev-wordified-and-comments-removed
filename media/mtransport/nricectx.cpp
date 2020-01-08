@@ -2067,6 +2067,13 @@ bool
 allow_link_local
 )
 {
+RLogConnector
+:
+:
+CreateInstance
+(
+)
+;
 if
 (
 !
