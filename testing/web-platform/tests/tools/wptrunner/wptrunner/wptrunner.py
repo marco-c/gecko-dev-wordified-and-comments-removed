@@ -1533,6 +1533,7 @@ testharness
 :
                             
 if
+(
 test
 .
 testdriver
@@ -1541,6 +1542,19 @@ not
 executor_cls
 .
 supports_testdriver
+)
+or
+(
+                                    
+test
+.
+jsshell
+and
+not
+executor_cls
+.
+supports_jsshell
+)
 :
                                 
 logger
@@ -1565,19 +1579,6 @@ status
 SKIP
 "
 )
-                            
-elif
-test
-.
-jsshell
-and
-not
-executor_cls
-.
-supports_jsshell
-:
-                                
-pass
                             
 else
 :
