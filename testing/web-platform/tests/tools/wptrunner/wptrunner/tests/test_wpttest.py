@@ -660,6 +660,7 @@ wpttest
 .
 from_manifest
 (
+tests
 test
 [
 ]
@@ -701,6 +702,7 @@ wpttest
 .
 from_manifest
 (
+tests
 test
 [
 ]
@@ -807,6 +809,7 @@ wpttest
 .
 from_manifest
 (
+tests
 test
 inherit_metadata
 test_metadata
