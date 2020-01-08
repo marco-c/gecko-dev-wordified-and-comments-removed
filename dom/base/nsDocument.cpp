@@ -9262,6 +9262,17 @@ mql
 HasListeners
 (
 )
+&
+&
+NS_SUCCEEDED
+(
+mql
+-
+>
+CheckInnerWindowCorrectness
+(
+)
+)
 )
 {
 NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
