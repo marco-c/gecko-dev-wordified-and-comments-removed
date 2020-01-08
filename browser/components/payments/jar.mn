@@ -411,16 +411,3 @@ PaymentsStore
 .
 js
 )
-res
-/
-payments
-/
-vendor
-/
-(
-res
-/
-vendor
-/
-*
-)
