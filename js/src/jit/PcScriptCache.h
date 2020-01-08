@@ -107,6 +107,7 @@ i
 +
 +
 )
+{
 entries
 [
 i
@@ -116,6 +117,7 @@ returnAddress
 =
 nullptr
 ;
+}
 this
 -
 >
@@ -189,9 +191,11 @@ returnAddress
 =
 addr
 )
+{
 return
 false
 ;
+}
 *
 scriptRes
 =
@@ -206,6 +210,7 @@ if
 (
 pcRes
 )
+{
 *
 pcRes
 =
@@ -216,6 +221,7 @@ hash
 .
 pc
 ;
+}
 return
 true
 ;

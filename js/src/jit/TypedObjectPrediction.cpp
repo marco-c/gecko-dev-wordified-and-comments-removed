@@ -50,6 +50,7 @@ fieldCount
 (
 )
 )
+{
 max
 =
 descrA
@@ -58,6 +59,7 @@ fieldCount
 (
 )
 ;
+}
 if
 (
 max
@@ -68,6 +70,7 @@ fieldCount
 (
 )
 )
+{
 max
 =
 descrB
@@ -76,6 +79,7 @@ fieldCount
 (
 )
 ;
+}
 size_t
 i
 =
@@ -112,8 +116,10 @@ fieldName
 i
 )
 )
+{
 break
 ;
+}
 if
 (
 &
@@ -133,8 +139,10 @@ fieldDescr
 i
 )
 )
+{
 break
 ;
+}
 MOZ_ASSERT
 (
 descrA
@@ -224,8 +232,10 @@ data_
 .
 descr
 )
+{
 return
 ;
+}
 if
 (
 descr
@@ -244,11 +254,13 @@ kind
 (
 )
 )
+{
 return
 markInconsistent
 (
 )
 ;
+}
 if
 (
 descr
@@ -263,11 +275,13 @@ type
 :
 Struct
 )
+{
 return
 markInconsistent
 (
 )
 ;
+}
 const
 StructTypeDescr
 &
@@ -326,11 +340,13 @@ type
 :
 Struct
 )
+{
 return
 markInconsistent
 (
 )
 ;
+}
 markAsCommonPrefix
 (
 *
@@ -627,6 +643,7 @@ ComplexTypeDescr
 (
 )
 )
+{
 return
 &
 descr
@@ -644,6 +661,7 @@ instancePrototype
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -1023,9 +1041,11 @@ id
 index
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 *
@@ -1034,9 +1054,11 @@ index
 =
 fieldCount
 )
+{
 return
 false
 ;
+}
 *
 fieldOffset
 =

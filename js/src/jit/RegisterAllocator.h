@@ -236,6 +236,7 @@ o
 phis
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -248,6 +249,7 @@ BlockInfo
 "
 )
 ;
+}
 }
 }
 ;
@@ -867,9 +869,11 @@ alloc
 numInstructions
 )
 )
+{
 return
 false
 ;
+}
 memset
 (
 &
@@ -1014,6 +1018,7 @@ if
 (
 isProfiling
 )
+{
 set
 -
 >
@@ -1025,6 +1030,7 @@ FramePointer
 )
 )
 ;
+}
 #
 endif
 }
@@ -1131,12 +1137,15 @@ compilingWasm
 (
 )
 )
+{
 takeWasmRegisters
 (
 allRegisters_
 )
 ;
+}
 else
+{
 TakeJitRegisters
 (
 mir
@@ -1149,6 +1158,7 @@ instrumentedProfiling
 allRegisters_
 )
 ;
+}
 }
 MOZ_MUST_USE
 bool
@@ -1507,8 +1517,10 @@ isOsiPoint
 (
 )
 )
+{
 break
 ;
+}
 ins
 =
 next

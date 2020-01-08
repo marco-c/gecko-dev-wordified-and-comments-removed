@@ -395,6 +395,7 @@ isFloat
 (
 )
 )
+{
 ret
 =
 AnyRegister
@@ -409,7 +410,9 @@ aliasIdx
 )
 )
 ;
+}
 else
+{
 ret
 =
 AnyRegister
@@ -424,6 +427,7 @@ aliasIdx
 )
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 aliasIdx
@@ -453,6 +457,7 @@ isFloat
 (
 )
 )
+{
 return
 fpu
 (
@@ -462,6 +467,7 @@ numAliased
 (
 )
 ;
+}
 return
 gpr
 (
@@ -495,6 +501,7 @@ isFloat
 (
 )
 )
+{
 return
 fpu
 (
@@ -509,6 +516,7 @@ fpu
 )
 )
 ;
+}
 if
 (
 !
@@ -524,6 +532,7 @@ isFloat
 (
 )
 )
+{
 return
 gpr
 (
@@ -538,6 +547,7 @@ gpr
 )
 )
 ;
+}
 return
 false
 ;
@@ -564,6 +574,7 @@ isFloat
 (
 )
 )
+{
 return
 fpu
 (
@@ -578,6 +589,7 @@ fpu
 )
 )
 ;
+}
 if
 (
 !
@@ -593,9 +605,11 @@ isFloat
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -1077,6 +1091,7 @@ hasValue
 (
 )
 )
+{
 return
 AnyRegister
 (
@@ -1089,6 +1104,7 @@ scratchReg
 )
 )
 ;
+}
 return
 typedReg
 (
@@ -3504,6 +3520,7 @@ has
 preclude
 )
 )
+{
 return
 getAny
 <
@@ -3512,6 +3529,7 @@ Name
 (
 )
 ;
+}
 take
 (
 preclude
@@ -4009,6 +4027,7 @@ RegTypeName
 :
 GPR
 )
+{
 return
 Parent
 :
@@ -4027,6 +4046,7 @@ GPR
 =
 0
 ;
+}
 return
 Parent
 :
@@ -4064,6 +4084,7 @@ isFloat
 (
 )
 )
+{
 addUnchecked
 (
 reg
@@ -4073,7 +4094,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 addUnchecked
 (
 reg
@@ -4083,6 +4106,7 @@ gpr
 )
 )
 ;
+}
 }
 void
 add
@@ -4149,6 +4173,7 @@ isFloat
 (
 )
 )
+{
 add
 (
 reg
@@ -4158,7 +4183,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 add
 (
 reg
@@ -4168,6 +4195,7 @@ gpr
 )
 )
 ;
+}
 }
 using
 Parent
@@ -4190,6 +4218,7 @@ isFloat
 (
 )
 )
+{
 takeUnchecked
 (
 reg
@@ -4199,7 +4228,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 takeUnchecked
 (
 reg
@@ -4209,6 +4240,7 @@ gpr
 )
 )
 ;
+}
 }
 void
 take
@@ -4283,6 +4315,7 @@ isFloat
 (
 )
 )
+{
 take
 (
 reg
@@ -4292,7 +4325,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 take
 (
 reg
@@ -4302,6 +4337,7 @@ gpr
 )
 )
 ;
+}
 }
 Register
 getAnyGeneral
@@ -4738,6 +4774,7 @@ hasValue
 (
 )
 )
+{
 add
 (
 reg
@@ -4747,6 +4784,7 @@ valueReg
 )
 )
 ;
+}
 else
 if
 (
@@ -4756,6 +4794,7 @@ hasTyped
 (
 )
 )
+{
 add
 (
 reg
@@ -4765,6 +4804,7 @@ typedReg
 )
 )
 ;
+}
 }
 using
 Parent
@@ -4844,6 +4884,7 @@ hasValue
 (
 )
 )
+{
 take
 (
 reg
@@ -4853,6 +4894,7 @@ valueReg
 )
 )
 ;
+}
 else
 if
 (
@@ -4862,6 +4904,7 @@ hasTyped
 (
 )
 )
+{
 take
 (
 reg
@@ -4871,6 +4914,7 @@ typedReg
 )
 )
 ;
+}
 }
 using
 Parent
@@ -4950,6 +4994,7 @@ hasValue
 (
 )
 )
+{
 takeUnchecked
 (
 reg
@@ -4959,6 +5004,7 @@ valueReg
 )
 )
 ;
+}
 else
 if
 (
@@ -4968,6 +5014,7 @@ hasTyped
 (
 )
 )
+{
 takeUnchecked
 (
 reg
@@ -4977,6 +5024,7 @@ typedReg
 )
 )
 ;
+}
 }
 }
 ;
@@ -5977,15 +6025,19 @@ more
 (
 )
 )
+{
 +
 +
 geniter_
 ;
+}
 else
+{
 +
 +
 floatiter_
 ;
+}
 return
 *
 this
@@ -6006,6 +6058,7 @@ more
 (
 )
 )
+{
 return
 AnyRegister
 (
@@ -6013,6 +6066,7 @@ AnyRegister
 geniter_
 )
 ;
+}
 return
 AnyRegister
 (
@@ -6507,9 +6561,11 @@ rhs
 .
 kind_
 )
+{
 return
 false
 ;
+}
 switch
 (
 kind_
@@ -6680,6 +6736,7 @@ has
 reg
 )
 )
+{
 result
 .
 add
@@ -6687,6 +6744,7 @@ add
 reg
 )
 ;
+}
 }
 #
 if
