@@ -113,6 +113,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+nsXULPopupManager
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

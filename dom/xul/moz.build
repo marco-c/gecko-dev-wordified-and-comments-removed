@@ -191,6 +191,11 @@ XULFrameElement
 h
 '
 '
+XULMenuElement
+.
+h
+'
+'
 XULPopupElement
 .
 h
@@ -252,6 +257,11 @@ cpp
 '
 '
 XULFrameElement
+.
+cpp
+'
+'
+XULMenuElement
 .
 cpp
 '

@@ -636,8 +636,6 @@ selectedIndex
 ;
 list
 .
-menuBoxObject
-.
 activeChild
 =
 list
@@ -670,8 +668,6 @@ selectedIndex
 0
 ;
 list
-.
-menuBoxObject
 .
 activeChild
 =
@@ -1438,8 +1434,6 @@ top
 ;
 list
 .
-menuBoxObject
-.
 activeChild
 =
 item
@@ -2076,8 +2070,6 @@ selectedIndex
 ;
 list
 .
-menuBoxObject
-.
 activeChild
 =
 list
@@ -2094,8 +2086,6 @@ KEY_ArrowUp
 is
 (
 list
-.
-menuBoxObject
 .
 activeChild
 document
@@ -2132,8 +2122,6 @@ selectedIndex
 ;
 list
 .
-menuBoxObject
-.
 activeChild
 =
 list
@@ -2150,8 +2138,6 @@ KEY_ArrowDown
 is
 (
 list
-.
-menuBoxObject
 .
 activeChild
 document

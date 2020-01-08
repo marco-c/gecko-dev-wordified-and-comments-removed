@@ -1660,8 +1660,6 @@ is
 (
 menulist
 .
-menuBoxObject
-.
 activeChild
 menulist
 .
@@ -1707,8 +1705,6 @@ is
 (
 menulist
 .
-menuBoxObject
-.
 activeChild
 menulist
 .
@@ -1753,8 +1749,6 @@ KEY_ArrowDown
 is
 (
 menulist
-.
-menuBoxObject
 .
 activeChild
 menulist
@@ -1856,8 +1850,6 @@ KEY_ArrowUp
 is
 (
 menulist
-.
-menuBoxObject
 .
 activeChild
 menulist

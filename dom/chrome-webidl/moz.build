@@ -339,6 +339,11 @@ XULFrameElement
 webidl
 '
 '
+XULMenuElement
+.
+webidl
+'
+'
 XULScrollElement
 .
 webidl

@@ -231,11 +231,6 @@ BoxObject
 .
 h
 '
-'
-MenuBoxObject
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -329,11 +324,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-MenuBoxObject
-.
-cpp
-'
 '
 nsDeckFrame
 .

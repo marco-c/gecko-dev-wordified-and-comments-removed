@@ -2169,8 +2169,6 @@ item
 ;
 menulist
 .
-menuBoxObject
-.
 activeChild
 =
 item
@@ -2392,8 +2390,6 @@ hidden
 {
 menulist
 .
-menuBoxObject
-.
 activeChild
 =
 searchbox
@@ -2445,8 +2441,6 @@ currentOption
 )
 {
 menulist
-.
-menuBoxObject
 .
 activeChild
 =
@@ -2783,8 +2777,6 @@ parentElement
 menupopup
 .
 parentElement
-.
-menuBoxObject
 .
 activeChild
 =

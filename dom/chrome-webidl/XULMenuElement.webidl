@@ -92,6 +92,7 @@ MPL
 *
 /
 [
+HTMLConstructor
 Func
 =
 "
@@ -99,17 +100,10 @@ IsChromeOrXBL
 "
 ]
 interface
-MenuBoxObject
+XULMenuElement
 :
-BoxObject
+XULElement
 {
-void
-openMenu
-(
-boolean
-openFlag
-)
-;
 attribute
 Element
 ?

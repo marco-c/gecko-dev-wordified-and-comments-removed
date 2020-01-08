@@ -1106,8 +1106,6 @@ is
 (
 menulist
 .
-menuBoxObject
-.
 activeChild
 .
 label
@@ -1259,8 +1257,6 @@ is
 (
 menulist
 .
-menuBoxObject
-.
 activeChild
 .
 label
@@ -1320,8 +1316,6 @@ PAGE_UP
 is
 (
 menulist
-.
-menuBoxObject
 .
 activeChild
 .

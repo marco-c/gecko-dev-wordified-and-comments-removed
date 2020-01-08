@@ -428,8 +428,6 @@ this
 {
 this
 .
-menuBoxObject
-.
 activeChild
 =
 null
@@ -469,8 +467,6 @@ menupopup
 opens
 .
 this
-.
-menuBoxObject
 .
 activeChild
 =
@@ -613,8 +609,6 @@ selected
 item
 this
 .
-menuBoxObject
-.
 activeChild
 =
 this
@@ -625,8 +619,6 @@ if
 (
 this
 .
-menuBoxObject
-.
 handleKeyPress
 (
 event
@@ -634,8 +626,6 @@ event
 )
 {
 this
-.
-menuBoxObject
 .
 activeChild
 .
@@ -684,14 +674,6 @@ this
 mAttributeObserver
 =
 null
-;
-this
-.
-menuBoxObject
-=
-this
-.
-boxObject
 ;
 this
 .
@@ -1134,8 +1116,6 @@ onset
 =
 "
 this
-.
-menuBoxObject
 .
 openMenu
 (

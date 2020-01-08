@@ -153,9 +153,9 @@ gIsMenu
 =
 gTrigger
 .
-boxObject
-instanceof
-MenuBoxObject
+hasMenu
+(
+)
 ;
 gCachedEvent
 =
