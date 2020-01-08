@@ -1135,7 +1135,7 @@ Node
 *
 node
 =
-js_pod_malloc
+js_new
 <
 Node
 >

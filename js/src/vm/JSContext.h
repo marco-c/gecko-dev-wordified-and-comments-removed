@@ -2766,11 +2766,16 @@ ThreadData
 js
 :
 :
+UniquePtr
+<
+js
+:
+:
 jit
 :
 :
 PcScriptCache
-*
+>
 >
 ionPcScriptCache
 ;
