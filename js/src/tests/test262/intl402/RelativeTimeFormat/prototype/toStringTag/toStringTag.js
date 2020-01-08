@@ -12,7 +12,9 @@ toStringTag
 value
 :
 "
-Object
+Intl
+.
+RelativeTimeFormat
 "
 writable
 :
