@@ -2158,7 +2158,7 @@ run
 -
 time
 :
-5400
+2700
 env
 :
 PERFHERDER_EXTRA_OPTIONS
@@ -2360,7 +2360,7 @@ run
 -
 time
 :
-5400
+2700
 env
 :
 PERFHERDER_EXTRA_OPTIONS
@@ -4476,7 +4476,7 @@ run
 -
 time
 :
-5400
+2700
 env
 :
 PERFHERDER_EXTRA_OPTIONS
@@ -4663,7 +4663,7 @@ run
 -
 time
 :
-5400
+2700
 env
 :
 PERFHERDER_EXTRA_OPTIONS
