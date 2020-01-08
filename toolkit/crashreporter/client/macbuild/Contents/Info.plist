@@ -27,7 +27,6 @@ PUBLIC
 /
 /
 Apple
-Computer
 /
 /
 DTD
@@ -290,6 +289,18 @@ NSApplication
 <
 /
 string
+>
+<
+key
+>
+LSUIElement
+<
+/
+key
+>
+<
+true
+/
 >
 <
 /
