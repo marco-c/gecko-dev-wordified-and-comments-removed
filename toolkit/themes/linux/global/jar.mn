@@ -121,6 +121,15 @@ global
 commonDialog
 .
 css
+skin
+/
+classic
+/
+global
+/
+dropmarker
+.
+css
 *
 skin
 /

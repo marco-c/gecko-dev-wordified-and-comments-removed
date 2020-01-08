@@ -126,6 +126,15 @@ global
 dialog
 .
 css
+skin
+/
+classic
+/
+global
+/
+dropmarker
+.
+css
 *
 skin
 /
