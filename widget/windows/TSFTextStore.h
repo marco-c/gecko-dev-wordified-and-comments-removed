@@ -1610,6 +1610,17 @@ MaybeDestroyNativeCaret
 (
 )
 ;
+bool
+MaybeHackNoErrorLayoutBugs
+(
+LONG
+&
+aACPStart
+LONG
+&
+aACPEnd
+)
+;
 RefPtr
 <
 nsWindowBase
