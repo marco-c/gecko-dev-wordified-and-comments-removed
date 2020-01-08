@@ -92,6 +92,11 @@ already_AddRefed
 IDWriteFontFile
 >
 aFontFile
+already_AddRefed
+<
+IDWriteFontFileStream
+>
+aFontFileStream
 DWRITE_FONT_FACE_TYPE
 aFaceType
 uint32_t
@@ -107,6 +112,10 @@ aFactory
 mFontFile
 (
 aFontFile
+)
+mFontFileStream
+(
+aFontFileStream
 )
 mFaceType
 (
@@ -131,6 +140,12 @@ RefPtr
 IDWriteFontFile
 >
 mFontFile
+;
+RefPtr
+<
+IDWriteFontFileStream
+>
+mFontFileStream
 ;
 DWRITE_FONT_FACE_TYPE
 mFaceType

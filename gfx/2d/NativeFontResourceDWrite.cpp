@@ -1068,6 +1068,11 @@ fontFile
 forget
 (
 )
+ffsRef
+.
+forget
+(
+)
 faceType
 numberOfFaces
 aNeedsCairo
