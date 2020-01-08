@@ -10028,7 +10028,7 @@ rv
 mTextEditor
 -
 >
-DocumentIsEmpty
+IsEmpty
 (
 &
 empty
