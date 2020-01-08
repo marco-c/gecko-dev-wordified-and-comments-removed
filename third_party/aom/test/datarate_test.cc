@@ -1,7 +1,7 @@
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -1163,6 +1163,12 @@ cfg_
 g_lag_in_frames
 =
 0
+;
+cfg_
+.
+g_error_resilient
+=
+1
 ;
 cfg_
 .

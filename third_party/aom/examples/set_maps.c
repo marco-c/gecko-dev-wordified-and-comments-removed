@@ -31,7 +31,7 @@ include
 "
 aom
 /
-aomcx
+aom_encoder
 .
 h
 "
@@ -40,15 +40,14 @@ include
 "
 aom
 /
-aom_encoder
+aomcx
 .
 h
 "
 #
 include
 "
-.
-.
+common
 /
 tools_common
 .
@@ -57,8 +56,7 @@ h
 #
 include
 "
-.
-.
+common
 /
 video_writer
 .
@@ -373,7 +371,6 @@ img
 frame_index
 1
 0
-AOM_DL_GOOD_QUALITY
 )
 ;
 if

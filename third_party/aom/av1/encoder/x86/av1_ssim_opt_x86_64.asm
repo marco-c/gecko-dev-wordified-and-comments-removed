@@ -263,6 +263,9 @@ SUM_ACROSS_Q
 1
 %
 endmacro
+SECTION
+.
+text
 ;
 void
 ssim_parms_sse2

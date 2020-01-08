@@ -38,7 +38,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -47,7 +47,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_dsp_rtcd
 .
@@ -463,9 +463,6 @@ tst_res
 #
 if
 HAVE_SSE4_1
-#
-if
-CONFIG_MOTION_VAR
 const
 ObmcSadTest
 :
@@ -476,9 +473,6 @@ sse4_functions
 ]
 =
 {
-#
-if
-CONFIG_EXT_PARTITION
 TestFuncs
 (
 aom_obmc_sad128x128_c
@@ -494,8 +488,6 @@ TestFuncs
 aom_obmc_sad64x128_c
 aom_obmc_sad64x128_sse4_1
 )
-#
-endif
 TestFuncs
 (
 aom_obmc_sad64x64_c
@@ -580,11 +572,6 @@ sse4_functions
 ;
 #
 endif
-#
-endif
-#
-if
-CONFIG_HIGHBITDEPTH
 class
 ObmcSadHBDTest
 :
@@ -954,9 +941,6 @@ tst_res
 #
 if
 HAVE_SSE4_1
-#
-if
-CONFIG_MOTION_VAR
 ObmcSadHBDTest
 :
 :
@@ -966,9 +950,6 @@ sse4_functions_hbd
 ]
 =
 {
-#
-if
-CONFIG_EXT_PARTITION
 TestFuncs
 (
 aom_highbd_obmc_sad128x128_c
@@ -984,8 +965,6 @@ TestFuncs
 aom_highbd_obmc_sad64x128_c
 aom_highbd_obmc_sad64x128_sse4_1
 )
-#
-endif
 TestFuncs
 (
 aom_highbd_obmc_sad64x64_c
@@ -1068,10 +1047,6 @@ sse4_functions_hbd
 )
 )
 ;
-#
-endif
-#
-endif
 #
 endif
 }

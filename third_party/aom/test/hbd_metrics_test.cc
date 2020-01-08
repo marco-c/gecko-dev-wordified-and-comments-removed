@@ -57,7 +57,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -1011,10 +1011,9 @@ hbd_metric_
 }
 ;
 typedef
-std
 :
 :
-tr1
+testing
 :
 :
 tuple

@@ -1,7 +1,7 @@
 #
 include
 "
-.
+config
 /
 aom_scale_rtcd
 .
@@ -1369,6 +1369,9 @@ vratio
 unsigned
 int
 interlaced
+const
+int
+num_planes
 )
 {
 const
@@ -1418,7 +1421,7 @@ plane
 ;
 plane
 <
-3
+num_planes
 ;
 +
 +

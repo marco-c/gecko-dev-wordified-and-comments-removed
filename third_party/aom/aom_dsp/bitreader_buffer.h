@@ -96,8 +96,8 @@ int
 bits
 )
 ;
-int
-aom_rb_read_signed_literal
+uint32_t
+aom_rb_read_unsigned_literal
 (
 struct
 aom_read_bit_buffer

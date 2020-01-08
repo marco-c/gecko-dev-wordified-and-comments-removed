@@ -1,7 +1,5 @@
 #
 #
-#
-#
 Copyright
 (
 c
@@ -15,8 +13,6 @@ Media
 All
 rights
 reserved
-#
-#
 #
 #
 This
@@ -34,9 +30,8 @@ BSD
 Clause
 License
 and
-#
-#
 the
+#
 Alliance
 for
 Open
@@ -53,9 +48,8 @@ BSD
 2
 Clause
 License
-#
-#
 was
+#
 not
 distributed
 with
@@ -68,10 +62,9 @@ LICENSE
 file
 you
 can
-#
-#
 obtain
 it
+#
 at
 www
 .
@@ -88,10 +81,9 @@ the
 Alliance
 for
 Open
-#
-#
 Media
 Patent
+#
 License
 1
 .
@@ -105,11 +97,10 @@ source
 code
 in
 the
-#
-#
 PATENTS
 file
 you
+#
 can
 obtain
 it
@@ -124,7 +115,6 @@ license
 /
 patent
 .
-#
 #
 cmake_minimum_required
 (
@@ -730,6 +720,8 @@ aom_config_h_template
 AOM_CONFIG_DIR
 }
 /
+config
+/
 aom_config
 .
 h
@@ -834,6 +826,8 @@ aom_asm_config_template
 AOM_CONFIG_DIR
 }
 /
+config
+/
 aom_config
 .
 asm
@@ -881,9 +875,6 @@ CMAKE_
 \
 |
 INLINE
-\
-|
-RESTRICT
 "
 )
 file
@@ -968,9 +959,6 @@ CMAKE_
 \
 |
 INLINE
-\
-|
-RESTRICT
 "
 )
 file

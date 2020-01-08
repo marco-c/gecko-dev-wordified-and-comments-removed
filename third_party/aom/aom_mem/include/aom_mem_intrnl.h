@@ -7,7 +7,7 @@ AOM_MEM_INCLUDE_AOM_MEM_INTRNL_H_
 #
 include
 "
-.
+config
 /
 aom_config
 .

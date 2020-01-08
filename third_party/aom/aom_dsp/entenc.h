@@ -59,15 +59,6 @@ buf
 uint32_t
 storage
 ;
-uint32_t
-end_offs
-;
-od_ec_window
-end_window
-;
-int
-nend_bits
-;
 uint16_t
 *
 precarry_buf

@@ -7,7 +7,7 @@ AOM_AOM_H_
 #
 include
 "
-.
+aom
 /
 aom_codec
 .
@@ -16,7 +16,7 @@ h
 #
 include
 "
-.
+aom
 /
 aom_image
 .
@@ -63,6 +63,9 @@ AOM_COMMON_CTRL_ID_MAX
 AV1_GET_NEW_FRAME_IMAGE
 =
 192
+AV1_COPY_NEW_FRAME_IMAGE
+=
+193
 AOM_DECODER_CTRL_ID_START
 =
 256
@@ -147,6 +150,9 @@ av1_ref_frame
 int
 idx
 ;
+int
+use_external_ref
+;
 aom_image_t
 img
 ;
@@ -230,6 +236,15 @@ aom_image_t
 #
 define
 AOM_CTRL_AV1_GET_NEW_FRAME_IMAGE
+AOM_CTRL_USE_TYPE
+(
+AV1_COPY_NEW_FRAME_IMAGE
+aom_image_t
+*
+)
+#
+define
+AOM_CTRL_AV1_COPY_NEW_FRAME_IMAGE
 #
 ifdef
 __cplusplus

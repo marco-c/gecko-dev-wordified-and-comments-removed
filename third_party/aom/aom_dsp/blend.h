@@ -130,4 +130,17 @@ v1
 1
 )
 #
+define
+DIFF_FACTOR_LOG2
+4
+#
+define
+DIFF_FACTOR
+(
+1
+<
+<
+DIFF_FACTOR_LOG2
+)
+#
 endif

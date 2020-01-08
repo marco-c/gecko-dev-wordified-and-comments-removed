@@ -31,8 +31,7 @@ h
 #
 include
 "
-.
-.
+common
 /
 tools_common
 .
@@ -41,8 +40,7 @@ h
 #
 include
 "
-.
-.
+common
 /
 video_writer
 .
@@ -121,9 +119,6 @@ int
 duration
 aom_enc_frame_flags_t
 flags
-unsigned
-int
-deadline
 aom_fixed_buf_t
 *
 stats
@@ -157,7 +152,6 @@ img
 pts
 duration
 flags
-deadline
 )
 ;
 if
@@ -310,9 +304,6 @@ int
 duration
 aom_enc_frame_flags_t
 flags
-unsigned
-int
-deadline
 AvxVideoWriter
 *
 writer
@@ -346,7 +337,6 @@ img
 pts
 duration
 flags
-deadline
 )
 ;
 if
@@ -581,7 +571,6 @@ raw
 frame_count
 1
 0
-AOM_DL_GOOD_QUALITY
 &
 stats
 )
@@ -597,7 +586,6 @@ NULL
 frame_count
 1
 0
-AOM_DL_GOOD_QUALITY
 &
 stats
 )
@@ -802,7 +790,6 @@ raw
 frame_count
 1
 0
-AOM_DL_GOOD_QUALITY
 writer
 )
 ;
@@ -818,7 +805,6 @@ NULL
 1
 1
 0
-AOM_DL_GOOD_QUALITY
 writer
 )
 )

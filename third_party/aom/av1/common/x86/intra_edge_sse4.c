@@ -15,7 +15,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -24,7 +24,7 @@ h
 #
 include
 "
-.
+config
 /
 av1_rtcd
 .
@@ -279,7 +279,7 @@ len
 =
 sz
 -
-2
+1
 ;
 const
 int
@@ -1053,7 +1053,7 @@ len
 =
 sz
 -
-2
+1
 ;
 const
 int
