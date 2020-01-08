@@ -4112,6 +4112,7 @@ let
 (
 handle
 spatial_node_index
+local_pos
 )
 =
 {
@@ -4140,6 +4141,9 @@ handle
 clip_chain
 .
 spatial_node_index
+clip_chain
+.
+local_pos
 )
 }
 ;
@@ -4176,6 +4180,7 @@ clip_store
 add_clip_chain_node
 (
 handle
+local_pos
 spatial_node_index
 clip_chain_id
 )
@@ -4431,7 +4436,10 @@ clip_items
 :
 Vec
 <
+(
+LayoutPoint
 ClipItemKey
+)
 >
 spatial_node_index
 :
@@ -4462,7 +4470,10 @@ clip_chain_id
 parent_clip_chain_id
 ;
 for
+(
+local_pos
 item
+)
 in
 clip_items
 {
@@ -4592,6 +4603,7 @@ clip_store
 add_clip_chain_node
 (
 handle
+local_pos
 spatial_node_index
 clip_chain_id
 )
@@ -5045,7 +5057,10 @@ clip_items
 :
 Vec
 <
+(
+LayoutPoint
 ClipItemKey
+)
 >
 key_kind
 :
@@ -7803,6 +7818,8 @@ rectangle
 clip_region
 .
 main
+.
+size
 ClipMode
 :
 :
@@ -7831,6 +7848,11 @@ clip_store
 add_clip_chain_node
 (
 handle
+clip_region
+.
+main
+.
+origin
 spatial_node
 parent_clip_chain_index
 )
@@ -7906,6 +7928,11 @@ clip_store
 add_clip_chain_node
 (
 handle
+image_mask
+.
+rect
+.
+origin
 spatial_node
 parent_clip_chain_index
 )
@@ -7943,6 +7970,8 @@ rounded_rect
 region
 .
 rect
+.
+size
 region
 .
 radii
@@ -7985,6 +8014,11 @@ clip_store
 add_clip_chain_node
 (
 handle
+region
+.
+rect
+.
+origin
 spatial_node
 parent_clip_chain_index
 )

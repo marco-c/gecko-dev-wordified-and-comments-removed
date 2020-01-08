@@ -18,6 +18,7 @@ api
 DevicePixelScale
 ImageDescriptor
 ImageFormat
+LayoutPoint
 }
 ;
 use
@@ -1453,6 +1454,10 @@ pub
 clip_data_address
 :
 GpuCacheAddress
+pub
+local_pos
+:
+LayoutPoint
 }
 #
 [
@@ -3040,6 +3045,11 @@ new_rounded_rect_mask
 (
 cache_size
 clip_data_address
+info
+.
+minimal_shadow_rect
+.
+origin
 )
 ;
 let
@@ -3167,6 +3177,9 @@ DeviceIntSize
 clip_data_address
 :
 GpuCacheAddress
+local_pos
+:
+LayoutPoint
 )
 -
 >
@@ -3192,6 +3205,7 @@ ClipRegion
 ClipRegionTask
 {
 clip_data_address
+local_pos
 }
 )
 ClearMode

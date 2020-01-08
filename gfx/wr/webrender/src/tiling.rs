@@ -3155,6 +3155,9 @@ task_address
 task
 .
 clip_data_address
+task
+.
+local_pos
 )
 ;
 }

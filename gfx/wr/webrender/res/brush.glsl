@@ -279,6 +279,17 @@ segment_info
 zw
 )
 ;
+segment_rect
+.
+p0
++
+=
+ph
+.
+local_rect
+.
+p0
+;
 segment_data
 =
 segment_info
