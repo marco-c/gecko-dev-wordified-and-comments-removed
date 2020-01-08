@@ -124,6 +124,7 @@ AttrArray
 :
 GetAttr
 (
+const
 nsAtom
 *
 aLocalName
@@ -1338,6 +1339,7 @@ AttrArray
 :
 IndexOfAttr
 (
+const
 nsAtom
 *
 aLocalName

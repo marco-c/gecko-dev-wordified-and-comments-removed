@@ -163,6 +163,7 @@ nsAttrValue
 *
 GetAttr
 (
+const
 nsAtom
 *
 aLocalName
@@ -296,6 +297,7 @@ const
 int32_t
 IndexOfAttr
 (
+const
 nsAtom
 *
 aLocalName

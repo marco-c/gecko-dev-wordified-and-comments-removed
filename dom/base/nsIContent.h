@@ -491,6 +491,7 @@ inline
 bool
 IsHTMLElement
 (
+const
 nsAtom
 *
 aTag
@@ -566,6 +567,7 @@ inline
 bool
 IsSVGElement
 (
+const
 nsAtom
 *
 aTag
@@ -641,6 +643,7 @@ inline
 bool
 IsXULElement
 (
+const
 nsAtom
 *
 aTag
@@ -716,6 +719,7 @@ inline
 bool
 IsMathMLElement
 (
+const
 nsAtom
 *
 aTag

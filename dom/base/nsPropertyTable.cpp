@@ -94,6 +94,7 @@ Destroy
 bool
 Equals
 (
+const
 nsAtom
 *
 aPropertyName
@@ -565,6 +566,7 @@ GetPropertyInternal
 (
 nsPropertyOwner
 aObject
+const
 nsAtom
 *
 aPropertyName
@@ -914,6 +916,7 @@ DeleteProperty
 (
 nsPropertyOwner
 aObject
+const
 nsAtom
 *
 aPropertyName
@@ -974,6 +977,7 @@ nsPropertyTable
 :
 GetPropertyListFor
 (
+const
 nsAtom
 *
 aPropertyName

@@ -1523,6 +1523,7 @@ mAnchorJumpElm
 ;
 union
 {
+const
 nsAtom
 *
 mARIAAttrOldValue

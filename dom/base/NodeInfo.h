@@ -246,6 +246,7 @@ const
 bool
 Equals
 (
+const
 nsAtom
 *
 aNameAtom
@@ -264,9 +265,11 @@ aNameAtom
 bool
 Equals
 (
+const
 nsAtom
 *
 aNameAtom
+const
 nsAtom
 *
 aPrefixAtom
@@ -297,6 +300,7 @@ aPrefixAtom
 bool
 Equals
 (
+const
 nsAtom
 *
 aNameAtom
@@ -331,9 +335,11 @@ aNamespaceID
 bool
 Equals
 (
+const
 nsAtom
 *
 aNameAtom
+const
 nsAtom
 *
 aPrefixAtom
@@ -462,6 +468,7 @@ inline
 bool
 QualifiedNameEquals
 (
+const
 nsAtom
 *
 aNameAtom

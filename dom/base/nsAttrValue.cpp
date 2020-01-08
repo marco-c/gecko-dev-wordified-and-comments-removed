@@ -4602,6 +4602,7 @@ nsAttrValue
 :
 Equals
 (
+const
 nsAtom
 *
 aValue

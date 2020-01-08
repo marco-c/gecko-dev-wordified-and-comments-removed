@@ -149,6 +149,7 @@ const
 nsPropertyOwner
 &
 aObject
+const
 nsAtom
 *
 aPropertyName
@@ -210,6 +211,7 @@ DeleteProperty
 (
 nsPropertyOwner
 aObject
+const
 nsAtom
 *
 aPropertyName
@@ -223,6 +225,7 @@ const
 nsPropertyOwner
 &
 aObject
+const
 nsAtom
 *
 aPropertyName
@@ -361,6 +364,7 @@ PropertyList
 *
 GetPropertyListFor
 (
+const
 nsAtom
 *
 aPropertyName
@@ -373,6 +377,7 @@ GetPropertyInternal
 (
 nsPropertyOwner
 aObject
+const
 nsAtom
 *
 aPropertyName

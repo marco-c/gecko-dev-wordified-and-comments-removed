@@ -1994,6 +1994,7 @@ inline
 bool
 IsHTMLElement
 (
+const
 nsAtom
 *
 aTag
@@ -2079,6 +2080,7 @@ inline
 bool
 IsSVGElement
 (
+const
 nsAtom
 *
 aTag
@@ -2164,6 +2166,7 @@ inline
 bool
 IsXULElement
 (
+const
 nsAtom
 *
 aTag
@@ -2249,6 +2252,7 @@ inline
 bool
 IsMathMLElement
 (
+const
 nsAtom
 *
 aTag
@@ -2391,6 +2395,7 @@ void
 *
 GetProperty
 (
+const
 nsAtom
 *
 aPropertyName
@@ -2455,6 +2460,7 @@ aPropertyValue
 void
 DeleteProperty
 (
+const
 nsAtom
 *
 aPropertyName
@@ -2464,6 +2470,7 @@ void
 *
 UnsetProperty
 (
+const
 nsAtom
 *
 aPropertyName

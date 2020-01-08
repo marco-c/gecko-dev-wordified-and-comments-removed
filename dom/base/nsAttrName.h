@@ -444,6 +444,7 @@ mBits
 bool
 Equals
 (
+const
 nsAtom
 *
 aAtom
@@ -493,6 +494,7 @@ aLocalName
 bool
 Equals
 (
+const
 nsAtom
 *
 aLocalName
@@ -812,6 +814,7 @@ mBits
 bool
 IsSmaller
 (
+const
 nsAtom
 *
 aOther

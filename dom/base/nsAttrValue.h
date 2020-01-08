@@ -952,6 +952,7 @@ const
 bool
 Equals
 (
+const
 nsAtom
 *
 aValue
