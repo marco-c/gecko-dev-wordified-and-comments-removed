@@ -133,16 +133,6 @@ MAX_INTROS
 ]
 [
 "
-browser
-.
-fastblock
-.
-enabled
-"
-false
-]
-[
-"
 dom
 .
 storage_access

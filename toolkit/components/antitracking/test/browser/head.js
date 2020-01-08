@@ -1105,16 +1105,6 @@ MAX_INTROS
 ]
 [
 "
-browser
-.
-fastblock
-.
-enabled
-"
-false
-]
-[
-"
 privacy
 .
 restrict3rdpartystorage

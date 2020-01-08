@@ -81,16 +81,6 @@ true
 ]
 [
 "
-browser
-.
-fastblock
-.
-enabled
-"
-false
-]
-[
-"
 network
 .
 cookie
