@@ -1323,6 +1323,16 @@ user_pref
 "
 dom
 .
+block_multiple_popups
+"
+false
+)
+;
+user_pref
+(
+"
+dom
+.
 presentation
 .
 testing
