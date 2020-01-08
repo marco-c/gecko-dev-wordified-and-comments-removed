@@ -6131,6 +6131,8 @@ clang
 -
 mingw
 -
+x64
+-
 linux64
 -
 mingw32
@@ -6327,6 +6329,8 @@ clang
 7
 -
 mingw
+-
+x64
 -
 linux64
 -
