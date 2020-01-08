@@ -1967,7 +1967,7 @@ aPseudo
 CSSEnabledState
 :
 :
-eIgnoreEnabledState
+eForAllContent
 )
 ;
 }
