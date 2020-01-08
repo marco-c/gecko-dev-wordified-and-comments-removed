@@ -211,6 +211,11 @@ testErrorCopying
 cpp
 '
 '
+testErrorLineOfContext
+.
+cpp
+'
+'
 testException
 .
 cpp
