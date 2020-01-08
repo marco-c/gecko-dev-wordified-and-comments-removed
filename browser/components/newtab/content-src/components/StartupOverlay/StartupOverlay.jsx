@@ -308,7 +308,7 @@ TELEMETRY_UNDESIRED_EVENT
 data
 :
 {
-value
+event
 :
 "
 FXA_METRICS_ERROR

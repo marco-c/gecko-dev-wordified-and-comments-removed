@@ -182,9 +182,6 @@ menu_action_show_file_windows
 "
 :
 "
-Open
-Containing
-Folder
 "
 "
 menu_action_show_file_linux

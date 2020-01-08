@@ -759,8 +759,9 @@ pocket_learn_more
 "
 :
 "
-Learn
-More
+Nong
+ngec
+mapol
 "
 "
 pocket_cta_button
