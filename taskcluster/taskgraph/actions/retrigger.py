@@ -183,17 +183,6 @@ task
 )
 :
     
-decision_task_id
-full_task_graph
-label_to_taskid
-=
-fetch_graph_and_labels
-(
-        
-parameters
-graph_config
-)
-    
 "
 "
 "
