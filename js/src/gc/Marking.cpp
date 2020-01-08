@@ -18957,6 +18957,15 @@ MOZ_ASSERT
 thing
 )
 ;
+mozilla
+:
+:
+recordreplay
+:
+:
+AutoDisallowThreadEvents
+d
+;
 UnmarkGrayTracer
 unmarker
 (

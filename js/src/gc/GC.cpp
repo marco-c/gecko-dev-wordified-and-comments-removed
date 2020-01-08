@@ -37538,6 +37538,15 @@ Reason
 reason
 )
 {
+mozilla
+:
+:
+recordreplay
+:
+:
+AutoDisallowThreadEvents
+d
+;
 invocationKind
 =
 gckind

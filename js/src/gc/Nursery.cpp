@@ -3739,6 +3739,15 @@ mainContextFromOwnThread
 suppressGC
 )
 ;
+mozilla
+:
+:
+recordreplay
+:
+:
+AutoDisallowThreadEvents
+disallow
+;
 if
 (
 !

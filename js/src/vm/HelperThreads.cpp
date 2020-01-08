@@ -9069,6 +9069,15 @@ Helper
 "
 )
 ;
+mozilla
+:
+:
+recordreplay
+:
+:
+AutoDisallowThreadEvents
+d
+;
 static_cast
 <
 HelperThread
