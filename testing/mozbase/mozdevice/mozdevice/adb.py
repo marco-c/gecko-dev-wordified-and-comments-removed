@@ -4046,6 +4046,13 @@ try
 :
             
 if
+(
+not
+self
+.
+_have_su
+and
+                
 self
 .
 shell_output
@@ -4068,6 +4075,7 @@ uid
 =
 -
 1
+)
 :
                 
 self
