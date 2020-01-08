@@ -183,6 +183,13 @@ UNIFIED_SOURCES
 '
 core
 /
+PageInformation
+.
+cpp
+'
+'
+core
+/
 platform
 .
 cpp
