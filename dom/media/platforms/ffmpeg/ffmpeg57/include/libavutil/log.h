@@ -466,10 +466,8 @@ pctx
 .
 .
 )
-\
 do
 {
-\
 if
 (
 0
@@ -481,7 +479,6 @@ AV_LOG_DEBUG
 __VA_ARGS__
 )
 ;
-\
 }
 while
 (

@@ -194,7 +194,6 @@ n
 t
 v
 )
-\
 static
 const
 t

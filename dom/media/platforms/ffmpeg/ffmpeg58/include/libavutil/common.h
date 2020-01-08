@@ -19,7 +19,6 @@ __STDC_CONSTANT_MACROS
 )
 &
 &
-\
 !
 defined
 (
@@ -156,7 +155,6 @@ RSHIFT
 a
 b
 )
-\
 (
 (
 a
@@ -188,7 +186,6 @@ b
 (
 b
 )
-\
 :
 (
 (
@@ -224,7 +221,6 @@ ROUNDED_DIV
 a
 b
 )
-\
 (
 (
 (
@@ -271,7 +267,6 @@ AV_CEIL_RSHIFT
 a
 b
 )
-\
 (
 !
 av_builtin_constant_p
@@ -293,6 +288,7 @@ a
 b
 )
 )
+\
 :
 (
 (
@@ -562,26 +558,21 @@ type
 a
 b
 )
-\
 do
 {
-\
 type
 SWAP_tmp
 =
 b
 ;
-\
 b
 =
 a
 ;
-\
 a
 =
 SWAP_tmp
 ;
-\
 }
 while
 (
@@ -1516,7 +1507,6 @@ b
 c
 d
 )
-\
 (
 (
 a
@@ -1561,7 +1551,6 @@ b
 c
 d
 )
-\
 (
 (
 d
@@ -1645,6 +1634,7 @@ val
 =
 0xFE
 )
+\
 ERROR
 \
 while
@@ -1672,6 +1662,7 @@ tmp
 >
 6
 )
+\
 ERROR
 \
 val
@@ -1760,6 +1751,7 @@ hi
 >
 0x3FFU
 )
+\
 ERROR
 \
 val
@@ -1778,6 +1770,7 @@ hi
 }
 \
 }
+\
 #
 define
 PUT_UTF8
@@ -1979,6 +1972,7 @@ PUT_16BIT
 }
 \
 }
+\
 #
 include
 "

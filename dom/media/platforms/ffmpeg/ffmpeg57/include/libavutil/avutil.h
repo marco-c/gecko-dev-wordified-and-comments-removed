@@ -128,7 +128,6 @@ AV_TIME_BASE
 #
 define
 AV_TIME_BASE_Q
-\
 (
 AVRational
 )

@@ -14,7 +14,6 @@ AV_GCC_VERSION_AT_LEAST
 x
 y
 )
-\
 (
 __GNUC__
 >
@@ -45,7 +44,6 @@ AV_GCC_VERSION_AT_MOST
 x
 y
 )
-\
 (
 __GNUC__
 <
@@ -403,6 +401,7 @@ declarations
 )
 \
 code
+\
 _Pragma
 (
 "
@@ -431,6 +430,7 @@ warning
 push
 )
 )
+\
 __pragma
 (
 warning
@@ -440,6 +440,7 @@ disable
 4996
 )
 )
+\
 code
 ;
 \
@@ -585,7 +586,6 @@ av_printf_format
 fmtpos
 attrpos
 )
-\
 __attribute__
 (
 (
