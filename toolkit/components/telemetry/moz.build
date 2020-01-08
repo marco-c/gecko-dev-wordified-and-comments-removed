@@ -611,13 +611,6 @@ jsm
 '
 app
 /
-TelemetryStopwatch
-.
-jsm
-'
-'
-app
-/
 TelemetryStorage
 .
 jsm
