@@ -65,9 +65,6 @@ ScrollBehavior
 auto
 "
 "
-instant
-"
-"
 smooth
 "
 }
