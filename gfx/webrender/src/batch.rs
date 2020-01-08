@@ -28,8 +28,8 @@ api
 {
 YuvColorSpace
 YuvFormat
-WorldRect
 ColorDepth
+PictureRect
 }
 ;
 use
@@ -766,7 +766,7 @@ Vec
 <
 Vec
 <
-WorldRect
+PictureRect
 >
 >
 current_batch_index
@@ -834,7 +834,7 @@ BatchKey
 bounding_rect
 :
 &
-WorldRect
+PictureRect
 z_id
 :
 ZBufferId
@@ -1232,7 +1232,7 @@ BatchKey
 bounding_rect
 :
 &
-WorldRect
+PictureRect
 )
 -
 >
@@ -1567,7 +1567,7 @@ BatchKey
 bounding_rect
 :
 &
-WorldRect
+PictureRect
 z_id
 :
 ZBufferId
@@ -1672,7 +1672,7 @@ BatchKey
 bounding_rect
 :
 &
-WorldRect
+PictureRect
 z_id
 :
 ZBufferId
@@ -2473,7 +2473,7 @@ ZBufferIdGenerator
 if
 prim_instance
 .
-clipped_world_rect
+bounding_rect
 .
 is_none
 (
@@ -2532,7 +2532,7 @@ bounding_rect
 =
 prim_instance
 .
-clipped_world_rect
+bounding_rect
 .
 as_ref
 (
@@ -3919,7 +3919,7 @@ key
 &
 prim_instance
 .
-clipped_world_rect
+bounding_rect
 .
 as_ref
 (
@@ -6080,7 +6080,7 @@ RenderTaskAddress
 bounding_rect
 :
 &
-WorldRect
+PictureRect
 edge_flags
 :
 EdgeAaSegmentMask
@@ -6184,7 +6184,7 @@ BlendMode
 bounding_rect
 :
 &
-WorldRect
+PictureRect
 transform_kind
 :
 TransformedRectKind
@@ -6402,7 +6402,7 @@ RenderTaskAddress
 bounding_rect
 :
 &
-WorldRect
+PictureRect
 transform_kind
 :
 TransformedRectKind
@@ -6730,7 +6730,7 @@ BlendMode
 bounding_rect
 :
 &
-WorldRect
+PictureRect
 clip_task_address
 :
 RenderTaskAddress
