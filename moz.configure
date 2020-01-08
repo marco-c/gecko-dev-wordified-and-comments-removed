@@ -4615,6 +4615,17 @@ join
 (
 topsrcdir
 '
+CLOBBER
+'
+)
+os
+.
+path
+.
+join
+(
+topsrcdir
+'
 configure
 '
 )
