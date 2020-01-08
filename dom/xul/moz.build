@@ -185,11 +185,6 @@ XULPopupElement
 .
 h
 '
-'
-XULScrollElement
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -247,11 +242,6 @@ cpp
 '
 '
 XULPopupElement
-.
-cpp
-'
-'
-XULScrollElement
 .
 cpp
 '

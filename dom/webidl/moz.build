@@ -4541,6 +4541,11 @@ ScrollAreaEvent
 webidl
 '
 '
+ScrollBoxObject
+.
+webidl
+'
+'
 Selection
 .
 webidl
