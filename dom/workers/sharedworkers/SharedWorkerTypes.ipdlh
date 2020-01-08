@@ -57,6 +57,9 @@ MPL
 *
 /
 include
+ClientIPCTypes
+;
+include
 DOMTypes
 ;
 include
@@ -106,6 +109,12 @@ principalInfo
 ;
 nsCString
 domain
+;
+bool
+isSecureContext
+;
+OptionalIPCClientInfo
+clientInfo
 ;
 MessagePortIdentifier
 portIdentifier

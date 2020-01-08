@@ -7,6 +7,10 @@ mozilla_dom_workers_scriptloader_h__
 #
 include
 "
+mozilla
+/
+dom
+/
 WorkerCommon
 .
 h

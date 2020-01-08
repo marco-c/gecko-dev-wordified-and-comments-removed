@@ -226,6 +226,11 @@ RuntimeService
 .
 h
 '
+'
+ScriptLoader
+.
+h
+'
 ]
 XPIDL_MODULE
 =

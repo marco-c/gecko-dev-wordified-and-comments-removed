@@ -348,6 +348,14 @@ mServiceWorkersTestingInWindow
 OriginAttributes
 mOriginAttributes
 ;
+enum
+{
+eNotSet
+eInsecureContext
+eSecureContext
+}
+mSecureContext
+;
 WorkerLoadInfo
 (
 )
