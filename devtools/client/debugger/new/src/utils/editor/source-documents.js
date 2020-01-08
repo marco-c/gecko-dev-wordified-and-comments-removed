@@ -799,7 +799,6 @@ currentMode
 name
 !
 =
-=
 mode
 .
 name
