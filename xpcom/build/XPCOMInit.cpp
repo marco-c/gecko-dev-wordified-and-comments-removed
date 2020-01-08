@@ -1325,7 +1325,7 @@ Create
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 {
 &
@@ -1522,7 +1522,7 @@ nullptr
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 ;
 static
