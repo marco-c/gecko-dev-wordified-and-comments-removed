@@ -161,7 +161,7 @@ interval
 (
 state
 =
-1
+1000
 action
 )
 {
