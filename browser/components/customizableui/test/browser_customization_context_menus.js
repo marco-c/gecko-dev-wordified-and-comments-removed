@@ -394,6 +394,17 @@ toolbar
 -
 context
 -
+selectAllTabs
+"
+true
+]
+[
+"
+#
+toolbar
+-
+context
+-
 undoCloseTab
 "
 !
