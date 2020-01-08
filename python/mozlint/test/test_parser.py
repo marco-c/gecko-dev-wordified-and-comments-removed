@@ -177,6 +177,28 @@ in
 lintobj
     
 assert
+'
+include
+'
+in
+lintobj
+    
+assert
+lintobj
+[
+'
+include
+'
+]
+=
+=
+[
+'
+.
+'
+]
+    
+assert
 set
 (
 lintobj
@@ -224,6 +246,12 @@ ym
     
 '
 invalid_include
+.
+yml
+'
+    
+'
+invalid_include_with_glob
 .
 yml
 '
