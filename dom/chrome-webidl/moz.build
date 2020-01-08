@@ -367,6 +367,11 @@ WebExtensionPolicy
 webidl
 '
 '
+WindowGlobalActors
+.
+webidl
+'
+'
 XULFrameElement
 .
 webidl
