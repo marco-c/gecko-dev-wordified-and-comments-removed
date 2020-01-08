@@ -161,6 +161,14 @@ nsCycleCollector_createLogSink
 (
 )
 ;
+already_AddRefed
+<
+nsICycleCollectorListener
+>
+nsCycleCollector_createLogger
+(
+)
+;
 void
 nsCycleCollector_collect
 (
