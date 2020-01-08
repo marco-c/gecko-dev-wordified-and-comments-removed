@@ -86,10 +86,6 @@ eaa_
 =
 true
 ;
-eagerSimdUnbox_
-=
-true
-;
 edgeCaseAnalysis_
 =
 true
@@ -213,10 +209,6 @@ ama_
 true
 ;
 autoTruncate_
-=
-false
-;
-eagerSimdUnbox_
 =
 false
 ;

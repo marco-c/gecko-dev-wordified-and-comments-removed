@@ -1514,17 +1514,7 @@ perfSpewer_
 #
 endif
 uint32_t
-simdTemplatesToReadBarrier_
-;
-uint32_t
 realmStubsToReadBarrier_
-;
-void
-addSimdTemplateToReadBarrier
-(
-SimdType
-simdType
-)
 ;
 #
 define

@@ -139,16 +139,6 @@ disabled
 :
 true
 }
-{
-name
-:
-"
-SIMD
-"
-nightly
-:
-true
-}
 "
 String
 "

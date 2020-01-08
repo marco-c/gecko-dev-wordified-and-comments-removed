@@ -648,17 +648,6 @@ Class
 clasp
 )
 ;
-JSObject
-*
-getTemplateObjectForSimdCtor
-(
-jsbytecode
-*
-pc
-SimdType
-simdType
-)
-;
 ObjectGroup
 *
 getTemplateObjectGroup

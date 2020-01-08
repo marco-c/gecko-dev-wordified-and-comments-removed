@@ -378,12 +378,6 @@ referenceType
 )
 const
 ;
-SimdType
-simdType
-(
-)
-const
-;
 bool
 hasKnownArrayLength
 (

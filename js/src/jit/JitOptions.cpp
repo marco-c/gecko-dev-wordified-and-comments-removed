@@ -400,12 +400,6 @@ false
 ;
 SET_DEFAULT
 (
-disableEagerSimdUnbox
-false
-)
-;
-SET_DEFAULT
-(
 disableEdgeCaseAnalysis
 false
 )
