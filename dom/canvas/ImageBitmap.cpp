@@ -6300,7 +6300,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_DOM_INDEX_SIZE_ERR
+NS_ERROR_RANGE_ERR
 )
 ;
 return
