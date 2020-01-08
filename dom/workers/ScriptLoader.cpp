@@ -1105,7 +1105,7 @@ ios
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 }
@@ -1225,7 +1225,7 @@ ios
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+NS_ERROR_DOM_SECURITY_ERR
 )
 ;
 if
