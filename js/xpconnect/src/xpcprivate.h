@@ -10615,9 +10615,6 @@ bool
 isContentXBLCompartment
 ;
 bool
-isAddonCompartment
-;
-bool
 universalXPConnectEnabled
 ;
 bool
