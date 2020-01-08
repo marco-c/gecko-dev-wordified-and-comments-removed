@@ -2078,6 +2078,7 @@ win32file
 .
 SetFileAttributesW
 (
+                        
 '
 \
 \
@@ -2112,6 +2113,7 @@ full_name
 )
                 
 except
+Exception
 :
                     
 self
@@ -2819,6 +2821,9 @@ declares
 a
 body
 length
+'
+                
+'
 of
 {
 }
@@ -3256,6 +3261,7 @@ urllib2
 .
 URLError
 (
+                            
 "
 Download
 incomplete
@@ -3266,6 +3272,9 @@ length
 was
 %
 d
+"
+                            
+"
 but
 only
 received
@@ -5794,6 +5803,7 @@ mode
 def
 copyfile
 (
+        
 self
 src
 dest
@@ -5809,6 +5819,7 @@ False
 compress
 =
 False
+    
 )
 :
         
@@ -9744,18 +9755,21 @@ dict
 but
 an
 existing
+"
+                         
+"
 path
 could
 not
 be
-"
-                         
-"
 determined
 .
 Tried
 searching
 in
+"
+                         
+"
 paths
 :
 %
@@ -9920,6 +9934,7 @@ self
 .
 log
 (
+                
 "
 Unknown
 return_type
@@ -9931,6 +9946,7 @@ in
 query_exe
 !
 "
+                
 %
 return_type
 level
@@ -10808,6 +10824,7 @@ self
 .
 info
 (
+                        
 "
 Automation
 Error
@@ -10816,6 +10833,9 @@ mozprocess
 timed
 out
 after
+"
+                        
+"
 %
 s
 seconds
@@ -12197,6 +12217,7 @@ self
 .
 log
 (
+            
 "
 Temporary
 files
@@ -12207,6 +12228,7 @@ and
 %
 s
 "
+            
 %
 (
 tmp_stdout_filename
@@ -15355,10 +15377,10 @@ s
 %
 s
 "
+                                   
 %
 (
 action
-                                   
 traceback
 .
 format_exc
@@ -17877,30 +17899,3 @@ d
 %
 code
 )
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
-"
-"
-"
-Useless
-comparison
-due
-to
-the
-pass
-keyword
-on
-its
-body
-"
-"
-"
-    
-pass
