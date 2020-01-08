@@ -95,6 +95,11 @@ BTSerializationTest
 cpp
 '
 '
+BTVerificationTest
+.
+cpp
+'
+'
 CTDiversityPolicyTest
 .
 cpp

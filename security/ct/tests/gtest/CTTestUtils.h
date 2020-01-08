@@ -54,6 +54,15 @@ mozilla
 namespace
 ct
 {
+Buffer
+HexToBytes
+(
+const
+char
+*
+hexData
+)
+;
 void
 GetX509CertLogEntry
 (
