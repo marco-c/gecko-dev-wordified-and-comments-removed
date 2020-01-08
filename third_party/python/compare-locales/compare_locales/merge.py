@@ -14,6 +14,8 @@ from
 codecs
 import
 encode
+import
+six
 from
 compare_locales
 import
@@ -80,6 +82,35 @@ name
 )
 )
     
+entities
+=
+merge_resources
+(
+parser
+*
+resources
+)
+    
+return
+encode
+(
+serialize_legacy_resource
+(
+entities
+)
+parser
+.
+encoding
+)
+def
+merge_resources
+(
+parser
+*
+resources
+)
+:
+    
 comments
 =
 {
@@ -99,11 +130,27 @@ defaultdict
 int
 )
         
+if
+isinstance
+(
+resource
+bytes
+)
+:
+            
 parser
 .
 readContents
 (
 resource
+)
+            
+resource
+=
+parser
+.
+walk
+(
 )
         
 pairs
@@ -117,11 +164,7 @@ counter
 for
 entity
 in
-parser
-.
-walk
-(
-)
+resource
 ]
         
 return
@@ -225,6 +268,10 @@ entity
     
 entities
 =
+six
+.
+moves
+.
 reduce
 (
         
@@ -247,16 +294,7 @@ resources
 )
     
 return
-encode
-(
-serialize_legacy_resource
-(
 entities
-)
-parser
-.
-encoding
-)
 def
 merge_two
 (
@@ -489,6 +527,10 @@ acc
     
 pruned
 =
+six
+.
+moves
+.
 reduce
 (
 prune

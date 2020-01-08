@@ -19,7 +19,27 @@ os
 import
 unittest
 import
-urllib2
+six
+from
+six
+.
+moves
+.
+urllib
+.
+error
+import
+URLError
+from
+six
+.
+moves
+.
+urllib
+.
+request
+import
+urlopen
 TRANSVISION_URL
 =
 (
@@ -111,7 +131,7 @@ t
     
 Depends
 on
-transvision
+Transvision
 .
     
 '
@@ -181,7 +201,7 @@ print
 }
 not
 in
-transvision
+Transvision
 OK
 "
 .
@@ -302,8 +322,6 @@ try
             
 data
 =
-urllib2
-.
 urlopen
 (
 TRANSVISION_URL
@@ -314,8 +332,6 @@ read
 )
         
 except
-urllib2
-.
 URLError
 :
             
@@ -329,7 +345,7 @@ Couldn
 '
 t
 load
-transvision
+Transvision
 API
 .
 "
@@ -495,13 +511,17 @@ dict
 (
             
 (
-unicode
+six
+.
+text_type
 (
 k
 .
 s
 )
-unicode
+six
+.
+text_type
 (
 v
 .

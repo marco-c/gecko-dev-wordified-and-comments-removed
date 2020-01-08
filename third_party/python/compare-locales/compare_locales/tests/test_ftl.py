@@ -10,6 +10,10 @@ utf
 -
 *
 -
+from
+__future__
+import
+absolute_import
 import
 unittest
 from
@@ -53,6 +57,7 @@ self
         
 source
 =
+b
 '
 progress
 =
@@ -133,6 +138,7 @@ self
         
 source1
 =
+b
 '
 foo
 =
@@ -143,6 +149,7 @@ arg
         
 source2
 =
+b
 '
 foo
 =
@@ -216,6 +223,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -467,6 +475,7 @@ parser
 .
 readContents
 (
+b
 '
 a
 =
@@ -556,6 +565,7 @@ parser
 .
 readContents
 (
+b
 '
 abc
 =
@@ -649,6 +659,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -742,6 +753,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -827,6 +839,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -957,6 +970,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -1496,6 +1510,20 @@ all
 n
 '
 )
+        
+with
+self
+.
+assertRaises
+(
+StopIteration
+)
+:
+            
+next
+(
+entities
+)
     
 def
 test_non_localizable_syntax_zero_four
@@ -1510,6 +1538,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -2074,6 +2103,20 @@ all
 n
 '
 )
+        
+with
+self
+.
+assertRaises
+(
+StopIteration
+)
+:
+            
+next
+(
+entities
+)
     
 def
 test_comments_val
@@ -2088,6 +2131,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -2346,4 +2390,31 @@ parser
 .
 Whitespace
 )
+)
+        
+self
+.
+assertEqual
+(
+entity
+.
+all
+'
+\
+n
+'
+)
+        
+with
+self
+.
+assertRaises
+(
+StopIteration
+)
+:
+            
+next
+(
+entities
 )

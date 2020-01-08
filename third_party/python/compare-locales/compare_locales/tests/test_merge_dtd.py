@@ -601,7 +601,7 @@ Browsing
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels
@@ -1291,7 +1291,7 @@ registered
         
 self
 .
-assertMultiLineEqual
+assertEqual
 (
             
 merge_channels

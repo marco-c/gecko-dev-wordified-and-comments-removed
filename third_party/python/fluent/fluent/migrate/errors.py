@@ -30,3 +30,11 @@ MigrationError
 :
     
 pass
+class
+InvalidTransformError
+(
+MigrationError
+)
+:
+    
+pass

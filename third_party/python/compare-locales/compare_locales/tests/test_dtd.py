@@ -10,6 +10,14 @@ parser
 '
 '
 '
+from
+__future__
+import
+absolute_import
+from
+__future__
+import
+unicode_literals
 import
 unittest
 import
@@ -524,6 +532,57 @@ dtd
 )
 )
 )
+        
+self
+.
+_test
+(
+'
+'
+'
+<
+!
+ENTITY
+%
+fooDTD
+SYSTEM
+"
+chrome
+:
+/
+/
+brand
+.
+dtd
+"
+>
+  
+%
+fooDTD
+;
+'
+'
+'
+                   
+(
+(
+'
+fooDTD
+'
+'
+"
+chrome
+:
+/
+/
+brand
+.
+dtd
+"
+'
+)
+)
+)
     
 def
 test_trailing_comment
@@ -713,15 +772,12 @@ entities
         
 self
 .
-assert_
-(
-isinstance
+assertIsInstance
 (
 e
 parser
 .
 Entity
-)
 )
         
 self
@@ -763,6 +819,7 @@ p
 .
 readContents
 (
+b
 '
 '
 '
@@ -856,9 +913,7 @@ walk
         
 self
 .
-assert_
-(
-isinstance
+assertIsInstance
 (
 entities
 [
@@ -867,7 +922,6 @@ entities
 parser
 .
 Comment
-)
 )
         
 self
@@ -894,15 +948,12 @@ entities
         
 self
 .
-assert_
-(
-isinstance
+assertIsInstance
 (
 e
 parser
 .
 Entity
-)
 )
         
 self
@@ -966,15 +1017,6 @@ stuff
 "
 >
 '
-.
-encode
-(
-'
-utf
--
-8
-'
-)
                    
 (
 (
@@ -1052,6 +1094,7 @@ self
 .
 _test
 (
+b
 '
 <
 !
@@ -1067,6 +1110,15 @@ x96
 -
 >
 '
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
                    
 (
 (
@@ -1176,6 +1228,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -1336,6 +1389,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -1476,6 +1530,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '
@@ -1730,6 +1785,7 @@ parser
 .
 readContents
 (
+b
 '
 '
 '

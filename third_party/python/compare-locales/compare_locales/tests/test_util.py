@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 unittest
 from
@@ -22,7 +26,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 util
 .
@@ -44,7 +48,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 util
 .
@@ -78,7 +82,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 util
 .
@@ -118,7 +122,7 @@ self
         
 self
 .
-assertEquals
+assertEqual
 (
 util
 .

@@ -1,5 +1,7 @@
 import
 unittest
+import
+six
 from
 compare_locales
 .
@@ -77,10 +79,11 @@ unknown
 "
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 MergeNotSupportedError
 pattern
 )

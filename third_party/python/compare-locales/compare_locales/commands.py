@@ -4,6 +4,14 @@ exposed
 to
 commandlines
 '
+from
+__future__
+import
+absolute_import
+from
+__future__
+import
+print_function
 import
 logging
 from
@@ -306,6 +314,33 @@ add_argument
 (
 '
 -
+-
+validate
+'
+action
+=
+'
+store_true
+'
+                            
+help
+=
+'
+Run
+compare
+-
+locales
+against
+reference
+'
+)
+        
+parser
+.
+add_argument
+(
+'
+-
 m
 '
 '
@@ -534,6 +569,35 @@ projects
 that
 are
 disabled
+"
+)
+        
+parser
+.
+add_argument
+(
+'
+-
+-
+return
+-
+zero
+'
+action
+=
+"
+store_true
+"
+                            
+help
+=
+"
+Return
+0
+regardless
+of
+l10n
+status
 "
 )
         
@@ -871,7 +935,19 @@ verbose
 '
 )
         
-return
+return_zero
+=
+kwargs
+.
+pop
+(
+'
+return_zero
+'
+)
+        
+rv
+=
 self
 .
 handle
@@ -880,6 +956,17 @@ handle
 *
 kwargs
 )
+        
+if
+return_zero
+:
+            
+rv
+=
+0
+        
+return
+rv
     
 def
 handle
@@ -904,6 +991,10 @@ False
 quiet
 =
 0
+               
+validate
+=
+False
                
 clobber
 =
@@ -1062,6 +1153,19 @@ pop
 0
 )
         
+if
+validate
+:
+            
+locales
+=
+[
+None
+]
+        
+else
+:
+            
 locales
 .
 extend
@@ -1270,10 +1374,12 @@ except
 OSError
 IOError
 )
+as
 exc
 :
             
 print
+(
 "
 FAIL
 :
@@ -1282,6 +1388,7 @@ FAIL
 str
 (
 exc
+)
 )
             
 self
@@ -1314,6 +1421,7 @@ observers
 :
             
 print
+(
 observer
 .
 serialize
@@ -1321,6 +1429,7 @@ serialize
 type
 =
 data
+)
 )
             
 if
