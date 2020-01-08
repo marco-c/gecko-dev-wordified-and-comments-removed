@@ -414,6 +414,12 @@ aNode
 )
 override
 ;
+NS_IMETHOD
+InsertLineBreak
+(
+)
+override
+;
 virtual
 nsresult
 HandleKeyPressEvent
@@ -522,6 +528,11 @@ InsertLineBreakAsAction
 (
 )
 override
+;
+nsresult
+InsertParagraphSeparatorAsAction
+(
+)
 ;
 already_AddRefed
 <
@@ -2283,6 +2294,11 @@ protected
 virtual
 ~
 HTMLEditor
+(
+)
+;
+nsresult
+InsertParagraphSeparatorAsSubAction
 (
 )
 ;
