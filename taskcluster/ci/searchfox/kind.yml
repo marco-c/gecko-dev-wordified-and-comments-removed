@@ -268,6 +268,10 @@ node
 linux64
 -
 rust
+-
+linux64
+-
+cbindgen
 macosx64
 -
 searchfox
@@ -459,6 +463,10 @@ linux64
 rust
 -
 macos
+-
+linux64
+-
+cbindgen
 #
 NOTE
 :
@@ -638,3 +646,7 @@ node
 win64
 -
 rust
+-
+win64
+-
+cbindgen
