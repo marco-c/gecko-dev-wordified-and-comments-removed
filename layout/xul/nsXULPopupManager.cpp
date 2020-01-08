@@ -4478,7 +4478,7 @@ ShowPopup
 aIsContextMenu
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -5268,7 +5268,7 @@ aDeselectMenu
 ePopupClosed
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -5313,7 +5313,7 @@ nullptr
 status
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .

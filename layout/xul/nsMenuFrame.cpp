@@ -4201,7 +4201,7 @@ checked
 true
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -4529,7 +4529,7 @@ acceltext
 aNotify
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -5255,7 +5255,7 @@ accelText
 aNotify
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .

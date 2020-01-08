@@ -1566,7 +1566,7 @@ GetCachedTreeBodyFrame
 (
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 !
 innerTreeBoxObject
@@ -1725,7 +1725,7 @@ SetView
 treeView
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -1739,7 +1739,7 @@ ScrollToRow
 rowIndex
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -4222,7 +4222,7 @@ maxposStr
 true
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -4264,7 +4264,7 @@ pageStr
 true
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -4343,7 +4343,7 @@ maxposStr
 true
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -4380,7 +4380,7 @@ pageStr
 true
 )
 ;
-ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 weakFrame
 .
@@ -11076,7 +11076,7 @@ FillCursorInformationFromStyle
 childContext
 -
 >
-StyleUI
+StyleUserInterface
 (
 )
 aCursor
