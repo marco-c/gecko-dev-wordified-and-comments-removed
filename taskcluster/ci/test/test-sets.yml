@@ -456,6 +456,12 @@ animometer
 -
 raptor
 -
+firefox
+-
+webaudio
+-
+raptor
+-
 chrome
 -
 tp6
@@ -471,6 +477,12 @@ raptor
 chrome
 -
 stylebench
+-
+raptor
+-
+chrome
+-
+webaudio
 awsy
 :
 -
