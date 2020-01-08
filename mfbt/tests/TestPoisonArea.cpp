@@ -351,6 +351,10 @@ rts
 elif
 defined
 __aarch64__
+|
+|
+defined
+_M_ARM64
 #
 define
 RETURN_INSTR
