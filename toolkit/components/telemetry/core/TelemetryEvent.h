@@ -6,6 +6,13 @@ define
 TelemetryEvent_h__
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 mozilla
 /
