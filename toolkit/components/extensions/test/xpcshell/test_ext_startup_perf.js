@@ -273,8 +273,6 @@ loadedModules
 Cu
 .
 loadedModules
-(
-)
 .
 filter
 (

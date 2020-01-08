@@ -674,8 +674,6 @@ of
 Cu
 .
 loadedComponents
-(
-)
 )
 {
 components
@@ -722,8 +720,6 @@ of
 Cu
 .
 loadedModules
-(
-)
 )
 {
 modules
