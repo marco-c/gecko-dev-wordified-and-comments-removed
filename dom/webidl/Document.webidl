@@ -4168,6 +4168,8 @@ security
 .
 featurePolicy
 .
+webidl
+.
 enabled
 "
 ]

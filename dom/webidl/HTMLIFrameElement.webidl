@@ -500,6 +500,8 @@ security
 .
 featurePolicy
 .
+webidl
+.
 enabled
 "
 ]
