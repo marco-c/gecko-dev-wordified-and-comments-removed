@@ -321,9 +321,9 @@ aTID
 EventType
 aEventType
 uint64_t
-aSampleRate
-uint64_t
 aFrames
+uint64_t
+aSampleRate
 )
 ;
 ~
@@ -402,10 +402,6 @@ const
 char
 *
 aCategory
-const
-char
-*
-aComment
 uint64_t
 aDuration
 uint64_t
