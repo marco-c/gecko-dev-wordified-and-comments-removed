@@ -394,10 +394,15 @@ ifdef
 MOZ_AV1
 if
 (
-AOMDecoder
+StaticPrefs
 :
 :
-IsSupportedCodec
+MediaAv1Enabled
+(
+)
+&
+&
+IsAV1CodecString
 (
 codec
 )
