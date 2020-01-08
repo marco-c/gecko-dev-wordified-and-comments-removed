@@ -182,6 +182,11 @@ GuardIndexIsNonNegative
 \
 _
 (
+GuardIndexGreaterThanDenseInitLength
+)
+\
+_
+(
 GuardTagNotEqual
 )
 \
