@@ -1002,6 +1002,13 @@ itemCount
 =
 0
 ;
+menulist
+.
+selectedIndex
+=
+-
+1
+;
 onSelect
 (
 item
