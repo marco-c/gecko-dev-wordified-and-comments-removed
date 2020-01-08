@@ -116,6 +116,11 @@ settings
 js
 '
 '
+RemoteSettingsClient
+.
+jsm
+'
+'
 RemoteSettingsWorker
 .
 js
