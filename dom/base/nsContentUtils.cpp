@@ -12416,6 +12416,12 @@ aNode1
 nsINode
 *
 aNode2
+int32_t
+*
+aNode1Index
+int32_t
+*
+aNode2Index
 )
 {
 return
@@ -12427,6 +12433,8 @@ CompareDocumentPosition
 (
 *
 aNode1
+aNode2Index
+aNode1Index
 )
 &
 (

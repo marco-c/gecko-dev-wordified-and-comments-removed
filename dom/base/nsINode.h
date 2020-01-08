@@ -5367,6 +5367,16 @@ CompareDocumentPosition
 nsINode
 &
 aOther
+int32_t
+*
+aThisIndex
+=
+nullptr
+int32_t
+*
+aOtherIndex
+=
+nullptr
 )
 const
 ;
