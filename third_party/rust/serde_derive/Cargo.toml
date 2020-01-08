@@ -13,7 +13,7 @@ version
 .
 0
 .
-66
+80
 "
 #
 remember
@@ -114,7 +114,7 @@ serde
 .
 rs
 /
-codegen
+derive
 .
 html
 "
@@ -199,6 +199,19 @@ rs
 serde
 "
 }
+appveyor
+=
+{
+repository
+=
+"
+serde
+-
+rs
+/
+serde
+"
+}
 [
 features
 ]
@@ -241,6 +254,8 @@ quote
 0
 .
 6
+.
+3
 "
 syn
 =
@@ -250,7 +265,7 @@ version
 "
 0
 .
-14
+15
 "
 features
 =
