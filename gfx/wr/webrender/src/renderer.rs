@@ -8832,9 +8832,8 @@ read_fbo
 =
 device
 .
-create_fbo_for_external_texture
+create_fbo
 (
-0
 )
 ;
 let
