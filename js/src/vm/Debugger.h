@@ -2302,7 +2302,7 @@ vp
 )
 ;
 bool
-processResumptionValue
+processResumptionValueNoUncaughtExceptionHook
 (
 mozilla
 :
