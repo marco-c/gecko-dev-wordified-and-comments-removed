@@ -1553,6 +1553,11 @@ Event
 "
 input
 "
+{
+bubbles
+:
+true
+}
 )
 )
 ;
@@ -1570,6 +1575,11 @@ Event
 "
 change
 "
+{
+bubbles
+:
+true
+}
 )
 )
 ;
