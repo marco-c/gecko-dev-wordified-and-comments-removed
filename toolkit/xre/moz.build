@@ -175,6 +175,11 @@ nsINativeAppSupport
 .
 idl
 '
+'
+nsIXREDirProvider
+.
+idl
+'
 ]
 if
 CONFIG
