@@ -1655,6 +1655,11 @@ CGSSetDebugOptions
 \
 MACRO
 (
+CGSShutdownServerConnections
+)
+\
+MACRO
+(
 CTFontCopyFamilyName
 )
 \
@@ -10702,6 +10707,10 @@ CGPathIsEmpty
 RRFunction1
 (
 CGSSetDebugOptions
+)
+RRFunctionVoid0
+(
+CGSShutdownServerConnections
 )
 RRFunction1
 (
