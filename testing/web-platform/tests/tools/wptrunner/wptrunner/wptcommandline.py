@@ -286,7 +286,7 @@ store_true
 "
 default
 =
-True
+None
                         
 help
 =
@@ -4932,6 +4932,26 @@ product
 "
 firefox
 "
+    
+if
+kwargs
+[
+"
+manifest_update
+"
+]
+is
+None
+:
+        
+kwargs
+[
+"
+manifest_update
+"
+]
+=
+True
     
 if
 "
