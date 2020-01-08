@@ -70,6 +70,7 @@ gen_test_config
 browser
 test
 cs_port
+post_startup_delay
 b_port
 =
 0
@@ -176,6 +177,15 @@ json
 "
             
 "
+post_startup_delay
+"
+:
+"
+%
+s
+"
+            
+"
 benchmark_port
 "
 :
@@ -196,6 +206,7 @@ cs_port
 test
 cs_port
 test
+post_startup_delay
 b_port
 )
     

@@ -299,6 +299,12 @@ benchmark
 =
 None
         
+self
+.
+post_startup_delay
+=
+30000
+        
 if
 self
 .
@@ -1090,6 +1096,10 @@ control_server
 .
 port
                         
+self
+.
+post_startup_delay
+                        
 benchmark_port
 )
         
@@ -1873,6 +1883,18 @@ test
 page_cycles
 '
 ]
+)
+        
+timeout
++
+=
+int
+(
+self
+.
+post_startup_delay
+/
+1000
 )
         
 try

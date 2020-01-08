@@ -1,7 +1,5 @@
 var
 postStartupDelay
-=
-30000
 ;
 var
 pageCycleDelay
@@ -2581,6 +2579,12 @@ benchmarkPort
 config
 .
 benchmark_port
+;
+postStartupDelay
+=
+config
+.
+post_startup_delay
 ;
 getBrowserInfo
 (
