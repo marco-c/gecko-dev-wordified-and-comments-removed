@@ -161,6 +161,8 @@ vectorDrawables
 useSupportLibrary
 =
 true
+multiDexEnabled
+true
 }
 aaptOptions
 {
@@ -1759,7 +1761,9 @@ play
 -
 services
 -
-analytics
+ads
+-
+identifier
 :
 google_play_services_version
 "
