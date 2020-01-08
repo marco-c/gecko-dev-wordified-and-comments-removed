@@ -14,7 +14,7 @@ let
 keyword
 =
 "
-test
+VeryUniqueKeywordThatDoesNeverMatchAnyTestUrl
 "
 ;
 let
