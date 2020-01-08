@@ -498,6 +498,7 @@ angle
 )
 ;
 public
+synchronized
 boolean
 update
 (
@@ -788,6 +789,11 @@ screenOrientationToActivityInfoOrientation
 aScreenOrientation
 )
 ;
+synchronized
+(
+this
+)
+{
 if
 (
 delegate
@@ -812,6 +818,7 @@ else
 return
 false
 ;
+}
 }
 }
 public
@@ -851,6 +858,11 @@ ScreenOrientation
 DEFAULT
 )
 ;
+synchronized
+(
+this
+)
+{
 if
 (
 delegate
@@ -874,6 +886,7 @@ else
 return
 false
 ;
+}
 }
 }
 private
