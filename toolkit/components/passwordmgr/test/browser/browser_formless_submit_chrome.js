@@ -320,6 +320,12 @@ focus
 (
 )
 ;
+gURLBar
+.
+select
+(
+)
+;
 EventUtils
 .
 synthesizeKey
