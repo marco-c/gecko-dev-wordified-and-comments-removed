@@ -7,7 +7,9 @@ mozilla_StaticPresData_h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -164,6 +166,10 @@ LangGroupFontPrefs
 curr
 =
 mNext
+.
+get
+(
+)
 ;
 while
 (
@@ -184,6 +190,10 @@ curr
 -
 >
 mNext
+.
+get
+(
+)
 ;
 }
 return
@@ -228,7 +238,10 @@ mDefaultCursiveFont
 nsFont
 mDefaultFantasyFont
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 LangGroupFontPrefs
 >
