@@ -86,15 +86,6 @@ h
 #
 include
 "
-mozilla
-/
-UndisplayedNode
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
