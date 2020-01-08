@@ -150,13 +150,6 @@ PropTypes
 bool
 .
 isRequired
-type
-:
-PropTypes
-.
-string
-.
-isRequired
 }
 ;
 }

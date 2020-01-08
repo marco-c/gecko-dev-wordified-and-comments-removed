@@ -228,6 +228,11 @@ manifest
 -
 link
 "
+key
+:
+"
+manifest
+"
 }
 dom
 .
@@ -240,11 +245,6 @@ className
 extension
 -
 detail__manifest
-"
-key
-:
-"
-manifest
 "
 href
 :
