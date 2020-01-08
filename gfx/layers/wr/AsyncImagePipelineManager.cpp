@@ -1866,7 +1866,7 @@ if
 updateDisplayList
 )
 {
-aMaybeFastTxn
+aSceneBuilderTxn
 .
 UpdateEpoch
 (
