@@ -23,5 +23,16 @@ browser
 test
 "
 ]
+"
+env
+"
+:
+{
+"
+webextensions
+"
+:
+true
+}
 }
 ;
