@@ -71,6 +71,9 @@ indent
 private
 :
 false
+timeStamp
+:
+null
 }
 props
 )
