@@ -1,5 +1,9 @@
 ATTR
 (
+moz_allow_temporary
+)
+ATTR
+(
 moz_can_run_script
 )
 ATTR

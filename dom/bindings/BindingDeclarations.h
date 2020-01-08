@@ -682,6 +682,7 @@ T
 {
 public
 :
+MOZ_ALLOW_TEMPORARY
 Optional
 (
 )
@@ -754,6 +755,7 @@ T
 {
 public
 :
+MOZ_ALLOW_TEMPORARY
 Optional
 (
 )

@@ -469,6 +469,7 @@ ValueType
 =
 T
 ;
+MOZ_ALLOW_TEMPORARY
 Maybe
 (
 )
@@ -489,6 +490,7 @@ reset
 )
 ;
 }
+MOZ_ALLOW_TEMPORARY
 MOZ_IMPLICIT
 Maybe
 (
