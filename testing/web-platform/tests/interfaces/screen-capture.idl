@@ -61,7 +61,7 @@ share
 )
 partial
 interface
-Navigator
+MediaDevices
 {
 Promise
 <
