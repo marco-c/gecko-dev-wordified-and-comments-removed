@@ -1754,6 +1754,8 @@ aKeepResultPrincipalURIIfSet
 bool
 aLoadReplace
 bool
+aIsFromProcessingFrameAttributes
+bool
 aLoadFromExternal
 bool
 aForceAllowDataURI
