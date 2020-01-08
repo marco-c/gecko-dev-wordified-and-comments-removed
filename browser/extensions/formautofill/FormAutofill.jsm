@@ -144,6 +144,10 @@ debug
 if
 (
 logLevel
+.
+toLowerCase
+(
+)
 =
 =
 "

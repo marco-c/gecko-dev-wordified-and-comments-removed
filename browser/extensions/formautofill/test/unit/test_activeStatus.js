@@ -345,6 +345,11 @@ called
 true
 )
 ;
+await
+Promise
+.
+all
+(
 [
 "
 add
@@ -360,8 +365,9 @@ reconcile
 "
 ]
 .
-forEach
+map
 (
+async
 event
 =
 >
@@ -386,6 +392,7 @@ reset
 (
 )
 ;
+await
 formAutofillParent
 .
 observe
@@ -415,6 +422,7 @@ true
 ;
 }
 )
+)
 ;
 formAutofillParent
 .
@@ -436,6 +444,7 @@ reset
 (
 )
 ;
+await
 formAutofillParent
 .
 observe
@@ -552,8 +561,13 @@ getAll
 .
 returns
 (
+Promise
+.
+all
+(
 [
 ]
+)
 )
 ;
 Services
@@ -662,6 +676,10 @@ getAll
 .
 returns
 (
+Promise
+.
+all
+(
 [
 {
 "
@@ -676,7 +694,9 @@ John
 }
 ]
 )
+)
 ;
+await
 formAutofillParent
 .
 observe

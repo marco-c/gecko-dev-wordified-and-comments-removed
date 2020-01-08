@@ -385,6 +385,7 @@ semantics
 let
 guid
 =
+await
 storage
 .
 add
@@ -399,10 +400,13 @@ Assert
 .
 equal
 (
+(
+await
 storage
 .
 getAll
 (
+)
 )
 .
 length
@@ -422,6 +426,7 @@ remove
 guid
 )
 ;
+await
 storage
 .
 add
@@ -436,10 +441,13 @@ Assert
 .
 equal
 (
+(
+await
 storage
 .
 getAll
 (
+)
 )
 .
 length
@@ -450,6 +458,8 @@ Assert
 .
 equal
 (
+(
+await
 storage
 .
 getAll
@@ -459,6 +469,7 @@ includeDeleted
 :
 true
 }
+)
 )
 .
 length
@@ -475,6 +486,8 @@ Assert
 .
 equal
 (
+(
+await
 storage
 .
 getAll
@@ -484,6 +497,7 @@ includeDeleted
 :
 true
 }
+)
 )
 .
 length
