@@ -487,7 +487,7 @@ what1
 await
 p1
 ;
-ok
+is
 (
 what1
 '
@@ -515,9 +515,9 @@ what2
 await
 p2
 ;
-ok
+is
 (
-what1
+what2
 '
 hello
 world

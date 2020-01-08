@@ -1677,7 +1677,7 @@ name
 "
 )
 ;
-ok
+is
 (
 tiptext
 .

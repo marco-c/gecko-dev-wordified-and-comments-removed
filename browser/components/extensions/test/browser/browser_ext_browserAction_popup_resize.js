@@ -992,7 +992,7 @@ top
 "
 )
 {
-ok
+is
 (
 panelRect
 .
@@ -1103,7 +1103,7 @@ screenBottom
 }
 else
 {
-ok
+is
 (
 panelRect
 .

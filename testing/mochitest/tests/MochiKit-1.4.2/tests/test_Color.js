@@ -285,7 +285,7 @@ interned
 ;
 t
 .
-ok
+is
 (
 Color
 .
@@ -312,7 +312,7 @@ white
 ;
 t
 .
-ok
+is
 (
 Color
 .

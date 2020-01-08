@@ -1326,7 +1326,7 @@ aStartOffset
 aEndOffset
 )
 ;
-ok
+is
 (
 acc
 .
@@ -1403,7 +1403,7 @@ removeSelection
 aSelectionIndex
 )
 ;
-ok
+is
 (
 acc
 .

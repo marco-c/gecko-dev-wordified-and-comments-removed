@@ -1544,7 +1544,7 @@ function
 (
 )
 {
-ok
+is
 (
 document
 .
@@ -1588,7 +1588,7 @@ function
 (
 )
 {
-ok
+is
 (
 document
 .

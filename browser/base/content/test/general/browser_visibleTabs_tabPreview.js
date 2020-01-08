@@ -64,7 +64,7 @@ pressCtrlTab
 (
 )
 ;
-ok
+is
 (
 ctrlTab
 .

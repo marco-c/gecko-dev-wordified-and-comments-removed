@@ -118,7 +118,7 @@ html
 await
 locationChangePromise
 ;
-ok
+is
 (
 gURLBar
 .

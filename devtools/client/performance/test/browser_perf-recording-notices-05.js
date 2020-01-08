@@ -120,7 +120,7 @@ _setMultiprocessAttributes
 (
 )
 ;
-ok
+is
 (
 (
 "
