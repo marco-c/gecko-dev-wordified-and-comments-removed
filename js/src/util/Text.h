@@ -1003,15 +1003,13 @@ return
 res
 ;
 }
-bool
+JSString
+*
 EncodeURI
 (
 JSContext
 *
 cx
-StringBuffer
-&
-sb
 const
 char
 *
