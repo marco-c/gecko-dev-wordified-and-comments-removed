@@ -512,13 +512,13 @@ NumberNode
                     
 ]
 ]
-                     
+                  
 [
 "
 ListNode
 "
 None
-                      
+                   
 [
 [
 "
@@ -530,7 +530,7 @@ value1
 [
 ]
 ]
-                       
+                    
 [
 "
 ValueNode
@@ -541,7 +541,6 @@ value2
 [
 ]
 ]
-                      
 ]
 ]
                   
