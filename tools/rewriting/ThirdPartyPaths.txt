@@ -420,10 +420,6 @@ freetype2
 /
 modules
 /
-libmar
-/
-modules
-/
 pdfium
 /
 modules
