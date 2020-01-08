@@ -2153,19 +2153,6 @@ MOZ_OPTIMIZE_FLAGS
 :
 [
 ]
-            
-'
-OS_LDFLAGS
-'
-:
-[
-'
--
-Wl
--
-U_foo
-'
-]
         
 }
 )
