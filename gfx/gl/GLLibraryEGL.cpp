@@ -3583,7 +3583,8 @@ gdk_display_get_default
 ;
 if
 (
-GDK_IS_WAYLAND_DISPLAY
+!
+GDK_IS_X11_DISPLAY
 (
 gdkDisplay
 )
