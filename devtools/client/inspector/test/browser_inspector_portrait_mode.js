@@ -231,13 +231,10 @@ inspector
 )
 ;
 await
-gDevTools
-.
-closeToolbox
-(
 toolbox
 .
-target
+destroy
+(
 )
 ;
 info

@@ -469,11 +469,10 @@ checkEventTelemetry
 )
 ;
 await
-gDevTools
+toolbox
 .
-closeToolbox
+destroy
 (
-target
 )
 ;
 gBrowser

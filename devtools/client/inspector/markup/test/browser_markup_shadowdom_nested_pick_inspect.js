@@ -322,13 +322,10 @@ Element
 )
 ;
 await
-gDevTools
+toolbox
 .
-closeToolbox
+destroy
 (
-inspector
-.
-target
 )
 ;
 info

@@ -1048,11 +1048,10 @@ raise
 }
 else
 {
-gDevTools
+toolbox
 .
-closeToolbox
+destroy
 (
-target
 )
 ;
 }

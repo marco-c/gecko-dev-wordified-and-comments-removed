@@ -304,11 +304,10 @@ toolbox
 )
 ;
 await
-gDevTools
+toolbox
 .
-closeToolbox
+destroy
 (
-target
 )
 ;
 gBrowser

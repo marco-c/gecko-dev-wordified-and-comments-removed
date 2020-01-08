@@ -141,11 +141,10 @@ panel
 )
 ;
 await
-gDevTools
+toolbox
 .
-closeToolbox
+destroy
 (
-target
 )
 ;
 tab

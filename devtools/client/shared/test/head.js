@@ -619,6 +619,9 @@ gBrowser
 selectedTab
 )
 ;
+const
+toolbox
+=
 await
 gDevTools
 .
@@ -657,11 +660,10 @@ i
 )
 ;
 await
-gDevTools
+toolbox
 .
-closeToolbox
+destroy
 (
-target
 )
 ;
 }

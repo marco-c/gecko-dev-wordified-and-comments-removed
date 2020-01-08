@@ -152,11 +152,10 @@ selected
 )
 ;
 await
-gDevTools
+toolbox
 .
-closeToolbox
+destroy
 (
-target
 )
 ;
 testToolDefinition
@@ -206,11 +205,10 @@ selected
 )
 ;
 await
-gDevTools
+toolbox
 .
-closeToolbox
+destroy
 (
-target
 )
 ;
 gDevTools
