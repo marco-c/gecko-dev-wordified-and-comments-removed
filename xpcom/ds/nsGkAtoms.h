@@ -38,6 +38,9 @@ char16_t
 aStr
 uint32_t
 aLength
+\
+uint32_t
+aHash
 uint32_t
 aOffset
 )
@@ -47,6 +50,7 @@ nsStaticAtom
 (
 aStr
 aLength
+aHash
 aOffset
 )
 {
@@ -80,6 +84,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )
@@ -117,6 +122,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )
@@ -237,6 +243,7 @@ GK_ATOM
 (
 name_
 value_
+hash_
 type_
 atom_type_
 )

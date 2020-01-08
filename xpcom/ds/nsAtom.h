@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-HashFunctions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -332,6 +323,8 @@ char16_t
 aStr
 uint32_t
 aLength
+uint32_t
+aHash
 )
 :
 mLength
@@ -356,13 +349,7 @@ Static
 )
 mHash
 (
-mozilla
-:
-:
-HashString
-(
-aStr
-)
+aHash
 )
 {
 }
@@ -479,6 +466,8 @@ aStr
 uint32_t
 aLength
 uint32_t
+aHash
+uint32_t
 aStringOffset
 )
 :
@@ -486,6 +475,7 @@ nsAtom
 (
 aStr
 aLength
+aHash
 )
 mStringOffset
 (
