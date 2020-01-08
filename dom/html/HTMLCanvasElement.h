@@ -761,6 +761,7 @@ bool
 IsWriteOnly
 (
 )
+const
 ;
 void
 SetWriteOnly

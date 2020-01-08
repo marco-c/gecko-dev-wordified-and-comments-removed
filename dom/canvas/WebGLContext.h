@@ -1000,11 +1000,16 @@ ImageBitmap
 imageBitmap
 ErrorResult
 *
+out_error
 )
 {
 mImageBitmap
 =
 imageBitmap
+;
+mOut_error
+=
+out_error
 ;
 }
 TexImageSourceAdapter

@@ -189,6 +189,9 @@ mPictureRect
 gfxAlphaType
 mAlphaType
 ;
+bool
+mWriteOnly
+;
 }
 ;
 class
@@ -468,6 +471,16 @@ OnShutdown
 (
 )
 ;
+bool
+IsWriteOnly
+(
+)
+const
+{
+return
+mWriteOnly
+;
+}
 protected
 :
 ImageBitmap
@@ -481,6 +494,8 @@ layers
 Image
 *
 aData
+bool
+aWriteOnly
 gfxAlphaType
 aAlphaType
 =
@@ -755,6 +770,9 @@ mShutdownObserver
 ;
 bool
 mAllocatedImageData
+;
+bool
+mWriteOnly
 ;
 }
 ;

@@ -4609,6 +4609,7 @@ HTMLCanvasElement
 IsWriteOnly
 (
 )
+const
 {
 return
 mWriteOnly
