@@ -341,15 +341,15 @@ length
 )
 ;
 }
+#
+ifdef
+ENABLE_WASM_GC
 HasGcTypes
 gcTypesEnabled
 (
 )
 const
 {
-#
-ifdef
-ENABLE_WASM_GC
 if
 (
 gcTypesConfigured
@@ -363,8 +363,6 @@ True
 return
 gcFeatureOptIn
 ;
-#
-endif
 return
 HasGcTypes
 :
@@ -372,6 +370,8 @@ HasGcTypes
 False
 ;
 }
+#
+endif
 bool
 usesMemory
 (

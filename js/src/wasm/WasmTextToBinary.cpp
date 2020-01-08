@@ -6633,9 +6633,6 @@ case
 g
 '
 :
-#
-ifdef
-ENABLE_WASM_GC
 if
 (
 consume
@@ -6657,8 +6654,6 @@ begin
 cur_
 )
 ;
-#
-endif
 if
 (
 consume
