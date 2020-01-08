@@ -502,9 +502,11 @@ is
 an
 alias
 for
+the
 -
 -
 headless
+flag
 and
 equivalent
 to
@@ -541,7 +543,7 @@ is
 similar
 to
 using
-xvfb
+Xvfb
 (
 1
 )
