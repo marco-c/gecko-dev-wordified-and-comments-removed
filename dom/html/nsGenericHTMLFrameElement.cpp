@@ -1490,10 +1490,6 @@ aMaybeScriptedPrincipal
 ;
 if
 (
-aValue
-&
-&
-(
 !
 IsHTMLElement
 (
@@ -1512,7 +1508,6 @@ nsGkAtoms
 :
 :
 srcdoc
-)
 )
 )
 {
