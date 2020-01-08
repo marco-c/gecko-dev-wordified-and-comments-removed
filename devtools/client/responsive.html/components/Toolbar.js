@@ -69,7 +69,7 @@ types
 )
 ;
 const
-DevicePixelRatioSelector
+DevicePixelRatioMenu
 =
 createFactory
 (
@@ -78,7 +78,7 @@ require
 "
 .
 /
-DevicePixelRatioSelector
+DevicePixelRatioMenu
 "
 )
 )
@@ -543,7 +543,7 @@ separator
 "
 }
 )
-DevicePixelRatioSelector
+DevicePixelRatioMenu
 (
 {
 devices
