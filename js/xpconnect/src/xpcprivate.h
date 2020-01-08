@@ -8368,12 +8368,6 @@ mInterfaces
 ;
 RefPtr
 <
-nsXPCComponents_InterfacesByID
->
-mInterfacesByID
-;
-RefPtr
-<
 nsXPCComponents_Results
 >
 mResults
@@ -8430,12 +8424,6 @@ RefPtr
 nsXPCComponents_Classes
 >
 mClasses
-;
-RefPtr
-<
-nsXPCComponents_ClassesByID
->
-mClassesByID
 ;
 RefPtr
 <
