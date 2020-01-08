@@ -2023,14 +2023,15 @@ INTEGRITY_LEVEL_LOW
 ;
 }
 else
-if
+{
+MOZ_ASSERT
 (
 aSandboxLevel
 =
 =
 1
 )
-{
+;
 jobLevel
 =
 sandbox
