@@ -167,6 +167,11 @@ GuardNoDenseElements
 \
 _
 (
+GuardAndGetNumberFromString
+)
+\
+_
+(
 GuardAndGetIndexFromString
 )
 \
