@@ -761,10 +761,6 @@ begin
 ;
 }
 }
-testingTier2Active_
-=
-false
-;
 if
 (
 tier2Listener_
@@ -782,6 +778,10 @@ tier2Listener_
 nullptr
 ;
 }
+testingTier2Active_
+=
+false
+;
 return
 true
 ;
@@ -913,12 +913,6 @@ size
 )
 const
 {
-MOZ_RELEASE_ASSERT
-(
-!
-testingTier2Active_
-)
-;
 MOZ_RELEASE_ASSERT
 (
 !
