@@ -490,6 +490,15 @@ nsStyleCoord
 aMainSize
 )
 ;
+static
+void
+MarkCachedFlexMeasurementsDirty
+(
+nsIFrame
+*
+aItemFrame
+)
+;
 protected
 :
 explicit

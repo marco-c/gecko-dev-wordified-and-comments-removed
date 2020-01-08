@@ -23701,11 +23701,12 @@ IsFlexContainerFrame
 )
 )
 {
-DeleteProperty
+nsFlexContainerFrame
+:
+:
+MarkCachedFlexMeasurementsDirty
 (
-CachedFlexMeasuringReflow
-(
-)
+this
 )
 ;
 }
