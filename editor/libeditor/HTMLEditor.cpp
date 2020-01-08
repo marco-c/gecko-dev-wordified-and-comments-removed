@@ -9735,7 +9735,7 @@ StealNSResult
 }
 rv
 =
-InsertTextAsAction
+InsertTextAsSubAction
 (
 NS_LITERAL_STRING
 (

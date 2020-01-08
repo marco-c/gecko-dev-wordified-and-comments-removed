@@ -514,6 +514,15 @@ EditorBase
 SetAttributeOrEquivalent
 ;
 nsresult
+InsertTextAsSubAction
+(
+const
+nsAString
+&
+aStringToInsert
+)
+;
+nsresult
 DeleteSelectionAsSubAction
 (
 EDirection

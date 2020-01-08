@@ -509,7 +509,7 @@ StealNSResult
 nsresult
 rv
 =
-InsertTextAsAction
+InsertTextAsSubAction
 (
 aStringToInsert
 )
