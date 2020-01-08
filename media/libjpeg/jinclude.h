@@ -70,6 +70,7 @@ MEMZERO
 target
 size
 )
+\
 bzero
 (
 (
@@ -94,6 +95,7 @@ dest
 src
 size
 )
+\
 bcopy
 (
 (
@@ -134,6 +136,7 @@ MEMZERO
 target
 size
 )
+\
 memset
 (
 (
@@ -159,6 +162,7 @@ dest
 src
 size
 )
+\
 memcpy
 (
 (

@@ -1600,7 +1600,6 @@ TRUE
 #
 define
 GET_BYTE
-\
 {
 \
 register
@@ -1990,6 +1989,7 @@ HUFF_EXTEND
 x
 s
 )
+\
 (
 (
 x
@@ -2045,6 +2045,7 @@ HUFF_EXTEND
 x
 s
 )
+\
 (
 (
 x

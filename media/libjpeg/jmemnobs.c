@@ -164,6 +164,9 @@ max_memory_to_use
 {
 if
 (
+(
+size_t
+)
 cinfo
 -
 >
