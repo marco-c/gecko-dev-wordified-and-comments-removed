@@ -637,8 +637,6 @@ SurfaceKey
 aSurfaceKey
 bool
 aMarkUsed
-=
-true
 )
 ;
 static
@@ -654,8 +652,6 @@ SurfaceKey
 aSurfaceKey
 bool
 aMarkUsed
-=
-true
 )
 ;
 static

@@ -1328,6 +1328,7 @@ PlaybackType
 :
 eAnimated
 )
+true
 )
 ;
 ASSERT_EQ

@@ -2592,6 +2592,7 @@ PlaybackType
 :
 eStatic
 )
+false
 )
 ;
 ASSERT_EQ
@@ -2648,6 +2649,7 @@ PlaybackType
 :
 eAnimated
 )
+false
 )
 ;
 ASSERT_EQ
@@ -2713,6 +2715,7 @@ PlaybackType
 :
 eAnimated
 )
+true
 )
 ;
 ASSERT_EQ
@@ -2808,6 +2811,7 @@ PlaybackType
 :
 eStatic
 )
+true
 )
 ;
 ASSERT_EQ
@@ -3156,6 +3160,7 @@ PlaybackType
 :
 eAnimated
 )
+true
 )
 ;
 ASSERT_EQ
@@ -3251,6 +3256,7 @@ PlaybackType
 :
 eStatic
 )
+false
 )
 ;
 ASSERT_EQ
@@ -3316,6 +3322,7 @@ PlaybackType
 :
 eStatic
 )
+true
 )
 ;
 ASSERT_EQ
@@ -3372,6 +3379,7 @@ PlaybackType
 :
 eAnimated
 )
+true
 )
 ;
 ASSERT_EQ
@@ -3751,6 +3759,7 @@ PlaybackType
 :
 eAnimated
 )
+true
 )
 ;
 ASSERT_EQ

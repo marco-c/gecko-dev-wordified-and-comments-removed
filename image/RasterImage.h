@@ -576,8 +576,6 @@ PlaybackType
 aPlaybackType
 bool
 aMarkUsed
-=
-true
 )
 ;
 LookupResult

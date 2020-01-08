@@ -2335,6 +2335,7 @@ ToPlaybackType
 (
 aWhichFrame
 )
+true
 )
 ;
 IntSize
@@ -5852,6 +5853,7 @@ ToPlaybackType
 (
 aWhichFrame
 )
+true
 )
 ;
 if

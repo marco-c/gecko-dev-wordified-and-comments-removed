@@ -4105,8 +4105,6 @@ StaticMutexAutoLock
 aAutoLock
 bool
 aMarkUsed
-=
-true
 )
 {
 RefPtr
