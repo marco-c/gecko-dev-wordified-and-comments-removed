@@ -1219,14 +1219,6 @@ image_builder
 '
 :
             
-hash
-=
-'
-sha256
-:
-c6622fd3e5794842ad83d129850330b26e6ba671e39c58ee288a616a3a1c4c73
-'
-            
 worker
 [
 '
@@ -1240,9 +1232,15 @@ image
 taskcluster
 /
 image_builder
+sha256
+:
 '
 +
-hash
+\
+                
+'
+24ce54a1602453bc93515aecd9d4ad25a22115fbc4b209ddb5541377e9a37315
+'
             
 worker
 [
