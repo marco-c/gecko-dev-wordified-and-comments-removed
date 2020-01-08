@@ -492,10 +492,10 @@ target
 allowWaivers
 &
 &
-AccessCheck
+CompartmentOriginInfo
 :
 :
-subsumes
+Subsumes
 (
 target
 origin
@@ -1271,10 +1271,10 @@ wrapScope
 )
 &
 &
-AccessCheck
+CompartmentOriginInfo
 :
 :
-subsumes
+Subsumes
 (
 js
 :
