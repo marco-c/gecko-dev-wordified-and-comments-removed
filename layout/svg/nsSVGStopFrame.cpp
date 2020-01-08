@@ -35,6 +35,10 @@ SVGObserverUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsSVGStopFrame
 :

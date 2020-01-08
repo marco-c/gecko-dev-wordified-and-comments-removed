@@ -131,6 +131,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewDeckFrame

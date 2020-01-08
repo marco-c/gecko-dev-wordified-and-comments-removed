@@ -23,6 +23,10 @@ gfx
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewMathMLsemanticsFrame

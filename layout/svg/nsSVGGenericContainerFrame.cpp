@@ -12,6 +12,10 @@ nsSVGIntegrationUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewSVGGenericContainerFrame

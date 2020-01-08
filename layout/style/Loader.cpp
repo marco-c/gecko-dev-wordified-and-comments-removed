@@ -122,6 +122,13 @@ h
 #
 include
 "
+nsITimedChannel
+.
+h
+"
+#
+include
+"
 nsSyncLoadService
 .
 h

@@ -25,6 +25,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h

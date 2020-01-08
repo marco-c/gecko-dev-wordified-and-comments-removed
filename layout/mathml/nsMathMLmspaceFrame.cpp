@@ -28,6 +28,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewMathMLmspaceFrame

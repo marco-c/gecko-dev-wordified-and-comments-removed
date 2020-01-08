@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+ComputedStyle
+.
+h
+"
+#
+include
+"
 nsBoxFrame
 .
 h
@@ -24,6 +33,9 @@ NS_NewTreeColFrame
 nsIPresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle

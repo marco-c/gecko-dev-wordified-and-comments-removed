@@ -28,6 +28,15 @@ using
 namespace
 mozilla
 ;
+using
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
+;
 nsIFrame
 *
 NS_NewMathMLmfencedFrame

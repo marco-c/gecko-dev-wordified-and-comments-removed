@@ -16,6 +16,10 @@ gfx
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewMathMLmrowFrame

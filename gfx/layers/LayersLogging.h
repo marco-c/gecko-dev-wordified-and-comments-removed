@@ -80,6 +80,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+ZoomConstraints
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h

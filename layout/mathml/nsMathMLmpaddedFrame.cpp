@@ -37,6 +37,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 #
 define
 NS_MATHML_SIGN_INVALID

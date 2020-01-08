@@ -33,6 +33,10 @@ nsGridLayout2
 .
 h
 "
+using
+namespace
+mozilla
+;
 already_AddRefed
 <
 nsBoxLayout

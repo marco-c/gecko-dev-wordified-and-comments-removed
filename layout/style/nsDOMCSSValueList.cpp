@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h

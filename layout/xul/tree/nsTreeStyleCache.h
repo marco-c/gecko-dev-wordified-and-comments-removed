@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsDataHashtable
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
@@ -52,6 +59,9 @@ ComputedStyle
 .
 h
 "
+class
+nsIContent
+;
 class
 nsTreeStyleCache
 {

@@ -33,6 +33,10 @@ nsSVGFilters
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 SVGFEUnstyledLeafFrame
 final

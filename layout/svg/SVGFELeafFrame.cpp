@@ -1,6 +1,13 @@
 #
 include
 "
+ComputedStyle
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -33,6 +40,10 @@ nsSVGFilters
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 SVGFELeafFrame
 final

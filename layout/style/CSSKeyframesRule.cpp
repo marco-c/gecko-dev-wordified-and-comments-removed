@@ -42,6 +42,13 @@ h
 "
 #
 include
+"
+nsCOMArray
+.
+h
+"
+#
+include
 <
 limits
 >

@@ -97,6 +97,10 @@ nsXULElement
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsIFrame
 *
 NS_NewTreeColFrame

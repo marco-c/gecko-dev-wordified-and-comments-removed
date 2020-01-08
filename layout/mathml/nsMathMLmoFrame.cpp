@@ -45,6 +45,10 @@ include
 <
 algorithm
 >
+using
+namespace
+mozilla
+;
 #
 define
 NS_MATHML_CHAR_STYLE_CONTEXT_INDEX

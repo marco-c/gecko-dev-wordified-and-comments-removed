@@ -28,6 +28,10 @@ HashFunctions
 .
 h
 "
+using
+namespace
+mozilla
+;
 SpanningCellSorter
 :
 :

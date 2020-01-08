@@ -46,6 +46,15 @@ include
 "
 mozilla
 /
+EffectCompositor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerRange
 .
 h
