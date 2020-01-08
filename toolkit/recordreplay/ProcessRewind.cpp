@@ -961,10 +961,10 @@ gUnhandledDivergeAllowed
 ;
 if
 (
-parent
+child
 :
 :
-InRepaintStressMode
+CurrentRepaintCannotFail
 (
 )
 )
@@ -974,10 +974,8 @@ MOZ_CRASH
 "
 Recording
 divergence
-in
-repaint
-stress
-mode
+while
+repainting
 "
 )
 ;
