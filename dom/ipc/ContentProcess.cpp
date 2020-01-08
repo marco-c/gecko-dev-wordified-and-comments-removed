@@ -1670,6 +1670,15 @@ mac
 earlyinit
 "
 )
+&
+&
+!
+recordreplay
+:
+:
+IsMiddleman
+(
+)
 )
 {
 AssertMacSandboxEnabled
