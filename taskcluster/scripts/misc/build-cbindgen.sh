@@ -34,16 +34,6 @@ configure
 rust
 .
 configure
-and
-python
-/
-mozboot
-/
-mozboot
-/
-osx
-.
-py
 as
 well
 .
