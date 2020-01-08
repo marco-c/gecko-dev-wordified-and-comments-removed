@@ -160,6 +160,11 @@ ApplicationReputation
 cpp
 '
 '
+ApplicationReputationTelemetryUtils
+.
+cpp
+'
+'
 chromium
 /
 chrome
