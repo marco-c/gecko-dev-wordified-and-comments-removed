@@ -68,7 +68,7 @@ com
 /
 addons
 /
-blocklist_regexp1_1
+blocklist_regexp_1
 .
 xpi
 "
@@ -139,7 +139,7 @@ com
 /
 addons
 /
-blocklist_hard1_1
+blocklist_hard_1
 .
 xpi
 "
