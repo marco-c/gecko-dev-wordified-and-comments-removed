@@ -10445,6 +10445,17 @@ obj_isSealed
 1
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+fromEntries
+"
+"
+ObjectFromEntries
+"
+1
+0
+)
 JS_FS_END
 }
 ;

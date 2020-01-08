@@ -2199,6 +2199,9 @@ preventExtensions
 freeze
 "
 "
+fromEntries
+"
+"
 isFrozen
 "
 "
@@ -2224,6 +2227,7 @@ isExtensible
 "
 ]
 )
+;
 gPrototypeProperties
 [
 '
