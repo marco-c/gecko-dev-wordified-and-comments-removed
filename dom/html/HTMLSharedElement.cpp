@@ -866,6 +866,7 @@ child
 AsElement
 (
 )
+nullptr
 newBaseURI
 nsIContentSecurityPolicy
 :

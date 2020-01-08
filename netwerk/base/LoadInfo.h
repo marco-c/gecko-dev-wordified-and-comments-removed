@@ -581,6 +581,12 @@ nsIURI
 >
 mResultPrincipalURI
 ;
+nsCOMPtr
+<
+nsICSPEventListener
+>
+mCSPEventListener
+;
 Maybe
 <
 mozilla

@@ -87,6 +87,9 @@ CheckInternal
 nsIContentSecurityPolicy
 *
 aCSP
+nsICSPEventListener
+*
+aCSPEventListener
 const
 nsAString
 &
@@ -189,6 +192,7 @@ nsIContentSecurityPolicy
 :
 VIOLATION_TYPE_EVAL
 nullptr
+aCSPEventListener
 aFileNameString
 aExpression
 aLineNum
@@ -282,6 +286,12 @@ mWorkerPrivate
 -
 >
 GetCSP
+(
+)
+mWorkerPrivate
+-
+>
+CSPEventListener
 (
 )
 mExpression
@@ -506,6 +516,7 @@ rv
 CheckInternal
 (
 csp
+nullptr
 aExpression
 fileNameString
 lineNum

@@ -595,6 +595,7 @@ TYPE_SCRIPT
 "
 false
 null
+null
 "
 "
 0
@@ -737,6 +738,7 @@ nsIContentSecurityPolicy
 .
 VIOLATION_TYPE_EVAL
 null
+null
 selfuri
 .
 asciiSpec
@@ -801,6 +803,7 @@ Ci
 nsIContentPolicy
 .
 TYPE_SCRIPT
+null
 NetUtil
 .
 newURI
@@ -868,6 +871,7 @@ TYPE_SCRIPT
 "
 "
 false
+null
 null
 "
 "
@@ -961,6 +965,7 @@ nsIContentSecurityPolicy
 .
 VIOLATION_TYPE_INLINE_SCRIPT
 null
+null
 selfuri
 .
 asciiSpec
@@ -1023,6 +1028,7 @@ Ci
 nsIContentPolicy
 .
 TYPE_IMAGE
+null
 NetUtil
 .
 newURI
@@ -1078,6 +1084,7 @@ Ci
 nsIContentPolicy
 .
 TYPE_SUBDOCUMENT
+null
 NetUtil
 .
 newURI
@@ -1173,6 +1180,7 @@ Ci
 nsIContentPolicy
 .
 TYPE_SCRIPT
+null
 NetUtil
 .
 newURI
@@ -1233,6 +1241,7 @@ Ci
 nsIContentPolicy
 .
 TYPE_SCRIPT
+null
 NetUtil
 .
 newURI

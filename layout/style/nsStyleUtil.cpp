@@ -2217,6 +2217,7 @@ TYPE_STYLESHEET
 nonce
 false
 aElement
+nullptr
 aStyleText
 aLineNumber
 aColumnNumber

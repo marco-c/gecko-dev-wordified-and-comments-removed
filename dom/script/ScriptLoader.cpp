@@ -6418,6 +6418,7 @@ TYPE_SCRIPT
 nonce
 parserCreated
 scriptContent
+nullptr
 EmptyString
 (
 )
@@ -15071,6 +15072,7 @@ nsIContentSecurityPolicy
 :
 :
 VIOLATION_TYPE_REQUIRE_SRI_FOR_SCRIPT
+nullptr
 nullptr
 NS_ConvertUTF8toUTF16
 (

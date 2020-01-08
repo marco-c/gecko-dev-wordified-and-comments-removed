@@ -6596,6 +6596,7 @@ csp
 Permits
 (
 this
+nullptr
 actionURL
 nsIContentSecurityPolicy
 :

@@ -651,6 +651,9 @@ ShouldLoad
 (
 nsContentPolicyType
 aContentType
+nsICSPEventListener
+*
+aCSPEventListener
 nsIURI
 *
 aContentLocation
@@ -897,6 +900,7 @@ permitsInternal
 (
 dir
 nullptr
+aCSPEventListener
 aContentLocation
 aOriginalURIIfRedirect
 nonce
@@ -989,6 +993,9 @@ aDir
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 nsIURI
 *
 aContentLocation
@@ -1106,6 +1113,7 @@ aSendViolationReports
 AsyncReportViolation
 (
 aTriggeringElement
+aCSPEventListener
 (
 aSendContentLocationInViolationReports
 ?
@@ -1839,6 +1847,9 @@ aContentType
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 const
 nsAString
 &
@@ -1940,6 +1951,7 @@ sourceFile
 AsyncReportViolation
 (
 aTriggeringElement
+aCSPEventListener
 nullptr
 BlockedContentSource
 :
@@ -1976,6 +1988,9 @@ aParserCreated
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 const
 nsAString
 &
@@ -2249,6 +2264,7 @@ reportInlineViolation
 (
 aContentType
 aTriggeringElement
+aCSPEventListener
 aNonce
 reportSample
 ?
@@ -2356,6 +2372,8 @@ reportSample
 AsyncReportViolation
 (
 aTriggeringElement
+aCSPEventListener
+\
 nullptr
 blockedContentSource
 \
@@ -2401,6 +2419,9 @@ aViolationType
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 const
 nsAString
 &
@@ -2843,25 +2864,6 @@ actual
 URI
 "
 )
-;
-return
-NS_OK
-;
-}
-NS_IMETHODIMP
-nsCSPContext
-:
-:
-SetEventListener
-(
-nsICSPEventListener
-*
-aEventListener
-)
-{
-mEventListener
-=
-aEventListener
 ;
 return
 NS_OK
@@ -4820,6 +4822,9 @@ FireViolationEvent
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 const
 mozilla
 :
@@ -4834,7 +4839,7 @@ aViolationEventInit
 {
 if
 (
-mEventListener
+aCSPEventListener
 )
 {
 nsAutoString
@@ -4850,7 +4855,7 @@ json
 )
 )
 {
-mEventListener
+aCSPEventListener
 -
 >
 OnCSPViolationEvent
@@ -5000,6 +5005,9 @@ CSPReportSenderRunnable
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 nsIURI
 *
 aBlockedURI
@@ -5052,6 +5060,10 @@ CSPReportSenderRunnable
 mTriggeringElement
 (
 aTriggeringElement
+)
+mCSPEventListener
+(
+aCSPEventListener
 )
 mBlockedURI
 (
@@ -5491,6 +5503,7 @@ mCSPContext
 FireViolationEvent
 (
 mTriggeringElement
+mCSPEventListener
 init
 )
 ;
@@ -5505,6 +5518,12 @@ RefPtr
 Element
 >
 mTriggeringElement
+;
+nsCOMPtr
+<
+nsICSPEventListener
+>
+mCSPEventListener
 ;
 nsCOMPtr
 <
@@ -5568,6 +5587,9 @@ AsyncReportViolation
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 nsIURI
 *
 aBlockedURI
@@ -5622,6 +5644,7 @@ new
 CSPReportSenderRunnable
 (
 aTriggeringElement
+aCSPEventListener
 aBlockedURI
 aBlockedContentSource
 aOriginalURI
@@ -6125,6 +6148,7 @@ nsIContentSecurityPolicy
 :
 FRAME_ANCESTORS_DIRECTIVE
 nullptr
+nullptr
 ancestorsArray
 [
 a
@@ -6166,6 +6190,9 @@ Permits
 Element
 *
 aTriggeringElement
+nsICSPEventListener
+*
+aCSPEventListener
 nsIURI
 *
 aURI
@@ -6197,6 +6224,7 @@ permitsInternal
 (
 aDir
 aTriggeringElement
+aCSPEventListener
 aURI
 nullptr
 EmptyString

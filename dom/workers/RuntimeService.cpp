@@ -12093,6 +12093,12 @@ nsIContentSecurityPolicy
 :
 VIOLATION_TYPE_EVAL
 nullptr
+mWorkerPrivate
+-
+>
+CSPEventListener
+(
+)
 mFileName
 mScriptSample
 mLineNum

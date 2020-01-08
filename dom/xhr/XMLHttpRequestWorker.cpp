@@ -2997,6 +2997,12 @@ mWorkerPrivate
 GetPerformanceStorage
 (
 )
+mWorkerPrivate
+-
+>
+CSPEventListener
+(
+)
 )
 ;
 mXHR
