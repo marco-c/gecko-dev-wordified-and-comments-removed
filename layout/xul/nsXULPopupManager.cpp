@@ -4459,6 +4459,13 @@ IsAlive
 )
 )
 ;
+item
+-
+>
+UpdateFollowAnchor
+(
+)
+;
 nsIContent
 *
 oldmenu
@@ -4504,13 +4511,6 @@ weakFrame
 IsAlive
 (
 )
-)
-;
-item
--
->
-UpdateFollowAnchor
-(
 )
 ;
 if
