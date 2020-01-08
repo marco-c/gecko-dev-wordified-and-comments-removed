@@ -71,6 +71,11 @@ false
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 Assert
@@ -204,6 +209,11 @@ false
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 Assert
@@ -436,6 +446,11 @@ false
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 Assert

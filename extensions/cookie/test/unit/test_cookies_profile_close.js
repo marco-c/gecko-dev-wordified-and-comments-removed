@@ -316,6 +316,11 @@ false
 0
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 }

@@ -88,6 +88,11 @@ false
 time
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 const

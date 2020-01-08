@@ -577,6 +577,11 @@ pow
 )
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 is

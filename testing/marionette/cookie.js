@@ -793,6 +793,11 @@ newCookie
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 }

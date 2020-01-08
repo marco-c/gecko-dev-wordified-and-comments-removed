@@ -696,6 +696,11 @@ cookie
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 Assert

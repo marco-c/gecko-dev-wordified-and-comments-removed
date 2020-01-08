@@ -213,6 +213,11 @@ false
 COOKIE_EXPIRY
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 check_cookie_exists

@@ -491,6 +491,11 @@ false
 expiry
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 do_send_remote_message

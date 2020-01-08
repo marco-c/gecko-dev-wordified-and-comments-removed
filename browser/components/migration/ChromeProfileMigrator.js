@@ -2025,6 +2025,11 @@ expiresUtc
 )
 {
 }
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
 }

@@ -1116,6 +1116,13 @@ true
 false
 false
 expireTime
+{
+}
+Ci
+.
+nsICookie2
+.
+SAMESITE_UNSET
 )
 ;
         
