@@ -129,6 +129,11 @@ DateTimePickerChild
 jsm
 '
 '
+ExtFindChild
+.
+jsm
+'
+'
 FindBarChild
 .
 jsm
