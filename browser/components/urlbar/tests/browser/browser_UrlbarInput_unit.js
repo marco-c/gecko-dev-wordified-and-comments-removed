@@ -142,7 +142,7 @@ QueryContext
 }
 }
 function
-checkHandleQueryCall
+checkStartQueryCall
 (
 stub
 expectedQueryContextProps
@@ -160,7 +160,7 @@ callCount
 Should
 have
 called
-handleQuery
+startQuery
 on
 the
 controller
@@ -189,7 +189,7 @@ length
 Should
 have
 called
-handleQuery
+startQuery
 with
 one
 argument
@@ -292,7 +292,7 @@ stub
 (
 fakeController
 "
-handleQuery
+startQuery
 "
 )
 ;
@@ -489,11 +489,11 @@ input
 }
 )
 ;
-checkHandleQueryCall
+checkStartQueryCall
 (
 fakeController
 .
-handleQuery
+startQuery
 {
 searchString
 :
@@ -572,11 +572,11 @@ input
 }
 )
 ;
-checkHandleQueryCall
+checkStartQueryCall
 (
 fakeController
 .
-handleQuery
+startQuery
 {
 searchString
 :

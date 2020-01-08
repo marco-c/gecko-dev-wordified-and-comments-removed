@@ -98,14 +98,14 @@ create
 fPM
 =
 {
-queryStart
+startQuery
 :
 sandbox
 .
 stub
 (
 )
-queryCancel
+cancelQuery
 :
 sandbox
 .
@@ -555,7 +555,7 @@ createContext
 ;
 controller
 .
-handleQuery
+startQuery
 (
 context
 )
@@ -566,7 +566,7 @@ equal
 (
 fPM
 .
-queryStart
+startQuery
 .
 callCount
 1
@@ -574,7 +574,7 @@ callCount
 Should
 have
 called
-queryStart
+startQuery
 once
 "
 )
@@ -585,7 +585,7 @@ equal
 (
 fPM
 .
-queryStart
+startQuery
 .
 args
 [
@@ -598,7 +598,7 @@ length
 Should
 have
 called
-queryStart
+startQuery
 with
 two
 arguments
@@ -609,7 +609,7 @@ assertContextMatches
 (
 fPM
 .
-queryStart
+startQuery
 .
 args
 [
@@ -631,7 +631,7 @@ equal
 (
 fPM
 .
-queryStart
+startQuery
 .
 args
 [
@@ -735,7 +735,7 @@ false
 ;
 controller
 .
-handleQuery
+startQuery
 (
 createContext
 (
@@ -748,7 +748,7 @@ equal
 (
 fPM
 .
-queryStart
+startQuery
 .
 callCount
 1
@@ -756,7 +756,7 @@ callCount
 Should
 have
 called
-queryStart
+startQuery
 once
 "
 )
@@ -767,7 +767,7 @@ equal
 (
 fPM
 .
-queryStart
+startQuery
 .
 args
 [
@@ -780,7 +780,7 @@ length
 Should
 have
 called
-queryStart
+startQuery
 with
 two
 arguments
@@ -791,7 +791,7 @@ assertContextMatches
 (
 fPM
 .
-queryStart
+startQuery
 .
 args
 [
@@ -813,7 +813,7 @@ equal
 (
 fPM
 .
-queryStart
+startQuery
 .
 args
 [
@@ -887,7 +887,7 @@ equal
 (
 fPM
 .
-queryCancel
+cancelQuery
 .
 callCount
 1
@@ -895,7 +895,7 @@ callCount
 Should
 have
 called
-queryCancel
+cancelQuery
 once
 "
 )
@@ -906,7 +906,7 @@ equal
 (
 fPM
 .
-queryCancel
+cancelQuery
 .
 args
 [
@@ -919,7 +919,7 @@ length
 Should
 have
 called
-queryCancel
+cancelQuery
 with
 one
 argument
