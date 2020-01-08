@@ -682,16 +682,6 @@ use
 self
 :
 :
-motion
-:
-:
-OffsetPath
-;
-pub
-use
-self
-:
-:
 outline
 :
 :
@@ -975,10 +965,6 @@ length
 pub
 mod
 list
-;
-pub
-mod
-motion
 ;
 pub
 mod
