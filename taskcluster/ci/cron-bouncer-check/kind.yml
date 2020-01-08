@@ -292,6 +292,11 @@ mozilla
 release
 :
 LATEST_FIREFOX_VERSION
+mozilla
+-
+esr60
+:
+FIREFOX_ESR
 default
 :
 LATEST_FIREFOX_DEVEL_VERSION
