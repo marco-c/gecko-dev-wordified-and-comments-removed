@@ -231,6 +231,7 @@ testCase
 await
 kServiceWorkerActivatedPromise
 ;
+const
 cookie_change_received_promise
 =
 new
