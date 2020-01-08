@@ -765,7 +765,7 @@ backStackId
 0
 )
 {
-getFragmentManager
+getChildFragmentManager
 (
 )
 .
