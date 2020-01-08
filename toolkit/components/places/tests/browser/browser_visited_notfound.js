@@ -245,12 +245,13 @@ onVisits
 }
 )
 ;
-gBrowser
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
+.
+selectedBrowser
 TEST_URL
 )
 ;

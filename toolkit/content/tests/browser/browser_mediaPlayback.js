@@ -122,10 +122,11 @@ url
 browser
 )
 {
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 url
 )
 ;

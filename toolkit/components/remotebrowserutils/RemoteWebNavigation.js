@@ -561,7 +561,15 @@ serializePrincipal
 aTriggeringPrincipal
 )
 :
-null
+Services
+.
+scriptSecurityManager
+.
+createNullPrincipal
+(
+{
+}
+)
 requestTime
 :
 Services

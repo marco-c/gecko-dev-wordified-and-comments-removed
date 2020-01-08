@@ -271,10 +271,11 @@ waitForPageShow
 browser
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 "
 data
 :
@@ -332,10 +333,11 @@ waitForPageShow
 browser
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 FILES
 +
 "
