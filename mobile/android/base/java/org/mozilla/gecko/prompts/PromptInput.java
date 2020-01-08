@@ -68,6 +68,17 @@ gecko
 .
 widget
 .
+FocusableDatePicker
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
 DateTimePicker
 ;
 import
@@ -943,7 +954,7 @@ DatePicker
 input
 =
 new
-DatePicker
+FocusableDatePicker
 (
 context
 )
