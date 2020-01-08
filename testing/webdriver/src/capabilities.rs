@@ -2701,12 +2701,10 @@ else
 }
 }
 }
-return
 Some
 (
 merged
 )
-;
 }
 )
 .
