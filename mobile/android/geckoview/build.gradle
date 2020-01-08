@@ -2205,6 +2205,8 @@ variant
 .
 baseName
 )
+doFirst
+{
 classpath
 =
 files
@@ -2217,6 +2219,7 @@ classpath
 .
 files
 )
+}
 source
 =
 files
