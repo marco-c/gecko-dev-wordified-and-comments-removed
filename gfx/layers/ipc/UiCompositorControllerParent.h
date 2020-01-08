@@ -146,6 +146,14 @@ RecvResumeAndResize
 const
 int32_t
 &
+aX
+const
+int32_t
+&
+aY
+const
+int32_t
+&
 aHeight
 const
 int32_t

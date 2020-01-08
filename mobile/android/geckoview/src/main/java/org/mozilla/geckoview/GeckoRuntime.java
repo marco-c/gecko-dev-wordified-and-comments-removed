@@ -952,6 +952,17 @@ service
 }
 GeckoAppShell
 .
+useMaxScreenDepth
+(
+settings
+.
+getUseMaxScreenDepth
+(
+)
+)
+;
+GeckoAppShell
+.
 setDisplayDensityOverride
 (
 settings

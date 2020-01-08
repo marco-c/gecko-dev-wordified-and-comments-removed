@@ -1804,6 +1804,10 @@ bool
 ScheduleResumeOnCompositorThread
 (
 int
+x
+int
+y
+int
 width
 int
 height
@@ -2454,8 +2458,12 @@ int
 )
 ;
 void
-SetEGLSurfaceSize
+SetEGLSurfaceRect
 (
+int
+x
+int
+y
 int
 width
 int
@@ -2489,6 +2497,10 @@ ResumeComposition
 void
 ResumeCompositionAndResize
 (
+int
+x
+int
+y
 int
 width
 int
