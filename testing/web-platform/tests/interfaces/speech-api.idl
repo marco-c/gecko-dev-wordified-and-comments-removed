@@ -615,8 +615,8 @@ Exposed
 =
 Window
 Constructor
-Constructor
 (
+optional
 DOMString
 text
 )
