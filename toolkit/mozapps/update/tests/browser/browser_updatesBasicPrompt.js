@@ -23,7 +23,9 @@ true
 )
 ;
 await
-setAutoUpdateIsEnabled
+UpdateUtils
+.
+setAppUpdateAutoEnabled
 (
 false
 )

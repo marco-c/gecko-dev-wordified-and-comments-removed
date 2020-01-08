@@ -228,6 +228,8 @@ updateDeck
 this
 .
 promiseAutoUpdateSetting
+=
+null
 ;
 if
 (
@@ -428,11 +430,9 @@ this
 .
 promiseAutoUpdateSetting
 =
-this
+UpdateUtils
 .
-aus
-.
-getAutoUpdateIsEnabled
+getAppUpdateAutoEnabled
 (
 )
 ;
@@ -1308,11 +1308,9 @@ gAppUpdater
 .
 promiseAutoUpdateSetting
 =
-gAppUpdater
+UpdateUtils
 .
-aus
-.
-getAutoUpdateIsEnabled
+getAppUpdateAutoEnabled
 (
 )
 ;

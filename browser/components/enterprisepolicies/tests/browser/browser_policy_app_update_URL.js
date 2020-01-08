@@ -66,7 +66,12 @@ Services
 .
 prefs
 .
-getStringPref
+getDefaultBranch
+(
+null
+)
+.
+getCharPref
 (
 "
 app
