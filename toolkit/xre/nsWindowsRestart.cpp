@@ -441,6 +441,11 @@ si
 .
 lpDesktop
 =
+const_cast
+<
+LPWSTR
+>
+(
 L
 "
 winsta0
@@ -448,6 +453,7 @@ winsta0
 \
 Default
 "
+)
 ;
 PROCESS_INFORMATION
 pi
