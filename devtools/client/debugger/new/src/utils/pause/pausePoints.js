@@ -329,6 +329,11 @@ iteratee
 )
 )
 ;
+let
+index
+=
+0
+;
 const
 newPausePoints
 =
@@ -378,10 +383,11 @@ column
 ]
 =
 results
-.
-shift
-(
-)
+[
+index
++
++
+]
 ;
 }
 }
