@@ -149,7 +149,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 function
 resetEngine
@@ -160,7 +160,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 originalEngine
 ;
@@ -496,7 +496,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Assert
 .
@@ -635,7 +635,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 TEST_ENGINE_NAME

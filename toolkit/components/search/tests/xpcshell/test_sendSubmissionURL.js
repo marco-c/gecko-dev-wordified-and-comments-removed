@@ -455,7 +455,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;

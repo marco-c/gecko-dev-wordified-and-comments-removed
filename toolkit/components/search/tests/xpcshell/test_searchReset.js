@@ -194,7 +194,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
@@ -262,7 +262,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 getSubmission
 (
@@ -349,7 +349,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 getSubmission
 (
@@ -466,7 +466,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Assert
 .
@@ -610,13 +610,13 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Assert
 .
@@ -731,7 +731,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Assert
 .

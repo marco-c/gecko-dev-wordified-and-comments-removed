@@ -54,7 +54,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 getDefaultEngineName
@@ -103,7 +103,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultEngineName
@@ -141,7 +141,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultEngineName
@@ -171,7 +171,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .
@@ -190,7 +190,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 kTestEngineName
@@ -234,7 +234,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 kTestEngineName
@@ -256,7 +256,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 getDefaultEngineName
@@ -279,7 +279,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .
@@ -298,7 +298,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 kTestEngineName
@@ -344,7 +344,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 getDefaultEngineName
@@ -367,7 +367,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .
@@ -386,7 +386,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 kTestEngineName
@@ -419,7 +419,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .
@@ -481,7 +481,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultName
@@ -491,7 +491,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .
@@ -510,7 +510,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 kTestEngineName
@@ -537,7 +537,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultName
@@ -610,7 +610,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 nonDefaultBuiltInEngine
 ;
@@ -622,7 +622,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 nonDefaultBuiltInEngine
@@ -661,7 +661,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultName
@@ -693,7 +693,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultName
@@ -717,7 +717,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 defaultName

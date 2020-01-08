@@ -223,7 +223,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 registerCleanupFunction
 (
@@ -235,7 +235,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 oldCurrentEngine
 )
@@ -244,7 +244,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;

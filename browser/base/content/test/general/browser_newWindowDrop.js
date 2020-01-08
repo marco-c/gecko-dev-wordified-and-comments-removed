@@ -9,7 +9,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 originalEngine
 ;
@@ -111,13 +111,13 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;

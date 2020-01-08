@@ -35,7 +35,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 gOriginalEngine
 ;
@@ -166,13 +166,13 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 gEngine
 ;

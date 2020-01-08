@@ -5829,7 +5829,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 .
 name
 ;
@@ -5889,7 +5889,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine1
 ;
@@ -5930,7 +5930,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 Services
 .

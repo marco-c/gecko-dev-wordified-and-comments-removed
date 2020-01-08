@@ -78,13 +78,13 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
@@ -109,7 +109,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 oldCurrentEngine
 ;
@@ -672,7 +672,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 ;
 let
 engineID

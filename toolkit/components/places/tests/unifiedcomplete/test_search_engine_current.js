@@ -247,7 +247,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 engine
 "
 New
@@ -267,7 +267,7 @@ Services
 .
 search
 .
-currentEngine
+defaultEngine
 =
 engine
 ;
