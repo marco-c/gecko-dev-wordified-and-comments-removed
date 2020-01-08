@@ -7381,10 +7381,10 @@ obj
 ;
 obj
 =
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )
@@ -10750,10 +10750,10 @@ JSObject
 global
 (
 cx
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )

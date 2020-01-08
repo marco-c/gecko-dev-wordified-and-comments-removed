@@ -8596,10 +8596,10 @@ JSObject
 global
 (
 cx
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )
@@ -15321,10 +15321,10 @@ toObject
 (
 )
 :
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 &
 aArgs
