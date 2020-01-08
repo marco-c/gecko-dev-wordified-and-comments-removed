@@ -491,6 +491,9 @@ mSettings
 MediaEngineSourceState
 mState
 ;
+MediaEnginePrefs
+mCurrentPrefs
+;
 RefPtr
 <
 SourceMediaStream

@@ -847,6 +847,10 @@ ApplySettings
 outputPrefs
 )
 ;
+mCurrentPrefs
+=
+outputPrefs
+;
 return
 NS_OK
 ;
@@ -2098,6 +2102,10 @@ NS_OK
 )
 )
 ;
+mCurrentPrefs
+=
+outputPrefs
+;
 return
 rv
 ;
@@ -2858,6 +2866,11 @@ NS_OK
 ;
 }
 )
+)
+;
+ApplySettings
+(
+mCurrentPrefs
 )
 ;
 MOZ_ASSERT
