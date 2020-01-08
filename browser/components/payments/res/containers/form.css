@@ -24,8 +24,9 @@ after
 {
 content
 :
-"
-*
-"
+attr
+(
+fieldRequiredSymbol
+)
 ;
 }
