@@ -364,7 +364,6 @@ inputmethod
 ExtractedTextRequest
 ;
 public
-final
 class
 GeckoSession
 extends
