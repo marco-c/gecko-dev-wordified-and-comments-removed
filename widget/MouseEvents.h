@@ -1058,6 +1058,12 @@ mReason
 eReal
 ;
 }
+static
+bool
+IsMiddleClickPasteEnabled
+(
+)
+;
 }
 ;
 class
