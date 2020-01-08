@@ -222,6 +222,11 @@ nsXULPopupManager
 .
 h
 '
+'
+nsXULTooltipListener
+.
+h
+'
 ]
 EXPORTS
 .
