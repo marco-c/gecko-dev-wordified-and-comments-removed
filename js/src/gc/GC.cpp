@@ -34498,7 +34498,7 @@ unlimited
 (
 )
 ;
-incrementalCollectSlice
+incrementalSlice
 (
 unlimited
 JS
@@ -34592,7 +34592,7 @@ unlimited
 (
 )
 ;
-incrementalCollectSlice
+incrementalSlice
 (
 unlimited
 JS
@@ -34652,7 +34652,7 @@ unlimited
 (
 )
 ;
-incrementalCollectSlice
+incrementalSlice
 (
 unlimited
 JS
@@ -34689,7 +34689,7 @@ unlimited
 (
 )
 ;
-incrementalCollectSlice
+incrementalSlice
 (
 unlimited
 JS
@@ -35122,7 +35122,7 @@ IncrementalResult
 GCRuntime
 :
 :
-incrementalCollectSlice
+incrementalSlice
 (
 SliceBudget
 &
@@ -37344,7 +37344,7 @@ traceMajorGCStart
 ;
 result
 =
-incrementalCollectSlice
+incrementalSlice
 (
 budget
 reason

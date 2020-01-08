@@ -3061,7 +3061,7 @@ reason
 )
 ;
 IncrementalResult
-incrementalCollectSlice
+incrementalSlice
 (
 SliceBudget
 &
