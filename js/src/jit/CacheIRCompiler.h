@@ -547,6 +547,11 @@ CallNumberToString
 \
 _
 (
+CallIsSuspendedGeneratorResult
+)
+\
+_
+(
 WrapResult
 )
 class
