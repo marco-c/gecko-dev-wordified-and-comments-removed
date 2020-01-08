@@ -8,7 +8,7 @@ use
 hash
 :
 :
-FnvHashMap
+FxHashMap
 ;
 use
 parser
@@ -3466,7 +3466,7 @@ let
 mut
 area_indices
 =
-FnvHashMap
+FxHashMap
 :
 :
 <

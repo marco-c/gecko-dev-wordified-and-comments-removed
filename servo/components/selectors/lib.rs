@@ -34,6 +34,10 @@ extern
 crate
 fnv
 ;
+extern
+crate
+fxhash
+;
 #
 [
 macro_use

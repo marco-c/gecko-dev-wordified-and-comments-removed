@@ -5225,7 +5225,7 @@ use
 hash
 :
 :
-FnvHashSet
+FxHashSet
 ;
 let
 me
@@ -5262,7 +5262,7 @@ let
 mut
 seen
 =
-FnvHashSet
+FxHashSet
 :
 :
 default

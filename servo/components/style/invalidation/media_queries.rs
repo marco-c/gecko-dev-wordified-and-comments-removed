@@ -5,10 +5,10 @@ context
 QuirksMode
 ;
 use
-fnv
+fxhash
 :
 :
-FnvHashSet
+FxHashSet
 ;
 use
 media_queries
@@ -164,7 +164,7 @@ EffectiveMediaQueryResults
 {
 set
 :
-FnvHashSet
+FxHashSet
 <
 MediaListKey
 >
@@ -185,7 +185,7 @@ Self
 {
 set
 :
-FnvHashSet
+FxHashSet
 :
 :
 default

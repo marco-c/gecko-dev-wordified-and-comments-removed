@@ -16466,10 +16466,10 @@ mod
 style_structs
 {
 use
-fnv
+fx
 :
 :
-FnvHasher
+FxHasher
 ;
 use
 super
@@ -17725,7 +17725,7 @@ let
 mut
 hasher
 :
-FnvHasher
+FxHasher
 =
 Default
 :
