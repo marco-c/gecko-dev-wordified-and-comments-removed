@@ -66,6 +66,15 @@ about
 -
 config
 -
+pref
+-
+delete
+=
+Delete
+about
+-
+config
+-
 search
 =
 .
