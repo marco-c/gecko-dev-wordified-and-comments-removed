@@ -875,11 +875,12 @@ can
 '
 t
 access
-its
+property
 "
 getManifest
 "
-property
+of
+it
 "
 expected
 exception

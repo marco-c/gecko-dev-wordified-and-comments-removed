@@ -122,11 +122,13 @@ can
 '
 t
 access
-its
+property
+\
 "
 random_prop
 "
-property
+of
+it
 ]
 ]
 )
