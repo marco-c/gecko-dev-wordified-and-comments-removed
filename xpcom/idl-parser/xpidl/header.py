@@ -856,13 +856,6 @@ t
 =
 =
 "
-DOMString
-"
-or
-t
-=
-=
-"
 AUTF8String
 "
 :

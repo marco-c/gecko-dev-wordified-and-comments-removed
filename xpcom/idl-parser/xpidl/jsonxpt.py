@@ -213,14 +213,6 @@ TD_PNSIID
 '
     
 '
-domstring
-'
-:
-'
-TD_DOMSTRING
-'
-    
-'
 astring
 '
 :

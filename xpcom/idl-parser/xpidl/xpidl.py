@@ -3442,25 +3442,6 @@ nsid
 None
         
 '
-domstring
-'
-:
-(
-'
-const
-nsAString
-&
-'
-'
-nsAString
-&
-'
-'
-nsString
-'
-)
-        
-'
 utf8string
 '
 :
@@ -4376,15 +4357,11 @@ if
 self
 .
 specialtype
-in
-[
+=
+=
 '
 astring
 '
-'
-domstring
-'
-]
 :
             
 if
