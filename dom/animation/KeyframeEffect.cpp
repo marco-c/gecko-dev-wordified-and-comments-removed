@@ -6593,13 +6593,7 @@ return
 mCumulativeChangeHint
 |
 =
-nsChangeHint_AddOrRemoveTransform
-|
-nsChangeHint_RepaintFrame
-|
-nsChangeHint_UpdateContainingBlock
-|
-nsChangeHint_UpdateOverflow
+nsChangeHint_ComprehensiveAddOrRemoveTransform
 |
 nsChangeHint_UpdatePostTransformOverflow
 |

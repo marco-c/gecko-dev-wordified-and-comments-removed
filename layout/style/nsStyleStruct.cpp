@@ -17084,13 +17084,7 @@ HasTransformStyle
 hint
 |
 =
-nsChangeHint_UpdateContainingBlock
-|
-nsChangeHint_AddOrRemoveTransform
-|
-nsChangeHint_UpdateOverflow
-|
-nsChangeHint_RepaintFrame
+nsChangeHint_ComprehensiveAddOrRemoveTransform
 ;
 }
 else
