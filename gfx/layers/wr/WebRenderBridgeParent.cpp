@@ -8174,6 +8174,10 @@ mDestroyed
 return
 ;
 }
+FlushSceneBuilds
+(
+)
+;
 FlushFrameGeneration
 (
 )
