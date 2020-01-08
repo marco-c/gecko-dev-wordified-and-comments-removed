@@ -225,9 +225,6 @@ function
 (
 async_test
 (
-document
-.
-title
 )
 )
 .
