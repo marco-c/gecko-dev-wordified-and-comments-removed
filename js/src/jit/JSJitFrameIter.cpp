@@ -45,6 +45,15 @@ JitFrames
 .
 h
 "
+#
+include
+"
+jit
+/
+Safepoints
+.
+h
+"
 using
 namespace
 js
