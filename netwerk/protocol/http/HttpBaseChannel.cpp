@@ -16459,10 +16459,13 @@ Claim
 headerItem
 )
 ;
-headerItem
-.
-StripWhitespace
+nsHttp
+:
+:
+TrimHTTPWhitespace
 (
+headerItem
+headerItem
 )
 ;
 if
