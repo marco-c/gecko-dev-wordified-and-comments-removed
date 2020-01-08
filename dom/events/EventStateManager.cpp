@@ -8413,7 +8413,7 @@ dragContent
 dragContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -10294,7 +10294,7 @@ targetContent
 targetContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -10526,7 +10526,7 @@ targetContent
 targetContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -14108,10 +14108,8 @@ break
 if
 (
 activeContent
-)
-{
-if
-(
+&
+&
 !
 activeContent
 -
@@ -14121,6 +14119,8 @@ IsElement
 )
 )
 {
+if
+(
 nsIContent
 *
 par
@@ -14128,14 +14128,11 @@ par
 activeContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
-;
-if
-(
-par
 )
+{
 activeContent
 =
 par
@@ -20221,7 +20218,7 @@ mouseContent
 mouseContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -20854,7 +20851,7 @@ mouseContent
 mouseContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -22052,7 +22049,7 @@ mLastOverElement
 nsContentUtils
 :
 :
-ContentIsDescendantOf
+ContentIsFlattenedTreeDescendantOf
 (
 aElemWrapper
 -
