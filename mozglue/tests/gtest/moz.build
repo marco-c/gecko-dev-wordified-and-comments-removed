@@ -53,6 +53,14 @@ MPL
 0
 /
 .
+if
+CONFIG
+[
+'
+NIGHTLY_BUILD
+'
+]
+:
 UNIFIED_SOURCES
 +
 =
