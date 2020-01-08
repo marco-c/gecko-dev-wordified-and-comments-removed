@@ -1519,9 +1519,9 @@ false
 ;
 shEntry
 .
-loadType
-=
-2
+setAsHistoryLoad
+(
+)
 ;
 if
 (

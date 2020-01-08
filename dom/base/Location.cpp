@@ -989,10 +989,7 @@ loadInfo
 >
 SetLoadType
 (
-nsDocShellLoadInfo
-:
-:
-loadStopContentAndReplace
+LOAD_STOP_CONTENT_AND_REPLACE
 )
 ;
 }
@@ -1003,10 +1000,7 @@ loadInfo
 >
 SetLoadType
 (
-nsDocShellLoadInfo
-:
-:
-loadStopContent
+LOAD_STOP_CONTENT
 )
 ;
 }

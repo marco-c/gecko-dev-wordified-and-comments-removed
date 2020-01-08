@@ -998,9 +998,9 @@ systemPrincipal
 ;
 shEntry
 .
-loadType
-=
-2
+setAsHistoryLoad
+(
+)
 ;
 shEntry
 .

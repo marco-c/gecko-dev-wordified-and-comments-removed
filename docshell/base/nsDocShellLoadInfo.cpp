@@ -113,10 +113,7 @@ RP_Unset
 )
 mLoadType
 (
-nsDocShellLoadInfo
-:
-:
-loadNormal
+LOAD_NORMAL
 )
 mIsSrcdocLoad
 (
@@ -421,10 +418,7 @@ mOriginalFrameSrc
 aOriginalFrameSrc
 ;
 }
-nsDocShellLoadInfo
-:
-:
-nsDocShellInfoLoadType
+uint32_t
 nsDocShellLoadInfo
 :
 :
@@ -443,10 +437,7 @@ nsDocShellLoadInfo
 :
 SetLoadType
 (
-nsDocShellLoadInfo
-:
-:
-nsDocShellInfoLoadType
+uint32_t
 aLoadType
 )
 {

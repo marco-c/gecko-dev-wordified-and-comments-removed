@@ -1246,6 +1246,11 @@ aDocShell
 )
 ;
 }
+bool
+IsForceReloading
+(
+)
+;
 private
 :
 friend
