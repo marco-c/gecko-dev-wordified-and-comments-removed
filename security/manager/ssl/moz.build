@@ -388,6 +388,16 @@ NSSErrorsService
 h
 '
 '
+nsSSLSocketProvider
+.
+h
+'
+'
+nsTLSSocketProvider
+.
+h
+'
+'
 RootCertificateTelemetryUtils
 .
 h
