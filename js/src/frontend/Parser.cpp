@@ -40175,6 +40175,7 @@ lhs
 importExpr
 (
 yieldHandling
+allowCallSyntax
 )
 ;
 if
@@ -46613,6 +46614,8 @@ importExpr
 (
 YieldHandling
 yieldHandling
+bool
+allowCallSyntax
 )
 {
 MOZ_ASSERT
@@ -46804,6 +46807,9 @@ TokenKind
 :
 :
 LeftParen
+&
+&
+allowCallSyntax
 )
 {
 Node

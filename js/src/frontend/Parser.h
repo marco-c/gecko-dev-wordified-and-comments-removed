@@ -3609,6 +3609,8 @@ importExpr
 (
 YieldHandling
 yieldHandling
+bool
+allowCallSyntax
 )
 ;
 CodeNodeType
