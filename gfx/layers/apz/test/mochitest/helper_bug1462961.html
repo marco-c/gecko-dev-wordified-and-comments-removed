@@ -250,7 +250,7 @@ at
 0
 .
 var
-scrolled
+dragFinisher
 =
 yield
 *
@@ -265,7 +265,7 @@ testDriver
 if
 (
 !
-scrolled
+dragFinisher
 )
 {
 ok
@@ -323,6 +323,12 @@ is
 triggered
 .
 yield
+;
+yield
+*
+dragFinisher
+(
+)
 ;
 /
 /
