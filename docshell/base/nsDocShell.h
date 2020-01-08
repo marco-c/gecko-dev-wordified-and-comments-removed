@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsIClipboardCommands
-.
-h
-"
-#
-include
-"
 nsIDeprecationWarner
 .
 h
@@ -527,8 +520,6 @@ nsILoadContext
 public
 nsILinkHandler
 public
-nsIClipboardCommands
-public
 nsIDOMStorageManager
 public
 nsINetworkInterceptController
@@ -660,7 +651,6 @@ NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIREFRESHURI
 NS_DECL_NSIWEBPAGEDESCRIPTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
-NS_DECL_NSICLIPBOARDCOMMANDS
 NS_DECL_NSINETWORKINTERCEPTCONTROLLER
 NS_DECL_NSIDEPRECATIONWARNER
 NS_FORWARD_SAFE_NSIDOMSTORAGEMANAGER

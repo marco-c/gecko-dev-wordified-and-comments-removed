@@ -295,11 +295,6 @@ nsCDefaultURIFixup
 idl
 '
 '
-nsIClipboardCommands
-.
-idl
-'
-'
 nsIContentViewer
 .
 idl
