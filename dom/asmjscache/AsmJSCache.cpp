@@ -7206,6 +7206,16 @@ AssertIsOnBackgroundThread
 (
 )
 ;
+MOZ_ASSERT
+(
+!
+mShutdownRequested
+)
+;
+mShutdownRequested
+=
+true
+;
 if
 (
 sLiveParentActors
