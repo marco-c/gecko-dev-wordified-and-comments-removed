@@ -649,7 +649,7 @@ permissionPromptsEnabled
 ChromeOnly
 Exposed
 =
-System
+Window
 HeaderFile
 =
 "

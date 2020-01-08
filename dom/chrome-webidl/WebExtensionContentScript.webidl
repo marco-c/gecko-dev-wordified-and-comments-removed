@@ -93,7 +93,7 @@ options
 ChromeOnly
 Exposed
 =
-System
+Window
 ]
 interface
 MozDocumentMatcher
@@ -806,7 +806,7 @@ options
 ChromeOnly
 Exposed
 =
-System
+Window
 ]
 interface
 WebExtensionContentScript
