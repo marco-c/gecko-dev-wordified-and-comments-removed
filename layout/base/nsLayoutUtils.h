@@ -5207,6 +5207,16 @@ aProperty
 )
 ;
 static
+nsCSSPropertyIDSet
+GetAnimationPropertiesForCompositor
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 bool
 AreAsyncAnimationsEnabled
 (

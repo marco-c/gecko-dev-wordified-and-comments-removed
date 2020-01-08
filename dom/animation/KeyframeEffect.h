@@ -786,6 +786,16 @@ aProperty
 )
 const
 ;
+nsCSSPropertyIDSet
+GetPropertiesForCompositor
+(
+const
+EffectSet
+&
+aEffects
+)
+const
+;
 const
 InfallibleTArray
 <
