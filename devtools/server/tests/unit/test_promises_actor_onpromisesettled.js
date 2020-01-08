@@ -112,13 +112,6 @@ Promise
 )
 ;
 await
-attachTarget
-(
-client
-parentProcessActors
-)
-;
-await
 testPromisesSettled
 (
 client

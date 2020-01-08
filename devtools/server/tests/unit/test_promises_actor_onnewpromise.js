@@ -92,13 +92,6 @@ Promise
 )
 ;
 await
-attachTarget
-(
-client
-parentProcessActors
-)
-;
-await
 testNewPromisesEvent
 (
 client

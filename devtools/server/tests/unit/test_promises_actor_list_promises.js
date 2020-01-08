@@ -60,13 +60,6 @@ client
 )
 ;
 await
-attachTarget
-(
-client
-parentProcessActors
-)
-;
-await
 testListPromises
 (
 client

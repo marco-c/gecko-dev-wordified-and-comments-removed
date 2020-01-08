@@ -93,13 +93,6 @@ Promise
 )
 ;
 await
-attachTarget
-(
-client
-parentProcessActors
-)
-;
-await
 testGetTimeToSettle
 (
 client

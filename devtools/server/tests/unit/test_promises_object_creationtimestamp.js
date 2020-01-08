@@ -163,13 +163,6 @@ Promise
 )
 ;
 await
-attachTarget
-(
-client
-parentProcessActors
-)
-;
-await
 testPromiseCreationTimestamp
 (
 client

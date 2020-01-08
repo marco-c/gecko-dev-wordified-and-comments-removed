@@ -68,13 +68,6 @@ getParentProcessActors
 client
 )
 ;
-await
-attachTarget
-(
-client
-parentProcessActors
-)
-;
 ok
 (
 Promise
@@ -213,13 +206,6 @@ target
 tab
 .
 "
-)
-;
-await
-attachTarget
-(
-client
-targetTab
 )
 ;
 await
