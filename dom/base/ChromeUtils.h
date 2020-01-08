@@ -527,7 +527,10 @@ global
 const
 Sequence
 <
-OwningStringOrIID
+JS
+:
+:
+Value
 >
 &
 interfaces

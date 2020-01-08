@@ -1112,7 +1112,7 @@ generateQI
 [
 Ci
 .
-nsiObserver
+nsIObserver
 Ci
 .
 nsISupportsWeakReference
