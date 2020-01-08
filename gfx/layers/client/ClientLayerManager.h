@@ -1389,6 +1389,9 @@ mNeedsComposite
 bool
 mQueuedAsyncPaints
 ;
+bool
+mNotifyingWidgetListener
+;
 uint32_t
 mPaintSequenceNumber
 ;
