@@ -293,7 +293,7 @@ mRasterizeLocally
 wr
 :
 :
-GlyphRasterSpace
+RasterSpace
 :
 :
 Local
@@ -315,7 +315,7 @@ height
 wr
 :
 :
-GlyphRasterSpace
+RasterSpace
 :
 :
 Screen

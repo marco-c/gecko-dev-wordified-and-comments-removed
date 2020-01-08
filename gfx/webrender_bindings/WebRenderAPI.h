@@ -1360,7 +1360,7 @@ const
 wr
 :
 :
-GlyphRasterSpace
+RasterSpace
 &
 aRasterSpace
 )

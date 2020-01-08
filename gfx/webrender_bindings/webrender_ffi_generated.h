@@ -2707,7 +2707,7 @@ matrix
 }
 ;
 union
-GlyphRasterSpace
+RasterSpace
 {
 enum
 class
@@ -2763,7 +2763,7 @@ Local_Body
 local
 ;
 static
-GlyphRasterSpace
+RasterSpace
 Local
 (
 float
@@ -2772,7 +2772,7 @@ const
 a0
 )
 {
-GlyphRasterSpace
+RasterSpace
 result
 ;
 result
@@ -2797,12 +2797,12 @@ result
 ;
 }
 static
-GlyphRasterSpace
+RasterSpace
 Screen
 (
 )
 {
-GlyphRasterSpace
+RasterSpace
 result
 ;
 result
@@ -2856,7 +2856,7 @@ operator
 =
 (
 const
-GlyphRasterSpace
+RasterSpace
 &
 aOther
 )
@@ -4604,7 +4604,7 @@ uintptr_t
 aFilterCount
 bool
 aIsBackfaceVisible
-GlyphRasterSpace
+RasterSpace
 aGlyphRasterSpace
 bool
 *
