@@ -21611,7 +21611,7 @@ uint32_t
 static
 const
 VMFunction
-GeneratorThrowInfo
+GeneratorThrowOrReturnInfo
 =
 FunctionInfo
 <
@@ -22814,7 +22814,7 @@ jitRuntime
 >
 getVMWrapper
 (
-GeneratorThrowInfo
+GeneratorThrowOrReturnInfo
 )
 ;
 masm

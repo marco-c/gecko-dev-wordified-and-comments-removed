@@ -4797,6 +4797,13 @@ offset
 )
 )
 ;
+genObj
+-
+>
+setRunning
+(
+)
+;
 MOZ_ALWAYS_TRUE
 (
 DebugAfterYield
