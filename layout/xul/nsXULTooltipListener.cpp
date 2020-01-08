@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorResult

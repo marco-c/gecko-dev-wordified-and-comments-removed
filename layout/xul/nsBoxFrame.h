@@ -554,12 +554,6 @@ nsDisplayListSet
 aOut
 )
 ;
-virtual
-bool
-SupportsOrdinalsInChildren
-(
-)
-;
 void
 AppendDirectlyOwnedAnonBoxes
 (

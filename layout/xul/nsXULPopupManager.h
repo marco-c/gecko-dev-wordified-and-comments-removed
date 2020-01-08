@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsPresContext
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
