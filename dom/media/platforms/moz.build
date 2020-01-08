@@ -423,6 +423,13 @@ AOMDecoder
 .
 h
 '
+'
+agnostic
+/
+DAV1DDecoder
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -432,6 +439,13 @@ UNIFIED_SOURCES
 agnostic
 /
 AOMDecoder
+.
+cpp
+'
+'
+agnostic
+/
+DAV1DDecoder
 .
 cpp
 '
