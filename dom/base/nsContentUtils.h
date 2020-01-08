@@ -2617,15 +2617,6 @@ aMessageOut
 )
 ;
 static
-bool
-DevToolsEnabled
-(
-JSContext
-*
-aCx
-)
-;
-static
 nsresult
 CalculateBufferSizeForImage
 (

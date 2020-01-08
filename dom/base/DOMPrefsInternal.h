@@ -1,14 +1,5 @@
 DOM_PREF
 (
-DevToolsEnabled
-"
-devtools
-.
-enabled
-"
-)
-DOM_PREF
-(
 PerformanceObserverEnabled
 "
 dom

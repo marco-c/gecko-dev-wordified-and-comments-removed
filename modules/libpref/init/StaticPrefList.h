@@ -3362,3 +3362,14 @@ view_source_editor_external
 bool
 false
 )
+VARCACHE_PREF
+(
+"
+devtools
+.
+enabled
+"
+devtools_enabled
+RelaxedAtomicBool
+false
+)
