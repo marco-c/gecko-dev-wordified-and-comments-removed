@@ -31,9 +31,6 @@ uint64_t
 uint64
 ;
 #
-ifdef
-__cplusplus
-#
 ifndef
 MOZILLA_CLIENT
 #
@@ -144,13 +141,6 @@ second
 }
 #
 endif
-extern
-"
-C
-"
-{
-#
-endif
 uint64
 CityHash64
 (
@@ -190,10 +180,6 @@ uint64
 seed1
 )
 ;
-#
-ifdef
-__cplusplus
-}
 uint128
 CityHash128
 (
@@ -294,7 +280,5 @@ return
 b
 ;
 }
-#
-endif
 #
 endif
