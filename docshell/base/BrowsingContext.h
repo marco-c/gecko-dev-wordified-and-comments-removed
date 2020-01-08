@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_BrowsingContext_h
+BrowsingContext_h
 #
 define
-mozilla_dom_BrowsingContext_h
+BrowsingContext_h
 #
 include
 "
@@ -363,6 +363,7 @@ GetParentObject
 )
 const
 ;
+virtual
 JSObject
 *
 WrapObject
