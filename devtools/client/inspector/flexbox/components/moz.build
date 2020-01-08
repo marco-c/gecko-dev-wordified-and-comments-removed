@@ -112,4 +112,9 @@ FlexItemList
 .
 js
 '
+'
+FlexItemSizingProperties
+.
+js
+'
 )
