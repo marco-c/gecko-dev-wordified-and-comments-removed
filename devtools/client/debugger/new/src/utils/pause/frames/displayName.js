@@ -48,6 +48,7 @@ objectProperty
 w
 \
 d
+\
 ]
 +
 )
