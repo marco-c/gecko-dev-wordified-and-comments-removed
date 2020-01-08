@@ -6206,7 +6206,7 @@ mResponseType
 XMLHttpRequestResponseType
 :
 :
-Text
+_empty
 )
 mTimeout
 (
