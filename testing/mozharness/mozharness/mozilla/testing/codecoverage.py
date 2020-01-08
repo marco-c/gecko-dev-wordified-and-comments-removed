@@ -1697,6 +1697,19 @@ tempfile
 mkdtemp
 (
 )
+            
+env
+[
+'
+JSVM_RESULTS_DIR
+'
+]
+=
+tempfile
+.
+mkdtemp
+(
+)
         
 self
 .
@@ -2187,6 +2200,25 @@ self
 .
 gcov_dir
         
+jsvm_dir
+=
+env
+[
+'
+JSVM_RESULTS_DIR
+'
+]
+if
+'
+JSVM_RESULTS_DIR
+'
+in
+env
+else
+self
+.
+jsvm_dir
+        
 grcov_file
 =
 self
@@ -2195,8 +2227,6 @@ parse_coverage_artifacts
 (
             
 gcov_dir
-self
-.
 jsvm_dir
 merge
 =
@@ -2341,6 +2371,13 @@ in
 env
 :
             
+assert
+'
+JSVM_RESULTS_DIR
+'
+in
+env
+            
 shutil
 .
 rmtree
@@ -2348,6 +2385,15 @@ rmtree
 self
 .
 gcov_dir
+)
+            
+shutil
+.
+rmtree
+(
+self
+.
+jsvm_dir
 )
     
 def
