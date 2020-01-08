@@ -2408,9 +2408,8 @@ nsIDOMXULControlElement
 >
 xulControl
 =
-do_QueryObject
+AsXULControl
 (
-this
 )
 ;
 if
@@ -2878,11 +2877,12 @@ nsCOMPtr
 nsIDOMXULSelectControlItemElement
 >
 controlItem
-(
-do_QueryInterface
-(
+=
 content
-)
+-
+>
+AsXULSelectControlItem
+(
 )
 ;
 if

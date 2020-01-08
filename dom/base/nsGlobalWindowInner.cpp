@@ -31270,10 +31270,10 @@ nsIDOMXULControlElement
 >
 xulControl
 =
-do_QueryInterface
-(
-&
 aDefaultButton
+.
+AsXULControl
+(
 )
 ;
 if
