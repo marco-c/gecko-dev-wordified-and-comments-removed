@@ -16199,15 +16199,6 @@ aStream
 )
 override
 ;
-bool
-CanUseAsyncAnimations
-(
-nsDisplayListBuilder
-*
-aBuilder
-)
-override
-;
 protected
 :
 const
