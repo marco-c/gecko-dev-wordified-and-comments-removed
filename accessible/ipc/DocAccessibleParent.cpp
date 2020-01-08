@@ -2160,10 +2160,10 @@ ANDROID
 ProxyVirtualCursorChangeEvent
 (
 target
-newPosition
+oldPosition
 aOldStartOffset
 aOldEndOffset
-oldPosition
+newPosition
 aNewStartOffset
 aNewEndOffset
 aReason
