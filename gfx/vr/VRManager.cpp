@@ -1399,8 +1399,9 @@ RunTasks
 (
 )
 {
-MOZ_ASSERT
+if
 (
+!
 VRListenerThreadHolder
 :
 :
@@ -1408,7 +1409,10 @@ IsInVRListenerThread
 (
 )
 )
+{
+return
 ;
+}
 TimeStamp
 now
 =
