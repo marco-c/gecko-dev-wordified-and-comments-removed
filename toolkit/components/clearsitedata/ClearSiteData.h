@@ -75,15 +75,6 @@ nsIHttpChannel
 aChannel
 )
 ;
-bool
-IsSecureURI
-(
-nsIURI
-*
-aURI
-)
-const
-;
 uint32_t
 ParseHeader
 (
