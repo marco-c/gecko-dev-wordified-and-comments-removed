@@ -3925,6 +3925,13 @@ maybeExpando
 (
 )
 ;
+AutoRealm
+ar
+(
+cx
+obj
+)
+;
 if
 (
 !
