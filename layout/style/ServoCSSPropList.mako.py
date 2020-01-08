@@ -474,6 +474,10 @@ TextAlign
 "
     
 "
+Translate
+"
+    
+"
 TimingFunction
 "
     
