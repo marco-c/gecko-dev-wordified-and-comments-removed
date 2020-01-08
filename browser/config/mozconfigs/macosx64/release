@@ -61,6 +61,12 @@ enable
 verify
 -
 mar
+ac_add_options
+-
+-
+enable
+-
+lto
 #
 safeguard
 against
