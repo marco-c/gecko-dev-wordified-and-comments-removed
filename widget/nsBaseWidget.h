@@ -1103,6 +1103,15 @@ DesktopToLayoutDeviceScale
 )
 ;
 }
+mozilla
+:
+:
+DesktopToLayoutDeviceScale
+GetDesktopToDeviceScaleByScreen
+(
+)
+override
+;
 virtual
 void
 ConstrainPosition
