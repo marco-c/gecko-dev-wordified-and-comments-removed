@@ -42,7 +42,10 @@ use
 clip
 :
 :
+{
+ClipDataStore
 ClipStore
+}
 ;
 use
 clip_scroll_tree
@@ -249,6 +252,10 @@ enum
 ChasePrimitive
 {
 Nothing
+Index
+(
+PrimitiveIndex
+)
 LocalRect
 (
 LayoutRect
@@ -499,6 +506,14 @@ transforms
 a
 mut
 TransformPalette
+pub
+clip_data_store
+:
+&
+'
+a
+mut
+ClipDataStore
 }
 pub
 struct
@@ -888,6 +903,11 @@ transform_palette
 &
 mut
 TransformPalette
+clip_data_store
+:
+&
+mut
+ClipDataStore
 )
 -
 >
@@ -1043,6 +1063,7 @@ special_render_passes
 transforms
 :
 transform_palette
+clip_data_store
 }
 ;
 let
@@ -1556,6 +1577,11 @@ scene_properties
 :
 &
 SceneProperties
+clip_data_store
+:
+&
+mut
+ClipDataStore
 )
 -
 >
@@ -1719,6 +1745,7 @@ scene_properties
 &
 mut
 transform_palette
+clip_data_store
 )
 ;
 resource_cache
@@ -1901,6 +1928,7 @@ prim_store
 resource_cache
 use_dual_source_blending
 clip_scroll_tree
+clip_data_store
 }
 ;
 pass
@@ -2031,6 +2059,10 @@ clip_scroll_tree
 :
 &
 ClipScrollTree
+clip_data_store
+:
+&
+ClipDataStore
 )
 -
 >
@@ -2050,6 +2082,7 @@ clip_scroll_tree
 self
 .
 clip_store
+clip_data_store
 )
 }
 }

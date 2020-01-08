@@ -846,6 +846,8 @@ Debug
 Deserialize
 PartialEq
 Serialize
+Eq
+Hash
 )
 ]
 pub
@@ -872,6 +874,8 @@ Debug
 Deserialize
 PartialEq
 Serialize
+Eq
+Hash
 )
 ]
 pub
@@ -2980,6 +2984,8 @@ Debug
 PartialEq
 Serialize
 Deserialize
+Eq
+Hash
 )
 ]
 pub
