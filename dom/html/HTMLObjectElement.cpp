@@ -1339,7 +1339,7 @@ nsAttrValue
 *
 attrVal
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (

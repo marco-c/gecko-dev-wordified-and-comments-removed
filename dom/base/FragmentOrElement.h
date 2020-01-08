@@ -34,7 +34,7 @@ h
 #
 include
 "
-nsAttrAndChildArray
+AttrArray
 .
 h
 "
@@ -925,8 +925,8 @@ class
 :
 ContentUnbinder
 ;
-nsAttrAndChildArray
-mAttrsAndChildren
+AttrArray
+mAttrs
 ;
 }
 ;

@@ -9401,7 +9401,7 @@ attrs
 tmp
 -
 >
-mAttrsAndChildren
+mAttrs
 .
 AttrCount
 (
@@ -9430,7 +9430,7 @@ name
 tmp
 -
 >
-mAttrsAndChildren
+mAttrs
 .
 AttrNameAt
 (
@@ -9452,7 +9452,7 @@ NS_CYCLE_COLLECTION_NOTE_EDGE_NAME
 (
 cb
 "
-mAttrsAndChildren
+mAttrs
 [
 i
 ]
@@ -9515,11 +9515,11 @@ rv
 aDst
 -
 >
-mAttrsAndChildren
+mAttrs
 .
 EnsureCapacityToClone
 (
-mAttrsAndChildren
+mAttrs
 aPreallocateChildren
 )
 ;
@@ -9533,7 +9533,7 @@ uint32_t
 i
 count
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrCount
 (
@@ -9559,7 +9559,7 @@ nsAttrName
 *
 name
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrNameAt
 (
@@ -9571,7 +9571,7 @@ nsAttrValue
 *
 value
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrAt
 (
@@ -10812,7 +10812,7 @@ aNodeSize
 aNodeSize
 +
 =
-mAttrsAndChildren
+mAttrs
 .
 SizeOfExcludingThis
 (

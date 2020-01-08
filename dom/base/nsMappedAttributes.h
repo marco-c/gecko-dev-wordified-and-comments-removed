@@ -7,7 +7,7 @@ nsMappedAttributes_h___
 #
 include
 "
-nsAttrAndChildArray
+AttrArray
 .
 h
 "

@@ -261,7 +261,7 @@ nsAttrValue
 *
 attrMin
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -320,7 +320,7 @@ nsAttrValue
 *
 attrMax
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -396,7 +396,7 @@ nsAttrValue
 *
 attrValue
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -495,7 +495,7 @@ nsAttrValue
 *
 attrLow
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -585,7 +585,7 @@ nsAttrValue
 *
 attrHigh
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -682,7 +682,7 @@ nsAttrValue
 *
 attrOptimum
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (

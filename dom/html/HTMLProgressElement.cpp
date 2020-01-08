@@ -241,7 +241,7 @@ nsAttrValue
 *
 attrValue
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -319,7 +319,7 @@ nsAttrValue
 *
 attrMax
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -419,7 +419,7 @@ nsAttrValue
 *
 attrValue
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (

@@ -20614,7 +20614,7 @@ CancelImageRequests
 aNotify
 )
 ;
-mAttrsAndChildren
+mAttrs
 .
 UpdateMappedAttrRuleMapper
 (
@@ -20673,7 +20673,7 @@ mSrcTriggeringPrincipal
 ;
 }
 }
-mAttrsAndChildren
+mAttrs
 .
 UpdateMappedAttrRuleMapper
 (

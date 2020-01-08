@@ -222,6 +222,11 @@ EXPORTS
 =
 [
 '
+AttrArray
+.
+h
+'
+'
 AutocompleteFieldList
 .
 h
@@ -248,11 +253,6 @@ h
 '
 '
 NodeUbiReporting
-.
-h
-'
-'
-nsAttrAndChildArray
 .
 h
 '
@@ -1242,6 +1242,11 @@ Attr
 cpp
 '
 '
+AttrArray
+.
+cpp
+'
+'
 BarProps
 .
 cpp
@@ -1493,11 +1498,6 @@ cpp
 '
 '
 NodeUbiReporting
-.
-cpp
-'
-'
-nsAttrAndChildArray
 .
 cpp
 '

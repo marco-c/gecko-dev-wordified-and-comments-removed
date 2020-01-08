@@ -4263,7 +4263,7 @@ nsAttrValue
 *
 href
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -4362,7 +4362,7 @@ nullptr
 ;
 href
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -4509,7 +4509,7 @@ nsAttrValue
 *
 target
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (

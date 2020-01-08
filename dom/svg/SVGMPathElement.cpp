@@ -362,7 +362,7 @@ nsGkAtoms
 href
 )
 ?
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -373,7 +373,7 @@ href
 kNameSpaceID_None
 )
 :
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -593,7 +593,7 @@ nsAttrValue
 *
 xlinkHref
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (

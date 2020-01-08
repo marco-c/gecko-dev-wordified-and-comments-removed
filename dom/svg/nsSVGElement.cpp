@@ -1176,7 +1176,7 @@ nsAttrValue
 *
 oldVal
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -1232,7 +1232,7 @@ oldValueSet
 ;
 rv
 =
-mAttrsAndChildren
+mAttrs
 .
 SetAndSwapAttr
 (
@@ -1285,7 +1285,7 @@ aNotify
 MOZ_ASSERT
 (
 !
-mAttrsAndChildren
+mAttrs
 .
 HasMappedAttrs
 (
@@ -5833,7 +5833,7 @@ block
 uint32_t
 attrCount
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrCount
 (
@@ -5898,7 +5898,7 @@ nsAttrName
 *
 attrName
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrNameAt
 (
@@ -6070,7 +6070,7 @@ continue
 nsAutoString
 value
 ;
-mAttrsAndChildren
+mAttrs
 .
 AttrAt
 (
@@ -6387,7 +6387,7 @@ nsAttrValue
 *
 attrValue
 =
-mAttrsAndChildren
+mAttrs
 .
 GetAttr
 (
@@ -6421,7 +6421,7 @@ serializedValue
 bool
 oldValueSet
 ;
-mAttrsAndChildren
+mAttrs
 .
 SetAndSwapAttr
 (
@@ -10948,7 +10948,7 @@ int32_t
 i
 count
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrCount
 (
@@ -10974,7 +10974,7 @@ nsAttrName
 *
 name
 =
-mAttrsAndChildren
+mAttrs
 .
 AttrNameAt
 (

@@ -188,7 +188,7 @@ endif
 #
 endif
 class
-nsAttrAndChildArray
+AttrArray
 ;
 class
 nsAttrChildContentList
@@ -1158,7 +1158,7 @@ nsNodeSupportsWeakRefTearoff
 ;
 friend
 class
-nsAttrAndChildArray
+AttrArray
 ;
 #
 ifdef

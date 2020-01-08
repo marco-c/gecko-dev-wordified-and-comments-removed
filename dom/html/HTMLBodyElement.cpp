@@ -1564,7 +1564,7 @@ rv
 )
 ;
 return
-mAttrsAndChildren
+mAttrs
 .
 ForceMapped
 (
@@ -1638,7 +1638,7 @@ aName
 nsresult
 rv
 =
-mAttrsAndChildren
+mAttrs
 .
 ForceMapped
 (

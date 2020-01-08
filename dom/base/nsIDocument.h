@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsAttrAndChildArray
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -11340,9 +11333,6 @@ nsIObjectLoadingContent
 >
 >
 mPlugins
-;
-nsAttrAndChildArray
-mChildren
 ;
 RefPtr
 <
