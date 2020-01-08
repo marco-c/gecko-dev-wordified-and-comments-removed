@@ -204,7 +204,7 @@ if
 (
 unlikely
 (
-_hb_unsigned_int_mul_overflows
+hb_unsigned_mul_overflows
 (
 size
 sizeof
@@ -267,7 +267,7 @@ if
 (
 unlikely
 (
-_hb_unsigned_int_mul_overflows
+hb_unsigned_mul_overflows
 (
 new_allocated
 sizeof

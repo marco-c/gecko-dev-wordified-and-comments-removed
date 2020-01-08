@@ -8,15 +8,6 @@ private
 hh
 "
 #
-include
-"
-hb
--
-debug
-.
-hh
-"
-#
 define
 HB_SHAPER
 uniscribe

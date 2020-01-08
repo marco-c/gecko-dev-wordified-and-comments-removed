@@ -16,7 +16,7 @@ HarfBuzz
 .
 8
 .
-1
+3
 ]
 [
 https
@@ -485,6 +485,7 @@ mmap
 isatty
 newlocale
 strtod_l
+posix_memalign
 )
 save_libs
 =

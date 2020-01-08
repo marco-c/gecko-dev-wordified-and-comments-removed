@@ -1586,11 +1586,6 @@ HBNODISTHEADERS
 (
 AM_V_GEN
 )
-headers
-=
-"
-^
-"
 (
 srcdir
 )
@@ -1602,6 +1597,7 @@ def
 py
 "
 "
+^
 harfbuzz
 -
 subset
@@ -1614,11 +1610,6 @@ HB_SUBSET_headers
 (
 AM_V_GEN
 )
-headers
-=
-"
-^
-"
 (
 srcdir
 )
@@ -1630,6 +1621,7 @@ def
 py
 "
 "
+^
 harfbuzz
 -
 icu
@@ -1642,11 +1634,6 @@ HB_ICU_headers
 (
 AM_V_GEN
 )
-headers
-=
-"
-^
-"
 (
 srcdir
 )
@@ -1658,6 +1645,7 @@ def
 py
 "
 "
+^
 harfbuzz
 -
 gobject
@@ -1670,11 +1658,6 @@ HB_GOBJECT_headers
 (
 AM_V_GEN
 )
-headers
-=
-"
-^
-"
 (
 srcdir
 )
@@ -1686,6 +1669,7 @@ def
 py
 "
 "
+^
 GENERATORS
 =
 \

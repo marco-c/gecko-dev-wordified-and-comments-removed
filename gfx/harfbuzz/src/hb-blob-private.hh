@@ -13,17 +13,6 @@ private
 .
 hh
 "
-#
-include
-"
-hb
--
-object
--
-private
-.
-hh
-"
 struct
 hb_blob_t
 {

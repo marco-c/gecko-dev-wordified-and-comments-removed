@@ -677,7 +677,7 @@ unsigned
 int
 global_bit_shift
 =
-_hb_popcount
+hb_popcount
 (
 HB_GLYPH_FLAG_DEFINED
 )
@@ -1098,7 +1098,7 @@ bits_needed
 MIN
 (
 8u
-_hb_bit_storage
+hb_bit_storage
 (
 info
 -

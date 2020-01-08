@@ -13,17 +13,6 @@ private
 .
 hh
 "
-#
-include
-"
-hb
--
-object
--
-private
-.
-hh
-"
 struct
 hb_set_t
 {
@@ -407,7 +396,7 @@ i
 pop
 +
 =
-_hb_popcount
+hb_popcount
 (
 v
 [
@@ -847,7 +836,7 @@ elt
 )
 {
 return
-_hb_ctz
+hb_ctz
 (
 elt
 )
@@ -866,7 +855,7 @@ elt
 )
 {
 return
-_hb_bit_storage
+hb_bit_storage
 (
 elt
 )

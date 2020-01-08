@@ -18,15 +18,6 @@ include
 "
 hb
 -
-debug
-.
-hh
-"
-#
-include
-"
-hb
--
 buffer
 -
 private
@@ -1750,8 +1741,9 @@ while
 (
 idx
 >
-=
 num_items
+-
+1
 )
 {
 idx

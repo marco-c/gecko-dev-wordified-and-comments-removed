@@ -12,15 +12,6 @@ include
 "
 hb
 -
-debug
-.
-hh
-"
-#
-include
-"
-hb
--
 ft
 .
 h

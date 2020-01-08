@@ -2940,7 +2940,7 @@ unsigned
 int
 shift
 =
-_hb_ctz
+hb_ctz
 (
 lookup_mask
 )
