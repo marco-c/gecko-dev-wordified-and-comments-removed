@@ -277,6 +277,11 @@ onViewSourceInDebugger
 serviceContainer
 .
 onViewSourceInDebugger
+recordTelemetryEvent
+:
+serviceContainer
+.
+recordTelemetryEvent
 openLink
 :
 serviceContainer
