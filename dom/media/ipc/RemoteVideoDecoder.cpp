@@ -967,17 +967,6 @@ mValue
 aParams
 .
 mOptions
-.
-contains
-(
-CreateDecoderParams
-:
-:
-Option
-:
-:
-HardwareDecoderNotAllowed
-)
 aParams
 .
 mKnowsCompositor

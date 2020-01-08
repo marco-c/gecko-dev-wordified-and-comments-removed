@@ -280,8 +280,13 @@ VideoInfo
 aVideoInfo
 float
 aFramerate
-bool
-aDisallowHWDecoder
+const
+CreateDecoderParams
+:
+:
+OptionSet
+&
+aOptions
 const
 layers
 :
