@@ -44832,7 +44832,10 @@ outline
 mOutlineStyle
 =
 =
-NS_STYLE_BORDER_STYLE_AUTO
+StyleBorderStyle
+:
+:
+Auto
 ;
 if
 (

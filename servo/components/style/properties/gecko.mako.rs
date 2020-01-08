@@ -12583,6 +12583,14 @@ ridge
 inset
 outset
 "
+gecko_enum_prefix
+=
+"
+StyleBorderStyle
+"
+gecko_inexhaustive
+=
+True
 )
 %
 >

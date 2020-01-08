@@ -6041,7 +6041,10 @@ aBorderWidth
 SetBorderStyle
 (
 side
-NS_STYLE_BORDER_STYLE_INSET
+StyleBorderStyle
+:
+:
+Inset
 )
 ;
 }
@@ -8827,7 +8830,10 @@ nsLayoutUtils
 InitDashPattern
 (
 strokeOptions
-NS_STYLE_BORDER_STYLE_DOTTED
+StyleBorderStyle
+:
+:
+Dotted
 )
 ;
 map

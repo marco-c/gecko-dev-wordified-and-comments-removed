@@ -6967,7 +6967,10 @@ nsLayoutUtils
 InitDashPattern
 (
 strokeOptions
-NS_STYLE_BORDER_STYLE_DOTTED
+StyleBorderStyle
+:
+:
+Dotted
 )
 ;
 ColorPattern

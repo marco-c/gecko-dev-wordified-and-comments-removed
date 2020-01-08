@@ -293,7 +293,10 @@ Rect
 &
 aOuterRect
 const
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 *
 aBorderStyles
 const
@@ -433,7 +436,10 @@ mOuterRect
 Rect
 mInnerRect
 ;
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 mBorderStyles
 [
 4
@@ -491,7 +497,10 @@ aSides
 bool
 IsSolidCornerStyle
 (
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 aStyle
 mozilla
 :
@@ -513,7 +522,10 @@ aCorner
 BorderColorStyle
 BorderColorStyleForSolidCorner
 (
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 aStyle
 mozilla
 :

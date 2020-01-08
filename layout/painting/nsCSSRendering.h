@@ -1676,7 +1676,10 @@ DrawTableBorderSegment
 DrawTarget
 &
 aDrawTarget
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 aBorderStyle
 nscolor
 aBorderColor
@@ -1743,7 +1746,10 @@ SolidBeveledBorderSegment
 >
 &
 aSegments
-uint8_t
+mozilla
+:
+:
+StyleBorderStyle
 aBorderStyle
 nscolor
 aBorderColor
