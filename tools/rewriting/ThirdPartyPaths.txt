@@ -785,6 +785,14 @@ toolkit
 /
 crashreporter
 /
+breakpad
+-
+client
+/
+toolkit
+/
+crashreporter
+/
 google
 -
 breakpad
