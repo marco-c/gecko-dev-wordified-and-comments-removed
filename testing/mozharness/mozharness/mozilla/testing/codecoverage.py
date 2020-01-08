@@ -1677,12 +1677,6 @@ per_test_coverage
 and
 not
 is_baseline_test
-and
-self
-.
-_is_linux
-(
-)
 :
             
 env
