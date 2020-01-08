@@ -14632,7 +14632,8 @@ time
 -
 seconds
 "
-60
+-
+1
 )
 ;
 pref
