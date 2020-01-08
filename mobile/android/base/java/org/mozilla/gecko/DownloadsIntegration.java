@@ -600,6 +600,17 @@ return
 false
 ;
 }
+if
+(
+Versions
+.
+feature23Plus
+)
+{
+return
+false
+;
+}
 int
 state
 =
