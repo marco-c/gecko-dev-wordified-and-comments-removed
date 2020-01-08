@@ -254,6 +254,7 @@ render
 const
 {
 dispatch
+networkLocations
 selectedPage
 }
 =
@@ -277,6 +278,7 @@ Sidebar
 (
 {
 dispatch
+networkLocations
 selectedPage
 }
 )
