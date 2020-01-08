@@ -14,6 +14,7 @@ http
 example
 .
 com
+/
 "
 ;
 add_task
@@ -57,7 +58,7 @@ true
 ;
 Assert
 .
-ok
+equal
 (
 gBrowser
 .
@@ -271,7 +272,7 @@ click
 ;
 Assert
 .
-ok
+equal
 (
 Services
 .
