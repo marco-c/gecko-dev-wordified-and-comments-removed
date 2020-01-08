@@ -124,6 +124,7 @@ uint8_t
 Color8
 Color10
 Color12
+Color16
 Sentinel
 }
 ;
