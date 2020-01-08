@@ -2932,10 +2932,6 @@ mIsBlock
 (
 false
 )
-mHasInlineEnds
-(
-false
-)
 mIsPopup
 (
 false
@@ -3130,11 +3126,6 @@ mIsAllInline
 ;
 bool
 mIsBlock
-:
-1
-;
-bool
-mHasInlineEnds
 :
 1
 ;
