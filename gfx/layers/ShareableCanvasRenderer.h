@@ -40,6 +40,13 @@ SurfaceFactory
 ;
 }
 namespace
+gfx
+{
+class
+DrawTarget
+;
+}
+namespace
 layers
 {
 class
