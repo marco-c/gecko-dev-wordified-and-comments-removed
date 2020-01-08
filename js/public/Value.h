@@ -940,6 +940,7 @@ d
 ;
 }
 union
+MOZ_NON_PARAM
 alignas
 (
 8
@@ -3853,7 +3854,6 @@ JSVAL_TAG_PRIVATE_GCTHING
 }
 }
 JS_HAZ_GC_POINTER
-MOZ_NON_PARAM
 ;
 static_assert
 (
