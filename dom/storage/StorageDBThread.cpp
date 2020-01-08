@@ -2282,6 +2282,8 @@ Wait
 IDLE
 )
 ;
+AUTO_PROFILER_THREAD_SLEEP
+;
 lockMonitor
 .
 Wait
