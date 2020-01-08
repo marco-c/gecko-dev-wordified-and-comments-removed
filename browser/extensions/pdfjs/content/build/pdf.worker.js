@@ -610,14 +610,14 @@ pdfjsVersion
 .
 0
 .
-866
+892
 '
 ;
 var
 pdfjsBuild
 =
 '
-0e41eb16
+ec10cae5
 '
 ;
 var
@@ -1644,7 +1644,7 @@ workerVersion
 .
 0
 .
-866
+892
 '
 ;
 if
@@ -155290,7 +155290,7 @@ parseInt
 (
 glyphName
 .
-substr
+substring
 (
 1
 )
@@ -155322,7 +155322,7 @@ parseInt
 (
 glyphName
 .
-substr
+substring
 (
 1
 )
@@ -155357,7 +155357,7 @@ code
 +
 glyphName
 .
-substr
+substring
 (
 1
 )
@@ -164220,7 +164220,7 @@ dstLow
 =
 dstLow
 .
-substr
+substring
 (
 0
 lastByte
@@ -200152,9 +200152,11 @@ parseInt
 (
 nibbles
 .
-substr
+substring
 (
 i
+i
++
 2
 )
 16
@@ -256337,7 +256339,7 @@ hexStr
 =
 name
 .
-substr
+substring
 (
 3
 )
@@ -256362,7 +256364,7 @@ hexStr
 =
 name
 .
-substr
+substring
 (
 1
 )
