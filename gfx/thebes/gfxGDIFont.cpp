@@ -2274,14 +2274,11 @@ status
 %
 d
 "
-NS_ConvertUTF16toUTF8
-(
 mFontEntry
 -
 >
 Name
 (
-)
 )
 .
 get
@@ -2347,11 +2344,8 @@ s
 n
 "
 this
-NS_ConvertUTF16toUTF8
-(
 GetName
 (
-)
 )
 .
 get

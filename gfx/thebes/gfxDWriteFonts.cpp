@@ -492,7 +492,7 @@ PlatformFontList
 >
 FindFontForFamily
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Arial

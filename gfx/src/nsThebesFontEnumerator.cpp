@@ -1103,7 +1103,7 @@ aResult
 =
 nullptr
 ;
-nsAutoString
+nsAutoCString
 defaultFontName
 (
 gfxPlatform
@@ -1232,12 +1232,9 @@ return
 NS_OK
 ;
 }
-nsAutoString
+nsAutoCString
 family
 ;
-nsresult
-rv
-=
 gfxPlatform
 :
 :
@@ -1248,7 +1245,7 @@ GetPlatform
 >
 GetStandardFamilyName
 (
-nsDependentString
+NS_ConvertUTF16toUTF8
 (
 aName
 )
@@ -1257,12 +1254,6 @@ family
 ;
 if
 (
-NS_FAILED
-(
-rv
-)
-|
-|
 family
 .
 IsEmpty

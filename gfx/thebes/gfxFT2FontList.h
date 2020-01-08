@@ -77,7 +77,7 @@ explicit
 FT2FontEntry
 (
 const
-nsAString
+nsACString
 &
 aFaceName
 )
@@ -114,7 +114,7 @@ const
 override
 ;
 const
-nsString
+nsCString
 &
 GetName
 (
@@ -133,7 +133,7 @@ FT2FontEntry
 CreateFontEntry
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -175,7 +175,7 @@ aFilename
 uint8_t
 aIndex
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -399,7 +399,7 @@ explicit
 FT2FontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -447,7 +447,7 @@ gfxFontEntry
 LookupLocalFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -465,7 +465,7 @@ gfxFontEntry
 MakePlatformFont
 (
 const
-nsAString
+nsACString
 &
 aFontName
 WeightRange
@@ -538,7 +538,7 @@ gfxFontFamily
 CreateFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -683,7 +683,7 @@ override
 ;
 nsTHashtable
 <
-nsStringHashKey
+nsCStringHashKey
 >
 mSkipSpaceLookupCheckFamilies
 ;

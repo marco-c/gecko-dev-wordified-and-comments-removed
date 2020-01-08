@@ -1826,7 +1826,7 @@ gfxFontFeatureValueSet
 *
 featureLookup
 const
-nsAString
+nsACString
 &
 aFamily
 const
@@ -2385,7 +2385,7 @@ aFontFeatures
 bool
 aDisableLigatures
 const
-nsAString
+nsACString
 &
 aFamilyName
 bool
@@ -7014,14 +7014,11 @@ time
 \
 n
 "
-NS_ConvertUTF16toUTF8
-(
 mFontEntry
 -
 >
 Name
 (
-)
 )
 .
 get

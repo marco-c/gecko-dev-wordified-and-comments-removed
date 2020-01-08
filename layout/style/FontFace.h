@@ -397,7 +397,7 @@ mFontFaceSet
 bool
 GetFamilyName
 (
-nsString
+nsCString
 &
 aResult
 )

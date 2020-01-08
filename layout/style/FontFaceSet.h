@@ -869,7 +869,7 @@ gfxUserFontEntry
 FindOrCreateUserFontEntryFromFontFace
 (
 const
-nsAString
+nsACString
 &
 aFamilyName
 FontFace

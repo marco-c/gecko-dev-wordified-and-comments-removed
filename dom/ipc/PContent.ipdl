@@ -987,10 +987,10 @@ process
 struct
 FontListEntry
 {
-nsString
+nsCString
 familyName
 ;
-nsString
+nsCString
 faceName
 ;
 nsCString
@@ -1063,7 +1063,7 @@ meaning
 struct
 FontFamilyListEntry
 {
-nsString
+nsCString
 familyName
 ;
 uint8_t

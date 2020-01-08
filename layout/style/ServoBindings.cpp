@@ -5566,7 +5566,7 @@ aFontFeatureValues
 >
 AppendFeatureValueHashEntry
 (
-nsDependentAtomString
+nsAtomCString
 (
 aFamily
 )

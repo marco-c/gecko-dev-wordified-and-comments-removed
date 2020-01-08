@@ -456,7 +456,7 @@ gfxFontEntry
 gfxFontEntry
 (
 const
-nsAString
+nsACString
 &
 aName
 bool
@@ -1083,7 +1083,7 @@ return
 NS_OK
 ;
 }
-nsString
+nsCString
 gfxFontEntry
 :
 :
@@ -1117,7 +1117,7 @@ if
 nameTable
 )
 {
-nsAutoString
+nsAutoCString
 name
 ;
 nsresult
@@ -8617,7 +8617,7 @@ gfxFontFamily
 :
 LocalizedName
 (
-nsAString
+nsACString
 &
 aLocalizedName
 )
@@ -8816,14 +8816,11 @@ int
 (
 script
 )
-NS_ConvertUTF16toUTF8
-(
 fe
 -
 >
 Name
 (
-)
 )
 .
 get
@@ -9155,7 +9152,7 @@ gfxFontFamily
 ReadOtherFamilyNamesForFace
 (
 const
-nsAString
+nsACString
 &
 aFamilyName
 const
@@ -9166,7 +9163,7 @@ uint32_t
 aDataLength
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aOtherFamilyNames
@@ -9385,7 +9382,7 @@ NAME_ID_PREFERRED_FAMILY
 )
 )
 {
-nsAutoString
+nsAutoCString
 otherFamilyName
 ;
 bool
@@ -9481,7 +9478,7 @@ dataLength
 ;
 AutoTArray
 <
-nsString
+nsCString
 4
 >
 otherFamilyNames
@@ -9727,7 +9724,7 @@ bool
 LookForLegacyFamilyName
 (
 const
-nsAString
+nsACString
 &
 aCanonicalName
 const
@@ -9736,7 +9733,7 @@ char
 aNameData
 uint32_t
 aDataLength
-nsAString
+nsACString
 &
 aLegacyName
 )
@@ -10079,7 +10076,7 @@ nameTable
 continue
 ;
 }
-nsAutoString
+nsAutoCString
 legacyName
 ;
 uint32_t
@@ -10190,7 +10187,7 @@ asyncFontLoaderDisabled
 {
 AutoTArray
 <
-nsString
+nsCString
 4
 >
 otherFamilyNames
@@ -10366,7 +10363,7 @@ fe
 continue
 ;
 }
-nsAutoString
+nsAutoCString
 fullname
 psname
 ;
@@ -10624,7 +10621,7 @@ gfxFontFamily
 FindFont
 (
 const
-nsAString
+nsACString
 &
 aPostscriptName
 )

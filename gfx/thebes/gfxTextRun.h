@@ -3909,7 +3909,7 @@ void
 AddPlatformFont
 (
 const
-nsAString
+nsACString
 &
 aName
 nsTArray

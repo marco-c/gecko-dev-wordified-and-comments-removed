@@ -1599,7 +1599,7 @@ LookAndFeel
 :
 FontID
 aSystemFontID
-nsAString
+nsACString
 &
 aSystemFontName
 gfxFontStyle

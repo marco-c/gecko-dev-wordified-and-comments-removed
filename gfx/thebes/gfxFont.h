@@ -2057,7 +2057,7 @@ aFontFeatures
 bool
 aDisableLigatures
 const
-nsAString
+nsACString
 &
 aFamilyName
 bool
@@ -5285,7 +5285,7 @@ TIGHT_HINTED_OUTLINE_EXTENTS
 BoundingBoxType
 ;
 const
-nsString
+nsCString
 &
 GetName
 (

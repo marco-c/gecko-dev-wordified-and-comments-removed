@@ -475,16 +475,10 @@ tag
 axis
 .
 mName
-.
-Assign
-(
-NS_ConvertUTF8toUTF16
-(
+=
 a
 .
 name
-)
-)
 ;
 aAxes
 .

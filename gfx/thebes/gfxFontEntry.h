@@ -521,7 +521,7 @@ explicit
 gfxFontEntry
 (
 const
-nsAString
+nsACString
 &
 aName
 bool
@@ -541,7 +541,7 @@ const
 0
 ;
 const
-nsString
+nsCString
 &
 Name
 (
@@ -553,7 +553,7 @@ mName
 ;
 }
 const
-nsString
+nsCString
 &
 FamilyName
 (
@@ -565,7 +565,7 @@ mFamilyName
 ;
 }
 virtual
-nsString
+nsCString
 RealFaceName
 (
 )
@@ -1416,10 +1416,10 @@ return
 nullptr
 ;
 }
-nsString
+nsCString
 mName
 ;
-nsString
+nsCString
 mFamilyName
 ;
 RefPtr
@@ -2405,7 +2405,7 @@ explicit
 gfxFontFamily
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -2457,7 +2457,7 @@ false
 {
 }
 const
-nsString
+nsCString
 &
 Name
 (
@@ -2471,7 +2471,7 @@ virtual
 void
 LocalizedName
 (
-nsAString
+nsACString
 &
 aLocalizedName
 )
@@ -2747,7 +2747,7 @@ void
 ReadOtherFamilyNamesForFace
 (
 const
-nsAString
+nsACString
 &
 aFamilyName
 const
@@ -2758,7 +2758,7 @@ uint32_t
 aDataLength
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aOtherFamilyNames
@@ -2809,7 +2809,7 @@ gfxFontEntry
 FindFont
 (
 const
-nsAString
+nsACString
 &
 aPostscriptName
 )
@@ -3064,7 +3064,7 @@ true
 }
 }
 }
-nsString
+nsCString
 mName
 ;
 nsTArray
