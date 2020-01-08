@@ -3089,7 +3089,7 @@ ParseNodeKind
 :
 :
 CallImport
-JSOP_NOP
+JSOP_DYNAMIC_IMPORT
 importHolder
 singleArg
 )

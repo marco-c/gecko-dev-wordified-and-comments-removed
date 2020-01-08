@@ -3395,13 +3395,6 @@ data
 module
 ;
 }
-JSScript
-*
-script
-(
-)
-const
-;
 static
 Shape
 *

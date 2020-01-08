@@ -3614,6 +3614,14 @@ JSScript
 script
 )
 ;
+Value
+FindScriptOrModulePrivateForScript
+(
+JSScript
+*
+script
+)
+;
 ModuleEnvironmentObject
 *
 GetModuleEnvironmentForScript

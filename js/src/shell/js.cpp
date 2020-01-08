@@ -25209,7 +25209,7 @@ true
 static
 JSObject
 *
-CallModuleResolveHook
+ShellModuleResolveHook
 (
 JSContext
 *
@@ -63359,7 +63359,7 @@ cx
 runtime
 (
 )
-CallModuleResolveHook
+ShellModuleResolveHook
 )
 ;
 JS
