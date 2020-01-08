@@ -320,6 +320,10 @@ DOM_WEBIDL_PREF
 (
 PerformanceObserverEnabled
 )
+DOM_WEBIDL_PREF
+(
+SchedulerTimingEnabled
+)
 DOM_UINT32_PREF
 (
 WorkerCancelingTimeoutMillis

@@ -1557,6 +1557,15 @@ browser
 ini
 '
 '
+browser
+/
+perfmetrics
+/
+browser
+.
+ini
+'
+'
 mochitest
 /
 ajax

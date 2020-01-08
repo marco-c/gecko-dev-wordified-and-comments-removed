@@ -28,6 +28,12 @@ DumpEnabled
 (
 )
 ;
+static
+bool
+SchedulerTimingEnabled
+(
+)
+;
 #
 define
 DOM_PREF

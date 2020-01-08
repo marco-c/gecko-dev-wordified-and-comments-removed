@@ -2330,6 +2330,14 @@ processes
 /
 [
 Throws
+Func
+=
+"
+DOMPrefs
+:
+:
+SchedulerTimingEnabled
+"
 ]
 Promise
 <
