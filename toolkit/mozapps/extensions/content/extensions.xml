@@ -5584,6 +5584,11 @@ control
 -
 container
 "
+flex
+=
+"
+1
+"
 >
 <
 xul
@@ -5878,6 +5883,11 @@ addon
 -
 control
 state
+"
+flex
+=
+"
+1
 "
 tooltiptext
 =
