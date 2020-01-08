@@ -647,8 +647,6 @@ const
 PaymentDetailsUpdate
 &
 aDetails
-bool
-aDeferredShow
 )
 ;
 void
@@ -656,8 +654,6 @@ AbortUpdate
 (
 nsresult
 aRv
-bool
-aDeferredShow
 )
 ;
 void
@@ -883,9 +879,6 @@ mUpdating
 ;
 bool
 mRequestShipping
-;
-bool
-mDeferredShow
 ;
 nsresult
 mUpdateError

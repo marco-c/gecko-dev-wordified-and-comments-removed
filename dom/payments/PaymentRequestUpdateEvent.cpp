@@ -296,7 +296,6 @@ mRequest
 AbortUpdate
 (
 NS_ERROR_TYPE_ERR
-false
 )
 ;
 JS_ClearPendingException
@@ -333,7 +332,6 @@ mRequest
 AbortUpdate
 (
 rv
-false
 )
 ;
 return
@@ -350,7 +348,6 @@ UpdatePayment
 (
 aCx
 details
-false
 )
 )
 )
@@ -361,7 +358,6 @@ mRequest
 AbortUpdate
 (
 NS_ERROR_DOM_ABORT_ERR
-false
 )
 ;
 return
@@ -413,7 +409,6 @@ mRequest
 AbortUpdate
 (
 NS_ERROR_DOM_ABORT_ERR
-false
 )
 ;
 mWaitForUpdate

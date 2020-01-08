@@ -316,6 +316,9 @@ IPCPaymentShowActionRequest
 nsString
 requestId
 ;
+bool
+isUpdating
+;
 }
 ;
 struct

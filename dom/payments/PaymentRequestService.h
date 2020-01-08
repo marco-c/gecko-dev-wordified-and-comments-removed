@@ -166,6 +166,8 @@ const
 nsAString
 &
 aRequestId
+bool
+aIsUpdating
 )
 ;
 bool

@@ -3459,10 +3459,6 @@ mRequestShipping
 (
 false
 )
-mDeferredShow
-(
-false
-)
 mUpdateError
 (
 NS_OK
@@ -3920,10 +3916,6 @@ mUpdating
 =
 true
 ;
-mDeferredShow
-=
-true
-;
 }
 RefPtr
 <
@@ -4364,12 +4356,7 @@ manager
 AbortPayment
 (
 this
-mDeferredShow
 )
-;
-mDeferredShow
-=
-false
 ;
 if
 (
@@ -4522,8 +4509,6 @@ const
 PaymentDetailsUpdate
 &
 aDetails
-bool
-aDeferredShow
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -4581,7 +4566,6 @@ aCx
 this
 aDetails
 mRequestShipping
-aDeferredShow
 )
 ;
 if
@@ -4611,8 +4595,6 @@ AbortUpdate
 (
 nsresult
 aRv
-bool
-aDeferredShow
 )
 {
 MOZ_ASSERT
@@ -4661,7 +4643,6 @@ manager
 AbortPayment
 (
 this
-aDeferredShow
 )
 ;
 if
@@ -5438,7 +5419,6 @@ aValue
 AbortUpdate
 (
 NS_ERROR_DOM_TYPE_ERR
-mDeferredShow
 )
 ;
 JS_ClearPendingException
@@ -5469,7 +5449,6 @@ rv
 AbortUpdate
 (
 rv
-mDeferredShow
 )
 ;
 return
@@ -5483,7 +5462,6 @@ UpdatePayment
 (
 aCx
 details
-mDeferredShow
 )
 )
 )
@@ -5491,16 +5469,11 @@ mDeferredShow
 AbortUpdate
 (
 NS_ERROR_DOM_ABORT_ERR
-mDeferredShow
 )
 ;
 return
 ;
 }
-mDeferredShow
-=
-false
-;
 }
 void
 PaymentRequest
@@ -5524,11 +5497,6 @@ Value
 aValue
 )
 {
-MOZ_ASSERT
-(
-mDeferredShow
-)
-;
 mUpdating
 =
 false
@@ -5536,12 +5504,7 @@ false
 AbortUpdate
 (
 NS_ERROR_DOM_ABORT_ERR
-mDeferredShow
 )
-;
-mDeferredShow
-=
-false
 ;
 }
 void
