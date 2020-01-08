@@ -885,8 +885,15 @@ generate
 dependencies
 directly
 .
-ifndef
+ifeq
+(
+(
 CLANG_CL
+)
+(
+MOZ_USING_SCCACHE
+)
+)
 CC_WRAPPER
 ?
 =
@@ -906,6 +913,8 @@ cl
 endif
 #
 CLANG_CL
+/
+MOZ_USING_SCCACHE
 endif
 #
 _MSC_VER
