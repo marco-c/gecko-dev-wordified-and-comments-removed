@@ -1638,6 +1638,36 @@ function
 )
 {
               
+if
+(
+dialog_type
+=
+=
+'
+prompt
+'
+)
+{
+                
+window
+.
+dialog_return_value
+=
+window
+[
+dialog_type
+]
+(
+text
+'
+'
+)
+;
+              
+}
+else
+{
+                
 window
 .
 dialog_return_value
@@ -1650,6 +1680,8 @@ dialog_type
 text
 )
 ;
+              
+}
             
 }
 0
