@@ -961,14 +961,14 @@ run
 run
 [
 '
-command
+mach
 '
 ]
 =
 run
 [
 '
-command
+mach
 '
 ]
 .
