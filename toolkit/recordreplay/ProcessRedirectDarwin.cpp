@@ -3655,11 +3655,17 @@ Join
 (
 )
 ;
+if
+(
+ptr
+)
+{
 *
 ptr
 =
 nullptr
 ;
+}
 aArguments
 -
 >
