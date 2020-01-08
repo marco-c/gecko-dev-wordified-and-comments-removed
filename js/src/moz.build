@@ -1932,6 +1932,13 @@ cpp
 '
 frontend
 /
+NameOpEmitter
+.
+cpp
+'
+'
+frontend
+/
 ParseNode
 .
 cpp
