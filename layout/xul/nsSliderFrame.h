@@ -692,6 +692,7 @@ bool
 isDraggingThumb
 (
 )
+const
 ;
 void
 SuppressDisplayport
