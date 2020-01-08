@@ -276,6 +276,11 @@ FStream
 h
 '
 '
+FunctionTypeTraits
+.
+h
+'
+'
 GuardObjects
 .
 h
