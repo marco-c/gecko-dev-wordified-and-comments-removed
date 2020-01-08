@@ -2133,6 +2133,7 @@ referrer
 )
 ;
 }
+await
 gDownloadPlatform
 .
 downloadDone
