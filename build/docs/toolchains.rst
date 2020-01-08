@@ -454,9 +454,9 @@ create
 zip
 vs2017_15
 .
-8
+6
 .
-1
+0
 The
 produced
 archive
