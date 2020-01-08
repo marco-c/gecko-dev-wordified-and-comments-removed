@@ -5335,7 +5335,7 @@ handler
 bool
 (
 *
-globalHasExclusiveExpandos
+compartmentHasExclusiveExpandos
 )
 (
 JSObject
