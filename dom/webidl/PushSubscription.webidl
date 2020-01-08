@@ -195,7 +195,7 @@ dom
 DOMPrefs
 :
 :
-PushEnabled
+dom_push_enabled
 "
 ChromeConstructor
 (
