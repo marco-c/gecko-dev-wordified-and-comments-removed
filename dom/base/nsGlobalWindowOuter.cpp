@@ -22875,6 +22875,17 @@ state
 aState
 ;
 }
+if
+(
+state
+=
+=
+oldState
+)
+{
+return
+;
+}
 eventSink
 -
 >
