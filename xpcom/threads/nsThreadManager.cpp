@@ -416,14 +416,6 @@ nsThread
 aData
 )
 ;
-MOZ_ASSERT
-(
-thread
--
->
-mHasTLSEntry
-)
-;
 get
 (
 )
@@ -435,6 +427,14 @@ thread
 true
 )
 ;
+if
+(
+thread
+-
+>
+mHasTLSEntry
+)
+{
 thread
 -
 >
@@ -449,6 +449,7 @@ Release
 (
 )
 ;
+}
 }
 NS_IMETHODIMP_
 (
