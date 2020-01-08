@@ -2290,9 +2290,8 @@ IA2_TEXT_BOUNDARY_LINE
 ;
 default
 :
-MOZ_RELEASE_ASSERT
+MOZ_CRASH
 (
-false
 )
 ;
 }
@@ -3103,9 +3102,8 @@ IA2_COORDTYPE_PARENT_RELATIVE
 }
 else
 {
-MOZ_RELEASE_ASSERT
+MOZ_CRASH
 (
-false
 "
 unsupported
 coord
