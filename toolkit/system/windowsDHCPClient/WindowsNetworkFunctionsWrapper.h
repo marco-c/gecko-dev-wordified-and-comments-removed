@@ -114,6 +114,7 @@ aRequestIdStr
 ;
 protected
 :
+virtual
 ~
 WindowsNetworkFunctionsWrapper
 (
