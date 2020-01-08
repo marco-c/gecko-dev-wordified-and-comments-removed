@@ -4261,6 +4261,13 @@ for
 StrongRuleNode
 {
 }
+unsafe
+impl
+Sync
+for
+StrongRuleNode
+{
+}
 #
 [
 cfg
