@@ -1,3 +1,18 @@
+if
+(
+!
+(
+'
+oomTest
+'
+in
+this
+)
+)
+quit
+(
+)
+;
 g
 =
 newGlobal
@@ -33,6 +48,7 @@ function
 (
 frame
 )
+{
 frame
 .
 eval
@@ -40,6 +56,7 @@ eval
 "
 "
 )
+}
 }
 +
 "

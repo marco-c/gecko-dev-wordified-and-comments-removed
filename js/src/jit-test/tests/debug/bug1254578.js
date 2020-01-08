@@ -9,10 +9,8 @@ in
 this
 )
 )
-throw
+quit
 (
-new
-ReferenceError
 )
 ;
 var

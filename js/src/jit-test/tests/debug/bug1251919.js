@@ -9,15 +9,8 @@ in
 this
 )
 )
-throw
-new
-Error
+quit
 (
-"
-out
-of
-memory
-"
 )
 ;
 fullcompartmentchecks

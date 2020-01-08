@@ -9,13 +9,8 @@ in
 this
 )
 )
-throw
-new
-Error
+quit
 (
-"
-boom
-"
 )
 ;
 evaluate

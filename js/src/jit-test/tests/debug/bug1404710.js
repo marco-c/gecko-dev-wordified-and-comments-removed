@@ -9,8 +9,7 @@ in
 this
 )
 )
-throw
-InternalError
+quit
 (
 )
 ;
