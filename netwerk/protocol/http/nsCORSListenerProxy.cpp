@@ -4148,7 +4148,7 @@ mRequestingPrincipal
 CheckMayLoad
 (
 uri
-false
+true
 false
 )
 )
@@ -4169,7 +4169,7 @@ mRequestingPrincipal
 CheckMayLoad
 (
 originalURI
-false
+true
 false
 )
 )
