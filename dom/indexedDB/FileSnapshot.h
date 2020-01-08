@@ -344,6 +344,17 @@ aType
 )
 ;
 }
+virtual
+void
+GetBlobImplType
+(
+nsAString
+&
+aBlobImplType
+)
+const
+override
+;
 size_t
 GetAllocationSize
 (

@@ -211,6 +211,12 @@ aParent
 new
 BaseBlobImpl
 (
+NS_LITERAL_STRING
+(
+"
+BaseBlobImpl
+"
+)
 aName
 aContentType
 aLength

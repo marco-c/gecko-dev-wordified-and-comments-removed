@@ -384,6 +384,14 @@ nsAString
 aType
 )
 ;
+void
+GetBlobImplType
+(
+nsAString
+&
+aBlobImplType
+)
+;
 already_AddRefed
 <
 Blob

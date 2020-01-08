@@ -42,6 +42,12 @@ aContentType
 :
 BaseBlobImpl
 (
+NS_LITERAL_STRING
+(
+"
+EmptyBlobImpl
+"
+)
 aContentType
 0
 )
@@ -67,6 +73,12 @@ aLastModifiedDate
 :
 BaseBlobImpl
 (
+NS_LITERAL_STRING
+(
+"
+EmptyBlobImpl
+"
+)
 aName
 aContentType
 0
