@@ -370,6 +370,10 @@ BeginTransactionWithTarget
 gfxContext
 *
 aTarget
+const
+nsCString
+&
+aURL
 )
 override
 {
@@ -1120,6 +1124,10 @@ virtual
 bool
 BeginTransaction
 (
+const
+nsCString
+&
+aURL
 )
 override
 ;

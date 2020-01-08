@@ -808,6 +808,10 @@ BeginTransactionWithTarget
 gfxContext
 *
 aTarget
+const
+nsCString
+&
+aURL
 )
 {
 #
@@ -891,6 +895,10 @@ TimeStamp
 Now
 (
 )
+;
+mURL
+=
+aURL
 ;
 #
 ifdef
@@ -1147,12 +1155,17 @@ ClientLayerManager
 :
 BeginTransaction
 (
+const
+nsCString
+&
+aURL
 )
 {
 return
 BeginTransactionWithTarget
 (
 nullptr
+aURL
 )
 ;
 }
@@ -1736,6 +1749,7 @@ if
 (
 BeginTransaction
 (
+mURL
 )
 )
 {
@@ -3161,6 +3175,7 @@ mPaintSequenceNumber
 mIsRepeatTransaction
 refreshStart
 mTransactionStart
+mURL
 &
 sent
 )

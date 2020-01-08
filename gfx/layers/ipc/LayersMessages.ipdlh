@@ -2785,6 +2785,9 @@ refreshStart
 TimeStamp
 transactionStart
 ;
+nsCString
+url
+;
 TimeStamp
 fwdTime
 ;

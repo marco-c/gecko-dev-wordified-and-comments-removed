@@ -1896,6 +1896,10 @@ BasicLayerManager
 :
 BeginTransaction
 (
+const
+nsCString
+&
+aURL
 )
 {
 mInTransaction
@@ -1910,6 +1914,7 @@ return
 BeginTransactionWithTarget
 (
 mDefaultTarget
+aURL
 )
 ;
 }
@@ -1922,6 +1927,10 @@ BeginTransactionWithTarget
 gfxContext
 *
 aTarget
+const
+nsCString
+&
+aURL
 )
 {
 mInTransaction

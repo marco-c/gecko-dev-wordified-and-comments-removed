@@ -3085,6 +3085,10 @@ mozilla
 TimeStamp
 &
 aTransactionStart
+const
+nsCString
+&
+aURL
 bool
 *
 aSent
@@ -4101,6 +4105,14 @@ transactionStart
 )
 =
 aTransactionStart
+;
+info
+.
+url
+(
+)
+=
+aURL
 ;
 #
 if

@@ -11020,12 +11020,16 @@ SetDefaultTarget
 aContext
 )
 ;
+nsCString
+none
+;
 aManager
 -
 >
 BeginTransactionWithTarget
 (
 aContext
+none
 )
 ;
 bool

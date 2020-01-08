@@ -110,6 +110,10 @@ override
 bool
 BeginTransaction
 (
+const
+nsCString
+&
+aURL
 )
 override
 ;

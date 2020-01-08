@@ -4945,6 +4945,10 @@ TimeStamp
 &
 aTxnStartTime
 const
+nsCString
+&
+aTxnURL
+const
 TimeStamp
 &
 aFwdTime
@@ -5349,6 +5353,7 @@ aTransactionId
 aContainsSVGGroup
 aRefreshStartTime
 aTxnStartTime
+aTxnURL
 aFwdTime
 mIsFirstPaint
 )
@@ -5512,6 +5517,10 @@ const
 TimeStamp
 &
 aTxnStartTime
+const
+nsCString
+&
+aTxnURL
 const
 TimeStamp
 &
@@ -5820,6 +5829,7 @@ aTransactionId
 false
 aRefreshStartTime
 aTxnStartTime
+aTxnURL
 aFwdTime
 false
 scheduleComposite
@@ -8910,6 +8920,10 @@ TimeStamp
 &
 aTxnStartTime
 const
+nsCString
+&
+aTxnURL
+const
 TimeStamp
 &
 aFwdTime
@@ -8941,6 +8955,7 @@ aTransactionId
 aContainsSVGGroup
 aRefreshStartTime
 aTxnStartTime
+aTxnURL
 aFwdTime
 aIsFirstPaint
 aUseForTelemetry

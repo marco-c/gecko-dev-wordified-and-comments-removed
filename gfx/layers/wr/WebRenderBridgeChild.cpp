@@ -503,6 +503,10 @@ mozilla
 TimeStamp
 &
 aTxnStartTime
+const
+nsCString
+&
+aTxnURL
 )
 {
 MOZ_ASSERT
@@ -637,6 +641,7 @@ mIdNamespace
 aContainsSVGGroup
 aRefreshStartTime
 aTxnStartTime
+aTxnURL
 fwdTime
 )
 ;
@@ -698,6 +703,10 @@ mozilla
 TimeStamp
 &
 aTxnStartTime
+const
+nsCString
+&
+aTxnURL
 )
 {
 MOZ_ASSERT
@@ -794,6 +803,7 @@ largeShmems
 mIdNamespace
 aRefreshStartTime
 aTxnStartTime
+aTxnURL
 fwdTime
 )
 ;

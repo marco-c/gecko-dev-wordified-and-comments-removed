@@ -1018,6 +1018,10 @@ LayerManagerComposite
 :
 BeginTransaction
 (
+const
+nsCString
+&
+aURL
 )
 {
 mInTransaction

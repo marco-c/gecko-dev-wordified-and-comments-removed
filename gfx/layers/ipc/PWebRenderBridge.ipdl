@@ -484,6 +484,8 @@ TimeStamp
 refreshStartTime
 TimeStamp
 txnStartTime
+nsCString
+txnURL
 TimeStamp
 fwdTime
 )
@@ -527,6 +529,8 @@ TimeStamp
 refreshStartTime
 TimeStamp
 txnStartTime
+nsCString
+txnURL
 TimeStamp
 fwdTime
 )

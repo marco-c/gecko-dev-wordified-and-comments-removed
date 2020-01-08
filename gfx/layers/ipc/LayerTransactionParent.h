@@ -312,6 +312,10 @@ TimeStamp
 &
 aTxnStartTime
 const
+nsCString
+&
+aURL
+const
 TimeStamp
 &
 aFwdTime
@@ -328,6 +332,10 @@ aRefreshStartTime
 mTxnStartTime
 =
 aTxnStartTime
+;
+mTxnURL
+=
+aURL
 ;
 mFwdTime
 =
@@ -975,6 +983,9 @@ mTxnStartTime
 ;
 TimeStamp
 mFwdTime
+;
+nsCString
+mTxnURL
 ;
 bool
 mDestroyed
