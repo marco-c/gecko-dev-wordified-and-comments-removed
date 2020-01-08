@@ -744,6 +744,13 @@ this
 element
 .
 style
+&
+&
+this
+.
+element
+.
+style
 [
 name
 ]
