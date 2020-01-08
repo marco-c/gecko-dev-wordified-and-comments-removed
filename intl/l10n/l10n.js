@@ -198,7 +198,6 @@ l10n
 new
 DOMLocalization
 (
-window
 resourceIds
 )
 ;
