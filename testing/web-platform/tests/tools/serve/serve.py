@@ -965,6 +965,23 @@ global_type
 =
 None
     
+headers
+=
+[
+(
+'
+Content
+-
+Type
+'
+'
+text
+/
+html
+'
+)
+]
+    
 def
 check_exposure
 (
