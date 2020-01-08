@@ -934,9 +934,6 @@ this
 traits
 =
 {
-evaluateJSAsync
-:
-true
 transferredResponseSize
 :
 true
