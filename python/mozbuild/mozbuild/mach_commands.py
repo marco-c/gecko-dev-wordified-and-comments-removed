@@ -15315,6 +15315,12 @@ TOOLS_CHECKER_FAILED_FILE
 =
 8
         
+self
+.
+TOOLS_CHECKER_LIST_EMPTY
+=
+9
+        
 if
 intree_tool
 :
@@ -15689,6 +15695,8 @@ platform
 )
             
 return
+self
+.
 TOOLS_UNSUPORTED_PLATFORM
         
 import
@@ -16331,7 +16339,6 @@ list
 is
 empty
 !
-.
 "
 )
             
@@ -17678,7 +17685,7 @@ check
 return
 self
 .
-CHECKER_RETURNED_NO_ISSUES
+TOOLS_CHECKER_RETURNED_NO_ISSUES
         
 if
 self
