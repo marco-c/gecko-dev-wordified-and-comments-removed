@@ -1266,6 +1266,7 @@ i
 ;
 }
 }
+}
 static
 RefPtr
 <
@@ -2823,6 +2824,13 @@ return
 ret
 ;
 }
+}
+}
+extern
+"
+C
+"
+{
 bool
 wr_moz2d_render_cb
 (
@@ -2936,7 +2944,5 @@ output
 )
 )
 ;
-}
-}
 }
 }
