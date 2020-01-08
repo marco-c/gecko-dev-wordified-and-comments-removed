@@ -25302,7 +25302,7 @@ true
             
 }
             
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -26432,7 +26432,7 @@ with
 it
 .
             
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -27094,7 +27094,7 @@ temp
 )
 ;
                 
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -36696,7 +36696,7 @@ cx
 getPromiseGlobal
 }
               
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -51764,7 +51764,7 @@ CGGeneric
 "
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
@@ -53168,7 +53168,7 @@ our
 slotStorage
 .
                   
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -73825,7 +73825,7 @@ deletes
 them
 .
               
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -78668,7 +78668,7 @@ proxy
 )
 ;
             
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -87215,7 +87215,7 @@ pass
 it
 .
                 
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -114492,7 +114492,7 @@ side
 effects
 .
             
-JSAutoRealmAllowCCW
+JSAutoRealm
 tempRealm
 (
 cx
@@ -114611,7 +114611,7 @@ false
 )
 ;
             
-JSAutoRealmAllowCCW
+JSAutoRealm
 reflectorRealm
 (
 cx
