@@ -64,3 +64,10 @@ global
 netError
 .
 xhtml
+content
+/
+global
+/
+netError
+.
+js
