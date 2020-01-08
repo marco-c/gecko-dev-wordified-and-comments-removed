@@ -1342,10 +1342,7 @@ isinstance
 self
 .
 content
-(
 binary_type
-text_type
-)
 )
 :
             
@@ -1353,6 +1350,28 @@ yield
 self
 .
 content
+        
+elif
+isinstance
+(
+self
+.
+content
+text_type
+)
+:
+            
+yield
+self
+.
+content
+.
+encode
+(
+self
+.
+encoding
+)
         
 elif
 hasattr
