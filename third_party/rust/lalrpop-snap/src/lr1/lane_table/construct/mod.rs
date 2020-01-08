@@ -14,7 +14,7 @@ ena
 unify
 :
 :
-UnificationTable
+InPlaceUnificationTable
 ;
 use
 grammar
@@ -826,7 +826,7 @@ let
 mut
 unify
 =
-UnificationTable
+InPlaceUnificationTable
 :
 :
 <
