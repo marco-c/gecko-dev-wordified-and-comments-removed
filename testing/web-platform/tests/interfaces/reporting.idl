@@ -256,6 +256,10 @@ message
 ;
 DOMString
 group
+=
+"
+default
+"
 ;
 }
 ;
