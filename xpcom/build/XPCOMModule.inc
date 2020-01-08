@@ -8,7 +8,7 @@ Create
 Module
 :
 :
-ALLOW_IN_GPU_AND_VR_PROCESS
+ALLOW_IN_GPU_PROCESS
 )
 COMPONENT_M
 (
@@ -21,14 +21,6 @@ Module
 :
 :
 ALLOW_IN_GPU_PROCESS
-)
-COMPONENT
-(
-ERRORSERVICE
-nsErrorService
-:
-:
-Create
 )
 COMPONENT_M
 (
@@ -103,7 +95,7 @@ Create
 Module
 :
 :
-ALLOW_IN_GPU_AND_VR_PROCESS
+ALLOW_IN_GPU_PROCESS
 )
 COMPONENT_M
 (

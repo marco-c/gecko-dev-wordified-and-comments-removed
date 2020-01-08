@@ -166,7 +166,7 @@ h
 #
 include
 "
-nsIErrorService
+nsErrorService
 .
 h
 "
@@ -5302,9 +5302,11 @@ nsIErrorService
 >
 errorService
 =
-do_GetService
+nsErrorService
+:
+:
+GetOrCreate
 (
-NS_ERRORSERVICE_CONTRACTID
 )
 ;
 if
@@ -5347,9 +5349,11 @@ nsIErrorService
 >
 errorService
 =
-do_GetService
+nsErrorService
+:
+:
+GetOrCreate
 (
-NS_ERRORSERVICE_CONTRACTID
 )
 ;
 if
