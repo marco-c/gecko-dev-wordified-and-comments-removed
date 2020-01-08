@@ -394,9 +394,11 @@ cx
 fun
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 script
 -
@@ -465,6 +467,7 @@ maybeScript
 (
 )
 )
+{
 lazyScript
 -
 >
@@ -480,6 +483,7 @@ this
 )
 )
 ;
+}
 }
 return
 fun
@@ -514,10 +518,12 @@ isInterpretedLazy
 (
 )
 )
+{
 functionDelazifying
 (
 )
 ;
+}
 }
 inline
 JSFunction
@@ -934,9 +940,11 @@ environmentShape
 (
 )
 )
+{
 return
 envShape
 ;
+}
 if
 (
 js
@@ -950,6 +958,7 @@ maybeNamedLambdaScope
 (
 )
 )
+{
 return
 namedLambdaScope
 -
@@ -958,6 +967,7 @@ environmentShape
 (
 )
 ;
+}
 }
 else
 if
@@ -1037,6 +1047,7 @@ hasBaselineScript
 (
 )
 )
+{
 js
 :
 :
@@ -1054,6 +1065,7 @@ zone
 baseline
 )
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -1098,9 +1110,11 @@ analyzedArgsUsage
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 js
 :

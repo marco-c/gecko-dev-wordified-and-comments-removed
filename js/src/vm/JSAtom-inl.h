@@ -96,6 +96,7 @@ index
 =
 JSID_INT_MAX
 )
+{
 return
 INT_TO_JSID
 (
@@ -105,6 +106,7 @@ index
 )
 )
 ;
+}
 return
 JSID_FROM_BITS
 (
@@ -152,6 +154,7 @@ isInt32
 (
 )
 )
+{
 i
 =
 v
@@ -160,6 +163,7 @@ toInt32
 (
 )
 ;
+}
 else
 if
 (
@@ -186,9 +190,11 @@ toDouble
 i
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -197,9 +203,11 @@ INT_FITS_IN_JSID
 i
 )
 )
+{
 return
 false
 ;
+}
 *
 id
 =
@@ -282,9 +290,11 @@ v
 id
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 v
@@ -410,9 +420,11 @@ address
 )
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 v
@@ -459,9 +471,11 @@ if
 !
 atom
 )
+{
 return
 false
 ;
+}
 idp
 .
 set
@@ -635,12 +649,14 @@ JSID_IS_STRING
 id
 )
 )
+{
 return
 JSID_TO_ATOM
 (
 id
 )
 ;
+}
 if
 (
 MOZ_LIKELY
@@ -651,6 +667,7 @@ id
 )
 )
 )
+{
 return
 Int32ToString
 <
@@ -664,6 +681,7 @@ id
 )
 )
 ;
+}
 RootedValue
 idv
 (
@@ -692,9 +710,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 return
 str
 -

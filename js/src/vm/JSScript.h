@@ -1568,11 +1568,13 @@ refs
 =
 0
 )
+{
 js_delete
 (
 this
 )
 ;
+}
 }
 MOZ_MUST_USE
 bool
@@ -2347,6 +2349,7 @@ if
 (
 ss
 )
+{
 ss
 -
 >
@@ -2354,6 +2357,7 @@ decref
 (
 )
 ;
+}
 }
 void
 reset
@@ -2367,6 +2371,7 @@ if
 (
 newss
 )
+{
 newss
 -
 >
@@ -2374,10 +2379,12 @@ incref
 (
 )
 ;
+}
 if
 (
 ss
 )
+{
 ss
 -
 >
@@ -2385,6 +2392,7 @@ decref
 (
 )
 ;
+}
 ss
 =
 newss
@@ -2585,9 +2593,11 @@ isUndefined
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 value
 .
@@ -2839,11 +2849,13 @@ remain
 =
 0
 )
+{
 js_free
 (
 this
 )
 ;
+}
 }
 size_t
 dataLength
@@ -2924,9 +2936,11 @@ if
 !
 natoms_
 )
+{
 return
 nullptr
 ;
+}
 return
 reinterpret_cast
 <
@@ -3142,9 +3156,11 @@ natoms
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 entry
@@ -3162,9 +3178,11 @@ codeLength
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 entry
@@ -3182,9 +3200,11 @@ numNotes
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 mozilla
 :
@@ -4091,9 +4111,11 @@ if
 !
 scriptData_
 )
+{
 return
 nullptr
 ;
+}
 return
 scriptData_
 -
@@ -4342,6 +4364,7 @@ FunctionScope
 (
 )
 )
+{
 return
 bodyScope
 (
@@ -4362,6 +4385,7 @@ nextFrameSlot
 (
 )
 ;
+}
 if
 (
 bodyScope
@@ -4379,6 +4403,7 @@ ModuleScope
 (
 )
 )
+{
 return
 bodyScope
 (
@@ -4399,6 +4424,7 @@ nextFrameSlot
 (
 )
 ;
+}
 return
 0
 ;
@@ -4444,6 +4470,7 @@ FunctionScope
 (
 )
 )
+{
 return
 bodyScope
 (
@@ -4464,6 +4491,7 @@ numPositionalFormalParameters
 (
 )
 ;
+}
 return
 0
 ;
@@ -4512,9 +4540,11 @@ FunctionScope
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 scope
 -
@@ -6082,6 +6112,7 @@ FunctionScope
 (
 )
 )
+{
 return
 bodyScope
 (
@@ -6102,6 +6133,7 @@ canonicalFunction
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -6139,6 +6171,7 @@ ModuleScope
 (
 )
 )
+{
 return
 bodyScope
 (
@@ -6159,6 +6192,7 @@ module
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -6471,9 +6505,11 @@ isForEval
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 bodyScope
 (
@@ -6726,6 +6762,7 @@ ScopeKind
 :
 FunctionBodyVar
 )
+{
 return
 &
 scope
@@ -6741,6 +6778,7 @@ VarScope
 (
 )
 ;
+}
 }
 MOZ_CRASH
 (
@@ -6815,9 +6853,11 @@ hasEnvironment
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -8126,11 +8166,13 @@ functionNonDelazifying
 (
 )
 )
+{
 return
 functionNonDelazifying
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -8259,9 +8301,11 @@ length
 >
 3
 )
+{
 return
 false
 ;
+}
 jsbytecode
 *
 pc
@@ -8286,10 +8330,12 @@ pc
 =
 JSOP_FALSE
 )
+{
 +
 +
 pc
 ;
+}
 return
 JSOp
 (

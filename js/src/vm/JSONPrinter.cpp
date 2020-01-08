@@ -66,11 +66,13 @@ if
 (
 dtoaState_
 )
+{
 DestroyDtoaState
 (
 dtoaState_
 )
 ;
+}
 }
 void
 JSONPrinter
@@ -113,6 +115,7 @@ i
 +
 +
 )
+{
 out_
 .
 printf
@@ -121,6 +124,7 @@ printf
 "
 )
 ;
+}
 }
 void
 JSONPrinter
@@ -139,6 +143,7 @@ if
 !
 first_
 )
+{
 out_
 .
 printf
@@ -147,6 +152,7 @@ printf
 "
 )
 ;
+}
 indent
 (
 )
@@ -443,6 +449,7 @@ if
 !
 first_
 )
+{
 out_
 .
 printf
@@ -451,6 +458,7 @@ printf
 "
 )
 ;
+}
 out_
 .
 printf
@@ -535,6 +543,7 @@ if
 !
 first_
 )
+{
 out_
 .
 printf
@@ -543,6 +552,7 @@ printf
 "
 )
 ;
+}
 out_
 .
 printf

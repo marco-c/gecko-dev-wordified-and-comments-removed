@@ -137,9 +137,11 @@ isSingleton
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 fun
@@ -170,9 +172,11 @@ hasBeenCloned
 (
 )
 )
+{
 return
 false
 ;
+}
 lazy
 -
 >
@@ -203,9 +207,11 @@ hasBeenCloned
 (
 )
 )
+{
 return
 false
 ;
+}
 script
 -
 >
@@ -266,9 +272,11 @@ proto
 succeeded
 )
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -349,6 +357,7 @@ fun
 parent
 )
 )
+{
 return
 CloneFunctionReuseScript
 (
@@ -360,6 +369,7 @@ newKind
 proto
 )
 ;
+}
 RootedScript
 script
 (
@@ -379,9 +389,11 @@ if
 !
 script
 )
+{
 return
 nullptr
 ;
+}
 RootedScope
 enclosingScope
 (
@@ -576,6 +588,7 @@ if
 !
 obj
 )
+{
 return
 cx
 -
@@ -584,6 +597,7 @@ alreadyReportedOOM
 (
 )
 ;
+}
 NativeObject
 *
 nobj
@@ -742,6 +756,7 @@ toExtended
 >
 extendedSlots
 )
+{
 extendedSlot
 .
 unsafeSet
@@ -758,6 +773,7 @@ DoubleValue
 )
 )
 ;
+}
 }
 else
 {

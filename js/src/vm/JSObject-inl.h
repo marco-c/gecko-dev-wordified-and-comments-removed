@@ -230,6 +230,7 @@ UnboxedPlainObject
 (
 )
 )
+{
 return
 UnboxedPlainObject
 :
@@ -240,6 +241,7 @@ cx
 obj
 )
 ;
+}
 return
 true
 ;
@@ -343,9 +345,11 @@ id
 maybeObj
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -379,9 +383,11 @@ ShapedObject
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 as
 <
@@ -426,9 +432,11 @@ cx
 this
 )
 )
+{
 return
 nullptr
 ;
+}
 js
 :
 :
@@ -543,6 +551,7 @@ isNative
 (
 )
 )
+{
 nobj
 =
 &
@@ -556,6 +565,7 @@ NativeObject
 (
 )
 ;
+}
 if
 (
 clasp
@@ -565,6 +575,7 @@ hasFinalize
 (
 )
 )
+{
 clasp
 -
 >
@@ -574,13 +585,16 @@ fop
 this
 )
 ;
+}
 if
 (
 !
 nobj
 )
+{
 return
 ;
+}
 if
 (
 nobj
@@ -590,6 +604,7 @@ hasDynamicSlots
 (
 )
 )
+{
 fop
 -
 >
@@ -601,6 +616,7 @@ nobj
 slots_
 )
 ;
+}
 if
 (
 nobj
@@ -722,6 +738,7 @@ shapePtr
 (
 )
 )
+{
 shape
 (
 )
@@ -731,6 +748,7 @@ listp
 =
 nullptr
 ;
+}
 }
 MOZ_ALWAYS_INLINE
 void
@@ -775,6 +793,7 @@ shapePtr
 (
 )
 )
+{
 shape
 (
 )
@@ -786,6 +805,7 @@ shapePtr
 (
 )
 ;
+}
 }
 inline
 bool
@@ -852,9 +872,11 @@ if
 !
 group
 )
+{
 return
 false
 ;
+}
 obj
 -
 >
@@ -932,10 +954,12 @@ compartment
 (
 )
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 return
 makeLazyGroup
 (
@@ -1254,9 +1278,11 @@ index
 id
 )
 )
+{
 return
 false
 ;
+}
 return
 GetProperty
 (
@@ -1343,18 +1369,22 @@ getOpsGetProperty
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 index
 >
 JSID_INT_MAX
 )
+{
 return
 false
 ;
+}
 return
 GetPropertyNoGC
 (
@@ -1407,6 +1437,7 @@ getOpsDeleteProperty
 (
 )
 )
+{
 return
 op
 (
@@ -1416,6 +1447,7 @@ id
 result
 )
 ;
+}
 return
 NativeDeleteProperty
 (
@@ -1469,9 +1501,11 @@ index
 id
 )
 )
+{
 return
 false
 ;
+}
 return
 DeleteProperty
 (
@@ -1560,11 +1594,13 @@ if
 (
 holder
 )
+{
 *
 holder
 =
 obj
 ;
+}
 return
 true
 ;
@@ -1660,9 +1696,11 @@ id
 vp
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 vp
@@ -1745,6 +1783,7 @@ DebugEnvironmentProxy
 (
 )
 )
+{
 return
 as
 <
@@ -1764,6 +1803,7 @@ isQualifiedVarObj
 (
 )
 ;
+}
 bool
 rv
 =
@@ -1891,6 +1931,7 @@ DebugEnvironmentProxy
 (
 )
 )
+{
 return
 as
 <
@@ -1910,6 +1951,7 @@ isUnqualifiedVarObj
 (
 )
 ;
+}
 return
 is
 <
@@ -2158,6 +2200,7 @@ maybeShape
 (
 )
 )
+{
 return
 shape
 -
@@ -2167,6 +2210,7 @@ hasAllObjectFlags
 flags
 )
 ;
+}
 return
 false
 ;
@@ -2354,9 +2398,11 @@ if
 !
 nobj
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -2745,9 +2791,11 @@ name
 v
 )
 )
+{
 return
 false
 ;
+}
 return
 IsNativeFunction
 (
@@ -2862,9 +2910,11 @@ pobj
 prop
 )
 )
+{
 return
 false
 ;
+}
 return
 !
 prop
@@ -2907,6 +2957,7 @@ isPrimitive
 )
 )
 )
+{
 return
 ValueToId
 <
@@ -2918,6 +2969,7 @@ argument
 result
 )
 ;
+}
 return
 ToPropertyKeySlow
 (
@@ -3948,6 +4000,7 @@ if
 (
 numElements
 )
+{
 return
 gc
 :
@@ -3957,6 +4010,7 @@ GetGCObjectKind
 numElements
 )
 ;
+}
 return
 gc
 :
@@ -3983,6 +4037,7 @@ if
 (
 numElements
 )
+{
 return
 gc
 :
@@ -3992,6 +4047,7 @@ GetGCArrayKind
 numElements
 )
 ;
+}
 return
 gc
 :
@@ -4136,6 +4192,7 @@ ProxyObject
 (
 )
 )
+{
 return
 Proxy
 :
@@ -4146,6 +4203,7 @@ cx
 obj
 )
 ;
+}
 return
 obj
 -
@@ -4322,9 +4380,11 @@ if
 !
 obj
 )
+{
 return
 false
 ;
+}
 thisv
 .
 setObject
@@ -4357,9 +4417,11 @@ JSFunction
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 is

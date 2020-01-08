@@ -502,6 +502,7 @@ lookup
 .
 atom
 )
+{
 return
 lookup
 .
@@ -510,6 +511,7 @@ atom
 =
 key
 ;
+}
 if
 (
 key
@@ -537,9 +539,11 @@ lookup
 .
 hash
 )
+{
 return
 false
 ;
+}
 if
 (
 key
@@ -571,6 +575,7 @@ lookup
 .
 isLatin1
 )
+{
 return
 mozilla
 :
@@ -586,6 +591,7 @@ lookup
 length
 )
 ;
+}
 return
 EqualChars
 (
@@ -620,6 +626,7 @@ lookup
 .
 isLatin1
 )
+{
 return
 EqualChars
 (
@@ -632,6 +639,7 @@ lookup
 length
 )
 ;
+}
 return
 mozilla
 :
@@ -683,6 +691,7 @@ helperThread
 (
 )
 )
+{
 JSString
 :
 :
@@ -691,6 +700,7 @@ readBarrier
 atom
 )
 ;
+}
 return
 atom
 ;
@@ -912,9 +922,11 @@ if
 !
 atoms_
 )
+{
 return
 false
 ;
+}
 return
 atoms_
 -
@@ -939,9 +951,11 @@ if
 !
 permanentAtomsDuringInit_
 )
+{
 return
 false
 ;
+}
 staticStrings
 =
 js_new
@@ -966,9 +980,11 @@ init
 cx
 )
 )
+{
 return
 false
 ;
+}
 static
 const
 CommonNameInfo
@@ -1110,9 +1126,11 @@ if
 !
 commonNames
 )
+{
 return
 false
 ;
+}
 ImmutablePropertyNamePtr
 *
 names
@@ -1179,9 +1197,11 @@ if
 !
 atom
 )
+{
 return
 false
 ;
+}
 names
 -
 >
@@ -1233,9 +1253,11 @@ if
 !
 wellKnownSymbols
 )
+{
 return
 false
 ;
+}
 ImmutablePropertyNamePtr
 *
 descriptions
@@ -1500,6 +1522,7 @@ if
 (
 lock
 )
+{
 lock
 -
 >
@@ -1507,6 +1530,7 @@ unlock
 (
 )
 ;
+}
 }
 }
 ;
@@ -1593,6 +1617,7 @@ i
 +
 +
 )
+{
 js_delete
 (
 partitions
@@ -1601,6 +1626,7 @@ i
 ]
 )
 ;
+}
 }
 bool
 AtomsTable
@@ -1647,9 +1673,11 @@ partitions
 i
 ]
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1684,6 +1712,7 @@ i
 +
 +
 )
+{
 partitions
 [
 i
@@ -1696,6 +1725,7 @@ lock
 (
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -1734,6 +1764,7 @@ i
 +
 +
 )
+{
 partitions
 [
 PartitionCount
@@ -1750,6 +1781,7 @@ unlock
 (
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -1972,6 +2004,7 @@ part
 .
 atomsAddedWhileSweeping
 )
+{
 tracePinnedAtomsInSet
 (
 trc
@@ -1981,6 +2014,7 @@ part
 atomsAddedWhileSweeping
 )
 ;
+}
 }
 }
 void
@@ -2018,6 +2052,7 @@ permanentAtomsPopulated
 (
 )
 )
+{
 rt
 -
 >
@@ -2031,6 +2066,7 @@ trc
 access
 )
 ;
+}
 }
 static
 void
@@ -2121,12 +2157,15 @@ if
 (
 parentRuntime
 )
+{
 return
 ;
+}
 if
 (
 staticStrings
 )
+{
 staticStrings
 -
 >
@@ -2135,10 +2174,12 @@ trace
 trc
 )
 ;
+}
 if
 (
 permanentAtomsDuringInit_
 )
+{
 TracePermanentAtoms
 (
 trc
@@ -2150,10 +2191,12 @@ all
 )
 )
 ;
+}
 if
 (
 permanentAtoms_
 )
+{
 TracePermanentAtoms
 (
 trc
@@ -2165,6 +2208,7 @@ all
 )
 )
 ;
+}
 }
 void
 js
@@ -2195,8 +2239,10 @@ rt
 >
 parentRuntime
 )
+{
 return
 ;
+}
 if
 (
 WellKnownSymbols
@@ -2227,6 +2273,7 @@ i
 +
 +
 )
+{
 TraceProcessGlobalRoot
 (
 trc
@@ -2246,6 +2293,7 @@ well_known_symbol
 "
 )
 ;
+}
 }
 }
 void
@@ -2347,12 +2395,14 @@ IsAboutToBeFinalizedUnbarriered
 atom
 )
 )
+{
 e
 .
 removeFront
 (
 )
 ;
+}
 }
 }
 }
@@ -2504,8 +2554,10 @@ empty
 (
 )
 )
+{
 return
 ;
+}
 startSweepingPartition
 (
 )
@@ -2850,6 +2902,7 @@ front
 )
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -2865,6 +2918,7 @@ sweep
 "
 )
 ;
+}
 }
 js_delete
 (
@@ -2910,9 +2964,11 @@ isOverBudget
 (
 )
 )
+{
 return
 false
 ;
+}
 JSAtom
 *
 atom
@@ -2931,12 +2987,14 @@ IsAboutToBeFinalizedUnbarriered
 atom
 )
 )
+{
 atomsToSweep
 .
 removeFront
 (
 )
 ;
+}
 atomsToSweep
 .
 popFront
@@ -2959,6 +3017,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 !
@@ -2971,6 +3030,7 @@ i
 atomsAddedWhileSweeping
 )
 ;
+}
 return
 true
 ;
@@ -3241,9 +3301,11 @@ tbchars
 length
 )
 )
+{
 return
 s
 ;
+}
 AtomHasher
 :
 :
@@ -3353,6 +3415,7 @@ permanentAtomsPopulated
 (
 )
 )
+{
 return
 PermanentlyAtomizeAndCopyChars
 (
@@ -3364,6 +3427,7 @@ indexValue
 lookup
 )
 ;
+}
 AtomSet
 :
 :
@@ -3455,9 +3519,11 @@ length
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 JSAtom
 *
 atom
@@ -3484,9 +3550,11 @@ if
 !
 atom
 )
+{
 return
 nullptr
 ;
+}
 cx
 -
 >
@@ -3700,10 +3768,12 @@ IsAboutToBeFinalizedUnbarriered
 atom
 )
 )
+{
 p
 =
 p2
 ;
+}
 }
 }
 }
@@ -3777,9 +3847,11 @@ if
 !
 atom
 )
+{
 return
 nullptr
 ;
+}
 AtomSet
 *
 addSet
@@ -3990,6 +4062,7 @@ if
 (
 p
 )
+{
 return
 p
 -
@@ -3999,6 +4072,7 @@ asPtr
 cx
 )
 ;
+}
 JSAtom
 *
 atom
@@ -4018,9 +4092,11 @@ if
 !
 atom
 )
+{
 return
 nullptr
 ;
+}
 atom
 -
 >
@@ -4205,6 +4281,7 @@ if
 (
 pin
 )
+{
 atom
 -
 >
@@ -4212,10 +4289,12 @@ setPinned
 (
 )
 ;
+}
 if
 (
 indexValue
 )
+{
 atom
 -
 >
@@ -4226,6 +4305,7 @@ indexValue
 true
 )
 ;
+}
 return
 atom
 ;
@@ -4286,6 +4366,7 @@ isPinned
 (
 )
 )
+{
 cx
 -
 >
@@ -4305,6 +4386,7 @@ cx
 atom
 )
 ;
+}
 return
 &
 atom
@@ -4327,9 +4409,11 @@ if
 !
 linear
 )
+{
 return
 nullptr
 ;
+}
 Maybe
 <
 uint32_t
@@ -4345,6 +4429,7 @@ hasIndexValue
 (
 )
 )
+{
 indexValue
 .
 emplace
@@ -4357,6 +4442,7 @@ getIndexValue
 )
 )
 ;
+}
 JS
 :
 :
@@ -4509,6 +4595,7 @@ part
 .
 atomsAddedWhileSweeping
 )
+{
 p
 =
 part
@@ -4521,6 +4608,7 @@ lookup
 lookup
 )
 ;
+}
 MOZ_ASSERT
 (
 p
@@ -4750,9 +4838,11 @@ if
 !
 chars
 )
+{
 return
 nullptr
 ;
+}
 return
 AtomizeChars
 (
@@ -4845,9 +4935,11 @@ if
 !
 atom
 )
+{
 return
 false
 ;
+}
 idp
 .
 set
@@ -4933,9 +5025,11 @@ if
 !
 allowGC
 )
+{
 return
 nullptr
 ;
+}
 RootedValue
 v2
 (
@@ -4954,9 +5048,11 @@ JSTYPE_STRING
 v2
 )
 )
+{
 return
 nullptr
 ;
+}
 v
 =
 v2
@@ -4994,6 +5090,7 @@ allowGC
 !
 atom
 )
+{
 cx
 -
 >
@@ -5001,6 +5098,7 @@ recoverFromOutOfMemory
 (
 )
 ;
+}
 return
 atom
 ;
@@ -5037,6 +5135,7 @@ allowGC
 !
 atom
 )
+{
 cx
 -
 >
@@ -5044,6 +5143,7 @@ recoverFromOutOfMemory
 (
 )
 ;
+}
 return
 atom
 ;
@@ -5080,6 +5180,7 @@ allowGC
 !
 atom
 )
+{
 cx
 -
 >
@@ -5087,6 +5188,7 @@ recoverFromOutOfMemory
 (
 )
 ;
+}
 return
 atom
 ;
@@ -5099,6 +5201,7 @@ isBoolean
 (
 )
 )
+{
 return
 v
 .
@@ -5124,6 +5227,7 @@ names
 .
 false_
 ;
+}
 if
 (
 v
@@ -5132,6 +5236,7 @@ isNull
 (
 )
 )
+{
 return
 cx
 -
@@ -5142,6 +5247,7 @@ names
 .
 null
 ;
+}
 if
 (
 v
@@ -5215,6 +5321,7 @@ allowGC
 !
 atom
 )
+{
 cx
 -
 >
@@ -5222,6 +5329,7 @@ recoverFromOutOfMemory
 (
 )
 ;
+}
 return
 atom
 ;
@@ -5284,6 +5392,7 @@ isString
 (
 )
 )
+{
 return
 ToAtomSlow
 <
@@ -5294,6 +5403,7 @@ cx
 v
 )
 ;
+}
 JSString
 *
 str
@@ -5313,6 +5423,7 @@ isAtom
 (
 )
 )
+{
 return
 &
 str
@@ -5322,6 +5433,7 @@ asAtom
 (
 )
 ;
+}
 JSAtom
 *
 atom
@@ -5545,6 +5657,7 @@ if
 !
 latin1
 )
+{
 MOZ_TRY
 (
 xdr
@@ -5559,6 +5672,7 @@ char16_t
 )
 )
 ;
+}
 if
 (
 mode
@@ -5577,6 +5691,7 @@ if
 (
 latin1
 )
+{
 return
 xdr
 -
@@ -5593,6 +5708,7 @@ nogc
 length
 )
 ;
+}
 return
 xdr
 -
@@ -5857,6 +5973,7 @@ if
 !
 heapChars
 )
+{
 return
 xdr
 -
@@ -5869,6 +5986,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 chars
 =
 heapChars
@@ -5907,6 +6025,7 @@ if
 !
 atom
 )
+{
 return
 xdr
 -
@@ -5919,6 +6038,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 atomp
 .
 set
@@ -6031,6 +6151,7 @@ hasHelperThreadZones
 (
 )
 )
+{
 runtime
 -
 >
@@ -6042,6 +6163,7 @@ lockAll
 (
 )
 ;
+}
 }
 js
 :
@@ -6071,6 +6193,7 @@ hasHelperThreadZones
 (
 )
 )
+{
 runtime
 -
 >
@@ -6082,4 +6205,5 @@ unlockAll
 (
 )
 ;
+}
 }
