@@ -87,12 +87,6 @@ chromeDebugger
 ;
 this
 .
-targetForm
-=
-form
-;
-this
-.
 traits
 =
 {

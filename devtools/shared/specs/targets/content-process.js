@@ -105,15 +105,6 @@ json
 "
 )
 }
-workerListChanged
-:
-{
-type
-:
-"
-workerListChanged
-"
-}
 }
 }
 )

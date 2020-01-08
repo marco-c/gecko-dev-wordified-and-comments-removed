@@ -121,12 +121,6 @@ client
 =
 client
 ;
-this
-.
-targetForm
-=
-form
-;
 }
 attachThread
 :

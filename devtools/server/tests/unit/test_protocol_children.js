@@ -1374,6 +1374,10 @@ this
 .
 _temporaryHolder
 =
+this
+.
+manage
+(
 new
 protocol
 .
@@ -1383,14 +1387,6 @@ this
 .
 conn
 )
-;
-this
-.
-manage
-(
-this
-.
-_temporaryHolder
 )
 ;
 }
@@ -1548,6 +1544,10 @@ actorID
 _temp
 "
 ;
+this
+.
+_temporaryHolder
+=
 this
 .
 manage
