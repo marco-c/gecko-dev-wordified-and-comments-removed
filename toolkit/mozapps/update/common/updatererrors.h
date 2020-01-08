@@ -1,9 +1,9 @@
 #
 ifndef
-Errors_h__
+UPDATEERRORS_H
 #
 define
-Errors_h__
+UPDATEERRORS_H
 #
 define
 OK

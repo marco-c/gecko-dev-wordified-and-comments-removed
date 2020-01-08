@@ -94,11 +94,6 @@ archivereader
 cpp
 '
 '
-bspatch
-.
-cpp
-'
-'
 updater
 .
 cpp
@@ -267,6 +262,9 @@ USE_LIBS
 +
 =
 [
+'
+bspatch
+'
 '
 mar
 '

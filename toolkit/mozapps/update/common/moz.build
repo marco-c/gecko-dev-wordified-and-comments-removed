@@ -109,6 +109,11 @@ updatedefines
 .
 h
 '
+'
+updatererrors
+.
+h
+'
 ]
 if
 CONFIG
