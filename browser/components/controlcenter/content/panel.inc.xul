@@ -646,7 +646,6 @@ identity
 popup
 -
 expander
-subviewkeynav
 "
 when
 -
@@ -1060,7 +1059,6 @@ tracking
 protection
 -
 button
-subviewkeynav
 "
 label
 =
@@ -1115,7 +1113,6 @@ tracking
 protection
 -
 button
-subviewkeynav
 "
 label
 =
@@ -1172,7 +1169,6 @@ tracking
 protection
 -
 button
-subviewkeynav
 "
 label
 =
@@ -1227,7 +1223,6 @@ tracking
 protection
 -
 button
-subviewkeynav
 "
 label
 =
@@ -1562,11 +1557,6 @@ footer
 >
 <
 button
-class
-=
-"
-subviewkeynav
-"
 id
 =
 "
@@ -1975,11 +1965,6 @@ cert
 user
 -
 overridden
-"
-class
-=
-"
-subviewkeynav
 "
 label
 =
@@ -2610,11 +2595,6 @@ active
 -
 blocked
 "
-class
-=
-"
-subviewkeynav
-"
 label
 =
 "
@@ -2658,11 +2638,6 @@ mixedcontent
 active
 -
 loaded
-"
-class
-=
-"
-subviewkeynav
 "
 label
 =
@@ -2748,11 +2723,6 @@ popup
 more
 -
 info
-"
-class
-=
-"
-subviewkeynav
 "
 label
 =
