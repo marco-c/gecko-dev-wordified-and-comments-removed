@@ -240,9 +240,6 @@ bool
 osr
 ;
 bool
-asmJSAtomicsEnable
-;
-bool
 wasmFoldOffsets
 ;
 bool

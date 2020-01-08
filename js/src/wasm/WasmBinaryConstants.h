@@ -1046,11 +1046,6 @@ F64Pow
 F64Atan2
 OldCallDirect
 OldCallIndirect
-I32AtomicsCompareExchange
-I32AtomicsExchange
-I32AtomicsLoad
-I32AtomicsStore
-I32AtomicsBinOp
 Limit
 }
 ;
