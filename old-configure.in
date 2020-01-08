@@ -5264,7 +5264,10 @@ test
 -
 z
 "
-MOZ_NO_WLZDEFS
+MOZ_ASAN
+MOZ_MSAN
+MOZ_UBSAN
+MOZ_TSAN
 "
 ;
 then
