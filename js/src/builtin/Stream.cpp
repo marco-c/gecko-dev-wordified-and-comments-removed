@@ -4044,7 +4044,7 @@ Rooted
 ReadableStreamDefaultController
 *
 >
-branch1
+unwrappedBranch1
 (
 cx
 unwrappedTeeState
@@ -4061,7 +4061,7 @@ if
 ReadableStreamDefaultControllerClose
 (
 cx
-branch1
+unwrappedBranch1
 )
 )
 {
@@ -4086,7 +4086,7 @@ Rooted
 ReadableStreamDefaultController
 *
 >
-branch2
+unwrappedBranch2
 (
 cx
 unwrappedTeeState
@@ -4103,7 +4103,7 @@ if
 ReadableStreamDefaultControllerClose
 (
 cx
-branch2
+unwrappedBranch2
 )
 )
 {
