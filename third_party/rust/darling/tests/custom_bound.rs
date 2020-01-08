@@ -25,7 +25,7 @@ derive
 (
 Debug
 Clone
-FromMetaItem
+FromMeta
 )
 ]
 #
@@ -37,7 +37,7 @@ bound
 "
 T
 :
-FromMetaItem
+FromMeta
 +
 Add
 "
@@ -142,7 +142,7 @@ T
 Add
 T
 :
-FromMetaItem
+FromMeta
 "
 )
 ]

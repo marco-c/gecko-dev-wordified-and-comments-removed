@@ -1,9 +1,15 @@
 use
+proc_macro2
+:
+:
+TokenStream
+;
+use
 quote
 :
 :
 {
-Tokens
+TokenStreamExt
 ToTokens
 }
 ;
@@ -116,7 +122,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 tokens
@@ -255,7 +261,7 @@ tokens
 :
 &
 mut
-Tokens
+TokenStream
 )
 {
 let
