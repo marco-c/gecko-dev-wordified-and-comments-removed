@@ -5331,7 +5331,7 @@ nonLazyScript
 )
 -
 >
-isRelazifiable
+isRelazifiableIgnoringJitCode
 (
 )
 )

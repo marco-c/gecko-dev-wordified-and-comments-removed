@@ -1365,12 +1365,6 @@ ZoneData
 <
 bool
 >
-sweepReleaseTypes
-;
-ZoneData
-<
-bool
->
 sweepingTypes
 ;
 ZoneData
@@ -1452,8 +1446,6 @@ ref
 void
 beginSweep
 (
-bool
-releaseTypes
 )
 ;
 void

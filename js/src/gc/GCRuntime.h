@@ -4255,12 +4255,6 @@ bool
 >
 sweepOnBackgroundThread
 ;
-MainThreadData
-<
-bool
->
-releaseObservedTypes
-;
 HelperThreadLockData
 <
 ZoneList
