@@ -4092,6 +4092,12 @@ nullptr
 )
 )
 ;
+forceStrictIfNecessary
+(
+funbox
+directives
+)
+;
 /
 /
 Push
