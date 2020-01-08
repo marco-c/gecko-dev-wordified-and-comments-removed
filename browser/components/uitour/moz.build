@@ -58,12 +58,12 @@ EXTRA_JS_MODULES
 =
 [
 '
-ContentUITour
+UITour
 .
 jsm
 '
 '
-UITour
+UITourChild
 .
 jsm
 '
