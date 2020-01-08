@@ -413,6 +413,11 @@ requestShipping
 =
 false
 ;
+boolean
+requestBillingAddress
+=
+false
+;
 PaymentShippingType
 shippingType
 =
