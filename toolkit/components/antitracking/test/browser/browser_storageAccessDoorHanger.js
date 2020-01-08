@@ -137,6 +137,16 @@ dom
 .
 storage_access
 .
+auto_grants
+"
+false
+]
+[
+"
+dom
+.
+storage_access
+.
 enabled
 "
 true
