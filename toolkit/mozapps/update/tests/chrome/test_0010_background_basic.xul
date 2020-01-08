@@ -247,6 +247,7 @@ extra1
 }
 ]
 ;
+async
 function
 runTest
 (
@@ -259,13 +260,11 @@ entering
 "
 )
 ;
-Services
+await
+gAUS
 .
-prefs
-.
-setBoolPref
+setAutoUpdateIsEnabled
 (
-PREF_APP_UPDATE_AUTO
 false
 )
 ;

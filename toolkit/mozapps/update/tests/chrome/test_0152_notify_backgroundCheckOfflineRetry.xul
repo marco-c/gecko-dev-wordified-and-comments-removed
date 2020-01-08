@@ -248,6 +248,7 @@ NETWORK_ERROR_OFFLINE
 var
 gProxyPrefValue
 ;
+async
 function
 runTest
 (
@@ -281,13 +282,11 @@ setUpdateURL
 url
 )
 ;
-Services
+await
+gAUS
 .
-prefs
-.
-setBoolPref
+setAutoUpdateIsEnabled
 (
-PREF_APP_UPDATE_DISABLEDFORTESTING
 false
 )
 ;
@@ -297,7 +296,7 @@ prefs
 .
 setBoolPref
 (
-PREF_APP_UPDATE_AUTO
+PREF_APP_UPDATE_DISABLEDFORTESTING
 false
 )
 ;

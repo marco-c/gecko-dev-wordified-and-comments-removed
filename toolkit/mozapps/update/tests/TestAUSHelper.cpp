@@ -2346,7 +2346,7 @@ argv
 SetPermissionsOf
 :
 :
-AllFilesAndDirs
+BaseDirIfNotExists
 updateDir
 )
 ;
