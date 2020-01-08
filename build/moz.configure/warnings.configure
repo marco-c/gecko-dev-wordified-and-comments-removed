@@ -118,16 +118,10 @@ depends
 '
 MOZ_AUTOMATION
 '
-'
--
--
-help
-'
 )
 (
 lambda
 x
-_
 :
 bool
 (
