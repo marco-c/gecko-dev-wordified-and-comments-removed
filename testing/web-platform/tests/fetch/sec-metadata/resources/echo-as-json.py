@@ -89,13 +89,17 @@ header
 request
 .
 headers
-[
+.
+get
+(
 "
 sec
 -
 metadata
 "
-]
+"
+"
+)
 }
 )
     

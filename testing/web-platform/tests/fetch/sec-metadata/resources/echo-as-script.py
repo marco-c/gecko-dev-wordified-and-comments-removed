@@ -43,13 +43,17 @@ dumps
 request
 .
 headers
-[
+.
+get
+(
 "
 sec
 -
 metadata
 "
-]
+"
+"
+)
 )
 ;
     
