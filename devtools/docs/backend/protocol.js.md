@@ -4565,10 +4565,6 @@ this
 .
 _temporaryParent
 =
-this
-.
-manage
-(
 new
 Actor
 (
@@ -4576,6 +4572,15 @@ this
 .
 conn
 )
+)
+;
+this
+.
+manage
+(
+this
+.
+_temporaryParent
 )
 ;
 }
