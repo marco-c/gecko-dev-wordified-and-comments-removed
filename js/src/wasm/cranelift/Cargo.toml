@@ -100,7 +100,7 @@ features
 =
 [
 "
-release_max_level_warn
+release_max_level_info
 "
 ]
 }
