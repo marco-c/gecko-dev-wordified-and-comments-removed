@@ -2255,7 +2255,6 @@ true
 ;
 }
 }
-static
 void
 AddInitialUntrackedMemoryRegion
 (

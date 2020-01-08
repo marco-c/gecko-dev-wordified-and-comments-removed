@@ -72,6 +72,16 @@ aKind
 )
 ;
 void
+AddInitialUntrackedMemoryRegion
+(
+uint8_t
+*
+aBase
+size_t
+aSize
+)
+;
+void
 InitializeMemorySnapshots
 (
 )
