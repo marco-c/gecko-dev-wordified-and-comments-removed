@@ -1035,6 +1035,11 @@ center
 >
 <
 hbox
+align
+=
+"
+center
+"
 >
 <
 image
@@ -1209,6 +1214,11 @@ center
 >
 <
 hbox
+align
+=
+"
+center
+"
 >
 <
 image
