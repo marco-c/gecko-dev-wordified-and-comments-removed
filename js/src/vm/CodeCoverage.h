@@ -149,7 +149,6 @@ GenericPrinter
 &
 out
 )
-const
 ;
 private
 :
