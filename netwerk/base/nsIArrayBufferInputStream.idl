@@ -179,9 +179,6 @@ data
 length
 *
 /
-[
-implicit_jscontext
-]
 void
 setData
 (
