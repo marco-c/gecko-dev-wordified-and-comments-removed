@@ -2160,12 +2160,6 @@ GetListener
 (
 )
 ;
-bool
-IsComposited
-(
-)
-const
-;
 void
 UpdateClientOffsetForCSDWindow
 (
@@ -2400,6 +2394,9 @@ mIsTransparent
 gchar
 *
 mTransparencyBitmap
+;
+bool
+mHasAlphaVisual
 ;
 void
 InitDragEvent
