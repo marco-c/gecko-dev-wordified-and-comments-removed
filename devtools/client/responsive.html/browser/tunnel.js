@@ -1245,10 +1245,6 @@ Printing
 :
 "
 "
-PageMetadata
-:
-"
-"
 ViewSource
 :
 "
@@ -1286,10 +1282,6 @@ PageInfo
 "
 "
 Printing
-:
-"
-"
-PageMetadata
 :
 "
 "
