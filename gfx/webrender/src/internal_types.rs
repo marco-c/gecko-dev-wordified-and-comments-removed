@@ -16,6 +16,7 @@ api
 :
 {
 ImageFormat
+WorldPixel
 NotificationRequest
 }
 ;
@@ -42,6 +43,12 @@ fxhash
 :
 :
 FxHasher
+;
+use
+plane_split
+:
+:
+BspSplitter
 ;
 use
 profiler
@@ -175,6 +182,16 @@ BuildHasherDefault
 <
 FxHasher
 >
+>
+;
+pub
+type
+PlaneSplitter
+=
+BspSplitter
+<
+f64
+WorldPixel
 >
 ;
 #
