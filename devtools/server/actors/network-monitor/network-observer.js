@@ -1868,6 +1868,14 @@ fromServiceWorker
 =
 fromServiceWorker
 ;
+event
+.
+isTrackingResource
+=
+channel
+.
+isTrackingResource
+;
 httpActivity
 .
 fromServiceWorker
