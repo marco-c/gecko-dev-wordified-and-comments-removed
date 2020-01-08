@@ -108,6 +108,15 @@ browser
 .
 ini
 '
+'
+browser
+/
+xbl
+/
+browser
+.
+ini
+'
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
