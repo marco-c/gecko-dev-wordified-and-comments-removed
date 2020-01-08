@@ -1692,6 +1692,9 @@ RawGecko
 *
 "
 "
+mozilla
+:
+:
 DeclarationBlockMutationClosure
 "
 "
@@ -2019,6 +2022,9 @@ FontFamilyList
 FontFamilyName
 "
 "
+mozilla
+:
+:
 FontSizePrefs
 "
 "
@@ -2058,6 +2064,9 @@ ImageURL
 Keyframe
 "
 "
+mozilla
+:
+:
 MediumFeaturesChangedResult
 "
 "
@@ -3619,6 +3628,9 @@ FontVariation
 ServoRawOffsetArc
 "
 "
+mozilla
+:
+:
 DeclarationBlockMutationClosure
 "
 "
@@ -3640,6 +3652,9 @@ nsIDocument_DocumentTheme
 nsSimpleContentList
 "
 "
+mozilla
+:
+:
 MediumFeaturesChangedResult
 "
 "
@@ -3748,6 +3763,9 @@ CounterStylePtr
 FontFamilyType
 "
 "
+mozilla
+:
+:
 FontSizePrefs
 "
 "

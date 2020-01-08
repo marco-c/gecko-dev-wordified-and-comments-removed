@@ -78,14 +78,14 @@ JSContext
 class
 JSObject
 ;
-struct
-DeclarationBlockMutationClosure
-;
 namespace
 mozilla
 {
 class
 DeclarationBlock
+;
+struct
+DeclarationBlockMutationClosure
 ;
 namespace
 css
@@ -770,6 +770,9 @@ virtual
 void
 GetPropertyChangeClosure
 (
+mozilla
+:
+:
 DeclarationBlockMutationClosure
 *
 aClosure

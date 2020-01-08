@@ -184,6 +184,9 @@ aData
 void
 GetPropertyChangeClosure
 (
+mozilla
+:
+:
 DeclarationBlockMutationClosure
 *
 aClosure
