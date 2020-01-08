@@ -12,8 +12,6 @@ os
 import
 platform
 import
-random
-import
 subprocess
 import
 sys
@@ -877,9 +875,6 @@ priority
     
 }
 }
-TELEMETRY_SUBMISSION_FREQUENCY
-=
-10
 def
 search_path
 (
@@ -1787,20 +1782,12 @@ handler
 return
 True
         
-if
-random
-.
-randint
-(
-1
-TELEMETRY_SUBMISSION_FREQUENCY
-)
-!
+state_dir
+_
 =
-1
-:
-            
-return
+get_state_dir
+(
+)
         
 machpath
 =
@@ -1868,12 +1855,7 @@ py
 '
 )
                               
-get_state_dir
-(
-)
-[
-0
-]
+state_dir
 ]
                              
 stdout
