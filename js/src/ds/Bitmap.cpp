@@ -163,13 +163,6 @@ MOZ_ASSERT
 (
 !
 p
-&
-&
-p
-.
-isValid
-(
-)
 )
 ;
 BitBlock
