@@ -203,6 +203,11 @@ ThumbnailsChild
 jsm
 '
 '
+UAWidgetsChild
+.
+jsm
+'
+'
 UnselectedTabHoverChild
 .
 jsm
