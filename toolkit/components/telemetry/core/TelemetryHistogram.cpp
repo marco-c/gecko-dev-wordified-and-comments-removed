@@ -9755,7 +9755,7 @@ sample
 ;
 }
 }
-void
+bool
 TelemetryHistogram
 :
 :
@@ -9784,6 +9784,7 @@ internal_CanRecordBase
 )
 {
 return
+false
 ;
 }
 HistogramID
@@ -9812,6 +9813,7 @@ rv
 )
 {
 return
+false
 ;
 }
 internal_Accumulate
@@ -9821,8 +9823,11 @@ id
 sample
 )
 ;
+return
+true
+;
 }
-void
+bool
 TelemetryHistogram
 :
 :
@@ -9861,6 +9866,7 @@ internal_CanRecordBase
 )
 {
 return
+false
 ;
 }
 HistogramID
@@ -9910,6 +9916,7 @@ sample
 )
 ;
 return
+true
 ;
 }
 keyNotAllowed
@@ -9966,6 +9973,9 @@ name
 )
 ;
 }
+return
+false
+;
 }
 void
 TelemetryHistogram
