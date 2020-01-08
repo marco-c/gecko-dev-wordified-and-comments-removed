@@ -15,12 +15,14 @@ introCount
 "
 ;
 const
-PREF_CB_ENABLED
+PREF_CB_UI_ENABLED
 =
 "
 browser
 .
 contentblocking
+.
+ui
 .
 enabled
 "
@@ -196,7 +198,7 @@ prefs
 .
 clearUserPref
 (
-PREF_CB_ENABLED
+PREF_CB_UI_ENABLED
 )
 ;
 Services
@@ -274,7 +276,7 @@ prefs
 .
 setBoolPref
 (
-PREF_CB_ENABLED
+PREF_CB_UI_ENABLED
 true
 )
 ;
