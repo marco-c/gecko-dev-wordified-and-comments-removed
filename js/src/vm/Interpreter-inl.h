@@ -1065,7 +1065,8 @@ JSObject
 pobj
 PropertyResult
 prop
-MutableHandleValue
+Value
+*
 vp
 )
 {
@@ -1122,10 +1123,9 @@ return
 false
 ;
 }
+*
 vp
-.
-set
-(
+=
 pobj
 -
 >
@@ -1145,12 +1145,12 @@ slot
 (
 )
 )
-)
 ;
 return
 !
 IsUninitializedLexical
 (
+*
 vp
 )
 ;
@@ -1217,6 +1217,10 @@ FetchNameNoGC
 pobj
 prop
 vp
+.
+address
+(
+)
 )
 )
 {

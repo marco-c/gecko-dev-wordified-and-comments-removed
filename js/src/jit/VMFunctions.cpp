@@ -3581,13 +3581,7 @@ FetchNameNoGC
 (
 pobj
 prop
-MutableHandleValue
-:
-:
-fromMarkedLocation
-(
 vp
-)
 )
 ;
 }
