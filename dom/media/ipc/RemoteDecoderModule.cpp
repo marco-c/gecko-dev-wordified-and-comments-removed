@@ -84,10 +84,6 @@ using
 namespace
 layers
 ;
-using
-namespace
-gfx
-;
 nsresult
 RemoteDecoderModule
 :
