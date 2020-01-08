@@ -19119,10 +19119,6 @@ nsIFile
 >
 flagFile
 ;
-rv
-=
-NS_ERROR_FILE_NOT_FOUND
-;
 if
 (
 mAppData
@@ -19131,8 +19127,9 @@ mAppData
 directory
 )
 {
-rv
-=
+Unused
+<
+<
 mAppData
 -
 >
