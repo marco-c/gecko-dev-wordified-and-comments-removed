@@ -41,7 +41,7 @@ AutoplayPolicy
 public
 :
 static
-uint32_t
+bool
 IsAllowedToPlay
 (
 const
