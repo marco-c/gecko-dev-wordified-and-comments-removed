@@ -753,6 +753,12 @@ Shutdown
 (
 )
 ;
+NS_LogTerm
+(
+)
+;
+#
+endif
 mozilla
 :
 :
@@ -764,12 +770,6 @@ ShutdownPhase
 ShutdownFinal
 )
 ;
-NS_LogTerm
-(
-)
-;
-#
-endif
 }
 }
 }
