@@ -4,10 +4,6 @@ import
 absolute_import
 print_function
 import
-BaseHTTPServer
-import
-SimpleHTTPServer
-import
 errno
 import
 logging
@@ -22,25 +18,58 @@ sys
 import
 os
 import
-urllib
-import
-urlparse
-import
 re
 import
 moznetwork
 import
 time
 from
-SocketServer
+six
+import
+iteritems
+from
+six
+.
+moves
+.
+socketserver
 import
 ThreadingMixIn
+from
+six
+.
+moves
+.
+BaseHTTPServer
+import
+HTTPServer
+from
+six
+.
+moves
+.
+urllib
+.
+parse
+import
+(
+    
+urlsplit
+    
+unquote
+)
+from
+six
+.
+moves
+.
+SimpleHTTPServer
+import
+SimpleHTTPRequestHandler
 class
 EasyServer
 (
 ThreadingMixIn
-BaseHTTPServer
-.
 HTTPServer
 )
 :
@@ -210,8 +239,6 @@ headers
         
 parsed
 =
-urlparse
-.
 urlsplit
 (
 uri
@@ -297,8 +324,6 @@ None
 class
 RequestHandler
 (
-SimpleHTTPServer
-.
 SimpleHTTPRequestHandler
 )
 :
@@ -340,8 +365,6 @@ kwargs
 )
 :
         
-SimpleHTTPServer
-.
 SimpleHTTPRequestHandler
 .
 __init__
@@ -512,10 +535,9 @@ keyword
 value
 )
 in
-headerdict
-.
 iteritems
 (
+headerdict
 )
 :
                     
@@ -613,12 +635,11 @@ for
 prefix
 disk_path
 in
+iteritems
+(
 self
 .
 path_mappings
-.
-iteritems
-(
 )
 :
             
@@ -714,8 +735,6 @@ self
         
 retval
 =
-SimpleHTTPServer
-.
 SimpleHTTPRequestHandler
 .
 parse_request
@@ -815,8 +834,6 @@ self
 .
 path
                 
-SimpleHTTPServer
-.
 SimpleHTTPRequestHandler
 .
 do_GET
@@ -948,8 +965,6 @@ posixpath
 .
 normpath
 (
-urllib
-.
 unquote
 (
 self

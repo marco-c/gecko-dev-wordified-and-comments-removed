@@ -7,8 +7,6 @@ mozfile
 import
 mozhttpd
 import
-urllib2
-import
 os
 import
 unittest
@@ -18,6 +16,39 @@ import
 tempfile
 import
 mozunit
+from
+six
+.
+moves
+.
+urllib
+.
+request
+import
+(
+    
+HTTPHandler
+    
+ProxyHandler
+    
+Request
+    
+build_opener
+    
+install_opener
+    
+urlopen
+)
+from
+six
+.
+moves
+.
+urllib
+.
+error
+import
+HTTPError
 here
 =
 os
@@ -283,8 +314,6 @@ resource_get_called
         
 f
 =
-urllib2
-.
 urlopen
 (
 self
@@ -403,10 +432,9 @@ try
             
 f
 =
-urllib2
-.
 urlopen
 (
+                
 self
 .
 get_url
@@ -421,7 +449,7 @@ resource
 server_port
 querystr
 )
-                                
+                
 data
 =
 json
@@ -430,11 +458,10 @@ dumps
 (
 postdata
 )
+            
 )
         
 except
-urllib2
-.
 HTTPError
 as
 e
@@ -541,19 +568,13 @@ resource_del_called
         
 opener
 =
-urllib2
-.
 build_opener
 (
-urllib2
-.
 HTTPHandler
 )
         
 request
 =
-urllib2
-.
 Request
 (
 self
@@ -881,8 +902,6 @@ False
 try
 :
             
-urllib2
-.
 urlopen
 (
 self
@@ -898,8 +917,6 @@ None
 )
         
 except
-urllib2
-.
 HTTPError
 as
 e
@@ -968,8 +985,6 @@ False
 try
 :
             
-urllib2
-.
 urlopen
 (
 self
@@ -989,8 +1004,6 @@ None
 )
         
 except
-urllib2
-.
 HTTPError
 as
 e
@@ -1024,10 +1037,9 @@ False
 try
 :
             
-urllib2
-.
 urlopen
 (
+                
 self
 .
 get_url
@@ -1042,7 +1054,7 @@ resource
 server_port
 None
 )
-                            
+                
 data
 =
 json
@@ -1052,11 +1064,10 @@ dumps
 {
 }
 )
+            
 )
         
 except
-urllib2
-.
 HTTPError
 as
 e
@@ -1092,19 +1103,13 @@ try
             
 opener
 =
-urllib2
-.
 build_opener
 (
-urllib2
-.
 HTTPHandler
 )
             
 request
 =
-urllib2
-.
 Request
 (
 self
@@ -1119,7 +1124,6 @@ resource
 /
 '
 server_port
-                                                   
 None
 )
 )
@@ -1142,8 +1146,6 @@ request
 )
         
 except
-urllib2
-.
 HTTPError
 :
             
@@ -1251,8 +1253,6 @@ server_port
         
 f
 =
-urllib2
-.
 urlopen
 (
 self
@@ -1342,8 +1342,6 @@ self
 )
 :
         
-urllib2
-.
 install_opener
 (
 None
@@ -1441,7 +1439,7 @@ host
         
 index
 =
-file
+open
 (
 os
 .
@@ -1508,11 +1506,10 @@ server_port
         
 proxy_support
 =
-urllib2
-.
 ProxyHandler
 (
 {
+            
 '
 http
 '
@@ -1534,17 +1531,13 @@ http
 d
 '
 %
-                                              
 server_port
+        
 }
 )
         
-urllib2
-.
 install_opener
 (
-urllib2
-.
 build_opener
 (
 proxy_support
@@ -1559,8 +1552,6 @@ hosts
             
 f
 =
-urllib2
-.
 urlopen
 (
 url
@@ -1649,11 +1640,10 @@ server_port
         
 proxy_support
 =
-urllib2
-.
 ProxyHandler
 (
 {
+            
 '
 http
 '
@@ -1675,17 +1665,13 @@ http
 d
 '
 %
-                                              
 server_port
+        
 }
 )
         
-urllib2
-.
 install_opener
 (
-urllib2
-.
 build_opener
 (
 proxy_support
@@ -1713,7 +1699,7 @@ host
 )
 )
             
-file
+open
 (
 os
 .
@@ -1748,8 +1734,6 @@ hosts
             
 f
 =
-urllib2
-.
 urlopen
 (
 url
@@ -1801,8 +1785,6 @@ None
 try
 :
             
-urllib2
-.
 urlopen
 (
 url
@@ -1812,8 +1794,6 @@ unproxied_host
 )
         
 except
-urllib2
-.
 HTTPError
 as
 e
