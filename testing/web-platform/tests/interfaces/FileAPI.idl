@@ -270,7 +270,7 @@ Blob
 blob
 optional
 DOMString
-label
+encoding
 )
 ;
 void
@@ -407,7 +407,7 @@ Blob
 blob
 optional
 DOMString
-label
+encoding
 )
 ;
 DOMString
