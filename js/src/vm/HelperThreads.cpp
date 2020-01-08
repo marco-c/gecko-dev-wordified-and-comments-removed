@@ -48,7 +48,7 @@ include
 "
 frontend
 /
-BytecodeCompiler
+BytecodeCompilation
 .
 h
 "
@@ -2779,6 +2779,10 @@ helperThread
 )
 )
 ;
+JSScript
+*
+script
+;
 Rooted
 <
 ScriptSourceObject
@@ -2789,6 +2793,7 @@ sourceObject
 cx
 )
 ;
+{
 ScopeKind
 scopeKind
 =
@@ -2806,8 +2811,17 @@ ScopeKind
 :
 Global
 ;
-JSScript
-*
+frontend
+:
+:
+GlobalScriptInfo
+info
+(
+cx
+options
+scopeKind
+)
+;
 script
 =
 frontend
@@ -2815,9 +2829,7 @@ frontend
 :
 CompileGlobalScript
 (
-cx
-scopeKind
-options
+info
 data
 &
 sourceObject
@@ -2827,6 +2839,7 @@ get
 )
 )
 ;
+}
 if
 (
 script
