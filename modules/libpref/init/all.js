@@ -13012,7 +13012,7 @@ http
 .
 send_window_size
 "
-1024
+0
 )
 ;
 #
