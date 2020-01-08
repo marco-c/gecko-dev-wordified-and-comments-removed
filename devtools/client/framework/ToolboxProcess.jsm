@@ -23,7 +23,7 @@ process
 -
 window
 .
-xul
+html
 "
 ;
 const
