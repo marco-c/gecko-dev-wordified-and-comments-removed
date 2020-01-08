@@ -288,16 +288,6 @@ llvm
 -
 config
 export
-LDFLAGS
-=
-"
--
-Wl
--
-syslibroot
-CROSS_SYSROOT
-"
-export
 BINDGEN_CFLAGS
 =
 "
