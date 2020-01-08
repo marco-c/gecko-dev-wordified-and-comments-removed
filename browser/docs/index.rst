@@ -34,6 +34,7 @@ toctree
 :
 maxdepth
 :
-1
+2
+AddressBar
 BrowserUsageTelemetry
 BrowserErrorReporter
