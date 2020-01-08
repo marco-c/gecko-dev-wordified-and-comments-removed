@@ -7871,8 +7871,11 @@ nsAString
 aStringToInsert
 )
 {
-BeginTransaction
+AutoTransactionBatch
+bundleAllTransactions
 (
+*
+this
 )
 ;
 AutoPlaceholderBatch
@@ -8157,10 +8160,6 @@ hunkStart
 lineStart
 ;
 }
-EndTransaction
-(
-)
-;
 return
 rv
 ;
