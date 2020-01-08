@@ -690,7 +690,7 @@ dirtyRect
 struct
 OpSetImageVisibleArea
 {
-Rect
+ImageIntRect
 area
 ;
 ImageKey

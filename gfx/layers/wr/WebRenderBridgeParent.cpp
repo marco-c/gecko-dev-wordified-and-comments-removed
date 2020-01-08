@@ -1747,7 +1747,7 @@ get_OpSetImageVisibleArea
 wr
 :
 :
-NormalizedRect
+DeviceUintRect
 area
 ;
 area

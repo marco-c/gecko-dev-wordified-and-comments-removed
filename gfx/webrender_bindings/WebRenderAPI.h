@@ -573,7 +573,7 @@ const
 wr
 :
 :
-NormalizedRect
+DeviceUintRect
 &
 aArea
 )
