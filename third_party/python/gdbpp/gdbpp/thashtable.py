@@ -469,13 +469,28 @@ self
 .
 key_field_name
         
-seenCount
-=
-0
-        
-pEntry
+pHashes
 =
 store
+.
+cast
+(
+hashType
+.
+pointer
+(
+)
+)
+        
+pEntries
+=
+pHashes
++
+capacity
+        
+pEntries
+=
+pEntries
 .
 cast
 (
@@ -487,6 +502,10 @@ pointer
 (
 )
 )
+        
+seenCount
+=
+0
         
 for
 i
@@ -501,10 +520,10 @@ capacity
 )
 :
             
-entry
+entryHash
 =
 (
-pEntry
+pHashes
 +
 i
 )
@@ -514,18 +533,25 @@ dereference
 )
             
 if
-entry
-[
-'
-mKeyHash
-'
-]
+entryHash
 <
 =
 1
 :
                 
 continue
+            
+entry
+=
+(
+pEntries
++
+i
+)
+.
+dereference
+(
+)
             
 yield
 (
