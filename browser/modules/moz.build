@@ -551,7 +551,7 @@ with
 Files
 (
 "
-LightweightThemeChildListener
+LightweightThemeChildHelper
 .
 jsm
 "
@@ -1120,7 +1120,7 @@ LaterRun
 jsm
 '
 '
-LightweightThemeChildListener
+LightweightThemeChildHelper
 .
 jsm
 '
