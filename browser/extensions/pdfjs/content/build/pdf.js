@@ -604,14 +604,14 @@ pdfjsVersion
 .
 1
 .
-15
+26
 '
 ;
 var
 pdfjsBuild
 =
 '
-991a574c
+f6bc9340
 '
 ;
 var
@@ -29007,7 +29007,7 @@ apiVersion
 .
 1
 .
-15
+26
 '
 source
 :
@@ -37013,7 +37013,7 @@ let
 canvasInRendering
 =
 new
-WeakMap
+WeakSet
 (
 )
 ;
@@ -37276,12 +37276,11 @@ completed
 }
 canvasInRendering
 .
-set
+add
 (
 this
 .
 _canvas
-this
 )
 ;
 }
@@ -37846,7 +37845,7 @@ version
 .
 1
 .
-15
+26
 '
 ;
 exports
@@ -37856,7 +37855,7 @@ build
 build
 =
 '
-991a574c
+f6bc9340
 '
 ;
 }
