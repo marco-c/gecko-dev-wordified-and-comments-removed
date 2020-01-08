@@ -254,6 +254,9 @@ class
 folder
 -
 icon
+panel
+-
+button
 "
 flex
 =
@@ -427,6 +430,9 @@ class
 expander
 -
 down
+panel
+-
+button
 "
 tooltiptext
 =
@@ -796,6 +802,9 @@ class
 expander
 -
 down
+panel
+-
+button
 "
 tooltiptext
 =
