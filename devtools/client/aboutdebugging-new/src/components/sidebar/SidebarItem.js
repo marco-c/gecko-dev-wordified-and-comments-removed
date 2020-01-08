@@ -76,6 +76,9 @@ require
 .
 .
 /
+.
+.
+/
 actions
 /
 index
