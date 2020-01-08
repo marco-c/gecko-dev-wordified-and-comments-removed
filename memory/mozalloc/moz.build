@@ -174,14 +174,6 @@ _HAS_EXCEPTIONS
 ]
 =
 0
-if
-CONFIG
-[
-'
-MOZ_MSVC_STL_WRAP_RAISE
-'
-]
-:
 SOURCES
 +
 =
