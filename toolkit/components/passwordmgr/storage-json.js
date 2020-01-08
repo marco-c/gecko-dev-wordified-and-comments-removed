@@ -206,6 +206,16 @@ Ci
 nsILoginManagerStorage
 ]
 )
+_xpcom_factory
+:
+XPCOMUtils
+.
+generateSingletonFactory
+(
+this
+.
+LoginManagerStorage_json
+)
 __crypto
 :
 null
