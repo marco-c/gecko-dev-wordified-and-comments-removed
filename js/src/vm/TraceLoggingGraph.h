@@ -676,6 +676,11 @@ EventEntry
 >
 &
 events
+mozilla
+:
+:
+TimeStamp
+startTime
 )
 ;
 static
