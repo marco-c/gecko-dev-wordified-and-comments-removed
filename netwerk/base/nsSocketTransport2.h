@@ -453,17 +453,6 @@ char
 filename
 )
 ;
-nsresult
-InitWithName
-(
-const
-char
-*
-name
-size_t
-len
-)
-;
 #
 endif
 void

@@ -2841,6 +2841,11 @@ domain
 socket
 "
 "
+/
+data
+/
+data
+/
 ANDROID_PACKAGE_NAME
 /
 firefox
