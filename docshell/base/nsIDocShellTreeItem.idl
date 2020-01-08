@@ -310,6 +310,7 @@ is
 .
 *
 /
+readonly
 attribute
 long
 itemType

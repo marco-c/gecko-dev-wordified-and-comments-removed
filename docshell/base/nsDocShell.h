@@ -1419,8 +1419,18 @@ ProfileTimelineMarker
 &
 )
 ;
+explicit
 nsDocShell
 (
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
+*
+aBrowsingContext
 )
 ;
 static
@@ -2933,6 +2943,7 @@ mMarginWidth
 int32_t
 mMarginHeight
 ;
+const
 int32_t
 mItemType
 ;
