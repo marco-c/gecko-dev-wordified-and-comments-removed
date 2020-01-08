@@ -1490,6 +1490,11 @@ jsm
 WebsiteFilter
 Policy
 "
+"
+macOSPoliciesParser
+.
+jsm
+"
 ]
 ;
 let

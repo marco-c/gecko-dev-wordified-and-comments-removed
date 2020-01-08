@@ -213,6 +213,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIMacPreferencesReader
+.
+idl
+'
+'
 nsIMacUtils
 .
 idl
@@ -234,6 +239,11 @@ MacStringHelpers
 .
 h
 '
+'
+nsMacPreferencesReader
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -246,6 +256,11 @@ mm
 '
 '
 MacStringHelpers
+.
+mm
+'
+'
+nsMacPreferencesReader
 .
 mm
 '
@@ -1116,6 +1131,10 @@ build
 dom
 /
 base
+'
+'
+/
+mfbt
 '
 '
 /
