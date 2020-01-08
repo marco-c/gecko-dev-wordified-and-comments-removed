@@ -1,10 +1,16 @@
 use
+crate
+:
+:
 gecko_bindings
 :
 :
 bindings
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -18,6 +24,9 @@ nsStyleCoord_CalcValue
 }
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -1204,6 +1213,9 @@ self
 )
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -1275,6 +1287,9 @@ CoordDataValue
 *
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -1733,6 +1748,9 @@ CoordDataValue
 *
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -1878,6 +1896,9 @@ self
 f32
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -1961,6 +1982,9 @@ self
 i32
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :

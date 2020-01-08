@@ -287,6 +287,9 @@ E
 TElement
 {
 use
+crate
+:
+:
 Atom
 ;
 lazy_static
@@ -1170,6 +1173,9 @@ self
 )
 {
 use
+crate
+:
+:
 computed_values
 :
 :
@@ -1181,6 +1187,9 @@ as
 TextCombineUpright
 ;
 use
+crate
+:
+:
 computed_values
 :
 :
@@ -1480,6 +1489,9 @@ self
 )
 {
 use
+crate
+:
+:
 properties
 :
 :
@@ -1497,6 +1509,9 @@ as
 MozMathVariant
 ;
 use
+crate
+:
+:
 properties
 :
 :
@@ -1514,6 +1529,9 @@ as
 FontWeight
 ;
 use
+crate
+:
+:
 values
 :
 :
@@ -2300,6 +2318,9 @@ self
 )
 {
 use
+crate
+:
+:
 properties
 :
 :
@@ -2635,6 +2656,9 @@ E
 TElement
 {
 use
+crate
+:
+:
 properties
 :
 :
@@ -2972,6 +2996,9 @@ self
 )
 {
 use
+crate
+:
+:
 values
 :
 :
@@ -3113,6 +3140,9 @@ E
 TElement
 {
 use
+crate
+:
+:
 properties
 :
 :
@@ -3130,6 +3160,9 @@ as
 Appearance
 ;
 use
+crate
+:
+:
 properties
 :
 :

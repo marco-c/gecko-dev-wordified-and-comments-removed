@@ -85,6 +85,9 @@ assert_parsing_mode_match
 )
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :

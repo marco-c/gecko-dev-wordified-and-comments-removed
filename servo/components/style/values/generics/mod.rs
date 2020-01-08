@@ -238,6 +238,9 @@ self
 u8
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -321,6 +324,9 @@ u32
 SymbolsType
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :

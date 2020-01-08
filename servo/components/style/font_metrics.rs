@@ -273,6 +273,7 @@ get_metrics_provider_for_product
 )
 -
 >
+crate
 :
 :
 gecko
@@ -283,6 +284,7 @@ wrapper
 :
 GeckoFontMetricsProvider
 {
+crate
 :
 :
 gecko

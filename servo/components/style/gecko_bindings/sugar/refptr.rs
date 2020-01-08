@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -11,6 +14,9 @@ ownership
 HasArcFFI
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -18,6 +24,12 @@ gecko_bindings
 bindings
 structs
 }
+;
+use
+crate
+:
+:
+Atom
 ;
 use
 servo_arc
@@ -55,9 +67,6 @@ fmt
 mem
 ptr
 }
-;
-use
-Atom
 ;
 pub
 unsafe

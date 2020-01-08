@@ -247,6 +247,9 @@ ParserContext
 bool
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -290,6 +293,9 @@ ParserContext
 bool
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -3713,6 +3719,9 @@ assert_touch_action_matches
 )
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -5217,6 +5226,7 @@ self
 >
 Result
 <
+crate
 :
 :
 gecko_bindings
@@ -5249,6 +5259,7 @@ All
 =
 >
 {
+crate
 :
 :
 gecko_bindings

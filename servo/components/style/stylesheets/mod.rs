@@ -426,6 +426,7 @@ struct
 UrlExtraData
 (
 pub
+crate
 :
 :
 gecko_bindings
@@ -439,6 +440,7 @@ refptr
 :
 RefPtr
 <
+crate
 :
 :
 gecko_bindings
@@ -500,6 +502,7 @@ ptr
 &
 *
 mut
+crate
 :
 :
 gecko_bindings
@@ -570,6 +573,9 @@ fmt
 Result
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :

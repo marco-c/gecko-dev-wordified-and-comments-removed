@@ -178,6 +178,9 @@ is_context_value_enabled
 bool
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :

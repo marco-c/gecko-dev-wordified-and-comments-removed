@@ -1598,12 +1598,18 @@ ParserContext
 bool
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
 bindings
 ;
 use
+crate
+:
+:
 stylesheets
 :
 :
@@ -2305,6 +2311,7 @@ if
 unsafe
 {
 !
+crate
 :
 :
 gecko_bindings
@@ -2444,6 +2451,9 @@ gecko
 ]
 {
 use
+crate
+:
+:
 selector_parser
 :
 :

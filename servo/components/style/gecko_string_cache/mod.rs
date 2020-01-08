@@ -15,6 +15,9 @@ non_upper_case_globals
 )
 ]
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -24,6 +27,9 @@ bindings
 Gecko_AddRefAtom
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -33,6 +39,9 @@ bindings
 Gecko_Atomize
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -42,6 +51,9 @@ bindings
 Gecko_Atomize16
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -51,6 +63,9 @@ bindings
 Gecko_ReleaseAtom
 ;
 use
+crate
+:
+:
 gecko_bindings
 :
 :
