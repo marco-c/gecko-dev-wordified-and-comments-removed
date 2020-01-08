@@ -689,9 +689,6 @@ true
 frames
 :
 true
-noTabReconfigureOnClose
-:
-true
 logInPage
 :
 true
