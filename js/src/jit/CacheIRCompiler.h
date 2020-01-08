@@ -818,6 +818,7 @@ kind_
 =
 PayloadReg
 )
+{
 return
 data_
 .
@@ -825,6 +826,7 @@ payloadReg
 .
 type
 ;
+}
 MOZ_ASSERT
 (
 kind_
@@ -1097,6 +1099,7 @@ kind_
 =
 PayloadStack
 )
+{
 return
 data_
 .
@@ -1104,6 +1107,7 @@ payloadStack
 .
 stackPushed
 ;
+}
 MOZ_ASSERT
 (
 kind_
@@ -1131,12 +1135,14 @@ kind_
 =
 PayloadStack
 )
+{
 return
 sizeof
 (
 uintptr_t
 )
 ;
+}
 MOZ_ASSERT
 (
 kind_
@@ -1213,6 +1219,7 @@ kind_
 =
 PayloadReg
 )
+{
 return
 payloadReg
 (
@@ -1221,6 +1228,7 @@ payloadReg
 =
 reg
 ;
+}
 if
 (
 kind_
@@ -1228,6 +1236,7 @@ kind_
 =
 ValueReg
 )
+{
 return
 valueReg
 (
@@ -1238,6 +1247,7 @@ aliases
 reg
 )
 ;
+}
 return
 false
 ;
@@ -3701,6 +3711,7 @@ hasValue
 (
 )
 )
+{
 return
 output_
 .
@@ -3712,6 +3723,7 @@ scratchReg
 (
 )
 ;
+}
 if
 (
 !
@@ -3725,6 +3737,7 @@ isFloat
 (
 )
 )
+{
 return
 output_
 .
@@ -3736,6 +3749,7 @@ gpr
 (
 )
 ;
+}
 return
 InvalidReg
 ;

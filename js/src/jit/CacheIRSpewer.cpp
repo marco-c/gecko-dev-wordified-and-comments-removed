@@ -148,8 +148,10 @@ enabled
 (
 )
 )
+{
 return
 ;
+}
 json
 .
 ref
@@ -236,9 +238,11 @@ enabled
 (
 )
 )
+{
 return
 true
 ;
+}
 char
 name
 [
@@ -264,6 +268,7 @@ filename
 1
 '
 )
+{
 SprintfLiteral
 (
 name
@@ -281,7 +286,9 @@ json
 pid
 )
 ;
+}
 else
+{
 SprintfLiteral
 (
 name
@@ -299,6 +306,7 @@ filename
 pid
 )
 ;
+}
 if
 (
 !
@@ -309,9 +317,11 @@ init
 name
 )
 )
+{
 return
 false
 ;
+}
 output
 .
 put
@@ -670,6 +680,7 @@ hasLatin1Chars
 (
 )
 )
+{
 QuoteString
 (
 out
@@ -688,7 +699,9 @@ length
 )
 )
 ;
+}
 else
+{
 QuoteString
 (
 out
@@ -707,6 +720,7 @@ length
 )
 )
 ;
+}
 }
 void
 CacheIRSpewer
@@ -766,12 +780,14 @@ isInt32
 (
 )
 )
+{
 type
 =
 "
 int32
 "
 ;
+}
 j
 .
 property

@@ -3201,6 +3201,7 @@ LValueToInt32
 :
 NORMAL
 )
+{
 input
 =
 lir
@@ -3215,7 +3216,9 @@ input
 (
 )
 ;
+}
 else
+{
 input
 =
 lir
@@ -3230,6 +3233,7 @@ input
 (
 )
 ;
+}
 Label
 fails
 ;
@@ -5191,6 +5195,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 branchTestBoolean
@@ -5204,6 +5209,7 @@ tag
 notBoolean
 )
 ;
+}
 {
 ScratchTagScopeRelease
 _
@@ -5229,6 +5235,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 jump
@@ -5236,6 +5243,7 @@ jump
 ifTruthy
 )
 ;
+}
 masm
 .
 bind
@@ -5272,6 +5280,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 branchTestInt32
@@ -5285,6 +5294,7 @@ tag
 notInt32
 )
 ;
+}
 {
 ScratchTagScopeRelease
 _
@@ -5310,6 +5320,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 jump
@@ -5317,6 +5328,7 @@ jump
 ifTruthy
 )
 ;
+}
 masm
 .
 bind
@@ -5358,6 +5370,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 branchTestObject
@@ -5371,6 +5384,7 @@ tag
 notObject
 )
 ;
+}
 {
 ScratchTagScopeRelease
 _
@@ -5424,6 +5438,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 branchTestObject
@@ -5436,6 +5451,7 @@ tag
 ifTruthy
 )
 ;
+}
 }
 -
 -
@@ -5515,6 +5531,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 branchTestString
@@ -5528,6 +5545,7 @@ tag
 notString
 )
 ;
+}
 {
 ScratchTagScopeRelease
 _
@@ -5553,6 +5571,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 jump
@@ -5560,6 +5579,7 @@ jump
 ifTruthy
 )
 ;
+}
 masm
 .
 bind
@@ -5593,6 +5613,7 @@ tagCount
 =
 1
 )
+{
 masm
 .
 branchTestSymbol
@@ -5605,6 +5626,7 @@ tag
 ifTruthy
 )
 ;
+}
 -
 -
 tagCount
@@ -5854,6 +5876,7 @@ MIRType
 :
 ObjectOrNull
 )
+{
 masm
 .
 branchTestPtr
@@ -5867,6 +5890,7 @@ input
 falsy
 )
 ;
+}
 OutOfLineTestObject
 *
 ool
@@ -6540,8 +6564,10 @@ j
 =
 func
 )
+{
 continue
 ;
+}
 if
 (
 lastBranch
@@ -6550,6 +6576,7 @@ isInitialized
 (
 )
 )
+{
 lastBranch
 .
 emit
@@ -6557,6 +6584,7 @@ emit
 masm
 )
 ;
+}
 ObjectGroup
 *
 group
@@ -6677,6 +6705,7 @@ isNextBlock
 lastBlock
 )
 )
+{
 masm
 .
 jump
@@ -6689,6 +6718,7 @@ label
 )
 )
 ;
+}
 return
 ;
 }
@@ -6729,6 +6759,7 @@ isNextBlock
 fallback
 )
 )
+{
 masm
 .
 jump
@@ -6741,6 +6772,7 @@ label
 )
 )
 ;
+}
 return
 ;
 }
@@ -6777,6 +6809,7 @@ isNextBlock
 lastBlock
 )
 )
+{
 masm
 .
 jump
@@ -6789,6 +6822,7 @@ label
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -8428,6 +8462,7 @@ if
 (
 needExtraReg
 )
+{
 masm
 .
 pop
@@ -8435,6 +8470,7 @@ pop
 holder
 )
 ;
+}
 masm
 .
 PopRegsInMask
@@ -9158,9 +9194,11 @@ if
 !
 res
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 JS_USE_LINK_REGISTER
@@ -9174,12 +9212,14 @@ RegExpShared
 :
 MatchOnly
 )
+{
 masm
 .
 pushReturnAddress
 (
 )
 ;
+}
 #
 endif
 if
@@ -9862,6 +9902,7 @@ volatile_
 (
 )
 )
+{
 volatileRegs
 .
 add
@@ -9869,6 +9910,7 @@ add
 lastIndex
 )
 ;
+}
 if
 (
 input
@@ -9877,6 +9919,7 @@ volatile_
 (
 )
 )
+{
 volatileRegs
 .
 add
@@ -9884,6 +9927,7 @@ add
 input
 )
 ;
+}
 if
 (
 regexp
@@ -9892,6 +9936,7 @@ volatile_
 (
 )
 )
+{
 volatileRegs
 .
 add
@@ -9899,6 +9944,7 @@ add
 regexp
 )
 ;
+}
 #
 ifdef
 JS_TRACE_LOGGING
@@ -10162,6 +10208,7 @@ volatile_
 (
 )
 )
+{
 volatileRegs
 .
 add
@@ -10169,6 +10216,7 @@ add
 temp1
 )
 ;
+}
 masm
 .
 loadPtr
@@ -10683,6 +10731,7 @@ CharEncoding
 :
 Latin1
 )
+{
 flags
 |
 =
@@ -10691,6 +10740,7 @@ JSString
 :
 LATIN1_CHARS_BIT
 ;
+}
 if
 (
 kind
@@ -10701,6 +10751,7 @@ FallbackKind
 :
 FatInlineString
 )
+{
 masm
 .
 newGCString
@@ -10715,7 +10766,9 @@ kind
 stringsCanBeInNursery
 )
 ;
+}
 else
+{
 masm
 .
 newGCFatInlineString
@@ -10730,6 +10783,7 @@ kind
 stringsCanBeInNursery
 )
 ;
+}
 masm
 .
 bind
@@ -12072,9 +12126,11 @@ if
 !
 templateObject
 )
+{
 return
 nullptr
 ;
+}
 TemplateObject
 templateObj
 (
@@ -12556,6 +12612,7 @@ CharEncoding
 :
 Latin1
 )
+{
 masm
 .
 bind
@@ -12564,6 +12621,7 @@ bind
 isLatin1
 )
 ;
+}
 Label
 matchLoop
 ;
@@ -12906,6 +12964,7 @@ depStr
 :
 depStrs
 )
+{
 depStr
 .
 generateFallback
@@ -12913,6 +12972,7 @@ generateFallback
 masm
 )
 ;
+}
 masm
 .
 bind
@@ -12998,9 +13058,11 @@ if
 !
 code
 )
+{
 return
 nullptr
 ;
+}
 #
 ifdef
 JS_ION_PERF
@@ -13891,9 +13953,11 @@ if
 !
 code
 )
+{
 return
 nullptr
 ;
+}
 #
 ifdef
 JS_ION_PERF
@@ -14706,9 +14770,11 @@ if
 !
 code
 )
+{
 return
 nullptr
 ;
+}
 #
 ifdef
 JS_ION_PERF
@@ -16334,6 +16400,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 ImmGCPtr
@@ -16357,7 +16424,9 @@ toString
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -16371,6 +16440,7 @@ replacement
 )
 )
 ;
+}
 if
 (
 lir
@@ -16385,6 +16455,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 ImmGCPtr
@@ -16408,7 +16479,9 @@ toString
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -16422,6 +16495,7 @@ pattern
 )
 )
 ;
+}
 if
 (
 lir
@@ -16436,6 +16510,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 ImmGCPtr
@@ -16459,7 +16534,9 @@ toString
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -16473,6 +16550,7 @@ string
 )
 )
 ;
+}
 if
 (
 lir
@@ -16487,19 +16565,23 @@ isFlatReplacement
 (
 )
 )
+{
 callVM
 (
 StringFlatReplaceInfo
 lir
 )
 ;
+}
 else
+{
 callVM
 (
 StringReplaceInfo
 lir
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -18129,8 +18211,10 @@ iter
 =
 lir
 )
+{
 continue
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -18170,11 +18254,13 @@ shouldVerifyOsiPointRegs
 safepoint
 )
 )
+{
 verifyOsiPointRegs
 (
 safepoint
 )
 ;
+}
 #
 endif
 }
@@ -18968,6 +19054,7 @@ poBegin
 (
 )
 )
+{
 masm
 .
 jump
@@ -18976,6 +19063,7 @@ jump
 returnLabel_
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -19037,6 +19125,7 @@ isProfilerInstrumentationEnabled
 (
 )
 )
+{
 masm
 .
 profilerEnterFrame
@@ -19049,6 +19138,7 @@ getStackPointer
 temp
 )
 ;
+}
 MOZ_ASSERT
 (
 masm
@@ -19488,6 +19578,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 storeDouble
@@ -19499,6 +19590,7 @@ arg
 dest
 )
 ;
+}
 else
 if
 (
@@ -19509,6 +19601,7 @@ isRegister
 (
 )
 )
+{
 masm
 .
 storeValue
@@ -19524,7 +19617,9 @@ arg
 dest
 )
 ;
+}
 else
+{
 masm
 .
 storeValue
@@ -19543,6 +19638,7 @@ toJSValue
 dest
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -19633,8 +19729,10 @@ numMoves
 (
 )
 )
+{
 return
 ;
+}
 MoveResolver
 &
 resolver
@@ -19917,8 +20015,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 MoveEmitter
 emitter
 (
@@ -19941,6 +20041,7 @@ isGeneralReg
 (
 )
 )
+{
 emitter
 .
 setScratchRegister
@@ -19962,13 +20063,16 @@ reg
 )
 )
 ;
+}
 else
+{
 resolver
 .
 sortMemoryToMemoryMoves
 (
 )
 ;
+}
 #
 endif
 emitter
@@ -20078,6 +20182,7 @@ LPointer
 :
 GC_THING
 )
+{
 masm
 .
 movePtr
@@ -20102,7 +20207,9 @@ output
 )
 )
 ;
+}
 else
+{
 masm
 .
 movePtr
@@ -20127,6 +20234,7 @@ output
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -20408,11 +20516,13 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 dest
 )
 ;
+}
 MIRType
 valueType
 =
@@ -20486,6 +20596,7 @@ isConstant
 (
 )
 )
+{
 value
 .
 emplace
@@ -20511,7 +20622,9 @@ toJSValue
 )
 )
 ;
+}
 else
+{
 value
 .
 emplace
@@ -20531,6 +20644,7 @@ value
 )
 )
 ;
+}
 masm
 .
 storeUnboxedValue
@@ -20628,6 +20742,7 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 Address
@@ -20637,6 +20752,7 @@ offset
 )
 )
 ;
+}
 masm
 .
 storeValue
@@ -21358,6 +21474,7 @@ type
 =
 JSVAL_TYPE_OBJECT
 )
+{
 masm
 .
 guardedCallPreBarrier
@@ -21369,6 +21486,7 @@ MIRType
 Object
 )
 ;
+}
 else
 if
 (
@@ -21377,6 +21495,7 @@ type
 =
 JSVAL_TYPE_STRING
 )
+{
 masm
 .
 guardedCallPreBarrier
@@ -21388,7 +21507,9 @@ MIRType
 String
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 !
@@ -21398,6 +21519,7 @@ type
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -21560,11 +21682,13 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 addr
 )
 ;
+}
 masm
 .
 storeConstantOrRegister
@@ -21631,11 +21755,13 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 addr
 )
 ;
+}
 masm
 .
 storeConstantOrRegister
@@ -21926,6 +22052,7 @@ isConstant
 (
 )
 )
+{
 value
 .
 emplace
@@ -21956,7 +22083,9 @@ toJSValue
 )
 )
 ;
+}
 else
+{
 value
 .
 emplace
@@ -21991,6 +22120,7 @@ value
 )
 )
 ;
+}
 emitSetPropertyPolymorphic
 (
 ins
@@ -22425,6 +22555,7 @@ checkNative
 (
 )
 )
+{
 masm
 .
 branchIfNonNativeObj
@@ -22439,6 +22570,7 @@ rejoin
 )
 )
 ;
+}
 masm
 .
 loadPtr
@@ -24217,6 +24349,7 @@ isGlobal
 &
 maybeConstant
 )
+{
 EmitStoreBufferCheckForConstant
 (
 masm
@@ -24234,6 +24367,7 @@ exit
 callVM
 )
 ;
+}
 masm
 .
 bind
@@ -24291,6 +24425,7 @@ if
 (
 isGlobal
 )
+{
 masm
 .
 callWithABI
@@ -24303,7 +24438,9 @@ PostGlobalWriteBarrier
 )
 )
 ;
+}
 else
+{
 masm
 .
 callWithABI
@@ -24316,6 +24453,7 @@ PostWriteBarrier
 )
 )
 ;
+}
 masm
 .
 bind
@@ -24573,8 +24711,10 @@ isConstant
 (
 )
 )
+{
 return
 ;
+}
 JSObject
 *
 obj
@@ -24607,8 +24747,10 @@ maybeGlobal
 =
 obj
 )
+{
 return
 ;
+}
 const
 uint32_t
 *
@@ -24824,6 +24966,7 @@ MIRType
 :
 ObjectOrNull
 )
+{
 masm
 .
 branchTestPtr
@@ -24842,7 +24985,9 @@ rejoin
 )
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 lir
@@ -24869,6 +25014,7 @@ MIRType
 Object
 )
 ;
+}
 }
 else
 {
@@ -26076,6 +26222,7 @@ JSJitInfo
 :
 IgnoresReturnValueNative
 )
+{
 native
 =
 jitInfo
@@ -26083,6 +26230,7 @@ jitInfo
 >
 ignoresReturnValueMethod
 ;
+}
 }
 masm
 .
@@ -26135,6 +26283,7 @@ maybeCrossRealm
 (
 )
 )
+{
 masm
 .
 switchToRealm
@@ -26151,6 +26300,7 @@ realmPtr
 ReturnReg
 )
 ;
+}
 masm
 .
 loadValue
@@ -26277,6 +26427,7 @@ DOMObjectKind
 :
 Unknown
 )
+{
 masm
 .
 branchTestObjectIsProxy
@@ -26288,6 +26439,7 @@ priv
 isProxy
 )
 ;
+}
 if
 (
 kind
@@ -26335,6 +26487,7 @@ DOMObjectKind
 :
 Unknown
 )
+{
 masm
 .
 jump
@@ -26343,6 +26496,7 @@ jump
 done
 )
 ;
+}
 }
 if
 (
@@ -27062,12 +27216,14 @@ hasLiveDefUses
 (
 )
 )
+{
 masm
 .
 speculationBarrier
 (
 )
 ;
+}
 masm
 .
 adjustStack
@@ -27468,6 +27624,7 @@ maybeCrossRealm
 (
 )
 )
+{
 masm
 .
 switchToObjectRealm
@@ -27476,6 +27633,7 @@ calleereg
 objreg
 )
 ;
+}
 if
 (
 call
@@ -27490,6 +27648,7 @@ needsArgCheck
 (
 )
 )
+{
 masm
 .
 loadJitCodeRaw
@@ -27498,7 +27657,9 @@ calleereg
 objreg
 )
 ;
+}
 else
+{
 masm
 .
 loadJitCodeNoArgCheck
@@ -27507,6 +27668,7 @@ calleereg
 objreg
 )
 ;
+}
 masm
 .
 freeStack
@@ -28251,6 +28413,7 @@ maybeCrossRealm
 (
 )
 )
+{
 masm
 .
 switchToObjectRealm
@@ -28259,6 +28422,7 @@ calleereg
 objreg
 )
 ;
+}
 if
 (
 call
@@ -28273,6 +28437,7 @@ needsArgCheck
 (
 )
 )
+{
 masm
 .
 loadJitCodeRaw
@@ -28281,7 +28446,9 @@ calleereg
 objreg
 )
 ;
+}
 else
+{
 masm
 .
 loadJitCodeNoArgCheck
@@ -28290,6 +28457,7 @@ calleereg
 objreg
 )
 ;
+}
 masm
 .
 freeStack
@@ -29748,6 +29916,7 @@ maybeCrossRealm
 (
 )
 )
+{
 masm
 .
 switchToObjectRealm
@@ -29756,6 +29925,7 @@ calleereg
 objreg
 )
 ;
+}
 masm
 .
 loadJitCodeRaw
@@ -30907,8 +31077,10 @@ unknown
 (
 )
 )
+{
 continue
 ;
+}
 int32_t
 offset
 =
@@ -31073,8 +31245,10 @@ unknown
 (
 )
 )
+{
 continue
 ;
+}
 Label
 skip
 ;
@@ -31281,8 +31455,10 @@ omitOverRecursedCheck
 (
 )
 )
+{
 return
 ;
+}
 CheckOverRecursedFailure
 *
 ool
@@ -31749,9 +31925,11 @@ hasProfilingScripts
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 JSScript
 *
 script
@@ -31772,9 +31950,11 @@ if
 !
 script
 )
+{
 return
 nullptr
 ;
+}
 auto
 counts
 =
@@ -31804,9 +31984,11 @@ numBlocks
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 size_t
@@ -31877,6 +32059,7 @@ caller
 (
 )
 )
+{
 resume
 =
 resume
@@ -31886,6 +32069,7 @@ caller
 (
 )
 ;
+}
 offset
 =
 script
@@ -32003,9 +32187,11 @@ numSuccessors
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 size_t
@@ -32026,6 +32212,7 @@ j
 +
 +
 )
+{
 counts
 -
 >
@@ -32054,6 +32241,7 @@ id
 )
 )
 ;
+}
 }
 scriptCounts_
 =
@@ -32129,9 +32317,11 @@ init
 (
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 inc64
@@ -32183,6 +32373,7 @@ getExtraName
 (
 )
 )
+{
 printer
 .
 printf
@@ -32207,7 +32398,9 @@ opName
 extra
 )
 ;
+}
 else
+{
 printer
 .
 printf
@@ -32228,6 +32421,7 @@ opName
 )
 )
 ;
+}
 #
 endif
 }
@@ -32252,6 +32446,7 @@ hadOutOfMemory
 (
 )
 )
+{
 block
 .
 setCode
@@ -32263,6 +32458,7 @@ string
 )
 )
 ;
+}
 }
 }
 ;
@@ -32484,6 +32680,7 @@ MIRType
 :
 ObjectOrNull
 )
+{
 masm
 .
 branchPtr
@@ -32501,6 +32698,7 @@ ImmWord
 ok
 )
 ;
+}
 if
 (
 typeset
@@ -32512,6 +32710,7 @@ getObjectCount
 >
 0
 )
+{
 masm
 .
 guardObjectType
@@ -32524,7 +32723,9 @@ input
 miss
 )
 ;
+}
 else
+{
 masm
 .
 jump
@@ -32533,6 +32734,7 @@ jump
 miss
 )
 ;
+}
 masm
 .
 jump
@@ -33061,8 +33263,10 @@ numDefs
 =
 0
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 lir
@@ -33091,8 +33295,10 @@ isBogusTemp
 (
 )
 )
+{
 return
 ;
+}
 Register
 output
 =
@@ -33151,8 +33357,10 @@ numDefs
 =
 0
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 lir
@@ -33187,8 +33395,10 @@ isRegister
 (
 )
 )
+{
 return
 ;
+}
 ValueOperand
 output
 =
@@ -33236,8 +33446,10 @@ if
 !
 mir
 )
+{
 return
 ;
+}
 switch
 (
 mir
@@ -33321,8 +33533,10 @@ snapshot
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 lir
@@ -33332,8 +33546,10 @@ isStart
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 lir
@@ -33343,8 +33559,10 @@ isOsiPoint
 (
 )
 )
+{
 return
 ;
+}
 masm
 .
 comment
@@ -33551,8 +33769,10 @@ JitSpewEnabled
 JitSpew_OptimizationTracking
 )
 )
+{
 return
 ;
+}
 #
 ifdef
 JS_JITSPEW
@@ -33648,8 +33868,10 @@ JitSpewEnabled
 JitSpew_OptimizationTracking
 )
 )
+{
 return
 ;
+}
 optimizations
 -
 >
@@ -33697,6 +33919,7 @@ compilingWasm
 (
 )
 )
+{
 perfSpewer
 =
 &
@@ -33707,6 +33930,7 @@ perfSpewer
 (
 )
 ;
+}
 #
 endif
 for
@@ -33747,8 +33971,10 @@ isTrivial
 (
 )
 )
+{
 continue
 ;
+}
 #
 ifdef
 JS_JITSPEW
@@ -33825,6 +34051,7 @@ pc
 (
 )
 )
+{
 lineNumber
 =
 PCToLineNumber
@@ -33859,6 +34086,7 @@ pc
 columnNumber
 )
 ;
+}
 }
 else
 {
@@ -34003,9 +34231,11 @@ init
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 TrackedOptimizations
 *
@@ -34036,9 +34266,11 @@ mir
 masm
 )
 )
+{
 return
 false
 ;
+}
 #
 endif
 for
@@ -34079,9 +34311,11 @@ ensureBallast
 (
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 JS_JITSPEW
@@ -34115,6 +34349,7 @@ getExtraName
 (
 )
 )
+{
 JitSpewCont
 (
 JitSpew_Codegen
@@ -34126,6 +34361,7 @@ s
 extra
 )
 ;
+}
 JitSpewFin
 (
 JitSpew_Codegen
@@ -34137,6 +34373,7 @@ if
 (
 counts
 )
+{
 blockCounts
 -
 >
@@ -34146,6 +34383,7 @@ visitInstruction
 iter
 )
 ;
+}
 #
 ifdef
 CHECK_OSIPOINT_REGISTERS
@@ -34158,6 +34396,7 @@ safepoint
 (
 )
 )
+{
 resetOsiPointRegs
 (
 iter
@@ -34168,6 +34407,7 @@ safepoint
 )
 )
 ;
+}
 #
 endif
 if
@@ -34213,9 +34453,11 @@ trackedSite
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -34313,9 +34555,11 @@ trackedOptimizations
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 setElement
@@ -34433,6 +34677,7 @@ trackedOptimizations
 (
 )
 )
+{
 extendTrackedOptimizationsEntry
 (
 iter
@@ -34448,6 +34693,7 @@ trackedOptimizations
 )
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -34456,12 +34702,14 @@ if
 !
 counts
 )
+{
 emitDebugResultChecks
 (
 *
 iter
 )
 ;
+}
 #
 endif
 }
@@ -34473,9 +34721,11 @@ oom
 (
 )
 )
+{
 return
 false
 ;
+}
 #
 if
 defined
@@ -34622,13 +34872,16 @@ if
 !
 res
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 convertDoubleElements
 )
+{
 res
 -
 >
@@ -34636,6 +34889,7 @@ setShouldConvertDoubleElements
 (
 )
 ;
+}
 return
 res
 ;
@@ -34875,6 +35129,7 @@ ReturnReg
 =
 objReg
 )
+{
 masm
 .
 movePtr
@@ -34883,6 +35138,7 @@ ReturnReg
 objReg
 )
 ;
+}
 restoreLive
 (
 lir
@@ -35148,6 +35404,7 @@ numArgs
 +
 i
 )
+{
 masm
 .
 passABIArg
@@ -35168,6 +35425,7 @@ MoveOp
 DOUBLE
 )
 ;
+}
 switch
 (
 numArgs
@@ -35415,12 +35673,14 @@ convertDoubleElements
 (
 )
 )
+{
 templateObject
 .
 setConvertDoubleElements
 (
 )
 ;
+}
 masm
 .
 createGCObject
@@ -36952,6 +37212,7 @@ ReturnReg
 =
 objReg
 )
+{
 masm
 .
 movePtr
@@ -36960,6 +37221,7 @@ ReturnReg
 objReg
 )
 ;
+}
 restoreLive
 (
 lir
@@ -36988,9 +37250,11 @@ isNative
 (
 )
 )
+{
 return
 true
 ;
+}
 const
 NativeTemplateObject
 &
@@ -37018,9 +37282,11 @@ nfixed
 =
 0
 )
+{
 return
 false
 ;
+}
 for
 (
 uint32_t
@@ -37051,9 +37317,11 @@ isUndefined
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -37232,9 +37500,11 @@ object
 =
 allocMir
 )
+{
 return
 true
 ;
+}
 store
 -
 >
@@ -37357,9 +37627,11 @@ numPredecessors
 =
 1
 )
+{
 return
 true
 ;
+}
 break
 ;
 }
@@ -38955,6 +39227,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 ImmGCPtr
@@ -38974,7 +39247,9 @@ toObject
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -38983,6 +39258,7 @@ newTarget
 )
 )
 ;
+}
 if
 (
 callee
@@ -38992,6 +39268,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 ImmGCPtr
@@ -39011,7 +39288,9 @@ toObject
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -39020,6 +39299,7 @@ callee
 )
 )
 ;
+}
 callVM
 (
 CreateThisInfoCodeGen
@@ -39144,6 +39424,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 ImmGCPtr
@@ -39163,7 +39444,9 @@ toObject
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -39172,6 +39455,7 @@ proto
 )
 )
 ;
+}
 if
 (
 newTarget
@@ -39181,6 +39465,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 ImmGCPtr
@@ -39200,7 +39485,9 @@ toObject
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -39209,6 +39496,7 @@ newTarget
 )
 )
 ;
+}
 if
 (
 callee
@@ -39218,6 +39506,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 ImmGCPtr
@@ -39237,7 +39526,9 @@ toObject
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -39246,6 +39537,7 @@ callee
 )
 )
 ;
+}
 callVM
 (
 CreateThisWithProtoInfo
@@ -40158,6 +40450,7 @@ payload
 =
 output
 )
+{
 masm
 .
 movePtr
@@ -40166,6 +40459,7 @@ payload
 output
 )
 ;
+}
 masm
 .
 bind
@@ -41992,6 +42286,7 @@ spIncrement
 (
 )
 )
+{
 masm
 .
 freeStack
@@ -42004,6 +42299,7 @@ spIncrement
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 (
@@ -42339,6 +42635,7 @@ if
 (
 switchRealm
 )
+{
 masm
 .
 switchToWasmTlsRealm
@@ -42347,6 +42644,7 @@ ABINonArgReturnReg0
 ABINonArgReturnReg1
 )
 ;
+}
 }
 else
 {
@@ -42366,6 +42664,7 @@ spIncrement
 (
 )
 )
+{
 masm
 .
 reserveStack
@@ -42378,6 +42677,7 @@ spIncrement
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -44384,6 +44684,7 @@ if
 (
 snapshot
 )
+{
 bailoutCmp32
 (
 Assembler
@@ -44398,12 +44699,14 @@ INT32_MIN
 snapshot
 )
 ;
+}
 #
 else
 if
 (
 snapshot
 )
+{
 bailoutIf
 (
 Assembler
@@ -44413,6 +44716,7 @@ Overflow
 snapshot
 )
 ;
+}
 #
 endif
 masm
@@ -47481,6 +47785,7 @@ MIRType
 Null
 )
 )
+{
 masm
 .
 branchTestNull
@@ -47493,6 +47798,7 @@ tag
 nullOrLikeUndefined
 )
 ;
+}
 if
 (
 input
@@ -47506,6 +47812,7 @@ MIRType
 Undefined
 )
 )
+{
 masm
 .
 branchTestUndefined
@@ -47518,6 +47825,7 @@ tag
 nullOrLikeUndefined
 )
 ;
+}
 if
 (
 ool
@@ -47673,6 +47981,7 @@ MCompare
 :
 Compare_Null
 )
+{
 masm
 .
 testNullSet
@@ -47682,7 +47991,9 @@ value
 output
 )
 ;
+}
 else
+{
 masm
 .
 testUndefinedSet
@@ -47692,6 +48003,7 @@ value
 output
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -48004,6 +48316,7 @@ MIRType
 Null
 )
 )
+{
 masm
 .
 branchTestNull
@@ -48016,6 +48329,7 @@ tag
 ifTrueLabel
 )
 ;
+}
 if
 (
 input
@@ -48029,6 +48343,7 @@ MIRType
 Undefined
 )
 )
+{
 masm
 .
 branchTestUndefined
@@ -48041,6 +48356,7 @@ tag
 ifTrueLabel
 )
 ;
+}
 if
 (
 ool
@@ -48157,6 +48473,7 @@ MCompare
 :
 Compare_Null
 )
+{
 testNullEmitBranch
 (
 cond
@@ -48175,7 +48492,9 @@ ifFalse
 )
 )
 ;
+}
 else
+{
 testUndefinedEmitBranch
 (
 cond
@@ -48194,6 +48513,7 @@ ifFalse
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -48484,6 +48804,7 @@ MIRType
 :
 ObjectOrNull
 )
+{
 masm
 .
 branchTestPtr
@@ -48497,6 +48818,7 @@ objreg
 emulatesUndefined
 )
 ;
+}
 branchTestObjectEmulatesUndefined
 (
 objreg
@@ -48994,6 +49316,7 @@ MIRType
 :
 ObjectOrNull
 )
+{
 masm
 .
 branchTestPtr
@@ -49007,6 +49330,7 @@ input
 ifTrueLabel
 )
 ;
+}
 Register
 scratch
 =
@@ -50337,6 +50661,7 @@ CharEncoding
 :
 Latin1
 )
+{
 maxThinInlineLength
 =
 JSThinInlineString
@@ -50344,7 +50669,9 @@ JSThinInlineString
 :
 MAX_LENGTH_LATIN1
 ;
+}
 else
+{
 maxThinInlineLength
 =
 JSThinInlineString
@@ -50352,6 +50679,7 @@ JSThinInlineString
 :
 MAX_LENGTH_TWO_BYTE
 ;
+}
 Label
 isFat
 allocDone
@@ -50392,6 +50720,7 @@ CharEncoding
 :
 Latin1
 )
+{
 flags
 |
 =
@@ -50400,6 +50729,7 @@ JSString
 :
 LATIN1_CHARS_BIT
 ;
+}
 masm
 .
 newGCString
@@ -50466,6 +50796,7 @@ CharEncoding
 :
 Latin1
 )
+{
 flags
 |
 =
@@ -50474,6 +50805,7 @@ JSString
 :
 LATIN1_CHARS_BIT
 ;
+}
 masm
 .
 newGCFatInlineString
@@ -51004,6 +51336,7 @@ CharEncoding
 :
 Latin1
 )
+{
 flags
 |
 =
@@ -51012,6 +51345,7 @@ JSString
 :
 LATIN1_CHARS_BIT
 ;
+}
 masm
 .
 store32
@@ -51057,6 +51391,7 @@ temp2
 =
 string
 )
+{
 masm
 .
 push
@@ -51064,6 +51399,7 @@ push
 string
 )
 ;
+}
 masm
 .
 loadInlineStringCharsForStore
@@ -51113,6 +51449,7 @@ temp2
 =
 string
 )
+{
 masm
 .
 pop
@@ -51120,6 +51457,7 @@ pop
 string
 )
 ;
+}
 masm
 .
 jump
@@ -51243,6 +51581,7 @@ CharEncoding
 :
 Latin1
 )
+{
 flags
 |
 =
@@ -51251,6 +51590,7 @@ JSString
 :
 LATIN1_CHARS_BIT
 ;
+}
 masm
 .
 store32
@@ -52669,6 +53009,7 @@ if
 (
 enter
 )
+{
 masm
 .
 tracelogStartId
@@ -52678,7 +53019,9 @@ TraceLogger_VM
 true
 )
 ;
+}
 else
+{
 masm
 .
 tracelogStopId
@@ -52688,6 +53031,7 @@ TraceLogger_VM
 true
 )
 ;
+}
 }
 if
 (
@@ -52713,13 +53057,16 @@ hasTextId
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 enter
 )
+{
 masm
 .
 tracelogStartId
@@ -52733,7 +53080,9 @@ textId
 true
 )
 ;
+}
 else
+{
 masm
 .
 tracelogStopId
@@ -52747,6 +53096,7 @@ textId
 true
 )
 ;
+}
 }
 masm
 .
@@ -53746,19 +54096,23 @@ MStringConvertCase
 :
 LowerCase
 )
+{
 callVM
 (
 StringToLowerCaseInfo
 lir
 )
 ;
+}
 else
+{
 callVM
 (
 StringToUpperCaseInfo
 lir
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -54695,8 +55049,10 @@ idx
 <
 len
 )
+{
 return
 ;
+}
 bailout
 (
 snapshot
@@ -54714,6 +55070,7 @@ isRegister
 (
 )
 )
+{
 bailoutCmp32
 (
 Assembler
@@ -54731,7 +55088,9 @@ idx
 snapshot
 )
 ;
+}
 else
+{
 bailoutCmp32
 (
 Assembler
@@ -54749,6 +55108,7 @@ idx
 snapshot
 )
 ;
+}
 return
 ;
 }
@@ -54769,6 +55129,7 @@ isConstant
 (
 )
 )
+{
 bailoutCmp32
 (
 Assembler
@@ -54786,6 +55147,7 @@ length
 snapshot
 )
 ;
+}
 else
 if
 (
@@ -54796,6 +55158,7 @@ isRegister
 (
 )
 )
+{
 bailoutCmp32
 (
 Assembler
@@ -54810,7 +55173,9 @@ indexReg
 snapshot
 )
 ;
+}
 else
+{
 bailoutCmp32
 (
 Assembler
@@ -54825,6 +55190,7 @@ indexReg
 snapshot
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -54979,6 +55345,7 @@ isRegister
 (
 )
 )
+{
 bailoutCmp32
 (
 Assembler
@@ -54996,7 +55363,9 @@ nmax
 snapshot
 )
 ;
+}
 else
+{
 bailoutCmp32
 (
 Assembler
@@ -55014,6 +55383,7 @@ nmax
 snapshot
 )
 ;
+}
 return
 ;
 }
@@ -55127,11 +55497,14 @@ min
 diff
 )
 )
+{
 max
 =
 diff
 ;
+}
 else
+{
 masm
 .
 sub32
@@ -55143,6 +55516,7 @@ min
 temp
 )
 ;
+}
 }
 }
 if
@@ -55212,6 +55586,7 @@ isRegister
 (
 )
 )
+{
 bailoutCmp32
 (
 Assembler
@@ -55226,7 +55601,9 @@ temp
 snapshot
 )
 ;
+}
 else
+{
 bailoutCmp32
 (
 Assembler
@@ -55241,6 +55618,7 @@ temp
 snapshot
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -55361,6 +55739,7 @@ isRegister
 (
 )
 )
+{
 masm
 .
 spectreMaskIndex
@@ -55373,7 +55752,9 @@ length
 output
 )
 ;
+}
 else
+{
 masm
 .
 spectreMaskIndex
@@ -55386,6 +55767,7 @@ length
 output
 )
 ;
+}
 }
 class
 OutOfLineStoreElementHole
@@ -55650,6 +56032,7 @@ isConstant
 (
 )
 )
+{
 return
 ConstantOrRegister
 (
@@ -55666,6 +56049,7 @@ toJSValue
 )
 )
 ;
+}
 return
 TypedOrValueRegister
 (
@@ -55826,6 +56210,7 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 elements
@@ -55843,6 +56228,7 @@ offsetAdjustment
 )
 )
 ;
+}
 if
 (
 store
@@ -55857,6 +56243,7 @@ needsHoleCheck
 (
 )
 )
+{
 emitStoreHoleCheck
 (
 elements
@@ -55880,6 +56267,7 @@ snapshot
 )
 )
 ;
+}
 emitStoreElementTyped
 (
 store
@@ -55994,6 +56382,7 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 elements
@@ -56011,6 +56400,7 @@ offsetAdjustment
 )
 )
 ;
+}
 if
 (
 lir
@@ -56025,6 +56415,7 @@ needsHoleCheck
 (
 )
 )
+{
 emitStoreHoleCheck
 (
 elements
@@ -56048,6 +56439,7 @@ snapshot
 )
 )
 ;
+}
 if
 (
 lir
@@ -56314,6 +56706,7 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 elements
@@ -56326,6 +56719,7 @@ index
 0
 )
 ;
+}
 if
 (
 std
@@ -56783,6 +57177,7 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 elements
@@ -56795,6 +57190,7 @@ index
 0
 )
 ;
+}
 masm
 .
 bind
@@ -57259,6 +57655,7 @@ isConstant
 (
 )
 )
+{
 value
 .
 emplace
@@ -57284,7 +57681,9 @@ toJSValue
 )
 )
 ;
+}
 else
+{
 value
 .
 emplace
@@ -57304,6 +57703,7 @@ value
 )
 )
 ;
+}
 spectreTemp
 =
 ToTempRegisterOrInvalid
@@ -57396,6 +57796,7 @@ isConstant
 (
 )
 )
+{
 value
 .
 emplace
@@ -57421,7 +57822,9 @@ toJSValue
 )
 )
 ;
+}
 else
+{
 value
 .
 emplace
@@ -57441,6 +57844,7 @@ value
 )
 )
 ;
+}
 spectreTemp
 =
 ToTempRegisterOrInvalid
@@ -57824,6 +58228,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 Imm32
@@ -57835,7 +58240,9 @@ index
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -57844,6 +58251,7 @@ index
 )
 )
 ;
+}
 pushArg
 (
 object
@@ -57901,6 +58309,7 @@ if
 (
 preBarrier
 )
+{
 masm
 .
 guardedCallPreBarrier
@@ -57909,6 +58318,7 @@ address
 type
 )
 ;
+}
 if
 (
 value
@@ -59577,6 +59987,7 @@ isConstant
 (
 )
 )
+{
 value
 .
 emplace
@@ -59602,7 +60013,9 @@ toJSValue
 )
 )
 ;
+}
 else
+{
 value
 .
 emplace
@@ -59637,6 +60050,7 @@ value
 )
 )
 ;
+}
 Register
 spectreTemp
 =
@@ -60715,6 +61129,7 @@ lir
 )
 )
 )
+{
 masm
 .
 jump
@@ -60722,6 +61137,7 @@ jump
 ifFalse
 )
 ;
+}
 }
 typedef
 void
@@ -61769,11 +62185,13 @@ if
 (
 saveAndRestore
 )
+{
 saveLive
 (
 lir
 )
 ;
+}
 pushArg
 (
 array
@@ -62058,6 +62476,7 @@ omitOverRecursedCheck
 (
 )
 )
+{
 masm
 .
 reserveStack
@@ -62067,7 +62486,9 @@ frameSize
 )
 )
 ;
+}
 else
+{
 masm
 .
 wasmReserveStackChecked
@@ -62078,6 +62499,7 @@ frameSize
 trapOffset
 )
 ;
+}
 MOZ_ASSERT
 (
 masm
@@ -62099,9 +62521,11 @@ generateBody
 (
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 bind
@@ -62149,9 +62573,11 @@ generateOutOfLineCode
 (
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 flush
@@ -62166,9 +62592,11 @@ oom
 (
 )
 )
+{
 return
 false
 ;
+}
 offsets
 -
 >
@@ -62432,9 +62860,11 @@ addNativeToBytecodeEntry
 startSite
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -62450,9 +62880,11 @@ alloc
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -62460,9 +62892,11 @@ generatePrologue
 (
 )
 )
+{
 return
 false
 ;
+}
 generateArgumentsChecks
 (
 )
@@ -62479,6 +62913,7 @@ None
 (
 )
 )
+{
 deoptTable_
 .
 emplace
@@ -62497,6 +62932,7 @@ frameClass_
 )
 )
 ;
+}
 Label
 skipPrologue
 ;
@@ -62537,9 +62973,11 @@ generatePrologue
 (
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 bind
@@ -62566,9 +63004,11 @@ addNativeToBytecodeEntry
 startSite
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -62576,9 +63016,11 @@ generateBody
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -62587,9 +63029,11 @@ addNativeToBytecodeEntry
 startSite
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -62597,9 +63041,11 @@ generateEpilogue
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -62608,9 +63054,11 @@ addNativeToBytecodeEntry
 startSite
 )
 )
+{
 return
 false
 ;
+}
 generateInvalidateEpilogue
 (
 )
@@ -62637,9 +63085,11 @@ generateOutOfLineCode
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -62648,9 +63098,11 @@ addNativeToBytecodeEntry
 startSite
 )
 )
+{
 return
 false
 ;
+}
 dumpNativeToBytecodeEntries
 (
 )
@@ -62797,9 +63249,11 @@ initScriptCounts
 cx
 )
 )
+{
 return
 false
 ;
+}
 uint32_t
 warmUpCount
 =
@@ -62900,17 +63354,21 @@ compilationId
 isValid
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
 isValid
 )
+{
 return
 true
 ;
+}
 if
 (
 warmUpCount
@@ -62922,6 +63380,7 @@ getWarmUpCount
 (
 )
 )
+{
 script
 -
 >
@@ -62937,6 +63396,7 @@ getWarmUpCount
 )
 )
 ;
+}
 uint32_t
 argumentSlots
 =
@@ -62994,9 +63454,11 @@ encodeSafepoints
 (
 )
 )
+{
 return
 false
 ;
+}
 IonScript
 *
 ionScript
@@ -63073,9 +63535,11 @@ if
 !
 ionScript
 )
+{
 return
 false
 ;
+}
 auto
 guardIonScript
 =
@@ -63131,9 +63595,11 @@ if
 !
 code
 )
+{
 return
 false
 ;
+}
 if
 (
 isProfilerInstrumentationEnabled
@@ -63150,9 +63616,11 @@ cx
 code
 )
 )
+{
 return
 false
 ;
+}
 uint8_t
 *
 ionTableAddr
@@ -63495,6 +63963,7 @@ isProfilerInstrumentationEnabled
 (
 )
 )
+{
 ionScript
 -
 >
@@ -63502,6 +63971,7 @@ setHasProfilingInstrumentation
 (
 )
 ;
+}
 script
 -
 >
@@ -63746,10 +64216,12 @@ addTraceLoggerEvent
 event
 )
 )
+{
 TLFailed
 =
 true
 ;
+}
 if
 (
 !
@@ -63832,6 +64304,7 @@ length
 (
 )
 )
+{
 ionScript
 -
 >
@@ -63844,6 +64317,7 @@ runtimeData_
 ]
 )
 ;
+}
 if
 (
 icList_
@@ -63852,6 +64326,7 @@ length
 (
 )
 )
+{
 ionScript
 -
 >
@@ -63864,6 +64339,7 @@ icList_
 ]
 )
 ;
+}
 for
 (
 size_t
@@ -64056,6 +64532,7 @@ PerfEnabled
 (
 )
 )
+{
 perfSpewer_
 .
 writeProfile
@@ -64065,6 +64542,7 @@ code
 masm
 )
 ;
+}
 #
 endif
 #
@@ -64092,6 +64570,7 @@ length
 (
 )
 )
+{
 ionScript
 -
 >
@@ -64104,6 +64583,7 @@ safepointIndices_
 ]
 )
 ;
+}
 if
 (
 safepoints_
@@ -64112,6 +64592,7 @@ size
 (
 )
 )
+{
 ionScript
 -
 >
@@ -64121,6 +64602,7 @@ copySafepoints
 safepoints_
 )
 ;
+}
 if
 (
 bailouts_
@@ -64129,6 +64611,7 @@ length
 (
 )
 )
+{
 ionScript
 -
 >
@@ -64141,6 +64624,7 @@ bailouts_
 ]
 )
 ;
+}
 if
 (
 osiIndices_
@@ -64149,6 +64633,7 @@ length
 (
 )
 )
+{
 ionScript
 -
 >
@@ -64161,6 +64646,7 @@ osiIndices_
 ]
 )
 ;
+}
 if
 (
 snapshots_
@@ -64169,6 +64655,7 @@ listSize
 (
 )
 )
+{
 ionScript
 -
 >
@@ -64178,6 +64665,7 @@ copySnapshots
 snapshots_
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 snapshots_
@@ -64200,6 +64688,7 @@ size
 (
 )
 )
+{
 ionScript
 -
 >
@@ -64209,6 +64698,7 @@ copyRecovers
 recovers_
 )
 ;
+}
 if
 (
 graph
@@ -64321,6 +64811,7 @@ extractScriptCounts
 (
 )
 )
+{
 script
 -
 >
@@ -64329,6 +64820,7 @@ addIonCounts
 counts
 )
 ;
+}
 guardIonScript
 .
 release
@@ -64509,6 +65001,7 @@ MIRType
 :
 Float32
 )
+{
 masm
 .
 convertDoubleToFloat32
@@ -64517,6 +65010,7 @@ resultReg
 resultReg
 )
 ;
+}
 masm
 .
 bind
@@ -65095,6 +65589,7 @@ isConstant
 (
 )
 )
+{
 pushArg
 (
 Imm32
@@ -65111,7 +65606,9 @@ index
 )
 )
 ;
+}
 else
+{
 pushArg
 (
 ToRegister
@@ -65125,6 +65622,7 @@ index
 )
 )
 ;
+}
 pushArg
 (
 ToRegister
@@ -65456,6 +65954,7 @@ fallible
 (
 )
 )
+{
 bailoutFrom
 (
 &
@@ -65468,6 +65967,7 @@ snapshot
 )
 )
 ;
+}
 return
 ;
 }
@@ -65647,11 +66147,13 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 address
 )
 ;
+}
 masm
 .
 storeValue
@@ -65761,11 +66263,13 @@ needsBarrier
 (
 )
 )
+{
 emitPreBarrier
 (
 address
 )
 ;
+}
 if
 (
 valueType
@@ -66013,6 +66517,7 @@ isIndex
 dummy
 )
 )
+{
 kind
 =
 CacheKind
@@ -66020,6 +66525,7 @@ CacheKind
 :
 GetProp
 ;
+}
 }
 IonGetPropertyIC
 cache
@@ -66149,6 +66655,7 @@ isIndex
 dummy
 )
 )
+{
 kind
 =
 CacheKind
@@ -66156,6 +66663,7 @@ CacheKind
 :
 SetProp
 ;
+}
 }
 IonSetPropertyIC
 cache
@@ -66209,6 +66717,7 @@ MIRType
 :
 Value
 )
+{
 return
 TypedOrValueRegister
 (
@@ -66219,6 +66728,7 @@ n
 )
 )
 ;
+}
 const
 LAllocation
 *
@@ -66241,6 +66751,7 @@ isConstant
 (
 )
 )
+{
 return
 ConstantOrRegister
 (
@@ -66257,6 +66768,7 @@ toJSValue
 )
 )
 ;
+}
 return
 TypedOrValueRegister
 (
@@ -66295,6 +66807,7 @@ monitoredResult
 (
 )
 )
+{
 flags
 |
 =
@@ -66303,6 +66816,7 @@ GetPropertyResultFlags
 :
 Monitored
 ;
+}
 if
 (
 mir
@@ -66348,6 +66862,7 @@ UndefinedType
 )
 )
 )
+{
 flags
 |
 =
@@ -66356,6 +66871,7 @@ GetPropertyResultFlags
 :
 AllowUndefined
 ;
+}
 if
 (
 types
@@ -66371,6 +66887,7 @@ Int32Type
 )
 )
 )
+{
 flags
 |
 =
@@ -66379,6 +66896,7 @@ GetPropertyResultFlags
 :
 AllowInt32
 ;
+}
 if
 (
 types
@@ -66394,6 +66912,7 @@ DoubleType
 )
 )
 )
+{
 flags
 |
 =
@@ -66402,6 +66921,7 @@ GetPropertyResultFlags
 :
 AllowDouble
 ;
+}
 }
 else
 {
@@ -66964,6 +67484,7 @@ isIndex
 dummy
 )
 )
+{
 kind
 =
 CacheKind
@@ -66971,6 +67492,7 @@ CacheKind
 :
 GetPropSuper
 ;
+}
 }
 IonGetPropSuperIC
 cache
@@ -67458,19 +67980,23 @@ strict
 (
 )
 )
+{
 callVM
 (
 DeletePropertyStrictInfo
 lir
 )
 ;
+}
 else
+{
 callVM
 (
 DeletePropertyNonStrictInfo
 lir
 )
 ;
+}
 }
 typedef
 bool
@@ -67574,19 +68100,23 @@ strict
 (
 )
 )
+{
 callVM
 (
 DeleteElementStrictInfo
 lir
 )
 ;
+}
 else
+{
 callVM
 (
 DeleteElementNonStrictInfo
 lir
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -68470,6 +69000,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 branchTestObject
@@ -68487,7 +69018,9 @@ entry
 )
 )
 ;
+}
 else
+{
 masm
 .
 jump
@@ -68501,6 +69034,7 @@ entry
 )
 ;
 }
+}
 else
 {
 Label
@@ -68512,6 +69046,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 branchTestObject
@@ -68525,6 +69060,7 @@ tag
 notObject
 )
 ;
+}
 masm
 .
 movePtr
@@ -68544,6 +69080,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 jump
@@ -68552,6 +69089,7 @@ jump
 done
 )
 ;
+}
 masm
 .
 bind
@@ -68580,6 +69118,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 branchTestNumber
@@ -68593,6 +69132,7 @@ tag
 notNumber
 )
 ;
+}
 masm
 .
 movePtr
@@ -68612,6 +69152,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 jump
@@ -68620,6 +69161,7 @@ jump
 done
 )
 ;
+}
 masm
 .
 bind
@@ -68647,6 +69189,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 branchTestUndefined
@@ -68660,6 +69203,7 @@ tag
 notUndefined
 )
 ;
+}
 masm
 .
 movePtr
@@ -68679,6 +69223,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 jump
@@ -68687,6 +69232,7 @@ jump
 done
 )
 ;
+}
 masm
 .
 bind
@@ -68714,6 +69260,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 branchTestNull
@@ -68727,6 +69274,7 @@ tag
 notNull
 )
 ;
+}
 masm
 .
 movePtr
@@ -68746,6 +69294,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 jump
@@ -68754,6 +69303,7 @@ jump
 done
 )
 ;
+}
 masm
 .
 bind
@@ -68781,6 +69331,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 branchTestBoolean
@@ -68794,6 +69345,7 @@ tag
 notBoolean
 )
 ;
+}
 masm
 .
 movePtr
@@ -68813,6 +69365,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 jump
@@ -68821,6 +69374,7 @@ jump
 done
 )
 ;
+}
 masm
 .
 bind
@@ -68848,6 +69402,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 branchTestString
@@ -68861,6 +69416,7 @@ tag
 notString
 )
 ;
+}
 masm
 .
 movePtr
@@ -68880,6 +69436,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 jump
@@ -68888,6 +69445,7 @@ jump
 done
 )
 ;
+}
 masm
 .
 bind
@@ -68915,6 +69473,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 branchTestSymbol
@@ -68928,6 +69487,7 @@ tag
 notSymbol
 )
 ;
+}
 masm
 .
 movePtr
@@ -68947,6 +69507,7 @@ numTests
 >
 1
 )
+{
 masm
 .
 jump
@@ -68955,6 +69516,7 @@ jump
 done
 )
 ;
+}
 masm
 .
 bind
@@ -68988,6 +69550,7 @@ if
 (
 ool
 )
+{
 masm
 .
 bind
@@ -69000,6 +69563,7 @@ rejoin
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -69848,6 +70412,7 @@ loadDoubles
 (
 )
 )
+{
 masm
 .
 loadDouble
@@ -69860,7 +70425,9 @@ fpu
 )
 )
 ;
+}
 else
+{
 masm
 .
 loadUnboxedValue
@@ -69880,6 +70447,7 @@ type
 output
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -71144,6 +71712,7 @@ used
 (
 )
 )
+{
 bailoutFrom
 (
 &
@@ -71156,6 +71725,7 @@ snapshot
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -71378,6 +71948,7 @@ used
 (
 )
 )
+{
 bailoutFrom
 (
 &
@@ -71390,6 +71961,7 @@ snapshot
 )
 )
 ;
+}
 masm
 .
 bind
@@ -71905,6 +72477,7 @@ i
 +
 +
 )
+{
 jumpTable
 -
 >
@@ -71913,6 +72486,7 @@ addTableEntry
 masm
 )
 ;
+}
 auto
 &
 codeLabels
@@ -72242,6 +72816,7 @@ i
 +
 +
 )
+{
 jumpTable
 -
 >
@@ -72250,6 +72825,7 @@ addTableEntry
 masm
 )
 ;
+}
 }
 for
 (
@@ -72590,6 +73166,7 @@ width
 =
 4
 )
+{
 masm
 .
 load32
@@ -72601,6 +73178,7 @@ a
 temp0
 )
 ;
+}
 else
 if
 (
@@ -72609,6 +73187,7 @@ width
 =
 8
 )
+{
 masm
 .
 loadPtr
@@ -72620,7 +73199,9 @@ a
 temp0
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -72630,6 +73211,7 @@ size
 "
 )
 ;
+}
 input
 .
 emplace
@@ -72687,6 +73269,7 @@ MIRType
 :
 Value
 )
+{
 input
 .
 emplace
@@ -72706,7 +73289,9 @@ typeReg
 )
 )
 ;
+}
 else
+{
 input
 .
 emplace
@@ -72720,6 +73305,7 @@ typeReg
 )
 )
 ;
+}
 #
 else
 if
@@ -72737,6 +73323,7 @@ MIRType
 :
 Value
 )
+{
 input
 .
 emplace
@@ -72756,6 +73343,7 @@ typeReg
 )
 )
 ;
+}
 #
 endif
 }
@@ -73051,6 +73639,7 @@ i
 <
 e
 )
+{
 masm
 .
 jump
@@ -73059,6 +73648,7 @@ jump
 join
 )
 ;
+}
 }
 addOutOfLineCode
 (
@@ -73152,6 +73742,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 storeToTypedIntArray
@@ -73167,7 +73758,9 @@ value
 dest
 )
 ;
+}
 else
+{
 masm
 .
 storeToTypedIntArray
@@ -73180,6 +73773,7 @@ value
 dest
 )
 ;
+}
 }
 }
 void
@@ -73459,6 +74053,7 @@ isRegister
 (
 )
 )
+{
 masm
 .
 spectreBoundsCheck32
@@ -73473,7 +74068,9 @@ spectreTemp
 skip
 )
 ;
+}
 else
+{
 masm
 .
 spectreBoundsCheck32
@@ -73488,6 +74085,7 @@ spectreTemp
 skip
 )
 ;
+}
 BaseIndex
 dest
 (
@@ -74440,11 +75038,13 @@ needsNegativeIntCheck
 (
 )
 )
+{
 failedInitLength
 =
 &
 negativeIntCheck
 ;
+}
 masm
 .
 branch32
@@ -74637,6 +75237,7 @@ if
 (
 ool
 )
+{
 masm
 .
 bind
@@ -74649,6 +75250,7 @@ rejoin
 )
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -75817,12 +76419,14 @@ hasLiveDefUses
 (
 )
 )
+{
 masm
 .
 speculationBarrier
 (
 )
 ;
+}
 masm
 .
 adjustStack
@@ -76343,6 +76947,7 @@ realmPtr
 =
 setterRealm
 )
+{
 masm
 .
 switchToRealm
@@ -76359,6 +76964,7 @@ realmPtr
 ReturnReg
 )
 ;
+}
 masm
 .
 adjustStack
@@ -77636,6 +78242,7 @@ if
 (
 notArray
 )
+{
 masm
 .
 bind
@@ -77643,6 +78250,7 @@ bind
 notArray
 )
 ;
+}
 masm
 .
 move32
@@ -78626,6 +79234,7 @@ poBegin
 (
 )
 )
+{
 masm
 .
 jump
@@ -78634,6 +79243,7 @@ jump
 returnLabel_
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -78668,6 +79278,7 @@ poBegin
 (
 )
 )
+{
 masm
 .
 jump
@@ -78676,6 +79287,7 @@ jump
 returnLabel_
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -78710,6 +79322,7 @@ poBegin
 (
 )
 )
+{
 masm
 .
 jump
@@ -78718,6 +79331,7 @@ jump
 returnLabel_
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -78929,6 +79543,7 @@ canBeNaN
 (
 )
 )
+{
 masm
 .
 branchDouble
@@ -78943,6 +79558,7 @@ input
 success
 )
 ;
+}
 masm
 .
 branchDouble
@@ -79019,6 +79635,7 @@ canBeNaN
 (
 )
 )
+{
 masm
 .
 branchDouble
@@ -79033,6 +79650,7 @@ input
 success
 )
 ;
+}
 masm
 .
 branchDouble
@@ -80118,6 +80736,7 @@ trackRecordReplayProgress
 (
 )
 )
+{
 masm
 .
 inc64
@@ -80136,6 +80755,7 @@ ExecutionProgressCounter
 )
 )
 ;
+}
 const
 void
 *
@@ -80725,6 +81345,7 @@ forceRecompilation
 (
 )
 )
+{
 ool
 =
 oolCallVM
@@ -80740,7 +81361,9 @@ tmp
 )
 )
 ;
+}
 else
+{
 ool
 =
 oolCallVM
@@ -80756,6 +81379,7 @@ tmp
 )
 )
 ;
+}
 AbsoluteAddress
 warmUpCount
 =
@@ -82281,6 +82905,7 @@ convertUInt64ToDoubleNeedsTemp
 (
 )
 )
+{
 masm
 .
 convertUInt64ToDouble
@@ -82290,7 +82915,9 @@ output
 tempReg
 )
 ;
+}
 else
+{
 masm
 .
 convertUInt64ToDouble
@@ -82305,6 +82932,7 @@ Invalid
 )
 )
 ;
+}
 masm
 .
 mulDoublePtr
@@ -82489,6 +83117,7 @@ isLeftRotate
 (
 )
 )
+{
 masm
 .
 rotateLeft
@@ -82501,7 +83130,9 @@ input
 dest
 )
 ;
+}
 else
+{
 masm
 .
 rotateRight
@@ -82514,6 +83145,7 @@ input
 dest
 )
 ;
+}
 }
 else
 {
@@ -82534,6 +83166,7 @@ isLeftRotate
 (
 )
 )
+{
 masm
 .
 rotateLeft
@@ -82543,7 +83176,9 @@ input
 dest
 )
 ;
+}
 else
+{
 masm
 .
 rotateRight
@@ -82553,6 +83188,7 @@ input
 dest
 )
 ;
+}
 }
 }
 class
@@ -84013,8 +84649,10 @@ oom
 (
 )
 )
+{
 return
 ;
+}
 const
 wasm
 :
@@ -84275,6 +84913,7 @@ isConstant
 (
 )
 )
+{
 stackArgs
 .
 infallibleEmplaceBack
@@ -84285,6 +84924,7 @@ larg
 )
 )
 ;
+}
 else
 if
 (
@@ -84295,6 +84935,7 @@ isGeneralReg
 (
 )
 )
+{
 stackArgs
 .
 infallibleEmplaceBack
@@ -84305,6 +84946,7 @@ larg
 )
 )
 ;
+}
 else
 if
 (
@@ -84315,6 +84957,7 @@ isFloatReg
 (
 )
 )
+{
 stackArgs
 .
 infallibleEmplaceBack
@@ -84325,7 +84968,9 @@ larg
 )
 )
 ;
+}
 else
+{
 stackArgs
 .
 infallibleEmplaceBack
@@ -84336,6 +84981,7 @@ larg
 )
 )
 ;
+}
 break
 ;
 }

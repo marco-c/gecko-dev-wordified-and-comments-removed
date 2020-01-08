@@ -297,6 +297,7 @@ name_
 =
 nullptr
 )
+{
 sp_
 .
 attached
@@ -304,6 +305,7 @@ attached
 name_
 )
 ;
+}
 sp_
 .
 endCache

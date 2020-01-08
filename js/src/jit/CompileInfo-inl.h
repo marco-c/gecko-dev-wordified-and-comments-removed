@@ -156,9 +156,11 @@ if
 !
 treeMem
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -221,9 +223,11 @@ if
 !
 calleeTree
 )
+{
 return
 nullptr
 ;
+}
 calleeTree
 -
 >
