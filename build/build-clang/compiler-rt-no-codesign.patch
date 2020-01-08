@@ -107,7 +107,7 @@ AddCompilerRT
 cmake
 (
 revision
-342374
+312553
 )
 +
 +
@@ -130,10 +130,10 @@ working
 copy
 )
 -
-290
+224
 14
 +
-290
+224
 6
 set_target_properties
 (
@@ -219,8 +219,5 @@ libname
 ARCHIVE
 DESTINATION
 {
-install_dir_
-{
-libname
-}
+COMPILER_RT_LIBRARY_INSTALL_DIR
 }
