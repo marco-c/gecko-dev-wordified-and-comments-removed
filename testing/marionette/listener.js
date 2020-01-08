@@ -3917,6 +3917,14 @@ clear
 (
 )
 ;
+event
+.
+DoubleClickTracker
+.
+resetClick
+(
+)
+;
 }
 function
 actionChain
