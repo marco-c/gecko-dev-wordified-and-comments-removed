@@ -915,7 +915,7 @@ const
 {
 markup
 selection
-toolbox
+inspector
 }
 =
 this
@@ -942,7 +942,9 @@ false
 )
 )
 ;
-toolbox
+inspector
+.
+nodePicker
 .
 off
 (
@@ -1588,7 +1590,7 @@ const
 {
 markup
 selection
-toolbox
+inspector
 }
 =
 this
@@ -1653,7 +1655,9 @@ if
 enabled
 )
 {
-toolbox
+inspector
+.
+nodePicker
 .
 on
 (
@@ -1712,7 +1716,9 @@ onMarkupViewNodeHover
 }
 else
 {
-toolbox
+inspector
+.
+nodePicker
 .
 off
 (

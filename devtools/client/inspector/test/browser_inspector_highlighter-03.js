@@ -428,11 +428,11 @@ deactivate
 await
 inspector
 .
-toolbox
+inspector
 .
-highlighterUtils
+nodePicker
 .
-stopPicker
+stop
 (
 )
 ;

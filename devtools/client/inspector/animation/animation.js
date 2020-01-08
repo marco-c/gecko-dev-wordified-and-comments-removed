@@ -707,7 +707,9 @@ this
 .
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 on
 (
@@ -725,7 +727,9 @@ this
 .
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 on
 (
@@ -919,7 +923,9 @@ this
 .
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 off
 (
@@ -937,7 +943,9 @@ this
 .
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 off
 (
