@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-Arg
 Option
 RetVal
 generateActorSpec
@@ -74,15 +73,6 @@ connect
 request
 :
 {
-options
-:
-Arg
-(
-0
-"
-json
-"
-)
 }
 response
 :
