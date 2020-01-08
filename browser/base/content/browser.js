@@ -40481,7 +40481,7 @@ skin
 /
 icons
 /
-blacklist_favicon
+blocklist_favicon
 .
 png
 "
