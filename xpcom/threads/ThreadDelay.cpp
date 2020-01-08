@@ -82,13 +82,6 @@ defined
 (
 XP_WIN
 )
-:
-:
-Sleep
-(
-1
-)
-;
 #
 else
 const
