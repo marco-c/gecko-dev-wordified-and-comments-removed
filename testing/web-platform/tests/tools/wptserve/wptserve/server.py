@@ -3691,8 +3691,6 @@ return
         
 except
 Exception
-as
-e
 :
             
 err
