@@ -552,10 +552,10 @@ OnRenderingChange
 )
 ;
 }
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 (
 nsIURI
 *
@@ -587,11 +587,11 @@ StartObserving
 )
 ;
 }
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 ~
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 (
 )
 {
@@ -601,7 +601,7 @@ StopObserving
 ;
 }
 void
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 OnRenderingChange
@@ -700,7 +700,7 @@ OnRenderingChange
 (
 )
 {
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 OnRenderingChange
@@ -801,7 +801,7 @@ nsSVGFilterReference
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -847,7 +847,7 @@ OnRenderingChange
 (
 )
 {
-nsSVGIDRenderingObserver
+SVGIDRenderingObserver
 :
 :
 OnRenderingChange
