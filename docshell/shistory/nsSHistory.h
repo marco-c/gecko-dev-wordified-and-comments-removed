@@ -209,13 +209,6 @@ nsSHistory
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHISTORY
 nsresult
-GotoIndex
-(
-int32_t
-aIndex
-)
-;
-nsresult
 Reload
 (
 uint32_t
@@ -374,6 +367,13 @@ nsSHistory
 friend
 class
 nsSHistoryObserver
+;
+static
+const
+int32_t
+VIEWER_WINDOW
+=
+3
 ;
 nsresult
 LoadDifferingEntries
