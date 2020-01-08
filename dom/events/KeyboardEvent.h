@@ -430,14 +430,6 @@ CallerType
 aCallerType
 )
 ;
-already_AddRefed
-<
-nsIDocument
->
-GetDocument
-(
-)
-;
 bool
 GetSpoofedModifierStates
 (

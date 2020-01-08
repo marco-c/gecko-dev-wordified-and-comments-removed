@@ -787,6 +787,15 @@ GetCurrentTarget
 )
 const
 ;
+already_AddRefed
+<
+nsIDocument
+>
+GetDocument
+(
+)
+const
+;
 void
 ComposedPath
 (
