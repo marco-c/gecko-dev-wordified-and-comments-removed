@@ -71,7 +71,7 @@ crashReporter
 annotateCrashReport
 (
 "
-TestingOOMCrash
+TestKey
 "
 "
 Yes
@@ -91,7 +91,7 @@ equal
 (
 extra
 .
-TestingOOMCrash
+TestKey
 "
 Yes
 "
