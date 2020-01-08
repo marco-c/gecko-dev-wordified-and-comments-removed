@@ -4595,10 +4595,6 @@ cursor
 :
 default
 ;
-background
-:
-none
-;
 border
 :
 none
@@ -4798,13 +4794,6 @@ important
 border
 :
 none
-;
-background
--
-color
-:
-#
-999
 ;
 inline
 -
