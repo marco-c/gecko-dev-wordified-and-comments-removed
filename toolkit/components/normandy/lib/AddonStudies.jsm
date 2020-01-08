@@ -937,6 +937,7 @@ onUnenroll
 study
 .
 addonId
+reason
 )
 ;
 }
@@ -999,6 +1000,7 @@ listener
 onUnenroll
 (
 id
+reason
 )
 {
 let
@@ -1038,6 +1040,7 @@ push
 (
 callback
 (
+reason
 )
 )
 ;
