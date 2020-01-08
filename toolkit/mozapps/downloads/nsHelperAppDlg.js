@@ -233,7 +233,9 @@ onSecurityChange
 (
 aWebProgress
 aRequest
-state
+aOldState
+aState
+aContentBlockingLogJSON
 )
 {
 }
