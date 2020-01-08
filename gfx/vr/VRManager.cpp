@@ -896,6 +896,14 @@ gfxPrefs
 VRProcessEnabled
 (
 )
+&
+&
+VRGPUChild
+:
+:
+IsCreated
+(
+)
 )
 {
 RefPtr
