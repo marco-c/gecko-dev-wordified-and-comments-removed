@@ -555,6 +555,7 @@ if
 !
 trampoline
 )
+{
 oom
 .
 crash
@@ -570,6 +571,7 @@ init
 "
 )
 ;
+}
 return
 create
 (

@@ -147,6 +147,7 @@ if
 !
 stack
 )
+{
 oomUnsafe
 .
 crash
@@ -162,6 +163,7 @@ heldMutexStack
 "
 )
 ;
+}
 HeldMutexStack
 .
 set
@@ -304,6 +306,7 @@ append
 this
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -319,6 +322,7 @@ lock
 "
 )
 ;
+}
 }
 void
 js
@@ -415,9 +419,11 @@ i
 =
 this
 )
+{
 return
 true
 ;
+}
 }
 return
 false
