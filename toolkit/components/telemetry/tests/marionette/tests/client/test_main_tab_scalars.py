@@ -218,16 +218,19 @@ switch_to
 tab1
 )
         
+[
 ping
+]
 =
 self
 .
-wait_for_ping
+wait_for_pings
 (
 self
 .
 restart_browser
 check_is_shutdown_ping
+1
 )
         
 assert
