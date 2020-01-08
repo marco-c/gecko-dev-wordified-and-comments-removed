@@ -685,6 +685,7 @@ source_files
 .
 append
 (
+(
 SourceFileWithTest
 (
 test
@@ -698,6 +699,8 @@ item_classes
 [
 test_type
 ]
+)
+True
 )
 )
     
