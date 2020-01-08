@@ -160,13 +160,13 @@ line
 break
     
 if
-not
 '
 CJK
 COMPATIBILITY
 IDEOGRAPH
 -
 '
+not
 in
 line
 :
@@ -222,8 +222,8 @@ group
 )
     
 if
-not
 vs
+not
 in
 vsdict
 :
