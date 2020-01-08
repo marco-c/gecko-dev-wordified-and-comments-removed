@@ -18145,7 +18145,7 @@ failed
 }
 )
 .
-finally
+then
 (
 function
 (
