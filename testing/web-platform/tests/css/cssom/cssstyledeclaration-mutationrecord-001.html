@@ -26,9 +26,7 @@ a
 mutation
 record
 when
-not
-actually
-mutated
+changed
 <
 /
 title
@@ -178,10 +176,10 @@ queues
 a
 mutation
 record
-even
-if
-not
-mutated
+when
+serialization
+is
+changed
 "
 )
 ;
@@ -236,7 +234,7 @@ style
 top
 =
 "
-0px
+1px
 "
 ;
 <
