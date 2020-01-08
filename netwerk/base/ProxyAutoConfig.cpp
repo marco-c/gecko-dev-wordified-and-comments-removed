@@ -4837,9 +4837,13 @@ cx
 if
 (
 !
-JS_CompileScript
+JS
+:
+:
+CompileLatin1
 (
 cx
+options
 mPACScript
 .
 get
@@ -4850,7 +4854,6 @@ mPACScript
 Length
 (
 )
-options
 &
 script
 )

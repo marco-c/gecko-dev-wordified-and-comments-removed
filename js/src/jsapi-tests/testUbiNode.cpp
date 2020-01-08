@@ -557,6 +557,13 @@ options
 cx
 )
 ;
+options
+.
+setUTF8
+(
+true
+)
+;
 RootedString
 string1
 (
@@ -591,7 +598,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
@@ -644,7 +651,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
@@ -1005,6 +1012,13 @@ options
 cx
 )
 ;
+options
+.
+setUTF8
+(
+true
+)
+;
 RootedScript
 script1
 (
@@ -1016,7 +1030,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
@@ -1047,7 +1061,7 @@ CHECK
 JS
 :
 :
-Compile
+CompileUtf8
 (
 cx
 options
