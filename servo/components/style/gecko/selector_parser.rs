@@ -371,10 +371,7 @@ class
 .
 Dir
 (
-Box
-<
 Direction
->
 )
 /
 /
@@ -448,10 +445,7 @@ class
 .
 MozLocaleDir
 (
-Box
-<
 Direction
->
 )
 }
 }
@@ -2604,11 +2598,6 @@ NonTSPseudoClass
 :
 MozLocaleDir
 (
-Box
-:
-:
-new
-(
 Direction
 :
 :
@@ -2617,7 +2606,6 @@ parse
 parser
 )
 ?
-)
 )
 }
 "
@@ -2631,11 +2619,6 @@ NonTSPseudoClass
 :
 Dir
 (
-Box
-:
-:
-new
-(
 Direction
 :
 :
@@ -2644,7 +2627,6 @@ parse
 parser
 )
 ?
-)
 )
 }
 "
