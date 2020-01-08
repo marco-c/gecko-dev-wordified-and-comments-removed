@@ -172,6 +172,11 @@ Module
 h
 '
 '
+ModuleLoader
+.
+h
+'
+'
 ModuleUtils
 .
 h
@@ -247,14 +252,6 @@ ds
 '
 /
 chrome
-'
-'
-/
-js
-/
-xpconnect
-/
-loader
 '
 '
 /

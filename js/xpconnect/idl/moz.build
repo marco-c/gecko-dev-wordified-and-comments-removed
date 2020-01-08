@@ -115,6 +115,11 @@ xpcIJSGetFactory
 idl
 '
 '
+xpcIJSModuleLoader
+.
+idl
+'
+'
 xpcIJSWeakReference
 .
 idl

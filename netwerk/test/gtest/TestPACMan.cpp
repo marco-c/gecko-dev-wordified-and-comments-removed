@@ -671,6 +671,7 @@ RegisterModule
 (
 &
 kSysDHCPClientModule
+nullptr
 )
 ;
 mPACMan
