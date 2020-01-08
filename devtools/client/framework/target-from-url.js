@@ -598,8 +598,6 @@ getClientByRemoteId
 (
 remoteId
 )
-.
-client
 ;
 }
 const

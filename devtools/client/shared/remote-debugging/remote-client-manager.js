@@ -37,10 +37,7 @@ setClient
 (
 id
 type
-{
 client
-transportDetails
-}
 )
 {
 const
@@ -61,10 +58,7 @@ _clients
 set
 (
 key
-{
 client
-transportDetails
-}
 )
 ;
 client
@@ -263,8 +257,6 @@ get
 (
 key
 )
-.
-client
 ;
 if
 (
@@ -320,9 +312,7 @@ key
 =
 >
 {
-const
-clientInfo
-=
+return
 this
 .
 _clients
@@ -331,11 +321,6 @@ get
 (
 key
 )
-;
-return
-clientInfo
-.
-client
 .
 _closed
 ;
