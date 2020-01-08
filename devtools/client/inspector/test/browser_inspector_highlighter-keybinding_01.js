@@ -23,6 +23,7 @@ function
 {
 const
 {
+inspector
 toolbox
 testActor
 }
@@ -347,11 +348,9 @@ picker
 await
 toolbox
 .
-inspector
+highlighterUtils
 .
-nodePicker
-.
-stop
+stopPicker
 (
 )
 ;
@@ -386,11 +385,9 @@ args
 )
 ;
 return
-toolbox
-.
 inspector
 .
-nodePicker
+toolbox
 .
 once
 (
@@ -451,11 +448,9 @@ selector
 )
 ;
 return
-toolbox
-.
 inspector
 .
-nodePicker
+toolbox
 .
 once
 (

@@ -213,9 +213,7 @@ selector
 return
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 once
 (

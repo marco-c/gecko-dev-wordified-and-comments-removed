@@ -288,7 +288,6 @@ target
 const
 front
 =
-await
 target
 .
 getFront

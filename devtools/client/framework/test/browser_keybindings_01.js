@@ -706,10 +706,6 @@ loaded
 await
 toolbox
 .
-inspector
-.
-nodePicker
-.
 once
 (
 "
@@ -741,10 +737,6 @@ synthesizeKey
 ;
 await
 toolbox
-.
-inspector
-.
-nodePicker
 .
 once
 (

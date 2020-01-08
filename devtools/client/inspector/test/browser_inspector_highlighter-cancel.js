@@ -198,16 +198,12 @@ options
 return
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 once
 (
 "
 picker
--
-node
 -
 canceled
 "

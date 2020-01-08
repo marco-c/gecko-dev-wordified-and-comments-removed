@@ -325,11 +325,9 @@ focus
 await
 toolbox
 .
-inspector
+highlighterUtils
 .
-nodePicker
-.
-start
+startPicker
 (
 )
 ;
@@ -461,9 +459,7 @@ onHovered
 =
 inspector
 .
-inspector
-.
-nodePicker
+toolbox
 .
 once
 (

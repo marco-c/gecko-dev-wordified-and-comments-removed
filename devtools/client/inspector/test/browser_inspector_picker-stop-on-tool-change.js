@@ -54,10 +54,6 @@ pickerStopped
 =
 toolbox
 .
-inspector
-.
-nodePicker
-.
 once
 (
 "

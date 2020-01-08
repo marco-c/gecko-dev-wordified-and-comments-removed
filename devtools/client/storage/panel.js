@@ -113,7 +113,6 @@ this
 _panelWin
 ;
 }
-async
 open
 (
 )
@@ -136,7 +135,6 @@ this
 .
 _front
 =
-await
 this
 .
 target

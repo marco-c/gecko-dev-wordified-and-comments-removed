@@ -77,8 +77,6 @@ prepareAccessibility
 (
 )
 {
-try
-{
 this
 .
 _walker
@@ -192,16 +190,6 @@ bootstrap
 return
 true
 ;
-}
-catch
-(
-e
-)
-{
-return
-false
-;
-}
 }
 initAccessibility
 (

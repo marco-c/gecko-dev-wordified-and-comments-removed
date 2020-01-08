@@ -3300,7 +3300,9 @@ this
 .
 inspector
 .
-inspector
+toolbox
+.
+highlighterUtils
 .
 getHighlighterByType
 (
