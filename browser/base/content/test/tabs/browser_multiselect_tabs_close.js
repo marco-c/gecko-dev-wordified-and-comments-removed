@@ -385,7 +385,7 @@ document
 .
 getAnonymousElementByAttribute
 (
-tab1
+tab2
 "
 anonid
 "
@@ -395,6 +395,12 @@ close
 button
 "
 )
+;
+tab2
+.
+mOverCloseButton
+=
+true
 ;
 let
 tab1Closing
