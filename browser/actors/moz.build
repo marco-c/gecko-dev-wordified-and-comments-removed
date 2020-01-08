@@ -321,6 +321,11 @@ PluginChild
 jsm
 '
 '
+SearchTelemetryChild
+.
+jsm
+'
+'
 URIFixupChild
 .
 jsm

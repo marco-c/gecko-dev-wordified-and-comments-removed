@@ -631,6 +631,13 @@ uri
 flags
 )
 {
+SearchTelemetry
+.
+stopTrackingBrowser
+(
+browser
+)
+;
 if
 (
 flags
@@ -848,8 +855,9 @@ LOCATION_CHANGE_SAME_DOCUMENT
 {
 SearchTelemetry
 .
-recordSearchURLTelemetry
+updateTrackingStatus
 (
+browser
 uriSpec
 )
 ;
