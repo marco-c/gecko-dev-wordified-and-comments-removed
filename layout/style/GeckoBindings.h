@@ -286,11 +286,6 @@ aPtr
 )
 ;
 }
-extern
-"
-C
-"
-{
 class
 ServoBundledURI
 {
@@ -332,6 +327,11 @@ mExtraData
 ;
 }
 ;
+extern
+"
+C
+"
+{
 void
 Gecko_Element_DebugListAttributes
 (
@@ -3104,6 +3104,7 @@ Gecko_CopyConstruct_nsStyle
 #
 name
 (
+\
 nsStyle
 #
 #
