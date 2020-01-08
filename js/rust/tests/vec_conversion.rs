@@ -13,7 +13,7 @@ js
 ar
 :
 :
-AutoCompartment
+AutoRealm
 ;
 use
 js
@@ -306,9 +306,9 @@ handle
 )
 ;
 let
-_ac
+_ar
 =
-AutoCompartment
+AutoRealm
 :
 :
 with_obj

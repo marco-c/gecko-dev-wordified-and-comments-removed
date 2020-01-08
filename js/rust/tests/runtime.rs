@@ -124,7 +124,7 @@ c_option
 )
 ;
 let
-_ac
+_ar
 =
 js
 :
@@ -132,7 +132,7 @@ js
 ar
 :
 :
-AutoCompartment
+AutoRealm
 :
 :
 with_obj

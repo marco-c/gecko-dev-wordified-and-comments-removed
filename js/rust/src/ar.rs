@@ -33,13 +33,13 @@ Debug
 ]
 pub
 struct
-AutoCompartment
+AutoRealm
 (
 JSAutoRealmAllowCCW
 )
 ;
 impl
-AutoCompartment
+AutoRealm
 {
 #
 [
@@ -70,7 +70,7 @@ JSObject
 )
 -
 >
-AutoCompartment
+AutoRealm
 {
 let
 mut
@@ -94,7 +94,7 @@ null_mut
 )
 }
 ;
-AutoCompartment
+AutoRealm
 (
 JSAutoRealmAllowCCW
 :
@@ -145,9 +145,9 @@ JSObject
 )
 -
 >
-AutoCompartment
+AutoRealm
 {
-AutoCompartment
+AutoRealm
 (
 JSAutoRealmAllowCCW
 :
@@ -188,7 +188,7 @@ JSScript
 )
 -
 >
-AutoCompartment
+AutoRealm
 {
 let
 mut
@@ -212,7 +212,7 @@ null_mut
 )
 }
 ;
-AutoCompartment
+AutoRealm
 (
 JSAutoRealmAllowCCW
 :
@@ -263,9 +263,9 @@ JSScript
 )
 -
 >
-AutoCompartment
+AutoRealm
 {
-AutoCompartment
+AutoRealm
 (
 JSAutoRealmAllowCCW
 :
