@@ -166,6 +166,21 @@ label
 ]
     
 def
+__contains__
+(
+self
+label
+)
+:
+        
+return
+label
+in
+self
+.
+tasks
+    
+def
 __iter__
 (
 self
