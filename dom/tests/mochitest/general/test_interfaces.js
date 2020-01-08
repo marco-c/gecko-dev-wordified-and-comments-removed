@@ -747,9 +747,6 @@ AnimationEffect
 insecureContext
 :
 true
-release
-:
-false
 }
 {
 name
@@ -770,9 +767,6 @@ AnimationPlaybackEvent
 insecureContext
 :
 true
-release
-:
-false
 }
 {
 name
@@ -3206,9 +3200,6 @@ KeyframeEffect
 insecureContext
 :
 true
-release
-:
-false
 }
 {
 name
