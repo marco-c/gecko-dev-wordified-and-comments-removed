@@ -34,15 +34,6 @@ include
 "
 webrtc
 /
-config
-.
-h
-"
-#
-include
-"
-webrtc
-/
 media
 /
 base
