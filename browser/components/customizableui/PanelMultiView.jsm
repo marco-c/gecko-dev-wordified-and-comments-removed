@@ -931,7 +931,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 box
@@ -962,7 +962,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 box
@@ -996,7 +996,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 box
@@ -1030,7 +1030,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 box
@@ -4403,7 +4403,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 box
@@ -4430,7 +4430,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 toolbarbutton
@@ -4534,7 +4534,7 @@ this
 .
 document
 .
-createElement
+createXULElement
 (
 "
 label
