@@ -1322,6 +1322,10 @@ mIsNullDecode
 (
 false
 )
+mHardwareDecodingDisabled
+(
+false
+)
 {
 DecoderDoctorLogger
 :
@@ -2099,6 +2103,9 @@ mFirstDemuxedSampleTime
 ;
 bool
 mIsNullDecode
+;
+bool
+mHardwareDecodingDisabled
 ;
 class
 {
