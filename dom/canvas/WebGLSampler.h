@@ -145,10 +145,6 @@ override
 void
 SamplerParameter
 (
-const
-char
-*
-funcName
 GLenum
 pname
 const

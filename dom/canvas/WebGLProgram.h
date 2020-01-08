@@ -416,10 +416,6 @@ CachedDrawFetchLimits
 *
 GetDrawFetchLimits
 (
-const
-char
-*
-funcName
 )
 const
 ;
