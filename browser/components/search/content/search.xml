@@ -3017,11 +3017,7 @@ flex
 <
 xul
 :
-search
--
-one
--
-offs
+hbox
 anonid
 =
 "
@@ -3707,6 +3703,11 @@ readonly
 true
 "
 >
+new
+window
+.
+SearchOneOffs
+(
 document
 .
 getAnonymousElementByAttribute
@@ -3724,6 +3725,7 @@ off
 -
 buttons
 "
+)
 )
 ;
 <
