@@ -1198,6 +1198,10 @@ aClient
 .
 listAddons
 (
+)
+.
+then
+(
 aResponse
 =
 >
