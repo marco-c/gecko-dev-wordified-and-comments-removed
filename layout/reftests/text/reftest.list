@@ -6333,7 +6333,14 @@ control
 ref
 .
 html
-fails
+fuzzy
+-
+if
+(
+winWidget
+47
+6
+)
 =
 =
 hyphenation
@@ -6352,9 +6359,6 @@ control
 ref
 .
 html
-#
-bug
-1478574
 #
 osx
 -
