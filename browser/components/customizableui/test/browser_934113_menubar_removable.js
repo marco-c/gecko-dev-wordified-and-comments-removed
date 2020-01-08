@@ -84,9 +84,12 @@ false
 simulateItemDrag
 (
 menuItems
-navbar
+CustomizableUI
 .
-customizationTarget
+getCustomizationTarget
+(
+navbar
+)
 )
 ;
 is

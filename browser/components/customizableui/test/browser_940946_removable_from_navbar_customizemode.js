@@ -42,6 +42,10 @@ mode
 "
 )
 ;
+CustomizableUI
+.
+getCustomizationTarget
+(
 document
 .
 getElementById
@@ -52,8 +56,7 @@ nav
 bar
 "
 )
-.
-customizationTarget
+)
 .
 appendChild
 (
