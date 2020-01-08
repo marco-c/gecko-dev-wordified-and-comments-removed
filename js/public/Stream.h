@@ -245,9 +245,7 @@ ReadableStreamGetEmbeddingFlags
 JSContext
 *
 cx
-const
-JSObject
-*
+HandleObject
 stream
 uint8_t
 *
@@ -282,8 +280,7 @@ ReadableStreamReleaseExternalUnderlyingSource
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 stream
 )
 ;
@@ -310,7 +307,6 @@ bool
 )
 IsReadableStream
 (
-const
 JSObject
 *
 obj
@@ -323,7 +319,6 @@ bool
 )
 IsReadableStreamReader
 (
-const
 JSObject
 *
 obj
@@ -336,7 +331,6 @@ bool
 )
 IsReadableStreamDefaultReader
 (
-const
 JSObject
 *
 obj
@@ -361,9 +355,7 @@ ReadableStreamGetMode
 JSContext
 *
 cx
-const
-JSObject
-*
+HandleObject
 stream
 ReadableStreamMode
 *
@@ -387,9 +379,7 @@ ReadableStreamIsReadable
 JSContext
 *
 cx
-const
-JSObject
-*
+HandleObject
 stream
 bool
 *
@@ -406,9 +396,7 @@ ReadableStreamIsLocked
 JSContext
 *
 cx
-const
-JSObject
-*
+HandleObject
 stream
 bool
 *
@@ -425,9 +413,7 @@ ReadableStreamIsDisturbed
 JSContext
 *
 cx
-const
-JSObject
-*
+HandleObject
 stream
 bool
 *
@@ -531,9 +517,7 @@ ReadableStreamReaderIsClosed
 JSContext
 *
 cx
-const
-JSObject
-*
+HandleObject
 reader
 bool
 *
