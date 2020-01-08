@@ -3398,6 +3398,13 @@ browserPrivacyCategory
 "
 )
 ;
+setTimeout
+(
+(
+)
+=
+>
+{
 browserPrivacyCategory
 .
 parentNode
@@ -3420,6 +3427,10 @@ trackingGroup
 browserPrivacyCategory
 .
 nextSibling
+)
+;
+}
+0
 )
 ;
 }
