@@ -445,6 +445,7 @@ aContext
 int32_t
 A2D
 )
+const
 {
 ApplyRectTo
 (

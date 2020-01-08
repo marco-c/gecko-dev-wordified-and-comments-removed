@@ -300,6 +300,7 @@ aContext
 int32_t
 A2D
 )
+const
 ;
 void
 ApplyRectTo
