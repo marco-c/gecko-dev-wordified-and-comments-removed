@@ -112,6 +112,7 @@ blank
 let
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -170,6 +171,7 @@ false
 ;
 target
 =
+await
 TargetFactory
 .
 forTab

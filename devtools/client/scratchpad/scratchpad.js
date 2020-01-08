@@ -2874,6 +2874,7 @@ promise
 }
 reloadAndRun
 :
+async
 function
 SP_reloadAndRun
 (
@@ -2921,6 +2922,7 @@ return
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -7512,6 +7514,7 @@ toggleBrowserConsole
 }
 openWebConsole
 :
+async
 function
 SP_openWebConsole
 (
@@ -7520,6 +7523,7 @@ SP_openWebConsole
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -9987,6 +9991,7 @@ promise
 }
 _attach
 :
+async
 function
 ST__attach
 (
@@ -9996,6 +10001,7 @@ aSubject
 const
 target
 =
+await
 TargetFactory
 .
 forTab

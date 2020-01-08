@@ -18,6 +18,7 @@ blank
 .
 then
 (
+async
 function
 (
 aTab
@@ -25,6 +26,7 @@ aTab
 {
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -286,6 +288,7 @@ once
 "
 destroyed
 "
+async
 (
 )
 =
@@ -293,6 +296,7 @@ destroyed
 {
 target
 =
+await
 TargetFactory
 .
 forTab
