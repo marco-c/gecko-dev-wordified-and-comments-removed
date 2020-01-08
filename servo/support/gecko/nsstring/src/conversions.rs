@@ -1402,7 +1402,7 @@ None
 let
 (
 filled
-num_ascii
+read
 mut
 handle
 )
@@ -1459,9 +1459,12 @@ false
 }
 ;
 let
-num_ascii
+(
+read
+written
+)
 =
-copy_basic_latin_to_ascii
+convert_utf16_to_utf8_partial
 (
 other
 &
@@ -1487,7 +1490,7 @@ len
 (
 )
 -
-num_ascii
+read
 ;
 if
 left
@@ -1504,7 +1507,7 @@ finish
 (
 old_len
 +
-num_ascii
+written
 true
 )
 )
@@ -1515,7 +1518,7 @@ filled
 =
 old_len
 +
-num_ascii
+written
 ;
 let
 needed
@@ -1564,7 +1567,7 @@ false
 }
 (
 filled
-num_ascii
+read
 handle
 )
 }
@@ -1652,7 +1655,7 @@ convert_utf16_to_utf8
 &
 other
 [
-num_ascii
+read
 .
 .
 ]
@@ -2446,7 +2449,7 @@ BulkWriteOk
 let
 (
 filled
-num_ascii
+read
 mut
 handle
 )
@@ -2681,9 +2684,12 @@ false
 }
 ;
 let
-num_ascii
+(
+read
+written
+)
 =
-copy_ascii_to_ascii
+convert_latin1_to_utf8_partial
 (
 other
 &
@@ -2709,14 +2715,14 @@ len
 (
 )
 -
-num_ascii
+read
 ;
 let
 filled
 =
 old_len
 +
-num_ascii
+written
 ;
 if
 left
@@ -2786,7 +2792,7 @@ false
 }
 (
 filled
-num_ascii
+read
 handle
 )
 }
@@ -2877,7 +2883,7 @@ convert_latin1_to_utf8
 &
 other
 [
-num_ascii
+read
 .
 .
 ]
