@@ -2632,6 +2632,12 @@ y
 {
 AutoUnsafeCallWithABI
 unsafe
+(
+UnsafeABIStrictness
+:
+:
+AllowPendingExceptions
+)
 ;
 int32_t
 yi
