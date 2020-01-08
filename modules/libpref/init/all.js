@@ -700,7 +700,7 @@ performance
 .
 enable_scheduler_timing
 "
-false
+true
 )
 ;
 pref
@@ -38024,7 +38024,7 @@ webextensions
 .
 enablePerformanceCounters
 "
-false
+true
 )
 ;
 pref
