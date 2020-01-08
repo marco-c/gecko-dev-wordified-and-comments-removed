@@ -10364,12 +10364,6 @@ defined
 (
 XP_IOS
 )
-|
-|
-defined
-(
-MOZ_B2G
-)
 pref
 (
 "
