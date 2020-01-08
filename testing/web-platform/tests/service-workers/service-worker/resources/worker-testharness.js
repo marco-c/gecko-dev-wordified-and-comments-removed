@@ -59,6 +59,7 @@ function
 (
 )
 {
+return
 self
 .
 caches
