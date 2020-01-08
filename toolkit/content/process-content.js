@@ -297,6 +297,10 @@ if
 (
 !
 registeredURLs
+|
+|
+!
+registeredURLs
 .
 has
 (
