@@ -378,6 +378,12 @@ asTempRope
 )
 const
 ;
+void
+assertValid
+(
+)
+const
+;
 }
 ;
 struct
