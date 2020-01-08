@@ -38,14 +38,14 @@ emulator_manifest
 size
 "
 :
-135064025
+131698372
         
 "
 digest
 "
 :
 "
-125678c5b0d93ead8bbf01ba94253e532909417b40637460624cfca34e92f431534fc77a0225e9c4728dcbcf2884a8f7fa1ee059efdfa82d827ca20477d41705
+2f62e4f39e2bd858f640b53bbb6cd33de6646f21419d1a9531d9ab5528a7ca6ab6f4cfe370cbb72c4fd475cb9db842a89acdbb9b647d9c0861ee85bc5901dfed
 "
         
 "
@@ -65,9 +65,9 @@ android
 -
 sdk_r27
 .
-1
+3
 .
-12
+10
 -
 linux
 -
