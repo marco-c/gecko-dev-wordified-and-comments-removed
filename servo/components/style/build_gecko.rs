@@ -97,10 +97,7 @@ std
 collections
 :
 :
-{
-HashMap
 HashSet
-}
 ;
 use
 std
@@ -338,12 +335,6 @@ from_str
 :
 :
 <
-toml
-:
-:
-value
-:
-:
 Table
 >
 (
