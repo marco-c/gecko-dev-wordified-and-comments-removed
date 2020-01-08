@@ -1591,9 +1591,11 @@ nuses
 =
 0
 )
+{
 return
 nuses
 ;
+}
 MOZ_ASSERT
 (
 nuses
@@ -1847,6 +1849,7 @@ length
 -
 1
 )
+{
 return
 CodeSpec
 [
@@ -1855,6 +1858,7 @@ op
 .
 length
 ;
+}
 return
 GetVariableBytecodeLength
 (
@@ -1930,9 +1934,11 @@ next
 =
 JSOP_BITAND
 )
+{
 return
 true
 ;
+}
 if
 (
 *
@@ -1968,9 +1974,11 @@ next
 =
 JSOP_BITAND
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -2017,9 +2025,11 @@ next
 =
 JSOP_BITAND
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -2050,9 +2060,11 @@ next
 =
 JSOP_BITOR
 )
+{
 return
 true
 ;
+}
 return
 false
 ;

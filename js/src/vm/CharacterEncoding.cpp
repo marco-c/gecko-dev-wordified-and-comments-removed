@@ -107,11 +107,13 @@ if
 !
 latin1
 )
+{
 return
 Latin1CharsZ
 (
 )
 ;
+}
 for
 (
 size_t
@@ -127,6 +129,7 @@ len
 +
 i
 )
+{
 latin1
 [
 i
@@ -144,6 +147,7 @@ i
 ]
 )
 ;
+}
 latin1
 [
 len
@@ -216,8 +220,10 @@ c
 <
 0x80
 )
+{
 continue
 ;
+}
 uint32_t
 v
 ;
@@ -491,11 +497,13 @@ if
 (
 numcharsp
 )
+{
 *
 numcharsp
 =
 0
 ;
+}
 while
 (
 srclen
@@ -648,8 +656,10 @@ dstlenp
 >
 capacity
 )
+{
 return
 ;
+}
 *
 dst
 +
@@ -693,8 +703,10 @@ utf8Len
 >
 capacity
 )
+{
 return
 ;
+}
 for
 (
 size_t
@@ -710,6 +722,7 @@ i
 +
 +
 )
+{
 *
 dst
 +
@@ -724,20 +737,24 @@ i
 )
 ;
 }
+}
 if
 (
 dstlenp
 )
+{
 *
 dstlenp
 +
 =
 utf8Len
 ;
+}
 if
 (
 numcharsp
 )
+{
 (
 *
 numcharsp
@@ -745,6 +762,7 @@ numcharsp
 +
 +
 ;
+}
 }
 }
 JS_PUBLIC_API
@@ -897,6 +915,7 @@ if
 (
 maybeCx
 )
+{
 utf8
 =
 maybeCx
@@ -912,7 +931,9 @@ len
 1
 )
 ;
+}
 else
+{
 utf8
 =
 js_pod_malloc
@@ -925,16 +946,19 @@ len
 1
 )
 ;
+}
 if
 (
 !
 utf8
 )
+{
 return
 UTF8CharsZ
 (
 )
 ;
+}
 :
 :
 DeflateStringToUTF8Buffer
@@ -1268,9 +1292,11 @@ ucs4Char
 )
 )
 )
+{
 return
 INVALID_UTF8
 ;
+}
 return
 ucs4Char
 ;
@@ -1438,6 +1464,7 @@ Action
 =
 AssertNoInvalids
 )
+{
 *
 smallestEncoding
 =
@@ -1449,6 +1476,7 @@ SmallestEncoding
 :
 ASCII
 ;
+}
 auto
 RequireLatin1
 =
@@ -1560,6 +1588,7 @@ Action
 =
 Copy
 )
+{
 dst
 [
 j
@@ -1570,6 +1599,7 @@ CharT
 v
 )
 ;
+}
 }
 else
 {
@@ -1589,10 +1619,12 @@ v
 n
 )
 )
+{
 n
 +
 +
 ;
+}
 #
 define
 INVALID
@@ -1758,6 +1790,7 @@ n
 >
 4
 )
+{
 INVALID
 (
 ReportInvalidCharacter
@@ -1765,6 +1798,7 @@ i
 1
 )
 ;
+}
 if
 (
 i
@@ -1773,6 +1807,7 @@ n
 >
 srclen
 )
+{
 INVALID
 (
 ReportBufferTooSmall
@@ -1780,6 +1815,7 @@ ReportBufferTooSmall
 1
 )
 ;
+}
 if
 (
 (
@@ -1926,6 +1962,7 @@ m
 =
 0x80
 )
+{
 INVALID
 (
 ReportInvalidCharacter
@@ -1933,6 +1970,7 @@ i
 m
 )
 ;
+}
 }
 v
 =
@@ -2015,6 +2053,7 @@ Action
 =
 Copy
 )
+{
 dst
 [
 j
@@ -2025,6 +2064,7 @@ CharT
 v
 )
 ;
+}
 }
 else
 {
@@ -2048,6 +2088,7 @@ Action
 =
 Copy
 )
+{
 dst
 [
 j
@@ -2065,6 +2106,7 @@ v
 0xD800
 )
 ;
+}
 j
 +
 +
@@ -2076,6 +2118,7 @@ Action
 =
 Copy
 )
+{
 dst
 [
 j
@@ -2092,6 +2135,7 @@ v
 0xDC00
 )
 ;
+}
 }
 else
 {
@@ -2120,10 +2164,12 @@ Action
 =
 AssertNoInvalids
 )
+{
 RequireUTF16
 (
 )
 ;
+}
 }
 }
 if
@@ -2139,11 +2185,13 @@ Action
 =
 FindEncoding
 )
+{
 *
 dstlenp
 =
 j
 ;
+}
 return
 true
 ;
@@ -2209,11 +2257,13 @@ outlen
 encoding
 )
 )
+{
 return
 CharsT
 (
 )
 ;
+}
 CharT
 *
 dst
@@ -2297,6 +2347,7 @@ i
 +
 +
 )
+{
 dst
 [
 i
@@ -2310,6 +2361,7 @@ i
 ]
 )
 ;
+}
 }
 else
 {
@@ -2687,9 +2739,11 @@ s
 &
 0x80
 )
+{
 return
 false
 ;
+}
 s
 +
 +

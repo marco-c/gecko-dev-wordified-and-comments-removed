@@ -314,8 +314,10 @@ if
 !
 hasTopLevelScript_
 )
+{
 return
 ;
+}
 out
 .
 printf
@@ -455,6 +457,7 @@ lookup
 lineno
 )
 )
+{
 out
 .
 printf
@@ -480,6 +483,7 @@ value
 )
 )
 ;
+}
 }
 }
 out
@@ -561,6 +565,7 @@ displayAtom
 (
 )
 )
+{
 return
 EscapedStringPrinter
 (
@@ -574,6 +579,7 @@ displayAtom
 0
 )
 ;
+}
 out
 .
 printf
@@ -631,9 +637,11 @@ outFN_
 script
 )
 )
+{
 return
 false
 ;
+}
 outFN_
 .
 put
@@ -733,9 +741,11 @@ outFNDA_
 script
 )
 )
+{
 return
 false
 ;
+}
 outFNDA_
 .
 put
@@ -782,6 +792,7 @@ SN_IS_TERMINATOR
 sn
 )
 )
+{
 snpc
 +
 =
@@ -790,6 +801,7 @@ SN_DELTA
 sn
 )
 ;
+}
 size_t
 lineno
 =
@@ -935,6 +947,7 @@ if
 (
 counts
 )
+{
 hits
 =
 counts
@@ -944,6 +957,7 @@ numExec
 (
 )
 ;
+}
 }
 if
 (
@@ -992,6 +1006,7 @@ type
 =
 SRC_SETLINE
 )
+{
 lineno
 =
 size_t
@@ -1009,6 +1024,7 @@ Line
 )
 )
 ;
+}
 else
 if
 (
@@ -1017,10 +1033,12 @@ type
 =
 SRC_NEWLINE
 )
+{
 lineno
 +
 +
 ;
+}
 else
 if
 (
@@ -1029,6 +1047,7 @@ type
 =
 SRC_TABLESWITCH
 )
+{
 tableswitchExitOffset
 =
 GetSrcNoteOffset
@@ -1043,6 +1062,7 @@ TableSwitch
 EndOffset
 )
 ;
+}
 sn
 =
 SN_NEXT
@@ -1115,9 +1135,11 @@ lineno
 hits
 )
 )
+{
 return
 false
 ;
+}
 numLinesInstrumented_
 +
 +
@@ -1129,10 +1151,12 @@ hits
 =
 0
 )
+{
 numLinesHit_
 +
 +
 ;
+}
 maxLineHit_
 =
 std
@@ -1165,10 +1189,12 @@ hits
 =
 0
 )
+{
 numLinesHit_
 +
 +
 ;
+}
 p
 -
 >
@@ -1214,6 +1240,7 @@ if
 (
 counts
 )
+{
 hits
 -
 =
@@ -1224,6 +1251,7 @@ numExec
 (
 )
 ;
+}
 }
 if
 (
@@ -1275,6 +1303,7 @@ if
 (
 counts
 )
+{
 fallthroughHits
 =
 counts
@@ -1284,6 +1313,7 @@ numExec
 (
 )
 ;
+}
 }
 uint64_t
 taken
@@ -1313,6 +1343,7 @@ if
 (
 hits
 )
+{
 outBRDA_
 .
 printf
@@ -1328,7 +1359,9 @@ n
 taken
 )
 ;
+}
 else
+{
 outBRDA_
 .
 put
@@ -1341,6 +1374,7 @@ n
 2
 )
 ;
+}
 outBRDA_
 .
 printf
@@ -1362,6 +1396,7 @@ if
 (
 hits
 )
+{
 outBRDA_
 .
 printf
@@ -1377,7 +1412,9 @@ n
 fallthroughHits
 )
 ;
+}
 else
+{
 outBRDA_
 .
 put
@@ -1390,6 +1427,7 @@ n
 2
 )
 ;
+}
 numBranchesFound_
 +
 =
@@ -1399,6 +1437,7 @@ if
 (
 hits
 )
+{
 numBranchesHit_
 +
 =
@@ -1410,6 +1449,7 @@ taken
 !
 fallthroughHits
 ;
+}
 branchId
 +
 +
@@ -1619,10 +1659,12 @@ testpc
 <
 firstcasepc
 )
+{
 firstcasepc
 =
 testpc
 ;
+}
 }
 uint64_t
 defaultHits
@@ -1695,8 +1737,10 @@ casepc
 =
 pc
 )
+{
 continue
 ;
+}
 jsbytecode
 *
 lastcasepc
@@ -1841,6 +1885,7 @@ if
 (
 counts
 )
+{
 caseHits
 =
 counts
@@ -1850,6 +1895,7 @@ numExec
 (
 )
 ;
+}
 fallsThroughHits
 =
 0
@@ -1922,6 +1968,7 @@ endpc
 )
 )
 )
+{
 fallsThroughHits
 =
 script
@@ -1932,6 +1979,7 @@ getHitCount
 endpc
 )
 ;
+}
 }
 caseHits
 -
@@ -1962,6 +2010,7 @@ if
 (
 hits
 )
+{
 outBRDA_
 .
 printf
@@ -1977,7 +2026,9 @@ n
 caseHits
 )
 ;
+}
 else
+{
 outBRDA_
 .
 put
@@ -1990,6 +2041,7 @@ n
 2
 )
 ;
+}
 numBranchesFound_
 +
 +
@@ -2124,10 +2176,12 @@ lastcasepc
 =
 defaultpc
 )
+{
 defaultHasOwnClause
 =
 false
 ;
+}
 if
 (
 sc
@@ -2199,6 +2253,7 @@ endpc
 )
 )
 )
+{
 fallsThroughHits
 =
 script
@@ -2209,6 +2264,7 @@ getHitCount
 endpc
 )
 ;
+}
 }
 if
 (
@@ -2238,6 +2294,7 @@ if
 (
 counts
 )
+{
 defaultHits
 =
 counts
@@ -2247,6 +2304,7 @@ numExec
 (
 )
 ;
+}
 }
 defaultHits
 -
@@ -2282,6 +2340,7 @@ if
 (
 hits
 )
+{
 outBRDA_
 .
 printf
@@ -2297,7 +2356,9 @@ n
 defaultHits
 )
 ;
+}
 else
+{
 outBRDA_
 .
 put
@@ -2310,6 +2371,7 @@ n
 2
 )
 ;
+}
 numBranchesFound_
 +
 +
@@ -2368,10 +2430,12 @@ isTopLevel
 (
 )
 )
+{
 hasTopLevelScript_
 =
 true
 ;
+}
 return
 true
 ;
@@ -2419,6 +2483,7 @@ if
 (
 sources_
 )
+{
 sources_
 -
 >
@@ -2427,6 +2492,7 @@ LCovSourceVector
 (
 )
 ;
+}
 }
 void
 LCovRealm
@@ -2457,8 +2523,10 @@ hadOutOfMemory
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -2469,8 +2537,10 @@ code
 (
 )
 )
+{
 return
 ;
+}
 LCovSource
 *
 source
@@ -2486,8 +2556,10 @@ if
 !
 source
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -2543,9 +2615,11 @@ writeRealmName
 realm
 )
 )
+{
 return
 nullptr
 ;
+}
 LCovSourceVector
 *
 raw
@@ -2608,10 +2682,12 @@ match
 name
 )
 )
+{
 return
 &
 source
 ;
+}
 }
 }
 UniqueChars
@@ -2705,8 +2781,10 @@ hadOutOfMemory
 (
 )
 )
+{
 return
 ;
+}
 bool
 someComplete
 =
@@ -2746,8 +2824,10 @@ if
 !
 someComplete
 )
+{
 return
 ;
+}
 *
 isEmpty
 =
@@ -2779,6 +2859,7 @@ isComplete
 (
 )
 )
+{
 sc
 .
 exportInto
@@ -2786,6 +2867,7 @@ exportInto
 out
 )
 ;
+}
 }
 }
 bool
@@ -3090,10 +3172,12 @@ isInitialized
 (
 )
 )
+{
 finishFile
 (
 )
 ;
+}
 }
 bool
 LCovRuntime
@@ -3132,9 +3216,11 @@ outDir
 =
 0
 )
+{
 return
 false
 ;
+}
 int64_t
 timestamp
 =
@@ -3271,8 +3357,10 @@ name
 )
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -3283,6 +3371,7 @@ init
 name
 )
 )
+{
 fprintf
 (
 stderr
@@ -3307,6 +3396,7 @@ s
 name
 )
 ;
+}
 isEmpty_
 =
 true
@@ -3358,8 +3448,10 @@ name
 )
 )
 )
+{
 return
 ;
+}
 remove
 (
 name
@@ -3387,8 +3479,10 @@ isInitialized
 (
 )
 )
+{
 return
 ;
+}
 uint32_t
 p
 =
@@ -3425,8 +3519,10 @@ isInitialized
 (
 )
 )
+{
 return
 ;
+}
 }
 realm
 .

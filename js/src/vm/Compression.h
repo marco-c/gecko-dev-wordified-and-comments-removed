@@ -272,9 +272,11 @@ CHUNK_SIZE
 =
 0
 )
+{
 return
 CHUNK_SIZE
 ;
+}
 return
 uncompressedBytes
 %

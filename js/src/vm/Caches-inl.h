@@ -282,6 +282,7 @@ shouldPreTenure
 sweepGroup
 )
 )
+{
 heap
 =
 gc
@@ -289,6 +290,7 @@ gc
 :
 TenuredHeap
 ;
+}
 }
 if
 (
@@ -306,9 +308,11 @@ upcomingZealousGC
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 NativeObject
 *
 obj
@@ -346,9 +350,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 copyCachedToObject
 (
 obj
@@ -373,6 +379,7 @@ shouldDelayMetadataBuilder
 (
 )
 )
+{
 cx
 -
 >
@@ -387,7 +394,9 @@ cx
 obj
 )
 ;
+}
 else
+{
 obj
 =
 static_cast
@@ -403,6 +412,7 @@ obj
 )
 )
 ;
+}
 probes
 :
 :

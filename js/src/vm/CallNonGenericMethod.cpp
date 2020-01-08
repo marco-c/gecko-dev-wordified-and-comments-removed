@@ -130,6 +130,7 @@ ProxyObject
 (
 )
 )
+{
 return
 Proxy
 :
@@ -143,6 +144,7 @@ args
 )
 ;
 }
+}
 if
 (
 IsCallSelfHostedNonGenericMethod
@@ -150,6 +152,7 @@ IsCallSelfHostedNonGenericMethod
 impl
 )
 )
+{
 return
 ReportIncompatibleSelfHostedMethod
 (
@@ -157,6 +160,7 @@ cx
 args
 )
 ;
+}
 ReportIncompatible
 (
 cx
