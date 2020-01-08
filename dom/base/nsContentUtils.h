@@ -7618,6 +7618,10 @@ uint32_t
 sCookiesLifetimePolicy
 ;
 static
+bool
+sAntiTrackingControlCenterUIEnabled
+;
+static
 int32_t
 sPrivacyMaxInnerWidth
 ;
