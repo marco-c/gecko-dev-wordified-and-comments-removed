@@ -767,7 +767,7 @@ aComputedStyle
 )
 ;
 static
-bool
+ImgDrawResult
 CreateWebRenderCommandsForBorder
 (
 nsDisplayItem
