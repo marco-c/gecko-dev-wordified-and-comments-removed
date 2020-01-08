@@ -1009,9 +1009,6 @@ if
 isForeign
 &
 &
-isTrackingResource
-&
-&
 AntiTrackingCommon
 :
 :
@@ -3137,9 +3134,6 @@ if
 isForeign
 &
 &
-isTrackingResource
-&
-&
 AntiTrackingCommon
 :
 :
@@ -3362,9 +3356,6 @@ GetIsTrackingResource
 if
 (
 isForeign
-&
-&
-isTrackingResource
 &
 &
 AntiTrackingCommon
