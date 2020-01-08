@@ -95,6 +95,16 @@ nsICompressConvStats
 idl
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsUnknownDecoder
+.
+h
+'
+]
 XPIDL_MODULE
 =
 '
