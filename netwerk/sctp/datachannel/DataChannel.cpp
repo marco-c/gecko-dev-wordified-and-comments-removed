@@ -1588,6 +1588,10 @@ NS_IsMainThread
 )
 )
 ;
+mListener
+=
+nullptr
+;
 RUN_ON_THREAD
 (
 mSTS
