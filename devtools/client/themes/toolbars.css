@@ -1330,6 +1330,12 @@ repeat
 !
 important
 ;
+text
+-
+overflow
+:
+ellipsis
+;
 overflow
 :
 hidden
