@@ -73,6 +73,9 @@ bool
 normalize
 float
 sampleRate
+bool
+*
+aAllocationFailure
 )
 ;
 void
