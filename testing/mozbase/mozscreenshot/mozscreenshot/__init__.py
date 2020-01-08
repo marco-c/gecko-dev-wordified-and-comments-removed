@@ -95,6 +95,17 @@ dump_screen
 (
 utilityPath
 log
+prefix
+=
+'
+mozilla
+-
+test
+-
+fail
+-
+screenshot_
+'
 )
 :
     
@@ -321,15 +332,7 @@ mkstemp
             
 prefix
 =
-'
-mozilla
--
-test
--
-fail
--
-screenshot_
-'
+prefix
             
 suffix
 =
@@ -434,6 +437,17 @@ dump_device_screen
 (
 device
 log
+prefix
+=
+'
+mozilla
+-
+test
+-
+fail
+-
+screenshot_
+'
 )
 :
     
@@ -570,19 +584,17 @@ mktemp
 p
 %
 s
-mozilla
--
-test
--
-fail
--
-screenshot_XXXXXX
+%
+sXXXXXX
 '
 %
                                        
+(
 device
 .
 test_root
+prefix
+)
 )
         
 pngfilename
