@@ -1092,6 +1092,8 @@ uint32_t
 aFlags
 PlaybackType
 aPlaybackType
+bool
+aMarkUsed
 )
 {
 if
@@ -1147,6 +1149,7 @@ GetCompositedFrame
 (
 *
 mAnimationState
+aMarkUsed
 )
 ;
 }
@@ -1194,6 +1197,7 @@ PlaybackType
 :
 eStatic
 )
+aMarkUsed
 )
 ;
 }
@@ -1216,6 +1220,7 @@ PlaybackType
 :
 eStatic
 )
+aMarkUsed
 )
 ;
 }
@@ -1233,6 +1238,8 @@ uint32_t
 aFlags
 PlaybackType
 aPlaybackType
+bool
+aMarkUsed
 )
 {
 MOZ_ASSERT
@@ -1296,6 +1303,7 @@ LookupFrameInternal
 requestedSize
 aFlags
 aPlaybackType
+aMarkUsed
 )
 ;
 if
@@ -1468,6 +1476,7 @@ LookupFrameInternal
 requestedSize
 aFlags
 aPlaybackType
+aMarkUsed
 )
 ;
 }
@@ -1754,6 +1763,7 @@ PlaybackType
 :
 eStatic
 )
+false
 )
 ;
 MatchType
@@ -4675,6 +4685,7 @@ LookupFrame
 aSize
 flags
 playbackType
+false
 )
 ;
 return

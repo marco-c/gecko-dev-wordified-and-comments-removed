@@ -653,6 +653,8 @@ GetCompositedFrame
 AnimationState
 &
 aState
+bool
+aMarkUsed
 )
 ;
 void

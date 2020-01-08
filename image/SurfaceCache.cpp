@@ -4318,6 +4318,8 @@ const
 StaticMutexAutoLock
 &
 aAutoLock
+bool
+aMarkUsed
 )
 {
 RefPtr
@@ -4545,6 +4547,9 @@ SUBSTITUTE_BECAUSE_BEST
 {
 if
 (
+aMarkUsed
+&
+&
 !
 MarkUsed
 (
@@ -6460,6 +6465,8 @@ const
 SurfaceKey
 &
 aSurfaceKey
+bool
+aMarkUsed
 )
 {
 nsTArray
@@ -6507,6 +6514,7 @@ Lookup
 aImageKey
 aSurfaceKey
 lock
+aMarkUsed
 )
 ;
 sInstance
@@ -6536,6 +6544,8 @@ const
 SurfaceKey
 &
 aSurfaceKey
+bool
+aMarkUsed
 )
 {
 nsTArray
@@ -6583,6 +6593,7 @@ LookupBestMatch
 aImageKey
 aSurfaceKey
 lock
+aMarkUsed
 )
 ;
 sInstance

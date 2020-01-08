@@ -138,6 +138,7 @@ PlaybackType
 :
 eAnimated
 )
+false
 )
 ;
 return
@@ -1448,6 +1449,7 @@ PlaybackType
 :
 eAnimated
 )
+false
 )
 ;
 if
@@ -1533,6 +1535,7 @@ PlaybackType
 :
 eAnimated
 )
+true
 )
 ;
 ret
@@ -1824,6 +1827,8 @@ GetCompositedFrame
 AnimationState
 &
 aState
+bool
+aMarkUsed
 )
 {
 aState
@@ -1901,6 +1906,7 @@ PlaybackType
 :
 eAnimated
 )
+aMarkUsed
 )
 ;
 if

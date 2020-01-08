@@ -635,6 +635,10 @@ const
 SurfaceKey
 &
 aSurfaceKey
+bool
+aMarkUsed
+=
+true
 )
 ;
 static
@@ -648,6 +652,10 @@ const
 SurfaceKey
 &
 aSurfaceKey
+bool
+aMarkUsed
+=
+true
 )
 ;
 static

@@ -574,6 +574,10 @@ uint32_t
 aFlags
 PlaybackType
 aPlaybackType
+bool
+aMarkUsed
+=
+true
 )
 ;
 LookupResult
@@ -590,6 +594,8 @@ uint32_t
 aFlags
 PlaybackType
 aPlaybackType
+bool
+aMarkUsed
 )
 ;
 ImgDrawResult
