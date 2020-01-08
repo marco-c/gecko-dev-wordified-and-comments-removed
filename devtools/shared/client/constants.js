@@ -299,6 +299,13 @@ exception
 "
 exception
 "
+"
+replayForcedPause
+"
+:
+"
+replayForcedPause
+"
 }
 ;
 module
