@@ -713,13 +713,6 @@ address
 -
 page
 "
-selectedStateKey
-:
-[
-this
-.
-selectedStateKey
-]
 }
 "
 address
@@ -740,6 +733,13 @@ address
 fields
 "
 )
+selectedStateKey
+:
+[
+this
+.
+selectedStateKey
+]
 }
 }
 ;
