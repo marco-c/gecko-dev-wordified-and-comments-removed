@@ -333,15 +333,6 @@ global
 toolbarbutton
 .
 css
-skin
-/
-classic
-/
-global
-/
-tooltip
-.
-css
 *
 skin
 /
