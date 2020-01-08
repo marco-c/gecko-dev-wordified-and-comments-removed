@@ -910,13 +910,6 @@ work
 ;
 MOZ_ASSERT
 (
-IsUAWidget
-(
-)
-)
-;
-MOZ_ASSERT
-(
 GetHost
 (
 )
