@@ -140,10 +140,6 @@ expected_events
 [
         
 "
-focus
-"
-        
-"
 input
 "
         
