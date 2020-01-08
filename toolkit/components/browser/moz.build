@@ -151,11 +151,6 @@ nsIWebBrowserFocus
 .
 idl
 '
-'
-nsIWebBrowserSetup
-.
-idl
-'
 ]
 if
 CONFIG
@@ -270,6 +265,11 @@ EXPORTS
 [
 '
 nsEmbedCID
+.
+h
+'
+'
+nsWebBrowser
 .
 h
 '
