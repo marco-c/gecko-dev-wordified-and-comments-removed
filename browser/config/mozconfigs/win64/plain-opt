@@ -79,17 +79,6 @@ bin
 /
 rustfmt
 "
-CBINDGEN
-=
-"
-{
-TOOLTOOL_DIR
-}
-/
-cbindgen
-/
-cbindgen
-"
 NODEJS
 =
 "
