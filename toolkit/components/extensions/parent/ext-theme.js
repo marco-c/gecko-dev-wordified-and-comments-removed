@@ -830,6 +830,11 @@ sidebar
 :
 case
 "
+sidebar_border
+"
+:
+case
+"
 sidebar_text
 "
 :
