@@ -1830,6 +1830,21 @@ unexpected_total
 :
                     
 break
+                
+if
+len
+(
+test_loader
+.
+test_ids
+)
+=
+=
+skipped_tests
+:
+                    
+break
+;
     
 if
 test_total
