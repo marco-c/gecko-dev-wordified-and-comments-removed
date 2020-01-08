@@ -242,6 +242,8 @@ eIntID_GTKCSDMaximizeButton
 eIntID_GTKCSDCloseButton
 eIntID_SystemUsesDarkTheme
 eIntID_PrefersReducedMotion
+eIntID_PrimaryPointerCapabilities
+eIntID_AllPointerCapabilities
 }
 ;
 enum

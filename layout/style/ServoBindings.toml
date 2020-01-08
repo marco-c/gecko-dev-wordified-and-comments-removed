@@ -1887,6 +1887,12 @@ UpdateAnimationsTasks
 mozilla
 :
 :
+PointerCapabilities
+"
+"
+mozilla
+:
+:
 LookAndFeel
 "
 "
@@ -3899,6 +3905,9 @@ EffectCompositor_CascadeLevel
 "
 "
 UpdateAnimationsTasks
+"
+"
+PointerCapabilities
 "
 "
 ParsingMode
