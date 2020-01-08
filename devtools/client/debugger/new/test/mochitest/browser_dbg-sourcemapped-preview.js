@@ -170,7 +170,6 @@ expression
 :
 "
 doThing
-;
 "
 result
 :
@@ -192,7 +191,6 @@ expression
 :
 "
 x
-;
 "
 result
 :
@@ -211,7 +209,6 @@ expression
 :
 "
 doThing
-;
 "
 result
 :
@@ -266,7 +263,6 @@ expression
 :
 "
 aVar
-;
 "
 result
 :
@@ -329,7 +325,6 @@ expression
 :
 "
 aVar
-;
 "
 result
 :
@@ -392,7 +387,6 @@ expression
 :
 "
 aVar
-;
 "
 result
 :
@@ -588,7 +582,6 @@ expression
 :
 "
 aNamespace
-;
 "
 fields
 :
