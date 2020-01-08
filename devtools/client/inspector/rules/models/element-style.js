@@ -171,16 +171,11 @@ this
 .
 cssProperties
 =
-getCssProperties
-(
 this
 .
 ruleView
 .
-inspector
-.
-toolbox
-)
+cssProperties
 ;
 this
 .
