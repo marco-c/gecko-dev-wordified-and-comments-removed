@@ -4210,6 +4210,11 @@ ifdef
 MOZ_DEBUG
 <
 menuitem
+id
+=
+"
+menu_layout_debugger
+"
 label
 =
 "
