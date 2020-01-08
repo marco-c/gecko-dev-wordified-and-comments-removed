@@ -272,6 +272,15 @@ NrSocketProxyConfig
 config
 )
 ;
+static
+bool
+IsForbiddenAddress
+(
+nr_transport_addr
+*
+addr
+)
+;
 virtual
 int
 create
