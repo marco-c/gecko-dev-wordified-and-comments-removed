@@ -305,7 +305,10 @@ uint8_t
 AllocateMemory
 (
 CallbackStorageCapacity
-TrackedMemoryKind
+MemoryKind
+:
+:
+Tracked
 )
 ;
 }
@@ -327,7 +330,10 @@ DeallocateMemory
 (
 mCallbackStorage
 CallbackStorageCapacity
-TrackedMemoryKind
+MemoryKind
+:
+:
+Tracked
 )
 ;
 }

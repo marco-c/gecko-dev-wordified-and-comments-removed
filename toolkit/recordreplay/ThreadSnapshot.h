@@ -14,6 +14,13 @@ h
 #
 include
 "
+ProcessRewind
+.
+h
+"
+#
+include
+"
 Thread
 .
 h
@@ -75,7 +82,7 @@ DeallocateMemory
 (
 mStack
 mStackBytes
-UntrackedMemoryKind
+MemoryKind
 :
 :
 ThreadSnapshot

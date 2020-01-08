@@ -55,7 +55,7 @@ void
 aAddress
 size_t
 aSize
-AllocatedMemoryKind
+MemoryKind
 aKind
 )
 ;
@@ -67,7 +67,7 @@ void
 aBaseAddress
 size_t
 aSize
-AllocatedMemoryKind
+MemoryKind
 aKind
 )
 ;
