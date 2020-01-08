@@ -1870,9 +1870,7 @@ highlighted
 =
 this
 .
-inspector
-.
-isHighlighterReady
+_highlighters
 &
 &
 flexContainer
