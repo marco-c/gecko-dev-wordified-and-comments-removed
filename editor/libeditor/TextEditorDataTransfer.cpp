@@ -604,6 +604,7 @@ kMozTextInternal
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;

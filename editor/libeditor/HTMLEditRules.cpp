@@ -2309,7 +2309,6 @@ eRedo
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -6914,7 +6913,6 @@ mListenerEnabled
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -13929,7 +13927,6 @@ IsPlaintextEditor
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -16095,7 +16092,6 @@ NameAtom
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -21419,7 +21415,6 @@ HTMLEditorRef
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -28274,7 +28269,6 @@ TakeClearProperty
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )
@@ -36156,7 +36150,6 @@ NS_OK
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 HTMLEditorRef
 (
 )

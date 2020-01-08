@@ -595,6 +595,7 @@ cell
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -860,6 +861,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -1645,6 +1647,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -2108,6 +2111,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -2898,6 +2902,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -3396,6 +3401,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -3520,6 +3526,7 @@ eNext
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -4585,6 +4592,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -6688,6 +6696,7 @@ false
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;
@@ -7759,6 +7768,7 @@ this
 AutoTransactionsConserveSelection
 dontChangeSelection
 (
+*
 this
 )
 ;

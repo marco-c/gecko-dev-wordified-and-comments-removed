@@ -1542,7 +1542,6 @@ aSelection
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 TextEditorRef
 (
 )
@@ -3577,7 +3576,6 @@ else
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 TextEditorRef
 (
 )
@@ -6065,7 +6063,6 @@ br
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
-&
 TextEditorRef
 (
 )

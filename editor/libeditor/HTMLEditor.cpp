@@ -15306,6 +15306,7 @@ NS_ERROR_NULL_POINTER
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;
@@ -17910,6 +17911,7 @@ this
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;

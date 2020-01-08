@@ -5057,6 +5057,7 @@ NS_ERROR_NOT_INITIALIZED
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;

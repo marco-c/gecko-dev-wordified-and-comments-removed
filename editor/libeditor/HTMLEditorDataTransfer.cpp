@@ -5294,6 +5294,7 @@ len
 AutoTransactionsConserveSelection
 dontChangeMySelection
 (
+*
 this
 )
 ;
