@@ -1102,6 +1102,9 @@ searchbar
 "
 urlbar
 "
+"
+webextension
+"
 ]
 release_channel_collection
 :
@@ -1154,6 +1157,8 @@ null
 (
 for
 contextmenu
+and
+webextension
 )
 bug_numbers
 :
