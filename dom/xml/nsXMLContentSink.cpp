@@ -1409,10 +1409,8 @@ CSSLoader
 HasPendingLoads
 (
 )
-&
-&
-NS_SUCCEEDED
-(
+)
+{
 mDocument
 -
 >
@@ -1425,9 +1423,7 @@ AddObserver
 (
 this
 )
-)
-)
-{
+;
 startLayout
 =
 false

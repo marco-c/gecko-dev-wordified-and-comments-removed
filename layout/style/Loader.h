@@ -1051,7 +1051,7 @@ HasPendingLoads
 (
 )
 ;
-nsresult
+void
 AddObserver
 (
 nsICSSLoaderObserver
