@@ -1,12 +1,8 @@
 %
-chrome
-:
-/
-/
+ext
++
 damp
-/
-content
-/
+:
 damp
 .
 html
