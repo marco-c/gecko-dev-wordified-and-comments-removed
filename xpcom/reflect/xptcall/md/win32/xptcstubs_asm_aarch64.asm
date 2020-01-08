@@ -272,6 +272,10 @@ MACRO
 STUBENTRY
 functionname
 paramcount
+EXPORT
+|
+functionname
+|
 |
 functionname
 |
