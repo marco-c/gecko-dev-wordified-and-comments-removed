@@ -298,7 +298,9 @@ message
 level
 '
 :
-level
+'
+error
+'
                
 '
 lineno

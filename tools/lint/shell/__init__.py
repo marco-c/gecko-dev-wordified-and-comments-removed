@@ -240,22 +240,6 @@ level
 '
 error
 '
-if
-entry
-[
-'
-level
-'
-]
-=
-=
-'
-error
-'
-else
-'
-warning
-'
                 
 '
 lineno
