@@ -101,6 +101,10 @@ servo_arc
 ;
 extern
 crate
+servo_channel
+;
+extern
+crate
 smallbitvec
 ;
 extern
@@ -6139,13 +6143,7 @@ T
 >
 MallocSizeOf
 for
-std
-:
-:
-sync
-:
-:
-mpsc
+servo_channel
 :
 :
 Sender
