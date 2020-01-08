@@ -49,8 +49,11 @@ final
 boolean
 redirected
 ;
+protected
 WebResponse
 (
+final
+NonNull
 Builder
 builder
 )

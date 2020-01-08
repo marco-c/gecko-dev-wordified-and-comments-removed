@@ -94,8 +94,11 @@ Nullable
 ByteBuffer
 body
 ;
+protected
 WebMessage
 (
+final
+NonNull
 Builder
 builder
 )
