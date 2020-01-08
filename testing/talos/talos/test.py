@@ -1867,6 +1867,16 @@ restriction
 '
 :
 2
+        
+'
+browser
+.
+newtab
+.
+preload
+'
+:
+False
     
 }
 register_test
