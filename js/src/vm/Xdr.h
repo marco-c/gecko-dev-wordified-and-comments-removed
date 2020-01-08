@@ -529,9 +529,11 @@ length
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 ptr
 ;
@@ -1112,6 +1114,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1121,6 +1124,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 *
 pptr
 =
@@ -1293,6 +1297,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1302,6 +1307,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 memcpy
 (
 ptr
@@ -1329,6 +1335,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1338,6 +1345,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 if
 (
 memcmp
@@ -1350,6 +1358,7 @@ padding
 =
 0
 )
+{
 return
 fail
 (
@@ -1359,6 +1368,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 }
 }
 buf
@@ -1418,6 +1428,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1427,6 +1438,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 *
 ptr
 =
@@ -1457,6 +1469,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1466,6 +1479,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 *
 n
 =
@@ -1515,6 +1529,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1524,6 +1539,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 mozilla
 :
 :
@@ -1561,6 +1577,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1570,6 +1587,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 *
 n
 =
@@ -1627,6 +1645,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1636,6 +1655,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 mozilla
 :
 :
@@ -1673,6 +1693,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1682,6 +1703,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 *
 n
 =
@@ -1739,6 +1761,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1748,6 +1771,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 mozilla
 :
 :
@@ -1785,6 +1809,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -1794,6 +1819,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 *
 n
 =
@@ -1868,6 +1894,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 tmp
 =
 uint32_t
@@ -1878,6 +1905,7 @@ val
 ^
 MAGIC
 ;
+}
 MOZ_TRY
 (
 codeUint32
@@ -1894,6 +1922,7 @@ mode
 =
 XDR_DECODE
 )
+{
 *
 val
 =
@@ -1904,6 +1933,7 @@ tmp
 MAGIC
 )
 ;
+}
 return
 Ok
 (
@@ -1937,6 +1967,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 pun
 .
 d
@@ -1944,6 +1975,7 @@ d
 *
 dp
 ;
+}
 MOZ_TRY
 (
 codeUint64
@@ -1962,6 +1994,7 @@ mode
 =
 XDR_DECODE
 )
+{
 *
 dp
 =
@@ -1969,6 +2002,7 @@ pun
 .
 d
 ;
+}
 return
 Ok
 (
@@ -2047,11 +2081,13 @@ len
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 if
 (
 mode
@@ -2076,6 +2112,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -2085,6 +2122,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 memcpy
 (
 ptr
@@ -2112,6 +2150,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -2121,6 +2160,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 memcpy
 (
 bytes
@@ -2155,6 +2195,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 len64
 =
 (
@@ -2170,6 +2211,7 @@ sp
 1
 )
 ;
+}
 MOZ_TRY
 (
 codeUint64
@@ -2211,6 +2253,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -2220,6 +2263,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 memcpy
 (
 ptr
@@ -2260,6 +2304,7 @@ len
 0
 '
 )
+{
 return
 fail
 (
@@ -2269,6 +2314,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 *
 sp
 =

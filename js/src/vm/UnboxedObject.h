@@ -346,6 +346,7 @@ if
 (
 newScript_
 )
+{
 newScript_
 -
 >
@@ -353,6 +354,7 @@ clear
 (
 )
 ;
+}
 js_delete
 (
 newScript_
@@ -542,6 +544,7 @@ name
 =
 atom
 )
+{
 return
 &
 properties_
@@ -549,6 +552,7 @@ properties_
 i
 ]
 ;
+}
 }
 return
 nullptr
@@ -571,6 +575,7 @@ JSID_IS_STRING
 id
 )
 )
+{
 return
 lookup
 (
@@ -580,6 +585,7 @@ id
 )
 )
 ;
+}
 return
 nullptr
 ;

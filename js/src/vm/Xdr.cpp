@@ -170,9 +170,11 @@ helperThread
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 cx
 -
@@ -255,11 +257,13 @@ nchars
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 uint8_t
 *
 ptr
@@ -276,6 +280,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -285,6 +290,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 mozilla
 :
 :
@@ -329,11 +335,13 @@ nchars
 =
 0
 )
+{
 return
 Ok
 (
 )
 ;
+}
 size_t
 nbytes
 =
@@ -368,6 +376,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -377,6 +386,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 mozilla
 :
 :
@@ -410,6 +420,7 @@ if
 !
 ptr
 )
+{
 return
 fail
 (
@@ -419,6 +430,7 @@ JS
 TranscodeResult_Failure_BadDecode
 )
 ;
+}
 mozilla
 :
 :
@@ -520,6 +532,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 buildIdLength
 =
 buildId
@@ -528,6 +541,7 @@ length
 (
 )
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -557,6 +571,7 @@ length
 (
 )
 )
+{
 return
 xdr
 -
@@ -569,6 +584,7 @@ JS
 TranscodeResult_Failure_BadBuildId
 )
 ;
+}
 if
 (
 mode
@@ -670,6 +686,7 @@ begin
 buildIdLength
 )
 )
+{
 return
 xdr
 -
@@ -682,6 +699,7 @@ JS
 TranscodeResult_Failure_BadBuildId
 )
 ;
+}
 }
 return
 Ok
@@ -1069,6 +1087,7 @@ mode
 =
 XDR_DECODE
 )
+{
 scriptp
 .
 set
@@ -1076,7 +1095,9 @@ set
 nullptr
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 !
@@ -1088,6 +1109,7 @@ enclosingScope
 )
 )
 ;
+}
 MOZ_TRY
 (
 VersionCheck
@@ -1209,6 +1231,7 @@ AutoXDRTree
 :
 noKey
 )
+{
 xdr
 -
 >
@@ -1217,6 +1240,7 @@ createOrReplaceSubTree
 this
 )
 ;
+}
 }
 AutoXDRTree
 :
@@ -1265,6 +1289,7 @@ AutoXDRTree
 :
 noKey
 )
+{
 xdr_
 -
 >
@@ -1272,6 +1297,7 @@ endSubTree
 (
 )
 ;
+}
 }
 constexpr
 AutoXDRTree
@@ -1560,8 +1586,10 @@ if
 (
 oom_
 )
+{
 return
 ;
+}
 size_t
 cursor
 =
@@ -1763,6 +1791,7 @@ noSubTree
 }
 )
 )
+{
 MOZ_CRASH
 (
 "
@@ -1777,6 +1806,7 @@ of
 "
 )
 ;
+}
 }
 void
 XDRIncrementalEncoder
@@ -1809,8 +1839,10 @@ if
 (
 oom_
 )
+{
 return
 ;
+}
 size_t
 cursor
 =
@@ -2166,12 +2198,14 @@ empty
 (
 )
 )
+{
 depthFirst
 .
 popBack
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 slice
@@ -2287,8 +2321,10 @@ AutoXDRTree
 :
 noSubTree
 )
+{
 continue
 ;
+}
 SlicesTree
 :
 :
