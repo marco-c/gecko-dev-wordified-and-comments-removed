@@ -580,7 +580,9 @@ vertical
 "
 >
 <
-progressmeter
+html
+:
+progress
 id
 =
 "
@@ -591,6 +593,11 @@ progress
 notification
 -
 progressmeter
+"
+max
+=
+"
+100
 "
 /
 >
