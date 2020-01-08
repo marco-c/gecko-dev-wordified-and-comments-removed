@@ -1393,6 +1393,13 @@ bool
 {
 MOZ_ASSERT_UNREACHABLE
 (
+"
+MemoryReport
+promises
+are
+never
+rejected
+"
 )
 ;
 }
