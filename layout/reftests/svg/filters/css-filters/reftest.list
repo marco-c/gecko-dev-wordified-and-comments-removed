@@ -97,18 +97,6 @@ negative
 ref
 .
 html
-fuzzy
--
-if
-(
-webrender
-3
--
-3
-55913
--
-55913
-)
 skip
 -
 if
@@ -246,7 +234,7 @@ fuzzy
 if
 (
 webrender
-5
+6
 -
 7
 20420
