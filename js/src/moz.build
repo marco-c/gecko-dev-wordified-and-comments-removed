@@ -1722,6 +1722,13 @@ cpp
 '
 frontend
 /
+ForOfLoopControl
+.
+cpp
+'
+'
+frontend
+/
 IfEmitter
 .
 cpp
@@ -1758,6 +1765,13 @@ cpp
 frontend
 /
 TokenStream
+.
+cpp
+'
+'
+frontend
+/
+TryEmitter
 .
 cpp
 '
