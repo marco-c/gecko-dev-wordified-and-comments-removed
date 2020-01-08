@@ -1320,6 +1320,14 @@ nullptr
 TimeStamp
 :
 :
+UpdateFuzzyTime
+(
+aNewTime
+)
+;
+TimeStamp
+:
+:
 UpdateFuzzyTimeStamp
 (
 aNewTimeStamp
