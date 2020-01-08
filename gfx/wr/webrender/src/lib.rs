@@ -837,10 +837,7 @@ use
 device
 :
 :
-{
 Device
-total_gpu_bytes_allocated
-}
 ;
 pub
 use
