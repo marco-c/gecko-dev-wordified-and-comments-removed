@@ -104,7 +104,7 @@ jsval
 refreshAuthentication
 (
 in
-DOMString
+AString
 email
 )
 ;

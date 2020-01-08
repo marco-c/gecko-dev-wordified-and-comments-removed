@@ -209,7 +209,7 @@ getEvents
 optional
 ]
 in
-DOMString
+AString
 aId
 )
 ;
@@ -300,10 +300,10 @@ void
 recordEvent
 (
 in
-DOMString
+AString
 aId
 in
-DOMString
+AString
 aOuterId
 in
 jsval
@@ -372,7 +372,7 @@ clearEvents
 optional
 ]
 in
-DOMString
+AString
 aId
 )
 ;

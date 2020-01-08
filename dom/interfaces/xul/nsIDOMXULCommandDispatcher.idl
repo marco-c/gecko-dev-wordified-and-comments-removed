@@ -145,10 +145,10 @@ in
 Element
 updater
 in
-DOMString
+AString
 events
 in
-DOMString
+AString
 targets
 )
 ;
@@ -164,7 +164,7 @@ void
 updateCommands
 (
 in
-DOMString
+AString
 eventName
 )
 ;

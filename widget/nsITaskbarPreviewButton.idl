@@ -180,7 +180,7 @@ string
 *
 /
 attribute
-DOMString
+AString
 tooltip
 ;
 /

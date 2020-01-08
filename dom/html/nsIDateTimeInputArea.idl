@@ -329,10 +329,10 @@ void
 setEditAttribute
 (
 in
-DOMString
+AString
 name
 in
-DOMString
+AString
 value
 )
 ;
@@ -370,7 +370,7 @@ void
 removeEditAttribute
 (
 in
-DOMString
+AString
 name
 )
 ;

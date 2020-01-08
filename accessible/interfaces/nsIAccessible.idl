@@ -473,7 +473,7 @@ node
 /
 readonly
 attribute
-DOMString
+AString
 id
 ;
 /
@@ -542,7 +542,7 @@ etc
 /
 readonly
 attribute
-DOMString
+AString
 language
 ;
 /

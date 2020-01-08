@@ -2174,7 +2174,7 @@ void
 removePermissionsWithAttributes
 (
 in
-DOMString
+AString
 patternAsJSON
 )
 ;

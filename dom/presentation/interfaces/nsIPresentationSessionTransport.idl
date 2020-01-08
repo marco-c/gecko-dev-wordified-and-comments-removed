@@ -282,7 +282,7 @@ void
 send
 (
 in
-DOMString
+AString
 data
 )
 ;

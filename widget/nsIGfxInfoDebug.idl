@@ -138,7 +138,7 @@ void
 spoofVendorID
 (
 in
-DOMString
+AString
 aVendorID
 )
 ;
@@ -146,7 +146,7 @@ void
 spoofDeviceID
 (
 in
-DOMString
+AString
 aDeviceID
 )
 ;
@@ -154,7 +154,7 @@ void
 spoofDriverVersion
 (
 in
-DOMString
+AString
 aDriverVersion
 )
 ;

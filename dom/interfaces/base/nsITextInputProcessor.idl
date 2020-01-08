@@ -3155,7 +3155,7 @@ void
 setPendingCompositionString
 (
 in
-DOMString
+AString
 aString
 )
 ;
@@ -4091,7 +4091,7 @@ boolean
 commitCompositionWith
 (
 in
-DOMString
+AString
 aCommitString
 [
 optional
@@ -5384,7 +5384,7 @@ boolean
 getModifierState
 (
 in
-DOMString
+AString
 aModifierKey
 )
 ;

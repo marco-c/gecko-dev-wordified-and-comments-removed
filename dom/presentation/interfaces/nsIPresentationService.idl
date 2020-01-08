@@ -208,7 +208,7 @@ void
 notifySuccess
 (
 in
-DOMString
+AString
 url
 )
 ;
@@ -535,13 +535,13 @@ in
 URLArrayRef
 urls
 in
-DOMString
+AString
 sessionId
 in
-DOMString
+AString
 origin
 in
-DOMString
+AString
 deviceId
 in
 unsigned
@@ -613,13 +613,13 @@ void
 sendSessionMessage
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
 role
 in
-DOMString
+AString
 data
 )
 ;
@@ -675,7 +675,7 @@ void
 sendSessionBinaryMsg
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -737,7 +737,7 @@ void
 sendSessionBlob
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -785,7 +785,7 @@ void
 closeSession
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -833,7 +833,7 @@ void
 terminateSession
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -922,7 +922,7 @@ in
 URLArrayRef
 urls
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -1096,7 +1096,7 @@ void
 registerSessionListener
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -1153,7 +1153,7 @@ void
 unregisterSessionListener
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -1320,7 +1320,7 @@ void
 notifyReceiverReady
 (
 in
-DOMString
+AString
 sessionId
 in
 unsigned
@@ -1389,7 +1389,7 @@ void
 NotifyTransportClosed
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -1447,7 +1447,7 @@ void
 untrackSessionInfo
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -1497,7 +1497,7 @@ long
 getWindowIdBySessionId
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -1564,7 +1564,7 @@ void
 updateWindowIdBySessionId
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t
@@ -1629,7 +1629,7 @@ void
 buildTransport
 (
 in
-DOMString
+AString
 sessionId
 in
 uint8_t

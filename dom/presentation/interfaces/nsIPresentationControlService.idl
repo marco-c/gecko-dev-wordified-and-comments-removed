@@ -374,10 +374,10 @@ in
 nsITCPDeviceInfo
 aDeviceInfo
 in
-DOMString
+AString
 aUrl
 in
-DOMString
+AString
 aPresentationId
 in
 nsIPresentationControlChannel
@@ -453,7 +453,7 @@ in
 nsITCPDeviceInfo
 aDeviceInfo
 in
-DOMString
+AString
 aPresentationId
 in
 nsIPresentationControlChannel
@@ -533,10 +533,10 @@ in
 nsITCPDeviceInfo
 aDeviceInfo
 in
-DOMString
+AString
 url
 in
-DOMString
+AString
 aPresentationId
 in
 nsIPresentationControlChannel

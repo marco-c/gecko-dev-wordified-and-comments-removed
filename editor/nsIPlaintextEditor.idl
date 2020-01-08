@@ -749,7 +749,7 @@ void
 insertText
 (
 in
-DOMString
+AString
 aStringToInsert
 )
 ;

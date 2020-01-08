@@ -1464,10 +1464,10 @@ in
 jsval
 aData
 in
-DOMString
+AString
 aTitle
 in
-DOMString
+AString
 aURL
 in
 boolean
@@ -1818,7 +1818,7 @@ docshell
 *
 /
 attribute
-DOMString
+AString
 customUserAgent
 ;
 /

@@ -266,7 +266,7 @@ in
 nsIPrincipal
 principal
 in
-DOMString
+AString
 messageId
 )
 ;
@@ -322,7 +322,7 @@ in
 nsIPrincipal
 principal
 in
-DOMString
+AString
 messageId
 [
 optional
@@ -488,7 +488,7 @@ in
 nsIPrincipal
 principal
 in
-DOMString
+AString
 message
 in
 uint32_t
@@ -560,7 +560,7 @@ string
 .
 *
 /
-DOMString
+AString
 text
 (
 )

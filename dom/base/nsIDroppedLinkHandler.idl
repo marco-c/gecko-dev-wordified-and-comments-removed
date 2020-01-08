@@ -111,7 +111,7 @@ link
 /
 readonly
 attribute
-DOMString
+AString
 url
 ;
 /
@@ -127,7 +127,7 @@ name
 /
 readonly
 attribute
-DOMString
+AString
 name
 ;
 /
@@ -144,7 +144,7 @@ Type
 /
 readonly
 attribute
-DOMString
+AString
 type
 ;
 }

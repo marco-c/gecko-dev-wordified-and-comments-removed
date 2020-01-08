@@ -130,7 +130,7 @@ long
 selectedIndex
 ;
 attribute
-DOMString
+AString
 value
 ;
 readonly

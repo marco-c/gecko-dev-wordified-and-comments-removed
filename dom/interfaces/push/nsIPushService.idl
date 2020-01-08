@@ -149,7 +149,7 @@ nsISupports
 {
 readonly
 attribute
-DOMString
+AString
 endpoint
 ;
 readonly
@@ -193,7 +193,7 @@ void
 getKey
 (
 in
-DOMString
+AString
 name
 [
 optional
@@ -568,17 +568,17 @@ convenience
 /
 readonly
 attribute
-DOMString
+AString
 pushTopic
 ;
 readonly
 attribute
-DOMString
+AString
 subscriptionChangeTopic
 ;
 readonly
 attribute
-DOMString
+AString
 subscriptionModifiedTopic
 ;
 /
@@ -743,7 +743,7 @@ void
 subscribe
 (
 in
-DOMString
+AString
 scope
 in
 nsIPrincipal
@@ -803,7 +803,7 @@ void
 subscribeWithKey
 (
 in
-DOMString
+AString
 scope
 in
 nsIPrincipal
@@ -848,7 +848,7 @@ void
 unsubscribe
 (
 in
-DOMString
+AString
 scope
 in
 nsIPrincipal
@@ -904,7 +904,7 @@ void
 getSubscription
 (
 in
-DOMString
+AString
 scope
 in
 nsIPrincipal
@@ -946,7 +946,7 @@ void
 clearForDomain
 (
 in
-DOMString
+AString
 domain
 in
 nsIPushClearResultCallback

@@ -134,7 +134,7 @@ nsIOpenURIInFrameParams
 nsISupports
 {
 attribute
-DOMString
+AString
 referrer
 ;
 attribute

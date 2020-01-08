@@ -119,11 +119,11 @@ nsIDOMXULButtonElement
 nsIDOMXULControlElement
 {
 attribute
-DOMString
+AString
 type
 ;
 attribute
-DOMString
+AString
 dlgType
 ;
 /
@@ -171,7 +171,7 @@ radio
 only
 .
 attribute
-DOMString
+AString
 group
 ;
 }

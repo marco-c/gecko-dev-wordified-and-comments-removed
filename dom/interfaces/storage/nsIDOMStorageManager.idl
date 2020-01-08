@@ -373,7 +373,7 @@ in
 nsIPrincipal
 aPrincipal
 in
-DOMString
+AString
 aDocumentURI
 [
 optional

@@ -233,10 +233,10 @@ void
 callback
 (
 in
-DOMString
+AString
 aTopic
 in
-DOMString
+AString
 aState
 )
 ;

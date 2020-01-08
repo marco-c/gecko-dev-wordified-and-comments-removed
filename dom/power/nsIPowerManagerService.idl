@@ -196,11 +196,11 @@ nsIDOMMozWakeLockListener
 aListener
 )
 ;
-DOMString
+AString
 getWakeLockState
 (
 in
-DOMString
+AString
 aTopic
 )
 ;
@@ -248,7 +248,7 @@ nsISupports
 newWakeLock
 (
 in
-DOMString
+AString
 aTopic
 [
 optional

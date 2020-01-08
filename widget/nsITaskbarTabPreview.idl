@@ -237,7 +237,7 @@ string
 *
 /
 attribute
-DOMString
+AString
 title
 ;
 /

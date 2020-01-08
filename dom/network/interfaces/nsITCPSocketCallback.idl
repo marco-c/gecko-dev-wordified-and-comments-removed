@@ -273,7 +273,7 @@ void
 fireDataStringEvent
 (
 in
-DOMString
+AString
 type
 in
 ACString
@@ -298,7 +298,7 @@ void
 fireDataArrayEvent
 (
 in
-DOMString
+AString
 type
 [
 const
@@ -325,7 +325,7 @@ void
 fireEvent
 (
 in
-DOMString
+AString
 type
 )
 ;

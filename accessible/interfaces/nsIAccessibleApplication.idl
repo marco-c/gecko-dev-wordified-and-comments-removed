@@ -156,7 +156,7 @@ name
 /
 readonly
 attribute
-DOMString
+AString
 appName
 ;
 /
@@ -172,7 +172,7 @@ version
 /
 readonly
 attribute
-DOMString
+AString
 appVersion
 ;
 /
@@ -188,7 +188,7 @@ name
 /
 readonly
 attribute
-DOMString
+AString
 platformName
 ;
 /
@@ -204,7 +204,7 @@ version
 /
 readonly
 attribute
-DOMString
+AString
 platformVersion
 ;
 }

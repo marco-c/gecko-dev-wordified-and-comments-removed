@@ -192,7 +192,7 @@ TYPE_DATACHANNEL
 .
 readonly
 attribute
-DOMString
+AString
 dataChannelSDP
 ;
 }
@@ -311,7 +311,7 @@ void
 onIceCandidate
 (
 in
-DOMString
+AString
 candidate
 )
 ;
@@ -611,7 +611,7 @@ void
 sendIceCandidate
 (
 in
-DOMString
+AString
 candidate
 )
 ;
@@ -658,10 +658,10 @@ void
 launch
 (
 in
-DOMString
+AString
 presentationId
 in
-DOMString
+AString
 url
 )
 ;
@@ -696,7 +696,7 @@ void
 terminate
 (
 in
-DOMString
+AString
 presentationId
 )
 ;
@@ -786,10 +786,10 @@ void
 reconnect
 (
 in
-DOMString
+AString
 presentationId
 in
-DOMString
+AString
 url
 )
 ;

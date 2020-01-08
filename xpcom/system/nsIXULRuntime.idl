@@ -615,7 +615,7 @@ process
 /
 readonly
 attribute
-DOMString
+AString
 remoteType
 ;
 /
@@ -814,7 +814,7 @@ accessibility
 /
 readonly
 attribute
-DOMString
+AString
 accessibilityInstantiator
 ;
 /

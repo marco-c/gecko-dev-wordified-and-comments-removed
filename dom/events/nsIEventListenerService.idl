@@ -554,7 +554,7 @@ in
 EventTarget
 aEventTarget
 in
-DOMString
+AString
 aType
 )
 ;
@@ -585,7 +585,7 @@ in
 EventTarget
 target
 in
-DOMString
+AString
 type
 in
 jsval
@@ -622,7 +622,7 @@ in
 EventTarget
 target
 in
-DOMString
+AString
 type
 in
 jsval

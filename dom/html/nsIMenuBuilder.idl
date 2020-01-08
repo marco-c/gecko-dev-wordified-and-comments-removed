@@ -186,7 +186,7 @@ void
 openContainer
 (
 in
-DOMString
+AString
 aLabel
 )
 ;
@@ -477,7 +477,7 @@ void
 click
 (
 in
-DOMString
+AString
 aGeneratedItemId
 )
 ;

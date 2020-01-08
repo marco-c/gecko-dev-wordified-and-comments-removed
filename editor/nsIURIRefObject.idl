@@ -226,7 +226,7 @@ URI
 .
 *
 /
-DOMString
+AString
 GetNextURI
 (
 )
@@ -304,10 +304,10 @@ void
 RewriteAllURIs
 (
 in
-DOMString
+AString
 aOldPat
 in
-DOMString
+AString
 aNewPat
 in
 boolean

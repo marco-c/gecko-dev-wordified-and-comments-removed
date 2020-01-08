@@ -336,7 +336,7 @@ void
 reportDeliveryError
 (
 in
-DOMString
+AString
 messageId
 [
 optional

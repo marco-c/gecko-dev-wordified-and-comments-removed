@@ -40,14 +40,14 @@ void
 onError
 (
 in
-DOMString
+AString
 filename
 in
 unsigned
 long
 lineno
 in
-DOMString
+AString
 message
 )
 ;
@@ -55,7 +55,7 @@ void
 onMessage
 (
 in
-DOMString
+AString
 message
 )
 ;
@@ -131,7 +131,7 @@ type
 ;
 readonly
 attribute
-DOMString
+AString
 url
 ;
 readonly
@@ -154,7 +154,7 @@ void
 initialize
 (
 in
-DOMString
+AString
 url
 )
 ;
@@ -168,7 +168,7 @@ void
 postMessage
 (
 in
-DOMString
+AString
 message
 )
 ;

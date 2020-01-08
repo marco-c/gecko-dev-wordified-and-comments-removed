@@ -267,7 +267,7 @@ void
 DidCreateNode
 (
 in
-DOMString
+AString
 aTag
 in
 Node
@@ -580,7 +580,7 @@ in
 long
 aOffset
 in
-DOMString
+AString
 aString
 in
 nsresult

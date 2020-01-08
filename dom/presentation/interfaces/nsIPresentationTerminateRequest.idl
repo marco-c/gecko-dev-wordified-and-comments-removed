@@ -170,7 +170,7 @@ session
 .
 readonly
 attribute
-DOMString
+AString
 presentationId
 ;
 /

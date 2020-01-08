@@ -185,7 +185,7 @@ Promise
 formatValue
 (
 in
-DOMString
+AString
 aId
 [
 optional

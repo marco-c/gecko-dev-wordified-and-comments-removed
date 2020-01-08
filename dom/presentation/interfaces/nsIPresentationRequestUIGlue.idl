@@ -171,10 +171,10 @@ Promise
 sendRequest
 (
 in
-DOMString
+AString
 url
 in
-DOMString
+AString
 sessionId
 in
 nsIPresentationDevice

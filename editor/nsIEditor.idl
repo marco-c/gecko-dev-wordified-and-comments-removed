@@ -293,7 +293,7 @@ in
 Element
 element
 in
-DOMString
+AString
 sourceAttrName
 in
 boolean

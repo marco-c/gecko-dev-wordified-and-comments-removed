@@ -204,7 +204,7 @@ text
 /
 readonly
 attribute
-DOMString
+AString
 modifiedText
 ;
 }

@@ -141,7 +141,7 @@ request
 .
 readonly
 attribute
-DOMString
+AString
 origin
 ;
 /

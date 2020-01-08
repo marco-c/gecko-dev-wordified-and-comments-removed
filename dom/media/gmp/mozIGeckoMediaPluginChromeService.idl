@@ -272,7 +272,7 @@ in
 AString
 site
 in
-DOMString
+AString
 aPattern
 )
 ;

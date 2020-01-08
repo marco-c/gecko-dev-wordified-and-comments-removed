@@ -206,13 +206,13 @@ in
 nsISpeechService
 aService
 in
-DOMString
+AString
 aUri
 in
-DOMString
+AString
 aName
 in
-DOMString
+AString
 aLang
 in
 boolean
@@ -266,7 +266,7 @@ in
 nsISpeechService
 aService
 in
-DOMString
+AString
 aUri
 )
 ;
@@ -344,7 +344,7 @@ void
 setDefaultVoice
 (
 in
-DOMString
+AString
 aUri
 in
 boolean
@@ -368,7 +368,7 @@ bool
 isDefaultVoice
 (
 in
-DOMString
+AString
 aUri
 )
 ;
@@ -376,7 +376,7 @@ bool
 isLocalVoice
 (
 in
-DOMString
+AString
 aUri
 )
 ;
@@ -384,7 +384,7 @@ AString
 getVoiceLang
 (
 in
-DOMString
+AString
 aUri
 )
 ;
@@ -392,7 +392,7 @@ AString
 getVoiceName
 (
 in
-DOMString
+AString
 aUri
 )
 ;

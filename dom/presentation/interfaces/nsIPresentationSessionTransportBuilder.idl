@@ -148,7 +148,7 @@ void
 sendIceCandidate
 (
 in
-DOMString
+AString
 candidate
 )
 ;
@@ -461,7 +461,7 @@ void
 onIceCandidate
 (
 in
-DOMString
+AString
 candidate
 )
 ;

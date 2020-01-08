@@ -213,10 +213,10 @@ in
 nsIPresentationDevice
 device
 in
-DOMString
+AString
 url
 in
-DOMString
+AString
 presentationId
 in
 nsIPresentationControlChannel
@@ -290,7 +290,7 @@ in
 nsIPresentationDevice
 device
 in
-DOMString
+AString
 presentationId
 in
 nsIPresentationControlChannel
@@ -368,10 +368,10 @@ in
 nsIPresentationDevice
 device
 in
-DOMString
+AString
 url
 in
-DOMString
+AString
 presentationId
 in
 nsIPresentationControlChannel

@@ -550,7 +550,7 @@ void
 dispatchBoundary
 (
 in
-DOMString
+AString
 aName
 in
 float
@@ -608,7 +608,7 @@ void
 dispatchMark
 (
 in
-DOMString
+AString
 aName
 in
 float
@@ -839,10 +839,10 @@ void
 speak
 (
 in
-DOMString
+AString
 aText
 in
-DOMString
+AString
 aUri
 in
 float

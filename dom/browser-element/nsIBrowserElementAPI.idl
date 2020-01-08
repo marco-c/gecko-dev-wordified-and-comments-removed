@@ -269,7 +269,7 @@ void
 sendMouseEvent
 (
 in
-DOMString
+AString
 type
 in
 uint32_t
@@ -292,7 +292,7 @@ void
 sendTouchEvent
 (
 in
-DOMString
+AString
 aType
 [
 const
@@ -406,7 +406,7 @@ DOMRequest
 download
 (
 in
-DOMString
+AString
 url
 [
 optional
@@ -434,7 +434,7 @@ height
 optional
 ]
 in
-DOMString
+AString
 mimeType
 )
 ;
@@ -465,7 +465,7 @@ void
 findAll
 (
 in
-DOMString
+AString
 searchString
 in
 long
@@ -511,7 +511,7 @@ DOMRequest
 executeScript
 (
 in
-DOMString
+AString
 script
 in
 jsval

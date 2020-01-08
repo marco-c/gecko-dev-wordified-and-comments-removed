@@ -251,7 +251,7 @@ boolean
 isRequestedUrlSupported
 (
 in
-DOMString
+AString
 requestedUrl
 )
 ;

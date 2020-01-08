@@ -185,7 +185,7 @@ void
 notifyStateChange
 (
 in
-DOMString
+AString
 sessionId
 in
 unsigned
@@ -210,7 +210,7 @@ void
 notifyMessage
 (
 in
-DOMString
+AString
 sessionId
 in
 ACString
@@ -263,7 +263,7 @@ long
 long
 windowId
 in
-DOMString
+AString
 sessionId
 )
 ;

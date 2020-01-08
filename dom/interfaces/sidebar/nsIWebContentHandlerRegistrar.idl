@@ -215,13 +215,13 @@ void
 registerProtocolHandler
 (
 in
-DOMString
+AString
 protocol
 in
-DOMString
+AString
 uri
 in
-DOMString
+AString
 title
 in
 nsISupports

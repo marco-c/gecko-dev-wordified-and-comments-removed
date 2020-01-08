@@ -1476,7 +1476,7 @@ nsISimpleEnumerator
 getCookiesWithOriginAttributes
 (
 in
-DOMString
+AString
 aPattern
 [
 optional
@@ -1515,7 +1515,7 @@ void
 removeCookiesWithOriginAttributes
 (
 in
-DOMString
+AString
 aPattern
 [
 optional
