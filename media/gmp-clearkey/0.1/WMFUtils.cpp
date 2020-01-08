@@ -42,6 +42,9 @@ guiddef
 h
 >
 #
+ifndef
+__MINGW32__
+#
 pragma
 comment
 (
@@ -61,6 +64,8 @@ lib
 wmcodecdspuuid
 "
 )
+#
+endif
 void
 LOG
 (

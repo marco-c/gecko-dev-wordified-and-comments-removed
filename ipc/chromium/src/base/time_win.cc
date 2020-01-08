@@ -8,6 +8,9 @@ time
 h
 "
 #
+ifndef
+__MINGW32__
+#
 pragma
 comment
 (
@@ -18,6 +21,8 @@ winmm
 lib
 "
 )
+#
+endif
 #
 include
 <

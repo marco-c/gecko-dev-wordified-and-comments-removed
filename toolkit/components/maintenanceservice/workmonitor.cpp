@@ -34,6 +34,9 @@ shellapi
 h
 >
 #
+ifndef
+__MINGW32__
+#
 pragma
 comment
 (
@@ -88,6 +91,8 @@ rpcrt4
 lib
 "
 )
+#
+endif
 #
 include
 "
