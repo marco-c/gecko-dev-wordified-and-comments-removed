@@ -516,10 +516,12 @@ aTransferable
 )
 override
 ;
+virtual
 nsresult
 InsertLineBreakAsAction
 (
 )
+override
 ;
 already_AddRefed
 <

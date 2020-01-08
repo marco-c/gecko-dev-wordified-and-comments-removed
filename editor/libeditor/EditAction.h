@@ -139,6 +139,7 @@ eRemoveTextProperty
 eRemoveAllTextProperties
 eComputeTextToOutput
 eSetText
+eInsertLineBreak
 eInsertParagraphSeparator
 eCreateOrChangeList
 eIndent
