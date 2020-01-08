@@ -154,6 +154,8 @@ addonList
 await
 client
 .
+mainRoot
+.
 listAddons
 (
 )
@@ -164,13 +166,6 @@ addonList
 &
 &
 addonList
-.
-addons
-&
-&
-addonList
-.
-addons
 .
 map
 (
@@ -196,9 +191,7 @@ addon
 =
 addonList
 .
-addons
-.
-filter
+find
 (
 a
 =
@@ -213,9 +206,6 @@ installedAddon
 .
 id
 )
-[
-0
-]
 ;
 ok
 (
