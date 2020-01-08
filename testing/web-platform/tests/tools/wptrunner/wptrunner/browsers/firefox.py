@@ -822,6 +822,23 @@ debug
 "
 ]
     
+executor_kwargs
+[
+"
+ccov
+"
+]
+=
+run_info_data
+.
+get
+(
+"
+ccov
+"
+False
+)
+    
 return
 executor_kwargs
 def
