@@ -380,6 +380,11 @@ x
 '
 lint
 '
+'
+-
+-
+continue
+'
 ]
 +
 args
@@ -1071,6 +1076,14 @@ GRADLE_ANDROID_TEST_TASKS
 ]
 +
                           
+[
+"
+-
+-
+continue
+"
+]
++
 args
 verbose
 =
@@ -1890,6 +1903,11 @@ GRADLE_ANDROID_TEST_CCOV_REPORT_TASKS
 +
                     
 [
+'
+-
+-
+continue
+'
 enable_ccov
 ]
 +
@@ -2195,6 +2213,14 @@ GRADLE_ANDROID_LINT_TASKS
 ]
 +
                           
+[
+"
+-
+-
+continue
+"
+]
++
 args
 verbose
 =
@@ -2709,6 +2735,14 @@ GRADLE_ANDROID_CHECKSTYLE_TASKS
 ]
 +
                           
+[
+"
+-
+-
+continue
+"
+]
++
 args
 verbose
 =
@@ -3230,6 +3264,14 @@ GRADLE_ANDROID_FINDBUGS_TASKS
 ]
 +
                           
+[
+"
+-
+-
+continue
+"
+]
++
 args
 verbose
 =
@@ -3930,6 +3972,14 @@ GRADLE_ANDROID_ARCHIVE_COVERAGE_ARTIFACTS_TASKS
 ]
 +
                     
+[
+"
+-
+-
+continue
+"
+]
++
 args
 verbose
 =
@@ -4029,6 +4079,14 @@ substs
 '
 GRADLE_ANDROID_ARCHIVE_GECKOVIEW_TASKS
 '
+]
++
+[
+"
+-
+-
+continue
+"
 ]
 +
 args
@@ -5262,32 +5320,6 @@ shell_split
 gradle_flags
 )
         
-if
-self
-.
-substs
-.
-get
-(
-'
-MOZ_AUTOMATION
-'
-)
-:
-            
-gradle_flags
-+
-=
-[
-'
--
--
-console
-=
-plain
-'
-]
-        
 return
 self
 .
@@ -5306,6 +5338,16 @@ GRADLE
 ]
 +
 gradle_flags
++
+[
+'
+-
+-
+console
+=
+plain
+'
+]
 +
 args
             
