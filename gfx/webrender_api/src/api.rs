@@ -4932,6 +4932,7 @@ Copy
 Debug
 Deserialize
 Serialize
+PartialEq
 )
 ]
 pub
@@ -4961,6 +4962,8 @@ Clone
 Deserialize
 Serialize
 Debug
+PartialEq
+Default
 )
 ]
 pub
