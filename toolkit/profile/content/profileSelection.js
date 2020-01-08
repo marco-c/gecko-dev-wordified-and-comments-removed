@@ -722,12 +722,12 @@ aEvent
 .
 target
 .
-localName
-=
-=
+closest
+(
 "
-listitem
+richlistitem
 "
+)
 )
 document
 .
