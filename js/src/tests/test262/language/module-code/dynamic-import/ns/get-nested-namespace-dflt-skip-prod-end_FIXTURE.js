@@ -1,0 +1,10 @@
+export
+var
+productionOther
+=
+null
+;
+export
+default
+42
+;

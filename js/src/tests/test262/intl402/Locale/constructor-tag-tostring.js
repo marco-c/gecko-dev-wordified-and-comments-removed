@@ -213,6 +213,7 @@ Locale
 (
 input
 )
+;
 }
 )
 ;

@@ -1,12 +1,12 @@
-class
-A
-{
-}
 var
 executed
 =
 false
 ;
+class
+A
+{
+}
 class
 C
 extends

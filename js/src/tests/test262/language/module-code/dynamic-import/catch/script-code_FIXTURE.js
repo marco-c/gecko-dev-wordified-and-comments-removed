@@ -1,0 +1,9 @@
+var
+smoosh
+;
+function
+smoosh
+(
+)
+{
+}

@@ -34,7 +34,11 @@ sameValue
 loc
 .
 language
-undefined
+"
+x
+-
+private
+"
 )
 ;
 assert

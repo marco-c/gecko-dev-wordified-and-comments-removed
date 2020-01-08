@@ -6,7 +6,7 @@ constructor
 "
 ;
 class
-C
+C1
 {
 [
 x
@@ -14,10 +14,10 @@ x
 ;
 }
 var
-c
+c1
 =
 new
-C
+C1
 (
 )
 ;
@@ -25,7 +25,7 @@ assert
 .
 sameValue
 (
-c
+c1
 .
 hasOwnProperty
 (
@@ -40,7 +40,7 @@ assert
 .
 sameValue
 (
-C
+C1
 .
 hasOwnProperty
 (

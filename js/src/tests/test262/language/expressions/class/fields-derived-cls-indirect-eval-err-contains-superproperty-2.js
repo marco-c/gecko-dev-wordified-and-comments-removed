@@ -1,14 +1,14 @@
 var
+executed
+=
+false
+;
+var
 A
 =
 class
 {
 }
-var
-executed
-=
-false
-;
 var
 C
 =
@@ -39,6 +39,7 @@ x
 )
 ;
 }
+;
 assert
 .
 throws

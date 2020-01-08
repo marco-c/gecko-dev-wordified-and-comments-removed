@@ -49,15 +49,6 @@ Test262Error
 }
 }
 ;
-assert
-.
-throws
-(
-Test262Error
-function
-(
-)
-{
 regexp
 [
 Symbol
@@ -67,9 +58,6 @@ matchAll
 (
 '
 '
-)
-;
-}
 )
 ;
 reportCompare
