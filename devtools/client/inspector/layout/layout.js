@@ -233,8 +233,8 @@ return
 }
 const
 {
-setSelectedNode
 onShowBoxModelHighlighterForNode
+setSelectedNode
 }
 =
 this
@@ -345,10 +345,6 @@ getSwatchColorPickerTooltip
 this
 .
 getSwatchColorPickerTooltip
-setSelectedNode
-showBoxModelProperties
-:
-true
 onHideBoxModelHighlighter
 onSetFlexboxOverlayColor
 onSetGridOverlayColor
@@ -362,6 +358,10 @@ onToggleGridHighlighter
 onToggleShowGridAreas
 onToggleShowGridLineNumbers
 onToggleShowInfiniteLines
+setSelectedNode
+showBoxModelProperties
+:
+true
 }
 )
 ;
