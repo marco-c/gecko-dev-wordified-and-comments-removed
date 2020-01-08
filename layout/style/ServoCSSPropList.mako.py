@@ -486,10 +486,6 @@ TransformStyle
 "
     
 "
-UserSelect
-"
-    
-"
 background
 :
 :

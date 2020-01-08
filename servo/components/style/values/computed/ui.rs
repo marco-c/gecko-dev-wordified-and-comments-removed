@@ -80,10 +80,7 @@ specified
 ui
 :
 :
-{
 MozForceBrokenImageIcon
-UserSelect
-}
 ;
 pub
 type

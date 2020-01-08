@@ -949,7 +949,6 @@ ui
 ColorOrAuto
 Cursor
 MozForceBrokenImageIcon
-UserSelect
 }
 ;
 pub
