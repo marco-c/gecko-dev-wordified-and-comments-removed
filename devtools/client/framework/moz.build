@@ -220,15 +220,6 @@ js
 '
 toolbox
 -
-highlighter
--
-utils
-.
-js
-'
-'
-toolbox
--
 host
 -
 manager
