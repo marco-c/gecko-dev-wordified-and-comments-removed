@@ -1381,8 +1381,6 @@ print
 preview
 -
 scale
--
-label
 "
 )
 ;
