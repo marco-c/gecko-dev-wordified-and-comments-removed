@@ -2478,6 +2478,13 @@ queuedMessageAdds
 .
 length
 ;
+if
+(
+this
+.
+toolbox
+)
+{
 this
 .
 telemetry
@@ -2502,6 +2509,7 @@ message_count
 length
 )
 ;
+}
 this
 .
 queuedMessageAdds

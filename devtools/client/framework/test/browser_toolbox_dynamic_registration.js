@@ -91,9 +91,7 @@ registerTool
 id
 :
 "
-test
--
-tool
+testTool
 "
 label
 :
@@ -132,9 +130,7 @@ is
 (
 toolId
 "
-test
--
-tool
+testTool
 "
 "
 tool
@@ -364,9 +360,7 @@ gDevTools
 unregisterTool
 (
 "
-test
--
-tool
+testTool
 "
 )
 ;
@@ -381,9 +375,7 @@ is
 (
 toolId
 "
-test
--
-tool
+testTool
 "
 "
 tool
