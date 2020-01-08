@@ -25631,12 +25631,6 @@ RestoreState
 (
 )
 ;
-mIsFrameSelected
-.
-reset
-(
-)
-;
 }
 nsDisplayItemGeometry
 *
