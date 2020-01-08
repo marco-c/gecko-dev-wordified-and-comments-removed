@@ -1946,8 +1946,11 @@ nsUrlClassifierPrefixSet
 :
 LoadPrefixes
 (
+nsCOMPtr
+<
 nsIInputStream
-*
+>
+&
 in
 )
 {
@@ -2583,8 +2586,11 @@ nsUrlClassifierPrefixSet
 :
 WritePrefixes
 (
+nsCOMPtr
+<
 nsIOutputStream
-*
+>
+&
 out
 )
 const

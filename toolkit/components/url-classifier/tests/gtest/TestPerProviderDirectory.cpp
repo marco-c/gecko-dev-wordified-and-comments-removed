@@ -102,8 +102,10 @@ const
 nsCString
 &
 aProvider
+nsCOMPtr
+<
 nsIFile
-*
+>
 aRootDir
 bool
 aUsePerProviderStore

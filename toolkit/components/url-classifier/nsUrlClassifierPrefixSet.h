@@ -316,8 +316,11 @@ const
 nsresult
 WritePrefixes
 (
+nsCOMPtr
+<
 nsIOutputStream
-*
+>
+&
 out
 )
 const
@@ -325,8 +328,11 @@ const
 nsresult
 LoadPrefixes
 (
+nsCOMPtr
+<
 nsIInputStream
-*
+>
+&
 in
 )
 ;
