@@ -1250,13 +1250,6 @@ aTrack
 )
 ;
 class
-OwnedStreamListener
-;
-friend
-class
-OwnedStreamListener
-;
-class
 PlaybackStreamListener
 ;
 friend
@@ -1340,12 +1333,6 @@ mTracks
 ;
 size_t
 mTracksPendingRemoval
-;
-RefPtr
-<
-OwnedStreamListener
->
-mOwnedListener
 ;
 RefPtr
 <
