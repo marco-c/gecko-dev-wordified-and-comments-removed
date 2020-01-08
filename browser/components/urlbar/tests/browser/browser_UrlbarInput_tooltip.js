@@ -431,6 +431,14 @@ focus
 (
 )
 ;
+await
+synthesizeMouseOut
+(
+gURLBar
+.
+inputField
+)
+;
 gURLBar
 .
 value
