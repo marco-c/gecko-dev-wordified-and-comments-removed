@@ -67,6 +67,10 @@ gcno
 \
 .
 gcov
+compile_commands
+\
+.
+json
 #
 Vim
 swap

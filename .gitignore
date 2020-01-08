@@ -27,6 +27,9 @@ pyc
 pyo
 TAGS
 tags
+compile_commands
+.
+json
 #
 Ignore
 ID
