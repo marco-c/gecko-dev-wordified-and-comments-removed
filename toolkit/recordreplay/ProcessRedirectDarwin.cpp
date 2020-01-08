@@ -15353,6 +15353,7 @@ diagnosticIndex
 .
 mBaseFunction
 =
+\
 BitwiseCast
 <
 uint8_t
@@ -15387,6 +15388,7 @@ diagnosticIndex
 .
 mBaseFunction
 =
+\
 ConvertMemberPtrToAddress
 <
 aType
@@ -15419,6 +15421,7 @@ diagnosticIndex
 .
 mBaseFunction
 =
+\
 ConvertMemberPtrToAddress
 (
 aAddress
