@@ -1343,9 +1343,8 @@ retryLabel
 :
 not
 (
-[
-buttonover
-]
+.
+downloadHoveringButton
 )
 >
 .
@@ -1372,9 +1371,8 @@ exists
 :
 not
 (
-[
-buttonover
-]
+.
+downloadHoveringButton
 )
 >
 .
@@ -1395,9 +1393,8 @@ hover
 [
 retryLabel
 ]
-[
-buttonover
-]
+.
+downloadHoveringButton
 >
 .
 toolbarbutton
@@ -1420,9 +1417,8 @@ openLabel
 [
 exists
 ]
-[
-buttonover
-]
+.
+downloadHoveringButton
 >
 .
 toolbarbutton
