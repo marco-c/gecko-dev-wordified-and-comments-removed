@@ -492,7 +492,7 @@ IsEmpty
 const
 RawServoAuthorStyles
 *
-ServoStyles
+GetServoStyles
 (
 )
 const
@@ -507,7 +507,7 @@ get
 }
 RawServoAuthorStyles
 *
-ServoStyles
+GetServoStyles
 (
 )
 {
