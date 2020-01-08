@@ -4966,6 +4966,13 @@ GetBlobItemData
 item
 )
 ;
+if
+(
+data
+-
+>
+mInvalid
+)
 gfxCriticalError
 (
 )
