@@ -849,11 +849,10 @@ destroy
 ;
 }
 ;
-extern
-HB_INTERNAL
-const
+DECLARE_NULL_INSTANCE
+(
 hb_unicode_funcs_t
-_hb_unicode_funcs_nil
+)
 ;
 #
 define

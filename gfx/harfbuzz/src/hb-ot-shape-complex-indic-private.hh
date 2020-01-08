@@ -1156,6 +1156,7 @@ ra_chars
 0x0CB0u
 0x0D30u
 0x0DBBu
+0x179Au
 }
 ;
 static

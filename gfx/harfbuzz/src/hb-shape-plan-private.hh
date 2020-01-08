@@ -75,6 +75,11 @@ shaper_data
 ;
 }
 ;
+DECLARE_NULL_INSTANCE
+(
+hb_shape_plan_t
+)
+;
 #
 define
 HB_SHAPER_DATA_CREATE_FUNC_EXTRA_ARGS

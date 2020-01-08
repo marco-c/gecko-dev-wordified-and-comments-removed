@@ -490,9 +490,10 @@ return
 ufuncs
 ;
 }
-const
+DEFINE_NULL_INSTANCE
+(
 hb_unicode_funcs_t
-_hb_unicode_funcs_nil
+)
 =
 {
 HB_OBJECT_HEADER_STATIC
@@ -534,7 +535,10 @@ hb_unicode_funcs_t
 >
 (
 &
-_hb_unicode_funcs_nil
+Null
+(
+hb_unicode_funcs_t
+)
 )
 ;
 }

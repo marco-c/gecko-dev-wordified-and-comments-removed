@@ -1081,7 +1081,7 @@ return
 ct_font
 ;
 }
-hb_coretext_shaper_face_data_t
+hb_coretext_face_data_t
 *
 _hb_coretext_shaper_face_data_create
 (
@@ -1126,7 +1126,7 @@ nullptr
 }
 return
 (
-hb_coretext_shaper_face_data_t
+hb_coretext_face_data_t
 *
 )
 cg_font
@@ -1135,7 +1135,7 @@ cg_font
 void
 _hb_coretext_shaper_face_data_destroy
 (
-hb_coretext_shaper_face_data_t
+hb_coretext_face_data_t
 *
 data
 )
@@ -1201,7 +1201,7 @@ face
 )
 ;
 }
-hb_coretext_shaper_font_data_t
+hb_coretext_font_data_t
 *
 _hb_coretext_shaper_font_data_create
 (
@@ -1287,7 +1287,7 @@ nullptr
 }
 return
 (
-hb_coretext_shaper_font_data_t
+hb_coretext_font_data_t
 *
 )
 ct_font
@@ -1296,7 +1296,7 @@ ct_font
 void
 _hb_coretext_shaper_font_data_destroy
 (
-hb_coretext_shaper_font_data_t
+hb_coretext_font_data_t
 *
 data
 )
@@ -1386,7 +1386,7 @@ font
 )
 =
 (
-hb_coretext_shaper_font_data_t
+hb_coretext_font_data_t
 *
 )
 CFRetain
@@ -1431,11 +1431,11 @@ font
 ;
 }
 struct
-hb_coretext_shaper_shape_plan_data_t
+hb_coretext_shape_plan_data_t
 {
 }
 ;
-hb_coretext_shaper_shape_plan_data_t
+hb_coretext_shape_plan_data_t
 *
 _hb_coretext_shaper_shape_plan_data_create
 (
@@ -1465,7 +1465,7 @@ HB_UNUSED
 {
 return
 (
-hb_coretext_shaper_shape_plan_data_t
+hb_coretext_shape_plan_data_t
 *
 )
 HB_SHAPER_DATA_SUCCEEDED
@@ -1474,7 +1474,7 @@ HB_SHAPER_DATA_SUCCEEDED
 void
 _hb_coretext_shaper_shape_plan_data_destroy
 (
-hb_coretext_shaper_shape_plan_data_t
+hb_coretext_shape_plan_data_t
 *
 data
 HB_UNUSED
@@ -6595,11 +6595,11 @@ coretext_aat
 font
 )
 struct
-hb_coretext_aat_shaper_face_data_t
+hb_coretext_aat_face_data_t
 {
 }
 ;
-hb_coretext_aat_shaper_face_data_t
+hb_coretext_aat_face_data_t
 *
 _hb_coretext_aat_shaper_face_data_create
 (
@@ -6676,7 +6676,7 @@ face
 )
 ?
 (
-hb_coretext_aat_shaper_face_data_t
+hb_coretext_aat_face_data_t
 *
 )
 HB_SHAPER_DATA_SUCCEEDED
@@ -6697,7 +6697,7 @@ nullptr
 void
 _hb_coretext_aat_shaper_face_data_destroy
 (
-hb_coretext_aat_shaper_face_data_t
+hb_coretext_aat_face_data_t
 *
 data
 HB_UNUSED
@@ -6705,11 +6705,11 @@ HB_UNUSED
 {
 }
 struct
-hb_coretext_aat_shaper_font_data_t
+hb_coretext_aat_font_data_t
 {
 }
 ;
-hb_coretext_aat_shaper_font_data_t
+hb_coretext_aat_font_data_t
 *
 _hb_coretext_aat_shaper_font_data_create
 (
@@ -6725,7 +6725,7 @@ font
 )
 ?
 (
-hb_coretext_aat_shaper_font_data_t
+hb_coretext_aat_font_data_t
 *
 )
 HB_SHAPER_DATA_SUCCEEDED
@@ -6736,7 +6736,7 @@ nullptr
 void
 _hb_coretext_aat_shaper_font_data_destroy
 (
-hb_coretext_aat_shaper_font_data_t
+hb_coretext_aat_font_data_t
 *
 data
 HB_UNUSED
@@ -6744,11 +6744,11 @@ HB_UNUSED
 {
 }
 struct
-hb_coretext_aat_shaper_shape_plan_data_t
+hb_coretext_aat_shape_plan_data_t
 {
 }
 ;
-hb_coretext_aat_shaper_shape_plan_data_t
+hb_coretext_aat_shape_plan_data_t
 *
 _hb_coretext_aat_shaper_shape_plan_data_create
 (
@@ -6778,7 +6778,7 @@ HB_UNUSED
 {
 return
 (
-hb_coretext_aat_shaper_shape_plan_data_t
+hb_coretext_aat_shape_plan_data_t
 *
 )
 HB_SHAPER_DATA_SUCCEEDED
@@ -6787,7 +6787,7 @@ HB_SHAPER_DATA_SUCCEEDED
 void
 _hb_coretext_aat_shaper_shape_plan_data_destroy
 (
-hb_coretext_aat_shaper_shape_plan_data_t
+hb_coretext_aat_shape_plan_data_t
 *
 data
 HB_UNUSED

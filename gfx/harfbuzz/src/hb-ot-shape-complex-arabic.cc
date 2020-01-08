@@ -1085,6 +1085,7 @@ ARABIC_NUM_FEATURES
 1
 ]
 ;
+mutable
 arabic_fallback_plan_t
 *
 fallback_plan

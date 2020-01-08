@@ -624,7 +624,9 @@ c
 c
 -
 >
-num_glyphs
+get_num_glyphs
+(
+)
 )
 )
 ;
@@ -2870,13 +2872,14 @@ table
 ;
 sanitizer
 .
-num_glyphs
-=
+set_num_glyphs
+(
 face
 -
 >
 get_num_glyphs
 (
+)
 )
 ;
 sanitizer

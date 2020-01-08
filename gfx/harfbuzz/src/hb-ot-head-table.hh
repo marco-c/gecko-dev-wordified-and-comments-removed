@@ -178,10 +178,10 @@ fontDirectionHint
 ;
 public
 :
-HBINT16
+HBUINT16
 indexToLocFormat
 ;
-HBINT16
+HBUINT16
 glyphDataFormat
 ;
 DEFINE_SIZE_STATIC

@@ -2000,9 +2000,16 @@ if
 (
 error
 )
+{
+free
+(
+buffer
+)
+;
 return
 nullptr
 ;
+}
 return
 hb_blob_create
 (

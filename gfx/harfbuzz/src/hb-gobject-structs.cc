@@ -331,6 +331,10 @@ set
 )
 HB_DEFINE_OBJECT_TYPE
 (
+map
+)
+HB_DEFINE_OBJECT_TYPE
+(
 shape_plan
 )
 HB_DEFINE_OBJECT_TYPE

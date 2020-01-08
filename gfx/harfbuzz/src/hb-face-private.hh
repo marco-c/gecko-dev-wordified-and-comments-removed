@@ -231,11 +231,10 @@ const
 ;
 }
 ;
-extern
-HB_INTERNAL
-const
+DECLARE_NULL_INSTANCE
+(
 hb_face_t
-_hb_face_nil
+)
 ;
 #
 define

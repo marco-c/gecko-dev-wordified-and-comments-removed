@@ -8835,7 +8835,9 @@ face
 )
 -
 >
-gpos
+table
+.
+GPOS
 )
 ;
 const
@@ -8890,7 +8892,9 @@ face
 )
 -
 >
-gpos
+table
+.
+GPOS
 )
 ;
 const
