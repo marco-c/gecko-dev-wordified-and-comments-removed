@@ -507,7 +507,7 @@ HTTPS
 .
 accesskey
 =
-H
+b
 connection
 -
 dns
