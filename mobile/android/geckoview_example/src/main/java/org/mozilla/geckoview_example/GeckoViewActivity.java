@@ -3879,13 +3879,13 @@ request
 target
 +
 "
-isRedirect
+isUserTriggered
 =
 "
 +
 request
 .
-isRedirect
+isUserTriggered
 )
 ;
 return

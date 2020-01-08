@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsIWebNavigation
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener2
 .
 h
@@ -5444,10 +5437,7 @@ LoadURI
 (
 newURI
 where
-nsIWebNavigation
-:
-:
-LOAD_FLAGS_IS_REDIRECT
+0
 nullptr
 &
 loadURIHandled
