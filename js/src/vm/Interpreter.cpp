@@ -7073,13 +7073,14 @@ pc
 script
 -
 >
-offsetToPC
+main
 (
+)
++
 tn
 -
 >
 start
-)
 ;
 if
 (
@@ -7244,8 +7245,10 @@ script
 )
 -
 >
-offsetToPC
+main
 (
+)
++
 tn
 -
 >
@@ -7255,7 +7258,6 @@ tn
 -
 >
 length
-)
 ;
 regs
 .
@@ -7638,8 +7640,10 @@ script
 )
 -
 >
-offsetToPC
+main
 (
+)
++
 tn
 -
 >
@@ -7649,7 +7653,6 @@ tn
 -
 >
 length
-)
 ;
 MOZ_ASSERT
 (

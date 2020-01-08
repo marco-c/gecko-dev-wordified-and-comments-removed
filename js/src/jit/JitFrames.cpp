@@ -1189,8 +1189,10 @@ JSOp
 script
 -
 >
-offsetToPC
+main
 (
+)
++
 tn
 -
 >
@@ -1200,7 +1202,6 @@ tn
 -
 >
 length
-)
 )
 )
 =
@@ -1275,8 +1276,10 @@ catchPC
 script
 -
 >
-offsetToPC
+main
 (
+)
++
 tn
 -
 >
@@ -1286,7 +1289,6 @@ tn
 -
 >
 length
-)
 ;
 ExceptionBailoutInfo
 excInfo
@@ -1685,8 +1687,10 @@ pc
 script
 -
 >
-offsetToPC
+main
 (
+)
++
 tn
 -
 >
@@ -1696,7 +1700,6 @@ tn
 -
 >
 length
-)
 ;
 }
 struct
