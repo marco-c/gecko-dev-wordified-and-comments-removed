@@ -513,6 +513,17 @@ ContinueLoadingAfterPACUriKnown
 (
 )
 ;
+nsresult
+LoadPACFromURI
+(
+const
+nsACString
+&
+aSpec
+bool
+aResetLoadFailureCount
+)
+;
 void
 MaybeReloadPAC
 (
