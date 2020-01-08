@@ -836,6 +836,16 @@ const
 nsACString
 &
 aOrigin
+const
+Nullable
+<
+Client
+:
+:
+Type
+>
+&
+aClientType
 )
 ;
 void

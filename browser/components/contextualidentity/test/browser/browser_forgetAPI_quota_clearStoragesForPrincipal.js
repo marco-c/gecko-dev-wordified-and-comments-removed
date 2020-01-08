@@ -724,6 +724,7 @@ clearStoragesForPrincipal
 (
 httpPrincipal
 null
+null
 true
 )
 ;
