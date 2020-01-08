@@ -925,9 +925,6 @@ s
 :
 %
 u
-:
-%
-u
 "
 outerScript
 -
@@ -939,12 +936,6 @@ outerScript
 -
 >
 lineno
-(
-)
-outerScript
--
->
-column
 (
 )
 )
