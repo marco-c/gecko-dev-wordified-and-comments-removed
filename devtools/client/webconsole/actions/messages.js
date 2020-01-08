@@ -77,6 +77,7 @@ MESSAGE_OPEN
 MESSAGE_CLOSE
 MESSAGE_TYPE
 MESSAGE_TABLE_RECEIVE
+PAUSED_EXCECUTION_POINT
 PRIVATE_MESSAGES_CLEAR
 }
 =
@@ -218,6 +219,21 @@ return
 type
 :
 MESSAGES_CLEAR
+}
+;
+}
+function
+setPauseExecutionPoint
+(
+executionPoint
+)
+{
+return
+{
+type
+:
+PAUSED_EXCECUTION_POINT
+executionPoint
 }
 ;
 }
@@ -490,5 +506,6 @@ networkMessageUpdate
 networkUpdateRequest
 privateMessagesClear
 messageTableDataReceive
+setPauseExecutionPoint
 }
 ;

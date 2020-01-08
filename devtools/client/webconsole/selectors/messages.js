@@ -162,6 +162,20 @@ messages
 groupsById
 ;
 }
+function
+getPausedExecutionPoint
+(
+state
+)
+{
+return
+state
+.
+messages
+.
+pausedExecutionPoint
+;
+}
 module
 .
 exports
@@ -178,5 +192,6 @@ getFilteredMessagesCount
 getGroupsById
 getMessage
 getVisibleMessages
+getPausedExecutionPoint
 }
 ;

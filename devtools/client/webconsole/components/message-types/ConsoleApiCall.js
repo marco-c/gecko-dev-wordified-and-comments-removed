@@ -221,6 +221,7 @@ tableData
 serviceContainer
 timestampsVisible
 repeat
+isPaused
 }
 =
 props
@@ -579,6 +580,7 @@ Message
 {
 messageId
 executionPoint
+isPaused
 open
 collapsible
 collapseTitle
