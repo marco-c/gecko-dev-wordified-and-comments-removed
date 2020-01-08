@@ -154,6 +154,15 @@ aAddonId
 )
 override
 ;
+NS_IMETHOD
+GetSiteOrigin
+(
+nsACString
+&
+aSiteOrigin
+)
+override
+;
 bool
 IsCodebasePrincipal
 (
