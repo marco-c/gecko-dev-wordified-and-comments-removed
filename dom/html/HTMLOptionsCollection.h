@@ -162,6 +162,8 @@ virtual
 HTMLOptionsCollection
 (
 )
+=
+default
 ;
 virtual
 JSObject
@@ -336,11 +338,6 @@ aOption
 )
 ;
 }
-void
-DropReference
-(
-)
-;
 nsresult
 GetOptionIndex
 (
@@ -513,8 +510,10 @@ HTMLOptionElement
 >
 mElements
 ;
+RefPtr
+<
 HTMLSelectElement
-*
+>
 mSelect
 ;
 }

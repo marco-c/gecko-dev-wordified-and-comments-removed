@@ -1363,6 +1363,8 @@ virtual
 HTMLSelectElement
 (
 )
+=
+default
 ;
 friend
 class
