@@ -234,6 +234,16 @@ api_url
 ]
 [
 "
+app
+.
+update
+.
+disabledForTesting
+"
+true
+]
+[
+"
 apz
 .
 content_response_timeout
