@@ -357,7 +357,7 @@ function
 {
 const
 {
-client
+target
 walker
 layout
 }
@@ -546,9 +546,9 @@ front
 ;
 }
 await
-client
+target
 .
-close
+destroy
 (
 )
 ;

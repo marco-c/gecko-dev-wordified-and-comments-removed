@@ -39,7 +39,7 @@ nodes
 ;
 const
 {
-client
+target
 walker
 animations
 }
@@ -232,9 +232,9 @@ running
 )
 ;
 await
-client
+target
 .
-close
+destroy
 (
 )
 ;
