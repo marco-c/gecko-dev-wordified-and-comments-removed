@@ -1002,9 +1002,9 @@ Nothing
 }
 FrameKey
 (
-const
-char
-*
+nsCString
+&
+&
 aLocation
 const
 mozilla
@@ -1042,10 +1042,7 @@ mData
 (
 NormalFrameData
 {
-nsCString
-(
 aLocation
-)
 aLine
 aColumn
 aCategory
