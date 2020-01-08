@@ -709,6 +709,12 @@ value
 "
 )
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 TracePersistentRootedList
 <
 ConcreteTraceable
@@ -2257,6 +2263,12 @@ PhaseKind
 :
 MARK_EMBEDDING
 )
+;
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
 ;
 for
 (
