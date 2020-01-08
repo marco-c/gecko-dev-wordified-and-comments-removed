@@ -17534,6 +17534,14 @@ mScrollSnapCoordinate
 aNewData
 .
 mScrollSnapCoordinate
+|
+|
+mWillChange
+!
+=
+aNewData
+.
+mWillChange
 )
 )
 {
