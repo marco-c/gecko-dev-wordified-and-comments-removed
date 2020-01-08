@@ -7832,16 +7832,6 @@ RUSTFLAGS
 target_cargo_env_vars
 )
 )
-check
-:
-:
-force
--
-cargo
--
-test
--
-run
 endif
 ifdef
 HOST_RUST_LIBRARY_FILE
