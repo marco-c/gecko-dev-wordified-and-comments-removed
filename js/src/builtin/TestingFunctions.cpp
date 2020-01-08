@@ -12787,7 +12787,7 @@ toString
 UniqueChars
 fileNameBytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -15999,7 +15999,7 @@ false
 ;
 dataOwner
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -27951,7 +27951,7 @@ empty
 UniqueChars
 timeZone
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 args
@@ -28485,7 +28485,7 @@ false
 UniqueChars
 locale
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str

@@ -6020,7 +6020,7 @@ JS
 UniqueChars
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 JSID_TO_STRING

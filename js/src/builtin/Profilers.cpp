@@ -769,7 +769,7 @@ nullptr
 ;
 }
 return
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 args

@@ -459,7 +459,7 @@ JS
 UniqueChars
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -656,7 +656,7 @@ JS
 UniqueChars
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -834,7 +834,7 @@ JS
 UniqueChars
 filename
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -1839,7 +1839,7 @@ str
 )
 bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str

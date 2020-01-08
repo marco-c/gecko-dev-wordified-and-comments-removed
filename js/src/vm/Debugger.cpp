@@ -1991,7 +1991,7 @@ false
 UniqueChars
 url_bytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 url_str
@@ -23383,7 +23383,7 @@ isString
 {
 urlCString
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 url
@@ -25193,7 +25193,7 @@ isString
 {
 classNameCString
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 className
