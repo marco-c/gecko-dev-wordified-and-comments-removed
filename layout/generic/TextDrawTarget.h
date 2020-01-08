@@ -2223,7 +2223,7 @@ mDashLength
 wr
 :
 :
-BorderWidths
+LayoutSideOffsets
 widths
 =
 {
