@@ -1342,6 +1342,7 @@ public
 interface
 Delegate
 {
+UiThread
 void
 onShutdown
 (

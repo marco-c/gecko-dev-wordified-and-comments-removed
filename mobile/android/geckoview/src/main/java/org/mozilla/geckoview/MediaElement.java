@@ -26,6 +26,15 @@ Nullable
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 util
 .
 Log
@@ -707,6 +716,7 @@ public
 interface
 Delegate
 {
+UiThread
 void
 onPlaybackStateChange
 (
@@ -717,6 +727,7 @@ int
 mediaState
 )
 ;
+UiThread
 void
 onReadyStateChange
 (
@@ -727,6 +738,7 @@ int
 readyState
 )
 ;
+UiThread
 void
 onMetadataChange
 (
@@ -736,6 +748,7 @@ Metadata
 metaData
 )
 ;
+UiThread
 void
 onLoadProgress
 (
@@ -745,6 +758,7 @@ LoadProgressInfo
 progressInfo
 )
 ;
+UiThread
 void
 onVolumeChange
 (
@@ -756,6 +770,7 @@ boolean
 muted
 )
 ;
+UiThread
 void
 onTimeChange
 (
@@ -765,6 +780,7 @@ double
 time
 )
 ;
+UiThread
 void
 onPlaybackRateChange
 (
@@ -774,6 +790,7 @@ double
 rate
 )
 ;
+UiThread
 void
 onFullscreenChange
 (
@@ -783,6 +800,7 @@ boolean
 fullscreen
 )
 ;
+UiThread
 void
 onError
 (

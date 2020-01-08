@@ -11836,6 +11836,7 @@ issuerOrganization
 ;
 }
 }
+UiThread
 void
 onPageStart
 (
@@ -11845,6 +11846,7 @@ String
 url
 )
 ;
+UiThread
 void
 onPageStop
 (
@@ -11854,6 +11856,7 @@ boolean
 success
 )
 ;
+UiThread
 void
 onProgressChange
 (
@@ -11863,6 +11866,7 @@ int
 progress
 )
 ;
+UiThread
 void
 onSecurityChange
 (
@@ -12004,6 +12008,7 @@ public
 interface
 ContentDelegate
 {
+UiThread
 void
 onTitleChange
 (
@@ -12013,6 +12018,7 @@ String
 title
 )
 ;
+UiThread
 void
 onFocusRequest
 (
@@ -12020,6 +12026,7 @@ GeckoSession
 session
 )
 ;
+UiThread
 void
 onCloseRequest
 (
@@ -12027,6 +12034,7 @@ GeckoSession
 session
 )
 ;
+UiThread
 void
 onFullScreen
 (
@@ -12246,6 +12254,7 @@ TYPE_NONE
 ;
 }
 }
+UiThread
 void
 onContextMenu
 (
@@ -12261,6 +12270,7 @@ ContextElement
 element
 )
 ;
+UiThread
 void
 onExternalResponse
 (
@@ -12270,6 +12280,7 @@ WebResponseInfo
 response
 )
 ;
+UiThread
 void
 onCrash
 (
@@ -12277,6 +12288,7 @@ GeckoSession
 session
 )
 ;
+UiThread
 void
 onFirstComposite
 (
@@ -12670,6 +12682,7 @@ null
 ;
 }
 }
+UiThread
 void
 onShowActionRequest
 (
@@ -12732,6 +12745,7 @@ HIDE_REASON_ACTIVE_SCROLL
 =
 3
 ;
+UiThread
 void
 onHideAction
 (
@@ -12747,6 +12761,7 @@ public
 interface
 NavigationDelegate
 {
+UiThread
 void
 onLocationChange
 (
@@ -12756,6 +12771,7 @@ String
 url
 )
 ;
+UiThread
 void
 onCanGoBack
 (
@@ -12765,6 +12781,7 @@ boolean
 canGoBack
 )
 ;
+UiThread
 void
 onCanGoForward
 (
@@ -12956,6 +12973,7 @@ boolean
 isRedirect
 ;
 }
+UiThread
 Nullable
 GeckoResult
 <
@@ -12971,6 +12989,7 @@ LoadRequest
 request
 )
 ;
+UiThread
 Nullable
 GeckoResult
 <
@@ -12986,6 +13005,7 @@ String
 uri
 )
 ;
+UiThread
 GeckoResult
 <
 String
@@ -13008,26 +13028,31 @@ PromptDelegate
 interface
 AlertCallback
 {
+UiThread
 void
 dismiss
 (
 )
 ;
+UiThread
 boolean
 hasCheckbox
 (
 )
 ;
+UiThread
 String
 getCheckboxMessage
 (
 )
 ;
+UiThread
 boolean
 getCheckboxValue
 (
 )
 ;
+UiThread
 void
 setCheckboxValue
 (
@@ -13036,6 +13061,7 @@ value
 )
 ;
 }
+UiThread
 void
 onAlert
 (
@@ -13054,6 +13080,7 @@ ButtonCallback
 extends
 AlertCallback
 {
+UiThread
 void
 confirm
 (
@@ -13083,6 +13110,7 @@ BUTTON_TYPE_NEGATIVE
 =
 2
 ;
+UiThread
 void
 onButtonPrompt
 (
@@ -13105,6 +13133,7 @@ TextCallback
 extends
 AlertCallback
 {
+UiThread
 void
 confirm
 (
@@ -13113,6 +13142,7 @@ text
 )
 ;
 }
+UiThread
 void
 onTextPrompt
 (
@@ -13133,6 +13163,7 @@ AuthCallback
 extends
 AlertCallback
 {
+UiThread
 void
 confirm
 (
@@ -13140,6 +13171,7 @@ String
 password
 )
 ;
+UiThread
 void
 confirm
 (
@@ -13374,6 +13406,7 @@ password
 ;
 }
 }
+UiThread
 void
 onAuthPrompt
 (
@@ -13660,6 +13693,7 @@ ChoiceCallback
 extends
 AlertCallback
 {
+UiThread
 void
 confirm
 (
@@ -13667,6 +13701,7 @@ String
 id
 )
 ;
+UiThread
 void
 confirm
 (
@@ -13676,6 +13711,7 @@ String
 ids
 )
 ;
+UiThread
 void
 confirm
 (
@@ -13683,6 +13719,7 @@ Choice
 item
 )
 ;
+UiThread
 void
 confirm
 (
@@ -13693,6 +13730,7 @@ items
 )
 ;
 }
+UiThread
 void
 onChoicePrompt
 (
@@ -13715,6 +13753,7 @@ ChoiceCallback
 callback
 )
 ;
+UiThread
 void
 onColorPrompt
 (
@@ -13783,6 +13822,7 @@ DATETIME_TYPE_DATETIME_LOCAL
 =
 5
 ;
+UiThread
 void
 onDateTimePrompt
 (
@@ -13808,6 +13848,7 @@ FileCallback
 extends
 AlertCallback
 {
+UiThread
 void
 confirm
 (
@@ -13817,6 +13858,7 @@ Uri
 uri
 )
 ;
+UiThread
 void
 confirm
 (
@@ -13860,6 +13902,7 @@ FILE_TYPE_MULTIPLE
 =
 2
 ;
+UiThread
 void
 onFilePrompt
 (
@@ -13878,6 +13921,7 @@ FileCallback
 callback
 )
 ;
+UiThread
 GeckoResult
 <
 AllowOrDeny
@@ -13895,6 +13939,7 @@ public
 interface
 ScrollDelegate
 {
+UiThread
 public
 void
 onScrollChanged
@@ -14385,6 +14430,7 @@ CATEGORY_ALL
 -
 1
 ;
+UiThread
 void
 onTrackerBlocked
 (
@@ -14447,17 +14493,20 @@ PERMISSION_AUTOPLAY_MEDIA
 interface
 Callback
 {
+UiThread
 void
 grant
 (
 )
 ;
+UiThread
 void
 reject
 (
 )
 ;
 }
+UiThread
 void
 onAndroidPermissionsRequest
 (
@@ -14471,6 +14520,7 @@ Callback
 callback
 )
 ;
+UiThread
 void
 onContentPermissionRequest
 (
@@ -14973,6 +15023,7 @@ type
 interface
 MediaCallback
 {
+UiThread
 void
 grant
 (
@@ -14984,6 +15035,7 @@ String
 audio
 )
 ;
+UiThread
 void
 grant
 (
@@ -14995,12 +15047,14 @@ MediaSource
 audio
 )
 ;
+UiThread
 void
 reject
 (
 )
 ;
 }
+UiThread
 void
 onMediaPermissionRequest
 (
@@ -16038,6 +16092,7 @@ public
 interface
 MediaDelegate
 {
+UiThread
 void
 onMediaAdd
 (
@@ -16049,6 +16104,7 @@ MediaElement
 element
 )
 ;
+UiThread
 void
 onMediaRemove
 (
@@ -16145,6 +16201,7 @@ VISIT_UNRECOVERABLE_ERROR
 <
 5
 ;
+UiThread
 default
 Nullable
 GeckoResult
@@ -16171,6 +16228,7 @@ return
 null
 ;
 }
+UiThread
 default
 Nullable
 GeckoResult
