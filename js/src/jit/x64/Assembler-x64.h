@@ -1405,7 +1405,7 @@ constexpr
 bool
 SupportsSimd
 =
-true
+false
 ;
 static
 constexpr

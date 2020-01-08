@@ -43304,7 +43304,6 @@ offset
 bytecodeOffset
 (
 )
-0
 Synchronization
 :
 :
@@ -43607,7 +43606,6 @@ offset
 bytecodeOffset
 (
 )
-0
 Synchronization
 :
 :
@@ -43858,7 +43856,6 @@ offset
 bytecodeOffset
 (
 )
-0
 Synchronization
 :
 :
@@ -44208,7 +44205,6 @@ offset
 bytecodeOffset
 (
 )
-0
 Synchronization
 :
 :
@@ -44367,7 +44363,6 @@ offset
 bytecodeOffset
 (
 )
-0
 Synchronization
 :
 :

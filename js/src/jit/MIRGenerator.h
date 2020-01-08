@@ -645,11 +645,6 @@ needsOverrecursedCheck_
 ;
 }
 bool
-usesSimd
-(
-)
-;
-bool
 modifiesFrameArguments
 (
 )
@@ -751,12 +746,6 @@ needsOverrecursedCheck_
 ;
 bool
 needsStaticStackAlignment_
-;
-bool
-usesSimd_
-;
-bool
-cachedUsesSimd_
 ;
 bool
 modifiesFrameArguments_
