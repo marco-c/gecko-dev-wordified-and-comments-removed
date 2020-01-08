@@ -1803,6 +1803,13 @@ return
 nullptr
 ;
 }
+ctor
+-
+>
+clearIsSelfHosted
+(
+)
+;
 uint32_t
 classStartOffset
 =
