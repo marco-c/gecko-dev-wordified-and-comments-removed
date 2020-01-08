@@ -22359,9 +22359,9 @@ dependencies
 log
 0
 .
-3
+4
 .
-9
+2
 (
 registry
 +
@@ -25274,9 +25274,9 @@ num
 traits
 0
 .
-1
+2
 .
-43
+0
 (
 registry
 +
