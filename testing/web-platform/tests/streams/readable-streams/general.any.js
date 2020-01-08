@@ -677,12 +677,12 @@ rs
 pipeThrough
 .
 length
-2
+1
 '
 pipeThrough
 should
 have
-2
+1
 parameters
 '
 )
