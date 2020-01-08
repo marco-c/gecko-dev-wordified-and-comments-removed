@@ -2178,6 +2178,8 @@ AppendElement
 info
 )
 ;
+return
+;
 }
 #
 else
