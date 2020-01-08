@@ -4608,14 +4608,6 @@ extra_asmflags
 extra_ldflags
 =
 [
-'
--
-Wl
--
-Bsymbolic
--
-functions
-'
 ]
         
 if
