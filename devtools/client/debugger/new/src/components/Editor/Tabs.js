@@ -402,7 +402,7 @@ source
 {
 const
 {
-selectSource
+selectSpecificSource
 }
 =
 this
@@ -429,7 +429,7 @@ onClick
 )
 =
 >
-selectSource
+selectSpecificSource
 (
 source
 .
@@ -1024,13 +1024,13 @@ connect
 (
 mapStateToProps
 {
-selectSource
+selectSpecificSource
 :
 _actions2
 .
 default
 .
-selectSource
+selectSpecificSource
 moveTab
 :
 _actions2
