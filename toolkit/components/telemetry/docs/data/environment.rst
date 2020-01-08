@@ -1808,7 +1808,10 @@ backend
 for
 compositing
 (
-eg
+e
+.
+g
+.
 "
 d3d11
 "
@@ -1817,6 +1820,9 @@ none
 "
 "
 opengl
+"
+"
+webrender
 "
 )
 /
