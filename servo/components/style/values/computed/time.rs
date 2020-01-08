@@ -1,4 +1,13 @@
 use
+crate
+:
+:
+values
+:
+:
+CSSFloat
+;
+use
 std
 :
 :
@@ -18,12 +27,6 @@ style_traits
 CssWriter
 ToCss
 }
-;
-use
-values
-:
-:
-CSSFloat
 ;
 #
 [

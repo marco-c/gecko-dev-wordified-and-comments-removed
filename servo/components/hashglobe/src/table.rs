@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 alloc
 :
 :
@@ -8,6 +11,9 @@ dealloc
 }
 ;
 use
+crate
+:
+:
 shim
 :
 :
@@ -82,6 +88,9 @@ BucketState
 *
 ;
 use
+crate
+:
+:
 FailedAllocationError
 ;
 type
@@ -3690,6 +3699,9 @@ is_null
 )
 {
 use
+crate
+:
+:
 AllocationInfo
 ;
 return

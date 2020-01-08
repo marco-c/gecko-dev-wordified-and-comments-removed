@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 values
 :
 :
@@ -27,6 +30,7 @@ pub
 type
 Width
 =
+crate
 :
 :
 values

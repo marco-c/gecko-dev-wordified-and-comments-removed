@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 animate
 :
 :
@@ -9,6 +12,9 @@ AnimationVariantAttrs
 }
 ;
 use
+crate
+:
+:
 cg
 ;
 use

@@ -1,3 +1,12 @@
+use
+crate
+:
+:
+traversal_flags
+:
+:
+TraversalFlags
+;
 #
 [
 cfg
@@ -17,12 +26,6 @@ structs
 :
 :
 nsRestyleHint
-;
-use
-traversal_flags
-:
-:
-TraversalFlags
 ;
 bitflags
 !

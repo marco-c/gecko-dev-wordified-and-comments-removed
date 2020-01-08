@@ -1,4 +1,13 @@
 use
+crate
+:
+:
+properties
+:
+:
+style_structs
+;
+use
 euclid
 :
 :
@@ -17,12 +26,6 @@ Rect
 SideOffsets2D
 Size2D
 }
-;
-use
-properties
-:
-:
-style_structs
 ;
 use
 std
@@ -225,6 +228,9 @@ InheritedBox
 Self
 {
 use
+crate
+:
+:
 properties
 :
 :
@@ -242,6 +248,9 @@ as
 Direction
 ;
 use
+crate
+:
+:
 properties
 :
 :
