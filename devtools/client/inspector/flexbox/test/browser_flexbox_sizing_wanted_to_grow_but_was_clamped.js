@@ -233,7 +233,7 @@ info
 Check
 that
 the
-flexibility
+maximum
 sizing
 section
 displays
@@ -272,7 +272,7 @@ flexbox
 .
 itemSizing
 .
-growthAttemptButMaxClamped
+clampedToMax
 "
 )
 ;
@@ -295,14 +295,7 @@ expectedReason
 )
 "
 The
-'
-wanted
-to
-grow
-but
-was
-clamped
-'
+clampedToMax
 reason
 was
 found
