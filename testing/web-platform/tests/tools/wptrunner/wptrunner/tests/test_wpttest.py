@@ -355,6 +355,7 @@ wpttest
 .
 from_manifest
 (
+tests
 test
 inherit_metadata
 test_metadata
@@ -525,6 +526,7 @@ wpttest
 .
 from_manifest
 (
+tests
 test
 [
 ]
