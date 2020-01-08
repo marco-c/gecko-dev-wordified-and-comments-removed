@@ -33,6 +33,8 @@ importShadowDatabase
 (
 "
 shadowdb
+-
+clearedOrigin
 .
 sqlite
 "
@@ -49,6 +51,7 @@ return
 verifyData
 (
 [
+1
 ]
 )
 ;
