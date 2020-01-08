@@ -1059,16 +1059,6 @@ decode_error_mode
 )
 ;
 }
-virtual
-void
-SetCPULoadState
-(
-CPULoadState
-state
-)
-override
-{
-}
 int
 SetMinReceiverDelay
 (

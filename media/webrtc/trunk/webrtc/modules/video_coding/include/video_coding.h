@@ -526,16 +526,6 @@ desired_delay_ms
 ;
 virtual
 void
-SetCPULoadState
-(
-CPULoadState
-state
-)
-=
-0
-;
-virtual
-void
 RegisterPostEncodeImageCallback
 (
 EncodedImageCallback

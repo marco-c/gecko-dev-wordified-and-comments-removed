@@ -257,17 +257,6 @@ degradation_preference
 override
 {
 }
-CPULoadStateObserver
-*
-LoadStateObserver
-(
-)
-override
-{
-return
-nullptr
-;
-}
 void
 ReconfigureVideoEncoder
 (
