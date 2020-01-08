@@ -284,9 +284,6 @@ description2
 /
 >
 <
-vbox
->
-<
 hbox
 id
 =
@@ -1027,10 +1024,6 @@ extension
 <
 /
 hbox
->
-<
-/
-vbox
 >
 <
 /
