@@ -2069,7 +2069,7 @@ store8_unaligned
 (
 ptr
 .
-offset
+add
 (
 8
 )
@@ -2188,7 +2188,7 @@ as_ptr
 (
 )
 .
-offset
+add
 (
 8
 )
@@ -2331,7 +2331,7 @@ as_ptr
 (
 )
 .
-offset
+add
 (
 8
 )
@@ -2416,7 +2416,7 @@ as_ptr
 (
 )
 .
-offset
+add
 (
 8
 )
@@ -2501,7 +2501,7 @@ as_ptr
 (
 )
 .
-offset
+add
 (
 8
 )

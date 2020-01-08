@@ -558,9 +558,13 @@ handle
 .
 write_astral
 (
-low_bits
-as
 u32
+:
+:
+from
+(
+low_bits
+)
 |
 0x20000u32
 )
