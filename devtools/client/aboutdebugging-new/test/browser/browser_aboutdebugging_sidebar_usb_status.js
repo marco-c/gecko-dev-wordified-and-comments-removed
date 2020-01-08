@@ -172,6 +172,9 @@ adbAddon
 .
 install
 (
+"
+internal
+"
 )
 ;
 await
