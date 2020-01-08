@@ -322,7 +322,7 @@ OnNonDOMMutationRenderingChange
 )
 ;
 void
-NotifyEvictedFromRenderingObserverList
+NotifyEvictedFromRenderingObserverSet
 (
 )
 ;
