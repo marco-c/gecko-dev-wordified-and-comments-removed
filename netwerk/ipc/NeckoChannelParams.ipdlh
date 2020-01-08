@@ -730,6 +730,9 @@ serviceWorkerTaintingSynthesized
 bool
 documentHasUserInteracted
 ;
+bool
+documentHasLoaded
+;
 }
 ;
 /
@@ -951,6 +954,9 @@ trackerBlockedReason
 ;
 bool
 documentHasUserInteracted
+;
+bool
+documentHasLoaded
 ;
 /
 /
