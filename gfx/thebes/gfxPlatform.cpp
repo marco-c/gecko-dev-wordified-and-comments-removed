@@ -7900,7 +7900,6 @@ XRE_IsParentProcess
 |
 |
 (
-(
 mCompositorBackend
 =
 =
@@ -7908,16 +7907,6 @@ LayersBackend
 :
 :
 LAYERS_OPENGL
-|
-|
-mCompositorBackend
-=
-=
-LayersBackend
-:
-:
-LAYERS_WR
-)
 &
 &
 (
