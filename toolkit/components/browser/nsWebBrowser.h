@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsCWebBrowser
-.
-h
-"
-#
-include
-"
 nsIBaseWindow
 .
 h

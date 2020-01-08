@@ -117,11 +117,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsCWebBrowser
-.
-idl
-'
-'
 nsIEmbeddingSiteWindow
 .
 idl

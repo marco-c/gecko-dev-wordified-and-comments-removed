@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsCWebBrowserPersist
-.
-h
-"
-#
-include
-"
 nsToolkit
 .
 h
