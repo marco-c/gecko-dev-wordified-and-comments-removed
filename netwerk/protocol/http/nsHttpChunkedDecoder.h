@@ -69,11 +69,9 @@ false
 nsHttpChunkedDecoder
 (
 )
-{
-delete
-mTrailers
+=
+default
 ;
-}
 bool
 ReachedEOF
 (
