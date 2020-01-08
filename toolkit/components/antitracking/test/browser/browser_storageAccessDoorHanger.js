@@ -708,6 +708,16 @@ cookies
 }
 let
 permChanged
+;
+if
+(
+choice
+!
+=
+BLOCK
+)
+{
+permChanged
 =
 TestUtils
 .
@@ -852,6 +862,7 @@ result
 }
 )
 ;
+}
 let
 shownPromise
 =

@@ -6333,8 +6333,8 @@ nsCString
 aTrackingOrigin
 nsCString
 aGrantedOrigin
-bool
-aAnySite
+int
+aAllowMode
 )
 returns
 (
