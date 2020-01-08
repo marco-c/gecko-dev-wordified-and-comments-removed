@@ -389,7 +389,7 @@ scene1_button_label
 "
 "
 Learn
-More
+more
 "
 )
 ;
@@ -405,8 +405,8 @@ scene2_button_label
 "
 "
 Sign
-Me
-Up
+me
+up
 "
 )
 ;
@@ -422,8 +422,8 @@ scene2_email_placeholder_text
 "
 "
 Your
-Email
-Here
+email
+here
 "
 )
 ;

@@ -539,14 +539,14 @@ edit_topsites_button_text
 "
 :
 "
-Sunting
+Edit
 "
 "
 edit_topsites_edit_button
 "
 :
 "
-Sunting
+Edit
 situs
 ini
 "

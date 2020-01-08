@@ -139,6 +139,7 @@ className
 |
 "
 ASRouterButton
+secondary
 "
 }
 style

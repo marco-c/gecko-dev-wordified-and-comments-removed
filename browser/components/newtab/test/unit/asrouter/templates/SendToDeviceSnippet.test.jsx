@@ -363,11 +363,6 @@ sandbox
 stub
 (
 )
-form_method
-:
-"
-POST
-"
 }
 ;
 const
@@ -619,7 +614,7 @@ scene1_button_label
 "
 "
 Learn
-More
+more
 "
 )
 ;
@@ -664,9 +659,9 @@ content
 scene2_input_placeholder
 "
 "
-YOUR
-EMAIL
-HERE
+Your
+email
+here
 "
 )
 ;

@@ -410,6 +410,10 @@ title
 text
 (
 )
+.
+trim
+(
+)
 "
 Foo
 "
@@ -580,6 +584,7 @@ className
 )
 "
 ASRouterButton
+secondary
 "
 )
 ;
