@@ -3093,6 +3093,17 @@ if
 (
 !
 saveAs
+|
+|
+AppConstants
+.
+platform
+=
+=
+=
+"
+android
+"
 )
 {
 return
