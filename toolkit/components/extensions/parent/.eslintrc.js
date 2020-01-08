@@ -74,11 +74,6 @@ WindowTrackerBase
 :
 true
 "
-getUserContextIdForCookieStoreId
-"
-:
-true
-"
 getContainerForCookieStoreId
 "
 :
