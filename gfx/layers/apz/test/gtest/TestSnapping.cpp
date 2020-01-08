@@ -151,7 +151,10 @@ snap
 .
 mScrollSnapTypeY
 =
-NS_STYLE_SCROLL_SNAP_TYPE_MANDATORY
+StyleScrollSnapType
+:
+:
+Mandatory
 ;
 snap
 .
@@ -495,7 +498,10 @@ snap
 .
 mScrollSnapTypeY
 =
-NS_STYLE_SCROLL_SNAP_TYPE_MANDATORY
+StyleScrollSnapType
+:
+:
+Mandatory
 ;
 snap
 .

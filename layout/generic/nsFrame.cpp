@@ -12073,7 +12073,10 @@ mOverflowClipBoxInline
 )
 =
 =
-NS_STYLE_OVERFLOW_CLIP_BOX_CONTENT_BOX
+StyleOverflowClipBox
+:
+:
+ContentBox
 ;
 bool
 cbV
@@ -12097,7 +12100,10 @@ mOverflowClipBoxBlock
 )
 =
 =
-NS_STYLE_OVERFLOW_CLIP_BOX_CONTENT_BOX
+StyleOverflowClipBox
+:
+:
+ContentBox
 ;
 nsMargin
 bp

@@ -5801,7 +5801,10 @@ aDisplay
 mScrollSnapTypeX
 =
 =
-NS_STYLE_SCROLL_SNAP_TYPE_NONE
+StyleScrollSnapType
+:
+:
+None
 &
 &
 aDisplay
@@ -5810,7 +5813,10 @@ aDisplay
 mScrollSnapTypeY
 =
 =
-NS_STYLE_SCROLL_SNAP_TYPE_NONE
+StyleScrollSnapType
+:
+:
+None
 &
 &
 aDisplay

@@ -293,6 +293,13 @@ SpecifiedValueInfo
 ToCss
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 Float
@@ -841,6 +848,13 @@ MallocSizeOf
 Parse
 PartialEq
 ToCss
+)
+]
+#
+[
+repr
+(
+u8
 )
 ]
 pub

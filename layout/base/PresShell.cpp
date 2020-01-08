@@ -16119,7 +16119,10 @@ disp
 mOverflowClipBoxBlock
 =
 =
-NS_STYLE_OVERFLOW_CLIP_BOX_CONTENT_BOX
+StyleOverflowClipBox
+:
+:
+ContentBox
 |
 |
 disp
@@ -16128,7 +16131,10 @@ disp
 mOverflowClipBoxInline
 =
 =
-NS_STYLE_OVERFLOW_CLIP_BOX_CONTENT_BOX
+StyleOverflowClipBox
+:
+:
+ContentBox
 )
 {
 WritingMode
@@ -16163,7 +16169,10 @@ mOverflowClipBoxInline
 )
 =
 =
-NS_STYLE_OVERFLOW_CLIP_BOX_CONTENT_BOX
+StyleOverflowClipBox
+:
+:
+ContentBox
 ;
 bool
 cbV
@@ -16187,7 +16196,10 @@ mOverflowClipBoxBlock
 )
 =
 =
-NS_STYLE_OVERFLOW_CLIP_BOX_CONTENT_BOX
+StyleOverflowClipBox
+:
+:
+ContentBox
 ;
 nsMargin
 padding
