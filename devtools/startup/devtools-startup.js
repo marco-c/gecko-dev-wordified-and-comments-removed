@@ -724,7 +724,7 @@ KeyShortcutsBundle
 GetStringFromName
 (
 "
-accessibility
+accessibilityF12
 .
 commandkey
 "
