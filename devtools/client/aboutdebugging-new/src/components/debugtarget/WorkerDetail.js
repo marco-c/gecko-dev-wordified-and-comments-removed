@@ -157,6 +157,9 @@ this
 renderField
 (
 "
+fetch
+"
+"
 Fetch
 "
 label
@@ -165,6 +168,7 @@ label
 }
 renderField
 (
+key
 name
 value
 )
@@ -176,6 +180,13 @@ dom
 dt
 (
 {
+key
+:
+{
+key
+}
+-
+dt
 }
 name
 )
@@ -191,6 +202,13 @@ ellipsis
 -
 text
 "
+key
+:
+{
+key
+}
+-
+dd
 title
 :
 value
@@ -293,6 +311,9 @@ this
 .
 renderField
 (
+"
+scope
+"
 "
 Scope
 "
