@@ -454,6 +454,16 @@ return
 mIncumbentGlobal
 ;
 }
+void
+Reset
+(
+)
+{
+ClearJSReferences
+(
+)
+;
+}
 enum
 ExceptionHandling
 {
