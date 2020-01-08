@@ -58,6 +58,12 @@ page_cycles
 page_timeout
 =
 60000
+                     
+debug
+=
+'
+True
+'
 )
     
 parser

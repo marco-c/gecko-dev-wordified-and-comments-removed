@@ -754,6 +754,9 @@ __init__
 (
 self
 results_handler
+debug_mode
+=
+False
 )
 :
         
@@ -832,6 +835,12 @@ self
 gecko_profile_dir
 =
 None
+        
+self
+.
+debug_mode
+=
+debug_mode
     
 def
 start
@@ -1013,6 +1022,38 @@ shutdown_browser
 self
 )
 :
+        
+if
+self
+.
+debug_mode
+:
+            
+LOG
+.
+info
+(
+"
+debug
+-
+mode
+enabled
+so
+NOT
+shutting
+down
+the
+browser
+"
+)
+            
+self
+.
+_finished
+=
+True
+            
+return
         
 if
 self
