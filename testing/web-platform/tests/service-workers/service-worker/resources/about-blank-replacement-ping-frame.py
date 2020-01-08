@@ -371,6 +371,17 @@ toString
 }
 )
 ;
+  
+win
+.
+navigator
+.
+serviceWorker
+.
+startMessages
+(
+)
+;
 }
 <
 /
