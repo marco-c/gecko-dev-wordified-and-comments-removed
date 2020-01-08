@@ -26826,6 +26826,7 @@ version
 takes
 priority
 .
+ClearErrors
 ReadINIStr
 R8
 R7
@@ -26850,7 +26851,10 @@ AddStartMenuSC
 0
 "
 {
-Else
+ElseIfNot
+}
+{
+Errors
 }
 StrCpy
 AddStartMenuSC
