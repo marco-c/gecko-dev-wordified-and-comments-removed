@@ -216,6 +216,11 @@ NetErrorChild
 jsm
 '
 '
+OfflineAppsChild
+.
+jsm
+'
+'
 PageInfoChild
 .
 jsm
