@@ -266,6 +266,7 @@ buttons
 ;
 }
 )
+;
 add_UITour_task
 (
 async
@@ -1407,6 +1408,7 @@ called
 ;
 }
 )
+;
 add_UITour_task
 (
 async
@@ -1486,6 +1488,7 @@ called
 ;
 }
 )
+;
 add_UITour_task
 (
 async
@@ -1621,6 +1624,7 @@ animate
 ;
 }
 )
+;
 add_UITour_task
 (
 async

@@ -567,7 +567,7 @@ keyPath
 "
 )
 ;
-if
+is
 (
 objectStore
 .

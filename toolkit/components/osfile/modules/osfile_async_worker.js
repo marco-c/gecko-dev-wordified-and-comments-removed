@@ -163,6 +163,7 @@ args
 )
 ;
 }
+;
 worker
 .
 log

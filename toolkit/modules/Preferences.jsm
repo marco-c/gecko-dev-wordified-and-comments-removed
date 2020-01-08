@@ -771,6 +771,7 @@ prefName
 )
 ;
 }
+;
 Preferences
 .
 modified
@@ -789,6 +790,7 @@ prefName
 )
 ;
 }
+;
 Preferences
 .
 reset
@@ -1197,6 +1199,7 @@ ex
 ;
 }
 }
+;
 Preferences
 .
 _branchStr

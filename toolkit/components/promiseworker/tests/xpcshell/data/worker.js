@@ -80,6 +80,7 @@ args
 )
 ;
 }
+;
 worker
 .
 postMessage

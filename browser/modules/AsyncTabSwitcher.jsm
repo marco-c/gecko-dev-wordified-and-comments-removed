@@ -354,6 +354,7 @@ _loadTimerClearedBy
 "
 none
 "
+;
 this
 .
 _useDumpForLogging
