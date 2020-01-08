@@ -24378,12 +24378,6 @@ floats_cur_right
 =
 0
 ;
-const
-WritingMode
-wm
-=
-mLineContainerWM
-;
 for
 (
 uint32_t
@@ -24440,10 +24434,7 @@ breakType
 floatDisp
 -
 >
-PhysicalBreakType
-(
-wm
-)
+mBreakType
 ;
 if
 (
@@ -24737,10 +24728,7 @@ floatBreakType
 floatDisp
 -
 >
-PhysicalBreakType
-(
-wm
-)
+mBreakType
 ;
 if
 (
