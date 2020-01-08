@@ -1396,6 +1396,13 @@ CC_TYPE
 '
 msvc
 '
+and
+CONFIG
+[
+'
+INTEL_ARCHITECTURE
+'
+]
 :
 for
 f

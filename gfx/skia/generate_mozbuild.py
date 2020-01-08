@@ -1005,6 +1005,13 @@ clang
 cl
 '
 )
+and
+CONFIG
+[
+'
+INTEL_ARCHITECTURE
+'
+]
 :
     
 #
