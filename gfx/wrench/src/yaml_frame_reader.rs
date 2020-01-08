@@ -1136,6 +1136,13 @@ false
 ImageFormat
 :
 :
+R16
+=
+>
+false
+ImageFormat
+:
+:
 RGBAF32
 |
 ImageFormat
@@ -6997,6 +7004,14 @@ LayoutPrimitiveInfo
 )
 {
 let
+color_depth
+=
+ColorDepth
+:
+:
+Color8
+;
+let
 color_space
 =
 YuvColorSpace
@@ -7368,6 +7383,7 @@ push_yuv_image
 &
 info
 yuv_data
+color_depth
 color_space
 ImageRendering
 :

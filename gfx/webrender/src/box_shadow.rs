@@ -19,6 +19,7 @@ api
 LayoutRect
 LayoutSize
 LayoutVector2D
+MAX_BLUR_RADIUS
 }
 ;
 use
@@ -178,15 +179,6 @@ f32
 3
 .
 0
-;
-pub
-const
-MAX_BLUR_RADIUS
-:
-f32
-=
-300
-.
 ;
 #
 [
