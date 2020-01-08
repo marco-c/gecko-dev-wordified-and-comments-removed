@@ -225,6 +225,11 @@ this
 -
 firefox
 "
+USB
+:
+"
+usb
+"
 }
 ;
 const
