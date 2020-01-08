@@ -9762,13 +9762,9 @@ if
 (
 cellDataAtInsertionPoint
 .
-mFirst
-.
-mColumn
-+
-cellDataAtInsertionPoint
-.
-mEffectiveColSpan
+NextColumnIndex
+(
+)
 =
 =
 cellData
