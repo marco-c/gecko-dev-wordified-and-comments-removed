@@ -713,6 +713,15 @@ aDoDeleteSelection
 )
 override
 ;
+nsresult
+InsertWithQuotationsAsSubAction
+(
+const
+nsAString
+&
+aQuotedText
+)
+;
 bool
 IsSafeToInsertData
 (
