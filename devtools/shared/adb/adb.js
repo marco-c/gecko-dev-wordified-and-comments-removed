@@ -291,7 +291,7 @@ reject
 =
 >
 {
-let
+const
 onSuccessfulStart
 =
 (
@@ -325,7 +325,7 @@ resolve
 ;
 }
 ;
-let
+const
 isAdbRunning
 =
 await
@@ -387,7 +387,7 @@ didRunInitially
 =
 true
 ;
-let
+const
 process
 =
 Cc
@@ -412,7 +412,7 @@ Ci
 nsIProcess
 )
 ;
-let
+const
 adbFile
 =
 await
@@ -448,7 +448,7 @@ e
 )
 {
 }
-let
+const
 params
 =
 [
@@ -459,7 +459,7 @@ server
 "
 ]
 ;
-let
+const
 self
 =
 this
@@ -582,7 +582,7 @@ kill
 sync
 )
 {
-let
+const
 process
 =
 Cc
@@ -607,7 +607,7 @@ Ci
 nsIProcess
 )
 ;
-let
+const
 adbFile
 =
 await
@@ -643,7 +643,7 @@ e
 )
 {
 }
-let
+const
 params
 =
 [
@@ -702,7 +702,7 @@ false
 }
 else
 {
-let
+const
 self
 =
 this
@@ -857,7 +857,7 @@ trackDevices
 "
 )
 ;
-let
+const
 socket
 =
 client
@@ -871,7 +871,7 @@ waitForFirst
 =
 true
 ;
-let
+const
 devices
 =
 {
@@ -915,7 +915,7 @@ start
 "
 )
 ;
-let
+const
 req
 =
 client
@@ -1006,7 +1006,7 @@ onclose
 ;
 for
 (
-let
+const
 dev
 in
 devices
@@ -1113,7 +1113,7 @@ ondata
 "
 )
 ;
-let
+const
 data
 =
 aEvent
@@ -1134,7 +1134,7 @@ data
 byteLength
 )
 ;
-let
+const
 dec
 =
 new
@@ -1189,7 +1189,7 @@ return
 ;
 }
 }
-let
+const
 packet
 =
 client
@@ -1218,7 +1218,7 @@ data
 {
 for
 (
-let
+const
 dev
 in
 devices
@@ -1248,7 +1248,7 @@ dev
 }
 else
 {
-let
+const
 lines
 =
 packet
@@ -1263,7 +1263,7 @@ n
 "
 )
 ;
-let
+const
 newDev
 =
 {
@@ -1291,7 +1291,7 @@ length
 return
 ;
 }
-let
+const
 [
 dev
 status
@@ -1325,7 +1325,7 @@ offline
 ;
 for
 (
-let
+const
 dev
 in
 newDev
@@ -1358,7 +1358,7 @@ dev
 ]
 )
 {
-let
+const
 topic
 =
 newDev
@@ -1440,7 +1440,7 @@ onSuccess
 data
 )
 {
-let
+const
 lines
 =
 data
@@ -1453,7 +1453,7 @@ n
 "
 )
 ;
-let
+const
 res
 =
 [
@@ -1481,7 +1481,7 @@ length
 return
 ;
 }
-let
+const
 [
 device
 ]
@@ -1585,7 +1585,7 @@ aFrom
 aDest
 )
 {
-let
+const
 deferred
 =
 PromiseUtils
@@ -1593,9 +1593,6 @@ PromiseUtils
 defer
 (
 )
-;
-let
-socket
 ;
 let
 state
@@ -1618,7 +1615,7 @@ chunkSize
 let
 pkgData
 ;
-let
+const
 headerArray
 =
 new
@@ -1632,7 +1629,7 @@ currentHeaderLength
 =
 0
 ;
-let
+const
 encoder
 =
 new
@@ -1661,7 +1658,7 @@ aFrom
 aDest
 )
 ;
-let
+const
 shutdown
 =
 function
@@ -1695,7 +1692,7 @@ BAD_RESPONSE
 ;
 }
 ;
-let
+const
 extractChunkDataHeader
 =
 function
@@ -1703,7 +1700,7 @@ function
 data
 )
 {
-let
+const
 tmpArray
 =
 new
@@ -1747,7 +1744,7 @@ i
 }
 }
 ;
-let
+const
 checkChunkDataHeader
 =
 function
@@ -1820,7 +1817,7 @@ return
 true
 ;
 }
-let
+const
 tmpArray
 =
 new
@@ -1874,7 +1871,7 @@ true
 ;
 }
 ;
-let
+const
 checkDone
 =
 function
@@ -1896,7 +1893,7 @@ return
 false
 ;
 }
-let
+const
 doneFlagArray
 =
 new
@@ -1905,7 +1902,7 @@ Uint32Array
 1
 )
 ;
-let
+const
 tmpArray
 =
 new
@@ -1963,7 +1960,7 @@ false
 ;
 }
 ;
-let
+const
 runFSM
 =
 function
@@ -2411,7 +2408,7 @@ length
 chunkSize
 )
 {
-let
+const
 chunkData
 =
 pkgData
@@ -2422,7 +2419,7 @@ subarray
 chunkSize
 )
 ;
-let
+const
 tmpData
 =
 new
@@ -2502,7 +2499,7 @@ length
 chunkSize
 )
 {
-let
+const
 tmpData
 =
 new
@@ -2657,7 +2654,7 @@ UNEXPECTED_STATE
 }
 }
 ;
-let
+const
 setupSocket
 =
 function
@@ -2785,6 +2782,7 @@ data
 ;
 }
 ;
+const
 socket
 =
 client
@@ -2812,7 +2810,7 @@ aFrom
 aDest
 )
 {
-let
+const
 deferred
 =
 PromiseUtils
@@ -2862,7 +2860,7 @@ aFrom
 aDest
 )
 ;
-let
+const
 shutdown
 =
 function
@@ -2896,7 +2894,7 @@ BAD_RESPONSE
 ;
 }
 ;
-let
+const
 runFSM
 =
 function
@@ -3127,7 +3125,7 @@ send
 send
 "
 :
-let
+const
 encoder
 =
 new
@@ -3135,7 +3133,7 @@ TextEncoder
 (
 )
 ;
-let
+const
 infoLengthPacket
 =
 new
@@ -3200,7 +3198,7 @@ remaining
 0
 )
 {
-let
+const
 toSend
 =
 remaining
@@ -3226,7 +3224,7 @@ bytes
 "
 )
 ;
-let
+const
 dataLengthPacket
 =
 new
@@ -3235,7 +3233,7 @@ Uint32Array
 1
 )
 ;
-let
+const
 dataPacket
 =
 new
@@ -3309,7 +3307,7 @@ remaining
 toSend
 ;
 }
-let
+const
 fileTimePacket
 =
 new
@@ -3455,7 +3453,7 @@ UNEXPECTED_STATE
 }
 }
 ;
-let
+const
 setupSocket
 =
 function
@@ -3654,7 +3652,7 @@ is
 fileSize
 )
 ;
-let
+const
 readPromise
 =
 OS
@@ -3751,7 +3749,7 @@ adb_shell
 aCommand
 )
 {
-let
+const
 deferred
 =
 PromiseUtils
@@ -3759,9 +3757,6 @@ PromiseUtils
 defer
 (
 )
-;
-let
-socket
 ;
 let
 state
@@ -3783,7 +3778,7 @@ shell
 aCommand
 )
 ;
-let
+const
 shutdown
 =
 function
@@ -3817,7 +3812,7 @@ BAD_RESPONSE
 ;
 }
 ;
-let
+const
 runFSM
 =
 function
@@ -4049,7 +4044,7 @@ decode
 shell
 "
 :
-let
+const
 decoder
 =
 new
@@ -4057,7 +4052,7 @@ TextDecoder
 (
 )
 ;
-let
+const
 text
 =
 new
@@ -4116,6 +4111,7 @@ UNEXPECTED_STATE
 }
 }
 ;
+const
 socket
 =
 client
@@ -4318,7 +4314,7 @@ adb_root
 (
 )
 {
-let
+const
 deferred
 =
 PromiseUtils
@@ -4326,9 +4322,6 @@ PromiseUtils
 defer
 (
 )
-;
-let
-socket
 ;
 let
 state
@@ -4342,7 +4335,7 @@ root
 "
 )
 ;
-let
+const
 shutdown
 =
 function
@@ -4376,7 +4369,7 @@ BAD_RESPONSE
 ;
 }
 ;
-let
+const
 runFSM
 =
 function
@@ -4575,6 +4568,7 @@ UNEXPECTED_STATE
 }
 }
 ;
+const
 socket
 =
 client
@@ -4732,7 +4726,7 @@ runCommand
 aCommand
 )
 ;
-let
+const
 deferred
 =
 PromiseUtils
@@ -4773,7 +4767,7 @@ deferred
 promise
 ;
 }
-let
+const
 socket
 =
 client
@@ -4802,7 +4796,7 @@ onopen
 "
 )
 ;
-let
+const
 req
 =
 client
@@ -4895,14 +4889,14 @@ ondata
 "
 )
 ;
-let
+const
 data
 =
 aEvent
 .
 data
 ;
-let
+const
 packet
 =
 client

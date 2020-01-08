@@ -102,7 +102,7 @@ _hexdump
 aArray
 )
 {
-let
+const
 decoder
 =
 new
@@ -115,7 +115,7 @@ windows
 "
 )
 ;
-let
+const
 array
 =
 new
@@ -126,7 +126,7 @@ aArray
 buffer
 )
 ;
-let
+const
 s
 =
 decoder
@@ -136,7 +136,7 @@ decode
 array
 )
 ;
-let
+const
 len
 =
 array
@@ -156,7 +156,7 @@ len
 "
 "
 ;
-let
+const
 l
 =
 len
@@ -205,6 +205,7 @@ length
 =
 1
 )
+{
 c
 =
 "
@@ -213,6 +214,7 @@ c
 +
 c
 ;
+}
 dbg
 +
 =
@@ -241,7 +243,7 @@ i
 +
 )
 {
-let
+const
 c
 =
 array

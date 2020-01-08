@@ -54,7 +54,7 @@ resolve
 =
 >
 {
-let
+const
 runFSM
 =
 function
@@ -84,7 +84,7 @@ case
 start
 "
 :
-let
+const
 req
 =
 client
@@ -122,7 +122,7 @@ wait
 version
 "
 :
-let
+const
 {
 length
 data
@@ -157,7 +157,7 @@ close
 (
 )
 ;
-let
+const
 version
 =
 parseInt
@@ -233,7 +233,7 @@ false
 }
 }
 ;
-let
+const
 setupSocket
 =
 function

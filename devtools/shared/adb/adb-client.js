@@ -29,7 +29,7 @@ FAIL
 =
 0x4c494146
 ;
-let
+const
 _sockets
 =
 [
@@ -60,7 +60,7 @@ aPacket
 aIgnoreResponse
 )
 {
-let
+const
 buffer
 =
 getBuffer
@@ -120,7 +120,7 @@ data
 }
 ;
 }
-let
+const
 lengthView
 =
 new
@@ -135,7 +135,7 @@ aIgnoreResponse
 4
 )
 ;
-let
+const
 decoder
 =
 new
@@ -143,7 +143,7 @@ TextDecoder
 (
 )
 ;
-let
+const
 length
 =
 parseInt
@@ -157,7 +157,7 @@ lengthView
 16
 )
 ;
-let
+const
 text
 =
 new
@@ -195,7 +195,7 @@ aExpected
 OKAY
 )
 {
-let
+const
 buffer
 =
 getBuffer
@@ -203,7 +203,7 @@ getBuffer
 aPacket
 )
 ;
-let
+const
 view
 =
 new
@@ -305,7 +305,7 @@ length
 length
 ;
 }
-let
+const
 encoder
 =
 new
@@ -368,7 +368,7 @@ connect
 (
 )
 {
-let
+const
 tmp
 =
 new
@@ -387,7 +387,7 @@ return
 tmp
 ;
 }
-let
+const
 client
 =
 {
