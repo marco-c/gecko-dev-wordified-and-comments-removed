@@ -16625,7 +16625,7 @@ ifdef
 XP_WIN
 static
 void
-AnnotateSystemManufacturer
+AnnotateWMIData
 (
 )
 {
@@ -16908,7 +16908,7 @@ value
 static
 void
 PR_CALLBACK
-AnnotateSystemManufacturer_ThreadStart
+AnnotateWMIData_ThreadStart
 (
 void
 *
@@ -16933,7 +16933,7 @@ hr
 return
 ;
 }
-AnnotateSystemManufacturer
+AnnotateWMIData
 (
 )
 ;
@@ -19968,7 +19968,7 @@ XP_WIN
 PR_CreateThread
 (
 PR_USER_THREAD
-AnnotateSystemManufacturer_ThreadStart
+AnnotateWMIData_ThreadStart
 0
 PR_PRIORITY_LOW
 PR_GLOBAL_THREAD
