@@ -57,6 +57,7 @@ OnPop
 EnterFrame
 NewScript
 WarpTarget
+ForcedPause
 )
 )
 ;
@@ -391,6 +392,14 @@ WarpTarget
 return
 "
 WarpTarget
+"
+;
+case
+ForcedPause
+:
+return
+"
+ForcedPause
 "
 ;
 }
