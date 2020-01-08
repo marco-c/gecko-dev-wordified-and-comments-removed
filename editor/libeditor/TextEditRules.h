@@ -1183,10 +1183,6 @@ nsIEditor
 :
 eStrip
 )
-bOrdered
-(
-false
-)
 entireList
 (
 false
@@ -1239,9 +1235,6 @@ nsIEditor
 :
 EStripWrappers
 stripWrappers
-;
-bool
-bOrdered
 ;
 bool
 entireList
