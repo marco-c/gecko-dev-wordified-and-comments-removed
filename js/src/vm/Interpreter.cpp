@@ -10203,7 +10203,7 @@ nullptr
 ;
 }
 return
-JS_EncodeString
+EncodeLatin1
 (
 cx
 str

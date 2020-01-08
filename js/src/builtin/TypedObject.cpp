@@ -7474,9 +7474,10 @@ stringRepr
 UniqueChars
 typeReprStr
 =
-JS_EncodeStringToUTF8
+StringToNewUTF8CharsZ
 (
 cx
+*
 typeReprAtom
 )
 ;
@@ -8030,9 +8031,10 @@ false
 UniqueChars
 propName
 =
-JS_EncodeStringToUTF8
+StringToNewUTF8CharsZ
 (
 cx
+*
 str
 )
 ;

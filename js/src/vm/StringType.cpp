@@ -12064,7 +12064,7 @@ return
 nullptr
 ;
 return
-JS_EncodeString
+EncodeLatin1
 (
 cx
 str
@@ -12140,9 +12140,10 @@ return
 nullptr
 ;
 return
-JS_EncodeStringToUTF8
+StringToNewUTF8CharsZ
 (
 cx
+*
 str
 )
 ;

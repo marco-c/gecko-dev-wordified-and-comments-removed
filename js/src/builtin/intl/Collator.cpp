@@ -1009,7 +1009,10 @@ isString
 UniqueChars
 locale
 =
-JS_EncodeString
+intl
+:
+:
+EncodeLocale
 (
 cx
 args
@@ -1376,7 +1379,10 @@ nullptr
 UniqueChars
 locale
 =
-JS_EncodeString
+intl
+:
+:
+EncodeLocale
 (
 cx
 value

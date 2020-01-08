@@ -1013,7 +1013,7 @@ func
 UniqueChars
 bytes
 =
-JS_EncodeString
+EncodeLatin1
 (
 cx
 name
