@@ -1123,7 +1123,9 @@ IsObjectResizerEnabled
 &
 &
 !
-mIsAbsolutelyPositioningEnabled
+IsAbsolutePositionEditorEnabled
+(
+)
 &
 &
 !
@@ -1210,7 +1212,9 @@ absPosElement
 ;
 if
 (
-mIsAbsolutelyPositioningEnabled
+IsAbsolutePositionEditorEnabled
+(
+)
 )
 {
 absPosElement
@@ -1316,7 +1320,9 @@ absPosElement
 }
 if
 (
-mIsAbsolutelyPositioningEnabled
+IsAbsolutePositionEditorEnabled
+(
+)
 &
 &
 mAbsolutelyPositionedObject
@@ -1526,7 +1532,9 @@ rv
 }
 if
 (
-mIsAbsolutelyPositioningEnabled
+IsAbsolutePositionEditorEnabled
+(
+)
 &
 &
 absPosElement
