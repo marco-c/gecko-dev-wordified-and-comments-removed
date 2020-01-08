@@ -257,12 +257,6 @@ height
 100
 %
 ;
-padding
--
-top
-:
-18px
-;
 }
 .
 page
@@ -319,6 +313,12 @@ grow
 overflow
 :
 auto
+;
+padding
+-
+top
+:
+18px
 ;
 }
 .
