@@ -587,7 +587,7 @@ CONNECTION_PROMPT
 )
 ;
 const
-connection
+runtimeDetails
 =
 {
 connectionPromptEnabled
@@ -606,7 +606,7 @@ runtime
 :
 {
 id
-connection
+runtimeDetails
 type
 :
 runtime
@@ -684,7 +684,7 @@ client
 =
 runtime
 .
-connection
+runtimeDetails
 .
 client
 ;
@@ -787,7 +787,7 @@ client
 =
 runtime
 .
-connection
+runtimeDetails
 .
 client
 ;

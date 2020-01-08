@@ -78,7 +78,7 @@ isRequired
 }
 ;
 const
-runtimeConnection
+runtimeDetails
 =
 {
 client
@@ -193,13 +193,13 @@ PropTypes
 string
 .
 isRequired
-connection
+runtimeDetails
 :
 PropTypes
 .
 shape
 (
-runtimeConnection
+runtimeDetails
 )
 extra
 :
