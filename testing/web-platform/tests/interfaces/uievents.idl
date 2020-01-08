@@ -476,6 +476,11 @@ attribute
 boolean
 isComposing
 ;
+readonly
+attribute
+DOMString
+inputType
+;
 }
 ;
 dictionary
@@ -494,6 +499,12 @@ boolean
 isComposing
 =
 false
+;
+DOMString
+inputType
+=
+"
+"
 ;
 }
 ;
