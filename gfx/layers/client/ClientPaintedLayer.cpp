@@ -490,9 +490,15 @@ Get
 >
 QueuePaintTask
 (
+std
+:
+:
+move
+(
 aState
 .
 mAsyncTask
+)
 )
 ;
 }

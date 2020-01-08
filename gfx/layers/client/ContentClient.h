@@ -179,6 +179,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 ReadbackProcessor
 .
 h
@@ -376,7 +385,7 @@ mContentType
 bool
 mAsyncPaint
 ;
-RefPtr
+UniquePtr
 <
 PaintTask
 >

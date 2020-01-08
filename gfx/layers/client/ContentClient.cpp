@@ -856,10 +856,13 @@ mAsyncPaint
 result
 .
 mAsyncTask
-=
+.
+reset
+(
 new
 PaintTask
 (
+)
 )
 ;
 }
