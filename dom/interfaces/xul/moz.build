@@ -129,11 +129,6 @@ nsIDOMXULControlElement
 idl
 '
 '
-nsIDOMXULLabeledControlEl
-.
-idl
-'
-'
 nsIDOMXULMenuListElement
 .
 idl

@@ -356,11 +356,6 @@ content
 >
 <
 implementation
-implements
-=
-"
-nsIDOMXULLabeledControlElement
-"
 >
 <
 !

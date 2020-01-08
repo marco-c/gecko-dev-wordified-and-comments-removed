@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-nsIDOMXULLabeledControlEl
+nsIDOMXULControlElement
 .
 idl
 "
@@ -116,7 +116,7 @@ e74582381951
 interface
 nsIDOMXULButtonElement
 :
-nsIDOMXULLabeledControlElement
+nsIDOMXULControlElement
 {
 attribute
 DOMString

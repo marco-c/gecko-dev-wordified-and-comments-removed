@@ -635,11 +635,11 @@ this
 ;
 if
 (
+"
+accessKey
+"
+in
 bindingParent
-instanceof
-Ci
-.
-nsIDOMXULLabeledControlElement
 )
 {
 control
