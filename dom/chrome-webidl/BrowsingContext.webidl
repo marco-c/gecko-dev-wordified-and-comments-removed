@@ -157,5 +157,11 @@ getWindowGlobals
 (
 )
 ;
+readonly
+attribute
+WindowGlobalParent
+?
+currentWindowGlobal
+;
 }
 ;

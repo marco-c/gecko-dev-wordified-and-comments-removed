@@ -161,6 +161,11 @@ return
 mOuterWindowId
 ;
 }
+bool
+IsCurrentGlobal
+(
+)
+;
 already_AddRefed
 <
 WindowGlobalParent
