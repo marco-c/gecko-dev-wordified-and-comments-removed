@@ -513,6 +513,7 @@ rtl
 "
 ltr
 "
+;
 is
 (
 window
