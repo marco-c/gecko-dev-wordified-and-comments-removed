@@ -28,7 +28,7 @@ registerAllActors
 (
 )
 ;
-DebuggerServer
+ActorRegistry
 .
 registerModule
 (

@@ -40,7 +40,7 @@ ChromeUtils
 ;
 var
 {
-DebuggerServer
+ActorRegistry
 }
 =
 require
@@ -50,7 +50,9 @@ devtools
 /
 server
 /
-main
+actor
+-
+registry
 "
 )
 ;
@@ -1305,11 +1307,11 @@ conn
 ;
 }
 const
-addedActors
+actors
 =
 createExtraActors
 (
-DebuggerServer
+ActorRegistry
 .
 targetScopedActorFactories
 this
@@ -1323,7 +1325,7 @@ Object
 assign
 (
 response
-addedActors
+actors
 )
 ;
 return
