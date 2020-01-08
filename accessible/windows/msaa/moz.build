@@ -119,11 +119,6 @@ HyperTextAccessibleWrap
 h
 '
 '
-IDSet
-.
-h
-'
-'
 LazyInstantiator
 .
 h
