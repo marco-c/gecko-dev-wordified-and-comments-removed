@@ -205,7 +205,8 @@ RTCRTPStreamStats
 :
 RTCStats
 {
-DOMString
+unsigned
+long
 ssrc
 ;
 DOMString
