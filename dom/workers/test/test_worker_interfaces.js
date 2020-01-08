@@ -54,9 +54,6 @@ ByteLengthQueuingStrategy
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -65,9 +62,6 @@ name
 CountQueuingStrategy
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -318,9 +312,6 @@ name
 ReadableStream
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
