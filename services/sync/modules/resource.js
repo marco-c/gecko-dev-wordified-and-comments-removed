@@ -138,6 +138,12 @@ this
 "
 fetch
 "
+"
+Headers
+"
+"
+Request
+"
 ]
 )
 ;
