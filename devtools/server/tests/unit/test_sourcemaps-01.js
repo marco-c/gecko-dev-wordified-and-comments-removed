@@ -272,7 +272,7 @@ size
 0
 )
 {
-gThreadClient
+gClient
 .
 removeListener
 (

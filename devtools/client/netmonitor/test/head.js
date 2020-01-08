@@ -1362,9 +1362,7 @@ activeTab
 .
 reconfigure
 (
-{
 options
-}
 )
 .
 then

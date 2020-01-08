@@ -458,13 +458,9 @@ activeTab
 reconfigure
 (
 {
-options
-:
-{
 cacheDisabled
 :
 true
-}
 }
 )
 ;
@@ -731,13 +727,9 @@ activeTab
 reconfigure
 (
 {
-options
-:
-{
 cacheDisabled
 :
 false
-}
 }
 )
 ;
