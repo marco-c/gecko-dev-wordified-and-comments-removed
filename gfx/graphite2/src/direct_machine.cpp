@@ -117,6 +117,12 @@ vm
 ;
 namespace
 {
+__attribute__
+(
+(
+__noinline__
+)
+)
 const
 void
 *
