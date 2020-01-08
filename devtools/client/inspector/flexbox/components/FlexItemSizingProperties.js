@@ -1068,6 +1068,13 @@ mainDeltaSize
 0
 ;
 const
+shrank
+=
+mainDeltaSize
+<
+0
+;
+const
 maxDimensionValue
 =
 properties
@@ -1103,6 +1110,9 @@ reasons
 if
 (
 grew
+|
+|
+shrank
 )
 {
 reasons
