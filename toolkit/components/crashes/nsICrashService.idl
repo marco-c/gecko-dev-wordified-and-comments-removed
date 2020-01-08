@@ -191,6 +191,12 @@ PROCESS_TYPE_GPU
 ;
 const
 long
+PROCESS_TYPE_RDD
+=
+5
+;
+const
+long
 CRASH_TYPE_CRASH
 =
 0
