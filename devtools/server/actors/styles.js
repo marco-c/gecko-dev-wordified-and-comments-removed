@@ -4667,9 +4667,6 @@ column
 traits
 :
 {
-modifySelectorUnmatched
-:
-true
 canSetRuleText
 :
 this
