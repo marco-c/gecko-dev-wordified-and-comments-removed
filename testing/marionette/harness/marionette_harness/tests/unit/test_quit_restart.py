@@ -6,10 +6,6 @@ print_function
 import
 urllib
 from
-unittest
-import
-skip
-from
 marionette_driver
 import
 errors
@@ -223,7 +219,7 @@ cause
 ]
     
 def
-test_types
+tst_types
 (
 self
 )
@@ -305,7 +301,7 @@ foo
 )
     
 def
-test_undefined_default
+tst_undefined_default
 (
 self
 )
@@ -330,7 +326,7 @@ cause
 )
     
 def
-test_empty_default
+tst_empty_default
 (
 self
 )
@@ -357,7 +353,7 @@ cause
 )
     
 def
-test_incompatible_flags
+tst_incompatible_flags
 (
 self
 )
@@ -389,7 +385,7 @@ eForceQuit
 )
     
 def
-test_attempt_quit
+tst_attempt_quit
 (
 self
 )
@@ -419,7 +415,7 @@ cause
 )
     
 def
-test_force_quit
+tst_force_quit
 (
 self
 )
@@ -756,7 +752,7 @@ restart
 )
     
 def
-test_force_restart
+tst_force_restart
 (
 self
 )
@@ -837,7 +833,7 @@ about
 )
     
 def
-test_force_clean_restart
+tst_force_clean_restart
 (
 self
 )
@@ -921,7 +917,7 @@ about
 )
     
 def
-test_force_quit
+tst_force_quit
 (
 self
 )
@@ -973,7 +969,7 @@ get_url
 )
     
 def
-test_force_clean_quit
+tst_force_clean_quit
 (
 self
 )
@@ -1088,7 +1084,7 @@ about
 )
     
 def
-test_no_in_app_clean_restart
+tst_no_in_app_clean_restart
 (
 self
 )
@@ -1128,7 +1124,7 @@ True
 )
     
 def
-test_in_app_restart
+tst_in_app_restart
 (
 self
 )
@@ -1247,7 +1243,7 @@ about
 )
     
 def
-test_in_app_restart_with_callback
+tst_in_app_restart_with_callback
 (
 self
 )
@@ -1379,7 +1375,7 @@ about
 )
     
 def
-test_in_app_restart_with_callback_not_callable
+tst_in_app_restart_with_callback_not_callable
 (
 self
 )
@@ -1414,7 +1410,7 @@ callback
 )
     
 def
-test_in_app_restart_with_callback_but_process_quit
+tst_in_app_restart_with_callback_but_process_quit
 (
 self
 )
@@ -1490,7 +1486,7 @@ DEFAULT_SHUTDOWN_TIMEOUT
 timeout_shutdown
     
 def
-test_in_app_restart_with_callback_missing_shutdown
+tst_in_app_restart_with_callback_missing_shutdown
 (
 self
 )
@@ -1559,22 +1555,6 @@ marionette
 DEFAULT_SHUTDOWN_TIMEOUT
 =
 timeout_shutdown
-    
-skip
-(
-"
-Bug
-1397612
--
-Hang
-of
-Marionette
-client
-after
-the
-restart
-"
-)
     
 def
 test_in_app_restart_safe_mode
@@ -1792,7 +1772,7 @@ True
 )
     
 def
-test_in_app_quit
+tst_in_app_quit
 (
 self
 )
@@ -1907,7 +1887,7 @@ about
 )
     
 def
-test_in_app_quit_with_callback
+tst_in_app_quit_with_callback
 (
 self
 )
@@ -2027,7 +2007,7 @@ about
 )
     
 def
-test_in_app_quit_with_callback_missing_shutdown
+tst_in_app_quit_with_callback_missing_shutdown
 (
 self
 )
@@ -2094,7 +2074,7 @@ DEFAULT_SHUTDOWN_TIMEOUT
 timeout
     
 def
-test_in_app_quit_with_callback_not_callable
+tst_in_app_quit_with_callback_not_callable
 (
 self
 )
@@ -2129,7 +2109,7 @@ callback
 )
     
 def
-test_in_app_quit_with_dismissed_beforeunload_prompt
+tst_in_app_quit_with_dismissed_beforeunload_prompt
 (
 self
 )
@@ -2236,7 +2216,7 @@ start_session
 )
     
 def
-test_reset_context_after_quit_by_set_context
+tst_reset_context_after_quit_by_set_context
 (
 self
 )
@@ -2343,7 +2323,7 @@ using_context
 )
     
 def
-test_reset_context_after_quit_by_using_context
+tst_reset_context_after_quit_by_using_context
 (
 self
 )
@@ -2452,7 +2432,7 @@ using_context
 )
     
 def
-test_keep_context_after_restart_by_set_context
+tst_keep_context_after_restart_by_set_context
 (
 self
 )
@@ -2590,7 +2570,7 @@ set_context
 )
     
 def
-test_keep_context_after_restart_by_using_context
+tst_keep_context_after_restart_by_using_context
 (
 self
 )
