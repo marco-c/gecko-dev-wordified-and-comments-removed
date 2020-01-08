@@ -1,6 +1,9 @@
 pub
 use
-num_integer
+num
+:
+:
+integer
 :
 :
 {

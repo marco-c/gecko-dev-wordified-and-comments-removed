@@ -34,7 +34,11 @@ update
 8
 .
 0
-stable
+1
+.
+15
+.
+0
 beta
 and
 nightly
@@ -43,10 +47,8 @@ nightly
 set
 -
 ex
-export
-TRAVIS_RUST_VERSION
 for
-TRAVIS_RUST_VERSION
+toolchain
 in
 1
 .
@@ -58,12 +60,6 @@ in
 15
 .
 0
-1
-.
-20
-.
-0
-stable
 beta
 nightly
 ;
@@ -73,7 +69,7 @@ run
 "
 rustup
 run
-TRAVIS_RUST_VERSION
+toolchain
 "
 run
 cargo
@@ -89,4 +85,8 @@ ci
 test_full
 .
 sh
+toolchain
+run
+cargo
+doc
 done
