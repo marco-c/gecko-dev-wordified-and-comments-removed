@@ -33,13 +33,6 @@ Services
 ww
 .
 activeWindow
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
 ;
 contextMenu
 =
