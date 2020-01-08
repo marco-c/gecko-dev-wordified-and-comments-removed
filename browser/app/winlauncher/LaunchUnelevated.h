@@ -14,6 +14,13 @@ h
 #
 include
 "
+LauncherResult
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -55,10 +62,7 @@ eHighIntegrityNoUAC
 )
 }
 ;
-mozilla
-:
-:
-Maybe
+LauncherResult
 <
 ElevationState
 >
@@ -71,7 +75,7 @@ nsAutoHandle
 aOutMediumIlToken
 )
 ;
-bool
+LauncherVoidResult
 LaunchUnelevated
 (
 int
