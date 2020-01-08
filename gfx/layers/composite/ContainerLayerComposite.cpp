@@ -564,7 +564,7 @@ MOZ_GECKO_PROFILER
 if
 (
 !
-profiler_is_active
+profiler_thread_is_being_profiled
 (
 )
 )

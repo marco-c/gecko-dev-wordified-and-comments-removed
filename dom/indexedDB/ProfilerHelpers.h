@@ -1430,7 +1430,7 @@ MOZ_GECKO_PROFILER
 aUseProfiler
 &
 &
-profiler_is_active
+profiler_thread_is_being_profiled
 (
 )
 )
