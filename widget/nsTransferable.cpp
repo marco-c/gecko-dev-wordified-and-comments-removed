@@ -261,6 +261,11 @@ kLargeDatasetSize
 &
 !
 aIsPrivateData
+&
+&
+XRE_IsParentProcess
+(
+)
 )
 {
 if
