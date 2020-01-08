@@ -6832,9 +6832,12 @@ nsIScriptError
 :
 :
 warningFlag
+NS_LITERAL_CSTRING
+(
 "
-CSP
+upgradeInsecureRequest
 "
+)
 document
 -
 >

@@ -2627,9 +2627,12 @@ nsIScriptError
 :
 :
 errorFlag
+NS_LITERAL_CSTRING
+(
 "
-CSP
+blockAllMixedContent
 "
+)
 document
 -
 >
