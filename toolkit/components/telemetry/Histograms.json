@@ -58618,6 +58618,12 @@ mozilla
 .
 com
 "
+"
+chutten
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -58625,6 +58631,7 @@ bug_numbers
 :
 [
 1235908
+1511919
 ]
 "
 expires_in_version
@@ -58672,6 +58679,15 @@ of
 it
 being
 handled
+"
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
 "
 }
 "
