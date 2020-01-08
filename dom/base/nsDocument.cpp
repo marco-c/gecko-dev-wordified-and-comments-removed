@@ -7033,10 +7033,6 @@ mAllowZoom
 (
 false
 )
-mAllowDoubleTapZoom
-(
-false
-)
 mValidScaleFloat
 (
 false
