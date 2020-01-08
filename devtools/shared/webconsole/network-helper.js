@@ -2165,6 +2165,15 @@ Ci
 nsITransportSecurityInfo
 )
 ;
+securityInfo
+.
+QueryInterface
+(
+Ci
+.
+nsISSLStatusProvider
+)
+;
 const
 wpl
 =

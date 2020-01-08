@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsISSLStatusProvider
+.
+h
+"
+#
+include
+"
 nsISecureBrowserUI
 .
 h
@@ -70,7 +77,7 @@ nsWeakReference
 h
 "
 class
-nsITransportSecurityInfo
+nsISSLStatus
 ;
 class
 nsIChannel
@@ -103,6 +110,8 @@ public
 nsIWebProgressListener
 public
 nsSupportsWeakReference
+public
+nsISSLStatusProvider
 {
 friend
 class
@@ -120,6 +129,7 @@ nsSecureBrowserUIImpl
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSISECUREBROWSERUI
+NS_DECL_NSISSLSTATUSPROVIDER
 protected
 :
 virtual
@@ -298,9 +308,9 @@ sink
 ;
 nsCOMPtr
 <
-nsITransportSecurityInfo
+nsISSLStatus
 >
-mSecInfo
+mSSLStatus
 ;
 nsCOMPtr
 <

@@ -2131,6 +2131,13 @@ sslStatus
 =
 securityInfo
 .
+QueryInterface
+(
+Ci
+.
+nsISSLStatusProvider
+)
+.
 SSLStatus
 ;
 this
