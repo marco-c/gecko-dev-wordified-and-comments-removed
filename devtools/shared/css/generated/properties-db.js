@@ -31140,12 +31140,12 @@ subproperties
 "
 overflow
 -
-y
+x
 "
 "
 overflow
 -
-x
+y
 "
 ]
 "
