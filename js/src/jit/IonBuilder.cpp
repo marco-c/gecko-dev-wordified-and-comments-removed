@@ -4121,7 +4121,7 @@ build
 {
 #
 ifdef
-JS_JITSPEW
+JS_STRUCTURED_SPEW
 if
 (
 !
@@ -5326,7 +5326,7 @@ callInfo
 ;
 #
 ifdef
-JS_JITSPEW
+JS_STRUCTURED_SPEW
 if
 (
 !
