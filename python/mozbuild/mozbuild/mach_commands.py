@@ -13514,7 +13514,7 @@ self
 _get_clang_tidy_command
 (
             
-check
+checks
 =
 checks
 header_filter
