@@ -1326,12 +1326,6 @@ mozilla
 :
 :
 TimeStamp
-mMostRecentTick
-;
-mozilla
-:
-:
-TimeStamp
 mTickStart
 ;
 mozilla
