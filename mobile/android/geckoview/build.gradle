@@ -1939,11 +1939,9 @@ test
 :
 runner
 :
-1
-.
 0
 .
-2
+5
 '
 androidTestImplementation
 '
@@ -1957,11 +1955,9 @@ test
 :
 rules
 :
-1
-.
 0
 .
-2
+5
 '
 androidTestImplementation
 '
@@ -1979,9 +1975,9 @@ espresso
 -
 core
 :
-3
+2
 .
-0
+2
 .
 2
 '

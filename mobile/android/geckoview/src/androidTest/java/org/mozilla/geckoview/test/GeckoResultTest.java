@@ -197,6 +197,16 @@ extends
 RuntimeException
 {
 }
+Rule
+public
+UiThreadTestRule
+mUiThreadTestRule
+=
+new
+UiThreadTestRule
+(
+)
+;
 private
 boolean
 mDone
