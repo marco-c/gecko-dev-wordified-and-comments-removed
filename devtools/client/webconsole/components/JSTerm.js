@@ -5404,12 +5404,6 @@ items
 length
 >
 0
-&
-&
-!
-popup
-.
-isOpen
 )
 {
 let
