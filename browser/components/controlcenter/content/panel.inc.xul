@@ -1165,7 +1165,7 @@ contentBlocking
 .
 fastBlock
 .
-blocked
+blocking
 .
 label
 ;
@@ -1375,7 +1375,7 @@ contentBlocking
 .
 trackingProtection
 .
-blocked
+blocking
 .
 label
 ;
@@ -1598,7 +1598,7 @@ contentBlocking
 .
 3rdPartyCookies
 .
-blocked
+blocking
 .
 label
 ;
