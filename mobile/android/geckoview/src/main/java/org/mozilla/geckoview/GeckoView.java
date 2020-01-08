@@ -52,17 +52,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-GeckoDisplay
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 InputMethods
 ;
 import

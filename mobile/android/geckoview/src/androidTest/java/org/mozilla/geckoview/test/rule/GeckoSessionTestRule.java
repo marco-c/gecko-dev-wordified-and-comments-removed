@@ -14,9 +14,7 @@ org
 .
 mozilla
 .
-gecko
-.
-gfx
+geckoview
 .
 GeckoDisplay
 ;
