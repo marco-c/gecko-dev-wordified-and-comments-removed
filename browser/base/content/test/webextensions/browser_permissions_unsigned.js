@@ -137,12 +137,13 @@ openNewForegroundTab
 gBrowser
 )
 ;
-gBrowser
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
+.
+selectedBrowser
 {
 BASE
 }

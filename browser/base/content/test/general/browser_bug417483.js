@@ -47,10 +47,11 @@ iframe
 >
 "
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 htmlContent
 )
 ;

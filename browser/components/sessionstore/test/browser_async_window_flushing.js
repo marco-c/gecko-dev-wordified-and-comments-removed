@@ -318,10 +318,11 @@ tab
 .
 linkedBrowser
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 PAGE
 )
 ;
@@ -577,10 +578,11 @@ gBrowser
 .
 selectedBrowser
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 PAGE
 )
 ;

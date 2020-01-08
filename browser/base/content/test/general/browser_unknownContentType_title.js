@@ -220,10 +220,11 @@ title
 "
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 unknown_url
 )
 ;
