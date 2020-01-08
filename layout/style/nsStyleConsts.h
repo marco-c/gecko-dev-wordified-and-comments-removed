@@ -225,16 +225,6 @@ MozAlmostPadding
 ;
 enum
 class
-StyleFillRule
-:
-uint8_t
-{
-Nonzero
-Evenodd
-}
-;
-enum
-class
 StyleFloat
 :
 uint8_t

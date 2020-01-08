@@ -706,6 +706,13 @@ ToComputedValue
 ToCss
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 FillRule
