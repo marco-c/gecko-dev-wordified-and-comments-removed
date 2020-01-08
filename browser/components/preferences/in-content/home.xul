@@ -895,6 +895,13 @@ hidden
 "
 true
 "
+class
+=
+"
+extension
+-
+controlled
+"
 >
 <
 description
@@ -962,6 +969,13 @@ hidden
 =
 "
 true
+"
+class
+=
+"
+extension
+-
+controlled
 "
 >
 <

@@ -1026,6 +1026,13 @@ align
 "
 center
 "
+class
+=
+"
+extension
+-
+controlled
+"
 >
 <
 description
