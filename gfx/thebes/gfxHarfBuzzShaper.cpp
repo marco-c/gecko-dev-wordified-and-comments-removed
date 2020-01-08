@@ -236,6 +236,9 @@ mBuffer
 (
 nullptr
 )
+mCallbackData
+(
+)
 mKernTable
 (
 nullptr
@@ -315,6 +318,10 @@ mInitialized
 false
 )
 mVerticalInitialized
+(
+false
+)
+mUseVerticalPresentationForms
 (
 false
 )

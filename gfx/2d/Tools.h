@@ -631,6 +631,10 @@ mStorage
 (
 nullptr
 )
+mCount
+(
+0
+)
 {
 }
 explicit
@@ -645,6 +649,10 @@ aZero
 false
 )
 :
+mPtr
+(
+nullptr
+)
 mStorage
 (
 nullptr

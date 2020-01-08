@@ -69,6 +69,10 @@ mPageCanvas
 (
 nullptr
 )
+mRefCanvas
+(
+nullptr
+)
 {
 }
 PrintTargetSkPDF

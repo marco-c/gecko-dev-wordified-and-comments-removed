@@ -4281,6 +4281,10 @@ mFontFamilies
 (
 4
 )
+mRebuildGeneration
+(
+0
+)
 mLocalRulesUsed
 (
 false

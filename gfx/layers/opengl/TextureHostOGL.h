@@ -325,6 +325,16 @@ TextureSourceOGL
 (
 )
 :
+mCachedSamplingFilter
+(
+gfx
+:
+:
+SamplingFilter
+:
+:
+GOOD
+)
 mHasCachedSamplingFilter
 (
 false

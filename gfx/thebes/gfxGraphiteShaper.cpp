@@ -178,6 +178,12 @@ false
 {
 mCallbackData
 .
+mDrawTarget
+=
+nullptr
+;
+mCallbackData
+.
 mFont
 =
 aFont

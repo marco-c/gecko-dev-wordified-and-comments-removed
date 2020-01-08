@@ -2658,6 +2658,10 @@ mTrakSizeTable
 (
 nullptr
 )
+mNumTrakSizes
+(
+0
+)
 {
 mWeightRange
 =
@@ -2753,6 +2757,10 @@ nullptr
 mTrakSizeTable
 (
 nullptr
+)
+mNumTrakSizes
+(
+0
 )
 {
 mFontRef
