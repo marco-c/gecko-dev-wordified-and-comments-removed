@@ -387,7 +387,7 @@ VTYPE_ARRAY
 ;
 /
 /
-TD_LEGACY_ARRAY
+TD_ARRAY
 =
 20
 const
