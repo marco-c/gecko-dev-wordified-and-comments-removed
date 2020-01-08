@@ -639,6 +639,7 @@ self
 .
 0
 }
+pub
 fn
 advance
 (
