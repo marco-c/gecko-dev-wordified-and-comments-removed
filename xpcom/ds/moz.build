@@ -360,6 +360,11 @@ nsPointerHashKeys
 h
 '
 '
+nsProperties
+.
+h
+'
+'
 nsQuickSort
 .
 h
