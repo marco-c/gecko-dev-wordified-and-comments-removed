@@ -2899,6 +2899,11 @@ gMainPane
 .
 showBrowserLanguages
 (
+{
+search
+:
+false
+}
 )
 "
 /
