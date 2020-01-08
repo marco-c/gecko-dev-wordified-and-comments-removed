@@ -76,9 +76,9 @@ IPCResult
 RecvNotifyVsync
 (
 const
-VsyncEvent
+TimeStamp
 &
-aVsync
+vsyncTimeStamp
 const
 LayersId
 &

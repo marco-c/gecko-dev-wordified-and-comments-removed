@@ -124,10 +124,8 @@ CompositorVsyncDispatcher
 :
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aVsyncTimestamp
 )
 {
 layers
@@ -138,9 +136,7 @@ CompositorBridgeParent
 :
 PostInsertVsyncProfilerMarker
 (
-aVsync
-.
-mTime
+aVsyncTimestamp
 )
 ;
 MutexAutoLock
@@ -159,7 +155,7 @@ mCompositorVsyncObserver
 >
 NotifyVsync
 (
-aVsync
+aVsyncTimestamp
 )
 ;
 }
@@ -439,10 +435,8 @@ RefreshTimerVsyncDispatcher
 :
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aVsyncTimestamp
 )
 {
 MutexAutoLock
@@ -479,7 +473,7 @@ i
 >
 NotifyVsync
 (
-aVsync
+aVsyncTimestamp
 )
 ;
 }
@@ -493,7 +487,7 @@ mParentRefreshTimer
 >
 NotifyVsync
 (
-aVsync
+aVsyncTimestamp
 )
 ;
 }

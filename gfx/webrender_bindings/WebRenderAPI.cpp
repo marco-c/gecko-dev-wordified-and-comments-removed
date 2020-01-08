@@ -2030,9 +2030,6 @@ aRenderThread
 UpdateAndRender
 (
 aWindowId
-VsyncId
-(
-)
 mStartTime
 true
 Some

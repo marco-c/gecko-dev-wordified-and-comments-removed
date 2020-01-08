@@ -541,10 +541,6 @@ bool
 &
 aContainsSVGGroup
 const
-VsyncId
-&
-aVsyncId
-const
 TimeStamp
 &
 aRefreshStartTime
@@ -637,10 +633,6 @@ wr
 IdNamespace
 &
 aIdNamespace
-const
-VsyncId
-&
-aVsyncId
 const
 TimeStamp
 &
@@ -964,8 +956,6 @@ override
 void
 CompositeToTarget
 (
-VsyncId
-aId
 gfx
 :
 :
@@ -1058,10 +1048,6 @@ aTransactionId
 bool
 aContainsSVGGroup
 const
-VsyncId
-&
-aVsyncId
-const
 TimeStamp
 &
 aRefreshStartTime
@@ -1102,10 +1088,6 @@ wr
 Epoch
 &
 aEpoch
-const
-VsyncId
-&
-aCompositeStartId
 const
 TimeStamp
 &
@@ -1667,8 +1649,6 @@ FlushFramePresentation
 void
 MaybeGenerateFrame
 (
-VsyncId
-aId
 bool
 aForceGenerateFrame
 )
@@ -1691,10 +1671,6 @@ TransactionId
 aId
 bool
 aContainsSVGGroup
-const
-VsyncId
-&
-aVsyncId
 const
 TimeStamp
 &
@@ -1726,10 +1702,6 @@ aEpoch
 mId
 (
 aId
-)
-mVsyncId
-(
-aVsyncId
 )
 mRefreshStartTime
 (
@@ -1773,9 +1745,6 @@ mEpoch
 ;
 TransactionId
 mId
-;
-VsyncId
-mVsyncId
 ;
 TimeStamp
 mRefreshStartTime

@@ -71,10 +71,8 @@ CompositorWidgetVsyncObserver
 :
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aTimeStamp
 )
 {
 MOZ_ASSERT
@@ -97,7 +95,7 @@ mVsyncBridge
 >
 NotifyVsync
 (
-aVsync
+aTimeStamp
 mRootLayerTreeId
 )
 ;

@@ -133,10 +133,8 @@ aWidget
 bool
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aVsyncTimestamp
 )
 ;
 void
@@ -215,8 +213,6 @@ CancelableRunnable
 void
 PostCompositeTask
 (
-VsyncId
-aId
 TimeStamp
 aCompositeTimestamp
 )
@@ -231,8 +227,6 @@ aTimestamp
 void
 Composite
 (
-VsyncId
-aId
 TimeStamp
 aVsyncTimestamp
 )
@@ -275,10 +269,8 @@ virtual
 bool
 NotifyVsync
 (
-const
-VsyncEvent
-&
-aVsync
+TimeStamp
+aVsyncTimestamp
 )
 override
 ;
