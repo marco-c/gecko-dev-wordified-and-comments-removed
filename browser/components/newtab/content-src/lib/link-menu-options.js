@@ -948,8 +948,6 @@ icon
 :
 "
 pocket
--
-save
 "
 action
 :

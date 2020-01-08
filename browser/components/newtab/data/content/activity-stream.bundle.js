@@ -16203,8 +16203,6 @@ icon
 :
 "
 pocket
--
-save
 "
 action
 :

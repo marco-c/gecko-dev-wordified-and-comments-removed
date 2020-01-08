@@ -732,6 +732,9 @@ section_menu_action_add_topsite
 "
 :
 "
+Add
+Top
+Site
 "
 "
 section_menu_action_move_up
