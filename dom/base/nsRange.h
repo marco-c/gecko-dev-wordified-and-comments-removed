@@ -1571,6 +1571,15 @@ nsINode
 aFarthestAncestor
 )
 ;
+bool
+CanAccess
+(
+const
+nsINode
+&
+)
+const
+;
 public
 :
 static
