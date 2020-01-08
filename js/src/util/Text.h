@@ -453,9 +453,11 @@ s2
 i
 ]
 )
+{
 return
 cmp
 ;
+}
 }
 return
 int32_t
@@ -512,10 +514,12 @@ IsSpace
 s
 )
 )
+{
 s
 +
 +
 ;
+}
 return
 s
 ;
@@ -636,6 +640,7 @@ i
 +
 +
 )
+{
 dst
 [
 i
@@ -650,6 +655,7 @@ src
 i
 ]
 ;
+}
 }
 inline
 void
@@ -684,6 +690,7 @@ i
 +
 +
 )
+{
 dst
 [
 i
@@ -694,6 +701,7 @@ src
 i
 ]
 ;
+}
 }
 extern
 uint32_t

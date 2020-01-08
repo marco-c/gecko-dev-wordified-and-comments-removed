@@ -887,6 +887,7 @@ fs
 }
 }
 else
+{
 rc
 =
 pthread_attr_getstack
@@ -899,6 +900,7 @@ stackBase
 stackSize
 )
 ;
+}
 #
 else
 rc
@@ -919,10 +921,12 @@ if
 (
 rc
 )
+{
 MOZ_CRASH
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 stackBase
