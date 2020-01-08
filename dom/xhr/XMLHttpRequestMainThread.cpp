@@ -558,6 +558,15 @@ h
 #
 include
 "
+js
+/
+MemoryFunctions
+.
+h
+"
+#
+include
+"
 jsfriendapi
 .
 h

@@ -105,6 +105,15 @@ h
 #
 include
 "
+js
+/
+MemoryFunctions
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

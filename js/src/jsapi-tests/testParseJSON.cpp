@@ -33,6 +33,15 @@ include
 "
 js
 /
+MemoryFunctions
+.
+h
+"
+#
+include
+"
+js
+/
 Printf
 .
 h

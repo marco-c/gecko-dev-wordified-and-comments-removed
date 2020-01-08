@@ -75,6 +75,15 @@ include
 "
 js
 /
+MemoryFunctions
+.
+h
+"
+#
+include
+"
+js
+/
 OffThreadScriptCompilation
 .
 h
