@@ -71,8 +71,10 @@ enabled
 (
 )
 )
+{
 return
 ;
+}
 uint32_t
 sp
 =
@@ -289,8 +291,10 @@ profiler_
 nullptr
 )
 )
+{
 return
 ;
+}
 profiler_
 -
 >
@@ -427,8 +431,10 @@ MOZ_LIKELY
 profiler_
 )
 )
+{
 return
 ;
+}
 profiler_
 -
 >

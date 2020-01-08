@@ -198,9 +198,11 @@ names
 .
 next
 )
+{
 return
 NEXT
 ;
+}
 if
 (
 atom
@@ -215,9 +217,11 @@ names
 .
 throw_
 )
+{
 return
 THROW
 ;
+}
 MOZ_ASSERT
 (
 atom

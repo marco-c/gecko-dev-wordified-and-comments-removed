@@ -627,6 +627,7 @@ length
 -
 1
 )
+{
 vector
 [
 *
@@ -645,6 +646,7 @@ back
 )
 )
 ;
+}
 (
 *
 index
@@ -1711,6 +1713,7 @@ T
 (
 )
 )
+{
 return
 currentTask
 -
@@ -1722,6 +1725,7 @@ T
 (
 )
 ;
+}
 return
 nullptr
 ;
