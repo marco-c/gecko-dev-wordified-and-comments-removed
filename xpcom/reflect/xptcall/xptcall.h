@@ -149,6 +149,15 @@ JS
 Value
 jsval
 ;
+xpt
+:
+:
+detail
+:
+:
+UntypedSequence
+sequence
+;
 ExtendedVal
 (
 )
