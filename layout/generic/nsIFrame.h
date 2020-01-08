@@ -1121,9 +1121,6 @@ aReflowInput
 aMetrics
 )
 ;
-#
-ifdef
-DEBUG
 std
 :
 :
@@ -1145,8 +1142,6 @@ nsReflowStatus
 aStatus
 )
 ;
-#
-endif
 #
 define
 NS_FRAME_OVERFLOW_DELTA_MAX
