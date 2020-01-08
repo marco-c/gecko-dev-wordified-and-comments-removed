@@ -287,6 +287,9 @@ defined
 (
 OS_WIN
 )
+bool
+external_section_
+;
 HANDLE
 mapped_file_
 ;
