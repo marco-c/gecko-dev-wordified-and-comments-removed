@@ -256,6 +256,10 @@ GetInstallHash
 nsAString
 &
 aPathHash
+bool
+aUseCompatibilityMode
+=
+false
 )
 ;
 nsresult
