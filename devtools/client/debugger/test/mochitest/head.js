@@ -3227,7 +3227,11 @@ activeTab
 .
 navigateTo
 (
+{
+url
+:
 aUrl
+}
 )
 :
 activeTab

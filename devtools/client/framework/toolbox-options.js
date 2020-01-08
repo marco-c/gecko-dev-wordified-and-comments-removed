@@ -3200,7 +3200,9 @@ activeTab
 .
 reconfigure
 (
+{
 options
+}
 )
 ;
 }
