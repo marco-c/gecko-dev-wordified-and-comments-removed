@@ -767,14 +767,6 @@ InitializeLocks
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-!
-AreThreadEventsPassedThrough
-(
-)
-)
-;
 gNumLocks
 =
 gAtomicLockId
@@ -783,6 +775,10 @@ gAtomicLock
 =
 new
 AtomicLock
+(
+)
+;
+AssertEventsAreNotPassedThrough
 (
 )
 ;
@@ -800,6 +796,9 @@ gNumLocks
 gAtomicLockId
 +
 1
+|
+|
+gInitializationFailureMessage
 )
 ;
 }

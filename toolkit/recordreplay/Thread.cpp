@@ -838,9 +838,6 @@ if
 IsMiddleman
 (
 )
-|
-|
-gInitializationFailureMessage
 )
 {
 DirectSpawnThread
@@ -1305,6 +1302,15 @@ IsRecordingOrReplaying
 )
 )
 ;
+if
+(
+gInitializationFailureMessage
+)
+{
+return
+true
+;
+}
 Thread
 *
 thread
