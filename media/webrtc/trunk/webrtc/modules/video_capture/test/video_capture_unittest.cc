@@ -2266,7 +2266,7 @@ test_frame_
 TEST_F
 (
 VideoCaptureExternalTest
-DISABLED_Rotation
+Rotation
 )
 {
 EXPECT_EQ
