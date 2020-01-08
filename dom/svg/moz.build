@@ -470,6 +470,11 @@ SVGMPathElement
 h
 '
 '
+SVGPathData
+.
+h
+'
+'
 SVGPathElement
 .
 h
