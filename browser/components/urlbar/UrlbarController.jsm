@@ -360,6 +360,16 @@ queryContext
 this
 )
 ;
+this
+.
+_notify
+(
+"
+onQueryFinished
+"
+queryContext
+)
+;
 }
 cancelQuery
 (

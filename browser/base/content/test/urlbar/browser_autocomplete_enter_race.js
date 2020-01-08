@@ -504,7 +504,7 @@ urlbar
 .
 suggest
 .
-openpages
+openpage
 "
 false
 )
