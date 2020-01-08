@@ -243,3 +243,12 @@ on
 -
 unexpected
 fi
+gzip
+.
+.
+/
+artifacts
+/
+wpt_report
+.
+json
