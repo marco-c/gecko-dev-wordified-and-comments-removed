@@ -216,6 +216,7 @@ let
 closingTabs
 =
 [
+tab2
 tab4
 tab5
 ]
@@ -282,14 +283,12 @@ closing
 ;
 ok
 (
-!
 tab2
 .
 closing
 "
 Tab2
 is
-not
 closing
 "
 )
