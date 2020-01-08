@@ -2061,7 +2061,7 @@ layers
 ImageContainer
 >
 container
-;
+=
 mImage
 -
 >
@@ -2071,10 +2071,6 @@ aManager
 decodeSize
 svgContext
 flags
-getter_AddRefs
-(
-container
-)
 )
 ;
 if
