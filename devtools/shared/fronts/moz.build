@@ -93,6 +93,9 @@ DIRS
 addon
 '
 '
+inspector
+'
+'
 targets
 '
 ]
