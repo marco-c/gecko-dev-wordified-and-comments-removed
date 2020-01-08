@@ -225,25 +225,6 @@ marionette
 False
 )
     
-METRO_CHROME
-=
-(
-'
-metro
--
-chrome
-'
-'
-testing
-/
-mochitest
-'
-'
-metro
-'
-True
-)
-    
 MOCHITEST
 =
 (
