@@ -153,7 +153,7 @@ UnifiedSources
     
 VariablePassthru
     
-XPIDLModule
+XPIDLFile
 )
 from
 mozpack
@@ -9333,19 +9333,17 @@ XPIDL_MODULE
 ]
         
 if
-not
-xpidl_module
-:
-            
-if
 context
 [
 '
 XPIDL_SOURCES
 '
 ]
+and
+not
+xpidl_module
 :
-                
+            
 raise
 SandboxValidationError
 (
@@ -9356,7 +9354,7 @@ be
 defined
 if
 '
-                    
+                
 '
 XPIDL_SOURCES
 is
@@ -9365,10 +9363,10 @@ defined
 '
 context
 )
-            
-return
         
 if
+xpidl_module
+and
 not
 context
 [
@@ -9398,6 +9396,13 @@ context
 )
         
 if
+context
+[
+'
+XPIDL_SOURCES
+'
+]
+and
 context
 [
 '
@@ -9456,54 +9461,21 @@ XPIDL_SOURCES
 ]
 :
             
-if
-not
-os
-.
-path
-.
-exists
-(
-idl
-.
-full_path
-)
-:
-                
-raise
-SandboxValidationError
-(
-'
-File
-%
-s
-from
-XPIDL_SOURCES
-'
-                    
-'
-does
-not
-exist
-'
-%
-idl
-.
-full_path
-context
-)
-        
 yield
-XPIDLModule
+XPIDLFile
 (
 context
-xpidl_module
+mozpath
+.
+join
+(
 context
-[
-'
-XPIDL_SOURCES
-'
-]
+.
+srcdir
+idl
+)
+                
+xpidl_module
 )
     
 def

@@ -160,7 +160,7 @@ TestManifest
     
 VariablePassthru
     
-XPIDLModule
+XPIDLFile
 )
 from
 .
@@ -2528,7 +2528,7 @@ if
 isinstance
 (
 obj
-XPIDLModule
+XPIDLFile
 )
 :
             
@@ -2545,7 +2545,7 @@ xpt
 %
 obj
 .
-name
+module
             
 self
 .
@@ -7178,11 +7178,13 @@ p
 )
         
 for
-stem
+idl
 in
 manager
 .
-idl_stems
+idls
+.
+values
 (
 )
 :
@@ -7204,8 +7206,14 @@ s
 .
 h
 '
+                
 %
-stem
+idl
+[
+'
+root
+'
+]
 )
         
 for
@@ -7270,34 +7278,29 @@ set
 )
         
 for
-module_name
+module
 in
 xpt_modules
 :
             
-module
+sources
+directories
 =
-manager
-.
 modules
 [
-module_name
+module
 ]
             
 all_directories
 |
 =
-module
-.
 directories
             
 deps
 =
 sorted
 (
-module
-.
-idl_files
+sources
 )
             
 mk
@@ -7307,14 +7310,13 @@ add_statement
 '
 %
 s_deps
-:
 =
 %
 s
 '
 %
 (
-module_name
+module
 '
 '
 .
@@ -7336,7 +7338,7 @@ s
 xpt
 '
 %
-module_name
+module
 )
         
 mk
@@ -7345,7 +7347,6 @@ add_statement
 (
 '
 all_idl_dirs
-:
 =
 %
 s

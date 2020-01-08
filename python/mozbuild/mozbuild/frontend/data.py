@@ -96,12 +96,7 @@ frontend
 .
 context
 import
-(
-    
 ObjDirPath
-    
-SourcePath
-)
 from
 mozbuild
 .
@@ -1036,7 +1031,7 @@ items
 (
 )
 class
-XPIDLModule
+XPIDLFile
 (
 ContextDerived
 )
@@ -1048,7 +1043,7 @@ ContextDerived
 Describes
 an
 XPIDL
-module
+file
 to
 be
 compiled
@@ -1062,11 +1057,15 @@ __slots__
 (
         
 '
-name
+source_path
 '
         
 '
-idl_files
+basename
+'
+        
+'
+module
 '
     
 )
@@ -1076,8 +1075,8 @@ __init__
 (
 self
 context
-name
-idl_files
+source
+module
 )
 :
         
@@ -1089,31 +1088,28 @@ self
 context
 )
         
-assert
-all
+self
+.
+source_path
+=
+source
+        
+self
+.
+basename
+=
+mozpath
+.
+basename
 (
-isinstance
-(
-idl
-SourcePath
-)
-for
-idl
-in
-idl_files
+source
 )
         
 self
 .
-name
+module
 =
-name
-        
-self
-.
-idl_files
-=
-idl_files
+module
 class
 BaseDefines
 (

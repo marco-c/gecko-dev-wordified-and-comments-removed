@@ -7460,8 +7460,11 @@ all_xpts
 ]
         
 for
-module_name
 module
+(
+idls
+_
+)
 in
 sorted
 (
@@ -7608,7 +7611,7 @@ xpcrs
 .
 '
                 
-module_name
+module
             
 ]
 )
@@ -7619,9 +7622,7 @@ extend
 (
 sorted
 (
-module
-.
-idl_files
+idls
 )
 )
             
@@ -7668,11 +7669,24 @@ stems
 =
 sorted
 (
-module
+mozpath
 .
-stems
+splitext
 (
+mozpath
+.
+basename
+(
+idl
 )
+)
+[
+0
+]
+for
+idl
+in
+idls
 )
             
 outputs
