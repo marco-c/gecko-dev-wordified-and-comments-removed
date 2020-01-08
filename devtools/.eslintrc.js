@@ -1340,6 +1340,11 @@ order
 :
 [
 "
+static
+-
+methods
+"
+"
 lifecycle
 "
 "
