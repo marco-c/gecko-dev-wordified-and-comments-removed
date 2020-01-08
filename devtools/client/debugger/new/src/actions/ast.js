@@ -681,8 +681,13 @@ source
 source
 .
 text
-|
-|
+)
+{
+return
+;
+}
+if
+(
 source
 .
 isWasm

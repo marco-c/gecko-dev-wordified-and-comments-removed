@@ -192,6 +192,11 @@ location
 breakpoint
 .
 location
+sourceId
+:
+source
+.
+id
 sourceUrl
 :
 source
