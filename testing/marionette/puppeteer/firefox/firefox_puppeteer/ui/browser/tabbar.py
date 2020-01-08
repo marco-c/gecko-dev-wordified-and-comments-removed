@@ -467,6 +467,17 @@ close
 "
 "
         
+if
+exceptions
+is
+None
+:
+            
+exceptions
+=
+[
+]
+        
 for
 tab
 in
