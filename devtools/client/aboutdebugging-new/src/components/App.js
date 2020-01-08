@@ -234,6 +234,13 @@ object
 )
 .
 isRequired
+networkEnabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 networkLocations
 :
 PropTypes
@@ -286,6 +293,7 @@ const
 {
 adbAddonStatus
 dispatch
+networkEnabled
 networkLocations
 selectedPage
 }
@@ -320,6 +328,7 @@ ConnectPage
 {
 adbAddonStatus
 dispatch
+networkEnabled
 networkLocations
 }
 )
@@ -426,6 +435,13 @@ state
 ui
 .
 adbAddonStatus
+networkEnabled
+:
+state
+.
+ui
+.
+networkEnabled
 networkLocations
 :
 state

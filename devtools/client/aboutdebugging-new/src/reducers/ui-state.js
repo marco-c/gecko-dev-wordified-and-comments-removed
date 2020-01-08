@@ -32,6 +32,9 @@ debugTargetCollapsibilities
 =
 {
 }
+networkEnabled
+=
+false
 )
 {
 return
@@ -40,6 +43,7 @@ adbAddonStatus
 :
 null
 debugTargetCollapsibilities
+networkEnabled
 networkLocations
 :
 locations
