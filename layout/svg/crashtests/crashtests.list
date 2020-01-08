@@ -1221,17 +1221,6 @@ load
 1
 .
 html
-pref
-(
-dom
-.
-webcomponents
-.
-shadowdom
-.
-enabled
-true
-)
 load
 1421807
 -

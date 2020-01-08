@@ -3711,17 +3711,6 @@ dom
 .
 webcomponents
 .
-shadowdom
-.
-enabled
-true
-)
-pref
-(
-dom
-.
-webcomponents
-.
 customelements
 .
 enabled

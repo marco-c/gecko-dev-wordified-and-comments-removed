@@ -2062,13 +2062,7 @@ self
 >
 bool
 {
-unsafe
-{
-structs
-:
-:
-nsContentUtils_sIsShadowDOMEnabled
-}
+true
 }
 #
 [
