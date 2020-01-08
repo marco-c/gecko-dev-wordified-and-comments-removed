@@ -765,6 +765,13 @@ InitializeMiddlemanCalls
 (
 )
 ;
+Lock
+:
+:
+InitializeLocks
+(
+)
+;
 putenv
 (
 (
@@ -784,13 +791,6 @@ thread
 SetPassThrough
 (
 false
-)
-;
-Lock
-:
-:
-InitializeLocks
-(
 )
 ;
 InitializeRewindState
