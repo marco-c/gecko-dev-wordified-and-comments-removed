@@ -2537,7 +2537,11 @@ pref
 <
 xul
 :
-hbox
+moz
+-
+input
+-
+box
 class
 =
 "
@@ -2546,7 +2550,7 @@ menulist
 editable
 -
 box
-textbox
+moz
 -
 input
 -
@@ -2611,7 +2615,11 @@ placeholder
 /
 xul
 :
-hbox
+moz
+-
+input
+-
+box
 >
 <
 xul
