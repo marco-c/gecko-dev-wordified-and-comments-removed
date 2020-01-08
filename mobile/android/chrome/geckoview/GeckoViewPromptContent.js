@@ -29,6 +29,9 @@ click
 "
 contextmenu
 "
+"
+DOMPopupBlocked
+"
 ]
 {
 handler
