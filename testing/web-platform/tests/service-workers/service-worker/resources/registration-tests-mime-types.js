@@ -226,9 +226,10 @@ promise_rejects
 t
 check_error_types
 ?
-'
-SecurityError
-'
+new
+TypeError
+(
+)
 :
 null
 register_method
@@ -322,9 +323,10 @@ promise_rejects
 t
 check_error_types
 ?
-'
-SecurityError
-'
+new
+TypeError
+(
+)
 :
 null
 register_method
