@@ -79,7 +79,7 @@ self
 )
 :
         
-new_window
+win
 =
 self
 .
@@ -93,14 +93,14 @@ marionette
 .
 switch_to_window
 (
-new_window
+win
 )
         
 self
 .
 assertNotIn
 (
-new_window
+win
 self
 .
 marionette
@@ -122,7 +122,7 @@ self
 .
 assertNotIn
 (
-new_window
+win
 chrome_window_handles
 )
         
@@ -140,7 +140,7 @@ self
 .
 assertNotIn
 (
-new_window
+win
 self
 .
 marionette
@@ -327,7 +327,7 @@ self
 )
 :
         
-new_tab
+tab
 =
 self
 .
@@ -341,7 +341,7 @@ marionette
 .
 switch_to_window
 (
-new_tab
+tab
 )
         
 window_handles
@@ -358,7 +358,7 @@ self
 .
 assertNotIn
 (
-new_tab
+tab
 window_handles
 )
         
@@ -379,7 +379,7 @@ self
 )
 :
         
-new_window
+win
 =
 self
 .
@@ -393,7 +393,7 @@ marionette
 .
 switch_to_window
 (
-new_window
+win
 )
         
 self
@@ -432,7 +432,7 @@ self
 .
 assertNotIn
 (
-new_window
+win
 window_handles
 )
         

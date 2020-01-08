@@ -1934,7 +1934,6 @@ self
 assertRaisesRegexp
 (
 NoSuchElementException
-                                    
 "
 Web
 element
@@ -2057,6 +2056,21 @@ scrollHeight
 )
 )
     
+skip_if_mobile
+(
+"
+Needs
+application
+independent
+method
+to
+open
+a
+new
+tab
+"
+)
+    
 def
 test_capture_tab_already_closed
 (
@@ -2064,7 +2078,7 @@ self
 )
 :
         
-new_tab
+tab
 =
 self
 .
@@ -2078,7 +2092,7 @@ marionette
 .
 switch_to_window
 (
-new_tab
+tab
 )
         
 self
