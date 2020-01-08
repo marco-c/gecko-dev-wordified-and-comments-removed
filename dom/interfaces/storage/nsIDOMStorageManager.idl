@@ -99,13 +99,13 @@ nsISupports
 idl
 "
 interface
-nsIDOMStorage
-;
-interface
 nsIPrincipal
 ;
 interface
 mozIDOMWindow
+;
+webidl
+Storage
 ;
 /
 *
@@ -287,7 +287,7 @@ page
 )
 *
 /
-nsIDOMStorage
+Storage
 precacheStorage
 (
 in
@@ -384,7 +384,7 @@ not
 .
 *
 /
-nsIDOMStorage
+Storage
 createStorage
 (
 in
@@ -492,7 +492,7 @@ not
 .
 *
 /
-nsIDOMStorage
+Storage
 getStorage
 (
 in
@@ -587,7 +587,7 @@ void
 cloneStorage
 (
 in
-nsIDOMStorage
+Storage
 aStorageToCloneFrom
 )
 ;
@@ -683,7 +683,7 @@ in
 nsIPrincipal
 aPrincipal
 in
-nsIDOMStorage
+Storage
 aStorage
 )
 ;

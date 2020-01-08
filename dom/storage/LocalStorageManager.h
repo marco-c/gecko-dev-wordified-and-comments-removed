@@ -303,7 +303,7 @@ nsAString
 aDocumentURI
 bool
 aPrivate
-nsIDOMStorage
+Storage
 *
 *
 aRetval

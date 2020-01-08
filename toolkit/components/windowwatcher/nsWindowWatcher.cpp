@@ -4583,9 +4583,9 @@ parentStorageManager
 newStorageManager
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIDOMStorage
+Storage
 >
 storage
 ;

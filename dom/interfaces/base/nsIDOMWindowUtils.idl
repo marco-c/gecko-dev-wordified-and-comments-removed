@@ -289,9 +289,6 @@ nsIContentPermissionRequest
 interface
 nsIObserver
 ;
-interface
-nsIDOMStorage
-;
 webidl
 Animation
 ;
@@ -312,6 +309,9 @@ Node
 ;
 webidl
 NodeList
+;
+webidl
+Storage
 ;
 [
 scriptable
@@ -12567,7 +12567,7 @@ int64_t
 getStorageUsage
 (
 in
-nsIDOMStorage
+Storage
 aStorage
 )
 ;
