@@ -1398,6 +1398,10 @@ vcs
 -
 setup
 '
+                            
+'
+environment
+'
 )
 :
             
@@ -1490,20 +1494,6 @@ should_skip_dispatch
 (
 context
 handler
-)
-:
-            
-return
-        
-if
-handler
-.
-name
-in
-(
-'
-environment
-'
 )
 :
             
