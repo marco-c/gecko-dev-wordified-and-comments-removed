@@ -32,7 +32,7 @@ cssparser
 ;
 extern
 crate
-fnv
+fxhash
 ;
 #
 [

@@ -454,7 +454,7 @@ use
 hash
 :
 :
-FnvHashMap
+FxHashMap
 ;
 use
 logical_geometry
@@ -4977,7 +4977,7 @@ self
 )
 -
 >
-FnvHashMap
+FxHashMap
 <
 LonghandId
 Arc
@@ -5023,7 +5023,7 @@ let
 mut
 map
 =
-FnvHashMap
+FxHashMap
 :
 :
 with_capacity_and_hasher
@@ -5139,7 +5139,7 @@ ComputedValues
 existing_transitions
 :
 &
-FnvHashMap
+FxHashMap
 <
 LonghandId
 Arc
