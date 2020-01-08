@@ -190,7 +190,7 @@ true
 and
 a
 *
-DOMLocalMediaStream
+DOMMediaStream
 if
 either
 audio
