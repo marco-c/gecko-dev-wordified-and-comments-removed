@@ -4430,6 +4430,11 @@ has_built_scene
 bool
 )
 {
+let
+requested_frame
+=
+render_frame
+;
 self
 .
 resource_cache
@@ -4882,7 +4887,7 @@ unwrap
 ;
 }
 if
-render_frame
+requested_frame
 {
 self
 .
