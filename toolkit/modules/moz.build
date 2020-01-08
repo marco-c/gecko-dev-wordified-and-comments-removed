@@ -1561,6 +1561,11 @@ PermissionsUtils
 jsm
 '
 '
+PopupBlocking
+.
+jsm
+'
+'
 PopupNotifications
 .
 jsm
