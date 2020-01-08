@@ -217,6 +217,10 @@ protocol
 PTrackingDummyChannel
 ;
 include
+protocol
+PWebrtcProxyChannel
+;
+include
 IPCStream
 ;
 include
@@ -453,6 +457,9 @@ PStunAddrsRequest
 ;
 manages
 PTrackingDummyChannel
+;
+manages
+PWebrtcProxyChannel
 ;
 parent
 :
@@ -794,6 +801,13 @@ channel
 async
 PStunAddrsRequest
 (
+)
+;
+async
+PWebrtcProxyChannel
+(
+PBrowserOrId
+browser
 )
 ;
 /
