@@ -149,7 +149,7 @@ nsTArray
 <
 RefPtr
 <
-MediaEngineSource
+MediaDevice
 >
 >
 *
