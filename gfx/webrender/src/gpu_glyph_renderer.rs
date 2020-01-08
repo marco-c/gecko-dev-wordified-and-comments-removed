@@ -26,9 +26,9 @@ device
 :
 :
 {
+DrawTarget
 Device
 Texture
-TextureDrawTarget
 TextureFilter
 VAO
 }
@@ -1075,9 +1075,10 @@ device
 .
 bind_draw_target
 (
-Some
-(
-TextureDrawTarget
+DrawTarget
+:
+:
+Texture
 {
 texture
 :
@@ -1092,12 +1093,6 @@ with_depth
 :
 false
 }
-)
-Some
-(
-*
-target_size
-)
 )
 ;
 self
