@@ -380,6 +380,11 @@ nsINetUtil
 idl
 '
 '
+nsINetworkConnectivityService
+.
+idl
+'
+'
 nsINetworkInfoService
 .
 idl
@@ -894,6 +899,11 @@ MemoryDownloader
 h
 '
 '
+NetworkConnectivityService
+.
+h
+'
+'
 PartiallySeekableInputStream
 .
 h
@@ -985,6 +995,11 @@ cpp
 '
 '
 MemoryDownloader
+.
+cpp
+'
+'
+NetworkConnectivityService
 .
 cpp
 '
