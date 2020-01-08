@@ -1999,11 +1999,15 @@ nullptr
 ;
 if
 (
-nsContentUtils
+dom
 :
 :
-IsCustomElementsEnabled
+CustomElementRegistry
+:
+:
+IsCustomElementEnabled
 (
+document
 )
 )
 {
