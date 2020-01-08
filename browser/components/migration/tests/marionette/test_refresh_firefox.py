@@ -4752,27 +4752,14 @@ present
         
 self
 .
-assertTrue
+assertIn
 (
 self
 .
 profileNameToRemove
-in
 self
 .
 reset_profile_path
-                        
-"
-Reset
-profile
-path
-should
-contain
-profile
-name
-to
-remove
-"
 )
     
 def
