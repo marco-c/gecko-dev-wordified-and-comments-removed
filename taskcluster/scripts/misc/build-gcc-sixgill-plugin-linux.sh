@@ -135,7 +135,7 @@ binutils_ext
 xz
 sixgill_rev
 =
-ab06fc42cf0f
+630e2025191d
 sixgill_repo
 =
 https

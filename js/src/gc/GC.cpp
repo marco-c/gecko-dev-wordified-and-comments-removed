@@ -8638,6 +8638,12 @@ callObjectsTenuredCallback
 (
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 if
 (
 tenuredCallback

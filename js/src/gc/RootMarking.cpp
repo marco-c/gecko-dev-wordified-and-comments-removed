@@ -468,6 +468,12 @@ value
 "
 )
 ;
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 TraceExactStackRootList
 <
 ConcreteTraceable
