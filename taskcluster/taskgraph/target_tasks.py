@@ -1257,11 +1257,6 @@ toolchain
 '
 l10n
 '
-'
-static
--
-analysis
-'
 )
 :
             

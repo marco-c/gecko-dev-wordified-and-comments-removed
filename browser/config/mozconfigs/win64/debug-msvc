@@ -36,3 +36,5 @@ link
 .
 exe
 "
+unset
+ENABLE_CLANG_PLUGIN
