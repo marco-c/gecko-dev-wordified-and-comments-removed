@@ -11579,6 +11579,11 @@ Opacity
 :
 impl_simple
 "
+OverflowWrap
+"
+:
+impl_simple
+"
 Perspective
 "
 :

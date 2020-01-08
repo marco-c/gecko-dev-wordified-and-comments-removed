@@ -858,6 +858,7 @@ text
 {
 TextEmphasisPosition
 TextEmphasisStyle
+OverflowWrap
 }
 ;
 pub

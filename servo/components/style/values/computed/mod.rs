@@ -850,6 +850,7 @@ text
 {
 TextOverflow
 WordSpacing
+OverflowWrap
 }
 ;
 pub

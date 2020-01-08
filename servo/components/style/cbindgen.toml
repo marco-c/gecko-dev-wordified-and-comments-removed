@@ -302,6 +302,9 @@ FontFaceSourceListComponent
 FontLanguageOverride
 "
 "
+OverflowWrap
+"
+"
 TimingFunction
 "
 "

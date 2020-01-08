@@ -18897,7 +18897,10 @@ NS_STYLE_WORDBREAK_NORMAL
 )
 mOverflowWrap
 (
-NS_STYLE_OVERFLOWWRAP_NORMAL
+StyleOverflowWrap
+:
+:
+Normal
 )
 mHyphens
 (
