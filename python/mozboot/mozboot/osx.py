@@ -1914,9 +1914,9 @@ xcodebuild
 try
 :
                     
-subprocess
+self
 .
-check_call
+check_output
 (
 [
 xcodebuild
@@ -1925,7 +1925,7 @@ xcodebuild
 license
 '
 ]
-                                          
+                                      
 stderr
 =
 subprocess
