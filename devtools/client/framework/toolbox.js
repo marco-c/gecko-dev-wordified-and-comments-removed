@@ -10603,7 +10603,7 @@ hover
 {
 this
 .
-onHightlightFrame
+onHighlightFrame
 (
 frame
 .
@@ -10816,7 +10816,7 @@ frameId
 )
 ;
 }
-onHightlightFrame
+onHighlightFrame
 :
 async
 function
