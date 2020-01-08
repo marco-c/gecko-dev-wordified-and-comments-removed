@@ -200,6 +200,16 @@ AndroidUiThread
 .
 h
 '
+'
+EventDispatcher
+.
+h
+'
+'
+nsWindow
+.
+h
+'
 ]
 SOURCES
 +
