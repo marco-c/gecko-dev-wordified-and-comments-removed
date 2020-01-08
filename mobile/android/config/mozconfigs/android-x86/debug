@@ -113,7 +113,7 @@ ac_add_options
 -
 target
 =
-i386
+i686
 -
 linux
 -
