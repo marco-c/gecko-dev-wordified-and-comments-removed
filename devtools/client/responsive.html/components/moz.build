@@ -133,6 +133,11 @@ Toolbar
 js
 '
 '
+UserAgentInput
+.
+js
+'
+'
 ViewportDimension
 .
 js
