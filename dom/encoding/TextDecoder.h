@@ -115,8 +115,6 @@ Init
 (
 aEncoding
 aOptions
-.
-mFatal
 aRv
 )
 ;
@@ -214,8 +212,9 @@ nsAString
 &
 aLabel
 const
-bool
-aFatal
+TextDecoderOptions
+&
+aOptions
 ErrorResult
 &
 aRv
@@ -232,8 +231,9 @@ Encoding
 >
 aEncoding
 const
-bool
-aFatal
+TextDecoderOptions
+&
+aOptions
 )
 ;
 void
