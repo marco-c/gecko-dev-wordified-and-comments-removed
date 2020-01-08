@@ -245,14 +245,8 @@ listAddons
 )
 =
 >
-(
-{
-addons
-:
 [
 ]
-}
-)
 listTabs
 :
 (
