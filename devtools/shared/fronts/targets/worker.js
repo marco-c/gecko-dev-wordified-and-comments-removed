@@ -112,6 +112,12 @@ traits
 ;
 this
 .
+targetForm
+=
+form
+;
+this
+.
 client
 =
 client
@@ -263,6 +269,8 @@ connect
 )
 ;
 this
+.
+targetForm
 .
 consoleActor
 =
@@ -421,6 +429,8 @@ _actor
 consoleActor
 :
 this
+.
+targetForm
 .
 consoleActor
 }
