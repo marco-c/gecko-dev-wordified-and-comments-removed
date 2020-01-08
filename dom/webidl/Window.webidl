@@ -645,6 +645,17 @@ blur
 ;
 [
 Replaceable
+Pref
+=
+"
+dom
+.
+window
+.
+event
+.
+enabled
+"
 ]
 readonly
 attribute
