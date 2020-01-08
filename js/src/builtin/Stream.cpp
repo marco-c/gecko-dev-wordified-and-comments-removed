@@ -1617,7 +1617,7 @@ Slot_Flags
 0
 Slot_Reason1
 Slot_Reason2
-Slot_Promise
+Slot_CancelPromise
 Slot_Stream
 Slot_Branch1
 Slot_Branch2
@@ -1891,7 +1891,7 @@ Slot_Reason2
 }
 PromiseObject
 *
-promise
+cancelPromise
 (
 )
 {
@@ -1899,7 +1899,7 @@ return
 &
 getFixedSlot
 (
-Slot_Promise
+Slot_CancelPromise
 )
 .
 toObject
@@ -2162,7 +2162,7 @@ Rooted
 PromiseObject
 *
 >
-promise
+cancelPromise
 (
 cx
 PromiseObject
@@ -2177,7 +2177,7 @@ cx
 if
 (
 !
-promise
+cancelPromise
 )
 {
 return
@@ -2201,11 +2201,11 @@ state
 >
 setFixedSlot
 (
-Slot_Promise
+Slot_CancelPromise
 ObjectValue
 (
 *
-promise
+cancelPromise
 )
 )
 ;
@@ -4762,13 +4762,13 @@ Rooted
 PromiseObject
 *
 >
-promise
+cancelPromise
 (
 cx
 unwrappedTeeState
 -
 >
-promise
+cancelPromise
 (
 )
 )
@@ -4777,7 +4777,7 @@ AutoRealm
 ar
 (
 cx
-promise
+cancelPromise
 )
 ;
 if
@@ -4792,7 +4792,7 @@ if
 RejectPromiseWithPendingError
 (
 cx
-promise
+cancelPromise
 )
 )
 {
@@ -4846,7 +4846,7 @@ PromiseObject
 resolve
 (
 cx
-promise
+cancelPromise
 resultVal
 )
 )
@@ -4859,13 +4859,13 @@ nullptr
 }
 }
 RootedObject
-promise
+cancelPromise
 (
 cx
 unwrappedTeeState
 -
 >
-promise
+cancelPromise
 (
 )
 )
@@ -4885,7 +4885,7 @@ wrap
 (
 cx
 &
-promise
+cancelPromise
 )
 )
 {
@@ -4894,7 +4894,7 @@ nullptr
 ;
 }
 return
-promise
+cancelPromise
 ;
 }
 static
