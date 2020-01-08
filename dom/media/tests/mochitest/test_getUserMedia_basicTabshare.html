@@ -98,7 +98,7 @@ cycle
 for
 a
 tabshare
-MediaStream
+LocalMediaStream
 on
 a
 video
@@ -204,7 +204,7 @@ var
 playback
 =
 new
-MediaStreamPlayback
+LocalMediaStreamPlayback
 (
 testVideo
 stream
@@ -213,7 +213,7 @@ stream
 return
 playback
 .
-playMedia
+playMediaWithDeprecatedStreamStop
 (
 false
 )
@@ -268,7 +268,7 @@ var
 playback
 =
 new
-MediaStreamPlayback
+LocalMediaStreamPlayback
 (
 testVideo
 stream
@@ -381,7 +381,7 @@ then
 >
 playback
 .
-stopTracksForStreamInMediaPlayback
+deprecatedStopStreamInMediaPlayback
 (
 )
 )

@@ -98,7 +98,7 @@ cycle
 for
 an
 screenshare
-MediaStream
+LocalMediaStream
 on
 a
 video
@@ -164,7 +164,7 @@ var
 playback
 =
 new
-MediaStreamPlayback
+LocalMediaStreamPlayback
 (
 testVideo
 stream
@@ -173,7 +173,7 @@ stream
 return
 playback
 .
-playMedia
+playMediaWithDeprecatedStreamStop
 (
 false
 )

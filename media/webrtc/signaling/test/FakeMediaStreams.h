@@ -2212,6 +2212,13 @@ forget
 ;
 }
 virtual
+void
+Stop
+(
+)
+{
+}
+virtual
 bool
 AddDirectListener
 (
@@ -2868,6 +2875,10 @@ DirectMediaStreamTrackListener
 typedef
 Fake_DOMMediaStream
 DOMMediaStream
+;
+typedef
+Fake_DOMMediaStream
+DOMLocalMediaStream
 ;
 typedef
 Fake_MediaStreamVideoSink

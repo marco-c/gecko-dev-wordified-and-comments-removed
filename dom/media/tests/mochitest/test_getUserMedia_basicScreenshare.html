@@ -1076,7 +1076,7 @@ let
 playback
 =
 new
-MediaStreamPlayback
+LocalMediaStreamPlayback
 (
 testVideo
 stream
@@ -1405,7 +1405,7 @@ blue
 playback
 =
 new
-MediaStreamPlayback
+LocalMediaStreamPlayback
 (
 testVideo
 stream
@@ -1985,7 +1985,7 @@ red
 await
 playback
 .
-stopTracksForStreamInMediaPlayback
+deprecatedStopStreamInMediaPlayback
 (
 )
 ;
