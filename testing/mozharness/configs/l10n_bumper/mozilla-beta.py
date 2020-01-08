@@ -227,6 +227,15 @@ txt
 "
     
 "
+status_path
+"
+:
+"
+.
+l10n_bumper_status
+"
+    
+"
 bump_configs
 "
 :
