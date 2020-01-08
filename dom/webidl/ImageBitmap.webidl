@@ -4132,7 +4132,7 @@ dom
 DOMPrefs
 :
 :
-ImageBitmapExtensionsEnabled
+canvas_imagebitmap_extensions_enabled
 "
 ]
 ImageBitmapFormat
@@ -4160,7 +4160,7 @@ dom
 DOMPrefs
 :
 :
-ImageBitmapExtensionsEnabled
+canvas_imagebitmap_extensions_enabled
 "
 ]
 long
@@ -4184,7 +4184,7 @@ dom
 DOMPrefs
 :
 :
-ImageBitmapExtensionsEnabled
+canvas_imagebitmap_extensions_enabled
 "
 ]
 Promise
