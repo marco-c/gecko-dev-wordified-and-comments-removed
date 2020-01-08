@@ -5,7 +5,8 @@ GRAMMAR
 identity
 ;
 D
-Script2AssertedScriptGlobalScope
+2AssertedScriptGlobalScope
+Script
 [
 STRINGS
 ]

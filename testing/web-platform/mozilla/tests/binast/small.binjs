@@ -5,13 +5,13 @@ GRAMMAR
 identity
 ;
 (
-AssertedDeclaredName
+AssertedDeclaredName2AssertedScriptGlobalScope
+"
+BindingIdentifier0LiteralBooleanExpression
 Script
 &
 VariableDeclaration
-"
-BindingIdentifier
-VariableDeclarator0LiteralBooleanExpression2AssertedScriptGlobalScope
+VariableDeclarator
 [
 STRINGS
 ]
