@@ -506,6 +506,13 @@ aController
 return
 ;
 }
+workerActor
+-
+>
+Initialize
+(
+)
+;
 aController
 -
 >
