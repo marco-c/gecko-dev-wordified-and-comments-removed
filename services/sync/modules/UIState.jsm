@@ -141,6 +141,11 @@ fxaccounts
 :
 profilechange
 "
+"
+fxaccounts
+:
+statechange
+"
 ]
 ;
 const
