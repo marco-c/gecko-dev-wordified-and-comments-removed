@@ -2851,6 +2851,12 @@ layer
 mOldPermitSubpixelAA
 )
 ;
+mPushedLayers
+.
+pop_back
+(
+)
+;
 }
 }
 }
