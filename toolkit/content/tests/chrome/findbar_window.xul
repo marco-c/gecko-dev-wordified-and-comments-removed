@@ -834,6 +834,15 @@ height
 /
 >
 "
+{
+triggeringPrincipal
+:
+window
+.
+document
+.
+nodePrincipal
+}
 )
 ;
 await
