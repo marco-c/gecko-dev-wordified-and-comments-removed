@@ -4041,7 +4041,7 @@ new
 ErrorStatus
 :
 :
-SessionNotCreated
+InvalidSessionId
 "
 Tried
 to
