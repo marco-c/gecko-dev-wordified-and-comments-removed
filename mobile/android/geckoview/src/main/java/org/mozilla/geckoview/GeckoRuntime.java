@@ -861,6 +861,7 @@ return
 mTelemetry
 ;
 }
+NonNull
 public
 File
 getProfileDir

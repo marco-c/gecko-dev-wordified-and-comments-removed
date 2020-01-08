@@ -4426,7 +4426,6 @@ LOAD_FLAGS_EXTERNAL
 LOAD_FLAGS_ALLOW_POPUPS
 }
 )
-public
 interface
 LoadFlags
 {
@@ -8256,7 +8255,6 @@ SECURITY_MODE_IDENTIFIED
 SECURITY_MODE_VERIFIED
 }
 )
-public
 interface
 SecurityMode
 {
@@ -8293,7 +8291,6 @@ CONTENT_BLOCKED
 CONTENT_LOADED
 }
 )
-public
 interface
 ContentType
 {
@@ -8749,7 +8746,6 @@ ELEMENT_TYPE_VIDEO
 ELEMENT_TYPE_AUDIO
 }
 )
-public
 interface
 ElementType
 {
@@ -9294,7 +9290,6 @@ TARGET_WINDOW_CURRENT
 TARGET_WINDOW_NEW
 }
 )
-public
 interface
 TargetWindow
 {
@@ -9334,7 +9329,6 @@ value
 LOAD_REQUEST_IS_USER_TRIGGERED
 }
 )
-public
 interface
 LoadRequestFlags
 {
@@ -9549,7 +9543,6 @@ AUTH_FLAG_PREVIOUS_FAILED
 AUTH_FLAG_CROSS_ORIGIN_SUB_RESOURCE
 }
 )
-public
 interface
 AuthFlag
 {
@@ -9602,7 +9595,6 @@ AUTH_LEVEL_PW_ENCRYPTED
 AUTH_LEVEL_SECURE
 }
 )
-public
 interface
 AuthLevel
 {
@@ -9742,7 +9734,6 @@ CHOICE_TYPE_SINGLE
 CHOICE_TYPE_MULTIPLE
 }
 )
-public
 interface
 ChoiceType
 {
@@ -10038,7 +10029,6 @@ DATETIME_TYPE_TIME
 DATETIME_TYPE_DATETIME_LOCAL
 }
 )
-public
 interface
 DatetimeType
 {
@@ -10131,7 +10121,6 @@ FILE_TYPE_SINGLE
 FILE_TYPE_MULTIPLE
 }
 )
-public
 interface
 FileType
 {
@@ -10213,7 +10202,6 @@ CATEGORY_ALL
 CATEGORY_TEST
 }
 )
-public
 interface
 Category
 {
@@ -10313,7 +10301,6 @@ PERMISSION_GEOLOCATION
 PERMISSION_DESKTOP_NOTIFICATION
 }
 )
-public
 interface
 Permission
 {
@@ -10393,7 +10380,6 @@ SOURCE_AUDIOCAPTURE
 SOURCE_OTHER
 }
 )
-public
 interface
 Source
 {
@@ -10469,7 +10455,6 @@ TYPE_VIDEO
 TYPE_AUDIO
 }
 )
-public
 interface
 Type
 {
