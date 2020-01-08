@@ -90,14 +90,11 @@ DEVTOOLS_WEBCONSOLE_OPENED_COUNT
 "
 "
 "
-{
-0
-:
+[
 2
-1
-:
 0
-}
+0
+]
 "
 array
 "

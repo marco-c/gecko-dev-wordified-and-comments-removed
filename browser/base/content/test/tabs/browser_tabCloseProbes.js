@@ -38,14 +38,9 @@ snapshot
 )
 {
 return
-Object
-.
-values
-(
 snapshot
 .
-values
-)
+counts
 .
 reduce
 (
@@ -58,7 +53,6 @@ b
 a
 +
 b
-0
 )
 ;
 }

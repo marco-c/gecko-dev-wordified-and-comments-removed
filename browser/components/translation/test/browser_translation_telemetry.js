@@ -352,7 +352,7 @@ snapshot
 (
 )
 .
-values
+counts
 [
 1
 ]
@@ -371,7 +371,7 @@ snapshot
 (
 )
 .
-values
+counts
 [
 0
 ]

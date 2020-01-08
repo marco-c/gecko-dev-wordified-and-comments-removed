@@ -501,14 +501,11 @@ DEVTOOLS_SCRATCHPAD_WINDOW_OPENED_COUNT
 "
 "
 "
-{
-0
-:
+[
 4
-1
-:
 0
-}
+0
+]
 "
 array
 "
