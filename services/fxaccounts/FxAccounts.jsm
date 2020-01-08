@@ -7809,6 +7809,16 @@ _getDeviceType
 deviceOptions
 )
 ;
+Services
+.
+obs
+.
+notifyObservers
+(
+null
+ON_NEW_DEVICE_ID
+)
+;
 }
 let
 {
