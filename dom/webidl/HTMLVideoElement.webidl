@@ -427,7 +427,7 @@ orientation
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 readonly
@@ -464,7 +464,7 @@ orientation
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 attribute

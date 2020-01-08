@@ -9926,6 +9926,10 @@ isContentXBLScope
 (
 false
 )
+isUAWidgetScope
+(
+false
+)
 invisibleToDebugger
 (
 false
@@ -9990,6 +9994,9 @@ freshZone
 ;
 bool
 isContentXBLScope
+;
+bool
+isUAWidgetScope
 ;
 bool
 invisibleToDebugger
@@ -10845,7 +10852,13 @@ bool
 isContentXBLCompartment
 ;
 bool
+isUAWidgetCompartment
+;
+bool
 isSandboxCompartment
+;
+bool
+isAddonCompartment
 ;
 bool
 universalXPConnectEnabled

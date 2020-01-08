@@ -6074,6 +6074,15 @@ isContentXBLScope
 priv
 -
 >
+isUAWidgetCompartment
+=
+options
+.
+isUAWidgetScope
+;
+priv
+-
+>
 isSandboxCompartment
 =
 true

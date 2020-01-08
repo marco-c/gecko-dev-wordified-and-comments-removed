@@ -3259,6 +3259,12 @@ DoGetContainingSVGUseShadowHost
 ;
 }
 bool
+IsInUAWidget
+(
+)
+const
+;
+bool
 ChromeOnlyAccess
 (
 )
