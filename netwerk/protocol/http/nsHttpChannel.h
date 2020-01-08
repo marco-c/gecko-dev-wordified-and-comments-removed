@@ -1195,6 +1195,17 @@ ContinueBeginConnect
 ;
 MOZ_MUST_USE
 nsresult
+PrepareToConnect
+(
+)
+;
+void
+HandleOnBeforeConnect
+(
+)
+;
+MOZ_MUST_USE
+nsresult
 OnBeforeConnect
 (
 )
