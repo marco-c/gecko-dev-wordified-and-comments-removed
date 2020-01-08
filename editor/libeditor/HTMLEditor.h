@@ -1023,6 +1023,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 Element
 *
@@ -2319,6 +2320,7 @@ nsAtom
 &
 aTagName
 )
+const
 ;
 Element
 *
@@ -2332,6 +2334,7 @@ nsINode
 &
 aNode
 )
+const
 ;
 already_AddRefed
 <
@@ -2350,6 +2353,19 @@ ErrorResult
 &
 aRv
 )
+;
+Element
+*
+GetFirstTableRowElement
+(
+Element
+&
+aTableOrElementInTable
+ErrorResult
+&
+aRv
+)
+const
 ;
 nsresult
 PasteInternal

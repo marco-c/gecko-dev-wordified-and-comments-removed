@@ -10591,6 +10591,7 @@ nsINode
 *
 aNode
 )
+const
 {
 MOZ_ASSERT
 (
@@ -10665,6 +10666,7 @@ nsAtom
 &
 aTagName
 )
+const
 {
 MOZ_ASSERT
 (
@@ -10794,6 +10796,7 @@ nsINode
 &
 aNode
 )
+const
 {
 MOZ_ASSERT
 (
