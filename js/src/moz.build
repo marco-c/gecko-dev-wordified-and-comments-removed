@@ -2526,13 +2526,6 @@ cpp
 '
 jit
 /
-SharedIC
-.
-cpp
-'
-'
-jit
-/
 Sink
 .
 cpp
