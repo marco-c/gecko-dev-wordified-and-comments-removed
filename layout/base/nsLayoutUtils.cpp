@@ -39136,6 +39136,12 @@ aFrame
 nsLayoutUtils
 :
 :
+UsedFontFaceList
+&
+aResult
+nsLayoutUtils
+:
+:
 UsedFontFaceTable
 &
 aFontFaces
@@ -39185,6 +39191,7 @@ aFrame
 0
 INT32_MAX
 true
+aResult
 aFontFaces
 aMaxRanges
 aSkipCollapsedWhitespace
@@ -39295,6 +39302,7 @@ child
 GetFontFacesForFramesInner
 (
 child
+aResult
 aFontFaces
 aMaxRanges
 aSkipCollapsedWhitespace
@@ -39312,6 +39320,9 @@ GetFontFacesForFrames
 nsIFrame
 *
 aFrame
+UsedFontFaceList
+&
+aResult
 UsedFontFaceTable
 &
 aFontFaces
@@ -39339,6 +39350,7 @@ aFrame
 GetFontFacesForFramesInner
 (
 aFrame
+aResult
 aFontFaces
 aMaxRanges
 aSkipCollapsedWhitespace
@@ -39376,6 +39388,12 @@ gfxTextRun
 Range
 &
 aRange
+nsLayoutUtils
+:
+:
+UsedFontFaceList
+&
+aResult
 nsLayoutUtils
 :
 :
@@ -39515,6 +39533,13 @@ fe
 fontFace
 )
 ;
+aResult
+.
+AppendElement
+(
+fontFace
+)
+;
 }
 if
 (
@@ -39642,6 +39667,9 @@ int32_t
 aEndOffset
 bool
 aFollowContinuations
+UsedFontFaceList
+&
+aResult
 UsedFontFaceTable
 &
 aFontFaces
@@ -39963,6 +39991,7 @@ textRun
 curr
 iter
 range
+aResult
 aFontFaces
 aMaxRanges
 )
