@@ -93,6 +93,9 @@ DIRS
 aushelper
 '
 '
+followonsearch
+'
+'
 formautofill
 '
 '
