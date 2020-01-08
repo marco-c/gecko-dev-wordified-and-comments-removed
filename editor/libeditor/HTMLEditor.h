@@ -2143,8 +2143,8 @@ Selection
 &
 aSelection
 const
-nsAString
-&
+nsAtom
+*
 aTagName
 ErrorResult
 &
