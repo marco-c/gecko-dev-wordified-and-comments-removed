@@ -60,15 +60,6 @@ moz
 configure
 build
 /
-moz
-.
-configure
-/
-*
-.
-configure
-build
-/
 pymake
 /
 dom
