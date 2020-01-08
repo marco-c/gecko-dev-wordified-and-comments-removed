@@ -290,27 +290,6 @@ product
 '
 ]
     
-release_type
-=
-config
-.
-params
-[
-'
-release_type
-'
-]
-    
-if
-not
-release_type
-:
-        
-release_type
-=
-'
-'
-    
 current_version
 =
 release_config
