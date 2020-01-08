@@ -304,6 +304,9 @@ uint32_t
 >
 maxMemoryLength
 ;
+uint32_t
+numStructTypes
+;
 TypeDefVector
 types
 ;
@@ -416,6 +419,10 @@ MemoryUsage
 None
 )
 minMemoryLength
+(
+0
+)
+numStructTypes
 (
 0
 )

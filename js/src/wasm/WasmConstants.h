@@ -854,6 +854,9 @@ TableDrop
 TableCopy
 =
 0x0e
+StructNew
+=
+0x50
 Limit
 }
 ;
