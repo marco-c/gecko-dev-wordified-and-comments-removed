@@ -6679,6 +6679,16 @@ supports_extension
 GL_ARB_blend_func_extended
 "
 )
+&
+&
+device
+.
+supports_extension
+(
+"
+GL_ARB_explicit_attrib_location
+"
+)
 ;
 let
 device_max_size
