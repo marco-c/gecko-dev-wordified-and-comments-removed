@@ -13,7 +13,6 @@ Autofill
 =
 =
 =
-[
 Wiki
 <
 https
@@ -33,10 +32,9 @@ Features
 Form_Autofill
 >
 _
-]
 |
-[
 IRC
+:
 #
 formfill
 <
@@ -55,11 +53,10 @@ org
 formfill
 >
 _
-]
 |
-[
 Mailing
-list
+List
+:
 autofill
 lists
 .
@@ -77,7 +74,6 @@ mozilla
 org
 >
 _
-]
 Introduction
 -
 -
