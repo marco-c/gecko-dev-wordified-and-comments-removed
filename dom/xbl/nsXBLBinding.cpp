@@ -4667,10 +4667,10 @@ JSObject
 boundScope
 (
 aCx
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 mBoundElement
 -
