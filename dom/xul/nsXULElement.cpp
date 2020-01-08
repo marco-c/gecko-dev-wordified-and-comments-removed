@@ -10681,15 +10681,6 @@ CompileOffThread
 cx
 options
 aSrcBuf
-.
-get
-(
-)
-aSrcBuf
-.
-length
-(
-)
 OffThreadScriptReceiverCallback
 static_cast
 <
