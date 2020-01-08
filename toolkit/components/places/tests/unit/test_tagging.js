@@ -1122,9 +1122,9 @@ try
 var
 n
 =
-Ci
+PlacesUtils
 .
-nsITaggingService
+bookmarks
 .
 MAX_TAG_LENGTH
 ;

@@ -2007,9 +2007,9 @@ aTag
 length
 <
 =
-Ci
+PlacesUtils
 .
-nsITaggingService
+bookmarks
 .
 MAX_TAG_LENGTH
 )
