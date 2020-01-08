@@ -348,6 +348,11 @@ XULScrollElement
 .
 webidl
 '
+'
+XULTextElement
+.
+webidl
+'
 ]
 if
 CONFIG
