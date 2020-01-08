@@ -933,6 +933,17 @@ Reported
 Recovered
 }
 ;
+const
+char
+*
+OOMStateToString
+(
+const
+OOMState
+aOomState
+)
+const
+;
 void
 SetLargeAllocationFailure
 (

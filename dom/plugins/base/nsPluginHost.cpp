@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsExceptionHandler
-.
-h
-"
-#
-include
-"
 nsNPAPIPlugin
 .
 h
