@@ -265,7 +265,7 @@ initialize
 (
 accessibility
 walker
-supports
+supportsLatestAccessibility
 )
 {
 await
@@ -278,7 +278,6 @@ dispatch
 reset
 (
 accessibility
-supports
 )
 )
 ;
@@ -297,9 +296,7 @@ content
 if
 (
 !
-supports
-.
-enableDisable
+supportsLatestAccessibility
 )
 {
 ReactDOM

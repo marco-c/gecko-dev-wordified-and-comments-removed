@@ -388,9 +388,7 @@ if
 (
 this
 .
-supports
-.
-enableDisable
+supportsLatestAccessibility
 )
 {
 this
@@ -635,7 +633,7 @@ this
 walker
 this
 .
-supports
+supportsLatestAccessibility
 )
 ;
 }
@@ -947,7 +945,7 @@ walker
 ;
 }
 get
-supports
+supportsLatestAccessibility
 (
 )
 {
@@ -956,7 +954,7 @@ this
 .
 startup
 .
-_supports
+_supportsLatestAccessibility
 ;
 }
 get
