@@ -1335,6 +1335,9 @@ bool
 createContextExtensionsEnabled
 ;
 bool
+provokingVertexDontCare
+;
+bool
 presentationTime
 ;
 }

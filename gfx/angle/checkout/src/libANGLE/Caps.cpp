@@ -6685,6 +6685,10 @@ createContextExtensionsEnabled
 (
 false
 )
+provokingVertexDontCare
+(
+false
+)
 presentationTime
 (
 false
@@ -7087,6 +7091,16 @@ InsertExtensionString
 EGL_ANGLE_create_context_extensions_enabled
 "
 createContextExtensionsEnabled
+&
+extensionStrings
+)
+;
+InsertExtensionString
+(
+"
+EGL_MOZ_create_context_provoking_vertex_dont_care
+"
+provokingVertexDontCare
 &
 extensionStrings
 )

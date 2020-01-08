@@ -4865,6 +4865,12 @@ createContextExtensionsEnabled
 =
 true
 ;
+mDisplayExtensions
+.
+provokingVertexDontCare
+=
+true
+;
 mDisplayExtensionString
 =
 GenerateExtensionsString

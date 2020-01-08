@@ -7585,6 +7585,16 @@ message
 )
 override
 ;
+bool
+provokingVertexDontCare
+(
+)
+const
+{
+return
+mProvokingVertexDontCare
+;
+}
 private
 :
 void
@@ -8095,6 +8105,10 @@ mWebGLContext
 const
 bool
 mExtensionsEnabled
+;
+const
+bool
+mProvokingVertexDontCare
 ;
 MemoryProgramCache
 *

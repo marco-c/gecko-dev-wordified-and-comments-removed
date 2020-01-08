@@ -240,10 +240,13 @@ NoError
 ;
 }
 virtual
-gl
+std
 :
 :
-LinkResult
+unique_ptr
+<
+LinkEvent
+>
 load
 (
 const

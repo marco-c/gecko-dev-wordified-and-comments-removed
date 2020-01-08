@@ -735,4 +735,17 @@ EGL_EXTENSIONS_ENABLED_ANGLE
 #
 endif
 #
+ifndef
+EGL_MOZ_create_context_provoking_vertex_dont_care
+#
+define
+EGL_MOZ_create_context_provoking_vertex_dont_care
+1
+#
+define
+EGL_CONTEXT_PROVOKING_VERTEX_DONT_CARE_MOZ
+0x6000
+#
+endif
+#
 endif
