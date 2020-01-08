@@ -1004,6 +1004,7 @@ this
 isAddonSyncable
 (
 existingMeta
+true
 )
 )
 )
