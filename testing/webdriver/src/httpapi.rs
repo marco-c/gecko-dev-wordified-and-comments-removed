@@ -3,8 +3,8 @@ regex
 :
 :
 {
-Regex
 Captures
+Regex
 }
 ;
 use
@@ -27,9 +27,9 @@ Method
 :
 :
 {
+Delete
 Get
 Post
-Delete
 }
 ;
 use
@@ -43,10 +43,10 @@ command
 :
 :
 {
-WebDriverCommand
-WebDriverMessage
-WebDriverExtensionCommand
 VoidWebDriverExtensionCommand
+WebDriverCommand
+WebDriverExtensionCommand
+WebDriverMessage
 }
 ;
 use
@@ -54,9 +54,9 @@ error
 :
 :
 {
-WebDriverResult
-WebDriverError
 ErrorStatus
+WebDriverError
+WebDriverResult
 }
 ;
 fn
@@ -1248,6 +1248,7 @@ Route
 Status
 )
 ]
+;
 }
 #
 [
@@ -1901,7 +1902,6 @@ clone
 )
 ;
 }
-;
 for
 &
 (
@@ -1944,7 +1944,6 @@ clone
 )
 ;
 }
-;
 rv
 }
 fn
@@ -2112,6 +2111,7 @@ method
 =
 Post
 )
+;
 }
 else
 {
