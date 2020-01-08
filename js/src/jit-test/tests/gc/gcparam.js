@@ -75,7 +75,7 @@ key
 const
 value
 =
-1000000
+1024
 ;
 gcparam
 (
