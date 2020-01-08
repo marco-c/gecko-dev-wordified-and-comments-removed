@@ -913,6 +913,9 @@ true
 enableCodeFolding
 :
 false
+autoCloseBrackets
+:
+false
 gutters
 :
 [
