@@ -1208,9 +1208,6 @@ return
 res
 ;
 }
-#
-ifndef
-XP_WIN
 TEST
 (
 MP4Demuxer
@@ -2823,8 +2820,6 @@ DO_FAIL
 )
 ;
 }
-#
-endif
 TEST
 (
 MP4Demuxer
