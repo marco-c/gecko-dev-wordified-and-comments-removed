@@ -124,6 +124,7 @@ loadableState
 LOADED
 )
 ;
+await
 openDeviceModal
 (
 ui
