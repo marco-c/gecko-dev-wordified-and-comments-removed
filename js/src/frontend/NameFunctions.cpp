@@ -327,9 +327,7 @@ nameExpression
 n
 -
 >
-expr
-(
-)
+pn_left
 foundName
 )
 )
@@ -349,6 +347,9 @@ return
 appendPropertyReference
 (
 n
+-
+>
+pn_right
 -
 >
 pn_atom
@@ -4223,7 +4224,7 @@ cur
 >
 isArity
 (
-PN_NAME
+PN_BINARY
 )
 )
 ;
@@ -4253,9 +4254,7 @@ resolve
 cur
 -
 >
-expr
-(
-)
+pn_left
 prefix
 )
 )
@@ -4455,6 +4454,12 @@ ParseNodeKind
 :
 :
 ClassNames
+:
+case
+ParseNodeKind
+:
+:
+PropertyName
 :
 MOZ_CRASH
 (
