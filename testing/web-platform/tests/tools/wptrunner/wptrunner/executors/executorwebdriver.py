@@ -1594,6 +1594,8 @@ result
 False
 (
 "
+INTERNAL
+-
 ERROR
 "
 message
