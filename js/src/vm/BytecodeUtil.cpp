@@ -3339,7 +3339,7 @@ MOZ_ASSERT
 ndefs
 =
 =
-2
+1
 )
 ;
 break

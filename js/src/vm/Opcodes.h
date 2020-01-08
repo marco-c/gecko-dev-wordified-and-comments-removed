@@ -1736,10 +1736,10 @@ JSOP_INITHOMEOBJECT
 inithomeobject
 "
 NULL
+1
 2
-2
-2
-JOF_UINT8
+1
+JOF_BYTE
 )
 \
 \
