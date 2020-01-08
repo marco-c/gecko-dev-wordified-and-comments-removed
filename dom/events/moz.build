@@ -283,6 +283,11 @@ BeforeUnloadEvent
 h
 '
 '
+Clipboard
+.
+h
+'
+'
 ClipboardEvent
 .
 h
@@ -491,6 +496,11 @@ cpp
 '
 '
 BeforeUnloadEvent
+.
+cpp
+'
+'
+Clipboard
 .
 cpp
 '
