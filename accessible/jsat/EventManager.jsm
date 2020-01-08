@@ -908,6 +908,10 @@ break
 if
 (
 !
+position
+|
+|
+!
 Utils
 .
 getState
