@@ -9,6 +9,13 @@ ifdef
 MOZ_X11
 #
 include
+<
+glib
+.
+h
+>
+#
+include
 "
 WindowSurfaceX11
 .
