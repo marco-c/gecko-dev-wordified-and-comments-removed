@@ -2020,12 +2020,7 @@ PR_IntervalNow
 }
 if
 (
-stream
--
->
-StreamID
-(
-)
+aNewID
 &
 1
 )
