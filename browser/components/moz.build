@@ -378,7 +378,7 @@ XPIDL_MODULE
 '
 browsercompsbase
 '
-EXTRA_PP_COMPONENTS
+EXTRA_COMPONENTS
 +
 =
 [
@@ -387,11 +387,6 @@ BrowserComponents
 .
 manifest
 '
-]
-EXTRA_COMPONENTS
-+
-=
-[
 '
 nsBrowserContentHandler
 .
