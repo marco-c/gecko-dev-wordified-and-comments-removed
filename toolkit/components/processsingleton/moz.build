@@ -124,3 +124,13 @@ ProcessSingleton
 manifest
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+CustomElementsListener
+.
+jsm
+'
+]
