@@ -26,6 +26,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+FileDescriptor
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h

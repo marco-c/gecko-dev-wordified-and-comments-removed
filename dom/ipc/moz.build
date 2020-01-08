@@ -138,6 +138,11 @@ IdType
 h
 '
 '
+SharedMap
+.
+h
+'
+'
 SharedStringMap
 .
 h
@@ -380,6 +385,11 @@ cpp
 '
 '
 ProcessPriorityManager
+.
+cpp
+'
+'
+SharedMap
 .
 cpp
 '
