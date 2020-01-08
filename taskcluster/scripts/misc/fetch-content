@@ -1478,6 +1478,9 @@ fetch_and_extract
 (
 url
 dest_dir
+extract
+=
+True
 sha256
 =
 None
@@ -1561,6 +1564,11 @@ size
 =
 size
 )
+if
+not
+extract
+:
+return
 typ
 =
 archive_type
@@ -1908,6 +1916,12 @@ append
 (
 url
 extdir
+fetch
+[
+'
+extract
+'
+]
 )
 )
 fetch_urls
