@@ -3276,6 +3276,13 @@ aRowIndex
 )
 ;
 nsresult
+DeleteTableCellWithTransaction
+(
+int32_t
+aNumberOfCellsToDelete
+)
+;
+nsresult
 DeleteAllChildrenWithTransaction
 (
 Element
