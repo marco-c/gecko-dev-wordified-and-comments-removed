@@ -364,11 +364,7 @@ inspect
 className
 :
 "
-debug
--
-target
--
-item__inspect
+aboutdebugging
 -
 button
 "
