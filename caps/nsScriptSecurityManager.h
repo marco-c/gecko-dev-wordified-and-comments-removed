@@ -277,7 +277,7 @@ nullptr
 ;
 inline
 void
-AddSitesToFileURIWhitelist
+AddSitesToFileURIAllowlist
 (
 const
 nsCString
@@ -329,7 +329,7 @@ nsIURI
 >
 >
 &
-EnsureFileURIWhitelist
+EnsureFileURIAllowlist
 (
 )
 ;
@@ -358,7 +358,7 @@ nsIURI
 >
 >
 >
-mFileURIWhitelist
+mFileURIAllowlist
 ;
 nsCOMPtr
 <

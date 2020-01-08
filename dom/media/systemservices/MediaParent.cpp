@@ -723,7 +723,7 @@ i
 <
 info
 .
-whitelist
+allowlist
 (
 )
 .
@@ -743,7 +743,7 @@ PrincipalInfoToString
 (
 info
 .
-whitelist
+allowlist
 (
 )
 [

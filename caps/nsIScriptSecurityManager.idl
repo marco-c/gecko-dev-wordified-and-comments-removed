@@ -981,7 +981,7 @@ a
 domain
 that
 is
-white
+allow
 -
 listed
 through
@@ -1009,7 +1009,7 @@ tested
 *
 /
 bool
-inFileURIWhitelist
+inFileURIAllowlist
 (
 in
 nsIURI
@@ -1989,9 +1989,9 @@ taking
 *
 the
 various
-blacklist
+blocklist
 /
-whitelist
+allowlist
 exceptions
 into
 account

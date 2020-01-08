@@ -2036,7 +2036,7 @@ prin
 expanded
 -
 >
-WhiteList
+AllowList
 (
 )
 )

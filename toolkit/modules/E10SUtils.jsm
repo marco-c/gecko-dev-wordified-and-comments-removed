@@ -278,7 +278,7 @@ if
 (
 sm
 .
-inFileURIWhitelist
+inFileURIAllowlist
 (
 aTargetUri
 )

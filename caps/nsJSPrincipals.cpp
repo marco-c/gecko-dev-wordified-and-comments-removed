@@ -1026,7 +1026,7 @@ false
 }
 expanded
 .
-whitelist
+allowlist
 (
 )
 .
@@ -1523,7 +1523,7 @@ JS_WriteUint32Pair
 aWriter
 expanded
 .
-whitelist
+allowlist
 (
 )
 .
@@ -1549,7 +1549,7 @@ i
 <
 expanded
 .
-whitelist
+allowlist
 (
 )
 .
@@ -1570,7 +1570,7 @@ WritePrincipalInfo
 aWriter
 expanded
 .
-whitelist
+allowlist
 (
 )
 [
