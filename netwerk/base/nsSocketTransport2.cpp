@@ -6954,6 +6954,10 @@ false
 ;
 if
 (
+!
+mProxyTransparent
+&
+&
 mFastOpenCallback
 &
 &
