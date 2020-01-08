@@ -284,6 +284,11 @@ PropTypes
 func
 .
 isRequired
+onContextMenu
+:
+PropTypes
+.
+func
 onMouseOver
 :
 PropTypes
@@ -616,6 +621,13 @@ this
 props
 .
 onClick
+onContextMenu
+:
+this
+.
+props
+.
+onContextMenu
 onMouseOver
 :
 this
