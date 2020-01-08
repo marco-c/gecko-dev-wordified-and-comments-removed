@@ -464,7 +464,7 @@ void
 CacheRegisterAllocator
 :
 :
-loadDouble
+ensureDoubleRegister
 (
 MacroAssembler
 &
@@ -643,7 +643,7 @@ Unhandled
 operand
 type
 in
-loadDouble
+ensureDoubleRegister
 "
 )
 ;
@@ -679,7 +679,7 @@ non
 number
 to
 hit
-loadDouble
+ensureDoubleRegister
 "
 )
 ;
@@ -12060,7 +12060,7 @@ this
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12073,7 +12073,7 @@ FloatReg0
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12126,7 +12126,7 @@ this
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12139,7 +12139,7 @@ FloatReg0
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12192,7 +12192,7 @@ this
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12205,7 +12205,7 @@ FloatReg0
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12258,7 +12258,7 @@ this
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12271,7 +12271,7 @@ FloatReg0
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12332,7 +12332,7 @@ output
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -12345,7 +12345,7 @@ FloatReg0
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -18536,7 +18536,7 @@ false
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader
@@ -18549,7 +18549,7 @@ FloatReg0
 ;
 allocator
 .
-loadDouble
+ensureDoubleRegister
 (
 masm
 reader

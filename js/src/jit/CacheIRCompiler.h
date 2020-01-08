@@ -2233,7 +2233,7 @@ val
 )
 ;
 void
-loadDouble
+ensureDoubleRegister
 (
 MacroAssembler
 &
