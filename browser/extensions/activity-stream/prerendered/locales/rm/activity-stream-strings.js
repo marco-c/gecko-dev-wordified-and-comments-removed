@@ -1082,9 +1082,13 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Adressa
+dad
+e
+-
+mail
+valida
+obligatorica
 "
 "
 firstrun_extra_legal_links

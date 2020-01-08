@@ -529,6 +529,8 @@ prefs_highlights_options_download_label
 :
 "
 Descargas
+m
+s
 recientes
 "
 "
@@ -1072,9 +1074,12 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Se
+requiere
+un
+correo
+v
+lido
 "
 "
 firstrun_extra_legal_links

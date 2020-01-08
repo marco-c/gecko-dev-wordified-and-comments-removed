@@ -976,9 +976,12 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Perlu
+e
+-
+mel
+yang
+sah
 "
 "
 firstrun_extra_legal_links

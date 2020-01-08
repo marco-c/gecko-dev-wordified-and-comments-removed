@@ -1029,9 +1029,12 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Gyldig
+e
+-
+post
+p
+kravd
 "
 "
 firstrun_extra_legal_links

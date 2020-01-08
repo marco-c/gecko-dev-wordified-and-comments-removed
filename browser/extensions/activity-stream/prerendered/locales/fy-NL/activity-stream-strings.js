@@ -1038,9 +1038,11 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Jildich
+e
+-
+mailadres
+fereaske
 "
 "
 firstrun_extra_legal_links

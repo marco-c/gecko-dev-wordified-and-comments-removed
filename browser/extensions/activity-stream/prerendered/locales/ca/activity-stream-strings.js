@@ -1155,9 +1155,14 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Cal
+una
+adre
+a
+electr
+nica
+v
+lida
 "
 "
 firstrun_extra_legal_links

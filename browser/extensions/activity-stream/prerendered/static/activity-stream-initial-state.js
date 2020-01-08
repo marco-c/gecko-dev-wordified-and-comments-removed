@@ -35,11 +35,6 @@ initialized
 "
 :
 false
-"
-version
-"
-:
-null
 }
 "
 Snippets

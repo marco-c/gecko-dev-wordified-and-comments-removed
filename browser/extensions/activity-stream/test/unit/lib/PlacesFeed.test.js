@@ -983,6 +983,8 @@ data
 _target
 .
 browser
+.
+ownerGlobal
 )
 ;
 }

@@ -1061,9 +1061,12 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Se
+requiere
+un
+correo
+v
+lido
 "
 "
 firstrun_extra_legal_links

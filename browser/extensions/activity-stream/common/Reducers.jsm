@@ -98,9 +98,6 @@ App
 initialized
 :
 false
-version
-:
-null
 }
 Snippets
 :

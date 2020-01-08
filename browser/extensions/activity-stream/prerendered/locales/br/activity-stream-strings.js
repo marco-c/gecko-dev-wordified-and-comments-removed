@@ -1164,9 +1164,9 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Postel
+talvoudek
+azgoulennet
 "
 "
 firstrun_extra_legal_links

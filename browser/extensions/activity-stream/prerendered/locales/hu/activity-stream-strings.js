@@ -1214,9 +1214,14 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+rv
+nyes
+e
+-
+mail
+sz
+ks
+ges
 "
 "
 firstrun_extra_legal_links

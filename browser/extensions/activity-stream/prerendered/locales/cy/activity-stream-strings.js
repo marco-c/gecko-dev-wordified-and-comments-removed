@@ -1075,9 +1075,12 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Mae
+angen
+e
+-
+bost
+dilys
 "
 "
 firstrun_extra_legal_links

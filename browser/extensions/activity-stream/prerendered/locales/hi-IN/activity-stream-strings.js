@@ -298,15 +298,6 @@ prefs_topstories_description2
 "
 :
 "
-Great
-content
-from
-around
-the
-web
-personalized
-for
-you
 "
 "
 prefs_topstories_options_sponsored_label
@@ -346,10 +337,6 @@ prefs_highlights_options_pocket_label
 "
 :
 "
-Pages
-Saved
-to
-Pocket
 "
 "
 prefs_snippets_description
@@ -615,10 +602,7 @@ firstrun_title
 "
 :
 "
-Take
 Firefox
-with
-You
 "
 "
 firstrun_content
@@ -659,9 +643,6 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
 "
 "
 firstrun_extra_legal_links

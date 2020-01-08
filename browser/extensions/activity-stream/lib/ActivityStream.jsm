@@ -2643,10 +2643,6 @@ ActivityStream
 {
 constructor
 (
-options
-=
-{
-}
 )
 {
 this
@@ -2654,12 +2650,6 @@ this
 initialized
 =
 false
-;
-this
-.
-options
-=
-options
 ;
 this
 .
@@ -2729,13 +2719,6 @@ INIT
 data
 :
 {
-version
-:
-this
-.
-options
-.
-version
 }
 }
 )
