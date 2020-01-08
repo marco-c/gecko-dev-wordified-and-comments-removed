@@ -1512,7 +1512,6 @@ changes
 "
 )
 ;
-await
 this
 .
 changesFront
