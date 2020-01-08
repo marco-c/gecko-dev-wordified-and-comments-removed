@@ -4009,14 +4009,6 @@ aSelection
 )
 ;
 nsresult
-ShowResizersInner
-(
-Element
-&
-aResizedElement
-)
-;
-nsresult
 GetElementOrigin
 (
 Element
@@ -4081,7 +4073,7 @@ SetAllResizersPosition
 )
 ;
 nsresult
-ShowResizers
+ShowResizersInternal
 (
 Element
 &

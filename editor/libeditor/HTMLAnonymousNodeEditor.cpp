@@ -1743,7 +1743,7 @@ else
 nsresult
 rv
 =
-ShowResizers
+ShowResizersInternal
 (
 *
 focusElement
