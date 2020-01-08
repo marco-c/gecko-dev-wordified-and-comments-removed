@@ -522,9 +522,6 @@ struct
 LayoutPixel
 ;
 struct
-NormalizedCoordinates
-;
-struct
 Renderer
 ;
 struct
@@ -3529,15 +3526,6 @@ opacity
 }
 }
 ;
-using
-NormalizedRect
-=
-TypedRect
-<
-float
-NormalizedCoordinates
->
-;
 struct
 WrTransformProperty
 {
@@ -5291,7 +5279,7 @@ aTxn
 WrImageKey
 aKey
 const
-NormalizedRect
+DeviceUintRect
 *
 aArea
 )
