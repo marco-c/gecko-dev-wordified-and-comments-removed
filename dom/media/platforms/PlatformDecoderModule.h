@@ -941,7 +941,7 @@ PlatformDecoderModule
 }
 friend
 class
-H264Converter
+MediaChangeMonitor
 ;
 friend
 class
