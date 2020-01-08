@@ -240,12 +240,6 @@ JOF_TYPESET
 <
 <
 14
-JOF_ARITH
-=
-1
-<
-<
-15
 }
 ;
 static

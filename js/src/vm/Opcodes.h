@@ -316,8 +316,6 @@ bitor
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -334,8 +332,6 @@ bitxor
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -352,8 +348,6 @@ bitand
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -372,8 +366,6 @@ eq
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 |
 JOF_DETECTING
 )
@@ -394,8 +386,6 @@ ne
 1
 JOF_BYTE
 |
-JOF_ARITH
-|
 JOF_DETECTING
 )
 \
@@ -413,8 +403,6 @@ lt
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -432,8 +420,6 @@ le
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -450,8 +436,6 @@ gt
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -469,8 +453,6 @@ ge
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -489,8 +471,6 @@ lsh
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -508,8 +488,6 @@ rsh
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -529,8 +507,6 @@ ursh
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -548,8 +524,6 @@ add
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -567,8 +541,6 @@ sub
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -585,8 +557,6 @@ mul
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -603,8 +573,6 @@ div
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 macro
@@ -621,8 +589,6 @@ mod
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -640,8 +606,6 @@ not
 1
 1
 JOF_BYTE
-|
-JOF_ARITH
 |
 JOF_DETECTING
 )
@@ -661,8 +625,6 @@ bitnot
 1
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -680,8 +642,6 @@ neg
 1
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -699,8 +659,6 @@ pos
 1
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
@@ -1384,8 +1342,6 @@ stricteq
 JOF_BYTE
 |
 JOF_DETECTING
-|
-JOF_ARITH
 )
 \
 macro
@@ -1406,8 +1362,6 @@ strictne
 JOF_BYTE
 |
 JOF_DETECTING
-|
-JOF_ARITH
 )
 \
 \
@@ -2781,8 +2735,6 @@ pow
 2
 1
 JOF_BYTE
-|
-JOF_ARITH
 )
 \
 \
