@@ -90,12 +90,6 @@ hasDelayedMarking
 MOZ_ASSERT
 (
 !
-markOverflow
-)
-;
-MOZ_ASSERT
-(
-!
 auxNextLink
 )
 ;
@@ -117,10 +111,6 @@ kind
 )
 ;
 hasDelayedMarking
-=
-0
-;
-markOverflow
 =
 0
 ;
