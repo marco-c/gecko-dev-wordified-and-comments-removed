@@ -1176,7 +1176,7 @@ finder
 find
 (
 "
-lore
+nim
 "
 GeckoSession
 .
