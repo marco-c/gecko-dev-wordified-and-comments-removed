@@ -1019,9 +1019,8 @@ UserData
 isSome
 (
 )
-)
-{
-return
+&
+&
 Get
 <
 1
@@ -1038,11 +1037,12 @@ UserData
 value
 (
 )
+)
+{
+return
+true
 ;
 }
-return
-false
-;
 }
 else
 {
