@@ -200,8 +200,6 @@ locations
 const
 {
 addUSBRuntimesObserver
-disableUSBRuntimes
-enableUSBRuntimes
 getUSBRuntimes
 removeUSBRuntimesObserver
 }
@@ -460,8 +458,7 @@ this
 onUSBRuntimesUpdated
 )
 ;
-await
-enableUSBRuntimes
+getUSBRuntimes
 (
 )
 ;
@@ -606,10 +603,6 @@ removeUSBRuntimesObserver
 this
 .
 onUSBRuntimesUpdated
-)
-;
-disableUSBRuntimes
-(
 )
 ;
 adbAddon
