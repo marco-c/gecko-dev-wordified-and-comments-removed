@@ -729,9 +729,10 @@ return
 promise_rejects
 (
 t
-'
-InvalidModificationError
-'
+new
+TypeError
+(
+)
 sender
 .
 setParameters
@@ -753,7 +754,7 @@ unset
 should
 reject
 with
-InvalidModificationError
+TypeError
 )
 ;
 promise_test
