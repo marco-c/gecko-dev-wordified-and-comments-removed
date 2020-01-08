@@ -773,6 +773,9 @@ mTimecode
 ;
 if
 (
+inputData
+&
+&
 mCodecParser
 )
 {
@@ -787,7 +790,10 @@ aGotFrame
 false
 ;
 }
-do
+while
+(
+inputSize
+)
 {
 uint8_t
 *
@@ -855,10 +861,6 @@ NS_ERROR_DOM_MEDIA_DECODE_ERR
 if
 (
 size
-|
-|
-!
-inputSize
 )
 {
 bool
@@ -917,13 +919,6 @@ inputSize
 len
 ;
 }
-while
-(
-inputSize
->
-0
-)
-;
 return
 NS_OK
 ;
