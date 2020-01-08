@@ -289,7 +289,7 @@ thin
 groupbox
 >
 <
-caption
+label
 data
 -
 l10n

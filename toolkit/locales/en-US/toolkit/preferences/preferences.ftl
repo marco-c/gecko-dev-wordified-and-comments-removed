@@ -401,7 +401,7 @@ remove
 info
 =
 .
-label
+value
 =
 You
 must
@@ -460,7 +460,7 @@ old
 password
 =
 .
-label
+value
 =
 Current
 password

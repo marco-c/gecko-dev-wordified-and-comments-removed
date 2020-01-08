@@ -1665,7 +1665,6 @@ header
 querySelector
 (
 "
-caption
 .
 search
 -

@@ -409,10 +409,12 @@ flex
 "
 >
 <
-caption
+label
 >
 <
-label
+html
+:
+h2
 data
 -
 l10n
@@ -432,7 +434,7 @@ background
 >
 <
 /
-caption
+label
 >
 <
 hbox
@@ -642,10 +644,12 @@ flex
 "
 >
 <
-caption
+label
 >
 <
-label
+html
+:
+h2
 data
 -
 l10n
@@ -663,7 +667,7 @@ header
 >
 <
 /
-caption
+label
 >
 <
 hbox

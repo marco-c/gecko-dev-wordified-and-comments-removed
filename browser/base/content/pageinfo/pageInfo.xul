@@ -3078,9 +3078,6 @@ Section
 groupbox
 >
 <
-caption
->
-<
 label
 class
 =
@@ -3099,10 +3096,6 @@ header
 ;
 "
 /
->
-<
-/
-caption
 >
 <
 grid
@@ -3487,9 +3480,6 @@ section
 groupbox
 >
 <
-caption
->
-<
 label
 class
 =
@@ -3508,10 +3498,6 @@ header
 ;
 "
 /
->
-<
-/
-caption
 >
 <
 grid
@@ -3919,9 +3905,6 @@ section
 groupbox
 >
 <
-caption
->
-<
 label
 class
 =
@@ -3940,10 +3923,6 @@ header
 ;
 "
 /
->
-<
-/
-caption
 >
 <
 label

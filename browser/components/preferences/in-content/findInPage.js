@@ -1330,7 +1330,6 @@ document
 querySelectorAll
 (
 "
-caption
 .
 search
 -

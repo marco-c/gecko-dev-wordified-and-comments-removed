@@ -235,10 +235,12 @@ true
 "
 >
 <
-caption
+label
 >
 <
-label
+html
+:
+h2
 data
 -
 l10n
@@ -260,7 +262,7 @@ header
 >
 <
 /
-caption
+label
 >
 <
 description

@@ -86,7 +86,9 @@ margin
 32px
 ;
 }
-caption
+html
+|
+h2
 {
 margin
 :
@@ -102,11 +104,11 @@ size
 .
 14em
 ;
-font
+line
 -
-weight
+height
 :
-600
+normal
 ;
 }
 .
