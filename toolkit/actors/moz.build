@@ -97,6 +97,11 @@ AudioPlaybackChild
 jsm
 '
 '
+DateTimePickerChild
+.
+jsm
+'
+'
 FindBarChild
 .
 jsm
