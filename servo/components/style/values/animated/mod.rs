@@ -91,6 +91,9 @@ font
 mod
 length
 ;
+mod
+svg
+;
 #
 [
 derive
