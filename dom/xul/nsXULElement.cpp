@@ -1844,7 +1844,7 @@ NS_OK
 }
 NS_INTERFACE_MAP_END_INHERITING
 (
-Element
+nsStyledElement
 )
 nsresult
 nsXULElement
