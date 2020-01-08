@@ -53,9 +53,9 @@ public
 :
 MediaTrackList
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aOwnerWindow
+aOwnerObject
 HTMLMediaElement
 *
 aMediaElement
