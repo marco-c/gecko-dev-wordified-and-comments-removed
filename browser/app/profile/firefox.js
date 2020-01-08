@@ -3927,9 +3927,9 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+previews
 "
-true
+false
 )
 ;
 pref
@@ -8926,7 +8926,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+previews
 "
 true
 )

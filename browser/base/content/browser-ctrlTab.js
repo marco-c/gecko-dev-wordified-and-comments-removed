@@ -1229,7 +1229,7 @@ browser
 .
 ctrlTab
 .
-recentlyUsedOrder
+previews
 "
 readPref
 :
