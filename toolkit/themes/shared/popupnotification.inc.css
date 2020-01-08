@@ -433,7 +433,16 @@ further
 ;
 color
 :
-graytext
+var
+(
+-
+-
+panel
+-
+disabled
+-
+color
+)
 ;
 }
 .
