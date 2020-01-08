@@ -517,16 +517,19 @@ prompt
 with
 text
 '
-%
-s
+{
+}
 '
 was
 not
 handled
 .
 "
-%
+.
+format
+(
 expected_text
+)
 )
     
 except
