@@ -766,7 +766,7 @@ readonly
 attribute
 DOMString
 ?
-ip
+address
 ;
 readonly
 attribute
