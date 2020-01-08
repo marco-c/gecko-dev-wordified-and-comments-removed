@@ -907,9 +907,11 @@ locale
 .
 requestedLocales
 =
+[
 aData
 .
-requestedLocales
+languageTag
+]
 ;
 break
 ;

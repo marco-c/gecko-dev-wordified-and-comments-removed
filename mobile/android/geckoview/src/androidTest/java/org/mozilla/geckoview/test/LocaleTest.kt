@@ -176,15 +176,13 @@ getSettings
 (
 )
 .
-setLocales
+setLocale
 (
-[
 "
 en
 -
 GB
 "
-]
 )
 ;
 val
