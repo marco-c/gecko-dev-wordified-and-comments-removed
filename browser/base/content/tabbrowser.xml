@@ -15592,6 +15592,7 @@ gBrowser
 removeFromMultiSelectedTabs
 (
 this
+true
 )
 ;
 if
