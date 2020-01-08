@@ -3179,6 +3179,11 @@ mBlankTiming
 :
 1
 ;
+bool
+mTitleValidForCurrentURI
+:
+1
+;
 }
 ;
 #
