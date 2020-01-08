@@ -1009,7 +1009,7 @@ void
 profiler_start
 (
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -1032,7 +1032,7 @@ void
 profiler_ensure_started
 (
 uint32_t
-aEntries
+aCapacity
 double
 aInterval
 uint32_t
@@ -2486,7 +2486,7 @@ private
 :
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 char
-mSetEntries
+mSetCapacity
 [
 64
 ]

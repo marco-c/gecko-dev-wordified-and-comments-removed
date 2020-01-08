@@ -60,7 +60,7 @@ explicit
 ProfileBuffer
 (
 uint32_t
-aEntrySize
+aCapacity
 )
 ;
 ~
@@ -332,7 +332,7 @@ uint64_t
 mRangeEnd
 ;
 uint32_t
-mEntrySize
+mCapacity
 ;
 ProfilerMarkerLinkedList
 mStoredMarkers
