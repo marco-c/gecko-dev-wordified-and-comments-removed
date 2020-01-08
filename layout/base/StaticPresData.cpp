@@ -1096,7 +1096,7 @@ return
 nullptr
 ;
 }
-AssertIsMainThreadOrServoLangFontPrefsCacheLocked
+AssertIsMainThreadOrServoFontMetricsLocked
 (
 )
 ;
@@ -1125,7 +1125,7 @@ return
 nullptr
 ;
 }
-AssertIsMainThreadOrServoLangFontPrefsCacheLocked
+AssertIsMainThreadOrServoFontMetricsLocked
 (
 )
 ;

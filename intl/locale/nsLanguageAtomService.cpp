@@ -457,7 +457,7 @@ get
 (
 )
 ;
-AssertIsMainThreadOrServoLangFontPrefsCacheLocked
+AssertIsMainThreadOrServoFontMetricsLocked
 (
 )
 ;
