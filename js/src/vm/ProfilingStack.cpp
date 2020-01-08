@@ -139,9 +139,11 @@ MOZ_UNLIKELY
 newFrames
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 auto
@@ -155,6 +157,7 @@ IntegerRange
 capacity
 )
 )
+{
 newFrames
 [
 i
@@ -165,6 +168,7 @@ frames
 i
 ]
 ;
+}
 js
 :
 :

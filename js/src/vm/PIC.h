@@ -278,6 +278,7 @@ next
 (
 )
 )
+{
 cur
 =
 cur
@@ -287,6 +288,7 @@ next
 (
 )
 ;
+}
 cur
 -
 >
@@ -326,10 +328,12 @@ next
 (
 )
 )
+{
 count
 +
 +
 ;
+}
 return
 count
 ;
@@ -781,12 +785,14 @@ if
 (
 obj
 )
+{
 return
 fromJSObject
 (
 obj
 )
 ;
+}
 return
 create
 (

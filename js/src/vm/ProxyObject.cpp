@@ -217,6 +217,7 @@ finalizeInBackground
 priv
 )
 )
+{
 kind
 =
 GetBackgroundAllocKind
@@ -224,6 +225,7 @@ GetBackgroundAllocKind
 kind
 )
 ;
+}
 return
 kind
 ;
@@ -414,9 +416,11 @@ clasp
 protoObj
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 NewObjectKind
 newKind
@@ -598,6 +602,7 @@ IsCrossCompartmentWrapper
 proxy
 )
 )
+{
 proxy
 -
 >
@@ -606,7 +611,9 @@ setCrossCompartmentPrivate
 priv
 )
 ;
+}
 else
+{
 proxy
 -
 >
@@ -615,6 +622,7 @@ setSameCompartmentPrivate
 priv
 )
 ;
+}
 if
 (
 newKind
@@ -631,6 +639,7 @@ isDOMClass
 (
 )
 )
+{
 MarkObjectGroupUnknownProperties
 (
 cx
@@ -642,6 +651,7 @@ group
 )
 )
 ;
+}
 return
 proxy
 ;
@@ -923,6 +933,7 @@ if
 !
 group
 )
+{
 return
 cx
 -
@@ -931,6 +942,7 @@ alreadyReportedOOM
 (
 )
 ;
+}
 shape
 =
 EmptyShape
@@ -949,6 +961,7 @@ if
 !
 shape
 )
+{
 return
 cx
 -
@@ -957,6 +970,7 @@ alreadyReportedOOM
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 group
@@ -1026,6 +1040,7 @@ if
 !
 obj
 )
+{
 return
 cx
 -
@@ -1034,6 +1049,7 @@ alreadyReportedOOM
 (
 )
 ;
+}
 ProxyObject
 *
 pobj
@@ -1131,6 +1147,7 @@ cx
 pobjRoot
 )
 )
+{
 return
 cx
 -
@@ -1139,6 +1156,7 @@ alreadyReportedOOM
 (
 )
 ;
+}
 pobj
 =
 pobjRoot

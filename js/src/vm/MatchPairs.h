@@ -263,8 +263,10 @@ isUndefined
 (
 )
 )
+{
 continue
 ;
+}
 MOZ_ASSERT
 (
 size_t

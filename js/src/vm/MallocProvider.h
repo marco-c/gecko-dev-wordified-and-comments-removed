@@ -83,6 +83,7 @@ MOZ_LIKELY
 p
 )
 )
+{
 client
 (
 )
@@ -98,6 +99,7 @@ T
 )
 )
 ;
+}
 return
 p
 ;
@@ -142,6 +144,7 @@ MOZ_LIKELY
 p
 )
 )
+{
 client
 (
 )
@@ -157,6 +160,7 @@ T
 )
 )
 ;
+}
 return
 p
 ;
@@ -204,6 +208,7 @@ newSize
 >
 oldSize
 )
+{
 client
 (
 )
@@ -223,6 +228,7 @@ T
 )
 )
 ;
+}
 }
 return
 p
@@ -281,9 +287,11 @@ MOZ_LIKELY
 p
 )
 )
+{
 return
 p
 ;
+}
 size_t
 bytes
 ;
@@ -341,6 +349,7 @@ if
 (
 p
 )
+{
 client
 (
 )
@@ -351,6 +360,7 @@ updateMallocCounter
 bytes
 )
 ;
+}
 return
 p
 ;
@@ -468,6 +478,7 @@ if
 (
 p
 )
+{
 client
 (
 )
@@ -478,6 +489,7 @@ updateMallocCounter
 bytes
 )
 ;
+}
 return
 p
 ;
@@ -567,9 +579,11 @@ MOZ_LIKELY
 p
 )
 )
+{
 return
 p
 ;
+}
 size_t
 bytes
 ;
@@ -627,6 +641,7 @@ if
 (
 p
 )
+{
 client
 (
 )
@@ -637,6 +652,7 @@ updateMallocCounter
 bytes
 )
 ;
+}
 return
 p
 ;
@@ -751,6 +767,7 @@ if
 (
 p
 )
+{
 client
 (
 )
@@ -761,6 +778,7 @@ updateMallocCounter
 bytes
 )
 ;
+}
 return
 p
 ;
@@ -844,9 +862,11 @@ MOZ_LIKELY
 p
 )
 )
+{
 return
 p
 ;
+}
 size_t
 bytes
 ;
@@ -910,6 +930,7 @@ newSize
 >
 oldSize
 )
+{
 client
 (
 )
@@ -929,6 +950,7 @@ T
 )
 )
 ;
+}
 return
 p
 ;
