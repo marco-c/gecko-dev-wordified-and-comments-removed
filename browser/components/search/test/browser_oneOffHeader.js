@@ -345,15 +345,12 @@ removeSearchBar
 ;
 searchIcon
 =
-document
-.
-getAnonymousElementByAttribute
-(
 searchbar
+.
+querySelector
+(
 "
-anonid
-"
-"
+.
 searchbar
 -
 search
@@ -671,7 +668,7 @@ test_text
 {
 searchbar
 .
-_textbox
+textbox
 .
 value
 =
@@ -996,7 +993,7 @@ getSubmission
 (
 searchbar
 .
-_textbox
+textbox
 .
 value
 )
@@ -1033,7 +1030,7 @@ cleanup
 {
 searchbar
 .
-_textbox
+textbox
 .
 value
 =
