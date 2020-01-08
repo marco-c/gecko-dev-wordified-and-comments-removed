@@ -1255,14 +1255,7 @@ y
 )
 transform
 :
-*
-info
-.
-resolved_transform
-.
-to_transform
-(
-)
+relative_transform
 parent
 :
 Some

@@ -2160,7 +2160,6 @@ Transform
 {
 m
 :
-&
 data
 .
 transform

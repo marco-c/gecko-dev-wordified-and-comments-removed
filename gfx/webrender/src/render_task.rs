@@ -2085,7 +2085,7 @@ location
 RenderTaskLocation
 unclipped_size
 :
-DeviceIntSize
+DeviceSize
 prim_index
 :
 PrimitiveIndex
@@ -2163,6 +2163,8 @@ can_merge
 size
 .
 width
+as
+f32
 >
 =
 unclipped_size
@@ -2173,6 +2175,8 @@ width
 size
 .
 height
+as
+f32
 >
 =
 unclipped_size
