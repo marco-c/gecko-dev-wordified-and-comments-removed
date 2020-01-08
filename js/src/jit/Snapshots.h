@@ -1540,9 +1540,7 @@ lastStart_
 ;
 public
 :
-MOZ_MUST_USE
-bool
-init
+SnapshotWriter
 (
 )
 ;

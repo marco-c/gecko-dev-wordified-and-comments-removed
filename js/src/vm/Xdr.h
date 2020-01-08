@@ -2603,12 +2603,6 @@ fun
 const
 override
 ;
-MOZ_MUST_USE
-bool
-init
-(
-)
-;
 void
 createOrReplaceSubTree
 (

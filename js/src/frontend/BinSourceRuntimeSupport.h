@@ -293,6 +293,10 @@ byteLen_
 }
 }
 ;
+BinaryASTSupport
+(
+)
+;
 JS
 :
 :

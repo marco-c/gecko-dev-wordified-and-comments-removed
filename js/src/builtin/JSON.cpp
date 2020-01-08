@@ -3402,16 +3402,6 @@ jsid
 >
 (
 cx
-)
-)
-;
-if
-(
-!
-idSet
-.
-init
-(
 Min
 (
 len
@@ -3419,8 +3409,6 @@ MaxInitialSize
 )
 )
 )
-return
-false
 ;
 uint32_t
 k

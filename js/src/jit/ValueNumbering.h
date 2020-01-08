@@ -120,12 +120,6 @@ TempAllocator
 alloc
 )
 ;
-MOZ_MUST_USE
-bool
-init
-(
-)
-;
 typedef
 ValueSet
 :
@@ -492,12 +486,6 @@ mir
 MIRGraph
 &
 graph
-)
-;
-MOZ_MUST_USE
-bool
-init
-(
 )
 ;
 enum

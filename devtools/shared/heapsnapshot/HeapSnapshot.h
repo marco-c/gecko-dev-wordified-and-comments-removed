@@ -560,15 +560,6 @@ getRoot
 (
 )
 {
-MOZ_ASSERT
-(
-nodes
-.
-initialized
-(
-)
-)
-;
 auto
 p
 =

@@ -84,11 +84,6 @@ WrapperOwner
 )
 ;
 bool
-init
-(
-)
-;
-bool
 getOwnPropertyDescriptor
 (
 JSContext

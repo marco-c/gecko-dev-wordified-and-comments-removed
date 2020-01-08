@@ -7717,14 +7717,6 @@ if
 !
 indexToCase
 .
-init
-(
-)
-|
-|
-!
-indexToCase
-.
 put
 (
 defaultDepth

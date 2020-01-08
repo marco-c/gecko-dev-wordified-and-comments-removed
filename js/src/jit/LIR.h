@@ -8763,13 +8763,6 @@ init
 )
 {
 return
-constantPoolMap_
-.
-init
-(
-)
-&
-&
 blocks_
 .
 init

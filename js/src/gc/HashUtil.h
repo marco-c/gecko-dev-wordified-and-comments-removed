@@ -60,7 +60,6 @@ const
 JSContext
 *
 cx
-const
 T
 &
 table

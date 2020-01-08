@@ -166,15 +166,6 @@ uint32_t
 index
 )
 {
-MOZ_ASSERT
-(
-constantPoolMap_
-.
-initialized
-(
-)
-)
-;
 ConstantPoolMap
 :
 :

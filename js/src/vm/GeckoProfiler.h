@@ -136,11 +136,6 @@ rt
 )
 ;
 bool
-init
-(
-)
-;
-bool
 enabled
 (
 )

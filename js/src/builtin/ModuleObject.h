@@ -1533,11 +1533,6 @@ tokenStream
 )
 ;
 bool
-init
-(
-)
-;
-bool
 processImport
 (
 frontend

@@ -1119,13 +1119,8 @@ RegExpZone
 (
 )
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-set_
-.
-initialized
-(
-)
 set_
 .
 empty
@@ -1134,11 +1129,6 @@ empty
 )
 ;
 }
-bool
-init
-(
-)
-;
 bool
 empty
 (

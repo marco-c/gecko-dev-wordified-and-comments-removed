@@ -1212,15 +1212,6 @@ MOZ_ASSERT
 aWindow
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-mConstructors
-.
-init
-(
-)
-)
-;
 mozilla
 :
 :

@@ -296,13 +296,6 @@ ok
 =
 targets
 .
-init
-(
-)
-&
-&
-targets
-.
 putNew
 (
 node

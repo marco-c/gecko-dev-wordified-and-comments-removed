@@ -1023,11 +1023,6 @@ js
 EvalCache
 evalCache
 ;
-bool
-init
-(
-)
-;
 void
 purgeForMinorGC
 (
@@ -1061,14 +1056,6 @@ purge
 (
 )
 ;
-if
-(
-evalCache
-.
-initialized
-(
-)
-)
 evalCache
 .
 clear

@@ -1468,16 +1468,6 @@ CHECK
 weakMap
 )
 ;
-CHECK
-(
-weakMap
--
->
-init
-(
-)
-)
-;
 Rooted
 <
 GCManagedObjectWeakMap
