@@ -93,13 +93,6 @@ devices
 js
 '
 '
-reload
--
-conditions
-.
-js
-'
-'
 screenshot
 .
 js
