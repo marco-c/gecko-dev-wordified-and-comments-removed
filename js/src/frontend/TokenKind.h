@@ -997,7 +997,7 @@ order
 as
 F
 (
-OR
+Or
 )
 and
 friends

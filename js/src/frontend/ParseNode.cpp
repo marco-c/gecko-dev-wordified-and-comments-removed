@@ -399,6 +399,7 @@ define
 STRINGIFY
 (
 name
+_arity
 )
 #
 name
