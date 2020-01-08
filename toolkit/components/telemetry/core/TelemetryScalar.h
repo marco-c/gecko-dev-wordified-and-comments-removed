@@ -167,10 +167,8 @@ Value
 aResult
 bool
 aFilterTest
-const
-nsACString
-&
-aStoreName
+=
+false
 )
 ;
 nsresult
@@ -262,10 +260,8 @@ Value
 aResult
 bool
 aFilterTest
-const
-nsACString
-&
-aStoreName
+=
+false
 )
 ;
 void
