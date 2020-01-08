@@ -813,8 +813,6 @@ sMozCommandLineAtom
 XAtoms
 [
 i
-+
-+
 ]
 ;
 }
