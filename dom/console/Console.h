@@ -989,8 +989,14 @@ Value
 >
 &
 aArguments
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aTargetScope
 JS
 :
