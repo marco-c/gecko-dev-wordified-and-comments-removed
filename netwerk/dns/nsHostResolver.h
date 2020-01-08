@@ -525,10 +525,6 @@ mozilla
 TimeStamp
 mGraceStart
 ;
-const
-nsCString
-mOriginSuffix
-;
 mozilla
 :
 :
