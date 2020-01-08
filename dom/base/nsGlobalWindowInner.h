@@ -6210,6 +6210,10 @@ nsGlobalWindowInner
 void
 FreeInnerObjects
 (
+bool
+aForDocumentOpen
+=
+false
 )
 ;
 void
