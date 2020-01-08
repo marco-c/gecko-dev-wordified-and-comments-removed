@@ -1054,6 +1054,10 @@ processes
 ]
 )
         
+skipped_tests
+=
+0
+        
 test_total
 =
 0
@@ -1498,6 +1502,11 @@ status
 SKIP
 "
 )
+                        
+skipped_tests
++
+=
+1
                     
 if
 test_type
@@ -1579,6 +1588,11 @@ status
 SKIP
 "
 )
+                                
+skipped_tests
++
+=
+1
                             
 else
 :
@@ -1774,6 +1788,28 @@ test_total
 0
 :
         
+if
+skipped_tests
+>
+0
+:
+            
+logger
+.
+warning
+(
+"
+All
+requested
+tests
+were
+skipped
+"
+)
+        
+else
+:
+            
 logger
 .
 error
@@ -1784,7 +1820,7 @@ tests
 ran
 "
 )
-        
+            
 return
 False
     
