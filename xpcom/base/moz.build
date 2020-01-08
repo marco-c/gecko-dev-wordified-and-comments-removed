@@ -647,6 +647,11 @@ StaticPtr
 .
 h
 '
+'
+TupleCycleCollection
+.
+h
+'
 ]
 #
 nsDebugImpl
