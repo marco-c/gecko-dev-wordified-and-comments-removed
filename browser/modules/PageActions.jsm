@@ -1697,9 +1697,6 @@ false
 labelForHistogram
 :
 false
-nodeAttributes
-:
-false
 onBeforePlacedInWindow
 :
 false
@@ -1852,17 +1849,6 @@ return
 this
 .
 _id
-;
-}
-get
-nodeAttributes
-(
-)
-{
-return
-this
-.
-_nodeAttributes
 ;
 }
 get
