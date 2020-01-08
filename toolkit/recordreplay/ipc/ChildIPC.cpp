@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsPrintfCString
-.
-h
-"
-#
-include
-"
 ParentInternal
 .
 h
