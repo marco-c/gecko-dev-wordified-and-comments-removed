@@ -7745,7 +7745,7 @@ arm
 arm64
 mips32
 mips64
-x86
+x86_shared
 )
 ;
 void
@@ -7767,7 +7767,7 @@ arm
 arm64
 mips32
 mips64
-x86
+x86_shared
 )
 ;
 void

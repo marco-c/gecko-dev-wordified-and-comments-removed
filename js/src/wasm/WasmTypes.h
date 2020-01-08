@@ -7831,14 +7831,9 @@ uint8_t
 *
 memoryBase
 ;
-#
-ifndef
-WASM_HUGE_MEMORY
 uint32_t
 boundsCheckLimit
 ;
-#
-endif
 Instance
 *
 instance

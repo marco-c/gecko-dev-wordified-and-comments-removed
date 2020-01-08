@@ -4578,9 +4578,6 @@ unwrap
 :
 nullptr
 ;
-#
-ifndef
-WASM_HUGE_MEMORY
 tlsData
 (
 )
@@ -4603,8 +4600,6 @@ wasmBoundsCheckLimit
 :
 0
 ;
-#
-endif
 tlsData
 (
 )
@@ -7267,9 +7262,6 @@ dataPointer
 (
 )
 ;
-#
-ifndef
-WASM_HUGE_MEMORY
 tlsData
 (
 )
@@ -7283,8 +7275,6 @@ wasmBoundsCheckLimit
 (
 )
 ;
-#
-endif
 }
 void
 Instance
