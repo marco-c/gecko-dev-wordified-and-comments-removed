@@ -249,7 +249,6 @@ async
 function
 gInit
 (
-toolbox
 perfFront
 preferenceFront
 )
@@ -271,7 +270,6 @@ actions
 initializeStore
 (
 {
-toolbox
 perfFront
 receiveProfile
 recordingSettingsFromPreferences

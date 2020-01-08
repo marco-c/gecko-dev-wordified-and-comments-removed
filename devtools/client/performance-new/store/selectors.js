@@ -186,19 +186,6 @@ state
 perfFront
 ;
 const
-getToolbox
-=
-state
-=
->
-getInitializedValues
-(
-state
-)
-.
-toolbox
-;
-const
 getReceiveProfileFn
 =
 state
@@ -240,7 +227,6 @@ getThreadsString
 getRecordingSettings
 getInitializedValues
 getPerfFront
-getToolbox
 getReceiveProfileFn
 getSetRecordingPreferencesFn
 }

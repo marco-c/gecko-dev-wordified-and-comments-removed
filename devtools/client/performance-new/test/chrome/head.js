@@ -914,12 +914,6 @@ MockPerfFront
 )
 ;
 const
-toolboxMock
-=
-{
-}
-;
-const
 store
 =
 createStore
@@ -994,9 +988,6 @@ actions
 initializeStore
 (
 {
-toolbox
-:
-toolboxMock
 perfFront
 :
 perfFrontMock
