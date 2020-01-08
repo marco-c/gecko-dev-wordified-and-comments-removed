@@ -427,6 +427,9 @@ principalToInheritInfo
 OptionalPrincipalInfo
 sandboxedLoadingPrincipalInfo
 ;
+OptionalPrincipalInfo
+topLevelStorageAreaPrincipalInfo
+;
 OptionalURIParams
 resultPrincipalURI
 ;
@@ -438,11 +441,6 @@ contentPolicyType
 ;
 uint32_t
 tainting
-;
-nsString
-[
-]
-firstPartyStorageAccessGrantedOrigins
 ;
 bool
 upgradeInsecureRequests
