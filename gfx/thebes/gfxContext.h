@@ -798,12 +798,6 @@ offset
 )
 const
 ;
-Float
-CurrentDashOffset
-(
-)
-const
-;
 void
 SetLineWidth
 (
