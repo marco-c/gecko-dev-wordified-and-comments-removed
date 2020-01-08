@@ -1029,7 +1029,7 @@ run_command
 unzip_cmd
 halt_on_failure
 =
-True
+False
 )
         
 self
