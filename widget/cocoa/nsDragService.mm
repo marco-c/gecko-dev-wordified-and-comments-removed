@@ -3493,7 +3493,7 @@ Equals
 (
 flavors
 [
-i
+j
 ]
 )
 )

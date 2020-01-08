@@ -2570,7 +2570,9 @@ j
 +
 )
 {
+const
 nsCString
+&
 transferableFlavorStr
 =
 flavors
