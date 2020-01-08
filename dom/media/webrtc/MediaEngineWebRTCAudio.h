@@ -814,6 +814,11 @@ bool
 aDelayAgnostic
 )
 ;
+void
+End
+(
+)
+;
 private
 :
 ~
@@ -899,6 +904,9 @@ mPrincipal
 ;
 bool
 mEnabled
+;
+bool
+mEnded
 ;
 }
 ;
