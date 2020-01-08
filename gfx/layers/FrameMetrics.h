@@ -1101,7 +1101,7 @@ aOther
 mDoSmoothScroll
 ;
 }
-void
+CSSPoint
 ApplyRelativeScrollUpdateFrom
 (
 const
@@ -1118,6 +1118,11 @@ IsRelative
 (
 )
 )
+;
+CSSPoint
+origin
+=
+mScrollOffset
 ;
 CSSPoint
 delta
@@ -1144,6 +1149,11 @@ mScrollGeneration
 aOther
 .
 mScrollGeneration
+;
+return
+mScrollOffset
+-
+origin
 ;
 }
 void

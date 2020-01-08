@@ -75,6 +75,16 @@ aCurrentVelocity
 )
 override
 ;
+void
+ApplyContentShift
+(
+const
+CSSPoint
+&
+aShiftDelta
+)
+override
+;
 nsSize
 VelocityAt
 (
