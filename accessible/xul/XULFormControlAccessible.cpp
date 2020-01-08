@@ -366,6 +366,7 @@ states
 :
 CHECKABLE
 ;
+}
 bool
 checked
 =
@@ -393,7 +394,6 @@ states
 :
 PRESSED
 ;
-}
 }
 }
 if
