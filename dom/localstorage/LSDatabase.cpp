@@ -327,7 +327,6 @@ rv
 EnsureSnapshot
 (
 aObject
-false
 )
 ;
 if
@@ -416,7 +415,6 @@ rv
 EnsureSnapshot
 (
 aObject
-false
 )
 ;
 if
@@ -508,7 +506,6 @@ rv
 EnsureSnapshot
 (
 aObject
-false
 )
 ;
 if
@@ -599,7 +596,6 @@ rv
 EnsureSnapshot
 (
 aObject
-false
 )
 ;
 if
@@ -694,7 +690,6 @@ rv
 EnsureSnapshot
 (
 aObject
-true
 )
 ;
 if
@@ -787,7 +782,6 @@ rv
 EnsureSnapshot
 (
 aObject
-false
 )
 ;
 if
@@ -875,7 +869,6 @@ rv
 EnsureSnapshot
 (
 aObject
-false
 )
 ;
 if
@@ -968,7 +961,6 @@ rv
 EnsureSnapshot
 (
 aObject
-false
 true
 )
 ;
@@ -1081,8 +1073,6 @@ LSObject
 *
 aObject
 bool
-aRequestedBySetItem
-bool
 aExplicit
 )
 {
@@ -1140,15 +1130,6 @@ LSSnapshotChild
 snapshot
 )
 ;
-int64_t
-requestedSize
-=
-aRequestedBySetItem
-?
-4096
-:
-0
-;
 LSSnapshotInitInfo
 initInfo
 ;
@@ -1167,7 +1148,9 @@ aObject
 DocumentURI
 (
 )
-requestedSize
+true
+131072
+4096
 &
 initInfo
 )

@@ -299,8 +299,12 @@ PBackgroundLSSnapshot
 (
 nsString
 documentURI
+bool
+increasePeakUsage
 int64_t
 requestedSize
+int64_t
+minSize
 )
 returns
 (
