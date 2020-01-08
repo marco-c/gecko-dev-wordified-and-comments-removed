@@ -2110,6 +2110,9 @@ count
 =
 [
 &
+len
+&
+allASCII
 ]
 (
 char16_t
@@ -2292,7 +2295,9 @@ auto
 push
 =
 [
+dst
 &
+j
 ]
 (
 char16_t
@@ -2571,6 +2576,7 @@ onChar
 =
 [
 &
+encoding
 ]
 (
 char16_t
