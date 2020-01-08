@@ -2758,6 +2758,17 @@ AntiTrackingCommon
 IsOnContentBlockingAllowList
 (
 topWinURI
+aAnnotationsOnly
+?
+AntiTrackingCommon
+:
+:
+eTrackingAnnotations
+:
+AntiTrackingCommon
+:
+:
+eTrackingProtection
 mIsAllowListed
 )
 ;

@@ -190,6 +190,14 @@ FirstPartyStorageAccessGrantedForOriginResolver
 aResolver
 )
 ;
+enum
+ContentBlockingAllowListPurpose
+{
+eStorageChecks
+eTrackingProtection
+eTrackingAnnotations
+}
+;
 static
 nsresult
 IsOnContentBlockingAllowList
@@ -197,6 +205,8 @@ IsOnContentBlockingAllowList
 nsIURI
 *
 aTopWinURI
+ContentBlockingAllowListPurpose
+aPurpose
 bool
 &
 aIsAllowListed
