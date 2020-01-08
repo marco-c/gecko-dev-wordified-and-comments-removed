@@ -1621,6 +1621,7 @@ rv
 )
 ;
 }
+}
 mActualTarget
 =
 renamedTarget
@@ -1629,7 +1630,6 @@ mActualTargetKeepPartial
 =
 renamedTargetKeepPartial
 ;
-}
 }
 if
 (
