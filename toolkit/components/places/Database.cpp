@@ -13674,6 +13674,11 @@ MOZ_ASSERT
 target
 )
 ;
+if
+(
+target
+)
+{
 Unused
 <
 <
@@ -13686,6 +13691,7 @@ runnable
 NS_DISPATCH_NORMAL
 )
 ;
+}
 }
 nsresult
 Database
