@@ -2599,16 +2599,6 @@ InputContextAction
 action
 )
 ;
-sync
-IsParentWindowMainWidgetVisible
-(
-)
-returns
-(
-bool
-visible
-)
-;
 /
 *
 *
