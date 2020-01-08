@@ -269,6 +269,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 runner
 .
 RunWith
@@ -1119,6 +1125,7 @@ WebView
 )
 )
 }
+Ignore
 Test
 fun
 testPageLoad
@@ -1160,6 +1167,7 @@ AccessibilityEvent
 }
 )
 }
+Ignore
 Test
 fun
 testAccessibilityFocus
@@ -1319,6 +1327,7 @@ true
 }
 )
 }
+Ignore
 Test
 fun
 testTextEntryNode
@@ -1856,6 +1865,7 @@ extendSelection
 return
 arguments
 }
+Ignore
 Test
 fun
 testClipboard
@@ -2221,6 +2231,7 @@ cruel
 }
 )
 }
+Ignore
 Test
 fun
 testMoveByCharacter
@@ -2393,6 +2404,7 @@ waitUntilTextTraversed
 L
 "
 }
+Ignore
 Test
 fun
 testMoveByWord
@@ -2565,6 +2577,7 @@ waitUntilTextTraversed
 Lorem
 "
 }
+Ignore
 Test
 fun
 testMoveByLine
@@ -2742,6 +2755,7 @@ ipsum
 dolor
 "
 }
+Ignore
 Test
 fun
 testCheckbox
@@ -2970,6 +2984,7 @@ waitUntilClick
 false
 )
 }
+Ignore
 Test
 fun
 testSelectable
@@ -3285,6 +3300,7 @@ contains
 nodeBounds
 )
 }
+Ignore
 Test
 fun
 testScroll
@@ -4007,6 +4023,7 @@ bug
 1485107
 )
 WithDevToolsAPI
+Ignore
 Test
 fun
 autoFill
@@ -4719,6 +4736,7 @@ fix
 bug
 1485107
 )
+Ignore
 Test
 fun
 autoFill_navigation
