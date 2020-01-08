@@ -3569,6 +3569,7 @@ aBehavior
 :
 DOMEventTargetHelper
 (
+aGlobal
 )
 mWorkerPrivate
 (
@@ -3638,18 +3639,11 @@ mTaskCount
 {
 if
 (
+!
 NS_IsMainThread
 (
 )
 )
-{
-BindToOwner
-(
-aGlobal
-)
-;
-}
-else
 {
 mWorkerPrivate
 =
