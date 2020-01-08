@@ -16715,27 +16715,36 @@ pid_i
                     
 break
                 
+if
+attempt
+<
+max_attempts
+:
+                    
 self
 .
 _logger
 .
-error
+info
 (
 '
 get_process_list
 :
+attempt
+:
+%
+d
 %
 s
 '
 %
+(
+attempt
 header
 )
+)
                 
-if
-attempt
->
-=
-max_attempts
+else
 :
                     
 raise
