@@ -70,17 +70,6 @@ h
 "
 #
 include
-"
-webrtc
-/
-video_engine
-/
-desktop_capture_impl
-.
-h
-"
-#
-include
 <
 memory
 >
