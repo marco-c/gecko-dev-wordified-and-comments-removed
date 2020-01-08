@@ -223,10 +223,6 @@ BASE_ABS_DIRS
 '
 abs_log_dir
 '
-                     
-'
-abs_upload_dir
-'
 '
 abs_work_dir
 '
