@@ -1874,7 +1874,7 @@ FinishAddTracks
 )
 ;
 virtual
-bool
+StreamTime
 AppendToTrack
 (
 TrackID
