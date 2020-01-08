@@ -566,16 +566,6 @@ callback
 (
 window
 .
-XRStageBoundsPoint
-'
-XRStageBoundsPoint
-'
-)
-;
-callback
-(
-window
-.
 XRSessionEvent
 '
 XRSessionEvent
