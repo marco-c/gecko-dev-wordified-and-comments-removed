@@ -7154,11 +7154,9 @@ clone
 ;
 rv
 =
-referrer
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+referrer
 getter_AddRefs
 (
 clone
@@ -7382,11 +7380,9 @@ mURIclone
 ;
 rv
 =
-mURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+mURI
 getter_AddRefs
 (
 mURIclone

@@ -2827,11 +2827,9 @@ aSpec
 )
 {
 return
-aBaseURI
--
->
-CloneWithNewRef
+NS_GetURIWithNewRef
 (
+aBaseURI
 aSpec
 result
 )

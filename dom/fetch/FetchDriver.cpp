@@ -5215,11 +5215,9 @@ uriClone
 nsresult
 rv
 =
-uri
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+uri
 getter_AddRefs
 (
 uriClone

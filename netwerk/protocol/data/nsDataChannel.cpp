@@ -169,13 +169,11 @@ uri
 ;
 rv
 =
+NS_GetURIWithoutRef
+(
 URI
 (
 )
--
->
-CloneIgnoringRef
-(
 getter_AddRefs
 (
 uri

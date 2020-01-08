@@ -542,11 +542,9 @@ resolvedURIClone
 ;
 aRv
 =
-resolvedURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+resolvedURI
 getter_AddRefs
 (
 resolvedURIClone
@@ -784,11 +782,9 @@ uriClone
 ;
 aRv
 =
-uri
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+uri
 getter_AddRefs
 (
 uriClone

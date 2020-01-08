@@ -3051,11 +3051,9 @@ docUri
 NS_ERROR_FAILURE
 )
 ;
-docUri
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+docUri
 getter_AddRefs
 (
 uri

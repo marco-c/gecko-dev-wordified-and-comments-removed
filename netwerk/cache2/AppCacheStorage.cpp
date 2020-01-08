@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h
@@ -262,11 +269,9 @@ noRefURI
 ;
 rv
 =
-aURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+aURI
 getter_AddRefs
 (
 noRefURI

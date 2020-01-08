@@ -1724,11 +1724,9 @@ eReplaceRef
 {
 rv
 =
-mInnerURI
--
->
-CloneWithNewRef
+NS_GetURIWithNewRef
 (
+mInnerURI
 aNewRef
 getter_AddRefs
 (
@@ -1741,11 +1739,9 @@ else
 {
 rv
 =
-mInnerURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+mInnerURI
 getter_AddRefs
 (
 innerClone

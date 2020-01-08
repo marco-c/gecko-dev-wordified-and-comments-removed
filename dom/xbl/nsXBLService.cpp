@@ -3996,11 +3996,9 @@ documentURI
 nsresult
 rv
 =
-aBindingURI
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+aBindingURI
 getter_AddRefs
 (
 documentURI

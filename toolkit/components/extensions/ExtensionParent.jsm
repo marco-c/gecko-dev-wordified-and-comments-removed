@@ -2455,11 +2455,7 @@ browser
 .
 currentURI
 .
-cloneIgnoringRef
-(
-)
-.
-spec
+specIgnoringRef
 =
 =
 =

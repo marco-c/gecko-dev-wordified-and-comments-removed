@@ -1634,11 +1634,9 @@ contextUri
 nsresult
 rv
 =
-docUri
--
->
-CloneIgnoringRef
+NS_GetURIWithoutRef
 (
+docUri
 getter_AddRefs
 (
 contextUri
