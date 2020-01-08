@@ -245,8 +245,14 @@ listAddons
 )
 =
 >
+(
+{
+addons
+:
 [
 ]
+}
+)
 listTabs
 :
 (

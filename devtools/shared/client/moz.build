@@ -88,6 +88,13 @@ MPL
 DevToolsModules
 (
 '
+addon
+-
+client
+.
+js
+'
+'
 array
 -
 buffer

@@ -72,8 +72,6 @@ connect
 await
 client
 .
-mainRoot
-.
 listAddons
 (
 )
@@ -374,8 +372,6 @@ onAddonListChanged
 ;
 await
 client
-.
-mainRoot
 .
 listAddons
 (
