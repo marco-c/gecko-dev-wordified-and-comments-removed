@@ -1075,6 +1075,16 @@ name
 :
 readability
 -
+implicit
+-
+bool
+-
+conversion
+-
+name
+:
+readability
+-
 inconsistent
 -
 declaration
