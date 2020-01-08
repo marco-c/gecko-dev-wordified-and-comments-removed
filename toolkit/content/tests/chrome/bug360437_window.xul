@@ -486,6 +486,15 @@ element
 form
 >
 "
+{
+triggeringPrincipal
+:
+window
+.
+document
+.
+nodePrincipal
+}
 )
 ;
 await

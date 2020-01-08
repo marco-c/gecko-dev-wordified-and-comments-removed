@@ -1341,6 +1341,15 @@ testName
 .
 html
 "
+{
+triggeringPrincipal
+:
+window
+.
+document
+.
+nodePrincipal
+}
 )
 ;
 await
