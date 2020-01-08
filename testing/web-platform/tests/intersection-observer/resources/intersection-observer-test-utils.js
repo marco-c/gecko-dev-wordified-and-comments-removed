@@ -11,7 +11,9 @@ function
 (
 )
 {
-requestAnimationFrame
+t
+.
+step_timeout
 (
 function
 (
