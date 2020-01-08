@@ -14204,7 +14204,7 @@ str
 default
 =
 '
-compileLocalWithGeckoBinariesDebugSources
+compileLocalWithGeckoBinariesNoMinApiDebugSources
 '
                      
 help
@@ -14252,7 +14252,7 @@ checks
 task
 =
 '
-compileLocalWithGeckoBinariesDebugSources
+compileLocalWithGeckoBinariesNoMinApiDebugSources
 '
                    
 skip_export

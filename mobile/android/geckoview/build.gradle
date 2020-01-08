@@ -2886,7 +2886,7 @@ tasks
 findByName
 (
 '
-bundleOfficialWithGeckoBinariesRelease
+bundleOfficialWithGeckoBinariesNoMinApiRelease
 '
 )
 if
@@ -2995,7 +2995,7 @@ Gecko
 binaries
 .
 archives
-bundleOfficialWithGeckoBinariesRelease
+bundleOfficialWithGeckoBinariesNoMinApiRelease
 /
 /
 Javadoc
@@ -3006,9 +3006,9 @@ developer
 ergononomics
 .
 archives
-javadocJarOfficialWithGeckoBinariesRelease
+javadocJarOfficialWithGeckoBinariesNoMinApiRelease
 archives
-sourcesJarOfficialWithGeckoBinariesRelease
+sourcesJarOfficialWithGeckoBinariesNoMinApiRelease
 }
 /
 /
