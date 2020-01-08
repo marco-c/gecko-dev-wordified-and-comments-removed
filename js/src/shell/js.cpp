@@ -54238,6 +54238,9 @@ ErrorFilePointer
 (
 )
 ;
+JS
+:
+:
 PrintError
 (
 cx
@@ -54471,6 +54474,9 @@ restore
 )
 ;
 }
+JS
+:
+:
 PrintError
 (
 cx
