@@ -1701,12 +1701,6 @@ cleanup
 (
 )
 ;
-TabsInTitlebar
-.
-update
-(
-)
-;
 }
 if
 (

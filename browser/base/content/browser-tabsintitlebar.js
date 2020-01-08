@@ -38,7 +38,7 @@ true
 ;
 this
 .
-update
+_update
 (
 )
 ;
@@ -73,7 +73,7 @@ condition
 ;
 this
 .
-update
+_update
 (
 )
 ;
@@ -103,7 +103,7 @@ null
 ;
 this
 .
-update
+_update
 (
 )
 ;
@@ -271,7 +271,7 @@ _prefName
 )
 ;
 }
-update
+_update
 (
 )
 {
@@ -281,11 +281,6 @@ if
 this
 .
 _initialized
-|
-|
-window
-.
-fullScreen
 )
 {
 return
@@ -297,6 +292,12 @@ allowed
 this
 .
 systemSupported
+&
+&
+!
+window
+.
+fullScreen
 &
 &
 (
@@ -536,7 +537,7 @@ init
 {
 this
 .
-update
+_update
 (
 )
 ;
@@ -602,12 +603,12 @@ return
 }
 this
 .
-update
+_update
 (
 )
 ;
 }
-update
+_update
 (
 )
 {
@@ -654,12 +655,6 @@ extradragspace
 )
 ;
 }
-TabsInTitlebar
-.
-update
-(
-)
-;
 }
 }
 ;

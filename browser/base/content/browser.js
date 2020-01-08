@@ -37268,12 +37268,6 @@ this
 )
 )
 ;
-TabsInTitlebar
-.
-update
-(
-)
-;
 }
 else
 if
@@ -37344,12 +37338,6 @@ type
 this
 )
 )
-)
-;
-TabsInTitlebar
-.
-update
-(
 )
 ;
 }
