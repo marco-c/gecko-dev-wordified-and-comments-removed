@@ -266,14 +266,9 @@ sh
 =
 popup
 .
+docShell
+.
 QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
-getInterface
 (
 Ci
 .

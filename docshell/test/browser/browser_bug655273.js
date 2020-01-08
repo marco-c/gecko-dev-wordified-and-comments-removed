@@ -96,14 +96,9 @@ shistory
 =
 cw
 .
+docShell
+.
 QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
-getInterface
 (
 Ci
 .

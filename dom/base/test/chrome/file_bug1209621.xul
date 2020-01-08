@@ -219,12 +219,7 @@ docshell
 =
 window
 .
-getInterface
-(
-Ci
-.
-nsIDocShell
-)
+docShell
 ;
 ok
 (

@@ -225,14 +225,9 @@ shistory
 =
 content
 .
+docShell
+.
 QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
-getInterface
 (
 Ci
 .

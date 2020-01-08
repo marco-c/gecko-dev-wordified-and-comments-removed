@@ -608,14 +608,9 @@ content
 .
 window
 .
+docShell
+.
 QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
-getInterface
 (
 Ci
 .
