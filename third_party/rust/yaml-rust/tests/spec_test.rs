@@ -26,9 +26,9 @@ parser
 :
 :
 {
-Parser
-EventReceiver
 Event
+EventReceiver
+Parser
 }
 ;
 use
@@ -241,9 +241,7 @@ OnAlias
 _
 =
 >
-{
 return
-}
 }
 ;
 self
@@ -336,7 +334,7 @@ pat
 )
 =
 >
-(
+{
 match
 v
 .
@@ -374,7 +372,8 @@ e
 ;
 }
 }
-)
+}
+;
 }
 include
 !
@@ -427,8 +426,8 @@ yaml_rust
 :
 :
 {
-YamlLoader
 YamlEmitter
+YamlLoader
 }
 ;
 let

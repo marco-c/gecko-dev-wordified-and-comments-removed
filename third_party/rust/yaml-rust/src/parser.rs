@@ -482,7 +482,6 @@ _
 )
 =
 >
-{
 Ok
 (
 self
@@ -497,7 +496,6 @@ unwrap
 (
 )
 )
-}
 }
 }
 fn
@@ -2352,7 +2350,6 @@ mark
 _
 =
 >
-{
 self
 .
 parse_node
@@ -2360,7 +2357,6 @@ parse_node
 true
 false
 )
-}
 }
 }
 fn
@@ -2596,6 +2592,7 @@ name
 None
 =
 >
+{
 return
 Err
 (
@@ -2615,6 +2612,7 @@ anchor
 "
 )
 )
+}
 Some
 (
 id
@@ -3188,7 +3186,6 @@ _
 )
 =
 >
-{
 Err
 (
 ScanError
@@ -3211,7 +3208,6 @@ content
 "
 )
 )
-}
 }
 }
 fn
@@ -3441,7 +3437,6 @@ _
 )
 =
 >
-{
 Err
 (
 ScanError
@@ -3464,7 +3459,6 @@ key
 "
 )
 )
-}
 }
 }
 fn
@@ -4781,7 +4775,6 @@ _
 )
 =
 >
-{
 Err
 (
 ScanError
@@ -4807,7 +4800,6 @@ indicator
 "
 )
 )
-}
 }
 }
 fn
