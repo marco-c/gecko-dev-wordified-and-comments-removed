@@ -53,15 +53,6 @@ e
 )
 {
 var
-port
-=
-e
-.
-data
-.
-port
-;
-var
 client_ids
 =
 e
@@ -133,7 +124,9 @@ clients
 undefined
 )
 {
-port
+e
+.
+source
 .
 postMessage
 (
@@ -199,7 +192,9 @@ client
 }
 )
 ;
-port
+e
+.
+source
 .
 postMessage
 (
