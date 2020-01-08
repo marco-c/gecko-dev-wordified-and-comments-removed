@@ -1248,9 +1248,6 @@ aPrincipalURISpec
 nsIArray
 *
 aArrayTransferables
-nsIScriptableRegion
-*
-aRegion
 uint32_t
 aActionType
 nsContentPolicyType
@@ -1295,7 +1292,6 @@ InvokeDragSession
 aDOMNode
 aPrincipalURISpec
 aArrayTransferables
-aRegion
 aActionType
 aContentPolicyType
 )
@@ -1344,10 +1340,6 @@ sourceList
 )
 return
 NS_OK
-;
-mSourceRegion
-=
-aRegion
 ;
 GdkDragAction
 action
@@ -1516,10 +1508,6 @@ action
 &
 event
 )
-;
-mSourceRegion
-=
-nullptr
 ;
 nsresult
 rv
@@ -7878,7 +7866,7 @@ surface
 DrawDrag
 (
 mSourceNode
-mSourceRegion
+mRegion
 mScreenPosition
 &
 dragRect

@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsIScriptableRegion
+.
+h
+"
+#
+include
+"
 nsITransferable
 .
 h
@@ -468,6 +475,12 @@ ContentParent
 >
 >
 mChildProcesses
+;
+nsCOMPtr
+<
+nsIScriptableRegion
+>
+mRegion
 ;
 }
 ;
