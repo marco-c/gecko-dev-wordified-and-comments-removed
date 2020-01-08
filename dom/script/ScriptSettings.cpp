@@ -2870,6 +2870,9 @@ cx
 (
 )
 )
+#
+ifdef
+MOZ_GECKO_PROFILER
 mAutoProfilerLabel
 (
 "
@@ -2888,6 +2891,8 @@ Category
 :
 JS
 )
+#
+endif
 {
 MOZ_ASSERT
 (

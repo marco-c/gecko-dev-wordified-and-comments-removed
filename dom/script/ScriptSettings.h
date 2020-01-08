@@ -821,9 +821,14 @@ JS
 AutoHideScriptedCaller
 mCallerOverride
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
 AutoProfilerLabel
 mAutoProfilerLabel
 ;
+#
+endif
 }
 ;
 class
