@@ -471,6 +471,15 @@ PKG_BASENAME
 mozsearch
 -
 rust
+MOZSEARCH_INCLUDEMAP_BASENAME
+=
+(
+PKG_BASENAME
+)
+.
+mozsearch
+-
+distinclude
 #
 Mozharness
 naming
