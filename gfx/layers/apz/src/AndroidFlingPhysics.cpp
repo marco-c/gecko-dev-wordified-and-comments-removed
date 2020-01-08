@@ -745,6 +745,16 @@ Length
 (
 )
 ;
+MOZ_ASSERT
+(
+mVelocity
+!
+=
+0
+.
+0f
+)
+;
 const
 double
 tuningCoeff
