@@ -1931,6 +1931,7 @@ app
 firefox
 "
 or
+(
 self
 .
 app
@@ -1939,6 +1940,12 @@ app
 "
 geckoview
 "
+and
+not
+self
+.
+run_local
+)
 :
             
 binary_path
