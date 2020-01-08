@@ -802,11 +802,11 @@ add
 true
 )
 ;
-toolbox
+inspector
 .
-highlighterUtils
+nodePicker
 .
-cancelPicker
+cancel
 (
 )
 ;
