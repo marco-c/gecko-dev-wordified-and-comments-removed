@@ -19528,7 +19528,7 @@ setResultType
 MIRType
 :
 :
-Int32
+Value
 )
 ;
 setMovable
@@ -20174,7 +20174,10 @@ Int64
 ;
 setResultType
 (
-type
+MIRType
+:
+:
+Value
 )
 ;
 setMovable

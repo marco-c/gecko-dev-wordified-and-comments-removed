@@ -10874,7 +10874,7 @@ LBitNotV
 public
 LCallInstructionHelper
 <
-1
+BOX_PIECES
 BOX_PIECES
 0
 >
@@ -11096,7 +11096,7 @@ LBitOpV
 public
 LCallInstructionHelper
 <
-1
+BOX_PIECES
 2
 *
 BOX_PIECES
