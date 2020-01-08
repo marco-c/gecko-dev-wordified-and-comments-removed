@@ -2147,7 +2147,7 @@ AbortReasonOr
 <
 Ok
 >
-compareTrySharedStub
+compareTryBinaryStub
 (
 bool
 *
