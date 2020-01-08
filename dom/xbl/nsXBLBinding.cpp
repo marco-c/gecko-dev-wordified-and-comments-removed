@@ -1454,16 +1454,6 @@ NodeInfo
 ;
 if
 (
-!
-child
--
->
-TextIsOnlyWhitespace
-(
-)
-&
-&
-(
 ni
 -
 >
@@ -1499,7 +1489,6 @@ nsGkAtoms
 :
 :
 observes
-)
 )
 )
 )
