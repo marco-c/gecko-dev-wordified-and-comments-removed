@@ -777,6 +777,7 @@ Module
 >
 SharedModule
 ;
+MOZ_MUST_USE
 bool
 GetOptimizedEncodingBuildId
 (

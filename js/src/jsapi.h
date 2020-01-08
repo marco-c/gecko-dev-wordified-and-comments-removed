@@ -12815,6 +12815,7 @@ length
 }
 ;
 extern
+MOZ_MUST_USE
 JS_PUBLIC_API
 (
 bool
@@ -15906,6 +15907,18 @@ jit
 track
 -
 optimizations
+"
+)
+\
+Register
+(
+ENABLE_TRACELOGGER
+"
+jit
+.
+enable
+-
+tracelogger
 "
 )
 \
