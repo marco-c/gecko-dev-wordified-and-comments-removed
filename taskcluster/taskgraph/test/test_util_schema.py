@@ -243,7 +243,7 @@ int
 )
     
 def
-test_extend_schema
+test_extend_schema_twice
 (
 self
 )
