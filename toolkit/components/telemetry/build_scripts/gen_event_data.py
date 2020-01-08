@@ -1162,14 +1162,6 @@ else
 False
             
 '
-expires
-'
-:
-event
-.
-expiry_version
-            
-'
 expired
 '
 :
