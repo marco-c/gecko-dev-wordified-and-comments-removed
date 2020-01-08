@@ -713,12 +713,6 @@ mozjs_sys
 /
 out
 /
-js
-/
-src
-/
-rust
-/
 *
 /
 debug
