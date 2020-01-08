@@ -5562,6 +5562,11 @@ Now
 ;
 if
 (
+!
+mNeedAnotherIteration
+|
+|
+(
 (
 now
 -
@@ -5579,6 +5584,7 @@ CurrentDriver
 >
 IterationDuration
 (
+)
 )
 )
 {
