@@ -343,10 +343,6 @@ const
 MediaResult
 CreateDecoder
 (
-const
-VideoInfo
-&
-aConfig
 DecoderDoctorDiagnostics
 *
 aDiagnostics
@@ -405,10 +401,6 @@ RefPtr
 PlatformDecoderModule
 >
 mPDM
-;
-const
-VideoInfo
-mOriginalConfig
 ;
 VideoInfo
 mCurrentConfig
