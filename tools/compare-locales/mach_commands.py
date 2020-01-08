@@ -56,7 +56,7 @@ locales
 category
 =
 '
-testing
+build
 '
              
 description
