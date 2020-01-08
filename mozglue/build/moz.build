@@ -481,6 +481,11 @@ Authenticode
 cpp
 '
 '
+UntrustedDllsHandler
+.
+cpp
+'
+'
 WindowsDllBlocklist
 .
 cpp
