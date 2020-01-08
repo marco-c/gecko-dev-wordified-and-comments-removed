@@ -18010,7 +18010,7 @@ idlName
 :
 [
 '
-opoacity
+opacity
 (
 1
 )
