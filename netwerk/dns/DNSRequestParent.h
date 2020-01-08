@@ -80,6 +80,10 @@ nsCString
 &
 hostName
 const
+uint16_t
+&
+type
+const
 OriginAttributes
 &
 originAttributes

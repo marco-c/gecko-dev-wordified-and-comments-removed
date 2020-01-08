@@ -119,6 +119,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIDNSByTypeRecord
+.
+idl
+'
+'
 nsIDNSListener
 .
 idl
