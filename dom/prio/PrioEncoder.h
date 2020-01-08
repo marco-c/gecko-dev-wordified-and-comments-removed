@@ -41,10 +41,7 @@ NS_INLINE_DECL_REFCOUNTING
 PrioEncoder
 )
 static
-already_AddRefed
-<
-Promise
->
+void
 Encode
 (
 GlobalObject
@@ -58,6 +55,12 @@ const
 PrioParams
 &
 aPrioParams
+RootedDictionary
+<
+PrioEncodedData
+>
+&
+aData
 ErrorResult
 &
 aRv

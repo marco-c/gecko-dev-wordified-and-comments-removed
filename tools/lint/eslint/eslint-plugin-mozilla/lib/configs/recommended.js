@@ -201,6 +201,11 @@ PlacesWeakCallbackWrapper
 :
 false
 "
+PrioEncoder
+"
+:
+false
+"
 SharedArrayBuffer
 "
 :
