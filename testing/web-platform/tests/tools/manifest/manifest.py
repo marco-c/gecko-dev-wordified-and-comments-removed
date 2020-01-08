@@ -41,7 +41,7 @@ from_os_path
 to_os_path
 CURRENT_VERSION
 =
-4
+5
 class
 ManifestError
 (
