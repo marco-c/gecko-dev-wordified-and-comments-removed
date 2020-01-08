@@ -468,10 +468,11 @@ oncommand
 "
 gBrowser
 .
-selectedTab
-.
-toggleMuteAudio
+toggleMuteAudioOnMultiSelectedTabs
 (
+gBrowser
+.
+selectedTab
 )
 "
 /
