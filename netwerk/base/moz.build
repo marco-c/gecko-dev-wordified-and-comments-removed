@@ -410,11 +410,6 @@ nsINetworkPredictorVerifier
 idl
 '
 '
-nsINetworkProperties
-.
-idl
-'
-'
 nsINullChannel
 .
 idl

@@ -114,9 +114,6 @@ class
 nsIDOMNavigatorSystemMessages
 ;
 class
-nsINetworkProperties
-;
-class
 nsIPrincipal
 ;
 class
@@ -772,12 +769,6 @@ RequestVRPresentation
 VRDisplay
 &
 aDisplay
-)
-;
-nsINetworkProperties
-*
-GetNetworkProperties
-(
 )
 ;
 already_AddRefed
