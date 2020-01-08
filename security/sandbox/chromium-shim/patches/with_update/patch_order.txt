@@ -61,6 +61,9 @@ patch
 mingw_capitalization
 .
 patch
+mingw_disable_one_try
+.
+patch
 mingw_offsetof
 .
 patch
