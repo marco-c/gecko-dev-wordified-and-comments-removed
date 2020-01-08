@@ -7127,7 +7127,7 @@ null
 {
 final
 String
-dataDir
+packageName
 =
 InstrumentationRegistry
 .
@@ -7135,11 +7135,9 @@ getTargetContext
 (
 )
 .
-getApplicationInfo
+getPackageName
 (
 )
-.
-dataDir
 ;
 final
 LocalSocketAddress
@@ -7148,7 +7146,7 @@ address
 new
 LocalSocketAddress
 (
-dataDir
+packageName
 +
 "
 /
@@ -7162,7 +7160,7 @@ LocalSocketAddress
 .
 Namespace
 .
-FILESYSTEM
+ABSTRACT
 )
 ;
 sRDPConnection
