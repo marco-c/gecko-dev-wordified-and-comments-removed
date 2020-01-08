@@ -296,7 +296,7 @@ MPL
     
 classifiers
 =
-[
+(
         
 '
 Development
@@ -456,5 +456,5 @@ Python
 6
 '
     
-]
+)
 )
