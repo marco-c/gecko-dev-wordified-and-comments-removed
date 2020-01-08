@@ -141,7 +141,7 @@ of
 .
 XULBrowserWindow
 .
-elementsForViewSource
+_elementsForViewSource
 ]
 )
 {
@@ -215,7 +215,7 @@ of
 .
 XULBrowserWindow
 .
-elementsForViewSource
+_elementsForViewSource
 ]
 )
 {
