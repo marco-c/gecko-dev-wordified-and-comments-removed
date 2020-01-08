@@ -1403,8 +1403,13 @@ debug
 (
 "
 Starting
-Fennec
+%
+s
 "
+%
+self
+.
+package_name
 )
         
 self
@@ -1504,9 +1509,14 @@ logger
 debug
 (
 "
-Fennec
+%
+s
 Started
 "
+%
+self
+.
+package_name
 )
     
 def
