@@ -159,6 +159,7 @@ prim_store
 {
 PrimitiveStore
 DeferredResolve
+PrimitiveScratchBuffer
 }
 ;
 use
@@ -394,6 +395,13 @@ a
 [
 SurfaceInfo
 ]
+pub
+scratch
+:
+&
+'
+a
+PrimitiveScratchBuffer
 }
 #
 [

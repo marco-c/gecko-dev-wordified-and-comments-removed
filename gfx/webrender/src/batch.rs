@@ -2561,7 +2561,7 @@ get_clip_task_address
 &
 ctx
 .
-prim_store
+scratch
 .
 clip_mask_instances
 prim_instance
@@ -2861,7 +2861,7 @@ glyph_keys
 &
 ctx
 .
-prim_store
+scratch
 .
 glyph_keys
 [
@@ -3744,7 +3744,7 @@ get_clip_task_address
 &
 ctx
 .
-prim_store
+scratch
 .
 clip_mask_instances
 prim_instance
@@ -6238,7 +6238,7 @@ get_clip_task_address
 &
 ctx
 .
-prim_store
+scratch
 .
 clip_mask_instances
 clip_task_index

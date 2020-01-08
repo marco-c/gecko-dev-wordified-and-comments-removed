@@ -234,6 +234,7 @@ BorderSource
 PrimitiveContainer
 PrimitiveDataHandle
 PrimitiveStore
+PrimitiveStoreStats
 }
 ;
 use
@@ -781,6 +782,10 @@ resources
 &
 mut
 DocumentResources
+prim_store_stats
+:
+&
+PrimitiveStoreStats
 )
 -
 >
@@ -909,6 +914,8 @@ PrimitiveStore
 :
 new
 (
+&
+prim_store_stats
 )
 clip_store
 :
