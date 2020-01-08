@@ -27713,6 +27713,15 @@ UpdateClientOffsetForCSDWindow
 {
 if
 (
+!
+mIsX11Display
+)
+{
+return
+;
+}
+if
+(
 mSizeState
 =
 =
