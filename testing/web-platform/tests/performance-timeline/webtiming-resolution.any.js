@@ -41,6 +41,13 @@ highResTimeFunc
 )
 ;
 }
+const
+epsilon
+=
+1e
+-
+5
+;
 assert_greater_than_equal
 (
 t1
@@ -48,7 +55,9 @@ t1
 t0
 0
 .
-02
+005
+-
+epsilon
 '
 The
 second
@@ -81,7 +90,7 @@ funcString
 is
 at
 least
-20
+5
 microseconds
 .
 '
