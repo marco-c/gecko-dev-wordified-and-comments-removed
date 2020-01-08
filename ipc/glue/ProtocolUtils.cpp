@@ -3104,6 +3104,10 @@ IToplevelProtocol
 (
 )
 {
+mState
+=
+nullptr
+;
 if
 (
 mTrans
