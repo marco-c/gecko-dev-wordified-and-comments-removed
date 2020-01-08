@@ -1690,6 +1690,16 @@ asGlobalContext
 )
 ;
 }
+AutoGeckoProfilerEntry
+pseudoFrame
+(
+cx
+"
+script
+emit
+"
+)
+;
 if
 (
 pn
