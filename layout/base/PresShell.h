@@ -203,6 +203,9 @@ Selection
 class
 EventDispatchingCallback
 ;
+class
+OverflowChangedTracker
+;
 typedef
 nsTHashtable
 <
@@ -1871,6 +1874,12 @@ nsIFrame
 aFrame
 bool
 aInterruptible
+mozilla
+:
+:
+OverflowChangedTracker
+*
+aOverflowTracker
 )
 ;
 #
