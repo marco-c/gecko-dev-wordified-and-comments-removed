@@ -17739,9 +17739,7 @@ LayoutDeviceRect
 :
 FromAppUnits
 (
-GetPaintRect
-(
-)
+mBounds
 mFrame
 -
 >
