@@ -10592,9 +10592,14 @@ NewObjectIRGenerator
 public
 IRGenerator
 {
+#
+ifdef
+JS_CACHEIR_SPEW
 JSOp
 op_
 ;
+#
+endif
 HandleObject
 templateObject_
 ;
