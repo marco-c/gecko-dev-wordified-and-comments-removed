@@ -433,9 +433,6 @@ DIRS
 '
 openvr
 '
-'
-service
-'
 ]
 SOURCES
 +
@@ -492,6 +489,16 @@ LOCAL_INCLUDES
 widget
 /
 android
+'
+]
+else
+:
+DIRS
++
+=
+[
+'
+service
 '
 ]
 IPDL_SOURCES
