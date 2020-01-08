@@ -317,9 +317,10 @@ control
 )
 control
 .
-_radioChildren
-=
-null
+radioChildConstructed
+(
+this
+)
 ;
 ]
 ]
