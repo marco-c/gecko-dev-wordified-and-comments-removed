@@ -9225,8 +9225,6 @@ aParentDocument
 void
 SetUserHasInteracted
 (
-bool
-aUserHasInteracted
 )
 ;
 bool

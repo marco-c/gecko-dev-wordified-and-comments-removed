@@ -2365,7 +2365,6 @@ doc
 >
 SetUserHasInteracted
 (
-true
 )
 ;
 doc
