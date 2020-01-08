@@ -681,11 +681,9 @@ n
 return
 ;
 }
-Services
+ChromeUtils
 .
-scriptloader
-.
-loadSubScript
+import
 (
 "
 resource
@@ -698,7 +696,7 @@ powers
 /
 TalosParentProfiler
 .
-js
+jsm
 "
 context
 )
