@@ -1143,7 +1143,7 @@ window
 addEventListener
 (
 "
-pagechange
+pagechanging
 "
 function
 pageChange
@@ -1167,7 +1167,7 @@ window
 removeEventListener
 (
 "
-pagechange
+pagechanging
 "
 pageChange
 )
