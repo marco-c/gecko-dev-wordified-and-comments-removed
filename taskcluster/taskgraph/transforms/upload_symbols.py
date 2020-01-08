@@ -174,9 +174,9 @@ dep
 task
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -285,9 +285,9 @@ dep
 task
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -741,9 +741,9 @@ del
 task
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

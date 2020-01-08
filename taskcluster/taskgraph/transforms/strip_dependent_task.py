@@ -45,9 +45,9 @@ del
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

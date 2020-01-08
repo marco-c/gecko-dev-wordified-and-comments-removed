@@ -97,9 +97,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

@@ -33,9 +33,9 @@ Schema
 Required
 (
 '
-dependent
+primary
 -
-tasks
+dependency
 '
 '
 primary
@@ -44,18 +44,14 @@ task
 '
 )
 :
-{
-basestring
-:
 Task
-}
     
 Required
 (
 '
-primary
+dependent
 -
-dependency
+tasks
 '
 '
 dictionary
@@ -68,7 +64,11 @@ kind
 '
 )
 :
+{
+basestring
+:
 Task
+}
 }
 )
 GROUP_BY_MAP

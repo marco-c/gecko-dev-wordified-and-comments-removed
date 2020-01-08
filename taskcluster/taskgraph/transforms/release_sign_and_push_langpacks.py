@@ -29,6 +29,14 @@ unicode_literals
 from
 taskgraph
 .
+loader
+.
+single_dep
+import
+schema
+from
+taskgraph
+.
 transforms
 .
 base
@@ -50,7 +58,6 @@ util
 schema
 import
 validate_schema
-Schema
 resolve_keyed_by
 optionally_keyed_by
 from
@@ -99,20 +106,11 @@ TransformSequence
 )
 langpack_sign_push_description_schema
 =
-Schema
+schema
+.
+extend
 (
 {
-    
-Required
-(
-'
-dependent
--
-task
-'
-)
-:
-object
     
 Required
 (
@@ -328,9 +326,9 @@ format
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
 .
@@ -534,9 +532,9 @@ platform
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
 .
@@ -573,9 +571,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -645,9 +643,9 @@ build_platform
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
 .
@@ -807,9 +805,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -1272,9 +1270,9 @@ del
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         

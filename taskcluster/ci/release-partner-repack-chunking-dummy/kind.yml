@@ -140,9 +140,9 @@ doesn
 t
 allow
 "
-dependent
+primary
 -
-task
+dependency
 "
 to
 be

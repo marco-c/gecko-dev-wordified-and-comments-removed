@@ -23,6 +23,14 @@ unicode_literals
 from
 taskgraph
 .
+loader
+.
+single_dep
+import
+schema
+from
+taskgraph
+.
 transforms
 .
 base
@@ -52,7 +60,6 @@ util
 schema
 import
 validate_schema
-Schema
 optionally_keyed_by
 resolve_keyed_by
 from
@@ -128,20 +135,11 @@ TransformSequence
 )
 beetmover_description_schema
 =
-Schema
+schema
+.
+extend
 (
 {
-    
-Required
-(
-'
-dependent
--
-task
-'
-)
-:
-object
     
 Required
 (
@@ -295,9 +293,9 @@ label
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
 .
@@ -465,9 +463,9 @@ dep_job
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
@@ -997,9 +995,9 @@ del
 job
 [
 '
-dependent
+primary
 -
-task
+dependency
 '
 ]
         
