@@ -1068,7 +1068,7 @@ Gray
 zone
 -
 >
-isGCMarkingBlack
+isGCMarkingBlackOnly
 (
 )
 |
@@ -1503,7 +1503,7 @@ if
 dstZone
 -
 >
-isGCMarkingBlack
+isGCMarkingBlackOnly
 (
 )
 )
@@ -1532,7 +1532,7 @@ return
 dstZone
 -
 >
-isGCMarkingGray
+isGCMarkingBlackAndGray
 (
 )
 ;
