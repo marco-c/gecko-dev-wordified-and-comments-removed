@@ -1888,6 +1888,16 @@ Length
 (
 )
 ;
+if
+(
+!
+mean
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 for
 (
 auto
