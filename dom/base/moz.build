@@ -1090,6 +1090,16 @@ ParentProcessMessageManager
 h
 '
 '
+PlacesBookmark
+.
+h
+'
+'
+PlacesBookmarkAddition
+.
+h
+'
+'
 PlacesEvent
 .
 h

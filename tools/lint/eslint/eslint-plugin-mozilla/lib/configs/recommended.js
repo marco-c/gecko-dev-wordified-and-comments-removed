@@ -191,6 +191,16 @@ MenuBoxObject
 :
 false
 "
+PlacesBookmarkAddition
+"
+:
+false
+"
+PlacesEvent
+"
+:
+false
+"
 PlacesObservers
 "
 :
