@@ -1402,10 +1402,6 @@ if
 (
 !
 overlay
-|
-|
-!
-controls
 )
 {
 return

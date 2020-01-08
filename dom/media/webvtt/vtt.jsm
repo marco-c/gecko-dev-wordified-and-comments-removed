@@ -5778,6 +5778,13 @@ clientHeight
 false
 ;
 }
+else
+{
+controlBarShown
+=
+false
+;
+}
 function
 shouldCompute
 (
