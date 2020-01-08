@@ -136,6 +136,16 @@ default
 #
 ifdef
 DEBUG
+static
+void
+AssertColumnSpanWrapperSubtreeIsSane
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
 bool
 mFinishedBuildingColumns
 =

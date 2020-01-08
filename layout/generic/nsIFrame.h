@@ -3785,6 +3785,11 @@ NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
 PlaceholderFrameProperty
 nsPlaceholderFrame
 )
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
+(
+HasColumnSpanSiblings
+bool
+)
 mozilla
 :
 :
@@ -9138,6 +9143,13 @@ const
 inline
 bool
 IsColumnSpan
+(
+)
+const
+;
+inline
+bool
+IsColumnSpanInMulticolSubtree
 (
 )
 const
