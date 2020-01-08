@@ -8072,12 +8072,6 @@ this
 _fullZoom
 data
 .
-uaBackgroundColor
-data
-.
-uaColor
-data
-.
 uaSelectBackgroundColor
 data
 .
@@ -8411,12 +8405,6 @@ data
 .
 selectedIndex
 zoom
-data
-.
-uaBackgroundColor
-data
-.
-uaColor
 data
 .
 uaSelectBackgroundColor
