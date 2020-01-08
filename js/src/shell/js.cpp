@@ -4942,7 +4942,7 @@ vp
 if
 (
 !
-IsCallable
+IsFunctionObject
 (
 args
 .
@@ -4964,7 +4964,8 @@ first
 argument
 must
 be
-callable
+a
+function
 "
 )
 ;
@@ -5260,7 +5261,7 @@ vp
 if
 (
 !
-IsCallable
+IsFunctionObject
 (
 args
 .

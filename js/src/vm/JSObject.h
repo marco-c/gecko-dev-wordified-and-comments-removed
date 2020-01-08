@@ -1569,17 +1569,6 @@ js
 :
 GlobalObject
 &
-deprecatedGlobal
-(
-)
-const
-;
-inline
-js
-:
-:
-GlobalObject
-&
 nonCCWGlobal
 (
 )

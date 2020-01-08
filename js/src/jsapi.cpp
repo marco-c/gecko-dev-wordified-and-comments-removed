@@ -4096,7 +4096,7 @@ cx
 origobj
 -
 >
-deprecatedRealm
+nonCCWRealm
 (
 )
 )
@@ -4246,7 +4246,7 @@ cx
 origobj
 -
 >
-deprecatedRealm
+nonCCWRealm
 (
 )
 )
@@ -17875,6 +17875,15 @@ JSFunction
 )
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+IsCrossCompartmentWrapper
+(
+funobj
+)
+)
+;
 AutoRealm
 ar
 (
@@ -17933,7 +17942,7 @@ AutoRealm
 ar
 (
 cx
-funobj
+fun
 )
 ;
 if
