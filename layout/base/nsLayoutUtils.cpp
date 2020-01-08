@@ -10319,6 +10319,7 @@ StyleSet
 >
 ProbePseudoElementStyle
 (
+*
 aContent
 -
 >
@@ -51020,6 +51021,7 @@ StyleSet
 >
 ResolveServoStyle
 (
+*
 content
 -
 >

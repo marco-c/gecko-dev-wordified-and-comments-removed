@@ -872,6 +872,7 @@ StyleSet
 >
 ResolveServoStyle
 (
+*
 parentElement
 )
 ;

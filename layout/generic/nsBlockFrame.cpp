@@ -37219,6 +37219,7 @@ StyleSet
 >
 ProbePseudoElementStyle
 (
+*
 mContent
 -
 >
@@ -37229,7 +37230,9 @@ CSSPseudoElementType
 :
 :
 firstLetter
-mComputedStyle
+Style
+(
+)
 )
 ;
 }

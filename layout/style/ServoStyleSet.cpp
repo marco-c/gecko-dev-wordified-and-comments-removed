@@ -1486,6 +1486,7 @@ NotPseudo
 return
 ResolveServoStyle
 (
+*
 aElement
 )
 ;
@@ -2143,8 +2144,9 @@ LazyPseudoIsCacheable
 (
 CSSPseudoElementType
 aType
+const
 Element
-*
+&
 aOriginatingElement
 ComputedStyle
 *
@@ -2166,8 +2168,7 @@ aType
 &
 &
 aOriginatingElement
--
->
+.
 HasServoData
 (
 )
@@ -2176,6 +2177,7 @@ HasServoData
 !
 Servo_Element_IsPrimaryStyleReusedViaRuleNode
 (
+&
 aOriginatingElement
 )
 ;
@@ -2265,6 +2267,7 @@ cacheable
 LazyPseudoIsCacheable
 (
 aType
+*
 aOriginatingElement
 aParentContext
 )
@@ -3755,8 +3758,9 @@ ServoStyleSet
 :
 ProbePseudoElementStyle
 (
+const
 Element
-*
+&
 aOriginatingElement
 CSSPseudoElementType
 aType
@@ -3817,6 +3821,7 @@ computedValues
 =
 Servo_ResolvePseudoStyle
 (
+&
 aOriginatingElement
 aType
 true
