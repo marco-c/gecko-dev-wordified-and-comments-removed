@@ -22258,6 +22258,15 @@ SameLoadingURI
 doc
 aChannel
 )
+&
+&
+aState
+=
+=
+nsIWebProgressListener
+:
+:
+STATE_BLOCKED_TRACKING_CONTENT
 )
 {
 return
