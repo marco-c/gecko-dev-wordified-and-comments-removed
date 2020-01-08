@@ -1660,7 +1660,7 @@ add_task
 (
 async
 function
-test_onItemAdded
+test_bookmarkAdded
 (
 )
 {
@@ -1917,7 +1917,7 @@ add_task
 (
 async
 function
-test_async_onItemAdded
+test_async_bookmarkAdded
 (
 )
 {
@@ -4601,7 +4601,7 @@ add_task
 (
 async
 function
-test_onItemAdded_filtered_root
+test_bookmarkAdded_filtered_root
 (
 )
 {

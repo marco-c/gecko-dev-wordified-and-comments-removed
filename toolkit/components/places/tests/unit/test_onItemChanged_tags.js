@@ -199,11 +199,6 @@ resolve
 ;
 }
 }
-onItemAdded
-(
-)
-{
-}
 onBeginUpdateBatch
 (
 )

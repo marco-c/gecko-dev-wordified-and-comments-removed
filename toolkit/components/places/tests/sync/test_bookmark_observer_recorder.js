@@ -1848,7 +1848,9 @@ SYNC
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :

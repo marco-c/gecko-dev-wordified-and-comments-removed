@@ -711,7 +711,9 @@ check
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :
@@ -786,7 +788,9 @@ SYNC
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :
@@ -818,7 +822,8 @@ bookmarks
 TYPE_FOLDER
 urlHref
 :
-null
+"
+"
 title
 :
 "
@@ -851,7 +856,9 @@ SYNC
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :
@@ -4386,7 +4393,9 @@ expectedNotifications
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :
@@ -4461,7 +4470,9 @@ SYNC
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :
@@ -4539,7 +4550,9 @@ SYNC
 name
 :
 "
-onItemAdded
+bookmark
+-
+added
 "
 params
 :

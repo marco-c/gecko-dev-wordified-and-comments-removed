@@ -3098,11 +3098,6 @@ onEndUpdateBatch
 )
 {
 }
-onItemAdded
-(
-)
-{
-}
 onItemRemoved
 (
 )

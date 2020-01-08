@@ -49,11 +49,6 @@ onEndUpdateBatch
 )
 {
 }
-onItemAdded
-(
-)
-{
-}
 onItemRemoved
 (
 )
