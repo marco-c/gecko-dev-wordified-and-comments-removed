@@ -9965,6 +9965,7 @@ mUnicodeString
 ;
 class
 nsRelativeFilePref
+final
 :
 public
 nsIRelativeFilePref
