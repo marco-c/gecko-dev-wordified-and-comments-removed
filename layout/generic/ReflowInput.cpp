@@ -2001,7 +2001,10 @@ StyleDisplay
 mOverflowY
 !
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 )
 )
 {

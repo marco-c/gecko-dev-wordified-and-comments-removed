@@ -1960,7 +1960,10 @@ disp
 mOverflowX
 !
 =
-NS_STYLE_OVERFLOW_VISIBLE
+StyleOverflow
+:
+:
+Visible
 &
 &
 disp
@@ -1969,7 +1972,10 @@ disp
 mOverflowX
 !
 =
-NS_STYLE_OVERFLOW_CLIP
+StyleOverflow
+:
+:
+MozHiddenUnscrollable
 )
 {
 classValue

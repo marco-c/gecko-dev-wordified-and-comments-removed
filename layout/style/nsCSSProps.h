@@ -1416,13 +1416,6 @@ kContainKTable
 static
 const
 KTableEntry
-kOverflowSubKTable
-[
-]
-;
-static
-const
-KTableEntry
 kTextAlignKTable
 [
 ]

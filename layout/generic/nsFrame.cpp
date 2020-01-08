@@ -45255,7 +45255,10 @@ disp
 mOverflowY
 =
 =
-NS_STYLE_OVERFLOW_CLIP
+StyleOverflow
+:
+:
+MozHiddenUnscrollable
 )
 =
 =
@@ -45266,7 +45269,10 @@ disp
 mOverflowX
 =
 =
-NS_STYLE_OVERFLOW_CLIP
+StyleOverflow
+:
+:
+MozHiddenUnscrollable
 )
 "
 If

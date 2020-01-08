@@ -591,7 +591,10 @@ return
 overflow
 =
 =
-NS_STYLE_OVERFLOW_VISIBLE
+StyleOverflow
+:
+:
+Visible
 ;
 }
 static
@@ -1844,7 +1847,10 @@ mCanHaveInlineAxisScrollbar
 scrollbarStyle
 !
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 ;
 if
 (

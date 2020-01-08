@@ -421,6 +421,7 @@ box_
 {
 Display
 TransitionProperty
+Overflow
 }
 ;
 pub

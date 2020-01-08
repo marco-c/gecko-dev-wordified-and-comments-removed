@@ -2774,7 +2774,10 @@ StyleDisplay
 mOverflowX
 =
 =
-NS_STYLE_OVERFLOW_VISIBLE
+StyleOverflow
+:
+:
+Visible
 ;
 }
 #
@@ -17887,7 +17890,10 @@ StyleDisplay
 mOverflowX
 =
 =
-NS_STYLE_OVERFLOW_VISIBLE
+StyleOverflow
+:
+:
+Visible
 )
 )
 {

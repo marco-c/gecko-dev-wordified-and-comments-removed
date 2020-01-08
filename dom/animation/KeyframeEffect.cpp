@@ -5983,7 +5983,10 @@ ss
 mVertical
 =
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 &
 &
 ss
@@ -5991,7 +5994,10 @@ ss
 mHorizontal
 =
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 &
 &
 scrollable

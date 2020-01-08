@@ -22,9 +22,9 @@ ScrollStyles
 :
 ScrollStyles
 (
-uint8_t
+StyleOverflow
 aH
-uint8_t
+StyleOverflow
 aV
 const
 nsStyleDisplay

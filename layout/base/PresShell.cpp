@@ -15280,7 +15280,10 @@ ss
 mVertical
 !
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 )
 &
 &
@@ -15404,7 +15407,10 @@ ss
 mHorizontal
 !
 =
-NS_STYLE_OVERFLOW_HIDDEN
+StyleOverflow
+:
+:
+Hidden
 )
 &
 &
