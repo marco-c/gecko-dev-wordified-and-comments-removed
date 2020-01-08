@@ -1,9 +1,3 @@
-.
-tab
--
-modal
--
-background
 tabmodalprompt
 {
 background
@@ -21,9 +15,6 @@ hsla
 5
 )
 ;
-}
-tabmodalprompt
-{
 font
 -
 family
@@ -40,8 +31,6 @@ size
 %
 ;
 }
-.
-paymentDialogContainerFrame
 .
 tabmodalprompt
 -
