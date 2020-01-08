@@ -8743,7 +8743,7 @@ videoWidth
 300
 videocontrolsWidth
 :
-300
+0
 }
 updateReflowedDimensions
 (
