@@ -510,12 +510,12 @@ if
 Callee
 &
 &
-hasCustomAnnotation
+hasCustomAttribute
+<
+moz_may_call_after_must_return
+>
 (
 Callee
-"
-moz_may_call_after_must_return
-"
 )
 )
 {

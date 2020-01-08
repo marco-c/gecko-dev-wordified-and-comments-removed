@@ -117,12 +117,12 @@ isExplicitSpecified
 &
 &
 !
-hasCustomAnnotation
+hasCustomAttribute
+<
+moz_implicit
+>
 (
 Method
-"
-moz_implicit
-"
 )
 &
 &

@@ -58,12 +58,12 @@ Method
 )
 {
 return
-hasCustomAnnotation
+hasCustomAttribute
+<
+moz_required_base_method
+>
 (
 Method
-"
-moz_required_base_method
-"
 )
 ;
 }

@@ -124,6 +124,11 @@ CanRunScriptChecker
 cpp
 '
 '
+CustomAttributes
+.
+cpp
+'
+'
 CustomTypeAnnotation
 .
 cpp

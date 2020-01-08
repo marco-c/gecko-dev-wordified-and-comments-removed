@@ -26,9 +26,7 @@ NonParamAnnotation
 :
 CustomTypeAnnotation
 (
-"
 moz_non_param
-"
 "
 non
 -
