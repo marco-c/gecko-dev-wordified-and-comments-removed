@@ -467,13 +467,10 @@ aOldComputedStyle
 )
 override
 ;
-NS_IMETHOD
-GetPluginInstance
-(
 nsNPAPIPluginInstance
 *
-*
-aPluginInstance
+GetPluginInstance
+(
 )
 override
 ;

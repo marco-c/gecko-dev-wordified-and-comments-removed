@@ -569,6 +569,16 @@ AsContent
 =
 0
 ;
+uint32_t
+NaturalWidth
+(
+)
+;
+uint32_t
+NaturalHeight
+(
+)
+;
 enum
 class
 ImageDecodingType

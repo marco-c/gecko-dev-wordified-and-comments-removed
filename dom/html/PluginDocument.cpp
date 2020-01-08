@@ -1078,16 +1078,12 @@ RefPtr
 nsNPAPIPluginInstance
 >
 pi
-;
+=
 objectFrame
 -
 >
 GetPluginInstance
 (
-getter_AddRefs
-(
-pi
-)
 )
 ;
 if
