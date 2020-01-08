@@ -1277,10 +1277,6 @@ region
 =
 "
 "
-regionCode
-=
-"
-"
 city
 =
 "
@@ -1418,7 +1414,6 @@ init
 country
 addressLine
 region
-regionCode
 city
 dependentLocality
 postalCode

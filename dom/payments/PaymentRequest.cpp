@@ -5027,10 +5027,6 @@ aRegion
 const
 nsAString
 &
-aRegionCode
-const
-nsAString
-&
 aCity
 const
 nsAString
@@ -5075,7 +5071,6 @@ GetOwner
 aCountry
 emptyArray
 aRegion
-aRegionCode
 aCity
 aDependentLocality
 aPostalCode
@@ -5102,7 +5097,6 @@ GetOwner
 aCountry
 aAddressLine
 aRegion
-aRegionCode
 aCity
 aDependentLocality
 aPostalCode

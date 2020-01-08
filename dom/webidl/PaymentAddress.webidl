@@ -222,11 +222,6 @@ region
 readonly
 attribute
 DOMString
-regionCode
-;
-readonly
-attribute
-DOMString
 city
 ;
 readonly
