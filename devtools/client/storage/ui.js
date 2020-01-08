@@ -5657,6 +5657,11 @@ REASON
 .
 POPULATE
 :
+case
+REASON
+.
+NEXT_50_ITEMS
+:
 this
 .
 table
@@ -5673,11 +5678,6 @@ case
 REASON
 .
 NEW_ROW
-:
-case
-REASON
-.
-NEXT_50_ITEMS
 :
 this
 .
