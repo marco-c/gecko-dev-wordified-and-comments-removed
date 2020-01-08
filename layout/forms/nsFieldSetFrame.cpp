@@ -453,7 +453,6 @@ FirstChild
 }
 class
 nsDisplayFieldSetBorder
-final
 :
 public
 nsDisplayItem
@@ -1822,7 +1821,7 @@ legendAvailSize
 =
 aReflowInput
 .
-ComputedSizeWithPadding
+ComputedSize
 (
 legendWM
 )
