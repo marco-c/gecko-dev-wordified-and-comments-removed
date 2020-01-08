@@ -914,7 +914,7 @@ element
 "
 layout_css_unknown_webkit_pseudo_element
 bool
-false
+true
 )
 VARCACHE_PREF
 (
