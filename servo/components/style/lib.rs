@@ -595,6 +595,10 @@ rule_cache
 ;
 pub
 mod
+rule_collector
+;
+pub
+mod
 rule_tree
 ;
 pub
