@@ -437,7 +437,7 @@ checkout
 true
 tier
 :
-2
+3
 mozharness
 :
 script
