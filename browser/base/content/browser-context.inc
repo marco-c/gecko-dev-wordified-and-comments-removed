@@ -3568,11 +3568,6 @@ viewFrameSource
 )
 ;
 "
-observes
-=
-"
-isFrameImage
-"
 /
 >
 <
@@ -3661,11 +3656,6 @@ viewPartialSource
 )
 ;
 "
-observes
-=
-"
-isImage
-"
 /
 >
 <
@@ -3718,11 +3708,6 @@ gContextMenu
 browser
 )
 ;
-"
-observes
-=
-"
-canViewSource
 "
 /
 >
