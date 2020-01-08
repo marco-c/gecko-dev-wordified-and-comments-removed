@@ -6014,11 +6014,6 @@ excludeItems
 queryOptions
 .
 excludeQueries
-|
-|
-queryOptions
-.
-excludeReadOnlyFolders
 )
 {
 index
