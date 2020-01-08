@@ -103,12 +103,15 @@ aDelta
 ;
 virtual
 bool
-ApplyContentShift
+HandleScrollOffsetUpdate
 (
 const
+Maybe
+<
 CSSPoint
+>
 &
-aShiftDelta
+aRelativeDelta
 )
 {
 return
