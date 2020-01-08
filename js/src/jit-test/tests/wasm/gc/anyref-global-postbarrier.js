@@ -45,6 +45,10 @@ wasmEvalText
 (
 module
 (
+gc_feature_opt_in
+1
+)
+(
 global
 (
 mut
@@ -97,6 +101,10 @@ wasmEvalText
 (
 (
 module
+(
+gc_feature_opt_in
+1
+)
 (
 global
 i32
@@ -165,6 +173,10 @@ wasmEvalText
 (
 (
 module
+(
+gc_feature_opt_in
+1
+)
 (
 global
 g
