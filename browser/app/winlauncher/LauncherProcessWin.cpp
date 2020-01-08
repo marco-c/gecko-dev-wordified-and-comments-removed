@@ -1051,7 +1051,7 @@ argv
 SafeModeFlag
 :
 :
-None
+NoKeyPressCheck
 )
 ;
 if
