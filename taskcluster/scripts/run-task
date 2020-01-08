@@ -4042,6 +4042,8 @@ add_argument
 '
 -
 -
+firefox
+-
 sparse
 -
 profile
@@ -5385,7 +5387,7 @@ sparse_profile
 =
 args
 .
-sparse_profile
+firefox_sparse_profile
 )
 elif
 not

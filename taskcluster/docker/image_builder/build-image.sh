@@ -374,6 +374,8 @@ gecko
 \
 -
 -
+firefox
+-
 sparse
 -
 profile
