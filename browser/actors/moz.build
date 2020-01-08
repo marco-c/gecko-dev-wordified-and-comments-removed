@@ -256,6 +256,11 @@ LightWeightThemeInstallChild
 jsm
 '
 '
+LinkHandlerChild
+.
+jsm
+'
+'
 NetErrorChild
 .
 jsm
@@ -282,11 +287,6 @@ jsm
 '
 '
 PluginChild
-.
-jsm
-'
-'
-UAWidgetsChild
 .
 jsm
 '
