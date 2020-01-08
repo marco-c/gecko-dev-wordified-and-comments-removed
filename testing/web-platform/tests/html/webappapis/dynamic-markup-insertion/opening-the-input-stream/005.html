@@ -138,6 +138,8 @@ assert_unreached
 100
 )
 ;
+assert_equals
+(
 iframe
 .
 contentDocument
@@ -145,6 +147,11 @@ contentDocument
 open
 (
 )
+iframe
+.
+contentDocument
+)
+;
 setTimeout
 (
 function

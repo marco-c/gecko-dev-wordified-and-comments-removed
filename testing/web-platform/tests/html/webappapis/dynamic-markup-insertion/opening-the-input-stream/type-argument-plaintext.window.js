@@ -119,6 +119,8 @@ step_func_done
 =
 >
 {
+assert_equals
+(
 frame
 .
 contentDocument
@@ -126,6 +128,10 @@ contentDocument
 open
 (
 type
+)
+frame
+.
+contentDocument
 )
 ;
 frame

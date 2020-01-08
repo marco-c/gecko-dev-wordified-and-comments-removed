@@ -29,10 +29,14 @@ super
 ;
 try
 {
+assert_equals
+(
 document
 .
 open
 (
+)
+document
 )
 ;
 }

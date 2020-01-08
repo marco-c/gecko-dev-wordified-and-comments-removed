@@ -88,6 +88,8 @@ remove
 )
 )
 ;
+assert_equals
+(
 frame
 .
 contentDocument
@@ -95,6 +97,10 @@ contentDocument
 open
 (
 type
+)
+frame
+.
+contentDocument
 )
 ;
 frame
