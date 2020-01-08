@@ -29,8 +29,12 @@ filepicker
 ;
 ChromeUtils
 .
-import
+defineModuleGetter
 (
+this
+"
+FileUtils
+"
 "
 resource
 :
