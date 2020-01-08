@@ -102,6 +102,11 @@ GuardIsNativeFunction
 \
 _
 (
+GuardFunctionPrototype
+)
+\
+_
+(
 GuardIsNativeObject
 )
 \
