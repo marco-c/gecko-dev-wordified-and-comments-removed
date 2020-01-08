@@ -7,6 +7,15 @@ builtin_Promise_h
 #
 include
 "
+js
+/
+Promise
+.
+h
+"
+#
+include
+"
 builtin
 /
 SelfHostingDefines
