@@ -210,43 +210,6 @@ self
 )
 :
         
-startup_timeout
-=
-self
-.
-marionette
-.
-startup_timeout
-        
-self
-.
-marionette
-.
-startup_timeout
-=
-.
-1
-        
-msg
-=
-"
-Process
-killed
-after
-{
-}
-s
-"
-.
-format
-(
-self
-.
-marionette
-.
-startup_timeout
-)
-        
 try
 :
             
@@ -264,7 +227,12 @@ self
 assertRaisesRegexp
 (
 IOError
-msg
+"
+Process
+killed
+after
+0s
+"
 )
 :
                 
@@ -274,18 +242,13 @@ marionette
 .
 start_session
 (
+timeout
+=
+0
 )
         
 finally
 :
-            
-self
-.
-marionette
-.
-startup_timeout
-=
-startup_timeout
             
 self
 .
