@@ -377,9 +377,6 @@ protected
 void
 UpdateHrefTarget
 (
-nsIContent
-*
-aNodeForContext
 const
 nsAString
 &

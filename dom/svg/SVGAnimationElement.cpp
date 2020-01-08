@@ -765,7 +765,6 @@ hrefStr
 ;
 UpdateHrefTarget
 (
-aParent
 hrefStr
 )
 ;
@@ -1196,7 +1195,6 @@ xlinkHref
 {
 UpdateHrefTarget
 (
-this
 xlinkHref
 -
 >
@@ -1287,7 +1285,6 @@ type
 ;
 UpdateHrefTarget
 (
-this
 aValue
 -
 >
@@ -1555,9 +1552,6 @@ SVGAnimationElement
 :
 UpdateHrefTarget
 (
-nsIContent
-*
-aNodeForContext
 const
 nsAString
 &
@@ -1600,7 +1594,7 @@ mHrefTarget
 .
 Reset
 (
-aNodeForContext
+this
 targetURI
 )
 ;
