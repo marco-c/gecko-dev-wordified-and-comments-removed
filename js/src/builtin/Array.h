@@ -776,6 +776,15 @@ bool
 result
 )
 ;
+extern
+bool
+ObjectMayHaveExtraIndexedProperties
+(
+JSObject
+*
+obj
+)
+;
 class
 MOZ_NON_TEMPORARY_CLASS
 ArraySpeciesLookup
