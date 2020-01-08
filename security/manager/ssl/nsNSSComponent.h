@@ -392,7 +392,7 @@ int
 mInstanceCount
 ;
 bool
-mNonIdempotentCleanupMustHappen
+mLoadLoadableRootsTaskDispatched
 ;
 }
 ;

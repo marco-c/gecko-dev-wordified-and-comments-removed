@@ -1947,15 +1947,6 @@ this
 .
 _socket
 .
-setSessionCache
-(
-false
-)
-;
-this
-.
-_socket
-.
 setSessionTickets
 (
 false
