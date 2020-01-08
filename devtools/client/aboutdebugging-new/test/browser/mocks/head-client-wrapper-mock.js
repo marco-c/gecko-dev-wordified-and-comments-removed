@@ -304,6 +304,14 @@ sharedWorkers
 ]
 }
 )
+onFront
+:
+(
+)
+=
+>
+{
+}
 setPreference
 :
 function
