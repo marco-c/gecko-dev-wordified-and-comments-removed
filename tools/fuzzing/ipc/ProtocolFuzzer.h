@@ -133,7 +133,7 @@ aProtocol
 >
 mShmemMap
 .
-Remove
+RemoveIfPresent
 (
 aId
 )
