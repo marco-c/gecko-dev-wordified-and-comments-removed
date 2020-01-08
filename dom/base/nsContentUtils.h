@@ -6344,6 +6344,12 @@ GenerateTabId
 )
 ;
 static
+uint64_t
+GenerateBrowsingContextId
+(
+)
+;
+static
 bool
 SkipCursorMoveForSameValueSet
 (

@@ -4907,6 +4907,14 @@ mDocShellTreeOwner
 mDocShell
 -
 >
+AttachBrowsingContext
+(
+nullptr
+)
+;
+mDocShell
+-
+>
 InitSessionHistory
 (
 )
