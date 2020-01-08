@@ -130,6 +130,10 @@ hasAudio
 (
 false
 )
+hasWindowServer
+(
+false
+)
 shouldLog
 (
 true
@@ -161,6 +165,9 @@ hasSandboxedProfile
 ;
 bool
 hasAudio
+;
+bool
+hasWindowServer
 ;
 MacSandboxPluginInfo
 pluginInfo
