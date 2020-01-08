@@ -887,6 +887,7 @@ FormAutofillFrameScript
 js
 "
 true
+true
 )
 ;
 }

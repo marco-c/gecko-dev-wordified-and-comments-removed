@@ -134,8 +134,9 @@ stack
 =
 document
 .
-createXULElement
+createElementNS
 (
+XUL_NS
 "
 stack
 "
@@ -157,8 +158,9 @@ browser
 =
 document
 .
-createXULElement
+createElementNS
 (
+XUL_NS
 "
 browser
 "
@@ -468,6 +470,7 @@ content
 js
 "
 false
+true
 )
 ;
 ExtensionParent
@@ -517,6 +520,7 @@ content
 js
 "
 false
+true
 )
 ;
 browser

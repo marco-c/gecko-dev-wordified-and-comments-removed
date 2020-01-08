@@ -343,6 +343,7 @@ content
 js
 "
 true
+true
 )
 ;
 ActorManagerParent
@@ -1098,6 +1099,7 @@ messageManager
 loadFrameScript
 (
 frameScript
+true
 true
 )
 ;
@@ -3834,6 +3836,7 @@ javascript
 /
 /
 "
+true
 true
 )
 ;

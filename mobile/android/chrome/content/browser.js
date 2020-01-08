@@ -3733,6 +3733,7 @@ content
 js
 "
 true
+true
 )
 ;
 mm
@@ -3752,6 +3753,7 @@ manifestMessages
 .
 js
 "
+true
 true
 )
 ;

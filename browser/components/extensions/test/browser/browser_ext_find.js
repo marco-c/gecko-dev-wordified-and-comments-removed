@@ -1642,6 +1642,7 @@ loadFrameScript
 (
 frameScriptUrl
 false
+true
 )
 ;
 let

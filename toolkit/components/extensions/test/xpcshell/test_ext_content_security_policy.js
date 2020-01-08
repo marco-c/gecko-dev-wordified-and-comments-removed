@@ -788,6 +788,7 @@ loadFrameScript
 (
 frameScriptURL
 true
+true
 )
 ;
 info
