@@ -1035,14 +1035,9 @@ restart
 with
 \
 "
-(
-MAKE
-)
--
-f
-client
 .
-mk
+/
+mach
 build
 "
 '
