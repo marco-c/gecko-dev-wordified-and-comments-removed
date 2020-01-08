@@ -151,6 +151,9 @@ RemoteSourceStreamInfo
 class
 SourceStreamInfo
 ;
+class
+MediaMgrError
+;
 namespace
 dom
 {
@@ -159,9 +162,6 @@ AudioStreamTrack
 ;
 class
 VideoStreamTrack
-;
-class
-MediaStreamError
 ;
 class
 TrackSink
@@ -362,10 +362,7 @@ MozPromise
 bool
 RefPtr
 <
-dom
-:
-:
-MediaStreamError
+MediaMgrError
 >
 true
 >
@@ -378,9 +375,6 @@ ApplyConstraintsPromise
 >
 ApplyConstraints
 (
-nsPIDOMWindowInner
-*
-aWindow
 const
 dom
 :

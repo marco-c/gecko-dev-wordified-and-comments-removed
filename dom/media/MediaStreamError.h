@@ -147,6 +147,8 @@ nsAString
 aConstraint
 )
 ;
+public
+:
 nsString
 mNameString
 ;
@@ -157,8 +159,6 @@ const
 nsString
 mConstraint
 ;
-private
-:
 const
 Name
 mName

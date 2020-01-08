@@ -1006,10 +1006,7 @@ DOMMediaStream
 >
 RefPtr
 <
-dom
-:
-:
-MediaStreamError
+MediaMgrError
 >
 true
 >
@@ -1024,10 +1021,7 @@ MediaDeviceSetRefCnt
 >
 RefPtr
 <
-dom
-:
-:
-MediaStreamError
+MediaMgrError
 >
 true
 >
