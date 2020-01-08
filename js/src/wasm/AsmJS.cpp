@@ -1567,10 +1567,6 @@ getFuncName
 (
 NameContext
 ctx
-const
-Bytes
-*
-maybeBytecode
 uint32_t
 funcIndex
 UTF8Bytes
@@ -12211,7 +12207,7 @@ PropertyName
 4
 SystemAllocPolicy
 >
-NameVector
+LabelVector
 ;
 class
 MOZ_STACK_CLASS
@@ -12895,7 +12891,7 @@ bool
 pushUnbreakableBlock
 (
 const
-NameVector
+LabelVector
 *
 labels
 =
@@ -12973,7 +12969,7 @@ bool
 popUnbreakableBlock
 (
 const
-NameVector
+LabelVector
 *
 labels
 =
@@ -13499,7 +13495,7 @@ bool
 addLabels
 (
 const
-NameVector
+LabelVector
 &
 labels
 uint32_t
@@ -13562,7 +13558,7 @@ void
 removeLabels
 (
 const
-NameVector
+LabelVector
 &
 labels
 )
@@ -30316,7 +30312,7 @@ ParseNode
 *
 whileStmt
 const
-NameVector
+LabelVector
 *
 labels
 =
@@ -30475,7 +30471,7 @@ ParseNode
 *
 forStmt
 const
-NameVector
+LabelVector
 *
 labels
 =
@@ -30789,7 +30785,7 @@ ParseNode
 *
 whileStmt
 const
-NameVector
+LabelVector
 *
 labels
 =
@@ -31016,7 +31012,7 @@ f
 ParseNode
 *
 const
-NameVector
+LabelVector
 *
 =
 nullptr
@@ -31048,7 +31044,7 @@ Label
 )
 )
 ;
-NameVector
+LabelVector
 labels
 ;
 ParseNode
@@ -32971,7 +32967,7 @@ ParseNode
 *
 stmtList
 const
-NameVector
+LabelVector
 *
 labels
 )
@@ -37775,6 +37771,7 @@ JSContext
 cx
 CallArgs
 args
+const
 Module
 &
 module
@@ -38364,6 +38361,7 @@ NO_CONSTRUCT
 ;
 }
 static
+const
 Module
 &
 AsmJSModuleFunctionToModule
@@ -38462,6 +38460,7 @@ JSFunction
 (
 )
 ;
+const
 Module
 &
 module
@@ -40505,6 +40504,7 @@ StoreAsmJSModuleInCache
 AsmJSParser
 &
 parser
+const
 Module
 &
 module

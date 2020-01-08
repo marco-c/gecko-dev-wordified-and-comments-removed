@@ -302,6 +302,7 @@ create
 JSContext
 *
 cx
+const
 wasm
 :
 :
@@ -314,6 +315,7 @@ proto
 nullptr
 )
 ;
+const
 wasm
 :
 :
@@ -838,14 +840,6 @@ wasm
 ElemSegmentVector
 &
 elemSegments
-UniquePtr
-<
-wasm
-:
-:
-DebugState
->
-debug
 wasm
 :
 :
@@ -891,6 +885,14 @@ WasmGlobalObjectVector
 globalObjs
 HandleObject
 proto
+UniquePtr
+<
+wasm
+:
+:
+DebugState
+>
+maybeDebug
 )
 ;
 void

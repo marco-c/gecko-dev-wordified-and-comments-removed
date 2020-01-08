@@ -34537,6 +34537,15 @@ obj
 )
 ;
 return
+const_cast
+<
+wasm
+:
+:
+Module
+*
+>
+(
 &
 CheckedUnwrap
 (
@@ -34553,6 +34562,7 @@ WasmModuleObject
 .
 module
 (
+)
 )
 ;
 }

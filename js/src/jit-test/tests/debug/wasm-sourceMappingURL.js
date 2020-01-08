@@ -554,6 +554,16 @@ gotScript
 source
 .
 sourceMapURL
-null
+'
+http
+:
+/
+/
+example
+.
+org
+/
+test2
+'
 )
 ;

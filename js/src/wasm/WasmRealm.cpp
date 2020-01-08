@@ -314,6 +314,10 @@ debuggerObservesAllExecution
 {
 instance
 .
+debug
+(
+)
+.
 ensureEnterFrameTrapsState
 (
 cx

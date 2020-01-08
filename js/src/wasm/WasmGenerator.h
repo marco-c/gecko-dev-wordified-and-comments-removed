@@ -827,6 +827,7 @@ MOZ_MUST_USE
 bool
 finishTier2
 (
+const
 Module
 &
 module

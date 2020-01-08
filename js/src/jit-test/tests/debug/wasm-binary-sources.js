@@ -217,7 +217,15 @@ source2
 text
 '
 [
+debugger
+missing
 wasm
+binary
+-
+to
+-
+text
+conversion
 ]
 '
 )
