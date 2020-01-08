@@ -16,14 +16,6 @@ const
 METHODS
 =
 {
-addNextPaintListener
-:
-{
-}
-removeNextPaintListener
-:
-{
-}
 sendMouseEvent
 :
 {
