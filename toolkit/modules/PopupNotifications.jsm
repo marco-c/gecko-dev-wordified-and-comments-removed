@@ -1034,6 +1034,11 @@ aEvent
 "
 secondarybuttoncommand
 "
+"
+esc
+-
+press
+"
 notification
 )
 ;
@@ -2881,6 +2886,11 @@ _onButtonEvent
 event
 '
 secondarybuttoncommand
+'
+'
+esc
+-
+press
 '
 )
 ;
@@ -6310,6 +6320,11 @@ _onButtonEvent
 (
 event
 type
+source
+=
+"
+button
+"
 notificationEl
 =
 null
@@ -6664,6 +6679,7 @@ notificationEl
 checkbox
 .
 checked
+source
 }
 )
 ;
@@ -6797,6 +6813,11 @@ notificationEl
 checkbox
 .
 checked
+source
+:
+"
+menucommand
+"
 }
 )
 ;
