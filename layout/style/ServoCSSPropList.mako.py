@@ -466,6 +466,10 @@ OverflowWrap
 "
     
 "
+Position
+"
+    
+"
 Quotes
 "
     
@@ -577,7 +581,25 @@ shorthand
 :
         
 return
-False
+prop
+.
+name
+!
+=
+"
+text
+-
+decoration
+"
+and
+prop
+.
+name
+!
+=
+"
+mask
+"
     
 if
 prop
@@ -799,14 +821,14 @@ append
 ExposedOnGetCS
 "
 )
-    
+        
 if
 serialized_by_servo
 (
 prop
 )
 :
-        
+            
 result
 .
 append
