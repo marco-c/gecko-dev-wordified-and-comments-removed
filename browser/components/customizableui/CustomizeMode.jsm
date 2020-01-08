@@ -6175,13 +6175,13 @@ set
 )
 ;
 }
-document
+Services
+.
+xulStore
 .
 persist
 (
 toolbar
-.
-id
 "
 currentset
 "
