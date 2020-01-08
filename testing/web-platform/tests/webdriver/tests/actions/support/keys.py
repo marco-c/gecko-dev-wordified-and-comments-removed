@@ -4690,7 +4690,7 @@ platform
 =
 =
 "
-mac
+darwin
 "
 :
     
