@@ -205,11 +205,6 @@ EXPORTS
 =
 [
 '
-ContentPrincipal
-.
-h
-'
-'
 nsJSPrincipals
 .
 h
@@ -227,6 +222,11 @@ mozilla
 [
 '
 BasePrincipal
+.
+h
+'
+'
+ContentPrincipal
 .
 h
 '
