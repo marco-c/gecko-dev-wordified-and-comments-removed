@@ -59,12 +59,6 @@ localpaths
 import
 repo_root
 from
-six
-.
-moves
-import
-reload_module
-from
 manifest
 .
 sourcefile
@@ -4725,10 +4719,20 @@ kwargs
 )
 :
     
-reload_module
-(
+try
+:
+        
 logging
+.
+_releaseLock
+(
 )
+    
+except
+RuntimeError
+:
+        
+pass
     
 return
 WebSocketDaemon
@@ -4776,10 +4780,20 @@ kwargs
 )
 :
     
-reload_module
-(
+try
+:
+        
 logging
+.
+_releaseLock
+(
 )
+    
+except
+RuntimeError
+:
+        
+pass
     
 return
 WebSocketDaemon
