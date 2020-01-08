@@ -95,6 +95,13 @@ extern
 crate
 thread_profiler
 ;
+#
+[
+macro_use
+]
+mod
+storage
+;
 mod
 batch
 ;
