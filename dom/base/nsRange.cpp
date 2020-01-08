@@ -11683,15 +11683,11 @@ Text
 startTextNode
 =
 tStartContainer
-?
-tStartContainer
 -
 >
 GetAsText
 (
 )
-:
-nullptr
 ;
 nsCOMPtr
 <
