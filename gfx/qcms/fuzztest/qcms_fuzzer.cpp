@@ -160,7 +160,7 @@ if
 (
 size
 %
-0x10
+15
 )
 {
 qcms_profile_precache_output_transform
