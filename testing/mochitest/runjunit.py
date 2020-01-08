@@ -265,7 +265,7 @@ self
 .
 options
 .
-coverage_output_path
+coverage_output_dir
 :
             
 raise
@@ -278,7 +278,7 @@ coverage
 -
 output
 -
-path
+dir
 is
 required
 when
@@ -291,9 +291,17 @@ coverage
 "
 )
         
+if
 self
 .
-remote_coverage_output_path
+options
+.
+coverage
+:
+            
+self
+.
+remote_coverage_output_file
 =
 posixpath
 .
@@ -304,7 +312,32 @@ self
 device
 .
 test_root
-                                                          
+                                                              
+'
+junit
+-
+coverage
+.
+ec
+'
+)
+            
+self
+.
+coverage_output_file
+=
+os
+.
+path
+.
+join
+(
+self
+.
+options
+.
+coverage_output_dir
+                                                     
 '
 junit
 -
@@ -1116,7 +1149,7 @@ s
 %
 self
 .
-remote_coverage_output_path
+remote_coverage_output_file
         
 env
 =
@@ -2087,13 +2120,11 @@ pull
 (
 self
 .
-remote_coverage_output_path
+remote_coverage_output_file
                                  
 self
 .
-options
-.
-coverage_output_path
+coverage_output_file
 )
             
 except
@@ -2124,7 +2155,7 @@ device
                                
 self
 .
-remote_coverage_output_path
+remote_coverage_output_file
 )
                 
 return
@@ -2943,7 +2974,7 @@ coverage
 -
 output
 -
-path
+dir
 "
                           
 action
@@ -2959,7 +2990,7 @@ str
 dest
 =
 "
-coverage_output_path
+coverage_output_dir
 "
                           
 default
@@ -2977,9 +3008,9 @@ save
 the
 report
 file
-to
+in
 this
-path
+dir
 .
 "
 )
