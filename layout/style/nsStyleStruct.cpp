@@ -3386,10 +3386,6 @@ mColumnRuleStyle
 (
 NS_STYLE_BORDER_STYLE_NONE
 )
-mColumnSpan
-(
-NS_STYLE_COLUMN_SPAN_NONE
-)
 mColumnRuleWidth
 (
 (

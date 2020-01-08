@@ -495,6 +495,11 @@ animation_value_type
 "
 discrete
 "
+gecko_enum_prefix
+=
+"
+StyleColumnSpan
+"
 gecko_pref
 =
 "
