@@ -869,16 +869,6 @@ ChildID
 (
 )
 ;
-MOZ_ASSERT
-(
-mBlockers
-.
-Contains
-(
-childID
-)
-)
-;
 mBlockers
 .
 RemoveEntry
