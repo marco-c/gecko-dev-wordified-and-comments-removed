@@ -1009,6 +1009,7 @@ callback
 )
 ;
 }
+async
 getFront
 (
 typeName
