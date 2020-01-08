@@ -12,6 +12,15 @@ mozilla
 .
 geckoview
 .
+AllowOrDeny
+;
+import
+org
+.
+mozilla
+.
+geckoview
+.
 BasicSelectionActionDelegate
 ;
 import
@@ -3560,7 +3569,7 @@ Override
 public
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 onLoadRequest
 (
@@ -3610,7 +3619,9 @@ GeckoResult
 .
 fromValue
 (
-false
+AllowOrDeny
+.
+ALLOW
 )
 ;
 }

@@ -303,6 +303,15 @@ mozilla
 .
 geckoview
 .
+AllowOrDeny
+;
+import
+org
+.
+mozilla
+.
+geckoview
+.
 GeckoResult
 ;
 import
@@ -5910,7 +5919,7 @@ Override
 public
 GeckoResult
 <
-Boolean
+AllowOrDeny
 >
 onPopupRequest
 (
@@ -5927,7 +5936,9 @@ GeckoResult
 .
 fromValue
 (
-true
+AllowOrDeny
+.
+ALLOW
 )
 ;
 }
