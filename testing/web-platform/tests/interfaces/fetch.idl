@@ -664,7 +664,6 @@ ByteString
 statusText
 =
 "
-OK
 "
 ;
 HeadersInit
