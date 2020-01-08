@@ -59088,6 +59088,16 @@ updateFindMatchesCount
 data
 )
 {
+FirefoxCom
+.
+request
+(
+'
+updateFindMatchesCount
+'
+data
+)
+;
 }
 initPassiveLoading
 (
