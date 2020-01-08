@@ -28,7 +28,7 @@ Proxy
 {
 }
 {
-has
+get
 :
 true
 }
@@ -60,7 +60,7 @@ proxy
 handler
 '
 s
-has
+get
 trap
 /
 )
