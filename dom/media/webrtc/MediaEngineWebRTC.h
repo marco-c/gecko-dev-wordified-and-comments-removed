@@ -395,7 +395,7 @@ MediaDevice
 Mutex
 mMutex
 ;
-UniquePtr
+RefPtr
 <
 mozilla
 :
