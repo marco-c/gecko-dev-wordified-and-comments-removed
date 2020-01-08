@@ -4650,6 +4650,8 @@ for
 build
 -
 id
+=
+sha1
 option
 to
 ld
@@ -4669,6 +4671,8 @@ Wl
 build
 -
 id
+=
+sha1
 "
 AC_TRY_LINK
 (
