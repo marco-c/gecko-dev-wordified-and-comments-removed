@@ -10429,6 +10429,15 @@ aEntry
 if
 (
 mBudget
+&
+&
+!
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 {
 if
