@@ -2813,6 +2813,18 @@ suite
 '
 talos
 '
+or
+test
+[
+'
+suite
+'
+]
+=
+=
+'
+raptor
+'
     
 is_macosx
 =
@@ -3721,6 +3733,18 @@ suite
 =
 '
 talos
+'
+or
+test
+[
+'
+suite
+'
+]
+=
+=
+'
+raptor
 '
     
 if
