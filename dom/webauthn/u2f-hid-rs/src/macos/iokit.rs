@@ -21,8 +21,8 @@ consts
 :
 :
 {
-FIDO_USAGE_U2FHID
 FIDO_USAGE_PAGE
+FIDO_USAGE_U2FHID
 }
 ;
 use
