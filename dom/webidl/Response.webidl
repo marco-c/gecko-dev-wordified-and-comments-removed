@@ -321,7 +321,7 @@ dom
 DOMPrefs
 :
 :
-StreamsEnabled
+dom_streams_enabled
 "
 ]
 readonly
