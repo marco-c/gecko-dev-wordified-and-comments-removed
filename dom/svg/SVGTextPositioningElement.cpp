@@ -66,7 +66,6 @@ sLengthListInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -78,7 +77,6 @@ X
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -90,7 +88,6 @@ Y
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -102,7 +99,6 @@ X
 true
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -152,7 +148,6 @@ sNumberListInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :

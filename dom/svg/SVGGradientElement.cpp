@@ -180,7 +180,6 @@ sEnumInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -189,7 +188,6 @@ sSVGUnitTypesMap
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -213,7 +211,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -222,7 +219,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -517,7 +513,6 @@ sLengthInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -533,7 +528,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -549,7 +543,6 @@ SVGContentUtils
 Y
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -565,7 +558,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -816,7 +808,6 @@ sLengthInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -832,7 +823,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -848,7 +838,6 @@ SVGContentUtils
 Y
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -864,7 +853,6 @@ SVGContentUtils
 XY
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -880,7 +868,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -896,7 +883,6 @@ SVGContentUtils
 Y
 }
 {
-&
 nsGkAtoms
 :
 :

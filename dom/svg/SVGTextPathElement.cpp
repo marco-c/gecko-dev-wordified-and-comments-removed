@@ -131,7 +131,6 @@ sLengthInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -147,7 +146,6 @@ SVGContentUtils
 XY
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -271,7 +269,6 @@ sEnumInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -280,7 +277,6 @@ sLengthAdjustMap
 LENGTHADJUST_SPACING
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -289,7 +285,6 @@ sMethodMap
 TEXTPATH_METHODTYPE_ALIGN
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -298,7 +293,6 @@ sSpacingMap
 TEXTPATH_SPACINGTYPE_EXACT
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -322,7 +316,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -331,7 +324,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :

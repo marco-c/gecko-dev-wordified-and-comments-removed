@@ -242,7 +242,7 @@ aFlags
 override
 ;
 virtual
-nsAtom
+nsStaticAtom
 *
 GetTransformListAttrName
 (

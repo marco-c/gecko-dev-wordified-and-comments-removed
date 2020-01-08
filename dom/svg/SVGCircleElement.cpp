@@ -113,7 +113,6 @@ sLengthInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -129,7 +128,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -145,7 +143,6 @@ SVGContentUtils
 Y
 }
 {
-&
 nsGkAtoms
 :
 :

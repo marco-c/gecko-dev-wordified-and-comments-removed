@@ -253,6 +253,7 @@ mIsAnimated
 bool
 mIsBaseSet
 ;
+const
 nsSVGEnumMapping
 *
 GetMapping

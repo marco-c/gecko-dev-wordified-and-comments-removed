@@ -105,7 +105,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :

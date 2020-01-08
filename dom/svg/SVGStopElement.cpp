@@ -73,7 +73,6 @@ SVGStopElement
 sNumberInfo
 =
 {
-&
 nsGkAtoms
 :
 :

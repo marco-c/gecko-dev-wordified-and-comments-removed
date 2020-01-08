@@ -91,7 +91,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -100,7 +99,6 @@ x
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -109,7 +107,6 @@ y
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -118,7 +115,6 @@ z
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -127,7 +123,6 @@ pointsAtX
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -136,7 +131,6 @@ pointsAtY
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -145,7 +139,6 @@ pointsAtZ
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -154,7 +147,6 @@ specularExponent
 false
 }
 {
-&
 nsGkAtoms
 :
 :

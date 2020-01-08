@@ -274,7 +274,7 @@ mD
 ;
 }
 virtual
-nsAtom
+nsStaticAtom
 *
 GetPathDataAttrName
 (

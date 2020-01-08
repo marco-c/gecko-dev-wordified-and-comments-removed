@@ -91,7 +91,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -100,7 +99,6 @@ azimuth
 false
 }
 {
-&
 nsGkAtoms
 :
 :

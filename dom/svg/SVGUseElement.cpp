@@ -197,7 +197,6 @@ sLengthInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -213,7 +212,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -229,7 +227,6 @@ SVGContentUtils
 Y
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -245,7 +242,6 @@ SVGContentUtils
 X
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -276,7 +272,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -285,7 +280,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -1683,7 +1677,6 @@ this
 uint32_t
 index
 =
-*
 sLengthInfo
 [
 ATTR_WIDTH

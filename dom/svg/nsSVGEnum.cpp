@@ -69,6 +69,7 @@ DOMAnimatedEnum
 >
 sSVGAnimatedEnumTearoffTable
 ;
+const
 nsSVGEnumMapping
 *
 nsSVGEnum
@@ -146,6 +147,7 @@ nsSVGElement
 aSVGElement
 )
 {
+const
 nsSVGEnumMapping
 *
 mapping
@@ -249,6 +251,7 @@ nsSVGElement
 aSVGElement
 )
 {
+const
 nsSVGEnumMapping
 *
 mapping
@@ -322,6 +325,7 @@ nsSVGElement
 aSVGElement
 )
 {
+const
 nsSVGEnumMapping
 *
 mapping
@@ -607,6 +611,7 @@ if
 valAtom
 )
 {
+const
 nsSVGEnumMapping
 *
 mapping

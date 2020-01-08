@@ -97,7 +97,6 @@ SVGGeometryElement
 sNumberInfo
 =
 {
-&
 nsGkAtoms
 :
 :
@@ -301,7 +300,6 @@ if
 aName
 =
 =
-*
 info
 .
 mLengthInfo

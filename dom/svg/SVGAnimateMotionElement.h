@@ -179,7 +179,7 @@ const
 override
 ;
 virtual
-nsAtom
+nsStaticAtom
 *
 GetPathDataAttrName
 (

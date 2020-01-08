@@ -91,7 +91,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -100,7 +99,6 @@ dx
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -124,7 +122,6 @@ sStringInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -133,7 +130,6 @@ kNameSpaceID_None
 true
 }
 {
-&
 nsGkAtoms
 :
 :

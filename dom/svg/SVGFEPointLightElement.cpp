@@ -91,7 +91,6 @@ sNumberInfo
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -100,7 +99,6 @@ x
 false
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -109,7 +107,6 @@ y
 false
 }
 {
-&
 nsGkAtoms
 :
 :
