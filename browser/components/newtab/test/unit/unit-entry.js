@@ -848,6 +848,15 @@ clearUserPref
 )
 {
 }
+getChildList
+(
+)
+{
+return
+[
+]
+;
+}
 getStringPref
 (
 )

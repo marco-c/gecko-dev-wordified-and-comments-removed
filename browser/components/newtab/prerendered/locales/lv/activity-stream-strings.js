@@ -1243,8 +1243,10 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Atv
+rt
+izv
+lni
 "
 "
 pocket_learn_more
