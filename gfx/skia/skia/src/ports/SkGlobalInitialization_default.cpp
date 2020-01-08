@@ -8,6 +8,13 @@ h
 #
 include
 "
+SkMaskFilter
+.
+h
+"
+#
+include
+"
 .
 .
 /
@@ -41,6 +48,13 @@ InitEffects
 )
 {
 SkGradientShader
+:
+:
+InitializeFlattenables
+(
+)
+;
+SkMaskFilter
 :
 :
 InitializeFlattenables
