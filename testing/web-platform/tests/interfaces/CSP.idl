@@ -80,6 +80,12 @@ optional
 SecurityPolicyViolationEventInit
 eventInitDict
 )
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 SecurityPolicyViolationEvent
