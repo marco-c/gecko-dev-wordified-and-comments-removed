@@ -2217,6 +2217,16 @@ getBindingElementAndPseudo
 node
 )
 ;
+if
+(
+!
+bindingElement
+)
+{
+return
+null
+;
+}
 return
 node
 .
