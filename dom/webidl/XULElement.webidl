@@ -348,6 +348,13 @@ BoxObject
 boxObject
 ;
 [
+SetterThrows
+]
+attribute
+long
+tabIndex
+;
+[
 Throws
 ]
 void
