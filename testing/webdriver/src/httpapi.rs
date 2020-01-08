@@ -1697,6 +1697,7 @@ t
 self
 method
 :
+&
 Method
 path
 :
@@ -2160,6 +2161,7 @@ decode_request
 self
 method
 :
+&
 Method
 path
 :
@@ -2224,10 +2226,6 @@ matcher
 get_match
 (
 method
-.
-clone
-(
-)
 path
 )
 ;
@@ -2247,13 +2245,10 @@ WebDriverMessage
 :
 from_http
 (
+&
 matcher
 .
 match_type
-.
-clone
-(
-)
 &
 captures
 .

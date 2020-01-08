@@ -380,6 +380,7 @@ mut
 self
 msg_chan
 :
+&
 Receiver
 <
 DispatchMessage
@@ -1272,6 +1273,7 @@ api
 .
 decode_request
 (
+&
 method
 &
 uri
@@ -2030,6 +2032,7 @@ dispatcher
 .
 run
 (
+&
 msg_recv
 )
 ;
