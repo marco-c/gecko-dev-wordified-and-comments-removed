@@ -2086,7 +2086,7 @@ description
 "
 Linux32
 Rust
-tests
+Tests
 Opt
 "
 index
@@ -2288,7 +2288,7 @@ description
 "
 Linux32
 Rust
-tests
+Tests
 Debug
 "
 index
@@ -4419,7 +4419,7 @@ description
 "
 Linux64
 Rust
-tests
+Tests
 Opt
 "
 index
@@ -4606,7 +4606,7 @@ description
 "
 Linux64
 Rust
-tests
+Tests
 Debug
 "
 index
