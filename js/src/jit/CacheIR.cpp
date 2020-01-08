@@ -182,9 +182,11 @@ JSObject
 obj
 )
 {
-assertSameCompartmentDebugOnly
-(
 cx_
+-
+>
+debugOnlyCheck
+(
 obj
 )
 ;
