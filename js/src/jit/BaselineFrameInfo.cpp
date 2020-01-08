@@ -116,9 +116,11 @@ alloc
 nstack
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -414,8 +416,10 @@ StackValue
 :
 Stack
 )
+{
 break
 ;
+}
 }
 return
 i
@@ -813,8 +817,10 @@ StackValue
 :
 Stack
 )
+{
 break
 ;
+}
 }
 for
 (
@@ -829,6 +835,7 @@ i
 +
 +
 )
+{
 MOZ_ASSERT
 (
 stack
@@ -847,6 +854,7 @@ StackValue
 Stack
 )
 ;
+}
 bool
 usedR0
 =

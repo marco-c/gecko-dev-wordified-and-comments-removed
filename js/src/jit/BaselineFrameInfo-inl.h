@@ -55,6 +55,7 @@ StackValue
 :
 Stack
 )
+{
 masm
 .
 addToStackPtr
@@ -68,6 +69,7 @@ Value
 )
 )
 ;
+}
 popped
 -
 >
@@ -128,10 +130,12 @@ StackValue
 :
 Stack
 )
+{
 poppedStack
 +
 +
 ;
+}
 pop
 (
 DontAdjustStack
@@ -150,6 +154,7 @@ poppedStack
 >
 0
 )
+{
 masm
 .
 addToStackPtr
@@ -165,6 +170,7 @@ poppedStack
 )
 )
 ;
+}
 }
 }
 }

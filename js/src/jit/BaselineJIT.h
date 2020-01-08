@@ -1726,10 +1726,12 @@ len
 >
 UINT16_MAX
 )
+{
 len
 =
 UINT16_MAX
 ;
+}
 inlinedBytecodeLength_
 =
 len
@@ -1824,6 +1826,7 @@ isIonCompilingOffThread
 (
 )
 )
+{
 script
 -
 >
@@ -1833,6 +1836,7 @@ rt
 ION_PENDING_SCRIPT
 )
 ;
+}
 pendingBuilder_
 =
 builder
@@ -1880,6 +1884,7 @@ maybeIonScript
 =
 ION_PENDING_SCRIPT
 )
+{
 script
 -
 >
@@ -1889,6 +1894,7 @@ rt
 nullptr
 )
 ;
+}
 }
 const
 ControlFlowGraph
