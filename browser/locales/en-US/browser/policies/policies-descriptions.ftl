@@ -592,6 +592,15 @@ default
 .
 policy
 -
+DNSOverHTTPS
+=
+Configure
+DNS
+over
+HTTPS
+.
+policy
+-
 DontCheckDefaultBrowser
 =
 Disable
