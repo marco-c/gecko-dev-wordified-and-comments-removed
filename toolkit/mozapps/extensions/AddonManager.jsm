@@ -3749,7 +3749,9 @@ gre
 /
 modules
 /
-RemotePageManager
+remotepagemanager
+/
+RemotePageManagerParent
 .
 jsm
 "
