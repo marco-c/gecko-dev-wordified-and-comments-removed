@@ -4564,6 +4564,14 @@ MOZ_ASSERT
 wasPresent
 )
 ;
+aListener
+-
+>
+Disconnect
+(
+this
+)
+;
 if
 (
 !
@@ -5114,6 +5122,7 @@ listener
 >
 DeviceChanged
 (
+this
 )
 ;
 }
