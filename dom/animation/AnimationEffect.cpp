@@ -249,8 +249,8 @@ AnimationEffect
 :
 SetSpecifiedTiming
 (
-const
 TimingParams
+&
 &
 aTiming
 )
@@ -1749,7 +1749,13 @@ return
 }
 SetSpecifiedTiming
 (
+std
+:
+:
+move
+(
 timing
+)
 )
 ;
 }

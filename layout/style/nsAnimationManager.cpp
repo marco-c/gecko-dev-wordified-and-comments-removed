@@ -1628,6 +1628,7 @@ CSSAnimation
 aOld
 TimingParams
 &
+&
 aNewTiming
 nsTArray
 <
@@ -1687,7 +1688,13 @@ oldEffect
 >
 SetSpecifiedTiming
 (
+std
+:
+:
+move
+(
 aNewTiming
+)
 )
 ;
 KeyframeEffect
@@ -1962,7 +1969,13 @@ UpdateOldAnimationPropertiesWithNew
 (
 *
 oldAnim
+std
+:
+:
+move
+(
 timing
+)
 std
 :
 :

@@ -256,8 +256,8 @@ mTiming
 void
 SetSpecifiedTiming
 (
-const
 TimingParams
+&
 &
 aTiming
 )
