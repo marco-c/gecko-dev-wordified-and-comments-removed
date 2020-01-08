@@ -223,6 +223,14 @@ self
 cond
 =
 cond
+class
+UpdateError
+(
+Exception
+)
+:
+    
+pass
 Value
 =
 namedtuple
@@ -2272,12 +2280,51 @@ None
 else
 :
                 
+try
+:
+                    
 self
 .
 add_new
 (
 unconditional_value
 stability
+)
+                
+except
+UpdateError
+as
+e
+:
+                    
+print
+(
+"
+%
+s
+for
+%
+s
+cannot
+update
+%
+s
+"
+%
+(
+e
+self
+.
+node
+.
+root
+.
+test_path
+                                                           
+self
+.
+property_name
+)
 )
         
 if
@@ -2529,8 +2576,6 @@ add_new
 self
 unconditional_value
 stability
-=
-False
 )
 :
         
@@ -2767,8 +2812,6 @@ add_new
 self
 unconditional_value
 stability
-=
-False
 )
 :
         
@@ -2853,25 +2896,15 @@ True
 else
 :
                 
-print
+raise
+UpdateError
+(
 "
 Conflicting
 metadata
 values
-for
-%
-s
-cannot
-update
 "
-%
-self
-.
-root
-.
-test_path
-                
-return
+)
         
 for
 conditional_node

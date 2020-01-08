@@ -2302,6 +2302,9 @@ value
 )
 :
         
+try
+:
+            
 self
 .
 _data
@@ -2313,6 +2316,12 @@ remove
 (
 value
 )
+        
+except
+ValueError
+:
+            
+return
         
 if
 not
