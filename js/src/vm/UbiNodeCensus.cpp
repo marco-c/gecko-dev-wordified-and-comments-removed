@@ -10,6 +10,15 @@ h
 #
 include
 "
+js
+/
+StableStringChars
+.
+h
+"
+#
+include
+"
 util
 /
 Text

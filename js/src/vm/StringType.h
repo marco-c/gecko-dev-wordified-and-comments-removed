@@ -160,11 +160,15 @@ class
 JSRope
 ;
 namespace
-js
+JS
 {
 class
 AutoStableStringChars
 ;
+}
+namespace
+js
+{
 class
 StaticStrings
 ;
@@ -3327,7 +3331,7 @@ JSString
 ;
 friend
 class
-js
+JS
 :
 :
 AutoStableStringChars

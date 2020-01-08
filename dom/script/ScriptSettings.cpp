@@ -57,6 +57,15 @@ h
 #
 include
 "
+js
+/
+StableStringChars
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h
@@ -3174,7 +3183,7 @@ lineNumber
 =
 0
 ;
-js
+JS
 :
 :
 AutoStableStringChars

@@ -46,6 +46,15 @@ h
 #
 include
 "
+js
+/
+StableStringChars
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -682,7 +691,7 @@ s
 size_t
 len
 =
-js
+JS
 :
 :
 GetStringLength
