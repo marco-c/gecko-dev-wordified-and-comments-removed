@@ -11059,12 +11059,14 @@ cmpl
 %
 x
 "
-MEM_o32b
+MEM_obs
 rhs
-ADDR_o32b
+ADDR_obs
 (
 offset
 base
+index
+scale
 )
 )
 ;

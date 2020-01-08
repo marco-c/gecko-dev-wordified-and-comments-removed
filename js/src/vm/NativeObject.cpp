@@ -351,7 +351,7 @@ TypedArrayObject
 }
 #
 endif
-bool
+void
 ObjectElements
 :
 :
@@ -475,9 +475,6 @@ header
 setShouldConvertDoubleElements
 (
 )
-;
-return
-true
 ;
 }
 bool
