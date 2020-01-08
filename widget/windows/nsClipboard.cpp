@@ -1326,10 +1326,7 @@ malloc
 (
 allocSize
 +
-sizeof
-(
-char16_t
-)
+3
 )
 )
 ;
@@ -1355,6 +1352,13 @@ data
 allocSize
 +
 1
+]
+=
+data
+[
+allocSize
++
+2
 ]
 =
 '
