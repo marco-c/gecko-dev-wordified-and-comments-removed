@@ -1114,6 +1114,9 @@ geckomediaplugin
 "
 gpu
 "
+"
+rdd
+"
 ]
     
 for
