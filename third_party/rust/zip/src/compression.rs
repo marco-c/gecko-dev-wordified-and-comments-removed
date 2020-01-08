@@ -26,7 +26,7 @@ cfg
 feature
 =
 "
-deflate
+flate2
 "
 )
 ]
@@ -80,7 +80,7 @@ cfg
 feature
 =
 "
-deflate
+flate2
 "
 )
 ]
@@ -148,7 +148,7 @@ cfg
 feature
 =
 "
-deflate
+flate2
 "
 )
 ]
@@ -330,7 +330,7 @@ bzip2
 feature
 =
 "
-deflate
+flate2
 "
 )
 )
@@ -370,7 +370,7 @@ not
 feature
 =
 "
-deflate
+flate2
 "
 )
 feature
@@ -419,7 +419,7 @@ bzip2
 feature
 =
 "
-deflate
+flate2
 "
 )
 )
@@ -471,7 +471,7 @@ not
 feature
 =
 "
-deflate
+flate2
 "
 )
 )

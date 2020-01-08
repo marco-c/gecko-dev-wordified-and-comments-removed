@@ -28,7 +28,7 @@ cfg
 feature
 =
 "
-deflate
+flate2
 "
 )
 ]
