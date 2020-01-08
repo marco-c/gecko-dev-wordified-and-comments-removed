@@ -396,6 +396,9 @@ GetRoleDescription
 (
 role
 aRole
+nsIPersistentProperties
+*
+aAttributes
 nsAString
 &
 aGeckoRole
