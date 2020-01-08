@@ -877,6 +877,16 @@ ContentBlocking
 .
 MAX_INTROS
 ]
+[
+"
+browser
+.
+fastblock
+.
+enabled
+"
+false
+]
 ]
 }
 )
