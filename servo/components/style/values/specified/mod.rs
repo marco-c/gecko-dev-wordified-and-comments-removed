@@ -380,7 +380,10 @@ self
 box_
 :
 :
+{
+Clear
 Float
+}
 ;
 pub
 use
