@@ -73,9 +73,6 @@ idl
 interface
 nsIWebBrowserChrome3
 ;
-webidl
-ContentFrameMessageManager
-;
 native
 CommandsArray
 (
@@ -119,7 +116,7 @@ nsISupports
 {
 readonly
 attribute
-ContentFrameMessageManager
+nsISupports
 messageManager
 ;
 attribute

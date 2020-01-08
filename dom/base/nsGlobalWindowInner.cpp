@@ -77,17 +77,6 @@ mozilla
 /
 dom
 /
-ContentFrameMessageManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DOMJSProxyHandler
 .
 h
@@ -8124,7 +8113,7 @@ eventTarget
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetTabChildGlobalAsEventTarget
 (
 frameElement
 )
@@ -8167,7 +8156,7 @@ eventTarget
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetTabChildGlobalAsEventTarget
 (
 frameElement
 )
@@ -8185,7 +8174,7 @@ eventTarget
 nsContentUtils
 :
 :
-TryGetTabChildGlobal
+TryGetTabChildGlobalAsEventTarget
 (
 mChromeEventHandler
 )
