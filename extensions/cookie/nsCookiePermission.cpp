@@ -155,13 +155,6 @@ ACCEPT_NORMALLY
 static
 const
 uint32_t
-ASK_BEFORE_ACCEPT
-=
-1
-;
-static
-const
-uint32_t
 ACCEPT_SESSION
 =
 2
