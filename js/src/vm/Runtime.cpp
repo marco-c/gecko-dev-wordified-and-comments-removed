@@ -3160,6 +3160,7 @@ cx
 enqueuePromiseJobCallback
 (
 cx
+promise
 job
 allocationSite
 incumbentGlobal

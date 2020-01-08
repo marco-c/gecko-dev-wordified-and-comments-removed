@@ -1164,6 +1164,11 @@ JS
 :
 :
 HandleObject
+aPromise
+JS
+:
+:
+HandleObject
 aJob
 JS
 :
