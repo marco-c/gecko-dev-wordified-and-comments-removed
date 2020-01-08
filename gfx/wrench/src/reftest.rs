@@ -2982,6 +2982,16 @@ wrench
 ;
 self
 .
+wrench
+.
+api
+.
+flush_scene_builder
+(
+)
+;
+self
+.
 rx
 .
 recv

@@ -247,7 +247,7 @@ new
 )
 use_scene_builder_thread
 :
-false
+true
 generate_frame
 :
 false
@@ -4449,6 +4449,12 @@ Vec
 CapturedDocument
 >
 {
+self
+.
+flush_scene_builder
+(
+)
+;
 let
 (
 tx
