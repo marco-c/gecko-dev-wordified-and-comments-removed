@@ -579,6 +579,7 @@ ReadOnlyCompileOptions
 rhs
 )
 ;
+MOZ_MUST_USE
 bool
 setFile
 (
