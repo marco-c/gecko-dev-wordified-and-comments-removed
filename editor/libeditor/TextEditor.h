@@ -405,6 +405,11 @@ const
 nsAString
 &
 aString
+nsRange
+*
+aReplaceRange
+=
+nullptr
 )
 ;
 nsresult
@@ -552,6 +557,15 @@ aStripWrappers
 ;
 nsresult
 SetTextAsSubAction
+(
+const
+nsAString
+&
+aString
+)
+;
+nsresult
+ReplaceSelectionAsSubAction
 (
 const
 nsAString
