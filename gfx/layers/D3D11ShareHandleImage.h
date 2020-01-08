@@ -182,10 +182,6 @@ gfx
 IntRect
 &
 aRect
-const
-GUID
-&
-aSourceFormat
 )
 ;
 virtual
@@ -272,10 +268,6 @@ gfx
 :
 IntRect
 mPictureRect
-;
-const
-GUID
-mSourceFormat
 ;
 RefPtr
 <
