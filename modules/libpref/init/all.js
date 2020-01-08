@@ -43710,7 +43710,7 @@ events
 .
 asyncClipboard
 "
-false
+true
 )
 ;
 pref
