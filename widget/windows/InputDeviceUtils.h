@@ -38,6 +38,12 @@ HDEVNOTIFY
 aHandle
 )
 ;
+static
+DWORD
+CountMouseDevices
+(
+)
+;
 }
 ;
 }
