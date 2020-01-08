@@ -234,7 +234,7 @@ rollout
 default
 :
 '
-invalid
+internal
 '
 rc
 -
@@ -263,7 +263,7 @@ rollout
 default
 :
 '
-invalid
+internal
 '
 implementation
 :
