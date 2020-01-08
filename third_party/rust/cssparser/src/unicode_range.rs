@@ -33,6 +33,13 @@ Clone
 Hash
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 UnicodeRange

@@ -6,6 +6,16 @@ files
 {
 "
 .
+cargo_vcs_info
+.
+json
+"
+:
+"
+38474938a89c08cc050bb4880bac4102a833c4f5419805fad6571179e24bf25b
+"
+"
+.
 travis
 .
 yml
@@ -21,7 +31,7 @@ toml
 "
 :
 "
-99d0445140451d806afb253209d7fb144fe0879f52b2ba69da621237f8dd546b
+8329b9e0771dc3e34acca27dbb047f397e3bb30e6d0a69444ce9a2ad0b0fc2cd
 "
 "
 LICENSE
@@ -232,7 +242,7 @@ rs
 "
 :
 "
-191d50a1588e5c88608b84cfe9279def71f495f8e016fa093f90399bbd2b635f
+ae159d2ebe4123a6666e18dc0362f89b475240a6b7ed5fb6fe21b9e7a4139da8
 "
 }
 "
@@ -240,6 +250,6 @@ package
 "
 :
 "
-495beddc39b1987b8e9f029354eccbd5ef88eb5f1cd24badb764dce338acf2e0
+b200a7193703a615c8d2751fed1ede39b9c4b3905e09d1ec7064a24688c190fc
 "
 }
