@@ -267,6 +267,14 @@ RTPVideoHeader
 video_header
 int64_t
 expected_retransmission_time_ms
+const
+StreamId
+*
+rtpStreamId
+const
+StreamId
+*
+mId
 )
 ;
 void
