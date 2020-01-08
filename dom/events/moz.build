@@ -244,6 +244,11 @@ KeyNameList
 h
 '
 '
+PendingFullscreenEvent
+.
+h
+'
+'
 PhysicalKeyCodeNameList
 .
 h
