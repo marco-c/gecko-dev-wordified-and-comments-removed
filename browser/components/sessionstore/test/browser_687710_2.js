@@ -164,7 +164,6 @@ history
 getEntryAtIndex
 (
 i
-false
 )
 ;
 let
@@ -175,7 +174,6 @@ history
 getEntryAtIndex
 (
 j
-false
 )
 ;
 ok

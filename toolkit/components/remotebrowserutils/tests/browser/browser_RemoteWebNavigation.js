@@ -458,7 +458,6 @@ history
 getEntryAtIndex
 (
 0
-false
 )
 ;
 is
@@ -486,7 +485,6 @@ history
 getEntryAtIndex
 (
 1
-false
 )
 ;
 is
@@ -691,7 +689,6 @@ history
 getEntryAtIndex
 (
 index
-false
 )
 ;
 is

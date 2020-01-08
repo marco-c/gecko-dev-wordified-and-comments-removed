@@ -15621,7 +15621,6 @@ LegacySHistory
 GetEntryAtIndex
 (
 index
-false
 getter_AddRefs
 (
 currentHE
@@ -34526,7 +34525,6 @@ LegacySHistory
 GetEntryAtIndex
 (
 idx
-false
 getter_AddRefs
 (
 mLSHE
@@ -39466,7 +39464,6 @@ LegacySHistory
 GetEntryAtIndex
 (
 index
-false
 getter_AddRefs
 (
 shEntry
@@ -45183,7 +45180,6 @@ LegacySHistory
 GetEntryAtIndex
 (
 index
-false
 getter_AddRefs
 (
 currentSH

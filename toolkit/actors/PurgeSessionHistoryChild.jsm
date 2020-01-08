@@ -113,7 +113,6 @@ getEntryAtIndex
 sessionHistory
 .
 index
-false
 )
 ;
 indexEntry

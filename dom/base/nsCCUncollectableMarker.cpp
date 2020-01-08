@@ -1365,7 +1365,6 @@ LegacySHistory
 GetEntryAtIndex
 (
 i
-false
 getter_AddRefs
 (
 shEntry

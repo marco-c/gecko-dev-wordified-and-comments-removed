@@ -431,7 +431,6 @@ legacySHistory
 getEntryAtIndex
 (
 i
-false
 )
 .
 QueryInterface
@@ -539,7 +538,6 @@ legacySHistory
 getEntryAtIndex
 (
 i
-false
 )
 .
 QueryInterface
@@ -559,7 +557,6 @@ legacySHistory
 getEntryAtIndex
 (
 j
-false
 )
 .
 QueryInterface

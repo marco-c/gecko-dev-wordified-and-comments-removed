@@ -1074,7 +1074,6 @@ legacySHistory
 getEntryAtIndex
 (
 requestedIndex
-false
 )
 .
 loadedInThisProcess
