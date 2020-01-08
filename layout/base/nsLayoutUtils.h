@@ -5952,7 +5952,7 @@ aShell
 ;
 static
 void
-SetScrollPositionClampingScrollPortSize
+SetVisualViewportSize
 (
 nsIPresShell
 *

@@ -10642,7 +10642,7 @@ plugins
 *
 Set
 the
-scrollport
+viewport
 size
 for
 the
@@ -10685,7 +10685,7 @@ privileges
 *
 /
 void
-setScrollPositionClampingScrollPortSize
+setVisualViewportSize
 (
 in
 float
