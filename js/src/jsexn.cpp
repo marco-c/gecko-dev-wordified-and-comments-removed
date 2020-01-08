@@ -5468,10 +5468,9 @@ isSymbol
 ;
 bytes
 =
-StringToNewUTF8CharsZ
+EncodeLatin1
 (
 cx
-*
 str
 )
 ;
@@ -5538,10 +5537,9 @@ string
 }
 bytes
 =
-StringToNewUTF8CharsZ
+EncodeLatin1
 (
 cx
-*
 str
 )
 ;

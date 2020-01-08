@@ -663,7 +663,7 @@ bytes
 )
 )
 {
-JS_ReportErrorNumberUTF8
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
@@ -721,7 +721,7 @@ bytes
 )
 )
 {
-JS_ReportErrorNumberUTF8
+JS_ReportErrorNumberLatin1
 (
 cx
 GetErrorMessage
