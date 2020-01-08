@@ -419,7 +419,7 @@ uint32_t
 mEndPC
 ;
 uint32_t
-mLoadOffset
+mBaseAddress
 ;
 #
 ifdef
@@ -629,13 +629,13 @@ mEndPC
 ;
 }
 uint32_t
-loadOffset
+baseAddress
 (
 )
 const
 {
 return
-mLoadOffset
+mBaseAddress
 ;
 }
 }
@@ -2647,7 +2647,7 @@ aName
 {
 const
 uint32_t
-base
+fileHeaderAddr
 =
 reinterpret_cast
 <
@@ -2681,7 +2681,7 @@ Elf32_Ehdr
 *
 >
 (
-base
+fileHeaderAddr
 )
 )
 ;
@@ -2841,7 +2841,7 @@ Elf32_Phdr
 *
 >
 (
-base
+fileHeaderAddr
 +
 file
 .
@@ -2954,9 +2954,9 @@ zeroHdr
 )
 return
 ;
-mLoadOffset
+mBaseAddress
 =
-base
+fileHeaderAddr
 -
 zeroHdr
 -
@@ -2966,12 +2966,12 @@ p_vaddr
 mStartPC
 +
 =
-mLoadOffset
+mBaseAddress
 ;
 mEndPC
 +
 =
-mLoadOffset
+mBaseAddress
 ;
 const
 EHEntry
@@ -2985,7 +2985,7 @@ EHEntry
 *
 >
 (
-mLoadOffset
+mBaseAddress
 +
 exidxHdr
 -
@@ -3005,7 +3005,7 @@ EHEntry
 *
 >
 (
-mLoadOffset
+mBaseAddress
 +
 exidxHdr
 -
