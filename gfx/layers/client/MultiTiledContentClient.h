@@ -461,10 +461,10 @@ vector
 <
 RefPtr
 <
-CapturedTiledPaintState
+PaintTask
 >
 >
-mPaintStates
+mPaintTasks
 ;
 gfx
 :
