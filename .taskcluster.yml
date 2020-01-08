@@ -1267,6 +1267,8 @@ ACTION_TASK_GROUP_ID
 :
 '
 {
+action
+.
 taskGroupId
 }
 '
