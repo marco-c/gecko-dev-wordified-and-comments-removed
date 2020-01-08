@@ -102,6 +102,15 @@ forward
 js
 '
 '
+eval
+-
+with
+-
+debugger
+.
+js
+'
+'
 listeners
 .
 js
