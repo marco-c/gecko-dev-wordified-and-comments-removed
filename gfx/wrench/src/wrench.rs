@@ -3115,6 +3115,15 @@ showing
 overdraw
 "
 "
+G
+-
+Toggle
+showing
+gpu
+cache
+updates
+"
+"
 S
 -
 Toggle

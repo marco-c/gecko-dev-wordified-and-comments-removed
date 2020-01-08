@@ -8156,6 +8156,7 @@ let
 (
 clip_node
 flags
+spatial_node_index
 )
 =
 clip_store
@@ -8174,8 +8175,6 @@ transforms
 .
 get_id
 (
-clip_node
-.
 spatial_node_index
 ROOT_SPATIAL_NODE_INDEX
 clip_scroll_tree

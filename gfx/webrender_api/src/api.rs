@@ -2526,6 +2526,10 @@ EnableRenderTargetDebug
 (
 bool
 )
+EnableGpuCacheDebug
+(
+bool
+)
 EnableGpuTimeQueries
 (
 bool
@@ -2573,6 +2577,14 @@ ClearCaches
 ClearCache
 )
 InvalidateGpuCache
+SimulateLongSceneBuild
+(
+u32
+)
+SimulateLongLowPrioritySceneBuild
+(
+u32
+)
 }
 #
 [
