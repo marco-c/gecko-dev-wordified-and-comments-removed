@@ -557,6 +557,25 @@ version_type
 )
 )
     
+elif
+release_type
+=
+=
+'
+esr
+'
+:
+        
+release_type
++
+=
+str
+(
+version
+.
+major_number
+)
+    
 task_config
 =
 {
