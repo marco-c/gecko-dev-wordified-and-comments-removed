@@ -4005,10 +4005,10 @@ JSObject
 global
 (
 cx
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )
