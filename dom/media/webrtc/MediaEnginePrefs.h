@@ -71,6 +71,10 @@ mAecOn
 (
 false
 )
+mUseAecMobile
+(
+false
+)
 mAgcOn
 (
 false
@@ -127,6 +131,9 @@ mFreq
 ;
 bool
 mAecOn
+;
+bool
+mUseAecMobile
 ;
 bool
 mAgcOn

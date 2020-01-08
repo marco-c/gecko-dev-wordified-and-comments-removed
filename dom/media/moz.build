@@ -1747,6 +1747,16 @@ webrtc
 /
 trunk
 '
+'
+/
+media
+/
+webrtc
+/
+trunk
+/
+webrtc
+'
 ]
 DEFINES
 [

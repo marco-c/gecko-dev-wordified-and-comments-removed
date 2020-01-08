@@ -338,6 +338,16 @@ webrtc
 /
 trunk
 '
+'
+/
+media
+/
+webrtc
+/
+trunk
+/
+webrtc
+'
 ]
 XPIDL_SOURCES
 +
