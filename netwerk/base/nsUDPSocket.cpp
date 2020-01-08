@@ -1632,8 +1632,6 @@ if
 outFlags
 &
 (
-PR_POLL_ERR
-|
 PR_POLL_HUP
 |
 PR_POLL_NVAL
