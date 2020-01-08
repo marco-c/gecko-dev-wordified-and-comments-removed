@@ -8712,6 +8712,9 @@ LBlock
 >
 blocks_
 ;
+mozilla
+:
+:
 Vector
 <
 Value
