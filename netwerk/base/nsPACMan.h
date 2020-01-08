@@ -448,8 +448,6 @@ void
 CancelPendingQ
 (
 nsresult
-bool
-aShutdown
 )
 ;
 void
@@ -549,10 +547,6 @@ void
 PostCancelPendingQ
 (
 nsresult
-bool
-aShutdown
-=
-false
 )
 ;
 bool
@@ -578,16 +572,6 @@ aSpec
 ;
 private
 :
-nsresult
-DispatchToPAC
-(
-already_AddRefed
-<
-nsIRunnable
->
-aEvent
-)
-;
 ProxyAutoConfig
 mPAC
 ;

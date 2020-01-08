@@ -3361,7 +3361,7 @@ false
 )
 mShutdown
 (
-true
+false
 )
 mIncludePath
 (
@@ -4557,10 +4557,6 @@ nsIEventTarget
 aEventTarget
 )
 {
-mShutdown
-=
-false
-;
 mPACURI
 =
 aPACURI

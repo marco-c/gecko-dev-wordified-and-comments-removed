@@ -794,9 +794,9 @@ mIsShutdown
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsIThread
 >
-mProxySettingTarget
+mProxySettingThread
 ;
 }
 ;
