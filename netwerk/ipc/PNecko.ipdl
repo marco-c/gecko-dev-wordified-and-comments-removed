@@ -691,6 +691,10 @@ PTrackingDummyChannel
 (
 nsIURI
 uri
+nsIURI
+aTopWindowURI
+nsresult
+aTopWindowURIResult
 OptionalLoadInfoArgs
 loadInfo
 )

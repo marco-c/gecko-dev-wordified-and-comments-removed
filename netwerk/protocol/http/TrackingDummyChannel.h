@@ -51,6 +51,8 @@ final
 :
 public
 nsIChannel
+public
+nsIHttpChannelInternal
 {
 public
 :
@@ -61,6 +63,7 @@ TRACKING_DUMMY_CHANNEL_IID
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUEST
 NS_DECL_NSICHANNEL
+NS_DECL_NSIHTTPCHANNELINTERNAL
 enum
 StorageAllowedState
 {
@@ -96,6 +99,11 @@ TrackingDummyChannel
 nsIURI
 *
 aURI
+nsIURI
+*
+aTopWindowURI
+nsresult
+aTopWindowURIResult
 nsILoadInfo
 *
 aLoadInfo
@@ -130,6 +138,15 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+nsCOMPtr
+<
+nsIURI
+>
+mTopWindowURI
+;
+nsresult
+mTopWindowURIResult
 ;
 bool
 mIsTrackingResource
