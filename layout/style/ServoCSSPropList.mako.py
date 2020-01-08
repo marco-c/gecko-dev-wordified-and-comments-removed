@@ -454,6 +454,10 @@ Opacity
 "
     
 "
+Quotes
+"
+    
+"
 Resize
 "
     
