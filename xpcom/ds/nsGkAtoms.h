@@ -54,11 +54,11 @@ aOffset
 ;
 DEFINE_STATIC_ATOM_SUBCLASS
 (
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 )
 DEFINE_STATIC_ATOM_SUBCLASS
 (
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 )
 #
 undef

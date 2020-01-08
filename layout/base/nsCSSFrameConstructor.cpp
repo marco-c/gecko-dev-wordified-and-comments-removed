@@ -10191,7 +10191,7 @@ mBinding
 mExtraData
 -
 >
-Principal
+GetPrincipal
 (
 )
 getter_AddRefs
@@ -20902,7 +20902,7 @@ ContainerFrameCreationFunc
 aConstructor
 ContainerFrameCreationFunc
 aInnerConstructor
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 aInnerPseudo
 bool
@@ -23427,7 +23427,7 @@ binding
 mExtraData
 -
 >
-Principal
+GetPrincipal
 (
 )
 getter_AddRefs
@@ -40944,7 +40944,7 @@ sPseudoParentData
 aWrapperType
 ]
 ;
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 pseudoType
 =

@@ -1438,7 +1438,7 @@ type
 =
 =
 "
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 "
 or
 atom
@@ -1449,7 +1449,7 @@ type
 =
 =
 "
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 "
 :
             

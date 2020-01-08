@@ -151,7 +151,7 @@ aContent
 ComputedStyle
 *
 aStyle
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 aPseudoElement
 const

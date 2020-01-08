@@ -80,7 +80,7 @@ string
 ty
 =
 "
-nsICSSPseudoElement
+nsCSSPseudoElementStaticAtom
 "
 )
 class
@@ -109,7 +109,7 @@ string
 ty
 =
 "
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 "
 )
 class

@@ -114,7 +114,7 @@ mozilla
 ComputedStyle
 *
 aStyle
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 aPseudoElement
 const

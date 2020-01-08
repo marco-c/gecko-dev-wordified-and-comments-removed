@@ -1349,7 +1349,7 @@ nsRect
 aTextRect
 )
 ;
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 GetItemWithinCellAt
 (
@@ -1380,7 +1380,7 @@ nsTreeColumn
 *
 *
 aCol
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 *
 aChildElt
@@ -1500,7 +1500,7 @@ ComputedStyle
 *
 GetPseudoComputedStyle
 (
-nsICSSAnonBoxPseudo
+nsCSSAnonBoxPseudoStaticAtom
 *
 aPseudoElement
 )
