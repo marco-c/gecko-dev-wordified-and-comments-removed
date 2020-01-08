@@ -8958,6 +8958,17 @@ ensureRegisteredWithProfiler
 if
 (
 registered
+|
+|
+mozilla
+:
+:
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 return
 ;
