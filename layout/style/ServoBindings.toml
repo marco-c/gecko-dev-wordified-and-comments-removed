@@ -2349,9 +2349,6 @@ types
 gecko
 =
 "
-mozilla
-:
-:
 StyleAppearance
 "
 servo
@@ -2370,9 +2367,6 @@ Appearance
 gecko
 =
 "
-mozilla
-:
-:
 StyleComputedFontStretchRange
 "
 servo
@@ -2388,9 +2382,6 @@ ComputedFontStretchRange
 gecko
 =
 "
-mozilla
-:
-:
 StyleComputedFontStyleDescriptor
 "
 servo
@@ -2406,9 +2397,6 @@ ComputedFontStyleDescriptor
 gecko
 =
 "
-mozilla
-:
-:
 StyleComputedFontWeightRange
 "
 servo
@@ -2424,9 +2412,6 @@ ComputedFontWeightRange
 gecko
 =
 "
-mozilla
-:
-:
 StyleComputedTimingFunction
 "
 servo
@@ -2448,9 +2433,6 @@ TimingFunction
 gecko
 =
 "
-mozilla
-:
-:
 StyleDisplay
 "
 servo
@@ -2469,9 +2451,6 @@ Display
 gecko
 =
 "
-mozilla
-:
-:
 StyleDisplayMode
 "
 servo
@@ -2490,9 +2469,6 @@ DisplayMode
 gecko
 =
 "
-mozilla
-:
-:
 StyleFillRule
 "
 servo
@@ -2514,9 +2490,6 @@ FillRule
 gecko
 =
 "
-mozilla
-:
-:
 StyleFontDisplay
 "
 servo
@@ -2532,9 +2505,6 @@ FontDisplay
 gecko
 =
 "
-mozilla
-:
-:
 StyleFontFaceSourceListComponent
 "
 servo
@@ -2550,9 +2520,6 @@ FontFaceSourceListComponent
 gecko
 =
 "
-mozilla
-:
-:
 StyleFontLanguageOverride
 "
 servo
@@ -2574,9 +2541,6 @@ FontLanguageOverride
 gecko
 =
 "
-mozilla
-:
-:
 StylePathCommand
 "
 servo
@@ -2598,9 +2562,6 @@ PathCommand
 gecko
 =
 "
-mozilla
-:
-:
 StyleUnicodeRange
 "
 servo
