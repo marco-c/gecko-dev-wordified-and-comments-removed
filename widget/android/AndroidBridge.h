@@ -421,11 +421,6 @@ aText
 )
 ;
 int
-GetDPI
-(
-)
-;
-int
 GetScreenDepth
 (
 )
