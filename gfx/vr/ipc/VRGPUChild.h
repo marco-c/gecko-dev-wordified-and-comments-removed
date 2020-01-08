@@ -81,11 +81,6 @@ VRGPUChild
 )
 {
 }
-void
-Destroy
-(
-)
-;
 private
 :
 DISALLOW_COPY_AND_ASSIGN
