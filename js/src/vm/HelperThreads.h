@@ -1591,6 +1591,12 @@ threadLoop
 (
 )
 ;
+static
+void
+WakeupAll
+(
+)
+;
 void
 ensureRegisteredWithProfiler
 (
