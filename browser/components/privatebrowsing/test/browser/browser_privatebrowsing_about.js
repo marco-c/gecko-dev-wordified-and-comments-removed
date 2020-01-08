@@ -11,17 +11,6 @@ pbmode
 enabled
 "
 ;
-const
-CB_ENABLED_PREF
-=
-"
-browser
-.
-contentblocking
-.
-enabled
-"
-;
 async
 function
 openAboutPrivateBrowsing
