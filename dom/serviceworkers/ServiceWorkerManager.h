@@ -244,6 +244,9 @@ namespace
 dom
 {
 class
+ContentParent
+;
+class
 ServiceWorkerInfo
 ;
 class

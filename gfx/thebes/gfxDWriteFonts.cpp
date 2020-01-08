@@ -63,17 +63,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentParent
-.
-h
-"
-#
-include
-"
 cairo
 -
 win32

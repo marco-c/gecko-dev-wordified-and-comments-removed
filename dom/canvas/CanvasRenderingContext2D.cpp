@@ -401,17 +401,6 @@ mozilla
 /
 dom
 /
-ContentParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ImageBitmap
 .
 h

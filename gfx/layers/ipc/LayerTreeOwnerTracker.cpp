@@ -19,17 +19,6 @@ include
 "
 mozilla
 /
-dom
-/
-ContentParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 GPUChild

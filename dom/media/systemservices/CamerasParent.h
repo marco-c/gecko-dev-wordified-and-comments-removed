@@ -23,17 +23,6 @@ include
 "
 mozilla
 /
-dom
-/
-ContentParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 camera
 /
 PCamerasParent

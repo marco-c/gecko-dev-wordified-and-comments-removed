@@ -76,17 +76,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentChild
-.
-h
-"
-#
-include
-"
 nsIClipboard
 .
 h

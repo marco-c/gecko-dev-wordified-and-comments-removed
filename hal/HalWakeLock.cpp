@@ -35,17 +35,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentParent
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

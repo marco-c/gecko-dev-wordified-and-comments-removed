@@ -16,17 +16,6 @@ include
 "
 mozilla
 /
-dom
-/
-ContentParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 media
 /
 PMediaParent

@@ -1,17 +1,6 @@
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentChild
-.
-h
-"
-#
-include
-"
 nsHapticFeedback
 .
 h

@@ -47,6 +47,17 @@ include
 "
 mozilla
 /
+dom
+/
+ContentParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 InputStreamUtils

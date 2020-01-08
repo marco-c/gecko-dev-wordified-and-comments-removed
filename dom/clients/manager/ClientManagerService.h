@@ -31,6 +31,9 @@ class
 ClientSourceParent
 ;
 class
+ContentParent
+;
+class
 ClientManagerService
 final
 {

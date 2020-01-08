@@ -27,17 +27,6 @@ include
 "
 mozilla
 /
-dom
-/
-ContentChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
 camera
 /
 PCamerasChild

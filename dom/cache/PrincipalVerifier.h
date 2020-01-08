@@ -42,6 +42,9 @@ PBackgroundParent
 namespace
 dom
 {
+class
+ContentParent
+;
 namespace
 cache
 {
