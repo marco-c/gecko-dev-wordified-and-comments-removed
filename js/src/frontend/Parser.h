@@ -3219,7 +3219,7 @@ YieldHandling
 yieldHandling
 )
 ;
-Node
+TernaryNodeType
 tryStatement
 (
 YieldHandling
@@ -3265,7 +3265,7 @@ YieldHandling
 yieldHandling
 )
 ;
-Node
+TernaryNodeType
 ifStatement
 (
 YieldHandling
@@ -3858,8 +3858,8 @@ inline
 bool
 checkExportedNameForClass
 (
-Node
-node
+ClassNodeType
+classNode
 )
 ;
 inline
@@ -3877,7 +3877,7 @@ ClassStatement
 ClassExpression
 }
 ;
-Node
+ClassNodeType
 classDefinition
 (
 YieldHandling
@@ -4770,8 +4770,8 @@ inline
 bool
 checkExportedNameForClass
 (
-Node
-node
+ClassNodeType
+classNode
 )
 ;
 inline
@@ -5307,8 +5307,8 @@ node
 bool
 checkExportedNameForClass
 (
-Node
-node
+ClassNodeType
+classNode
 )
 ;
 inline
