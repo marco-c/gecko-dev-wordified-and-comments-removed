@@ -69,6 +69,8 @@ uint8_t
 aFontData
 uint32_t
 aDataLength
+bool
+aNeedsCairo
 )
 {
 CFDataRef
@@ -137,6 +139,7 @@ new
 NativeFontResourceMac
 (
 fontRef
+aNeedsCairo
 )
 ;
 return
@@ -177,6 +180,7 @@ UnscaledFontMac
 (
 mFontRef
 true
+mNeedsCairo
 )
 ;
 return

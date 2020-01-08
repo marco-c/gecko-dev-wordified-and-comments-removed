@@ -2799,6 +2799,9 @@ mFont
 ;
 if
 (
+mNeedsCairo
+&
+&
 !
 scaledFont
 -
