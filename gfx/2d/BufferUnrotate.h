@@ -1,9 +1,9 @@
 #
 ifndef
-GFX_BUFFERUNROTATE_H
+MOZILLA_GFX_BUFFER_UNROTATE_H
 #
 define
-GFX_BUFFERUNROTATE_H
+MOZILLA_GFX_BUFFER_UNROTATE_H
 #
 include
 "
@@ -13,6 +13,12 @@ Types
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+gfx
+{
 void
 BufferUnrotate
 (
@@ -31,5 +37,7 @@ int
 aYBoundary
 )
 ;
+}
+}
 #
 endif
