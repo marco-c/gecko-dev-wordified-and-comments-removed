@@ -1663,11 +1663,6 @@ ResponsivenessMonitor
 jsm
 '
 '
-SelectionSourceContent
-.
-jsm
-'
-'
 SelectParentHelper
 .
 jsm

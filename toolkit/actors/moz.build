@@ -112,6 +112,11 @@ SelectChild
 jsm
 '
 '
+SelectionSourceChild
+.
+jsm
+'
+'
 ThumbnailsChild
 .
 jsm
