@@ -1992,6 +1992,7 @@ pub
 enum
 FilterOp
 {
+Identity
 Blur
 (
 f32

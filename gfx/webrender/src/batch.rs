@@ -4176,6 +4176,13 @@ filter
 FilterOp
 :
 :
+Identity
+=
+>
+1
+FilterOp
+:
+:
 Blur
 (
 .
@@ -4302,6 +4309,13 @@ user_data
 match
 filter
 {
+FilterOp
+:
+:
+Identity
+=
+>
+0x10000i32
 FilterOp
 :
 :

@@ -921,6 +921,11 @@ self
 FilterOp
 :
 :
+Identity
+|
+FilterOp
+:
+:
 Blur
 (
 .
@@ -1041,6 +1046,13 @@ match
 *
 self
 {
+FilterOp
+:
+:
+Identity
+=
+>
+false
 FilterOp
 :
 :
