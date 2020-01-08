@@ -1448,10 +1448,6 @@ nsGkAtoms
 data
 )
 {
-mMatchSubdomain
-=
-true
-;
 aIgnorePath
 =
 false
