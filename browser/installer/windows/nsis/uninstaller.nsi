@@ -1967,14 +1967,6 @@ https
 {
 un
 .
-RegCleanProtocolHandler
-}
-"
-mailto
-"
-{
-un
-.
 RegCleanFileHandler
 }
 "
