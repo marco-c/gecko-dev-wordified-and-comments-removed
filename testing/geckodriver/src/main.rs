@@ -1293,11 +1293,8 @@ logging
 :
 init_with_level
 (
+*
 level
-.
-clone
-(
-)
 )
 .
 unwrap
