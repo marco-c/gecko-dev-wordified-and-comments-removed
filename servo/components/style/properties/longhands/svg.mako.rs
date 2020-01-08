@@ -1246,6 +1246,11 @@ First
 None_
 )
 "
+parse_method
+=
+"
+parse_with_cors_anonymous
+"
 spec
 =
 "
