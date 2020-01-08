@@ -117363,6 +117363,7 @@ bug_numbers
 [
 1296606
 1488881
+1490342
 ]
 "
 kind
@@ -117394,6 +117395,15 @@ service
 at
 startup
 .
+"
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
 "
 }
 "
