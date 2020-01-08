@@ -2283,7 +2283,7 @@ preferences
 #
 privacy
 -
-address
+form
 -
 autofill
 "
