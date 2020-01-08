@@ -438,7 +438,6 @@ action
 )
 ;
 }
-;
 click
 :
 function
