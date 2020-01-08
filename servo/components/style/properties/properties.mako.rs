@@ -3148,6 +3148,16 @@ i32
 )
 }
 }
+/
+/
+/
+Convert
+an
+nsCSSPropertyID
+into
+a
+NonCustomPropertyId
+.
 #
 [
 cfg
@@ -3163,6 +3173,7 @@ gecko
 [
 inline
 ]
+pub
 fn
 from_nscsspropertyid
 (
@@ -3278,6 +3289,7 @@ name
 [
 inline
 ]
+pub
 fn
 name
 (
