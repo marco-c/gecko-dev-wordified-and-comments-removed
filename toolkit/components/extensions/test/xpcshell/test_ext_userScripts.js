@@ -2105,6 +2105,15 @@ script
 .
 js
 "
+unexpected_manifest_key
+:
+"
+test
+-
+unexpected
+-
+key
+"
 }
 }
 background
