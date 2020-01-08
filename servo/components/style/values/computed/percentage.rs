@@ -75,13 +75,6 @@ ToAnimatedZero
 ToComputedValue
 )
 ]
-#
-[
-repr
-(
-C
-)
-]
 pub
 struct
 Percentage
