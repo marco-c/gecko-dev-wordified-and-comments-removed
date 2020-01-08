@@ -33531,7 +33531,7 @@ if
 (
 JitOptions
 .
-disableSharedStubs
+disableCacheIR
 )
 return
 Ok
