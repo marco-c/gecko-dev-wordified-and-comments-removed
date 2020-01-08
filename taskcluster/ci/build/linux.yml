@@ -5192,6 +5192,10 @@ rust
 linux64
 -
 gcc
+-
+linux64
+-
+sccache
 linux64
 -
 ccov
@@ -5361,6 +5365,10 @@ rust
 linux64
 -
 gcc
+-
+linux64
+-
+sccache
 linux64
 -
 add
