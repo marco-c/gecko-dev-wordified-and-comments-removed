@@ -425,9 +425,8 @@ assert_equals
 (
 registration
 .
-state
+result
 '
-pending
 '
 )
 ;
@@ -482,7 +481,7 @@ assert_equals
 (
 eventRegistration
 .
-state
+result
 '
 success
 '
@@ -724,7 +723,7 @@ assert_equals
 (
 eventRegistration
 .
-state
+result
 '
 success
 '
