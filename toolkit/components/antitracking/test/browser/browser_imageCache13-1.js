@@ -57,11 +57,6 @@ blockingByContentBlocking
 false
 ;
 let
-blockingByContentBlockingUI
-=
-true
-;
-let
 blockingByContentBlockingRTUI
 =
 false

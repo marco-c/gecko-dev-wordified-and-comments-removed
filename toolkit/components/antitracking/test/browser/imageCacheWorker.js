@@ -204,7 +204,6 @@ runExtraTests
 false
 cookieBehavior
 blockingByContentBlocking
-blockingByContentBlockingUI
 blockingByContentBlockingRTUI
 blockingByAllowList
 callback
@@ -385,12 +384,7 @@ expectedBlockingNotifications
 let
 expected
 =
-(
 blockingByContentBlocking
-&
-&
-blockingByContentBlockingUI
-)
 ?
 2
 :
