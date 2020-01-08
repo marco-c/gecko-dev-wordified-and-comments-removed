@@ -1536,6 +1536,13 @@ test
 -
 platform
 :
+linux64
+-
+ccov
+/
+debug
+:
+12
 windows10
 -
 64
