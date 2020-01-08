@@ -8433,6 +8433,13 @@ pipelineId
 txn
 )
 ;
+txn
+.
+RemovePipeline
+(
+pipelineId
+)
+;
 }
 mAsyncCompositables
 .
