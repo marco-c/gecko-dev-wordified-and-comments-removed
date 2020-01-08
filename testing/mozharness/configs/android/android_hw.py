@@ -140,6 +140,16 @@ download_minidump_stackwalk
 True
     
 "
+minidump_stackwalk_path
+"
+:
+"
+linux64
+-
+minidump_stackwalk
+"
+    
+"
 tooltool_servers
 "
 :

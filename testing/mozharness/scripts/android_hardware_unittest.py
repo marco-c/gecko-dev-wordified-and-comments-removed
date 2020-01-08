@@ -674,19 +674,6 @@ apk
         
 self
 .
-minidump_stackwalk_path
-=
-c
-.
-get
-(
-"
-minidump_stackwalk_path
-"
-)
-        
-self
-.
 device_name
 =
 os
