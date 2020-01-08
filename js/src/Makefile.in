@@ -288,6 +288,9 @@ external_symbolizer_path
 (
 LLVM_SYMBOLIZER
 )
+handle_segv
+=
+0
 TSAN_OPTIONS
 "
 endif
