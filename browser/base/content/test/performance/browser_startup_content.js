@@ -390,7 +390,7 @@ gre
 /
 modules
 /
-TelemetrySession
+MemoryTelemetry
 .
 jsm
 "

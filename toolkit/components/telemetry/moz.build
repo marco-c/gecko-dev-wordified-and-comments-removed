@@ -598,6 +598,13 @@ jsm
 '
 other
 /
+MemoryTelemetry
+.
+jsm
+'
+'
+other
+/
 UITelemetry
 .
 jsm
