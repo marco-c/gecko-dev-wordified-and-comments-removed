@@ -780,6 +780,10 @@ http
 blocked
 .
 test
+/
+foo
+.
+js
 "
 }
 false
@@ -1204,6 +1208,10 @@ ftp
 blocked
 .
 test
+/
+profile
+.
+png
 "
 }
 false

@@ -288,6 +288,15 @@ SecurityPolicyViolationEventInit
 aViolationEventInit
 )
 ;
+enum
+BlockedContentSource
+{
+eUnknown
+eInline
+eEval
+eSelf
+}
+;
 nsresult
 AsyncReportViolation
 (
@@ -300,8 +309,10 @@ dom
 Element
 *
 aTriggeringElement
-nsISupports
+nsIURI
 *
+aBlockedURI
+BlockedContentSource
 aBlockedContentSource
 nsIURI
 *
