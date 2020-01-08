@@ -369,7 +369,7 @@ null
 be
 here
 ?
-PayerErrorFields
+PayerErrors
 payer
 =
 null
@@ -404,7 +404,7 @@ paymentMethod
 }
 ;
 dictionary
-PayerErrorFields
+PayerErrors
 {
 DOMString
 email
@@ -462,7 +462,7 @@ null
 be
 here
 ?
-PayerErrorFields
+PayerErrors
 payerErrors
 =
 null

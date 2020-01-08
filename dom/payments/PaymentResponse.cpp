@@ -1448,7 +1448,7 @@ return
 NS_OK
 ;
 }
-PayerErrorFields
+PayerErrors
 payerErrors
 (
 aErrors
