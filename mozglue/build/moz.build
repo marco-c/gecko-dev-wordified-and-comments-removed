@@ -802,7 +802,7 @@ and
 CONFIG
 [
 '
-TARGET_CPU
+CPU_ARCH
 '
 ]
 =
