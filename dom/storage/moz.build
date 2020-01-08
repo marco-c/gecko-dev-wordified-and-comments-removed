@@ -146,6 +146,11 @@ StorageActivityService
 h
 '
 '
+StorageDBUpdater
+.
+h
+'
+'
 StorageIPC
 .
 h

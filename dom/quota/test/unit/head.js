@@ -921,6 +921,16 @@ zipentry
 isDirectory
 )
 {
+if
+(
+!
+file
+.
+exists
+(
+)
+)
+{
 file
 .
 create
@@ -939,6 +949,7 @@ parseInt
 )
 )
 ;
+}
 }
 else
 {

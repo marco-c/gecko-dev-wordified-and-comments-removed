@@ -1392,6 +1392,11 @@ MaybeRemoveLocalStorageDirectories
 )
 ;
 nsresult
+MaybeCreateLocalStorageArchive
+(
+)
+;
+nsresult
 InitializeRepository
 (
 PersistenceType
