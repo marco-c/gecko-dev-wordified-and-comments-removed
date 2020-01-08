@@ -88,9 +88,11 @@ cacert
 pem
 *
 Set
-OBJC_DISABLE_INITIALIZE_FORK_SAFETY
+no_proxy
 =
-YES
+'
+*
+'
 in
 your
 environment
