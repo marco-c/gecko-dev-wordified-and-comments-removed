@@ -6047,6 +6047,13 @@ inFunctionBox
 false
 )
 ;
+bool
+DeclarationKindIsVar
+(
+DeclarationKind
+kind
+)
+;
 }
 }
 #

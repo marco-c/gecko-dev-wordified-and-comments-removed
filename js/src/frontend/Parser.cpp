@@ -6542,7 +6542,6 @@ return
 true
 ;
 }
-static
 bool
 DeclarationKindIsVar
 (
