@@ -3928,3 +3928,12 @@ mozilla
 .
 geckoview
 '
+apiLint
+.
+changelogFileName
+=
+'
+CHANGELOG
+.
+md
+'
