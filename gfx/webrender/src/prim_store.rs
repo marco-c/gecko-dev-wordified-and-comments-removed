@@ -13016,7 +13016,7 @@ Clear
 PrimitiveOpacity
 :
 :
-opaque
+translucent
 (
 )
 }
