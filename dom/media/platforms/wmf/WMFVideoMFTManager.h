@@ -106,6 +106,13 @@ ImageContainer
 aImageContainer
 float
 aFramerate
+const
+CreateDecoderParams
+:
+:
+OptionSet
+&
+aOptions
 bool
 aDXVAEnabled
 )
@@ -447,6 +454,10 @@ false
 const
 float
 mFramerate
+;
+const
+bool
+mLowLatency
 ;
 }
 ;
