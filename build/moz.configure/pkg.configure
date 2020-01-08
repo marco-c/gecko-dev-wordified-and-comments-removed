@@ -350,12 +350,6 @@ dependable
 (
 package_desc
 )
-allow_missing
-=
-dependable
-(
-allow_missing
-)
 depends
 (
 when
@@ -499,7 +493,6 @@ depends
 (
 pkg_config
 package_desc
-allow_missing
 when
 =
 when_and_compile_environment
@@ -538,7 +531,6 @@ package
 (
 pkg_config
 package_desc
-allow_missing
 )
 :
 #
