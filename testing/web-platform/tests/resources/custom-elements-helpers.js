@@ -67,11 +67,6 @@ add_cleanup
 >
 f
 .
-parentNode
-&
-&
-f
-.
 remove
 (
 )
