@@ -147,8 +147,6 @@ numYieldsAtBeginCodeNeedingIterClose_
 bce
 -
 >
-resumeOffsetList
-.
 numYields
 ;
 return
@@ -360,8 +358,6 @@ numYieldsEmitted
 bce
 -
 >
-resumeOffsetList
-.
 numYields
 ;
 if

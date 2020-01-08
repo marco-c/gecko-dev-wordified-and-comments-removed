@@ -509,12 +509,6 @@ uint32_t
 >
 list
 ;
-uint32_t
-numYields
-;
-uint32_t
-numAwaits
-;
 explicit
 CGResumeOffsetList
 (
@@ -526,14 +520,6 @@ cx
 list
 (
 cx
-)
-numYields
-(
-0
-)
-numAwaits
-(
-0
 )
 {
 }
@@ -831,6 +817,9 @@ scopeNoteList
 ;
 CGResumeOffsetList
 resumeOffsetList
+;
+uint32_t
+numYields
 ;
 uint16_t
 typesetCount
