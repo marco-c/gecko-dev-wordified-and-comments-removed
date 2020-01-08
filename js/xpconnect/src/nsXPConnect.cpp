@@ -3182,6 +3182,7 @@ XPCConvert
 :
 JSObject2NativeInterface
 (
+aJSContext
 result
 aJSObj
 &
@@ -3341,6 +3342,7 @@ XPCConvert
 :
 JSObject2NativeInterface
 (
+aJSContext
 result
 aJSObj
 &

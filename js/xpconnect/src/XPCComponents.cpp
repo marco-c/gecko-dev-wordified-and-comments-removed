@@ -12315,6 +12315,7 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
+aCx
 obj
 NS_GET_IID
 (

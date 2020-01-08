@@ -2247,6 +2247,9 @@ XPCConvert
 :
 JSData2Native
 (
+JSContext
+*
+cx
 void
 *
 d
@@ -2276,8 +2279,14 @@ param
 "
 )
 ;
-AutoJSContext
+js
+:
+:
+AssertSameCompartment
+(
 cx
+s
+)
 ;
 if
 (
@@ -4166,6 +4175,7 @@ toObject
 return
 JSObject2NativeInterface
 (
+cx
 (
 void
 *
@@ -5111,6 +5121,9 @@ XPCConvert
 :
 JSObject2NativeInterface
 (
+JSContext
+*
+cx
 void
 *
 *
@@ -5154,6 +5167,15 @@ iid
 bad
 param
 "
+)
+;
+js
+:
+:
+AssertSameCompartment
+(
+cx
+src
 )
 ;
 *
@@ -5456,6 +5478,7 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
+cx
 src
 *
 iid
@@ -7369,6 +7392,7 @@ current
 !
 JSData2Native
 (
+cx
 aEltType
 .
 ElementPtr

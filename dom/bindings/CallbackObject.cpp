@@ -1547,6 +1547,7 @@ nsXPCWrappedJS
 :
 GetNewOrUsed
 (
+cx
 callback
 aIID
 getter_AddRefs
