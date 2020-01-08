@@ -110,6 +110,11 @@ previoustrack
 "
 nexttrack
 "
+"
+skip
+-
+ad
+"
 }
 ;
 callback
