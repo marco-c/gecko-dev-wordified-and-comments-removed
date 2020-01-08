@@ -10940,6 +10940,15 @@ ldflags
 =
 ldflags
 )
+add_old_configure_assignment
+(
+'
+MOZ_LTO
+'
+lto
+.
+enabled
+)
 set_config
 (
 '
