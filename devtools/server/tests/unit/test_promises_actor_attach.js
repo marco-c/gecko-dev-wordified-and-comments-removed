@@ -53,7 +53,7 @@ client
 )
 ;
 await
-attachTarget
+attachTab
 (
 client
 parentProcessActors
@@ -104,13 +104,8 @@ tab
 "
 )
 ;
-const
-[
-tabResponse
-]
-=
 await
-attachTarget
+attachTab
 (
 client
 targetTab
@@ -120,7 +115,7 @@ await
 testAttach
 (
 client
-tabResponse
+targetTab
 )
 ;
 await
