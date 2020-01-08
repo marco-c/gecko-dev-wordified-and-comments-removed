@@ -4281,8 +4281,10 @@ promise
 if
 (
 promise
-&
-&
+)
+{
+if
+(
 promise
 -
 >
@@ -4315,6 +4317,14 @@ promise
 {
 return
 false
+;
+}
+}
+else
+{
+promise
+=
+nullptr
 ;
 }
 }
