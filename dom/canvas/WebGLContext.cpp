@@ -1893,7 +1893,7 @@ blacklisting
 "
 )
 ;
-mOptions
+newOpts
 .
 antialias
 =
