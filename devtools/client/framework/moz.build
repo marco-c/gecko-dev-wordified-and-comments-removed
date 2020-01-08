@@ -96,6 +96,15 @@ browser
 .
 ini
 '
+'
+test
+/
+metrics
+/
+browser_metrics_inspector
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
