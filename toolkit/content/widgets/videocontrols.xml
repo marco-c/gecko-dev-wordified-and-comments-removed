@@ -9039,7 +9039,13 @@ isVideoInFullScreen
 )
 {
 return
-document
+this
+.
+video
+.
+getRootNode
+(
+)
 .
 mozFullScreenElement
 =
