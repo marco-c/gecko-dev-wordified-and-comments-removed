@@ -933,10 +933,11 @@ aURL
 let
 tab
 =
-aBrowser
+BrowserTestUtils
 .
 addTab
 (
+aBrowser
 aURL
 )
 ;

@@ -245,12 +245,13 @@ window
 const
 tab
 =
-win
-.
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+win
+.
+gBrowser
 "
 data
 :

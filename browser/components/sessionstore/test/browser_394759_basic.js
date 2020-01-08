@@ -118,12 +118,13 @@ onTestURLLoaded
 newWin
 )
 {
-newWin
-.
-gBrowser
+BrowserTestUtils
 .
 addTab
 (
+newWin
+.
+gBrowser
 )
 .
 linkedBrowser
