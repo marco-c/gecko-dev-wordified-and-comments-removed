@@ -14,6 +14,8 @@ gtest
 .
 h
 "
+namespace
+{
 template
 <
 class
@@ -750,3 +752,4 @@ PrimeTableImplementations
 ;
 #
 endif
+}

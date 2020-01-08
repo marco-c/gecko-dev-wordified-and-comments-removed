@@ -1498,23 +1498,21 @@ user
         
 (
 see
-http
+https
 :
 /
 /
-code
+developers
 .
 google
 .
 com
 /
-apis
+identity
 /
-accounts
+protocols
 /
 AuthForInstalledApps
-.
-html
 )
 .
      
@@ -3837,23 +3835,27 @@ instance
 Source
 :
     
-http
+https
 :
 /
 /
-aspn
+web
+.
+archive
+.
+org
+/
+web
+/
+20160116052001
+/
+code
 .
 activestate
 .
 com
 /
-ASPN
-/
-Cookbook
-/
-Python
-/
-Recipe
+recipes
 /
 146306
   

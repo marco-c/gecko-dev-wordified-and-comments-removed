@@ -14,6 +14,8 @@ gtest
 .
 h
 "
+namespace
+{
 TEST
 (
 MyString
@@ -214,4 +216,5 @@ c_string
 )
 )
 ;
+}
 }

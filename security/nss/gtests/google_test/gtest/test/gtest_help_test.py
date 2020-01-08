@@ -13,6 +13,8 @@ C
 +
 +
 Testing
+and
+Mocking
 Framework
 .
 SYNOPSIS
@@ -46,18 +48,6 @@ py
 "
 "
 "
-__author__
-=
-'
-wan
-google
-.
-com
-(
-Zhanyong
-Wan
-)
-'
 import
 os
 import

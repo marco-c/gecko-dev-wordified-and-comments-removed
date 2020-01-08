@@ -21,6 +21,8 @@ gtest
 .
 h
 "
+namespace
+{
 TEST
 (
 FactorialTest
@@ -227,4 +229,5 @@ IsPrime
 )
 )
 ;
+}
 }

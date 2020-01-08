@@ -14,9 +14,8 @@ gtest
 .
 h
 "
-#
-if
-GTEST_HAS_PARAM_TEST
+namespace
+{
 using
 :
 :
@@ -73,7 +72,7 @@ max_precalculated
 ;
 }
 class
-PrimeTableTest
+PrimeTableTestSmpl7
 :
 public
 TestWithParam
@@ -86,7 +85,7 @@ public
 :
 virtual
 ~
-PrimeTableTest
+PrimeTableTestSmpl7
 (
 )
 {
@@ -136,7 +135,7 @@ table_
 ;
 TEST_P
 (
-PrimeTableTest
+PrimeTableTestSmpl7
 ReturnsFalseForNonPrimes
 )
 {
@@ -210,7 +209,7 @@ IsPrime
 }
 TEST_P
 (
-PrimeTableTest
+PrimeTableTestSmpl7
 ReturnsTrueForPrimes
 )
 {
@@ -283,7 +282,7 @@ IsPrime
 }
 TEST_P
 (
-PrimeTableTest
+PrimeTableTestSmpl7
 CanGetNextPrime
 )
 {
@@ -363,7 +362,7 @@ GetNextPrime
 INSTANTIATE_TEST_CASE_P
 (
 OnTheFlyAndPreCalculated
-PrimeTableTest
+PrimeTableTestSmpl7
 Values
 (
 &
@@ -376,14 +375,4 @@ CreatePreCalculatedPrimeTable
 )
 )
 ;
-#
-else
-TEST
-(
-DummyTest
-ValueParameterizedTestsAreNotSupportedOnThisPlatform
-)
-{
 }
-#
-endif

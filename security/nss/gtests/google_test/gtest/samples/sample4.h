@@ -29,6 +29,11 @@ Increment
 (
 )
 ;
+int
+Decrement
+(
+)
+;
 void
 Print
 (

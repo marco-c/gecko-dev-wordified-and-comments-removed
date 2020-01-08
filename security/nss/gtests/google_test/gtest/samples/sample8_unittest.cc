@@ -14,6 +14,8 @@ gtest
 .
 h
 "
+namespace
+{
 #
 if
 GTEST_HAS_COMBINE
@@ -558,3 +560,4 @@ CombineIsNotSupportedOnThisPlatform
 }
 #
 endif
+}

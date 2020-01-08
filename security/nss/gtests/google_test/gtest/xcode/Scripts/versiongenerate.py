@@ -6,7 +6,7 @@ script
 to
 prepare
 version
-informtion
+information
 for
 use
 the
@@ -140,7 +140,7 @@ be
        
 surrounded
 by
-squre
+square
 brackets
 "
 [
@@ -482,7 +482,6 @@ of
 this
 we
 are
-not
 not
 restricted
 to

@@ -16,8 +16,10 @@ gtest
 .
 h
 "
+namespace
+{
 class
-QueueTest
+QueueTestSmpl3
 :
 public
 testing
@@ -208,7 +210,7 @@ q2_
 ;
 TEST_F
 (
-QueueTest
+QueueTestSmpl3
 DefaultConstructor
 )
 {
@@ -225,7 +227,7 @@ Size
 }
 TEST_F
 (
-QueueTest
+QueueTestSmpl3
 Dequeue
 )
 {
@@ -322,7 +324,7 @@ n
 }
 TEST_F
 (
-QueueTest
+QueueTestSmpl3
 Map
 )
 {
@@ -344,4 +346,5 @@ MapTester
 q2_
 )
 ;
+}
 }

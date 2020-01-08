@@ -10,17 +10,8 @@ h
 #
 include
 <
-iostream
->
-#
-include
-<
 vector
 >
-#
-define
-GTEST_IMPLEMENTATION_
-1
 #
 include
 "
@@ -34,9 +25,6 @@ inl
 .
 h
 "
-#
-undef
-GTEST_IMPLEMENTATION_
 #
 if
 GTEST_IS_THREADSAFE
