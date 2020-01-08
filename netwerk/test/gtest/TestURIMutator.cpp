@@ -482,9 +482,6 @@ newquery
 )
 .
 Finalize
-<
-nsIURI
->
 (
 getter_AddRefs
 (
