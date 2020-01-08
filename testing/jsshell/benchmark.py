@@ -654,6 +654,27 @@ reset
 (
 )
         
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+env
+[
+'
+JSGC_DISABLE_POISONING
+'
+]
+=
+'
+1
+'
+        
 process_args
 =
 {
@@ -697,6 +718,12 @@ stream
 sys
 .
 stdout
+            
+'
+env
+'
+:
+env
         
 }
         
