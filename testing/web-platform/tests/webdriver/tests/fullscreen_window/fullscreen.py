@@ -129,8 +129,6 @@ is_fullscreen
 (
 session
 )
-is
-True
 def
 test_payload
 (
@@ -261,12 +259,11 @@ session
 :
     
 assert
+not
 is_fullscreen
 (
 session
 )
-is
-False
     
 first_response
 =
@@ -285,8 +282,6 @@ is_fullscreen
 (
 session
 )
-is
-True
     
 second_response
 =
@@ -305,5 +300,3 @@ is_fullscreen
 (
 session
 )
-is
-True

@@ -104,12 +104,11 @@ retval
 :
         
 assert
+not
 is_fullscreen
 (
 session
 )
-is
-False
         
 create_dialog
 (
@@ -147,8 +146,6 @@ is_fullscreen
 (
 session
 )
-is
-True
     
 return
 check_user_prompt_closed_without_exception
@@ -172,12 +169,11 @@ retval
 :
         
 assert
+not
 is_fullscreen
 (
 session
 )
-is
-False
         
 create_dialog
 (
@@ -216,12 +212,11 @@ retval
 )
         
 assert
+not
 is_fullscreen
 (
 session
 )
-is
-False
     
 return
 check_user_prompt_closed_with_exception
@@ -244,12 +239,11 @@ dialog_type
 :
         
 assert
+not
 is_fullscreen
 (
 session
 )
-is
-False
         
 create_dialog
 (
@@ -295,12 +289,11 @@ dismiss
 )
         
 assert
+not
 is_fullscreen
 (
 session
 )
-is
-False
     
 return
 check_user_prompt_not_closed_but_exception

@@ -125,8 +125,6 @@ is_fullscreen
 (
 session
 )
-is
-True
     
 response
 =
@@ -141,12 +139,11 @@ response
 )
     
 assert
+not
 is_fullscreen
 (
 session
 )
-is
-False
 def
 test_restore_the_window
 (
