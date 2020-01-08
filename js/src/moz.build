@@ -1708,6 +1708,13 @@ cpp
 '
 frontend
 /
+DoWhileEmitter
+.
+cpp
+'
+'
+frontend
+/
 EmitterScope
 .
 cpp
