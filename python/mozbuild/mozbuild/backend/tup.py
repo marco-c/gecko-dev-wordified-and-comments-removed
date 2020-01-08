@@ -1804,6 +1804,22 @@ quiet
 '
 ]
         
+else
+:
+            
+args
++
+=
+[
+'
+-
+-
+debug
+-
+logging
+'
+]
+        
 if
 verbose
 :
@@ -4668,6 +4684,13 @@ args
 tup
 '
 init
+'
+'
+-
+-
+no
+-
+sync
 '
 ]
 )
