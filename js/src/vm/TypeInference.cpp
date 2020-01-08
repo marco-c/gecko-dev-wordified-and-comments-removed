@@ -20490,7 +20490,7 @@ templateObject_
 =
 templateObject
 ;
-Initializer
+TypeNewScriptInitializer
 *
 cursor
 =
@@ -20507,7 +20507,7 @@ cursor
 kind
 !
 =
-Initializer
+TypeNewScriptInitializer
 :
 :
 DONE
@@ -20540,7 +20540,7 @@ cx
 >
 pod_calloc
 <
-Initializer
+TypeNewScriptInitializer
 >
 (
 initializerLength
@@ -21285,7 +21285,7 @@ false
 }
 Vector
 <
-Initializer
+TypeNewScriptInitializer
 >
 initializerVector
 (
@@ -21540,10 +21540,10 @@ true
 ;
 }
 }
-Initializer
+TypeNewScriptInitializer
 done
 (
-Initializer
+TypeNewScriptInitializer
 :
 :
 DONE
@@ -21577,7 +21577,7 @@ zone
 >
 pod_calloc
 <
-Initializer
+TypeNewScriptInitializer
 >
 (
 initializerVector
@@ -22289,7 +22289,7 @@ callDepth
 ;
 for
 (
-Initializer
+TypeNewScriptInitializer
 *
 init
 =
@@ -22309,7 +22309,7 @@ init
 kind
 =
 =
-Initializer
+TypeNewScriptInitializer
 :
 :
 SETPROP
@@ -22357,7 +22357,7 @@ init
 kind
 =
 =
-Initializer
+TypeNewScriptInitializer
 :
 :
 SETPROP_FRAME
@@ -22435,7 +22435,7 @@ init
 kind
 =
 =
-Initializer
+TypeNewScriptInitializer
 :
 :
 DONE

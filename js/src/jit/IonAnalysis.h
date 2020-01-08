@@ -708,10 +708,7 @@ HandlePlainObject
 baseobj
 Vector
 <
-TypeNewScript
-:
-:
-Initializer
+TypeNewScriptInitializer
 >
 *
 initializerList

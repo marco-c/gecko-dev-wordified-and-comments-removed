@@ -34,6 +34,15 @@ h
 #
 include
 "
+threading
+/
+ProtectedData
+.
+h
+"
+#
+include
+"
 vm
 /
 JSObject
