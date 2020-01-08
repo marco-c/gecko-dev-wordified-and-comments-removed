@@ -196,17 +196,6 @@ ContentAreaUtils
 =
 {
 get
-ioService
-(
-)
-{
-return
-Services
-.
-io
-;
-}
-get
 stringBundle
 (
 )
