@@ -10710,6 +10710,13 @@ checkDB
 expectedOrigins
 )
 {
+await
+PlacesTestUtils
+.
+promiseAsyncUpdates
+(
+)
+;
 let
 db
 =
