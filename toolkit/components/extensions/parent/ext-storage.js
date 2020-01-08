@@ -425,6 +425,18 @@ args
 ;
 }
 const
+persisted
+=
+extension
+.
+hasPermission
+(
+"
+unlimitedStorage
+"
+)
+;
+const
 db
 =
 await
@@ -440,6 +452,7 @@ deserialize
 (
 this
 )
+persisted
 )
 ;
 const
