@@ -160,7 +160,7 @@ gWalker
 null
 ;
 let
-gClient
+gTarget
 =
 null
 ;
@@ -200,7 +200,6 @@ href
 ;
 const
 {
-client
 target
 }
 =
@@ -219,9 +218,9 @@ getInspector
 (
 )
 ;
-gClient
+gTarget
 =
-client
+target
 ;
 gWalker
 =
@@ -622,7 +621,7 @@ away
 return
 checkMissing
 (
-gClient
+gTarget
 longlist
 )
 ;
@@ -639,7 +638,7 @@ then
 return
 checkMissing
 (
-gClient
+gTarget
 firstChild
 )
 ;
@@ -666,7 +665,7 @@ gWalker
 =
 null
 ;
-gClient
+gTarget
 =
 null
 ;
