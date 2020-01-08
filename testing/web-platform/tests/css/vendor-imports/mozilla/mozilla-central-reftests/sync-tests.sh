@@ -309,17 +309,6 @@ s
 -
 moz
 -
-column
-/
-column
-/
-g
-;
-s
-/
--
-moz
--
 crisp
 -
 edges
