@@ -1642,12 +1642,6 @@ android
 common
 -
 tests
--
-android
--
-gradle
--
-tests
 android
 -
 em
@@ -1730,12 +1724,6 @@ tests
 android
 -
 opt
--
-tests
--
-android
--
-gradle
 -
 tests
 android

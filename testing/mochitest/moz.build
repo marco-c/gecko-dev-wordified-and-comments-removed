@@ -784,11 +784,6 @@ redirect
 html
 '
 '
-rungeckoview
-.
-py
-'
-'
 runjunit
 .
 py
