@@ -307,6 +307,8 @@ Channel
 (
 size_t
 aId
+bool
+aMiddlemanRecording
 const
 MessageHandler
 &
@@ -447,10 +449,7 @@ connection
 ;
 if
 (
-mId
-=
-=
-RecordingId
+aMiddlemanRecording
 )
 {
 parent

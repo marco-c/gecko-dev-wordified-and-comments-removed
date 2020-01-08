@@ -1047,6 +1047,7 @@ channelID
 ref
 (
 )
+false
 ChannelMessageHandler
 )
 ;

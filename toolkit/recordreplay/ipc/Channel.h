@@ -1999,13 +1999,6 @@ Message
 >
 MessageHandler
 ;
-static
-const
-size_t
-RecordingId
-=
-0
-;
 private
 :
 size_t
@@ -2085,6 +2078,8 @@ Channel
 (
 size_t
 aId
+bool
+aMiddlemanRecording
 const
 MessageHandler
 &
