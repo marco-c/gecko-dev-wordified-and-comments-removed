@@ -82,6 +82,7 @@ CustomElementRegistry
 [
 CEReactions
 Throws
+UseCounter
 ]
 void
 define
