@@ -126,7 +126,7 @@ SpeechRecognitionResultList
 h
 '
 '
-SpeechStreamListener
+SpeechTrackListener
 .
 h
 '
@@ -205,7 +205,7 @@ SpeechRecognitionResultList
 cpp
 '
 '
-SpeechStreamListener
+SpeechTrackListener
 .
 cpp
 '
