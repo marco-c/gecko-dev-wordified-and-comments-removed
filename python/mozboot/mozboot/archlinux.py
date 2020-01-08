@@ -24,10 +24,12 @@ mozboot
 .
 linux_common
 import
+NodeInstall
 StyloInstall
 class
 ArchlinuxBootstrapper
 (
+NodeInstall
 StyloInstall
 BaseBootstrapper
 )

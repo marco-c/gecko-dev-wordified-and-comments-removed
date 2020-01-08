@@ -15,10 +15,12 @@ mozboot
 .
 linux_common
 import
+NodeInstall
 StyloInstall
 class
 CentOSFedoraBootstrapper
 (
+NodeInstall
 StyloInstall
 BaseBootstrapper
 )

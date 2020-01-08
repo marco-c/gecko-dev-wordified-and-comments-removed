@@ -350,12 +350,14 @@ choice
 '
 '
 '
-STYLO_DIRECTORY_MESSAGE
+STYLO_NODEJS_DIRECTORY_MESSAGE
 =
 '
 '
 '
 Stylo
+and
+NodeJS
 packages
 require
 a
@@ -390,13 +392,15 @@ prompted
 '
 '
 '
-STYLO_REQUIRES_CLONE
+STYLE_NODEJS_REQUIRES_CLONE
 =
 '
 '
 '
 Installing
 Stylo
+and
+NodeJS
 packages
 requires
 a
@@ -1966,7 +1970,7 @@ state_dir_available
                 
 print
 (
-STYLO_DIRECTORY_MESSAGE
+STYLO_NODEJS_DIRECTORY_MESSAGE
 .
 format
 (
@@ -1990,7 +1994,7 @@ have_clone
                 
 print
 (
-STYLO_REQUIRES_CLONE
+STYLE_NODEJS_REQUIRES_CLONE
 )
                 
 sys
@@ -2013,6 +2017,16 @@ self
 instance
 .
 ensure_stylo_packages
+(
+state_dir
+checkout_root
+)
+            
+self
+.
+instance
+.
+ensure_node_packages
 (
 state_dir
 checkout_root

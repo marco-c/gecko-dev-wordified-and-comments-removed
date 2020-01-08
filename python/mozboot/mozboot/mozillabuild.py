@@ -43,6 +43,9 @@ self
 no_interactive
 =
 False
+no_system_changes
+=
+False
 )
 :
         
@@ -54,6 +57,10 @@ self
 no_interactive
 =
 no_interactive
+                                  
+no_system_changes
+=
+no_system_changes
 )
         
 print
@@ -226,6 +233,32 @@ install_toolchain_artifact
 state_dir
 checkout_root
 stylo
+.
+WINDOWS
+)
+    
+def
+ensure_node_packages
+(
+self
+state_dir
+checkout_root
+)
+:
+        
+from
+mozboot
+import
+node
+        
+self
+.
+install_toolchain_artifact
+(
+            
+state_dir
+checkout_root
+node
 .
 WINDOWS
 )
