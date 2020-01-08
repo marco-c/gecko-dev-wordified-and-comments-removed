@@ -535,7 +535,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 tel
@@ -604,7 +604,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -791,7 +791,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 tel
@@ -897,7 +897,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1013,7 +1013,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 tel
@@ -1082,7 +1082,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1151,7 +1151,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1226,7 +1226,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1302,7 +1302,7 @@ country
 "
 :
 "
-USA
+US
 "
 }
 expectedResult
@@ -1359,7 +1359,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1427,7 +1427,7 @@ country
 "
 :
 "
-USA
+US
 "
 }
 expectedResult
@@ -1484,7 +1484,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1557,7 +1557,7 @@ country
 "
 :
 "
-USA
+US
 "
 }
 expectedResult
@@ -1614,7 +1614,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1689,7 +1689,7 @@ country
 "
 :
 "
-USA
+US
 "
 }
 expectedResult
@@ -1746,7 +1746,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1823,7 +1823,7 @@ country
 "
 :
 "
-USA
+US
 "
 }
 expectedResult
@@ -1880,7 +1880,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -1954,7 +1954,7 @@ country
 "
 :
 "
-USA
+US
 "
 }
 expectedResult
@@ -2011,7 +2011,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 email
@@ -2090,7 +2090,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 tel
@@ -2159,7 +2159,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 tel
@@ -2236,7 +2236,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 tel
@@ -2305,7 +2305,7 @@ country
 "
 :
 "
-USA
+US
 "
 "
 tel
@@ -3548,6 +3548,13 @@ testcase
 expectedResult
 .
 formSubmission
+"
+Check
+expected
+onFormSubmit
+.
+called
+"
 )
 ;
 if

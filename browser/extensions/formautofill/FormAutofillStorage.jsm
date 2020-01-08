@@ -325,6 +325,11 @@ address
 "
 address
 -
+level3
+"
+"
+address
+-
 level2
 "
 "
@@ -4617,9 +4622,9 @@ country
 !
 FormAutofill
 .
-supportedCountries
+countries
 .
-includes
+has
 (
 address
 .

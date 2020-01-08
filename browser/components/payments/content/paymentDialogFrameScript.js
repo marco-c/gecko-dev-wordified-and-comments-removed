@@ -327,11 +327,11 @@ DEFAULT_REGION
 FormAutofill
 .
 DEFAULT_REGION
-supportedCountries
+countries
 :
 FormAutofill
 .
-supportedCountries
+countries
 getAddressLabel
 (
 address
