@@ -4062,17 +4062,8 @@ recordreplay
 IsRecordingOrReplaying
 (
 )
-)
-{
-recordreplay
-:
-:
-ExecuteTriggers
-(
-)
-;
-if
-(
+&
+&
 mIsMainThread
 =
 =
@@ -4089,7 +4080,6 @@ NotifyVsyncObserver
 (
 )
 ;
-}
 }
 bool
 reallyWait
