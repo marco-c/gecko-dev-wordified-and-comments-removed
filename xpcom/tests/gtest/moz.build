@@ -210,6 +210,11 @@ TestMozPromise
 cpp
 '
 '
+TestMruCache
+.
+cpp
+'
+'
 TestMultiplexInputStream
 .
 cpp
