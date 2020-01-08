@@ -474,7 +474,7 @@ run
 {
 BrowserSearch
 .
-_loadSearch
+loadSearch
 (
 "
 foo
@@ -483,13 +483,6 @@ false
 "
 contextmenu
 "
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 )
 ;
 }

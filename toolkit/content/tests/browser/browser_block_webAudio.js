@@ -139,13 +139,12 @@ tab
 let
 tab
 =
-BrowserTestUtils
-.
-addTab
-(
 window
 .
 gBrowser
+.
+addTab
+(
 "
 about
 :

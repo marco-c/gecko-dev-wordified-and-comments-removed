@@ -222,11 +222,10 @@ options
 .
 tab
 =
-BrowserTestUtils
+tabbrowser
 .
 addTab
 (
-tabbrowser
 )
 ;
 tabbrowser
@@ -428,11 +427,10 @@ options
 .
 tab
 =
-BrowserTestUtils
+tabbrowser
 .
 addTab
 (
-tabbrowser
 )
 ;
 tabbrowser

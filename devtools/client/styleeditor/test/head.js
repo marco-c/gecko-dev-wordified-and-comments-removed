@@ -179,11 +179,10 @@ targetBrowser
 .
 selectedTab
 =
-BrowserTestUtils
+targetBrowser
 .
 addTab
 (
-targetBrowser
 url
 )
 ;

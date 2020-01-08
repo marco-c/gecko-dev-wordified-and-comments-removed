@@ -88,11 +88,10 @@ color
 let
 tab
 =
-BrowserTestUtils
+gBrowser
 .
 addTab
 (
-gBrowser
 "
 about
 :

@@ -59,13 +59,12 @@ selectedBrowser
 let
 tab
 =
-BrowserTestUtils
-.
-addTab
-(
 win
 .
 gBrowser
+.
+addTab
+(
 "
 about
 :

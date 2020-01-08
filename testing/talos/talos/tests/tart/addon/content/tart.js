@@ -583,7 +583,7 @@ _win
 .
 gBrowser
 .
-addTrustedTab
+addTab
 (
 "
 chrome

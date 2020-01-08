@@ -39,13 +39,12 @@ loaded
 "
 )
 ;
-BrowserTestUtils
-.
-addTab
-(
 win
 .
 gBrowser
+.
+addTab
+(
 "
 about
 :

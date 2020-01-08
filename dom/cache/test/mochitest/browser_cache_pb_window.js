@@ -856,13 +856,12 @@ pw
 ;
 privateTab
 =
-BrowserTestUtils
-.
-addTab
-(
 pw
 .
 gBrowser
+.
+addTab
+(
 "
 http
 :
