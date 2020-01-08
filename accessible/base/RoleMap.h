@@ -1009,9 +1009,9 @@ ROLE_SYSTEM_SPINBUTTON
 "
 android
 .
-widget
+view
 .
-EditText
+View
 "
 eNameFromValueRule
 )
