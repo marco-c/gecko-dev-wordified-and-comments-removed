@@ -14554,7 +14554,7 @@ mozilla
 recordreplay
 :
 :
-NoteContentParse8
+NoteContentParse
 (
 this
 filename
@@ -14630,7 +14630,7 @@ mozilla
 recordreplay
 :
 :
-NoteContentParse16
+NoteContentParse
 (
 this
 filename

@@ -787,7 +787,7 @@ aToken
 static
 inline
 void
-NoteContentParse8
+NoteContentParse
 (
 const
 void
@@ -802,9 +802,6 @@ char
 *
 aContentType
 const
-mozilla
-:
-:
 Utf8Unit
 *
 aUtf8Buffer
@@ -835,7 +832,7 @@ aToken
 static
 inline
 void
-NoteContentParse16
+NoteContentParse
 (
 const
 void
