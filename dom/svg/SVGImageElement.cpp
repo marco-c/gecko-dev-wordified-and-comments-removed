@@ -1286,8 +1286,6 @@ CopyInnerTo
 Element
 *
 aDest
-bool
-aPreallocateChildren
 )
 {
 if
@@ -1325,7 +1323,6 @@ SVGImageElementBase
 CopyInnerTo
 (
 aDest
-aPreallocateChildren
 )
 ;
 }

@@ -2815,9 +2815,6 @@ XMLDocument
 :
 Clone
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -2828,8 +2825,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 {
@@ -2875,7 +2870,6 @@ rv
 CloneDocHelper
 (
 clone
-aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS

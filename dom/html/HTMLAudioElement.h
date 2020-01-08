@@ -106,13 +106,10 @@ Clone
 (
 NodeInfo
 *
-aNodeInfo
 nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 override

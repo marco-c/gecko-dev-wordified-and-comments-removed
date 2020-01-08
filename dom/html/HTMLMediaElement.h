@@ -1000,8 +1000,6 @@ CopyInnerTo
 Element
 *
 aDest
-bool
-aPreallocateChildren
 )
 ;
 virtual

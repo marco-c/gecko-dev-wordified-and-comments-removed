@@ -120,8 +120,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 final
@@ -132,8 +130,6 @@ CopyInnerTo
 GeneratedImageContent
 *
 aDest
-bool
-aPreallocateChildren
 )
 {
 nsresult
@@ -145,7 +141,6 @@ nsGenericHTMLElement
 CopyInnerTo
 (
 aDest
-aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS

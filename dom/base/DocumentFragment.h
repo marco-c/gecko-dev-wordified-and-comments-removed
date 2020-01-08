@@ -143,9 +143,6 @@ DocumentFragment
 (
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -391,9 +388,6 @@ DocumentFragment
 nsresult
 Clone
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -404,8 +398,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 override

@@ -1715,8 +1715,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 {
@@ -1765,7 +1763,6 @@ mAttrs
 EnsureCapacityToClone
 (
 mAttrs
-aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS

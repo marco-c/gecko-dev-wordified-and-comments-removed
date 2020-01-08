@@ -3134,11 +3134,9 @@ HTMLImageElement
 :
 CopyInnerTo
 (
-Element
+HTMLImageElement
 *
 aDest
-bool
-aPreallocateChildren
 )
 {
 bool
@@ -3156,18 +3154,6 @@ IsStaticDocument
 (
 )
 ;
-auto
-dest
-=
-static_cast
-<
-HTMLImageElement
-*
->
-(
-aDest
-)
-;
 if
 (
 destIsStatic
@@ -3175,7 +3161,7 @@ destIsStatic
 {
 CreateStaticImageClone
 (
-dest
+aDest
 )
 ;
 }
@@ -3188,7 +3174,6 @@ nsGenericHTMLElement
 CopyInnerTo
 (
 aDest
-aPreallocateChildren
 )
 ;
 if
@@ -3212,7 +3197,7 @@ destIsStatic
 if
 (
 !
-dest
+aDest
 -
 >
 InResponsiveMode
@@ -3220,7 +3205,7 @@ InResponsiveMode
 )
 &
 &
-dest
+aDest
 -
 >
 HasAttr
@@ -3233,7 +3218,7 @@ src
 )
 &
 &
-dest
+aDest
 -
 >
 OwnerDoc
@@ -3274,7 +3259,7 @@ HTMLImageElement
 :
 MaybeLoadImage
 "
-dest
+aDest
 &
 HTMLImageElement
 :

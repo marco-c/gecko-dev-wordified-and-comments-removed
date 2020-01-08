@@ -5742,9 +5742,6 @@ nsINode
 *
 *
 aResult
-\
-bool
-aPreallocateChildren
 )
 const
 \
@@ -5838,7 +5835,6 @@ this
 CopyInnerTo
 (
 it
-aPreallocateChildren
 )
 ;
 \
@@ -5901,13 +5897,11 @@ dom
 NodeInfo
 *
 aNodeInfo
+\
 nsINode
 *
 *
 aResult
-\
-bool
-aPreallocateChildren
 )
 const
 \
@@ -6014,7 +6008,6 @@ this
 CopyInnerTo
 (
 it
-aPreallocateChildren
 )
 ;
 \

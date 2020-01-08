@@ -448,8 +448,6 @@ const
 AttrArray
 &
 aOther
-bool
-aAllocateChildren
 )
 ;
 private

@@ -2703,8 +2703,6 @@ const
 AttrArray
 &
 aOther
-bool
-aAllocateChildren
 )
 {
 MOZ_ASSERT

@@ -183,9 +183,6 @@ SVGScriptElement
 :
 Clone
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -196,8 +193,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 {
@@ -281,7 +276,6 @@ this
 CopyInnerTo
 (
 it
-aPreallocateChildren
 )
 ;
 NS_ENSURE_SUCCESS

@@ -404,9 +404,6 @@ SVGUseElement
 :
 Clone
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -417,8 +414,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 {
@@ -502,7 +497,6 @@ this
 CopyInnerTo
 (
 it
-aPreallocateChildren
 )
 ;
 it

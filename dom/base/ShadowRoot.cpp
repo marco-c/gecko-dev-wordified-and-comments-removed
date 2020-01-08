@@ -3115,9 +3115,6 @@ ShadowRoot
 :
 Clone
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -3128,8 +3125,6 @@ nsINode
 *
 *
 aResult
-bool
-aPreallocateChildren
 )
 const
 {
