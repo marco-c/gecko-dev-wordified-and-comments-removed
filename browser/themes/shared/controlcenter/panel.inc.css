@@ -4194,6 +4194,8 @@ dimmed
 color
 :
 inherit
+!
+important
 ;
 margin
 -
@@ -4300,12 +4302,14 @@ background
 color
 :
 #
-8000d7
+0060df
 ;
 color
 :
 #
 fff
+!
+important
 ;
 }
 #
@@ -4322,7 +4326,7 @@ background
 color
 :
 #
-7100be
+003eaa
 ;
 }
 #
@@ -4341,7 +4345,7 @@ background
 color
 :
 #
-6200a4
+002275
 ;
 }
 #
