@@ -27,7 +27,7 @@ target
 await
 target
 .
-makeRemote
+attach
 (
 )
 ;

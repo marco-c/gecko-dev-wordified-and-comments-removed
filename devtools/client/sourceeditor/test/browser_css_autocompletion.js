@@ -799,7 +799,7 @@ selectedTab
 await
 target
 .
-makeRemote
+attach
 (
 )
 ;
