@@ -305,6 +305,11 @@ find_symbolizer_linux
 patch
 "
 "
+r322325
+.
+patch
+"
+"
 r322401
 .
 patch
