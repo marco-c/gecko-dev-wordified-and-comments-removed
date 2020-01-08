@@ -706,6 +706,10 @@ context
 hasretval
 =
 0
+              
+symbol
+=
+0
 )
 :
     
@@ -778,6 +782,13 @@ context
 hasretval
 '
 hasretval
+)
+            
+(
+'
+symbol
+'
+symbol
 )
         
 )
@@ -1115,6 +1126,11 @@ implicit_jscontext
 hasretval
 =
 hasretval
+symbol
+=
+m
+.
+symbol
 )
 )
     
@@ -1172,6 +1188,12 @@ implicit_jscontext
 hasretval
 =
 1
+                                 
+symbol
+=
+a
+.
+symbol
 )
 )
         
@@ -1226,6 +1248,12 @@ context
 a
 .
 implicit_jscontext
+                                     
+symbol
+=
+a
+.
+symbol
 )
 )
     
