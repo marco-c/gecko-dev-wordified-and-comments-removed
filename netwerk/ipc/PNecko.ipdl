@@ -480,12 +480,6 @@ PCookieService
 async
 PHttpChannel
 (
-PBrowserOrId
-browser
-SerializedLoadContext
-loadContext
-HttpChannelCreationArgs
-args
 )
 ;
 async
