@@ -136,36 +136,6 @@ constraints
 "
     
 def
-__init__
-(
-self
-tv
-tc
-)
-:
-        
-"
-"
-"
-        
-Abstract
-"
-constructor
-"
-for
-linters
-        
-"
-"
-"
-        
-assert
-False
-"
-Abstract
-"
-    
-def
 translate
 (
 self
@@ -442,8 +412,6 @@ constraint
 "
         
 return
-list
-(
 filter
 (
 lambda
@@ -458,7 +426,6 @@ self
 .
 _args
 (
-)
 )
 )
     
@@ -2574,7 +2541,6 @@ typeof_a
 typeof_b
                  
 \
-\
 /
               
 typeof_x
@@ -2612,7 +2578,6 @@ is
 typeof_a
 typeof_b
                  
-\
 \
 /
               

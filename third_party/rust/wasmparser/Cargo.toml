@@ -120,9 +120,9 @@ version
 "
 0
 .
-21
+17
 .
-8
+2
 "
 authors
 =
@@ -197,10 +197,6 @@ Apache
 2
 .
 0
-WITH
-LLVM
--
-exception
 "
 repository
 =
@@ -231,7 +227,7 @@ version
 .
 1
 .
-9
+1
 "
 optional
 =

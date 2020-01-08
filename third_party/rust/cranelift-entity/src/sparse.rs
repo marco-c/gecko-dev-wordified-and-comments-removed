@@ -27,8 +27,8 @@ Vec
 ;
 use
 {
+EntityMap
 EntityRef
-SecondaryMap
 }
 ;
 pub
@@ -69,7 +69,7 @@ K
 {
 sparse
 :
-SecondaryMap
+EntityMap
 <
 K
 u32
@@ -115,7 +115,7 @@ Self
 {
 sparse
 :
-SecondaryMap
+EntityMap
 :
 :
 new

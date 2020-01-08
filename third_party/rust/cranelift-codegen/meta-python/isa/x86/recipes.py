@@ -110,14 +110,6 @@ base
 .
 formats
 import
-BranchTableEntry
-BranchTableBase
-IndirectJump
-from
-base
-.
-formats
-import
 Ternary
 FuncAddr
 UnaryGlobalValue
@@ -150,12 +142,16 @@ import
 GPR
 ABCD
 FPR
+GPR_DEREF_SAFE
+GPR_ZERO_DEREF_SAFE
 from
 .
 registers
 import
 GPR8
 FPR8
+GPR8_DEREF_SAFE
+GPR8_ZERO_DEREF_SAFE
 FLAG
 from
 .
@@ -588,6 +584,14 @@ GPR
 :
 GPR8
         
+GPR_DEREF_SAFE
+:
+GPR8_DEREF_SAFE
+        
+GPR_ZERO_DEREF_SAFE
+:
+GPR8_ZERO_DEREF_SAFE
+        
 FPR
 :
 FPR8
@@ -851,7 +855,7 @@ name
             
 format
             
-base_size
+size
             
 ins
             
@@ -885,10 +889,6 @@ emit
 =
 None
             
-compute_size
-=
-None
-            
 )
 :
         
@@ -906,9 +906,9 @@ format
         
 self
 .
-base_size
+size
 =
-base_size
+size
         
 self
 .
@@ -963,12 +963,6 @@ self
 emit
 =
 emit
-        
-self
-.
-compute_size
-=
-compute_size
         
 self
 .
@@ -1062,7 +1056,7 @@ rrr
 w
 )
         
-base_size
+size
 =
 len
 (
@@ -1071,7 +1065,7 @@ ops
 +
 self
 .
-base_size
+size
         
 branch_range
 =
@@ -1089,7 +1083,7 @@ None
 branch_range
 =
 (
-base_size
+size
 self
 .
 branch_range
@@ -1119,7 +1113,7 @@ self
 .
 format
                 
-base_size
+size
                 
 ins
 =
@@ -1164,12 +1158,6 @@ self
 emit
 name
 )
-                
-compute_size
-=
-self
-.
-compute_size
 )
             
 recipe
@@ -1354,7 +1342,7 @@ Rex
 +
 name
         
-base_size
+size
 =
 1
 +
@@ -1365,7 +1353,7 @@ ops
 +
 self
 .
-base_size
+size
         
 branch_range
 =
@@ -1383,7 +1371,7 @@ None
 branch_range
 =
 (
-base_size
+size
 self
 .
 branch_range
@@ -1413,7 +1401,7 @@ self
 .
 format
                 
-base_size
+size
                 
 ins
 =
@@ -1458,12 +1446,6 @@ self
 emit
 name
 )
-                
-compute_size
-=
-self
-.
-compute_size
 )
             
 self
@@ -1585,77 +1567,6 @@ in
 supported_floatccs
 )
 )
-def
-valid_scale
-(
-iform
-)
-:
-    
-"
-"
-"
-    
-Return
-an
-instruction
-predicate
-that
-checks
-if
-iform
-.
-imm
-is
-a
-valid
-    
-scale
-for
-a
-SIB
-byte
-.
-    
-"
-"
-"
-    
-return
-Or
-(
-IsEqual
-(
-iform
-.
-imm
-1
-)
-              
-IsEqual
-(
-iform
-.
-imm
-2
-)
-              
-IsEqual
-(
-iform
-.
-imm
-4
-)
-              
-IsEqual
-(
-iform
-.
-imm
-8
-)
-)
 null
 =
 EncRecipe
@@ -1664,7 +1575,7 @@ EncRecipe
 null
 '
 Unary
-base_size
+size
 =
 0
 ins
@@ -1687,7 +1598,7 @@ TailRecipe
 trap
 '
 Trap
-base_size
+size
 =
 0
 ins
@@ -1740,7 +1651,7 @@ EncRecipe
 trapif
 '
 IntCondTrap
-base_size
+size
 =
 4
 ins
@@ -1851,7 +1762,7 @@ EncRecipe
 trapff
 '
 FloatCondTrap
-base_size
+size
 =
 4
 ins
@@ -1969,7 +1880,7 @@ TailRecipe
 rr
 '
 Binary
-base_size
+size
 =
 1
 ins
@@ -2021,7 +1932,7 @@ TailRecipe
 rrx
 '
 Binary
-base_size
+size
 =
 1
 ins
@@ -2073,7 +1984,7 @@ TailRecipe
 fa
 '
 Binary
-base_size
+size
 =
 1
 ins
@@ -2125,7 +2036,7 @@ TailRecipe
 fax
 '
 Binary
-base_size
+size
 =
 1
 ins
@@ -2177,7 +2088,7 @@ TailRecipe
 ur
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2225,7 +2136,7 @@ TailRecipe
 umr
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2278,7 +2189,7 @@ TailRecipe
 rfumr
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2331,7 +2242,7 @@ TailRecipe
 urm
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2380,7 +2291,7 @@ TailRecipe
 urm_noflags
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2433,7 +2344,7 @@ TailRecipe
 urm_noflags_abcd
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2490,7 +2401,7 @@ TailRecipe
 furm
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2543,7 +2454,7 @@ TailRecipe
 frurm
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2596,7 +2507,7 @@ TailRecipe
 rfurm
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -2649,7 +2560,7 @@ TailRecipe
 furmi_rnd
 '
 Unary
-base_size
+size
 =
 2
 ins
@@ -2762,7 +2673,7 @@ TailRecipe
 rmov
 '
 RegMove
-base_size
+size
 =
 1
 ins
@@ -2816,7 +2727,7 @@ TailRecipe
 frmov
 '
 RegMove
-base_size
+size
 =
 1
 ins
@@ -2870,7 +2781,7 @@ TailRecipe
 rc
 '
 Binary
-base_size
+size
 =
 1
 ins
@@ -2923,7 +2834,7 @@ TailRecipe
 div
 '
 Ternary
-base_size
+size
 =
 1
         
@@ -3004,7 +2915,7 @@ TailRecipe
 mulx
 '
 Binary
-base_size
+size
 =
 1
         
@@ -3065,7 +2976,7 @@ TailRecipe
 r_ib
 '
 BinaryImm
-base_size
+size
 =
 2
 ins
@@ -3145,7 +3056,7 @@ TailRecipe
 r_id
 '
 BinaryImm
-base_size
+size
 =
 5
 ins
@@ -3225,7 +3136,7 @@ TailRecipe
 u_id
 '
 UnaryImm
-base_size
+size
 =
 5
 ins
@@ -3306,7 +3217,7 @@ TailRecipe
 pu_id
 '
 UnaryImm
-base_size
+size
 =
 4
 ins
@@ -3399,7 +3310,7 @@ TailRecipe
 pu_id_bool
 '
 UnaryBool
-base_size
+size
 =
 4
 ins
@@ -3494,7 +3405,7 @@ TailRecipe
 pu_iq
 '
 UnaryImm
-base_size
+size
 =
 8
 ins
@@ -3563,7 +3474,7 @@ TailRecipe
 f32imm_z
 '
 UnaryIeee32
-base_size
+size
 =
 1
 ins
@@ -3622,7 +3533,7 @@ TailRecipe
 f64imm_z
 '
 UnaryIeee64
-base_size
+size
 =
 1
 ins
@@ -3681,7 +3592,7 @@ TailRecipe
 pushq
 '
 Unary
-base_size
+size
 =
 0
 ins
@@ -3745,7 +3656,7 @@ TailRecipe
 popq
 '
 NullAry
-base_size
+size
 =
 0
 ins
@@ -3792,7 +3703,7 @@ TailRecipe
 copysp
 '
 CopySpecial
-base_size
+size
 =
 1
 ins
@@ -3847,7 +3758,7 @@ TailRecipe
 adjustsp
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -3913,7 +3824,7 @@ TailRecipe
 adjustsp_ib
 '
 UnaryImm
-base_size
+size
 =
 2
 ins
@@ -4009,7 +3920,7 @@ TailRecipe
 adjustsp_id
 '
 UnaryImm
-base_size
+size
 =
 5
 ins
@@ -4105,7 +4016,7 @@ TailRecipe
 fnaddr4
 '
 FuncAddr
-base_size
+size
 =
 4
 ins
@@ -4185,7 +4096,7 @@ TailRecipe
 fnaddr8
 '
 FuncAddr
-base_size
+size
 =
 8
 ins
@@ -4265,7 +4176,7 @@ TailRecipe
 allones_fnaddr4
 '
 FuncAddr
-base_size
+size
 =
 4
 ins
@@ -4361,7 +4272,7 @@ TailRecipe
 allones_fnaddr8
 '
 FuncAddr
-base_size
+size
 =
 8
 ins
@@ -4457,7 +4368,7 @@ TailRecipe
 pcrel_fnaddr8
 '
 FuncAddr
-base_size
+size
 =
 5
 ins
@@ -4566,7 +4477,7 @@ TailRecipe
 got_fnaddr8
 '
 FuncAddr
-base_size
+size
 =
 5
 ins
@@ -4675,7 +4586,7 @@ TailRecipe
 gvaddr4
 '
 UnaryGlobalValue
-base_size
+size
 =
 4
 ins
@@ -4755,7 +4666,7 @@ TailRecipe
 gvaddr8
 '
 UnaryGlobalValue
-base_size
+size
 =
 8
 ins
@@ -4835,7 +4746,7 @@ TailRecipe
 pcrel_gvaddr8
 '
 UnaryGlobalValue
-base_size
+size
 =
 5
 ins
@@ -4945,7 +4856,7 @@ TailRecipe
 got_gvaddr8
 '
 UnaryGlobalValue
-base_size
+size
 =
 5
 ins
@@ -5055,7 +4966,7 @@ TailRecipe
 spaddr4_id
 '
 StackLoad
-base_size
+size
 =
 6
 ins
@@ -5171,7 +5082,7 @@ TailRecipe
 spaddr8_id
 '
 StackLoad
-base_size
+size
 =
 6
 ins
@@ -5287,14 +5198,14 @@ TailRecipe
 st
 '
 Store
-base_size
+size
 =
 1
 ins
 =
 (
 GPR
-GPR
+GPR_ZERO_DEREF_SAFE
 )
 outs
 =
@@ -5314,12 +5225,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_1
-"
         
 emit
 =
@@ -5367,33 +5272,6 @@ sink
 )
 ;
         
-if
-needs_offset
-(
-in_reg1
-)
-{
-            
-modrm_disp8
-(
-in_reg1
-in_reg0
-sink
-)
-;
-            
-sink
-.
-put1
-(
-0
-)
-;
-        
-}
-else
-{
-            
 modrm_rm
 (
 in_reg1
@@ -5401,8 +5279,6 @@ in_reg0
 sink
 )
 ;
-        
-}
         
 '
 '
@@ -5417,7 +5293,7 @@ TailRecipe
 stWithIndex
 '
 StoreComplex
-base_size
+size
 =
 2
     
@@ -5425,8 +5301,8 @@ ins
 =
 (
 GPR
-GPR
-GPR
+GPR_ZERO_DEREF_SAFE
+GPR_DEREF_SAFE
 )
     
 outs
@@ -5447,12 +5323,6 @@ offset
 clobbers_flags
 =
 False
-    
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_1
-"
     
 emit
 =
@@ -5501,48 +5371,13 @@ sink
 )
 ;
     
-if
-needs_offset
-(
-in_reg1
-)
-{
-        
-modrm_sib_disp8
-(
-in_reg0
-sink
-)
-;
-        
-sib
-(
-0
-in_reg2
-in_reg1
-sink
-)
-;
-        
-sink
-.
-put1
-(
-0
-)
-;
-    
-}
-else
-{
-        
 modrm_sib
 (
 in_reg0
 sink
 )
 ;
-        
+    
 sib
 (
 0
@@ -5551,8 +5386,6 @@ in_reg1
 sink
 )
 ;
-    
-}
     
 '
 '
@@ -5567,7 +5400,7 @@ TailRecipe
 st_abcd
 '
 Store
-base_size
+size
 =
 1
 ins
@@ -5666,7 +5499,7 @@ TailRecipe
 stWithIndex_abcd
 '
 StoreComplex
-base_size
+size
 =
 2
     
@@ -5674,8 +5507,8 @@ ins
 =
 (
 ABCD
-GPR
-GPR
+GPR_ZERO_DEREF_SAFE
+GPR_DEREF_SAFE
 )
     
 outs
@@ -5696,12 +5529,6 @@ offset
 clobbers_flags
 =
 False
-    
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_1
-"
     
 emit
 =
@@ -5750,48 +5577,13 @@ sink
 )
 ;
     
-if
-needs_offset
-(
-in_reg1
-)
-{
-        
-modrm_sib_disp8
-(
-in_reg0
-sink
-)
-;
-        
-sib
-(
-0
-in_reg2
-in_reg1
-sink
-)
-;
-        
-sink
-.
-put1
-(
-0
-)
-;
-    
-}
-else
-{
-        
 modrm_sib
 (
 in_reg0
 sink
 )
 ;
-        
+    
 sib
 (
 0
@@ -5800,8 +5592,6 @@ in_reg1
 sink
 )
 ;
-    
-}
     
 '
 '
@@ -5816,14 +5606,14 @@ TailRecipe
 fst
 '
 Store
-base_size
+size
 =
 1
 ins
 =
 (
 FPR
-GPR
+GPR_ZERO_DEREF_SAFE
 )
 outs
 =
@@ -5843,12 +5633,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_1
-"
         
 emit
 =
@@ -5896,33 +5680,6 @@ sink
 )
 ;
         
-if
-needs_offset
-(
-in_reg1
-)
-{
-            
-modrm_disp8
-(
-in_reg1
-in_reg0
-sink
-)
-;
-            
-sink
-.
-put1
-(
-0
-)
-;
-        
-}
-else
-{
-            
 modrm_rm
 (
 in_reg1
@@ -5931,8 +5688,6 @@ sink
 )
 ;
         
-}
-        
 '
 '
 '
@@ -5946,7 +5701,7 @@ TailRecipe
 fstWithIndex
 '
 StoreComplex
-base_size
+size
 =
 2
         
@@ -5954,8 +5709,8 @@ ins
 =
 (
 FPR
-GPR
-GPR
+GPR_ZERO_DEREF_SAFE
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -5975,12 +5730,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_1
-"
         
 emit
 =
@@ -6029,48 +5778,13 @@ sink
 )
 ;
         
-if
-needs_offset
-(
-in_reg1
-)
-{
-            
-modrm_sib_disp8
-(
-in_reg0
-sink
-)
-;
-            
-sib
-(
-0
-in_reg2
-in_reg1
-sink
-)
-;
-            
-sink
-.
-put1
-(
-0
-)
-;
-        
-}
-else
-{
-            
 modrm_sib
 (
 in_reg0
 sink
 )
 ;
-            
+        
 sib
 (
 0
@@ -6079,8 +5793,6 @@ in_reg1
 sink
 )
 ;
-        
-}
         
 '
 '
@@ -6095,14 +5807,14 @@ TailRecipe
 stDisp8
 '
 Store
-base_size
+size
 =
 2
 ins
 =
 (
 GPR
-GPR
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -6122,12 +5834,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-"
-size_plus_maybe_sib_for_in_reg_1
-"
         
 emit
 =
@@ -6175,31 +5881,6 @@ sink
 )
 ;
         
-if
-needs_sib_byte
-(
-in_reg1
-)
-{
-            
-modrm_sib_disp8
-(
-in_reg0
-sink
-)
-;
-            
-sib_noindex
-(
-in_reg1
-sink
-)
-;
-        
-}
-else
-{
-            
 modrm_disp8
 (
 in_reg1
@@ -6207,8 +5888,6 @@ in_reg0
 sink
 )
 ;
-        
-}
         
 let
 offset
@@ -6245,7 +5924,7 @@ TailRecipe
 stWithIndexDisp8
 '
 StoreComplex
-base_size
+size
 =
 3
     
@@ -6254,7 +5933,7 @@ ins
 (
 GPR
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -6374,7 +6053,7 @@ TailRecipe
 stDisp8_abcd
 '
 Store
-base_size
+size
 =
 2
 ins
@@ -6495,7 +6174,7 @@ TailRecipe
 stWithIndexDisp8_abcd
 '
 StoreComplex
-base_size
+size
 =
 3
     
@@ -6504,7 +6183,7 @@ ins
 (
 ABCD
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -6624,14 +6303,14 @@ TailRecipe
 fstDisp8
 '
 Store
-base_size
+size
 =
 2
 ins
 =
 (
 FPR
-GPR
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -6651,12 +6330,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-'
-size_plus_maybe_sib_for_in_reg_1
-'
         
 emit
 =
@@ -6704,31 +6377,6 @@ sink
 )
 ;
         
-if
-needs_sib_byte
-(
-in_reg1
-)
-{
-            
-modrm_sib_disp8
-(
-in_reg0
-sink
-)
-;
-            
-sib_noindex
-(
-in_reg1
-sink
-)
-;
-        
-}
-else
-{
-            
 modrm_disp8
 (
 in_reg1
@@ -6737,8 +6385,6 @@ sink
 )
 ;
         
-}
-        
 let
 offset
 :
@@ -6774,7 +6420,7 @@ TailRecipe
 fstWithIndexDisp8
 '
 StoreComplex
-base_size
+size
 =
 3
     
@@ -6783,7 +6429,7 @@ ins
 (
 FPR
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -6903,14 +6549,14 @@ TailRecipe
 stDisp32
 '
 Store
-base_size
+size
 =
 5
 ins
 =
 (
 GPR
-GPR
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -6920,12 +6566,6 @@ outs
 clobbers_flags
 =
 False
-        
-compute_size
-=
-'
-size_plus_maybe_sib_for_in_reg_1
-'
         
 emit
 =
@@ -6973,31 +6613,6 @@ sink
 )
 ;
         
-if
-needs_sib_byte
-(
-in_reg1
-)
-{
-            
-modrm_sib_disp32
-(
-in_reg0
-sink
-)
-;
-            
-sib_noindex
-(
-in_reg1
-sink
-)
-;
-        
-}
-else
-{
-            
 modrm_disp32
 (
 in_reg1
@@ -7005,8 +6620,6 @@ in_reg0
 sink
 )
 ;
-        
-}
         
 let
 offset
@@ -7043,7 +6656,7 @@ TailRecipe
 stWithIndexDisp32
 '
 StoreComplex
-base_size
+size
 =
 6
     
@@ -7052,7 +6665,7 @@ ins
 (
 GPR
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -7172,7 +6785,7 @@ TailRecipe
 stDisp32_abcd
 '
 Store
-base_size
+size
 =
 5
 ins
@@ -7283,7 +6896,7 @@ TailRecipe
 stWithIndexDisp32_abcd
 '
 StoreComplex
-base_size
+size
 =
 6
     
@@ -7292,7 +6905,7 @@ ins
 (
 ABCD
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -7412,14 +7025,14 @@ TailRecipe
 fstDisp32
 '
 Store
-base_size
+size
 =
 5
 ins
 =
 (
 FPR
-GPR
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -7429,12 +7042,6 @@ outs
 clobbers_flags
 =
 False
-        
-compute_size
-=
-'
-size_plus_maybe_sib_for_in_reg_1
-'
         
 emit
 =
@@ -7482,31 +7089,6 @@ sink
 )
 ;
         
-if
-needs_sib_byte
-(
-in_reg1
-)
-{
-            
-modrm_sib_disp32
-(
-in_reg0
-sink
-)
-;
-            
-sib_noindex
-(
-in_reg1
-sink
-)
-;
-        
-}
-else
-{
-            
 modrm_disp32
 (
 in_reg1
@@ -7514,8 +7096,6 @@ in_reg0
 sink
 )
 ;
-        
-}
         
 let
 offset
@@ -7552,7 +7132,7 @@ TailRecipe
 fstWithIndexDisp32
 '
 StoreComplex
-base_size
+size
 =
 6
     
@@ -7561,7 +7141,7 @@ ins
 (
 FPR
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -7681,7 +7261,7 @@ TailRecipe
 spillSib32
 '
 Unary
-base_size
+size
 =
 6
 ins
@@ -7780,7 +7360,7 @@ TailRecipe
 fspillSib32
 '
 Unary
-base_size
+size
 =
 6
 ins
@@ -7879,7 +7459,7 @@ TailRecipe
 regspill32
 '
 RegSpill
-base_size
+size
 =
 6
 ins
@@ -7995,7 +7575,7 @@ TailRecipe
 fregspill32
 '
 RegSpill
-base_size
+size
 =
 6
 ins
@@ -8111,13 +7691,13 @@ TailRecipe
 ld
 '
 Load
-base_size
+size
 =
 1
 ins
 =
 (
-GPR
+GPR_ZERO_DEREF_SAFE
 )
 outs
 =
@@ -8138,12 +7718,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_0
-"
         
 emit
 =
@@ -8191,33 +7765,6 @@ sink
 )
 ;
         
-if
-needs_offset
-(
-in_reg0
-)
-{
-            
-modrm_disp8
-(
-in_reg0
-out_reg0
-sink
-)
-;
-            
-sink
-.
-put1
-(
-0
-)
-;
-        
-}
-else
-{
-            
 modrm_rm
 (
 in_reg0
@@ -8225,8 +7772,6 @@ out_reg0
 sink
 )
 ;
-        
-}
         
 '
 '
@@ -8241,15 +7786,15 @@ TailRecipe
 ldWithIndex
 '
 LoadComplex
-base_size
+size
 =
 2
     
 ins
 =
 (
-GPR
-GPR
+GPR_ZERO_DEREF_SAFE
+GPR_DEREF_SAFE
 )
     
 outs
@@ -8271,12 +7816,6 @@ offset
 clobbers_flags
 =
 False
-    
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_0
-"
     
 emit
 =
@@ -8325,48 +7864,13 @@ sink
 )
 ;
     
-if
-needs_offset
-(
-in_reg0
-)
-{
-        
-modrm_sib_disp8
-(
-out_reg0
-sink
-)
-;
-        
-sib
-(
-0
-in_reg1
-in_reg0
-sink
-)
-;
-        
-sink
-.
-put1
-(
-0
-)
-;
-    
-}
-else
-{
-        
 modrm_sib
 (
 out_reg0
 sink
 )
 ;
-        
+    
 sib
 (
 0
@@ -8375,8 +7879,6 @@ in_reg0
 sink
 )
 ;
-    
-}
     
 '
 '
@@ -8391,13 +7893,13 @@ TailRecipe
 fld
 '
 Load
-base_size
+size
 =
 1
 ins
 =
 (
-GPR
+GPR_ZERO_DEREF_SAFE
 )
 outs
 =
@@ -8418,12 +7920,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_0
-"
         
 emit
 =
@@ -8471,33 +7967,6 @@ sink
 )
 ;
         
-if
-needs_offset
-(
-in_reg0
-)
-{
-            
-modrm_disp8
-(
-in_reg0
-out_reg0
-sink
-)
-;
-            
-sink
-.
-put1
-(
-0
-)
-;
-        
-}
-else
-{
-            
 modrm_rm
 (
 in_reg0
@@ -8505,8 +7974,6 @@ out_reg0
 sink
 )
 ;
-        
-}
         
 '
 '
@@ -8521,15 +7988,15 @@ TailRecipe
 fldWithIndex
 '
 LoadComplex
-base_size
+size
 =
 2
     
 ins
 =
 (
-GPR
-GPR
+GPR_ZERO_DEREF_SAFE
+GPR_DEREF_SAFE
 )
     
 outs
@@ -8551,12 +8018,6 @@ offset
 clobbers_flags
 =
 False
-    
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_0
-"
     
 emit
 =
@@ -8605,48 +8066,13 @@ sink
 )
 ;
     
-if
-needs_offset
-(
-in_reg0
-)
-{
-        
-modrm_sib_disp8
-(
-out_reg0
-sink
-)
-;
-        
-sib
-(
-0
-in_reg1
-in_reg0
-sink
-)
-;
-        
-sink
-.
-put1
-(
-0
-)
-;
-    
-}
-else
-{
-        
 modrm_sib
 (
 out_reg0
 sink
 )
 ;
-        
+    
 sib
 (
 0
@@ -8655,8 +8081,6 @@ in_reg0
 sink
 )
 ;
-    
-}
     
 '
 '
@@ -8671,13 +8095,13 @@ TailRecipe
 ldDisp8
 '
 Load
-base_size
+size
 =
 2
 ins
 =
 (
-GPR
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -8699,12 +8123,6 @@ clobbers_flags
 =
 False
         
-compute_size
-=
-"
-size_plus_maybe_sib_for_in_reg_0
-"
-        
 emit
 =
 '
@@ -8751,31 +8169,6 @@ sink
 )
 ;
         
-if
-needs_sib_byte
-(
-in_reg0
-)
-{
-            
-modrm_sib_disp8
-(
-out_reg0
-sink
-)
-;
-            
-sib_noindex
-(
-in_reg0
-sink
-)
-;
-        
-}
-else
-{
-            
 modrm_disp8
 (
 in_reg0
@@ -8783,8 +8176,6 @@ out_reg0
 sink
 )
 ;
-        
-}
         
 let
 offset
@@ -8821,7 +8212,7 @@ TailRecipe
 ldWithIndexDisp8
 '
 LoadComplex
-base_size
+size
 =
 3
     
@@ -8829,7 +8220,7 @@ ins
 =
 (
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -8950,13 +8341,13 @@ TailRecipe
 fldDisp8
 '
 Load
-base_size
+size
 =
 2
 ins
 =
 (
-GPR
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -8977,12 +8368,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-"
-size_plus_maybe_sib_for_in_reg_0
-"
         
 emit
 =
@@ -9030,31 +8415,6 @@ sink
 )
 ;
         
-if
-needs_sib_byte
-(
-in_reg0
-)
-{
-            
-modrm_sib_disp8
-(
-out_reg0
-sink
-)
-;
-            
-sib_noindex
-(
-in_reg0
-sink
-)
-;
-        
-}
-else
-{
-            
 modrm_disp8
 (
 in_reg0
@@ -9063,8 +8423,6 @@ sink
 )
 ;
         
-}
-        
 let
 offset
 :
@@ -9100,7 +8458,7 @@ TailRecipe
 fldWithIndexDisp8
 '
 LoadComplex
-base_size
+size
 =
 3
     
@@ -9108,7 +8466,7 @@ ins
 =
 (
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -9229,13 +8587,13 @@ TailRecipe
 ldDisp32
 '
 Load
-base_size
+size
 =
 5
 ins
 =
 (
-GPR
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -9256,12 +8614,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-'
-size_plus_maybe_sib_for_in_reg_0
-'
         
 emit
 =
@@ -9309,31 +8661,6 @@ sink
 )
 ;
         
-if
-needs_sib_byte
-(
-in_reg0
-)
-{
-            
-modrm_sib_disp32
-(
-out_reg0
-sink
-)
-;
-            
-sib_noindex
-(
-in_reg0
-sink
-)
-;
-        
-}
-else
-{
-            
 modrm_disp32
 (
 in_reg0
@@ -9341,8 +8668,6 @@ out_reg0
 sink
 )
 ;
-        
-}
         
 let
 offset
@@ -9379,7 +8704,7 @@ TailRecipe
 ldWithIndexDisp32
 '
 LoadComplex
-base_size
+size
 =
 6
     
@@ -9387,7 +8712,7 @@ ins
 =
 (
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -9508,13 +8833,13 @@ TailRecipe
 fldDisp32
 '
 Load
-base_size
+size
 =
 5
 ins
 =
 (
-GPR
+GPR_DEREF_SAFE
 )
 outs
 =
@@ -9535,12 +8860,6 @@ offset
 clobbers_flags
 =
 False
-        
-compute_size
-=
-"
-size_plus_maybe_sib_for_in_reg_0
-"
         
 emit
 =
@@ -9588,31 +8907,6 @@ sink
 )
 ;
         
-if
-needs_sib_byte
-(
-in_reg0
-)
-{
-            
-modrm_sib_disp32
-(
-out_reg0
-sink
-)
-;
-            
-sib_noindex
-(
-in_reg0
-sink
-)
-;
-        
-}
-else
-{
-            
 modrm_disp32
 (
 in_reg0
@@ -9620,8 +8914,6 @@ out_reg0
 sink
 )
 ;
-        
-}
         
 let
 offset
@@ -9658,7 +8950,7 @@ TailRecipe
 fldWithIndexDisp32
 '
 LoadComplex
-base_size
+size
 =
 6
     
@@ -9666,7 +8958,7 @@ ins
 =
 (
 GPR
-GPR
+GPR_DEREF_SAFE
 )
     
 outs
@@ -9787,7 +9079,7 @@ TailRecipe
 fillSib32
 '
 Unary
-base_size
+size
 =
 6
 ins
@@ -9869,7 +9161,7 @@ TailRecipe
 ffillSib32
 '
 Unary
-base_size
+size
 =
 6
 ins
@@ -9951,7 +9243,7 @@ TailRecipe
 regfill32
 '
 RegFill
-base_size
+size
 =
 6
 ins
@@ -10050,7 +9342,7 @@ TailRecipe
 fregfill32
 '
 RegFill
-base_size
+size
 =
 6
 ins
@@ -10149,7 +9441,7 @@ TailRecipe
 call_id
 '
 Call
-base_size
+size
 =
 4
 ins
@@ -10265,7 +9557,7 @@ TailRecipe
 call_plt_id
 '
 Call
-base_size
+size
 =
 4
 ins
@@ -10355,7 +9647,7 @@ TailRecipe
 call_r
 '
 CallIndirect
-base_size
+size
 =
 1
 ins
@@ -10421,7 +9713,7 @@ TailRecipe
 ret
 '
 MultiAry
-base_size
+size
 =
 0
 ins
@@ -10460,7 +9752,7 @@ TailRecipe
 jmpb
 '
 Jump
-base_size
+size
 =
 1
 ins
@@ -10515,7 +9807,7 @@ TailRecipe
 jmpd
 '
 Jump
-base_size
+size
 =
 4
 ins
@@ -10570,7 +9862,7 @@ TailRecipe
 brib
 '
 BranchInt
-base_size
+size
 =
 1
 ins
@@ -10631,7 +9923,7 @@ TailRecipe
 brid
 '
 BranchInt
-base_size
+size
 =
 4
 ins
@@ -10692,7 +9984,7 @@ TailRecipe
 brfb
 '
 BranchFloat
-base_size
+size
 =
 1
 ins
@@ -10760,7 +10052,7 @@ TailRecipe
 brfd
 '
 BranchFloat
-base_size
+size
 =
 4
 ins
@@ -10810,276 +10102,6 @@ sink
 disp4
 (
 destination
-func
-sink
-)
-;
-        
-'
-'
-'
-)
-indirect_jmp
-=
-TailRecipe
-(
-        
-'
-indirect_jmp
-'
-IndirectJump
-base_size
-=
-1
-ins
-=
-GPR
-outs
-=
-(
-)
-        
-clobbers_flags
-=
-False
-        
-emit
-=
-'
-'
-'
-        
-PUT_OP
-(
-bits
-rex1
-(
-in_reg0
-)
-sink
-)
-;
-        
-modrm_r_bits
-(
-in_reg0
-bits
-sink
-)
-;
-        
-'
-'
-'
-)
-jt_entry
-=
-TailRecipe
-(
-        
-'
-jt_entry
-'
-BranchTableEntry
-base_size
-=
-2
-        
-ins
-=
-(
-GPR
-GPR
-)
-        
-outs
-=
-(
-GPR
-)
-        
-clobbers_flags
-=
-False
-        
-instp
-=
-valid_scale
-(
-BranchTableEntry
-)
-        
-compute_size
-=
-"
-size_plus_maybe_offset_for_in_reg_1
-"
-        
-emit
-=
-'
-'
-'
-        
-PUT_OP
-(
-bits
-rex3
-(
-in_reg1
-out_reg0
-in_reg0
-)
-sink
-)
-;
-        
-if
-needs_offset
-(
-in_reg1
-)
-{
-            
-modrm_sib_disp8
-(
-out_reg0
-sink
-)
-;
-            
-sib
-(
-imm
-.
-trailing_zeros
-(
-)
-as
-u8
-in_reg0
-in_reg1
-sink
-)
-;
-            
-sink
-.
-put1
-(
-0
-)
-;
-        
-}
-else
-{
-            
-modrm_sib
-(
-out_reg0
-sink
-)
-;
-            
-sib
-(
-imm
-.
-trailing_zeros
-(
-)
-as
-u8
-in_reg0
-in_reg1
-sink
-)
-;
-        
-}
-        
-'
-'
-'
-)
-jt_base
-=
-TailRecipe
-(
-        
-'
-jt_base
-'
-BranchTableBase
-base_size
-=
-5
-ins
-=
-(
-)
-outs
-=
-(
-GPR
-)
-        
-clobbers_flags
-=
-False
-        
-emit
-=
-'
-'
-'
-        
-PUT_OP
-(
-bits
-rex2
-(
-0
-out_reg0
-)
-sink
-)
-;
-        
-modrm_riprel
-(
-out_reg0
-sink
-)
-;
-        
-/
-/
-No
-reloc
-is
-needed
-here
-as
-the
-jump
-table
-is
-emitted
-directly
-after
-        
-/
-/
-the
-function
-body
-.
-        
-jt_disp4
-(
-table
 func
 sink
 )
@@ -11098,7 +10120,7 @@ TailRecipe
 seti
 '
 IntCond
-base_size
+size
 =
 1
 ins
@@ -11161,7 +10183,7 @@ TailRecipe
 seti_abcd
 '
 IntCond
-base_size
+size
 =
 1
 ins
@@ -11224,7 +10246,7 @@ TailRecipe
 setf
 '
 FloatCond
-base_size
+size
 =
 1
 ins
@@ -11287,7 +10309,7 @@ TailRecipe
 setf_abcd
 '
 FloatCond
-base_size
+size
 =
 1
 ins
@@ -11350,7 +10372,7 @@ TailRecipe
 cmov
 '
 IntSelect
-base_size
+size
 =
 1
 ins
@@ -11418,7 +10440,7 @@ TailRecipe
 bsf_and_bsr
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -11480,7 +10502,7 @@ TailRecipe
 rcmp
 '
 Binary
-base_size
+size
 =
 1
 ins
@@ -11534,7 +10556,7 @@ TailRecipe
 fcmp
 '
 Binary
-base_size
+size
 =
 1
 ins
@@ -11588,7 +10610,7 @@ TailRecipe
 rcmp_ib
 '
 BinaryImm
-base_size
+size
 =
 2
 ins
@@ -11670,7 +10692,7 @@ TailRecipe
 rcmp_id
 '
 BinaryImm
-base_size
+size
 =
 5
 ins
@@ -11752,7 +10774,7 @@ TailRecipe
 rcmp_sp
 '
 Unary
-base_size
+size
 =
 1
 ins
@@ -11817,7 +10839,7 @@ TailRecipe
 tjccb
 '
 Branch
-base_size
+size
 =
 1
 +
@@ -11910,7 +10932,7 @@ TailRecipe
 tjccd
 '
 Branch
-base_size
+size
 =
 1
 +
@@ -12011,7 +11033,7 @@ TailRecipe
 t8jccb
 '
 Branch
-base_size
+size
 =
 1
 +
@@ -12108,7 +11130,7 @@ TailRecipe
 t8jccb_abcd
 '
 Branch
-base_size
+size
 =
 1
 +
@@ -12205,7 +11227,7 @@ TailRecipe
 t8jccd
 '
 Branch
-base_size
+size
 =
 1
 +
@@ -12310,7 +11332,7 @@ TailRecipe
 t8jccd_abcd
 '
 Branch
-base_size
+size
 =
 1
 +
@@ -12415,7 +11437,7 @@ TailRecipe
 t8jccd_long
 '
 Branch
-base_size
+size
 =
 5
 +
@@ -12523,7 +11545,7 @@ TailRecipe
 icscc
 '
 IntCompare
-base_size
+size
 =
 1
 +
@@ -12688,7 +11710,7 @@ TailRecipe
 icscc_ib
 '
 IntCompareImm
-base_size
+size
 =
 2
 +
@@ -12881,7 +11903,7 @@ TailRecipe
 icscc_id
 '
 IntCompareImm
-base_size
+size
 =
 5
 +
@@ -13074,7 +12096,7 @@ TailRecipe
 fcscc
 '
 FloatCompare
-base_size
+size
 =
 1
 +

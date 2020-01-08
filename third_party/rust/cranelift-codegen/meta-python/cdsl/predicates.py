@@ -1455,8 +1455,6 @@ args
         
 return
 '
-:
-:
 predicates
 :
 :

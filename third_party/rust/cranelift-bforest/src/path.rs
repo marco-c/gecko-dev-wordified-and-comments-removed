@@ -4067,7 +4067,7 @@ test
 )
 ]
 mod
-tests
+test
 {
 use
 super

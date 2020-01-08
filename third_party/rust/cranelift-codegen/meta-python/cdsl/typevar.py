@@ -635,7 +635,6 @@ bits
 |
 bits
 \
-\
 in
 {
 8
