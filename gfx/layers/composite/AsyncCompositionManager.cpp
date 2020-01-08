@@ -4161,6 +4161,17 @@ GetApzc
 continue
 ;
 }
+auto
+_
+=
+sampler
+-
+>
+ApplyAsyncTestAttributes
+(
+wrapper
+)
+;
 const
 FrameMetrics
 &
