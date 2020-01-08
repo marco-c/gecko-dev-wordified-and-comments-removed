@@ -52,6 +52,9 @@ partial
 interface
 HTMLVideoElement
 {
+[
+NewObject
+]
 Promise
 <
 PictureInPictureWindow
@@ -86,6 +89,9 @@ attribute
 boolean
 pictureInPictureEnabled
 ;
+[
+NewObject
+]
 Promise
 <
 void
