@@ -6232,6 +6232,22 @@ output
 )
 :
                     
+print
+(
+"
+Output
+reference
+file
+not
+found
+:
+%
+s
+"
+%
+output
+)
+                    
 return
 True
                 
@@ -6246,6 +6262,22 @@ isfile
 dep_file
 )
 :
+                    
+print
+(
+"
+Configure
+dependency
+file
+not
+found
+:
+%
+s
+"
+%
+dep_file
+)
                     
 return
 True
@@ -6327,6 +6359,21 @@ errno
 ENOENT
 :
                             
+print
+(
+"
+Configure
+input
+not
+found
+:
+%
+s
+"
+%
+f
+)
+                            
 return
 True
                         
@@ -6337,6 +6384,28 @@ dep_mtime
 >
 mtime
 :
+                        
+print
+(
+"
+%
+s
+is
+out
+of
+date
+with
+respect
+to
+%
+s
+"
+%
+(
+output
+f
+)
+)
                         
 return
 True
@@ -6567,6 +6636,25 @@ self
 .
 _clobber_configure
 (
+)
+                
+if
+config
+is
+None
+:
+                    
+print
+(
+"
+Config
+object
+not
+found
+by
+mach
+.
+"
 )
                 
 config_rc
