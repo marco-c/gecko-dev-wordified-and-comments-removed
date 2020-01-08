@@ -281,6 +281,13 @@ user32
 dll
 '
 ]
+RCINCLUDE
+=
+'
+mozglue
+.
+rc
+'
 if
 CONFIG
 [
