@@ -295,9 +295,6 @@ virtual
 nsresult
 WillDoAction
 (
-Selection
-*
-aSelection
 EditSubActionInfo
 &
 aInfo
@@ -314,9 +311,6 @@ virtual
 nsresult
 DidDoAction
 (
-Selection
-*
-aSelection
 EditSubActionInfo
 &
 aInfo
@@ -409,9 +403,6 @@ aNode
 void
 DidCreateNode
 (
-Selection
-&
-aSelection
 Element
 &
 aNewElement
@@ -420,9 +411,6 @@ aNewElement
 void
 DidInsertNode
 (
-Selection
-&
-aSelection
 nsIContent
 &
 aNode
@@ -431,9 +419,6 @@ aNode
 void
 WillDeleteNode
 (
-Selection
-&
-aSelection
 nsINode
 &
 aChild
@@ -442,9 +427,6 @@ aChild
 void
 DidSplitNode
 (
-Selection
-&
-aSelection
 nsINode
 &
 aExistingRightNode
@@ -467,9 +449,6 @@ aRightNode
 void
 DidJoinNodes
 (
-Selection
-&
-aSelection
 nsINode
 &
 aLeftNode
@@ -481,9 +460,6 @@ aRightNode
 void
 DidInsertText
 (
-Selection
-&
-aSelection
 nsINode
 &
 aTextNode
@@ -498,9 +474,6 @@ aString
 void
 DidDeleteText
 (
-Selection
-&
-aSelection
 nsINode
 &
 aTextNode
@@ -513,9 +486,6 @@ aLength
 void
 WillDeleteSelection
 (
-Selection
-&
-aSelection
 )
 ;
 void
@@ -542,9 +512,6 @@ MOZ_CAN_RUN_SCRIPT
 void
 OnModifyDocument
 (
-Selection
-&
-aSelection
 )
 ;
 protected

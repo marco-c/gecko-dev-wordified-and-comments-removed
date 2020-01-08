@@ -211,10 +211,11 @@ nsFrameSelection
 >
 frameSelection
 =
-SelectionRef
+SelectionRefPtr
 (
 )
-.
+-
+>
 GetFrameSelection
 (
 )
@@ -368,10 +369,11 @@ nsFrameSelection
 >
 frameSelection
 =
-SelectionRef
+SelectionRefPtr
 (
 )
-.
+-
+>
 GetFrameSelection
 (
 )
