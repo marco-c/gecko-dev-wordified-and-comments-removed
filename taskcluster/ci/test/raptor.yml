@@ -12,6 +12,12 @@ time
 suite
 :
 raptor
+workdir
+:
+/
+home
+/
+cltbld
 tier
 :
 by

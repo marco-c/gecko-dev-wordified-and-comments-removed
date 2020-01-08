@@ -3044,15 +3044,23 @@ time
 '
 ]
     
+env
+=
 worker
-[
+.
+setdefault
+(
 '
 env
 '
-]
-=
+{
+}
+)
+    
 env
-=
+.
+update
+(
 {
         
 '
@@ -3201,6 +3209,7 @@ MOZ_AUTOMATION
 '
     
 }
+)
     
 if
 is_talos
