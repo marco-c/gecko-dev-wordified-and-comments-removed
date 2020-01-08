@@ -640,6 +640,16 @@ use
 self
 :
 :
+motion
+:
+:
+OffsetPath
+;
+pub
+use
+self
+:
+:
 outline
 :
 :
@@ -991,6 +1001,10 @@ list
 pub
 mod
 outline
+;
+pub
+mod
+motion
 ;
 pub
 mod

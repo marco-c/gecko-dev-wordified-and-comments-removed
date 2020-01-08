@@ -307,6 +307,7 @@ URL
 Image
 Shape
 Box
+Path
 }
 ;
 enum
