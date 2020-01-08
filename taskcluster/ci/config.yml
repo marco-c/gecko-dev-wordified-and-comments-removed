@@ -793,6 +793,14 @@ UV
 Update
 verify
 '
+'
+pipfu
+'
+:
+'
+pipfile
+update
+'
 index
 :
 products
