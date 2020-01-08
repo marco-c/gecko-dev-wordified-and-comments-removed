@@ -6931,10 +6931,13 @@ idx
 )
 ;
 }
-contentTypeOptionsHeader
-.
-StripWhitespace
+nsHttp
+:
+:
+TrimHTTPWhitespace
 (
+contentTypeOptionsHeader
+contentTypeOptionsHeader
 )
 ;
 if
