@@ -3426,6 +3426,25 @@ pre
 built
 Docker
 image
+.
+Note
+that
+you
+need
+to
+"
+                         
+"
+have
+docker
+installed
+and
+running
+for
+this
+to
+work
+.
 "
 )
     
