@@ -2601,7 +2601,7 @@ message
 <
 xul
 :
-progressmeter
+box
 anonid
 =
 "
