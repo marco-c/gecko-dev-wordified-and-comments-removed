@@ -5,7 +5,7 @@ policy
 :
 pullRequests
 :
-collaborators
+public
 tasks
 :
 flattenDeep
