@@ -253,12 +253,9 @@ virtual
 nsresult
 MouseClick
 (
-dom
-:
-:
-MouseEvent
+WidgetMouseEvent
 *
-aMouseEvent
+aMouseClickEvent
 )
 ;
 nsresult
