@@ -39,7 +39,7 @@ is
 (
 gBrowser
 .
-_isLocalAboutURI
+isLocalAboutURI
 (
 URI
 )
@@ -57,7 +57,7 @@ ok
 (
 false
 "
-_isLocalAboutURI
+isLocalAboutURI
 should
 not
 throw
@@ -243,7 +243,7 @@ is
 (
 gBrowser
 .
-_isLocalAboutURI
+isLocalAboutURI
 (
 URI
 resolvedURI
