@@ -227,7 +227,7 @@ targetFront
 ;
 let
 [
-workerClient1
+workerTargetFront1
 ]
 =
 yield
@@ -243,7 +243,7 @@ WORKER1_URL
 ;
 is
 (
-workerClient1
+workerTargetFront1
 .
 isClosed
 false
@@ -282,12 +282,12 @@ TAB2_URL
 yield
 waitForWorkerClose
 (
-workerClient1
+workerTargetFront1
 )
 ;
 is
 (
-workerClient1
+workerTargetFront1
 .
 isClosed
 true
@@ -323,7 +323,7 @@ targetFront
 ;
 const
 [
-workerClient2
+workerTargetFront2
 ]
 =
 yield
@@ -339,7 +339,7 @@ WORKER2_URL
 ;
 is
 (
-workerClient2
+workerTargetFront2
 .
 isClosed
 false
@@ -376,12 +376,12 @@ goBack
 yield
 waitForWorkerClose
 (
-workerClient2
+workerTargetFront2
 )
 ;
 is
 (
-workerClient2
+workerTargetFront2
 .
 isClosed
 true
@@ -409,7 +409,7 @@ targetFront
 )
 ;
 [
-workerClient1
+workerTargetFront1
 ]
 =
 yield
@@ -425,7 +425,7 @@ WORKER1_URL
 ;
 is
 (
-workerClient1
+workerTargetFront1
 .
 isClosed
 false

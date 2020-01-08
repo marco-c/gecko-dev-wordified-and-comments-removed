@@ -178,7 +178,7 @@ targetFront
 ;
 let
 [
-workerClient
+workerTargetFront
 ]
 =
 await
@@ -204,7 +204,7 @@ TargetFactory
 .
 forWorker
 (
-workerClient
+workerTargetFront
 )
 "
 jsdebugger
@@ -401,7 +401,7 @@ WORKER_URL
 await
 waitForWorkerClose
 (
-workerClient
+workerTargetFront
 )
 ;
 await

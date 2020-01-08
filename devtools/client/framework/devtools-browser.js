@@ -1706,7 +1706,7 @@ workerTargetActor
 {
 const
 [
-workerClient
+workerTargetFront
 ]
 =
 await
@@ -1724,7 +1724,7 @@ TargetFactory
 .
 forWorker
 (
-workerClient
+workerTargetFront
 )
 ;
 const
@@ -1755,7 +1755,7 @@ destroy
 )
 =
 >
-workerClient
+workerTargetFront
 .
 detach
 (

@@ -2744,7 +2744,7 @@ then
 (
 [
 response
-workerClient
+workerTargetFront
 ]
 )
 =
@@ -2761,7 +2761,7 @@ TargetFactory
 .
 forWorker
 (
-workerClient
+workerTargetFront
 )
 "
 jsdebugger

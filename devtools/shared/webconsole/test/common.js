@@ -673,7 +673,7 @@ return
 const
 [
 workerResponse
-workerClient
+workerTargetFront
 ]
 =
 await
@@ -687,7 +687,7 @@ workerTargetActor
 if
 (
 !
-workerClient
+workerTargetFront
 |
 |
 workerResponse
@@ -705,7 +705,8 @@ failed
 .
 No
 worker
-client
+target
+front
 or
 "
 +
@@ -723,7 +724,7 @@ return
 ;
 }
 await
-workerClient
+workerTargetFront
 .
 attachThread
 (
@@ -735,7 +736,7 @@ state
 .
 actor
 =
-workerClient
+workerTargetFront
 .
 consoleActor
 ;
@@ -745,7 +746,7 @@ dbgClient
 .
 attachConsole
 (
-workerClient
+workerTargetFront
 .
 consoleActor
 listeners

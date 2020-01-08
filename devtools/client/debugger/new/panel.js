@@ -351,7 +351,7 @@ worker
 const
 [
 response
-workerClient
+workerTargetFront
 ]
 =
 await
@@ -377,7 +377,7 @@ TargetFactory
 .
 forWorker
 (
-workerClient
+workerTargetFront
 )
 ;
 const
@@ -410,7 +410,7 @@ destroy
 )
 =
 >
-workerClient
+workerTargetFront
 .
 detach
 (
