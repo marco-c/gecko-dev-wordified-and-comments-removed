@@ -30312,9 +30312,6 @@ Restore
 )
 ;
 }
-#
-ifdef
-DEBUG
 if
 (
 cdi
@@ -30328,6 +30325,9 @@ DisplayItemEntryType
 ITEM
 )
 {
+#
+ifdef
+DEBUG
 UpdateEffectTracking
 (
 opacityLevel
@@ -30337,11 +30337,11 @@ cdi
 mType
 )
 ;
+#
+endif
 continue
 ;
 }
-#
-endif
 const
 DisplayItemClip
 *
