@@ -165,6 +165,8 @@ config
 ;
 StreamTime
 mEncodedTimestamp
+=
+0
 ;
 CheckedInt64
 mExtractedDuration
@@ -196,6 +198,8 @@ mI420FrameSize
 ;
 StreamTime
 mDurationSinceLastKeyframe
+=
+0
 ;
 VideoSegment
 mSourceSegment

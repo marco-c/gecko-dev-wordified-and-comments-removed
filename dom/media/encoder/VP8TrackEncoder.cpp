@@ -202,14 +202,6 @@ VideoTrackEncoder
 aTrackRate
 aFrameDroppingMode
 )
-mEncodedTimestamp
-(
-0
-)
-mDurationSinceLastKeyframe
-(
-0
-)
 mVPXContext
 (
 new
