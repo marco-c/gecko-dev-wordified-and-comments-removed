@@ -38,6 +38,13 @@ CharacterData
 {
 public
 :
+NS_IMPL_FROMNODE_HELPER
+(
+Text
+IsText
+(
+)
+)
 explicit
 Text
 (
