@@ -2496,3 +2496,16 @@ privacy_restrict3rdpartystorage_enabled
 RelaxedAtomicBool
 false
 )
+VARCACHE_PREF
+(
+"
+privacy
+.
+restrict3rdpartystorage
+.
+expiration
+"
+privacy_restrict3rdpartystorage_expiration
+uint32_t
+2592000000
+)
