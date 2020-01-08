@@ -126,6 +126,9 @@ eBatch_Viewport
 eBatch_FocusPath
 =
 1
+eBatch_BoundsUpdate
+=
+2
 }
 ;
 protected
@@ -152,6 +155,11 @@ CacheViewport
 (
 )
 ;
+void
+UpdateFocusPathBounds
+(
+)
+;
 static
 void
 CacheViewportCallback
@@ -169,6 +177,9 @@ nsCOMPtr
 nsITimer
 >
 mCacheRefreshTimer
+;
+AccessibleHashtable
+mFocusPath
 ;
 }
 ;
