@@ -259,7 +259,7 @@ void
 DeprecationReportBody
 :
 :
-ToJSONInternal
+ToJSON
 (
 JSONWriter
 &
