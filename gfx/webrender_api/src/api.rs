@@ -5548,6 +5548,7 @@ Checkpoint
 {
 SceneBuilt
 FrameBuilt
+FrameRendered
 TransactionDropped
 }
 pub

@@ -14,7 +14,10 @@ use
 api
 :
 :
+{
 ImageFormat
+NotificationRequest
+}
 ;
 use
 device
@@ -709,6 +712,13 @@ DocumentId
 RenderedDocument
 TextureUpdateList
 BackendProfileCounters
+)
+AppendNotificationRequests
+(
+Vec
+<
+NotificationRequest
+>
 )
 }
 #
