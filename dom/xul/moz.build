@@ -280,11 +280,6 @@ nsIControllers
 .
 idl
 '
-'
-nsIXULSortService
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
