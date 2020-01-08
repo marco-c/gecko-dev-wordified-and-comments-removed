@@ -128,6 +128,17 @@ tests
 ]
     
 "
+tooltool_cache
+"
+:
+"
+/
+builds
+/
+tooltool_cache
+"
+    
+"
 download_tooltool
 "
 :
