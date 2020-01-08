@@ -569,7 +569,7 @@ OS_WIN
 !
 defined
 (
-ARCH_CPU_X86_64
+ARCH_CPU_64_BITS
 )
 template
 <

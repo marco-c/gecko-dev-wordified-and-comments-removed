@@ -67,3 +67,6 @@ patch
 mingw_offsetof
 .
 patch
+add_aarch64_windows_support
+.
+patch
