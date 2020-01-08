@@ -91,13 +91,6 @@ documentEvent
 documentEvent
 "
 "
-newScript
-"
-:
-"
-newScript
-"
-"
 tabDetached
 "
 :
