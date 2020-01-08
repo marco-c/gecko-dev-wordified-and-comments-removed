@@ -37,6 +37,17 @@ include
 "
 mozilla
 /
+dom
+/
+AudioDeviceInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 FileDescriptor
@@ -3266,6 +3277,9 @@ info
 new
 AudioDeviceInfo
 (
+device
+.
+devid
 NS_ConvertUTF8toUTF16
 (
 device
