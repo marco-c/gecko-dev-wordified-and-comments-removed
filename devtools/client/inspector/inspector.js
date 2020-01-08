@@ -4335,7 +4335,7 @@ ruleview
 defaultTab
 =
 "
-computedview
+layoutview
 "
 ;
 }
