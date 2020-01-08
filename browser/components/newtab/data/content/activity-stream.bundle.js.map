@@ -6586,8 +6586,10 @@ EAKjB
 iBALiB
 EAMjB
 uBANiB
+EAOjB
+uBAPiB
 CAAnB
-EAOG
+EAQG
 ;
 AACDmB
 kBAAgBnB
@@ -7581,7 +7583,7 @@ C
 ;
 ;
 ;
-AClWnB
+ACnWnB
 MAAM8C
 gBAAgB
 aAAtB
@@ -52730,6 +52732,13 @@ n
 \
 "
 OPEN_ABOUT_PAGE
+\
+"
+\
+n
+\
+"
+OPEN_PREFERENCES_PAGE
 \
 "
 \
