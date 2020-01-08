@@ -169,9 +169,9 @@ GeckoVersion
 parse
 (
 '
-62
+64
 .
-0b11
+0
 '
 )
     
@@ -190,9 +190,9 @@ yml
 '
 Firefox
 -
-62
+64
 .
-0b11
+0b13
 .
 update
 .

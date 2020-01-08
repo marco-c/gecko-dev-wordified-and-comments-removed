@@ -135,6 +135,32 @@ safe_load
 f
 )
         
+product
+=
+job
+[
+'
+shipping
+-
+product
+'
+]
+        
+if
+product
+=
+=
+'
+devedition
+'
+:
+            
+product
+=
+'
+firefox
+'
+        
 job
 [
 '
@@ -203,14 +229,7 @@ release_type
 product
 '
 :
-job
-[
-'
-shipping
--
 product
-'
-]
                 
 '
 version
@@ -223,7 +242,7 @@ parse
 release_config
 [
 '
-version
+appVersion
 '
 ]
 )
