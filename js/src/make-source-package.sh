@@ -597,6 +597,7 @@ mozbuild
 {
 tgtpath
 }
+/
 cp
 -
 pPR
@@ -614,6 +615,7 @@ tgtpath
 }
 /
 js
+/
 cp
 -
 pPR
@@ -631,6 +633,7 @@ tgtpath
 }
 /
 js
+/
 cp
 -
 pPR
@@ -648,6 +651,7 @@ tgtpath
 }
 /
 js
+/
 {
 MKDIR
 }
@@ -728,6 +732,7 @@ tgtpath
 }
 /
 intl
+/
 #
 copy
 main
@@ -758,6 +763,7 @@ build
 {
 tgtpath
 }
+/
 #
 copy
 nspr
@@ -773,6 +779,7 @@ nsprpub
 {
 tgtpath
 }
+/
 #
 copy
 top
@@ -803,6 +810,7 @@ configure
 {
 tgtpath
 }
+/
 #
 copy
 build
@@ -826,6 +834,7 @@ config
 {
 tgtpath
 }
+/
 #
 copy
 cargo
@@ -860,6 +869,7 @@ tgtpath
 /
 .
 cargo
+/
 #
 generate
 configure
@@ -966,6 +976,7 @@ mfbt
 {
 tgtpath
 }
+/
 cp
 -
 p
@@ -983,6 +994,7 @@ tgtpath
 }
 /
 js
+/
 cp
 -
 pPR
@@ -998,6 +1010,7 @@ tgtpath
 }
 /
 js
+/
 cp
 -
 pPR
@@ -1013,6 +1026,7 @@ tgtpath
 }
 /
 js
+/
 cp
 -
 pPR
@@ -1028,6 +1042,7 @@ tgtpath
 }
 /
 js
+/
 find
 {
 TOPSRCDIR
@@ -1073,6 +1088,7 @@ tgtpath
 js
 /
 src
+/
 \
 ;
 cp
@@ -1088,6 +1104,7 @@ python
 {
 tgtpath
 }
+/
 {
 MKDIR
 }
@@ -1115,6 +1132,7 @@ tgtpath
 }
 /
 third_party
+/
 cp
 -
 pPR
@@ -1132,6 +1150,7 @@ tgtpath
 }
 /
 third_party
+/
 {
 MKDIR
 }
@@ -1165,6 +1184,7 @@ tgtpath
 dom
 /
 bindings
+/
 {
 MKDIR
 }
@@ -1192,6 +1212,7 @@ tgtpath
 }
 /
 testing
+/
 {
 MKDIR
 }
@@ -1220,7 +1241,6 @@ tgtpath
 /
 modules
 /
-fdlibm
 cp
 -
 pPR
@@ -1239,7 +1259,6 @@ tgtpath
 /
 modules
 /
-zlib
 {
 MKDIR
 }
@@ -1279,6 +1298,7 @@ layout
 tools
 /
 reftest
+/
 {
 MKDIR
 }
@@ -1338,6 +1358,7 @@ toolkit
 mozapps
 /
 installer
+/
 {
 MKDIR
 }
@@ -1379,6 +1400,7 @@ toolkit
 crashreporter
 /
 tools
+/
 {
 MKDIR
 }
@@ -1424,6 +1446,7 @@ tgtpath
 }
 /
 mozglue
+/
 {
 MKDIR
 }
@@ -1477,6 +1500,7 @@ tgtpath
 }
 /
 memory
+/
 {
 MKDIR
 }
@@ -1542,6 +1566,7 @@ tgtpath
 tools
 /
 fuzzing
+/
 #
 remove
 *
@@ -1655,6 +1680,7 @@ INSTALL
 {
 tgtpath
 }
+/
 else
 cat
 <
@@ -1787,6 +1813,7 @@ README
 {
 tgtpath
 }
+/
 else
 cat
 <
@@ -1921,6 +1948,7 @@ patches
 {
 tgtpath
 }
+/
 elif
 [
 -
@@ -1944,6 +1972,7 @@ patches
 {
 tgtpath
 }
+/
 fi
 #
 Roll
