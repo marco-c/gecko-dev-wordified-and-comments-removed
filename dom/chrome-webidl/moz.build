@@ -352,6 +352,11 @@ StructuredCloneHolder
 webidl
 '
 '
+TelemetryStopwatch
+.
+webidl
+'
+'
 WebExtensionContentScript
 .
 webidl

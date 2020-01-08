@@ -231,6 +231,11 @@ StructuredCloneHolder
 :
 false
 "
+TelemetryStopwatch
+"
+:
+false
+"
 WebAssembly
 "
 :
