@@ -411,6 +411,11 @@ Poison
 h
 '
 '
+RandomNum
+.
+h
+'
+'
 Range
 .
 h
@@ -875,6 +880,11 @@ cpp
 '
 '
 Poison
+.
+cpp
+'
+'
+RandomNum
 .
 cpp
 '
