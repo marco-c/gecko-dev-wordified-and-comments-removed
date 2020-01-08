@@ -284,14 +284,6 @@ Compression
 h
 "
 #
-ifdef
-Status
-#
-undef
-Status
-#
-endif
-#
 include
 "
 protobuf

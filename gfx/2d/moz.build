@@ -1010,16 +1010,6 @@ Blur
 cpp
 '
 '
-BufferEdgePad
-.
-cpp
-'
-'
-BufferUnrotate
-.
-cpp
-'
-'
 CaptureCommandList
 .
 cpp
