@@ -2734,7 +2734,7 @@ mVideoConduit
 ConfigureSendMediaCodec
 (
 &
-codecConfigBadName
+codecConfigLongName
 )
 ;
 ASSERT_EQ
