@@ -4814,7 +4814,7 @@ rv
 )
 )
 {
-MOZ_CRASH
+NS_WARNING
 (
 "
 Can
