@@ -1223,6 +1223,7 @@ isTenured
 (
 )
 )
+{
 return
 asTenured
 (
@@ -1232,12 +1233,14 @@ getTraceKind
 (
 )
 ;
+}
 if
 (
 nurseryCellIsString
 (
 )
 )
+{
 return
 JS
 :
@@ -1247,6 +1250,7 @@ TraceKind
 :
 String
 ;
+}
 return
 JS
 :
@@ -1910,6 +1914,7 @@ RuntimeHeapIsCollecting
 (
 )
 )
+{
 JS
 :
 :
@@ -1930,6 +1935,7 @@ getTraceKind
 )
 )
 ;
+}
 }
 }
 void
@@ -1965,8 +1971,10 @@ if
 !
 thing
 )
+{
 return
 ;
+}
 #
 ifdef
 JS_GC_ZEAL
@@ -2189,9 +2197,11 @@ isTenured
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 asTenured
 (

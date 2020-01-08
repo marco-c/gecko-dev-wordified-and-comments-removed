@@ -257,8 +257,10 @@ zone
 (
 )
 )
+{
 return
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -282,8 +284,10 @@ ThingIsPermanent
 thing
 )
 )
+{
 return
 ;
+}
 size_t
 bit
 =

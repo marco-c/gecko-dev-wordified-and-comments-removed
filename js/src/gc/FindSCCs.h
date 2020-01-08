@@ -103,9 +103,11 @@ gcNextGraphComponent
 =
 gcNextGraphComponent
 )
+{
 return
 gcNextGraphNode
 ;
+}
 return
 nullptr
 ;
@@ -375,6 +377,7 @@ v
 >
 gcNextGraphNode
 )
+{
 v
 -
 >
@@ -382,6 +385,7 @@ gcNextGraphComponent
 =
 nullptr
 ;
+}
 }
 public
 :
@@ -573,8 +577,10 @@ if
 (
 stackFull
 )
+{
 return
 ;
+}
 if
 (
 v

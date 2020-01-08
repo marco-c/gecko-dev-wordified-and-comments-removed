@@ -489,6 +489,7 @@ isCursorAtEnd
 (
 )
 )
+{
 cursorp_
 =
 &
@@ -500,6 +501,7 @@ cursorp_
 >
 next
 ;
+}
 }
 js
 :
@@ -569,9 +571,11 @@ if
 !
 arena
 )
+{
 return
 nullptr
 ;
+}
 cursorp_
 =
 &
@@ -632,6 +636,7 @@ hasFreeThings
 (
 )
 )
+{
 cursorp_
 =
 &
@@ -640,6 +645,7 @@ a
 >
 next
 ;
+}
 check
 (
 )
@@ -744,10 +750,12 @@ isCursorAtHead
 (
 )
 )
+{
 return
 *
 this
 ;
+}
 *
 other
 .
@@ -868,6 +876,7 @@ thingsPerArena
 +
 i
 )
+{
 segments
 [
 i
@@ -877,6 +886,7 @@ clear
 (
 )
 ;
+}
 }
 void
 js
@@ -1098,9 +1108,11 @@ isEmpty
 i
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1182,6 +1194,7 @@ isEmpty
 (
 )
 )
+{
 old
 -
 >
@@ -1194,6 +1207,7 @@ checkNoMarkedFreeCells
 (
 )
 ;
+}
 #
 endif
 freeLists_
@@ -1283,6 +1297,7 @@ isEmpty
 (
 )
 )
+{
 freeSpan
 -
 >
@@ -1295,6 +1310,7 @@ unmarkPreMarkedFreeCells
 (
 )
 ;
+}
 }
 JSRuntime
 *
@@ -1445,9 +1461,11 @@ ref
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 incrementalSweptArenas
 .
@@ -1533,9 +1551,11 @@ ConcurrentUse
 :
 BackgroundFinalize
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -1548,9 +1568,11 @@ isEmpty
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1618,6 +1640,7 @@ arena
 >
 next
 )
+{
 arena
 -
 >
@@ -1625,6 +1648,7 @@ unmarkAll
 (
 )
 ;
+}
 }
 }
 bool
@@ -1768,6 +1792,7 @@ AllAllocKinds
 (
 )
 )
+{
 freeLists
 (
 )
@@ -1777,6 +1802,7 @@ unmarkPreMarkedFreeCells
 i
 )
 ;
+}
 }
 void
 js
@@ -1844,10 +1870,12 @@ checkEmptyArenaList
 i
 )
 )
+{
 empty
 =
 false
 ;
+}
 }
 #
 endif

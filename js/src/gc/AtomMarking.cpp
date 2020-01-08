@@ -252,9 +252,11 @@ ensureSpace
 allocatedWords
 )
 )
+{
 return
 false
 ;
+}
 Zone
 *
 atomsZone
@@ -382,8 +384,10 @@ isAtomsZone
 (
 )
 )
+{
 return
 ;
+}
 zone
 -
 >
@@ -596,6 +600,7 @@ isCollectingFromAnyThread
 (
 )
 )
+{
 zone
 -
 >
@@ -608,6 +613,7 @@ bitwiseOrInto
 markedUnion
 )
 ;
+}
 }
 BitwiseOrIntoChunkMarkBits
 (
@@ -651,6 +657,7 @@ isCollectingFromAnyThread
 (
 )
 )
+{
 BitwiseOrIntoChunkMarkBits
 (
 runtime
@@ -662,6 +669,7 @@ markedAtoms
 )
 )
 ;
+}
 }
 }
 }
@@ -825,6 +833,7 @@ isAtom
 (
 )
 )
+{
 markAtom
 (
 cx
@@ -841,6 +850,7 @@ asAtom
 )
 )
 ;
+}
 return
 ;
 }
@@ -1060,9 +1070,11 @@ permanentAtomsPopulated
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 ThingIsPermanent
@@ -1070,9 +1082,11 @@ ThingIsPermanent
 thing
 )
 )
+{
 return
 true
 ;
+}
 size_t
 bit
 =
@@ -1156,9 +1170,11 @@ if
 !
 thing
 )
+{
 return
 true
 ;
+}
 if
 (
 thing
@@ -1196,9 +1212,11 @@ isAtom
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 atomIsMarked
 (
@@ -1228,6 +1246,7 @@ Symbol
 (
 )
 )
+{
 return
 atomIsMarked
 (
@@ -1246,6 +1265,7 @@ Symbol
 )
 )
 ;
+}
 return
 true
 ;
@@ -1270,6 +1290,7 @@ JSID_IS_ATOM
 id
 )
 )
+{
 return
 atomIsMarked
 (
@@ -1280,6 +1301,7 @@ id
 )
 )
 ;
+}
 if
 (
 JSID_IS_SYMBOL
@@ -1287,6 +1309,7 @@ JSID_IS_SYMBOL
 id
 )
 )
+{
 return
 atomIsMarked
 (
@@ -1297,6 +1320,7 @@ id
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -1347,6 +1371,7 @@ isAtom
 (
 )
 )
+{
 return
 atomIsMarked
 (
@@ -1364,6 +1389,7 @@ asAtom
 )
 )
 ;
+}
 return
 true
 ;
@@ -1376,6 +1402,7 @@ isSymbol
 (
 )
 )
+{
 return
 atomIsMarked
 (
@@ -1387,6 +1414,7 @@ toSymbol
 )
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 value
