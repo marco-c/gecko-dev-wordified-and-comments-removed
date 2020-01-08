@@ -563,6 +563,12 @@ getAdjustedQuads
 boundaryWindow
 node
 region
+{
+ignoreZoom
+}
+=
+{
+}
 )
 {
 if
@@ -617,6 +623,10 @@ return
 const
 scale
 =
+ignoreZoom
+?
+1
+:
 getCurrentZoom
 (
 node
