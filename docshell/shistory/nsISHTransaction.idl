@@ -102,6 +102,7 @@ interface
 nsISHEntry
 ;
 [
+builtinclass
 scriptable
 uuid
 (
@@ -134,6 +135,9 @@ transaction
 .
 *
 /
+[
+infallible
+]
 attribute
 nsISHEntry
 sHEntry
@@ -165,6 +169,9 @@ list
 .
 *
 /
+[
+infallible
+]
 attribute
 boolean
 persist
