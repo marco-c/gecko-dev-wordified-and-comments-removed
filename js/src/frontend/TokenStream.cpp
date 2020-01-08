@@ -9074,7 +9074,10 @@ if
 !
 getNonAsciiCodePointDontNormalize
 (
+toCharT
+(
 unit
+)
 &
 cp
 )
@@ -10541,7 +10544,13 @@ this
 >
 getNonAsciiCodePointDontNormalize
 (
+this
+-
+>
+toCharT
+(
 lead
+)
 &
 codePoint
 )
