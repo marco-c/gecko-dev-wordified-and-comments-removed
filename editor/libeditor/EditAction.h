@@ -9,6 +9,14 @@ mozilla
 {
 enum
 class
+EditAction
+{
+eNone
+eNotEditing
+}
+;
+enum
+class
 EditSubAction
 :
 int32_t
