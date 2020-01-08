@@ -539,10 +539,16 @@ count
 =
 2
 )
+{
 ret
 =
 0
 ;
+dummy
+=
+1
+;
+}
 }
 void
 test
