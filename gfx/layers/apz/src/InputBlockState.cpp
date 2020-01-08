@@ -287,10 +287,7 @@ GetGuid
 )
 )
 {
-#
-ifdef
-NIGHTLY_BUILD
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 "
@@ -308,8 +305,6 @@ targets
 "
 )
 ;
-#
-endif
 UpdateTargetApzc
 (
 aTargetApzc
