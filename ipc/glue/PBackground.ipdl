@@ -900,6 +900,17 @@ PrincipalInfo
 aPrincipalInfo
 )
 ;
+async
+RemoveEndpoint
+(
+nsString
+aGroupName
+nsCString
+aEndpointURL
+PrincipalInfo
+aPrincipalInfo
+)
+;
 child
 :
 async

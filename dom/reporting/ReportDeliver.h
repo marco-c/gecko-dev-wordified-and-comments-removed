@@ -51,6 +51,9 @@ nsString
 mType
 ;
 nsString
+mGroupName
+;
+nsString
 mURL
 ;
 nsCString
