@@ -418,7 +418,7 @@ p
 '
 ;
 }
-LOG3
+LOG1
 (
 (
 "
@@ -1258,7 +1258,7 @@ responseBody
 nsresult
 rv
 ;
-LOG
+LOG1
 (
 (
 "
@@ -1627,12 +1627,12 @@ pruneProxyHeaders
 ;
 if
 (
-LOG3_ENABLED
+LOG1_ENABLED
 (
 )
 )
 {
-LOG3
+LOG1
 (
 (
 "
@@ -1654,7 +1654,7 @@ get
 )
 )
 ;
-LOG3
+LOG1
 (
 (
 "
@@ -2607,7 +2607,7 @@ int64_t
 progress
 )
 {
-LOG
+LOG1
 (
 (
 "
@@ -3097,7 +3097,7 @@ if
 mHasRequestBody
 )
 {
-LOG
+LOG1
 (
 (
 "
@@ -3180,7 +3180,7 @@ if
 seekable
 )
 {
-LOG
+LOG1
 (
 (
 "
@@ -6119,7 +6119,7 @@ nsACString
 line
 )
 {
-LOG
+LOG1
 (
 (
 "
@@ -8096,7 +8096,7 @@ mContentRead
 contentRead
 ;
 }
-LOG
+LOG1
 (
 (
 "
@@ -8307,7 +8307,7 @@ countRead
 nsresult
 rv
 ;
-LOG
+LOG1
 (
 (
 "
@@ -8674,7 +8674,7 @@ nsIRequestContext
 aRequestContext
 )
 {
-LOG
+LOG1
 (
 (
 "

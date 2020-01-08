@@ -363,7 +363,7 @@ QueryHttpTransaction
 (
 )
 ;
-LOG3
+LOG1
 (
 (
 "
@@ -3041,7 +3041,7 @@ UpdatePriorityDependency
 (
 )
 ;
-LOG3
+LOG1
 (
 (
 "
@@ -6279,7 +6279,7 @@ NotifyActiveTabLoadOptimization
 )
 ;
 }
-LOG3
+LOG1
 (
 (
 "

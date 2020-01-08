@@ -3297,7 +3297,7 @@ nullptr
 ;
 }
 }
-SOCKET_LOG
+SOCKET_LOG1
 (
 (
 "
@@ -4148,7 +4148,7 @@ nsresult
 status
 )
 {
-SOCKET_LOG
+SOCKET_LOG1
 (
 (
 "
@@ -9817,7 +9817,7 @@ int16_t
 outFlags
 )
 {
-SOCKET_LOG
+SOCKET_LOG1
 (
 (
 "

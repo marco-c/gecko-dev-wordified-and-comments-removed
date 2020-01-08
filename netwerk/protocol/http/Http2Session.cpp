@@ -1948,7 +1948,7 @@ mNextStreamID
 2
 ;
 }
-LOG3
+LOG1
 (
 (
 "
