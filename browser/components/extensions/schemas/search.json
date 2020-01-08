@@ -308,11 +308,6 @@ type
 function
 "
 "
-requireUserInput
-"
-:
-true
-"
 description
 "
 :
