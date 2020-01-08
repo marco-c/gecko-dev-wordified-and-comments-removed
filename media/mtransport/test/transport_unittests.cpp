@@ -2939,11 +2939,7 @@ ctx
 >
 SetStream
 (
-streams_
-.
-size
-(
-)
+name
 stream
 )
 ;

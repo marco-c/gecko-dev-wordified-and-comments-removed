@@ -832,10 +832,7 @@ aTransportManager
 .
 GetTransportFlow
 (
-mJsepTransceiver
--
->
-GetTransportLevel
+GetTransportId
 (
 )
 false
@@ -847,10 +844,7 @@ aTransportManager
 .
 GetTransportFlow
 (
-mJsepTransceiver
--
->
-GetTransportLevel
+GetTransportId
 (
 )
 true
