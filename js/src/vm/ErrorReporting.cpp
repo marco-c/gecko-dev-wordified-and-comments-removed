@@ -132,12 +132,14 @@ runtime
 >
 warningReporter
 )
+{
 warningReporter
 (
 cx
 reportp
 )
 ;
+}
 }
 void
 js
@@ -263,9 +265,11 @@ addPendingCompileError
 err
 )
 )
+{
 return
 false
 ;
+}
 err
 -
 >
@@ -344,6 +348,7 @@ metadata
 lineOfContext
 )
 )
+{
 err
 -
 >
@@ -362,6 +367,7 @@ metadata
 tokenOffset
 )
 ;
+}
 if
 (
 !
@@ -392,6 +398,7 @@ helperThread
 (
 )
 )
+{
 err
 -
 >
@@ -400,6 +407,7 @@ throwError
 cx
 )
 ;
+}
 return
 true
 ;
@@ -460,8 +468,10 @@ addPendingCompileError
 err
 )
 )
+{
 return
 ;
+}
 err
 -
 >
@@ -540,6 +550,7 @@ metadata
 lineOfContext
 )
 )
+{
 err
 -
 >
@@ -558,6 +569,7 @@ metadata
 tokenOffset
 )
 ;
+}
 if
 (
 !
@@ -587,6 +599,7 @@ helperThread
 (
 )
 )
+{
 err
 -
 >
@@ -595,6 +608,7 @@ throwError
 cx
 )
 ;
+}
 }
 void
 js
