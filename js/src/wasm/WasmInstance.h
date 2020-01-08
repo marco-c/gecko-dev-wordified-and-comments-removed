@@ -112,17 +112,12 @@ jit
 TrampolinePtr
 jsJitExceptionHandler_
 ;
-#
-ifdef
-ENABLE_WASM_GC
 jit
 :
 :
 TrampolinePtr
 preBarrierCode_
 ;
-#
-endif
 const
 SharedCode
 code_
@@ -590,9 +585,6 @@ jsJitExceptionHandler_
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 static
 constexpr
 size_t
@@ -608,8 +600,6 @@ preBarrierCode_
 )
 ;
 }
-#
-endif
 WasmInstanceObject
 *
 object
@@ -965,9 +955,6 @@ uint32_t
 segIndex
 )
 ;
-#
-ifdef
-ENABLE_WASM_GC
 static
 void
 postBarrier
@@ -984,8 +971,6 @@ Cell
 location
 )
 ;
-#
-endif
 static
 void
 *

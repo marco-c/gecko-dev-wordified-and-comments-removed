@@ -1320,6 +1320,9 @@ OpKind
 :
 GrowMemory
 ;
+#
+ifdef
+ENABLE_WASM_GC
 case
 Op
 :
@@ -1332,6 +1335,8 @@ OpKind
 :
 RefNull
 ;
+#
+endif
 case
 Op
 :
@@ -1349,6 +1354,14 @@ b1
 )
 )
 {
+case
+MiscOp
+:
+:
+Limit
+:
+break
+;
 #
 ifdef
 ENABLE_WASM_SATURATING_TRUNC_OPS
@@ -1532,10 +1545,6 @@ StructNarrow
 ;
 #
 endif
-default
-:
-break
-;
 }
 break
 ;

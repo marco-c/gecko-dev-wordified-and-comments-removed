@@ -3950,9 +3950,6 @@ return
 1
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 void
 Instance
 :
@@ -4000,8 +3997,6 @@ location
 )
 ;
 }
-#
-endif
 void
 *
 Instance
@@ -4661,9 +4656,6 @@ tieringJumpTable
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_GC
 tlsData
 (
 )
@@ -4692,8 +4684,6 @@ addressOfNeedsIncrementalBarrier
 (
 )
 ;
-#
-endif
 Tier
 callerTier
 =
@@ -5615,9 +5605,6 @@ getExceptionTail
 (
 )
 ;
-#
-ifdef
-ENABLE_WASM_GC
 preBarrierCode_
 =
 jitRuntime
@@ -5631,8 +5618,6 @@ MIRType
 Object
 )
 ;
-#
-endif
 if
 (
 !
@@ -6143,9 +6128,6 @@ trc
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 for
 (
 const
@@ -6229,8 +6211,6 @@ global
 )
 ;
 }
-#
-endif
 TraceNullableEdge
 (
 trc

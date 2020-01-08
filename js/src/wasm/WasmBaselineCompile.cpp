@@ -28171,9 +28171,6 @@ bytecodeOffset
 )
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 void
 emitPreBarrier
 (
@@ -28570,8 +28567,6 @@ skipBarrier
 )
 ;
 }
-#
-endif
 struct
 BranchState
 {
@@ -30207,9 +30202,6 @@ isMem
 ;
 #
 endif
-#
-ifdef
-ENABLE_WASM_GC
 MOZ_MUST_USE
 bool
 emitStructNew
@@ -30234,8 +30226,6 @@ emitStructNarrow
 (
 )
 ;
-#
-endif
 }
 ;
 void
@@ -41285,9 +41275,6 @@ rv
 break
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 case
 ValType
 :
@@ -41357,8 +41344,6 @@ rv
 break
 ;
 }
-#
-endif
 default
 :
 MOZ_CRASH
@@ -46148,9 +46133,6 @@ true
 }
 #
 endif
-#
-ifdef
-ENABLE_WASM_GC
 bool
 BaseCompiler
 :
@@ -47779,8 +47761,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 BaseCompiler
 :

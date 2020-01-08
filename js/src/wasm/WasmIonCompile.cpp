@@ -20401,6 +20401,9 @@ Double
 )
 )
 ;
+#
+ifdef
+ENABLE_WASM_GC
 case
 uint16_t
 (
@@ -20441,6 +20444,8 @@ unrecognizedOpcode
 op
 )
 ;
+#
+endif
 case
 uint16_t
 (
