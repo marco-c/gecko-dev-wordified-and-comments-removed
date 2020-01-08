@@ -23420,6 +23420,12 @@ defined
 (
 ANDROID
 )
+if
+(
+!
+mParserAborted
+)
+{
 AssertContentPrivilegedAboutPageHasCSP
 (
 mDocumentURI
@@ -23428,6 +23434,7 @@ NodePrincipal
 )
 )
 ;
+}
 #
 endif
 if
