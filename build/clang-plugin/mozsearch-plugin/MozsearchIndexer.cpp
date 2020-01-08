@@ -3162,7 +3162,7 @@ Lock
 openFile
 (
 "
-r
+rb
 "
 )
 ;
@@ -3316,7 +3316,7 @@ Lock
 openFile
 (
 "
-w
+wb
 "
 )
 ;
