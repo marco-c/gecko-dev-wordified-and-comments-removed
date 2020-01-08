@@ -106,6 +106,15 @@ SetHasWeirdParserInsertionMode
 }
 }
 virtual
+void
+DoneAddingChildren
+(
+bool
+aHaveNotified
+)
+override
+;
+virtual
 bool
 ParseAttribute
 (
