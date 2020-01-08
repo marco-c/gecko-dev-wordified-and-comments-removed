@@ -1165,6 +1165,11 @@ StructuredCloneTags
 h
 '
 '
+StructuredCloneTester
+.
+h
+'
+'
 StyleSheetList
 .
 h
@@ -1923,6 +1928,11 @@ cpp
 '
 '
 StructuredCloneHolder
+.
+cpp
+'
+'
+StructuredCloneTester
 .
 cpp
 '
