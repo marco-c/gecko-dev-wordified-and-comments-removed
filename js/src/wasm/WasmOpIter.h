@@ -8493,7 +8493,10 @@ code
 =
 uint8_t
 (
-TypeCode
+ValType
+:
+:
+Code
 :
 :
 Ref
@@ -8569,7 +8572,10 @@ code
 =
 uint8_t
 (
-TypeCode
+ValType
+:
+:
+Code
 :
 :
 AnyRef
