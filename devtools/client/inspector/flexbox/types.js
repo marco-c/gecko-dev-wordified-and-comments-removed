@@ -38,7 +38,17 @@ actorID
 PropTypes
 .
 string
+flexItemSizing
+:
+PropTypes
+.
+object
 nodeFront
+:
+PropTypes
+.
+object
+properties
 :
 PropTypes
 .
