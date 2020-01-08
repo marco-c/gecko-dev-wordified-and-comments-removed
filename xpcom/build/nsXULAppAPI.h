@@ -420,7 +420,6 @@ GeckoProcessType_GMPlugin
 GeckoProcessType_GPU
 GeckoProcessType_PDFium
 GeckoProcessType_VR
-GeckoProcessType_RDD
 GeckoProcessType_End
 GeckoProcessType_Invalid
 =
@@ -460,9 +459,6 @@ pdfium
 "
 "
 vr
-"
-"
-rdd
 "
 }
 ;
@@ -657,13 +653,6 @@ XRE_API
 (
 bool
 XRE_IsGPUProcess
-(
-)
-)
-XRE_API
-(
-bool
-XRE_IsRDDProcess
 (
 )
 )

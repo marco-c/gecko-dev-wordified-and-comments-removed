@@ -272,10 +272,6 @@ PVideoDecoderManager
 ;
 include
 protocol
-PRemoteDecoderManager
-;
-include
-protocol
 PProfiler
 ;
 include
@@ -2173,16 +2169,6 @@ reset
 async
 ReinitRenderingForDeviceReset
 (
-)
-;
-async
-InitRemoteDecoder
-(
-Endpoint
-<
-PRemoteDecoderManagerChild
->
-decoder
 )
 ;
 /
