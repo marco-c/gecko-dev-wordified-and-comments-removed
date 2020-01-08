@@ -92,6 +92,12 @@ webrtc
 gni
 "
 )
+if
+(
+!
+build_with_mozilla
+)
+{
 import
 (
 "
@@ -106,6 +112,7 @@ proto_library
 gni
 "
 )
+}
 if
 (
 is_android
