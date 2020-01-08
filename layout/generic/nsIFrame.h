@@ -2438,14 +2438,6 @@ GetInFlowParent
 const
 ;
 inline
-nsContainerFrame
-*
-GetInFlowParentIgnoringAnonBoxes
-(
-)
-const
-;
-inline
 nsPlaceholderFrame
 *
 GetPlaceholderFrame
