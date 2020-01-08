@@ -161,14 +161,12 @@ exit
 (
 )
                 
-thread
+self
 .
-start_new_thread
+sendData
 (
-shutdown
-(
-server
-)
+'
+'
 )
                 
 self
@@ -177,6 +175,16 @@ request
 .
 close
 (
+)
+                
+thread
+.
+start_new_thread
+(
+shutdown
+(
+server
+)
 )
                 
 break
