@@ -72,6 +72,7 @@ VMFlagSet
 EnumSet
 <
 VMFlag
+uint32_t
 >
 ;
 class
