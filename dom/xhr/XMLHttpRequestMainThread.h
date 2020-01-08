@@ -1695,12 +1695,12 @@ DetectCharset
 nsresult
 AppendToResponseText
 (
+Span
+<
 const
-char
-*
+uint8_t
+>
 aBuffer
-uint32_t
-aBufferLen
 bool
 aLast
 =
