@@ -8845,6 +8845,7 @@ StackingContextHelper
 pageRootSc
 (
 sc
+nullptr
 aBuilder
 aFilters
 )

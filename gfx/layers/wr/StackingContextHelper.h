@@ -59,6 +59,9 @@ nsDisplayTransform
 namespace
 mozilla
 {
+struct
+ActiveScrolledRoot
+;
 namespace
 layers
 {
@@ -74,6 +77,10 @@ const
 StackingContextHelper
 &
 aParentSC
+const
+ActiveScrolledRoot
+*
+aAsr
 wr
 :
 :
@@ -347,6 +354,15 @@ nsDisplayTransform
 *
 >
 mDeferredTransformItem
+;
+Maybe
+<
+gfx
+:
+:
+Matrix4x4
+>
+mDeferredAncestorTransform
 ;
 bool
 mIsPreserve3D
