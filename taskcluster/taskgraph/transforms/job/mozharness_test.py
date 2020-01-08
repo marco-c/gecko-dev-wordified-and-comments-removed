@@ -2001,14 +2001,6 @@ MOZ_NO_REMOTE
 '
             
 '
-NO_EM_RESTART
-'
-:
-'
-1
-'
-            
-'
 NO_FAIL_ON_TEST_ERRORS
 '
 :
@@ -3168,14 +3160,6 @@ MOZ_NO_REMOTE
 '
         
 "
-NO_EM_RESTART
-"
-:
-'
-1
-'
-        
-"
 XPCOM_DEBUG_BREAK
 "
 :
@@ -4080,14 +4064,6 @@ installer_url
         
 "
 MOZ_NO_REMOTE
-"
-:
-'
-1
-'
-        
-"
-NO_EM_RESTART
 "
 :
 '

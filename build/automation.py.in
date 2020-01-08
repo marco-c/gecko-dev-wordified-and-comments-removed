@@ -4008,16 +4008,6 @@ dict
 env
 )
 ;
-env
-[
-"
-NO_EM_RESTART
-"
-]
-=
-"
-1
-"
 tmpfd
 processLog
 =
