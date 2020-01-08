@@ -4838,7 +4838,7 @@ instance
 return
 ;
 let
-isDomainRTL
+directionality
 =
 window
 .
@@ -4888,7 +4888,14 @@ left
 .
 if
 (
-isDomainRTL
+directionality
+=
+=
+window
+.
+windowUtils
+.
+DIRECTION_RTL
 &
 &
 value
