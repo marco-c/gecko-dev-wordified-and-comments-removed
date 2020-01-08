@@ -148,6 +148,7 @@ chrome
 ;
 let
 form
+front
 ;
 if
 (
@@ -306,8 +307,7 @@ id
 0
 ;
 }
-const
-response
+front
 =
 await
 client
@@ -318,12 +318,6 @@ getProcess
 (
 id
 )
-;
-form
-=
-response
-.
-form
 ;
 chrome
 =
@@ -517,6 +511,9 @@ forRemoteTab
 {
 client
 form
+activeTab
+:
+front
 chrome
 }
 )
