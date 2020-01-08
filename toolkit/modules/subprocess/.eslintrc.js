@@ -44,6 +44,15 @@ worker
 true
 }
 "
+plugins
+"
+:
+[
+"
+mozilla
+"
+]
+"
 rules
 "
 :
