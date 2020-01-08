@@ -1998,7 +1998,7 @@ EmptyCString
 )
 ;
 }
-nsAutoCString
+nsCString
 result
 ;
 for
@@ -2103,7 +2103,7 @@ EmptyCString
 )
 ;
 }
-nsAutoCString
+nsCString
 result
 ;
 for
@@ -3552,7 +3552,7 @@ MSG
 aMSG
 )
 {
-nsAutoCString
+nsCString
 result
 ;
 result
@@ -4062,7 +4062,7 @@ NS_LITERAL_CSTRING
 )
 ;
 }
-nsAutoCString
+nsCString
 result
 ;
 result
@@ -4246,7 +4246,7 @@ ModifierKeyState
 aModifierKeyState
 )
 {
-nsAutoCString
+nsCString
 result
 ;
 result
@@ -13967,7 +13967,7 @@ ISMEX_NOSEND
 )
 ;
 }
-nsAutoCString
+nsCString
 result
 ;
 if
@@ -20991,7 +20991,7 @@ layout
 )
 )
 {
-nsAutoCString
+nsCString
 result
 ;
 result
