@@ -770,7 +770,7 @@ secureContext
 JS_FRIEND_API
 JSPrincipals
 *
-JS_GetCompartmentPrincipals
+JS_DeprecatedGetCompartmentPrincipals
 (
 JS
 :
