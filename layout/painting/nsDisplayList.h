@@ -11022,7 +11022,7 @@ LastElement
 (
 )
 ;
-EndNested
+ExitChildList
 (
 mNext
 )
@@ -11059,7 +11059,7 @@ AppendElement
 mNext
 )
 ;
-StartNested
+EnterChildList
 (
 mNext
 )
@@ -11109,7 +11109,7 @@ GetBottom
 }
 virtual
 void
-EndNested
+ExitChildList
 (
 nsDisplayItem
 *
@@ -11119,7 +11119,7 @@ aItem
 }
 virtual
 void
-StartNested
+EnterChildList
 (
 nsDisplayItem
 *
