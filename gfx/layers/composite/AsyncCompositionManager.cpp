@@ -4514,6 +4514,17 @@ combinedAsyncTransform
 =
 asyncTransform
 ;
+AsyncTransform
+asyncTransformForFixedAdjustment
+=
+sampler
+-
+>
+GetCurrentAsyncTransformForFixedAdjustment
+(
+wrapper
+)
+;
 LayerToParentLayerMatrix4x4
 transformWithoutOverscrollOrOmta
 =
@@ -4528,7 +4539,7 @@ CompleteAsyncTransform
 (
 AdjustForClip
 (
-asyncTransformWithoutOverscroll
+asyncTransformForFixedAdjustment
 layer
 )
 )
