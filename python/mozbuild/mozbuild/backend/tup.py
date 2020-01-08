@@ -2527,9 +2527,25 @@ symbols_file
 ]
         
 if
+(
 shlib
 .
 symbols_file
+and
+            
+backend_file
+.
+environment
+.
+substs
+.
+get
+(
+'
+GCC_USE_GNU_LD
+'
+)
+)
 :
             
 inputs
