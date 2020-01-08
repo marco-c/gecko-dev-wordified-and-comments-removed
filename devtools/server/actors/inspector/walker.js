@@ -2121,7 +2121,10 @@ onCustomElementDefined
 :
 function
 (
+{
+name
 actors
+}
 )
 {
 actors
