@@ -67,7 +67,7 @@ printf
 (
 "
 %
-08X
+08lX
 %
 04X
 %
@@ -89,7 +89,7 @@ printf
 %
 02X
 %
-X
+lX
 "
 guid
 .

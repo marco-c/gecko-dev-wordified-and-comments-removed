@@ -2822,7 +2822,7 @@ pattern
 more
 than
 %
-lu
+zu
 chars
 )
 \
