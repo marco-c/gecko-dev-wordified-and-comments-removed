@@ -3950,6 +3950,11 @@ MOZ_ASSERT
 controller
 )
 ;
+if
+(
+controller
+)
+{
 controller
 -
 >
@@ -3960,6 +3965,7 @@ aGuid
 mScrollId
 )
 ;
+}
 }
 void
 APZCTreeManager
