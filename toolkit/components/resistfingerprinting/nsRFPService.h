@@ -257,6 +257,13 @@ LEGACY_UA_GECKO_TRAIL
 "
 20100101
 "
+#
+define
+SPOOFED_POINTER_INTERFACE
+MouseEvent_Binding
+:
+:
+MOZ_SOURCE_MOUSE
 class
 LRUCache
 ;

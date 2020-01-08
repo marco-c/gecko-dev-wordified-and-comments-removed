@@ -138,6 +138,9 @@ PointerEvent
 :
 MouseEvent
 {
+[
+NeedsCallerType
+]
 readonly
 attribute
 long
