@@ -138,3 +138,15 @@ DEPRECATED_OPERATION
 (
 CreateImageBitmapCanvasRenderingContext2D
 )
+DEPRECATED_OPERATION
+(
+MozRequestFullScreenDeprecatedPrefix
+)
+DEPRECATED_OPERATION
+(
+MozfullscreenchangeDeprecatedPrefix
+)
+DEPRECATED_OPERATION
+(
+MozfullscreenerrorDeprecatedPrefix
+)

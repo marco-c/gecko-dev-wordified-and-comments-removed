@@ -1787,6 +1787,11 @@ BinaryName
 requestFullscreen
 "
 NeedsCallerType
+Deprecated
+=
+"
+MozRequestFullScreenDeprecatedPrefix
+"
 ]
 Promise
 <
