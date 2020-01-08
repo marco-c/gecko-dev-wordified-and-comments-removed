@@ -2078,6 +2078,12 @@ mozilla
 SupportsWeakPtr
 "
 "
+mozilla
+:
+:
+Tuple
+"
+"
 SupportsWeakPtr
 "
 "
