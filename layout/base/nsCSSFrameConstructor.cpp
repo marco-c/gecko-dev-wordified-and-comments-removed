@@ -25678,6 +25678,11 @@ aNextSibling
 GetParent
 (
 )
+-
+>
+GetContentInsertionFrame
+(
+)
 =
 =
 aParentFrame
