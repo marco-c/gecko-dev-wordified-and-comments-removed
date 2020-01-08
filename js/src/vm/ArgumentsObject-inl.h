@@ -341,9 +341,11 @@ isAnyElementDeleted
 (
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 uint32_t
@@ -367,6 +369,7 @@ i
 +
 vp
 )
+{
 *
 vp
 =
@@ -375,6 +378,7 @@ element
 i
 )
 ;
+}
 return
 true
 ;

@@ -74,6 +74,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 buf
 -
@@ -89,6 +90,7 @@ dataPointerShared
 (
 )
 ;
+}
 return
 buf
 -
@@ -127,6 +129,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 this
 -
@@ -142,6 +145,7 @@ isDetached
 (
 )
 ;
+}
 return
 false
 ;
@@ -168,6 +172,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 buf
 -
@@ -183,6 +188,7 @@ byteLength
 (
 )
 ;
+}
 return
 buf
 -
@@ -237,6 +243,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 buf
 -
@@ -252,6 +259,7 @@ isPreparedForAsmJS
 (
 )
 ;
+}
 return
 buf
 -
@@ -307,6 +315,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 buf
 -
@@ -322,6 +331,7 @@ isWasm
 (
 )
 ;
+}
 return
 buf
 -
@@ -379,6 +389,7 @@ ArrayBufferObject
 (
 )
 )
+{
 return
 val
 .
@@ -393,6 +404,7 @@ ArrayBufferObject
 (
 )
 ;
+}
 return
 val
 .

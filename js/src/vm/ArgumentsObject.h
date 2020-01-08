@@ -481,9 +481,11 @@ createRareData
 cx
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 data
 (
@@ -897,9 +899,11 @@ initialLength
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 maybeRareData
 (
@@ -1107,9 +1111,11 @@ isElementDeleted
 i
 )
 )
+{
 return
 false
 ;
+}
 vp
 .
 set
@@ -1158,9 +1164,11 @@ data
 (
 )
 )
+{
 return
 0
 ;
+}
 return
 mallocSizeOf
 (
