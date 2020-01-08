@@ -238,7 +238,7 @@ LIBAOM_SRC_DIR
 /
 build
 /
-make
+cmake
 /
 rtcd
 .
@@ -254,7 +254,7 @@ arch
 -
 sym
 =
-aom_rtcd
+av1_rtcd
 3
 \
 -
@@ -293,7 +293,7 @@ LIBAOM_SRC_DIR
 /
 build
 /
-make
+cmake
 /
 rtcd
 .
@@ -346,7 +346,7 @@ LIBAOM_SRC_DIR
 /
 build
 /
-make
+cmake
 /
 rtcd
 .
