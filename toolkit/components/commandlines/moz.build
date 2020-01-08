@@ -183,6 +183,16 @@ XPIDL_MODULE
 '
 commandlines
 '
+EXPORTS
++
+=
+[
+'
+nsCommandLine
+.
+h
+'
+]
 SOURCES
 +
 =
