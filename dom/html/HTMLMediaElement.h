@@ -2829,11 +2829,6 @@ AddRemoveSelfReference
 )
 ;
 void
-DoRemoveSelfReference
-(
-)
-;
-void
 NotifyShutdownEvent
 (
 )
