@@ -291,6 +291,11 @@ PluginChild
 jsm
 '
 '
+UAWidgetsChild
+.
+jsm
+'
+'
 URIFixupChild
 .
 jsm
