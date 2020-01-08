@@ -891,7 +891,7 @@ recipe
 .
 arguments
 .
-slug
+name
 )
 .
 extra
@@ -963,7 +963,7 @@ recipe
 .
 arguments
 .
-slug
+name
 )
 .
 reason
