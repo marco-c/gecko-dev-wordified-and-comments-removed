@@ -60,6 +60,12 @@ controller
 new
 UrlbarController
 (
+{
+window
+:
+{
+}
+}
 )
 ;
 let

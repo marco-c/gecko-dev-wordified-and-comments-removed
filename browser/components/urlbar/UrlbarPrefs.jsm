@@ -278,6 +278,14 @@ false
 ]
 [
 "
+switchTabs
+.
+adoptIntoActiveWindow
+"
+false
+]
+[
+"
 trimURLs
 "
 true
