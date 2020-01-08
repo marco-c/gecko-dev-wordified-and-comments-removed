@@ -24534,10 +24534,7 @@ floatStyle
 floatDisp
 -
 >
-PhysicalFloats
-(
-wm
-)
+mFloat
 ;
 nscoord
 &
@@ -24718,10 +24715,7 @@ if
 floatDisp
 -
 >
-PhysicalFloats
-(
-wm
-)
+mFloat
 !
 =
 clearFloatType
