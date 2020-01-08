@@ -13471,7 +13471,7 @@ layerManager
 )
 ;
 }
-WebRenderLayerManager
+auto
 *
 wrManager
 =
@@ -21971,8 +21971,7 @@ mBackgroundStyle
 return
 ;
 }
-const
-nsDisplayBackgroundGeometry
+auto
 *
 geometry
 =
@@ -23088,8 +23087,7 @@ aInvalidRegion
 )
 const
 {
-const
-nsDisplayThemedBackgroundGeometry
+auto
 *
 geometry
 =
@@ -26588,8 +26586,7 @@ aInvalidRegion
 )
 const
 {
-const
-nsDisplayBorderGeometry
+auto
 *
 geometry
 =
@@ -27904,8 +27901,7 @@ aInvalidRegion
 )
 const
 {
-const
-nsDisplayBoxShadowOuterGeometry
+auto
 *
 geometry
 =
@@ -31417,8 +31413,7 @@ aInvalidRegion
 )
 const
 {
-const
-nsDisplayOpacityGeometry
+auto
 *
 geometry
 =
@@ -43383,8 +43378,7 @@ aInvalidRegion
 )
 const
 {
-const
-nsCharClipGeometry
+auto
 *
 geometry
 =
@@ -43729,8 +43723,7 @@ aInvalidRegion
 )
 const
 {
-const
-nsDisplaySVGEffectGeometry
+auto
 *
 geometry
 =
@@ -45112,8 +45105,7 @@ aGeometry
 aInvalidRegion
 )
 ;
-const
-nsDisplayMaskGeometry
+auto
 *
 geometry
 =
@@ -46527,8 +46519,7 @@ aGeometry
 aInvalidRegion
 )
 ;
-const
-nsDisplayFilterGeometry
+auto
 *
 geometry
 =
