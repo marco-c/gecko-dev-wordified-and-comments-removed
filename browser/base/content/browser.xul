@@ -5832,7 +5832,7 @@ tooltip
 "
 >
 <
-label
+description
 class
 =
 "
@@ -5855,7 +5855,7 @@ tooltip
 ifdef
 XP_MACOSX
 <
-label
+description
 class
 =
 "
@@ -5877,7 +5877,7 @@ tooltip
 #
 else
 <
-label
+description
 class
 =
 "
@@ -5915,7 +5915,7 @@ tooltip
 "
 >
 <
-label
+description
 class
 =
 "
@@ -5938,7 +5938,7 @@ tooltip
 ifdef
 XP_MACOSX
 <
-label
+description
 class
 =
 "
@@ -5960,7 +5960,7 @@ tooltip
 #
 else
 <
-label
+description
 class
 =
 "

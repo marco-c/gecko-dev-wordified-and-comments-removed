@@ -138,7 +138,7 @@ GetNodeInfo
 nsGkAtoms
 :
 :
-label
+description
 nullptr
 kNameSpaceID_XUL
 nsINode
@@ -151,7 +151,7 @@ nsCOMPtr
 <
 Element
 >
-label
+description
 ;
 nsresult
 rv
@@ -160,7 +160,7 @@ NS_NewXULElement
 (
 getter_AddRefs
 (
-label
+description
 )
 nodeInfo
 .
@@ -179,7 +179,7 @@ rv
 rv
 )
 ;
-label
+description
 -
 >
 SetAttr
@@ -200,7 +200,7 @@ label
 false
 )
 ;
-label
+description
 -
 >
 SetAttr
@@ -225,7 +225,7 @@ error
 AppendChild
 (
 *
-label
+description
 error
 )
 ;
@@ -284,7 +284,7 @@ nsCOMPtr
 <
 nsIContent
 >
-label
+description
 =
 GetFirstChild
 (
@@ -292,10 +292,10 @@ GetFirstChild
 ;
 if
 (
-label
+description
 &
 &
-label
+description
 -
 >
 IsXULElement
@@ -303,7 +303,7 @@ IsXULElement
 nsGkAtoms
 :
 :
-label
+description
 )
 )
 {
@@ -338,7 +338,7 @@ XULTooltipElement
 AfterSetAttr
 "
 [
-label
+description
 value
 ]
 (
@@ -346,16 +346,16 @@ value
 {
 Element
 *
-labelElement
+descriptionElement
 =
-label
+description
 -
 >
 AsElement
 (
 )
 ;
-labelElement
+descriptionElement
 -
 >
 SetTextContent
