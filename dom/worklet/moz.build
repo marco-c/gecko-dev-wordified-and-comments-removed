@@ -113,11 +113,6 @@ dom
 =
 [
 '
-AudioWorkletGlobalScope
-.
-h
-'
-'
 PaintWorkletGlobalScope
 .
 h
@@ -152,11 +147,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-AudioWorkletGlobalScope
-.
-cpp
-'
 '
 PaintWorkletGlobalScope
 .
