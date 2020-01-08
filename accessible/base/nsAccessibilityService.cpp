@@ -442,13 +442,6 @@ h
 #
 include
 "
-XULColorPickerAccessible
-.
-h
-"
-#
-include
-"
 XULComboboxAccessible
 .
 h

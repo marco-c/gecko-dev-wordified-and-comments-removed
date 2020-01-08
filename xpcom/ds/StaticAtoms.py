@@ -12759,16 +12759,6 @@ filters
 Atom
 (
 "
-colorpicker
-"
-"
-colorpicker
-"
-)
-    
-Atom
-(
-"
 colorProfile
 "
 "

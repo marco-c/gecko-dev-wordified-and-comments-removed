@@ -95,11 +95,6 @@ XULAlertAccessible
 cpp
 '
 '
-XULColorPickerAccessible
-.
-cpp
-'
-'
 XULComboboxAccessible
 .
 cpp
