@@ -3,7 +3,6 @@ use
 strict
 "
 ;
-{
 class
 SearchOneOffs
 {
@@ -6160,4 +6159,3 @@ SearchOneOffs
 =
 SearchOneOffs
 ;
-}
