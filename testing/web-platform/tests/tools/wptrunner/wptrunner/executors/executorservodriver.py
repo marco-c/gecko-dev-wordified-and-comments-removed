@@ -322,6 +322,21 @@ WebDriver
 "
 "
         
+wait_for_service
+(
+(
+self
+.
+host
+self
+.
+port
+)
+timeout
+=
+120
+)
+        
 self
 .
 session
