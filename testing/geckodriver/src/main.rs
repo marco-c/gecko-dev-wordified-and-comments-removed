@@ -182,6 +182,9 @@ mod
 capabilities
 ;
 mod
+command
+;
+mod
 logging
 ;
 mod
@@ -208,11 +211,16 @@ build
 BuildInfo
 ;
 use
+command
+:
+:
+extension_routes
+;
+use
 marionette
 :
 :
 {
-extension_routes
 MarionetteHandler
 MarionetteSettings
 }
