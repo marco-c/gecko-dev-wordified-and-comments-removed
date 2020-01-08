@@ -8517,6 +8517,7 @@ NS_OK
 }
 MOZ_ASSERT
 (
+!
 handled
 "
 WillDoAction
