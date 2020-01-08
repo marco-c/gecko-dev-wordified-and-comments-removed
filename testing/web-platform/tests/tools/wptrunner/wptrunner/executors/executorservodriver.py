@@ -448,6 +448,14 @@ webdriver_port
         
 self
 .
+init_timeout
+=
+browser
+.
+init_timeout
+        
+self
+.
 session
 =
 None
@@ -484,7 +492,9 @@ port
 )
 timeout
 =
-300
+self
+.
+init_timeout
 )
         
 self

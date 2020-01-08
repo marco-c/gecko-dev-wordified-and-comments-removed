@@ -415,6 +415,10 @@ set
 (
 )
     
+init_timeout
+=
+300
+    
 def
 __init__
 (
@@ -1035,4 +1039,12 @@ webdriver_port
 self
 .
 webdriver_port
+                                 
+"
+init_timeout
+"
+:
+self
+.
+init_timeout
 }
