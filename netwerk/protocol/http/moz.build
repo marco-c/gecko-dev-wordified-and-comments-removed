@@ -171,6 +171,11 @@ nsIRaceCacheWithNetwork
 idl
 '
 '
+nsIRedirectProcessChooser
+.
+idl
+'
+'
 nsIWellKnownOpportunisticUtils
 .
 idl
