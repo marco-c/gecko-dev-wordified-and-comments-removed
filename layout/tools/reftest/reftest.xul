@@ -157,6 +157,12 @@ ecmascript
 src
 =
 "
+resource
+:
+/
+/
+reftest
+/
 reftest
 .
 jsm

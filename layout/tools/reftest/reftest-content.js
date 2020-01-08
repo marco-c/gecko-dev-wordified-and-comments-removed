@@ -165,13 +165,11 @@ Cu
 import
 (
 "
-chrome
+resource
 :
 /
 /
 reftest
-/
-content
 /
 AsyncSpellCheckTestHelper
 .
