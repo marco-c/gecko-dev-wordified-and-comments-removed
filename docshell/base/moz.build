@@ -315,11 +315,6 @@ nsIDocShell
 idl
 '
 '
-nsIDocShellLoadInfo
-.
-idl
-'
-'
 nsIDocShellTreeItem
 .
 idl
