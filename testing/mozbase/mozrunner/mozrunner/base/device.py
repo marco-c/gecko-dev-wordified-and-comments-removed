@@ -631,6 +631,25 @@ None
 :
         
 if
+not
+sig
+and
+self
+.
+is_running
+(
+)
+:
+            
+self
+.
+app_ctx
+.
+stop_application
+(
+)
+        
+if
 self
 .
 is_running
