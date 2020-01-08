@@ -1194,9 +1194,9 @@ disabled
 proxyTypePref
 .
 value
-!
 =
-1
+=
+0
 ;
 var
 autoconfigURLPref
