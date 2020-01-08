@@ -224,7 +224,7 @@ values
 ;
 }
 }
-public
+private
 static
 final
 Key
@@ -246,7 +246,7 @@ true
 null
 )
 ;
-public
+private
 static
 final
 Key
@@ -268,7 +268,7 @@ true
 null
 )
 ;
-public
+private
 static
 final
 Key
@@ -288,7 +288,7 @@ useTrackingProtection
 "
 )
 ;
-public
+private
 static
 final
 Key
@@ -310,7 +310,7 @@ true
 null
 )
 ;
-public
+private
 static
 final
 Key
@@ -332,7 +332,7 @@ true
 null
 )
 ;
-public
+private
 static
 final
 Key
@@ -361,7 +361,7 @@ USER_AGENT_MODE_VR
 )
 )
 ;
-public
+private
 static
 final
 Key
@@ -383,7 +383,7 @@ false
 null
 )
 ;
-public
+private
 static
 final
 Key
@@ -413,7 +413,7 @@ DISPLAY_MODE_FULLSCREEN
 )
 )
 ;
-public
+private
 static
 final
 Key
@@ -435,7 +435,7 @@ false
 null
 )
 ;
-public
+private
 static
 final
 Key
@@ -457,7 +457,7 @@ false
 null
 )
 ;
-public
+private
 static
 final
 Key
@@ -768,7 +768,7 @@ value
 )
 ;
 }
-public
+private
 void
 setBoolean
 (
@@ -892,7 +892,7 @@ FULL_ACCESSIBILITY_TREE
 )
 ;
 }
-public
+private
 boolean
 getBoolean
 (
@@ -969,7 +969,7 @@ value
 )
 ;
 }
-public
+private
 void
 setInt
 (
@@ -1030,7 +1030,7 @@ SCREEN_ID
 }
 public
 int
-getUseAgentMode
+getUserAgentMode
 (
 )
 {
@@ -1054,7 +1054,7 @@ DISPLAY_MODE
 )
 ;
 }
-public
+private
 int
 getInt
 (
@@ -1115,7 +1115,7 @@ value
 )
 ;
 }
-public
+private
 void
 setString
 (
@@ -1187,7 +1187,7 @@ USER_AGENT_OVERRIDE
 )
 ;
 }
-public
+private
 String
 getString
 (
