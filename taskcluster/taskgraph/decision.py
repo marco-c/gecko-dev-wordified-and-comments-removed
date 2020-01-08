@@ -66,6 +66,14 @@ util
 partials
 import
 populate_release_history
+from
+taskgraph
+.
+util
+.
+yaml
+import
+load_yaml
 logger
 =
 logging
@@ -1926,24 +1934,11 @@ yml
 )
 :
         
-with
-open
+return
+load_yaml
 (
 path
-'
-r
-'
-)
-as
-f
-:
-            
-return
-yaml
-.
-load
-(
-f
+filename
 )
     
 elif
