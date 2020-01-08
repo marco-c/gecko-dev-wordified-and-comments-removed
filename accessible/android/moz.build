@@ -103,6 +103,11 @@ HyperTextAccessibleWrap
 .
 h
 '
+'
+SessionAccessibility
+.
+h
+'
 ]
 SOURCES
 +
@@ -115,6 +120,11 @@ cpp
 '
 '
 Platform
+.
+cpp
+'
+'
+SessionAccessibility
 .
 cpp
 '
