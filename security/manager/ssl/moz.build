@@ -243,6 +243,11 @@ nsISiteSecurityService
 idl
 '
 '
+nsISSLStatus
+.
+idl
+'
+'
 nsITokenDialogs
 .
 idl
@@ -637,6 +642,11 @@ cpp
 '
 '
 nsSSLSocketProvider
+.
+cpp
+'
+'
+nsSSLStatus
 .
 cpp
 '

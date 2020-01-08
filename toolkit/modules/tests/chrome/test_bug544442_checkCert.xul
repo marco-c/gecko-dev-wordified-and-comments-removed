@@ -690,6 +690,15 @@ Ci
 nsITransportSecurityInfo
 )
 .
+SSLStatus
+.
+QueryInterface
+(
+Ci
+.
+nsISSLStatus
+)
+.
 serverCert
 ;
 certs

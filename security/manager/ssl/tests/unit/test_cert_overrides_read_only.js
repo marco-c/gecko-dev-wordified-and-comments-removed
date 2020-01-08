@@ -12,10 +12,17 @@ aSecurityInfo
 )
 {
 let
+sslstatus
+=
+aSecurityInfo
+.
+SSLStatus
+;
+let
 bits
 =
 (
-aSecurityInfo
+sslstatus
 .
 isUntrusted
 ?
@@ -29,7 +36,7 @@ ERROR_UNTRUSTED
 )
 |
 (
-aSecurityInfo
+sslstatus
 .
 isDomainMismatch
 ?
@@ -43,7 +50,7 @@ ERROR_MISMATCH
 )
 |
 (
-aSecurityInfo
+sslstatus
 .
 isNotValidAtThisTime
 ?
@@ -76,7 +83,7 @@ match
 let
 cert
 =
-aSecurityInfo
+sslstatus
 .
 serverCert
 ;

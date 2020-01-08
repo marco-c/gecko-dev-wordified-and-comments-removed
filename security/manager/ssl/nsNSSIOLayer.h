@@ -256,16 +256,6 @@ SetHandshakeCompleted
 (
 )
 ;
-bool
-IsHandshakeCompleted
-(
-)
-const
-{
-return
-mHandshakeCompleted
-;
-}
 void
 NoteTimeUntilReady
 (

@@ -114,6 +114,9 @@ STATE_IS_SECURE
 errorCode
 :
 0
+SSLStatus
+:
+{
 cipherSuite
 :
 "
@@ -128,6 +131,7 @@ serverCert
 validity
 :
 {
+}
 }
 }
 }
