@@ -1007,9 +1007,6 @@ override
 bool
 GetRTCPReceiverReport
 (
-DOMHighResTimeStamp
-*
-timestamp
 uint32_t
 *
 jitterMs
@@ -1031,9 +1028,6 @@ override
 bool
 GetRTCPSenderReport
 (
-DOMHighResTimeStamp
-*
-timestamp
 unsigned
 int
 *

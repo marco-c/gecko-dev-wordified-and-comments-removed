@@ -14441,9 +14441,6 @@ ssrcvals
 ;
 }
 {
-DOMHighResTimeStamp
-timestamp
-;
 uint32_t
 jitterMs
 ;
@@ -14470,8 +14467,6 @@ Conduit
 >
 GetRTCPReceiverReport
 (
-&
-timestamp
 &
 jitterMs
 &
@@ -14505,7 +14500,10 @@ mTimestamp
 .
 Construct
 (
-timestamp
+query
+-
+>
+now
 )
 ;
 s
@@ -15037,9 +15035,6 @@ ssrcval
 ;
 }
 {
-DOMHighResTimeStamp
-timestamp
-;
 uint32_t
 packetsSent
 ;
@@ -15057,8 +15052,6 @@ Conduit
 >
 GetRTCPSenderReport
 (
-&
-timestamp
 &
 packetsSent
 &
@@ -15086,7 +15079,10 @@ mTimestamp
 .
 Construct
 (
-timestamp
+query
+-
+>
+now
 )
 ;
 s
