@@ -17,14 +17,18 @@ unittest
 import
 tempfile
 from
-taskgraph
+mock
 import
-decision
+patch
 from
 mozunit
 import
 main
 MockedOpen
+from
+taskgraph
+import
+decision
 FAKE_GRAPH_CONFIG
 =
 {
@@ -442,12 +446,32 @@ level
         
 }
     
+patch
+(
+'
+taskgraph
+.
+decision
+.
+get_hg_revision_branch
+'
+)
+    
 def
 test_simple_options
 (
 self
+mock_get_hg_revision_branch
 )
 :
+        
+mock_get_hg_revision_branch
+.
+return_value
+=
+'
+default
+'
         
 with
 MockedOpen
@@ -507,6 +531,21 @@ assertEqual
 params
 [
 '
+hg_branch
+'
+]
+'
+default
+'
+)
+        
+self
+.
+assertEqual
+(
+params
+[
+'
 moz_build_date
 '
 ]
@@ -554,10 +593,22 @@ try_task_config
 None
 )
     
+patch
+(
+'
+taskgraph
+.
+decision
+.
+get_hg_revision_branch
+'
+)
+    
 def
 test_no_email_owner
 (
 self
+_
 )
 :
         
@@ -619,10 +670,22 @@ org
 '
 )
     
+patch
+(
+'
+taskgraph
+.
+decision
+.
+get_hg_revision_branch
+'
+)
+    
 def
 test_try_options
 (
 self
+_
 )
 :
         
@@ -752,10 +815,22 @@ try_task_config
 None
 )
     
+patch
+(
+'
+taskgraph
+.
+decision
+.
+get_hg_revision_branch
+'
+)
+    
 def
 test_try_task_config
 (
 self
+_
 )
 :
         
