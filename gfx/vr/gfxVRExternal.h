@@ -645,9 +645,6 @@ defined
 MOZ_WIDGET_ANDROID
 )
 bool
-mDoShutdown
-;
-bool
 mExternalStructFailed
 ;
 bool
@@ -655,6 +652,9 @@ mEnumerationCompleted
 ;
 #
 endif
+bool
+mDoShutdown
+;
 volatile
 VRExternalShmem
 *
@@ -672,6 +672,9 @@ mSameProcess
 ;
 #
 endif
+TimeStamp
+mEarliestRestartTime
+;
 void
 OpenShmem
 (
