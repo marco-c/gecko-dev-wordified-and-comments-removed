@@ -149,9 +149,9 @@ testOverMimeTypeThrowsDuringReadyState
 (
 3
 "
-application
+text
 /
-xml
+plain
 "
 )
 ;
@@ -164,9 +164,9 @@ testOverMimeTypeThrowsDuringReadyState
 (
 3
 "
-application
+text
 /
-xml
+plain
 ;
 charset
 =
@@ -185,9 +185,9 @@ testOverMimeTypeThrowsDuringReadyState
 (
 4
 "
-application
+text
 /
-xml
+plain
 "
 )
 ;
@@ -200,9 +200,9 @@ testOverMimeTypeThrowsDuringReadyState
 (
 4
 "
-application
+text
 /
-xml
+plain
 ;
 charset
 =
@@ -378,7 +378,7 @@ readyState
 4
 )
 {
-is
+isnot
 (
 xhr
 .
@@ -387,7 +387,6 @@ null
 "
 responseXML
 was
-not
 null
 "
 +
