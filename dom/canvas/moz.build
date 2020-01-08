@@ -699,11 +699,6 @@ WebGLContextTextures
 cpp
 '
 '
-WebGLContextUnchecked
-.
-cpp
-'
-'
 WebGLContextUtils
 .
 cpp
