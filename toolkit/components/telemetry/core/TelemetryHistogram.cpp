@@ -5871,10 +5871,6 @@ aFilterTest
 KeyedHistogramProcessSnapshotsArray
 &
 aOutSnapshot
-bool
-aSkipEmpty
-=
-false
 )
 {
 if
@@ -6053,17 +6049,12 @@ if
 keyed
 |
 |
-(
-aSkipEmpty
-&
-&
 keyed
 -
 >
 IsEmpty
 (
 aStore
-)
 )
 |
 |
@@ -12691,7 +12682,6 @@ aClearSubsession
 includeGPUProcess
 aFilterTest
 processHistArray
-true
 )
 ;
 if
@@ -14029,7 +14019,6 @@ false
 includeGPUProcess
 false
 processHistArray
-true
 )
 )
 )
