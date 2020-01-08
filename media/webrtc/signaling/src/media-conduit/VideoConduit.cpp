@@ -7048,8 +7048,10 @@ std
 :
 vector
 <
+UniquePtr
+<
 VideoCodecConfig
-*
+>
 >
 &
 codecConfigList
@@ -7200,6 +7202,10 @@ condError
 ValidateCodecConfig
 (
 codec_config
+.
+get
+(
+)
 )
 )
 !

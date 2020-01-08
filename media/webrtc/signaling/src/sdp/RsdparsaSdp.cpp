@@ -278,9 +278,7 @@ get
 ;
 mMediaSections
 .
-values
-.
-push_back
+emplace_back
 (
 sdpMediaSection
 )
@@ -353,8 +351,6 @@ level
 >
 mMediaSections
 .
-values
-.
 size
 (
 )
@@ -368,8 +364,6 @@ MOZ_CRASH
 return
 *
 mMediaSections
-.
-values
 [
 level
 ]
@@ -392,8 +386,6 @@ level
 >
 mMediaSections
 .
-values
-.
 size
 (
 )
@@ -407,8 +399,6 @@ MOZ_CRASH
 return
 *
 mMediaSections
-.
-values
 [
 level
 ]
@@ -498,8 +488,6 @@ level
 =
 mMediaSections
 .
-values
-.
 size
 (
 )
@@ -554,9 +542,7 @@ get
 ;
 mMediaSections
 .
-values
-.
-push_back
+emplace_back
 (
 mediaSection
 )
@@ -572,8 +558,6 @@ return
 GetMediaSection
 (
 mMediaSections
-.
-values
 .
 size
 (
@@ -684,13 +668,11 @@ mAttributeList
 for
 (
 const
-SdpMediaSection
-*
+auto
+&
 msection
 :
 mMediaSections
-.
-values
 )
 {
 os

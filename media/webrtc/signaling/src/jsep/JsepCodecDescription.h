@@ -3017,14 +3017,18 @@ virtual
 void
 UpdateRedundantEncodings
 (
+const
 std
 :
 :
 vector
 <
+UniquePtr
+<
 JsepCodecDescription
-*
 >
+>
+&
 codecs
 )
 {
@@ -3032,6 +3036,7 @@ for
 (
 const
 auto
+&
 codec
 :
 codecs

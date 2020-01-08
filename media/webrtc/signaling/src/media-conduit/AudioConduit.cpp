@@ -2605,8 +2605,10 @@ std
 :
 vector
 <
+UniquePtr
+<
 AudioCodecConfig
-*
+>
 >
 &
 codecConfigList
@@ -2686,7 +2688,9 @@ kMediaConduitMalformedArgument
 }
 for
 (
+const
 auto
+&
 codec
 :
 codecConfigList
@@ -2700,6 +2704,10 @@ condError
 ValidateCodecConfig
 (
 codec
+.
+get
+(
+)
 false
 )
 )
@@ -2724,6 +2732,10 @@ if
 CodecConfigToWebRTCCodec
 (
 codec
+.
+get
+(
+)
 cinst
 )
 )
@@ -2818,6 +2830,10 @@ if
 CopyCodecToDB
 (
 codec
+.
+get
+(
+)
 )
 )
 {

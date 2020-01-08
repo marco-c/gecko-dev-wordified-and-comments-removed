@@ -1327,8 +1327,10 @@ std
 :
 vector
 <
+UniquePtr
+<
 VideoCodecConfig
-*
+>
 >
 &
 recvCodecConfigList
@@ -1514,8 +1516,10 @@ std
 :
 vector
 <
+UniquePtr
+<
 AudioCodecConfig
-*
+>
 >
 &
 recvCodecConfigList

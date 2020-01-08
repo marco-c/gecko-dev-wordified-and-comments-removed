@@ -481,8 +481,10 @@ std
 :
 vector
 <
+UniquePtr
+<
 VideoCodecConfig
-*
+>
 >
 &
 codecConfigList
