@@ -1490,6 +1490,7 @@ profile
 set_preferences
 (
 {
+            
 "
 marionette
 .
@@ -1499,15 +1500,7 @@ port
 self
 .
 marionette_port
-                                      
-"
-dom
-.
-disable_open_during_load
-"
-:
-False
-                                      
+            
 "
 network
 .
@@ -1527,7 +1520,7 @@ config
 .
 domains_set
 )
-                                      
+            
 "
 network
 .
@@ -1537,7 +1530,7 @@ type
 "
 :
 0
-                                      
+            
 "
 places
 .
@@ -1547,15 +1540,7 @@ enabled
 "
 :
 False
-                                      
-"
-dom
-.
-send_after_paint_to_content
-"
-:
-True
-                                      
+            
 "
 network
 .
@@ -1563,6 +1548,7 @@ preload
 "
 :
 True
+        
 }
 )
         

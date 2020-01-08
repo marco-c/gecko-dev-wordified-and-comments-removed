@@ -89,5 +89,10 @@ common
 "
 unittest
 "
+"
+web
+-
+platform
+"
 ]
 }

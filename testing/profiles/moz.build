@@ -113,6 +113,13 @@ unittest
 /
 *
 '
+'
+web
+-
+platform
+/
+*
+'
 ]
 TEST_HARNESS_FILES
 .
