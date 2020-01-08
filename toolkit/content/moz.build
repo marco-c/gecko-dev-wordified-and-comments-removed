@@ -1045,13 +1045,10 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
+Core
 '
 '
-RSS
-Discovery
-and
-Preview
+XUL
 '
 )
 with
