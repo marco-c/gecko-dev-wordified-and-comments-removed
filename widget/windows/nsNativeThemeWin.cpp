@@ -21276,7 +21276,7 @@ luminance
 =
 0
 .
-18
+18f
 )
 {
 luminance
@@ -21284,7 +21284,7 @@ luminance
 =
 0
 .
-134
+134f
 ;
 }
 else
@@ -21294,7 +21294,7 @@ luminance
 =
 0
 .
-134
+134f
 ;
 luminance
 =
@@ -21320,7 +21320,7 @@ luminance
 =
 0
 .
-18
+18f
 )
 {
 luminance
@@ -21328,7 +21328,7 @@ luminance
 =
 0
 .
-805
+805f
 ;
 }
 else
@@ -21338,7 +21338,7 @@ luminance
 =
 0
 .
-805
+805f
 ;
 }
 }
@@ -21496,7 +21496,7 @@ luminance
 =
 0
 .
-18
+18f
 )
 {
 luminance
@@ -21504,7 +21504,7 @@ luminance
 =
 0
 .
-192
+192f
 ;
 }
 else
@@ -21514,7 +21514,7 @@ luminance
 =
 0
 .
-192
+192f
 ;
 }
 }
@@ -21527,7 +21527,7 @@ luminance
 =
 0
 .
-18
+18f
 )
 {
 luminance
@@ -21535,7 +21535,7 @@ luminance
 =
 0
 .
-625
+625f
 ;
 }
 else
@@ -21545,7 +21545,7 @@ luminance
 =
 0
 .
-625
+625f
 ;
 }
 }
