@@ -57,10 +57,9 @@ libc
 log
 =
 "
-^
 0
 .
-3
+4
 "
 rsdparsa
 =

@@ -66,13 +66,11 @@ true
 }
 log
 =
-{
-version
-=
 "
-*
+0
+.
+4
 "
-}
 serde
 =
 {
