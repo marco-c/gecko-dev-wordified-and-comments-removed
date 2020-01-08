@@ -1778,8 +1778,9 @@ BlockState
 static
 const
 char
-*
 phaseName
+[
+]
 ;
 private
 :
@@ -2083,11 +2084,12 @@ operand
 ;
 const
 char
-*
 ObjectMemoryView
 :
 :
 phaseName
+[
+]
 =
 "
 Scalar

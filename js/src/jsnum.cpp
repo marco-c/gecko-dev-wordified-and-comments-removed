@@ -6541,6 +6541,7 @@ return
 nullptr
 ;
 static
+const
 JSConstDoubleSpec
 number_constants
 [

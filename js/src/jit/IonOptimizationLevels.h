@@ -838,6 +838,7 @@ const
 }
 ;
 extern
+const
 OptimizationLevelInfo
 IonOptimizations
 ;

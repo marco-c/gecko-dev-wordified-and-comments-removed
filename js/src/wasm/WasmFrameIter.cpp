@@ -6742,8 +6742,9 @@ done
 static
 const
 char
-*
 importJitDescription
+[
+]
 =
 "
 fast
@@ -6758,8 +6759,9 @@ wasm
 static
 const
 char
-*
 importInterpDescription
+[
+]
 =
 "
 slow
@@ -6774,8 +6776,9 @@ wasm
 static
 const
 char
-*
 builtinNativeDescription
+[
+]
 =
 "
 fast
@@ -6792,8 +6795,9 @@ wasm
 static
 const
 char
-*
 trapDescription
+[
+]
 =
 "
 trap
@@ -6807,8 +6811,9 @@ wasm
 static
 const
 char
-*
 debugTrapDescription
+[
+]
 =
 "
 debug

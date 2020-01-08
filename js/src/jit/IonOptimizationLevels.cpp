@@ -42,6 +42,7 @@ js
 namespace
 jit
 {
+const
 OptimizationLevelInfo
 IonOptimizations
 ;

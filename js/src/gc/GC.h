@@ -506,8 +506,9 @@ JS_GC_ZEAL
 extern
 const
 char
-*
 ZealModeHelpText
+[
+]
 ;
 void
 VerifyBarriers

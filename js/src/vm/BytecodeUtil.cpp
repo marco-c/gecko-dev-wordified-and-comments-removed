@@ -585,11 +585,12 @@ op
 }
 const
 char
-*
 PCCounts
 :
 :
 numExecName
+[
+]
 =
 "
 interp

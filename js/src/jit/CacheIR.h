@@ -624,6 +624,7 @@ extern
 const
 char
 *
+const
 CacheKindNames
 [
 ]
