@@ -492,9 +492,15 @@ self
 metadata_root
 product
 debug
+                 
 browser_version
 =
 None
+                 
+browser_channel
+=
+None
+                 
 extras
 =
 None
@@ -622,6 +628,19 @@ browser_version
 ]
 =
 browser_version
+        
+if
+browser_channel
+:
+            
+self
+[
+"
+browser_channel
+"
+]
+=
+browser_channel
         
 if
 extras

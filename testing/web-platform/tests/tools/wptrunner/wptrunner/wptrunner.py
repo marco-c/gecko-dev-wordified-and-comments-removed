@@ -246,6 +246,17 @@ browser_version
 "
 )
                                     
+browser_channel
+=
+kwargs
+.
+get
+(
+"
+browser_channel
+"
+)
+                                    
 debug
 =
 debug

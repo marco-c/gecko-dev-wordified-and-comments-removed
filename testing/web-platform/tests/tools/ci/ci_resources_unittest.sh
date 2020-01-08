@@ -103,6 +103,8 @@ HOME
 /
 browsers
 /
+nightly
+/
 firefox
 /
 firefox

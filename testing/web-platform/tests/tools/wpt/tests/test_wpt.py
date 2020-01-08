@@ -1121,6 +1121,9 @@ _venv
 browsers
 "
 "
+nightly
+"
+"
 Firefox
 Nightly
 .
@@ -1149,6 +1152,9 @@ _venv
 "
 "
 browsers
+"
+"
+nightly
 "
 "
 firefox
@@ -2492,6 +2498,9 @@ _venv
 browsers
 "
 "
+nightly
+"
+"
 Firefox
 Nightly
 .
@@ -2520,6 +2529,9 @@ _venv
 "
 "
 browsers
+"
+"
+nightly
 "
 "
 firefox
@@ -2570,6 +2582,13 @@ firefox
 "
 "
 browser
+"
+"
+-
+-
+channel
+=
+nightly
 "
 ]
 )
