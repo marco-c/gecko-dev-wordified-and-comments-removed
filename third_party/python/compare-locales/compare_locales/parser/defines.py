@@ -16,7 +16,7 @@ import
     
 CAN_COPY
     
-EntityBase
+Entry
 OffsetComment
 Junk
 Whitespace
@@ -26,7 +26,7 @@ Parser
 class
 DefinesInstruction
 (
-EntityBase
+Entry
 )
 :
     

@@ -10,6 +10,9 @@ def
 to_json
 (
 value
+fn
+=
+None
 )
 :
     
@@ -26,6 +29,7 @@ value
 .
 to_json
 (
+fn
 )
     
 if
@@ -39,11 +43,15 @@ list
 return
 list
 (
-map
-(
 to_json
-value
+(
+item
+fn
 )
+for
+item
+in
+value
 )
     
 if
@@ -57,11 +65,15 @@ tuple
 return
 list
 (
-map
-(
 to_json
-value
+(
+item
+fn
 )
+for
+item
+in
+value
 )
     
 else
@@ -715,6 +727,9 @@ def
 to_json
 (
 self
+fn
+=
+None
 )
 :
         
@@ -727,6 +742,7 @@ name
 to_json
 (
 value
+fn
 )
             
 for
@@ -764,6 +780,13 @@ __name__
 )
         
 return
+fn
+(
+obj
+)
+if
+fn
+else
 obj
     
 def
@@ -1253,6 +1276,7 @@ def
 __init__
 (
 self
+raw
 value
 *
 *
@@ -1275,6 +1299,12 @@ kwargs
         
 self
 .
+raw
+=
+raw
+        
+self
+.
 value
 =
 value
@@ -1407,6 +1437,42 @@ kwargs
 super
 (
 VariableReference
+self
+)
+.
+__init__
+(
+*
+*
+kwargs
+)
+        
+self
+.
+id
+=
+id
+class
+FunctionReference
+(
+Expression
+)
+:
+    
+def
+__init__
+(
+self
+id
+*
+*
+kwargs
+)
+:
+        
+super
+(
+FunctionReference
 self
 )
 .
@@ -1967,37 +2033,6 @@ self
 __init__
 (
 content
-*
-*
-kwargs
-)
-class
-Function
-(
-Identifier
-)
-:
-    
-def
-__init__
-(
-self
-name
-*
-*
-kwargs
-)
-:
-        
-super
-(
-Function
-self
-)
-.
-__init__
-(
-name
 *
 *
 kwargs

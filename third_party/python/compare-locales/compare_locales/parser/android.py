@@ -93,12 +93,12 @@ import
     
 CAN_SKIP
     
-EntityBase
 Entity
 Comment
 Junk
 Whitespace
     
+StickyEntry
 LiteralEntity
     
 Parser
@@ -558,7 +558,7 @@ class
 DocumentWrapper
 (
 NodeMixin
-EntityBase
+StickyEntry
 )
 :
     
@@ -566,6 +566,7 @@ def
 __init__
 (
 self
+key
 all
 )
 :
@@ -581,6 +582,26 @@ self
 _val_literal
 =
 all
+        
+self
+.
+_key_literal
+=
+key
+    
+property
+    
+def
+key
+(
+self
+)
+:
+        
+return
+self
+.
+_key_literal
 class
 XMLJunk
 (
@@ -910,9 +931,61 @@ not
 only_localizable
 :
             
+attributes
+=
+'
+'
+.
+join
+(
+                
+'
+{
+}
+=
+"
+{
+}
+"
+'
+.
+format
+(
+attr_name
+attr_value
+)
+                
+for
+attr_name
+attr_value
+in
+                
+doc
+.
+documentElement
+.
+attributes
+.
+items
+(
+)
+            
+)
+            
 yield
 DocumentWrapper
 (
+                
+'
+<
+?
+xml
+?
+>
+<
+resources
+>
+'
                 
 '
 <
@@ -938,8 +1011,17 @@ utf
 n
 <
 resources
+{
+}
 >
 '
+.
+format
+(
+                    
+attributes
+                
+)
             
 )
         
@@ -1212,6 +1294,12 @@ only_localizable
 yield
 DocumentWrapper
 (
+'
+<
+/
+resources
+>
+'
 '
 <
 /

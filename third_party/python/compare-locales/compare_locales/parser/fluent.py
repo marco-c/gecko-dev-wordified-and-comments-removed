@@ -40,7 +40,7 @@ import
     
 CAN_SKIP
     
-EntityBase
+Entry
 Entity
 Comment
 Junk
@@ -53,7 +53,7 @@ Parser
 class
 FluentAttribute
 (
-EntityBase
+Entry
 )
 :
     
@@ -225,6 +225,42 @@ start
 end
 )
         
+if
+isinstance
+(
+entry
+ftl
+.
+Term
+)
+:
+            
+self
+.
+key_span
+=
+(
+entry
+.
+id
+.
+span
+.
+start
+-
+1
+entry
+.
+id
+.
+span
+.
+end
+)
+        
+else
+:
+            
 self
 .
 key_span
