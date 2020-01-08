@@ -9800,6 +9800,15 @@ this
 toolbox
 )
 {
+await
+this
+.
+toolbox
+.
+initInspector
+(
+)
+;
 if
 (
 !
@@ -9832,9 +9841,9 @@ this
 .
 toolbox
 .
-highlighterUtils
+highlighter
 .
-highlightNodeFront
+highlight
 (
 this
 .
@@ -9860,7 +9869,7 @@ this
 .
 toolbox
 .
-highlighterUtils
+highlighter
 .
 unhighlight
 (

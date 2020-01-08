@@ -524,6 +524,8 @@ onHighlighterHidden
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "

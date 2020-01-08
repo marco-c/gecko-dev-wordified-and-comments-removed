@@ -10680,9 +10680,9 @@ frameId
 ;
 this
 .
-highlighterUtils
+highlighter
 .
-highlightNodeFront
+highlight
 (
 frameActor
 )

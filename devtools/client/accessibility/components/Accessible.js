@@ -922,9 +922,9 @@ return
 }
 gToolbox
 .
-highlighterUtils
+highlighter
 .
-highlightNodeFront
+highlight
 (
 nodeFront
 )
@@ -945,7 +945,7 @@ return
 }
 gToolbox
 .
-highlighterUtils
+highlighter
 .
 unhighlight
 (

@@ -1239,7 +1239,7 @@ highlit
 =
 inspector
 .
-toolbox
+highlighter
 .
 once
 (

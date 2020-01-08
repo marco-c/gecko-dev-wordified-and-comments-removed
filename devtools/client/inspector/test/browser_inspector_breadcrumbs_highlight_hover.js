@@ -98,6 +98,8 @@ onNodeHighlighted
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "
@@ -193,6 +195,8 @@ onNodeUnhighlighted
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "
@@ -231,6 +235,8 @@ onNodeUnhighlighted
 onNodeHighlighted
 =
 toolbox
+.
+highlighter
 .
 once
 (

@@ -70,6 +70,8 @@ onHighlight
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "
@@ -123,6 +125,8 @@ const
 onUnhighlight
 =
 toolbox
+.
+highlighter
 .
 once
 (
@@ -362,6 +366,8 @@ highlightEventCount
 ;
 toolbox
 .
+highlighter
+.
 on
 (
 "
@@ -399,6 +405,8 @@ occur
 )
 ;
 toolbox
+.
+highlighter
 .
 off
 (

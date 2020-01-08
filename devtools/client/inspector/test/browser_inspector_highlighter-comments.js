@@ -333,7 +333,7 @@ promise
 =
 inspector
 .
-toolbox
+highlighter
 .
 once
 (

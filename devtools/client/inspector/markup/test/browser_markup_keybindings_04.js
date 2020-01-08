@@ -239,7 +239,7 @@ onNodeHighlighted
 =
 inspector
 .
-toolbox
+highlighter
 .
 once
 (

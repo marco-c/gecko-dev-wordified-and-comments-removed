@@ -12639,9 +12639,9 @@ toolbox
 ;
 toolbox
 .
-highlighterUtils
+highlighter
 .
-highlightNodeFront
+highlight
 (
 nodeFront
 options

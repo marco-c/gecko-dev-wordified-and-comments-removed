@@ -329,7 +329,7 @@ toolbox
 await
 inspector
 .
-toolbox
+highlighter
 .
 once
 (

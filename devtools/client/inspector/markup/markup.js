@@ -2265,9 +2265,9 @@ this
 .
 toolbox
 .
-highlighterUtils
+highlighter
 .
-highlightNodeFront
+highlight
 (
 nodeFront
 )
@@ -2292,7 +2292,7 @@ this
 .
 toolbox
 .
-highlighterUtils
+highlighter
 .
 unhighlight
 (

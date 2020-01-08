@@ -2740,9 +2740,7 @@ this
 .
 inspector
 .
-toolbox
-.
-highlighterUtils
+highlighter
 .
 unhighlight
 (
@@ -3518,11 +3516,9 @@ this
 .
 inspector
 .
-toolbox
+highlighter
 .
-highlighterUtils
-.
-highlightNodeFront
+highlight
 (
 node
 )

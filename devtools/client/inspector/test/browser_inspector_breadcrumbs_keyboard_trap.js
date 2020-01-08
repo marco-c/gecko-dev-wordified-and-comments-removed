@@ -230,6 +230,8 @@ onHighlight
 =
 toolbox
 .
+highlighter
+.
 once
 (
 "
