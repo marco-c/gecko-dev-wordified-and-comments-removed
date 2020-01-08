@@ -588,6 +588,19 @@ context
 {
 if
 (
+!
+GeckoAppShell
+.
+isFennec
+(
+)
+)
+{
+return
+;
+}
+if
+(
 migrationDone
 )
 {
@@ -942,7 +955,7 @@ migrated
 )
 ;
 }
-public
+private
 static
 Editor
 migrateFromPreferenceManager
@@ -1065,7 +1078,7 @@ clear
 )
 ;
 }
-public
+private
 static
 void
 migrateCrashReporterSettings
