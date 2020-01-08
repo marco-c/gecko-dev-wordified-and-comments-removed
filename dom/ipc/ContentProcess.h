@@ -171,13 +171,6 @@ int
 aFd
 )
 ;
-void
-SetPrefMapFd
-(
-int
-aFd
-)
-;
 #
 endif
 }
