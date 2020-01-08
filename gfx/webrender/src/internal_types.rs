@@ -224,7 +224,7 @@ struct
 CacheTextureId
 (
 pub
-usize
+u64
 )
 ;
 #
