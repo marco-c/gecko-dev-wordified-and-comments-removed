@@ -2,9 +2,9 @@ Metadata
 -
 Version
 :
-1
+2
 .
-0
+1
 Name
 :
 json
@@ -14,7 +14,7 @@ Version
 :
 2
 .
-5
+7
 .
 0
 Summary
@@ -73,3 +73,8 @@ UNKNOWN
 Platform
 :
 UNKNOWN
+Provides
+-
+Extra
+:
+release

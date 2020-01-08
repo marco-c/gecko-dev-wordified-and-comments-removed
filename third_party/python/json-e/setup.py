@@ -149,6 +149,24 @@ license
 MPL2
 '
     
+extras_require
+=
+{
+        
+'
+release
+'
+:
+[
+            
+'
+towncrier
+'
+        
+]
+    
+}
+    
 tests_require
 =
 [
