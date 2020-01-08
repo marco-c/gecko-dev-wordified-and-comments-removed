@@ -840,8 +840,9 @@ text
 /
 /
 Name
-for
-nsIDOMXULLabeledControlElement
+from
+label
+attribute
 .
 /
 /
@@ -855,7 +856,7 @@ attribute
 testName
 (
 "
-btn_nsIDOMXULLabeledControlElement
+btn_labelattr
 "
 "
 labeled
@@ -2901,7 +2902,7 @@ labelledby_mixed_menulist
 !
 -
 -
-nsIDOMXULLabeledControlElement
+label
 -
 -
 >
@@ -2910,7 +2911,7 @@ button
 id
 =
 "
-btn_nsIDOMXULLabeledControlElement
+btn_labelattr
 "
 label
 =
