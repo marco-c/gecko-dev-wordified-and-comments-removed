@@ -554,6 +554,11 @@ DocumentStyleRootIterator
 h
 '
 '
+GeckoBindings
+.
+h
+'
+'
 LayerAnimationInfo
 .
 h
@@ -580,11 +585,6 @@ h
 '
 '
 ServoArcTypeList
-.
-h
-'
-'
-ServoBindingList
 .
 h
 '
@@ -982,6 +982,11 @@ FontFaceSetIterator
 cpp
 '
 '
+GeckoBindings
+.
+cpp
+'
+'
 GroupRule
 .
 cpp
@@ -1133,11 +1138,6 @@ cpp
 '
 '
 Rule
-.
-cpp
-'
-'
-ServoBindings
 .
 cpp
 '

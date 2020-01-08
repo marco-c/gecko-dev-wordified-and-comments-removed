@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-ServoBindings
+GeckoBindings
 .
 h
 "
@@ -412,6 +412,15 @@ include
 mozilla
 /
 SystemGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ServoBindings
 .
 h
 "
@@ -10842,6 +10851,9 @@ UACacheReporter
 >
 gUACacheReporter
 ;
+namespace
+mozilla
+{
 void
 InitializeServo
 (
@@ -10917,9 +10929,6 @@ Servo_Shutdown
 )
 ;
 }
-namespace
-mozilla
-{
 void
 AssertIsMainThreadOrServoFontMetricsLocked
 (
