@@ -6389,7 +6389,7 @@ BeginTransaction
 ;
 static_cast
 <
-nsDisplayFilter
+nsDisplayFilters
 *
 >
 (
@@ -11042,7 +11042,7 @@ aScale
 {
 static_cast
 <
-nsDisplayFilter
+nsDisplayFilters
 *
 >
 (

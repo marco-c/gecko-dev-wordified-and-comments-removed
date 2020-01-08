@@ -601,12 +601,12 @@ ShouldHandleOpacity
 )
 {
 }
-nsDisplayFilterGeometry
+nsDisplayFiltersGeometry
 :
 :
-nsDisplayFilterGeometry
+nsDisplayFiltersGeometry
 (
-nsDisplayFilter
+nsDisplayFilters
 *
 aItem
 nsDisplayListBuilder

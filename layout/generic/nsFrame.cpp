@@ -15067,7 +15067,7 @@ AppendToTop
 (
 MakeDisplayItem
 <
-nsDisplayFilter
+nsDisplayFilters
 >
 (
 aBuilder
