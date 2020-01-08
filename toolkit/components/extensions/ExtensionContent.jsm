@@ -393,9 +393,11 @@ PROCESS_TYPE_CONTENT
 |
 |
 !
-WebExtensionPolicy
+Services
 .
-useRemoteWebExtensions
+appinfo
+.
+browserTabsRemoteAutostart
 ;
 }
 )
