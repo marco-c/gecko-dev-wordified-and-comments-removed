@@ -7910,7 +7910,6 @@ FINDER_DISPLAY_DRAW_LINK_OUTLINE
 AnyThread
 public
 static
-final
 class
 FinderResult
 {

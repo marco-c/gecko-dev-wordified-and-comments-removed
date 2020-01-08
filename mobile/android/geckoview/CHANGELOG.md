@@ -234,10 +234,14 @@ to
 public
 access
 .
+-
 Changed
 ContentDelegate
 .
 ContextElement
+GeckoSession
+.
+FinderResult
 to
 non
 -
@@ -269,4 +273,4 @@ api
 version
 ]
 :
-c9e474cac6732fc645b03868ad1fcbea10be7b9f
+bb945ae930ebf055f11821c685a6691faa7e5a3a

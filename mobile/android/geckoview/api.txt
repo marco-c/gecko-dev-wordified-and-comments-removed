@@ -4852,7 +4852,6 @@ annotation
 AnyThread
 public
 static
-final
 class
 GeckoSession
 .
