@@ -1170,7 +1170,7 @@ sPrefCacheValue
 =
 0
 ;
-uint32_t
+auto
 touchEventsOverride
 =
 nsIDocShell
@@ -1183,13 +1183,13 @@ if
 aDocShell
 )
 {
+touchEventsOverride
+=
 aDocShell
 -
 >
 GetTouchEventsOverride
 (
-&
-touchEventsOverride
 )
 ;
 }
