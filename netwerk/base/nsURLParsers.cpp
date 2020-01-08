@@ -2284,8 +2284,6 @@ auth
 p
 )
 {
-continue
-;
 }
 if
 (
