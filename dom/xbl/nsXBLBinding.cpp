@@ -4357,6 +4357,11 @@ NS_ADDREF
 docInfo
 )
 ;
+RecordReplayRegisterDeferredFinalize
+(
+docInfo
+)
+;
 JS_SetReservedSlot
 (
 proto

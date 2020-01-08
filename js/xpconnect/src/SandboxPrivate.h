@@ -121,6 +121,16 @@ get
 )
 )
 ;
+mozilla
+:
+:
+RecordReplayRegisterDeferredFinalizeThing
+(
+nullptr
+nullptr
+sbp
+)
+;
 JS_SetPrivate
 (
 global

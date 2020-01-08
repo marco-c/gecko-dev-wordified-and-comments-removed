@@ -35,7 +35,9 @@ JSObject
 *
 obj
 =
-mWrapper
+GetWrapperMaybeDead
+(
+)
 ;
 if
 (
