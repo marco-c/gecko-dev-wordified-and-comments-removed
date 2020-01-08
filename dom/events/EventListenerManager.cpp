@@ -833,7 +833,7 @@ mTypeAtom
 {
 name
 .
-AppendASCII
+AppendLiteral
 (
 "
 event
@@ -855,7 +855,7 @@ mTypeAtom
 ;
 name
 .
-AppendASCII
+AppendLiteral
 (
 "
 listenerType
@@ -874,7 +874,7 @@ mListenerType
 ;
 name
 .
-AppendASCII
+AppendLiteral
 (
 "
 "

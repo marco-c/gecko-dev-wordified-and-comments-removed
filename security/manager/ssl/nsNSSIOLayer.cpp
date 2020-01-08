@@ -387,7 +387,7 @@ hostName
 ;
 key
 .
-AppendASCII
+AppendLiteral
 (
 "
 :

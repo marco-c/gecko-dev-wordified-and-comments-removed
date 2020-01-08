@@ -4256,7 +4256,7 @@ Length
 {
 flags
 .
-AppendASCII
+AppendLiteral
 (
 "
 "
