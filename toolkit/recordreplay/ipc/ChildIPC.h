@@ -73,7 +73,7 @@ ParentProcessId
 )
 ;
 void
-MaybeCreateInitialCheckpoint
+CreateCheckpoint
 (
 )
 ;

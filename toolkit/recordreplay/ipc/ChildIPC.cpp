@@ -1582,8 +1582,16 @@ gDebuggerRunsInMiddleman
 ;
 }
 void
-MaybeCreateInitialCheckpoint
+CreateCheckpoint
 (
+)
+{
+if
+(
+!
+HasDivergedFromRecording
+(
+)
 )
 {
 NewCheckpoint
@@ -1591,6 +1599,7 @@ NewCheckpoint
 false
 )
 ;
+}
 }
 void
 ReportFatalError
