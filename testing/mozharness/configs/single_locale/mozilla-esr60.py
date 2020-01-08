@@ -179,18 +179,6 @@ esr60
 "
         
 "
-revision
-"
-:
-"
-%
-(
-revision
-)
-s
-"
-        
-"
 dest
 "
 :

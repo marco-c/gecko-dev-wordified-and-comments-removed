@@ -288,7 +288,7 @@ paths
 basestring
 ]
         
-Required
+Optional
 (
 '
 options

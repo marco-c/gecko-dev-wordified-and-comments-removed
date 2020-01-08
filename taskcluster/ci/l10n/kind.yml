@@ -1140,12 +1140,6 @@ fail
 on
 new
 entries
-options
-:
--
-revision
-=
-GECKO_HEAD_REV
 actions
 :
 by
