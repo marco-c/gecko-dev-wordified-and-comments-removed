@@ -373,6 +373,12 @@ LastAudioFormat
 const
 ;
 int
+LastAudioSampleRate
+(
+)
+const
+;
+int
 DecoderByPayloadType
 (
 uint8_t

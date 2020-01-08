@@ -49,6 +49,7 @@ kIntelligibility
 kEchoCanceller3
 kAecRefinedAdaptiveFilter
 kLevelControl
+kCaptureDeviceInfo
 }
 ;
 class

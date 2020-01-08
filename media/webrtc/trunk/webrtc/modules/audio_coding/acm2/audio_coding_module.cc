@@ -495,6 +495,13 @@ const
 override
 ;
 int
+ReceiveSampleRate
+(
+)
+const
+override
+;
+int
 IncomingPacket
 (
 const

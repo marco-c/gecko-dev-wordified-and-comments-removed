@@ -80,6 +80,8 @@ length
 RTPHeader
 *
 header
+bool
+secured
 )
 const
 override
@@ -188,6 +190,8 @@ length
 RTPHeader
 *
 header
+bool
+secured
 )
 const
 {
@@ -242,6 +246,7 @@ Parse
 header
 &
 map
+secured
 )
 ;
 if

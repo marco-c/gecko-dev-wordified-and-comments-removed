@@ -541,6 +541,8 @@ kH264StartCodeLengthBytes
 0
 )
 +
+kBufferSafetyMargin
++
 EncodedImage
 :
 :
