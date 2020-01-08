@@ -212,7 +212,7 @@ CHECK
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileLatin1ForNonSyntacticScope
 (
 cx
 options
@@ -731,7 +731,7 @@ CHECK
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileLatin1ForNonSyntacticScope
 (
 cx
 options
