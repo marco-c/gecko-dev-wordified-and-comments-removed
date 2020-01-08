@@ -109,6 +109,9 @@ Derived
 >
 *
 aBody
+nsIInputStream
+*
+aBodyStream
 AbortSignalImpl
 *
 aSignalImpl
