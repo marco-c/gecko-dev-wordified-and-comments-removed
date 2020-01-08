@@ -3274,6 +3274,11 @@ ReportAudioTrackSilenceProportionTelemetry
 (
 )
 ;
+void
+DispatchEventsWhenPlayWasNotAllowed
+(
+)
+;
 RefPtr
 <
 MediaDecoder
