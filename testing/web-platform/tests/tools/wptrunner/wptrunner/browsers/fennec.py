@@ -46,7 +46,11 @@ executors
 .
 executormarionette
 import
+(
 MarionetteTestharnessExecutor
+                                            
+MarionetteRefTestExecutor
+)
 from
 .
 firefox
@@ -98,6 +102,14 @@ testharness
 :
 "
 MarionetteTestharnessExecutor
+"
+                              
+"
+reftest
+"
+:
+"
+MarionetteRefTestExecutor
 "
 }
                  
