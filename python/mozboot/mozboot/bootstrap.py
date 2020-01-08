@@ -2786,6 +2786,8 @@ git
 '
 )
 state_dir
+                              
+checkout_root
 )
         
 have_clone
