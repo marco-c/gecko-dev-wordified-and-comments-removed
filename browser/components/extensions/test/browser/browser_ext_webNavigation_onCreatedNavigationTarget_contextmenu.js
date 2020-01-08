@@ -643,9 +643,10 @@ clickContextMenuItem
 {
 pageElementSelector
 :
-function
 (
 )
+=
+>
 {
 return
 this
@@ -768,9 +769,10 @@ clickContextMenuItem
 {
 pageElementSelector
 :
-function
 (
 )
+=
+>
 {
 return
 this

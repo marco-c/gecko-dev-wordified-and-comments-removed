@@ -286,6 +286,8 @@ data
 frameScript
 }
 )
+.
+call
 (
 this
 )
