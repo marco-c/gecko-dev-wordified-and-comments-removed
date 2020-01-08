@@ -4775,6 +4775,7 @@ null
 }
 confirmBrowserLanguageChange
 (
+event
 )
 {
 let
