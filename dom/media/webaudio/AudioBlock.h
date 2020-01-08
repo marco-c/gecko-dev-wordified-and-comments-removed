@@ -99,6 +99,12 @@ using
 AudioChunk
 :
 :
+IsAudible
+;
+using
+AudioChunk
+:
+:
 ChannelCount
 ;
 using
