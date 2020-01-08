@@ -4863,7 +4863,7 @@ mGen
 ;
 mTable
 .
-rehashIfOverRemoved
+infallibleRehashIfOverloaded
 (
 )
 ;
@@ -6694,15 +6694,8 @@ aReportFailure
 ;
 }
 void
-rehashIfOverRemoved
+infallibleRehashIfOverloaded
 (
-)
-{
-if
-(
-overloaded
-(
-)
 )
 {
 if
@@ -6720,7 +6713,6 @@ rehashTableInPlace
 (
 )
 ;
-}
 }
 }
 void
@@ -8394,7 +8386,7 @@ aLookup
 aKey
 )
 ;
-rehashIfOverRemoved
+infallibleRehashIfOverloaded
 (
 )
 ;
