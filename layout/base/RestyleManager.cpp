@@ -353,6 +353,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+layers
+;
 namespace
 mozilla
 {
