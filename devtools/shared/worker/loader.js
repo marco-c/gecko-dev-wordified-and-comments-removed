@@ -1909,6 +1909,11 @@ setConsoleEventHandler
 this
 .
 setConsoleEventHandler
+"
+console
+"
+:
+console
 }
 loadSubScript
 :
