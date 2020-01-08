@@ -14,7 +14,7 @@ const
 script
 =
 '
-resources
+service_workers
 /
 sw
 .
@@ -25,9 +25,8 @@ const
 scope
 =
 '
-resources
+service_workers
 /
-scope
 '
 +
 location
