@@ -5600,6 +5600,9 @@ TimeStamp
 mLaunchTS
 ;
 TimeStamp
+mLaunchYieldTS
+;
+TimeStamp
 mActivateTS
 ;
 ContentParent
