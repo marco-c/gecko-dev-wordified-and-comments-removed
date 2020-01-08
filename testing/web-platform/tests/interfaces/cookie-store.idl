@@ -266,11 +266,6 @@ secure
 =
 true
 ;
-boolean
-httpOnly
-=
-false
-;
 CookieSameSite
 sameSite
 =
