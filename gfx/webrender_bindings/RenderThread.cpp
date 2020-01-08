@@ -1533,10 +1533,15 @@ TimeStamp
 aStart
 TimeStamp
 aEnd
+bool
+aRender
 )
 {
 if
 (
+aRender
+&
+&
 aBridge
 -
 >
@@ -1843,6 +1848,7 @@ GetCompositorBridge
 info
 aStartTime
 end
+aRender
 )
 )
 ;
