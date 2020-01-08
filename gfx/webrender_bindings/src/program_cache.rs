@@ -752,11 +752,7 @@ file_name
 =
 uuid1
 .
-hyphenated
-(
-)
-.
-to_string
+to_hyphenated_string
 (
 )
 ;

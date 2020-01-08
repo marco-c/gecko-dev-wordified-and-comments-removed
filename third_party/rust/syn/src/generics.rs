@@ -704,13 +704,7 @@ WhereClause
 {
 where_token
 :
-<
-Token
-!
-[
-where
-]
->
+Default
 :
 :
 default
