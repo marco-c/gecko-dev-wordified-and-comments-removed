@@ -469,7 +469,7 @@ PST8PDT
 '
         
 '
-LC_TIME
+LC_ALL
 '
 :
 '
