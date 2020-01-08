@@ -210,11 +210,6 @@ Preferences
 .
 cpp
 '
-'
-SharedPrefMap
-.
-cpp
-'
 ]
 include
 (

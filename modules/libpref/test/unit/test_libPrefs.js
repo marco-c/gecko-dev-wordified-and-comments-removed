@@ -2056,7 +2056,7 @@ nonexistent
 }
 Cr
 .
-NS_ERROR_ILLEGAL_VALUE
+NS_ERROR_UNEXPECTED
 )
 ;
 do_check_throws
@@ -2079,7 +2079,7 @@ nonexistent
 }
 Cr
 .
-NS_ERROR_ILLEGAL_VALUE
+NS_ERROR_UNEXPECTED
 )
 ;
 Assert
