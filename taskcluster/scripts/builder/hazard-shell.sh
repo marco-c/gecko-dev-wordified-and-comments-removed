@@ -47,6 +47,6 @@ nspr
 build
 make
 -
-j12
+j8
 -
 s
