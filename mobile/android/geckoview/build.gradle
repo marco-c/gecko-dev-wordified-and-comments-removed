@@ -4216,6 +4216,8 @@ mozilla
 .
 apilint
 '
+apiLint
+{
 /
 /
 TODO
@@ -4231,8 +4233,6 @@ org
 mozilla
 .
 gecko
-apiLint
-.
 packageFilter
 =
 '
@@ -4242,8 +4242,6 @@ mozilla
 .
 geckoview
 '
-apiLint
-.
 changelogFileName
 =
 '
@@ -4251,3 +4249,11 @@ CHANGELOG
 .
 md
 '
+lintFilters
+=
+[
+'
+GV
+'
+]
+}
