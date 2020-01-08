@@ -294,12 +294,6 @@ mDisplay
 GLXDrawable
 mDrawable
 ;
-Maybe
-<
-GLXDrawable
->
-mOverrideDrawable
-;
 bool
 mDeleteDrawable
 ;
