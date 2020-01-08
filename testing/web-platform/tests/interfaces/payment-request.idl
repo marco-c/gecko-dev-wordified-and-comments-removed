@@ -238,7 +238,7 @@ total
 AddressErrors
 shippingAddressErrors
 ;
-PayerErrors
+PayerErrorFields
 payerErrors
 ;
 object
@@ -676,7 +676,7 @@ onpayerdetailchange
 dictionary
 PaymentValidationErrors
 {
-PayerErrors
+PayerErrorFields
 payer
 ;
 AddressErrors
@@ -691,7 +691,7 @@ paymentMethod
 }
 ;
 dictionary
-PayerErrors
+PayerErrorFields
 {
 DOMString
 email
