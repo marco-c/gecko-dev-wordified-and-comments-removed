@@ -2528,12 +2528,6 @@ focus
 "
 "
 :
-focus
--
-within
-"
-"
-:
 hover
 "
 ]

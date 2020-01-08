@@ -485,12 +485,6 @@ active
 :
 focus
 "
-"
-:
-focus
--
-within
-"
 ]
 ;
 const
