@@ -2439,10 +2439,6 @@ mIsPostponingSends
 (
 false
 )
-mInKillHardShutdown
-(
-false
-)
 mBuildIDsConfirmedMatch
 (
 false
@@ -3121,10 +3117,6 @@ if
 Unsound_IsClosed
 (
 )
-&
-&
-!
-mInKillHardShutdown
 )
 {
 CrashReporter

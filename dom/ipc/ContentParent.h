@@ -5526,6 +5526,12 @@ eNotRecordingOrReplaying
 }
 private
 :
+RefPtr
+<
+ContentParent
+>
+mSelfRef
+;
 ContentProcessHost
 *
 mSubprocess
