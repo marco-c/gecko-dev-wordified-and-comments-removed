@@ -3202,7 +3202,7 @@ True
     
 tptimeout
 =
-5000
+10000
     
 mainthread
 =

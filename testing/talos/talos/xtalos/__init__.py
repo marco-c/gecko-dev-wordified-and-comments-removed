@@ -3,12 +3,9 @@ __future__
 import
 absolute_import
 from
-.
 start_xperf
 import
 start
 start_from_config
-from
-.
 import
 etlparser
