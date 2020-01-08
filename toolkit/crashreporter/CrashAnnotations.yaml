@@ -2108,6 +2108,9 @@ class
 type
 :
 string
+ping
+:
+true
 MozCrashReason
 :
 description
