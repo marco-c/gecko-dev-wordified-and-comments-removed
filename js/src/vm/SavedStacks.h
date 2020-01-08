@@ -980,6 +980,9 @@ BuildUTF8StackString
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 stack
 )

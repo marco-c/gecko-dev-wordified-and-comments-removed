@@ -1666,6 +1666,17 @@ if
 BuildStackString
 (
 cx
+cx
+-
+>
+realm
+(
+)
+-
+>
+principals
+(
+)
 stack
 &
 str

@@ -21863,6 +21863,9 @@ GetSavedFrameSource
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 savedFrame
 MutableHandleString
@@ -21886,6 +21889,9 @@ GetSavedFrameLine
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 savedFrame
 uint32_t
@@ -21910,6 +21916,9 @@ GetSavedFrameColumn
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 savedFrame
 uint32_t
@@ -21934,6 +21943,9 @@ GetSavedFrameFunctionDisplayName
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 savedFrame
 MutableHandleString
@@ -21957,6 +21969,9 @@ GetSavedFrameAsyncCause
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 savedFrame
 MutableHandleString
@@ -21980,6 +21995,9 @@ GetSavedFrameAsyncParent
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 savedFrame
 MutableHandleObject
@@ -22003,6 +22021,9 @@ GetSavedFrameParent
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 savedFrame
 MutableHandleObject
@@ -22026,6 +22047,9 @@ BuildStackString
 JSContext
 *
 cx
+JSPrincipals
+*
+principals
 HandleObject
 stack
 MutableHandleString
