@@ -4139,9 +4139,7 @@ new
 FrameId
 :
 :
-invalid
-(
-)
+INVALID
 )
 ;
 let

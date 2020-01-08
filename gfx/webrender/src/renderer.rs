@@ -9140,9 +9140,7 @@ gpu_cache_frame_id
 FrameId
 :
 :
-invalid
-(
-)
+INVALID
 gpu_cache_overflow
 :
 false
@@ -13272,9 +13270,7 @@ frame_id
 FrameId
 :
 :
-invalid
-(
-)
+INVALID
 height
 :
 gpu_cache_height
@@ -18436,9 +18432,7 @@ frame_id
 FrameId
 :
 :
-invalid
-(
-)
+INVALID
 height
 :
 self

@@ -2414,9 +2414,7 @@ current_frame_id
 FrameId
 :
 :
-invalid
-(
-)
+INVALID
 pending_image_requests
 :
 FastHashSet
@@ -11177,9 +11175,7 @@ current_frame_id
 FrameId
 :
 :
-invalid
-(
-)
+INVALID
 ;
 self
 .

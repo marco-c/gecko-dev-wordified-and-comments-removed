@@ -940,6 +940,14 @@ is_empty
 return
 None
 }
+self
+.
+prim_store
+.
+reset_clip_instances
+(
+)
+;
 let
 root_spatial_node_index
 =
