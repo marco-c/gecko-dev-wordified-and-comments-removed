@@ -494,6 +494,8 @@ shellcheck
 disable
 =
 SC2086
+pipenv
+run
 /
 home
 /
