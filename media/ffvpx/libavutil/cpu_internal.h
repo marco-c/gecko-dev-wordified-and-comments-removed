@@ -7,13 +7,6 @@ AVUTIL_CPU_INTERNAL_H
 #
 include
 "
-config
-.
-h
-"
-#
-include
-"
 cpu
 .
 h

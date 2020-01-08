@@ -81,7 +81,7 @@ h
 >
 #
 if
-HAVE_MACH_ABSOLUTE_TIME
+HAVE_MACH_MACH_TIME_H
 #
 include
 <

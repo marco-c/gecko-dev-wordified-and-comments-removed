@@ -50,13 +50,6 @@ h
 #
 include
 "
-avcodec
-.
-h
-"
-#
-include
-"
 mathops
 .
 h
@@ -1841,13 +1834,7 @@ bit_size
 =
 INT_MAX
 -
-FFMAX
-(
 7
-AV_INPUT_BUFFER_PADDING_SIZE
-*
-8
-)
 |
 |
 bit_size

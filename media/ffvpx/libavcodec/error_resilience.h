@@ -13,13 +13,6 @@ h
 >
 #
 include
-<
-stdatomic
-.
-h
->
-#
-include
 "
 avcodec
 .
@@ -159,7 +152,8 @@ mb_stride
 ptrdiff_t
 b8_stride
 ;
-atomic_int
+volatile
+int
 error_count
 ;
 int

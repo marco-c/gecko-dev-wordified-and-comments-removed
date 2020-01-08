@@ -7,6 +7,13 @@ AVUTIL_ARM_CPU_H
 #
 include
 "
+config
+.
+h
+"
+#
+include
+"
 libavutil
 /
 cpu
