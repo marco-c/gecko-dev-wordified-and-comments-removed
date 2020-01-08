@@ -1114,7 +1114,7 @@ adjustedColor
 =
 color
 ;
-color
+adjustedColor
 .
 mColor
 .
