@@ -37,13 +37,6 @@ optimize
 -
 enable
 -
-stdcxx
--
-compat
--
--
-enable
--
 ctypes
 -
 -
