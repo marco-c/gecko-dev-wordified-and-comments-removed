@@ -747,6 +747,13 @@ mRequestRegistered
 mImageRequest
 -
 >
+UnlockImage
+(
+)
+;
+mImageRequest
+-
+>
 CancelAndForgetObserver
 (
 NS_ERROR_FAILURE
