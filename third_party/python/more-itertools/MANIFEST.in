@@ -27,6 +27,12 @@ conf
 .
 py
 include
+docs
+/
+_static
+/
+*
+include
 fabfile
 .
 py
