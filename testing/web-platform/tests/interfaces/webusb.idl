@@ -198,6 +198,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBConnectionEvent
@@ -222,6 +223,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBDevice
@@ -574,6 +576,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBInTransferResult
@@ -610,6 +613,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBOutTransferResult
@@ -644,6 +648,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBIsochronousInTransferPacket
@@ -681,6 +686,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBIsochronousInTransferResult
@@ -720,6 +726,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBIsochronousOutTransferPacket
@@ -753,6 +760,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBIsochronousOutTransferResult
@@ -782,6 +790,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBConfiguration
@@ -822,6 +831,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBInterface
@@ -866,6 +876,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBAlternateInterface
@@ -948,6 +959,7 @@ DedicatedWorker
 SharedWorker
 Window
 )
+SecureContext
 ]
 interface
 USBEndpoint
