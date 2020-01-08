@@ -180,15 +180,6 @@ browser
 /
 schemas
 /
-menus_internal
-.
-json
-content
-/
-browser
-/
-schemas
-/
 omnibox
 .
 json
