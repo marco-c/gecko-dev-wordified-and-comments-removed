@@ -2342,7 +2342,7 @@ running
 Javascript
 code
 that
-programatically
+programmatically
 sets
 the
 scroll

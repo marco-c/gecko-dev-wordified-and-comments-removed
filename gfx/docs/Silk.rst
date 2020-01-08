@@ -222,7 +222,7 @@ that
 a
 vsync
 has
-occured
+occurred
 .
 7
 .
@@ -448,7 +448,7 @@ after
 a
 vsync
 has
-occured
+occurred
 .
 OS
 X
@@ -569,7 +569,7 @@ that
 a
 vsync
 has
-occured
+occurred
 with
 the
 vsync
@@ -1210,7 +1210,7 @@ a
 vsync
 event
 has
-occured
+occurred
 .
 There
 can
@@ -1239,7 +1239,7 @@ a
 vsync
 event
 has
-occured
+occurred
 and
 to
 stop
@@ -3545,7 +3545,7 @@ RefreshDriverVsyncObserver
 that
 a
 vsync
-occured
+occurred
 on
 the
 parent
@@ -3570,7 +3570,7 @@ thread
 that
 a
 vsync
-occured
+occurred
 .
 4
 .

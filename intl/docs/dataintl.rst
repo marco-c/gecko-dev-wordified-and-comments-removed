@@ -2077,7 +2077,7 @@ always
 auto
 "
 (
-defualt
+default
 )
 }
 )
