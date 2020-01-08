@@ -60,7 +60,7 @@ runFSM
 function
 runFSM
 (
-aData
+packetData
 )
 {
 console
@@ -132,7 +132,7 @@ client
 .
 unpackPacket
 (
-aData
+packetData
 )
 ;
 console
@@ -248,7 +248,7 @@ onerror
 =
 function
 (
-aEvent
+event
 )
 {
 console
@@ -277,7 +277,7 @@ onopen
 =
 function
 (
-aEvent
+event
 )
 {
 console
@@ -311,7 +311,7 @@ onclose
 =
 function
 (
-aEvent
+event
 )
 {
 console
@@ -335,7 +335,7 @@ ondata
 =
 function
 (
-aEvent
+event
 )
 {
 console
@@ -351,7 +351,7 @@ ondata
 ;
 runFSM
 (
-aEvent
+event
 .
 data
 )
