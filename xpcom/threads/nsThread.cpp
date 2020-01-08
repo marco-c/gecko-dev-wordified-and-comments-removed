@@ -3466,8 +3466,6 @@ shutdown
 ;
 #
 endif
-MOZ_ALWAYS_TRUE
-(
 aContext
 -
 >
@@ -3479,7 +3477,6 @@ mRequestedShutdownContexts
 RemoveElement
 (
 aContext
-)
 )
 ;
 }

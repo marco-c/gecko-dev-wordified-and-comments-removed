@@ -722,6 +722,9 @@ ThreadEventTarget
 >
 mEventTarget
 ;
+using
+ShutdownContexts
+=
 nsTArray
 <
 nsAutoPtr
@@ -730,6 +733,8 @@ struct
 nsThreadShutdownContext
 >
 >
+;
+ShutdownContexts
 mRequestedShutdownContexts
 ;
 struct
