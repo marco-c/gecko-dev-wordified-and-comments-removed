@@ -264,9 +264,6 @@ true
 bulk
 :
 true
-selectorEditable
-:
-true
 getCssPath
 :
 true
