@@ -1437,9 +1437,13 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Najow
+x
+tz
+chi
+taqoya
+'
+l
 "
 "
 firstrun_extra_legal_links

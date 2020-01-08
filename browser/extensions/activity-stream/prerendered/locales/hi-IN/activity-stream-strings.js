@@ -162,9 +162,6 @@ menu_action_show_file_mac_os
 "
 :
 "
-Show
-in
-Finder
 "
 "
 menu_action_show_file_windows
@@ -328,9 +325,6 @@ prefs_highlights_options_download_label
 "
 :
 "
-Most
-Recent
-Download
 "
 "
 prefs_highlights_options_pocket_label

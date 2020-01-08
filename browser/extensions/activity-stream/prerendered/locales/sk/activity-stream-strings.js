@@ -1174,9 +1174,14 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Vy
+aduje
+sa
+platn
+e
+-
+mailov
+adresa
 "
 "
 firstrun_extra_legal_links

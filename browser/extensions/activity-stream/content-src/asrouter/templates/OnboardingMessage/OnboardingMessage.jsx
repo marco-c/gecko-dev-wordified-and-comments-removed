@@ -180,6 +180,11 @@ span
 >
 <
 button
+tabIndex
+=
+"
+1
+"
 className
 =
 "

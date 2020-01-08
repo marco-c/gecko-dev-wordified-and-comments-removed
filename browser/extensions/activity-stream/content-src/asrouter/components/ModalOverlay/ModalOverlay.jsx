@@ -167,6 +167,11 @@ footer
 >
 <
 button
+tabIndex
+=
+"
+2
+"
 onClick
 =
 {

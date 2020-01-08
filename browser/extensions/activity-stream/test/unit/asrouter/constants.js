@@ -258,6 +258,11 @@ com
 /
 endpoint
 "
+endpointPref
+:
+"
+remotePref
+"
 }
 ;
 export
