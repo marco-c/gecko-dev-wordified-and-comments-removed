@@ -707,6 +707,15 @@ Message
 other
 )
 ;
+void
+CopyFrom
+(
+const
+Message
+&
+other
+)
+;
 static
 Message
 *

@@ -261,6 +261,15 @@ Pickle
 other
 )
 ;
+void
+CopyFrom
+(
+const
+Pickle
+&
+other
+)
+;
 uint32_t
 size
 (
