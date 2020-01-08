@@ -318,6 +318,10 @@ Clear
 "
     
 "
+ClipRectOrAuto
+"
+    
+"
 Color
 "
     
