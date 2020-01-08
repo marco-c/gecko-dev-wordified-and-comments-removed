@@ -316,9 +316,9 @@ topsrcdir
 /
 xpcom
 /
-reflect
+ds
 /
-xptinfo
+tools
 /
 perfecthash
 .
