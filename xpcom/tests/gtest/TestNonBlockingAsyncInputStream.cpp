@@ -1474,10 +1474,8 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
-Tell
+SetEOF
 (
-int64_t
-*
 )
 override
 {
@@ -1486,8 +1484,10 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
-SetEOF
+Tell
 (
+int64_t
+*
 )
 override
 {
@@ -1549,6 +1549,11 @@ mIPCSerializable
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
 nsISeekableStream
+mSeekable
+)
+NS_INTERFACE_MAP_ENTRY_CONDITIONAL
+(
+nsITellableStream
 mSeekable
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
