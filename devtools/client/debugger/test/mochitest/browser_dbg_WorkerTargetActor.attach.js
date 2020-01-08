@@ -229,12 +229,13 @@ executeSoon
 =
 >
 {
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 TAB2_URL
 )
 ;
