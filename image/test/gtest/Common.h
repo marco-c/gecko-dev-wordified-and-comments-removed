@@ -1310,6 +1310,11 @@ GreenWebPTestCase
 )
 ;
 ImageTestCase
+LargeWebPTestCase
+(
+)
+;
+ImageTestCase
 GreenWebPIccSrgbTestCase
 (
 )
