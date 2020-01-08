@@ -400,7 +400,19 @@ define
 PNG_INTEL_SSE_OPT
 1
 #
+else
+#
+define
+PNG_INTEL_SSE_OPT
+0
+#
 endif
+#
+else
+#
+define
+PNG_INTEL_SSE_OPT
+0
 #
 endif
 #
@@ -497,6 +509,12 @@ PNG_FILTER_OPTIMIZATIONS
 png_init_filter_functions_sse2
 #
 endif
+#
+else
+#
+define
+PNG_INTEL_SSE_IMPLEMENTATION
+0
 #
 endif
 #
@@ -2250,7 +2268,7 @@ pixel_bits
 \
 (
 (
-png_size_t
+size_t
 )
 (
 width
@@ -2259,7 +2277,7 @@ width
 (
 (
 (
-png_size_t
+size_t
 )
 (
 pixel_bits
@@ -2276,7 +2294,7 @@ pixel_bits
 (
 (
 (
-png_size_t
+size_t
 )
 (
 width
@@ -2284,7 +2302,7 @@ width
 *
 (
 (
-png_size_t
+size_t
 )
 (
 pixel_bits
@@ -3622,7 +3640,7 @@ png_structp
 png_ptr
 png_bytep
 data
-png_size_t
+size_t
 length
 )
 PNG_EMPTY
@@ -3641,7 +3659,7 @@ png_structp
 png_ptr
 png_bytep
 buffer
-png_size_t
+size_t
 length
 )
 PNG_EMPTY
@@ -3659,7 +3677,7 @@ png_structp
 png_ptr
 png_bytep
 data
-png_size_t
+size_t
 length
 )
 PNG_EMPTY
@@ -3707,7 +3725,7 @@ png_structrp
 png_ptr
 png_const_bytep
 data
-png_size_t
+size_t
 length
 )
 PNG_EMPTY
@@ -3746,7 +3764,7 @@ png_structrp
 png_ptr
 png_bytep
 data
-png_size_t
+size_t
 length
 )
 PNG_EMPTY
@@ -3800,7 +3818,7 @@ png_structrp
 png_ptr
 png_const_bytep
 ptr
-png_size_t
+size_t
 length
 )
 PNG_EMPTY
@@ -4102,7 +4120,7 @@ png_const_charp
 key
 png_const_charp
 text
-png_size_t
+size_t
 text_len
 )
 PNG_EMPTY
@@ -5705,7 +5723,7 @@ png_structrp
 png_ptr
 png_bytep
 buffer
-png_size_t
+size_t
 buffer_length
 )
 PNG_EMPTY
@@ -5731,7 +5749,7 @@ png_structrp
 png_ptr
 png_bytep
 buffer
-png_size_t
+size_t
 buffer_length
 )
 PNG_EMPTY
@@ -6868,7 +6886,7 @@ png_const_structrp
 png_ptr
 png_charp
 ascii
-png_size_t
+size_t
 size
 double
 fp
@@ -6893,7 +6911,7 @@ png_const_structrp
 png_ptr
 png_charp
 ascii
-png_size_t
+size_t
 size
 png_fixed_point
 fp
@@ -7218,7 +7236,7 @@ png_check_fp_number
 (
 png_const_charp
 string
-png_size_t
+size_t
 size
 int
 *
@@ -7236,7 +7254,7 @@ png_check_fp_string
 (
 png_const_charp
 string
-png_size_t
+size_t
 size
 )
 PNG_EMPTY
@@ -7460,7 +7478,7 @@ error_buf
 png_const_bytep
 memory
 ;
-png_size_t
+size_t
 size
 ;
 unsigned

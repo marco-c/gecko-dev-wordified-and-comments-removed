@@ -217,7 +217,7 @@ png_const_bytep
 prev
 )
 {
-png_size_t
+size_t
 rb
 ;
 __m128i
@@ -347,7 +347,7 @@ png_const_bytep
 prev
 )
 {
-png_size_t
+size_t
 rb
 ;
 __m128i
@@ -435,7 +435,7 @@ png_const_bytep
 prev
 )
 {
-png_size_t
+size_t
 rb
 ;
 const
@@ -654,7 +654,7 @@ png_const_bytep
 prev
 )
 {
-png_size_t
+size_t
 rb
 ;
 const
@@ -890,7 +890,7 @@ png_const_bytep
 prev
 )
 {
-png_size_t
+size_t
 rb
 ;
 const
@@ -1254,7 +1254,7 @@ png_const_bytep
 prev
 )
 {
-png_size_t
+size_t
 rb
 ;
 const

@@ -6357,7 +6357,7 @@ png_structp
 png_ptr
 png_bytep
 out
-png_size_t
+size_t
 need
 )
 {
@@ -6413,7 +6413,7 @@ cp
 >
 memory
 ;
-png_size_t
+size_t
 size
 =
 cp
@@ -6497,7 +6497,7 @@ png_imagep
 image
 png_const_voidp
 memory
-png_size_t
+size_t
 size
 )
 {

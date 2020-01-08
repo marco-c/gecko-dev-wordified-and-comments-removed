@@ -58,7 +58,7 @@ return
 )
 ;
 }
-png_size_t
+size_t
 PNGAPI
 png_get_rowbytes
 (
@@ -3549,12 +3549,6 @@ name
 NULL
 &
 &
-compression_type
-!
-=
-NULL
-&
-&
 profile
 !
 =
@@ -3594,6 +3588,13 @@ info_ptr
 iccp_profile
 )
 ;
+if
+(
+compression_type
+!
+=
+NULL
+)
 *
 compression_type
 =
@@ -5574,7 +5575,7 @@ NULL
 }
 #
 endif
-png_size_t
+size_t
 PNGAPI
 png_get_compression_buffer_size
 (

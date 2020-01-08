@@ -862,10 +862,10 @@ rp
 =
 row
 ;
-png_size_t
+size_t
 i
 ;
-png_size_t
+size_t
 istop
 =
 row_info
@@ -934,10 +934,10 @@ rp
 =
 row
 ;
-png_size_t
+size_t
 i
 ;
-png_size_t
+size_t
 istop
 =
 row_info
@@ -1011,10 +1011,10 @@ rp
 =
 row
 ;
-png_size_t
+size_t
 i
 ;
-png_size_t
+size_t
 istop
 =
 row_info
@@ -2628,7 +2628,7 @@ row_info
 rowbytes
 =
 (
-png_size_t
+size_t
 )
 (
 dp

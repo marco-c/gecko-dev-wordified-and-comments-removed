@@ -767,14 +767,14 @@ bp
 =
 row
 ;
-png_size_t
+size_t
 i
 ;
 unsigned
 int
 mask
 ;
-png_size_t
+size_t
 row_bytes
 =
 row_info

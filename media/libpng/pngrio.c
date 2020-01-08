@@ -15,7 +15,7 @@ png_structrp
 png_ptr
 png_bytep
 data
-png_size_t
+size_t
 length
 )
 {
@@ -84,11 +84,11 @@ png_structp
 png_ptr
 png_bytep
 data
-png_size_t
+size_t
 length
 )
 {
-png_size_t
+size_t
 check
 ;
 if

@@ -1381,7 +1381,7 @@ png_alloc_size_t
 #
 else
 typedef
-png_size_t
+size_t
 png_alloc_size_t
 ;
 #
@@ -1479,13 +1479,13 @@ png_fixed_point
 png_const_fixed_point_p
 ;
 typedef
-png_size_t
+size_t
 *
 png_size_tp
 ;
 typedef
 const
-png_size_t
+size_t
 *
 png_const_size_tp
 ;

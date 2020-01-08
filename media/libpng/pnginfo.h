@@ -16,7 +16,7 @@ height
 png_uint_32
 valid
 ;
-png_size_t
+size_t
 rowbytes
 ;
 png_colorp

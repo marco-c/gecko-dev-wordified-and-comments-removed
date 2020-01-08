@@ -483,7 +483,7 @@ num_rows
 png_uint_32
 usr_width
 ;
-png_size_t
+size_t
 rowbytes
 ;
 png_uint_32
@@ -512,7 +512,7 @@ tst_row
 ;
 #
 endif
-png_size_t
+size_t
 info_rowbytes
 ;
 png_uint_32
@@ -819,16 +819,16 @@ push_length
 png_uint_32
 skip_length
 ;
-png_size_t
+size_t
 save_buffer_size
 ;
-png_size_t
+size_t
 save_buffer_max
 ;
-png_size_t
+size_t
 buffer_size
 ;
-png_size_t
+size_t
 current_buffer_size
 ;
 int
@@ -1089,7 +1089,7 @@ unknown_chunk
 ;
 #
 endif
-png_size_t
+size_t
 old_big_row_buf_size
 ;
 #

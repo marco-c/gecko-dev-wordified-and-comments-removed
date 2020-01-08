@@ -6815,14 +6815,18 @@ alpha
 )
 +
 (
+(
 alpha
+)
 >
 >
 1
 )
 )
 /
+(
 alpha
+)
 )
 static
 png_byte
@@ -9117,7 +9121,7 @@ png_structp
 png_ptr
 png_bytep
 data
-png_size_t
+size_t
 size
 )
 {

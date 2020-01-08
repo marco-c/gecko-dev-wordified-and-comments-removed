@@ -104,7 +104,7 @@ png_inforp
 info_ptr
 png_bytep
 buffer
-png_size_t
+size_t
 buffer_size
 )
 {
@@ -146,7 +146,7 @@ info_ptr
 ;
 }
 }
-png_size_t
+size_t
 PNGAPI
 png_process_data_pause
 (
@@ -178,7 +178,7 @@ png_ptr
 ;
 else
 {
-png_size_t
+size_t
 remaining
 =
 png_ptr
@@ -333,13 +333,15 @@ png_inforp
 info_ptr
 )
 {
-png_size_t
+size_t
 num_checked
 =
 png_ptr
 -
 >
 sig_bytes
+;
+size_t
 num_to_check
 =
 8
@@ -1924,7 +1926,7 @@ png_structp
 png_ptr
 png_bytep
 buffer
-png_size_t
+size_t
 length
 )
 {
@@ -1955,7 +1957,7 @@ save_buffer_size
 0
 )
 {
-png_size_t
+size_t
 save_size
 ;
 if
@@ -2041,7 +2043,7 @@ current_buffer_size
 0
 )
 {
-png_size_t
+size_t
 save_size
 ;
 if
@@ -2133,7 +2135,7 @@ png_ptr
 save_buffer
 )
 {
-png_size_t
+size_t
 i
 istop
 ;
@@ -2210,7 +2212,7 @@ png_ptr
 save_buffer_max
 )
 {
-png_size_t
+size_t
 new_max
 ;
 png_bytep
@@ -2280,7 +2282,7 @@ png_malloc_warn
 (
 png_ptr
 (
-png_size_t
+size_t
 )
 new_max
 )
@@ -2435,7 +2437,7 @@ png_structrp
 png_ptr
 png_bytep
 buffer
-png_size_t
+size_t
 buffer_length
 )
 {
@@ -2893,7 +2895,7 @@ save_buffer_size
 0
 )
 {
-png_size_t
+size_t
 save_size
 =
 png_ptr
@@ -2918,7 +2920,7 @@ save_size
 save_size
 =
 (
-png_size_t
+size_t
 )
 idat_size
 ;
@@ -3003,7 +3005,7 @@ current_buffer_size
 0
 )
 {
-png_size_t
+size_t
 save_size
 =
 png_ptr
@@ -3028,7 +3030,7 @@ save_size
 save_size
 =
 (
-png_size_t
+size_t
 )
 idat_size
 ;
@@ -3147,7 +3149,7 @@ png_structrp
 png_ptr
 png_bytep
 buffer
-png_size_t
+size_t
 buffer_length
 )
 {
