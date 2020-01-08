@@ -3347,9 +3347,8 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 ;
 }
-MOZ_ASSERT
+if
 (
-!
 workerRef
 -
 >
@@ -3362,7 +3361,15 @@ IsLoadingWorkerScript
 (
 )
 )
+{
+aSuccessCB
+(
+mDescriptor
+)
 ;
+return
+;
+}
 auto
 promise
 =
