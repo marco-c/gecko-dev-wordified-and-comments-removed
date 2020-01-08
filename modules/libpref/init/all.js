@@ -5139,9 +5139,9 @@ media
 .
 autoplay
 .
-enabled
+default
 "
-true
+0
 )
 ;
 #
