@@ -250,6 +250,17 @@ support_library_version
 .
 0
 '
+ext
+.
+jacoco_version
+=
+'
+0
+.
+8
+.
+1
+'
 if
 (
 gradle
