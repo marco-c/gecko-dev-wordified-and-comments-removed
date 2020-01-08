@@ -504,8 +504,6 @@ align
 baseline
 "
 >
-#
-expand
 <
 label
 id
@@ -513,11 +511,7 @@ id
 "
 version
 "
->
-__MOZ_APP_VERSION_DISPLAY__
-<
 /
-label
 >
 <
 label
