@@ -524,11 +524,6 @@ a
 key
 .
 '
-{
-timeout
-:
-20000
-}
 )
 ;
 function
