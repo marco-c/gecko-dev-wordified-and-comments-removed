@@ -751,9 +751,9 @@ pocket_how_it_works
 "
 :
 "
-How
+Hoe
 it
-works
+wurket
 "
 "
 pocket_cta_button
@@ -1162,8 +1162,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Menu
+iepenje
 "
 "
 pocket_learn_more

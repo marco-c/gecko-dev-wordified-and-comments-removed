@@ -787,9 +787,8 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Si
+funksionon
 "
 "
 pocket_cta_button
@@ -1207,8 +1206,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Hape
+menun
 "
 "
 pocket_learn_more

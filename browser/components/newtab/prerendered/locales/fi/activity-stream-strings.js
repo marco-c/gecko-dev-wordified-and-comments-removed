@@ -1091,8 +1091,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Avaa
+valikko
 "
 "
 pocket_learn_more
