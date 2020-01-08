@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-ADB
+prepareTCPConnection
 }
 =
 require
@@ -17,7 +17,9 @@ shared
 /
 adb
 /
-adb
+commands
+/
+index
 "
 )
 ;
@@ -217,8 +219,6 @@ const
 port
 =
 await
-ADB
-.
 prepareTCPConnection
 (
 socketPath

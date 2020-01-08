@@ -27,7 +27,7 @@ types
 ;
 const
 {
-ADB
+prepareTCPConnection
 }
 =
 require
@@ -39,7 +39,9 @@ shared
 /
 adb
 /
-adb
+commands
+/
+index
 "
 )
 ;
@@ -166,8 +168,6 @@ connection
 )
 {
 return
-ADB
-.
 prepareTCPConnection
 (
 this
