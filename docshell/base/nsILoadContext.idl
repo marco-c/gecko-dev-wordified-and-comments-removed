@@ -905,6 +905,7 @@ binaryname
 (
 ScriptableOriginAttributes
 )
+implicit_jscontext
 ]
 readonly
 attribute

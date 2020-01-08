@@ -15572,6 +15572,8 @@ NO_IMPL
 NS_IMETHOD
 GetScriptableOriginAttributes
 (
+JSContext
+*
 JS
 :
 :
