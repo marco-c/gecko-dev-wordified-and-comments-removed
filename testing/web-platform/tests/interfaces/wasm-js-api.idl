@@ -221,7 +221,7 @@ ModuleExportDescriptor
 exports
 (
 Module
-module
+moduleObject
 )
 ;
 static
@@ -232,7 +232,7 @@ ModuleImportDescriptor
 imports
 (
 Module
-module
+moduleObject
 )
 ;
 static
@@ -243,7 +243,7 @@ ArrayBuffer
 customSections
 (
 Module
-module
+moduleObject
 USVString
 sectionName
 )
@@ -485,7 +485,7 @@ GlobalDescriptor
 descriptor
 optional
 any
-value
+v
 )
 Exposed
 =
