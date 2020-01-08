@@ -2213,7 +2213,7 @@ NotificationHelper
 .
 Channel
 .
-DEFAULT
+MEDIA
 )
 .
 getId
