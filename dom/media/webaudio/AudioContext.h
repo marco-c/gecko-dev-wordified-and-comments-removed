@@ -1048,7 +1048,7 @@ Graph
 )
 const
 ;
-MediaStream
+AudioNodeStream
 *
 DestinationStream
 (

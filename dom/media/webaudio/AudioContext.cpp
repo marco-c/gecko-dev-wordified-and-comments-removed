@@ -3501,7 +3501,7 @@ Graph
 )
 ;
 }
-MediaStream
+AudioNodeStream
 *
 AudioContext
 :
@@ -4860,11 +4860,6 @@ ApplyAudioContextOperation
 DestinationStream
 (
 )
--
->
-AsAudioNodeStream
-(
-)
 streams
 AudioContextOperation
 :
@@ -5119,11 +5114,6 @@ Graph
 ApplyAudioContextOperation
 (
 DestinationStream
-(
-)
--
->
-AsAudioNodeStream
 (
 )
 streams
@@ -5419,7 +5409,7 @@ AppendElement
 promise
 )
 ;
-MediaStream
+AudioNodeStream
 *
 ds
 =
@@ -5464,11 +5454,6 @@ Graph
 ApplyAudioContextOperation
 (
 ds
--
->
-AsAudioNodeStream
-(
-)
 streams
 AudioContextOperation
 :
