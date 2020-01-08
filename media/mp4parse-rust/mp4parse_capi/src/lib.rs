@@ -254,6 +254,7 @@ Flac
 Opus
 Avc
 Vp9
+Av1
 Mp3
 Mp4v
 Jpeg
@@ -2206,6 +2207,19 @@ Mp4parseCodec
 :
 :
 Vp9
+VideoCodecSpecific
+:
+:
+AV1Config
+(
+_
+)
+=
+>
+Mp4parseCodec
+:
+:
+Av1
 VideoCodecSpecific
 :
 :
