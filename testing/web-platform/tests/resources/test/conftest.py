@@ -7,8 +7,6 @@ os
 import
 ssl
 import
-urllib2
-import
 html5lib
 import
 pytest
@@ -16,6 +14,16 @@ from
 selenium
 import
 webdriver
+from
+six
+import
+text_type
+from
+six
+.
+moves
+import
+urllib
 from
 wptserver
 import
@@ -380,14 +388,16 @@ variants
         
 handle
 =
-urllib2
+urllib
+.
+request
 .
 urlopen
 (
 self
 .
 url
-                                 
+                                        
 context
 =
 parent
@@ -585,7 +595,7 @@ json
 .
 loads
 (
-unicode
+text_type
 (
 element
 .
@@ -1361,6 +1371,8 @@ assert
 nums
 =
 =
+list
+(
 range
 (
 1
@@ -1371,6 +1383,7 @@ nums
 ]
 +
 1
+)
 )
     
 staticmethod

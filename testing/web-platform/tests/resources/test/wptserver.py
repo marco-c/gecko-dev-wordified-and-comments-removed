@@ -8,8 +8,12 @@ import
 time
 import
 sys
+from
+six
+.
+moves
 import
-urllib2
+urllib
 class
 WPTServer
 (
@@ -316,7 +320,9 @@ break
 try
 :
                 
-urllib2
+urllib
+.
+request
 .
 urlopen
 (
@@ -331,7 +337,9 @@ timeout
 return
             
 except
-urllib2
+urllib
+.
+error
 .
 URLError
 :
