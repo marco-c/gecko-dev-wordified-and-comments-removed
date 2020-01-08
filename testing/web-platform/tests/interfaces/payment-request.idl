@@ -238,6 +238,12 @@ total
 AddressErrors
 shippingAddressErrors
 ;
+PayerErrorFields
+payerErrors
+;
+object
+paymentMethodErrors
+;
 }
 ;
 dictionary
