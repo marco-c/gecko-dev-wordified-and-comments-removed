@@ -68,7 +68,7 @@ _devices
 {
 }
 get
-helperAddonInstalled
+adbExtensionInstalled
 (
 )
 {
@@ -77,7 +77,7 @@ addonInstalled
 ;
 }
 set
-helperAddonInstalled
+adbExtensionInstalled
 (
 v
 )

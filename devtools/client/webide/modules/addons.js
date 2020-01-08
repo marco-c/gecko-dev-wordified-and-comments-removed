@@ -340,7 +340,7 @@ value
 {
 Devices
 .
-helperAddonInstalled
+adbExtensionInstalled
 =
 (
 value

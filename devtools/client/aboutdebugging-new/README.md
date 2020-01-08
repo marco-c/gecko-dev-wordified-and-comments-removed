@@ -282,7 +282,7 @@ of
 device
 changes
 -
-ADBHelper
+ADBExtension
 is
 enabled
 /
@@ -715,7 +715,7 @@ target
 config
 :
 -
-adbhelper
+adbextension
 :
 boolean
 -

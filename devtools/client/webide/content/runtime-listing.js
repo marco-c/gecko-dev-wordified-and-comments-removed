@@ -151,7 +151,7 @@ runtime
 -
 panel
 -
-noadbhelper
+noadbextension
 "
 )
 .

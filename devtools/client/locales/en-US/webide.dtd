@@ -630,11 +630,11 @@ Other
 <
 !
 ENTITY
-runtimePanel_noadbhelper
+runtimePanel_noadbextension
 "
 Install
 ADB
-Helper
+Extension
 "
 >
 <
