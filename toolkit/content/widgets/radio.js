@@ -7,7 +7,9 @@ strict
 class
 MozRadiogroup
 extends
-MozBaseControl
+MozElements
+.
+BaseControl
 {
 constructor
 (
