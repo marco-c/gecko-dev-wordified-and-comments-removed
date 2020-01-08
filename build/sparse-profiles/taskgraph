@@ -97,6 +97,15 @@ config
 version
 .
 txt
+path
+:
+browser
+/
+config
+/
+whats_new_page
+.
+yml
 #
 Lots
 of
