@@ -726,6 +726,14 @@ aReturnOffset
 )
 const
 ;
+nsIFrame
+*
+GetFrameToPageSelect
+(
+)
+const
+;
+MOZ_CAN_RUN_SCRIPT
 void
 CommonPageMove
 (
@@ -733,9 +741,9 @@ bool
 aForward
 bool
 aExtend
-nsIScrollableFrame
+nsIFrame
 *
-aScrollableFrame
+aFrame
 )
 ;
 void
