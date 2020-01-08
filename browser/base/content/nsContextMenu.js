@@ -6060,6 +6060,9 @@ docLocation
 current
 "
 {
+disallowInheritPrincipal
+:
+true
 referrerURI
 :
 referrer
@@ -6307,6 +6310,9 @@ this
 imageDescURL
 e
 {
+disallowInheritPrincipal
+:
+true
 referrerURI
 :
 gContextMenuContentData
@@ -6532,6 +6538,9 @@ openUILink
 blobURL
 e
 {
+disallowInheritPrincipal
+:
+true
 referrerURI
 triggeringPrincipal
 :
@@ -6570,6 +6579,9 @@ this
 mediaURL
 e
 {
+disallowInheritPrincipal
+:
+true
 referrerURI
 forceAllowDataURI
 :
@@ -6820,6 +6832,9 @@ this
 bgImageURL
 e
 {
+disallowInheritPrincipal
+:
+true
 referrerURI
 :
 gContextMenuContentData
