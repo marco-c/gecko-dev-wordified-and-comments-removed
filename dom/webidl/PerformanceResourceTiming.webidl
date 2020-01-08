@@ -114,6 +114,8 @@ resource
 timing
 /
 #
+sec
+-
 performanceresourcetiming
 *
 *
