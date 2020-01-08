@@ -562,6 +562,17 @@ UnlockScreenOrientation
 (
 )
 {
+if
+(
+!
+recordreplay
+:
+:
+IsMiddleman
+(
+)
+)
+{
 Hal
 (
 )
@@ -571,6 +582,7 @@ SendUnlockScreenOrientation
 (
 )
 ;
+}
 }
 void
 EnableSensorNotifications
