@@ -668,8 +668,6 @@ client
 attachTarget
 (
 tab
-.
-actor
 )
 ;
 }

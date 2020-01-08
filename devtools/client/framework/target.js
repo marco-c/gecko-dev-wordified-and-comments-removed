@@ -1541,8 +1541,6 @@ attachTarget
 this
 .
 form
-.
-actor
 )
 ;
 this

@@ -206,8 +206,6 @@ client
 attachTarget
 (
 tabGrip
-.
-actor
 )
 ;
 is
@@ -318,8 +316,6 @@ client
 attachTarget
 (
 tabGrip
-.
-actor
 )
 ;
 is
