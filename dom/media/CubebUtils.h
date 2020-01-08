@@ -154,6 +154,11 @@ GetForcedOutputDevice
 (
 )
 ;
+uint32_t
+GetMaxInputStreams
+(
+)
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
