@@ -1,8 +1,6 @@
 import
 hashlib
 import
-json
-import
 os
 import
 urlparse
@@ -3184,6 +3182,7 @@ def
 get_test
 (
 self
+manifest_file
 manifest_test
 inherit_metadata
 test_metadata
@@ -3220,6 +3219,7 @@ wpttest
 .
 from_manifest
 (
+manifest_file
 manifest_test
 inherit_metadata
 test_metadata
@@ -3555,6 +3555,7 @@ self
 .
 iter_wpttest
 (
+manifest_file
 inherit_metadata
 test_metadata
 tests
@@ -3571,6 +3572,7 @@ def
 iter_wpttest
 (
 self
+manifest_file
 inherit_metadata
 test_metadata
 tests
@@ -3588,6 +3590,7 @@ self
 .
 get_test
 (
+manifest_file
 manifest_test
 inherit_metadata
 test_metadata
