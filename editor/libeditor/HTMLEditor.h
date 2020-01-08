@@ -951,6 +951,17 @@ return
 NS_OK
 ;
 }
+nsresult
+GetFontColorState
+(
+bool
+*
+aIsMixed
+nsAString
+&
+aColor
+)
+;
 void
 SetComposerCommandsUpdater
 (
