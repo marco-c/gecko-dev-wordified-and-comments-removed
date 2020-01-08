@@ -11842,11 +11842,8 @@ this
 .
 target
 .
-getFront
+getInspector
 (
-"
-inspector
-"
 )
 ;
 const
@@ -12332,6 +12329,14 @@ stopPicker
 )
 ;
 }
+this
+.
+_inspector
+.
+destroy
+(
+)
+;
 if
 (
 this
