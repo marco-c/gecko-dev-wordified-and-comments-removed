@@ -7826,7 +7826,13 @@ result
 ;
 }
 return
+std
+:
+:
+move
+(
 result
+)
 ;
 }
 bool

@@ -426,7 +426,13 @@ AppendLiteral
 }
 }
 return
+std
+:
+:
+move
+(
 str
+)
 ;
 }
 bool
