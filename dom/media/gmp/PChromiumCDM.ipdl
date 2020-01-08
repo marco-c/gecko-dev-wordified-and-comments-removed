@@ -131,11 +131,6 @@ aAllowDistinctiveIdentifier
 bool
 aAllowPersistentState
 )
-returns
-(
-bool
-unused
-)
 ;
 async
 GetStatusForPolicy

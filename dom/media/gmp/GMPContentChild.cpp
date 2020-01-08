@@ -638,14 +638,6 @@ aAllowDistinctiveIdentifier
 aAllowPersistentState
 )
 ;
-mHost
--
->
-OnInitialized
-(
-true
-)
-;
 }
 void
 GetStatusForPolicy
