@@ -307,6 +307,13 @@ nsITelemetry
 .
 idl
 '
+'
+other
+/
+GCTelemetry
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
@@ -633,13 +640,6 @@ jsm
 other
 /
 GCTelemetry
-.
-jsm
-'
-'
-other
-/
-MemoryTelemetry
 .
 jsm
 '
