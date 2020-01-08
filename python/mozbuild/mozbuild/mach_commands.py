@@ -11600,7 +11600,7 @@ from_build
             
 if
 '
-TASK_ID
+MOZ_AUTOMATION
 '
 in
 os
