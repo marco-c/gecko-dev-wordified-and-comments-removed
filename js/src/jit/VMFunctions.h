@@ -5729,6 +5729,11 @@ AddOrUpdateSparseElementHelperInfo
 extern
 const
 VMFunction
+GetSparseElementHelperInfo
+;
+extern
+const
+VMFunction
 DoConcatStringObjectInfo
 ;
 }
