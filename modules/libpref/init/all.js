@@ -1073,6 +1073,12 @@ etherpad
 /
 pads
 /
+medium
+.
+com
+/
+p
+/
 "
 )
 ;
