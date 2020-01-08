@@ -322,6 +322,12 @@ D
 CheckWeakMapMarking
 24
 )
+\
+D
+(
+YieldWhileGrayMarking
+25
+)
 enum
 class
 ZealMode
