@@ -147,7 +147,7 @@ opener
 false
 newWindow
 :
-true
+false
 }
 {
 id
@@ -203,7 +203,7 @@ opener
 false
 newWindow
 :
-true
+false
 }
 {
 id
