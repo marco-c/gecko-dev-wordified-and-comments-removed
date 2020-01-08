@@ -53,10 +53,6 @@ tools
 import
 localpaths
 from
-wptserve
-import
-sslutils
-from
 wptrunner
 import
 environment
@@ -281,23 +277,21 @@ TestEnvironment
 (
 test_paths
                                          
-sslutils
-.
-environments
-[
-"
-none
-"
-]
-(
-None
-)
-                                         
 False
                                          
 None
                                          
 env_options
+                                         
+{
+"
+type
+"
+:
+"
+none
+"
+}
                                          
 env_extras
 )

@@ -347,6 +347,7 @@ browser_kwargs
 (
 test_type
 run_info_data
+config
 *
 *
 kwargs
@@ -442,16 +443,14 @@ certutil_binary
 ca_certificate_path
 "
 :
-kwargs
+config
+.
+ssl_config
 [
 "
-ssl_env
+ca_cert_path
 "
 ]
-.
-ca_cert_path
-(
-)
             
 "
 e10s
@@ -551,12 +550,7 @@ chaos_mode_flags
 config
 "
 :
-kwargs
-[
-"
 config
-"
-]
 }
 def
 executor_kwargs

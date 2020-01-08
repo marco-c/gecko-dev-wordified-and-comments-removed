@@ -52,6 +52,9 @@ git
 fetch
 -
 -
+quiet
+-
+-
 unshallow
 https
 :

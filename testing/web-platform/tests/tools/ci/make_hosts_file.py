@@ -15,7 +15,7 @@ serve
 .
 serve
 import
-load_config
+build_config
 make_hosts_file
 def
 create_parser
@@ -54,6 +54,7 @@ nargs
 "
 ?
 "
+                        
 help
 =
 "
@@ -77,9 +78,9 @@ kwargs
 )
 :
     
-config
+config_builder
 =
-load_config
+build_config
 (
 os
 .
@@ -94,8 +95,26 @@ config
 json
 "
 )
+                                  
+ssl
+=
+{
+"
+type
+"
+:
+"
+none
+"
+}
 )
     
+with
+config_builder
+as
+config
+:
+        
 print
 (
 make_hosts_file

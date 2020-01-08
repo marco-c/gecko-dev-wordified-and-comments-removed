@@ -15,6 +15,10 @@ datetime
 import
 datetime
 timedelta
+from
+six
+import
+iteritems
 CERT_EXPIRY_BUFFER
 =
 dict
@@ -451,12 +455,11 @@ for
 k
 v
 in
+iteritems
+(
 os
 .
 environ
-.
-iteritems
-(
 )
 :
             
@@ -2371,7 +2374,6 @@ key
 lambda
 x
 :
--
 len
 (
 x

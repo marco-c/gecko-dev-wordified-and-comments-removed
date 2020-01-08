@@ -16,7 +16,7 @@ from
 .
 serve
 import
-Config
+ConfigBuilder
 pytest
 .
 mark
@@ -54,10 +54,21 @@ test_make_hosts_file_nix
 )
 :
     
-c
-=
-Config
+with
+ConfigBuilder
 (
+ports
+=
+{
+"
+http
+"
+:
+[
+8000
+]
+}
+                       
 browser_host
 =
 "
@@ -65,6 +76,7 @@ foo
 .
 bar
 "
+                       
 alternate_hosts
 =
 {
@@ -79,7 +91,10 @@ bar
 "
 }
 )
-    
+as
+c
+:
+        
 hosts
 =
 serve
@@ -97,7 +112,7 @@ c
 42
 "
 )
-    
+        
 lines
 =
 hosts
@@ -109,7 +124,7 @@ split
 n
 "
 )
-    
+        
 assert
 set
 (
@@ -120,7 +135,7 @@ lines
 {
 "
 "
-                          
+                              
 "
 192
 .
@@ -134,7 +149,7 @@ tfoo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -148,7 +163,7 @@ tfoo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -164,7 +179,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -180,7 +195,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -196,7 +211,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -212,7 +227,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -228,7 +243,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -244,7 +259,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -265,7 +280,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -286,7 +301,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -305,7 +320,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -325,7 +340,7 @@ foo2
 bar
 "
 }
-    
+        
 assert
 lines
 [
@@ -373,10 +388,21 @@ test_make_hosts_file_windows
 )
 :
     
-c
-=
-Config
+with
+ConfigBuilder
 (
+ports
+=
+{
+"
+http
+"
+:
+[
+8000
+]
+}
+                       
 browser_host
 =
 "
@@ -384,6 +410,7 @@ foo
 .
 bar
 "
+                       
 alternate_hosts
 =
 {
@@ -398,7 +425,10 @@ bar
 "
 }
 )
-    
+as
+c
+:
+        
 hosts
 =
 serve
@@ -416,7 +446,7 @@ c
 42
 "
 )
-    
+        
 lines
 =
 hosts
@@ -428,7 +458,7 @@ split
 n
 "
 )
-    
+        
 assert
 set
 (
@@ -439,7 +469,7 @@ lines
 {
 "
 "
-                          
+                              
 "
 0
 .
@@ -455,7 +485,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 0
 .
@@ -471,7 +501,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -485,7 +515,7 @@ tfoo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -499,7 +529,7 @@ tfoo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -515,7 +545,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -531,7 +561,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -547,7 +577,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -563,7 +593,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -579,7 +609,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -595,7 +625,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -616,7 +646,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -637,7 +667,7 @@ foo2
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -656,7 +686,7 @@ foo
 .
 bar
 "
-                          
+                              
 "
 192
 .
@@ -676,7 +706,7 @@ foo2
 bar
 "
 }
-    
+        
 assert
 lines
 [
@@ -693,12 +723,14 @@ test_ws_doc_root_default
 )
 :
     
-c
-=
-Config
+with
+ConfigBuilder
 (
 )
-    
+as
+c
+:
+        
 assert
 c
 .
@@ -727,9 +759,8 @@ test_init_ws_doc_root
 )
 :
     
-c
-=
-Config
+with
+ConfigBuilder
 (
 ws_doc_root
 =
@@ -737,7 +768,10 @@ ws_doc_root
 /
 "
 )
-    
+as
+c
+:
+        
 assert
 c
 .
@@ -747,17 +781,7 @@ doc_root
 localpaths
 .
 repo_root
-    
-assert
-c
-.
-_ws_doc_root
-=
-=
-"
-/
-"
-    
+        
 assert
 c
 .
@@ -773,13 +797,13 @@ test_set_ws_doc_root
 )
 :
     
-c
+cb
 =
-Config
+ConfigBuilder
 (
 )
     
-c
+cb
 .
 ws_doc_root
 =
@@ -787,6 +811,12 @@ ws_doc_root
 /
 "
     
+with
+cb
+as
+c
+:
+        
 assert
 c
 .
@@ -796,17 +826,7 @@ doc_root
 localpaths
 .
 repo_root
-    
-assert
-c
-.
-_ws_doc_root
-=
-=
-"
-/
-"
-    
+        
 assert
 c
 .
@@ -822,11 +842,17 @@ test_pickle
 )
 :
     
+with
+ConfigBuilder
+(
+)
+as
+c
+:
+        
 pickle
 .
 dumps
 (
-Config
-(
-)
+c
 )

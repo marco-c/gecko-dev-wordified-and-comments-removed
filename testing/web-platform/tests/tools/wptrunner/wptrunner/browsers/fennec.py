@@ -484,6 +484,7 @@ browser_kwargs
 (
 test_type
 run_info_data
+config
 *
 *
 kwargs
@@ -675,12 +676,7 @@ chaos_mode_flags
 config
 "
 :
-kwargs
-[
-"
 config
-"
-]
 }
 def
 env_extras

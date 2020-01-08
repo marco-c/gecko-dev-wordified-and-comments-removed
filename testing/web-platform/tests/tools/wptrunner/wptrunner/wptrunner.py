@@ -8,6 +8,10 @@ import
 os
 import
 sys
+from
+wptserve
+import
+sslutils
 import
 environment
 as
@@ -194,7 +198,6 @@ get_loader
 (
 test_paths
 product
-ssl_env
 debug
 =
 None
@@ -384,6 +387,22 @@ tags
 )
 )
     
+ssl_enabled
+=
+sslutils
+.
+get_cls
+(
+kwargs
+[
+"
+ssl_type
+"
+]
+)
+.
+ssl_enabled
+    
 test_loader
 =
 testloader
@@ -438,8 +457,6 @@ this_chunk
                                         
 include_https
 =
-ssl_env
-.
 ssl_enabled
                                         
 skip_timeout
@@ -474,18 +491,6 @@ logger
 test_paths
 )
     
-ssl_env
-=
-env
-.
-ssl_env
-(
-logger
-*
-*
-kwargs
-)
-    
 run_info_extras
 =
 products
@@ -517,7 +522,6 @@ get_loader
 (
 test_paths
 product
-ssl_env
                                        
 run_info_extras
 =
@@ -596,18 +600,6 @@ product
 kwargs
 )
     
-ssl_env
-=
-env
-.
-ssl_env
-(
-logger
-*
-*
-kwargs
-)
-    
 run_info
 test_loader
 =
@@ -615,7 +607,6 @@ get_loader
 (
 test_paths
 product
-ssl_env
                                        
 run_info_extras
 =
@@ -697,18 +688,6 @@ logger
 test_paths
 )
     
-ssl_env
-=
-env
-.
-ssl_env
-(
-logger
-*
-*
-kwargs
-)
-    
 run_info_extras
 =
 products
@@ -740,7 +719,6 @@ get_loader
 (
 test_paths
 product
-ssl_env
                                        
 run_info_extras
 =
@@ -911,18 +889,6 @@ config
 product
 )
         
-ssl_env
-=
-env
-.
-ssl_env
-(
-logger
-*
-*
-kwargs
-)
-        
 env_extras
 =
 get_env_extras
@@ -1058,8 +1024,6 @@ test_paths
                                                
 product
                                                
-ssl_env
-                                               
 run_info_extras
 =
 run_info_extras
@@ -1172,14 +1136,83 @@ test_loader
 kwargs
 )
         
+ssl_config
+=
+{
+"
+type
+"
+:
+kwargs
+[
+"
+ssl_type
+"
+]
+                      
+"
+openssl
+"
+:
+{
+"
+openssl_binary
+"
+:
+kwargs
+[
+"
+openssl_binary
+"
+]
+}
+                      
+"
+pregenerated
+"
+:
+{
+"
+host_key_path
+"
+:
+kwargs
+[
+"
+host_key_path
+"
+]
+                                       
+"
+host_cert_path
+"
+:
+kwargs
+[
+"
+host_cert_path
+"
+]
+                                       
+"
+ca_cert_path
+"
+:
+kwargs
+[
+"
+ca_cert_path
+"
+]
+}
+}
+        
 with
 env
 .
 TestEnvironment
 (
 test_paths
-                                 
-ssl_env
                                  
 kwargs
 [
@@ -1196,6 +1229,8 @@ debug_info
 ]
                                  
 env_options
+                                 
+ssl_config
                                  
 env_extras
 )
@@ -1416,10 +1451,6 @@ get_browser_kwargs
 test_type
                                                         
 run_info
-                                                        
-ssl_env
-=
-ssl_env
                                                         
 config
 =
