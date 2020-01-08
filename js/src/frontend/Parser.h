@@ -3198,7 +3198,7 @@ YieldHandling
 yieldHandling
 )
 ;
-Node
+UnaryNodeType
 returnStatement
 (
 YieldHandling
@@ -3212,7 +3212,7 @@ YieldHandling
 yieldHandling
 )
 ;
-Node
+UnaryNodeType
 throwStatement
 (
 YieldHandling
@@ -3332,7 +3332,7 @@ uint32_t
 begin
 )
 ;
-Node
+UnaryNodeType
 exportFunctionDeclaration
 (
 uint32_t
@@ -3348,21 +3348,21 @@ FunctionAsyncKind
 SyncFunction
 )
 ;
-Node
+UnaryNodeType
 exportVariableStatement
 (
 uint32_t
 begin
 )
 ;
-Node
+UnaryNodeType
 exportClassDeclaration
 (
 uint32_t
 begin
 )
 ;
-Node
+UnaryNodeType
 exportLexicalDeclaration
 (
 uint32_t
@@ -3413,7 +3413,7 @@ exportDeclaration
 (
 )
 ;
-Node
+UnaryNodeType
 expressionStatement
 (
 YieldHandling
@@ -3547,7 +3547,7 @@ YieldHandling
 yieldHandling
 )
 ;
-Node
+UnaryNodeType
 yieldExpression
 (
 InHandling
@@ -3748,7 +3748,7 @@ FunctionBodyType
 type
 )
 ;
-Node
+UnaryNodeType
 unaryOpExpr
 (
 YieldHandling
@@ -4066,7 +4066,7 @@ MutableHandleAtom
 propAtom
 )
 ;
-Node
+UnaryNodeType
 computedPropertyName
 (
 YieldHandling

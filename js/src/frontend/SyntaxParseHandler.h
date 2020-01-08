@@ -384,7 +384,7 @@ return
 NodeName
 ;
 }
-Node
+UnaryNodeType
 newComputedName
 (
 Node
@@ -510,7 +510,7 @@ cookedNode
 )
 {
 }
-Node
+ThisLiteralType
 newThisLiteral
 (
 const
@@ -598,7 +598,7 @@ return
 NodeGeneric
 ;
 }
-Node
+UnaryNodeType
 newDelete
 (
 uint32_t
@@ -611,7 +611,7 @@ return
 NodeUnparenthesizedUnary
 ;
 }
-Node
+UnaryNodeType
 newTypeof
 (
 uint32_t
@@ -624,7 +624,7 @@ return
 NodeUnparenthesizedUnary
 ;
 }
-Node
+UnaryNodeType
 newUnary
 (
 ParseNodeKind
@@ -639,7 +639,7 @@ return
 NodeUnparenthesizedUnary
 ;
 }
-Node
+UnaryNodeType
 newUpdate
 (
 ParseNodeKind
@@ -654,7 +654,7 @@ return
 NodeGeneric
 ;
 }
-Node
+UnaryNodeType
 newSpread
 (
 uint32_t
@@ -874,7 +874,7 @@ return
 NodeGeneric
 ;
 }
-Node
+UnaryNodeType
 newSuperBase
 (
 Node
@@ -1014,7 +1014,7 @@ return
 true
 ;
 }
-Node
+UnaryNodeType
 newYieldExpression
 (
 uint32_t
@@ -1027,7 +1027,7 @@ return
 NodeGeneric
 ;
 }
-Node
+UnaryNodeType
 newYieldStarExpression
 (
 uint32_t
@@ -1040,7 +1040,7 @@ return
 NodeGeneric
 ;
 }
-Node
+UnaryNodeType
 newAwaitExpression
 (
 uint32_t
@@ -1125,7 +1125,7 @@ return
 NodeEmptyStatement
 ;
 }
-Node
+UnaryNodeType
 newExportDeclaration
 (
 Node
@@ -1237,7 +1237,7 @@ return
 value
 ;
 }
-Node
+UnaryNodeType
 newExprStatement
 (
 Node
@@ -1370,7 +1370,7 @@ return
 NodeBreak
 ;
 }
-Node
+UnaryNodeType
 newReturnStatement
 (
 Node
@@ -1385,7 +1385,7 @@ return
 NodeReturn
 ;
 }
-Node
+UnaryNodeType
 newExpressionBody
 (
 Node
@@ -1427,7 +1427,7 @@ return
 NodeGeneric
 ;
 }
-Node
+UnaryNodeType
 newThrowStatement
 (
 Node
@@ -2211,8 +2211,8 @@ pn
 void
 setInDirectivePrologue
 (
-Node
-pn
+UnaryNodeType
+exprStmt
 )
 {
 }
