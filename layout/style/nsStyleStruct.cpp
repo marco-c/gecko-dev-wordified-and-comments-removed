@@ -17044,7 +17044,7 @@ mOverflowY
 hint
 |
 =
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 ;
 }
 if
@@ -17107,7 +17107,7 @@ hint
 =
 nsChangeHint_ReflowHintsForFloatAreaChange
 |
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 ;
 }
 else

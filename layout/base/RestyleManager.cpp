@@ -2641,7 +2641,7 @@ UpdateBackgroundPosition
 AddOrRemoveTransform
 "
 "
-CSSOverflowChange
+ScrollbarChange
 "
 "
 UpdateWidgetProperties
@@ -6149,7 +6149,7 @@ data
 .
 mHint
 &
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 )
 {
 data
@@ -6158,7 +6158,7 @@ mHint
 &
 =
 ~
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 ;
 bool
 doReconstruct

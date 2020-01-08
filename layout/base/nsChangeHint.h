@@ -203,7 +203,7 @@ nsChangeHint_AddOrRemoveTransform
 <
 <
 27
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 =
 1
 <
@@ -570,7 +570,7 @@ nsChangeHint_BorderStyleNoneChange
 nsChangeHint_ChildrenOnlyTransform
 |
 \
-nsChangeHint_CSSOverflowChange
+nsChangeHint_ScrollbarChange
 |
 \
 nsChangeHint_InvalidateRenderingObservers
