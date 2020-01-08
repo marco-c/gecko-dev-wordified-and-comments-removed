@@ -1,9 +1,9 @@
 #
 ifndef
-SystemPrincipal_h
+mozilla_SystemPrincipal_h
 #
 define
-SystemPrincipal_h
+mozilla_SystemPrincipal_h
 #
 include
 "
@@ -59,14 +59,14 @@ systemprincipal
 ;
 1
 "
+namespace
+mozilla
+{
 class
 SystemPrincipal
 final
 :
 public
-mozilla
-:
-:
 BasePrincipal
 {
 SystemPrincipal
@@ -274,5 +274,6 @@ true
 }
 }
 ;
+}
 #
 endif

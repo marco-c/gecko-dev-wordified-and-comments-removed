@@ -219,11 +219,6 @@ nsScriptSecurityManager
 .
 h
 '
-'
-SystemPrincipal
-.
-h
-'
 ]
 EXPORTS
 .
@@ -247,6 +242,11 @@ h
 '
 '
 OriginAttributes
+.
+h
+'
+'
+SystemPrincipal
 .
 h
 '

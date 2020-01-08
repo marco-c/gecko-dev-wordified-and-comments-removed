@@ -658,7 +658,9 @@ h
 #
 include
 "
-SystemPrincipal
+mozilla
+/
+NullPrincipal
 .
 h
 "
@@ -667,7 +669,7 @@ include
 "
 mozilla
 /
-NullPrincipal
+SystemPrincipal
 .
 h
 "

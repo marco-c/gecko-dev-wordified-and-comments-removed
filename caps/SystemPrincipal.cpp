@@ -82,6 +82,10 @@ pratom
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_CLASSINFO
 (
 SystemPrincipal
