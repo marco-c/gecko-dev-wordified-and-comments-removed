@@ -2261,6 +2261,11 @@ Nothing
 )
 )
 ;
+template
+<
+typename
+Unit
+>
 MOZ_MUST_USE
 bool
 setSourceCopy
@@ -2273,7 +2278,7 @@ JS
 :
 SourceText
 <
-char16_t
+Unit
 >
 &
 srcBuf
