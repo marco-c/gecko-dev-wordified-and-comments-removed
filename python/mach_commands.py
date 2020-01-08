@@ -15,6 +15,10 @@ sys
 import
 tempfile
 from
+multiprocessing
+import
+cpu_count
+from
 concurrent
 .
 futures
@@ -385,7 +389,7 @@ jobs
                      
 default
 =
-1
+None
                      
 type
 =
@@ -403,7 +407,16 @@ run
 .
 Default
 is
-1
+the
+number
+of
+CPUs
+'
+                          
+'
+in
+the
+system
 .
 '
 )
@@ -598,7 +611,7 @@ False
                          
 jobs
 =
-1
+None
                          
 python
 =
@@ -887,6 +900,10 @@ self
 jobs
 =
 jobs
+or
+cpu_count
+(
+)
         
 self
 .
