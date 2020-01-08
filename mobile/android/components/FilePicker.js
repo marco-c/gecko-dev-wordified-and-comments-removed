@@ -428,7 +428,7 @@ Ci
 .
 nsIFilePicker
 .
-xulFilter
+filterXUL
 )
 {
 this
@@ -442,18 +442,6 @@ xul
 "
 )
 ;
-}
-if
-(
-aFilterMask
-&
-Ci
-.
-nsIFilePicker
-.
-xulFilter
-)
-{
 this
 .
 appendFilter
