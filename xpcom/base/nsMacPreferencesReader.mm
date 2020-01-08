@@ -147,8 +147,6 @@ void
 EvaluateDict
 (
 JSONWriter
-<
->
 *
 aWriter
 NSDictionary
@@ -166,8 +164,6 @@ void
 EvaluateArray
 (
 JSONWriter
-<
->
 *
 aWriter
 NSArray
@@ -311,8 +307,6 @@ void
 EvaluateDict
 (
 JSONWriter
-<
->
 *
 aWriter
 NSDictionary
@@ -549,8 +543,6 @@ nsAutoString
 jsonStr
 ;
 JSONWriter
-<
->
 w
 (
 MakeUnique

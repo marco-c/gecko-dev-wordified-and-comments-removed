@@ -12980,8 +12980,6 @@ nsAutoCString
 json
 ;
 JSONWriter
-<
->
 jw
 {
 MakeUnique
@@ -12999,8 +12997,6 @@ StartArrayProperty
 (
 nullptr
 JSONWriter
-<
->
 :
 :
 SingleLineStyle

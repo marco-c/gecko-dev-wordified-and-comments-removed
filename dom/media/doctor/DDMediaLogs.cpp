@@ -2501,8 +2501,6 @@ nsCString
 json
 ;
 JSONWriter
-<
->
 jw
 {
 MakeUnique
@@ -2547,8 +2545,6 @@ jw
 StartObjectElement
 (
 JSONWriter
-<
->
 :
 :
 SingleLineStyle
@@ -2879,8 +2875,6 @@ get
 (
 )
 JSONWriter
-<
->
 :
 :
 SingleLineStyle

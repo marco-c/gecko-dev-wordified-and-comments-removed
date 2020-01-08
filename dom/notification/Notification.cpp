@@ -7132,8 +7132,6 @@ nsAutoString
 persistentData
 ;
 JSONWriter
-<
->
 w
 (
 MakeUnique

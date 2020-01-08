@@ -669,7 +669,10 @@ WriteFunc
 void
 WriteProperty
 (
-ProfilerJSONWriter
+mozilla
+:
+:
+JSONWriter
 &
 aWriter
 const
@@ -697,7 +700,10 @@ aStr
 void
 WriteElement
 (
-ProfilerJSONWriter
+mozilla
+:
+:
+JSONWriter
 &
 aWriter
 const
