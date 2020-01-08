@@ -35,7 +35,6 @@ magicNumber
 ;
 }
 }
-;
 customElements
 .
 define

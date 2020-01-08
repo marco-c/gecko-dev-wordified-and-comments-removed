@@ -363,7 +363,6 @@ onVal
 ;
 }
 else
-{
 if
 (
 !
@@ -393,7 +392,6 @@ chromeWindow
 item
 )
 ;
-}
 }
 }
 )
@@ -443,8 +441,10 @@ nextTest
 )
 ;
 }
+;
 nextTest
 (
 )
 ;
 }
+;
