@@ -634,6 +634,12 @@ default
 ;
 MozDocumentMatcher
 (
+dom
+:
+:
+GlobalObject
+&
+aGlobal
 const
 dom
 :
@@ -641,6 +647,8 @@ dom
 MozDocumentMatcherInit
 &
 aInit
+bool
+aRestricted
 ErrorResult
 &
 aRv
@@ -878,6 +886,12 @@ default
 ;
 WebExtensionContentScript
 (
+dom
+:
+:
+GlobalObject
+&
+aGlobal
 WebExtensionPolicy
 &
 aExtension

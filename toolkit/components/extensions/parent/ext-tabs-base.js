@@ -1549,7 +1549,10 @@ extension
 }
 options
 [
+{
 kind
+}
+Paths
 ]
 .
 push
@@ -1709,7 +1712,7 @@ _execute
 context
 details
 "
-jsPaths
+js
 "
 "
 executeScript
@@ -1731,7 +1734,7 @@ _execute
 context
 details
 "
-cssPaths
+css
 "
 "
 insertCSS

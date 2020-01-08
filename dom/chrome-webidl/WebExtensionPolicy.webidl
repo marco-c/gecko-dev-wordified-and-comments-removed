@@ -1023,7 +1023,7 @@ WebExtensionLocalizeCallback
 localizeCallback
 ;
 required
-MatchPatternSet
+MatchPatternSetOrStringSequence
 allowedOrigins
 ;
 sequence
@@ -1037,7 +1037,7 @@ permissions
 ;
 sequence
 <
-MatchGlob
+MatchGlobOrString
 >
 webAccessibleResources
 =
