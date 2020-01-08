@@ -15686,6 +15686,7 @@ aTab
 replaceTabsWithWindow
 (
 contextTab
+aOptions
 )
 {
 let
@@ -15751,6 +15752,7 @@ tabs
 [
 0
 ]
+aOptions
 )
 ;
 }
@@ -15947,6 +15949,7 @@ this
 replaceTabWithWindow
 (
 firstInactiveTab
+aOptions
 )
 ;
 return
