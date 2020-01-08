@@ -1805,7 +1805,6 @@ tests
 ]
         
 argv
-+
 =
 suite_conf
 .
@@ -1817,6 +1816,8 @@ talos_options
 [
 ]
 )
++
+argv
     
 elif
 not
