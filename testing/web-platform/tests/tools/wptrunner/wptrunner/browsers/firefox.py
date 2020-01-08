@@ -1366,6 +1366,18 @@ None
         
 self
 .
+mozleak_allowed
+=
+None
+        
+self
+.
+mozleak_thresholds
+=
+None
+        
+self
+.
 leak_check
 =
 leak_check
@@ -1415,6 +1427,22 @@ lsan_allowed
 test
 .
 lsan_allowed
+    
+def
+settings
+(
+self
+test
+)
+:
+        
+self
+.
+lsan_allowed
+=
+test
+.
+lsan_allowed
         
 self
 .
@@ -1423,6 +1451,22 @@ lsan_max_stack_depth
 test
 .
 lsan_max_stack_depth
+        
+self
+.
+mozleak_allowed
+=
+test
+.
+mozleak_allowed
+        
+self
+.
+mozleak_thresholds
+=
+test
+.
+mozleak_threshold
         
 return
 {
@@ -1472,6 +1516,12 @@ group_metadata
 {
 }
         
+self
+.
+group_metadata
+=
+group_metadata
+        
 if
 self
 .
@@ -1510,13 +1560,6 @@ self
 .
 asan
 :
-            
-print
-"
-Setting
-up
-LSAN
-"
             
 self
 .
@@ -2490,7 +2533,7 @@ self
 .
 logger
 .
-debug
+info
 (
 "
 PROCESS
@@ -2538,27 +2581,9 @@ leak_report_file
                 
 leak_thresholds
 =
-{
-                    
-"
-default
-"
-:
-0
-                    
-"
-tab
-"
-:
-10000
-                    
-"
-geckomediaplugin
-"
-:
-20000
-                
-}
+self
+.
+mozleak_thresholds
                 
 ignore_missing_leaks
 =
@@ -2579,6 +2604,25 @@ stack_fixer
 self
 .
 stack_fixer
+                
+scope
+=
+self
+.
+group_metadata
+.
+get
+(
+"
+scope
+"
+)
+                
+allowed
+=
+self
+.
+mozleak_allowed
             
 )
     
