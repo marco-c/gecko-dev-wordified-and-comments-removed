@@ -72,6 +72,13 @@ js
 '
 adb
 -
+device
+.
+js
+'
+'
+adb
+-
 running
 -
 checker
