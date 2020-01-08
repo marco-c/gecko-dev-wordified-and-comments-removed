@@ -4208,7 +4208,7 @@ if
 cand
 -
 >
-mIpAddress
+mAddress
 .
 Value
 (
@@ -4525,7 +4525,7 @@ WasPassed
 !
 cand
 .
-mIpAddress
+mAddress
 .
 WasPassed
 (

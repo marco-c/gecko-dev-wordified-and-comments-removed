@@ -749,7 +749,7 @@ DOMString
 candidateId
 ;
 DOMString
-ipAddress
+address
 ;
 DOMString
 transport
