@@ -2811,7 +2811,7 @@ aResult
 )
 {
 const
-nsDependentCString
+nsDependentCSubstring
 profileString
 (
 aResult
@@ -2830,6 +2830,8 @@ char
 >
 (
 )
+-
+1
 )
 ;
 self
