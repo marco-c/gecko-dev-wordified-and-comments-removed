@@ -360,8 +360,6 @@ updateDateTimeInputBox
 aMessage
 .
 data
-.
-detail
 )
 ;
 break
@@ -479,6 +477,8 @@ getDateTimeInputBoxValue
 )
 ;
 this
+.
+mm
 .
 sendAsyncMessage
 (
@@ -610,6 +610,8 @@ type
 ;
 this
 .
+mm
+.
 sendAsyncMessage
 (
 "
@@ -632,6 +634,8 @@ MozCloseDateTimePicker
 :
 {
 this
+.
+mm
 .
 sendAsyncMessage
 (
@@ -677,6 +681,8 @@ target
 )
 {
 this
+.
+mm
 .
 sendAsyncMessage
 (
