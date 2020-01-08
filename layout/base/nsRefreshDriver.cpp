@@ -2205,8 +2205,10 @@ sHighPriorityEnabled
 bool
 NotifyVsync
 (
-TimeStamp
-aVsyncTimestamp
+const
+VsyncEvent
+&
+aVsync
 )
 override
 {
@@ -2234,7 +2236,9 @@ mRefreshTickLock
 ;
 mRecentVsync
 =
-aVsyncTimestamp
+aVsync
+.
+mTime
 ;
 if
 (
@@ -2261,7 +2265,9 @@ new
 ParentProcessVsyncNotifier
 (
 this
-aVsyncTimestamp
+aVsync
+.
+mTime
 )
 ;
 NS_DispatchToMainThread
@@ -2274,7 +2280,9 @@ else
 {
 mRecentVsync
 =
-aVsyncTimestamp
+aVsync
+.
+mTime
 ;
 if
 (
@@ -2288,7 +2296,9 @@ IsNull
 &
 mBlockUntil
 >
-aVsyncTimestamp
+aVsync
+.
+mTime
 )
 {
 if
@@ -2345,7 +2355,9 @@ this
 ;
 TickRefreshDriver
 (
-aVsyncTimestamp
+aVsync
+.
+mTime
 )
 ;
 }

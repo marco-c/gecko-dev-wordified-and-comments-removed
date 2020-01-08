@@ -100,8 +100,10 @@ virtual
 bool
 NotifyVsync
 (
-TimeStamp
-aTimeStamp
+const
+VsyncEvent
+&
+aVsync
 )
 override
 ;
@@ -156,8 +158,10 @@ override
 void
 DispatchVsyncEvent
 (
-TimeStamp
-aTimeStamp
+const
+VsyncEvent
+&
+aVsync
 )
 ;
 bool

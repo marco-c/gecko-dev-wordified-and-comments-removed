@@ -133,8 +133,10 @@ aWidget
 bool
 NotifyVsync
 (
-TimeStamp
-aVsyncTimestamp
+const
+VsyncEvent
+&
+aVsync
 )
 ;
 void
@@ -269,8 +271,10 @@ virtual
 bool
 NotifyVsync
 (
-TimeStamp
-aVsyncTimestamp
+const
+VsyncEvent
+&
+aVsync
 )
 override
 ;
