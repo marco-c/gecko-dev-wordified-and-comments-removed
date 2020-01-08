@@ -2052,7 +2052,7 @@ associated
 }
 ;
 namespace
-js
+mozilla
 {
 template
 <

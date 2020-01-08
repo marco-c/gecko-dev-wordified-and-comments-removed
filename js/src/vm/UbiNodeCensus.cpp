@@ -1925,6 +1925,9 @@ const
 char
 *
 CountBasePtr
+mozilla
+:
+:
 CStringHasher
 SystemAllocPolicy
 >
@@ -5002,6 +5005,9 @@ countBase
 #
 ifdef
 DEBUG
+mozilla
+:
+:
 Generation
 generation
 =
@@ -5429,6 +5435,9 @@ lookup
 )
 {
 return
+mozilla
+:
+:
 CStringHasher
 :
 :
@@ -5457,6 +5466,9 @@ lookup
 )
 {
 return
+mozilla
+:
+:
 CStringHasher
 :
 :

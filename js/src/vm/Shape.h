@@ -2434,6 +2434,10 @@ id
 )
 ;
 }
+}
+namespace
+mozilla
+{
 template
 <
 >
@@ -2456,6 +2460,9 @@ id
 )
 {
 return
+js
+:
+:
 HashId
 (
 id
@@ -2481,6 +2488,10 @@ id2
 }
 }
 ;
+}
+namespace
+js
+{
 using
 BaseShapeSet
 =

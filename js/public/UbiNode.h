@@ -4660,7 +4660,7 @@ JSObject
 }
 }
 namespace
-js
+mozilla
 {
 template
 <

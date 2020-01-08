@@ -286,6 +286,11 @@ HashFunctions
 h
 '
 '
+HashTable
+.
+h
+'
+'
 IntegerPrintfMacros
 .
 h

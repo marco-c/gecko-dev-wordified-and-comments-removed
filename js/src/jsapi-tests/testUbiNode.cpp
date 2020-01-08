@@ -2229,7 +2229,7 @@ name
 }
 ;
 namespace
-js
+mozilla
 {
 template
 <

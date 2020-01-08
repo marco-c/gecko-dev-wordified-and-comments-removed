@@ -3351,6 +3351,10 @@ newKey
 }
 }
 ;
+}
+namespace
+mozilla
+{
 template
 <
 typename
@@ -3359,6 +3363,9 @@ T
 struct
 FallibleHashMethods
 <
+js
+:
+:
 MovableCellHasher
 <
 T
@@ -3381,6 +3388,9 @@ l
 )
 {
 return
+js
+:
+:
 MovableCellHasher
 <
 T
@@ -3418,6 +3428,9 @@ l
 )
 {
 return
+js
+:
+:
 MovableCellHasher
 <
 T
