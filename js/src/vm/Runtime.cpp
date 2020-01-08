@@ -918,14 +918,6 @@ liveRuntimesCount
 +
 +
 ;
-lcovOutput
-(
-)
-.
-init
-(
-)
-;
 }
 JSRuntime
 :
