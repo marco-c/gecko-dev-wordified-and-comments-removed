@@ -485,7 +485,9 @@ slice
 1
 )
 ;
-return
+let
+rv
+=
 "
 stacktrace
 :
@@ -501,6 +503,13 @@ join
 \
 n
 "
+)
+;
+return
+rv
+.
+trimEnd
+(
 )
 ;
 }
