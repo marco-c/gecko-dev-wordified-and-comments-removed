@@ -81,6 +81,10 @@ _preferences
 :
 {
 }
+contentProcessFronts
+:
+[
+]
 addOneTimeListener
 :
 (
