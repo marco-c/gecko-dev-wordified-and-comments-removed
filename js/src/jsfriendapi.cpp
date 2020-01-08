@@ -4665,9 +4665,10 @@ nullptr
 }
 bytes
 =
-JS_EncodeStringToLatin1
+StringToNewUTF8CharsZ
 (
 cx
+*
 str
 )
 ;
@@ -4894,9 +4895,10 @@ funname
 UniqueChars
 funbytes
 =
-JS_EncodeStringToLatin1
+StringToNewUTF8CharsZ
 (
 cx
+*
 funname
 )
 ;
@@ -5225,9 +5227,10 @@ isDestructured
 {
 nameBytes
 =
-JS_EncodeStringToLatin1
+StringToNewUTF8CharsZ
 (
 cx
+*
 fi
 .
 name
@@ -5499,9 +5502,10 @@ thisValStr
 UniqueChars
 thisValBytes
 =
-JS_EncodeStringToLatin1
+StringToNewUTF8CharsZ
 (
 cx
+*
 thisValStr
 )
 ;
