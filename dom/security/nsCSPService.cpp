@@ -371,7 +371,7 @@ false
 ;
 }
 bool
-isImgOrStyleOrDTD
+isImgOrStyleOrDTDorXBL
 =
 contentType
 =
@@ -398,6 +398,15 @@ nsIContentPolicy
 :
 :
 TYPE_DTD
+|
+|
+contentType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_XBL
 ;
 rv
 =
@@ -425,7 +434,7 @@ match
 &
 &
 !
-isImgOrStyleOrDTD
+isImgOrStyleOrDTDorXBL
 )
 {
 return
@@ -458,7 +467,7 @@ match
 &
 &
 !
-isImgOrStyleOrDTD
+isImgOrStyleOrDTDorXBL
 )
 {
 return
