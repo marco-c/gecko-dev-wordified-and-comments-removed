@@ -1701,6 +1701,13 @@ cpp
 '
 frontend
 /
+EmitterScope
+.
+cpp
+'
+'
+frontend
+/
 FoldConstants
 .
 cpp
