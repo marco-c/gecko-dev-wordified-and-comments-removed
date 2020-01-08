@@ -246,6 +246,7 @@ data
 .
 sortindex
 )
+{
 return
 this
 .
@@ -253,6 +254,7 @@ data
 .
 sortindex
 ;
+}
 return
 0
 ;
@@ -525,6 +527,7 @@ this
 data
 )
 )
+{
 obj
 [
 key
@@ -546,12 +549,14 @@ val
 :
 val
 ;
+}
 if
 (
 this
 .
 ttl
 )
+{
 obj
 .
 ttl
@@ -560,6 +565,7 @@ this
 .
 ttl
 ;
+}
 return
 obj
 ;
@@ -1043,6 +1049,7 @@ this
 .
 id
 )
+{
 throw
 new
 Error
@@ -1067,6 +1074,7 @@ id
 }
 )
 ;
+}
 return
 this
 .
@@ -1405,9 +1413,11 @@ response
 .
 success
 )
+{
 return
 null
 ;
+}
 let
 record
 =
@@ -1505,6 +1515,7 @@ this
 .
 _records
 )
+{
 return
 Promise
 .
@@ -1518,6 +1529,7 @@ spec
 ]
 )
 ;
+}
 return
 this
 .
@@ -1583,9 +1595,11 @@ this
 .
 _records
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -1794,6 +1808,7 @@ v2
 )
 )
 )
+{
 changed
 .
 push
@@ -1801,6 +1816,7 @@ push
 k1
 )
 ;
+}
 }
 }
 process
@@ -1934,6 +1950,7 @@ _collections
 collection
 ]
 )
+{
 return
 this
 .
@@ -1942,6 +1959,7 @@ _collections
 collection
 ]
 ;
+}
 return
 this
 .
@@ -2333,9 +2351,11 @@ this
 .
 lastModified
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -2345,9 +2365,11 @@ in
 info_collections
 )
 )
+{
 return
 true
 ;
+}
 return
 (
 info_collections
@@ -2415,6 +2437,7 @@ if
 !
 payload
 )
+{
 throw
 new
 Error
@@ -2432,6 +2455,7 @@ setContents
 "
 )
 ;
+}
 if
 (
 !

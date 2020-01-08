@@ -422,6 +422,7 @@ val1
 =
 val2
 )
+{
 throw
 new
 Error
@@ -458,6 +459,7 @@ val1
 )
 )
 ;
+}
 }
 log
 (
@@ -772,6 +774,7 @@ if
 (
 withoutPrefix
 )
+{
 this
 .
 log
@@ -780,7 +783,9 @@ msg
 true
 )
 ;
+}
 else
+{
 this
 .
 log
@@ -794,6 +799,7 @@ INFO
 msg
 )
 ;
+}
 }
 logPass
 (

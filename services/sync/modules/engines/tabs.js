@@ -370,6 +370,7 @@ _tracker
 .
 modified
 )
+{
 changedIDs
 [
 this
@@ -383,6 +384,7 @@ localID
 =
 0
 ;
+}
 return
 changedIDs
 ;

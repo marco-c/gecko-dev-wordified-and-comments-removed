@@ -616,6 +616,7 @@ this
 .
 deleted
 )
+{
 this
 .
 __proto__
@@ -631,6 +632,7 @@ type
 .
 prototype
 ;
+}
 return
 clear
 ;
@@ -2693,6 +2695,7 @@ parentName
 =
 null
 )
+{
 guidMap
 [
 parentName
@@ -2701,6 +2704,7 @@ parentName
 {
 }
 ;
+}
 let
 entry
 =
@@ -4794,9 +4798,11 @@ type
 folder
 "
 )
+{
 return
 FOLDER_SORTINDEX
 ;
+}
 let
 index
 =
@@ -4813,11 +4819,13 @@ parentid
 toolbar
 "
 )
+{
 index
 +
 =
 150
 ;
+}
 if
 (
 record
@@ -4851,11 +4859,13 @@ frecency
 -
 1
 )
+{
 index
 +
 =
 frecency
 ;
+}
 }
 return
 index
@@ -6491,8 +6501,10 @@ property
 )
 )
 )
+{
 return
 ;
+}
 if
 (
 property
@@ -6502,8 +6514,10 @@ property
 favicon
 "
 )
+{
 return
 ;
+}
 this
 .
 _log

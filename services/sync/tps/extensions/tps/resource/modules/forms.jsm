@@ -414,6 +414,7 @@ prop
 in
 this
 )
+{
 this
 [
 prop
@@ -424,6 +425,7 @@ props
 prop
 ]
 ;
+}
 }
 }
 FormData

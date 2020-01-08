@@ -398,6 +398,7 @@ client
 .
 name
 )
+{
 if
 (
 title
@@ -413,9 +414,12 @@ tab
 .
 title
 )
+{
 return
 true
 ;
+}
+}
 }
 Logger
 .

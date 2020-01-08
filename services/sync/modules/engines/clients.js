@@ -3440,9 +3440,11 @@ kRecoveryStrategy
 .
 error
 )
+{
 return
 base
 ;
+}
 this
 .
 _log
@@ -5504,6 +5506,7 @@ this
 .
 _remoteClients
 )
+{
 ids
 [
 id
@@ -5511,6 +5514,7 @@ id
 =
 true
 ;
+}
 return
 ids
 ;

@@ -293,6 +293,7 @@ prop
 in
 this
 )
+{
 this
 [
 prop
@@ -303,6 +304,7 @@ props
 prop
 ]
 ;
+}
 }
 }
 function
@@ -332,6 +334,7 @@ location
 =
 null
 )
+{
 this
 .
 props
@@ -342,6 +345,7 @@ location
 menu
 "
 ;
+}
 if
 (
 "
@@ -350,6 +354,7 @@ changes
 in
 props
 )
+{
 this
 .
 updateProps
@@ -362,13 +367,16 @@ props
 changes
 )
 ;
+}
 else
+{
 this
 .
 updateProps
 =
 null
 ;
+}
 }
 PlacesItem
 .
@@ -704,6 +712,7 @@ nodeType
 =
 type
 )
+{
 if
 (
 uri
@@ -736,6 +745,7 @@ node
 .
 guid
 ;
+}
 }
 }
 }
@@ -951,10 +961,12 @@ guid
 =
 null
 )
+{
 return
 -
 1
 ;
+}
 return
 (
 await
@@ -1254,6 +1266,7 @@ parentGuid
 =
 null
 )
+{
 parentGuid
 =
 await
@@ -1264,6 +1277,7 @@ CreateFolder
 location
 )
 ;
+}
 return
 parentGuid
 ;
@@ -1280,6 +1294,7 @@ if
 (
 after
 )
+{
 if
 (
 !
@@ -1294,13 +1309,17 @@ after
 )
 )
 )
+{
 return
 false
 ;
+}
+}
 if
 (
 before
 )
+{
 if
 (
 !
@@ -1316,9 +1335,12 @@ before
 )
 )
 )
+{
 return
 false
 ;
+}
+}
 if
 (
 last_item_pos
@@ -1671,6 +1693,7 @@ title
 =
 null
 )
+{
 this
 .
 props
@@ -1683,6 +1706,7 @@ props
 .
 uri
 ;
+}
 this
 .
 props
@@ -1862,6 +1886,7 @@ length
 >
 0
 )
+{
 PlacesUtils
 .
 tagging
@@ -1872,6 +1897,7 @@ URI
 tags
 )
 ;
+}
 }
 }
 async
@@ -2498,9 +2524,11 @@ last_item_pos
 )
 )
 )
+{
 return
 null
 ;
+}
 return
 this
 .

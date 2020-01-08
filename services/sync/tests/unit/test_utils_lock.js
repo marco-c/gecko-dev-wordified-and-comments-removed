@@ -64,6 +64,7 @@ startsWith
 )
 )
 )
+{
 do_throw
 (
 thing
@@ -79,6 +80,7 @@ with
 startsWith
 )
 ;
+}
 }
 add_task
 (

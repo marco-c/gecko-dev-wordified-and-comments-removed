@@ -546,6 +546,7 @@ if
 (
 mintGUID
 )
+{
 b
 .
 id
@@ -556,6 +557,7 @@ makeGUID
 (
 )
 ;
+}
 return
 b
 ;

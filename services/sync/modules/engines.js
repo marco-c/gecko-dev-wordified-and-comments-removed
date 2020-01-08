@@ -671,6 +671,7 @@ index
 -
 1
 )
+{
 this
 .
 _ignored
@@ -681,6 +682,7 @@ index
 1
 )
 ;
+}
 }
 async
 _saveChangedID
@@ -1522,6 +1524,7 @@ record
 .
 deleted
 )
+{
 await
 this
 .
@@ -1530,6 +1533,7 @@ remove
 record
 )
 ;
+}
 else
 if
 (
@@ -1546,6 +1550,7 @@ id
 )
 )
 )
+{
 await
 this
 .
@@ -1554,7 +1559,9 @@ create
 record
 )
 ;
+}
 else
+{
 await
 this
 .
@@ -1563,6 +1570,7 @@ update
 record
 )
 ;
+}
 }
 async
 create
@@ -5003,9 +5011,11 @@ guids
 .
 success
 )
+{
 throw
 guids
 ;
+}
 let
 remainingIDs
 =
@@ -6179,6 +6189,7 @@ ids
 =
 null
 )
+{
 this
 .
 _delete
@@ -6189,7 +6200,9 @@ ids
 id
 ]
 ;
+}
 else
+{
 this
 .
 _delete
@@ -6201,6 +6214,7 @@ push
 id
 )
 ;
+}
 }
 async
 _switchItemToDupe
@@ -7529,6 +7543,7 @@ Level
 .
 Trace
 )
+{
 this
 .
 _log
@@ -7543,6 +7558,7 @@ Outgoing
 out
 )
 ;
+}
 await
 out
 .
@@ -7947,6 +7963,7 @@ length
 =
 100
 )
+{
 await
 doDelete
 (
@@ -7954,6 +7971,7 @@ key
 val
 )
 ;
+}
 else
 {
 while

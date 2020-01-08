@@ -341,6 +341,7 @@ _tracker
 .
 modified
 )
+{
 changedIDs
 [
 PREFS_GUID
@@ -348,6 +349,7 @@ PREFS_GUID
 =
 0
 ;
+}
 return
 changedIDs
 ;
@@ -1142,8 +1144,10 @@ id
 =
 PREFS_GUID
 )
+{
 return
 ;
+}
 this
 .
 _log
