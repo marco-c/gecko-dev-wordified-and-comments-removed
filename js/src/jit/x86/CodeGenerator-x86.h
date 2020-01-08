@@ -124,8 +124,13 @@ emitWasmStoreOrExchangeAtomicI64
 T
 *
 ins
-uint32_t
-offset
+const
+wasm
+:
+:
+MemoryAccessDesc
+&
+access
 )
 ;
 public
