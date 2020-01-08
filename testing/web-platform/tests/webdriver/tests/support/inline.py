@@ -32,7 +32,8 @@ http
     
 from
 .
-fixtures
+.
+conftest
 import
 server_config
 url
