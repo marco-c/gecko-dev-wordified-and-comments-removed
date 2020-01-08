@@ -1483,20 +1483,6 @@ en
 US
 '
         
-objdir
-=
-mkdtemp
-(
-)
-        
-self
-.
-addCleanup
-(
-rmtree
-objdir
-)
-        
 srcdir
 =
 mozpath
@@ -1520,6 +1506,23 @@ top_srcdir
 ]
 =
 srcdir
+        
+objdir
+=
+mkdtemp
+(
+dir
+=
+srcdir
+)
+        
+self
+.
+addCleanup
+(
+rmtree
+objdir
+)
         
 return
 ConfigEnvironment

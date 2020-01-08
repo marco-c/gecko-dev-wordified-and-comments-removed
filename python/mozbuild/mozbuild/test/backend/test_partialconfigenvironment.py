@@ -1,4 +1,6 @@
 import
+buildconfig
+import
 os
 import
 unittest
@@ -172,6 +174,11 @@ objdir
 =
 mkdtemp
 (
+dir
+=
+buildconfig
+.
+topsrcdir
 )
         
 self

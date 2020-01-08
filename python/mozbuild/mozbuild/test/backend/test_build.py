@@ -231,6 +231,11 @@ topobjdir
 =
 mkdtemp
 (
+dir
+=
+buildconfig
+.
+topsrcdir
 )
         
 try
