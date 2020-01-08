@@ -1710,8 +1710,10 @@ TSurfaceDescriptorGPUVideo
 {
 result
 =
-new
 GPUVideoTextureHost
+:
+:
+CreateFromDescriptor
 (
 aFlags
 aDesc
