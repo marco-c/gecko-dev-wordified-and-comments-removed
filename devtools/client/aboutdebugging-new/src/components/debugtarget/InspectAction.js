@@ -167,6 +167,11 @@ Actions
 inspectDebugTarget
 (
 target
+.
+type
+target
+.
+id
 )
 )
 ;
