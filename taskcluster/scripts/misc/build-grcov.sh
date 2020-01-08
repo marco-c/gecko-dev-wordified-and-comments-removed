@@ -28,7 +28,7 @@ PROJECT
 grcov
 PROJECT_REVISION
 =
-41d69126e0d821fd2eea3c4aae4986a289e0dd95
+4ad0dbc35b9614e45812e179176f48bb1f70ccab
 #
 This
 script
