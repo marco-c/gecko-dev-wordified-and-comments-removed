@@ -6117,7 +6117,7 @@ reader
 color_scheme
 "
 "
-auto
+light
 "
 )
 ;
@@ -6139,7 +6139,7 @@ dark
 "
 \
 "
-auto
+sepia
 \
 "
 \
