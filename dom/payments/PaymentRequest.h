@@ -558,6 +558,10 @@ aRegion
 const
 nsAString
 &
+aRegionCode
+const
+nsAString
+&
 aCity
 const
 nsAString

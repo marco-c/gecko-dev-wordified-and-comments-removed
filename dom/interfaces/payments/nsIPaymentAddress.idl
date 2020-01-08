@@ -142,6 +142,11 @@ region
 readonly
 attribute
 AString
+regionCode
+;
+readonly
+attribute
+AString
 city
 ;
 readonly
@@ -186,6 +191,9 @@ aAddressLine
 in
 AString
 aRegion
+in
+AString
+aRegionCode
 in
 AString
 aCity

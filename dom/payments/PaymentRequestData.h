@@ -833,6 +833,9 @@ nsString
 mRegion
 ;
 nsString
+mRegionCode
+;
+nsString
 mCity
 ;
 nsString
