@@ -3333,10 +3333,10 @@ int32_t
 GetNumberOfCellsInRow
 (
 Element
-*
-aTable
+&
+aTableElement
 int32_t
-rowIndex
+aRowIndex
 )
 ;
 bool
