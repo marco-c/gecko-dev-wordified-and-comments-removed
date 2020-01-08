@@ -392,10 +392,6 @@ asCompareIC
 output
 (
 )
-.
-scratchReg
-(
-)
 ;
 case
 CacheKind
@@ -4144,7 +4140,8 @@ HandleValue
 lhs
 HandleValue
 rhs
-MutableHandleValue
+bool
+*
 res
 )
 {
@@ -4218,9 +4215,6 @@ cx
 rhs
 )
 ;
-bool
-out
-;
 switch
 (
 op
@@ -4239,8 +4233,7 @@ cx
 lhsCopy
 &
 rhsCopy
-&
-out
+res
 )
 )
 {
@@ -4263,8 +4256,7 @@ cx
 lhsCopy
 &
 rhsCopy
-&
-out
+res
 )
 )
 {
@@ -4287,8 +4279,7 @@ cx
 lhsCopy
 &
 rhsCopy
-&
-out
+res
 )
 )
 {
@@ -4311,8 +4302,7 @@ cx
 lhsCopy
 &
 rhsCopy
-&
-out
+res
 )
 )
 {
@@ -4338,8 +4328,7 @@ cx
 lhsCopy
 &
 rhsCopy
-&
-out
+res
 )
 )
 {
@@ -4365,8 +4354,7 @@ cx
 lhsCopy
 &
 rhsCopy
-&
-out
+res
 )
 )
 {
@@ -4392,8 +4380,7 @@ cx
 lhsCopy
 &
 rhsCopy
-&
-out
+res
 )
 )
 {
@@ -4419,8 +4406,7 @@ cx
 lhsCopy
 &
 rhsCopy
-&
-out
+res
 )
 )
 {
@@ -4446,13 +4432,6 @@ return
 false
 ;
 }
-res
-.
-setBoolean
-(
-out
-)
-;
 if
 (
 ic
