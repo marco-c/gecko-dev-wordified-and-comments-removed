@@ -28,10 +28,6 @@ allFonts
 :
 [
 ]
-fonts
-:
-[
-]
 }
 ;
 const
@@ -44,14 +40,12 @@ UPDATE_FONTS
 (
 _
 {
-fonts
 allFonts
 }
 )
 {
 return
 {
-fonts
 allFonts
 }
 ;
