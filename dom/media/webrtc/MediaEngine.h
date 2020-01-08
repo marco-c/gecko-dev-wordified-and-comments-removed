@@ -93,13 +93,6 @@ class
 MediaEngineSource
 ;
 enum
-MediaSinkEnum
-{
-Speaker
-Other
-}
-;
-enum
 {
 kVideoTrack
 =
@@ -145,12 +138,11 @@ dom
 :
 :
 MediaSourceEnum
-MediaSinkEnum
 nsTArray
 <
 RefPtr
 <
-MediaDevice
+MediaEngineSource
 >
 >
 *

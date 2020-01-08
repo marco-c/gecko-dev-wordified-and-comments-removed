@@ -782,12 +782,11 @@ dom
 :
 :
 MediaSourceEnum
-MediaSinkEnum
 nsTArray
 <
 RefPtr
 <
-MediaDevice
+MediaEngineSource
 >
 >
 *
