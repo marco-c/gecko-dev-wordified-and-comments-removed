@@ -543,7 +543,6 @@ true
 }
 )
 }
-Ignore
 Test
 fun
 multipleLoads
