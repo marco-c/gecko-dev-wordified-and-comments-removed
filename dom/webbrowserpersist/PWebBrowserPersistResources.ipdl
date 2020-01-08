@@ -116,6 +116,8 @@ VisitResource
 (
 nsCString
 aURI
+uint32_t
+aContentPolicyType
 )
 ;
 /

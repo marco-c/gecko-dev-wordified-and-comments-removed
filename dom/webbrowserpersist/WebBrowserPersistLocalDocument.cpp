@@ -1191,6 +1191,8 @@ const
 nsACString
 &
 aURISpec
+nsContentPolicyType
+aContentPolicyType
 )
 ;
 nsresult
@@ -1199,6 +1201,8 @@ OnWalkURI
 nsIURI
 *
 aURI
+nsContentPolicyType
+aContentPolicyType
 )
 ;
 nsresult
@@ -1207,6 +1211,8 @@ OnWalkAttribute
 Element
 *
 aElement
+nsContentPolicyType
+aContentPolicyType
 const
 char
 *
@@ -1526,6 +1532,8 @@ OnWalkURI
 nsIURI
 *
 aURI
+nsContentPolicyType
+aContentPolicyType
 )
 {
 bool
@@ -1587,6 +1595,7 @@ VisitResource
 (
 mParent
 stringURI
+aContentPolicyType
 )
 ;
 }
@@ -1600,6 +1609,8 @@ const
 nsACString
 &
 aURISpec
+nsContentPolicyType
+aContentPolicyType
 )
 {
 nsresult
@@ -1639,6 +1650,7 @@ return
 OnWalkURI
 (
 uri
+aContentPolicyType
 )
 ;
 }
@@ -1747,6 +1759,8 @@ OnWalkAttribute
 Element
 *
 aElement
+nsContentPolicyType
+aContentPolicyType
 const
 char
 *
@@ -1785,6 +1799,7 @@ return
 OnWalkURI
 (
 uriSpec
+aContentPolicyType
 )
 ;
 }
@@ -1910,6 +1925,10 @@ NS_ConvertUTF16toUTF8
 (
 href
 )
+nsIContentPolicy
+:
+:
+TYPE_STYLESHEET
 )
 ;
 }
@@ -1941,6 +1960,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 "
 src
 "
@@ -1970,6 +1993,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 "
 href
 "
@@ -2018,6 +2045,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_MEDIA
 "
 src
 "
@@ -2047,6 +2078,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_MEDIA
 "
 src
 "
@@ -2076,6 +2111,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 "
 background
 "
@@ -2105,6 +2144,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 "
 background
 "
@@ -2134,6 +2177,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 "
 background
 "
@@ -2167,6 +2214,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 "
 background
 "
@@ -2196,6 +2247,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_SCRIPT
 "
 src
 "
@@ -2225,6 +2280,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_SCRIPT
 "
 href
 "
@@ -2269,6 +2328,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_OBJECT
 "
 src
 "
@@ -2298,6 +2361,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_OBJECT
 "
 data
 "
@@ -2463,6 +2530,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_STYLESHEET
 "
 href
 "
@@ -2570,6 +2641,10 @@ aNode
 AsElement
 (
 )
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 "
 src
 "

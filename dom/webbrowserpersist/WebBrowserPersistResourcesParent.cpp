@@ -179,6 +179,10 @@ const
 nsCString
 &
 aURI
+const
+nsContentPolicyType
+&
+aContentPolicyType
 )
 {
 mVisitor
@@ -188,6 +192,7 @@ VisitResource
 (
 mDocument
 aURI
+aContentPolicyType
 )
 ;
 return

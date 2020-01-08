@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsIContentPolicy
+.
+h
+"
+#
+include
+"
 nsIWebProgressListener2
 .
 h
@@ -194,6 +201,8 @@ aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsContentPolicyType
+aContentPolicyType
 uint32_t
 aCacheKey
 nsIURI
@@ -390,6 +399,8 @@ aURI
 nsIWebBrowserPersistDocument
 *
 aDoc
+nsContentPolicyType
+aContentPolicyType
 bool
 aNeedsPersisting
 URIData
@@ -531,6 +542,8 @@ aURI
 nsIWebBrowserPersistDocument
 *
 aDoc
+nsContentPolicyType
+aContentPolicyType
 bool
 aNeedsPersisting
 =
@@ -552,6 +565,8 @@ aURI
 nsIWebBrowserPersistDocument
 *
 aDoc
+nsContentPolicyType
+aContentPolicyType
 bool
 aNeedsPersisting
 =

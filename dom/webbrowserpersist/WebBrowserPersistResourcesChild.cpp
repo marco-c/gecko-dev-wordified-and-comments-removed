@@ -62,6 +62,8 @@ const
 nsACString
 &
 aURI
+nsContentPolicyType
+aContentPolicyType
 )
 {
 nsCString
@@ -73,6 +75,7 @@ aURI
 SendVisitResource
 (
 copiedURI
+aContentPolicyType
 )
 ;
 return
