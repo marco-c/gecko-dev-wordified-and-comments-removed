@@ -3946,11 +3946,6 @@ DIR
 source
             
 '
-RUST_TARGET
-=
-0
-'
-'
 RUSTC_COMMIT
 =
 0
