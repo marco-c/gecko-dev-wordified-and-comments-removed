@@ -4232,6 +4232,7 @@ findWindowStart
 size_t
 offset
 )
+const
 ;
 size_t
 findWindowEnd
@@ -4239,6 +4240,7 @@ findWindowEnd
 size_t
 offset
 )
+const
 ;
 private
 :
