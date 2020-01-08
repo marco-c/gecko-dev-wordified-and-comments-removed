@@ -129,6 +129,11 @@ aIsUsingWebRender
 )
 ;
 void
+Destroy
+(
+)
+;
+void
 SetWebRenderWindowId
 (
 const
@@ -359,8 +364,10 @@ std
 unordered_map
 <
 uint64_t
+RefPtr
+<
 APZSampler
-*
+>
 >
 >
 sWindowIdMap

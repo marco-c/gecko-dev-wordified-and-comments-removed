@@ -2340,6 +2340,13 @@ mApzUpdater
 )
 {
 mApzSampler
+-
+>
+Destroy
+(
+)
+;
+mApzSampler
 =
 nullptr
 ;
