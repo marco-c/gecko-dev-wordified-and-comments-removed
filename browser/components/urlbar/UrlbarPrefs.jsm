@@ -224,6 +224,12 @@ maxRichResults
 ]
 [
 "
+openintab
+"
+false
+]
+[
+"
 suggest
 .
 bookmark
