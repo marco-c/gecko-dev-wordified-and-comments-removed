@@ -150,9 +150,9 @@ override
 ;
 protected
 :
-nsCOMPtr
+RefPtr
 <
-nsIDOMXULSelectControlElement
+Element
 >
 mSelectControl
 ;
