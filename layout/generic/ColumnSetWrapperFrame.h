@@ -45,6 +45,13 @@ nsFrameState
 aStateFlags
 )
 ;
+nsContainerFrame
+*
+GetContentInsertionFrame
+(
+)
+override
+;
 void
 AppendDirectlyOwnedAnonBoxes
 (
