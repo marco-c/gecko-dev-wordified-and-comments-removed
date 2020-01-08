@@ -5644,6 +5644,7 @@ ParsingMode
 DEFAULT
 quirks_mode
 error_reporter
+None
 )
 ;
 let
@@ -5746,6 +5747,7 @@ Style
 parsing_mode
 quirks_mode
 error_reporter
+None
 )
 ;
 let

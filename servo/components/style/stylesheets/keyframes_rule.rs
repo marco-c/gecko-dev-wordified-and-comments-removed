@@ -1239,6 +1239,7 @@ parent_stylesheet_contents
 .
 quirks_mode
 None
+None
 )
 ;
 context

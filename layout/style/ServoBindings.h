@@ -3895,6 +3895,11 @@ nsIDocument
 *
 )
 ;
+StyleUseCountersStrong
+Servo_UseCounters_Create
+(
+)
+;
 }
 #
 endif

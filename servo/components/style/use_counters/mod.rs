@@ -156,6 +156,13 @@ Relaxed
 ;
 }
 }
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 UseCounters

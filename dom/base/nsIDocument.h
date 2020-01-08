@@ -9001,6 +9001,13 @@ true
 ;
 }
 }
+const
+StyleUseCounters
+*
+GetStyleUseCounters
+(
+)
+;
 void
 SetPageUseCounter
 (
@@ -11204,6 +11211,13 @@ mozilla
 eUseCounter_Count
 >
 mNotifiedPageForUseCounter
+;
+RefPtr
+<
+const
+StyleUseCounters
+>
+mStyleUseCounters
 ;
 bool
 mUserHasInteracted

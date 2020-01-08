@@ -195,6 +195,12 @@ NestedRuleIterationCondition
 RulesIterator
 }
 ;
+use
+use_counters
+:
+:
+UseCounters
+;
 pub
 struct
 UserAgentStylesheets
@@ -357,6 +363,13 @@ QuirksMode
 line_number_offset
 :
 u32
+use_counters
+:
+Option
+<
+&
+UseCounters
+>
 )
 -
 >
@@ -408,6 +421,7 @@ stylesheet_loader
 error_reporter
 quirks_mode
 line_number_offset
+use_counters
 )
 ;
 Self
@@ -1751,6 +1765,7 @@ contents
 .
 quirks_mode
 line_number_offset
+None
 )
 ;
 *
@@ -1894,6 +1909,13 @@ QuirksMode
 line_number_offset
 :
 u32
+use_counters
+:
+Option
+<
+&
+UseCounters
+>
 )
 -
 >
@@ -1967,6 +1989,7 @@ ParsingMode
 DEFAULT
 quirks_mode
 error_reporter
+use_counters
 )
 ;
 let
@@ -2205,6 +2228,7 @@ stylesheet_loader
 error_reporter
 quirks_mode
 line_number_offset
+None
 )
 ;
 Stylesheet
