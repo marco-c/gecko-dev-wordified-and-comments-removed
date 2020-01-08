@@ -99,6 +99,9 @@ window
 thawed
 "
 class
+nsDOMOfflineResourceList
+;
+class
 nsDOMWindowList
 ;
 class
@@ -163,7 +166,7 @@ class
 ThrottledEventQueue
 ;
 class
-AutoplayPermissionManager
+AutoplayRequest
 ;
 namespace
 dom
@@ -1560,10 +1563,8 @@ GetFrameElement
 0
 ;
 virtual
-already_AddRefed
-<
-nsIDOMOfflineResourceList
->
+nsDOMOfflineResourceList
+*
 GetApplicationCache
 (
 )
@@ -1627,9 +1628,9 @@ already_AddRefed
 mozilla
 :
 :
-AutoplayPermissionManager
+AutoplayRequest
 >
-GetAutoplayPermissionManager
+GetAutoplayRequest
 (
 )
 ;
@@ -1859,9 +1860,9 @@ RefPtr
 mozilla
 :
 :
-AutoplayPermissionManager
+AutoplayRequest
 >
-mAutoplayPermissionManager
+mAutoplayRequest
 ;
 mozilla
 :

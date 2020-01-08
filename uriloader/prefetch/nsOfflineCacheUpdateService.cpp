@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIDOMOfflineResourceList
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -2047,12 +2040,6 @@ if
 aWindow
 )
 {
-nsCOMPtr
-<
-nsIDOMOfflineResourceList
->
-appCacheWindowObject
-=
 aWindow
 -
 >

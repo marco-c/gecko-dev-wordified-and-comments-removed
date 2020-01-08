@@ -378,9 +378,6 @@ paintworklet
 *
 /
 interface
-ApplicationCache
-;
-interface
 IID
 ;
 interface
@@ -388,6 +385,10 @@ nsIBrowserDOMWindow
 ;
 interface
 XULControllers
+;
+typedef
+OfflineResourceList
+ApplicationCache
 ;
 /
 /
