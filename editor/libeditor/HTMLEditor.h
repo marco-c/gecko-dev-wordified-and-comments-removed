@@ -519,6 +519,15 @@ aState
 override
 ;
 virtual
+nsresult
+PasteAsQuotationAsAction
+(
+int32_t
+aClipboardType
+)
+override
+;
+virtual
 bool
 CanPasteTransferable
 (

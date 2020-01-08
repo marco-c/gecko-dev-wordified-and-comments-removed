@@ -367,6 +367,14 @@ nsAString
 aStringToInsert
 )
 ;
+virtual
+nsresult
+PasteAsQuotationAsAction
+(
+int32_t
+aClipboardType
+)
+;
 nsresult
 DeleteSelectionAsAction
 (

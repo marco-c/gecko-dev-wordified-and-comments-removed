@@ -3063,7 +3063,7 @@ IsControl
 textEditor
 -
 >
-PasteAsQuotation
+PasteAsQuotationAsAction
 (
 clipboard
 )
