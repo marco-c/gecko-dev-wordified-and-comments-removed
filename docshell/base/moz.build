@@ -405,6 +405,11 @@ nsCTooltipTextProvider
 h
 '
 '
+nsDocShell
+.
+h
+'
+'
 nsDocShellLoadInfo
 .
 h
@@ -426,11 +431,6 @@ h
 '
 '
 nsIScrollObserver
-.
-h
-'
-'
-nsIWebShellServices
 .
 h
 '
