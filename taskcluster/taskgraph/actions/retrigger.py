@@ -24,6 +24,8 @@ util
 import
 (
     
+combine_task_graph_files
+    
 create_tasks
     
 fetch_graph_and_labels
@@ -405,5 +407,16 @@ i
 +
 1
 times
+)
+)
+    
+combine_task_graph_files
+(
+list
+(
+range
+(
+times
+)
 )
 )
