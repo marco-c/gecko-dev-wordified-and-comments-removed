@@ -151,6 +151,7 @@ onfullscreenerror
 ;
 partial
 interface
+mixin
 DocumentOrShadowRoot
 {
 [
