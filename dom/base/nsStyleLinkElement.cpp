@@ -1515,6 +1515,14 @@ GetContainingShadow
 (
 )
 ;
+if
+(
+MOZ_LIKELY
+(
+containingShadow
+)
+)
+{
 containingShadow
 -
 >
@@ -1523,6 +1531,7 @@ RemoveSheet
 mStyleSheet
 )
 ;
+}
 }
 else
 {
