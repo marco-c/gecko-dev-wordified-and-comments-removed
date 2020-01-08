@@ -1744,7 +1744,7 @@ AllowsTransactionsToChangeSelection
 mEditorBase
 -
 >
-SetShouldTxnSetSelection
+MakeThisAllowTransactionsToChangeSelection
 (
 false
 )
@@ -1764,7 +1764,7 @@ mEditorBase
 mEditorBase
 -
 >
-SetShouldTxnSetSelection
+MakeThisAllowTransactionsToChangeSelection
 (
 mAllowedTransactionsToChangeSelection
 )
