@@ -708,6 +708,9 @@ url_base
 False
 )
         
+try
+:
+            
 with
 open
 (
@@ -719,7 +722,7 @@ rb
 as
 f
 :
-            
+                
 for
 key
 value
@@ -730,10 +733,20 @@ f
 js_meta_re
 )
 :
-                
+                    
 yield
 key
 value
+        
+except
+IOError
+:
+            
+raise
+HTTPException
+(
+404
+)
     
 def
 _get_meta
