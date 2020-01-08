@@ -81,11 +81,6 @@ paramCount
 uint8_t
 i
 ;
-nsresult
-result
-=
-NS_ERROR_FAILURE
-;
 NS_ASSERTION
 (
 self
@@ -634,6 +629,7 @@ uint32_t
 args
 )
 ;
+nsresult
 result
 =
 self

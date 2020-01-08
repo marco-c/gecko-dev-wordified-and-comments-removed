@@ -64,11 +64,6 @@ paramCount
 uint8_t
 i
 ;
-nsresult
-result
-=
-NS_ERROR_FAILURE
-;
 uint32_t
 argIndex
 =
@@ -654,6 +649,7 @@ break
 }
 }
 }
+nsresult
 result
 =
 self

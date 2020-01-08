@@ -85,11 +85,6 @@ regwords
 =
 1
 ;
-nsresult
-result
-=
-NS_ERROR_FAILURE
-;
 uint8_t
 paramCount
 ;
@@ -758,6 +753,7 @@ break
 regwords
 ;
 }
+nsresult
 result
 =
 self
