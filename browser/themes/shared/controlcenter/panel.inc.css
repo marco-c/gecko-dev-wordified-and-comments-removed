@@ -2209,10 +2209,6 @@ margin
 0
 ;
 border
-:
-none
-;
-border
 -
 top
 :
@@ -2237,12 +2233,8 @@ padding
 color
 :
 inherit
-;
-background
--
-color
-:
-transparent
+!
+important
 ;
 }
 .
