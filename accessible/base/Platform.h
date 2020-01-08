@@ -288,6 +288,8 @@ ProxyAccessible
 *
 aTarget
 uint32_t
+aEventType
+uint32_t
 aScrollX
 uint32_t
 aScrollY

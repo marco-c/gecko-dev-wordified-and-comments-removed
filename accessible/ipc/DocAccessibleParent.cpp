@@ -2362,6 +2362,7 @@ ANDROID
 ProxyScrollingEvent
 (
 target
+aType
 aScrollX
 aScrollY
 aMaxScrollX
