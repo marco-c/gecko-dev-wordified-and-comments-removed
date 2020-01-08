@@ -1120,12 +1120,6 @@ redundant
 smartptr
 -
 get
-publish
-:
-!
-!
-bool
-no
 -
 name
 :
