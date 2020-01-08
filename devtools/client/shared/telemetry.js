@@ -2464,6 +2464,11 @@ case
 FLEXBOX_HIGHLIGHTER
 "
 :
+case
+"
+GRID_HIGHLIGHTER
+"
+:
 timerHist
 =
 DEVTOOLS_
