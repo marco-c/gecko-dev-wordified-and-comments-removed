@@ -2754,9 +2754,6 @@ allowDoubleResult_
 uint32_t
 stubDataOffset_
 ;
-uint32_t
-nextStubField_
-;
 enum
 class
 StubFieldPolicy
@@ -2817,10 +2814,6 @@ mode
 stubDataOffset_
 (
 stubDataOffset
-)
-nextStubField_
-(
-0
 )
 stubFieldPolicy_
 (
@@ -3146,9 +3139,7 @@ writer_
 .
 readStubFieldForIon
 (
-nextStubField_
-+
-+
+offset
 type
 )
 .
@@ -3200,9 +3191,7 @@ writer_
 .
 readStubFieldForIon
 (
-nextStubField_
-+
-+
+offset
 type
 )
 .
