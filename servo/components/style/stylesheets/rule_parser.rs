@@ -122,7 +122,6 @@ stylesheets
 CssRule
 CssRuleType
 CssRules
-Origin
 RulesMutateError
 StylesheetLoader
 }
@@ -254,10 +253,6 @@ a
 >
 {
 pub
-stylesheet_origin
-:
-Origin
-pub
 shared_lock
 :
 &
@@ -351,11 +346,6 @@ b
 {
 NestedRuleParser
 {
-stylesheet_origin
-:
-self
-.
-stylesheet_origin
 shared_lock
 :
 self
@@ -1692,9 +1682,6 @@ b
 a
 >
 {
-stylesheet_origin
-:
-Origin
 shared_lock
 :
 &
@@ -1780,11 +1767,6 @@ nested_parser
 =
 NestedRuleParser
 {
-stylesheet_origin
-:
-self
-.
-stylesheet_origin
 shared_lock
 :
 self
@@ -2982,6 +2964,9 @@ eval
 (
 &
 eval_context
+self
+.
+namespaces
 )
 ;
 Ok
@@ -3396,6 +3381,8 @@ SelectorParser
 stylesheet_origin
 :
 self
+.
+context
 .
 stylesheet_origin
 namespaces

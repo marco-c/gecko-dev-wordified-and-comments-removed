@@ -1581,11 +1581,6 @@ rule_parser
 =
 TopLevelRuleParser
 {
-stylesheet_origin
-:
-parent_stylesheet_contents
-.
-origin
 context
 shared_lock
 :
