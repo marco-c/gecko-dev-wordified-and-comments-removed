@@ -297,7 +297,7 @@ search
 *
 /
 attribute
-wstring
+AString
 searchString
 ;
 /
