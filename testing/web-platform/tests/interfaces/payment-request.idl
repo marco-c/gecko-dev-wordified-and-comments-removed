@@ -217,7 +217,7 @@ error
 PaymentItem
 total
 ;
-AddressErrorFields
+AddressErrors
 shippingAddressErrors
 ;
 }
@@ -462,7 +462,7 @@ phone
 }
 ;
 dictionary
-AddressErrorFields
+AddressErrors
 {
 DOMString
 addressLine
