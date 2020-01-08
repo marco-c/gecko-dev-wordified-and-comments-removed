@@ -6393,6 +6393,15 @@ nsAString
 aLangTag
 )
 ;
+static
+bool
+ShouldHandleMetaViewport
+(
+nsIDocument
+*
+aDocument
+)
+;
 template
 <
 bool
