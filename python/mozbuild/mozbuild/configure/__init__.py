@@ -1964,6 +1964,12 @@ queue_debug
                 
 yield
         
+self
+.
+_logger
+=
+logger
+        
 encoding
 =
 getpreferredencoding
@@ -2709,9 +2715,8 @@ split
 0
 ]
             
-raise
-InvalidOptionError
-(
+msg
+=
 '
 Unknown
 option
@@ -2721,6 +2726,29 @@ s
 '
 %
 without_value
+            
+if
+self
+.
+_help
+:
+                
+self
+.
+_logger
+.
+warning
+(
+msg
+)
+            
+else
+:
+                
+raise
+InvalidOptionError
+(
+msg
 )
         
 for
