@@ -108,7 +108,10 @@ ALLOW_IN_GPU_PROCESS
 COMPONENT_M
 (
 TIMER
-nsTimerConstructor
+nsTimer
+:
+:
+XPCOMConstructor
 Module
 :
 :
