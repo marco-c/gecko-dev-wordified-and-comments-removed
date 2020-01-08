@@ -10375,6 +10375,12 @@ shadowdom
 enabled
 true
 )
+random
+-
+if
+(
+webrender
+)
 =
 =
 fragid
@@ -10391,6 +10397,10 @@ shadow
 ref
 .
 html
+#
+Suspected
+bug
+1471583
 pref
 (
 dom
