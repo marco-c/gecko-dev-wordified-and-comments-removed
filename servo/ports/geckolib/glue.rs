@@ -8428,16 +8428,6 @@ Origin
 :
 :
 UserAgent
-SheetParsingMode
-:
-:
-eSafeAgentSheetFeatures
-=
->
-Origin
-:
-:
-UserAgent
 }
 }
 #
