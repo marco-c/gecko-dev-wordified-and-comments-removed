@@ -1276,7 +1276,7 @@ FunctionBox
 JSContext
 *
 cx
-ObjectBox
+TraceListNode
 *
 traceListHead
 JSFunction
@@ -1495,6 +1495,8 @@ const
 return
 &
 object
+(
+)
 -
 >
 as
@@ -1503,6 +1505,19 @@ JSFunction
 >
 (
 )
+;
+}
+void
+clobberFunction
+(
+JSFunction
+*
+function
+)
+{
+gcThing
+=
+function
 ;
 }
 Scope

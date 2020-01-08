@@ -7381,6 +7381,14 @@ return
 break
 ;
 }
+#
+ifdef
+ENABLE_BIGINT
+case
+JOF_BIGINT
+:
+#
+endif
 case
 JOF_DOUBLE
 :

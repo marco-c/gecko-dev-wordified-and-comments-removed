@@ -42305,9 +42305,10 @@ isInterpreted
 funbox
 -
 >
-object
-=
+clobberFunction
+(
 moduleFun
+)
 ;
 *
 validated

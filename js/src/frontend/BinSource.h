@@ -191,7 +191,7 @@ JSTracer
 trc
 )
 {
-ObjectBox
+TraceListNode
 :
 :
 TraceList
@@ -275,7 +275,7 @@ LifoAlloc
 &
 alloc_
 ;
-ObjectBox
+TraceListNode
 *
 traceListHead_
 ;
