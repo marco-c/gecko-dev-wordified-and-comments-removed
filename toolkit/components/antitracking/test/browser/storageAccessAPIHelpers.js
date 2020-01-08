@@ -374,7 +374,7 @@ thrown
 )
 ;
 await
-noStorageAccessInitially
+hasStorageAccessInitially
 (
 )
 ;
@@ -477,9 +477,6 @@ true
 }
 success
 =
-rejectTrackers
-&
-&
 !
 threw
 &
@@ -527,6 +524,9 @@ now
 if
 (
 success
+&
+&
+rejectTrackers
 )
 {
 await
