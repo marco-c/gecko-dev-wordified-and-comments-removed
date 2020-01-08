@@ -436,12 +436,6 @@ CompletenessInfo
 >
 CalcCompletenessInfo
 (
-bool
-ensureInit
-bool
-skipMips
-=
-false
 )
 const
 ;
@@ -1284,8 +1278,6 @@ IsMipAndCubeComplete
 (
 uint32_t
 maxLevel
-bool
-ensureInit
 bool
 *
 out_initFailed

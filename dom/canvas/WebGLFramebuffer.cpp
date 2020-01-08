@@ -529,12 +529,6 @@ complete
 )
 {
 const
-bool
-ensureInit
-=
-false
-;
-const
 auto
 texCompleteness
 =
@@ -543,7 +537,6 @@ tex
 >
 CalcCompletenessInfo
 (
-ensureInit
 )
 ;
 if
