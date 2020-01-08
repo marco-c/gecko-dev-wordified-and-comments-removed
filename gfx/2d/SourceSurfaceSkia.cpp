@@ -96,6 +96,10 @@ SourceSurfaceSkia
 mChangeMutex
 "
 )
+mIsMapped
+(
+false
+)
 {
 }
 SourceSurfaceSkia
