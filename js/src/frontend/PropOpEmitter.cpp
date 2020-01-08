@@ -239,9 +239,8 @@ if
 bce_
 -
 >
-emit1
+emitSuperBase
 (
-JSOP_SUPERBASE
 )
 )
 {
@@ -470,9 +469,8 @@ if
 bce_
 -
 >
-emit1
+emitSuperBase
 (
-JSOP_SUPERBASE
 )
 )
 {
@@ -613,9 +611,8 @@ if
 bce_
 -
 >
-emit1
+emitSuperBase
 (
-JSOP_SUPERBASE
 )
 )
 {

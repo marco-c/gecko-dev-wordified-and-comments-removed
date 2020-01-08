@@ -9943,6 +9943,17 @@ CALLEE
 )
 ;
 case
+JSOP_ENVCALLEE
+:
+return
+write
+(
+"
+ENVCALLEE
+"
+)
+;
+case
 JSOP_CALLSITEOBJ
 :
 return
