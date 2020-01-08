@@ -22,16 +22,6 @@ recur
 pids
 )
 {
-let
-processCreated
-=
-TestUtils
-.
-topicObserved
-(
-CONTENT_CREATED
-)
-;
 await
 BrowserTestUtils
 .
@@ -56,9 +46,6 @@ function
 browser
 )
 {
-await
-processCreated
-;
 let
 newPid
 =
@@ -87,7 +74,10 @@ in
 its
 own
 process
+:
 "
++
+recur
 )
 ;
 pids
