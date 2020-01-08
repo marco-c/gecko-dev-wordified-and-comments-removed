@@ -119,6 +119,11 @@ AudioPlaybackChild
 jsm
 '
 '
+BrowserChild
+.
+jsm
+'
+'
 ControllersChild
 .
 jsm
