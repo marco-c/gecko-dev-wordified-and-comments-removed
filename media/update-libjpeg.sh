@@ -122,6 +122,11 @@ revert_files
 1050342
 .
 diff
+assembly
+-
+tables
+.
+diff
 externalize
 -
 table
@@ -212,5 +217,15 @@ i
 externalize
 -
 table
+.
+diff
+patch
+-
+p3
+-
+i
+assembly
+-
+tables
 .
 diff
