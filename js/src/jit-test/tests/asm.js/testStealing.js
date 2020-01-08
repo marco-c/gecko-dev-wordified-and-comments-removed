@@ -20,17 +20,6 @@ js
 "
 )
 ;
-if
-(
-!
-isAsmJSCompilationAvailable
-(
-)
-)
-quit
-(
-)
-;
 var
 code
 =

@@ -22,17 +22,6 @@ js
 ;
 if
 (
-!
-isAsmJSCompilationAvailable
-(
-)
-)
-quit
-(
-)
-;
-if
-(
 getJitCompilerOptions
 (
 )

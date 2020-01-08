@@ -17,12 +17,6 @@ true
 if
 (
 !
-isAsmJSCompilationAvailable
-(
-)
-|
-|
-!
 isCachingEnabled
 (
 )

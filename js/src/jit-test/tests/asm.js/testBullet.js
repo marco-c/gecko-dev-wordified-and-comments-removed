@@ -3,17 +3,6 @@ setCachingEnabled
 true
 )
 ;
-if
-(
-!
-isAsmJSCompilationAvailable
-(
-)
-)
-quit
-(
-)
-;
 var
 code
 =
