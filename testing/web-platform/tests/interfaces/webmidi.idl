@@ -64,6 +64,9 @@ partial
 interface
 Navigator
 {
+[
+SecureContext
+]
 Promise
 <
 MIDIAccess
@@ -112,6 +115,9 @@ MIDIOutput
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 MIDIAccess
 :
@@ -138,6 +144,9 @@ sysexEnabled
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 MIDIPort
 :
@@ -203,6 +212,9 @@ close
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 MIDIInput
 :
@@ -214,6 +226,9 @@ onmidimessage
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 MIDIOutput
 :
@@ -278,6 +293,7 @@ pending
 }
 ;
 [
+SecureContext
 Constructor
 (
 DOMString
@@ -310,6 +326,7 @@ data
 }
 ;
 [
+SecureContext
 Constructor
 (
 DOMString
