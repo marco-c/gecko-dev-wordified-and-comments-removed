@@ -372,7 +372,10 @@ size
 1
 ]
 =
+'
+\
 0
+'
 ;
 return
 true
@@ -498,7 +501,10 @@ endif
 *
 base
 =
+'
+\
 0
+'
 ;
 size
 =
@@ -511,7 +517,10 @@ size
 1
 ]
 =
+'
+\
 0
+'
 ;
 return
 true
@@ -551,7 +560,10 @@ size
 ]
 =
 =
+'
+\
 0
+'
 )
 ;
 }
@@ -833,7 +845,10 @@ bp
 len
 ]
 =
+'
+\
 0
+'
 ;
 return
 true
@@ -989,7 +1004,10 @@ buffer
 length
 ]
 =
+'
+\
 0
+'
 ;
 return
 true
@@ -1389,7 +1407,10 @@ base
 len
 ]
 =
+'
+\
 0
+'
 ;
 }
 if
