@@ -3378,10 +3378,7 @@ return
 ;
 }
 const
-{
-sendSyncMessage
-addMessageListener
-}
+mm
 =
 this
 .
@@ -3513,6 +3510,8 @@ removeAllSessionCookies
 "
 )
 ;
+mm
+.
 addMessageListener
 (
 "
@@ -3544,6 +3543,8 @@ args
 const
 reply
 =
+mm
+.
 sendSyncMessage
 (
 "
@@ -8736,10 +8737,7 @@ return
 ;
 }
 const
-{
-sendAsyncMessage
-addMessageListener
-}
+mm
 =
 this
 .
@@ -8885,6 +8883,8 @@ clearDBStore
 "
 )
 ;
+mm
+.
 addMessageListener
 (
 "
@@ -9028,6 +9028,8 @@ methodName
 deferred
 )
 ;
+mm
+.
 sendAsyncMessage
 (
 "
