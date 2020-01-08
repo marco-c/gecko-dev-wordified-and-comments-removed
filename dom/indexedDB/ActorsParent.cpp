@@ -33869,6 +33869,15 @@ GetOrCreateThreadPool
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
+mozilla
+:
+:
+dom
+:
+:
+indexedDB
+:
+:
 QuotaClient
 override
 )
