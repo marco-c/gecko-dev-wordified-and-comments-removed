@@ -241,10 +241,13 @@ theme
 -
 listbox
 "
-height
+style
 =
 "
-80
+height
+:
+8em
+;
 "
 /
 >
