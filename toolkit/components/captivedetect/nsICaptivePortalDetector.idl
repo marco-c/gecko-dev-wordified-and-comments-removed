@@ -234,7 +234,7 @@ void
 checkCaptivePortal
 (
 in
-wstring
+AString
 ifname
 in
 nsICaptivePortalCallback
@@ -279,7 +279,7 @@ void
 abort
 (
 in
-wstring
+AString
 ifname
 )
 ;
@@ -322,7 +322,7 @@ void
 cancelLogin
 (
 in
-wstring
+AString
 eventId
 )
 ;
@@ -373,7 +373,7 @@ void
 finishPreparation
 (
 in
-wstring
+AString
 ifname
 )
 ;

@@ -65,12 +65,9 @@ xpcpublic
 h
 "
 static
-const
-char16_t
+NS_NAMED_LITERAL_STRING
+(
 kInterfaceName
-[
-]
-=
 u
 "
 captive
@@ -79,6 +76,7 @@ portal
 -
 inteface
 "
+)
 ;
 static
 const
