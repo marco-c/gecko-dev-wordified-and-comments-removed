@@ -9298,8 +9298,7 @@ toObject
 )
 )
 ;
-AutoRealm
-ar
+assertSameCompartment
 (
 context
 (
