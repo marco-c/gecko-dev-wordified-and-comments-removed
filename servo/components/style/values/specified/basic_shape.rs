@@ -615,9 +615,6 @@ where
 ReferenceBox
 :
 Parse
-ImageOrUrl
-:
-Parse
 {
 fn
 parse_common
