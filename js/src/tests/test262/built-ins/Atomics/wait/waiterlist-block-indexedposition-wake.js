@@ -199,7 +199,7 @@ sameValue
 (
 Atomics
 .
-wake
+notify
 (
 i32a
 1
@@ -208,7 +208,7 @@ i32a
 '
 Atomics
 .
-wake
+notify
 (
 i32a
 1
@@ -224,7 +224,7 @@ sameValue
 (
 Atomics
 .
-wake
+notify
 (
 i32a
 3
@@ -233,7 +233,7 @@ i32a
 '
 Atomics
 .
-wake
+notify
 (
 i32a
 3
@@ -255,7 +255,7 @@ woken
 =
 Atomics
 .
-wake
+notify
 (
 i32a
 2
@@ -276,7 +276,7 @@ woken
 '
 Atomics
 .
-wake
+notify
 (
 i32a
 2
@@ -327,7 +327,7 @@ woken
 =
 Atomics
 .
-wake
+notify
 (
 i32a
 0
@@ -348,7 +348,7 @@ woken
 '
 Atomics
 .
-wake
+notify
 (
 i32a
 0

@@ -1,0 +1,13 @@
+function
+fun
+(
+)
+{
+"
+use
+strict
+"
+var
+static
+;
+}

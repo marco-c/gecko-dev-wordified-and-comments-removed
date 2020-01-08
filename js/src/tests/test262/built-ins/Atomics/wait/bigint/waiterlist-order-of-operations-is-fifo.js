@@ -331,7 +331,7 @@ woken
 =
 Atomics
 .
-wake
+notify
 (
 i64a
 WAIT_INDEX
@@ -353,7 +353,7 @@ woken
 '
 Atomics
 .
-wake
+notify
 (
 i64a
 WAIT_INDEX
