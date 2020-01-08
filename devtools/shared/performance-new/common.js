@@ -1,0 +1,16 @@
+"
+use
+strict
+"
+;
+const
+DEFAULT_WINDOW_LENGTH
+=
+20
+;
+exports
+.
+DEFAULT_WINDOW_LENGTH
+=
+DEFAULT_WINDOW_LENGTH
+;

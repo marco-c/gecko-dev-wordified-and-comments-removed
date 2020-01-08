@@ -97,6 +97,7 @@ started
 entries
 interval
 features
+duration
 )
 =
 >
@@ -142,6 +143,19 @@ startProfiler
 "
 )
 ;
+is
+(
+duration
+2
+"
+Should
+apply
+duration
+by
+startProfiler
+"
+)
+;
 }
 )
 ;
@@ -154,6 +168,9 @@ startProfiler
 entries
 :
 1000
+duration
+:
+2
 interval
 :
 0

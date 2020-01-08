@@ -347,6 +347,9 @@ true
 webExtensionAddonConnect
 :
 true
+perfActorVersion
+:
+1
 }
 sayHello
 :

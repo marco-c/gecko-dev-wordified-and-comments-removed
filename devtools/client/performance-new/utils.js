@@ -124,6 +124,11 @@ YB
 "
 ]
 ;
+const
+INFINITE_WINDOW_LENGTH
+=
+400
+;
 function
 lerp
 (
@@ -648,5 +653,6 @@ makeExponentialScale
 scaleRangeWithClamping
 calculateOverhead
 recordingState
+INFINITE_WINDOW_LENGTH
 }
 ;
