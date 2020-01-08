@@ -96,7 +96,7 @@ content
 /
 repositories
 /
-jcenter
+google
 /
 "
 "
@@ -114,7 +114,7 @@ content
 /
 repositories
 /
-google
+jcenter
 /
 "
 #

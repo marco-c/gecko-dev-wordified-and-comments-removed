@@ -2018,9 +2018,9 @@ https
 :
 /
 /
-jcenter
+maven
 .
-bintray
+google
 .
 com
 /
@@ -2030,9 +2030,9 @@ https
 :
 /
 /
-maven
+jcenter
 .
-google
+bintray
 .
 com
 /
