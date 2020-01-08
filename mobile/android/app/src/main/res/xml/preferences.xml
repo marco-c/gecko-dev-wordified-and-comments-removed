@@ -495,17 +495,6 @@ preferences
 .
 GeckoPreferenceFragment
 "
-android
-:
-key
-=
-"
-android
-.
-not_a_preference
-.
-notifications_screen
-"
 >
 <
 extra
