@@ -355,7 +355,7 @@ nsICodeCoverage
 await
 codeCoverageService
 .
-resetCounters
+flushCounters
 (
 )
 ;
@@ -433,7 +433,7 @@ nsICodeCoverage
 await
 codeCoverageService
 .
-dumpCounters
+flushCounters
 (
 )
 ;
