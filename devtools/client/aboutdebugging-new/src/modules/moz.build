@@ -78,4 +78,13 @@ locations
 .
 js
 '
+'
+runtimes
+-
+state
+-
+helper
+.
+js
+'
 )
