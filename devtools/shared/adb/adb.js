@@ -275,6 +275,7 @@ this
 _adbFilePromise
 ;
 }
+async
 start
 (
 )
