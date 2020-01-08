@@ -73,11 +73,6 @@ select
 "
 )
 ;
-}
-connectedCallback
-(
-)
-{
 this
 .
 popupBox
@@ -90,6 +85,11 @@ change
 this
 )
 ;
+}
+connectedCallback
+(
+)
+{
 this
 .
 appendChild
@@ -304,10 +304,6 @@ type
 ;
 if
 (
-!
-selectedRichOption
-|
-|
 selectedRichOption
 .
 localName
