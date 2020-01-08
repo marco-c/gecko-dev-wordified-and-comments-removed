@@ -783,7 +783,7 @@ info
 path
 )
 def
-__main__
+main
 (
 )
 :
@@ -805,4 +805,16 @@ vars
 (
 kwargs
 )
+)
+if
+__name__
+=
+=
+"
+__main__
+"
+:
+    
+main
+(
 )
