@@ -423,11 +423,11 @@ appropriate
 .
 *
 /
-wstring
+AString
 scanTXT
 (
 in
-wstring
+AString
 text
 in
 unsigned
@@ -612,11 +612,11 @@ appropriate
 .
 *
 /
-wstring
+AString
 scanHTML
 (
 in
-wstring
+AString
 text
 in
 unsigned
