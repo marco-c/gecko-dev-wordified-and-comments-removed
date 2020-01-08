@@ -122,6 +122,16 @@ webrtc
 /
 trunk
 '
+'
+/
+media
+/
+webrtc
+/
+trunk
+/
+webrtc
+'
 ]
 UNIFIED_SOURCES
 +
