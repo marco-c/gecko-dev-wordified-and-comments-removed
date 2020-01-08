@@ -523,6 +523,15 @@ char
 aTopic
 )
 ;
+void
+PrefChanged
+(
+const
+char
+*
+aPref
+)
+;
 bool
 GetInternal
 (
