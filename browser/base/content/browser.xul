@@ -5150,12 +5150,6 @@ label
 "
 sendToDevice
 -
-title
-=
-"
-"
-sendToDevice
--
 notReadyTitle
 =
 "

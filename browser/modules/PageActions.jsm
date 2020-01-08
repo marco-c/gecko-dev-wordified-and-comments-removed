@@ -3365,8 +3365,6 @@ title
 :
 "
 sendToDevice
--
-title
 "
 onBeforePlacedInWindow
 (
