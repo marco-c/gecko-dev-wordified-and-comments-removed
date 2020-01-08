@@ -3811,6 +3811,16 @@ flex
 win
 )
 {
+if
+(
+!
+flex
+)
+{
+return
+null
+;
+}
 return
 {
 lines
