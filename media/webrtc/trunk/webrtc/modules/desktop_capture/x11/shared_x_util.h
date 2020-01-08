@@ -7,8 +7,6 @@ WEBRTC_MODULES_DESKTOP_CAPTURE_X11_SHARED_X_UTIL_H_
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -20,8 +18,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -29,19 +25,6 @@ desktop_capture
 x11
 /
 shared_x_display
-.
-h
-"
-#
-include
-"
-webrtc
-/
-system_wrappers
-/
-include
-/
-logging
 .
 h
 "

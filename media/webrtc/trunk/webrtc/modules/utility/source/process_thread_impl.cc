@@ -542,15 +542,6 @@ from
 {
 RTC_DCHECK
 (
-thread_checker_
-.
-CalledOnValidThread
-(
-)
-)
-;
-RTC_DCHECK
-(
 module
 )
 <

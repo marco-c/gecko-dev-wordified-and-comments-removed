@@ -179,6 +179,7 @@ push_back
 (
 {
 device_index
+0
 std
 :
 :
@@ -338,6 +339,14 @@ wstring
 device_key
 )
 {
+RTC_DCHECK
+(
+IsGUIThread
+(
+false
+)
+)
+;
 if
 (
 screen

@@ -125,6 +125,12 @@ callback
 override
 ;
 void
+Stop
+(
+)
+override
+;
+void
 SetSharedMemoryFactory
 (
 std
@@ -149,6 +155,12 @@ SetExcludedWindow
 (
 WindowId
 window
+)
+override
+;
+bool
+FocusOnSelectedSource
+(
 )
 override
 ;
