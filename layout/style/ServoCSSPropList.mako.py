@@ -458,6 +458,10 @@ TextAlign
 "
     
 "
+TimingFunction
+"
+    
+"
 TransformStyle
 "
     
