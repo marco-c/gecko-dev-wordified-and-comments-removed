@@ -159,12 +159,6 @@ application
 /
 javascript
 "
-implements
-=
-"
-nsIObserver
-nsIRemoteBrowser
-"
 >
 <
 field
@@ -3608,7 +3602,7 @@ method
 name
 =
 "
-enableDisableCommands
+enableDisableCommandsRemoteOnly
 "
 >
 <
