@@ -20,6 +20,15 @@ include
 "
 mozilla
 /
+FileLocation
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h
@@ -29,7 +38,7 @@ include
 "
 mozilla
 /
-ModuleLoader
+Module
 .
 h
 "
@@ -171,11 +180,6 @@ mozJSComponentLoader
 final
 :
 public
-mozilla
-:
-:
-ModuleLoader
-public
 nsIObserver
 {
 public
@@ -251,7 +255,6 @@ FileLocation
 &
 aFile
 )
-override
 ;
 void
 FindTargetObject
