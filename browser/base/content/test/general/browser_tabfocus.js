@@ -3292,8 +3292,10 @@ expectedActive
 matchWindow
 .
 document
+.
+documentElement
 instanceof
-XULDocument
+XULElement
 ?
 "
 main
