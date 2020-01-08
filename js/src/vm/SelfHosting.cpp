@@ -17201,14 +17201,6 @@ setIsSelfHostingRealm
 (
 )
 ;
-realm
--
->
-setIsSystem
-(
-true
-)
-;
 if
 (
 !
