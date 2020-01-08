@@ -8,7 +8,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -17,7 +17,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_dsp_rtcd
 .
@@ -132,6 +132,9 @@ src_stride
 ;
 }
 }
+#
+if
+CONFIG_HIGHBITDEPTH
 void
 aom_highbd_subtract_block_c
 (
@@ -250,3 +253,5 @@ src_stride
 ;
 }
 }
+#
+endif

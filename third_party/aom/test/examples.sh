@@ -159,8 +159,6 @@ example_tests
 =
 (
 ls
--
-r
 (
 dirname
 0
@@ -181,10 +179,9 @@ exclude
 exclude_list
 =
 "
-best_encode
 examples
-run_encodes
 tools_common
+decode_to_md5
 "
 #
 Filter

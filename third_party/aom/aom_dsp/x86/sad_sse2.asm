@@ -339,6 +339,9 @@ endif
 7
 %
 endmacro
+%
+if
+CONFIG_EXT_PARTITION
 ;
 unsigned
 int
@@ -656,6 +659,8 @@ SAD128XN
 1
 ;
 sad128x64_avg_sse2
+%
+endif
 ;
 unsigned
 int
@@ -841,6 +846,9 @@ RET
 endmacro
 INIT_XMM
 sse2
+%
+if
+CONFIG_EXT_PARTITION
 SAD64XN
 128
 ;
@@ -850,6 +858,8 @@ SAD64XN
 1
 ;
 sad64x128_avg_sse2
+%
+endif
 SAD64XN
 64
 ;
@@ -868,6 +878,9 @@ SAD64XN
 1
 ;
 sad64x32_avg_sse2
+%
+if
+CONFIG_EXT_PARTITION_TYPES
 SAD64XN
 16
 ;
@@ -877,6 +890,8 @@ SAD64XN
 1
 ;
 sad64x16_avg_sse2
+%
+endif
 ;
 unsigned
 int
@@ -1107,6 +1122,9 @@ SAD32XN
 1
 ;
 sad32x16_avg_sse2
+%
+if
+CONFIG_EXT_PARTITION_TYPES
 SAD32XN
 8
 ;
@@ -1116,6 +1134,8 @@ SAD32XN
 1
 ;
 sad_32x8_avg_sse2
+%
+endif
 ;
 unsigned
 int
@@ -1351,6 +1371,9 @@ SAD16XN
 1
 ;
 sad16x8_avg_sse2
+%
+if
+CONFIG_EXT_PARTITION_TYPES
 SAD16XN
 4
 ;
@@ -1369,6 +1392,8 @@ SAD16XN
 1
 ;
 sad_16x64_avg_sse2
+%
+endif
 ;
 unsigned
 int
@@ -1586,6 +1611,9 @@ SAD8XN
 1
 ;
 sad8x4_avg_sse2
+%
+if
+CONFIG_EXT_PARTITION_TYPES
 SAD8XN
 32
 ;
@@ -1595,6 +1623,8 @@ SAD8XN
 1
 ;
 sad_8x32_avg_sse2
+%
+endif
 ;
 unsigned
 int
@@ -1806,6 +1836,9 @@ SAD4XN
 1
 ;
 sad4x4_avg_sse
+%
+if
+CONFIG_EXT_PARTITION_TYPES
 SAD4XN
 16
 ;
@@ -1815,3 +1848,5 @@ SAD4XN
 1
 ;
 sad_4x16_avg_sse2
+%
+endif

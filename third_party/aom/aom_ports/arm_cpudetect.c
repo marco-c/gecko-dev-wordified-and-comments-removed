@@ -24,7 +24,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -196,6 +196,9 @@ arm_cpu_env_mask
 #
 if
 HAVE_NEON
+|
+|
+HAVE_NEON_ASM
 flags
 |
 =
@@ -263,6 +266,9 @@ arm_cpu_env_mask
 #
 if
 HAVE_NEON
+|
+|
+HAVE_NEON_ASM
 if
 (
 mask
@@ -362,6 +368,9 @@ android_getCpuFeatures
 #
 if
 HAVE_NEON
+|
+|
+HAVE_NEON_ASM
 if
 (
 features
@@ -475,6 +484,9 @@ NULL
 #
 if
 HAVE_NEON
+|
+|
+HAVE_NEON_ASM
 if
 (
 memcmp

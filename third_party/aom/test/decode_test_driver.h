@@ -31,7 +31,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -411,6 +411,12 @@ CodecInterface
 ;
 }
 bool
+IsVP8
+(
+)
+const
+;
+bool
 IsAV1
 (
 )
@@ -562,9 +568,6 @@ HandleDecodeResult
 const
 aom_codec_err_t
 res_dec
-const
-CompressedVideoSource
-&
 Decoder
 *
 decoder

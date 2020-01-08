@@ -14,8 +14,6 @@ h
 #
 include
 "
-config
-/
 aom_config
 .
 h

@@ -12,15 +12,6 @@ stdlib
 h
 >
 #
-include
-"
-aom
-/
-aomdx
-.
-h
-"
-#
 ifdef
 __cplusplus
 extern
@@ -117,6 +108,11 @@ dictionary
 ;
 }
 AccountingSymbols
+;
+typedef
+struct
+Accounting
+Accounting
 ;
 struct
 Accounting

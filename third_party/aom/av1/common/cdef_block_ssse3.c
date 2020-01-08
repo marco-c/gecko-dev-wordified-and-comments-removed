@@ -20,9 +20,7 @@ _ssse3
 #
 include
 "
-av1
-/
-common
+.
 /
 cdef_block_simd
 .

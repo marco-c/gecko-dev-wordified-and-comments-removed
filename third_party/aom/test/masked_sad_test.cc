@@ -77,7 +77,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -86,7 +86,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_dsp_rtcd
 .
@@ -150,9 +150,10 @@ invert_mask
 )
 ;
 typedef
+std
 :
 :
-testing
+tr1
 :
 :
 tuple
@@ -545,6 +546,9 @@ case
 first_failure
 ;
 }
+#
+if
+CONFIG_HIGHBITDEPTH
 typedef
 unsigned
 int
@@ -580,9 +584,10 @@ invert_mask
 )
 ;
 typedef
+std
 :
 :
-testing
+tr1
 :
 :
 tuple
@@ -999,10 +1004,13 @@ case
 first_failure
 ;
 }
+#
+endif
 using
+std
 :
 :
-testing
+tr1
 :
 :
 make_tuple
@@ -1017,6 +1025,9 @@ msad_test
 ]
 =
 {
+#
+if
+CONFIG_EXT_PARTITION
 make_tuple
 (
 &
@@ -1038,6 +1049,8 @@ aom_masked_sad64x128_ssse3
 &
 aom_masked_sad64x128_c
 )
+#
+endif
 make_tuple
 (
 &
@@ -1146,6 +1159,9 @@ msad_test
 )
 )
 ;
+#
+if
+CONFIG_HIGHBITDEPTH
 const
 HighbdMaskedSADParam
 hbd_msad_test
@@ -1153,6 +1169,9 @@ hbd_msad_test
 ]
 =
 {
+#
+if
+CONFIG_EXT_PARTITION
 make_tuple
 (
 &
@@ -1174,6 +1193,8 @@ aom_highbd_masked_sad64x128_ssse3
 &
 aom_highbd_masked_sad64x128_c
 )
+#
+endif
 make_tuple
 (
 &
@@ -1282,6 +1303,8 @@ hbd_msad_test
 )
 )
 ;
+#
+endif
 #
 endif
 }

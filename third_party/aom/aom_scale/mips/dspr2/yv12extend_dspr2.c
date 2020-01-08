@@ -8,7 +8,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -868,9 +868,6 @@ aom_extend_frame_borders_dspr2
 YV12_BUFFER_CONFIG
 *
 ybf
-const
-int
-num_planes
 )
 {
 extend_frame
@@ -880,7 +877,6 @@ ybf
 -
 >
 border
-num_planes
 )
 ;
 }
@@ -890,9 +886,6 @@ aom_extend_frame_inner_borders_dspr2
 YV12_BUFFER_CONFIG
 *
 ybf
-const
-int
-num_planes
 )
 {
 const
@@ -919,7 +912,6 @@ extend_frame
 (
 ybf
 inner_bw
-num_planes
 )
 ;
 }

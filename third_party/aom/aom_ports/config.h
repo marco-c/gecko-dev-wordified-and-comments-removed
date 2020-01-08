@@ -1,0 +1,15 @@
+#
+ifndef
+AOM_PORTS_CONFIG_H_
+#
+define
+AOM_PORTS_CONFIG_H_
+#
+include
+"
+aom_config
+.
+h
+"
+#
+endif

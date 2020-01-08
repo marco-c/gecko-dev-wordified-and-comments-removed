@@ -100,8 +100,11 @@ const
 __m128i
 v_zext_q
 =
-xx_set1_64_from_32i
+_mm_set_epi32
 (
+0
+0xffffffff
+0
 0xffffffff
 )
 ;

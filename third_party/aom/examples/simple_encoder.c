@@ -31,7 +31,8 @@ h
 #
 include
 "
-common
+.
+.
 /
 tools_common
 .
@@ -40,7 +41,8 @@ h
 #
 include
 "
-common
+.
+.
 /
 video_writer
 .
@@ -171,6 +173,7 @@ img
 frame_index
 1
 flags
+AOM_DL_GOOD_QUALITY
 )
 ;
 if

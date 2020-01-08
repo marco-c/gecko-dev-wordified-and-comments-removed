@@ -183,6 +183,9 @@ int
 highbd
 )
 ;
+#
+if
+CONFIG_HIGHBITDEPTH
 int64_t
 aom_highbd_get_y_sse_part
 (
@@ -307,6 +310,8 @@ int
 in_bit_depth
 )
 ;
+#
+endif
 void
 aom_calc_psnr
 (

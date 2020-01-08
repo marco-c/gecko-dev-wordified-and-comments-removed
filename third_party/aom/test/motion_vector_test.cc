@@ -397,7 +397,7 @@ width
 ;
 height
 =
-360
+1080
 ;
 }
 cfg_

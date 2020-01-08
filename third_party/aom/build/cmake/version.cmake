@@ -1,5 +1,7 @@
 #
 #
+#
+#
 Copyright
 (
 c
@@ -13,6 +15,8 @@ Media
 All
 rights
 reserved
+#
+#
 #
 #
 This
@@ -30,8 +34,9 @@ BSD
 Clause
 License
 and
-the
 #
+#
+the
 Alliance
 for
 Open
@@ -48,8 +53,9 @@ BSD
 2
 Clause
 License
-was
 #
+#
+was
 not
 distributed
 with
@@ -62,9 +68,10 @@ LICENSE
 file
 you
 can
+#
+#
 obtain
 it
-#
 at
 www
 .
@@ -81,9 +88,10 @@ the
 Alliance
 for
 Open
+#
+#
 Media
 Patent
-#
 License
 1
 .
@@ -97,10 +105,11 @@ source
 code
 in
 the
+#
+#
 PATENTS
 file
 you
-#
 can
 obtain
 it
@@ -115,6 +124,7 @@ license
 /
 patent
 .
+#
 #
 cmake_minimum_required
 (
@@ -339,8 +349,6 @@ EXISTS
 AOM_CONFIG_DIR
 }
 /
-config
-/
 aom_version
 .
 h
@@ -352,8 +360,6 @@ extract_version_string
 {
 AOM_CONFIG_DIR
 }
-/
-config
 /
 aom_version
 .
@@ -449,8 +455,6 @@ version_filename
 {
 AOM_CONFIG_DIR
 }
-/
-config
 /
 aom_version
 .

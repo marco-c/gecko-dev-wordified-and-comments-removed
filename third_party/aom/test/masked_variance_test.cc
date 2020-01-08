@@ -77,7 +77,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -86,7 +86,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_dsp_rtcd
 .
@@ -185,9 +185,10 @@ sse
 )
 ;
 typedef
+std
 :
 :
-testing
+tr1
 :
 :
 tuple
@@ -1175,10 +1176,14 @@ y_offset
 first_failure_y
 ;
 }
+#
+if
+CONFIG_HIGHBITDEPTH
 typedef
+std
 :
 :
-testing
+tr1
 :
 :
 tuple
@@ -2285,10 +2290,13 @@ y_offset
 first_failure_y
 ;
 }
+#
+endif
 using
+std
 :
 :
-testing
+tr1
 :
 :
 make_tuple
@@ -2303,6 +2311,9 @@ sub_pel_var_test
 ]
 =
 {
+#
+if
+CONFIG_EXT_PARTITION
 make_tuple
 (
 &
@@ -2324,6 +2335,8 @@ aom_masked_sub_pixel_variance64x128_ssse3
 &
 aom_masked_sub_pixel_variance64x128_c
 )
+#
+endif
 make_tuple
 (
 &
@@ -2432,6 +2445,9 @@ sub_pel_var_test
 )
 )
 ;
+#
+if
+CONFIG_HIGHBITDEPTH
 const
 HighbdMaskedSubPixelVarianceParam
 hbd_sub_pel_var_test
@@ -2439,6 +2455,9 @@ hbd_sub_pel_var_test
 ]
 =
 {
+#
+if
+CONFIG_EXT_PARTITION
 make_tuple
 (
 &
@@ -2463,6 +2482,8 @@ aom_highbd_8_masked_sub_pixel_variance64x128_ssse3
 aom_highbd_8_masked_sub_pixel_variance64x128_c
 AOM_BITS_8
 )
+#
+endif
 make_tuple
 (
 &
@@ -2567,6 +2588,9 @@ aom_highbd_8_masked_sub_pixel_variance4x4_ssse3
 aom_highbd_8_masked_sub_pixel_variance4x4_c
 AOM_BITS_8
 )
+#
+if
+CONFIG_EXT_PARTITION
 make_tuple
 (
 &
@@ -2591,6 +2615,8 @@ aom_highbd_10_masked_sub_pixel_variance64x128_ssse3
 aom_highbd_10_masked_sub_pixel_variance64x128_c
 AOM_BITS_10
 )
+#
+endif
 make_tuple
 (
 &
@@ -2695,6 +2721,9 @@ aom_highbd_10_masked_sub_pixel_variance4x4_ssse3
 aom_highbd_10_masked_sub_pixel_variance4x4_c
 AOM_BITS_10
 )
+#
+if
+CONFIG_EXT_PARTITION
 make_tuple
 (
 &
@@ -2719,6 +2748,8 @@ aom_highbd_12_masked_sub_pixel_variance64x128_ssse3
 aom_highbd_12_masked_sub_pixel_variance64x128_c
 AOM_BITS_12
 )
+#
+endif
 make_tuple
 (
 &
@@ -2840,6 +2871,8 @@ hbd_sub_pel_var_test
 )
 )
 ;
+#
+endif
 #
 endif
 }

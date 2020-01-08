@@ -28,7 +28,7 @@ simd_test_neon
 #
 include
 "
-test
+.
 /
 simd_impl
 .

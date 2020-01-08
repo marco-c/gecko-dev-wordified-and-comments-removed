@@ -8,7 +8,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_dsp_rtcd
 .
@@ -9923,7 +9923,7 @@ s
 }
 }
 void
-aom_lpf_horizontal_16_dspr2
+aom_lpf_horizontal_edge_8_dspr2
 (
 unsigned
 char
@@ -9957,7 +9957,7 @@ thresh
 ;
 }
 void
-aom_lpf_horizontal_16_dual_dspr2
+aom_lpf_horizontal_edge_16_dspr2
 (
 unsigned
 char

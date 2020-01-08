@@ -103,7 +103,8 @@ const
 uint8_t
 *
 data
-size_t
+unsigned
+int
 data_sz
 aom_codec_stream_info_t
 *
@@ -167,11 +168,14 @@ const
 uint8_t
 *
 data
-size_t
+unsigned
+int
 data_sz
 void
 *
 user_priv
+long
+deadline
 )
 ;
 typedef
@@ -230,6 +234,9 @@ long
 duration
 aom_enc_frame_flags_t
 flags
+unsigned
+long
+deadline
 )
 ;
 typedef

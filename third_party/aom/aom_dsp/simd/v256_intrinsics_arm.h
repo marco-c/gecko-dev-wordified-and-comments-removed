@@ -7,9 +7,7 @@ _V256_INTRINSICS_H
 #
 include
 "
-aom_dsp
-/
-simd
+.
 /
 v256_intrinsics_v128
 .

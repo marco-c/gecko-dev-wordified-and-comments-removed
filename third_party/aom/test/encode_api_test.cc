@@ -20,7 +20,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -149,6 +149,7 @@ NULL
 0
 0
 0
+0
 )
 )
 ;
@@ -160,6 +161,7 @@ aom_codec_encode
 NULL
 &
 img
+0
 0
 0
 0
@@ -325,6 +327,7 @@ aom_codec_encode
 &
 enc
 NULL
+0
 0
 0
 0

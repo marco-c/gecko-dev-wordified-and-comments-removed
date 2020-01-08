@@ -126,9 +126,6 @@ x86_abi_support
 .
 asm
 "
-SECTION
-.
-text
 ;
 void
 av1_temporal_filter_apply_sse2

@@ -47,7 +47,7 @@ simd_test_sse2
 #
 include
 "
-test
+.
 /
 simd_cmp_impl
 .

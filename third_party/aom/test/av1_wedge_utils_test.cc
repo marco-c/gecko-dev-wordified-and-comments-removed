@@ -20,7 +20,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -29,7 +29,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_dsp_rtcd
 .
@@ -38,7 +38,7 @@ h
 #
 include
 "
-config
+.
 /
 av1_rtcd
 .
@@ -638,8 +638,8 @@ p1
 w
 m
 w
-w
 h
+w
 0
 0
 )

@@ -47,7 +47,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_config
 .
@@ -56,7 +56,7 @@ h
 #
 include
 "
-config
+.
 /
 aom_dsp_rtcd
 .
@@ -527,6 +527,9 @@ tst_sse
 #
 if
 HAVE_SSE4_1
+#
+if
+CONFIG_MOTION_VAR
 const
 ObmcVarianceTest
 :
@@ -537,6 +540,9 @@ sse4_functions
 ]
 =
 {
+#
+if
+CONFIG_EXT_PARTITION
 TestFuncs
 (
 aom_obmc_variance128x128_c
@@ -552,6 +558,8 @@ TestFuncs
 aom_obmc_variance64x128_c
 aom_obmc_variance64x128_sse4_1
 )
+#
+endif
 TestFuncs
 (
 aom_obmc_variance64x64_c
@@ -636,6 +644,11 @@ sse4_functions
 ;
 #
 endif
+#
+endif
+#
+if
+CONFIG_HIGHBITDEPTH
 class
 ObmcVarianceHBDTest
 :
@@ -1058,6 +1071,9 @@ tst_sse
 #
 if
 HAVE_SSE4_1
+#
+if
+CONFIG_MOTION_VAR
 ObmcVarianceHBDTest
 :
 :
@@ -1067,6 +1083,9 @@ sse4_functions_hbd
 ]
 =
 {
+#
+if
+CONFIG_EXT_PARTITION
 TestFuncs
 (
 aom_highbd_obmc_variance128x128_c
@@ -1085,6 +1104,8 @@ aom_highbd_obmc_variance64x128_c
 aom_highbd_obmc_variance64x128_sse4_1
 8
 )
+#
+endif
 TestFuncs
 (
 aom_highbd_obmc_variance64x64_c
@@ -1163,6 +1184,9 @@ aom_highbd_obmc_variance4x4_c
 aom_highbd_obmc_variance4x4_sse4_1
 8
 )
+#
+if
+CONFIG_EXT_PARTITION
 TestFuncs
 (
 aom_highbd_10_obmc_variance128x128_c
@@ -1181,6 +1205,8 @@ aom_highbd_10_obmc_variance64x128_c
 aom_highbd_10_obmc_variance64x128_sse4_1
 10
 )
+#
+endif
 TestFuncs
 (
 aom_highbd_10_obmc_variance64x64_c
@@ -1259,6 +1285,9 @@ aom_highbd_10_obmc_variance4x4_c
 aom_highbd_10_obmc_variance4x4_sse4_1
 10
 )
+#
+if
+CONFIG_EXT_PARTITION
 TestFuncs
 (
 aom_highbd_12_obmc_variance128x128_c
@@ -1277,6 +1306,8 @@ aom_highbd_12_obmc_variance64x128_c
 aom_highbd_12_obmc_variance64x128_sse4_1
 12
 )
+#
+endif
 TestFuncs
 (
 aom_highbd_12_obmc_variance64x64_c
@@ -1372,6 +1403,10 @@ sse4_functions_hbd
 )
 )
 ;
+#
+endif
+#
+endif
 #
 endif
 }

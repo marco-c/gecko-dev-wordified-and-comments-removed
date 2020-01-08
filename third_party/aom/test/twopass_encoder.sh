@@ -260,10 +260,14 @@ local
 encoder
 =
 "
-(
-aom_tool_path
+{
+LIBAOM_BIN_PATH
+}
+/
 twopass_encoder
-)
+{
+AOM_TEST_EXE_SUFFIX
+}
 "
 local
 codec
