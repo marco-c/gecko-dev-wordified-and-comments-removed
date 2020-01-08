@@ -2121,6 +2121,9 @@ unsigned
 long
 bufferedAmount
 ;
+[
+EnforceRange
+]
 attribute
 unsigned
 long
@@ -2193,10 +2196,16 @@ ordered
 =
 true
 ;
+[
+EnforceRange
+]
 unsigned
 short
 maxPacketLifeTime
 ;
+[
+EnforceRange
+]
 unsigned
 short
 maxRetransmits
