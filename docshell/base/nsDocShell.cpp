@@ -603,13 +603,6 @@ h
 #
 include
 "
-nsIDOMStorage
-.
-h
-"
-#
-include
-"
 nsIDOMWindow
 .
 h
