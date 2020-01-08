@@ -18,7 +18,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /

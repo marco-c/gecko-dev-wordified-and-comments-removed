@@ -342,7 +342,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
@@ -359,7 +359,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
@@ -403,7 +403,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
@@ -420,7 +420,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
@@ -464,7 +464,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
@@ -481,7 +481,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
@@ -525,7 +525,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
@@ -542,7 +542,7 @@ chrome
 :
 /
 /
-browser
+geckoview
 /
 content
 /
