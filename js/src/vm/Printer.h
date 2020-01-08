@@ -698,7 +698,10 @@ str
 char
 quote
 =
+'
+\
 0
+'
 )
 ;
 extern
@@ -714,7 +717,10 @@ str
 char
 quote
 =
+'
+\
 0
+'
 )
 ;
 }
