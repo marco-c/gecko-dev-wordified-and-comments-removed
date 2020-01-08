@@ -1221,6 +1221,7 @@ function
 (
 string
 cursor
+onResponse
 frameActor
 )
 {
@@ -1257,6 +1258,7 @@ _client
 request
 (
 packet
+onResponse
 )
 ;
 }
