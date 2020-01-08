@@ -2960,7 +2960,7 @@ registry
 id
 &
 wl_seat_interface
-WL_SEAT_CAPABILITIES_SINCE_VERSION
+1
 )
 ;
 wl_seat_add_listener
