@@ -51707,6 +51707,14 @@ IsContainPaint
 )
 |
 |
+aStyleDisplay
+-
+>
+IsContainLayout
+(
+)
+|
+|
 ChildrenHavePerspective
 (
 aStyleDisplay

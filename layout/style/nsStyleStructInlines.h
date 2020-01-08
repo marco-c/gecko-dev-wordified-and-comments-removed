@@ -850,6 +850,11 @@ return
 IsContainPaint
 (
 )
+|
+|
+IsContainLayout
+(
+)
 ;
 }
 bool

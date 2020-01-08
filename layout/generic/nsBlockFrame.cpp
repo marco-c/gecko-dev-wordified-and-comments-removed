@@ -33539,6 +33539,16 @@ StyleDisplay
 IsContainPaint
 (
 )
+|
+|
+StyleDisplay
+(
+)
+-
+>
+IsContainLayout
+(
+)
 )
 {
 AddStateBits
