@@ -961,6 +961,17 @@ if
 baseURI
 )
 {
+this
+.
+icon
+.
+removeAttribute
+(
+"
+state
+"
+)
+;
 return
 ;
 }
