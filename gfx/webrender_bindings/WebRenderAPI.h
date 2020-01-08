@@ -949,16 +949,6 @@ NotifyMemoryPressure
 (
 )
 ;
-void
-AccumulateMemoryReport
-(
-wr
-:
-:
-MemoryReport
-*
-)
-;
 wr
 :
 :
