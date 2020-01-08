@@ -390,6 +390,16 @@ Wno
 -
 error
 =
+unused
+-
+function
+'
+'
+-
+Wno
+-
+error
+=
 shadow
 '
 '
