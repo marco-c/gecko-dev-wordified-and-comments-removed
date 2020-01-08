@@ -1725,10 +1725,6 @@ preferences
 self
 .
 preferences
-.
-copy
-(
-)
                                                 
 addons
 =
@@ -1833,16 +1829,6 @@ profilename
 in
 profiles
 :
-            
-print
-"
-#
-#
-#
-Cleanup
-Profile
-"
-profilename
             
 cleanup_phase
 =

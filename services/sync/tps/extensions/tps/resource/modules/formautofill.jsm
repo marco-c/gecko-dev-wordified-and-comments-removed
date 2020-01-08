@@ -35,12 +35,8 @@ jsm
 ;
 ChromeUtils
 .
-defineModuleGetter
+import
 (
-this
-"
-formAutofillStorage
-"
 "
 resource
 :
@@ -56,12 +52,8 @@ jsm
 ;
 ChromeUtils
 .
-defineModuleGetter
+import
 (
-this
-"
-MasterPassword
-"
 "
 resource
 :
