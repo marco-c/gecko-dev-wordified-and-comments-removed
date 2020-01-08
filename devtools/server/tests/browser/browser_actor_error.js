@@ -50,7 +50,7 @@ registerAllActors
 (
 )
 ;
-DebuggerServer
+ActorRegistry
 .
 registerModule
 (
