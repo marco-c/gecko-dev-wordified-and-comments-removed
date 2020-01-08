@@ -459,16 +459,6 @@ aName
 )
 const
 ;
-bool
-EnsureResolved
-(
-)
-const
-{
-return
-true
-;
-}
 nsID
 mIID
 ;
