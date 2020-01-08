@@ -178,6 +178,7 @@ function
 TZInMonth
 (
 month
+year
 )
 {
 return
@@ -188,7 +189,7 @@ Date
 (
 dd
 (
-2009
+year
 month
 1
 0
@@ -210,18 +211,28 @@ printBugNumber
 BUGNUMBER
 )
 ;
-JanTZ
+Jan1970TZ
 =
 TZInMonth
 (
 1
+1970
 )
 ;
-JulTZ
+Jan2009TZ
+=
+TZInMonth
+(
+1
+2009
+)
+;
+Jul2009TZ
 =
 TZInMonth
 (
 7
+2009
 )
 ;
 CurrTZ
@@ -578,7 +589,7 @@ dd
 1
 )
 +
-JulTZ
+Jul2009TZ
 )
 ;
 check
@@ -605,7 +616,7 @@ dd
 0
 )
 +
-JulTZ
+Jul2009TZ
 )
 ;
 check
@@ -630,7 +641,7 @@ dd
 0
 )
 +
-JulTZ
+Jul2009TZ
 )
 ;
 check
@@ -657,7 +668,7 @@ dd
 1
 )
 +
-JulTZ
+Jul2009TZ
 )
 ;
 check
@@ -682,7 +693,7 @@ dd
 0
 )
 +
-JulTZ
+Jul2009TZ
 )
 ;
 check
@@ -705,7 +716,7 @@ dd
 0
 )
 +
-JulTZ
+Jul2009TZ
 )
 ;
 check
@@ -730,7 +741,7 @@ dd
 1
 )
 +
-JanTZ
+Jan2009TZ
 )
 ;
 check
@@ -753,7 +764,7 @@ dd
 0
 )
 +
-JanTZ
+Jan2009TZ
 )
 ;
 check
@@ -774,7 +785,7 @@ dd
 0
 )
 +
-JanTZ
+Jan2009TZ
 )
 ;
 check
@@ -799,7 +810,7 @@ dd
 1
 )
 +
-JanTZ
+Jan1970TZ
 )
 ;
 check
@@ -822,7 +833,7 @@ dd
 0
 )
 +
-JanTZ
+Jan1970TZ
 )
 ;
 check
@@ -843,7 +854,7 @@ dd
 0
 )
 +
-JanTZ
+Jan1970TZ
 )
 ;
 check
