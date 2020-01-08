@@ -2960,7 +2960,7 @@ newCount
 ;
 static
 bool
-growSlotsDontReportOOM
+growSlotsPure
 (
 JSContext
 *
@@ -2974,7 +2974,7 @@ newCount
 ;
 static
 bool
-addDenseElementDontReportOOM
+addDenseElementPure
 (
 JSContext
 *

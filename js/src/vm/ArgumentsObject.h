@@ -608,7 +608,7 @@ scopeChain
 static
 ArgumentsObject
 *
-finishForIon
+finishForIonPure
 (
 JSContext
 *

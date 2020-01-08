@@ -11308,7 +11308,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-StringToNumberDontReportOOM
+StringToNumberPure
 )
 )
 ;
@@ -21717,7 +21717,7 @@ JS_FUNC_TO_DATA_PTR
 (
 void
 *
-HasNativeElement
+HasNativeElementPure
 )
 )
 ;
@@ -22559,7 +22559,7 @@ JS_FUNC_TO_DATA_PTR
 void
 *
 (
-GetNativeDataProperty
+GetNativeDataPropertyPure
 <
 true
 >
@@ -22579,7 +22579,7 @@ JS_FUNC_TO_DATA_PTR
 void
 *
 (
-GetNativeDataProperty
+GetNativeDataPropertyPure
 <
 false
 >
@@ -22882,7 +22882,7 @@ JS_FUNC_TO_DATA_PTR
 void
 *
 (
-SetNativeDataProperty
+SetNativeDataPropertyPure
 <
 true
 >
@@ -22902,7 +22902,7 @@ JS_FUNC_TO_DATA_PTR
 void
 *
 (
-SetNativeDataProperty
+SetNativeDataPropertyPure
 <
 false
 >
@@ -23224,7 +23224,7 @@ void
 js
 :
 :
-Int32ToStringHelper
+Int32ToStringHelperPure
 )
 )
 )
@@ -23402,7 +23402,7 @@ void
 js
 :
 :
-NumberToStringHelper
+NumberToStringHelperPure
 )
 )
 )

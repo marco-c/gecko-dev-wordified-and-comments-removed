@@ -2132,7 +2132,7 @@ ArgumentsObject
 ArgumentsObject
 :
 :
-finishForIon
+finishForIonPure
 (
 JSContext
 *

@@ -40233,7 +40233,7 @@ void
 ArgumentsObject
 :
 :
-finishForIon
+finishForIonPure
 )
 )
 ;

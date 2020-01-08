@@ -176,7 +176,7 @@ d
 extern
 JSString
 *
-NumberToStringHelper
+NumberToStringHelperPure
 (
 JSContext
 *
@@ -217,7 +217,7 @@ i
 extern
 JSFlatString
 *
-Int32ToStringHelper
+Int32ToStringHelperPure
 (
 JSContext
 *
@@ -580,7 +580,7 @@ result
 extern
 MOZ_MUST_USE
 bool
-StringToNumberDontReportOOM
+StringToNumberPure
 (
 JSContext
 *
