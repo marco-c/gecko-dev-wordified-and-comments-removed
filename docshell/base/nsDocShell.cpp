@@ -45845,6 +45845,10 @@ if
 (
 !
 equalURIs
+&
+&
+!
+mIsBeingDestroyed
 )
 {
 document
