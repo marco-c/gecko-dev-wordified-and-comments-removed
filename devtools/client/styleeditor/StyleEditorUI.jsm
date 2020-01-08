@@ -1765,6 +1765,17 @@ if
 (
 !
 sourceMapService
+|
+|
+!
+Services
+.
+prefs
+.
+getBoolPref
+(
+PREF_ORIG_SOURCES
+)
 )
 {
 return
