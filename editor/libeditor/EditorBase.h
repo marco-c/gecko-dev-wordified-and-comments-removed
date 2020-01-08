@@ -3444,6 +3444,7 @@ nsINode
 *
 inNode
 )
+const
 ;
 bool
 IsEditorRoot
@@ -3452,6 +3453,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 bool
 IsDescendantOfRoot
@@ -3460,6 +3462,7 @@ nsINode
 *
 inNode
 )
+const
 ;
 bool
 IsDescendantOfEditorRoot
@@ -3468,6 +3471,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 virtual
 bool
@@ -3866,12 +3870,14 @@ Element
 GetEditorRoot
 (
 )
+const
 ;
 Element
 *
 GetExposedRoot
 (
 )
+const
 ;
 virtual
 bool

@@ -793,6 +793,7 @@ Element
 GetActiveEditingHost
 (
 )
+const
 ;
 protected
 :
@@ -884,6 +885,7 @@ Element
 GetEditorRoot
 (
 )
+const
 override
 ;
 using
