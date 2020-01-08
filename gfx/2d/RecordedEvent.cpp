@@ -257,6 +257,14 @@ DrawSurface
 "
 ;
 case
+DRAWDEPENDENTSURFACE
+:
+return
+"
+DrawDependentSurface
+"
+;
+case
 DRAWSURFACEWITHSHADOW
 :
 return
