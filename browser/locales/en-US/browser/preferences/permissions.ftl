@@ -611,13 +611,12 @@ autoplay
 -
 media
 -
-window
+window2
 =
 .
 title
 =
-Allowed
-Websites
+Exceptions
 -
 Autoplay
 .

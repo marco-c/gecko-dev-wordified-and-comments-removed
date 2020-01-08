@@ -5792,7 +5792,7 @@ autoplay
 -
 media
 -
-window
+window2
 .
 title
 permissions
@@ -6570,7 +6570,7 @@ autoplay
 -
 media
 -
-window
+window2
 .
 title
 permissions
