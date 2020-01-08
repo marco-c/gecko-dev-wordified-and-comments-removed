@@ -1517,6 +1517,8 @@ int32_t
 aNewEnd
 int16_t
 aReason
+int16_t
+aBoundaryType
 EIsFromUserInput
 aIsFromUserInput
 =
@@ -1634,6 +1636,16 @@ return
 mReason
 ;
 }
+int32_t
+BoundaryType
+(
+)
+const
+{
+return
+mBoundaryType
+;
+}
 private
 :
 RefPtr
@@ -1662,6 +1674,9 @@ mNewEnd
 ;
 int16_t
 mReason
+;
+int16_t
+mBoundaryType
 ;
 }
 ;

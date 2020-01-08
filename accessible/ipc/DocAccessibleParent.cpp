@@ -2115,6 +2115,10 @@ int16_t
 &
 aReason
 const
+int16_t
+&
+aBoundaryType
+const
 bool
 &
 aFromUser
@@ -2163,6 +2167,7 @@ oldPosition
 aNewStartOffset
 aNewEndOffset
 aReason
+aBoundaryType
 aFromUser
 )
 ;
@@ -2214,6 +2219,7 @@ newPosition
 )
 aNewStartOffset
 aNewEndOffset
+aBoundaryType
 aReason
 )
 ;

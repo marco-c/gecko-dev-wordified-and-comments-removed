@@ -401,6 +401,8 @@ int32_t
 aEndOffset
 int16_t
 aReason
+int16_t
+aBoundaryType
 bool
 aFromUservcEvent
 )
