@@ -210,7 +210,9 @@ include
 "
 mozilla
 /
-GpuDecoderModule
+dom
+/
+RemoteVideoDecoder
 .
 h
 "
@@ -1595,7 +1597,10 @@ PlatformDecoderModule
 remote
 =
 new
-GpuDecoderModule
+dom
+:
+:
+RemoteDecoderModule
 (
 m
 )
