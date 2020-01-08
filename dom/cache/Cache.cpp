@@ -962,6 +962,12 @@ responseList
 result
 )
 ;
+result
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 NS_WARN_IF
