@@ -150,7 +150,10 @@ values
 specified
 :
 :
+{
 LengthOrPercentage
+NonNegativeLengthOrPercentage
+}
 ;
 use
 crate
@@ -247,6 +250,7 @@ BasicShape
 HorizontalPosition
 VerticalPosition
 LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 pub
@@ -259,6 +263,7 @@ generic
 InsetRect
 <
 LengthOrPercentage
+NonNegativeLengthOrPercentage
 >
 ;
 pub
@@ -1385,10 +1390,6 @@ generic
 InsetRect
 {
 rect
-:
-rect
-round
-:
 round
 }
 )
