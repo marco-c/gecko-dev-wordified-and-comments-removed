@@ -1800,11 +1800,11 @@ get
 ;
 EXPECT_EQ
 (
-result
-CompositorHitTestFlags
+CompositorHitTestInfo
 :
 :
 eVisibleToHitTest
+result
 )
 ;
 }
@@ -1862,11 +1862,11 @@ get
 ;
 EXPECT_EQ
 (
-result
-CompositorHitTestFlags
+CompositorHitTestInfo
 :
 :
 eVisibleToHitTest
+result
 )
 ;
 }
