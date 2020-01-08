@@ -7362,7 +7362,7 @@ FreeSystemMetrics
 (
 )
 ;
-MediaFeatureValuesChanged
+MediaFeatureValuesChangedAllDocuments
 (
 {
 eRestyle_ForceDescendants
