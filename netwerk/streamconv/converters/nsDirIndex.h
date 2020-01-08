@@ -1,4 +1,10 @@
 #
+ifndef
+nsDirIndex_h__
+#
+define
+nsDirIndex_h__
+#
 include
 "
 nsIDirIndex
@@ -67,3 +73,5 @@ mLastModified
 ;
 }
 ;
+#
+endif
