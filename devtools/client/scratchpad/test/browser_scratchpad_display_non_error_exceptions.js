@@ -55,10 +55,11 @@ text
 }
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 data
 :
