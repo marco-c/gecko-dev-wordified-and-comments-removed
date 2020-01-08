@@ -2153,10 +2153,6 @@ If
 "
 anchor
 "
-or
-"
-namedanchor
-"
 the
 result
 may
@@ -2164,9 +2160,9 @@ be
 <
 a
 >
-*
 which
 has
+*
 "
 name
 "
