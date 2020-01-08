@@ -3403,7 +3403,7 @@ options
 manual
 '
 '
-auto
+none
 '
 ]
 ]
