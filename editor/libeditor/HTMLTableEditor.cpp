@@ -10644,9 +10644,9 @@ mColumn
 +
 cellData
 .
-mEffectiveColSpan
--
-1
+NumberOfFollowingColumns
+(
+)
 ;
 cellFoundInRow
 =
