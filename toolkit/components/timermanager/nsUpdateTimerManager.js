@@ -993,6 +993,15 @@ callback
 notify
 )
 {
+ChromeUtils
+.
+idleDispatch
+(
+(
+)
+=
+>
+{
 try
 {
 timerData
@@ -1049,6 +1058,9 @@ e
 )
 ;
 }
+}
+)
+;
 }
 else
 {
