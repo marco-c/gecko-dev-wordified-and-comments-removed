@@ -3141,9 +3141,6 @@ desc
 )
 ;
 }
-#
-ifndef
-RELEASE_OR_BETA
 static
 bool
 IsNonConfigurableReadonlyPrimitiveGlobalProp
@@ -3201,8 +3198,6 @@ IDX_INFINITY
 )
 ;
 }
-#
-endif
 bool
 nsOuterWindowProxy
 :
@@ -23235,14 +23230,7 @@ eventSink
 OnSecurityChange
 (
 aChannel
-oldState
 state
-doc
--
->
-GetContentBlockingLog
-(
-)
 )
 ;
 }
