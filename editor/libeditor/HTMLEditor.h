@@ -2096,6 +2096,15 @@ aInputString
 )
 ;
 nsresult
+ReplaceHeadContentsWithSourceWithTransaction
+(
+const
+nsAString
+&
+aSourceToInsert
+)
+;
+nsresult
 GetCSSBackgroundColorState
 (
 bool
