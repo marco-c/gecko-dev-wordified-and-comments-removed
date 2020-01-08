@@ -433,11 +433,14 @@ href
 "
 desc
 +
+encodeURIComponent
+(
 aEvent
 .
 detail
 .
 url
+)
 )
 ;
 }
