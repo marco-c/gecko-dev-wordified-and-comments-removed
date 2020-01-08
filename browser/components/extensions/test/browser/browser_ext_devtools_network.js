@@ -877,6 +877,7 @@ ready
 let
 target
 =
+await
 gDevTools
 .
 getTargetForTab
@@ -1112,6 +1113,7 @@ ready
 let
 target
 =
+await
 gDevTools
 .
 getTargetForTab
@@ -1400,6 +1402,7 @@ ready
 let
 target
 =
+await
 gDevTools
 .
 getTargetForTab
