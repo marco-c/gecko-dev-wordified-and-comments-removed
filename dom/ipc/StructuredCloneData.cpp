@@ -512,15 +512,9 @@ global
 xpc
 :
 :
-NativeGlobal
-(
-JS
-:
-:
-CurrentGlobalOrNull
+CurrentNativeGlobal
 (
 aCx
-)
 )
 ;
 MOZ_ASSERT

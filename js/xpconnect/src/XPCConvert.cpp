@@ -4220,12 +4220,9 @@ nsIGlobalObject
 *
 glob
 =
-NativeGlobal
-(
-CurrentGlobalOrNull
+CurrentNativeGlobal
 (
 cx
-)
 )
 ;
 if

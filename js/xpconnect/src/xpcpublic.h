@@ -1701,6 +1701,15 @@ JSObject
 aObj
 )
 ;
+nsIGlobalObject
+*
+CurrentNativeGlobal
+(
+JSContext
+*
+cx
+)
+;
 nsGlobalWindowInner
 *
 WindowOrNull
