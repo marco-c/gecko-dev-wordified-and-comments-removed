@@ -320,10 +320,11 @@ page
 "
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 http
 :

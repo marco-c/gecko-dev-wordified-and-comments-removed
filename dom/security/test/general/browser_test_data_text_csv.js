@@ -255,10 +255,11 @@ finish
 }
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 kTestURI
 )
 ;
