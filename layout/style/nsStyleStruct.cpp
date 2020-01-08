@@ -16895,8 +16895,6 @@ hint
 |
 =
 nsChangeHint_ReflowHintsForFloatAreaChange
-|
-nsChangeHint_ScrollbarChange
 ;
 }
 else
