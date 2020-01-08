@@ -3434,6 +3434,8 @@ XPCOM_MEM_COMPTR_LOG
 defined
 -
 -
+"
+"
 but
 XPCOM_MEM_LOG_CLASSES
 is
@@ -3476,6 +3478,8 @@ XPCOM_MEM_COMPTR_LOG
 defined
 -
 -
+"
+"
 but
 it
 will
@@ -3518,6 +3522,8 @@ XPCOM_MEM_LOG_CLASSES
 defined
 -
 -
+"
+"
 only
 logging
 these
@@ -3676,6 +3682,8 @@ XPCOM_MEM_LOG_OBJECTS
 defined
 -
 -
+"
+"
 but
 none
 of
@@ -3709,6 +3717,8 @@ XPCOM_MEM_LOG_OBJECTS
 defined
 -
 -
+"
+"
 only
 logging
 these
