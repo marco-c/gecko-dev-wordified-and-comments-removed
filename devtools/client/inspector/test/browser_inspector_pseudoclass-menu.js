@@ -55,6 +55,11 @@ active
 "
 focus
 "
+"
+focus
+-
+within
+"
 ]
 ;
 add_task
