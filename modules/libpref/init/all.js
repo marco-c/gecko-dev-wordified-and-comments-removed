@@ -950,6 +950,12 @@ hack
 dispatch_non_printable_keys
 "
 "
+medium
+.
+com
+/
+p
+/
 "
 )
 ;
@@ -35762,7 +35768,7 @@ full
 -
 frames
 "
-false
+true
 )
 ;
 pref
