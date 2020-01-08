@@ -422,6 +422,17 @@ python
 ini
 '
 '
+mozboot
+/
+mozboot
+/
+test
+/
+python
+.
+ini
+'
+'
 mozbuild
 /
 dumbmake
