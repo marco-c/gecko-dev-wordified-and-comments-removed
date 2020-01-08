@@ -203,9 +203,6 @@ outgoing
 )
 )
         
-try
-:
-            
 return
 [
 json
@@ -237,14 +234,6 @@ listdir
 (
 path
 )
-]
-        
-except
-OSError
-:
-            
-return
-[
 ]
     
 return
