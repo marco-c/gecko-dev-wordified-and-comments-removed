@@ -126,6 +126,7 @@ state
 /
 [
 scriptable
+builtinclass
 uuid
 (
 b1fdf3c4
