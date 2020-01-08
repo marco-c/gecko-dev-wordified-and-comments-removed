@@ -147,9 +147,16 @@ nsSVGFilterFrame
 class
 nsSVGMaskFrame
 ;
+namespace
+mozilla
+{
 class
 nsSVGFilterChainObserver
 ;
+}
+namespace
+mozilla
+{
 class
 nsSVGRenderingObserver
 :
@@ -1773,5 +1780,6 @@ aDocURI
 ;
 }
 ;
+}
 #
 endif

@@ -94,14 +94,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 void
 nsSVGRenderingObserver
 :
@@ -4970,4 +4969,5 @@ aFrame
 data
 )
 ;
+}
 }
