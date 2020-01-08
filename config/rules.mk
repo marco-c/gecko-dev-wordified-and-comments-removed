@@ -6572,6 +6572,8 @@ MOZ_ASAN
 ifndef
 MOZ_TSAN
 ifndef
+MOZ_UBSAN
+ifndef
 MOZ_CODE_COVERAGE
 #
 Pass
@@ -6932,6 +6934,9 @@ WINNT
 endif
 #
 MOZ_CODE_COVERAGE
+endif
+#
+MOZ_UBSAN
 endif
 #
 MOZ_TSAN
@@ -7346,6 +7351,8 @@ ifndef
 MOZ_ASAN
 ifndef
 MOZ_TSAN
+ifndef
+MOZ_UBSAN
 #
 Cargo
 needs
@@ -7458,6 +7465,9 @@ build
 cargo
 -
 linker
+endif
+#
+MOZ_UBSAN
 endif
 #
 MOZ_TSAN
