@@ -9237,6 +9237,11 @@ mUserHasInteracted
 ;
 }
 void
+ResetUserInteractionTimer
+(
+)
+;
+void
 NotifyUserGestureActivation
 (
 )
@@ -11533,6 +11538,9 @@ mStyleUseCounters
 ;
 bool
 mUserHasInteracted
+;
+bool
+mHasUserInteractionTimerScheduled
 ;
 bool
 mUserGestureActivated
