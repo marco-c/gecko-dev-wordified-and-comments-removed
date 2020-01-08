@@ -206,6 +206,11 @@ nsIContent
 aContent
 )
 ;
+bool
+IsTestMode
+(
+)
+;
 nsPIDOMWindowOuter
 *
 GetFocusedWindow
