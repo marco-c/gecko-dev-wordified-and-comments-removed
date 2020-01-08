@@ -3540,13 +3540,6 @@ return
 rv
 ;
 }
-nsJSContext
-:
-:
-LoadStart
-(
-)
-;
 }
 }
 }
@@ -4249,13 +4242,6 @@ LoadEventFired
 )
 ;
 }
-nsJSContext
-:
-:
-LoadEnd
-(
-)
-;
 nsJSContext
 :
 :
