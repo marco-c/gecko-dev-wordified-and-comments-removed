@@ -4203,6 +4203,8 @@ WrImageKey
 aKey
 bool
 aPremultipliedAlpha
+ColorF
+color
 )
 WR_FUNC
 ;
