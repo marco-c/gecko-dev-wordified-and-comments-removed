@@ -1837,7 +1837,7 @@ bytecode
 )
 ;
 }
-bool
+void
 wasm
 :
 :
@@ -1956,7 +1956,6 @@ env
 )
 )
 return
-false
 ;
 ModuleGenerator
 mg
@@ -1979,7 +1978,6 @@ init
 )
 )
 return
-false
 ;
 if
 (
@@ -1992,7 +1990,6 @@ mg
 )
 )
 return
-false
 ;
 if
 (
@@ -2005,15 +2002,18 @@ env
 )
 )
 return
-false
 ;
-return
+if
+(
+!
 mg
 .
 finishTier2
 (
 module
 )
+)
+return
 ;
 }
 class

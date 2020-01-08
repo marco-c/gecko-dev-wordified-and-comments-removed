@@ -206,7 +206,7 @@ UniqueCharsVector
 warnings
 )
 ;
-bool
+void
 CompileTier2
 (
 const
