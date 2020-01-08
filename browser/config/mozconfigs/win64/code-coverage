@@ -75,6 +75,14 @@ ac_add_options
 enable
 -
 coverage
+ac_add_options
+-
+-
+enable
+-
+rust
+-
+tests
 #
 Needed
 to
