@@ -21,11 +21,7 @@ Linux
 .
 TUP_REVISION
 =
-v0
-.
-7
-.
-7
+f77dbd429d6157dac252014a26f6d275dce85d85
 WORKSPACE
 =
 HOME
