@@ -120,8 +120,6 @@ voluptuous
 import
 (
     
-Any
-    
 Extra
     
 Optional
@@ -498,8 +496,6 @@ optimization
 '
 )
 :
-Any
-(
 {
         
 Optional
@@ -516,7 +512,6 @@ basestring
 ]
     
 }
-)
     
 Optional
 (

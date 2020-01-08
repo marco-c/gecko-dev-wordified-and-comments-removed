@@ -10,8 +10,6 @@ voluptuous
 import
 (
     
-Any
-    
 Optional
     
 Required
@@ -115,8 +113,6 @@ fetch
 '
 )
 :
-Any
-(
 {
         
 '
@@ -203,7 +199,6 @@ name
 basestring
     
 }
-)
 }
 )
 transforms
