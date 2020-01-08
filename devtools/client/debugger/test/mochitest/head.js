@@ -1260,7 +1260,7 @@ response
 await
 aClient
 .
-attachTab
+attachTarget
 (
 grip
 .
@@ -6587,7 +6587,7 @@ null
 ;
 }
 function
-attachTab
+attachTarget
 (
 client
 tab
@@ -6617,7 +6617,7 @@ url
 return
 client
 .
-attachTab
+attachTarget
 (
 tab
 .
@@ -7716,7 +7716,7 @@ tabClient
 ]
 =
 await
-attachTab
+attachTarget
 (
 client
 findTab

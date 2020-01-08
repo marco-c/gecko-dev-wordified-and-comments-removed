@@ -612,7 +612,7 @@ tab
 .
 client
 .
-attachTab
+attachTarget
 (
 tab
 .
@@ -860,7 +860,7 @@ first
 argument
 of
 the
-attachTab
+attachTarget
 callback
 .
 client
@@ -1338,7 +1338,7 @@ tab
 .
 client
 .
-attachTab
+attachTarget
 (
 tab
 .
