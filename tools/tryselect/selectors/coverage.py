@@ -2384,6 +2384,9 @@ platform
 chunk
 )
         
+else
+:
+            
 selected_tasks
 .
 add
