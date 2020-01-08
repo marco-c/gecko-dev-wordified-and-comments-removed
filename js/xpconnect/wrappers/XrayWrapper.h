@@ -541,6 +541,11 @@ JS
 :
 HandleObject
 exclusiveWrapper
+JS
+:
+:
+HandleObject
+exclusiveWrapperGlobal
 nsIPrincipal
 *
 origin
