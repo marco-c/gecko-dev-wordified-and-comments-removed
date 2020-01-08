@@ -165,11 +165,11 @@ uint32_t
 >
 startFuncIndex
 ;
-MaybeSectionRange
-codeSection
-;
 ElemSegmentVector
 elemSegments
+;
+MaybeSectionRange
+codeSection
 ;
 DataSegmentVector
 dataSegments
