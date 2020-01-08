@@ -20,7 +20,7 @@ jsm
 let
 cookieBehavior
 =
-BEHAVIOR_REJECT_FOREIGN
+BEHAVIOR_REJECT_TRACKER
 ;
 let
 blockingByContentBlocking
@@ -30,7 +30,7 @@ true
 let
 blockingByContentBlockingUI
 =
-true
+false
 ;
 let
 blockingByContentBlockingRTUI

@@ -30,7 +30,7 @@ true
 let
 blockingByContentBlockingUI
 =
-true
+false
 ;
 let
 blockingByContentBlockingRTUI
