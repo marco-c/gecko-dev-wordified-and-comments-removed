@@ -1031,36 +1031,6 @@ entries
 ]
 :
             
-if
-config
-.
-params
-[
-'
-release_type
-'
-]
-=
-=
-'
-rc
-'
-or
-job
-[
-'
-name
-'
-]
-!
-=
-'
-firefox
--
-rc
-'
-:
-                
 yield
 job
         
