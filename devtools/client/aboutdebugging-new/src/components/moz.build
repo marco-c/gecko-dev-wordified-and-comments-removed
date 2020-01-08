@@ -80,6 +80,11 @@ App
 js
 '
 '
+ConnectionPromptSetting
+.
+js
+'
+'
 RuntimeInfo
 .
 css
@@ -88,6 +93,11 @@ css
 RuntimeInfo
 .
 js
+'
+'
+RuntimePage
+.
+css
 '
 '
 RuntimePage

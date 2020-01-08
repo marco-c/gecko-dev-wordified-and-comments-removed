@@ -88,6 +88,13 @@ PropTypes
 object
 .
 isRequired
+connectionPromptEnabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 info
 :
 PropTypes
