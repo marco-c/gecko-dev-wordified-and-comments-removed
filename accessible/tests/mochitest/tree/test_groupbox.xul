@@ -495,9 +495,6 @@ groupbox
 "
 >
 <
-caption
->
-<
 label
 value
 =
@@ -506,10 +503,6 @@ Some
 caption
 "
 /
->
-<
-/
-caption
 >
 <
 checkbox

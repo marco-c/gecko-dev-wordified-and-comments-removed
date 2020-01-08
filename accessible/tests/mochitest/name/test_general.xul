@@ -2105,9 +2105,8 @@ starts
 groupbox
 labeling
 from
-caption
-sub
-tree
+first
+label
 testName
 (
 "
@@ -3410,9 +3409,6 @@ groupbox
 "
 >
 <
-caption
->
-<
 label
 >
 Some
@@ -3420,10 +3416,6 @@ caption
 <
 /
 label
->
-<
-/
-caption
 >
 <
 checkbox
