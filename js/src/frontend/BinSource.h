@@ -934,6 +934,17 @@ ListNode
 directives
 )
 ;
+void
+forceStrictIfNecessary
+(
+FunctionBox
+*
+funbox
+ListNode
+*
+directives
+)
+;
 private
 :
 const
