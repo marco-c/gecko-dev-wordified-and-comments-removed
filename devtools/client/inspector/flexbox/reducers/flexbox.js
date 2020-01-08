@@ -34,6 +34,10 @@ color
 :
 "
 "
+flexItems
+:
+[
+]
 highlighted
 :
 false
