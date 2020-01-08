@@ -3172,12 +3172,9 @@ populateSendTabToDevicesMenu
 event
 .
 target
-gContextMenu
+gBrowser
 .
-linkURL
-gContextMenu
-.
-linkTextStr
+selectedTab
 )
 ;
 "
