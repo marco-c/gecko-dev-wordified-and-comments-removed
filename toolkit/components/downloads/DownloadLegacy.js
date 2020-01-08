@@ -260,13 +260,6 @@ saver
 onTransferStarted
 (
 aRequest
-this
-.
-_cancelable
-instanceof
-Ci
-.
-nsIHelperAppLauncher
 )
 ;
 return

@@ -6516,7 +6516,6 @@ false
 onTransferStarted
 (
 aRequest
-aAlreadyAddedToHistory
 )
 {
 this
@@ -6614,19 +6613,12 @@ referrer
 spec
 ;
 }
-if
-(
-!
-aAlreadyAddedToHistory
-)
-{
 this
 .
 addToHistory
 (
 )
 ;
-}
 }
 onTransferFinished
 :
