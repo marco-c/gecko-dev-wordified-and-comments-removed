@@ -426,6 +426,9 @@ return
 false
 ;
 }
+#
+ifndef
+FUZZING
 if
 (
 !
@@ -455,6 +458,8 @@ return
 false
 ;
 }
+#
+endif
 current_
 +
 =
