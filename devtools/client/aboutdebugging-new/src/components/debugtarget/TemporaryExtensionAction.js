@@ -201,9 +201,7 @@ reloadTemporaryExtension
 (
 target
 .
-details
-.
-actor
+id
 )
 )
 ;
