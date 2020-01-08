@@ -2473,6 +2473,14 @@ AString
 extensionID
 )
 ;
+void
+addEnginesFromExtension
+(
+in
+jsval
+extension
+)
+;
 /
 *
 *
