@@ -56,15 +56,6 @@ transaction
 ref
 .
 html
-fails
--
-if
-(
-webrender
-&
-&
-winWidget
-)
 =
 =
 image
