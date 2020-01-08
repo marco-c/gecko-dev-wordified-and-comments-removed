@@ -1310,12 +1310,6 @@ PREF_UA_STYLES
 ;
 this
 .
-_showEmpty
-(
-)
-;
-this
-.
 tooltips
 =
 new
