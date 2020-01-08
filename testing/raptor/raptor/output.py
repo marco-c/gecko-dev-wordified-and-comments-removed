@@ -628,7 +628,7 @@ vals
 =
 self
 .
-parseWASMGoDotOutput
+parseWASMGodotOutput
 (
 test
 )
@@ -1250,7 +1250,7 @@ subtests
 vals
     
 def
-parseWASMGoDotOutput
+parseWASMGodotOutput
 (
 self
 test
