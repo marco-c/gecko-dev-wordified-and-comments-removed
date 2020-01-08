@@ -63,6 +63,9 @@ tools
 .
 wpt
 import
+run
+as
+wptrun
 testfiles
 from
 tools
@@ -197,6 +200,14 @@ setLevel
 logging
 .
 DEBUG
+)
+    
+wptrun
+.
+setup_logging
+(
+{
+}
 )
 def
 do_delayed_imports
@@ -1492,6 +1503,10 @@ do_delayed_imports
 (
 )
     
+setup_logging
+(
+)
+    
 retcode
 =
 0
@@ -1650,10 +1665,6 @@ OSError
 :
         
 pass
-    
-setup_logging
-(
-)
     
 pr_number
 =
