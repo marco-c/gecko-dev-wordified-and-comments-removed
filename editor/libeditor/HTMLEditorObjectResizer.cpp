@@ -4285,7 +4285,9 @@ aIsObjectResizingEnabled
 *
 aIsObjectResizingEnabled
 =
-mIsObjectResizingEnabled
+IsObjectResizerEnabled
+(
+)
 ;
 return
 NS_OK
@@ -4301,9 +4303,10 @@ bool
 aObjectResizingEnabled
 )
 {
-mIsObjectResizingEnabled
-=
+EnableObjectResizer
+(
 aObjectResizingEnabled
+)
 ;
 return
 NS_OK

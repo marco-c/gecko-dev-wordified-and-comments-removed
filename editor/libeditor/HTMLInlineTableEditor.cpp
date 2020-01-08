@@ -122,9 +122,10 @@ bool
 aIsEnabled
 )
 {
-mIsInlineTableEditingEnabled
-=
+EnableInlineTableEditor
+(
 aIsEnabled
+)
 ;
 return
 NS_OK
@@ -144,7 +145,9 @@ aIsEnabled
 *
 aIsEnabled
 =
-mIsInlineTableEditingEnabled
+IsInlineTableEditorEnabled
+(
+)
 ;
 return
 NS_OK
