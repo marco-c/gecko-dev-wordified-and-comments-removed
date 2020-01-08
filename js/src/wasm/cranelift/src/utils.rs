@@ -1,8 +1,5 @@
 use
 std
-;
-use
-std
 :
 :
 error
