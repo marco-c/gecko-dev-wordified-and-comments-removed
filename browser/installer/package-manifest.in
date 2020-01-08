@@ -2258,6 +2258,13 @@ RESPATH
 modules
 /
 *
+RESPATH
+/
+browser
+/
+actors
+/
+*
 ;
 Safe
 Browsing
