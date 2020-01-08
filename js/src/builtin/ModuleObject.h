@@ -105,6 +105,9 @@ namespace
 frontend
 {
 class
+BinaryNode
+;
+class
 ListNode
 ;
 class
@@ -1547,9 +1550,9 @@ processImport
 frontend
 :
 :
-ParseNode
+BinaryNode
 *
-pn
+importNode
 )
 ;
 bool
@@ -1560,7 +1563,7 @@ frontend
 :
 ParseNode
 *
-pn
+exportNode
 )
 ;
 bool
@@ -1569,9 +1572,9 @@ processExportFrom
 frontend
 :
 :
-ParseNode
+BinaryNode
 *
-pn
+exportNode
 )
 ;
 bool

@@ -2325,7 +2325,7 @@ JS
 :
 Result
 <
-ParseNode
+CaseClause
 *
 >
 parseSwitchCase
@@ -4474,7 +4474,7 @@ JS
 :
 Result
 <
-ParseNode
+CaseClause
 *
 >
 parseInterfaceSwitchCase
