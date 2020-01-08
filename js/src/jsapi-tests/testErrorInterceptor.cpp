@@ -330,10 +330,14 @@ SyntaxError
 "
 TypeError
 :
+can
+'
+t
+access
+property
+0
+of
 undefined
-has
-no
-properties
 \
 0
 "

@@ -862,7 +862,6 @@ String
 (
 manifestException
 )
-"
 TypeError
 :
 win
@@ -872,7 +871,16 @@ browser
 runtime
 is
 undefined
+can
+'
+t
+access
+property
 "
+getManifest
+"
+of
+it
 "
 expected
 exception

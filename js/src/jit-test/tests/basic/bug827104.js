@@ -70,7 +70,6 @@ e
 toString
 (
 )
-'
 TypeError
 :
 a
@@ -79,6 +78,13 @@ i
 ]
 is
 undefined
+can
 '
+t
+access
+property
+0
+of
+it
 )
 ;
