@@ -1221,6 +1221,11 @@ mReceivedRedirect2Verify
 1
 ;
 uint8_t
+mHasSuspendedByBackPressure
+:
+1
+;
+uint8_t
 mPendingDiversion
 :
 1
