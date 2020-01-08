@@ -1196,6 +1196,13 @@ this
 conn
 )
 ;
+this
+.
+manage
+(
+this
+)
+;
 }
 sayHello
 :
@@ -1770,6 +1777,8 @@ _poolMap
 .
 size
 size
++
+1
 )
 ;
 Assert
