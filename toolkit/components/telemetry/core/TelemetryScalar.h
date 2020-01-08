@@ -167,8 +167,10 @@ Value
 aResult
 bool
 aFilterTest
-=
-false
+const
+nsACString
+&
+aStoreName
 )
 ;
 nsresult
@@ -260,8 +262,10 @@ Value
 aResult
 bool
 aFilterTest
-=
-false
+const
+nsACString
+&
+aStoreName
 )
 ;
 void
