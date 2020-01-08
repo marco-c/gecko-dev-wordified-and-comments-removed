@@ -1470,6 +1470,7 @@ kScrollSnapTypeKTable
 ]
 ;
 static
+const
 KTableEntry
 kTextAlignKTable
 [
