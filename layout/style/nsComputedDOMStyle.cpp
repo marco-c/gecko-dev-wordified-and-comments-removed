@@ -197,6 +197,13 @@ h
 #
 include
 "
+nsCSSProps
+.
+h
+"
+#
+include
+"
 nsCSSPseudoElements
 .
 h

@@ -34,6 +34,13 @@ h
 #
 include
 "
+nsPresArena
+.
+h
+"
+#
+include
+"
 nsStyleStruct
 .
 h
