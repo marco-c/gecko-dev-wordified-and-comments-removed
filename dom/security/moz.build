@@ -127,6 +127,11 @@ ContentVerifier
 h
 '
 '
+CSPEvalChecker
+.
+h
+'
+'
 FramingChecker
 .
 h
@@ -198,6 +203,11 @@ UNIFIED_SOURCES
 [
 '
 ContentVerifier
+.
+cpp
+'
+'
+CSPEvalChecker
 .
 cpp
 '
