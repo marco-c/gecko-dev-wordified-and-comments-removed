@@ -104,16 +104,6 @@ mozilla
 gfx
 :
 :
-PrimitiveType
-PrimitiveType
-;
-typedef
-mozilla
-:
-:
-gfx
-:
-:
 Size
 Size
 ;
@@ -155,8 +145,6 @@ private
 FilterPrimitiveDescription
 CreatePrimitiveDescription
 (
-PrimitiveType
-aType
 const
 nsTArray
 <

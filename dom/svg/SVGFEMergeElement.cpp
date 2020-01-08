@@ -143,10 +143,12 @@ aInputImages
 return
 FilterPrimitiveDescription
 (
-PrimitiveType
-:
-:
-Merge
+AsVariant
+(
+MergeAttributes
+(
+)
+)
 )
 ;
 }
