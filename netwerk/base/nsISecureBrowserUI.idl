@@ -99,9 +99,6 @@ nsISupports
 idl
 "
 interface
-mozIDOMWindowProxy
-;
-interface
 nsIDocShell
 ;
 interface
@@ -129,14 +126,6 @@ nsISupports
 {
 void
 init
-(
-in
-mozIDOMWindowProxy
-window
-)
-;
-void
-setDocShell
 (
 in
 nsIDocShell

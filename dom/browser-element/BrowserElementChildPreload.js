@@ -679,7 +679,7 @@ securityUI
 .
 init
 (
-content
+docShell
 )
 ;
 this

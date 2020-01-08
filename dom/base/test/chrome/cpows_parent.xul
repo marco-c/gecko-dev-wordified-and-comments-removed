@@ -2100,7 +2100,7 @@ try
 {
 secureUI
 .
-setDocShell
+init
 (
 docshell
 )

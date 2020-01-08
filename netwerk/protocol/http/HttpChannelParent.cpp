@@ -352,6 +352,13 @@ h
 #
 include
 "
+nsISecureBrowserUI
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h

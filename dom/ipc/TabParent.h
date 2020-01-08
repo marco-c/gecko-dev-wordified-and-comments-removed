@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsISecureBrowserUI
-.
-h
-"
-#
-include
-"
 nsITabParent
 .
 h
@@ -322,8 +315,6 @@ public
 nsITabParent
 public
 nsIAuthPromptProvider
-public
-nsISecureBrowserUI
 public
 nsIKeyEventInPluginCallback
 public
@@ -2191,7 +2182,6 @@ globalp
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIAUTHPROMPTPROVIDER
-NS_DECL_NSISECUREBROWSERUI
 void
 StartPersistence
 (
