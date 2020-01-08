@@ -455,13 +455,6 @@ testPrefsSetByUser
 (
 )
 {
-const
-kNewCount
-=
-DEFAULT_PROCESS_COUNT
--
-2
-;
 Services
 .
 prefs
@@ -475,7 +468,9 @@ ipc
 .
 processCount
 "
-kNewCount
+DEFAULT_PROCESS_COUNT
++
+2
 )
 ;
 Services
@@ -608,7 +603,9 @@ ipc
 processCount
 "
 )
-kNewCount
+DEFAULT_PROCESS_COUNT
++
+2
 "
 process
 count
@@ -627,7 +624,9 @@ contentProcessCount
 selectedItem
 .
 value
-kNewCount
+DEFAULT_PROCESS_COUNT
++
+2
 "
 selected
 item
