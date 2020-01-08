@@ -105,7 +105,7 @@ vbox
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -145,7 +145,7 @@ innerbox
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -204,7 +204,7 @@ button
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 button

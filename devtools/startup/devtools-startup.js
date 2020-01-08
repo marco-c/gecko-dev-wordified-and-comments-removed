@@ -1682,7 +1682,7 @@ view
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 panelview
@@ -1704,7 +1704,7 @@ panel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -1866,7 +1866,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -2286,7 +2286,7 @@ keyset
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 keyset
@@ -2482,7 +2482,7 @@ k
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 key
