@@ -277,12 +277,9 @@ LastElement
 )
 )
 {
-(
-void
-)
 mResponsePromises
 .
-PopLastElement
+RemoveLastElement
 (
 )
 ;
