@@ -3586,8 +3586,14 @@ filename_str
 &
 found
 )
-|
-|
+)
+{
+return
+false
+;
+}
+if
+(
 !
 found
 )
