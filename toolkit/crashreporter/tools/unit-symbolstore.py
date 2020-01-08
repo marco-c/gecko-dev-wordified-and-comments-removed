@@ -2453,6 +2453,16 @@ xyz
 ]
 )
             
+mock_Popen
+.
+return_value
+.
+wait
+.
+return_value
+=
+0
+            
 mock_communicate
 =
 mock_Popen
@@ -3775,6 +3785,16 @@ mk_output
 (
 dumped_files
 )
+        
+mock_Popen
+.
+return_value
+.
+wait
+.
+return_value
+=
+0
         
 d
 =
