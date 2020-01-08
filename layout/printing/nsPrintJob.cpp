@@ -6974,12 +6974,6 @@ printDPI
 =
 float
 (
-printData
--
->
-mPrintDC
--
->
 AppUnitsPerCSSInch
 (
 )
@@ -10421,12 +10415,6 @@ printDPI
 =
 float
 (
-printData
--
->
-mPrintDC
--
->
 AppUnitsPerCSSInch
 (
 )
