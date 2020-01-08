@@ -104,6 +104,9 @@ Document
 webidl
 Element
 ;
+webidl
+Node
+;
 [
 scriptable
 uuid
@@ -191,8 +194,8 @@ Promise
 translateFragment
 (
 in
-Element
-aElement
+Node
+aNode
 )
 ;
 Promise
