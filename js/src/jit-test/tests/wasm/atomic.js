@@ -1,15 +1,3 @@
-if
-(
-!
-wasmThreadsSupported
-(
-)
-)
-quit
-(
-0
-)
-;
 const
 oob
 =

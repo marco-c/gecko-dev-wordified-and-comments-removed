@@ -1,14 +1,3 @@
-if
-(
-!
-wasmGcEnabled
-(
-)
-)
-quit
-(
-)
-;
 var
 conf
 =

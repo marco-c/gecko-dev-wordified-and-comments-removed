@@ -1,15 +1,3 @@
-if
-(
-!
-wasmDebuggingIsSupported
-(
-)
-)
-quit
-(
-6
-)
-;
 newGlobal
 (
 )

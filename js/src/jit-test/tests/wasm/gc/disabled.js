@@ -1,15 +1,3 @@
-if
-(
-wasmGcEnabled
-(
-)
-)
-{
-quit
-(
-)
-;
-}
 const
 {
 CompileError

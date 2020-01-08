@@ -1,14 +1,3 @@
-if
-(
-!
-wasmStreamingIsSupported
-(
-)
-)
-quit
-(
-)
-;
 const
 {
 Module

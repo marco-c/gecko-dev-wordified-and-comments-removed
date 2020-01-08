@@ -1,17 +1,3 @@
-if
-(
-!
-wasmGcEnabled
-(
-)
-)
-{
-quit
-(
-0
-)
-;
-}
 gczeal
 (
 14

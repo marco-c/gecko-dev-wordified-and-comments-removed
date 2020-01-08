@@ -1,16 +1,3 @@
-if
-(
-!
-wasmGcEnabled
-(
-)
-)
-{
-quit
-(
-)
-;
-}
 wasmEvalText
 (
 (

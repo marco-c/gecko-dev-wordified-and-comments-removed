@@ -1,15 +1,3 @@
-if
-(
-!
-wasmIsSupported
-(
-)
-)
-quit
-(
-6
-)
-;
 var
 tbl
 =

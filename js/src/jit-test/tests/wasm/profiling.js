@@ -1,14 +1,3 @@
-if
-(
-!
-WasmHelpers
-.
-isSingleStepProfilingEnabled
-)
-quit
-(
-)
-;
 const
 Module
 =

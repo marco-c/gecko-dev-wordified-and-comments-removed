@@ -1,15 +1,3 @@
-if
-(
-!
-wasmBulkMemSupported
-(
-)
-)
-quit
-(
-0
-)
-;
 function
 do_test
 (

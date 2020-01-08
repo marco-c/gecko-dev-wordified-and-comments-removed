@@ -1,15 +1,3 @@
-if
-(
-!
-wasmGcEnabled
-(
-)
-)
-quit
-(
-0
-)
-;
 function
 wasmCompile
 (

@@ -45,17 +45,6 @@ quit
 )
 ;
 }
-if
-(
-!
-this
-.
-oomAfterAllocations
-)
-quit
-(
-)
-;
 oomAfterAllocations
 (
 1

@@ -1,14 +1,3 @@
-if
-(
-!
-wasmStreamingIsSupported
-(
-)
-)
-quit
-(
-)
-;
 function
 testInstantiate
 (
