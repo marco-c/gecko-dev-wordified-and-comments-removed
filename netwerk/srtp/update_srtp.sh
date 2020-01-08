@@ -223,9 +223,6 @@ include
 test
 1
 /
-VERSION
-1
-/
 LICENSE
 1
 /
