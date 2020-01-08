@@ -119,6 +119,10 @@ DispatchKeyEvents
 {
 detail
 :
+Cu
+.
+cloneInto
+(
 {
 code
 :
@@ -126,6 +130,8 @@ msg
 .
 data
 }
+content
+)
 }
 )
 ;

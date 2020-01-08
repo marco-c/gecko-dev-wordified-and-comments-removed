@@ -392,6 +392,10 @@ getDefaultPreferences
 let
 prefValues
 =
+Cu
+.
+cloneInto
+(
 {
 saveCreditCardDefaultChecked
 :
@@ -416,6 +420,8 @@ SAVE_ADDRESS_DEFAULT_PREF
 false
 )
 }
+waivedContent
+)
 ;
 return
 prefValues
