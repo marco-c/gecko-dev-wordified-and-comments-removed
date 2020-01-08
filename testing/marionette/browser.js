@@ -1275,13 +1275,6 @@ cb
 ;
 this
 .
-pendingCommands
-=
-[
-]
-;
-this
-.
 _needsFlushPendingCommands
 =
 false
