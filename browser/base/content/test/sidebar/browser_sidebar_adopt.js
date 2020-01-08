@@ -66,6 +66,11 @@ BrowserTestUtils
 .
 openNewBrowserWindow
 (
+{
+opener
+:
+window
+}
 )
 ;
 await
@@ -96,6 +101,11 @@ BrowserTestUtils
 .
 openNewBrowserWindow
 (
+{
+opener
+:
+window
+}
 )
 ;
 ok
@@ -280,6 +290,11 @@ BrowserTestUtils
 .
 openNewBrowserWindow
 (
+{
+opener
+:
+window
+}
 )
 ;
 let
