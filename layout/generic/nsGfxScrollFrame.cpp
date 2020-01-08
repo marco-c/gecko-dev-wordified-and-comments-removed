@@ -8649,8 +8649,6 @@ mCallee
 =
 aCallee
 ;
-if
-(
 nsIPresShell
 *
 shell
@@ -8664,8 +8662,12 @@ mOuter
 PresShell
 (
 )
+;
+MOZ_ASSERT
+(
+shell
 )
-{
+;
 shell
 -
 >
@@ -8674,7 +8676,6 @@ SuppressDisplayport
 true
 )
 ;
-}
 return
 true
 ;
@@ -8726,8 +8727,6 @@ FlushType
 Style
 )
 ;
-if
-(
 nsIPresShell
 *
 shell
@@ -8741,8 +8740,12 @@ mOuter
 PresShell
 (
 )
+;
+MOZ_ASSERT
+(
+shell
 )
-{
+;
 shell
 -
 >
@@ -8751,7 +8754,6 @@ SuppressDisplayport
 false
 )
 ;
-}
 mCallee
 =
 nullptr
