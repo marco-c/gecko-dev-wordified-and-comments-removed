@@ -350,11 +350,6 @@ nsIdleServiceWin
 cpp
 '
 '
-nsImageClipboard
-.
-cpp
-'
-'
 nsLookAndFeel
 .
 cpp
