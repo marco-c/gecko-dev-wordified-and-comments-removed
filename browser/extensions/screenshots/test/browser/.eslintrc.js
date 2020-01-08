@@ -12,7 +12,6 @@ exports
 extends
 "
 :
-[
 "
 plugin
 :
@@ -22,6 +21,5 @@ browser
 -
 test
 "
-]
 }
 ;
