@@ -310,7 +310,7 @@ const
 ;
 virtual
 nsSize
-GetScrollPositionClampingScrollPortSize
+GetVisualViewportSize
 (
 )
 const

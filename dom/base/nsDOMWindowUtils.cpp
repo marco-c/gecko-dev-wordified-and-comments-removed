@@ -14825,7 +14825,7 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-SetScrollPositionClampingScrollPortSize
+SetVisualViewportSize
 (
 float
 aWidth
@@ -14879,7 +14879,7 @@ NS_ERROR_FAILURE
 nsLayoutUtils
 :
 :
-SetScrollPositionClampingScrollPortSize
+SetVisualViewportSize
 (
 presShell
 CSSSize
