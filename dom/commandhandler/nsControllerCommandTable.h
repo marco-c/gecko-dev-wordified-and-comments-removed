@@ -63,6 +63,15 @@ CreateHTMLEditorDocStateCommandTable
 (
 )
 ;
+static
+already_AddRefed
+<
+nsIControllerCommandTable
+>
+CreateWindowCommandTable
+(
+)
+;
 protected
 :
 virtual
