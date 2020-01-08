@@ -5222,6 +5222,18 @@ packages
 '
 )
             
+if
+self
+.
+gecko_profile
+:
+                
+self
+.
+_install_view_gecko_profile_req
+(
+)
+            
 sys
 .
 path
@@ -5365,6 +5377,19 @@ txt
 ]
         
 )
+        
+self
+.
+_install_view_gecko_profile_req
+(
+)
+    
+def
+_install_view_gecko_profile_req
+(
+self
+)
+:
         
 if
 self
