@@ -147,9 +147,6 @@ mozilla
 :
 layers
 ;
-namespace
-media
-{
 static
 const
 int64_t
@@ -357,7 +354,10 @@ aParams
 }
 RefPtr
 <
-GenericPromise
+VideoSink
+:
+:
+EndedPromise
 >
 VideoSink
 :
@@ -870,7 +870,7 @@ __func__
 ;
 RefPtr
 <
-GenericPromise
+EndedPromise
 >
 p
 =
@@ -2732,6 +2732,5 @@ move
 str
 )
 ;
-}
 }
 }

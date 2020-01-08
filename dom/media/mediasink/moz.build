@@ -115,6 +115,16 @@ VideoSink
 cpp
 '
 ]
+EXPORTS
++
+=
+[
+'
+MediaSink
+.
+h
+'
+]
 FINAL_LIBRARY
 =
 '
