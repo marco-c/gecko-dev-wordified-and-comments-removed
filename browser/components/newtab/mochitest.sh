@@ -301,3 +301,13 @@ grep
 activity
 -
 stream
+\
+&
+&
+RUN_FIND_DUPES
+=
+1
+.
+/
+mach
+package

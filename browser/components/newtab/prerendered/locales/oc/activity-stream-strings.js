@@ -790,8 +790,9 @@ pocket_more_reccommendations
 "
 :
 "
-More
-Recommendations
+Mai
+de
+recomandacions
 "
 "
 pocket_how_it_works
@@ -807,7 +808,7 @@ pocket_cta_button
 "
 :
 "
-Get
+Installar
 Pocket
 "
 "

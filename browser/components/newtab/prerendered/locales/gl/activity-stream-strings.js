@@ -1189,5 +1189,15 @@ context_menu_title
 Abrir
 men
 "
+"
+pocket_learn_more
+"
+:
+"
+M
+is
+informaci
+n
+"
 }
 ;
