@@ -39,6 +39,12 @@ invalid
 invalid
 "
 ;
+padding
+-
+top
+:
+8px
+;
 }
 .
 rich
@@ -299,7 +305,7 @@ cvv
 ;
 margin
 :
-14px
+10px
 0
 ;
 padding
