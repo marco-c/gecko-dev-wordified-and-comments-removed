@@ -822,6 +822,15 @@ RebuildInProcessSessions
 (
 )
 ;
+void
+FallbackToSoftware
+(
+const
+char
+*
+aMessage
+)
+;
 private
 :
 GPUProcessManager
