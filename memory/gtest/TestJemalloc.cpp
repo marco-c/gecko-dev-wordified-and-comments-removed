@@ -2306,6 +2306,20 @@ ptr2
 }
 }
 }
+#
+if
+!
+defined
+(
+XP_WIN
+)
+|
+|
+!
+defined
+(
+MOZ_CODE_COVERAGE
+)
 TEST
 (
 Jemalloc
@@ -3482,3 +3496,5 @@ junk_buf
 )
 ;
 }
+#
+endif
