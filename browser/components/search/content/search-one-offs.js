@@ -3727,7 +3727,7 @@ true
 }
 else
 {
-var
+let
 newTabPref
 =
 Services

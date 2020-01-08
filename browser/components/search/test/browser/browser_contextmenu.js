@@ -19,7 +19,7 @@ ENGINE_NAME
 Foo
 "
 ;
-var
+let
 contextMenu
 ;
 await
@@ -205,7 +205,7 @@ engine
 added
 "
 :
-var
+let
 engine
 =
 ss
@@ -492,7 +492,7 @@ body
 }
 )
 ;
-var
+let
 eventDetails
 =
 {
@@ -542,7 +542,7 @@ checkContextMenu
 "
 )
 ;
-var
+let
 searchItem
 =
 contextMenu

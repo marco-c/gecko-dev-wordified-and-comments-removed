@@ -58,7 +58,7 @@ test
 html
 "
 ;
-var
+let
 searchArg
 =
 Services
@@ -94,7 +94,7 @@ aEvent
 aTarget
 )
 {
-var
+let
 event
 =
 document
@@ -106,7 +106,7 @@ MouseEvent
 "
 )
 ;
-var
+let
 ctrlKeyArg
 =
 aEvent
@@ -116,7 +116,7 @@ ctrlKey
 |
 false
 ;
-var
+let
 altKeyArg
 =
 aEvent
@@ -126,7 +126,7 @@ altKey
 |
 false
 ;
-var
+let
 shiftKeyArg
 =
 aEvent
@@ -136,7 +136,7 @@ shiftKey
 |
 false
 ;
-var
+let
 metaKeyArg
 =
 aEvent
@@ -146,7 +146,7 @@ metaKey
 |
 false
 ;
-var
+let
 buttonArg
 =
 aEvent
@@ -193,7 +193,7 @@ checkMenuEntries
 expectedValues
 )
 {
-var
+let
 actualValues
 =
 getMenuEntries
@@ -219,7 +219,7 @@ menu
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -406,7 +406,7 @@ resolve
 =
 >
 {
-var
+let
 ss
 =
 Services
@@ -433,7 +433,7 @@ engine
 added
 "
 :
-var
+let
 engine
 =
 ss
@@ -640,7 +640,7 @@ resolve
 =
 >
 {
-var
+let
 ss
 =
 Services
@@ -709,7 +709,7 @@ modified
 "
 )
 ;
-var
+let
 engine
 =
 ss
@@ -1425,7 +1425,7 @@ testSearchHistory
 (
 )
 {
-var
+let
 textbox
 =
 searchBar
@@ -1434,7 +1434,7 @@ _textbox
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1506,7 +1506,7 @@ testAutocomplete
 (
 )
 {
-var
+let
 popup
 =
 searchBar

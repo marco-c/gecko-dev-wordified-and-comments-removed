@@ -281,7 +281,7 @@ clickSelectsAll
 true
 )
 ;
-var
+let
 textBox
 =
 document
@@ -322,7 +322,7 @@ upgrade
 textBox
 )
 ;
-var
+let
 cxmenu
 =
 textBox
@@ -1406,7 +1406,7 @@ true
 return
 ;
 }
-var
+let
 popup
 =
 this
@@ -1581,7 +1581,7 @@ popupNode
 =
 null
 ;
-var
+let
 outerRect
 =
 this
@@ -1590,7 +1590,7 @@ getBoundingClientRect
 (
 )
 ;
-var
+let
 innerRect
 =
 this
@@ -1654,7 +1654,7 @@ _invalidate
 (
 )
 ;
-var
+let
 yOffset
 =
 outerRect
@@ -2315,7 +2315,7 @@ case
 cmd_clearhistory
 "
 :
-var
+let
 param
 =
 this
@@ -2660,7 +2660,7 @@ dragover
 [
 CDATA
 [
-var
+let
 types
 =
 event
@@ -2726,14 +2726,14 @@ drop
 [
 CDATA
 [
-var
+let
 dataTransfer
 =
 event
 .
 dataTransfer
 ;
-var
+let
 data
 =
 dataTransfer
@@ -3161,14 +3161,14 @@ button
 )
 return
 ;
-var
+let
 searchBar
 =
 BrowserSearch
 .
 searchBar
 ;
-var
+let
 popupForSearchBar
 =
 searchBar
@@ -3303,7 +3303,7 @@ search
 bar
 popup
 clicks
-var
+let
 search
 =
 this
@@ -3330,7 +3330,7 @@ to
 the
 clicking
 subtlety
-var
+let
 where
 =
 whereToOpenLink

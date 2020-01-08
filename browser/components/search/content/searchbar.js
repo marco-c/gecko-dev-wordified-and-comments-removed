@@ -113,7 +113,7 @@ Set
 ;
 for
 (
-var
+let
 i
 in
 inheritsMap
@@ -1012,7 +1012,7 @@ currentEngine
 (
 )
 {
-var
+let
 currentEngine
 =
 Services
@@ -1220,7 +1220,7 @@ updateDisplay
 (
 )
 {
-var
+let
 uri
 =
 this
@@ -1244,7 +1244,7 @@ spec
 "
 )
 ;
-var
+let
 name
 =
 this
@@ -1253,7 +1253,7 @@ currentEngine
 .
 name
 ;
-var
+let
 text
 =
 this
@@ -1384,7 +1384,7 @@ aEvent
 isNextEngine
 )
 {
-var
+let
 newIndex
 =
 this
@@ -1463,7 +1463,7 @@ aEngine
 aForceNewTab
 )
 {
-var
+let
 where
 =
 "
@@ -1557,7 +1557,7 @@ background
 }
 else
 {
-var
+let
 newTabPref
 =
 Services
@@ -1672,14 +1672,14 @@ aWhere
 aParams
 )
 {
-var
+let
 textBox
 =
 this
 .
 _textbox
 ;
-var
+let
 textValue
 =
 textBox
@@ -1952,7 +1952,7 @@ aParams
 aOneOff
 )
 {
-var
+let
 textBox
 =
 this
@@ -2046,7 +2046,7 @@ this
 .
 currentEngine
 ;
-var
+let
 submission
 =
 engine
@@ -2256,7 +2256,7 @@ item
 )
 )
 {
-var
+let
 installCallback
 =
 {
