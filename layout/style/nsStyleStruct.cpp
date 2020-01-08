@@ -18961,7 +18961,10 @@ NS_STYLE_TEXT_EMPHASIS_STYLE_NONE
 )
 mTextRendering
 (
-NS_STYLE_TEXT_RENDERING_AUTO
+StyleTextRendering
+:
+:
+Auto
 )
 mTextEmphasisColor
 (

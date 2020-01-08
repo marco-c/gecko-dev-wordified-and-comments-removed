@@ -995,6 +995,12 @@ mozilla
 StyleWhiteSpace
 "
 "
+mozilla
+:
+:
+StyleTextRendering
+"
+"
 nsStyleImageType
 "
 "

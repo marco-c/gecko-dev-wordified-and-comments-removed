@@ -1422,7 +1422,10 @@ static
 AntialiasMode
 ToAntialiasMode
 (
-uint8_t
+mozilla
+:
+:
+StyleTextRendering
 aTextRendering
 )
 {
@@ -1430,7 +1433,13 @@ return
 aTextRendering
 =
 =
-NS_STYLE_TEXT_RENDERING_OPTIMIZESPEED
+mozilla
+:
+:
+StyleTextRendering
+:
+:
+Optimizespeed
 ?
 AntialiasMode
 :

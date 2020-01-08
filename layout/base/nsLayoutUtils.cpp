@@ -37464,7 +37464,10 @@ mTextRendering
 )
 {
 case
-NS_STYLE_TEXT_RENDERING_OPTIMIZESPEED
+StyleTextRendering
+:
+:
+Optimizespeed
 :
 result
 |
@@ -37480,7 +37483,10 @@ TEXT_OPTIMIZE_SPEED
 break
 ;
 case
-NS_STYLE_TEXT_RENDERING_AUTO
+StyleTextRendering
+:
+:
+Auto
 :
 if
 (

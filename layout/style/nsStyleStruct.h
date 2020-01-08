@@ -5951,7 +5951,10 @@ mTextEmphasisPosition
 uint8_t
 mTextEmphasisStyle
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextRendering
 mTextRendering
 ;
 mozilla
