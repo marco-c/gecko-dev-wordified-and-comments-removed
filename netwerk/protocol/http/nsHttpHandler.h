@@ -796,17 +796,6 @@ mThrottleVersion
 mThrottleReadLimit
 ;
 }
-int32_t
-SendWindowSize
-(
-)
-{
-return
-mSendWindowSize
-*
-1024
-;
-}
 bool
 TCPKeepaliveEnabledForShortLivedConns
 (
@@ -1780,9 +1769,6 @@ mThrottleHoldTime
 ;
 uint32_t
 mThrottleMaxTime
-;
-int32_t
-mSendWindowSize
 ;
 bool
 mUrgentStartEnabled
