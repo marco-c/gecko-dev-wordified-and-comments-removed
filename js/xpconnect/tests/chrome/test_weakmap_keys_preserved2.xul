@@ -272,6 +272,12 @@ Bug
 *
 *
 /
+SimpleTest
+.
+waitForExplicitFinish
+(
+)
+;
 SpecialPowers
 .
 DOMWindowUtils
@@ -679,6 +685,12 @@ garbageCollect
 )
 ;
 check_wrappers_as_keys
+(
+)
+;
+SimpleTest
+.
+finish
 (
 )
 ;
