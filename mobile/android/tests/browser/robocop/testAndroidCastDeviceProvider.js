@@ -42,6 +42,18 @@ jsm
 )
 ;
 const
+{
+ChromeUtils
+}
+=
+Cu
+.
+getGlobalForObject
+(
+XPCOMUtils
+)
+;
+const
 TOPIC_ANDROID_CAST_DEVICE_ADDED
 =
 "
@@ -295,7 +307,7 @@ prototype
 {
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -567,7 +579,7 @@ _isOnIceCandidateCalledResolve
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -705,7 +717,7 @@ _isRemoveDeviceCalledResolve
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
@@ -1327,7 +1339,7 @@ id
 }
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (

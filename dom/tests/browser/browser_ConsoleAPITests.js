@@ -288,7 +288,7 @@ ConsoleObserver
 "
 QueryInterface
 :
-XPCOMUtils
+ChromeUtils
 .
 generateQI
 (
