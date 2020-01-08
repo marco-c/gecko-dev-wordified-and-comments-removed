@@ -321,9 +321,6 @@ nursery_
 size_t
 tenuredSize
 ;
-size_t
-tenuredCells
-;
 gc
 :
 :
@@ -1811,11 +1808,6 @@ nurseryUsedBytes
 ;
 size_t
 tenuredBytes
-=
-0
-;
-size_t
-tenuredCells
 =
 0
 ;
