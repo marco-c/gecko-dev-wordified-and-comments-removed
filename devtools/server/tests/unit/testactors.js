@@ -754,6 +754,11 @@ sources
 .
 reset
 (
+{
+sourceMaps
+:
+true
+}
 )
 ;
 this

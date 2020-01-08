@@ -212,6 +212,11 @@ toolbox
 target
 ;
 const
+useSourceMaps
+=
+false
+;
+const
 autoBlackBox
 =
 false
@@ -225,6 +230,7 @@ const
 threadOptions
 =
 {
+useSourceMaps
 autoBlackBox
 ignoreFrameEnvironment
 }
