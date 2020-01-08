@@ -83,9 +83,8 @@ const
 nsACString
 &
 aDomain
-const
-nsACString
-&
+nsIURI
+*
 aScriptURL
 const
 nsAString
@@ -199,7 +198,10 @@ mLoadingPrincipal
 nsCString
 mDomain
 ;
-nsCString
+nsCOMPtr
+<
+nsIURI
+>
 mResolvedScriptURL
 ;
 nsString
