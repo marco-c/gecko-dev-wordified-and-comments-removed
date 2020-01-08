@@ -1727,7 +1727,7 @@ NativeGlobal
 (
 JSObject
 *
-aObj
+obj
 )
 ;
 nsIGlobalObject

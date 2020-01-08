@@ -2881,10 +2881,10 @@ obj
 {
 obj
 =
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 obj
 )

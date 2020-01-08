@@ -842,18 +842,6 @@ win
 }
 else
 {
-JSObject
-*
-global
-=
-JS
-:
-:
-GetNonCCWObjectGlobal
-(
-realCallback
-)
-;
 globalObject
 =
 xpc
@@ -861,7 +849,7 @@ xpc
 :
 NativeGlobal
 (
-global
+realCallback
 )
 ;
 MOZ_ASSERT

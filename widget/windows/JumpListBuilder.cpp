@@ -713,15 +713,9 @@ globalObject
 xpc
 :
 :
-NativeGlobal
-(
-JS
-:
-:
-CurrentGlobalOrNull
+CurrentNativeGlobal
 (
 aCx
-)
 )
 ;
 if
