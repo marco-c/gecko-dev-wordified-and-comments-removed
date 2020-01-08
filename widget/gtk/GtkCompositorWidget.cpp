@@ -206,6 +206,11 @@ mXDisplay
 mXWindow
 visual
 depth
+aInitData
+.
+Shaped
+(
+)
 )
 ;
 }

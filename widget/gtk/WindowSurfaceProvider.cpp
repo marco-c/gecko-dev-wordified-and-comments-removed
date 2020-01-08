@@ -116,6 +116,10 @@ nullptr
 )
 #
 endif
+mIsShaped
+(
+false
+)
 {
 }
 void
@@ -134,6 +138,8 @@ Visual
 aVisual
 int
 aDepth
+bool
+aIsShaped
 )
 {
 MOZ_ASSERT
@@ -171,6 +177,10 @@ aVisual
 mXDepth
 =
 aDepth
+;
+mIsShaped
+=
+aIsShaped
 ;
 mIsX11Display
 =
@@ -300,6 +310,10 @@ ifdef
 MOZ_WIDGET_GTK
 if
 (
+!
+mIsShaped
+&
+&
 gfxVars
 :
 :
@@ -350,6 +364,10 @@ ifdef
 MOZ_HAVE_SHMIMAGE
 if
 (
+!
+mIsShaped
+&
+&
 nsShmImage
 :
 :
@@ -429,6 +447,7 @@ mXDisplay
 mXWindow
 mXVisual
 mXDepth
+mIsShaped
 )
 ;
 }
@@ -560,6 +579,7 @@ mXDisplay
 mXWindow
 mXVisual
 mXDepth
+mIsShaped
 )
 ;
 dt

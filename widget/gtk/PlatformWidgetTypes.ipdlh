@@ -144,6 +144,9 @@ XWindow
 nsCString
 XDisplayString
 ;
+bool
+Shaped
+;
 LayoutDeviceIntSize
 InitialClientSize
 ;
