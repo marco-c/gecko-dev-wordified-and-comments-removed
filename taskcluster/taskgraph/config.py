@@ -72,6 +72,17 @@ basestring
 Required
 (
 '
+product
+-
+dir
+'
+)
+:
+basestring
+    
+Required
+(
+'
 treeherder
 '
 )

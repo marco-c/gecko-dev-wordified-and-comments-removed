@@ -74,6 +74,12 @@ util
 yaml
 import
 load_yaml
+from
+taskgraph
+.
+config
+import
+load_graph_config
 logger
 =
 logging
@@ -948,6 +954,41 @@ project
 "
 "
     
+root
+=
+options
+.
+get
+(
+'
+root
+'
+)
+or
+'
+taskcluster
+/
+ci
+'
+    
+_config
+=
+load_graph_config
+(
+root
+)
+    
+product_dir
+=
+_config
+[
+'
+product
+-
+dir
+'
+]
+    
 parameters
 =
 {
@@ -1118,6 +1159,7 @@ version
 =
 get_version
 (
+product_dir
 )
     
 parameters
@@ -1129,6 +1171,7 @@ app_version
 =
 get_app_version
 (
+product_dir
 )
     
 parameters
