@@ -99,6 +99,9 @@ nsISupports
 idl
 "
 interface
+nsISSLStatus
+;
+interface
 nsIX509CertList
 ;
 [
@@ -202,6 +205,11 @@ readonly
 attribute
 nsIX509CertList
 failedCertChain
+;
+readonly
+attribute
+nsISSLStatus
+SSLStatus
 ;
 }
 ;
