@@ -12240,10 +12240,6 @@ nsPlaceholderFrame
 *
 placeholderFrame
 =
-(
-nsPlaceholderFrame
-*
-)
 NS_NewPlaceholderFrame
 (
 aPresShell

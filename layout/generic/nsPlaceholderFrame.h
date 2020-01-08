@@ -27,7 +27,10 @@ nsGkAtoms
 .
 h
 "
-nsIFrame
+class
+nsPlaceholderFrame
+;
+nsPlaceholderFrame
 *
 NS_NewPlaceholderFrame
 (
@@ -82,7 +85,7 @@ NS_DECL_QUERYFRAME
 #
 endif
 friend
-nsIFrame
+nsPlaceholderFrame
 *
 NS_NewPlaceholderFrame
 (
