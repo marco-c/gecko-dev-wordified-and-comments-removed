@@ -1496,11 +1496,6 @@ Flag_SourceLocked
 )
 ;
 }
-static
-const
-Class
-class_
-;
 }
 ;
 class
