@@ -1629,6 +1629,16 @@ kvm
 -
 tests
 #
+Bug
+1501364
+-
+Temporarily
+disable
+Bitbar
+android
+hardware
+tests
+#
 android
 -
 hw
@@ -1660,6 +1670,7 @@ Android
 7
 .
 0
+#
 android
 -
 hw
@@ -1678,6 +1689,7 @@ api
 /
 opt
 :
+#
 build
 -
 platform
@@ -1689,10 +1701,12 @@ api
 16
 /
 opt
+#
 test
 -
 sets
 :
+#
 -
 android
 -
@@ -1701,6 +1715,7 @@ hw
 arm7
 -
 raptor
+#
 -
 raptor
 -
@@ -1724,6 +1739,7 @@ Android
 8
 .
 0
+#
 android
 -
 hw
@@ -1742,6 +1758,7 @@ api
 /
 opt
 :
+#
 build
 -
 platform
@@ -1753,10 +1770,12 @@ api
 16
 /
 opt
+#
 test
 -
 sets
 :
+#
 -
 android
 -
@@ -1767,6 +1786,7 @@ arm7
 opt
 -
 unittests
+#
 -
 android
 -
@@ -1775,12 +1795,14 @@ hw
 arm7
 -
 raptor
+#
 -
 raptor
 -
 fetch
 -
 geckoview
+#
 android
 -
 hw
@@ -1799,6 +1821,7 @@ api
 /
 debug
 :
+#
 build
 -
 platform
@@ -1810,10 +1833,12 @@ api
 16
 /
 debug
+#
 test
 -
 sets
 :
+#
 -
 android
 -
@@ -1824,6 +1849,7 @@ arm7
 debug
 -
 unittests
+#
 android
 -
 hw
@@ -1840,6 +1866,7 @@ aarch64
 /
 opt
 :
+#
 build
 -
 platform
@@ -1849,10 +1876,12 @@ android
 aarch64
 /
 opt
+#
 test
 -
 sets
 :
+#
 -
 android
 -
@@ -1863,6 +1892,7 @@ aarch64
 opt
 -
 unittests
+#
 -
 android
 -
