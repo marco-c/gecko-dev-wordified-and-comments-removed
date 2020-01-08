@@ -358,7 +358,7 @@ task
 \
 -
 -
-vcs
+firefox
 -
 checkout
 "

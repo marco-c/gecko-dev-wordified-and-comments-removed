@@ -4019,7 +4019,7 @@ add_argument
 '
 -
 -
-vcs
+firefox
 -
 checkout
 '
@@ -4028,7 +4028,7 @@ help
 '
 Directory
 where
-Gecko
+Firefox
 checkout
 should
 be
@@ -4157,11 +4157,11 @@ paths
 if
 args
 .
-vcs_checkout
+firefox_checkout
 :
 args
 .
-vcs_checkout
+firefox_checkout
 =
 os
 .
@@ -4171,7 +4171,7 @@ expanduser
 (
 args
 .
-vcs_checkout
+firefox_checkout
 )
 if
 args
@@ -5052,7 +5052,7 @@ prepare_checkout_dir
 (
 args
 .
-vcs_checkout
+firefox_checkout
 )
 prepare_checkout_dir
 (
@@ -5063,7 +5063,7 @@ tools_checkout
 if
 args
 .
-vcs_checkout
+firefox_checkout
 or
 args
 .
@@ -5239,7 +5239,7 @@ checkout
 if
 args
 .
-vcs_checkout
+firefox_checkout
 :
 base_repo
 =
@@ -5340,7 +5340,7 @@ GECKO_HEAD_REPOSITORY
 ]
 args
 .
-vcs_checkout
+firefox_checkout
 os
 .
 environ

@@ -210,7 +210,7 @@ append
 '
 -
 -
-vcs
+firefox
 -
 checkout
 =

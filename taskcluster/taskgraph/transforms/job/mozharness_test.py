@@ -1086,7 +1086,7 @@ extend
 '
 -
 -
-vcs
+firefox
 -
 checkout
 '

@@ -820,7 +820,7 @@ run
 '
 -
 -
-vcs
+firefox
 -
 checkout
 =

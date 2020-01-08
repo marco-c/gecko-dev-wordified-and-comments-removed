@@ -545,7 +545,7 @@ run
 '
 -
 -
-vcs
+firefox
 -
 checkout
 '
