@@ -326,9 +326,17 @@ async
 function
 getRuntimeInfo
 (
+runtime
 client
 )
 {
+const
+{
+model
+}
+=
+runtime
+;
 const
 deviceFront
 =
@@ -434,6 +442,7 @@ svg
 return
 {
 icon
+model
 name
 version
 }
@@ -493,6 +502,7 @@ info
 await
 getRuntimeInfo
 (
+runtime
 client
 )
 ;
