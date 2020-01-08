@@ -1470,9 +1470,6 @@ ResolveStyleFor
 Element
 *
 aElement
-ComputedStyle
-*
-aParentContext
 LazyComputeBehavior
 aMayCompute
 )

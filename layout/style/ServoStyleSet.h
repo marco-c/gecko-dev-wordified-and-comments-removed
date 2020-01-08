@@ -471,9 +471,6 @@ dom
 Element
 *
 aElement
-ComputedStyle
-*
-aParentContext
 LazyComputeBehavior
 aMayCompute
 )
