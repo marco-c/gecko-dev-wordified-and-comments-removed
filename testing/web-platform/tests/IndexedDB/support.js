@@ -1,15 +1,3 @@
-var
-databaseName
-=
-"
-database
-"
-;
-var
-databaseVersion
-=
-1
-;
 add_completion_callback
 (
 function
@@ -1031,7 +1019,7 @@ true
 )
 ;
 let
-pin
+keepSpinning
 =
 true
 ;
@@ -1043,7 +1031,7 @@ spin
 if
 (
 !
-pin
+keepSpinning
 )
 return
 ;
@@ -1086,7 +1074,7 @@ alive
 '
 )
 ;
-pin
+keepSpinning
 =
 false
 ;
