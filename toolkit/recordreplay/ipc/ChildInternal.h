@@ -314,6 +314,11 @@ EndIdleTime
 (
 )
 ;
+bool
+DebuggerRunsInMiddleman
+(
+)
+;
 }
 }
 }

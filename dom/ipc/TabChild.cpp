@@ -10327,6 +10327,7 @@ aURL
 )
 {
 return
+(
 StringBeginsWith
 (
 aURL
@@ -10340,6 +10341,18 @@ resource
 devtools
 /
 "
+)
+)
+&
+&
+recordreplay
+:
+:
+parent
+:
+:
+DebuggerRunsInMiddleman
+(
 )
 )
 |

@@ -219,6 +219,11 @@ string
 aExtraArgs
 )
 ;
+bool
+DebuggerRunsInMiddleman
+(
+)
+;
 }
 }
 }
