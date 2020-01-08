@@ -24900,10 +24900,9 @@ NewPath
 ctx
 -
 >
-Rectangle
+SnappedRectangle
 (
 bounds
-true
 )
 ;
 ctx
@@ -24941,10 +24940,9 @@ NewPath
 ctx
 -
 >
-Rectangle
+SnappedRectangle
 (
 bounds
-true
 )
 ;
 ctx
