@@ -1135,6 +1135,12 @@ case
 RequestResponse
 :
 :
+TResetOriginResponse
+:
+case
+RequestResponse
+:
+:
 TClearDataResponse
 :
 case

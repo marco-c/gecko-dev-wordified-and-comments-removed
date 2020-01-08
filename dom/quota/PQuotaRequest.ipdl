@@ -93,6 +93,11 @@ ClearOriginResponse
 }
 ;
 struct
+ResetOriginResponse
+{
+}
+;
+struct
 ClearDataResponse
 {
 }
@@ -132,6 +137,8 @@ InitTemporaryStorageResponse
 InitOriginResponse
 ;
 ClearOriginResponse
+;
+ResetOriginResponse
 ;
 ClearDataResponse
 ;
