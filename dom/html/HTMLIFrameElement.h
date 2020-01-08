@@ -1017,6 +1017,8 @@ sSupportedSandboxTokens
 void
 RefreshFeaturePolicy
 (
+bool
+aParseAllowAttribute
 )
 ;
 already_AddRefed
