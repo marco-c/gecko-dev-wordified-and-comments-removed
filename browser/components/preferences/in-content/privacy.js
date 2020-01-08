@@ -2996,17 +2996,6 @@ pref
 clearIfNotLocked
 (
 "
-browser
-.
-contentblocking
-.
-enabled
-"
-)
-;
-clearIfNotLocked
-(
-"
 urlclassifier
 .
 trackingTable

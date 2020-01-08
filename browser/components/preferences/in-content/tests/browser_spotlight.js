@@ -673,16 +673,6 @@ browser
 .
 contentblocking
 .
-enabled
-"
-true
-]
-[
-"
-browser
-.
-contentblocking
-.
 trackingprotection
 .
 ui
