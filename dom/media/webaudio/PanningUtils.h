@@ -316,6 +316,15 @@ aOnLeft
 )
 ;
 }
+aOutput
+-
+>
+mVolume
+=
+aInput
+.
+mVolume
+;
 }
 }
 }

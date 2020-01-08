@@ -2598,11 +2598,8 @@ aOutput
 -
 >
 mVolume
-=
-aInput
-.
-mVolume
 *
+=
 distanceGain
 *
 coneGain
@@ -3228,10 +3225,6 @@ alignedGain
 counter
 ]
 =
-aInput
-.
-mVolume
-*
 distanceGain
 *
 coneGain
