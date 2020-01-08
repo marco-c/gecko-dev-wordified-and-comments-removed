@@ -3527,12 +3527,6 @@ Receiver
 (
 )
 {
-RTC_DCHECK_CALLED_SEQUENTIALLY
-(
-&
-configuration_sequence_checker_
-)
-;
 return
 this
 ;
@@ -8079,12 +8073,6 @@ PacketTime
 packet_time
 )
 {
-RTC_DCHECK_CALLED_SEQUENTIALLY
-(
-&
-configuration_sequence_checker_
-)
-;
 if
 (
 RtpHeaderParser
