@@ -28765,12 +28765,6 @@ if
 showTabStripItems
 )
 {
-PlacesCommandHook
-.
-updateBookmarkAllTabsCommand
-(
-)
-;
 let
 haveMultipleTabs
 =
