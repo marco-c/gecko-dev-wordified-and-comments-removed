@@ -265,17 +265,6 @@ aResult
 ;
 static
 void
-AppendFramesTimingFunction
-(
-uint32_t
-aFrames
-nsAString
-&
-aResult
-)
-;
-static
-void
 AppendCubicBezierTimingFunction
 (
 float
