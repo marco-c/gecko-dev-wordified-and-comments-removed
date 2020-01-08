@@ -2620,14 +2620,11 @@ Record
 _
 "
 +
-toString
-(
 D2
 -
 >
-getFieldIndex
+getNameAsString
 (
-)
 )
 ;
 }
