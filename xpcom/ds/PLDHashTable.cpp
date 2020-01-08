@@ -1429,9 +1429,9 @@ PLDHashTable
 SearchReason
 Reason
 >
+MOZ_ALWAYS_INLINE
 PLDHashEntryHdr
 *
-NS_FASTCALL
 PLDHashTable
 :
 :
