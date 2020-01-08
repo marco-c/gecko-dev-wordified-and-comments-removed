@@ -865,6 +865,15 @@ channels
 ;
 if
 (
+mOpusParser
+-
+>
+mChannelMapping
+=
+=
+1
+&
+&
 vorbisLayout
 .
 MappingTable
