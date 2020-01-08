@@ -5292,6 +5292,10 @@ prefs
 .
 mWidth
 .
+Construct
+(
+)
+.
 SetAsLong
 (
 )
@@ -5306,6 +5310,10 @@ prefs
 .
 mHeight
 .
+Construct
+(
+)
+.
 SetAsLong
 (
 )
@@ -5319,6 +5327,10 @@ GetHeight
 prefs
 .
 mFrameRate
+.
+Construct
+(
+)
 .
 SetAsDouble
 (
