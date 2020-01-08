@@ -1025,11 +1025,6 @@ BrowserWindowTracker
 jsm
 '
 '
-ClickEventHandler
-.
-jsm
-'
-'
 ContentClick
 .
 jsm

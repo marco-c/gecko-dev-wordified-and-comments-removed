@@ -122,6 +122,11 @@ BrowserTabChild
 jsm
 '
 '
+ClickHandlerChild
+.
+jsm
+'
+'
 ContentSearchChild
 .
 jsm
