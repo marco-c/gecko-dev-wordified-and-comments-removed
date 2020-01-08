@@ -3861,6 +3861,17 @@ cleanup
 .
 FileCleanupService
 "
+android
+:
+permission
+=
+"
+android
+.
+permission
+.
+BIND_JOB_SERVICE
+"
 >
 <
 /
