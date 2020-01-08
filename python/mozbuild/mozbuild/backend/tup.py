@@ -5074,29 +5074,16 @@ PYTHONDONTWRITEBYTECODE
         
 }
         
-cargo_incremental
-=
-self
-.
-environment
-.
-substs
-.
-get
-(
+env
+[
 '
 CARGO_INCREMENTAL
 '
-)
-        
-if
-cargo_incremental
-is
-not
-None
-:
-            
-pass
+]
+=
+'
+0
+'
         
 rust_simd
 =
