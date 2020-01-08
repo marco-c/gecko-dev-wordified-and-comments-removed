@@ -43,6 +43,14 @@ nsTArray
 h
 "
 #
+ifdef
+IsLoggingEnabled
+#
+undef
+IsLoggingEnabled
+#
+endif
+#
 define
 FAULTY_DEFAULT_PROBABILITY
 1000

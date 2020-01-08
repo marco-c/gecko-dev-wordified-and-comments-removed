@@ -38,6 +38,14 @@ class
 StructuredCloneData
 ;
 }
+#
+ifdef
+IsLoggingEnabled
+#
+undef
+IsLoggingEnabled
+#
+endif
 class
 MessageManagerFuzzer
 {
