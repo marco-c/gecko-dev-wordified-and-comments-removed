@@ -6431,6 +6431,16 @@ getOrigin
 (
 )
 ;
+layer
+-
+>
+fDevice
+-
+>
+setImmutable
+(
+)
+;
 this
 -
 >
