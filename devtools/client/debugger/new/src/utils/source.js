@@ -809,7 +809,10 @@ source
 )
 ;
 return
+getRawSourceURL
+(
 filename
+)
 ;
 }
 function
@@ -1821,8 +1824,6 @@ getFileExtension
 )
 (
 source
-.
-url
 )
 ]
 |

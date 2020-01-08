@@ -834,9 +834,14 @@ props
 ;
 if
 (
+!
 mappedSource
 )
 {
+return
+null
+;
+}
 const
 filename
 =
@@ -942,10 +947,6 @@ null
 title
 )
 )
-;
-}
-return
-null
 ;
 }
 render
