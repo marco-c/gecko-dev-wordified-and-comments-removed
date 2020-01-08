@@ -114,6 +114,11 @@ WakeLockListener
 =
 default
 ;
+bool
+EnsureDBusConnection
+(
+)
+;
 static
 mozilla
 :
