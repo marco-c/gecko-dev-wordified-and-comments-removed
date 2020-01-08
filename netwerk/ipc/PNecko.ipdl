@@ -213,6 +213,10 @@ protocol
 PFileChannel
 ;
 include
+protocol
+PTrackingDummyChannel
+;
+include
 IPCStream
 ;
 include
@@ -447,6 +451,9 @@ PAltDataOutputStream
 manages
 PStunAddrsRequest
 ;
+manages
+PTrackingDummyChannel
+;
 parent
 :
 async
@@ -677,6 +684,15 @@ PChannelDiverter
 (
 ChannelDiverterArgs
 channel
+)
+;
+async
+PTrackingDummyChannel
+(
+nsIURI
+uri
+OptionalLoadInfoArgs
+loadInfo
 )
 ;
 /
