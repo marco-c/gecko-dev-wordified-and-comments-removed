@@ -727,6 +727,26 @@ source
 '
         
 }
+        
+'
+extra
+'
+:
+{
+            
+'
+index
+'
+:
+{
+'
+rank
+'
+:
+1540722354
+}
+        
+}
     
 }
     
@@ -874,6 +894,29 @@ a
 -
 tid
 '
+    
+assert
+index_task
+.
+task
+[
+'
+payload
+'
+]
+[
+'
+env
+'
+]
+[
+'
+INDEX_RANK
+'
+]
+=
+=
+1540722354
     
 assert
 index_task
