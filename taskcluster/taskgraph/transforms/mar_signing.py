@@ -56,6 +56,8 @@ import
 get_signing_cert_scope_per_platform
     
 get_worker_type_for_scope
+    
+get_autograph_format_scope
 )
 from
 taskgraph
@@ -876,21 +878,18 @@ config
         
 )
         
+autograph_hash_format_scope
+=
+get_autograph_format_scope
+(
+config
+)
+        
 scopes
 =
 [
 signing_cert_scope
-'
-project
-:
-releng
-:
-signing
-:
-format
-:
-autograph_hash_only_mar384
-'
+autograph_hash_format_scope
 ]
         
 if
