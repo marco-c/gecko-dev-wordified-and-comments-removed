@@ -137,9 +137,6 @@ aURI
 )
 {
 }
-defaultFeedReader
-:
-0
 }
 ;
 var

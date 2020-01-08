@@ -7848,12 +7848,6 @@ init
 (
 )
 ;
-FeedHandler
-.
-init
-(
-)
-;
 ContentBlocking
 .
 init
@@ -10519,12 +10513,6 @@ finish
 )
 ;
 BrowserOnClick
-.
-uninit
-(
-)
-;
-FeedHandler
 .
 uninit
 (

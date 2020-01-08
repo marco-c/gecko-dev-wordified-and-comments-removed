@@ -715,11 +715,6 @@ CORSMode
 h
 '
 '
-FeedWriterEnabled
-.
-h
-'
-'
 FlushType
 .
 h
