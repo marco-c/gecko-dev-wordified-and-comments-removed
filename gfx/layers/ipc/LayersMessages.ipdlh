@@ -258,6 +258,15 @@ h
 "
 ;
 using
+nscolor
+from
+"
+nsColor
+.
+h
+"
+;
+using
 nscoord
 from
 "
@@ -1125,6 +1134,8 @@ Animatable
 null_t
 ;
 float
+;
+nscolor
 ;
 TransformFunction
 [
