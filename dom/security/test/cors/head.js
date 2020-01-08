@@ -153,7 +153,7 @@ tab
 await
 target
 .
-makeRemote
+attach
 (
 )
 ;
