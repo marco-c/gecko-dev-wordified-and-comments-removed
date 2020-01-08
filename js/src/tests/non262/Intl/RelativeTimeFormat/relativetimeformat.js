@@ -1,11 +1,6 @@
 var
 rtf
 ;
-addIntlExtras
-(
-Intl
-)
-;
 rtf
 =
 new

@@ -3953,17 +3953,6 @@ global
 ;
 static
 bool
-addRelativeTimeFormatConstructor
-(
-JSContext
-*
-cx
-HandleObject
-intl
-)
-;
-static
-bool
 initModuleProto
 (
 JSContext
