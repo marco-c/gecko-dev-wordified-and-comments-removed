@@ -3230,11 +3230,11 @@ aNumberOfRowsToDelete
 )
 ;
 nsresult
-DeleteRow
+DeleteTableRowWithTransaction
 (
 Element
-*
-aTable
+&
+aTableElement
 int32_t
 aRowIndex
 )
