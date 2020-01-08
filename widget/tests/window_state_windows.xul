@@ -477,7 +477,9 @@ ok
 (
 document
 .
-height
+documentElement
+.
+clientHeight
 >
 0
 "
@@ -499,7 +501,9 @@ ok
 (
 document
 .
-width
+documentElement
+.
+clientWidth
 >
 0
 "
