@@ -15403,7 +15403,7 @@ visualId
 ;
 mHasAlphaVisual
 =
-true
+needsAlphaVisual
 ;
 }
 else
