@@ -152,6 +152,11 @@ PlatformDecoderModule
 h
 '
 '
+PlatformEncoderModule
+.
+h
+'
+'
 ReorderQueue
 .
 h
