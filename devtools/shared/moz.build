@@ -162,9 +162,6 @@ screenshot
 security
 '
 '
-sourcemap
-'
-'
 sprintfjs
 '
 '
@@ -449,15 +446,6 @@ js
 '
 '
 throttle
-.
-js
-'
-'
-wasm
--
-source
--
-map
 .
 js
 '

@@ -1991,9 +1991,6 @@ targetFront
 attachThread
 (
 {
-useSourceMaps
-:
-true
 autoBlackBox
 :
 true
