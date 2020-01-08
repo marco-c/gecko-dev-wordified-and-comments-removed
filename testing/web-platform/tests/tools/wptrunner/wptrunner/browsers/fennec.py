@@ -23,6 +23,8 @@ mozrunner
 import
 FennecEmulatorRunner
 from
+tools
+.
 serve
 .
 serve
