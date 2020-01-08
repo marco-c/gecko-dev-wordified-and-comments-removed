@@ -1448,17 +1448,6 @@ cflags_mozilla
 [
 '
 -
-Wno
--
-error
-'
-#
-workaround
-for
-bug
-1090497
-'
--
 Xclang
 '
 '
