@@ -201,7 +201,7 @@ id
 }
 ;
 dictionary
-RTCRTPStreamStats
+RTCRtpStreamStats
 :
 RTCStats
 {
@@ -291,7 +291,7 @@ nackCount
 dictionary
 RTCInboundRTPStreamStats
 :
-RTCRTPStreamStats
+RTCRtpStreamStats
 {
 unsigned
 long
@@ -341,7 +341,7 @@ framesDecoded
 dictionary
 RTCOutboundRTPStreamStats
 :
-RTCRTPStreamStats
+RTCRtpStreamStats
 {
 unsigned
 long
