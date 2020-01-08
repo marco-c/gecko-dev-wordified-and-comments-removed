@@ -4843,8 +4843,12 @@ create_program_linked
 "
 gpu_cache_update
 "
-"
-"
+String
+:
+:
+new
+(
+)
 &
 desc
 :
