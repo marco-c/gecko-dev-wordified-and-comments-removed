@@ -51,8 +51,6 @@ preferences
 |
 rights
 |
-searchreset
-|
 sessionrestore
 |
 support
