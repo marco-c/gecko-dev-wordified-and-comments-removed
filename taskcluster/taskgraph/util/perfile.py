@@ -35,6 +35,8 @@ from
 taskgraph
 import
 files_changed
+import
+taskgraph
 from
 .
 .
@@ -59,6 +61,18 @@ head_rev
 type
 )
 :
+    
+if
+taskgraph
+.
+fast
+and
+not
+is_try
+:
+        
+return
+3
     
 tests_per_chunk
 =
