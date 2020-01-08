@@ -115,16 +115,6 @@ settings
 .
 js
 '
-'
-RemoteSettingsWorker
-.
-js
-'
-'
-RemoteSettingsWorker
-.
-jsm
-'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
