@@ -173,9 +173,14 @@ mainTest
 await
 promiseAutocompleteResultPopup
 (
-"
+{
+UrlbarTokenizer
+.
+RESTRICT
+.
+SEARCH
+}
 test
-"
 window
 )
 ;

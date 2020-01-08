@@ -711,7 +711,7 @@ provider
 /
 const
 long
-BEHAVIOR_SEARCHES
+BEHAVIOR_SEARCH
 =
 1
 <
