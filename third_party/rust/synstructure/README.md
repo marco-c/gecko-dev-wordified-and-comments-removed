@@ -355,6 +355,10 @@ extern
 crate
 quote
 ;
+extern
+crate
+proc_macro2
+;
 fn
 walkfields_derive
 (
@@ -367,10 +371,10 @@ Structure
 )
 -
 >
-quote
+proc_macro2
 :
 :
-Tokens
+TokenStream
 {
 let
 body
@@ -668,6 +672,10 @@ extern
 crate
 quote
 ;
+extern
+crate
+proc_macro2
+;
 fn
 interest_derive
 (
@@ -681,10 +689,10 @@ Structure
 )
 -
 >
-quote
+proc_macro2
 :
 :
-Tokens
+TokenStream
 {
 let
 body
