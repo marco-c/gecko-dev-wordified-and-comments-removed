@@ -2668,7 +2668,7 @@ label
 {
 padding
 :
-0px
+2px
 5px
 ;
 border
@@ -2689,6 +2689,15 @@ color
 :
 #
 fff
+;
+-
+moz
+-
+box
+-
+align
+:
+center
 ;
 }
 #
@@ -2928,12 +2937,6 @@ label
 margin
 :
 0
-;
-line
--
-height
-:
-18px
 ;
 }
 #
