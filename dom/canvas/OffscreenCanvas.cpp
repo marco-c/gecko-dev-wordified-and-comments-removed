@@ -602,7 +602,7 @@ return
 nullptr
 ;
 }
-already_AddRefed
+RefPtr
 <
 nsISupports
 >
@@ -857,6 +857,10 @@ factory
 }
 return
 result
+.
+forget
+(
+)
 ;
 }
 already_AddRefed
