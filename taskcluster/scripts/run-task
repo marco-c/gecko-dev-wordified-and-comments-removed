@@ -3302,13 +3302,15 @@ json
 loads
 (
 secret
-encoding
-=
+.
+decode
+(
 '
 utf
 -
 8
 '
+)
 )
 except
 ValueError
