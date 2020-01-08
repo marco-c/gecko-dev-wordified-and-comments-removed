@@ -759,6 +759,9 @@ bool
 mRequestedToCommitOrCancel
 ;
 bool
+mHasDispatchedDOMTextEvent
+;
+bool
 mHasReceivedCommitEvent
 ;
 bool
