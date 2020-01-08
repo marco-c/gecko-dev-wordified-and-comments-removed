@@ -2637,6 +2637,12 @@ UnmarkSkippableJSHolders
 (
 )
 {
+recordreplay
+:
+:
+AutoDisallowThreadEvents
+disallow
+;
 for
 (
 auto
