@@ -727,11 +727,6 @@ position
 "
 top
 "
-theme
-:
-"
-auto
-"
 autoSelect
 :
 true
