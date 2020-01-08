@@ -195,7 +195,7 @@ nsXBLProtoImplField
 ;
 mName
 =
-NS_strdup
+NS_xstrdup
 (
 aName
 )

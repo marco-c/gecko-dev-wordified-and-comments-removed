@@ -79,7 +79,7 @@ aLen
 ;
 char16_t
 *
-NS_strdup
+NS_xstrdup
 (
 const
 char16_t
@@ -89,7 +89,7 @@ aString
 ;
 char
 *
-NS_strdup
+NS_xstrdup
 (
 const
 char
@@ -104,7 +104,7 @@ CharT
 >
 CharT
 *
-NS_strndup
+NS_xstrndup
 (
 const
 CharT

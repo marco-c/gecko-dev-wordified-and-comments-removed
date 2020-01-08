@@ -5025,7 +5025,7 @@ Next
 *
 modules
 =
-NS_strdup
+NS_xstrdup
 (
 iter
 .
@@ -5120,7 +5120,7 @@ Next
 *
 comp
 =
-NS_strdup
+NS_xstrdup
 (
 iter
 .

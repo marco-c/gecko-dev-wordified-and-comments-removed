@@ -486,7 +486,7 @@ aStrA
 }
 char16_t
 *
-NS_strdup
+NS_xstrdup
 (
 const
 char16_t
@@ -503,7 +503,7 @@ aString
 )
 ;
 return
-NS_strndup
+NS_xstrndup
 (
 aString
 len
@@ -517,7 +517,7 @@ CharT
 >
 CharT
 *
-NS_strndup
+NS_xstrndup
 (
 const
 CharT
@@ -577,7 +577,7 @@ newBuf
 template
 char16_t
 *
-NS_strndup
+NS_xstrndup
 <
 char16_t
 >
@@ -593,7 +593,7 @@ aLen
 template
 char
 *
-NS_strndup
+NS_xstrndup
 <
 char
 >
@@ -608,7 +608,7 @@ aLen
 ;
 char
 *
-NS_strdup
+NS_xstrdup
 (
 const
 char

@@ -2365,7 +2365,7 @@ aKey
 :
 mKey
 (
-NS_strdup
+NS_xstrdup
 (
 aKey
 )
@@ -2382,7 +2382,7 @@ aToCopy
 :
 mKey
 (
-NS_strdup
+NS_xstrdup
 (
 aToCopy
 .

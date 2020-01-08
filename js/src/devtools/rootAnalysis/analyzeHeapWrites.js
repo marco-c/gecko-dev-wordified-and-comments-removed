@@ -2313,7 +2313,7 @@ nsCSSValue
 BufferFromString
 /
 /
-NS_strdup
+NS_xstrdup
 /
 /
 Assert_NoQueryNeeded

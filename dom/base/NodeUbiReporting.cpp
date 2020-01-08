@@ -219,7 +219,7 @@ wantNames
 {
 edgeName
 =
-NS_strdup
+NS_xstrdup
 (
 u
 "
@@ -300,7 +300,7 @@ wantNames
 {
 edgeName
 =
-NS_strdup
+NS_xstrdup
 (
 u
 "

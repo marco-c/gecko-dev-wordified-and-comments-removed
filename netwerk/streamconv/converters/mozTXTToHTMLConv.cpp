@@ -6919,7 +6919,7 @@ inLength
 *
 _retval
 =
-NS_strdup
+NS_xstrdup
 (
 text
 )

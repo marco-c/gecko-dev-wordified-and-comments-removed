@@ -11972,7 +11972,7 @@ mLen
 {
 result
 =
-NS_strdup
+NS_xstrdup
 (
 relpath
 )
@@ -11998,7 +11998,7 @@ else
 {
 result
 =
-NS_strdup
+NS_xstrdup
 (
 relpath
 )

@@ -2051,7 +2051,7 @@ outp
 +
 )
 =
-NS_strdup
+NS_xstrdup
 (
 str
 )

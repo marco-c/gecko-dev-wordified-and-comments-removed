@@ -2739,7 +2739,7 @@ NS_ERROR_FAILURE
 *
 aMimeType
 =
-NS_strdup
+NS_xstrdup
 (
 type
 )

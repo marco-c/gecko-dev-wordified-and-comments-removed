@@ -453,7 +453,7 @@ aProfileDirectory
 :
 mProfileDirectory
 (
-NS_strdup
+NS_xstrdup
 (
 aProfileDirectory
 )

@@ -5526,7 +5526,7 @@ NS_ERROR_NOT_AVAILABLE
 *
 _retval
 =
-NS_strdup
+NS_xstrdup
 (
 value
 )
