@@ -280,6 +280,9 @@ stub
 -
 installer
 '
+'
+msi
+'
 ]
 shipping
 -
@@ -403,6 +406,9 @@ mar
 stub
 -
 installer
+'
+'
+msi
 '
 ]
 #
