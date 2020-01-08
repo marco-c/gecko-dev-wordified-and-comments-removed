@@ -81,6 +81,9 @@ for
 the
 Browser
 Console
+and
+Developer
+Toolbox
 editmenu
 -
 undo

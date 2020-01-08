@@ -6987,17 +6987,6 @@ onContextMenu
 e
 )
 {
-if
-(
-this
-.
-props
-.
-hud
-.
-isBrowserConsole
-)
-{
 this
 .
 props
@@ -7009,7 +6998,6 @@ openEditContextMenu
 e
 )
 ;
-}
 }
 destroy
 (
