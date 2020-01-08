@@ -1548,6 +1548,12 @@ true
 }
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 }
 onKeyDown
 (
