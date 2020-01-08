@@ -5277,11 +5277,6 @@ if
 (
 !
 keepFocusOnUrlBar
-&
-&
-document
-.
-activeElement
 )
 {
 document
@@ -18420,6 +18415,10 @@ tooltipNode
 ;
 if
 (
+!
+tab
+|
+|
 tab
 .
 localName
