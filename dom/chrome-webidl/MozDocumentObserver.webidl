@@ -124,7 +124,7 @@ callbacks
 )
 Exposed
 =
-System
+Window
 ]
 interface
 MozDocumentObserver

@@ -110,7 +110,7 @@ options
 ChromeOnly
 Exposed
 =
-System
+Window
 ]
 interface
 WebExtensionPolicy
