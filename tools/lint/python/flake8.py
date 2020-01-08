@@ -794,11 +794,14 @@ recursive
 ]
     
 if
+config
+.
+get
+(
 '
 exclude
 '
-in
-lintargs
+)
 :
         
 fix_cmdargs
@@ -816,7 +819,7 @@ exclude
 .
 join
 (
-lintargs
+config
 [
 '
 exclude

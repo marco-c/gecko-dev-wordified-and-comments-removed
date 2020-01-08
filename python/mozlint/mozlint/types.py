@@ -216,17 +216,6 @@ exclude
 [
 ]
 )
-+
-lintargs
-.
-get
-(
-'
-exclude
-'
-[
-]
-)
                 
 config
 .
@@ -241,7 +230,7 @@ extensions
             
 )
             
-lintargs
+config
 [
 '
 exclude
@@ -482,7 +471,7 @@ path
 for
 e
 in
-lintargs
+config
 .
 get
 (

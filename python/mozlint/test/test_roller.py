@@ -531,15 +531,8 @@ files
     
 lint
 .
-lintargs
-.
-update
-(
-{
-'
 exclude
-'
-:
+=
 [
 '
 *
@@ -550,8 +543,6 @@ foobar
 js
 '
 ]
-}
-)
     
 lint
 .
