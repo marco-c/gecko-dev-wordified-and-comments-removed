@@ -3075,26 +3075,6 @@ type
 return
 InliningStatus_NotInlined
 ;
-const
-MathCache
-*
-cache
-=
-TlsContext
-.
-get
-(
-)
--
->
-caches
-(
-)
-.
-maybeGetMathCache
-(
-)
-;
 callInfo
 .
 fun
@@ -3136,7 +3116,6 @@ getArg
 0
 )
 function
-cache
 )
 ;
 current
@@ -6729,7 +6708,6 @@ MMathFunction
 :
 :
 Floor
-nullptr
 )
 ;
 }
@@ -7043,7 +7021,6 @@ MMathFunction
 :
 :
 Ceil
-nullptr
 )
 ;
 }
@@ -7453,7 +7430,6 @@ MMathFunction
 :
 :
 Round
-nullptr
 )
 ;
 current
@@ -8850,7 +8826,6 @@ MMathFunction
 :
 :
 Trunc
-nullptr
 )
 ;
 }

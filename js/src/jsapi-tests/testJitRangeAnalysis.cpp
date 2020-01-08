@@ -982,9 +982,6 @@ testJitRangeAnalysis_MathSignBeta
 MinimalFunc
 func
 ;
-MathCache
-cache
-;
 MBasicBlock
 *
 entry
