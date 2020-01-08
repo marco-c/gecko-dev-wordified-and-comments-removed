@@ -1968,17 +1968,6 @@ invokeCallback
 {
 MOZ_ASSERT
 (
-cx
--
->
-requestDepth
->
-=
-1
-)
-;
-MOZ_ASSERT
-(
 !
 cx
 -

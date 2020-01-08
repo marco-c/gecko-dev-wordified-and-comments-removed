@@ -219,11 +219,6 @@ mEvaluated
 =
 true
 ;
-JS_BeginRequest
-(
-mJSContext
-)
-;
 mAutoRealm
 .
 emplace
@@ -267,11 +262,6 @@ mState
 >
 restore
 (
-)
-;
-JS_EndRequest
-(
-mJSContext
 )
 ;
 }

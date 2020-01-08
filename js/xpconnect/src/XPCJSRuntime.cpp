@@ -16214,12 +16214,6 @@ JSContext
 cx
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 if
 (
 JSID_IS_VOID
@@ -17357,12 +17351,6 @@ Get
 >
 Context
 (
-)
-;
-JSAutoRequest
-ar
-(
-cx
 )
 ;
 RootedValue

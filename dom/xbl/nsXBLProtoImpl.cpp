@@ -1469,12 +1469,6 @@ obj
 )
 const
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 for
 (
 nsXBLProtoImplField

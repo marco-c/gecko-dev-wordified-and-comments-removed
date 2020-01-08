@@ -2866,9 +2866,6 @@ void
 endif
 private
 :
-JSAutoRequest
-mAr
-;
 State
 mState
 ;

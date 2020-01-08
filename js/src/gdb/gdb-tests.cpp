@@ -318,12 +318,6 @@ cx
 reportWarning
 )
 ;
-JSAutoRequest
-areq
-(
-cx
-)
-;
 JS
 :
 :

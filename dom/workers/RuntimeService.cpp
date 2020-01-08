@@ -12376,12 +12376,6 @@ cx
 )
 ;
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 mWorkerPrivate
 -
 >

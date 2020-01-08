@@ -524,15 +524,6 @@ mozilla
 :
 Maybe
 <
-JSAutoRequest
->
-mAutoRequest
-;
-mozilla
-:
-:
-Maybe
-<
 JSAutoNullableRealm
 >
 mAutoNullableRealm

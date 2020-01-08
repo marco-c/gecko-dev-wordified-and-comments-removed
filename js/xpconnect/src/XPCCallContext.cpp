@@ -86,10 +86,6 @@ Value
 rval
 )
 :
-mAr
-(
-cx
-)
 mState
 (
 INIT_FAILED

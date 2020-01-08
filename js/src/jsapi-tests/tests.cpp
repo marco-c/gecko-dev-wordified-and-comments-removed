@@ -94,11 +94,6 @@ cx
 return
 false
 ;
-JS_BeginRequest
-(
-cx
-)
-;
 global
 .
 init
@@ -163,11 +158,6 @@ if
 cx
 )
 {
-JS_EndRequest
-(
-cx
-)
-;
 destroyContext
 (
 )
