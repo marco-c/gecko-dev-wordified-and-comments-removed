@@ -507,6 +507,14 @@ install
 -
 fonts
 "
+        
+"
+-
+-
+no
+-
+headless
+"
     
 ]
     
