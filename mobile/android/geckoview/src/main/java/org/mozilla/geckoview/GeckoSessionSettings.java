@@ -37,6 +37,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -69,6 +78,7 @@ util
 .
 Collection
 ;
+AnyThread
 public
 final
 class

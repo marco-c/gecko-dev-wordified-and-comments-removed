@@ -55,6 +55,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -82,6 +91,7 @@ concurrent
 .
 TimeoutException
 ;
+AnyThread
 public
 class
 GeckoResult
@@ -1426,6 +1436,7 @@ T
 U
 >
 {
+AnyThread
 Nullable
 GeckoResult
 <
@@ -1448,6 +1459,7 @@ OnExceptionListener
 V
 >
 {
+AnyThread
 Nullable
 GeckoResult
 <

@@ -133,6 +133,15 @@ Handler
 import
 android
 .
+support
+.
+annotation
+.
+AnyThread
+;
+import
+android
+.
 util
 .
 Log
@@ -1148,6 +1157,7 @@ null
 )
 ;
 }
+AnyThread
 public
 void
 dispatch

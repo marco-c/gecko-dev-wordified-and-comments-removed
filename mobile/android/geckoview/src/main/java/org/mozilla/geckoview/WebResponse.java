@@ -23,6 +23,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -33,6 +42,7 @@ nio
 ByteBuffer
 ;
 WrapForJNI
+AnyThread
 public
 class
 WebResponse
@@ -81,6 +91,7 @@ mRedirected
 ;
 }
 WrapForJNI
+AnyThread
 public
 static
 class

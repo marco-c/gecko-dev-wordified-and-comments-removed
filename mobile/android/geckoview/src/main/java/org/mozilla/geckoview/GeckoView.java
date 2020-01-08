@@ -154,7 +154,7 @@ support
 .
 annotation
 .
-Nullable
+AnyThread
 ;
 import
 android
@@ -164,6 +164,15 @@ support
 annotation
 .
 NonNull
+;
+import
+android
+.
+support
+.
+annotation
+.
+Nullable
 ;
 import
 android
@@ -294,6 +303,7 @@ widget
 .
 FrameLayout
 ;
+UiThread
 public
 class
 GeckoView
@@ -1010,7 +1020,6 @@ activity
 ;
 }
 }
-UiThread
 public
 void
 coverUntilFirstPaint
@@ -1043,7 +1052,6 @@ color
 ;
 }
 }
-UiThread
 public
 boolean
 shouldPinOnScreen
@@ -1089,7 +1097,6 @@ active
 ;
 }
 }
-UiThread
 public
 GeckoSession
 releaseSession
@@ -1262,7 +1269,6 @@ return
 session
 ;
 }
-UiThread
 public
 void
 setSession
@@ -1273,6 +1279,12 @@ GeckoSession
 session
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 if
 (
 !
@@ -1309,7 +1321,6 @@ getRuntime
 )
 ;
 }
-UiThread
 public
 void
 setSession
@@ -1745,6 +1756,7 @@ true
 ;
 }
 }
+AnyThread
 public
 GeckoSession
 getSession
@@ -1755,6 +1767,7 @@ return
 mSession
 ;
 }
+AnyThread
 public
 EventDispatcher
 getEventDispatcher
@@ -1769,7 +1782,6 @@ getEventDispatcher
 )
 ;
 }
-UiThread
 public
 PanZoomController
 getPanZoomController
@@ -1790,7 +1802,6 @@ getPanZoomController
 )
 ;
 }
-UiThread
 public
 DynamicToolbarAnimator
 getDynamicToolbarAnimator

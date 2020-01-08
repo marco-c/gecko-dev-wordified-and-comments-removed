@@ -68,6 +68,15 @@ Build
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 view
 .
 View
@@ -88,6 +97,7 @@ reflect
 .
 Field
 ;
+UiThread
 public
 final
 class

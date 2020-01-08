@@ -65,6 +65,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -97,6 +106,7 @@ util
 .
 List
 ;
+AnyThread
 public
 final
 class

@@ -47,6 +47,15 @@ Bundle
 import
 android
 .
+support
+.
+annotation
+.
+AnyThread
+;
+import
+android
+.
 util
 .
 Log
@@ -337,6 +346,7 @@ SERVER_URL_KEY
 STACK_TRACES_KEY
 )
 ;
+AnyThread
 public
 static
 GeckoResult
@@ -369,6 +379,7 @@ appName
 )
 ;
 }
+AnyThread
 public
 static
 GeckoResult
@@ -447,6 +458,7 @@ appName
 )
 ;
 }
+AnyThread
 public
 static
 GeckoResult
@@ -503,6 +515,7 @@ appName
 )
 ;
 }
+AnyThread
 public
 static
 GeckoResult

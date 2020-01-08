@@ -5,6 +5,16 @@ mozilla
 .
 geckoview
 ;
+import
+android
+.
+support
+.
+annotation
+.
+AnyThread
+;
+AnyThread
 public
 enum
 AllowOrDeny

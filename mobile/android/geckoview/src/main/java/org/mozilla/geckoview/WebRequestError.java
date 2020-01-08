@@ -30,6 +30,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -50,6 +59,7 @@ annotation
 .
 RetentionPolicy
 ;
+AnyThread
 public
 class
 WebRequestError

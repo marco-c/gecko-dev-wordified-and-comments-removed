@@ -807,7 +807,6 @@ IS_COMPOSITOR_CONTROLLER_OPEN
 =
 21
 ;
-protected
 class
 Compositor
 extends
@@ -1323,7 +1322,6 @@ disposeNative
 ;
 }
 }
-protected
 final
 Compositor
 mCompositor
@@ -5210,6 +5208,7 @@ null
 ;
 }
 }
+AnyThread
 public
 NonNull
 GeckoResult
@@ -5273,12 +5272,19 @@ return
 result
 ;
 }
+UiThread
 public
 PermissionDelegate
 getPermissionDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mPermissionHandler
 .
@@ -5287,6 +5293,7 @@ getDelegate
 )
 ;
 }
+UiThread
 public
 void
 setPermissionDelegate
@@ -5296,6 +5303,12 @@ PermissionDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mPermissionHandler
 .
 setDelegate
@@ -6388,6 +6401,7 @@ null
 ;
 }
 Override
+AnyThread
 public
 int
 describeContents
@@ -6399,6 +6413,7 @@ return
 ;
 }
 Override
+AnyThread
 public
 void
 writeToParcel
@@ -6432,6 +6447,7 @@ mId
 )
 ;
 }
+AnyThread
 public
 void
 readFromParcel
@@ -6547,6 +6563,7 @@ GeckoSession
 )
 {
 Override
+AnyThread
 public
 GeckoSession
 createFromParcel
@@ -6577,6 +6594,7 @@ session
 ;
 }
 Override
+AnyThread
 public
 GeckoSession
 [
@@ -6599,6 +6617,7 @@ size
 }
 ;
 Override
+AnyThread
 public
 int
 hashCode
@@ -6614,6 +6633,7 @@ hashCode
 ;
 }
 Override
+AnyThread
 public
 boolean
 equals
@@ -6643,6 +6663,7 @@ mId
 )
 ;
 }
+AnyThread
 public
 boolean
 isOpen
@@ -7296,6 +7317,7 @@ LOAD_FLAGS_BYPASS_CLASSIFIER
 <
 4
 ;
+AnyThread
 public
 void
 loadUri
@@ -7313,6 +7335,7 @@ LOAD_FLAGS_NONE
 )
 ;
 }
+AnyThread
 public
 void
 loadUri
@@ -7333,6 +7356,7 @@ flags
 )
 ;
 }
+AnyThread
 public
 void
 loadUri
@@ -7409,6 +7433,7 @@ msg
 )
 ;
 }
+AnyThread
 public
 void
 loadUri
@@ -7426,6 +7451,7 @@ LOAD_FLAGS_NONE
 )
 ;
 }
+AnyThread
 public
 void
 loadUri
@@ -7450,6 +7476,7 @@ flags
 )
 ;
 }
+AnyThread
 public
 void
 loadUri
@@ -7488,6 +7515,7 @@ flags
 )
 ;
 }
+AnyThread
 public
 void
 loadString
@@ -7535,6 +7563,7 @@ LOAD_FLAGS_NONE
 )
 ;
 }
+AnyThread
 public
 void
 loadData
@@ -7584,6 +7613,7 @@ LOAD_FLAGS_NONE
 )
 ;
 }
+AnyThread
 public
 static
 String
@@ -7637,6 +7667,7 @@ NO_WRAP
 )
 ;
 }
+AnyThread
 public
 static
 String
@@ -7678,6 +7709,7 @@ data
 )
 ;
 }
+AnyThread
 public
 void
 reload
@@ -7697,6 +7729,7 @@ null
 )
 ;
 }
+AnyThread
 public
 void
 stop
@@ -7716,6 +7749,7 @@ null
 )
 ;
 }
+AnyThread
 public
 void
 goBack
@@ -7735,6 +7769,7 @@ null
 )
 ;
 }
+AnyThread
 public
 void
 goForward
@@ -7872,6 +7907,7 @@ FINDER_DISPLAY_DRAW_LINK_OUTLINE
 <
 2
 ;
+AnyThread
 public
 static
 final
@@ -8137,6 +8173,7 @@ null
 ;
 }
 }
+AnyThread
 public
 SessionFinder
 getFinder
@@ -8166,6 +8203,7 @@ return
 mFinder
 ;
 }
+AnyThread
 public
 void
 setActive
@@ -8207,6 +8245,7 @@ msg
 )
 ;
 }
+AnyThread
 public
 void
 setFocused
@@ -8248,6 +8287,7 @@ msg
 )
 ;
 }
+AnyThread
 public
 static
 class
@@ -8399,6 +8439,7 @@ size
 }
 ;
 }
+AnyThread
 public
 NonNull
 GeckoResult
@@ -8465,6 +8506,7 @@ return
 result
 ;
 }
+AnyThread
 public
 void
 restoreState
@@ -8612,6 +8654,7 @@ mDisplay
 null
 ;
 }
+AnyThread
 public
 GeckoSessionSettings
 getSettings
@@ -8622,6 +8665,7 @@ return
 mSettings
 ;
 }
+AnyThread
 public
 void
 exitFullScreen
@@ -8641,6 +8685,7 @@ null
 )
 ;
 }
+UiThread
 public
 void
 setContentDelegate
@@ -8649,6 +8694,12 @@ ContentDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mContentHandler
 .
 setDelegate
@@ -8658,12 +8709,19 @@ this
 )
 ;
 }
+UiThread
 public
 ContentDelegate
 getContentDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mContentHandler
 .
@@ -8672,6 +8730,7 @@ getDelegate
 )
 ;
 }
+UiThread
 public
 void
 setProgressDelegate
@@ -8680,6 +8739,12 @@ ProgressDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mProgressHandler
 .
 setDelegate
@@ -8689,12 +8754,19 @@ this
 )
 ;
 }
+UiThread
 public
 ProgressDelegate
 getProgressDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mProgressHandler
 .
@@ -8703,6 +8775,7 @@ getDelegate
 )
 ;
 }
+UiThread
 public
 void
 setNavigationDelegate
@@ -8711,6 +8784,12 @@ NavigationDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mNavigationHandler
 .
 setDelegate
@@ -8720,12 +8799,19 @@ this
 )
 ;
 }
+UiThread
 public
 NavigationDelegate
 getNavigationDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mNavigationHandler
 .
@@ -8734,6 +8820,7 @@ getDelegate
 )
 ;
 }
+UiThread
 public
 void
 setScrollDelegate
@@ -8742,6 +8829,12 @@ ScrollDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 mScrollHandler
 .
 setDelegate
@@ -8751,12 +8844,19 @@ this
 )
 ;
 }
+UiThread
 public
 ScrollDelegate
 getScrollDelegate
 (
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 return
 mScrollHandler
 .
@@ -8765,6 +8865,7 @@ getDelegate
 )
 ;
 }
+AnyThread
 public
 void
 setHistoryDelegate
@@ -8783,6 +8884,7 @@ this
 )
 ;
 }
+AnyThread
 public
 Nullable
 HistoryDelegate
@@ -8798,6 +8900,7 @@ getDelegate
 )
 ;
 }
+AnyThread
 public
 void
 setTrackingProtectionDelegate
@@ -8815,6 +8918,7 @@ this
 )
 ;
 }
+AnyThread
 public
 TrackingProtectionDelegate
 getTrackingProtectionDelegate
@@ -8829,6 +8933,7 @@ getDelegate
 )
 ;
 }
+AnyThread
 public
 void
 setPromptDelegate
@@ -8842,6 +8947,7 @@ mPromptDelegate
 delegate
 ;
 }
+AnyThread
 public
 PromptDelegate
 getPromptDelegate
@@ -8852,6 +8958,7 @@ return
 mPromptDelegate
 ;
 }
+UiThread
 public
 void
 setSelectionActionDelegate
@@ -8861,6 +8968,12 @@ SelectionActionDelegate
 delegate
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 if
 (
 getSelectionActionDelegate
@@ -8895,6 +9008,7 @@ this
 )
 ;
 }
+AnyThread
 public
 void
 setMediaDelegate
@@ -8914,6 +9028,7 @@ this
 )
 ;
 }
+AnyThread
 public
 Nullable
 MediaDelegate
@@ -8929,6 +9044,7 @@ getDelegate
 )
 ;
 }
+AnyThread
 public
 Nullable
 SelectionActionDelegate
@@ -11395,6 +11511,7 @@ break
 }
 }
 }
+UiThread
 protected
 void
 setShouldPinOnScreen
@@ -11457,6 +11574,7 @@ return
 mShouldPinOnScreen
 ;
 }
+AnyThread
 public
 EventDispatcher
 getEventDispatcher
@@ -11877,6 +11995,7 @@ securityInfo
 )
 ;
 }
+AnyThread
 static
 public
 class

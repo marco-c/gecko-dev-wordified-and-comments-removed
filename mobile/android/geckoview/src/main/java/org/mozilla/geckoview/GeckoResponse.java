@@ -5,6 +5,15 @@ mozilla
 .
 geckoview
 ;
+import
+android
+.
+support
+.
+annotation
+.
+AnyThread
+;
 public
 interface
 GeckoResponse
@@ -12,6 +21,7 @@ GeckoResponse
 T
 >
 {
+AnyThread
 void
 respond
 (

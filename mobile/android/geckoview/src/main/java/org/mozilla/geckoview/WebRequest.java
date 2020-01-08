@@ -23,6 +23,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -69,6 +78,7 @@ nio
 ByteBuffer
 ;
 WrapForJNI
+AnyThread
 public
 class
 WebRequest
@@ -228,6 +238,7 @@ builder
 mReferrer
 ;
 }
+AnyThread
 public
 static
 class

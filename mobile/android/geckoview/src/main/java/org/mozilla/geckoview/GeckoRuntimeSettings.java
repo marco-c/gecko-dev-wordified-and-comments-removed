@@ -79,6 +79,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -141,6 +150,7 @@ GeckoSession
 .
 TrackingProtectionDelegate
 ;
+AnyThread
 public
 final
 class
@@ -148,6 +158,7 @@ GeckoRuntimeSettings
 implements
 Parcelable
 {
+AnyThread
 public
 static
 final

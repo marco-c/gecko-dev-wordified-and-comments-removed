@@ -23,6 +23,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 NonNull
 ;
 import
@@ -67,6 +76,7 @@ util
 Map
 ;
 WrapForJNI
+AnyThread
 public
 abstract
 class
@@ -225,6 +235,7 @@ return
 values
 ;
 }
+AnyThread
 public
 static
 abstract
