@@ -144,9 +144,21 @@ getFloatPref
 ]
 [
 "
+clickSelectsAll
+"
+false
+]
+[
+"
 delay
 "
 50
+]
+[
+"
+doubleClickSelectsAll
+"
+false
 ]
 [
 "
@@ -364,7 +376,7 @@ DEFAULT_BUCKETS_BEFORE
 [
 UrlbarUtils
 .
-MATCH_GROUP
+MATCHTYPE
 .
 HEURISTIC
 1
@@ -372,7 +384,7 @@ HEURISTIC
 [
 UrlbarUtils
 .
-MATCH_GROUP
+MATCHTYPE
 .
 EXTENSION
 UrlbarUtils
@@ -390,7 +402,7 @@ DEFAULT_BUCKETS_AFTER
 [
 UrlbarUtils
 .
-MATCH_GROUP
+MATCHTYPE
 .
 SUGGESTION
 Infinity
@@ -398,7 +410,7 @@ Infinity
 [
 UrlbarUtils
 .
-MATCH_GROUP
+MATCHTYPE
 .
 GENERAL
 Infinity
