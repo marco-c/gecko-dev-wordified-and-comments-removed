@@ -14,7 +14,7 @@ animation
 '
 )
 return
-window
+CSS
 .
 animationWorklet
 ;
