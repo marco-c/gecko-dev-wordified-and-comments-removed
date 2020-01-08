@@ -102,9 +102,6 @@ interface
 nsIControllers
 ;
 interface
-nsIDOMOfflineResourceList
-;
-interface
 nsIPrompt
 ;
 interface

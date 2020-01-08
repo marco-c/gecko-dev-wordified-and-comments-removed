@@ -284,10 +284,6 @@ nsDOMOfflineResourceList
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMOfflineResourceList
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIOfflineCacheUpdateObserver
 )
 NS_INTERFACE_MAP_ENTRY

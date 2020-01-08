@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMOfflineResourceList
-.
-h
-"
-#
-include
-"
 nsIApplicationCache
 .
 h
@@ -165,8 +158,6 @@ mozilla
 :
 DOMEventTargetHelper
 public
-nsIDOMOfflineResourceList
-public
 nsIObserver
 public
 nsIOfflineCacheUpdateObserver
@@ -183,7 +174,6 @@ ErrorResult
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMOFFLINERESOURCELIST
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
