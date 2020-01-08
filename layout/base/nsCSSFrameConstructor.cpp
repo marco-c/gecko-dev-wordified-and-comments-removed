@@ -13350,10 +13350,10 @@ Block
 "
 bug
 in
-nsRuleNode
+StyleAdjuster
 :
 :
-ComputeDisplayData
+adjust_for_fieldset_content
 ?
 "
 )
