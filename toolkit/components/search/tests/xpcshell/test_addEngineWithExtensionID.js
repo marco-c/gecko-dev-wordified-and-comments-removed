@@ -282,7 +282,6 @@ engine
 xml
 "
 null
-null
 false
 searchCallback
 kExtensionID2
