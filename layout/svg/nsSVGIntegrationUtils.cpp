@@ -3414,7 +3414,7 @@ if
 (
 maskUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 {
 matSR
@@ -3442,7 +3442,7 @@ ctx
 nsCSSClipPathInstance
 :
 :
-ApplyBasicShapeClip
+ApplyBasicShapeOrPathClip
 (
 ctx
 frame
@@ -4155,7 +4155,7 @@ shouldApplyClipPath
 |
 maskUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 {
 gfxContextMatrixAutoSaveRestore
@@ -4182,7 +4182,7 @@ shouldApplyClipPath
 !
 maskUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 ;
 if
@@ -4208,7 +4208,7 @@ else
 nsCSSClipPathInstance
 :
 :
-ApplyBasicShapeClip
+ApplyBasicShapeOrPathClip
 (
 context
 frame
@@ -4399,7 +4399,7 @@ if
 (
 maskUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 {
 overlayColor
@@ -4434,7 +4434,7 @@ shouldApplyClipPath
 |
 maskUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 {
 context

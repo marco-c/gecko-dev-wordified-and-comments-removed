@@ -75,7 +75,7 @@ public
 :
 static
 void
-ApplyBasicShapeClip
+ApplyBasicShapeOrPathClip
 (
 gfxContext
 &
@@ -87,7 +87,7 @@ aFrame
 ;
 static
 bool
-HitTestBasicShapeClip
+HitTestBasicShapeOrPathClip
 (
 nsIFrame
 *
@@ -100,7 +100,7 @@ aPoint
 ;
 static
 Rect
-GetBoundingRectForBasicShapeClip
+GetBoundingRectForBasicShapeOrPathClip
 (
 nsIFrame
 *

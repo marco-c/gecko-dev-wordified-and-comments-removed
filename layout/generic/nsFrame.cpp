@@ -13093,7 +13093,7 @@ if
 (
 maskUsage
 .
-shouldApplyBasicShape
+shouldApplyBasicShapeOrPath
 )
 {
 Rect
@@ -13102,7 +13102,7 @@ result
 nsCSSClipPathInstance
 :
 :
-GetBoundingRectForBasicShapeClip
+GetBoundingRectForBasicShapeOrPathClip
 (
 aMaskedFrame
 svgReset
