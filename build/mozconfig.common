@@ -173,6 +173,16 @@ build
 /
 mozconfig
 .
+node
+"
+.
+"
+topsrcdir
+/
+build
+/
+mozconfig
+.
 automation
 "
 .

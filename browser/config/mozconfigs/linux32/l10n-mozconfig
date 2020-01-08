@@ -38,6 +38,12 @@ browser
 branding
 /
 nightly
+ac_add_options
+-
+-
+disable
+-
+nodejs
 .
 "
 topsrcdir

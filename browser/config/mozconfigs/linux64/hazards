@@ -305,6 +305,17 @@ Wno
 -
 attributes
 "
+NODEJS
+=
+"
+TOOLTOOL_DIR
+/
+node
+/
+bin
+/
+node
+"
 .
 "
 topsrcdir

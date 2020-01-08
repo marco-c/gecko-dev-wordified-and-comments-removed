@@ -120,6 +120,14 @@ browser
 branding
 /
 aurora
+ac_add_options
+-
+-
+disable
+-
+nodejs
+unset
+NODEJS
 if
 test
 "

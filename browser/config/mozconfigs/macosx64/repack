@@ -51,6 +51,16 @@ topsrcdir
 dmg
 /
 hfsplus
+export
+NODEJS
+=
+topsrcdir
+/
+node
+/
+bin
+/
+node
 ac_add_options
 -
 -
