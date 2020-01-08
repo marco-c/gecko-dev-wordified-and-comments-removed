@@ -184,8 +184,6 @@ observer
 =
 {
 onStartRequest
-:
-function
 (
 aRequest
 aContext
@@ -193,8 +191,6 @@ aContext
 {
 }
 onStopRequest
-:
-function
 (
 aRequest
 aContext
@@ -208,6 +204,7 @@ aStatusCode
 ;
 }
 }
+;
 }
 else
 {
@@ -357,8 +354,6 @@ pipe
 outputStream
 {
 onStartRequest
-:
-function
 (
 aRequest
 aContext
@@ -366,8 +361,6 @@ aContext
 {
 }
 onStopRequest
-:
-function
 (
 aRequest
 aContext
