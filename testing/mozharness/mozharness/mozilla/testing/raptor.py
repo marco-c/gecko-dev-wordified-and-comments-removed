@@ -3863,6 +3863,17 @@ JSGC_DISABLE_POISONING
 1
 '
         
+env
+[
+'
+MOZ_DISABLE_NONLOCAL_CONNECTIONS
+'
+]
+=
+'
+1
+'
+        
 if
 self
 .
