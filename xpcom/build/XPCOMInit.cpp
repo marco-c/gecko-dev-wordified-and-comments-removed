@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsProperties
-.
-h
-"
-#
-include
-"
 nsPersistentProperties
 .
 h
@@ -995,10 +988,6 @@ nsVariantCC
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsHashPropertyBagCC
-)
-NS_GENERIC_AGGREGATED_CONSTRUCTOR
-(
-nsProperties
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (

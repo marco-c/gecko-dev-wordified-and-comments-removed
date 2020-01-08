@@ -82,11 +82,6 @@ nsPipeConstructor
 )
 COMPONENT
 (
-PROPERTIES
-nsPropertiesConstructor
-)
-COMPONENT
-(
 PERSISTENTPROPERTIES
 nsPersistentProperties
 :
