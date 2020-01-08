@@ -1174,13 +1174,6 @@ GetInputContext
 )
 override
 ;
-void
-SetSelectionDragState
-(
-bool
-aState
-)
-;
 LayerManager
 *
 GetLayerManager
