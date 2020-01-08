@@ -128,6 +128,9 @@ OutputStreamDriver
 class
 StreamListener
 ;
+class
+TrackListener
+;
 private
 :
 RefPtr
@@ -141,6 +144,12 @@ RefPtr
 StreamListener
 >
 mStreamListener
+;
+RefPtr
+<
+TrackListener
+>
+mTrackListener
 ;
 }
 ;
