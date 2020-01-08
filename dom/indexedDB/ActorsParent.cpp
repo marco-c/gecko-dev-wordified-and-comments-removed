@@ -81770,10 +81770,7 @@ FileInputStream
 >
 stream
 =
-FileInputStream
-:
-:
-Create
+CreateFileInputStream
 (
 persistenceType
 group
@@ -81807,10 +81804,7 @@ FileStream
 >
 stream
 =
-FileStream
-:
-:
-Create
+CreateFileStream
 (
 persistenceType
 group
@@ -121532,10 +121526,7 @@ FileOutputStream
 >
 fileOutputStream
 =
-FileOutputStream
-:
-:
-Create
+CreateFileOutputStream
 (
 mFileManager
 -

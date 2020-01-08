@@ -19,7 +19,7 @@ prio
 .
 h
 "
-USING_QUOTA_NAMESPACE
+BEGIN_QUOTA_NAMESPACE
 template
 <
 class
@@ -373,10 +373,7 @@ already_AddRefed
 <
 FileInputStream
 >
-FileInputStream
-:
-:
-Create
+CreateFileInputStream
 (
 PersistenceType
 aPersistenceType
@@ -445,10 +442,7 @@ already_AddRefed
 <
 FileOutputStream
 >
-FileOutputStream
-:
-:
-Create
+CreateFileOutputStream
 (
 PersistenceType
 aPersistenceType
@@ -517,10 +511,7 @@ already_AddRefed
 <
 FileStream
 >
-FileStream
-:
-:
-Create
+CreateFileStream
 (
 PersistenceType
 aPersistenceType
@@ -585,3 +576,4 @@ forget
 )
 ;
 }
+END_QUOTA_NAMESPACE
