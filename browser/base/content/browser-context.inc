@@ -2704,11 +2704,6 @@ spec
 gBrowser
 .
 contentTitle
-gBrowser
-.
-selectedTab
-.
-multiselected
 )
 ;
 }
