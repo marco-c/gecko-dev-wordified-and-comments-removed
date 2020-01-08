@@ -723,7 +723,6 @@ ready_to_draw
 =
 false
 ;
-static
 wl_surface
 *
 gtk_container_surface
