@@ -476,12 +476,6 @@ disableCacheIRBinaryArith
 false
 )
 ;
-SET_DEFAULT
-(
-disableSharedStubs
-false
-)
-;
 #
 if
 defined

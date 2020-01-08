@@ -216,9 +216,6 @@ bool
 disableCacheIRBinaryArith
 ;
 bool
-disableSharedStubs
-;
-bool
 disableSincos
 ;
 bool
