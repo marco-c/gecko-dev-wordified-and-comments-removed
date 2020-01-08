@@ -18,7 +18,11 @@ below
 :
 fuzzy
 (
+0
+-
 255
+0
+-
 5000
 )
 =
@@ -469,7 +473,11 @@ fuzzy
 if
 (
 winWidget
+0
+-
 1
+0
+-
 56000
 )
 fuzzy
@@ -477,7 +485,11 @@ fuzzy
 if
 (
 cocoaWidget
+0
+-
 1
+0
+-
 56000
 )
 =

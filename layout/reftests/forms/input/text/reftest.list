@@ -21,7 +21,11 @@ asyncPan
 &
 !
 layersGPUAccelerated
+0
+-
 151
+0
+-
 111
 )
 fuzzy
@@ -29,7 +33,11 @@ fuzzy
 if
 (
 webrender
+0
+-
 65
+0
+-
 3
 )
 =
@@ -111,7 +119,11 @@ fuzzy
 if
 (
 skiaContent
+0
+-
 1
+0
+-
 500
 )
 needs

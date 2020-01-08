@@ -282,7 +282,11 @@ fuzzy
 if
 (
 winWidget
+0
+-
 160
+0
+-
 10
 )
 fuzzy
@@ -290,7 +294,11 @@ fuzzy
 if
 (
 Android
+0
+-
 1
+0
+-
 1
 )
 fuzzy
@@ -302,7 +310,11 @@ asyncPan
 &
 !
 layersGPUAccelerated
+0
+-
 146
+0
+-
 317
 )
 fuzzy
@@ -316,7 +328,11 @@ OSX
 &
 &
 browserIsRemote
+0
+-
 1
+0
+-
 8
 )
 =

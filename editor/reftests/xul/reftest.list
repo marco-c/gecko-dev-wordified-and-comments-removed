@@ -383,7 +383,11 @@ fuzzy
 if
 (
 webrender
+0
+-
 205
+0
+-
 7
 )
 fails
@@ -467,7 +471,11 @@ fuzzy
 if
 (
 webrender
+0
+-
 205
+0
+-
 7
 )
 fails
@@ -539,7 +547,11 @@ fuzzy
 if
 (
 webrender
+0
+-
 255
+0
+-
 7
 )
 fails

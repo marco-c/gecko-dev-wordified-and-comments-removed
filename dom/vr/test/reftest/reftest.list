@@ -223,7 +223,11 @@ fuzzy
 if
 (
 cocoaWidget
+0
+-
 1
+0
+-
 1200
 )
 .
@@ -252,7 +256,11 @@ oscpu
 |
 |
 cocoaWidget
+0
+-
 1
+0
+-
 600
 )
 skip

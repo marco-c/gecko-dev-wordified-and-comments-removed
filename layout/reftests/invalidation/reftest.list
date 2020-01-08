@@ -1456,7 +1456,11 @@ fuzzy
 if
 (
 gtkWidget
+0
+-
 2
+0
+-
 4
 )
 fuzzy
@@ -1464,7 +1468,11 @@ fuzzy
 if
 (
 asyncPan
+0
+-
 2
+0
+-
 3955
 )
 fuzzy
@@ -1472,7 +1480,11 @@ fuzzy
 if
 (
 OSX
+0
+-
 179
+0
+-
 30
 )
 fuzzy
@@ -1480,7 +1492,11 @@ fuzzy
 if
 (
 skiaContent
+0
+-
 16
+0
+-
 3230
 )
 =

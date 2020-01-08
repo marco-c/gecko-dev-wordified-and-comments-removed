@@ -16,7 +16,11 @@ isDebugBuild
 &
 &
 gtkWidget
+0
+-
 1
+0
+-
 1
 )
 fuzzy
@@ -24,7 +28,11 @@ fuzzy
 if
 (
 cocoaWidget
+0
+-
 2
+0
+-
 32
 )
 =
@@ -113,7 +121,11 @@ fuzzy
 if
 (
 cocoaWidget
+0
+-
 1
+0
+-
 10
 )
 =
