@@ -1451,9 +1451,11 @@ if
 (
 mSourceAlphaAvailable
 )
+{
 return
 mSourceAlphaIndex
 ;
+}
 if
 (
 mSourceGraphicIndex

@@ -688,9 +688,11 @@ if
 (
 mInUse
 )
+{
 return
 bbox
 ;
+}
 AutoMarkerReferencer
 markerRef
 (

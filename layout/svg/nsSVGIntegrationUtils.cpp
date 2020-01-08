@@ -4985,9 +4985,11 @@ GetStateBits
 &
 NS_FRAME_DRAWING_AS_PAINTSERVER
 )
+{
 return
 false
 ;
+}
 AutoSetRestorePaintServerState
 paintServer
 (
@@ -5522,9 +5524,11 @@ if
 !
 pattern
 )
+{
 return
 nullptr
 ;
+}
 gfxFloat
 scaleX
 =

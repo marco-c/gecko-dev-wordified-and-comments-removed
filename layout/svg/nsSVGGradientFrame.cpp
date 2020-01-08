@@ -324,6 +324,7 @@ IsExplicitlySet
 (
 )
 )
+{
 return
 thisEnum
 .
@@ -331,6 +332,7 @@ GetAnimValue
 (
 )
 ;
+}
 static
 int16_t
 sRefChainLengthCounter
@@ -734,9 +736,11 @@ if
 !
 animTransformList
 )
+{
 return
 bboxMatrix
 ;
+}
 gfxMatrix
 gradientTransform
 =

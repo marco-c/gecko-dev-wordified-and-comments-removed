@@ -1584,9 +1584,11 @@ IsDisplayContainer
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 SVGObserverUtils

@@ -1221,8 +1221,10 @@ IsEmpty
 (
 )
 )
+{
 return
 ;
+}
 }
 aContext
 .
@@ -1508,9 +1510,11 @@ GetStateBits
 NS_FRAME_IS_NONDISPLAY
 )
 )
+{
 return
 nullptr
 ;
+}
 nsIFrame
 *
 kid
@@ -1528,9 +1532,11 @@ if
 !
 kid
 )
+{
 return
 nullptr
 ;
+}
 float
 x
 y
@@ -2367,8 +2373,10 @@ if
 !
 kid
 )
+{
 return
 ;
+}
 PresShell
 (
 )
@@ -2410,8 +2418,10 @@ GetStateBits
 NS_FRAME_FIRST_REFLOW
 )
 )
+{
 return
 ;
+}
 nsPresContext
 *
 presContext
@@ -2437,8 +2447,10 @@ if
 !
 kid
 )
+{
 return
 ;
+}
 RefPtr
 <
 gfxContext

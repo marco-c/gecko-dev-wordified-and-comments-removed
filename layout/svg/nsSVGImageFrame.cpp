@@ -2359,9 +2359,11 @@ if
 !
 mFrame
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 if
 (
 aType

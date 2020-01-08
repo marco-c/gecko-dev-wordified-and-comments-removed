@@ -159,6 +159,7 @@ IsExplicitlySet
 (
 )
 )
+{
 return
 thisEnum
 .
@@ -166,6 +167,7 @@ GetAnimValue
 (
 )
 ;
+}
 static
 int16_t
 sRefChainLengthCounter
@@ -306,9 +308,11 @@ IsExplicitlySet
 (
 )
 )
+{
 return
 thisLength
 ;
+}
 static
 int16_t
 sRefChainLengthCounter

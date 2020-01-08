@@ -1244,8 +1244,10 @@ IsVisible
 (
 )
 )
+{
 return
 ;
+}
 gfxMatrix
 newMatrix
 =
@@ -1723,9 +1725,11 @@ this
 aPoint
 )
 )
+{
 return
 this
 ;
+}
 return
 nullptr
 ;
