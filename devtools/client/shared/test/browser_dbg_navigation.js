@@ -289,16 +289,6 @@ packet
 )
 )
 ;
-info
-(
-JSON
-.
-stringify
-(
-event
-)
-)
-;
 if
 (
 packet
