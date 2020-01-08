@@ -173,6 +173,11 @@ Event
 {
 readonly
 attribute
+DOMString
+methodName
+;
+readonly
+attribute
 USVString
 validationURL
 ;
@@ -196,6 +201,12 @@ MerchantValidationEventInit
 :
 EventInit
 {
+DOMString
+methodName
+=
+"
+"
+;
 USVString
 validationURL
 =
