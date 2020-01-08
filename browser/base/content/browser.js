@@ -31283,6 +31283,19 @@ makeURI
 href
 )
 ;
+let
+isPrivateWin
+=
+doc
+.
+nodePrincipal
+.
+originAttributes
+.
+privateBrowsingId
+>
+0
+;
 sm
 .
 checkSameOriginURI
@@ -31290,6 +31303,7 @@ checkSameOriginURI
 referrerURI
 targetURI
 false
+isPrivateWin
 )
 ;
 persistAllowMixedContentInChildTab

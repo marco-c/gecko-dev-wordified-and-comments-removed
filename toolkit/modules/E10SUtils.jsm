@@ -337,6 +337,7 @@ checkSameOriginURI
 aCurrentUri
 aTargetUri
 false
+false
 )
 ;
 return

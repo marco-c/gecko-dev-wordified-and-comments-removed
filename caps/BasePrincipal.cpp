@@ -640,12 +640,16 @@ nsScriptSecurityManager
 :
 ReportError
 (
-nullptr
 "
 CheckSameOriginError
 "
 prinURI
 aURI
+mOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
 )
 ;
 }
