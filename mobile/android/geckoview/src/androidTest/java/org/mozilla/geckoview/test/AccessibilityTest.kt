@@ -5103,11 +5103,9 @@ assertThat
 "
 Should
 have
-at
-least
 six
 visible
-fields
+nodes
 "
 countAutoFillNodes
 (
@@ -5142,7 +5140,7 @@ isEmpty
 )
 }
 )
-greaterThanOrEqualTo
+equalTo
 (
 6
 )

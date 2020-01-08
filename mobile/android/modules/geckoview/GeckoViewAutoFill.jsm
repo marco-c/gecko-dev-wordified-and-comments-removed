@@ -362,6 +362,7 @@ getInfo
 (
 element
 parent
+root
 )
 =
 >
@@ -398,6 +399,7 @@ this
 .
 _autoFillId
 parent
+root
 tag
 :
 element
@@ -616,7 +618,16 @@ aFormLike
 .
 rootElement
 null
+undefined
 )
+;
+rootInfo
+.
+root
+=
+rootInfo
+.
+id
 ;
 rootInfo
 .
@@ -634,6 +645,9 @@ element
 getInfo
 (
 element
+rootInfo
+.
+id
 rootInfo
 .
 id
