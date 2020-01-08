@@ -796,7 +796,7 @@ NotificationHelper
 .
 Channel
 .
-DEFAULT
+SITE_NOTIFICATIONS
 )
 .
 getId
