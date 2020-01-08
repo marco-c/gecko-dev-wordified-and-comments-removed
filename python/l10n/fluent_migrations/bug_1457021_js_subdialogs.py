@@ -22,7 +22,8 @@ migrate
 helpers
 import
 MESSAGE_REFERENCE
-EXTERNAL_ARGUMENT
+TERM_REFERENCE
+VARIABLE_REFERENCE
 transforms_from
 from
 fluent
@@ -412,7 +413,7 @@ mozNameTemplate
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                             
 '
@@ -427,7 +428,7 @@ listName
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                             
 '
@@ -679,7 +680,7 @@ labelDefaultFont
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                                     
 '
@@ -823,7 +824,7 @@ totalSiteDataSize2
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                             
 '
@@ -838,7 +839,7 @@ value
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                             
 '
@@ -1195,7 +1196,7 @@ description
 S
 '
 :
-MESSAGE_REFERENCE
+TERM_REFERENCE
 (
                             
 '
@@ -1266,7 +1267,7 @@ siteUsage
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                             
 '
@@ -1281,7 +1282,7 @@ value
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                             
 '
@@ -1398,7 +1399,7 @@ languageCodeFormat
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                                     
 '
@@ -1413,7 +1414,7 @@ locale
 S
 '
 :
-EXTERNAL_ARGUMENT
+VARIABLE_REFERENCE
 (
                                     
 '
