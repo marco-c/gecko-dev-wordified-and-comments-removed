@@ -4813,11 +4813,6 @@ script
 cx
 -
 >
-zone
-(
-)
--
->
 pod_malloc_with_extra
 <
 IonScript
