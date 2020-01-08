@@ -5101,6 +5101,10 @@ kDefaultHelperStackSize
 2048
 *
 1024
+-
+2
+*
+4096
 ;
 static
 const
