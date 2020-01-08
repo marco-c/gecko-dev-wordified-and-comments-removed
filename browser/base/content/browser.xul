@@ -5017,7 +5017,7 @@ label
 &
 pageAction
 .
-allowInUrlbar
+addToUrlbar
 .
 label
 ;
@@ -5048,7 +5048,7 @@ label
 &
 pageAction
 .
-disallowInUrlbar
+removeFromUrlbar
 .
 label
 ;
