@@ -941,6 +941,17 @@ name
 ;
 }
 }
+this
+.
+_browser
+.
+messageManager
+.
+sendAsyncMessage
+(
+aEvent
+)
+;
 break
 ;
 }
