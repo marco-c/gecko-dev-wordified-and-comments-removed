@@ -2244,6 +2244,16 @@ removeObserver
 this
 )
 ;
+window
+.
+removeEventListener
+(
+"
+unload
+"
+this
+)
+;
 this
 .
 _observersAdded
