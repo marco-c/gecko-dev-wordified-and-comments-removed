@@ -3274,6 +3274,12 @@ target
 ;
 if
 (
+IsObject
+(
+overloaded
+)
+&
+&
 IsPossiblyWrappedTypedArray
 (
 overloaded
