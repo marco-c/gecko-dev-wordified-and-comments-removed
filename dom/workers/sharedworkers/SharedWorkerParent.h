@@ -181,7 +181,7 @@ IsFrozen
 const
 {
 return
-mSuspended
+mFrozen
 ;
 }
 uint64_t
