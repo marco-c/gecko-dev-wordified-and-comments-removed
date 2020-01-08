@@ -6931,7 +6931,7 @@ uint
 expires
 :
 "
-61
+70
 "
 notification_emails
 :
@@ -6941,6 +6941,11 @@ gfx
 telemetry
 -
 alerts
+mozilla
+.
+com
+-
+rhunt
 mozilla
 .
 com
