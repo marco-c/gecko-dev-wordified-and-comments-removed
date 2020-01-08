@@ -75,13 +75,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-gc
-;
-using
 mozilla
 :
 :
@@ -626,6 +619,9 @@ NATIVE_FUN
 nullptr
 funName
 proto
+gc
+:
+:
 AllocKind
 :
 :

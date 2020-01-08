@@ -415,13 +415,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-gc
-;
-using
 JS
 :
 :
@@ -19351,6 +19344,9 @@ names
 .
 String
 1
+gc
+:
+:
 AllocKind
 :
 :

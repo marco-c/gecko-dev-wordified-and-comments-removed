@@ -396,13 +396,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 bool
 js
 :
@@ -4444,6 +4437,9 @@ void
 *
 data
 =
+gc
+:
+:
 AllocateMappedContent
 (
 fd
@@ -4630,6 +4626,9 @@ break
 ;
 case
 MAPPED
+:
+gc
+:
 :
 DeallocateMappedContent
 (
@@ -5780,6 +5779,9 @@ gc
 AllocKind
 allocKind
 =
+gc
+:
+:
 GetGCObjectKind
 (
 nslots
@@ -9968,6 +9970,9 @@ size_t
 length
 )
 {
+gc
+:
+:
 DeallocateMappedContent
 (
 contents

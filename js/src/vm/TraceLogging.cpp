@@ -159,13 +159,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-jit
-;
-using
 mozilla
 :
 :
@@ -1014,6 +1007,13 @@ JSContext
 cx
 )
 {
+using
+namespace
+js
+:
+:
+jit
+;
 if
 (
 !

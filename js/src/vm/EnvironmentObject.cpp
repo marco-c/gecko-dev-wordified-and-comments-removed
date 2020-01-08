@@ -178,13 +178,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 typedef
 Rooted
 <
@@ -2665,6 +2658,9 @@ create
 (
 cx
 kind
+gc
+:
+:
 TenuredHeap
 shape
 group

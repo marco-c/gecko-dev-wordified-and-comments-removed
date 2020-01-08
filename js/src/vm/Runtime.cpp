@@ -378,13 +378,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-gc
-;
-using
 mozilla
 :
 :
@@ -1280,6 +1273,9 @@ IsIncrementalGCInProgress
 cx
 )
 )
+gc
+:
+:
 FinishGC
 (
 cx

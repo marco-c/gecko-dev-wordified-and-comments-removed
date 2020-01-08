@@ -141,13 +141,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 void
 js
 :

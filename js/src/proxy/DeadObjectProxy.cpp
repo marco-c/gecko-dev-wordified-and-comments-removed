@@ -36,13 +36,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 const
 DeadObjectProxy
 DeadObjectProxy

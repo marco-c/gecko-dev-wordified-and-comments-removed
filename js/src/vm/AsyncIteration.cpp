@@ -118,13 +118,6 @@ using
 namespace
 js
 ;
-using
-namespace
-js
-:
-:
-gc
-;
 #
 define
 UNWRAPPED_ASYNC_WRAPPED_SLOT
@@ -372,6 +365,9 @@ NATIVE_FUN
 nullptr
 funName
 proto
+gc
+:
+:
 AllocKind
 :
 :

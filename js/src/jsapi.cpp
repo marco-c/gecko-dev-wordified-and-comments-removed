@@ -806,13 +806,6 @@ namespace
 js
 ;
 using
-namespace
-js
-:
-:
-gc
-;
-using
 mozilla
 :
 :
@@ -6067,6 +6060,9 @@ JSRuntime
 rt
 )
 {
+gc
+:
+:
 GCRuntime
 &
 gc
@@ -6161,6 +6157,9 @@ JSContext
 cx
 )
 {
+gc
+:
+:
 GCRuntime
 &
 gc
@@ -30992,6 +30991,9 @@ src
 dstlen
 )
 ;
+gc
+:
+:
 AutoSuppressGC
 suppress
 (
