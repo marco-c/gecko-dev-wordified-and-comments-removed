@@ -975,6 +975,11 @@ a
 forceMainDocumentChannel
 (
 )
+a
+.
+navigationStartTimeStamp
+(
+)
 )
 ;
 }
@@ -2212,6 +2217,10 @@ const
 bool
 &
 aForceMainDocumentChannel
+const
+TimeStamp
+&
+aNavigationStartTimeStamp
 )
 {
 nsCOMPtr
@@ -3287,6 +3296,14 @@ httpChannel
 SetHandleFetchEventEnd
 (
 aHandleFetchEventEnd
+)
+;
+httpChannel
+-
+>
+SetNavigationStartTimeStamp
+(
+aNavigationStartTimeStamp
 )
 ;
 nsCOMPtr

@@ -592,6 +592,10 @@ const
 bool
 &
 aForceMainDocumentChannel
+const
+TimeStamp
+&
+aNavigationStartTimeStamp
 )
 ;
 virtual
