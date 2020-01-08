@@ -46,9 +46,6 @@ _browserActionTitles
 _initialized
 :
 false
-_nextMenuId
-:
-0
 _maybeRegisterListeners
 (
 )
@@ -209,7 +206,7 @@ browser
 action
 found
 with
-id
+UUID
 {
 data
 .
@@ -244,13 +241,6 @@ Menu
 :
 AddBrowserAction
 "
-id
-:
-this
-.
-_nextMenuId
-+
-+
 uuid
 :
 browserAction

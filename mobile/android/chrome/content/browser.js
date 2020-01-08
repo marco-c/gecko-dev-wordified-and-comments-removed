@@ -14008,9 +14008,6 @@ _callbacks
 :
 [
 ]
-_menuId
-:
-1
 toolsMenuID
 :
 "
@@ -14131,14 +14128,6 @@ Add
 ;
 options
 .
-id
-=
-this
-.
-_menuId
-;
-options
-.
 uuid
 =
 uuidgen
@@ -14170,12 +14159,6 @@ uuid
 options
 .
 callback
-;
-this
-.
-_menuId
-+
-+
 ;
 return
 options
