@@ -128,6 +128,12 @@ std
 fmt
 ;
 use
+str
+:
+:
+starts_with_ignore_ascii_case
+;
+use
 string_cache
 :
 :
@@ -2856,10 +2862,10 @@ i
 >
 {
 if
-name
-.
-starts_with
+starts_with_ignore_ascii_case
 (
+&
+name
 "
 -
 moz
