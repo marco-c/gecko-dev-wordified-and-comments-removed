@@ -1363,19 +1363,6 @@ block
 "
 "
         
-log
-.
-debug
-(
-"
-HPACK
-encoding
-%
-s
-"
-headers
-)
-        
 header_block
 =
 [
