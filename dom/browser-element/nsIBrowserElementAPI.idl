@@ -388,17 +388,6 @@ getCanGoForward
 (
 )
 ;
-DOMRequest
-executeScript
-(
-in
-AString
-script
-in
-jsval
-options
-)
-;
 /
 *
 *

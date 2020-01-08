@@ -48,10 +48,6 @@ getCanGoForward
 :
 {
 }
-executeScript
-:
-{
-}
 getWebManifest
 :
 {
