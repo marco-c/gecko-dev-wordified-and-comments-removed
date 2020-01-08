@@ -1695,6 +1695,8 @@ const
 &
 aResultPrincipalURI
 bool
+aKeepResultPrincipalURIIfSet
+bool
 aLoadReplace
 bool
 aLoadFromExternal
