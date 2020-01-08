@@ -106,11 +106,6 @@ nsIInlineSpellChecker
 .
 idl
 '
-'
-nsITextServicesFilter
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

@@ -228,11 +228,10 @@ aRange
 )
 ;
 nsresult
-SetFilter
+SetFilterType
 (
-nsComposeTxtSrvFilter
-*
-aFilter
+uint32_t
+aFilterType
 )
 ;
 nsresult

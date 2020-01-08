@@ -65,9 +65,6 @@ nsIEditor
 class
 nsISpellChecker
 ;
-class
-nsITextServicesFilter
-;
 #
 define
 NS_EDITORSPELLCHECK_CID
@@ -167,12 +164,6 @@ mSpellChecker
 ;
 RefPtr
 <
-nsComposeTxtSrvFilter
->
-mTxtSrvFilter
-;
-RefPtr
-<
 EditorBase
 >
 mEditor
@@ -191,6 +182,9 @@ mDictionaryList
 ;
 nsString
 mPreferredLang
+;
+uint32_t
+mTxtSrvFilterType
 ;
 int32_t
 mSuggestedWordIndex

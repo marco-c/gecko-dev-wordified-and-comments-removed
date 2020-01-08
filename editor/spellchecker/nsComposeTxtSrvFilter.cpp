@@ -64,10 +64,9 @@ false
 )
 {
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS0
 (
 nsComposeTxtSrvFilter
-nsITextServicesFilter
 )
 bool
 nsComposeTxtSrvFilter
