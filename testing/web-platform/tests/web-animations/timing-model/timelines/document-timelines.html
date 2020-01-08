@@ -130,14 +130,13 @@ t
 =
 >
 {
-assert_true
+assert_greater_than_equal
 (
 document
 .
 timeline
 .
 currentTime
->
 0
 '
 The
@@ -147,6 +146,8 @@ is
 initially
 is
 positive
+or
+zero
 '
 )
 ;
