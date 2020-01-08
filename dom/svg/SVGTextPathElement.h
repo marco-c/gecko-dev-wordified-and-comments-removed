@@ -278,6 +278,14 @@ Href
 (
 )
 ;
+void
+HrefAsString
+(
+nsAString
+&
+aHref
+)
+;
 protected
 :
 virtual
