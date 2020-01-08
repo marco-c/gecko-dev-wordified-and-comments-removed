@@ -10879,6 +10879,8 @@ nsBlockFrame
 aOldParent
 bool
 aReparentSiblings
+ReparentingDirection
+aDirection
 )
 {
 nsFrameList
@@ -10941,10 +10943,7 @@ ReparentFrame
 f
 aOldParent
 this
-ReparentingDirection
-:
-:
-Backwards
+aDirection
 )
 ;
 }
@@ -13321,6 +13320,10 @@ pulledLine
 mFirstChild
 nextInFlow
 true
+ReparentingDirection
+:
+:
+Backwards
 )
 ;
 DumpLine
@@ -14739,6 +14742,10 @@ ReparentFloats
 frame
 aFromContainer
 false
+ReparentingDirection
+:
+:
+Backwards
 )
 ;
 }
