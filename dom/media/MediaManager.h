@@ -319,12 +319,6 @@ MediaManager
 class
 SourceListener
 ;
-LogModule
-*
-GetMediaManagerLog
-(
-)
-;
 class
 MediaDevice
 :
