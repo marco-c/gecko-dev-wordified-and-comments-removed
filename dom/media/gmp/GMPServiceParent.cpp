@@ -2839,7 +2839,13 @@ AllPromiseType
 :
 CreateAndResolve
 (
+nsTArray
+<
+bool
+>
+{
 true
+}
 __func__
 )
 ;

@@ -3679,7 +3679,10 @@ ServiceWorkerRegistrationPromise
 :
 CreateAndReject
 (
+CopyableErrorResult
+(
 rv
+)
 __func__
 )
 ;
@@ -3717,7 +3720,10 @@ ServiceWorkerRegistrationPromise
 :
 CreateAndReject
 (
+CopyableErrorResult
+(
 rv
+)
 __func__
 )
 ;
@@ -3745,7 +3751,10 @@ ServiceWorkerRegistrationPromise
 :
 CreateAndReject
 (
+CopyableErrorResult
+(
 rv
+)
 __func__
 )
 ;
@@ -3790,7 +3799,10 @@ ServiceWorkerRegistrationPromise
 :
 CreateAndReject
 (
+CopyableErrorResult
+(
 rv
+)
 __func__
 )
 ;
