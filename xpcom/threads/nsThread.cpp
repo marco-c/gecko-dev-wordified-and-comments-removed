@@ -1693,6 +1693,13 @@ ThreadListMutex
 )
 )
 ;
+if
+(
+isInList
+(
+)
+)
+{
 sActiveThreads
 -
 -
@@ -1704,6 +1711,7 @@ ThreadList
 )
 )
 ;
+}
 }
 }
 void
