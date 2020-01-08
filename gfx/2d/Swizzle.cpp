@@ -305,7 +305,7 @@ aFormat
 #
 else
 return
-24
+8
 -
 8
 *
