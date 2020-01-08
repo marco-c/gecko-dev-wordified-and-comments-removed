@@ -2953,6 +2953,25 @@ CAMERA
 %
 app
 )
+            
+device
+.
+shell_output
+(
+'
+pm
+grant
+%
+s
+android
+.
+permission
+.
+RECORD_AUDIO
+'
+%
+app
+)
     
 except
 Exception
