@@ -10845,11 +10845,9 @@ right
 )
 )
 )
-{
 return
 false
 ;
-}
 if
 (
 !
