@@ -64,6 +64,14 @@ mChangeHint
 }
 ;
 static
+DisplayItemType
+GetDisplayItemTypeForProperty
+(
+nsCSSPropertyID
+aProperty
+)
+;
+static
 const
 size_t
 kRecords
