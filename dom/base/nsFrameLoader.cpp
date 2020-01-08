@@ -496,7 +496,7 @@ mozilla
 /
 layout
 /
-RenderFrameParent
+RenderFrame
 .
 h
 "
@@ -3676,9 +3676,9 @@ return
 false
 ;
 }
-RenderFrameParent
+RenderFrame
 *
-rfp
+rf
 =
 GetCurrentRenderFrame
 (
@@ -3687,7 +3687,7 @@ GetCurrentRenderFrame
 if
 (
 !
-rfp
+rf
 )
 {
 return
@@ -3697,7 +3697,7 @@ false
 if
 (
 !
-rfp
+rf
 -
 >
 AttachLayerManager
@@ -7881,7 +7881,7 @@ Failed
 }
 if
 (
-RenderFrameParent
+RenderFrame
 *
 rfp
 =
@@ -11880,7 +11880,7 @@ return
 mRemoteBrowser
 ;
 }
-RenderFrameParent
+RenderFrame
 *
 nsFrameLoader
 :

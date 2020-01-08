@@ -217,7 +217,7 @@ namespace
 layout
 {
 class
-RenderFrameParent
+RenderFrame
 ;
 }
 }
@@ -309,8 +309,8 @@ mozilla
 layout
 :
 :
-RenderFrameParent
-RenderFrameParent
+RenderFrame
+RenderFrame
 ;
 public
 :
@@ -907,7 +907,7 @@ GetRemoteBrowser
 )
 const
 ;
-RenderFrameParent
+RenderFrame
 *
 GetCurrentRenderFrame
 (

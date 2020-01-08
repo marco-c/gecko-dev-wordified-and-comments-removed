@@ -47,7 +47,7 @@ mozilla
 /
 layout
 /
-RenderFrameParent
+RenderFrame
 .
 h
 "
@@ -752,9 +752,9 @@ keyEventTarget
 )
 )
 {
-RenderFrameParent
+RenderFrame
 *
-rfp
+rf
 =
 browserParent
 -
@@ -765,7 +765,7 @@ GetRenderFrame
 ;
 if
 (
-rfp
+rf
 )
 {
 FT_LOG
@@ -796,7 +796,7 @@ n
 "
 aFocusSequenceNumber
 mFocusHasKeyEventListeners
-rfp
+rf
 -
 >
 GetLayersId
@@ -811,7 +811,7 @@ AsVariant
 LayersId
 >
 (
-rfp
+rf
 -
 >
 GetLayersId
