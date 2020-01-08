@@ -134,6 +134,11 @@ Destroy
 )
 override
 ;
+void
+UpdateCompositableClientForEmptyTransaction
+(
+)
+;
 Maybe
 <
 wr

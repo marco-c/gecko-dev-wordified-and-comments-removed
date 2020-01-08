@@ -1303,6 +1303,12 @@ const
 bool
 &
 aAsync
+wr
+:
+:
+TransactionBuilder
+&
+aTxn
 )
 ;
 void

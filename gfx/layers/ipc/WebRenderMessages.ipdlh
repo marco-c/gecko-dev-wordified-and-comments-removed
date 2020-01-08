@@ -560,6 +560,14 @@ mixBlendMode
 ;
 }
 ;
+struct
+OpUpdatedAsyncImagePipeline
+{
+PipelineId
+pipelineId
+;
+}
+;
 union
 WebRenderParentCommand
 {
@@ -572,6 +580,8 @@ OpRemoveExternalImageId
 OpReleaseTextureOfImage
 ;
 OpUpdateAsyncImagePipeline
+;
+OpUpdatedAsyncImagePipeline
 ;
 CompositableOperation
 ;

@@ -8039,7 +8039,7 @@ canvas
 canvas
 -
 >
-UpdateCompositableClient
+UpdateCompositableClientForEmptyTransaction
 (
 )
 ;
