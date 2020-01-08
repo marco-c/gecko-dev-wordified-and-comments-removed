@@ -3327,6 +3327,17 @@ WindowUtils
 (
 )
 ;
+bool
+HasOpenerForInitialContentBrowser
+(
+)
+{
+return
+!
+!
+mOpenerForInitialContentBrowser
+;
+}
 virtual
 bool
 IsInSyncOperation

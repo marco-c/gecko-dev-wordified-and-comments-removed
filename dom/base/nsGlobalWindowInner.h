@@ -5773,6 +5773,11 @@ ErrorResult
 aRv
 )
 ;
+bool
+HasOpenerForInitialContentBrowser
+(
+)
+;
 void
 UpdateTopInnerWindow
 (
