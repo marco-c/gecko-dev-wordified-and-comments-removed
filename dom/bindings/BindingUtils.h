@@ -6584,8 +6584,14 @@ old
 bool
 TryPreserveWrapper
 (
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 )
 ;

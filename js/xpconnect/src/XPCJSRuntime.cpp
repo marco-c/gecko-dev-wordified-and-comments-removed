@@ -15285,8 +15285,14 @@ PreserveWrapper
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 )
 {
