@@ -199,7 +199,7 @@ loaded
 runExtraTests
 :
 false
-cookieBehavior
+blockingByCookieBehavior
 blockingByContentBlocking
 blockingByAllowList
 callback

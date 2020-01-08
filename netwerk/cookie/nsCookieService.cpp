@@ -9434,6 +9434,9 @@ if
 isForeign
 &
 &
+isTrackingResource
+&
+&
 AntiTrackingCommon
 :
 :
@@ -9853,6 +9856,9 @@ GetIsTrackingResource
 if
 (
 isForeign
+&
+&
+isTrackingResource
 &
 &
 AntiTrackingCommon
@@ -18581,10 +18587,6 @@ nsICookieService
 :
 :
 BEHAVIOR_REJECT_FOREIGN
-&
-&
-!
-aFirstPartyStorageAccessGranted
 )
 {
 COOKIE_LOGFAILURE
@@ -18667,15 +18669,6 @@ nsICookieService
 :
 :
 BEHAVIOR_LIMIT_FOREIGN
-|
-|
-aCookieBehavior
-=
-=
-nsICookieService
-:
-:
-BEHAVIOR_REJECT_FOREIGN
 |
 |
 aCookieBehavior

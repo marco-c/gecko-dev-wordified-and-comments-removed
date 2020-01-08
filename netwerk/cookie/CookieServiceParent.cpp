@@ -877,6 +877,9 @@ if
 isForeign
 &
 &
+isTrackingResource
+&
+&
 AntiTrackingCommon
 :
 :
