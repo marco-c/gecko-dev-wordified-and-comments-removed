@@ -10281,7 +10281,7 @@ get
 return
 ;
 }
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -29452,7 +29452,7 @@ name
 )
 )
 {
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -29903,7 +29903,7 @@ get
 )
 ;
 }
-JS_ReportErrorNumberLatin1
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
@@ -29926,7 +29926,7 @@ isArrow
 )
 )
 ;
-JS_ReportErrorNumberUTF8
+JS_ReportErrorNumberASCII
 (
 cx
 GetErrorMessage
