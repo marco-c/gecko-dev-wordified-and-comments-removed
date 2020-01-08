@@ -779,6 +779,10 @@ value
 {
 return
 value
+!
+=
+=
+null
 &
 &
 FontSize
@@ -818,6 +822,10 @@ value
 {
 return
 value
+!
+=
+=
+null
 &
 &
 LineHeight
@@ -881,6 +889,10 @@ value
 {
 return
 value
+!
+=
+=
+null
 &
 &
 FontWeight
