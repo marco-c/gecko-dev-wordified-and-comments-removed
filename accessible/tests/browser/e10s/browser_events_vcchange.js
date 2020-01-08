@@ -65,7 +65,11 @@ vc
 =
 getAccessible
 (
+content
+.
 document
+Ci
+.
 nsIAccessibleDocument
 )
 .
@@ -186,7 +190,11 @@ vc
 =
 getAccessible
 (
+content
+.
 document
+Ci
+.
 nsIAccessibleDocument
 )
 .
@@ -196,6 +204,8 @@ vc
 .
 moveNextByText
 (
+Ci
+.
 nsIAccessiblePivot
 .
 CHAR_BOUNDARY
@@ -300,7 +310,11 @@ vc
 =
 getAccessible
 (
+content
+.
 document
+Ci
+.
 nsIAccessibleDocument
 )
 .

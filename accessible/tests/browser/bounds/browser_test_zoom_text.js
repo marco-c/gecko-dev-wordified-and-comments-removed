@@ -188,6 +188,8 @@ browser
 {
 zoomDocument
 (
+content
+.
 document
 2
 .
@@ -220,6 +222,8 @@ browser
 {
 zoomDocument
 (
+content
+.
 document
 1
 .

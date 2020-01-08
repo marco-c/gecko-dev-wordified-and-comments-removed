@@ -243,7 +243,7 @@ a11yConsumersChangedPromise
 loadFrameScripts
 (
 browser
-let
+var
 accService
 =
 Components

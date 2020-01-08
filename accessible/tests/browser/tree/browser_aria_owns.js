@@ -99,6 +99,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
@@ -203,6 +205,8 @@ function
 let
 container
 =
+content
+.
 document
 .
 getElementById
@@ -229,6 +233,8 @@ a
 let
 aa
 =
+content
+.
 document
 .
 createElement
@@ -278,6 +284,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
@@ -386,6 +394,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
@@ -502,6 +512,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
@@ -1015,6 +1027,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
@@ -1231,6 +1245,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
@@ -1288,6 +1304,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
@@ -1416,6 +1434,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 documentElement
@@ -1428,6 +1448,8 @@ display
 none
 "
 ;
+content
+.
 document
 .
 documentElement
@@ -1436,6 +1458,8 @@ getBoundingClientRect
 (
 )
 ;
+content
+.
 document
 .
 body
@@ -1453,6 +1477,8 @@ a
 "
 )
 ;
+content
+.
 document
 .
 documentElement
@@ -1571,6 +1597,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
@@ -1620,6 +1648,8 @@ function
 let
 span
 =
+content
+.
 document
 .
 createElement
@@ -1629,6 +1659,8 @@ span
 "
 )
 ;
+content
+.
 document
 .
 getElementById
@@ -1646,6 +1678,8 @@ span
 let
 b
 =
+content
+.
 document
 .
 createElement
@@ -1663,6 +1697,8 @@ id
 b
 "
 ;
+content
+.
 document
 .
 getElementById
@@ -1705,6 +1741,8 @@ function
 (
 )
 {
+content
+.
 document
 .
 getElementById
