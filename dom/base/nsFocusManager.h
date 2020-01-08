@@ -162,6 +162,15 @@ Shutdown
 (
 )
 ;
+void
+PrefChanged
+(
+const
+char
+*
+aPref
+)
+;
 static
 nsFocusManager
 *
