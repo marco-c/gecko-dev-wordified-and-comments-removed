@@ -17142,7 +17142,7 @@ void
 HTMLMediaElement
 :
 :
-ReportAutoplayTelemetry
+UpdateHadAudibleAutoplayState
 (
 )
 const
@@ -17475,7 +17475,7 @@ forget
 )
 ;
 }
-ReportAutoplayTelemetry
+UpdateHadAudibleAutoplayState
 (
 )
 ;
@@ -26753,7 +26753,7 @@ CanActivateAutoplay
 return
 ;
 }
-ReportAutoplayTelemetry
+UpdateHadAudibleAutoplayState
 (
 )
 ;
