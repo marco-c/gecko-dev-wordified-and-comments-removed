@@ -22,6 +22,7 @@ h
 "
 class
 nsSelectsAreaFrame
+final
 :
 public
 nsBlockFrame

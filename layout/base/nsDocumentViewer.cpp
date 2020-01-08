@@ -764,6 +764,7 @@ AutoPrintEventDispatcher
 }
 class
 nsDocViewerSelectionListener
+final
 :
 public
 nsISelectionListener
@@ -824,6 +825,7 @@ mSelectionWasCollapsed
 ;
 class
 nsDocViewerFocusListener
+final
 :
 public
 nsIDOMEventListener

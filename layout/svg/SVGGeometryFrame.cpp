@@ -229,6 +229,7 @@ nsFrame
 )
 class
 nsDisplaySVGGeometry
+final
 :
 public
 nsDisplayItem

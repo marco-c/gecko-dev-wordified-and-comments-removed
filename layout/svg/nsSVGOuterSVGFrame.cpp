@@ -2325,6 +2325,7 @@ GetPosition
 }
 class
 nsDisplayOuterSVG
+final
 :
 public
 nsDisplayItem

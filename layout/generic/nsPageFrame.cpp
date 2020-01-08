@@ -2316,6 +2316,7 @@ scale
 }
 class
 nsDisplayHeaderFooter
+final
 :
 public
 nsDisplayItem

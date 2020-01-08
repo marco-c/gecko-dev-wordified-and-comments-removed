@@ -921,6 +921,7 @@ float
 )
 class
 GlyphObserver
+final
 :
 public
 gfxFont

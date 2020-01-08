@@ -73,6 +73,7 @@ factory
 "
 class
 nsContentDLF
+final
 :
 public
 nsIDocumentLoaderFactory

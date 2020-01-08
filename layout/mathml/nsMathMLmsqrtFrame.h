@@ -22,6 +22,7 @@ h
 "
 class
 nsMathMLmsqrtFrame
+final
 :
 public
 nsMathMLmencloseFrame

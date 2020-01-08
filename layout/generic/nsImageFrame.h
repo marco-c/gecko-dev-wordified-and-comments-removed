@@ -136,6 +136,7 @@ LayerManager
 }
 class
 nsImageListener
+final
 :
 public
 imgINotificationObserver
@@ -1483,6 +1484,7 @@ nsDisplayImage
 ;
 class
 nsDisplayImage
+final
 :
 public
 nsDisplayImageContainer

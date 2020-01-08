@@ -46,6 +46,7 @@ layout
 {
 class
 PRFileDescStream
+final
 :
 public
 mozilla
@@ -574,6 +575,7 @@ mGood
 ;
 class
 DrawEventRecorderPRFileDesc
+final
 :
 public
 gfx

@@ -50,6 +50,7 @@ dom
 ;
 class
 SVGViewFrame
+final
 :
 public
 nsFrame

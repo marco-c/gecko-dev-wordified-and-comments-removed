@@ -7782,6 +7782,7 @@ leftBearing
 }
 class
 nsDisplayMathMLSelectionRect
+final
 :
 public
 nsDisplayItem
@@ -7950,6 +7951,7 @@ bgColor
 }
 class
 nsDisplayMathMLCharForeground
+final
 :
 public
 nsDisplayItem
@@ -8219,6 +8221,7 @@ ifdef
 DEBUG
 class
 nsDisplayMathMLCharDebug
+final
 :
 public
 nsDisplayItem

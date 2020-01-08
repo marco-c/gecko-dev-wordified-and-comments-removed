@@ -503,6 +503,7 @@ mTooltipContent
 ;
 class
 nsDisplayCanvasBackgroundColor
+final
 :
 public
 nsDisplaySolidColorBase

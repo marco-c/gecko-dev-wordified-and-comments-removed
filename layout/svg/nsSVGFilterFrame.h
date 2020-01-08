@@ -72,6 +72,7 @@ SVGFilterElement
 }
 class
 nsSVGFilterFrame
+final
 :
 public
 nsSVGContainerFrame

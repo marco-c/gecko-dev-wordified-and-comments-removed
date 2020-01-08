@@ -22,6 +22,7 @@ h
 "
 class
 nsMathMLsemanticsFrame
+final
 :
 public
 nsMathMLSelectedFrame

@@ -27,6 +27,7 @@ mozilla
 {
 class
 ScrollAnimationMSDPhysics
+final
 :
 public
 ScrollAnimationPhysics

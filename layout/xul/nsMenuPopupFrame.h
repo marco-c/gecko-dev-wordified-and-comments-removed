@@ -299,6 +299,7 @@ nsMenuPopupFrame
 ;
 class
 nsXULPopupShownEvent
+final
 :
 public
 mozilla

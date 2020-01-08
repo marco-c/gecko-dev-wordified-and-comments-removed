@@ -37,6 +37,7 @@ mIntervalRatio
 ;
 class
 ScrollAnimationBezierPhysics
+final
 :
 public
 ScrollAnimationPhysics

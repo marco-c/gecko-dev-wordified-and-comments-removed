@@ -8021,6 +8021,7 @@ IsClusterAndLigatureGroupStart
 }
 class
 SVGCharClipDisplayItem
+final
 :
 public
 nsCharClipDisplayItem
@@ -8063,6 +8064,7 @@ TYPE_SVG_CHAR_CLIP
 ;
 class
 SVGTextDrawPathCallbacks
+final
 :
 public
 nsTextFrame
@@ -9241,6 +9243,7 @@ strokeOptions
 }
 class
 nsDisplaySVGText
+final
 :
 public
 nsDisplayItem

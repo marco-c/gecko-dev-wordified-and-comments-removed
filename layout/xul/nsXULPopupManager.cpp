@@ -4972,6 +4972,7 @@ aIsCancel
 }
 class
 TransitionEnder
+final
 :
 public
 nsIDOMEventListener

@@ -1051,6 +1051,7 @@ true
 }
 class
 nsDisplayButtonBorder
+final
 :
 public
 nsDisplayItem
@@ -1660,6 +1661,7 @@ ToReferenceFrame
 }
 class
 nsDisplayButtonForeground
+final
 :
 public
 nsDisplayItem

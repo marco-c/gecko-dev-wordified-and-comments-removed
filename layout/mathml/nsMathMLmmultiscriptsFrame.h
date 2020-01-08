@@ -22,6 +22,7 @@ h
 "
 class
 nsMathMLmmultiscriptsFrame
+final
 :
 public
 nsMathMLContainerFrame

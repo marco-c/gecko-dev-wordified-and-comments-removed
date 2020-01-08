@@ -67,6 +67,7 @@ DataTransfer
 }
 class
 nsFileControlFrame
+final
 :
 public
 nsBlockFrame

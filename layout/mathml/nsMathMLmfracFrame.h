@@ -22,6 +22,7 @@ h
 "
 class
 nsMathMLmfracFrame
+final
 :
 public
 nsMathMLContainerFrame

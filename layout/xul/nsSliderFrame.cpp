@@ -4241,6 +4241,7 @@ NS_OK
 }
 class
 AsyncScrollbarDragStarter
+final
 :
 public
 nsAPostRefreshObserver

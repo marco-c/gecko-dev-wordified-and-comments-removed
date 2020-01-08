@@ -168,6 +168,7 @@ UnSet
 ;
 class
 nsHTMLFramesetFrame
+final
 :
 public
 nsContainerFrame

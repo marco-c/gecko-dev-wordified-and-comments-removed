@@ -1183,6 +1183,7 @@ SHOW_BOUNDING_BOX
 )
 class
 nsDisplayMathMLBoundingMetrics
+final
 :
 public
 nsDisplayItem
@@ -1457,6 +1458,7 @@ h
 endif
 class
 nsDisplayMathMLBar
+final
 :
 public
 nsDisplayItem

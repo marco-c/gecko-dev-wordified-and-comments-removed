@@ -732,6 +732,7 @@ RowChildFrameIterator
 ;
 class
 nsMathMLmathBlockFrame
+final
 :
 public
 nsBlockFrame
@@ -1084,6 +1085,7 @@ nsMathMLmathBlockFrame
 ;
 class
 nsMathMLmathInlineFrame
+final
 :
 public
 nsInlineFrame

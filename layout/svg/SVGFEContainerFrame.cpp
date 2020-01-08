@@ -46,6 +46,7 @@ mozilla
 ;
 class
 SVGFEContainerFrame
+final
 :
 public
 nsContainerFrame

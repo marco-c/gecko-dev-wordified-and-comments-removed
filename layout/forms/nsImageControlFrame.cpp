@@ -69,6 +69,7 @@ mozilla
 ;
 class
 nsImageControlFrame
+final
 :
 public
 nsImageFrame

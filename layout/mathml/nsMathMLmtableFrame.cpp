@@ -1302,6 +1302,7 @@ overflow
 }
 class
 nsDisplaymtdBorder
+final
 :
 public
 nsDisplayBorder

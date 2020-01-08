@@ -719,6 +719,7 @@ nsMathMLmtrFrame
 ;
 class
 nsMathMLmtdFrame
+final
 :
 public
 nsTableCellFrame

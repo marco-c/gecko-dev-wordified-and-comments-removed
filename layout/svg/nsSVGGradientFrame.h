@@ -361,6 +361,7 @@ mNoHRefURI
 ;
 class
 nsSVGLinearGradientFrame
+final
 :
 public
 nsSVGGradientFrame
@@ -520,6 +521,7 @@ override
 ;
 class
 nsSVGRadialGradientFrame
+final
 :
 public
 nsSVGGradientFrame

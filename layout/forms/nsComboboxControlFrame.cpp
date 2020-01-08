@@ -411,6 +411,7 @@ define
 FIX_FOR_BUG_53259
 class
 nsComboButtonListener
+final
 :
 public
 nsIDOMEventListener
@@ -5469,6 +5470,7 @@ mDisplayContent
 }
 class
 nsComboboxDisplayFrame
+final
 :
 public
 nsBlockFrame

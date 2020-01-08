@@ -36,6 +36,7 @@ h
 "
 class
 nsMathMLmactionFrame
+final
 :
 public
 nsMathMLSelectedFrame

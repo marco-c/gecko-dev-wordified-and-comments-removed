@@ -102,6 +102,7 @@ layout
 {
 class
 RenderFrameParent
+final
 :
 public
 PRenderFrameParent
@@ -471,6 +472,7 @@ mInitted
 }
 class
 nsDisplayRemote
+final
 :
 public
 nsDisplayItem

@@ -29,6 +29,7 @@ h
 "
 class
 nsMathMLmoFrame
+final
 :
 public
 nsMathMLTokenFrame

@@ -68,6 +68,7 @@ mozilla
 ;
 class
 nsSVGAFrame
+final
 :
 public
 nsSVGDisplayContainerFrame
