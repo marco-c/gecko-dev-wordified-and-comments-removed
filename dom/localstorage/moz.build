@@ -129,6 +129,11 @@ ActorsParent
 .
 h
 '
+'
+SerializationHelpers
+.
+h
+'
 ]
 EXPORTS
 .
@@ -155,6 +160,11 @@ h
 '
 '
 LSObserver
+.
+h
+'
+'
+LSSnapshot
 .
 h
 '
