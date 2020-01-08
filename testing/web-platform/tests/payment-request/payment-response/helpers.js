@@ -150,6 +150,7 @@ const
 response
 }
 =
+await
 getPaymentRequestResponse
 (
 options
