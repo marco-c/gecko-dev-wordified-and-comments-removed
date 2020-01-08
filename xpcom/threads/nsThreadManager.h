@@ -84,10 +84,6 @@ UnregisterCurrentThread
 nsThread
 &
 aThread
-bool
-aIfExists
-=
-false
 )
 ;
 nsThread
@@ -194,15 +190,6 @@ nsINestedEventLoopCondition
 aCondition
 bool
 aCheckingShutdown
-)
-;
-static
-void
-ReleaseThread
-(
-void
-*
-aData
 )
 ;
 nsRefPtrHashtable
