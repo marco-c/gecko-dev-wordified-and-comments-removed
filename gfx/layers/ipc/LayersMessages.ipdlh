@@ -2833,6 +2833,17 @@ void_t
 ;
 }
 ;
+union
+OMTAValue
+{
+null_t
+;
+float
+;
+Matrix4x4
+;
+}
+;
 }
 /
 /
