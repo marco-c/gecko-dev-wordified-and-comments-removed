@@ -163,7 +163,7 @@ defineModuleGetter
 (
 this
 "
-MasterPassword
+OSKeyStore
 "
 "
 resource
@@ -172,7 +172,7 @@ resource
 /
 formautofill
 /
-MasterPassword
+OSKeyStore
 .
 jsm
 "
@@ -1535,9 +1535,9 @@ n
 ;
 this
 .
-_hasMasterPassword
+_hasOSKeyStore
 =
-MasterPassword
+OSKeyStore
 .
 isEnabled
 ;
@@ -1551,7 +1551,7 @@ if
 (
 this
 .
-_hasMasterPassword
+_hasOSKeyStore
 )
 {
 elements
@@ -1583,11 +1583,11 @@ creditCard
 !
 this
 .
-_hasMasterPassword
+_hasOSKeyStore
 |
 |
 await
-MasterPassword
+OSKeyStore
 .
 ensureLoggedIn
 (
@@ -1616,7 +1616,7 @@ number
 ]
 =
 await
-MasterPassword
+OSKeyStore
 .
 decrypt
 (
