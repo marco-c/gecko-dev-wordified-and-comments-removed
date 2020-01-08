@@ -1247,6 +1247,7 @@ w3c_pointer_events
 .
 enabled
 "
+NeedsCallerType
 ]
 readonly
 attribute
