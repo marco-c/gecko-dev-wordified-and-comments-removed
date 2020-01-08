@@ -969,7 +969,7 @@ node
 =
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarseparator
@@ -985,7 +985,7 @@ buttonNode
 =
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarbutton
@@ -1097,7 +1097,7 @@ panelViewNode
 =
 document
 .
-createXULElement
+createElement
 (
 "
 panelview
@@ -1136,7 +1136,7 @@ bodyNode
 =
 document
 .
-createXULElement
+createElement
 (
 "
 vbox
@@ -1356,7 +1356,7 @@ panelNode
 =
 document
 .
-createXULElement
+createElement
 (
 "
 panel
@@ -1495,7 +1495,7 @@ multiViewNode
 =
 document
 .
-createXULElement
+createElement
 (
 "
 panelmultiview
@@ -1551,7 +1551,7 @@ iframeNode
 =
 document
 .
-createXULElement
+createElement
 (
 "
 iframe
@@ -2219,7 +2219,7 @@ buttonNode
 =
 document
 .
-createXULElement
+createElement
 (
 "
 image
@@ -4410,7 +4410,7 @@ notReady
 =
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarbutton
@@ -4634,7 +4634,7 @@ name
 return
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarseparator
@@ -4647,7 +4647,7 @@ item
 =
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarbutton
@@ -5209,7 +5209,7 @@ button
 =
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarbutton
@@ -5826,7 +5826,7 @@ item
 =
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarbutton

@@ -713,7 +713,7 @@ win
 .
 document
 .
-createXULElement
+createElement
 (
 "
 toolbarbutton

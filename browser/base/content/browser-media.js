@@ -309,7 +309,7 @@ link
 =
 document
 .
-createXULElement
+createElement
 (
 "
 label

@@ -1315,7 +1315,7 @@ preview
 =
 document
 .
-createXULElement
+createElement
 (
 "
 button
@@ -1471,7 +1471,7 @@ previewInner
 =
 document
 .
-createXULElement
+createElement
 (
 "
 vbox
@@ -1530,7 +1530,7 @@ _canvas
 =
 document
 .
-createXULElement
+createElement
 (
 "
 hbox
@@ -1621,7 +1621,7 @@ faviconContainer
 =
 document
 .
-createXULElement
+createElement
 (
 "
 hbox
@@ -1660,7 +1660,7 @@ _favicon
 =
 document
 .
-createXULElement
+createElement
 (
 "
 image
@@ -1698,7 +1698,7 @@ _label
 =
 document
 .
-createXULElement
+createElement
 (
 "
 label

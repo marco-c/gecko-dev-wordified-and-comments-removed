@@ -1204,7 +1204,7 @@ pasteAndGo
 =
 document
 .
-createXULElement
+createElement
 (
 "
 menuitem
