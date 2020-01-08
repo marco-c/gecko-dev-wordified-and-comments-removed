@@ -160,6 +160,11 @@ GeckoViewTab
 jsm
 '
 '
+GeckoViewTelemetry
+.
+jsm
+'
+'
 GeckoViewTrackingProtection
 .
 jsm
