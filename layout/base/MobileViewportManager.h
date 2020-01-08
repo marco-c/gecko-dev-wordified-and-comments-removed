@@ -206,10 +206,7 @@ CSSSize
 aOldViewport
 )
 ;
-mozilla
-:
-:
-CSSToScreenScale
+void
 UpdateResolution
 (
 const
