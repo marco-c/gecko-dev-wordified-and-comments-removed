@@ -11797,6 +11797,13 @@ masm
 output
 )
 ;
+allocator
+.
+discardStack
+(
+masm
+)
+;
 AutoStubFrame
 stubFrame
 (
