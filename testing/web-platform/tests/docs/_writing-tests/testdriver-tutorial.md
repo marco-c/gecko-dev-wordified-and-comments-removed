@@ -343,7 +343,7 @@ Integer
 y
 -
 The
-x
+y
 coordinate
 of
 the
@@ -594,7 +594,7 @@ Integer
 height
 -
 The
-width
+height
 of
 the
 window
