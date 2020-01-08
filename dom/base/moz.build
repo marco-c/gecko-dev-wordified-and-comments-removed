@@ -1547,6 +1547,11 @@ nsContentSink
 cpp
 '
 '
+nsContentTypeParser
+.
+cpp
+'
+'
 nsCopySupport
 .
 cpp
