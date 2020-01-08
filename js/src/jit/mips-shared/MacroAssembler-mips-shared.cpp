@@ -7464,7 +7464,7 @@ offset
 )
 ;
 }
-void
+CodeOffset
 MacroAssembler
 :
 :
@@ -7483,6 +7483,7 @@ target
 CallReg
 )
 ;
+return
 call
 (
 CallReg

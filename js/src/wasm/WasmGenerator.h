@@ -179,6 +179,9 @@ jit
 CodeLabelVector
 codeLabels
 ;
+StackMaps
+stackMaps
+;
 MOZ_MUST_USE
 bool
 swap
@@ -239,6 +242,12 @@ clear
 )
 ;
 codeLabels
+.
+clear
+(
+)
+;
+stackMaps
 .
 clear
 (
@@ -308,6 +317,13 @@ empty
 &
 &
 codeLabels
+.
+empty
+(
+)
+&
+&
+stackMaps
 .
 empty
 (
@@ -630,7 +646,6 @@ codeRange
 bool
 linkCompiledCode
 (
-const
 CompiledCode
 &
 code

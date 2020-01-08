@@ -1618,6 +1618,9 @@ funcImports
 FuncExportVector
 funcExports
 ;
+StackMaps
+stackMaps
+;
 Uint32Vector
 debugTrapFarJumpOffsets
 ;
@@ -3022,6 +3025,17 @@ lookupFuncRange
 void
 *
 pc
+)
+const
+;
+const
+StackMap
+*
+lookupStackMap
+(
+uint8_t
+*
+nextPC
 )
 const
 ;

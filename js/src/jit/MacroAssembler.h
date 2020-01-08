@@ -1428,7 +1428,7 @@ imm
 )
 PER_SHARED_ARCH
 ;
-void
+CodeOffset
 call
 (
 wasm
@@ -1440,7 +1440,7 @@ imm
 PER_SHARED_ARCH
 ;
 inline
-void
+CodeOffset
 call
 (
 const
@@ -1475,7 +1475,7 @@ code
 )
 ;
 inline
-void
+CodeOffset
 call
 (
 const
@@ -1491,7 +1491,7 @@ reg
 )
 ;
 inline
-void
+CodeOffset
 call
 (
 const
@@ -1757,7 +1757,7 @@ MoveOp
 GENERAL
 )
 ;
-void
+CodeOffset
 callWithABI
 (
 wasm
@@ -8398,7 +8398,7 @@ x86_shared
 mips_shared
 )
 ;
-void
+CodeOffset
 wasmCallImport
 (
 const
@@ -8417,7 +8417,7 @@ CalleeDesc
 callee
 )
 ;
-void
+CodeOffset
 wasmCallIndirect
 (
 const
@@ -8438,7 +8438,7 @@ bool
 needsBoundsCheck
 )
 ;
-void
+CodeOffset
 wasmCallBuiltinInstanceMethod
 (
 const
