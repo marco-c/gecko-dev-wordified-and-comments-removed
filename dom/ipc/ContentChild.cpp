@@ -8037,6 +8037,17 @@ result
 kCGErrorSuccess
 )
 ;
+#
+if
+!
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+Unused
+<
+<
+result
+;
+#
+endif
 }
 nsAutoCString
 appPath
