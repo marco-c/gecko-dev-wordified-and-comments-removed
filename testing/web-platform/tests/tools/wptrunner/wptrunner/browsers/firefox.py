@@ -985,11 +985,11 @@ set
     
 init_timeout
 =
-60
+70
     
 shutdown_timeout
 =
-60
+70
     
 def
 __init__
