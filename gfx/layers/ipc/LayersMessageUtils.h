@@ -238,6 +238,8 @@ LayersId
 ;
 template
 <
+typename
+T
 >
 struct
 ParamTraits
@@ -248,7 +250,10 @@ mozilla
 layers
 :
 :
-TransactionId
+BaseTransactionId
+<
+T
+>
 >
 :
 public
@@ -260,7 +265,10 @@ mozilla
 layers
 :
 :
-TransactionId
+BaseTransactionId
+<
+T
+>
 >
 {
 }
