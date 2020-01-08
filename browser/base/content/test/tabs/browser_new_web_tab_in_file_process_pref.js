@@ -371,6 +371,8 @@ BrowserTestUtils
 browserLoaded
 (
 httpBrowser
+false
+TEST_HTTP
 )
 ;
 document
@@ -419,6 +421,12 @@ BrowserTestUtils
 browserLoaded
 (
 httpBrowser
+false
+TEST_HTTP
++
+"
+foo
+"
 )
 ;
 httpBrowser
@@ -521,6 +529,12 @@ BrowserTestUtils
 browserLoaded
 (
 httpBrowser
+false
+TEST_HTTP
++
+"
+foo
+"
 )
 ;
 httpBrowser
@@ -603,6 +617,8 @@ BrowserTestUtils
 browserLoaded
 (
 httpBrowser
+false
+uriString
 )
 ;
 httpBrowser
@@ -647,6 +663,8 @@ BrowserTestUtils
 browserLoaded
 (
 httpBrowser
+false
+TEST_HTTP
 )
 ;
 await
@@ -701,6 +719,8 @@ BrowserTestUtils
 browserLoaded
 (
 httpBrowser
+false
+TEST_CROSS_ORIGIN
 )
 ;
 httpBrowser
