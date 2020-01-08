@@ -251,6 +251,17 @@ extern
 void
 CheckDebuggeeThing
 (
+LazyScript
+*
+script
+bool
+invisibleOk
+)
+;
+extern
+void
+CheckDebuggeeThing
+(
 JSObject
 *
 obj
@@ -1183,6 +1194,8 @@ mozilla
 Variant
 <
 JSScript
+*
+LazyScript
 *
 WasmInstanceObject
 *
