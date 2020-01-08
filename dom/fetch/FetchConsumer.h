@@ -286,6 +286,9 @@ mBlobStorageType
 nsCString
 mBodyMimeType
 ;
+nsCString
+mBodyBlobURISpec
+;
 nsString
 mBodyLocalPath
 ;
