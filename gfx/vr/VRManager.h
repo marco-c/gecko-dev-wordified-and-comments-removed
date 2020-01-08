@@ -104,10 +104,6 @@ gfx
 :
 VRManager
 )
-friend
-class
-VRManagerParent
-;
 public
 :
 static
