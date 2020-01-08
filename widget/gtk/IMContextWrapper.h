@@ -93,6 +93,16 @@ mozilla
 namespace
 widget
 {
+enum
+class
+KeyHandlingState
+{
+eNotHandled
+eHandled
+eNotHandledButEventDispatched
+eNotHandledButEventConsumed
+}
+;
 class
 IMContextWrapper
 final
@@ -228,7 +238,7 @@ OnThemeChanged
 (
 )
 ;
-bool
+KeyHandlingState
 OnKeyEvent
 (
 nsWindow
@@ -1260,6 +1270,9 @@ mFallbackToKeyEvent
 ;
 bool
 mKeyboardEventWasDispatched
+;
+bool
+mKeyboardEventWasConsumed
 ;
 bool
 mIsDeletingSurrounding
