@@ -8442,10 +8442,6 @@ if
 (
 !
 shouldFreeze
-&
-&
-!
-aLineInfo
 )
 {
 if
