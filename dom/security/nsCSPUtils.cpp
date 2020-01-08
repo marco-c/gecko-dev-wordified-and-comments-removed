@@ -6055,6 +6055,10 @@ mReportOnly
 (
 false
 )
+mDeliveredViaMetaTag
+(
+false
+)
 {
 CSPUTILSLOG
 (
