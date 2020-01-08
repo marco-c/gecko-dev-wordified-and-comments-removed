@@ -1,4 +1,0 @@
-.
-globl
-_asfun
-ret

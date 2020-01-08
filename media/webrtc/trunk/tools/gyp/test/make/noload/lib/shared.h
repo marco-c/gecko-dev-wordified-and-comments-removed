@@ -1,7 +1,0 @@
-extern
-const
-char
-kSharedStr
-[
-]
-;

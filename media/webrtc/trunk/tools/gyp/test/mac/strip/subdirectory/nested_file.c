@@ -1,6 +1,0 @@
-void
-nested_f
-(
-)
-{
-}

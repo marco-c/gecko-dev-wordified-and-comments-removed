@@ -1,6 +1,0 @@
-void
-objcpp_fun
-(
-)
-{
-}
