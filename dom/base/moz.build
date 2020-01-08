@@ -730,7 +730,7 @@ RangeBoundary
 h
 '
 '
-SelectionChangeListener
+SelectionChangeEventDispatcher
 .
 h
 '
@@ -1897,7 +1897,7 @@ Selection
 cpp
 '
 '
-SelectionChangeListener
+SelectionChangeEventDispatcher
 .
 cpp
 '

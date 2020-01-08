@@ -43,7 +43,7 @@ include
 "
 mozilla
 /
-SelectionChangeListener
+SelectionChangeEventDispatcher
 .
 h
 "
@@ -344,13 +344,13 @@ EnableSelectionChangeEvent
 if
 (
 !
-mSelectionChangeListener
+mSelectionChangeEventDispatcher
 )
 {
-mSelectionChangeListener
+mSelectionChangeEventDispatcher
 =
 new
-SelectionChangeListener
+SelectionChangeEventDispatcher
 (
 )
 ;
@@ -2250,9 +2250,9 @@ mAccessibleCaretEventHub
 ;
 RefPtr
 <
-SelectionChangeListener
+SelectionChangeEventDispatcher
 >
-mSelectionChangeListener
+mSelectionChangeEventDispatcher
 ;
 RefPtr
 <
