@@ -1996,6 +1996,16 @@ return
 runtime_
 ;
 }
+gcstats
+:
+:
+Statistics
+&
+stats
+(
+)
+const
+;
 void
 *
 allocate
