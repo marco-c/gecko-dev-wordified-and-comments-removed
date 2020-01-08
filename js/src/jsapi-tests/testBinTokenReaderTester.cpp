@@ -81,6 +81,15 @@ include
 "
 js
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+js
+/
 Vector
 .
 h
@@ -784,6 +793,9 @@ virtual
 bool
 reportExtraWarningErrorNumberVA
 (
+js
+:
+:
 UniquePtr
 <
 JSErrorNotes
