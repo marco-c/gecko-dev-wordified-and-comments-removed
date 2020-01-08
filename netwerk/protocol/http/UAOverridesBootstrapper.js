@@ -100,7 +100,6 @@ net
 -
 teardown
 "
-false
 )
 ;
 UserAgentOverrides

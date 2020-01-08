@@ -474,9 +474,9 @@ searchHost
 .
 indexOf
 (
-'
+"
 .
-'
+"
 )
 ;
 if
