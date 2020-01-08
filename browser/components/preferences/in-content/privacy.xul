@@ -4741,6 +4741,13 @@ hidden
 "
 true
 "
+data
+-
+subcategory
+=
+"
+permissions
+"
 >
 <
 caption
@@ -4778,13 +4785,6 @@ caption
 >
 <
 grid
-data
--
-subcategory
-=
-"
-permissions
-"
 >
 <
 columns
