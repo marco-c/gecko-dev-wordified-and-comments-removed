@@ -672,7 +672,7 @@ true
 boolean
 depth
 =
-false
+true
 ;
 boolean
 stencil
