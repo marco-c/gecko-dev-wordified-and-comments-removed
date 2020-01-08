@@ -20216,7 +20216,7 @@ geckoProfiler
 (
 )
 .
-installed
+infraInstalled
 (
 )
 )

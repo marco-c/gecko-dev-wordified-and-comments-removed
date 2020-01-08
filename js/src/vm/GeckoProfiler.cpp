@@ -389,7 +389,7 @@ geckoProfiler
 (
 )
 .
-installed
+infraInstalled
 (
 )
 )

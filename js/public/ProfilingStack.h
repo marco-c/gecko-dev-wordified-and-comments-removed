@@ -1409,7 +1409,7 @@ stackPointer
 {
 MOZ_ASSERT
 (
-installed
+infraInstalled
 (
 )
 )
@@ -1445,7 +1445,7 @@ profilingStack_
 ;
 }
 bool
-installed
+infraInstalled
 (
 )
 {
