@@ -705,10 +705,6 @@ LDFLAGS
 [
 '
 -
-Wl
--
-no_compact_unwind
--
 lresolv
 '
 ]
