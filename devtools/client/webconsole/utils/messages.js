@@ -1276,6 +1276,11 @@ private
 networkEvent
 .
 private
+securityState
+:
+networkEvent
+.
+securityState
 }
 )
 ;
