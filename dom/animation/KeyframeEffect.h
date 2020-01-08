@@ -798,10 +798,13 @@ const
 nsCSSPropertyIDSet
 GetPropertiesForCompositor
 (
-const
 EffectSet
 &
 aEffects
+const
+nsIFrame
+*
+aFrame
 )
 const
 ;
