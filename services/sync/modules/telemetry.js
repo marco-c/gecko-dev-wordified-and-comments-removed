@@ -3614,13 +3614,6 @@ hist
 .
 histId
 ;
-console
-.
-log
-(
-id
-)
-;
 let
 histogram
 =
