@@ -4666,8 +4666,7 @@ if
 webrender
 &
 &
-!
-winWidget
+gtkWidget
 )
 random
 -
