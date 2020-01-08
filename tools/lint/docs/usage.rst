@@ -434,12 +434,7 @@ lint
 =
 python
 :
-/
-path
-/
-to
-/
-gecko
+.
 /
 tools
 /
@@ -480,12 +475,7 @@ lint
 =
 python
 :
-/
-path
-/
-to
-/
-gecko
+.
 /
 tools
 /
