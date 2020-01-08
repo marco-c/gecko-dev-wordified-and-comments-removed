@@ -125,11 +125,6 @@ GeckoViewContent
 jsm
 '
 '
-GeckoViewMedia
-.
-jsm
-'
-'
 GeckoViewModule
 .
 jsm
