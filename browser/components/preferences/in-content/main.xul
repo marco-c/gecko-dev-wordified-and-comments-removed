@@ -5654,15 +5654,6 @@ id
 "
 updateRadioGroup
 "
-preference
-=
-"
-app
-.
-update
-.
-auto
-"
 >
 <
 radio
@@ -5693,6 +5684,11 @@ auto
 >
 <
 radio
+id
+=
+"
+manualDesktop
+"
 value
 =
 "
