@@ -1046,6 +1046,9 @@ AttemptAsyncScriptCompile
 ScriptLoadRequest
 *
 aRequest
+bool
+*
+aCouldCompileOut
 )
 ;
 nsresult
