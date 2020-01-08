@@ -871,6 +871,15 @@ StartShutdown
 (
 )
 ;
+void
+PrefChanged
+(
+const
+char
+*
+aPref
+)
+;
 static
 void
 MaybeCreateSpoofingKeyCodes
