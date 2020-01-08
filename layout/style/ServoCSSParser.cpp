@@ -235,13 +235,13 @@ SharedFontList
 >
 &
 aList
-nsCSSValue
+StyleComputedFontStyleDescriptor
 &
 aStyle
-nsCSSValue
+float
 &
 aStretch
-nsCSSValue
+float
 &
 aWeight
 )

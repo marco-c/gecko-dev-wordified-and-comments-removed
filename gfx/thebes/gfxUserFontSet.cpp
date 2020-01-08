@@ -538,7 +538,7 @@ aLanguageOverride
 gfxCharacterMap
 *
 aUnicodeRanges
-uint8_t
+StyleFontDisplay
 aFontDisplay
 RangeFlags
 aRangeFlags
@@ -687,7 +687,7 @@ aLanguageOverride
 gfxCharacterMap
 *
 aUnicodeRanges
-uint8_t
+StyleFontDisplay
 aFontDisplay
 RangeFlags
 aRangeFlags
@@ -4390,7 +4390,7 @@ aLanguageOverride
 gfxCharacterMap
 *
 aUnicodeRanges
-uint8_t
+StyleFontDisplay
 aFontDisplay
 RangeFlags
 aRangeFlags
@@ -4514,7 +4514,7 @@ aLanguageOverride
 gfxCharacterMap
 *
 aUnicodeRanges
-uint8_t
+StyleFontDisplay
 aFontDisplay
 RangeFlags
 aRangeFlags
@@ -4782,11 +4782,17 @@ stretchString
 get
 (
 )
+static_cast
+<
+int
+>
+(
 aUserFontEntry
 -
 >
 GetFontDisplay
 (
+)
 )
 )
 )
