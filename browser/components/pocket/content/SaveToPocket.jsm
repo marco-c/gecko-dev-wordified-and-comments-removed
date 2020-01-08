@@ -3294,12 +3294,6 @@ enabled
 prefObserver
 )
 ;
-PocketOverlay
-.
-shutdown
-(
-)
-;
 }
 }
 ;
