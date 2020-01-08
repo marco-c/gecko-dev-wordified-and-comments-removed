@@ -324,15 +324,7 @@ openvr
 /
 gfx
 /
-webrender
-/
-gfx
-/
-webrender_api
-/
-gfx
-/
-wrench
+wr
 /
 gfx
 /
