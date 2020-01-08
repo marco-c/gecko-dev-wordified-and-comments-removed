@@ -11283,10 +11283,6 @@ makesGCCalls
 (
 )
 outerScript
-ICStubEngine
-:
-:
-Baseline
 )
 ;
 void

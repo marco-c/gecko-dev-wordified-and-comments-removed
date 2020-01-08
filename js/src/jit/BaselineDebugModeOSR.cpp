@@ -3509,13 +3509,6 @@ makesGCCalls
 entry
 .
 script
-ICStubCompiler
-:
-:
-Engine
-:
-:
-Baseline
 )
 ;
 switch
