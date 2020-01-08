@@ -80,7 +80,7 @@ sources
 tree
 '
 ]
-DevToolsModules
+DebuggerModules
 (
 '
 assert

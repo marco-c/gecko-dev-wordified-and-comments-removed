@@ -75,7 +75,7 @@ mapScopes
 scopes
 '
 ]
-DevToolsModules
+DebuggerModules
 (
 '
 index

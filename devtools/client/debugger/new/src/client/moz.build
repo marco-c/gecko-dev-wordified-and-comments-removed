@@ -69,7 +69,7 @@ DIRS
 firefox
 '
 ]
-DevToolsModules
+DebuggerModules
 (
 '
 firefox

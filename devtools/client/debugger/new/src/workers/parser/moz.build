@@ -69,7 +69,7 @@ DIRS
 getScopes
 '
 ]
-DevToolsModules
+DebuggerModules
 (
 '
 index

@@ -78,7 +78,7 @@ SecondaryPanes
 shared
 '
 ]
-DevToolsModules
+DebuggerModules
 (
 '
 A11yIntention

@@ -69,7 +69,7 @@ DIRS
 Preview
 '
 ]
-DevToolsModules
+DebuggerModules
 (
 '
 Breakpoint
