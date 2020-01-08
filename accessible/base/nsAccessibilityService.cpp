@@ -1329,7 +1329,7 @@ eIgnoreCase
 {
 return
 new
-HTMLCheckboxAccessible
+CheckboxAccessible
 (
 aElement
 aContext
@@ -7966,7 +7966,7 @@ eHTMLCheckboxType
 newAcc
 =
 new
-HTMLCheckboxAccessible
+CheckboxAccessible
 (
 aContent
 document

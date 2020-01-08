@@ -11,7 +11,7 @@ XULButtonAccessible
 XULMAP_TYPE
 (
 checkbox
-XULCheckboxAccessible
+CheckboxAccessible
 )
 XULMAP_TYPE
 (
