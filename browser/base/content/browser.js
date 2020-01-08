@@ -2313,6 +2313,11 @@ nsILoadContext
 .
 useRemoteTabs
 ;
+var
+gBrowserAllowScriptsToCloseInitialTabs
+=
+false
+;
 if
 (
 AppConstants

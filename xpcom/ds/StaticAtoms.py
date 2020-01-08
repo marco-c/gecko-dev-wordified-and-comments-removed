@@ -602,6 +602,16 @@ scripts
 Atom
 (
 "
+allowscriptstoclose
+"
+"
+allowscriptstoclose
+"
+)
+    
+Atom
+(
+"
 allowtopnavigation
 "
 "
