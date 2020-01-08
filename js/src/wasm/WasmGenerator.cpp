@@ -3447,8 +3447,6 @@ task
 env
 .
 tier
-(
-)
 )
 {
 case

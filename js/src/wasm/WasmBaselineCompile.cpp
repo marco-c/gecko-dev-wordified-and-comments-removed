@@ -15141,8 +15141,6 @@ id
 env_
 .
 mode
-(
-)
 =
 =
 CompileMode
@@ -52904,8 +52902,6 @@ MOZ_ASSERT
 env
 .
 tier
-(
-)
 =
 =
 Tier
