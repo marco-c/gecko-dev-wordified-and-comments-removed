@@ -13319,9 +13319,6 @@ IsRecordingOrReplaying
 )
 )
 {
-mRemoteFrame
--
->
 SendNotifyCompositorTransaction
 (
 )
