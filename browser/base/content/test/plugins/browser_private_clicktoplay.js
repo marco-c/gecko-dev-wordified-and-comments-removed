@@ -208,17 +208,6 @@ BrowserTestUtils
 browserLoaded
 (
 gPrivateBrowser
-false
-url
-)
-;
-info
-(
-"
-loaded
-"
-+
-url
 )
 ;
 }

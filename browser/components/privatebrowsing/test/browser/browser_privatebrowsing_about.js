@@ -82,12 +82,6 @@ BrowserTestUtils
 browserLoaded
 (
 tab
-false
-"
-about
-:
-privatebrowsing
-"
 )
 ;
 return
