@@ -759,6 +759,8 @@ nullptr
 char
 *
 clipboardData
+=
+nullptr
 ;
 g_io_channel_set_encoding
 (
@@ -1797,6 +1799,14 @@ mClipboardOffer
 =
 nullptr
 ;
+if
+(
+aWaylandDataOffer
+!
+=
+nullptr
+)
+{
 DataOffer
 *
 dataOffer
@@ -1822,6 +1832,7 @@ We
 '
 re
 missing
+stored
 clipboard
 data
 offer
@@ -1844,6 +1855,7 @@ mClipboardOffer
 =
 dataOffer
 ;
+}
 }
 }
 void
