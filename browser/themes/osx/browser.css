@@ -1573,6 +1573,14 @@ height
 }
 #
 urlbar
+:
+not
+(
+.
+hidden
+-
+focus
+)
 [
 focused
 =
