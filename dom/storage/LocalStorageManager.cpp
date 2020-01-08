@@ -496,7 +496,7 @@ NS_OK
 ;
 }
 }
-nsCString
+nsAutoCString
 LocalStorageManager
 :
 :
