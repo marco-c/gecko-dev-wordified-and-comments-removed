@@ -6103,6 +6103,7 @@ NS_STYLE_BORDER_STYLE_INSET
 ;
 class
 nsDisplayAltFeedback
+final
 :
 public
 nsDisplayItem
