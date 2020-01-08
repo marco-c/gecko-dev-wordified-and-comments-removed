@@ -556,6 +556,9 @@ class
 nsRange
 ;
 class
+nsSimpleContentList
+;
+class
 nsSMILAnimationController
 ;
 class

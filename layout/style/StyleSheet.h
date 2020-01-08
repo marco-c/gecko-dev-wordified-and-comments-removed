@@ -157,6 +157,12 @@ ServoCSSRuleList
 class
 ServoStyleSet
 ;
+enum
+class
+OriginFlags
+:
+uint8_t
+;
 typedef
 MozPromise
 <
@@ -494,6 +500,9 @@ GetCssRulesInternal
 (
 )
 ;
+mozilla
+:
+:
 OriginFlags
 GetOrigin
 (
