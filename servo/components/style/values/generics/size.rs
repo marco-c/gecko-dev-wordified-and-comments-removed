@@ -252,8 +252,6 @@ second
 =
 input
 .
-r
-#
 try
 (
 |
