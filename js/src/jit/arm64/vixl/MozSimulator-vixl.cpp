@@ -2613,9 +2613,9 @@ Prototype_GeneralGeneralGeneralInt64
 (
 int64_t
 arg0
-int32_t
+int64_t
 arg1
-int32_t
+int64_t
 arg2
 int64_t
 arg3
@@ -2630,7 +2630,7 @@ Prototype_GeneralGeneralInt64Int64
 (
 int64_t
 arg0
-int32_t
+int64_t
 arg1
 int64_t
 arg2
@@ -2656,7 +2656,7 @@ int64_t
 Prototype_Int_IntDouble
 )
 (
-int32_t
+int64_t
 arg0
 double
 arg1
@@ -2745,7 +2745,7 @@ double
 Prototype_Double_Int
 )
 (
-int32_t
+int64_t
 arg0
 )
 ;
