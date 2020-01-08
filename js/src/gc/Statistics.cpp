@@ -5623,6 +5623,9 @@ i
 ]
 )
 ;
+#
+ifndef
+XP_WIN
 MOZ_ASSERT
 (
 ok
@@ -5637,6 +5640,8 @@ bug
 "
 )
 ;
+#
+endif
 if
 (
 !
