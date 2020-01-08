@@ -925,12 +925,6 @@ endif
 #
 !
 GNU_CC
-EXTRA_DEPS
-+
-=
-(
-DEFFILE
-)
 endif
 #
 WINNT

@@ -6059,10 +6059,7 @@ WINNT
 :
 DEFFILE
 =
-SRCDIR
-+
 '
-/
 pdfium
 .
 def

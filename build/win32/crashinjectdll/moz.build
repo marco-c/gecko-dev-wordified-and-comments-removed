@@ -103,10 +103,7 @@ crashinjectdll
 )
 DEFFILE
 =
-SRCDIR
-+
 '
-/
 crashinjectdll
 .
 def
