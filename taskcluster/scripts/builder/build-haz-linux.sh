@@ -534,6 +534,7 @@ analysis
 .
 sh
 build_js_shell
+analysis_self_test
 #
 Artifacts
 folder
