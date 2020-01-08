@@ -88,3 +88,8 @@ SERVO_ARC_TYPE
 CounterStyleRule
 RawServoCounterStyleRule
 )
+SERVO_ARC_TYPE
+(
+CssUrlData
+RawServoCssUrlData
+)

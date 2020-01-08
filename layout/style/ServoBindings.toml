@@ -1695,9 +1695,6 @@ Runnable
 ServoAttrSnapshot
 "
 "
-ServoBundledURI
-"
-"
 ServoComputedData
 "
 "
@@ -3025,9 +3022,6 @@ gfx
 FontVariation
 "
 "
-ServoRawOffsetArc
-"
-"
 mozilla
 :
 :
@@ -3139,9 +3133,6 @@ RawServoSourceSizeList
 RefPtr
 "
 "
-RustString
-"
-"
 StyleUseCounters
 "
 "
@@ -3179,9 +3170,6 @@ PropertyValuePair
 "
 "
 SeenPtrs
-"
-"
-ServoBundledURI
 "
 "
 ServoElementSnapshot
@@ -3470,6 +3458,9 @@ SharedFontList
 "
 "
 RawServoAnimationValueMap
+"
+"
+RawServoCssUrlData
 "
 ]
 array
