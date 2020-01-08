@@ -1866,6 +1866,11 @@ event
 target
 .
 linkedBrowser
+|
+|
+event
+.
+target
 ;
 switch
 (
