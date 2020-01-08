@@ -63,6 +63,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
 <
 string
 .
