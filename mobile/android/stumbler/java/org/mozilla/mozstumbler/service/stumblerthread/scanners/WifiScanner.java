@@ -429,6 +429,10 @@ c
 mContext
 =
 c
+.
+getApplicationContext
+(
+)
 ;
 }
 private
