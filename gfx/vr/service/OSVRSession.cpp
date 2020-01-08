@@ -2455,8 +2455,9 @@ gfx
 VRLayer_Stereo_Immersive
 &
 aLayer
-MacIOSurface
-*
+const
+VRLayerTextureHandle
+&
 aTexture
 )
 {
