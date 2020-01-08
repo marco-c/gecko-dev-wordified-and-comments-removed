@@ -75,12 +75,12 @@ ActorChild
 {
 constructor
 (
-global
+dispatcher
 )
 {
 super
 (
-global
+dispatcher
 )
 ;
 this
@@ -88,12 +88,6 @@ this
 _inputElement
 =
 null
-;
-this
-.
-_global
-=
-global
 ;
 }
 close
@@ -128,7 +122,7 @@ addListeners
 {
 this
 .
-_global
+mm
 .
 addEventListener
 (
@@ -140,7 +134,7 @@ this
 ;
 this
 .
-_global
+mm
 .
 addEventListener
 (
@@ -152,7 +146,7 @@ this
 ;
 this
 .
-_global
+mm
 .
 addEventListener
 (
@@ -164,7 +158,7 @@ this
 ;
 this
 .
-_global
+mm
 .
 addMessageListener
 (
@@ -178,7 +172,7 @@ this
 ;
 this
 .
-_global
+mm
 .
 addMessageListener
 (
@@ -197,7 +191,7 @@ removeListeners
 {
 this
 .
-_global
+mm
 .
 removeEventListener
 (
@@ -209,7 +203,7 @@ this
 ;
 this
 .
-_global
+mm
 .
 removeEventListener
 (
@@ -221,7 +215,7 @@ this
 ;
 this
 .
-_global
+mm
 .
 removeEventListener
 (
@@ -233,7 +227,7 @@ this
 ;
 this
 .
-_global
+mm
 .
 removeMessageListener
 (
@@ -247,7 +241,7 @@ this
 ;
 this
 .
-_global
+mm
 .
 removeMessageListener
 (
@@ -484,7 +478,7 @@ getDateTimeInputBoxValue
 ;
 this
 .
-_global
+mm
 .
 sendAsyncMessage
 (
@@ -616,7 +610,7 @@ type
 ;
 this
 .
-_global
+mm
 .
 sendAsyncMessage
 (
@@ -641,7 +635,7 @@ MozCloseDateTimePicker
 {
 this
 .
-_global
+mm
 .
 sendAsyncMessage
 (
@@ -688,7 +682,7 @@ target
 {
 this
 .
-_global
+mm
 .
 sendAsyncMessage
 (

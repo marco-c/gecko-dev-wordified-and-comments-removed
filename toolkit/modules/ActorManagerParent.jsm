@@ -1211,6 +1211,11 @@ if
 child
 .
 matches
+|
+|
+child
+.
+allFrames
 )
 {
 actorSet
@@ -1227,6 +1232,15 @@ matches
 child
 .
 matches
+|
+|
+[
+"
+<
+all_urls
+>
+"
+]
 allFrames
 :
 child
