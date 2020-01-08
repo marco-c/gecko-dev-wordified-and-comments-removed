@@ -91,6 +91,8 @@ now
 }
 .
 fxsnapshot
+.
+gz
 )
 ;
 }
@@ -203,6 +205,8 @@ snapshotId
 "
 .
 fxsnapshot
+.
+gz
 "
 )
 ;
