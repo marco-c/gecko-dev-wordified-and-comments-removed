@@ -187,16 +187,6 @@ XPIDL_MODULE
 '
 editor
 '
-EXPORTS
-+
-=
-[
-'
-nsEditorCID
-.
-h
-'
-]
 TESTING_JS_MODULES
 +
 =
