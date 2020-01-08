@@ -455,13 +455,7 @@ keyedMutex
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 EGLDisplay
@@ -1710,13 +1704,7 @@ config
 )
 ;
 return
-std
-:
-:
-move
-(
 ret
-)
 ;
 }
 SurfaceFactory_ANGLEShareHandle
