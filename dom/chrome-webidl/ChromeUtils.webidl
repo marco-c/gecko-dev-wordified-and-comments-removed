@@ -2374,6 +2374,17 @@ getRootBrowsingContexts
 (
 )
 ;
+[
+ChromeOnly
+Throws
+]
+boolean
+hasReportingHeaderForOrigin
+(
+DOMString
+aOrigin
+)
+;
 }
 ;
 /

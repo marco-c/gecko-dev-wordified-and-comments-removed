@@ -193,6 +193,16 @@ PrincipalInfo
 aPrincipalInfo
 )
 ;
+static
+bool
+HasReportingHeaderForOrigin
+(
+const
+nsACString
+&
+aOrigin
+)
+;
 private
 :
 ReportingHeader
