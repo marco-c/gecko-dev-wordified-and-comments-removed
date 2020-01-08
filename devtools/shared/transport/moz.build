@@ -102,6 +102,13 @@ ini
 DevToolsModules
 (
 '
+child
+-
+transport
+.
+js
+'
+'
 local
 -
 transport
