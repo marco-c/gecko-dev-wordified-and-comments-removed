@@ -2868,6 +2868,9 @@ url_base
 /
 "
                         
+meta_filters
+=
+None
 recreate
 =
 False
@@ -3020,7 +3023,12 @@ Manifest
 from_json
 (
 tests_path
+                                                            
 json_data
+                                                            
+meta_filters
+=
+meta_filters
 )
             
 except
@@ -3036,6 +3044,9 @@ manifest
 Manifest
 (
 url_base
+meta_filters
+=
+meta_filters
 )
         
 manifest_update
@@ -3054,6 +3065,9 @@ write
 manifest_file
 manifest_path
 )
+        
+return
+manifest_file
     
 def
 load_manifest
@@ -3072,6 +3086,9 @@ kwargs
 )
 :
         
+try
+:
+            
 if
 (
 not
@@ -3084,30 +3101,41 @@ exists
 manifest_path
 )
 or
-            
+                
 self
 .
 force_manifest_update
 )
 :
-            
+                
+manifest_file
+=
 self
 .
 update_manifest
 (
 manifest_path
+                                                     
 tests_path
+                                                     
 url_base
+                                                     
+meta_filters
+=
+self
+.
+meta_filters
+                                                     
 download
 =
 self
 .
 manifest_download
 )
-        
-try
-:
             
+else
+:
+                
 manifest_file
 =
 manifest
@@ -3115,12 +3143,15 @@ manifest
 load
 (
 tests_path
+                                              
 manifest_path
+                                              
 types
 =
 self
 .
 types
+                                              
 meta_filters
 =
 self

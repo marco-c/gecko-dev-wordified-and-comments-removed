@@ -171,6 +171,7 @@ __init__
 self
 manifest
 type_cls
+meta_filters
 )
 :
         
@@ -276,7 +277,6 @@ over
 the
 class
 .
-        
 "
 "
 "
@@ -292,6 +292,19 @@ self
 type_cls
 =
 type_cls
+        
+self
+.
+json_data
+=
+{
+}
+        
+self
+.
+tests_root
+=
+None
         
 self
 .
@@ -302,15 +315,12 @@ data
         
 self
 .
-json_data
+meta_filters
 =
-None
-        
-self
-.
-tests_root
-=
-None
+meta_filters
+or
+[
+]
     
 def
 __getitem__
@@ -555,21 +565,13 @@ load_all
 (
 )
         
-for
-path
-tests
-in
+return
 iteritems
 (
 self
 .
 data
 )
-:
-            
-yield
-path
-tests
     
 def
 load
@@ -618,6 +620,11 @@ key
 for
 test
 in
+iterfilter
+(
+self
+.
+meta_filters
 self
 .
 json_data
@@ -627,6 +634,7 @@ get
 path
 [
 ]
+)
 )
 :
                 
@@ -741,6 +749,11 @@ set
 for
 test
 in
+iterfilter
+(
+self
+.
+meta_filters
 self
 .
 json_data
@@ -750,6 +763,7 @@ get
 path
 [
 ]
+)
 )
 :
                     
@@ -1104,6 +1118,9 @@ url_base
 "
 /
 "
+meta_filters
+=
+None
 )
 :
         
@@ -1127,6 +1144,7 @@ _data
 ManifestData
 (
 self
+meta_filters
 )
         
 self
@@ -1190,7 +1208,6 @@ types
             
 for
 path
-tests
 in
 sorted
 (
@@ -1202,6 +1219,18 @@ item_type
 ]
 )
 :
+                
+tests
+=
+self
+.
+_data
+[
+item_type
+]
+[
+path
+]
                 
 yield
 item_type
@@ -2269,6 +2298,9 @@ url_base
 /
 "
 )
+meta_filters
+=
+meta_filters
 )
         
 if
@@ -2318,13 +2350,6 @@ paths
 ]
 )
 }
-        
-meta_filters
-=
-meta_filters
-or
-[
-]
         
 for
 test_type
@@ -2469,15 +2494,18 @@ Manifest
 from_json
 (
 tests_root
+                                        
 json
 .
 load
 (
 f
 )
+                                        
 types
 =
 types
+                                        
 meta_filters
 =
 meta_filters
@@ -2520,15 +2548,18 @@ Manifest
 from_json
 (
 tests_root
+                              
 json
 .
 load
 (
 manifest
 )
+                              
 types
 =
 types
+                              
 meta_filters
 =
 meta_filters
