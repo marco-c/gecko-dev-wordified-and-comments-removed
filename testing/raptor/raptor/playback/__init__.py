@@ -35,6 +35,9 @@ def
 get_playback
 (
 config
+android_device
+=
+None
 )
 :
     
@@ -118,4 +121,5 @@ return
 cls
 (
 config
+android_device
 )
