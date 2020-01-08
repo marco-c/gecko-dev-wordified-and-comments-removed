@@ -198,6 +198,7 @@ select
 ;
 partial
 interface
+mixin
 GlobalEventHandlers
 {
 attribute
