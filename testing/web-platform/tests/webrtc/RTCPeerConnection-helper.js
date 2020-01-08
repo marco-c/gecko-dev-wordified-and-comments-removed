@@ -451,6 +451,7 @@ test
 const
 offer
 =
+await
 pc
 .
 createOffer
@@ -461,6 +462,8 @@ assert_equals
 (
 countApplicationLine
 (
+offer
+.
 sdp
 )
 1
@@ -613,6 +616,7 @@ offer
 const
 answer
 =
+await
 pc
 .
 createAnswer
