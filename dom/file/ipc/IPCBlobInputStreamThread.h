@@ -119,6 +119,16 @@ mPendingActors
 ;
 }
 ;
+bool
+IsOnDOMFileThread
+(
+)
+;
+void
+AssertIsOnDOMFileThread
+(
+)
+;
 }
 }
 #
