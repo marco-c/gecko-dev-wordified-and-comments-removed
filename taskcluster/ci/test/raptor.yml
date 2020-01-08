@@ -23,8 +23,6 @@ platform
 android
 -
 hw
--
-g5
 .
 *
 :
@@ -161,8 +159,6 @@ py
 android
 -
 hw
--
-g5
 .
 *
 :
@@ -446,8 +442,6 @@ platform
 android
 -
 hw
--
-g5
 .
 *
 :
