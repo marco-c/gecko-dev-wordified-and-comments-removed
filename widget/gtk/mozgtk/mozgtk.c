@@ -2003,6 +2003,10 @@ gtk_window_get_group
 )
 STUB
 (
+gtk_window_get_modal
+)
+STUB
+(
 gtk_window_get_transient_for
 )
 STUB
