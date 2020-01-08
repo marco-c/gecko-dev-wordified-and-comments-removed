@@ -1902,6 +1902,9 @@ async
 function
 clickBookmarkStar
 (
+win
+=
+window
 )
 {
 let
@@ -1909,6 +1912,8 @@ shownPromise
 =
 promisePopupShown
 (
+win
+.
 document
 .
 getElementById
@@ -1919,6 +1924,8 @@ editBookmarkPanel
 )
 )
 ;
+win
+.
 BookmarkingUI
 .
 star
@@ -1935,6 +1942,9 @@ async
 function
 hideBookmarksPanel
 (
+win
+=
+window
 )
 {
 let
@@ -1942,6 +1952,8 @@ hiddenPromise
 =
 promisePopupHidden
 (
+win
+.
 document
 .
 getElementById
@@ -1952,6 +1964,8 @@ editBookmarkPanel
 )
 )
 ;
+win
+.
 document
 .
 getElementById
