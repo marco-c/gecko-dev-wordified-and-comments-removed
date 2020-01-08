@@ -291,6 +291,12 @@ webroot
 "
         
 "
+install
+-
+chrome
+"
+        
+"
 create
 -
 virtualenv
