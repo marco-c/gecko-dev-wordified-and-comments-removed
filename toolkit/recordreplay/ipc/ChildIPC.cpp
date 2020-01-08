@@ -2400,6 +2400,10 @@ NotifyPaintComplete
 {
 MOZ_RELEASE_ASSERT
 (
+!
+gCompositorThreadId
+|
+|
 Thread
 :
 :
