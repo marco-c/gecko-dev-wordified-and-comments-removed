@@ -19,7 +19,7 @@ h
 #
 include
 <
-WinBase
+winbase
 .
 h
 >

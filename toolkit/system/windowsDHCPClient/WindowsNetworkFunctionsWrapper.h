@@ -7,7 +7,7 @@ mozilla_toolkit_system_windowsDHCPClient_windowsNetworkFunctionsWrapper_h
 #
 include
 <
-Winsock2
+winsock2
 .
 h
 >
