@@ -902,7 +902,6 @@ aIsOffline
 allowedToStart
 aNumberOfChannels
 aLength
-aSampleRate
 )
 ;
 if
