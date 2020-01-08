@@ -7148,7 +7148,6 @@ aFrame
 >
 IsVisibleForPainting
 (
-aBuilder
 )
 ;
 bool

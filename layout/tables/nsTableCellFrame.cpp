@@ -2199,12 +2199,6 @@ return
 ShouldPaintBordersAndBackgrounds
 (
 )
-&
-&
-IsVisibleInSelection
-(
-aBuilder
-)
 ;
 }
 void

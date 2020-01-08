@@ -1097,7 +1097,6 @@ NS_FRAME_IS_OVERFLOW_CONTAINER
 &
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 {

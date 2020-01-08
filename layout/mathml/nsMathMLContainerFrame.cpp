@@ -2393,7 +2393,6 @@ if
 !
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 return

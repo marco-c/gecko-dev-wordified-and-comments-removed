@@ -23505,8 +23505,6 @@ canvasFrame
 >
 IsVisibleForPainting
 (
-&
-aBuilder
 )
 )
 {

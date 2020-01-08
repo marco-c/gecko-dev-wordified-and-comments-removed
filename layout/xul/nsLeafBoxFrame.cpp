@@ -345,7 +345,6 @@ IsForEventDelivery
 !
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 return

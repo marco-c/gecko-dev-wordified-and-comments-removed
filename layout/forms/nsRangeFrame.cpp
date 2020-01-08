@@ -1207,7 +1207,6 @@ IsForPainting
 !
 IsVisibleForPainting
 (
-aBuilder
 )
 )
 {
