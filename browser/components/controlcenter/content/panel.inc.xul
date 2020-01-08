@@ -1565,7 +1565,7 @@ label
 &
 trackingProtection
 .
-unblock4
+unblock5
 .
 label
 ;
@@ -1576,7 +1576,7 @@ accesskey
 &
 trackingProtection
 .
-unblock4
+unblock5
 .
 accesskey
 ;
@@ -1633,7 +1633,7 @@ label
 &
 trackingProtection
 .
-unblockPrivate4
+unblockPrivate5
 .
 label
 ;
@@ -1644,7 +1644,7 @@ accesskey
 &
 trackingProtection
 .
-unblockPrivate4
+unblockPrivate5
 .
 accesskey
 ;
@@ -1699,7 +1699,7 @@ label
 &
 trackingProtection
 .
-block5
+block6
 .
 label
 ;
@@ -1710,7 +1710,7 @@ accesskey
 &
 trackingProtection
 .
-block5
+block6
 .
 accesskey
 ;
