@@ -30537,8 +30537,12 @@ MIRType
 Int32
 )
 ;
-setMovable
+MOZ_ASSERT
 (
+!
+isMovable
+(
+)
 )
 ;
 }
