@@ -1,4 +1,4 @@
-52869
+52891
 0
 /
 nm
@@ -2586,6 +2586,9 @@ Assisi
 /
 M
 Assyria
+/
+M
+Assyriaca
 /
 M
 Assyrian
@@ -11770,6 +11773,9 @@ SM
 Europa
 /
 M
+Europaea
+/
+M
 Europe
 /
 M
@@ -16101,6 +16107,9 @@ M
 Hispanic
 /
 SM
+Hispanica
+/
+M
 Hispaniola
 /
 M
@@ -16211,6 +16220,9 @@ Holland
 /
 ZSMR
 Hollander
+/
+M
+Hollandica
 /
 M
 Hollerith
@@ -17255,6 +17267,9 @@ Islamabad
 /
 M
 Islamic
+/
+M
+Islamica
 /
 M
 Islamism
@@ -19200,6 +19215,9 @@ Khayyam
 /
 M
 Khazar
+/
+M
+Khazarica
 /
 M
 Khmer
@@ -24471,6 +24489,9 @@ SM
 Mongolic
 /
 M
+Mongolica
+/
+M
 Mongoloid
 Monica
 /
@@ -25740,6 +25761,9 @@ M
 Nicene
 /
 M
+Nicephori
+/
+M
 Nichiren
 /
 M
@@ -25841,6 +25865,9 @@ M
 Nigerian
 /
 MS
+Nigeriana
+/
+M
 Nigerien
 /
 M
@@ -26305,6 +26332,7 @@ SMDG
 OMB
 /
 M
+OMG
 ON
 OPEC
 /
@@ -26907,6 +26935,9 @@ Otto
 /
 M
 Ottoman
+/
+M
+Ottomana
 /
 M
 Ouagadougou
@@ -28485,6 +28516,9 @@ Prado
 /
 M
 Praetorian
+/
+M
+Praetoriana
 /
 M
 Prague
@@ -30229,6 +30263,9 @@ M
 Roman
 /
 MS
+Romana
+/
+M
 Romanesque
 /
 MS
@@ -32529,6 +32566,9 @@ M
 Sinhalese
 /
 M
+Sinica
+/
+M
 Sinkiang
 /
 M
@@ -32898,6 +32938,9 @@ Southwest
 /
 MS
 Soviet
+/
+M
+Sovietica
 /
 M
 Soweto
@@ -33484,6 +33527,9 @@ M
 Sumerian
 /
 SM
+Sumerica
+/
+M
 Summer
 /
 MS
@@ -33768,6 +33814,9 @@ M
 Syrian
 /
 MS
+Syriana
+/
+M
 Szilard
 /
 M
@@ -59906,6 +59955,7 @@ MYS
 criminality
 /
 M
+criminalization
 criminalize
 /
 CGDS
@@ -104402,6 +104452,7 @@ MS
 pawpaw
 /
 MS
+pax
 pay
 '
 s
@@ -133784,6 +133835,7 @@ M
 tuneup
 /
 SM
+tung
 tungsten
 /
 M
@@ -139382,6 +139434,10 @@ YTRP
 winsomeness
 /
 M
+winsorization
+winsorize
+/
+SGD
 winter
 /
 GSMD
