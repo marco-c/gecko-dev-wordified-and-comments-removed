@@ -289,14 +289,6 @@ InitialSetupHasBeenDone
 )
 )
 {
-if
-(
-!
-GetRootElement
-(
-)
-)
-{
 #
 ifdef
 DEBUG
@@ -325,7 +317,6 @@ document
 "
 )
 ;
-}
 if
 (
 !
