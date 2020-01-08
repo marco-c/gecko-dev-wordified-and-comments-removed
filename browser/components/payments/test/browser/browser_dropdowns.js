@@ -169,6 +169,10 @@ address
 -
 picker
 .
+shipping
+-
+related
+.
 add
 -
 link
@@ -219,6 +223,8 @@ id
 =
 =
 "
+shipping
+-
 address
 -
 page
@@ -248,6 +254,12 @@ document
 querySelector
 (
 "
+#
+shipping
+-
+address
+-
+page
 #
 country
 "
@@ -280,6 +292,12 @@ BrowserTestUtils
 synthesizeMouseAtCenter
 (
 "
+#
+shipping
+-
+address
+-
+page
 #
 country
 "
