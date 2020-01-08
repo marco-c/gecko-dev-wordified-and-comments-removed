@@ -14966,7 +14966,7 @@ scrollPt
 aFrameAsScrollable
 -
 >
-GetScrollPosition
+GetVisualViewportOffset
 (
 )
 ;
