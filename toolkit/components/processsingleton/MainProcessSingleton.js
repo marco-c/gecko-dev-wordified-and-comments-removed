@@ -425,6 +425,7 @@ addEngine
 engineURL
 .
 spec
+null
 iconURL
 ?
 iconURL
