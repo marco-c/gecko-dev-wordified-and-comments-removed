@@ -178,9 +178,6 @@ addonFile
 name
 :
 addonName
-isWebExtension
-:
-true
 }
 )
 ;

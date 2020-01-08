@@ -138,9 +138,9 @@ addons
 /
 unpacked
 /
-install
+manifest
 .
-rdf
+json
 "
 name
 :

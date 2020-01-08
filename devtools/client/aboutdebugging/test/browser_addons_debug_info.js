@@ -286,9 +286,6 @@ addonFile
 name
 :
 addonName
-isWebExtension
-:
-true
 }
 )
 ;
@@ -540,9 +537,6 @@ addonFile
 name
 :
 addonName
-isWebExtension
-:
-true
 }
 )
 ;
@@ -791,9 +785,6 @@ addonFile
 name
 :
 addonName
-isWebExtension
-:
-true
 }
 )
 ;
