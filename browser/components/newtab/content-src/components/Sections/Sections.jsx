@@ -1942,6 +1942,9 @@ bottom
 container
 "
 >
+<
+div
+>
 {
 shouldShowTopics
 &
@@ -1969,6 +1972,13 @@ PocketLoggedInCta
 /
 >
 }
+<
+/
+div
+>
+<
+div
+>
 {
 read_more_endpoint
 &
@@ -1983,6 +1993,10 @@ read_more_endpoint
 /
 >
 }
+<
+/
+div
+>
 <
 /
 div

@@ -1250,8 +1250,9 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Men
+y
+a
 "
 "
 pocket_learn_more

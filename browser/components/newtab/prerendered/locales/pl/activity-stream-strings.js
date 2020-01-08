@@ -760,9 +760,11 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Jak
+to
+dzia
+a
+?
 "
 "
 pocket_cta_button

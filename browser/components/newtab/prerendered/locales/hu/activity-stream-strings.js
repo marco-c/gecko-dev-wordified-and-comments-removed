@@ -1356,8 +1356,9 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Men
+megnyit
+sa
 "
 "
 pocket_learn_more

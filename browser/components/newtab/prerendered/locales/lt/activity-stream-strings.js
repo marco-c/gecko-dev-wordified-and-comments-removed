@@ -1139,8 +1139,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Atverti
+meniu
 "
 "
 pocket_learn_more

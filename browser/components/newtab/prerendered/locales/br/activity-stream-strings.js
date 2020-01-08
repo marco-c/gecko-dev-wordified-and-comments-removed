@@ -1299,8 +1299,10 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Digeri
+al
+la
+ser
 "
 "
 pocket_learn_more

@@ -1275,7 +1275,8 @@ context_menu_title
 "
 :
 "
-Open
+Ouvrir
+le
 menu
 "
 "

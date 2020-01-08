@@ -1245,8 +1245,9 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Eike
+poravor
+me
 "
 "
 pocket_learn_more

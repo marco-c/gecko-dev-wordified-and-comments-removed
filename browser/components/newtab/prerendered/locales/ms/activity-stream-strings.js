@@ -1094,7 +1094,7 @@ context_menu_title
 "
 :
 "
-Open
+Buka
 menu
 "
 "

@@ -1189,8 +1189,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Ldi
+umu
 "
 "
 pocket_learn_more

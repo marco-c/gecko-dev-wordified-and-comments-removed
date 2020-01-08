@@ -3835,7 +3835,7 @@ this
 .
 _defaultPrefs
 .
-setDefaultPref
+set
 (
 pref
 newValue

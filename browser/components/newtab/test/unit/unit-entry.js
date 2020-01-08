@@ -482,6 +482,13 @@ TYPE_ONE_SHOT
 :
 1
 }
+nsIWebProgressListener
+:
+{
+LOCATION_CHANGE_SAME_DOCUMENT
+:
+1
+}
 }
 Cu
 :

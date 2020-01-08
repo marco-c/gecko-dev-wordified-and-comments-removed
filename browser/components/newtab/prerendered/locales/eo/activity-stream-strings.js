@@ -761,9 +761,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Kiel
+funkcias
+tio
 "
 "
 pocket_cta_button
@@ -1178,8 +1178,8 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Malfermi
+menuon
 "
 "
 pocket_learn_more

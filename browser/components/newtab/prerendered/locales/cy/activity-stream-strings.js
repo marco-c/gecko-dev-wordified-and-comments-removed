@@ -1225,8 +1225,9 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Agor
+y
+ddewislen
 "
 "
 pocket_learn_more

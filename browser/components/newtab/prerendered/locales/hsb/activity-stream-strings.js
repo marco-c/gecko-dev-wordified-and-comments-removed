@@ -1272,8 +1272,9 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Meni
+wo
+ini
 "
 "
 pocket_learn_more

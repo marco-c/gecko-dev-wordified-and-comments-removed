@@ -1317,8 +1317,10 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Otev
+e
+nab
+dku
 "
 "
 pocket_learn_more

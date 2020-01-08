@@ -1211,8 +1211,9 @@ context_menu_title
 "
 :
 "
-Open
-menu
+Dobrir
+lo
+men
 "
 "
 pocket_learn_more
