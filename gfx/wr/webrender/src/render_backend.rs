@@ -208,6 +208,12 @@ ResultMsg
 }
 ;
 use
+picture
+:
+:
+RetainedTiles
+;
+use
 prim_store
 :
 :
@@ -2574,10 +2580,10 @@ let
 mut
 retained_tiles
 =
-FastHashMap
+RetainedTiles
 :
 :
-default
+new
 (
 )
 ;
