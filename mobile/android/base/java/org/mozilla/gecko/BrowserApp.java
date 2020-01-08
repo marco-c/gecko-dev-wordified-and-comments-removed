@@ -8874,7 +8874,7 @@ message
 getBoolean
 (
 "
-touchEnabled
+enabled
 "
 )
 )
