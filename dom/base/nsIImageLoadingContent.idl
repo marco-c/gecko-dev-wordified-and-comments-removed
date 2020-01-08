@@ -613,6 +613,7 @@ load
 /
 [
 noscript
+infallible
 ]
 readonly
 attribute

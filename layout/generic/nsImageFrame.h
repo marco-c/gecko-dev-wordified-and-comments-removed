@@ -475,6 +475,12 @@ SetupForContentURLRequest
 (
 )
 ;
+bool
+ShouldShowBrokenImageIcon
+(
+)
+const
+;
 #
 ifdef
 ACCESSIBILITY
