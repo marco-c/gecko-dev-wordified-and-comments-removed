@@ -3558,6 +3558,18 @@ CheckFastBlocked
 )
 )
 {
+AntiTrackingCommon
+:
+:
+NotifyRejection
+(
+this
+nsIWebProgressListener
+:
+:
+STATE_BLOCKED_SLOW_TRACKING_CONTENT
+)
+;
 Unused
 <
 <
@@ -17179,6 +17191,7 @@ IsFirstPartyStorageAccessGrantedFor
 (
 this
 mURI
+nullptr
 )
 )
 {
