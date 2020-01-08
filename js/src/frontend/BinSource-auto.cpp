@@ -33419,6 +33419,7 @@ newSwitchStatement
 start
 discriminant
 scope
+false
 )
 )
 ;
@@ -33736,6 +33737,7 @@ newSwitchStatement
 start
 discriminant
 scope
+true
 )
 )
 ;

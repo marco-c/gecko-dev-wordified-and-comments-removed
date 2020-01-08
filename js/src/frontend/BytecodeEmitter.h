@@ -3073,7 +3073,7 @@ MOZ_MUST_USE
 bool
 emitSwitch
 (
-ParseNode
+SwitchStatement
 *
 pn
 )

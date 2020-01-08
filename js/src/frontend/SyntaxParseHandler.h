@@ -1224,7 +1224,9 @@ begin
 Node
 discriminant
 Node
-caseList
+lexicalForCaseList
+bool
+hasDefault
 )
 {
 return
