@@ -1437,6 +1437,15 @@ nsGkAtoms
 :
 :
 about
+|
+|
+scheme
+=
+=
+nsGkAtoms
+:
+:
+data
 )
 {
 mMatchSubdomain
