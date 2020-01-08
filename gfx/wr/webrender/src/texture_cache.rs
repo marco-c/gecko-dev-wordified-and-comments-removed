@@ -3219,7 +3219,7 @@ now
 .
 max_frames
 (
-30
+200
 )
 .
 max_time_s
