@@ -113,10 +113,6 @@ qr
 '
 ccov
 '
-    
-'
-jsdcov
-'
 ]
 def
 get_variant

@@ -8416,25 +8416,6 @@ self
 mozInfo
 )
         
-if
-self
-.
-jscovdir
-:
-            
-mozinfo
-.
-update
-(
-{
-"
-coverage
-"
-:
-True
-}
-)
-        
 return
 True
     
