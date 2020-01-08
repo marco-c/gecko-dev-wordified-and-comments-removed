@@ -12,6 +12,17 @@ PlacesTestUtils
 "
 ]
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 ChromeUtils
 .
 import

@@ -162,6 +162,17 @@ null
 .
 XPCOMUtils
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+XMLHttpRequest
+"
+]
+)
+;
 var
 AssertCls
 =

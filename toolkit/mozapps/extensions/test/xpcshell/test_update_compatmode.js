@@ -1,3 +1,14 @@
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URLSearchParams
+"
+]
+)
+;
 Services
 .
 prefs

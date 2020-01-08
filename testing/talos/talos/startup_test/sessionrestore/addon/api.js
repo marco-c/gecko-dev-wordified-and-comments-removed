@@ -242,6 +242,17 @@ Ci
 nsIArray
 )
 {
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 let
 url
 =

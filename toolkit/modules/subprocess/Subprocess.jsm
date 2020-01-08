@@ -12,6 +12,17 @@ Subprocess
 "
 ]
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+TextEncoder
+"
+]
+)
+;
 ChromeUtils
 .
 import

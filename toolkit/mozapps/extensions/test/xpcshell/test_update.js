@@ -43,6 +43,17 @@ jsm
 "
 )
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URLSearchParams
+"
+]
+)
+;
 var
 gInstallDate
 ;

@@ -33,6 +33,9 @@ importGlobalProperties
 "
 fetch
 "
+"
+TextEncoder
+"
 ]
 )
 ;

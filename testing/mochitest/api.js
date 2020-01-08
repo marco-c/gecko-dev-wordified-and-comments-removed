@@ -155,6 +155,17 @@ win
 )
 ;
 }
+Cu
+.
+importGlobalProperties
+(
+[
+"
+TextDecoder
+"
+]
+)
+;
 const
 windowTracker
 =

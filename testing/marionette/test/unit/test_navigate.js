@@ -1,3 +1,14 @@
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 ChromeUtils
 .
 import

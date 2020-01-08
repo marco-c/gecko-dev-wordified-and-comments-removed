@@ -3,6 +3,17 @@ use
 strict
 "
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+URL
+"
+]
+)
+;
 add_task
 (
 async
