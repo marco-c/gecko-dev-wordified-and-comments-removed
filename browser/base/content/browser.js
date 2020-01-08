@@ -2449,7 +2449,12 @@ gURLBar
 new
 UrlbarInput
 (
+{
+textbox
+:
 element
+panel
+:
 document
 .
 getElementById
@@ -2460,6 +2465,7 @@ urlbar
 results
 "
 )
+}
 )
 ;
 }
