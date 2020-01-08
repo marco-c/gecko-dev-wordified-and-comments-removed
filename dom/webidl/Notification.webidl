@@ -327,7 +327,7 @@ dom
 DOMPrefs
 :
 :
-NotificationRIEnabled
+dom_webnotifications_requireinteraction_enabled
 "
 ]
 readonly
