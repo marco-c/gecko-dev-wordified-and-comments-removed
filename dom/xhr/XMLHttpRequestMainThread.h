@@ -2197,11 +2197,6 @@ Decoder
 >
 mDecoder
 ;
-const
-Encoding
-*
-mResponseCharset
-;
 void
 MatchCharsetAndDecoderToResponseDocument
 (
@@ -2509,6 +2504,9 @@ mXPCOMifier
 ;
 bool
 mEventDispatchingSuspended
+;
+bool
+mEofDecoded
 ;
 RefPtr
 <
