@@ -2626,7 +2626,7 @@ xblScope
 NS_ERROR_UNEXPECTED
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

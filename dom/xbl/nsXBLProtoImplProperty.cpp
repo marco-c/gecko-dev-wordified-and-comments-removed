@@ -1000,7 +1000,7 @@ IsEmpty
 )
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -1228,7 +1228,7 @@ IsEmpty
 )
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

@@ -335,7 +335,7 @@ scopeObject
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -704,7 +704,7 @@ NS_ERROR_UNEXPECTED
 }
 }
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar2
 (
 cx
@@ -874,7 +874,7 @@ v
 cx
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -947,13 +947,6 @@ toObject
 )
 )
 ;
-JSAutoRealmAllowCCW
-ar2
-(
-cx
-value
-)
-;
 MOZ_ASSERT
 (
 !
@@ -964,6 +957,13 @@ IsWrapper
 (
 value
 )
+)
+;
+JSAutoRealm
+ar2
+(
+cx
+value
 )
 ;
 rv

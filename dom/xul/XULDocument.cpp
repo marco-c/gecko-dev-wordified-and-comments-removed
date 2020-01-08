@@ -9565,7 +9565,7 @@ ExposeObjectToActiveJS
 global
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

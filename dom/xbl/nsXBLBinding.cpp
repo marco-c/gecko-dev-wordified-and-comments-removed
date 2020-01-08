@@ -3123,7 +3123,7 @@ if
 scriptObject
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -3704,7 +3704,7 @@ cx
 proto
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -4085,7 +4085,7 @@ cx
 obj
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -4168,7 +4168,7 @@ parent_proto
 }
 else
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 innerAR
 (
 cx
@@ -4326,7 +4326,7 @@ aProtoBinding
 }
 else
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar2
 (
 cx
@@ -4437,7 +4437,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar4
 (
 cx
@@ -4749,7 +4749,7 @@ xblScope
 )
 ;
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
