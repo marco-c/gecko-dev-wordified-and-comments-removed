@@ -95,9 +95,14 @@ content
 location
 =
 "
-about
+http
 :
-home
+/
+/
+example
+.
+org
+/
 "
 ;
 await
