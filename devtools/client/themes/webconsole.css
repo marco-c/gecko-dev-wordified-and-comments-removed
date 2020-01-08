@@ -6110,7 +6110,14 @@ row
 ;
 overflow
 :
-scroll
+auto
+;
+max
+-
+height
+:
+100
+%
 ;
 }
 .
