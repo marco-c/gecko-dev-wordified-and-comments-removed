@@ -5385,6 +5385,18 @@ chrome
 '
                               
 '
+mochitest
+-
+media
+'
+:
+'
+mochitest
+-
+media
+'
+                              
+'
 plain
 -
 clipboard
@@ -5433,6 +5445,14 @@ crashtest
 :
 '
 crashtest
+'
+                            
+'
+jsreftest
+'
+:
+'
+jsreftest
 '
 }
 )
