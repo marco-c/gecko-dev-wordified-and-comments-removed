@@ -2239,11 +2239,6 @@ textbox
 :
 case
 "
-listbox
-"
-:
-case
-"
 menulist
 "
 :
