@@ -102,7 +102,7 @@ glutin
 "
 0
 .
-17
+15
 "
 app_units
 =
@@ -313,7 +313,7 @@ winit
 "
 0
 .
-16
+13
 "
 serde
 =
@@ -356,7 +356,7 @@ graphics
 "
 0
 .
-14
+13
 "
 core
 -
@@ -365,7 +365,7 @@ foundation
 "
 0
 .
-6
+5
 "
 [
 features
@@ -469,5 +469,5 @@ loader
 "
 0
 .
-7
+6
 "

@@ -58,7 +58,7 @@ clip_scroll_tree
 :
 {
 ClipScrollTree
-SpatialNodeIndex
+ClipScrollNodeIndex
 }
 ;
 use
@@ -254,7 +254,7 @@ ScrollbarPrimitive
 pub
 scroll_frame_index
 :
-SpatialNodeIndex
+ClipScrollNodeIndex
 pub
 prim_index
 :

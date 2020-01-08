@@ -120,9 +120,9 @@ text
 version
 =
 "
-10
+9
 .
-0
+2
 .
 0
 "
@@ -173,7 +173,7 @@ servo
 /
 core
 -
-foundation
+text
 -
 rs
 "
@@ -189,7 +189,7 @@ version
 "
 0
 .
-6
+5
 "
 [
 dependencies
@@ -203,7 +203,7 @@ version
 "
 0
 .
-14
+13
 "
 [
 dependencies

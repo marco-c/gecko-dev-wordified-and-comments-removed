@@ -42,16 +42,16 @@ BLUR_SAMPLE_SCALE
 }
 ;
 use
-spatial_node
+clip_scroll_node
 :
 :
-SpatialNode
+ClipScrollNode
 ;
 use
 clip_scroll_tree
 :
 :
-SpatialNodeIndex
+ClipScrollNodeIndex
 ;
 use
 frame_builder
@@ -358,7 +358,7 @@ PipelineId
 pub
 reference_frame_index
 :
-SpatialNodeIndex
+ClipScrollNodeIndex
 pub
 real_local_rect
 :
@@ -479,7 +479,7 @@ pipeline_id
 PipelineId
 reference_frame_index
 :
-SpatialNodeIndex
+ClipScrollNodeIndex
 frame_output_pipeline_id
 :
 Option
@@ -2160,10 +2160,10 @@ local_pos
 :
 &
 LayoutPoint
-spatial_node
+clip_scroll_node
 :
 &
-SpatialNode
+ClipScrollNode
 rendered_rect
 :
 &
@@ -2179,7 +2179,7 @@ DevicePoint
 let
 world_pos
 =
-spatial_node
+clip_scroll_node
 .
 world_content_transform
 .
@@ -2197,7 +2197,7 @@ world_pos
 device_pixel_scale
 ;
 if
-spatial_node
+clip_scroll_node
 .
 transform_kind
 =
@@ -2292,10 +2292,10 @@ local_rect
 :
 &
 LayoutRect
-spatial_node
+clip_scroll_node
 :
 &
-SpatialNode
+ClipScrollNode
 rendered_rect
 :
 &
@@ -2326,7 +2326,7 @@ calculate_screen_uv
 local_rect
 .
 origin
-spatial_node
+clip_scroll_node
 &
 rendered_rect
 device_pixel_scale
@@ -2343,7 +2343,7 @@ local_rect
 top_right
 (
 )
-spatial_node
+clip_scroll_node
 &
 rendered_rect
 device_pixel_scale
@@ -2360,7 +2360,7 @@ local_rect
 bottom_left
 (
 )
-spatial_node
+clip_scroll_node
 &
 rendered_rect
 device_pixel_scale
@@ -2377,7 +2377,7 @@ local_rect
 bottom_right
 (
 )
-spatial_node
+clip_scroll_node
 &
 rendered_rect
 device_pixel_scale

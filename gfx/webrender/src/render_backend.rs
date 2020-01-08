@@ -128,7 +128,7 @@ clip_scroll_tree
 :
 :
 {
-SpatialNodeIndex
+ClipScrollNodeIndex
 ClipScrollTree
 }
 ;
@@ -1554,7 +1554,7 @@ scroll_node_index
 :
 Option
 <
-SpatialNodeIndex
+ClipScrollNodeIndex
 >
 )
 -
