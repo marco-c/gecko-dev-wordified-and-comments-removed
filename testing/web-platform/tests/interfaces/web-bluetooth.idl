@@ -117,14 +117,14 @@ false
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 Bluetooth
 :
 EventTarget
 {
-[
-SecureContext
-]
 Promise
 <
 boolean
@@ -133,15 +133,11 @@ getAvailability
 (
 )
 ;
-[
-SecureContext
-]
 attribute
 EventHandler
 onavailabilitychanged
 ;
 [
-SecureContext
 SameObject
 ]
 readonly
@@ -150,9 +146,6 @@ BluetoothDevice
 ?
 referringDevice
 ;
-[
-SecureContext
-]
 Promise
 <
 BluetoothDevice
@@ -287,6 +280,7 @@ optional
 ValueEventInit
 initDict
 )
+SecureContext
 ]
 interface
 ValueEvent
@@ -312,6 +306,9 @@ null
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 BluetoothDevice
 {
@@ -368,6 +365,9 @@ BluetoothDevice
 implements
 ServiceEventHandlers
 ;
+[
+SecureContext
+]
 interface
 BluetoothManufacturerDataMap
 {
@@ -381,6 +381,9 @@ DataView
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 BluetoothServiceDataMap
 {
@@ -401,6 +404,7 @@ type
 BluetoothAdvertisingEventInit
 init
 )
+SecureContext
 ]
 interface
 BluetoothAdvertisingEvent
@@ -507,6 +511,9 @@ serviceData
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 BluetoothRemoteGATTServer
 {
@@ -562,6 +569,9 @@ service
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 BluetoothRemoteGATTService
 {
@@ -645,6 +655,9 @@ BluetoothRemoteGATTService
 implements
 ServiceEventHandlers
 ;
+[
+SecureContext
+]
 interface
 BluetoothRemoteGATTCharacteristic
 {
@@ -740,6 +753,9 @@ BluetoothRemoteGATTCharacteristic
 implements
 CharacteristicEventHandlers
 ;
+[
+SecureContext
+]
 interface
 BluetoothCharacteristicProperties
 {
@@ -790,6 +806,9 @@ writableAuxiliaries
 ;
 }
 ;
+[
+SecureContext
+]
 interface
 BluetoothRemoteGATTDescriptor
 {
@@ -834,6 +853,7 @@ value
 ;
 [
 NoInterfaceObject
+SecureContext
 ]
 interface
 CharacteristicEventHandlers
@@ -846,6 +866,7 @@ oncharacteristicvaluechanged
 ;
 [
 NoInterfaceObject
+SecureContext
 ]
 interface
 BluetoothDeviceEventHandlers
@@ -858,6 +879,7 @@ ongattserverdisconnected
 ;
 [
 NoInterfaceObject
+SecureContext
 ]
 interface
 ServiceEventHandlers
@@ -963,6 +985,9 @@ long
 )
 BluetoothDescriptorUUID
 ;
+[
+SecureContext
+]
 partial
 interface
 Navigator
