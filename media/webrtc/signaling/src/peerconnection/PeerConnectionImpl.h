@@ -2858,9 +2858,6 @@ mStartTime
 bool
 mHaveConfiguredCodecs
 ;
-bool
-mHaveDataStream
-;
 unsigned
 int
 mAddCandidateErrorCount
