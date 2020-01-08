@@ -2314,15 +2314,6 @@ level2
 Berlin
 "
 "
-address
--
-level1
-"
-:
-"
-BE
-"
-"
 postal
 -
 code

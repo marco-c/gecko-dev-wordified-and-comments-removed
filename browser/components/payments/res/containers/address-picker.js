@@ -179,6 +179,10 @@ fields
 "
 )
 .
+trim
+(
+)
+.
 split
 (
 /
@@ -202,11 +206,6 @@ names
 }
 return
 [
-"
-address
--
-level1
-"
 "
 address
 -
