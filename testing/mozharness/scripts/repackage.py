@@ -293,26 +293,6 @@ self
 .
 config
         
-for
-directory
-in
-abs_dirs
-:
-            
-value
-=
-abs_dirs
-[
-directory
-]
-            
-abs_dirs
-[
-directory
-]
-=
-value
-        
 dirs
 =
 {
