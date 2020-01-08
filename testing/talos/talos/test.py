@@ -3757,6 +3757,16 @@ dom
 send_after_paint_to_content
 '
 :
+True
+                   
+'
+apz
+.
+paint_skipping
+.
+enabled
+'
+:
 False
                    
 '
@@ -5031,6 +5041,16 @@ event_starvation_delay_hint
 dom
 .
 send_after_paint_to_content
+'
+:
+True
+                   
+'
+apz
+.
+paint_skipping
+.
+enabled
 '
 :
 False
