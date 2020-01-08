@@ -253,6 +253,15 @@ h
 #
 include
 "
+wasm
+/
+WasmInstance
+.
+h
+"
+#
+include
+"
 gc
 /
 Nursery

@@ -193,15 +193,6 @@ Stack
 .
 h
 "
-#
-include
-"
-wasm
-/
-WasmJS
-.
-h
-"
 namespace
 js
 {
