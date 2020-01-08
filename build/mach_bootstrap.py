@@ -1597,7 +1597,7 @@ mach
 commands
 '
 '
-mercurial
+vcs
 -
 setup
 '

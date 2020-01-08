@@ -957,7 +957,7 @@ running
 .
 /
 mach
-mercurial
+vcs
 -
 setup
 .
