@@ -78,6 +78,9 @@ class
 Blob
 ;
 class
+MediaStreamTrack
+;
+class
 VideoStreamTrack
 ;
 class
@@ -111,7 +114,7 @@ ErrorResult
 aResult
 )
 ;
-VideoStreamTrack
+MediaStreamTrack
 *
 GetVideoStreamTrack
 (
@@ -172,7 +175,7 @@ const
 GlobalObject
 &
 aGlobal
-VideoStreamTrack
+MediaStreamTrack
 &
 aTrack
 ErrorResult
@@ -184,7 +187,7 @@ ImageCapture
 (
 VideoStreamTrack
 *
-aVideoStreamTrack
+aTrack
 nsPIDOMWindowInner
 *
 aOwnerWindow
@@ -231,7 +234,7 @@ RefPtr
 <
 VideoStreamTrack
 >
-mVideoStreamTrack
+mTrack
 ;
 }
 ;

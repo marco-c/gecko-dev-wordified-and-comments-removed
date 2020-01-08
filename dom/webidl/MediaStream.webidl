@@ -271,7 +271,7 @@ id
 ;
 sequence
 <
-AudioStreamTrack
+MediaStreamTrack
 >
 getAudioTracks
 (
@@ -279,7 +279,7 @@ getAudioTracks
 ;
 sequence
 <
-VideoStreamTrack
+MediaStreamTrack
 >
 getVideoTracks
 (

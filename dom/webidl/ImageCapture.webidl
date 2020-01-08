@@ -169,7 +169,7 @@ enabled
 "
 Constructor
 (
-VideoStreamTrack
+MediaStreamTrack
 track
 )
 ]
@@ -187,7 +187,7 @@ photoSettingsOptions
 ;
 readonly
 attribute
-VideoStreamTrack
+MediaStreamTrack
 videoStreamTrack
 ;
 attribute

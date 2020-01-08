@@ -2734,11 +2734,6 @@ AudioScheduledSourceNode
 webidl
 '
 '
-AudioStreamTrack
-.
-webidl
-'
-'
 AudioTrack
 .
 webidl
@@ -5385,11 +5380,6 @@ webidl
 '
 '
 VideoPlaybackQuality
-.
-webidl
-'
-'
-VideoStreamTrack
 .
 webidl
 '
