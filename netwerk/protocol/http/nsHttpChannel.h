@@ -2512,11 +2512,6 @@ ConnectOnTailUnblock
 (
 )
 ;
-bool
-CheckFastBlocked
-(
-)
-;
 nsCString
 mUsername
 ;
