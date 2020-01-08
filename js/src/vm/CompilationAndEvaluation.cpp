@@ -551,7 +551,7 @@ script
 }
 static
 bool
-Compile
+CompilePath
 (
 JSContext
 *
@@ -805,9 +805,7 @@ script
 )
 {
 return
-:
-:
-Compile
+CompilePath
 (
 cx
 options
@@ -1023,9 +1021,7 @@ true
 )
 ;
 return
-:
-:
-Compile
+CompilePath
 (
 cx
 options
