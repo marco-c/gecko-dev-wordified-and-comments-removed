@@ -158,7 +158,7 @@ void
 visit
 (
 in
-string
+ACString
 prefName
 in
 unsigned
