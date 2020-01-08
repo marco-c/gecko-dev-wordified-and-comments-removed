@@ -3986,7 +3986,7 @@ aRv
 const
 ;
 void
-ReportAutoplayTelemetry
+UpdateHadAudibleAutoplayState
 (
 )
 const
