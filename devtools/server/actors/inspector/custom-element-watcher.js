@@ -437,9 +437,7 @@ registryMap
 =
 this
 .
-watchedRegistries
-.
-get
+_getMapForRegistry
 (
 registry
 )
