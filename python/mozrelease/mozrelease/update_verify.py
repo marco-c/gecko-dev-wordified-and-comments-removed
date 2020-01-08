@@ -1,7 +1,20 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 from
 __future__
 import
 absolute_import
+print_function
 import
 os
 import
@@ -376,6 +389,7 @@ re
 .
 findall
 (
+r
 "
 \
 w
@@ -415,6 +429,7 @@ re
 search
 (
                 
+r
 "
 (
 ?
@@ -526,6 +541,7 @@ entry
 raise
 UpdateVerifyError
 (
+                    
 "
 Multiple
 values
@@ -1018,6 +1034,7 @@ from_path
 raise
 UpdateVerifyError
 (
+                
 "
 Couldn
 '
@@ -1038,6 +1055,9 @@ from_path
 s
 '
 :
+"
+                
+"
 already
 exists
 in
@@ -1192,6 +1212,7 @@ r
 raise
 UpdateVerifyError
 (
+                
 "
 Couldn
 '
@@ -1217,6 +1238,9 @@ from_path
 s
 '
 :
+"
+                
+"
 '
 %
 s
