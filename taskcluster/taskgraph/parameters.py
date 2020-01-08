@@ -925,6 +925,12 @@ on
 a
 try
 project
+or
+for
+        
+mach
+try
+fuzzy
 .
         
 "
@@ -942,6 +948,18 @@ self
 project
 '
 ]
+or
+self
+[
+'
+try_mode
+'
+]
+=
+=
+'
+try_select
+'
     
 def
 file_url
@@ -1099,6 +1117,9 @@ filename
 strict
 =
 True
+overrides
+=
+None
 )
 :
     
@@ -1153,6 +1174,17 @@ get_artifact_url
 find_task_id
     
 if
+overrides
+is
+None
+:
+        
+overrides
+=
+{
+}
+    
+if
 not
 filename
 :
@@ -1163,6 +1195,9 @@ Parameters
 strict
 =
 strict
+*
+*
+overrides
 )
     
 try
@@ -1306,20 +1341,13 @@ yml
 )
 :
         
-return
-Parameters
-(
-strict
+kwargs
 =
-strict
-*
-*
 yaml
 .
 safe_load
 (
 f
-)
 )
     
 elif
@@ -1334,20 +1362,13 @@ json
 )
 :
         
-return
-Parameters
-(
-strict
+kwargs
 =
-strict
-*
-*
 json
 .
 load
 (
 f
-)
 )
     
 else
@@ -1372,4 +1393,22 @@ format
 (
 filename
 )
+)
+    
+kwargs
+.
+update
+(
+overrides
+)
+    
+return
+Parameters
+(
+strict
+=
+strict
+*
+*
+kwargs
 )
