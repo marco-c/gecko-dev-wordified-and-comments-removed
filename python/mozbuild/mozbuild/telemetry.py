@@ -1932,6 +1932,9 @@ schema
 (
 data
 )
+        
+return
+data
     
 except
 MultipleInvalid
@@ -1994,24 +1997,5 @@ data
 )
 )
     
-telemetry_handler
-=
-getattr
-(
-mach_context
-                                
-'
-telemetry_handler
-'
+return
 None
-)
-    
-if
-telemetry_handler
-:
-        
-telemetry_handler
-(
-mach_context
-data
-)
