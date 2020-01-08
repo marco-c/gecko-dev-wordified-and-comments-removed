@@ -7347,7 +7347,7 @@ status
 changeTableSize
 (
 bestCapacity
-DontReportFailure
+ReportFailure
 )
 ;
 MOZ_ASSERT
