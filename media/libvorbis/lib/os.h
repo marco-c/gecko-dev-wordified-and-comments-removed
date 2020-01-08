@@ -594,7 +594,7 @@ _MSC_VER
 &
 defined
 (
-_WIN64
+_M_X64
 )
 )
 |
