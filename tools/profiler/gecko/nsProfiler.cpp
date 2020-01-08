@@ -249,6 +249,7 @@ NS_IMPL_ISUPPORTS
 (
 nsProfiler
 nsIProfiler
+nsIObserver
 )
 nsProfiler
 :

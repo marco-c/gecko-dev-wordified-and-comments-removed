@@ -354,6 +354,7 @@ NS_IMPL_ISUPPORTS
 (
 nsClipboard
 nsIClipboard
+nsIObserver
 )
 nsresult
 nsClipboard

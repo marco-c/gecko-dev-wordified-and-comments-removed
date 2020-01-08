@@ -97,6 +97,7 @@ NS_IMPL_ISUPPORTS
 (
 OSKeyStore
 nsIOSKeyStore
+nsIObserver
 )
 using
 namespace
