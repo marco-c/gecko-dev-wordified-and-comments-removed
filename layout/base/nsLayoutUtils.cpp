@@ -27452,6 +27452,9 @@ IsReplacedBoxResolvedAgainstZero
 aFrame
 *
 style
+aAxis
+=
+=
 eAxisHorizontal
 ?
 stylePos
