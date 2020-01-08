@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h
