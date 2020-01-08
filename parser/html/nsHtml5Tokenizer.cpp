@@ -874,7 +874,6 @@ false
 )
 additional
 (
-u
 '
 \
 0
@@ -971,8 +970,9 @@ endTagExpectation
 nullptr
 )
 endTagExpectationAsArray
-{
-}
+(
+nullptr
+)
 endTag
 (
 false
