@@ -1112,12 +1112,6 @@ fails
 -
 if
 (
-webrender
-)
-fails
--
-if
-(
 !
 Android
 )
@@ -1153,12 +1147,6 @@ false
 pass
 no
 doubt
-)
-fails
--
-if
-(
-webrender
 )
 fails
 -
