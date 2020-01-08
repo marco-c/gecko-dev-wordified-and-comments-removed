@@ -143,14 +143,6 @@ checkbox
 button
 textbox
 menulist
-menulist
-[
-editable
-=
-"
-true
-"
-]
 )
 *
 there

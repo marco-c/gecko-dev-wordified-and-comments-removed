@@ -148,7 +148,6 @@ nsMenuListType
 {
 eNotMenuList
 eReadonlyMenuList
-eEditableMenuList
 }
 ;
 class

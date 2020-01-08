@@ -593,14 +593,6 @@ nsIFrame
 aFrame
 )
 ;
-bool
-IsMenuListEditable
-(
-nsIFrame
-*
-aFrame
-)
-;
 nsIPresShell
 *
 GetPresShell
