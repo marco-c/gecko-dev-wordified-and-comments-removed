@@ -279,8 +279,12 @@ EXEC
 )
 sh
 (
-BUILD_TOOLS
+MOZILLA_DIR
 )
+/
+build
+/
+unix
 /
 print
 -
