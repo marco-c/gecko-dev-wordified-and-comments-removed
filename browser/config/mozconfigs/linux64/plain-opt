@@ -72,6 +72,17 @@ bin
 /
 rustfmt
 "
+CBINDGEN
+=
+"
+{
+TOOLTOOL_DIR
+}
+/
+cbindgen
+/
+cbindgen
+"
 export
 NODEJS
 =

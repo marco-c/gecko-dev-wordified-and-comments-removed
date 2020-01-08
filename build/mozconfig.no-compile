@@ -61,6 +61,8 @@ RUSTDOC
 unset
 RUSTFMT
 unset
+CBINDGEN
+unset
 MAKECAB
 unset
 TOOLCHAIN_PREFIX
