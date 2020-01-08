@@ -93,12 +93,7 @@ Flexbox
 js
 '
 '
-FlexContainerItem
-.
-js
-'
-'
-FlexContainerList
+FlexContainer
 .
 js
 '

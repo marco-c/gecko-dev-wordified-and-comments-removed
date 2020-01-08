@@ -96,7 +96,7 @@ lazyGetter
 (
 this
 "
-FlexContainerList
+FlexContainer
 "
 function
 (
@@ -110,7 +110,7 @@ require
 "
 .
 /
-FlexContainerList
+FlexContainer
 "
 )
 )
@@ -304,20 +304,7 @@ flexbox
 container
 "
 }
-dom
-.
-div
-(
-{
-className
-:
-"
-flexbox
--
-content
-"
-}
-FlexContainerList
+FlexContainer
 (
 {
 flexbox
@@ -328,7 +315,6 @@ onShowBoxModelHighlighterForNode
 onToggleFlexboxHighlighter
 setSelectedNode
 }
-)
 )
 FlexContainerProperties
 (

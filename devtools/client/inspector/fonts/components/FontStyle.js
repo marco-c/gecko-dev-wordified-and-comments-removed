@@ -270,9 +270,9 @@ oblique
 className
 :
 "
-font
+devtools
 -
-value
+checkbox
 -
 toggle
 "
