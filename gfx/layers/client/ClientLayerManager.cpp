@@ -3177,6 +3177,17 @@ GetTransactionStart
 ;
 if
 (
+!
+refreshStart
+)
+{
+refreshStart
+=
+mTransactionStart
+;
+}
+if
+(
 gfxPrefs
 :
 :
