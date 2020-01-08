@@ -13,9 +13,6 @@ main
 (
 output
 input_file
-version
-=
-None
 )
 :
     
@@ -37,7 +34,20 @@ update
 VERSION
 '
 :
-version
+'
+xul
+%
+s
+'
+%
+buildconfig
+.
+substs
+[
+'
+MOZILLA_SYMBOLVERSION
+'
+]
     
 }
 )
