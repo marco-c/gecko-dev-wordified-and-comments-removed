@@ -43380,7 +43380,7 @@ lowercase_header
 .
 enabled
 "
-false
+true
 )
 ;
 pref
