@@ -536,6 +536,11 @@ return
 this
 .
 browser
+&
+&
+this
+.
+browser
 .
 frameLoader
 ;
@@ -1092,7 +1097,7 @@ true
 }
 convert
 (
-fallbackTab
+fallbackTabSize
 =
 null
 )
@@ -1200,7 +1205,7 @@ sharingState
 ;
 if
 (
-fallbackTab
+fallbackTabSize
 &
 &
 (
@@ -1221,7 +1226,7 @@ result
 .
 width
 =
-fallbackTab
+fallbackTabSize
 .
 width
 ;
@@ -1229,7 +1234,7 @@ result
 .
 height
 =
-fallbackTab
+fallbackTabSize
 .
 height
 ;
@@ -4151,7 +4156,7 @@ nativeTab
 convert
 (
 nativeTab
-fallbackTab
+fallbackTabSize
 =
 null
 )
@@ -4166,15 +4171,7 @@ nativeTab
 .
 convert
 (
-fallbackTab
-&
-&
-this
-.
-getWrapper
-(
-fallbackTab
-)
+fallbackTabSize
 )
 ;
 }
