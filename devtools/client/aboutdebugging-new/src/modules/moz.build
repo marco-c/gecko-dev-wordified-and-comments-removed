@@ -56,6 +56,15 @@ MPL
 DevToolsModules
 (
 '
+debug
+-
+target
+-
+collapsibilities
+.
+js
+'
+'
 extensions
 -
 helper
