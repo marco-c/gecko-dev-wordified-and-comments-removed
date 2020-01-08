@@ -445,11 +445,6 @@ jstermCodeMirror
 PropTypes
 .
 bool
-jstermReverseSearch
-:
-PropTypes
-.
-bool
 currentReverseSearchEntry
 :
 PropTypes
@@ -521,7 +516,6 @@ event
 const
 {
 dispatch
-jstermReverseSearch
 }
 =
 this
@@ -529,10 +523,6 @@ this
 props
 ;
 if
-(
-jstermReverseSearch
-&
-&
 (
 (
 !
@@ -573,7 +563,6 @@ ctrlKey
 =
 =
 true
-)
 )
 )
 {
@@ -1037,7 +1026,6 @@ onFirstMeaningfulPaint
 serviceContainer
 closeSplitConsole
 jstermCodeMirror
-jstermReverseSearch
 }
 =
 this
@@ -1176,16 +1164,12 @@ codeMirrorEnabled
 jstermCodeMirror
 }
 )
-jstermReverseSearch
-?
 ReverseSearchInput
 (
 {
 hud
 }
 )
-:
-null
 )
 SideBar
 (
