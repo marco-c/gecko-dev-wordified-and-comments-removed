@@ -266,6 +266,14 @@ SutdownEGLLibraryIfNecessary
 (
 )
 ;
+RefPtr
+<
+ID3D11Query
+>
+GetD3D11Query
+(
+)
+;
 EGLConfig
 mEGLConfig
 ;
@@ -322,6 +330,12 @@ ID3D11Query
 >
 >
 mWaitForPresentQueries
+;
+RefPtr
+<
+ID3D11Query
+>
+mRecycledQuery
 ;
 Maybe
 <
