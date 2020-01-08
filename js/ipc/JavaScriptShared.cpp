@@ -2654,14 +2654,6 @@ hasXrayWaiver
 )
 )
 {
-{
-JSAutoRealmAllowCCW
-ar2
-(
-cx
-obj
-)
-;
 obj
 =
 js
@@ -2677,7 +2669,6 @@ MOZ_ASSERT
 obj
 )
 ;
-}
 if
 (
 !
