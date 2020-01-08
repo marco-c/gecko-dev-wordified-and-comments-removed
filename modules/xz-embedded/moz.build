@@ -209,14 +209,10 @@ XZ_DEC_ARM
 =
 1
 elif
-'
-86
-'
-in
 CONFIG
 [
 '
-TARGET_CPU
+INTEL_ARCHITECTURE
 '
 ]
 :

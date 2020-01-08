@@ -384,14 +384,10 @@ include
 '
 ]
 if
-'
-86
-'
-in
 CONFIG
 [
 '
-OS_TEST
+INTEL_ARCHITECTURE
 '
 ]
 :

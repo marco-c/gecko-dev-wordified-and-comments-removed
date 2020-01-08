@@ -605,14 +605,10 @@ use_arm_neon_gcc
 =
 False
 if
-'
-86
-'
-in
 CONFIG
 [
 '
-OS_TEST
+INTEL_ARCHITECTURE
 '
 ]
 :
