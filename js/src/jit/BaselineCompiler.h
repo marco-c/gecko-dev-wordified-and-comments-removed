@@ -1811,7 +1811,6 @@ enum
 CallVMPhase
 {
 POST_INITIALIZE
-PRE_INITIALIZE
 CHECK_OVER_RECURSED
 }
 ;
@@ -1988,10 +1987,6 @@ MOZ_MUST_USE
 bool
 emitStackCheck
 (
-bool
-earlyCheck
-=
-false
 )
 ;
 MOZ_MUST_USE

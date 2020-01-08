@@ -11499,14 +11499,9 @@ AcquireX
 (
 )
 ;
-movePtr
-(
-ImmPtr
+loadPtr
 (
 lhs
-.
-addr
-)
 scratch
 .
 asUnsized

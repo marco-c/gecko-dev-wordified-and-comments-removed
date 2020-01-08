@@ -260,7 +260,6 @@ Kind_CallVM
 Kind_NonOpCallVM
 Kind_WarmupCounter
 Kind_StackCheck
-Kind_EarlyStackCheck
 Kind_DebugTrap
 Kind_DebugPrologue
 Kind_DebugAfterYield
