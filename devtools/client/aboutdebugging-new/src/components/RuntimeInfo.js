@@ -118,7 +118,7 @@ PropTypes
 string
 .
 isRequired
-model
+deviceName
 :
 PropTypes
 .
@@ -147,7 +147,7 @@ render
 const
 {
 icon
-model
+deviceName
 name
 version
 }
@@ -192,7 +192,7 @@ Localized
 {
 id
 :
-model
+deviceName
 ?
 "
 about
@@ -220,9 +220,9 @@ info
 name
 :
 name
-model
+deviceName
 :
-model
+deviceName
 version
 :
 version
@@ -238,7 +238,7 @@ name
 }
 on
 {
-model
+deviceName
 }
 (
 {
