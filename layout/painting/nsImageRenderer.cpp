@@ -532,9 +532,6 @@ IsComplete
 )
 )
 {
-bool
-frameComplete
-=
 mImage
 -
 >
@@ -545,16 +542,11 @@ StartDecoding
 if
 (
 !
-(
-frameComplete
-|
-|
 mImage
 -
 >
 IsComplete
 (
-)
 )
 &
 &
