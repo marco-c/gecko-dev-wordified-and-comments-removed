@@ -319,12 +319,6 @@ DocumentIsEmpty
 (
 )
 ;
-virtual
-nsresult
-DocumentModified
-(
-)
-;
 protected
 :
 virtual

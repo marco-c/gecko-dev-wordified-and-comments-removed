@@ -332,12 +332,11 @@ DocumentIsEmpty
 )
 override
 ;
-virtual
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DocumentModified
 (
 )
-override
 ;
 nsresult
 GetListState
@@ -539,6 +538,15 @@ mListenerEnabled
 false
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+void
+OnModifyDocument
+(
+Selection
+&
+aSelection
+)
+;
 protected
 :
 virtual
@@ -2082,6 +2090,7 @@ bool
 aIncrease
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DocumentModifiedWorker
 (
