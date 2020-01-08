@@ -220,6 +220,13 @@ pipeTo
 ws
 )
 ;
+delete
+Object
+.
+prototype
+.
+then
+;
 assert_array_equals
 (
 intercepted
@@ -343,6 +350,13 @@ pipeTo
 (
 ws
 )
+;
+delete
+Object
+.
+prototype
+.
+then
 ;
 branch2
 .
