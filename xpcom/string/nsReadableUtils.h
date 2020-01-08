@@ -235,6 +235,8 @@ size_t
 aOtherLen
 size_t
 aOldLen
+bool
+aAllowShrinking
 )
 ;
 bool
@@ -265,6 +267,8 @@ size_t
 aOtherLen
 size_t
 aOldLen
+bool
+aAllowShrinking
 )
 ;
 bool
@@ -886,6 +890,7 @@ Length
 (
 )
 0
+true
 )
 ;
 }
@@ -982,6 +987,7 @@ aDest
 Length
 (
 )
+false
 )
 ;
 }
@@ -1274,6 +1280,7 @@ Length
 (
 )
 0
+true
 )
 ;
 }
@@ -1370,6 +1377,7 @@ aDest
 Length
 (
 )
+false
 )
 ;
 }

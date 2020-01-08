@@ -482,6 +482,9 @@ other_ty
 old_len
 :
 usize
+allow_shrinking
+:
+bool
 )
 -
 >
@@ -525,7 +528,7 @@ bulk_write
 (
 new_len
 old_len
-true
+allow_shrinking
 )
 ?
 }
@@ -1169,6 +1172,7 @@ fallible_append_latin1_impl
 (
 other
 0
+true
 )
 .
 expect
@@ -1211,6 +1215,7 @@ fallible_append_latin1_impl
 (
 other
 0
+true
 )
 .
 map
@@ -1252,6 +1257,7 @@ fallible_append_latin1_impl
 (
 other
 len
+false
 )
 .
 expect
@@ -1303,6 +1309,7 @@ fallible_append_latin1_impl
 (
 other
 len
+false
 )
 .
 map
@@ -1890,6 +1897,7 @@ fallible_append_utf16_to_latin1_lossy_impl
 (
 other
 0
+true
 )
 .
 expect
@@ -1932,6 +1940,7 @@ fallible_append_utf16_to_latin1_lossy_impl
 (
 other
 0
+true
 )
 .
 map
@@ -1973,6 +1982,7 @@ fallible_append_utf16_to_latin1_lossy_impl
 (
 other
 len
+false
 )
 .
 expect
@@ -2024,6 +2034,7 @@ fallible_append_utf16_to_latin1_lossy_impl
 (
 other
 len
+false
 )
 .
 map
@@ -3195,6 +3206,9 @@ usize
 old_len
 :
 usize
+allow_shrinking
+:
+bool
 )
 -
 >
@@ -3221,6 +3235,7 @@ fallible_append_latin1_impl
 (
 other_slice
 old_len
+allow_shrinking
 )
 .
 is_ok
@@ -3317,6 +3332,9 @@ usize
 old_len
 :
 usize
+allow_shrinking
+:
+bool
 )
 -
 >
@@ -3343,6 +3361,7 @@ fallible_append_utf16_to_latin1_lossy_impl
 (
 other_slice
 old_len
+allow_shrinking
 )
 .
 is_ok
