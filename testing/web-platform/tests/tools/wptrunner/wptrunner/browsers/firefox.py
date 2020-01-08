@@ -2443,6 +2443,8 @@ self
 lsan_handler
 :
                 
+data
+=
 self
 .
 lsan_handler
@@ -2452,6 +2454,13 @@ log
 data
 )
             
+if
+data
+is
+not
+None
+:
+                
 self
 .
 logger
@@ -2463,9 +2472,9 @@ self
 pid
 (
 )
-                                      
+                                           
 data
-                                      
+                                           
 command
 =
 "
