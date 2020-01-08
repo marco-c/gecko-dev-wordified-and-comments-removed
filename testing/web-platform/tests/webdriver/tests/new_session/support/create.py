@@ -142,6 +142,19 @@ script
     
 (
 "
+strictFileInteractability
+"
+[
+        
+True
+False
+None
+    
+]
+)
+    
+(
+"
 unhandledPromptBehavior
 "
 [
@@ -620,6 +633,24 @@ invalid
 :
 10
 }
+    
+]
+)
+    
+(
+"
+strictFileInteractability
+"
+[
+        
+1
+[
+]
+{
+}
+"
+false
+"
     
 ]
 )
