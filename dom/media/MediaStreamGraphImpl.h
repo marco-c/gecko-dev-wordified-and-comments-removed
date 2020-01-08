@@ -1627,6 +1627,9 @@ mProcessedTime
 =
 0
 ;
+GraphTime
+mEndTime
+;
 TimeStamp
 mLastMainThreadUpdate
 ;
@@ -1792,12 +1795,6 @@ return
 mLifecycleState
 ;
 }
-Atomic
-<
-GraphTime
->
-mEndTime
-;
 bool
 mForceShutDown
 ;
