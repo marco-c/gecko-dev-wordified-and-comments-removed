@@ -2400,12 +2400,6 @@ aHandler
 ;
 }
 }
-#
-if
-defined
-(
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
-)
 static
 bool
 CheckDocShellType
@@ -2536,8 +2530,6 @@ ItemType
 )
 ;
 }
-#
-endif
 void
 nsFrameLoader
 :
@@ -13120,6 +13112,13 @@ ReallyLoadFrameScripts
 )
 ;
 InitializeBrowserAPI
+(
+)
+;
+mRemoteBrowser
+-
+>
+InitRenderFrame
 (
 )
 ;

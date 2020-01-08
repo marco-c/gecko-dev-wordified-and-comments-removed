@@ -1206,11 +1206,6 @@ aData
 parent
 :
 async
-CreatePRenderFrame
-(
-)
-;
-async
 DestroyPRenderFrame
 (
 )

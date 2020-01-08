@@ -4648,13 +4648,6 @@ IsForBrowser
 )
 )
 ;
-newChild
--
->
-SendCreatePRenderFrame
-(
-)
-;
 nsCOMPtr
 <
 nsPIDOMWindowInner
