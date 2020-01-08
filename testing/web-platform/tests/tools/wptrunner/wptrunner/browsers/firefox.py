@@ -1604,16 +1604,6 @@ if
 self
 .
 leak_check
-and
-kwargs
-.
-get
-(
-"
-check_leaks
-"
-True
-)
 :
             
 self
@@ -1632,10 +1622,18 @@ profile
 .
 profile
 "
-runtests_leaks
+runtests_leaks_
+%
+s
 .
 log
 "
+%
+os
+.
+getpid
+(
+)
 )
             
 if
@@ -2260,6 +2258,12 @@ pass
         
 self
 .
+process_leaks
+(
+)
+        
+self
+.
 logger
 .
 debug
@@ -2567,6 +2571,9 @@ def
 cleanup
 (
 self
+force
+=
+False
 )
 :
         
@@ -2574,12 +2581,7 @@ self
 .
 stop
 (
-)
-        
-self
-.
-process_leaks
-(
+force
 )
     
 def
