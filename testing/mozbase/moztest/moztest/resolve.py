@@ -4254,6 +4254,26 @@ path
 import
 manifestupdate
         
+import
+logging
+        
+logger
+=
+logging
+.
+getLogger
+(
+"
+manifestupdate
+"
+)
+        
+logger
+.
+propogate
+=
+False
+        
 manifests
 =
 manifestupdate
@@ -4282,6 +4302,10 @@ True
 update
 =
 True
+                                       
+logger
+=
+logger
 )
         
 if
