@@ -94,7 +94,7 @@ onstatechange
 }
 ;
 ServiceWorker
-implements
+includes
 AbstractWorker
 ;
 enum
