@@ -1336,14 +1336,6 @@ aVisitor
 override
 ;
 virtual
-nsPIDOMWindowOuter
-*
-GetPrivateRoot
-(
-)
-override
-;
-virtual
 bool
 IsTopLevelWindowActive
 (
