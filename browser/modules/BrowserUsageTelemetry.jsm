@@ -1121,7 +1121,7 @@ google
 in
 -
 content
-.
+:
 {
 type
 }
