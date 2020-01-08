@@ -2263,7 +2263,7 @@ global
 return
 nullptr
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -2546,7 +2546,7 @@ uint32_t
 aFlags
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aJSContext

@@ -1336,7 +1336,7 @@ cx
 contentScopeArg
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
