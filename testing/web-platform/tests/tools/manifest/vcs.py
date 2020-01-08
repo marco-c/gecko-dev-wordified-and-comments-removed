@@ -2,6 +2,8 @@ import
 os
 import
 subprocess
+import
+platform
 from
 .
 sourcefile
@@ -105,9 +107,33 @@ STDOUT
 )
             
 except
-WindowsError
+Exception
+as
+e
 :
                 
+if
+platform
+.
+uname
+(
+)
+[
+0
+]
+=
+=
+"
+Windows
+"
+and
+isinstance
+(
+e
+WindowsError
+)
+:
+                        
 full_cmd
 [
 0
@@ -118,7 +144,7 @@ git
 .
 bat
 "
-                
+                        
 return
 subprocess
 .
@@ -134,6 +160,11 @@ subprocess
 .
 STDOUT
 )
+                
+else
+:
+                    
+raise
         
 return
 git
