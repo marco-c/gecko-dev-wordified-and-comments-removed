@@ -334,6 +334,15 @@ geckoview
 .
 GeckoView
 ;
+import
+org
+.
+mozilla
+.
+geckoview
+.
+WebRequestError
+;
 public
 class
 WebAppActivity
@@ -2261,10 +2270,7 @@ final
 String
 urlStr
 final
-int
-category
-final
-int
+WebRequestError
 error
 )
 {

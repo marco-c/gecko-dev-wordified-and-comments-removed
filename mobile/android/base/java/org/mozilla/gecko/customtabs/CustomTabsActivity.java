@@ -515,6 +515,15 @@ geckoview
 GeckoView
 ;
 import
+org
+.
+mozilla
+.
+geckoview
+.
+WebRequestError
+;
+import
 java
 .
 util
@@ -3569,10 +3578,7 @@ final
 String
 urlStr
 final
-int
-category
-final
-int
+WebRequestError
 error
 )
 {

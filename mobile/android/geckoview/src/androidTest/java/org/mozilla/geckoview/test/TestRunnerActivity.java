@@ -80,6 +80,15 @@ geckoview
 GeckoRuntimeSettings
 ;
 import
+org
+.
+mozilla
+.
+geckoview
+.
+WebRequestError
+;
+import
 android
 .
 app
@@ -300,9 +309,7 @@ GeckoSession
 session
 String
 uri
-int
-category
-int
+WebRequestError
 error
 )
 {
