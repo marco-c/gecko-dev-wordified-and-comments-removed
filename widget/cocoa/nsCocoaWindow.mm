@@ -19768,6 +19768,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 id
 retval
 =
@@ -20252,6 +20254,8 @@ holder
 }
 return
 retval
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 end
