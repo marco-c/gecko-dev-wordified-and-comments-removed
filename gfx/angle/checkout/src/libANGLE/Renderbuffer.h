@@ -177,6 +177,8 @@ Renderbuffer
 final
 :
 public
+RefCountObject
+public
 egl
 :
 :
@@ -369,9 +371,7 @@ imageIndex
 const
 override
 ;
-const
 Format
-&
 getAttachmentFormat
 (
 GLenum

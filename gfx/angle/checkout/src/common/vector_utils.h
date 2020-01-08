@@ -2393,7 +2393,7 @@ i
 }
 return
 *
-reinterpret_cast
+static_cast
 <
 Vector
 <
@@ -2473,7 +2473,7 @@ i
 }
 return
 *
-reinterpret_cast
+static_cast
 <
 Vector
 <
@@ -2553,7 +2553,7 @@ i
 }
 return
 *
-reinterpret_cast
+static_cast
 <
 Vector
 <
@@ -2633,7 +2633,7 @@ i
 }
 return
 *
-reinterpret_cast
+static_cast
 <
 Vector
 <
@@ -2702,7 +2702,7 @@ other
 }
 return
 *
-reinterpret_cast
+static_cast
 <
 Vector
 <
@@ -2771,7 +2771,7 @@ other
 }
 return
 *
-reinterpret_cast
+static_cast
 <
 Vector
 <

@@ -107,6 +107,10 @@ Query
 :
 begin
 (
+const
+Context
+*
+context
 )
 {
 return
@@ -115,6 +119,7 @@ mQuery
 >
 begin
 (
+context
 )
 ;
 }
@@ -124,6 +129,10 @@ Query
 :
 end
 (
+const
+Context
+*
+context
 )
 {
 return
@@ -132,6 +141,7 @@ mQuery
 >
 end
 (
+context
 )
 ;
 }
@@ -141,6 +151,10 @@ Query
 :
 queryCounter
 (
+const
+Context
+*
+context
 )
 {
 return
@@ -149,6 +163,7 @@ mQuery
 >
 queryCounter
 (
+context
 )
 ;
 }
@@ -158,6 +173,10 @@ Query
 :
 getResult
 (
+const
+Context
+*
+context
 GLint
 *
 params
@@ -169,6 +188,7 @@ mQuery
 >
 getResult
 (
+context
 params
 )
 ;
@@ -179,6 +199,10 @@ Query
 :
 getResult
 (
+const
+Context
+*
+context
 GLuint
 *
 params
@@ -190,6 +214,7 @@ mQuery
 >
 getResult
 (
+context
 params
 )
 ;
@@ -200,6 +225,10 @@ Query
 :
 getResult
 (
+const
+Context
+*
+context
 GLint64
 *
 params
@@ -211,6 +240,7 @@ mQuery
 >
 getResult
 (
+context
 params
 )
 ;
@@ -221,6 +251,10 @@ Query
 :
 getResult
 (
+const
+Context
+*
+context
 GLuint64
 *
 params
@@ -232,6 +266,7 @@ mQuery
 >
 getResult
 (
+context
 params
 )
 ;
@@ -242,6 +277,10 @@ Query
 :
 isResultAvailable
 (
+const
+Context
+*
+context
 bool
 *
 available
@@ -253,6 +292,7 @@ mQuery
 >
 isResultAvailable
 (
+context
 available
 )
 ;

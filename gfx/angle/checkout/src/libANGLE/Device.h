@@ -18,7 +18,7 @@ include
 "
 libANGLE
 /
-Error
+Display
 .
 h
 "
@@ -27,7 +27,7 @@ include
 "
 libANGLE
 /
-Display
+Error
 .
 h
 "
@@ -50,6 +50,8 @@ class
 Device
 final
 :
+public
+LabeledObject
 angle
 :
 :
@@ -75,6 +77,21 @@ virtual
 Device
 (
 )
+;
+void
+setLabel
+(
+EGLLabelKHR
+label
+)
+override
+;
+EGLLabelKHR
+getLabel
+(
+)
+const
+override
 ;
 Error
 getDevice
@@ -158,6 +175,7 @@ static
 bool
 IsValidDevice
 (
+const
 Device
 *
 device
@@ -169,6 +187,9 @@ void
 initDeviceExtensions
 (
 )
+;
+EGLLabelKHR
+mLabel
 ;
 Display
 *

@@ -115,7 +115,7 @@ eglStreamPostD3DTextureANGLE
 65
 eglGetSyncValuesCHROMIUM
 66
-eglSwapBuffersWithDamageEXT
+eglSwapBuffersWithDamageKHR
 67
 eglProgramCacheGetAttribANGLE
 68
@@ -125,6 +125,18 @@ eglProgramCacheQueryANGLE
 70
 eglProgramCacheResizeANGLE
 71
+eglCreatePlatformWindowSurfaceEXT
+72
+eglCreatePlatformPixmapSurfaceEXT
+73
+eglPresentationTimeANDROID
+74
+eglDebugMessageControlKHR
+75
+eglQueryDebugKHR
+76
+eglLabelObjectKHR
+77
 ;
 1
 .

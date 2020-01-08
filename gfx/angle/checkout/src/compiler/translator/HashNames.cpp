@@ -58,14 +58,6 @@ sh
 {
 namespace
 {
-static
-const
-unsigned
-int
-kESSLMaxIdentifierLength
-=
-1024u
-;
 constexpr
 const
 ImmutableString
@@ -367,11 +359,7 @@ Empty
 )
 {
 return
-ImmutableString
-(
-"
-"
-)
+kEmptyImmutableString
 ;
 }
 if

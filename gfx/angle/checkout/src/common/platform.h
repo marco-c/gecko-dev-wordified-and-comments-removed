@@ -371,6 +371,13 @@ defined
 (
 _M_ARM
 )
+&
+&
+!
+defined
+(
+_M_ARM64
+)
 #
 include
 <

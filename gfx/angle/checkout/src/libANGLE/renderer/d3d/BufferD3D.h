@@ -124,10 +124,10 @@ const
 0
 ;
 virtual
-gl
+angle
 :
 :
-Error
+Result
 markTransformFeedbackUsage
 (
 const
@@ -142,10 +142,10 @@ context
 0
 ;
 virtual
-gl
+angle
 :
 :
-Error
+Result
 getData
 (
 const

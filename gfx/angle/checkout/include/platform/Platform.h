@@ -833,7 +833,8 @@ PlatformMethods
 PlatformMethods
 (
 )
-;
+{
+}
 void
 *
 context

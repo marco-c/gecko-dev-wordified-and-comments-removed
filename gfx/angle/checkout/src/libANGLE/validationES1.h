@@ -387,7 +387,7 @@ Context
 context
 GLenum
 light
-GLenum
+LightParameter
 pname
 GLfloat
 *
@@ -402,7 +402,7 @@ Context
 context
 GLenum
 light
-GLenum
+LightParameter
 pname
 GLfixed
 *
@@ -417,7 +417,7 @@ Context
 context
 GLenum
 face
-GLenum
+MaterialParameter
 pname
 GLfloat
 *
@@ -432,7 +432,7 @@ Context
 context
 GLenum
 face
-GLenum
+MaterialParameter
 pname
 GLfixed
 *
@@ -459,9 +459,9 @@ ValidateGetTexEnvfv
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 GLfloat
 *
@@ -474,9 +474,9 @@ ValidateGetTexEnviv
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 GLint
 *
@@ -489,9 +489,9 @@ ValidateGetTexEnvxv
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 GLfixed
 *
@@ -573,7 +573,7 @@ Context
 context
 GLenum
 light
-GLenum
+LightParameter
 pname
 GLfloat
 param
@@ -587,7 +587,7 @@ Context
 context
 GLenum
 light
-GLenum
+LightParameter
 pname
 const
 GLfloat
@@ -603,7 +603,7 @@ Context
 context
 GLenum
 light
-GLenum
+LightParameter
 pname
 GLfixed
 param
@@ -617,7 +617,7 @@ Context
 context
 GLenum
 light
-GLenum
+LightParameter
 pname
 const
 GLfixed
@@ -673,7 +673,7 @@ ValidateLogicOp
 Context
 *
 context
-GLenum
+LogicalOperation
 opcode
 )
 ;
@@ -685,7 +685,7 @@ Context
 context
 GLenum
 face
-GLenum
+MaterialParameter
 pname
 GLfloat
 param
@@ -699,7 +699,7 @@ Context
 context
 GLenum
 face
-GLenum
+MaterialParameter
 pname
 const
 GLfloat
@@ -715,7 +715,7 @@ Context
 context
 GLenum
 face
-GLenum
+MaterialParameter
 pname
 GLfixed
 param
@@ -729,7 +729,7 @@ Context
 context
 GLenum
 face
-GLenum
+MaterialParameter
 pname
 const
 GLfixed
@@ -897,7 +897,7 @@ ValidatePointParameterf
 Context
 *
 context
-GLenum
+PointParameter
 pname
 GLfloat
 param
@@ -909,7 +909,7 @@ ValidatePointParameterfv
 Context
 *
 context
-GLenum
+PointParameter
 pname
 const
 GLfloat
@@ -923,7 +923,7 @@ ValidatePointParameterx
 Context
 *
 context
-GLenum
+PointParameter
 pname
 GLfixed
 param
@@ -935,7 +935,7 @@ ValidatePointParameterxv
 Context
 *
 context
-GLenum
+PointParameter
 pname
 const
 GLfixed
@@ -1069,7 +1069,7 @@ ValidateShadeModel
 Context
 *
 context
-GLenum
+ShadingModel
 mode
 )
 ;
@@ -1097,9 +1097,9 @@ ValidateTexEnvf
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 GLfloat
 param
@@ -1111,9 +1111,9 @@ ValidateTexEnvfv
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 const
 GLfloat
@@ -1127,9 +1127,9 @@ ValidateTexEnvi
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 GLint
 param
@@ -1141,9 +1141,9 @@ ValidateTexEnviv
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 const
 GLint
@@ -1157,9 +1157,9 @@ ValidateTexEnvx
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 GLfixed
 param
@@ -1171,9 +1171,9 @@ ValidateTexEnvxv
 Context
 *
 context
-GLenum
+TextureEnvTarget
 target
-GLenum
+TextureEnvParameter
 pname
 const
 GLfixed

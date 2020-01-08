@@ -7,7 +7,7 @@ LIBANGLE_ATTRIBUTEMAP_H_
 #
 include
 "
-libANGLE
+common
 /
 PackedEnums
 .

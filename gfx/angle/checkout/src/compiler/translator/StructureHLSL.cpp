@@ -270,6 +270,10 @@ ArrayString
 (
 fieldType
 )
+.
+data
+(
+)
 +
 "
 ;
@@ -387,6 +391,10 @@ parameter
 ArrayString
 (
 paramType
+)
+.
+data
+(
 )
 ;
 if

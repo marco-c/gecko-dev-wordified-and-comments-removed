@@ -79,6 +79,15 @@ char
 value
 )
 ;
+bool
+UnsetEnvironmentVar
+(
+const
+char
+*
+variableName
+)
+;
 std
 :
 :

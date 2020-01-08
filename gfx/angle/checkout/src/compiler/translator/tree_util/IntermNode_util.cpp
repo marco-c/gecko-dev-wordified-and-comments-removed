@@ -648,11 +648,7 @@ new
 TVariable
 (
 symbolTable
-ImmutableString
-(
-"
-"
-)
+kEmptyImmutableString
 type
 SymbolType
 :
@@ -1134,7 +1130,7 @@ TVariable
 *
 var
 =
-reinterpret_cast
+static_cast
 <
 const
 TVariable
@@ -1183,7 +1179,7 @@ TVariable
 *
 var
 =
-reinterpret_cast
+static_cast
 <
 const
 TVariable

@@ -115,7 +115,7 @@ uint8_t
 *
 newMemory
 =
-reinterpret_cast
+static_cast
 <
 uint8_t
 *

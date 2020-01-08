@@ -50,7 +50,7 @@ h
 #
 define
 ANGLE_SH_VERSION
-197
+198
 enum
 ShShaderSpec
 {
@@ -698,6 +698,9 @@ EXT_YUV_target
 ;
 int
 EXT_geometry_shader
+;
+int
+OES_texture_storage_multisample_2d_array
 ;
 int
 NV_draw_buffers

@@ -517,7 +517,7 @@ mOut
 node
 -
 >
-getCompleteString
+getType
 (
 )
 <
@@ -593,7 +593,7 @@ mOut
 node
 -
 >
-getCompleteString
+getType
 (
 )
 <
@@ -1375,7 +1375,7 @@ mOut
 node
 -
 >
-getCompleteString
+getType
 (
 )
 <
@@ -1804,7 +1804,7 @@ mOut
 node
 -
 >
-getCompleteString
+getType
 (
 )
 <
@@ -1945,7 +1945,7 @@ mOut
 node
 -
 >
-getCompleteString
+getType
 (
 )
 <
@@ -2048,10 +2048,6 @@ param
 -
 >
 getType
-(
-)
-.
-getCompleteString
 (
 )
 <
@@ -2385,7 +2381,7 @@ mOut
 node
 -
 >
-getCompleteString
+getType
 (
 )
 <
@@ -2518,7 +2514,7 @@ mOut
 node
 -
 >
-getCompleteString
+getType
 (
 )
 <

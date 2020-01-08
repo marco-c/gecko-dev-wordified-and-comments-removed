@@ -86,6 +86,9 @@ namespace
 sh
 {
 class
+TIntermBlock
+;
+class
 TSymbolTable
 ;
 float
@@ -170,7 +173,7 @@ TQualifier
 qualifier
 )
 ;
-TString
+ImmutableString
 ArrayString
 (
 const
@@ -203,6 +206,18 @@ sh
 ShaderVariable
 &
 var
+)
+;
+void
+DeclareGlobalVariable
+(
+TIntermBlock
+*
+root
+const
+TVariable
+*
+variable
 )
 ;
 bool

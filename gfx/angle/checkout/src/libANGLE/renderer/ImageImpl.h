@@ -33,6 +33,9 @@ namespace
 egl
 {
 class
+Display
+;
+class
 ImageSibling
 ;
 struct
@@ -83,6 +86,13 @@ egl
 Error
 initialize
 (
+const
+egl
+:
+:
+Display
+*
+display
 )
 =
 0

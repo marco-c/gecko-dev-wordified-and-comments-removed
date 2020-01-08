@@ -34,17 +34,6 @@ angle
 :
 :
 PlatformMethods
-:
-:
-PlatformMethods
-(
-)
-{
-}
-angle
-:
-:
-PlatformMethods
 *
 ANGLEPlatformCurrent
 (

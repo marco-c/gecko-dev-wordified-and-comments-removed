@@ -710,6 +710,14 @@ mLength
 ;
 }
 ;
+constexpr
+ImmutableString
+kEmptyImmutableString
+(
+"
+"
+)
+;
 }
 std
 :

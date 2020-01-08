@@ -252,13 +252,6 @@ ShaderD3D
 :
 getDebugInfo
 (
-const
-gl
-:
-:
-Context
-*
-context
 )
 const
 {
@@ -738,13 +731,6 @@ ShaderD3D
 :
 postTranslateCompile
 (
-const
-gl
-:
-:
-Context
-*
-context
 gl
 :
 :

@@ -83,10 +83,10 @@ supportsDirectBinding
 const
 override
 ;
-gl
+angle
 :
 :
-Error
+Result
 getData
 (
 const
@@ -257,10 +257,10 @@ result
 )
 override
 ;
-gl
+angle
 :
 :
-Error
+Result
 markTransformFeedbackUsage
 (
 const

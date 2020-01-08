@@ -244,6 +244,12 @@ gl
 PixelUnpackState
 &
 unpack
+gl
+:
+:
+Buffer
+*
+unpackBuffer
 const
 uint8_t
 *

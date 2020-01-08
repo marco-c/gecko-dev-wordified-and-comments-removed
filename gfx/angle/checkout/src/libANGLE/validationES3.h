@@ -7,7 +7,7 @@ LIBANGLE_VALIDATION_ES3_H_
 #
 include
 "
-libANGLE
+common
 /
 PackedEnums
 .
@@ -457,7 +457,7 @@ ValidateDrawRangeElements
 Context
 *
 context
-GLenum
+PrimitiveMode
 mode
 GLuint
 start
@@ -1101,7 +1101,7 @@ ValidateBeginTransformFeedback
 Context
 *
 context
-GLenum
+PrimitiveMode
 primitiveMode
 )
 ;
@@ -1361,7 +1361,7 @@ ValidateDrawElementsInstanced
 Context
 *
 context
-GLenum
+PrimitiveMode
 mode
 GLsizei
 count
@@ -1942,7 +1942,7 @@ ValidateDrawArraysInstanced
 Context
 *
 context
-GLenum
+PrimitiveMode
 mode
 GLint
 first

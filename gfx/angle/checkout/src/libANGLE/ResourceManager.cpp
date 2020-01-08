@@ -1885,19 +1885,6 @@ Framebuffer
 framebuffer
 )
 {
-if
-(
-framebuffer
--
->
-id
-(
-)
-!
-=
-0
-)
-{
 framebuffer
 -
 >
@@ -1909,7 +1896,6 @@ context
 delete
 framebuffer
 ;
-}
 }
 GLuint
 FramebufferManager
@@ -1995,6 +1981,10 @@ FramebufferManager
 :
 invalidateFramebufferComplenessCache
 (
+const
+Context
+*
+context
 )
 const
 {
@@ -2022,6 +2012,7 @@ second
 >
 invalidateCompletenessCache
 (
+context
 )
 ;
 }

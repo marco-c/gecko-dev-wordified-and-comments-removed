@@ -7,7 +7,7 @@ LIBANGLE_VALIDATION_ES2_H_
 #
 include
 "
-libANGLE
+common
 /
 PackedEnums
 .
@@ -2687,7 +2687,7 @@ ValidateDrawElements
 Context
 *
 context
-GLenum
+PrimitiveMode
 mode
 GLsizei
 count
@@ -2705,7 +2705,7 @@ ValidateDrawArrays
 Context
 *
 context
-GLenum
+PrimitiveMode
 mode
 GLint
 first
@@ -3457,6 +3457,16 @@ GLsizei
 height
 GLsizei
 depth
+)
+;
+bool
+ValidateMaxShaderCompilerThreadsKHR
+(
+Context
+*
+context
+GLuint
+count
 )
 ;
 }

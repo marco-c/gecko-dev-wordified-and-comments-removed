@@ -166,9 +166,6 @@ static_cast
 ShaderType
 >
 (
-gl
-:
-:
 ScanForward
 (
 mActiveUseBits

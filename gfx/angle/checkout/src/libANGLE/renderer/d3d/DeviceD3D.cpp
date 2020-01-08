@@ -109,7 +109,7 @@ ID3D11Device
 *
 device
 =
-reinterpret_cast
+static_cast
 <
 ID3D11Device
 *
@@ -198,7 +198,7 @@ IUnknown
 *
 iunknown
 =
-reinterpret_cast
+static_cast
 <
 IUnknown
 *

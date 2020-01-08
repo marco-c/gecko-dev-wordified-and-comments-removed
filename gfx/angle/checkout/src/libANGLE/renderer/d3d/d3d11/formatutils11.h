@@ -43,7 +43,7 @@ libANGLE
 /
 renderer
 /
-renderer_utils
+copyvertex
 .
 h
 "
@@ -57,6 +57,17 @@ renderer
 d3d
 /
 formatutilsD3D
+.
+h
+"
+#
+include
+"
+libANGLE
+/
+renderer
+/
+renderer_utils
 .
 h
 "

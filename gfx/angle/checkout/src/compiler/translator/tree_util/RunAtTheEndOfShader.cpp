@@ -224,11 +224,7 @@ new
 TFunction
 (
 symbolTable
-ImmutableString
-(
-"
-"
-)
+kEmptyImmutableString
 SymbolType
 :
 :

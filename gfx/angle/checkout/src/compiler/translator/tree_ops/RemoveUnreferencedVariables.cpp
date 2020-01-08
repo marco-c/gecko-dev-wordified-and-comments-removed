@@ -1033,11 +1033,7 @@ new
 TVariable
 (
 mSymbolTable
-ImmutableString
-(
-"
-"
-)
+kEmptyImmutableString
 new
 TType
 (
