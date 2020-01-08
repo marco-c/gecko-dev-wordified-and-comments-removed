@@ -83,7 +83,7 @@ name
 firefox
 channel
 :
-beta
+stable
 }
 {
 name
@@ -91,7 +91,7 @@ name
 chrome
 channel
 :
-beta
+stable
 }
 ]
 event
@@ -116,7 +116,7 @@ name
 firefox
 channel
 :
-stable
+beta
 }
 {
 name
@@ -124,7 +124,7 @@ name
 chrome
 channel
 :
-stable
+beta
 }
 ]
 }
