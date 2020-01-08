@@ -121,6 +121,13 @@ __OpenBSD__
 !
 defined
 (
+__FreeBSD__
+)
+&
+&
+!
+defined
+(
 ANDROID
 )
 void
@@ -340,6 +347,13 @@ if
 defined
 (
 __OpenBSD__
+)
+&
+&
+!
+defined
+(
+__FreeBSD__
 )
 &
 &

@@ -277,6 +277,7 @@ the
 build
 on
 OpenBSD
+FreeBSD
 and
 Android
 (
@@ -292,9 +293,10 @@ anymore
 See
 bug
 931354
-and
 bug
 1259218
+bug
+1497169
 .
 -
 "
