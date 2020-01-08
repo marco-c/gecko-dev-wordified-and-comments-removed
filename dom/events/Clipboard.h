@@ -168,6 +168,18 @@ GetClipboardLog
 (
 )
 ;
+static
+bool
+ReadTextEnabled
+(
+JSContext
+*
+aCx
+JSObject
+*
+aGlobal
+)
+;
 virtual
 JSObject
 *
@@ -190,6 +202,7 @@ override
 ;
 private
 :
+static
 bool
 IsTestingPrefEnabled
 (
