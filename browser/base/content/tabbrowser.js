@@ -25800,7 +25800,7 @@ gNavigatorBundle
 getString
 (
 "
-unmuteSelectedTabs
+unmuteSelectedTabs2
 .
 label
 "
@@ -25815,7 +25815,7 @@ gNavigatorBundle
 getString
 (
 "
-unmuteSelectedTabs
+unmuteSelectedTabs2
 .
 accesskey
 "
@@ -25833,7 +25833,7 @@ gNavigatorBundle
 getString
 (
 "
-muteSelectedTabs
+muteSelectedTabs2
 .
 label
 "
@@ -25848,7 +25848,7 @@ gNavigatorBundle
 getString
 (
 "
-muteSelectedTabs
+muteSelectedTabs2
 .
 accesskey
 "
