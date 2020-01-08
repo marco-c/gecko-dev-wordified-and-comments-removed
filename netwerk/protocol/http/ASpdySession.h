@@ -65,6 +65,7 @@ nsAHttpTransaction
 *
 int32_t
 bool
+bool
 nsIInterfaceRequestor
 *
 )
@@ -345,6 +346,14 @@ void
 SetCleanShutdown
 (
 bool
+)
+=
+0
+;
+virtual
+bool
+CanAcceptWebsocket
+(
 )
 =
 0

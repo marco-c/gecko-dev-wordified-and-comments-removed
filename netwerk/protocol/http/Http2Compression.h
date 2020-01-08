@@ -751,8 +751,12 @@ const
 nsACString
 &
 scheme
+const
+nsACString
+&
+protocol
 bool
-connectForm
+simpleConnectForm
 nsACString
 &
 output

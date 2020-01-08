@@ -675,6 +675,15 @@ return
 mUseH2Deps
 ;
 }
+bool
+IsH2WebsocketsEnabled
+(
+)
+{
+return
+mEnableH2Websockets
+;
+}
 uint32_t
 MaxConnectionsPerOrigin
 (
@@ -1973,6 +1982,11 @@ mEnableAltSvcOE
 ;
 uint32_t
 mEnableOriginExtension
+:
+1
+;
+uint32_t
+mEnableH2Websockets
 :
 1
 ;

@@ -171,6 +171,8 @@ ARefBase
 public
 nsSupportsWeakReference
 {
+private
+:
 virtual
 ~
 nsHttpConnection
@@ -744,6 +746,8 @@ request
 nsACString
 &
 result
+bool
+h2ws
 )
 ;
 void
@@ -851,6 +855,11 @@ NoClientCertAuth
 (
 )
 const
+;
+bool
+CanAcceptWebsocket
+(
+)
 ;
 private
 :
