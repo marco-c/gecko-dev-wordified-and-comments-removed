@@ -352,7 +352,7 @@ DebuggerRunsInMiddleman
 (
 )
 ;
-bool
+void
 SendMiddlemanCallRequest
 (
 const
