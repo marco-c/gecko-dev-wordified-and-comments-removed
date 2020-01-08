@@ -98,6 +98,9 @@ nsIUDPSocketInternal
 >
 mSocket
 ;
+bool
+mIPCOpen
+;
 }
 ;
 class

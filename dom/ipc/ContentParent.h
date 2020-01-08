@@ -1021,9 +1021,7 @@ const
 {
 return
 !
-IPCOpen
-(
-)
+mIPCOpen
 ;
 }
 virtual
@@ -5606,6 +5604,9 @@ mCreatedPairedMinidumps
 ;
 bool
 mShutdownPending
+;
+bool
+mIPCOpen
 ;
 bool
 mIsRemoteInputEventQueueEnabled

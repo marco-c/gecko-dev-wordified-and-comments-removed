@@ -159,6 +159,15 @@ reply
 )
 override
 ;
+virtual
+void
+ActorDestroy
+(
+ActorDestroyReason
+why
+)
+override
+;
 nsCOMPtr
 <
 nsIDNSListener
@@ -198,6 +207,9 @@ mOriginAttributes
 ;
 uint16_t
 mFlags
+;
+bool
+mIPCOpen
 ;
 }
 ;

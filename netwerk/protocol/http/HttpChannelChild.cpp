@@ -10085,7 +10085,6 @@ if
 (
 mIPCOpen
 )
-{
 SendRedirect2Verify
 (
 result
@@ -10100,7 +10099,6 @@ corsPreflightArgs
 chooseAppcache
 )
 ;
-}
 return
 NS_OK
 ;

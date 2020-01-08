@@ -172,6 +172,9 @@ TCPServerSocket
 >
 mServerSocket
 ;
+bool
+mIPCOpen
+;
 }
 ;
 }
