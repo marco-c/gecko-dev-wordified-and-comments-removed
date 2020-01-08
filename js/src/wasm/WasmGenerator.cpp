@@ -5498,7 +5498,7 @@ OptimizedEncodingListener
 maybeTier2Listener
 UniqueLinkData
 *
-maybeLinkDataOut
+maybeLinkData
 )
 {
 MOZ_ASSERT
@@ -6218,16 +6218,9 @@ maybeTier2Listener
 }
 if
 (
-maybeLinkDataOut
+maybeLinkData
 )
 {
-MOZ_ASSERT
-(
-isAsmJS
-(
-)
-)
-;
 MOZ_ASSERT
 (
 !
@@ -6240,7 +6233,7 @@ debugEnabled
 )
 ;
 *
-maybeLinkDataOut
+maybeLinkData
 =
 std
 :

@@ -2261,6 +2261,9 @@ error
 UniqueCharsVector
 *
 warnings
+UniqueLinkData
+*
+maybeLinkData
 )
 {
 MOZ_RELEASE_ASSERT
@@ -2441,6 +2444,8 @@ mg
 finishModule
 (
 bytecode
+nullptr
+maybeLinkData
 )
 ;
 }

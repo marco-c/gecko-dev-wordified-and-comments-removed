@@ -826,7 +826,7 @@ maybeTier2Listener
 nullptr
 UniqueLinkData
 *
-maybeLinkDataOut
+maybeLinkData
 =
 nullptr
 )
