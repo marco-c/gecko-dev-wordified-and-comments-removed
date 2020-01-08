@@ -40,10 +40,6 @@ stop
 :
 {
 }
-download
-:
-{
-}
 purgeHistory
 :
 {
