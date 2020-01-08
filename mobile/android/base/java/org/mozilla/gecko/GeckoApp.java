@@ -5726,6 +5726,8 @@ false
 catch
 (
 SessionRestoreException
+|
+OutOfMemoryError
 e
 )
 {
@@ -5761,6 +5763,14 @@ getProfile
 .
 sessionFileExists
 (
+)
+&
+&
+!
+(
+e
+instanceof
+OutOfMemoryError
 )
 )
 {
@@ -5799,6 +5809,8 @@ FENNEC_SESSIONSTORE_RESTORING_FROM_BACKUP
 catch
 (
 SessionRestoreException
+|
+OutOfMemoryError
 ex
 )
 {
@@ -5851,6 +5863,14 @@ getBoolean
 (
 PREFS_IS_FIRST_RUN
 true
+)
+&
+&
+!
+(
+ex
+instanceof
+OutOfMemoryError
 )
 )
 {
