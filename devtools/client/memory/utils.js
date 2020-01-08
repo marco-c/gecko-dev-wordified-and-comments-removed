@@ -285,6 +285,14 @@ replace
 \
 .
 fxsnapshot
+(
+?
+:
+\
+.
+gz
+)
+?
 /
 "
 "
