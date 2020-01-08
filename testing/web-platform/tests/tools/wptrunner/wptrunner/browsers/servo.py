@@ -226,16 +226,14 @@ user_stylesheets
 ca_certificate_path
 "
 :
-kwargs
+config
+.
+ssl_config
 [
 "
-ssl_env
+ca_cert_path
 "
 ]
-.
-ca_cert_path
-(
-)
     
 }
 def
