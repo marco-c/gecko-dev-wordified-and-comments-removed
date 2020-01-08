@@ -1313,6 +1313,7 @@ TakeFocus
 )
 const
 ;
+virtual
 void
 ScrollTo
 (
