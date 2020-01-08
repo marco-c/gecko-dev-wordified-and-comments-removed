@@ -471,6 +471,16 @@ hello
 children
 :
 [
+{
+role
+:
+ROLE_LABEL
+name
+:
+"
+hello
+"
+}
 ]
 }
 ;

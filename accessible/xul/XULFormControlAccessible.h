@@ -512,6 +512,17 @@ Accessible
 aAccessible
 )
 ;
+virtual
+bool
+IsAcceptableChild
+(
+nsIContent
+*
+aEl
+)
+const
+override
+;
 }
 ;
 class
