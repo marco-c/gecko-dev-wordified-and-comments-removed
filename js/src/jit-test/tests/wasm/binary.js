@@ -3874,6 +3874,7 @@ body
 prefix
 ]
 }
+false
 )
 ]
 )
@@ -3892,7 +3893,9 @@ binary
 )
 CompileError
 /
-unrecognized
+unable
+to
+read
 opcode
 /
 )

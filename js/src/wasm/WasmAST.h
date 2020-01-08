@@ -4382,7 +4382,7 @@ Kind
 ExprType
 :
 :
-I32
+Void
 )
 dest_
 (
@@ -4486,7 +4486,7 @@ Kind
 ExprType
 :
 :
-I32
+Void
 )
 start_
 (
