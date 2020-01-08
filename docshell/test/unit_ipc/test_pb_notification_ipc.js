@@ -13,8 +13,6 @@ obs
 =
 {
 observe
-:
-function
 (
 aSubject
 aTopic
