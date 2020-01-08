@@ -80,6 +80,12 @@ assert
 value
 is
 None
+    
+session
+.
+end
+(
+)
 def
 test_dismissed_beforeunload_prompt
 (
@@ -193,3 +199,9 @@ session
 alert
 .
 text
+    
+session
+.
+end
+(
+)
