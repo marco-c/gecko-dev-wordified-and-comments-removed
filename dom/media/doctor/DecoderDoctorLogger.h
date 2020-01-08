@@ -1799,7 +1799,7 @@ T
 class
 DecoderDoctorLifeLogger
 {
-public
+protected
 :
 DecoderDoctorLifeLogger
 (
