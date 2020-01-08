@@ -946,9 +946,6 @@ aboutURL
 "
 iconURL
 "
-"
-icon64URL
-"
 ]
 ;
 const
@@ -2585,12 +2582,6 @@ browser_style
 addon
 .
 iconURL
-=
-null
-;
-addon
-.
-icon64URL
 =
 null
 ;
