@@ -285,8 +285,7 @@ execution
 .
 enable_iterator_debugging
 =
-!
-build_with_mozilla
+true
 }
 #
 =
