@@ -61,6 +61,13 @@ faviconPromise
 =
 waitForFaviconMessage
 (
+true
+{
+ROOT
+}
+large
+.
+png
 )
 ;
 BrowserTestUtils
