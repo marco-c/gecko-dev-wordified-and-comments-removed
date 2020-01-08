@@ -92,9 +92,6 @@ DIRS
 '
 testplugin
 '
-'
-testaddon
-'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
