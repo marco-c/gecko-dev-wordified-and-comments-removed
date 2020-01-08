@@ -17253,6 +17253,15 @@ if
 aTab
 .
 selected
+&
+&
+!
+window
+.
+isBlankPageURL
+(
+uri
+)
 )
 {
 browser
