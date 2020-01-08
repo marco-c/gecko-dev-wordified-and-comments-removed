@@ -1430,7 +1430,6 @@ is_empty
 (
 )
 }
-pub
 fn
 frame_message
 (
@@ -1478,7 +1477,6 @@ low_priority
 false
 }
 }
-pub
 fn
 scene_message
 (
