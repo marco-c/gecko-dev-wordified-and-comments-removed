@@ -268,8 +268,6 @@ stop
 (
 {
 onStopped
-:
-function
 (
 )
 {

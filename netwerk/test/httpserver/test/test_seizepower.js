@@ -182,8 +182,6 @@ dispatchToMainThread
 (
 {
 run
-:
-function
 (
 )
 {

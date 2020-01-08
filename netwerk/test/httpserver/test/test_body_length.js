@@ -146,9 +146,9 @@ XPCOMUtils
 defineLazyGetter
 (
 this
-'
+"
 tests
-'
+"
 function
 (
 )

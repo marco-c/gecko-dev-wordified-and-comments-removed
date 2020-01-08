@@ -677,14 +677,13 @@ valid
 )
 ;
 throw
-'
+"
 header
 doesn
-\
 '
 t
 exist
-'
+"
 ;
 }
 catch
