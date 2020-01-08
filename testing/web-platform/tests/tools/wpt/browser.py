@@ -1912,6 +1912,18 @@ dest
 profiles
 "
 channel
+)
+        
+if
+version
+:
+            
+dest
+=
+dest
+.
+join
+(
 version
 )
         
@@ -4252,7 +4264,8 @@ binary
 return
 None
         
-return
+m
+=
 re
 .
 search
@@ -4283,6 +4296,13 @@ strip
 (
 )
 )
+        
+if
+m
+:
+            
+return
+m
 .
 group
 (
@@ -5124,7 +5144,8 @@ version
 "
 )
         
-return
+m
+=
 re
 .
 search
@@ -5155,6 +5176,13 @@ strip
 (
 )
 )
+        
+if
+m
+:
+            
+return
+m
 .
 group
 (

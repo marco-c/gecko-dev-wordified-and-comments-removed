@@ -49,9 +49,9 @@ tests
 .
 support
 .
-wait
+sync
 import
-wait
+Poll
 def
 link_doc
 (
@@ -818,9 +818,16 @@ False
 )
 )
     
-wait
+Poll
 (
 session
+message
+=
+error_message
+)
+.
+until
+(
 lambda
 s
 :
@@ -830,7 +837,6 @@ url
 =
 =
 destination
-error_message
 )
     
 session
@@ -857,9 +863,16 @@ False
 )
 )
     
-wait
+Poll
 (
 session
+message
+=
+error_message
+)
+.
+until
+(
 lambda
 s
 :
@@ -869,7 +882,6 @@ url
 =
 =
 destination
-error_message
 )
 pytest
 .
