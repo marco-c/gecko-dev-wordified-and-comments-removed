@@ -81,9 +81,9 @@ url
 ;
 openDialog
 (
-getBrowserURL
-(
-)
+AppConstants
+.
+BROWSER_CHROME_URL
 "
 "
 features

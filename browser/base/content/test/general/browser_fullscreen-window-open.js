@@ -1181,9 +1181,9 @@ WindowListener
 message
 .
 title
-getBrowserURL
-(
-)
+AppConstants
+.
+BROWSER_CHROME_URL
 {
 onSuccess
 :
@@ -1401,9 +1401,9 @@ WindowListener
 message
 .
 title
-getBrowserURL
-(
-)
+AppConstants
+.
+BROWSER_CHROME_URL
 {
 onSuccess
 :

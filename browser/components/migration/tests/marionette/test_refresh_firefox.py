@@ -1875,19 +1875,9 @@ execute_script
 const
 BROWSER_DOCURL
 =
-"
-chrome
-:
-/
-/
-browser
-/
-content
-/
-browser
+AppConstants
 .
-xul
-"
+BROWSER_CHROME_URL
 ;
           
 return
