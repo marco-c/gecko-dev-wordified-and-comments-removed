@@ -663,10 +663,6 @@ popup
 getItems
 (
 )
-.
-reverse
-(
-)
 ;
 is
 (
