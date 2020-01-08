@@ -93,9 +93,6 @@ mozscreenshots
 USE_EXTENSION_MANIFEST
 =
 True
-NO_JS_MANIFEST
-=
-True
 FINAL_TARGET_FILES
 +
 =

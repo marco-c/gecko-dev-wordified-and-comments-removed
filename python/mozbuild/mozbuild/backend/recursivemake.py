@@ -345,11 +345,6 @@ NO_INTERFACES_MANIFEST
     
 b
 '
-NO_JS_MANIFEST
-'
-    
-b
-'
 OS_LIBS
 '
     
