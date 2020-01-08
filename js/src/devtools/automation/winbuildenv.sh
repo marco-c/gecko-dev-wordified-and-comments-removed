@@ -189,6 +189,12 @@ vs
 -
 latest
 fi
+mk_export_correct_style
+CC
+mk_export_correct_style
+CXX
+mk_export_correct_style
+LINKER
 #
 PATH
 also
