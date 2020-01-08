@@ -384,6 +384,7 @@ ColorDepth
 Color8
 Color10
 Color12
+Color16
 }
 impl
 ColorDepth
@@ -422,6 +423,13 @@ Color12
 =
 >
 12
+ColorDepth
+:
+:
+Color16
+=
+>
+16
 }
 }
 pub
@@ -462,6 +470,15 @@ Color12
 =
 >
 16
+.
+0
+ColorDepth
+:
+:
+Color16
+=
+>
+1
 .
 0
 }

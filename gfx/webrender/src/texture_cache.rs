@@ -76,7 +76,7 @@ internal_types
 :
 {
 RenderTargetInfo
-SourceTexture
+TextureSource
 TextureUpdate
 TextureUpdateOp
 }
@@ -2461,7 +2461,7 @@ entry
 uv_rect_handle
 texture_id
 :
-SourceTexture
+TextureSource
 :
 :
 TextureCache
@@ -2522,7 +2522,7 @@ TextureCacheHandle
 -
 >
 (
-SourceTexture
+CacheTextureId
 i32
 DeviceUintRect
 )
@@ -2642,15 +2642,9 @@ origin
 }
 ;
 (
-SourceTexture
-:
-:
-TextureCache
-(
 entry
 .
 texture_id
-)
 layer_index
 as
 i32

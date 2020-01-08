@@ -137,7 +137,7 @@ data
 3
 ]
 =
-fetch_from_resource_cache_3_direct
+fetch_from_gpu_cache_3_direct
 (
 address
 )

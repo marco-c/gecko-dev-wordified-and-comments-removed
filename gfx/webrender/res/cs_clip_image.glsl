@@ -104,7 +104,7 @@ address
 vec4
 data
 =
-fetch_from_resource_cache_1_direct
+fetch_from_gpu_cache_1_direct
 (
 address
 )

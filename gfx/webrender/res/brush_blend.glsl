@@ -776,7 +776,7 @@ mat_data
 3
 ]
 =
-fetch_from_resource_cache_3
+fetch_from_gpu_cache_3
 (
 user_data
 .
@@ -786,7 +786,7 @@ z
 vec4
 offset_data
 =
-fetch_from_resource_cache_1
+fetch_from_gpu_cache_1
 (
 user_data
 .

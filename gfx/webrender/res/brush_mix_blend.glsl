@@ -119,7 +119,7 @@ vec2
 (
 textureSize
 (
-sCacheRGBA8
+sPrevPassColor
 0
 )
 )
@@ -1316,7 +1316,7 @@ Cb
 =
 textureLod
 (
-sCacheRGBA8
+sPrevPassColor
 vBackdropUv
 0
 .
@@ -1328,7 +1328,7 @@ Cs
 =
 textureLod
 (
-sCacheRGBA8
+sPrevPassColor
 vSrcUv
 0
 .

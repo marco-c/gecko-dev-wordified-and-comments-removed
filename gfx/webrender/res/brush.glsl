@@ -209,7 +209,7 @@ vec4
 ]
 segment_data
 =
-fetch_from_resource_cache_2
+fetch_from_gpu_cache_2
 (
 segment_address
 )

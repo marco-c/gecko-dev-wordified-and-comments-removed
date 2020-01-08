@@ -60,7 +60,7 @@ MPL
 include
 rect
 render_task
-resource_cache
+gpu_cache
 snap
 transform
 #

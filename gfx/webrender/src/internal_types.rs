@@ -337,7 +337,7 @@ Deserialize
 ]
 pub
 enum
-SourceTexture
+TextureSource
 {
 Invalid
 TextureCache
@@ -348,8 +348,8 @@ External
 (
 ExternalImageData
 )
-CacheA8
-CacheRGBA8
+PrevPassAlpha
+PrevPassColor
 RenderTaskCache
 (
 SavedTargetIndex

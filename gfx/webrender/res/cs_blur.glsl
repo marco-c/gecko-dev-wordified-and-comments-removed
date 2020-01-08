@@ -241,7 +241,7 @@ vec2
 (
 textureSize
 (
-sCacheRGBA8
+sPrevPassColor
 0
 )
 .
@@ -257,7 +257,7 @@ vec2
 (
 textureSize
 (
-sCacheA8
+sPrevPassAlpha
 0
 )
 .
@@ -530,7 +530,7 @@ uv
 )
 texture
 (
-sCacheRGBA8
+sPrevPassColor
 uv
 )
 #
@@ -547,7 +547,7 @@ uv
 )
 texture
 (
-sCacheA8
+sPrevPassAlpha
 uv
 )
 .

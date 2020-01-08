@@ -181,7 +181,7 @@ vec4
 ]
 raw_data
 =
-fetch_from_resource_cache_3
+fetch_from_gpu_cache_3
 (
 address
 )

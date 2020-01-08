@@ -59,7 +59,7 @@ MPL
 uniform
 HIGHP_SAMPLER_FLOAT
 sampler2D
-sResourceCache
+sGpuCache
 ;
 #
 define
@@ -133,7 +133,7 @@ the
 vertices
 .
 ivec2
-get_resource_cache_uv
+get_gpu_cache_uv
 (
 int
 address
@@ -161,7 +161,7 @@ vec4
 [
 2
 ]
-fetch_from_resource_cache_2_direct
+fetch_from_gpu_cache_2_direct
 (
 ivec2
 address
@@ -175,7 +175,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -186,7 +186,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -202,7 +202,7 @@ vec4
 [
 2
 ]
-fetch_from_resource_cache_2
+fetch_from_gpu_cache_2
 (
 int
 address
@@ -211,7 +211,7 @@ address
 ivec2
 uv
 =
-get_resource_cache_uv
+get_gpu_cache_uv
 (
 address
 )
@@ -224,7 +224,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -235,7 +235,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -254,7 +254,7 @@ vec4
 [
 8
 ]
-fetch_from_resource_cache_8
+fetch_from_gpu_cache_8
 (
 int
 address
@@ -263,7 +263,7 @@ address
 ivec2
 uv
 =
-get_resource_cache_uv
+get_gpu_cache_uv
 (
 address
 )
@@ -276,7 +276,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -287,7 +287,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -298,7 +298,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -309,7 +309,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -320,7 +320,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -331,7 +331,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -342,7 +342,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -353,7 +353,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -369,7 +369,7 @@ vec4
 [
 3
 ]
-fetch_from_resource_cache_3
+fetch_from_gpu_cache_3
 (
 int
 address
@@ -378,7 +378,7 @@ address
 ivec2
 uv
 =
-get_resource_cache_uv
+get_gpu_cache_uv
 (
 address
 )
@@ -391,7 +391,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -402,7 +402,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -413,7 +413,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -429,7 +429,7 @@ vec4
 [
 3
 ]
-fetch_from_resource_cache_3_direct
+fetch_from_gpu_cache_3_direct
 (
 ivec2
 address
@@ -443,7 +443,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -454,7 +454,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -465,7 +465,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -481,7 +481,7 @@ vec4
 [
 4
 ]
-fetch_from_resource_cache_4_direct
+fetch_from_gpu_cache_4_direct
 (
 ivec2
 address
@@ -495,7 +495,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -506,7 +506,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -517,7 +517,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -528,7 +528,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 address
 0
 ivec2
@@ -544,7 +544,7 @@ vec4
 [
 4
 ]
-fetch_from_resource_cache_4
+fetch_from_gpu_cache_4
 (
 int
 address
@@ -553,7 +553,7 @@ address
 ivec2
 uv
 =
-get_resource_cache_uv
+get_gpu_cache_uv
 (
 address
 )
@@ -566,7 +566,7 @@ vec4
 (
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -577,7 +577,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -588,7 +588,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -599,7 +599,7 @@ ivec2
 )
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -612,7 +612,7 @@ ivec2
 ;
 }
 vec4
-fetch_from_resource_cache_1_direct
+fetch_from_gpu_cache_1_direct
 (
 ivec2
 address
@@ -621,14 +621,14 @@ address
 return
 texelFetch
 (
-sResourceCache
+sGpuCache
 address
 0
 )
 ;
 }
 vec4
-fetch_from_resource_cache_1
+fetch_from_gpu_cache_1
 (
 int
 address
@@ -637,7 +637,7 @@ address
 ivec2
 uv
 =
-get_resource_cache_uv
+get_gpu_cache_uv
 (
 address
 )
@@ -645,7 +645,7 @@ address
 return
 texelFetch
 (
-sResourceCache
+sGpuCache
 uv
 0
 )
@@ -704,7 +704,7 @@ data
 2
 ]
 =
-fetch_from_resource_cache_2
+fetch_from_gpu_cache_2
 (
 address
 )
@@ -760,7 +760,7 @@ data
 2
 ]
 =
-fetch_from_resource_cache_2_direct
+fetch_from_gpu_cache_2_direct
 (
 address
 )
@@ -862,7 +862,7 @@ data
 2
 ]
 =
-fetch_from_resource_cache_2
+fetch_from_gpu_cache_2
 (
 address
 +

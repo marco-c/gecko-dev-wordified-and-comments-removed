@@ -96,7 +96,7 @@ address
 ivec2
 uv
 =
-get_resource_cache_uv
+get_gpu_cache_uv
 (
 address
 )
@@ -106,7 +106,7 @@ data0
 =
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -121,7 +121,7 @@ data1
 =
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -136,7 +136,7 @@ data2
 =
 TEXEL_FETCH
 (
-sResourceCache
+sGpuCache
 uv
 0
 ivec2
@@ -499,7 +499,7 @@ vec2
 (
 textureSize
 (
-sCacheRGBA8
+sPrevPassColor
 0
 )
 )
@@ -672,7 +672,7 @@ alpha
 *
 textureLod
 (
-sCacheRGBA8
+sPrevPassColor
 vec3
 (
 uv
