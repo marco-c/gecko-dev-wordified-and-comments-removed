@@ -1,0 +1,8 @@
+self
+.
+result
+=
+"
+Pass
+"
+;

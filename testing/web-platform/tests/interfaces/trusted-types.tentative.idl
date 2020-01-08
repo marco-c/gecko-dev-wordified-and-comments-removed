@@ -48,7 +48,10 @@ URLString
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 TrustedHTML
@@ -60,7 +63,10 @@ stringifier
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 TrustedScript
@@ -72,7 +78,10 @@ stringifier
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 TrustedScriptURL
@@ -84,7 +93,10 @@ stringifier
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 TrustedURL
@@ -96,7 +108,10 @@ stringifier
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 TrustedTypePolicyFactory
@@ -140,7 +155,10 @@ getPolicyNames
 [
 Exposed
 =
+(
 Window
+Worker
+)
 ]
 interface
 TrustedTypePolicy
