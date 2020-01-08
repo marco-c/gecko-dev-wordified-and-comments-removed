@@ -713,7 +713,7 @@ project
 .
 production
 .
-shipit_code_coverage
+code_coverage_bot
 .
 {
 }
