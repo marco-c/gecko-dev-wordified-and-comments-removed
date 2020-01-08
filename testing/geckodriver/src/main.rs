@@ -1103,16 +1103,10 @@ binary
 .
 map
 (
-|
-x
-|
 PathBuf
 :
 :
 from
-(
-x
-)
 )
 ;
 let
