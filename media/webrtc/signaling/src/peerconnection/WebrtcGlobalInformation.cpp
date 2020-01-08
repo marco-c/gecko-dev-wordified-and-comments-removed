@@ -3807,7 +3807,7 @@ NS_ConvertUTF16toUTF8
 cand
 -
 >
-mTransport
+mProtocol
 .
 Value
 (
@@ -4144,7 +4144,7 @@ WasPassed
 !
 cand
 .
-mTransport
+mProtocol
 .
 WasPassed
 (
@@ -4164,7 +4164,7 @@ WasPassed
 !
 cand
 .
-mComponentId
+mTransportId
 .
 WasPassed
 (
@@ -4250,10 +4250,10 @@ Value
 )
 =
 =
-RTCStatsIceCandidateType
+RTCIceCandidateType
 :
 :
-Serverreflexive
+Srflx
 )
 {
 candBitmask
@@ -4275,10 +4275,10 @@ Value
 )
 =
 =
-RTCStatsIceCandidateType
+RTCIceCandidateType
 :
 :
-Relayed
+Relay
 )
 {
 candBitmask
@@ -4300,10 +4300,10 @@ Value
 )
 =
 =
-RTCStatsIceCandidateType
+RTCIceCandidateType
 :
 :
-Peerreflexive
+Prflx
 )
 {
 candBitmask
@@ -4323,7 +4323,7 @@ NS_ConvertUTF16toUTF8
 (
 cand
 .
-mComponentId
+mTransportId
 .
 Value
 (
