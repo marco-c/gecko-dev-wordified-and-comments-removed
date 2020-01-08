@@ -4054,6 +4054,17 @@ remaining
 JSMSG_NOT_ENOUGH_CODE_UNITS
 leadByteStr
 expectedStr
+required
+=
+=
+2
+?
+"
+"
+:
+"
+s
+"
 actualStr
 remaining
 =
