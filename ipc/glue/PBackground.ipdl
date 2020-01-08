@@ -122,6 +122,10 @@ PClientManager
 ;
 include
 protocol
+PEndpointForReport
+;
+include
+protocol
 PFileDescriptorSet
 ;
 include
@@ -406,6 +410,9 @@ PCacheStreamControl
 ;
 manages
 PClientManager
+;
+manages
+PEndpointForReport
 ;
 manages
 PFileDescriptorSet
@@ -882,6 +889,15 @@ PServiceWorkerRegistration
 (
 IPCServiceWorkerRegistrationDescriptor
 aDescriptor
+)
+;
+async
+PEndpointForReport
+(
+nsString
+aGroupName
+PrincipalInfo
+aPrincipalInfo
 )
 ;
 child

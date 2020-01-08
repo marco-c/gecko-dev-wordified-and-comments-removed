@@ -826,6 +826,12 @@ nsGkAtoms
 :
 :
 featurePolicyViolation
+NS_LITERAL_STRING
+(
+"
+default
+"
+)
 NS_ConvertUTF8toUTF16
 (
 spec

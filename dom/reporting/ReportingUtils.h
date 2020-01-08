@@ -42,6 +42,10 @@ aType
 const
 nsAString
 &
+aGroupName
+const
+nsAString
+&
 aURL
 ReportBody
 *
