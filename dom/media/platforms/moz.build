@@ -132,6 +132,11 @@ VPXDecoder
 h
 '
 '
+AllocationPolicy
+.
+h
+'
+'
 MediaTelemetryConstants
 .
 h
@@ -235,6 +240,11 @@ cpp
 agnostic
 /
 WAVDecoder
+.
+cpp
+'
+'
+AllocationPolicy
 .
 cpp
 '
