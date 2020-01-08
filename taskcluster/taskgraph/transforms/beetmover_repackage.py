@@ -733,6 +733,18 @@ installer
 exe
 '
 ]
+UPSTREAM_ARTIFACT_SIGNED_MSI_PATHS
+=
+[
+    
+'
+target
+.
+installer
+.
+msi
+'
+]
 for
 dict_
 in
@@ -1265,6 +1277,16 @@ repackage
 signing
 "
         
+msi_signing_name
+=
+"
+repackage
+-
+signing
+-
+msi
+"
+        
 if
 job
 .
@@ -1382,6 +1404,22 @@ partials
 -
 signing
 '
+]
+        
+if
+msi_signing_name
+in
+upstream_deps
+:
+            
+dependencies
+[
+msi_signing_name
+]
+=
+upstream_deps
+[
+msi_signing_name
 ]
         
 attributes
@@ -1570,6 +1608,10 @@ UPSTREAM_ARTIFACT_REPACKAGE_PATHS
 repackage_signing_mapping
 =
 UPSTREAM_ARTIFACT_SIGNED_REPACKAGE_PATHS
+    
+msi_signing_mapping
+=
+UPSTREAM_ARTIFACT_SIGNED_MSI_PATHS
     
 artifact_prefix
 =
@@ -1842,9 +1884,32 @@ repackage
 '
 repackage_signing_mapping
 )
+        
+(
+'
+repackage
+-
+signing
+-
+msi
+'
+'
+repackage
+'
+msi_signing_mapping
+)
     
 ]
 :
+        
+if
+task_type
+not
+in
+dependencies
+:
+            
+continue
         
 paths
 =
