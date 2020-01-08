@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIDocShellLoadInfo
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h

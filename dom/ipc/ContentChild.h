@@ -167,7 +167,7 @@ struct
 LookAndFeelInt
 ;
 class
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 ;
 namespace
 mozilla
@@ -437,7 +437,7 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool

@@ -415,6 +415,11 @@ nsCTooltipTextProvider
 h
 '
 '
+nsDocShellLoadInfo
+.
+h
+'
+'
 nsDocShellLoadTypes
 .
 h

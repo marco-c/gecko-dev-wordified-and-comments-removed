@@ -171,6 +171,9 @@ nsPresContext
 class
 nsIPresShell
 ;
+class
+nsDocShellLoadInfo
+;
 namespace
 mozilla
 {
@@ -351,6 +354,13 @@ already_AddRefed
 <
 nsITabChild
 >
+)
+;
+native
+nsDocShellLoadInfoPtr
+(
+nsDocShellLoadInfo
+*
 )
 ;
 webidl
@@ -569,7 +579,7 @@ in
 nsIURI
 uri
 in
-nsIDocShellLoadInfo
+nsDocShellLoadInfoPtr
 loadInfo
 in
 unsigned
@@ -1423,7 +1433,7 @@ void
 createLoadInfo
 (
 out
-nsIDocShellLoadInfo
+nsDocShellLoadInfoPtr
 loadInfo
 )
 ;

@@ -120,7 +120,7 @@ class
 nsIDocShell
 ;
 class
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 ;
 class
 nsIDocument
@@ -2965,7 +2965,7 @@ const
 nsAString
 &
 aOptions
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool

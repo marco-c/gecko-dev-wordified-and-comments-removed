@@ -1000,11 +1000,7 @@ shEntry
 .
 loadType
 =
-Ci
-.
-nsIDocShellLoadInfo
-.
-loadHistory
+2
 ;
 shEntry
 .

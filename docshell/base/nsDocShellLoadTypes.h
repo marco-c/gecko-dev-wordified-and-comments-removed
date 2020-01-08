@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 .
 h
 "
@@ -582,6 +582,9 @@ false
 }
 static
 inline
+nsDocShellLoadInfo
+:
+:
 nsDocShellInfoLoadType
 ConvertLoadTypeToDocShellInfoLoadType
 (
@@ -589,10 +592,13 @@ uint32_t
 aLoadType
 )
 {
+nsDocShellLoadInfo
+:
+:
 nsDocShellInfoLoadType
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormal
@@ -607,7 +613,7 @@ LOAD_NORMAL
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormal
@@ -619,7 +625,7 @@ LOAD_NORMAL_REPLACE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalReplace
@@ -631,7 +637,7 @@ LOAD_NORMAL_EXTERNAL
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalExternal
@@ -643,7 +649,7 @@ LOAD_NORMAL_BYPASS_CACHE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalBypassCache
@@ -655,7 +661,7 @@ LOAD_NORMAL_BYPASS_PROXY
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalBypassProxy
@@ -667,7 +673,7 @@ LOAD_NORMAL_BYPASS_PROXY_AND_CACHE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalBypassProxyAndCache
@@ -679,7 +685,7 @@ LOAD_NORMAL_ALLOW_MIXED_CONTENT
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalAllowMixedContent
@@ -691,7 +697,7 @@ LOAD_HISTORY
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadHistory
@@ -703,7 +709,7 @@ LOAD_RELOAD_NORMAL
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadNormal
@@ -715,7 +721,7 @@ LOAD_RELOAD_CHARSET_CHANGE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadCharsetChange
@@ -727,7 +733,7 @@ LOAD_RELOAD_CHARSET_CHANGE_BYPASS_CACHE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadCharsetChangeBypassCache
@@ -739,7 +745,7 @@ LOAD_RELOAD_CHARSET_CHANGE_BYPASS_PROXY_AND_CACHE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadCharsetChangeBypassProxyAndCache
@@ -751,7 +757,7 @@ LOAD_RELOAD_BYPASS_CACHE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassCache
@@ -763,7 +769,7 @@ LOAD_RELOAD_BYPASS_PROXY
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassProxy
@@ -775,7 +781,7 @@ LOAD_RELOAD_BYPASS_PROXY_AND_CACHE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassProxyAndCache
@@ -787,7 +793,7 @@ LOAD_LINK
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadLink
@@ -799,7 +805,7 @@ LOAD_REFRESH
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadRefresh
@@ -814,7 +820,7 @@ LOAD_ERROR_PAGE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadBypassHistory
@@ -826,7 +832,7 @@ LOAD_STOP_CONTENT
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadStopContent
@@ -838,7 +844,7 @@ LOAD_STOP_CONTENT_AND_REPLACE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadStopContentAndReplace
@@ -850,7 +856,7 @@ LOAD_PUSHSTATE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadPushState
@@ -862,7 +868,7 @@ LOAD_REPLACE_BYPASS_CACHE
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReplaceBypassCache
@@ -874,7 +880,7 @@ LOAD_RELOAD_ALLOW_MIXED_CONTENT
 :
 docShellLoadType
 =
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadMixedContent
@@ -903,6 +909,9 @@ inline
 uint32_t
 ConvertDocShellInfoLoadTypeToLoadType
 (
+nsDocShellLoadInfo
+:
+:
 nsDocShellInfoLoadType
 aDocShellLoadType
 )
@@ -918,7 +927,7 @@ aDocShellLoadType
 )
 {
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormal
@@ -930,7 +939,7 @@ LOAD_NORMAL
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalReplace
@@ -942,7 +951,7 @@ LOAD_NORMAL_REPLACE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalExternal
@@ -954,7 +963,7 @@ LOAD_NORMAL_EXTERNAL
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadHistory
@@ -966,7 +975,7 @@ LOAD_HISTORY
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalBypassCache
@@ -978,7 +987,7 @@ LOAD_NORMAL_BYPASS_CACHE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalBypassProxy
@@ -990,7 +999,7 @@ LOAD_NORMAL_BYPASS_PROXY
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalBypassProxyAndCache
@@ -1002,7 +1011,7 @@ LOAD_NORMAL_BYPASS_PROXY_AND_CACHE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadNormalAllowMixedContent
@@ -1014,7 +1023,7 @@ LOAD_NORMAL_ALLOW_MIXED_CONTENT
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadNormal
@@ -1026,7 +1035,7 @@ LOAD_RELOAD_NORMAL
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadCharsetChange
@@ -1038,7 +1047,7 @@ LOAD_RELOAD_CHARSET_CHANGE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadCharsetChangeBypassCache
@@ -1050,7 +1059,7 @@ LOAD_RELOAD_CHARSET_CHANGE_BYPASS_CACHE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadCharsetChangeBypassProxyAndCache
@@ -1062,7 +1071,7 @@ LOAD_RELOAD_CHARSET_CHANGE_BYPASS_PROXY_AND_CACHE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassCache
@@ -1074,7 +1083,7 @@ LOAD_RELOAD_BYPASS_CACHE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassProxy
@@ -1086,7 +1095,7 @@ LOAD_RELOAD_BYPASS_PROXY
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadBypassProxyAndCache
@@ -1098,7 +1107,7 @@ LOAD_RELOAD_BYPASS_PROXY_AND_CACHE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadLink
@@ -1110,7 +1119,7 @@ LOAD_LINK
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadRefresh
@@ -1122,7 +1131,7 @@ LOAD_REFRESH
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadBypassHistory
@@ -1134,7 +1143,7 @@ LOAD_BYPASS_HISTORY
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadStopContent
@@ -1146,7 +1155,7 @@ LOAD_STOP_CONTENT
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadStopContentAndReplace
@@ -1158,7 +1167,7 @@ LOAD_STOP_CONTENT_AND_REPLACE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadPushState
@@ -1170,7 +1179,7 @@ LOAD_PUSHSTATE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReplaceBypassCache
@@ -1182,7 +1191,7 @@ LOAD_REPLACE_BYPASS_CACHE
 break
 ;
 case
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 :
 :
 loadReloadMixedContent
@@ -1199,6 +1208,9 @@ MOZ_ASSERT_UNREACHABLE
 (
 "
 Unexpected
+nsDocShellLoadInfo
+:
+:
 nsDocShellInfoLoadType
 value
 "

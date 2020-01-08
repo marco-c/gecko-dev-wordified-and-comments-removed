@@ -949,7 +949,7 @@ h
 #
 include
 "
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 .
 h
 "
@@ -3723,7 +3723,7 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool
@@ -3762,7 +3762,7 @@ GetCreateWindowParams
 mozIDOMWindowProxy
 *
 aParent
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 nsACString
@@ -4078,7 +4078,7 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool

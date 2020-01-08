@@ -420,6 +420,13 @@ h
 #
 include
 "
+nsDocShellLoadInfo
+.
+h
+"
+#
+include
+"
 nsJSUtils
 .
 h
@@ -22895,7 +22902,7 @@ const
 nsAString
 &
 aOptions
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool
@@ -28225,7 +28232,7 @@ argv
 nsISupports
 *
 aExtraArgument
-nsIDocShellLoadInfo
+nsDocShellLoadInfo
 *
 aLoadInfo
 bool
