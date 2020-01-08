@@ -3455,6 +3455,14 @@ FireResizeEvent
 =
 0
 ;
+void
+NativeAnonymousContentRemoved
+(
+nsIContent
+*
+aAnonContent
+)
+;
 protected
 :
 void
