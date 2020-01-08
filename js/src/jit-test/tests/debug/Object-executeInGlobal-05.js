@@ -65,14 +65,6 @@ assertEq
 (
 dg1wg2
 .
-global
-dg1
-)
-;
-assertEq
-(
-dg1wg2
-.
 unwrap
 (
 )

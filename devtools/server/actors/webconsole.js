@@ -5362,17 +5362,6 @@ if
 this
 .
 _lastConsoleInputEvaluation
-&
-&
-this
-.
-_lastConsoleInputEvaluation
-.
-global
-!
-=
-=
-dbgWindow
 )
 {
 this
