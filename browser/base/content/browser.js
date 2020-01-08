@@ -2417,14 +2417,6 @@ urlbar
 ;
 if
 (
-BrowserWindowTracker
-.
-windowCount
-<
-=
-1
-|
-|
 !
 Services
 .
