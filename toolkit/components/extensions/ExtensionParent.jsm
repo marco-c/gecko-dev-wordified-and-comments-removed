@@ -7285,7 +7285,7 @@ contentWindow
 browserWindow
 size
 =
-18
+16
 )
 {
 return
