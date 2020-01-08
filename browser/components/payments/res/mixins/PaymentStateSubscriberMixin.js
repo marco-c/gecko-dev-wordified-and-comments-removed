@@ -21,11 +21,6 @@ PaymentsStore
 changesPrevented
 :
 false
-completionState
-:
-"
-initial
-"
 orderDetailsShowing
 :
 false
@@ -82,6 +77,11 @@ null
 request
 :
 {
+completeStatus
+:
+"
+initial
+"
 tabId
 :
 null

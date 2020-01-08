@@ -545,9 +545,9 @@ changes
 prevented
 ]
 [
-completion
+complete
 -
-state
+status
 =
 "
 fail
@@ -564,9 +564,9 @@ changes
 prevented
 ]
 [
-completion
+complete
 -
-state
+status
 =
 "
 unknown
@@ -583,9 +583,9 @@ changes
 prevented
 ]
 [
-completion
+complete
 -
-state
+status
 =
 "
 processing
@@ -602,9 +602,9 @@ changes
 prevented
 ]
 [
-completion
+complete
 -
-state
+status
 =
 "
 success
