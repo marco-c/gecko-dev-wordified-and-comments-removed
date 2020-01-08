@@ -1000,6 +1000,11 @@ RequestResource
 nsIURI
 *
 aURI
+nsIURI
+*
+aReferrer
+uint32_t
+aReferrerPolicy
 nsINode
 *
 aRequestingNode
@@ -1142,6 +1147,11 @@ StartLoad
 nsIURI
 *
 aURI
+nsIURI
+*
+aReferrer
+uint32_t
+aReferrerPolicy
 nsINode
 *
 aRequestingNode
@@ -5982,6 +5992,11 @@ RequestExternalResource
 nsIURI
 *
 aURI
+nsIURI
+*
+aReferrer
+uint32_t
+aReferrerPolicy
 nsINode
 *
 aRequestingNode
