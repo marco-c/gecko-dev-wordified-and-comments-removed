@@ -32,10 +32,6 @@ cssparser
 ;
 extern
 crate
-fnv
-;
-extern
-crate
 fxhash
 ;
 #
