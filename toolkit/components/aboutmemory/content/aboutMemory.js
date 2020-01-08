@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+let
 CC
 =
 Components
@@ -279,7 +279,7 @@ nsIStreamConverter
 )
 )
 ;
-var
+let
 gMgr
 =
 Cc
@@ -329,7 +329,7 @@ Main
 Process
 "
 ;
-var
+let
 gIsDiff
 =
 false
@@ -588,16 +588,16 @@ onUnload
 )
 {
 }
-var
+let
 gMain
 ;
-var
+let
 gFooter
 ;
-var
+let
 gVerbose
 ;
-var
+let
 gAnonymize
 ;
 const
@@ -2894,7 +2894,7 @@ ex
 ;
 }
 }
-var
+let
 gCurrentFileFormatVersion
 =
 1
@@ -3552,7 +3552,7 @@ ex
 )
 ;
 }
-var
+let
 kProcessPathSep
 =
 "
@@ -6528,7 +6528,7 @@ i
 )
 ;
 }
-var
+let
 gUnsafePathsWithInvalidValuesForThisProcess
 =
 [
@@ -8235,7 +8235,7 @@ title
 ;
 }
 }
-var
+let
 gShowSubtreesBySafeTreeId
 =
 {
