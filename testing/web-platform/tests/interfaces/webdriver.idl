@@ -40,11 +40,6 @@ io
 /
 webdriver
 /
-webdriver
--
-spec
-.
-html
 Navigator
 includes
 NavigatorAutomationInformation
