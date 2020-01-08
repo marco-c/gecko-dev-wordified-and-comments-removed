@@ -1697,8 +1697,10 @@ IsEmpty
 {
 mFrameRect
 .
-MoveTo
+SetRect
 (
+0
+0
 0
 0
 )
