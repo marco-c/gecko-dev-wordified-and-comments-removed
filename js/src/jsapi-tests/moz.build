@@ -224,6 +224,11 @@ testDifferentNewTargetInvokeConstructor
 cpp
 '
 '
+testEmptyWindowIsOmitted
+.
+cpp
+'
+'
 testErrorCopying
 .
 cpp
