@@ -235,12 +235,6 @@ WasmRuntimeInstances
 500
 )
 \
-_
-(
-WasmSignalInstallState
-500
-)
-\
 \
 _
 (
