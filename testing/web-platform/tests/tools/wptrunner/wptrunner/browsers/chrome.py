@@ -256,6 +256,8 @@ capabilities
 setdefault
 (
 "
+goog
+:
 chromeOptions
 "
 {
@@ -332,6 +334,8 @@ None
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -356,6 +360,8 @@ testharness
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -370,6 +376,8 @@ False
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
@@ -399,6 +407,8 @@ wdspec
 capabilities
 [
 "
+goog
+:
 chromeOptions
 "
 ]
