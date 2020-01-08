@@ -26,7 +26,8 @@ eDeleteToEndOfSoftLine
 eStartComposition
 eUpdateComposition
 eCommitComposition
-eEndComposition
+eCancelComposition
+eDeleteByComposition
 eUndo
 eRedo
 eSetTextDirection
