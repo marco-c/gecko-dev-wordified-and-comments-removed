@@ -3839,13 +3839,6 @@ id
 "
 key_showAllTabs
 "
-command
-=
-"
-Browser
-:
-ShowAllTabs
-"
 keycode
 =
 "
@@ -3856,11 +3849,6 @@ modifiers
 "
 control
 shift
-"
-disabled
-=
-"
-true
 "
 /
 >
