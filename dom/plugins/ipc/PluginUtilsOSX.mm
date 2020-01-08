@@ -1722,8 +1722,12 @@ CFTypeRef
 currentAsn
 =
 getASNFunc
+?
+getASNFunc
 (
 )
+:
+nullptr
 ;
 if
 (
