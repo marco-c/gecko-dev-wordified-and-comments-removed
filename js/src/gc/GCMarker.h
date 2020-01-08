@@ -1231,7 +1231,7 @@ unmarkedArenaStackTop
 }
 MOZ_MUST_USE
 bool
-drainMarkStack
+markUntilBudgetExhaused
 (
 SliceBudget
 &

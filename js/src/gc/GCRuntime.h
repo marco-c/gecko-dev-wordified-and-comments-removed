@@ -3224,7 +3224,7 @@ markCompartments
 )
 ;
 IncrementalProgress
-drainMarkStack
+markUntilBudgetExhaused
 (
 SliceBudget
 &
@@ -3234,6 +3234,11 @@ gcstats
 :
 PhaseKind
 phase
+)
+;
+void
+drainMarkStack
+(
 )
 ;
 template
