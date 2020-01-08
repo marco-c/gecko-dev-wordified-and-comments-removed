@@ -1447,6 +1447,11 @@ ImageTracker
 cpp
 '
 '
+InProcessTabChildMessageManager
+.
+cpp
+'
+'
 IntlUtils
 .
 cpp
@@ -1643,11 +1648,6 @@ cpp
 '
 '
 nsINode
-.
-cpp
-'
-'
-nsInProcessTabChildGlobal
 .
 cpp
 '

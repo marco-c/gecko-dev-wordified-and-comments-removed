@@ -346,7 +346,7 @@ h
 #
 include
 "
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 .
 h
 "
@@ -7270,7 +7270,7 @@ if
 mChildMessageManager
 )
 {
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 *
 tabChild
 =
@@ -7301,7 +7301,7 @@ aOther
 mChildMessageManager
 )
 {
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 *
 otherTabChild
 =
@@ -12406,11 +12406,11 @@ aRunInGlobalScope
 }
 RefPtr
 <
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 >
 tabChild
 =
-GetTabChildGlobal
+GetTabChildMessageManager
 (
 )
 ;
@@ -12491,7 +12491,7 @@ Run
 )
 override
 {
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 *
 tabChild
 =
@@ -13089,7 +13089,7 @@ NS_ERROR_FAILURE
 }
 mChildMessageManager
 =
-nsInProcessTabChildGlobal
+InProcessTabChildMessageManager
 :
 :
 Create
