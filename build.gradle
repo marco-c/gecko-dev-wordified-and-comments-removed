@@ -72,14 +72,7 @@ mozconfig
 topobjdir
 compileSdkVersion
 =
-tryInt
-(
-mozconfig
-.
-substs
-.
-ANDROID_COMPILE_SDK_VERSION
-)
+26
 targetSdkVersion
 =
 tryInt
