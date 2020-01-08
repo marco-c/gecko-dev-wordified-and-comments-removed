@@ -364,8 +364,6 @@ snap_offsets
 compute_snap_offset_impl
 (
 device_pos
-snap_mat
-local_clip_rect
 RectWithSize
 (
 snap_positions

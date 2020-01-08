@@ -287,10 +287,6 @@ compute_snap_offset_impl
 (
 vec2
 reference_pos
-mat4
-transform
-RectWithSize
-snap_rect
 RectWithSize
 reference_rect
 vec4
@@ -441,8 +437,6 @@ snap_offsets
 compute_snap_offset_impl
 (
 local_pos
-transform
-snap_rect
 snap_rect
 snap_positions
 )
