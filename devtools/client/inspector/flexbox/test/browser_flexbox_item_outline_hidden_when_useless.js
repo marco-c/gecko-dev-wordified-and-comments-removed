@@ -233,7 +233,7 @@ allSections
 .
 textContent
 "
-Base
+Content
 Size
 "
 "
@@ -242,7 +242,7 @@ first
 part
 is
 the
-base
+content
 size
 "
 )
