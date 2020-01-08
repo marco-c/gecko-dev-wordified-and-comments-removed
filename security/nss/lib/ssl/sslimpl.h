@@ -923,7 +923,7 @@ MAX_DTLS_SRTP_CIPHER_SUITES
 #
 define
 MAX_SIGNATURE_SCHEMES
-15
+18
 typedef
 struct
 sslOptionsStr
