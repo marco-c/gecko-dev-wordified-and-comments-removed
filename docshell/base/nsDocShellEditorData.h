@@ -146,7 +146,7 @@ mMakeEditable
 }
 protected
 :
-nsresult
+void
 EnsureEditingSession
 (
 )
