@@ -13504,6 +13504,12 @@ ControlType
 aKey
 )
 ;
+int32_t
+index
+=
+-
+1
+;
 Element
 *
 formElement
@@ -13549,7 +13555,6 @@ f
 aKey
 )
 ;
-int32_t
 index
 =
 htmlForms
@@ -13674,7 +13679,6 @@ d
 aKey
 )
 ;
-int32_t
 index
 =
 htmlFormControls
@@ -29324,6 +29328,11 @@ MOZ_CRASH
 )
 ;
 }
+nsresult
+rv
+=
+NS_OK
+;
 JS
 :
 :
@@ -29344,7 +29353,6 @@ cx
 )
 )
 ;
-nsresult
 rv
 =
 sXPConnect
@@ -31298,18 +31306,8 @@ Content
 -
 Viewers
 "
-PromiseFlatCString
-(
 aType
-)
-.
-get
-(
-)
-getter_Copies
-(
 contractID
-)
 )
 ;
 if

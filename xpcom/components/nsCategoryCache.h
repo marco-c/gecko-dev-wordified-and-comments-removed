@@ -101,8 +101,8 @@ explicit
 nsCategoryObserver
 (
 const
-char
-*
+nsACString
+&
 aCategory
 )
 ;
@@ -325,10 +325,6 @@ new
 nsCategoryObserver
 (
 mCategoryName
-.
-get
-(
-)
 )
 ;
 mObserver
