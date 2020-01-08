@@ -1701,6 +1701,13 @@ cpp
 '
 frontend
 /
+CForEmitter
+.
+cpp
+'
+'
+frontend
+/
 EmitterScope
 .
 cpp

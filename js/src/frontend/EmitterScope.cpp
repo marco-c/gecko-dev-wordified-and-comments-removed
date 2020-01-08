@@ -2085,6 +2085,7 @@ slotStart
 uint32_t
 slotEnd
 )
+const
 {
 if
 (
@@ -5146,6 +5147,7 @@ BytecodeEmitter
 *
 bce
 )
+const
 {
 return
 deadZoneFrameSlotRange
