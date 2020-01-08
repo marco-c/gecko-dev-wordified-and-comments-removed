@@ -207,10 +207,7 @@ document
 querySelector
 (
 "
-#
-payment
--
-summary
+header
 .
 page
 -
@@ -376,10 +373,7 @@ document
 querySelector
 (
 "
-#
-payment
--
-summary
+header
 .
 page
 -
@@ -737,10 +731,7 @@ document
 querySelector
 (
 "
-#
-payment
--
-summary
+header
 .
 page
 -
@@ -1233,10 +1224,7 @@ document
 querySelector
 (
 "
-#
-payment
--
-summary
+header
 .
 page
 -
