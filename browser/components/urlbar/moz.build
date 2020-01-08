@@ -78,6 +78,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+UrlbarController
+.
+jsm
+'
+'
 UrlbarTokenizer
 .
 jsm
