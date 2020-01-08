@@ -5159,7 +5159,7 @@ server_addr
 ;
 PR_InitializeNetAddr
 (
-PR_IpAddrAny
+PR_IpAddrLoopback
 si
 -
 >
