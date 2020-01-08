@@ -165,11 +165,6 @@ base
 >
 <
 implementation
-implements
-=
-"
-nsIDOMXULDescriptionElement
-"
 >
 <
 property

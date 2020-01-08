@@ -94,7 +94,7 @@ MPL
 #
 include
 "
-nsIDOMXULDescriptionElement
+nsISupports
 .
 idl
 "
@@ -116,7 +116,7 @@ ecdbc7d9877b
 interface
 nsIDOMXULLabelElement
 :
-nsIDOMXULDescriptionElement
+nsISupports
 {
 attribute
 DOMString
