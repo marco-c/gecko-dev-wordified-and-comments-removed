@@ -23,10 +23,7 @@ gecko_bindings
 structs
 :
 :
-{
-StyleAnimation
-StyleTransition
-}
+nsStyleAutoArray
 ;
 use
 gecko_bindings
@@ -35,7 +32,10 @@ gecko_bindings
 structs
 :
 :
-nsStyleAutoArray
+{
+StyleAnimation
+StyleTransition
+}
 ;
 use
 std

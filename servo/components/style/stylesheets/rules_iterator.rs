@@ -32,6 +32,12 @@ use
 stylesheets
 :
 :
+StylesheetInDocument
+;
+use
+stylesheets
+:
+:
 {
 CssRule
 DocumentRule
@@ -39,12 +45,6 @@ ImportRule
 MediaRule
 SupportsRule
 }
-;
-use
-stylesheets
-:
-:
-StylesheetInDocument
 ;
 pub
 struct

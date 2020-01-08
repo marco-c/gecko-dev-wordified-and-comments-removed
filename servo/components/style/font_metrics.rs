@@ -7,9 +7,6 @@ missing_docs
 )
 ]
 use
-Atom
-;
-use
 app_units
 :
 :
@@ -41,6 +38,9 @@ style_structs
 :
 :
 Font
+;
+use
+Atom
 ;
 #
 [

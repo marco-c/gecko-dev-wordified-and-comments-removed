@@ -61,12 +61,6 @@ use
 properties
 :
 :
-ComputedValues
-;
-use
-properties
-:
-:
 longhands
 :
 :
@@ -79,6 +73,12 @@ computed_value
 T
 as
 Display
+;
+use
+properties
+:
+:
+ComputedValues
 ;
 use
 rule_tree
@@ -2409,7 +2409,6 @@ state
 )
 =
 >
-{
 match
 update
 {
@@ -2434,7 +2433,6 @@ expired
 =
 true
 ;
-}
 }
 }
 }

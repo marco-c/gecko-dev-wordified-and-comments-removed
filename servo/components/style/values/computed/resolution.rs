@@ -23,12 +23,6 @@ use
 values
 :
 :
-CSSFloat
-;
-use
-values
-:
-:
 computed
 :
 :
@@ -42,6 +36,12 @@ values
 :
 :
 specified
+;
+use
+values
+:
+:
+CSSFloat
 ;
 pub
 struct

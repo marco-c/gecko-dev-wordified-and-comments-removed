@@ -1,4 +1,10 @@
 use
+super
+:
+:
+CustomIdent
+;
+use
 counter_style
 :
 :
@@ -39,12 +45,6 @@ style_traits
 SpecifiedValueInfo
 StyleParseErrorKind
 }
-;
-use
-super
-:
-:
-CustomIdent
 ;
 pub
 mod

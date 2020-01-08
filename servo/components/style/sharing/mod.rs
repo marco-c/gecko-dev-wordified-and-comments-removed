@@ -1,7 +1,4 @@
 use
-Atom
-;
-use
 applicable_declarations
 :
 :
@@ -69,12 +66,6 @@ use
 selectors
 :
 :
-NthIndexCache
-;
-use
-selectors
-:
-:
 matching
 :
 :
@@ -82,6 +73,12 @@ matching
 ElementSelectorFlags
 VisitedHandlingMode
 }
+;
+use
+selectors
+:
+:
+NthIndexCache
 ;
 use
 servo_arc
@@ -157,6 +154,9 @@ uluru
 Entry
 LRUCache
 }
+;
+use
+Atom
 ;
 mod
 checks

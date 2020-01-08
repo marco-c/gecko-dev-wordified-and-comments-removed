@@ -1,7 +1,4 @@
 use
-Atom
-;
-use
 custom_properties
 ;
 use
@@ -36,6 +33,9 @@ values
 :
 :
 serialize_atom_identifier
+;
+use
+Atom
 ;
 #
 [

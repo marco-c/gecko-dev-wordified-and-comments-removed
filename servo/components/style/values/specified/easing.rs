@@ -55,10 +55,9 @@ generics
 easing
 :
 :
-{
-StepPosition
-TimingKeyword
-}
+TimingFunction
+as
+GenericTimingFunction
 ;
 use
 values
@@ -70,9 +69,10 @@ generics
 easing
 :
 :
-TimingFunction
-as
-GenericTimingFunction
+{
+StepPosition
+TimingKeyword
+}
 ;
 use
 values

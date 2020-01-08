@@ -76,8 +76,8 @@ synstructure
 :
 {
 self
-BindingInfo
 BindStyle
+BindingInfo
 VariantAst
 VariantInfo
 }

@@ -27,10 +27,7 @@ selectors
 matching
 :
 :
-{
-CompoundSelectorMatchingResult
-MatchingContext
-}
+matches_compound_selector_from
 ;
 use
 selectors
@@ -39,7 +36,10 @@ selectors
 matching
 :
 :
-matches_compound_selector_from
+{
+CompoundSelectorMatchingResult
+MatchingContext
+}
 ;
 use
 selectors

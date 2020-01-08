@@ -1,13 +1,4 @@
 use
-properties
-:
-:
-animated_properties
-:
-:
-ListAnimation
-;
-use
 super
 :
 :
@@ -16,6 +7,15 @@ Animate
 Procedure
 ToAnimatedZero
 }
+;
+use
+properties
+:
+:
+animated_properties
+:
+:
+ListAnimation
 ;
 use
 values
@@ -38,11 +38,10 @@ values
 computed
 :
 :
-{
-Number
-NumberOrPercentage
-LengthOrPercentage
-}
+url
+:
+:
+ComputedUrl
 ;
 use
 values
@@ -51,10 +50,11 @@ values
 computed
 :
 :
-url
-:
-:
-ComputedUrl
+{
+LengthOrPercentage
+Number
+NumberOrPercentage
+}
 ;
 use
 values
@@ -80,8 +80,8 @@ svg
 :
 {
 SVGLength
-SvgLengthOrPercentageOrNumber
 SVGPaint
+SvgLengthOrPercentageOrNumber
 }
 ;
 use
@@ -95,8 +95,8 @@ svg
 :
 :
 {
-SVGStrokeDashArray
 SVGOpacity
+SVGStrokeDashArray
 }
 ;
 pub
@@ -209,7 +209,6 @@ l
 )
 =
 >
-{
 match
 *
 l
@@ -269,7 +268,6 @@ Err
 (
 )
 )
-}
 }
 SvgLengthOrPercentageOrNumber
 :
@@ -371,7 +369,6 @@ other
 )
 =
 >
-{
 Ok
 (
 SvgLengthOrPercentageOrNumber
@@ -389,7 +386,6 @@ procedure
 ?
 )
 )
-}
 (
 NumberOrPercentage
 :
@@ -410,7 +406,6 @@ other
 )
 =
 >
-{
 Ok
 (
 SvgLengthOrPercentageOrNumber
@@ -434,7 +429,6 @@ procedure
 )
 )
 )
-}
 _
 =
 >
@@ -691,7 +685,6 @@ other
 )
 =
 >
-{
 Ok
 (
 SVGStrokeDashArray
@@ -709,7 +702,6 @@ procedure
 ?
 )
 )
-}
 _
 =
 >
@@ -854,7 +846,6 @@ values
 )
 =
 >
-{
 Ok
 (
 SVGStrokeDashArray
@@ -894,7 +885,6 @@ _
 ?
 )
 )
-}
 SVGStrokeDashArray
 :
 :

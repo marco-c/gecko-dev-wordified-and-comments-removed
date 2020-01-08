@@ -1,7 +1,4 @@
 use
-WeakAtom
-;
-use
 dom
 :
 :
@@ -110,6 +107,9 @@ string_cache
 Atom
 Namespace
 }
+;
+use
+WeakAtom
 ;
 pub
 type

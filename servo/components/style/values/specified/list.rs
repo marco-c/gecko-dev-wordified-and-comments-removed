@@ -46,7 +46,10 @@ use
 values
 :
 :
-CustomIdent
+generics
+:
+:
+CounterStyleOrNone
 ;
 #
 [
@@ -63,10 +66,7 @@ use
 values
 :
 :
-generics
-:
-:
-CounterStyleOrNone
+CustomIdent
 ;
 #
 [

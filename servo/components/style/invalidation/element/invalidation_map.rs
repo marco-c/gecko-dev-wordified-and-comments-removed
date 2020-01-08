@@ -1,11 +1,4 @@
 use
-{
-Atom
-LocalName
-Namespace
-}
-;
-use
 context
 :
 :
@@ -96,6 +89,13 @@ smallvec
 :
 :
 SmallVec
+;
+use
+{
+Atom
+LocalName
+Namespace
+}
 ;
 #
 [
