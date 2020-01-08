@@ -65,6 +65,7 @@ value_
 )
 -
 1
+\
 hash_
 \
 offsetof
@@ -98,6 +99,7 @@ name_
 #
 _string
 )
+\
 is_ascii_lower_
 )
 #
