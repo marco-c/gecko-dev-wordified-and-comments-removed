@@ -68,7 +68,7 @@ types
 )
 ;
 class
-RuntimeItem
+SidebarItem
 extends
 PureComponent
 {
@@ -128,7 +128,7 @@ li
 className
 :
 "
-runtime
+sidebar
 -
 item
 "
@@ -137,7 +137,7 @@ item
 isSelected
 ?
 "
-runtime
+sidebar
 -
 item
 -
@@ -157,7 +157,7 @@ img
 className
 :
 "
-runtime
+sidebar
 -
 item__icon
 "
@@ -166,7 +166,7 @@ item__icon
 isSelected
 ?
 "
-runtime
+sidebar
 -
 item__icon
 -
@@ -191,5 +191,5 @@ module
 .
 exports
 =
-RuntimeItem
+SidebarItem
 ;

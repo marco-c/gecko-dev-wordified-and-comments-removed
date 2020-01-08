@@ -79,9 +79,7 @@ src
 /
 components
 /
-runtime
-/
-RuntimeItem
+SidebarItem
 .
 css
 "
@@ -91,7 +89,7 @@ root
 {
 -
 -
-runtime
+sidebar
 -
 item
 -
@@ -110,7 +108,7 @@ grey
 ;
 -
 -
-runtime
+sidebar
 -
 item
 -
