@@ -1645,7 +1645,7 @@ pageAction
 -
 panel
 -
-screenshots
+screenshots_mozilla_org
 "
 )
 ;
