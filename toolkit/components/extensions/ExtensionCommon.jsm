@@ -7556,9 +7556,7 @@ Services
 .
 locale
 .
-getAppLocaleAsBCP47
-(
-)
+appLocaleAsBCP47
 ;
 }
 }

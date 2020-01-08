@@ -296,9 +296,7 @@ Services
 .
 locale
 .
-getRegionalPrefsLocales
-(
-)
+regionalPrefsLocales
 ;
 }
 return

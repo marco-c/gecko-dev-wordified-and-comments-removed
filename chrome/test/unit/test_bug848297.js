@@ -125,14 +125,13 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 [
 "
 de
 "
 ]
-)
 ;
 Assert
 .

@@ -36,9 +36,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 ;
 var
 OSVersion

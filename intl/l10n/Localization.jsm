@@ -401,9 +401,7 @@ Services
 .
 locale
 .
-getAppLocalesAsBCP47
-(
-)
+appLocalesAsBCP47
 ;
 return
 L10nRegistry
@@ -873,9 +871,7 @@ Services
 .
 locale
 .
-getAppLocaleAsBCP47
-(
-)
+appLocaleAsBCP47
 ;
 const
 lastFallback

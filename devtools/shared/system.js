@@ -550,9 +550,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 endianness
 :
 endianness

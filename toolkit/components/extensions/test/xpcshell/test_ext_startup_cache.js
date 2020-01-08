@@ -350,8 +350,8 @@ Services
 .
 locale
 .
-setAvailableLocales
-(
+availableLocales
+=
 [
 "
 en
@@ -365,7 +365,6 @@ fr
 jp
 "
 ]
-)
 ;
 await
 extension
@@ -508,14 +507,13 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 [
 "
 fr
 "
 ]
-)
 ;
 await
 AddonTestUtils
@@ -668,8 +666,8 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 [
 "
 en
@@ -677,7 +675,6 @@ en
 US
 "
 ]
-)
 ;
 await
 AddonTestUtils

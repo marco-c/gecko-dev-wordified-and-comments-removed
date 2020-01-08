@@ -1877,9 +1877,7 @@ Services
 .
 locale
 .
-getAppLocaleAsBCP47
-(
-)
+appLocaleAsBCP47
 ;
 let
 direction

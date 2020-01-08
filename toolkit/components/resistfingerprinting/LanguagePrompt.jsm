@@ -251,9 +251,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 .
 substr
 (

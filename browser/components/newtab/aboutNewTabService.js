@@ -1486,9 +1486,7 @@ Services
 .
 locale
 .
-getAppLocalesAsBCP47
-(
-)
+appLocalesAsBCP47
 .
 map
 (

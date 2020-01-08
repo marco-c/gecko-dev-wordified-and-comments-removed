@@ -1104,9 +1104,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 ;
 }
 function

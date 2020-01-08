@@ -304,8 +304,8 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 [
 "
 fr
@@ -313,7 +313,6 @@ fr
 FR
 "
 ]
-)
 ;
 await
 promiseStartupManager

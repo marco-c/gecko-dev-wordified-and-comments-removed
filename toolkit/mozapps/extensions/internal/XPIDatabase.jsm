@@ -1530,9 +1530,7 @@ Services
 .
 locale
 .
-getRequestedLocales
-(
-)
+requestedLocales
 ;
 if
 (

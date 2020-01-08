@@ -703,9 +703,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 ;
 }
 static

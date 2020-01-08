@@ -119,9 +119,7 @@ Services
 .
 locale
 .
-getRequestedLocales
-(
-)
+requestedLocales
 ;
 let
 loadCounter
@@ -697,10 +695,9 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 originalRequested
-)
 ;
 }
 )

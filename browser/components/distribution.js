@@ -507,9 +507,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 |
 |
 "

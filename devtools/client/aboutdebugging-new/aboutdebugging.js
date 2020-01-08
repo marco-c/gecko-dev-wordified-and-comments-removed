@@ -507,9 +507,7 @@ Services
 .
 locale
 .
-getAppLocalesAsBCP47
-(
-)
+appLocalesAsBCP47
 ;
 const
 generator

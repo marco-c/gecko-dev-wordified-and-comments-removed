@@ -231,9 +231,7 @@ Services
 .
 locale
 .
-getRequestedLocales
-(
-)
+requestedLocales
 ;
 L10nRegistry
 .
@@ -409,10 +407,9 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 originalRequested
-)
 ;
 }
 )
@@ -813,9 +810,7 @@ Services
 .
 locale
 .
-getRequestedLocales
-(
-)
+requestedLocales
 ;
 L10nRegistry
 .
@@ -1101,10 +1096,9 @@ Services
 .
 locale
 .
-setRequestedLocales
-(
+requestedLocales
+=
 originalRequested
-)
 ;
 }
 )

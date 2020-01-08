@@ -892,9 +892,7 @@ Services
 .
 locale
 .
-getAppLocaleAsLangTag
-(
-)
+appLocaleAsLangTag
 }
 }
 )

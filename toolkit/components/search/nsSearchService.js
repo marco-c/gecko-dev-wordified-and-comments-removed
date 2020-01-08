@@ -4145,9 +4145,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 ;
 }
 function
@@ -17218,9 +17216,7 @@ Services
 .
 locale
 .
-getAppLocaleAsBCP47
-(
-)
+appLocaleAsBCP47
 ;
 if
 (

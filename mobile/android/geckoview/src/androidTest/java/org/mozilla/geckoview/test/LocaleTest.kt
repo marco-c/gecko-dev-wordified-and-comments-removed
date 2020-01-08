@@ -234,9 +234,7 @@ Services
 .
 locale
 .
-getRequestedLocales
-(
-)
+requestedLocales
 .
 indexOf
 (

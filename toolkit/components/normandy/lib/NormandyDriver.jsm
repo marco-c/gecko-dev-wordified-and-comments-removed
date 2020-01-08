@@ -366,8 +366,6 @@ Services
 locale
 .
 getAppLocaleAsLangTag
-(
-)
 ;
 }
 return

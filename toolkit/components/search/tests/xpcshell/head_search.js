@@ -1342,9 +1342,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 =
 =
 "
@@ -1464,9 +1462,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 =
 =
 "

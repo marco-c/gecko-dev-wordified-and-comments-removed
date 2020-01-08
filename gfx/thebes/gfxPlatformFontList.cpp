@@ -6572,10 +6572,7 @@ NS_LITERAL_CSTRING
 LocaleService
 :
 :
-LangNegStrategy
-:
-:
-Filtering
+kLangNegStrategyFiltering
 negLocales
 )
 ;

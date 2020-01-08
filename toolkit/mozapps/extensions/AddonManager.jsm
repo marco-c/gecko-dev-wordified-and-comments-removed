@@ -1244,9 +1244,7 @@ Services
 .
 locale
 .
-getRequestedLocale
-(
-)
+requestedLocale
 |
 |
 "
