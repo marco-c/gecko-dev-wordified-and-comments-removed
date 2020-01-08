@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsIAttribute
+nsINode
 .
 h
 "
@@ -65,7 +65,7 @@ Attr
 final
 :
 public
-nsIAttribute
+nsINode
 {
 virtual
 ~
@@ -322,10 +322,9 @@ Shutdown
 (
 )
 ;
-NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
+NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
 Attr
-nsIAttribute
 )
 virtual
 JSObject
