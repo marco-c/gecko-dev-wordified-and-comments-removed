@@ -1647,8 +1647,6 @@ warn
 -
 on
 -
-quit
--
 close
 -
 multiple
@@ -1661,8 +1659,6 @@ label
 Warn
 you
 when
-quitting
-and
 closing
 multiple
 tabs
