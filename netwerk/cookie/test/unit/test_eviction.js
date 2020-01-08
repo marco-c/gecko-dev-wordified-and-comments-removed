@@ -95,12 +95,6 @@ run_test
 (
 )
 {
-var
-tests
-=
-[
-]
-;
 Services
 .
 prefs

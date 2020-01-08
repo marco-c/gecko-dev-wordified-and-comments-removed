@@ -259,8 +259,8 @@ expected
 function
 setCookieInternal
 (
-value
-expected
+valueInternal
+expectedInternal
 =
 null
 )
@@ -276,7 +276,7 @@ data
 if
 (
 !
-expected
+expectedInternal
 )
 {
 do_throw
@@ -296,7 +296,7 @@ Assert
 equal
 (
 data
-expected
+expectedInternal
 .
 type
 )
@@ -320,7 +320,7 @@ equal
 cookie
 .
 isSession
-expected
+expectedInternal
 .
 isSession
 )
@@ -332,7 +332,7 @@ equal
 cookie
 .
 isSecure
-expected
+expectedInternal
 .
 isSecure
 )
@@ -344,7 +344,7 @@ equal
 cookie
 .
 isHttpOnly
-expected
+expectedInternal
 .
 isHttpOnly
 )
@@ -371,7 +371,7 @@ setCookieStringFromHttp
 URI
 null
 null
-value
+valueInternal
 null
 null
 )
