@@ -2192,8 +2192,12 @@ session
 )
 ;
 }
+Override
 public
-void
+GeckoResult
+<
+String
+>
 onLoadError
 (
 final
@@ -2210,6 +2214,9 @@ int
 error
 )
 {
+return
+null
+;
 }
 private
 void

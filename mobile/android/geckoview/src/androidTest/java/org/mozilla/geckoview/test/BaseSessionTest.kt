@@ -310,7 +310,7 @@ html
 "
 const
 val
-INVALID_URI
+UNKNOWN_HOST_URI
 =
 "
 http
@@ -323,6 +323,16 @@ test
 .
 invalid
 /
+"
+const
+val
+INVALID_URI
+=
+"
+not
+a
+valid
+uri
 "
 const
 val

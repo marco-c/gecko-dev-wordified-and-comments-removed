@@ -378,6 +378,7 @@ GeckoSession
 uri
 :
 String
+?
 category
 :
 Int
@@ -385,7 +386,15 @@ error
 :
 Int
 )
+:
+GeckoResult
+<
+String
+>
+?
 {
+return
+null
 }
 }
 interface

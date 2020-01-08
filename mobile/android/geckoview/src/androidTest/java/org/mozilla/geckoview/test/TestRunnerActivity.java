@@ -294,7 +294,10 @@ getSettings
 }
 Override
 public
-void
+GeckoResult
+<
+String
+>
 onLoadError
 (
 GeckoSession
@@ -307,6 +310,9 @@ int
 error
 )
 {
+return
+null
+;
 }
 }
 ;

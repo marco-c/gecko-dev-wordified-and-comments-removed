@@ -555,7 +555,7 @@ session
 .
 loadUri
 (
-INVALID_URI
+UNKNOWN_HOST_URI
 )
 sessionRule
 .
@@ -617,7 +617,7 @@ endsWith
 (
 forEachCall
 (
-INVALID_URI
+UNKNOWN_HOST_URI
 HELLO_HTML_PATH
 )
 )
