@@ -21,12 +21,6 @@ ac_add_options
 -
 disable
 -
-dmd
-ac_add_options
--
--
-disable
--
 jemalloc
 ac_add_options
 -
