@@ -163,14 +163,7 @@ base
 p
 )
             
-if
-not
-registry
-.
-contains
-(
-path
-)
+try
 :
                 
 registry
@@ -180,6 +173,12 @@ add
 path
 f
 )
+            
+except
+Exception
+:
+                
+pass
     
 return
 registry
