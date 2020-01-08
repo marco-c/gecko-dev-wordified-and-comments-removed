@@ -378,15 +378,6 @@ aMoz2DBackend
 )
 {
 }
-RefPtr
-<
-gfx
-:
-:
-DrawTarget
->
-mDrawTarget
-;
 BufferDescriptor
 mDescriptor
 ;
