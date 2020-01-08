@@ -264,9 +264,6 @@ ContentHost
 class
 ContentHostTexture
 ;
-class
-HostLayerManager
-;
 struct
 EffectChain
 ;
