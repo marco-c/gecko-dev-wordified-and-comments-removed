@@ -339,7 +339,7 @@ getShieldCounts
 [
 0
 ]
-2
+1
 "
 Page
 loads

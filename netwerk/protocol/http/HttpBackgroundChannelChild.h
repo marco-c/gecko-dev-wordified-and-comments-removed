@@ -195,12 +195,6 @@ RecvNotifyTrackingProtectionDisabled
 override
 ;
 IPCResult
-RecvNotifyCookieAllowed
-(
-)
-override
-;
-IPCResult
 RecvNotifyTrackingCookieBlocked
 (
 const
