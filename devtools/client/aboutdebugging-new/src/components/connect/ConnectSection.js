@@ -142,7 +142,9 @@ h2
 className
 :
 "
-page__section__title
+alt
+-
+subheading
 "
 }
 dom
@@ -153,7 +155,9 @@ img
 className
 :
 "
-page__section__icon
+alt
+-
+subheading__icon
 "
 src
 :
