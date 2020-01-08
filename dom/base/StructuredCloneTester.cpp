@@ -259,12 +259,17 @@ nullptr
 JS
 :
 :
-RootedObject
+Rooted
+<
+JSObject
+*
+>
 result
 (
 aCx
 )
 ;
+{
 RefPtr
 <
 StructuredCloneTester
@@ -326,6 +331,7 @@ aCx
 nullptr
 )
 ;
+}
 return
 result
 ;
