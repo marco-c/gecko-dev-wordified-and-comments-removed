@@ -575,9 +575,6 @@ wpt_integration
 TOXENV
 =
 py27
-py27
--
-flake8
 SCRIPT
 =
 tools
