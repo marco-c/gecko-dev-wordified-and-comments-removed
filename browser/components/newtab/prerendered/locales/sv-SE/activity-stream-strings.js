@@ -783,9 +783,9 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Hur
+fungerar
+det
 "
 "
 pocket_cta_button

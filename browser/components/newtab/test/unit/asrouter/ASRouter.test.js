@@ -8486,7 +8486,7 @@ INSTALL_ADDON_FROM_URL
 data
 :
 {
-args
+url
 :
 "
 foo

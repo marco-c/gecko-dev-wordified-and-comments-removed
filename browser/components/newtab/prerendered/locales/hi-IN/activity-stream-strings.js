@@ -231,10 +231,8 @@ section_disclaimer_topstories
 "
 :
 "
-.
 Pocket
 Mozilla
-.
 "
 "
 section_disclaimer_topstories_linktext
@@ -723,6 +721,12 @@ firstrun_continue_to_login
 "
 "
 firstrun_skip_login
+"
+:
+"
+"
+"
+pocket_learn_more
 "
 :
 "

@@ -2140,6 +2140,9 @@ if
 (
 [
 "
+AT
+"
+"
 DE
 "
 "
@@ -2282,7 +2285,7 @@ OnboardingMessageProvider
 "
 enabled
 :
-false
+true
 }
 {
 id
