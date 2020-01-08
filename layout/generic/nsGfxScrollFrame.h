@@ -2470,6 +2470,11 @@ IsForTextControlWithNoScrollbars
 )
 const
 ;
+void
+RemoveObservers
+(
+)
+;
 static
 void
 EnsureFrameVisPrefsCached
