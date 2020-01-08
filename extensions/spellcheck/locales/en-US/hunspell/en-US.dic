@@ -1,4 +1,4 @@
-52926
+52944
 0
 /
 nm
@@ -45604,6 +45604,7 @@ basically
 basil
 /
 M
+basilar
 basilica
 /
 MS
@@ -61105,6 +61106,13 @@ cysteine
 /
 SM
 cystic
+cysticerci
+cysticercoid
+/
+S
+cysticercoses
+cysticercosis
+cysticercus
 cystitis
 cytokine
 /
@@ -69855,6 +69863,11 @@ MGDS
 evident
 /
 Y
+evidential
+/
+Y
+evidentiality
+evidentiary
 evil
 /
 MRYTSP
@@ -72529,7 +72542,7 @@ finch
 MS
 find
 /
-JMRZGS
+JMRZGSB
 finder
 /
 M
@@ -80441,6 +80454,7 @@ headsman
 /
 M
 headsmen
+headspace
 headstall
 /
 SM
@@ -88593,6 +88607,7 @@ SM
 kludge
 /
 GDS
+kludgy
 kluge
 /
 DS
@@ -98768,6 +98783,8 @@ MS
 neuritis
 /
 M
+neurocysticercoses
+neurocysticercosis
 neurological
 /
 Y
@@ -108362,7 +108379,7 @@ positioning
 AK
 positive
 /
-MYPS
+MYPSE
 positiveness
 /
 M
@@ -114547,6 +114564,7 @@ Y
 request
 /
 GDR
+requestor
 requiem
 /
 SM
@@ -127782,6 +127800,7 @@ M
 supersede
 /
 GDS
+superset
 supersize
 /
 GDS
@@ -130534,7 +130553,7 @@ thematic
 thematically
 theme
 /
-DSM
+DSMG
 themselves
 then
 /
@@ -134631,6 +134650,7 @@ uncontrollably
 uncontroversial
 uncool
 uncooperative
+uncopyrightable
 uncouth
 /
 Y
@@ -134986,6 +135006,7 @@ uneconomic
 unemployed
 /
 M
+unencrypted
 unending
 unenterprising
 unequal
@@ -136547,6 +136568,7 @@ vertebrata
 vertebrate
 /
 IMS
+vertebrobasilar
 vertex
 /
 MS
