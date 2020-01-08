@@ -707,6 +707,14 @@ lock
 =
 None
     
+_initializing
+=
+threading
+.
+Lock
+(
+)
+    
 def
 __init__
 (
@@ -783,13 +791,19 @@ Lock
 (
 )
         
+with
+Stash
+.
+_initializing
+:
+            
 if
 Stash
 .
-_proxy
-is
-None
+lock
 :
+                
+return
             
 manager
 =
