@@ -1197,13 +1197,7 @@ mConduit
 >
 SetLocalMID
 (
-mJsepTransceiver
--
->
-mTransport
--
->
-mTransportId
+mMid
 )
 ;
 nsresult
