@@ -294,6 +294,7 @@ timeDelta
 float
 velocity
 =
+-
 aDelta
 /
 timeDelta
