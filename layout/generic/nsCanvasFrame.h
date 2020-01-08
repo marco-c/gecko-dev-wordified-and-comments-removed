@@ -898,6 +898,14 @@ aFrame
 )
 )
 {
+nsDisplayThemedBackground
+:
+:
+Init
+(
+aBuilder
+)
+;
 }
 virtual
 void
