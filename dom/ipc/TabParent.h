@@ -1607,7 +1607,7 @@ aURI
 )
 ;
 void
-InitRenderFrame
+InitRendering
 (
 )
 ;
