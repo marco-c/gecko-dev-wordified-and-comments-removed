@@ -103583,6 +103583,10 @@ description
 "
 :
 "
+(
+Fennec
+Only
+)
 A
 value
 of
@@ -103652,6 +103656,15 @@ bug_numbers
 :
 [
 1058133
+]
+"
+products
+"
+:
+[
+"
+fennec
+"
 ]
 }
 "
