@@ -1178,6 +1178,9 @@ AnimationProperty
 >
 &
 aProperties
+bool
+*
+aBaseStylesChanged
 )
 ;
 void
