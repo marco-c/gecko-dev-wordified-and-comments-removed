@@ -3459,12 +3459,6 @@ Requires
 '
 tabs
 '
-and
-'
-<
-all_urls
->
-'
 permission
 .
 "
