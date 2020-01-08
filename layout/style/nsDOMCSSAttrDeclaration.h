@@ -196,6 +196,12 @@ aClosureData
 )
 final
 {
+if
+(
+!
+mIsSMILOverride
+)
+{
 aClosure
 -
 >
@@ -224,6 +230,7 @@ mElement
 =
 mElement
 ;
+}
 }
 protected
 :
