@@ -4104,6 +4104,7 @@ ida
 delete
 ;
 }
+JS_HAZ_ROOTED_BASE
 ;
 namespace
 detail
