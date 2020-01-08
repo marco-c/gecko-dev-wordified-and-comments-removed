@@ -4345,12 +4345,6 @@ tmp
 ;
 }
 }
-scriptDataGuard
-.
-release
-(
-)
-;
 if
 (
 mode
@@ -5806,6 +5800,12 @@ script
 ;
 }
 }
+scriptDataGuard
+.
+release
+(
+)
+;
 return
 Ok
 (
