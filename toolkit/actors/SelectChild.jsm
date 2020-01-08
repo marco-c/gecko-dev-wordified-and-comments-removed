@@ -1713,7 +1713,7 @@ inputEvent
 new
 win
 .
-UIEvent
+Event
 (
 "
 input

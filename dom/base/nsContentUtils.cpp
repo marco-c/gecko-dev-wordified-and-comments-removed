@@ -20279,7 +20279,7 @@ if
 inputElement
 -
 >
-IsSingleLineTextControl
+IsInputEventTarget
 (
 )
 )
