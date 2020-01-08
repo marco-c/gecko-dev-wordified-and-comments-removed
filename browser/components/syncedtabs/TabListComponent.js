@@ -654,15 +654,6 @@ PlacesCommandHook
 .
 bookmarkLink
 (
-this
-.
-_window
-.
-top
-.
-PlacesUtils
-.
-bookmarksMenuFolderId
 uri
 title
 )

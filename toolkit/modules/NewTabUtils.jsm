@@ -4572,9 +4572,6 @@ PlacesCommandHook
 .
 bookmarkLink
 (
-PlacesUtils
-.
-bookmarksMenuFolderId
 url
 title
 )
