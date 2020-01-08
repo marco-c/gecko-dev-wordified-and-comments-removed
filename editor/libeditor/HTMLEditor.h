@@ -2412,6 +2412,15 @@ aURL
 )
 ;
 nsresult
+AddOverrideStyleSheetInternal
+(
+const
+nsAString
+&
+aURL
+)
+;
+nsresult
 MaybeCollapseSelectionAtFirstEditableNode
 (
 bool
