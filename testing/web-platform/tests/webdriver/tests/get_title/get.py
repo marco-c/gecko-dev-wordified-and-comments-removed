@@ -20,7 +20,7 @@ tests
 .
 support
 .
-wait
+sync
 import
 wait
 def

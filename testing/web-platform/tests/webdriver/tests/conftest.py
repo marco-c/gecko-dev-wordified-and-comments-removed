@@ -37,7 +37,7 @@ tests
 .
 support
 .
-wait
+sync
 import
 wait
 _current_session
