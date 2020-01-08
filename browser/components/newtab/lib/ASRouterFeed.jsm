@@ -142,6 +142,11 @@ getDbTable
 snippets
 "
 )
+this
+.
+store
+.
+dispatch
 )
 ;
 Services

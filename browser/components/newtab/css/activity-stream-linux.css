@@ -6215,12 +6215,6 @@ section
 -
 title
 {
-text
--
-transform
-:
-none
-;
 font
 -
 size
@@ -14129,12 +14123,6 @@ bold
 margin
 :
 0
-;
-text
--
-transform
-:
-uppercase
 ;
 }
 .

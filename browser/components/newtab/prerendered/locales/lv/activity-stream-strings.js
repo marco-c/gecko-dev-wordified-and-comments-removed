@@ -1118,9 +1118,11 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Nepiecie
+ams
+der
+gs
+epasts
 "
 "
 firstrun_extra_legal_links

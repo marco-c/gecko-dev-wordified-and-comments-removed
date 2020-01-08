@@ -548,7 +548,7 @@ prefs_section_rows_option
 num
 }
 cholaj
-:
+;
 {
 num
 }
