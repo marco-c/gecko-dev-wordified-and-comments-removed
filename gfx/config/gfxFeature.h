@@ -131,6 +131,16 @@ WebRender
 \
 _
 (
+WEBRENDER_QUALIFIED
+Feature
+"
+WebRender
+qualified
+"
+)
+\
+_
+(
 OMTP
 Feature
 "
