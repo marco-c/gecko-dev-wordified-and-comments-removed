@@ -7915,7 +7915,7 @@ mac
 .
 earlyinit
 "
-false
+true
 )
 ;
 #
