@@ -7255,7 +7255,7 @@ IntProperty
 "
 version
 "
-11
+12
 )
 ;
 TimeDuration
@@ -8390,8 +8390,12 @@ frameNameString
 get
 (
 )
--
-1
+Nothing
+(
+)
+Nothing
+(
+)
 category
 )
 ;
