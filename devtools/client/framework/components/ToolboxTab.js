@@ -151,7 +151,6 @@ this
 renderIcon
 (
 definition
-isHighlighted
 )
 {
 const
@@ -177,6 +176,10 @@ return
 img
 (
 {
+alt
+:
+"
+"
 src
 :
 icon
@@ -440,7 +443,6 @@ this
 renderIcon
 (
 panelDefinition
-isHighlighted
 )
 iconOnly
 ?
