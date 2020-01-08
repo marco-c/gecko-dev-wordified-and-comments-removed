@@ -114,6 +114,7 @@ extern
 crate
 dwrote
 ;
+pub
 extern
 crate
 euclid
