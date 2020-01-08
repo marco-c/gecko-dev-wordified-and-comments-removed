@@ -119,16 +119,6 @@ lirIndex
 )
 ;
 void
-defineUntypedPhi
-(
-MPhi
-*
-phi
-size_t
-lirIndex
-)
-;
-void
 lowerTruncateDToInt32
 (
 MTruncateToInt32

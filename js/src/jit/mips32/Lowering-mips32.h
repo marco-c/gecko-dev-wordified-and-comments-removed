@@ -103,16 +103,6 @@ lirIndex
 )
 ;
 void
-defineUntypedPhi
-(
-MPhi
-*
-phi
-size_t
-lirIndex
-)
-;
-void
 lowerInt64PhiInput
 (
 MPhi
