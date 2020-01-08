@@ -4754,6 +4754,17 @@ yuvColorMatrix
 )
 )
 ;
+mPSConstants
+.
+vCoefficient
+[
+0
+]
+=
+1
+.
+0
+;
 SetSamplerForSamplingFilter
 (
 texturedEffect
