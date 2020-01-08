@@ -434,6 +434,17 @@ WaitForBufferOwnership
 {
 }
 virtual
+bool
+IsBufferAvailable
+(
+)
+const
+{
+return
+true
+;
+}
+virtual
 GLenum
 ProdTextureTarget
 (
