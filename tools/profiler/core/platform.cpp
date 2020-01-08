@@ -7696,7 +7696,7 @@ IntProperty
 "
 version
 "
-14
+13
 )
 ;
 TimeDuration
@@ -16614,6 +16614,14 @@ TimeStamp
 aEnd
 int64_t
 aCount
+mozilla
+:
+:
+net
+:
+:
+CacheDisposition
+aCacheDisposition
 const
 mozilla
 :
@@ -16743,6 +16751,7 @@ aStart
 aEnd
 aPriority
 aCount
+aCacheDisposition
 aTimings
 PromiseFlatCString
 (

@@ -355,6 +355,11 @@ net
 struct
 TimingStruct
 ;
+enum
+CacheDisposition
+:
+uint8_t
+;
 }
 }
 class
@@ -1888,6 +1893,7 @@ type
 start
 end
 count
+cache
 timings
 redirect
 )
@@ -1901,6 +1907,7 @@ type
 start
 end
 count
+cache
 timings
 redirect
 )
@@ -1928,6 +1935,14 @@ TimeStamp
 aEnd
 int64_t
 aCount
+mozilla
+:
+:
+net
+:
+:
+CacheDisposition
+aCacheDisposition
 const
 mozilla
 :
@@ -2537,10 +2552,6 @@ ProfilingStackFrame
 :
 Category
 aCategory
-uint32_t
-aFlags
-=
-0
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
@@ -2556,7 +2567,6 @@ get
 aLabel
 aDynamicString
 aCategory
-aFlags
 )
 ;
 }
