@@ -38,9 +38,14 @@ snapshot
 )
 {
 return
+Object
+.
+values
+(
 snapshot
 .
-counts
+values
+)
 .
 reduce
 (
@@ -53,6 +58,7 @@ b
 a
 +
 b
+0
 )
 ;
 }

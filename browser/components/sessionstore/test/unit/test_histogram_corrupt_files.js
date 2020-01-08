@@ -288,7 +288,7 @@ equal
 (
 s
 .
-counts
+values
 [
 0
 ]
@@ -312,7 +312,7 @@ equal
 (
 s
 .
-counts
+values
 [
 1
 ]
@@ -414,7 +414,7 @@ equal
 (
 s
 .
-counts
+values
 [
 0
 ]
@@ -438,7 +438,7 @@ equal
 (
 s
 .
-counts
+values
 [
 1
 ]
@@ -529,7 +529,7 @@ equal
 (
 s
 .
-counts
+values
 [
 1
 ]
@@ -553,7 +553,7 @@ equal
 (
 s
 .
-counts
+values
 [
 0
 ]
