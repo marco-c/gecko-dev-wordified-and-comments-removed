@@ -133,7 +133,7 @@ BCPropertyData
 static
 inline
 bool
-IS_TABLE_CELL
+IsTableCell
 (
 mozilla
 :

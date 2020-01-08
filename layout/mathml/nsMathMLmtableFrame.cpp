@@ -2820,7 +2820,7 @@ TableCell
 ;
 if
 (
-IS_TABLE_CELL
+IsTableCell
 (
 cellFrame
 -

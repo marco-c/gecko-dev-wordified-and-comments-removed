@@ -1002,7 +1002,7 @@ get
 ;
 NS_ASSERTION
 (
-IS_TABLE_CELL
+IsTableCell
 (
 childFrame
 -
@@ -1266,7 +1266,7 @@ get
 ;
 NS_ASSERTION
 (
-IS_TABLE_CELL
+IsTableCell
 (
 childFrame
 -
@@ -2042,7 +2042,7 @@ mFrames
 {
 if
 (
-IS_TABLE_CELL
+IsTableCell
 (
 childFrame
 -
