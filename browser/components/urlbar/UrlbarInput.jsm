@@ -796,7 +796,7 @@ let
 methodName
 =
 "
-_on
+_on_
 "
 +
 event
@@ -1479,7 +1479,7 @@ return
 action
 ;
 }
-_onblur
+_on_blur
 (
 event
 )
@@ -1491,7 +1491,7 @@ formatValue
 )
 ;
 }
-_onfocus
+_on_focus
 (
 event
 )
@@ -1503,7 +1503,7 @@ formatValue
 )
 ;
 }
-_onmousedown
+_on_mousedown
 (
 event
 )
@@ -1552,7 +1552,7 @@ preventDefault
 ;
 }
 }
-_oninput
+_on_input
 (
 event
 )
@@ -1604,7 +1604,7 @@ isPrivate
 )
 ;
 }
-_onselect
+_on_select
 (
 event
 )
@@ -1670,7 +1670,7 @@ kSelectionClipboard
 )
 ;
 }
-_onoverflow
+_on_overflow
 (
 event
 )
@@ -1715,7 +1715,7 @@ _updateTextOverflow
 )
 ;
 }
-_onunderflow
+_on_underflow
 (
 event
 )
@@ -1760,7 +1760,7 @@ _updateTextOverflow
 )
 ;
 }
-_onscrollend
+_on_scrollend
 (
 event
 )
