@@ -8057,12 +8057,7 @@ focused
 !
 this
 .
-hasAttribute
-(
-"
-textoverflow
-"
-)
+_inOverflow
 )
 return
 ;
