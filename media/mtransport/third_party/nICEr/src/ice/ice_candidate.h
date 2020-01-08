@@ -302,6 +302,14 @@ nr_ice_candidate
 candp
 )
 ;
+void
+nr_ice_candidate_stop_gathering
+(
+nr_ice_candidate
+*
+cand
+)
+;
 int
 nr_ice_format_candidate_attribute
 (

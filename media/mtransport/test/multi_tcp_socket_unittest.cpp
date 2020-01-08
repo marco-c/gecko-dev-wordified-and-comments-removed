@@ -96,7 +96,7 @@ h
 #
 include
 "
-nricectxhandler
+nricectx
 .
 h
 "
@@ -176,7 +176,7 @@ SetUp
 ;
 ice_ctx_
 =
-NrIceCtxHandler
+NrIceCtx
 :
 :
 Create
@@ -471,11 +471,6 @@ NS_SUCCEEDED
 ice_ctx_
 -
 >
-ctx
-(
-)
--
->
 SetStunServers
 (
 stun_servers
@@ -544,11 +539,6 @@ r
 nr_socket_multi_tcp_create
 (
 ice_ctx_
--
->
-ctx
-(
-)
 -
 >
 ctx
@@ -1824,7 +1814,7 @@ readable
 ;
 RefPtr
 <
-NrIceCtxHandler
+NrIceCtx
 >
 ice_ctx_
 ;

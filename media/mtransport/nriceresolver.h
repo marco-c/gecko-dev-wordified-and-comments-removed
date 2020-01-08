@@ -49,6 +49,13 @@ nsICancelable
 .
 h
 "
+#
+include
+"
+nricectx
+.
+h
+"
 typedef
 struct
 nr_resolver_

@@ -114,11 +114,6 @@ nricectx
 cpp
 '
 '
-nricectxhandler
-.
-cpp
-'
-'
 nricemediastream
 .
 cpp

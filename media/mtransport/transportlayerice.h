@@ -200,12 +200,6 @@ stream_
 int
 component_
 ;
-RefPtr
-<
-NrIceMediaStream
->
-old_stream_
-;
 }
 ;
 }
