@@ -1386,7 +1386,7 @@ static
 mozilla
 :
 :
-StaticRefPtr
+StaticAutoPtr
 <
 WatchdogManager
 >
