@@ -973,20 +973,7 @@ utils
 =
 window
 .
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-                              
-.
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 ;
             
 utils

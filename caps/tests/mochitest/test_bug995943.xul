@@ -777,12 +777,7 @@ id
 +
 window
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 .
 currentInnerWindowID
 )
