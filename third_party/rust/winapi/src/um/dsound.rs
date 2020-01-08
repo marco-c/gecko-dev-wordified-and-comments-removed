@@ -382,7 +382,7 @@ DSBUFFERDESC
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -635,8 +635,7 @@ Restore
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECTSOUNDBUFFER
@@ -679,7 +678,7 @@ IID_IDirectSound
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -802,8 +801,7 @@ LPCGUID
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECTSOUND

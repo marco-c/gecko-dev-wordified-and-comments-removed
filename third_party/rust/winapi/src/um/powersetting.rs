@@ -33,9 +33,7 @@ um
 winnt
 :
 :
-{
 HANDLE
-}
 ;
 use
 um

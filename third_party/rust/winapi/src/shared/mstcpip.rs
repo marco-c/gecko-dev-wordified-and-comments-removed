@@ -2749,11 +2749,10 @@ LONG
 }
 DECLARE_HANDLE
 !
-(
+{
 DL_EUI48
 _DL_EUI48
-)
-;
+}
 pub
 type
 PDL_EUI48

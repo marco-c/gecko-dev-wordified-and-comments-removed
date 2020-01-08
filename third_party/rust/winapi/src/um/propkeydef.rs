@@ -5,9 +5,7 @@ shared
 guiddef
 :
 :
-{
 IsEqualIID
-}
 ;
 use
 shared

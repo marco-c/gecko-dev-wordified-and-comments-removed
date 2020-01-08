@@ -104,11 +104,10 @@ FACILITY_ITF
 ;
 DECLARE_HANDLE
 !
-(
+{
 SCRIPT_CACHE
 SCRIPT_CACHE__
-)
-;
+}
 extern
 "
 system
@@ -142,7 +141,7 @@ DWORD
 }
 BITFIELD
 !
-(
+{
 SCRIPT_CONTROL
 bit_fields
 :
@@ -237,8 +236,7 @@ set_fReserved
 32
 ]
 ]
-)
-;
+}
 STRUCT
 !
 {
@@ -252,7 +250,7 @@ WORD
 }
 BITFIELD
 !
-(
+{
 SCRIPT_STATE
 bit_fields
 :
@@ -347,8 +345,7 @@ set_fEngineReserved
 16
 ]
 ]
-)
-;
+}
 STRUCT
 !
 {
@@ -365,7 +362,7 @@ SCRIPT_STATE
 }
 BITFIELD
 !
-(
+{
 SCRIPT_ANALYSIS
 bit_fields
 :
@@ -428,8 +425,7 @@ set_fNoGlyphIndex
 16
 ]
 ]
-)
-;
+}
 STRUCT
 !
 {
@@ -658,7 +654,7 @@ WORD
 }
 BITFIELD
 !
-(
+{
 SCRIPT_VISATTR
 bit_fields
 :
@@ -713,8 +709,7 @@ set_fShapeReserved
 16
 ]
 ]
-)
-;
+}
 extern
 "
 system
@@ -957,7 +952,7 @@ BYTE
 }
 BITFIELD
 !
-(
+{
 SCRIPT_LOGATTR
 bit_fields
 :
@@ -1012,8 +1007,7 @@ set_fReserved
 8
 ]
 ]
-)
-;
+}
 extern
 "
 system
@@ -1319,7 +1313,7 @@ DWORD
 }
 BITFIELD
 !
-(
+{
 SCRIPT_PROPERTIES
 bit_fields1
 :
@@ -1406,11 +1400,10 @@ set_fInvalidGlyph
 32
 ]
 ]
-)
-;
+}
 BITFIELD
 !
-(
+{
 SCRIPT_PROPERTIES
 bit_fields2
 :
@@ -1457,8 +1450,7 @@ set_fRejectInvalid
 5
 ]
 ]
-)
-;
+}
 extern
 "
 system
@@ -1756,11 +1748,10 @@ c_int
 }
 DECLARE_HANDLE
 !
-(
+{
 SCRIPT_STRING_ANALYSIS
 SCRIPT_STRING_ANALYSIS__
-)
-;
+}
 extern
 "
 system
@@ -2083,7 +2074,7 @@ DWORD
 }
 BITFIELD
 !
-(
+{
 SCRIPT_DIGITSUBSTITUTE
 bit_fields1
 :
@@ -2106,11 +2097,10 @@ set_TraditionalDigitLanguage
 32
 ]
 ]
-)
-;
+}
 BITFIELD
 !
-(
+{
 SCRIPT_DIGITSUBSTITUTE
 bit_fields2
 :
@@ -2125,8 +2115,7 @@ set_DigitSubstitute
 8
 ]
 ]
-)
-;
+}
 extern
 "
 system
@@ -2269,7 +2258,7 @@ WORD
 }
 BITFIELD
 !
-(
+{
 SCRIPT_CHARPROP
 bit_fields
 :
@@ -2292,8 +2281,7 @@ set_reserved
 16
 ]
 ]
-)
-;
+}
 STRUCT
 !
 {

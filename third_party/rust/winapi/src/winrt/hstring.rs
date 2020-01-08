@@ -15,11 +15,10 @@ PVOID
 ;
 DECLARE_HANDLE
 !
-(
+{
 HSTRING
 HSTRING__
-)
-;
+}
 #
 [
 cfg
@@ -105,8 +104,7 @@ HSTRING_HEADER_Reserved
 }
 DECLARE_HANDLE
 !
-(
+{
 HSTRING_BUFFER
 HSTRING_BUFFER__
-)
-;
+}

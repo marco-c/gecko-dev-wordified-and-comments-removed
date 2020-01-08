@@ -683,7 +683,7 @@ DWORD
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -973,8 +973,7 @@ IDirect3DDevice9
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3D9
@@ -993,7 +992,7 @@ IDirect3D9
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -2969,8 +2968,7 @@ IDirect3DQuery9
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DDEVICE9
@@ -2989,7 +2987,7 @@ IDirect3DDevice9
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -3047,8 +3045,7 @@ Apply
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DSTATEBLOCK9
@@ -3067,7 +3064,7 @@ IDirect3DStateBlock9
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -3207,8 +3204,7 @@ D3DPRESENT_PARAMETERS
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DSWAPCHAIN9
@@ -3227,7 +3223,7 @@ IDirect3DSwapChain9
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -3360,8 +3356,7 @@ GetType
 >
 D3DRESOURCETYPE
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DRESOURCE9
@@ -3380,7 +3375,7 @@ IDirect3DResource9
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -3441,8 +3436,7 @@ UINT
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DVERTEXDECLARATION9
@@ -3461,7 +3455,7 @@ IDirect3DVertexDeclaration9
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -3522,8 +3516,7 @@ UINT
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DVERTEXSHADER9
@@ -3542,7 +3535,7 @@ IDirect3DVertexShader9
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -3603,8 +3596,7 @@ UINT
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DPIXELSHADER9
@@ -5675,7 +5667,7 @@ IDirect3DDevice9Video
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -5790,8 +5782,7 @@ D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DAUTHENTICATEDCHANNEL9
@@ -5810,7 +5801,7 @@ IDirect3DAuthenticatedChannel9
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -5996,8 +5987,7 @@ UINT
 >
 HRESULT
 }
-)
-;
+}
 pub
 type
 LPDIRECT3DCRYPTOSESSION9

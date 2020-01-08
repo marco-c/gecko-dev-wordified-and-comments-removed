@@ -47,7 +47,7 @@ IServiceProvider
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -117,5 +117,4 @@ IUnknown
 >
 HRESULT
 }
-)
-;
+}

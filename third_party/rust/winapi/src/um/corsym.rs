@@ -347,7 +347,7 @@ VAR_IS_COMP_GEN
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -430,8 +430,7 @@ ISymUnmanagedReader
 >
 HRESULT
 }
-)
-;
+}
 ENUM
 !
 {
@@ -454,7 +453,7 @@ AllowReferencePathAccess
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -516,8 +515,7 @@ ISymUnmanagedReader
 >
 HRESULT
 }
-)
-;
+}
 pub
 enum
 ISymUnmanagedReader

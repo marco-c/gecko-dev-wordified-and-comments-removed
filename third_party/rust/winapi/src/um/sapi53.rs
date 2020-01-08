@@ -605,7 +605,7 @@ ISpEventSourceVtbl
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -655,8 +655,7 @@ ULONG
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -1195,7 +1194,7 @@ SPSHORTCUTPAIR
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1368,8 +1367,7 @@ SPSHORTCUTPAIRLIST
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -1385,7 +1383,7 @@ ISpPhoneConverterVtbl
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1495,11 +1493,10 @@ DWORD
 >
 HRESULT
 }
-)
-;
+}
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1551,8 +1548,7 @@ BOOL
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -1707,7 +1703,7 @@ SPXRO_Alternates_SML
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1784,8 +1780,7 @@ ISpStreamFormat
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -1826,7 +1821,7 @@ SPCF_DEFINITE_CORRECTION
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1907,11 +1902,10 @@ BOOL
 >
 HRESULT
 }
-)
-;
+}
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1968,8 +1962,7 @@ SPSEMANTICERRORINFO
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -2146,7 +2139,7 @@ PA_Sapi
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -2205,8 +2198,7 @@ PHONETICALPHABET
 >
 HRESULT
 }
-)
-;
+}
 pub
 const
 SPRP_NORMAL
@@ -2217,7 +2209,7 @@ i32
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -2372,11 +2364,10 @@ IInternetSecurityManager
 >
 HRESULT
 }
-)
-;
+}
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -2476,8 +2467,7 @@ BSTR
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -2632,7 +2622,7 @@ SPAR_High
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -2706,8 +2696,7 @@ SPADAPTATIONRELEVANCE
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -2737,7 +2726,7 @@ ISpRecognizerVtbl
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -2807,11 +2796,10 @@ DWORD
 >
 HRESULT
 }
-)
-;
+}
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -2876,8 +2864,7 @@ ResetAcousticModelAdaptation
 >
 HRESULT
 }
-)
-;
+}
 STRUCT
 !
 {
@@ -2898,7 +2885,7 @@ WCHAR
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -2976,8 +2963,7 @@ SPWORDPRONUNCIATIONLIST
 >
 HRESULT
 }
-)
-;
+}
 STRUCT
 !
 {
@@ -3017,7 +3003,7 @@ SPDISPLAYTOKEN
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -3084,8 +3070,7 @@ ULONG
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -4069,7 +4054,7 @@ ISpeechRecoResultVtbl
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -4112,8 +4097,7 @@ VARIANT_BOOL
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -4167,7 +4151,7 @@ SpeechAllElements
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -4249,11 +4233,10 @@ VARIANT_BOOL
 >
 HRESULT
 }
-)
-;
+}
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -4498,8 +4481,7 @@ VARIANT_BOOL
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um

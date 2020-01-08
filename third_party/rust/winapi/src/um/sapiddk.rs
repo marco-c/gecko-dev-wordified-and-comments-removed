@@ -291,7 +291,7 @@ ISpSREngineSiteVtbl
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -379,8 +379,7 @@ SPRECORESULTINFOEX
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -400,7 +399,7 @@ ISpSREngineVtbl
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -630,8 +629,7 @@ ULONG
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -644,7 +642,7 @@ SPPHRASEALTREQUEST
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -725,11 +723,10 @@ ULONG
 >
 HRESULT
 }
-)
-;
+}
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -777,8 +774,7 @@ SPCOMMITFLAGS
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um
@@ -794,7 +790,7 @@ _ISpPrivateEngineCallVtbl
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -878,8 +874,7 @@ ULONG
 >
 HRESULT
 }
-)
-;
+}
 pub
 use
 um

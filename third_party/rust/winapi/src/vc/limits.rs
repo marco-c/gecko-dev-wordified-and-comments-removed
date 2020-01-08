@@ -2,9 +2,7 @@ use
 ctypes
 :
 :
-{
 c_uint
-}
 ;
 pub
 const

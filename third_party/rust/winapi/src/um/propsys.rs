@@ -66,7 +66,7 @@ IUnknown
 ;
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -158,8 +158,7 @@ Commit
 >
 HRESULT
 }
-)
-;
+}
 ENUM
 !
 {

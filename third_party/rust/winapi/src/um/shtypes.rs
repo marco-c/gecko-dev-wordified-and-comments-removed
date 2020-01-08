@@ -31,6 +31,13 @@ LPCWSTR
 STRUCT
 !
 {
+#
+[
+repr
+(
+packed
+)
+]
 struct
 SHITEMID
 {
@@ -42,7 +49,7 @@ abID
 [
 BYTE
 ;
-0
+1
 ]
 }
 }
@@ -65,6 +72,13 @@ SHITEMID
 STRUCT
 !
 {
+#
+[
+repr
+(
+packed
+)
+]
 struct
 ITEMIDLIST
 {

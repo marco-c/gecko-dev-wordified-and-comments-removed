@@ -42,9 +42,7 @@ shared
 dxgiformat
 :
 :
-{
 DXGI_FORMAT
-}
 ;
 use
 shared
@@ -2831,7 +2829,7 @@ D3D11_SPEC_DATE_MONTH
 :
 DWORD
 =
-05
+0o5
 ;
 pub
 const
@@ -8920,6 +8918,11 @@ const
 *
 mut
 ID3D11UnorderedAccessView
+pUAVInitialCounts
+:
+*
+const
+UINT
 )
 -
 >

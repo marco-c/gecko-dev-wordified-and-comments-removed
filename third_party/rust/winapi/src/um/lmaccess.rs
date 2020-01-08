@@ -5783,7 +5783,7 @@ _
 ;
 DEFINE_GUID
 !
-(
+{
 ServiceAccountPasswordGUID
 0x262E99C9
 0x6160
@@ -5796,8 +5796,7 @@ ServiceAccountPasswordGUID
 0x6B
 0x6F
 0x21
-)
-;
+}
 extern
 "
 system

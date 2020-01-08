@@ -1465,7 +1465,7 @@ IID_ID3D10Blob
 }
 RIDL
 !
-(
+{
 #
 [
 uuid
@@ -1509,8 +1509,7 @@ GetBufferSize
 >
 SIZE_T
 }
-)
-;
+}
 pub
 type
 LPD3D10BLOB

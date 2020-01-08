@@ -550,11 +550,10 @@ HRESULT
 }
 DECLARE_HANDLE
 !
-(
+{
 CO_MTA_USAGE_COOKIE
 CO_MTA_USAGE_COOKIE__
-)
-;
+}
 extern
 "
 system

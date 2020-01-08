@@ -45,9 +45,7 @@ um
 winnt
 :
 :
-{
 HANDLE
-}
 ;
 extern
 "

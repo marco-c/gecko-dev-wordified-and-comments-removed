@@ -1568,5 +1568,5 @@ DWORD
 -
 1i32
 as
-DWORD
+u32
 ;
