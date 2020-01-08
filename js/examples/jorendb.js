@@ -375,11 +375,6 @@ debuggeeGlobalWrapper
 executeInGlobalWithBindings
 (
 "
-"
-+
-i
-+
-"
 .
 toString
 (
@@ -534,6 +529,14 @@ debuggeeValues
 "
 +
 i
+]
+=
+dv
+;
+debuggeeValues
+[
+"
+"
 ]
 =
 dv
