@@ -58,6 +58,17 @@ include
 "
 vm
 /
+ObjectOperations
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 TypeInference
 -
 inl

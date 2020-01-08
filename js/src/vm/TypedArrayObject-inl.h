@@ -126,6 +126,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+ObjectOperations
+-
+inl
+.
+h
+"
 namespace
 js
 {
