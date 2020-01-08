@@ -2496,6 +2496,11 @@ RR_CGDataProviderCreateWithData
 \
 MACRO
 (
+CGDataProviderRelease
+)
+\
+MACRO
+(
 CGDisplayCopyColorSpace
 RR_ScalarRval
 )
