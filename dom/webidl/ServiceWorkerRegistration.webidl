@@ -344,7 +344,7 @@ dom
 DOMPrefs
 :
 :
-NotificationEnabledInServiceWorkers
+dom_webnotifications_serviceworker_enabled
 "
 ]
 Promise
@@ -374,7 +374,7 @@ dom
 DOMPrefs
 :
 :
-NotificationEnabledInServiceWorkers
+dom_webnotifications_serviceworker_enabled
 "
 ]
 Promise
