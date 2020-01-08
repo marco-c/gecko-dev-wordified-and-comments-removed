@@ -799,7 +799,6 @@ inspector
 .
 pickColorFromPage
 (
-toolbox
 {
 copyOnSelect
 :
