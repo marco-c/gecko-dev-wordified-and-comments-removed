@@ -146,6 +146,16 @@ MOZ_ASSERT
 inplen
 >
 0
+"
+data
+to
+compress
+can
+'
+t
+be
+empty
+"
 )
 ;
 zs
