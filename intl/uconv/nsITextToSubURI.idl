@@ -287,11 +287,13 @@ character
 listed
 *
 in
-network
+netwerk
+/
+dns
+/
+IDNCharacterBlocklist
 .
-IDN
-.
-blacklist_chars
+inc
 (
 except
 space

@@ -176,6 +176,11 @@ stringPrepFlag
 flag
 )
 ;
+void
+InitializeBlocklist
+(
+)
+;
 bool
 isInWhitelist
 (
@@ -289,8 +294,11 @@ mozilla
 Mutex
 mLock
 ;
-nsString
-mIDNBlacklist
+nsTArray
+<
+char16_t
+>
+mIDNBlocklist
 ;
 bool
 mShowPunycode

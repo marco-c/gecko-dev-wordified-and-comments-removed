@@ -215,7 +215,7 @@ network
 .
 IDN
 .
-blacklist_chars
+extra_blocked_chars
 "
 minimumList
 :
