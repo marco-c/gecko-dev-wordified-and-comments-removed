@@ -463,6 +463,12 @@ MACRO
 (
 close
 RR_SaveRvalHadErrorNegative
+nullptr
+nullptr
+Preamble_Veto
+<
+0
+>
 )
 \
 MACRO
