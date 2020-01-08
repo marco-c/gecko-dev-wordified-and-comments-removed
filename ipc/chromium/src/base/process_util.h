@@ -263,11 +263,6 @@ defined
 OS_POSIX
 )
 void
-SetAllFDsToCloseOnExec
-(
-)
-;
-void
 CloseSuperfluousFds
 (
 void
