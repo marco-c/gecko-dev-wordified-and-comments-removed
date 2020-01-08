@@ -3237,6 +3237,13 @@ private
 void
 emitUnalignedLoad
 (
+const
+wasm
+:
+:
+MemoryAccessDesc
+*
+access
 bool
 isSigned
 unsigned
@@ -3256,6 +3263,13 @@ offset
 void
 emitUnalignedStore
 (
+const
+wasm
+:
+:
+MemoryAccessDesc
+*
+access
 unsigned
 byteSize
 Register
