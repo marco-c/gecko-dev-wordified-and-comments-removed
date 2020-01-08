@@ -288,6 +288,9 @@ tier
 (
 TIERS
 )
+(
+non_default_tiers
+)
 recurse_
 (
 tier

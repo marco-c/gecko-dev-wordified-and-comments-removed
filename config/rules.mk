@@ -2790,6 +2790,13 @@ target
 :
 :
 (
+filter
+-
+out
+(
+MOZBUILD_NON_DEFAULT_TARGETS
+)
+(
 LIBRARY
 )
 (
@@ -2806,6 +2813,7 @@ RUST_LIBRARY_FILE
 )
 (
 RUST_PROGRAMS
+)
 )
 ifndef
 LIBRARY
