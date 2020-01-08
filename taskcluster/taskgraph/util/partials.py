@@ -227,7 +227,9 @@ reporter
 "
 WINNT_x86_64
 -
-clangcl
+msvc
+-
+x64
 -
 asan
 "
@@ -335,7 +337,9 @@ reporter
 "
 WINNT_x86_64
 -
-clangcl
+msvc
+-
+x64
 -
 asan
 "
