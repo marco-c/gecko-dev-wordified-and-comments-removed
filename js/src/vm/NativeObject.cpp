@@ -12372,7 +12372,7 @@ Value
 vp
 )
 {
-AutoAssertNoException
+AutoAssertNoPendingException
 noexc
 (
 cx
