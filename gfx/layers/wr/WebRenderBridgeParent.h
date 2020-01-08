@@ -912,6 +912,13 @@ nullptr
 )
 override
 ;
+TimeDuration
+GetVsyncInterval
+(
+)
+const
+override
+;
 bool
 IsSameProcess
 (

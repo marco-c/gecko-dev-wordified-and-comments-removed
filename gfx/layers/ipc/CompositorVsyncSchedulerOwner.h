@@ -61,6 +61,15 @@ nullptr
 =
 0
 ;
+virtual
+TimeDuration
+GetVsyncInterval
+(
+)
+const
+=
+0
+;
 }
 ;
 }

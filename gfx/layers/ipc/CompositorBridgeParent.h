@@ -2263,6 +2263,7 @@ GetVsyncInterval
 (
 )
 const
+override
 {
 return
 mVsyncRate
