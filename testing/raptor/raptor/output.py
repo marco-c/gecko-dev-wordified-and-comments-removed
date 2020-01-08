@@ -101,11 +101,6 @@ suites
 [
 ]
         
-vals
-=
-[
-]
-        
 test_results
 =
 {
@@ -171,6 +166,11 @@ self
 .
 results
 :
+            
+vals
+=
+[
+]
             
 subtests
 =
@@ -251,8 +251,8 @@ pageload
 :
                 
 for
-key
-values
+measurement_name
+replicates
 in
 test
 .
@@ -283,7 +283,7 @@ name
 -
 "
 +
-key
+measurement_name
                     
 new_subtest
 [
@@ -292,7 +292,7 @@ replicates
 '
 ]
 =
-values
+replicates
                     
 new_subtest
 [
@@ -372,11 +372,19 @@ vals
 .
 append
 (
+[
 new_subtest
 [
 '
 value
 '
+]
+new_subtest
+[
+'
+name
+'
+]
 ]
 )
                     
@@ -486,34 +494,6 @@ subtests
 ]
 =
 subtests
-                
-if
-len
-(
-subtests
-)
->
-1
-:
-                    
-suite
-[
-'
-value
-'
-]
-=
-self
-.
-construct_summary
-(
-vals
-testname
-=
-test
-.
-name
-)
             
 else
 :
@@ -535,6 +515,34 @@ type
 )
                 
 return
+            
+if
+len
+(
+subtests
+)
+>
+1
+:
+                
+suite
+[
+'
+value
+'
+]
+=
+self
+.
+construct_summary
+(
+vals
+testname
+=
+test
+.
+name
+)
         
 self
 .
@@ -2381,6 +2389,8 @@ vals
 :
             
 return
+round
+(
 filter
 .
 geometric_mean
@@ -2394,11 +2404,15 @@ in
 vals
 ]
 )
+2
+)
         
 else
 :
             
 return
+round
+(
 filter
 .
 mean
@@ -2411,4 +2425,6 @@ j
 in
 vals
 ]
+)
+2
 )
