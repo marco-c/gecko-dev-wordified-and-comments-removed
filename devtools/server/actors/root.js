@@ -264,12 +264,6 @@ true
 bulk
 :
 true
-getCssPath
-:
-true
-getXPath
-:
-true
 directorScripts
 :
 true
