@@ -177,6 +177,17 @@ false
 )
 ;
 void
+DispatchContinueConsumeBlobBody
+(
+BlobImpl
+*
+aBlobImpl
+ThreadSafeWorkerRef
+*
+aWorkerRef
+)
+;
+void
 ShutDownMainThreadConsuming
 (
 )
