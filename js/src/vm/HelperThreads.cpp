@@ -8002,9 +8002,11 @@ parseTask
 >
 scripts
 )
-releaseAssertSameCompartment
-(
 cx
+-
+>
+releaseCheck
+(
 script
 )
 ;

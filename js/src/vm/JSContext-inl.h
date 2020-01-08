@@ -1232,6 +1232,7 @@ args
 #
 endif
 }
+}
 template
 <
 class
@@ -1242,11 +1243,11 @@ Args
 >
 inline
 void
-releaseAssertSameCompartment
-(
 JSContext
-*
-cx
+:
+:
+releaseCheck
+(
 const
 Args
 &
@@ -1258,8 +1259,8 @@ args
 {
 assertSameCompartmentImpl
 (
-cx
-1
+this
+0
 args
 .
 .
@@ -1267,6 +1268,9 @@ args
 )
 ;
 }
+namespace
+js
+{
 template
 <
 class
