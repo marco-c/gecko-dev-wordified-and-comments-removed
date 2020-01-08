@@ -2370,7 +2370,7 @@ response
 .
 writer
 .
-write_content
+write_raw_content
 (
 f
 .
