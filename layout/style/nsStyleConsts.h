@@ -277,6 +277,17 @@ FromImage
 ;
 enum
 class
+StyleScrollbarWidth
+:
+uint8_t
+{
+Auto
+Thin
+None
+}
+;
+enum
+class
 StyleShapeRadius
 :
 uint8_t
