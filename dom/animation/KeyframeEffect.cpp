@@ -4098,6 +4098,13 @@ AnimationAdded
 mAnimation
 )
 ;
+mAnimation
+-
+>
+ReschedulePendingTasks
+(
+)
+;
 }
 }
 }
