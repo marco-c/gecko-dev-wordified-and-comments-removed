@@ -1801,7 +1801,11 @@ get
 full_path
 )
         
-return
+try
+:
+            
+rv
+=
 wptmanifest
 .
 manifest
@@ -1811,3 +1815,24 @@ load
 tests_root
 f
 )
+        
+except
+wptmanifest
+.
+manifest
+.
+ManifestVersionMismatch
+:
+            
+rv
+=
+wptmanifest
+.
+manifest
+.
+Manifest
+(
+)
+        
+return
+rv
