@@ -197,6 +197,14 @@ this
 targetActor
 .
 exited
+|
+|
+!
+this
+.
+targetActor
+.
+actorID
 )
 {
 return
