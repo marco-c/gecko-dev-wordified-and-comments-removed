@@ -117,9 +117,10 @@ script
 JS
 :
 :
-SetBuildIdOp
+SetProcessBuildIdOp
 (
-cx
+:
+:
 GetBuildId
 )
 ;

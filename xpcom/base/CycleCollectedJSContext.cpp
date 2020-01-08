@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsIPlatformInfo
-.
-h
-"
-#
-include
-"
 nsThread
 .
 h

@@ -1644,17 +1644,6 @@ TraceKind
 RegExpShared
 ;
 }
-bool
-GetBuildId
-(
-JS
-:
-:
-BuildIdCharVector
-*
-aBuildID
-)
-;
 }
 #
 endif
