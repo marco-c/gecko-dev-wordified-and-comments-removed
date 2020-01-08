@@ -250,6 +250,9 @@ OS_LIBS
 crypt32
 '
 '
+rpcrt4
+'
+'
 wintrust
 '
 ]
