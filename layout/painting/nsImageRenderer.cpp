@@ -962,7 +962,7 @@ SurfaceFromElement
 property
 -
 >
-GetReferencedElement
+GetAndObserveReferencedElement
 (
 )
 )
@@ -984,7 +984,7 @@ paintServerFrame
 property
 -
 >
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 )
 ;

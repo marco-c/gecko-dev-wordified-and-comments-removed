@@ -344,13 +344,13 @@ NotifyEvictedFromRenderingObserverList
 ;
 nsIFrame
 *
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 )
 ;
 nsIFrame
 *
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 mozilla
 :
@@ -364,7 +364,7 @@ aOK
 ;
 Element
 *
-GetReferencedElement
+GetAndObserveReferencedElement
 (
 )
 ;
@@ -401,7 +401,7 @@ OnRenderingChange
 virtual
 Element
 *
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 =
@@ -462,7 +462,7 @@ protected
 :
 Element
 *
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 override
@@ -782,7 +782,7 @@ ReferencesValidResource
 )
 {
 return
-GetFilterFrame
+GetAndObserveFilterFrame
 (
 )
 ;
@@ -799,7 +799,7 @@ nullptr
 }
 nsSVGFilterFrame
 *
-GetFilterFrame
+GetAndObserveFilterFrame
 (
 )
 ;

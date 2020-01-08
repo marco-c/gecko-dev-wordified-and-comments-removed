@@ -142,7 +142,7 @@ Element
 *
 target
 =
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 ;
@@ -173,7 +173,7 @@ Element
 *
 target
 =
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 ;
@@ -260,7 +260,7 @@ Element
 SVGRenderingObserver
 :
 :
-GetReferencedElement
+GetAndObserveReferencedElement
 (
 )
 {
@@ -268,7 +268,7 @@ Element
 *
 target
 =
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 ;
@@ -383,7 +383,7 @@ nsIFrame
 SVGRenderingObserver
 :
 :
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 )
 {
@@ -391,7 +391,7 @@ Element
 *
 referencedElement
 =
-GetReferencedElement
+GetAndObserveReferencedElement
 (
 )
 ;
@@ -413,7 +413,7 @@ nsIFrame
 SVGRenderingObserver
 :
 :
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 LayoutFrameType
 aFrameType
@@ -426,7 +426,7 @@ nsIFrame
 *
 frame
 =
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 )
 ;
@@ -942,7 +942,7 @@ nsSVGFilterFrame
 SVGFilterObserver
 :
 :
-GetFilterFrame
+GetAndObserveFilterFrame
 (
 )
 {
@@ -953,7 +953,7 @@ nsSVGFilterFrame
 *
 >
 (
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 LayoutFrameType
 :
@@ -1873,7 +1873,7 @@ Element
 *
 target
 =
-GetTarget
+GetReferencedElementWithoutObserving
 (
 )
 ;
@@ -2404,12 +2404,13 @@ observer
 observer
 -
 >
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 LayoutFrameType
 :
 :
 SVGMarker
+\
 nullptr
 )
 :
@@ -2573,7 +2574,7 @@ SVGObserverUtils
 :
 :
 ReferenceState
-GetFilters
+GetAndObserveFilters
 (
 SVGFilterObserverListForCSSProp
 *
@@ -2664,7 +2665,7 @@ i
 ]
 -
 >
-GetFilterFrame
+GetAndObserveFilterFrame
 (
 )
 ;
@@ -2747,7 +2748,9 @@ aFilteredFrame
 )
 ;
 return
-GetFilters
+:
+:
+GetAndObserveFilters
 (
 observerList
 aFilterFrames
@@ -2793,7 +2796,9 @@ FilterProperty
 )
 ;
 return
-GetFilters
+:
+:
+GetAndObserveFilters
 (
 observerList
 aFilterFrames
@@ -3040,7 +3045,7 @@ element
 property
 -
 >
-GetReferencedElement
+GetAndObserveReferencedElement
 (
 )
 ;
@@ -3257,7 +3262,7 @@ observer
 observer
 -
 >
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 )
 :
@@ -3791,7 +3796,7 @@ result
 property
 -
 >
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 )
 ;
@@ -3888,7 +3893,7 @@ nsSVGClipPathFrame
 mClipPath
 -
 >
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 LayoutFrameType
 :
@@ -3993,7 +3998,7 @@ i
 ]
 -
 >
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 LayoutFrameType
 :
@@ -4096,7 +4101,7 @@ nsSVGClipPathFrame
 mClipPath
 -
 >
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 LayoutFrameType
 :
@@ -4201,7 +4206,7 @@ i
 ]
 -
 >
-GetReferencedFrame
+GetAndObserveReferencedFrame
 (
 LayoutFrameType
 :
