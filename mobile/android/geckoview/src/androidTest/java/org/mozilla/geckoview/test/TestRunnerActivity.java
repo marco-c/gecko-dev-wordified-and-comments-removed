@@ -447,12 +447,8 @@ int
 screenX
 int
 screenY
-String
-uri
-int
-elementType
-String
-elementSrc
+ContextElement
+element
 )
 {
 }
