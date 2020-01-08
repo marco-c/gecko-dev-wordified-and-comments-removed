@@ -35,7 +35,7 @@ class
 ARIAGridAccessible
 :
 public
-HyperTextAccessibleWrap
+AccessibleWrap
 public
 TableAccessible
 {
@@ -54,7 +54,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 ARIAGridAccessible
-HyperTextAccessibleWrap
+AccessibleWrap
 )
 virtual
 a11y
@@ -296,7 +296,7 @@ class
 ARIARowAccessible
 :
 public
-HyperTextAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -313,7 +313,7 @@ aDoc
 NS_INLINE_DECL_REFCOUNTING_INHERITED
 (
 ARIARowAccessible
-HyperTextAccessibleWrap
+AccessibleWrap
 )
 virtual
 a11y

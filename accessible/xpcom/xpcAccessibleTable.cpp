@@ -57,7 +57,7 @@ XPC_TABLE_DEFAULT_SIZE
 NS_IMPL_ISUPPORTS_INHERITED
 (
 xpcAccessibleTable
-xpcAccessibleHyperText
+xpcAccessibleGeneric
 nsIAccessibleTable
 )
 NS_IMETHODIMP
