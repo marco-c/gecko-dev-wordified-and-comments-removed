@@ -57,7 +57,10 @@ use
 clip_scroll_tree
 :
 :
+{
+ClipScrollTree
 SpatialNodeIndex
+}
 ;
 use
 device
@@ -374,12 +377,12 @@ use_dual_source_blending
 :
 bool
 pub
-transforms
+clip_scroll_tree
 :
 &
 '
 a
-TransformPalette
+ClipScrollTree
 }
 #
 [
@@ -637,6 +640,11 @@ _prim_headers
 &
 mut
 PrimitiveHeaders
+_transforms
+:
+&
+mut
+TransformPalette
 )
 {
 }
@@ -666,6 +674,11 @@ clip_store
 :
 &
 ClipStore
+transforms
+:
+&
+mut
+TransformPalette
 deferred_resolves
 :
 &
@@ -908,6 +921,11 @@ prim_headers
 &
 mut
 PrimitiveHeaders
+transforms
+:
+&
+mut
+TransformPalette
 )
 {
 debug_assert_eq
@@ -943,6 +961,7 @@ gpu_cache
 render_tasks
 deferred_resolves
 prim_headers
+transforms
 )
 ;
 }
@@ -974,6 +993,11 @@ clip_store
 :
 &
 ClipStore
+transforms
+:
+&
+mut
+TransformPalette
 deferred_resolves
 :
 &
@@ -1003,6 +1027,7 @@ ctx
 gpu_cache
 render_tasks
 clip_store
+transforms
 deferred_resolves
 )
 ;
@@ -1873,6 +1898,11 @@ prim_headers
 &
 mut
 PrimitiveHeaders
+transforms
+:
+&
+mut
+TransformPalette
 )
 {
 let
@@ -1977,6 +2007,10 @@ gpu_cache
 render_tasks
 deferred_resolves
 prim_headers
+transforms
+pic_task
+.
+root_spatial_node_index
 )
 ;
 if
@@ -2054,6 +2088,11 @@ _
 :
 &
 ClipStore
+_
+:
+&
+mut
+TransformPalette
 deferred_resolves
 :
 &
@@ -2823,6 +2862,11 @@ clip_store
 :
 &
 ClipStore
+transforms
+:
+&
+mut
+TransformPalette
 _
 :
 &
@@ -3085,6 +3129,9 @@ task_address
 task_info
 .
 clip_node_range
+task_info
+.
+root_spatial_node_index
 ctx
 .
 resource_cache
@@ -3092,6 +3139,7 @@ gpu_cache
 clip_store
 ctx
 .
+clip_scroll_tree
 transforms
 )
 ;
@@ -4223,6 +4271,11 @@ clip_store
 :
 &
 ClipStore
+transforms
+:
+&
+mut
+TransformPalette
 prim_headers
 :
 &
@@ -4293,6 +4346,7 @@ ctx
 gpu_cache
 render_tasks
 clip_store
+transforms
 deferred_resolves
 )
 ;
@@ -4306,6 +4360,7 @@ gpu_cache
 render_tasks
 deferred_resolves
 prim_headers
+transforms
 )
 ;
 }
@@ -4788,6 +4843,7 @@ ctx
 gpu_cache
 render_tasks
 clip_store
+transforms
 deferred_resolves
 )
 RenderTargetKind
@@ -4805,6 +4861,7 @@ ctx
 gpu_cache
 render_tasks
 clip_store
+transforms
 deferred_resolves
 )
 }
@@ -4821,6 +4878,7 @@ render_tasks
 deferred_resolves
 saved_color
 prim_headers
+transforms
 )
 ;
 alpha
@@ -4833,6 +4891,7 @@ render_tasks
 deferred_resolves
 saved_alpha
 prim_headers
+transforms
 )
 ;
 alpha

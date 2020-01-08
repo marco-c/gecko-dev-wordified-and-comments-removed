@@ -54,6 +54,12 @@ ClipNodeRange
 }
 ;
 use
+clip_scroll_tree
+:
+:
+SpatialNodeIndex
+;
+use
 device
 :
 :
@@ -1228,6 +1234,10 @@ actual_rect
 :
 DeviceIntRect
 pub
+root_spatial_node_index
+:
+SpatialNodeIndex
+pub
 clip_node_range
 :
 ClipNodeRange
@@ -1335,6 +1345,10 @@ pub
 uv_rect_handle
 :
 GpuCacheHandle
+pub
+root_spatial_node_index
+:
+SpatialNodeIndex
 uv_rect_kind
 :
 UvRectKind
@@ -2101,6 +2115,9 @@ RenderTaskId
 uv_rect_kind
 :
 UvRectKind
+root_spatial_node_index
+:
+SpatialNodeIndex
 )
 -
 >
@@ -2208,6 +2225,7 @@ new
 (
 )
 uv_rect_kind
+root_spatial_node_index
 }
 )
 clear_mode
@@ -2401,6 +2419,9 @@ DeviceIntRect
 clip_node_range
 :
 ClipNodeRange
+root_spatial_node_index
+:
+SpatialNodeIndex
 clip_store
 :
 &
@@ -2691,6 +2712,7 @@ actual_rect
 :
 outer_rect
 clip_node_range
+root_spatial_node_index
 }
 )
 ClearMode

@@ -34,14 +34,6 @@ WorldPoint
 }
 ;
 use
-clip
-:
-:
-{
-ClipStore
-}
-;
-use
 gpu_types
 :
 :
@@ -224,6 +216,7 @@ Clone
 Eq
 Hash
 PartialEq
+PartialOrd
 )
 ]
 #
@@ -264,8 +257,9 @@ pub
 usize
 )
 ;
+pub
 const
-ROOT_REFERENCE_FRAME_INDEX
+ROOT_SPATIAL_NODE_INDEX
 :
 SpatialNodeIndex
 =
@@ -719,7 +713,7 @@ is_empty
 )
 )
 ;
-ROOT_REFERENCE_FRAME_INDEX
+ROOT_SPATIAL_NODE_INDEX
 }
 pub
 fn
@@ -1832,10 +1826,6 @@ pt
 &
 mut
 T
-clip_store
-:
-&
-ClipStore
 )
 {
 let
@@ -2157,7 +2147,6 @@ print_node
 *
 child_index
 pt
-clip_store
 )
 ;
 }
@@ -2181,10 +2170,6 @@ print
 (
 &
 self
-clip_store
-:
-&
-ClipStore
 )
 {
 if
@@ -2216,7 +2201,6 @@ self
 .
 print_with
 (
-clip_store
 &
 mut
 pt
@@ -2235,10 +2219,6 @@ PrintTreePrinter
 (
 &
 self
-clip_store
-:
-&
-ClipStore
 pt
 :
 &
@@ -2266,7 +2246,6 @@ root_reference_frame_index
 (
 )
 pt
-clip_store
 )
 ;
 }
