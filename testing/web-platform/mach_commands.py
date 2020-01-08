@@ -405,6 +405,26 @@ pem
 "
 )
         
+if
+kwargs
+[
+"
+log_mach_screenshot
+"
+]
+is
+None
+:
+            
+kwargs
+[
+"
+log_mach_screenshot
+"
+]
+=
+True
+        
 kwargs
 [
 "
