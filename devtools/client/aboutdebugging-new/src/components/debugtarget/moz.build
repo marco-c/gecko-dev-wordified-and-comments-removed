@@ -91,6 +91,16 @@ ExtensionDetail
 js
 '
 '
+InspectAction
+.
+js
+'
+'
+ServiceWorkerAction
+.
+js
+'
+'
 TabDetail
 .
 js
