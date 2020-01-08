@@ -7987,7 +7987,7 @@ RefPtr
 <
 ContentParent
 >
-content
+kungFuDeathGrip
 (
 this
 )
@@ -8693,7 +8693,7 @@ dom
 DelayedDeleteContentParentTask
 "
 )
-mObj
+mKungFuDeathGrip
 (
 aObj
 )
@@ -8713,7 +8713,7 @@ RefPtr
 <
 ContentParent
 >
-mObj
+mKungFuDeathGrip
 ;
 }
 ;
