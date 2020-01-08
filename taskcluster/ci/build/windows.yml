@@ -4593,7 +4593,7 @@ symbol
 Bmsvc
 tier
 :
-2
+1
 worker
 -
 type
@@ -4775,7 +4775,7 @@ symbol
 Bmsvc
 tier
 :
-2
+1
 stub
 -
 installer
@@ -4989,7 +4989,7 @@ symbol
 Bmsvc
 tier
 :
-2
+1
 worker
 -
 type
@@ -5171,7 +5171,7 @@ symbol
 Bmsvc
 tier
 :
-2
+1
 worker
 -
 type
