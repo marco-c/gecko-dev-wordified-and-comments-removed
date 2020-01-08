@@ -669,6 +669,12 @@ aLength
 ;
 if
 (
+rv
+=
+=
+NS_BASE_STREAM_CLOSED
+|
+|
 NS_WARN_IF
 (
 NS_FAILED
