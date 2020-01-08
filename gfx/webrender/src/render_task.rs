@@ -185,7 +185,7 @@ prim_store
 :
 :
 {
-PrimitiveIndex
+PictureIndex
 ImageCacheKey
 LineDecorationCacheKey
 }
@@ -1351,9 +1351,9 @@ struct
 PictureTask
 {
 pub
-prim_index
+pic_index
 :
-PrimitiveIndex
+PictureIndex
 pub
 can_merge
 :
@@ -2236,9 +2236,9 @@ RenderTaskLocation
 unclipped_size
 :
 DeviceSize
-prim_index
+pic_index
 :
-PrimitiveIndex
+PictureIndex
 content_origin
 :
 DeviceIntPoint
@@ -2349,7 +2349,7 @@ Picture
 (
 PictureTask
 {
-prim_index
+pic_index
 content_origin
 can_merge
 uv_rect_handle
@@ -4841,7 +4841,7 @@ of
 "
 task
 .
-prim_index
+pic_index
 )
 )
 ;
