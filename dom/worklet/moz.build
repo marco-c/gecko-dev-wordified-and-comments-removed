@@ -113,11 +113,6 @@ dom
 =
 [
 '
-PaintWorkletGlobalScope
-.
-h
-'
-'
 Worklet
 .
 h
@@ -147,11 +142,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-PaintWorkletGlobalScope
-.
-cpp
-'
 '
 Worklet
 .

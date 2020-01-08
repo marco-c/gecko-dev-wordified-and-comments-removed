@@ -812,6 +812,11 @@ MediaQueryList
 .
 h
 '
+'
+PaintWorkletGlobalScope
+.
+h
+'
 ]
 EXPORTS
 .
@@ -1133,6 +1138,11 @@ cpp
 '
 '
 nsTransitionManager
+.
+cpp
+'
+'
+PaintWorkletGlobalScope
 .
 cpp
 '
