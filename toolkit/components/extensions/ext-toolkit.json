@@ -1719,6 +1719,14 @@ userScripts
 setScriptAPIs
 "
 ]
+[
+"
+userScripts
+"
+"
+onBeforeScript
+"
+]
 ]
 }
 "

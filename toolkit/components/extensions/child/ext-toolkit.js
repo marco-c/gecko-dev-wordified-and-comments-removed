@@ -475,6 +475,14 @@ userScripts
 setScriptAPIs
 "
 ]
+[
+"
+userScripts
+"
+"
+onBeforeScript
+"
+]
 ]
 }
 webRequest
