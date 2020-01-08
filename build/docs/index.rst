@@ -111,6 +111,7 @@ GN
 <
 gn
 >
+telemetry
 integrated
 development
 environment
