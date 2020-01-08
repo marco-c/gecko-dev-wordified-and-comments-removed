@@ -2921,11 +2921,8 @@ return
 width
 ;
 }
-DCFromDrawTarget
+DCForMetrics
 dc
-(
-aDrawTarget
-)
 ;
 AutoSelectFont
 fs
