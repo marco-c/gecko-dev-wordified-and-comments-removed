@@ -186,11 +186,6 @@ servo_channel
 gecko_debug
 =
 [
-"
-nsstring
-/
-gecko_debug
-"
 ]
 [
 dependencies
