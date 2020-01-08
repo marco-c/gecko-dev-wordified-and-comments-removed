@@ -137,11 +137,6 @@ ContentSessionStore
 jsm
 '
 '
-DocShellCapabilities
-.
-jsm
-'
-'
 GlobalState
 .
 jsm

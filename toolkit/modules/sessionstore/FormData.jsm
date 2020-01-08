@@ -494,11 +494,7 @@ formNodesXPath
 }
 collect
 (
-{
-document
-:
 doc
-}
 )
 {
 let
