@@ -242,12 +242,6 @@ mNumber
 -
 >
 mList
-&
-&
-mNumber
--
->
-mList
 -
 >
 IsAnimating

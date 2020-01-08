@@ -340,12 +340,6 @@ mTransform
 -
 >
 mList
-&
-&
-mTransform
--
->
-mList
 -
 >
 IsAnimating

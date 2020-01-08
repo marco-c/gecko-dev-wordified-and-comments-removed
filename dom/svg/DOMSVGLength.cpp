@@ -281,12 +281,6 @@ mLength
 -
 >
 mList
-&
-&
-mLength
--
->
-mList
 -
 >
 IsAnimating
