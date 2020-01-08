@@ -256,7 +256,7 @@ self
         
 files_changed
 .
-_cache
+get_changed_files
 .
 clear
 (
@@ -311,6 +311,14 @@ get
 self
 .
 old_get
+        
+files_changed
+.
+get_changed_files
+.
+clear
+(
+)
     
 def
 test_get_changed_files
@@ -411,7 +419,7 @@ self
         
 files_changed
 .
-_cache
+get_changed_files
 [
 PARAMS
 [
@@ -428,6 +436,21 @@ head_rev
 ]
 =
 FILES_CHANGED
+    
+def
+tearDown
+(
+self
+)
+:
+        
+files_changed
+.
+get_changed_files
+.
+clear
+(
+)
     
 def
 test_check_no_params
