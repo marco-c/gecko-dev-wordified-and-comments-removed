@@ -1,0 +1,4 @@
+typedef
+int
+MyInt
+;

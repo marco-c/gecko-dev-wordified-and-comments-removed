@@ -1,0 +1,13 @@
+#
+include
+"
+file_b
+.
+h
+"
+void
+DependentFunctionB
+(
+)
+{
+}
