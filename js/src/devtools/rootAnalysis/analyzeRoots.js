@@ -1340,6 +1340,14 @@ Loop
 return
 0
 ;
+case
+"
+Assembly
+"
+:
+return
+0
+;
 default
 :
 assert
