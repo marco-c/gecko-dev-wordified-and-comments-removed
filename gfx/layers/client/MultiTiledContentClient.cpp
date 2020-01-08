@@ -783,7 +783,7 @@ IsEmpty
 {
 MOZ_ASSERT
 (
-mPaintStates
+mPaintTasks
 .
 size
 (
@@ -1186,7 +1186,7 @@ IsEmpty
 {
 MOZ_ASSERT
 (
-mPaintStates
+mPaintTasks
 .
 size
 (
@@ -1581,7 +1581,7 @@ auto
 &
 state
 :
-mPaintStates
+mPaintTasks
 )
 {
 PaintThread
@@ -1592,7 +1592,7 @@ Get
 )
 -
 >
-PaintTiledContents
+QueuePaintTask
 (
 state
 )
@@ -1605,7 +1605,7 @@ SetQueuedAsyncPaints
 (
 )
 ;
-mPaintStates
+mPaintTasks
 .
 clear
 (
@@ -2088,16 +2088,16 @@ Async
 {
 RefPtr
 <
-CapturedTiledPaintState
+PaintTask
 >
-paintState
+task
 =
 new
-CapturedTiledPaintState
+PaintTask
 (
 )
 ;
-paintState
+task
 -
 >
 mCapture
@@ -2107,7 +2107,7 @@ backBuffer
 >
 mCapture
 ;
-paintState
+task
 -
 >
 mTarget
@@ -2117,7 +2117,7 @@ backBuffer
 >
 mBackBuffer
 ;
-paintState
+task
 -
 >
 mClients
@@ -2133,11 +2133,11 @@ backBuffer
 mTextureClients
 )
 ;
-mPaintStates
+mPaintTasks
 .
 push_back
 (
-paintState
+task
 )
 ;
 }
