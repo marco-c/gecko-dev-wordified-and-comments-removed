@@ -34539,7 +34539,7 @@ HTMLMediaElement
 AsyncResolveSeekDOMPromiseIfExists
 "
 [
-=
+promise
 ]
 (
 )
@@ -34625,7 +34625,7 @@ HTMLMediaElement
 AsyncRejectSeekDOMPromiseIfExists
 "
 [
-=
+promise
 ]
 (
 )
