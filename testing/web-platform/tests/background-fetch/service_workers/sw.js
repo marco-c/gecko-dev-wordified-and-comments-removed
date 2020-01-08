@@ -156,3 +156,13 @@ backgroundfetchfail
 handleBackgroundFetchUpdateEvent
 )
 ;
+self
+.
+addEventListener
+(
+'
+backgroundfetchabort
+'
+handleBackgroundFetchUpdateEvent
+)
+;
