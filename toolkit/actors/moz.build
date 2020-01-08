@@ -97,6 +97,11 @@ AudioPlaybackChild
 jsm
 '
 '
+ControllersChild
+.
+jsm
+'
+'
 DateTimePickerChild
 .
 jsm
