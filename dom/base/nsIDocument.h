@@ -7209,6 +7209,16 @@ return
 mIsSyntheticDocument
 ;
 }
+static
+void
+AddSizeOfNodeTree
+(
+nsINode
+&
+nsWindowSizes
+&
+)
+;
 virtual
 void
 DocAddSizeOfExcludingThis
