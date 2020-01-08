@@ -424,8 +424,6 @@ getSelection
 (
 )
 "
-Hello
-.
 "
 "
 shift
