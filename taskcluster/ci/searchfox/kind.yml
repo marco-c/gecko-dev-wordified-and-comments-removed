@@ -374,7 +374,6 @@ get
 -
 secrets
 build
-update
 ]
 config
 :
