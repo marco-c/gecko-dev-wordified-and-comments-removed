@@ -255,6 +255,13 @@ id
 "
 bookmarksPanel
 "
+class
+=
+"
+sidebar
+-
+panel
+"
 xmlns
 :
 rdf

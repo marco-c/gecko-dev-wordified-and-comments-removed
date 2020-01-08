@@ -257,6 +257,13 @@ history
 -
 panel
 "
+class
+=
+"
+sidebar
+-
+panel
+"
 orient
 =
 "
