@@ -36,6 +36,9 @@ page
 guid
 :
 null
+selectedStateKey
+:
+null
 }
 "
 address
