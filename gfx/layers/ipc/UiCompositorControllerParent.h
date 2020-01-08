@@ -330,6 +330,11 @@ Shmem
 aMem
 )
 ;
+void
+NotifyLayersUpdated
+(
+)
+;
 private
 :
 explicit
@@ -392,6 +397,9 @@ RefPtr
 AndroidDynamicToolbarAnimator
 >
 mAnimator
+;
+bool
+mCompositorLayersUpdateEnabled
 ;
 #
 endif
