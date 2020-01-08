@@ -487,6 +487,17 @@ bool
 aLooping
 )
 ;
+RefPtr
+<
+GenericPromise
+>
+SetSink
+(
+AudioDeviceInfo
+*
+aSink
+)
+;
 bool
 GetMinimizePreroll
 (
