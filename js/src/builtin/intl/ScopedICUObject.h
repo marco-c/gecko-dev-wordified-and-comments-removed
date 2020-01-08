@@ -52,11 +52,13 @@ if
 (
 ptr_
 )
+{
 Delete
 (
 ptr_
 )
 ;
+}
 }
 T
 *
