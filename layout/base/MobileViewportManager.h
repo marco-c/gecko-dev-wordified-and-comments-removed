@@ -143,7 +143,7 @@ aForceAdjustResolution
 )
 ;
 void
-RefreshSPCSPS
+RefreshVisualViewportSize
 (
 )
 ;
@@ -236,7 +236,7 @@ aDisplayWidthChangeRatio
 )
 ;
 void
-UpdateSPCSPS
+UpdateVisualViewportSize
 (
 const
 mozilla

@@ -588,7 +588,7 @@ GetResolution
 )
 ;
 }
-RefreshSPCSPS
+RefreshVisualViewportSize
 (
 )
 ;
@@ -1493,7 +1493,7 @@ void
 MobileViewportManager
 :
 :
-UpdateSPCSPS
+UpdateVisualViewportSize
 (
 const
 ScreenIntSize
@@ -1766,7 +1766,7 @@ void
 MobileViewportManager
 :
 :
-RefreshSPCSPS
+RefreshVisualViewportSize
 (
 )
 {
@@ -1847,7 +1847,7 @@ PixelCastJustification
 ScreenIsParentLayerForRoot
 )
 ;
-UpdateSPCSPS
+UpdateVisualViewportSize
 (
 displaySize
 zoom
@@ -2172,7 +2172,7 @@ zoom
 scale
 )
 ;
-UpdateSPCSPS
+UpdateVisualViewportSize
 (
 displaySize
 zoom
