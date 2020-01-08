@@ -538,6 +538,17 @@ addScriptSource
 source
 )
 {
+if
+(
+!
+gScriptSources
+.
+getId
+(
+source
+)
+)
+{
 gScriptSources
 .
 add
@@ -545,6 +556,7 @@ add
 source
 )
 ;
+}
 }
 function
 considerScript
