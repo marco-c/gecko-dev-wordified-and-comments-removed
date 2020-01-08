@@ -639,6 +639,10 @@ mDisplayClient
 GetDisplayInfo
 (
 )
+.
+GetFrameId
+(
+)
 )
 ;
 break

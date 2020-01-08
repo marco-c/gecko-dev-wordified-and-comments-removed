@@ -105,6 +105,10 @@ ZeroSensor
 )
 override
 ;
+static
+int
+sPushIndex
+;
 protected
 :
 VRHMDSensorState
