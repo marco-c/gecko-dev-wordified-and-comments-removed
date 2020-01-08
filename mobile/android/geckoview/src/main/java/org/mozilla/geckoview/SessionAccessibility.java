@@ -123,6 +123,15 @@ Bundle
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 text
 .
 InputType
@@ -2952,6 +2961,7 @@ return
 mView
 ;
 }
+UiThread
 public
 void
 setView
@@ -2961,6 +2971,12 @@ View
 view
 )
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 if
 (
 mView
