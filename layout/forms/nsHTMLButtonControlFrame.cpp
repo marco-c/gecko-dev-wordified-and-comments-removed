@@ -878,6 +878,8 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
+(
+)
 "
 Button
 '

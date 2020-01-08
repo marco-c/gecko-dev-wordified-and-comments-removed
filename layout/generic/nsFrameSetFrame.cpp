@@ -1554,6 +1554,8 @@ nsCSSAnonBoxes
 :
 :
 framesetBlank
+(
+)
 )
 ;
 nsHTMLFramesetBlankFrame
@@ -4524,6 +4526,8 @@ nsCSSAnonBoxes
 :
 :
 horizontalFramesetBorder
+(
+)
 )
 ;
 borderFrame
@@ -4692,6 +4696,8 @@ nsCSSAnonBoxes
 :
 :
 verticalFramesetBorder
+(
+)
 )
 ;
 borderFrame
