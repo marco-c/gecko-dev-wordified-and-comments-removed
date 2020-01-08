@@ -1690,13 +1690,6 @@ MaybeRemoveFromThreadList
 (
 )
 {
-if
-(
-isInList
-(
-)
-)
-{
 OffTheBooksMutexAutoLock
 mal
 (
@@ -1723,7 +1716,6 @@ ThreadList
 )
 )
 ;
-}
 }
 }
 void
