@@ -443,6 +443,12 @@ SCOPE_TEMPORARY
 browser
 )
 ;
+gBrowser
+.
+selectAllTabs
+(
+)
+;
 let
 contextMenu
 =
@@ -498,7 +504,7 @@ document
 getElementById
 (
 "
-context_reloadAllTabs
+context_reloadSelectedTabs
 "
 )
 ;
