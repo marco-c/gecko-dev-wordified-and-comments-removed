@@ -36,13 +36,6 @@ h
 #
 include
 "
-BufferUnrotate
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

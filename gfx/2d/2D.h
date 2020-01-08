@@ -3653,6 +3653,14 @@ aRegion
 )
 ;
 virtual
+bool
+Unrotate
+(
+IntPoint
+aRotation
+)
+;
+virtual
 already_AddRefed
 <
 SourceSurface

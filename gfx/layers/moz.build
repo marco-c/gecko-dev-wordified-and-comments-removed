@@ -2361,11 +2361,6 @@ BufferTexture
 cpp
 '
 '
-BufferUnrotate
-.
-cpp
-'
-'
 CanvasRenderer
 .
 cpp
