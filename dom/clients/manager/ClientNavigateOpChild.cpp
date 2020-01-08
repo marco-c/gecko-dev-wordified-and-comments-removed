@@ -307,7 +307,6 @@ CheckSameOriginURI
 mBaseURL
 channelURL
 false
-false
 )
 ;
 if

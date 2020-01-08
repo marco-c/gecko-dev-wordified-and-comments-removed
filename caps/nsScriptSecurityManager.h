@@ -178,6 +178,9 @@ static
 nsresult
 ReportError
 (
+JSContext
+*
+cx
 const
 char
 *
@@ -188,8 +191,6 @@ aSource
 nsIURI
 *
 aTarget
-bool
-aFromPrivateWindow
 )
 ;
 static
@@ -316,8 +317,6 @@ nsIURI
 aTargetBaseURI
 uint32_t
 aFlags
-bool
-aFromPrivateWindow
 )
 ;
 const

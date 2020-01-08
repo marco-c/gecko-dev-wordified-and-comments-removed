@@ -446,19 +446,6 @@ newURI
 href
 )
 ;
-let
-isPrivateWin
-=
-ownerDoc
-.
-nodePrincipal
-.
-originAttributes
-.
-privateBrowsingId
->
-0
-;
 sm
 .
 checkSameOriginURI
@@ -470,7 +457,6 @@ mixedContentChannel
 URI
 targetURI
 false
-isPrivateWin
 )
 ;
 json

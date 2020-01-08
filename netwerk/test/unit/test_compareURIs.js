@@ -542,7 +542,6 @@ checkSameOriginURI
 uri1
 uri2
 false
-false
 )
 ;
 equal

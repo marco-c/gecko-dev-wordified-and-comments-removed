@@ -1420,7 +1420,6 @@ CheckSameOriginURI
 mLoadedURI
 mUnloadedURI
 false
-false
 )
 ;
 if
@@ -1477,7 +1476,6 @@ CheckSameOriginURI
 (
 mLoadedURI
 mUnloadedURI
-false
 false
 )
 ;
