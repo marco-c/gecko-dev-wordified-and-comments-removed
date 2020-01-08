@@ -13,6 +13,14 @@ from
 result
 import
 Issue
+from
+.
+.
+util
+.
+string
+import
+pluralize
 class
 StylishFormatter
 (
@@ -368,40 +376,6 @@ err
 message
 )
 )
-    
-def
-_pluralize
-(
-self
-s
-num
-)
-:
-        
-if
-num
-!
-=
-1
-:
-            
-s
-+
-=
-'
-s
-'
-        
-return
-str
-(
-num
-)
-+
-'
-'
-+
-s
     
 def
 __call__
@@ -778,9 +752,7 @@ brightyellow
             
 problem
 =
-self
-.
-_pluralize
+pluralize
 (
 '
 problem
@@ -797,9 +769,7 @@ failed
             
 error
 =
-self
-.
-_pluralize
+pluralize
 (
 '
 error
@@ -809,14 +779,16 @@ num_errors
             
 warning
 =
-self
-.
-_pluralize
+pluralize
 (
 '
 warning
 '
 num_warnings
+or
+result
+.
+total_suppressed_warnings
 )
             
 failure
@@ -828,9 +800,7 @@ failure
 .
 format
 (
-self
-.
-_pluralize
+pluralize
 (
 '
 failure
