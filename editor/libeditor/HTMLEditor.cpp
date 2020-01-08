@@ -13734,7 +13734,7 @@ if
 isCellSelected
 |
 |
-cellOrRowOrTableElement
+rootElementOfBackgroundColor
 -
 >
 IsAnyOfHTMLElements
