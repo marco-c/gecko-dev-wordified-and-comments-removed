@@ -5343,12 +5343,6 @@ nsIDOMEventListener
 >
 mMouseMotionListenerP
 ;
-nsCOMPtr
-<
-nsIDOMEventListener
->
-mResizeEventListenerP
-;
 int32_t
 mOriginalX
 ;
