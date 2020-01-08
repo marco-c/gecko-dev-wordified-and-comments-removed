@@ -1692,7 +1692,6 @@ hash
 EMPTY_BUCKET
 =
 >
-{
 Empty
 (
 EmptyBucket
@@ -1709,11 +1708,9 @@ self
 table
 }
 )
-}
 _
 =
 >
-{
 Full
 (
 FullBucket
@@ -1730,7 +1727,6 @@ self
 table
 }
 )
-}
 }
 }
 pub
@@ -1951,7 +1947,6 @@ bucket
 )
 =
 >
-{
 Ok
 (
 GapThenFull
@@ -1962,7 +1957,6 @@ full
 bucket
 }
 )
-}
 Empty
 (
 e
@@ -5630,7 +5624,6 @@ map
 |
 raw
 |
-{
 unsafe
 {
 self
@@ -5688,7 +5681,6 @@ EMPTY_BUCKET
 k
 v
 )
-}
 }
 )
 }
