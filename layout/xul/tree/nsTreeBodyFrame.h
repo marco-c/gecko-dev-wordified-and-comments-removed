@@ -1676,11 +1676,6 @@ aScrollLines
 )
 ;
 void
-MarkDirtyIfSelect
-(
-)
-;
-void
 InvalidateDropFeedback
 (
 int32_t
