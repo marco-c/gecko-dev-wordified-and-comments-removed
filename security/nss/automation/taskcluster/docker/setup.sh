@@ -182,6 +182,14 @@ zlib1g
 dev
 '
 )
+apt_packages
++
+=
+(
+'
+cmake
+'
+)
 #
 32
 -

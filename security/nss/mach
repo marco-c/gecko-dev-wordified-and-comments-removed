@@ -1993,6 +1993,9 @@ ssl_gtests
 "
 bogo
 "
+"
+interop
+"
 ]
 parser_test
 .
