@@ -1082,8 +1082,8 @@ context_menu_title
 "
 :
 "
-Ava
-men
+Open
+menu
 "
 "
 pocket_learn_more

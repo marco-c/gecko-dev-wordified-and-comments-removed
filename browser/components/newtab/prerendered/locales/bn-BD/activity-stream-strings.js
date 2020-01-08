@@ -489,6 +489,8 @@ pocket_more_reccommendations
 "
 :
 "
+More
+Recommendations
 "
 "
 pocket_how_it_works
@@ -501,6 +503,7 @@ pocket_cta_button
 "
 :
 "
+Get
 Pocket
 "
 "
@@ -508,7 +511,21 @@ pocket_cta_text
 "
 :
 "
+Save
+the
+stories
+you
+love
+in
 Pocket
+and
+fuel
+your
+mind
+with
+fascinating
+reads
+.
 "
 "
 highlights_empty_state
@@ -703,6 +720,8 @@ context_menu_title
 "
 :
 "
+Open
+menu
 "
 "
 pocket_learn_more

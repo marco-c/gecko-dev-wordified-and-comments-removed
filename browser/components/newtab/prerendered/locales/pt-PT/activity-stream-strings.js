@@ -129,7 +129,7 @@ menu_action_open_new_window
 :
 "
 Abrir
-numa
+em
 nova
 janela
 "
@@ -139,7 +139,7 @@ menu_action_open_private_window
 :
 "
 Abrir
-numa
+em
 nova
 janela
 privada

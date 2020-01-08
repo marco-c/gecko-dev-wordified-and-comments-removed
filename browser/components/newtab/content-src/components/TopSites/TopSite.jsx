@@ -1480,12 +1480,12 @@ a
 href
 =
 {
+!
 link
 .
 searchTopSite
-?
-undefined
-:
+&
+&
 link
 .
 url

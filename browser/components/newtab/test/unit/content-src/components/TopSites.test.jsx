@@ -2682,7 +2682,7 @@ link
 ;
 assert
 .
-isUndefined
+isFalse
 (
 wrapper
 .
