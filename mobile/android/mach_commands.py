@@ -3647,8 +3647,6 @@ android
 '
 archive
 -
-geckoview
--
 coverage
 -
 artifacts
@@ -3659,7 +3657,6 @@ artifacts
 "
 Archive
 compiled
-geckoview
 classfiles
 to
 be
@@ -3714,7 +3711,7 @@ REMAINDER
 )
     
 def
-android_archive_geckoview_classfiles
+android_archive_classfiles
 (
 self
 args
@@ -3730,7 +3727,7 @@ self
 substs
 [
 '
-GRADLE_ANDROID_ARCHIVE_GECKOVIEW_COVERAGE_ARTIFACTS_TASKS
+GRADLE_ANDROID_ARCHIVE_COVERAGE_ARTIFACTS_TASKS
 '
 ]
 +

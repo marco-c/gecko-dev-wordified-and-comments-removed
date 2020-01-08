@@ -3649,8 +3649,6 @@ mach
 android
 archive
 -
-geckoview
--
 coverage
 -
 artifacts
@@ -3735,8 +3733,6 @@ by
 mach
 android
 archive
--
-geckoview
 -
 coverage
 -

@@ -103,8 +103,6 @@ android
 '
 archive
 -
-geckoview
--
 coverage
 -
 artifacts
