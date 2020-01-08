@@ -125,7 +125,9 @@ edit
 ;
 border
 -
-right
+inline
+-
+end
 :
 1px
 solid
@@ -283,7 +285,9 @@ solid
 ;
 border
 -
-left
+inline
+-
+start
 :
 none
 ;
