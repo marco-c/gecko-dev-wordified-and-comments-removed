@@ -1722,11 +1722,6 @@ WebChannel
 jsm
 '
 '
-WebChannelContent
-.
-jsm
-'
-'
 WebNavigationChild
 .
 jsm

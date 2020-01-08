@@ -127,6 +127,11 @@ ThumbnailsChild
 jsm
 '
 '
+WebChannelChild
+.
+jsm
+'
+'
 ZoomChild
 .
 jsm
