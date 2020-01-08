@@ -114,9 +114,11 @@ id
 )
 )
 )
+{
 return
 false
 ;
+}
 JSAtom
 *
 atom
@@ -154,9 +156,11 @@ latin1OrTwoByteChar
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 js
 :
@@ -890,10 +894,12 @@ State
 :
 Initialized
 )
+{
 reset
 (
 )
 ;
+}
 }
 }
 ;

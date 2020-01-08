@@ -128,9 +128,11 @@ isMagic
 JS_ELEMENTS_HOLE
 )
 )
+{
 return
 true
 ;
+}
 }
 if
 (
@@ -163,9 +165,11 @@ index
 vp
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 GetElement

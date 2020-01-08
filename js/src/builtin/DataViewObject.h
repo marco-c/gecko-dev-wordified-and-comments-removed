@@ -505,6 +505,7 @@ isSharedMemory
 (
 )
 )
+{
 return
 SharedMem
 <
@@ -518,6 +519,7 @@ shared
 p
 )
 ;
+}
 return
 SharedMem
 <
