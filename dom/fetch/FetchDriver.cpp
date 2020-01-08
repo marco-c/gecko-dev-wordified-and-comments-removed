@@ -4982,6 +4982,13 @@ outputStream
 >
 CloseWithStatus
 (
+NS_FAILED
+(
+aStatusCode
+)
+?
+aStatusCode
+:
 NS_BINDING_FAILED
 )
 ;
