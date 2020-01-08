@@ -6446,6 +6446,11 @@ Gecko_ImageValue_Create
 (
 ServoBundledURI
 aURI
+mozilla
+:
+:
+CORSMode
+aCORSMode
 )
 {
 return
@@ -6453,13 +6458,7 @@ aURI
 .
 IntoCssImage
 (
-mozilla
-:
-:
-CORSMode
-:
-:
-CORS_NONE
+aCORSMode
 )
 .
 take

@@ -719,6 +719,13 @@ h
 "
 mozilla
 /
+CORSMode
+.
+h
+"
+"
+mozilla
+/
 Keyframe
 .
 h
@@ -3436,6 +3443,12 @@ mozilla
 :
 :
 AtomArray
+"
+"
+mozilla
+:
+:
+CORSMode
 "
 "
 mozilla

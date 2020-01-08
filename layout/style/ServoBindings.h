@@ -1803,6 +1803,11 @@ Gecko_ImageValue_Create
 (
 ServoBundledURI
 aURI
+mozilla
+:
+:
+CORSMode
+aCORSMode
 )
 ;
 size_t
