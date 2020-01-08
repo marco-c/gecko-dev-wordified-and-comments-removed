@@ -120,21 +120,14 @@ query_abs_dirs
 (
 )
         
-input_home
+input_dir
 =
-config
+dirs
 [
 '
-input_home
+abs_input_dir
 '
 ]
-.
-format
-(
-*
-*
-dirs
-)
         
 for
 path
@@ -168,7 +161,7 @@ path
                                         
 parent_dir
 =
-input_home
+input_dir
 )
             
 if
@@ -212,7 +205,7 @@ path
 .
 join
 (
-input_home
+input_dir
 path
 )
 0755
@@ -346,10 +339,34 @@ src
 '
 )
         
-locale_dir
+dirs
+[
+'
+abs_input_dir
+'
+]
 =
+os
+.
+path
+.
+join
+(
+abs_dirs
+[
 '
+abs_work_dir
 '
+]
+'
+inputs
+'
+)
+        
+output_dir_suffix
+=
+[
+]
         
 if
 config
@@ -362,22 +379,10 @@ locale
 )
 :
             
-locale_dir
-=
-"
-{
-}
-{
-}
-"
+output_dir_suffix
 .
-format
+append
 (
-os
-.
-path
-.
-sep
 config
 [
 '
@@ -385,11 +390,6 @@ locale
 '
 ]
 )
-        
-repack_id_dir
-=
-'
-'
         
 if
 config
@@ -402,22 +402,10 @@ repack_id
 )
 :
             
-repack_id_dir
-=
-"
-{
-}
-{
-}
-"
+output_dir_suffix
 .
-format
+append
 (
-os
-.
-path
-.
-sep
 config
 [
 '
@@ -429,32 +417,28 @@ repack_id
 dirs
 [
 '
-output_home
+abs_output_dir
 '
 ]
 =
-config
-[
-'
-output_home
-'
-]
+os
 .
-format
+path
+.
+join
 (
             
-locale
-=
-locale_dir
-            
-repack_id
-=
-repack_id_dir
-            
-*
-*
 abs_dirs
-        
+[
+'
+abs_work_dir
+'
+]
+'
+outputs
+'
+*
+output_dir_suffix
 )
         
 for
@@ -523,7 +507,7 @@ mkdir_p
 dirs
 [
 '
-output_home
+abs_output_dir
 '
 ]
 )

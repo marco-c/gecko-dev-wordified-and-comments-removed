@@ -1024,6 +1024,14 @@ dep_job
 )
 else
 False
+            
+'
+skip
+-
+artifacts
+'
+:
+True
         
 }
         
@@ -1712,7 +1720,7 @@ workspace
 /
 build
 /
-artifacts
+outputs
 /
 {
 }
@@ -1780,8 +1788,9 @@ path
 '
 :
 '
-{
-}
+build
+/
+outputs
 /
 {
 }
@@ -1794,7 +1803,6 @@ exe
 .
 format
 (
-artifact_prefix
 partner_output_path
 )
             

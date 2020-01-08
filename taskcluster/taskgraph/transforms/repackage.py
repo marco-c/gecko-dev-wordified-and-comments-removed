@@ -1217,6 +1217,14 @@ win
 )
 else
 3600
+            
+'
+skip
+-
+artifacts
+'
+:
+True
         
 }
         
@@ -2029,7 +2037,7 @@ workspace
 /
 build
 /
-artifacts
+outputs
 /
 {
 }
@@ -2111,7 +2119,7 @@ workspace
 /
 build
 /
-artifacts
+outputs
 /
 {
 }
@@ -2179,8 +2187,9 @@ path
 '
 :
 '
-{
-}
+build
+/
+outputs
 /
 {
 }
@@ -2193,7 +2202,6 @@ exe
 .
 format
 (
-artifact_prefix
 locale_output_path
 )
             
@@ -2236,8 +2244,9 @@ path
 '
 :
 '
-{
-}
+build
+/
+outputs
 /
 {
 }
@@ -2250,7 +2259,6 @@ mar
 .
 format
 (
-artifact_prefix
 locale_output_path
 )
             
