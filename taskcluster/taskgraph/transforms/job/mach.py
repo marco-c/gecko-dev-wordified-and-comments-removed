@@ -42,6 +42,8 @@ from
 voluptuous
 import
 Required
+Optional
+Any
 mach_schema
 =
 Schema
@@ -67,6 +69,21 @@ mach
 )
 :
 basestring
+    
+Optional
+(
+'
+sparse
+-
+profile
+'
+)
+:
+Any
+(
+basestring
+None
+)
     
 Required
 (
