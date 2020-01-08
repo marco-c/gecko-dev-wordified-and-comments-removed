@@ -6281,9 +6281,6 @@ var
 aRelatedToCurrent
 ;
 var
-aAllowInheritPrincipal
-;
-var
 aAllowMixedContent
 ;
 var
@@ -6421,14 +6418,6 @@ aRelatedToCurrent
 params
 .
 relatedToCurrent
-;
-aAllowInheritPrincipal
-=
-!
-!
-params
-.
-allowInheritPrincipal
 ;
 aAllowMixedContent
 =
@@ -6580,9 +6569,6 @@ aPostData
 ownerTab
 :
 owner
-allowInheritPrincipal
-:
-aAllowInheritPrincipal
 allowThirdPartyFixup
 :
 aAllowThirdPartyFixup
@@ -9929,7 +9915,7 @@ allowThirdPartyFixup
 bulkOrderedOpen
 charset
 createLazyBrowser
-allowInheritPrincipal
+disallowInheritPrincipal
 eventDetail
 focusUrlBar
 forceNotRemote
@@ -11039,8 +11025,7 @@ usingPreloadedContent
 uriIsAboutBlank
 |
 |
-!
-allowInheritPrincipal
+disallowInheritPrincipal
 )
 )
 {
@@ -11130,8 +11115,7 @@ LOAD_FLAGS_ALLOW_MIXED_CONTENT
 }
 if
 (
-!
-allowInheritPrincipal
+disallowInheritPrincipal
 )
 {
 flags

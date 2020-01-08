@@ -3450,6 +3450,12 @@ containerId
 ;
 }
 }
+options
+.
+disallowInheritPrincipal
+=
+true
+;
 tabListener
 .
 initTabReady

@@ -9690,7 +9690,6 @@ arguments
 [
 8
 ]
-true
 )
 ;
 window
@@ -12590,9 +12589,6 @@ userContextId
 originPrincipal
 forceAboutBlankViewerInCurrent
 triggeringPrincipal
-allowInheritPrincipal
-=
-false
 )
 {
 try
@@ -12614,7 +12610,6 @@ userContextId
 originPrincipal
 triggeringPrincipal
 forceAboutBlankViewerInCurrent
-allowInheritPrincipal
 }
 )
 ;
@@ -18685,9 +18680,6 @@ data
 url
 shiftKey
 {
-allowInheritPrincipal
-:
-true
 postData
 :
 data
@@ -18833,9 +18825,6 @@ data
 .
 url
 {
-allowInheritPrincipal
-:
-true
 postData
 :
 data
@@ -31481,8 +31470,9 @@ event
 ignoreButton
 :
 true
-allowInheritPrincipal
+disallowInheritPrincipal
 :
+!
 data
 .
 mayInheritPrincipal
