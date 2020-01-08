@@ -2590,9 +2590,15 @@ int32_t
 aResult
 )
 {
-NS_ENSURE_ARG_POINTER
+MOZ_ASSERT
 (
 aResult
+"
+null
+out
+param
+?
+"
 )
 ;
 *

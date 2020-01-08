@@ -34490,7 +34490,7 @@ mLSHE
 {
 int32_t
 idx
-;
+=
 mSessionHistory
 -
 >
@@ -34501,8 +34501,6 @@ LegacySHistory
 >
 GetRequestedIndex
 (
-&
-idx
 )
 ;
 if
@@ -45138,8 +45136,6 @@ mURIResultedInDocument
 int32_t
 index
 =
-0
-;
 mSessionHistory
 -
 >
@@ -45150,8 +45146,6 @@ LegacySHistory
 >
 GetRequestedIndex
 (
-&
-index
 )
 ;
 if
@@ -47713,8 +47707,6 @@ addToSHistory
 int32_t
 index
 =
-0
-;
 mSessionHistory
 -
 >
@@ -47725,8 +47717,6 @@ LegacySHistory
 >
 GetRequestedIndex
 (
-&
-index
 )
 ;
 if
