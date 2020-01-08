@@ -10235,6 +10235,10 @@ tile_spacing
 image_rendering
 alpha_type
 key
+ColorF
+:
+:
+WHITE
 )
 ;
 }
