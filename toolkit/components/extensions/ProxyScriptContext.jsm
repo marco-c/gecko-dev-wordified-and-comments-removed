@@ -2487,9 +2487,11 @@ initGlobal
 let
 entries
 =
-XPCOMUtils
+Services
 .
-enumerateCategoryEntries
+catMan
+.
+enumerateCategory
 (
 CATEGORY_EXTENSION_SCRIPTS_CONTENT
 )
@@ -2497,9 +2499,9 @@ CATEGORY_EXTENSION_SCRIPTS_CONTENT
 for
 (
 let
-[
+{
 value
-]
+}
 of
 entries
 )
