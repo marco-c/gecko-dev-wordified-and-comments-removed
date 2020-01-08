@@ -221,6 +221,17 @@ aChannel
 )
 ;
 }
+ThreadSharedObject
+*
+GetBuffer
+(
+)
+const
+{
+return
+mBuffer
+;
+}
 void
 SetBuffer
 (
