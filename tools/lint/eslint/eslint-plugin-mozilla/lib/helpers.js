@@ -1487,6 +1487,9 @@ literal
 {
 return
 {
+explicit
+:
+true
 name
 :
 literal

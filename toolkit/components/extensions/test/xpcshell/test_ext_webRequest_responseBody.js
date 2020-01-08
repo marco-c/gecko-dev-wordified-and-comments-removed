@@ -60,17 +60,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URL
-"
-]
-)
-;
 const
 HOSTS
 =
