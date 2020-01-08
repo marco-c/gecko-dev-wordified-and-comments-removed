@@ -227,9 +227,11 @@ hasTable
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -260,9 +262,11 @@ isBigEnoughForAShapeTable
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 Shape
 :
@@ -343,9 +347,11 @@ if
 !
 table
 )
+{
 return
 false
 ;
+}
 *
 ptable
 =
@@ -592,6 +598,7 @@ isAccessorShape
 (
 )
 )
+{
 new
 (
 shape
@@ -602,7 +609,9 @@ other
 nfixed
 )
 ;
+}
 else
+{
 new
 (
 shape
@@ -613,6 +622,7 @@ other
 nfixed
 )
 ;
+}
 return
 shape
 ;
@@ -639,6 +649,7 @@ IsForwarded
 base
 )
 )
+{
 base_
 .
 unsafeSet
@@ -649,6 +660,7 @@ base
 )
 )
 ;
+}
 }
 static
 inline
@@ -690,6 +702,7 @@ hasGetterObject
 (
 )
 )
+{
 sb
 =
 shape
@@ -704,6 +717,7 @@ storeBuffer
 (
 )
 ;
+}
 if
 (
 !
@@ -717,6 +731,7 @@ hasSetterObject
 (
 )
 )
+{
 sb
 =
 shape
@@ -731,13 +746,16 @@ storeBuffer
 (
 )
 ;
+}
 if
 (
 !
 sb
 )
+{
 return
 ;
+}
 auto
 &
 nurseryShapes
@@ -768,6 +786,7 @@ append
 shape
 )
 )
+{
 oomUnsafe
 .
 crash
@@ -777,6 +796,7 @@ GetterSetterWriteBarrierPost
 "
 )
 ;
+}
 }
 if
 (
@@ -789,6 +809,7 @@ length
 =
 1
 )
+{
 sb
 -
 >
@@ -805,6 +826,7 @@ zone
 )
 )
 ;
+}
 else
 if
 (
@@ -817,6 +839,7 @@ length
 =
 MaxShapeVectorLength
 )
+{
 sb
 -
 >
@@ -831,6 +854,7 @@ gcreason
 FULL_SHAPE_BUFFER
 )
 ;
+}
 }
 inline
 AccessorShape
@@ -912,6 +936,7 @@ isAccessorShape
 (
 )
 )
+{
 new
 (
 this
@@ -922,7 +947,9 @@ child
 nfixed
 )
 ;
+}
 else
+{
 new
 (
 this
@@ -933,6 +960,7 @@ child
 nfixed
 )
 ;
+}
 this
 -
 >
@@ -952,11 +980,13 @@ if
 (
 dictp
 )
+{
 insertIntoDictionary
 (
 dictp
 )
 ;
+}
 }
 template
 <
@@ -1015,9 +1045,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 RootedShape
 shape
 (
@@ -1037,9 +1069,11 @@ if
 !
 shape
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 !
@@ -1060,9 +1094,11 @@ isDelegate
 (
 )
 )
+{
 return
 true
 ;
+}
 RootedObject
 proto
 (
@@ -1159,6 +1195,7 @@ JSPROP_GETTER
 JSPROP_SETTER
 )
 )
+{
 inner
 .
 emplace
@@ -1169,6 +1206,7 @@ pgetter
 psetter
 )
 ;
+}
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
@@ -1215,11 +1253,13 @@ TypedArrayObject
 (
 )
 )
+{
 return
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
 ;
+}
 return
 obj
 -
@@ -1369,10 +1409,12 @@ isFree
 (
 )
 )
+{
 return
 *
 entry
 ;
+}
 Shape
 *
 shape
@@ -1399,10 +1441,12 @@ propidRaw
 =
 id
 )
+{
 return
 *
 entry
 ;
+}
 uint32_t
 sizeLog2
 =
@@ -1474,6 +1518,7 @@ hadCollision
 (
 )
 )
+{
 entry
 -
 >
@@ -1481,6 +1526,7 @@ flagCollision
 (
 )
 ;
+}
 }
 }
 #
@@ -1501,6 +1547,7 @@ isRemoved
 (
 )
 )
+{
 collisionFlag
 =
 entry
@@ -1510,6 +1557,7 @@ hadCollision
 (
 )
 ;
+}
 #
 endif
 while
@@ -1544,6 +1592,7 @@ isFree
 (
 )
 )
+{
 return
 (
 Adding
@@ -1564,6 +1613,7 @@ firstRemoved
 *
 entry
 ;
+}
 shape
 =
 entry
@@ -1625,10 +1675,12 @@ if
 !
 firstRemoved
 )
+{
 firstRemoved
 =
 entry
 ;
+}
 }
 else
 {
@@ -1642,6 +1694,7 @@ hadCollision
 (
 )
 )
+{
 entry
 -
 >
@@ -1649,6 +1702,7 @@ flagCollision
 (
 )
 ;
+}
 }
 }
 #
@@ -1664,6 +1718,7 @@ isRemoved
 (
 )
 )
+{
 collisionFlag
 &
 =
@@ -1674,6 +1729,7 @@ hadCollision
 (
 )
 ;
+}
 #
 endif
 }
@@ -1944,9 +2000,11 @@ if
 !
 table
 )
+{
 return
 nullptr
 ;
+}
 entry
 =
 &
@@ -2086,9 +2144,11 @@ if
 !
 table
 )
+{
 return
 nullptr
 ;
+}
 entry
 =
 &

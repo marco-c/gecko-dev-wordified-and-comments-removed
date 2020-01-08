@@ -190,10 +190,12 @@ isMonitoringJank_
 =
 value
 )
+{
 reset
 (
 )
 ;
+}
 isMonitoringJank_
 =
 value
@@ -234,10 +236,12 @@ isMonitoringCPOW_
 =
 value
 )
+{
 reset
 (
 )
 ;
+}
 isMonitoringCPOW_
 =
 value

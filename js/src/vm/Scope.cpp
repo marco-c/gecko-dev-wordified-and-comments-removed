@@ -518,9 +518,11 @@ if
 !
 base
 )
+{
 return
 nullptr
 ;
+}
 unsigned
 attrs
 =
@@ -646,9 +648,11 @@ if
 !
 shape
 )
+{
 return
 nullptr
 ;
+}
 RootedAtom
 name
 (
@@ -740,9 +744,11 @@ if
 !
 shape
 )
+{
 return
 nullptr
 ;
+}
 }
 }
 return
@@ -829,6 +835,7 @@ name
 (
 )
 )
+{
 cx
 -
 >
@@ -837,6 +844,7 @@ markAtom
 name
 )
 ;
+}
 }
 size_t
 size
@@ -876,9 +884,11 @@ if
 !
 bytes
 )
+{
 return
 nullptr
 ;
+}
 auto
 *
 dataCopy
@@ -975,10 +985,12 @@ while
 (
 bi
 )
+{
 bi
 +
 +
 ;
+}
 data
 -
 >
@@ -1046,9 +1058,11 @@ if
 !
 envShape
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1129,6 +1143,7 @@ if
 (
 data
 )
+{
 new
 (
 data
@@ -1142,6 +1157,7 @@ Data
 length
 )
 ;
+}
 return
 UniquePtr
 <
@@ -1274,6 +1290,7 @@ if
 (
 hasAtom
 )
+{
 MOZ_TRY
 (
 XDRAtom
@@ -1284,6 +1301,7 @@ atom
 )
 )
 ;
+}
 return
 Ok
 (
@@ -1348,6 +1366,7 @@ if
 (
 hasAtom
 )
+{
 MOZ_TRY
 (
 XDRAtom
@@ -1358,6 +1377,7 @@ atom
 )
 )
 ;
+}
 uint8_t
 flags
 =
@@ -1476,6 +1496,7 @@ mode
 =
 XDR_ENCODE
 )
+{
 length
 =
 scope
@@ -1487,6 +1508,7 @@ data
 .
 length
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -1546,6 +1568,7 @@ if
 !
 data
 )
+{
 return
 xdr
 -
@@ -1558,6 +1581,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 data
 -
 >
@@ -1623,6 +1647,7 @@ i
 +
 +
 )
+{
 MOZ_TRY
 (
 XDRBindingName
@@ -1639,6 +1664,7 @@ i
 )
 )
 ;
+}
 dataGuard
 .
 release
@@ -1685,6 +1711,7 @@ if
 (
 scope
 )
+{
 new
 (
 scope
@@ -1696,6 +1723,7 @@ enclosing
 envShape
 )
 ;
+}
 return
 scope
 ;
@@ -1752,9 +1780,11 @@ if
 !
 scope
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 data
@@ -1864,10 +1894,12 @@ si
 +
 +
 )
+{
 length
 +
 +
 ;
+}
 return
 length
 ;
@@ -1916,10 +1948,12 @@ hasSyntacticEnvironment
 (
 )
 )
+{
 length
 +
 +
 ;
+}
 }
 return
 length
@@ -2041,9 +2075,11 @@ if
 !
 envShape
 )
+{
 return
 nullptr
 ;
+}
 }
 switch
 (
@@ -2116,6 +2152,7 @@ resource
 9
 )
 )
+{
 MOZ_CRASH_UNSAFE_PRINTF
 (
 "
@@ -2135,6 +2172,7 @@ s
 filename
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -2207,9 +2245,11 @@ if
 !
 dataClone
 )
+{
 return
 nullptr
 ;
+}
 return
 create
 <
@@ -2303,9 +2343,11 @@ if
 !
 dataClone
 )
+{
 return
 nullptr
 ;
+}
 return
 create
 <
@@ -2399,9 +2441,11 @@ if
 !
 dataClone
 )
+{
 return
 nullptr
 ;
+}
 return
 create
 <
@@ -2548,12 +2592,14 @@ if
 (
 data_
 )
+{
 return
 mallocSizeOf
 (
 data_
 )
 ;
+}
 return
 0
 ;
@@ -2620,6 +2666,7 @@ enclosing
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -2629,6 +2676,7 @@ stderr
 "
 )
 ;
+}
 }
 fprintf
 (
@@ -3029,9 +3077,11 @@ if
 !
 copy
 )
+{
 return
 nullptr
 ;
+}
 return
 createWithData
 (
@@ -3190,9 +3240,11 @@ if
 !
 scope
 )
+{
 return
 nullptr
 ;
+}
 MOZ_ASSERT
 (
 scope
@@ -3336,6 +3388,7 @@ mode
 =
 XDR_DECODE
 )
+{
 uniqueData
 .
 emplace
@@ -3344,6 +3397,7 @@ cx
 data
 )
 ;
+}
 uint32_t
 firstFrameSlot
 ;
@@ -3453,6 +3507,7 @@ if
 !
 scope
 )
+{
 return
 xdr
 -
@@ -3465,6 +3520,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 MOZ_ASSERT
 (
 nextFrameSlot
@@ -3550,12 +3606,14 @@ if
 (
 hasParameterExprs
 )
+{
 return
 BaseShape
 :
 :
 DELEGATE
 ;
+}
 return
 BaseShape
 :
@@ -3655,9 +3713,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 return
 createWithData
 (
@@ -3801,9 +3861,11 @@ if
 !
 envShape
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 Scope
@@ -4012,9 +4074,11 @@ if
 !
 envShape
 )
+{
 return
 nullptr
 ;
+}
 }
 Rooted
 <
@@ -4065,9 +4129,11 @@ if
 !
 dataClone
 )
+{
 return
 nullptr
 ;
+}
 dataClone
 -
 >
@@ -4188,6 +4254,7 @@ mode
 =
 XDR_DECODE
 )
+{
 uniqueData
 .
 emplace
@@ -4196,6 +4263,7 @@ cx
 data
 )
 ;
+}
 uint8_t
 needsEnvironment
 ;
@@ -4373,6 +4441,7 @@ if
 !
 scope
 )
+{
 return
 xdr
 -
@@ -4385,6 +4454,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 MOZ_ASSERT
 (
 nextFrameSlot
@@ -4511,6 +4581,7 @@ if
 (
 data
 )
+{
 data
 -
 >
@@ -4518,6 +4589,7 @@ nextFrameSlot
 =
 firstFrameSlot
 ;
+}
 return
 data
 ;
@@ -4581,9 +4653,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 return
 createWithData
 (
@@ -4691,9 +4765,11 @@ if
 !
 envShape
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 Scope
@@ -4771,6 +4847,7 @@ FunctionScope
 (
 )
 )
+{
 return
 enclosing
 (
@@ -4788,6 +4865,7 @@ nextFrameSlot
 (
 )
 ;
+}
 return
 0
 ;
@@ -4879,6 +4957,7 @@ mode
 =
 XDR_DECODE
 )
+{
 uniqueData
 .
 emplace
@@ -4887,6 +4966,7 @@ cx
 data
 )
 ;
+}
 uint8_t
 needsEnvironment
 ;
@@ -5025,6 +5105,7 @@ if
 !
 scope
 )
+{
 return
 xdr
 -
@@ -5037,6 +5118,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 MOZ_ASSERT
 (
 nextFrameSlot
@@ -5164,9 +5246,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 return
 createWithData
 (
@@ -5290,9 +5374,11 @@ if
 !
 dataClone
 )
+{
 return
 nullptr
 ;
+}
 return
 Scope
 :
@@ -5410,6 +5496,7 @@ mode
 =
 XDR_DECODE
 )
+{
 uniqueData
 .
 emplace
@@ -5418,6 +5505,7 @@ cx
 data
 )
 ;
+}
 MOZ_TRY
 (
 xdr
@@ -5506,6 +5594,7 @@ if
 !
 scope
 )
+{
 return
 xdr
 -
@@ -5518,6 +5607,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 }
 return
@@ -5679,9 +5769,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 return
 createWithData
 (
@@ -5801,9 +5893,11 @@ if
 !
 envShape
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 Scope
@@ -6003,6 +6097,7 @@ mode
 =
 XDR_DECODE
 )
+{
 uniqueData
 .
 emplace
@@ -6011,6 +6106,7 @@ cx
 data
 )
 ;
+}
 MOZ_TRY
 (
 XDRSizedBindingNames
@@ -6048,6 +6144,7 @@ data
 >
 length
 )
+{
 MOZ_ASSERT
 (
 !
@@ -6057,6 +6154,7 @@ data
 nextFrameSlot
 )
 ;
+}
 scope
 .
 set
@@ -6080,6 +6178,7 @@ if
 !
 scope
 )
+{
 return
 xdr
 -
@@ -6092,6 +6191,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 }
 return
@@ -6245,9 +6345,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 return
 createWithData
 (
@@ -6358,9 +6460,11 @@ if
 !
 envShape
 )
+{
 return
 nullptr
 ;
+}
 }
 data
 -
@@ -6506,9 +6610,11 @@ append
 prefix
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -6522,9 +6628,11 @@ index
 sb
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 sb
 .
@@ -6627,9 +6735,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 size_t
 nameIndex
 =
@@ -6671,9 +6781,11 @@ if
 !
 name
 )
+{
 return
 nullptr
 ;
+}
 new
 (
 &
@@ -6728,9 +6840,11 @@ if
 !
 name
 )
+{
 return
 nullptr
 ;
+}
 new
 (
 &
@@ -6980,9 +7094,11 @@ locals
 argsLength
 )
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 namesCount
 =
@@ -7017,9 +7133,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 data
 -
 >
@@ -7072,9 +7190,11 @@ if
 !
 name
 )
+{
 return
 nullptr
 ;
+}
 new
 (
 &
@@ -7360,11 +7480,13 @@ hasParameterExprs
 (
 )
 )
+{
 flags
 |
 =
 HasFormalParameterExprs
 ;
+}
 init
 (
 scope
@@ -7731,11 +7853,13 @@ flags
 HasFormalParameterExprs
 )
 )
+{
 flags
 |
 =
 CanHaveArgumentSlots
 ;
+}
 init
 (
 0
@@ -8135,6 +8259,7 @@ FunctionScope
 (
 )
 )
+{
 init
 (
 script
@@ -8158,6 +8283,7 @@ data
 0
 )
 ;
+}
 settle
 (
 )
@@ -8224,8 +8350,10 @@ if
 !
 bytes
 )
+{
 return
 ;
+}
 fprintf
 (
 stderr
@@ -8280,6 +8408,7 @@ isTopLevelFunction
 (
 )
 )
+{
 fprintf
 (
 stderr
@@ -8291,7 +8420,9 @@ n
 "
 )
 ;
+}
 else
+{
 fprintf
 (
 stderr
@@ -8302,6 +8433,7 @@ n
 "
 )
 ;
+}
 break
 ;
 case
@@ -8513,6 +8645,7 @@ slot
 =
 slot
 )
+{
 return
 bi
 .
@@ -8520,6 +8653,7 @@ name
 (
 )
 ;
+}
 }
 return
 nullptr
@@ -8589,9 +8723,11 @@ bodyScope
 slot
 )
 )
+{
 return
 name
 ;
+}
 if
 (
 script
@@ -8619,9 +8755,11 @@ functionExtraBodyVarScope
 slot
 )
 )
+{
 return
 name
 ;
+}
 }
 for
 (
@@ -8661,8 +8799,10 @@ LexicalScope
 (
 )
 )
+{
 continue
 ;
+}
 LexicalScope
 &
 lexicalScope
@@ -8691,8 +8831,10 @@ firstFrameSlot
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 slot
@@ -8704,8 +8846,10 @@ nextFrameSlot
 (
 )
 )
+{
 break
 ;
+}
 if
 (
 JSAtom
@@ -8719,9 +8863,11 @@ lexicalScope
 slot
 )
 )
+{
 return
 name
 ;
+}
 }
 MOZ_CRASH
 (

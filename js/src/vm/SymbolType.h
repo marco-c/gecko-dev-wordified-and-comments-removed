@@ -446,6 +446,7 @@ if
 (
 description_
 )
+{
 js
 :
 :
@@ -459,6 +460,7 @@ description
 "
 )
 ;
+}
 }
 inline
 void
@@ -495,6 +497,7 @@ isWellKnownSymbol
 (
 )
 )
+{
 thing
 -
 >
@@ -507,6 +510,7 @@ writeBarrierPre
 thing
 )
 ;
+}
 }
 size_t
 sizeOfIncludingThis

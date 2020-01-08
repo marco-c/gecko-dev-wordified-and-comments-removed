@@ -2381,6 +2381,7 @@ id
 )
 )
 )
+{
 return
 JSID_TO_ATOM
 (
@@ -2392,6 +2393,7 @@ hash
 (
 )
 ;
+}
 if
 (
 JSID_IS_SYMBOL
@@ -2399,6 +2401,7 @@ JSID_IS_SYMBOL
 id
 )
 )
+{
 return
 JSID_TO_SYMBOL
 (
@@ -2410,6 +2413,7 @@ hash
 (
 )
 ;
+}
 return
 mozilla
 :
@@ -2906,9 +2910,11 @@ isOwned
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 makeOwnBaseShape
 (
@@ -3058,9 +3064,11 @@ maybeTable
 nogc
 )
 )
+{
 return
 table
 ;
+}
 if
 (
 !
@@ -3070,9 +3078,11 @@ cx
 this
 )
 )
+{
 return
 nullptr
 ;
+}
 ShapeTable
 *
 table
@@ -3132,6 +3142,7 @@ inDictionary
 (
 )
 )
+{
 info
 -
 >
@@ -3146,7 +3157,9 @@ sizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 else
+{
 info
 -
 >
@@ -3162,6 +3175,7 @@ mallocSizeOf
 )
 ;
 }
+}
 if
 (
 !
@@ -3176,6 +3190,7 @@ isHash
 (
 )
 )
+{
 info
 -
 >
@@ -3194,6 +3209,7 @@ shallowSizeOfIncludingThis
 mallocSizeOf
 )
 ;
+}
 }
 bool
 isAccessorShape
@@ -3671,6 +3687,7 @@ getterObject
 (
 )
 )
+{
 return
 ObjectValue
 (
@@ -3678,6 +3695,7 @@ ObjectValue
 getterObj
 )
 ;
+}
 return
 UndefinedValue
 (
@@ -3792,6 +3810,7 @@ setterObject
 (
 )
 )
+{
 return
 ObjectValue
 (
@@ -3799,6 +3818,7 @@ ObjectValue
 setterObj
 )
 ;
+}
 return
 UndefinedValue
 (
@@ -4529,6 +4549,7 @@ maybeTable
 nogc
 )
 )
+{
 return
 table
 -
@@ -4537,6 +4558,7 @@ entryCount
 (
 )
 ;
+}
 uint32_t
 count
 =
@@ -4569,10 +4591,12 @@ popFront
 (
 )
 )
+{
 +
 +
 count
 ;
+}
 return
 count
 ;
@@ -4631,9 +4655,11 @@ ShapeTable
 :
 MIN_ENTRIES
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -4719,11 +4745,13 @@ if
 (
 res
 )
+{
 mutableFlags
 |
 =
 CACHED_BIG_ENOUGH_FOR_SHAPE_TABLE
 ;
+}
 mutableFlags
 |
 =
@@ -6332,6 +6360,7 @@ JSPROP_SETTER
 )
 )
 )
+{
 immutableFlags
 |
 =
@@ -6340,7 +6369,9 @@ Shape
 :
 ACCESSOR_SHAPE
 ;
+}
 else
+{
 immutableFlags
 &
 =
@@ -6350,6 +6381,7 @@ Shape
 :
 ACCESSOR_SHAPE
 ;
+}
 this
 -
 >
@@ -7199,9 +7231,11 @@ propidRef
 =
 id
 )
+{
 return
 shape
 ;
+}
 shape
 =
 shape

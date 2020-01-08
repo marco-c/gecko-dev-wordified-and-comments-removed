@@ -31,6 +31,7 @@ if
 (
 stack
 )
+{
 MOZ_RELEASE_ASSERT
 (
 js
@@ -46,6 +47,7 @@ stack
 )
 )
 ;
+}
 }
 #
 endif

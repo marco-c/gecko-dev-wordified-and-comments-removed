@@ -358,8 +358,10 @@ if
 !
 box_
 )
+{
 return
 ;
+}
 auto
 locked
 =
@@ -399,6 +401,7 @@ refcount
 =
 0
 )
+{
 box_
 -
 >
@@ -409,6 +412,7 @@ reset
 nullptr
 )
 ;
+}
 }
 SharedImmutableString
 SharedImmutableString

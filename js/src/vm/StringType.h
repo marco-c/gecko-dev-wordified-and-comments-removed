@@ -2208,11 +2208,13 @@ isPermanentAtom
 (
 )
 )
+{
 return
 zoneFromAnyThread
 (
 )
 ;
+}
 return
 asTenured
 (
@@ -2252,6 +2254,7 @@ isTenured
 (
 )
 )
+{
 return
 asTenured
 (
@@ -2261,6 +2264,7 @@ zoneFromAnyThread
 (
 )
 ;
+}
 return
 js
 :
@@ -2310,12 +2314,14 @@ isAtom
 (
 )
 )
+{
 if
 (
 isFatInline
 (
 )
 )
+{
 kind
 =
 AllocKind
@@ -2323,7 +2329,9 @@ AllocKind
 :
 FAT_INLINE_ATOM
 ;
+}
 else
+{
 kind
 =
 AllocKind
@@ -2331,6 +2339,8 @@ AllocKind
 :
 ATOM
 ;
+}
+}
 else
 if
 (
@@ -2338,6 +2348,7 @@ isFatInline
 (
 )
 )
+{
 kind
 =
 AllocKind
@@ -2345,6 +2356,7 @@ AllocKind
 :
 FAT_INLINE_STRING
 ;
+}
 else
 if
 (
@@ -2352,6 +2364,7 @@ isExternal
 (
 )
 )
+{
 kind
 =
 AllocKind
@@ -2359,7 +2372,9 @@ AllocKind
 :
 EXTERNAL_STRING
 ;
+}
 else
+{
 kind
 =
 AllocKind
@@ -2367,6 +2382,7 @@ AllocKind
 :
 STRING
 ;
+}
 #
 if
 DEBUG
@@ -2576,8 +2592,10 @@ IsInsideNursery
 thing
 )
 )
+{
 return
 ;
+}
 js
 :
 :
@@ -2634,8 +2652,10 @@ IsInsideNursery
 thing
 )
 )
+{
 return
 ;
+}
 js
 :
 :
@@ -2784,8 +2804,10 @@ storeBuffer
 (
 )
 )
+{
 return
 ;
+}
 buffer
 -
 >
@@ -2827,6 +2849,7 @@ storeBuffer
 )
 )
 )
+{
 buffer
 -
 >
@@ -2849,6 +2872,7 @@ cellp
 )
 )
 ;
+}
 }
 private
 :
@@ -3962,6 +3986,7 @@ isUndepended
 )
 )
 )
+{
 return
 mozilla
 :
@@ -3970,6 +3995,7 @@ Nothing
 (
 )
 ;
+}
 size_t
 offset
 ;
@@ -3979,6 +4005,7 @@ hasTwoByteChars
 (
 )
 )
+{
 offset
 =
 twoByteChars
@@ -3996,7 +4023,9 @@ twoByteChars
 nogc
 )
 ;
+}
 else
+{
 offset
 =
 latin1Chars
@@ -4014,6 +4043,7 @@ latin1Chars
 nogc
 )
 ;
+}
 MOZ_ASSERT
 (
 offset
@@ -4456,8 +4486,10 @@ index
 >
 UINT16_MAX
 )
+{
 return
 ;
+}
 mozilla
 :
 :
@@ -5798,6 +5830,7 @@ isFatInline
 (
 )
 )
+{
 return
 static_cast
 <
@@ -5817,6 +5850,7 @@ hash
 (
 )
 ;
+}
 return
 static_cast
 <
@@ -5857,6 +5891,7 @@ isFatInline
 (
 )
 )
+{
 return
 static_cast
 <
@@ -5876,6 +5911,7 @@ initHash
 hash
 )
 ;
+}
 return
 static_cast
 <
@@ -6292,12 +6328,14 @@ c
 <
 UNIT_STATIC_LIMIT
 )
+{
 return
 getUnit
 (
 c
 )
 ;
+}
 return
 nullptr
 ;
@@ -6324,6 +6362,7 @@ chars
 ]
 )
 )
+{
 return
 getLength2
 (
@@ -6337,6 +6376,7 @@ chars
 ]
 )
 ;
+}
 return
 nullptr
 ;
@@ -6483,12 +6523,14 @@ i
 <
 INT_STATIC_LIMIT
 )
+{
 return
 getInt
 (
 i
 )
 ;
+}
 }
 return
 nullptr
@@ -6758,9 +6800,11 @@ if
 !
 linear
 )
+{
 return
 nullptr
 ;
+}
 return
 UniqueChars
 (
@@ -7514,6 +7558,7 @@ isString
 (
 )
 )
+{
 return
 v
 .
@@ -7521,6 +7566,7 @@ toString
 (
 )
 ;
+}
 return
 ToStringSlow
 <
@@ -7696,9 +7742,11 @@ ensureLinear
 cx
 )
 )
+{
 return
 false
 ;
+}
 *
 code
 =

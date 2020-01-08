@@ -515,9 +515,11 @@ if
 !
 unwrapped
 )
+{
 return
 false
 ;
+}
 return
 isSavedFrameAndNotProto
 (
@@ -1323,10 +1325,12 @@ next
 =
 prev
 )
+{
 ptr
 =
 next
 ;
+}
 }
 bool
 isSelfHosted

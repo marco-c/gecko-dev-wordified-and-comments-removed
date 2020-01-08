@@ -2172,6 +2172,7 @@ isEvalFrame
 (
 )
 )
+{
 return
 (
 (
@@ -2185,6 +2186,7 @@ this
 1
 ]
 ;
+}
 MOZ_ASSERT
 (
 isFunctionFrame
@@ -2202,6 +2204,7 @@ isArrow
 (
 )
 )
+{
 return
 callee
 (
@@ -2215,6 +2218,7 @@ FunctionExtended
 ARROW_NEWTARGET_SLOT
 )
 ;
+}
 if
 (
 isConstructing
@@ -2312,12 +2316,14 @@ hasReturnValue
 (
 )
 )
+{
 rval_
 .
 setUndefined
 (
 )
 ;
+}
 return
 MutableHandleValue
 :
@@ -3452,9 +3458,11 @@ resize
 len
 )
 )
+{
 return
 false
 ;
+}
 *
 static_cast
 <
@@ -3489,6 +3497,7 @@ if
 (
 Construct
 )
+{
 this
 -
 >
@@ -3503,6 +3512,7 @@ JS_IS_CONSTRUCTING
 )
 )
 ;
+}
 return
 true
 ;
@@ -3617,6 +3627,7 @@ if
 (
 Construct
 )
+{
 this
 -
 >
@@ -3631,6 +3642,7 @@ JS_IS_CONSTRUCTING
 )
 )
 ;
+}
 }
 }
 ;
@@ -3906,9 +3918,11 @@ cx
 len
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 uint32_t
@@ -3924,6 +3938,7 @@ i
 +
 +
 )
+{
 args
 [
 i
@@ -3937,6 +3952,7 @@ i
 ]
 )
 ;
+}
 return
 true
 ;
@@ -5346,10 +5362,12 @@ script
 =
 script
 )
+{
 enableInterruptsUnconditionally
 (
 )
 ;
+}
 }
 void
 enableInterruptsUnconditionally
@@ -6259,6 +6277,7 @@ isJit
 (
 )
 )
+{
 ActivationIterator
 :
 :
@@ -6268,6 +6287,7 @@ operator
 (
 )
 ;
+}
 }
 public
 :
@@ -6853,6 +6873,7 @@ isJSJit
 (
 )
 )
+{
 JitFrameIter
 :
 :
@@ -6862,6 +6883,7 @@ operator
 (
 )
 ;
+}
 }
 public
 :
@@ -7771,6 +7793,7 @@ hasScript
 (
 )
 )
+{
 FrameIter
 :
 :
@@ -7780,6 +7803,7 @@ operator
 (
 )
 ;
+}
 }
 public
 :
@@ -8284,6 +8308,7 @@ state_
 =
 INTERP
 )
+{
 return
 interpFrame
 (
@@ -8294,6 +8319,7 @@ script
 (
 )
 ;
+}
 if
 (
 jsJitFrame
@@ -8304,6 +8330,7 @@ isIonJS
 (
 )
 )
+{
 return
 ionInlineFrames_
 .
@@ -8311,6 +8338,7 @@ script
 (
 )
 ;
+}
 return
 jsJitFrame
 (
@@ -8563,9 +8591,11 @@ isJSJit
 (
 )
 )
+{
 return
 false
 ;
+}
 auto
 &
 jitFrame
@@ -8582,9 +8612,11 @@ isBaselineJS
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 jitFrame

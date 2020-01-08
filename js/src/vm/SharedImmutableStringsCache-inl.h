@@ -114,6 +114,7 @@ if
 !
 ownedChars
 )
+{
 return
 mozilla
 :
@@ -122,6 +123,7 @@ Nothing
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 ownedChars
@@ -191,6 +193,7 @@ box
 )
 )
 )
+{
 return
 mozilla
 :
@@ -199,6 +202,7 @@ Nothing
 (
 )
 ;
+}
 }
 MOZ_ASSERT
 (
@@ -344,6 +348,7 @@ if
 !
 ownedTwoByteChars
 )
+{
 return
 mozilla
 :
@@ -352,6 +357,7 @@ Nothing
 (
 )
 ;
+}
 MOZ_ASSERT
 (
 ownedTwoByteChars
@@ -448,6 +454,7 @@ box
 )
 )
 )
+{
 return
 mozilla
 :
@@ -456,6 +463,7 @@ Nothing
 (
 )
 ;
+}
 }
 MOZ_ASSERT
 (

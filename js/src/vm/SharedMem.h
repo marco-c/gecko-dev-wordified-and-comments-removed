@@ -266,6 +266,7 @@ sharedness_
 =
 IsUnshared
 )
+{
 return
 SharedMem
 <
@@ -280,6 +281,7 @@ unwrap
 )
 )
 ;
+}
 #
 endif
 return
