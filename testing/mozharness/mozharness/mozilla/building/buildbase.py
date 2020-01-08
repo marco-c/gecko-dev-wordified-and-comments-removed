@@ -6050,25 +6050,6 @@ query_is_nightly_promotion
 :
             
 if
-self
-.
-query_is_nightly
-(
-)
-:
-                
-env
-[
-"
-IS_NIGHTLY
-"
-]
-=
-"
-yes
-"
-            
-if
 c
 .
 get
@@ -6156,17 +6137,6 @@ enable_release_promotion
 '
 )
 :
-            
-env
-[
-'
-ENABLE_RELEASE_PROMOTION
-'
-]
-=
-"
-1
-"
             
 update_channel
 =
