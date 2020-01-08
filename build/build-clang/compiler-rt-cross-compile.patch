@@ -3,8 +3,6 @@ Add
 target
 x86_64
 -
-apple
--
 darwin11
 '
 to
@@ -157,8 +155,6 @@ pointer
 -
 target
 x86_64
--
-apple
 -
 darwin11
 -

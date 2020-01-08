@@ -296,8 +296,6 @@ target
 =
 x86_64
 -
-apple
--
 darwin11
 -
 -
@@ -360,8 +358,6 @@ bin
 /
 x86_64
 -
-apple
--
 darwin11
 -
 dsymutil
@@ -385,8 +381,6 @@ CROSSTOOLS_BUILD_DIR
 bin
 /
 x86_64
--
-apple
 -
 darwin11
 -

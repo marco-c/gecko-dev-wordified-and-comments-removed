@@ -244,13 +244,6 @@ FLAGS
 =
 "
 -
-target
-x86_64
--
-apple
--
-darwin11
--
 B
 CROSS_CCTOOLS_PATH
 /
@@ -338,8 +331,6 @@ CROSS_CCTOOLS_PATH
 bin
 /
 x86_64
--
-apple
 -
 darwin11
 -

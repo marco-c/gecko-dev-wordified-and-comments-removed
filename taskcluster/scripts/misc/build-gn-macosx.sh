@@ -116,8 +116,6 @@ CFLAGS
 target
 x86_64
 -
-apple
--
 darwin11
 -
 mlinker
@@ -337,8 +335,6 @@ CROSS_CCTOOLS_PATH
 bin
 /
 x86_64
--
-apple
 -
 darwin11
 -

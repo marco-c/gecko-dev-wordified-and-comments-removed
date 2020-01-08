@@ -1894,8 +1894,6 @@ DLLVM_DEFAULT_TARGET_TRIPLE
 =
 x86_64
 -
-apple
--
 darwin11
 "
             
@@ -5418,8 +5416,6 @@ target
 "
 "
 x86_64
--
-apple
 -
 darwin11
 "

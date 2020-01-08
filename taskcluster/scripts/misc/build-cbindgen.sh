@@ -624,8 +624,6 @@ bin
 /
 x86_64
 -
-apple
--
 darwin11
 -
 ld
