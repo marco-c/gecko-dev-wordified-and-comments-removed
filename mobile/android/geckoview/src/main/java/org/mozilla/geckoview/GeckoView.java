@@ -1193,6 +1193,10 @@ mSession
 =
 null
 ;
+mRuntime
+=
+null
+;
 return
 session
 ;
@@ -2003,6 +2007,14 @@ savedSession
 =
 =
 null
+|
+|
+savedSession
+.
+equals
+(
+mSession
+)
 )
 {
 return
