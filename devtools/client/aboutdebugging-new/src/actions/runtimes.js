@@ -81,12 +81,12 @@ helper
 ;
 const
 {
-CONNECT_RUNTIME_FAILURE
-CONNECT_RUNTIME_START
-CONNECT_RUNTIME_SUCCESS
-DISCONNECT_RUNTIME_FAILURE
-DISCONNECT_RUNTIME_START
-DISCONNECT_RUNTIME_SUCCESS
+UNWATCH_RUNTIME_FAILURE
+UNWATCH_RUNTIME_START
+UNWATCH_RUNTIME_SUCCESS
+WATCH_RUNTIME_FAILURE
+WATCH_RUNTIME_START
+WATCH_RUNTIME_SUCCESS
 }
 =
 require
@@ -100,7 +100,7 @@ constants
 )
 ;
 function
-connectRuntime
+watchRuntime
 (
 )
 {
@@ -118,7 +118,7 @@ dispatch
 {
 type
 :
-CONNECT_RUNTIME_START
+WATCH_RUNTIME_START
 }
 )
 ;
@@ -161,7 +161,7 @@ dispatch
 {
 type
 :
-CONNECT_RUNTIME_SUCCESS
+WATCH_RUNTIME_SUCCESS
 client
 }
 )
@@ -204,7 +204,7 @@ dispatch
 {
 type
 :
-CONNECT_RUNTIME_FAILURE
+WATCH_RUNTIME_FAILURE
 error
 :
 e
@@ -218,7 +218,7 @@ message
 ;
 }
 function
-disconnectRuntime
+unwatchRuntime
 (
 )
 {
@@ -246,7 +246,7 @@ dispatch
 {
 type
 :
-DISCONNECT_RUNTIME_START
+UNWATCH_RUNTIME_START
 client
 }
 )
@@ -271,7 +271,7 @@ dispatch
 {
 type
 :
-DISCONNECT_RUNTIME_SUCCESS
+UNWATCH_RUNTIME_SUCCESS
 }
 )
 ;
@@ -286,7 +286,7 @@ dispatch
 {
 type
 :
-DISCONNECT_RUNTIME_FAILURE
+UNWATCH_RUNTIME_FAILURE
 error
 :
 e
@@ -304,7 +304,7 @@ module
 exports
 =
 {
-connectRuntime
-disconnectRuntime
+watchRuntime
+unwatchRuntime
 }
 ;
