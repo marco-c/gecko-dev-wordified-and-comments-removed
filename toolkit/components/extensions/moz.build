@@ -154,6 +154,11 @@ ExtensionPreferencesManager
 jsm
 '
 '
+ExtensionProcessScript
+.
+jsm
+'
+'
 ExtensionSettingsStore
 .
 jsm
@@ -228,15 +233,6 @@ EXTRA_COMPONENTS
 +
 =
 [
-'
-extension
--
-process
--
-script
-.
-js
-'
 '
 extensions
 -

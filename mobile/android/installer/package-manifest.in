@@ -1366,17 +1366,6 @@ extensions
 mobile
 .
 manifest
-BINPATH
-/
-components
-/
-extension
--
-process
--
-script
-.
-js
 ;
 Features
 BINPATH
