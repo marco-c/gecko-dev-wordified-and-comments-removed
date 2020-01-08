@@ -73,7 +73,8 @@ self
 >
 Result
 <
-nsresult
+(
+)
 nsresult
 >
 ;
@@ -138,7 +139,8 @@ self
 >
 Result
 <
-nsresult
+(
+)
 nsresult
 >
 {
@@ -158,7 +160,8 @@ else
 {
 Ok
 (
-self
+(
+)
 )
 }
 }
