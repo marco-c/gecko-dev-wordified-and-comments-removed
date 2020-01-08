@@ -1,7 +1,7 @@
 #
 include
 <
-Windows
+windows
 .
 h
 >
