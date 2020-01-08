@@ -56,14 +56,16 @@ serve
 .
 serve
 import
-Config
+build_config
         
-config
-=
-Config
+with
+build_config
 (
 )
-        
+as
+config
+:
+            
 self
 .
 host
@@ -74,7 +76,7 @@ config
 browser_host
 "
 ]
-        
+            
 self
 .
 http_port
@@ -93,7 +95,7 @@ http
 [
 0
 ]
-        
+            
 self
 .
 https_port
