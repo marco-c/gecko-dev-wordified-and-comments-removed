@@ -176,16 +176,6 @@ set
 :
 [
 [
-"
-browser
-.
-contentblocking
-.
-enabled
-"
-true
-]
-[
 kPrefName
 behavior
 ]

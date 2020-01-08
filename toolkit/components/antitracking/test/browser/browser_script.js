@@ -83,16 +83,6 @@ true
 "
 browser
 .
-contentblocking
-.
-enabled
-"
-true
-]
-[
-"
-browser
-.
 fastblock
 .
 enabled

@@ -65,16 +65,6 @@ interval
 ]
 [
 "
-browser
-.
-contentblocking
-.
-enabled
-"
-true
-]
-[
-"
 network
 .
 cookie
