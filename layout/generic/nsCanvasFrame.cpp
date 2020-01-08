@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsContentCreatorFunctions
+.
+h
+"
+#
+include
+"
 nsCSSRendering
 .
 h
