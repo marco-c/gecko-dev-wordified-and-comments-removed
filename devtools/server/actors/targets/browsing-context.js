@@ -1223,6 +1223,17 @@ actor
 this
 .
 actorID
+traits
+:
+{
+isBrowsingContext
+:
+!
+!
+this
+.
+docShell
+}
 }
 ;
 if
