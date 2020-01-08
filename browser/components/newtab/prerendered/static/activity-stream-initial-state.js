@@ -271,6 +271,17 @@ Pocket
 :
 {
 "
+isUserLoggedIn
+"
+:
+false
+"
+pocketCta
+"
+:
+{
+}
+"
 waitingForSpoc
 "
 :

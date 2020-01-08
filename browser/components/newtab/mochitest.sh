@@ -248,6 +248,16 @@ browser_search_subdialogs_within_preferences_1
 .
 js
 \
+browser
+/
+extensions
+/
+onboarding
+/
+test
+/
+browser
+\
 &
 &
 !

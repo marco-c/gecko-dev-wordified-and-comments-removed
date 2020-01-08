@@ -1880,7 +1880,7 @@ prefStructure
 =
 [
 {
-disclaimer
+learnMore
 :
 {
 link

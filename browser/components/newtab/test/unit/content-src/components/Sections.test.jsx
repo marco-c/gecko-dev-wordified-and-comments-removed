@@ -962,7 +962,7 @@ rows
 ;
 wrapper
 =
-mountSectionWithProps
+mountSectionIntlWithProps
 (
 FAKE_SECTION
 )
@@ -998,7 +998,7 @@ button
 {
 wrapper
 =
-mountSectionWithProps
+mountSectionIntlWithProps
 (
 FAKE_SECTION
 )
@@ -1054,7 +1054,7 @@ clicked
 {
 wrapper
 =
-mountSectionWithProps
+mountSectionIntlWithProps
 (
 FAKE_SECTION
 )
@@ -2027,7 +2027,7 @@ find
 (
 "
 .
-topic
+topics
 "
 )
 1
@@ -2120,6 +2120,10 @@ Pocket
 waitingForSpoc
 :
 true
+pocketCta
+:
+{
+}
 }
 }
 {
@@ -2156,6 +2160,10 @@ Pocket
 waitingForSpoc
 :
 false
+pocketCta
+:
+{
+}
 }
 }
 )
@@ -2212,7 +2220,7 @@ find
 (
 "
 .
-topic
+topics
 "
 )
 1
@@ -3603,7 +3611,7 @@ rowsPref
 ;
 wrapper
 =
-mountSectionWithProps
+mountSectionIntlWithProps
 (
 FAKE_SECTION
 )
