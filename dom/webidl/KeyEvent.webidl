@@ -1635,6 +1635,13 @@ DOM_VK_WIN_OEM_CLEAR
 =
 0xFE
 ;
+[
+BinaryName
+=
+"
+initKeyEventJS
+"
+]
 void
 initKeyEvent
 (

@@ -106,6 +106,9 @@ KeyboardEvent
 :
 UIEvent
 {
+[
+NeedsCallerType
+]
 readonly
 attribute
 unsigned
@@ -219,6 +222,11 @@ code
 ;
 [
 Throws
+BinaryName
+=
+"
+initKeyboardEventJS
+"
 ]
 void
 initKeyboardEvent
