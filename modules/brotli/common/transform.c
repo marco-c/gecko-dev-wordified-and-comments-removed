@@ -805,7 +805,7 @@ BrotliTransforms
 *
 transforms
 int
-transfom_idx
+transform_idx
 )
 {
 int
@@ -821,7 +821,7 @@ prefix
 BROTLI_TRANSFORM_PREFIX
 (
 transforms
-transfom_idx
+transform_idx
 )
 ;
 uint8_t
@@ -830,7 +830,7 @@ type
 BROTLI_TRANSFORM_TYPE
 (
 transforms
-transfom_idx
+transform_idx
 )
 ;
 const
@@ -841,7 +841,7 @@ suffix
 BROTLI_TRANSFORM_SUFFIX
 (
 transforms
-transfom_idx
+transform_idx
 )
 ;
 {

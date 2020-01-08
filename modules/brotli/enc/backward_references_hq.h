@@ -247,9 +247,6 @@ BrotliEncoderParams
 *
 params
 const
-size_t
-max_backward_limit
-const
 int
 *
 dist_cache
@@ -270,9 +267,6 @@ num_bytes
 const
 size_t
 block_start
-const
-size_t
-max_backward_limit
 const
 ZopfliNode
 *
