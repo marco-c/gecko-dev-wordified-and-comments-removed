@@ -11256,7 +11256,7 @@ translation
 engine
 "
 "
-bing
+Google
 "
 )
 ;

@@ -844,7 +844,7 @@ translation
 engine
 "
 "
-bing
+Bing
 "
 )
 ;

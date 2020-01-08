@@ -103,6 +103,11 @@ js
 mem
 '
 '
+GoogleTranslator
+.
+jsm
+'
+'
 LanguageDetector
 .
 jsm

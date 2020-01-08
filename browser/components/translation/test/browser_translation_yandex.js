@@ -112,7 +112,7 @@ setCharPref
 (
 kEnginePref
 "
-yandex
+Yandex
 "
 )
 ;
