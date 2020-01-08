@@ -45,6 +45,14 @@ createClientMock
 {
 return
 {
+addOneTimeListener
+:
+(
+)
+=
+>
+{
+}
 addListener
 :
 (

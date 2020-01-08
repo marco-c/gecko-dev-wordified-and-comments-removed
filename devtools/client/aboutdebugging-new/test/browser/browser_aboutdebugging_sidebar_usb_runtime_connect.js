@@ -434,6 +434,7 @@ waitUntil
 )
 =
 >
+!
 usbRuntimeSidebarItem
 .
 querySelector
