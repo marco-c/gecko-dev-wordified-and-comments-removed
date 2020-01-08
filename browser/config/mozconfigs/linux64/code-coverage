@@ -50,6 +50,12 @@ ac_add_options
 -
 disable
 -
+dmd
+ac_add_options
+-
+-
+disable
+-
 profiling
 ac_add_options
 -
