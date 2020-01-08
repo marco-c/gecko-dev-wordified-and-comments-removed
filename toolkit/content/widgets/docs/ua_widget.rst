@@ -149,7 +149,7 @@ a
 chrome
 -
 only
-UAWidgetBindToTree
+UAWidgetSetupOrChange
 event
 is
 dispatched
@@ -292,7 +292,7 @@ removed
 from
 the
 tree
-UAWidgetUnbindFromTree
+UAWidgetTeardown
 is
 dispatched
 so
@@ -439,7 +439,7 @@ method
 .
 Instead
 another
-UAWidgetAttributeChanged
+UAWidgetSetupOrChange
 event
 will
 cause
