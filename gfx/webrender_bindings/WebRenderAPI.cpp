@@ -1891,6 +1891,7 @@ UpdateAndRender
 aWindowId
 mStartTime
 true
+true
 )
 ;
 wr_renderer_readback
