@@ -1195,6 +1195,17 @@ HasStableTSC
 (
 )
 {
+#
+if
+defined
+(
+_M_ARM64
+)
+return
+true
+;
+#
+else
 union
 {
 int
@@ -1316,6 +1327,8 @@ regs
 8
 )
 ;
+#
+endif
 }
 static
 bool
