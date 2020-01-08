@@ -24,12 +24,12 @@ from
 .
 executors
 .
-executorselenium
+executorwebdriver
 import
 (
-SeleniumTestharnessExecutor
-                                          
-SeleniumRefTestExecutor
+WebDriverTestharnessExecutor
+                                           
+WebDriverRefTestExecutor
 )
 from
 .
@@ -76,7 +76,7 @@ testharness
 "
 :
 "
-SeleniumTestharnessExecutor
+WebDriverTestharnessExecutor
 "
                               
 "
@@ -84,7 +84,7 @@ reftest
 "
 :
 "
-SeleniumRefTestExecutor
+WebDriverRefTestExecutor
 "
                               
 "
