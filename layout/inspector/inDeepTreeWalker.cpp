@@ -99,6 +99,11 @@ mShowDocumentsAsNodes
 (
 false
 )
+mCurrentIndex
+(
+-
+1
+)
 mWhatToShow
 (
 mozilla

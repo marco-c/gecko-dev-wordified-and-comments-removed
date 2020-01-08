@@ -1367,6 +1367,14 @@ mFoundCells
 (
 0
 )
+mCurMapContentRowCount
+(
+0
+)
+mCurMapRelevantRowCount
+(
+0
+)
 {
 MOZ_ASSERT
 (

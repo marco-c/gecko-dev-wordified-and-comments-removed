@@ -3892,6 +3892,10 @@ mHasReceivedPaintMessage
 (
 false
 )
+mIsLastKeyDownCanceled
+(
+false
+)
 mHasHandledUserInput
 (
 false

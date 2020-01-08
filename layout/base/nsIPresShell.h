@@ -3992,9 +3992,6 @@ bool
 mFontSizeInflationEnabled
 ;
 bool
-mFontSizeInflationEnabledIsDirty
-;
-bool
 mPaintingIsFrozen
 ;
 bool

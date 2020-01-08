@@ -9798,6 +9798,14 @@ mFrame
 (
 aFrame
 )
+mLeftBEnd
+(
+nscoord_MIN
+)
+mRightBEnd
+(
+nscoord_MIN
+)
 mRect
 (
 ShapeInfo

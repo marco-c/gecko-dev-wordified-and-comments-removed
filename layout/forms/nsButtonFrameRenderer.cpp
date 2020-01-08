@@ -173,6 +173,11 @@ nsButtonFrameRenderer
 nsButtonFrameRenderer
 (
 )
+:
+mFrame
+(
+nullptr
+)
 {
 MOZ_COUNT_CTOR
 (
