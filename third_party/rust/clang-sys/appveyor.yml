@@ -5,14 +5,14 @@ matrix
 -
 LLVM_VERSION
 :
-5
+7
 .
 0
 .
 0
 CLANG_VERSION
 :
-clang_5_0
+clang_7_0
 install
 :
 -

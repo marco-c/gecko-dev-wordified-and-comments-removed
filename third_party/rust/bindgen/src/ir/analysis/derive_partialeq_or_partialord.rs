@@ -563,6 +563,9 @@ opaque
 .
 can_trivially_derive_partialeq_or_partialord
 (
+self
+.
+ctx
 )
 }
 )
@@ -689,11 +692,6 @@ UnresolvedTypeRef
 .
 .
 )
-|
-TypeKind
-:
-:
-BlockPointer
 |
 TypeKind
 :
@@ -996,6 +994,9 @@ sig
 .
 can_trivially_derive_partialeq_or_partialord
 (
+self
+.
+ctx
 )
 !
 =
@@ -1066,6 +1067,9 @@ sig
 .
 can_trivially_derive_partialeq_or_partialord
 (
+self
+.
+ctx
 )
 !
 =
@@ -1259,6 +1263,9 @@ opaque
 .
 can_trivially_derive_partialeq_or_partialord
 (
+self
+.
+ctx
 )
 }
 )
@@ -1345,6 +1352,15 @@ TypeKind
 :
 :
 Alias
+(
+.
+.
+)
+|
+TypeKind
+:
+:
+BlockPointer
 (
 .
 .

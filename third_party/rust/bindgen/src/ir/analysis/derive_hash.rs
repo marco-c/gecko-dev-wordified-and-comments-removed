@@ -645,6 +645,9 @@ opaque
 .
 can_trivially_derive_hash
 (
+self
+.
+ctx
 )
 }
 )
@@ -806,11 +809,6 @@ UnresolvedTypeRef
 .
 .
 )
-|
-TypeKind
-:
-:
-BlockPointer
 |
 TypeKind
 :
@@ -1170,6 +1168,9 @@ sig
 .
 can_trivially_derive_hash
 (
+self
+.
+ctx
 )
 {
 trace
@@ -1231,6 +1232,9 @@ sig
 .
 can_trivially_derive_hash
 (
+self
+.
+ctx
 )
 {
 trace
@@ -1294,6 +1298,14 @@ TypeKind
 :
 :
 Alias
+(
+t
+)
+|
+TypeKind
+:
+:
+BlockPointer
 (
 t
 )
@@ -1513,6 +1525,9 @@ opaque
 .
 can_trivially_derive_hash
 (
+self
+.
+ctx
 )
 }
 )

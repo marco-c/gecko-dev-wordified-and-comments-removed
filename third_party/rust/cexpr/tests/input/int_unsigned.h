@@ -16,6 +16,10 @@ Int_2
 0x2
 #
 define
+Int_3
+3L
+#
+define
 Int_63
 077
 #

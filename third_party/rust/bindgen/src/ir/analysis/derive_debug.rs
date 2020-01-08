@@ -720,6 +720,9 @@ opaque
 .
 can_trivially_derive_debug
 (
+self
+.
+ctx
 )
 }
 )
@@ -916,11 +919,6 @@ Vector
 TypeKind
 :
 :
-BlockPointer
-|
-TypeKind
-:
-:
 TypeParam
 |
 TypeKind
@@ -1091,6 +1089,14 @@ TypeKind
 :
 :
 Alias
+(
+t
+)
+|
+TypeKind
+:
+:
+BlockPointer
 (
 t
 )
@@ -1274,6 +1280,9 @@ opaque
 .
 can_trivially_derive_debug
 (
+self
+.
+ctx
 )
 }
 )
@@ -1602,6 +1611,9 @@ sig
 .
 can_trivially_derive_debug
 (
+self
+.
+ctx
 )
 {
 trace
