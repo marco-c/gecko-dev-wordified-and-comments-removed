@@ -677,6 +677,13 @@ boolean
 shouldUploadLocalRecord
 ;
 protected
+volatile
+boolean
+shouldNotifyOtherClients
+=
+false
+;
+protected
 final
 AtomicInteger
 uploadAttemptsCount
@@ -881,11 +888,6 @@ wipeAndStore
 null
 )
 ;
-boolean
-isFirstLocalClientRecordUpload
-=
-false
-;
 if
 (
 !
@@ -926,7 +928,7 @@ persistServerClientRecordTimestamp
 0
 )
 ;
-isFirstLocalClientRecordUpload
+shouldNotifyOtherClients
 =
 true
 ;
@@ -1074,7 +1076,7 @@ uploadRemoteRecords
 if
 (
 !
-isFirstLocalClientRecordUpload
+shouldNotifyOtherClients
 &
 &
 account
@@ -1112,7 +1114,7 @@ checkAndUpload
 ;
 if
 (
-isFirstLocalClientRecordUpload
+shouldNotifyOtherClients
 &
 &
 account
@@ -2987,6 +2989,10 @@ protocols
 )
 {
 shouldUploadLocalRecord
+=
+true
+;
+shouldNotifyOtherClients
 =
 true
 ;
