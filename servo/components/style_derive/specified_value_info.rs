@@ -608,6 +608,7 @@ map
 |
 ty
 |
+{
 quote
 !
 {
@@ -626,6 +627,7 @@ SpecifiedValueInfo
 :
 :
 SUPPORTED_TYPES
+}
 }
 )
 )
@@ -654,6 +656,7 @@ map
 |
 ty
 |
+{
 quote
 !
 {
@@ -675,6 +678,7 @@ collect_completion_keywords
 _f
 )
 ;
+}
 }
 )
 )

@@ -363,7 +363,6 @@ map
 |
 arg
 |
-{
 match
 arg
 {
@@ -378,6 +377,7 @@ data
 )
 =
 >
+{
 GenericArgument
 :
 :
@@ -391,6 +391,7 @@ clone
 (
 )
 )
+}
 &
 GenericParam
 :
@@ -454,7 +455,6 @@ yet
 "
 arg
 )
-}
 }
 )
 .
@@ -548,7 +548,6 @@ inner
 )
 =
 >
-{
 Type
 :
 :
@@ -582,7 +581,6 @@ clone
 )
 }
 )
-}
 Type
 :
 :
@@ -654,7 +652,6 @@ inner
 )
 =
 >
-{
 Type
 :
 :
@@ -698,7 +695,6 @@ clone
 )
 }
 )
-}
 Type
 :
 :
@@ -792,7 +788,6 @@ path
 )
 =
 >
-{
 Type
 :
 :
@@ -813,7 +808,6 @@ map
 |
 qself
 |
-{
 QSelf
 {
 ty
@@ -846,7 +840,6 @@ clone
 (
 )
 }
-}
 )
 path
 :
@@ -858,7 +851,6 @@ f
 )
 }
 )
-}
 Type
 :
 :
@@ -869,7 +861,6 @@ inner
 )
 =
 >
-{
 Type
 :
 :
@@ -903,7 +894,6 @@ clone
 )
 }
 )
-}
 ref
 ty
 =
@@ -986,7 +976,6 @@ map
 |
 segment
 |
-{
 PathSegment
 {
 ident
@@ -1038,7 +1027,6 @@ map
 |
 arg
 |
-{
 match
 arg
 {
@@ -1094,6 +1082,7 @@ data
 )
 =
 >
+{
 GenericArgument
 :
 :
@@ -1121,6 +1110,7 @@ clone
 )
 }
 )
+}
 ref
 arg
 =
@@ -1141,7 +1131,6 @@ yet
 "
 arg
 )
-}
 }
 )
 .
@@ -1175,7 +1164,6 @@ ref
 parameters
 =
 >
-{
 panic
 !
 (
@@ -1192,8 +1180,6 @@ yet
 "
 parameters
 )
-}
-}
 }
 }
 )
@@ -1591,7 +1577,6 @@ for_each
 |
 b
 |
-{
 b
 .
 binding
@@ -1617,7 +1602,6 @@ binding
 prefix
 )
 )
-}
 )
 ;
 (
@@ -1703,7 +1687,6 @@ for_each
 |
 b
 |
-{
 b
 .
 binding
@@ -1729,7 +1712,6 @@ binding
 prefix
 )
 )
-}
 )
 ;
 v

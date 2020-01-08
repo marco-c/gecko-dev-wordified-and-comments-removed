@@ -209,7 +209,6 @@ each_variant
 |
 variant
 |
-{
 derive_variant_arm
 (
 variant
@@ -217,7 +216,6 @@ variant
 mut
 where_clause
 )
-}
 )
 }
 ;

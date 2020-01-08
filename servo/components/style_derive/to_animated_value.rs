@@ -101,7 +101,6 @@ Move
 |
 binding
 |
-{
 quote
 !
 (
@@ -122,7 +121,6 @@ to_animated_value
 binding
 )
 )
-}
 )
 ;
 let
@@ -142,7 +140,6 @@ Move
 |
 binding
 |
-{
 quote
 !
 (
@@ -163,7 +160,6 @@ from_animated_value
 binding
 )
 )
-}
 )
 ;
 input

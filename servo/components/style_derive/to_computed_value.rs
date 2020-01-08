@@ -181,7 +181,6 @@ mut
 |
 ident
 |
-{
 parse_quote
 !
 (
@@ -203,7 +202,6 @@ ToComputedValue
 :
 ComputedValue
 )
-}
 )
 ;
 cg
@@ -469,6 +467,7 @@ computed
 }
 }
 }
+;
 }
 let
 computed_value_type
