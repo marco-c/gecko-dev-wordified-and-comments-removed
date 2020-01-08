@@ -1875,6 +1875,9 @@ wtsapi32
 locationapi
 '
 '
+runtimeobject
+'
+'
 sapi
 '
 '
