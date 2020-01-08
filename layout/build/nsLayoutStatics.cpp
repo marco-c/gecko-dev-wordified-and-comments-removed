@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsAutoCopyListener
-.
-h
-"
-#
-include
-"
 nsColorNames
 .
 h
@@ -1890,13 +1883,6 @@ Shutdown
 )
 ;
 nsXBLService
-:
-:
-Shutdown
-(
-)
-;
-nsAutoCopyListener
 :
 :
 Shutdown
