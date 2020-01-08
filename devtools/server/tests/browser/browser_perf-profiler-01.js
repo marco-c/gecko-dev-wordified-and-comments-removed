@@ -65,13 +65,6 @@ performance
 "
 )
 ;
-await
-front
-.
-connect
-(
-)
-;
 pmmLoadFrameScripts
 (
 gBrowser
@@ -188,13 +181,6 @@ active
 )
 .
 "
-)
-;
-await
-front
-.
-destroy
-(
 )
 ;
 await

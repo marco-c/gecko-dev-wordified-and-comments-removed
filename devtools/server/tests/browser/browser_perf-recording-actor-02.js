@@ -55,13 +55,6 @@ performance
 await
 front
 .
-connect
-(
-)
-;
-await
-front
-.
 setProfilerStatusInterval
 (
 10
@@ -331,13 +324,6 @@ longer
 recording
 .
 "
-)
-;
-await
-front
-.
-destroy
-(
 )
 ;
 await

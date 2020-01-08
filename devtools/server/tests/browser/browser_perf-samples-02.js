@@ -43,13 +43,6 @@ performance
 "
 )
 ;
-await
-front
-.
-connect
-(
-)
-;
 const
 rec
 =
@@ -199,13 +192,6 @@ root
 nodes
 .
 "
-)
-;
-await
-front
-.
-destroy
-(
 )
 ;
 await

@@ -38,13 +38,6 @@ performance
 "
 )
 ;
-await
-front
-.
-connect
-(
-)
-;
 const
 rec
 =
@@ -521,13 +514,6 @@ importedModel
 "
 Client
 "
-)
-;
-await
-front
-.
-destroy
-(
 )
 ;
 await

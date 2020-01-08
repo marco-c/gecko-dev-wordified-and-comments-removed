@@ -38,13 +38,6 @@ performance
 "
 )
 ;
-await
-front
-.
-connect
-(
-)
-;
 let
 lastMemoryDelta
 =
@@ -222,13 +215,6 @@ events
 fired
 .
 "
-)
-;
-await
-front
-.
-destroy
-(
 )
 ;
 await

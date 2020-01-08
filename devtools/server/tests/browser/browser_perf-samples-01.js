@@ -66,13 +66,6 @@ performance
 "
 )
 ;
-await
-front
-.
-connect
-(
-)
-;
 const
 firstRecording
 =
@@ -338,13 +331,6 @@ not
 overflow
 .
 "
-)
-;
-await
-front
-.
-destroy
-(
 )
 ;
 await
