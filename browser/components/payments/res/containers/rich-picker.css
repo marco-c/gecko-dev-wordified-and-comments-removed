@@ -125,9 +125,7 @@ edit
 ;
 border
 -
-inline
--
-end
+right
 :
 1px
 solid
@@ -285,9 +283,7 @@ solid
 ;
 border
 -
-inline
--
-start
+left
 :
 none
 ;
@@ -305,11 +301,5 @@ margin
 padding
 :
 8px
-;
-z
--
-index
-:
-1
 ;
 }
