@@ -20754,7 +20754,7 @@ case
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 :
 {
 /
@@ -20888,12 +20888,6 @@ StyleAppearance
 :
 :
 Progresschunk
-:
-case
-StyleAppearance
-:
-:
-ProgresschunkVertical
 :
 case
 StyleAppearance
@@ -23999,7 +23993,7 @@ case
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 :
 case
 StyleAppearance
@@ -25695,7 +25689,7 @@ case
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 :
 {
 /
@@ -26516,7 +26510,7 @@ case
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 :
 {
 SInt32
@@ -27643,13 +27637,7 @@ case
 StyleAppearance
 :
 :
-ProgresschunkVertical
-:
-case
-StyleAppearance
-:
-:
-Progressbar
+ProgressBar
 :
 case
 StyleAppearance
@@ -28350,7 +28338,7 @@ case
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 :
 case
 StyleAppearance
@@ -28363,12 +28351,6 @@ StyleAppearance
 :
 :
 Progresschunk
-:
-case
-StyleAppearance
-:
-:
-ProgresschunkVertical
 :
 case
 StyleAppearance
@@ -28841,7 +28823,7 @@ case
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 :
 case
 StyleAppearance

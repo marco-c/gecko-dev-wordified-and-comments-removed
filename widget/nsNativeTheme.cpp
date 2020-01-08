@@ -1467,7 +1467,7 @@ aAppearance
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 )
 {
 nsProgressFrame

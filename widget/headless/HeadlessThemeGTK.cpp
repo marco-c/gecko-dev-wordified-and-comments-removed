@@ -241,7 +241,7 @@ case
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 :
 case
 StyleAppearance
@@ -1858,7 +1858,7 @@ case
 StyleAppearance
 :
 :
-Progressbar
+ProgressBar
 :
 case
 StyleAppearance
@@ -1871,12 +1871,6 @@ StyleAppearance
 :
 :
 ProgressbarVertical
-:
-case
-StyleAppearance
-:
-:
-ProgresschunkVertical
 :
 case
 StyleAppearance

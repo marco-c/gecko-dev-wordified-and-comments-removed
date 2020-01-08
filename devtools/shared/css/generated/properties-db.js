@@ -1151,6 +1151,11 @@ number
 input
 "
 "
+progress
+-
+bar
+"
+"
 progressbar
 "
 "
@@ -1160,11 +1165,6 @@ vertical
 "
 "
 progresschunk
-"
-"
-progresschunk
--
-vertical
 "
 "
 radio
@@ -7182,6 +7182,11 @@ number
 input
 "
 "
+progress
+-
+bar
+"
+"
 progressbar
 "
 "
@@ -7191,11 +7196,6 @@ vertical
 "
 "
 progresschunk
-"
-"
-progresschunk
--
-vertical
 "
 "
 radio
