@@ -3,8 +3,6 @@ __future__
 import
 absolute_import
 import
-os
-import
 manifestparser
 import
 mozunit
@@ -2437,14 +2435,7 @@ tests
 :
         
 assert
-os
-.
-path
-.
-normpath
-(
 test_dir
-)
 in
 test
 [
