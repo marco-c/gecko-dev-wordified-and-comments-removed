@@ -28,8 +28,10 @@ import
 time
 import
 traceback
+from
+six
 import
-types
+string_types
 from
 six
 .
@@ -508,14 +510,11 @@ request
 "
         
 if
-type
+isinstance
 (
 methods
+string_types
 )
-in
-types
-.
-StringTypes
 :
             
 methods
@@ -1635,17 +1634,20 @@ as
 e
 :
                     
-if
+message
+=
+str
+(
 e
-.
+)
+                    
+if
 message
 :
                         
 err
 =
 [
-e
-.
 message
 ]
                     

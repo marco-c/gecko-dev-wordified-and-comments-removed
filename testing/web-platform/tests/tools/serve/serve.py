@@ -2808,7 +2808,6 @@ append
 (
 method
                  
-b
 "
 %
 s
@@ -2816,11 +2815,8 @@ s
 s
 "
 %
-(
-str
 (
 url_base
-)
 if
 url_base
 !
@@ -2831,10 +2827,7 @@ url_base
 else
 "
 "
-str
-(
 suffix
-)
 )
                  
 handler_cls
@@ -3781,7 +3774,7 @@ ports
 in
 ports
 .
-iteritems
+items
 (
 )
 :

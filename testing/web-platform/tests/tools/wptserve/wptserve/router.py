@@ -2,13 +2,15 @@ import
 itertools
 import
 re
-import
-types
 from
 .
 logger
 import
 get_logger
+from
+six
+import
+string_types
 any_method
 =
 object
@@ -953,14 +955,11 @@ object
 "
         
 if
-type
+isinstance
 (
 methods
+string_types
 )
-in
-types
-.
-StringTypes
 or
 methods
 in

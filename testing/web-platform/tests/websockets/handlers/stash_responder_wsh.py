@@ -1,5 +1,10 @@
+from
+six
+.
+moves
 import
-urlparse
+urllib
+import
 json
 from
 mod_pywebsocket
@@ -100,7 +105,9 @@ GET
 =
 dict
 (
-urlparse
+urllib
+.
+parse
 .
 parse_qsl
 (

@@ -1,5 +1,9 @@
+from
+six
+.
+moves
 import
-urlparse
+urllib
 def
 web_socket_do_extra_handshake
 (
@@ -9,7 +13,9 @@ request
     
 url_parts
 =
-urlparse
+urllib
+.
+parse
 .
 urlsplit
 (

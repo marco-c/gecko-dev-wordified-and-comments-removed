@@ -45,6 +45,10 @@ urllib
 request
 import
 urlopen
+from
+six
+import
+iteritems
 wptserve
 =
 pytest
@@ -162,7 +166,7 @@ hasattr
 (
 data
 "
-iteritems
+items
 "
 )
 :
@@ -380,10 +384,9 @@ for
 name
 value
 in
-headers
-.
 iteritems
 (
+headers
 )
 :
             
