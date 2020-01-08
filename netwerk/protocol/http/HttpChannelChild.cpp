@@ -5203,6 +5203,7 @@ Now
 (
 )
 mTransferSize
+kCacheUnknown
 &
 mTransactionTimings
 )
@@ -7803,6 +7804,7 @@ Now
 (
 )
 0
+kCacheUnknown
 &
 mTransactionTimings
 uri
@@ -10972,6 +10974,7 @@ LOAD_START
 mChannelCreationTimestamp
 mLastStatusReported
 0
+kCacheUnknown
 nullptr
 nullptr
 )
