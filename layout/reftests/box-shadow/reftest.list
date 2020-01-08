@@ -624,9 +624,6 @@ fails
 if
 (
 webrender
-&
-&
-gtkWidget
 )
 =
 =
