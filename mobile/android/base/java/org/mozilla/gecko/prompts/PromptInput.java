@@ -82,6 +82,17 @@ widget
 DateTimePicker
 ;
 import
+org
+.
+mozilla
+.
+gecko
+.
+widget
+.
+FocusableTimePicker
+;
+import
 android
 .
 content
@@ -1152,7 +1163,7 @@ TimePicker
 input
 =
 new
-TimePicker
+FocusableTimePicker
 (
 context
 )
