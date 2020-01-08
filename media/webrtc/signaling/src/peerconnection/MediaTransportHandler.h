@@ -116,7 +116,7 @@ MediaTransportBase
 public
 :
 virtual
-nsresult
+void
 SendPacket
 (
 const
@@ -280,7 +280,7 @@ Destroy
 (
 )
 ;
-nsresult
+void
 SetProxyServer
 (
 NrSocketProxyConfig
@@ -331,7 +331,7 @@ NrIceStunAddr
 aStunAddrs
 )
 ;
-nsresult
+void
 ActivateTransport
 (
 const
@@ -417,7 +417,7 @@ string
 aTransportIds
 )
 ;
-nsresult
+void
 StartIceChecks
 (
 bool
@@ -439,7 +439,7 @@ string
 aIceOptions
 )
 ;
-nsresult
+void
 AddIceCandidate
 (
 const
@@ -465,7 +465,7 @@ bool
 aOnline
 )
 ;
-nsresult
+void
 SendPacket
 (
 const
@@ -503,8 +503,6 @@ override
 void
 GetAllIceStats
 (
-bool
-internalStats
 DOMHighResTimeStamp
 now
 dom
@@ -525,8 +523,6 @@ std
 string
 &
 aTransportId
-bool
-internalStats
 DOMHighResTimeStamp
 now
 dom
@@ -786,8 +782,6 @@ const
 NrIceMediaStream
 &
 aStream
-bool
-aInternalStats
 DOMHighResTimeStamp
 aNow
 dom

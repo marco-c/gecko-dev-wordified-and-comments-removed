@@ -922,7 +922,7 @@ void
 data
 )
 ;
-int
+void
 SendPacket
 (
 nsAutoPtr

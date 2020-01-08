@@ -15684,10 +15684,6 @@ GetAllIceStats
 query
 -
 >
-internalStats
-query
--
->
 now
 query
 -
@@ -15713,10 +15709,6 @@ query
 -
 >
 transportId
-query
--
->
-internalStats
 query
 -
 >
