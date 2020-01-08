@@ -46,7 +46,6 @@ textContent
 60
 .
 00
-USD
 "
 "
 Check
@@ -139,7 +138,6 @@ textContent
 2
 .
 00
-USD
 "
 "
 Check
@@ -266,7 +264,6 @@ textContent
 2
 .
 50
-USD
 "
 "
 Check
