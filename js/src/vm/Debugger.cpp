@@ -61720,15 +61720,11 @@ if
 unwrapped
 -
 >
-deprecatedRealm
+compartment
 (
 )
 -
 >
-creationOptions
-(
-)
-.
 invisibleToDebugger
 (
 )

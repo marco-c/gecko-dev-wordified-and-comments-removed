@@ -2675,6 +2675,9 @@ JSRuntime
 *
 runtime_
 ;
+bool
+invisibleToDebugger_
+;
 js
 :
 :
@@ -2804,6 +2807,16 @@ return
 runtime_
 ;
 }
+bool
+invisibleToDebugger
+(
+)
+const
+{
+return
+invisibleToDebugger_
+;
+}
 RealmVector
 &
 realms
@@ -2916,6 +2929,8 @@ JS
 Zone
 *
 zone
+bool
+invisibleToDebugger
 )
 ;
 void

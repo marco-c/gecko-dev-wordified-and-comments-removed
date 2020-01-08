@@ -246,6 +246,8 @@ Compartment
 Zone
 *
 zone
+bool
+invisibleToDebugger
 )
 :
 zone_
@@ -260,6 +262,10 @@ zone
 runtimeFromAnyThread
 (
 )
+)
+invisibleToDebugger_
+(
+invisibleToDebugger
 )
 crossCompartmentWrappers
 (
