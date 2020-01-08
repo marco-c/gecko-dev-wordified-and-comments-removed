@@ -52769,7 +52769,7 @@ append
 (
 CGGeneric
 (
-dedent
+fill
 (
                 
 "
@@ -52783,6 +52783,21 @@ AutoCEReaction
 ceReaction
 ;
                 
+if
+(
+CustomElementRegistry
+:
+:
+IsCustomElementEnabled
+(
+cx
+{
+obj
+}
+)
+)
+{
+                  
 DocGroup
 *
 docGroup
@@ -52794,13 +52809,13 @@ GetDocGroup
 (
 )
 ;
-                
+                  
 if
 (
 docGroup
 )
 {
-                  
+                    
 ceReaction
 .
 emplace
@@ -52814,12 +52829,18 @@ CustomElementReactionsStack
 cx
 )
 ;
+                  
+}
                 
 }
                 
 "
 "
 "
+                
+obj
+=
+objectName
 )
 )
 )

@@ -171,6 +171,11 @@ function
 )
 {
 await
+enableWebComponents
+(
+)
+;
+await
 pushPref
 (
 "

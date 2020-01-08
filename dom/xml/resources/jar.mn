@@ -85,3 +85,17 @@ XMLPrettyPrint
 .
 xsl
 )
+content
+/
+global
+/
+xml
+/
+XMLPrettyPrint
+.
+xml
+(
+XMLPrettyPrint
+.
+xml
+)

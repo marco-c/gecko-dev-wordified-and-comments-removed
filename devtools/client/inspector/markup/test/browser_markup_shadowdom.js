@@ -1099,6 +1099,11 @@ OPEN
 mode
 )
 ;
+await
+enableWebComponents
+(
+)
+;
 const
 {
 inspector
@@ -1156,6 +1161,11 @@ title
 in
 CLOSED
 mode
+)
+;
+await
+enableWebComponents
+(
 )
 ;
 const

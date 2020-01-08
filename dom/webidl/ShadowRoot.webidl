@@ -197,6 +197,16 @@ org
 /
 #
 shadowroot
+[
+Func
+=
+"
+nsDocument
+:
+:
+IsShadowDOMEnabled
+"
+]
 interface
 ShadowRoot
 :

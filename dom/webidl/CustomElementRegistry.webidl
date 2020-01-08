@@ -76,6 +76,16 @@ dom
 window
 -
 customelements
+[
+Func
+=
+"
+CustomElementRegistry
+:
+:
+IsCustomElementEnabled
+"
+]
 interface
 CustomElementRegistry
 {

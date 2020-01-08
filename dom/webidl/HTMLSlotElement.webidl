@@ -160,6 +160,14 @@ document
 *
 /
 [
+Func
+=
+"
+nsDocument
+:
+:
+IsShadowDOMEnabled
+"
 Exposed
 =
 Window

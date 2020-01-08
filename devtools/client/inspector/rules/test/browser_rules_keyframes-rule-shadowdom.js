@@ -127,6 +127,11 @@ function
 )
 {
 await
+enableWebComponents
+(
+)
+;
+await
 addTab
 (
 TEST_URI
