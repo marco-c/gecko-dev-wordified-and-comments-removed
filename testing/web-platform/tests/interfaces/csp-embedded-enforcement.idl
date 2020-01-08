@@ -58,9 +58,7 @@ io
 /
 webappsec
 -
-csp
-/
-embedded
+cspee
 /
 )
 partial
