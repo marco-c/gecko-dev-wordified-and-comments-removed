@@ -40,13 +40,6 @@ xpcpublic
 .
 h
 "
-#
-include
-"
-xpcjsid
-.
-h
-"
 namespace
 mozilla
 {

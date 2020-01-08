@@ -119,11 +119,6 @@ xpcIJSWeakReference
 .
 idl
 '
-'
-xpcjsid
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

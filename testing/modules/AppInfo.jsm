@@ -560,14 +560,5 @@ contractid
 factory
 )
 ;
-Cc
-[
-contractid
-]
-.
-refreshCID
-(
-)
-;
 }
 ;

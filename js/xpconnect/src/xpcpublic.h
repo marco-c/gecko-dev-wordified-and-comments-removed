@@ -2404,9 +2404,8 @@ ContractID2JSValue
 JSContext
 *
 aCx
-const
-nsACString
-&
+JSString
+*
 aContract
 JS
 :
