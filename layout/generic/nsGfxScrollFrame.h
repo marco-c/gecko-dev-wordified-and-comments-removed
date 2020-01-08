@@ -2458,6 +2458,12 @@ GetScrolledFrameDir
 )
 const
 ;
+bool
+IsForTextControlWithNoScrollbars
+(
+)
+const
+;
 static
 void
 EnsureFrameVisPrefsCached
