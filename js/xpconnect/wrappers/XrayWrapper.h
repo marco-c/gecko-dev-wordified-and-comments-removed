@@ -1233,7 +1233,7 @@ protoKey
 ;
 }
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -1747,7 +1747,7 @@ protop
 )
 {
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

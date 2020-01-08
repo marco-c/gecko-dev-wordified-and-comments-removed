@@ -297,7 +297,7 @@ ObjectScope
 obj
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -1016,7 +1016,7 @@ Get
 obj
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
