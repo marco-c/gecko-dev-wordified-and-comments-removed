@@ -756,6 +756,10 @@ timeout
 verbose
 =
 False
+                 
+require_root
+=
+True
 )
 :
         
@@ -840,6 +844,29 @@ adb
 .
         
 :
+param
+bool
+verbose
+:
+provide
+verbose
+output
+        
+:
+param
+bool
+require_root
+:
+check
+that
+we
+have
+root
+permissions
+on
+device
+        
+:
 raises
 :
 *
@@ -880,6 +907,12 @@ self
 _verbose
 =
 verbose
+        
+self
+.
+_require_root
+=
+require_root
         
 self
 .
@@ -5655,7 +5688,9 @@ is_dir
 base_path
 root
 =
-True
+self
+.
+_require_root
 )
 :
             
@@ -5685,7 +5720,9 @@ is_dir
 dummy_dir
 root
 =
-True
+self
+.
+_require_root
 )
 :
                 
@@ -5699,7 +5736,9 @@ recursive
 True
 root
 =
-True
+self
+.
+_require_root
 )
             
 self
@@ -5712,7 +5751,9 @@ parents
 True
 root
 =
-True
+self
+.
+_require_root
 )
             
 self
@@ -5725,7 +5766,9 @@ recursive
 True
 root
 =
-True
+self
+.
+_require_root
 )
         
 except
