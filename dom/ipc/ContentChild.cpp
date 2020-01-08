@@ -8936,6 +8936,17 @@ gFirstIdleTask
 =
 nullptr
 ;
+if
+(
+!
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
+)
+{
 ContentChild
 :
 :
@@ -8948,6 +8959,7 @@ SendFirstIdle
 (
 )
 ;
+}
 }
 mozilla
 :
