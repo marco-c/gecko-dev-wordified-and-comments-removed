@@ -2881,7 +2881,7 @@ ServoInlineBlockWrapper
 -
 servo
 -
-input
+inline
 -
 absolute
 "
