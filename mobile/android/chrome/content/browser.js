@@ -2757,13 +2757,6 @@ startup
 {
 window
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
-.
 browserDOMWindow
 =
 new

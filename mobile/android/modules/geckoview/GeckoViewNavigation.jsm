@@ -102,13 +102,6 @@ this
 .
 window
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
-.
 browserDOMWindow
 =
 this
