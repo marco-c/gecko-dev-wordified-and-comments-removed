@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 string
 import
@@ -9,11 +13,7 @@ usage
 :
     
 print
->
->
-sys
-.
-stderr
+(
 "
 "
 "
@@ -94,6 +94,12 @@ argv
 [
 0
 ]
+)
+file
+=
+sys
+.
+stderr
 )
     
 sys

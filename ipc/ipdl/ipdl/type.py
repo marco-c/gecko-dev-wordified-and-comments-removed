@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -562,11 +566,9 @@ name
 self
 )
 :
+        
 raise
-Exception
-'
-NYI
-'
+NotImplementedError
     
 def
 fullname
@@ -574,11 +576,9 @@ fullname
 self
 )
 :
+        
 raise
-Exception
-'
-NYI
-'
+NotImplementedError
     
 def
 accept
@@ -3521,10 +3521,12 @@ errors
 :
             
 print
->
->
-errout
+(
 error
+file
+=
+errout
+)
 class
 TcheckVisitor
 (
