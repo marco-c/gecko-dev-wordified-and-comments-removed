@@ -438,7 +438,7 @@ None
 nargs
 =
 '
-*
++
 '
 help
 =
