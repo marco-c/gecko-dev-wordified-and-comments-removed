@@ -463,6 +463,12 @@ JSProto_Map
 case
 JSProto_Set
 :
+case
+JSProto_WeakMap
+:
+case
+JSProto_WeakSet
+:
 return
 true
 ;

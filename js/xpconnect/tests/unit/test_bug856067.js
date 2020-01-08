@@ -36,7 +36,14 @@ var
 w
 =
 new
-WeakMap
+Map
+(
+)
+[
+Symbol
+.
+iterator
+]
 (
 )
 ;
