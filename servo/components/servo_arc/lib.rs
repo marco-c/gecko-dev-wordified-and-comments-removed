@@ -1821,7 +1821,7 @@ count
 .
 load
 (
-Relaxed
+Acquire
 )
 =
 =
