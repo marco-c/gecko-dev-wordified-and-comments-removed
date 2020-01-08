@@ -270,7 +270,7 @@ vp
 ;
 MOZ_MUST_USE
 bool
-atomics_wake
+atomics_notify
 (
 JSContext
 *
@@ -332,10 +332,10 @@ destroyInstance
 )
 ;
 enum
-WakeReason
+NotifyReason
 {
-WakeExplicit
-WakeForJSInterrupt
+NotifyExplicit
+NotifyForJSInterrupt
 }
 ;
 enum
@@ -383,9 +383,9 @@ timeout
 )
 ;
 void
-wake
+notify
 (
-WakeReason
+NotifyReason
 reason
 )
 ;
@@ -554,7 +554,7 @@ timeout
 ;
 MOZ_MUST_USE
 int64_t
-atomics_wake_impl
+atomics_notify_impl
 (
 SharedArrayRawBuffer
 *

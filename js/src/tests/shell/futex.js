@@ -54,6 +54,19 @@ helperThreadCount
 0
 )
 {
+var
+mem
+=
+new
+Int32Array
+(
+new
+SharedArrayBuffer
+(
+1024
+)
+)
+;
 mem
 [
 0
@@ -216,7 +229,7 @@ assertEq
 (
 Atomics
 .
-wake
+notify
 (
 mem
 0
@@ -326,7 +339,7 @@ assertEq
 (
 Atomics
 .
-wake
+notify
 (
 mem
 0

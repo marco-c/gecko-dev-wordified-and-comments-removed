@@ -2221,7 +2221,7 @@ return
 int64_t
 woken
 =
-atomics_wake_impl
+atomics_notify_impl
 (
 instance
 -
