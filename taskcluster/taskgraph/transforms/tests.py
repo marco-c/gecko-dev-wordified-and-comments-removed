@@ -2098,6 +2098,29 @@ basestring
 ]
 )
     
+Optional
+(
+'
+run
+-
+as
+-
+administrator
+'
+)
+:
+optionally_keyed_by
+(
+        
+'
+test
+-
+platform
+'
+        
+bool
+)
+    
 '
 build
 -
@@ -2620,6 +2643,20 @@ groups
 '
 [
 ]
+)
+        
+test
+.
+setdefault
+(
+'
+run
+-
+as
+-
+administrator
+'
+False
 )
         
 test
@@ -4734,6 +4771,14 @@ projects
 os
 -
 groups
+'
+        
+'
+run
+-
+as
+-
+administrator
 '
         
 '
