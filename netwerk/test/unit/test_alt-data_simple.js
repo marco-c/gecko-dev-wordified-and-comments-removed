@@ -849,11 +849,9 @@ originalData
 read_stream
 (
 aInputStream
-aInputStream
+responseContent
 .
-available
-(
-)
+length
 )
 ;
 Assert
