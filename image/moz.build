@@ -353,6 +353,11 @@ ImageMemoryReporter
 .
 h
 '
+'
+RecyclingSourceSurface
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
