@@ -1221,7 +1221,7 @@ ScriptVector
 scripts
 )
 ;
-JSObject
+JSScript
 *
 finishModuleParseTask
 (

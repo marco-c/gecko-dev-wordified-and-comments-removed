@@ -251,6 +251,16 @@ JSObject
 aScope
 )
 ;
+static
+Scriptability
+&
+Get
+(
+JSScript
+*
+aScript
+)
+;
 private
 :
 uint32_t
