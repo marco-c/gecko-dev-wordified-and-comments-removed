@@ -100,11 +100,6 @@ input
 {
 if
 (
-input
-.
-value
-&
-&
 !
 input
 .
