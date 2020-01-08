@@ -3040,9 +3040,6 @@ False
 sparse_profile
 =
 None
-prevent_symbolic_revisions
-=
-True
 )
 :
 #
@@ -3122,8 +3119,6 @@ exit
 1
 )
 if
-prevent_symbolic_revisions
-and
 not
 revision
 :
@@ -4245,9 +4240,6 @@ vcs_checkout_from_args
 (
 args
 project
-prevent_symbolic_revisions
-=
-True
 )
 :
 options
@@ -4346,9 +4338,6 @@ sparse
 profile
 '
 ]
-prevent_symbolic_revisions
-=
-prevent_symbolic_revisions
 )
 def
 main
