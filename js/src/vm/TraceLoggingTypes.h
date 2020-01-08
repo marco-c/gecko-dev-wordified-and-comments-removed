@@ -406,7 +406,7 @@ TRACELOGGER_TREE_ITEMS
 (
 DEFINE_TEXT_ID
 )
-TraceLogger_LastTreeItem
+TraceLogger_TreeItemEnd
 TRACELOGGER_LOG_ITEMS
 (
 DEFINE_TEXT_ID
@@ -539,7 +539,7 @@ if
 id
 =
 =
-TraceLogger_LastTreeItem
+TraceLogger_TreeItemEnd
 )
 return
 false
@@ -597,7 +597,7 @@ TraceLogger_Error
 &
 id
 <
-TraceLogger_LastTreeItem
+TraceLogger_TreeItemEnd
 )
 |
 |

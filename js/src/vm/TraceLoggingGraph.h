@@ -607,6 +607,8 @@ init
 (
 uint64_t
 timestamp
+bool
+graphFileEnabled
 )
 ;
 void
