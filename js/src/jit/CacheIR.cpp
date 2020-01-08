@@ -13385,13 +13385,13 @@ script
 jsbytecode
 *
 pc
-CacheKind
-cacheKind
 ICState
 :
 :
 Mode
 mode
+CacheKind
+cacheKind
 HandleValue
 idVal
 HandleValue
