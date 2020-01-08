@@ -188,11 +188,7 @@ maplike
 <
 unsigned
 long
-(
 CSSOMString
-or
-CSSOMRGBColor
-)
 >
 ;
 attribute
