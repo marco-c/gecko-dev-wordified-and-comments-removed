@@ -1135,6 +1135,15 @@ main
 menubar
 >
 menu
+[
+_moz
+-
+menuactive
+=
+"
+true
+"
+]
 {
 color
 :
