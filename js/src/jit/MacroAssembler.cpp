@@ -646,10 +646,12 @@ i
 ]
 )
 )
+{
 numBranches
 +
 +
 ;
+}
 }
 if
 (
@@ -671,10 +673,12 @@ getObjectCount
 >
 0
 )
+{
 numBranches
 +
 +
 ;
+}
 if
 (
 numBranches
@@ -746,8 +750,10 @@ i
 ]
 )
 )
+{
 continue
 ;
+}
 if
 (
 -
@@ -756,6 +762,7 @@ numBranches
 >
 0
 )
+{
 EmitTypeCheck
 (
 *
@@ -770,7 +777,9 @@ i
 matched
 )
 ;
+}
 else
+{
 EmitTypeCheck
 (
 *
@@ -784,6 +793,7 @@ i
 miss
 )
 ;
+}
 }
 if
 (
@@ -1345,6 +1355,7 @@ JitOptions
 .
 spectreObjectMitigationsBarriers
 )
+{
 move32
 (
 Imm32
@@ -1354,6 +1365,7 @@ Imm32
 scratch
 )
 ;
+}
 if
 (
 hasSingletons
@@ -1390,8 +1402,10 @@ if
 !
 singleton
 )
+{
 continue
 ;
+}
 if
 (
 JitOptions
@@ -1475,6 +1489,7 @@ numBranches
 >
 0
 )
+{
 branchPtr
 (
 Equal
@@ -1487,7 +1502,9 @@ singleton
 matched
 )
 ;
+}
 else
+{
 branchPtr
 (
 NotEqual
@@ -1499,6 +1516,7 @@ singleton
 miss
 )
 ;
+}
 }
 }
 }
@@ -1535,12 +1553,14 @@ JitOptions
 .
 spectreObjectMitigationsBarriers
 )
+{
 loadPtr
 (
 groupAddr
 scratch
 )
 ;
+}
 for
 (
 unsigned
@@ -1572,8 +1592,10 @@ if
 !
 group
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -1675,6 +1697,7 @@ numBranches
 >
 0
 )
+{
 branchPtr
 (
 Equal
@@ -1687,7 +1710,9 @@ group
 matched
 )
 ;
+}
 else
+{
 branchPtr
 (
 NotEqual
@@ -1699,6 +1724,7 @@ group
 miss
 )
 ;
+}
 }
 }
 }
@@ -2181,6 +2207,7 @@ if
 (
 canonicalizeDoubles
 )
+{
 canonicalizeDouble
 (
 dest
@@ -2190,6 +2217,7 @@ fpu
 )
 )
 ;
+}
 break
 ;
 default
@@ -2780,6 +2808,7 @@ hasValue
 (
 )
 )
+{
 tagValue
 (
 type
@@ -2791,6 +2820,7 @@ valueReg
 )
 )
 ;
+}
 break
 ;
 }
@@ -2956,6 +2986,7 @@ hasValue
 (
 )
 )
+{
 loadValue
 (
 address
@@ -2966,7 +2997,9 @@ valueReg
 )
 )
 ;
+}
 else
+{
 loadDouble
 (
 address
@@ -2981,6 +3014,7 @@ fpu
 )
 )
 ;
+}
 break
 ;
 default
@@ -3037,6 +3071,7 @@ if
 (
 failure
 )
+{
 masm
 .
 jump
@@ -3044,7 +3079,9 @@ jump
 failure
 )
 ;
+}
 else
+{
 masm
 .
 assumeUnreachable
@@ -3058,6 +3095,7 @@ property
 "
 )
 ;
+}
 }
 template
 <
@@ -3112,6 +3150,7 @@ isBoolean
 (
 )
 )
+{
 store8
 (
 Imm32
@@ -3129,7 +3168,9 @@ toBoolean
 address
 )
 ;
+}
 else
+{
 StoreUnboxedFailure
 (
 *
@@ -3137,6 +3178,7 @@ this
 failure
 )
 ;
+}
 }
 else
 if
@@ -3170,6 +3212,7 @@ MIRType
 :
 Boolean
 )
+{
 store8
 (
 value
@@ -3188,7 +3231,9 @@ gpr
 address
 )
 ;
+}
 else
+{
 StoreUnboxedFailure
 (
 *
@@ -3197,12 +3242,14 @@ failure
 )
 ;
 }
+}
 else
 {
 if
 (
 failure
 )
+{
 branchTestBoolean
 (
 Assembler
@@ -3221,6 +3268,7 @@ valueReg
 failure
 )
 ;
+}
 storeUnboxedPayload
 (
 value
@@ -3264,6 +3312,7 @@ isInt32
 (
 )
 )
+{
 store32
 (
 Imm32
@@ -3281,7 +3330,9 @@ toInt32
 address
 )
 ;
+}
 else
+{
 StoreUnboxedFailure
 (
 *
@@ -3289,6 +3340,7 @@ this
 failure
 )
 ;
+}
 }
 else
 if
@@ -3322,6 +3374,7 @@ MIRType
 :
 Int32
 )
+{
 store32
 (
 value
@@ -3340,7 +3393,9 @@ gpr
 address
 )
 ;
+}
 else
+{
 StoreUnboxedFailure
 (
 *
@@ -3349,12 +3404,14 @@ failure
 )
 ;
 }
+}
 else
 {
 if
 (
 failure
 )
+{
 branchTestInt32
 (
 Assembler
@@ -3373,6 +3430,7 @@ valueReg
 failure
 )
 ;
+}
 storeUnboxedPayload
 (
 value
@@ -3615,6 +3673,7 @@ if
 (
 failure
 )
+{
 branchTestDouble
 (
 Assembler
@@ -3625,6 +3684,7 @@ reg
 failure
 )
 ;
+}
 storeValue
 (
 reg
@@ -3664,6 +3724,7 @@ isObjectOrNull
 (
 )
 )
+{
 storePtr
 (
 ImmGCPtr
@@ -3681,7 +3742,9 @@ toObjectOrNull
 address
 )
 ;
+}
 else
+{
 StoreUnboxedFailure
 (
 *
@@ -3689,6 +3752,7 @@ this
 failure
 )
 ;
+}
 }
 else
 if
@@ -3741,6 +3805,7 @@ MIRType
 :
 Object
 )
+{
 storePtr
 (
 value
@@ -3759,7 +3824,9 @@ gpr
 address
 )
 ;
+}
 else
+{
 StoreUnboxedFailure
 (
 *
@@ -3767,6 +3834,7 @@ this
 failure
 )
 ;
+}
 }
 else
 {
@@ -3868,6 +3936,7 @@ isString
 (
 )
 )
+{
 storePtr
 (
 ImmGCPtr
@@ -3885,7 +3954,9 @@ toString
 address
 )
 ;
+}
 else
+{
 StoreUnboxedFailure
 (
 *
@@ -3893,6 +3964,7 @@ this
 failure
 )
 ;
+}
 }
 else
 if
@@ -3926,6 +3998,7 @@ MIRType
 :
 String
 )
+{
 storePtr
 (
 value
@@ -3944,7 +4017,9 @@ gpr
 address
 )
 ;
+}
 else
+{
 StoreUnboxedFailure
 (
 *
@@ -3953,12 +4028,14 @@ failure
 )
 ;
 }
+}
 else
 {
 if
 (
 failure
 )
+{
 branchTestString
 (
 Assembler
@@ -3977,6 +4054,7 @@ valueReg
 failure
 )
 ;
+}
 storeUnboxedPayload
 (
 value
@@ -4072,11 +4150,13 @@ traceEnabled
 (
 )
 )
+{
 jump
 (
 fail
 )
 ;
+}
 #
 ifdef
 JS_GC_ZEAL
@@ -4130,11 +4210,13 @@ hasAllocationMetadataBuilder
 (
 )
 )
+{
 jump
 (
 fail
 )
 ;
+}
 }
 bool
 MacroAssembler
@@ -4730,11 +4812,13 @@ regZone
 =
 result
 )
+{
 push
 (
 regZone
 )
 ;
+}
 if
 (
 regNBytes
@@ -4742,11 +4826,13 @@ regNBytes
 =
 result
 )
+{
 push
 (
 regNBytes
 )
 ;
+}
 move32
 (
 Imm32
@@ -4802,12 +4888,14 @@ regReturn
 =
 result
 )
+{
 movePtr
 (
 regReturn
 result
 )
 ;
+}
 if
 (
 regNBytes
@@ -4815,11 +4903,13 @@ regNBytes
 =
 result
 )
+{
 pop
 (
 regNBytes
 )
 ;
+}
 if
 (
 regZone
@@ -4827,11 +4917,13 @@ regZone
 =
 result
 )
+{
 pop
 (
 regZone
 )
 ;
+}
 branchTest32
 (
 Assembler
@@ -4976,6 +5068,7 @@ if
 !
 nDynamicSlots
 )
+{
 return
 freeListAllocate
 (
@@ -4985,6 +5078,7 @@ allocKind
 fail
 )
 ;
+}
 callMallocStub
 (
 nDynamicSlots
@@ -5161,6 +5255,7 @@ denseElementsAreCopyOnWrite
 (
 )
 )
+{
 allocKind
 =
 gc
@@ -5171,6 +5266,7 @@ AllocKind
 :
 OBJECT0_BACKGROUND
 ;
+}
 }
 allocateObject
 (
@@ -5908,6 +6004,7 @@ lastIndexSlot
 (
 )
 )
+{
 v
 =
 Int32Value
@@ -5915,7 +6012,9 @@ Int32Value
 0
 )
 ;
+}
 else
+{
 v
 =
 templateObj
@@ -5925,6 +6024,7 @@ getSlot
 i
 )
 ;
+}
 storeValue
 (
 v
@@ -5985,8 +6085,10 @@ start
 =
 end
 )
+{
 return
 ;
+}
 #
 ifdef
 JS_NUNBOX32
@@ -6032,6 +6134,7 @@ sizeof
 GCPtrValue
 )
 )
+{
 store32
 (
 temp
@@ -6041,6 +6144,7 @@ addr
 )
 )
 ;
+}
 addr
 =
 base
@@ -6082,6 +6186,7 @@ sizeof
 GCPtrValue
 )
 )
+{
 store32
 (
 temp
@@ -6091,6 +6196,7 @@ addr
 )
 )
 ;
+}
 #
 else
 moveValue
@@ -6126,12 +6232,14 @@ sizeof
 GCPtrValue
 )
 )
+{
 storePtr
 (
 temp
 base
 )
 ;
+}
 #
 endif
 }
@@ -6263,8 +6371,10 @@ UndefinedValue
 (
 )
 )
+{
 break
 ;
+}
 }
 *
 startOfUndefined
@@ -6320,8 +6430,10 @@ first
 )
 )
 )
+{
 break
 ;
+}
 }
 *
 startOfUninitialized
@@ -6786,6 +6898,7 @@ i
 +
 +
 )
+{
 storePtr
 (
 ImmWord
@@ -6807,6 +6920,7 @@ char
 )
 )
 ;
+}
 #
 ifdef
 DEBUG
@@ -6817,6 +6931,7 @@ nbytes
 =
 0
 )
+{
 store8
 (
 Imm32
@@ -6833,6 +6948,7 @@ dataSlotOffset
 )
 )
 ;
+}
 #
 endif
 }
@@ -6848,6 +6964,7 @@ TypedArrayLength
 :
 Fixed
 )
+{
 move32
 (
 Imm32
@@ -6857,6 +6974,7 @@ length
 lengthReg
 )
 ;
+}
 liveRegs
 .
 addUnchecked
@@ -6977,8 +7095,10 @@ nslots
 =
 0
 )
+{
 return
 ;
+}
 uint32_t
 nfixed
 =
@@ -7301,6 +7421,7 @@ maybeShape
 (
 )
 )
+{
 storePtr
 (
 ImmGCPtr
@@ -7319,6 +7440,7 @@ offsetOfShape
 )
 )
 ;
+}
 if
 (
 templateObj
@@ -7378,6 +7500,7 @@ hasDynamicSlots
 (
 )
 )
+{
 storePtr
 (
 ImmPtr
@@ -7396,6 +7519,7 @@ offsetOfSlots
 )
 )
 ;
+}
 if
 (
 ntemplate
@@ -7904,6 +8028,7 @@ if
 (
 initContents
 )
+{
 initUnboxedObjectContents
 (
 obj
@@ -7914,6 +8039,7 @@ unboxedObjectLayout
 )
 )
 ;
+}
 }
 else
 {
@@ -8682,6 +8808,7 @@ CharEncoding
 :
 Latin1
 )
+{
 expectedBits
 |
 =
@@ -8690,6 +8817,7 @@ JSString
 :
 LATIN1_CHARS_BIT
 ;
+}
 move32
 (
 Imm32
@@ -9381,6 +9509,7 @@ CharEncoding
 :
 Latin1
 )
+{
 loadChar
 (
 BaseIndex
@@ -9394,7 +9523,9 @@ dest
 encoding
 )
 ;
+}
 else
+{
 loadChar
 (
 BaseIndex
@@ -9408,6 +9539,7 @@ dest
 encoding
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -11111,12 +11243,14 @@ framePtr
 =
 dest
 )
+{
 movePtr
 (
 framePtr
 dest
 )
 ;
+}
 subPtr
 (
 Imm32
@@ -11506,6 +11640,7 @@ if
 !
 line
 )
+{
 oomUnsafe
 .
 crash
@@ -11519,6 +11654,7 @@ printf
 "
 )
 ;
+}
 fprintf
 (
 stderr
@@ -11659,8 +11795,10 @@ TraceLogTextIdEnabled
 textId
 )
 )
+{
 return
 ;
+}
 AllocatableRegisterSet
 regs
 (
@@ -11992,8 +12130,10 @@ TraceLogTextIdEnabled
 textId
 )
 )
+{
 return
 ;
+}
 AllocatableRegisterSet
 regs
 (
@@ -12497,10 +12637,12 @@ hasMultiAlias
 (
 )
 )
+{
 tmp
 =
 ScratchDoubleReg
 ;
+}
 unboxDouble
 (
 value
@@ -12517,12 +12659,14 @@ MIRType
 :
 Float32
 )
+{
 convertDoubleToFloat32
 (
 tmp
 output
 )
 ;
+}
 bind
 (
 &
@@ -12579,6 +12723,7 @@ isNumber
 (
 )
 )
+{
 d
 =
 v
@@ -12587,6 +12732,7 @@ toNumber
 (
 )
 ;
+}
 else
 if
 (
@@ -12603,9 +12749,11 @@ toString
 d
 )
 )
+{
 return
 false
 ;
+}
 loadConstantFloatingPoint
 (
 d
@@ -12638,6 +12786,7 @@ toBoolean
 (
 )
 )
+{
 loadConstantFloatingPoint
 (
 1
@@ -12650,7 +12799,9 @@ output
 outputType
 )
 ;
+}
 else
+{
 loadConstantFloatingPoint
 (
 0
@@ -12663,6 +12814,7 @@ output
 outputType
 )
 ;
+}
 return
 true
 ;
@@ -12775,6 +12927,7 @@ constant
 (
 )
 )
+{
 return
 convertValueToFloatingPoint
 (
@@ -12789,6 +12942,7 @@ fail
 outputType
 )
 ;
+}
 convertTypedOrValueToFloatingPoint
 (
 src
@@ -12966,6 +13120,7 @@ fpu
 =
 output
 )
+{
 moveFloat32
 (
 src
@@ -12980,6 +13135,7 @@ fpu
 output
 )
 ;
+}
 }
 break
 ;
@@ -13009,6 +13165,7 @@ fpu
 =
 output
 )
+{
 moveDouble
 (
 src
@@ -13023,6 +13180,7 @@ fpu
 output
 )
 ;
+}
 }
 else
 {
@@ -13369,11 +13527,13 @@ if
 (
 widenFloatToDouble
 )
+{
 Pop
 (
 srcSingle
 )
 ;
+}
 #
 else
 MOZ_CRASH
@@ -13615,6 +13775,7 @@ IntConversionInputKind
 :
 NumbersOrBoolsOnly
 )
+{
 maybeBranchTestType
 (
 MIRType
@@ -13627,6 +13788,7 @@ tag
 isBool
 )
 ;
+}
 maybeBranchTestType
 (
 MIRType
@@ -13707,6 +13869,7 @@ if
 (
 handleStrings
 )
+{
 maybeBranchTestType
 (
 MIRType
@@ -13719,6 +13882,7 @@ tag
 isString
 )
 ;
+}
 maybeBranchTestType
 (
 MIRType
@@ -13761,12 +13925,14 @@ used
 (
 )
 )
+{
 bind
 (
 &
 isNull
 )
 ;
+}
 mov
 (
 ImmWord
@@ -13843,11 +14009,13 @@ if
 (
 handleStrings
 )
+{
 bind
 (
 handleStringRejoin
 )
 ;
+}
 convertDoubleToInt
 (
 temp
@@ -13924,11 +14092,13 @@ IntConversionBehavior
 :
 ClampToUint8
 )
+{
 clampIntToUint8
 (
 output
 )
 ;
+}
 }
 bind
 (
@@ -14013,6 +14183,7 @@ isNumber
 (
 )
 )
+{
 d
 =
 v
@@ -14021,6 +14192,7 @@ toNumber
 (
 )
 ;
+}
 else
 if
 (
@@ -14037,9 +14209,11 @@ toString
 d
 )
 )
+{
 return
 false
 ;
+}
 switch
 (
 behavior
@@ -14073,6 +14247,7 @@ d
 i
 )
 )
+{
 move32
 (
 Imm32
@@ -14082,12 +14257,15 @@ i
 output
 )
 ;
+}
 else
+{
 jump
 (
 fail
 )
 ;
+}
 break
 ;
 }
@@ -14252,6 +14430,7 @@ constant
 (
 )
 )
+{
 return
 convertValueToInt
 (
@@ -14266,6 +14445,7 @@ fail
 behavior
 )
 ;
+}
 convertTypedOrValueToInt
 (
 src
@@ -14386,6 +14566,7 @@ gpr
 =
 output
 )
+{
 move32
 (
 src
@@ -14400,6 +14581,7 @@ gpr
 output
 )
 ;
+}
 if
 (
 src
@@ -14423,11 +14605,13 @@ IntConversionBehavior
 :
 ClampToUint8
 )
+{
 clampIntToUint8
 (
 output
 )
 ;
+}
 break
 ;
 case
@@ -14589,10 +14773,12 @@ bytesNeeded
 >
 MaxCodeBytesPerProcess
 )
+{
 setOOM
 (
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -14642,8 +14828,10 @@ masm
 .
 emitProfilingInstrumentation_
 )
+{
 return
 ;
+}
 Register
 reg
 =
@@ -14835,8 +15023,10 @@ JitStackValueAlignment
 =
 1
 )
+{
 return
 ;
+}
 static_assert
 (
 sizeof
@@ -15013,8 +15203,10 @@ JitStackValueAlignment
 =
 1
 )
+{
 return
 ;
+}
 static_assert
 (
 sizeof
@@ -15843,6 +16035,7 @@ constant
 (
 )
 )
+{
 Push
 (
 v
@@ -15852,7 +16045,9 @@ value
 )
 )
 ;
+}
 else
+{
 Push
 (
 v
@@ -15862,6 +16057,7 @@ reg
 )
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -16194,11 +16390,13 @@ amount
 >
 0
 )
+{
 freeStack
 (
 amount
 )
 ;
+}
 else
 if
 (
@@ -16206,12 +16404,14 @@ amount
 <
 0
 )
+{
 reserveStack
 (
 -
 amount
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -16235,6 +16435,7 @@ if
 (
 amount
 )
+{
 addToStackPtr
 (
 Imm32
@@ -16243,6 +16444,7 @@ amount
 )
 )
 ;
+}
 framePushed_
 -
 =
@@ -16583,16 +16785,20 @@ from
 =
 to
 )
+{
 return
 ;
+}
 if
 (
 oom
 (
 )
 )
+{
 return
 ;
+}
 propagateOOM
 (
 moveResolver_
@@ -17219,6 +17425,7 @@ JitOptions
 .
 spectreObjectMitigationsMisc
 )
+{
 spectreZeroRegister
 (
 cond
@@ -17226,6 +17433,7 @@ scratch
 spectreRegToZero
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -18057,8 +18265,10 @@ if
 !
 amount
 )
+{
 return
 ;
+}
 if
 (
 amount
@@ -19803,6 +20013,7 @@ JitOptions
 .
 spectreIndexMasking
 )
+{
 and32
 (
 Imm32
@@ -19814,6 +20025,7 @@ length
 index
 )
 ;
+}
 }
 void
 MacroAssembler
@@ -20230,9 +20442,11 @@ i
 =
 value
 )
+{
 return
 true
 ;
+}
 }
 return
 list
@@ -20275,9 +20489,11 @@ if
 !
 object
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -20287,10 +20503,12 @@ pendingObjectReadBarriers_
 object
 )
 )
+{
 setOOM
 (
 )
 ;
+}
 return
 object
 ;
@@ -20327,9 +20545,11 @@ if
 !
 group
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -20339,10 +20559,12 @@ pendingObjectGroupReadBarriers_
 group
 )
 )
+{
 setOOM
 (
 )
 ;
+}
 return
 group
 ;
@@ -20363,6 +20585,7 @@ object
 :
 pendingObjectReadBarriers_
 )
+{
 JSObject
 :
 :
@@ -20371,6 +20594,7 @@ readBarrier
 object
 )
 ;
+}
 for
 (
 ObjectGroup
@@ -20379,6 +20603,7 @@ group
 :
 pendingObjectGroupReadBarriers_
 )
+{
 ObjectGroup
 :
 :
@@ -20387,6 +20612,7 @@ readBarrier
 group
 )
 ;
+}
 }
 namespace
 js
@@ -20498,10 +20724,12 @@ if
 !
 released_
 )
+{
 release
 (
 )
 ;
+}
 }
 template
 AutoGenericRegisterScope

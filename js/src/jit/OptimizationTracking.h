@@ -1935,6 +1935,7 @@ numEntries
 -
 1
 )
+{
 end
 -
 =
@@ -1945,6 +1946,7 @@ index
 1
 )
 ;
+}
 return
 Entry
 (
