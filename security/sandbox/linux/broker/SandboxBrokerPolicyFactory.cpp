@@ -747,6 +747,17 @@ line
 more
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+break
+;
+}
 int32_t
 hash
 =
