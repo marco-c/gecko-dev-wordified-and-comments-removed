@@ -29,6 +29,9 @@ muted
 pending
 "
 "
+iconloadingprincipal
+"
+"
 skipbackgroundnotify
 "
 ]
