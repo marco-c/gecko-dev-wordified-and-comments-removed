@@ -869,7 +869,12 @@ false
 )
 next_time_to_send_rtcp_
 (
-0
+clock
+-
+>
+TimeInMilliseconds
+(
+)
 )
 timestamp_offset_
 (
