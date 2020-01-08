@@ -418,6 +418,12 @@ host
 )
 s
 "
+      
+"
+Locked
+"
+:
+true
     
 }
   
@@ -452,6 +458,12 @@ Mode
 "
 none
 "
+      
+"
+Locked
+"
+:
+false
     
 }
   
