@@ -206,6 +206,11 @@ ContextMenuChild
 jsm
 '
 '
+DOMFullscreenChild
+.
+jsm
+'
+'
 LightWeightThemeInstallChild
 .
 jsm
