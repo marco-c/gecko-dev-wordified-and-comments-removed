@@ -3769,7 +3769,13 @@ continue
 AutoEntryScript
 aes
 (
+js
+:
+:
+UncheckedUnwrap
+(
 object
+)
 "
 message
 manager
@@ -3785,6 +3791,13 @@ aes
 .
 cx
 (
+)
+;
+JSAutoRealm
+ar
+(
+cx
+object
 )
 ;
 RootedDictionary
