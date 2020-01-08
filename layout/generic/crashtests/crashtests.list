@@ -3705,17 +3705,6 @@ gtkWidget
 OSX
 )
 )
-pref
-(
-dom
-.
-webcomponents
-.
-customelements
-.
-enabled
-true
-)
 load
 1059138
 -
