@@ -1348,15 +1348,10 @@ rv
 ;
 mDisplayDirectory
 =
-do_QueryInterface
-(
 directory
-&
-rv
-)
 ;
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP

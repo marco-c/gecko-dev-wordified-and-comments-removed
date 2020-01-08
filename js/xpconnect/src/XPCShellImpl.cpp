@@ -6414,12 +6414,7 @@ rv
 {
 appDir
 =
-do_QueryInterface
-(
 dir
-&
-rv
-)
 ;
 dirprovider
 .

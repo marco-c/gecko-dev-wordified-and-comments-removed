@@ -2439,16 +2439,11 @@ nsIDocShellTreeItem
 >
 fwTreeItem
 (
-do_QueryInterface
-(
 fwPI
 -
 >
 GetDocShell
 (
-)
-&
-rv
 )
 )
 ;
