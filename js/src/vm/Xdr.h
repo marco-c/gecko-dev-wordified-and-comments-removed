@@ -2616,6 +2616,9 @@ slices_
 bool
 oom_
 ;
+class
+DepthFirstSliceIterator
+;
 public
 :
 explicit
