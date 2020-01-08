@@ -1260,7 +1260,7 @@ autoJS
 ;
 Maybe
 <
-JSAutoRealmAllowCCW
+JSAutoRealm
 >
 ar
 ;
