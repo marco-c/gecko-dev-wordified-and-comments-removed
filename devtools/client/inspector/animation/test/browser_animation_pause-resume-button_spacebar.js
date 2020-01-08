@@ -124,7 +124,6 @@ panel
 assertAnimationsRunning
 (
 animationInspector
-panel
 )
 ;
 await
@@ -154,7 +153,6 @@ panel
 assertAnimationsPausing
 (
 animationInspector
-panel
 )
 ;
 }
@@ -178,7 +176,6 @@ element
 assertAnimationsPausing
 (
 animationInspector
-element
 )
 ;
 await
@@ -191,7 +188,6 @@ element
 assertAnimationsRunning
 (
 animationInspector
-element
 )
 ;
 }

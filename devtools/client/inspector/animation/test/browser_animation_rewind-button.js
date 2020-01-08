@@ -118,7 +118,6 @@ animationInspector
 assertAnimationsPausing
 (
 animationInspector
-panel
 )
 ;
 info
@@ -161,7 +160,6 @@ animationInspector
 assertAnimationsPausing
 (
 animationInspector
-panel
 )
 ;
 }

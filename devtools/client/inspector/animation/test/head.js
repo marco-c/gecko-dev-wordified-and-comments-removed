@@ -2506,13 +2506,11 @@ function
 assertAnimationsPausing
 (
 animationInspector
-panel
 )
 {
 assertAnimationsPausingOrRunning
 (
 animationInspector
-panel
 true
 )
 ;
@@ -2521,7 +2519,6 @@ function
 assertAnimationsPausingOrRunning
 (
 animationInspector
-panel
 shouldPause
 )
 {
@@ -2596,13 +2593,11 @@ function
 assertAnimationsRunning
 (
 animationInspector
-panel
 )
 {
 assertAnimationsPausingOrRunning
 (
 animationInspector
-panel
 false
 )
 ;
