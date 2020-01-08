@@ -743,9 +743,11 @@ if
 (
 p
 )
+{
 return
 0
 ;
+}
 bool
 ok
 =
@@ -3467,6 +3469,7 @@ vt
 :
 args_
 )
+{
 hn
 =
 mozilla
@@ -3485,6 +3488,7 @@ code
 )
 )
 ;
+}
 return
 hn
 ;
@@ -3568,9 +3572,11 @@ ExprType
 :
 I64
 )
+{
 return
 true
 ;
+}
 for
 (
 ValType
@@ -3591,9 +3597,11 @@ ValType
 :
 I64
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -3615,9 +3623,11 @@ isRefOrAnyRef
 (
 )
 )
+{
 return
 true
 ;
+}
 for
 (
 ValType
@@ -3636,9 +3646,11 @@ isRefOrAnyRef
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -3673,9 +3685,11 @@ isRef
 (
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 ret
@@ -4703,6 +4717,7 @@ isConstant
 (
 )
 )
+{
 u
 .
 var
@@ -4711,6 +4726,7 @@ isExport_
 =
 true
 ;
+}
 }
 GlobalKind
 kind
@@ -6557,11 +6573,13 @@ hasReturn
 (
 )
 )
+{
 ret_
 +
 =
 offset
 ;
+}
 }
 uint32_t
 begin

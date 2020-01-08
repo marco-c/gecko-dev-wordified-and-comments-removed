@@ -237,10 +237,12 @@ done
 (
 )
 )
+{
 iter
 +
 +
 ;
+}
 return
 iter
 .
@@ -350,6 +352,7 @@ MIRType
 :
 Int32
 )
+{
 masm
 .
 load32
@@ -363,6 +366,7 @@ gpr
 )
 )
 ;
+}
 else
 if
 (
@@ -374,6 +378,7 @@ MIRType
 :
 Int64
 )
+{
 masm
 .
 load64
@@ -387,6 +392,7 @@ gpr64
 )
 )
 ;
+}
 else
 if
 (
@@ -398,6 +404,7 @@ MIRType
 :
 Pointer
 )
+{
 masm
 .
 loadPtr
@@ -411,7 +418,9 @@ gpr
 )
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -421,6 +430,7 @@ type
 "
 )
 ;
+}
 break
 ;
 #
@@ -442,6 +452,7 @@ MIRType
 :
 Int64
 )
+{
 masm
 .
 load64
@@ -455,7 +466,9 @@ gpr64
 )
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -469,6 +482,7 @@ calls
 "
 )
 ;
+}
 break
 ;
 #
@@ -1576,6 +1590,7 @@ if
 (
 funcPtr
 )
+{
 masm
 .
 call
@@ -1584,7 +1599,9 @@ call
 funcPtr
 )
 ;
+}
 else
+{
 masm
 .
 call
@@ -1603,6 +1620,7 @@ funcIndex
 )
 )
 ;
+}
 }
 static
 bool
@@ -1790,6 +1808,7 @@ ABIArg
 :
 GPR
 )
+{
 masm
 .
 movePtr
@@ -1802,7 +1821,9 @@ gpr
 argv
 )
 ;
+}
 else
+{
 masm
 .
 loadPtr
@@ -1825,6 +1846,7 @@ offsetFromArgBase
 argv
 )
 ;
+}
 arg
 =
 abi
@@ -1851,6 +1873,7 @@ ABIArg
 :
 GPR
 )
+{
 masm
 .
 movePtr
@@ -1863,7 +1886,9 @@ gpr
 WasmTlsReg
 )
 ;
+}
 else
+{
 masm
 .
 loadPtr
@@ -1886,6 +1911,7 @@ offsetFromArgBase
 WasmTlsReg
 )
 ;
+}
 #
 ifdef
 ENABLE_WASM_GC
@@ -1905,6 +1931,7 @@ HasGcTypes
 :
 True
 )
+{
 SuppressGC
 (
 masm
@@ -1912,6 +1939,7 @@ masm
 scratch
 )
 ;
+}
 #
 endif
 WasmPush
@@ -2143,6 +2171,7 @@ HasGcTypes
 :
 True
 )
+{
 SuppressGC
 (
 masm
@@ -2151,6 +2180,7 @@ masm
 WasmTlsReg
 )
 ;
+}
 #
 endif
 StoreABIReturn
@@ -2377,6 +2407,7 @@ if
 (
 isAbsolute
 )
+{
 masm
 .
 call
@@ -2396,7 +2427,9 @@ NoCheckToken
 )
 )
 ;
+}
 else
+{
 masm
 .
 call
@@ -2404,6 +2437,7 @@ call
 sym
 )
 ;
+}
 }
 static
 void
@@ -3545,6 +3579,7 @@ if
 (
 isStackArg
 )
+{
 masm
 .
 storePtr
@@ -3562,6 +3597,7 @@ offsetFromArgBase
 )
 )
 ;
+}
 break
 ;
 }
@@ -3606,6 +3642,7 @@ if
 (
 isStackArg
 )
+{
 masm
 .
 storeFloat32
@@ -3623,6 +3660,7 @@ offsetFromArgBase
 )
 )
 ;
+}
 break
 ;
 }
@@ -3659,6 +3697,7 @@ if
 (
 isStackArg
 )
+{
 masm
 .
 storeDouble
@@ -3676,6 +3715,7 @@ offsetFromArgBase
 )
 )
 ;
+}
 break
 ;
 }
@@ -4119,6 +4159,7 @@ ABIArg
 :
 GPR
 )
+{
 masm
 .
 movePtr
@@ -4135,7 +4176,9 @@ gpr
 )
 )
 ;
+}
 else
+{
 masm
 .
 storePtr
@@ -4156,6 +4199,7 @@ offsetFromArgBase
 )
 )
 ;
+}
 argsIter
 +
 +
@@ -4175,6 +4219,7 @@ ABIArg
 :
 GPR
 )
+{
 masm
 .
 movePtr
@@ -4188,7 +4233,9 @@ gpr
 )
 )
 ;
+}
 else
+{
 masm
 .
 storePtr
@@ -4206,6 +4253,7 @@ offsetFromArgBase
 )
 )
 ;
+}
 argsIter
 +
 +
@@ -4565,6 +4613,7 @@ if
 (
 bytesNeeded
 )
+{
 masm
 .
 reserveStack
@@ -4572,6 +4621,7 @@ reserveStack
 bytesNeeded
 )
 ;
+}
 for
 (
 ABIArgValTypeIter
@@ -4665,8 +4715,10 @@ ABIArg
 :
 Stack
 )
+{
 continue
 ;
+}
 Address
 dst
 (
@@ -5054,6 +5106,7 @@ if
 (
 wasmGcEnabled
 )
+{
 SuppressGC
 (
 masm
@@ -5061,6 +5114,7 @@ masm
 ABINonArgReg0
 )
 ;
+}
 #
 endif
 const
@@ -5159,6 +5213,7 @@ if
 (
 wasmGcEnabled
 )
+{
 SuppressGC
 (
 masm
@@ -5167,6 +5222,7 @@ masm
 WasmTlsReg
 )
 ;
+}
 #
 endif
 masm
@@ -5354,6 +5410,7 @@ if
 (
 profilingEnabled
 )
+{
 masm
 .
 Pop
@@ -5361,6 +5418,7 @@ Pop
 FramePointer
 )
 ;
+}
 MOZ_ASSERT
 (
 framePushedAtStart
@@ -5704,6 +5762,7 @@ if
 (
 toValue
 )
+{
 masm
 .
 storeValue
@@ -5718,7 +5777,9 @@ gpr
 dst
 )
 ;
+}
 else
+{
 masm
 .
 store32
@@ -5732,6 +5793,7 @@ gpr
 dst
 )
 ;
+}
 }
 else
 if
@@ -5749,13 +5811,16 @@ if
 (
 toValue
 )
+{
 masm
 .
 breakpoint
 (
 )
 ;
+}
 else
+{
 masm
 .
 store64
@@ -5769,6 +5834,7 @@ gpr64
 dst
 )
 ;
+}
 }
 else
 if
@@ -5786,6 +5852,7 @@ if
 (
 toValue
 )
+{
 MOZ_CRASH
 (
 "
@@ -5799,6 +5866,7 @@ NYI
 "
 )
 ;
+}
 masm
 .
 storePtr
@@ -5834,6 +5902,7 @@ MIRType
 :
 Int64
 )
+{
 masm
 .
 store64
@@ -5847,7 +5916,9 @@ gpr64
 dst
 )
 ;
+}
 else
+{
 MOZ_CRASH
 (
 "
@@ -5861,6 +5932,7 @@ calls
 "
 )
 ;
+}
 break
 ;
 #
@@ -6368,8 +6440,10 @@ ABIArg
 :
 Stack
 )
+{
 continue
 ;
+}
 Address
 src
 (
@@ -6585,9 +6659,11 @@ id
 offsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -6603,9 +6679,11 @@ funcIndex
 offsets
 )
 )
+{
 return
 false
 ;
+}
 }
 masm
 .
@@ -6621,9 +6699,11 @@ oom
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 code
 -
@@ -6921,6 +7001,7 @@ ABIArg
 :
 GPR
 )
+{
 masm
 .
 mov
@@ -6937,7 +7018,9 @@ gpr
 )
 )
 ;
+}
 else
+{
 masm
 .
 store32
@@ -6962,6 +7045,7 @@ offsetFromArgBase
 )
 )
 ;
+}
 i
 +
 +
@@ -6998,6 +7082,7 @@ ABIArg
 :
 GPR
 )
+{
 masm
 .
 mov
@@ -7014,7 +7099,9 @@ gpr
 )
 )
 ;
+}
 else
+{
 masm
 .
 store32
@@ -7039,6 +7126,7 @@ offsetFromArgBase
 )
 )
 ;
+}
 i
 +
 +
@@ -8711,6 +8799,7 @@ ExprType
 :
 F32
 )
+{
 masm
 .
 convertDoubleToFloat32
@@ -8719,6 +8808,7 @@ ReturnDoubleReg
 ReturnFloat32Reg
 )
 ;
+}
 break
 ;
 default
@@ -8873,6 +8963,7 @@ i
 -
 -
 )
+{
 abi
 =
 abi
@@ -8880,6 +8971,7 @@ abi
 >
 ArgType_Shift
 ;
+}
 return
 ToMIRType
 (
@@ -9321,6 +9413,7 @@ IsFloatingPointType
 retType
 )
 )
+{
 masm
 .
 ma_vxfer
@@ -9330,6 +9423,7 @@ r1
 d0
 )
 ;
+}
 #
 endif
 GenerateExitEpilogue
@@ -9773,6 +9867,7 @@ if
 (
 ShadowStackSpace
 )
+{
 masm
 .
 subFromStackPtr
@@ -9783,6 +9878,7 @@ ShadowStackSpace
 )
 )
 ;
+}
 masm
 .
 assertStackAlignment
@@ -9940,6 +10036,7 @@ if
 (
 ShadowStackSpace
 )
+{
 masm
 .
 subFromStackPtr
@@ -9950,6 +10047,7 @@ ShadowStackSpace
 )
 )
 ;
+}
 masm
 .
 call
@@ -10194,6 +10292,7 @@ if
 (
 ShadowStackSpace
 )
+{
 masm
 .
 subFromStackPtr
@@ -10204,6 +10303,7 @@ ShadowStackSpace
 )
 )
 ;
+}
 masm
 .
 assertStackAlignment
@@ -10233,6 +10333,7 @@ if
 (
 ShadowStackSpace
 )
+{
 masm
 .
 addToStackPtr
@@ -10243,6 +10344,7 @@ ShadowStackSpace
 )
 )
 ;
+}
 #
 ifndef
 JS_CODEGEN_ARM64
@@ -10368,9 +10470,11 @@ gcTypesConfigured
 offsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -10391,9 +10495,11 @@ funcIndex
 offsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 isAsmJS
@@ -10409,9 +10515,11 @@ temporarilyUnsupportedAnyRef
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -10426,9 +10534,11 @@ gcTypesConfigured
 offsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -10449,9 +10559,11 @@ funcIndex
 offsets
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -10509,9 +10621,11 @@ swap
 masm
 )
 )
+{
 return
 false
 ;
+}
 Label
 throwLabel
 ;
@@ -10574,9 +10688,11 @@ throwLabel
 interpOffsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -10595,9 +10711,11 @@ funcIndex
 interpOffsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 fi
@@ -10610,8 +10728,10 @@ temporarilyUnsupportedAnyRef
 (
 )
 )
+{
 continue
 ;
+}
 JitExitOffsets
 jitOffsets
 ;
@@ -10628,9 +10748,11 @@ throwLabel
 jitOffsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -10645,9 +10767,11 @@ funcIndex
 jitOffsets
 )
 )
+{
 return
 false
 ;
+}
 }
 JitSpew
 (
@@ -10706,8 +10830,10 @@ hasEagerStubs
 (
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -10765,9 +10891,11 @@ throwLabel
 offsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -10785,9 +10913,11 @@ TrapExit
 offsets
 )
 )
+{
 return
 false
 ;
+}
 CallableOffsets
 callableOffsets
 ;
@@ -10803,9 +10933,11 @@ throwLabel
 callableOffsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -10823,9 +10955,11 @@ DebugTrap
 callableOffsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -10838,9 +10972,11 @@ throwLabel
 offsets
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -10858,9 +10994,11 @@ Throw
 offsets
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 finish
@@ -10875,9 +11013,11 @@ oom
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 code
 -

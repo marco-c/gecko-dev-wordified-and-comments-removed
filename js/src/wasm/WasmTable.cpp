@@ -166,6 +166,7 @@ desc
 .
 external
 )
+{
 array
 .
 reset
@@ -190,7 +191,9 @@ initial
 )
 )
 ;
+}
 else
+{
 array
 .
 reset
@@ -216,14 +219,17 @@ initial
 )
 )
 ;
+}
 if
 (
 !
 array
 )
+{
 return
 nullptr
 ;
+}
 return
 SharedTable
 (
@@ -329,6 +335,7 @@ i
 .
 tls
 )
+{
 array
 [
 i
@@ -345,7 +352,9 @@ trace
 trc
 )
 ;
+}
 else
+{
 MOZ_ASSERT
 (
 !
@@ -357,6 +366,7 @@ i
 code
 )
 ;
+}
 }
 }
 }
@@ -375,6 +385,7 @@ if
 (
 maybeObject_
 )
+{
 TraceEdge
 (
 trc
@@ -387,12 +398,15 @@ object
 "
 )
 ;
+}
 else
+{
 tracePrivate
 (
 trc
 )
 ;
+}
 }
 void
 *
@@ -490,6 +504,7 @@ elem
 .
 tls
 )
+{
 JSObject
 :
 :
@@ -508,6 +523,7 @@ objectUnbarriered
 )
 )
 ;
+}
 elem
 .
 code
@@ -596,6 +612,7 @@ elem
 .
 tls
 )
+{
 JSObject
 :
 :
@@ -614,6 +631,7 @@ objectUnbarriered
 )
 )
 ;
+}
 elem
 .
 code
@@ -799,9 +817,11 @@ if
 !
 delta
 )
+{
 return
 length_
 ;
+}
 uint32_t
 oldLength
 =
@@ -829,10 +849,12 @@ isValid
 (
 )
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 maximum_
@@ -850,10 +872,12 @@ value
 (
 )
 )
+{
 return
 -
 1
 ;
+}
 MOZ_ASSERT
 (
 movingGrowable
@@ -897,10 +921,12 @@ if
 !
 newArray
 )
+{
 return
 -
 1
 ;
+}
 Unused
 <
 <
@@ -964,6 +990,7 @@ popFront
 (
 )
 )
+{
 r
 .
 front
@@ -979,6 +1006,7 @@ onMovingGrowTable
 (
 )
 ;
+}
 return
 oldLength
 ;

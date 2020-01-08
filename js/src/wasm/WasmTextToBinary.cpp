@@ -1998,10 +1998,12 @@ cur
 '
 )
 )
+{
 cur
 +
 +
 ;
+}
 MOZ_ASSERT
 (
 cur
@@ -2063,10 +2065,12 @@ cur
 digit
 )
 )
+{
 cur
 +
 +
 ;
+}
 if
 (
 cur
@@ -2083,10 +2087,12 @@ cur
 .
 '
 )
+{
 cur
 +
 +
 ;
+}
 while
 (
 cur
@@ -2103,10 +2109,12 @@ cur
 digit
 )
 )
+{
 cur
 +
 +
 ;
+}
 if
 (
 cur
@@ -2155,10 +2163,12 @@ cur
 '
 )
 )
+{
 cur
 +
 +
 ;
+}
 while
 (
 cur
@@ -2173,10 +2183,12 @@ IsWasmDigit
 cur
 )
 )
+{
 cur
 +
 +
 ;
+}
 }
 *
 curp
@@ -2248,10 +2260,12 @@ cur
 '
 )
 )
+{
 cur
 +
 +
 ;
+}
 while
 (
 cur
@@ -2266,10 +2280,12 @@ IsWasmDigit
 cur
 )
 )
+{
 cur
 +
 +
 ;
+}
 if
 (
 cur
@@ -2286,10 +2302,12 @@ cur
 .
 '
 )
+{
 cur
 +
 +
 ;
+}
 while
 (
 cur
@@ -2304,10 +2322,12 @@ IsWasmDigit
 cur
 )
 )
+{
 cur
 +
 +
 ;
+}
 if
 (
 cur
@@ -2356,10 +2376,12 @@ cur
 '
 )
 )
+{
 cur
 +
 +
 ;
+}
 while
 (
 cur
@@ -2374,10 +2396,12 @@ IsWasmDigit
 cur
 )
 )
+{
 cur
 +
 +
 ;
+}
 }
 *
 curp
@@ -2449,12 +2473,14 @@ if
 (
 byte
 )
+{
 *
 byte
 =
 *
 cur
 ;
+}
 cur
 +
 +
@@ -2472,9 +2498,11 @@ cur
 =
 end
 )
+{
 return
 false
 ;
+}
 uint8_t
 u8
 ;
@@ -2574,9 +2602,11 @@ cur
 highNibble
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 +
@@ -2586,9 +2616,11 @@ cur
 =
 end
 )
+{
 return
 false
 ;
+}
 uint8_t
 lowNibble
 ;
@@ -2603,9 +2635,11 @@ cur
 lowNibble
 )
 )
+{
 return
 false
 ;
+}
 u8
 =
 lowNibble
@@ -2625,11 +2659,13 @@ if
 (
 byte
 )
+{
 *
 byte
 =
 u8
 ;
+}
 cur
 +
 +
@@ -2726,9 +2762,11 @@ p
 *
 match
 )
+{
 return
 false
 ;
+}
 }
 cur_
 =
@@ -3104,9 +3142,11 @@ kind
 token
 )
 )
+{
 return
 true
 ;
+}
 return
 false
 ;
@@ -3131,6 +3171,7 @@ Name
 token
 )
 )
+{
 return
 token
 .
@@ -3138,6 +3179,7 @@ name
 (
 )
 ;
+}
 return
 AstName
 (
@@ -3186,6 +3228,7 @@ WasmToken
 :
 Index
 )
+{
 return
 matchRef
 (
@@ -3193,6 +3236,7 @@ ref
 nullptr
 )
 ;
+}
 return
 false
 ;
@@ -3272,9 +3316,11 @@ kind
 =
 expect
 )
+{
 return
 true
 ;
+}
 generateError
 (
 *
@@ -3447,12 +3493,14 @@ u
 "
 )
 )
+{
 return
 fail
 (
 begin
 )
 ;
+}
 uint8_t
 digit
 ;
@@ -3472,10 +3520,12 @@ cur_
 digit
 )
 )
+{
 cur_
 +
 +
 ;
+}
 }
 return
 WasmToken
@@ -3527,12 +3577,14 @@ cur_
 =
 end_
 )
+{
 return
 fail
 (
 begin
 )
 ;
+}
 do
 {
 if
@@ -3554,6 +3606,7 @@ cur_
 p
 '
 )
+{
 return
 LexHexFloatLiteral
 (
@@ -3563,6 +3616,7 @@ end_
 cur_
 )
 ;
+}
 uint8_t
 digit
 ;
@@ -3577,8 +3631,10 @@ cur_
 digit
 )
 )
+{
 break
 ;
+}
 u
 *
 =
@@ -3598,6 +3654,7 @@ isValid
 (
 )
 )
+{
 return
 LexHexFloatLiteral
 (
@@ -3607,6 +3664,7 @@ end_
 cur_
 )
 ;
+}
 cur_
 +
 +
@@ -3647,6 +3705,7 @@ value
 =
 0
 )
+{
 return
 WasmToken
 (
@@ -3658,6 +3717,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 value
@@ -3667,6 +3727,7 @@ uint64_t
 INT64_MIN
 )
 )
+{
 return
 LexHexFloatLiteral
 (
@@ -3676,6 +3737,7 @@ end_
 cur_
 )
 ;
+}
 value
 =
 -
@@ -3723,6 +3785,7 @@ cur_
 e
 '
 )
+{
 return
 LexDecFloatLiteral
 (
@@ -3732,6 +3795,7 @@ end_
 cur_
 )
 ;
+}
 if
 (
 !
@@ -3741,8 +3805,10 @@ IsWasmDigit
 cur_
 )
 )
+{
 break
 ;
+}
 u
 *
 =
@@ -3767,6 +3833,7 @@ isValid
 (
 )
 )
+{
 return
 LexDecFloatLiteral
 (
@@ -3776,6 +3843,7 @@ end_
 cur_
 )
 ;
+}
 cur_
 +
 +
@@ -3808,6 +3876,7 @@ value
 =
 0
 )
+{
 return
 WasmToken
 (
@@ -3819,6 +3888,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 value
@@ -3828,6 +3898,7 @@ uint64_t
 INT64_MIN
 )
 )
+{
 return
 LexDecFloatLiteral
 (
@@ -3837,6 +3908,7 @@ end_
 cur_
 )
 ;
+}
 value
 =
 -
@@ -3875,6 +3947,7 @@ isValid
 (
 )
 )
+{
 return
 WasmToken
 (
@@ -3887,6 +3960,7 @@ begin
 cur_
 )
 ;
+}
 return
 WasmToken
 (
@@ -3957,10 +4031,12 @@ IsWasmNewLine
 cur_
 )
 )
+{
 cur_
 +
 +
 ;
+}
 }
 else
 if
@@ -4057,8 +4133,10 @@ level
 =
 0
 )
+{
 break
 ;
+}
 }
 else
 {
@@ -4141,6 +4219,7 @@ cur_
 =
 end_
 )
+{
 return
 WasmToken
 (
@@ -4152,6 +4231,7 @@ cur_
 cur_
 )
 ;
+}
 const
 char16_t
 *
@@ -4186,12 +4266,14 @@ cur_
 =
 end_
 )
+{
 return
 fail
 (
 begin
 )
 ;
+}
 if
 (
 *
@@ -4202,8 +4284,10 @@ cur_
 "
 '
 )
+{
 break
 ;
+}
 if
 (
 !
@@ -4214,12 +4298,14 @@ cur_
 end_
 )
 )
+{
 return
 fail
 (
 begin
 )
 ;
+}
 }
 cur_
 +
@@ -4258,10 +4344,12 @@ IsNameAfterDollar
 cur_
 )
 )
+{
 cur_
 +
 +
 ;
+}
 return
 WasmToken
 (
@@ -4357,6 +4445,7 @@ infinity
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4368,6 +4457,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4378,12 +4468,14 @@ nan
 "
 )
 )
+{
 return
 nan
 (
 begin
 )
 ;
+}
 if
 (
 !
@@ -4393,8 +4485,10 @@ IsWasmDigit
 cur_
 )
 )
+{
 break
 ;
+}
 MOZ_FALLTHROUGH
 ;
 case
@@ -4468,6 +4562,7 @@ align
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4479,6 +4574,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4489,6 +4585,7 @@ anyfunc
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4500,6 +4597,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4510,6 +4608,7 @@ anyref
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4525,6 +4624,7 @@ begin
 cur_
 )
 ;
+}
 #
 ifdef
 ENABLE_WASM_THREAD_OPS
@@ -4540,6 +4640,7 @@ wake
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4555,6 +4656,7 @@ begin
 cur_
 )
 ;
+}
 #
 endif
 break
@@ -4574,6 +4676,7 @@ block
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4585,6 +4688,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4606,6 +4710,7 @@ _table
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4617,6 +4722,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4627,6 +4733,7 @@ _if
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4638,6 +4745,7 @@ begin
 cur_
 )
 ;
+}
 return
 WasmToken
 (
@@ -4678,6 +4786,7 @@ _indirect
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4689,6 +4798,7 @@ begin
 cur_
 )
 ;
+}
 return
 WasmToken
 (
@@ -4711,6 +4821,7 @@ current_memory
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4722,6 +4833,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -4739,6 +4851,7 @@ data
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4750,6 +4863,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4760,6 +4874,7 @@ drop
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4771,6 +4886,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -4788,6 +4904,7 @@ elem
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4799,6 +4916,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4809,6 +4927,7 @@ else
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4820,6 +4939,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4830,6 +4950,7 @@ end
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4841,6 +4962,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4851,6 +4973,7 @@ export
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4862,6 +4985,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -4879,6 +5003,7 @@ field
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4890,6 +5015,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4900,6 +5026,7 @@ func
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4911,6 +5038,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4933,6 +5061,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4948,6 +5077,7 @@ begin
 cur_
 )
 ;
+}
 switch
 (
 *
@@ -4969,6 +5099,7 @@ abs
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -4984,6 +5115,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -4994,6 +5126,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5009,6 +5142,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5026,6 +5160,7 @@ ceil
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5041,6 +5176,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5051,6 +5187,7 @@ const
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5066,6 +5203,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5192,6 +5330,7 @@ copysign
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5207,6 +5346,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5226,6 +5366,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5241,6 +5382,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5251,6 +5393,7 @@ div
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5266,6 +5409,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5283,6 +5427,7 @@ eq
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5298,6 +5443,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5315,6 +5461,7 @@ floor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5330,6 +5477,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5347,6 +5495,7 @@ ge
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5362,6 +5511,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5372,6 +5522,7 @@ gt
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5387,6 +5538,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5404,6 +5556,7 @@ le
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5419,6 +5572,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5429,6 +5583,7 @@ lt
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5444,6 +5599,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5454,6 +5610,7 @@ load
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5469,6 +5626,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5486,6 +5644,7 @@ max
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5501,6 +5660,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5511,6 +5671,7 @@ min
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5526,6 +5687,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5536,6 +5698,7 @@ mul
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5551,6 +5714,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5568,6 +5732,7 @@ nearest
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5583,6 +5748,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5593,6 +5759,7 @@ neg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5608,6 +5775,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5618,6 +5786,7 @@ ne
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5633,6 +5802,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5652,6 +5822,7 @@ i32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5667,6 +5838,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5684,6 +5856,7 @@ sqrt
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5699,6 +5872,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5709,6 +5883,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5724,6 +5899,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5734,6 +5910,7 @@ store
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5749,6 +5926,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5766,6 +5944,7 @@ trunc
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5781,6 +5960,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -5809,6 +5989,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5824,6 +6005,7 @@ begin
 cur_
 )
 ;
+}
 switch
 (
 *
@@ -5845,6 +6027,7 @@ abs
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5860,6 +6043,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5870,6 +6054,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5885,6 +6070,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -5902,6 +6088,7 @@ ceil
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5917,6 +6104,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -5927,6 +6115,7 @@ const
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -5942,6 +6131,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6068,6 +6258,7 @@ copysign
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6083,6 +6274,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6100,6 +6292,7 @@ div
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6115,6 +6308,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6132,6 +6326,7 @@ eq
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6147,6 +6342,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6164,6 +6360,7 @@ floor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6179,6 +6376,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6196,6 +6394,7 @@ ge
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6211,6 +6410,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6221,6 +6421,7 @@ gt
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6236,6 +6437,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6253,6 +6455,7 @@ le
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6268,6 +6471,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6278,6 +6482,7 @@ lt
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6293,6 +6498,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6303,6 +6509,7 @@ load
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6318,6 +6525,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6335,6 +6543,7 @@ max
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6350,6 +6559,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6360,6 +6570,7 @@ min
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6375,6 +6586,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6385,6 +6597,7 @@ mul
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6400,6 +6613,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6417,6 +6631,7 @@ nearest
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6432,6 +6647,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6442,6 +6658,7 @@ neg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6457,6 +6674,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6467,6 +6685,7 @@ ne
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6482,6 +6701,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6501,6 +6721,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6516,6 +6737,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6535,6 +6757,7 @@ i64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6550,6 +6773,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6567,6 +6791,7 @@ sqrt
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6582,6 +6807,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6592,6 +6818,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6607,6 +6834,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6617,6 +6845,7 @@ store
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6632,6 +6861,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6649,6 +6879,7 @@ trunc
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6664,6 +6895,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -6690,6 +6922,7 @@ gc_feature_opt_in
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6701,6 +6934,7 @@ begin
 cur_
 )
 ;
+}
 #
 endif
 if
@@ -6713,6 +6947,7 @@ get_global
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6724,6 +6959,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6734,6 +6970,7 @@ get_local
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6745,6 +6982,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6755,6 +6993,7 @@ global
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6766,6 +7005,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6776,6 +7016,7 @@ grow_memory
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6787,6 +7028,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -6816,6 +7058,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6831,6 +7074,7 @@ begin
 cur_
 )
 ;
+}
 switch
 (
 *
@@ -6852,6 +7096,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6867,6 +7112,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6877,6 +7123,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6892,6 +7139,7 @@ begin
 cur_
 )
 ;
+}
 #
 ifdef
 ENABLE_WASM_THREAD_OPS
@@ -6919,6 +7167,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6934,6 +7183,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6946,6 +7196,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6961,6 +7212,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -6973,6 +7225,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -6988,6 +7241,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7000,6 +7254,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7015,6 +7270,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7027,6 +7283,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7042,6 +7299,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7054,6 +7312,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7069,6 +7328,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7081,6 +7341,7 @@ cmpxchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7096,6 +7357,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7108,6 +7370,7 @@ cmpxchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7123,6 +7386,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7135,6 +7399,7 @@ cmpxchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7150,6 +7415,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7160,6 +7426,7 @@ load8_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7175,6 +7442,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7185,6 +7453,7 @@ load16_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7200,6 +7469,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7210,6 +7480,7 @@ load
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7225,6 +7496,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7237,6 +7509,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7252,6 +7525,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7264,6 +7538,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7279,6 +7554,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7291,6 +7567,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7306,6 +7583,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7316,6 +7594,7 @@ store8_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7331,6 +7610,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7341,6 +7621,7 @@ store16_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7356,6 +7637,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7366,6 +7648,7 @@ store
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7381,6 +7664,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7393,6 +7677,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7408,6 +7693,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7420,6 +7706,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7435,6 +7722,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7447,6 +7735,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7462,6 +7751,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7474,6 +7764,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7489,6 +7780,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7501,6 +7793,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7516,6 +7809,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7528,6 +7822,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7543,6 +7838,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7555,6 +7851,7 @@ xchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7570,6 +7867,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7582,6 +7880,7 @@ xchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7597,6 +7896,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7609,6 +7909,7 @@ xchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7624,6 +7925,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7634,6 +7936,7 @@ wait
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7649,6 +7952,7 @@ begin
 cur_
 )
 ;
+}
 }
 #
 endif
@@ -7669,6 +7973,7 @@ const
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7684,6 +7989,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7694,6 +8000,7 @@ clz
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7709,6 +8016,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7719,6 +8027,7 @@ ctz
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7734,6 +8043,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -7751,6 +8061,7 @@ div_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7766,6 +8077,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7776,6 +8088,7 @@ div_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7791,6 +8104,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -7808,6 +8122,7 @@ eqz
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7823,6 +8138,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7833,6 +8149,7 @@ eq
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7848,6 +8165,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7858,6 +8176,7 @@ extend8_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7873,6 +8192,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7883,6 +8203,7 @@ extend16_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7898,6 +8219,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -7915,6 +8237,7 @@ ge_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7930,6 +8253,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7940,6 +8264,7 @@ ge_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7955,6 +8280,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7965,6 +8291,7 @@ gt_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -7980,6 +8307,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -7990,6 +8318,7 @@ gt_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8005,6 +8334,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -8022,6 +8352,7 @@ le_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8037,6 +8368,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8047,6 +8379,7 @@ le_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8062,6 +8395,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8072,6 +8406,7 @@ lt_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8087,6 +8422,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8097,6 +8433,7 @@ lt_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8112,6 +8449,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8131,6 +8469,7 @@ IsWasmSpace
 cur_
 )
 )
+{
 return
 WasmToken
 (
@@ -8146,6 +8485,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8156,6 +8496,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8171,6 +8512,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8181,6 +8523,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8196,6 +8539,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8206,6 +8550,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8221,6 +8566,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8231,6 +8577,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8246,6 +8593,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -8266,6 +8614,7 @@ mul
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8281,6 +8630,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -8298,6 +8648,7 @@ ne
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8313,6 +8664,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -8330,6 +8682,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8345,6 +8698,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -8362,6 +8716,7 @@ popcnt
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8377,6 +8732,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -8396,6 +8752,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8411,6 +8768,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8421,6 +8779,7 @@ rem_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8436,6 +8795,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8446,6 +8806,7 @@ rem_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8461,6 +8822,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8471,6 +8833,7 @@ rotr
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8486,6 +8849,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8496,6 +8860,7 @@ rotl
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8511,6 +8876,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -8528,6 +8894,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8543,6 +8910,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8553,6 +8921,7 @@ shl
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8568,6 +8937,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8578,6 +8948,7 @@ shr_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8593,6 +8964,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8603,6 +8975,7 @@ shr_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8618,6 +8991,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8637,6 +9011,7 @@ IsWasmSpace
 cur_
 )
 )
+{
 return
 WasmToken
 (
@@ -8652,6 +9027,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8662,6 +9038,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8677,6 +9054,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8687,6 +9065,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8702,6 +9081,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -8724,6 +9104,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8739,6 +9120,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8751,6 +9133,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8766,6 +9149,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8778,6 +9162,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8793,6 +9178,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8805,6 +9191,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8820,6 +9207,7 @@ begin
 cur_
 )
 ;
+}
 #
 ifdef
 ENABLE_WASM_SATURATING_TRUNC_OPS
@@ -8837,6 +9225,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8852,6 +9241,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8866,6 +9256,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8881,6 +9272,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8895,6 +9287,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8910,6 +9303,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -8924,6 +9318,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8939,6 +9334,7 @@ begin
 cur_
 )
 ;
+}
 #
 endif
 break
@@ -8960,6 +9356,7 @@ i64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -8975,6 +9372,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -8992,6 +9390,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9007,6 +9406,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -9035,6 +9435,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9050,6 +9451,7 @@ begin
 cur_
 )
 ;
+}
 switch
 (
 *
@@ -9071,6 +9473,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9086,6 +9489,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9096,6 +9500,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9111,6 +9516,7 @@ begin
 cur_
 )
 ;
+}
 #
 ifdef
 ENABLE_WASM_THREAD_OPS
@@ -9138,6 +9544,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9153,6 +9560,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9165,6 +9573,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9180,6 +9589,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9192,6 +9602,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9207,6 +9618,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9219,6 +9631,7 @@ add
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9234,6 +9647,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9246,6 +9660,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9261,6 +9676,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9273,6 +9689,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9288,6 +9705,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9300,6 +9718,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9315,6 +9734,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9327,6 +9747,7 @@ and
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9342,6 +9763,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9354,6 +9776,7 @@ cmpxchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9369,6 +9792,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9381,6 +9805,7 @@ cmpxchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9396,6 +9821,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9408,6 +9834,7 @@ cmpxchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9423,6 +9850,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9435,6 +9863,7 @@ cmpxchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9450,6 +9879,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9460,6 +9890,7 @@ load8_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9475,6 +9906,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9485,6 +9917,7 @@ load16_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9500,6 +9933,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9510,6 +9944,7 @@ load32_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9525,6 +9960,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9535,6 +9971,7 @@ load
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9550,6 +9987,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9562,6 +10000,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9577,6 +10016,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9589,6 +10029,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9604,6 +10045,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9616,6 +10058,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9631,6 +10074,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9643,6 +10087,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9658,6 +10103,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9668,6 +10114,7 @@ store8_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9683,6 +10130,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9693,6 +10141,7 @@ store16_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9708,6 +10157,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9718,6 +10168,7 @@ store32_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9733,6 +10184,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9743,6 +10195,7 @@ store
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9758,6 +10211,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9770,6 +10224,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9785,6 +10240,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9797,6 +10253,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9812,6 +10269,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9824,6 +10282,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9839,6 +10298,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9851,6 +10311,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9866,6 +10327,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9878,6 +10340,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9893,6 +10356,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9905,6 +10369,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9920,6 +10385,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9932,6 +10398,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9947,6 +10414,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9959,6 +10427,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -9974,6 +10443,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -9986,6 +10456,7 @@ xchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10001,6 +10472,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10013,6 +10485,7 @@ xchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10028,6 +10501,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10040,6 +10514,7 @@ xchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10055,6 +10530,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10067,6 +10543,7 @@ xchg
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10082,6 +10559,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10092,6 +10570,7 @@ wait
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10107,6 +10586,7 @@ begin
 cur_
 )
 ;
+}
 }
 #
 endif
@@ -10127,6 +10607,7 @@ const
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10142,6 +10623,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10152,6 +10634,7 @@ clz
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10167,6 +10650,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10177,6 +10661,7 @@ ctz
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10192,6 +10677,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -10209,6 +10695,7 @@ div_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10224,6 +10711,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10234,6 +10722,7 @@ div_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10249,6 +10738,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -10266,6 +10756,7 @@ eqz
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10281,6 +10772,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10291,6 +10783,7 @@ eq
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10306,6 +10799,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10318,6 +10812,7 @@ i32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10333,6 +10828,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10345,6 +10841,7 @@ i32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10360,6 +10857,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10370,6 +10868,7 @@ extend8_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10385,6 +10884,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10395,6 +10895,7 @@ extend16_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10410,6 +10911,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10420,6 +10922,7 @@ extend32_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10435,6 +10938,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -10452,6 +10956,7 @@ ge_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10467,6 +10972,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10477,6 +10983,7 @@ ge_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10492,6 +10999,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10502,6 +11010,7 @@ gt_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10517,6 +11026,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10527,6 +11037,7 @@ gt_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10542,6 +11053,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -10559,6 +11071,7 @@ le_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10574,6 +11087,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10584,6 +11098,7 @@ le_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10599,6 +11114,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10609,6 +11125,7 @@ lt_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10624,6 +11141,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10634,6 +11152,7 @@ lt_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10649,6 +11168,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10668,6 +11188,7 @@ IsWasmSpace
 cur_
 )
 )
+{
 return
 WasmToken
 (
@@ -10683,6 +11204,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10693,6 +11215,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10708,6 +11231,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10718,6 +11242,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10733,6 +11258,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10743,6 +11269,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10758,6 +11285,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10768,6 +11296,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10783,6 +11312,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10793,6 +11323,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10808,6 +11339,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -10818,6 +11350,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10833,6 +11366,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -10853,6 +11387,7 @@ mul
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10868,6 +11403,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -10885,6 +11421,7 @@ ne
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10900,6 +11437,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -10917,6 +11455,7 @@ or
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10932,6 +11471,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -10949,6 +11489,7 @@ popcnt
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10964,6 +11505,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -10983,6 +11525,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -10998,6 +11541,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11008,6 +11552,7 @@ rem_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11023,6 +11568,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11033,6 +11579,7 @@ rem_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11048,6 +11595,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11058,6 +11606,7 @@ rotr
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11073,6 +11622,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11083,6 +11633,7 @@ rotl
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11098,6 +11649,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -11115,6 +11667,7 @@ sub
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11130,6 +11683,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11140,6 +11694,7 @@ shl
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11155,6 +11710,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11165,6 +11721,7 @@ shr_s
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11180,6 +11737,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11190,6 +11748,7 @@ shr_u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11205,6 +11764,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11224,6 +11784,7 @@ IsWasmSpace
 cur_
 )
 )
+{
 return
 WasmToken
 (
@@ -11239,6 +11800,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11249,6 +11811,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11264,6 +11827,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11274,6 +11838,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11289,6 +11854,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11299,6 +11865,7 @@ u
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11314,6 +11881,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -11336,6 +11904,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11351,6 +11920,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11363,6 +11933,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11378,6 +11949,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11390,6 +11962,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11405,6 +11978,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11417,6 +11991,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11432,6 +12007,7 @@ begin
 cur_
 )
 ;
+}
 #
 ifdef
 ENABLE_WASM_SATURATING_TRUNC_OPS
@@ -11449,6 +12025,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11464,6 +12041,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11478,6 +12056,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11493,6 +12072,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11507,6 +12087,7 @@ f32
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11522,6 +12103,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11536,6 +12118,7 @@ f64
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11551,6 +12134,7 @@ begin
 cur_
 )
 ;
+}
 #
 endif
 break
@@ -11577,6 +12161,7 @@ xor
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11592,6 +12177,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -11608,6 +12194,7 @@ import
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11619,6 +12206,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11629,6 +12217,7 @@ infinity
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11640,6 +12229,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11650,6 +12240,7 @@ if
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11661,6 +12252,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -11678,6 +12270,7 @@ local
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11689,6 +12282,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11699,6 +12293,7 @@ loop
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11710,6 +12305,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -11742,6 +12338,7 @@ copy
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11753,6 +12350,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11763,6 +12361,7 @@ drop
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11774,6 +12373,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11784,6 +12384,7 @@ fill
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11795,6 +12396,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11805,6 +12407,7 @@ init
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11816,6 +12419,7 @@ begin
 cur_
 )
 ;
+}
 #
 endif
 if
@@ -11828,6 +12432,7 @@ grow
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11839,6 +12444,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11849,6 +12455,7 @@ size
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11860,6 +12467,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -11873,6 +12481,7 @@ module
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11884,6 +12493,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11894,6 +12504,7 @@ memory
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11905,6 +12516,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -11915,6 +12527,7 @@ mut
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11926,6 +12539,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -11943,12 +12557,14 @@ nan
 "
 )
 )
+{
 return
 nan
 (
 begin
 )
 ;
+}
 if
 (
 consume
@@ -11959,6 +12575,7 @@ nop
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11970,6 +12587,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -11987,6 +12605,7 @@ offset
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -11998,6 +12617,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -12015,6 +12635,7 @@ param
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12026,6 +12647,7 @@ begin
 cur_
 )
 ;
+}
 #
 ifdef
 ENABLE_WASM_BULKMEM_OPS
@@ -12039,6 +12661,7 @@ passive
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12050,6 +12673,7 @@ begin
 cur_
 )
 ;
+}
 #
 endif
 break
@@ -12069,6 +12693,7 @@ result
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12080,6 +12705,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12090,6 +12716,7 @@ return
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12101,6 +12728,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12123,6 +12751,7 @@ null
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12134,6 +12763,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12145,6 +12775,7 @@ is_null
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12160,6 +12791,7 @@ begin
 cur_
 )
 ;
+}
 return
 WasmToken
 (
@@ -12189,6 +12821,7 @@ select
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12204,6 +12837,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12214,6 +12848,7 @@ set_global
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12225,6 +12860,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12235,6 +12871,7 @@ set_local
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12246,6 +12883,7 @@ begin
 cur_
 )
 ;
+}
 #
 ifdef
 ENABLE_WASM_THREAD_OPS
@@ -12259,6 +12897,7 @@ shared
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12270,6 +12909,7 @@ begin
 cur_
 )
 ;
+}
 #
 endif
 if
@@ -12282,6 +12922,7 @@ start
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12293,6 +12934,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12303,6 +12945,7 @@ struct
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12314,6 +12957,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -12346,6 +12990,7 @@ copy
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12357,6 +13002,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12367,6 +13013,7 @@ drop
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12378,6 +13025,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12388,6 +13036,7 @@ init
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12399,6 +13048,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 }
@@ -12414,6 +13064,7 @@ table
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12425,6 +13076,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12435,6 +13087,7 @@ tee_local
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12446,6 +13099,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12456,6 +13110,7 @@ then
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12467,6 +13122,7 @@ begin
 cur_
 )
 ;
+}
 if
 (
 consume
@@ -12477,6 +13133,7 @@ type
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12488,6 +13145,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 case
@@ -12505,6 +13163,7 @@ unreachable
 "
 )
 )
+{
 return
 WasmToken
 (
@@ -12516,6 +13175,7 @@ begin
 cur_
 )
 ;
+}
 break
 ;
 default
@@ -12667,6 +13327,7 @@ OpenParen
 openParen
 )
 )
+{
 return
 new
 (
@@ -12678,6 +13339,7 @@ AstPop
 (
 )
 ;
+}
 if
 (
 c
@@ -12734,9 +13396,11 @@ if
 !
 expr
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -12755,9 +13419,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 expr
 ;
@@ -12819,9 +13485,11 @@ append
 expr
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -12840,9 +13508,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 continue
 ;
 }
@@ -12888,9 +13558,11 @@ append
 expr
 )
 )
+{
 return
 false
 ;
+}
 continue
 ;
 }
@@ -13067,9 +13739,11 @@ c
 type
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -13140,9 +13814,11 @@ c
 vt
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 vt
@@ -13151,6 +13827,7 @@ isValid
 (
 )
 )
+{
 *
 type
 =
@@ -13159,7 +13836,9 @@ AstExprType
 vt
 )
 ;
+}
 else
+{
 *
 type
 =
@@ -13171,6 +13850,7 @@ ExprType
 Void
 )
 ;
+}
 return
 true
 ;
@@ -13225,9 +13905,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 name
@@ -13397,9 +14079,11 @@ c
 type
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -13410,9 +14094,11 @@ c
 exprs
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -13437,9 +14123,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -13449,9 +14137,11 @@ c
 name
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 AstBlock
 *
@@ -13482,9 +14172,11 @@ if
 !
 result
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 op
@@ -13514,9 +14206,11 @@ append
 result
 )
 )
+{
 return
 nullptr
 ;
+}
 result
 =
 new
@@ -13600,9 +14294,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 value
@@ -13641,9 +14337,11 @@ if
 !
 value
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -13662,9 +14360,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 }
 AstExpr
@@ -13714,9 +14414,11 @@ if
 !
 cond
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -13735,9 +14437,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -13758,9 +14462,11 @@ if
 !
 cond
 )
+{
 return
 nullptr
 ;
+}
 }
 }
 return
@@ -13834,9 +14540,11 @@ append
 arg
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -13855,9 +14563,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -13894,9 +14604,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExprVector
 args
 (
@@ -13920,9 +14632,11 @@ c
 args
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 new
@@ -13983,9 +14697,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExprVector
 args
 (
@@ -14013,9 +14729,11 @@ c
 args
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 args
@@ -14024,6 +14742,7 @@ empty
 (
 )
 )
+{
 index
 =
 new
@@ -14036,7 +14755,9 @@ AstPop
 (
 )
 ;
+}
 else
+{
 index
 =
 args
@@ -14045,6 +14766,7 @@ popCopy
 (
 )
 ;
+}
 }
 else
 {
@@ -14066,9 +14788,11 @@ if
 !
 index
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -14331,9 +15055,11 @@ cur
 =
 end
 )
+{
 goto
 error
 ;
+}
 CheckedInt
 <
 Bits
@@ -14392,9 +15118,11 @@ isValid
 (
 )
 )
+{
 goto
 error
 ;
+}
 value
 =
 u
@@ -14418,9 +15146,11 @@ kSignificandBits
 =
 0
 )
+{
 goto
 error
 ;
+}
 if
 (
 value
@@ -14428,9 +15158,11 @@ value
 =
 0
 )
+{
 goto
 error
 ;
+}
 }
 else
 {
@@ -14693,8 +15425,10 @@ cur
 digit
 )
 )
+{
 break
 ;
+}
 if
 (
 !
@@ -14708,8 +15442,10 @@ digit
 =
 0
 )
+{
 continue
 ;
+}
 int_fast8_t
 lz
 =
@@ -14761,9 +15497,11 @@ isValid
 (
 )
 )
+{
 return
 false
 ;
+}
 exponent
 =
 zeroAdjust
@@ -14794,11 +15532,13 @@ if
 !
 dot
 )
+{
 exponent
 +
 =
 4
 ;
+}
 if
 (
 significandPos
@@ -14806,11 +15546,13 @@ significandPos
 -
 4
 )
+{
 significandPos
 -
 =
 4
 ;
+}
 }
 if
 (
@@ -14940,6 +15682,7 @@ cur
 '
 )
 )
+{
 isNegated
 =
 *
@@ -14952,6 +15695,7 @@ cur
 -
 '
 ;
+}
 CheckedInt
 <
 int32_t
@@ -14974,6 +15718,7 @@ IsWasmDigit
 cur
 )
 )
+{
 parsedExponent
 =
 parsedExponent
@@ -14991,15 +15736,18 @@ cur
 '
 )
 ;
+}
 if
 (
 isNegated
 )
+{
 parsedExponent
 =
 -
 parsedExponent
 ;
+}
 exponent
 +
 =
@@ -15023,9 +15771,11 @@ isValid
 (
 )
 )
+{
 return
 false
 ;
+}
 Bits
 encodedExponent
 encodedSignificand
@@ -15462,6 +16212,7 @@ WasmToken
 :
 Float
 )
+{
 return
 new
 (
@@ -15480,6 +16231,7 @@ result
 )
 )
 ;
+}
 const
 char16_t
 *
@@ -15533,6 +16285,7 @@ cur
 +
 '
 )
+{
 isNegated
 =
 *
@@ -15545,6 +16298,7 @@ cur
 -
 '
 ;
+}
 switch
 (
 token
@@ -15677,9 +16431,11 @@ if
 !
 buffer
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 ptrdiff_t
@@ -15697,6 +16453,7 @@ cur
 +
 i
 )
+{
 buffer
 [
 i
@@ -15710,6 +16467,7 @@ i
 ]
 )
 ;
+}
 buffer
 [
 end
@@ -15791,11 +16549,13 @@ if
 (
 isNegated
 )
+{
 result
 =
 -
 result
 ;
+}
 return
 new
 (
@@ -15920,8 +16680,10 @@ isValid
 (
 )
 )
+{
 break
 ;
+}
 return
 new
 (
@@ -16192,9 +16954,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16237,9 +17001,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16284,9 +17050,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 value
@@ -16302,9 +17070,11 @@ if
 !
 value
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16351,9 +17121,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 value
@@ -16369,9 +17141,11 @@ if
 !
 value
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16418,9 +17192,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 value
@@ -16436,9 +17212,11 @@ if
 !
 value
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16506,9 +17284,11 @@ if
 !
 maybeExpr
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 new
@@ -16552,9 +17332,11 @@ if
 !
 operand
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16598,9 +17380,11 @@ if
 !
 lhs
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 rhs
@@ -16616,9 +17400,11 @@ if
 !
 rhs
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16663,9 +17449,11 @@ if
 !
 lhs
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 rhs
@@ -16681,9 +17469,11 @@ if
 !
 rhs
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16728,9 +17518,11 @@ if
 !
 op0
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 op1
@@ -16746,9 +17538,11 @@ if
 !
 op1
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 op2
@@ -16764,9 +17558,11 @@ if
 !
 op2
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16812,9 +17608,11 @@ if
 !
 operand
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16861,9 +17659,11 @@ if
 !
 operand
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16907,9 +17707,11 @@ if
 !
 value
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -16966,9 +17768,11 @@ c
 type
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 cond
@@ -16984,9 +17788,11 @@ if
 !
 cond
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 inParens
@@ -17010,9 +17816,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 AstExprVector
 thenExprs
@@ -17051,9 +17859,11 @@ c
 thenExprs
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -17080,9 +17890,11 @@ append
 thenBranch
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 if
 (
@@ -17107,9 +17919,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 AstExprVector
 elseExprs
@@ -17162,9 +17976,11 @@ c
 name
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -17175,9 +17991,11 @@ c
 elseExprs
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 if
@@ -17208,9 +18026,11 @@ append
 elseBranch
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 if
 (
@@ -17235,9 +18055,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -17259,9 +18081,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -17271,9 +18095,11 @@ c
 name
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 }
 return
@@ -17364,9 +18190,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 WasmToken
 val
 =
@@ -17461,9 +18289,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 WasmToken
 val
 =
@@ -17577,9 +18407,11 @@ if
 *
 base
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -17623,9 +18455,11 @@ base
 inParens
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 alignLog2
@@ -17823,9 +18657,11 @@ base
 inParens
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 alignLog2
@@ -17945,9 +18781,11 @@ if
 !
 value
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 flags
 =
@@ -18012,9 +18850,11 @@ base
 inParens
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 alignLog2
@@ -18122,9 +18962,11 @@ if
 !
 expected
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 replacement
@@ -18140,9 +18982,11 @@ if
 !
 replacement
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 flags
 =
@@ -18208,9 +19052,11 @@ base
 inParens
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 alignLog2
@@ -18366,9 +19212,11 @@ base
 inParens
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 alignLog2
@@ -18686,9 +19534,11 @@ if
 !
 value
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 flags
 =
@@ -18753,9 +19603,11 @@ base
 inParens
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 alignLog2
@@ -18863,9 +19715,11 @@ if
 !
 value
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 flags
 =
@@ -18930,9 +19784,11 @@ base
 inParens
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 alignLog2
@@ -18998,9 +19854,11 @@ if
 !
 expected
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 timeout
@@ -19016,9 +19874,11 @@ if
 !
 timeout
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 flags
 =
@@ -19082,9 +19942,11 @@ base
 inParens
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 alignLog2
@@ -19092,10 +19954,12 @@ alignLog2
 =
 UINT32_MAX
 )
+{
 alignLog2
 =
 2
 ;
+}
 AstExpr
 *
 count
@@ -19111,9 +19975,11 @@ if
 !
 count
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 flags
 =
@@ -19184,9 +20050,11 @@ append
 target
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 if
 (
@@ -19243,9 +20111,11 @@ if
 !
 index
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 value
@@ -19288,9 +20158,11 @@ if
 !
 index
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -19309,9 +20181,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 }
 return
@@ -19364,9 +20238,11 @@ if
 !
 operand
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -19412,9 +20288,11 @@ if
 !
 dest
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 src
@@ -19430,9 +20308,11 @@ if
 !
 src
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 len
@@ -19448,9 +20328,11 @@ if
 !
 len
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -19547,9 +20429,11 @@ if
 !
 start
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 val
@@ -19565,9 +20449,11 @@ if
 !
 val
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 len
@@ -19583,9 +20469,11 @@ if
 !
 len
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -19741,9 +20629,11 @@ c
 vt
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -19815,9 +20705,11 @@ c
 stackLimit
 )
 )
+{
 return
 nullptr
 ;
+}
 switch
 (
 token
@@ -20555,9 +21447,11 @@ c
 vt
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -20567,8 +21461,10 @@ isValid
 (
 )
 )
+{
 break
 ;
+}
 if
 (
 !
@@ -20580,9 +21476,11 @@ append
 vt
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -20646,9 +21544,11 @@ c
 type
 )
 )
+{
 return
 false
 ;
+}
 *
 result
 =
@@ -20696,6 +21596,7 @@ WasmToken
 :
 Name
 )
+{
 return
 locals
 -
@@ -20714,6 +21615,7 @@ c
 localTypes
 )
 ;
+}
 AstValType
 type
 ;
@@ -20848,9 +21750,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 AstExport
 *
 exp
@@ -20947,9 +21851,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -20968,9 +21874,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -21071,9 +21979,11 @@ c
 args
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -21092,9 +22002,11 @@ c
 result
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 default
@@ -21133,9 +22045,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 }
 *
 funcType
@@ -21180,9 +22094,11 @@ c
 ref
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 ref
@@ -21211,9 +22127,11 @@ c
 funcType
 )
 )
+{
 return
 false
 ;
+}
 uint32_t
 funcTypeIndex
 ;
@@ -21236,9 +22154,11 @@ funcType
 funcTypeIndex
 )
 )
+{
 return
 false
 ;
+}
 ref
 -
 >
@@ -21383,9 +22303,11 @@ c
 names
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -21404,9 +22326,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 AstRef
 funcType
 ;
@@ -21421,9 +22345,11 @@ funcType
 module
 )
 )
+{
 return
 false
 ;
+}
 auto
 *
 imp
@@ -21531,9 +22457,11 @@ module
 ref
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -21552,9 +22480,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -21582,9 +22512,11 @@ c
 funcTypeRef
 )
 )
+{
 return
 false
 ;
+}
 AstExprVector
 body
 (
@@ -21657,9 +22589,11 @@ locals
 vars
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -21706,9 +22640,11 @@ locals
 args
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -21727,9 +22663,11 @@ c
 result
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 default
@@ -21766,9 +22704,11 @@ append
 expr
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 }
@@ -21790,9 +22730,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -21804,9 +22746,11 @@ c
 body
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 funcTypeRef
@@ -21842,9 +22786,11 @@ result
 funcTypeIndex
 )
 )
+{
 return
 false
 ;
+}
 funcTypeRef
 .
 setIndex
@@ -21974,8 +22920,10 @@ WasmToken
 OpenParen
 )
 )
+{
 break
 ;
+}
 if
 (
 !
@@ -21994,9 +22942,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 AstName
 name
 =
@@ -22026,9 +22976,11 @@ type
 isMutable
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -22047,9 +22999,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -22060,9 +23014,11 @@ append
 name
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -22073,9 +23029,11 @@ append
 isMutable
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -22086,9 +23044,11 @@ append
 type
 )
 )
+{
 return
 false
 ;
+}
 }
 *
 st
@@ -22161,9 +23121,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstTypeDef
 *
 type
@@ -22203,9 +23165,11 @@ c
 funcType
 )
 )
+{
 return
 nullptr
 ;
+}
 type
 =
 new
@@ -22261,9 +23225,11 @@ c
 st
 )
 )
+{
 return
 nullptr
 ;
+}
 type
 =
 new
@@ -22332,9 +23298,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 type
 ;
@@ -22451,9 +23419,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 initExpr
@@ -22468,9 +23438,11 @@ if
 !
 initExpr
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -22489,9 +23461,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 initExpr
 ;
@@ -22582,9 +23556,11 @@ MaybeParseOwnerIndex
 c
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 offsetIfActive
@@ -22599,9 +23575,11 @@ c
 offsetIfActive
 )
 )
+{
 return
 nullptr
 ;
+}
 AstNameVector
 fragments
 (
@@ -22644,9 +23622,11 @@ text
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 new
@@ -22705,9 +23685,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 Maybe
 <
 uint32_t
@@ -22733,6 +23715,7 @@ Index
 token
 )
 )
+{
 maximum
 .
 emplace
@@ -22744,6 +23727,7 @@ index
 )
 )
 ;
+}
 Shareable
 shared
 =
@@ -22779,6 +23763,7 @@ Shareable
 :
 True
 )
+{
 shared
 =
 Shareable
@@ -22786,6 +23771,7 @@ Shareable
 :
 True
 ;
+}
 else
 {
 c
@@ -22901,9 +23887,11 @@ c
 names
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -22922,9 +23910,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 Limits
 memory
 ;
@@ -22942,9 +23932,11 @@ Shareable
 True
 )
 )
+{
 return
 false
 ;
+}
 auto
 *
 imp
@@ -23049,9 +24041,11 @@ module
 ref
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -23070,9 +24064,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -23120,9 +24116,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 AstNameVector
 fragments
 (
@@ -23175,9 +24173,11 @@ text
 )
 )
 )
+{
 return
 false
 ;
+}
 totalLength
 +
 =
@@ -23227,9 +24227,11 @@ if
 !
 offset
 )
+{
 return
 false
 ;
+}
 auto
 *
 segment
@@ -23267,9 +24269,11 @@ append
 segment
 )
 )
+{
 return
 false
 ;
+}
 pages
 =
 AlignBytes
@@ -23293,9 +24297,11 @@ uint32_t
 pages
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -23320,9 +24326,11 @@ False
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -23341,9 +24349,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -23365,9 +24375,11 @@ Shareable
 True
 )
 )
+{
 return
 false
 ;
+}
 return
 module
 -
@@ -23531,9 +24543,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -23638,9 +24652,11 @@ c
 type
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -23659,9 +24675,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -23685,9 +24703,11 @@ c
 type
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -23795,9 +24815,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 WasmToken
 fieldName
 ;
@@ -23821,9 +24843,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 AstRef
 funcTypeRef
 ;
@@ -23870,6 +24894,7 @@ empty
 (
 )
 )
+{
 name
 =
 c
@@ -23880,6 +24905,7 @@ getIfName
 (
 )
 ;
+}
 Limits
 memory
 ;
@@ -23897,9 +24923,11 @@ Shareable
 True
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -23918,9 +24946,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -23972,6 +25002,7 @@ empty
 (
 )
 )
+{
 name
 =
 c
@@ -23982,6 +25013,7 @@ getIfName
 (
 )
 ;
+}
 Limits
 table
 ;
@@ -23995,9 +25027,11 @@ c
 table
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -24016,9 +25050,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -24070,6 +25106,7 @@ empty
 (
 )
 )
+{
 name
 =
 c
@@ -24080,6 +25117,7 @@ getIfName
 (
 )
 ;
+}
 AstValType
 type
 ;
@@ -24098,9 +25136,11 @@ type
 isMutable
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -24119,9 +25159,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -24176,6 +25218,7 @@ empty
 (
 )
 )
+{
 name
 =
 c
@@ -24186,6 +25229,7 @@ getIfName
 (
 )
 ;
+}
 AstRef
 funcTypeRef
 ;
@@ -24200,9 +25244,11 @@ funcTypeRef
 module
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -24221,9 +25267,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -24279,9 +25327,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -24300,9 +25350,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 else
 {
@@ -24344,9 +25396,11 @@ c
 funcType
 )
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 funcTypeIndex
 ;
@@ -24369,9 +25423,11 @@ funcType
 funcTypeIndex
 )
 )
+{
 return
 nullptr
 ;
+}
 funcTypeRef
 .
 setIndex
@@ -24437,9 +25493,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 WasmToken
 exportee
 =
@@ -24579,6 +25637,7 @@ getIfRef
 ref
 )
 )
+{
 ref
 =
 AstRef
@@ -24586,6 +25645,7 @@ AstRef
 0
 )
 ;
+}
 return
 new
 (
@@ -24631,6 +25691,7 @@ getIfRef
 ref
 )
 )
+{
 ref
 =
 AstRef
@@ -24638,6 +25699,7 @@ AstRef
 0
 )
 ;
+}
 return
 new
 (
@@ -24686,9 +25748,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -24837,9 +25901,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -24858,9 +25924,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -24969,9 +26037,11 @@ c
 names
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -24990,9 +26060,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 Limits
 table
 ;
@@ -25006,9 +26078,11 @@ c
 table
 )
 )
+{
 return
 false
 ;
+}
 auto
 *
 import
@@ -25133,9 +26207,11 @@ module
 ref
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -25154,9 +26230,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -25192,9 +26270,11 @@ c
 table
 )
 )
+{
 return
 false
 ;
+}
 return
 module
 -
@@ -25214,9 +26294,11 @@ ParseElemType
 c
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -25235,9 +26317,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -25256,9 +26340,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 AstRefVector
 elems
 (
@@ -25293,9 +26379,11 @@ append
 elem
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -25315,9 +26403,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 uint32_t
 numElements
 =
@@ -25341,9 +26431,11 @@ length
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -25367,9 +26459,11 @@ False
 )
 )
 )
+{
 return
 false
 ;
+}
 auto
 *
 zero
@@ -25396,9 +26490,11 @@ if
 !
 zero
 )
+{
 return
 false
 ;
+}
 AstElemSegment
 *
 segment
@@ -25452,9 +26548,11 @@ MaybeParseOwnerIndex
 c
 )
 )
+{
 return
 nullptr
 ;
+}
 AstExpr
 *
 offsetIfActive
@@ -25469,9 +26567,11 @@ c
 offsetIfActive
 )
 )
+{
 return
 nullptr
 ;
+}
 AstRefVector
 elems
 (
@@ -25506,9 +26606,11 @@ append
 elem
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 new
@@ -25643,9 +26745,11 @@ c
 names
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -25664,9 +26768,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -25679,9 +26785,11 @@ type
 isMutable
 )
 )
+{
 return
 false
 ;
+}
 auto
 *
 imp
@@ -25801,9 +26909,11 @@ module
 ref
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -25822,9 +26932,11 @@ c
 error
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -25851,9 +26963,11 @@ type
 isMutable
 )
 )
+{
 return
 false
 ;
+}
 AstExpr
 *
 init
@@ -25868,9 +26982,11 @@ if
 !
 init
 )
+{
 return
 false
 ;
+}
 auto
 *
 glob
@@ -25960,9 +27076,11 @@ text
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 auto
 *
@@ -26001,9 +27119,11 @@ append
 data
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 module
 ;
@@ -26062,9 +27182,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -26083,9 +27205,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 auto
 *
 module
@@ -26108,9 +27232,11 @@ if
 !
 module
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 c
@@ -26201,9 +27327,11 @@ if
 !
 typeDef
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -26215,9 +27343,11 @@ append
 typeDef
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26238,9 +27368,11 @@ section
 module
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26260,9 +27392,11 @@ c
 module
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26285,9 +27419,11 @@ c
 module
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26309,9 +27445,11 @@ c
 module
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26346,9 +27484,11 @@ append
 segment
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26384,9 +27524,11 @@ append
 imp
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26421,9 +27563,11 @@ append
 exp
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26444,9 +27588,11 @@ section
 module
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26481,9 +27627,11 @@ append
 segment
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26503,9 +27651,11 @@ c
 module
 )
 )
+{
 return
 nullptr
 ;
+}
 break
 ;
 }
@@ -26545,9 +27695,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 if
 (
@@ -26567,9 +27719,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -26588,9 +27742,11 @@ c
 error
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 module
 ;
@@ -26674,9 +27830,11 @@ name
 index
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -27135,9 +28293,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 for
 (
 size_t
@@ -27255,9 +28415,11 @@ isResolved
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -27272,9 +28434,11 @@ asRef
 )
 )
 )
+{
 return
 false
 ;
+}
 vt
 .
 resolve
@@ -27305,9 +28469,11 @@ isResolved
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -27321,9 +28487,11 @@ asAstValType
 )
 )
 )
+{
 return
 false
 ;
+}
 et
 .
 resolve
@@ -27392,9 +28560,11 @@ i
 ]
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -27426,9 +28596,11 @@ name
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -27442,9 +28614,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -27458,9 +28632,11 @@ exprs
 )
 )
 )
+{
 return
 false
 ;
+}
 r
 .
 popTarget
@@ -27526,9 +28702,11 @@ target
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 br
@@ -27550,9 +28728,11 @@ maybeValue
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 br
@@ -27581,9 +28761,11 @@ cond
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -27621,9 +28803,11 @@ r
 arg
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -27669,9 +28853,11 @@ args
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -27686,9 +28872,11 @@ func
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -27718,9 +28906,11 @@ args
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -27735,9 +28925,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -27752,9 +28944,11 @@ funcType
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -27833,9 +29027,11 @@ value
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -27850,9 +29046,11 @@ local
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -27907,9 +29105,11 @@ value
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -27924,9 +29124,11 @@ global
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -27956,9 +29158,11 @@ value
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -27973,9 +29177,11 @@ local
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -28233,9 +29439,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -28249,9 +29457,11 @@ cond
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -28266,9 +29476,11 @@ name
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -28282,9 +29494,11 @@ thenExprs
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 i
@@ -28307,9 +29521,11 @@ elseExprs
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 r
 .
@@ -28469,9 +29685,11 @@ def
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstRef
@@ -28495,9 +29713,11 @@ resolveBranchTarget
 elem
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -28520,9 +29740,11 @@ maybeValue
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 ResolveExpr
 (
@@ -29710,9 +30932,11 @@ r
 vt
 )
 )
+{
 return
 false
 ;
+}
 }
 for
 (
@@ -29756,6 +30980,7 @@ i
 i
 )
 )
+{
 return
 r
 .
@@ -29767,6 +30992,7 @@ var
 "
 )
 ;
+}
 }
 for
 (
@@ -29791,9 +31017,11 @@ r
 expr
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -29833,9 +31061,11 @@ r
 vt
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 ResolveType
@@ -29883,9 +31113,11 @@ r
 vt
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -29995,6 +31227,7 @@ name
 i
 )
 )
+{
 return
 r
 .
@@ -30006,6 +31239,7 @@ signature
 "
 )
 ;
+}
 }
 else
 if
@@ -30046,6 +31280,7 @@ name
 i
 )
 )
+{
 return
 r
 .
@@ -30058,6 +31293,7 @@ name
 "
 )
 ;
+}
 }
 else
 {
@@ -30133,9 +31369,11 @@ r
 funcType
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 if
@@ -30170,9 +31408,11 @@ r
 structType
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -30254,6 +31494,7 @@ lastFuncIndex
 +
 )
 )
+{
 return
 r
 .
@@ -30265,6 +31506,7 @@ import
 "
 )
 ;
+}
 if
 (
 !
@@ -30280,9 +31522,11 @@ funcType
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -30309,6 +31553,7 @@ lastGlobalIndex
 +
 )
 )
+{
 return
 r
 .
@@ -30320,6 +31565,7 @@ import
 "
 )
 ;
+}
 if
 (
 !
@@ -30338,9 +31584,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -30367,6 +31615,7 @@ lastMemoryIndex
 +
 )
 )
+{
 return
 r
 .
@@ -30378,6 +31627,7 @@ import
 "
 )
 ;
+}
 break
 ;
 case
@@ -30404,6 +31654,7 @@ lastTableIndex
 +
 )
 )
+{
 return
 r
 .
@@ -30415,6 +31666,7 @@ import
 "
 )
 ;
+}
 break
 ;
 }
@@ -30448,9 +31700,11 @@ funcType
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -30469,6 +31723,7 @@ lastFuncIndex
 +
 )
 )
+{
 return
 r
 .
@@ -30480,6 +31735,7 @@ function
 "
 )
 ;
+}
 }
 for
 (
@@ -30513,6 +31769,7 @@ lastGlobalIndex
 +
 )
 )
+{
 return
 r
 .
@@ -30524,6 +31781,7 @@ import
 "
 )
 ;
+}
 if
 (
 !
@@ -30538,9 +31796,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 global
@@ -30563,9 +31823,11 @@ init
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 for
 (
@@ -30588,8 +31850,10 @@ table
 .
 imported
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -30605,6 +31869,7 @@ lastTableIndex
 +
 )
 )
+{
 return
 r
 .
@@ -30616,6 +31881,7 @@ import
 "
 )
 ;
+}
 }
 for
 (
@@ -30638,8 +31904,10 @@ memory
 .
 imported
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -30655,6 +31923,7 @@ lastMemoryIndex
 +
 )
 )
+{
 return
 r
 .
@@ -30666,6 +31935,7 @@ import
 "
 )
 ;
+}
 }
 for
 (
@@ -30712,9 +31982,11 @@ ref
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -30738,9 +32010,11 @@ ref
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -30764,9 +32038,11 @@ ref
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -30790,9 +32066,11 @@ ref
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 }
@@ -30821,9 +32099,11 @@ r
 func
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -30854,9 +32134,11 @@ func
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 for
 (
@@ -30895,9 +32177,11 @@ offsetIfActive
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 for
 (
@@ -30936,9 +32220,11 @@ offsetIfActive
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstRef
@@ -30963,9 +32249,11 @@ resolveFunction
 ref
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 return
@@ -31030,9 +32318,11 @@ i
 ]
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -31064,9 +32354,11 @@ op
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31085,9 +32377,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31101,9 +32395,11 @@ exprs
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31117,9 +32413,11 @@ Op
 End
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -31187,9 +32485,11 @@ maybeValue
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -31219,9 +32519,11 @@ cond
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -31237,9 +32539,11 @@ op
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31258,9 +32562,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -31321,9 +32627,11 @@ e
 arg
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -31354,9 +32662,11 @@ args
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31371,9 +32681,11 @@ op
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31392,9 +32704,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -31424,9 +32738,11 @@ args
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31441,9 +32757,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31457,9 +32775,11 @@ Op
 CallIndirect
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31478,9 +32798,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -31497,9 +32819,11 @@ Default
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -32260,9 +33584,11 @@ Op
 If
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -32281,9 +33607,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -32297,9 +33625,11 @@ thenExprs
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 i
@@ -32322,9 +33652,11 @@ Op
 Else
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -32338,9 +33670,11 @@ elseExprs
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 e
@@ -32557,9 +33891,11 @@ maybeExpr
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -32574,9 +33910,11 @@ Op
 Return
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -32616,9 +33954,11 @@ maybeValue
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -32633,9 +33973,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -32649,9 +33991,11 @@ Op
 BrTable
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -32670,9 +34014,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 const
@@ -32701,9 +34047,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -32723,9 +34071,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -32755,9 +34105,11 @@ Op
 CurrentMemory
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -32774,9 +34126,11 @@ Default
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -32807,9 +34161,11 @@ operand
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -32823,9 +34179,11 @@ Op
 GrowMemory
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -32842,9 +34200,11 @@ Default
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -34338,9 +35698,11 @@ if
 !
 optInVersion
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -34359,9 +35721,11 @@ GcFeatureOptIn
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -34372,9 +35736,11 @@ writeVarU32
 optInVersion
 )
 )
+{
 return
 false
 ;
+}
 e
 .
 finishSection
@@ -34412,9 +35778,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -34433,9 +35801,11 @@ Type
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -34454,9 +35824,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstTypeDef
@@ -34508,9 +35880,11 @@ Func
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -34530,9 +35904,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstValType
@@ -34560,9 +35936,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -34587,9 +35965,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -34630,9 +36010,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 else
@@ -34674,9 +36056,11 @@ Struct
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -34696,9 +36080,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 const
 AstValTypeVector
 &
@@ -34766,9 +36152,11 @@ Mutable
 0
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -34786,9 +36174,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 else
@@ -34838,9 +36228,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -34859,9 +36251,11 @@ Function
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -34880,9 +36274,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstFunc
@@ -34915,9 +36311,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -35045,6 +36443,7 @@ Shareable
 :
 True
 )
+{
 flags
 |
 =
@@ -35056,6 +36455,7 @@ MemoryTableFlags
 IsShared
 )
 ;
+}
 if
 (
 !
@@ -35066,9 +36466,11 @@ writeVarU32
 flags
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35081,9 +36483,11 @@ limits
 initial
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 limits
@@ -35104,9 +36508,11 @@ limits
 maximum
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -35141,9 +36547,11 @@ AnyFunc
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 EncodeLimits
 (
@@ -35227,9 +36635,11 @@ module
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35243,9 +36653,11 @@ field
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35263,9 +36675,11 @@ kind
 )
 )
 )
+{
 return
 false
 ;
+}
 switch
 (
 imp
@@ -35299,9 +36713,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -35338,9 +36754,11 @@ global
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -35362,9 +36780,11 @@ limits
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -35386,9 +36806,11 @@ limits
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 }
@@ -35420,9 +36842,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -35441,9 +36865,11 @@ Import
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35462,9 +36888,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstImport
@@ -35488,9 +36916,11 @@ e
 imp
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -35541,19 +36971,23 @@ memory
 .
 imported
 )
+{
 numOwnMemories
 +
 +
 ;
+}
 }
 if
 (
 !
 numOwnMemories
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -35572,9 +37006,11 @@ Memory
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35585,9 +37021,11 @@ writeVarU32
 numOwnMemories
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 const
@@ -35608,8 +37046,10 @@ memory
 .
 imported
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -35621,9 +37061,11 @@ memory
 limits
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -35666,9 +37108,11 @@ Global
 offset
 )
 )
+{
 return
 false
 ;
+}
 const
 AstGlobalVector
 &
@@ -35694,9 +37138,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 const
@@ -35726,9 +37172,11 @@ e
 global
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35743,9 +37191,11 @@ init
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35759,9 +37209,11 @@ Op
 End
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -35799,9 +37251,11 @@ name
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35819,9 +37273,11 @@ kind
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35840,9 +37296,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -35877,9 +37335,11 @@ if
 !
 numExports
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -35898,9 +37358,11 @@ Export
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -35911,9 +37373,11 @@ writeVarU32
 numExports
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstExport
@@ -35937,9 +37401,11 @@ e
 exp
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -35990,19 +37456,23 @@ table
 .
 imported
 )
+{
 numOwnTables
 +
 +
 ;
+}
 }
 if
 (
 !
 numOwnTables
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -36021,9 +37491,11 @@ Table
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -36034,9 +37506,11 @@ writeVarU32
 numOwnTables
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 const
@@ -36057,8 +37531,10 @@ table
 .
 imported
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -36070,9 +37546,11 @@ table
 limits
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -36114,9 +37592,11 @@ writePatchableVarU32
 bodySizeAt
 )
 )
+{
 return
 false
 ;
+}
 size_t
 beforeBody
 =
@@ -36157,9 +37637,11 @@ type
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -36170,9 +37652,11 @@ e
 varTypes
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstExpr
@@ -36201,9 +37685,11 @@ currentOffset
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -36214,9 +37700,11 @@ e
 expr
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -36233,9 +37721,11 @@ currentOffset
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -36249,9 +37739,11 @@ Op
 End
 )
 )
+{
 return
 false
 ;
+}
 e
 .
 patchVarU32
@@ -36291,9 +37783,11 @@ hasStartFunc
 (
 )
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -36312,9 +37806,11 @@ Start
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -36337,9 +37833,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 e
 .
 finishSection
@@ -36378,9 +37876,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -36399,9 +37899,11 @@ Code
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -36420,9 +37922,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstFunc
@@ -36447,9 +37951,11 @@ offsets
 func
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -36580,9 +38086,11 @@ offsetIfActive
 )
 )
 )
+{
 return
 false
 ;
+}
 size_t
 totalLength
 =
@@ -36601,6 +38109,7 @@ fragments
 (
 )
 )
+{
 totalLength
 +
 =
@@ -36610,6 +38119,7 @@ length
 (
 )
 ;
+}
 Vector
 <
 uint8_t
@@ -36628,9 +38138,11 @@ reserve
 totalLength
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 const
@@ -36741,9 +38253,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -36762,9 +38276,11 @@ Data
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -36783,9 +38299,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstDataSegment
@@ -36809,9 +38327,11 @@ e
 segment
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -36849,9 +38369,11 @@ offsetIfActive
 )
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -36870,9 +38392,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 const
@@ -36901,9 +38425,11 @@ index
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -36933,9 +38459,11 @@ empty
 (
 )
 )
+{
 return
 true
 ;
+}
 size_t
 offset
 ;
@@ -36954,9 +38482,11 @@ Elem
 offset
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -36975,9 +38505,11 @@ length
 )
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 AstElemSegment
@@ -37001,9 +38533,11 @@ e
 segment
 )
 )
+{
 return
 false
 ;
+}
 }
 e
 .
@@ -37048,9 +38582,11 @@ writeFixedU32
 MagicNumber
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37061,9 +38597,11 @@ writeFixedU32
 EncodingVersion
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 ENABLE_WASM_GC
@@ -37076,9 +38614,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 #
 endif
 if
@@ -37090,9 +38630,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37102,9 +38644,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37114,9 +38658,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37126,9 +38672,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37138,9 +38686,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37150,9 +38700,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37162,9 +38714,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37174,9 +38728,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37186,9 +38742,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37199,9 +38757,11 @@ offsets
 module
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -37211,9 +38771,11 @@ e
 module
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -37334,9 +38896,11 @@ writeFixedU8
 byte
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 return
@@ -37396,13 +38960,16 @@ if
 !
 module
 )
+{
 return
 false
 ;
+}
 if
 (
 binary
 )
+{
 return
 EncodeBinaryModule
 (
@@ -37411,6 +38978,7 @@ module
 bytes
 )
 ;
+}
 if
 (
 !
@@ -37421,9 +38989,11 @@ module
 error
 )
 )
+{
 return
 false
 ;
+}
 return
 EncodeModule
 (

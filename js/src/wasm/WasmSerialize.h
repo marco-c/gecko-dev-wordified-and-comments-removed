@@ -40,6 +40,7 @@ if
 (
 nbytes
 )
+{
 memcpy
 (
 dst
@@ -47,6 +48,7 @@ src
 nbytes
 )
 ;
+}
 return
 dst
 +
@@ -75,6 +77,7 @@ if
 (
 nbytes
 )
+{
 memcpy
 (
 dst
@@ -82,6 +85,7 @@ src
 nbytes
 )
 ;
+}
 return
 src
 +
@@ -116,9 +120,11 @@ remain
 <
 nbytes
 )
+{
 return
 nullptr
 ;
+}
 memcpy
 (
 dst
@@ -253,9 +259,11 @@ sizeof
 dst
 )
 )
+{
 return
 nullptr
 ;
+}
 memcpy
 (
 dst
@@ -340,6 +348,7 @@ i
 +
 +
 )
+{
 size
 +
 =
@@ -352,6 +361,7 @@ serializedSize
 (
 )
 ;
+}
 return
 size
 ;
@@ -420,6 +430,7 @@ i
 +
 +
 )
+{
 cursor
 =
 vec
@@ -432,6 +443,7 @@ serialize
 cursor
 )
 ;
+}
 return
 cursor
 ;
@@ -493,9 +505,11 @@ resize
 length
 )
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 size_t
@@ -537,9 +551,11 @@ cursor
 )
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 cursor
@@ -592,6 +608,7 @@ t
 :
 vec
 )
+{
 size
 +
 =
@@ -602,6 +619,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+}
 return
 size
 ;
@@ -778,9 +796,11 @@ initLengthUninitialized
 length
 )
 )
+{
 return
 nullptr
 ;
+}
 cursor
 =
 ReadBytes
@@ -869,9 +889,11 @@ initLengthUninitialized
 length
 )
 )
+{
 return
 nullptr
 ;
+}
 cursor
 =
 ReadBytesChecked

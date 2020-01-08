@@ -488,6 +488,7 @@ u
 .
 ptr_
 )
+{
 JSObject
 :
 :
@@ -505,6 +506,7 @@ u
 ptr_
 )
 ;
+}
 return
 ;
 }
@@ -549,6 +551,7 @@ u
 .
 ptr_
 )
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -565,6 +568,7 @@ global
 "
 )
 ;
+}
 }
 bool
 wasm
@@ -1171,9 +1175,11 @@ numTypes
 >
 sMaxTypes
 )
+{
 return
 true
 ;
+}
 if
 (
 funcType
@@ -1202,9 +1208,11 @@ ret
 )
 )
 )
+{
 return
 true
 ;
+}
 for
 (
 ValType
@@ -1225,9 +1233,11 @@ IsImmediateType
 v
 )
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -1621,9 +1631,11 @@ length
 (
 )
 )
+{
 return
 false
 ;
+}
 uint32_t
 limit
 =
@@ -2487,6 +2499,7 @@ i
 *
 1024
 )
+{
 i
 =
 i
@@ -2501,7 +2514,9 @@ i
 :
 0
 ;
+}
 else
+{
 i
 =
 (
@@ -2513,6 +2528,7 @@ i
 ~
 0x00ffffff
 ;
+}
 MOZ_ASSERT
 (
 IsValidARMImmediate
@@ -2886,9 +2902,11 @@ locals
 argsLength
 )
 )
+{
 return
 false
 ;
+}
 BaseLocalIter
 iter
 (
@@ -2915,10 +2933,12 @@ index
 <
 localIndex
 )
+{
 iter
 +
 +
 ;
+}
 MOZ_ALWAYS_TRUE
 (
 !
@@ -3470,9 +3490,11 @@ empty
 (
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -3499,6 +3521,7 @@ Trap
 Limit
 )
 )
+{
 (
 *
 this
@@ -3511,6 +3534,7 @@ clear
 (
 )
 ;
+}
 }
 void
 TrapSiteVectorArray
@@ -3536,6 +3560,7 @@ Trap
 Limit
 )
 )
+{
 (
 *
 this
@@ -3552,6 +3577,7 @@ trap
 ]
 )
 ;
+}
 }
 void
 TrapSiteVectorArray
@@ -3574,6 +3600,7 @@ Trap
 Limit
 )
 )
+{
 (
 *
 this
@@ -3586,6 +3613,7 @@ podResizeToFit
 (
 )
 ;
+}
 }
 size_t
 TrapSiteVectorArray
@@ -3614,6 +3642,7 @@ Trap
 Limit
 )
 )
+{
 ret
 +
 =
@@ -3628,6 +3657,7 @@ trap
 ]
 )
 ;
+}
 return
 ret
 ;
@@ -3658,6 +3688,7 @@ Trap
 Limit
 )
 )
+{
 cursor
 =
 SerializePodVector
@@ -3672,6 +3703,7 @@ trap
 ]
 )
 ;
+}
 return
 cursor
 ;
@@ -3724,9 +3756,11 @@ if
 !
 cursor
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 cursor
@@ -3761,6 +3795,7 @@ Trap
 Limit
 )
 )
+{
 ret
 +
 =
@@ -3777,6 +3812,7 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+}
 return
 ret
 ;
@@ -4396,9 +4432,11 @@ target
 match
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 &
 codeRanges
@@ -4454,9 +4492,11 @@ if
 !
 allocatedBase
 )
+{
 return
 nullptr
 ;
+}
 auto
 *
 tlsData
