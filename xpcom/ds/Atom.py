@@ -10,6 +10,11 @@ __init__
 self
 ident
 string
+ty
+=
+"
+nsStaticAtom
+"
 )
 :
         
@@ -24,3 +29,9 @@ self
 string
 =
 string
+        
+self
+.
+ty
+=
+ty
