@@ -20,9 +20,6 @@ namespace
 dom
 {
 class
-AbortController
-;
-class
 AbortSignal
 ;
 class
@@ -92,9 +89,9 @@ DOMEventTargetHelper
 )
 AbortSignal
 (
-AbortController
+nsIGlobalObject
 *
-aController
+aGlobalObject
 bool
 aAborted
 )
@@ -166,12 +163,6 @@ AbortSignal
 )
 =
 default
-;
-RefPtr
-<
-AbortController
->
-mController
 ;
 nsTArray
 <
