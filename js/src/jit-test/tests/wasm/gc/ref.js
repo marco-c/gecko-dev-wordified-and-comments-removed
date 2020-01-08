@@ -86,6 +86,8 @@ odd
 struct
 (
 field
+odd
+.
 x
 i32
 )
@@ -106,6 +108,8 @@ even
 struct
 (
 field
+even
+.
 x
 i32
 )
