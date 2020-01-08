@@ -117,11 +117,6 @@ dom
 =
 [
 '
-MerchantValidationEvent
-.
-h
-'
-'
 PaymentAddress
 .
 h
@@ -158,11 +153,6 @@ UNIFIED_SOURCES
 [
 '
 BasicCardPayment
-.
-cpp
-'
-'
-MerchantValidationEvent
 .
 cpp
 '

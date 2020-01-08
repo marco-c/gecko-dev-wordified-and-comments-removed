@@ -4128,11 +4128,6 @@ MenuBoxObject
 webidl
 '
 '
-MerchantValidationEvent
-.
-webidl
-'
-'
 MessageChannel
 .
 webidl
