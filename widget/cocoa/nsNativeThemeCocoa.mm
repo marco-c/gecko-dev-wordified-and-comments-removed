@@ -18578,7 +18578,7 @@ ComputeWidgetInfo
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -21755,7 +21755,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -23483,7 +23483,7 @@ aManager
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -24803,7 +24803,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -25414,7 +25414,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -25530,7 +25530,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsRect
 *
@@ -25879,7 +25879,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntSize
 *
@@ -27532,7 +27532,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsAtom
 *
@@ -27962,7 +27962,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -28769,7 +28769,7 @@ nsNativeThemeCocoa
 :
 WidgetIsContainer
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -28891,7 +28891,7 @@ nsNativeThemeCocoa
 :
 ThemeDrawsFocusForWidget
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -29020,7 +29020,7 @@ nsNativeThemeCocoa
 :
 WidgetAppearanceDependsOnWindowFocus
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -29263,7 +29263,7 @@ NeedToClearBackgroundBehindWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -29437,7 +29437,7 @@ ThemeGeometryTypeForWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -29676,7 +29676,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {

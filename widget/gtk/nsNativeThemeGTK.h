@@ -86,7 +86,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -142,7 +142,7 @@ aManager
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -161,7 +161,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -175,7 +175,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -193,7 +193,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsRect
 *
@@ -210,7 +210,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 mozilla
 :
@@ -230,7 +230,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsAtom
 *
@@ -263,7 +263,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -274,7 +274,7 @@ bool
 )
 WidgetIsContainer
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -285,7 +285,7 @@ bool
 )
 ThemeDrawsFocusForWidget
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -304,7 +304,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -313,7 +313,7 @@ virtual
 bool
 WidgetAppearanceDependsOnWindowFocus
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -351,7 +351,7 @@ aFrame
 bool
 GetGtkWidgetAndState
 (
-WidgetType
+StyleAppearance
 aWidgetType
 nsIFrame
 *
@@ -373,7 +373,7 @@ GetExtraSizeForWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsIntMargin
 *
@@ -383,7 +383,7 @@ aExtra
 bool
 IsWidgetVisible
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 ;
@@ -398,7 +398,7 @@ aFrame
 WidgetNodeType
 NativeThemeToGtkTheme
 (
-WidgetType
+StyleAppearance
 aWidgetType
 nsIFrame
 *
@@ -463,7 +463,7 @@ GetCachedWidgetBorder
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 GtkTextDirection
 aDirection

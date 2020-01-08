@@ -126,7 +126,7 @@ mozilla
 LayoutDeviceIntMargin
 ;
 using
-WidgetType
+StyleAppearance
 =
 mozilla
 :
@@ -148,7 +148,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -206,7 +206,7 @@ aManager
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -229,7 +229,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 =
@@ -245,7 +245,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -264,7 +264,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsRect
 *
@@ -284,7 +284,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 mozilla
 :
@@ -316,7 +316,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -330,7 +330,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsAtom
 *
@@ -357,7 +357,7 @@ virtual
 bool
 WidgetAppearanceDependsOnWindowFocus
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -372,7 +372,7 @@ NeedToClearBackgroundBehindWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -398,7 +398,7 @@ ThemeGeometryTypeForWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {
@@ -416,7 +416,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 =
@@ -426,7 +426,7 @@ virtual
 bool
 WidgetIsContainer
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 =
@@ -436,7 +436,7 @@ virtual
 bool
 ThemeDrawsFocusForWidget
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 =

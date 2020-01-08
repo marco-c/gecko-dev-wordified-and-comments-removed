@@ -717,6 +717,7 @@ static
 bool
 IsWidgetTypeDisabled
 (
+const
 uint8_t
 *
 aDisabledVector
@@ -5788,7 +5789,7 @@ nsNativeThemeGTK
 :
 IsWidgetVisible
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 {

@@ -132,7 +132,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -155,7 +155,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -169,7 +169,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -187,7 +187,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsRect
 *
@@ -204,7 +204,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 mozilla
 :
@@ -225,7 +225,7 @@ GetWidgetTransparency
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -236,7 +236,7 @@ WidgetStateChanged
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 nsAtom
 *
@@ -266,7 +266,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -274,7 +274,7 @@ override
 bool
 WidgetIsContainer
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -282,7 +282,7 @@ override
 bool
 ThemeDrawsFocusForWidget
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -297,7 +297,7 @@ virtual
 bool
 WidgetAppearanceDependsOnWindowFocus
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -318,7 +318,7 @@ ThemeGeometryTypeForWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 override
@@ -338,14 +338,14 @@ nsUXThemeClass
 >
 GetThemeClass
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 ;
 HANDLE
 GetTheme
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 ;
@@ -355,7 +355,7 @@ GetThemePartAndState
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 int32_t
 &
@@ -371,7 +371,7 @@ ClassicGetThemePartAndState
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 int32_t
 &
@@ -393,7 +393,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -415,7 +415,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 ;
@@ -428,7 +428,7 @@ aContext
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 LayoutDeviceIntMargin
 *
@@ -441,7 +441,7 @@ ClassicGetMinimumWidgetSize
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 mozilla
 :
@@ -460,7 +460,7 @@ ClassicThemeSupportsWidget
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 ;
@@ -496,7 +496,7 @@ mozilla
 ComputedStyle
 *
 aStyle
-WidgetType
+StyleAppearance
 aWidgetType
 const
 nsRect
@@ -511,7 +511,7 @@ aClipRect
 uint32_t
 GetWidgetNativeDrawingFlags
 (
-WidgetType
+StyleAppearance
 aWidgetType
 )
 ;
@@ -521,7 +521,7 @@ StandardGetState
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 bool
 wantFocused
@@ -533,7 +533,7 @@ IsMenuActive
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 )
 ;
@@ -560,7 +560,7 @@ DrawThemedProgressMeter
 nsIFrame
 *
 aFrame
-WidgetType
+StyleAppearance
 aWidgetType
 HANDLE
 aTheme
@@ -586,7 +586,7 @@ HANDLE
 aTheme
 nsUXThemeClass
 aThemeClass
-WidgetType
+StyleAppearance
 aWidgetType
 int32_t
 aPart
@@ -604,7 +604,7 @@ HANDLE
 aTheme
 nsUXThemeClass
 aThemeClass
-WidgetType
+StyleAppearance
 aWidgetType
 int32_t
 aPart
