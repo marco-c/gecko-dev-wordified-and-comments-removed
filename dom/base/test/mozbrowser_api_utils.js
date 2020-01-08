@@ -20,10 +20,6 @@ sendMouseEvent
 :
 {
 }
-sendTouchEvent
-:
-{
-}
 goBack
 :
 {
