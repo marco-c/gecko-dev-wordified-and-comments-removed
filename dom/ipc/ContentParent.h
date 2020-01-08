@@ -5348,6 +5348,10 @@ Principal
 &
 aParentPrincipal
 const
+Principal
+&
+aTrackingPrincipal
+const
 nsCString
 &
 aTrackingOrigin
@@ -5355,6 +5359,10 @@ const
 nsCString
 &
 aGrantedOrigin
+const
+bool
+&
+aAnySite
 FirstPartyStorageAccessGrantedForOriginResolver
 &
 &

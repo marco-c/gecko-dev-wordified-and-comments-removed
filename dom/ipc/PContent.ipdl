@@ -6299,10 +6299,14 @@ FirstPartyStorageAccessGrantedForOrigin
 (
 Principal
 aParentPrincipal
+Principal
+aTrackingPrincipal
 nsCString
 aTrackingOrigin
 nsCString
 aGrantedOrigin
+bool
+aAnySite
 )
 returns
 (

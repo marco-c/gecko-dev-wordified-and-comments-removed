@@ -142,6 +142,11 @@ persistent
 -
 storage
 "
+"
+storage
+-
+access
+"
 ]
 ;
 if
@@ -978,6 +983,11 @@ install
 "
 "
 shortcuts
+"
+"
+storage
+-
+access
 "
 ]
 ;

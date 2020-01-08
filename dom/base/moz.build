@@ -1917,6 +1917,11 @@ ShadowRoot
 cpp
 '
 '
+StorageAccessPermissionRequest
+.
+cpp
+'
+'
 StructuredCloneBlob
 .
 cpp
