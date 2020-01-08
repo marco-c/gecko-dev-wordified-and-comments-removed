@@ -5635,6 +5635,16 @@ label
 void
 branchIfPretenuredGroup
 (
+Register
+group
+Label
+*
+label
+)
+;
+void
+branchIfPretenuredGroup
+(
 const
 ObjectGroup
 *

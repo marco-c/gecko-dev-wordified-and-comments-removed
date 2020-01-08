@@ -419,6 +419,12 @@ CacheKind
 :
 GetIntrinsic
 :
+case
+CacheKind
+:
+:
+NewObject
+:
 MOZ_CRASH
 (
 "

@@ -10626,6 +10626,12 @@ case
 CacheKind
 :
 :
+NewObject
+:
+case
+CacheKind
+:
+:
 GetIntrinsic
 :
 MOZ_ASSERT
