@@ -6595,8 +6595,6 @@ atEnd
 )
 )
 return
-CodeUnitValue
-(
 this
 -
 >
@@ -6604,7 +6602,6 @@ sourceUnits
 .
 getCodeUnit
 (
-)
 )
 ;
 anyCharsAccess
@@ -7864,12 +7861,6 @@ CharsBase
 :
 :
 peekCodeUnit
-;
-using
-CharsBase
-:
-:
-toCharT
 ;
 using
 GeneralCharsBase
