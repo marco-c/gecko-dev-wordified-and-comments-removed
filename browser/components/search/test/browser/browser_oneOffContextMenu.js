@@ -392,6 +392,8 @@ search
 /
 test
 /
+browser
+/
 "
 "
 Expected

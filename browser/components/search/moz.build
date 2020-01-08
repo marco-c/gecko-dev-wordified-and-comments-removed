@@ -93,11 +93,15 @@ BROWSER_CHROME_MANIFESTS
 test
 /
 browser
+/
+browser
 .
 ini
 '
 '
 test
+/
+browser
 /
 google_codes
 /
@@ -112,6 +116,8 @@ TESTING_JS_MODULES
 [
 '
 test
+/
+browser
 /
 SearchTestUtils
 .

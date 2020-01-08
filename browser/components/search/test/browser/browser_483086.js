@@ -164,6 +164,8 @@ search
 /
 test
 /
+browser
+/
 483086
 -
 1
@@ -339,6 +341,8 @@ components
 search
 /
 test
+/
+browser
 /
 483086
 -

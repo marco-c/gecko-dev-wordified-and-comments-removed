@@ -499,6 +499,8 @@ search
 /
 test
 /
+browser
+/
 testEngine
 .
 xml

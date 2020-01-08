@@ -48,7 +48,7 @@ search
 <
 ShortName
 >
-483086a
+483086b
 <
 /
 ShortName
@@ -59,7 +59,7 @@ Description
 Bug
 483086
 Test
-1
+2
 <
 /
 Description
@@ -146,6 +146,8 @@ search
 /
 test
 /
+browser
+/
 ?
 search
 "
@@ -175,7 +177,7 @@ moz
 :
 SearchForm
 >
-foo
+http
 :
 /
 /

@@ -46,6 +46,8 @@ search
 /
 test
 /
+browser
+/
 head
 .
 js
@@ -125,6 +127,8 @@ components
 search
 /
 test
+/
+browser
 /
 "
 }
