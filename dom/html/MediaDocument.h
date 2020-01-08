@@ -83,6 +83,16 @@ MediaDocument
 (
 )
 ;
+enum
+MediaDocumentKind
+MediaDocumentKind
+(
+)
+const
+override
+=
+0
+;
 virtual
 nsresult
 Init
