@@ -1261,7 +1261,7 @@ gecko_bindings
 structs
 :
 :
-RawGeckoPresContextOwned
+RawGeckoPresContextBorrowed
 ;
 use
 style
@@ -19752,7 +19752,7 @@ Servo_StyleSet_Init
 (
 pres_context
 :
-RawGeckoPresContextOwned
+RawGeckoPresContextBorrowed
 )
 -
 >

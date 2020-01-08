@@ -438,7 +438,7 @@ RawServoStyleSet
 *
 Servo_StyleSet_Init
 (
-RawGeckoPresContextOwned
+RawGeckoPresContextBorrowed
 pres_context
 )
 ;

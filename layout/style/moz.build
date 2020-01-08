@@ -519,6 +519,11 @@ BindingStyleRule
 h
 '
 '
+BorrowedTypeList
+.
+h
+'
+'
 CachedInheritingStyles
 .
 h

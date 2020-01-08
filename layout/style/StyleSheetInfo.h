@@ -63,6 +63,9 @@ class
 StyleSheet
 ;
 struct
+URLExtraData
+;
+struct
 StyleSheetInfo
 final
 {
