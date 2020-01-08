@@ -1,11 +1,16 @@
+/
 dist
+/
 dist_last
+/
 build
 -
 temp
+/
 tools
 /
 cache
+/
 tools
 /
 _virtualenv
@@ -33,7 +38,9 @@ orig
 Thumbs
 .
 db
+/
 _certs
+/
 config
 .
 json
