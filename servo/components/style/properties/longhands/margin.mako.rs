@@ -195,6 +195,11 @@ side
 [
 1
 ]
+logical_group
+=
+"
+margin
+"
 spec
 =
 spec
