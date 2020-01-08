@@ -11908,6 +11908,12 @@ button
 "
 checkbox
 "
+"
+menulist
+"
+"
+menuitem
+"
 ]
 .
 includes
