@@ -7422,7 +7422,7 @@ isSystem
 true
 isWebExtension
 :
-false
+true
 multiprocessCompatible
 :
 true
