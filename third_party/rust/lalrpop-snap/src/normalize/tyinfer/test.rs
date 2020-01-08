@@ -1432,7 +1432,7 @@ Z
 __lalrpop_util
 :
 :
-ParseError
+ErrorRecovery
 <
 usize
 Token
