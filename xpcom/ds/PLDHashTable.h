@@ -1287,13 +1287,6 @@ this
 private
 :
 static
-const
-uint32_t
-kGoldenRatio
-=
-0x9E3779B9U
-;
-static
 uint32_t
 HashShift
 (
