@@ -398,12 +398,6 @@ load
 .
 html
 load
-363848
--
-1
-.
-xhtml
-load
 364220
 .
 html
@@ -2066,10 +2060,6 @@ load
 .
 html
 load
-472957
-.
-xhtml
-load
 473278
 -
 1
@@ -2198,12 +2188,6 @@ load
 2
 .
 html
-load
-494300
--
-1
-.
-xul
 load
 494332
 -
@@ -2474,10 +2458,6 @@ load
 1
 .
 html
-load
-547338
-.
-xul
 load
 547843
 -
