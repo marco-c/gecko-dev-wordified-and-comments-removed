@@ -788,7 +788,6 @@ Tokenizer
 tokenizer
 (
 cx
-nullptr
 contents
 )
 ;
@@ -882,7 +881,6 @@ Tokenizer
 tokenizer
 (
 cx
-nullptr
 contents
 )
 ;
@@ -983,7 +981,6 @@ Tokenizer
 tokenizer
 (
 cx
-nullptr
 contents
 )
 ;
@@ -1080,7 +1077,6 @@ Tokenizer
 tokenizer
 (
 cx
-nullptr
 contents
 )
 ;
@@ -1245,7 +1241,6 @@ Tokenizer
 tokenizer
 (
 cx
-nullptr
 contents
 )
 ;
@@ -1480,7 +1475,6 @@ Tokenizer
 tokenizer
 (
 cx
-nullptr
 contents
 )
 ;
@@ -1587,7 +1581,6 @@ Tokenizer
 tokenizer
 (
 cx
-nullptr
 contents
 )
 ;
@@ -1762,7 +1755,6 @@ Tokenizer
 tokenizer
 (
 cx
-nullptr
 contents
 )
 ;
