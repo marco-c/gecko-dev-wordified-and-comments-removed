@@ -236,13 +236,6 @@ true
 }
 )
 ;
-let
-mSelectedTabs
-=
-gBrowser
-.
-_multiSelectedTabsSet
-;
 const
 initialFocusedTab
 =
@@ -286,7 +279,9 @@ tab
 multiselected
 &
 &
-mSelectedTabs
+gBrowser
+.
+_multiSelectedTabsSet
 .
 has
 (
@@ -358,7 +353,9 @@ multiselected
 &
 &
 !
-mSelectedTabs
+gBrowser
+.
+_multiSelectedTabsSet
 .
 has
 (

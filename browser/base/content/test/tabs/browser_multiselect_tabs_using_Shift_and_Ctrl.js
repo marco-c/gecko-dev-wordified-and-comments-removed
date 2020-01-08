@@ -478,7 +478,7 @@ down
 await
 triggerClickOn
 (
-tab5
+tab3
 {
 ctrlKey
 :
