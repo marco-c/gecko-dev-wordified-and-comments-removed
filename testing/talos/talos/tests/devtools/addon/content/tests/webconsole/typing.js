@@ -264,13 +264,7 @@ char
 ;
 jsterm
 .
-lastInputValue
-=
-null
-;
-jsterm
-.
-updateAutocompletion
+fetchAutocompletionProperties
 (
 )
 ;
