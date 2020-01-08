@@ -118,6 +118,11 @@ FlexItemSelector
 js
 '
 '
+FlexItemSizingOutline
+.
+js
+'
+'
 FlexItemSizingProperties
 .
 js

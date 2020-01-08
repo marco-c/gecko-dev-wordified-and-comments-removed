@@ -525,6 +525,15 @@ inspector
 layoutview
 .
 gridInspector
+flexboxInspector
+:
+data
+.
+inspector
+.
+layoutview
+.
+flexboxInspector
 layoutView
 :
 data
