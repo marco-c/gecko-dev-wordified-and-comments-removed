@@ -47,10 +47,7 @@ bool
 LockScreenOrientation
 (
 const
-dom
-:
-:
-ScreenOrientationInternal
+ScreenOrientation
 &
 aOrientation
 )

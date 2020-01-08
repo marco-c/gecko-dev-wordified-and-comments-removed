@@ -5,6 +5,15 @@ ClientPrefs
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Preferences
+.
+h
+"
 namespace
 mozilla
 {

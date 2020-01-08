@@ -9,6 +9,17 @@ include
 "
 mozilla
 /
+dom
+/
+WindowBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 PVRManagerChild
