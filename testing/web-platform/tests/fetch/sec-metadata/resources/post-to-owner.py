@@ -107,13 +107,17 @@ dumps
 request
 .
 headers
-[
+.
+get
+(
 "
-sec
+Sec
 -
-metadata
+Metadata
 "
-]
+"
+"
+)
 )
     
 return

@@ -107,6 +107,9 @@ end_headers
 (
 )
     
+try
+:
+      
 header_value
 =
 request
@@ -119,13 +122,6 @@ take
 (
 testId
 )
-    
-if
-header_value
-!
-=
-None
-:
       
 response
 .
@@ -136,6 +132,32 @@ write
 header_value
 )
     
+except
+(
+KeyError
+ValueError
+)
+as
+e
+:
+      
+response
+.
+writer
+.
+write
+(
+"
+No
+header
+has
+been
+recorded
+"
+)
+      
+pass
+    
 response
 .
 close_connection
@@ -145,6 +167,9 @@ True
 else
 :
     
+try
+:
+      
 header
 =
 request
@@ -161,9 +186,6 @@ Metadata
 "
 "
 )
-    
-try
-:
       
 request
 .
@@ -374,6 +396,28 @@ font
 "
 )
 :
+      
+response
+.
+headers
+.
+set
+(
+"
+Content
+-
+Type
+"
+"
+application
+/
+x
+-
+font
+-
+ttf
+"
+)
       
 file
 =
