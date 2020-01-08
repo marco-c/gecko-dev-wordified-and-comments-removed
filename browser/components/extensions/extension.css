@@ -513,14 +513,14 @@ button
 browser
 -
 style
-.
+:
 disabled
 select
 .
 browser
 -
 style
-.
+:
 disabled
 {
 color
@@ -1616,7 +1616,7 @@ pressed
 :
 not
 (
-.
+:
 disabled
 )
 :
@@ -1641,7 +1641,7 @@ pressed
 :
 not
 (
-.
+:
 disabled
 )
 :
@@ -1684,7 +1684,7 @@ hover
 :
 not
 (
-.
+:
 disabled
 )
 :
@@ -1711,7 +1711,7 @@ hover
 :
 not
 (
-.
+:
 disabled
 )
 :
@@ -1754,7 +1754,7 @@ pressed
 :
 not
 (
-.
+:
 disabled
 )
 :
@@ -1799,7 +1799,7 @@ hover
 :
 not
 (
-.
+:
 disabled
 )
 :
@@ -1834,7 +1834,7 @@ focus
 :
 not
 (
-.
+:
 disabled
 )
 {
@@ -2003,14 +2003,14 @@ type
 text
 "
 ]
-.
+:
 disabled
 textarea
 .
 browser
 -
 style
-.
+:
 disabled
 {
 color
@@ -2089,7 +2089,7 @@ text
 :
 not
 (
-.
+:
 disabled
 )
 :
@@ -2102,7 +2102,7 @@ style
 :
 not
 (
-.
+:
 disabled
 )
 :
