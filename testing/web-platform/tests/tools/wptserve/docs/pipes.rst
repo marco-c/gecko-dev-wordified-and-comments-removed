@@ -438,7 +438,7 @@ example
 to
 write
 a
-javascript
+JavaScript
 file
 called
 xhr

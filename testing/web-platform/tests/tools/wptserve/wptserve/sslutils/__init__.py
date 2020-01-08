@@ -63,8 +63,8 @@ s
 is
 not
 a
-vaid
-ssl
+valid
+SSL
 type
 .
 "

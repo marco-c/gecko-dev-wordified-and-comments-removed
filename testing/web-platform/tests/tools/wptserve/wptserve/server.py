@@ -245,7 +245,7 @@ been
 finalised
 Request
 and
-Reponse
+Response
 objects
 are
 constructed
@@ -1025,7 +1025,7 @@ ms
 to
 wait
 before
-seving
+serving
 each
 response
 or
@@ -4087,7 +4087,7 @@ ms
 to
 wait
 before
-seving
+serving
 each
 response
 or
@@ -4221,7 +4221,7 @@ attribute
 started
       
 Boolean
-indictaing
+indictating
 whether
 the
 server

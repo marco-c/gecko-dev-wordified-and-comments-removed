@@ -611,9 +611,9 @@ properties
 are
     
 defined
-byt
+by
 the
-computed_properites
+computed_properties
 attribute
 on
 the
