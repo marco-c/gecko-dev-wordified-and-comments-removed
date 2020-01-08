@@ -782,7 +782,7 @@ nsAppShellConstructor
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 {
 &
@@ -1055,7 +1055,7 @@ kNS_APPSHELL_CID
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 {
 "
@@ -1498,7 +1498,7 @@ nsWidgetWindowsModuleDtor
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 ;
 NSMODULE_DEFN

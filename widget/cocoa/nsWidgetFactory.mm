@@ -742,7 +742,7 @@ mozilla
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 {
 &
@@ -999,7 +999,7 @@ mozilla
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 {
 "
@@ -1408,7 +1408,7 @@ mozilla
 Module
 :
 :
-ALLOW_IN_GPU_PROCESS
+ALLOW_IN_GPU_AND_VR_PROCESS
 }
 ;
 NSMODULE_DEFN
