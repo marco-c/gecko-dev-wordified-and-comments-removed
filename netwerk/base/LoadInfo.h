@@ -446,6 +446,8 @@ bool
 aLoadTriggeredFromExternal
 bool
 aServiceWorkerTaintingSynthesized
+bool
+aDocumentHasUserInteracted
 )
 ;
 LoadInfo
@@ -771,6 +773,9 @@ mIsTracker
 ;
 bool
 mIsTrackerBlocked
+;
+bool
+mDocumentHasUserInteracted
 ;
 }
 ;

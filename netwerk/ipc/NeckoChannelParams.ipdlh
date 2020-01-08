@@ -715,6 +715,9 @@ loadTriggeredFromExternal
 bool
 serviceWorkerTaintingSynthesized
 ;
+bool
+documentHasUserInteracted
+;
 }
 ;
 /
@@ -930,6 +933,9 @@ isTracker
 ;
 bool
 isTrackerBlocked
+;
+bool
+documentHasUserInteracted
 ;
 /
 /
