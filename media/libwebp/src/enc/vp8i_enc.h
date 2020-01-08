@@ -98,7 +98,7 @@ ENC_MIN_VERSION
 #
 define
 ENC_REV_VERSION
-0
+1
 enum
 {
 MAX_LF_LEVELS
@@ -1037,6 +1037,7 @@ const
 it
 uint8_t
 *
+const
 tmp_32
 )
 ;

@@ -109,6 +109,12 @@ red_cost_
 double
 blue_cost_
 ;
+uint8_t
+is_used_
+[
+5
+]
+;
 }
 VP8LHistogram
 ;
@@ -161,6 +167,8 @@ const
 p
 int
 palette_code_bits
+int
+init_arrays
 )
 ;
 void
@@ -203,6 +211,15 @@ int
 size
 int
 cache_bits
+)
+;
+void
+VP8LHistogramSetClear
+(
+VP8LHistogramSet
+*
+const
+set
 )
 ;
 VP8LHistogram
@@ -320,7 +337,6 @@ n
 double
 VP8LHistogramEstimateBits
 (
-const
 VP8LHistogram
 *
 const

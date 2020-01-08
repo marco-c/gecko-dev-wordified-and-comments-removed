@@ -2411,6 +2411,9 @@ lo
 ;
 }
 }
+#
+if
+0
 static
 void
 ExportRowShrink_MIPS32
@@ -3303,6 +3306,8 @@ lo
 ;
 }
 }
+#
+endif
 extern
 void
 WebPRescalerDspInitMIPS32
@@ -3328,10 +3333,6 @@ ImportRowShrink_MIPS32
 WebPRescalerExportRowExpand
 =
 ExportRowExpand_MIPS32
-;
-WebPRescalerExportRowShrink
-=
-ExportRowShrink_MIPS32
 ;
 }
 #
