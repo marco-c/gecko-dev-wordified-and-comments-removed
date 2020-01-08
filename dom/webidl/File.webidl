@@ -162,13 +162,9 @@ lastModified
 ;
 dictionary
 FilePropertyBag
+:
+BlobPropertyBag
 {
-DOMString
-type
-=
-"
-"
-;
 long
 long
 lastModified

@@ -666,7 +666,15 @@ InitializeBlob
 (
 aData
 type
-false
+aBag
+.
+mEndings
+=
+=
+EndingTypes
+:
+:
+Native
 aRv
 )
 ;
