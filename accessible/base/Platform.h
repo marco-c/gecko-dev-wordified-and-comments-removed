@@ -273,10 +273,8 @@ int32_t
 aNewStartOffset
 int32_t
 aNewEndOffset
-int16_t
+uint16_t
 aReason
-int16_t
-aBoundaryType
 bool
 aFromUser
 )
