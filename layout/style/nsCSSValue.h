@@ -719,6 +719,8 @@ already_AddRefed
 URLExtraData
 >
 aExtraData
+CORSMode
+aCORSMode
 )
 :
 URLValueData
@@ -731,10 +733,7 @@ move
 (
 aExtraData
 )
-CORSMode
-:
-:
-CORS_NONE
+aCORSMode
 )
 {
 }

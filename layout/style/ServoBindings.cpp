@@ -6255,6 +6255,10 @@ do_AddRef
 (
 mExtraData
 )
+CORSMode
+:
+:
+CORS_NONE
 )
 ;
 return
