@@ -233,10 +233,10 @@ localhost
 )
 ;
 let
-sslStatus
+secInfo
 =
 new
-FakeSSLStatus
+FakeTransportSecurityInfo
 (
 )
 ;
@@ -257,7 +257,7 @@ age
 =
 10000
 "
-sslStatus
+secInfo
 0
 Ci
 .

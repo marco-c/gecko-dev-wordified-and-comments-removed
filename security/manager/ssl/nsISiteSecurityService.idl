@@ -73,7 +73,7 @@ interface
 nsIHttpChannel
 ;
 interface
-nsISSLStatus
+nsITransportSecurityInfo
 ;
 interface
 nsISimpleEnumerator
@@ -759,9 +759,9 @@ data
 .
 *
 param
-aSSLStatus
+aSecInfo
 the
-SSLStatus
+TransportSecurityInfo
 of
 the
 current
@@ -938,8 +938,8 @@ in
 ACString
 aHeader
 in
-nsISSLStatus
-aSSLStatus
+nsITransportSecurityInfo
+aSecInfo
 in
 uint32_t
 aFlags
@@ -993,8 +993,8 @@ in
 ACString
 aHeader
 in
-nsISSLStatus
-aSSLStatus
+nsITransportSecurityInfo
+aSecInfo
 in
 uint32_t
 aFlags

@@ -164,9 +164,6 @@ STATE_IS_SECURE
 errorCode
 :
 0
-SSLStatus
-:
-{
 cipherSuite
 :
 "
@@ -178,7 +175,6 @@ protocolVersion
 serverCert
 :
 MockCertificate
-}
 }
 ;
 function
