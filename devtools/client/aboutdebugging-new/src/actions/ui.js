@@ -345,6 +345,11 @@ adbAddon
 .
 install
 (
+"
+about
+:
+debugging
+"
 )
 ;
 dispatch
