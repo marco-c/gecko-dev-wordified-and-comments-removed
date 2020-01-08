@@ -2573,7 +2573,7 @@ pn
 >
 isArity
 (
-PN_NAME
+PN_BINARY
 )
 )
 ;
@@ -2581,9 +2581,7 @@ return
 pn
 -
 >
-expr
-(
-)
+pn_left
 ;
 }
 static
@@ -2617,12 +2615,15 @@ pn
 >
 isArity
 (
-PN_NAME
+PN_BINARY
 )
 )
 ;
 return
 pn
+-
+>
+pn_right
 -
 >
 pn_atom
