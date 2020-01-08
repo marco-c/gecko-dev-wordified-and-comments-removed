@@ -1270,7 +1270,7 @@ aAnnotations
 {
 if
 (
-mPaintWhileInterruptingJSForce
+mPaintWhileInterruptingJSActive
 )
 {
 aAnnotations
