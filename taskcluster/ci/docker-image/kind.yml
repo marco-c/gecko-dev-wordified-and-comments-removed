@@ -372,6 +372,10 @@ libxkbcommon
 -
 deb7
 -
+nasm
+-
+deb7
+-
 pango
 -
 deb7
@@ -381,10 +385,6 @@ pcre3
 deb7
 -
 valgrind
--
-deb7
--
-wayland
 args
 :
 ARCH
@@ -496,6 +496,10 @@ gtk3
 deb7
 -
 harfbuzz
+-
+deb7
+-
+nasm
 -
 deb7
 -
