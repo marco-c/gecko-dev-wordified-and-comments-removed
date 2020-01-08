@@ -324,6 +324,17 @@ URIPrincipalReferrerPolicyAndCORSModeHashKey
 )
 ;
 }
+explicit
+URIPrincipalReferrerPolicyAndCORSModeHashKey
+(
+css
+:
+:
+SheetLoadData
+*
+aLoadData
+)
+;
 ~
 URIPrincipalReferrerPolicyAndCORSModeHashKey
 (
