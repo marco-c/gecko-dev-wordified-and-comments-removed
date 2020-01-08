@@ -703,6 +703,9 @@ reject_third_party
 "
 allow_visited
 "
+"
+reject_trackers
+"
 ]
 "
 description
