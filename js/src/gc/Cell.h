@@ -138,6 +138,13 @@ class
 TenuredCell
 ;
 struct
+alignas
+(
+gc
+:
+:
+CellAlignBytes
+)
 Cell
 {
 public

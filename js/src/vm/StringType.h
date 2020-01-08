@@ -5372,9 +5372,6 @@ protected
 HashNumber
 hash_
 ;
-uint32_t
-padding_
-;
 public
 :
 HashNumber
@@ -5463,9 +5460,6 @@ JSString
 ;
 HashNumber
 hash_
-;
-uint32_t
-padding_
 ;
 public
 :
