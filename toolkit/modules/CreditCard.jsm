@@ -18,7 +18,7 @@ defineModuleGetter
 (
 this
 "
-MasterPassword
+OSKeyStore
 "
 "
 resource
@@ -27,7 +27,7 @@ resource
 /
 formautofill
 /
-MasterPassword
+OSKeyStore
 .
 jsm
 "
@@ -800,7 +800,7 @@ _encryptedNumber
 label
 =
 await
-MasterPassword
+OSKeyStore
 .
 decrypt
 (
