@@ -354,11 +354,15 @@ FreePolicy
 >
 bufferData
 (
-js_pod_malloc
+js_pod_arena_malloc
 <
 char
 >
 (
+js
+:
+:
+ArrayBufferContentsArena
 blobSize
 )
 )

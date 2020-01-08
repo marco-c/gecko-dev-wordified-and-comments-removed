@@ -149,11 +149,15 @@ FreePolicy
 >
 data
 (
-js_pod_malloc
+js_pod_arena_malloc
 <
 uint8_t
 >
 (
+js
+:
+:
+ArrayBufferContentsArena
 aBuffer
 .
 Length
