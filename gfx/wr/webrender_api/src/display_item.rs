@@ -1135,7 +1135,7 @@ can_disable_antialiasing
 Unexpected
 disabled
 -
-antialising
+antialiasing
 in
 a
 border
