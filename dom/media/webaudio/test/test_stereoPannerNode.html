@@ -774,6 +774,7 @@ expectedBuffer
 function
 expectedBufferForStereo
 (
+panning
 gain
 )
 {
@@ -810,7 +811,7 @@ gainPanning
 =
 gainForPanningStereoToStereo
 (
-PANNING
+panning
 )
 ;
 gainPanning
@@ -914,6 +915,7 @@ expectedBuffer
 function
 expectedBufferForMono
 (
+panning
 gain
 )
 {
@@ -950,7 +952,7 @@ gainPanning
 =
 gainForPanningMonoToStereo
 (
-PANNING
+panning
 )
 ;
 gainPanning
@@ -1083,8 +1085,9 @@ start
 )
 ;
 return
-expectedBufferNoop
+expectedBufferForMono
 (
+0
 )
 ;
 }
@@ -1191,8 +1194,9 @@ start
 )
 ;
 return
-expectedBufferNoop
+expectedBufferForMono
 (
+0
 GAIN
 )
 ;
@@ -1317,6 +1321,7 @@ start
 return
 expectedBufferForStereo
 (
+PANNING
 )
 ;
 }
@@ -1369,6 +1374,7 @@ start
 return
 expectedBufferForStereo
 (
+PANNING
 )
 ;
 }
@@ -1423,6 +1429,7 @@ start
 return
 expectedBufferForMono
 (
+PANNING
 )
 ;
 }
@@ -1475,6 +1482,7 @@ start
 return
 expectedBufferForMono
 (
+PANNING
 )
 ;
 }
@@ -1551,6 +1559,7 @@ start
 return
 expectedBufferForMono
 (
+PANNING
 GAIN
 )
 ;
@@ -1628,6 +1637,7 @@ start
 return
 expectedBufferForStereo
 (
+PANNING
 GAIN
 )
 ;
@@ -1705,6 +1715,7 @@ start
 return
 expectedBufferForMono
 (
+PANNING
 GAIN
 )
 ;
@@ -1782,6 +1793,7 @@ start
 return
 expectedBufferForStereo
 (
+PANNING
 GAIN
 )
 ;
