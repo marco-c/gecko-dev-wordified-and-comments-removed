@@ -122,6 +122,11 @@ URI_MUST_LOAD_IN_CHILD
 nsIAboutModule
 :
 :
+URI_CAN_LOAD_IN_PRIVILEGED_CHILD
+|
+nsIAboutModule
+:
+:
 URI_SAFE_FOR_UNTRUSTED_CONTENT
 ;
 struct
@@ -528,6 +533,11 @@ nsIAboutModule
 :
 :
 URI_MUST_LOAD_IN_CHILD
+|
+nsIAboutModule
+:
+:
+URI_CAN_LOAD_IN_PRIVILEGED_CHILD
 |
 nsIAboutModule
 :
