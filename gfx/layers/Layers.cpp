@@ -7021,7 +7021,7 @@ mEventRegionsOverride
 ;
 }
 uint32_t
-LayerManager
+FrameRecorder
 :
 :
 StartFrameTimeRecording
@@ -7100,7 +7100,7 @@ mNextIndex
 ;
 }
 void
-LayerManager
+FrameRecorder
 :
 :
 RecordFrame
@@ -7208,7 +7208,7 @@ true
 }
 }
 void
-LayerManager
+FrameRecorder
 :
 :
 StopFrameTimeRecording

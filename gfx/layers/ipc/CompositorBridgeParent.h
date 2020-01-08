@@ -2356,6 +2356,16 @@ mEGLSurfaceSize
 }
 #
 endif
+WebRenderBridgeParent
+*
+GetWrBridge
+(
+)
+{
+return
+mWrBridge
+;
+}
 private
 :
 void
