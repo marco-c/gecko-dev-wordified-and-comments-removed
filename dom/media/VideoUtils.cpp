@@ -1396,16 +1396,10 @@ minStackSize
 }
 }
 return
-already_AddRefed
-<
-SharedThreadPool
->
-(
 pool
 .
 forget
 (
-)
 )
 ;
 }
