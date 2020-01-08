@@ -177,11 +177,6 @@ shape
 (
 flexItemProperties
 )
-shown
-:
-PropTypes
-.
-bool
 }
 ;
 const
@@ -267,6 +262,11 @@ shape
 flexItem
 )
 )
+flexItemShown
+:
+PropTypes
+.
+string
 highlighted
 :
 PropTypes
