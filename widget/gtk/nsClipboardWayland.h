@@ -155,6 +155,7 @@ DataOffer
 {
 public
 :
+explicit
 WaylandDataOffer
 (
 wl_data_offer
@@ -246,6 +247,7 @@ DataOffer
 {
 public
 :
+explicit
 PrimaryDataOffer
 (
 gtk_primary_selection_offer
