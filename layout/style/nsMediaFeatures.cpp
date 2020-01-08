@@ -123,10 +123,9 @@ mozilla
 static
 nsTArray
 <
-RefPtr
-<
-nsAtom
->
+const
+nsStaticAtom
+*
 >
 *
 sSystemMetrics
@@ -147,7 +146,7 @@ mId
 ;
 nsStaticAtom
 *
-*
+const
 mName
 ;
 }
@@ -164,7 +163,6 @@ LookAndFeel
 :
 :
 eOperatingSystemVersion_Windows7
-&
 nsGkAtoms
 :
 :
@@ -175,7 +173,6 @@ LookAndFeel
 :
 :
 eOperatingSystemVersion_Windows8
-&
 nsGkAtoms
 :
 :
@@ -186,7 +183,6 @@ LookAndFeel
 :
 :
 eOperatingSystemVersion_Windows10
-&
 nsGkAtoms
 :
 :
@@ -1016,7 +1012,6 @@ mId
 )
 {
 return
-*
 osVersion
 .
 mName
@@ -1235,10 +1230,9 @@ sSystemMetrics
 new
 nsTArray
 <
-RefPtr
-<
-nsAtom
->
+const
+nsStaticAtom
+*
 >
 ;
 int32_t
