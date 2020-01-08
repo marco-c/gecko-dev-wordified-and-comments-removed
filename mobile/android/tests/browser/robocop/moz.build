@@ -146,11 +146,6 @@ robocop
 .
 ini
 '
-'
-robocop_autophone2
-.
-ini
-'
 ]
 TEST_HARNESS_FILES
 .

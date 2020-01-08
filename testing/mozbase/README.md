@@ -50,10 +50,8 @@ degree
 including
 Talos
 mochitest
-reftest
-Autophone
 and
-Eideticker
+reftest
 .
 Learn
 more
