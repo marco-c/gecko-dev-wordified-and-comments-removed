@@ -1521,6 +1521,7 @@ id
 property
 )
 }
+pub
 fn
 shorthand_to_css
 (
