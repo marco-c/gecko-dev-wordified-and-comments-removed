@@ -9422,6 +9422,11 @@ clearHasScriptCounts
 (
 )
 ;
+void
+resetScriptCounts
+(
+)
+;
 jsbytecode
 *
 main
