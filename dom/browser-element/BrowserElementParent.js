@@ -3988,8 +3988,6 @@ listeners
 try
 {
 listener
-.
-recvNextPaint
 (
 )
 ;
