@@ -220,6 +220,7 @@ texture_cache
 {
 TextureCache
 TextureCacheHandle
+Eviction
 }
 ;
 use
@@ -5751,6 +5752,10 @@ render_task
 uv_rect_kind
 (
 )
+Eviction
+:
+:
+Auto
 )
 ;
 let

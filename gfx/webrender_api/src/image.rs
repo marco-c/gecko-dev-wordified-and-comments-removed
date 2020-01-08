@@ -1176,9 +1176,9 @@ struct
 RasterizedBlobImage
 {
 pub
-size
+rasterized_rect
 :
-DeviceUintSize
+DeviceUintRect
 pub
 data
 :

@@ -778,11 +778,9 @@ new
 (
 texels
 )
-size
+rasterized_rect
 :
-descriptor
-.
-size
+dirty_rect
 }
 )
 }
