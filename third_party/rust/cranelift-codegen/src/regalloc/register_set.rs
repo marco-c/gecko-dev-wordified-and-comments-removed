@@ -338,8 +338,9 @@ bits
 :
 {
 }
-not
-allocated
+is
+already
+free
 in
 {
 }

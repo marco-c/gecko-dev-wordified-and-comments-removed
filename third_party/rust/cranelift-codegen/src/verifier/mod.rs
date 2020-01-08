@@ -2358,7 +2358,7 @@ format
 ;
 }
 let
-fixed_results
+num_fixed_results
 =
 inst_data
 .
@@ -2370,7 +2370,7 @@ constraints
 (
 )
 .
-fixed_results
+num_fixed_results
 (
 )
 ;
@@ -2407,7 +2407,7 @@ len
 let
 total_results
 =
-fixed_results
+num_fixed_results
 +
 var_results
 ;
@@ -4038,6 +4038,8 @@ loc_inst
 "
 uses
 value
+{
+}
 from
 non
 -
@@ -4045,6 +4047,7 @@ dominating
 {
 }
 "
+v
 def_inst
 )
 ;
@@ -4064,15 +4067,12 @@ loc_inst
 "
 uses
 value
+{
+}
 from
 itself
-{
-}
-{
-}
 "
-def_inst
-loc_inst
+v
 )
 ;
 }

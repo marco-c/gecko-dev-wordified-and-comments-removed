@@ -1842,7 +1842,7 @@ Value
 ]
 {
 let
-fixed_args
+num_fixed_args
 =
 self
 [
@@ -1857,7 +1857,7 @@ constraints
 (
 )
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 ;
@@ -1871,7 +1871,7 @@ inst
 [
 .
 .
-fixed_args
+num_fixed_args
 ]
 }
 pub
@@ -1894,7 +1894,7 @@ Value
 ]
 {
 let
-fixed_args
+num_fixed_args
 =
 self
 [
@@ -1909,7 +1909,7 @@ constraints
 (
 )
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 ;
@@ -1924,7 +1924,7 @@ inst
 [
 .
 .
-fixed_args
+num_fixed_args
 ]
 }
 pub
@@ -1945,7 +1945,7 @@ Value
 ]
 {
 let
-fixed_args
+num_fixed_args
 =
 self
 [
@@ -1960,7 +1960,7 @@ constraints
 (
 )
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 ;
@@ -1972,7 +1972,7 @@ inst_args
 inst
 )
 [
-fixed_args
+num_fixed_args
 .
 .
 ]
@@ -1997,7 +1997,7 @@ Value
 ]
 {
 let
-fixed_args
+num_fixed_args
 =
 self
 [
@@ -2012,7 +2012,7 @@ constraints
 (
 )
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 ;
@@ -2025,7 +2025,7 @@ inst_args_mut
 inst
 )
 [
-fixed_args
+num_fixed_args
 .
 .
 ]
@@ -2156,7 +2156,7 @@ constraints
 (
 )
 .
-fixed_results
+num_fixed_results
 (
 )
 0
@@ -2288,7 +2288,7 @@ num_results
 =
 constraints
 .
-fixed_results
+num_fixed_results
 (
 )
 ;
@@ -3109,18 +3109,18 @@ constraints
 )
 ;
 let
-fixed_results
+num_fixed_results
 =
 constraints
 .
-fixed_results
+num_fixed_results
 (
 )
 ;
 if
 result_idx
 <
-fixed_results
+num_fixed_results
 {
 return
 Some
@@ -3161,7 +3161,7 @@ get
 (
 result_idx
 -
-fixed_results
+num_fixed_results
 )
 .
 map
@@ -4551,7 +4551,7 @@ constraints
 (
 )
 .
-fixed_results
+num_fixed_results
 (
 )
 0
@@ -4647,7 +4647,7 @@ in
 .
 constraints
 .
-fixed_results
+num_fixed_results
 (
 )
 {

@@ -1573,7 +1573,6 @@ convention
 )
 }
 }
-pub
 fn
 baldrdash_prologue_epilogue
 (
@@ -1727,7 +1726,6 @@ Ok
 )
 )
 }
-pub
 fn
 fastcall_prologue_epilogue
 (
@@ -2109,7 +2107,6 @@ Ok
 )
 )
 }
-pub
 fn
 system_v_prologue_epilogue
 (

@@ -80,6 +80,13 @@ binary_reader
 :
 BinaryReader
 ;
+pub
+use
+binary_reader
+:
+:
+Range
+;
 use
 binary_reader
 :
@@ -120,13 +127,6 @@ parser
 :
 :
 ParserState
-;
-pub
-use
-parser
-:
-:
-Range
 ;
 pub
 use

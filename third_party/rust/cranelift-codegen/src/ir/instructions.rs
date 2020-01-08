@@ -1374,7 +1374,7 @@ flags
 }
 pub
 fn
-fixed_results
+num_fixed_results
 (
 self
 )
@@ -1394,7 +1394,7 @@ usize
 }
 pub
 fn
-fixed_value_arguments
+num_fixed_value_arguments
 (
 self
 )
@@ -1499,7 +1499,7 @@ n
 <
 self
 .
-fixed_results
+num_fixed_results
 (
 )
 "
@@ -1578,7 +1578,7 @@ n
 <
 self
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 "
@@ -1600,7 +1600,7 @@ constraint_offset
 +
 self
 .
-fixed_results
+num_fixed_results
 (
 )
 ;
@@ -2540,7 +2540,7 @@ assert_eq
 (
 a
 .
-fixed_results
+num_fixed_results
 (
 )
 1
@@ -2551,7 +2551,7 @@ assert_eq
 (
 a
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 2
@@ -2684,7 +2684,7 @@ assert_eq
 (
 b
 .
-fixed_results
+num_fixed_results
 (
 )
 1
@@ -2695,7 +2695,7 @@ assert_eq
 (
 b
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 1
@@ -2804,7 +2804,7 @@ assert_eq
 (
 c
 .
-fixed_results
+num_fixed_results
 (
 )
 0
@@ -2815,7 +2815,7 @@ assert_eq
 (
 c
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 0
@@ -2838,7 +2838,7 @@ assert_eq
 (
 i
 .
-fixed_results
+num_fixed_results
 (
 )
 0
@@ -2849,7 +2849,7 @@ assert_eq
 (
 i
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 1
@@ -2892,7 +2892,7 @@ assert_eq
 (
 cmp
 .
-fixed_results
+num_fixed_results
 (
 )
 1
@@ -2903,7 +2903,7 @@ assert_eq
 (
 cmp
 .
-fixed_value_arguments
+num_fixed_value_arguments
 (
 )
 2
