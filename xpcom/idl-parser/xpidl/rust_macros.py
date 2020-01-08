@@ -139,6 +139,11 @@ ret
 '
 :
 '
+:
+:
+nserror
+:
+:
 nsresult
 '
     
