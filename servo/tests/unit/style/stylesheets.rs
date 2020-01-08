@@ -857,15 +857,6 @@ local_name
 type
 "
 )
-local_name_lower
-:
-local_name
-!
-(
-"
-type
-"
-)
 operator
 :
 AttrSelectorOperator
