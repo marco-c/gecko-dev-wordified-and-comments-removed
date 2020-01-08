@@ -3875,7 +3875,11 @@ background
 white
 ;
 }
-hbox
+moz
+-
+input
+-
+box
 .
 urlbar
 -
@@ -3886,6 +3890,10 @@ box
 position
 :
 relative
+;
+direction
+:
+ltr
 ;
 }
 html
@@ -3904,10 +3912,6 @@ height
 :
 100
 %
-;
-left
-:
-0
 ;
 visibility
 :
