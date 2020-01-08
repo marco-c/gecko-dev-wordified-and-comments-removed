@@ -460,7 +460,7 @@ Ci
 .
 nsIContentPolicy
 .
-REJECT
+REJECT_REQUEST
 ;
 }
 }
