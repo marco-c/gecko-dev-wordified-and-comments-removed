@@ -1183,14 +1183,10 @@ is_invertible
 )
 ;
 if
-!
 info
 .
 invertible
 {
-return
-;
-}
 match
 ScaleOffset
 :
@@ -1293,6 +1289,7 @@ push
 coord_system
 )
 ;
+}
 }
 }
 self
