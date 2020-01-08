@@ -160,6 +160,11 @@ HalWakeLock
 .
 h
 '
+'
+HalWakeLockInformation
+.
+h
+'
 ]
 EXPORTS
 .
