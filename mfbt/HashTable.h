@@ -6430,17 +6430,6 @@ while
 true
 )
 {
-MOZ_ASSERT
-(
-!
-entry
--
->
-isRemoved
-(
-)
-)
-;
 entry
 -
 >
