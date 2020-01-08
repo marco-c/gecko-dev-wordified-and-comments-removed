@@ -224,6 +224,15 @@ className
 aboutdebugging
 -
 button
+js
+-
+temporary
+-
+extension
+-
+install
+-
+button
 "
 onClick
 :
