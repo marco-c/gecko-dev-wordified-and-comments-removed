@@ -132,6 +132,13 @@ storage
 "
 )
 ;
+const
+HIGHLIGHTER_TYPE
+=
+"
+CssGridHighlighter
+"
+;
 var
 simulateColorPickerChange
 =

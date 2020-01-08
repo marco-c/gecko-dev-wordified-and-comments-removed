@@ -554,6 +554,13 @@ this
 .
 props
 ;
+const
+{
+nodeFront
+}
+=
+grid
+;
 return
 (
 dom
@@ -578,11 +585,6 @@ checked
 grid
 .
 highlighted
-disabled
-:
-grid
-.
-disabled
 type
 :
 "
@@ -615,8 +617,6 @@ object
 :
 translateNodeFrontToGrip
 (
-grid
-.
 nodeFront
 )
 onDOMNodeMouseOut
@@ -636,8 +636,6 @@ onDOMNodeMouseOver
 >
 onShowBoxModelHighlighterForNode
 (
-grid
-.
 nodeFront
 )
 onInspectIconClick
@@ -650,8 +648,6 @@ this
 .
 onGridInspectIconClick
 (
-grid
-.
 nodeFront
 )
 }
