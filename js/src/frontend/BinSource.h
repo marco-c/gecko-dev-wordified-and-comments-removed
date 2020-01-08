@@ -271,11 +271,11 @@ tempPoolMark_
 ParseNodeAllocator
 nodeAlloc_
 ;
+protected
+:
 AutoKeepAtoms
 keepAtoms_
 ;
-protected
-:
 ParseContext
 *
 parseContext_

@@ -36,15 +36,6 @@ include
 "
 vm
 /
-JSContext
-.
-h
-"
-#
-include
-"
-vm
-/
 ReceiverGuard
 .
 h

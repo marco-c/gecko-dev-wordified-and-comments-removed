@@ -43,15 +43,6 @@ include
 "
 vm
 /
-StringType
-.
-h
-"
-#
-include
-"
-vm
-/
 TraceLogging
 .
 h

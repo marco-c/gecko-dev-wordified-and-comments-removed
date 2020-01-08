@@ -34,6 +34,15 @@ AutoByteString
 .
 h
 "
+#
+include
+"
+vm
+/
+GlobalObject
+.
+h
+"
 using
 namespace
 js

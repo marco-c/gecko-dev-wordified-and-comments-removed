@@ -5,6 +5,15 @@ frontend_BinSource_macros_h
 define
 frontend_BinSource_macros_h
 #
+include
+"
+vm
+/
+JSContext
+.
+h
+"
+#
 define
 BINJS_TRY
 (
