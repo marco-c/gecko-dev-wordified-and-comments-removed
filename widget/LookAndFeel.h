@@ -237,6 +237,7 @@ eIntID_ScrollbarFadeDuration
 eIntID_ContextMenuOffsetVertical
 eIntID_ContextMenuOffsetHorizontal
 eIntID_GTKCSDAvailable
+eIntID_GTKCSDTransparentBackground
 eIntID_GTKCSDMinimizeButton
 eIntID_GTKCSDMaximizeButton
 eIntID_GTKCSDCloseButton

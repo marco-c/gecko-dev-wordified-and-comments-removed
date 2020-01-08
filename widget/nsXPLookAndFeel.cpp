@@ -470,6 +470,16 @@ false
 "
 ui
 .
+GtkCSDTransparentBackground
+"
+eIntID_GTKCSDTransparentBackground
+false
+0
+}
+{
+"
+ui
+.
 GtkCSDMinimizeButton
 "
 eIntID_GTKCSDMinimizeButton

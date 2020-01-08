@@ -935,6 +935,9 @@ break
 case
 eIntID_GTKCSDAvailable
 :
+case
+eIntID_GTKCSDTransparentBackground
+:
 aResult
 =
 0
