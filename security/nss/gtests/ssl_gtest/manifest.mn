@@ -252,6 +252,10 @@ tls_protect
 .
 cc
 \
+tls_esni_unittest
+.
+cc
+\
 (
 NULL
 )

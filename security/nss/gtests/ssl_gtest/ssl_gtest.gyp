@@ -309,6 +309,11 @@ tls_hkdf_unittest
 cc
 '
 '
+tls_esni_unittest
+.
+cc
+'
+'
 tls_protect
 .
 cc

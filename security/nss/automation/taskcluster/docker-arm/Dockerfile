@@ -111,11 +111,6 @@ ENV
 LOGNAME
 worker
 ENV
-HOSTNAME
-taskcluster
--
-worker
-ENV
 LANG
 en_US
 .

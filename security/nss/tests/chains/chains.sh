@@ -752,6 +752,8 @@ echo
 "
 tstclnt
 -
+4
+-
 p
 {
 NSS_AIA_PORT
@@ -771,6 +773,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 p
 {
@@ -810,6 +814,8 @@ echo
 "
 tstclnt
 -
+4
+-
 p
 {
 NSS_AIA_PORT
@@ -829,6 +835,8 @@ BINDIR
 }
 /
 tstclnt
+-
+4
 -
 p
 {
@@ -9602,6 +9610,8 @@ echo
 "
 tstclnt
 -
+4
+-
 h
 {
 OCSP_HOST
@@ -9618,6 +9628,8 @@ t
 20
 "
 tstclnt
+-
+4
 -
 h
 {

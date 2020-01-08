@@ -941,6 +941,9 @@ ssl_renegotiation_info_xtn
 ssl_tls13_short_header_xtn
 =
 0xff03
+ssl_tls13_encrypted_sni_xtn
+=
+0xffce
 }
 SSLExtensionType
 ;

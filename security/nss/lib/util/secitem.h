@@ -59,6 +59,7 @@ arena
 SECItem
 *
 dest
+const
 unsigned
 char
 *
