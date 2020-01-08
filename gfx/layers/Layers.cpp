@@ -5514,11 +5514,11 @@ GetLocalVisibleRegion
 (
 )
 .
-ToUnknownRegion
+GetBounds
 (
 )
 .
-GetBounds
+ToUnknownRect
 (
 )
 ;
@@ -13293,11 +13293,11 @@ GetVisibleRegion
 (
 )
 .
-ToUnknownRegion
+GetBounds
 (
 )
 .
-GetBounds
+ToUnknownRect
 (
 )
 ;

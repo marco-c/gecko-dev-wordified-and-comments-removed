@@ -2234,11 +2234,11 @@ layerSize
 =
 mVisibleRegion
 .
-ToUnknownRegion
+GetBounds
 (
 )
 .
-GetBounds
+ToUnknownRect
 (
 )
 .
