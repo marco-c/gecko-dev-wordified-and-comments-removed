@@ -355,17 +355,7 @@ nsMathUtils
 h
 '
 '
-nsPersistentProperties
-.
-h
-'
-'
 nsPointerHashKeys
-.
-h
-'
-'
-nsProperties
 .
 h
 '
