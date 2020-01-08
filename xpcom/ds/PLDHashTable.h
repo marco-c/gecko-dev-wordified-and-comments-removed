@@ -1228,10 +1228,6 @@ private
 :
 char
 *
-mStart
-;
-char
-*
 mLimit
 ;
 char
