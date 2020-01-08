@@ -442,17 +442,6 @@ libc
 +
 '
 ]
-HOST_LDFLAGS
-+
-=
-[
-'
--
-lc
-+
-+
-'
-]
 DIRS
 +
 =
