@@ -355,7 +355,7 @@ start
 ;
 padding
 -
-block
+inline
 -
 end
 :
@@ -365,9 +365,9 @@ end
 ;
 padding
 -
-inline
+block
 -
-start
+end
 :
 0
 .
@@ -377,11 +377,11 @@ padding
 -
 inline
 -
-end
+start
 :
 0
 .
-625em
+75em
 ;
 border
 :
