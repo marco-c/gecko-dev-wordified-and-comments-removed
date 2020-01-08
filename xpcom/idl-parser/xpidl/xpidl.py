@@ -4932,6 +4932,8 @@ m
 )
             
 if
+(
+(
 m
 .
 kind
@@ -4940,7 +4942,18 @@ kind
 '
 method
 '
+or
+m
+.
+kind
+=
+=
+'
+attribute
+'
+)
 and
+                
 m
 .
 notxpcom
@@ -4951,6 +4964,7 @@ name
 '
 nsISupports
 '
+)
 :
                 
 self
@@ -7013,6 +7027,10 @@ noscript
 =
 False
     
+notxpcom
+=
+False
+    
 readonly
 =
 False
@@ -7165,6 +7183,21 @@ noscript
 self
 .
 noscript
+=
+True
+            
+elif
+name
+=
+=
+'
+notxpcom
+'
+:
+                
+self
+.
+notxpcom
 =
 True
             
@@ -7478,9 +7511,15 @@ False
         
 return
 not
+(
 self
 .
 noscript
+or
+self
+.
+notxpcom
+)
     
 def
 __str__
