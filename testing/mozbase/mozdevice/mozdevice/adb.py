@@ -2309,6 +2309,9 @@ timeout
 verbose
 =
 verbose
+require_root
+=
+False
 )
     
 def
@@ -3681,6 +3684,10 @@ device_ready_retry_wait
 device_ready_retry_attempts
 =
 3
+                 
+require_root
+=
+True
 )
 :
         
@@ -4065,6 +4072,20 @@ ready
 .
         
 :
+param
+bool
+require_root
+:
+check
+that
+we
+have
+root
+permissions
+on
+device
+        
+:
 raises
 :
 *
@@ -4105,6 +4126,10 @@ timeout
 verbose
 =
 verbose
+                            
+require_root
+=
+require_root
 )
         
 self
@@ -4199,6 +4224,12 @@ try
 :
             
 if
+(
+self
+.
+_require_root
+and
+                
 self
 .
 shell_output
@@ -4222,6 +4253,7 @@ uid
 =
 -
 1
+)
 :
                 
 self
@@ -4269,6 +4301,11 @@ try
             
 if
 (
+self
+.
+_require_root
+and
+                
 not
 self
 .
