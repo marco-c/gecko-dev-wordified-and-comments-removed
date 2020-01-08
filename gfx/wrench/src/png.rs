@@ -20,7 +20,7 @@ image
 {
 self
 ColorType
-GenericImage
+GenericImageView
 }
 ;
 use
