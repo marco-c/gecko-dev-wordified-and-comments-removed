@@ -219,9 +219,9 @@ SRTP_MIN_KEY_LENGTH
 )
 )
 {
-MOZ_MTLOG
+MOZ_ASSERT
 (
-ML_ERROR
+false
 "
 Invalid
 SRTP
