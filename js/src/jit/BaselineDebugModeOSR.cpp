@@ -2562,7 +2562,7 @@ resumeAddr
 bl
 -
 >
-postDebugPrologueAddr
+debugOsrPrologueEntryAddr
 (
 )
 ;
@@ -2641,7 +2641,7 @@ resumeAddr
 bl
 -
 >
-epilogueEntryAddr
+debugOsrEpilogueEntryAddr
 (
 )
 ;
@@ -4840,7 +4840,7 @@ baselineScript
 )
 -
 >
-epilogueEntryAddr
+debugOsrEpilogueEntryAddr
 (
 )
 ;

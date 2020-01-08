@@ -1363,13 +1363,13 @@ NonAssertingLabel
 postBarrierSlot_
 ;
 CodeOffset
-prologueOffset_
+bailoutPrologueOffset_
 ;
 CodeOffset
-epilogueOffset_
+debugOsrPrologueOffset_
 ;
 CodeOffset
-postDebugPrologueOffset_
+debugOsrEpilogueOffset_
 ;
 Vector
 <
