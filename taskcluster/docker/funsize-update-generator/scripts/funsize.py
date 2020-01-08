@@ -30,6 +30,12 @@ import
 requests
 import
 sh
+from
+distutils
+.
+util
+import
+strtobool
 import
 redo
 from
@@ -79,7 +85,7 @@ partials
 )
 ALLOWED_URL_PREFIXES
 =
-[
+(
     
 "
 http
@@ -226,7 +232,26 @@ v1
 task
 /
 "
-]
+)
+STAGING_URL_PREFIXES
+=
+(
+    
+"
+http
+:
+/
+/
+ftp
+.
+stage
+.
+mozaws
+.
+net
+/
+"
+)
 DEFAULT_FILENAME_TEMPLATE
 =
 "
@@ -1703,6 +1728,7 @@ def
 __init__
 (
 self
+allowed_url_prefixes
 mar
 =
 None
@@ -1922,6 +1948,12 @@ mbsdiff
 '
         
 }
+        
+self
+.
+allowed_url_prefixes
+=
+allowed_url_prefixes
         
 if
 mar
@@ -2224,6 +2256,7 @@ def
 verify_allowed_url
 (
 mar
+allowed_url_prefixes
 )
 :
     
@@ -2240,7 +2273,7 @@ prefix
 for
 prefix
 in
-ALLOWED_URL_PREFIXES
+allowed_url_prefixes
 )
 :
         
@@ -2271,7 +2304,7 @@ mar
 mar
 p
 =
-ALLOWED_URL_PREFIXES
+allowed_url_prefixes
         
 )
 )
@@ -2326,6 +2359,9 @@ to_mar
 verify_allowed_url
 (
 mar
+work_env
+.
+allowed_url_prefixes
 )
     
 complete_mars
@@ -3338,6 +3374,24 @@ tasks
 [
 ]
     
+allowed_url_prefixes
+=
+list
+(
+ALLOWED_URL_PREFIXES
+)
+    
+if
+args
+.
+allow_staging_prefixes
+:
+        
+allowed_url_prefixes
++
+=
+STAGING_URL_PREFIXES
+    
 task
 =
 json
@@ -3374,6 +3428,10 @@ workenv
 =
 WorkEnv
 (
+            
+allowed_url_prefixes
+=
+allowed_url_prefixes
             
 mar
 =
@@ -3579,6 +3637,58 @@ FileType
 r
 '
 )
+)
+    
+parser
+.
+add_argument
+(
+"
+-
+-
+allow
+-
+staging
+-
+prefixes
+"
+                        
+action
+=
+"
+store_true
+"
+                        
+default
+=
+strtobool
+(
+                            
+os
+.
+environ
+.
+get
+(
+'
+FUNSIZE_ALLOW_STAGING_PREFIXES
+'
+"
+false
+"
+)
+)
+                        
+help
+=
+"
+Allow
+files
+from
+staging
+buckets
+.
+"
 )
     
 parser
