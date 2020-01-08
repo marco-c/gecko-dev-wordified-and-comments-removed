@@ -1053,11 +1053,6 @@ InvalidateHierarchy
 (
 )
 ;
-uint32_t
-GetParentWindowScaleFactor
-(
-)
-;
 nsViewManager
 *
 mViewManager
