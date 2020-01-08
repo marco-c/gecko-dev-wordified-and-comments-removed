@@ -26485,7 +26485,7 @@ nsCString
 newKey
 -
 >
-SetCapacity
+SetLength
 (
 kIPv6CStrBufSize
 +
