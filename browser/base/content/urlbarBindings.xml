@@ -6580,12 +6580,6 @@ true
 ;
 params
 .
-allowInheritPrincipal
-=
-mayInheritPrincipal
-;
-params
-.
 allowPopups
 =
 url
@@ -6608,6 +6602,12 @@ initiatingDoc
 document
 ;
 }
+params
+.
+allowInheritPrincipal
+=
+mayInheritPrincipal
+;
 if
 (
 openUILinkParams
