@@ -86,6 +86,10 @@ PBackgroundLSRequest
 ;
 include
 protocol
+PBackgroundLSSimpleRequest
+;
+include
+protocol
 PBackgroundLocalStorageCache
 ;
 include
@@ -377,6 +381,9 @@ manages
 PBackgroundLSRequest
 ;
 manages
+PBackgroundLSSimpleRequest
+;
+manages
 PBackgroundLocalStorageCache
 ;
 manages
@@ -551,6 +558,13 @@ async
 PBackgroundLSRequest
 (
 LSRequestParams
+params
+)
+;
+async
+PBackgroundLSSimpleRequest
+(
+LSSimpleRequestParams
 params
 )
 ;

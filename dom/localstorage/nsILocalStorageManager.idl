@@ -147,5 +147,16 @@ attribute
 boolean
 nextGenLocalStorageEnabled
 ;
+[
+implicit_jscontext
+]
+nsISupports
+isPreloaded
+(
+in
+nsIPrincipal
+aPrincipal
+)
+;
 }
 ;
