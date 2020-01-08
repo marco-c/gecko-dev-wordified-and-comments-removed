@@ -398,13 +398,11 @@ nsIURI
 aContentLocation
 nsIURI
 *
-aOriginalURI
+aOriginalURIIfRedirect
 const
 nsAString
 &
 aNonce
-bool
-aWasRedirected
 bool
 aIsPreload
 bool

@@ -1484,7 +1484,6 @@ aContentLocation
 requestingLocation
 requestingContext
 aMimeGuess
-nullptr
 requestPrincipal
 aDecision
 )
@@ -1670,9 +1669,6 @@ const
 nsACString
 &
 aMimeGuess
-nsISupports
-*
-aExtra
 nsIPrincipal
 *
 aRequestPrincipal

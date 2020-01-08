@@ -3633,7 +3633,6 @@ aLoadingContext
 EmptyCString
 (
 )
-nullptr
 aTriggeringPrincipal
 &
 decision
