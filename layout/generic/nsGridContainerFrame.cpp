@@ -33944,6 +33944,13 @@ Style
 )
 )
 ;
+uint16_t
+alignmentFlags
+=
+alignment
+&
+NS_STYLE_ALIGN_FLAG_BITS
+;
 alignment
 &
 =
@@ -34102,7 +34109,11 @@ NS_STYLE_ALIGN_END
 ;
 }
 return
+(
 alignment
+|
+alignmentFlags
+)
 ;
 }
 nscoord

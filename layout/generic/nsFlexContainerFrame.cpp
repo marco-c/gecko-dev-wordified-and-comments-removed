@@ -3794,6 +3794,11 @@ IsCrossAxisReversed
 uint8_t
 alignment
 ;
+uint8_t
+alignmentFlags
+=
+0
+;
 if
 (
 isMainAxis
@@ -3863,6 +3868,12 @@ Style
 (
 )
 )
+;
+alignmentFlags
+=
+alignment
+&
+NS_STYLE_ALIGN_FLAG_BITS
 ;
 alignment
 &
@@ -4024,7 +4035,11 @@ NS_STYLE_ALIGN_END
 ;
 }
 return
+(
 alignment
+|
+alignmentFlags
+)
 ;
 }
 UniquePtr
