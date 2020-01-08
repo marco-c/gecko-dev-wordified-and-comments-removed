@@ -248,11 +248,27 @@ templates
 =
 =
 {
+        
 '
 artifact
 '
 :
 True
+        
+'
+env
+'
+:
+{
+'
+TRY_SELECTOR
+'
+:
+'
+fuzzy
+'
+}
+    
 }
     
 with
