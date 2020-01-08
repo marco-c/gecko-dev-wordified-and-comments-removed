@@ -3451,7 +3451,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other

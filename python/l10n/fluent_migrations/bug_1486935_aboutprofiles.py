@@ -54,10 +54,9 @@ Bug
 Migrate
 about
 :
-Profiles
-strings
+profiles
 to
-FTL
+Fluent
 part
 {
 index
@@ -1093,7 +1092,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 macos
@@ -1138,7 +1137,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -1183,7 +1182,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other

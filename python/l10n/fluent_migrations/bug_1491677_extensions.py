@@ -1954,7 +1954,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -2025,7 +2025,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other
@@ -2193,7 +2193,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -2244,7 +2244,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other
@@ -2370,7 +2370,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -2421,7 +2421,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other
@@ -2810,7 +2810,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -2861,7 +2861,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other
@@ -2987,7 +2987,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -3038,7 +3038,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other
@@ -3164,7 +3164,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 windows
@@ -3215,7 +3215,7 @@ key
 =
 FTL
 .
-VariantName
+Identifier
 (
 "
 other

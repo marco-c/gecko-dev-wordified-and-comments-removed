@@ -74,7 +74,9 @@ Bug
 1501900
 -
 Migrate
-aboutdevtools
+about
+:
+devtools
 to
 Fluent
 part
