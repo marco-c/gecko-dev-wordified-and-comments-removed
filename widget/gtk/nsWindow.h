@@ -1967,15 +1967,6 @@ TopLevelWindowUseARGBVisual
 (
 )
 ;
-static
-bool
-GetTopLevelWindowActiveState
-(
-nsIFrame
-*
-aFrame
-)
-;
 protected
 :
 virtual
