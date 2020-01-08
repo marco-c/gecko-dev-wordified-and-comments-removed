@@ -155,6 +155,17 @@ activation
 isWasmTrapping
 (
 )
+&
+&
+fp_
+=
+=
+activation
+-
+>
+wasmExitFP
+(
+)
 )
 {
 const
