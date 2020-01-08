@@ -6,3 +6,11 @@ a
 default
 "
 ;
+export
+const
+Four
+=
+"
+one
+"
+;

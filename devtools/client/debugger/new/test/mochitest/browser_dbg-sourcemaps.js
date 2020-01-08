@@ -474,12 +474,6 @@ stepOut
 dbg
 )
 ;
-await
-stepOut
-(
-dbg
-)
-;
 assertPausedLocation
 (
 dbg

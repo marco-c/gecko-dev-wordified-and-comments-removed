@@ -136,7 +136,7 @@ dbg
 assertDebugLine
 (
 dbg
-42264
+42309
 )
 ;
 assertPausedLocation

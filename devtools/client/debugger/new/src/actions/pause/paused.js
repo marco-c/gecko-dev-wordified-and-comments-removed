@@ -276,6 +276,12 @@ if
 topFrame
 &
 &
+!
+why
+.
+frameFinished
+&
+&
 why
 .
 type
