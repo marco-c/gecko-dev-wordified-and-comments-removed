@@ -104,6 +104,15 @@ observer
 js
 '
 '
+network
+-
+response
+-
+listener
+.
+js
+'
+'
 stack
 -
 trace
