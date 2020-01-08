@@ -1140,7 +1140,7 @@ IsEmpty
 *
 aResult
 =
-ToNewUnicode
+UTF8ToNewUnicode
 (
 defaultFontName
 )
@@ -1273,7 +1273,7 @@ NS_OK
 *
 aResult
 =
-ToNewUnicode
+UTF8ToNewUnicode
 (
 family
 )
