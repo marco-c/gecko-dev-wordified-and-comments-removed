@@ -962,6 +962,13 @@ adbhost
 =
 ADBHost
 (
+adb
+=
+self
+.
+app_ctx
+.
+adb
 )
         
 return
