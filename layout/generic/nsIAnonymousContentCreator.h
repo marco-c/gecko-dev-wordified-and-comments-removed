@@ -63,12 +63,6 @@ nsIContent
 *
 mContent
 ;
-nsTArray
-<
-ContentInfo
->
-mChildren
-;
 }
 ;
 virtual
