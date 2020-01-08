@@ -103,6 +103,17 @@ Clear
 (
 )
 ;
+size_t
+SizeOfExcludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+aMallocSizeOf
+)
+const
+;
 private
 :
 struct
