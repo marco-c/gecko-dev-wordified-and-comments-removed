@@ -58,6 +58,9 @@ exception_code
 int32_t
 exception_subcode
 ;
+int32_t
+child_pid
+;
 }
 ;
 class

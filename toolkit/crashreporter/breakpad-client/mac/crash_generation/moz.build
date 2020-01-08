@@ -111,6 +111,14 @@ LOCAL_INCLUDES
 [
 '
 /
+ipc
+/
+chromium
+/
+src
+'
+'
+/
 toolkit
 /
 crashreporter
