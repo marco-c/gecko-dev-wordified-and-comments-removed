@@ -57,14 +57,6 @@ test
 -
 gfx
 -
-intl
-/
-icu
--
-ipc
-/
-chromium
--
 ipc
 /
 ipdl
@@ -97,8 +89,6 @@ modules
 /
 freetype2
 -
-nsprpub
--
 python
 /
 safety
@@ -108,10 +98,6 @@ security
 manager
 /
 ssl
--
-security
-/
-nss
 -
 servo
 -
@@ -166,8 +152,6 @@ testing
 web
 -
 platform
--
-third_party
 -
 toolkit
 -

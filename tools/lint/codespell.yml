@@ -298,10 +298,6 @@ tools
 /
 lint
 /
-exclude
-:
--
-third_party
 #
 List
 of
