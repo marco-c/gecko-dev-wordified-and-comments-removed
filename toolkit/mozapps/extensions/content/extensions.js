@@ -9644,6 +9644,17 @@ tab
 fromChrome
 :
 true
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+createNullPrincipal
+(
+{
+}
+)
 }
 )
 ;
