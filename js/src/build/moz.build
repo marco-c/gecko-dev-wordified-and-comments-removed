@@ -100,14 +100,6 @@ js
 pc
 '
 ]
-LIBRARY_DEFINES
-[
-'
-EXPORT_JS_API
-'
-]
-=
-True
 if
 not
 CONFIG
