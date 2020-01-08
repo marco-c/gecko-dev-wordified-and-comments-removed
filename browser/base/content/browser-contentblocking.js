@@ -2826,7 +2826,7 @@ visible
 ;
 }
 let
-type
+isBrowserPrivate
 =
 PrivateBrowsingUtils
 .
@@ -2836,6 +2836,11 @@ gBrowser
 .
 selectedBrowser
 )
+;
+let
+type
+=
+isBrowserPrivate
 ?
 "
 trackingprotection
@@ -2962,6 +2967,12 @@ true
 "
 )
 ;
+if
+(
+!
+isBrowserPrivate
+)
+{
 let
 introCount
 =
@@ -3014,6 +3025,7 @@ showIntroPanel
 (
 )
 ;
+}
 }
 }
 if
