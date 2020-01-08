@@ -698,6 +698,17 @@ else
 false
 #
 endif
+MOZ_CODE_COVERAGE
+:
+#
+ifdef
+MOZ_CODE_COVERAGE
+true
+#
+else
+false
+#
+endif
 }
 )
 ;

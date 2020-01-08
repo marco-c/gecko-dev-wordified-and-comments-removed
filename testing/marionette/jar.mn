@@ -494,6 +494,9 @@ test
 .
 xul
 )
+#
+ifdef
+MOZ_CODE_COVERAGE
 content
 /
 PerTestCoverageUtils
@@ -516,5 +519,7 @@ PerTestCoverageUtils
 .
 jsm
 )
+#
+endif
 #
 endif
