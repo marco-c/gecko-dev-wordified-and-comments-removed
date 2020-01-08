@@ -3125,9 +3125,9 @@ continuation
 MarkerProperties
 result
 ;
-nsCOMPtr
+RefPtr
 <
-nsIURI
+URLAndReferrerInfo
 >
 markerURL
 =
