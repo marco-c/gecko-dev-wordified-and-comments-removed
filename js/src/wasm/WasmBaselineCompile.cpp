@@ -55863,16 +55863,6 @@ BaselineCanCompile
 (
 )
 {
-MOZ_RELEASE_ASSERT
-(
-wasm
-:
-:
-HaveSignalHandlers
-(
-)
-)
-;
 #
 if
 defined
