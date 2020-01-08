@@ -511,7 +511,6 @@ CssRuleView
 inspector
 document
 store
-pageStyle
 )
 {
 EventEmitter
@@ -574,6 +573,8 @@ this
 .
 pageStyle
 =
+inspector
+.
 pageStyle
 ;
 this
