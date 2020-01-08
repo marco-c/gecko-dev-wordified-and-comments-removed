@@ -89,17 +89,12 @@ FontPropertyValue
 {
 public
 :
-constexpr
 FontPropertyValue
 (
 )
-:
-FontPropertyValue
-(
-Min
-)
-{
-}
+=
+default
+;
 explicit
 FontPropertyValue
 (
@@ -307,7 +302,6 @@ Max
 protected
 :
 explicit
-constexpr
 FontPropertyValue
 (
 float
@@ -343,7 +337,6 @@ kMax
 ;
 }
 explicit
-constexpr
 FontPropertyValue
 (
 int
@@ -374,7 +367,6 @@ Max
 ;
 }
 explicit
-constexpr
 FontPropertyValue
 (
 InternalType
@@ -481,7 +473,6 @@ uint16_t
 {
 public
 :
-constexpr
 FontWeight
 (
 )
@@ -489,7 +480,6 @@ FontWeight
 default
 ;
 explicit
-constexpr
 FontWeight
 (
 float
@@ -503,7 +493,6 @@ aValue
 {
 }
 explicit
-constexpr
 FontWeight
 (
 int
@@ -517,7 +506,6 @@ aValue
 {
 }
 static
-constexpr
 FontWeight
 Normal
 (
@@ -531,7 +519,6 @@ kNormal
 ;
 }
 static
-constexpr
 FontWeight
 Thin
 (
@@ -545,7 +532,6 @@ kThin
 ;
 }
 static
-constexpr
 FontWeight
 Bold
 (
@@ -625,7 +611,6 @@ class
 WeightRange
 ;
 explicit
-constexpr
 FontWeight
 (
 InternalType
@@ -705,7 +690,6 @@ uint16_t
 {
 public
 :
-constexpr
 FontStretch
 (
 )
@@ -713,7 +697,6 @@ FontStretch
 default
 ;
 explicit
-constexpr
 FontStretch
 (
 float
@@ -727,7 +710,6 @@ aPercent
 {
 }
 static
-constexpr
 FontStretch
 Normal
 (
@@ -741,7 +723,6 @@ kNormal
 ;
 }
 static
-constexpr
 FontStretch
 UltraCondensed
 (
@@ -755,7 +736,6 @@ kUltraCondensed
 ;
 }
 static
-constexpr
 FontStretch
 ExtraCondensed
 (
@@ -769,7 +749,6 @@ kExtraCondensed
 ;
 }
 static
-constexpr
 FontStretch
 Condensed
 (
@@ -783,7 +762,6 @@ kCondensed
 ;
 }
 static
-constexpr
 FontStretch
 SemiCondensed
 (
@@ -797,7 +775,6 @@ kSemiCondensed
 ;
 }
 static
-constexpr
 FontStretch
 SemiExpanded
 (
@@ -811,7 +788,6 @@ kSemiExpanded
 ;
 }
 static
-constexpr
 FontStretch
 Expanded
 (
@@ -825,7 +801,6 @@ kExpanded
 ;
 }
 static
-constexpr
 FontStretch
 ExtraExpanded
 (
@@ -839,7 +814,6 @@ kExtraExpanded
 ;
 }
 static
-constexpr
 FontStretch
 UltraExpanded
 (
@@ -853,7 +827,6 @@ kUltraExpanded
 ;
 }
 static
-constexpr
 FontStretch
 FromStyle
 (
@@ -918,7 +891,6 @@ class
 StretchRange
 ;
 explicit
-constexpr
 FontStretch
 (
 InternalType
@@ -1061,7 +1033,6 @@ kDefaultAngle
 .
 0
 ;
-constexpr
 FontSlantStyle
 (
 )
@@ -1069,7 +1040,6 @@ FontSlantStyle
 default
 ;
 static
-constexpr
 FontSlantStyle
 Normal
 (
@@ -1083,7 +1053,6 @@ kNormal
 ;
 }
 static
-constexpr
 FontSlantStyle
 Italic
 (
@@ -1097,7 +1066,6 @@ kItalic
 ;
 }
 static
-constexpr
 FontSlantStyle
 Oblique
 (
@@ -1144,6 +1112,7 @@ Normal
 )
 ;
 }
+else
 if
 (
 strcmp
@@ -1164,6 +1133,8 @@ Italic
 )
 ;
 }
+else
+{
 if
 (
 mozilla
@@ -1222,6 +1193,7 @@ Italic
 (
 )
 ;
+}
 }
 bool
 IsNormal
@@ -1359,7 +1331,6 @@ class
 SlantStyleRange
 ;
 explicit
-constexpr
 FontSlantStyle
 (
 InternalType
@@ -1373,7 +1344,6 @@ aConstant
 {
 }
 explicit
-constexpr
 FontSlantStyle
 (
 float
