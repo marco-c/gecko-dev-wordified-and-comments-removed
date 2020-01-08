@@ -18913,7 +18913,13 @@ SN_OFFSET_TO_COLSPAN
 GetSrcNoteOffset
 (
 sn
-0
+SrcNote
+:
+:
+ColSpan
+:
+:
+Span
 )
 )
 ;
