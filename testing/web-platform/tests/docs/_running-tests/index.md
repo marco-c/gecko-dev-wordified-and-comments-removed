@@ -151,18 +151,6 @@ dom
 historical
 .
 html
-.
-/
-wpt
-run
--
--
-help
-lists
-the
-supported
-products
-.
 For
 details
 on
@@ -181,7 +169,7 @@ customising
 the
 test
 run
-see
+:
 .
 /
 wpt
@@ -189,7 +177,6 @@ run
 -
 -
 help
-.
 Additional
 browser
 -
