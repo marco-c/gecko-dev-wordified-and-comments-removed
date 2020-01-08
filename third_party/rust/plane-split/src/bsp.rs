@@ -1,4 +1,12 @@
 use
+{
+Intersection
+Plane
+Polygon
+Splitter
+}
+;
+use
 binary_space_partition
 :
 :
@@ -45,14 +53,6 @@ std
 {
 fmt
 ops
-}
-;
-use
-{
-Intersection
-Plane
-Polygon
-Splitter
 }
 ;
 impl
