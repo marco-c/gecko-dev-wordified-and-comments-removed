@@ -108,6 +108,16 @@ repack
 beetmover
 -
 checksums
+-
+release
+-
+beetmover
+-
+signed
+-
+langpacks
+-
+checksums
 jobs
 :
 firefox
