@@ -80,6 +80,7 @@ typedef
 T
 valueType
 ;
+constexpr
 EnumSet
 (
 )
@@ -90,6 +91,7 @@ mBitField
 )
 {
 }
+constexpr
 MOZ_IMPLICIT
 EnumSet
 (
@@ -106,6 +108,7 @@ aEnum
 )
 {
 }
+constexpr
 EnumSet
 (
 T
@@ -128,6 +131,7 @@ aEnum2
 )
 {
 }
+constexpr
 EnumSet
 (
 T
@@ -157,6 +161,7 @@ aEnum3
 )
 {
 }
+constexpr
 EnumSet
 (
 T
@@ -229,6 +234,7 @@ value
 ;
 }
 }
+constexpr
 EnumSet
 (
 const
@@ -1105,6 +1111,7 @@ kMaxBits
 }
 private
 :
+constexpr
 static
 Serialized
 bitFor
