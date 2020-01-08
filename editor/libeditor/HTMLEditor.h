@@ -517,7 +517,7 @@ aTransferable
 override
 ;
 nsresult
-OnInputLineBreak
+InsertLineBreakAsAction
 (
 )
 ;

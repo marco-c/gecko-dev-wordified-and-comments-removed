@@ -416,7 +416,7 @@ nullptr
 )
 ;
 nsresult
-OnInputParagraphSeparator
+InsertParagraphSeparatorAsAction
 (
 )
 ;
@@ -729,7 +729,7 @@ aStringToInsert
 )
 ;
 nsresult
-InsertParagraphSeparatorAsAction
+InsertParagraphSeparatorAsSubAction
 (
 )
 ;

@@ -3455,13 +3455,13 @@ IsShift
 )
 {
 return
-OnInputLineBreak
+InsertLineBreakAsAction
 (
 )
 ;
 }
 return
-OnInputParagraphSeparator
+InsertParagraphSeparatorAsAction
 (
 )
 ;
@@ -4443,7 +4443,7 @@ nsresult
 HTMLEditor
 :
 :
-OnInputLineBreak
+InsertLineBreakAsAction
 (
 )
 {

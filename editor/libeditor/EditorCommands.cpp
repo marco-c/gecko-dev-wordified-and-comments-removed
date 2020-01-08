@@ -5273,7 +5273,7 @@ return
 textEditor
 -
 >
-OnInputParagraphSeparator
+InsertParagraphSeparatorAsAction
 (
 )
 ;
@@ -5518,7 +5518,7 @@ return
 htmlEditor
 -
 >
-OnInputLineBreak
+InsertLineBreakAsAction
 (
 )
 ;
