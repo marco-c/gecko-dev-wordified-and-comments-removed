@@ -870,8 +870,13 @@ postBarrier
 Instance
 *
 instance
-PostBarrierArg
-arg
+gc
+:
+:
+Cell
+*
+*
+location
 )
 ;
 #
