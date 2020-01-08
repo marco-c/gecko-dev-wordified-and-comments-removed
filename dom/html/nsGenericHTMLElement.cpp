@@ -8057,6 +8057,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 uint8_t
 aType
@@ -8064,7 +8065,13 @@ aType
 :
 nsGenericHTMLElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 nsIFormControl
 (
@@ -12304,6 +12311,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 uint8_t
 aType
@@ -12311,7 +12319,13 @@ aType
 :
 nsGenericHTMLFormElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 aType
 )
 {
@@ -13592,7 +13606,7 @@ Truncate
 (
 )
 ;
-already_AddRefed
+RefPtr
 <
 mozilla
 :
@@ -13635,6 +13649,10 @@ new
 HTMLBRElement
 (
 ni
+.
+forget
+(
+)
 )
 ;
 AppendChildTo

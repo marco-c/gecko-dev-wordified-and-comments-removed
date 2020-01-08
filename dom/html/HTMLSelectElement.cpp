@@ -517,6 +517,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -524,7 +525,13 @@ aFromParser
 :
 nsGenericHTMLFormElementWithState
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 NS_FORM_SELECT
 )
 mOptions

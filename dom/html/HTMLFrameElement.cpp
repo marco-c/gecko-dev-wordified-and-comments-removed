@@ -46,6 +46,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -53,7 +54,13 @@ aFromParser
 :
 nsGenericHTMLFrameElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 aFromParser
 )
 {

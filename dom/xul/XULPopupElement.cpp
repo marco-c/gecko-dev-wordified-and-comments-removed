@@ -140,7 +140,13 @@ return
 new
 XULPopupElement
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 ;
 }

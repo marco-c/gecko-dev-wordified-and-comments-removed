@@ -388,7 +388,13 @@ aNodeInfo
 :
 DocumentFragment
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 DocumentOrShadowRoot
 (

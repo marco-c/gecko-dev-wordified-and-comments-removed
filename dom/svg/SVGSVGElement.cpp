@@ -616,6 +616,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 FromParser
 aFromParser
@@ -623,7 +624,13 @@ aFromParser
 :
 SVGSVGElementBase
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 mCurrentTranslate
 (

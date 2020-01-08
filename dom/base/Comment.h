@@ -92,7 +92,13 @@ aNodeInfo
 :
 CharacterData
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 {
 Init

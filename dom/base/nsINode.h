@@ -1177,6 +1177,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 )
 ;

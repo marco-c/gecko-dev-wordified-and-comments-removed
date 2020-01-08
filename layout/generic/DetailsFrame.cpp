@@ -428,7 +428,7 @@ NodeInfoManager
 (
 )
 ;
-already_AddRefed
+RefPtr
 <
 NodeInfo
 >
@@ -457,6 +457,10 @@ new
 HTMLSummaryElement
 (
 nodeInfo
+.
+forget
+(
+)
 )
 ;
 nsAutoString

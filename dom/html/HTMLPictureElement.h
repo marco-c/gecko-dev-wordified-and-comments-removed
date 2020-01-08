@@ -49,6 +49,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 )
 ;

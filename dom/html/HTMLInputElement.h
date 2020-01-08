@@ -475,6 +475,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 mozilla
 :

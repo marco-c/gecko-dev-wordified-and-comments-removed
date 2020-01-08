@@ -185,7 +185,13 @@ aValue
 :
 nsINode
 (
+std
+:
+:
+move
+(
 aNodeInfo
+)
 )
 mAttrMap
 (

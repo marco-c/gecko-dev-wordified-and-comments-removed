@@ -106,6 +106,7 @@ dom
 NodeInfo
 >
 &
+&
 aNodeInfo
 )
 ;
