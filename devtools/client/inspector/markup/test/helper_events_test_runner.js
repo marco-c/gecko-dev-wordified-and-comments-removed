@@ -587,9 +587,11 @@ scrollIntoView
 ;
 EventUtils
 .
-synthesizeMouseAtCenter
+synthesizeMouse
 (
 header
+2
+2
 {
 }
 type
