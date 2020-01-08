@@ -272,6 +272,16 @@ content_response_timeout
 "
 browser
 .
+contentblocking
+.
+introCount
+"
+99
+]
+[
+"
+browser
+.
 download
 .
 panel
