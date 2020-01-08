@@ -310,7 +310,7 @@ if
 (
 type
 .
-TagPart
+Tag
 (
 )
 =
@@ -536,7 +536,7 @@ switch
 (
 type
 .
-TagPart
+Tag
 (
 )
 )
@@ -2314,7 +2314,7 @@ switch
 (
 type
 .
-TagPart
+Tag
 (
 )
 )
