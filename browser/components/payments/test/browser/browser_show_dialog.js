@@ -270,7 +270,6 @@ address
 "
 )
 ;
-await
 formAutofillStorage
 .
 creditCards

@@ -35,7 +35,6 @@ address
 "
 )
 ;
-await
 formAutofillStorage
 .
 creditCards
@@ -2384,7 +2383,6 @@ guid
 let
 selectedAddress
 =
-await
 formAutofillStorage
 .
 addresses
@@ -2532,7 +2530,6 @@ changed
 ;
 selectedAddress
 =
-await
 formAutofillStorage
 .
 addresses

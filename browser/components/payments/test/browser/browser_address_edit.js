@@ -54,7 +54,6 @@ address
 "
 )
 ;
-await
 formAutofillStorage
 .
 creditCards

@@ -4898,11 +4898,13 @@ initProfileStorage
 TEST_STORE_FILE_NAME
 )
 ;
-await
-Assert
-.
-rejects
+throws
 (
+(
+)
+=
+>
+{
 profileStorage
 .
 addresses
@@ -4942,6 +4944,8 @@ Hammond
 "
 }
 )
+;
+}
 /
 Got
 unknown
@@ -4977,7 +4981,6 @@ guid
 de1ba7b094fe
 "
 ;
-await
 profileStorage
 .
 addresses
@@ -5015,7 +5018,6 @@ true
 }
 )
 ;
-await
 profileStorage
 .
 addresses
@@ -5095,7 +5097,6 @@ let
 forkedGUID
 }
 =
-await
 profileStorage
 .
 addresses
@@ -5108,7 +5109,6 @@ remote
 let
 updatedRecord
 =
-await
 profileStorage
 .
 addresses
@@ -5203,7 +5203,6 @@ let
 forkedGUID
 }
 =
-await
 profileStorage
 .
 addresses
@@ -5216,7 +5215,6 @@ remote
 let
 updatedRecord
 =
-await
 profileStorage
 .
 addresses
@@ -5375,7 +5373,6 @@ test
 description
 )
 ;
-await
 profileStorage
 [
 collectionName
@@ -5403,7 +5400,6 @@ test
 local
 )
 {
-await
 profileStorage
 [
 collectionName
@@ -5423,7 +5419,6 @@ updatedRecord
 let
 localRecord
 =
-await
 profileStorage
 [
 collectionName
@@ -5486,7 +5481,6 @@ let
 forkedGUID
 }
 =
-await
 profileStorage
 [
 collectionName
@@ -5505,7 +5499,6 @@ onReconciled
 let
 reconciledRecord
 =
-await
 profileStorage
 [
 collectionName
@@ -5533,7 +5526,6 @@ forkedGUID
 let
 forkedRecord
 =
-await
 profileStorage
 [
 collectionName

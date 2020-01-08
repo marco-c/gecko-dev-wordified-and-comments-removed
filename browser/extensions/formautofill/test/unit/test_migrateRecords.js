@@ -1254,16 +1254,10 @@ initialize
 (
 )
 ;
-await
-Promise
-.
-all
-(
 ADDRESS_TESTCASES
 .
-map
+forEach
 (
-async
 testcase
 =
 >
@@ -1275,7 +1269,6 @@ testcase
 description
 )
 ;
-await
 profileStorage
 .
 addresses
@@ -1298,7 +1291,6 @@ record
 )
 ;
 }
-)
 )
 ;
 }
@@ -1338,16 +1330,10 @@ initialize
 (
 )
 ;
-await
-Promise
-.
-all
-(
 CREDIT_CARD_TESTCASES
 .
-map
+forEach
 (
-async
 testcase
 =
 >
@@ -1359,7 +1345,6 @@ testcase
 description
 )
 ;
-await
 profileStorage
 .
 creditCards
@@ -1382,7 +1367,6 @@ record
 )
 ;
 }
-)
 )
 ;
 }
