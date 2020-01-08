@@ -783,6 +783,14 @@ OS_ARCH
 WINNT
 '
 :
+OS_LIBS
++
+=
+[
+'
+credui
+'
+]
 UNIFIED_SOURCES
 +
 =
