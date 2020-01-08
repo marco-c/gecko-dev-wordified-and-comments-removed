@@ -9728,7 +9728,10 @@ chromeEventHandler
 ;
 mChromeEventHandler
 =
+do_QueryInterface
+(
 chromeEventHandler
+)
 ;
 if
 (
@@ -28809,6 +28812,10 @@ windowExists
 &
 &
 uri
+&
+&
+!
+forceNoOpener
 )
 {
 MaybeAllowStorageForOpenedWindow
