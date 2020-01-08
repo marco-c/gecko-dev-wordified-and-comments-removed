@@ -35786,7 +35786,7 @@ EmptyBorderRadius
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 borderWidths
 =
 wr
@@ -37216,7 +37216,7 @@ EmptyBorderRadius
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 borderWidths
 =
 wr
@@ -38271,7 +38271,7 @@ wrSide
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 wrWidths
 ;
 wr

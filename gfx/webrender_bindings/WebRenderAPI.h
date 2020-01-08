@@ -2079,7 +2079,7 @@ const
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 &
 aWidths
 const
@@ -2125,7 +2125,7 @@ const
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 &
 aWidths
 wr
@@ -2198,7 +2198,7 @@ const
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 &
 aWidths
 const
@@ -2281,7 +2281,7 @@ const
 wr
 :
 :
-LayoutSideOffsets
+BorderWidths
 &
 aWidths
 const
