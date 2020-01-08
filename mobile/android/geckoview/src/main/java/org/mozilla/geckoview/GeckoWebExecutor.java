@@ -12,6 +12,15 @@ support
 .
 annotation
 .
+AnyThread
+;
+import
+android
+.
+support
+.
+annotation
+.
 IntDef
 ;
 import
@@ -82,6 +91,7 @@ annotation
 .
 WrapForJNI
 ;
+AnyThread
 public
 class
 GeckoWebExecutor
