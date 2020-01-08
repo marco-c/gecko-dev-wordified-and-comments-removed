@@ -166,10 +166,6 @@ mManager
 (
 nullptr
 )
-mIPCOpen
-(
-false
-)
 mDestroyed
 (
 false

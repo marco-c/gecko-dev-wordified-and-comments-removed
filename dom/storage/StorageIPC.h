@@ -643,9 +643,6 @@ mLoadingCaches
 nsresult
 mStatus
 ;
-bool
-mIPCOpen
-;
 }
 ;
 class
@@ -812,15 +809,6 @@ ReleaseIPDLReference
 (
 )
 ;
-bool
-IPCOpen
-(
-)
-{
-return
-mIPCOpen
-;
-}
 public
 :
 class
@@ -1427,9 +1415,6 @@ ThreadSafeAutoRefCnt
 mRefCnt
 ;
 NS_DECL_OWNINGTHREAD
-bool
-mIPCOpen
-;
 }
 ;
 PBackgroundLocalStorageCacheParent

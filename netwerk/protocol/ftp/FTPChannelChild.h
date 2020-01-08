@@ -541,9 +541,6 @@ nsIInputStream
 >
 mUploadStream
 ;
-bool
-mIPCOpen
-;
 RefPtr
 <
 ChannelEventQueue

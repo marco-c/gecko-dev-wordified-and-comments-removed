@@ -139,15 +139,6 @@ mGroup
 protected
 :
 virtual
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
-virtual
 ~
 VRLayerParent
 (
@@ -157,9 +148,6 @@ void
 Destroy
 (
 )
-;
-bool
-mIPCOpen
 ;
 uint32_t
 mVRDisplayID

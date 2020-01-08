@@ -2171,10 +2171,6 @@ mIsTransparent
 (
 false
 )
-mIPCOpen
-(
-false
-)
 mParentIsActive
 (
 false
@@ -3171,10 +3167,6 @@ move
 callback
 )
 )
-;
-mIPCOpen
-=
-true
 ;
 if
 (
@@ -4679,10 +4671,6 @@ ActorDestroyReason
 why
 )
 {
-mIPCOpen
-=
-false
-;
 DestroyWindow
 (
 )

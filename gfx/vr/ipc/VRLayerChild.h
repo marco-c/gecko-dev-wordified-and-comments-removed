@@ -155,15 +155,6 @@ ClearSurfaces
 (
 )
 ;
-virtual
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
 RefPtr
 <
 dom
@@ -172,9 +163,6 @@ dom
 HTMLCanvasElement
 >
 mCanvasElement
-;
-bool
-mIPCOpen
 ;
 void
 AddIPDLReference

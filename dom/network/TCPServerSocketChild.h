@@ -101,9 +101,6 @@ TCPServerSocket
 >
 mServerSocket
 ;
-bool
-mIPCOpen
-;
 }
 ;
 class

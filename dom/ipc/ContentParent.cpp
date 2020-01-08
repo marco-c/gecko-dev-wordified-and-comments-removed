@@ -7630,7 +7630,9 @@ unused
 }
 if
 (
-mIPCOpen
+IPCOpen
+(
+)
 &
 &
 !
@@ -8429,10 +8431,6 @@ mForceKillTimer
 nullptr
 ;
 }
-mIPCOpen
-=
-false
-;
 if
 (
 mHangMonitorActor
@@ -9564,7 +9562,9 @@ mForceKillTimer
 |
 |
 !
-mIPCOpen
+IPCOpen
+(
+)
 )
 {
 return
@@ -11884,10 +11884,6 @@ false
 mShutdownPending
 (
 false
-)
-mIPCOpen
-(
-true
 )
 mIsRemoteInputEventQueueEnabled
 (
@@ -14342,7 +14338,9 @@ aVar
 if
 (
 !
-mIPCOpen
+IPCOpen
+(
+)
 )
 {
 return
@@ -15502,7 +15500,9 @@ SpinEventLoopUntil
 {
 return
 !
-mIPCOpen
+IPCOpen
+(
+)
 |
 |
 mCalledKillHard

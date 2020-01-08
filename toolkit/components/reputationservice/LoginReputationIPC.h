@@ -60,14 +60,6 @@ nsIURI
 aURI
 )
 ;
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
 private
 :
 ~
@@ -76,11 +68,6 @@ LoginReputationParent
 )
 =
 default
-;
-bool
-mIPCOpen
-=
-true
 ;
 }
 ;

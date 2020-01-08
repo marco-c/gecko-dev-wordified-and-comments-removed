@@ -77,15 +77,6 @@ RecvClose
 )
 override
 ;
-virtual
-void
-ActorDestroy
-(
-ActorDestroyReason
-aWhy
-)
-override
-;
 void
 SetError
 (
@@ -127,9 +118,6 @@ mOutputStream
 ;
 nsresult
 mStatus
-;
-bool
-mIPCOpen
 ;
 }
 ;

@@ -400,9 +400,6 @@ PBackgroundParent
 *
 mBackgroundManager
 ;
-bool
-mIPCOpen
-;
 nsCOMPtr
 <
 nsIUDPSocket

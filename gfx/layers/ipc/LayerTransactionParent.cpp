@@ -362,10 +362,6 @@ mDestroyed
 (
 false
 )
-mIPCOpen
-(
-false
-)
 mUpdateHitTestingTree
 (
 false
@@ -5075,7 +5071,9 @@ aShmem
 if
 (
 !
-mIPCOpen
+IPCOpen
+(
+)
 |
 |
 mDestroyed
@@ -5124,7 +5122,9 @@ aShmem
 if
 (
 !
-mIPCOpen
+IPCOpen
+(
+)
 |
 |
 mDestroyed
@@ -5163,7 +5163,9 @@ aShmem
 if
 (
 !
-mIPCOpen
+IPCOpen
+(
+)
 |
 |
 mDestroyed

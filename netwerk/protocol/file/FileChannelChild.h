@@ -90,9 +90,6 @@ AddIPDLReference
 (
 )
 ;
-bool
-mIPCOpen
-;
 }
 ;
 }

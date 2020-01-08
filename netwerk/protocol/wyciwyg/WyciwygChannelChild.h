@@ -375,9 +375,6 @@ WyciwygChannelChildState
 mState
 ;
 bool
-mIPCOpen
-;
-bool
 mSentAppData
 ;
 RefPtr

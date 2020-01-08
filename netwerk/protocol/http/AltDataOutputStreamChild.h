@@ -104,9 +104,6 @@ nsDependentCSubstring
 data
 )
 ;
-bool
-mIPCOpen
-;
 nsresult
 mError
 ;

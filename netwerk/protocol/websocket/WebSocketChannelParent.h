@@ -285,9 +285,6 @@ nsILoadContext
 >
 mLoadContext
 ;
-bool
-mIPCOpen
-;
 uint32_t
 mSerial
 ;
