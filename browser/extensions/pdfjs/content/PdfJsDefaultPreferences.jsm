@@ -47,6 +47,11 @@ enableWebGL
 :
 false
 "
+eventBusDispatchToDOM
+"
+:
+false
+"
 pdfBugEnabled
 "
 :
