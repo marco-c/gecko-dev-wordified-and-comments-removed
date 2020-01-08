@@ -5,13 +5,6 @@ nsIAppStartupNotifier_h___
 define
 nsIAppStartupNotifier_h___
 #
-include
-"
-nsIObserver
-.
-h
-"
-#
 define
 APPSTARTUP_CATEGORY
 "
