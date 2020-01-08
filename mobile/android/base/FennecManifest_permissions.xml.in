@@ -452,9 +452,6 @@ SYSTEM_ALERT_WINDOW
 "
 /
 >
-#
-ifdef
-MOZ_UPDATER
 <
 !
 -
@@ -464,9 +461,11 @@ be
 able
 to
 install
-Nightly
-app
 updates
+and
+other
+downloaded
+APKs
 on
 API
 26
@@ -478,6 +477,10 @@ API
 uses
 -
 permission
+-
+sdk
+-
+23
 android
 :
 name
@@ -491,8 +494,6 @@ REQUEST_INSTALL_PACKAGES
 "
 /
 >
-#
-endif
 #
 ifdef
 MOZ_ANDROID_BEAM
