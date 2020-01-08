@@ -1757,6 +1757,13 @@ cpp
 '
 frontend
 /
+SwitchEmitter
+.
+cpp
+'
+'
+frontend
+/
 TDZCheckCache
 .
 cpp
