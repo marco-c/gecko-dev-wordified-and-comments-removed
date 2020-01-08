@@ -2516,6 +2516,11 @@ setItems
 items
 )
 ;
+const
+xOffset
+=
+23
+;
 this
 .
 searchPopup
@@ -2525,6 +2530,7 @@ openPopup
 this
 .
 searchBox
+xOffset
 )
 ;
 }

@@ -1435,8 +1435,6 @@ cm
 defaultCharWidth
 (
 )
-+
-4
 ;
 popup
 .
