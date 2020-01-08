@@ -311,7 +311,7 @@ SCALAR_TYPE_COUNT
 keyed
 :
 false
-release_channel_collection
+record_on_release
 :
 true
 }
@@ -431,7 +431,7 @@ SCALAR_TYPE_BOOLEAN
 keyed
 :
 false
-release_channel_collection
+record_on_release
 :
 false
 }
@@ -450,7 +450,7 @@ SCALAR_TYPE_COUNT
 keyed
 :
 true
-release_channel_collection
+record_on_release
 :
 true
 }
@@ -469,7 +469,7 @@ SCALAR_TYPE_COUNT
 keyed
 :
 false
-release_channel_collection
+record_on_release
 :
 true
 expired
