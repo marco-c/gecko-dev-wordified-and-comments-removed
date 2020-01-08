@@ -3914,6 +3914,13 @@ ResetPrefersReducedMotionOverrideForTest
 (
 )
 ;
+async
+RootBrowsingContext
+(
+BrowsingContextId
+aId
+)
+;
 child
 :
 /
