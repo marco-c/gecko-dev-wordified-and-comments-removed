@@ -2973,6 +2973,14 @@ tools
 /
 wptserve
 "
+        
+"
+third_party
+/
+python
+/
+requests
+"
     
 ]
     
