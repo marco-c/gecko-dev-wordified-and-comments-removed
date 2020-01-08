@@ -251,7 +251,9 @@ sendString
 "
 )
 ;
-setTimeout
+SimpleTest
+.
+executeSoon
 (
 function
 (
@@ -264,7 +266,9 @@ a
 "
 )
 ;
-setTimeout
+SimpleTest
+.
+executeSoon
 (
 function
 (
@@ -359,11 +363,9 @@ finish
 )
 ;
 }
-0
 )
 ;
 }
-0
 )
 ;
 }
@@ -377,13 +379,6 @@ getEditor
 (
 )
 {
-var
-Ci
-=
-SpecialPowers
-.
-Ci
-;
 var
 editingSession
 =

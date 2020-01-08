@@ -241,6 +241,9 @@ function
 (
 )
 {
+var
+onSpellCheck
+=
 SpecialPowers
 .
 Cu
@@ -260,8 +263,10 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
-window
+null
 )
+.
+onSpellCheck
 ;
 var
 elem

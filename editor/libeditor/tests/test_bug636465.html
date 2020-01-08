@@ -170,6 +170,11 @@ runTest
 (
 )
 {
+const
+{
+onSpellCheck
+}
+=
 SpecialPowers
 .
 Cu
@@ -189,7 +194,8 @@ AsyncSpellCheckTestHelper
 .
 jsm
 "
-window
+{
+}
 )
 ;
 var
@@ -301,14 +307,6 @@ spellcheck
 ;
 var
 spellCheckNone
-=
-snapshotWindow
-(
-window
-)
-;
-var
-after
 =
 snapshotWindow
 (

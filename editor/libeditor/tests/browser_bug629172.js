@@ -58,7 +58,7 @@ kPageURL
 async
 function
 (
-aBrowser
+browser
 )
 {
 await
@@ -66,7 +66,7 @@ ContentTask
 .
 spawn
 (
-aBrowser
+browser
 {
 }
 async
@@ -274,7 +274,7 @@ async
 function
 testDirection
 (
-initialDir
+initDir
 aBrowser
 )
 {
@@ -286,6 +286,8 @@ spawn
 aBrowser
 {
 initialDir
+:
+initDir
 }
 function
 (
@@ -479,6 +481,8 @@ spawn
 aBrowser
 {
 initialDir
+:
+initDir
 }
 function
 (
@@ -657,6 +661,8 @@ spawn
 aBrowser
 {
 initialDir
+:
+initDir
 }
 function
 (
@@ -807,7 +813,7 @@ testDirection
 "
 ltr
 "
-aBrowser
+browser
 )
 ;
 await
@@ -816,7 +822,7 @@ testDirection
 "
 rtl
 "
-aBrowser
+browser
 )
 ;
 }
