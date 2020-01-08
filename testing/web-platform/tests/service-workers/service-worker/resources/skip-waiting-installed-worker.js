@@ -136,7 +136,7 @@ port
 postMessage
 (
 '
-FAITL
+FAIL
 :
 Promise
 should
