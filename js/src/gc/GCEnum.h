@@ -70,6 +70,11 @@ D
 (
 Decommit
 )
+\
+D
+(
+Finish
+)
 enum
 class
 State

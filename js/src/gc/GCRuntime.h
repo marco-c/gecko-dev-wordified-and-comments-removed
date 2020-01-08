@@ -3038,7 +3038,6 @@ gcCycle
 bool
 nonincrementalByAPI
 SliceBudget
-&
 budget
 JS
 :
@@ -3063,7 +3062,7 @@ Reason
 reason
 )
 ;
-IncrementalResult
+void
 incrementalSlice
 (
 SliceBudget
