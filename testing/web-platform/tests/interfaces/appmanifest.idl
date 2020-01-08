@@ -55,6 +55,13 @@ dismissed
 ;
 [
 Constructor
+(
+DOMString
+type
+optional
+EventInit
+eventInitDict
+)
 Exposed
 =
 Window
