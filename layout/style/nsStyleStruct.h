@@ -7803,7 +7803,10 @@ mozilla
 StyleClear
 mBreakType
 ;
-uint8_t
+mozilla
+:
+:
+StyleBreakWithin
 mBreakInside
 ;
 mozilla

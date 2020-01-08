@@ -275,6 +275,9 @@ Appearance
 BreakBetween
 "
 "
+BreakWithin
+"
+"
 ComputedFontStretchRange
 "
 "

@@ -46363,7 +46363,10 @@ mFlags
 mIsTopOfPage
 &
 &
-NS_STYLE_PAGE_BREAK_AVOID
+StyleBreakWithin
+:
+:
+Avoid
 =
 =
 disp
