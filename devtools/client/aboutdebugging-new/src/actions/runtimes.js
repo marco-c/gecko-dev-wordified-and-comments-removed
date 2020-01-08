@@ -138,7 +138,6 @@ client
 {
 const
 {
-extra
 type
 }
 =
@@ -146,8 +145,11 @@ runtime
 ;
 const
 {
+brandName
+:
 name
 channel
+deviceName
 version
 }
 =
@@ -233,14 +235,6 @@ return
 {
 icon
 deviceName
-:
-extra
-?
-extra
-.
-deviceName
-:
-undefined
 name
 type
 version
