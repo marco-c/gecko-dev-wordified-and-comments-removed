@@ -711,19 +711,23 @@ path
 .
 join
 (
+            
 GECKO_SRCDIR
+            
 '
 testing
 '
-                                    
+            
 '
 config
 '
+            
 '
-telemetry_tests_requirements
+telemetry_tests_source_requirements
 .
 txt
 '
+        
 )
         
 self
