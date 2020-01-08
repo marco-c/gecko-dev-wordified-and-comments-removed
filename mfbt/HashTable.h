@@ -6286,7 +6286,7 @@ entry
 }
 Entry
 &
-findFreeEntry
+findNonLiveEntry
 (
 HashNumber
 aKeyHash
@@ -6572,7 +6572,7 @@ getKeyHash
 (
 )
 ;
-findFreeEntry
+findNonLiveEntry
 (
 hn
 )
@@ -7029,7 +7029,7 @@ Entry
 entry
 =
 &
-findFreeEntry
+findNonLiveEntry
 (
 keyHash
 )
@@ -7868,7 +7868,7 @@ aPtr
 mEntry
 =
 &
-findFreeEntry
+findNonLiveEntry
 (
 aPtr
 .
