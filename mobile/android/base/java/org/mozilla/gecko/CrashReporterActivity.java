@@ -2072,6 +2072,7 @@ backgroundSendReport
 ;
 }
 private
+Nullable
 String
 getProfileName
 (
@@ -2196,6 +2197,17 @@ IsRelative
 1
 )
 ;
+if
+(
+path
+=
+=
+null
+)
+{
+continue
+;
+}
 if
 (
 (
