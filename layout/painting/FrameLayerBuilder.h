@@ -454,6 +454,12 @@ TransformClipNode
 >
 mTransform
 ;
+RefPtr
+<
+TransformClipNode
+>
+mOldTransform
+;
 private
 :
 DisplayItemData
