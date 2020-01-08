@@ -896,6 +896,5 @@ none
 ]
 None
 All
-MozAll
 MozText
 }
