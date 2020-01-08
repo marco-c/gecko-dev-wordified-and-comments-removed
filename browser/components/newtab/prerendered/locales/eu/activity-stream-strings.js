@@ -981,9 +981,11 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Baliozko
+helbide
+elektronikoa
+behar
+da
 "
 "
 firstrun_extra_legal_links

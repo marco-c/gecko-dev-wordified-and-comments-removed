@@ -345,7 +345,7 @@ menu_action_remove_download
 "
 :
 "
-Suprimeix
+Elimina
 de
 l
 '

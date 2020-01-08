@@ -265,5 +265,16 @@ initialized
 false
 }
 ]
+"
+Pocket
+"
+:
+{
+"
+waitingForSpoc
+"
+:
+true
+}
 }
 ;
