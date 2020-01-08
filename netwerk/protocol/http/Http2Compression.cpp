@@ -2313,6 +2313,16 @@ Truncate
 (
 )
 ;
+mOutput
+-
+>
+SetCapacity
+(
+datalen
++
+512
+)
+;
 mHeaderStatus
 .
 Truncate
