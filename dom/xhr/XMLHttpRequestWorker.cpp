@@ -7301,7 +7301,7 @@ autoSyncLoop
 emplace
 (
 mWorkerPrivate
-Terminating
+Canceling
 )
 ;
 syncLoopTarget
@@ -7364,7 +7364,7 @@ aRunnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -7635,7 +7635,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -7778,7 +7778,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -7849,7 +7849,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -7920,7 +7920,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -7991,7 +7991,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -8967,7 +8967,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -9050,7 +9050,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -9144,7 +9144,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -9258,7 +9258,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;
@@ -9375,7 +9375,7 @@ runnable
 >
 Dispatch
 (
-Terminating
+Canceling
 aRv
 )
 ;

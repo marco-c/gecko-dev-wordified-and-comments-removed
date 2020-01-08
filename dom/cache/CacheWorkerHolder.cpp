@@ -88,7 +88,7 @@ workerHolder
 HoldWorker
 (
 aWorkerPrivate
-Terminating
+Canceling
 )
 )
 )
@@ -342,7 +342,7 @@ if
 (
 aStatus
 <
-Terminating
+Canceling
 |
 |
 mNotified

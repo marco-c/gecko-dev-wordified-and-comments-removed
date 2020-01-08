@@ -32,7 +32,6 @@ Pending
 0
 Running
 Closing
-Terminating
 Canceling
 Killing
 Dead

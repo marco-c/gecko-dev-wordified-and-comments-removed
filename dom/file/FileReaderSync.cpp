@@ -1975,7 +1975,7 @@ AutoSyncLoopHolder
 syncLoop
 (
 workerPrivate
-Terminating
+Canceling
 )
 ;
 nsCOMPtr

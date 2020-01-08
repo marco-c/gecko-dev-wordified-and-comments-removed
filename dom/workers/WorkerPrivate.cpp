@@ -2085,12 +2085,6 @@ Closing
 aStatus
 =
 =
-Terminating
-|
-|
-aStatus
-=
-=
 Canceling
 |
 |
@@ -7061,7 +7055,7 @@ NS_ASSERTION
 aStatus
 !
 =
-Terminating
+Canceling
 |
 |
 mQueuedRunnables
@@ -7312,7 +7306,7 @@ if
 mParentStatus
 >
 =
-Terminating
+Canceling
 )
 {
 return
@@ -7552,7 +7546,7 @@ if
 mParentStatus
 >
 =
-Terminating
+Canceling
 )
 {
 return
@@ -7752,7 +7746,7 @@ if
 mParentStatus
 >
 =
-Terminating
+Canceling
 )
 {
 return
@@ -7855,7 +7849,7 @@ if
 mParentStatus
 >
 =
-Terminating
+Canceling
 )
 {
 return
@@ -7986,7 +7980,7 @@ shouldCancel
 mParentStatus
 =
 =
-Terminating
+Canceling
 ;
 }
 if
@@ -13039,7 +13033,6 @@ for
 {
 WorkerStatus
 currentStatus
-previousStatus
 ;
 bool
 debuggerRunnablesPending
@@ -13057,10 +13050,6 @@ lock
 (
 mMutex
 )
-;
-previousStatus
-=
-mStatus
 ;
 while
 (
@@ -13147,16 +13136,10 @@ HasActiveHolders
 {
 if
 (
-previousStatus
-!
-=
-Running
-&
-&
 currentStatus
-!
 =
-Killing
+=
+Canceling
 )
 {
 NotifyInternal
@@ -13958,7 +13941,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mStatus
 >
 =
-Terminating
+Canceling
 )
 ;
 return
@@ -14044,7 +14027,7 @@ if
 mStatus
 >
 =
-Terminating
+Canceling
 )
 {
 return
@@ -14117,7 +14100,7 @@ if
 mStatus
 >
 =
-Terminating
+Canceling
 )
 {
 return
@@ -14184,7 +14167,7 @@ if
 mStatus
 >
 =
-Terminating
+Canceling
 )
 {
 return
@@ -16549,7 +16532,7 @@ MOZ_ASSERT
 aFailStatus
 >
 =
-Terminating
+Canceling
 "
 Sync
 loops
@@ -18096,7 +18079,7 @@ if
 aStatus
 >
 =
-Terminating
+Canceling
 )
 {
 MutexAutoUnlock
@@ -18332,12 +18315,6 @@ true
 }
 MOZ_ASSERT
 (
-aStatus
-=
-=
-Terminating
-|
-|
 aStatus
 =
 =
@@ -20201,7 +20178,7 @@ ParentStatus
 )
 >
 =
-Terminating
+Canceling
 )
 {
 return

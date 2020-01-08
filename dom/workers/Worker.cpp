@@ -610,7 +610,7 @@ mWorkerPrivate
 mWorkerPrivate
 -
 >
-Terminate
+Cancel
 (
 )
 ;

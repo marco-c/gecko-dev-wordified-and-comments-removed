@@ -7766,7 +7766,7 @@ dom
 WorkerStatus
 :
 :
-Terminating
+Canceling
 rv
 )
 ;
