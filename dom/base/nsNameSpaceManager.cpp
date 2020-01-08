@@ -155,7 +155,7 @@ static
 const
 char
 *
-kObservedPrefs
+kObservedNSPrefs
 [
 ]
 =
@@ -304,7 +304,7 @@ nsNameSpaceManager
 :
 PrefChanged
 )
-kObservedPrefs
+kObservedNSPrefs
 this
 )
 ;

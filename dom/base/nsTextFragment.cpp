@@ -115,10 +115,8 @@ sSingleCharSharedString
 ]
 ;
 using
+namespace
 mozilla
-:
-:
-CheckedUint32
 ;
 nsresult
 nsTextFragment

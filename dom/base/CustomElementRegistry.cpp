@@ -96,6 +96,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ShadowRoot
+.
+h
+"
+#
+include
+"
 nsHTMLTags
 .
 h

@@ -21,6 +21,17 @@ mozilla
 /
 dom
 /
+ShadowRoot
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StyleSheetList
 .
 h
