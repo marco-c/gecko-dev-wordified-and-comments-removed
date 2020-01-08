@@ -3849,9 +3849,6 @@ mHasHandledUserInput
 (
 false
 )
-#
-ifdef
-NIGHTLY_BUILD
 mForceDispatchKeyPressEventsForNonPrintableKeys
 (
 false
@@ -3864,8 +3861,6 @@ mInitializedWithKeyPressEventDispatchingBlacklist
 (
 false
 )
-#
-endif
 {
 MOZ_LOG
 (
@@ -35217,9 +35212,6 @@ return
 rv
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 already_AddRefed
 <
@@ -35341,8 +35333,6 @@ return
 nullptr
 ;
 }
-#
-endif
 nsresult
 PresShell
 :
@@ -35471,9 +35461,6 @@ mOnlySystemGroupDispatchInContent
 =
 true
 ;
-#
-ifdef
-NIGHTLY_BUILD
 }
 else
 if
@@ -35585,8 +35572,6 @@ mUseLegacyKeyCodeAndCharCodeValues
 true
 ;
 }
-#
-endif
 }
 if
 (

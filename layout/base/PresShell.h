@@ -3069,9 +3069,6 @@ mHasHandledUserInput
 :
 1
 ;
-#
-ifdef
-NIGHTLY_BUILD
 bool
 mForceDispatchKeyPressEventsForNonPrintableKeys
 :
@@ -3087,8 +3084,6 @@ mInitializedWithKeyPressEventDispatchingBlacklist
 :
 1
 ;
-#
-endif
 static
 bool
 sDisableNonTestMouseEvents
