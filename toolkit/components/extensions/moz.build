@@ -189,11 +189,6 @@ FindContent
 jsm
 '
 '
-LegacyExtensionsUtils
-.
-jsm
-'
-'
 MessageChannel
 .
 jsm

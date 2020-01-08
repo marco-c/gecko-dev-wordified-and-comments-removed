@@ -72,9 +72,6 @@ Object
 assign
 (
 {
-embedded
-:
-true
 }
 data
 )
@@ -101,6 +98,10 @@ id
 data
 .
 manifest
+|
+|
+{
+}
 )
 ;
 let
@@ -173,8 +174,6 @@ fileURI
 spec
 }
 !
-/
-webextension
 /
 )
 ;

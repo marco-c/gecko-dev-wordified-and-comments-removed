@@ -5540,9 +5540,6 @@ bootstrap
 "
 strictCompatibility
 "
-"
-hasEmbeddedWebExtension
-"
 ]
 ;
 rdf

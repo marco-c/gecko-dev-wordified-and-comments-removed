@@ -547,9 +547,6 @@ unpack
 "
 strictCompatibility
 "
-"
-hasEmbeddedWebExtension
-"
 ]
 ;
 this
