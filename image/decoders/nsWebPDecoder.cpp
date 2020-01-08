@@ -3045,6 +3045,11 @@ mFormat
 iter
 .
 has_alpha
+|
+|
+mCurrentFrame
+>
+0
 ?
 SurfaceFormat
 :
