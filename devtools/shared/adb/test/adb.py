@@ -37,7 +37,7 @@ PORT
 =
 5037
 class
-ADBServer
+ADBRequestHandler
 (
 SocketServer
 .
@@ -312,7 +312,7 @@ TCPServer
 HOST
 PORT
 )
-ADBServer
+ADBRequestHandler
 False
 )
         
