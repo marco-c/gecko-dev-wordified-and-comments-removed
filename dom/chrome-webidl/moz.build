@@ -309,6 +309,11 @@ PrecompiledScript
 webidl
 '
 '
+PrioEncoder
+.
+webidl
+'
+'
 PromiseDebugging
 .
 webidl
