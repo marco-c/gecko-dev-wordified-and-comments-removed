@@ -3800,6 +3800,11 @@ contain
 -
 property
 "
+enabled_in
+=
+"
+chrome
+"
 )
 }
 /
