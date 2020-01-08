@@ -75,6 +75,15 @@ tooltip
 .
 panel
 .
+innerHTML
+=
+"
+"
+;
+tooltip
+.
+panel
+.
 appendChild
 (
 div
