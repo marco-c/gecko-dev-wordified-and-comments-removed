@@ -870,6 +870,8 @@ exit
 exit2
 )
 ;
+promise
+=
 document
 .
 exitFullscreen
@@ -920,6 +922,15 @@ subframe
 should
 be
 null
+"
+)
+;
+assertPromiseResolved
+(
+promise
+"
+in
+exit2
 "
 )
 ;
