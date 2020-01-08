@@ -199,6 +199,10 @@ IMPL_EVENT_HANDLER
 (
 error
 )
+IMPL_EVENT_HANDLER
+(
+messageerror
+)
 inline
 mozilla
 :
@@ -502,6 +506,9 @@ aMessage
 MessageEventInit
 &
 aInit
+ErrorResult
+&
+aRv
 )
 ;
 RefPtr
