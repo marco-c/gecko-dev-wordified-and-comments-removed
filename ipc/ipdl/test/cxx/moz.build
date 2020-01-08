@@ -307,6 +307,11 @@ TestSyncWakeup
 cpp
 '
 '
+TestUniquePtrIPC
+.
+cpp
+'
+'
 TestUrgency
 .
 cpp
@@ -649,6 +654,11 @@ ipdl
 '
 '
 PTestSyncWakeup
+.
+ipdl
+'
+'
+PTestUniquePtrIPC
 .
 ipdl
 '
