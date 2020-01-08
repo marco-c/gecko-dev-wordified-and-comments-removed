@@ -42,8 +42,8 @@ replace
 s
 +
 /
-'
-'
+"
+"
 )
 .
 replace
@@ -53,8 +53,8 @@ replace
 s
 +
 /
-'
-'
+"
+"
 )
 )
 ;
@@ -129,6 +129,7 @@ test
 format
 .
 "
+;
 }
 var
 input
@@ -581,6 +582,7 @@ buf
 "
 <
 "
+;
 var
 ns
 =

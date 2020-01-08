@@ -114,9 +114,9 @@ appendChild
 (
 createEl
 (
-'
+"
 h2
-'
+"
 null
 "
 Unexpected
@@ -139,9 +139,9 @@ appendChild
 (
 createEl
 (
-'
+"
 h2
-'
+"
 null
 "
 Unexpected
@@ -162,9 +162,9 @@ appendChild
 (
 createEl
 (
-'
+"
 br
-'
+"
 )
 )
 ;
@@ -178,9 +178,9 @@ appendChild
 (
 createEl
 (
-'
+"
 span
-'
+"
 null
 "
 Matched
@@ -218,9 +218,9 @@ pre
 =
 createEl
 (
-'
+"
 pre
-'
+"
 )
 ;
 pre
@@ -323,9 +323,9 @@ appendChild
 (
 createEl
 (
-'
+"
 hr
-'
+"
 )
 )
 ;
@@ -434,6 +434,7 @@ target
 )
 ;
 }
+;
 }
 function
 makeFragmentTestChecker
@@ -621,6 +622,7 @@ testframe
 )
 ;
 }
+;
 }
 var
 testcases
