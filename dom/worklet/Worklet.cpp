@@ -92,6 +92,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WorkletImpl
+.
+h
+"
+#
+include
+"
 js
 /
 CompilationAndEvaluation
