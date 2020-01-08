@@ -84,11 +84,6 @@ getCallStackFrames
 js
 '
 '
-getRelativeSources
-.
-js
-'
-'
 inComponent
 .
 js
