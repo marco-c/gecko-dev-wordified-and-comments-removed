@@ -735,7 +735,7 @@ size
 )
 >
 =
-2
+3
 "
 not
 enough
@@ -753,6 +753,17 @@ SetSandboxTempPath
 values
 [
 1
+]
+)
+;
+PluginModuleChild
+:
+:
+SetFlashRoamingPath
+(
+values
+[
+2
 ]
 )
 ;
