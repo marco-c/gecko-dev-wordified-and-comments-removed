@@ -9484,13 +9484,9 @@ sendKeysToElement
 (
 el
 text
-{
-accessibilityChecks
-:
 this
 .
 a11yChecks
-}
 )
 ;
 break
