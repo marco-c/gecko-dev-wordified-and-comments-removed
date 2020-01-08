@@ -257,9 +257,6 @@ invalidateEpilogueData_
 NonAssertingLabel
 returnLabel_
 ;
-FallbackICStubSpace
-stubSpace_
-;
 js
 :
 :

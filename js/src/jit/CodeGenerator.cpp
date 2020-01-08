@@ -63475,15 +63475,6 @@ runtime
 ionScript
 )
 ;
-ionScript
--
->
-adoptFallbackStubs
-(
-&
-stubSpace_
-)
-;
 Assembler
 :
 :
