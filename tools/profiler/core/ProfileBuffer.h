@@ -95,8 +95,6 @@ const
 char
 *
 aStr
-uint32_t
-aFrameFlags
 const
 mozilla
 :

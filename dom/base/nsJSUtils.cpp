@@ -631,6 +631,7 @@ nsJSUtils
 ExecutionContext
 "
 nullptr
+__LINE__
 js
 :
 :
