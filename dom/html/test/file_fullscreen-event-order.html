@@ -132,6 +132,7 @@ fullscreenEvents
 ]
 ;
 let
+iframe
 iframeDoc
 ;
 function
@@ -139,7 +140,7 @@ begin
 (
 )
 {
-iframeDoc
+iframe
 =
 document
 .
@@ -149,6 +150,10 @@ querySelector
 iframe
 "
 )
+;
+iframeDoc
+=
+iframe
 .
 contentDocument
 ;
@@ -244,7 +249,7 @@ fullscreenEvents
 ]
 .
 target
-document
+iframe
 "
 Root
 document
@@ -269,6 +274,8 @@ fullscreenEvents
 .
 target
 iframeDoc
+.
+body
 "
 Inner
 document
