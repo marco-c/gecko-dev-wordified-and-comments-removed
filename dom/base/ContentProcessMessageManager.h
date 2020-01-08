@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_ProcessGlobal_h
+mozilla_dom_ContentProcessMessageManager_h
 #
 define
-mozilla_dom_ProcessGlobal_h
+mozilla_dom_ContentProcessMessageManager_h
 #
 include
 "
@@ -122,7 +122,7 @@ SharedMap
 ;
 }
 class
-ProcessGlobal
+ContentProcessMessageManager
 :
 public
 nsIMessageSender
@@ -147,7 +147,7 @@ nsWrapperCache
 public
 :
 explicit
-ProcessGlobal
+ContentProcessMessageManager
 (
 nsFrameMessageManager
 *
@@ -238,7 +238,7 @@ Init
 )
 ;
 static
-ProcessGlobal
+ContentProcessMessageManager
 *
 Get
 (
@@ -253,7 +253,7 @@ WasCreated
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
-ProcessGlobal
+ContentProcessMessageManager
 nsIMessageSender
 )
 void
@@ -468,7 +468,7 @@ protected
 :
 virtual
 ~
-ProcessGlobal
+ContentProcessMessageManager
 (
 )
 ;

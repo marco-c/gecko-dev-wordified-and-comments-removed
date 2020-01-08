@@ -825,6 +825,11 @@ ContentFrameMessageManager
 h
 '
 '
+ContentProcessMessageManager
+.
+h
+'
+'
 CustomElementRegistry
 .
 h
@@ -1090,11 +1095,6 @@ Pose
 h
 '
 '
-ProcessGlobal
-.
-h
-'
-'
 ProcessMessageManager
 .
 h
@@ -1293,6 +1293,11 @@ cpp
 '
 '
 Comment
+.
+cpp
+'
+'
+ContentProcessMessageManager
 .
 cpp
 '
@@ -1833,11 +1838,6 @@ cpp
 '
 '
 PostMessageEvent
-.
-cpp
-'
-'
-ProcessGlobal
 .
 cpp
 '

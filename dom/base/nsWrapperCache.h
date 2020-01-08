@@ -63,10 +63,10 @@ namespace
 dom
 {
 class
-TabChildGlobal
+ContentProcessMessageManager
 ;
 class
-ProcessGlobal
+TabChildGlobal
 ;
 }
 }
