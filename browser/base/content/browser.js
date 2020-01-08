@@ -26524,8 +26524,6 @@ aRequest
 .
 originalURI
 .
-spec
-.
 scheme
 !
 =
