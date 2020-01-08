@@ -272,6 +272,16 @@ string
 aErrorMessage
 )
 ;
+#
+ifdef
+DEBUG
+void
+AssertMacSandboxEnabled
+(
+)
+;
+#
+endif
 }
 #
 endif
