@@ -79,6 +79,13 @@ request
 shouldSkipDisk
 (
 )
+|
+|
+request
+.
+isPrivateMode
+(
+)
 )
 {
 return

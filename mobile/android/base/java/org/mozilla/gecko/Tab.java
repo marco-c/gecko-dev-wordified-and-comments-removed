@@ -1876,6 +1876,13 @@ mRunningIconRequest
 =
 mIconRequestBuilder
 .
+setPrivateMode
+(
+isPrivate
+(
+)
+)
+.
 build
 (
 )
