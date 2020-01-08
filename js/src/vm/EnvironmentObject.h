@@ -63,6 +63,15 @@ include
 "
 vm
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h

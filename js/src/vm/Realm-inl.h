@@ -36,6 +36,15 @@ include
 "
 vm
 /
+GlobalObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Iteration
 .
 h
