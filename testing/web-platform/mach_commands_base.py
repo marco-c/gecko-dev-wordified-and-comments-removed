@@ -1,4 +1,6 @@
 import
+os
+import
 sys
 def
 create_parser_wpt
@@ -78,12 +80,14 @@ kwargs
 :
         
 from
-wptrunner
+tools
+.
+wpt
 import
-wptrunner
+run
         
 return
-wptrunner
+run
 .
 setup_logging
 (

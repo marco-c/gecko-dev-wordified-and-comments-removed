@@ -3291,6 +3291,9 @@ def
 setup_logging
 (
 kwargs
+default_config
+=
+None
 )
 :
     
@@ -3306,6 +3309,12 @@ global
 logger
     
 if
+default_config
+is
+None
+:
+        
+if
 hasattr
 (
 mozlog
@@ -3316,27 +3325,24 @@ GroupingFormatter
 "
 )
 :
-        
+            
 default_formatter
 =
 "
 grouped
 "
-    
+        
 else
 :
-        
+            
 default_formatter
 =
 "
 mach
 "
-    
-wptrunner
-.
-setup_logging
-(
-kwargs
+        
+default_config
+=
 {
 default_formatter
 :
@@ -3344,6 +3350,13 @@ sys
 .
 stdout
 }
+    
+wptrunner
+.
+setup_logging
+(
+kwargs
+default_config
 )
     
 logger
