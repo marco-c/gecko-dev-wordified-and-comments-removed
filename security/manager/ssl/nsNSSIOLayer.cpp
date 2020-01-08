@@ -1075,7 +1075,8 @@ AccumulateTimeDelta
 Telemetry
 :
 :
-SSL_TIME_UNTIL_HANDSHAKE_FINISHED
+SSL_TIME_UNTIL_HANDSHAKE_FINISHED_KEYED_BY_KA
+mKeaGroup
 mSocketCreationTimestamp
 TimeStamp
 :

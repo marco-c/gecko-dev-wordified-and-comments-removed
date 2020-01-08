@@ -21737,7 +21737,7 @@ tunneling
 "
 }
 "
-SSL_TIME_UNTIL_HANDSHAKE_FINISHED
+SSL_TIME_UNTIL_HANDSHAKE_FINISHED_KEYED_BY_KA
 "
 :
 {
@@ -21766,6 +21766,12 @@ mozilla
 .
 com
 "
+"
+fkiefer
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -21773,6 +21779,7 @@ bug_numbers
 :
 [
 1340021
+1513839
 ]
 "
 releaseChannelCollection
@@ -21797,6 +21804,11 @@ kind
 "
 exponential
 "
+"
+keyed
+"
+:
+true
 "
 high
 "
@@ -21825,6 +21837,13 @@ TCP
 and
 proxy
 tunneling
+keyed
+by
+the
+key
+exchange
+algorithm
+used
 "
 }
 "
