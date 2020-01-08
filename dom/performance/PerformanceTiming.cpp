@@ -1252,7 +1252,7 @@ TYPE_DOCUMENT
 )
 {
 return
-false
+true
 ;
 }
 nsCOMPtr
