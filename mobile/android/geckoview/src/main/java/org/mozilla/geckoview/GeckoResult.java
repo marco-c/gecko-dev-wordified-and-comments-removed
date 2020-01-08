@@ -476,7 +476,7 @@ GeckoResult
 <
 U
 >
-then
+exceptionally
 (
 NonNull
 final
