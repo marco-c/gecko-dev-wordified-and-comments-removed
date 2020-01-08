@@ -1402,13 +1402,6 @@ RESPATH
 /
 components
 /
-nsLivemarkService
-.
-js
-RESPATH
-/
-components
-/
 nsTaggingService
 .
 js

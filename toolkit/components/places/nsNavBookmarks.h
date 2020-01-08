@@ -613,13 +613,6 @@ nsNavBookmarks
 (
 )
 ;
-bool
-IsLivemark
-(
-int64_t
-aFolderId
-)
-;
 nsresult
 AdjustIndices
 (

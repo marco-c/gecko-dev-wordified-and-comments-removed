@@ -258,12 +258,6 @@ _charSet
 :
 "
 "
-_feedURI
-:
-null
-_siteURI
-:
-null
 _defaultInsertionPoint
 :
 null
