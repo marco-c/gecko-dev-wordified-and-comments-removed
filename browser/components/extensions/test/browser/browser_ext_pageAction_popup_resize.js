@@ -358,7 +358,7 @@ document
 .
 body
 .
-firstChild
+firstElementChild
 ;
 elem
 .

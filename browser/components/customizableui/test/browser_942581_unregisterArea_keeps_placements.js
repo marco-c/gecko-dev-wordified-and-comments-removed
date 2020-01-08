@@ -436,7 +436,7 @@ from
 (
 aNode
 .
-childNodes
+children
 (
 node
 )

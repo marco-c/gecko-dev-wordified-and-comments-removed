@@ -42,7 +42,7 @@ gBrowser
 .
 tabContainer
 .
-firstChild
+firstElementChild
 ;
 await
 promiseTabLoadEvent
@@ -91,7 +91,7 @@ gBrowser
 selectedTab
 tab
 .
-nextSibling
+nextElementSibling
 "
 dependent
 tab
@@ -164,7 +164,7 @@ gBrowser
 .
 tabContainer
 .
-firstChild
+firstElementChild
 ;
 await
 promiseTabLoadEvent

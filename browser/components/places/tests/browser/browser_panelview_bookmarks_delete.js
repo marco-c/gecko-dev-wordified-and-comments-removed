@@ -203,7 +203,7 @@ listItem
 .
 list
 .
-childNodes
+children
 ]
 .
 find

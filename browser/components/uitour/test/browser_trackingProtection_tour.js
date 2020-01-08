@@ -382,7 +382,7 @@ doc
 .
 body
 .
-firstChild
+firstElementChild
 )
 ;
 }

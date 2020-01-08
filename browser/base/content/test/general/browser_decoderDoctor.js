@@ -244,7 +244,7 @@ button
 =
 notification
 .
-childNodes
+children
 [
 0
 ]

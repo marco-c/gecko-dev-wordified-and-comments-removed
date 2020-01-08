@@ -743,7 +743,7 @@ is
 popup
 submenu
 .
-firstChild
+firstElementChild
 "
 Correct
 submenu
@@ -900,7 +900,7 @@ closeActionContextMenu
 (
 popup
 .
-firstChild
+firstElementChild
 kind
 )
 ;
@@ -1225,7 +1225,7 @@ filter
 (
 menu
 .
-childNodes
+children
 node
 =
 >
@@ -2117,7 +2117,7 @@ is
 popup
 submenu
 .
-firstChild
+firstElementChild
 "
 Correct
 submenu
@@ -2914,7 +2914,7 @@ is
 (
 popup
 .
-firstChild
+firstElementChild
 .
 label
 "
@@ -2933,7 +2933,7 @@ closeExtensionContextMenu
 (
 popup
 .
-firstChild
+firstElementChild
 )
 ;
 const
@@ -3339,7 +3339,7 @@ is
 (
 submenu
 .
-firstChild
+firstElementChild
 .
 children
 .

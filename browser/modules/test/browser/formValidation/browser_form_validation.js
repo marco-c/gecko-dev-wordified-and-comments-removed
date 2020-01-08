@@ -930,7 +930,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -1060,7 +1060,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -1183,7 +1183,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -1336,7 +1336,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -1499,7 +1499,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -1644,7 +1644,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -1792,7 +1792,7 @@ checkChildFocus
 browser1
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -1971,7 +1971,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -2374,7 +2374,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -2383,7 +2383,7 @@ is
 (
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 "
@@ -2525,7 +2525,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )
@@ -2586,7 +2586,7 @@ checkChildFocus
 browser
 gInvalidFormPopup
 .
-firstChild
+firstElementChild
 .
 textContent
 )

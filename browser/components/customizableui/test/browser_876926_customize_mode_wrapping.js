@@ -452,9 +452,9 @@ containerId
 .
 customizationTarget
 .
-lastChild
+lastElementChild
 .
-firstChild
+firstElementChild
 .
 id
 id
@@ -493,7 +493,7 @@ containerId
 .
 customizationTarget
 .
-lastChild
+lastElementChild
 .
 id
 id
@@ -548,7 +548,7 @@ rv
 =
 container
 .
-lastChild
+lastElementChild
 ;
 while
 (
@@ -574,12 +574,12 @@ true
 (
 rv
 .
-firstChild
+firstElementChild
 &
 &
 rv
 .
-firstChild
+firstElementChild
 .
 getAttribute
 (
@@ -600,7 +600,7 @@ rv
 =
 rv
 .
-previousSibling
+previousElementSibling
 ;
 }
 return
@@ -732,7 +732,7 @@ getLastVisibleNodeInToolbar
 containerId
 )
 .
-firstChild
+firstElementChild
 .
 id
 id
@@ -823,9 +823,9 @@ containerId
 .
 customizationTarget
 .
-firstChild
+firstElementChild
 .
-firstChild
+firstElementChild
 .
 id
 id
@@ -864,7 +864,7 @@ containerId
 .
 customizationTarget
 .
-firstChild
+firstElementChild
 .
 id
 id
@@ -1097,7 +1097,7 @@ length
 position
 ]
 .
-firstChild
+firstElementChild
 .
 id
 id
@@ -1250,7 +1250,7 @@ is
 (
 expectedChild
 .
-firstChild
+firstElementChild
 .
 id
 id

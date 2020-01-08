@@ -503,7 +503,7 @@ PlacesToolbarItems
 "
 )
 .
-childNodes
+children
 )
 .
 find

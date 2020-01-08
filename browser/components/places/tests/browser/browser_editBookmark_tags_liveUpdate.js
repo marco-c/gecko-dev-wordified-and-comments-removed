@@ -55,7 +55,7 @@ children
 =
 tagsSelector
 .
-childNodes
+children
 ;
 is
 (

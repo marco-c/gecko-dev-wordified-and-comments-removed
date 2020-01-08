@@ -921,7 +921,7 @@ popup
 .
 richlistbox
 .
-firstChild
+firstElementChild
 ;
 Assert
 .

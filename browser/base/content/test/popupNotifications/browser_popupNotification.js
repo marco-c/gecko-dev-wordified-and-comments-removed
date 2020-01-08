@@ -1318,7 +1318,7 @@ is
 (
 popup
 .
-childNodes
+children
 .
 length
 2
@@ -1339,7 +1339,7 @@ is
 (
 popup
 .
-childNodes
+children
 .
 length
 1
@@ -1541,7 +1541,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -1682,7 +1682,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]

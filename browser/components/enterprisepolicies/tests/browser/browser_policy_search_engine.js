@@ -253,7 +253,7 @@ ok
 (
 engineListElement
 .
-firstChild
+firstElementChild
 "
 There
 should
@@ -293,7 +293,7 @@ is
 (
 engineListElement
 .
-firstChild
+firstElementChild
 null
 "
 There

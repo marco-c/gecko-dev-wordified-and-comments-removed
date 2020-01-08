@@ -14,7 +14,7 @@ testMenuitem
 .
 menupopup
 .
-childNodes
+children
 ]
 .
 find
@@ -1374,7 +1374,7 @@ toolbarbutton
 =
 BT
 .
-firstChild
+firstElementChild
 ;
 ok
 (
@@ -1397,7 +1397,7 @@ buttonMenupopup
 =
 toolbarbutton
 .
-firstChild
+firstElementChild
 ;
 ok
 (
@@ -1464,9 +1464,9 @@ menuitem
 =
 buttonMenupopup
 .
-firstChild
+firstElementChild
 .
-nextSibling
+nextElementSibling
 ;
 promiseTabOpened
 =

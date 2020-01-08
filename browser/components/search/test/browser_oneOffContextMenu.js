@@ -251,7 +251,7 @@ node
 of
 oneOffButtons
 .
-childNodes
+children
 )
 {
 if

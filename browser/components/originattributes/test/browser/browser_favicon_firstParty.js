@@ -1516,9 +1516,9 @@ gTabsPanel
 .
 allTabsViewTabs
 .
-lastChild
+lastElementChild
 .
-firstChild
+firstElementChild
 )
 ;
 let
@@ -1620,9 +1620,9 @@ gTabsPanel
 .
 allTabsViewTabs
 .
-lastChild
+lastElementChild
 .
-firstChild
+firstElementChild
 )
 ;
 allTabsPopupHiddenPromise

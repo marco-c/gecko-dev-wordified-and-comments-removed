@@ -270,7 +270,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -370,7 +370,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -490,7 +490,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -676,7 +676,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -840,7 +840,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -930,7 +930,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -1028,7 +1028,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -1194,7 +1194,7 @@ notification
 =
 popup
 .
-childNodes
+children
 [
 0
 ]

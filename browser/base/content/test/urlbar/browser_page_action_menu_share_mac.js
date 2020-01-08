@@ -287,7 +287,7 @@ equal
 (
 body
 .
-childNodes
+children
 .
 length
 2
@@ -304,7 +304,7 @@ shareButton
 =
 body
 .
-childNodes
+children
 [
 0
 ]
@@ -622,7 +622,7 @@ equal
 (
 panel
 .
-childNodes
+children
 .
 length
 2
@@ -793,7 +793,7 @@ equal
 (
 body
 .
-childNodes
+children
 .
 length
 2
@@ -810,7 +810,7 @@ moreButton
 =
 body
 .
-childNodes
+children
 [
 1
 ]

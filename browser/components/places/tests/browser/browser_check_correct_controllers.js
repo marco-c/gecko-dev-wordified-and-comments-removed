@@ -239,7 +239,7 @@ synthesizeMouse
 (
 toolbarItems
 .
-childNodes
+children
 [
 0
 ]

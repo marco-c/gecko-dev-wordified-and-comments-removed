@@ -190,7 +190,7 @@ badFrame
 .
 document
 .
-firstChild
+firstElementChild
 ;
 var
 contentAreaContextMenu
@@ -349,7 +349,7 @@ badFrame
 .
 document
 .
-firstChild
+firstElementChild
 ;
 var
 contentAreaContextMenu
@@ -529,7 +529,7 @@ badFrame
 .
 document
 .
-firstChild
+firstElementChild
 ;
 var
 contentAreaContextMenu

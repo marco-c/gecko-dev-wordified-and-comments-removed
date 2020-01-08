@@ -397,7 +397,7 @@ newButtonNode
 &
 newButtonNode
 .
-nextSibling
+nextElementSibling
 ;
 is
 (

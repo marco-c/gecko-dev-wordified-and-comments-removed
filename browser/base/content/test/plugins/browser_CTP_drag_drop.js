@@ -805,7 +805,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 ;
 await
 promiseForCondition
@@ -829,7 +829,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .

@@ -564,7 +564,7 @@ gBrowser
 .
 tabContainer
 .
-lastChild
+lastElementChild
 )
 ;
 checkTabs
@@ -590,7 +590,7 @@ gBrowser
 .
 tabContainer
 .
-lastChild
+lastElementChild
 )
 ;
 checkTabs

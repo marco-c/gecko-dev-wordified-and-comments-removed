@@ -512,7 +512,7 @@ gBrowser
 .
 tabContainer
 .
-lastChild
+lastElementChild
 )
 ;
 }

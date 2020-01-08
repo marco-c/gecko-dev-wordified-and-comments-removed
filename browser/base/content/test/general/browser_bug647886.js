@@ -201,7 +201,7 @@ event
 .
 target
 .
-firstChild
+firstElementChild
 ;
 is
 (
@@ -279,7 +279,7 @@ event
 .
 target
 .
-lastChild
+lastElementChild
 ;
 is
 (

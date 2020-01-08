@@ -158,9 +158,9 @@ emptyLabel
 =
 permissionsList
 .
-nextSibling
+nextElementSibling
 .
-nextSibling
+nextElementSibling
 ;
 await
 openIdentityPopup
@@ -662,9 +662,9 @@ emptyLabel
 =
 permissionsList
 .
-nextSibling
+nextElementSibling
 .
-nextSibling
+nextElementSibling
 ;
 SitePermissions
 .

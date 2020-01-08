@@ -85,7 +85,7 @@ doc
 .
 body
 .
-firstChild
+firstElementChild
 ;
 is
 (
@@ -193,7 +193,7 @@ is
 (
 button
 .
-firstChild
+firstElementChild
 .
 getAttribute
 (

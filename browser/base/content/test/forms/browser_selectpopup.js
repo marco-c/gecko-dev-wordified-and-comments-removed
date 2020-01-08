@@ -1568,7 +1568,7 @@ is
 (
 selectPopup
 .
-firstChild
+firstElementChild
 .
 localName
 "
@@ -1585,7 +1585,7 @@ is
 (
 selectPopup
 .
-firstChild
+firstElementChild
 .
 getAttribute
 (
@@ -1607,7 +1607,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 1
 ]
@@ -1627,7 +1627,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 1
 ]
@@ -2547,9 +2547,9 @@ is
 (
 selectPopup
 .
-lastChild
+lastElementChild
 .
-previousSibling
+previousElementSibling
 .
 label
 "
@@ -2565,7 +2565,7 @@ is
 (
 selectPopup
 .
-lastChild
+lastElementChild
 .
 label
 "
@@ -4345,7 +4345,7 @@ menuRect
 =
 selectPopup
 .
-childNodes
+children
 [
 51
 ]
@@ -4754,7 +4754,7 @@ isfuzzy
 (
 selectPopup
 .
-childNodes
+children
 [
 selectedOption
 ]
@@ -5316,7 +5316,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 2
 ]
@@ -5336,7 +5336,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 3
 ]
@@ -5368,7 +5368,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 2
 ]
@@ -5388,7 +5388,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 3
 ]
@@ -5408,7 +5408,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 4
 ]
@@ -5440,7 +5440,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 4
 ]
@@ -5460,7 +5460,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 1
 ]
@@ -5493,7 +5493,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 4
 ]
@@ -5525,7 +5525,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 5
 ]
@@ -5582,7 +5582,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 5
 ]
@@ -5603,7 +5603,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 1
 ]
@@ -5636,7 +5636,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 1
 ]
@@ -5669,7 +5669,7 @@ is
 (
 selectPopup
 .
-childNodes
+children
 [
 8
 ]
@@ -5930,7 +5930,7 @@ synthesizeMouseAtCenter
 (
 selectPopup
 .
-firstChild
+firstElementChild
 {
 type
 :
@@ -6142,7 +6142,7 @@ height
 =
 selectPopup
 .
-lastChild
+lastElementChild
 .
 getBoundingClientRect
 (
@@ -6173,7 +6173,7 @@ height
 <
 selectPopup
 .
-lastChild
+lastElementChild
 .
 getBoundingClientRect
 (
@@ -6214,7 +6214,7 @@ child
 =
 selectPopup
 .
-firstChild
+firstElementChild
 ;
 let
 idx
@@ -6277,7 +6277,7 @@ child
 =
 child
 .
-nextSibling
+nextElementSibling
 ;
 }
 await

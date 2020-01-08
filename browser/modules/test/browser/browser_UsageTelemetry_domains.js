@@ -829,7 +829,7 @@ doc
 .
 body
 .
-firstChild
+firstElementChild
 )
 ;
 await

@@ -191,7 +191,7 @@ firstLWTheme
 =
 recommendedHeader
 .
-nextSibling
+nextElementSibling
 ;
 let
 firstLWThemeId

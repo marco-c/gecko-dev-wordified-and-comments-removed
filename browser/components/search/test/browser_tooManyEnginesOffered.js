@@ -204,7 +204,7 @@ buttonPopup
 =
 menuButton
 .
-firstChild
+firstElementChild
 ;
 promise
 =
@@ -256,7 +256,7 @@ equal
 (
 buttonPopup
 .
-childNodes
+children
 .
 length
 6
@@ -279,7 +279,7 @@ i
 <
 buttonPopup
 .
-childNodes
+children
 .
 length
 ;
@@ -293,7 +293,7 @@ item
 =
 buttonPopup
 .
-childNodes
+children
 [
 i
 ]
@@ -527,7 +527,7 @@ item
 =
 addEngineList
 .
-firstChild
+firstElementChild
 ;
 item
 ;
@@ -535,7 +535,7 @@ item
 =
 item
 .
-nextSibling
+nextElementSibling
 )
 os
 .

@@ -881,7 +881,7 @@ panelMultiView
 =
 panel
 .
-firstChild
+firstElementChild
 ;
 let
 widgetId

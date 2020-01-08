@@ -1468,7 +1468,7 @@ children
 =
 aContainer
 .
-childNodes
+children
 ;
 for
 (
@@ -1567,7 +1567,7 @@ popup
 =
 child
 .
-lastChild
+lastElementChild
 ;
 popup
 .
@@ -1648,7 +1648,7 @@ children
 =
 aContainer
 .
-childNodes
+children
 ;
 for
 (
@@ -1747,7 +1747,7 @@ popup
 =
 child
 .
-lastChild
+lastElementChild
 ;
 fakeOpenPopup
 (
@@ -1796,7 +1796,7 @@ findNode
 (
 menu
 .
-lastChild
+lastElementChild
 )
 ;
 }

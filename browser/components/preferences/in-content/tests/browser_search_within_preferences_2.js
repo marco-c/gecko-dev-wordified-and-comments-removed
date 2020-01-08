@@ -94,7 +94,7 @@ noFxaSignUp
 =
 weavePrefsDeck
 .
-childNodes
+children
 [
 0
 ]
@@ -331,7 +331,7 @@ unlinkFxaAccount
 =
 weavePrefsDeck
 .
-childNodes
+children
 [
 1
 ]

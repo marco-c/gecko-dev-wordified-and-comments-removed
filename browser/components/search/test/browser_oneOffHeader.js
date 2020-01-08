@@ -110,7 +110,7 @@ headerChild
 =
 headerChild
 .
-firstChild
+firstElementChild
 ;
 }
 let
@@ -132,7 +132,7 @@ label
 =
 label
 .
-nextSibling
+nextElementSibling
 )
 {
 headerStrings

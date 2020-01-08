@@ -474,7 +474,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 0
 ]
@@ -499,7 +499,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 0
 ]
@@ -528,7 +528,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 0
 ]
@@ -554,7 +554,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 0
 ]
@@ -575,7 +575,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 1
 ]
@@ -599,7 +599,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 1
 ]
@@ -626,7 +626,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 1
 ]
@@ -652,7 +652,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 1
 ]
@@ -674,7 +674,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 2
 ]
@@ -699,7 +699,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 2
 ]
@@ -728,7 +728,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 2
 ]
@@ -755,7 +755,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 2
 ]
@@ -777,7 +777,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 3
 ]
@@ -802,7 +802,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 3
 ]
@@ -831,7 +831,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 3
 ]
@@ -857,7 +857,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 3
 ]
@@ -891,7 +891,7 @@ synthesizeMouseAtCenter
 (
 buttons
 .
-childNodes
+children
 [
 2
 ]
@@ -1151,7 +1151,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 1
 ]
@@ -1178,7 +1178,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 1
 ]
@@ -1204,7 +1204,7 @@ ok
 (
 buttons
 .
-childNodes
+children
 [
 1
 ]
@@ -1234,7 +1234,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 2
 ]
@@ -1263,7 +1263,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 2
 ]
@@ -1290,7 +1290,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 3
 ]
@@ -1319,7 +1319,7 @@ is
 (
 buttons
 .
-childNodes
+children
 [
 3
 ]
@@ -1356,7 +1356,7 @@ synthesizeMouseAtCenter
 (
 buttons
 .
-childNodes
+children
 [
 3
 ]

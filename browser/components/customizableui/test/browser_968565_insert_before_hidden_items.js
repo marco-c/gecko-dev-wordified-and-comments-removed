@@ -279,7 +279,7 @@ is
 (
 homeButton
 .
-previousSibling
+previousElementSibling
 .
 id
 lastVisible

@@ -107,7 +107,7 @@ is
 (
 wrapper
 .
-firstChild
+firstElementChild
 .
 id
 kTestWidget1

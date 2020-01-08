@@ -530,7 +530,7 @@ gBrowser
 .
 selectedTab
 .
-nextSibling
+nextElementSibling
 ;
 is
 (

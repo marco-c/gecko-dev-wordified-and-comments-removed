@@ -46,7 +46,7 @@ document
 .
 body
 .
-firstChild
+firstElementChild
 .
 focus
 (

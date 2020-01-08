@@ -59,7 +59,7 @@ node
 of
 navbarCT
 .
-childNodes
+children
 )
 {
 if
@@ -97,7 +97,7 @@ node
 of
 overflowPanelList
 .
-childNodes
+children
 )
 {
 if

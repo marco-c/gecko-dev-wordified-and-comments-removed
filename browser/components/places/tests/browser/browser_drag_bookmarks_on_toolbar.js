@@ -650,7 +650,7 @@ PlacesToolbarItems
 "
 )
 .
-childNodes
+children
 ;
 for
 (

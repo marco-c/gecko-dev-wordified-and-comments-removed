@@ -479,7 +479,7 @@ PopupNotifications
 .
 panel
 .
-firstChild
+firstElementChild
 .
 button
 .

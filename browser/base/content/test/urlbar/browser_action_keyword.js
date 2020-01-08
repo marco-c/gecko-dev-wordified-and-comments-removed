@@ -20,7 +20,7 @@ popup
 .
 richlistbox
 .
-firstChild
+firstElementChild
 ;
 return
 firstResult

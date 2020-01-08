@@ -262,7 +262,7 @@ ContentSelectDropdown
 "
 )
 .
-firstChild
+firstElementChild
 ;
 async
 function

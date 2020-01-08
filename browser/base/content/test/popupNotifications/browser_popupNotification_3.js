@@ -1837,7 +1837,7 @@ is
 (
 popup
 .
-childNodes
+children
 .
 length
 2

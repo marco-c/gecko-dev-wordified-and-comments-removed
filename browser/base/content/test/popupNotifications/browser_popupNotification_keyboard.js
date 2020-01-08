@@ -545,7 +545,7 @@ document
 activeElement
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -790,7 +790,7 @@ document
 activeElement
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -855,7 +855,7 @@ document
 activeElement
 popup
 .
-childNodes
+children
 [
 0
 ]
@@ -985,7 +985,7 @@ focus
 focusedElement
 popup
 .
-childNodes
+children
 [
 0
 ]

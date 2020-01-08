@@ -84,7 +84,7 @@ DownloadsView
 .
 richListBox
 .
-firstChild
+firstElementChild
 ;
 let
 viewPromise

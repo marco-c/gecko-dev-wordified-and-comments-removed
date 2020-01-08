@@ -90,7 +90,7 @@ item
 =
 addEngineList
 .
-firstChild
+firstElementChild
 ;
 item
 ;
@@ -98,7 +98,7 @@ item
 =
 item
 .
-nextSibling
+nextElementSibling
 )
 os
 .

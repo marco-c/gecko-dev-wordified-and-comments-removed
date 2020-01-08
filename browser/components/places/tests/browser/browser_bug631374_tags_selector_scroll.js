@@ -493,7 +493,7 @@ synthesizeMouseAtCenter
 (
 listItem
 .
-firstChild
+firstElementChild
 {
 }
 )
@@ -589,7 +589,7 @@ synthesizeMouseAtCenter
 (
 newItem
 .
-firstChild
+firstElementChild
 {
 }
 )
@@ -745,7 +745,7 @@ synthesizeMouseAtCenter
 (
 listItem
 .
-firstChild
+firstElementChild
 {
 }
 )

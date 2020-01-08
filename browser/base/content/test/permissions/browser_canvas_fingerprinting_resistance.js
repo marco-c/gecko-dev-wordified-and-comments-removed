@@ -520,7 +520,7 @@ PopupNotifications
 .
 panel
 .
-childNodes
+children
 ;
 let
 notification

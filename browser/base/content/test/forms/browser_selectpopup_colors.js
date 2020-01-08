@@ -3863,7 +3863,7 @@ child
 =
 selectPopup
 .
-firstChild
+firstElementChild
 ;
 let
 idx
@@ -4259,7 +4259,7 @@ child
 =
 child
 .
-nextSibling
+nextElementSibling
 ;
 }
 if

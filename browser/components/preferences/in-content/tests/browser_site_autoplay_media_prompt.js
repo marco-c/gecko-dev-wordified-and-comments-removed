@@ -372,12 +372,12 @@ askMenuItem
 =
 autoplayMenu
 .
-childNodes
+children
 [
 0
 ]
 .
-childNodes
+children
 [
 1
 ]

@@ -215,7 +215,7 @@ ok
 (
 subview
 .
-firstChild
+firstElementChild
 "
 Subview
 should

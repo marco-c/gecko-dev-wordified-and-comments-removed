@@ -49,7 +49,7 @@ PlacesToolbarItems
 "
 )
 .
-childNodes
+children
 ;
 for
 (

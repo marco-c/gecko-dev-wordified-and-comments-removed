@@ -1694,7 +1694,7 @@ node
 =
 tabList
 .
-firstChild
+firstElementChild
 ;
 is
 (
@@ -1737,7 +1737,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -1787,7 +1787,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -1837,7 +1837,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -1887,7 +1887,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -1903,7 +1903,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -1947,7 +1947,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -1997,7 +1997,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -2013,7 +2013,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -2056,7 +2056,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -2102,7 +2102,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -2533,7 +2533,7 @@ node
 =
 tabList
 .
-firstChild
+firstElementChild
 ;
 is
 (
@@ -2592,7 +2592,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -2680,7 +2680,7 @@ showMoreButton
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -2723,7 +2723,7 @@ node
 =
 node
 .
-nextSibling
+nextElementSibling
 ;
 is
 (
@@ -2767,9 +2767,9 @@ node
 =
 tabList
 .
-firstChild
+firstElementChild
 .
-nextSibling
+nextElementSibling
 ;
 let
 promiseTabOpened

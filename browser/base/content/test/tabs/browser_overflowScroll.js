@@ -629,7 +629,7 @@ element
 =
 element
 .
-nextSibling
+nextElementSibling
 ;
 EventUtils
 .

@@ -147,7 +147,7 @@ return
 .
 browser
 .
-childNodes
+children
 ]
 .
 map

@@ -309,7 +309,7 @@ navbar
 .
 customizationTarget
 .
-childNodes
+children
 )
 {
 if

@@ -242,7 +242,7 @@ ok
 (
 gToolbarContent
 .
-childNodes
+children
 .
 length
 <
@@ -273,7 +273,7 @@ node
 of
 gToolbarContent
 .
-childNodes
+children
 )
 {
 if
@@ -307,7 +307,7 @@ length
 <
 gToolbarContent
 .
-childNodes
+children
 .
 length
 The
@@ -335,7 +335,7 @@ nodes
 {
 gToolbarContent
 .
-childNodes
+children
 .
 length
 }
@@ -394,7 +394,7 @@ node
 "
 gToolbarContent
 .
-childNodes
+children
 .
 length
 undefined
@@ -412,7 +412,7 @@ node
 "
 gToolbarContent
 .
-childNodes
+children
 .
 length
 +
@@ -465,7 +465,7 @@ built
 0
 gToolbarContent
 .
-childNodes
+children
 .
 length
 -
@@ -495,7 +495,7 @@ built
 0
 gToolbarContent
 .
-childNodes
+children
 .
 length
 "
@@ -596,7 +596,7 @@ children
 =
 gToolbarContent
 .
-childNodes
+children
 ;
 Assert
 .
@@ -872,7 +872,7 @@ waitForCondition
 return
 content
 .
-childNodes
+children
 .
 length
 =
@@ -882,7 +882,7 @@ length
 &
 content
 .
-childNodes
+children
 [
 0
 ]
@@ -961,7 +961,7 @@ children
 =
 gToolbarContent
 .
-childNodes
+children
 ;
 let
 originalLen
@@ -1345,7 +1345,7 @@ children
 =
 gToolbarContent
 .
-childNodes
+children
 ;
 let
 originalLen
@@ -1972,7 +1972,7 @@ children
 =
 gToolbarContent
 .
-childNodes
+children
 ;
 Assert
 .
