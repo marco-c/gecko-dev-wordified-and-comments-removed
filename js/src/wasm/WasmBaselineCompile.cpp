@@ -47180,9 +47180,6 @@ rd
 RegPtr
 rr
 ;
-#
-ifdef
-ENABLE_WASM_GC
 RegPtr
 valueAddr
 ;
@@ -47215,8 +47212,6 @@ valueAddr
 )
 ;
 }
-#
-endif
 switch
 (
 structType
@@ -47523,9 +47518,6 @@ rd
 break
 ;
 }
-#
-ifdef
-ENABLE_WASM_GC
 case
 ValType
 :
@@ -47567,8 +47559,6 @@ rr
 ;
 break
 ;
-#
-endif
 default
 :
 {
