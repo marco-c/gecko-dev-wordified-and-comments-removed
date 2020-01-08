@@ -828,6 +828,12 @@ _truncated
 |
 !
 content
+|
+|
+!
+content
+.
+size
 )
 {
 return
