@@ -236,6 +236,11 @@ VideoConduit
 cpp
 '
 '
+VideoStreamFactory
+.
+cpp
+'
+'
 WebrtcGmpVideoCodec
 .
 cpp
