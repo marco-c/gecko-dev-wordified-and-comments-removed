@@ -30,9 +30,9 @@ entity
 :
 :
 {
-EntityMap
 Keys
 PrimaryMap
+SecondaryMap
 }
 ;
 use
@@ -142,7 +142,7 @@ VirtReg
 >
 value_vregs
 :
-EntityMap
+SecondaryMap
 <
 Value
 PackedOption
@@ -152,7 +152,7 @@ VirtReg
 >
 union_find
 :
-EntityMap
+SecondaryMap
 <
 Value
 i32
@@ -204,7 +204,7 @@ new
 )
 value_vregs
 :
-EntityMap
+SecondaryMap
 :
 :
 new
@@ -212,7 +212,7 @@ new
 )
 union_find
 :
-EntityMap
+SecondaryMap
 :
 :
 new
@@ -1729,7 +1729,7 @@ test
 )
 ]
 mod
-test
+tests
 {
 use
 super

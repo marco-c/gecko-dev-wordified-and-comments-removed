@@ -195,7 +195,7 @@ is
 not
 polymorphic
 use
-VOID
+INVALID
 for
 the
 type
@@ -4196,7 +4196,7 @@ ir
 types
 :
 :
-VOID
+INVALID
 log2len
 :
 !
@@ -4253,7 +4253,7 @@ ir
 types
 :
 :
-VOID
+INVALID
 '
             
 lcode
@@ -5401,14 +5401,29 @@ fmt
 format
 (
 '
-bytes
+base_size
 :
 {
 }
 '
 r
 .
-size
+base_size
+)
+                
+fmt
+.
+format
+(
+'
+compute_size
+:
+{
+}
+'
+r
+.
+compute_size
 )
                 
 if

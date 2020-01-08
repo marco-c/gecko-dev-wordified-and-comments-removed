@@ -817,11 +817,10 @@ block
 1
 .
 .
+=
 block
 +
 len
-+
-1
 ]
 .
 copy_from_slice

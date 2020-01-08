@@ -41,7 +41,7 @@ u8
 ;
 pub
 const
-VOID
+INVALID
 :
 Type
 =
@@ -550,7 +550,7 @@ None
 }
 pub
 fn
-is_void
+is_invalid
 (
 self
 )
@@ -561,7 +561,7 @@ bool
 self
 =
 =
-VOID
+INVALID
 }
 pub
 fn
@@ -1149,12 +1149,6 @@ match
 *
 self
 {
-VOID
-=
->
-"
-void
-"
 IFLAGS
 =
 >
@@ -1167,6 +1161,17 @@ FFLAGS
 "
 fflags
 "
+INVALID
+=
+>
+panic
+!
+(
+"
+INVALID
+encountered
+"
+)
 _
 =
 >
@@ -1174,7 +1179,7 @@ panic
 !
 (
 "
-Invalid
+Unknown
 Type
 (
 0x
@@ -1335,7 +1340,7 @@ match
 *
 self
 {
-VOID
+INVALID
 =
 >
 write
@@ -1346,7 +1351,7 @@ f
 types
 :
 :
-VOID
+INVALID
 "
 )
 IFLAGS
@@ -1415,7 +1420,7 @@ default
 >
 Self
 {
-VOID
+INVALID
 }
 }
 #
@@ -1455,8 +1460,8 @@ basic_scalars
 assert_eq
 !
 (
-VOID
-VOID
+INVALID
+INVALID
 .
 lane_type
 (
@@ -1467,7 +1472,7 @@ assert_eq
 !
 (
 0
-VOID
+INVALID
 .
 bits
 (
@@ -1642,7 +1647,7 @@ lane_type
 assert_eq
 !
 (
-VOID
+INVALID
 .
 lane_bits
 (
@@ -1806,7 +1811,7 @@ typevar_functions
 assert_eq
 !
 (
-VOID
+INVALID
 .
 half_width
 (
@@ -1817,7 +1822,7 @@ None
 assert_eq
 !
 (
-IFLAGS
+INVALID
 .
 half_width
 (
@@ -1995,7 +2000,7 @@ F32
 assert_eq
 !
 (
-VOID
+INVALID
 .
 double_width
 (
@@ -2305,7 +2310,7 @@ None
 assert_eq
 !
 (
-VOID
+INVALID
 .
 half_vector
 (
@@ -2353,19 +2358,6 @@ format_scalars
 (
 )
 {
-assert_eq
-!
-(
-VOID
-.
-to_string
-(
-)
-"
-void
-"
-)
-;
 assert_eq
 !
 (
@@ -2735,7 +2727,7 @@ None
 assert_eq
 !
 (
-VOID
+INVALID
 .
 by
 (

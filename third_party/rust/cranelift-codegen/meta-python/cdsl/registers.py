@@ -555,12 +555,6 @@ list
 (
 )
         
-self
-.
-first_toprc_index
-=
-None
-        
 assert
 len
 (
@@ -1592,7 +1586,7 @@ a
 tuple
 representing
 the
-intersction
+intersection
 of
 two
 register

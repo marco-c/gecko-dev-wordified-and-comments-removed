@@ -38,10 +38,10 @@ isa
 encoding
 :
 :
+{
+base_size
 RecipeSizing
-;
-use
-predicates
+}
 ;
 include
 !

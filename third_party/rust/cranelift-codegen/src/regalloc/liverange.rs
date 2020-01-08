@@ -175,14 +175,9 @@ Inst
 )
 -
 >
-LiveRangeContext
-<
-'
-a
-PO
->
+Self
 {
-LiveRangeContext
+Self
 {
 order
 forest

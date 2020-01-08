@@ -425,9 +425,8 @@ tree
 0
 .
 .
+=
 size
-+
-1
 ]
 )
 }
@@ -841,9 +840,8 @@ get_mut
 0
 .
 .
+=
 sz
-+
-1
 )
 {
 *
@@ -873,9 +871,10 @@ tree
 1
 .
 .
+=
 sz
 +
-2
+1
 ]
 index
 node
@@ -1017,9 +1016,8 @@ get_mut
 0
 .
 .
+=
 sz
-+
-1
 )
 {
 *
@@ -1049,9 +1047,8 @@ vals
 0
 .
 .
+=
 sz
-+
-1
 ]
 index
 value
@@ -3081,7 +3078,7 @@ test
 )
 ]
 mod
-test
+tests
 {
 use
 super
