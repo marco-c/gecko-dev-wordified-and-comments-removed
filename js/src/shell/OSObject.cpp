@@ -405,7 +405,7 @@ endif
 UniqueChars
 filename
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 filenameStr
@@ -692,7 +692,7 @@ pathnameStr
 UniqueChars
 pathname
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 pathnameStr
@@ -1615,7 +1615,7 @@ false
 UniqueChars
 filename
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -2322,7 +2322,7 @@ nullptr
 UniqueChars
 filenameABS
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 filename
@@ -3312,7 +3312,7 @@ false
 UniqueChars
 path
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 args
@@ -3458,7 +3458,7 @@ false
 UniqueChars
 path
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 args
@@ -4087,7 +4087,7 @@ false
 UniqueChars
 command
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -4233,7 +4233,7 @@ false
 UniqueChars
 command
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str

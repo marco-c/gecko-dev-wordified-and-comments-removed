@@ -1112,7 +1112,7 @@ JS
 UniqueChars
 valueChars
 =
-JS_EncodeString
+JS_EncodeStringToUTF8
 (
 aCx
 aValue

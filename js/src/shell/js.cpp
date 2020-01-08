@@ -6913,7 +6913,7 @@ false
 UniqueChars
 filename
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 filenameStr
@@ -8147,7 +8147,7 @@ false
 UniqueChars
 filename
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -8477,7 +8477,7 @@ false
 ;
 fileNameBytes
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 s
@@ -11340,7 +11340,7 @@ pathnameStr
 UniqueChars
 pathname
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 pathnameStr
@@ -11885,7 +11885,7 @@ PRMJ_Now
 UniqueChars
 filename
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -17487,7 +17487,7 @@ false
 UniqueChars
 filename
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -24197,7 +24197,7 @@ toString
 ;
 filename
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -30340,7 +30340,7 @@ else
 {
 arg
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 str
@@ -40245,7 +40245,7 @@ JS_CODEGEN_ARM
 UniqueChars
 flagsList
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 flagsListString
@@ -52871,7 +52871,7 @@ sc
 >
 moduleLoadPath
 =
-JS_EncodeString
+JS_EncodeStringToLatin1
 (
 cx
 absolutePath
