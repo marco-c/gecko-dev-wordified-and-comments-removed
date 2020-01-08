@@ -567,7 +567,7 @@ css
 .
 scrollbar
 -
-colors
+color
 .
 enabled
 "
