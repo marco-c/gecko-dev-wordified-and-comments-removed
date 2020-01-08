@@ -76,7 +76,6 @@ jit
 ;
 static
 EnterJitStatus
-JS_HAZ_JSNATIVE_CALLER
 EnterJit
 (
 JSContext
