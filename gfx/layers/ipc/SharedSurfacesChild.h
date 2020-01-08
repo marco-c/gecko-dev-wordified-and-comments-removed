@@ -659,6 +659,12 @@ SetCurrentFrame
 gfx
 :
 :
+SourceSurface
+*
+aParentSurface
+gfx
+:
+:
 SourceSurfaceSharedData
 *
 aSurface
@@ -674,6 +680,12 @@ aDirtyRect
 nsresult
 UpdateKey
 (
+gfx
+:
+:
+SourceSurface
+*
+aParentSurface
 gfx
 :
 :
