@@ -682,12 +682,6 @@ ArePointerEventsConsumable
 (
 block
 aEvent
-.
-mTouches
-.
-Length
-(
-)
 )
 )
 {
