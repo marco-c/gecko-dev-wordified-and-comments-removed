@@ -188,9 +188,9 @@ android
 icon
 =
 "
-drawable
+mipmap
 /
-icon
+ic_launcher
 "
 android
 :
