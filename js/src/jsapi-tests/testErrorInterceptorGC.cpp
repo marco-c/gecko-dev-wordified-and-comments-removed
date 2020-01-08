@@ -29,12 +29,10 @@ interceptError
 JSContext
 *
 cx
-const
 JS
 :
 :
-Value
-&
+HandleValue
 val
 )
 override

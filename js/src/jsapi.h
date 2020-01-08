@@ -1141,12 +1141,10 @@ interceptError
 JSContext
 *
 cx
-const
 JS
 :
 :
-Value
-&
+HandleValue
 error
 )
 =
