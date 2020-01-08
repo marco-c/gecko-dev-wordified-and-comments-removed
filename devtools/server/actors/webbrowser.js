@@ -958,6 +958,7 @@ function
 outerWindowID
 tabId
 }
+browserActorOptions
 )
 {
 if
@@ -1049,6 +1050,7 @@ this
 _getActorForBrowser
 (
 iframe
+browserActorOptions
 )
 ;
 }
@@ -1081,6 +1083,7 @@ this
 _getActorForBrowser
 (
 browser
+browserActorOptions
 )
 ;
 }
@@ -1174,6 +1177,7 @@ this
 _getActorForBrowser
 (
 browser
+browserActorOptions
 )
 ;
 }
@@ -1245,6 +1249,7 @@ this
 _getActorForBrowser
 (
 selectedBrowser
+browserActorOptions
 )
 ;
 }
