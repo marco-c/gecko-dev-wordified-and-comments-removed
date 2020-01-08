@@ -139,7 +139,7 @@ tabClient
 ]
 =
 await
-attachTarget
+attachTab
 (
 client
 tab

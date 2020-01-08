@@ -335,7 +335,6 @@ startup
 const
 target
 =
-await
 gDevTools
 .
 getTargetForTab

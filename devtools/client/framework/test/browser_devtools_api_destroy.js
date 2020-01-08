@@ -18,7 +18,6 @@ runTests
 )
 ;
 }
-async
 function
 runTests
 (
@@ -134,7 +133,6 @@ collectedEvents
 const
 target
 =
-await
 TargetFactory
 .
 forTab

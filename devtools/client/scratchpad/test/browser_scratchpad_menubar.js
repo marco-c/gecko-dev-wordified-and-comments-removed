@@ -182,7 +182,6 @@ Scratchpad
 const
 target
 =
-await
 TargetFactory
 .
 forTab

@@ -498,7 +498,7 @@ this
 .
 target
 .
-attach
+makeRemote
 (
 )
 ;
@@ -2890,7 +2890,7 @@ target
 .
 client
 .
-attachTarget
+attachTab
 (
 this
 .

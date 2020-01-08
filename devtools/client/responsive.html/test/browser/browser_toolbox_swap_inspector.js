@@ -30,7 +30,6 @@ location
 const
 target
 =
-await
 TargetFactory
 .
 forTab
