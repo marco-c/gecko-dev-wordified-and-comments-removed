@@ -621,7 +621,9 @@ label
 /
 >
 <
-colorpicker
+html
+:
+input
 id
 =
 "
@@ -630,7 +632,7 @@ desktopColor
 type
 =
 "
-button
+color
 "
 onchange
 =
@@ -641,7 +643,7 @@ updateColor
 (
 this
 .
-color
+value
 )
 ;
 "

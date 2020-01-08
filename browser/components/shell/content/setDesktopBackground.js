@@ -1196,7 +1196,7 @@ desktopColor
 ;
 colorpicker
 .
-color
+value
 =
 this
 .
