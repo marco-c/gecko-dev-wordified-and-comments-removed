@@ -451,7 +451,8 @@ principal
 *
 /
 [
-noscript
+notxpcom
+nostdcall
 ]
 readonly
 attribute

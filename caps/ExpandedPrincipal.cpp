@@ -637,15 +637,12 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+uint32_t
 ExpandedPrincipal
 :
 :
 GetHashValue
 (
-uint32_t
-*
-result
 )
 {
 MOZ_CRASH
