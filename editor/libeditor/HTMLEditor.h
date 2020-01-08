@@ -1217,6 +1217,21 @@ aSelection
 )
 const
 ;
+already_AddRefed
+<
+Element
+>
+GetFirstSelectedTableCellElement
+(
+Selection
+&
+aSelection
+ErrorResult
+&
+aRv
+)
+const
+;
 void
 IsNextCharInNodeWhitespace
 (
@@ -2731,6 +2746,7 @@ nsINode
 aCellNode
 )
 ;
+static
 nsresult
 GetCellFromRange
 (
@@ -4427,6 +4443,7 @@ CSSEditUtils
 >
 mCSSEditUtils
 ;
+mutable
 int32_t
 mSelectedCellIndex
 ;
