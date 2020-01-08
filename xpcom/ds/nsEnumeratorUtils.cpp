@@ -191,7 +191,7 @@ aResult
 )
 {
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
@@ -423,7 +423,7 @@ mConsumed
 )
 {
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_FAILURE
 ;
 }
 mConsumed
@@ -762,7 +762,7 @@ mConsumed
 )
 {
 return
-NS_ERROR_UNEXPECTED
+NS_ERROR_FAILURE
 ;
 }
 if

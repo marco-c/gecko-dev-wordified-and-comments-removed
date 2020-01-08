@@ -845,7 +845,7 @@ retval
 ;
 }
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 }
 nsASXULWindowEnumerator
@@ -923,9 +923,12 @@ FindNext
 (
 )
 ;
-}
 return
 NS_OK
+;
+}
+return
+NS_ERROR_FAILURE
 ;
 }
 nsASDOMWindowEarlyToLateEnumerator
