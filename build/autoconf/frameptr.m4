@@ -293,14 +293,6 @@ MOZ_ASAN
 -
 o
 \
--
-n
-"
-MOZ_UBSAN
-"
--
-o
-\
 "
 OS_ARCH
 :
