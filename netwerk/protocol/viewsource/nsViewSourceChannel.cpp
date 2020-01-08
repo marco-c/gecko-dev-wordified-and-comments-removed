@@ -821,8 +821,6 @@ return
 NS_NewURI
 (
 aResult
-nsAutoCString
-(
 NS_LITERAL_CSTRING
 (
 "
@@ -834,8 +832,6 @@ source
 )
 +
 spec
-)
-nullptr
 )
 ;
 }
