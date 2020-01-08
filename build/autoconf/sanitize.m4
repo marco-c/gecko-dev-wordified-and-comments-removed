@@ -194,13 +194,6 @@ AC_DEFINE
 (
 MOZ_LTO
 )
-MOZ_PATH_PROG
-(
-LLVM_SYMBOLIZER
-llvm
--
-symbolizer
-)
 CFLAGS
 =
 "
