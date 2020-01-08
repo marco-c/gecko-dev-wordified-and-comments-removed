@@ -462,6 +462,7 @@ init
 (
 )
 )
+{
 return
 cx_
 -
@@ -470,6 +471,7 @@ alreadyReportedError
 (
 )
 ;
+}
 ParseContext
 :
 :
@@ -493,6 +495,7 @@ init
 globalpc
 )
 )
+{
 return
 cx_
 -
@@ -501,6 +504,7 @@ alreadyReportedError
 (
 )
 ;
+}
 MOZ_TRY
 (
 tokenizer_
@@ -552,6 +556,7 @@ if
 !
 bindings
 )
+{
 return
 cx_
 -
@@ -560,6 +565,7 @@ alreadyReportedError
 (
 )
 ;
+}
 globalsc
 -
 >
@@ -614,6 +620,7 @@ if
 (
 name
 )
+{
 atom
 =
 name
@@ -623,6 +630,7 @@ name
 (
 )
 ;
+}
 RootedFunction
 fun
 (
@@ -672,11 +680,13 @@ if
 !
 funbox
 )
+{
 return
 raiseOOM
 (
 )
 ;
+}
 traceListHead_
 =
 funbox
@@ -1056,9 +1066,11 @@ if
 !
 name
 )
+{
 return
 false
 ;
+}
 name
 -
 >
@@ -1215,8 +1227,10 @@ namedLambdaScope
 name
 )
 )
+{
 continue
 ;
+}
 }
 if
 (
@@ -1232,12 +1246,14 @@ functionScope
 name
 )
 )
+{
 return
 raiseUndeclaredCapture
 (
 name
 )
 ;
+}
 continue
 ;
 }
@@ -1265,8 +1281,10 @@ varScope
 name
 )
 )
+{
 continue
 ;
+}
 }
 if
 (
@@ -1283,12 +1301,14 @@ innermostScope
 name
 )
 )
+{
 return
 raiseUndeclaredCapture
 (
 name
 )
 ;
+}
 }
 MOZ_TRY
 (
@@ -1410,6 +1430,7 @@ if
 (
 ptr
 )
+{
 return
 raiseError
 (
@@ -1419,6 +1440,7 @@ redeclaration
 "
 )
 ;
+}
 BINJS_TRY
 (
 scope
@@ -1533,12 +1555,14 @@ if
 !
 ptr
 )
+{
 return
 raiseMissingVariableInAssertedScope
 (
 name
 )
 ;
+}
 return
 Ok
 (
@@ -1654,6 +1678,7 @@ closedOver
 (
 )
 )
+{
 return
 raiseInvalidClosedVar
 (
@@ -1664,6 +1689,7 @@ name
 )
 )
 ;
+}
 }
 }
 return
@@ -1750,6 +1776,7 @@ isNamedLambda
 (
 )
 )
+{
 MOZ_TRY
 (
 checkClosedVars
@@ -1763,6 +1790,7 @@ namedLambdaScope
 )
 )
 ;
+}
 return
 Ok
 (
@@ -2834,9 +2862,11 @@ options
 .
 extraWarningsOption
 )
+{
 return
 true
 ;
+}
 ErrorMetadata
 metadata
 ;
@@ -2957,6 +2987,7 @@ lookup
 name
 )
 )
+{
 return
 p
 -
@@ -2975,6 +3006,7 @@ scriptId
 )
 )
 ;
+}
 return
 false
 ;

@@ -1090,9 +1090,11 @@ lineNum
 =
 0
 )
+{
 return
 false
 ;
+}
 *
 isOnSameLine
 =
@@ -1143,6 +1145,7 @@ isSome
 (
 )
 )
+{
 return
 tokenizer_
 -
@@ -1151,6 +1154,7 @@ offset
 (
 )
 ;
+}
 return
 0
 ;

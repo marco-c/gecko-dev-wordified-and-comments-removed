@@ -280,6 +280,7 @@ version
 =
 MAGIC_FORMAT_VERSION
 )
+{
 return
 raiseError
 (
@@ -291,6 +292,7 @@ implemented
 "
 )
 ;
+}
 MOZ_TRY
 (
 readConst
@@ -336,6 +338,7 @@ grammarByteLen
 <
 current_
 )
+{
 return
 raiseError
 (
@@ -349,6 +352,7 @@ table
 "
 )
 ;
+}
 BINJS_MOZ_TRY_DECL
 (
 grammarNumberOfEntries
@@ -363,6 +367,7 @@ grammarNumberOfEntries
 >
 BINKIND_LIMIT
 )
+{
 return
 raiseError
 (
@@ -377,6 +382,7 @@ table
 "
 )
 ;
+}
 if
 (
 !
@@ -387,11 +393,13 @@ reserve
 grammarNumberOfEntries
 )
 )
+{
 return
 raiseOOM
 (
 )
 ;
+}
 for
 (
 uint32_t
@@ -424,6 +432,7 @@ byteLen
 >
 stop_
 )
+{
 return
 raiseError
 (
@@ -437,6 +446,7 @@ table
 "
 )
 ;
+}
 if
 (
 current_
@@ -445,6 +455,7 @@ byteLen
 <
 current_
 )
+{
 return
 raiseError
 (
@@ -458,6 +469,7 @@ table
 "
 )
 ;
+}
 CharSlice
 name
 (
@@ -502,6 +514,7 @@ if
 !
 kind
 )
+{
 return
 raiseError
 (
@@ -514,6 +527,7 @@ table
 "
 )
 ;
+}
 grammarTable_
 .
 infallibleAppend
@@ -532,6 +546,7 @@ grammarByteLen
 +
 posBeforeGrammar
 )
+{
 return
 raiseError
 (
@@ -552,6 +567,7 @@ contents
 "
 )
 ;
+}
 MOZ_TRY
 (
 readConst
@@ -597,6 +613,7 @@ stringsByteLen
 <
 current_
 )
+{
 return
 raiseError
 (
@@ -610,6 +627,7 @@ table
 "
 )
 ;
+}
 BINJS_MOZ_TRY_DECL
 (
 stringsNumberOfEntries
@@ -624,6 +642,7 @@ stringsNumberOfEntries
 >
 MAX_NUMBER_OF_STRINGS
 )
+{
 return
 raiseError
 (
@@ -637,6 +656,7 @@ table
 "
 )
 ;
+}
 if
 (
 !
@@ -647,11 +667,13 @@ reserve
 stringsNumberOfEntries
 )
 )
+{
 return
 raiseOOM
 (
 )
 ;
+}
 if
 (
 !
@@ -662,11 +684,13 @@ reserve
 stringsNumberOfEntries
 )
 )
+{
 return
 raiseOOM
 (
 )
 ;
+}
 RootedAtom
 atom
 (
@@ -712,6 +736,7 @@ byteLen
 <
 current_
 )
+{
 return
 raiseError
 (
@@ -725,6 +750,7 @@ string
 "
 )
 ;
+}
 if
 (
 byteLen
@@ -822,6 +848,7 @@ stringsByteLen
 =
 current_
 )
+{
 return
 raiseError
 (
@@ -842,6 +869,7 @@ contents
 "
 )
 ;
+}
 MOZ_TRY
 (
 readConst
@@ -885,6 +913,7 @@ treeByteLen
 <
 posBeforeTree_
 )
+{
 return
 raiseError
 (
@@ -898,6 +927,7 @@ table
 "
 )
 ;
+}
 return
 Ok
 (
@@ -1059,6 +1089,7 @@ asInt
 =
 NULL_FLOAT_REPRESENTATION
 )
+{
 return
 raiseError
 (
@@ -1072,6 +1103,7 @@ value
 "
 )
 ;
+}
 return
 JS
 :
@@ -1129,6 +1161,7 @@ length
 (
 )
 )
+{
 return
 raiseError
 (
@@ -1141,6 +1174,7 @@ table
 "
 )
 ;
+}
 return
 atomsTable_
 [
@@ -1180,6 +1214,7 @@ if
 !
 maybe
 )
+{
 return
 raiseError
 (
@@ -1189,6 +1224,7 @@ string
 "
 )
 ;
+}
 return
 maybe
 ;
@@ -1233,6 +1269,7 @@ length
 (
 )
 )
+{
 return
 raiseError
 (
@@ -1248,6 +1285,7 @@ enum
 "
 )
 ;
+}
 out
 =
 slicesTable_
@@ -1298,6 +1336,7 @@ length
 (
 )
 )
+{
 return
 raiseError
 (
@@ -1313,6 +1352,7 @@ enum
 "
 )
 ;
+}
 auto
 variantsPtr
 =
@@ -1327,6 +1367,7 @@ if
 (
 variantsPtr
 )
+{
 return
 variantsPtr
 -
@@ -1335,6 +1376,7 @@ value
 (
 )
 ;
+}
 Chars
 slice
 =
@@ -1370,6 +1412,7 @@ if
 !
 variant
 )
+{
 return
 raiseError
 (
@@ -1381,6 +1424,7 @@ variant
 "
 )
 ;
+}
 if
 (
 !
@@ -1394,11 +1438,13 @@ index
 variant
 )
 )
+{
 return
 raiseOOM
 (
 )
 ;
+}
 return
 *
 variant
@@ -1448,6 +1494,7 @@ byteLen
 <
 current_
 )
+{
 return
 raiseError
 (
@@ -1460,6 +1507,7 @@ readSkippableSubTree
 "
 )
 ;
+}
 const
 auto
 start
@@ -1555,6 +1603,7 @@ length
 (
 )
 )
+{
 return
 raiseError
 (
@@ -1567,6 +1616,7 @@ table
 "
 )
 ;
+}
 tag
 =
 grammarTable_
@@ -1720,6 +1770,7 @@ current_
 =
 expectedEnd
 )
+{
 return
 reader_
 .
@@ -1738,6 +1789,7 @@ bytes
 "
 )
 ;
+}
 return
 Ok
 (
@@ -1907,6 +1959,7 @@ newResult
 <
 result
 )
+{
 return
 raiseError
 (
@@ -1917,6 +1970,7 @@ readInternalUint32
 "
 )
 ;
+}
 result
 =
 newResult

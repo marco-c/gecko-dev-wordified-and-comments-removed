@@ -495,6 +495,7 @@ current_
 +
 len
 )
+{
 return
 raiseError
 (
@@ -505,6 +506,7 @@ length
 "
 )
 ;
+}
 for
 (
 uint32_t
@@ -520,6 +522,7 @@ len
 +
 i
 )
+{
 *
 bytes
 +
@@ -530,6 +533,7 @@ current_
 +
 +
 ;
+}
 return
 Ok
 (

@@ -341,6 +341,7 @@ value
 false
 )
 )
+{
 return
 raiseError
 (
@@ -353,6 +354,7 @@ literal
 "
 )
 ;
+}
 return
 Ok
 (
@@ -419,9 +421,11 @@ N
 >
 stop_
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -446,9 +450,11 @@ expectNul
 value
 )
 )
+{
 return
 false
 ;
+}
 current_
 +
 =

@@ -185,6 +185,7 @@ c
 *
 this
 )
+{
 fprintf
 (
 stderr
@@ -195,6 +196,7 @@ c
 c
 )
 ;
+}
 fprintf
 (
 stderr
@@ -263,9 +265,11 @@ lookup
 .
 byteLen_
 )
+{
 return
 false
 ;
+}
 return
 strncmp
 (
