@@ -2599,9 +2599,9 @@ MOZ_MUST_USE
 bool
 emitSingletonInitialiser
 (
-ParseNode
+ListNode
 *
-pn
+objOrArray
 )
 ;
 MOZ_MUST_USE
@@ -3572,7 +3572,7 @@ emitFunctionBody
 (
 ParseNode
 *
-pn
+funBody
 )
 ;
 MOZ_MUST_USE
