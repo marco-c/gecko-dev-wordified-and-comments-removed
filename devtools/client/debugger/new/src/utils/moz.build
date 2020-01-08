@@ -170,6 +170,11 @@ makeRecord
 js
 '
 '
+memoize
+.
+js
+'
+'
 path
 .
 js

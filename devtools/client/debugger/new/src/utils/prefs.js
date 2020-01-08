@@ -151,7 +151,7 @@ prefsSchemaVersion
 .
 0
 .
-4
+5
 "
 ;
 const
@@ -1596,6 +1596,15 @@ breakpoints
 "
 {
 }
+]
+tabs
+:
+[
+"
+tabs
+"
+[
+]
 ]
 }
 )
