@@ -1022,7 +1022,9 @@ win
 let
 windowGonePromise
 =
-promiseWindowWillBeClosed
+BrowserTestUtils
+.
+domWindowClosed
 (
 win
 )

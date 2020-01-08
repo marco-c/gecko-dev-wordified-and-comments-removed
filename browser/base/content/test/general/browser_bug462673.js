@@ -110,7 +110,9 @@ tab
 )
 ;
 await
-promiseWindowWillBeClosed
+BrowserTestUtils
+.
+domWindowClosed
 (
 win
 )

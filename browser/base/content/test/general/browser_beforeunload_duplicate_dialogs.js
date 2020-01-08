@@ -226,7 +226,9 @@ TEST_PAGE
 let
 windowClosedPromise
 =
-promiseWindowWillBeClosed
+BrowserTestUtils
+.
+domWindowClosed
 (
 newWin
 )
@@ -365,7 +367,9 @@ com
 let
 windowClosedPromise
 =
-promiseWindowWillBeClosed
+BrowserTestUtils
+.
+domWindowClosed
 (
 newWin
 )
@@ -468,7 +472,9 @@ TEST_PAGE
 let
 windowClosedPromise
 =
-promiseWindowWillBeClosed
+BrowserTestUtils
+.
+domWindowClosed
 (
 newWin
 )
