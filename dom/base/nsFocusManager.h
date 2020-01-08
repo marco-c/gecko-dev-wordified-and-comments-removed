@@ -818,14 +818,6 @@ nsIContent
 aContent
 )
 ;
-bool
-IsHostOrSlot
-(
-nsIContent
-*
-aContent
-)
-;
 int32_t
 HostOrSlotTabIndexValue
 (
