@@ -402,14 +402,6 @@ stop
 (
 )
 ;
-void
-zoom
-(
-in
-float
-zoom
-)
-;
 DOMRequest
 getCanGoBack
 (

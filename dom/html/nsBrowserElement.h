@@ -219,16 +219,6 @@ ErrorResult
 aRv
 )
 ;
-void
-Zoom
-(
-float
-aZoom
-ErrorResult
-&
-aRv
-)
-;
 already_AddRefed
 <
 dom

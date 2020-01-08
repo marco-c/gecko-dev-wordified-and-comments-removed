@@ -40,10 +40,6 @@ stop
 :
 {
 }
-zoom
-:
-{
-}
 getCanGoBack
 :
 {
