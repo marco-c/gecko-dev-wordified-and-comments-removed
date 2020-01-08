@@ -21,11 +21,7 @@ html
 /
 actions
 /
-display
--
-pixel
--
-ratio
+ui
 "
 )
 ;
