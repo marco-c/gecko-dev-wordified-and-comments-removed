@@ -136,6 +136,7 @@ JSScript
 >
 ;
 class
+MOZ_STACK_CLASS
 SourceBufferHolder
 ;
 class
