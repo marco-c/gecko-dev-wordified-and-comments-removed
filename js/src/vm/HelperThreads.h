@@ -2530,9 +2530,6 @@ JS
 OwningCompileOptions
 options
 ;
-LifoAlloc
-alloc
-;
 JSObject
 *
 parseGlobal
