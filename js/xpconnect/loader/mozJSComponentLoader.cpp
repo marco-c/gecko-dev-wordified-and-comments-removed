@@ -1593,10 +1593,6 @@ sSelf
 NS_IMPL_ISUPPORTS
 (
 mozJSComponentLoader
-mozilla
-:
-:
-ModuleLoader
 nsIObserver
 )
 nsresult
