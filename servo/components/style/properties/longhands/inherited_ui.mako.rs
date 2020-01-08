@@ -33,7 +33,7 @@ True
 gecko_name
 =
 "
-UserInterface
+UI
 "
 )
 %

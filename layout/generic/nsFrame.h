@@ -2293,7 +2293,7 @@ void
 FillCursorInformationFromStyle
 (
 const
-nsStyleUserInterface
+nsStyleUI
 *
 ui
 nsIFrame

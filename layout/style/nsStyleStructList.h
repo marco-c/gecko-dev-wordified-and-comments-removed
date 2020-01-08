@@ -56,7 +56,7 @@ Visibility
 )
 STYLE_STRUCT_INHERITED
 (
-UserInterface
+UI
 )
 STYLE_STRUCT_INHERITED
 (

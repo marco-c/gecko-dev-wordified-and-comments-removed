@@ -2266,14 +2266,14 @@ nullptr
 ;
 }
 const
-nsStyleUserInterface
+nsStyleUI
 *
-userinterface
+ui
 =
 frame
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 ;
@@ -2284,7 +2284,7 @@ if
 mIgnoreUserModify
 &
 &
-userinterface
+ui
 -
 >
 mUserModify

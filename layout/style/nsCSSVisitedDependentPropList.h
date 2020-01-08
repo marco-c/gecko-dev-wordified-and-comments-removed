@@ -62,7 +62,7 @@ mStroke
 )
 STYLE_STRUCT
 (
-UserInterface
+UI
 (
 mCaretColor
 )

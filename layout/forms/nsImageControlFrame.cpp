@@ -740,7 +740,7 @@ aCursor
 {
 FillCursorInformationFromStyle
 (
-StyleUserInterface
+StyleUI
 (
 )
 aCursor

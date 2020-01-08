@@ -16108,7 +16108,7 @@ if
 style
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -18535,6 +18535,9 @@ aContext
 )
 {
 return
+nsPresContext
+:
+:
 AppUnitsPerCSSPixel
 (
 )

@@ -11464,7 +11464,7 @@ GetColor
 (
 this
 &
-nsStyleUserInterface
+nsStyleUI
 :
 :
 mCaretColor
@@ -23698,7 +23698,7 @@ aCursor
 {
 FillCursorInformationFromStyle
 (
-StyleUserInterface
+StyleUI
 (
 )
 aCursor
@@ -30529,7 +30529,7 @@ const
 {
 if
 (
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -32190,6 +32190,11 @@ aFlags
 IN_CSS_UNITS
 )
 ?
+PresContext
+(
+)
+-
+>
 AppUnitsPerCSSPixel
 (
 )
@@ -32654,6 +32659,11 @@ aFlags
 IN_CSS_UNITS
 )
 ?
+PresContext
+(
+)
+-
+>
 AppUnitsPerCSSPixel
 (
 )
@@ -47159,11 +47169,11 @@ anonymousGridItem
 )
 {
 const
-nsStyleUserInterface
+nsStyleUI
 *
 ui
 =
-StyleUserInterface
+StyleUI
 (
 )
 ;
@@ -47561,7 +47571,7 @@ nsFrame
 FillCursorInformationFromStyle
 (
 const
-nsStyleUserInterface
+nsStyleUI
 *
 ui
 nsIFrame
@@ -52953,7 +52963,7 @@ const
 uint8_t
 pointerEvents
 =
-StyleUserInterface
+StyleUI
 (
 )
 -

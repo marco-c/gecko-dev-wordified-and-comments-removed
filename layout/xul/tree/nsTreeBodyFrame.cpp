@@ -2664,6 +2664,9 @@ mRect
 .
 ToOutsidePixels
 (
+presContext
+-
+>
 AppUnitsPerCSSPixel
 (
 )
@@ -11076,7 +11079,7 @@ FillCursorInformationFromStyle
 childContext
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 aCursor

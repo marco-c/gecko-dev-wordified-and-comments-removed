@@ -173,7 +173,7 @@ if
 frame
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -

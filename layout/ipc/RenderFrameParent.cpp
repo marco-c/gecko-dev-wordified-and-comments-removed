@@ -1667,7 +1667,7 @@ frameIsPointerEventsNone
 aFrame
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -

@@ -1225,7 +1225,7 @@ aContextFrame
 ;
 }
 uint8_t
-nsStyleUserInterface
+nsStyleUI
 :
 :
 GetEffectivePointerEvents
@@ -1285,7 +1285,7 @@ return
 f
 -
 >
-StyleUserInterface
+StyleUI
 (
 )
 -

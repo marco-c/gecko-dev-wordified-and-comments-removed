@@ -2826,7 +2826,7 @@ image
 :
 aStyle
 .
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -14550,7 +14550,7 @@ nsROCSSPrimitiveValue
 SetValueForWidgetColor
 (
 val
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -14593,7 +14593,7 @@ nsROCSSPrimitiveValue
 SetValueForWidgetColor
 (
 val
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -17170,7 +17170,7 @@ nsROCSSPrimitiveValue
 SetValueFromComplexColor
 (
 val
-StyleUserInterface
+StyleUI
 (
 )
 -
@@ -17209,11 +17209,11 @@ true
 )
 ;
 const
-nsStyleUserInterface
+nsStyleUI
 *
 ui
 =
-StyleUserInterface
+StyleUI
 (
 )
 ;

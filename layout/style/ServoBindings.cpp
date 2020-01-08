@@ -7073,7 +7073,7 @@ nsStyleSides
 void
 Gecko_SetCursorArrayLength
 (
-nsStyleUserInterface
+nsStyleUI
 *
 aStyleUI
 size_t
@@ -7146,11 +7146,11 @@ aImageValue
 void
 Gecko_CopyCursorArrayFrom
 (
-nsStyleUserInterface
+nsStyleUI
 *
 aDest
 const
-nsStyleUserInterface
+nsStyleUI
 *
 aSrc
 )

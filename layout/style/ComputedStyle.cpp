@@ -596,7 +596,7 @@ Content
 ;
 DO_STRUCT_DIFFERENCE
 (
-UserInterface
+UI
 )
 ;
 DO_STRUCT_DIFFERENCE

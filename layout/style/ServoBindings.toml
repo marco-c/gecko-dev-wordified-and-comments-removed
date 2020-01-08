@@ -2078,7 +2078,7 @@ nsStyleUnion
 nsStyleUnit
 "
 "
-nsStyleUserInterface
+nsStyleUI
 "
 "
 nsStyleVisibility
@@ -3712,7 +3712,7 @@ nsStyleUnion
 nsStyleUnit
 "
 "
-nsStyleUserInterface
+nsStyleUI
 "
 "
 nsStyleVisibility

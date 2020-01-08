@@ -1561,7 +1561,7 @@ GetCurrentRenderFrame
 bool
 pointerEventsNone
 =
-StyleUserInterface
+StyleUI
 (
 )
 -
