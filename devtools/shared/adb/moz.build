@@ -111,17 +111,6 @@ adb
 .
 js
 '
-'
-addon
--
-aware
--
-adb
--
-scanner
-.
-js
-'
 )
 with
 Files
