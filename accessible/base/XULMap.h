@@ -85,11 +85,6 @@ XULAlertAccessible
 )
 XULMAP_TYPE
 (
-progressmeter
-XULProgressMeterAccessible
-)
-XULMAP_TYPE
-(
 radio
 XULRadioButtonAccessible
 )

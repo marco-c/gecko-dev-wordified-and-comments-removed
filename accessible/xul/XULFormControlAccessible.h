@@ -38,13 +38,6 @@ mozilla
 namespace
 a11y
 {
-typedef
-ProgressMeterAccessible
-<
-100
->
-XULProgressMeterAccessible
-;
 class
 XULButtonAccessible
 :
