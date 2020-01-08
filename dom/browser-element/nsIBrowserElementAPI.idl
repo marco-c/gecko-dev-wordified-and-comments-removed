@@ -117,9 +117,6 @@ nsISupports
 idl
 "
 webidl
-DOMRequest
-;
-webidl
 FrameLoader
 ;
 %
@@ -287,12 +284,12 @@ stop
 (
 )
 ;
-DOMRequest
+Promise
 getCanGoBack
 (
 )
 ;
-DOMRequest
+Promise
 getCanGoForward
 (
 )

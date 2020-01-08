@@ -41,7 +41,7 @@ mozilla
 /
 dom
 /
-DOMRequest
+Promise
 .
 h
 "
@@ -533,7 +533,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 }
 already_AddRefed
 <
-DOMRequest
+Promise
 >
 nsBrowserElement
 :
@@ -556,9 +556,9 @@ nullptr
 ;
 RefPtr
 <
-DOMRequest
+Promise
 >
-req
+p
 ;
 nsresult
 rv
@@ -570,7 +570,7 @@ GetCanGoBack
 (
 getter_AddRefs
 (
-req
+p
 )
 )
 ;
@@ -597,7 +597,7 @@ nullptr
 ;
 }
 return
-req
+p
 .
 forget
 (
@@ -606,7 +606,7 @@ forget
 }
 already_AddRefed
 <
-DOMRequest
+Promise
 >
 nsBrowserElement
 :
@@ -629,9 +629,9 @@ nullptr
 ;
 RefPtr
 <
-DOMRequest
+Promise
 >
-req
+p
 ;
 nsresult
 rv
@@ -643,7 +643,7 @@ GetCanGoForward
 (
 getter_AddRefs
 (
-req
+p
 )
 )
 ;
@@ -670,7 +670,7 @@ nullptr
 ;
 }
 return
-req
+p
 .
 forget
 (

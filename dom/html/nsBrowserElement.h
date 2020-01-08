@@ -39,7 +39,7 @@ namespace
 dom
 {
 class
-DOMRequest
+Promise
 ;
 }
 class
@@ -123,7 +123,7 @@ already_AddRefed
 dom
 :
 :
-DOMRequest
+Promise
 >
 GetCanGoBack
 (
@@ -137,7 +137,7 @@ already_AddRefed
 dom
 :
 :
-DOMRequest
+Promise
 >
 GetCanGoForward
 (

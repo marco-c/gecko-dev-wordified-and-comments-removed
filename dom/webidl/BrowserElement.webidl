@@ -222,7 +222,10 @@ mozBrowserFramesEnabled
 "
 ChromeOnly
 ]
-DOMRequest
+Promise
+<
+boolean
+>
 getCanGoBack
 (
 )
@@ -238,7 +241,10 @@ mozBrowserFramesEnabled
 "
 ChromeOnly
 ]
-DOMRequest
+Promise
+<
+boolean
+>
 getCanGoForward
 (
 )
