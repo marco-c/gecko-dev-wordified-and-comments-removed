@@ -5229,6 +5229,12 @@ false
 ;
 }
 }
+EffectSet
+*
+effectSet
+=
+nullptr
+;
 for
 (
 const
@@ -5259,8 +5265,12 @@ mProperty
 continue
 ;
 }
-EffectSet
-*
+if
+(
+!
+effectSet
+)
+{
 effectSet
 =
 EffectSet
@@ -5299,6 +5309,7 @@ element
 "
 )
 ;
+}
 Maybe
 <
 uint64_t
