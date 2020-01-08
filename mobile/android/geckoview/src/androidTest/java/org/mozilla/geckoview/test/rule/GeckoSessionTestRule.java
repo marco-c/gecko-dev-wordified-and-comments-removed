@@ -4645,6 +4645,16 @@ mErrorCollector
 ;
 }
 public
+long
+getTimeoutMillis
+(
+)
+{
+return
+mTimeoutMillis
+;
+}
+public
 <
 T
 >
