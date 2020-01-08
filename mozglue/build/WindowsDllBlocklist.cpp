@@ -224,8 +224,10 @@ __VA_ARGS__
 }
 #
 define
-DLL_BLOCKLIST_CHAR_TYPE
+DLL_BLOCKLIST_STRING_TYPE
+const
 char
+*
 #
 include
 "
