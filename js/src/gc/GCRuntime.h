@@ -3226,7 +3226,7 @@ markCompartments
 )
 ;
 IncrementalProgress
-markUntilBudgetExhaused
+markUntilBudgetExhausted
 (
 SliceBudget
 &
