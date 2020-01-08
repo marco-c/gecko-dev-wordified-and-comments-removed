@@ -79,8 +79,6 @@ require
 .
 /
 ViewportDimension
-.
-js
 "
 )
 )
@@ -141,6 +139,13 @@ devices
 )
 .
 isRequired
+onAddCustomDevice
+:
+PropTypes
+.
+func
+.
+isRequired
 viewportTemplate
 :
 PropTypes
@@ -151,13 +156,6 @@ Types
 .
 viewport
 )
-.
-isRequired
-onAddCustomDevice
-:
-PropTypes
-.
-func
 .
 isRequired
 }
@@ -609,6 +607,7 @@ false
 ;
 }
 return
+(
 dom
 .
 div
@@ -1042,6 +1041,7 @@ responsive
 .
 deviceAdderSave
 "
+)
 )
 )
 )

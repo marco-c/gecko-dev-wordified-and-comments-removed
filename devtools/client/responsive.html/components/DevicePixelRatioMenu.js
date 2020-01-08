@@ -165,6 +165,13 @@ pixelRatio
 value
 .
 isRequired
+onChangePixelRatio
+:
+PropTypes
+.
+func
+.
+isRequired
 selectedDevice
 :
 PropTypes
@@ -182,13 +189,6 @@ Types
 .
 pixelRatio
 )
-.
-isRequired
-onChangePixelRatio
-:
-PropTypes
-.
-func
 .
 isRequired
 }
