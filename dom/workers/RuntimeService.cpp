@@ -5018,6 +5018,14 @@ GetDebuggerMicroTaskQueue
 )
 ;
 }
+JS
+:
+:
+JobQueueMayNotBeEmpty
+(
+cx
+)
+;
 microTaskQueue
 -
 >

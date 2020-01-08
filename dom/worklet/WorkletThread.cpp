@@ -567,9 +567,6 @@ runnable
 aRunnable
 )
 ;
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 !
@@ -615,6 +612,9 @@ MOZ_ASSERT
 cx
 )
 ;
+#
+ifdef
+DEBUG
 JS
 :
 :
@@ -642,6 +642,14 @@ global
 ;
 #
 endif
+JS
+:
+:
+JobQueueMayNotBeEmpty
+(
+cx
+)
+;
 GetMicroTaskQueue
 (
 )

@@ -3814,6 +3814,15 @@ js
 :
 ThreadData
 <
+bool
+>
+canSkipEnqueuingJobs
+;
+js
+:
+:
+ThreadData
+<
 JSPromiseRejectionTrackerCallback
 >
 promiseRejectionTrackerCallback
