@@ -5033,11 +5033,11 @@ fullLibraryPath
 .
 Append
 (
-DLL_PREFIX
+MOZ_DLL_PREFIX
 "
 nssckbi
 "
-DLL_SUFFIX
+MOZ_DLL_SUFFIX
 )
 ;
 fullLibraryPath

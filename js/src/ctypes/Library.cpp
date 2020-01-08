@@ -305,7 +305,7 @@ AppendString
 (
 cx
 resultString
-DLL_PREFIX
+MOZ_DLL_PREFIX
 )
 ;
 AppendString
@@ -319,7 +319,7 @@ AppendString
 (
 cx
 resultString
-DLL_SUFFIX
+MOZ_DLL_SUFFIX
 )
 ;
 if
