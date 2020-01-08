@@ -3963,8 +3963,6 @@ CompositorOptions
 compositorOptions
 bool
 layersConnected
-bool
-hasRenderFrame
 )
 ;
 async
