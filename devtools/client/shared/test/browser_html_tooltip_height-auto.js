@@ -236,7 +236,9 @@ auto
 ;
 tooltip
 .
-setContent
+panel
+.
+appendChild
 (
 tooltipContent
 )
@@ -361,9 +363,8 @@ red
 ;
 tooltip
 .
-setContent
+setContentSize
 (
-tooltipContent
 {
 width
 :

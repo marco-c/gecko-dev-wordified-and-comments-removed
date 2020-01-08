@@ -2974,7 +2974,9 @@ messageDiv
 }
 tooltip
 .
-setContent
+panel
+.
+appendChild
 (
 div
 )

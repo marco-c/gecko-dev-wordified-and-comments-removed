@@ -73,7 +73,9 @@ text
 ;
 tooltip
 .
-setContent
+panel
+.
+appendChild
 (
 div
 )
