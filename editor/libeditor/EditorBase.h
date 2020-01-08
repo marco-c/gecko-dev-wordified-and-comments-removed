@@ -3837,11 +3837,17 @@ nsINode
 aNode
 )
 ;
+inline
 bool
-GetShouldTxnSetSelection
+AllowsTransactionsToChangeSelection
 (
 )
+const
+{
+return
+mAllowsTransactionsToChangeSelection
 ;
+}
 nsresult
 HandleInlineSpellCheck
 (
@@ -4499,7 +4505,7 @@ uint8_t
 mSpellcheckCheckboxState
 ;
 bool
-mShouldTxnSetSelection
+mAllowsTransactionsToChangeSelection
 ;
 bool
 mDidPreDestroy

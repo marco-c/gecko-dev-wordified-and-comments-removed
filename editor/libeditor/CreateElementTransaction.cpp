@@ -433,7 +433,7 @@ if
 mEditorBase
 -
 >
-GetShouldTxnSetSelection
+AllowsTransactionsToChangeSelection
 (
 )
 )
