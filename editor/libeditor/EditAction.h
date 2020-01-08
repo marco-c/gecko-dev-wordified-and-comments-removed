@@ -13,6 +13,14 @@ EditAction
 {
 eNone
 eNotEditing
+eSetTextDirection
+eUnknown
+eSetAttribute
+eRemoveAttribute
+eInsertNode
+eRemoveNode
+eSplitNode
+eJoinNodes
 }
 ;
 enum
