@@ -2652,7 +2652,7 @@ return
 SVGUseElement
 :
 :
-FromNode
+FromNodeOrNull
 (
 AsContent
 (
