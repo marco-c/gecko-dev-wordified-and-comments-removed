@@ -497,21 +497,9 @@ as
 e
 :
             
-if
-'
-No
-JSON
-object
-'
-in
-e
-.
-message
-:
-                
 import
 json
-                
+            
 info
 =
 json
@@ -526,11 +514,6 @@ text
 :
 ]
 )
-            
-else
-:
-                
-raise
         
 return
 (
