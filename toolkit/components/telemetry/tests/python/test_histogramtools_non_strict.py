@@ -59,7 +59,7 @@ build_scripts
 )
 )
 from
-parsers
+python_mozparsers
 import
 parse_histograms
 def
