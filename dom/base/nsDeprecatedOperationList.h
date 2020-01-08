@@ -88,10 +88,6 @@ ImageBitmapRenderingContext_TransferImageBitmap
 )
 DEPRECATED_OPERATION
 (
-XMLBaseAttribute
-)
-DEPRECATED_OPERATION
-(
 WindowContentUntrusted
 )
 DEPRECATED_OPERATION
