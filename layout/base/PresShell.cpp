@@ -4883,11 +4883,12 @@ mDocument
 ;
 if
 (
-gfxPrefs
+nsLayoutUtils
 :
 :
-MetaViewportEnabled
+ShouldHandleMetaViewport
 (
+mDocument
 )
 |
 |
