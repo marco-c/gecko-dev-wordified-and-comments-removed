@@ -73,7 +73,9 @@ console
 .
 log
 (
-WTF
+Expected
+array
+at
 :
 {
 node
@@ -141,7 +143,9 @@ console
 .
 log
 (
-WTF
+Expected
+array
+at
 :
 {
 next

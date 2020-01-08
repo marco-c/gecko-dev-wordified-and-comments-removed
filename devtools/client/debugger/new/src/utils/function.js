@@ -82,6 +82,11 @@ Infinity
 ;
 if
 (
+source
+.
+isWasm
+|
+|
 !
 func
 |
