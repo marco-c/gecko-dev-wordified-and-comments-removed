@@ -1867,6 +1867,13 @@ MOZ_ASSERT
 aActor
 )
 ;
+camera
+:
+:
+Shutdown
+(
+)
+;
 #
 endif
 return
