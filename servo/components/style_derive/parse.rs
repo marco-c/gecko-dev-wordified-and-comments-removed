@@ -454,8 +454,6 @@ location
 .
 new_unexpected_token_error
 (
-:
-:
 cssparser
 :
 :
@@ -497,6 +495,7 @@ quote
 !
 {
 impl
+crate
 :
 :
 parser
@@ -524,6 +523,7 @@ t
 context_ident
 :
 &
+crate
 :
 :
 parser
@@ -534,8 +534,6 @@ input
 :
 &
 mut
-:
-:
 cssparser
 :
 :
@@ -552,8 +550,6 @@ t
 Result
 <
 Self
-:
-:
 style_traits
 :
 :
@@ -612,8 +608,6 @@ input
 :
 &
 mut
-:
-:
 cssparser
 :
 :
@@ -630,8 +624,6 @@ t
 Result
 <
 Self
-:
-:
 style_traits
 :
 :
@@ -684,8 +676,6 @@ location
 .
 new_unexpected_token_error
 (
-:
-:
 cssparser
 :
 :
