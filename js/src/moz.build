@@ -1722,6 +1722,13 @@ cpp
 '
 frontend
 /
+TDZCheckCache
+.
+cpp
+'
+'
+frontend
+/
 TokenStream
 .
 cpp
