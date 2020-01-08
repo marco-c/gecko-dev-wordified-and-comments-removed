@@ -597,6 +597,12 @@ then
 "
 isInstance
 "
+"
+Infinity
+"
+"
+NaN
+"
 }
 ;
 class
