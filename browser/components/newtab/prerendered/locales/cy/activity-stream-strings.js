@@ -972,6 +972,15 @@ Hoff
 Wefan
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Ychwanegu
+Peiriant
+Chwilio
+"
+"
 section_menu_action_move_up
 "
 :

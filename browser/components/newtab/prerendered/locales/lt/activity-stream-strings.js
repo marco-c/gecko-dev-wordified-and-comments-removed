@@ -912,6 +912,16 @@ lankom
 svetain
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Prid
+ti
+ie
+kykl
+"
+"
 section_menu_action_move_up
 "
 :

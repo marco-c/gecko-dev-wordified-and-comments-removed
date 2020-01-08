@@ -1325,6 +1325,12 @@ a
 href
 =
 {
+!
+link
+.
+searchTopSite
+&
+&
 link
 .
 url
@@ -1333,6 +1339,11 @@ onClick
 =
 {
 onClick
+}
+draggable
+=
+{
+true
 }
 >
 <

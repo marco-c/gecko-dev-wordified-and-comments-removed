@@ -872,6 +872,16 @@ erabilitako
 gunea
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Gehitu
+bilaketa
+-
+motorra
+"
+"
 section_menu_action_move_up
 "
 :

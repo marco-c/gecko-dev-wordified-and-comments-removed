@@ -1058,6 +1058,17 @@ str
 nku
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Prida
+vyh
+ad
+vac
+modul
+"
+"
 section_menu_action_move_up
 "
 :

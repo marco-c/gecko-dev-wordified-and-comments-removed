@@ -986,6 +986,17 @@ de
 top
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Adaug
+motor
+de
+c
+utare
+"
+"
 section_menu_action_move_up
 "
 :

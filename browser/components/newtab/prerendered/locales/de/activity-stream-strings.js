@@ -933,6 +933,15 @@ hinzuf
 gen
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Suchmaschine
+hinzuf
+gen
+"
+"
 section_menu_action_move_up
 "
 :

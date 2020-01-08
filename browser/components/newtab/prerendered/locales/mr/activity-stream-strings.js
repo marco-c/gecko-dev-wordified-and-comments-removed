@@ -626,6 +626,12 @@ Top
 Site
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+"
+"
 section_menu_action_move_up
 "
 :

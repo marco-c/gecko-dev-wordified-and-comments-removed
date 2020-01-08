@@ -993,6 +993,16 @@ puesto
 popular
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Anyadir
+motor
+de
+busqueda
+"
+"
 section_menu_action_move_up
 "
 :

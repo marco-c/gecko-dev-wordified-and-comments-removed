@@ -953,6 +953,16 @@ asmel
 ifazen
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Rnu
+amsedday
+n
+unadi
+"
+"
 section_menu_action_move_up
 "
 :

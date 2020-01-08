@@ -892,6 +892,15 @@ qo
 shish
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Add
+Search
+Engine
+"
+"
 section_menu_action_move_up
 "
 :

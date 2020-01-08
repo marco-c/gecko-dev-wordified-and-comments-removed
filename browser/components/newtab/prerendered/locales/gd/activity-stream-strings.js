@@ -1148,6 +1148,17 @@ l
 raich
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Cuir
+einnsean
+-
+luirg
+ris
+"
+"
 section_menu_action_move_up
 "
 :

@@ -954,6 +954,14 @@ sitio
 favorito
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Engadir
+buscador
+"
+"
 section_menu_action_move_up
 "
 :

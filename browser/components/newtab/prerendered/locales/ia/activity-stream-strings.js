@@ -940,6 +940,17 @@ sito
 popular
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Adder
+un
+motor
+de
+recerca
+"
+"
 section_menu_action_move_up
 "
 :

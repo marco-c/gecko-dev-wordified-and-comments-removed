@@ -964,6 +964,16 @@ mais
 visitado
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Adicionar
+motor
+de
+pesquisa
+"
+"
 section_menu_action_move_up
 "
 :

@@ -1031,6 +1031,17 @@ site
 populaire
 "
 "
+section_menu_action_add_search_engine
+"
+:
+"
+Ajouter
+ce
+moteur
+de
+recherche
+"
+"
 section_menu_action_move_up
 "
 :
