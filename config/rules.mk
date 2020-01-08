@@ -4596,9 +4596,6 @@ AR
 AR_FLAGS
 )
 (
-OBJS
-)
-(
 _
 (
 OBJS_VAR_SUFFIX
