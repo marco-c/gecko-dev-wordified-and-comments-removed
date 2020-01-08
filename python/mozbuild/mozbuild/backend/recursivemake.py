@@ -7178,13 +7178,11 @@ p
 )
         
 for
-idl
+stem
 in
 manager
 .
-idls
-.
-values
+idl_stems
 (
 )
 :
@@ -7206,14 +7204,8 @@ s
 .
 h
 '
-                
 %
-idl
-[
-'
-root
-'
-]
+stem
 )
         
 for
@@ -7278,29 +7270,34 @@ set
 )
         
 for
-module
+module_name
 in
 xpt_modules
 :
             
-sources
-directories
+module
 =
+manager
+.
 modules
 [
-module
+module_name
 ]
             
 all_directories
 |
 =
+module
+.
 directories
             
 deps
 =
 sorted
 (
-sources
+module
+.
+idl_files
 )
             
 mk
@@ -7316,19 +7313,12 @@ s
 '
 %
 (
-module
+module_name
 '
 '
 .
 join
 (
-d
-.
-full_path
-                                                                
-for
-d
-in
 deps
 )
 )
@@ -7345,7 +7335,7 @@ s
 xpt
 '
 %
-module
+module_name
 )
         
 mk
