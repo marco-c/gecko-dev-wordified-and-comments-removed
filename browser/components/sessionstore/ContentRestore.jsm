@@ -680,7 +680,15 @@ loadArguments
 triggeringPrincipal
 )
 :
-null
+Services
+.
+scriptSecurityManager
+.
+createNullPrincipal
+(
+{
+}
+)
 ;
 if
 (

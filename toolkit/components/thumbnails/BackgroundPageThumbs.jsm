@@ -890,6 +890,17 @@ nsIWebProgress
 NOTIFY_STATE_ALL
 )
 ;
+let
+triggeringPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 wlBrowser
 .
 loadURI
@@ -911,6 +922,7 @@ xhtml
 null
 null
 null
+triggeringPrincipal
 )
 ;
 this
