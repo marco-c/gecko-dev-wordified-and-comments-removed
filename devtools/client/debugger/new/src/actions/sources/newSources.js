@@ -388,6 +388,17 @@ if
 urls
 )
 {
+const
+currentSource
+=
+getSource
+(
+getState
+(
+)
+sourceId
+)
+;
 dispatch
 (
 (
@@ -405,7 +416,7 @@ source
 .
 .
 .
-source
+currentSource
 sourceMapURL
 :
 "
