@@ -139,11 +139,6 @@ nsIContentProcess
 idl
 '
 '
-nsIContentURIGrouper
-.
-idl
-'
-'
 nsIDOMChromeWindow
 .
 idl
