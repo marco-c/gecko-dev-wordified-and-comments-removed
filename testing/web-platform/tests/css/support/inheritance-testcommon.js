@@ -204,7 +204,7 @@ property
 initial
 '
 ;
-assert_not_equals
+assert_equals
 (
 getComputedStyle
 (
@@ -243,7 +243,7 @@ assert_equals
 (
 getComputedStyle
 (
-container
+target
 )
 [
 property
