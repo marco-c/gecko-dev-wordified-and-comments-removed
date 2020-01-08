@@ -24,14 +24,14 @@ h
 #
 include
 "
-prerror
+nss_scoped_ptrs
 .
 h
 "
 #
 include
 "
-scoped_ptrs
+prerror
 .
 h
 "

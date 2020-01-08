@@ -51,7 +51,14 @@ h
 #
 include
 "
-scoped_ptrs
+nss_scoped_ptrs
+.
+h
+"
+#
+include
+"
+scoped_ptrs_ssl
 .
 h
 "
