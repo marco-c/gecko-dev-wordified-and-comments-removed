@@ -148,11 +148,6 @@ open
 js
 '
 '
-replay
-.
-js
-'
-'
 source
 -
 tree
