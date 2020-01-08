@@ -8144,13 +8144,13 @@ EndArray
 )
 ;
 }
-}
 aWriter
 .
 EndObject
 (
 )
 ;
+}
 }
 #
 if
