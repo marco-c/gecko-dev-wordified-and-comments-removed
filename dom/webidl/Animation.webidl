@@ -205,7 +205,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+AreWebAnimationsTimelinesEnabled
 "
 ]
 attribute

@@ -158,7 +158,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+AreWebAnimationsTimelinesEnabled
 "
 Constructor
 (

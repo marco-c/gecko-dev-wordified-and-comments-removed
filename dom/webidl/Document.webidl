@@ -2564,7 +2564,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+AreWebAnimationsTimelinesEnabled
 "
 ]
 readonly

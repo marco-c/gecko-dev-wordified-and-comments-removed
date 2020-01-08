@@ -148,7 +148,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+AreWebAnimationsTimelinesEnabled
 "
 ]
 interface
