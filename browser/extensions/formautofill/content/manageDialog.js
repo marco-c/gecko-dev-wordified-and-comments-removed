@@ -1665,6 +1665,16 @@ cc
 name
 "
 ]
+network
+:
+creditCard
+[
+"
+cc
+-
+type
+"
+]
 }
 )
 ;
