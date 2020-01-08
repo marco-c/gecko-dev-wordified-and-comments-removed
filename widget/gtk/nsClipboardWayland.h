@@ -14,6 +14,15 @@ h
 #
 include
 "
+mozwayland
+/
+mozwayland
+.
+h
+"
+#
+include
+"
 wayland
 /
 gtk
