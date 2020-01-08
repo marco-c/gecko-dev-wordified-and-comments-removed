@@ -1073,8 +1073,6 @@ openConditionalPanel
 breakpoint
 .
 selectedLocation
-.
-line
 )
 ;
 }
@@ -1120,8 +1118,6 @@ openConditionalPanel
 breakpoint
 .
 selectedLocation
-.
-line
 )
 ;
 }

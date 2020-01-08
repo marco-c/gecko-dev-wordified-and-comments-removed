@@ -108,6 +108,7 @@ toggleDisabledBreakpoint
 isCbPanelOpen
 closeConditionalPanel
 continueToHere
+sourceId
 }
 )
 {
@@ -427,7 +428,16 @@ click
 >
 openConditionalPanel
 (
+breakpoint
+?
+breakpoint
+.
+location
+:
+{
 line
+sourceId
+}
 )
 accelerator
 :

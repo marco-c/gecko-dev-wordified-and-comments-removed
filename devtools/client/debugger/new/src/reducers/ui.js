@@ -29,6 +29,7 @@ type
 {
 Source
 PartialRange
+SourceLocation
 }
 from
 "
@@ -162,11 +163,11 @@ sourceId
 :
 number
 }
-conditionalPanelLine
+conditionalPanelLocation
 :
 null
 |
-number
+SourceLocation
 }
 ;
 export
@@ -210,7 +211,7 @@ frameworkGroupingOn
 highlightedLineRange
 :
 undefined
-conditionalPanelLine
+conditionalPanelLocation
 :
 null
 orientation
@@ -513,11 +514,11 @@ state
 set
 (
 "
-conditionalPanelLine
+conditionalPanelLocation
 "
 action
 .
-line
+location
 )
 ;
 case
@@ -531,7 +532,7 @@ state
 set
 (
 "
-conditionalPanelLine
+conditionalPanelLocation
 "
 null
 )
@@ -856,7 +857,7 @@ highlightedLineRange
 }
 export
 function
-getConditionalPanelLine
+getConditionalPanelLocation
 (
 state
 :
@@ -865,7 +866,7 @@ OuterState
 :
 null
 |
-number
+SourceLocation
 {
 return
 state
@@ -875,7 +876,7 @@ ui
 get
 (
 "
-conditionalPanelLine
+conditionalPanelLocation
 "
 )
 ;

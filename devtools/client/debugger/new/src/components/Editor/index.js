@@ -120,7 +120,7 @@ import
 getActiveSearch
 getSelectedLocation
 getSelectedSource
-getConditionalPanelLine
+getConditionalPanelLocation
 getSymbols
 }
 from
@@ -438,9 +438,9 @@ number
 endPanelSize
 :
 number
-conditionalPanelLine
+conditionalPanelLocation
 :
-number
+SourceLocation
 symbols
 :
 SymbolDeclarations
@@ -448,7 +448,7 @@ openConditionalPanel
 :
 (
 ?
-number
+SourceLocation
 )
 =
 >
@@ -1389,7 +1389,7 @@ stopPropagation
 const
 {
 selectedSource
-conditionalPanelLine
+conditionalPanelLocation
 }
 =
 this
@@ -1448,7 +1448,7 @@ else
 if
 (
 !
-conditionalPanelLine
+conditionalPanelLocation
 )
 {
 this
@@ -1859,7 +1859,7 @@ MouseEvent
 const
 {
 selectedSource
-conditionalPanelLine
+conditionalPanelLocation
 closeConditionalPanel
 addOrToggleDisabledBreakpoint
 toggleBreakpointsAtLine
@@ -1916,7 +1916,7 @@ return
 }
 if
 (
-conditionalPanelLine
+conditionalPanelLocation
 )
 {
 return
@@ -2101,7 +2101,7 @@ line
 {
 const
 {
-conditionalPanelLine
+conditionalPanelLocation
 closeConditionalPanel
 openConditionalPanel
 }
@@ -2112,7 +2112,7 @@ props
 ;
 if
 (
-conditionalPanelLine
+conditionalPanelLocation
 )
 {
 return
@@ -2124,7 +2124,7 @@ closeConditionalPanel
 return
 openConditionalPanel
 (
-line
+conditionalPanelLocation
 )
 ;
 }
@@ -2689,6 +2689,7 @@ const
 {
 horizontal
 selectedSource
+conditionalPanelLocation
 }
 =
 this
@@ -2812,6 +2813,9 @@ editor
 }
 /
 >
+{
+conditionalPanelLocation
+?
 <
 ConditionalPanel
 editor
@@ -2821,6 +2825,9 @@ editor
 }
 /
 >
+:
+null
+}
 {
 features
 .
@@ -3010,9 +3017,9 @@ state
 "
 file
 "
-conditionalPanelLine
+conditionalPanelLocation
 :
-getConditionalPanelLine
+getConditionalPanelLocation
 (
 state
 )
