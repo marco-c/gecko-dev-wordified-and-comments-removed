@@ -712,6 +712,9 @@ Core
 "
 "
 DOM
+:
+Web
+Storage
 "
 )
 with
@@ -838,9 +841,8 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Web
+Storage
 "
 )
 with
@@ -864,6 +866,9 @@ Core
 "
 "
 DOM
+:
+Web
+Storage
 "
 )
 with

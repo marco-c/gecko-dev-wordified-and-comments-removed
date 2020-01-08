@@ -4956,6 +4956,9 @@ Core
 "
 "
 DOM
+:
+Web
+Storage
 "
 )
 with
