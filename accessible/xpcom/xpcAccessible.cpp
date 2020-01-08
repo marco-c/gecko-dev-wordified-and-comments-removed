@@ -84,7 +84,7 @@ h
 #
 include
 "
-nsIPersistentProperties2
+nsPersistentProperties
 .
 h
 "
@@ -1921,9 +1921,9 @@ nsIPersistentProperties
 >
 props
 =
-do_CreateInstance
+new
+nsPersistentProperties
 (
-NS_PERSISTENTPROPERTIES_CONTRACTID
 )
 ;
 uint32_t

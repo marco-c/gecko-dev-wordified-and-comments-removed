@@ -355,6 +355,11 @@ nsMathUtils
 h
 '
 '
+nsPersistentProperties
+.
+h
+'
+'
 nsPointerHashKeys
 .
 h

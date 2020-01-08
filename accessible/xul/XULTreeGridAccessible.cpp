@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsIPersistentProperties2
+nsPersistentProperties
 .
 h
 "
@@ -2656,9 +2656,9 @@ nsIPersistentProperties
 >
 attributes
 =
-do_CreateInstance
+new
+nsPersistentProperties
 (
-NS_PERSISTENTPROPERTIES_CONTRACTID
 )
 ;
 TableAccessible

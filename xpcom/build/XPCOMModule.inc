@@ -82,14 +82,6 @@ nsPipeConstructor
 )
 COMPONENT
 (
-PERSISTENTPROPERTIES
-nsPersistentProperties
-:
-:
-Create
-)
-COMPONENT
-(
 ARRAY
 nsArrayBase
 :
