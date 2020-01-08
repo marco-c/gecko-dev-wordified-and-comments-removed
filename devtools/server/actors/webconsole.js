@@ -1367,6 +1367,11 @@ wrappedJSObject
 .
 console
 ;
+if
+(
+console
+)
+{
 isNative
 =
 new
@@ -1377,6 +1382,7 @@ console
 .
 IS_NATIVE_CONSOLE
 ;
+}
 }
 catch
 (
