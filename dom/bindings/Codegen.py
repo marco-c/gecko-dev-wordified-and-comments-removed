@@ -53170,7 +53170,13 @@ conversionScope
 "
 isXray
 ?
-obj
+JS
+:
+:
+CurrentGlobalOrNull
+(
+cx
+)
 :
 slotStorage
 "
@@ -53212,7 +53218,7 @@ conversionScope
 )
 ;
                   
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
