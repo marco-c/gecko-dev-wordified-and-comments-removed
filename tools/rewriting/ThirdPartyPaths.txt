@@ -6,14 +6,6 @@ translation
 /
 cld2
 /
-browser
-/
-extensions
-/
-mortar
-/
-ppapi
-/
 db
 /
 sqlite3
@@ -621,10 +613,6 @@ fdlibm
 modules
 /
 freetype2
-/
-modules
-/
-pdfium
 /
 modules
 /

@@ -10699,16 +10699,6 @@ endif
 pref
 (
 "
-pdfium
-.
-enabled
-"
-false
-)
-;
-pref
-(
-"
 pdfjs
 .
 disabled

@@ -150,16 +150,6 @@ int32_t
 aSandboxLevel
 )
 ;
-#
-ifdef
-MOZ_ENABLE_SKIA_PDF
-bool
-SetSecurityLevelForPDFiumProcess
-(
-)
-;
-#
-endif
 enum
 SandboxLevel
 {
