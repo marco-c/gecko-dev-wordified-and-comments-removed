@@ -3590,7 +3590,7 @@ aFrame
 >
 DeleteProperty
 (
-MarkerBeginProperty
+MarkerStartProperty
 (
 )
 )
@@ -3600,7 +3600,7 @@ aFrame
 >
 DeleteProperty
 (
-MarkerMiddleProperty
+MarkerMidProperty
 (
 )
 )
@@ -3700,7 +3700,7 @@ GetMarkerProperty
 (
 markerURL
 aFrame
-MarkerBeginProperty
+MarkerStartProperty
 (
 )
 )
@@ -3721,7 +3721,7 @@ GetMarkerProperty
 (
 markerURL
 aFrame
-MarkerMiddleProperty
+MarkerMidProperty
 (
 )
 )

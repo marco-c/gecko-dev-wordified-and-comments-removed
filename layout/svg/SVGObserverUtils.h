@@ -1445,12 +1445,12 @@ nsSVGPaintingProperty
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
-MarkerBeginProperty
+MarkerStartProperty
 SVGMarkerObserver
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
-MarkerMiddleProperty
+MarkerMidProperty
 SVGMarkerObserver
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
