@@ -186,6 +186,11 @@ dom
 =
 [
 '
+XULBroadcastManager
+.
+h
+'
+'
 XULFrameElement
 .
 h
@@ -257,6 +262,11 @@ cpp
 '
 '
 nsXULSortService
+.
+cpp
+'
+'
+XULBroadcastManager
 .
 cpp
 '

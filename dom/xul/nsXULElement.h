@@ -2946,15 +2946,6 @@ nsIDocument
 aDocument
 )
 ;
-void
-RemoveBroadcaster
-(
-const
-nsAString
-&
-broadcasterId
-)
-;
 protected
 :
 void
