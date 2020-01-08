@@ -4831,6 +4831,7 @@ MemoryPressureReason
 LOW_MEMORY_ONGOING
 &
 &
+!
 mVisible
 &
 &
