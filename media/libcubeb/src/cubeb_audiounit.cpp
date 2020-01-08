@@ -3839,6 +3839,11 @@ input_device
 0
 )
 {
+audiounit_close_stream
+(
+stm
+)
+;
 if
 (
 audiounit_set_device_info
