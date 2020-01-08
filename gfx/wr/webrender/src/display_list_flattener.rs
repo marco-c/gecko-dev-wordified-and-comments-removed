@@ -2577,6 +2577,9 @@ clip_node_id
 pipeline_id
 reference_frame
 .
+transform_style
+reference_frame
+.
 transform
 reference_frame
 .
@@ -2924,6 +2927,10 @@ clip_id
 )
 None
 iframe_pipeline_id
+TransformStyle
+:
+:
+Flat
 None
 None
 origin
@@ -7624,6 +7631,9 @@ ClipId
 pipeline_id
 :
 PipelineId
+transform_style
+:
+TransformStyle
 source_transform
 :
 Option
@@ -7677,6 +7687,7 @@ clip_scroll_tree
 add_reference_frame
 (
 parent_index
+transform_style
 source_transform
 source_perspective
 origin_in_parent_reference_frame
@@ -7807,6 +7818,10 @@ pipeline_id
 None
 None
 pipeline_id
+TransformStyle
+:
+:
+Flat
 None
 None
 LayoutVector2D
