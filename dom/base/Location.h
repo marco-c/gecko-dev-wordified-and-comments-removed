@@ -215,6 +215,9 @@ const
 nsAString
 &
 aHref
+nsIPrincipal
+&
+aSubjectPrincipal
 ErrorResult
 &
 aError
@@ -547,6 +550,9 @@ SetURI
 nsIURI
 *
 aURL
+nsIPrincipal
+&
+aSubjectPrincipal
 bool
 aReplace
 =
@@ -563,6 +569,9 @@ aHref
 nsIURI
 *
 aBase
+nsIPrincipal
+&
+aSubjectPrincipal
 bool
 aReplace
 )
@@ -574,6 +583,9 @@ const
 nsAString
 &
 aHref
+nsIPrincipal
+&
+aSubjectPrincipal
 bool
 aReplace
 ErrorResult
@@ -595,6 +607,9 @@ CheckURL
 nsIURI
 *
 url
+nsIPrincipal
+&
+aSubjectPrincipal
 nsDocShellLoadInfo
 *
 *

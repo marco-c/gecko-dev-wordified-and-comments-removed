@@ -205,7 +205,7 @@ stringifier
 [
 Throws
 CrossOriginWritable
-GetterNeedsSubjectPrincipal
+NeedsSubjectPrincipal
 ]
 attribute
 USVString
