@@ -14590,8 +14590,9 @@ iter
 (
 )
 .
-readMemCopy
+readMemOrTableCopy
 (
+true
 &
 dest
 &
