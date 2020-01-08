@@ -1071,7 +1071,7 @@ flags
 )
 {
 uint32_t
-oldStackPointer
+stackPointerVal
 =
 stackPointer
 ;
@@ -1079,7 +1079,7 @@ if
 (
 MOZ_UNLIKELY
 (
-oldStackPointer
+stackPointerVal
 >
 =
 capacity
@@ -1093,7 +1093,7 @@ ensureCapacitySlow
 }
 frames
 [
-oldStackPointer
+stackPointerVal
 ]
 .
 initLabelFrame
@@ -1107,7 +1107,7 @@ flags
 ;
 stackPointer
 =
-oldStackPointer
+stackPointer
 +
 1
 ;
@@ -1213,7 +1213,7 @@ pc
 ;
 stackPointer
 =
-oldStackPointer
+stackPointer
 +
 1
 ;
