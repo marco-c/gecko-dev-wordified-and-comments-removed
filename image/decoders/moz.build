@@ -249,11 +249,6 @@ nsPNGDecoder
 .
 cpp
 '
-'
-nsWebPDecoder
-.
-cpp
-'
 ]
 include
 (

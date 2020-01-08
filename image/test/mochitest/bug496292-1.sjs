@@ -95,9 +95,6 @@ Accept
 =
 =
 "
-image
-/
-webp
 *
 /
 *
