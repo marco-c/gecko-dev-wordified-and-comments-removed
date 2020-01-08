@@ -99,6 +99,15 @@ h
 #
 include
 "
+jit
+/
+VMFunctions
+.
+h
+"
+#
+include
+"
 util
 /
 StringBuffer
