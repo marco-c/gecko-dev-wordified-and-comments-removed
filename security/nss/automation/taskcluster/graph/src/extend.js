@@ -852,7 +852,8 @@ LINUX_IMAGE
 }
 "
 -
-m32
+t
+ia32
 -
 -
 opt
@@ -886,7 +887,8 @@ LINUX_IMAGE
 }
 "
 -
-m32
+t
+ia32
 "
 )
 ;
@@ -1432,7 +1434,8 @@ sh
 -
 opt
 -
-m32
+t
+ia32
 "
 )
 ;
@@ -1466,7 +1469,8 @@ build_gyp
 .
 sh
 -
-m32
+t
+ia32
 "
 )
 ;
@@ -3879,7 +3883,8 @@ v
 -
 fuzz
 -
-m32
+t
+ia32
 "
 ]
 artifacts
@@ -4025,7 +4030,8 @@ fuzz
 =
 tls
 -
-m32
+t
+ia32
 "
 ]
 }
@@ -6642,7 +6648,8 @@ emit
 -
 llvm
 -
-m32
+t
+ia32
 "
 ]
 }
