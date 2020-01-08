@@ -10948,6 +10948,12 @@ subtests
 :
 [
 ]
+            
+'
+lowerIsBetter
+'
+:
+False
         
 }
         
