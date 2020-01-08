@@ -679,17 +679,6 @@ char
 Get
 (
 )
-{
-return
-mEntryStore
-;
-}
-const
-char
-*
-Get
-(
-)
 const
 {
 return
