@@ -165,9 +165,6 @@ this
 BROWSER_NEW_TAB_URL
 "
 {
-configurable
-:
-true
 enumerable
 :
 true
