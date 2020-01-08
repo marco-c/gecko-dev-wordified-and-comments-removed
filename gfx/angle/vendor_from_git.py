@@ -135,6 +135,7 @@ def
 record_cherry_picks
 (
 dir_in_gecko
+merge_base_origin
 )
 :
     
@@ -165,8 +166,9 @@ n
     
 merge_base_from
 =
+merge_base_origin
++
 '
-origin
 /
 '
 +

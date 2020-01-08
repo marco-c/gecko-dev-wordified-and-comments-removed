@@ -437,6 +437,17 @@ DEPOT_TOOLS_WIN_TOOLCHAIN
 '
 0
 '
+(
+MERGE_BASE_ORIGIN
+)
+=
+sys
+.
+argv
+[
+1
+:
+]
 def
 sorted_items
 (
@@ -651,6 +662,7 @@ DRY_RUN
 record_cherry_picks
 (
 GECKO_ANGLE_DIR
+MERGE_BASE_ORIGIN
 )
 print_now
 (
