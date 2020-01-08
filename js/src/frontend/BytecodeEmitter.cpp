@@ -24585,7 +24585,7 @@ transitiveOptions
 ;
 Rooted
 <
-JSObject
+ScriptSourceObject
 *
 >
 sourceObject
