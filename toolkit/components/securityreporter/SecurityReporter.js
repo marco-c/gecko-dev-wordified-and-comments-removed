@@ -457,6 +457,11 @@ stringify
 (
 report
 )
+credentials
+:
+"
+omit
+"
 headers
 :
 {
