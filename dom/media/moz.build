@@ -485,6 +485,11 @@ nsIAudioDeviceInfo
 idl
 '
 '
+nsIAutoplay
+.
+idl
+'
+'
 nsIDOMNavigatorUserMedia
 .
 idl
