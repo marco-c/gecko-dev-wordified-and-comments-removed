@@ -73,9 +73,6 @@ nsINode
 >
 mNode
 ;
-nsRect
-mFrameRect
-;
 nscoord
 mMainBaseSize
 ;

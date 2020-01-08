@@ -525,11 +525,6 @@ node
 ;
 readonly
 attribute
-DOMRectReadOnly
-frameRect
-;
-readonly
-attribute
 double
 mainBaseSize
 ;
