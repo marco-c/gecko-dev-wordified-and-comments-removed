@@ -2596,6 +2596,8 @@ groupId
 org
 .
 mozilla
+.
+geckoview
 '
 pom
 .
