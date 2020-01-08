@@ -144,11 +144,6 @@ nsIFeedResultService
 .
 idl
 '
-'
-nsIWebContentConverterRegistrar
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

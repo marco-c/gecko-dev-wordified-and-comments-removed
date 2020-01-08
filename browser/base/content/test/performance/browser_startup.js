@@ -39,11 +39,6 @@ MainProcessSingleton
 js
 "
 "
-WebContentConverter
-.
-js
-"
-"
 nsSessionStartup
 .
 js
