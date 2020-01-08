@@ -113,16 +113,6 @@ XPIDL_MODULE
 txtsvc
 '
 EXPORTS
-+
-=
-[
-'
-nsISpellChecker
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 +
