@@ -54,7 +54,7 @@ ByteLengthQueuingStrategy
 insecureContext
 :
 true
-disabled
+nightly
 :
 true
 }
@@ -67,7 +67,7 @@ CountQueuingStrategy
 insecureContext
 :
 true
-disabled
+nightly
 :
 true
 }
@@ -320,7 +320,7 @@ ReadableStream
 insecureContext
 :
 true
-disabled
+nightly
 :
 true
 }
