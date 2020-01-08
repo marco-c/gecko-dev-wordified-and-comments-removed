@@ -1503,7 +1503,7 @@ notify_options
     
 if
 '
-TASKCLUSTER_BASE_URL
+TASKCLUSTER_PROXY_URL
 '
 in
 os
