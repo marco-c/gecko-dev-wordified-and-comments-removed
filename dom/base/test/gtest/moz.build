@@ -95,6 +95,11 @@ TestContentUtils
 cpp
 '
 '
+TestMimeType
+.
+cpp
+'
+'
 TestPlainTextSerializer
 .
 cpp

@@ -1035,6 +1035,11 @@ MessageSender
 h
 '
 '
+MimeType
+.
+h
+'
+'
 MozQueryInterface
 .
 h
@@ -1488,6 +1493,11 @@ cpp
 '
 '
 MessageSender
+.
+cpp
+'
+'
+MimeType
 .
 cpp
 '
