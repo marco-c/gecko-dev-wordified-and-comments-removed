@@ -474,7 +474,7 @@ nsDisplaySVGEffectGeometry
 :
 nsDisplaySVGEffectGeometry
 (
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 *
 aItem
 nsDisplayListBuilder

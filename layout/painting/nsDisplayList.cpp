@@ -43722,10 +43722,10 @@ newRect
 ;
 }
 }
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 (
 nsDisplayListBuilder
 *
@@ -43761,14 +43761,14 @@ aHandleOpacity
 {
 MOZ_COUNT_CTOR
 (
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 )
 ;
 }
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 (
 nsDisplayListBuilder
 *
@@ -43796,12 +43796,12 @@ aHandleOpacity
 {
 MOZ_COUNT_CTOR
 (
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 )
 ;
 }
 nsRegion
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 GetOpaqueRegion
@@ -43827,7 +43827,7 @@ nsRegion
 ;
 }
 void
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 HitTest
@@ -43903,7 +43903,7 @@ aOutFrames
 }
 }
 gfxRect
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 BBoxInUserSpace
@@ -43922,7 +43922,7 @@ mFrame
 ;
 }
 gfxPoint
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 UserSpaceOffset
@@ -43941,7 +43941,7 @@ mFrame
 ;
 }
 void
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 ComputeInvalidationRegion
@@ -44039,7 +44039,7 @@ mBounds
 }
 }
 bool
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 ValidateSVGFrame
@@ -44583,7 +44583,7 @@ ActiveScrolledRoot
 aActiveScrolledRoot
 )
 :
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 (
 aBuilder
 aFrame
@@ -45341,7 +45341,7 @@ aInvalidRegion
 )
 const
 {
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 ComputeInvalidationRegion
@@ -46125,7 +46125,7 @@ Nothing
 )
 ;
 }
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 CreateWebRenderCommands
@@ -46578,7 +46578,7 @@ bool
 aHandleOpacity
 )
 :
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 (
 aBuilder
 aFrame
@@ -46854,7 +46854,7 @@ aInvalidRegion
 )
 const
 {
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 ComputeInvalidationRegion
@@ -47643,7 +47643,7 @@ Nothing
 )
 )
 ;
-nsDisplaySVGEffects
+nsDisplayEffectsBase
 :
 :
 CreateWebRenderCommands
