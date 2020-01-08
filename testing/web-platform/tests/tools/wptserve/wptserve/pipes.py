@@ -3311,7 +3311,7 @@ tokens
 :
             
 ttype
-tfield
+field
 =
 tokens
 .
@@ -3332,7 +3332,7 @@ value
 =
 value
 [
-tfield
+field
 ]
             
 elif
@@ -3350,7 +3350,7 @@ value
 (
 request
 *
-tfield
+field
 )
             
 else
@@ -3381,7 +3381,7 @@ arguments
 %
 (
 ttype
-tfield
+field
 )
                 
 )
@@ -3413,35 +3413,6 @@ variable
 ]
 =
 value
-        
-if
-field
-=
-=
-"
-GET
-"
-and
-not
-isinstance
-(
-value
-str
-)
-:
-            
-value
-=
-value
-.
-decode
-(
-"
-utf
--
-8
-"
-)
         
 escape_func
 =
