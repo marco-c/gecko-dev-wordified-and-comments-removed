@@ -2737,7 +2737,12 @@ guid
 let
 preserveOldProperties
 =
-true
+collectionName
+=
+=
+"
+creditCards
+"
 ;
 await
 collection
