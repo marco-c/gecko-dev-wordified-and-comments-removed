@@ -508,6 +508,10 @@ None
 extras
 =
 None
+                 
+raise_exception
+=
+True
 )
 :
         
@@ -519,6 +523,9 @@ self
 _update_mozinfo
 (
 metadata_root
+raise_exception
+=
+raise_exception
 )
         
 self
@@ -692,6 +699,9 @@ _update_mozinfo
 (
 self
 metadata_root
+*
+*
+kwargs
 )
 :
         
@@ -784,6 +794,9 @@ find_and_update_from_json
 (
 *
 dirs
+*
+*
+kwargs
 )
 class
 Test
