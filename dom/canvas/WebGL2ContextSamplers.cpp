@@ -42,19 +42,6 @@ IsContextLost
 return
 nullptr
 ;
-GLuint
-sampler
-;
-gl
--
->
-fGenSamplers
-(
-1
-&
-sampler
-)
-;
 RefPtr
 <
 WebGLSampler
@@ -65,7 +52,6 @@ new
 WebGLSampler
 (
 this
-sampler
 )
 ;
 return
