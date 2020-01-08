@@ -7282,7 +7282,7 @@ return
 NS_OK
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -7745,7 +7745,7 @@ return
 NS_OK
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx

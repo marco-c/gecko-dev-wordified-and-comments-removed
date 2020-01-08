@@ -1444,7 +1444,7 @@ UncheckedUnwrap
 exnObj
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
@@ -2383,7 +2383,7 @@ errorGlobal
 )
 )
 ;
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
@@ -3702,7 +3702,7 @@ if
 mIsMainThread
 )
 {
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 cx
