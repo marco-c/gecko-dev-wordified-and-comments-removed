@@ -55,11 +55,9 @@ https
 :
 /
 /
-ssl
--
 expired
 .
-mozqa
+badssl
 .
 com
 '
@@ -69,14 +67,13 @@ https
 :
 /
 /
-ssl
+extended
 -
-ev
+validation
 .
-mozqa
+badssl
 .
 com
-/
 '
             
 '
@@ -84,11 +81,9 @@ http
 :
 /
 /
-no
--
-ssl
+http
 .
-mozqa
+badssl
 .
 com
 '

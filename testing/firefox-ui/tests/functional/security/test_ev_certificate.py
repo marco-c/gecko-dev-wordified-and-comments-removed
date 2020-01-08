@@ -66,14 +66,13 @@ https
 :
 /
 /
-ssl
+extended
 -
-ev
+validation
 .
-mozqa
+badssl
 .
 com
-/
 '
     
 def
