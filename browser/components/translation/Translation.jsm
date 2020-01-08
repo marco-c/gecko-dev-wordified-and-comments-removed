@@ -450,7 +450,7 @@ getTopWindow
 (
 )
 .
-openUILinkIn
+openWebLinkIn
 (
 attribution
 "
