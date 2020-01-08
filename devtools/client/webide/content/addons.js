@@ -353,6 +353,7 @@ adbAddon
 status
 =
 =
+=
 ADB_ADDON_STATES
 .
 INSTALLED
@@ -372,6 +373,7 @@ if
 adbAddon
 .
 status
+=
 =
 =
 ADB_ADDON_STATES
