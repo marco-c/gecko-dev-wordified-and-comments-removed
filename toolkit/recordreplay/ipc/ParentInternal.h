@@ -545,6 +545,12 @@ mMajorCheckpoints
 bool
 mPauseNeeded
 ;
+bool
+mHasBegunFatalError
+;
+bool
+mHasFatalError
+;
 void
 OnIncomingMessage
 (
