@@ -1853,10 +1853,6 @@ dataObj
 =
 {
 }
-lenObj
-=
-{
-}
 ;
 xfer
 .
@@ -1864,7 +1860,6 @@ getAnyTransferData
 (
 typeObj
 dataObj
-lenObj
 )
 ;
 var

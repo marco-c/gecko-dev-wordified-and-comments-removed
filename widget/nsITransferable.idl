@@ -1196,14 +1196,6 @@ nsISupportsPrimitives
 .
 idl
 *
-param
-aDataLen
-the
-length
-of
-the
-data
-*
 /
 void
 getAnyTransferData
@@ -1214,10 +1206,6 @@ aFlavor
 out
 nsISupports
 aData
-out
-unsigned
-long
-aDataLen
 )
 ;
 /
