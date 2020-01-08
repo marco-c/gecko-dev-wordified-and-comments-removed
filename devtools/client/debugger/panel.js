@@ -674,7 +674,7 @@ expression
 )
 {
 return
-expression
+null
 ;
 }
 isPaused
