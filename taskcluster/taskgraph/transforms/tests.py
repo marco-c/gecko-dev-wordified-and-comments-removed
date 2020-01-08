@@ -5892,6 +5892,10 @@ test
 }
         
 elif
+'
+jsdcov
+'
+in
 test
 [
 '
@@ -5900,15 +5904,6 @@ build
 platform
 '
 ]
-=
-=
-'
-linux64
--
-jsdcov
-/
-opt
-'
 :
             
 if
