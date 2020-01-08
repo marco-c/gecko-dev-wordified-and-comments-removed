@@ -31,6 +31,9 @@ function
 (
 name
 listener
+key
+=
+listener
 )
 {
 if
@@ -82,7 +85,12 @@ name
 .
 push
 (
+{
+key
+callback
+:
 listener
+}
 )
 ;
 }
@@ -106,7 +114,7 @@ resolve
 >
 {
 const
-l
+oneTimeListener
 =
 (
 eventName
@@ -123,7 +131,7 @@ this
 removeListener
 (
 name
-l
+listener
 )
 ;
 if
@@ -156,7 +164,8 @@ this
 addListener
 (
 name
-l
+oneTimeListener
+listener
 )
 ;
 }
@@ -238,6 +247,8 @@ l
 =
 >
 l
+.
+key
 !
 =
 listener
@@ -346,6 +357,8 @@ listeners
 try
 {
 listener
+.
+callback
 .
 apply
 (
