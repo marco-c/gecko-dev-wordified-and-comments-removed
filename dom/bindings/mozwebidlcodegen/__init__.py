@@ -760,12 +760,6 @@ h
 '
         
 '
-ResolveSystemBinding
-.
-h
-'
-        
-'
 UnionConversions
 .
 h
@@ -803,12 +797,6 @@ cpp
         
 '
 RegisterWorkletBindings
-.
-cpp
-'
-        
-'
-ResolveSystemBinding
 .
 cpp
 '

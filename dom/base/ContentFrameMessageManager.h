@@ -27,17 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ResolveSystemBinding
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
