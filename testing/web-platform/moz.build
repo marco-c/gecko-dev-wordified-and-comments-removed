@@ -1911,6 +1911,8 @@ Core
 Layout
 :
 Text
+and
+Fonts
 "
 )
 with
@@ -1940,6 +1942,8 @@ Core
 Layout
 :
 Text
+and
+Fonts
 "
 )
 with
