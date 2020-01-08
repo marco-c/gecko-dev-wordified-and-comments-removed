@@ -981,16 +981,12 @@ a
 "
 )
 ;
-assert_false
+assert_not_own_property
 (
 a
-.
-hasOwnProperty
-(
 "
 b
 "
-)
 "
 unexpected
 property
@@ -1023,7 +1019,7 @@ assert
 [
 _not
 ]
-_exists
+_own_property
 and
 insert_inherits
 "
@@ -2688,7 +2684,7 @@ assert
 [
 _not
 ]
-_exists
+_own_property
 and
 insert_inherits
 "
