@@ -127,12 +127,15 @@ private
 uint64_t
 mOuterWindowID
 ;
+const
 uint64_t
 mInnerWindowID
 ;
+const
 bool
 mDumpEnabled
 ;
+const
 OriginAttributes
 mOriginAttributes
 ;
