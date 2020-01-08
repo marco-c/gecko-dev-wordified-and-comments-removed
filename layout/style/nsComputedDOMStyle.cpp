@@ -19221,12 +19221,12 @@ RefPtr
 <
 nsROCSSPrimitiveValue
 >
-overflowX
+overflowY
 =
 new
 nsROCSSPrimitiveValue
 ;
-overflowX
+overflowY
 -
 >
 SetIdent
@@ -19239,7 +19239,7 @@ ValueToKeywordEnum
 display
 -
 >
-mOverflowX
+mOverflowY
 nsCSSProps
 :
 :
@@ -19262,7 +19262,7 @@ mOverflowY
 )
 {
 return
-overflowX
+overflowY
 .
 forget
 (
@@ -19285,7 +19285,7 @@ valueList
 >
 AppendCSSValue
 (
-overflowX
+overflowY
 .
 forget
 (
@@ -19296,12 +19296,12 @@ RefPtr
 <
 nsROCSSPrimitiveValue
 >
-overflowY
+overflowX
 =
 new
 nsROCSSPrimitiveValue
 ;
-overflowY
+overflowX
 -
 >
 SetIdent
@@ -19314,7 +19314,7 @@ ValueToKeywordEnum
 display
 -
 >
-mOverflowY
+mOverflowX
 nsCSSProps
 :
 :
@@ -19327,7 +19327,7 @@ valueList
 >
 AppendCSSValue
 (
-overflowY
+overflowX
 .
 forget
 (

@@ -31085,12 +31085,12 @@ subproperties
 "
 overflow
 -
-x
+y
 "
 "
 overflow
 -
-y
+x
 "
 ]
 "
