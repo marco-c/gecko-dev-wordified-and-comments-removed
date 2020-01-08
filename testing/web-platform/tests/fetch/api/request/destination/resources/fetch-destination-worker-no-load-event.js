@@ -22,9 +22,6 @@ includes
 (
 '
 dummy
-.
-html
-?
 '
 )
 )
