@@ -9667,7 +9667,7 @@ this
 _pingSuffix
 AUSTLMY
 .
-CHK_PREF_DISABLED
+CHK_DISABLED_BY_POLICY
 )
 ;
 }
