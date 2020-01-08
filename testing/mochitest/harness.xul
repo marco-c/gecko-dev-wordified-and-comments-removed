@@ -524,7 +524,9 @@ tableContent
 }
 gTestList
 =
-eval
+JSON
+.
+parse
 (
 srvScope
 .
