@@ -3643,6 +3643,8 @@ value
 }
 )
 ;
+try
+{
 func
 .
 apply
@@ -3651,9 +3653,12 @@ this
 arguments
 )
 ;
+}
+finally
+{
 each
 (
-fontProperties
+savedValues
 function
 (
 key
@@ -3695,6 +3700,7 @@ key
 }
 )
 ;
+}
 }
 ;
 }
