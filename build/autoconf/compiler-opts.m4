@@ -242,6 +242,14 @@ ml64
 ;
 ;
 ;
+aarch64
+)
+AS
+=
+armasm64
+;
+;
+;
 esac
 fi
 if
