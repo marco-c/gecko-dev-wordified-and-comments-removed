@@ -222,6 +222,15 @@ detection
 patch
 "
 "
+aarch64
+-
+vastart
+-
+checking
+.
+patch
+"
+"
 fflush
 -
 before

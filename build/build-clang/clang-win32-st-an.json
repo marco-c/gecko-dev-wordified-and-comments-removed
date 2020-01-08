@@ -208,6 +208,15 @@ x64
 patch
 "
 "
+aarch64
+-
+vastart
+-
+checking
+.
+patch
+"
+"
 loosen
 -
 msvc
