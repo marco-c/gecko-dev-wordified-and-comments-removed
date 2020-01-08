@@ -1592,7 +1592,7 @@ newTab
 =
 tabbrowser
 .
-addTab
+addWebTab
 (
 )
 ;
