@@ -153,14 +153,12 @@ debug
 :
 16
 windows10
--
-64
--
-ccov
+.
+*
 /
 debug
 :
-15
+18
 macosx64
 -
 ccov
