@@ -3358,6 +3358,17 @@ aNewColCount
 )
 ;
 nsresult
+NormalizeTable
+(
+Selection
+&
+aSelection
+Element
+&
+aTableOrElementInTable
+)
+;
+nsresult
 SetSelectionAtDocumentStart
 (
 Selection
