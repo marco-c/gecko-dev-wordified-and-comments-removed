@@ -216,6 +216,16 @@ src
 -
 obj
 /
+^
+js
+/
+src
+/
+obj
+-
+.
+*
+/
 #
 SpiderMonkey
 configury
