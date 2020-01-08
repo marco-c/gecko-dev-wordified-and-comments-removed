@@ -2107,11 +2107,6 @@ value
 data
 :
 {
-supportedTypes
-:
-"
-credit
-"
 }
 }
 {
