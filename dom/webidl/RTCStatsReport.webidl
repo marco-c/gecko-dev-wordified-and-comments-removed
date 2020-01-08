@@ -313,12 +313,6 @@ long
 packetsLost
 ;
 long
-mozAvSyncDelay
-;
-long
-mozJitterBufferDelay
-;
-long
 roundTripTime
 ;
 /
