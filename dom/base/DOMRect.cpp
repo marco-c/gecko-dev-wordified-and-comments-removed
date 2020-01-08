@@ -373,9 +373,6 @@ t2pScaled
 =
 scale
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

@@ -4382,9 +4382,6 @@ scaleFactor
 (
 double
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -4917,9 +4914,6 @@ scaleFactor
 =
 double
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -8426,9 +8420,6 @@ scaleFactor
 =
 double
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -15379,9 +15370,6 @@ scaleFactor
 =
 double
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

@@ -1199,9 +1199,6 @@ appUnitsRect
 .
 ToInsidePixels
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

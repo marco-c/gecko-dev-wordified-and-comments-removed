@@ -16181,9 +16181,6 @@ subArea
 .
 ToOutsidePixels
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

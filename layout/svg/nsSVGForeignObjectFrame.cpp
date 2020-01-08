@@ -1166,11 +1166,6 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 transDirtyRect
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )
@@ -1571,9 +1566,6 @@ y
 )
 )
 *
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -1744,11 +1736,6 @@ y
 w
 h
 )
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )
@@ -2687,9 +2674,6 @@ Scale
 .
 0
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

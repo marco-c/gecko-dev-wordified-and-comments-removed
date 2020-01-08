@@ -1075,11 +1075,9 @@ mOverrideConstraintRect
 ToAppUnits
 (
 aRect
-PresContext
-(
-)
--
->
+mozilla
+:
+:
 AppUnitsPerCSSPixel
 (
 )

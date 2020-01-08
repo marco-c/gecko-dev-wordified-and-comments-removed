@@ -1485,7 +1485,7 @@ GetOuterBStartContBCBorderWidth
 int32_t
 aPixelsToTwips
 =
-nsPresContext
+mozilla
 :
 :
 AppUnitsPerCSSPixel

@@ -12379,9 +12379,6 @@ max
 sHorzScrollFraction
 1
 )
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -12407,9 +12404,6 @@ max
 sVertScrollFraction
 1
 )
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

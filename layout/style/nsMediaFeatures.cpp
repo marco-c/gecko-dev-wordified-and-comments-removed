@@ -1169,9 +1169,6 @@ dppx
 =
 float
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

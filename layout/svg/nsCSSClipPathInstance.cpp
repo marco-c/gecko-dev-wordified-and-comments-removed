@@ -351,9 +351,6 @@ pixelRatio
 =
 float
 (
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

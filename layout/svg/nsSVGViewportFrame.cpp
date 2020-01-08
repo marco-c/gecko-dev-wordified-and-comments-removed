@@ -304,11 +304,6 @@ y
 width
 height
 )
-PresContext
-(
-)
--
->
 AppUnitsPerCSSPixel
 (
 )

@@ -1083,9 +1083,6 @@ transformList
 >
 mHead
 refBox
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

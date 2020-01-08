@@ -1823,9 +1823,6 @@ size
 .
 height
 <
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -1871,9 +1868,6 @@ size
 .
 width
 <
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

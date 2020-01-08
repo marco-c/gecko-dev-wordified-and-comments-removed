@@ -311,9 +311,6 @@ mDeltaX
 *
 mAppUnitsPerDevPixel
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -358,9 +355,6 @@ mDeltaY
 *
 mAppUnitsPerDevPixel
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -405,9 +399,6 @@ mDeltaZ
 *
 mAppUnitsPerDevPixel
 /
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )

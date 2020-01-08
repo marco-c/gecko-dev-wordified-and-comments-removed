@@ -49018,9 +49018,6 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 bbox
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -49257,9 +49254,6 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 bbox
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -49303,9 +49297,6 @@ nsLayoutUtils
 RoundGfxRectToAppRect
 (
 bbox
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -50081,9 +50072,6 @@ devPerCSS
 (
 float
 )
-nsPresContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
