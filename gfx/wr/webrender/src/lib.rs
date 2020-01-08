@@ -796,6 +796,17 @@ extern
 crate
 png
 ;
+#
+[
+cfg
+(
+test
+)
+]
+extern
+crate
+rand
+;
 pub
 extern
 crate
