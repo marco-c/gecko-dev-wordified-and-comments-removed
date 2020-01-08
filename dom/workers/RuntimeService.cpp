@@ -7384,6 +7384,14 @@ priority
 )
 ;
 }
+aWorkerPrivate
+-
+>
+SetThread
+(
+thread
+)
+;
 JSContext
 *
 cx
@@ -12236,7 +12244,7 @@ aThread
 mWorkerPrivate
 -
 >
-SetThread
+SetWorkerPrivateInWorkerThread
 (
 aThread
 )
@@ -12255,9 +12263,8 @@ mWorkerPrivate
 mWorkerPrivate
 -
 >
-SetThread
+ResetWorkerPrivateInWorkerThread
 (
-nullptr
 )
 ;
 }
@@ -12275,9 +12282,8 @@ mWorkerPrivate
 mWorkerPrivate
 -
 >
-SetThread
+ResetWorkerPrivateInWorkerThread
 (
-nullptr
 )
 ;
 mWorkerPrivate
