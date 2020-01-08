@@ -367,6 +367,12 @@ js
 /
 src
 /
+editline
+/
+js
+/
+src
+/
 jit
 /
 arm64
