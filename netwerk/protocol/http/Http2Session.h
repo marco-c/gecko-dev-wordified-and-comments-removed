@@ -1682,6 +1682,9 @@ mCheckNetworkStallsWithTFO
 PRIntervalTime
 mLastRequestBytesSentTime
 ;
+bool
+mPeerFailedHandshake
+;
 private
 :
 void
