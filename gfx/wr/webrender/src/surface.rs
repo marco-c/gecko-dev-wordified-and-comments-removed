@@ -936,6 +936,15 @@ None
 PrimitiveInstanceKind
 :
 :
+Image
+{
+.
+.
+}
+|
+PrimitiveInstanceKind
+:
+:
 YuvImage
 {
 .
