@@ -104,11 +104,6 @@ DllBlocklistWin
 cpp
 '
 '
-ErrorHandler
-.
-cpp
-'
-'
 LauncherProcessWin
 .
 cpp
