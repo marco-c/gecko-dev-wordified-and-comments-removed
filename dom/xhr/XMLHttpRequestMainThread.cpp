@@ -8795,6 +8795,10 @@ nullptr
 true
 )
 ;
+mDecoder
+=
+nullptr
+;
 }
 mWaitingForOnStopRequest
 =
