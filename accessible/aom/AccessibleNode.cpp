@@ -209,6 +209,10 @@ mBooleanProperties
 (
 0
 )
+mStringProperties
+(
+16
+)
 mDOMNode
 (
 aNode
@@ -329,7 +333,7 @@ void
 AccessibleNode
 :
 :
-GetRole
+GetComputedRole
 (
 nsAString
 &
