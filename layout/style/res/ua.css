@@ -265,6 +265,12 @@ order
 :
 inherit
 ;
+column
+-
+span
+:
+inherit
+;
 }
 *
 |
