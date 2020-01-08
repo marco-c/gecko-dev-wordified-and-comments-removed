@@ -859,7 +859,7 @@ temp
 .
 LightweightThemeManager
 .
-currentThemeForDisplay
+currentThemeWithPersistedData
 )
 ;
 this

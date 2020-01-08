@@ -89,7 +89,7 @@ theme
 =
 LightweightThemeManager
 .
-currentThemeForDisplay
+currentThemeWithPersistedData
 ;
 return
 theme

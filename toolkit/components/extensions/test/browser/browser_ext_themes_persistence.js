@@ -255,9 +255,9 @@ backgroundImage
 includes
 (
 "
-image1
-.
-png
+lightweighttheme
+-
+header
 "
 )
 "
