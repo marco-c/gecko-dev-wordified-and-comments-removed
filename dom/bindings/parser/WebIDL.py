@@ -1347,15 +1347,34 @@ self
 :
         
 if
+hasattr
+(
+self
+"
+_name
+"
+)
+:
+            
+name
+=
 self
 .
 _name
+        
+else
+:
+            
+name
+=
+None
+        
+if
+name
 :
             
 return
-self
-.
-_name
+name
 .
 QName
 (
