@@ -282,6 +282,13 @@ runtime
 )
 .
 isRequired
+wifiEnabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 }
 ;
 }
@@ -296,6 +303,7 @@ dispatch
 networkEnabled
 networkLocations
 selectedPage
+wifiEnabled
 }
 =
 this
@@ -330,6 +338,7 @@ adbAddonStatus
 dispatch
 networkEnabled
 networkLocations
+wifiEnabled
 }
 )
 ;
@@ -470,6 +479,13 @@ state
 runtimes
 .
 usbRuntimes
+wifiEnabled
+:
+state
+.
+ui
+.
+wifiEnabled
 }
 ;
 }

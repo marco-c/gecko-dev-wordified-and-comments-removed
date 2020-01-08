@@ -272,6 +272,15 @@ aboutdebugging
 .
 network
 "
+WIFI_ENABLED
+:
+"
+devtools
+.
+aboutdebugging
+.
+wifi
+"
 }
 ;
 const

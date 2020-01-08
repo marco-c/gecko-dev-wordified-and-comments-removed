@@ -35,6 +35,9 @@ debugTargetCollapsibilities
 networkEnabled
 =
 false
+wifiEnabled
+=
+false
 )
 {
 return
@@ -50,6 +53,7 @@ locations
 selectedPage
 :
 null
+wifiEnabled
 }
 ;
 }
