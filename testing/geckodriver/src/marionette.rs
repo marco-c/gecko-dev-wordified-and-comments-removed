@@ -3489,9 +3489,6 @@ WebDriverResult
 let
 prefs
 =
-try
-!
-(
 profile
 .
 user_prefs
@@ -3503,6 +3500,7 @@ map_err
 |
 _
 |
+{
 WebDriverError
 :
 :
@@ -3521,8 +3519,9 @@ preferences
 file
 "
 )
+}
 )
-)
+?
 ;
 for
 &
@@ -3720,11 +3719,6 @@ log
 .
 level
 "
-Pref
-:
-:
-new
-(
 logging
 :
 :
@@ -3732,9 +3726,8 @@ max_level
 (
 )
 .
-to_string
+into
 (
-)
 )
 )
 ;
@@ -3767,6 +3760,7 @@ map_err
 |
 _
 |
+{
 WebDriverError
 :
 :
@@ -3784,6 +3778,7 @@ Firefox
 profile
 "
 )
+}
 )
 }
 }
