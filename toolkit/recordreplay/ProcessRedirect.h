@@ -658,6 +658,7 @@ PreambleResult
 {
 Veto
 Redirect
+IgnoreRedirect
 PassThrough
 }
 ;
