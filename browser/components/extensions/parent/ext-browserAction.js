@@ -756,6 +756,13 @@ this
 defaults
 .
 area
+showInPrivateBrowsing
+:
+this
+.
+extension
+.
+privateBrowsingAllowed
 localized
 :
 false
