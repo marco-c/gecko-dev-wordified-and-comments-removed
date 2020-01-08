@@ -139,7 +139,7 @@ if
 stdout
 )
 {
-let
+const
 uid
 =
 stdout
