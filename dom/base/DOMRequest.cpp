@@ -965,10 +965,10 @@ PromiseObj
 ;
 global
 =
-js
+JS
 :
 :
-GetGlobalForObjectCrossCompartment
+GetNonCCWObjectGlobal
 (
 global
 )
