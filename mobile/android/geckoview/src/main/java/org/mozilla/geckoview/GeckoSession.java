@@ -1278,6 +1278,12 @@ value
 throws
 Throwable
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 callback
 .
 sendSuccess
@@ -1425,6 +1431,12 @@ session
 throws
 Throwable
 {
+ThreadUtils
+.
+assertOnUiThread
+(
+)
+;
 if
 (
 session
