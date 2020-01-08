@@ -18,10 +18,14 @@ WEBVTT
 000
 align
 :
-middle
+center
 position
 :
 10
+%
+size
+:
+75
 %
 Awesome
 !
