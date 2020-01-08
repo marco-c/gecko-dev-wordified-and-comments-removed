@@ -3012,6 +3012,10 @@ presShell
 SetResolutionAndScaleTo
 (
 aResolution
+nsGkAtoms
+:
+:
+other
 )
 ;
 return

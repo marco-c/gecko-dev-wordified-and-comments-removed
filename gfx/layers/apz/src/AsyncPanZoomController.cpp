@@ -19097,6 +19097,14 @@ GetDevPixelsPerCSSPixel
 &
 !
 viewportUpdated
+&
+&
+!
+aScrollMetadata
+.
+IsResolutionUpdated
+(
+)
 )
 {
 gfxSize
