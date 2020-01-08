@@ -965,6 +965,7 @@ if
 (
 parent_
 )
+{
 parent_
 -
 >
@@ -972,6 +973,7 @@ childRuntimeCount
 +
 +
 ;
+}
 }
 ~
 AutoUpdateChildRuntimeCount
@@ -982,6 +984,7 @@ if
 (
 parent_
 )
+{
 parent_
 -
 >
@@ -989,6 +992,7 @@ childRuntimeCount
 -
 -
 ;
+}
 }
 }
 ;
@@ -2103,6 +2107,7 @@ hasHelperThreadZones
 (
 )
 )
+{
 return
 CurrentThreadCanAccessRuntime
 (
@@ -2112,6 +2117,7 @@ this
 &
 activeThreadHasScriptDataAccess
 ;
+}
 return
 scriptDataLock
 .
@@ -4380,6 +4386,7 @@ if
 (
 startBgAlloc
 )
+{
 runtime
 (
 )
@@ -4391,6 +4398,7 @@ startBackgroundAllocTaskIfIdle
 (
 )
 ;
+}
 }
 void
 tryToStartBackgroundAllocation
@@ -4507,6 +4515,7 @@ i
 +
 +
 )
+{
 vec
 [
 i
@@ -4520,6 +4529,7 @@ setDouble
 0
 )
 ;
+}
 }
 static
 MOZ_ALWAYS_INLINE
@@ -4669,6 +4679,7 @@ end
 +
 v
 )
+{
 v
 -
 >
@@ -4676,6 +4687,7 @@ setUndefined
 (
 )
 ;
+}
 }
 static
 MOZ_ALWAYS_INLINE
@@ -4728,6 +4740,7 @@ end
 +
 v
 )
+{
 v
 -
 >
@@ -4735,6 +4748,7 @@ setNull
 (
 )
 ;
+}
 }
 static
 MOZ_ALWAYS_INLINE

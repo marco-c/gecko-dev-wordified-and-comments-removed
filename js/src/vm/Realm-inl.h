@@ -477,9 +477,11 @@ enumerators
 =
 next
 )
+{
 return
 false
 ;
+}
 if
 (
 next
@@ -492,6 +494,7 @@ next
 =
 enumerators
 )
+{
 return
 next
 -
@@ -503,6 +506,7 @@ objectBeingIterated
 =
 obj
 ;
+}
 return
 true
 ;
