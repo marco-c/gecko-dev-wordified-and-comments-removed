@@ -1081,6 +1081,13 @@ const
 ;
 inline
 bool
+isGeneratorFrame
+(
+)
+const
+;
+inline
+bool
 isNonStrictDirectEvalFrame
 (
 )
