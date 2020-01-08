@@ -1842,13 +1842,13 @@ boolean
 mWindowFocusInitialized
 ;
 private
-Telemetry
+TelemetryUtils
 .
 Timer
 mJavaUiStartupTimer
 ;
 private
-Telemetry
+TelemetryUtils
 .
 Timer
 mGeckoReadyStartupTimer
@@ -4884,7 +4884,7 @@ return
 mJavaUiStartupTimer
 =
 new
-Telemetry
+TelemetryUtils
 .
 UptimeTimer
 (
@@ -4896,7 +4896,7 @@ FENNEC_STARTUP_TIME_JAVAUI
 mGeckoReadyStartupTimer
 =
 new
-Telemetry
+TelemetryUtils
 .
 UptimeTimer
 (
