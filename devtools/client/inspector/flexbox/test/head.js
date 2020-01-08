@@ -26,6 +26,8 @@ client
 /
 inspector
 /
+shared
+/
 test
 /
 head
