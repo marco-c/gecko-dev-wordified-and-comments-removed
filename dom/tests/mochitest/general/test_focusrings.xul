@@ -1677,7 +1677,7 @@ runTest
 script
 >
 <
-listbox
+richlistbox
 id
 =
 "
@@ -1696,7 +1696,7 @@ height
 /
 >
 <
-listbox
+richlistbox
 id
 =
 "
@@ -1715,7 +1715,7 @@ height
 /
 >
 <
-listbox
+richlistbox
 id
 =
 "
