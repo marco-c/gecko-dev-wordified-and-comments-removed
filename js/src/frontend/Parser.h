@@ -1476,9 +1476,11 @@ canSkipLazyClosedOverBindings
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 ParserBase
 :
@@ -5634,6 +5636,7 @@ oldAwaitHandling_
 =
 AwaitIsModuleKeyword
 )
+{
 parser_
 -
 >
@@ -5642,6 +5645,7 @@ setAwaitHandling
 awaitHandling
 )
 ;
+}
 }
 ~
 AutoAwaitIsKeyword

@@ -158,6 +158,7 @@ LabelStatement
 hasSameLabel
 )
 )
+{
 return
 mozilla
 :
@@ -173,6 +174,7 @@ BreakStatementError
 LabelNotFound
 )
 ;
+}
 }
 else
 {
@@ -211,6 +213,7 @@ findInnermostStatement
 isBreakTarget
 )
 )
+{
 return
 mozilla
 :
@@ -226,6 +229,7 @@ BreakStatementError
 ToughBreak
 )
 ;
+}
 }
 return
 Ok
@@ -301,6 +305,7 @@ findInnermostStatement
 isLoop
 )
 )
+{
 return
 mozilla
 :
@@ -316,6 +321,7 @@ ContinueStatementError
 NotInALoop
 )
 ;
+}
 return
 Ok
 (
@@ -363,6 +369,7 @@ if
 !
 stmt
 )
+{
 return
 foundLoop
 ?
@@ -394,6 +401,7 @@ ContinueStatementError
 NotInALoop
 )
 ;
+}
 foundLoop
 =
 true
@@ -448,11 +456,13 @@ label
 =
 label
 )
+{
 return
 Ok
 (
 )
 ;
+}
 stmt
 =
 stmt

@@ -124,9 +124,11 @@ reserve
 newAllLength
 )
 )
+{
 return
 nullptr
 ;
+}
 RepresentativeCollection
 *
 collection
@@ -142,6 +144,7 @@ if
 (
 collection
 )
+{
 all_
 .
 infallibleAppend
@@ -149,6 +152,7 @@ infallibleAppend
 collection
 )
 ;
+}
 return
 collection
 ;
@@ -203,6 +207,7 @@ end
 +
 it
 )
+{
 js_delete
 (
 asRepresentative
@@ -212,6 +217,7 @@ it
 )
 )
 ;
+}
 all_
 .
 clearAndFree
@@ -274,11 +280,13 @@ if
 !
 collection
 )
+{
 ReportOutOfMemory
 (
 cx
 )
 ;
+}
 }
 else
 {
@@ -427,6 +435,7 @@ end
 +
 it
 )
+{
 MOZ_ASSERT
 (
 *
@@ -437,6 +446,7 @@ it
 collection
 )
 ;
+}
 #
 endif
 MOZ_ASSERT
@@ -1059,6 +1069,7 @@ if
 *
 map
 )
+{
 mapPool_
 .
 release
@@ -1066,6 +1077,7 @@ release
 map
 )
 ;
+}
 }
 template
 <
@@ -1131,6 +1143,7 @@ if
 *
 vec
 )
+{
 vectorPool_
 .
 release
@@ -1138,6 +1151,7 @@ release
 vec
 )
 ;
+}
 }
 void
 purge

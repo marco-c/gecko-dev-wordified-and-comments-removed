@@ -1571,9 +1571,11 @@ isLazyFunctionWithoutEnclosingScope
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 enclosingScope_
 ;

@@ -2082,12 +2082,14 @@ kid
 >
 pn_parens
 )
+{
 return
 kid
 -
 >
 pn_atom
 ;
+}
 }
 return
 nullptr
@@ -2371,6 +2373,7 @@ pn_pos
 .
 begin
 )
+{
 pn_pos
 .
 begin
@@ -2382,6 +2385,7 @@ pn_pos
 .
 begin
 ;
+}
 pn_pos
 .
 end
@@ -2523,6 +2527,7 @@ pn_tail
 &
 pn_head
 )
+{
 pn_tail
 =
 &
@@ -2531,6 +2536,7 @@ pn
 >
 pn_next
 ;
+}
 pn_count
 +
 +
@@ -5566,9 +5572,11 @@ ParseNodeKind
 ClassMethodList
 )
 )
+{
 return
 pn_kid3
 ;
+}
 MOZ_ASSERT
 (
 pn_kid3

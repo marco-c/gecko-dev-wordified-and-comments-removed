@@ -154,6 +154,7 @@ scopeId
 <
 scopeId
 )
+{
 return
 uses_
 .
@@ -166,6 +167,7 @@ scopeId
 }
 )
 ;
+}
 return
 true
 ;
@@ -215,8 +217,10 @@ scopeId
 <
 scopeId
 )
+{
 break
 ;
+}
 if
 (
 innermost
@@ -225,11 +229,13 @@ scriptId
 >
 scriptId
 )
+{
 *
 closedOver
 =
 true
 ;
+}
 uses_
 .
 popBack
@@ -765,6 +771,7 @@ if
 !
 result
 )
+{
 ReportOutOfMemory
 (
 pc
@@ -778,6 +785,7 @@ sc
 context
 )
 ;
+}
 return
 result
 ;
@@ -1130,8 +1138,10 @@ if
 (
 isVarScope_
 )
+{
 return
 ;
+}
 while
 (
 !
@@ -1151,8 +1161,10 @@ kind
 )
 )
 )
+{
 break
 ;
+}
 declaredRange_
 .
 popFront
