@@ -1061,6 +1061,15 @@ Float
 TypeKind
 :
 :
+Vector
+(
+.
+.
+)
+|
+TypeKind
+:
+:
 Complex
 (
 .

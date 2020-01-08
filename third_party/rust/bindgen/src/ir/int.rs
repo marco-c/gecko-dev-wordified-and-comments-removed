@@ -19,6 +19,12 @@ IntKind
 Bool
 SChar
 UChar
+WChar
+{
+size
+:
+usize
+}
 Char
 {
 is_signed
@@ -98,6 +104,12 @@ ULongLong
 U8
 |
 U16
+|
+WChar
+{
+.
+.
+}
 |
 U32
 |

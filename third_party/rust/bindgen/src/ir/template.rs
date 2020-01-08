@@ -50,6 +50,8 @@ ClangItemParser
 pub
 trait
 TemplateParameters
+:
+Sized
 {
 fn
 self_template_params

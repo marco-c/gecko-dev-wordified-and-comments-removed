@@ -358,6 +358,8 @@ TypeReference
 cc
 .
 types
+(
+)
 EdgeKind
 :
 :
@@ -367,6 +369,8 @@ InnerVar
 cc
 .
 vars
+(
+)
 EdgeKind
 :
 :
@@ -376,6 +380,8 @@ Method
 cc
 .
 methods
+(
+)
 EdgeKind
 :
 :
@@ -385,6 +391,8 @@ Constructor
 cc
 .
 constructors
+(
+)
 EdgeKind
 :
 :
@@ -394,6 +402,8 @@ Destructor
 cc
 .
 destructors
+(
+)
 }
 }
 pub
