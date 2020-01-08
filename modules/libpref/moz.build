@@ -186,6 +186,13 @@ mozilla
 '
 init
 /
+ContentBlockingDefaultPrefValues
+.
+h
+'
+'
+init
+/
 StaticPrefList
 .
 h
