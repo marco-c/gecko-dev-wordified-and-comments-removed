@@ -786,7 +786,7 @@ None
 else
 :
             
-while
+if
 self
 .
 index
@@ -800,6 +800,20 @@ indent_levels
 ]
 :
                 
+while
+self
+.
+index
+<
+self
+.
+indent_levels
+[
+-
+1
+]
+:
+                    
 self
 .
 indent_levels
@@ -807,7 +821,7 @@ indent_levels
 pop
 (
 )
-                
+                    
 yield
 (
 token_types
@@ -2002,12 +2016,16 @@ skip_whitespace
 (
 )
         
-if
+c
+=
 self
 .
 char
 (
 )
+        
+if
+c
 in
 (
 "
@@ -2079,11 +2097,7 @@ self
 line_end_state
         
 elif
-self
-.
-char
-(
-)
+c
 =
 =
 "
@@ -2112,6 +2126,23 @@ token_types
 .
 atom
 value
+        
+elif
+c
+=
+=
+"
+[
+"
+:
+            
+self
+.
+state
+=
+self
+.
+list_start_state
         
 else
 :
@@ -4067,6 +4098,32 @@ string
 self
 .
 value
+(
+)
+            
+elif
+self
+.
+token
+[
+0
+]
+=
+=
+token_types
+.
+list_start
+:
+                
+self
+.
+consume
+(
+)
+                
+self
+.
+list_value
 (
 )
             
