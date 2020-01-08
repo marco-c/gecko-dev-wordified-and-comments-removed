@@ -220,12 +220,12 @@ wget
 -
 nv
 "
-UNZIP
+UNTAR
 =
 "
-unzip
+tar
 -
-q
+zxf
 "
 DIFF
 =
@@ -1433,7 +1433,7 @@ tests
 cd
 tests
 {
-UNZIP
+UNTAR
 }
 "
 .
