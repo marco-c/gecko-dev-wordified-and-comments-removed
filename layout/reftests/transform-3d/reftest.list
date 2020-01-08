@@ -1379,12 +1379,6 @@ for
 !
 layersGPUAccelerated
 failures
-fails
--
-if
-(
-webrender
-)
 !
 =
 1157984
