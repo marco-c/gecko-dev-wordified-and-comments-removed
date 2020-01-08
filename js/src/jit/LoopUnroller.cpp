@@ -21,7 +21,9 @@ include
 "
 vm
 /
-ReplayDebugger
+JSScript
+-
+inl
 .
 h
 "
@@ -2265,11 +2267,6 @@ true
 ;
 if
 (
-ReplayDebugger
-:
-:
-trackProgress
-(
 graph
 .
 entryBlock
@@ -2284,6 +2281,10 @@ info
 script
 (
 )
+-
+>
+trackRecordReplayProgress
+(
 )
 )
 return

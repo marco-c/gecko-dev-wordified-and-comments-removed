@@ -8696,6 +8696,13 @@ dropScript
 ;
 }
 ;
+inline
+bool
+trackRecordReplayProgress
+(
+)
+const
+;
 }
 ;
 static_assert
