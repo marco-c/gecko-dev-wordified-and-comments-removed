@@ -2115,13 +2115,6 @@ BINPATH
 /
 components
 /
-Snippets
-.
-js
-BINPATH
-/
-components
-/
 XPIDialogService
 .
 js
