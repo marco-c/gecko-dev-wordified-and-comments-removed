@@ -250,9 +250,6 @@ class
 TextureSource
 ;
 class
-TextureSourceOGL
-;
-class
 BufferTextureHost
 ;
 struct
@@ -1362,11 +1359,13 @@ GetShaderConfigFor
 Effect
 *
 aEffect
-TextureSourceOGL
-*
-aSourceMask
+MaskType
+aMask
 =
-nullptr
+MaskType
+:
+:
+MaskNone
 gfx
 :
 :
