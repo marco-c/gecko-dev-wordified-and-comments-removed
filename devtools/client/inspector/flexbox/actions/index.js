@@ -28,6 +28,9 @@ createEnum
 CLEAR_FLEXBOX
 "
 "
+TOGGLE_FLEX_ITEM_SHOWN
+"
+"
 UPDATE_FLEXBOX
 "
 "
