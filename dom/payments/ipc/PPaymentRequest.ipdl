@@ -249,6 +249,15 @@ error
 nsString
 shippingAddressErrors
 ;
+bool
+displayItemsPassed
+;
+bool
+shippingOptionsPassed
+;
+bool
+modifiersPassed
+;
 }
 ;
 struct
