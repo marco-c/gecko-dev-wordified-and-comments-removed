@@ -1265,7 +1265,7 @@ nsAString
 aFamilyName
 )
 ;
-nsString
+nsAutoString
 GetDefaultFontName
 (
 const

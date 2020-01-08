@@ -7761,7 +7761,7 @@ return
 NS_OK
 ;
 }
-nsString
+nsAutoString
 gfxPlatform
 :
 :
@@ -7777,6 +7777,9 @@ nsACString
 aGenericFamily
 )
 {
+nsAutoString
+result
+;
 gfxFontFamily
 *
 fontFamily
@@ -7797,19 +7800,9 @@ aGenericFamily
 ;
 if
 (
-!
 fontFamily
 )
 {
-return
-EmptyString
-(
-)
-;
-}
-nsAutoString
-result
-;
 fontFamily
 -
 >
@@ -7818,6 +7811,7 @@ LocalizedName
 result
 )
 ;
+}
 return
 result
 ;
