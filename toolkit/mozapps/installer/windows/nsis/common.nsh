@@ -42216,9 +42216,11 @@ Command
 line
 StrCpy
 0
+"
 {
 CMDLINE
 }
+"
 ;
 STARTUPINFO
 System
