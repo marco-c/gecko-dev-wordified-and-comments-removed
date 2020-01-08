@@ -409,10 +409,10 @@ self
 write
 (
 [
-                    
+            
 '
 '
-                    
+            
 '
 #
 endif
@@ -420,7 +420,7 @@ endif
 /
 GLCONSTS_H_
 '
-                   
+        
 ]
 )
 def

@@ -229,6 +229,7 @@ main
     
 usage
 =
+(
 "
 Usage
 :
@@ -253,12 +254,14 @@ html
 ]
 "
 %
+             
 sys
 .
 argv
 [
 0
 ]
+)
     
 if
 len
@@ -814,6 +817,7 @@ utf8
 )
     
 except
+Exception
 :
         
 abort
