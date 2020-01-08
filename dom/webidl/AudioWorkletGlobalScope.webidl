@@ -135,6 +135,9 @@ AudioWorkletGlobalScope
 :
 WorkletGlobalScope
 {
+[
+Throws
+]
 void
 registerProcessor
 (
