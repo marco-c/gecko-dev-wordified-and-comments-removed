@@ -9,6 +9,17 @@ MessageSender
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+MessageBroadcaster
+.
+h
+"
 namespace
 mozilla
 {
