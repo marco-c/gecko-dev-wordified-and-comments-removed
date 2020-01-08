@@ -18193,6 +18193,12 @@ error
 ;
 }
 test_name
+|
+|
+'
+idl_test
+setup
+'
 )
 ;
 }

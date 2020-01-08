@@ -40,10 +40,5 @@ TextDecoder
 )
 ;
 }
-'
-Encoding
-Standard
-IDL
-'
 )
 ;
