@@ -1313,12 +1313,6 @@ false
 #
 endif
 {
-PodZero
-(
-&
-mBorderWidthTable
-)
-;
 #
 ifdef
 DEBUG

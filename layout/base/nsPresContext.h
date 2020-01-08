@@ -4111,12 +4111,6 @@ nsAtom
 >
 mLanguagesUsed
 ;
-nscoord
-mBorderWidthTable
-[
-3
-]
-;
 uint32_t
 mInterruptChecksToSkip
 ;
