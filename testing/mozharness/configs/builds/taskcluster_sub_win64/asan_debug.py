@@ -39,14 +39,4 @@ abort
 '
     
 }
-    
-'
-mozconfig_variant
-'
-:
-'
-debug
--
-asan
-'
 }

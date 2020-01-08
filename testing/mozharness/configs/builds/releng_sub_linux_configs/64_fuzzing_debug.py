@@ -5,28 +5,6 @@ config
 {
     
 '
-default_actions
-'
-:
-[
-        
-'
-clobber
-'
-        
-'
-build
-'
-        
-'
-check
--
-test
-'
-    
-]
-    
-'
 stage_platform
 '
 :
@@ -203,14 +181,4 @@ TINDERBOX_OUTPUT
 '
     
 }
-    
-'
-mozconfig_variant
-'
-:
-'
-debug
--
-fuzzing
-'
 }

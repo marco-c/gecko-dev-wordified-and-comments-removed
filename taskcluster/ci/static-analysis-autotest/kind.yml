@@ -444,6 +444,11 @@ taskcluster_sub_win64
 debug
 .
 py
+mozconfig
+-
+variant
+:
+debug
 toolchains
 :
 -

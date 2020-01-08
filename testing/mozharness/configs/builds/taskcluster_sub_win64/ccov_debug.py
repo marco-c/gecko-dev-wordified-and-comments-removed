@@ -37,20 +37,4 @@ abort
 '
     
 }
-    
-'
-mozconfig_variant
-'
-:
-'
-code
--
-coverage
-'
-    
-'
-artifact_flag_build_variant_in_try
-'
-:
-None
 }

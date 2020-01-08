@@ -29,12 +29,4 @@ mozconfig_platform
 '
 win32
 '
-    
-'
-mozconfig_variant
-'
-:
-'
-mingwclang
-'
 }

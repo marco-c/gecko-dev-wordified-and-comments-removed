@@ -1,3 +1,14 @@
+job
+-
+defaults
+:
+run
+:
+mozconfig
+-
+variant
+:
+null
 android
 -
 api
