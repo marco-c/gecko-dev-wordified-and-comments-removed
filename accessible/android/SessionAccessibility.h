@@ -579,6 +579,13 @@ aText
 )
 ;
 void
+Click
+(
+int32_t
+aID
+)
+;
+void
 StartNativeAccessibility
 (
 )
