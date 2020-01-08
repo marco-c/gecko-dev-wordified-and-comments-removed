@@ -1,13 +1,4 @@
 use
-crate
-:
-:
-values
-:
-:
-IsAuto
-;
-use
 std
 :
 :
@@ -27,6 +18,12 @@ style_traits
 CssWriter
 ToCss
 }
+;
+use
+values
+:
+:
+IsAuto
 ;
 #
 [

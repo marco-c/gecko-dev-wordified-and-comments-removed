@@ -215,7 +215,6 @@ width
 BorderSideWidth
 "
 "
-crate
 :
 :
 values
@@ -247,7 +246,6 @@ Medium
 computed_type
 =
 "
-crate
 :
 :
 values
@@ -425,7 +423,6 @@ offset
 Length
 "
 "
-crate
 :
 :
 values

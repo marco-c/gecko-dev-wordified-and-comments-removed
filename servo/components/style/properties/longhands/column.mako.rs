@@ -282,7 +282,6 @@ width
 BorderSideWidth
 "
 "
-crate
 :
 :
 values
@@ -314,7 +313,6 @@ Medium
 computed_type
 =
 "
-crate
 :
 :
 values

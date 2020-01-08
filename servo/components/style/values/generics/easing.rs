@@ -1,16 +1,10 @@
 use
-crate
-:
-:
 parser
 :
 :
 ParserContext
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -212,9 +206,6 @@ ParserContext
 bool
 {
 use
-crate
-:
-:
 gecko_bindings
 :
 :

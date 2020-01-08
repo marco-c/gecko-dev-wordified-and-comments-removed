@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 cg
 ;
 use
@@ -74,7 +71,6 @@ parse_quote
 #
 param
 :
-crate
 :
 :
 values
@@ -108,7 +104,6 @@ binding
 quote
 !
 (
-crate
 :
 :
 values
@@ -148,7 +143,6 @@ binding
 quote
 !
 (
-crate
 :
 :
 values
@@ -213,9 +207,6 @@ input
 parse_quote
 !
 (
-crate
-:
-:
 values
 :
 :
@@ -239,7 +230,6 @@ quote
 impl
 #
 impl_generics
-crate
 :
 :
 values

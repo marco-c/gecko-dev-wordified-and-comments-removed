@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 gecko
 :
 :
@@ -14,9 +11,6 @@ convert_rgba_to_nscolor
 }
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -26,9 +20,6 @@ structs
 StyleComplexColor
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -40,9 +31,6 @@ as
 Tag
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -55,9 +43,6 @@ ui
 ColorOrAuto
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -74,9 +59,6 @@ ComputedRGBA
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -94,9 +76,6 @@ ComplexColorRatios
 }
 ;
 use
-crate
-:
-:
 values
 :
 :

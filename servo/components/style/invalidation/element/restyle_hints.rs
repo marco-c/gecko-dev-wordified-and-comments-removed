@@ -10,9 +10,6 @@ gecko
 )
 ]
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -22,9 +19,6 @@ structs
 nsRestyleHint
 ;
 use
-crate
-:
-:
 traversal_flags
 :
 :
@@ -895,9 +889,6 @@ nsRestyleHint
 Self
 {
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -909,9 +900,6 @@ as
 eRestyle_Force
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -923,9 +911,6 @@ as
 eRestyle_ForceDescendants
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -937,9 +922,6 @@ as
 eRestyle_LaterSiblings
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -951,9 +933,6 @@ as
 eRestyle_Self
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -965,9 +944,6 @@ as
 eRestyle_SomeDescendants
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -1241,9 +1217,6 @@ assert_restyle_hints_match
 )
 {
 use
-crate
-:
-:
 gecko_bindings
 :
 :

@@ -1,16 +1,10 @@
 use
-crate
-:
-:
 context
 :
 :
 StackLimitChecker
 ;
 use
-crate
-:
-:
 dom
 :
 :
@@ -21,9 +15,6 @@ TShadowRoot
 }
 ;
 use
-crate
-:
-:
 selector_parser
 :
 :

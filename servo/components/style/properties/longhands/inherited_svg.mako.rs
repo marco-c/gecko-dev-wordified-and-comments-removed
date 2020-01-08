@@ -251,7 +251,6 @@ fill
 SVGPaint
 "
 "
-crate
 :
 :
 values
@@ -560,7 +559,6 @@ gecko
 animation_value_type
 =
 "
-crate
 :
 :
 values
@@ -728,7 +726,6 @@ gecko
 animation_value_type
 =
 "
-crate
 :
 :
 values
@@ -849,7 +846,6 @@ gecko
 animation_value_type
 =
 "
-crate
 :
 :
 values

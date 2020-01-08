@@ -119,9 +119,6 @@ S
 )
 ;
 use
-crate
-:
-:
 FailedAllocationError
 ;
 impl

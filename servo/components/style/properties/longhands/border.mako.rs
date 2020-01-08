@@ -387,7 +387,6 @@ side_name
 BorderSideWidth
 "
 "
-crate
 :
 :
 values
@@ -408,7 +407,6 @@ new
 computed_type
 =
 "
-crate
 :
 :
 values
@@ -509,7 +507,6 @@ outset
 type
 =
 "
-crate
 :
 :
 values
@@ -1284,7 +1281,6 @@ gecko
 )
 ]
 impl
-crate
 :
 :
 values
@@ -1305,7 +1301,6 @@ sides
 :
 &
 mut
-crate
 :
 :
 gecko_bindings
@@ -1318,9 +1313,6 @@ nsStyleSides
 )
 {
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -1336,9 +1328,6 @@ CoordDataValue
 }
 ;
 use
-crate
-:
-:
 gecko
 :
 :
@@ -1348,9 +1337,6 @@ values
 GeckoStyleCoordConvertible
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -1470,7 +1456,6 @@ from_gecko_rect
 sides
 :
 &
-crate
 :
 :
 gecko_bindings
@@ -1485,7 +1470,6 @@ nsStyleSides
 >
 Option
 <
-crate
 :
 :
 values
@@ -1498,9 +1482,6 @@ BorderImageWidth
 >
 {
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -1516,9 +1497,6 @@ eStyleUnit_Auto
 }
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -1531,9 +1509,6 @@ ns_style_coord
 CoordData
 ;
 use
-crate
-:
-:
 gecko
 :
 :
@@ -1543,9 +1518,6 @@ values
 GeckoStyleCoordConvertible
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -1558,9 +1530,6 @@ Number
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -1574,7 +1543,6 @@ BorderImageSideWidth
 ;
 Some
 (
-crate
 :
 :
 values

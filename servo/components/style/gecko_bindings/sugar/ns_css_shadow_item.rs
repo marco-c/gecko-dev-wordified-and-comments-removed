@@ -5,9 +5,6 @@ app_units
 Au
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -17,9 +14,6 @@ structs
 nsCSSShadowItem
 ;
 use
-crate
-:
-:
 values
 :
 :

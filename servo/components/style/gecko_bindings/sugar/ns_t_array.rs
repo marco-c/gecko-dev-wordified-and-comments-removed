@@ -1,16 +1,10 @@
 use
-crate
-:
-:
 gecko_bindings
 :
 :
 bindings
 ;
 use
-crate
-:
-:
 gecko_bindings
 :
 :

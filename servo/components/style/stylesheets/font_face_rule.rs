@@ -8,9 +8,6 @@ missing_docs
 ]
 pub
 use
-crate
-:
-:
 font_face
 :
 :

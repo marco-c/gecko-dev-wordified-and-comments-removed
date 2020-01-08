@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 parser
 :
 :
@@ -12,15 +9,6 @@ SelectorImpl
 }
 ;
 use
-crate
-:
-:
-sink
-:
-:
-Push
-;
-use
 servo_arc
 :
 :
@@ -29,6 +17,12 @@ Arc
 HeaderWithLength
 ThinArc
 }
+;
+use
+sink
+:
+:
+Push
 ;
 use
 smallvec

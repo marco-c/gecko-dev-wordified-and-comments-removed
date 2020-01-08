@@ -5149,9 +5149,6 @@ Self
 bool
 {
 use
-crate
-:
-:
 ArcUnionBorrow
 :
 :

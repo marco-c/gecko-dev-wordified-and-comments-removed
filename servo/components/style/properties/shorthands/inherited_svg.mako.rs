@@ -71,9 +71,6 @@ MarkerShorthand
 "
 >
 use
-crate
-:
-:
 values
 :
 :
@@ -124,9 +121,6 @@ i
 >
 {
 use
-crate
-:
-:
 parser
 :
 :

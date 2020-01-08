@@ -5,9 +5,6 @@ super
 CustomIdent
 ;
 use
-crate
-:
-:
 counter_style
 :
 :
@@ -17,9 +14,12 @@ Symbols
 }
 ;
 use
-crate
+cssparser
 :
 :
+Parser
+;
+use
 parser
 :
 :
@@ -27,12 +27,6 @@ parser
 Parse
 ParserContext
 }
-;
-use
-cssparser
-:
-:
-Parser
 ;
 use
 style_traits
@@ -238,9 +232,6 @@ self
 u8
 {
 use
-crate
-:
-:
 gecko_bindings
 :
 :
@@ -324,9 +315,6 @@ u32
 SymbolsType
 {
 use
-crate
-:
-:
 gecko_bindings
 :
 :

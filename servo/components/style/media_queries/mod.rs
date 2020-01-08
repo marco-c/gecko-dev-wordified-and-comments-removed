@@ -77,9 +77,6 @@ gecko
 ]
 pub
 use
-crate
-:
-:
 gecko
 :
 :
@@ -101,9 +98,6 @@ servo
 ]
 pub
 use
-crate
-:
-:
 servo
 :
 :

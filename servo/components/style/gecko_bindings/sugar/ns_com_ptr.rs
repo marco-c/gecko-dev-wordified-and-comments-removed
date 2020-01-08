@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 gecko_bindings
 :
 :

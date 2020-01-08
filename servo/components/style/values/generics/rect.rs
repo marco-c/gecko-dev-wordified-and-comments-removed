@@ -1,7 +1,10 @@
 use
-crate
+cssparser
 :
 :
+Parser
+;
+use
 parser
 :
 :
@@ -9,12 +12,6 @@ parser
 Parse
 ParserContext
 }
-;
-use
-cssparser
-:
-:
-Parser
 ;
 use
 std

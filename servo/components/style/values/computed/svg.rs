@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 values
 :
 :
@@ -14,9 +11,6 @@ color
 Color
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -29,9 +23,6 @@ url
 ComputedUrl
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -44,9 +35,6 @@ NonNegativeLengthOrPercentage
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -60,9 +48,6 @@ Opacity
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -74,9 +59,6 @@ as
 generic
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -84,9 +66,6 @@ RGBA
 ;
 pub
 use
-crate
-:
-:
 values
 :
 :
@@ -97,9 +76,6 @@ SVGPaintOrder
 ;
 pub
 use
-crate
-:
-:
 values
 :
 :
@@ -398,9 +374,6 @@ one
 Self
 {
 use
-crate
-:
-:
 values
 :
 :

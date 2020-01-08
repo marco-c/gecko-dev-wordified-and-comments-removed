@@ -693,9 +693,6 @@ gecko
 ]
 pub
 use
-crate
-:
-:
 gecko_string_cache
 as
 string_cache
@@ -713,9 +710,6 @@ gecko
 ]
 pub
 use
-crate
-:
-:
 gecko_string_cache
 :
 :
@@ -734,9 +728,6 @@ gecko
 ]
 pub
 use
-crate
-:
-:
 gecko_string_cache
 :
 :
@@ -757,9 +748,6 @@ gecko
 ]
 pub
 use
-crate
-:
-:
 gecko_string_cache
 :
 :
@@ -780,9 +768,6 @@ gecko
 ]
 pub
 use
-crate
-:
-:
 gecko_string_cache
 :
 :
@@ -1061,9 +1046,6 @@ computed_values
 (
 pub
 use
-crate
-:
-:
 properties
 :
 :
@@ -1094,9 +1076,6 @@ needlessly
 :
 pub
 use
-crate
-:
-:
 properties
 :
 :
@@ -1131,9 +1110,6 @@ gecko
 )
 ]
 use
-crate
-:
-:
 gecko_string_cache
 :
 :

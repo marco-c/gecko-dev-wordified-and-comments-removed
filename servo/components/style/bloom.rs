@@ -16,9 +16,6 @@ AtomicRefMut
 }
 ;
 use
-crate
-:
-:
 dom
 :
 :

@@ -294,9 +294,6 @@ assert_traversal_flags_match
 )
 {
 use
-crate
-:
-:
 gecko_bindings
 :
 :

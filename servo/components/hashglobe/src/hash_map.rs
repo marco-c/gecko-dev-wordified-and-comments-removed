@@ -131,9 +131,6 @@ SafeHash
 }
 ;
 use
-crate
-:
-:
 FailedAllocationError
 ;
 const

@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 values
 :
 :
@@ -14,9 +11,6 @@ color
 Color
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -43,9 +37,6 @@ gecko
 )
 ]
 use
-crate
-:
-:
 values
 :
 :
@@ -58,9 +49,6 @@ url
 ComputedUrl
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -73,9 +61,6 @@ NonNegativeNumber
 }
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -90,9 +75,6 @@ as
 GenericBoxShadow
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -107,9 +89,6 @@ as
 GenericFilter
 ;
 use
-crate
-:
-:
 values
 :
 :
@@ -138,9 +117,6 @@ gecko
 )
 ]
 use
-crate
-:
-:
 values
 :
 :
