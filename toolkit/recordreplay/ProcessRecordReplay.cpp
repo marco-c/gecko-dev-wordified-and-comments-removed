@@ -567,6 +567,10 @@ IsRecordingOrReplaying
 )
 )
 {
+InitializeMiddlemanCalls
+(
+)
+;
 return
 ;
 }
@@ -750,6 +754,10 @@ InitializeCountdownThread
 )
 ;
 SetupDirtyMemoryHandler
+(
+)
+;
+InitializeMiddlemanCalls
 (
 )
 ;

@@ -224,6 +224,11 @@ MemorySnapshot
 cpp
 '
 '
+MiddlemanCall
+.
+cpp
+'
+'
 ProcessRecordReplay
 .
 cpp
