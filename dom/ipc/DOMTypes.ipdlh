@@ -620,6 +620,9 @@ maxTouchPoints
 DimensionInfo
 dimensions
 ;
+bool
+hasSiblings
+;
 }
 ;
 /

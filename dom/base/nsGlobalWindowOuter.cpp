@@ -19080,14 +19080,8 @@ hasSiblings
 hasSiblings
 )
 {
-child
--
->
-SendGetTabCount
-(
-&
-itemCount
-)
+return
+false
 ;
 }
 }
