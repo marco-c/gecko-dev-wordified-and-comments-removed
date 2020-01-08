@@ -275,7 +275,7 @@ jsterm
 .
 codeMirror
 "
-false
+true
 )
 ;
 global
