@@ -4574,11 +4574,34 @@ terminate
             
 self
 .
-test_runner_proc
+command_queue
 .
-join
+close
 (
-10
+)
+            
+self
+.
+command_queue
+=
+Queue
+(
+)
+            
+self
+.
+remote_queue
+.
+close
+(
+)
+            
+self
+.
+remote_queue
+=
+Queue
+(
 )
         
 else
