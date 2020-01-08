@@ -4262,7 +4262,7 @@ delete
 ;
 MOZ_MUST_USE
 bool
-fillCharBufferWithTemplateStringContents
+fillCharBufferFromSourceNormalizingAsciiLineBreaks
 (
 const
 CharT
@@ -4278,9 +4278,6 @@ MOZ_MUST_USE
 bool
 addLineOfContext
 (
-JSContext
-*
-cx
 ErrorMetadata
 *
 err
@@ -4756,12 +4753,6 @@ CharT
 ;
 private
 :
-using
-CharsBase
-:
-:
-addLineOfContext
-;
 private
 :
 Token
@@ -4851,6 +4842,12 @@ codePoint
 protected
 :
 using
+CharsBase
+:
+:
+addLineOfContext
+;
+using
 TokenStreamCharsShared
 :
 :
@@ -4860,7 +4857,7 @@ using
 CharsBase
 :
 :
-fillCharBufferWithTemplateStringContents
+fillCharBufferFromSourceNormalizingAsciiLineBreaks
 ;
 using
 typename
@@ -5317,14 +5314,6 @@ uint32_t
 offset
 )
 {
-TokenStreamAnyChars
-&
-anyChars
-=
-anyCharsAccess
-(
-)
-;
 if
 (
 err
@@ -5333,7 +5322,9 @@ err
 lineNumber
 !
 =
-anyChars
+anyCharsAccess
+(
+)
 .
 lineno
 )
@@ -5343,9 +5334,6 @@ true
 return
 addLineOfContext
 (
-anyChars
-.
-cx
 err
 offset
 )
@@ -5497,7 +5485,7 @@ end
 if
 (
 !
-fillCharBufferWithTemplateStringContents
+fillCharBufferFromSourceNormalizingAsciiLineBreaks
 (
 cur
 end
@@ -6171,7 +6159,7 @@ using
 CharsBase
 :
 :
-fillCharBufferWithTemplateStringContents
+fillCharBufferFromSourceNormalizingAsciiLineBreaks
 ;
 using
 SpecializedChars
