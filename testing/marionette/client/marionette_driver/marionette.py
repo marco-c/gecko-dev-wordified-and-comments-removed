@@ -4594,6 +4594,12 @@ crashed
 =
 0
         
+self
+.
+is_shutting_down
+=
+False
+        
 if
 socket_timeout
 is
