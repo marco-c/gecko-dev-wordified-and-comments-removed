@@ -114,10 +114,7 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
-override
 ;
 virtual
 void

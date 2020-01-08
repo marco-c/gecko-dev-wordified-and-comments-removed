@@ -7838,7 +7838,6 @@ bindDocument
 aOriginatingElement
 &
 aOriginatingElement
-true
 )
 ;
 if
@@ -17024,7 +17023,6 @@ BindToTree
 bindDocument
 aParent
 aParent
-true
 )
 ;
 if

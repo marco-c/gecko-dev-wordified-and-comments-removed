@@ -845,13 +845,6 @@ GetUncomposedDoc
 (
 )
 ;
-bool
-allowScripts
-=
-AllowScripts
-(
-)
-;
 nsAutoScriptBlocker
 scriptBlocker
 ;
@@ -922,7 +915,6 @@ BindToTree
 doc
 aElement
 mBoundElement
-allowScripts
 )
 ;
 if

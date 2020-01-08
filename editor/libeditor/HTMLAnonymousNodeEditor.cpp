@@ -498,7 +498,6 @@ GetUncomposedDoc
 )
 mObservedNode
 mObservedNode
-true
 )
 ;
 }
@@ -796,7 +795,6 @@ doc
 aParentContent
 &
 aParentContent
-true
 )
 ;
 if

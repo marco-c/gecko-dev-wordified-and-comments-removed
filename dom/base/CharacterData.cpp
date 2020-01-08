@@ -2088,8 +2088,6 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 {
 MOZ_ASSERT

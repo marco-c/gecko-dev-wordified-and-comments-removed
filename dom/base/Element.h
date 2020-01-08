@@ -1701,7 +1701,6 @@ aStates
 )
 ;
 }
-virtual
 void
 UpdateEditableState
 (
@@ -1710,7 +1709,6 @@ aNotify
 )
 override
 ;
-virtual
 nsresult
 BindToTree
 (
@@ -1723,12 +1721,9 @@ aParent
 nsIContent
 *
 aBindingParent
-bool
-aCompileEventHandlers
 )
 override
 ;
-virtual
 void
 UnbindFromTree
 (

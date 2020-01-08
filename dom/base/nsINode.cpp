@@ -6785,7 +6785,6 @@ GetBindingParent
 )
 :
 nullptr
-true
 )
 ;
 if
