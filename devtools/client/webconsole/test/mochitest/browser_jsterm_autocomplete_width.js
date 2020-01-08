@@ -45,7 +45,7 @@ properties
 /
 window
 .
-x
+xx
 =
 Object
 .
@@ -87,7 +87,7 @@ repeat
 ;
 window
 .
-xx
+xxx
 =
 1
 ;
@@ -191,7 +191,7 @@ completion
 suggestions
 for
 "
-x
+xx
 "
 )
 ;
@@ -200,7 +200,7 @@ EventUtils
 sendString
 (
 "
-x
+xx
 "
 )
 ;
@@ -224,10 +224,10 @@ expectedPopupItems
 =
 [
 "
-x
-"
-"
 xx
+"
+"
+xxx
 "
 ]
 ;
@@ -314,7 +314,7 @@ completion
 suggestions
 for
 "
-x
+xx
 .
 "
 )
@@ -459,7 +459,7 @@ completion
 suggestions
 for
 "
-x
+xx
 "
 )
 ;
