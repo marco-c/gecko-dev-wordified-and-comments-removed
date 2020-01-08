@@ -2814,14 +2814,14 @@ JOF_IC
 \
 macro
 (
-JSOP_THROWING
+JSOP_UNUSED151
 151
 "
-throwing
+unused151
 "
 NULL
 1
-1
+0
 0
 JOF_BYTE
 )
