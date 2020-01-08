@@ -8636,6 +8636,16 @@ Security
 ENTITY
 identity
 .
+connection
+"
+Connection
+"
+>
+<
+!
+ENTITY
+identity
+.
 connectionSecure
 "
 Secure
