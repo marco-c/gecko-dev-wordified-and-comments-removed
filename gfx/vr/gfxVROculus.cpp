@@ -4497,6 +4497,8 @@ predictedFrameTime
 ;
 result
 .
+pose
+.
 position
 [
 1
@@ -4593,6 +4595,8 @@ Cap_Orientation
 ;
 result
 .
+pose
+.
 orientation
 [
 0
@@ -4608,6 +4612,8 @@ x
 ;
 result
 .
+pose
+.
 orientation
 [
 1
@@ -4622,6 +4628,8 @@ Orientation
 y
 ;
 result
+.
+pose
 .
 orientation
 [
@@ -4638,6 +4646,8 @@ z
 ;
 result
 .
+pose
+.
 orientation
 [
 3
@@ -4653,6 +4663,8 @@ w
 ;
 result
 .
+pose
+.
 angularVelocity
 [
 0
@@ -4666,6 +4678,8 @@ x
 ;
 result
 .
+pose
+.
 angularVelocity
 [
 1
@@ -4678,6 +4692,8 @@ AngularVelocity
 y
 ;
 result
+.
+pose
 .
 angularVelocity
 [
@@ -4702,6 +4718,8 @@ Cap_AngularAcceleration
 ;
 result
 .
+pose
+.
 angularAcceleration
 [
 0
@@ -4715,6 +4733,8 @@ x
 ;
 result
 .
+pose
+.
 angularAcceleration
 [
 1
@@ -4727,6 +4747,8 @@ AngularAcceleration
 y
 ;
 result
+.
+pose
 .
 angularAcceleration
 [
@@ -4743,6 +4765,8 @@ z
 else
 {
 result
+.
+pose
 .
 orientation
 [
@@ -4775,6 +4799,8 @@ Cap_Position
 ;
 result
 .
+pose
+.
 position
 [
 0
@@ -4790,6 +4816,8 @@ x
 ;
 result
 .
+pose
+.
 position
 [
 1
@@ -4804,6 +4832,8 @@ Position
 y
 ;
 result
+.
+pose
 .
 position
 [
@@ -4820,6 +4850,8 @@ z
 ;
 result
 .
+pose
+.
 linearVelocity
 [
 0
@@ -4833,6 +4865,8 @@ x
 ;
 result
 .
+pose
+.
 linearVelocity
 [
 1
@@ -4845,6 +4879,8 @@ LinearVelocity
 y
 ;
 result
+.
+pose
 .
 linearVelocity
 [
@@ -4869,6 +4905,8 @@ Cap_LinearAcceleration
 ;
 result
 .
+pose
+.
 linearAcceleration
 [
 0
@@ -4882,6 +4920,8 @@ x
 ;
 result
 .
+pose
+.
 linearAcceleration
 [
 1
@@ -4894,6 +4934,8 @@ LinearAcceleration
 y
 ;
 result
+.
+pose
 .
 linearAcceleration
 [
@@ -7000,7 +7042,7 @@ strncpy
 (
 state
 .
-mControllerName
+controllerName
 touchID
 kVRControllerNameMaxLen
 )
@@ -7039,13 +7081,13 @@ NumButtonType
 ;
 state
 .
-mNumButtons
+numButtons
 =
 kNumOculusButton
 ;
 state
 .
-mNumAxes
+numAxes
 =
 static_cast
 <
@@ -7060,7 +7102,7 @@ NumVRControllerAxisType
 ;
 state
 .
-mNumHaptics
+numHaptics
 =
 kNumOculusHaptcs
 ;
