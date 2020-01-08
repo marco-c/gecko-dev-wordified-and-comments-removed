@@ -81,6 +81,16 @@ size_t
 aSize
 )
 ;
+bool
+MemoryRangeIsTracked
+(
+void
+*
+aAddress
+size_t
+aSize
+)
+;
 void
 InitializeMemorySnapshots
 (
