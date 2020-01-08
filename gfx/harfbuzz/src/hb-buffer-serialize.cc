@@ -4,8 +4,6 @@ include
 hb
 -
 buffer
--
-private
 .
 hh
 "

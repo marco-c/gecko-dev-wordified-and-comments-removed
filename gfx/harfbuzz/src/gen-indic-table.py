@@ -766,8 +766,6 @@ shape
 complex
 -
 indic
--
-private
 .
 hh
 "

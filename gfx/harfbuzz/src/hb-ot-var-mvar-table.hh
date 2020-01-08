@@ -14,8 +14,6 @@ ot
 layout
 -
 common
--
-private
 .
 hh
 "

@@ -10,8 +10,6 @@ shape
 complex
 -
 indic
--
-private
 .
 hh
 "
@@ -23,8 +21,6 @@ hb
 ot
 -
 layout
--
-private
 .
 hh
 "

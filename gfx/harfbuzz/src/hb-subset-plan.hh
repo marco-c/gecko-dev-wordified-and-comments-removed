@@ -8,8 +8,6 @@ HB_SUBSET_PLAN_HH
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -29,7 +27,7 @@ hb
 -
 subset
 -
-private
+input
 .
 hh
 "
@@ -39,8 +37,6 @@ include
 hb
 -
 map
--
-private
 .
 hh
 "
@@ -54,11 +50,15 @@ ASSERT_POD
 (
 )
 ;
-hb_bool_t
+bool
 drop_hints
+:
+1
 ;
-hb_bool_t
-drop_ot_layout
+bool
+drop_layout
+:
+1
 ;
 hb_set_t
 *
@@ -69,6 +69,10 @@ hb_vector_t
 hb_codepoint_t
 >
 glyphs
+;
+hb_set_t
+*
+glyphset
 ;
 hb_map_t
 *
@@ -87,7 +91,7 @@ hb_face_t
 dest
 ;
 inline
-hb_bool_t
+bool
 new_gid_for_codepoint
 (
 hb_codepoint_t
@@ -128,7 +132,7 @@ new_gid
 ;
 }
 inline
-hb_bool_t
+bool
 new_gid_for_old_gid
 (
 hb_codepoint_t
@@ -170,7 +174,7 @@ true
 ;
 }
 inline
-hb_bool_t
+bool
 add_table
 (
 hb_tag_t
@@ -236,7 +240,7 @@ source_blob
 )
 ;
 return
-hb_subset_face_add_table
+hb_face_builder_add_table
 (
 dest
 tag
@@ -259,9 +263,6 @@ hb_subset_plan_create
 hb_face_t
 *
 face
-hb_subset_profile_t
-*
-profile
 hb_subset_input_t
 *
 input

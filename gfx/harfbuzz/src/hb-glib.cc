@@ -2,8 +2,6 @@
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -22,8 +20,6 @@ include
 hb
 -
 unicode
--
-private
 .
 hh
 "
@@ -33,8 +29,6 @@ include
 hb
 -
 machinery
--
-private
 .
 hh
 "
@@ -988,6 +982,9 @@ return
 utf8_decomposed_len
 ;
 }
+#
+ifdef
+HB_USE_ATEXIT
 static
 void
 free_static_glib_funcs
@@ -995,6 +992,8 @@ free_static_glib_funcs
 void
 )
 ;
+#
+endif
 static
 struct
 hb_glib_unicode_funcs_lazy_loader_t

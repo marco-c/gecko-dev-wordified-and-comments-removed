@@ -11,8 +11,6 @@ HB_OT_POST_MACROMAN_HH
 include
 "
 hb
--
-private
 .
 hh
 "

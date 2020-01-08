@@ -14,8 +14,6 @@ aat
 layout
 -
 common
--
-private
 .
 hh
 "
@@ -27,8 +25,6 @@ hb
 ot
 -
 layout
--
-private
 .
 hh
 "
@@ -40,8 +36,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "

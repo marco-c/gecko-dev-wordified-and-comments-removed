@@ -4,8 +4,6 @@ include
 hb
 -
 map
--
-private
 .
 hh
 "

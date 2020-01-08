@@ -8,8 +8,6 @@ ot
 shape
 -
 fallback
--
-private
 .
 hh
 "
@@ -23,8 +21,6 @@ ot
 layout
 -
 gsubgpos
--
-private
 .
 hh
 "

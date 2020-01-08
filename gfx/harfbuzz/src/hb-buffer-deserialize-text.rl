@@ -202,8 +202,6 @@ HB_BUFFER_DESERIALIZE_TEXT_HH
 include
 "
 hb
--
-private
 .
 hh
 "

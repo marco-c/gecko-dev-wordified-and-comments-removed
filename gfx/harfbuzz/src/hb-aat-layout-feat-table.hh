@@ -14,8 +14,6 @@ aat
 layout
 -
 common
--
-private
 .
 hh
 "

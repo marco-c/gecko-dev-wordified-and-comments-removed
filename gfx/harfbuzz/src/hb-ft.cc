@@ -2,8 +2,6 @@
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -22,8 +20,6 @@ include
 hb
 -
 font
--
-private
 .
 hh
 "
@@ -33,8 +29,6 @@ include
 hb
 -
 machinery
--
-private
 .
 hh
 "
@@ -1662,6 +1656,9 @@ return
 true
 ;
 }
+#
+ifdef
+HB_USE_ATEXIT
 static
 void
 free_static_ft_funcs
@@ -1669,6 +1666,8 @@ free_static_ft_funcs
 void
 )
 ;
+#
+endif
 static
 struct
 hb_ft_font_funcs_lazy_loader_t
@@ -2679,6 +2678,9 @@ _hb_ft_face_destroy
 )
 ;
 }
+#
+ifdef
+HB_USE_ATEXIT
 static
 void
 free_static_ft_library
@@ -2686,6 +2688,8 @@ free_static_ft_library
 void
 )
 ;
+#
+endif
 static
 struct
 hb_ft_library_lazy_loader_t

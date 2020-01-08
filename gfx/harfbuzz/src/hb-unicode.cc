@@ -2,8 +2,6 @@
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -13,8 +11,6 @@ include
 hb
 -
 unicode
--
-private
 .
 hh
 "

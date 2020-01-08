@@ -8,8 +8,6 @@ HB_OT_OS2_UNICODE_RANGES_HH
 include
 "
 hb
--
-private
 .
 hh
 "

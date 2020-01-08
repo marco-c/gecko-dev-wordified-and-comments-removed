@@ -8,8 +8,6 @@ HB_SUBSET_GLYF_HH
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -19,8 +17,6 @@ include
 hb
 -
 subset
--
-plan
 .
 hh
 "

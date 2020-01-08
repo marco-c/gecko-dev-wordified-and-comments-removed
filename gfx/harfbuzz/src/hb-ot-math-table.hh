@@ -12,8 +12,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "
@@ -27,8 +25,6 @@ ot
 layout
 -
 common
--
-private
 .
 hh
 "

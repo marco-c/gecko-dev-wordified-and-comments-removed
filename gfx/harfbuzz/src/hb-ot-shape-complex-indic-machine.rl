@@ -203,8 +203,6 @@ HB_OT_SHAPE_COMPLEX_INDIC_MACHINE_HH
 include
 "
 hb
--
-private
 .
 hh
 "

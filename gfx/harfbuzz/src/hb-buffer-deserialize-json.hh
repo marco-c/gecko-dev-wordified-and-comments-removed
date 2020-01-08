@@ -22,8 +22,6 @@ HB_BUFFER_DESERIALIZE_JSON_HH
 include
 "
 hb
--
-private
 .
 hh
 "

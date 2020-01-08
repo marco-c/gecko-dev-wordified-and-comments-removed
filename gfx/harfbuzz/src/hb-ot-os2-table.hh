@@ -12,8 +12,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "
@@ -29,17 +27,6 @@ os2
 unicode
 -
 ranges
-.
-hh
-"
-#
-include
-"
-hb
--
-subset
--
-plan
 .
 hh
 "

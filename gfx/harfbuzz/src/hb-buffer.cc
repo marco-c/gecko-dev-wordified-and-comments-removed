@@ -4,8 +4,6 @@ include
 hb
 -
 buffer
--
-private
 .
 hh
 "
@@ -15,8 +13,6 @@ include
 hb
 -
 utf
--
-private
 .
 hh
 "

@@ -12,8 +12,6 @@ hb
 open
 -
 type
--
-private
 .
 hh
 "
@@ -2275,6 +2273,16 @@ DEFINE_SIZE_ARRAY
 dataZ
 )
 ;
+}
+;
+struct
+CBDT_accelerator_t
+:
+CBDT
+:
+:
+accelerator_t
+{
 }
 ;
 }

@@ -10,8 +10,6 @@ shape
 complex
 -
 khmer
--
-private
 .
 hh
 "

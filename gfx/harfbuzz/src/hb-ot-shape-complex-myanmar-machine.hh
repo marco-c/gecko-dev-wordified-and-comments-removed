@@ -26,8 +26,6 @@ HB_OT_SHAPE_COMPLEX_MYANMAR_MACHINE_HH
 include
 "
 hb
--
-private
 .
 hh
 "

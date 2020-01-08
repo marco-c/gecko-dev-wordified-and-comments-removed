@@ -10,8 +10,6 @@ shape
 complex
 -
 use
--
-private
 .
 hh
 "
@@ -27,8 +25,6 @@ shape
 complex
 -
 arabic
--
-private
 .
 hh
 "

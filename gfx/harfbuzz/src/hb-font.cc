@@ -2,8 +2,6 @@
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -13,8 +11,6 @@ include
 hb
 -
 font
--
-private
 .
 hh
 "
@@ -24,8 +20,6 @@ include
 hb
 -
 machinery
--
-private
 .
 hh
 "

@@ -6,8 +6,6 @@ hb
 ot
 -
 map
--
-private
 .
 hh
 "
@@ -19,8 +17,6 @@ hb
 ot
 -
 layout
--
-private
 .
 hh
 "

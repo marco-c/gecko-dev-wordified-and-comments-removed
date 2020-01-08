@@ -2,8 +2,6 @@
 include
 "
 hb
--
-private
 .
 hh
 "
@@ -22,8 +20,6 @@ include
 hb
 -
 unicode
--
-private
 .
 hh
 "
@@ -33,8 +29,6 @@ include
 hb
 -
 machinery
--
-private
 .
 hh
 "
@@ -1367,6 +1361,9 @@ return
 utf32_len
 ;
 }
+#
+ifdef
+HB_USE_ATEXIT
 static
 void
 free_static_icu_funcs
@@ -1374,6 +1371,8 @@ free_static_icu_funcs
 void
 )
 ;
+#
+endif
 static
 struct
 hb_icu_unicode_funcs_lazy_loader_t
