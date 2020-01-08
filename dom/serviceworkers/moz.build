@@ -385,6 +385,11 @@ ServiceWorkerScriptCache
 cpp
 '
 '
+ServiceWorkerUnregisterCallback
+.
+cpp
+'
+'
 ServiceWorkerUnregisterJob
 .
 cpp
