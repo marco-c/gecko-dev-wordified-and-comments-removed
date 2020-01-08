@@ -2699,16 +2699,8 @@ next
 (
 )
 .
-map
+cloned
 (
-|
-x
-|
-x
-.
-clone
-(
-)
 )
 ;
 Ok
