@@ -333,11 +333,6 @@ attribute
 EventHandler
 onremovetrack
 ;
-readonly
-attribute
-double
-currentTime
-;
 [
 ChromeOnly
 Throws
