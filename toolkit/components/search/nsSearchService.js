@@ -15209,6 +15209,10 @@ aEngine
 uri
 .
 spec
+.
+toLowerCase
+(
+)
 ;
 if
 (
@@ -15226,6 +15230,10 @@ url
 includes
 (
 code
+.
+toLowerCase
+(
+)
 )
 )
 )
