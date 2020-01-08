@@ -438,7 +438,7 @@ trace
 )
 ;
 let
-rootClient
+rootFront
 ;
 client
 .
@@ -457,7 +457,7 @@ traits
 =
 >
 {
-rootClient
+rootFront
 =
 RootFront
 (
@@ -479,7 +479,7 @@ calls
 .
 push
 (
-rootClient
+rootFront
 .
 promiseReturn
 (
@@ -518,7 +518,7 @@ calls
 .
 push
 (
-rootClient
+rootFront
 .
 simpleReturn
 (
@@ -556,7 +556,7 @@ calls
 .
 push
 (
-rootClient
+rootFront
 .
 simpleReturn
 (
@@ -594,7 +594,7 @@ calls
 .
 push
 (
-rootClient
+rootFront
 .
 simpleThrow
 (
@@ -652,7 +652,7 @@ calls
 .
 push
 (
-rootClient
+rootFront
 .
 promiseThrow
 (
@@ -722,7 +722,7 @@ calls
 .
 push
 (
-rootClient
+rootFront
 .
 simpleReturn
 (
@@ -774,7 +774,7 @@ calls
 .
 push
 (
-rootClient
+rootFront
 .
 promiseReturn
 (
@@ -827,7 +827,7 @@ calls
 .
 push
 (
-rootClient
+rootFront
 .
 simpleReturn
 (

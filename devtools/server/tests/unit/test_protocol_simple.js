@@ -883,7 +883,7 @@ trace
 )
 ;
 let
-rootClient
+rootFront
 ;
 client
 .
@@ -946,14 +946,14 @@ tests
 "
 )
 ;
-rootClient
+rootFront
 =
 RootFront
 (
 client
 )
 ;
-rootClient
+rootFront
 .
 simpleReturn
 (
@@ -1030,7 +1030,7 @@ then
 >
 {
 return
-rootClient
+rootFront
 .
 promiseReturn
 (
@@ -1117,7 +1117,7 @@ throws
 )
 =
 >
-rootClient
+rootFront
 .
 simpleArgs
 (
@@ -1146,7 +1146,7 @@ argument
 )
 ;
 return
-rootClient
+rootFront
 .
 simpleArgs
 (
@@ -1255,7 +1255,7 @@ then
 >
 {
 return
-rootClient
+rootFront
 .
 optionArgs
 (
@@ -1374,7 +1374,7 @@ then
 >
 {
 return
-rootClient
+rootFront
 .
 optionArgs
 (
@@ -1479,7 +1479,7 @@ then
 >
 {
 return
-rootClient
+rootFront
 .
 optionalArgs
 (
@@ -1571,7 +1571,7 @@ then
 >
 {
 return
-rootClient
+rootFront
 .
 optionalArgs
 (
@@ -1656,7 +1656,7 @@ ret
 >
 {
 return
-rootClient
+rootFront
 .
 arrayArgs
 (
@@ -1777,7 +1777,7 @@ then
 >
 {
 return
-rootClient
+rootFront
 .
 arrayArgs
 (
@@ -1881,7 +1881,7 @@ then
 >
 {
 return
-rootClient
+rootFront
 .
 renamedEcho
 (
@@ -1971,7 +1971,7 @@ defer
 (
 )
 ;
-rootClient
+rootFront
 .
 on
 (
@@ -2071,7 +2071,7 @@ ok
 (
 typeof
 (
-rootClient
+rootFront
 .
 testOneWay
 (
@@ -2110,7 +2110,7 @@ defer
 (
 )
 ;
-rootClient
+rootFront
 .
 on
 (
@@ -2214,7 +2214,7 @@ resolve
 }
 )
 ;
-rootClient
+rootFront
 .
 emitFalsyOptions
 (

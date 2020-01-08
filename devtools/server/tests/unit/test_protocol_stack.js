@@ -271,7 +271,7 @@ trace
 )
 ;
 let
-rootClient
+rootFront
 ;
 client
 .
@@ -286,14 +286,14 @@ onConnect
 (
 )
 {
-rootClient
+rootFront
 =
 RootFront
 (
 client
 )
 ;
-rootClient
+rootFront
 .
 simpleReturn
 (

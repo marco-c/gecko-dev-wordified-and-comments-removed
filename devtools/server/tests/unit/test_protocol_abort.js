@@ -243,7 +243,7 @@ trace
 )
 ;
 let
-rootClient
+rootFront
 ;
 client
 .
@@ -262,14 +262,14 @@ traits
 =
 >
 {
-rootClient
+rootFront
 =
 RootFront
 (
 client
 )
 ;
-rootClient
+rootFront
 .
 simpleReturn
 (
