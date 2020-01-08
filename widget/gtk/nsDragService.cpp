@@ -3094,7 +3094,6 @@ get
 (
 )
 data
-0
 )
 ;
 if
@@ -3470,7 +3469,6 @@ get
 (
 )
 file
-convertedTextLen
 )
 ;
 g_free
@@ -4271,7 +4269,6 @@ get
 (
 )
 genericDataWrapper
-mTargetDragDataLen
 )
 ;
 MOZ_LOG
@@ -7709,11 +7706,6 @@ SetTransferData
 (
 kFilePromiseDirectoryMime
 directory
-sizeof
-(
-nsIFile
-*
-)
 )
 ;
 nsCOMPtr
@@ -7760,16 +7752,6 @@ SetTransferData
 (
 kFilePromiseDestFilename
 filenamePrimitive
-leafName
-.
-Length
-(
-)
-*
-sizeof
-(
-PRUnichar
-)
 )
 ;
 actualFlavor

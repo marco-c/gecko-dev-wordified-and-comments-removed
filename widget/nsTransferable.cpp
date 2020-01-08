@@ -1367,8 +1367,6 @@ aFlavor
 nsISupports
 *
 aData
-uint32_t
-aDataLen
 )
 {
 MOZ_ASSERT
@@ -1410,7 +1408,7 @@ data
 SetData
 (
 aData
-aDataLen
+0
 mPrivateData
 )
 ;
@@ -1499,7 +1497,7 @@ Convert
 (
 aFlavor
 aData
-aDataLen
+0
 data
 .
 GetFlavor
@@ -1548,7 +1546,6 @@ SetTransferData
 (
 aFlavor
 aData
-aDataLen
 )
 ;
 }

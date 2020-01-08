@@ -2380,7 +2380,6 @@ get
 (
 )
 dataSupports
-0
 )
 ;
 return
@@ -2679,7 +2678,6 @@ get
 (
 )
 file
-dataLength
 )
 ;
 break
@@ -2815,11 +2813,6 @@ get
 (
 )
 genericDataWrapper
-sizeof
-(
-nsIInputStream
-*
-)
 )
 ;
 free
@@ -3237,7 +3230,6 @@ get
 (
 )
 genericDataWrapper
-dataLength
 )
 ;
 free

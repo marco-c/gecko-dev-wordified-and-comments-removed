@@ -306,16 +306,6 @@ SetTransferData
 (
 kUnicodeMime
 nsisupportsDataWrapper
-buffer
-.
-Length
-(
-)
-*
-sizeof
-(
-char16_t
-)
 )
 ;
 NS_ENSURE_SUCCESS

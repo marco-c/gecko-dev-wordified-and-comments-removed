@@ -35592,11 +35592,6 @@ SetTransferData
 (
 kFilePromiseDirectoryMime
 macLocalFile
-sizeof
-(
-nsIFile
-*
-)
 )
 ;
 /

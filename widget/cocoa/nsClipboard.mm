@@ -1462,7 +1462,6 @@ get
 (
 )
 genericDataWrapper
-dataLength
 )
 ;
 free
@@ -1604,7 +1603,6 @@ get
 (
 )
 genericDataWrapper
-dataLength
 )
 ;
 free
@@ -2063,11 +2061,6 @@ get
 (
 )
 byteStream
-sizeof
-(
-nsIInputStream
-*
-)
 )
 ;
 }
@@ -2361,7 +2354,6 @@ get
 (
 )
 dataSupports
-0
 )
 ;
 return

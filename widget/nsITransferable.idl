@@ -1405,10 +1405,6 @@ aFlavor
 in
 nsISupports
 aData
-in
-unsigned
-long
-aDataLen
 )
 ;
 /
