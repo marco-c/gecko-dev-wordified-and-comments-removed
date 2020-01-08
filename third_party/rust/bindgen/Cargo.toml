@@ -120,9 +120,9 @@ version
 "
 0
 .
-44
+43
 .
-0
+2
 "
 authors
 =
@@ -242,6 +242,8 @@ https
 rust
 -
 lang
+-
+nursery
 .
 github
 .
@@ -329,6 +331,8 @@ com
 rust
 -
 lang
+-
+nursery
 /
 rust
 -
@@ -512,7 +516,15 @@ version
 "
 0
 .
-4
+3
+.
+2
+<
+0
+.
+3
+.
+6
 "
 default
 -
@@ -529,7 +541,7 @@ version
 "
 0
 .
-6
+5
 "
 default
 -
@@ -556,9 +568,11 @@ which
 version
 =
 "
-2
+1
 .
 0
+.
+2
 "
 [
 dev
@@ -661,6 +675,8 @@ repository
 rust
 -
 lang
+-
+nursery
 /
 rust
 -
