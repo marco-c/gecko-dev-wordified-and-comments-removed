@@ -40,10 +40,6 @@ stop
 :
 {
 }
-getScreenshot
-:
-{
-}
 zoom
 :
 {
