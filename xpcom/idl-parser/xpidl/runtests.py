@@ -870,7 +870,7 @@ params
 realtype
 xpidl
 .
-Array
+LegacyArray
 )
 )
         
