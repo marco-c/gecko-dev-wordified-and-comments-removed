@@ -164,7 +164,9 @@ activeTab
 .
 navigateTo
 (
+{
 url
+}
 )
 )
 ;

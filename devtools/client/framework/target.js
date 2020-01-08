@@ -2920,9 +2920,13 @@ activeTab
 .
 logInPage
 (
+{
 text
 category
+flags
+:
 errorFlag
+}
 )
 ;
 }
@@ -2962,9 +2966,13 @@ activeTab
 .
 logInPage
 (
+{
 text
 category
+flags
+:
 warningFlag
+}
 )
 ;
 }
