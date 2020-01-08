@@ -7546,6 +7546,7 @@ JS
 FormatStackDump
 (
 cx
+nullptr
 false
 false
 false

@@ -1801,8 +1801,7 @@ skipStackHits
 0
 )
 ;
-JSString
-*
+UniqueChars
 DecompileArgument
 (
 JSContext

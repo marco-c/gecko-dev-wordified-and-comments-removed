@@ -119,15 +119,6 @@ include
 "
 js
 /
-CharacterEncoding
-.
-h
-"
-#
-include
-"
-js
-/
 Conversions
 .
 h
@@ -4175,10 +4166,8 @@ return
 false
 ;
 }
-UniqueChars
+JSAutoByteString
 numBytes
-=
-JS_EncodeStringToLatin1
 (
 cx
 str
@@ -4199,7 +4188,7 @@ num
 =
 numBytes
 .
-get
+ptr
 (
 )
 ;
