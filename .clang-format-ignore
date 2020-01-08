@@ -404,6 +404,15 @@ rust
 mp4parse
 .
 h
+security
+/
+manager
+/
+ssl
+/
+StaticHPKPins
+.
+h
 widget
 /
 gtk
