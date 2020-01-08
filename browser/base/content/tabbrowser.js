@@ -11598,7 +11598,7 @@ let
 lastToClose
 ;
 let
-aParams
+params
 =
 {
 animate
@@ -11620,10 +11620,12 @@ tab
 .
 selected
 )
+{
 lastToClose
 =
 tab
 ;
+}
 else
 if
 (
@@ -11634,6 +11636,7 @@ _hasBeforeUnload
 tab
 )
 )
+{
 tabsWithBeforeUnload
 .
 push
@@ -11641,15 +11644,18 @@ push
 tab
 )
 ;
+}
 else
+{
 this
 .
 removeTab
 (
 tab
-aParams
+params
 )
 ;
+}
 }
 for
 (
@@ -11664,7 +11670,7 @@ this
 removeTab
 (
 tab
-aParams
+params
 )
 ;
 }
@@ -11678,7 +11684,7 @@ this
 removeTab
 (
 lastToClose
-aParams
+params
 )
 ;
 }
