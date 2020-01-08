@@ -35374,14 +35374,6 @@ HTMLMediaElement
 this
 )
 sinkId
-=
-std
-:
-:
-move
-(
-sinkId
-)
 ]
 (
 const
