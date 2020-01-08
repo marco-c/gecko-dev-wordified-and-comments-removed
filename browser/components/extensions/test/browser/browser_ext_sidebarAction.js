@@ -406,6 +406,16 @@ startup
 (
 )
 ;
+await
+extension
+.
+awaitMessage
+(
+"
+sidebar
+"
+)
+;
 ok
 (
 !
