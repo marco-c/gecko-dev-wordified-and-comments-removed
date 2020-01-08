@@ -1683,6 +1683,10 @@ gtk_target_list_add_image_targets
 )
 STUB
 (
+gtk_target_list_add_text_targets
+)
+STUB
+(
 gtk_target_list_new
 )
 STUB
