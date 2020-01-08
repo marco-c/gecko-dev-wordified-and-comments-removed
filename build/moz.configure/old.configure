@@ -1339,13 +1339,6 @@ datadir
 -
 enable
 -
-accessibility
-'
-'
--
--
-enable
--
 content
 -
 sandbox
