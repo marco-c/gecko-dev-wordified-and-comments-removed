@@ -3013,20 +3013,10 @@ self
 :
         
 return
-bool
-(
 self
 .
-exposureSet
-&
-{
-'
-Window
-'
-'
-BackstagePass
-'
-}
+isExposedInWindow
+(
 )
     
 def
@@ -3037,7 +3027,7 @@ self
 :
         
 return
-bool
+len
 (
 self
 .
@@ -3048,10 +3038,12 @@ exposureSet
 Window
 '
 '
-BackstagePass
+FakeTestPrimaryGlobal
 '
 }
 )
+>
+0
     
 def
 isExposedInAnyWorker
@@ -3109,22 +3101,6 @@ getWorkletExposureSet
 )
 >
 0
-    
-def
-isExposedInSystemGlobals
-(
-self
-)
-:
-        
-return
-'
-BackstagePass
-'
-in
-self
-.
-exposureSet
     
 def
 isExposedInSomeButNotAllWorkers
@@ -45580,25 +45556,6 @@ FakeTestPrimaryGlobal
 [
 "
 FakeTestPrimaryGlobal
-"
-]
-)
-        
-self
-.
-_globalScope
-.
-addIfaceGlobalNames
-(
-"
-BackstagePass
-"
-[
-"
-Window
-"
-"
-System
 "
 ]
 )
