@@ -1082,7 +1082,7 @@ aTabIndex
 {
 if
 (
-nsSVGElement
+SVGGraphicsElement
 :
 :
 IsSVGFocusable
