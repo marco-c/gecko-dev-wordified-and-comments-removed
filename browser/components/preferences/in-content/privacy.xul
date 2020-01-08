@@ -3342,11 +3342,6 @@ content
 blocking
 -
 category
-fast
--
-block
--
-ui
 "
 >
 <
@@ -3461,10 +3456,6 @@ content
 blocking
 -
 fastblock
--
-slow
--
-loading
 -
 label
 "
@@ -3622,11 +3613,6 @@ content
 blocking
 -
 category
-tracking
--
-protection
--
-ui
 "
 >
 <
@@ -3736,8 +3722,6 @@ blocking
 tracking
 -
 protection
--
-all
 -
 label
 "
