@@ -86,7 +86,7 @@ fallible
 ;
 extern
 crate
-fxhash
+fnv
 ;
 #
 [

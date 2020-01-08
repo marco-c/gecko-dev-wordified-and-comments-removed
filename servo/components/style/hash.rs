@@ -1,5 +1,5 @@
 use
-fxhash
+fnv
 ;
 #
 [
@@ -125,7 +125,7 @@ Iter
 }
 pub
 type
-FxHashMap
+FnvHashMap
 <
 K
 V
@@ -135,15 +135,15 @@ HashMap
 <
 K
 V
-fxhash
+fnv
 :
 :
-FxBuildHasher
+FnvBuildHasher
 >
 ;
 pub
 type
-FxHashSet
+FnvHashSet
 <
 T
 >
@@ -151,9 +151,9 @@ T
 HashSet
 <
 T
-fxhash
+fnv
 :
 :
-FxBuildHasher
+FnvBuildHasher
 >
 ;

@@ -1,8 +1,8 @@
 use
-fxhash
+fnv
 :
 :
-FxHashMap
+FnvHashMap
 ;
 use
 logical_geometry
@@ -293,7 +293,7 @@ RuleCache
 {
 map
 :
-FxHashMap
+FnvHashMap
 <
 StrongRuleNode
 SmallVec
@@ -328,7 +328,7 @@ Self
 {
 map
 :
-FxHashMap
+FnvHashMap
 :
 :
 default

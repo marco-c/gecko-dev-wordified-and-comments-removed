@@ -1,8 +1,8 @@
 use
-fxhash
+fnv
 :
 :
-FxHasher
+FnvHasher
 ;
 use
 std
@@ -1176,7 +1176,7 @@ let
 mut
 hasher
 =
-FxHasher
+FnvHasher
 :
 :
 default

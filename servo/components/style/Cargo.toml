@@ -289,12 +289,12 @@ path
 fallible
 "
 }
-fxhash
+fnv
 =
 "
-0
+1
 .
-2
+0
 "
 hashglobe
 =

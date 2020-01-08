@@ -28,10 +28,10 @@ TNode
 }
 ;
 use
-fxhash
+fnv
 :
 :
-FxHashSet
+FnvHashSet
 ;
 use
 invalidation
@@ -425,13 +425,13 @@ StylesheetInvalidationSet
 {
 invalid_scopes
 :
-FxHashSet
+FnvHashSet
 <
 Invalidation
 >
 invalid_elements
 :
-FxHashSet
+FnvHashSet
 <
 Invalidation
 >
@@ -455,7 +455,7 @@ Self
 {
 invalid_scopes
 :
-FxHashSet
+FnvHashSet
 :
 :
 default
@@ -463,7 +463,7 @@ default
 )
 invalid_elements
 :
-FxHashSet
+FnvHashSet
 :
 :
 default

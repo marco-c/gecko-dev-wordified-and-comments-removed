@@ -36,10 +36,10 @@ fallible
 FallibleVec
 ;
 use
-fxhash
+fnv
 :
 :
-FxHashMap
+FnvHashMap
 ;
 use
 invalidation
@@ -246,7 +246,7 @@ Namespace
 pub
 prefixes
 :
-FxHashMap
+FnvHashMap
 <
 Prefix
 Namespace

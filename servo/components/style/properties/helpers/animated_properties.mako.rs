@@ -234,7 +234,7 @@ use
 hash
 :
 :
-FxHashMap
+FnvHashMap
 ;
 use
 super
@@ -1824,7 +1824,7 @@ pub
 type
 AnimationValueMap
 =
-FxHashMap
+FnvHashMap
 <
 LonghandId
 AnimationValue
