@@ -1423,6 +1423,22 @@ self
 )
 :
         
+if
+self
+.
+config
+[
+'
+app
+'
+]
+=
+=
+"
+firefox
+"
+:
+            
 self
 .
 install_mitmproxy_cert
@@ -1430,13 +1446,11 @@ install_mitmproxy_cert
 self
 .
 mitmproxy_proc
-                                    
+                                        
 self
 .
 browser_path
 )
-        
-return
     
 def
 start
@@ -2503,6 +2517,22 @@ playback
 "
 "
         
+if
+self
+.
+config
+[
+'
+app
+'
+]
+=
+=
+"
+firefox
+"
+:
+            
 LOG
 .
 info
@@ -2515,7 +2545,7 @@ browser
 proxy
 "
 )
-        
+            
 write_autoconfig_files
 (
 fx_install_dir
@@ -2523,7 +2553,7 @@ fx_install_dir
 self
 .
 browser_install
-                               
+                                   
 cfg_contents
 =
 MITMPROXY_OFF_SETTINGS
