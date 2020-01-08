@@ -171,6 +171,12 @@ mAllowOverlayScrollbarsOverlap
 bool
 mAllowOverlayScrollbarsOverlapCached
 ;
+int32_t
+mPrefersReducedMotion
+;
+bool
+mPrefersReducedMotionCached
+;
 nscolor
 mColorTextSelectBackground
 ;
