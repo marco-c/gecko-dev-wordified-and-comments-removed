@@ -9414,6 +9414,12 @@ mozilla
 .
 com
 "
+"
+erahm
+mozilla
+.
+com
+"
 ]
 "
 bug_numbers
@@ -9421,6 +9427,7 @@ bug_numbers
 :
 [
 1198209
+1511918
 ]
 "
 expires_in_version
@@ -9464,6 +9471,15 @@ Processes
 (
 KB
 )
+"
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
 "
 }
 "
