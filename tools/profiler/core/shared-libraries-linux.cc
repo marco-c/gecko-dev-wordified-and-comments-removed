@@ -415,7 +415,7 @@ GP_OS_android
 )
 if
 (
-nsCString
+nsDependentCString
 (
 bin_name
 )
