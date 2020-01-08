@@ -151,6 +151,17 @@ JitFrameLayout
 FrameType
 :
 :
+JSJitToWasm
+'
+:
+'
+JitFrameLayout
+'
+    
+'
+FrameType
+:
+:
 Rectifier
 '
 :
@@ -279,7 +290,31 @@ long
 (
 gdb
 .
-parse_and_eval
+lookup_symbol
+(
+name
+)
+[
+0
+]
+.
+value
+(
+)
+)
+    
+def
+jit_value
+(
+self
+name
+)
+:
+        
+return
+self
+.
+value
 (
 '
 js
@@ -291,7 +326,6 @@ jit
 '
 +
 name
-)
 )
     
 def
@@ -323,7 +357,7 @@ FRAMETYPE_MASK
 <
 self
 .
-value
+jit_value
 (
 '
 FRAMETYPE_BITS
@@ -344,7 +378,7 @@ FRAMESIZE_SHIFT
 =
 self
 .
-value
+jit_value
 (
 '
 FRAMESIZE_SHIFT
@@ -362,7 +396,7 @@ FRAME_HEADER_SIZE_SHIFT
 =
 self
 .
-value
+jit_value
 (
 '
 FRAME_HEADER_SIZE_SHIFT
@@ -380,7 +414,7 @@ FRAME_HEADER_SIZE_MASK
 =
 self
 .
-value
+jit_value
 (
 '
 FRAME_HEADER_SIZE_MASK
@@ -539,7 +573,7 @@ CalleeToken_Function
 =
 self
 .
-value
+jit_value
 (
 "
 CalleeToken_Function
@@ -557,8 +591,9 @@ CalleeToken_FunctionConstructing
 =
 self
 .
-value
+jit_value
 (
+            
 "
 CalleeToken_FunctionConstructing
 "
@@ -575,7 +610,7 @@ CalleeToken_Script
 =
 self
 .
-value
+jit_value
 (
 "
 CalleeToken_Script
@@ -656,11 +691,9 @@ SOURCE_SLOT
 '
 ]
 =
-long
-(
-gdb
+self
 .
-parse_and_eval
+value
 (
 '
 js
@@ -671,7 +704,6 @@ ScriptSourceObject
 :
 SOURCE_SLOT
 '
-)
 )
         
 self
@@ -2788,6 +2820,11 @@ cx
 [
 '
 jitActivation
+'
+]
+[
+'
+value
 '
 ]
         
