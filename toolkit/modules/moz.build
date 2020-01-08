@@ -1659,13 +1659,6 @@ FormData
 jsm
 '
 '
-sessionstore
-/
-ScrollPosition
-.
-jsm
-'
-'
 ShortcutUtils
 .
 jsm
