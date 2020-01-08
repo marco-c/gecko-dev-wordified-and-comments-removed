@@ -7175,6 +7175,10 @@ aRejectedReason
 ;
 }
 else
+if
+(
+sendCookieLoadedNotification
+)
 {
 parentChannel
 -
