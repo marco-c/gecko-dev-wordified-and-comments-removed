@@ -424,6 +424,10 @@ nsIFrame
 *
 *
 aReturnFrame
+nsIFrame
+*
+*
+aReturnUnadjustedFrame
 int32_t
 *
 aReturnOffset
@@ -465,6 +469,12 @@ aOverrideOffset
 int32_t
 *
 aFrameOffset
+nsIFrame
+*
+*
+aUnadjustedFrame
+=
+nullptr
 )
 ;
 size_t
