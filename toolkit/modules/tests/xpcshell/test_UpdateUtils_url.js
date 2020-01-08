@@ -626,6 +626,14 @@ wProcessorArchitecture
 )
 {
 case
+12
+:
+return
+"
+aarch64
+"
+;
+case
 9
 :
 return
