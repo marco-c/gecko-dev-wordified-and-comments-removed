@@ -56,15 +56,6 @@ h
 #
 include
 "
-js
-/
-AutoByteString
-.
-h
-"
-#
-include
-"
 util
 /
 StringBuffer
@@ -8215,7 +8206,7 @@ bi
 +
 )
 {
-JSAutoByteString
+UniqueChars
 bytes
 ;
 if
@@ -8254,7 +8245,7 @@ kind
 )
 bytes
 .
-ptr
+get
 (
 )
 )

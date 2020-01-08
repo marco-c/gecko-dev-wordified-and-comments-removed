@@ -36,9 +36,6 @@ JSContext
 .
 h
 "
-class
-JSAutoByteString
-;
 namespace
 js
 {
@@ -478,7 +475,10 @@ JSContext
 cx
 HandleValue
 val
-JSAutoByteString
+JS
+:
+:
+UniqueChars
 &
 bytes
 )

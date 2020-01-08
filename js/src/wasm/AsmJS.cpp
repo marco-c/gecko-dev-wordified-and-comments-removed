@@ -103,15 +103,6 @@ include
 "
 js
 /
-AutoByteString
-.
-h
-"
-#
-include
-"
-js
-/
 MemoryMetrics
 .
 h
@@ -10244,7 +10235,7 @@ suppress
 cx_
 )
 ;
-JSAutoByteString
+UniqueChars
 bytes
 ;
 if
@@ -10263,7 +10254,7 @@ offset
 fmt
 bytes
 .
-ptr
+get
 (
 )
 )

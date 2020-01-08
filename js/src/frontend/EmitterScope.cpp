@@ -28,15 +28,6 @@ h
 #
 include
 "
-js
-/
-AutoByteString
-.
-h
-"
-#
-include
-"
 vm
 /
 GlobalObject
@@ -2262,7 +2253,7 @@ value
 (
 )
 ;
-JSAutoByteString
+UniqueChars
 bytes
 ;
 if
@@ -2325,7 +2316,7 @@ bindingKind
 )
 bytes
 .
-ptr
+get
 (
 )
 )
@@ -2340,7 +2331,7 @@ s
 "
 bytes
 .
-ptr
+get
 (
 )
 )

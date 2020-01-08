@@ -145,9 +145,6 @@ Printer
 h
 "
 class
-JSAutoByteString
-;
-class
 JSDependentString
 ;
 class
@@ -7452,7 +7449,7 @@ cx
 const
 Value
 &
-JSAutoByteString
+UniqueChars
 *
 bytes
 bool
@@ -7473,7 +7470,7 @@ cx
 const
 Value
 &
-JSAutoByteString
+UniqueChars
 *
 bytes
 bool
