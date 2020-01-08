@@ -10,6 +10,8 @@ test
 Symbol
 (
 )
+{
+}
 ]
 ;
 for

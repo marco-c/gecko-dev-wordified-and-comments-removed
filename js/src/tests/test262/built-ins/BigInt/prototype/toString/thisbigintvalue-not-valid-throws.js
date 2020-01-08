@@ -9,6 +9,17 @@ toString
 ;
 assert
 .
+sameValue
+(
+typeof
+toString
+'
+function
+'
+)
+;
+assert
+.
 throws
 (
 TypeError

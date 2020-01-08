@@ -42,6 +42,7 @@ Object
 getOwnPropertyDescriptor
 (
 t
+prop
 )
 ;
 }

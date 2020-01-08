@@ -142,11 +142,9 @@ leaving
 .
 agent
 .
-broadcast
+safeBroadcast
 (
 i64a
-.
-buffer
 )
 ;
 262

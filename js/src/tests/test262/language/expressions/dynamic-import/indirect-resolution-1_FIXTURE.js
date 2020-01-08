@@ -3,6 +3,8 @@ default
 import
 (
 '
+.
+/
 indirect
 -
 resolution

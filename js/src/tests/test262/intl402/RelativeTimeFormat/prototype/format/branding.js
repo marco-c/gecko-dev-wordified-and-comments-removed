@@ -1,5 +1,5 @@
 const
-fn
+format
 =
 Intl
 .
@@ -11,6 +11,17 @@ format
 ;
 assert
 .
+sameValue
+(
+typeof
+format
+"
+function
+"
+)
+;
+assert
+.
 throws
 (
 TypeError
@@ -18,7 +29,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (
@@ -38,7 +49,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (
@@ -58,7 +69,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (
@@ -78,7 +89,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (
@@ -100,7 +111,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (
@@ -122,7 +133,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (
@@ -142,7 +153,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (
@@ -164,7 +175,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (
@@ -188,7 +199,7 @@ TypeError
 )
 =
 >
-fn
+format
 .
 call
 (

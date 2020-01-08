@@ -42,6 +42,8 @@ test
 Symbol
 (
 )
+{
+}
 ]
 ;
 for

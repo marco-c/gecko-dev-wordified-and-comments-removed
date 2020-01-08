@@ -127,8 +127,6 @@ iter
 .
 following
 (
-0
-|
 input
 )
 false

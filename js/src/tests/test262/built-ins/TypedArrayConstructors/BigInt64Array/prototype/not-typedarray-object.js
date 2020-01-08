@@ -1,5 +1,16 @@
 assert
 .
+sameValue
+(
+typeof
+BigInt64Array
+'
+function
+'
+)
+;
+assert
+.
 throws
 (
 TypeError

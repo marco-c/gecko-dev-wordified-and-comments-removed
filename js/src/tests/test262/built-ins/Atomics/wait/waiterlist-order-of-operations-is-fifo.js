@@ -218,11 +218,9 @@ BYTES_PER_ELEMENT
 .
 agent
 .
-broadcast
+safeBroadcast
 (
 i32a
-.
-buffer
 )
 ;
 262
