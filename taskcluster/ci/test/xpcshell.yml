@@ -284,6 +284,13 @@ ccov
 debug
 :
 8
+macosx64
+-
+ccov
+/
+debug
+:
+8
 default
 :
 8

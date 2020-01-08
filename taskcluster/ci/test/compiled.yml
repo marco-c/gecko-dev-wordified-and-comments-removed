@@ -394,6 +394,13 @@ macosx
 *
 :
 1
+macosx64
+-
+ccov
+/
+debug
+:
+4
 android
 -
 em
@@ -434,6 +441,13 @@ platform
 windows10
 -
 64
+-
+ccov
+/
+debug
+:
+7200
+macosx64
 -
 ccov
 /
