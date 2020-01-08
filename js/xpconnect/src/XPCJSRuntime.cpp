@@ -603,6 +603,15 @@ Infinity
 "
 NaN
 "
+"
+classId
+"
+"
+interfaceId
+"
+"
+initializer
+"
 }
 ;
 class

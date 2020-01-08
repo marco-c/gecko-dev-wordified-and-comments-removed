@@ -107,9 +107,6 @@ class
 nsXPCComponents_Utils
 ;
 class
-nsXPCConstructor
-;
-class
 AutoMarkingPtr
 ;
 class
