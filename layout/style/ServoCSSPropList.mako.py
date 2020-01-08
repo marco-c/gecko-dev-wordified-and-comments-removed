@@ -322,6 +322,10 @@ BackgroundSize
 "
     
 "
+BorderImageRepeat
+"
+    
+"
 Clear
 "
     

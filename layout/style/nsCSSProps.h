@@ -1256,13 +1256,6 @@ es_
 static
 const
 KTableEntry
-kBorderImageRepeatKTable
-[
-]
-;
-static
-const
-KTableEntry
 kBorderStyleKTable
 [
 ]

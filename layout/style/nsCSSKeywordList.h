@@ -717,13 +717,6 @@ manipulation
 )
 CSS_KEY
 (
-match
--
-parent
-match_parent
-)
-CSS_KEY
-(
 matrix
 matrix
 )
@@ -900,11 +893,6 @@ proximity
 )
 CSS_KEY
 (
-repeat
-repeat
-)
-CSS_KEY
-(
 ridge
 ridge
 )
@@ -937,11 +925,6 @@ CSS_KEY
 (
 rotatez
 rotatez
-)
-CSS_KEY
-(
-round
-round
 )
 CSS_KEY
 (
@@ -1350,9 +1333,4 @@ zoom
 -
 out
 zoom_out
-)
-CSS_KEY
-(
-space
-space
 )

@@ -1473,14 +1473,6 @@ already_AddRefed
 <
 CSSValue
 >
-DoGetBorderImageRepeat
-(
-)
-;
-already_AddRefed
-<
-CSSValue
->
 DoGetBoxShadow
 (
 )
