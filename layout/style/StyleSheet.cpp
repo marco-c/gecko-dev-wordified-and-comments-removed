@@ -4382,6 +4382,8 @@ aLoader
 GetCompatibilityMode
 (
 )
+!
+!
 useCounters
 )
 ;

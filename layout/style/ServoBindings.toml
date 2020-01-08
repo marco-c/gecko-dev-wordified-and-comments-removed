@@ -3534,6 +3534,9 @@ RefPtr
 RustString
 "
 "
+StyleUseCounters
+"
+"
 CSSPseudoElementType
 "
 "
@@ -3916,6 +3919,16 @@ name
 =
 "
 RawServoSourceSizeList
+"
+opaque
+=
+false
+}
+{
+name
+=
+"
+StyleUseCounters
 "
 opaque
 =
