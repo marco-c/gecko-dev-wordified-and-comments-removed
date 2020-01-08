@@ -2994,6 +2994,16 @@ True
 "
 browser
 .
+newtabpage
+.
+enabled
+"
+:
+False
+        
+"
+browser
+.
 pagethumbnails
 .
 capturing_disabled
