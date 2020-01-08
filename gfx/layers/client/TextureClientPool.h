@@ -143,6 +143,8 @@ TextureClientPool
 (
 LayersBackend
 aBackend
+bool
+aSupportsTextureDirectMapping
 int32_t
 aMaxTextureSize
 gfx
@@ -360,6 +362,9 @@ mSurfaceAllocator
 ;
 bool
 mDestroyed
+;
+bool
+mSupportsTextureDirectMapping
 ;
 }
 ;
