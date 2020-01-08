@@ -1338,8 +1338,11 @@ gBrowser
 loadTabs
 (
 uris
+{
+inBackground
+:
 true
-false
+}
 )
 ;
 await
