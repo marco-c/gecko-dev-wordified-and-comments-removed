@@ -1379,15 +1379,6 @@ aOffset
 )
 ;
 void
-CopyScrollInfoFrom
-(
-const
-FrameMetrics
-&
-aFrameMetrics
-)
-;
-void
 ScaleWithFocus
 (
 float

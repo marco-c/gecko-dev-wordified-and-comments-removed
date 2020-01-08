@@ -330,6 +330,16 @@ Nothing
 nullptr
 )
 ;
+asr
+-
+>
+mScrollableFrame
+-
+>
+NotifyApzTransaction
+(
+)
+;
 MOZ_ASSERT
 (
 metadata

@@ -24983,6 +24983,13 @@ mParameters
 clip
 )
 ;
+scrollFrame
+-
+>
+NotifyApzTransaction
+(
+)
+;
 mCachedScrollMetadata
 .
 mASR
