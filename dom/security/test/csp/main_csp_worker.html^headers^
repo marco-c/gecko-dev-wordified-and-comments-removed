@@ -8,5 +8,12 @@ default
 -
 src
 '
-none
+self
+'
+blob
+:
+'
+unsafe
+-
+inline
 '
