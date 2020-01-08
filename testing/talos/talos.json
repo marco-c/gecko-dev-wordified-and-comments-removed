@@ -483,8 +483,15 @@ c
 /
 Program
 Files
+(
+x86
+)
 /
-Microsoft
+Windows
+Kits
+/
+10
+/
 Windows
 Performance
 Toolkit
