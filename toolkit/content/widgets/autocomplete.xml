@@ -1652,7 +1652,7 @@ TEXTVALUE_REASON_COMPLETEDEFAULT
 {
 this
 .
-_disableTrim
+_textValueSetByCompleteDefault
 =
 true
 ;
@@ -1665,7 +1665,7 @@ aValue
 ;
 this
 .
-_disableTrim
+_textValueSetByCompleteDefault
 =
 false
 ;
@@ -1761,7 +1761,14 @@ onBeforeTextValueSet
 "
 function
 "
+&
+&
+!
+this
+.
+_textValueSetByCompleteDefault
 )
+{
 val
 =
 this
@@ -1771,6 +1778,7 @@ onBeforeTextValueSet
 val
 )
 ;
+}
 this
 .
 value
@@ -2415,7 +2423,7 @@ field
 name
 =
 "
-_disableTrim
+_textValueSetByCompleteDefault
 "
 >
 false
@@ -2536,7 +2544,7 @@ function
 !
 this
 .
-_disableTrim
+_textValueSetByCompleteDefault
 )
 val
 =
