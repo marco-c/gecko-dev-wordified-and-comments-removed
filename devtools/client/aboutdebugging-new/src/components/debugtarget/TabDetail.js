@@ -114,6 +114,8 @@ props
 .
 target
 .
+details
+.
 url
 )
 ;

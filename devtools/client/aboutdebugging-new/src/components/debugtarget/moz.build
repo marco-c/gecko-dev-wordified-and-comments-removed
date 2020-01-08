@@ -71,6 +71,11 @@ TabDetail
 js
 '
 '
+TemporaryExtensionAction
+.
+js
+'
+'
 TemporaryExtensionInstaller
 .
 js
