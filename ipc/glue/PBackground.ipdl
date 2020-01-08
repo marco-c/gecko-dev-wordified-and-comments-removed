@@ -70,6 +70,10 @@ PBackgroundIndexedDBUtils
 ;
 include
 protocol
+PBackgroundSDBConnection
+;
+include
+protocol
 PBackgroundLocalStorageCache
 ;
 include
@@ -331,6 +335,9 @@ manages
 PBackgroundIndexedDBUtils
 ;
 manages
+PBackgroundSDBConnection
+;
+manages
 PBackgroundLocalStorageCache
 ;
 manages
@@ -465,6 +472,13 @@ testing
 async
 FlushPendingFileDeletions
 (
+)
+;
+async
+PBackgroundSDBConnection
+(
+PrincipalInfo
+principalInfo
 )
 ;
 async

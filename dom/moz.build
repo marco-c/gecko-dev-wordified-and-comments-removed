@@ -428,6 +428,9 @@ websocket
 '
 serviceworkers
 '
+'
+simpledb
+'
 ]
 if
 CONFIG
