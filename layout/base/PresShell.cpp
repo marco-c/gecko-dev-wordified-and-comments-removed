@@ -18434,6 +18434,13 @@ FlushPendingMediaFeatureValuesChanged
 (
 )
 ;
+mStyleSet
+-
+>
+UpdateStylistIfNeeded
+(
+)
+;
 mDocument
 -
 >

@@ -5905,8 +5905,12 @@ BuildFontFeatureValueSet
 (
 )
 {
-UpdateStylistIfNeeded
+MOZ_ASSERT
 (
+!
+StylistNeedsUpdate
+(
+)
 )
 ;
 RefPtr
