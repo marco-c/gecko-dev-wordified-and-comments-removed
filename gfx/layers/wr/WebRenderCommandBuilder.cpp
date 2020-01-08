@@ -6648,6 +6648,17 @@ case
 DisplayItemType
 :
 :
+TYPE_FOREIGN_OBJECT
+:
+{
+return
+true
+;
+}
+case
+DisplayItemType
+:
+:
 TYPE_WRAP_LIST
 :
 case

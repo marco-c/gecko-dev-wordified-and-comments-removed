@@ -844,6 +844,8 @@ wr
 usize
 mDumpIndent
 ;
+public
+:
 bool
 mDoGrouping
 ;
