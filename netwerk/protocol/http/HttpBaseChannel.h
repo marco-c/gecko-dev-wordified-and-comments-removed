@@ -1754,6 +1754,12 @@ aTimeStamp
 )
 override
 ;
+NS_IMETHOD
+CancelForTrackingProtection
+(
+)
+override
+;
 inline
 void
 CleanRedirectCacheChainIfNecessary
