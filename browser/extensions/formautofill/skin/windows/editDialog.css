@@ -1,4 +1,7 @@
 #
+controlsContainer
+>
+#
 save
 {
 order
@@ -6,6 +9,9 @@ order
 0
 ;
 }
+#
+controlsContainer
+>
 #
 cancel
 {
