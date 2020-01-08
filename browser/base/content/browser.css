@@ -4266,6 +4266,12 @@ not
 :
 hover
 )
+:
+not
+(
+.
+aliasOffer
+)
 >
 .
 ac
@@ -4294,6 +4300,12 @@ not
 (
 :
 hover
+)
+:
+not
+(
+.
+aliasOffer
 )
 >
 .
