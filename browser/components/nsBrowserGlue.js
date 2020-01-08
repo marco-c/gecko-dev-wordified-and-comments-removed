@@ -4263,6 +4263,8 @@ _openPreferences
 (
 "
 privacy
+-
+permissions
 "
 {
 origin
