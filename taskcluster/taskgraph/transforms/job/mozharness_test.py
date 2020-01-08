@@ -495,8 +495,6 @@ workspace
 /
 build
 /
-upload
-/
 logs
 /
 "
