@@ -1512,6 +1512,8 @@ aQuotaInfo
 .
 mOrigin
 bodyFile
+-
+1
 &
 fileSize
 )

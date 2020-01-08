@@ -1608,6 +1608,12 @@ jsurl
 *
 dom
 /
+localstorage
+/
+*
+*
+dom
+/
 manifest
 /
 *
