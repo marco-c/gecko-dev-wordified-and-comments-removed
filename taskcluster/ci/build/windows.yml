@@ -1364,7 +1364,7 @@ run
 -
 time
 :
-10800
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -1572,7 +1572,7 @@ run
 -
 time
 :
-10800
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -3975,7 +3975,7 @@ run
 -
 time
 :
-10800
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -4206,7 +4206,7 @@ run
 -
 time
 :
-10800
+7200
 env
 :
 TOOLTOOL_MANIFEST
@@ -5239,7 +5239,7 @@ linux64
 -
 clang
 -
-7
+trunk
 -
 mingw
 -
@@ -5438,7 +5438,7 @@ linux64
 -
 clang
 -
-7
+trunk
 -
 mingw
 -
@@ -5629,7 +5629,7 @@ linux64
 -
 clang
 -
-7
+trunk
 -
 mingw
 -
@@ -5828,7 +5828,7 @@ linux64
 -
 clang
 -
-7
+trunk
 -
 mingw
 -

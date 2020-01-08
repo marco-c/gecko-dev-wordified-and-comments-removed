@@ -543,7 +543,7 @@ linux64
 -
 clang
 -
-7
+trunk
 -
 mingw
 -
@@ -555,7 +555,7 @@ description
 MinGW
 -
 Clang
-7
+Trunk
 x86
 toolchain
 build
@@ -574,9 +574,9 @@ symbol
 :
 TMW
 (
-clang7
+clang
 -
-32
+x86
 )
 tier
 :
@@ -624,7 +624,7 @@ build
 -
 clang
 -
-7
+trunk
 -
 mingw
 .
@@ -662,7 +662,7 @@ clang
 /
 clang
 -
-7
+trunk
 -
 mingw
 .
@@ -709,7 +709,7 @@ linux64
 -
 clang
 -
-7
+trunk
 -
 mingw
 -
@@ -721,8 +721,7 @@ description
 MinGW
 -
 Clang
-7
-Pre
+Trunk
 x64
 toolchain
 build
@@ -741,9 +740,9 @@ symbol
 :
 TMW
 (
-clang7
+clang
 -
-64
+x64
 )
 tier
 :
@@ -791,7 +790,7 @@ build
 -
 clang
 -
-7
+trunk
 -
 mingw
 .
@@ -829,7 +828,7 @@ clang
 /
 clang
 -
-7
+trunk
 -
 mingw
 .
