@@ -1913,12 +1913,6 @@ Android
 -
 4
 )
-fails
--
-if
-(
-webrender
-)
 skip
 -
 if
@@ -1944,11 +1938,6 @@ scrolling
 ref
 .
 html
-#
-bug
-1361720
-for
-webrender
 fuzzy
 -
 if
