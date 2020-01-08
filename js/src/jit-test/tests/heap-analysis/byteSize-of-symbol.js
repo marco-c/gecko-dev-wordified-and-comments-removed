@@ -41,7 +41,7 @@ size
 ?
 16
 :
-24
+16
 ;
 assertEq
 (

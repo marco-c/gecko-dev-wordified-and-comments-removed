@@ -969,8 +969,9 @@ PERMANENT_ATOM_FLAGS
 struct
 Symbol
 {
-uintptr_t
-reserved_
+void
+*
+_1
 ;
 uint32_t
 code_
