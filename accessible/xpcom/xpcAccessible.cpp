@@ -1915,9 +1915,9 @@ Attributes
 attrs
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPersistentProperties
+nsPersistentProperties
 >
 props
 =
