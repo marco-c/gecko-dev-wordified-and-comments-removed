@@ -23494,14 +23494,6 @@ script
 selfHosted
 (
 )
-|
-|
-script
--
->
-isUncompleted
-(
-)
 )
 return
 ;
