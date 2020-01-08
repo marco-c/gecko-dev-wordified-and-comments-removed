@@ -357,11 +357,6 @@ BytecodeAnalysis
 cpp
 '
 '
-C1Spewer
-.
-cpp
-'
-'
 CacheIR
 .
 cpp
