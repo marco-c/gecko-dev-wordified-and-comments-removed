@@ -1936,6 +1936,19 @@ junit
 try
 :
             
+self
+.
+device
+.
+grant_runtime_permissions
+(
+self
+.
+options
+.
+app
+)
+            
 cmd
 =
 self
