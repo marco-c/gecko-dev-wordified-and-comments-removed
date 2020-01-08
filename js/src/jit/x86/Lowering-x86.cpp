@@ -1305,6 +1305,11 @@ false
 }
 if
 (
+constant
+>
+0
+&
+&
 int64_t
 (
 1
