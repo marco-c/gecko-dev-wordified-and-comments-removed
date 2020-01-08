@@ -232,6 +232,15 @@ dom
 label
 (
 {
+className
+:
+"
+js
+-
+runtime
+-
+info
+"
 }
 {
 name
