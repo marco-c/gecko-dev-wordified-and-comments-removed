@@ -2432,7 +2432,7 @@ return
 htmlEditor
 -
 >
-DoTransaction
+DoTransactionInternal
 (
 transaction
 )
@@ -2557,7 +2557,7 @@ return
 htmlEditor
 -
 >
-DoTransaction
+DoTransactionInternal
 (
 transaction
 )

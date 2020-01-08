@@ -695,8 +695,6 @@ AutoSelectionRestorer
 restoreSelectionLater
 (
 *
-selection
-*
 this
 )
 ;
@@ -6428,8 +6426,6 @@ AutoSelectionRestorer
 restoreSelectionLater
 (
 *
-selection
-*
 this
 )
 ;
@@ -7287,8 +7283,6 @@ eNext
 AutoSelectionRestorer
 restoreSelectionLater
 (
-*
-selection
 *
 this
 )

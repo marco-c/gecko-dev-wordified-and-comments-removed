@@ -618,9 +618,6 @@ Element
 >
 InsertBrElementWithTransaction
 (
-Selection
-&
-aSelection
 const
 EditorDOMPointBase
 <
@@ -638,9 +635,6 @@ eNone
 nsresult
 ExtendSelectionForDelete
 (
-Selection
-*
-aSelection
 nsIEditor
 :
 :
@@ -722,9 +716,6 @@ virtual
 nsresult
 SelectEntireDocument
 (
-Selection
-*
-aSelection
 )
 override
 ;
