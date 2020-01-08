@@ -78,6 +78,15 @@ unittest
 "
 ]
 "
+xpcshell
+"
+:
+[
+"
+xpcshell
+"
+]
+"
 web
 -
 platform
