@@ -5476,9 +5476,11 @@ if
 !
 source
 )
+{
 return
 nullptr
 ;
+}
 return
 EncodeUTF8
 (
@@ -5516,9 +5518,11 @@ if
 !
 funSource
 )
+{
 return
 nullptr
 ;
+}
 return
 EncodeUTF8
 (
@@ -5562,9 +5566,11 @@ if
 !
 posSource
 )
+{
 return
 nullptr
 ;
+}
 return
 EncodeUTF8
 (

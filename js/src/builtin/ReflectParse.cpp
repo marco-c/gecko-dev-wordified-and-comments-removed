@@ -7733,6 +7733,7 @@ isNull
 (
 )
 )
+{
 return
 callback
 (
@@ -7742,6 +7743,7 @@ pos
 dst
 )
 ;
+}
 return
 newNode
 (

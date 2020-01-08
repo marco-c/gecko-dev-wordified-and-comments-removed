@@ -2650,9 +2650,11 @@ byteOffset
 <
 memLen
 )
+{
 return
 0
 ;
+}
 }
 else
 {
@@ -3106,10 +3108,12 @@ srcOffset
 <
 tableLen
 )
+{
 return
 0
 ;
 }
+}
 else
 {
 CheckedU32
@@ -3198,6 +3202,7 @@ i
 -
 -
 )
+{
 table
 -
 >
@@ -3219,6 +3224,7 @@ i
 )
 )
 ;
+}
 }
 else
 if
@@ -3243,6 +3249,7 @@ i
 +
 +
 )
+{
 table
 -
 >
@@ -3256,6 +3263,7 @@ srcOffset
 i
 )
 ;
+}
 }
 return
 0

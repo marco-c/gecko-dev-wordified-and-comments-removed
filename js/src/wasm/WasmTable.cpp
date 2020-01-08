@@ -679,6 +679,7 @@ dst
 .
 tls
 )
+{
 JSObject
 :
 :
@@ -697,6 +698,7 @@ objectUnbarriered
 )
 )
 ;
+}
 ExternalTableElem
 &
 src

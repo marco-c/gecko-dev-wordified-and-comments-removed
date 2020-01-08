@@ -4366,6 +4366,7 @@ if
 (
 tokenizer_
 )
+{
 tokenizer_
 -
 >
@@ -4374,6 +4375,7 @@ traceMetadata
 trc
 )
 ;
+}
 }
 template
 class

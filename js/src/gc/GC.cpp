@@ -19664,6 +19664,7 @@ rt
 >
 parentRuntime
 )
+{
 HelperThreadState
 (
 )
@@ -19672,6 +19673,7 @@ triggerFreeUnusedMemory
 (
 )
 ;
+}
 }
 bool
 GCRuntime

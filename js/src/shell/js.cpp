@@ -23399,9 +23399,11 @@ if
 !
 strArg
 )
+{
 return
 false
 ;
+}
 #
 define
 JIT_COMPILER_MATCH
@@ -23499,11 +23501,13 @@ number
 <
 0
 )
+{
 number
 =
 -
 1
 ;
+}
 if
 (
 (
@@ -27270,9 +27274,11 @@ isErr
 (
 )
 )
+{
 return
 false
 ;
+}
 #
 ifdef
 DEBUG

@@ -130,10 +130,12 @@ if
 !
 ptr
 )
+{
 abort
 (
 )
 ;
+}
 return
 ptr
 ;
@@ -151,10 +153,12 @@ if
 !
 success
 )
+{
 abort
 (
 )
 ;
+}
 }
 void
 reportWarning

@@ -2783,8 +2783,10 @@ active
 (
 )
 )
+{
 continue
 ;
+}
 uint32_t
 tableLength
 =
@@ -2888,8 +2890,10 @@ active
 (
 )
 )
+{
 continue
 ;
+}
 uint32_t
 offset
 =
@@ -3053,8 +3057,10 @@ active
 (
 )
 )
+{
 continue
 ;
+}
 uint32_t
 offset
 =

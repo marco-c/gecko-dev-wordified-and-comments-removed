@@ -2766,6 +2766,7 @@ tz
 >
 linkNameLen
 )
+{
 return
 icu
 :
@@ -2774,6 +2775,7 @@ UnicodeString
 (
 )
 ;
+}
 std
 :
 :
@@ -2838,6 +2840,7 @@ depth
 >
 FollowDepthLimit
 )
+{
 return
 icu
 :
@@ -2846,6 +2849,7 @@ UnicodeString
 (
 )
 ;
+}
 ssize_t
 slen
 =
@@ -2871,6 +2875,7 @@ slen
 =
 linkTargetLen
 )
+{
 return
 icu
 :
@@ -2879,6 +2884,7 @@ UnicodeString
 (
 )
 ;
+}
 size_t
 len
 =
@@ -2979,6 +2985,7 @@ len
 >
 linkNameLen
 )
+{
 return
 icu
 :
@@ -2987,6 +2994,7 @@ UnicodeString
 (
 )
 ;
+}
 std
 :
 :
@@ -3075,8 +3083,10 @@ c
 +
 '
 )
+{
 continue
 ;
+}
 if
 (
 c
@@ -3111,8 +3121,10 @@ i
 /
 '
 )
+{
 continue
 ;
+}
 return
 icu
 :
@@ -3255,6 +3267,7 @@ TZContainsAbsolutePath
 tz
 )
 )
+{
 tzid
 .
 setTo
@@ -3265,6 +3278,7 @@ tzlink
 )
 )
 ;
+}
 #
 endif
 if
