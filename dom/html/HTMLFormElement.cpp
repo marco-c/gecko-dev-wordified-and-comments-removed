@@ -2997,10 +2997,6 @@ OnLinkClickSync
 this
 actionURI
 target
-.
-get
-(
-)
 VoidString
 (
 )
