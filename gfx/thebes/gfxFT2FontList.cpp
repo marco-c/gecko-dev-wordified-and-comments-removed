@@ -7723,7 +7723,7 @@ aSkipSpaceLookupCheck
 {
 AutoTArray
 <
-nsString
+nsCString
 5
 >
 skiplist
@@ -7780,13 +7780,10 @@ aSkipSpaceLookupCheck
 .
 PutEntry
 (
-NS_ConvertUTF16toUTF8
-(
 skiplist
 [
 i
 ]
-)
 )
 ;
 }

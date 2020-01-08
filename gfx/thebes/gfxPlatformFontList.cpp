@@ -1759,7 +1759,7 @@ ApplyWhitelist
 {
 nsTArray
 <
-nsString
+nsCString
 >
 list
 ;
@@ -1825,13 +1825,10 @@ key
 ;
 ToLowerCase
 (
-NS_ConvertUTF16toUTF8
-(
 list
 [
 i
 ]
-)
 key
 )
 ;
@@ -2767,7 +2764,7 @@ PreloadNamesList
 {
 AutoTArray
 <
-nsString
+nsCString
 10
 >
 preloadFonts
@@ -2819,13 +2816,10 @@ key
 ;
 GenerateFontListKey
 (
-NS_ConvertUTF16toUTF8
-(
 preloadFonts
 [
 i
 ]
-)
 key
 )
 ;
@@ -2866,7 +2860,7 @@ LoadBadUnderlineList
 {
 AutoTArray
 <
-nsString
+nsCString
 10
 >
 blacklist
@@ -2916,13 +2910,10 @@ key
 ;
 GenerateFontListKey
 (
-NS_ConvertUTF16toUTF8
-(
 blacklist
 [
 i
 ]
-)
 key
 )
 ;
@@ -4704,7 +4695,7 @@ nullptr
 }
 AutoTArray
 <
-nsString
+nsCString
 4
 >
 names
@@ -4728,7 +4719,8 @@ names
 ;
 for
 (
-nsString
+const
+nsCString
 &
 name
 :
@@ -4741,10 +4733,7 @@ fontFamily
 =
 FindFamily
 (
-NS_ConvertUTF16toUTF8
-(
 name
-)
 )
 ;
 if
@@ -4962,7 +4951,7 @@ return
 }
 AutoTArray
 <
-nsString
+nsCString
 4
 >
 genericFamilies
@@ -5092,8 +5081,6 @@ printf
 %
 s
 "
-NS_ConvertUTF16toUTF8
-(
 aGenericFamilies
 [
 k
@@ -5102,7 +5089,6 @@ k
 >
 Name
 (
-)
 )
 .
 get
@@ -5141,7 +5127,7 @@ aGenericFamilies
 {
 AutoTArray
 <
-nsString
+nsCString
 4
 >
 genericFamilies
@@ -5192,7 +5178,7 @@ GetFontFamiliesFromGenericFamilies
 (
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aGenericNameFamilies
@@ -5213,7 +5199,7 @@ aGenericFamilies
 for
 (
 const
-nsString
+nsCString
 &
 genericFamily
 :
@@ -5244,10 +5230,7 @@ families
 ;
 FindAndAddFamilies
 (
-NS_ConvertUTF16toUTF8
-(
 genericFamily
-)
 &
 families
 FindFamiliesFlags

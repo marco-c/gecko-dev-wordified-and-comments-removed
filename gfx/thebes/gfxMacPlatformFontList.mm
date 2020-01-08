@@ -7449,7 +7449,7 @@ InitSingleFaceList
 {
 AutoTArray
 <
-nsString
+nsCString
 10
 >
 singleFaceFonts
@@ -7473,10 +7473,9 @@ singleFaceFonts
 ;
 for
 (
-const
 auto
 &
-singleFaceFamily
+familyName
 :
 singleFaceFonts
 )
@@ -7498,10 +7497,7 @@ s
 \
 n
 "
-NS_ConvertUTF16toUTF8
-(
-singleFaceFamily
-)
+familyName
 .
 get
 (
@@ -7593,12 +7589,6 @@ Osaka
 Mono
 :
 Osaka
-NS_ConvertUTF16toUTF8
-familyName
-(
-singleFaceFamily
-)
-;
 auto
 colon
 =
