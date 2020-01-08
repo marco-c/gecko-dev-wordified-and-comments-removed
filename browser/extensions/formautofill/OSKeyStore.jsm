@@ -126,15 +126,6 @@ _pendingUnlockPromise
 :
 null
 get
-isEnabled
-(
-)
-{
-return
-true
-;
-}
-get
 isLoggedIn
 (
 )
