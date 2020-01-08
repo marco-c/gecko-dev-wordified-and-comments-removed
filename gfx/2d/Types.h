@@ -92,6 +92,8 @@ A16
 R8G8
 YUV
 NV12
+P016
+P010
 YUV422
 HSV
 Lab
@@ -303,6 +305,18 @@ SurfaceFormat
 :
 :
 NV12
+:
+case
+SurfaceFormat
+:
+:
+P010
+:
+case
+SurfaceFormat
+:
+:
+P016
 :
 case
 SurfaceFormat
