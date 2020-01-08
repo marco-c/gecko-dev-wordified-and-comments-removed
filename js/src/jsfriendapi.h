@@ -7723,17 +7723,6 @@ obj
 ;
 JS_FRIEND_API
 (
-bool
-)
-JS_IsDataViewObject
-(
-JSObject
-*
-obj
-)
-;
-JS_FRIEND_API
-(
 JSObject
 *
 )
