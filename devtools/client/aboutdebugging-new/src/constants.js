@@ -78,6 +78,11 @@ const
 DEBUG_TARGETS
 =
 {
+EXTENSION
+:
+"
+EXTENSION
+"
 TAB
 :
 "
