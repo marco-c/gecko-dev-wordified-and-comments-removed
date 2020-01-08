@@ -2536,7 +2536,7 @@ run
 return
 1
     
-all_tasks
+tg
 =
 generate_tasks
 (
@@ -2547,6 +2547,16 @@ root
 build
 .
 topsrcdir
+)
+    
+all_tasks
+=
+tg
+.
+tasks
+.
+keys
+(
 )
     
 tasks_by_chunks
