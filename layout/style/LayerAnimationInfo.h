@@ -56,7 +56,7 @@ nsCSSPropertyID
 mProperty
 ;
 DisplayItemType
-mLayerType
+mDisplayItemType
 ;
 nsChangeHint
 mChangeHint

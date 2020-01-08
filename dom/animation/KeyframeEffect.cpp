@@ -5295,7 +5295,7 @@ GetPrimaryFrame
 )
 record
 .
-mLayerType
+mDisplayItemType
 )
 ;
 if
