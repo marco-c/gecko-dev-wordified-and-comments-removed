@@ -1069,6 +1069,16 @@ Inner
 mCORSMode
 ;
 }
+void
+SetReferrerPolicy
+(
+net
+:
+:
+ReferrerPolicy
+aReferrerPolicy
+)
+;
 net
 :
 :
