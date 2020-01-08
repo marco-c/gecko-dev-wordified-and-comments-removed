@@ -456,7 +456,7 @@ TimeUnit
 mVideoFrameEndTime
 ;
 uint32_t
-mOldCompositorDroppedCount
+mOldDroppedCount
 ;
 MediaEventListener
 mPushListener
