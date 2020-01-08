@@ -7994,10 +7994,6 @@ return
 false
 ;
 }
-CGSShutdownServerConnections
-(
-)
-;
 if
 (
 Preferences
@@ -8021,6 +8017,10 @@ windowserver
 )
 )
 {
+CGSShutdownServerConnections
+(
+)
+;
 CGError
 result
 =
