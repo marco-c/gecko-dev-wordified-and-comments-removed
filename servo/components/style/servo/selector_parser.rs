@@ -1240,7 +1240,7 @@ true
 }
 pub
 type
-PseudoClassStringArg
+Lang
 =
 Box
 <
@@ -1295,7 +1295,7 @@ Hover
 Indeterminate
 Lang
 (
-PseudoClassStringArg
+Lang
 )
 Link
 PlaceholderShown

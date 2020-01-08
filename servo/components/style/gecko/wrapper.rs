@@ -515,7 +515,7 @@ selector_parser
 {
 AttrValue
 HorizontalDirection
-PseudoClassStringArg
+Lang
 }
 ;
 use
@@ -9441,7 +9441,7 @@ AttrValue
 value
 :
 &
-PseudoClassStringArg
+Lang
 )
 -
 >
