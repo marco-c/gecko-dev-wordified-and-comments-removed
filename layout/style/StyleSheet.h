@@ -1508,6 +1508,15 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
+URLExtraData
+>
+CreateURLExtraData
+(
+)
+const
+;
 protected
 :
 uint32_t

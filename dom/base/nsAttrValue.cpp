@@ -7515,6 +7515,12 @@ URLExtraData
 baseURI
 docURI
 principal
+ownerDoc
+-
+>
+GetReferrerPolicy
+(
+)
 )
 ;
 RefPtr

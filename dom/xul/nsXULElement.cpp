@@ -9006,6 +9006,13 @@ URLExtraData
 aDocumentURI
 aDocumentURI
 principal
+mozilla
+:
+:
+net
+:
+:
+RP_Unset
 )
 ;
 RefPtr

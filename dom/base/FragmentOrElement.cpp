@@ -2236,6 +2236,14 @@ GetDocumentURI
 (
 )
 aSubjectPrincipal
+OwnerDoc
+(
+)
+-
+>
+GetReferrerPolicy
+(
+)
 )
 ;
 }
