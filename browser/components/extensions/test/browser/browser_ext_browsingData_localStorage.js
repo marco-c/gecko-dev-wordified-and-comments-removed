@@ -409,6 +409,17 @@ checkLocalStorageCleared
 "
 )
 ;
+await
+browser
+.
+browsingData
+.
+removeLocalStorage
+(
+{
+}
+)
+;
 browser
 .
 tabs
