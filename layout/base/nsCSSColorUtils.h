@@ -55,8 +55,6 @@ aResult
 2
 ]
 nscolor
-aBackgroundColor
-nscolor
 aBorderColor
 )
 ;
