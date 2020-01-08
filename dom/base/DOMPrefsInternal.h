@@ -54,9 +54,9 @@ DOM_WEBIDL_PREF2
 (
 dom_enable_performance_observer
 )
-DOM_WEBIDL_PREF
+DOM_WEBIDL_PREF2
 (
-SchedulerTimingEnabled
+dom_performance_enable_scheduler_timing
 )
 DOM_UINT32_PREF
 (

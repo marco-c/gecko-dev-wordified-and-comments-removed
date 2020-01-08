@@ -2336,7 +2336,7 @@ Func
 DOMPrefs
 :
 :
-SchedulerTimingEnabled
+dom_performance_enable_scheduler_timing
 "
 ]
 Promise
