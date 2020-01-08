@@ -2026,11 +2026,8 @@ IsReadonly
 {
 content
 =
-do_QueryInterface
-(
 GetRoot
 (
-)
 )
 ;
 return

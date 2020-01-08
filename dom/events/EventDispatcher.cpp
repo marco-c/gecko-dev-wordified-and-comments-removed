@@ -4180,14 +4180,11 @@ EventTarget
 >
 newTarget
 =
-do_QueryInterface
-(
 content
 -
 >
 FindFirstNonChromeOnlyAccessContent
 (
-)
 )
 ;
 NS_ENSURE_STATE

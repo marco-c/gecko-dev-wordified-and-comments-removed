@@ -392,10 +392,7 @@ nsIDocument
 >
 doc
 =
-do_QueryInterface
-(
 document
-)
 ;
 MOZ_ASSERT
 (

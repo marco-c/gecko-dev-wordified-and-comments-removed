@@ -832,10 +832,7 @@ nsIDocShellTreeItem
 >
 item
 =
-do_QueryInterface
-(
 mDocShell
-)
 ;
 nsCOMPtr
 <

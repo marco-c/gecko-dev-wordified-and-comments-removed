@@ -8165,10 +8165,7 @@ nsCOMPtr
 nsIGetSitesWithDataCallback
 >
 (
-do_QueryInterface
-(
 closure
-)
 )
 )
 ;

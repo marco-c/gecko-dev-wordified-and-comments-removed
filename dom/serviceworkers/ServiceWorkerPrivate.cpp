@@ -8259,14 +8259,11 @@ nsIWorkerDebugger
 >
 debugger
 =
-do_QueryInterface
-(
 mWorkerPrivate
 -
 >
 Debugger
 (
-)
 )
 ;
 debugger

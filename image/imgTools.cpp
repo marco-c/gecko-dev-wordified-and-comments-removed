@@ -341,10 +341,7 @@ mStatus
 {
 container
 =
-do_QueryInterface
-(
 mImage
-)
 ;
 }
 mCallback

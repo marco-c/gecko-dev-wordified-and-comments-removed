@@ -468,14 +468,11 @@ EventTarget
 >
 target
 =
-do_QueryInterface
-(
 window
 -
 >
 GetExtantDoc
 (
-)
 )
 ;
 if

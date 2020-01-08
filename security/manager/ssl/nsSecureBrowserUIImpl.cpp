@@ -581,10 +581,7 @@ nsIDocShellTreeItem
 >
 docShellTreeItem
 (
-do_QueryInterface
-(
 docShell
-)
 )
 ;
 nsCOMPtr

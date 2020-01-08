@@ -1869,10 +1869,7 @@ queue
 ;
 mRequestStream
 =
-do_QueryInterface
-(
 wrappedStream
-)
 ;
 }
 }

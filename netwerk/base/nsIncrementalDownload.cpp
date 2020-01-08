@@ -1717,10 +1717,7 @@ NS_ERROR_ALREADY_INITIALIZED
 ;
 mDest
 =
-do_QueryInterface
-(
 dest
-)
 ;
 NS_ENSURE_ARG
 (

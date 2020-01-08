@@ -9207,14 +9207,11 @@ mSendAfterPaintToContent
 {
 dispatchTarget
 =
-do_QueryInterface
-(
 ourWindow
 -
 >
 GetParentTarget
 (
-)
 )
 ;
 if

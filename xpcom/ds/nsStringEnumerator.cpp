@@ -109,10 +109,7 @@ aEnumerator
 :
 mEnumerator
 (
-do_QueryInterface
-(
 aEnumerator
-)
 )
 {
 MOZ_ASSERT

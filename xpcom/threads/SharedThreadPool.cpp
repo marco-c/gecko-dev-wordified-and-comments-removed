@@ -920,10 +920,7 @@ mRefCnt
 {
 mEventTarget
 =
-do_QueryInterface
-(
 aPool
-)
 ;
 }
 SharedThreadPool

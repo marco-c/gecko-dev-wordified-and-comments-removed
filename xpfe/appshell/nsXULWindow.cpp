@@ -8795,10 +8795,7 @@ nsIDocShellTreeItem
 >
 docShellAsItem
 =
-do_QueryInterface
-(
 mDocShell
-)
 ;
 return
 SizeShellTo
@@ -10887,10 +10884,7 @@ nsIDocShellTreeItem
 >
 docShellAsItem
 =
-do_QueryInterface
-(
 mDocShell
-)
 ;
 nsCOMPtr
 <

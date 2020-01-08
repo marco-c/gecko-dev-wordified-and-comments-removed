@@ -330,10 +330,7 @@ rv
 ;
 mis
 =
-do_QueryInterface
-(
 m
-)
 ;
 ASSERT_TRUE
 (
@@ -490,10 +487,7 @@ rv
 ;
 mis
 =
-do_QueryInterface
-(
 m
-)
 ;
 ASSERT_TRUE
 (
@@ -650,10 +644,7 @@ rv
 ;
 mis
 =
-do_QueryInterface
-(
 m
-)
 ;
 ASSERT_TRUE
 (
@@ -805,10 +796,7 @@ rv
 ;
 mis
 =
-do_QueryInterface
-(
 m
-)
 ;
 ASSERT_TRUE
 (
@@ -1008,10 +996,7 @@ rv
 ;
 mis
 =
-do_QueryInterface
-(
 m
-)
 ;
 ASSERT_TRUE
 (
@@ -1208,10 +1193,7 @@ rv
 ;
 mis
 =
-do_QueryInterface
-(
 m
-)
 ;
 ASSERT_TRUE
 (

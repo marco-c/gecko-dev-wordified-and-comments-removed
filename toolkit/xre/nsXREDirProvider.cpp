@@ -769,10 +769,7 @@ nsIDirectoryServiceProvider
 >
 app
 (
-do_QueryInterface
-(
 mAppProvider
-)
 )
 ;
 if

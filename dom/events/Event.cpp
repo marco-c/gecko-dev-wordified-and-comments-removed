@@ -2113,10 +2113,7 @@ FindFirstNonChromeOnlyAccessContent
 ;
 relatedTarget
 =
-do_QueryInterface
-(
 content
-)
 ;
 }
 if

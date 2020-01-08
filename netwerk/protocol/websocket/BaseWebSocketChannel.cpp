@@ -1446,10 +1446,7 @@ AsyncOpen
 ;
 mTargetThread
 =
-do_QueryInterface
-(
 aTargetThread
-)
 ;
 MOZ_ASSERT
 (

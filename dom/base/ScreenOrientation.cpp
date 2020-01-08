@@ -1592,8 +1592,6 @@ EventTarget
 >
 target
 =
-do_QueryInterface
-(
 GetOwner
 (
 )
@@ -1601,7 +1599,6 @@ GetOwner
 >
 GetDoc
 (
-)
 )
 ;
 if
@@ -1760,8 +1757,6 @@ EventTarget
 >
 target
 =
-do_QueryInterface
-(
 GetOwner
 (
 )
@@ -1769,7 +1764,6 @@ GetOwner
 >
 GetDoc
 (
-)
 )
 ;
 if

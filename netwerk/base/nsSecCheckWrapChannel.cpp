@@ -152,10 +152,7 @@ aChannel
 )
 mRequest
 (
-do_QueryInterface
-(
 aChannel
-)
 )
 mUploadChannel
 (

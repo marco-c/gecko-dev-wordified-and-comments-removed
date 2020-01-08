@@ -1454,10 +1454,7 @@ imgIRequest
 >
 debugRequest
 =
-do_QueryInterface
-(
 request
-)
 ;
 NS_ASSERTION
 (
@@ -1573,10 +1570,7 @@ imgIRequest
 >
 debugRequest
 =
-do_QueryInterface
-(
 request
-)
 ;
 NS_ASSERTION
 (

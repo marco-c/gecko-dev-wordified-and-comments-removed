@@ -4578,10 +4578,7 @@ nsIFile
 >
 xreBinDirectory
 =
-do_QueryInterface
-(
 greBinDir
-)
 ;
 if
 (

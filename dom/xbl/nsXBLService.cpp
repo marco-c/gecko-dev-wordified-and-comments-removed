@@ -2753,10 +2753,7 @@ doc
 )
 piTarget
 =
-do_QueryInterface
-(
 doc
-)
 ;
 if
 (

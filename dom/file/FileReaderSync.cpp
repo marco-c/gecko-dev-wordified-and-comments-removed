@@ -1498,10 +1498,7 @@ nsIUnicharInputStream
 >
 unicharStream
 =
-do_QueryInterface
-(
 converterStream
-)
 ;
 NS_ENSURE_TRUE
 (

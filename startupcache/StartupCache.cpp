@@ -839,10 +839,7 @@ rv
 ;
 mFile
 =
-do_QueryInterface
-(
 file
-)
 ;
 }
 NS_ENSURE_TRUE

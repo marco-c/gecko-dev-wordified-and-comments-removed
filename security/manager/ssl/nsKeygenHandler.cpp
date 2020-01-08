@@ -2304,10 +2304,7 @@ m_ctx
 ;
 runnable
 =
-do_QueryInterface
-(
 KeygenRunnable
-)
 ;
 if
 (

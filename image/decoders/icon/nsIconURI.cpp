@@ -2822,10 +2822,7 @@ nsIURI
 >
 iconURL
 =
-do_QueryInterface
-(
 mIconURL
-)
 ;
 if
 (

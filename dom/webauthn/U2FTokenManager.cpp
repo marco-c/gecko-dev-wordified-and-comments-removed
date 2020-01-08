@@ -1037,10 +1037,7 @@ nsIU2FTokenManager
 >
 self
 =
-do_QueryInterface
-(
 this
-)
 ;
 MOZ_ALWAYS_SUCCEEDS
 (

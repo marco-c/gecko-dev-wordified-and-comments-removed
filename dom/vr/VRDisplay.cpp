@@ -2633,11 +2633,8 @@ nsIGlobalObject
 >
 global
 =
-do_QueryInterface
-(
 GetParentObject
 (
-)
 )
 ;
 if
@@ -2967,11 +2964,8 @@ nsIGlobalObject
 >
 global
 =
-do_QueryInterface
-(
 GetParentObject
 (
-)
 )
 ;
 if
