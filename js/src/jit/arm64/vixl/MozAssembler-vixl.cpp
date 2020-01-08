@@ -2880,10 +2880,7 @@ totalPoolInstructions
 =
 totalPoolSize
 /
-sizeof
-(
-Instruction
-)
+kInstructionSize
 ;
 VIXL_ASSERT
 (
