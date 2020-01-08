@@ -5931,6 +5931,8 @@ already_AddRefed
 URLExtraData
 >
 aExtraData
+CORSMode
+aCORSMode
 )
 :
 mURI
@@ -5960,6 +5962,10 @@ true
 mString
 (
 aString
+)
+mCORSMode
+(
+aCORSMode
 )
 {
 MOZ_ASSERT
@@ -5996,6 +6002,8 @@ already_AddRefed
 URLExtraData
 >
 aExtraData
+CORSMode
+aCORSMode
 )
 :
 mExtraData
@@ -6015,6 +6023,10 @@ false
 mString
 (
 aString
+)
+mCORSMode
+(
+aCORSMode
 )
 {
 MOZ_ASSERT
@@ -7058,12 +7070,9 @@ move
 (
 aExtraData
 )
+aCORSMode
 )
 {
-mCORSMode
-=
-aCORSMode
-;
 Initialize
 (
 aDocument
@@ -7102,12 +7111,9 @@ move
 (
 aExtraData
 )
+aCORSMode
 )
 {
-mCORSMode
-=
-aCORSMode
-;
 }
 already_AddRefed
 <
