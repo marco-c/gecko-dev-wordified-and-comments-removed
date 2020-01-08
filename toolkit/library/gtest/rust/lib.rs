@@ -1,5 +1,9 @@
 extern
 crate
+bench_collections_gtest
+;
+extern
+crate
 gkrust_shared
 ;
 extern

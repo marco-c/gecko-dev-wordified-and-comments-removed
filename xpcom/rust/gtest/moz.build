@@ -90,6 +90,15 @@ UNIFIED_SOURCES
 =
 [
 '
+bench
+-
+collections
+/
+Bench
+.
+cpp
+'
+'
 nsstring
 /
 Test
