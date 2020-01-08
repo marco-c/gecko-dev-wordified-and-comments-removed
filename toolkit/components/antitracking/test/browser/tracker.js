@@ -46,7 +46,7 @@ tracking
 .
 example
 .
-com
+org
 /
 browser
 /

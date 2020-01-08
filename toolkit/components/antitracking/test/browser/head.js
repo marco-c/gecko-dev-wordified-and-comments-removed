@@ -24,7 +24,7 @@ tracking
 .
 example
 .
-com
+org
 /
 "
 ;
