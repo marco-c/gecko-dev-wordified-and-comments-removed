@@ -1838,7 +1838,7 @@ CHANGE
 TEST_P
 (
 TlsConnectTls12
-ClientAuthNoSigAlgsFallback
+ClientAuthNoSigAlgs
 )
 {
 EnsureTlsSetup
@@ -1882,8 +1882,8 @@ true
 ;
 ConnectExpectAlert
 (
-server_
-kTlsAlertDecryptError
+client_
+kTlsAlertHandshakeFailure
 )
 ;
 server_
@@ -1891,7 +1891,7 @@ server_
 >
 CheckErrorCode
 (
-SEC_ERROR_BAD_SIGNATURE
+SSL_ERROR_HANDSHAKE_FAILURE_ALERT
 )
 ;
 client_
@@ -1899,16 +1899,7 @@ client_
 >
 CheckErrorCode
 (
-SSL_ERROR_DECRYPT_ERROR_ALERT
-)
-;
-CheckSigScheme
-(
-capture_cert_verify
-0
-server_
-ssl_sig_rsa_pkcs1_sha1
-1024
+SSL_ERROR_UNSUPPORTED_SIGNATURE_ALGORITHM
 )
 ;
 }
