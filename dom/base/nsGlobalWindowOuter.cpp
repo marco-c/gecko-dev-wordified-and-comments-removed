@@ -18793,14 +18793,6 @@ rv
 &
 &
 uri
-&
-&
-nsContentUtils
-:
-:
-GetCurrentJSContext
-(
-)
 )
 {
 nsCOMPtr
