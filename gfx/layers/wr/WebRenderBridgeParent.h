@@ -1622,6 +1622,11 @@ GetNextWrEpoch
 )
 ;
 void
+RollbackWrEpoch
+(
+)
+;
+void
 FlushSceneBuilds
 (
 )
