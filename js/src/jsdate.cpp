@@ -16118,10 +16118,8 @@ cx
 )
 ;
 }
+static
 bool
-js
-:
-:
 DateConstructor
 (
 JSContext
