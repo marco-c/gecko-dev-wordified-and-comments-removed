@@ -20,9 +20,6 @@ importGlobalProperties
 "
 fetch
 "
-"
-XMLHttpRequest
-"
 ]
 )
 ;

@@ -54,17 +54,6 @@ Ci
 nsIEnvironment
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URL
-"
-]
-)
-;
 Services
 .
 prefs

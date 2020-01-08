@@ -14,17 +14,6 @@ undefined
 "
 )
 {
-Cu
-.
-importGlobalProperties
-(
-[
-"
-URL
-"
-]
-)
-;
 this
 .
 exports

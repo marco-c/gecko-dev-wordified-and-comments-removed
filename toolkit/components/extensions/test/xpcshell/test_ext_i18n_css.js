@@ -65,17 +65,6 @@ primaryPort
 /
 data
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
-)
-;
 const
 {
 createAppInfo

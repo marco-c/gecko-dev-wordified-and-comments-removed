@@ -41,17 +41,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-InspectorUtils
-"
-]
-)
-;
 var
 chromeWin
 ;

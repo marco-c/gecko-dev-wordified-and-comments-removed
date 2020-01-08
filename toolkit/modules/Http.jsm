@@ -10,17 +10,6 @@ percentEncode
 "
 ]
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
-)
-;
 function
 percentEncode
 (
