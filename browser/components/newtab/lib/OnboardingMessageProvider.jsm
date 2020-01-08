@@ -228,7 +228,7 @@ OPEN_URL
 data
 :
 {
-url
+args
 :
 "
 https
@@ -336,7 +336,7 @@ OPEN_ABOUT_PAGE
 data
 :
 {
-page
+args
 :
 "
 addons
@@ -433,7 +433,7 @@ OPEN_URL
 data
 :
 {
-url
+args
 :
 "
 https
@@ -570,6 +570,16 @@ ONBOARDING_MESSAGES
 ;
 return
 messages
+;
+}
+getUntranslatedMessages
+(
+)
+{
+return
+ONBOARDING_MESSAGES
+(
+)
 ;
 }
 async
