@@ -1551,7 +1551,10 @@ entry
 nsresult
 rv
 ;
-nsCString
+nsAutoCStringN
+<
+4097
+>
 buffer
 ;
 uint32_t
@@ -1579,13 +1582,6 @@ rv
 )
 return
 rv
-;
-buffer
-.
-SetCapacity
-(
-4096
-)
 ;
 buffer
 .

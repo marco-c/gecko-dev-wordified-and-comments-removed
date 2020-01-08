@@ -2553,7 +2553,10 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsCString
+nsAutoCStringN
+<
+1025
+>
 compressedData
 ;
 nsAutoCString

@@ -1819,7 +1819,7 @@ len
 ;
 contents
 .
-Assign
+Append
 (
 ha1_digest
 EXPANDED_DIGEST_LENGTH
@@ -2217,13 +2217,11 @@ contents
 SetCapacity
 (
 len
-+
-1
 )
 ;
 contents
 .
-Assign
+Append
 (
 username
 )
