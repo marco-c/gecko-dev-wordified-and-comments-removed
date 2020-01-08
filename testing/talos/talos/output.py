@@ -1748,7 +1748,7 @@ results
 )
 !
 =
-52
+380
 :
             
 raise
@@ -1757,8 +1757,8 @@ Exception
 "
 StyleBench
 has
-52
-subtests
+380
+entries
 found
 :
 %
@@ -1776,10 +1776,10 @@ results
 =
 results
 [
-12
+75
 :
 :
-13
+76
 ]
         
 score
