@@ -5291,6 +5291,7 @@ recommended
 label
 =
 Third
+-
 party
 trackers
 (
@@ -5308,6 +5309,7 @@ option
 label
 =
 Third
+-
 party
 trackers
 sitedata
@@ -5333,7 +5335,7 @@ all
 -
 third
 -
-parties
+party
 -
 option
 =
@@ -5345,11 +5347,18 @@ third
 -
 party
 cookies
+(
+may
+cause
+websites
+to
+break
+)
 sitedata
 -
 block
 -
-always
+all
 -
 option
 =
@@ -5359,7 +5368,7 @@ label
 All
 cookies
 (
-may
+will
 cause
 websites
 to
