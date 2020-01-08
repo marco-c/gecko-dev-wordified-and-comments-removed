@@ -846,7 +846,7 @@ module
 .
 mBreakpadId
 .
-c_str
+get
 (
 )
 NS_ConvertUTF16toUTF8
