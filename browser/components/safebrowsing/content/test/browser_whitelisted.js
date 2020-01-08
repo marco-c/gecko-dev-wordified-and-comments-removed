@@ -198,11 +198,10 @@ tabbrowser
 .
 selectedTab
 =
-BrowserTestUtils
+tabbrowser
 .
 addTab
 (
-tabbrowser
 )
 ;
 info

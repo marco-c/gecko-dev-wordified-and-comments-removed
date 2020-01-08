@@ -345,13 +345,12 @@ TEST_PAGE
 await
 promiseTabLoadEvent
 (
-BrowserTestUtils
-.
-addTab
-(
 newWin
 .
 gBrowser
+.
+addTab
+(
 )
 "
 http

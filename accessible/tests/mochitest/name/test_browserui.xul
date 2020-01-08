@@ -336,7 +336,7 @@ tabBrowser
 (
 )
 .
-addTrustedTab
+addTab
 (
 aURL
 )

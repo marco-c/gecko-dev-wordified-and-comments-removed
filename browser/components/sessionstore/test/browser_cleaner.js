@@ -295,13 +295,12 @@ promiseNewWindowLoaded
 let
 tab
 =
-BrowserTestUtils
-.
-addTab
-(
 newWin
 .
 gBrowser
+.
+addTab
+(
 URL_NEWWIN
 )
 ;

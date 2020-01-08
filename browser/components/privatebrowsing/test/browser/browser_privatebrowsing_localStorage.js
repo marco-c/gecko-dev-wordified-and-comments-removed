@@ -66,13 +66,12 @@ gBrowser
 .
 selectedTab
 =
-BrowserTestUtils
-.
-addTab
-(
 win
 .
 gBrowser
+.
+addTab
+(
 page1
 )
 ;

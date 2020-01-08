@@ -72,13 +72,12 @@ succeeded
 "
 )
 ;
-BrowserTestUtils
-.
-addTab
-(
 win
 .
 gBrowser
+.
+addTab
+(
 "
 about
 :

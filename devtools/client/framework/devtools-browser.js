@@ -1339,7 +1339,7 @@ selectedTab
 =
 gBrowser
 .
-addTrustedTab
+addTab
 (
 url
 )
@@ -1356,7 +1356,7 @@ selectedTab
 =
 gBrowser
 .
-addTrustedTab
+addTab
 (
 "
 chrome
