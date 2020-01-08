@@ -2972,8 +2972,25 @@ porcelain
 ]
         
 if
-not
 untracked
+:
+            
+args
+.
+append
+(
+'
+-
+-
+untracked
+-
+files
+=
+all
+'
+)
+        
+else
 :
             
 args
