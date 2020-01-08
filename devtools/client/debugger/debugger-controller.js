@@ -962,13 +962,9 @@ Tooltip
 require
 (
 "
-devtools
+.
 /
-client
-/
-shared
-/
-widgets
+content
 /
 tooltip
 /

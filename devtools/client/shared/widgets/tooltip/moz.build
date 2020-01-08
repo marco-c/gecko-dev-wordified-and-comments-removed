@@ -128,17 +128,7 @@ SwatchFilterTooltip
 js
 '
 '
-Tooltip
-.
-js
-'
-'
 TooltipToggle
-.
-js
-'
-'
-VariableContentHelper
 .
 js
 '
