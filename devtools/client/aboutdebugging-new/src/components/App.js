@@ -284,6 +284,7 @@ getSelectedPageComponent
 {
 const
 {
+adbAddonStatus
 dispatch
 networkLocations
 selectedPage
@@ -317,6 +318,7 @@ return
 ConnectPage
 (
 {
+adbAddonStatus
 dispatch
 networkLocations
 }
