@@ -18597,10 +18597,7 @@ case
 wasm
 :
 :
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 Global
@@ -18621,10 +18618,7 @@ case
 wasm
 :
 :
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 Immediate
@@ -18648,10 +18642,7 @@ case
 wasm
 :
 :
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 None

@@ -2783,10 +2783,7 @@ kind
 )
 {
 case
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 Global
@@ -2844,10 +2841,7 @@ break
 ;
 }
 case
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 Immediate
@@ -2895,10 +2889,7 @@ break
 ;
 }
 case
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 None

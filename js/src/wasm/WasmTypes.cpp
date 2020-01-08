@@ -1258,7 +1258,7 @@ funcType
 return
 FuncTypeIdDesc
 (
-Kind
+FuncTypeIdDescKind
 :
 :
 Global
@@ -1454,7 +1454,7 @@ sTotalBits
 return
 FuncTypeIdDesc
 (
-Kind
+FuncTypeIdDescKind
 :
 :
 Immediate

@@ -17345,10 +17345,7 @@ kind
 )
 !
 =
-FuncTypeIdDesc
-:
-:
-Kind
+FuncTypeIdDescKind
 :
 :
 None
