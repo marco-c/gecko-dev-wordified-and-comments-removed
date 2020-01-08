@@ -1172,6 +1172,11 @@ toFixed
 2
 )
 ;
+if
+(
+changed
+)
+{
 this
 .
 _fullZoom
@@ -1203,11 +1208,6 @@ ex
 )
 {
 }
-if
-(
-changed
-)
-{
 let
 event
 =
@@ -1312,6 +1312,11 @@ toFixed
 2
 )
 ;
+if
+(
+changed
+)
+{
 this
 .
 _textZoom
@@ -1343,11 +1348,6 @@ ex
 )
 {
 }
-if
-(
-changed
-)
-{
 let
 event
 =
