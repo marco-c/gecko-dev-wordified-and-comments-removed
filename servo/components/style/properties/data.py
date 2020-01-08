@@ -1792,8 +1792,7 @@ inset
 "
 "
 )
-\
-            
+                
 for
 physical_side
 in
