@@ -1835,9 +1835,6 @@ bool
 mRealtime
 ;
 bool
-mNonRealtimeProcessing
-;
-bool
 mStreamOrderDirty
 ;
 AudioMixer
