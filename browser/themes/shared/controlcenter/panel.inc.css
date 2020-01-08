@@ -3534,7 +3534,7 @@ content
 not
 (
 [
-detected
+active
 ]
 )
 :
@@ -3584,10 +3584,7 @@ blocking
 -
 content
 [
-enabled
-]
-[
-detected
+active
 ]
 :
 not
@@ -3621,10 +3618,7 @@ blocking
 -
 content
 [
-enabled
-]
-[
-detected
+active
 ]
 :
 not
