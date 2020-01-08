@@ -518,7 +518,7 @@ help
 "
 Specify
 headless
-fake
+virtual
 screen
 width
 (
@@ -575,7 +575,7 @@ help
 "
 Specify
 headless
-fake
+virtual
 screen
 height
 (
