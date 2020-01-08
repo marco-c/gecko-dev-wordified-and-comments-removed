@@ -664,7 +664,9 @@ enterprise_roots
 .
 enabled
 "
-true
+param
+.
+ImportEnterpriseRoots
 )
 ;
 }
