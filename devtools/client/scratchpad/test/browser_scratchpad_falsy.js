@@ -41,10 +41,11 @@ testFalsy
 }
 )
 ;
-gBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
 "
 data
 :
