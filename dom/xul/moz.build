@@ -162,6 +162,11 @@ EXPORTS
 =
 [
 '
+nsXULCommandDispatcher
+.
+h
+'
+'
 nsXULElement
 .
 h

@@ -109,12 +109,6 @@ XULDocument
 :
 Document
 {
-readonly
-attribute
-XULCommandDispatcher
-?
-commandDispatcher
-;
 [
 Throws
 ]

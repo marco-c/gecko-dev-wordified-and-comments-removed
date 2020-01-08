@@ -26040,15 +26040,6 @@ if
 (
 !
 doc
-|
-|
-!
-doc
--
->
-IsXULDocument
-(
-)
 )
 {
 return
@@ -26072,11 +26063,6 @@ nsIDOMXULCommandDispatcher
 xulCommandDispatcher
 =
 doc
--
->
-AsXULDocument
-(
-)
 -
 >
 GetCommandDispatcher
