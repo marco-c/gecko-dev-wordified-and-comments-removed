@@ -88,6 +88,18 @@ s
 "
 )
 ;
+if
+(
+%
+(
+timeout
+)
+s
+!
+=
+null
+)
+{
 window
 .
 timer
@@ -122,3 +134,4 @@ timeout
 s
 )
 ;
+}
