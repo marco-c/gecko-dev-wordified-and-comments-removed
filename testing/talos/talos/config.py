@@ -43,8 +43,8 @@ dict
     
 extra_args
 =
-'
-'
+[
+]
     
 buildid
 =

@@ -860,6 +860,16 @@ profile
 '
 )
     
+browser_config
+[
+'
+extra_args
+'
+]
+=
+[
+]
+    
 if
 browser_config
 [
@@ -875,7 +885,9 @@ browser_config
 extra_args
 '
 ]
-=
+.
+append
+(
 '
 -
 -
@@ -883,6 +895,7 @@ no
 -
 remote
 '
+)
     
 if
 browser_config
