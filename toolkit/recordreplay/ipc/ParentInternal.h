@@ -187,6 +187,11 @@ aMsg
 )
 ;
 void
+UpdateGraphicsOverlay
+(
+)
+;
+void
 MaybeUpdateGraphicsAtPaint
 (
 const
