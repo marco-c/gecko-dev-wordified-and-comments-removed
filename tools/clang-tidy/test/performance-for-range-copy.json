@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 the
 loop
@@ -33,9 +29,7 @@ making
 this
 a
 reference
-\
 "
-\
 "
 performance
 -
@@ -44,8 +38,6 @@ for
 range
 -
 copy
-\
 "
 ]
 ]
-"

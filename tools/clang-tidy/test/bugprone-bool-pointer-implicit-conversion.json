@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 dubious
 check
@@ -26,9 +22,7 @@ to
 dereference
 it
 ?
-\
 "
-\
 "
 bugprone
 -
@@ -39,8 +33,6 @@ pointer
 implicit
 -
 conversion
-\
 "
 ]
 ]
-"

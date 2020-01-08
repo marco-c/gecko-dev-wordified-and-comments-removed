@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 move
 constructor
@@ -18,9 +14,7 @@ calling
 a
 copy
 constructor
-\
 "
-\
 "
 performance
 -
@@ -29,8 +23,6 @@ move
 constructor
 -
 init
-\
 "
 ]
 ]
-"

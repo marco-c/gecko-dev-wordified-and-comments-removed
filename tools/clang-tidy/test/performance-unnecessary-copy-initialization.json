@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 the
 const
@@ -30,9 +26,7 @@ it
 a
 const
 reference
-\
 "
-\
 "
 performance
 -
@@ -41,8 +35,6 @@ unnecessary
 copy
 -
 initialization
-\
 "
 ]
 ]
-"

@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 escaped
 string
@@ -19,9 +15,7 @@ a
 raw
 string
 literal
-\
 "
-\
 "
 modernize
 -
@@ -30,8 +24,6 @@ raw
 string
 -
 literal
-\
 "
 ]
 ]
-"

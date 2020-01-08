@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 prefer
 '
@@ -28,9 +24,7 @@ unique_ptr
 <
 >
 objects
-\
 "
-\
 "
 readability
 -
@@ -39,8 +33,6 @@ uniqueptr
 delete
 -
 release
-\
 "
 ]
 ]
-"

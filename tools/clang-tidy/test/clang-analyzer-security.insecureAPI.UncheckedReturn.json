@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 The
 return
@@ -38,9 +34,7 @@ execute
 with
 unexpected
 privileges
-\
 "
-\
 "
 clang
 -
@@ -51,8 +45,6 @@ security
 insecureAPI
 .
 UncheckedReturn
-\
 "
 ]
 ]
-"

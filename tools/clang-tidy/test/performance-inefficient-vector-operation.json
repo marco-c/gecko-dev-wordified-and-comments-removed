@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 '
 push_back
@@ -27,9 +23,7 @@ capacity
 before
 the
 loop
-\
 "
-\
 "
 performance
 -
@@ -38,8 +32,6 @@ inefficient
 vector
 -
 operation
-\
 "
 ]
 ]
-"

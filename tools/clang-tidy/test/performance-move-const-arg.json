@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 std
 :
@@ -38,9 +34,7 @@ std
 move
 (
 )
-\
 "
-\
 "
 performance
 -
@@ -49,8 +43,6 @@ move
 const
 -
 arg
-\
 "
 ]
 ]
-"

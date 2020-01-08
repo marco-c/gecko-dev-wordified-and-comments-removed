@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 do
 not
@@ -18,9 +14,7 @@ after
 '
 return
 '
-\
 "
-\
 "
 readability
 -
@@ -29,8 +23,6 @@ else
 after
 -
 return
-\
 "
 ]
 ]
-"

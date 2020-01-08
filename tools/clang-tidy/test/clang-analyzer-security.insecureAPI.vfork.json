@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 Call
 to
@@ -43,9 +39,7 @@ safer
 posix_spawn
 '
 function
-\
 "
-\
 "
 clang
 -
@@ -56,8 +50,6 @@ security
 insecureAPI
 .
 vfork
-\
 "
 ]
 ]
-"

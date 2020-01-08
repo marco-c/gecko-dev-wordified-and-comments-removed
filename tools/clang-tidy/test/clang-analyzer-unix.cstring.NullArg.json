@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 Null
 pointer
@@ -17,9 +13,7 @@ to
 string
 length
 function
-\
 "
-\
 "
 clang
 -
@@ -30,8 +24,6 @@ unix
 cstring
 .
 NullArg
-\
 "
 ]
 ]
-"

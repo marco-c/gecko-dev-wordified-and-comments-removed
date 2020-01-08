@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 Potential
 buffer
@@ -35,9 +31,7 @@ safer
 strlcat
 '
 API
-\
 "
-\
 "
 clang
 -
@@ -48,8 +42,6 @@ unix
 cstring
 .
 BadSizeArg
-\
 "
 ]
 ]
-"

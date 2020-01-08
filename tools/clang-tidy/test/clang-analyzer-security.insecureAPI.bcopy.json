@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 The
 bcopy
@@ -23,9 +19,7 @@ or
 memmove
 (
 )
-\
 "
-\
 "
 clang
 -
@@ -36,8 +30,6 @@ security
 insecureAPI
 .
 bcopy
-\
 "
 ]
 ]
-"

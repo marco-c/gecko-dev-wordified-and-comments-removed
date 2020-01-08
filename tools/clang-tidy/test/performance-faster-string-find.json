@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 '
 find
@@ -31,9 +27,7 @@ overload
 accepting
 a
 character
-\
 "
-\
 "
 performance
 -
@@ -42,8 +36,6 @@ faster
 string
 -
 find
-\
 "
 ]
 ]
-"

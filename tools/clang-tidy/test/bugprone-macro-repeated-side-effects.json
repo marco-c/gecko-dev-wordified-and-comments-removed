@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 side
 effects
@@ -23,9 +19,7 @@ repeated
 in
 macro
 expansion
-\
 "
-\
 "
 bugprone
 -
@@ -36,8 +30,6 @@ repeated
 side
 -
 effects
-\
 "
 ]
 ]
-"

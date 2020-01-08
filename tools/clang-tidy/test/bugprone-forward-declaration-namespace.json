@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 no
 definition
@@ -32,9 +28,7 @@ namespace
 '
 nb
 '
-\
 "
-\
 "
 bugprone
 -
@@ -43,8 +37,6 @@ forward
 declaration
 -
 namespace
-\
 "
 ]
 ]
-"

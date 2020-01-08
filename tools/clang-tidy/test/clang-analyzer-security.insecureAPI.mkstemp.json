@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 Call
 to
@@ -37,9 +33,7 @@ X
 s
 seen
 )
-\
 "
-\
 "
 clang
 -
@@ -50,8 +44,6 @@ security
 insecureAPI
 .
 mkstemp
-\
 "
 ]
 ]
-"

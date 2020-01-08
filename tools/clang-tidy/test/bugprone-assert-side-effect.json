@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 found
 assert
@@ -15,9 +11,7 @@ assert
 with
 side
 effect
-\
 "
-\
 "
 bugprone
 -
@@ -26,8 +20,6 @@ assert
 side
 -
 effect
-\
 "
 ]
 ]
-"

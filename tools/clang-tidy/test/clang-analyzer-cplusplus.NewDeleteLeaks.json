@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 Potential
 leak
@@ -18,9 +14,7 @@ by
 '
 p
 '
-\
 "
-\
 "
 clang
 -
@@ -29,8 +23,6 @@ analyzer
 cplusplus
 .
 NewDeleteLeaks
-\
 "
 ]
 ]
-"

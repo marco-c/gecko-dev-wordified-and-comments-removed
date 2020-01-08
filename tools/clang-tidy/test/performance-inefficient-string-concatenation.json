@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 string
 concatenation
@@ -35,9 +31,7 @@ append
 )
 '
 instead
-\
 "
-\
 "
 performance
 -
@@ -46,8 +40,6 @@ inefficient
 string
 -
 concatenation
-\
 "
 ]
 ]
-"

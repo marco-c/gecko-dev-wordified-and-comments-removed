@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 The
 getpw
@@ -30,9 +26,7 @@ by
 getpwuid
 (
 )
-\
 "
-\
 "
 clang
 -
@@ -43,8 +37,6 @@ security
 insecureAPI
 .
 getpw
-\
 "
 ]
 ]
-"

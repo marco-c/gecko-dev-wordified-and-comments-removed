@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 call
 to
@@ -17,9 +13,7 @@ promotes
 float
 to
 double
-\
 "
-\
 "
 performance
 -
@@ -32,8 +26,6 @@ in
 math
 -
 fn
-\
 "
 ]
 ]
-"

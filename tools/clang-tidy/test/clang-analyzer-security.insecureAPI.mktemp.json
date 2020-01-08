@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 Call
 to
@@ -31,9 +27,7 @@ Use
 mkstemp
 '
 instead
-\
 "
-\
 "
 clang
 -
@@ -44,8 +38,6 @@ security
 insecureAPI
 .
 mktemp
-\
 "
 ]
 ]
-"

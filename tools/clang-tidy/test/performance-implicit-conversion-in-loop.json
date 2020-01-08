@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 the
 type
@@ -75,9 +71,7 @@ creating
 a
 new
 value
-\
 "
-\
 "
 performance
 -
@@ -88,8 +82,6 @@ conversion
 in
 -
 loop
-\
 "
 ]
 ]
-"

@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 suspicious
 string
@@ -15,9 +11,7 @@ probably
 missing
 a
 comma
-\
 "
-\
 "
 bugprone
 -
@@ -26,8 +20,6 @@ suspicious
 missing
 -
 comma
-\
 "
 ]
 ]
-"

@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 The
 bzero
@@ -19,9 +15,7 @@ by
 memset
 (
 )
-\
 "
-\
 "
 clang
 -
@@ -32,8 +26,6 @@ security
 insecureAPI
 .
 bzero
-\
 "
 ]
 ]
-"

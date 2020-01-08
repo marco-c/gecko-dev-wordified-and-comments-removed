@@ -1,12 +1,8 @@
-"
 [
 [
-\
 "
 warning
-\
 "
-\
 "
 Variable
 '
@@ -27,9 +23,7 @@ as
 a
 loop
 counter
-\
 "
-\
 "
 clang
 -
@@ -38,8 +32,6 @@ analyzer
 security
 .
 FloatLoopCounter
-\
 "
 ]
 ]
-"
