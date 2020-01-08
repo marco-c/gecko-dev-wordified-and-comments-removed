@@ -153,14 +153,6 @@ SymbolCode
 :
 uint32_t
 ;
-#
-ifdef
-ENABLE_BIGINT
-class
-BigInt
-;
-#
-endif
 }
 namespace
 js
