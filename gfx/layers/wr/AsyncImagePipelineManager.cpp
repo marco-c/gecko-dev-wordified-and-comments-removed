@@ -1384,6 +1384,12 @@ aPipeline
 mWrTextureWrapper
 )
 {
+aMaybeFastTxn
+.
+InvalidateRenderedFrame
+(
+)
+;
 HoldExternalImage
 (
 aPipelineId
