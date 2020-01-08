@@ -335,14 +335,9 @@ interface
 var
 docShell
 =
-interfaceRequestor
+windowlessBrowser
 .
-getInterface
-(
-Ci
-.
-nsIDocShell
-)
+docShell
 ;
 ok
 (
