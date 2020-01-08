@@ -421,7 +421,9 @@ common
 .
 tests
 .
-zip
+tar
+.
+gz
 >
 tests
 -
@@ -431,7 +433,9 @@ mochitest
 .
 tests
 .
-zip
+tar
+.
+gz
 >
 tests
 when
@@ -1002,7 +1006,9 @@ common
 .
 tests
 .
-zip
+tar
+.
+gz
 >
 tests
 -
@@ -1012,7 +1018,9 @@ reftest
 .
 tests
 .
-zip
+tar
+.
+gz
 >
 tests
 when

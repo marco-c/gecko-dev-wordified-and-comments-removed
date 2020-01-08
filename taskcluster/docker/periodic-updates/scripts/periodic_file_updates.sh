@@ -4038,7 +4038,9 @@ common
 .
 tests
 .
-zip
+tar
+.
+gz
 "
 if
 [
@@ -4101,7 +4103,9 @@ common
 .
 tests
 .
-zip
+tar
+.
+gz
 "
 fi
 #
@@ -4147,7 +4151,9 @@ common
 .
 tests
 .
-zip
+tar
+.
+gz
 "
 fi
 #
