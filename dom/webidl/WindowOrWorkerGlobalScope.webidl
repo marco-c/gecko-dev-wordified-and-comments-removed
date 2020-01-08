@@ -572,7 +572,7 @@ dom
 DOMPrefs
 :
 :
-DOMCachesEnabled
+dom_caches_enabled
 "
 SameObject
 ]
