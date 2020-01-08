@@ -5883,13 +5883,10 @@ EventTarget
 >
 et
 =
-do_QueryInterface
-(
 aEvent
 -
 >
 mOriginalTarget
-)
 ;
 RefPtr
 <
@@ -7454,10 +7451,7 @@ EventTarget
 >
 target
 =
-do_QueryInterface
-(
 mTarget
-)
 ;
 NS_ENSURE_STATE
 (

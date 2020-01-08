@@ -2956,10 +2956,7 @@ else
 {
 nodeToSerialize
 =
-do_QueryInterface
-(
 draggedNode
-)
 ;
 }
 dragNode
@@ -2987,10 +2984,7 @@ a
 {
 linkNode
 =
-do_QueryInterface
-(
 draggedNode
-)
 ;
 GetNodeString
 (

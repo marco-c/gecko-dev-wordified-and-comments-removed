@@ -1858,10 +1858,7 @@ Element
 >
 absolutelyPositionedObject
 =
-do_QueryInterface
-(
 mAbsolutelyPositionedObject
-)
 ;
 NS_ENSURE_STATE
 (

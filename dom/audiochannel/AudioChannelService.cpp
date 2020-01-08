@@ -1640,10 +1640,7 @@ break
 }
 window
 =
-do_QueryInterface
-(
 win
-)
 ;
 }
 while

@@ -9728,10 +9728,7 @@ chromeEventHandler
 ;
 mChromeEventHandler
 =
-do_QueryInterface
-(
 chromeEventHandler
-)
 ;
 if
 (

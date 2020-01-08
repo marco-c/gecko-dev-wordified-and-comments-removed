@@ -4810,13 +4810,10 @@ EventTarget
 >
 t
 =
-do_QueryInterface
-(
 aEvent
 -
 >
 mTarget
-)
 ;
 targetEtci
 -
