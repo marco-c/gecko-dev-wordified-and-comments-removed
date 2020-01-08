@@ -307,6 +307,7 @@ expected
 "
 :
 "
+blank
 "
 "
 values
