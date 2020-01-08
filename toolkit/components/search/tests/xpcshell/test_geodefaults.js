@@ -579,7 +579,7 @@ browser
 .
 search
 .
-countryCode
+region
 "
 )
 )
@@ -599,7 +599,7 @@ browser
 .
 search
 .
-countryCode
+region
 "
 )
 "
@@ -753,7 +753,7 @@ add_task
 (
 async
 function
-should_request_when_countryCode_not_set
+should_request_when_region_not_set
 (
 )
 {
@@ -768,7 +768,7 @@ browser
 .
 search
 .
-countryCode
+region
 "
 )
 ;

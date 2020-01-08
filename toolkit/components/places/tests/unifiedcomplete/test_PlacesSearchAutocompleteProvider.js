@@ -35,7 +35,7 @@ browser
 .
 search
 .
-countryCode
+region
 "
 "
 US

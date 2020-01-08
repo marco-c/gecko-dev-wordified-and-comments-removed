@@ -58,7 +58,7 @@ browser
 .
 search
 .
-countryCode
+region
 "
 )
 ;
@@ -68,7 +68,7 @@ false
 "
 not
 expecting
-countryCode
+region
 to
 be
 set
