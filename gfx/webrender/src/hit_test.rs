@@ -183,12 +183,12 @@ ClipItem
 :
 :
 Image
-(
+{
 ref
 mask
 .
 .
-)
+}
 =
 >
 HitTestRegion

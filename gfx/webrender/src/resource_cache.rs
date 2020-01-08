@@ -5780,8 +5780,6 @@ for_each_tile_in_range
 (
 &
 tiles
-&
-mut
 |
 tile
 |
