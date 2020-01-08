@@ -808,6 +808,7 @@ derive
 Clone
 Debug
 Eq
+MallocSizeOf
 PartialEq
 )
 ]
