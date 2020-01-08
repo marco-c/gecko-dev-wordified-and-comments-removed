@@ -10,6 +10,15 @@ h
 #
 include
 "
+builtin
+/
+SIMD
+.
+h
+"
+#
+include
+"
 jit
 /
 AtomicOperations
