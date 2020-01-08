@@ -234,6 +234,13 @@ desktop_capture_impl
 .
 cc
 '
+'
+video_engine
+/
+platform_uithread
+.
+cc
+'
 ]
 if
 CONFIG
