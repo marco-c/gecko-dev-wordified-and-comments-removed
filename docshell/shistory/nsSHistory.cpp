@@ -2567,11 +2567,10 @@ nsCOMPtr
 nsISHTransaction
 >
 txn
-(
+=
 new
 nsSHTransaction
 (
-)
 )
 ;
 nsCOMPtr
