@@ -5641,15 +5641,7 @@ runnable
 return
 ;
 }
-WorkletThread
-:
-:
-Get
-(
-)
--
->
-DispatchRunnable
+NS_DispatchToMainThread
 (
 runnable
 .
