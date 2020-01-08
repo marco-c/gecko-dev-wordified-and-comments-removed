@@ -51609,6 +51609,14 @@ aStyleDisplay
 )
 |
 |
+(
+IsFrameOfType
+(
+eSupportsContainLayoutAndPaint
+)
+&
+&
+(
 aStyleDisplay
 -
 >
@@ -51622,6 +51630,8 @@ aStyleDisplay
 >
 IsContainLayout
 (
+)
+)
 )
 |
 |
