@@ -14,7 +14,7 @@ sources
 ;
 import
 {
-getBreakpoints
+getBreakpointsList
 }
 from
 "
@@ -104,11 +104,15 @@ selectedSource
 :
 Source
 )
+:
+Breakpoint
+[
+]
 {
 const
 breakpoints
 =
-getBreakpoints
+getBreakpointsList
 (
 state
 )

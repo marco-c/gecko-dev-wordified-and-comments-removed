@@ -37,7 +37,7 @@ Props
 >
 (
 <
-div
+span
 className
 =
 "
@@ -55,7 +55,7 @@ children
 }
 <
 /
-div
+span
 >
 )
 ;
