@@ -37,7 +37,7 @@ h
 #
 include
 "
-SkDocument
+SkPDFDocument
 .
 h
 "
