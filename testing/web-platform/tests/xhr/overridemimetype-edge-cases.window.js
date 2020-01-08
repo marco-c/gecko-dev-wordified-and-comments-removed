@@ -83,6 +83,8 @@ responseText
 "
 \
 uFFFD
+\
+uFFFD
 "
 )
 ;
@@ -293,6 +295,8 @@ client
 .
 responseText
 "
+\
+uFFFD
 \
 uFFFD
 "
