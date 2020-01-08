@@ -54,10 +54,5 @@ events
 .
 js
 "
-"
-layout
-.
-js
-"
 )
 ;

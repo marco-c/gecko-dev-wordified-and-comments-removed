@@ -54,11 +54,6 @@ events
 .
 js
 "
-"
-layout
-.
-js
-"
 )
 ;
 function
