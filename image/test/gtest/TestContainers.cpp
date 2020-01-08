@@ -367,6 +367,9 @@ containerSize
 height
 )
 ;
+ImgDrawResult
+drawResult
+;
 IntSize
 requestedSize
 =
@@ -390,6 +393,8 @@ layers
 ImageContainer
 >
 upscaleContainer
+;
+drawResult
 =
 image
 -
@@ -410,6 +415,10 @@ imgIContainer
 :
 :
 FLAG_HIGH_QUALITY_SCALING
+getter_AddRefs
+(
+upscaleContainer
+)
 )
 ;
 ASSERT_TRUE
@@ -481,6 +490,8 @@ layers
 ImageContainer
 >
 downscaleContainer
+;
+drawResult
 =
 image
 -
@@ -501,6 +512,10 @@ imgIContainer
 :
 :
 FLAG_HIGH_QUALITY_SCALING
+getter_AddRefs
+(
+downscaleContainer
+)
 )
 ;
 containerSize
@@ -540,6 +555,8 @@ layers
 ImageContainer
 >
 againContainer
+;
+drawResult
 =
 image
 -
@@ -557,6 +574,10 @@ imgIContainer
 :
 :
 FLAG_SYNC_DECODE
+getter_AddRefs
+(
+againContainer
+)
 )
 ;
 ASSERT_EQ
