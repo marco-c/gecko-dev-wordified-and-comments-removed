@@ -2778,7 +2778,6 @@ IncrementalResult
 ResetIncremental
 =
 0
-ReturnToEvictNursery
 Ok
 }
 ;
@@ -2978,9 +2977,6 @@ reason
 SliceBudget
 &
 budget
-AutoGCSession
-&
-session
 )
 ;
 IncrementalResult
@@ -2988,9 +2984,6 @@ resetIncrementalGC
 (
 AbortReason
 reason
-AutoGCSession
-&
-session
 )
 ;
 void

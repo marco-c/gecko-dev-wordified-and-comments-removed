@@ -171,7 +171,6 @@ trc
 ;
 }
 }
-inline
 void
 StoreBuffer
 :
