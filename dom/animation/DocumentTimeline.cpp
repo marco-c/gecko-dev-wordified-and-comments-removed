@@ -1106,10 +1106,8 @@ const
 TimeStamp
 result
 ;
-RefPtr
-<
 nsDOMNavigationTiming
->
+*
 timing
 =
 mDocument
