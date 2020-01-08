@@ -80,6 +80,9 @@ class
 Compositor
 ;
 class
+CompositorOGL
+;
+class
 TextureSourceProvider
 {
 public
@@ -212,6 +215,17 @@ virtual
 Compositor
 *
 AsCompositor
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+CompositorOGL
+*
+AsCompositorOGL
 (
 )
 {
