@@ -276,6 +276,15 @@ win_sdk_version
 }
 /
 winrt
+:
+{
+VSPATH
+}
+/
+DIA
+SDK
+/
+include
 "
 export
 LIB

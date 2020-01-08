@@ -227,6 +227,12 @@ XP_WIN
 &
 &
 HAVE_64BIT_BUILD
+&
+&
+defined
+(
+_M_X64
+)
 #
 include
 "
@@ -1738,6 +1744,12 @@ XP_WIN
 &
 &
 HAVE_64BIT_BUILD
+&
+&
+defined
+(
+_M_X64
+)
 MozStackFrameSymbolizer
 symbolizer
 ;

@@ -9382,7 +9382,13 @@ XP_WIN
 &
 defined
 (
-_WIN64
+HAVE_64BIT_BUILD
+)
+&
+&
+defined
+(
+_M_X64
 )
 typedef
 long

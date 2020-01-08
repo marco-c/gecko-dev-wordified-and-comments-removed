@@ -25,12 +25,6 @@ mozconfigs
 /
 common
 "
-ac_add_options
--
--
-disable
--
-crashreporter
 .
 "
 topsrcdir

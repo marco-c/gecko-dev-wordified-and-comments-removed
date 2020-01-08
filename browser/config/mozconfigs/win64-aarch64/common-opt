@@ -167,15 +167,3 @@ export
 MOZ_PACKAGE_JSSHELL
 =
 1
-#
-Crashreporter
-does
-peculiar
-things
-.
-ac_add_options
--
--
-disable
--
-crashreporter
