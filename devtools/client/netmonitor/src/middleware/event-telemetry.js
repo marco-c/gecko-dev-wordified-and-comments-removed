@@ -395,11 +395,6 @@ telemetry
 recordEvent
 (
 "
-devtools
-.
-main
-"
-"
 filters_changed
 "
 "
@@ -459,11 +454,6 @@ telemetry
 recordEvent
 (
 "
-devtools
-.
-main
-"
-"
 sidepanel_changed
 "
 "
@@ -512,11 +502,6 @@ telemetry
 recordEvent
 (
 "
-devtools
-.
-main
-"
-"
 edit_resend
 "
 "
@@ -547,11 +532,6 @@ telemetry
 .
 recordEvent
 (
-"
-devtools
-.
-main
-"
 "
 throttle_changed
 "

@@ -449,6 +449,12 @@ toolClosed
 "
 accessibility_picker
 "
+this
+.
+toolbox
+.
+sessionId
+this
 )
 ;
 this
@@ -658,6 +664,12 @@ toolOpened
 "
 accessibility_picker
 "
+this
+.
+toolbox
+.
+sessionId
+this
 )
 ;
 this

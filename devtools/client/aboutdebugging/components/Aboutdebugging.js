@@ -492,6 +492,9 @@ toolOpened
 "
 aboutdebugging
 "
+-
+1
+this
 )
 ;
 }
@@ -522,6 +525,9 @@ toolClosed
 "
 aboutdebugging
 "
+-
+1
+this
 )
 ;
 }

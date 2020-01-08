@@ -281,11 +281,6 @@ telemetry
 recordEvent
 (
 "
-devtools
-.
-main
-"
-"
 filters_changed
 "
 "

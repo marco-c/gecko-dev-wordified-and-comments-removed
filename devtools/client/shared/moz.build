@@ -364,6 +364,11 @@ source
 js
 '
 '
+WeakMapMap
+.
+js
+'
+'
 webgl
 -
 utils

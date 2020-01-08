@@ -1513,6 +1513,9 @@ toolOpened
 "
 jsbrowserdebugger
 "
+-
+1
+this
 )
 ;
 dumpn
@@ -1764,6 +1767,9 @@ toolClosed
 "
 jsbrowserdebugger
 "
+-
+1
+this
 )
 ;
 if

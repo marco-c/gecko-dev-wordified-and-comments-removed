@@ -307,6 +307,7 @@ now
 ;
 sendEntryPointTelemetry
 (
+window
 )
 ;
 }
@@ -413,6 +414,7 @@ menuitem
 function
 sendEntryPointTelemetry
 (
+window
 )
 {
 if
@@ -433,11 +435,7 @@ telemetry
 .
 addEventProperty
 (
-"
-devtools
-.
-main
-"
+window
 "
 open
 "
@@ -456,11 +454,7 @@ telemetry
 .
 addEventProperty
 (
-"
-devtools
-.
-main
-"
+window
 "
 open
 "

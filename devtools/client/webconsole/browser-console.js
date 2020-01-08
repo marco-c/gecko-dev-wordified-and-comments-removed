@@ -213,6 +213,9 @@ toolOpened
 "
 browserconsole
 "
+-
+1
+this
 )
 ;
 this
@@ -275,6 +278,9 @@ toolClosed
 "
 browserconsole
 "
+-
+1
+this
 )
 ;
 await

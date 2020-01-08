@@ -4053,11 +4053,6 @@ telemetry
 recordEvent
 (
 "
-devtools
-.
-main
-"
-"
 edit_rule
 "
 "
@@ -4395,11 +4390,6 @@ telemetry
 .
 recordEvent
 (
-"
-devtools
-.
-main
-"
 "
 edit_rule
 "
@@ -4881,11 +4871,6 @@ telemetry
 .
 recordEvent
 (
-"
-devtools
-.
-main
-"
 "
 edit_rule
 "

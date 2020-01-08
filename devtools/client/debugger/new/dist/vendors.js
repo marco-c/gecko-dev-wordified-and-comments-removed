@@ -108024,7 +108024,6 @@ value
 }
 setEventRecordingEnabled
 (
-category
 enabled
 )
 {
@@ -108034,7 +108033,7 @@ enabled
 }
 preparePendingEvent
 (
-category
+obj
 method
 object
 value
@@ -108047,7 +108046,7 @@ expected
 }
 addEventProperty
 (
-category
+obj
 method
 object
 value
@@ -108058,7 +108057,7 @@ pendingPropValue
 }
 addEventProperties
 (
-category
+obj
 method
 object
 value
@@ -108068,7 +108067,7 @@ pendingObject
 }
 _sendPendingEvent
 (
-category
+obj
 method
 object
 value
@@ -108077,7 +108076,6 @@ value
 }
 recordEvent
 (
-category
 method
 object
 value
@@ -108088,12 +108086,16 @@ extra
 toolOpened
 (
 id
+sessionId
+obj
 )
 {
 }
 toolClosed
 (
 id
+sessionId
+obj
 )
 {
 }

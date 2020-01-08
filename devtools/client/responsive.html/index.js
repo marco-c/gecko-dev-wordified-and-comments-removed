@@ -265,6 +265,9 @@ toolOpened
 "
 responsive
 "
+-
+1
+this
 )
 ;
 const
@@ -340,6 +343,9 @@ toolClosed
 "
 responsive
 "
+-
+1
+this
 )
 ;
 this

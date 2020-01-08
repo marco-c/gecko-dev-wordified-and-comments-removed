@@ -494,6 +494,9 @@ toolOpened
 "
 webide
 "
+-
+1
+this
 )
 ;
 AppManager
@@ -775,6 +778,9 @@ toolClosed
 "
 webide
 "
+-
+1
+this
 )
 ;
 }

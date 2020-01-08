@@ -6686,11 +6686,6 @@ telemetry
 recordEvent
 (
 "
-devtools
-.
-main
-"
-"
 edit_html
 "
 "

@@ -3122,11 +3122,6 @@ telemetry
 recordEvent
 (
 "
-devtools
-.
-main
-"
-"
 edit_rule
 "
 "

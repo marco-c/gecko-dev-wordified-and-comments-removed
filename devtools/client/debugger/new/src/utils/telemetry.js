@@ -170,11 +170,6 @@ telemetry
 .
 recordEvent
 (
-"
-devtools
-.
-main
-"
 eventName
 "
 debugger
