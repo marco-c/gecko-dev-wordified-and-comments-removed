@@ -741,7 +741,6 @@ numTests
 ;
 for
 (
-var
 i
 =
 1
@@ -1387,7 +1386,6 @@ appendChild
 newNode
 )
 ;
-var
 newNode
 =
 doc
