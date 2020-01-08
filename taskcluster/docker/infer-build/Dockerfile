@@ -5,10 +5,10 @@ DOCKER_IMAGE_PARENT
 FROM
 DOCKER_IMAGE_PARENT
 MAINTAINER
-Mike
-Hommey
+Robert
+Bartlensky
 <
-mhommey
+rbartlensky
 mozilla
 .
 com
