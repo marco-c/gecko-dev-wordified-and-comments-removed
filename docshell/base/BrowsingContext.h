@@ -159,6 +159,16 @@ Detach
 )
 ;
 void
+CacheChildren
+(
+)
+;
+bool
+IsCached
+(
+)
+;
+void
 SetName
 (
 const

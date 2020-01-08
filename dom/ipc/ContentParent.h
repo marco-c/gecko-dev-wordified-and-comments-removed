@@ -2681,6 +2681,10 @@ const
 BrowsingContextId
 &
 aContextId
+const
+bool
+&
+aMoveToBFCache
 )
 override
 ;

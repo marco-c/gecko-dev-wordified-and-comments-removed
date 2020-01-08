@@ -31196,6 +31196,13 @@ childShell
 )
 ;
 }
+mBrowsingContext
+-
+>
+CacheChildren
+(
+)
+;
 return
 NS_OK
 ;
