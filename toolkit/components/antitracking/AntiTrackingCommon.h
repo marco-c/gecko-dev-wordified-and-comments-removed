@@ -78,7 +78,7 @@ nsAString
 aOrigin
 nsPIDOMWindowInner
 *
-a3rdPartyTrackingWindow
+aParentWindow
 )
 ;
 static
