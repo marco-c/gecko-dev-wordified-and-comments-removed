@@ -214,6 +214,14 @@ GetRGBStride
 )
 ;
 virtual
+bool
+HasIntermediateBuffer
+(
+)
+const
+override
+;
+virtual
 uint32_t
 NumSubTextures
 (
