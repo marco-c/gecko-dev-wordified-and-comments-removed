@@ -310,7 +310,9 @@ object
 "
 )
 {
-callbackNonTracking
+options
+.
+callback
 =
 callbackNonTracking
 .
@@ -457,6 +459,12 @@ blockingByAllowList
 false
 ;
 }
+callbackNonTracking
+=
+options
+.
+callback
+;
 }
 if
 (
