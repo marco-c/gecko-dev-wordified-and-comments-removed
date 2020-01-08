@@ -230,6 +230,11 @@ LCovRealm
 (
 )
 ;
+~
+LCovRealm
+(
+)
+;
 void
 collectCodeCoverageInfo
 (
