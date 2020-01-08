@@ -77,7 +77,7 @@ const
 DUMMY_VERSION_STRING
 =
 "
-dummy
+____NOP____
 "
 ;
 XPCOMUtils
