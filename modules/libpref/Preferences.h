@@ -197,6 +197,13 @@ kPrefsFileDescriptor
 =
 8
 ;
+static
+const
+int
+kPrefMapFileDescriptor
+=
+9
+;
 #
 endif
 enum
