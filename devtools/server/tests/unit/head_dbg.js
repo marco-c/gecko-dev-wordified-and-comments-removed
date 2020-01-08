@@ -1041,7 +1041,7 @@ null
 ;
 }
 function
-attachTab
+attachTarget
 (
 client
 tab
@@ -1073,7 +1073,7 @@ n
 return
 client
 .
-attachTab
+attachTarget
 (
 tab
 .
@@ -1874,7 +1874,7 @@ tab
 {
 client
 .
-attachTab
+attachTarget
 (
 tab
 .
