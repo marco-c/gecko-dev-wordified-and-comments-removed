@@ -59,11 +59,11 @@ mozdevice
     
 '
 mozfile
-=
+>
 =
 1
 .
-*
+2
 '
     
 '
