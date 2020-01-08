@@ -10,6 +10,13 @@ util
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 ContentUris
@@ -90,6 +97,12 @@ public
 class
 ContentUriUtils
 {
+SuppressLint
+(
+"
+NewAPI
+"
+)
 public
 static
 Nullable
