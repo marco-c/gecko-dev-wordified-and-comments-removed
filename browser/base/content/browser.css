@@ -2385,9 +2385,6 @@ main
 -
 window
 [
-inFullscreen
-]
-[
 inDOMFullscreen
 ]
 #
@@ -2398,9 +2395,6 @@ toolbox
 main
 -
 window
-[
-inFullscreen
-]
 [
 inDOMFullscreen
 ]
@@ -2413,9 +2407,6 @@ main
 -
 window
 [
-inFullscreen
-]
-[
 inDOMFullscreen
 ]
 #
@@ -2426,9 +2417,6 @@ box
 main
 -
 window
-[
-inFullscreen
-]
 [
 inDOMFullscreen
 ]
