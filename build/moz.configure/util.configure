@@ -3507,6 +3507,9 @@ add_old_configure_assignment
 (
 var
 value
+when
+=
+None
 )
 :
 var
@@ -3526,6 +3529,9 @@ depends
 old_configure_assignments
 var
 value
+when
+=
+when
 )
 imports
 (
