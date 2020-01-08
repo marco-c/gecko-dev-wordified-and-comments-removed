@@ -1702,11 +1702,11 @@ return
 true
 ;
 }
-nsXPConnect
+nsIXPConnect
 *
 xpc
 =
-nsXPConnect
+nsIXPConnect
 :
 :
 XPConnect
