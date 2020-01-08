@@ -85,16 +85,6 @@ return
 mInnerWindowID
 ;
 }
-bool
-DumpEnabled
-(
-)
-const
-{
-return
-mDumpEnabled
-;
-}
 const
 OriginAttributes
 &
@@ -133,10 +123,6 @@ mOuterWindowID
 const
 uint64_t
 mInnerWindowID
-;
-const
-bool
-mDumpEnabled
 ;
 const
 OriginAttributes
