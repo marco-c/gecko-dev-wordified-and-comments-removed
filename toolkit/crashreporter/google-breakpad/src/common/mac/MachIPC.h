@@ -53,6 +53,9 @@ namespace
 google_breakpad
 {
 #
+ifndef
+PRINT_MACH_RESULT
+#
 define
 PRINT_MACH_RESULT
 (
@@ -80,6 +83,8 @@ result_
 result_
 )
 ;
+#
+endif
 class
 MachMsgPortDescriptor
 :
