@@ -259,6 +259,11 @@ InspectorUtils
 webidl
 '
 '
+IteratorResult
+.
+webidl
+'
+'
 MatchGlob
 .
 webidl
@@ -300,11 +305,6 @@ webidl
 '
 '
 PrecompiledScript
-.
-webidl
-'
-'
-PrioEncoder
 .
 webidl
 '
