@@ -1769,7 +1769,17 @@ JitSpew_Codegen
 VM
 function
 wrapper
+(
+%
+s
+)
 "
+fun
+-
+>
+name
+(
+)
 )
 ;
 if
