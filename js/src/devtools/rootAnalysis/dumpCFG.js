@@ -714,8 +714,7 @@ Type
 Name
 +
 "
-:
-:
+.
 "
 +
 name

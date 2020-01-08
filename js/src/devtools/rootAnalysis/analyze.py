@@ -635,7 +635,7 @@ s
 '
 %
 (
-suppressedFunctions_list
+limitedFunctions_list
 )
 s
 '
@@ -1123,7 +1123,7 @@ gcEdges
 '
 '
 [
-suppressedFunctions_list
+limitedFunctions_list
 ]
 '
 )
@@ -1145,7 +1145,7 @@ gcEdges
 txt
 '
 '
-suppressedFunctions
+limitedFunctions
 .
 lst
 '
