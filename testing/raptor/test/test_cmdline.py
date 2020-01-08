@@ -36,6 +36,7 @@ app
 '
 firefox
 '
+                     
 binary
 =
 '
@@ -43,11 +44,20 @@ invalid
 /
 path
 '
+                     
 gecko_profile
 =
 '
 False
 '
+                     
+page_cycles
+=
+1
+                     
+page_timeout
+=
+60000
 )
     
 parser
