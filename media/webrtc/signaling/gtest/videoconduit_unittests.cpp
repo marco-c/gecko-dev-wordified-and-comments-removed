@@ -194,15 +194,6 @@ MockCall
 mCall
 )
 )
-MakeUnique
-<
-cricket
-:
-:
-VideoAdapter
->
-(
-)
 GetCurrentThreadEventTarget
 (
 )
