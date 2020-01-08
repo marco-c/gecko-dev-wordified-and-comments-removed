@@ -1685,8 +1685,6 @@ toString
 (
 )
 function
-bound
-unbound
 (
 )
 {

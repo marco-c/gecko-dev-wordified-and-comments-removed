@@ -74,7 +74,7 @@ asmModule
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -123,7 +123,7 @@ asmModule
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -174,7 +174,7 @@ asmFun
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -224,7 +224,7 @@ asmFun
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -273,7 +273,7 @@ asmModule1
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -322,7 +322,7 @@ asmModule2
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -373,7 +373,7 @@ asmFun
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -424,7 +424,7 @@ asmFun
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -461,7 +461,7 @@ anonymous
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -499,7 +499,7 @@ anonymous
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -539,7 +539,7 @@ asmFun
 \
 n
 [
-sourceless
+native
 code
 ]
 \
@@ -578,7 +578,7 @@ asmFun
 \
 n
 [
-sourceless
+native
 code
 ]
 \

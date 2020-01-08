@@ -37,7 +37,7 @@ function
 \
 n
 [
-sourceless
+native
 code
 ]
 \
