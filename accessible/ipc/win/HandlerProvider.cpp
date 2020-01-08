@@ -1119,7 +1119,6 @@ auto
 cleanup
 =
 [
-this
 aOutIA2Data
 ]
 (

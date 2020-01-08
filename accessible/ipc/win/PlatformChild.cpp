@@ -490,11 +490,6 @@ void
 {
 customProxy
 =
-std
-:
-:
-move
-(
 mozilla
 :
 :
@@ -503,7 +498,6 @@ mscom
 :
 RegisterProxy
 (
-)
 )
 ;
 }
@@ -551,11 +545,6 @@ void
 {
 ia2ProxyMTA
 =
-std
-:
-:
-move
-(
 mozilla
 :
 :
@@ -570,7 +559,6 @@ ia2marshal
 .
 dll
 "
-)
 )
 ;
 }
