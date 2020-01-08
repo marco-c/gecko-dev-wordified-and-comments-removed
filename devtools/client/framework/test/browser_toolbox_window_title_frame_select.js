@@ -114,6 +114,7 @@ URL
 const
 target
 =
+await
 TargetFactory
 .
 forTab

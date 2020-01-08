@@ -1003,6 +1003,7 @@ aUrl
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -1080,6 +1081,7 @@ aUrl
 const
 target
 =
+await
 TargetFactory
 .
 forTab

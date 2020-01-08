@@ -1649,6 +1649,7 @@ toolId
 const
 target
 =
+await
 TargetFactory
 .
 forTab

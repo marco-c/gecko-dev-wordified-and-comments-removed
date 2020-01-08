@@ -462,6 +462,7 @@ toolbox
 let
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -3632,6 +3633,7 @@ wrappedJSObject
 let
 target
 =
+yield
 TargetFactory
 .
 forTab

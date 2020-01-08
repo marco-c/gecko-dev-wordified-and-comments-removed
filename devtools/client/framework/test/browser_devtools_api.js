@@ -37,6 +37,7 @@ runTests1
 )
 ;
 }
+async
 function
 runTests1
 (
@@ -168,6 +169,7 @@ registered
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -401,6 +403,7 @@ runTests2
 )
 ;
 }
+async
 function
 runTests2
 (
@@ -513,6 +516,7 @@ registered
 const
 target
 =
+await
 TargetFactory
 .
 forTab
@@ -1168,6 +1172,7 @@ destroy
 .
 then
 (
+async
 function
 (
 )
@@ -1175,6 +1180,7 @@ function
 const
 target
 =
+await
 TargetFactory
 .
 forTab

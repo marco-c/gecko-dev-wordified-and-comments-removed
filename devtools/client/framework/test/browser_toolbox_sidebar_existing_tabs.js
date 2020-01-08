@@ -120,6 +120,7 @@ blank
 const
 target
 =
+await
 TargetFactory
 .
 forTab

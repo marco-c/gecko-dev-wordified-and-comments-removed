@@ -60,6 +60,7 @@ closeAndReopenToolbox
 const
 target
 =
+await
 TargetFactory
 .
 forTab

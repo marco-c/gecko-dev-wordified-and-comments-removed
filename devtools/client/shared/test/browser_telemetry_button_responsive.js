@@ -255,6 +255,7 @@ startTelemetry
 const
 target
 =
+await
 TargetFactory
 .
 forTab
