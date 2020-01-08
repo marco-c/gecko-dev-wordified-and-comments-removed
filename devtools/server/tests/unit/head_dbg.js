@@ -4145,6 +4145,11 @@ Cu
 Sandbox
 (
 principal
+{
+freshZone
+:
+true
+}
 )
 ;
 const
