@@ -197,7 +197,7 @@ android
     
 ]
     
-non_aarch64_tasks
+non_shipping_tasks
 =
 [
         
@@ -225,8 +225,27 @@ build_platform
 '
 '
 )
+and
+           
+'
+x86_64
+'
+not
+in
+task
+.
+attributes
+.
+get
+(
+'
+build_platform
+'
+'
+'
+)
     
 ]
     
 return
-non_aarch64_tasks
+non_shipping_tasks

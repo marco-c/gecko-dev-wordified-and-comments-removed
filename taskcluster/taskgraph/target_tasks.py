@@ -3340,6 +3340,14 @@ x86
 nightly
 '
                         
+'
+android
+-
+x86_64
+-
+nightly
+'
+                        
 )
 :
             
