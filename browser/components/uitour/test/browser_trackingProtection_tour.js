@@ -146,7 +146,9 @@ setup_block_target
 (
 )
 {
-TrackingProtection
+window
+.
+ContentBlocking
 .
 disableForCurrentPage
 (
@@ -173,7 +175,9 @@ trackingBlock
 "
 )
 ;
-TrackingProtection
+window
+.
+ContentBlocking
 .
 enableForCurrentPage
 (
