@@ -7,6 +7,15 @@ options
 expectedSidebarId
 )
 {
+EventUtils
+.
+synthesizeMouseAtCenter
+(
+gURLBar
+{
+}
+)
+;
 let
 promiseShown
 =
