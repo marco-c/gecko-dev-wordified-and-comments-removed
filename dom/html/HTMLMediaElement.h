@@ -2464,6 +2464,12 @@ mCapturingDecoder
 bool
 mCapturingMediaStream
 ;
+RefPtr
+<
+CaptureStreamTrackSourceGetter
+>
+mTrackSourceGetter
+;
 nsTArray
 <
 RefPtr
