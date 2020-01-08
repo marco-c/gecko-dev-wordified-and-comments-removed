@@ -457,9 +457,6 @@ official
 '
 withoutGeckoBinaries
 '
-'
-noMinApi
-'
 )
 '
 debug
@@ -481,9 +478,6 @@ official
 '
 withGeckoBinaries
 '
-'
-noMinApi
-'
 )
 '
 debug
@@ -504,9 +498,6 @@ official
 '
 '
 withGeckoBinaries
-'
-'
-noMinApi
 '
 )
 '
@@ -530,7 +521,7 @@ build_config
 '
 Like
 "
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 "
 .
 '

@@ -770,9 +770,6 @@ audience
 "
 geckoBinaries
 "
-"
-minApi
-"
 sourceSets
 {
 main

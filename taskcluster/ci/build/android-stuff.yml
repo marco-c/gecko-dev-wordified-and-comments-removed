@@ -798,7 +798,7 @@ lint
 -
 results
 -
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 .
 html
 path
@@ -834,7 +834,7 @@ lint
 -
 results
 -
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 .
 html
 type
@@ -853,7 +853,7 @@ lint
 -
 results
 -
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 .
 xml
 path
@@ -889,7 +889,7 @@ lint
 -
 results
 -
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 .
 xml
 type
@@ -908,7 +908,7 @@ lint
 -
 results
 -
-officialWithoutGeckoBinariesNoMinApiDebug_files
+officialWithoutGeckoBinariesDebug_files
 path
 :
 /
@@ -942,7 +942,7 @@ lint
 -
 results
 -
-officialWithoutGeckoBinariesNoMinApiDebug_files
+officialWithoutGeckoBinariesDebug_files
 type
 :
 directory
@@ -1711,7 +1711,7 @@ findbugs
 /
 findbugs
 -
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 -
 output
 .
@@ -1749,7 +1749,7 @@ findbugs
 /
 findbugs
 -
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 -
 output
 .
@@ -1768,7 +1768,7 @@ findbugs
 /
 findbugs
 -
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 -
 output
 .
@@ -1806,7 +1806,7 @@ findbugs
 /
 findbugs
 -
-officialWithoutGeckoBinariesNoMinApiDebug
+officialWithoutGeckoBinariesDebug
 -
 output
 .
