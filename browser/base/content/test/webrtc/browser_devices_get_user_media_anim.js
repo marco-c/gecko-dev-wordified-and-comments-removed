@@ -409,7 +409,9 @@ closeStream
 )
 ;
 await
-promiseWaitForCondition
+TestUtils
+.
+waitForCondition
 (
 (
 )
