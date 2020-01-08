@@ -33,6 +33,7 @@ cursor
 client
 frameActorId
 force
+selectedNodeActor
 }
 )
 {
@@ -188,6 +189,7 @@ autocompleteDataFetch
 input
 frameActorId
 client
+selectedNodeActor
 }
 )
 )
@@ -246,6 +248,7 @@ autocompleteDataFetch
 input
 frameActorId
 client
+selectedNodeActor
 }
 )
 {
@@ -282,6 +285,7 @@ autocomplete
 input
 undefined
 frameActorId
+selectedNodeActor
 )
 .
 then

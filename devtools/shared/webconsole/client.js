@@ -1237,6 +1237,7 @@ function
 string
 cursor
 frameActor
+selectedNodeActor
 )
 {
 const
@@ -1257,11 +1258,8 @@ text
 :
 string
 cursor
-:
-cursor
 frameActor
-:
-frameActor
+selectedNodeActor
 }
 ;
 return
