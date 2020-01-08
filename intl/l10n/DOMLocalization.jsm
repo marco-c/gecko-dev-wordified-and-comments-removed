@@ -1426,13 +1426,13 @@ Localization
 constructor
 (
 resourceIds
-generateMessages
+generateBundles
 )
 {
 super
 (
 resourceIds
-generateMessages
+generateBundles
 )
 ;
 this

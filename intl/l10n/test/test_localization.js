@@ -300,7 +300,7 @@ yield
 await
 L10nRegistry
 .
-generateContexts
+generateBundles
 (
 [
 "
@@ -624,7 +624,7 @@ yield
 await
 L10nRegistry
 .
-generateContexts
+generateBundles
 (
 [
 "
@@ -876,7 +876,7 @@ yield
 await
 L10nRegistry
 .
-generateContexts
+generateBundles
 (
 [
 "

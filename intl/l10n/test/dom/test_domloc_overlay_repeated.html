@@ -142,7 +142,7 @@ jsm
 ;
 const
 {
-MessageContext
+FluentBundle
 }
 =
 ChromeUtils
@@ -158,7 +158,7 @@ gre
 /
 modules
 /
-MessageContext
+Fluent
 .
 jsm
 "
@@ -176,15 +176,15 @@ resourceIds
 )
 {
 const
-mc
+bundle
 =
 new
-MessageContext
+FluentBundle
 (
 locales
 )
 ;
-mc
+bundle
 .
 addMessages
 (
@@ -235,7 +235,7 @@ website
 )
 ;
 yield
-mc
+bundle
 ;
 }
 window

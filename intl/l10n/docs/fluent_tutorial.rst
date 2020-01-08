@@ -3719,7 +3719,7 @@ be
 added
 .
 __
-http
+https
 :
 /
 /
@@ -5083,7 +5083,7 @@ modules
 in
 Gecko
 .
-MessageContext
+FluentBundle
 -
 -
 -
@@ -5098,7 +5098,7 @@ MessageContext
 -
 -
 -
-MessageContext
+FluentBundle
 is
 the
 lowest
@@ -5215,7 +5215,7 @@ uses
 :
 js
 :
-MessageContext
+FluentBundle
 internally
 but
 provides
@@ -5402,7 +5402,7 @@ of
 :
 js
 :
-MessageContext
+FluentBundle
 objects
 for
 a
@@ -5424,7 +5424,7 @@ uses
 .
 _Fluent
 :
-http
+https
 :
 /
 /
@@ -5608,7 +5608,7 @@ _Fluent
 Syntax
 Guide
 :
-http
+https
 :
 /
 /

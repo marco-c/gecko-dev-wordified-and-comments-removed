@@ -20,7 +20,7 @@ are
 affected
 :
 -
-MessageContext
+Fluent
 .
 jsm
 -
@@ -31,10 +31,6 @@ jsm
 DOMLocalization
 .
 jsm
--
-l10n
-.
-js
 At
 the
 moment

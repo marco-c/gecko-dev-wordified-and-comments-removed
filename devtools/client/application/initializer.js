@@ -436,12 +436,12 @@ updateWorkers
 )
 ;
 const
-messageContexts
+fluentBundles
 =
 await
 this
 .
-createMessageContexts
+createFluentBundles
 (
 )
 ;
@@ -456,7 +456,7 @@ client
 this
 .
 client
-messageContexts
+fluentBundles
 serviceContainer
 }
 )
@@ -481,7 +481,7 @@ mount
 ;
 }
 async
-createMessageContexts
+createFluentBundles
 (
 )
 {
@@ -499,7 +499,7 @@ generator
 =
 L10nRegistry
 .
-generateContexts
+generateBundles
 (
 locales
 [

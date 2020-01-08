@@ -193,7 +193,7 @@ PropTypes
 string
 .
 isRequired
-messageContexts
+fluentBundles
 :
 PropTypes
 .
@@ -213,7 +213,7 @@ workers
 domain
 client
 serviceContainer
-messageContexts
+fluentBundles
 }
 =
 this
@@ -264,7 +264,7 @@ LocalizationProvider
 {
 messages
 :
-messageContexts
+fluentBundles
 }
 main
 (

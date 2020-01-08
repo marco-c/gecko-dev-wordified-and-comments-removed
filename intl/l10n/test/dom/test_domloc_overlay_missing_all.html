@@ -142,7 +142,7 @@ jsm
 ;
 const
 {
-MessageContext
+FluentBundle
 }
 =
 ChromeUtils
@@ -158,7 +158,7 @@ gre
 /
 modules
 /
-MessageContext
+Fluent
 .
 jsm
 "
@@ -176,10 +176,10 @@ resourceIds
 )
 {
 const
-mc
+bundle
 =
 new
-MessageContext
+FluentBundle
 (
 locales
 )
@@ -190,7 +190,7 @@ No
 translations
 !
 yield
-mc
+bundle
 ;
 }
 SimpleTest

@@ -52,7 +52,7 @@ jsm
 ;
 const
 {
-MessageContext
+FluentBundle
 FluentResource
 }
 =
@@ -69,7 +69,7 @@ gre
 /
 modules
 /
-MessageContext
+Fluent
 .
 jsm
 "
@@ -123,7 +123,7 @@ bootstrap
 null
 async
 *
-generateContexts
+generateBundles
 (
 requestedLangs
 resourceIds
@@ -209,10 +209,10 @@ resourceIds
 )
 {
 const
-ctx
+bundle
 =
 new
-MessageContext
+FluentBundle
 (
 locale
 {
@@ -249,7 +249,7 @@ null
 return
 ;
 }
-ctx
+bundle
 .
 addResource
 (
@@ -258,7 +258,7 @@ data
 ;
 }
 yield
-ctx
+bundle
 ;
 }
 }
