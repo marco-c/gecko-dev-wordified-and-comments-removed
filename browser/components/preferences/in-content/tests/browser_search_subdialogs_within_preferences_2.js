@@ -103,8 +103,8 @@ evaluateSearchResults
 (
 "
 disabled
-Tracking
-Protection
+content
+blocking
 "
 "
 trackingGroup
