@@ -883,15 +883,6 @@ nullptr
 false
 )
 ;
-BGRAColor
-pmColor
-=
-aColor
-.
-Premultiply
-(
-)
-;
 int32_t
 rowLength
 =
@@ -972,7 +963,7 @@ ASSERT_LE_OR_RETURN
 (
 abs
 (
-pmColor
+aColor
 .
 mBlue
 -
@@ -991,7 +982,7 @@ ASSERT_LE_OR_RETURN
 (
 abs
 (
-pmColor
+aColor
 .
 mGreen
 -
@@ -1010,7 +1001,7 @@ ASSERT_LE_OR_RETURN
 (
 abs
 (
-pmColor
+aColor
 .
 mRed
 -
@@ -1029,7 +1020,7 @@ ASSERT_LE_OR_RETURN
 (
 abs
 (
-pmColor
+aColor
 .
 mAlpha
 -
@@ -1049,7 +1040,7 @@ else
 {
 ASSERT_EQ_OR_RETURN
 (
-pmColor
+aColor
 .
 mBlue
 data
@@ -1063,7 +1054,7 @@ false
 ;
 ASSERT_EQ_OR_RETURN
 (
-pmColor
+aColor
 .
 mGreen
 data
@@ -1077,7 +1068,7 @@ false
 ;
 ASSERT_EQ_OR_RETURN
 (
-pmColor
+aColor
 .
 mRed
 data
@@ -1091,7 +1082,7 @@ false
 ;
 ASSERT_EQ_OR_RETURN
 (
-pmColor
+aColor
 .
 mAlpha
 data
@@ -1604,9 +1595,6 @@ CreateAnonymousDecoder
 decoderType
 sourceBuffer
 Nothing
-(
-)
-DefaultDecoderFlags
 (
 )
 DefaultSurfaceFlags

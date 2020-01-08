@@ -107,9 +107,6 @@ uint32_t
 *
 local_colormap
 ;
-uint32_t
-local_colormap_buffer_size
-;
 int
 local_colormap_size
 ;

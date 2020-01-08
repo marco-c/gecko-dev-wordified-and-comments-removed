@@ -298,8 +298,6 @@ IntSize
 >
 &
 aOutputSize
-DecoderFlags
-aDecoderFlags
 SurfaceFlags
 aSurfaceFlags
 )

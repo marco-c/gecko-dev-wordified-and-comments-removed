@@ -110,11 +110,6 @@ TestAnimationFrameBuffer
 cpp
 '
 '
-TestBlendAnimationFilter
-.
-cpp
-'
-'
 TestContainers
 .
 cpp
