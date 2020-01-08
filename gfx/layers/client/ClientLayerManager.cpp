@@ -1871,7 +1871,7 @@ Get
 )
 -
 >
-EndLayerTransaction
+QueueEndLayerTransaction
 (
 nullptr
 )
@@ -3100,7 +3100,7 @@ Get
 )
 -
 >
-EndLayerTransaction
+QueueEndLayerTransaction
 (
 syncObject
 )
