@@ -135,7 +135,7 @@ PRMJ_FormatTime
 char
 *
 buf
-int
+size_t
 buflen
 const
 char

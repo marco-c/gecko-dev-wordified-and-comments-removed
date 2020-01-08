@@ -1772,6 +1772,16 @@ InterpretGeneratorResume
 \
 macro
 (
+InvalidDate
+InvalidDate
+"
+Invalid
+Date
+"
+)
+\
+macro
+(
 isEntryPoint
 isEntryPoint
 "
