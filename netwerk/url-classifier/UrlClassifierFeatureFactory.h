@@ -66,6 +66,13 @@ nsIUrlClassifierFeature
 aFeatures
 )
 ;
+static
+nsIUrlClassifierFeature
+*
+GetFeatureLoginReputation
+(
+)
+;
 }
 ;
 }

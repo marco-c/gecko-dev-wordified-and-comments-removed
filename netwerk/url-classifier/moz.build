@@ -173,6 +173,11 @@ UrlClassifierFeatureFactory
 cpp
 '
 '
+UrlClassifierFeatureLoginReputation
+.
+cpp
+'
+'
 UrlClassifierFeatureResult
 .
 cpp
