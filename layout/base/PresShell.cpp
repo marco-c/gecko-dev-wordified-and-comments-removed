@@ -35439,9 +35439,6 @@ startIndexOfNextLevel
 )
 ;
 }
-return
-false
-;
 }
 #
 endif
