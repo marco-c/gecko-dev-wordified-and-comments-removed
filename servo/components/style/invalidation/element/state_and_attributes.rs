@@ -815,13 +815,6 @@ ElementState
 :
 IN_VISITED_OR_UNVISITED_STATE
 )
-&
-&
-self
-.
-shared_context
-.
-visited_styles_enabled
 {
 trace
 !

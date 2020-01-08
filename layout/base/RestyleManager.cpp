@@ -13530,7 +13530,7 @@ if
 (
 aChangedBits
 .
-HasAtLeastOneOfStates
+HasAllStates
 (
 kVisitedAndUnvisited
 )
