@@ -560,7 +560,6 @@ features
 shader
 .
 name
-&
 None
 )
 ;
