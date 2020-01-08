@@ -614,9 +614,6 @@ endif
 int32_t
 frameDepth_
 ;
-int32_t
-frameInitialAdjustment_
-;
 FrameSizeClass
 frameClass_
 ;
