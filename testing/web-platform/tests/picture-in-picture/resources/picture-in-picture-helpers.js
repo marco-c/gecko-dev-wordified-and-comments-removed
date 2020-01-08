@@ -87,14 +87,15 @@ src
 sourceUrl
 |
 |
+getVideoURI
+(
 '
 /
 media
 /
 movie_5
-.
-ogv
 '
+)
 ;
 video
 .

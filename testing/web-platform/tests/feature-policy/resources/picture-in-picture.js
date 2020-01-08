@@ -46,14 +46,15 @@ video
 .
 src
 =
+getVideoURI
+(
 '
 /
 media
 /
 movie_5
-.
-ogv
 '
+)
 ;
 video
 .
