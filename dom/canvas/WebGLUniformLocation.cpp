@@ -126,6 +126,10 @@ const
 WebGLProgram
 *
 prog
+const
+char
+*
+funcName
 )
 const
 {
@@ -141,6 +145,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 This
 uniform
 location
@@ -157,6 +164,7 @@ successfully
 relinked
 .
 "
+funcName
 )
 ;
 return
@@ -180,6 +188,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 This
 uniform
 location
@@ -192,6 +203,7 @@ different
 program
 .
 "
+funcName
 )
 ;
 return
@@ -412,6 +424,10 @@ uint8_t
 setterElemSize
 GLenum
 setterType
+const
+char
+*
+funcName
 )
 const
 {
@@ -447,6 +463,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Function
 used
 differs
@@ -457,6 +476,7 @@ size
 %
 i
 "
+funcName
 uniformElemSize
 )
 ;
@@ -493,6 +513,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Function
 used
 is
@@ -506,6 +529,7 @@ type
 %
 i
 "
+funcName
 uniformElemType
 )
 ;
@@ -527,6 +551,10 @@ uint8_t
 setterElemSize
 size_t
 setterArraySize
+const
+char
+*
+funcName
 )
 const
 {
@@ -554,6 +582,9 @@ mContext
 ErrorInvalidValue
 (
 "
+%
+s
+:
 Expected
 an
 array
@@ -575,6 +606,7 @@ length
 zu
 .
 "
+funcName
 setterElemSize
 setterArraySize
 )
@@ -607,6 +639,9 @@ mContext
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Expected
 an
 array
@@ -638,6 +673,7 @@ length
 zu
 .
 "
+funcName
 setterElemSize
 setterArraySize
 )

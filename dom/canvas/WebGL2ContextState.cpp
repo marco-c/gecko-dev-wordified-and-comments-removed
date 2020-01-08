@@ -76,17 +76,6 @@ ErrorResult
 rv
 )
 {
-const
-FuncScope
-funcScope
-(
-*
-this
-"
-getParameter
-"
-)
-;
 if
 (
 IsContextLost

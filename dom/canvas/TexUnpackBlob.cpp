@@ -211,6 +211,10 @@ WebGLContext
 *
 webgl
 const
+char
+*
+funcName
+const
 webgl
 :
 :
@@ -234,6 +238,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Format
 or
 type
@@ -244,6 +251,7 @@ DOM
 sources
 .
 "
+funcName
 )
 ;
 return
@@ -613,6 +621,10 @@ ValidateUnpackPixels
 WebGLContext
 *
 webgl
+const
+char
+*
+funcName
 uint32_t
 fullRows
 uint32_t
@@ -695,6 +707,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 UNPACK_SKIP_PIXELS
 +
 width
@@ -704,6 +719,7 @@ width
 UNPACK_ROW_LENGTH
 .
 "
+funcName
 )
 ;
 return
@@ -729,11 +745,15 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 height
 >
 UNPACK_IMAGE_HEIGHT
 .
 "
+funcName
 )
 ;
 return
@@ -838,6 +858,9 @@ webgl
 ErrorOutOfMemory
 (
 "
+%
+s
+:
 Invalid
 calculation
 for
@@ -846,6 +869,7 @@ row
 count
 .
 "
+funcName
 )
 ;
 return
@@ -904,6 +928,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Desired
 upload
 requires
@@ -936,6 +963,7 @@ pixels
 available
 )
 "
+funcName
 fullRowsNeeded
 .
 value
@@ -961,6 +989,10 @@ ValidateUnpackBytes
 WebGLContext
 *
 webgl
+const
+char
+*
+funcName
 const
 webgl
 :
@@ -1066,12 +1098,16 @@ webgl
 ErrorOutOfMemory
 (
 "
+%
+s
+:
 Unacceptable
 upload
 size
 calculated
 .
 "
+funcName
 )
 ;
 return
@@ -1110,6 +1146,7 @@ return
 ValidateUnpackPixels
 (
 webgl
+funcName
 fullRows
 .
 value
@@ -1360,6 +1397,10 @@ WebGLContext
 *
 webgl
 const
+char
+*
+funcName
+const
 uint32_t
 rowLength
 const
@@ -1551,6 +1592,9 @@ webgl
 GeneratePerfWarning
 (
 "
+%
+s
+:
 Conversion
 requires
 pixel
@@ -1565,6 +1609,7 @@ u
 u
 )
 "
+funcName
 uint32_t
 (
 srcFormat
@@ -1590,6 +1635,9 @@ webgl
 GeneratePerfWarning
 (
 "
+%
+s
+:
 Conversion
 requires
 change
@@ -1601,6 +1649,7 @@ alpha
 premultiplication
 .
 "
+funcName
 )
 ;
 }
@@ -1619,6 +1668,9 @@ webgl
 GeneratePerfWarning
 (
 "
+%
+s
+:
 Conversion
 requires
 y
@@ -1626,6 +1678,7 @@ y
 flip
 .
 "
+funcName
 )
 ;
 }
@@ -1644,6 +1697,9 @@ webgl
 GeneratePerfWarning
 (
 "
+%
+s
+:
 Conversion
 requires
 change
@@ -1659,6 +1715,7 @@ u
 u
 )
 "
+funcName
 uint32_t
 (
 srcStride
@@ -1703,10 +1760,14 @@ webgl
 ErrorOutOfMemory
 (
 "
+%
+s
+:
 Calculation
 failed
 .
 "
+funcName
 )
 ;
 return
@@ -1742,6 +1803,9 @@ webgl
 ErrorOutOfMemory
 (
 "
+%
+s
+:
 Failed
 to
 allocate
@@ -1749,6 +1813,7 @@ dest
 buffer
 .
 "
+funcName
 )
 ;
 return
@@ -1803,10 +1868,14 @@ webgl
 ErrorImplementationBug
 (
 "
+%
+s
+:
 ConvertImage
 failed
 .
 "
+funcName
 )
 ;
 return
@@ -1986,6 +2055,10 @@ WebGLContext
 *
 webgl
 const
+char
+*
+funcName
+const
 webgl
 :
 :
@@ -2009,6 +2082,7 @@ return
 ValidateUnpackBytes
 (
 webgl
+funcName
 pi
 mAvailBytes
 this
@@ -2025,6 +2099,10 @@ bool
 isSubImage
 bool
 needsRespec
+const
+char
+*
+funcName
 WebGLTexture
 *
 tex
@@ -2169,6 +2247,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 Non
 -
 DOM
@@ -2192,6 +2273,7 @@ subrect
 selection
 .
 "
+funcName
 )
 ;
 return
@@ -2204,6 +2286,9 @@ webgl
 GenerateWarning
 (
 "
+%
+s
+:
 Alpha
 -
 premult
@@ -2224,6 +2309,7 @@ Element
 uploads
 .
 "
+funcName
 )
 ;
 const
@@ -2258,6 +2344,7 @@ if
 ConvertIfNeeded
 (
 webgl
+funcName
 rowLength
 rowCount
 format
@@ -2314,6 +2401,9 @@ webgl
 GenerateWarning
 (
 "
+%
+s
+:
 Uploads
 from
 a
@@ -2341,6 +2431,7 @@ extra
 overhead
 .
 "
+funcName
 )
 ;
 if
@@ -2895,6 +2986,10 @@ WebGLContext
 *
 webgl
 const
+char
+*
+funcName
+const
 webgl
 :
 :
@@ -2909,6 +3004,7 @@ if
 ValidatePIForDOM
 (
 webgl
+funcName
 pi
 )
 )
@@ -2932,6 +3028,7 @@ return
 ValidateUnpackPixels
 (
 webgl
+funcName
 fullRows
 0
 this
@@ -2948,6 +3045,10 @@ bool
 isSubImage
 bool
 needsRespec
+const
+char
+*
+funcName
 WebGLTexture
 *
 tex
@@ -3511,6 +3612,9 @@ nsPrintfCString
 perfMsg
 (
 "
+%
+s
+:
 Failed
 to
 hit
@@ -3530,6 +3634,7 @@ type
 u
 )
 "
+funcName
 fallbackReason
 uint32_t
 (
@@ -3645,6 +3750,9 @@ webgl
 ErrorOutOfMemory
 (
 "
+%
+s
+:
 GetAsSourceSurface
 or
 GetDataSurface
@@ -3658,6 +3766,7 @@ for
 TexUnpackImage
 .
 "
+funcName
 )
 ;
 return
@@ -3684,6 +3793,7 @@ TexOrSubImage
 (
 isSubImage
 needsRespec
+funcName
 tex
 target
 level
@@ -3978,6 +4088,10 @@ WebGLContext
 *
 webgl
 const
+char
+*
+funcName
+const
 webgl
 :
 :
@@ -3992,6 +4106,7 @@ if
 ValidatePIForDOM
 (
 webgl
+funcName
 pi
 )
 )
@@ -4015,6 +4130,7 @@ return
 ValidateUnpackPixels
 (
 webgl
+funcName
 fullRows
 0
 this
@@ -4031,6 +4147,10 @@ bool
 isSubImage
 bool
 needsRespec
+const
+char
+*
+funcName
 WebGLTexture
 *
 tex
@@ -4148,6 +4268,9 @@ webgl
 ErrorImplementationBug
 (
 "
+%
+s
+:
 GetFormatForSurf
 failed
 for
@@ -4160,6 +4283,7 @@ WebGLTexelFormat
 u
 .
 "
+funcName
 uint32_t
 (
 mSurf
@@ -4213,6 +4337,9 @@ webgl
 ErrorOutOfMemory
 (
 "
+%
+s
+:
 Failed
 to
 map
@@ -4222,6 +4349,7 @@ for
 upload
 .
 "
+funcName
 )
 ;
 return
@@ -4351,6 +4479,7 @@ if
 ConvertIfNeeded
 (
 webgl
+funcName
 rowLength
 rowCount
 srcFormat

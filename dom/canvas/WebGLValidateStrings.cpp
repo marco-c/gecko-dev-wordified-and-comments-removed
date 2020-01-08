@@ -808,6 +808,10 @@ WebGLContext
 *
 webgl
 const
+char
+*
+funcName
+const
 nsAString
 &
 string
@@ -858,6 +862,9 @@ webgl
 ErrorInvalidValue
 (
 "
+%
+s
+:
 String
 contains
 the
@@ -868,6 +875,7 @@ character
 x
 .
 "
+funcName
 cur
 )
 ;
@@ -901,6 +909,9 @@ webgl
 ErrorInvalidValue
 (
 "
+%
+s
+:
 Backslash
 is
 not
@@ -910,6 +921,7 @@ WebGL
 1
 .
 "
+funcName
 )
 ;
 return
@@ -931,6 +943,10 @@ name
 WebGLContext
 *
 webgl
+const
+char
+*
+funcName
 )
 {
 if
@@ -976,6 +992,9 @@ webgl
 ErrorInvalidValue
 (
 "
+%
+s
+:
 Identifier
 is
 %
@@ -995,6 +1014,7 @@ u
 characters
 .
 "
+funcName
 name
 .
 Length
@@ -1052,6 +1072,9 @@ webgl
 ErrorInvalidValue
 (
 "
+%
+s
+:
 String
 contains
 the
@@ -1063,6 +1086,7 @@ x
 '
 .
 "
+funcName
 cur
 )
 ;
@@ -1133,6 +1157,9 @@ webgl
 ErrorInvalidOperation
 (
 "
+%
+s
+:
 String
 contains
 a
@@ -1141,6 +1168,7 @@ GLSL
 prefix
 .
 "
+funcName
 )
 ;
 return

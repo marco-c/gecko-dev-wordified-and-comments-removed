@@ -235,6 +235,10 @@ const
 void
 QueryCounter
 (
+const
+char
+*
+funcName
 GLenum
 target
 )

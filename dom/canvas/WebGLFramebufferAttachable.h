@@ -51,6 +51,10 @@ attachment
 void
 InvalidateStatusOfAttachedFBs
 (
+const
+char
+*
+funcName
 )
 const
 ;
