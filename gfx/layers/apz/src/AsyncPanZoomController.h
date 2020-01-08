@@ -1684,6 +1684,12 @@ mCompositedScrollOffset
 CSSToParentLayerScale2D
 mCompositedZoom
 ;
+UniquePtr
+<
+PlatformSpecificStateBase
+>
+mPlatformSpecificState
+;
 AxisX
 mX
 ;
@@ -1719,12 +1725,6 @@ UniquePtr
 OverscrollEffectBase
 >
 mOverscrollEffect
-;
-UniquePtr
-<
-PlatformSpecificStateBase
->
-mPlatformSpecificState
 ;
 friend
 class
