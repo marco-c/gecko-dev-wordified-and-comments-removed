@@ -5533,6 +5533,10 @@ mPartialBuildFailed
 (
 false
 )
+mIsInActiveDocShell
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
