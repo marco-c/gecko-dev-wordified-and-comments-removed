@@ -5443,6 +5443,15 @@ to
 =
 actorID
 ;
+if
+(
+this
+.
+conn
+.
+_transport
+)
+{
 this
 .
 conn
@@ -5454,6 +5463,7 @@ send
 packet
 )
 ;
+}
 }
 )
 .
