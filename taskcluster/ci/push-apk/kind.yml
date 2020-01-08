@@ -273,7 +273,12 @@ make
 sure
 to
 change
-PUSH_APK_GOOGLE_PLAY_TRACT
+google
+-
+play
+-
+track
+above
 to
 #
 '
