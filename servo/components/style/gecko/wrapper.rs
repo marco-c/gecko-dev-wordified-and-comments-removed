@@ -3616,6 +3616,7 @@ Some
 (
 c
 )
+;
 }
 }
 snapshot_helpers
@@ -4289,6 +4290,7 @@ null_mut
 |
 slots
 |
+{
 slots
 .
 _base
@@ -4303,6 +4305,7 @@ nsIContent
 >
 (
 )
+}
 )
 }
 #
@@ -5032,7 +5035,6 @@ e
 )
 =
 >
-{
 e
 .
 is_svg_element
@@ -5056,7 +5058,6 @@ local_name
 use
 "
 )
-}
 None
 =
 >
@@ -6115,6 +6116,7 @@ self
 pseudo_element_originating_element
 (
 )
+;
 }
 self
 .
@@ -12595,7 +12597,6 @@ dir
 )
 =
 >
-{
 self
 .
 state
@@ -12610,7 +12611,6 @@ element_state
 (
 )
 )
-}
 }
 }
 fn

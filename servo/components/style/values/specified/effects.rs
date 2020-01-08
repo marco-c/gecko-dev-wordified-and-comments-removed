@@ -800,7 +800,6 @@ ParseError
 |
 i
 |
-{
 Length
 :
 :
@@ -809,7 +808,6 @@ parse_non_negative
 context
 i
 )
-}
 )
 {
 Ok

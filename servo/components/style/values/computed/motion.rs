@@ -10,6 +10,4 @@ motion
 :
 :
 OffsetPath
-as
-OffsetPath
 ;

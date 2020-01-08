@@ -2597,7 +2597,6 @@ shorthand
 )
 =
 >
-{
 shorthand
 .
 longhands
@@ -2625,7 +2624,6 @@ p
 )
 }
 )
-}
 Err
 (
 PropertyDeclarationId
@@ -4619,6 +4617,7 @@ Err
 )
 =
 >
+{
 return
 Ok
 (
@@ -4644,6 +4643,7 @@ none
 ?
 )
 )
+}
 }
 ;
 Ok
@@ -4674,7 +4674,6 @@ longhand_or_custom
 )
 =
 >
-{
 match
 longhand_or_custom
 {
@@ -4703,7 +4702,6 @@ custom
 )
 =
 >
-{
 TransitionProperty
 :
 :
@@ -4715,8 +4713,6 @@ clone
 (
 )
 )
-}
-}
 }
 }
 )

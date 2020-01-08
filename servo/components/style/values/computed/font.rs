@@ -2922,7 +2922,6 @@ FontFamilyType
 eFamily_moz_fixed
 =
 >
-{
 SingleFontFamily
 :
 :
@@ -2939,7 +2938,6 @@ fixed
 "
 )
 )
-}
 FontFamilyType
 :
 :

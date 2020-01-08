@@ -1097,6 +1097,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+;
 }
 return
 Ok
@@ -1109,6 +1110,7 @@ Weight
 number
 )
 )
+;
 }
 Ok
 (
@@ -1770,6 +1772,7 @@ Ok
 (
 angle
 )
+;
 }
 pub
 fn
@@ -2551,7 +2554,6 @@ kw
 )
 =
 >
-{
 computed
 :
 :
@@ -2566,7 +2568,6 @@ compute
 )
 )
 )
-}
 FontStretch
 :
 :

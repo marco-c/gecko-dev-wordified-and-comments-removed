@@ -675,6 +675,7 @@ Url
 url
 )
 )
+;
 }
 let
 location
@@ -965,10 +966,12 @@ _
 )
 =
 >
+{
 GeckoDocumentMatchingFunction
 :
 :
 MediaDocument
+}
 }
 ;
 let
@@ -1036,7 +1039,6 @@ kind
 )
 =
 >
-{
 match
 kind
 {
@@ -1076,7 +1078,6 @@ Video
 "
 video
 "
-}
 }
 }
 )

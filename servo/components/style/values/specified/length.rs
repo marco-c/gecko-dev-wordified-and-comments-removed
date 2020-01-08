@@ -4412,6 +4412,7 @@ parse_nested_block
 |
 i
 |
+{
 CalcNode
 :
 :
@@ -4421,6 +4422,7 @@ context
 i
 num_context
 )
+}
 )
 ?
 ;
@@ -5132,6 +5134,7 @@ parse_nested_block
 |
 i
 |
+{
 CalcNode
 :
 :
@@ -5141,6 +5144,7 @@ context
 i
 num_context
 )
+}
 )
 ?
 ;
@@ -5986,6 +5990,7 @@ parse_nested_block
 |
 i
 |
+{
 CalcNode
 :
 :
@@ -5995,6 +6000,7 @@ context
 i
 num_context
 )
+}
 )
 ?
 ;

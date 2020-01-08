@@ -1188,6 +1188,7 @@ Corner
 hc
 vc
 )
+;
 }
 if
 let
@@ -1217,6 +1218,7 @@ Horizontal
 (
 hc
 )
+;
 }
 }
 if
@@ -1247,6 +1249,7 @@ Vertical
 (
 vc
 )
+;
 }
 }
 LineDirection

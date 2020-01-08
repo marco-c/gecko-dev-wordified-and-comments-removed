@@ -547,7 +547,6 @@ ref
 t
 =
 >
-{
 return
 Err
 (
@@ -562,7 +561,6 @@ clone
 )
 )
 )
-}
 }
 ;
 if
@@ -598,6 +596,7 @@ inner_condition
 )
 )
 )
+;
 }
 let
 first_condition
@@ -934,6 +933,7 @@ inner
 )
 )
 )
+;
 }
 let
 expr
@@ -1066,7 +1066,6 @@ Operator
 And
 =
 >
-{
 iter
 .
 all
@@ -1082,14 +1081,12 @@ device
 quirks_mode
 )
 )
-}
 Operator
 :
 :
 Or
 =
 >
-{
 iter
 .
 any
@@ -1105,7 +1102,6 @@ device
 quirks_mode
 )
 )
-}
 }
 }
 }

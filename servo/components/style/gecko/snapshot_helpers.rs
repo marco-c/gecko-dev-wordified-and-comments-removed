@@ -582,7 +582,6 @@ atoms
 )
 =
 >
-{
 match
 case_sensitivity
 {
@@ -650,7 +649,6 @@ eq_ignore_ascii_case
 name
 )
 )
-}
 }
 }
 }

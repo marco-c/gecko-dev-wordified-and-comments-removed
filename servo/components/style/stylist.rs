@@ -5490,6 +5490,7 @@ animation
 ;
 }
 }
+;
 }
 if
 let
@@ -7395,7 +7396,6 @@ true
 |
 pseudo
 |
-{
 !
 pseudo
 .
@@ -7410,7 +7410,6 @@ pseudo
 is_unknown_webkit_pseudo_element
 (
 )
-}
 )
 )
 ;

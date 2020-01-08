@@ -694,6 +694,7 @@ b
 }
 }
 }
+;
 }
 descriptor_range_conversion
 !

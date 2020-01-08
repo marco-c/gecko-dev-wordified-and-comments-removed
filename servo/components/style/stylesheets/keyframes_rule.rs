@@ -2955,6 +2955,7 @@ Err
 )
 =
 >
+{
 return
 Err
 (
@@ -2971,6 +2972,7 @@ name
 )
 )
 )
+}
 }
 ;
 PropertyDeclaration

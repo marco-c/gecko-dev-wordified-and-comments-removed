@@ -984,7 +984,6 @@ and_then
 |
 s
 |
-{
 CString
 :
 :
@@ -1006,7 +1005,6 @@ new_custom_error
 )
 )
 )
-}
 )
 }
 )
