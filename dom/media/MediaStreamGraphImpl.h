@@ -28,13 +28,6 @@ h
 #
 include
 "
-Latency
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
@@ -1867,12 +1860,6 @@ mNonRealtimeProcessing
 ;
 bool
 mStreamOrderDirty
-;
-RefPtr
-<
-AsyncLatencyLogger
->
-mLatencyLog
 ;
 AudioMixer
 mMixer

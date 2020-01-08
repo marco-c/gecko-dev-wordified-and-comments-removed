@@ -550,11 +550,6 @@ AudioConverter
 h
 '
 '
-AudioDeviceInfo
-.
-h
-'
-'
 AudioMixer
 .
 h
@@ -656,11 +651,6 @@ h
 '
 '
 Intervals
-.
-h
-'
-'
-Latency
 .
 h
 '
@@ -1228,11 +1218,6 @@ cpp
 '
 '
 ImageToI420
-.
-cpp
-'
-'
-Latency
 .
 cpp
 '

@@ -577,10 +577,6 @@ mCaptureDelay
 (
 150
 )
-mLastTimestamp
-(
-0
-)
 mSamples
 (
 0
@@ -1233,9 +1229,6 @@ mCurSendCodecConfig
 ;
 int32_t
 mCaptureDelay
-;
-uint32_t
-mLastTimestamp
 ;
 webrtc
 :
