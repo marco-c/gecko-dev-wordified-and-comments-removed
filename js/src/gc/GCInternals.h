@@ -764,7 +764,7 @@ ObjectGroup
 *
 group
 ;
-int
+unsigned
 count
 ;
 }
