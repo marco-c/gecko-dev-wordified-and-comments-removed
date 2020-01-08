@@ -1856,9 +1856,6 @@ build
 .
 manifest
 "
-SCCACHE_REVISION
-:
-1ab9a33e8d328941acc23c74c949b765f975f309
 run
 :
 using
