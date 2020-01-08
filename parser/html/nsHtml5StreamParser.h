@@ -126,6 +126,15 @@ DocGroup
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Buffer
+.
+h
+"
 class
 nsHtml5Parser
 ;
