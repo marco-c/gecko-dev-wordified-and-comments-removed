@@ -17043,9 +17043,12 @@ valueInt
 valueInt
 >
 =
+long
+(
 ArrayLength
 (
 kMemoryErrorCorrectionValues
+)
 )
 )
 {
