@@ -4102,6 +4102,10 @@ InitConsumeStreamCallback
 (
 aWorkerCx
 ConsumeStream
+FetchUtil
+:
+:
+ReportJSStreamError
 )
 ;
 if

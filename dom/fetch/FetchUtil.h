@@ -170,6 +170,17 @@ WorkerPrivate
 aMaybeWorker
 )
 ;
+static
+void
+ReportJSStreamError
+(
+JSContext
+*
+aCx
+size_t
+aErrorCode
+)
+;
 }
 ;
 }

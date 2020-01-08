@@ -11663,6 +11663,10 @@ cx
 (
 )
 ConsumeStream
+FetchUtil
+:
+:
+ReportJSStreamError
 )
 ;
 Preferences
