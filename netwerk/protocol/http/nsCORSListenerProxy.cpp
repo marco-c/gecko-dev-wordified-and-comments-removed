@@ -2460,6 +2460,14 @@ status
 )
 )
 {
+if
+(
+NS_BINDING_ABORTED
+!
+=
+status
+)
+{
 LogBlockedRequest
 (
 aRequest
@@ -2470,6 +2478,7 @@ nullptr
 topChannel
 )
 ;
+}
 return
 status
 ;
