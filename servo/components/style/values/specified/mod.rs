@@ -248,6 +248,16 @@ use
 self
 :
 :
+basic_shape
+:
+:
+FillRule
+;
+pub
+use
+self
+:
+:
 border
 :
 :

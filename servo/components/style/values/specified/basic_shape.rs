@@ -76,7 +76,6 @@ basic_shape
 :
 :
 {
-FillRule
 GeometryBox
 Path
 PolygonCoord
@@ -193,6 +192,19 @@ url
 :
 :
 SpecifiedUrl
+;
+pub
+use
+values
+:
+:
+generics
+:
+:
+basic_shape
+:
+:
+FillRule
 ;
 pub
 type
