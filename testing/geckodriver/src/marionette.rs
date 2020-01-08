@@ -1291,10 +1291,6 @@ new
 "
 jsdebugger
 "
-.
-to_owned
-(
-)
 )
 )
 ;
