@@ -119,15 +119,9 @@ frame
 arguments
 .
 length
-hits
-<
-2
-?
 args
 .
 length
-:
-0
 )
 ;
 for
@@ -139,9 +133,7 @@ i
 ;
 i
 <
-frame
-.
-arguments
+args
 .
 length
 ;
