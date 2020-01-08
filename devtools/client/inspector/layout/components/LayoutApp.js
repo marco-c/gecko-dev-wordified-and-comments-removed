@@ -416,13 +416,6 @@ PropTypes
 func
 .
 isRequired
-onSetFlexboxOverlayColor
-:
-PropTypes
-.
-func
-.
-isRequired
 onSetGridOverlayColor
 :
 PropTypes

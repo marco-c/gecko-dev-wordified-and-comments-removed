@@ -34,12 +34,7 @@ actorID
 :
 PropTypes
 .
-string
-color
-:
-PropTypes
-.
-string
+number
 highlighted
 :
 PropTypes
