@@ -416,6 +416,11 @@ RangedPtr
 h
 '
 '
+RecordReplay
+.
+h
+'
+'
 ReentrancyGuard
 .
 h
@@ -860,6 +865,11 @@ cpp
 '
 '
 Poison
+.
+cpp
+'
+'
+RecordReplay
 .
 cpp
 '
