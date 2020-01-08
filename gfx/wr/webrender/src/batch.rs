@@ -4483,6 +4483,12 @@ if
 tile
 .
 is_visible
+|
+|
+!
+tile
+.
+in_use
 {
 continue
 ;
