@@ -246,10 +246,6 @@ aMode
 aBuildCaret
 true
 )
-mForEventsAndPluginsOnly
-(
-false
-)
 {
 }
 ~
@@ -367,11 +363,10 @@ ActiveScrolledRoot
 >
 &
 aOutContainerASR
-nsDisplayItem
-*
-aOuterItem
+uint32_t
+aOuterKey
 =
-nullptr
+0
 )
 ;
 bool
@@ -451,9 +446,6 @@ mList
 ;
 WeakFrame
 mPreviousCaret
-;
-bool
-mForEventsAndPluginsOnly
 ;
 }
 ;
