@@ -265,24 +265,6 @@ tests
 ]
     
 "
-metro_harness_path_frmt
-"
-:
-"
-%
-(
-metro_base_path
-)
-s
-/
-metro
-/
-metrotestharness
-.
-exe
-"
-    
-"
 download_minidump_stackwalk
 "
 :
