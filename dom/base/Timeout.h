@@ -187,9 +187,6 @@ mRunning
 bool
 mIsInterval
 ;
-bool
-mIsTracking
-;
 }
 ;
 }
