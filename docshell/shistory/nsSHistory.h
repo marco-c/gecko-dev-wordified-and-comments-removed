@@ -84,9 +84,6 @@ class
 nsISHEntry
 ;
 class
-nsISHTransaction
-;
-class
 nsSHistory
 final
 :
@@ -437,7 +434,7 @@ FindTransactionForBFCache
 nsIBFCacheEntry
 *
 aEntry
-nsISHTransaction
+nsISHEntry
 *
 *
 aResult
@@ -456,7 +453,7 @@ aIndex
 void
 EvictContentViewerForTransaction
 (
-nsISHTransaction
+nsISHEntry
 *
 aTrans
 )
@@ -512,7 +509,7 @@ nsTArray
 <
 nsCOMPtr
 <
-nsISHTransaction
+nsISHEntry
 >
 >
 mTransactions

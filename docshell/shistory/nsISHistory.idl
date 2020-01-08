@@ -111,9 +111,6 @@ interface
 nsISHistoryListener
 ;
 interface
-nsISHTransaction
-;
-interface
 nsIURI
 ;
 %
@@ -1044,7 +1041,7 @@ success
 .
 *
 /
-nsISHTransaction
+nsISHEntry
 GetTransactionAtIndex
 (
 in

@@ -109,11 +109,6 @@ nsISHistoryListener
 .
 idl
 '
-'
-nsISHTransaction
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
@@ -170,11 +165,6 @@ cpp
 '
 '
 nsSHistory
-.
-cpp
-'
-'
-nsSHTransaction
 .
 cpp
 '
