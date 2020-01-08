@@ -158,6 +158,17 @@ h
 #
 include
 "
+frontend
+/
+SharedContext
+-
+inl
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext
