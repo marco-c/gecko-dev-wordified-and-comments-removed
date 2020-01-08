@@ -228,10 +228,6 @@ POfflineCacheUpdate
 ;
 include
 protocol
-PRenderFrame
-;
-include
-protocol
 PSpeechSynthesis
 ;
 include
@@ -5804,8 +5800,6 @@ PBrowser
 aThisTab
 PBrowser
 aNewTab
-PRenderFrame
-aRenderFrame
 uint32_t
 aChromeFlags
 bool

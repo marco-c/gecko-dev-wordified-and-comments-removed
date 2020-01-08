@@ -365,13 +365,6 @@ TextureFactoryIdentifier
 ;
 }
 namespace
-layout
-{
-class
-PRenderFrameParent
-;
-}
-namespace
 dom
 {
 class
@@ -2060,12 +2053,6 @@ aThisTabParent
 PBrowserParent
 *
 aNewTab
-layout
-:
-:
-PRenderFrameParent
-*
-aRenderFrame
 const
 uint32_t
 &

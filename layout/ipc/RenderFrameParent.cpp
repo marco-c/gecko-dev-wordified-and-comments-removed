@@ -371,11 +371,7 @@ GetFrom
 aFrameLoader
 )
 ;
-base
-:
-:
-ProcessId
-pid
+mTabProcessId
 =
 browser
 -
@@ -413,7 +409,7 @@ gpm
 AllocateAndConnectLayerTreeId
 (
 compositor
-pid
+mTabProcessId
 &
 mLayersId
 &
@@ -647,8 +643,6 @@ RenderFrameParent
 :
 ActorDestroy
 (
-ActorDestroyReason
-why
 )
 {
 if
@@ -671,9 +665,7 @@ Get
 UnmapLayerTreeId
 (
 mLayersId
-OtherPid
-(
-)
+mTabProcessId
 )
 ;
 }

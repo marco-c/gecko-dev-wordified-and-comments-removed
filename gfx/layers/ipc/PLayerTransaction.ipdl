@@ -116,10 +116,6 @@ PCompositorBridge
 ;
 include
 protocol
-PRenderFrame
-;
-include
-protocol
 PTexture
 ;
 include

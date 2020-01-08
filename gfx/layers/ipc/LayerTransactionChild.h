@@ -55,13 +55,6 @@ namespace
 mozilla
 {
 namespace
-layout
-{
-class
-RenderFrameChild
-;
-}
-namespace
 layers
 {
 class
@@ -231,13 +224,6 @@ Release
 friend
 class
 CompositorBridgeChild
-;
-friend
-class
-layout
-:
-:
-RenderFrameChild
 ;
 ShadowLayerForwarder
 *

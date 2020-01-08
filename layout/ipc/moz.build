@@ -114,11 +114,6 @@ layout
 =
 [
 '
-RenderFrameChild
-.
-h
-'
-'
 RenderFrameParent
 .
 h
@@ -138,11 +133,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-RenderFrameChild
-.
-cpp
-'
 '
 RenderFrameParent
 .
@@ -167,11 +157,6 @@ cpp
 IPDL_SOURCES
 =
 [
-'
-PRenderFrame
-.
-ipdl
-'
 '
 PVsync
 .
