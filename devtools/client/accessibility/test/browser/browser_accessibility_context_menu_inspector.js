@@ -100,6 +100,11 @@ inspector
 "
 )
 ;
+await
+inspector
+.
+_isMarkupLoaded
+;
 if
 (
 !
