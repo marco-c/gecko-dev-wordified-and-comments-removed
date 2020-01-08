@@ -329,6 +329,10 @@ nsComputedDOMStyle
 h
 "
 using
+namespace
+mozilla
+;
+using
 mozilla
 :
 :

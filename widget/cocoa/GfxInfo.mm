@@ -151,6 +151,13 @@ h
 #
 include
 "
+nsCocoaUtils
+.
+h
+"
+#
+include
+"
 nsICrashReporter
 .
 h

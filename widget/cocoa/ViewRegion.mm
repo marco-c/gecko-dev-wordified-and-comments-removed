@@ -130,6 +130,13 @@ Cocoa
 .
 h
 >
+#
+include
+"
+nsChildView
+.
+h
+"
 using
 namespace
 mozilla

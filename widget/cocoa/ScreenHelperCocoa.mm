@@ -153,6 +153,10 @@ nsObjCExceptions
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 LazyLogModule
 sScreenLog

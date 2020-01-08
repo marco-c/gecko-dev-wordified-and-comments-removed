@@ -13,6 +13,13 @@ h
 "
 #
 include
+"
+nsCOMPtr
+.
+h
+"
+#
+include
 <
 ApplicationServices
 /

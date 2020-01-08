@@ -105,6 +105,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 nsCocoaUtils
 .
 h

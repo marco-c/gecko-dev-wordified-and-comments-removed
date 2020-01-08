@@ -129,6 +129,13 @@ nsChildView
 h
 "
 #
+include
+"
+nsCocoaFeatures
+.
+h
+"
+#
 import
 <
 objc
