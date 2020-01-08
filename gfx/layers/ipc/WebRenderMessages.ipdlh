@@ -541,14 +541,6 @@ pipelineId
 }
 ;
 struct
-OpRemoveExternalImageId
-{
-ExternalImageId
-externalImageId
-;
-}
-;
-struct
 OpReleaseTextureOfImage
 {
 ImageKey
@@ -593,8 +585,6 @@ WebRenderParentCommand
 OpAddPipelineIdForCompositable
 ;
 OpRemovePipelineIdForCompositable
-;
-OpRemoveExternalImageId
 ;
 OpReleaseTextureOfImage
 ;
