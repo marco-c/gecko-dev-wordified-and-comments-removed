@@ -389,6 +389,13 @@ parent
 parent
 -
 >
+RecvForceIsFirstPaint
+(
+)
+;
+parent
+-
+>
 ResumeCompositionAndResize
 (
 aWidth

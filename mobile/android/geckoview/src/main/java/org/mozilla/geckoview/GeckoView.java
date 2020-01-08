@@ -964,6 +964,13 @@ return
 null
 ;
 }
+coverUntilFirstPaint
+(
+Color
+.
+WHITE
+)
+;
 GeckoSession
 session
 =
