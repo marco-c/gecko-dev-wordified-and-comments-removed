@@ -12,13 +12,6 @@ DrawTargetD2D1
 .
 h
 "
-#
-include
-"
-Tools
-.
-h
-"
 namespace
 mozilla
 {

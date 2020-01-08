@@ -47,13 +47,6 @@ h
 #
 include
 "
-Tools
-.
-h
-"
-#
-include
-"
 ImageScaling
 .
 h

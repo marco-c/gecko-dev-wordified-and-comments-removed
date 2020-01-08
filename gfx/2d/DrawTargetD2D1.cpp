@@ -78,13 +78,6 @@ h
 #
 include
 "
-Tools
-.
-h
-"
-#
-include
-"
 nsAppRunner
 .
 h
