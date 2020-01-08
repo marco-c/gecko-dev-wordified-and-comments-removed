@@ -6762,6 +6762,12 @@ override
 ;
 nsIPrincipal
 *
+GetTopLevelPrincipal
+(
+)
+;
+nsIPrincipal
+*
 GetTopLevelStorageAreaPrincipal
 (
 )

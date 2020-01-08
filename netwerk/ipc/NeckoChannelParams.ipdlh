@@ -428,6 +428,9 @@ OptionalPrincipalInfo
 sandboxedLoadingPrincipalInfo
 ;
 OptionalPrincipalInfo
+topLevelPrincipalInfo
+;
+OptionalPrincipalInfo
 topLevelStorageAreaPrincipalInfo
 ;
 OptionalURIParams

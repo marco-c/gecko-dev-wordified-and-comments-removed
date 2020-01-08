@@ -301,6 +301,9 @@ nsIPrincipal
 aSandboxedLoadingPrincipal
 nsIPrincipal
 *
+aTopLevelPrincipal
+nsIPrincipal
+*
 aTopLevelStorageAreaPrincipal
 nsIURI
 *
@@ -555,6 +558,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mSandboxedLoadingPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mTopLevelPrincipal
 ;
 nsCOMPtr
 <
