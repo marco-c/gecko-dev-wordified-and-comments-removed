@@ -44,6 +44,12 @@ removeOverlay
 ;
 exports
 .
+clearSearch
+=
+clearSearch
+;
+exports
+.
 find
 =
 find

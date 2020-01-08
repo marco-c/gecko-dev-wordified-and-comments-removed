@@ -547,6 +547,8 @@ LOAD_SOURCE_TEXT
 "
 sourceId
 :
+source
+.
 id
 [
 _promise
