@@ -659,7 +659,7 @@ is
 used
 .
 See
-nsCSSPropList
+ServoCSSPropList
 .
 h
 <
@@ -667,9 +667,7 @@ https
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -679,11 +677,13 @@ central
 /
 source
 /
+__GENERATED__
+/
 layout
 /
 style
 /
-nsCSSPropList
+ServoCSSPropList
 .
 h
 >
