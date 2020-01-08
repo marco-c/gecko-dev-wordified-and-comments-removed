@@ -1384,7 +1384,6 @@ map
 |
 sec
 |
-{
 libc
 :
 :
@@ -1396,7 +1395,6 @@ nsec
 tv_sec
 :
 sec
-}
 }
 )
 }
