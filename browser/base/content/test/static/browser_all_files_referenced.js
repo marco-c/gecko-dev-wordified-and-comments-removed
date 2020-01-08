@@ -1608,6 +1608,9 @@ platforms
 "
 macosx
 "
+"
+win
+"
 ]
 }
 {
