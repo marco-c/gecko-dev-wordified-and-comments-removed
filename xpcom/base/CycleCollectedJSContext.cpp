@@ -1888,6 +1888,7 @@ CycleCollectedJSContext
 IsIdleGCTaskNeeded
 (
 )
+const
 {
 class
 IdleTimeGCTaskRunnable
@@ -2007,6 +2008,7 @@ CycleCollectedJSContext
 RecursionDepth
 (
 )
+const
 {
 return
 mOwningThread

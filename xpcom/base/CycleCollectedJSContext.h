@@ -216,8 +216,9 @@ public
 MicroTaskRunnable
 (
 )
-{
-}
+=
+default
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 MicroTaskRunnable
@@ -250,8 +251,9 @@ virtual
 MicroTaskRunnable
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -618,11 +620,13 @@ void
 IsIdleGCTaskNeeded
 (
 )
+const
 ;
 uint32_t
 RecursionDepth
 (
 )
+const
 ;
 void
 RunInStableState
@@ -711,6 +715,7 @@ bool
 IsInMicroTask
 (
 )
+const
 {
 return
 mMicroTaskLevel
@@ -723,6 +728,7 @@ uint32_t
 MicroTaskLevel
 (
 )
+const
 {
 return
 mMicroTaskLevel
@@ -758,6 +764,7 @@ bool
 IsInStableOrMetaStableState
 (
 )
+const
 {
 return
 mDoingStableStates
