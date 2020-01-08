@@ -127,6 +127,11 @@ ContentSearchChild
 jsm
 '
 '
+ContextMenuChild
+.
+jsm
+'
+'
 PageStyleChild
 .
 jsm

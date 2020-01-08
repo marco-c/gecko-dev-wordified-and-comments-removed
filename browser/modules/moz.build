@@ -1065,11 +1065,6 @@ ContentWebRTC
 jsm
 '
 '
-ContextMenu
-.
-jsm
-'
-'
 ExtensionsUI
 .
 jsm
