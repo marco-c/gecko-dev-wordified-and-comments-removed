@@ -461,7 +461,7 @@ nsISupports
 readonly
 attribute
 uint64_t
-tabId
+topOuterWindowId
 ;
 readonly
 attribute

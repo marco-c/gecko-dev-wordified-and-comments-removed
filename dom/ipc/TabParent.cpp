@@ -15107,9 +15107,6 @@ actor
 new
 PaymentRequestParent
 (
-GetTabId
-(
-)
 )
 ;
 return

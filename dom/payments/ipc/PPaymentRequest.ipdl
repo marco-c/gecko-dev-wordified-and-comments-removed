@@ -277,6 +277,9 @@ shippingType
 struct
 IPCPaymentCreateActionRequest
 {
+uint64_t
+topOuterWindowId
+;
 nsString
 requestId
 ;
