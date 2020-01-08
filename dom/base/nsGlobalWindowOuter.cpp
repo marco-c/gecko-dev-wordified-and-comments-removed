@@ -10259,6 +10259,15 @@ MOZ_DIAGNOSTIC_ASSERT
 aOpener
 |
 |
+!
+aOpener
+-
+>
+GetDocShell
+(
+)
+|
+|
 (
 GetBrowsingContext
 (
