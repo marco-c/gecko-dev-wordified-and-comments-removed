@@ -252,7 +252,7 @@ ResetTimeZoneMode
 )
 ;
 static
-void
+bool
 updateTimeZoneAdjustment
 (
 ResetTimeZoneMode
@@ -269,6 +269,7 @@ lock
 (
 )
 ;
+return
 guard
 -
 >
@@ -328,7 +329,7 @@ int64_t
 utcMilliseconds
 )
 ;
-void
+bool
 internalUpdateTimeZoneAdjustment
 (
 ResetTimeZoneMode
