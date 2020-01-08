@@ -78,17 +78,6 @@ config
 -
 pref
 -
-add
-=
-Add
-as
-:
-about
--
-config
--
-pref
--
 toggle
 =
 Toggle

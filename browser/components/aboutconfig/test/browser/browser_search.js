@@ -262,8 +262,6 @@ childElementCount
 filteredPrefArray
 .
 length
-+
-1
 )
 ;
 let
@@ -404,7 +402,7 @@ prefs
 )
 .
 childElementCount
-1
+0
 )
 ;
 let
