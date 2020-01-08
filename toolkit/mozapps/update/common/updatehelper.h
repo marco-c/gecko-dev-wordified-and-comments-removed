@@ -1,3 +1,10 @@
+#
+include
+"
+nsWindowsHelpers
+.
+h
+"
 BOOL
 StartServiceUpdate
 (
@@ -33,6 +40,9 @@ LPCWSTR
 updateDirPath
 int
 errorCode
+nsAutoHandle
+&
+userToken
 )
 ;
 DWORD
@@ -113,6 +123,12 @@ Mozilla
 \
 \
 MaintenanceService
+"
+#
+define
+USER_TOKEN_VAR_NAME
+"
+MOZ_USER_TOKEN
 "
 #
 define

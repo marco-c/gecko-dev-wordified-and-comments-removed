@@ -111,6 +111,11 @@ serviceinstall
 cpp
 '
 '
+usertoken
+.
+cpp
+'
+'
 workmonitor
 .
 cpp
@@ -172,6 +177,10 @@ LOCAL_INCLUDES
 +
 =
 [
+'
+/
+mfbt
+'
 '
 /
 toolkit
@@ -244,6 +253,12 @@ ws2_32
 '
 '
 shell32
+'
+'
+oleaut32
+'
+'
+wbemuuid
 '
 ]
 with
