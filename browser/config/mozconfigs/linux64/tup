@@ -83,8 +83,6 @@ disable
 js
 -
 shell
-unset
-ENABLE_CLANG_PLUGIN
 #
 To
 enable
