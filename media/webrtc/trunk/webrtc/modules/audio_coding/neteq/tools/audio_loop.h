@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_TOOLS_AUDIO_LOOP_H_
+MODULES_AUDIO_CODING_NETEQ_TOOLS_AUDIO_LOOP_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_TOOLS_AUDIO_LOOP_H_
+MODULES_AUDIO_CODING_NETEQ_TOOLS_AUDIO_LOOP_H_
 #
 include
 <
@@ -17,9 +17,7 @@ string
 #
 include
 "
-webrtc
-/
-base
+api
 /
 array_view
 .
@@ -28,9 +26,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -39,8 +35,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

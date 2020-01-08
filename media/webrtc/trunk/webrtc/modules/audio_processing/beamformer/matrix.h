@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
+MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
+MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_H_
 #
 include
 <
@@ -27,9 +27,7 @@ vector
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -38,9 +36,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .

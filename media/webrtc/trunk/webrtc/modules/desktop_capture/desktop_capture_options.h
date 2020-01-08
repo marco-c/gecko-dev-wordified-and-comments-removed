@@ -1,15 +1,13 @@
 #
 ifndef
-WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURE_OPTIONS_H_
+MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURE_OPTIONS_H_
 #
 define
-WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURE_OPTIONS_H_
+MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURE_OPTIONS_H_
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -18,9 +16,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 scoped_ref_ptr
 .
@@ -35,8 +31,6 @@ USE_X11
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -65,8 +59,6 @@ WEBRTC_IOS
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -80,8 +72,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture

@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_TEST_TESTREDFEC_H_
+MODULES_AUDIO_CODING_TEST_TESTREDFEC_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_TEST_TESTREDFEC_H_
+MODULES_AUDIO_CODING_TEST_TESTREDFEC_H_
 #
 include
 <
@@ -17,8 +17,6 @@ string
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -32,8 +30,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -47,8 +43,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding

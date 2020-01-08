@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_CODECS_CNG_WEBRTC_CNG_H_
+MODULES_AUDIO_CODING_CODECS_CNG_WEBRTC_CNG_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_CODECS_CNG_WEBRTC_CNG_H_
+MODULES_AUDIO_CODING_CODECS_CNG_WEBRTC_CNG_H_
 #
 include
 <
@@ -12,9 +12,7 @@ cstddef
 #
 include
 "
-webrtc
-/
-base
+api
 /
 array_view
 .
@@ -23,9 +21,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 buffer
 .
@@ -34,8 +30,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

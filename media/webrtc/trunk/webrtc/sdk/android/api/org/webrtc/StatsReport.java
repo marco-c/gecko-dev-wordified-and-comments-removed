@@ -22,6 +22,12 @@ final
 String
 value
 ;
+CalledByNative
+(
+"
+Value
+"
+)
 public
 Value
 (
@@ -44,6 +50,7 @@ value
 value
 ;
 }
+Override
 public
 String
 toString
@@ -122,6 +129,7 @@ Value
 ]
 values
 ;
+CalledByNative
 public
 StatsReport
 (
@@ -162,6 +170,7 @@ values
 values
 ;
 }
+Override
 public
 String
 toString

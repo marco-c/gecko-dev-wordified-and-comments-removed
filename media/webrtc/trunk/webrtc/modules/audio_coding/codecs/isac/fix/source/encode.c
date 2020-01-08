@@ -1,9 +1,7 @@
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -12,8 +10,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -40,8 +36,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -61,8 +55,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -82,8 +74,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -103,8 +93,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -124,8 +112,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -145,8 +131,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -166,8 +150,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -187,8 +169,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -208,8 +188,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding

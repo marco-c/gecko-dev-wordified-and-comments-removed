@@ -88,8 +88,6 @@ tree
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -99,8 +97,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport

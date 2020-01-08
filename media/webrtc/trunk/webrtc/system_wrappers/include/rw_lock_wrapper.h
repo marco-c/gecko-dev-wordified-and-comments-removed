@@ -1,15 +1,13 @@
 #
 ifndef
-WEBRTC_SYSTEM_WRAPPERS_INCLUDE_RW_LOCK_WRAPPER_H_
+SYSTEM_WRAPPERS_INCLUDE_RW_LOCK_WRAPPER_H_
 #
 define
-WEBRTC_SYSTEM_WRAPPERS_INCLUDE_RW_LOCK_WRAPPER_H_
+SYSTEM_WRAPPERS_INCLUDE_RW_LOCK_WRAPPER_H_
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 thread_annotations
 .
@@ -19,7 +17,7 @@ namespace
 webrtc
 {
 class
-LOCKABLE
+RTC_LOCKABLE
 RWLockWrapper
 {
 public
@@ -43,7 +41,7 @@ void
 AcquireLockExclusive
 (
 )
-EXCLUSIVE_LOCK_FUNCTION
+RTC_EXCLUSIVE_LOCK_FUNCTION
 (
 )
 =
@@ -54,7 +52,7 @@ void
 ReleaseLockExclusive
 (
 )
-UNLOCK_FUNCTION
+RTC_UNLOCK_FUNCTION
 (
 )
 =
@@ -65,7 +63,7 @@ void
 AcquireLockShared
 (
 )
-SHARED_LOCK_FUNCTION
+RTC_SHARED_LOCK_FUNCTION
 (
 )
 =
@@ -76,7 +74,7 @@ void
 ReleaseLockShared
 (
 )
-UNLOCK_FUNCTION
+RTC_UNLOCK_FUNCTION
 (
 )
 =
@@ -85,7 +83,7 @@ UNLOCK_FUNCTION
 }
 ;
 class
-SCOPED_LOCKABLE
+RTC_SCOPED_LOCKABLE
 ReadLockScoped
 {
 public
@@ -96,7 +94,7 @@ RWLockWrapper
 &
 rw_lock
 )
-SHARED_LOCK_FUNCTION
+RTC_SHARED_LOCK_FUNCTION
 (
 rw_lock
 )
@@ -117,7 +115,7 @@ AcquireLockShared
 ReadLockScoped
 (
 )
-UNLOCK_FUNCTION
+RTC_UNLOCK_FUNCTION
 (
 )
 {
@@ -137,7 +135,7 @@ rw_lock_
 }
 ;
 class
-SCOPED_LOCKABLE
+RTC_SCOPED_LOCKABLE
 WriteLockScoped
 {
 public
@@ -148,7 +146,7 @@ RWLockWrapper
 &
 rw_lock
 )
-EXCLUSIVE_LOCK_FUNCTION
+RTC_EXCLUSIVE_LOCK_FUNCTION
 (
 rw_lock
 )
@@ -169,7 +167,7 @@ AcquireLockExclusive
 WriteLockScoped
 (
 )
-UNLOCK_FUNCTION
+RTC_UNLOCK_FUNCTION
 (
 )
 {

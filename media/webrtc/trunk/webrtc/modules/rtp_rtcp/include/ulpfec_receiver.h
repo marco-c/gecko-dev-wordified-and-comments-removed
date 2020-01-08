@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_INCLUDE_ULPFEC_RECEIVER_H_
+MODULES_RTP_RTCP_INCLUDE_ULPFEC_RECEIVER_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_INCLUDE_ULPFEC_RECEIVER_H_
+MODULES_RTP_RTCP_INCLUDE_ULPFEC_RECEIVER_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -22,8 +20,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -81,7 +77,9 @@ UlpfecReceiver
 *
 Create
 (
-RtpData
+uint32_t
+ssrc
+RecoveredPacketReceiver
 *
 callback
 )

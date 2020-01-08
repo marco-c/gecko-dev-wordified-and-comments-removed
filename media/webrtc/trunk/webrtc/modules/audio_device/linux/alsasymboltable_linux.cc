@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_device
@@ -14,7 +12,10 @@ alsasymboltable_linux
 h
 "
 namespace
-webrtc_adm_linux_alsa
+webrtc
+{
+namespace
+adm_linux_alsa
 {
 LATE_BINDING_SYMBOL_TABLE_DEFINE_BEGIN
 (
@@ -47,4 +48,5 @@ LATE_BINDING_SYMBOL_TABLE_DEFINE_END
 (
 AlsaSymbolTable
 )
+}
 }

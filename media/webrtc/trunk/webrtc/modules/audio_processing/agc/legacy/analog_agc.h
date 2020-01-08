@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
+MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
+MODULES_AUDIO_PROCESSING_AGC_LEGACY_ANALOG_AGC_H_
 #
 ifdef
 WEBRTC_AGC_DEBUG_DUMP
@@ -19,8 +19,6 @@ endif
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -36,8 +34,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -53,8 +49,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

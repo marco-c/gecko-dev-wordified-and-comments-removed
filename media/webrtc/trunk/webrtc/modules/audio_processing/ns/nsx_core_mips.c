@@ -8,9 +8,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -19,8 +17,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -34,8 +30,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing

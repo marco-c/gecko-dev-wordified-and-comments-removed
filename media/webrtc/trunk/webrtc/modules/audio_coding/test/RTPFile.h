@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_TEST_RTPFILE_H_
+MODULES_AUDIO_CODING_TEST_RTPFILE_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_TEST_RTPFILE_H_
+MODULES_AUDIO_CODING_TEST_RTPFILE_H_
 #
 include
 <
@@ -19,8 +19,6 @@ queue
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -34,8 +32,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 include
@@ -47,8 +43,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -60,8 +54,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

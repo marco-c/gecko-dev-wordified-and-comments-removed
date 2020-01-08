@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 desktop_capture
@@ -21,9 +19,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

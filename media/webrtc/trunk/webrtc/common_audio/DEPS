@@ -15,14 +15,6 @@ openmax_dl
 .
 "
 +
-webrtc
-/
-base
-"
-"
-+
-webrtc
-/
 system_wrappers
 "
 ]

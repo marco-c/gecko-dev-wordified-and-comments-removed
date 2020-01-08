@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 remote_bitrate_estimator
@@ -21,9 +19,7 @@ vector
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 arraysize
 .
@@ -32,8 +28,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

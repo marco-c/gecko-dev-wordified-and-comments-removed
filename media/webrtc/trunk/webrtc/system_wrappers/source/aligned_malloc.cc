@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -49,8 +47,6 @@ endif
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

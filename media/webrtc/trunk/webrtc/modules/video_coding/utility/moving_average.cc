@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -131,12 +129,7 @@ return
 rtc
 :
 :
-Optional
-<
-int
->
-(
-)
+nullopt
 ;
 int
 sum
@@ -159,14 +152,6 @@ size
 ]
 ;
 return
-rtc
-:
-:
-Optional
-<
-int
->
-(
 sum
 /
 static_cast
@@ -175,7 +160,6 @@ int
 >
 (
 num_samples
-)
 )
 ;
 }

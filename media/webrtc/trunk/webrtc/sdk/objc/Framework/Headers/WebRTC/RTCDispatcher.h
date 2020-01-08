@@ -57,4 +57,15 @@ dispatch_block_t
 )
 block
 ;
++
+(
+BOOL
+)
+isOnQueueForType
+:
+(
+RTCDispatcherQueueType
+)
+dispatchType
+;
 end

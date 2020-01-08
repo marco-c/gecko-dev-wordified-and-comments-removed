@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -16,8 +14,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -33,8 +29,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock
@@ -44,8 +38,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

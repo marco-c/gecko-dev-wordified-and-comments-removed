@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_INCLUDE_CONFIG_H_
+MODULES_AUDIO_PROCESSING_INCLUDE_CONFIG_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_INCLUDE_CONFIG_H_
+MODULES_AUDIO_PROCESSING_INCLUDE_CONFIG_H_
 #
 include
 <
@@ -12,9 +12,7 @@ map
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 basictypes
 .
@@ -23,9 +21,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -53,7 +49,6 @@ kIntelligibility
 kEchoCanceller3
 kAecRefinedAdaptiveFilter
 kLevelControl
-kCaptureDeviceInfo
 }
 ;
 class

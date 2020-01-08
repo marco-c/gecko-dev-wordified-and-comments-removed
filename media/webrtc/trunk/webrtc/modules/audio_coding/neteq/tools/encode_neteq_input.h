@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_TOOLS_ENCODE_NETEQ_INPUT_H_
+MODULES_AUDIO_CODING_NETEQ_TOOLS_ENCODE_NETEQ_INPUT_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_TOOLS_ENCODE_NETEQ_INPUT_H_
+MODULES_AUDIO_CODING_NETEQ_TOOLS_ENCODE_NETEQ_INPUT_H_
 #
 include
 <
@@ -12,13 +12,9 @@ memory
 #
 include
 "
-webrtc
+api
 /
-modules
-/
-audio_coding
-/
-codecs
+audio_codecs
 /
 audio_encoder
 .
@@ -27,8 +23,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -44,8 +38,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 include

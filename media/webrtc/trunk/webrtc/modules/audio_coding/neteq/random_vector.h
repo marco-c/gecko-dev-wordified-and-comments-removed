@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_RANDOM_VECTOR_H_
+MODULES_AUDIO_CODING_NETEQ_RANDOM_VECTOR_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_NETEQ_RANDOM_VECTOR_H_
+MODULES_AUDIO_CODING_NETEQ_RANDOM_VECTOR_H_
 #
 include
 <
@@ -14,9 +14,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -25,8 +23,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

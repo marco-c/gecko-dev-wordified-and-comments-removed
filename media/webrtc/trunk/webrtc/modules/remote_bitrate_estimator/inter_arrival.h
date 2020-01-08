@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_REMOTE_BITRATE_ESTIMATOR_INTER_ARRIVAL_H_
+MODULES_REMOTE_BITRATE_ESTIMATOR_INTER_ARRIVAL_H_
 #
 define
-WEBRTC_MODULES_REMOTE_BITRATE_ESTIMATOR_INTER_ARRIVAL_H_
+MODULES_REMOTE_BITRATE_ESTIMATOR_INTER_ARRIVAL_H_
 #
 include
 <
@@ -12,9 +12,7 @@ cstddef
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -23,8 +21,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

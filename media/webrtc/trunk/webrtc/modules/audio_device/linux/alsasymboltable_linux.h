@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_AUDIO_DEVICE_ALSASYMBOLTABLE_LINUX_H
+AUDIO_DEVICE_ALSASYMBOLTABLE_LINUX_H_
 #
 define
-WEBRTC_AUDIO_DEVICE_ALSASYMBOLTABLE_LINUX_H
+AUDIO_DEVICE_ALSASYMBOLTABLE_LINUX_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_device
@@ -20,7 +18,10 @@ latebindingsymboltable_linux
 h
 "
 namespace
-webrtc_adm_linux_alsa
+webrtc
+{
+namespace
+adm_linux_alsa
 {
 #
 define
@@ -539,6 +540,7 @@ LATE_BINDING_SYMBOL_TABLE_DECLARE_END
 (
 AlsaSymbolTable
 )
+}
 }
 #
 endif

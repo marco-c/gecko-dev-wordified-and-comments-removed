@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_TEST_GL_GL_RENDERER_H_
+TEST_GL_GL_RENDERER_H_
 #
 define
-WEBRTC_TEST_GL_GL_RENDERER_H_
+TEST_GL_GL_RENDERER_H_
 #
 ifdef
 WEBRTC_MAC
@@ -32,8 +32,6 @@ endif
 #
 include
 "
-webrtc
-/
 test
 /
 video_renderer
@@ -43,8 +41,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

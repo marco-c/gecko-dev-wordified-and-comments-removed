@@ -6,8 +6,6 @@ string
 #
 include
 "
-webrtc
-/
 common_video
 /
 include
@@ -19,8 +17,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -44,7 +40,7 @@ rtc
 :
 scoped_refptr
 <
-VideoFrameBuffer
+I420BufferInterface
 >
 buffer
 =
@@ -198,7 +194,7 @@ rtc
 :
 scoped_refptr
 <
-VideoFrameBuffer
+I420BufferInterface
 >
 buffer
 =
@@ -383,7 +379,7 @@ rtc
 :
 scoped_refptr
 <
-VideoFrameBuffer
+I420BufferInterface
 >
 buffer1
 =

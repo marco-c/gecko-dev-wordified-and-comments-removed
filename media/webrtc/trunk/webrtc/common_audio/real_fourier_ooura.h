@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_COMMON_AUDIO_REAL_FOURIER_OOURA_H_
+COMMON_AUDIO_REAL_FOURIER_OOURA_H_
 #
 define
-WEBRTC_COMMON_AUDIO_REAL_FOURIER_OOURA_H_
+COMMON_AUDIO_REAL_FOURIER_OOURA_H_
 #
 include
 <
@@ -17,8 +17,6 @@ memory
 #
 include
 "
-webrtc
-/
 common_audio
 /
 real_fourier

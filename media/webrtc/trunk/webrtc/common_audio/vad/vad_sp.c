@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -14,9 +12,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -25,8 +21,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -40,8 +34,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 vad
@@ -53,8 +45,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

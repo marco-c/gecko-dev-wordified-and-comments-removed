@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -38,9 +36,7 @@ vector
 #
 include
 "
-webrtc
-/
-base
+api
 /
 array_view
 .
@@ -49,8 +45,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport

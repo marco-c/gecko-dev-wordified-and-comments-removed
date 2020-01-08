@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_CONGESTION_CONTROLLER_TRENDLINE_ESTIMATOR_H_
+MODULES_CONGESTION_CONTROLLER_TRENDLINE_ESTIMATOR_H_
 #
 define
-WEBRTC_MODULES_CONGESTION_CONTROLLER_TRENDLINE_ESTIMATOR_H_
+MODULES_CONGESTION_CONTROLLER_TRENDLINE_ESTIMATOR_H_
 #
 include
 <
@@ -21,7 +21,7 @@ h
 #
 include
 <
-list
+deque
 >
 #
 include
@@ -31,9 +31,7 @@ utility
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 constructormagic
 .
@@ -126,7 +124,7 @@ smoothed_delay_
 std
 :
 :
-list
+deque
 <
 std
 :

@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_INCLUDE_RTP_HEADER_PARSER_H_
+MODULES_RTP_RTCP_INCLUDE_RTP_HEADER_PARSER_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_INCLUDE_RTP_HEADER_PARSER_H_
+MODULES_RTP_RTCP_INCLUDE_RTP_HEADER_PARSER_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -22,8 +20,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -78,10 +74,6 @@ length
 RTPHeader
 *
 header
-bool
-secured
-=
-false
 )
 const
 =

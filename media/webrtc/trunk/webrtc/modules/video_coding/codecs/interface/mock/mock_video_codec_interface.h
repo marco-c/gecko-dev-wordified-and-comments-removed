@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_VIDEO_CODING_CODECS_INTERFACE_MOCK_MOCK_VIDEO_CODEC_INTERFACE_H_
+MODULES_VIDEO_CODING_CODECS_INTERFACE_MOCK_MOCK_VIDEO_CODEC_INTERFACE_H_
 #
 define
-WEBRTC_MODULES_VIDEO_CODING_CODECS_INTERFACE_MOCK_MOCK_VIDEO_CODEC_INTERFACE_H_
+MODULES_VIDEO_CODING_CODECS_INTERFACE_MOCK_MOCK_VIDEO_CODEC_INTERFACE_H_
 #
 pragma
 message
@@ -40,8 +40,6 @@ vector
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -55,8 +53,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock
@@ -66,8 +62,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

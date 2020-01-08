@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_TEST_RTP_FILE_READER_H_
+TEST_RTP_FILE_READER_H_
 #
 define
-WEBRTC_TEST_RTP_FILE_READER_H_
+TEST_RTP_FILE_READER_H_
 #
 include
 <
@@ -17,8 +17,6 @@ string
 #
 include
 "
-webrtc
-/
 common_types
 .
 h

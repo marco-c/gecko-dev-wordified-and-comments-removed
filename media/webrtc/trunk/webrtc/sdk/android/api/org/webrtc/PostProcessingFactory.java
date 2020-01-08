@@ -1,0 +1,16 @@
+package
+org
+.
+webrtc
+;
+public
+interface
+PostProcessingFactory
+{
+public
+long
+createNative
+(
+)
+;
+}

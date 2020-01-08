@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_ACM2_ACM_RESAMPLER_H_
+MODULES_AUDIO_CODING_ACM2_ACM_RESAMPLER_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_ACM2_ACM_RESAMPLER_H_
+MODULES_AUDIO_CODING_ACM2_ACM_RESAMPLER_H_
 #
 include
 "
-webrtc
-/
 common_audio
 /
 resampler
@@ -22,8 +20,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

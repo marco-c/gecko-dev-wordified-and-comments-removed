@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 test
 /
 fake_decoder
@@ -12,8 +10,6 @@ h
 #
 include
 "
-webrtc
-/
 api
 /
 video
@@ -25,9 +21,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 timeutils
 .
@@ -36,8 +30,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -35,8 +33,6 @@ string
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -46,8 +42,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport

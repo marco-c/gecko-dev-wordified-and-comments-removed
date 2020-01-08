@@ -36,11 +36,7 @@ h
 #
 include
 "
-webrtc
-/
-system_wrappers
-/
-include
+rtc_base
 /
 compile_assert_c
 .
@@ -1220,7 +1216,7 @@ ubuf
 )
 )
 ;
-COMPILE_ASSERT
+RTC_COMPILE_ASSERT
 (
 sizeof
 (

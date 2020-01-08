@@ -7,8 +7,6 @@ MIPS32_LE
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -19,6 +17,13 @@ signal_processing_library
 .
 h
 "
+#
+if
+!
+defined
+(
+MIPS_DSP_R2_LE
+)
 static
 const
 uint16_t
@@ -47,6 +52,8 @@ kResampleAllpass2
 60255
 }
 ;
+#
+endif
 #
 define
 MUL_ACCUM_1

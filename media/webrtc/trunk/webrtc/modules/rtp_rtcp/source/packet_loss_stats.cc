@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -21,9 +19,7 @@ vector
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

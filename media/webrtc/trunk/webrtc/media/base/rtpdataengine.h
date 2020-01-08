@@ -1,9 +1,14 @@
 #
 ifndef
-WEBRTC_MEDIA_BASE_RTPDATAENGINE_H_
+MEDIA_BASE_RTPDATAENGINE_H_
 #
 define
-WEBRTC_MEDIA_BASE_RTPDATAENGINE_H_
+MEDIA_BASE_RTPDATAENGINE_H_
+#
+include
+<
+map
+>
 #
 include
 <
@@ -22,8 +27,6 @@ vector
 #
 include
 "
-webrtc
-/
 media
 /
 base
@@ -35,8 +38,6 @@ h
 #
 include
 "
-webrtc
-/
 media
 /
 base
@@ -48,8 +49,6 @@ h
 #
 include
 "
-webrtc
-/
 media
 /
 base
@@ -181,6 +180,7 @@ DataMediaChannel
 {
 public
 :
+explicit
 RtpDataMediaChannel
 (
 const
@@ -328,15 +328,6 @@ OnReadyToSend
 (
 bool
 ready
-)
-{
-}
-virtual
-void
-OnTransportOverheadChanged
-(
-int
-transport_overhead_per_packet
 )
 {
 }

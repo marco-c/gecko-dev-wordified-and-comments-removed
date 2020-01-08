@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_RTP_RTCP_SOURCE_FEC_PRIVATE_TABLES_BURSTY_H_
+MODULES_RTP_RTCP_SOURCE_FEC_PRIVATE_TABLES_BURSTY_H_
 #
 define
-WEBRTC_MODULES_RTP_RTCP_SOURCE_FEC_PRIVATE_TABLES_BURSTY_H_
+MODULES_RTP_RTCP_SOURCE_FEC_PRIVATE_TABLES_BURSTY_H_
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -1530,6 +1528,7 @@ kMaskBursty12_12
 const
 uint8_t
 *
+const
 kPacketMaskBursty1
 [
 1
@@ -1542,6 +1541,7 @@ kMaskBursty1_1
 const
 uint8_t
 *
+const
 kPacketMaskBursty2
 [
 2
@@ -1555,6 +1555,7 @@ kMaskBursty2_2
 const
 uint8_t
 *
+const
 kPacketMaskBursty3
 [
 3
@@ -1569,6 +1570,7 @@ kMaskBursty3_3
 const
 uint8_t
 *
+const
 kPacketMaskBursty4
 [
 4
@@ -1584,6 +1586,7 @@ kMaskBursty4_4
 const
 uint8_t
 *
+const
 kPacketMaskBursty5
 [
 5
@@ -1600,6 +1603,7 @@ kMaskBursty5_5
 const
 uint8_t
 *
+const
 kPacketMaskBursty6
 [
 6
@@ -1617,6 +1621,7 @@ kMaskBursty6_6
 const
 uint8_t
 *
+const
 kPacketMaskBursty7
 [
 7
@@ -1635,6 +1640,7 @@ kMaskBursty7_7
 const
 uint8_t
 *
+const
 kPacketMaskBursty8
 [
 8
@@ -1654,6 +1660,7 @@ kMaskBursty8_8
 const
 uint8_t
 *
+const
 kPacketMaskBursty9
 [
 9
@@ -1674,6 +1681,7 @@ kMaskBursty9_9
 const
 uint8_t
 *
+const
 kPacketMaskBursty10
 [
 10
@@ -1695,6 +1703,7 @@ kMaskBursty10_10
 const
 uint8_t
 *
+const
 kPacketMaskBursty11
 [
 11
@@ -1717,6 +1726,7 @@ kMaskBursty11_11
 const
 uint8_t
 *
+const
 kPacketMaskBursty12
 [
 12
@@ -1740,7 +1750,9 @@ kMaskBursty12_12
 const
 uint8_t
 *
+const
 *
+const
 kPacketMaskBurstyTbl
 [
 12

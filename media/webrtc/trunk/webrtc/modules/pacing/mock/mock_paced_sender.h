@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_PACING_MOCK_MOCK_PACED_SENDER_H_
+MODULES_PACING_MOCK_MOCK_PACED_SENDER_H_
 #
 define
-WEBRTC_MODULES_PACING_MOCK_MOCK_PACED_SENDER_H_
+MODULES_PACING_MOCK_MOCK_PACED_SENDER_H_
 #
 include
 <
@@ -12,8 +12,6 @@ vector
 #
 include
 "
-webrtc
-/
 modules
 /
 pacing
@@ -25,8 +23,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -38,8 +34,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock
@@ -69,6 +63,7 @@ Clock
 GetRealTimeClock
 (
 )
+nullptr
 nullptr
 )
 {
@@ -145,6 +140,14 @@ Optional
 <
 int64_t
 >
+(
+)
+)
+;
+MOCK_METHOD0
+(
+Process
+void
 (
 )
 )

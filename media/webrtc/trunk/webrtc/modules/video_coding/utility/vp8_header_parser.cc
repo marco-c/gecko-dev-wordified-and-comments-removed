@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 video_coding
@@ -16,9 +14,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 logging
 .
@@ -985,7 +981,7 @@ length
 kCommonPayloadHeaderLength
 )
 {
-LOG
+RTC_LOG
 (
 LS_WARNING
 )
@@ -1081,7 +1077,7 @@ partition_length
 length
 )
 {
-LOG
+RTC_LOG
 (
 LS_WARNING
 )
@@ -1177,7 +1173,7 @@ eof_
 1
 )
 {
-LOG
+RTC_LOG
 (
 LS_WARNING
 )

@@ -6,8 +6,6 @@ memory
 #
 include
 "
-webrtc
-/
 common_audio
 /
 audio_ring_buffer
@@ -17,8 +15,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 channel_buffer
@@ -28,8 +24,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

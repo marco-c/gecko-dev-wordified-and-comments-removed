@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_device
@@ -25,9 +23,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 arraysize
 .
@@ -36,9 +32,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

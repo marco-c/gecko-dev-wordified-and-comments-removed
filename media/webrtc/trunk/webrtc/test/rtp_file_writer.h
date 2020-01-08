@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_TEST_RTP_FILE_WRITER_H_
+TEST_RTP_FILE_WRITER_H_
 #
 define
-WEBRTC_TEST_RTP_FILE_WRITER_H_
+TEST_RTP_FILE_WRITER_H_
 #
 include
 <
@@ -12,8 +12,6 @@ string
 #
 include
 "
-webrtc
-/
 common_types
 .
 h
@@ -21,8 +19,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 rtp_file_reader

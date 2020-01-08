@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -16,8 +14,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -31,8 +27,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -42,8 +36,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -188,7 +180,7 @@ EXPECT_TRUE
 fft
 =
 =
-NULL
+nullptr
 )
 ;
 fft
@@ -204,7 +196,7 @@ EXPECT_TRUE
 fft
 =
 =
-NULL
+nullptr
 )
 ;
 }
@@ -307,7 +299,6 @@ j
 0
 ;
 }
-;
 RealFFT
 *
 fft
@@ -322,7 +313,7 @@ EXPECT_TRUE
 fft
 !
 =
-NULL
+nullptr
 )
 ;
 EXPECT_EQ

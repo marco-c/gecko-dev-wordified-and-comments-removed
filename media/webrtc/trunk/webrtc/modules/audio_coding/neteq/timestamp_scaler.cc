@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -16,8 +14,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -31,13 +27,9 @@ h
 #
 include
 "
-webrtc
+rtc_base
 /
-system_wrappers
-/
-include
-/
-logging
+checks
 .
 h
 "
@@ -289,10 +281,9 @@ external_timestamp
 -
 external_ref_
 ;
-assert
+RTC_DCHECK_GT
 (
 denominator_
->
 0
 )
 ;
@@ -364,10 +355,9 @@ internal_timestamp
 -
 internal_ref_
 ;
-assert
+RTC_DCHECK_GT
 (
 numerator_
->
 0
 )
 ;

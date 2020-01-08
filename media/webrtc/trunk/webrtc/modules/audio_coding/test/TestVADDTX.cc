@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -21,8 +19,6 @@ string
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -36,8 +32,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -51,8 +45,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -66,8 +58,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport
@@ -79,8 +69,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h
@@ -368,7 +356,6 @@ AudioCodingModule
 :
 Create
 (
-0
 )
 )
 acm_receive_
@@ -378,7 +365,6 @@ AudioCodingModule
 :
 Create
 (
-1
 )
 )
 channel_
@@ -1310,6 +1296,13 @@ kEmptyFrame
 =
 1
 ;
+expects
+[
+kAudioFrameCN
+]
+=
+1
+;
 Run
 (
 webrtc
@@ -1377,6 +1370,13 @@ kEmptyFrame
 =
 0
 ;
+expects
+[
+kAudioFrameCN
+]
+=
+0
+;
 Run
 (
 webrtc
@@ -1417,6 +1417,13 @@ EnableOpusDtx
 expects
 [
 kEmptyFrame
+]
+=
+1
+;
+expects
+[
+kAudioFrameCN
 ]
 =
 1

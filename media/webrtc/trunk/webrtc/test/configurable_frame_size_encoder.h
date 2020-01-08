@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_TEST_CONFIGURABLE_FRAME_SIZE_ENCODER_H_
+TEST_CONFIGURABLE_FRAME_SIZE_ENCODER_H_
 #
 define
-WEBRTC_TEST_CONFIGURABLE_FRAME_SIZE_ENCODER_H_
+TEST_CONFIGURABLE_FRAME_SIZE_ENCODER_H_
 #
 include
 <
@@ -17,7 +17,9 @@ vector
 #
 include
 "
-webrtc
+api
+/
+video_codecs
 /
 video_encoder
 .

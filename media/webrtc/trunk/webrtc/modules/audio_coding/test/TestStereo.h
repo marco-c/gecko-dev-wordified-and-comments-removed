@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
+MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
 #
 define
-WEBRTC_MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
+MODULES_AUDIO_CODING_TEST_TESTSTEREO_H_
 #
 include
 <
@@ -19,8 +19,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -34,8 +32,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -49,8 +45,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -312,14 +306,9 @@ char
 *
 send_codec_name_
 ;
-#
-ifdef
-WEBRTC_CODEC_G722
 int
 g722_pltype_
 ;
-#
-endif
 int
 l16_8khz_pltype_
 ;

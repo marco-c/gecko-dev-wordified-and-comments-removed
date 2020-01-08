@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MODULES_MEDIA_FILE_MEDIA_FILE_UTILITY_H_
+MODULES_MEDIA_FILE_MEDIA_FILE_UTILITY_H_
 #
 define
-WEBRTC_MODULES_MEDIA_FILE_MEDIA_FILE_UTILITY_H_
+MODULES_MEDIA_FILE_MEDIA_FILE_UTILITY_H_
 #
 include
 <
@@ -14,8 +14,6 @@ h
 #
 include
 "
-webrtc
-/
 common_types
 .
 h
@@ -23,8 +21,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 media_file
@@ -49,9 +45,6 @@ public
 :
 ModuleFileUtility
 (
-const
-int32_t
-id
 )
 ;
 ~
@@ -458,6 +451,7 @@ kCodecIsacLc
 kCodecL16_8Khz
 kCodecL16_16kHz
 kCodecL16_32Khz
+kCodecL16_48Khz
 kCodecPcmu
 kCodecPcma
 kCodecIlbc20Ms
@@ -477,8 +471,6 @@ kCodecG726_40
 kCodecG726_32
 kCodecG726_24
 kCodecG726_16
-kCodecSpeex8Khz
-kCodecSpeex16Khz
 }
 ;
 WAVE_FMTINFO_header
@@ -489,9 +481,6 @@ _dataSize
 ;
 size_t
 _readSizeBytes
-;
-int32_t
-_id
 ;
 uint32_t
 _stopPointInMs

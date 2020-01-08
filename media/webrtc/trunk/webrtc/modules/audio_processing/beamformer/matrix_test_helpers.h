@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_TEST_HELPERS_H_
+MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_TEST_HELPERS_H_
 #
 define
-WEBRTC_MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_TEST_HELPERS_H_
+MODULES_AUDIO_PROCESSING_BEAMFORMER_MATRIX_TEST_HELPERS_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -22,8 +20,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -37,8 +33,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest

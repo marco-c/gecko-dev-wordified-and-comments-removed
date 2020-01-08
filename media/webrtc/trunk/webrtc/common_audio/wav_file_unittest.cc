@@ -14,8 +14,6 @@ limits
 #
 include
 "
-webrtc
-/
 common_audio
 /
 wav_file
@@ -25,8 +23,6 @@ h
 #
 include
 "
-webrtc
-/
 common_audio
 /
 wav_header
@@ -36,8 +32,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -47,8 +41,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport

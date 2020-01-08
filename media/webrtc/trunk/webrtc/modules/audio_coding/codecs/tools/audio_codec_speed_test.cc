@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_coding
@@ -18,9 +16,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 format_macros
 .
@@ -29,8 +25,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -40,8 +34,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 testsupport
@@ -54,9 +46,6 @@ using
 :
 :
 std
-:
-:
-tr1
 :
 :
 get

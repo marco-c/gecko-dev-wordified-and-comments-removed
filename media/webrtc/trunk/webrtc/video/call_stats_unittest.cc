@@ -6,8 +6,6 @@ memory
 #
 include
 "
-webrtc
-/
 modules
 /
 rtp_rtcp
@@ -21,8 +19,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -34,8 +30,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -47,8 +41,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gmock
@@ -58,8 +50,6 @@ h
 #
 include
 "
-webrtc
-/
 test
 /
 gtest
@@ -69,8 +59,6 @@ h
 #
 include
 "
-webrtc
-/
 video
 /
 call_stats

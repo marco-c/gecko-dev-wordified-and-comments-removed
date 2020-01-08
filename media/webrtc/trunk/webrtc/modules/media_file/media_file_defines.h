@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_MEDIA_FILE_MEDIA_FILE_DEFINES_H_
+MODULES_MEDIA_FILE_MEDIA_FILE_DEFINES_H_
 #
 define
-WEBRTC_MODULES_MEDIA_FILE_MEDIA_FILE_DEFINES_H_
+MODULES_MEDIA_FILE_MEDIA_FILE_DEFINES_H_
 #
 include
 "
-webrtc
-/
 modules
 /
 include
@@ -20,8 +18,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_audio
 /
 signal_processing
@@ -16,8 +14,6 @@ h
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include

@@ -1,9 +1,14 @@
 #
 ifndef
-WEBRTC_COMMON_AUDIO_INCLUDE_AUDIO_UTIL_H_
+COMMON_AUDIO_INCLUDE_AUDIO_UTIL_H_
 #
 define
-WEBRTC_COMMON_AUDIO_INCLUDE_AUDIO_UTIL_H_
+COMMON_AUDIO_INCLUDE_AUDIO_UTIL_H_
+#
+include
+<
+algorithm
+>
 #
 include
 <
@@ -17,9 +22,7 @@ cstring
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .
@@ -28,8 +31,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

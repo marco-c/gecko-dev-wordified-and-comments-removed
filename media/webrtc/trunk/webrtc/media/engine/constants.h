@@ -1,9 +1,9 @@
 #
 ifndef
-WEBRTC_MEDIA_ENGINE_CONSTANTS_H_
+MEDIA_ENGINE_CONSTANTS_H_
 #
 define
-WEBRTC_MEDIA_ENGINE_CONSTANTS_H_
+MEDIA_ENGINE_CONSTANTS_H_
 namespace
 cricket
 {
@@ -27,7 +27,7 @@ kH264CodecName
 extern
 const
 int
-kMinVideoBitrateKbps
+kMinVideoBitrateBps
 ;
 }
 #

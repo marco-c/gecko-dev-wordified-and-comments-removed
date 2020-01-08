@@ -7,8 +7,6 @@ SYSTEM_WRAPPERS_INCLUDE_TIMESTAMP_EXTRAPOLATOR_H_
 #
 include
 "
-webrtc
-/
 system_wrappers
 /
 include
@@ -20,8 +18,6 @@ h
 #
 include
 "
-webrtc
-/
 typedefs
 .
 h

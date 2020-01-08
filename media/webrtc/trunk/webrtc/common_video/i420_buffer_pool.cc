@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 common_video
 /
 include
@@ -14,9 +12,7 @@ h
 #
 include
 "
-webrtc
-/
-base
+rtc_base
 /
 checks
 .

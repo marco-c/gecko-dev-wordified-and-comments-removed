@@ -1,14 +1,12 @@
 #
 ifndef
-WEBRTC_MODULES_VIDEO_CODING_CODECS_VP8_INCLUDE_VP8_COMMON_TYPES_H_
+MODULES_VIDEO_CODING_CODECS_VP8_INCLUDE_VP8_COMMON_TYPES_H_
 #
 define
-WEBRTC_MODULES_VIDEO_CODING_CODECS_VP8_INCLUDE_VP8_COMMON_TYPES_H_
+MODULES_VIDEO_CODING_CODECS_VP8_INCLUDE_VP8_COMMON_TYPES_H_
 #
 include
 "
-webrtc
-/
 common_types
 .
 h
@@ -21,7 +19,7 @@ const
 float
 kVp8LayerRateAlloction
 [
-kMaxTemporalStreams
+kMaxSimulcastStreams
 ]
 [
 kMaxTemporalStreams

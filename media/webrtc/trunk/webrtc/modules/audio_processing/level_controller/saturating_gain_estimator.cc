@@ -1,8 +1,6 @@
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -28,8 +26,6 @@ algorithm
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
@@ -43,8 +39,6 @@ h
 #
 include
 "
-webrtc
-/
 modules
 /
 audio_processing
