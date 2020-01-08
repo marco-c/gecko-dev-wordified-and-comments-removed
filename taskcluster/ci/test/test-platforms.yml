@@ -494,6 +494,12 @@ sets
 common
 -
 tests
+-
+web
+-
+platform
+-
+tests
 #
 Stylo
 sequential
