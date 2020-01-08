@@ -8764,6 +8764,13 @@ IsPresenting
 )
 )
 {
+display
+-
+>
+StartVRNavigation
+(
+)
+;
 nsGlobalWindowOuter
 *
 outer

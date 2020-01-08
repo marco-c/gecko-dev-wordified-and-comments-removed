@@ -95,7 +95,7 @@ const
 int32_t
 kVRExternalVersion
 =
-1
+2
 ;
 static
 const
@@ -1049,6 +1049,12 @@ shutdown
 ;
 #
 endif
+bool
+presentationActive
+;
+bool
+navigationTransitionActive
+;
 VRLayerState
 layerState
 [
