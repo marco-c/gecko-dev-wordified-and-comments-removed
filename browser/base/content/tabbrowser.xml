@@ -224,7 +224,7 @@ getBindingParent
 this
 )
 .
-childNodes
+children
 this
 .
 _canScrollToElement
@@ -928,7 +928,7 @@ tab
 =
 this
 .
-firstChild
+firstElementChild
 ;
 tab
 .
@@ -1581,12 +1581,12 @@ if
 (
 parent
 .
-firstChild
+firstElementChild
 )
 {
 parent
 .
-firstChild
+firstElementChild
 .
 remove
 (
@@ -1899,7 +1899,7 @@ return
 [
 this
 .
-firstChild
+firstElementChild
 ]
 ;
 }
@@ -3908,7 +3908,7 @@ pinnedTabWidth
 :
 this
 .
-childNodes
+children
 [
 0
 ]
@@ -3961,7 +3961,7 @@ tab
 =
 this
 .
-childNodes
+children
 [
 i
 ]
@@ -4044,7 +4044,7 @@ tab
 =
 this
 .
-childNodes
+children
 [
 i
 ]
@@ -5862,7 +5862,7 @@ tabs
 =
 this
 .
-childNodes
+children
 ;
 var
 tab
@@ -6573,7 +6573,7 @@ tabbox
 .
 tabpanels
 .
-firstChild
+firstElementChild
 ;
 }
 /
@@ -10264,7 +10264,7 @@ newIndex
 =
 this
 .
-childNodes
+children
 .
 length
 )
@@ -10274,7 +10274,7 @@ tabRect
 =
 this
 .
-childNodes
+children
 [
 newIndex
 -
@@ -10318,7 +10318,7 @@ tabRect
 =
 this
 .
-childNodes
+children
 [
 newIndex
 ]

@@ -1276,7 +1276,7 @@ selectedItem
 =
 richListBox
 .
-lastChild
+lastElementChild
 |
 |
 document
@@ -1366,7 +1366,7 @@ DownloadsView
 .
 richListBox
 .
-firstChild
+firstElementChild
 )
 {
 DownloadsView
@@ -1387,7 +1387,7 @@ DownloadsView
 .
 richListBox
 .
-lastChild
+lastElementChild
 ;
 aEvent
 .
@@ -2475,7 +2475,7 @@ this
 .
 richListBox
 .
-firstChild
+firstElementChild
 )
 ;
 }

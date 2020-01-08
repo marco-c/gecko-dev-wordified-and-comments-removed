@@ -1006,7 +1006,7 @@ kid
 =
 aPopup
 .
-firstChild
+firstElementChild
 ;
 while
 (
@@ -1018,7 +1018,7 @@ next
 =
 kid
 .
-nextSibling
+nextElementSibling
 ;
 if
 (
@@ -1091,7 +1091,7 @@ while
 (
 child
 .
-nextSibling
+nextElementSibling
 !
 =
 aPopup
@@ -1104,7 +1104,7 @@ sibling
 =
 child
 .
-nextSibling
+nextElementSibling
 ;
 if
 (
@@ -1163,7 +1163,7 @@ child
 =
 child
 .
-nextSibling
+nextElementSibling
 ;
 }
 else
@@ -1172,7 +1172,7 @@ child
 =
 child
 .
-nextSibling
+nextElementSibling
 ;
 }
 }
@@ -1505,7 +1505,7 @@ aPopup
 .
 _startMarker
 .
-previousSibling
+previousElementSibling
 &
 &
 !
@@ -1513,7 +1513,7 @@ aPopup
 .
 _endMarker
 .
-nextSibling
+nextElementSibling
 )
 aPopup
 .
@@ -2652,7 +2652,7 @@ aPopup
 .
 _startMarker
 .
-nextSibling
+nextElementSibling
 !
 =
 statusMenuitem
@@ -2666,7 +2666,7 @@ aPopup
 .
 _startMarker
 .
-nextSibling
+nextElementSibling
 )
 ;
 }
@@ -3185,7 +3185,7 @@ parentElt
 .
 _startMarker
 .
-nextSibling
+nextElementSibling
 =
 =
 parentElt
@@ -3252,7 +3252,7 @@ popup
 .
 _startMarker
 .
-nextSibling
+nextElementSibling
 ;
 child
 !
@@ -3265,7 +3265,7 @@ child
 =
 child
 .
-nextSibling
+nextElementSibling
 )
 {
 if
@@ -3393,7 +3393,7 @@ call
 (
 parentElt
 .
-childNodes
+children
 parentElt
 .
 _startMarker
@@ -3411,7 +3411,7 @@ aPlacesNode
 parentElt
 parentElt
 .
-childNodes
+children
 [
 index
 ]
@@ -3518,7 +3518,7 @@ call
 (
 parentElt
 .
-childNodes
+children
 parentElt
 .
 _startMarker
@@ -3535,7 +3535,7 @@ insertBefore
 elt
 parentElt
 .
-childNodes
+children
 [
 index
 ]
@@ -3761,7 +3761,7 @@ aPopup
 .
 _startMarker
 .
-nextSibling
+nextElementSibling
 =
 =
 aPopup
@@ -4199,7 +4199,7 @@ currentChild
 =
 aPopup
 .
-firstChild
+firstElementChild
 ;
 let
 numURINodes
@@ -4244,7 +4244,7 @@ currentChild
 =
 currentChild
 .
-nextSibling
+nextElementSibling
 ;
 }
 hasMultipleURIs
@@ -4674,7 +4674,7 @@ aPopup
 _startMarker
 aPopup
 .
-firstChild
+firstElementChild
 )
 ;
 let
@@ -4760,7 +4760,7 @@ i
 <
 aPopup
 .
-childNodes
+children
 .
 length
 ;
@@ -4774,7 +4774,7 @@ child
 =
 aPopup
 .
-childNodes
+children
 [
 i
 ]
@@ -6291,7 +6291,7 @@ this
 .
 _rootElt
 .
-firstChild
+firstElementChild
 node
 =
 this
@@ -6300,7 +6300,7 @@ _chevronPopup
 .
 _startMarker
 .
-nextSibling
+nextElementSibling
 ;
 toolbarNode
 &
@@ -6311,12 +6311,12 @@ toolbarNode
 =
 toolbarNode
 .
-nextSibling
+nextElementSibling
 node
 =
 node
 .
-nextSibling
+nextElementSibling
 )
 {
 node
@@ -6901,7 +6901,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 )
 {
 if
@@ -7105,7 +7105,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 ;
 if
 (
@@ -7155,7 +7155,7 @@ this
 .
 _rootElt
 .
-lastChild
+lastElementChild
 )
 ;
 }
@@ -7371,7 +7371,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 .
 length
 )
@@ -7390,7 +7390,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 .
 length
 )
@@ -7466,7 +7466,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 .
 length
 -
@@ -7549,7 +7549,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 .
 length
 )
@@ -7568,7 +7568,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 .
 length
 )
@@ -7601,7 +7601,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 [
 aNewIndex
 ]
@@ -7642,7 +7642,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 [
 aNewIndex
 ]
@@ -8017,7 +8017,7 @@ _overFolder
 .
 elt
 .
-lastChild
+lastElementChild
 )
 {
 if
@@ -8029,7 +8029,7 @@ _overFolder
 .
 elt
 .
-lastChild
+lastElementChild
 .
 hasAttribute
 (
@@ -8045,7 +8045,7 @@ _overFolder
 .
 elt
 .
-lastChild
+lastElementChild
 .
 hidePopup
 (
@@ -8225,7 +8225,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 elt
 )
 ;
@@ -8453,7 +8453,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 .
 length
 -
@@ -8620,7 +8620,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 .
 length
 -
@@ -8857,7 +8857,7 @@ _overFolder
 .
 elt
 .
-lastChild
+lastElementChild
 .
 setAttribute
 (
@@ -9210,7 +9210,7 @@ open
 {
 draggedElt
 .
-lastChild
+lastElementChild
 .
 hidePopup
 (
@@ -9533,7 +9533,7 @@ this
 .
 _rootElt
 .
-firstChild
+firstElementChild
 )
 {
 if
@@ -9553,7 +9553,7 @@ this
 .
 _rootElt
 .
-lastChild
+lastElementChild
 .
 getBoundingClientRect
 (
@@ -9570,7 +9570,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 [
 dropPoint
 .
@@ -9619,7 +9619,7 @@ this
 .
 _rootElt
 .
-firstChild
+firstElementChild
 )
 {
 if
@@ -9639,7 +9639,7 @@ this
 .
 _rootElt
 .
-lastChild
+lastElementChild
 .
 getBoundingClientRect
 (
@@ -9656,7 +9656,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 [
 dropPoint
 .
@@ -11014,7 +11014,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 ;
 this
 .
@@ -11149,7 +11149,7 @@ this
 .
 _rootElt
 .
-childNodes
+children
 [
 aNewIndex
 ]
@@ -12260,7 +12260,7 @@ panelview
 .
 _startMarker
 .
-previousSibling
+previousElementSibling
 &
 &
 !
@@ -12268,7 +12268,7 @@ panelview
 .
 _endMarker
 .
-nextSibling
+nextElementSibling
 )
 )
 {

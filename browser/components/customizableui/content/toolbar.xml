@@ -302,7 +302,7 @@ from
 (
 this
 .
-childNodes
+children
 )
 .
 filter
@@ -843,7 +843,7 @@ toolbarpaletteitem
 ?
 node
 .
-firstChild
+firstElementChild
 :
 node
 ;
@@ -940,7 +940,7 @@ toolbarpaletteitem
 ?
 node
 .
-firstChild
+firstElementChild
 :
 node
 ;

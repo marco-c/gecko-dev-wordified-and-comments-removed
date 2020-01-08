@@ -1885,7 +1885,7 @@ owner
 .
 panel
 .
-childNodes
+children
 ]
 .
 find

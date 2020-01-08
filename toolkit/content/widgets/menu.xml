@@ -700,7 +700,7 @@ menupopup
 ?
 menupopup
 .
-childNodes
+children
 .
 length
 :
@@ -756,7 +756,7 @@ items
 =
 menupopup
 .
-childNodes
+children
 ;
 var
 length
@@ -859,7 +859,7 @@ aIndex
 =
 menupopup
 .
-childNodes
+children
 .
 length
 )
@@ -869,7 +869,7 @@ null
 return
 menupopup
 .
-childNodes
+children
 [
 aIndex
 ]
@@ -940,7 +940,7 @@ child
 =
 this
 .
-firstChild
+firstElementChild
 ;
 child
 ;
@@ -948,7 +948,7 @@ child
 =
 child
 .
-nextSibling
+nextElementSibling
 )
 {
 if

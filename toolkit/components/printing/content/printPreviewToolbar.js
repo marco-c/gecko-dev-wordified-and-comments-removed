@@ -1484,7 +1484,7 @@ this
 .
 mSimplifyPageCheckbox
 .
-nextSibling
+nextElementSibling
 ;
 this
 .

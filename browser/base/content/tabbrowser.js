@@ -1017,7 +1017,7 @@ this
 .
 tabContainer
 .
-childNodes
+children
 ;
 }
 get
@@ -1582,7 +1582,7 @@ this
 .
 tabpanels
 .
-childNodes
+children
 [
 0
 ]
@@ -2537,7 +2537,7 @@ browser
 .
 parentNode
 .
-nextSibling
+nextElementSibling
 )
 ;
 }
@@ -13490,7 +13490,7 @@ tab
 =
 tab
 .
-nextSibling
+nextElementSibling
 ;
 }
 while
@@ -13523,7 +13523,7 @@ tab
 =
 tab
 .
-previousSibling
+previousElementSibling
 ;
 }
 while
@@ -16003,7 +16003,7 @@ this
 .
 selectedTab
 .
-nextSibling
+nextElementSibling
 ;
 while
 (
@@ -16018,7 +16018,7 @@ nextTab
 =
 nextTab
 .
-nextSibling
+nextElementSibling
 ;
 if
 (
@@ -16244,7 +16244,7 @@ this
 .
 selectedTab
 .
-previousSibling
+previousElementSibling
 ;
 while
 (
@@ -16259,7 +16259,7 @@ previousTab
 =
 previousTab
 .
-previousSibling
+previousElementSibling
 ;
 if
 (

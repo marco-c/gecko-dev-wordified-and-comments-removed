@@ -1177,13 +1177,13 @@ insertLocation
 =
 cxmenu
 .
-firstChild
+firstElementChild
 ;
 while
 (
 insertLocation
 .
-nextSibling
+nextElementSibling
 &
 &
 insertLocation
@@ -1204,7 +1204,7 @@ insertLocation
 =
 insertLocation
 .
-nextSibling
+nextElementSibling
 ;
 if
 (
@@ -1318,7 +1318,7 @@ insertBefore
 pasteAndGo
 insertLocation
 .
-nextSibling
+nextElementSibling
 )
 ;
 }
@@ -17016,7 +17016,7 @@ this
 .
 richlistbox
 .
-childNodes
+children
 )
 {
 item
@@ -17112,7 +17112,7 @@ this
 .
 richlistbox
 .
-childNodes
+children
 ;
 this
 .
@@ -18210,7 +18210,7 @@ this
 .
 richlistbox
 .
-childNodes
+children
 )
 {
 if

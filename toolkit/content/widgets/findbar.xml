@@ -6733,7 +6733,7 @@ container
 "
 )
 .
-childNodes
+children
 ;
 let
 wrapper

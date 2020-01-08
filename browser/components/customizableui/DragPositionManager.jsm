@@ -442,7 +442,7 @@ outsideX
 return
 closest
 .
-nextSibling
+nextElementSibling
 |
 |
 aContainer
@@ -571,7 +571,7 @@ if
 (
 aContainer
 .
-lastChild
+lastElementChild
 &
 &
 aIsFromThisArea
@@ -585,7 +585,7 @@ _lastPlaceholderInsertion
 {
 aContainer
 .
-lastChild
+lastElementChild
 .
 getBoundingClientRect
 (

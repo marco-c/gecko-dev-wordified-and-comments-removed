@@ -2280,7 +2280,7 @@ i
 =
 devicesPopup
 .
-childNodes
+children
 .
 length
 -
@@ -2301,7 +2301,7 @@ child
 =
 devicesPopup
 .
-childNodes
+children
 [
 i
 ]
@@ -3122,7 +3122,7 @@ insertBefore
 signInItem
 fragment
 .
-lastChild
+lastElementChild
 )
 ;
 }

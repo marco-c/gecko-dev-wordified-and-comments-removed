@@ -6069,7 +6069,7 @@ this
 .
 richlistbox
 .
-firstChild
+firstElementChild
 )
 ;
 }
@@ -6780,7 +6780,7 @@ this
 .
 richlistbox
 .
-childNodes
+children
 .
 length
 ;
@@ -6809,7 +6809,7 @@ this
 .
 richlistbox
 .
-childNodes
+children
 [
 i
 ]
@@ -6884,7 +6884,7 @@ this
 .
 richlistbox
 .
-childNodes
+children
 ;
 let
 numRows
@@ -7223,7 +7223,7 @@ this
 .
 richlistbox
 .
-childNodes
+children
 .
 length
 ;
@@ -7432,7 +7432,7 @@ this
 .
 richlistbox
 .
-childNodes
+children
 [
 this
 .

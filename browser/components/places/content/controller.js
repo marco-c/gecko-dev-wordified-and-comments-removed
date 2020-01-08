@@ -2530,7 +2530,7 @@ i
 <
 aPopup
 .
-childNodes
+children
 .
 length
 ;
@@ -2544,7 +2544,7 @@ item
 =
 aPopup
 .
-childNodes
+children
 [
 i
 ]

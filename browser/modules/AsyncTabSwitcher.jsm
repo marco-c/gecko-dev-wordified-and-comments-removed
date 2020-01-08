@@ -1890,7 +1890,7 @@ indexOf
 (
 tabpanels
 .
-childNodes
+children
 showPanel
 )
 ;

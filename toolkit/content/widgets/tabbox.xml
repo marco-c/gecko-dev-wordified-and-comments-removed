@@ -1650,7 +1650,7 @@ children
 =
 this
 .
-childNodes
+children
 ;
 var
 length
@@ -1991,7 +1991,7 @@ aTabElm
 return
 tabpanelsElm
 .
-childNodes
+children
 [
 tabElmIdx
 ]
@@ -2033,7 +2033,7 @@ onget
 return
 this
 .
-childNodes
+children
 .
 length
 "
@@ -2084,7 +2084,7 @@ children
 =
 this
 .
-childNodes
+children
 ;
 for
 (
@@ -2336,7 +2336,7 @@ tabs
 =
 this
 .
-childNodes
+children
 ;
 for
 (
@@ -2409,7 +2409,7 @@ forEach
 (
 this
 .
-childNodes
+children
 function
 (
 aTab
@@ -2545,7 +2545,7 @@ tabs
 =
 this
 .
-childNodes
+children
 ;
 for
 (
@@ -2693,7 +2693,7 @@ indexOf
 (
 this
 .
-childNodes
+children
 item
 )
 ;
@@ -2736,7 +2736,7 @@ CDATA
 return
 this
 .
-childNodes
+children
 .
 item
 (
@@ -2833,11 +2833,11 @@ aFallbackDir
 ?
 aNewTab
 .
-previousSibling
+previousElementSibling
 :
 aNewTab
 .
-nextSibling
+nextElementSibling
 ;
 if
 (
@@ -2857,11 +2857,11 @@ aFallbackDir
 ?
 this
 .
-childNodes
+children
 [
 this
 .
-childNodes
+children
 .
 length
 -
@@ -2870,7 +2870,7 @@ length
 :
 this
 .
-childNodes
+children
 [
 0
 ]
@@ -3188,11 +3188,11 @@ aDir
 ?
 this
 .
-childNodes
+children
 [
 this
 .
-childNodes
+children
 .
 length
 -
@@ -3201,7 +3201,7 @@ length
 :
 this
 .
-childNodes
+children
 [
 0
 ]
@@ -3578,7 +3578,7 @@ indexOf
 (
 this
 .
-childNodes
+children
 aTabPanelElm
 )
 ;
@@ -3598,7 +3598,7 @@ tabElms
 =
 tabsElm
 .
-childNodes
+children
 ;
 let
 tabElmFromIndex
@@ -3817,7 +3817,7 @@ _selectedPanel
 >
 this
 .
-childNodes
+children
 .
 item
 (
@@ -3895,7 +3895,7 @@ val
 =
 this
 .
-childNodes
+children
 .
 length
 )
@@ -3943,7 +3943,7 @@ getRelatedElement
 (
 this
 .
-childNodes
+children
 [
 val
 ]
@@ -3965,7 +3965,7 @@ _selectedPanel
 =
 this
 .
-childNodes
+children
 [
 val
 ]
@@ -4093,7 +4093,7 @@ panel
 =
 panel
 .
-previousSibling
+previousElementSibling
 )
 +
 +
@@ -5259,7 +5259,7 @@ this
 .
 parentNode
 .
-childNodes
+children
 [
 0
 ]
@@ -5307,7 +5307,7 @@ this
 .
 parentNode
 .
-childNodes
+children
 ;
 this
 .

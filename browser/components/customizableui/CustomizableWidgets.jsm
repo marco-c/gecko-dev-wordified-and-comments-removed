@@ -1064,7 +1064,7 @@ element
 =
 body
 .
-childNodes
+children
 [
 elementCount
 ]
@@ -2767,7 +2767,7 @@ elements
 (
 pinnedContainer
 .
-childNodes
+children
 )
 .
 .
@@ -2775,7 +2775,7 @@ childNodes
 (
 charsetContainer
 .
-childNodes
+children
 )
 ]
 ;
@@ -2849,7 +2849,7 @@ _updateElements
 (
 detectorContainer
 .
-childNodes
+children
 currentDetector
 )
 ;
@@ -4099,7 +4099,7 @@ if
 (
 fragment
 .
-lastChild
+lastElementChild
 )
 {
 let

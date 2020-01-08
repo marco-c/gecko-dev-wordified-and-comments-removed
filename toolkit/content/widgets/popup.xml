@@ -298,7 +298,7 @@ menuitem
 =
 this
 .
-firstChild
+firstElementChild
 ;
 menuitem
 ;
@@ -306,7 +306,7 @@ menuitem
 =
 menuitem
 .
-nextSibling
+nextElementSibling
 )
 {
 if

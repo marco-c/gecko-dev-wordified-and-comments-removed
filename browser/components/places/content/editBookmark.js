@@ -1778,7 +1778,7 @@ while
 (
 menupopup
 .
-childNodes
+children
 .
 length
 >
@@ -1790,7 +1790,7 @@ removeChild
 (
 menupopup
 .
-lastChild
+lastElementChild
 )
 ;
 if
@@ -2111,7 +2111,7 @@ hidden
 (
 menupopup
 .
-childNodes
+children
 .
 length
 <
@@ -3418,7 +3418,7 @@ call
 (
 menupopup
 .
-childNodes
+children
 item
 =
 >
@@ -3446,7 +3446,7 @@ if
 (
 menupopup
 .
-childNodes
+children
 .
 length
 =
@@ -3461,7 +3461,7 @@ removeChild
 (
 menupopup
 .
-lastChild
+lastElementChild
 )
 ;
 return
@@ -3880,7 +3880,7 @@ removeChild
 (
 tagsSelector
 .
-lastChild
+lastElementChild
 )
 ;
 }
@@ -5147,7 +5147,7 @@ menuitem
 of
 menupopup
 .
-childNodes
+children
 )
 {
 if

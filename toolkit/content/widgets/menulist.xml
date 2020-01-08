@@ -1339,7 +1339,7 @@ this
 .
 menupopup
 .
-childNodes
+children
 .
 length
 :
@@ -1373,7 +1373,7 @@ popup
 =
 this
 .
-firstChild
+firstElementChild
 ;
 while
 (
@@ -1393,7 +1393,7 @@ popup
 =
 popup
 .
-nextSibling
+nextElementSibling
 ;
 return
 popup
@@ -1545,7 +1545,7 @@ mSelectedInternal
 .
 parentNode
 .
-childNodes
+children
 ;
 var
 i
@@ -1616,7 +1616,7 @@ val
 <
 popup
 .
-childNodes
+children
 .
 length
 )
@@ -1626,7 +1626,7 @@ selectedItem
 =
 popup
 .
-childNodes
+children
 [
 val
 ]
@@ -2123,7 +2123,7 @@ children
 =
 popup
 .
-childNodes
+children
 ;
 var
 i
@@ -2209,7 +2209,7 @@ children
 =
 popup
 .
-childNodes
+children
 ;
 if
 (

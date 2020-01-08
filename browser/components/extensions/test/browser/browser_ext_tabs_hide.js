@@ -1631,10 +1631,6 @@ win
 gBrowser
 .
 tabs
-.
-values
-(
-)
 )
 ;
 ok
@@ -1812,10 +1808,6 @@ otherwin
 gBrowser
 .
 tabs
-.
-values
-(
-)
 )
 ;
 ok
@@ -1990,10 +1982,6 @@ win
 gBrowser
 .
 tabs
-.
-values
-(
-)
 )
 ;
 for

@@ -921,12 +921,12 @@ isMenu
 &
 elt
 .
-lastChild
+lastElementChild
 &
 &
 elt
 .
-lastChild
+lastElementChild
 .
 hasAttribute
 (
@@ -1619,7 +1619,7 @@ _folder
 .
 elt
 .
-lastChild
+lastElementChild
 .
 setAttribute
 (
@@ -1637,7 +1637,7 @@ _folder
 .
 elt
 .
-lastChild
+lastElementChild
 .
 openPopup
 (
@@ -2081,7 +2081,7 @@ _folder
 .
 elt
 .
-lastChild
+lastElementChild
 )
 {
 if
@@ -2093,7 +2093,7 @@ _folder
 .
 elt
 .
-lastChild
+lastElementChild
 .
 hasAttribute
 (
@@ -2108,7 +2108,7 @@ _folder
 .
 elt
 .
-lastChild
+lastElementChild
 .
 hidePopup
 (
@@ -3223,7 +3223,7 @@ elt
 =
 this
 .
-firstChild
+firstElementChild
 ;
 while
 (
@@ -3252,7 +3252,7 @@ elt
 =
 elt
 .
-nextSibling
+nextElementSibling
 ;
 newMarginTop
 =
@@ -3316,7 +3316,7 @@ this
 .
 _indicatorBar
 .
-firstChild
+firstElementChild
 .
 style
 .

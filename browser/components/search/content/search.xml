@@ -4140,13 +4140,13 @@ insertLocation
 =
 aMenu
 .
-firstChild
+firstElementChild
 ;
 while
 (
 insertLocation
 .
-nextSibling
+nextElementSibling
 &
 &
 insertLocation
@@ -4167,7 +4167,7 @@ insertLocation
 =
 insertLocation
 .
-nextSibling
+nextElementSibling
 ;
 if
 (
@@ -4247,7 +4247,7 @@ insertBefore
 element
 insertLocation
 .
-nextSibling
+nextElementSibling
 )
 ;
 pasteAndSearch
@@ -11029,7 +11029,7 @@ groupText
 =
 headerSearchText
 .
-previousSibling
+previousElementSibling
 .
 value
 +
@@ -11047,7 +11047,7 @@ value
 +
 headerSearchText
 .
-nextSibling
+nextElementSibling
 .
 value
 ;
@@ -11554,7 +11554,7 @@ this
 .
 buttons
 .
-firstChild
+firstElementChild
 !
 =
 this
@@ -11565,7 +11565,7 @@ this
 .
 buttons
 .
-firstChild
+firstElementChild
 .
 remove
 (
@@ -11597,13 +11597,13 @@ this
 .
 settingsButtonCompact
 .
-nextSibling
+nextElementSibling
 )
 this
 .
 settingsButtonCompact
 .
-nextSibling
+nextElementSibling
 .
 remove
 (
@@ -12555,7 +12555,7 @@ this
 .
 settingsButtonCompact
 .
-previousSibling
+previousElementSibling
 ;
 lastDummyItem
 .
@@ -13929,7 +13929,7 @@ this
 .
 buttons
 .
-firstChild
+firstElementChild
 ;
 oneOff
 ;
@@ -13937,7 +13937,7 @@ oneOff
 =
 oneOff
 .
-nextSibling
+nextElementSibling
 )
 {
 /
@@ -14069,7 +14069,7 @@ this
 .
 addEngines
 .
-firstChild
+firstElementChild
 ;
 addEngine
 ;
@@ -14077,7 +14077,7 @@ addEngine
 =
 addEngine
 .
-nextSibling
+nextElementSibling
 )
 {
 buttons

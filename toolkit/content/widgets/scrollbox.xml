@@ -1809,7 +1809,7 @@ nextElement
 =
 nextElement
 .
-previousSibling
+previousElementSibling
 ;
 index
 +
@@ -1843,7 +1843,7 @@ nextElement
 =
 nextElement
 .
-nextSibling
+nextElementSibling
 ;
 index
 -
@@ -1897,7 +1897,7 @@ nodes
 =
 this
 .
-childNodes
+children
 ;
 if
 (
@@ -1954,7 +1954,7 @@ getBindingParent
 this
 )
 .
-childNodes
+children
 ;
 }
 return
@@ -5495,11 +5495,11 @@ scrollBack
 ?
 targetElement
 .
-nextSibling
+nextElementSibling
 :
 targetElement
 .
-previousSibling
+previousElementSibling
 ;
 }
 if
