@@ -311,13 +311,6 @@ InputBridge
 =
 0
 ;
-virtual
-void
-Destroy
-(
-)
-{
-}
 protected
 :
 virtual

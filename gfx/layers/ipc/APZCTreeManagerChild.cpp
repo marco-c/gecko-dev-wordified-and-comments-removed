@@ -174,11 +174,6 @@ mInputBridge
 nullptr
 ;
 }
-Send__delete__
-(
-this
-)
-;
 }
 void
 APZCTreeManagerChild
