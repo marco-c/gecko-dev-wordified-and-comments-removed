@@ -239,6 +239,9 @@ State
 nsIntRect
 Bounds
 ;
+uint8_t
+ActionCount
+;
 nsString
 Name
 ;

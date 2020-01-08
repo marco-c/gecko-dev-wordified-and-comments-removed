@@ -124,6 +124,14 @@ const
 override
 ;
 virtual
+uint8_t
+ActionCount
+(
+)
+const
+override
+;
+virtual
 void
 SetTextContents
 (

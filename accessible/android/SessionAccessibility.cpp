@@ -1982,6 +1982,11 @@ data
 Bounds
 (
 )
+data
+.
+ActionCount
+(
+)
 )
 ;
 infos
@@ -2161,6 +2166,11 @@ State
 data
 .
 Bounds
+(
+)
+data
+.
+ActionCount
 (
 )
 data
@@ -2360,6 +2370,11 @@ State
 data
 .
 Bounds
+(
+)
+data
+.
+ActionCount
 (
 )
 )

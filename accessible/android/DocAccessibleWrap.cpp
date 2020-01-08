@@ -762,6 +762,12 @@ accessible
 Bounds
 (
 )
+accessible
+-
+>
+ActionCount
+(
+)
 nsString
 (
 )
@@ -1250,6 +1256,12 @@ acc
 Bounds
 (
 )
+acc
+-
+>
+ActionCount
+(
+)
 name
 textValue
 nodeID
@@ -1531,6 +1543,7 @@ accessible
 Bounds
 (
 )
+0
 nsString
 (
 )
