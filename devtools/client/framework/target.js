@@ -263,7 +263,7 @@ tab
 ;
 return
 new
-TabTarget
+Target
 (
 {
 client
@@ -309,7 +309,7 @@ const
 target
 =
 new
-TabTarget
+Target
 (
 options
 )
@@ -396,7 +396,7 @@ null
 target
 =
 new
-TabTarget
+Target
 (
 {
 client
@@ -469,7 +469,7 @@ tab
 }
 ;
 function
-TabTarget
+Target
 (
 {
 form
@@ -658,11 +658,11 @@ null
 }
 exports
 .
-TabTarget
+Target
 =
-TabTarget
+Target
 ;
-TabTarget
+Target
 .
 prototype
 =
@@ -2877,7 +2877,7 @@ actor
 )
 ;
 return
-TabTarget
+Target
 :
 {
 id
