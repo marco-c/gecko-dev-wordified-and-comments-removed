@@ -1601,8 +1601,6 @@ browser
 =
 window
 .
-document
-.
 docShell
 .
 rootTreeItem

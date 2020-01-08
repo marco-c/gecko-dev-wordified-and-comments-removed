@@ -1778,8 +1778,6 @@ getMainWindow
 return
 window
 .
-document
-.
 docShell
 .
 rootTreeItem
@@ -18960,7 +18958,7 @@ browser
 const
 parentWindow
 =
-document
+window
 .
 docShell
 .

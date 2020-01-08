@@ -4015,8 +4015,6 @@ g
 .
 containingWindow
 .
-document
-.
 docShell
 .
 asyncPanZoomEnabled

@@ -301,8 +301,6 @@ win
 =
 window
 .
-document
-.
 docShell
 .
 rootTreeItem

@@ -3916,8 +3916,6 @@ aWindow
 return
 aWindow
 .
-document
-.
 docShell
 .
 rootTreeItem

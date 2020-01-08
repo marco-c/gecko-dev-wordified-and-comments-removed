@@ -2204,8 +2204,6 @@ subCode
 {
 content
 .
-document
-.
 docShell
 .
 cssErrorReportingEnabled

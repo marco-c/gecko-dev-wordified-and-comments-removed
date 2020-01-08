@@ -1372,8 +1372,6 @@ getBrowserWindow
 return
 window
 .
-document
-.
 docShell
 .
 rootTreeItem

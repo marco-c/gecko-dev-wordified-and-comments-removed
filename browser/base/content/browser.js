@@ -36009,8 +36009,6 @@ browserWin
 =
 aSubject
 .
-document
-.
 docShell
 .
 rootTreeItem

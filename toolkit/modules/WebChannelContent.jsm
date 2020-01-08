@@ -47,8 +47,6 @@ target
 return
 window
 .
-document
-.
 docShell
 .
 QueryInterface

@@ -590,7 +590,7 @@ browser
 "
 )
 ;
-var
+let
 docShell
 =
 getBaseWindowInterfaceFromDocShell
