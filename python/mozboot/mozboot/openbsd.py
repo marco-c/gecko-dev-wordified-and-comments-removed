@@ -217,9 +217,14 @@ checkout_root
         
 self
 .
-ensure_rust_package
+run_as_root
 (
+[
+'
+pkg_add
+'
 '
 cbindgen
 '
+]
 )
