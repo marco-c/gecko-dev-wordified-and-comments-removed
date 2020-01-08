@@ -219,6 +219,14 @@ updatehelper
 cpp
 '
 ]
+OS_LIBS
++
+=
+[
+'
+rpcrt4
+'
+]
 if
 CONFIG
 [
@@ -248,9 +256,6 @@ OS_LIBS
 [
 '
 crypt32
-'
-'
-rpcrt4
 '
 '
 wintrust
