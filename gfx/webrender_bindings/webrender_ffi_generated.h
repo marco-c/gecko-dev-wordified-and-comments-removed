@@ -5066,6 +5066,8 @@ uint32_t
 aWidth
 uint32_t
 aHeight
+bool
+aHadSlowFrame
 )
 WR_FUNC
 ;

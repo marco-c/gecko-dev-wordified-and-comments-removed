@@ -542,6 +542,8 @@ uint8_t
 >
 &
 aReadbackBuffer
+bool
+aHadSlowFrame
 )
 {
 uint32_t
@@ -686,6 +688,7 @@ width
 size
 .
 height
+aHadSlowFrame
 )
 )
 {
