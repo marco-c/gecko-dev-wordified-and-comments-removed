@@ -974,9 +974,9 @@ Core
 '
 '
 CSS
-Parsing
+Transitions
 and
-Computation
+Animations
 '
 )
 with
@@ -1512,9 +1512,9 @@ Core
 '
 '
 CSS
-Parsing
+Transitions
 and
-Computation
+Animations
 '
 )
 with
