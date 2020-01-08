@@ -1539,17 +1539,6 @@ gecko
 .
 util
 .
-NetworkUtils
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
 PrefUtils
 ;
 import
@@ -16286,8 +16275,10 @@ mMenu
 =
 null
 )
+{
 return
 ;
+}
 final
 MenuItem
 menuItem
@@ -16306,6 +16297,7 @@ menuItem
 =
 null
 )
+{
 mMenu
 .
 removeItem
@@ -16313,6 +16305,7 @@ removeItem
 id
 )
 ;
+}
 }
 private
 void
