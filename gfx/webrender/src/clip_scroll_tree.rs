@@ -655,7 +655,7 @@ transform
 =
 transform
 .
-post_translate
+pre_translate
 (
 LayoutVector3D
 :
@@ -3549,10 +3549,10 @@ test_pt
 cst
 child3
 child1
-400
+600
 .
 0
-300
+0
 .
 0
 )
@@ -3569,10 +3569,10 @@ test_pt
 cst
 child1
 child3
-100
+0
 .
 0
-100
+175
 .
 0
 )
