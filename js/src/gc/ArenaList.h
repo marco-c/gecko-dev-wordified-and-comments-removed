@@ -736,6 +736,16 @@ mozilla
 :
 :
 SequentiallyConsistent
+mozilla
+:
+:
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 ;
 UnprotectedData
