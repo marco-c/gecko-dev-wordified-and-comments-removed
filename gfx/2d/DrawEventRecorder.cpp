@@ -528,7 +528,7 @@ mLength
 mSerializeCallback
 (
 mOutputStream
-mUnscaledFonts
+mScaledFonts
 )
 ;
 WriteElement

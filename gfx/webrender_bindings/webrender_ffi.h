@@ -202,6 +202,7 @@ operator
 uint32_t
 aBits
 )
+const
 {
 FontInstanceFlags
 flags
@@ -243,6 +244,7 @@ operator
 uint32_t
 aBits
 )
+const
 {
 FontInstanceFlags
 flags
@@ -255,6 +257,20 @@ aBits
 ;
 return
 flags
+;
+}
+MOZ_IMPLICIT
+operator
+bool
+(
+)
+const
+{
+return
+bits
+!
+=
+0
 ;
 }
 enum

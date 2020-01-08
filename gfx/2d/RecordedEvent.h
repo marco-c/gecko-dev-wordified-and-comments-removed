@@ -334,19 +334,6 @@ aRefPtr
 0
 ;
 virtual
-UnscaledFont
-*
-LookupUnscaledFontByIndex
-(
-size_t
-aIndex
-)
-{
-return
-nullptr
-;
-}
-virtual
 NativeFontResource
 *
 LookupNativeFontResource
@@ -993,7 +980,6 @@ GRADIENTSTOPSCREATION
 GRADIENTSTOPSDESTRUCTION
 SNAPSHOT
 SCALEDFONTCREATION
-SCALEDFONTCREATIONBYINDEX
 SCALEDFONTDESTRUCTION
 MASKSURFACE
 FILTERNODECREATION

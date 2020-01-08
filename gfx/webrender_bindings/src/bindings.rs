@@ -520,6 +520,7 @@ names
 mNamespace
 mHandle
 ]
+pub
 type
 WrFontInstanceKey
 =

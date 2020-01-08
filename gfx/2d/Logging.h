@@ -263,6 +263,7 @@ ProcessingError
 InvalidDrawTarget
 NativeFontResourceNotFound
 UnscaledFontNotFound
+ScaledFontNotFound
 InvalidLayerType
 MustBeLessThanThis
 =
