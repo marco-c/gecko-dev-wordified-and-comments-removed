@@ -1749,6 +1749,16 @@ set
 '
 media
 .
+navigator
+.
+mediadatadecoder_h264_enabled
+'
+false
+]
+[
+'
+media
+.
 peerconnection
 .
 enabled
