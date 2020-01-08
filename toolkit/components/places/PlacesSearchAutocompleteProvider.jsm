@@ -509,6 +509,7 @@ _controller
 fetch
 (
 searchString
+inPrivateContext
 engine
 userContextId
 )

@@ -1152,6 +1152,16 @@ MAX_SUGGESTIONS
 :
 0
 ;
+let
+priv
+=
+PrivateBrowsingUtils
+.
+isBrowserPrivate
+(
+browser
+)
+;
 this
 .
 _currentSuggestion
@@ -1172,6 +1182,7 @@ controller
 fetch
 (
 searchString
+priv
 engine
 )
 ;
