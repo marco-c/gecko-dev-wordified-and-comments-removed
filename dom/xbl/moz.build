@@ -127,6 +127,11 @@ nsXBLBinding
 h
 '
 '
+nsXBLPrototypeHandler
+.
+h
+'
+'
 nsXBLService
 .
 h
