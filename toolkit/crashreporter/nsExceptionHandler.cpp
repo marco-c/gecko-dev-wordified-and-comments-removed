@@ -10834,7 +10834,7 @@ xpcom
 /
 ini
 -
-processor
+parser
 -
 factory
 ;
@@ -10949,8 +10949,7 @@ iniWriter
 >
 WriteFile
 (
-nullptr
-0
+reporterINI
 )
 ;
 return
