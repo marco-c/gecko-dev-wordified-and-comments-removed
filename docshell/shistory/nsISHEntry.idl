@@ -726,6 +726,10 @@ list
 .
 *
 /
+[
+noscript
+notxpcom
+]
 void
 addChildShell
 (
@@ -760,6 +764,9 @@ bounds
 .
 *
 /
+[
+noscript
+]
 nsIDocShellTreeItem
 childShellAt
 (
@@ -780,6 +787,10 @@ list
 .
 *
 /
+[
+noscript
+notxpcom
+]
 void
 clearChildShells
 (
@@ -855,6 +866,10 @@ refreshURIList
 .
 *
 /
+[
+noscript
+notxpcom
+]
 void
 syncPresentationState
 (
@@ -1366,6 +1381,9 @@ tree
 .
 *
 /
+[
+noscript
+]
 nsIContentViewer
 getAnyContentViewer
 (
@@ -1626,6 +1644,10 @@ frame
 .
 *
 /
+[
+noscript
+notxpcom
+]
 boolean
 isDynamicallyAdded
 (
@@ -1767,8 +1789,8 @@ document
 *
 /
 [
-notxpcom
 noscript
+notxpcom
 ]
 boolean
 hasBFCacheEntry
@@ -2442,6 +2464,9 @@ SHEntry
 .
 *
 /
+[
+noscript
+]
 void
 RemoveChild
 (
@@ -2498,6 +2523,9 @@ replaced
 .
 *
 /
+[
+noscript
+]
 void
 ReplaceChild
 (

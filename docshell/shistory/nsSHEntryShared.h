@@ -173,7 +173,7 @@ RemoveFromExpirationTracker
 (
 )
 ;
-nsresult
+void
 SyncPresentationState
 (
 )

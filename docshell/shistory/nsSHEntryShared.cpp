@@ -400,7 +400,7 @@ this
 ;
 }
 }
-nsresult
+void
 nsSHEntryShared
 :
 :
@@ -417,15 +417,11 @@ mWindowState
 )
 {
 return
-NS_OK
 ;
 }
 DropPresentationState
 (
 )
-;
-return
-NS_OK
 ;
 }
 void
