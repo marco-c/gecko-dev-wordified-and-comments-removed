@@ -4670,6 +4670,7 @@ payload
 }
 send
 :
+async
 function
 send
 (
@@ -4691,6 +4692,7 @@ Reason
 reason
 )
 ;
+await
 MemoryTelemetry
 .
 gatherMemory
@@ -5076,6 +5078,7 @@ daily
 "
 )
 ;
+await
 MemoryTelemetry
 .
 gatherMemory
