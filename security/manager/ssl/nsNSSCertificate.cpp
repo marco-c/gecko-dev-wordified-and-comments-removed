@@ -5483,11 +5483,6 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS
-(
-nsNSSCertListEnumerator
-nsISimpleEnumerator
-)
 nsNSSCertListEnumerator
 :
 :

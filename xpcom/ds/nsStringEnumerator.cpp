@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -40,11 +40,11 @@ nsStringEnumerator
 final
 :
 public
+nsSimpleEnumerator
+public
 nsIStringEnumerator
 public
 nsIUTF8StringEnumerator
-public
-nsISimpleEnumerator
 {
 public
 :
@@ -182,7 +182,7 @@ false
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIUTF8STRINGENUMERATOR
 NS_IMETHOD
 GetNext
@@ -304,12 +304,12 @@ mIsUnicode
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsStringEnumerator
+nsSimpleEnumerator
 nsIStringEnumerator
 nsIUTF8StringEnumerator
-nsISimpleEnumerator
 )
 NS_IMETHODIMP
 nsStringEnumerator

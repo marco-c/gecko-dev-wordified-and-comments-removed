@@ -657,14 +657,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMPL_ISUPPORTS
-(
-DirectoryProvider
-:
-:
-AppendingEnumerator
-nsISimpleEnumerator
-)
 NS_IMETHODIMP
 DirectoryProvider
 :

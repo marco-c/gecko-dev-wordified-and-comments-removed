@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -355,11 +355,10 @@ nsObserverEnumerator
 final
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 {
 public
 :
-NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
 explicit
 nsObserverEnumerator
@@ -375,8 +374,10 @@ private
 nsObserverEnumerator
 (
 )
-{
-}
+override
+=
+default
+;
 int32_t
 mIndex
 ;

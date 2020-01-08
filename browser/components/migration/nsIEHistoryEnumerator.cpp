@@ -75,11 +75,6 @@ prtime
 .
 h
 "
-NS_IMPL_ISUPPORTS
-(
-nsIEHistoryEnumerator
-nsISimpleEnumerator
-)
 nsIEHistoryEnumerator
 :
 :

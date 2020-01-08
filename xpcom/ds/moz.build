@@ -370,6 +370,11 @@ nsRefPtrHashtable
 h
 '
 '
+nsSimpleEnumerator
+.
+h
+'
+'
 nsStaticAtomUtils
 .
 h
@@ -580,6 +585,11 @@ cpp
 '
 '
 nsQuickSort
+.
+cpp
+'
+'
+nsSimpleEnumerator
 .
 cpp
 '

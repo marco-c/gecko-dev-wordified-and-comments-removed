@@ -1,0 +1,12 @@
+#
+include
+"
+nsSimpleEnumerator
+.
+h
+"
+NS_IMPL_ISUPPORTS
+(
+nsSimpleEnumerator
+nsISimpleEnumerator
+)

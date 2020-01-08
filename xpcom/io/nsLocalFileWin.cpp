@@ -77,7 +77,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -908,6 +908,8 @@ class
 nsDriveEnumerator
 :
 public
+nsSimpleEnumerator
+public
 nsIDirectoryEnumerator
 {
 public
@@ -916,7 +918,7 @@ nsDriveEnumerator
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISIMPLEENUMERATOR
 nsresult
 Init
@@ -2632,6 +2634,8 @@ nsDirEnumerator
 final
 :
 public
+nsSimpleEnumerator
+public
 nsIDirectoryEnumerator
 {
 private
@@ -2648,7 +2652,7 @@ Close
 }
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 nsDirEnumerator
 (
 )
@@ -3074,10 +3078,10 @@ mNext
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsDirEnumerator
-nsISimpleEnumerator
+nsSimpleEnumerator
 nsIDirectoryEnumerator
 )
 nsLocalFile
@@ -13298,11 +13302,11 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsDriveEnumerator
+nsSimpleEnumerator
 nsIDirectoryEnumerator
-nsISimpleEnumerator
 )
 nsDriveEnumerator
 :

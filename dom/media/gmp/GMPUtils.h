@@ -83,7 +83,7 @@ class
 nsIFile
 ;
 class
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 ;
 namespace
 mozilla
@@ -223,7 +223,7 @@ mMode
 ;
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 mIter
 ;

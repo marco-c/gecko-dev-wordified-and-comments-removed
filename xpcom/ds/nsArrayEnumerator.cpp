@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsISimpleEnumerator
+nsSimpleEnumerator
 .
 h
 "
@@ -65,11 +65,10 @@ nsSimpleArrayEnumerator
 final
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 {
 public
 :
-NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
 explicit
 nsSimpleArrayEnumerator
@@ -95,6 +94,7 @@ private
 nsSimpleArrayEnumerator
 (
 )
+override
 =
 default
 ;
@@ -111,11 +111,6 @@ mIndex
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
-(
-nsSimpleArrayEnumerator
-nsISimpleEnumerator
-)
 NS_IMETHODIMP
 nsSimpleArrayEnumerator
 :
@@ -354,11 +349,10 @@ nsCOMArrayEnumerator
 final
 :
 public
-nsISimpleEnumerator
+nsSimpleEnumerator
 {
 public
 :
-NS_DECL_ISUPPORTS
 NS_DECL_NSISIMPLEENUMERATOR
 static
 nsCOMArrayEnumerator
@@ -414,6 +408,7 @@ nsCOMArrayEnumerator
 (
 void
 )
+override
 ;
 protected
 :
@@ -432,11 +427,6 @@ mValueArray
 ;
 }
 ;
-NS_IMPL_ISUPPORTS
-(
-nsCOMArrayEnumerator
-nsISimpleEnumerator
-)
 nsCOMArrayEnumerator
 :
 :

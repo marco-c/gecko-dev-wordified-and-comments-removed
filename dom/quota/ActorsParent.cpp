@@ -18022,7 +18022,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsISimpleEnumerator
+nsIDirectoryEnumerator
 >
 entries
 ;

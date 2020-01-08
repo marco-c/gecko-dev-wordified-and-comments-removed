@@ -590,11 +590,6 @@ this
 ;
 }
 }
-NS_IMPL_ISUPPORTS
-(
-nsAppShellWindowEnumerator
-nsISimpleEnumerator
-)
 nsAppShellWindowEnumerator
 :
 :

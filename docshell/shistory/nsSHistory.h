@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h
@@ -50,6 +43,13 @@ h
 include
 "
 nsSHEntryShared
+.
+h
+"
+#
+include
+"
+nsSimpleEnumerator
 .
 h
 "
