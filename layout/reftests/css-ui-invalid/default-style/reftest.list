@@ -12,6 +12,17 @@ fuzzy
 -
 if
 (
+isDebugBuild
+&
+&
+gtkWidget
+1
+1
+)
+fuzzy
+-
+if
+(
 cocoaWidget
 2
 32

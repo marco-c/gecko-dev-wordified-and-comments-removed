@@ -8,17 +8,6 @@ input
 ref
 .
 html
-fuzzy
--
-if
-(
-isDebugBuild
-&
-&
-gtkWidget
-1
-1
-)
 =
 =
 button
