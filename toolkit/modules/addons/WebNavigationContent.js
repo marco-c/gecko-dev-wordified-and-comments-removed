@@ -97,12 +97,7 @@ Ci
 nsIDOMWindow
 )
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 .
 outerWindowID
 ;

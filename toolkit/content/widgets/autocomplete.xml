@@ -13493,12 +13493,7 @@ dwu
 =
 window
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 ;
 let
 popupWidth

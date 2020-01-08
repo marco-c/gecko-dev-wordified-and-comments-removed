@@ -715,14 +715,9 @@ e
 let
 utils
 =
-requestor
+contentWindow
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 ;
 let
 doc

@@ -102,12 +102,7 @@ utils
 =
 window
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 ;
 return
 utils
