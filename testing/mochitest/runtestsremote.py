@@ -775,6 +775,26 @@ device
 .
 version
 )
+        
+mozinfo
+.
+info
+[
+'
+isFennec
+'
+]
+=
+not
+(
+'
+geckoview
+'
+in
+options
+.
+app
+)
     
 def
 cleanup
