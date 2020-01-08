@@ -36,6 +36,17 @@ detect_leaks
 =
 0
 "
+#
+ifdef
+MOZ_ASAN_REPORTER
+"
+:
+malloc_context_size
+=
+20
+"
+#
+endif
 "
 :
 max_free_fill_size
