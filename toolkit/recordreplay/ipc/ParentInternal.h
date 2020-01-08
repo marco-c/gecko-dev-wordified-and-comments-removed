@@ -154,6 +154,14 @@ MaybeSwitchToReplayingChild
 (
 )
 ;
+Maybe
+<
+double
+>
+GetRecordingPosition
+(
+)
+;
 extern
 void
 *
