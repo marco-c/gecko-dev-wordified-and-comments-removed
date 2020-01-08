@@ -459,14 +459,11 @@ nsIXPConnect
 >
 xpconnect
 =
-do_GetService
-(
 nsIXPConnect
 :
 :
-GetCID
+XPConnect
 (
-)
 )
 ;
 NS_ENSURE_STATE
