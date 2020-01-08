@@ -317,6 +317,11 @@ browser
 localization
 /
 *
+RESPATH
+/
+localization
+/
+*
 #
 if
 defined
