@@ -215,8 +215,6 @@ uint8_t
 None
 Left
 Right
-InlineStart
-InlineEnd
 }
 ;
 enum

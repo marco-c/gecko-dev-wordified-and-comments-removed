@@ -846,10 +846,7 @@ StyleDisplay
 )
 -
 >
-PhysicalFloats
-(
-aWM
-)
+mFloat
 ;
 const
 nscoord
@@ -1218,10 +1215,7 @@ StyleDisplay
 )
 -
 >
-PhysicalFloats
-(
-aWM
-)
+mFloat
 ;
 MOZ_ASSERT
 (
@@ -1383,10 +1377,7 @@ floatStyle
 display
 -
 >
-PhysicalFloats
-(
-aWM
-)
+mFloat
 ;
 if
 (

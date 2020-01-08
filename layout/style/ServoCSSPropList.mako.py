@@ -371,6 +371,10 @@ CounterReset
 "
     
 "
+Float
+"
+    
+"
 FontFamily
 "
     
