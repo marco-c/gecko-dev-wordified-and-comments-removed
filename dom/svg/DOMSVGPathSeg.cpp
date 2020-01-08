@@ -200,6 +200,12 @@ mPathSeg
 -
 >
 mList
+&
+&
+mPathSeg
+-
+>
+mList
 -
 >
 AttrIsAnimating
