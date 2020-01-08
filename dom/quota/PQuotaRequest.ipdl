@@ -75,6 +75,11 @@ InitResponse
 }
 ;
 struct
+InitTemporaryStorageResponse
+{
+}
+;
+struct
 InitOriginResponse
 {
 bool
@@ -121,6 +126,8 @@ RequestResponse
 nsresult
 ;
 InitResponse
+;
+InitTemporaryStorageResponse
 ;
 InitOriginResponse
 ;

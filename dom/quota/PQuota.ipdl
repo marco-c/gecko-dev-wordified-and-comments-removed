@@ -123,6 +123,11 @@ InitParams
 }
 ;
 struct
+InitTemporaryStorageParams
+{
+}
+;
+struct
 InitOriginParams
 {
 PrincipalInfo
@@ -216,6 +221,8 @@ union
 RequestParams
 {
 InitParams
+;
+InitTemporaryStorageParams
 ;
 InitOriginParams
 ;
