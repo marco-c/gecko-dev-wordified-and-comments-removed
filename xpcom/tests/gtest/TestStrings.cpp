@@ -9594,6 +9594,9 @@ Truncate
 (
 )
 ;
+#
+if
+0
 EXPECT_TRUE
 (
 k
@@ -9688,6 +9691,8 @@ Truncate
 (
 )
 ;
+#
+endif
 EXPECT_TRUE
 (
 l
