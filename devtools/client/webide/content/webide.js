@@ -651,6 +651,9 @@ adbAddon
 .
 install
 (
+"
+webide
+"
 )
 ;
 }
