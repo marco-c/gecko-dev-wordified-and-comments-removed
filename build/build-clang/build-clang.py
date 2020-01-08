@@ -1240,7 +1240,6 @@ libtool
                     
 src_dir
 stage_dir
-package_name
 build_libcxx
                     
 osx_cross_compile
@@ -1291,9 +1290,8 @@ stage_dir
 +
 "
 /
+clang
 "
-+
-package_name
     
 def
 slashify_path
@@ -4439,23 +4437,9 @@ l
 ]
 )
     
-package_name
-=
-"
-clang
-"
-    
 if
 build_clang_tidy
 :
-        
-package_name
-=
-"
-clang
--
-tidy
-"
         
 import_clang_tidy
 (
@@ -4517,9 +4501,8 @@ stage1_dir
 +
 '
 /
+clang
 '
-+
-package_name
     
 final_stage_dir
 =
@@ -4988,7 +4971,6 @@ libtool
         
 llvm_source_dir
 stage1_dir
-package_name
 build_libcxx
 osx_cross_compile
         
@@ -5020,9 +5002,8 @@ stage2_dir
 +
 '
 /
+clang
 '
-+
-package_name
         
 final_stage_dir
 =
@@ -5109,7 +5090,6 @@ libtool
             
 llvm_source_dir
 stage2_dir
-package_name
 build_libcxx
 osx_cross_compile
             
@@ -5225,7 +5205,6 @@ libtool
             
 llvm_source_dir
 stage3_dir
-package_name
 build_libcxx
 osx_cross_compile
             
@@ -5241,6 +5220,12 @@ stages
 3
 )
     
+package_name
+=
+"
+clang
+"
+    
 if
 build_clang_tidy
 :
@@ -5254,11 +5239,20 @@ path
 join
 (
 final_stage_dir
-package_name
+"
+clang
+"
 )
-                                       
 osx_cross_compile
 )
+        
+package_name
+=
+"
+clang
+-
+tidy
+"
     
 if
 not
@@ -5305,5 +5299,7 @@ package_name
 ext
 )
 final_stage_dir
-package_name
+"
+clang
+"
 )
