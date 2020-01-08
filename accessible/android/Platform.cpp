@@ -873,6 +873,15 @@ DocAccessibleWrap
 :
 eBatch_FocusPath
 :
+sessionAcc
+-
+>
+ReplaceFocusPathCache
+(
+accWraps
+aData
+)
+;
 break
 ;
 default
