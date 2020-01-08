@@ -122,6 +122,13 @@ marked
 (
 false
 )
+markColor
+(
+MarkColor
+:
+:
+Black
+)
 {
 MOZ_ASSERT_IF
 (

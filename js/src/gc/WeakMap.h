@@ -438,6 +438,12 @@ zone_
 bool
 marked
 ;
+gc
+:
+:
+MarkColor
+markColor
+;
 }
 ;
 template
@@ -763,6 +769,9 @@ obj
 bool
 keyNeedsMark
 (
+GCMarker
+*
+marker
 JSObject
 *
 key
@@ -772,6 +781,9 @@ const
 bool
 keyNeedsMark
 (
+GCMarker
+*
+marker
 JSScript
 *
 script
@@ -781,6 +793,9 @@ const
 bool
 keyNeedsMark
 (
+GCMarker
+*
+marker
 LazyScript
 *
 script
