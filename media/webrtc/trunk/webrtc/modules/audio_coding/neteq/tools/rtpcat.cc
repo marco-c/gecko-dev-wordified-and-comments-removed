@@ -13,7 +13,9 @@ memory
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -22,6 +24,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 rtp_file_reader
@@ -31,6 +35,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 rtp_file_writer

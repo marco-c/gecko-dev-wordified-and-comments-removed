@@ -1,12 +1,14 @@
 #
 ifndef
-MODULES_AUDIO_DEVICE_MOCK_AUDIO_DEVICE_BUFFER_H_
+WEBRTC_MODULES_AUDIO_DEVICE_MOCK_AUDIO_DEVICE_BUFFER_H_
 #
 define
-MODULES_AUDIO_DEVICE_MOCK_AUDIO_DEVICE_BUFFER_H_
+WEBRTC_MODULES_AUDIO_DEVICE_MOCK_AUDIO_DEVICE_BUFFER_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_device
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock

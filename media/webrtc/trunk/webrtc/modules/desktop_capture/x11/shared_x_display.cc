@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -28,7 +30,9 @@ algorithm
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -37,7 +41,11 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+system_wrappers
+/
+include
 /
 logging
 .
@@ -138,7 +146,7 @@ if
 display
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )

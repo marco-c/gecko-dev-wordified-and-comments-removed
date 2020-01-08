@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_CODING_TEST_PCMFILE_H_
+WEBRTC_MODULES_AUDIO_CODING_TEST_PCMFILE_H_
 #
 define
-MODULES_AUDIO_CODING_TEST_PCMFILE_H_
+WEBRTC_MODULES_AUDIO_CODING_TEST_PCMFILE_H_
 #
 include
 <
@@ -26,7 +26,9 @@ string
 #
 include
 "
-api
+webrtc
+/
+base
 /
 optional
 .
@@ -35,6 +37,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -46,6 +50,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -106,7 +112,6 @@ audio_frame
 void
 Write10MsData
 (
-const
 int16_t
 *
 playout_buffer
@@ -117,7 +122,6 @@ length_smpls
 void
 Write10MsData
 (
-const
 AudioFrame
 &
 audio_frame

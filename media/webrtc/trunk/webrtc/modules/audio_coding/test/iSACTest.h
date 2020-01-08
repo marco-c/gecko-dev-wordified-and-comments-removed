@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_CODING_TEST_ISACTEST_H_
+WEBRTC_MODULES_AUDIO_CODING_TEST_ISACTEST_H_
 #
 define
-MODULES_AUDIO_CODING_TEST_ISACTEST_H_
+WEBRTC_MODULES_AUDIO_CODING_TEST_ISACTEST_H_
 #
 include
 <
@@ -19,6 +19,8 @@ memory
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -26,6 +28,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -39,6 +43,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -52,6 +58,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -65,6 +73,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -78,6 +88,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding

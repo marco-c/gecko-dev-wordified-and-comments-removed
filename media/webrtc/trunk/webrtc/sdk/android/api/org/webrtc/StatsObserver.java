@@ -7,7 +7,6 @@ public
 interface
 StatsObserver
 {
-CalledByNative
 public
 void
 onComplete

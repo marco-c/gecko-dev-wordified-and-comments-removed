@@ -22,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -29,6 +31,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding

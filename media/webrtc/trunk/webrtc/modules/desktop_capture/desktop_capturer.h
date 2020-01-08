@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_H_
 #
 include
 <
@@ -41,6 +41,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -52,6 +54,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -63,6 +67,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -264,16 +270,6 @@ virtual
 bool
 FocusOnSelectedSource
 (
-)
-;
-virtual
-bool
-IsOccluded
-(
-const
-DesktopVector
-&
-pos
 )
 ;
 static

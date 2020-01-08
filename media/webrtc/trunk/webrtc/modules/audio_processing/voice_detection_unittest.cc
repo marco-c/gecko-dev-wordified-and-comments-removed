@@ -6,7 +6,9 @@ vector
 #
 include
 "
-api
+webrtc
+/
+base
 /
 array_view
 .
@@ -15,6 +17,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -26,6 +30,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -39,6 +45,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -52,6 +60,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -63,6 +73,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

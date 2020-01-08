@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -14,7 +16,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -215,7 +219,6 @@ biquad_state
 ;
 const
 auto
-*
 c_b
 =
 coefficients_
@@ -224,7 +227,6 @@ b
 ;
 const
 auto
-*
 c_a
 =
 coefficients_
@@ -232,7 +234,6 @@ coefficients_
 a
 ;
 auto
-*
 m_x
 =
 biquad_state
@@ -241,7 +242,6 @@ biquad_state
 x
 ;
 auto
-*
 m_y
 =
 biquad_state

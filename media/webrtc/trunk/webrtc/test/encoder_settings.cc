@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 test
 /
 encoder_settings
@@ -20,6 +22,8 @@ string
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -37,6 +41,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -54,6 +60,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -71,15 +79,8 @@ h
 #
 include
 "
-rtc_base
+webrtc
 /
-refcountedobject
-.
-h
-"
-#
-include
-"
 test
 /
 fake_decoder
@@ -124,7 +125,7 @@ kDefaultMinBitratePerStream
 ]
 =
 {
-30000
+50000
 200000
 700000
 }
@@ -517,10 +518,6 @@ H264Decoder
 Create
 (
 )
-.
-release
-(
-)
 ;
 }
 else
@@ -546,10 +543,6 @@ VP8Decoder
 Create
 (
 )
-.
-release
-(
-)
 ;
 }
 else
@@ -573,10 +566,6 @@ VP9Decoder
 :
 :
 Create
-(
-)
-.
-release
 (
 )
 ;

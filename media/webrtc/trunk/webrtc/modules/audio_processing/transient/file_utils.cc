@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -19,6 +21,8 @@ memory
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -30,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

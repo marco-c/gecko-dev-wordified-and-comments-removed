@@ -10,7 +10,7 @@ import
 re
 import
 sys
-SAVE_FIGURE
+save_figure
 =
 False
 class
@@ -51,7 +51,7 @@ line
 =
 line
 def
-ParsePlotLine
+parse_plot_line
 (
 line
 )
@@ -240,7 +240,7 @@ time
 value
 )
 def
-GenerateLabel
+generate_label
 (
 var_name
 ssrc
@@ -325,7 +325,7 @@ subplots
 ]
   
 def
-AddSubplot
+addSubplot
 (
 self
 var_names
@@ -349,7 +349,7 @@ ylabel
 )
   
 def
-AddSample
+addSample
 (
 self
 var_name
@@ -370,7 +370,7 @@ subplots
       
 s
 .
-AddSample
+addSample
 (
 var_name
 ssrc
@@ -380,7 +380,7 @@ value
 )
   
 def
-PlotFigure
+plotFigure
 (
 self
 fig
@@ -405,7 +405,7 @@ n
 )
 :
       
-axis
+ax
 =
 fig
 .
@@ -425,9 +425,9 @@ subplots
 i
 ]
 .
-PlotSubplot
+plotSubplot
 (
-axis
+ax
 )
 class
 Subplot
@@ -473,7 +473,7 @@ dict
 )
   
 def
-AddSample
+addSample
 (
 self
 var_name
@@ -604,14 +604,14 @@ value
 )
   
 def
-PlotSubplot
+plotSubplot
 (
 self
-axis
+ax
 )
 :
     
-axis
+ax
 .
 set_xlabel
 (
@@ -620,7 +620,7 @@ self
 xlabel
 )
     
-axis
+ax
 .
 set_ylabel
 (
@@ -762,7 +762,7 @@ keys
           
 l
 =
-GenerateLabel
+generate_label
 (
 var_name
 ssrc
@@ -770,34 +770,6 @@ ssrc_count
 alg_name
 )
           
-if
-l
-=
-=
-'
-MaxThroughput_
-'
-:
-            
-plt
-.
-plot
-(
-x
-y
-label
-=
-l
-linewidth
-=
-4
-.
-0
-)
-          
-else
-:
-            
 plt
 .
 plot
@@ -859,7 +831,7 @@ PacketReceiver
   
 receiver
 .
-AddSubplot
+addSubplot
 (
 [
 '
@@ -896,7 +868,7 @@ kbps
   
 receiver
 .
-AddSubplot
+addSubplot
 (
 [
 '
@@ -926,7 +898,7 @@ ms
   
 receiver
 .
-AddSubplot
+addSubplot
 (
 [
 '
@@ -957,7 +929,7 @@ KalmanState
   
 kalman_state
 .
-AddSubplot
+addSubplot
 (
 [
 '
@@ -981,7 +953,7 @@ gain
   
 kalman_state
 .
-AddSubplot
+addSubplot
 (
 [
 '
@@ -1003,7 +975,7 @@ Slope
   
 kalman_state
 .
-AddSubplot
+addSubplot
 (
 [
 '
@@ -1033,14 +1005,11 @@ DetectorState
   
 detector_state
 .
-AddSubplot
+addSubplot
 (
 [
 '
-T
-'
-'
-threshold
+offset_ms
 '
 ]
 "
@@ -1051,6 +1020,26 @@ s
 "
 "
 Offset
+"
+)
+  
+detector_state
+.
+addSubplot
+(
+[
+'
+gamma_ms
+'
+]
+"
+Time
+(
+s
+)
+"
+"
+Gamma
 "
 )
   
@@ -1065,7 +1054,7 @@ TrendlineState
   
 trendline_state
 .
-AddSubplot
+addSubplot
 (
 [
 "
@@ -1092,7 +1081,7 @@ ms
   
 trendline_state
 .
-AddSubplot
+addSubplot
 (
 [
 "
@@ -1121,17 +1110,13 @@ TargetBitrate
   
 target_bitrate
 .
-AddSubplot
+addSubplot
 (
 [
 '
 target_bitrate_bps
 '
-'
-acknowledged_bitrate
-'
 ]
-                            
 "
 Time
 (
@@ -1146,38 +1131,6 @@ bps
 "
 )
   
-min_rtt_state
-=
-Figure
-(
-"
-MinRttState
-"
-)
-  
-min_rtt_state
-.
-AddSubplot
-(
-[
-'
-MinRtt
-'
-]
-"
-Time
-(
-s
-)
-"
-"
-Time
-(
-ms
-)
-"
-)
-  
 figures
 =
 [
@@ -1185,8 +1138,6 @@ receiver
 detector_state
 trendline_state
 target_bitrate
-    
-min_rtt_state
 ]
   
 for
@@ -1256,7 +1207,7 @@ time
 value
 )
 =
-ParsePlotLine
+parse_plot_line
 (
 line
 )
@@ -1269,7 +1220,7 @@ figures
           
 f
 .
-AddSample
+addSample
 (
 var_name
 ssrc
@@ -1313,13 +1264,13 @@ name
     
 f
 .
-PlotFigure
+plotFigure
 (
 fig
 )
     
 if
-SAVE_FIGURE
+save_figure
 :
       
 fig

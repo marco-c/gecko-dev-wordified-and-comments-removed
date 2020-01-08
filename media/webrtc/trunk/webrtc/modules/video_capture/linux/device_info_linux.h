@@ -1,12 +1,14 @@
 #
 ifndef
-MODULES_VIDEO_CAPTURE_MAIN_SOURCE_LINUX_DEVICE_INFO_LINUX_H_
+WEBRTC_MODULES_VIDEO_CAPTURE_MAIN_SOURCE_LINUX_DEVICE_INFO_LINUX_H_
 #
 define
-MODULES_VIDEO_CAPTURE_MAIN_SOURCE_LINUX_DEVICE_INFO_LINUX_H_
+WEBRTC_MODULES_VIDEO_CAPTURE_MAIN_SOURCE_LINUX_DEVICE_INFO_LINUX_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 video_capture
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_capture
@@ -37,7 +41,9 @@ memory
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 platform_thread
 .
@@ -46,6 +52,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include

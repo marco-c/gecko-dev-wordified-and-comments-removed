@@ -1,12 +1,14 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_AGC_MOCK_AGC_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AGC_MOCK_AGC_H_
 #
 define
-MODULES_AUDIO_PROCESSING_AGC_MOCK_AGC_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AGC_MOCK_AGC_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -20,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -31,6 +35,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock

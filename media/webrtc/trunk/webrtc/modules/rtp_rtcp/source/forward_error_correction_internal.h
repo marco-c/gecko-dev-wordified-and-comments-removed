@@ -1,12 +1,14 @@
 #
 ifndef
-MODULES_RTP_RTCP_SOURCE_FORWARD_ERROR_CORRECTION_INTERNAL_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_FORWARD_ERROR_CORRECTION_INTERNAL_H_
 #
 define
-MODULES_RTP_RTCP_SOURCE_FORWARD_ERROR_CORRECTION_INTERNAL_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_FORWARD_ERROR_CORRECTION_INTERNAL_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -90,9 +94,7 @@ fec_mask_type_
 const
 uint8_t
 *
-const
 *
-const
 *
 fec_packet_mask_table
 (
@@ -117,9 +119,7 @@ num_media_packets
 const
 uint8_t
 *
-const
 *
-const
 *
 InitMaskTable
 (
@@ -134,9 +134,7 @@ fec_mask_type_
 const
 uint8_t
 *
-const
 *
-const
 *
 fec_packet_mask_table_
 ;

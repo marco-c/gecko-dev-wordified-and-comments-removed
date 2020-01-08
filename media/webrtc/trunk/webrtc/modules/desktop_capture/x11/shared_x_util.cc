@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -214,7 +216,7 @@ num_children
 )
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )
@@ -640,7 +642,7 @@ cnt
 1
 )
 {
-RTC_LOG
+LOG
 (
 LS_INFO
 )
@@ -780,7 +782,7 @@ status
 0
 )
 {
-RTC_LOG
+LOG
 (
 LS_ERROR
 )

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -33,6 +35,8 @@ algorithm
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -231,7 +235,7 @@ stats
 stats
 -
 >
-extended_highest_sequence_number
+extended_max_sequence_number
 =
 (
 static_cast
@@ -254,7 +258,7 @@ expected_packets
 stats
 -
 >
-extended_highest_sequence_number
+extended_max_sequence_number
 -
 base_seq_no_
 +
@@ -271,7 +275,7 @@ received_packets_
 stats
 -
 >
-packets_lost
+cumulative_lost
 =
 0
 ;
@@ -287,7 +291,7 @@ received_packets_
 stats
 -
 >
-packets_lost
+cumulative_lost
 =
 expected_packets
 -
@@ -298,7 +302,7 @@ if
 stats
 -
 >
-packets_lost
+cumulative_lost
 >
 0xFFFFFF
 )
@@ -306,7 +310,7 @@ packets_lost
 stats
 -
 >
-packets_lost
+cumulative_lost
 =
 0xFFFFFF
 ;
@@ -317,7 +321,7 @@ else
 stats
 -
 >
-packets_lost
+cumulative_lost
 =
 0
 ;

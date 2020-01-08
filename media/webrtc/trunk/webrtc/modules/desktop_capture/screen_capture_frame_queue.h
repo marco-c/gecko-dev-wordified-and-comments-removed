@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_SCREEN_CAPTURE_FRAME_QUEUE_H_
 #
 include
 <
@@ -12,7 +12,9 @@ memory
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -21,6 +23,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -32,6 +36,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture

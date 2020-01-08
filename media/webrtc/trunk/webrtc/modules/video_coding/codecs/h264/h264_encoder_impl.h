@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_CODING_CODECS_H264_H264_ENCODER_IMPL_H_
+WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_H264_ENCODER_IMPL_H_
 #
 define
-MODULES_VIDEO_CODING_CODECS_H264_H264_ENCODER_IMPL_H_
+WEBRTC_MODULES_VIDEO_CODING_CODECS_H264_H264_ENCODER_IMPL_H_
 #
 include
 <
@@ -17,6 +17,8 @@ vector
 #
 include
 "
+webrtc
+/
 common_video
 /
 h264
@@ -28,6 +30,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -45,6 +49,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding

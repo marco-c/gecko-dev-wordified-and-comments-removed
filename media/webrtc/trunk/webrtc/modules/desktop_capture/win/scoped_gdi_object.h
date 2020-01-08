@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_WIN_SCOPED_GDI_HANDLE_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_SCOPED_GDI_HANDLE_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_WIN_SCOPED_GDI_HANDLE_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_SCOPED_GDI_HANDLE_H_
 #
 include
 <
@@ -14,7 +14,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -23,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

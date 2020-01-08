@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_TRANSIENT_FILE_UTILS_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TRANSIENT_FILE_UTILS_H_
 #
 define
-MODULES_AUDIO_PROCESSING_TRANSIENT_FILE_UTILS_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TRANSIENT_FILE_UTILS_H_
 #
 include
 <
@@ -14,6 +14,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -25,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

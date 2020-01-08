@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_TEST_WAV_BASED_SIMULATOR_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TEST_WAV_BASED_SIMULATOR_H_
 #
 define
-MODULES_AUDIO_PROCESSING_TEST_WAV_BASED_SIMULATOR_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TEST_WAV_BASED_SIMULATOR_H_
 #
 include
 <
@@ -12,6 +12,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -25,7 +27,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -140,6 +144,11 @@ vector
 SimulationEventType
 >
 call_chain_
+;
+int
+last_specified_microphone_level_
+=
+100
 ;
 RTC_DISALLOW_IMPLICIT_CONSTRUCTORS
 (

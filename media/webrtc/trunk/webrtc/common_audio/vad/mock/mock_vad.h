@@ -1,12 +1,14 @@
 #
 ifndef
-COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
+WEBRTC_COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
 #
 define
-COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
+WEBRTC_COMMON_AUDIO_VAD_MOCK_MOCK_VAD_H_
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -20,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock

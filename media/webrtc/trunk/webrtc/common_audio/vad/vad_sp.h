@@ -1,12 +1,14 @@
 #
 ifndef
-COMMON_AUDIO_VAD_VAD_SP_H_
+WEBRTC_COMMON_AUDIO_VAD_VAD_SP_H_
 #
 define
-COMMON_AUDIO_VAD_VAD_SP_H_
+WEBRTC_COMMON_AUDIO_VAD_VAD_SP_H_
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

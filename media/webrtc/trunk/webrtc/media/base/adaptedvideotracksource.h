@@ -1,12 +1,14 @@
 #
 ifndef
-MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
+WEBRTC_MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
 #
 define
-MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
+WEBRTC_MEDIA_BASE_ADAPTEDVIDEOTRACKSOURCE_H_
 #
 include
 "
+webrtc
+/
 api
 /
 mediastreaminterface
@@ -16,6 +18,8 @@ h
 #
 include
 "
+webrtc
+/
 api
 /
 notifier
@@ -25,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 base
@@ -36,6 +42,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 base
@@ -70,7 +78,6 @@ AdaptedVideoTrackSource
 ;
 protected
 :
-explicit
 AdaptedVideoTrackSource
 (
 int
@@ -229,7 +236,7 @@ Optional
 Stats
 >
 stats_
-RTC_GUARDED_BY
+GUARDED_BY
 (
 stats_crit_
 )

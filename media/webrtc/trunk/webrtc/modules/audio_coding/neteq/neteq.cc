@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -26,6 +28,8 @@ sstream
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding

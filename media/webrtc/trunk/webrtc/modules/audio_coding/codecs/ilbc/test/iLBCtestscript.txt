@@ -75,6 +75,9 @@ INP
 .
 .
 /
+.
+.
+/
 resources
 /
 audio_coding

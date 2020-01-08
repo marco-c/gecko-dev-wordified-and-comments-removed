@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -26,6 +28,8 @@ C
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -40,6 +44,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -53,6 +59,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing

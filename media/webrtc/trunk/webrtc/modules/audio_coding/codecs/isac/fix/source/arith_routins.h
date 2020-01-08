@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_CODING_CODECS_ISAC_FIX_SOURCE_ARITH_ROUTINS_H_
+WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_FIX_SOURCE_ARITH_ROUTINS_H_
 #
 define
-MODULES_AUDIO_CODING_CODECS_ISAC_FIX_SOURCE_ARITH_ROUTINS_H_
+WEBRTC_MODULES_AUDIO_CODING_CODECS_ISAC_FIX_SOURCE_ARITH_ROUTINS_H_
 #
 include
 "
@@ -68,7 +68,6 @@ data
 const
 uint16_t
 *
-const
 *
 cdf
 const
@@ -88,7 +87,6 @@ streamData
 const
 uint16_t
 *
-const
 *
 cdf
 const
@@ -112,7 +110,6 @@ streamData
 const
 uint16_t
 *
-const
 *
 cdf
 const

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 common_audio
 /
 ring_buffer
@@ -34,6 +36,8 @@ memory
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -216,7 +220,7 @@ seed
 =
 time
 (
-nullptr
+NULL
 )
 ;
 printf
@@ -328,7 +332,7 @@ get
 )
 !
 =
-nullptr
+NULL
 )
 ;
 WebRtc_InitBuffer
@@ -620,7 +624,7 @@ int
 *
 data_ptr
 =
-nullptr
+NULL
 ;
 RandomStressTest
 (
@@ -637,7 +641,7 @@ RandomStressTestWithNullPtr
 {
 RandomStressTest
 (
-nullptr
+NULL
 )
 ;
 }
@@ -691,7 +695,7 @@ get
 )
 !
 =
-nullptr
+NULL
 )
 ;
 WebRtc_InitBuffer
@@ -796,7 +800,7 @@ buffer
 get
 (
 )
-nullptr
+NULL
 read_data
 kDataSize
 )
@@ -825,7 +829,7 @@ WebRtc_CreateBuffer
 )
 =
 =
-nullptr
+NULL
 )
 ;
 EXPECT_TRUE
@@ -837,7 +841,7 @@ WebRtc_CreateBuffer
 )
 =
 =
-nullptr
+NULL
 )
 ;
 RingBuffer
@@ -855,7 +859,7 @@ EXPECT_TRUE
 buffer
 !
 =
-nullptr
+NULL
 )
 ;
 WebRtc_FreeBuffer

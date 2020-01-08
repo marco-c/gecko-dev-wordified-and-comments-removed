@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 media
 /
 base
@@ -140,7 +142,7 @@ kIsacCodecName
 ]
 =
 "
-ISAC
+isac
 "
 ;
 const
@@ -150,7 +152,7 @@ kL16CodecName
 ]
 =
 "
-L16
+l16
 "
 ;
 const
@@ -160,7 +162,7 @@ kG722CodecName
 ]
 =
 "
-G722
+g722
 "
 ;
 const
@@ -170,7 +172,7 @@ kIlbcCodecName
 ]
 =
 "
-ILBC
+ilbc
 "
 ;
 const
@@ -180,7 +182,7 @@ kPcmuCodecName
 ]
 =
 "
-PCMU
+pcmu
 "
 ;
 const
@@ -190,7 +192,7 @@ kPcmaCodecName
 ]
 =
 "
-PCMA
+pcma
 "
 ;
 const
@@ -200,7 +202,7 @@ kCnCodecName
 ]
 =
 "
-CN
+cn
 "
 ;
 const

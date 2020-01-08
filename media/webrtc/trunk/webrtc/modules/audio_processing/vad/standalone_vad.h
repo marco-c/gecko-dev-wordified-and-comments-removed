@@ -1,12 +1,14 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_AGC_STANDALONE_VAD_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AGC_STANDALONE_VAD_H_
 #
 define
-MODULES_AUDIO_PROCESSING_AGC_STANDALONE_VAD_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AGC_STANDALONE_VAD_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -20,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -33,6 +37,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

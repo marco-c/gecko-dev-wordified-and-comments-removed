@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_TESTSUPPORT_FRAME_READER_H_
+WEBRTC_TEST_TESTSUPPORT_FRAME_READER_H_
 #
 define
-TEST_TESTSUPPORT_FRAME_READER_H_
+WEBRTC_TEST_TESTSUPPORT_FRAME_READER_H_
 #
 include
 <
@@ -19,7 +19,9 @@ string
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 scoped_ref_ptr
 .
@@ -28,6 +30,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -102,14 +106,14 @@ NumberOfFrames
 }
 ;
 class
-YuvFrameReaderImpl
+FrameReaderImpl
 :
 public
 FrameReader
 {
 public
 :
-YuvFrameReaderImpl
+FrameReaderImpl
 (
 std
 :
@@ -123,7 +127,7 @@ height
 )
 ;
 ~
-YuvFrameReaderImpl
+FrameReaderImpl
 (
 )
 override
@@ -166,7 +170,6 @@ override
 ;
 private
 :
-const
 std
 :
 :
@@ -176,11 +179,9 @@ input_filename_
 size_t
 frame_length_in_bytes_
 ;
-const
 int
 width_
 ;
-const
 int
 height_
 ;

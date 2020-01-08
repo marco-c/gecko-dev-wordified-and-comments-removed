@@ -1,9 +1,16 @@
 #
+ifndef
+_USE_MATH_DEFINES
+#
 define
 _USE_MATH_DEFINES
 #
+endif
+#
 include
 "
+webrtc
+/
 common_audio
 /
 window_generator
@@ -23,7 +30,9 @@ complex
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

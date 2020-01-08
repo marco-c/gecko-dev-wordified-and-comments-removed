@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_MAC_DESKTOP_CONFIGURATION_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_MAC_DESKTOP_CONFIGURATION_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_MAC_DESKTOP_CONFIGURATION_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_MAC_DESKTOP_CONFIGURATION_H_
 #
 include
 <
@@ -21,6 +21,8 @@ vector
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -28,6 +30,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture

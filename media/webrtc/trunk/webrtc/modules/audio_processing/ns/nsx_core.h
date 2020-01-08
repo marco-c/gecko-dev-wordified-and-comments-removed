@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_NS_MAIN_SOURCE_NSX_CORE_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_NS_MAIN_SOURCE_NSX_CORE_H_
 #
 define
-MODULES_AUDIO_PROCESSING_NS_MAIN_SOURCE_NSX_CORE_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_NS_MAIN_SOURCE_NSX_CORE_H_
 #
 ifdef
 NS_FILEDEBUG
@@ -19,6 +19,8 @@ endif
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -32,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -45,6 +49,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

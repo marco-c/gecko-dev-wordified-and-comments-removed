@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -16,6 +18,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 fuzzers
@@ -38,7 +42,7 @@ size_t
 size
 )
 {
-AudioDecoderIlbcImpl
+AudioDecoderIlbc
 dec
 ;
 static

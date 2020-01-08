@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_CODING_FRAME_BUFFER_H_
+WEBRTC_MODULES_VIDEO_CODING_FRAME_BUFFER_H_
 #
 define
-MODULES_VIDEO_CODING_FRAME_BUFFER_H_
+WEBRTC_MODULES_VIDEO_CODING_FRAME_BUFFER_H_
 #
 include
 <
@@ -12,6 +12,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -23,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -36,6 +40,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -47,6 +53,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -58,6 +66,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -69,6 +79,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -1,9 +1,9 @@
 #
 ifndef
-API_CALL_AUDIO_SINK_H_
+WEBRTC_API_CALL_AUDIO_SINK_H_
 #
 define
-API_CALL_AUDIO_SINK_H_
+WEBRTC_API_CALL_AUDIO_SINK_H_
 #
 if
 defined
@@ -56,7 +56,6 @@ Data
 {
 Data
 (
-const
 int16_t
 *
 data
@@ -92,7 +91,6 @@ timestamp
 )
 {
 }
-const
 int16_t
 *
 data

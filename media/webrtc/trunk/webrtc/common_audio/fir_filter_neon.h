@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_AUDIO_FIR_FILTER_NEON_H_
+WEBRTC_COMMON_AUDIO_FIR_FILTER_NEON_H_
 #
 define
-COMMON_AUDIO_FIR_FILTER_NEON_H_
+WEBRTC_COMMON_AUDIO_FIR_FILTER_NEON_H_
 #
 include
 <
@@ -12,6 +12,8 @@ memory
 #
 include
 "
+webrtc
+/
 common_audio
 /
 fir_filter
@@ -21,6 +23,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -51,12 +55,6 @@ coefficients_length
 size_t
 max_input_length
 )
-;
-~
-FIRFilterNEON
-(
-)
-override
 ;
 void
 Filter

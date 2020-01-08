@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -38,6 +40,19 @@ limits
 #
 include
 "
+webrtc
+/
+base
+/
+safe_conversions
+.
+h
+"
+#
+include
+"
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -51,6 +66,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -64,6 +81,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -77,6 +96,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -90,6 +111,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -103,6 +126,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -116,6 +141,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -123,17 +150,6 @@ audio_coding
 neteq
 /
 sync_buffer
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-numerics
-/
-safe_conversions
 .
 h
 "
@@ -1218,7 +1234,7 @@ WebRtcSpl_NormW32
 rtc
 :
 :
-dchecked_cast
+checked_cast
 <
 int32_t
 >
@@ -1664,7 +1680,7 @@ expand_duration_samples_
 rtc
 :
 :
-dchecked_cast
+checked_cast
 <
 size_t
 >
@@ -1707,7 +1723,7 @@ LogDelayedPacketOutageEvent
 rtc
 :
 :
-dchecked_cast
+checked_cast
 <
 int
 >

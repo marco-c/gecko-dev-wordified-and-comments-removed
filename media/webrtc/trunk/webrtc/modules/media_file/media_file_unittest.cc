@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 media_file
@@ -12,6 +14,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -23,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -32,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport

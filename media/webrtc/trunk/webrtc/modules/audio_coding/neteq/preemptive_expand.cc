@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -19,6 +21,8 @@ algorithm
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing

@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
 #
 define
-MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_DTMF_QUEUE_H_
 #
 include
 <
@@ -12,7 +12,9 @@ list
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 criticalsection
 .

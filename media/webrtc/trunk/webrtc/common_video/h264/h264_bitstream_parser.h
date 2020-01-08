@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_VIDEO_H264_H264_BITSTREAM_PARSER_H_
+WEBRTC_COMMON_VIDEO_H264_H264_BITSTREAM_PARSER_H_
 #
 define
-COMMON_VIDEO_H264_H264_BITSTREAM_PARSER_H_
+WEBRTC_COMMON_VIDEO_H264_H264_BITSTREAM_PARSER_H_
 #
 include
 <
@@ -21,7 +21,9 @@ h
 #
 include
 "
-api
+webrtc
+/
+base
 /
 optional
 .
@@ -30,6 +32,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 h264
@@ -41,6 +45,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 h264

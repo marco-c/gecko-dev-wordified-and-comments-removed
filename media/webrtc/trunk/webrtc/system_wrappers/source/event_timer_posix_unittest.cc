@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 source
@@ -12,7 +14,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 criticalsection
 .
@@ -21,7 +25,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 event
 .
@@ -30,6 +36,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

@@ -6,6 +6,8 @@ memory
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -19,6 +21,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -32,6 +36,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -45,6 +51,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -58,6 +66,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -98,16 +108,6 @@ vector
 RtpExtension
 >
 kNoRtpHeaderExtensions
-;
-const
-std
-:
-:
-vector
-<
-RtpExtensionSize
->
-kNoRtpHeaderExtensionSizes
 ;
 }
 void
@@ -156,8 +156,6 @@ kFlexfecPayloadType
 kFlexfecSsrc
 kMediaSsrc
 kNoRtpHeaderExtensions
-kNoRtpHeaderExtensionSizes
-nullptr
 &
 clock
 )

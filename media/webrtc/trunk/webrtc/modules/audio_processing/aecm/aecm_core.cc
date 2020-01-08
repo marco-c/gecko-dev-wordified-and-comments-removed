@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -33,6 +35,8 @@ C
 #
 include
 "
+webrtc
+/
 common_audio
 /
 ring_buffer
@@ -42,6 +46,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -56,6 +62,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -69,6 +77,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -87,6 +97,8 @@ C
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -99,7 +111,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -108,17 +122,8 @@ h
 #
 include
 "
-rtc_base
+webrtc
 /
-numerics
-/
-safe_conversions
-.
-h
-"
-#
-include
-"
 typedefs
 .
 h
@@ -4917,13 +4922,6 @@ zerosFar
 ;
 tmpU32no1
 =
-rtc
-:
-:
-dchecked_cast
-<
-uint32_t
->
 (
 aecm
 -

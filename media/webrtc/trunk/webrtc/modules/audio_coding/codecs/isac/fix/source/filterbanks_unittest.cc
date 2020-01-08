@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -33,6 +37,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -52,6 +58,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -71,15 +79,8 @@ h
 #
 include
 "
-rtc_base
+webrtc
 /
-sanitizer
-.
-h
-"
-#
-include
-"
 system_wrappers
 /
 include
@@ -91,6 +92,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -100,6 +103,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -116,16 +121,6 @@ Test
 protected
 :
 void
-RTC_NO_SANITIZE
-(
-"
-signed
--
-integer
--
-overflow
-"
-)
 CalculateResidualEnergyTester
 (
 AllpassFilter2FixDec16

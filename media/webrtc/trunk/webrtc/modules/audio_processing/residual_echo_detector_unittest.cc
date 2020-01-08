@@ -6,6 +6,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -17,6 +19,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

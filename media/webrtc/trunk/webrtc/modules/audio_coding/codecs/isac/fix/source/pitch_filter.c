@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -20,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -33,6 +37,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -52,6 +58,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -71,7 +79,11 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+system_wrappers
+/
+include
 /
 compile_assert_c
 .
@@ -334,7 +346,7 @@ fracoeffQQ
 =
 NULL
 ;
-RTC_COMPILE_ASSERT
+COMPILE_ASSERT
 (
 PITCH_FRACORDER
 =
@@ -342,7 +354,7 @@ PITCH_FRACORDER
 9
 )
 ;
-RTC_COMPILE_ASSERT
+COMPILE_ASSERT
 (
 PITCH_DAMPORDER
 =

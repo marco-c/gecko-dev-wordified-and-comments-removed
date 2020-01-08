@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -16,6 +18,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 fuzzers
@@ -50,7 +54,7 @@ size
 +
 1
 ;
-AudioDecoderOpusImpl
+AudioDecoderOpus
 dec
 (
 channels

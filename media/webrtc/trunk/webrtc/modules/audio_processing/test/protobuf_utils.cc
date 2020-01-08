@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -135,6 +139,14 @@ ReadMessageFromFile
 FILE
 *
 file
+:
+:
+google
+:
+:
+protobuf
+:
+:
 MessageLite
 *
 msg

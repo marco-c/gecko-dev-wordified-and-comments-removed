@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator
@@ -31,6 +33,8 @@ vector
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

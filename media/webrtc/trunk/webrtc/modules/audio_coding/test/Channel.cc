@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -26,7 +28,9 @@ iostream
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 format_macros
 .
@@ -35,7 +39,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 timeutils
 .

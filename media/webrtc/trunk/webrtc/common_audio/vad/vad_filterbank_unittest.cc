@@ -8,6 +8,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -19,6 +21,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -28,6 +32,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -40,6 +46,8 @@ C
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -51,6 +59,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -61,10 +71,6 @@ h
 "
 }
 namespace
-webrtc
-{
-namespace
-test
 {
 const
 int
@@ -513,6 +519,5 @@ free
 self
 )
 ;
-}
 }
 }

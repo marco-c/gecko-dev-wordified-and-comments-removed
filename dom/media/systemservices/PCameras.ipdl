@@ -114,7 +114,13 @@ int
 maxFPS
 ;
 int
-videoType
+expectedCaptureDelay
+;
+int
+rawType
+;
+int
+codecType
 ;
 bool
 interlaced

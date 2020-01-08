@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_AECM_AECM_CORE_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AECM_AECM_CORE_H_
 #
 define
-MODULES_AUDIO_PROCESSING_AECM_AECM_CORE_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_AECM_AECM_CORE_H_
 extern
 "
 C
@@ -12,6 +12,8 @@ C
 #
 include
 "
+webrtc
+/
 common_audio
 /
 ring_buffer
@@ -21,6 +23,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -35,6 +39,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -48,6 +54,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

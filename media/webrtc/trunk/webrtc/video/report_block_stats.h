@@ -1,9 +1,9 @@
 #
 ifndef
-VIDEO_REPORT_BLOCK_STATS_H_
+WEBRTC_VIDEO_REPORT_BLOCK_STATS_H_
 #
 define
-VIDEO_REPORT_BLOCK_STATS_H_
+WEBRTC_VIDEO_REPORT_BLOCK_STATS_H_
 #
 include
 <
@@ -17,6 +17,8 @@ vector
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -24,6 +26,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp

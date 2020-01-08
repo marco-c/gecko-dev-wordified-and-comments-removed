@@ -1,13 +1,17 @@
 #
 ifndef
-COMMON_AUDIO_SIGNAL_PROCESSING_INCLUDE_SPL_INL_H_
+WEBRTC_SPL_SPL_INL_H_
 #
 define
-COMMON_AUDIO_SIGNAL_PROCESSING_INCLUDE_SPL_INL_H_
+WEBRTC_SPL_SPL_INL_H_
 #
 include
 "
-rtc_base
+webrtc
+/
+system_wrappers
+/
+include
 /
 compile_assert_c
 .
@@ -142,7 +146,7 @@ n
 #
 ifdef
 __GNUC__
-RTC_COMPILE_ASSERT
+COMPILE_ASSERT
 (
 sizeof
 (
@@ -193,7 +197,7 @@ n
 #
 ifdef
 __GNUC__
-RTC_COMPILE_ASSERT
+COMPILE_ASSERT
 (
 sizeof
 (
@@ -239,6 +243,8 @@ WEBRTC_ARCH_ARM_V7
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -260,6 +266,8 @@ MIPS32_LE
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing

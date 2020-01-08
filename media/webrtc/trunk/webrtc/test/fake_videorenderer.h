@@ -1,12 +1,14 @@
 #
 ifndef
-TEST_FAKE_VIDEORENDERER_H_
+WEBRTC_TEST_FAKE_VIDEORENDERER_H_
 #
 define
-TEST_FAKE_VIDEORENDERER_H_
+WEBRTC_TEST_FAKE_VIDEORENDERER_H_
 #
 include
 "
+webrtc
+/
 api
 /
 video
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 base

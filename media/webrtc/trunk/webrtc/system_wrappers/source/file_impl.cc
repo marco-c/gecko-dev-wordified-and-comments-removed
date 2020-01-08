@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -40,7 +42,9 @@ endif
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_CODING_H264_SPROP_PARAMETER_SETS_H_
+WEBRTC_MODULES_VIDEO_CODING_H264_SPROP_PARAMETER_SETS_H_
 #
 define
-MODULES_VIDEO_CODING_H264_SPROP_PARAMETER_SETS_H_
+WEBRTC_MODULES_VIDEO_CODING_H264_SPROP_PARAMETER_SETS_H_
 #
 include
 <
@@ -17,9 +17,11 @@ vector
 #
 include
 "
-rtc_base
+webrtc
 /
-constructormagic
+base
+/
+common
 .
 h
 "

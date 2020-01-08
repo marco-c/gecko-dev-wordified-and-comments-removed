@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 test
 /
 field_trial
@@ -40,6 +42,8 @@ string
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -51,6 +55,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include

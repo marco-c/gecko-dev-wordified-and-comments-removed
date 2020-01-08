@@ -13,6 +13,8 @@ memory
 #
 include
 "
+webrtc
+/
 common_video
 /
 include
@@ -24,6 +26,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -35,6 +39,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -44,6 +50,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 frame_utils
@@ -53,6 +61,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport
@@ -1153,7 +1163,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 video_frame_buffer
 (
@@ -1180,7 +1190,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 denoised_frame_c
 (
@@ -1198,7 +1208,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 denoised_frame_sse_neon
 (

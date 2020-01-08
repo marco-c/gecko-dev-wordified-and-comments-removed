@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -14,7 +16,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 logging
 .
@@ -23,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -86,13 +92,13 @@ report_block
 ;
 report_block
 .
-source_ssrc
+sourceSSRC
 =
 ssrc
 ;
 report_block
 .
-extended_highest_sequence_number
+extendedHighSeqNum
 =
 seq_num
 ;

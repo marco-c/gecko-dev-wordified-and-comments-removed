@@ -1,7 +1,9 @@
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -10,6 +12,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -511,6 +515,7 @@ half_in2
 i
 ]
 =
+WEBRTC_SPL_LSHIFT_W32
 (
 (
 int32_t
@@ -519,12 +524,6 @@ in_data
 [
 k
 ]
-)
-*
-(
-1
-<
-<
 10
 )
 ;
@@ -533,6 +532,7 @@ half_in1
 i
 ]
 =
+WEBRTC_SPL_LSHIFT_W32
 (
 (
 int32_t
@@ -543,12 +543,6 @@ k
 +
 1
 ]
-)
-*
-(
-1
-<
-<
 10
 )
 ;

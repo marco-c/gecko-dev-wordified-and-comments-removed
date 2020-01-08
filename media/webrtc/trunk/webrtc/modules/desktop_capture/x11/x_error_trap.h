@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_X11_X_ERROR_TRAP_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_X11_X_ERROR_TRAP_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_X11_X_ERROR_TRAP_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_X11_X_ERROR_TRAP_H_
 #
 include
 <
@@ -50,7 +50,9 @@ min
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .

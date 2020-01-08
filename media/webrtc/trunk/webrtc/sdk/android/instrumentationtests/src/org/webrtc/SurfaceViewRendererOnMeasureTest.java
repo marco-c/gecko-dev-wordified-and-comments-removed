@@ -729,12 +729,6 @@ private
 int
 rotation
 ;
-SuppressWarnings
-(
-"
-NoSynchronizedMethodCheck
-"
-)
 public
 synchronized
 void
@@ -782,7 +776,6 @@ wait
 ;
 }
 }
-Override
 public
 void
 onFirstFrameRendered
@@ -790,13 +783,6 @@ onFirstFrameRendered
 )
 {
 }
-Override
-SuppressWarnings
-(
-"
-NoSynchronizedMethodCheck
-"
-)
 public
 synchronized
 void

@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_ENCODER_SETTINGS_H_
+WEBRTC_TEST_ENCODER_SETTINGS_H_
 #
 define
-TEST_ENCODER_SETTINGS_H_
+WEBRTC_TEST_ENCODER_SETTINGS_H_
 #
 include
 <
@@ -12,7 +12,7 @@ vector
 #
 include
 "
-call
+webrtc
 /
 video_receive_stream
 .
@@ -21,7 +21,7 @@ h
 #
 include
 "
-call
+webrtc
 /
 video_send_stream
 .

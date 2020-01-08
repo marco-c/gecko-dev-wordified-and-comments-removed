@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_RUN_LOOP_H_
+WEBRTC_TEST_RUN_LOOP_H_
 #
 define
-TEST_RUN_LOOP_H_
+WEBRTC_TEST_RUN_LOOP_H_
 namespace
 webrtc
 {

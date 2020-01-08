@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_PROCESSING_VIDEO_DENOISER_H_
+WEBRTC_MODULES_VIDEO_PROCESSING_VIDEO_DENOISER_H_
 #
 define
-MODULES_VIDEO_PROCESSING_VIDEO_DENOISER_H_
+WEBRTC_MODULES_VIDEO_PROCESSING_VIDEO_DENOISER_H_
 #
 include
 <
@@ -12,6 +12,8 @@ memory
 #
 include
 "
+webrtc
+/
 common_video
 /
 include
@@ -23,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -36,6 +40,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -49,6 +55,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -79,7 +87,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 DenoiseFrame
 (
@@ -88,7 +96,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 frame
 bool
@@ -105,7 +113,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 frame
 )
@@ -300,7 +308,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 prev_buffer_
 ;

@@ -1,10 +1,11 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
-/
 /
 utility
 /
@@ -22,6 +23,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -35,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing

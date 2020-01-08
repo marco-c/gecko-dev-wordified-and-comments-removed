@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_VAD_VAD_AUDIO_PROC_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_VAD_VAD_AUDIO_PROC_H_
 #
 define
-MODULES_AUDIO_PROCESSING_VAD_VAD_AUDIO_PROC_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_VAD_VAD_AUDIO_PROC_H_
 #
 include
 <
@@ -12,6 +12,8 @@ memory
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -25,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

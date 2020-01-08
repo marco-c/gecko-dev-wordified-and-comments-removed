@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -26,18 +28,6 @@ limits
 namespace
 webrtc
 {
-static
-bool
-g_xserver_error_trap_enabled
-=
-false
-;
-static
-int
-g_last_xserver_error_code
-=
-0
-;
 Bool
 XErrorTrap
 :

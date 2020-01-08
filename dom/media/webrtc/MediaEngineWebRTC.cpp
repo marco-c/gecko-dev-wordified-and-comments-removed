@@ -729,15 +729,9 @@ maxFPS
 %
 d
 "
-static_cast
-<
-int
->
-(
 cap
 .
-videoType
-)
+rawType
 cap
 .
 width

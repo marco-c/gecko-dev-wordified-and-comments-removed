@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_AUDIO_RESAMPLER_SINC_RESAMPLER_H_
+WEBRTC_COMMON_AUDIO_RESAMPLER_SINC_RESAMPLER_H_
 #
 define
-COMMON_AUDIO_RESAMPLER_SINC_RESAMPLER_H_
+WEBRTC_COMMON_AUDIO_RESAMPLER_SINC_RESAMPLER_H_
 #
 include
 <
@@ -12,7 +12,9 @@ memory
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -21,7 +23,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 gtest_prod_util
 .
@@ -30,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -41,6 +47,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -6,6 +6,8 @@ memory
 #
 include
 "
+webrtc
+/
 common_audio
 /
 blocker
@@ -15,7 +17,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 arraysize
 .
@@ -24,6 +28,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

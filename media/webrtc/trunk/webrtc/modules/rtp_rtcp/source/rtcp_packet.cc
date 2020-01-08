@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -14,7 +16,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -281,7 +285,7 @@ RtcpPacket
 :
 CreateHeader
 (
-size_t
+uint8_t
 count_or_format
 uint8_t
 packet_type
@@ -337,13 +341,7 @@ kVersionBits
 |
 kNoPaddingBit
 |
-static_cast
-<
-uint8_t
->
-(
 count_or_format
-)
 ;
 buffer
 [

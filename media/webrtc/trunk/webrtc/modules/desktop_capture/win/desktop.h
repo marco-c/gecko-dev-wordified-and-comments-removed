@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_WIN_DESKTOP_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_DESKTOP_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_WIN_DESKTOP_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_WIN_DESKTOP_H_
 #
 include
 <
@@ -19,7 +19,9 @@ string
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .

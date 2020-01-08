@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_INCLUDE_CONFIG_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_INCLUDE_CONFIG_H_
 #
 define
-MODULES_AUDIO_PROCESSING_INCLUDE_CONFIG_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_INCLUDE_CONFIG_H_
 #
 include
 <
@@ -12,7 +12,9 @@ map
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 basictypes
 .
@@ -21,7 +23,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .

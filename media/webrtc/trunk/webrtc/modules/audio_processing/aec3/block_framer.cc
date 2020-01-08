@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -19,7 +21,9 @@ algorithm
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -21,7 +23,9 @@ limits
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 random
 .
@@ -30,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

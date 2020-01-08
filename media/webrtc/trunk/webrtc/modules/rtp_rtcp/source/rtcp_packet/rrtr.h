@@ -1,13 +1,15 @@
 #
 ifndef
-MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
 #
 define
-MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
+WEBRTC_MODULES_RTP_RTCP_SOURCE_RTCP_PACKET_RRTR_H_
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 basictypes
 .
@@ -16,6 +18,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include

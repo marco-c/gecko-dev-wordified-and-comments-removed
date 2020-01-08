@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_VIDEO_CODING_CODECS_VP9_VP9_FRAME_BUFFER_POOL_H_
+WEBRTC_MODULES_VIDEO_CODING_CODECS_VP9_VP9_FRAME_BUFFER_POOL_H_
 #
 define
-MODULES_VIDEO_CODING_CODECS_VP9_VP9_FRAME_BUFFER_POOL_H_
+WEBRTC_MODULES_VIDEO_CODING_CODECS_VP9_VP9_FRAME_BUFFER_POOL_H_
 #
 include
 <
@@ -12,7 +12,9 @@ vector
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 basictypes
 .
@@ -21,7 +23,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 buffer
 .
@@ -30,7 +34,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 criticalsection
 .
@@ -39,7 +45,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 refcount
 .
@@ -48,7 +56,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 scoped_ref_ptr
 .
@@ -197,7 +207,7 @@ Vp9FrameBuffer
 >
 >
 allocated_buffers_
-RTC_GUARDED_BY
+GUARDED_BY
 (
 buffers_lock_
 )

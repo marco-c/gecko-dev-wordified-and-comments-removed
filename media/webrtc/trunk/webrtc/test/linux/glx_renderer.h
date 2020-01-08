@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_LINUX_GLX_RENDERER_H_
+WEBRTC_TEST_LINUX_GLX_RENDERER_H_
 #
 define
-TEST_LINUX_GLX_RENDERER_H_
+WEBRTC_TEST_LINUX_GLX_RENDERER_H_
 #
 include
 <
@@ -25,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gl
@@ -36,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

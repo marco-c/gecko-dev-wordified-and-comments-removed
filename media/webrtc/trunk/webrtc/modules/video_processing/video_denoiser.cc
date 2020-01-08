@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -472,7 +476,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 frame
 )
@@ -1497,7 +1501,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 VideoDenoiser
 :
@@ -1509,7 +1513,7 @@ rtc
 :
 scoped_refptr
 <
-I420BufferInterface
+VideoFrameBuffer
 >
 frame
 bool

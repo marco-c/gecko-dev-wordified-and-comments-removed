@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_TEST_BITEXACTNESS_TOOLS_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TEST_BITEXACTNESS_TOOLS_H_
 #
 define
-MODULES_AUDIO_PROCESSING_TEST_BITEXACTNESS_TOOLS_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_TEST_BITEXACTNESS_TOOLS_H_
 #
 include
 <
@@ -12,7 +12,9 @@ string
 #
 include
 "
-api
+webrtc
+/
+base
 /
 array_view
 .
@@ -21,6 +23,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -36,6 +40,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

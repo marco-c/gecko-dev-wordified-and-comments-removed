@@ -107,7 +107,7 @@ header
 .
 extension
 .
-stream_id
+rtpStreamId
 .
 empty
 (
@@ -130,7 +130,7 @@ header
 .
 extension
 .
-stream_id
+rtpStreamId
 .
 data
 (
@@ -149,7 +149,7 @@ header
 .
 extension
 .
-stream_id
+rtpStreamId
 .
 empty
 (
@@ -190,7 +190,7 @@ header
 .
 extension
 .
-stream_id
+rtpStreamId
 .
 data
 (

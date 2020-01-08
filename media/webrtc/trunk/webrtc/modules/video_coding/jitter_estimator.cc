@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -45,6 +47,8 @@ string
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -56,6 +60,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -67,6 +73,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -78,6 +86,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include

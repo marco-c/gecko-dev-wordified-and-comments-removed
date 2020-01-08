@@ -1,9 +1,9 @@
 #
 ifndef
-SYSTEM_WRAPPERS_SOURCE_EVENT_WIN_H_
+WEBRTC_SYSTEM_WRAPPERS_SOURCE_EVENT_WIN_H_
 #
 define
-SYSTEM_WRAPPERS_SOURCE_EVENT_WIN_H_
+WEBRTC_SYSTEM_WRAPPERS_SOURCE_EVENT_WIN_H_
 #
 include
 <
@@ -14,6 +14,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -25,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

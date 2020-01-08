@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -21,6 +23,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

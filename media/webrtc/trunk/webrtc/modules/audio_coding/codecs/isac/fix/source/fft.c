@@ -5,7 +5,6 @@ fft
 .
 h
 "
-static
 const
 int16_t
 kSortTabFft
@@ -256,7 +255,6 @@ kSortTabFft
 239
 }
 ;
-static
 const
 int16_t
 kCosTabFfftQ14

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -38,6 +40,8 @@ endif
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -47,6 +51,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

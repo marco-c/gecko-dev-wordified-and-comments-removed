@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_DESKTOP_CAPTURE_RGBA_COLOR_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_RGBA_COLOR_H_
 #
 define
-MODULES_DESKTOP_CAPTURE_RGBA_COLOR_H_
+WEBRTC_MODULES_DESKTOP_CAPTURE_RGBA_COLOR_H_
 #
 include
 <
@@ -14,6 +14,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture

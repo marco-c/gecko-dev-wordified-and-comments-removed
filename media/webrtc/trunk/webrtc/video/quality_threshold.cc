@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video
 /
 quality_threshold
@@ -10,7 +12,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -19,7 +23,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 logging
 .

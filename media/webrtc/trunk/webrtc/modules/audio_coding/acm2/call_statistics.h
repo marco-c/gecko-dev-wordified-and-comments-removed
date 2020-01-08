@@ -1,12 +1,14 @@
 #
 ifndef
-MODULES_AUDIO_CODING_ACM2_CALL_STATISTICS_H_
+WEBRTC_MODULES_AUDIO_CODING_ACM2_CALL_STATISTICS_H_
 #
 define
-MODULES_AUDIO_CODING_ACM2_CALL_STATISTICS_H_
+WEBRTC_MODULES_AUDIO_CODING_ACM2_CALL_STATISTICS_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 include

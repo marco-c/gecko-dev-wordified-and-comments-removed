@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -19,6 +21,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -32,6 +36,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -45,6 +51,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -58,6 +66,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -71,6 +81,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -84,6 +96,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

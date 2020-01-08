@@ -12,6 +12,8 @@ map
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture

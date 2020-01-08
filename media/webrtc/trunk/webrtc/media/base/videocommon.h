@@ -1,9 +1,9 @@
 #
 ifndef
-MEDIA_BASE_VIDEOCOMMON_H_
+WEBRTC_MEDIA_BASE_VIDEOCOMMON_H_
 #
 define
-MEDIA_BASE_VIDEOCOMMON_H_
+WEBRTC_MEDIA_BASE_VIDEOCOMMON_H_
 #
 include
 <
@@ -19,7 +19,9 @@ string
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 timeutils
 .

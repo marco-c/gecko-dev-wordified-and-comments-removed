@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 common_video
 /
 include
@@ -22,7 +24,9 @@ cmath
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -31,7 +35,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 logging
 .
@@ -40,6 +46,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include
@@ -589,7 +597,7 @@ adjusted_bitrate_bps
 last_adjusted_bitrate_bps
 )
 {
-RTC_LOG
+LOG
 (
 LS_VERBOSE
 )

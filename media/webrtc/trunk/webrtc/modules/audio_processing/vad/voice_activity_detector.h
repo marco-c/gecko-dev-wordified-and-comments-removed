@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_PROCESSING_VAD_VOICE_ACTIVITY_DETECTOR_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_VAD_VOICE_ACTIVITY_DETECTOR_H_
 #
 define
-MODULES_AUDIO_PROCESSING_VAD_VOICE_ACTIVITY_DETECTOR_H_
+WEBRTC_MODULES_AUDIO_PROCESSING_VAD_VOICE_ACTIVITY_DETECTOR_H_
 #
 include
 <
@@ -17,6 +17,8 @@ vector
 #
 include
 "
+webrtc
+/
 common_audio
 /
 resampler
@@ -30,6 +32,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -43,6 +47,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -56,6 +62,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -69,6 +77,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing

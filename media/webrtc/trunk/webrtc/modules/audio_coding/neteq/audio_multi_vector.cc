@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -26,7 +28,9 @@ algorithm
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -35,6 +39,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

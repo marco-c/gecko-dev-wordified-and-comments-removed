@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -19,6 +21,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -26,6 +30,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 desktop_capture
@@ -37,6 +43,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 include

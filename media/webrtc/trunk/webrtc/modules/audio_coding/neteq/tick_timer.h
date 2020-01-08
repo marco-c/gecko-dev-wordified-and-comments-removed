@@ -1,9 +1,9 @@
 #
 ifndef
-MODULES_AUDIO_CODING_NETEQ_TICK_TIMER_H_
+WEBRTC_MODULES_AUDIO_CODING_NETEQ_TICK_TIMER_H_
 #
 define
-MODULES_AUDIO_CODING_NETEQ_TICK_TIMER_H_
+WEBRTC_MODULES_AUDIO_CODING_NETEQ_TICK_TIMER_H_
 #
 include
 <
@@ -12,7 +12,9 @@ memory
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .
@@ -21,7 +23,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -30,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

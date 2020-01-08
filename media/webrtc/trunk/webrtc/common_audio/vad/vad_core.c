@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -12,7 +14,9 @@ h
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 sanitizer
 .
@@ -21,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -34,6 +40,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -45,6 +53,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -56,6 +66,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -67,6 +79,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -1149,8 +1163,9 @@ if
 (
 (
 log_likelihood_ratio
-*
-4
+<
+<
+2
 )
 >
 individualTest

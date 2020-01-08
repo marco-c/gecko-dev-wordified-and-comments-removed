@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_VIDEO_RENDERER_H_
+WEBRTC_TEST_VIDEO_RENDERER_H_
 #
 define
-TEST_VIDEO_RENDERER_H_
+WEBRTC_TEST_VIDEO_RENDERER_H_
 #
 include
 <
@@ -14,6 +14,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 base

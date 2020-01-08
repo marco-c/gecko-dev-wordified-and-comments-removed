@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -21,7 +23,9 @@ memory
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 checks
 .

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -26,6 +28,8 @@ memory
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -37,6 +41,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -46,6 +52,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport

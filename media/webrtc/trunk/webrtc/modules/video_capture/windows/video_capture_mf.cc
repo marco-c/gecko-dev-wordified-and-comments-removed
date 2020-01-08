@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 video_capture
@@ -21,6 +23,10 @@ VideoCaptureMF
 :
 :
 VideoCaptureMF
+(
+)
+:
+VideoCaptureImpl
 (
 )
 {

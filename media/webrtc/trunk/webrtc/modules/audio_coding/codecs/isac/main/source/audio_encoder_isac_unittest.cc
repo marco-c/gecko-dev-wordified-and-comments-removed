@@ -6,6 +6,8 @@ limits
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -25,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest
@@ -40,7 +44,7 @@ void
 TestBadConfig
 (
 const
-AudioEncoderIsacFloatImpl
+AudioEncoderIsac
 :
 :
 Config
@@ -62,7 +66,7 @@ void
 TestGoodConfig
 (
 const
-AudioEncoderIsacFloatImpl
+AudioEncoderIsac
 :
 :
 Config
@@ -79,7 +83,7 @@ IsOk
 )
 )
 ;
-AudioEncoderIsacFloatImpl
+AudioEncoderIsac
 aei
 (
 config
@@ -114,7 +118,7 @@ AudioEncoderIsacTest
 TestConfigBitrate
 )
 {
-AudioEncoderIsacFloatImpl
+AudioEncoderIsac
 :
 :
 Config

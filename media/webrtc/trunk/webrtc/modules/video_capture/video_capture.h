@@ -1,12 +1,14 @@
 #
 ifndef
-MODULES_VIDEO_CAPTURE_VIDEO_CAPTURE_H_
+WEBRTC_MODULES_VIDEO_CAPTURE_VIDEO_CAPTURE_H_
 #
 define
-MODULES_VIDEO_CAPTURE_VIDEO_CAPTURE_H_
+WEBRTC_MODULES_VIDEO_CAPTURE_VIDEO_CAPTURE_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_processing
@@ -20,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 api
 /
 video
@@ -31,6 +35,8 @@ h
 #
 include
 "
+webrtc
+/
 media
 /
 base
@@ -42,6 +48,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -53,6 +61,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_capture

@@ -6,6 +6,8 @@ memory
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -19,6 +21,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gmock
@@ -28,6 +32,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 gtest

@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_AUDIO_AUDIO_CONVERTER_H_
+WEBRTC_COMMON_AUDIO_AUDIO_CONVERTER_H_
 #
 define
-COMMON_AUDIO_AUDIO_CONVERTER_H_
+WEBRTC_COMMON_AUDIO_AUDIO_CONVERTER_H_
 #
 include
 <
@@ -12,7 +12,9 @@ memory
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
@@ -53,6 +55,7 @@ AudioConverter
 )
 {
 }
+;
 virtual
 void
 Convert

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -26,6 +28,8 @@ string
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -33,6 +37,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -46,6 +52,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -61,6 +69,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -74,6 +84,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -87,6 +99,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 audio_coding
@@ -100,6 +114,21 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+include
+/
+trace
+.
+h
+"
+#
+include
+"
+webrtc
+/
 test
 /
 gtest
@@ -109,6 +138,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport
@@ -120,6 +151,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -141,6 +174,7 @@ AudioCodingModule
 :
 Create
 (
+0
 )
 )
 channel_a2b_
@@ -1080,9 +1114,7 @@ Resample10Msec
 (
 audio_frame
 .
-data
-(
-)
+data_
 audio_frame
 .
 sample_rate_hz_
@@ -1459,9 +1491,7 @@ Write10MsData
 (
 audio_frame
 .
-data
-(
-)
+data_
 audio_frame
 .
 samples_per_channel_

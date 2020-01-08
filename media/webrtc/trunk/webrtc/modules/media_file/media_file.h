@@ -1,12 +1,14 @@
 #
 ifndef
-MODULES_MEDIA_FILE_MEDIA_FILE_H_
+WEBRTC_MODULES_MEDIA_FILE_MEDIA_FILE_H_
 #
 define
-MODULES_MEDIA_FILE_MEDIA_FILE_H_
+WEBRTC_MODULES_MEDIA_FILE_MEDIA_FILE_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -25,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 include
@@ -36,6 +42,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 media_file
@@ -47,6 +55,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

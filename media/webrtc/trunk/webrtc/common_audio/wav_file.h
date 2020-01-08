@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_AUDIO_WAV_FILE_H_
+WEBRTC_COMMON_AUDIO_WAV_FILE_H_
 #
 define
-COMMON_AUDIO_WAV_FILE_H_
+WEBRTC_COMMON_AUDIO_WAV_FILE_H_
 #
 ifdef
 __cplusplus
@@ -27,7 +27,9 @@ string
 #
 include
 "
-rtc_base
+webrtc
+/
+base
 /
 constructormagic
 .
