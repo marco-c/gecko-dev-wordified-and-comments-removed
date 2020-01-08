@@ -20407,6 +20407,15 @@ uint16_t
 Op
 :
 :
+RefEq
+)
+:
+case
+uint16_t
+(
+Op
+:
+:
 RefNull
 )
 :

@@ -764,6 +764,9 @@ RefNull
 RefIsNull
 =
 0xd1
+RefEq
+=
+0xd2
 FirstPrefix
 =
 0xfc
