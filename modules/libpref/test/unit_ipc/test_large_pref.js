@@ -299,6 +299,12 @@ if
 isParent
 )
 {
+sendCommand
+(
+"
+"
+)
+;
 for
 (
 let
@@ -466,6 +472,9 @@ prefExists
 ;
 try
 {
+let
+val
+=
 pb
 .
 getCharPref
@@ -475,7 +484,11 @@ pref_name
 ;
 prefExists
 =
-true
+val
+.
+length
+>
+128
 ;
 }
 catch
