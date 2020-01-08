@@ -1771,7 +1771,10 @@ IsUnprefixedFullscreenEnabled
 "
 NeedsCallerType
 ]
+Promise
+<
 void
+>
 requestFullscreen
 (
 )
@@ -1785,7 +1788,10 @@ requestFullscreen
 "
 NeedsCallerType
 ]
+Promise
+<
 void
+>
 mozRequestFullScreen
 (
 )
