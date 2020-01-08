@@ -208,6 +208,9 @@ enum
 idct_permutation_type
 perm_type
 ;
+int
+mpeg4_studio_profile
+;
 }
 IDCTDSPContext
 ;

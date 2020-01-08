@@ -179,7 +179,7 @@ ff_pb_3
 ;
 extern
 const
-xmm_reg
+ymm_reg
 ff_pb_80
 ;
 extern

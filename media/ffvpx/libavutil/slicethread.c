@@ -421,15 +421,6 @@ int
 nb_workers
 i
 ;
-#
-if
-HAVE_W32THREADS
-w32thread_init
-(
-)
-;
-#
-endif
 av_assert0
 (
 nb_threads

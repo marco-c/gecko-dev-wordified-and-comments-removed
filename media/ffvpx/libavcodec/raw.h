@@ -14,6 +14,13 @@ h
 #
 include
 "
+internal
+.
+h
+"
+#
+include
+"
 libavutil
 /
 internal
@@ -65,7 +72,7 @@ fourcc
 )
 ;
 extern
-av_export
+av_export_avcodec
 const
 PixelFormatTag
 avpriv_pix_fmt_bps_avi
@@ -73,7 +80,7 @@ avpriv_pix_fmt_bps_avi
 ]
 ;
 extern
-av_export
+av_export_avcodec
 const
 PixelFormatTag
 avpriv_pix_fmt_bps_mov
