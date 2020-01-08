@@ -64,6 +64,9 @@ test
 functional
 /
 mochitest
+-
+-
+headless
 )
 #
 Run

@@ -1160,6 +1160,9 @@ test
 functional
 /
 mochitest
+-
+-
+headless
 )
 "
 "

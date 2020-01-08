@@ -973,9 +973,13 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+S
+hk
+postiosoitteen
+t
+ytyy
+olla
+kelvollinen
 "
 "
 firstrun_extra_legal_links

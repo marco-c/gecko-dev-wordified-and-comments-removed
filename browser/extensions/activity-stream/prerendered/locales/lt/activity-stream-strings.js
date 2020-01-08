@@ -1017,9 +1017,13 @@ firstrun_invalid_input
 "
 :
 "
-Valid
-email
-required
+Reikalingas
+galiojantis
+el
+.
+pa
+to
+adresas
 "
 "
 firstrun_extra_legal_links
