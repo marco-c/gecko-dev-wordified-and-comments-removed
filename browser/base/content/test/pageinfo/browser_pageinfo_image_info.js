@@ -437,11 +437,10 @@ true
 }
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 URI
 )
 ;

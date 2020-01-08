@@ -80,13 +80,12 @@ ico
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 extraTab
 .
 linkedBrowser
+.
+loadURI
+(
 TEST_URL
 )
 ;

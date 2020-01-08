@@ -375,13 +375,12 @@ if
 aIsSelectedTab
 )
 {
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 REDIRECT_FROM
 +
 "

@@ -547,13 +547,12 @@ URL_BASE
 second_write
 "
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 URL2
 )
 ;

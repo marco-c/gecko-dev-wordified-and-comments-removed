@@ -21,13 +21,12 @@ installMozAM
 filename
 )
 {
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 INSTALL_PAGE
 )
 ;

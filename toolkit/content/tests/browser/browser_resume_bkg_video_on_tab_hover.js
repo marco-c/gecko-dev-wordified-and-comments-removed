@@ -632,11 +632,10 @@ check_should_not_send_unselected_tab_hover_msg
 browser
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 PAGE
 )
 ;

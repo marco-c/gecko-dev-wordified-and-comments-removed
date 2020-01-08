@@ -268,13 +268,12 @@ resolve
 }
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 url
 )
 ;

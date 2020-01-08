@@ -377,11 +377,10 @@ function
 aBrowser
 )
 {
-BrowserTestUtils
+aBrowser
 .
 loadURI
 (
-aBrowser
 "
 https
 :
@@ -774,11 +773,10 @@ function
 aBrowser
 )
 {
-BrowserTestUtils
+aBrowser
 .
 loadURI
 (
-aBrowser
 "
 https
 :

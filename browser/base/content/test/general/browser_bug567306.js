@@ -136,17 +136,6 @@ Me
 h1
 >
 "
-{
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-}
 )
 ;
 }

@@ -285,11 +285,10 @@ waitForTitleChange
 toolbox
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 URL_2
 )
 ;
@@ -330,11 +329,10 @@ waitForTitleChange
 toolbox
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 URL_3
 )
 ;

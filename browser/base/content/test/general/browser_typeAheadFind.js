@@ -15,13 +15,12 @@ openNewBrowserWindow
 (
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 testWindow
 .
 gBrowser
+.
+loadURI
+(
 "
 data
 :

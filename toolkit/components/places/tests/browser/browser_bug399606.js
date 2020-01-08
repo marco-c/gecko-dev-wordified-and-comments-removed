@@ -290,11 +290,10 @@ visited
 onVisitsListener
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 uri
 )
 ;

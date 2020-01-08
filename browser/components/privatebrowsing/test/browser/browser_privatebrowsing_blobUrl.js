@@ -77,11 +77,10 @@ gBrowser
 .
 selectedBrowser
 ;
-BrowserTestUtils
+tab
 .
 loadURI
 (
-tab
 BASE_URI
 )
 ;
@@ -211,11 +210,10 @@ gBrowser
 .
 selectedBrowser
 ;
-BrowserTestUtils
+privateTab
 .
 loadURI
 (
-privateTab
 BASE_URI
 )
 ;

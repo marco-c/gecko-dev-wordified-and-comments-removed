@@ -91,13 +91,12 @@ setupMockAlertsService
 (
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 "
 about
 :

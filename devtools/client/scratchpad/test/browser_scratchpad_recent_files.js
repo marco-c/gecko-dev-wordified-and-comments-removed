@@ -1684,11 +1684,10 @@ startTest
 }
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 "
 data
 :

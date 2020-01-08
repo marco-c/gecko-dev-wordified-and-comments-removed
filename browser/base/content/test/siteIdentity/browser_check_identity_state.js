@@ -1760,11 +1760,10 @@ gBrowser
 selectedBrowser
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 "
 https
 :

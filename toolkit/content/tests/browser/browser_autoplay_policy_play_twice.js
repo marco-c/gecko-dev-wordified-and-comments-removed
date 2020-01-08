@@ -141,13 +141,12 @@ blank
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 VIDEO_PAGE
 )
 ;
