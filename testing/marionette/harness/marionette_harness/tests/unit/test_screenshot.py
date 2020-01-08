@@ -911,6 +911,22 @@ set_context
 chrome
 "
 )
+        
+self
+.
+marionette
+.
+set_pref
+(
+"
+marionette
+.
+log
+.
+truncate
+"
+False
+)
     
 def
 tearDown
@@ -918,6 +934,21 @@ tearDown
 self
 )
 :
+        
+self
+.
+marionette
+.
+clear_pref
+(
+"
+marionette
+.
+log
+.
+truncate
+"
+)
         
 self
 .
