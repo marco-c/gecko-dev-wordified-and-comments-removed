@@ -2494,6 +2494,9 @@ parameter
 if
 (
 parameter
+&
+&
+parameter
 .
 actor
 )

@@ -1040,6 +1040,11 @@ selectedObjectActor
 options
 .
 selectedObjectActor
+mapped
+:
+options
+.
+mapped
 }
 ;
 return
