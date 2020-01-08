@@ -14513,6 +14513,13 @@ EnterAtomic64Region
 MacroAssembler
 &
 masm
+const
+wasm
+:
+:
+MemoryAccessDesc
+&
+access
 Register
 addr
 Register
@@ -14533,6 +14540,18 @@ SymbolicAddress
 :
 js_jit_gAtomic64Lock
 spinlock
+)
+;
+masm
+.
+append
+(
+access
+masm
+.
+size
+(
+)
 )
 ;
 masm
@@ -14722,6 +14741,7 @@ SecondScratchReg
 EnterAtomic64Region
 (
 masm
+access
 SecondScratchReg
 ScratchRegister
 output
@@ -14855,6 +14875,7 @@ EnterAtomic64Region
 asMasm
 (
 )
+access
 SecondScratchReg
 ScratchRegister
 temp
@@ -14995,6 +15016,7 @@ SecondScratchReg
 EnterAtomic64Region
 (
 masm
+access
 SecondScratchReg
 ScratchRegister
 output
@@ -15192,6 +15214,7 @@ SecondScratchReg
 EnterAtomic64Region
 (
 masm
+access
 SecondScratchReg
 ScratchRegister
 output
@@ -15334,6 +15357,7 @@ SecondScratchReg
 EnterAtomic64Region
 (
 masm
+access
 SecondScratchReg
 ScratchRegister
 output
