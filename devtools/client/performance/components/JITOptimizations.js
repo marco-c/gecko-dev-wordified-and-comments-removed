@@ -157,11 +157,7 @@ require
 "
 .
 /
-jit
--
-optimizations
--
-item
+JITOptimizationsItem
 "
 )
 )

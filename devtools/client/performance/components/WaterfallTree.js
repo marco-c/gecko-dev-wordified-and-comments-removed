@@ -77,11 +77,7 @@ require
 "
 .
 /
-waterfall
--
-tree
--
-row
+WaterfallTreeRow
 "
 )
 )
