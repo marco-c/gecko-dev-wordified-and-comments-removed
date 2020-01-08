@@ -1269,9 +1269,6 @@ TOPSRCDIR
 modules
 /
 zlib
-/
-src
-/
 \
 {
 tgtpath
