@@ -1038,9 +1038,15 @@ false
 }
 selectedItem
 .
-label
-=
+firstChild
+.
+setAttribute
+(
+"
+value
+"
 newName
+)
 ;
 var
 tiptext
