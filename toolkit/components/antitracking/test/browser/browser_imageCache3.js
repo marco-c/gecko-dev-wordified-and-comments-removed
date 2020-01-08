@@ -33,6 +33,11 @@ blockingByAllowList
 false
 ;
 let
+expectedBlockingNotifications
+=
+true
+;
+let
 rootDir
 =
 getRootDirectory
