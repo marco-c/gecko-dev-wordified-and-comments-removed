@@ -44,7 +44,16 @@ http
 :
 /
 /
-doesnotmatter
+{
+{
+hosts
+[
+]
+[
+nonexistent
+]
+}
+}
 "
 exceedPayload
 )
