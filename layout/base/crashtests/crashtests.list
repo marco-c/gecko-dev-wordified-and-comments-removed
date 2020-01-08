@@ -3149,7 +3149,9 @@ animations
 -
 api
 .
-core
+implicit
+-
+keyframes
 .
 enabled
 true
