@@ -307,7 +307,7 @@ usize
 current_line_number
 :
 u32
-var_functions
+var_or_env_functions
 :
 SeenStatus
 source_map_url
@@ -417,7 +417,7 @@ current_line_start_position
 current_line_number
 :
 first_line_number
-var_functions
+var_or_env_functions
 :
 SeenStatus
 :
@@ -437,7 +437,7 @@ inline
 ]
 pub
 fn
-look_for_var_functions
+look_for_var_or_env_functions
 (
 &
 mut
@@ -446,7 +446,7 @@ self
 {
 self
 .
-var_functions
+var_or_env_functions
 =
 SeenStatus
 :
@@ -460,7 +460,7 @@ inline
 ]
 pub
 fn
-seen_var_functions
+seen_var_or_env_functions
 (
 &
 mut
@@ -475,7 +475,7 @@ seen
 =
 self
 .
-var_functions
+var_or_env_functions
 =
 =
 SeenStatus
@@ -485,7 +485,7 @@ SeenAtLeastOne
 ;
 self
 .
-var_functions
+var_or_env_functions
 =
 SeenStatus
 :
@@ -514,7 +514,7 @@ str
 if
 self
 .
-var_functions
+var_or_env_functions
 =
 =
 SeenStatus
@@ -531,10 +531,20 @@ eq_ignore_ascii_case
 var
 "
 )
+|
+|
+name
+.
+eq_ignore_ascii_case
+(
+"
+env
+"
+)
 {
 self
 .
-var_functions
+var_or_env_functions
 =
 SeenStatus
 :

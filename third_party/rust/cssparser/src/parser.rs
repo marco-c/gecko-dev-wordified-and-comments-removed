@@ -2313,7 +2313,7 @@ inline
 ]
 pub
 fn
-look_for_var_functions
+look_for_var_or_env_functions
 (
 &
 mut
@@ -2326,7 +2326,7 @@ input
 .
 tokenizer
 .
-look_for_var_functions
+look_for_var_or_env_functions
 (
 )
 }
@@ -2336,7 +2336,7 @@ inline
 ]
 pub
 fn
-seen_var_functions
+seen_var_or_env_functions
 (
 &
 mut
@@ -2352,7 +2352,7 @@ input
 .
 tokenizer
 .
-seen_var_functions
+seen_var_or_env_functions
 (
 )
 }
