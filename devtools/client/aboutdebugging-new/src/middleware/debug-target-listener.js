@@ -296,13 +296,7 @@ const
 client
 }
 =
-store
-.
-getState
-(
-)
-.
-runtime
+action
 ;
 client
 .
