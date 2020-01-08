@@ -5878,6 +5878,11 @@ AsElement
 aContext
 )
 ;
+if
+(
+newAcc
+)
+{
 document
 -
 >
@@ -5898,6 +5903,7 @@ AsElement
 )
 )
 ;
+}
 return
 newAcc
 ;
