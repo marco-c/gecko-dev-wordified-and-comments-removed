@@ -196,7 +196,7 @@ background
 -
 image
 :
-roundButtonBackground
+roundButtonBackgroundImage
 ;
 }
 .
@@ -371,7 +371,7 @@ background
 -
 image
 :
-roundButtonPressedBackground
+roundButtonPressedBackgroundImage
 ;
 box
 -

@@ -63,7 +63,7 @@ roundButtonColor
 black
 %
 define
-roundButtonBackground
+roundButtonBackgroundImage
 linear
 -
 gradient
@@ -100,7 +100,7 @@ rgba
 )
 %
 define
-roundButtonPressedBackground
+roundButtonPressedBackgroundImage
 linear
 -
 gradient

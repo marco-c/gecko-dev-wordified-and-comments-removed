@@ -1136,7 +1136,7 @@ roundButtonColor
 ;
 background
 :
-roundButtonBackground
+roundButtonBackgroundImage
 ;
 box
 -
@@ -1161,7 +1161,7 @@ roundButtonColor
 ;
 background
 :
-roundButtonPressedBackground
+roundButtonPressedBackgroundImage
 ;
 box
 -
