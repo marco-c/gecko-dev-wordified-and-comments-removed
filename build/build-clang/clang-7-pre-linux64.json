@@ -309,5 +309,10 @@ rename_gcov_flush
 .
 patch
 "
+"
+r339636
+.
+patch
+"
 ]
 }
