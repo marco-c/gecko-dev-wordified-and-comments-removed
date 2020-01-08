@@ -586,6 +586,11 @@ className
 "
 menuitem
 "
+role
+:
+"
+presentation
+"
 }
 button
 (
