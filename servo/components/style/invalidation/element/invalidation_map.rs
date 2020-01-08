@@ -1257,6 +1257,9 @@ gecko
 )
 ]
 use
+crate
+:
+:
 selector_parser
 :
 :

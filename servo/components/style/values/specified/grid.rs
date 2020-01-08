@@ -3092,6 +3092,9 @@ allow_grid_template_subgrids
 bool
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :

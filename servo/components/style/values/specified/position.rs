@@ -3665,6 +3665,9 @@ u8
 GridAutoFlow
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -3746,6 +3749,9 @@ GridAutoFlow
 u8
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :

@@ -212,6 +212,9 @@ ParserContext
 bool
 {
 use
+crate
+:
+:
 gecko_bindings
 :
 :
