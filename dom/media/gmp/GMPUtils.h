@@ -65,7 +65,7 @@ CHROMIUM_CDM_API_BACKWARD_COMPAT
 "
 chromium
 -
-cdm8
+cdm9
 -
 host4
 "
@@ -75,7 +75,7 @@ CHROMIUM_CDM_API
 "
 chromium
 -
-cdm9
+cdm10
 -
 host4
 "

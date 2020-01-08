@@ -1267,9 +1267,8 @@ keyPair
 KeyInformation
 keyInfo
 =
-KeyInformation
-(
-)
+{
+}
 ;
 keyInfo
 .
@@ -1792,9 +1791,8 @@ mKeyId
 KeyInformation
 keyInfo
 =
-KeyInformation
-(
-)
+{
+}
 ;
 keyInfo
 .
@@ -2828,7 +2826,7 @@ ClearKeySessionManager
 Decrypt
 (
 const
-InputBuffer
+InputBuffer_1
 &
 aBuffer
 DecryptedBlock

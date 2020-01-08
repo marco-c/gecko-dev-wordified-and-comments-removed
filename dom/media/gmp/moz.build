@@ -468,6 +468,15 @@ content_decryption_module_ext
 .
 h
 '
+'
+widevine
+-
+adapter
+/
+content_decryption_module_proxy
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +

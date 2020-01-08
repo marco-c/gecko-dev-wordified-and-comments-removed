@@ -4547,7 +4547,7 @@ mCodec
 cdm
 :
 :
-VideoDecoderConfig
+VideoCodec
 :
 :
 kCodecH264
