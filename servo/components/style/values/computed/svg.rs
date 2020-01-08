@@ -32,6 +32,16 @@ computed
 {
 LengthOrPercentage
 NonNegativeLengthOrPercentage
+}
+;
+use
+values
+:
+:
+computed
+:
+:
+{
 NonNegativeNumber
 Number
 Opacity

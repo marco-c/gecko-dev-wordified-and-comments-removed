@@ -242,6 +242,16 @@ AllowQuirks
 Angle
 Integer
 LengthOrPercentage
+}
+;
+use
+values
+:
+:
+specified
+:
+:
+{
 NoCalcLength
 Number
 Percentage

@@ -129,7 +129,18 @@ Angle
 ExtremumLength
 Length
 LengthOrPercentage
+}
+;
+use
+values
+:
+:
+computed
+:
+:
+{
 LengthOrPercentageOrAuto
+Percentage
 }
 ;
 use
@@ -159,7 +170,6 @@ ComputedMaxLength
 MozLength
 as
 ComputedMozLength
-Percentage
 }
 ;
 use
