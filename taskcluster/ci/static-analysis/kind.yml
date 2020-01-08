@@ -300,10 +300,6 @@ clang
 -
 cl
 -
-st
--
-an
--
 win64
 -
 rust
@@ -486,10 +482,6 @@ win64
 clang
 -
 cl
--
-st
--
-an
 -
 win64
 -
@@ -674,10 +666,6 @@ clang
 -
 cl
 -
-st
--
-an
--
 win64
 -
 rust
@@ -860,10 +848,6 @@ win64
 clang
 -
 cl
--
-st
--
-an
 -
 win64
 -
