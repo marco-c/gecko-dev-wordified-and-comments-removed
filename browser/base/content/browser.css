@@ -1972,7 +1972,7 @@ TabsToolbar
 .
 titlebar
 -
-placeholder
+spacer
 %
 endif
 %
@@ -1994,7 +1994,7 @@ normal
 .
 titlebar
 -
-placeholder
+spacer
 [
 type
 =
@@ -2046,7 +2046,7 @@ inFullscreen
 .
 titlebar
 -
-placeholder
+spacer
 #
 main
 -
@@ -2061,7 +2061,7 @@ tabsintitlebar
 .
 titlebar
 -
-placeholder
+spacer
 {
 display
 :

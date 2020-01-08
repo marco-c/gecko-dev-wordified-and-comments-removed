@@ -7132,7 +7132,7 @@ class
 "
 titlebar
 -
-placeholder
+spacer
 "
 type
 =
@@ -7393,7 +7393,7 @@ class
 "
 titlebar
 -
-placeholder
+spacer
 "
 type
 =
