@@ -864,11 +864,16 @@ true
 "
 >
 <
-listbox
+richlistbox
 id
 =
 "
 editBMPanel_tagsSelector
+"
+styled
+=
+"
+true
 "
 height
 =
