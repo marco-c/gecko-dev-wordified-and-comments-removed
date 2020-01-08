@@ -1,9 +1,12 @@
+typedef
+__SIZE_TYPE__
+size_t
+;
 namespace
 std
 {
 typedef
-unsigned
-long
+size_t
 size_t
 ;
 template
@@ -511,9 +514,6 @@ void
 abort
 (
 )
-std
-:
-:
 size_t
 strlen
 (
@@ -534,11 +534,7 @@ const
 char
 *
 s2
-std
-:
-:
 size_t
-n
 )
 ;
 void
@@ -553,9 +549,6 @@ void
 *
 malloc
 (
-std
-:
-:
 size_t
 size
 )
@@ -569,9 +562,6 @@ void
 b
 int
 c
-std
-:
-:
 size_t
 len
 )
