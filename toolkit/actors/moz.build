@@ -102,6 +102,11 @@ FindBarChild
 jsm
 '
 '
+PrintingChild
+.
+jsm
+'
+'
 SelectChild
 .
 jsm
