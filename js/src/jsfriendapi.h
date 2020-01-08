@@ -9947,7 +9947,7 @@ JS
 :
 :
 HandleObject
-scope
+global
 Closure
 &
 closure
@@ -9971,7 +9971,7 @@ JS
 :
 :
 HandleObject
-scope
+global
 ScriptEnvironmentPreparer
 :
 :

@@ -4859,7 +4859,11 @@ realReason
 )
 )
 ;
-RootedObject
+Rooted
+<
+GlobalObject
+*
+>
 realGlobal
 (
 cx

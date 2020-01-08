@@ -631,7 +631,11 @@ ReportErrorToGlobal
 JSContext
 *
 cx
-HandleObject
+Handle
+<
+GlobalObject
+*
+>
 global
 HandleValue
 error

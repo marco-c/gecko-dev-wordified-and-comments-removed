@@ -165,6 +165,9 @@ va_list
 args
 )
 ;
+class
+GlobalObject
+;
 extern
 void
 ReportErrorToGlobal
@@ -175,7 +178,14 @@ cx
 JS
 :
 :
-HandleObject
+Handle
+<
+js
+:
+:
+GlobalObject
+*
+>
 global
 JS
 :
