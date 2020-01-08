@@ -593,13 +593,6 @@ pop
 (
 )
 ;
-const
-isBrowsingContext
-=
-addonTargetActor
-.
-isWebExtension
-;
 await
 openToolbox
 (
@@ -610,7 +603,6 @@ addonTargetActor
 chrome
 :
 true
-isBrowsingContext
 }
 )
 ;
@@ -975,7 +967,6 @@ openToolbox
 {
 form
 chrome
-isBrowsingContext
 }
 )
 {
@@ -992,9 +983,6 @@ gClient
 chrome
 :
 chrome
-isBrowsingContext
-:
-isBrowsingContext
 }
 ;
 appendStatusMessage

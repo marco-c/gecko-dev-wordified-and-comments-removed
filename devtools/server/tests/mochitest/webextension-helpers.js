@@ -675,9 +675,6 @@ client
 chrome
 :
 true
-isBrowsingContext
-:
-true
 }
 )
 ;

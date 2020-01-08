@@ -1524,9 +1524,6 @@ client
 chrome
 :
 true
-isBrowsingContext
-:
-false
 }
 ;
 return

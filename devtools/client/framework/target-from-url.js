@@ -148,7 +148,6 @@ chrome
 ;
 let
 form
-isBrowsingContext
 ;
 if
 (
@@ -324,19 +323,6 @@ chrome
 =
 true
 ;
-if
-(
-id
-!
-=
-0
-)
-{
-isBrowsingContext
-=
-false
-;
-}
 }
 catch
 (
@@ -526,7 +512,6 @@ forRemoteTab
 client
 form
 chrome
-isBrowsingContext
 }
 )
 ;
