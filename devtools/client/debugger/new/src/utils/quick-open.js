@@ -364,6 +364,10 @@ getSourceQueryString
 (
 source
 )
+|
+|
+"
+"
 }
 ;
 const

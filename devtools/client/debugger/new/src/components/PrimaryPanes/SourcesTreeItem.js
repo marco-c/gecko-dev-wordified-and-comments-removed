@@ -1021,7 +1021,14 @@ span
 :
 null
 ;
-const
+let
+querystring
+;
+if
+(
+hasSiblingOfSameName
+)
+{
 querystring
 =
 getSourceQueryString
@@ -1029,6 +1036,7 @@ getSourceQueryString
 source
 )
 ;
+}
 const
 query
 =
