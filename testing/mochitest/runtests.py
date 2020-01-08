@@ -4919,17 +4919,6 @@ pactl
 "
 )
     
-pacmd
-=
-spawn
-.
-find_executable
-(
-"
-pacmd
-"
-)
-    
 def
 null_sink_loaded
 (
@@ -5035,25 +5024,6 @@ sink
         
 return
 None
-    
-subprocess
-.
-check_call
-(
-[
-pacmd
-'
-set
--
-default
--
-sink
-'
-'
-null
-'
-]
-)
     
 info
 [
@@ -13474,6 +13444,22 @@ mediaDevices
 video
 '
 ]
+            
+prefs
+[
+'
+media
+.
+cubeb
+.
+output_device
+'
+]
+=
+"
+Null
+Output
+"
         
 if
 options
