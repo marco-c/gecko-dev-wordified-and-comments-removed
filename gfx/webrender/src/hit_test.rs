@@ -186,6 +186,8 @@ Image
 (
 ref
 mask
+.
+.
 )
 =
 >
