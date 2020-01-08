@@ -246,7 +246,7 @@ number
 await
 toolbox
 .
-destroy
+closeToolbox
 (
 )
 ;
