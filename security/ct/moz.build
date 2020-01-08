@@ -145,11 +145,6 @@ SignedCertificateTimestamp
 .
 h
 '
-'
-SignedTreeHead
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
