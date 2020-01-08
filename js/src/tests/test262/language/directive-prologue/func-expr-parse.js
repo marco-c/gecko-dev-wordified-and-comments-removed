@@ -1,0 +1,16 @@
+(
+function
+(
+)
+{
+"
+use
+strict
+"
+;
+var
+static
+;
+}
+)
+;
