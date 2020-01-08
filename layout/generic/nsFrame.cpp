@@ -5744,6 +5744,9 @@ mMayHaveRoundedCorners
 true
 ;
 }
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
 void
 nsIFrame
 :
@@ -5891,6 +5894,8 @@ mozText
 )
 ;
 }
+#
+endif
 void
 nsIFrame
 :
