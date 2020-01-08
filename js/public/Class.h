@@ -386,6 +386,12 @@ failNotDataDescriptor
 (
 )
 ;
+JS_PUBLIC_API
+bool
+failCantDefineWindowNonConfigurable
+(
+)
+;
 uint32_t
 failureCode
 (

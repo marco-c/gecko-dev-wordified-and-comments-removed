@@ -902,6 +902,9 @@ propertyKey
 attributes
 )
 {
+if
+(
+!
 ObjectOrReflectDefineProperty
 (
 obj
@@ -909,7 +912,12 @@ propertyKey
 attributes
 true
 )
+)
+{
+return
+false
 ;
+}
 return
 obj
 ;
