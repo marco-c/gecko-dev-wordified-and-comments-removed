@@ -3251,17 +3251,6 @@ el
 ;
 }
 return
-element
-.
-findClosest
-(
-el
-"
-button
-"
-)
-|
-|
 el
 ;
 }
