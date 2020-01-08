@@ -84,15 +84,6 @@ browser
 .
 ini
 '
-'
-test
-/
-mochitest
-/
-browser
-.
-ini
-'
 ]
 with
 Files
