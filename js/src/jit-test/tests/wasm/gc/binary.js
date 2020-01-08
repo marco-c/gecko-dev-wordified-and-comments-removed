@@ -128,8 +128,12 @@ checkInvalid
 invalidRefNullBody
 /
 invalid
-nullref
+reference
 type
+for
+ref
+.
+null
 /
 )
 ;

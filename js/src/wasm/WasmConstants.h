@@ -864,6 +864,9 @@ StructGet
 StructSet
 =
 0x52
+StructNarrow
+=
+0x53
 Limit
 }
 ;

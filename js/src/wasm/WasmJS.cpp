@@ -6282,7 +6282,7 @@ tables
 StructTypeDescrVector
 &
 &
-structs
+structTypeDescrs
 Handle
 <
 FunctionVector
@@ -6680,7 +6680,7 @@ std
 :
 move
 (
-structs
+structTypeDescrs
 )
 funcImports
 globalImportValues
