@@ -96,6 +96,11 @@ ExtensionDetail
 js
 '
 '
+FieldPair
+.
+js
+'
+'
 InspectAction
 .
 js
