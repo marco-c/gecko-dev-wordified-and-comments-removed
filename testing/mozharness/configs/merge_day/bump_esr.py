@@ -166,7 +166,7 @@ releases
 /
 mozilla
 -
-esr52
+esr60
 "
     
 "
