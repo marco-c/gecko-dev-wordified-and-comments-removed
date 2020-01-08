@@ -9,7 +9,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -36,7 +36,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -97,7 +97,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -162,7 +162,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -246,7 +246,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -382,7 +382,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -651,7 +651,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -719,7 +719,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -814,7 +814,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -886,7 +886,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -1604,7 +1604,6 @@ get_local
 ref
 .
 null
-anyref
 )
 )
 )
@@ -1865,7 +1864,6 @@ get_local
 ref
 .
 null
-anyref
 )
 )
 )
@@ -2132,7 +2130,6 @@ get_local
 ref
 .
 null
-anyref
 )
 )
 )
@@ -2408,7 +2405,6 @@ get_local
 ref
 .
 null
-anyref
 )
 )
 )
@@ -2519,7 +2515,6 @@ const
 ref
 .
 null
-anyref
 )
 )
 )
@@ -2589,7 +2584,6 @@ get_local
 ref
 .
 null
-anyref
 )
 )
 )
@@ -2648,7 +2642,6 @@ get_local
 ref
 .
 null
-anyref
 )
 )
 )
@@ -2920,7 +2913,6 @@ get_local
 ref
 .
 null
-anyref
 )
 )
 )

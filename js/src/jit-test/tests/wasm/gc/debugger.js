@@ -42,7 +42,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -101,7 +101,7 @@ src
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func

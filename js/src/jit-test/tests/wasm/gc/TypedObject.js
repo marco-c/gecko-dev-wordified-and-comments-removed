@@ -8,7 +8,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -126,7 +126,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -212,7 +212,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -280,10 +280,6 @@ p
 ref
 .
 null
-(
-ref
-q
-)
 )
 )
 )
@@ -308,7 +304,6 @@ r
 ref
 .
 null
-anyref
 )
 )
 )
@@ -418,7 +413,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -506,16 +501,11 @@ p
 ref
 .
 null
-(
-ref
-q
-)
 )
 (
 ref
 .
 null
-anyref
 )
 )
 )
@@ -624,7 +614,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -798,7 +788,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type

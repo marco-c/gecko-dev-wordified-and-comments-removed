@@ -57,7 +57,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -256,10 +256,6 @@ l
 ref
 .
 null
-(
-ref
-cons
-)
 )
 )
 ;
@@ -345,10 +341,6 @@ unreachable
 ref
 .
 null
-(
-ref
-cons
-)
 )
 )
 )
@@ -373,10 +365,6 @@ odd
 ref
 .
 null
-(
-ref
-odd
-)
 )
 )
 (
@@ -399,10 +387,6 @@ even
 ref
 .
 null
-(
-ref
-even
-)
 )
 )
 (
@@ -456,10 +440,6 @@ get_local
 ref
 .
 null
-(
-ref
-cons
-)
 )
 )
 )
@@ -473,10 +453,6 @@ eq
 ref
 .
 null
-(
-ref
-cons
-)
 )
 (
 get_local
@@ -498,7 +474,6 @@ get_local
 ref
 .
 null
-anyref
 )
 )
 )
@@ -512,7 +487,6 @@ eq
 ref
 .
 null
-anyref
 )
 (
 get_local
@@ -546,7 +520,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -593,7 +567,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -652,7 +626,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -686,7 +660,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -758,7 +732,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -849,7 +823,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -937,7 +911,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1001,7 +975,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1081,7 +1055,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1165,7 +1139,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1226,7 +1200,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1302,7 +1276,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1381,7 +1355,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1433,7 +1407,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1486,7 +1460,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type

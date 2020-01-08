@@ -12,7 +12,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -116,7 +116,6 @@ const
 ref
 .
 null
-anyref
 )
 )
 (
@@ -134,7 +133,6 @@ htype
 ref
 .
 null
-anyref
 )
 (
 i32

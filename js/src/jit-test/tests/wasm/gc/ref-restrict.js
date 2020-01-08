@@ -29,7 +29,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -84,7 +84,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -121,7 +121,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -154,10 +154,6 @@ box
 ref
 .
 null
-(
-ref
-box
-)
 )
 )
 )
@@ -182,7 +178,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -200,7 +196,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -222,7 +217,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -274,7 +269,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -308,7 +303,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -364,7 +359,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -402,7 +397,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -460,7 +455,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -512,7 +507,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -546,7 +541,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -580,7 +575,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -614,10 +609,6 @@ box
 ref
 .
 null
-(
-ref
-box
-)
 )
 )
 )
@@ -645,7 +636,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -676,10 +667,6 @@ box
 ref
 .
 null
-(
-ref
-box
-)
 )
 )
 )
@@ -704,7 +691,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -723,7 +710,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -742,7 +728,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -758,7 +744,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -780,7 +765,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -854,7 +839,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -903,10 +888,6 @@ box
 ref
 .
 null
-(
-ref
-box
-)
 )
 )
 )
@@ -931,7 +912,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -981,7 +962,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -1015,7 +996,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -1037,7 +1017,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1114,7 +1094,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1166,10 +1146,6 @@ box
 ref
 .
 null
-(
-ref
-box
-)
 )
 )
 )
@@ -1194,7 +1170,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -1247,7 +1223,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -1284,7 +1260,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -1306,7 +1281,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1358,10 +1333,6 @@ fn
 ref
 .
 null
-(
-ref
-box
-)
 )
 (
 get_local
@@ -1394,7 +1365,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1477,7 +1448,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1514,7 +1485,6 @@ fn
 ref
 .
 null
-anyref
 )
 (
 get_local
@@ -1538,7 +1508,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1600,7 +1570,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1655,10 +1625,6 @@ fn
 ref
 .
 null
-(
-ref
-box
-)
 )
 (
 get_local
@@ -1691,7 +1657,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1777,7 +1743,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1817,7 +1783,6 @@ fn
 ref
 .
 null
-anyref
 )
 (
 get_local
@@ -1841,7 +1806,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1904,7 +1869,7 @@ wasmCompile
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1995,10 +1960,6 @@ fn
 ref
 .
 null
-(
-ref
-box
-)
 )
 (
 get_local

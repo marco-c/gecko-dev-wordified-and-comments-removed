@@ -17,7 +17,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -30,7 +30,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 (

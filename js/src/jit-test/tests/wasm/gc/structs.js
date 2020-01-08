@@ -14,7 +14,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 table
@@ -1467,7 +1467,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -1686,7 +1686,7 @@ txt
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2139,7 +2139,7 @@ txt
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2183,10 +2183,6 @@ big
 ref
 .
 null
-(
-ref
-big
-)
 )
 )
 (
@@ -2702,7 +2698,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -2736,10 +2732,6 @@ cons
 ref
 .
 null
-(
-ref
-cons
-)
 )
 )
 (
@@ -2980,7 +2972,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3112,7 +3104,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3321,7 +3313,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3374,7 +3366,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3438,7 +3430,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3507,7 +3499,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3583,7 +3575,7 @@ wasmTextToBinary
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3633,7 +3625,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3689,7 +3681,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3710,7 +3702,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3733,7 +3725,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3781,7 +3773,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3809,7 +3801,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3842,7 +3834,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3878,7 +3870,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3914,7 +3906,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -3946,7 +3938,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -4013,7 +4005,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 type
@@ -4153,7 +4145,7 @@ Uint8Array
 0x00
 0x2a
 0x01
-0x01
+0x02
 0x01
 0x03
 0x01

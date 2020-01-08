@@ -31,7 +31,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -70,7 +70,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -85,7 +85,6 @@ const
 ref
 .
 null
-anyref
 i32
 .
 const
@@ -114,7 +113,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -125,7 +124,6 @@ i32
 ref
 .
 null
-anyref
 if
 i32
 .
@@ -139,7 +137,7 @@ CompileError
 mismatchError
 (
 '
-anyref
+nullref
 '
 '
 i32
@@ -156,7 +154,7 @@ simpleTests
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -166,7 +164,6 @@ drop
 ref
 .
 null
-anyref
 )
 )
 )
@@ -177,7 +174,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -194,7 +191,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -211,7 +208,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -224,7 +221,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -234,7 +230,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -255,7 +251,7 @@ unreachable
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -284,7 +280,7 @@ get_local
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -304,7 +300,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -324,7 +320,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -333,7 +329,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -341,7 +336,7 @@ anyref
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -353,7 +348,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 )
@@ -407,7 +401,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -424,7 +418,6 @@ i32
 ref
 .
 null
-anyref
 ref
 .
 is_null
@@ -465,7 +458,6 @@ i32
 ref
 .
 null
-anyref
 i32
 .
 const
@@ -496,7 +488,6 @@ anyref
 ref
 .
 null
-anyref
 set_local
 0
 i32
@@ -719,7 +710,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -771,7 +762,6 @@ ref
 ref
 .
 null
-anyref
 get_local
 selector
 select
@@ -1067,7 +1057,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 memory
@@ -1140,7 +1130,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -1404,7 +1394,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 func
@@ -1707,7 +1697,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -1855,7 +1845,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 import
@@ -2380,7 +2370,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -2439,7 +2429,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -2501,7 +2491,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -2614,7 +2604,7 @@ wasmEvalText
 module
 (
 gc_feature_opt_in
-1
+2
 )
 (
 global
@@ -2686,7 +2676,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 (
@@ -2709,7 +2698,6 @@ anyref
 ref
 .
 null
-anyref
 )
 )
 (
