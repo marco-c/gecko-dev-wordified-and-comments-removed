@@ -198,6 +198,11 @@ CheckpointId
 aCheckpoint
 )
 ;
+size_t
+LastNormalCheckpoint
+(
+)
+;
 }
 namespace
 child

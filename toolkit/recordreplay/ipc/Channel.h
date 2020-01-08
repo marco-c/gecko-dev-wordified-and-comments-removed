@@ -1940,6 +1940,9 @@ public
 Message
 {
 uint32_t
+mCheckpointId
+;
+uint32_t
 mWidth
 ;
 uint32_t
@@ -1947,6 +1950,8 @@ mHeight
 ;
 PaintMessage
 (
+uint32_t
+aCheckpointId
 uint32_t
 aWidth
 uint32_t
@@ -1964,6 +1969,10 @@ sizeof
 *
 this
 )
+)
+mCheckpointId
+(
+aCheckpointId
 )
 mWidth
 (
