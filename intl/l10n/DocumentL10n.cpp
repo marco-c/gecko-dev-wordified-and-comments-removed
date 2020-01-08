@@ -275,6 +275,13 @@ true
 ret
 )
 ;
+mDOMLocalization
+-
+>
+RegisterObservers
+(
+)
+;
 return
 true
 ;

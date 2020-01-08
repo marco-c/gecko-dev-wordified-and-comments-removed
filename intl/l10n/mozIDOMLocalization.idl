@@ -154,6 +154,11 @@ AString
 resourceIds
 )
 ;
+void
+registerObservers
+(
+)
+;
 Promise
 formatMessages
 (
