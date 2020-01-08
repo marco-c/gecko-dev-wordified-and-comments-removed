@@ -1320,14 +1320,7 @@ GetCategoryEntry
 push
 "
 mScope
-.
-BeginReading
-(
-)
-getter_Copies
-(
 contractId
-)
 )
 ;
 if

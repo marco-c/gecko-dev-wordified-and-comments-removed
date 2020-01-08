@@ -1597,14 +1597,7 @@ GetCategoryEntry
 (
 XPCOM_DIRECTORY_PROVIDER_CATEGORY
 entry
-.
-get
-(
-)
-getter_Copies
-(
 contractID
-)
 )
 ;
 if

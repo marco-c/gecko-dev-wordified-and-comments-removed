@@ -11388,14 +11388,7 @@ type
 mapping
 "
 lowercaseFileExt
-.
-get
-(
-)
-getter_Copies
-(
 type
-)
 )
 ;
 if

@@ -1336,10 +1336,7 @@ Content
 Viewers
 "
 IMAGE_SVG_XML
-getter_Copies
-(
 contractId
-)
 )
 ;
 NS_ENSURE_SUCCESS
