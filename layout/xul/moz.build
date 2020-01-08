@@ -375,11 +375,6 @@ nsPopupSetFrame
 cpp
 '
 '
-nsProgressMeterFrame
-.
-cpp
-'
-'
 nsResizerFrame
 .
 cpp
