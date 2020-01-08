@@ -3772,14 +3772,7 @@ else
 :
 enabled
 =
-target
-.
-os
-!
-=
-'
-Android
-'
+True
 if
 enabled
 :

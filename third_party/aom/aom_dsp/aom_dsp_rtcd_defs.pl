@@ -5141,7 +5141,6 @@ aom_blend_a64_hmask
 qw
 /
 sse4_1
-neon
 /
 ;
 specialize
@@ -5151,7 +5150,6 @@ aom_blend_a64_vmask
 qw
 /
 sse4_1
-neon
 /
 ;
 add_proto

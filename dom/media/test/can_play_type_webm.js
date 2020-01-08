@@ -365,15 +365,8 @@ av1
 \
 "
 "
-(
 isWindows32
 (
-)
-|
-|
-isAndroid
-(
-)
 )
 ?
 "

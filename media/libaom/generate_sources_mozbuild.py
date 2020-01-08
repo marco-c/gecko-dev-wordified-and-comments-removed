@@ -558,6 +558,12 @@ ENABLE_DOCS
 0
         
 '
+ENABLE_NEON
+'
+:
+1
+        
+'
 AOM_TEST_TEST_CMAKE_
 '
 :
