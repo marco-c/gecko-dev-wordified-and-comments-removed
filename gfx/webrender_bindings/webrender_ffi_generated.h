@@ -522,7 +522,7 @@ struct
 Renderer
 ;
 struct
-Tiles
+TileCoordinate
 ;
 struct
 Transaction
@@ -3215,7 +3215,7 @@ TileOffset
 TypedPoint2D
 <
 int32_t
-Tiles
+TileCoordinate
 >
 ;
 using
