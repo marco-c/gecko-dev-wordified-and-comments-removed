@@ -19111,16 +19111,6 @@ srcdoc
 "
 )
 ;
-pref
-(
-"
-csp
-.
-overrule_content_privileged_about_uris_without_csp_whitelist
-"
-false
-)
-;
 #
 endif
 pref
