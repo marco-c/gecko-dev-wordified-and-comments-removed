@@ -13612,15 +13612,6 @@ performance
 "
 )
 ;
-await
-this
-.
-performance
-.
-connect
-(
-)
-;
 this
 .
 emit

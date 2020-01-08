@@ -117,12 +117,13 @@ front
 await
 this
 .
-panelWin
+target
 .
-gToolbox
-.
-initPerformance
+getFront
 (
+"
+performance
+"
 )
 ;
 if
