@@ -3359,7 +3359,7 @@ optionsType
 =
 AddonManager
 .
-OPTIONS_INLINE_BROWSER
+OPTIONS_TYPE_INLINE_BROWSER
 &
 &
 addon
