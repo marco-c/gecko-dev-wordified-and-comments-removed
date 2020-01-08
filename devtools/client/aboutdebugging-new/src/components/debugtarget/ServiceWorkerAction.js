@@ -362,7 +362,7 @@ button
 className
 :
 "
-aboutdebugging
+default
 -
 button
 "
@@ -389,6 +389,11 @@ dom
 div
 (
 {
+className
+:
+"
+toolbar
+"
 }
 this
 .
