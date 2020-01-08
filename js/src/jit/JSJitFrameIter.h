@@ -1753,8 +1753,6 @@ moreInstructions
 )
 ;
 }
-protected
-:
 MOZ_MUST_USE
 bool
 initInstructionResults
@@ -1764,6 +1762,8 @@ MaybeReadFallback
 fallback
 )
 ;
+protected
+:
 MOZ_MUST_USE
 bool
 computeInstructionResults
