@@ -84,6 +84,9 @@ property
 "
 >
 use
+crate
+:
+:
 properties
 :
 :
@@ -392,6 +395,9 @@ stroke
 "
 >
 use
+crate
+:
+:
 properties
 :
 :
