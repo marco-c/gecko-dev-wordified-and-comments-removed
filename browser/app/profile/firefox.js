@@ -1127,6 +1127,9 @@ promptMaxAttempts
 2
 )
 ;
+#
+ifndef
+XP_WIN
 pref
 (
 "
@@ -1139,6 +1142,8 @@ auto
 true
 )
 ;
+#
+endif
 pref
 (
 "
