@@ -33,6 +33,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
