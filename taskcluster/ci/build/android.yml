@@ -2215,7 +2215,7 @@ shipping
 -
 phase
 :
-promote
+build
 shipping
 -
 product
@@ -3836,7 +3836,7 @@ shipping
 -
 phase
 :
-promote
+build
 shipping
 -
 product
@@ -4934,7 +4934,7 @@ shipping
 -
 phase
 :
-promote
+build
 shipping
 -
 product
@@ -6026,7 +6026,7 @@ shipping
 -
 phase
 :
-promote
+build
 shipping
 -
 product
