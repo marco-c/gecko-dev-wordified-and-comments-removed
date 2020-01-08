@@ -1310,6 +1310,8 @@ PasteAsAction
 (
 int32_t
 aClipboardType
+bool
+aDispatchPasteEvent
 )
 {
 if
@@ -1330,6 +1332,7 @@ AsHTMLEditor
 PasteInternal
 (
 aClipboardType
+aDispatchPasteEvent
 )
 ;
 if
@@ -1353,6 +1356,9 @@ NS_OK
 }
 if
 (
+aDispatchPasteEvent
+&
+&
 !
 FireClipboardEvent
 (

@@ -6854,10 +6854,15 @@ PasteInternal
 (
 int32_t
 aClipboardType
+bool
+aDispatchPasteEvent
 )
 {
 if
 (
+aDispatchPasteEvent
+&
+&
 !
 FireClipboardEvent
 (
@@ -7832,6 +7837,8 @@ PasteAsQuotationAsAction
 (
 int32_t
 aClipboardType
+bool
+aDispatchPasteEvent
 )
 {
 MOZ_ASSERT
@@ -8055,6 +8062,7 @@ rv
 PasteInternal
 (
 aClipboardType
+aDispatchPasteEvent
 )
 ;
 if

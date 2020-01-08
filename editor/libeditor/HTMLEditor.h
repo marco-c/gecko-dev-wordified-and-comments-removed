@@ -513,6 +513,8 @@ PasteAsQuotationAsAction
 (
 int32_t
 aClipboardType
+bool
+aDispatchPasteEvent
 )
 override
 ;
@@ -2780,6 +2782,8 @@ PasteInternal
 (
 int32_t
 aClipboardType
+bool
+aDispatchPasteEvent
 )
 ;
 template

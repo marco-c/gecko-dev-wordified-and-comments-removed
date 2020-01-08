@@ -338,6 +338,8 @@ PasteAsAction
 (
 int32_t
 aClipboardType
+bool
+aDispatchPasteEvent
 )
 ;
 nsresult
@@ -355,6 +357,8 @@ PasteAsQuotationAsAction
 (
 int32_t
 aClipboardType
+bool
+aDispatchPasteEvent
 )
 ;
 nsresult
