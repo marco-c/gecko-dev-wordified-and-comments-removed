@@ -149,6 +149,12 @@ UNICODE_STRING
 if
 defined
 (
+MOZ_LAUNCHER_PROCESS
+)
+|
+|
+defined
+(
 NIGHTLY_BUILD
 )
 #
