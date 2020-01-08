@@ -188,6 +188,13 @@ PropTypes
 func
 .
 isRequired
+timeScale
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -203,6 +210,7 @@ removeAnimationsCurrentTimeListener
 rewindAnimationsCurrentTime
 setAnimationsPlaybackRate
 setAnimationsPlayState
+timeScale
 }
 =
 this
@@ -251,6 +259,7 @@ CurrentTimeLabel
 {
 addAnimationsCurrentTimeListener
 removeAnimationsCurrentTimeListener
+timeScale
 }
 )
 )
