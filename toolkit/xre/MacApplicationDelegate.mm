@@ -1116,9 +1116,8 @@ nsINativeAppSupport
 >
 nas
 =
-do_CreateInstance
+NS_GetNativeAppSupport
 (
-NS_NATIVEAPPSUPPORT_CONTRACTID
 )
 ;
 NS_ENSURE_TRUE
