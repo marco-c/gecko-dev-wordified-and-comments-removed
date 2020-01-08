@@ -433,6 +433,7 @@ value
 )
 ;
 }
+return
 this
 .
 rule
@@ -443,11 +444,18 @@ this
 value
 priority
 )
-;
+.
+then
+(
+(
+)
+=
+>
 this
 .
 updateEditor
 (
+)
 )
 ;
 }

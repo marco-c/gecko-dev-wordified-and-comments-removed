@@ -1369,6 +1369,11 @@ priority
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 property
@@ -1395,6 +1400,7 @@ indexOf
 property
 )
 ;
+return
 this
 .
 applyProperties
@@ -1463,6 +1469,7 @@ value
 priority
 )
 ;
+return
 modifications
 .
 apply
