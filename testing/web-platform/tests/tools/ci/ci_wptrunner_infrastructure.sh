@@ -126,6 +126,9 @@ firefox
 "
 chrome
 "
+"
+chrome_webdriver
+"
 )
 for
 PRODUCT
@@ -191,6 +194,7 @@ PRODUCT
 "
 chrome
 "
+*
 ]
 ]
 ;

@@ -2283,6 +2283,24 @@ browser
 .
 ChromeWebDriver
 class
+ChromeWebDriver
+(
+Chrome
+)
+:
+    
+name
+=
+"
+chrome_webdriver
+"
+    
+browser_cls
+=
+browser
+.
+ChromeWebDriver
+class
 Opera
 (
 BrowserSetup
@@ -3150,6 +3168,12 @@ chrome_android
 "
 :
 ChromeAndroid
+    
+"
+chrome_webdriver
+"
+:
+ChromeWebDriver
     
 "
 edge
