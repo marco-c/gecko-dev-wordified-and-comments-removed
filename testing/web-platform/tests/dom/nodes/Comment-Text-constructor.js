@@ -248,7 +248,7 @@ arguments
 )
 ;
 var
-arguments
+testArgs
 =
 [
 [
@@ -352,7 +352,7 @@ amp
 ]
 ]
 ;
-arguments
+testArgs
 .
 forEach
 (
