@@ -11029,7 +11029,7 @@ return
 }
 }
 bool
-allDisabled
+allNonDirectProxiesDisabled
 =
 true
 ;
@@ -11060,9 +11060,18 @@ IsProxyDisabled
 (
 iter
 )
+&
+&
+iter
+-
+>
+mType
+!
+=
+kProxyType_DIRECT
 )
 {
-allDisabled
+allNonDirectProxiesDisabled
 =
 false
 ;
@@ -11072,7 +11081,7 @@ break
 }
 if
 (
-allDisabled
+allNonDirectProxiesDisabled
 )
 {
 LOG
