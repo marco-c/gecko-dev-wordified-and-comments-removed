@@ -770,16 +770,6 @@ MaximumCapacity
 (
 )
 ;
-static
-bool
-IsLegalSize
-(
-const
-IntSize
-&
-aSize
-)
-;
 private
 :
 virtual
