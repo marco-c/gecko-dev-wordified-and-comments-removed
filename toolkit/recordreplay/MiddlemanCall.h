@@ -1027,6 +1027,8 @@ size_t
 CountArg
 typename
 ElemType
+=
+char
 >
 static
 inline
