@@ -1152,6 +1152,12 @@ mMessage
 =
 =
 eResize
+|
+|
+mMessage
+=
+=
+eEditorInput
 )
 {
 mFlags

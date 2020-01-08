@@ -177,6 +177,7 @@ WidgetKeyboardEvent
 aKeyboardEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 KeyUp
 (
@@ -196,6 +197,7 @@ WidgetKeyboardEvent
 aKeyboardEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleChangeComposition
 (
@@ -212,6 +214,7 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleEndComposition
 (

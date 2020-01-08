@@ -135,6 +135,7 @@ characterSet
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Undo
 (
@@ -143,6 +144,7 @@ aCount
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Redo
 (
@@ -429,6 +431,7 @@ WidgetCompositionEvent
 aCompositionStartEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OnCompositionChange
 (
@@ -437,6 +440,7 @@ WidgetCompositionEvent
 aCompositionChangeEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OnCompositionEnd
 (
@@ -941,9 +945,9 @@ aCompositionEvent
 virtual
 already_AddRefed
 <
-nsIContent
+Element
 >
-GetInputEventTargetContent
+GetInputEventTargetElement
 (
 )
 override

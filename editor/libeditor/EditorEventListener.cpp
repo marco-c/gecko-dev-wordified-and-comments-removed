@@ -4306,8 +4306,10 @@ return
 NS_OK
 ;
 }
+RefPtr
+<
 TextEditor
-*
+>
 textEditor
 =
 editorBase
@@ -4399,8 +4401,10 @@ cancelable
 "
 )
 ;
+RefPtr
+<
 TextEditor
-*
+>
 textEditor
 =
 editorBase

@@ -3728,9 +3728,9 @@ GetFocusedNode
 virtual
 already_AddRefed
 <
-nsIContent
+Element
 >
-GetInputEventTargetContent
+GetInputEventTargetElement
 (
 )
 override
