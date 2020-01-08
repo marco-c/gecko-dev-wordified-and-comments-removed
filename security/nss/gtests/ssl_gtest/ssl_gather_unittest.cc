@@ -50,6 +50,15 @@ EnsureTlsSetup
 server_
 -
 >
+SetOption
+(
+SSL_ENABLE_V2_COMPATIBLE_HELLO
+PR_TRUE
+)
+;
+server_
+-
+>
 ExpectSendAlert
 (
 kTlsAlertIllegalParameter

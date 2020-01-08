@@ -10,7 +10,7 @@ SSL3ProtocolVersion
 ;
 #
 define
-TLS_1_3_DRAFT_VERSION
+DTLS_1_3_DRAFT_VERSION
 28
 typedef
 PRUint16

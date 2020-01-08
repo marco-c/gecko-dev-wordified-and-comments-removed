@@ -2232,6 +2232,14 @@ isServer
 ss
 -
 >
+opt
+.
+enableV2CompatibleHello
+&
+&
+ss
+-
+>
 ssl3
 .
 hs

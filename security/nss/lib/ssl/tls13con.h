@@ -503,6 +503,8 @@ tls13_EncodeDraftVersion
 (
 SSL3ProtocolVersion
 version
+SSLProtocolVariant
+variant
 )
 ;
 SECStatus

@@ -404,7 +404,7 @@ BORING
 checkout
 -
 q
-9af1edbe2201e6c6d58e5e484bf56281d8c751d9
+7f4f41fa81c03e0f8ef1ab5b3d1d566b5968f107
 fi
 BORING
 =
@@ -549,7 +549,7 @@ OSSL
 checkout
 -
 q
-9e6a32025e6e69949ad3e53a29a0b85f61f30b85
+7d38ca3f8bca58bf7b69e78c1f1ab69e5f429dff
 fi
 OSSL
 =
@@ -812,6 +812,15 @@ No
 failures
 "
 }
+cd
+"
+(
+dirname
+"
+0
+"
+)
+"
 interop_init
 NSS_SHIM
 =

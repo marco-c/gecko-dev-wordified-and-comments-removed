@@ -3240,7 +3240,6 @@ auth
 stapling
 signed_cert_timestamps
 stress
-dtls
 scheme
 "
 NSS_SSL_RUN

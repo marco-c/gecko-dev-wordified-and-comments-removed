@@ -20,13 +20,6 @@ h
 "
 #
 include
-"
-ssl3prot
-.
-h
-"
-#
-include
 <
 functional
 >
@@ -252,13 +245,6 @@ srvNameArrSize
 )
 >
 SniCallbackFunction
-;
-static
-const
-uint8_t
-kD13
-=
-TLS_1_3_DRAFT_VERSION
 ;
 class
 TlsAgent
