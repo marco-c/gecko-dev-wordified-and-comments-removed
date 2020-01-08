@@ -138,6 +138,11 @@ IdType
 h
 '
 '
+MemMapSnapshot
+.
+h
+'
+'
 SharedMap
 .
 h
@@ -149,6 +154,11 @@ h
 '
 '
 SharedStringMap
+.
+h
+'
+'
+StringTable
 .
 h
 '
