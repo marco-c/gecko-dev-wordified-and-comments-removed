@@ -3847,6 +3847,14 @@ this
 .
 iceConnectedReject
 (
+new
+Error
+(
+"
+ICE
+failed
+"
+)
 )
 ;
 }
