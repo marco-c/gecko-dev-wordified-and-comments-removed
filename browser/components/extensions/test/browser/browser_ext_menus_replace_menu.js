@@ -312,6 +312,11 @@ permissions
 "
 menus
 "
+"
+menus
+.
+overrideContext
+"
 ]
 }
 files
@@ -1672,6 +1677,11 @@ permissions
 [
 "
 menus
+"
+"
+menus
+.
+overrideContext
 "
 ]
 sidebar_action
