@@ -2685,8 +2685,6 @@ aAssumeVScroll
 ReflowOutput
 *
 aMetrics
-bool
-aFirstPass
 )
 ;
 void
