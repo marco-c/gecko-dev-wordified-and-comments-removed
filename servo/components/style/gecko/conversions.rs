@@ -4370,6 +4370,10 @@ mURLValue
 as_ref
 (
 )
+as
+*
+mut
+_
 )
 ;
 let

@@ -8444,6 +8444,7 @@ aShape
 >
 SetURL
 (
+*
 aURL
 )
 ;

@@ -2679,10 +2679,9 @@ URL
 :
 AddImageURL
 (
-*
 aShapeSource
 .
-GetURL
+URL
 (
 )
 aURLs
@@ -2698,10 +2697,9 @@ Image
 :
 AddImageURL
 (
-*
 aShapeSource
 .
-GetShapeImage
+ShapeImage
 (
 )
 aURLs
