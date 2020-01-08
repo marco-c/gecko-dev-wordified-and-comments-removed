@@ -9945,6 +9945,15 @@ promise
 if
 (
 !
+cx
+-
+>
+isExceptionPending
+(
+)
+|
+|
+!
 RejectPromiseWithPendingError
 (
 cx
