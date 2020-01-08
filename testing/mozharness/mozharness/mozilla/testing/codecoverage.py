@@ -1357,9 +1357,14 @@ set_coverage_env
 (
 self
 env
+is_baseline_test
+=
+False
 )
 :
         
+self
+.
 gcov_dir
 =
 tempfile
@@ -1375,8 +1380,40 @@ GCOV_PREFIX
 '
 ]
 =
+self
+.
 gcov_dir
         
+if
+self
+.
+per_test_coverage
+and
+not
+is_baseline_test
+and
+self
+.
+_is_linux
+(
+)
+:
+            
+env
+[
+'
+GCOV_RESULTS_DIR
+'
+]
+=
+tempfile
+.
+mkdtemp
+(
+)
+        
+self
+.
 jsvm_dir
 =
 tempfile
@@ -1392,13 +1429,9 @@ JS_CODE_COVERAGE_OUTPUT_DIR
 '
 ]
 =
+self
+.
 jsvm_dir
-        
-return
-(
-gcov_dir
-jsvm_dir
-)
     
 PreScriptAction
 (
@@ -1434,13 +1467,6 @@ per_test_coverage
             
 return
         
-self
-.
-gcov_dir
-self
-.
-jsvm_dir
-=
 self
 .
 set_coverage_env
@@ -1850,12 +1876,30 @@ def
 add_per_test_coverage_report
 (
 self
-gcov_dir
-jsvm_dir
+env
 suite
 test
 )
 :
+        
+gcov_dir
+=
+env
+[
+'
+GCOV_RESULTS_DIR
+'
+]
+if
+'
+GCOV_RESULTS_DIR
+'
+in
+env
+else
+self
+.
+gcov_dir
         
 grcov_file
 =
@@ -1865,6 +1909,8 @@ parse_coverage_artifacts
 (
             
 gcov_dir
+self
+.
 jsvm_dir
 merge
 =
@@ -1946,6 +1992,23 @@ test
 ]
 =
 report_file
+        
+if
+'
+GCOV_RESULTS_DIR
+'
+in
+env
+:
+            
+shutil
+.
+rmtree
+(
+self
+.
+gcov_dir
+)
     
 def
 is_covered
