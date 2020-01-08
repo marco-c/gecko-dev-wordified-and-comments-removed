@@ -104,6 +104,12 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_IMETHOD
+ReloadChrome
+(
+)
+override
+;
+NS_IMETHOD
 RefreshSkins
 (
 )
