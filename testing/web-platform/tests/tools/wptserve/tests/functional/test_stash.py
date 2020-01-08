@@ -1,6 +1,4 @@
 import
-sys
-import
 unittest
 import
 uuid
@@ -76,31 +74,6 @@ self
 run
 (
 result
-)
-    
-pytest
-.
-mark
-.
-xfail
-(
-sys
-.
-version_info
->
-=
-(
-3
-)
-reason
-=
-"
-wptserve
-only
-works
-on
-Py2
-"
 )
     
 def
@@ -298,6 +271,7 @@ resp
 read
 (
 )
+b
 "
 OK
 "
@@ -332,6 +306,7 @@ resp
 read
 (
 )
+b
 "
 Sample
 data
@@ -367,6 +342,7 @@ resp
 read
 (
 )
+b
 "
 NOT
 FOUND
