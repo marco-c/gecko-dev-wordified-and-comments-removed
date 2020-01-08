@@ -488,10 +488,6 @@ mIsInReflowCallback
 false
 ;
 static
-bool
-sUseLongTapInjector
-;
-static
 const
 int32_t
 kMoveStartToleranceInPixel
