@@ -113,6 +113,11 @@ FlexItemList
 js
 '
 '
+FlexItemSelector
+.
+js
+'
+'
 FlexItemSizingProperties
 .
 js
