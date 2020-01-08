@@ -792,6 +792,7 @@ holder
 AddPipeline
 (
 aPipelineId
+nullptr
 )
 ;
 }

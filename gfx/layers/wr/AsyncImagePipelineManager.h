@@ -173,8 +173,6 @@ aPipelineId
 WebRenderBridgeParent
 *
 aWrBridge
-=
-nullptr
 )
 ;
 void
