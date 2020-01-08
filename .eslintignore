@@ -181,16 +181,6 @@ layout
 /
 *
 *
-memory
-/
-replace
-/
-dmd
-/
-test
-/
-*
-*
 modules
 /
 *
