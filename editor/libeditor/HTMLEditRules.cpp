@@ -14246,7 +14246,9 @@ HTMLEditorRef
 .
 AreNodesSameType
 (
+*
 leftParent
+*
 rightParent
 )
 &
@@ -43840,7 +43842,9 @@ HTMLEditorRef
 .
 AreNodesSameType
 (
+*
 lastLeft
+*
 firstRight
 )
 &
