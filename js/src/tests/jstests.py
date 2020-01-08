@@ -3169,20 +3169,6 @@ firefox
 kwargs
 )
     
-is_automation
-=
-os
-.
-environ
-.
-get
-(
-'
-AUTOMATION
-'
-False
-)
-    
 run_info
 =
 wpttest
@@ -3205,10 +3191,6 @@ debug
 extras
 =
 run_info_extras
-                                    
-raise_exception
-=
-is_automation
 )
     
 path_filter
