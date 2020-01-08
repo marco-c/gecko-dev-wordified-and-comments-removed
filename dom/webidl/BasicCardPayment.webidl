@@ -158,15 +158,6 @@ billingAddress
 }
 ;
 dictionary
-BasicCardChangeDetails
-{
-PaymentAddress
-?
-billingAddress
-;
-}
-;
-dictionary
 BasicCardErrors
 {
 DOMString

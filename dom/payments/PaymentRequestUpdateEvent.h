@@ -223,6 +223,8 @@ PaymentRequestUpdateEvent
 (
 )
 ;
+private
+:
 bool
 mWaitForUpdate
 ;
