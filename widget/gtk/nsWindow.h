@@ -2539,6 +2539,11 @@ RoundsWidgetCoordinatesTo
 )
 override
 ;
+void
+ForceTitlebarRedraw
+(
+)
+;
 RefPtr
 <
 mozilla
