@@ -242,7 +242,7 @@ github
 .
 com
 /
-jrmuizel
+servo
 /
 osmesa
 -
@@ -251,11 +251,6 @@ src
 optional
 =
 true
-branch
-=
-"
-serialize
-"
 }
 webrender
 =
