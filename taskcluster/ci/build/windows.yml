@@ -4758,7 +4758,7 @@ description
 "
 Win32
 MSVC
-PGO
+Opt
 "
 index
 :
@@ -4773,7 +4773,7 @@ win32
 -
 msvc
 -
-pgo
+opt
 treeherder
 :
 platform
@@ -4782,7 +4782,7 @@ windows2012
 -
 32
 /
-pgo
+opt
 symbol
 :
 Bmsvc
@@ -4879,9 +4879,6 @@ mozharness
 options
 :
 [
-enable
--
-pgo
 append
 -
 env
@@ -5183,7 +5180,7 @@ description
 "
 Win64
 MSVC
-PGO
+Opt
 "
 index
 :
@@ -5198,7 +5195,7 @@ win64
 -
 msvc
 -
-pgo
+opt
 treeherder
 :
 platform
@@ -5207,7 +5204,7 @@ windows2012
 -
 64
 /
-pgo
+opt
 symbol
 :
 Bmsvc
@@ -5272,9 +5269,6 @@ mozharness
 options
 :
 [
-enable
--
-pgo
 append
 -
 env
