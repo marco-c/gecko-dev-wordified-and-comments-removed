@@ -9744,12 +9744,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 ltr
-&
 nsGkAtoms
 :
 :

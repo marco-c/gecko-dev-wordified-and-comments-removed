@@ -980,12 +980,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 _empty
-&
 nsGkAtoms
 :
 :

@@ -4078,12 +4078,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 checkbox
-&
 nsGkAtoms
 :
 :

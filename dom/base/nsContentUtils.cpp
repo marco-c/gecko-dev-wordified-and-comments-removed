@@ -20886,7 +20886,6 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :

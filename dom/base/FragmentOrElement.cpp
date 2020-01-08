@@ -6609,7 +6609,7 @@ IsSVGElement
 {
 nsStaticAtom
 *
-*
+const
 *
 props
 =
@@ -6642,7 +6642,6 @@ tmp
 >
 DeleteProperty
 (
-*
 props
 [
 i
@@ -9364,7 +9363,7 @@ IsSVGElement
 {
 nsStaticAtom
 *
-*
+const
 *
 props
 =
@@ -9407,7 +9406,6 @@ tmp
 >
 GetProperty
 (
-*
 props
 [
 i

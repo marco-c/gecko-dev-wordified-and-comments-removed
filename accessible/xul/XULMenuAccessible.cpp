@@ -289,12 +289,10 @@ strings
 ]
 =
 {
-&
 nsGkAtoms
 :
 :
 radio
-&
 nsGkAtoms
 :
 :

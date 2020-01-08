@@ -1966,8 +1966,6 @@ typedef
 nsStaticAtom
 *
 const
-*
-const
 AttrValuesArray
 ;
 int32_t
@@ -2326,9 +2324,10 @@ const
 struct
 MappedAttributeEntry
 {
+const
 nsStaticAtom
 *
-*
+const
 attribute
 ;
 }
@@ -2371,7 +2370,7 @@ N
 static
 nsStaticAtom
 *
-*
+const
 *
 HTMLSVGPropertiesToTraverseAndUnlink
 (
