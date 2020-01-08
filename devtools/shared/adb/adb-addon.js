@@ -162,12 +162,6 @@ ADB_ADDON_STATES
 .
 UNKNOWN
 ;
-this
-.
-uninstallUnsupportedExtensions
-(
-)
-;
 const
 addonsListener
 =

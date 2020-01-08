@@ -482,6 +482,13 @@ onAdbAddonUpdated
 (
 )
 ;
+await
+adbAddon
+.
+uninstallUnsupportedExtensions
+(
+)
+;
 }
 onAdbAddonUpdated
 (

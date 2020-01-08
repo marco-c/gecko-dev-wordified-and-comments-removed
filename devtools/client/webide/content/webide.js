@@ -692,6 +692,12 @@ webide
 )
 ;
 }
+adbAddon
+.
+uninstallUnsupportedExtensions
+(
+)
+;
 Services
 .
 prefs
