@@ -158,13 +158,9 @@ dependency
 -
 repackage
 -
-signing
--
-l10n
--
 repackage
 -
-signing
+l10n
 only
 -
 for
