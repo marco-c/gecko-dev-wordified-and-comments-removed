@@ -7,7 +7,7 @@ AV1_ENCODER_HYBRID_FWD_TXFM_H_
 #
 include
 "
-.
+config
 /
 aom_config
 .

@@ -212,17 +212,12 @@ colsd
 je
 .
 case_32
-%
-if
-CONFIG_EXT_PARTITION
 cmp
 colsd
 64
 je
 .
 case_64
-%
-endif
 %
 macro
 loop16
@@ -349,9 +344,6 @@ mmsize
 m1
 %
 endmacro
-%
-if
-CONFIG_EXT_PARTITION
 mov
 pred_str
 pred_stridemp
@@ -459,8 +451,6 @@ RET
 .
 case_64
 :
-%
-endif
 mov
 pred_str
 pred_stridemp

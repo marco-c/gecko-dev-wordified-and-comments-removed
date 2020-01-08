@@ -35,7 +35,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -44,7 +44,7 @@ h
 #
 include
 "
-.
+config
 /
 av1_rtcd
 .
@@ -123,9 +123,6 @@ ACMRandom
 ;
 namespace
 {
-#
-if
-CONFIG_HIGHBITDEPTH
 const
 int
 kNumIterations
@@ -157,10 +154,9 @@ bps
 )
 ;
 typedef
-std
 :
 :
-tr1
+testing
 :
 :
 tuple
@@ -963,15 +959,16 @@ first_failure
 }
 #
 if
+(
 HAVE_SSE2
 |
 |
 HAVE_AVX
+)
 using
-std
 :
 :
-tr1
+testing
 :
 :
 make_tuple
@@ -1014,8 +1011,6 @@ AOM_BITS_8
 )
 )
 ;
-#
-endif
 #
 endif
 }

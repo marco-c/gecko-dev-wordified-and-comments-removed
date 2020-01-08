@@ -4,7 +4,8 @@ file
 is
 used
 by
-gcl
+git
+cl
 to
 get
 repository
@@ -13,19 +14,7 @@ information
 .
 GERRIT_HOST
 :
-aomedia
--
-review
-.
-googlesource
-.
-com
-GERRIT_PORT
-:
-29418
-GERRIT_SQUASH_UPLOADS
-:
-false
+True
 CODE_REVIEW_SERVER
 :
 aomedia
@@ -35,3 +24,6 @@ review
 googlesource
 .
 com
+GERRIT_SQUASH_UPLOADS
+:
+False

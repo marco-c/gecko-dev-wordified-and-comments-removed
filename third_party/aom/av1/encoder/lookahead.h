@@ -96,13 +96,8 @@ subsampling_x
 unsigned
 int
 subsampling_y
-#
-if
-CONFIG_HIGHBITDEPTH
 int
 use_highbitdepth
-#
-endif
 unsigned
 int
 depth
@@ -131,13 +126,8 @@ int64_t
 ts_start
 int64_t
 ts_end
-#
-if
-CONFIG_HIGHBITDEPTH
 int
 use_highbitdepth
-#
-endif
 aom_enc_frame_flags_t
 flags
 )

@@ -32,8 +32,7 @@ string
 #
 include
 "
-.
-.
+common
 /
 tools_common
 .
@@ -42,8 +41,7 @@ h
 #
 include
 "
-.
-.
+common
 /
 webmdec
 .
@@ -107,7 +105,11 @@ buf_sz_
 (
 0
 )
-frame_
+frame_sz_
+(
+0
+)
+frame_number_
 (
 0
 )
@@ -232,7 +234,7 @@ Next
 {
 +
 +
-frame_
+frame_number_
 ;
 FillFrame
 (
@@ -264,6 +266,8 @@ webm_read_frame
 webm_ctx_
 &
 buf_
+&
+frame_sz_
 &
 buf_sz_
 )
@@ -322,6 +326,8 @@ webm_ctx_
 &
 buf_
 &
+frame_sz_
+&
 buf_sz_
 )
 ;
@@ -339,7 +345,7 @@ failed
 ;
 +
 +
-frame_
+frame_number_
 ;
 if
 (
@@ -394,7 +400,7 @@ frame_size
 const
 {
 return
-buf_sz_
+frame_sz_
 ;
 }
 virtual
@@ -406,7 +412,7 @@ frame_number
 const
 {
 return
-frame_
+frame_number_
 ;
 }
 protected
@@ -432,9 +438,12 @@ buf_
 size_t
 buf_sz_
 ;
+size_t
+frame_sz_
+;
 unsigned
 int
-frame_
+frame_number_
 ;
 bool
 end_of_file_

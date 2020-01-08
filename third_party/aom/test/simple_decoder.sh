@@ -274,14 +274,10 @@ local
 decoder
 =
 "
-{
-LIBAOM_BIN_PATH
-}
-/
+(
+aom_tool_path
 simple_decoder
-{
-AOM_TEST_EXE_SUFFIX
-}
+)
 "
 local
 input_file

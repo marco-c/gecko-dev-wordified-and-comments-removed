@@ -20,7 +20,9 @@ _sse4_1
 #
 include
 "
-.
+av1
+/
+common
 /
 cdef_block_simd
 .

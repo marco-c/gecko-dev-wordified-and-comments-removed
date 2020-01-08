@@ -24,7 +24,7 @@ endif
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -156,9 +156,6 @@ uint32_t
 in_bd
 )
 ;
-#
-if
-CONFIG_HIGHBITDEPTH
 double
 aom_highbd_calc_ssim
 (
@@ -179,8 +176,6 @@ uint32_t
 in_bd
 )
 ;
-#
-endif
 #
 ifdef
 __cplusplus

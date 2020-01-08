@@ -14,7 +14,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -124,6 +124,9 @@ window_size
 endif
 int
 pos
+;
+uint8_t
+allow_update_cdf
 ;
 }
 ;

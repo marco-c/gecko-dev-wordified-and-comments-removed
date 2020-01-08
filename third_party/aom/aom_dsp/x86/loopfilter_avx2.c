@@ -8,7 +8,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_dsp_rtcd
 .
@@ -24,7 +24,7 @@ mem
 h
 "
 void
-aom_lpf_horizontal_edge_8_avx2
+aom_lpf_horizontal_16_avx2
 (
 unsigned
 char
@@ -2668,7 +2668,7 @@ filt_loopfilter_avx2
 }
 ;
 void
-aom_lpf_horizontal_edge_16_avx2
+aom_lpf_horizontal_16_dual_avx2
 (
 unsigned
 char

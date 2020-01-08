@@ -876,9 +876,6 @@ HIGH_SAD64XN
 1
 ;
 highbd_sad64x32_avg_sse2
-%
-if
-CONFIG_EXT_PARTITION_TYPES
 HIGH_SAD64XN
 16
 ;
@@ -888,8 +885,6 @@ HIGH_SAD64XN
 1
 ;
 highbd_sad_64x16_avg_sse2
-%
-endif
 ;
 unsigned
 int
@@ -1200,9 +1195,6 @@ HIGH_SAD32XN
 1
 ;
 highbd_sad32x16_avg_sse2
-%
-if
-CONFIG_EXT_PARTITION_TYPES
 HIGH_SAD32XN
 8
 ;
@@ -1212,8 +1204,6 @@ HIGH_SAD32XN
 1
 ;
 highbd_sad_32x8_avg_sse2
-%
-endif
 ;
 unsigned
 int
@@ -1544,9 +1534,6 @@ HIGH_SAD16XN
 1
 ;
 highbd_sad16x8_avg_sse2
-%
-if
-CONFIG_EXT_PARTITION_TYPES
 HIGH_SAD16XN
 4
 ;
@@ -1565,8 +1552,6 @@ HIGH_SAD16XN
 1
 ;
 highbd_sad_16x64_avg_sse2
-%
-endif
 ;
 unsigned
 int
@@ -1897,9 +1882,6 @@ HIGH_SAD8XN
 1
 ;
 highbd_sad8x4_avg_sse2
-%
-if
-CONFIG_EXT_PARTITION_TYPES
 HIGH_SAD8XN
 32
 ;
@@ -1909,5 +1891,3 @@ HIGH_SAD8XN
 1
 ;
 highbd_sad_8x32_avg_sse2
-%
-endif

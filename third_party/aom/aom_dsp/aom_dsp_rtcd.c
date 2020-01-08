@@ -1,7 +1,7 @@
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -13,7 +13,7 @@ RTCD_C
 #
 include
 "
-.
+config
 /
 aom_dsp_rtcd
 .

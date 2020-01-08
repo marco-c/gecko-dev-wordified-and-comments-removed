@@ -7,7 +7,7 @@ AOM_PORTS_AOM_TIMER_H_
 #
 include
 "
-.
+config
 /
 aom_config
 .
@@ -346,9 +346,14 @@ diff
 )
 ;
 return
+(
+(
+int64_t
+)
 diff
 .
 tv_sec
+)
 *
 1000000
 +

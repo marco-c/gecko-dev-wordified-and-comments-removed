@@ -592,6 +592,8 @@ org
 %
 include
 "
+config
+/
 aom_config
 .
 asm

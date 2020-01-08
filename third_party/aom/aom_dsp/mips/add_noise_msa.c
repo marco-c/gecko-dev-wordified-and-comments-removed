@@ -8,7 +8,9 @@ h
 #
 include
 "
-.
+aom_dsp
+/
+mips
 /
 macros_msa
 .

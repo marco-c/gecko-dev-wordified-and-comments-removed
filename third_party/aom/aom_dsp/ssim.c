@@ -15,7 +15,7 @@ h
 #
 include
 "
-.
+config
 /
 aom_dsp_rtcd
 .
@@ -322,9 +322,6 @@ j
 }
 }
 }
-#
-if
-CONFIG_HIGHBITDEPTH
 void
 aom_highbd_ssim_parms_8x8_c
 (
@@ -462,8 +459,6 @@ j
 }
 }
 }
-#
-endif
 static
 const
 int64_t
@@ -811,9 +806,6 @@ sum_sxr
 )
 ;
 }
-#
-if
-CONFIG_HIGHBITDEPTH
 static
 double
 highbd_ssim_8x8
@@ -911,8 +903,6 @@ bd
 )
 ;
 }
-#
-endif
 static
 double
 aom_ssim2
@@ -1034,9 +1024,6 @@ return
 ssim_total
 ;
 }
-#
-if
-CONFIG_HIGHBITDEPTH
 static
 double
 aom_highbd_ssim2
@@ -1170,8 +1157,6 @@ return
 ssim_total
 ;
 }
-#
-endif
 double
 aom_calc_ssim
 (
@@ -2247,9 +2232,6 @@ return
 inconsistency_total
 ;
 }
-#
-if
-CONFIG_HIGHBITDEPTH
 double
 aom_highbd_calc_ssim
 (
@@ -2400,5 +2382,3 @@ abc
 )
 ;
 }
-#
-endif

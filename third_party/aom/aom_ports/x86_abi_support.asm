@@ -120,6 +120,8 @@ patent
 %
 include
 "
+config
+/
 aom_config
 .
 asm

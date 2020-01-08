@@ -45,6 +45,9 @@ vratio
 unsigned
 int
 interlaced
+const
+int
+num_planes
 )
 ;
 #
