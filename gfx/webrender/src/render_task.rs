@@ -3616,7 +3616,6 @@ origin
 )
 ;
 }
-;
 RenderTaskData
 {
 data

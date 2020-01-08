@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+missing_docs
+)
+]
 extern
 crate
 serde_bytes
@@ -1220,8 +1228,6 @@ enum
 BlobImageError
 {
 Oom
-InvalidKey
-InvalidData
 Other
 (
 String

@@ -1468,6 +1468,9 @@ write_clip
 vi
 .
 world_pos
+vi
+.
+snap_offset
 clip_area
 )
 ;

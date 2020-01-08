@@ -188,6 +188,13 @@ Accept
 Reject
 Partial
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 ClipNode
@@ -2922,6 +2929,7 @@ new_box_shadow
 shadow_rect
 :
 LayoutRect
+mut
 shadow_radius
 :
 BorderRadius
@@ -2939,6 +2947,15 @@ BoxShadowClipMode
 >
 Self
 {
+ensure_no_corner_overlap
+(
+&
+mut
+shadow_radius
+&
+shadow_rect
+)
+;
 let
 fract_offset
 =
