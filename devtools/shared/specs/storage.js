@@ -188,7 +188,7 @@ host
 "
 string
 "
-isDomain
+hostOnly
 :
 "
 boolean

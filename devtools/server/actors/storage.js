@@ -2333,8 +2333,9 @@ value
 "
 "
 )
-isDomain
+hostOnly
 :
+!
 cookie
 .
 isDomain
@@ -3019,7 +3020,7 @@ false
 name
 :
 "
-isDomain
+hostOnly
 "
 editable
 :
