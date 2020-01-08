@@ -1182,9 +1182,6 @@ com
 zergnet
 .
 com
-terraclicks
-.
-com
 techcrunch
 .
 com
