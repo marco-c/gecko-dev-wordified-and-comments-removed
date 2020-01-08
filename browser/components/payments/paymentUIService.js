@@ -474,7 +474,7 @@ chromeWindow
 .
 document
 .
-createElement
+createXULElement
 (
 "
 box
