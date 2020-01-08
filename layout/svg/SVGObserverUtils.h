@@ -580,7 +580,7 @@ NS_SVGFILTEROBSERVER_IID
 }
 }
 class
-nsSVGFilterReference
+SVGFilterObserver
 final
 :
 public
@@ -588,7 +588,7 @@ SVGIDRenderingObserver
 {
 public
 :
-nsSVGFilterReference
+SVGFilterObserver
 (
 nsIURI
 *
@@ -647,7 +647,7 @@ NS_SVGFILTEROBSERVER_IID
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
-nsSVGFilterReference
+SVGFilterObserver
 )
 void
 Invalidate
@@ -664,7 +664,7 @@ protected
 :
 virtual
 ~
-nsSVGFilterReference
+SVGFilterObserver
 (
 )
 {
@@ -686,7 +686,7 @@ mFilterChainObserver
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsSVGFilterReference
+SVGFilterObserver
 NS_SVGFILTEROBSERVER_IID
 )
 class
@@ -761,7 +761,7 @@ OnRenderingChange
 private
 :
 void
-DetachReferences
+DetachObservers
 (
 )
 {
@@ -774,7 +774,7 @@ i
 ;
 i
 <
-mReferences
+mObservers
 .
 Length
 (
@@ -785,7 +785,7 @@ i
 +
 )
 {
-mReferences
+mObservers
 [
 i
 ]
@@ -801,10 +801,10 @@ nsTArray
 <
 RefPtr
 <
-nsSVGFilterReference
+SVGFilterObserver
 >
 >
-mReferences
+mObservers
 ;
 }
 ;

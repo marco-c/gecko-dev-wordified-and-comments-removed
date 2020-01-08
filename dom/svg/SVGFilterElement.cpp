@@ -617,7 +617,7 @@ GetNext
 ;
 RefPtr
 <
-nsSVGFilterReference
+SVGFilterObserver
 >
 filter
 =
@@ -630,6 +630,7 @@ if
 (
 filter
 )
+{
 filter
 -
 >
@@ -637,6 +638,7 @@ Invalidate
 (
 )
 ;
+}
 }
 }
 }
