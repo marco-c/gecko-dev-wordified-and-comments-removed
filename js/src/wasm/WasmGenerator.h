@@ -637,6 +637,11 @@ code
 )
 ;
 bool
+locallyCompileCurrentTask
+(
+)
+;
+bool
 finishTask
 (
 CompileTask
