@@ -493,17 +493,5 @@ ntp_background
 "
 ntp_text
 "
-"
-sidebar
-"
-"
-sidebar_highlight
-"
-"
-sidebar_highlight_text
-"
-"
-sidebar_text
-"
 ]
 ;
