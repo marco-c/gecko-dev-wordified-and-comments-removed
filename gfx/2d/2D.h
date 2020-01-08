@@ -5290,8 +5290,10 @@ aContrast
 ;
 static
 void
-UpdateSystemTextQuality
+SetSystemTextQuality
 (
+uint8_t
+aQuality
 )
 ;
 private
