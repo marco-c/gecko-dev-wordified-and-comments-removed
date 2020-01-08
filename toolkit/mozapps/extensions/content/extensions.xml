@@ -10815,7 +10815,14 @@ mAddon
 disable
 (
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 /
 /
 This
@@ -10844,6 +10851,9 @@ pending
 "
 uninstall
 "
+)
+;
+}
 )
 ;
 }
