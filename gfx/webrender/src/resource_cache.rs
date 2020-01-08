@@ -273,7 +273,10 @@ use
 render_backend
 :
 :
+{
 FrameId
+FrameStamp
+}
 ;
 use
 render_task
@@ -7440,9 +7443,9 @@ begin_frame
 &
 mut
 self
-frame_id
+stamp
 :
-FrameId
+FrameStamp
 )
 {
 debug_assert_eq
@@ -7472,7 +7475,7 @@ texture_cache
 .
 begin_frame
 (
-frame_id
+stamp
 )
 ;
 self
@@ -7513,7 +7516,11 @@ self
 .
 current_frame_id
 =
+stamp
+.
 frame_id
+(
+)
 ;
 }
 pub

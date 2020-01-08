@@ -4110,7 +4110,7 @@ texture_cache
 TextureCache
 :
 :
-new
+new_for_testing
 (
 2048
 1024
@@ -4460,7 +4460,7 @@ mut
 TextureCache
 :
 :
-new
+new_for_testing
 (
 4096
 1024
