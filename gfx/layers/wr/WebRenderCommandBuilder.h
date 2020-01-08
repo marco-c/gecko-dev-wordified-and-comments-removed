@@ -162,6 +162,10 @@ mDoGrouping
 (
 false
 )
+mForEventsAndPluginsOnly
+(
+false
+)
 mContainsSVGGroup
 (
 false
@@ -882,6 +886,9 @@ public
 :
 bool
 mDoGrouping
+;
+bool
+mForEventsAndPluginsOnly
 ;
 bool
 mContainsSVGGroup
