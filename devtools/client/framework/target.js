@@ -1005,6 +1005,7 @@ mainRoot
 rootForm
 ;
 }
+async
 getInspector
 (
 typeName
@@ -1034,6 +1035,7 @@ this
 .
 _inspector
 =
+await
 getFront
 (
 this
