@@ -1074,6 +1074,16 @@ GetIsViewportOverridden
 0
 ;
 virtual
+void
+UpdateViewportOverridden
+(
+bool
+aAfterInitialization
+)
+=
+0
+;
+virtual
 bool
 IsLayoutFlushObserver
 (
