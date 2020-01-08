@@ -147,6 +147,14 @@ tick
 position
 }
 %
+maxWidth
+:
+{
+tick
+.
+width
+}
+px
 }
 }
 tick
