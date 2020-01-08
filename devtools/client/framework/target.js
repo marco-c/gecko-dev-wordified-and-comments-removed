@@ -949,6 +949,11 @@ typeName
 if
 (
 front
+&
+&
+front
+.
+actorID
 )
 {
 return
