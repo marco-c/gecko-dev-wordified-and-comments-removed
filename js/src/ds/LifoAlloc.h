@@ -2166,6 +2166,9 @@ curSize_
 size_t
 peakSize_
 ;
+size_t
+oversizeSize_
+;
 #
 if
 defined
@@ -3187,6 +3190,16 @@ bc
 computedSizeOfIncludingThis
 (
 )
+)
+;
+oversizeSize_
+-
+=
+bc
+-
+>
+computedSizeOfIncludingThis
+(
 )
 ;
 }
