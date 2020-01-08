@@ -318,6 +318,9 @@ false
 noPrettyPrinting
 :
 true
+breakpointWhileRunning
+:
+true
 memoryActorAllocations
 :
 true
