@@ -12,6 +12,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+VRManager
+.
+h
+"
 namespace
 mozilla
 {
@@ -29,7 +36,7 @@ static
 bool
 sFinishedVRListenerShutDown
 =
-false
+true
 ;
 static
 const
@@ -347,6 +354,10 @@ started
 "
 )
 ;
+sFinishedVRListenerShutDown
+=
+false
+;
 sVRListenerThreadHolder
 =
 new
@@ -394,6 +405,13 @@ shut
 down
 !
 "
+)
+;
+VRManager
+:
+:
+StopVRListenerThreadTasks
+(
 )
 ;
 sVRListenerThreadHolder
