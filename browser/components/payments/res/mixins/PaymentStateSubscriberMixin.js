@@ -130,6 +130,10 @@ displayItems
 :
 [
 ]
+shippingAddressErrors
+:
+{
+}
 shippingOptions
 :
 [
