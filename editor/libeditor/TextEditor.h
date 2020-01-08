@@ -415,9 +415,8 @@ aReplaceRange
 nullptr
 )
 ;
-virtual
 nsresult
-InsertLineBreakAsAction
+OnInputParagraphSeparator
 (
 )
 ;
@@ -730,7 +729,7 @@ aStringToInsert
 )
 ;
 nsresult
-InsertLineBreakAsSubAction
+InsertParagraphSeparatorAsAction
 (
 )
 ;
