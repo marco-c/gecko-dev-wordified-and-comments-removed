@@ -4212,7 +4212,7 @@ if
 (
 options
 .
-frame_id
+frameID
 )
 {
 return
@@ -4239,7 +4239,7 @@ frames
 =
 options
 .
-all_frames
+allFrames
 ?
 "
 and
@@ -4276,7 +4276,7 @@ if
 !
 options
 .
-all_frames
+allFrames
 &
 &
 promises
@@ -4334,7 +4334,7 @@ e
 {
 const
 {
-js
+jsPaths
 }
 =
 options
@@ -4342,13 +4342,13 @@ options
 const
 fileName
 =
-js
+jsPaths
 .
 length
 ?
-js
+jsPaths
 [
-js
+jsPaths
 .
 length
 -
