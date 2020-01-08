@@ -134,6 +134,12 @@ std
 mem
 ;
 use
+utils
+:
+:
+DashResult
+;
+use
 wasm2clif
 :
 :
@@ -142,12 +148,6 @@ init_sig
 native_pointer_size
 TransEnv
 }
-;
-use
-utils
-:
-:
-DashResult
 ;
 pub
 struct
