@@ -4888,9 +4888,7 @@ false
 }
 HoldPendingTransactionId
 (
-WrEpoch
-(
-)
+mWrEpoch
 aTransactionId
 aRefreshStartTime
 aTxnStartTime
@@ -4952,9 +4950,7 @@ cbp
 NotifyPipelineRendered
 (
 mPipelineId
-WrEpoch
-(
-)
+mWrEpoch
 now
 now
 )
