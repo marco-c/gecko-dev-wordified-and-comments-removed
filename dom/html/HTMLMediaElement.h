@@ -917,14 +917,6 @@ aTrack
 )
 ;
 void
-NotifyMediaStreamTracksAvailable
-(
-DOMMediaStream
-*
-aStream
-)
-;
-void
 NotifyOutputTrackStopped
 (
 DOMMediaStream
@@ -2362,9 +2354,6 @@ ErrorSink
 ;
 class
 MediaLoadListener
-;
-class
-MediaStreamTracksAvailableCallback
 ;
 class
 MediaStreamTrackListener
