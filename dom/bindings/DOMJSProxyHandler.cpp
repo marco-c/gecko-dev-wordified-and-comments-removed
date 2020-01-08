@@ -324,10 +324,12 @@ CheckExpandoObject
 JSObject
 *
 proxy
+const
 JS
 :
 :
 Value
+&
 expando
 )
 {
