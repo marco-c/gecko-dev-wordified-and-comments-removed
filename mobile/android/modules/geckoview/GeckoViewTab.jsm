@@ -113,6 +113,14 @@ tab
 selectedTab
 :
 tab
+closeTab
+:
+function
+(
+aTab
+)
+{
+}
 getTabForId
 :
 function
