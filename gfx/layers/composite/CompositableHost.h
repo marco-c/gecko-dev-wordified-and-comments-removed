@@ -528,7 +528,6 @@ IntSize
 GetImageSize
 (
 )
-const
 {
 MOZ_ASSERT
 (

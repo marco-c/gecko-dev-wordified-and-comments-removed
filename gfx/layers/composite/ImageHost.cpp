@@ -2236,7 +2236,6 @@ ImageHost
 GetImageSize
 (
 )
-const
 {
 const
 TimedImage
