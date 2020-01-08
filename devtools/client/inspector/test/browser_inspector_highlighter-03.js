@@ -484,7 +484,9 @@ mousemove
 return
 inspector
 .
-toolbox
+inspector
+.
+nodePicker
 .
 once
 (

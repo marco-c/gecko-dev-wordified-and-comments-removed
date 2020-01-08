@@ -23,7 +23,6 @@ function
 {
 const
 {
-inspector
 toolbox
 testActor
 }
@@ -358,9 +357,11 @@ ready
 const
 onPickerNodeHovered
 =
+toolbox
+.
 inspector
 .
-toolbox
+nodePicker
 .
 once
 (
@@ -432,9 +433,11 @@ ready
 const
 onPickerNodeHovered
 =
+toolbox
+.
 inspector
 .
-toolbox
+nodePicker
 .
 once
 (

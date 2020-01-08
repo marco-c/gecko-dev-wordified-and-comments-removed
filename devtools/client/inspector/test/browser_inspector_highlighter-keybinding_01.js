@@ -23,7 +23,6 @@ function
 {
 const
 {
-inspector
 toolbox
 testActor
 }
@@ -387,9 +386,11 @@ args
 )
 ;
 return
+toolbox
+.
 inspector
 .
-toolbox
+nodePicker
 .
 once
 (
@@ -450,9 +451,11 @@ selector
 )
 ;
 return
+toolbox
+.
 inspector
 .
-toolbox
+nodePicker
 .
 once
 (
