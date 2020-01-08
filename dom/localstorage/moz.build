@@ -199,6 +199,11 @@ LSObserver
 cpp
 '
 '
+LSSnapshot
+.
+cpp
+'
+'
 ReportInternalError
 .
 cpp
@@ -230,6 +235,11 @@ ipdlh
 '
 '
 PBackgroundLSSimpleRequest
+.
+ipdl
+'
+'
+PBackgroundLSSnapshot
 .
 ipdl
 '
