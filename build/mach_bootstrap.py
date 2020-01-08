@@ -1530,6 +1530,26 @@ getpid
 return
         
 if
+os
+.
+environ
+.
+get
+(
+'
+DISABLE_TELEMETRY
+'
+)
+=
+=
+'
+1
+'
+:
+            
+return
+        
+if
 not
 context
 .
