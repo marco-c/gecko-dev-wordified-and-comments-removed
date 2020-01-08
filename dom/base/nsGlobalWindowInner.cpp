@@ -12741,7 +12741,10 @@ JSObject
 aObj
 )
 {
-return
+nsGlobalWindowInner
+*
+win
+=
 xpc
 :
 :
@@ -12749,6 +12752,12 @@ WindowOrNull
 (
 aObj
 )
+;
+return
+win
+&
+&
+win
 -
 >
 IsChromeWindow
