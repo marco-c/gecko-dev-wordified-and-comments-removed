@@ -281,6 +281,9 @@ StyleComputedFontStyleDescriptor
 StyleComputedFontWeightRange
 "
 "
+StyleComputedTimingFunction
+"
+"
 StyleDisplay
 "
 "
@@ -297,6 +300,9 @@ StyleFontFaceSourceListComponent
 "
 "
 StyleFontLanguageOverride
+"
+"
+StyleTimingFunction
 "
 "
 StylePathCommand

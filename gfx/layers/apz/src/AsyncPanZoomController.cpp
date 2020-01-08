@@ -2023,7 +2023,10 @@ ComputedTimingFunction
 (
 nsTimingFunction
 (
-NS_STYLE_TRANSITION_TIMING_FUNCTION_EASE
+StyleTimingKeyword
+:
+:
+Ease
 )
 )
 ;
