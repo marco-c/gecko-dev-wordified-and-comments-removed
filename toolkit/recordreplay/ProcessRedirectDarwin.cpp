@@ -4419,6 +4419,16 @@ PreambleResult
 Veto
 ;
 }
+RecordReplayAssert
+(
+"
+getenv
+%
+s
+"
+env
+)
+;
 return
 PreambleResult
 :

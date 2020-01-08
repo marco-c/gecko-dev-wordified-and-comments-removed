@@ -517,6 +517,13 @@ bool
 aTakeLock
 )
 ;
+const
+char
+*
+ReadInputString
+(
+)
+;
 static
 size_t
 BallastMaxSize
