@@ -164,6 +164,17 @@ outerWindowID
 =
 =
 _lastTopLevelWindowID
+|
+|
+browser
+.
+ownerGlobal
+!
+=
+_trackedWindows
+[
+0
+]
 )
 {
 return
