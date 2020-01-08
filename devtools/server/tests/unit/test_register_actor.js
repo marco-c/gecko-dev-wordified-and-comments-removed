@@ -286,6 +286,7 @@ lazy
 const
 front
 =
+new
 LazyFront
 (
 client

@@ -124,6 +124,7 @@ parent
 const
 promises
 =
+new
 PromisesFront
 (
 client

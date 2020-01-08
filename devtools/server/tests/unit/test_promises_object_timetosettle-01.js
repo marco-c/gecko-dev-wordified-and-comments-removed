@@ -279,6 +279,7 @@ makePromises
 const
 front
 =
+new
 PromisesFront
 (
 client

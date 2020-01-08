@@ -196,6 +196,7 @@ resolution
 const
 front
 =
+new
 PromisesFront
 (
 client

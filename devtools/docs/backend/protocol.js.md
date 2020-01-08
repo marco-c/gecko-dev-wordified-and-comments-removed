@@ -762,6 +762,7 @@ it
 let
 hello
 =
+new
 HelloFront
 (
 this
