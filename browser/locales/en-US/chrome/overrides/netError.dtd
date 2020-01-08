@@ -163,6 +163,17 @@ Information
 >
 <
 !
+ENTITY
+viewCertificate
+.
+label
+"
+View
+Certificate
+"
+>
+<
+!
 -
 -
 Specific
