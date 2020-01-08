@@ -52,6 +52,7 @@ memoize
 def
 perfile_number_of_chunks
 (
+is_try
 try_task_config
 head_repository
 head_rev
@@ -373,16 +374,20 @@ split
 "
 )
     
-try
+if
+is_try
 :
         
+try
+:
+            
 vcs
 =
 get_repository_object
 (
 GECKO
 )
-        
+            
 changed_files
 .
 update
@@ -396,25 +401,23 @@ AM
 '
 )
 )
-    
+        
 except
 InvalidRepoPath
 :
-        
+            
 vcs
 =
 None
-    
+        
 except
 CalledProcessError
 :
-        
+            
 return
 0
     
-if
-not
-changed_files
+else
 :
         
 changed_files
