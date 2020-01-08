@@ -92,6 +92,9 @@ DIRS
 '
 addon
 '
+'
+targets
+'
 ]
 DevToolsModules
 (
