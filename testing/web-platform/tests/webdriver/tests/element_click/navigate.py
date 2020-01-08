@@ -464,6 +464,7 @@ checkUnload
 (
 )
 {
+{
                     
 document
 .
@@ -482,6 +483,7 @@ checked
 true
 ;
                 
+}
 }
             
 <
@@ -629,11 +631,12 @@ execute_script
 "
         
 let
-[
 input
-]
 =
 arguments
+[
+0
+]
 ;
         
 return
@@ -826,11 +829,12 @@ execute_script
 "
         
 let
-[
 input
-]
 =
 arguments
+[
+0
+]
 ;
         
 rect
