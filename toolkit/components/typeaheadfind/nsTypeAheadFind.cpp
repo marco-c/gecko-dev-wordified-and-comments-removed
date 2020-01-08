@@ -4746,6 +4746,10 @@ else
 {
 if
 (
+!
+mEntireWord
+&
+&
 mTypeAheadBuffer
 .
 Length
