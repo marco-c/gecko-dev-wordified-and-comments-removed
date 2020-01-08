@@ -20,7 +20,7 @@ jsm
 let
 blockingByCookieBehavior
 =
-false
+true
 ;
 let
 blockingByContentBlocking
@@ -30,7 +30,7 @@ true
 let
 blockingByAllowList
 =
-false
+true
 ;
 let
 rootDir
