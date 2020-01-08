@@ -4604,7 +4604,7 @@ system_info
 os
 =
 "
-iOS
+iOS_test
 "
 ;
 system_info
@@ -4612,7 +4612,7 @@ system_info
 os_short
 =
 "
-ios
+ios_test
 "
 ;
 }

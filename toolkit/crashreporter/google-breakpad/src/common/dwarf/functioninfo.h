@@ -68,6 +68,9 @@ lowpc
 uint64
 highpc
 ;
+uint64
+ranges
+;
 }
 ;
 struct

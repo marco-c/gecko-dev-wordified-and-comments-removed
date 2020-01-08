@@ -294,6 +294,11 @@ dwarf_line_to_module
 cc
 '
 '
+dwarf_range_list_handler
+.
+cc
+'
+'
 language
 .
 cc

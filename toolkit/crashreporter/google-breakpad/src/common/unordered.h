@@ -52,6 +52,9 @@ struct
 unordered_map
 :
 public
+__gnu_cxx
+:
+:
 hash_map
 <
 T
@@ -80,6 +83,9 @@ struct
 unordered_set
 :
 public
+__gnu_cxx
+:
+:
 hash_set
 <
 T

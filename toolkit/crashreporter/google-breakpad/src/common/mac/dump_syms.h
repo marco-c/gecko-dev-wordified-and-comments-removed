@@ -256,6 +256,9 @@ class
 DumperLineToModule
 ;
 class
+DumperRangesHandler
+;
+class
 LoadCommandDumper
 ;
 SuperFatArch

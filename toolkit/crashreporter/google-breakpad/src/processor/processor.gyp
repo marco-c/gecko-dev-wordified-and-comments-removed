@@ -385,6 +385,16 @@ contained_range_map
 h
 '
 '
+convert_old_arm64_context
+.
+cc
+'
+'
+convert_old_arm64_context
+.
+h
+'
+'
 disassembler_x86
 .
 cc

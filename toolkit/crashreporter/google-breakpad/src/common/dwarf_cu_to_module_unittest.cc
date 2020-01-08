@@ -541,6 +541,7 @@ root_handler_
 file_context_
 &
 line_reader_
+nullptr
 &
 reporter_
 )
@@ -2682,6 +2683,11 @@ size
 function
 -
 >
+ranges
+[
+0
+]
+.
 size
 )
 ;
@@ -7697,6 +7703,7 @@ root1_handler
 fc
 &
 lr
+nullptr
 &
 reporter_
 )
@@ -7775,6 +7782,7 @@ root2_handler
 fc
 &
 lr
+nullptr
 &
 reporter_
 )
@@ -7871,6 +7879,7 @@ root3_handler
 fc
 &
 lr
+nullptr
 &
 reporter_
 )
@@ -8093,6 +8102,7 @@ root1_handler
 fc
 &
 lr
+nullptr
 &
 reporter_
 )
@@ -8171,6 +8181,7 @@ root2_handler
 fc
 &
 lr
+nullptr
 &
 reporter_
 )
@@ -8282,6 +8293,7 @@ root3_handler
 fc
 &
 lr
+nullptr
 &
 reporter_
 )
@@ -9201,11 +9213,24 @@ name
 "
 )
 ;
+Module
+:
+:
+Range
+range
+(
+0x19c45c30770c1eb0ULL
+0x89808a5bdfa0a6a3ULL
+)
+;
 function
 .
-size
-=
-0x89808a5bdfa0a6a3ULL
+ranges
+.
+push_back
+(
+range
+)
 ;
 function
 .
