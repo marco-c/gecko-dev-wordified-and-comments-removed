@@ -424,6 +424,14 @@ aSize
 )
 ;
 nsresult
+GetAltDataType
+(
+nsACString
+&
+aType
+)
+;
+nsresult
 GetElement
 (
 const
@@ -971,6 +979,9 @@ mAltDataOffset
 ;
 nsCString
 mKey
+;
+nsCString
+mAltDataType
 ;
 RefPtr
 <
