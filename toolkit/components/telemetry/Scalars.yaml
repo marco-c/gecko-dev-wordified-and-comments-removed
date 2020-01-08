@@ -5931,6 +5931,8 @@ bug_numbers
 :
 -
 1447302
+-
+1503568
 description
 :
 >
@@ -6003,7 +6005,7 @@ js
 expires
 :
 "
-65
+70
 "
 kind
 :
@@ -6050,6 +6052,8 @@ bug_numbers
 :
 -
 1447302
+-
+1503568
 description
 :
 >
@@ -6070,7 +6074,7 @@ tool
 expires
 :
 "
-65
+70
 "
 kind
 :
@@ -6110,6 +6114,8 @@ bug_numbers
 :
 -
 1447302
+-
+1503568
 description
 :
 >
@@ -6127,7 +6133,7 @@ opened
 expires
 :
 "
-65
+70
 "
 kind
 :
@@ -6167,6 +6173,8 @@ bug_numbers
 :
 -
 1447302
+-
+1503568
 description
 :
 >
@@ -6187,7 +6195,7 @@ panel
 expires
 :
 "
-65
+70
 "
 kind
 :
@@ -6227,6 +6235,8 @@ bug_numbers
 :
 -
 1447302
+-
+1503568
 description
 :
 >
@@ -6270,7 +6280,7 @@ etc
 expires
 :
 "
-65
+70
 "
 kind
 :
@@ -6313,6 +6323,8 @@ bug_numbers
 :
 -
 1447302
+-
+1503568
 description
 :
 >
@@ -6332,7 +6344,7 @@ panel
 expires
 :
 "
-65
+70
 "
 kind
 :
