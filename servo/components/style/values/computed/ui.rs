@@ -99,3 +99,15 @@ ComputedImageUrl
 Number
 >
 ;
+pub
+type
+ScrollbarColor
+=
+generics
+:
+:
+ScrollbarColor
+<
+Color
+>
+;
