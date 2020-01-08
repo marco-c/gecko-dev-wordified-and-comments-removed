@@ -2242,7 +2242,13 @@ ScanTXT
 (
 nsDependentSubstring
 (
+&
 aInString
+[
+descstart
+]
+pos
+-
 descstart
 )
 ~
