@@ -92,7 +92,7 @@ VsyncObserver
 aObserver
 )
 ;
-void
+bool
 OnVsync
 (
 )
