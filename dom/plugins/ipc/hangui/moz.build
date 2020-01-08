@@ -187,15 +187,6 @@ comctl32
 ]
 if
 (
-(
-CONFIG
-[
-'
-MOZ_PGO
-'
-]
-or
-(
 not
 CONFIG
 [
@@ -210,8 +201,6 @@ CONFIG
 ENABLE_CLANG_PLUGIN
 '
 ]
-)
-)
 and
 CONFIG
 [
