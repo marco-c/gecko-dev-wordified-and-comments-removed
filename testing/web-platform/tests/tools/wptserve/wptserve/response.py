@@ -35,7 +35,6 @@ get_logger
 from
 six
 import
-string_types
 binary_type
 text_type
 itervalues
@@ -1313,7 +1312,10 @@ isinstance
 self
 .
 content
-string_types
+(
+binary_type
+text_type
+)
 )
 :
             
@@ -2891,7 +2893,10 @@ self
 _response
 .
 content
-string_types
+(
+binary_type
+text_type
+)
 )
 and
             

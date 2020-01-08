@@ -31,7 +31,8 @@ traceback
 from
 six
 import
-string_types
+binary_type
+text_type
 from
 six
 .
@@ -513,7 +514,10 @@ if
 isinstance
 (
 methods
-string_types
+(
+binary_type
+text_type
+)
 )
 :
             

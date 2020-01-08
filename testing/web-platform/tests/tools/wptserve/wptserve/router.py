@@ -10,7 +10,8 @@ get_logger
 from
 six
 import
-string_types
+binary_type
+text_type
 any_method
 =
 object
@@ -958,17 +959,15 @@ if
 isinstance
 (
 methods
-string_types
+(
+binary_type
+text_type
+)
 )
 or
 methods
-in
-(
+is
 any_method
-"
-*
-"
-)
 :
             
 methods
