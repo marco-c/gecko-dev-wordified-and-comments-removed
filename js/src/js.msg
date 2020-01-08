@@ -8130,6 +8130,16 @@ immutable
 field
 "
 )
+MSG_DEF
+(
+JSMSG_TYPEDOBJECT_NOT_CONSTRUCTIBLE
+0
+JSEXN_TYPEERR
+"
+not
+constructible
+"
+)
 /
 /
 Array
