@@ -794,6 +794,14 @@ fuzzing
 /
 libfuzzer
 /
+tools
+/
+profiler
+/
+core
+/
+vtune
+/
 xpcom
 /
 build
