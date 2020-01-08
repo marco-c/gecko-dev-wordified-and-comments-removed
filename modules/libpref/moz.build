@@ -191,6 +191,11 @@ StaticPrefList
 h
 '
 '
+nsRelativeFilePref
+.
+h
+'
+'
 Preferences
 .
 h
