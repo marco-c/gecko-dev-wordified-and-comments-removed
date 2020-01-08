@@ -89,6 +89,11 @@ ast
 js
 '
 '
+coverage
+.
+js
+'
+'
 debuggee
 .
 js

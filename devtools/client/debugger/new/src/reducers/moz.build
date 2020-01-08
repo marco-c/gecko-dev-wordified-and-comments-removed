@@ -86,6 +86,11 @@ breakpoints
 js
 '
 '
+coverage
+.
+js
+'
+'
 debuggee
 .
 js

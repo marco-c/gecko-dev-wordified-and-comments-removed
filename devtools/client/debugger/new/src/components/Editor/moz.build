@@ -132,6 +132,11 @@ HighlightLines
 js
 '
 '
+HitMarker
+.
+js
+'
+'
 index
 .
 js

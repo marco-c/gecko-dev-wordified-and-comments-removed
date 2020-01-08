@@ -106,6 +106,15 @@ ast
 "
 ;
 import
+coverage
+from
+"
+.
+/
+coverage
+"
+;
+import
 projectTextSearch
 from
 "
@@ -174,6 +183,7 @@ pause
 ui
 fileSearch
 ast
+coverage
 projectTextSearch
 quickOpen
 sourceTree
