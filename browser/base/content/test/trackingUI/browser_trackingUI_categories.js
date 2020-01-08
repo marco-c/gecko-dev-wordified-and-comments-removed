@@ -724,6 +724,22 @@ showAllowedLabels
 "
 true
 ]
+[
+"
+browser
+.
+contentblocking
+.
+control
+-
+center
+.
+ui
+.
+showBlockedLabels
+"
+true
+]
 ]
 }
 )
@@ -808,7 +824,7 @@ contentBlocking
 .
 trackers
 .
-blocked
+blocking
 .
 label
 "
@@ -837,7 +853,7 @@ contentBlocking
 .
 trackers
 .
-blocked
+blocking
 .
 label
 "
@@ -1046,7 +1062,7 @@ contentBlocking
 .
 cookies
 .
-allBlocked
+blockingAll
 .
 label
 "
@@ -1075,7 +1091,7 @@ contentBlocking
 .
 cookies
 .
-allBlocked
+blockingAll
 .
 label
 "
@@ -1119,7 +1135,7 @@ contentBlocking
 .
 cookies
 .
-3rdPartyBlocked
+blocking3rdParty
 .
 label
 "
@@ -1148,7 +1164,7 @@ contentBlocking
 .
 cookies
 .
-3rdPartyBlocked
+blocking3rdParty
 .
 label
 "
@@ -1192,7 +1208,7 @@ contentBlocking
 .
 cookies
 .
-trackersBlocked
+blockingTrackers
 .
 label
 "
@@ -1221,7 +1237,7 @@ contentBlocking
 .
 cookies
 .
-trackersBlocked
+blockingTrackers
 .
 label
 "
@@ -1265,7 +1281,7 @@ contentBlocking
 .
 cookies
 .
-unvisitedBlocked
+blockingUnvisited
 .
 label
 "
@@ -1294,7 +1310,7 @@ contentBlocking
 .
 cookies
 .
-unvisitedBlocked
+blockingUnvisited
 .
 label
 "
