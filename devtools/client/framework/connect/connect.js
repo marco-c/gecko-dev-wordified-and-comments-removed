@@ -755,9 +755,8 @@ gClient
 .
 mainRoot
 .
-getProcess
+getMainProcess
 (
-0
 )
 .
 then

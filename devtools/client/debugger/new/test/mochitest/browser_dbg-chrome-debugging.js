@@ -346,9 +346,8 @@ gClient
 .
 mainRoot
 .
-getProcess
+getMainProcess
 (
-0
 )
 ;
 let

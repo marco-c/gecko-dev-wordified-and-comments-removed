@@ -621,9 +621,8 @@ client
 .
 mainRoot
 .
-getProcess
+getMainProcess
 (
-0
 )
 ;
 const
@@ -2030,9 +2029,8 @@ client
 .
 mainRoot
 .
-getProcess
+getMainProcess
 (
-0
 )
 .
 then
