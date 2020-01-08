@@ -107,7 +107,7 @@ actor
 "
 )
 ;
-ActorRegistry
+DebuggerServer
 .
 registerModule
 (
@@ -148,7 +148,7 @@ Assert
 .
 ok
 (
-ActorRegistry
+DebuggerServer
 .
 targetScopedActorFactories
 .
@@ -164,7 +164,7 @@ Assert
 .
 ok
 (
-ActorRegistry
+DebuggerServer
 .
 globalActorFactories
 .
@@ -374,7 +374,7 @@ Assert
 .
 ok
 (
-ActorRegistry
+DebuggerServer
 .
 globalActorFactories
 .
@@ -386,7 +386,7 @@ lazyActor
 )
 )
 ;
-ActorRegistry
+DebuggerServer
 .
 removeGlobalActor
 (
@@ -400,7 +400,7 @@ Assert
 ok
 (
 !
-ActorRegistry
+DebuggerServer
 .
 globalActorFactories
 .
@@ -433,7 +433,7 @@ Assert
 ok
 (
 !
-ActorRegistry
+DebuggerServer
 .
 targetScopedActorFactories
 .
@@ -450,7 +450,7 @@ Assert
 ok
 (
 !
-ActorRegistry
+DebuggerServer
 .
 globalActorFactories
 .
