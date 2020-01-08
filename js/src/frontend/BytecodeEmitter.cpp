@@ -12259,7 +12259,7 @@ MOZ_ASSERT
 mozilla
 :
 :
-NumberIsInt32
+NumberEqualsInt32
 (
 literal
 -
