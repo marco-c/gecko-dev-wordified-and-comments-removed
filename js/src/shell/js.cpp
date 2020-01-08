@@ -34647,7 +34647,7 @@ AllCompartments
 cx
 -
 >
-compartment
+realm
 (
 )
 NukeWindowReferences
@@ -49174,7 +49174,7 @@ CrossCompartmentWrappers
 targeting
 the
 current
-compartment
+realm
 .
 "
 )

@@ -1603,7 +1603,7 @@ realm
 )
 ;
 void
-NukeAllWrappersForCompartment
+NukeAllWrappersForRealm
 (
 JSContext
 *
@@ -1611,9 +1611,9 @@ cx
 JS
 :
 :
-Compartment
+Realm
 *
-compartment
+realm
 js
 :
 :
