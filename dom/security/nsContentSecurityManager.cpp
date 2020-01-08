@@ -1776,12 +1776,12 @@ NS_OK
 }
 nsIPrincipal
 *
-loadingPrincipal
+principal
 =
 aLoadInfo
 -
 >
-LoadingPrincipal
+TriggeringPrincipal
 (
 )
 ;
@@ -1795,7 +1795,7 @@ new
 nsCORSListenerProxy
 (
 aInAndOutListener
-loadingPrincipal
+principal
 aLoadInfo
 -
 >
