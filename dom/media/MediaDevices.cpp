@@ -592,7 +592,6 @@ auto
 device
 :
 *
-*
 aDevices
 )
 {
