@@ -1613,6 +1613,14 @@ addListener
 removeListener
 "
 ]
+[
+"
+addMessageListener
+"
+"
+removeMessageListener
+"
+]
 ]
 )
 {
