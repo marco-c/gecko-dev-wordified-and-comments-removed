@@ -381,7 +381,7 @@ done
 }
 "
 Performance
-Resouce
+Resource
 Entries
 in
 workers
