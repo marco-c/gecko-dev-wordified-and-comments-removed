@@ -149,10 +149,13 @@ BUG_COMPONENT
 =
 (
 '
+Firefox
+Build
+System
+'
+'
+Mach
 Core
-'
-'
-mach
 '
 )
 with
