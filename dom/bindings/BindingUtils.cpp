@@ -20941,15 +20941,12 @@ EntrySlotMustExist
 aSlotId
 )
 ;
-MOZ_ASSERT
-(
 JS
 :
 :
-ObjectIsNotGray
+AssertObjectIsNotGray
 (
 entrySlot
-)
 )
 ;
 return

@@ -1557,15 +1557,12 @@ true
 AutoDisableProxyCheck
 adpc
 ;
-MOZ_ASSERT
-(
 JS
 :
 :
-ObjectIsNotGray
+AssertObjectIsNotGray
 (
 obj
-)
 )
 ;
 if

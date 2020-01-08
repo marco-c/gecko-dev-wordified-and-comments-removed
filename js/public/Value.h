@@ -7166,8 +7166,8 @@ namespace
 JS
 {
 MOZ_ALWAYS_INLINE
-bool
-ValueIsNotGray
+void
+AssertValueIsNotGray
 (
 const
 Value
@@ -7177,7 +7177,6 @@ value
 {
 if
 (
-!
 value
 .
 isGCThing
@@ -7185,12 +7184,7 @@ isGCThing
 )
 )
 {
-return
-true
-;
-}
-return
-CellIsNotGray
+AssertCellIsNotGray
 (
 value
 .
@@ -7200,9 +7194,10 @@ toGCThing
 )
 ;
 }
+}
 MOZ_ALWAYS_INLINE
-bool
-ValueIsNotGray
+void
+AssertValueIsNotGray
 (
 const
 Heap
@@ -7213,8 +7208,7 @@ Value
 value
 )
 {
-return
-ValueIsNotGray
+AssertValueIsNotGray
 (
 value
 .

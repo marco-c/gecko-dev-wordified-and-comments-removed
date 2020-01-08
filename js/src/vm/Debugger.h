@@ -1891,8 +1891,8 @@ next
 ifdef
 DEBUG
 static
-bool
-thingIsNotGray
+void
+assertThingIsNotGray
 (
 Debugger
 *
@@ -1900,7 +1900,6 @@ dbg
 )
 {
 return
-true
 ;
 }
 #

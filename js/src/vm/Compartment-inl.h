@@ -274,15 +274,12 @@ isObject
 #
 ifdef
 DEBUG
-MOZ_ASSERT
-(
 JS
 :
 :
-ValueIsNotGray
+AssertValueIsNotGray
 (
 vp
-)
 )
 ;
 JS

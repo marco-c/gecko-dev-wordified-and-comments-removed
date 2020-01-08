@@ -466,15 +466,12 @@ CallbackKnownNotGray
 )
 const
 {
-MOZ_ASSERT
-(
 JS
 :
 :
-ObjectIsNotGray
+AssertObjectIsNotGray
 (
 mCallback
-)
 )
 ;
 return
