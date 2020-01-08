@@ -9454,14 +9454,6 @@ newInnerWindow
 {
 if
 (
-AntiTrackingCommon
-:
-:
-ShouldHonorContentBlockingCookieRestrictions
-(
-)
-&
-&
 StaticPrefs
 :
 :

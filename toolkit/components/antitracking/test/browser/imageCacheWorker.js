@@ -203,7 +203,6 @@ runExtraTests
 :
 false
 cookieBehavior
-blockingByContentBlocking
 blockingByContentBlockingRTUI
 blockingByAllowList
 callback
@@ -381,15 +380,6 @@ false
 expectedBlockingNotifications
 )
 ;
-let
-expected
-=
-blockingByContentBlocking
-?
-2
-:
-3
-;
 add_task
 (
 async
@@ -452,7 +442,7 @@ text
 is
 (
 text
-expected
+2
 "
 The
 image

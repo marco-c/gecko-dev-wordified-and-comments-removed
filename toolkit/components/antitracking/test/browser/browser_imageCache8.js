@@ -23,11 +23,6 @@ cookieBehavior
 BEHAVIOR_REJECT_TRACKER
 ;
 let
-blockingByContentBlocking
-=
-true
-;
-let
 blockingByContentBlockingRTUI
 =
 true

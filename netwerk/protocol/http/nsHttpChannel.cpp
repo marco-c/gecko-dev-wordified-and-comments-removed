@@ -3494,15 +3494,6 @@ if
 StaticPrefs
 :
 :
-browser_contentblocking_enabled
-(
-)
-|
-|
-!
-StaticPrefs
-:
-:
 browser_fastblock_enabled
 (
 )
