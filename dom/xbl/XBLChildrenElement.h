@@ -212,6 +212,19 @@ child
 mInsertedChildren
 )
 {
+if
+(
+child
+-
+>
+GetXBLInsertionPoint
+(
+)
+=
+=
+this
+)
+{
 child
 -
 >
@@ -220,6 +233,7 @@ SetXBLInsertionPoint
 nullptr
 )
 ;
+}
 }
 mInsertedChildren
 .
