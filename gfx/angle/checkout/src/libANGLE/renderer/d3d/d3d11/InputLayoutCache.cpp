@@ -313,6 +313,9 @@ uint8_t
 vertexFormatType
 ;
 uint8_t
+dummyPadding
+;
+uint32_t
 divisor
 ;
 }
@@ -428,11 +431,17 @@ vertexFormatType
 ;
 packedAttrib
 .
+dummyPadding
+=
+0u
+;
+packedAttrib
+.
 divisor
 =
 static_cast
 <
-uint8_t
+uint32_t
 >
 (
 divisor
@@ -513,7 +522,7 @@ static_assert
 (
 sizeof
 (
-uint32_t
+uint64_t
 )
 =
 =
@@ -525,7 +534,7 @@ PackedAttribute
 PackedAttributes
 must
 be
-32
+64
 -
 bits
 exactly
@@ -545,7 +554,7 @@ gl
 :
 bitCast
 <
-uint32_t
+uint64_t
 >
 (
 packedAttrib
