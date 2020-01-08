@@ -158,6 +158,7 @@ JS
 GCVector
 <
 IdValuePair
+8
 >
 ;
 }
