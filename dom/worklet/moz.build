@@ -133,6 +133,11 @@ WorkletGlobalScope
 h
 '
 '
+WorkletImpl
+.
+h
+'
+'
 WorkletPrincipal
 .
 h
@@ -164,6 +169,11 @@ cpp
 '
 '
 WorkletGlobalScope
+.
+cpp
+'
+'
+WorkletImpl
 .
 cpp
 '
