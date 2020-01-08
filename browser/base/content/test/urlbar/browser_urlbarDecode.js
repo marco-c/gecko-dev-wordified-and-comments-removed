@@ -317,11 +317,6 @@ UrlbarUtils
 MATCH_TYPE
 .
 TAB_SWITCH
-UrlbarUtils
-.
-MATCH_SOURCE
-.
-TABS
 {
 url
 }
