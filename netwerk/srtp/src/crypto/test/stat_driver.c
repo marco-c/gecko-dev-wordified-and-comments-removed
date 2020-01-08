@@ -133,14 +133,14 @@ srtp_aes_icm_256
 ;
 #
 ifdef
-OPENSSL
+GCM
 extern
 srtp_cipher_type_t
-srtp_aes_gcm_128_openssl
+srtp_aes_gcm_128
 ;
 extern
 srtp_cipher_type_t
-srtp_aes_gcm_256_openssl
+srtp_aes_gcm_256
 ;
 #
 endif
@@ -949,7 +949,7 @@ num_fail
 }
 #
 ifdef
-OPENSSL
+GCM
 {
 printf
 (
@@ -997,7 +997,7 @@ err_check
 srtp_cipher_type_alloc
 (
 &
-srtp_aes_gcm_128_openssl
+srtp_aes_gcm_128
 &
 c
 SRTP_AES_GCM_128_KEY_LEN_WSALT
@@ -1237,7 +1237,7 @@ err_check
 srtp_cipher_type_alloc
 (
 &
-srtp_aes_gcm_256_openssl
+srtp_aes_gcm_256
 &
 c
 SRTP_AES_GCM_256_KEY_LEN_WSALT

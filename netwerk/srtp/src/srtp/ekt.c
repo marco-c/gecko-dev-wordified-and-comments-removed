@@ -269,7 +269,7 @@ key_len
 {
 #
 ifndef
-OPENSSL
+GCM
 srtp_aes_expanded_key_t
 expanded_key
 ;

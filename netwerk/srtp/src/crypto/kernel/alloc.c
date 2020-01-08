@@ -25,7 +25,7 @@ crypto_kernel
 h
 "
 srtp_debug_module_t
-mod_alloc
+srtp_mod_alloc
 =
 {
 0
@@ -52,6 +52,16 @@ void
 *
 ptr
 ;
+if
+(
+!
+size
+)
+{
+return
+NULL
+;
+}
 ptr
 =
 calloc
@@ -67,7 +77,7 @@ ptr
 {
 debug_print
 (
-mod_alloc
+srtp_mod_alloc
 "
 (
 location
@@ -85,7 +95,7 @@ else
 {
 debug_print
 (
-mod_alloc
+srtp_mod_alloc
 "
 allocation
 failed
@@ -117,7 +127,7 @@ ptr
 {
 debug_print
 (
-mod_alloc
+srtp_mod_alloc
 "
 (
 location

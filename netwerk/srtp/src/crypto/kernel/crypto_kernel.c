@@ -151,7 +151,7 @@ status
 srtp_crypto_kernel_load_debug_module
 (
 &
-mod_stat
+srtp_mod_stat
 )
 ;
 if
@@ -168,7 +168,7 @@ status
 srtp_crypto_kernel_load_debug_module
 (
 &
-mod_alloc
+srtp_mod_alloc
 )
 ;
 if
@@ -253,7 +253,7 @@ status
 }
 #
 ifdef
-OPENSSL
+GCM
 status
 =
 srtp_crypto_kernel_load_cipher_type
@@ -277,7 +277,7 @@ status
 srtp_crypto_kernel_load_cipher_type
 (
 &
-srtp_aes_gcm_128_openssl
+srtp_aes_gcm_128
 SRTP_AES_GCM_128
 )
 ;
@@ -295,7 +295,7 @@ status
 srtp_crypto_kernel_load_cipher_type
 (
 &
-srtp_aes_gcm_256_openssl
+srtp_aes_gcm_256
 SRTP_AES_GCM_256
 )
 ;
@@ -1676,6 +1676,15 @@ new
 if
 (
 new_dm
+=
+=
+NULL
+|
+|
+new_dm
+-
+>
+name
 =
 =
 NULL

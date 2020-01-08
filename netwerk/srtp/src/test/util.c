@@ -23,6 +23,8 @@ char
 bit_string
 [
 MAX_PRINT_STRING_LEN
++
+1
 ]
 ;
 static
@@ -508,8 +510,6 @@ MAX_PRINT_STRING_LEN
 length
 =
 MAX_PRINT_STRING_LEN
--
-1
 ;
 }
 for

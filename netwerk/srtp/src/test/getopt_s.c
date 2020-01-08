@@ -62,11 +62,13 @@ max_string_len
 )
 {
 return
-'
-?
-'
+GETOPT_NOT_FOUND
 ;
 }
+max_string_len
+-
+-
+;
 if
 (
 *

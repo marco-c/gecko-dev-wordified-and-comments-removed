@@ -18,7 +18,7 @@ stat
 h
 "
 srtp_debug_module_t
-mod_stat
+srtp_mod_stat
 =
 {
 0
@@ -82,7 +82,7 @@ data
 }
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 bit
 count
@@ -255,7 +255,7 @@ poker
 ;
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 poker
 test
@@ -433,7 +433,7 @@ state
 {
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 >
 25
@@ -468,7 +468,7 @@ state
 {
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 >
 25
@@ -539,7 +539,7 @@ state
 {
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 >
 25
@@ -607,7 +607,7 @@ state
 {
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 >
 25
@@ -644,14 +644,14 @@ data
 }
 if
 (
-mod_stat
+srtp_mod_stat
 .
 on
 )
 {
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 runs
 test
@@ -675,7 +675,7 @@ i
 )
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 runs
 [
@@ -706,7 +706,7 @@ i
 )
 debug_print
 (
-mod_stat
+srtp_mod_stat
 "
 gaps
 [
