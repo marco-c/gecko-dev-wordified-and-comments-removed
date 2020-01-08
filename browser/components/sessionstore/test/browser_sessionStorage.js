@@ -654,10 +654,11 @@ correctly
 "
 )
 ;
-browser2
+BrowserTestUtils
 .
 loadURI
 (
+browser2
 "
 http
 :
@@ -757,10 +758,11 @@ discarded
 "
 )
 ;
-browser2
+BrowserTestUtils
 .
 loadURI
 (
+browser2
 "
 about
 :

@@ -112,10 +112,11 @@ remote
 "
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 PAGE_1
 )
 ;
@@ -125,10 +126,11 @@ stop
 (
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 PAGE_2
 )
 ;

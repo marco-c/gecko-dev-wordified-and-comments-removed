@@ -157,12 +157,13 @@ linkedBrowser
 true
 )
 ;
-tab2
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab2
+.
+linkedBrowser
 URL_PRIVATE
 )
 ;

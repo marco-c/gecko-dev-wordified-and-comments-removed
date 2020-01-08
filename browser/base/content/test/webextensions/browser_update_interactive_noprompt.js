@@ -90,12 +90,13 @@ updateVersion
 "
 )
 {
-gBrowser
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
+.
+selectedBrowser
 "
 about
 :

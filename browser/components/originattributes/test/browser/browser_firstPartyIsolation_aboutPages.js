@@ -746,10 +746,11 @@ html
 iframe
 >
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 DATA_URI
 )
 ;

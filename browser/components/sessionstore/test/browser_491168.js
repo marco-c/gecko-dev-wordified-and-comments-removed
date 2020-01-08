@@ -158,6 +158,17 @@ org
 "
 {
 referrerURI
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+createNullPrincipal
+(
+{
+}
+)
 }
 )
 ;

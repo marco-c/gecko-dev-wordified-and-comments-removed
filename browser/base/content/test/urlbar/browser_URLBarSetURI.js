@@ -262,12 +262,13 @@ function
 tab
 )
 {
-tab
-.
-linkedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+tab
+.
+linkedBrowser
 "
 http
 :
