@@ -213,6 +213,9 @@ DOMString
 mediaType
 ;
 DOMString
+kind
+;
+DOMString
 remoteId
 ;
 boolean
