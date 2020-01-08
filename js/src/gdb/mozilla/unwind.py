@@ -82,7 +82,10 @@ SizeOfFramePrefix
 {
     
 '
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 '
 :
 '
@@ -90,7 +93,10 @@ ExitFrameLayout
 '
     
 '
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 '
 :
 '
@@ -98,7 +104,10 @@ JitFrameLayout
 '
     
 '
-JitFrame_BaselineStub
+FrameType
+:
+:
+BaselineStub
 '
 :
 '
@@ -106,7 +115,10 @@ BaselineStubFrameLayout
 '
     
 '
-JitFrame_IonStub
+FrameType
+:
+:
+IonStub
 '
 :
 '
@@ -114,7 +126,10 @@ JitStubFrameLayout
 '
     
 '
-JitFrame_CppToJSJit
+FrameType
+:
+:
+CppToJSJit
 '
 :
 '
@@ -122,7 +137,10 @@ JitFrameLayout
 '
     
 '
-JitFrame_WasmToJSJit
+FrameType
+:
+:
+WasmToJSJit
 '
 :
 '
@@ -130,7 +148,10 @@ JitFrameLayout
 '
     
 '
-JitFrame_Rectifier
+FrameType
+:
+:
+Rectifier
 '
 :
 '
@@ -138,7 +159,10 @@ RectifierFrameLayout
 '
     
 '
-JitFrame_IonAccessorIC
+FrameType
+:
+:
+IonAccessorIC
 '
 :
 '
@@ -146,7 +170,10 @@ IonAccessorICFrameLayout
 '
     
 '
-JitFrame_IonICCall
+FrameType
+:
+:
+IonICCall
 '
 :
 '
@@ -154,7 +181,10 @@ IonICCallFrameLayout
 '
     
 '
-JitFrame_Exit
+FrameType
+:
+:
+Exit
 '
 :
 '
@@ -162,7 +192,10 @@ ExitFrameLayout
 '
     
 '
-JitFrame_Bailout
+FrameType
+:
+:
+Bailout
 '
 :
 '
@@ -2511,7 +2544,7 @@ self
 .
 typecache
 .
-JitFrame_CppToJSJit
+CppToJSJit
 :
             
 header_size
@@ -2812,7 +2845,7 @@ self
 .
 typecache
 .
-JitFrame_Exit
+Exit
         
 return
 self
@@ -2849,7 +2882,10 @@ sp
 name
 =
 '
-JitFrame_CppToJSJit
+FrameType
+:
+:
+CppToJSJit
 '
 )
         
@@ -2947,7 +2983,7 @@ self
 .
 typecache
 .
-JitFrame_CppToJSJit
+CppToJSJit
 :
                 
 return

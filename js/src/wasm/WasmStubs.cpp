@@ -7637,7 +7637,10 @@ descriptor
 MakeFrameDescriptor
 (
 sizeOfThisAndArgsAndPadding
-JitFrame_WasmToJSJit
+FrameType
+:
+:
+WasmToJSJit
 WasmToJSJitFrameLayout
 :
 :

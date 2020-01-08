@@ -3270,7 +3270,10 @@ type
 jit
 :
 :
-JitFrame_WasmToJSJit
+FrameType
+:
+:
+WasmToJSJit
 )
 return
 ;
@@ -9827,7 +9830,10 @@ frameType
 jit
 :
 :
-JitFrame_WasmToJSJit
+FrameType
+:
+:
+WasmToJSJit
 )
 {
 wasm

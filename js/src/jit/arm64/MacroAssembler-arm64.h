@@ -13881,7 +13881,10 @@ MakeFrameDescriptor
 framePushed
 (
 )
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 ExitFrameLayout
 :
 :

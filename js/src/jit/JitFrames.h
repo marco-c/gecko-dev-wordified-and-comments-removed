@@ -987,7 +987,7 @@ headerSize
 {
 MOZ_ASSERT
 (
-headerSize
+frameSize
 <
 FRAMESIZE_MASK
 )
@@ -1016,7 +1016,10 @@ headerSize
 FRAME_HEADER_SIZE_SHIFT
 )
 |
+uint32_t
+(
 type
+)
 ;
 }
 inline
@@ -1054,7 +1057,10 @@ type
 )
 =
 =
-JitFrame_Exit
+FrameType
+:
+:
+Exit
 )
 ;
 +
@@ -1216,7 +1222,10 @@ FRAMETYPE_MASK
 descriptor_
 |
 =
+uintptr_t
+(
 type
+)
 ;
 }
 size_t

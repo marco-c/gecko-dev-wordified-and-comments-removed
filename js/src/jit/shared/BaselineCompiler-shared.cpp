@@ -440,7 +440,10 @@ MakeFrameDescriptor
 frameFullSize
 +
 argSize
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 ExitFrameLayout
 :
 :
@@ -488,7 +491,10 @@ MakeFrameDescriptor
 frameBaseSize
 +
 argSize
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 ExitFrameLayout
 :
 :
@@ -618,7 +624,10 @@ masm
 makeFrameDescriptor
 (
 ICTailCallReg
-JitFrame_BaselineJS
+FrameType
+:
+:
+BaselineJS
 ExitFrameLayout
 :
 :

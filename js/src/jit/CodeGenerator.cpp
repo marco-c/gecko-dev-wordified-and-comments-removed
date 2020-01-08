@@ -27524,7 +27524,10 @@ masm
 framePushed
 (
 )
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 JitFrameLayout
 :
 :
@@ -28304,7 +28307,10 @@ masm
 framePushed
 (
 )
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 JitFrameLayout
 :
 :
@@ -29788,7 +29794,10 @@ masm
 makeFrameDescriptor
 (
 stackSpace
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 JitFrameLayout
 :
 :

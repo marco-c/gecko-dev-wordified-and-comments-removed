@@ -7387,7 +7387,10 @@ makeFrameDescriptor
 (
 *
 dynStack
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 ExitFrameLayout
 :
 :
@@ -7411,7 +7414,10 @@ masm
 .
 pushStaticFrameDescriptor
 (
-JitFrame_IonJS
+FrameType
+:
+:
+IonJS
 ExitFrameLayout
 :
 :
