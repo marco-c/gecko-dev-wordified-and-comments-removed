@@ -3,6 +3,13 @@ use
 strict
 "
 ;
+SimpleTest
+.
+ignoreAllUncaughtExceptions
+(
+true
+)
+;
 const
 kKeyList
 =
