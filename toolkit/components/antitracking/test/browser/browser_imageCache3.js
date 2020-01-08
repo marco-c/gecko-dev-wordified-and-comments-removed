@@ -25,6 +25,16 @@ BEHAVIOR_REJECT_TRACKER
 let
 blockingByContentBlocking
 =
+true
+;
+let
+blockingByContentBlockingUI
+=
+true
+;
+let
+blockingByContentBlockingRTUI
+=
 false
 ;
 let
