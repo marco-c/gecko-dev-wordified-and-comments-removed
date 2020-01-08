@@ -160,6 +160,11 @@ MACRO
 (
 asyncIterator
 )
+\
+MACRO
+(
+matchAll
+)
 enum
 class
 SymbolCode

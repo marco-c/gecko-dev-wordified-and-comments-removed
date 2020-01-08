@@ -2758,6 +2758,17 @@ RegExpSearcher
 \
 MACRO
 (
+RegExpStringIterator
+RegExpStringIterator
+"
+RegExp
+String
+Iterator
+"
+)
+\
+MACRO
+(
 RegExpTester
 RegExpTester
 "
