@@ -10940,6 +10940,12 @@ Unless
 {
 RunningX64
 }
+{
+AndUnless
+}
+{
+IsNativeARM64
+}
 MessageBox
 MB_OKCANCEL
 |
