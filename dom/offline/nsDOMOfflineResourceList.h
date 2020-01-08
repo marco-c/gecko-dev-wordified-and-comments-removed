@@ -453,15 +453,7 @@ ErrorResult
 &
 aRv
 )
-{
-aRv
-=
-MozAdd
-(
-aURI
-)
 ;
-}
 void
 MozRemove
 (
