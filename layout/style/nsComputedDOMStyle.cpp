@@ -1531,10 +1531,6 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
-CSSEnabledState
-:
-:
-eForAllContent
 )
 ;
 const
@@ -2792,7 +2788,7 @@ aProp
 CSSEnabledState
 :
 :
-eInChrome
+eForAllContent
 )
 {
 CollectImageURLsForProperty
@@ -3001,10 +2997,6 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
-CSSEnabledState
-:
-:
-eInChrome
 )
 ;
 if

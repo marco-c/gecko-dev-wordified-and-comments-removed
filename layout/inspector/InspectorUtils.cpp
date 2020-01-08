@@ -1921,10 +1921,6 @@ nsCSSProps
 LookupProperty
 (
 aProperty
-CSSEnabledState
-:
-:
-eForAllContent
 )
 ;
 if

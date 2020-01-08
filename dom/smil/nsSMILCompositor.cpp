@@ -563,10 +563,6 @@ mKey
 .
 mAttributeName
 )
-CSSEnabledState
-:
-:
-eForAllContent
 )
 ;
 if
