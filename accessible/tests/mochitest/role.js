@@ -251,6 +251,13 @@ nsIAccessibleRole
 ROLE_FORM
 ;
 const
+ROLE_FORM_LANDMARK
+=
+nsIAccessibleRole
+.
+ROLE_FORM_LANDMARK
+;
+const
 ROLE_GRAPHIC
 =
 nsIAccessibleRole
