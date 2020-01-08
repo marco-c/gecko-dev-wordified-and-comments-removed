@@ -112,5 +112,9 @@ attribute
 DOMString
 value
 ;
+attribute
+DOMString
+accessKey
+;
 }
 ;
