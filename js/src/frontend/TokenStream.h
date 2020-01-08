@@ -275,6 +275,9 @@ AutoKeepAtoms
 namespace
 frontend
 {
+class
+FunctionBox
+;
 struct
 TokenPos
 {
@@ -7280,6 +7283,16 @@ cx
 )
 ;
 }
+inline
+void
+setFunctionStart
+(
+FunctionBox
+*
+funbox
+)
+const
+;
 }
 ;
 template
