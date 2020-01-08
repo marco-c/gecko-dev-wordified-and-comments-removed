@@ -2414,6 +2414,8 @@ Compartment
 compartment
 )
 {
+if
+(
 CompartmentPrivate
 *
 priv
@@ -2425,12 +2427,8 @@ Get
 (
 compartment
 )
-;
-MOZ_ASSERT
-(
-priv
 )
-;
+{
 priv
 -
 >
@@ -2440,6 +2438,7 @@ SetChangedDocumentDomain
 (
 )
 ;
+}
 }
 JSObject
 *
