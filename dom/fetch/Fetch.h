@@ -482,6 +482,14 @@ ErrorResult
 aRv
 )
 ;
+const
+nsAString
+&
+BodyLocalPath
+(
+)
+const
+;
 void
 MaybeTeeReadableStreamBody
 (
