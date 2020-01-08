@@ -525,7 +525,7 @@ formattedParams
 ;
 }
 function
-processScreenshot
+saveScreenshot
 (
 window
 args
@@ -558,14 +558,11 @@ message
 simulateCameraShutter
 (
 window
-.
-document
 )
 ;
 return
-saveScreenshot
+save
 (
-window
 args
 value
 )
@@ -574,16 +571,9 @@ value
 function
 simulateCameraShutter
 (
-document
+window
 )
 {
-const
-window
-=
-document
-.
-defaultView
-;
 if
 (
 Services
@@ -641,9 +631,8 @@ play
 }
 async
 function
-saveScreenshot
+save
 (
-window
 args
 image
 )
@@ -684,7 +673,6 @@ result
 =
 saveToClipboard
 (
-window
 image
 .
 data
@@ -709,7 +697,6 @@ result
 await
 saveToFile
 (
-window
 image
 )
 ;
@@ -728,7 +715,6 @@ results
 function
 saveToClipboard
 (
-window
 base64URI
 )
 {
@@ -944,7 +930,6 @@ async
 function
 saveToFile
 (
-window
 image
 )
 {
@@ -1133,5 +1118,5 @@ module
 .
 exports
 =
-processScreenshot
+saveScreenshot
 ;
