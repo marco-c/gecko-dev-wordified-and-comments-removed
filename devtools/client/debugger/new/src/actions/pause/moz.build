@@ -124,11 +124,6 @@ resumed
 js
 '
 '
-selectComponent
-.
-js
-'
-'
 selectFrame
 .
 js

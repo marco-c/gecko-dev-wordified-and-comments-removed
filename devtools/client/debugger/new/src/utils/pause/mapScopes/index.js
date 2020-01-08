@@ -1778,6 +1778,15 @@ if
 (
 !
 hadApplicableBindings
+&
+&
+name
+!
+=
+=
+"
+this
+"
 )
 {
 return

@@ -1439,10 +1439,12 @@ comment
 }
 .
 tree
-{
-overflow
 :
-auto
+focus
+{
+outline
+:
+none
 ;
 }
 .

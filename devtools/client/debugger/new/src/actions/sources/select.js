@@ -713,7 +713,6 @@ addTab
 source
 .
 url
-0
 )
 )
 ;
