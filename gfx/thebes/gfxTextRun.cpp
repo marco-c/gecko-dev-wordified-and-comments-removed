@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxHarfBuzzShaper
+.
+h
+"
+#
+include
+"
 gfxPlatformFontList
 .
 h

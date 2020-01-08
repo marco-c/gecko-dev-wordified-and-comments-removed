@@ -792,6 +792,9 @@ gfxPattern
 :
 SetSamplingFilter
 (
+mozilla
+:
+:
 gfx
 :
 :
@@ -871,6 +874,9 @@ SURFACE
 )
 {
 return
+mozilla
+:
+:
 gfx
 :
 :
