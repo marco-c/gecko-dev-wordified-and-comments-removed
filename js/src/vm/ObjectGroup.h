@@ -2002,6 +2002,7 @@ findAllocationSite
 JSContext
 *
 cx
+const
 ObjectGroup
 *
 group
@@ -2275,6 +2276,7 @@ ObjectGroupRealm
 &
 get
 (
+const
 ObjectGroup
 *
 group

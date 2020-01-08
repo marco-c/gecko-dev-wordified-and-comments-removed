@@ -734,6 +734,7 @@ TypeSet
 :
 TypeString
 (
+const
 TypeSet
 :
 :
@@ -883,6 +884,7 @@ TypeSet
 :
 ObjectGroupString
 (
+const
 ObjectGroup
 *
 group
