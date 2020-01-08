@@ -146,11 +146,6 @@ nsIFormControlFrame
 h
 '
 '
-nsIListControlFrame
-.
-h
-'
-'
 nsISelectControlFrame
 .
 h

@@ -157,13 +157,6 @@ h
 #
 include
 "
-nsIListControlFrame
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

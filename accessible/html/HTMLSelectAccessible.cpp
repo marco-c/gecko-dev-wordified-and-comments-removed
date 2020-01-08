@@ -109,7 +109,7 @@ h
 #
 include
 "
-nsIListControlFrame
+nsListControlFrame
 .
 h
 "
@@ -354,7 +354,7 @@ CurrentItem
 )
 const
 {
-nsIListControlFrame
+nsListControlFrame
 *
 listControlFrame
 =

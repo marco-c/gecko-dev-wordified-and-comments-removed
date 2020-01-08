@@ -100,7 +100,7 @@ h
 #
 include
 "
-nsIListControlFrame
+nsListControlFrame
 .
 h
 "
@@ -202,13 +202,6 @@ h
 include
 "
 nsIScrollableFrame
-.
-h
-"
-#
-include
-"
-nsListControlFrame
 .
 h
 "

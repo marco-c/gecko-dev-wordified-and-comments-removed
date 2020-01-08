@@ -85,7 +85,7 @@ nsThreadUtils
 h
 "
 class
-nsIListControlFrame
+nsListControlFrame
 ;
 class
 nsComboboxDisplayFrame
@@ -968,7 +968,7 @@ nsIFrame
 *
 mDropdownFrame
 ;
-nsIListControlFrame
+nsListControlFrame
 *
 mListControlFrame
 ;

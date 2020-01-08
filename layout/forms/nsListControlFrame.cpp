@@ -1122,11 +1122,11 @@ nsIFormControlFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIListControlFrame
+nsISelectControlFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsISelectControlFrame
+nsListControlFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (

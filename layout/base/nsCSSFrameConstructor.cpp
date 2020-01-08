@@ -330,7 +330,7 @@ h
 #
 include
 "
-nsIListControlFrame
+nsListControlFrame
 .
 h
 "
@@ -12506,7 +12506,7 @@ mPresShell
 listStyle
 )
 ;
-nsIListControlFrame
+nsListControlFrame
 *
 listControlFrame
 =
