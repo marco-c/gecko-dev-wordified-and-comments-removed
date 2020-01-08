@@ -1233,6 +1233,15 @@ checking
 config
 .
 mk
+ifdef
+MOZ_PROFILE_GENERATE
+MOZ_LTO_CFLAGS
+:
+=
+MOZ_LTO_LDFLAGS
+:
+=
+endif
 LDFLAGS
 =
 (
