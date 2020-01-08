@@ -3241,9 +3241,9 @@ stub_
 HandleValue
 lhs
 HandleValue
-receiver
-HandleValue
 rhs
+HandleValue
+receiver
 MutableHandleValue
 res
 )
