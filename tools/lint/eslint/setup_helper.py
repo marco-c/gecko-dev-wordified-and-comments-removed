@@ -22,6 +22,10 @@ import
 subprocess
 import
 sys
+import
+shutil
+import
+tempfile
 from
 distutils
 .
@@ -550,6 +554,7 @@ node_modules_path
 )
     
 npm_path
+version
 =
 get_node_or_npm_path
 (
@@ -578,6 +583,69 @@ error
 "
 ]
     
+package_lock_json_path
+=
+os
+.
+path
+.
+join
+(
+get_project_root
+(
+)
+"
+package
+-
+lock
+.
+json
+"
+)
+    
+package_lock_json_tmp_path
+=
+os
+.
+path
+.
+join
+(
+tempfile
+.
+gettempdir
+(
+)
+"
+package
+-
+lock
+.
+json
+.
+tmp
+"
+)
+    
+npm_is_older_version
+=
+version
+<
+LooseVersion
+(
+"
+5
+.
+8
+.
+0
+"
+)
+    
+if
+npm_is_older_version
+:
+        
 cmd
 =
 [
@@ -585,14 +653,25 @@ npm_path
 "
 install
 "
+]
+        
+shutil
+.
+copy2
+(
+package_lock_json_path
+package_lock_json_tmp_path
+)
+    
+else
+:
+        
+cmd
+=
+[
+npm_path
 "
--
--
-no
--
-package
--
-lock
+ci
 "
 ]
     
@@ -633,8 +712,8 @@ cmd
 )
 )
     
-if
-not
+result
+=
 call_process
 (
 "
@@ -642,6 +721,22 @@ eslint
 "
 cmd
 )
+    
+if
+npm_is_older_version
+:
+        
+shutil
+.
+move
+(
+package_lock_json_tmp_path
+package_lock_json_path
+)
+    
+if
+not
+result
 :
         
 return
@@ -1936,14 +2031,7 @@ filename
         
 return
 None
-    
-if
-not
-minversion
-:
-        
-return
-node_or_npm_path
+None
     
 version_str
 =
@@ -1967,6 +2055,9 @@ version_str
 )
     
 if
+not
+minversion
+or
 version
 >
 minversion
@@ -1974,6 +2065,7 @@ minversion
         
 return
 node_or_npm_path
+version
     
 if
 filename
@@ -2016,6 +2108,7 @@ minversion
 )
     
 return
+None
 None
 def
 get_version
