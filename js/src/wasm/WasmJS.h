@@ -46,6 +46,9 @@ WasmFunctionScope
 class
 WasmInstanceScope
 ;
+class
+SharedArrayRawBuffer
+;
 namespace
 wasm
 {
