@@ -3880,6 +3880,15 @@ IsIMEComposing
 )
 |
 |
+TextEditorRef
+(
+)
+.
+IsUndoRedoEnabled
+(
+)
+|
+|
 aMaxLength
 !
 =
