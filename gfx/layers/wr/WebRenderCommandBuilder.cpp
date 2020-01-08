@@ -4885,6 +4885,13 @@ GetBlobItemData
 item
 )
 ;
+data
+-
+>
+mInvalid
+=
+false
+;
 }
 else
 {
@@ -7408,13 +7415,6 @@ GetBlobItemDataForGroup
 aItem
 aGroup
 )
-;
-data
--
->
-mInvalid
-=
-false
 ;
 if
 (
