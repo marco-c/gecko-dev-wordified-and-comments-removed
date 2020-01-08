@@ -170,6 +170,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 f235ef76
@@ -212,6 +213,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 b8c31bba
@@ -254,6 +256,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 978ff520
@@ -323,6 +326,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 336a9590
@@ -365,6 +369,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 2fc229a0
@@ -407,6 +412,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 7994a6e0
@@ -449,6 +455,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 5bf039c0
@@ -491,6 +498,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 88655640
@@ -537,6 +545,7 @@ JavaScript
 /
 [
 scriptable
+builtinclass
 uuid
 (
 c814ca20
@@ -591,6 +600,7 @@ Sandbox
 /
 [
 scriptable
+builtinclass
 uuid
 (
 4f8ae0dc
@@ -713,6 +723,7 @@ utils
 /
 [
 scriptable
+builtinclass
 uuid
 (
 86003fe3
@@ -4664,6 +4675,7 @@ chrome
 /
 [
 scriptable
+builtinclass
 uuid
 (
 eeeada2f
@@ -4709,6 +4721,7 @@ result
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 aa28aaf6

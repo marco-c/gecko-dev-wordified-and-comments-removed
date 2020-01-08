@@ -480,6 +480,7 @@ nsIObjectOutputStream
 *
 /
 [
+builtinclass
 uuid
 (
 73e6ff4a
@@ -510,6 +511,7 @@ GetJSObject
 }
 ;
 [
+builtinclass
 uuid
 (
 e787be29
@@ -655,6 +657,7 @@ aError
 %
 }
 [
+builtinclass
 uuid
 (
 3a01b0d6
@@ -1570,7 +1573,7 @@ nsIXPCWrappedJSObjectGetter
 *
 /
 [
-scriptable
+builtinclass
 uuid
 (
 254bb2e0

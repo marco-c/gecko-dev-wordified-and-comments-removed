@@ -109,6 +109,7 @@ nsIObserver
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 19533e7b
