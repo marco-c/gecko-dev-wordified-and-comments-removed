@@ -867,6 +867,14 @@ aData
 ;
 break
 ;
+case
+DocAccessibleWrap
+:
+:
+eBatch_FocusPath
+:
+break
+;
 default
 :
 MOZ_ASSERT_UNREACHABLE
