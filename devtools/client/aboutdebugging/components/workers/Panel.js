@@ -465,7 +465,9 @@ updateWorkers
 ;
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 processListChanged
@@ -541,7 +543,9 @@ client
 ;
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 processListChanged

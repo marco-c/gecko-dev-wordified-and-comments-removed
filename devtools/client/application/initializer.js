@@ -396,7 +396,9 @@ this
 .
 client
 .
-addListener
+mainRoot
+.
+on
 (
 "
 processListChanged
@@ -647,7 +649,9 @@ this
 .
 client
 .
-removeListener
+mainRoot
+.
+off
 (
 "
 processListChanged
