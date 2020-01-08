@@ -2,6 +2,15 @@
 "
 browser
 .
+newtabpage
+.
+enabled
+"
+:
+true
+"
+browser
+.
 urlbar
 .
 userMadeSearchSuggestionsChoice
