@@ -4721,6 +4721,8 @@ try
         
 from
 mozlog
+.
+structuredlog
 import
 StructuredLogger
         
