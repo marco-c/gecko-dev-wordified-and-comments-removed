@@ -90,12 +90,12 @@ UNIFIED_SOURCES
 =
 [
 '
-nsAuthFactory
+nsAuthGSSAPI
 .
 cpp
 '
 '
-nsAuthGSSAPI
+nsIAuthModule
 .
 cpp
 '

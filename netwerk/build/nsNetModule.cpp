@@ -243,6 +243,13 @@ h
 #
 include
 "
+nsAuthGSSAPI
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
@@ -2724,6 +2731,13 @@ net
 :
 :
 BackgroundChannelRegistrar
+:
+:
+Shutdown
+(
+)
+;
+nsAuthGSSAPI
 :
 :
 Shutdown

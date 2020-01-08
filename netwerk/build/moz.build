@@ -131,6 +131,12 @@ LOCAL_INCLUDES
 [
 '
 /
+extensions
+/
+auth
+'
+'
+/
 netwerk
 /
 base
