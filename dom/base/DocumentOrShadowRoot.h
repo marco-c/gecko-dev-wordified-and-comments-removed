@@ -280,6 +280,8 @@ aClasses
 DocumentOrShadowRoot
 (
 )
+=
+default
 ;
 Element
 *
