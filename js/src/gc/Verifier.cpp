@@ -3918,8 +3918,11 @@ Cell
 value
 )
 {
+DebugOnly
+<
 Zone
 *
+>
 zone
 =
 map
@@ -3952,11 +3955,8 @@ zone
 zone
 )
 ;
-DebugOnly
-<
 Zone
 *
->
 keyZone
 =
 GetCellZone
