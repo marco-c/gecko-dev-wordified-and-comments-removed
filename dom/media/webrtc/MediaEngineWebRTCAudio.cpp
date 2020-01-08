@@ -206,6 +206,7 @@ LOG_FRAMES
 (
 msg
 )
+\
 MOZ_LOG
 (
 GetMediaManagerLog
@@ -6051,9 +6052,9 @@ status
 of
 the
 "
-\
 #
 _processing
+\
 "
 on
 device
@@ -6101,9 +6102,9 @@ status
 of
 the
 "
-\
 #
 _processing
+\
 "
 on
 device
@@ -6117,7 +6118,6 @@ return
 ;
 \
 }
-\
 \
 }
 \
