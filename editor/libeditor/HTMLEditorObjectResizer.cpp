@@ -35,15 +35,6 @@ include
 "
 mozilla
 /
-EditorUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 LookAndFeel
 .
 h
@@ -4929,8 +4920,9 @@ mResizedObjectMarginTop
 )
 ;
 AutoPlaceholderBatch
-batchIt
+treatAsOneTransaction
 (
+*
 this
 )
 ;

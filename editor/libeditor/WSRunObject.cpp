@@ -44,15 +44,6 @@ include
 "
 mozilla
 /
-EditorUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HTMLEditor
 .
 h
