@@ -1380,7 +1380,7 @@ URIParams
 &
 aHost
 const
-URIParams
+OptionalURIParams
 &
 aChannelURI
 const
@@ -1454,17 +1454,6 @@ channelURI
 DeserializeURI
 (
 aChannelURI
-)
-;
-if
-(
-!
-channelURI
-)
-return
-IPC_FAIL_NO_REASON
-(
-this
 )
 ;
 nsCOMPtr

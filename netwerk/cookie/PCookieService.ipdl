@@ -833,7 +833,7 @@ SetCookieString
 (
 URIParams
 host
-URIParams
+OptionalURIParams
 channelURI
 bool
 isForeign
