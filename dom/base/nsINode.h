@@ -5694,6 +5694,7 @@ StealNSResult
 )
 ;
 }
+inline
 mozilla
 :
 :
@@ -5707,6 +5708,7 @@ GetPreviousElementSibling
 )
 const
 ;
+inline
 mozilla
 :
 :
