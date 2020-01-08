@@ -2334,9 +2334,8 @@ rv
 }
 mInternalSubset
 .
-SetCapacity
+Truncate
 (
-0
 )
 ;
 return
