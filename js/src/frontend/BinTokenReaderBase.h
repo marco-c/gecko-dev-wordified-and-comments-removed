@@ -506,17 +506,12 @@ updateLatestKnownGood
 (
 )
 ;
-#
-ifdef
-DEBUG
 bool
 hasRaisedError
 (
 )
 const
 ;
-#
-endif
 JSContext
 *
 cx_

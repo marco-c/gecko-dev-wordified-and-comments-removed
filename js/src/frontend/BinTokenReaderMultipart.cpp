@@ -2006,10 +2006,7 @@ MOZ_ASSERT_IF
 initialized_
 reader_
 .
-cx_
--
->
-isExceptionPending
+hasRaisedError
 (
 )
 )
@@ -2139,10 +2136,7 @@ if
 (
 reader_
 .
-cx_
--
->
-isExceptionPending
+hasRaisedError
 (
 )
 )
@@ -2341,10 +2335,7 @@ if
 (
 reader_
 .
-cx_
--
->
-isExceptionPending
+hasRaisedError
 (
 )
 )
@@ -2415,10 +2406,7 @@ if
 (
 reader_
 .
-cx_
--
->
-isExceptionPending
+hasRaisedError
 (
 )
 )
