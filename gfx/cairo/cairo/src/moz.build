@@ -303,6 +303,14 @@ MOZ_WIDGET_TOOLKIT
 windows
 '
 :
+DEFINES
+[
+'
+MOZ_DISABLE_WINDOWS_WRAPPER
+'
+]
+=
+True
 EXPORTS
 .
 cairo
