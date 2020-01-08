@@ -3556,10 +3556,6 @@ irs
 mLineContainer
 frame
 false
-ReparentingDirection
-:
-:
-Backwards
 )
 ;
 }
