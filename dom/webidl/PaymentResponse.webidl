@@ -102,11 +102,14 @@ is
 https
 :
 /
-w3c
+/
+www
 .
-github
+w3
 .
-io
+org
+/
+TR
 /
 payment
 -
