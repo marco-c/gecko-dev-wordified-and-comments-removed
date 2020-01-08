@@ -19009,6 +19009,18 @@ getTabForBrowser
 aBrowser
 )
 ;
+if
+(
+tab
+.
+hasAttribute
+(
+"
+busy
+"
+)
+)
+{
 tab
 .
 setAttribute
@@ -19021,6 +19033,7 @@ true
 "
 )
 ;
+}
 }
 clearPendingIcon
 (
