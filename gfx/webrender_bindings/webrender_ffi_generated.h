@@ -5528,6 +5528,13 @@ wr_thread_pool_new
 WR_FUNC
 ;
 WR_INLINE
+uintptr_t
+wr_total_gpu_bytes_allocated
+(
+)
+WR_FUNC
+;
+WR_INLINE
 void
 wr_transaction_append_transform_properties
 (
