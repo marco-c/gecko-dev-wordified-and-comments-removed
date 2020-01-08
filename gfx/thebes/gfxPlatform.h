@@ -1751,6 +1751,17 @@ MOZ_ASSERT
 XRE_IsParentProcess
 (
 )
+|
+|
+mozilla
+:
+:
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 ;
 return
