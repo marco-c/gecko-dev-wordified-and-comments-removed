@@ -213,6 +213,13 @@ JPEG_DATA
 FINISHED_JPEG_DATA
 }
 ;
+void
+FinishRow
+(
+uint32_t
+aLastSourceRow
+)
+;
 LexerTransition
 <
 State
