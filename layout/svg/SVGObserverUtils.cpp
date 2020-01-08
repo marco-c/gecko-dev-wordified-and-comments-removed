@@ -907,7 +907,7 @@ GetReferrerPolicy
 }
 mObservedElementTracker
 .
-Reset
+ResetToURIFragmentID
 (
 aObservingContent
 uri

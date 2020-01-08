@@ -140,7 +140,7 @@ void
 IDTracker
 :
 :
-Reset
+ResetToURIFragmentID
 (
 nsIContent
 *
@@ -163,7 +163,7 @@ MOZ_ASSERT
 (
 aFromContent
 "
-Reset
+ResetToURIFragmentID
 (
 )
 expects

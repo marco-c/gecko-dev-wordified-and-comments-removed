@@ -2134,7 +2134,7 @@ baseURI
 ;
 mReferencedElementTracker
 .
-Reset
+ResetToURIFragmentID
 (
 this
 targetURI

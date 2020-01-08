@@ -107,7 +107,7 @@ mElement
 ;
 }
 void
-Reset
+ResetToURIFragmentID
 (
 nsIContent
 *

@@ -935,7 +935,7 @@ aParent
 {
 mPathTracker
 .
-Reset
+ResetToURIFragmentID
 (
 aParent
 targetURI

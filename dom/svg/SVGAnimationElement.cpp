@@ -1605,7 +1605,7 @@ baseURI
 ;
 mHrefTarget
 .
-Reset
+ResetToURIFragmentID
 (
 this
 targetURI
