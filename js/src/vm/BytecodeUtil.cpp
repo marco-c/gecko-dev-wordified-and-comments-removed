@@ -5631,20 +5631,6 @@ JS
 RuntimeHeapIsBusy
 (
 )
-#
-ifdef
-DEBUG
-|
-|
-!
-cx
--
->
-isAllocAllowed
-(
-)
-#
-endif
 )
 {
 UniqueChars
@@ -11370,7 +11356,7 @@ hasScript
 |
 frameIter
 .
-realm
+compartment
 (
 )
 !
@@ -11378,7 +11364,7 @@ realm
 cx
 -
 >
-realm
+compartment
 (
 )
 )
@@ -11766,7 +11752,7 @@ selfHosted
 |
 frameIter
 .
-realm
+compartment
 (
 )
 !
@@ -11774,7 +11760,7 @@ realm
 cx
 -
 >
-realm
+compartment
 (
 )
 )

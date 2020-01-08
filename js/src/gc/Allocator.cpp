@@ -1872,16 +1872,6 @@ RuntimeHeapIsBusy
 )
 )
 ;
-MOZ_ASSERT
-(
-cx
--
->
-isAllocAllowed
-(
-)
-)
-;
 #
 endif
 if
