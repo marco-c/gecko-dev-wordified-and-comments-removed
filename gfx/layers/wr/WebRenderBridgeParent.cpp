@@ -9055,6 +9055,7 @@ mApi
 GetMaxTextureSize
 (
 )
+false
 mApi
 -
 >

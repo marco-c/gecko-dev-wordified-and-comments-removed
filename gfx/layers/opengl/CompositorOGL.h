@@ -549,6 +549,9 @@ XRE_GetProcessType
 GetMaxTextureSize
 (
 )
+SupportsTextureDirectMapping
+(
+)
 false
 mFBOTextureTarget
 =
@@ -1144,6 +1147,11 @@ PrepareViewport
 CompositingRenderTargetOGL
 *
 aRenderTarget
+)
+;
+bool
+SupportsTextureDirectMapping
+(
 )
 ;
 LayoutDeviceIntSize
