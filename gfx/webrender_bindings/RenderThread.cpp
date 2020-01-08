@@ -1926,11 +1926,6 @@ pipelineMgr
 NotifyPipelinesUpdated
 (
 info
--
->
-Raw
-(
-)
 aRender
 )
 ;
