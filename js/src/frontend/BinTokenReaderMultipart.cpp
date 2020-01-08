@@ -915,7 +915,7 @@ else
 BINJS_TRY_VAR
 (
 atom
-AtomizeUTF8Chars
+AtomizeWTF8Chars
 (
 cx_
 (
