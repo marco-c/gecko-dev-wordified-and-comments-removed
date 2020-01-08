@@ -652,7 +652,6 @@ int
 GetLocalSSRCs
 (
 )
-const
 override
 ;
 bool
