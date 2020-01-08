@@ -301,6 +301,8 @@ const
 DisplayItemClipChain
 *
 aChain
+bool
+aSeparateLeaf
 )
 ;
 const
@@ -312,6 +314,9 @@ const
 DisplayItemClipChain
 *
 mChain
+;
+bool
+mSeparateLeaf
 ;
 Maybe
 <
@@ -343,6 +348,8 @@ wr
 DisplayListBuilder
 *
 aBuilder
+int32_t
+aAppUnitsPerDevPixel
 )
 ;
 void
