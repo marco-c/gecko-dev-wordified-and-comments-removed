@@ -327,6 +327,12 @@ talos
 flex
 -
 raptor
+-
+firefox
+-
+raptor
+-
+chrome
 linux64
 -
 nightly
@@ -471,6 +477,8 @@ tests
 talos
 -
 raptor
+-
+firefox
 linux64
 -
 asan
@@ -584,6 +592,8 @@ platform
 tests
 -
 raptor
+-
+firefox
 linux64
 -
 qr
@@ -787,6 +797,12 @@ windows
 tests
 -
 raptor
+-
+firefox
+-
+raptor
+-
+chrome
 windows7
 -
 32
@@ -832,6 +848,8 @@ windows
 tests
 -
 raptor
+-
+firefox
 windows7
 -
 32
@@ -1091,6 +1109,12 @@ mochitest
 headless
 -
 raptor
+-
+firefox
+-
+raptor
+-
+chrome
 windows10
 -
 64
@@ -1130,6 +1154,8 @@ windows
 tests
 -
 raptor
+-
+firefox
 windows10
 -
 64
@@ -1338,6 +1364,8 @@ windows
 talos
 -
 raptor
+-
+firefox
 #
 #
 #
@@ -1404,6 +1432,12 @@ capture
 awsy
 -
 raptor
+-
+firefox
+-
+raptor
+-
+chrome
 macosx64
 -
 nightly
