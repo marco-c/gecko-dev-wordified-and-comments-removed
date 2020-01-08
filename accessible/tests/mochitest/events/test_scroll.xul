@@ -435,17 +435,6 @@ tabBrowser
 loadURI
 (
 aURL
-{
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-}
 )
 ;
 }

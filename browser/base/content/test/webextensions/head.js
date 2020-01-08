@@ -1744,13 +1744,12 @@ promise
 }
 ;
 }
-BrowserTestUtils
-.
-loadURI
-(
 gBrowser
 .
 selectedBrowser
+.
+loadURI
+(
 "
 about
 :

@@ -255,11 +255,10 @@ true
 }
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 url
 )
 ;

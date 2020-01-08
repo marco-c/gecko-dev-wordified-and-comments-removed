@@ -159,11 +159,10 @@ false
 uriString
 )
 ;
-BrowserTestUtils
+viewSourceBrowser
 .
 loadURI
 (
-viewSourceBrowser
 uriString
 )
 ;

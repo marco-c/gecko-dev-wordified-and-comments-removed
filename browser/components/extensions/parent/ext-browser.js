@@ -636,15 +636,6 @@ Ci
 nsIWebNavigation
 .
 LOAD_FLAGS_REPLACE_HISTORY
-triggeringPrincipal
-:
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
 }
 )
 ;

@@ -345,13 +345,12 @@ testPageURL
 }
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 browserTest
 .
 selectedBrowser
+.
+loadURI
+(
 testPageURL
 )
 ;

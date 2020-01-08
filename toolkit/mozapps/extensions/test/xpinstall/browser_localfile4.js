@@ -137,11 +137,10 @@ addTab
 gBrowser
 )
 ;
-BrowserTestUtils
+gBrowser
 .
 loadURI
 (
-gBrowser
 xpipath
 +
 "

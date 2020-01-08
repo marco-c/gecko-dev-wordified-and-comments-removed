@@ -876,11 +876,10 @@ fine
 "
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 URL2
 )
 ;

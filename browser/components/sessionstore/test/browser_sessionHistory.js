@@ -410,11 +410,10 @@ promiseBrowserLoaded
 browser
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 URL2
 )
 ;
@@ -1049,11 +1048,10 @@ correct
 "
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 "
 about
 :

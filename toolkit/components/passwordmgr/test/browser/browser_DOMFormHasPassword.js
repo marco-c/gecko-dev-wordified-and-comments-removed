@@ -541,13 +541,12 @@ ids
 task
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 "
 data
 :

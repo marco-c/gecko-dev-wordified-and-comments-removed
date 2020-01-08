@@ -133,11 +133,10 @@ true
 frameUrl
 )
 ;
-BrowserTestUtils
+testBrowser
 .
 loadURI
 (
-testBrowser
 url
 )
 ;

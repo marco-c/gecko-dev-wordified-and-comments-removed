@@ -1695,13 +1695,12 @@ URL
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 newTab
 .
 linkedBrowser
+.
+loadURI
+(
 URL
 )
 ;

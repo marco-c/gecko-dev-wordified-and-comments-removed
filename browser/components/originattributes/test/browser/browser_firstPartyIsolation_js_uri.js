@@ -97,11 +97,10 @@ browser
 "
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 javascript
 :
 1
@@ -289,11 +288,10 @@ browser
 "
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 javascript
 :
 let

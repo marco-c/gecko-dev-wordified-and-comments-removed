@@ -198,11 +198,10 @@ i
 +
 )
 {
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 URL
 +
 i
@@ -237,11 +236,10 @@ MAX_BACK
 2
 )
 ;
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 "
 about
 :

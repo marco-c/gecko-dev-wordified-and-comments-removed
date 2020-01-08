@@ -453,13 +453,12 @@ EXPECTED_REQUESTS
 length
 )
 ;
-BrowserTestUtils
-.
-loadURI
-(
 tab
 .
 linkedBrowser
+.
+loadURI
+(
 CAUSE_URL
 )
 ;

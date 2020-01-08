@@ -116,11 +116,10 @@ aWindow
 browser
 )
 {
-BrowserTestUtils
+browser
 .
 loadURI
 (
-browser
 NON_REMOTE_PAGE
 )
 ;
