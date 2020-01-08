@@ -5221,7 +5221,7 @@ int32_t
 lead
 int32_t
 *
-cp
+codePoint
 )
 ;
 void
