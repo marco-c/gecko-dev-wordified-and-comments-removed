@@ -58,7 +58,7 @@ MPL
 /
 include
 protocol
-PBackgroundLSObject
+PBackground
 ;
 namespace
 mozilla
@@ -91,7 +91,7 @@ protocol
 PBackgroundLSDatabase
 {
 manager
-PBackgroundLSObject
+PBackground
 ;
 parent
 :
@@ -289,6 +289,8 @@ sync
 SetItem
 (
 nsString
+documentURI
+nsString
 key
 nsString
 value
@@ -303,6 +305,8 @@ sync
 RemoveItem
 (
 nsString
+documentURI
+nsString
 key
 )
 returns
@@ -314,6 +318,8 @@ response
 sync
 Clear
 (
+nsString
+documentURI
 )
 returns
 (

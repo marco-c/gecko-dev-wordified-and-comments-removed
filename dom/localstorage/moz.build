@@ -214,11 +214,6 @@ PBackgroundLSDatabase
 ipdl
 '
 '
-PBackgroundLSObject
-.
-ipdl
-'
-'
 PBackgroundLSObserver
 .
 ipdl
