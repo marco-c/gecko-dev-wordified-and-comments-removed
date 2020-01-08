@@ -106,15 +106,6 @@ get
 nightly
 '
 )
-or
-parameters
-.
-get
-(
-'
-include_nightly
-'
-)
 def
 filter_out_cron
 (
@@ -570,7 +561,6 @@ filter_func
 in
         
 (
-filter_out_nightly
 filter_out_cron
 filter_for_project
 )
@@ -1175,6 +1165,13 @@ iteritems
             
 if
 standard_filter
+(
+t
+parameters
+)
+            
+or
+filter_out_nightly
 (
 t
 parameters
@@ -3106,6 +3103,12 @@ False
         
 if
 standard_filter
+(
+task
+parameters
+)
+or
+filter_out_nightly
 (
 task
 parameters

@@ -311,12 +311,6 @@ head_rev
 get_head_ref
     
 '
-include_nightly
-'
-:
-False
-    
-'
 level
 '
 :
