@@ -90,16 +90,6 @@ userDisplayName
 c
 .
 displayName
-|
-|
-L10N
-.
-getStr
-(
-"
-anonymous
-"
-)
 ;
 }
 else

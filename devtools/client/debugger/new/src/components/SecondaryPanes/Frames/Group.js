@@ -522,11 +522,6 @@ displayName
 formatDisplayName
 (
 frame
-{
-maxLength
-:
-null
-}
 )
 ;
 return
