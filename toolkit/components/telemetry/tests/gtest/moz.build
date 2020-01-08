@@ -125,6 +125,11 @@ TelemetryTestHelpers
 cpp
 '
 '
+TestCombinedStacks
+.
+cpp
+'
+'
 TestCounters
 .
 cpp
