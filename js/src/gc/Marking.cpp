@@ -16297,6 +16297,10 @@ tenuredSize
 =
 dstSize
 ;
+tenuredCells
++
++
+;
 MOZ_ASSERT
 (
 OffsetToChunkEnd
@@ -16577,6 +16581,10 @@ tenuredSize
 +
 =
 srcSize
+;
+tenuredCells
++
++
 ;
 MOZ_ASSERT
 (
@@ -17308,6 +17316,10 @@ dst
 src
 dstKind
 )
+;
+tenuredCells
++
++
 ;
 RelocationOverlay
 *
