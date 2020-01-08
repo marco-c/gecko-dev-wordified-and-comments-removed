@@ -173,7 +173,6 @@ prim_store
 :
 :
 {
-PrimitiveMetadata
 VisibleGradientTile
 PrimitiveInstance
 }
@@ -2389,7 +2388,7 @@ transforms
 .
 get_world_transform
 (
-pic_metadata
+prim_instance
 .
 spatial_node_index
 )
@@ -2409,7 +2408,7 @@ transforms
 .
 get_id
 (
-pic_metadata
+prim_instance
 .
 spatial_node_index
 ROOT_SPATIAL_NODE_INDEX
@@ -2421,7 +2420,7 @@ clip_scroll_tree
 let
 clip_task_address
 =
-pic_metadata
+prim_instance
 .
 clip_task_id
 .
@@ -2755,7 +2754,7 @@ get_suitable_batch
 (
 key
 &
-pic_metadata
+prim_instance
 .
 clipped_world_rect
 .
@@ -2906,7 +2905,7 @@ prim
 metadata
 ;
 if
-prim_metadata
+prim_instance
 .
 clipped_world_rect
 .
@@ -2927,7 +2926,7 @@ debug_assertions
 debug_assert_eq
 !
 (
-prim_metadata
+prim_instance
 .
 prepared_frame_id
 render_tasks
@@ -2944,7 +2943,7 @@ transforms
 .
 get_id
 (
-prim_metadata
+prim_instance
 .
 spatial_node_index
 root_spatial_node_index
@@ -2965,7 +2964,7 @@ transform_kind
 let
 bounding_rect
 =
-prim_metadata
+prim_instance
 .
 clipped_world_rect
 .
@@ -3090,7 +3089,7 @@ gpu_cache
 get_address
 (
 &
-prim_metadata
+prim_instance
 .
 gpu_location
 )
@@ -3099,7 +3098,7 @@ gpu_location
 let
 clip_task_address
 =
-prim_metadata
+prim_instance
 .
 clip_task_id
 .
@@ -3131,14 +3130,14 @@ non_segmented_blend_mode
 =
 if
 !
-prim_metadata
+prim_instance
 .
 opacity
 .
 is_opaque
 |
 |
-prim_metadata
+prim_instance
 .
 clip_task_id
 .
@@ -3298,7 +3297,7 @@ transforms
 .
 get_world_transform
 (
-prim_metadata
+prim_instance
 .
 spatial_node_index
 )
@@ -3348,7 +3347,7 @@ transforms
 .
 get_world_inv_transform
 (
-prim_metadata
+prim_instance
 .
 spatial_node_index
 )
@@ -5198,7 +5197,7 @@ self
 add_brush_to_batch
 (
 brush
-prim_metadata
+prim_instance
 batch_kind
 specified_blend_mode
 non_segmented_blend_mode
@@ -5698,10 +5697,10 @@ brush
 :
 &
 BrushPrimitive
-prim_metadata
+prim_instance
 :
 &
-PrimitiveMetadata
+PrimitiveInstance
 batch_kind
 :
 BrushBatchKind
@@ -5878,7 +5877,7 @@ let
 needs_blending
 =
 !
-prim_metadata
+prim_instance
 .
 opacity
 .

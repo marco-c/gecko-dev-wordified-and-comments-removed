@@ -3624,12 +3624,6 @@ PathBuf
 upload_method
 :
 UploadMethod
-_file_changed_handler
-:
-Box
-<
-FileWatcherHandler
->
 cached_programs
 :
 Option

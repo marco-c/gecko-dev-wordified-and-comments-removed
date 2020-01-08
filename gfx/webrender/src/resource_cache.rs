@@ -7367,6 +7367,11 @@ texture_cache
 self
 .
 cached_render_tasks
+&
+mut
+self
+.
+glyph_rasterizer
 )
 ;
 self

@@ -673,6 +673,13 @@ PlainExternalImage
 >
 )
 }
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 enum
 ResultMsg
