@@ -98,6 +98,9 @@ nsISupports
 .
 idl
 "
+interface
+nsIURI
+;
 /
 *
 *
@@ -218,11 +221,14 @@ in
 AString
 protocol
 in
-AString
+nsIURI
 uri
 in
 AString
 title
+in
+nsIURI
+documentURI
 in
 nsISupports
 windowOrBrowser

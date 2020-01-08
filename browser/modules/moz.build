@@ -1020,11 +1020,6 @@ FaviconLoader
 jsm
 '
 '
-Feeds
-.
-jsm
-'
-'
 FormValidationHandler
 .
 jsm

@@ -13,6 +13,9 @@ b2d12e808acc
 WebContentConverter
 .
 js
+process
+=
+main
 contract
 mozilla
 .
@@ -42,3 +45,6 @@ af63
 -
 b2d12e808acc
 }
+process
+=
+main
