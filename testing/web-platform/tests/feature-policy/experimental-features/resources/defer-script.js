@@ -1,0 +1,6 @@
+window
+.
+didExecuteExternalDeferredScript
+=
+true
+;
