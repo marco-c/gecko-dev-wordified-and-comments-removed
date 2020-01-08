@@ -1577,7 +1577,7 @@ default
         
 self
 .
-_rust_outputs
+_rust_cmds
 =
 set
 (
@@ -5808,21 +5808,33 @@ outputs
 ]
 )
             
-output_key
+cmd_key
 =
-tuple
+'
+'
+.
+join
 (
-outputs
+command
 )
             
 if
-output_key
+cmd_key
 not
 in
 self
 .
-_rust_outputs
+_rust_cmds
 :
+                
+self
+.
+_rust_cmds
+.
+add
+(
+cmd_key
+)
                 
 rust_backend_file
 =
@@ -5837,15 +5849,6 @@ library
 /
 rust
 '
-)
-                
-self
-.
-_rust_outputs
-.
-add
-(
-output_key
 )
                 
 rust_backend_file
@@ -5914,15 +5917,6 @@ iteritems
 (
 )
 :
-                    
-self
-.
-_rust_outputs
-.
-add
-(
-output_key
-)
                     
 rust_backend_file
 .
