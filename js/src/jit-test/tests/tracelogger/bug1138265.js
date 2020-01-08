@@ -1,3 +1,15 @@
+setJitCompilerOption
+(
+"
+jit
+.
+enable
+-
+tracelogger
+"
+1
+)
+;
 try
 {
 (

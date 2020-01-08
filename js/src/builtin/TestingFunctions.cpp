@@ -11074,6 +11074,9 @@ cx
 if
 (
 logger
+&
+&
+logger
 -
 >
 enabled
