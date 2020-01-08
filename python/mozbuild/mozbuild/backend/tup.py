@@ -7138,7 +7138,7 @@ cmd_key
 .
 join
 (
-command
+outputs
 )
             
 if
