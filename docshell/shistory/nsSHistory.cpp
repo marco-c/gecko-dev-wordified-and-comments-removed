@@ -2864,7 +2864,7 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsSHistory
 :
 :
