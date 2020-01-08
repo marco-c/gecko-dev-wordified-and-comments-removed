@@ -162,6 +162,11 @@ ContentRestore
 jsm
 '
 '
+ContentSessionStore
+.
+jsm
+'
+'
 DocShellCapabilities
 .
 jsm
