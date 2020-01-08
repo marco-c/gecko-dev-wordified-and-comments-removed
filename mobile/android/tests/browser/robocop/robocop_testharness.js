@@ -313,6 +313,12 @@ ChromeUtils
 ;
 testScope
 .
+SpecialPowers
+=
+SpecialPowers
+;
+testScope
+.
 Components
 =
 SpecialPowers

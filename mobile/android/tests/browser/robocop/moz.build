@@ -216,6 +216,11 @@ head
 js
 '
 '
+browser_theme_image_file
+.
+xpi
+'
+'
 reader_mode_pages
 /
 *
