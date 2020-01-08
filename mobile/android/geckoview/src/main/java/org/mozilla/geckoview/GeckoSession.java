@@ -96,17 +96,6 @@ mozilla
 .
 gecko
 .
-gfx
-.
-LayerSession
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 GeckoEditableChild
 ;
 import

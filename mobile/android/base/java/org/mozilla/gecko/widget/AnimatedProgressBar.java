@@ -187,9 +187,7 @@ org
 .
 mozilla
 .
-gecko
-.
-gfx
+geckoview
 .
 DynamicToolbarAnimator
 ;
