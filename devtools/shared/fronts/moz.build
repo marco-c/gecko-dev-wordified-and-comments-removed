@@ -113,13 +113,6 @@ animation
 js
 '
 '
-call
--
-watcher
-.
-js
-'
-'
 canvas
 .
 js
@@ -148,6 +141,13 @@ js
 '
 '
 framerate
+.
+js
+'
+'
+function
+-
+call
 .
 js
 '

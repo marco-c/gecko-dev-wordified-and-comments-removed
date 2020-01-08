@@ -33,7 +33,7 @@ protocol
 ;
 const
 {
-CallWatcherActor
+CallWatcher
 }
 =
 require
@@ -45,6 +45,8 @@ server
 /
 actors
 /
+utils
+/
 call
 -
 watcher
@@ -53,7 +55,8 @@ watcher
 ;
 const
 {
-CallWatcherFront
+METHOD_FUNCTION
+SETTER_FUNCTION
 }
 =
 require
@@ -65,9 +68,9 @@ shared
 /
 fronts
 /
-call
+function
 -
-watcher
+call
 "
 )
 ;
@@ -594,7 +597,7 @@ this
 _callWatcher
 =
 new
-CallWatcherActor
+CallWatcher
 (
 this
 .
@@ -2153,8 +2156,6 @@ if
 type
 =
 =
-CallWatcherFront
-.
 METHOD_FUNCTION
 )
 {
@@ -2176,8 +2177,6 @@ if
 type
 =
 =
-CallWatcherFront
-.
 SETTER_FUNCTION
 )
 {

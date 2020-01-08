@@ -31,7 +31,7 @@ protocol
 ;
 const
 {
-CallWatcherActor
+CallWatcher
 }
 =
 require
@@ -42,6 +42,8 @@ devtools
 server
 /
 actors
+/
+utils
 /
 call
 -
@@ -1621,7 +1623,7 @@ this
 _callWatcher
 =
 new
-CallWatcherActor
+CallWatcher
 (
 this
 .

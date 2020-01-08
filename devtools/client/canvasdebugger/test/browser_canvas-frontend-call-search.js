@@ -204,8 +204,6 @@ attachment
 actor
 .
 type
-CallWatcherFront
-.
 METHOD_FUNCTION
 "
 The
