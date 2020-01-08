@@ -1349,6 +1349,8 @@ EXTENSION_ID
 {
 longPrefix
 }
+-
+inspector
 create
 -
 devtools

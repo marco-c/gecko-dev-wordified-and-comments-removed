@@ -103,6 +103,14 @@ const
 REGEX_PANEL
 =
 /
+^
+toolbox
+-
+tab
+-
+(
+?
+:
 webconsole
 |
 inspector
@@ -114,6 +122,7 @@ styleeditor
 netmonitor
 |
 storage
+)
 /
 ;
 var
