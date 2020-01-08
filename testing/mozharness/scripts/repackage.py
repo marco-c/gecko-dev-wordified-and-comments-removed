@@ -67,10 +67,6 @@ all_actions
 [
                 
 "
-download_input
-"
-                
-"
 setup
 "
                 
@@ -157,6 +153,15 @@ exe
         
 if
 mar_path
+and
+os
+.
+path
+.
+exists
+(
+mar_path
+)
 :
             
 self
