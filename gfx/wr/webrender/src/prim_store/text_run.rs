@@ -272,6 +272,15 @@ shadow
 }
 }
 impl
+intern
+:
+:
+InternDebug
+for
+TextRunKey
+{
+}
+impl
 AsInstanceKind
 <
 TextRunDataHandle

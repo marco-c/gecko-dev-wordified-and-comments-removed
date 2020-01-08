@@ -3241,6 +3241,15 @@ kind
 }
 }
 impl
+intern
+:
+:
+InternDebug
+for
+PrimitiveKey
+{
+}
+impl
 AsInstanceKind
 <
 PrimitiveDataHandle
