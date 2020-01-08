@@ -157,11 +157,6 @@ BasicCardPayment
 cpp
 '
 '
-PaymentActionRequest
-.
-cpp
-'
-'
 PaymentActionResponse
 .
 cpp
