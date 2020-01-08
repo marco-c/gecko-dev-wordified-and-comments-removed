@@ -164,7 +164,10 @@ crate
 rule_collector
 :
 :
+{
 RuleCollector
+containing_shadow_ignoring_svg_use
+}
 ;
 use
 crate
@@ -4725,10 +4728,9 @@ Some
 shadow
 )
 =
-element
-.
-containing_shadow
+containing_shadow_ignoring_svg_use
 (
+element
 )
 {
 if
