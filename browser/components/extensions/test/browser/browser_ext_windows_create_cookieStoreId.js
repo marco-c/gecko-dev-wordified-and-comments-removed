@@ -1122,7 +1122,7 @@ url
 "
 about
 :
-newtab
+home
 "
 ;
 await
