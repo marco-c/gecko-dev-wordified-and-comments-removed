@@ -184,6 +184,14 @@ For
 nsDNSService2
 .
 h
+'
+/
+security
+/
+manager
+/
+ssl
+'
 ]
 FINAL_LIBRARY
 =

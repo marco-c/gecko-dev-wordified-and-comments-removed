@@ -90,6 +90,8 @@ Reset
 )
 ;
 typedef
+:
+:
 TimeStamp
 MS_TimeStamp
 ;
