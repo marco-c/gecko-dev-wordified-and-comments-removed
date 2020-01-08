@@ -52,13 +52,6 @@ getSelection
 )
 '
 ]
-GlobalEventHandlers
-:
-[
-'
-self
-'
-]
 }
 )
 ;
