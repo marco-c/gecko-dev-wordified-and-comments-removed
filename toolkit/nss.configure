@@ -193,7 +193,11 @@ dbm_default
 help
 =
 '
+{
 Enable
+|
+Disable
+}
 building
 DBM
 '

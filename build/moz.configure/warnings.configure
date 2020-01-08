@@ -137,7 +137,11 @@ x
 help
 =
 '
+{
 Enable
+|
+Disable
+}
 treating
 warnings
 as
