@@ -484,6 +484,11 @@ lineGrowthState
 line
 .
 growthState
+clampState
+:
+item
+.
+clampState
 }
 )
 )
