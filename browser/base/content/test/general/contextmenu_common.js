@@ -545,7 +545,11 @@ id
 !
 =
 "
-screenshots_mozilla_org_create
+screenshots_mozilla_org
+-
+menuitem
+-
+_create
 -
 screenshot
 "
@@ -2346,7 +2350,11 @@ screenshotItems
 "
 null
 "
-screenshots_mozilla_org_create
+screenshots_mozilla_org
+-
+menuitem
+-
+_create
 -
 screenshot
 "
