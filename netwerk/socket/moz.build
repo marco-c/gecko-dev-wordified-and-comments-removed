@@ -189,6 +189,16 @@ nsINamedPipeService
 idl
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsNamedPipeService
+.
+h
+'
+]
 UNIFIED_SOURCES
 +
 =
