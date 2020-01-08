@@ -224,9 +224,6 @@ TestNotNull
 TestPair
 '
 '
-TestRandomNum
-'
-'
 TestRange
 '
 '
