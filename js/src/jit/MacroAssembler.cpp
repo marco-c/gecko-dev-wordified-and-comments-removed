@@ -11302,7 +11302,7 @@ excTail
 }
 #
 ifdef
-DEBUG
+JS_MASM_VERBOSE
 static
 void
 AssumeUnreachable_
@@ -11337,7 +11337,7 @@ output
 {
 #
 ifdef
-DEBUG
+JS_MASM_VERBOSE
 if
 (
 !
@@ -11498,6 +11498,9 @@ char
 *
 )
 ;
+#
+ifdef
+JS_MASM_VERBOSE
 static
 void
 Printf0_
@@ -11522,6 +11525,8 @@ output
 )
 ;
 }
+#
+endif
 void
 MacroAssembler
 :
@@ -11534,6 +11539,9 @@ char
 output
 )
 {
+#
+ifdef
+JS_MASM_VERBOSE
 AllocatableRegisterSet
 regs
 (
@@ -11603,7 +11611,12 @@ PopRegsInMask
 save
 )
 ;
+#
+endif
 }
+#
+ifdef
+JS_MASM_VERBOSE
 static
 void
 Printf1_
@@ -11670,6 +11683,8 @@ get
 )
 ;
 }
+#
+endif
 void
 MacroAssembler
 :
@@ -11684,6 +11699,9 @@ Register
 value
 )
 {
+#
+ifdef
+JS_MASM_VERBOSE
 AllocatableRegisterSet
 regs
 (
@@ -11765,6 +11783,8 @@ PopRegsInMask
 save
 )
 ;
+#
+endif
 }
 #
 ifdef
