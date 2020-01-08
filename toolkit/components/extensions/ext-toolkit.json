@@ -1660,6 +1660,9 @@ scopes
 "
 addon_parent
 "
+"
+content_parent
+"
 ]
 "
 paths
