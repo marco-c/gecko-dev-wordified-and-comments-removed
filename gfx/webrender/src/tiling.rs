@@ -806,7 +806,7 @@ format
 :
 ImageFormat
 pub
-max_size
+max_dynamic_size
 :
 DeviceUintSize
 pub
@@ -853,7 +853,7 @@ RenderTargetList
 {
 screen_size
 format
-max_size
+max_dynamic_size
 :
 DeviceUintSize
 :
@@ -1107,7 +1107,7 @@ max
 IDEAL_MAX_TEXTURE_DIMENSION
 self
 .
-max_size
+max_dynamic_size
 .
 width
 )
@@ -1119,7 +1119,7 @@ max
 IDEAL_MAX_TEXTURE_DIMENSION
 self
 .
-max_size
+max_dynamic_size
 .
 height
 )
@@ -1272,7 +1272,7 @@ width
 =
 self
 .
-max_size
+max_dynamic_size
 .
 width
 )
@@ -1287,7 +1287,7 @@ height
 =
 self
 .
-max_size
+max_dynamic_size
 .
 height
 )
@@ -4293,6 +4293,10 @@ DeviceIntSize
 target_kind
 :
 RenderTargetKind
+location
+:
+&
+RenderTaskLocation
 )
 {
 if
@@ -4316,6 +4320,13 @@ self
 .
 kind
 {
+if
+location
+.
+is_dynamic
+(
+)
+{
 let
 max_size
 =
@@ -4332,7 +4343,7 @@ Color
 mut
 color
 .
-max_size
+max_dynamic_size
 RenderTargetKind
 :
 :
@@ -4343,7 +4354,7 @@ Alpha
 mut
 alpha
 .
-max_size
+max_dynamic_size
 }
 ;
 max_size
@@ -4384,6 +4395,7 @@ as
 u32
 )
 ;
+}
 }
 self
 .
