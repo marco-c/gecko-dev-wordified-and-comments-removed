@@ -62,7 +62,6 @@ nsIWindowMediator
 )
 }
 ;
-async
 function
 run_test
 (
@@ -103,14 +102,6 @@ value
 is
 false
 "
-)
-;
-await
-gAUS
-.
-setAutoUpdateIsEnabled
-(
-false
 )
 ;
 Services

@@ -247,7 +247,6 @@ extra1
 }
 ]
 ;
-async
 function
 runTest
 (
@@ -260,10 +259,7 @@ entering
 "
 )
 ;
-await
-gAUS
-.
-setAutoUpdateIsEnabled
+setAppUpdateAutoSync
 (
 false
 )

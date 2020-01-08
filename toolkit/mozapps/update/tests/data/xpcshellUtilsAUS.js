@@ -3782,6 +3782,9 @@ gTestDirsPartialSuccess
 function
 setupTestCommon
 (
+aAppUpdateAutoEnabled
+=
+false
 )
 {
 debugDump
@@ -4366,6 +4369,11 @@ e
 }
 }
 }
+setAppUpdateAutoSync
+(
+aAppUpdateAutoEnabled
+)
+;
 debugDump
 (
 "
