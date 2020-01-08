@@ -99,9 +99,15 @@ CLIENT_EVENT_TYPE
 {
 detail
 :
+Cu
+.
+cloneInto
+(
 msg
 .
 data
+content
+)
 }
 )
 )
