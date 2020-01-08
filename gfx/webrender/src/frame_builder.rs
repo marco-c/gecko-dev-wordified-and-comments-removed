@@ -434,6 +434,15 @@ clip_scroll_tree
 a
 ClipScrollTree
 pub
+clip_chains
+:
+&
+'
+a
+[
+ClipChain
+]
+pub
 transforms
 :
 &
@@ -1010,6 +1019,12 @@ to_i32
 (
 )
 clip_scroll_tree
+clip_chains
+:
+&
+clip_scroll_tree
+.
+clip_chains
 transforms
 :
 transform_palette
@@ -1899,7 +1914,6 @@ self
 .
 prim_store
 resource_cache
-clip_scroll_tree
 use_dual_source_blending
 transforms
 :

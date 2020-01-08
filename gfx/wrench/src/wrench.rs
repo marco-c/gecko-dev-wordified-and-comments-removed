@@ -1137,7 +1137,7 @@ max_recorded_profiles
 :
 16
 precache_shaders
-blob_image_renderer
+blob_image_handler
 :
 Some
 (

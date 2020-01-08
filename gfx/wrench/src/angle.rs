@@ -19,7 +19,7 @@ windows
 )
 ]
 use
-glutin
+winit
 :
 :
 dpi
