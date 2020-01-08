@@ -7380,6 +7380,9 @@ hbox
 /
 vbox
 >
+#
+ifndef
+XP_MACOSX
 <
 button
 class
@@ -7446,6 +7449,8 @@ ordinal
 "
 /
 >
+#
+endif
 #
 include
 titlebar
