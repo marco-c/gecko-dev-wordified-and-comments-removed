@@ -215,8 +215,6 @@ text
 /
 binary
 "
-"
-"
 )
 ;
 chan
@@ -411,8 +409,6 @@ text
 parent
 -
 binary
-"
-"
 "
 )
 ;

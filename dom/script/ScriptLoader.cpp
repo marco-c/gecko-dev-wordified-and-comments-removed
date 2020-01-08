@@ -5683,9 +5683,6 @@ nsContentUtils
 JSBytecodeMimeType
 (
 )
-EmptyCString
-(
-)
 )
 ;
 }
@@ -5716,9 +5713,6 @@ cic
 PreferAlternativeDataType
 (
 kNullMimeType
-EmptyCString
-(
-)
 )
 ;
 }

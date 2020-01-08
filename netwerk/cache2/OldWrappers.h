@@ -707,15 +707,6 @@ size
 override
 ;
 NS_IMETHOD
-GetAltDataType
-(
-nsACString
-&
-aType
-)
-override
-;
-NS_IMETHOD
 OpenInputStream
 (
 int64_t
