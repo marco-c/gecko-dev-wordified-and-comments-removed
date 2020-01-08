@@ -355,6 +355,9 @@ return
 id
 :
 location
+name
+:
+location
 type
 :
 RUNTIMES
