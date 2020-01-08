@@ -20866,7 +20866,7 @@ case
 StyleAppearance
 :
 :
-Meterbar
+Meter
 :
 return
 Some
@@ -24011,7 +24011,7 @@ case
 StyleAppearance
 :
 :
-Meterbar
+Meter
 :
 case
 StyleAppearance
@@ -25726,7 +25726,7 @@ case
 StyleAppearance
 :
 :
-Meterbar
+Meter
 :
 {
 /
@@ -27661,7 +27661,7 @@ case
 StyleAppearance
 :
 :
-Meterbar
+Meter
 :
 case
 StyleAppearance
@@ -28374,7 +28374,7 @@ case
 StyleAppearance
 :
 :
-Meterbar
+Meter
 :
 case
 StyleAppearance
@@ -28847,7 +28847,7 @@ case
 StyleAppearance
 :
 :
-Meterbar
+Meter
 :
 case
 StyleAppearance

@@ -1134,6 +1134,9 @@ menuradio
 menuseparator
 "
 "
+meter
+"
+"
 meterbar
 "
 "
@@ -7160,6 +7163,9 @@ menuradio
 "
 "
 menuseparator
+"
+"
+meter
 "
 "
 meterbar
@@ -31200,9 +31206,6 @@ values
 :
 [
 "
-anywhere
-"
-"
 break
 -
 word
@@ -37287,9 +37290,6 @@ values
 "
 :
 [
-"
-anywhere
-"
 "
 break
 -
