@@ -870,13 +870,6 @@ toolbox
 .
 walker
 ;
-const
-hUtils
-=
-toolbox
-.
-highlighterUtils
-;
 try
 {
 this
@@ -884,7 +877,9 @@ this
 _highlighter
 =
 await
-hUtils
+toolbox
+.
+inspector
 .
 getHighlighterByType
 (

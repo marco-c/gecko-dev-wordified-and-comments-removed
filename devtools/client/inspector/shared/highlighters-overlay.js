@@ -117,15 +117,13 @@ inspector
 ;
 this
 .
-highlighterUtils
+inspectorFront
 =
 this
 .
 inspector
 .
-toolbox
-.
-highlighterUtils
+inspector
 ;
 this
 .
@@ -2929,7 +2927,7 @@ highlighter
 await
 this
 .
-highlighterUtils
+inspectorFront
 .
 getHighlighterByType
 (
@@ -3036,7 +3034,7 @@ highlighter
 await
 this
 .
-highlighterUtils
+inspectorFront
 .
 getHighlighterByType
 (
@@ -4792,7 +4790,7 @@ null
 ;
 this
 .
-highlighterUtils
+inspectorFront
 =
 null
 ;
