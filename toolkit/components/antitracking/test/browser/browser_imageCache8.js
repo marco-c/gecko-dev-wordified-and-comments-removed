@@ -40,7 +40,7 @@ true
 let
 blockingByAllowList
 =
-false
+true
 ;
 let
 expectedBlockingNotifications

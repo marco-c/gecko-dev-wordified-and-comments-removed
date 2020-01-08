@@ -28,6 +28,16 @@ blockingByContentBlocking
 false
 ;
 let
+blockingByContentBlockingUI
+=
+true
+;
+let
+blockingByContentBlockingRTUI
+=
+true
+;
+let
 blockingByAllowList
 =
 false
