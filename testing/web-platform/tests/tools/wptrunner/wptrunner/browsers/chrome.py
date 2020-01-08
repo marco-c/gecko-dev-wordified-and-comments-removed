@@ -244,21 +244,6 @@ chrome
 "
         
 "
-platform
-"
-:
-"
-ANY
-"
-        
-"
-version
-"
-:
-"
-"
-        
-"
 goog
 :
 chromeOptions
