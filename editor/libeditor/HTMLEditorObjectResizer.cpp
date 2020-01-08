@@ -291,7 +291,7 @@ rv
 htmlEditor
 -
 >
-RefreshResizersInternal
+RefreshResizers
 (
 )
 ;
