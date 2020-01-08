@@ -1456,6 +1456,11 @@ FileUtils
 jsm
 '
 '
+FindBarChild
+.
+jsm
+'
+'
 Finder
 .
 jsm
