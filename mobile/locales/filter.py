@@ -209,22 +209,6 @@ properties
 "
             
 "
-crashreporter
-/
-crashes
-.
-dtd
-"
-            
-"
-crashreporter
-/
-crashes
-.
-properties
-"
-            
-"
 chrome
 /
 global
@@ -263,6 +247,33 @@ aboutWebrtc
 .
 properties
 "
+        
+)
+:
+            
+return
+"
+error
+"
+        
+if
+re
+.
+match
+(
+r
+"
+crashreporter
+/
+[
+^
+/
+]
+*
+.
+ftl
+"
+path
 )
 :
             
@@ -371,8 +382,9 @@ android
 :
         
 if
-not
 entity
+is
+None
 :
             
 if

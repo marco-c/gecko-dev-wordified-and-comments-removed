@@ -150,6 +150,11 @@ BINPATH
 hyphenation
 /
 *
+BINPATH
+/
+localization
+/
+*
 [
 assets
 destdir
