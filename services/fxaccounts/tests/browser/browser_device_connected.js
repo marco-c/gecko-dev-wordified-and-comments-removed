@@ -183,12 +183,13 @@ deviceName
 deviceName
 )
 ;
-gBrowser
-.
-selectedBrowser
+BrowserTestUtils
 .
 loadURI
 (
+gBrowser
+.
+selectedBrowser
 "
 about
 :
