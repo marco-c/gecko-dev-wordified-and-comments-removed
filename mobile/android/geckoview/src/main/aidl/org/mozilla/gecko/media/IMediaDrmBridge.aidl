@@ -145,4 +145,14 @@ release
 (
 )
 ;
+void
+setServerCertificate
+(
+in
+byte
+[
+]
+cert
+)
+;
 }
