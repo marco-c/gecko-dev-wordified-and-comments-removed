@@ -506,6 +506,10 @@ shippingType
 ;
 attribute
 EventHandler
+onmerchantvalidation
+;
+attribute
+EventHandler
 onshippingaddresschange
 ;
 attribute
