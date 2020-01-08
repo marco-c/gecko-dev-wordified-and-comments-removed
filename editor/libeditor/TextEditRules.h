@@ -280,6 +280,7 @@ EDirection
 aDirection
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 WillDoAction
@@ -369,6 +370,15 @@ return
 mBogusNode
 ;
 }
+MOZ_CAN_RUN_SCRIPT
+nsresult
+HideLastPasswordInput
+(
+Selection
+&
+aSelection
+)
+;
 protected
 :
 void
@@ -376,6 +386,7 @@ InitFields
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillInsertText
@@ -442,6 +453,7 @@ aCancel
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillDeleteSelection
@@ -459,6 +471,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DeleteSelectionWithTransaction
@@ -746,9 +759,10 @@ bool
 aCancel
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
-HideLastPWInput
+HideLastPasswordInputInternal
 (
 )
 ;

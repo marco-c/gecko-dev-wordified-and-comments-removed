@@ -621,6 +621,12 @@ EDirection
 aAction
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+nsresult
+HideLastPasswordInput
+(
+)
+;
 static
 void
 GetDefaultEditorPrefs
