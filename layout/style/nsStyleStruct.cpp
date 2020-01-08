@@ -17340,7 +17340,11 @@ if
 (
 willChangeBitsChanged
 &
+(
 NS_STYLE_WILL_CHANGE_FIXPOS_CB
+|
+NS_STYLE_WILL_CHANGE_ABSPOS_CB
+)
 )
 {
 hint
