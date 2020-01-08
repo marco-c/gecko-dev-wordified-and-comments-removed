@@ -107,7 +107,20 @@ self
 )
 :
         
-win
+with
+self
+.
+marionette
+.
+using_context
+(
+"
+chrome
+"
+)
+:
+            
+new_window
 =
 self
 .
@@ -121,19 +134,19 @@ marionette
 .
 switch_to_window
 (
-win
+new_window
 )
         
 self
 .
-assertNotIn
+assertIn
 (
-win
+new_window
 self
 .
 marionette
 .
-window_handles
+chrome_window_handles
 )
         
 chrome_window_handles
@@ -150,7 +163,7 @@ self
 .
 assertNotIn
 (
-win
+new_window
 chrome_window_handles
 )
         
@@ -168,7 +181,7 @@ self
 .
 assertNotIn
 (
-win
+new_window
 self
 .
 marionette
@@ -197,7 +210,7 @@ self
 )
 :
         
-win
+new_window
 =
 self
 .
@@ -224,14 +237,14 @@ marionette
 .
 switch_to_window
 (
-win
+new_window
 )
         
 self
 .
 assertIn
 (
-win
+new_window
 self
 .
 marionette
@@ -243,7 +256,7 @@ self
 .
 assertNotIn
 (
-win
+new_window
 self
 .
 marionette
@@ -265,7 +278,7 @@ self
 .
 assertNotIn
 (
-win
+new_window
 chrome_window_handles
 )
         
@@ -283,7 +296,7 @@ self
 .
 assertNotIn
 (
-win
+new_window
 self
 .
 marionette
@@ -376,21 +389,6 @@ marionette
 session
 )
     
-skip_if_mobile
-(
-"
-Needs
-application
-independent
-method
-to
-open
-a
-new
-tab
-"
-)
-    
 def
 test_close_window_for_browser_tab
 (
@@ -398,7 +396,7 @@ self
 )
 :
         
-tab
+new_tab
 =
 self
 .
@@ -412,7 +410,7 @@ marionette
 .
 switch_to_window
 (
-tab
+new_tab
 )
         
 window_handles
@@ -429,7 +427,7 @@ self
 .
 assertNotIn
 (
-tab
+new_tab
 window_handles
 )
         
@@ -443,21 +441,6 @@ start_tabs
 window_handles
 )
     
-skip_if_mobile
-(
-"
-Needs
-application
-independent
-method
-to
-open
-a
-new
-tab
-"
-)
-    
 def
 test_close_window_with_dismissed_beforeunload_prompt
 (
@@ -465,7 +448,7 @@ self
 )
 :
         
-tab
+new_tab
 =
 self
 .
@@ -479,7 +462,7 @@ marionette
 .
 switch_to_window
 (
-tab
+new_tab
 )
         
 self
@@ -592,7 +575,7 @@ self
 )
 :
         
-win
+new_tab
 =
 self
 .
@@ -606,7 +589,7 @@ marionette
 .
 switch_to_window
 (
-win
+new_tab
 )
         
 self
@@ -617,18 +600,18 @@ len
 (
 self
 .
-start_tabs
-)
-+
-1
-len
-(
-self
-.
 marionette
 .
 window_handles
 )
+len
+(
+self
+.
+start_tabs
+)
++
+1
 )
         
 window_handles
@@ -645,7 +628,7 @@ self
 .
 assertNotIn
 (
-win
+new_tab
 window_handles
 )
         
@@ -784,7 +767,7 @@ html
 "
 )
         
-tab
+new_tab
 =
 self
 .
@@ -798,7 +781,7 @@ marionette
 .
 switch_to_window
 (
-tab
+new_tab
 )
         
 self
