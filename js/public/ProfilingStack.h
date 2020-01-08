@@ -956,7 +956,8 @@ namespace
 JS
 {
 typedef
-void
+ProfilingStack
+*
 (
 *
 RegisterThreadCallback
