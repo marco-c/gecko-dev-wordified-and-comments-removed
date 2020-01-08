@@ -4051,7 +4051,7 @@ unstructured_flavors
 :
             
 return
-False
+True
         
 if
 suite_category
