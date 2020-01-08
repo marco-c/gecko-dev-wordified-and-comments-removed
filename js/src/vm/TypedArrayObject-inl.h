@@ -1497,6 +1497,7 @@ target
 source
 )
 )
+{
 return
 setFromOverlappingTypedArray
 (
@@ -1505,6 +1506,7 @@ source
 offset
 )
 ;
+}
 SharedMem
 <
 T
@@ -1672,6 +1674,7 @@ count
 +
 i
 )
+{
 Ops
 :
 :
@@ -1697,6 +1700,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -1747,6 +1751,7 @@ count
 +
 i
 )
+{
 Ops
 :
 :
@@ -1772,6 +1777,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -1816,6 +1822,7 @@ count
 +
 i
 )
+{
 Ops
 :
 :
@@ -1841,6 +1848,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -1885,6 +1893,7 @@ count
 +
 i
 )
+{
 Ops
 :
 :
@@ -1910,6 +1919,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -1954,6 +1964,7 @@ count
 +
 i
 )
+{
 Ops
 :
 :
@@ -1979,6 +1990,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -2023,6 +2035,7 @@ count
 +
 i
 )
+{
 Ops
 :
 :
@@ -2048,6 +2061,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -2092,6 +2106,7 @@ count
 +
 i
 )
+{
 Ops
 :
 :
@@ -2117,6 +2132,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -2161,6 +2177,7 @@ count
 +
 i
 )
+{
 Ops
 :
 :
@@ -2186,6 +2203,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -2427,8 +2445,10 @@ i
 ]
 )
 )
+{
 break
 ;
+}
 Ops
 :
 :
@@ -2454,9 +2474,11 @@ i
 =
 len
 )
+{
 return
 true
 ;
+}
 }
 RootedValue
 v
@@ -2489,9 +2511,11 @@ i
 v
 )
 )
+{
 return
 false
 ;
+}
 T
 n
 ;
@@ -2506,9 +2530,11 @@ v
 n
 )
 )
+{
 return
 false
 ;
+}
 len
 =
 Min
@@ -2529,8 +2555,10 @@ i
 =
 len
 )
+{
 break
 ;
+}
 SharedMem
 <
 T
@@ -2740,8 +2768,10 @@ i
 ]
 )
 )
+{
 break
 ;
+}
 Ops
 :
 :
@@ -2767,9 +2797,11 @@ i
 =
 len
 )
+{
 return
 true
 ;
+}
 AutoValueVector
 values
 (
@@ -2791,9 +2823,11 @@ len
 i
 )
 )
+{
 return
 false
 ;
+}
 RootedValue
 v
 (
@@ -2844,9 +2878,11 @@ v
 n
 )
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 i
@@ -3175,9 +3211,11 @@ if
 !
 data
 )
+{
 return
 false
 ;
+}
 Ops
 :
 :
@@ -3248,6 +3286,7 @@ len
 +
 i
 )
+{
 Ops
 :
 :
@@ -3268,6 +3307,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -3312,6 +3352,7 @@ len
 +
 i
 )
+{
 Ops
 :
 :
@@ -3332,6 +3373,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -3370,6 +3412,7 @@ len
 +
 i
 )
+{
 Ops
 :
 :
@@ -3390,6 +3433,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -3428,6 +3472,7 @@ len
 +
 i
 )
+{
 Ops
 :
 :
@@ -3448,6 +3493,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -3486,6 +3532,7 @@ len
 +
 i
 )
+{
 Ops
 :
 :
@@ -3506,6 +3553,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -3544,6 +3592,7 @@ len
 +
 i
 )
+{
 Ops
 :
 :
@@ -3564,6 +3613,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -3602,6 +3652,7 @@ len
 +
 i
 )
+{
 Ops
 :
 :
@@ -3622,6 +3673,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -3660,6 +3712,7 @@ len
 +
 i
 )
+{
 Ops
 :
 :
@@ -3680,6 +3733,7 @@ src
 )
 )
 ;
+}
 break
 ;
 }
@@ -3766,6 +3820,7 @@ isInt32
 (
 )
 )
+{
 return
 T
 (
@@ -3776,6 +3831,7 @@ toInt32
 )
 )
 ;
+}
 if
 (
 v
@@ -3784,6 +3840,7 @@ isDouble
 (
 )
 )
+{
 return
 doubleToNative
 (
@@ -3794,6 +3851,7 @@ toDouble
 )
 )
 ;
+}
 if
 (
 v
@@ -3802,6 +3860,7 @@ isBoolean
 (
 )
 )
+{
 return
 T
 (
@@ -3812,6 +3871,7 @@ toBoolean
 )
 )
 ;
+}
 if
 (
 v
@@ -3820,12 +3880,14 @@ isNull
 (
 )
 )
+{
 return
 T
 (
 0
 )
 ;
+}
 MOZ_ASSERT
 (
 v
@@ -3963,9 +4025,11 @@ d
 )
 )
 )
+{
 return
 false
 ;
+}
 *
 result
 =
@@ -4031,12 +4095,14 @@ d
 )
 )
 )
+{
 return
 T
 (
 0
 )
 ;
+}
 if
 (
 TypeIDOfType
@@ -4053,12 +4119,14 @@ Scalar
 :
 Uint8Clamped
 )
+{
 return
 T
 (
 d
 )
 ;
+}
 if
 (
 TypeIsUnsigned
@@ -4068,6 +4136,7 @@ T
 (
 )
 )
+{
 return
 T
 (
@@ -4080,6 +4149,7 @@ d
 )
 )
 ;
+}
 return
 T
 (
@@ -4126,6 +4196,7 @@ nbytes
 =
 0
 )
+{
 nbytes
 +
 =
@@ -4134,6 +4205,7 @@ sizeof
 uint8_t
 )
 ;
+}
 size_t
 dataSlots
 =

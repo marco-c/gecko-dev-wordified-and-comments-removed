@@ -236,9 +236,11 @@ compilationId
 =
 id_
 )
+{
 return
 nullptr
 ;
+}
 return
 script_
 -
@@ -269,9 +271,11 @@ IsAboutToBeFinalizedUnbarriered
 script_
 )
 )
+{
 return
 true
 ;
+}
 MOZ_ASSERT
 (
 script_
@@ -311,9 +315,11 @@ ref
 =
 id_
 )
+{
 return
 false
 ;
+}
 return
 maybeIonScriptToInvalidate
 (
@@ -357,6 +363,7 @@ isSingleton
 (
 )
 )
+{
 return
 (
 ObjectKey
@@ -371,6 +378,7 @@ obj
 1
 )
 ;
+}
 return
 (
 ObjectKey
@@ -417,6 +425,7 @@ singleton
 (
 )
 )
+{
 return
 (
 ObjectKey
@@ -436,6 +445,7 @@ singleton
 1
 )
 ;
+}
 return
 (
 ObjectKey
@@ -596,6 +606,7 @@ isSingleton
 (
 )
 )
+{
 return
 singletonNoBarrier
 (
@@ -606,6 +617,7 @@ compartment
 (
 )
 ;
+}
 return
 groupNoBarrier
 (
@@ -641,6 +653,7 @@ isSingleton
 (
 )
 )
+{
 return
 Type
 (
@@ -652,6 +665,7 @@ obj
 1
 )
 ;
+}
 return
 Type
 (
@@ -691,6 +705,7 @@ singleton
 (
 )
 )
+{
 return
 Type
 (
@@ -707,6 +722,7 @@ singleton
 1
 )
 ;
+}
 return
 Type
 (
@@ -766,6 +782,7 @@ isDouble
 (
 )
 )
+{
 return
 TypeSet
 :
@@ -774,6 +791,7 @@ DoubleType
 (
 )
 ;
+}
 if
 (
 val
@@ -782,6 +800,7 @@ isObject
 (
 )
 )
+{
 return
 TypeSet
 :
@@ -796,6 +815,7 @@ toObject
 )
 )
 ;
+}
 return
 TypeSet
 :
@@ -1244,8 +1264,10 @@ types
 .
 activeAnalysis
 )
+{
 return
 ;
+}
 zone
 -
 >
@@ -1264,6 +1286,7 @@ empty
 (
 )
 )
+{
 zone
 -
 >
@@ -1275,6 +1298,7 @@ freeOp
 pendingRecompiles
 )
 ;
+}
 }
 private
 :
@@ -1464,6 +1488,7 @@ types
 sweep
 )
 )
+{
 TypeMonitorCallSlow
 (
 cx
@@ -1477,6 +1502,7 @@ args
 constructing
 )
 ;
+}
 }
 }
 }
@@ -1513,9 +1539,11 @@ unknownPropertiesDontCheckGeneration
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 obj
@@ -1540,9 +1568,11 @@ maybeGetPropertyDontCheckGeneration
 id
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -1602,9 +1632,11 @@ isSingleton
 (
 )
 )
+{
 return
 true
 ;
+}
 AutoSweepObjectGroup
 sweep
 (
@@ -1631,9 +1663,11 @@ unknownProperties
 sweep
 )
 )
+{
 return
 true
 ;
+}
 HeapTypeSet
 *
 types
@@ -1731,9 +1765,11 @@ hasType
 type
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 obj
@@ -1752,9 +1788,11 @@ nonConstantProperty
 (
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -1795,9 +1833,11 @@ obj
 id
 )
 )
+{
 return
 true
 ;
+}
 return
 HasTrackedPropertyType
 (
@@ -1921,6 +1961,7 @@ id
 type
 )
 )
+{
 AddTypePropertyId
 (
 cx
@@ -1935,6 +1976,7 @@ id
 type
 )
 ;
+}
 }
 MOZ_ALWAYS_INLINE
 void
@@ -1993,8 +2035,10 @@ hasLazyGroup
 (
 )
 )
+{
 return
 ;
+}
 AutoSweepObjectGroup
 sweep
 (
@@ -2023,6 +2067,7 @@ sweep
 flags
 )
 )
+{
 obj
 -
 >
@@ -2038,6 +2083,7 @@ cx
 flags
 )
 ;
+}
 }
 inline
 void
@@ -2068,6 +2114,7 @@ unknownProperties
 sweep
 )
 )
+{
 obj
 -
 >
@@ -2077,6 +2124,7 @@ sweep
 cx
 )
 ;
+}
 }
 inline
 void
@@ -2107,6 +2155,7 @@ obj
 id
 )
 )
+{
 obj
 -
 >
@@ -2122,6 +2171,7 @@ obj
 id
 )
 ;
+}
 }
 inline
 void
@@ -2152,6 +2202,7 @@ obj
 id
 )
 )
+{
 obj
 -
 >
@@ -2167,6 +2218,7 @@ obj
 id
 )
 ;
+}
 }
 inline
 void
@@ -2189,8 +2241,10 @@ hasLazyGroup
 (
 )
 )
+{
 return
 ;
+}
 AutoSweepObjectGroup
 sweep
 (
@@ -2218,6 +2272,7 @@ unknownProperties
 sweep
 )
 )
+{
 obj
 -
 >
@@ -2232,6 +2287,7 @@ sweep
 cx
 )
 ;
+}
 }
 extern
 void
@@ -2332,6 +2388,7 @@ functionNonDelazifying
 (
 )
 )
+{
 num
 +
 =
@@ -2342,6 +2399,7 @@ nargs
 (
 )
 ;
+}
 return
 num
 ;
@@ -2579,12 +2637,14 @@ hint
 =
 offset
 )
+{
 return
 typeArray
 +
 *
 hint
 ;
+}
 size_t
 loc
 ;
@@ -2701,9 +2761,11 @@ if
 !
 types
 )
+{
 return
 nullptr
 ;
+}
 uint32_t
 *
 hint
@@ -2918,6 +2980,7 @@ hasType
 type
 )
 )
+{
 TypeMonitorResult
 (
 cx
@@ -2927,6 +2990,7 @@ types
 type
 )
 ;
+}
 }
 inline
 void
@@ -2967,8 +3031,10 @@ id
 i
 )
 )
+{
 return
 ;
+}
 ObjectGroup
 *
 group
@@ -2991,8 +3057,10 @@ basePropertyCountDontCheckGeneration
 <
 128
 )
+{
 return
 ;
+}
 MarkObjectGroupUnknownProperties
 (
 cx
@@ -3050,8 +3118,10 @@ if
 !
 types
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -3197,8 +3267,10 @@ if
 !
 types
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -3409,9 +3481,11 @@ count
 =
 SET_ARRAY_SIZE
 )
+{
 return
 SET_ARRAY_SIZE
 ;
+}
 return
 1u
 <
@@ -3638,6 +3712,7 @@ insertpos
 =
 key
 )
+{
 return
 &
 values
@@ -3645,6 +3720,7 @@ values
 insertpos
 ]
 ;
+}
 insertpos
 =
 (
@@ -3668,9 +3744,11 @@ count
 =
 SET_CAPACITY_OVERFLOW
 )
+{
 return
 nullptr
 ;
+}
 count
 +
 +
@@ -3728,9 +3806,11 @@ if
 !
 newValues
 )
+{
 return
 nullptr
 ;
+}
 mozilla
 :
 :
@@ -3821,6 +3901,7 @@ pos
 =
 nullptr
 )
+{
 pos
 =
 (
@@ -3835,6 +3916,7 @@ newCapacity
 1
 )
 ;
+}
 newValues
 [
 pos
@@ -3878,6 +3960,7 @@ insertpos
 =
 nullptr
 )
+{
 insertpos
 =
 (
@@ -3892,6 +3975,7 @@ newCapacity
 1
 )
 ;
+}
 return
 &
 values
@@ -3992,6 +4076,7 @@ oldData
 =
 key
 )
+{
 return
 (
 U
@@ -4001,6 +4086,7 @@ U
 &
 values
 ;
+}
 values
 =
 alloc
@@ -4138,6 +4224,7 @@ i
 =
 key
 )
+{
 return
 &
 values
@@ -4145,6 +4232,7 @@ values
 i
 ]
 ;
+}
 }
 if
 (
@@ -4215,9 +4303,11 @@ count
 =
 0
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 count
@@ -4225,6 +4315,7 @@ count
 =
 1
 )
+{
 return
 (
 KEY
@@ -4251,6 +4342,7 @@ values
 :
 nullptr
 ;
+}
 if
 (
 count
@@ -4306,12 +4398,14 @@ i
 =
 key
 )
+{
 return
 values
 [
 i
 ]
 ;
+}
 }
 return
 nullptr
@@ -4385,12 +4479,14 @@ pos
 =
 key
 )
+{
 return
 values
 [
 pos
 ]
 ;
+}
 pos
 =
 (
@@ -4663,6 +4759,7 @@ isSingletonUnchecked
 (
 )
 )
+{
 return
 singletonNoBarrier
 (
@@ -4673,12 +4770,14 @@ compartment
 (
 )
 ;
+}
 if
 (
 isGroupUnchecked
 (
 )
 )
+{
 return
 groupNoBarrier
 (
@@ -4689,6 +4788,7 @@ compartment
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -4711,9 +4811,11 @@ unknown
 (
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 type
@@ -4953,8 +5055,10 @@ flags
 &
 TYPE_FLAG_NON_DATA_PROPERTY
 )
+{
 return
 ;
+}
 flags
 |
 =
@@ -4993,8 +5097,10 @@ flags
 &
 TYPE_FLAG_NON_WRITABLE_PROPERTY
 )
+{
 return
 ;
+}
 flags
 |
 =
@@ -5033,8 +5139,10 @@ flags
 &
 TYPE_FLAG_NON_CONSTANT_PROPERTY
 )
+{
 return
 ;
+}
 flags
 |
 =
@@ -5081,6 +5189,7 @@ TypeHashSet
 :
 SET_ARRAY_SIZE
 )
+{
 return
 TypeHashSet
 :
@@ -5090,6 +5199,7 @@ Capacity
 count
 )
 ;
+}
 return
 count
 ;
@@ -5395,6 +5505,7 @@ getSingleton
 i
 )
 )
+{
 return
 object
 -
@@ -5403,6 +5514,7 @@ getClass
 (
 )
 ;
+}
 if
 (
 ObjectGroup
@@ -5414,6 +5526,7 @@ getGroup
 i
 )
 )
+{
 return
 group
 -
@@ -5422,6 +5535,7 @@ clasp
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -5649,9 +5763,11 @@ sweep
 id
 )
 )
+{
 return
 types
 ;
+}
 Property
 *
 base
@@ -5888,9 +6004,11 @@ if
 !
 prop
 )
+{
 return
 nullptr
 ;
+}
 prop
 -
 >
@@ -5973,6 +6091,7 @@ TypeHashSet
 :
 SET_ARRAY_SIZE
 )
+{
 return
 TypeHashSet
 :
@@ -5982,6 +6101,7 @@ Capacity
 count
 )
 ;
+}
 return
 count
 ;
@@ -6061,6 +6181,7 @@ if
 (
 result
 )
+{
 result
 -
 >
@@ -6070,6 +6191,7 @@ checkMagic
 (
 )
 ;
+}
 return
 result
 ;
@@ -6107,6 +6229,7 @@ needsSweep
 (
 )
 )
+{
 group
 -
 >
@@ -6117,6 +6240,7 @@ this
 oom
 )
 ;
+}
 }
 #
 ifdef
@@ -6177,6 +6301,7 @@ typesNeedsSweep
 (
 )
 )
+{
 script
 -
 >
@@ -6187,6 +6312,7 @@ this
 oom
 )
 ;
+}
 }
 #
 ifdef

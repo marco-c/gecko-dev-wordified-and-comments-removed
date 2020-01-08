@@ -202,9 +202,11 @@ IsRecordingOrReplaying
 (
 )
 )
+{
 return
 0
 ;
+}
 return
 __rdtsc
 (
@@ -237,9 +239,11 @@ IsRecordingOrReplaying
 (
 )
 )
+{
 return
 0
 ;
+}
 uint64_t
 x
 ;
@@ -292,9 +296,11 @@ IsRecordingOrReplaying
 (
 )
 )
+{
 return
 0
 ;
+}
 unsigned
 hi
 lo
