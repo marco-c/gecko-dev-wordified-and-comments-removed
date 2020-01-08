@@ -960,6 +960,11 @@ ATTR_XML_LANG
 static
 nsHtml5AttributeName
 *
+ATTR_XML_BASE
+;
+static
+nsHtml5AttributeName
+*
 ATTR_ARIA_GRAB
 ;
 static
