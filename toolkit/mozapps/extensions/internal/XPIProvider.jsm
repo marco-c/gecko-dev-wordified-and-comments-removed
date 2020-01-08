@@ -4681,6 +4681,10 @@ Object
 values
 (
 state
+|
+|
+{
+}
 )
 )
 {
@@ -4696,6 +4700,10 @@ values
 location
 .
 addons
+|
+|
+{
+}
 )
 )
 {
