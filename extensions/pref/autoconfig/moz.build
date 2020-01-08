@@ -90,9 +90,6 @@ DIRS
 =
 [
 '
-public
-'
-'
 src
 '
 ]
