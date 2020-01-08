@@ -1153,16 +1153,6 @@ not
 finding
 actionable
 regressions
-marionette
--
-gpu
--
-tests
-:
--
-marionette
--
-gpu
 macosx64
 -
 tests
