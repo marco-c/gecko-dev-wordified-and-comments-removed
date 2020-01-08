@@ -5,9 +5,7 @@
 -
 Mode
 :
-C
-+
-+
+IDL
 ;
 tab
 -
@@ -29,7 +27,7 @@ basic
 -
 offset
 :
-4
+2
 -
 *
 -
@@ -537,10 +535,10 @@ getEntryAtIndex
 (
 in
 long
-index
+aIndex
 in
 boolean
-modifyIndex
+aModifyIndex
 )
 ;
 /
@@ -645,6 +643,7 @@ NS_SUCCESS_LOSS_OF_INSIGNIFICANT_DATA
 /
 code
 >
+*
 Purge
 was
 vetod
@@ -674,14 +673,13 @@ of
 history
 .
 *
-*
 /
 void
 PurgeHistory
 (
 in
 long
-numEntries
+aNumEntries
 )
 ;
 /
