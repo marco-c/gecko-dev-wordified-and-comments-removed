@@ -98,14 +98,6 @@ gMozCrashReason
 MOZ_END_EXTERN_C
 #
 if
-!
-defined
-(
-DEBUG
-)
-&
-&
-(
 defined
 (
 MOZ_HAS_MOZGLUE
@@ -115,7 +107,6 @@ MOZ_HAS_MOZGLUE
 defined
 (
 MOZILLA_INTERNAL_API
-)
 )
 static
 inline
