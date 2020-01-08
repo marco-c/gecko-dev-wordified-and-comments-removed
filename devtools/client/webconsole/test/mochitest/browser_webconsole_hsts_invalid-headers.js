@@ -476,7 +476,7 @@ text
 .
 message
 .
-warning
+warn
 "
 )
 ;

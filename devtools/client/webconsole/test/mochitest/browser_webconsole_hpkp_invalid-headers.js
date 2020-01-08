@@ -702,7 +702,7 @@ text
 .
 message
 .
-warning
+warn
 "
 )
 ;
