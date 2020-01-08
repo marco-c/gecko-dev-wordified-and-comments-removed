@@ -2416,6 +2416,7 @@ length
 (
 )
 >
+=
 sizeof
 (
 size_t
@@ -2494,6 +2495,8 @@ indexOffset
 ;
 bool
 ret
+=
+true
 ;
 size_t
 offset
