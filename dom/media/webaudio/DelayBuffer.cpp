@@ -408,15 +408,6 @@ WEBAUDIO_BLOCK_SIZE
 )
 ;
 }
-mCurrentDelay
-=
-aPerFrameDelays
-[
-WEBAUDIO_BLOCK_SIZE
--
-1
-]
-;
 }
 void
 DelayBuffer

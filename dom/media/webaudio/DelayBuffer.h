@@ -59,13 +59,6 @@ double
 aMaxDelayTicks
 )
 :
-mCurrentDelay
-(
--
-1
-.
-0
-)
 mMaxDelayTicks
 (
 ceil
@@ -210,13 +203,6 @@ Clear
 (
 )
 ;
-mCurrentDelay
-=
--
-1
-.
-0
-;
 }
 ;
 int
@@ -317,9 +303,6 @@ float
 GUESS_AUDIO_CHANNELS
 >
 mUpmixChannels
-;
-double
-mCurrentDelay
 ;
 int
 mMaxDelayTicks
