@@ -274,7 +274,7 @@ browser
 .
 test
 .
-notifyPass
+sendMessage
 (
 "
 contextmenus
@@ -394,7 +394,7 @@ startup
 await
 extension
 .
-awaitFinish
+awaitMessage
 (
 "
 contextmenus
@@ -839,7 +839,7 @@ browser
 .
 test
 .
-notifyPass
+sendMessage
 (
 "
 extra
@@ -1049,7 +1049,7 @@ items
 await
 extension
 .
-awaitFinish
+awaitMessage
 (
 "
 extra
