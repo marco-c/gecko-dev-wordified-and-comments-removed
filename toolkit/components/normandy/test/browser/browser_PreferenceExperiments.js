@@ -5944,6 +5944,10 @@ absent
 ;
 }
 )
+.
+skip
+(
+)
 ;
 decorate_task
 (
