@@ -116,6 +116,8 @@ size_t
 )
 *
 1024
+-
+8192
 ;
 }
 WorkerThreadFriendKey
