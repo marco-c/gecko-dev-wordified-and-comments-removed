@@ -4221,7 +4221,7 @@ attribute
 started
       
 Boolean
-indictating
+indicating
 whether
 the
 server
