@@ -169,6 +169,11 @@ birch
 [
 145
 ]
+jamun
+:
+[
+724
+]
 mozilla
 -
 beta
@@ -182,6 +187,12 @@ release
 :
 [
 145
+]
+mozilla
+-
+esr60
+:
+[
 ]
 default
 :

@@ -390,6 +390,12 @@ release
 '
         
 '
+mozilla
+-
+esr60
+'
+        
+'
 comm
 -
 beta
@@ -573,6 +579,12 @@ release
 '
         
 '
+mozilla
+-
+esr60
+'
+        
+'
 comm
 -
 central
@@ -604,6 +616,12 @@ beta
 mozilla
 -
 release
+'
+        
+'
+mozilla
+-
+esr60
 '
     
 ]
@@ -1156,6 +1174,24 @@ release
 [
     
 '
+esr60
+'
+set
+(
+[
+        
+'
+mozilla
+-
+esr60
+'
+    
+]
+)
+]
+[
+    
+'
 esr
 '
 set
@@ -1242,6 +1278,18 @@ release
     
 '
 esr
+'
+:
+'
+balrog
+:
+server
+:
+esr
+'
+    
+'
+esr60
 '
 :
 '
