@@ -254,6 +254,13 @@ dom
 /
 base
 '
+'
+/
+xpcom
+/
+base
+/
+'
 ]
 include
 (
