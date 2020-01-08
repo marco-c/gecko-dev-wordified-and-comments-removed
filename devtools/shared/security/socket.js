@@ -3158,7 +3158,7 @@ _listener
 .
 _debuggerServer
 .
-closeAllListeners
+closeAllSocketListeners
 (
 )
 ;

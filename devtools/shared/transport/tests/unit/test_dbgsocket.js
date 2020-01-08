@@ -445,7 +445,7 @@ ok
 (
 DebuggerServer
 .
-closeAllListeners
+closeAllSocketListeners
 (
 )
 )
@@ -467,7 +467,7 @@ ok
 !
 DebuggerServer
 .
-closeAllListeners
+closeAllSocketListeners
 (
 )
 )

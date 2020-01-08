@@ -468,7 +468,7 @@ destroy
 ;
 this
 .
-closeAllListeners
+closeAllSocketListeners
 (
 )
 ;
@@ -882,7 +882,7 @@ _onSocketListenerAccepted
 )
 ;
 }
-closeAllListeners
+closeAllSocketListeners
 (
 )
 {
