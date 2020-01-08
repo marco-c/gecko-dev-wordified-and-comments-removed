@@ -8461,7 +8461,7 @@ true
 }
 )
 ;
-win
+doc
 .
 dispatchEvent
 (
