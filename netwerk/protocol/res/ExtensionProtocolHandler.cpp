@@ -845,6 +845,10 @@ mResolve
 mFD
 )
 ;
+mResolve
+=
+nullptr
+;
 return
 NS_OK
 ;
