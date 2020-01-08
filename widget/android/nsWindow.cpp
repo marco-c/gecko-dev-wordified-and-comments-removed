@@ -4145,7 +4145,7 @@ LayerViewSupport
 final
 :
 public
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4173,7 +4173,7 @@ LayerViewSupport
 >
 mWindow
 ;
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4356,7 +4356,7 @@ this
 public
 :
 typedef
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4374,7 +4374,7 @@ LayerViewSupport
 FromNative
 (
 const
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4404,7 +4404,7 @@ nsWindow
 *
 aWindow
 const
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4476,7 +4476,7 @@ GetAndroidUiThread
 )
 )
 {
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4544,7 +4544,7 @@ Run
 }
 }
 const
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4872,7 +4872,7 @@ void
 SyncResumeResizeCompositor
 (
 const
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4945,7 +4945,7 @@ nsAppShell
 :
 Event
 {
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -4959,7 +4959,7 @@ public
 explicit
 OnResumedEvent
 (
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -5015,7 +5015,7 @@ lvs
 =
 GetNative
 (
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -5421,7 +5421,7 @@ aMessage
 auto
 compositor
 =
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -5585,7 +5585,7 @@ int
 auto
 compositor
 =
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -6566,7 +6566,7 @@ GetJavaNPZC
 auto
 compositor
 =
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -6579,7 +6579,7 @@ inst
 Env
 (
 )
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -6782,7 +6782,7 @@ Transfer
 [
 compositor
 =
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -9735,7 +9735,7 @@ UpdateOverscrollVelocity
 [
 compositor
 =
-LayerSession
+GeckoSession
 :
 :
 Compositor
@@ -9837,7 +9837,7 @@ UpdateOverscrollOffset
 [
 compositor
 =
-LayerSession
+GeckoSession
 :
 :
 Compositor

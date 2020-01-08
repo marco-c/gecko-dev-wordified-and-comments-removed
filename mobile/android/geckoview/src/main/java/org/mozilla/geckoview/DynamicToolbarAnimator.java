@@ -155,12 +155,12 @@ class
 ;
 private
 final
-LayerSession
+GeckoSession
 mTarget
 ;
 private
 final
-LayerSession
+GeckoSession
 .
 Compositor
 mCompositor
@@ -176,7 +176,7 @@ mMaxToolbarHeight
 DynamicToolbarAnimator
 (
 final
-LayerSession
+GeckoSession
 aTarget
 )
 {
@@ -444,11 +444,11 @@ sendToolbarAnimatorMessage
 (
 immediately
 ?
-LayerSession
+GeckoSession
 .
 REQUEST_SHOW_TOOLBAR_IMMEDIATELY
 :
-LayerSession
+GeckoSession
 .
 REQUEST_SHOW_TOOLBAR_ANIMATED
 )
@@ -484,11 +484,11 @@ sendToolbarAnimatorMessage
 (
 immediately
 ?
-LayerSession
+GeckoSession
 .
 REQUEST_HIDE_TOOLBAR_IMMEDIATELY
 :
-LayerSession
+GeckoSession
 .
 REQUEST_HIDE_TOOLBAR_ANIMATED
 )
@@ -528,7 +528,7 @@ mCompositor
 .
 sendToolbarAnimatorMessage
 (
-LayerSession
+GeckoSession
 .
 REQUEST_SHOW_TOOLBAR_IMMEDIATELY
 )
@@ -540,7 +540,7 @@ mCompositor
 .
 sendToolbarAnimatorMessage
 (
-LayerSession
+GeckoSession
 .
 REQUEST_HIDE_TOOLBAR_IMMEDIATELY
 )
@@ -609,7 +609,7 @@ message
 )
 {
 case
-LayerSession
+GeckoSession
 .
 STATIC_TOOLBAR_NEEDS_UPDATE
 :
@@ -636,7 +636,7 @@ mCompositor
 .
 sendToolbarAnimatorMessage
 (
-LayerSession
+GeckoSession
 .
 TOOLBAR_SNAPSHOT_FAILED
 )
@@ -732,7 +732,7 @@ mCompositor
 .
 sendToolbarAnimatorMessage
 (
-LayerSession
+GeckoSession
 .
 TOOLBAR_SNAPSHOT_FAILED
 )
@@ -742,7 +742,7 @@ break
 ;
 }
 case
-LayerSession
+GeckoSession
 .
 STATIC_TOOLBAR_READY
 :
@@ -758,7 +758,7 @@ mCompositor
 .
 sendToolbarAnimatorMessage
 (
-LayerSession
+GeckoSession
 .
 TOOLBAR_HIDDEN
 )
@@ -767,7 +767,7 @@ break
 ;
 }
 case
-LayerSession
+GeckoSession
 .
 TOOLBAR_SHOW
 :
@@ -783,7 +783,7 @@ mCompositor
 .
 sendToolbarAnimatorMessage
 (
-LayerSession
+GeckoSession
 .
 TOOLBAR_VISIBLE
 )

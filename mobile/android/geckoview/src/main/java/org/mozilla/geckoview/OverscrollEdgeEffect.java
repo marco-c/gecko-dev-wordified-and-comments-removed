@@ -154,7 +154,7 @@ EdgeEffect
 ;
 private
 final
-LayerSession
+GeckoSession
 mSession
 ;
 private
@@ -172,7 +172,7 @@ mHeight
 OverscrollEdgeEffect
 (
 final
-LayerSession
+GeckoSession
 session
 )
 {

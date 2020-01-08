@@ -129,7 +129,7 @@ EVENT_SOURCE_MOUSE
 ;
 private
 final
-LayerSession
+GeckoSession
 mSession
 ;
 private
@@ -877,7 +877,7 @@ protected
 PanZoomController
 (
 final
-LayerSession
+GeckoSession
 session
 )
 {

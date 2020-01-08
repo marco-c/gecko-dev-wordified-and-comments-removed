@@ -71,7 +71,7 @@ CompositorController
 {
 private
 final
-LayerSession
+GeckoSession
 .
 Compositor
 mCompositor
@@ -118,7 +118,7 @@ mFirstPaintCallback
 CompositorController
 (
 final
-LayerSession
+GeckoSession
 session
 )
 {
