@@ -56,7 +56,7 @@ MaxDelayTimeSeconds
 =
 0
 .
-002
+002f
 ;
 const
 int
