@@ -21231,6 +21231,14 @@ mLayerState
 =
 =
 LAYER_INACTIVE
+|
+|
+item
+-
+>
+NeedsGeometryUpdates
+(
+)
 )
 {
 geometry
