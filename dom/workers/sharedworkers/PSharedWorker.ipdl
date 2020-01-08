@@ -60,6 +60,9 @@ include
 protocol
 PBackground
 ;
+include
+SharedWorkerTypes
+;
 namespace
 mozilla
 {
@@ -104,8 +107,13 @@ child
 async
 Error
 (
-nsresult
-error
+ErrorValue
+value
+)
+;
+async
+Terminate
+(
 )
 ;
 async

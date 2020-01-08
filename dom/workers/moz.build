@@ -152,6 +152,11 @@ WorkerDebuggerManager
 h
 '
 '
+WorkerError
+.
+h
+'
+'
 WorkerHolder
 .
 h

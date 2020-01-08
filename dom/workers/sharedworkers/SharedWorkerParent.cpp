@@ -77,6 +77,10 @@ mStatus
 (
 eInit
 )
+mWindowID
+(
+0
+)
 mSuspended
 (
 false
@@ -173,6 +177,14 @@ GetOrCreate
 MOZ_ASSERT
 (
 mService
+)
+;
+mWindowID
+=
+aInfo
+.
+windowID
+(
 )
 ;
 mStatus

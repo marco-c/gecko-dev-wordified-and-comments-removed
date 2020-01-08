@@ -104,6 +104,11 @@ SharedWorkerChild
 h
 '
 '
+SharedWorkerManager
+.
+h
+'
+'
 SharedWorkerParent
 .
 h
