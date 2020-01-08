@@ -4968,6 +4968,16 @@ host
 "
 mochitests
 "
+&
+&
+contentLocation
+.
+host
+!
+=
+"
+devtools
+"
 )
 {
 return
