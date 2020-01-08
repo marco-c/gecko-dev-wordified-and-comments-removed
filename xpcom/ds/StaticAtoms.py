@@ -2892,6 +2892,16 @@ del
 Atom
 (
 "
+deprecation
+"
+"
+deprecation
+"
+)
+    
+Atom
+(
+"
 descendant
 "
 "
