@@ -194,7 +194,7 @@ plugins
 /
 base
 /
-snNPAPIPlugin
+nsNPAPIPlugin
 .
 cpp
 '
