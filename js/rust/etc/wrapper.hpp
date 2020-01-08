@@ -40,6 +40,15 @@ include
 "
 js
 /
+CompileOptions
+.
+h
+"
+#
+include
+"
+js
+/
 Conversions
 .
 h
