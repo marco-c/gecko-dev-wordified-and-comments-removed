@@ -2061,7 +2061,6 @@ Infinity
 Infinity
 {
 }
-undefined
 ]
 ;
 invalidFreqs
