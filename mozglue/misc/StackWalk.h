@@ -77,9 +77,16 @@ _M_AMD64
 )
 |
 |
+\
 defined
 (
 _M_IA64
+)
+|
+|
+defined
+(
+_M_ARM64
 )
 )
 #
