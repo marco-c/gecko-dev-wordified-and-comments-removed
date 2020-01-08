@@ -256,6 +256,8 @@ VideoInfo
 info
 float
 framerate
+bool
+disallowHWDecoder
 TextureFactoryIdentifier
 identifier
 )

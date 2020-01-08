@@ -105,6 +105,10 @@ float
 &
 aFramerate
 const
+bool
+&
+aDisallowHWDecoder
+const
 layers
 :
 :

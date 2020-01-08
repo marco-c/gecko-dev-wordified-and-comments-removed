@@ -885,6 +885,10 @@ float
 &
 aFramerate
 const
+bool
+&
+aDisallowHWDecoder
+const
 layers
 :
 :
@@ -939,6 +943,7 @@ VideoDecoderParent
 this
 aVideoInfo
 aFramerate
+aDisallowHWDecoder
 aIdentifier
 sManagerTaskQueue
 decodeTaskQueue

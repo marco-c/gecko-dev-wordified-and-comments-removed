@@ -96,6 +96,8 @@ VideoInfo
 aVideoInfo
 float
 aFramerate
+bool
+aDisallowHWDecoder
 const
 layers
 :
