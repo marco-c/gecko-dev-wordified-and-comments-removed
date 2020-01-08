@@ -86,15 +86,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 BackgroundParent

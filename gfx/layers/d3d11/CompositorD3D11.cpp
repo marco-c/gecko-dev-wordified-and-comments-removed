@@ -176,15 +176,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 widget
 /
 WinCompositorWidget

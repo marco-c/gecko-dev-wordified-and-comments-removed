@@ -36,15 +36,6 @@ h
 #
 include
 "
-mozilla
-/
-Services
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h

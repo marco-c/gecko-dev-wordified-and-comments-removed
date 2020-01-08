@@ -10,15 +10,6 @@ h
 #
 include
 "
-mozilla
-/
-Services
-.
-h
-"
-#
-include
-"
 nsCollationCID
 .
 h

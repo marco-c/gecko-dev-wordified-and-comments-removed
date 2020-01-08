@@ -277,15 +277,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs
 .
 h

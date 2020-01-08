@@ -150,15 +150,6 @@ h
 #
 include
 "
-mozilla
-/
-Services
-.
-h
-"
-#
-include
-"
 nsWindowsHelpers
 .
 h

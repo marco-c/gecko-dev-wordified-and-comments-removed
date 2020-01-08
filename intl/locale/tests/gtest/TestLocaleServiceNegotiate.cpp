@@ -21,15 +21,6 @@ h
 #
 include
 "
-mozilla
-/
-Services
-.
-h
-"
-#
-include
-"
 nsIToolkitChromeRegistry
 .
 h

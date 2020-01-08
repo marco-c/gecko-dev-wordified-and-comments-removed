@@ -58,15 +58,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BinarySearch
 .
 h

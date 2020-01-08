@@ -48,15 +48,6 @@ h
 #
 include
 "
-mozilla
-/
-Services
-.
-h
-"
-#
-include
-"
 nsIDOMWakeLockListener
 .
 h

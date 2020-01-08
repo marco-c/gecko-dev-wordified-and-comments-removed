@@ -15,15 +15,6 @@ h
 #
 include
 "
-mozilla
-/
-Services
-.
-h
-"
-#
-include
-"
 AndroidBridge
 .
 h

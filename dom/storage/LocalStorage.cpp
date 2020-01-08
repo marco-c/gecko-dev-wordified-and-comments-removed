@@ -132,15 +132,6 @@ include
 "
 mozilla
 /
-Services
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Preferences
 .
 h

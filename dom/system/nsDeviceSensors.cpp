@@ -86,15 +86,6 @@ h
 #
 include
 "
-mozilla
-/
-Services
-.
-h
-"
-#
-include
-"
 nsIPermissionManager
 .
 h
