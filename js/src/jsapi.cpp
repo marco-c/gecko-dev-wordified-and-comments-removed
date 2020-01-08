@@ -5699,7 +5699,7 @@ JSObject
 obj
 )
 {
-AssertHeapIsIdle
+AssertHeapIsIdleOrIterating
 (
 )
 ;
