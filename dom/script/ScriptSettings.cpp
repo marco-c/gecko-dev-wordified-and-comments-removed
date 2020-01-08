@@ -2363,6 +2363,14 @@ GetCurrentThreadWorkerGlobal
 ;
 }
 }
+MOZ_ASSERT
+(
+JS_IsGlobalObject
+(
+errorGlobal
+)
+)
+;
 JSAutoRealm
 ar
 (
@@ -2458,7 +2466,7 @@ win
 xpc
 :
 :
-WindowGlobalOrNull
+WindowOrNull
 (
 errorGlobal
 )

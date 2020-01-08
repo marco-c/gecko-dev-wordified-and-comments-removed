@@ -25,10 +25,10 @@ IsAPIEnabled
 (
 JSContext
 *
-cx
+aCx
 JSObject
 *
-obj
+aGlobal
 )
 ;
 static

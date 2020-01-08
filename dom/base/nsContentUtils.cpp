@@ -44133,6 +44133,14 @@ about
 0
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+JS_IsGlobalObject
+(
+aGlobal
+)
+)
+;
 nsGlobalWindowInner
 *
 win
@@ -44140,7 +44148,7 @@ win
 xpc
 :
 :
-WindowGlobalOrNull
+WindowOrNull
 (
 aGlobal
 )

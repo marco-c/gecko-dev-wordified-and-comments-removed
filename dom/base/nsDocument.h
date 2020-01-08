@@ -912,7 +912,7 @@ JSContext
 aCx
 JSObject
 *
-aObject
+aGlobal
 )
 ;
 static
