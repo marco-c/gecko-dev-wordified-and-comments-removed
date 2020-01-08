@@ -80,6 +80,9 @@ style
 "
 >
 use
+crate
+:
+:
 properties
 :
 :
@@ -93,6 +96,9 @@ list_style_type
 }
 ;
 use
+crate
+:
+:
 values
 :
 :
@@ -472,6 +478,9 @@ None
 else
 :
 use
+crate
+:
+:
 values
 :
 :

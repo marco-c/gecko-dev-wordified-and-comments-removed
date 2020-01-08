@@ -67,6 +67,9 @@ overflow
 "
 >
 use
+crate
+:
+:
 properties
 :
 :
@@ -90,6 +93,9 @@ gecko
 "
 :
 use
+crate
+:
+:
 properties
 :
 :
@@ -151,6 +157,9 @@ gecko
 "
 :
 use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -538,6 +547,9 @@ gecko
 "
 >
 use
+crate
+:
+:
 values
 :
 :
@@ -869,6 +881,9 @@ transition
 "
 >
 use
+crate
+:
+:
 parser
 :
 :
@@ -890,6 +905,9 @@ split
 )
 :
 use
+crate
+:
+:
 properties
 :
 :
@@ -904,6 +922,9 @@ prop
 %
 endfor
 use
+crate
+:
+:
 values
 :
 :
@@ -2010,6 +2031,9 @@ in
 props
 :
 use
+crate
+:
+:
 properties
 :
 :
@@ -2777,6 +2801,9 @@ type
 "
 >
 use
+crate
+:
+:
 properties
 :
 :
@@ -3084,6 +3111,9 @@ i
 >
 {
 use
+crate
+:
+:
 values
 :
 :
