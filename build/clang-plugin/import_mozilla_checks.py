@@ -737,7 +737,7 @@ txt
 )
                               
 '
-target_link_libraries
+PRIVATE
 '
 '
 clangTidyMozillaModule

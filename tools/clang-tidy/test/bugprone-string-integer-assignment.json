@@ -51,7 +51,7 @@ facility
 "
 \
 "
-misc
+bugprone
 -
 string
 -
@@ -112,7 +112,7 @@ facility
 "
 \
 "
-misc
+bugprone
 -
 string
 -

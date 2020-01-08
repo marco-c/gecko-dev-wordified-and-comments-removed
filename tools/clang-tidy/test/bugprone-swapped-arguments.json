@@ -40,7 +40,7 @@ arguments
 "
 \
 "
-misc
+bugprone
 -
 swapped
 -
@@ -88,7 +88,7 @@ arguments
 "
 \
 "
-misc
+bugprone
 -
 swapped
 -
@@ -136,7 +136,7 @@ arguments
 "
 \
 "
-misc
+bugprone
 -
 swapped
 -
@@ -184,7 +184,7 @@ arguments
 "
 \
 "
-misc
+bugprone
 -
 swapped
 -

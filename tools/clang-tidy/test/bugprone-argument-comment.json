@@ -27,7 +27,7 @@ x
 "
 \
 "
-misc
+bugprone
 -
 argument
 -
@@ -62,7 +62,7 @@ y
 "
 \
 "
-misc
+bugprone
 -
 argument
 -
