@@ -1771,14 +1771,13 @@ ShadowRoot
 shadowRoot
 ;
 [
-ChromeOnly
 Func
 =
 "
 nsDocument
 :
 :
-IsShadowDOMEnabled
+IsShadowDOMEnabledAndCallerIsChromeOrAddon
 "
 BinaryName
 =
