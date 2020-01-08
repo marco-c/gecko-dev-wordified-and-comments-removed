@@ -281,6 +281,16 @@ return
 mStackSize
 ;
 }
+uint32_t
+ThreadId
+(
+)
+const
+{
+return
+mThreadId
+;
+}
 bool
 ShutdownRequired
 (
@@ -633,6 +643,9 @@ mEventObservers
 ;
 int32_t
 mPriority
+;
+uint32_t
+mThreadId
 ;
 PRThread
 *
