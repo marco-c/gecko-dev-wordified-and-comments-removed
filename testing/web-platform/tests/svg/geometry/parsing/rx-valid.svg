@@ -286,6 +286,16 @@ rx
 "
 )
 ;
+test_valid_value
+(
+"
+rx
+"
+"
+5vw
+"
+)
+;
 ]
 ]
 >

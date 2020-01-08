@@ -275,6 +275,16 @@ cy
 "
 )
 ;
+test_valid_value
+(
+"
+cy
+"
+"
+5rem
+"
+)
+;
 ]
 ]
 >

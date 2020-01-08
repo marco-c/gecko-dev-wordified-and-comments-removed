@@ -275,6 +275,16 @@ cx
 "
 )
 ;
+test_valid_value
+(
+"
+cx
+"
+"
+5ch
+"
+)
+;
 ]
 ]
 >
