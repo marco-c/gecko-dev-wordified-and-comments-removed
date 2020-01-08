@@ -2320,6 +2320,13 @@ HasAnyNoncollapsedCharacters
 )
 override
 ;
+void
+NotifyNativeAnonymousTextnodeChange
+(
+uint32_t
+aOldLength
+)
+;
 protected
 :
 virtual
