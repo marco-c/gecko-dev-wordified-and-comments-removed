@@ -6663,6 +6663,12 @@ popup_border
 #
 ccc
 "
+tab_line
+:
+"
+#
+0a84ff
+"
 toolbarColor
 :
 "
@@ -6789,6 +6795,12 @@ popup_border
 "
 #
 27272b
+"
+tab_line
+:
+"
+#
+0a84ff
 "
 toolbarColor
 :
