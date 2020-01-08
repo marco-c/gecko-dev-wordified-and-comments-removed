@@ -1216,16 +1216,6 @@ AppUnitsPerPhysicalInch
 MM_PER_INCH_FLOAT
 )
 ;
-if
-(
-presShell
--
->
-ScaleToResolution
-(
-)
-)
-{
 result
 =
 result
@@ -1237,7 +1227,6 @@ GetResolution
 (
 )
 ;
-}
 return
 NSToCoordRound
 (

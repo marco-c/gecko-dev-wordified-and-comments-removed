@@ -1998,14 +1998,6 @@ hasResolution
 mPresShell
 -
 >
-ScaleToResolution
-(
-)
-&
-&
-mPresShell
--
->
 GetResolution
 (
 )

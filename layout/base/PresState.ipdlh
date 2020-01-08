@@ -255,9 +255,6 @@ float
 resolution
 ;
 bool
-scaleToResolution
-;
-bool
 disabledSet
 ;
 bool

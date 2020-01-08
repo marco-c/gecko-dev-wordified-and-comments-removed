@@ -333,9 +333,6 @@ aAllowScrollOriginDowngrade
 out
 float
 aRes
-out
-boolean
-aScaleToRes
 )
 ;
 /
@@ -380,9 +377,6 @@ aAllowScrollOriginDowngrade
 in
 float
 aRes
-in
-boolean
-aScaleToRes
 )
 ;
 /

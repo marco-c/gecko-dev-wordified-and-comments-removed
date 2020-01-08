@@ -1949,9 +1949,6 @@ inheritedYScale
 float
 presShellResolution
 ;
-bool
-scaleToResolution
-;
 }
 ;
 struct
