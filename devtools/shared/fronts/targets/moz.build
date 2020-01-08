@@ -95,6 +95,13 @@ context
 js
 '
 '
+content
+-
+process
+.
+js
+'
+'
 worker
 .
 js
