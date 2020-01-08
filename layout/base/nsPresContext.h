@@ -917,6 +917,11 @@ aRestyleHint
 )
 ;
 void
+ContentLanguageChanged
+(
+)
+;
+void
 MediaFeatureValuesChanged
 (
 const
