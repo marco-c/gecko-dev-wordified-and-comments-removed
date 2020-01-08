@@ -1306,12 +1306,12 @@ worker
 )
         
 env
-.
-setdefault
-(
+[
 '
 MOZ_FETCHES_DIR
 '
+]
+=
 '
 {
 }
@@ -1322,7 +1322,6 @@ fetches
 format
 (
 workdir
-)
 )
         
 yield
