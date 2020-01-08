@@ -657,7 +657,8 @@ f
 -
 >
 frame_hdr
-.
+-
+>
 cdef
 .
 damping
@@ -675,8 +676,6 @@ f
 -
 >
 cur
-.
-p
 .
 p
 .
@@ -794,8 +793,6 @@ f
 -
 >
 cur
-.
-p
 .
 stride
 8
@@ -939,7 +936,8 @@ f
 -
 >
 frame_hdr
-.
+-
+>
 cdef
 .
 y_strength
@@ -953,7 +951,8 @@ f
 -
 >
 frame_hdr
-.
+-
+>
 cdef
 .
 uv_strength
@@ -979,7 +978,8 @@ f
 -
 >
 frame_hdr
-.
+-
+>
 cdef
 .
 y_strength
@@ -995,7 +995,8 @@ f
 -
 >
 frame_hdr
-.
+-
+>
 cdef
 .
 uv_strength
@@ -1180,8 +1181,6 @@ f
 >
 cur
 .
-p
-.
 stride
 0
 layout
@@ -1207,8 +1206,6 @@ f
 -
 >
 cur
-.
-p
 .
 stride
 8
@@ -1321,8 +1318,6 @@ f
 >
 cur
 .
-p
-.
 stride
 [
 0
@@ -1354,8 +1349,6 @@ f
 -
 >
 cur
-.
-p
 .
 stride
 [
@@ -1455,8 +1448,6 @@ cur
 .
 p
 .
-p
-.
 layout
 !
 =
@@ -1520,8 +1511,6 @@ f
 -
 >
 cur
-.
-p
 .
 stride
 [
@@ -1703,8 +1692,6 @@ f
 >
 cur
 .
-p
-.
 stride
 [
 0
@@ -1725,8 +1712,6 @@ f
 -
 >
 cur
-.
-p
 .
 stride
 [
@@ -1751,8 +1736,6 @@ f
 -
 >
 cur
-.
-p
 .
 stride
 [

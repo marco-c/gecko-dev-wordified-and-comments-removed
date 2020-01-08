@@ -1345,7 +1345,8 @@ f
 -
 >
 seq_hdr
-.
+-
+>
 sb128
 ;
 const
@@ -1405,8 +1406,6 @@ cur
 .
 p
 .
-p
-.
 layout
 =
 =
@@ -1420,8 +1419,6 @@ f
 -
 >
 cur
-.
-p
 .
 p
 .
@@ -1559,7 +1556,8 @@ f
 -
 >
 frame_hdr
-.
+-
+>
 tiling
 .
 col_start_sb
@@ -1778,8 +1776,6 @@ f
 -
 >
 cur
-.
-p
 .
 p
 .
@@ -2193,8 +2189,6 @@ cur
 .
 p
 .
-p
-.
 layout
 !
 =
@@ -2449,8 +2443,6 @@ f
 >
 cur
 .
-p
-.
 stride
 [
 0
@@ -2546,8 +2538,6 @@ f
 >
 cur
 .
-p
-.
 stride
 [
 0
@@ -2576,7 +2566,8 @@ f
 -
 >
 frame_hdr
-.
+-
+>
 loopfilter
 .
 level_u
@@ -2587,7 +2578,8 @@ f
 -
 >
 frame_hdr
-.
+-
+>
 loopfilter
 .
 level_v
@@ -2699,8 +2691,6 @@ f
 -
 >
 cur
-.
-p
 .
 stride
 [
@@ -2830,8 +2820,6 @@ f
 -
 >
 cur
-.
-p
 .
 stride
 [

@@ -6,6 +6,13 @@ define
 __DAV1D_SRC_ITX_H__
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 common
 /

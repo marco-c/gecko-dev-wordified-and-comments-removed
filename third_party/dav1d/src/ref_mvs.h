@@ -129,7 +129,7 @@ ref_ref_poc
 7
 ]
 const
-WarpedMotionParams
+Dav1dWarpedMotionParams
 gmv
 [
 7
@@ -807,7 +807,7 @@ void
 fix_mv_precision
 (
 const
-Av1FrameHeader
+Dav1dFrameHeader
 *
 const
 hdr

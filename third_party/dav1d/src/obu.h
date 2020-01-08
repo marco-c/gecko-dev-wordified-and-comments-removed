@@ -31,6 +31,8 @@ c
 Dav1dData
 *
 in
+int
+global
 )
 ;
 #
