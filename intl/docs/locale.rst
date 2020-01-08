@@ -3603,9 +3603,9 @@ js
 :
 intl
 .
-locale
+regional_prefs
 .
-use_os_preferences
+use_os_locales
 to
 :
 js
