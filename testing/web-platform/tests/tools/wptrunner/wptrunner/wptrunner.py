@@ -193,6 +193,9 @@ args
 *
 kwargs
 )
+    
+return
+logger
 def
 get_loader
 (
