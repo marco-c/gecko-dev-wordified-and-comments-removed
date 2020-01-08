@@ -334,6 +334,10 @@ const
 Codec
 mCodec
 ;
+const
+bool
+mLowLatency
+;
 }
 ;
 }
