@@ -1275,7 +1275,7 @@ void
 emitPreBarrier
 (
 Register
-base
+elements
 const
 LAllocation
 *

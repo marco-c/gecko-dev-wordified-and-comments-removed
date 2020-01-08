@@ -2074,8 +2074,6 @@ undefLoopTop
 }
 BaseIndex
 b
-=
-BaseIndex
 (
 FramePointer
 esi
@@ -2434,8 +2432,6 @@ edi
 ;
 BaseIndex
 unwind
-=
-BaseIndex
 (
 esp
 ebx
