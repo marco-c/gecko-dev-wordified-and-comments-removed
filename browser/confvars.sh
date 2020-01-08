@@ -107,9 +107,6 @@ WINNT
 "
 ;
 then
-MOZ_MAINTENANCE_SERVICE
-=
-1
 if
 !
 test
