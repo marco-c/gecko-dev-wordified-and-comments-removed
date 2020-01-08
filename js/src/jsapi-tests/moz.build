@@ -489,6 +489,11 @@ testPropCache
 cpp
 '
 '
+testReadableStream
+.
+cpp
+'
+'
 testRegExp
 .
 cpp

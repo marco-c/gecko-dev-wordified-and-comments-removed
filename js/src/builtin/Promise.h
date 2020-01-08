@@ -621,12 +621,8 @@ OriginalPromiseThen
 JSContext
 *
 cx
-Handle
-<
-PromiseObject
-*
->
-promise
+HandleObject
+promiseObj
 HandleValue
 onFulfilled
 HandleValue

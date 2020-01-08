@@ -2958,7 +2958,7 @@ MOZ_ASSERT
 mBody
 -
 >
-BodyUsed
+CheckBodyUsed
 (
 )
 )
@@ -3483,7 +3483,7 @@ MOZ_ASSERT
 mBody
 -
 >
-BodyUsed
+CheckBodyUsed
 (
 )
 )

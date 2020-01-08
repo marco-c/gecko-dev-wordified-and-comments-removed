@@ -562,16 +562,10 @@ case
 JSProto_ReadableStreamDefaultReader
 :
 case
-JSProto_ReadableStreamBYOBReader
-:
-case
 JSProto_ReadableStreamDefaultController
 :
 case
 JSProto_ReadableByteStreamController
-:
-case
-JSProto_ReadableStreamBYOBRequest
 :
 case
 JSProto_ByteLengthQueuingStrategy

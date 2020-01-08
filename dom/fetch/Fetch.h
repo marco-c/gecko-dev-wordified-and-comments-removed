@@ -342,7 +342,16 @@ Derived
 >
 ;
 bool
-BodyUsed
+GetBodyUsed
+(
+ErrorResult
+&
+aRv
+)
+const
+;
+bool
+CheckBodyUsed
 (
 )
 const

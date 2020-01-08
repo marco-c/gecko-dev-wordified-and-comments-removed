@@ -143,6 +143,9 @@ Worker
 interface
 Body
 {
+[
+Throws
+]
 readonly
 attribute
 boolean
