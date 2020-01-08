@@ -101,3 +101,16 @@ shipping
 phase
 :
 promote
+attributes
+:
+artifact_map
+:
+taskcluster
+/
+taskgraph
+/
+manifests
+/
+release_checksums
+.
+yml

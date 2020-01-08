@@ -211,3 +211,16 @@ shipping
 phase
 :
 promote
+attributes
+:
+artifact_map
+:
+taskcluster
+/
+taskgraph
+/
+manifests
+/
+fennec_nightly
+.
+yml
