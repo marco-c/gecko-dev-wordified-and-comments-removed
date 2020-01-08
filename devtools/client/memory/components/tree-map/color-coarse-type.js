@@ -19,6 +19,9 @@ strings
 "
 scripts
 "
+"
+domNode
+"
 ]
 ;
 const
