@@ -108,6 +108,9 @@ mState
 nsWeakPtr
 mDocShell
 ;
+nsWeakPtr
+mWebProgress
+;
 nsCOMPtr
 <
 nsITransportSecurityInfo
