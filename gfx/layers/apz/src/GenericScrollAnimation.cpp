@@ -501,7 +501,7 @@ return
 false
 ;
 }
-aFrameMetrics
+mApzc
 .
 ScrollBy
 (
