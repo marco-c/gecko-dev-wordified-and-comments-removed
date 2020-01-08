@@ -1680,7 +1680,7 @@ this
 .
 _viewStack
 .
-childNodes
+children
 )
 ;
 let
@@ -2755,7 +2755,7 @@ header
 =
 viewNode
 .
-firstChild
+firstElementChild
 ;
 if
 (
@@ -4350,7 +4350,7 @@ this
 .
 node
 .
-firstChild
+firstElementChild
 ;
 if
 (
