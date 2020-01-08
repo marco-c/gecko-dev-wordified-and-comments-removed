@@ -168,10 +168,14 @@ run_python
 (
 '
 print
+(
 1
+)
 ;
 print
+(
 2
+)
 '
 )
         
@@ -204,9 +208,11 @@ out
 .
 output
 [
+b
 '
 1
 '
+b
 '
 2
 '
@@ -300,6 +306,7 @@ err
 .
 output
 [
+b
 '
 hello
 world
@@ -338,10 +345,14 @@ n
 )
 ;
 print
+(
 1
+)
 ;
 print
+(
 2
+)
 '
 )
         
@@ -374,9 +385,11 @@ out
 .
 output
 [
+b
 '
 1
 '
+b
 '
 2
 '
@@ -393,6 +406,7 @@ err
 .
 output
 [
+b
 '
 hello
 world
@@ -673,6 +687,7 @@ out
 .
 output
 [
+b
 '
 1
 '
@@ -748,6 +763,7 @@ out
 .
 output
 [
+b
 '
 1
 '
@@ -785,10 +801,14 @@ n
 )
 ;
 print
+(
 1
+)
 ;
 print
+(
 2
+)
 '
                           
 stderr
@@ -832,12 +852,15 @@ output
 sorted
 (
 [
+b
 '
 1
 '
+b
 '
 2
 '
+b
 '
 hello
 world

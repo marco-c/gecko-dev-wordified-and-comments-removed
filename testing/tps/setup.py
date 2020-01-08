@@ -66,9 +66,11 @@ mozinstall
 mozprocess
 =
 =
+1
+.
 0
 .
-26
+0
 '
         
 '
