@@ -106,10 +106,10 @@ MAX_STRING_LENGTH
 1
 <
 <
-28
+30
 )
 -
-1
+2
 )
 #
 define
