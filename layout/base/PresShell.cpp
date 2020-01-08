@@ -9207,15 +9207,6 @@ GetFlattenedTreeParent
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-current
-"
-How
-?
-"
-)
-;
 }
 return
 current
