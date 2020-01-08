@@ -103,13 +103,11 @@ https
 :
 /
 /
-www
+w3c
 .
-w3
+github
 .
-org
-/
-TR
+io
 /
 payment
 -
