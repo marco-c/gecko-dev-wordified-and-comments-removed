@@ -384,7 +384,7 @@ isinstance
 type
 xpidl
 .
-Sequence
+Array
 )
 :
         
@@ -396,7 +396,7 @@ tag
 '
 :
 '
-TD_SEQUENCE
+TD_ARRAY
 '
             
 '
