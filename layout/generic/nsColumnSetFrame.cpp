@@ -5547,12 +5547,6 @@ carriedOutBottomMargin
 ColumnBalanceData
 colData
 ;
-colData
-.
-mHasExcessBSize
-=
-false
-;
 bool
 feasible
 =
