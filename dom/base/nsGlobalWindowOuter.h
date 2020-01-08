@@ -360,6 +360,9 @@ class
 nsIDocShellTreeOwner
 ;
 class
+nsIDOMWindowUtils
+;
+class
 nsIScrollableFrame
 ;
 class
@@ -3426,6 +3429,12 @@ already_AddRefed
 nsWindowRoot
 >
 GetWindowRootOuter
+(
+)
+;
+nsIDOMWindowUtils
+*
+WindowUtils
 (
 )
 ;
