@@ -68,6 +68,11 @@ example
 .
 json
 '
+'
+onboarding
+.
+json
+'
 ]
 if
 CONFIG
