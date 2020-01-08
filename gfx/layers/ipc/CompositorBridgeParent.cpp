@@ -4420,6 +4420,8 @@ CompositorBridgeParent
 :
 CompositeToTarget
 (
+VsyncId
+aId
 DrawTarget
 *
 aTarget

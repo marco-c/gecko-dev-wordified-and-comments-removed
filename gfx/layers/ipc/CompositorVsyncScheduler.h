@@ -215,6 +215,8 @@ CancelableRunnable
 void
 PostCompositeTask
 (
+VsyncId
+aId
 TimeStamp
 aCompositeTimestamp
 )
@@ -229,6 +231,8 @@ aTimestamp
 void
 Composite
 (
+VsyncId
+aId
 TimeStamp
 aVsyncTimestamp
 )

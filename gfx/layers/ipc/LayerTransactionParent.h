@@ -304,6 +304,10 @@ SetPendingTransactionId
 TransactionId
 aId
 const
+VsyncId
+&
+aVsyncId
+const
 TimeStamp
 &
 aRefreshStartTime
@@ -324,6 +328,10 @@ aFwdTime
 mPendingTransaction
 =
 aId
+;
+mTxnVsyncId
+=
+aVsyncId
 ;
 mRefreshStartTime
 =
@@ -974,6 +982,9 @@ mVsyncRate
 ;
 TransactionId
 mPendingTransaction
+;
+VsyncId
+mTxnVsyncId
 ;
 TimeStamp
 mRefreshStartTime

@@ -1009,6 +1009,12 @@ mPendingScrollUpdates
 mAsyncResourceUpdates
 mPaintSequenceNumber
 mLatestTransactionId
+mTransactionIdAllocator
+-
+>
+GetVsyncId
+(
+)
 refreshStart
 mTransactionStart
 mURL
@@ -1644,6 +1650,12 @@ ToUnknownSize
 mLatestTransactionId
 mScrollData
 containsSVGGroup
+mTransactionIdAllocator
+-
+>
+GetVsyncId
+(
+)
 refreshStart
 mTransactionStart
 mURL
