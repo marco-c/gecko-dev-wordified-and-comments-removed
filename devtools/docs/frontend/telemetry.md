@@ -2639,7 +2639,7 @@ Toolbox
 HostType
 ;
 const
-DATA
+TELEMETRY_DATA
 =
 [
 {
@@ -2946,10 +2946,10 @@ null
 ;
 for
 (
-let
+const
 i
 in
-DATA
+TELEMETRY_DATA
 )
 {
 const
@@ -2970,7 +2970,7 @@ i
 const
 expected
 =
-DATA
+TELEMETRY_DATA
 [
 i
 ]
