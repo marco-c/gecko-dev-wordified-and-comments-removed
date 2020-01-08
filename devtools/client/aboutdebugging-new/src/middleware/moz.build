@@ -82,4 +82,13 @@ data
 .
 js
 '
+'
+worker
+-
+component
+-
+data
+.
+js
+'
 )
