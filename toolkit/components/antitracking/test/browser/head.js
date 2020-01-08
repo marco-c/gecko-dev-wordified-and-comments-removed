@@ -812,6 +812,16 @@ set
 [
 [
 "
+dom
+.
+storage_access
+.
+enabled
+"
+true
+]
+[
+"
 browser
 .
 contentblocking
