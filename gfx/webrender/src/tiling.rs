@@ -65,7 +65,6 @@ device
 :
 :
 {
-FrameId
 Texture
 }
 ;
@@ -175,7 +174,10 @@ use
 render_backend
 :
 :
+{
+FrameId
 FrameResources
+}
 ;
 use
 render_task

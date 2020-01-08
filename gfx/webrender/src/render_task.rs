@@ -6064,7 +6064,7 @@ uv_rect_kind
 Eviction
 :
 :
-Auto
+Eager
 )
 ;
 let
@@ -6219,7 +6219,7 @@ handle
 TextureCacheHandle
 :
 :
-new
+invalid
 (
 )
 pending_render_task_id

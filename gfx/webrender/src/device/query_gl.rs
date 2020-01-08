@@ -34,7 +34,7 @@ use
 device
 :
 :
-FrameId
+GpuFrameId
 ;
 pub
 trait
@@ -398,7 +398,7 @@ T
 >
 frame_id
 :
-FrameId
+GpuFrameId
 inside_frame
 :
 bool
@@ -456,7 +456,7 @@ new
 )
 frame_id
 :
-FrameId
+GpuFrameId
 :
 :
 new
@@ -629,7 +629,7 @@ mut
 self
 frame_id
 :
-FrameId
+GpuFrameId
 )
 {
 self
@@ -958,7 +958,7 @@ self
 -
 >
 (
-FrameId
+GpuFrameId
 Vec
 <
 GpuTimer
@@ -1381,7 +1381,7 @@ self
 -
 >
 (
-FrameId
+GpuFrameId
 Vec
 <
 GpuTimer
@@ -1420,7 +1420,7 @@ mut
 self
 frame_id
 :
-FrameId
+GpuFrameId
 )
 {
 self

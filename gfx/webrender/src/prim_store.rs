@@ -7798,8 +7798,10 @@ debug_assertions
 prepared_frame_id
 :
 FrameId
+:
+:
+invalid
 (
-0
 )
 #
 [

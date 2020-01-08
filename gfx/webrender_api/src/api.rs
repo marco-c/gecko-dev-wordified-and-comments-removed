@@ -3281,6 +3281,10 @@ pub
 depth_target_textures
 :
 usize
+pub
+total_gpu_bytes_allocated
+:
+usize
 }
 impl
 :
