@@ -403,6 +403,7 @@ name
 const
 target
 =
+await
 TargetFactory
 .
 forTab
