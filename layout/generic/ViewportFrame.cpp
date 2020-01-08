@@ -671,8 +671,6 @@ IsHTMLElement
 "
 HTML
 element
-"
-"
 should
 always
 be
@@ -685,6 +683,8 @@ if
 in
 the
 top
+"
+"
 layer
 "
 )

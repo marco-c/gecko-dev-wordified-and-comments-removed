@@ -8742,17 +8742,7 @@ false
 #
 define
 MAX_DEPTH_FOR_LIST_RENUMBERING
-\
 200
-/
-/
-200
-open
-displayable
-tags
-is
-pretty
-unrealistic
 bool
 nsContainerFrame
 :

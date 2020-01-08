@@ -764,6 +764,7 @@ if
 (
 mListener
 )
+{
 reinterpret_cast
 <
 nsImageBoxListener
@@ -782,6 +783,7 @@ ClearFrame
 (
 )
 ;
+}
 nsLeafBoxFrame
 :
 :
