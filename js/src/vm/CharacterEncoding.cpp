@@ -2204,8 +2204,6 @@ true
 }
 template
 <
-InflateUTF8Action
-Action
 OnUTF8Error
 ErrorAction
 typename
@@ -2251,7 +2249,7 @@ if
 !
 InflateUTF8StringToBuffer
 <
-Action
+Count
 ErrorAction
 CharT
 >
@@ -2433,7 +2431,6 @@ outlen
 return
 InflateUTF8StringHelper
 <
-Count
 OnUTF8Error
 :
 :
@@ -2486,7 +2483,6 @@ c_str
 return
 InflateUTF8StringHelper
 <
-Count
 OnUTF8Error
 :
 :
@@ -2523,7 +2519,6 @@ outlen
 return
 InflateUTF8StringHelper
 <
-Count
 OnUTF8Error
 :
 :
@@ -2579,7 +2574,6 @@ c_str
 return
 InflateUTF8StringHelper
 <
-Count
 OnUTF8Error
 :
 :
@@ -2659,7 +2653,6 @@ outlen
 return
 InflateUTF8StringHelper
 <
-Count
 OnUTF8Error
 :
 :
@@ -2693,7 +2686,6 @@ outlen
 return
 InflateUTF8StringHelper
 <
-Count
 OnUTF8Error
 :
 :
