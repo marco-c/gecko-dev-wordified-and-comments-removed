@@ -107,6 +107,7 @@ placeholder
 =
 "
 CVV
+*
 "
 ;
 this
