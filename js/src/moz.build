@@ -1722,6 +1722,13 @@ cpp
 '
 frontend
 /
+ForInEmitter
+.
+cpp
+'
+'
+frontend
+/
 ForOfLoopControl
 .
 cpp
