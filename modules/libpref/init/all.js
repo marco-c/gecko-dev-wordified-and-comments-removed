@@ -6316,9 +6316,6 @@ enabled
 false
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -6333,8 +6330,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
