@@ -2187,6 +2187,7 @@ slot
 <
 nfixed
 )
+{
 return
 fixedSlots
 (
@@ -2195,6 +2196,7 @@ fixedSlots
 slot
 ]
 ;
+}
 return
 slots
 [
@@ -2333,9 +2335,11 @@ key
 =
 JSProto_Object
 )
+{
 return
 JSProto_Null
 ;
+}
 if
 (
 ProtoKeyToClass
@@ -2348,6 +2352,7 @@ specDefined
 (
 )
 )
+{
 return
 ProtoKeyToClass
 (
@@ -2359,6 +2364,7 @@ specInheritanceProtoKey
 (
 )
 ;
+}
 return
 JSProto_Object
 ;
@@ -2953,6 +2959,7 @@ isGCThing
 (
 )
 )
+{
 SetReservedSlotWithBarrier
 (
 obj
@@ -2960,7 +2967,9 @@ slot
 value
 )
 ;
+}
 else
+{
 sobj
 -
 >
@@ -2971,6 +2980,7 @@ slot
 =
 value
 ;
+}
 }
 JS_FRIEND_API
 (
@@ -3328,12 +3338,14 @@ String
 :
 INLINE_CHARS_BIT
 )
+{
 return
 s
 -
 >
 inlineStorageLatin1
 ;
+}
 return
 s
 -
@@ -3404,12 +3416,14 @@ String
 :
 INLINE_CHARS_BIT
 )
+{
 return
 s
 -
 >
 inlineStorageTwoByte
 ;
+}
 return
 s
 -
@@ -3604,9 +3618,11 @@ String
 :
 EXTERNAL_FLAGS
 )
+{
 return
 false
 ;
+}
 MOZ_ASSERT
 (
 JS_IsExternalString
@@ -3705,6 +3721,7 @@ LINEAR_BIT
 )
 )
 )
+{
 return
 StringToLinearStringSlow
 (
@@ -3712,6 +3729,7 @@ cx
 str
 )
 ;
+}
 return
 reinterpret_cast
 <
@@ -3820,6 +3838,7 @@ i
 +
 +
 )
+{
 dest
 [
 i
@@ -3832,6 +3851,7 @@ start
 i
 ]
 ;
+}
 }
 else
 {
@@ -3934,6 +3954,7 @@ i
 +
 +
 )
+{
 dest
 [
 i
@@ -3949,6 +3970,7 @@ i
 ]
 )
 ;
+}
 }
 else
 {
@@ -3978,6 +4000,7 @@ i
 +
 +
 )
+{
 dest
 [
 i
@@ -3993,6 +4016,7 @@ i
 ]
 )
 ;
+}
 }
 }
 template
@@ -4036,9 +4060,11 @@ if
 !
 linear
 )
+{
 return
 false
 ;
+}
 CopyLinearStringChars
 (
 dest
@@ -4449,9 +4475,11 @@ untrustedLimit
 )
 )
 )
+{
 return
 true
 ;
+}
 return
 CheckRecursionLimit
 (
@@ -9216,6 +9244,7 @@ JSID_IS_STRING
 id
 )
 )
+{
 return
 JS
 :
@@ -9228,6 +9257,7 @@ id
 )
 )
 ;
+}
 if
 (
 JSID_IS_INT
@@ -9235,6 +9265,7 @@ JSID_IS_INT
 id
 )
 )
+{
 return
 JS
 :
@@ -9247,6 +9278,7 @@ id
 )
 )
 ;
+}
 if
 (
 JSID_IS_SYMBOL
@@ -9254,6 +9286,7 @@ JSID_IS_SYMBOL
 id
 )
 )
+{
 return
 JS
 :
@@ -9266,6 +9299,7 @@ id
 )
 )
 ;
+}
 MOZ_ASSERT
 (
 JSID_IS_VOID
@@ -9900,6 +9934,7 @@ flags
 &
 JSCLASS_IS_GLOBAL
 )
+{
 return
 detail
 :
@@ -9909,6 +9944,7 @@ IsWindowSlow
 obj
 )
 ;
+}
 return
 false
 ;
@@ -9946,6 +9982,7 @@ flags
 &
 JSCLASS_IS_GLOBAL
 )
+{
 return
 detail
 :
@@ -9955,6 +9992,7 @@ ToWindowProxyIfWindowSlow
 obj
 )
 ;
+}
 return
 obj
 ;

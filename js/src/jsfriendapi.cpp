@@ -302,10 +302,12 @@ stackRootPtr
 :
 stackRoots_
 )
+{
 stackRootPtr
 =
 nullptr
 ;
+}
 PodArrayZero
 (
 nativeStackLimit
@@ -331,6 +333,7 @@ i
 +
 +
 )
+{
 nativeStackLimit
 [
 i
@@ -338,6 +341,7 @@ i
 =
 UINTPTR_MAX
 ;
+}
 #
 endif
 }
@@ -502,6 +506,7 @@ WrapperObject
 (
 )
 )
+{
 obj
 =
 UncheckedUnwrap
@@ -509,6 +514,7 @@ UncheckedUnwrap
 obj
 )
 ;
+}
 return
 ToWindowIfWindowProxy
 (
@@ -540,6 +546,7 @@ JSFunction
 (
 )
 )
+{
 return
 &
 obj
@@ -552,6 +559,7 @@ JSFunction
 (
 )
 ;
+}
 return
 nullptr
 ;
@@ -675,9 +683,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -688,9 +698,11 @@ obj
 proto
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 obj
 ;
@@ -881,8 +893,10 @@ principals
 (
 )
 )
+{
 return
 ;
+}
 const
 JSPrincipals
 *
@@ -1215,9 +1229,11 @@ if
 !
 atom
 )
+{
 return
 false
 ;
+}
 return
 JS_DefineProperty
 (
@@ -1315,9 +1331,11 @@ if
 !
 atom
 )
+{
 return
 false
 ;
+}
 Rooted
 <
 jsid
@@ -1362,9 +1380,11 @@ if
 !
 fun
 )
+{
 return
 false
 ;
+}
 if
 (
 fs
@@ -1372,6 +1392,7 @@ fs
 >
 jitInfo
 )
+{
 fun
 -
 >
@@ -1383,6 +1404,7 @@ fs
 jitInfo
 )
 ;
+}
 if
 (
 fs
@@ -1407,9 +1429,11 @@ fs
 usage
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -1435,9 +1459,11 @@ fs
 help
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 return
@@ -1478,6 +1504,7 @@ ProxyObject
 )
 )
 )
+{
 return
 Proxy
 :
@@ -1489,6 +1516,7 @@ obj
 cls
 )
 ;
+}
 if
 (
 obj
@@ -1512,6 +1540,7 @@ UnboxedPlainObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1520,6 +1549,7 @@ ESClass
 :
 Object
 ;
+}
 else
 if
 (
@@ -1533,6 +1563,7 @@ ArrayObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1541,6 +1572,7 @@ ESClass
 :
 Array
 ;
+}
 else
 if
 (
@@ -1554,6 +1586,7 @@ NumberObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1562,6 +1595,7 @@ ESClass
 :
 Number
 ;
+}
 else
 if
 (
@@ -1575,6 +1609,7 @@ StringObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1583,6 +1618,7 @@ ESClass
 :
 String
 ;
+}
 else
 if
 (
@@ -1596,6 +1632,7 @@ BooleanObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1604,6 +1641,7 @@ ESClass
 :
 Boolean
 ;
+}
 else
 if
 (
@@ -1617,6 +1655,7 @@ RegExpObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1625,6 +1664,7 @@ ESClass
 :
 RegExp
 ;
+}
 else
 if
 (
@@ -1638,6 +1678,7 @@ ArrayBufferObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1646,6 +1687,7 @@ ESClass
 :
 ArrayBuffer
 ;
+}
 else
 if
 (
@@ -1659,6 +1701,7 @@ SharedArrayBufferObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1667,6 +1710,7 @@ ESClass
 :
 SharedArrayBuffer
 ;
+}
 else
 if
 (
@@ -1680,6 +1724,7 @@ DateObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1688,6 +1733,7 @@ ESClass
 :
 Date
 ;
+}
 else
 if
 (
@@ -1701,6 +1747,7 @@ SetObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1709,6 +1756,7 @@ ESClass
 :
 Set
 ;
+}
 else
 if
 (
@@ -1722,6 +1770,7 @@ MapObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1730,6 +1779,7 @@ ESClass
 :
 Map
 ;
+}
 else
 if
 (
@@ -1743,6 +1793,7 @@ PromiseObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1751,6 +1802,7 @@ ESClass
 :
 Promise
 ;
+}
 else
 if
 (
@@ -1764,6 +1816,7 @@ MapIteratorObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1772,6 +1825,7 @@ ESClass
 :
 MapIterator
 ;
+}
 else
 if
 (
@@ -1785,6 +1839,7 @@ SetIteratorObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1793,6 +1848,7 @@ ESClass
 :
 SetIterator
 ;
+}
 else
 if
 (
@@ -1806,6 +1862,7 @@ ArgumentsObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1814,6 +1871,7 @@ ESClass
 :
 Arguments
 ;
+}
 else
 if
 (
@@ -1827,6 +1885,7 @@ ErrorObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1838,6 +1897,7 @@ Error
 #
 ifdef
 ENABLE_BIGINT
+}
 else
 if
 (
@@ -1851,6 +1911,7 @@ BigIntObject
 (
 )
 )
+{
 *
 cls
 =
@@ -1861,7 +1922,9 @@ BigInt
 ;
 #
 endif
+}
 else
+{
 *
 cls
 =
@@ -1870,6 +1933,7 @@ ESClass
 :
 Other
 ;
+}
 return
 true
 ;
@@ -2516,9 +2580,11 @@ if
 !
 atom
 )
+{
 return
 nullptr
 ;
+}
 Rooted
 <
 jsid
@@ -2625,9 +2691,11 @@ if
 !
 atom
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 (
@@ -3001,6 +3069,7 @@ IsProxy
 obj
 )
 )
+{
 return
 JS_GetPrototype
 (
@@ -3009,6 +3078,7 @@ obj
 proto
 )
 ;
+}
 proto
 .
 set
@@ -3138,6 +3208,7 @@ IsProxy
 obj
 )
 )
+{
 obj
 -
 >
@@ -3154,7 +3225,9 @@ slot
 value
 )
 ;
+}
 else
+{
 obj
 -
 >
@@ -3171,6 +3244,7 @@ slot
 value
 )
 ;
+}
 }
 void
 js
@@ -3399,9 +3473,11 @@ ObjectIsMarkedGray
 obj
 )
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -3501,6 +3577,7 @@ isMarkedGray
 (
 )
 )
+{
 callback_
 (
 closure_
@@ -3514,6 +3591,7 @@ tp
 )
 )
 ;
+}
 }
 }
 ;
@@ -3583,6 +3661,7 @@ popFront
 (
 )
 )
+{
 e
 .
 front
@@ -3602,6 +3681,7 @@ closure
 )
 )
 ;
+}
 }
 }
 JS_FRIEND_API
@@ -3636,12 +3716,14 @@ extWeakmapKeyDelegateOp
 (
 )
 )
+{
 return
 op
 (
 key
 )
 ;
+}
 return
 nullptr
 ;
@@ -4558,6 +4640,7 @@ isMagic
 JS_OPTIMIZED_OUT
 )
 )
+{
 return
 "
 [
@@ -4565,6 +4648,7 @@ unavailable
 ]
 "
 ;
+}
 if
 (
 IsCallable
@@ -4572,6 +4656,7 @@ IsCallable
 v
 )
 )
+{
 return
 "
 [
@@ -4579,6 +4664,7 @@ function
 ]
 "
 ;
+}
 if
 (
 v
@@ -4598,6 +4684,7 @@ toObject
 )
 )
 )
+{
 return
 "
 [
@@ -4608,6 +4695,7 @@ wrapper
 ]
 "
 ;
+}
 JSString
 *
 str
@@ -4630,6 +4718,7 @@ isObject
 (
 )
 )
+{
 ar
 .
 emplace
@@ -4643,6 +4732,7 @@ toObject
 )
 )
 ;
+}
 str
 =
 ToString
@@ -4659,9 +4749,11 @@ if
 !
 str
 )
+{
 return
 nullptr
 ;
+}
 }
 bytes
 =
@@ -4798,6 +4890,7 @@ if
 (
 fun
 )
+{
 funname
 =
 fun
@@ -4807,6 +4900,7 @@ displayAtom
 (
 )
 ;
+}
 RootedValue
 thisVal
 (
@@ -4883,9 +4977,11 @@ abstractFramePtr
 thisVal
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -4907,9 +5003,11 @@ if
 !
 funbytes
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -4932,9 +5030,11 @@ get
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 if
@@ -4958,9 +5058,11 @@ anonymous
 num
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -4982,9 +5084,11 @@ LEVEL
 num
 )
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -5171,9 +5275,11 @@ isThrowingOutOfMemory
 (
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -5251,9 +5357,11 @@ if
 !
 name
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -5384,9 +5492,11 @@ n
 "
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 }
@@ -5483,9 +5593,11 @@ isThrowingOutOfMemory
 (
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -5514,9 +5626,11 @@ if
 !
 thisValBytes
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -5539,9 +5653,11 @@ get
 )
 )
 )
+{
 return
 false
 ;
+}
 }
 else
 {
@@ -5567,9 +5683,11 @@ n
 "
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 }
@@ -5625,9 +5743,11 @@ isThrowingOutOfMemory
 (
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -5705,9 +5825,11 @@ isThrowingOutOfMemory
 (
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -5738,9 +5860,11 @@ n
 "
 )
 )
+{
 return
 false
 ;
+}
 continue
 ;
 }
@@ -5774,9 +5898,11 @@ isThrowingOutOfMemory
 (
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -5815,9 +5941,11 @@ isThrowingOutOfMemory
 (
 )
 )
+{
 return
 false
 ;
+}
 cx
 -
 >
@@ -5917,9 +6045,11 @@ n
 "
 )
 )
+{
 return
 false
 ;
+}
 }
 }
 }
@@ -5986,9 +6116,11 @@ if
 !
 nameStr
 )
+{
 return
 false
 ;
+}
 }
 if
 (
@@ -6023,9 +6155,11 @@ function
 "
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -6149,9 +6283,11 @@ init
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 for
 (
 AllFramesIter
@@ -6205,9 +6341,11 @@ if
 !
 ok
 )
+{
 return
 nullptr
 ;
+}
 num
 +
 +
@@ -6238,9 +6376,11 @@ n
 "
 )
 )
+{
 return
 nullptr
 ;
+}
 }
 return
 sp
@@ -6546,6 +6686,7 @@ JSObject
 (
 )
 )
+{
 kdelegate
 =
 js
@@ -6564,6 +6705,7 @@ JSObject
 )
 )
 ;
+}
 fprintf
 (
 output
@@ -6654,11 +6796,13 @@ isMarkedBlack
 (
 )
 )
+{
 return
 '
 B
 '
 ;
+}
 if
 (
 cell
@@ -6668,11 +6812,13 @@ isMarkedGray
 (
 )
 )
+{
 return
 '
 G
 '
 ;
+}
 if
 (
 cell
@@ -6682,11 +6828,13 @@ isMarkedAny
 (
 )
 )
+{
 return
 '
 X
 '
 ;
+}
 return
 '
 W
@@ -6782,6 +6930,7 @@ runtime
 >
 realmNameCallback
 )
+{
 nameCallback
 (
 cx
@@ -6793,7 +6942,9 @@ name
 )
 )
 ;
+}
 else
+{
 strcpy
 (
 name
@@ -6804,6 +6955,7 @@ unknown
 "
 )
 ;
+}
 DumpHeapTracer
 *
 dtrc
@@ -7058,8 +7210,10 @@ asCell
 )
 )
 )
+{
 return
 ;
+}
 char
 buffer
 [
@@ -7137,6 +7291,7 @@ js
 :
 CollectNurseryBeforeDump
 )
+{
 cx
 -
 >
@@ -7158,6 +7313,7 @@ gcreason
 API
 )
 ;
+}
 DumpHeapTracer
 dtrc
 (
@@ -7370,9 +7526,11 @@ isAtomsZone
 (
 )
 )
+{
 return
 nullptr
 ;
+}
 RealmsInZoneIter
 realm
 (
@@ -7423,11 +7581,13 @@ mainContextFromOwnThread
 )
 )
 )
+{
 IncrementalPreWriteBarrier
 (
 value
 )
 ;
+}
 value
 =
 nullptr
@@ -7486,10 +7646,12 @@ unsafeGet
 )
 )
 )
+{
 value
 =
 nullptr
 ;
+}
 }
 void
 JS
@@ -7551,9 +7713,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 if
 (
 !
@@ -7565,9 +7729,11 @@ false
 false
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 obj
 ;
@@ -7984,12 +8150,14 @@ if
 (
 callback
 )
+{
 callback
 (
 cx
 beginType
 )
 ;
+}
 }
 JS_FRIEND_API
 (
@@ -8060,6 +8228,7 @@ if
 (
 map
 )
+{
 return
 map
 -
@@ -8069,6 +8238,7 @@ lookup
 obj
 )
 ;
+}
 return
 nullptr
 ;
@@ -8250,9 +8420,11 @@ IsSetPropPC
 pc
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 script
 -
@@ -8396,6 +8568,7 @@ IsWindowProxy
 obj
 )
 )
+{
 return
 &
 obj
@@ -8405,6 +8578,7 @@ nonCCWGlobal
 (
 )
 ;
+}
 return
 obj
 ;
@@ -8447,9 +8621,11 @@ maybeWindowProxy
 (
 )
 )
+{
 return
 windowProxy
 ;
+}
 return
 obj
 ;
@@ -8763,6 +8939,7 @@ fun
 =
 sLogCtor
 )
+{
 fun
 (
 self
@@ -8770,6 +8947,7 @@ type
 sz
 )
 ;
+}
 }
 JS_FRIEND_API
 (
@@ -8798,6 +8976,7 @@ fun
 =
 sLogDtor
 )
+{
 fun
 (
 self
@@ -8805,4 +8984,5 @@ type
 sz
 )
 ;
+}
 }

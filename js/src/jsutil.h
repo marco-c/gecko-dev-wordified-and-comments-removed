@@ -304,8 +304,10 @@ end
 =
 beg
 )
+{
 return
 ;
+}
 T
 tmp
 =
@@ -385,6 +387,7 @@ pred
 p
 )
 )
+{
 *
 result
 +
@@ -393,6 +396,7 @@ result
 *
 p
 ;
+}
 }
 return
 result
@@ -506,9 +510,11 @@ p
 =
 v
 )
+{
 return
 p
 ;
+}
 }
 return
 end
@@ -589,12 +595,14 @@ end
 +
 begin
 )
+{
 f
 (
 *
 begin
 )
 ;
+}
 }
 template
 <
@@ -633,9 +641,11 @@ length
 (
 )
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -672,9 +682,11 @@ rhs
 i
 ]
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -719,6 +731,7 @@ i
 +
 +
 )
+{
 hn
 =
 mozilla
@@ -736,6 +749,7 @@ i
 )
 )
 ;
+}
 return
 hn
 ;
@@ -1056,9 +1070,11 @@ array
 i
 ]
 )
+{
 return
 true
 ;
+}
 }
 return
 false
@@ -1152,6 +1168,7 @@ length
 +
 i
 )
+{
 array
 [
 i
@@ -1159,6 +1176,7 @@ i
 =
 0
 ;
+}
 }
 }
 namespace
@@ -1204,11 +1222,13 @@ dstend
 +
 aDst
 )
+{
 *
 aDst
 =
 aSrc
 ;
+}
 }
 }
 const
@@ -1634,6 +1654,7 @@ js
 :
 gDisablePoisoning
 )
+{
 AlwaysPoison
 (
 ptr
@@ -1642,6 +1663,7 @@ num
 kind
 )
 ;
+}
 }
 }
 #
