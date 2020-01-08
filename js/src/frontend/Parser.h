@@ -3239,7 +3239,7 @@ importDeclaration
 )
 ;
 Node
-importDeclarationOrImportMeta
+importDeclarationOrImportExpr
 (
 YieldHandling
 yieldHandling
@@ -3619,8 +3619,10 @@ newTarget
 )
 ;
 Node
-importMeta
+importExpr
 (
+YieldHandling
+yieldHandling
 )
 ;
 Node

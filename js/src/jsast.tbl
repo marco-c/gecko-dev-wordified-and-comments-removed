@@ -391,6 +391,16 @@ super
 )
 ASTDEF
 (
+AST_CALL_IMPORT
+"
+CallImport
+"
+"
+callImport
+"
+)
+ASTDEF
+(
 AST_EMPTY_STMT
 "
 EmptyStatement
