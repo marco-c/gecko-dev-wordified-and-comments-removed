@@ -1582,6 +1582,8 @@ JS
 :
 HandleObject
 aStackGlobal
+uint64_t
+aTimeWarpTarget
 )
 {
 if
@@ -1742,6 +1744,14 @@ errorObject
 SetErrorMessageName
 (
 mErrorMsgName
+)
+;
+errorObject
+-
+>
+SetTimeWarpTarget
+(
+aTimeWarpTarget
 )
 ;
 nsresult
