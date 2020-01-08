@@ -3749,7 +3749,7 @@ trackingProtectionExtensionContentButton
 new
 :
 "
-contentBlockingTrackingProtectionExtensionContentButton
+contentBlockingDisableTrackingProtectionExtension
 "
 }
 ;
