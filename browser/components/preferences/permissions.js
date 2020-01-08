@@ -52,9 +52,9 @@ permissions
 -
 exceptions
 -
-content
+tracking
 -
-blocking
+protection
 -
 window
 "
@@ -65,9 +65,9 @@ permissions
 -
 exceptions
 -
-content
+tracking
 -
-blocking
+protection
 -
 desc
 "
