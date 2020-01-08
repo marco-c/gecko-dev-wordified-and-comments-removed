@@ -1,10 +1,3 @@
-var
-testGenerator
-=
-testSteps
-(
-)
-;
 loadSubscript
 (
 "
@@ -16,8 +9,8 @@ js
 "
 )
 ;
+async
 function
-*
 testSteps
 (
 )
@@ -39,10 +32,6 @@ sqlite
 )
 )
 {
-finishTest
-(
-)
-;
 return
 ;
 }
@@ -50,10 +39,6 @@ verifyData
 (
 [
 ]
-)
-;
-finishTest
-(
 )
 ;
 }
