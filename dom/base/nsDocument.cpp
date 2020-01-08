@@ -59448,6 +59448,19 @@ false
 ;
 MOZ_ASSERT_IF
 (
+parent
+!
+nsContentUtils
+:
+:
+IsInPrivateBrowsing
+(
+parent
+)
+)
+;
+MOZ_ASSERT_IF
+(
 NS_SUCCEEDED
 (
 AntiTrackingCommon
@@ -59461,6 +59474,7 @@ parent
 GetDocumentURI
 (
 )
+false
 AntiTrackingCommon
 :
 :
