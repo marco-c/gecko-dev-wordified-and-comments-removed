@@ -22812,6 +22812,7 @@ GK_ATOM
 (
 identifier
 string
+gecko_type
 )
 \
 n
@@ -22835,6 +22836,8 @@ s
 s
 \
 "
+%
+s
 )
 \
 n
@@ -22847,7 +22850,11 @@ ident
 a
 .
 string
+a
+.
+ty
 )
+                          
 for
 a
 in
