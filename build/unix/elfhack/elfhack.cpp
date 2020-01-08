@@ -5730,6 +5730,10 @@ first_executable
 ;
 if
 (
+!
+force
+&
+&
 relhackcode
 -
 >
