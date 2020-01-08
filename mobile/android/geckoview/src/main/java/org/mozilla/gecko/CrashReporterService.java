@@ -583,9 +583,14 @@ intent
 ;
 }
 return
-Service
+super
 .
-START_NOT_STICKY
+onStartCommand
+(
+intent
+flags
+startId
+)
 ;
 }
 Override
