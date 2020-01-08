@@ -2703,10 +2703,10 @@ TypeError
 /
 Global
 requires
-more
-than
-0
-arguments
+at
+least
+1
+argument
 /
 )
 ;

@@ -17,10 +17,10 @@ validate
 Error
 /
 requires
-more
-than
-0
-arguments
+at
+least
+1
+argument
 /
 )
 ;
