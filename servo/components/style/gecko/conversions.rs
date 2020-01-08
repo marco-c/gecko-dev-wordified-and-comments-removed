@@ -4016,6 +4016,7 @@ basic_shape
 Circle
 Ellipse
 FillRule
+PolygonCoord
 }
 ;
 use
@@ -5138,6 +5139,7 @@ coords
 .
 push
 (
+PolygonCoord
 (
 LengthOrPercentage
 :
@@ -5165,6 +5167,7 @@ be
 a
 length
 percentage
+\
 or
 calc
 value
@@ -5196,6 +5199,7 @@ be
 a
 length
 percentage
+\
 or
 calc
 value

@@ -78,6 +78,7 @@ basic_shape
 {
 FillRule
 GeometryBox
+PolygonCoord
 ShapeBox
 ShapeSource
 }
@@ -2540,6 +2541,7 @@ i
 {
 Ok
 (
+PolygonCoord
 (
 LengthOrPercentage
 :
