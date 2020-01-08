@@ -2893,3 +2893,15 @@ tests
 true
 )
 ;
+user_pref
+(
+"
+toolkit
+.
+telemetry
+.
+initDelay
+"
+99999999
+)
+;
