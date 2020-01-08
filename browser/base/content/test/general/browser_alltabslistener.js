@@ -952,9 +952,6 @@ onLocationChange
 onSecurityChange
 "
 "
-onSecurityChange
-"
-"
 onStateChange
 "
 ]
@@ -1057,9 +1054,6 @@ onStateChange
 "
 "
 onLocationChange
-"
-"
-onSecurityChange
 "
 "
 onSecurityChange
