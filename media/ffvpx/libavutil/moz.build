@@ -178,11 +178,6 @@ SOURCES
 =
 [
 '
-atomic
-.
-c
-'
-'
 avstring
 .
 c
@@ -249,6 +244,11 @@ c
 '
 '
 frame
+.
+c
+'
+'
+hwcontext
 .
 c
 '

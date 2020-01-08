@@ -48,6 +48,16 @@ unsigned
 int
 profile
 ;
+*
+poutbuf
+=
+buf
+;
+*
+poutbuf_size
+=
+buf_size
+;
 if
 (
 buf_size

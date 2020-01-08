@@ -86,6 +86,13 @@ AV_FRAME_DATA_GOP_TIMECODE
 AV_FRAME_DATA_SPHERICAL
 AV_FRAME_DATA_CONTENT_LIGHT_LEVEL
 AV_FRAME_DATA_ICC_PROFILE
+#
+if
+FF_API_FRAME_QP
+AV_FRAME_DATA_QP_TABLE_PROPERTIES
+AV_FRAME_DATA_QP_TABLE_DATA
+#
+endif
 }
 ;
 enum
@@ -357,6 +364,7 @@ attribute_deprecated
 int
 qscale_type
 ;
+attribute_deprecated
 AVBufferRef
 *
 qp_table_buf
@@ -383,9 +391,17 @@ crop_left
 size_t
 crop_right
 ;
+AVBufferRef
+*
+private_ref
+;
 }
 AVFrame
 ;
+#
+if
+FF_API_FRAME_GET_SET
+attribute_deprecated
 int64_t
 av_frame_get_best_effort_timestamp
 (
@@ -395,6 +411,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_best_effort_timestamp
 (
@@ -405,6 +422,7 @@ int64_t
 val
 )
 ;
+attribute_deprecated
 int64_t
 av_frame_get_pkt_duration
 (
@@ -414,6 +432,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_pkt_duration
 (
@@ -424,6 +443,7 @@ int64_t
 val
 )
 ;
+attribute_deprecated
 int64_t
 av_frame_get_pkt_pos
 (
@@ -433,6 +453,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_pkt_pos
 (
@@ -443,6 +464,7 @@ int64_t
 val
 )
 ;
+attribute_deprecated
 int64_t
 av_frame_get_channel_layout
 (
@@ -452,6 +474,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_channel_layout
 (
@@ -462,6 +485,7 @@ int64_t
 val
 )
 ;
+attribute_deprecated
 int
 av_frame_get_channels
 (
@@ -471,6 +495,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_channels
 (
@@ -481,6 +506,7 @@ int
 val
 )
 ;
+attribute_deprecated
 int
 av_frame_get_sample_rate
 (
@@ -490,6 +516,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_sample_rate
 (
@@ -500,6 +527,7 @@ int
 val
 )
 ;
+attribute_deprecated
 AVDictionary
 *
 av_frame_get_metadata
@@ -510,6 +538,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_metadata
 (
@@ -521,6 +550,7 @@ AVDictionary
 val
 )
 ;
+attribute_deprecated
 int
 av_frame_get_decode_error_flags
 (
@@ -530,6 +560,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_decode_error_flags
 (
@@ -540,6 +571,7 @@ int
 val
 )
 ;
+attribute_deprecated
 int
 av_frame_get_pkt_size
 (
@@ -549,6 +581,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_pkt_size
 (
@@ -559,19 +592,10 @@ int
 val
 )
 ;
-AVDictionary
-*
-*
-avpriv_frame_get_metadatap
-(
-AVFrame
-*
-frame
-)
-;
 #
 if
 FF_API_FRAME_QP
+attribute_deprecated
 int8_t
 *
 av_frame_get_qp_table
@@ -587,6 +611,7 @@ int
 type
 )
 ;
+attribute_deprecated
 int
 av_frame_set_qp_table
 (
@@ -604,6 +629,7 @@ type
 ;
 #
 endif
+attribute_deprecated
 enum
 AVColorSpace
 av_frame_get_colorspace
@@ -614,6 +640,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_colorspace
 (
@@ -625,6 +652,7 @@ AVColorSpace
 val
 )
 ;
+attribute_deprecated
 enum
 AVColorRange
 av_frame_get_color_range
@@ -635,6 +663,7 @@ AVFrame
 frame
 )
 ;
+attribute_deprecated
 void
 av_frame_set_color_range
 (
@@ -646,6 +675,8 @@ AVColorRange
 val
 )
 ;
+#
+endif
 const
 char
 *
@@ -786,6 +817,21 @@ AVFrameSideDataType
 type
 int
 size
+)
+;
+AVFrameSideData
+*
+av_frame_new_side_data_from_buf
+(
+AVFrame
+*
+frame
+enum
+AVFrameSideDataType
+type
+AVBufferRef
+*
+buf
 )
 ;
 AVFrameSideData

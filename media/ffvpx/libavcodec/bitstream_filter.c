@@ -43,6 +43,7 @@ h
 if
 FF_API_OLD_BSF
 FF_DISABLE_DEPRECATION_WARNINGS
+const
 AVBitStreamFilter
 *
 av_bitstream_filter_next
@@ -75,14 +76,14 @@ f
 )
 filter
 =
-av_bsf_next
+av_bsf_iterate
 (
 &
 opaque
 )
 ;
 return
-av_bsf_next
+av_bsf_iterate
 (
 &
 opaque
@@ -526,6 +527,10 @@ pkt
 .
 data
 =
+(
+uint8_t
+*
+)
 buf
 ;
 pkt
