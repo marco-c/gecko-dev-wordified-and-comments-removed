@@ -360,6 +360,7 @@ aValue
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetValueInternal
 (

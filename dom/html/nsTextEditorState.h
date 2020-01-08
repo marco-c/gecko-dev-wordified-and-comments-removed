@@ -265,6 +265,7 @@ nsTextControlFrame
 aFrame
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UnbindFromFrame
 (
@@ -273,6 +274,7 @@ nsTextControlFrame
 aFrame
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 PrepareEditor
 (
@@ -327,6 +329,7 @@ eSetValue_ForXUL
 4
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 bool
 SetValue
@@ -343,6 +346,7 @@ uint32_t
 aFlags
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 bool
 SetValue
@@ -799,6 +803,7 @@ return
 mEverInited
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 SyncUpSelectionPropertiesBeforeDestruction
 (

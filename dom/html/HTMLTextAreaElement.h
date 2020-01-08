@@ -200,6 +200,7 @@ return
 true
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Reset
 (
@@ -415,6 +416,7 @@ aFrame
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD_
 (
 void
@@ -427,6 +429,7 @@ aFrame
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 CreateEditor
 (
@@ -537,6 +540,7 @@ aValue
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 SetValueFromSetRangeText
@@ -706,6 +710,7 @@ IsDoneAddingChildren
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 Clone
@@ -1426,6 +1431,7 @@ nsAString
 aValue
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetValue
 (
@@ -1583,6 +1589,7 @@ GetTextEditor
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetUserInput
 (
@@ -1699,6 +1706,7 @@ aIgnoreWrap
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetValueInternal
 (

@@ -2142,13 +2142,6 @@ Mozilla
 inputEvents
 :
 [
-{
-inputType
-:
-"
-insertReplacementText
-"
-}
 ]
 }
 {

@@ -577,6 +577,7 @@ aEvent
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Reset
 (
@@ -598,6 +599,7 @@ SaveState
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 bool
 RestoreState
@@ -716,6 +718,7 @@ aVisitor
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 PreHandleEvent
@@ -815,6 +818,7 @@ true
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 DoneCreatingElement
@@ -1009,6 +1013,7 @@ aFrame
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD_
 (
 void
@@ -1021,6 +1026,7 @@ aFrame
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 CreateEditor
 (
@@ -1131,6 +1137,7 @@ aValue
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 SetValueFromSetRangeText
@@ -1262,6 +1269,7 @@ GetSelectedRadioButton
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 Clone
@@ -2793,6 +2801,7 @@ aRv
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetValue
 (
@@ -3697,6 +3706,7 @@ uint32_t
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetValueInternal
 (
@@ -3712,6 +3722,7 @@ uint32_t
 aFlags
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetValueInternal
 (
@@ -4074,6 +4085,7 @@ PlaceholderApplies
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetDefaultValueAsValue
 (
