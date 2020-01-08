@@ -539,13 +539,7 @@ aOriginNoSuffix
 )
 ;
 return
-std
-:
-:
-move
-(
 scope
-)
 ;
 }
 LocalStorageCache

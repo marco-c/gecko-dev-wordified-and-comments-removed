@@ -2082,13 +2082,7 @@ true
 )
 ;
 return
-std
-:
-:
-move
-(
 result
-)
 ;
 }
 result
@@ -2144,13 +2138,7 @@ kBackgroundPageHTMLEnd
 )
 ;
 return
-std
-:
-:
-move
-(
 result
-)
 ;
 }
 void
