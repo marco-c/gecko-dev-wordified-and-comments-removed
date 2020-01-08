@@ -1203,8 +1203,8 @@ paths
 NodeSet
 :
 :
-Range
-eachTarget
+Iterator
+targetIter
 (
 )
 const
@@ -1219,7 +1219,7 @@ initialized
 return
 targets_
 .
-all
+iter
 (
 )
 ;
