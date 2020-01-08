@@ -86,7 +86,6 @@ _exp
 {
 \
 _code
-\
 int
 next
 =
@@ -113,6 +112,7 @@ ASSERT_EQ
 next
 expected
 )
+\
 <
 <
 "
@@ -145,6 +145,7 @@ HasMore
 (
 )
 )
+\
 <
 <
 "
@@ -171,6 +172,7 @@ ArrayLength
 _exp
 )
 )
+\
 <
 <
 "

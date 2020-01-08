@@ -46,13 +46,13 @@ using
 mozilla
 :
 :
-IsSame
+DeclVal
 ;
 using
 mozilla
 :
 :
-DeclVal
+IsSame
 ;
 namespace
 TestNsDeque

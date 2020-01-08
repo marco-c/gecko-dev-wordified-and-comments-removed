@@ -184,6 +184,8 @@ expected
 .
 Do
 not
+"
+"
 panic
 .
 \

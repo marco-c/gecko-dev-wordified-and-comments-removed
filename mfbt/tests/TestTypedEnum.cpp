@@ -57,6 +57,7 @@ __has_extension
 #
 define
 __has_extension
+\
 __has_feature
 /
 *

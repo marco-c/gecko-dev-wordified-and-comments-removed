@@ -2429,6 +2429,8 @@ FrameRate
 =
 60
 ;
+"
+"
 BITRATE
 =
 100000

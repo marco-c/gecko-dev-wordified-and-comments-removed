@@ -176,16 +176,15 @@ defined
 __x86_64__
 |
 |
-\
 defined
 __i386
 |
 |
+\
 defined
 __x86_64
 |
 |
-\
 defined
 _M_IX86
 |

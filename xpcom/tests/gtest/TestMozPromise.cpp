@@ -367,16 +367,19 @@ forget
 #
 define
 DO_FAIL
+\
 [
 ]
 (
 )
 {
+\
 EXPECT_TRUE
 (
 false
 )
 ;
+\
 return
 TestPromise
 :
@@ -387,6 +390,7 @@ CreateAndReject
 __func__
 )
 ;
+\
 }
 TEST
 (

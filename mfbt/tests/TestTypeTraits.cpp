@@ -32,7 +32,6 @@ test
 type
 __VA_ARGS__
 )
-\
 test
 (
 const
@@ -46,7 +45,6 @@ volatile
 type
 __VA_ARGS__
 )
-\
 test
 (
 const
@@ -83,12 +81,6 @@ mozilla
 :
 :
 DeclVal
-;
-using
-mozilla
-:
-:
-IsFunction
 ;
 using
 mozilla
@@ -131,6 +123,12 @@ mozilla
 :
 :
 IsEmpty
+;
+using
+mozilla
+:
+:
+IsFunction
 ;
 using
 mozilla
@@ -4625,6 +4623,8 @@ struct
 without
 a
 default
+"
+"
 constructor
 "
 )

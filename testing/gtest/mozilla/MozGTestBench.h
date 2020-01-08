@@ -53,7 +53,6 @@ suite
 test
 )
 {
-\
 mozilla
 :
 :
@@ -66,7 +65,6 @@ test
 lambdaOrFunc
 )
 ;
-\
 }
 #
 define
@@ -83,7 +81,6 @@ suite
 test
 )
 {
-\
 mozilla
 :
 :
@@ -96,7 +93,6 @@ test
 lambdaOrFunc
 )
 ;
-\
 }
 #
 endif

@@ -181,15 +181,11 @@ verifyImplFunction
 (
 x
 )
-\
 (
 expected
 )
-\
 __FILE__
-\
 __LINE__
-\
 sizeof
 (
 T
@@ -3087,6 +3083,7 @@ T
 \
 VERIFY_IS_INVALID
 (
+\
 CheckedInt
 <
 T
@@ -3117,6 +3114,7 @@ value
 \
 VERIFY_IS_VALID_IF
 (
+\
 CheckedInt
 <
 T
@@ -3143,6 +3141,7 @@ U
 )
 |
 |
+\
 (
 (
 sizeof
@@ -3172,6 +3171,7 @@ isTSigned
 \
 VERIFY_IS_VALID_IF
 (
+\
 CheckedInt
 <
 T
@@ -3190,6 +3190,7 @@ isUSigned
 =
 =
 false
+\
 ?
 1
 \
@@ -3203,7 +3204,6 @@ isTSigned
 false
 ?
 0
-\
 :
 sizeof
 (

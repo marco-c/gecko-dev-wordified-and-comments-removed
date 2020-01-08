@@ -117,12 +117,10 @@ FACTORY_CID1
 {
 \
 0xf93f6bdc
-\
 0x88af
-\
 0x42d7
-\
 {
+\
 0x9d
 0x64
 0x1b
@@ -131,6 +129,7 @@ FACTORY_CID1
 0x49
 0xa3
 0xe5
+\
 }
 \
 }
@@ -147,12 +146,10 @@ FACTORY_CID2
 {
 \
 0xef38ad65
-\
 0x6595
-\
 0x49f0
-\
 {
+\
 0x80
 0x48
 0xe8
@@ -161,6 +158,7 @@ FACTORY_CID2
 0x1d
 0x15
 0xe2
+\
 }
 \
 }
@@ -173,7 +171,6 @@ FACTORY_CID2
 #
 define
 FACTORY_CONTRACTID
-\
 "
 TestRacingThreadManager
 /

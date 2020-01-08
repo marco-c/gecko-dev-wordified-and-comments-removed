@@ -495,6 +495,7 @@ int
 #
 define
 SLICE_CONST_INT_PTR_PTR
+\
 reinterpret_cast
 <
 const

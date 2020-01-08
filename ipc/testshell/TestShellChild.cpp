@@ -12,7 +12,7 @@ mozilla
 ipc
 :
 :
-TestShellChild
+PTestShellCommandChild
 ;
 using
 mozilla
@@ -21,7 +21,7 @@ mozilla
 ipc
 :
 :
-PTestShellCommandChild
+TestShellChild
 ;
 using
 mozilla

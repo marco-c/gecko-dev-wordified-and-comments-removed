@@ -172,7 +172,6 @@ dst
 }
 )
 ;
-\
 namespace
 TestStrings
 {
@@ -180,17 +179,18 @@ using
 mozilla
 :
 :
-fallible
+BlackBox
 ;
 using
 mozilla
 :
 :
-BlackBox
+fallible
 ;
 #
 define
 TestExample1
+\
 "
 Sed
 ut
@@ -202,6 +202,9 @@ natus
 error
 sit
 voluptatem
+"
+\
+"
 accusantium
 doloremque
 laudantium
@@ -213,6 +216,9 @@ aperiam
 eaque
 ipsa
 quae
+"
+\
+"
 ab
 illo
 inventore
@@ -226,6 +232,9 @@ beatae
 vitae
 dicta
 sunt
+"
+\
+"
 explicabo
 .
 Nemo
@@ -239,6 +248,9 @@ aspernatur
 \
 n
 aut
+"
+\
+"
 odit
 aut
 fugit
@@ -250,6 +262,9 @@ dolores
 eos
 qui
 ratione
+"
+\
+"
 voluptatem
 sequi
 nesciunt
@@ -266,6 +281,9 @@ n
 \
 r
 dolorem
+"
+\
+"
 ipsum
 quia
 dolor
@@ -277,6 +295,9 @@ velit
 sed
 quia
 non
+"
+\
+"
 numquam
 eius
 modi
@@ -288,6 +309,9 @@ et
 dolore
 magnam
 aliquam
+"
+\
+"
 quaerat
 voluptatem
 .
@@ -299,6 +323,9 @@ veniam
 quis
 nostrum
 exercitationem
+"
+\
+"
 ullam
 corporis
 suscipit
@@ -309,6 +336,9 @@ aliquid
 ex
 ea
 commodi
+"
+\
+"
 consequatur
 ?
 Quis
@@ -321,6 +351,9 @@ qui
 in
 ea
 voluptate
+"
+\
+"
 velit
 esse
 quam
@@ -332,6 +365,9 @@ illum
 qui
 dolorem
 eum
+"
+\
+"
 fugiat
 quo
 voluptas
@@ -342,6 +378,7 @@ pariatur
 #
 define
 TestExample2
+\
 "
 At
 vero
@@ -358,6 +395,9 @@ n
 \
 n
 qui
+"
+\
+"
 blanditiis
 praesentium
 voluptatum
@@ -367,6 +407,9 @@ corrupti
 quos
 dolores
 et
+"
+\
+"
 quas
 molestias
 excepturi
@@ -375,6 +418,9 @@ occaecati
 cupiditate
 non
 provident
+"
+\
+"
 similique
 sunt
 in
@@ -391,6 +437,9 @@ n
 mollitia
 animi
 id
+"
+\
+"
 est
 laborum
 et
@@ -404,6 +453,9 @@ rerum
 facilis
 est
 et
+"
+\
+"
 expedita
 distinctio
 .
@@ -415,6 +467,9 @@ soluta
 nobis
 est
 eligendi
+"
+\
+"
 optio
 cumque
 nihil
@@ -426,6 +481,9 @@ quod
 maxime
 placeat
 facere
+"
+\
+"
 possimus
 omnis
 voluptas
@@ -435,6 +493,9 @@ omnis
 dolor
 repellendus
 .
+"
+\
+"
 Temporibus
 autem
 quibusdam
@@ -444,6 +505,9 @@ officiis
 debitis
 aut
 rerum
+"
+\
+"
 necessitatibus
 saepe
 eveniet
@@ -453,6 +517,9 @@ voluptates
 repudiandae
 sint
 et
+"
+\
+"
 molestiae
 non
 recusandae
@@ -464,6 +531,9 @@ hic
 tenetur
 a
 sapiente
+"
+\
+"
 delectus
 ut
 aut
@@ -473,6 +543,9 @@ maiores
 alias
 consequatur
 aut
+"
+\
+"
 perferendis
 doloribus
 asperiores
@@ -482,6 +555,7 @@ repellat
 #
 define
 TestExample3
+\
 "
 Lorem
 ipsum
@@ -495,6 +569,9 @@ elit
 Duis
 ac
 tellus
+"
+\
+"
 eget
 velit
 viverra
@@ -508,6 +585,9 @@ Sed
 id
 consectetur
 mi
+"
+\
+"
 vestibulum
 aliquet
 arcu
@@ -519,6 +599,9 @@ convallis
 .
 Sed
 eu
+"
+\
+"
 condimentum
 ipsum
 a
@@ -530,6 +613,9 @@ varius
 natoque
 penatibus
 et
+"
+\
+"
 magnis
 dis
 \
@@ -548,6 +634,9 @@ mus
 .
 Sed
 non
+"
+\
+"
 tellus
 nec
 ante
@@ -561,6 +650,9 @@ Cras
 vel
 bibendum
 sapien
+"
+\
+"
 nec
 ullamcorper
 felis
@@ -573,6 +665,9 @@ sit
 amet
 vehicula
 .
+"
+\
+"
 Morbi
 pulvinar
 turpis
@@ -585,6 +680,9 @@ id
 .
 Curabitur
 in
+"
+\
+"
 dui
 urna
 .
@@ -599,6 +697,9 @@ faucibus
 nibh
 rutrum
 .
+"
+\
+"
 Duis
 mattis
 turpis
@@ -608,6 +709,9 @@ tincidunt
 .
 Vestibulum
 pharetra
+"
+\
+"
 tortor
 at
 enim
@@ -619,6 +723,9 @@ blandit
 .
 Curabitur
 ac
+"
+\
+"
 fringilla
 quam
 .
@@ -632,6 +739,9 @@ venenatis
 .
 Etiam
 in
+"
+\
+"
 mollis
 lectus
 sed
@@ -650,6 +760,9 @@ n
 finibus
 justo
 sit
+"
+\
+"
 amet
 dictum
 .
@@ -664,6 +777,9 @@ nulla
 bibendum
 in
 massa
+"
+\
+"
 a
 commodo
 finibus
@@ -677,6 +793,9 @@ id
 imperdiet
 .
 Aliquam
+"
+\
+"
 sagittis
 sodales
 felis
@@ -688,6 +807,9 @@ Aliquam
 erat
 volutpat
 .
+"
+\
+"
 Pellentesque
 habitant
 morbi
@@ -697,6 +819,9 @@ et
 netus
 et
 malesuada
+"
+\
+"
 fames
 ac
 turpis
@@ -709,6 +834,9 @@ lorem
 et
 congue
 .
+"
+\
+"
 Phasellus
 porttitor
 posuere
@@ -720,6 +848,9 @@ Nam
 a
 condimentum
 turpis
+"
+\
+"
 sit
 amet
 gravida
@@ -732,6 +863,9 @@ lobortis
 ac
 metus
 et
+"
+\
+"
 convallis
 dapibus
 tellus
@@ -744,6 +878,9 @@ velit
 malesuada
 tincidunt
 et
+"
+\
+"
 eget
 justo
 .
@@ -755,12 +892,16 @@ porttitor
 diam
 vitae
 aliquet
+"
+\
+"
 justo
 .
 "
 #
 define
 TestExample4
+\
 "
 Donec
 feugiat
@@ -774,6 +915,9 @@ porta
 .
 Fusce
 in
+"
+\
+"
 feugiat
 nunc
 .
@@ -786,6 +930,9 @@ feugiat
 ultrices
 ultricies
 a
+"
+\
+"
 risus
 .
 Donec
@@ -799,6 +946,9 @@ eleifend
 in
 .
 Nulla
+"
+\
+"
 in
 massa
 interdum
@@ -811,6 +961,9 @@ est
 Mauris
 aliquet
 massa
+"
+\
+"
 et
 convallis
 mollis
@@ -822,6 +975,9 @@ in
 lobortis
 metus
 eros
+"
+\
+"
 a
 quam
 .
@@ -833,6 +989,9 @@ vestibulum
 elit
 sit
 amet
+"
+\
+"
 consectetur
 ante
 .
@@ -844,6 +1003,9 @@ sit
 amet
 sapien
 vel
+"
+\
+"
 tempus
 gravida
 neque
@@ -857,6 +1019,9 @@ est
 maximus
 molestie
 eget
+"
+\
+"
 at
 turpis
 .
@@ -870,6 +1035,9 @@ dapibus
 fermentum
 non
 eu
+"
+\
+"
 erat
 .
 \
@@ -885,6 +1053,9 @@ eros
 condimentum
 vel
 .
+"
+\
+"
 Nullam
 sit
 amet
@@ -897,6 +1068,9 @@ facilisi
 Mauris
 dapibus
 iaculis
+"
+\
+"
 massa
 sed
 gravida
@@ -911,6 +1085,9 @@ auctor
 ut
 sit
 amet
+"
+\
+"
 dolor
 .
 Proin
@@ -925,6 +1102,9 @@ suscipit
 id
 nibh
 a
+"
+\
+"
 aliquet
 .
 Pellentesque
@@ -935,6 +1115,9 @@ senectus
 et
 netus
 et
+"
+\
+"
 malesuada
 fames
 ac
@@ -947,6 +1130,9 @@ dapibus
 erat
 id
 imperdiet
+"
+\
+"
 mauris
 .
 Nulla
@@ -958,6 +1144,9 @@ dapibus
 tristique
 .
 Integer
+"
+\
+"
 hendrerit
 imperdiet
 lorem
@@ -968,6 +1157,9 @@ semper
 ut
 .
 Vestibulum
+"
+\
+"
 ante
 ipsum
 primis
@@ -979,6 +1171,9 @@ et
 ultrices
 posuere
 cubilia
+"
+\
+"
 Curae
 Nullam
 dignissim
@@ -990,6 +1185,9 @@ ultricies
 Quisque
 erat
 odio
+"
+\
+"
 maximus
 mollis
 laoreet
@@ -1002,6 +1200,7 @@ turpis
 #
 define
 TestExample5
+\
 "
 Donec
 id
@@ -1016,6 +1215,9 @@ id
 bibendum
 .
 Nulla
+"
+\
+"
 faucibus
 faucibus
 enim
@@ -1028,6 +1230,9 @@ id
 semper
 vitae
 luctus
+"
+\
+"
 ut
 nulla
 .
@@ -1040,6 +1245,9 @@ imperdiet
 efficitur
 .
 Suspendisse
+"
+\
+"
 feugiat
 \
 n
@@ -1056,6 +1264,9 @@ feugiat
 nec
 .
 Curabitur
+"
+\
+"
 laoreet
 massa
 venenatis
@@ -1072,6 +1283,9 @@ n
 vitae
 feugiat
 tortor
+"
+\
+"
 accumsan
 .
 Lorem
@@ -1083,6 +1297,9 @@ consectetur
 adipiscing
 elit
 .
+"
+\
+"
 Maecenas
 id
 scelerisque
@@ -1094,6 +1311,9 @@ erat
 Ut
 nec
 pulvinar
+"
+\
+"
 risus
 sed
 iaculis
@@ -1105,6 +1325,9 @@ risus
 et
 pretium
 elementum
+"
+\
+"
 leo
 nisi
 consectetur
@@ -1116,6 +1339,9 @@ velit
 eget
 libero
 .
+"
+\
+"
 Sed
 ac
 est
@@ -4042,6 +4268,8 @@ jar
 /
 browser
 /
+"
+"
 chrome
 /
 classic
@@ -4409,6 +4637,8 @@ jar
 /
 browser
 /
+"
+"
 chrome
 /
 classic
@@ -6480,6 +6710,7 @@ L
 2147483647
 "
 )
+;
 test_appends_expect
 (
 INT32_MIN
@@ -6489,6 +6720,7 @@ L
 2147483648
 "
 )
+;
 test_appends_expect
 (
 UINT32_MAX
@@ -6497,6 +6729,7 @@ UL
 4294967295
 "
 )
+;
 test_appends_expect
 (
 INT64_MAX
@@ -6505,6 +6738,7 @@ LL
 9223372036854775807
 "
 )
+;
 test_appends_expect
 (
 INT64_MIN
@@ -6514,6 +6748,7 @@ LL
 9223372036854775808
 "
 )
+;
 test_appends_expect
 (
 UINT64_MAX
@@ -6522,6 +6757,7 @@ ULL
 18446744073709551615
 "
 )
+;
 test_appendbases
 (
 0
@@ -6529,6 +6765,7 @@ test_appendbases
 L
 8
 )
+;
 test_appendbases
 (
 0
@@ -6536,6 +6773,7 @@ test_appendbases
 L
 8
 )
+;
 test_appendbases
 (
 0
@@ -6543,6 +6781,7 @@ test_appendbases
 UL
 8
 )
+;
 test_appendbases
 (
 0
@@ -6550,6 +6789,7 @@ test_appendbases
 LL
 8
 )
+;
 test_appendbases
 (
 0
@@ -6557,6 +6797,7 @@ test_appendbases
 LL
 8
 )
+;
 test_appendbases
 (
 0
@@ -6564,6 +6805,7 @@ test_appendbases
 ULL
 8
 )
+;
 test_appendbases
 (
 0x
@@ -6571,6 +6813,7 @@ test_appendbases
 L
 16
 )
+;
 test_appendbases
 (
 0x
@@ -6578,6 +6821,7 @@ test_appendbases
 L
 16
 )
+;
 test_appendbases
 (
 0x
@@ -6585,6 +6829,7 @@ ffffffff
 UL
 16
 )
+;
 test_appendbases
 (
 0x
@@ -6592,6 +6837,7 @@ test_appendbases
 LL
 16
 )
+;
 test_appendbases
 (
 0x
@@ -6599,6 +6845,7 @@ test_appendbases
 LL
 16
 )
+;
 test_appendbases
 (
 0x
@@ -6606,6 +6853,7 @@ ffffffffffffffff
 ULL
 16
 )
+;
 }
 TEST_F
 (
