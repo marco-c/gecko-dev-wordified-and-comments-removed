@@ -666,7 +666,7 @@ tframe
 SVGObserverUtils
 :
 :
-GetTemplateFrame
+GetAndObserveTemplate
 (
 this
 GetHref

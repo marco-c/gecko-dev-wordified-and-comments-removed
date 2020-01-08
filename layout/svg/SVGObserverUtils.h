@@ -569,11 +569,11 @@ aFlags
 static
 nsSVGPaintServerFrame
 *
-GetPaintServer
+GetAndObservePaintServer
 (
 nsIFrame
 *
-aTargetFrame
+aPaintedFrame
 nsStyleSVGPaint
 nsStyleSVG
 :
@@ -584,7 +584,7 @@ aPaint
 ;
 static
 bool
-GetMarkerFrames
+GetAndObserveMarkers
 (
 nsIFrame
 *
@@ -694,7 +694,7 @@ aMaskFrames
 static
 SVGGeometryElement
 *
-GetTextPathsReferencedPath
+GetAndObserveTextPathsPath
 (
 nsIFrame
 *
@@ -713,7 +713,7 @@ aTextPathFrame
 static
 nsIFrame
 *
-GetTemplateFrame
+GetAndObserveTemplate
 (
 nsIFrame
 *

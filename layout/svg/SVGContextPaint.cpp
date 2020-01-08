@@ -363,7 +363,7 @@ ps
 SVGObserverUtils
 :
 :
-GetPaintServer
+GetAndObservePaintServer
 (
 aFrame
 aFillOrStroke

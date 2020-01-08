@@ -2833,7 +2833,7 @@ if
 SVGObserverUtils
 :
 :
-GetMarkerFrames
+GetAndObserveMarkers
 (
 this
 &
@@ -3725,7 +3725,7 @@ if
 SVGObserverUtils
 :
 :
-GetMarkerFrames
+GetAndObserveMarkers
 (
 this
 &

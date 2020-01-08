@@ -17736,7 +17736,7 @@ geomElement
 SVGObserverUtils
 :
 :
-GetTextPathsReferencedPath
+GetAndObserveTextPathsPath
 (
 aTextPathFrame
 )
@@ -17892,7 +17892,7 @@ geomElement
 SVGObserverUtils
 :
 :
-GetTextPathsReferencedPath
+GetAndObserveTextPathsPath
 (
 aTextPathFrame
 )
@@ -17902,11 +17902,13 @@ if
 !
 geomElement
 )
+{
 return
 1
 .
 0
 ;
+}
 return
 geomElement
 -
