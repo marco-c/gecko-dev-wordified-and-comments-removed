@@ -2760,6 +2760,9 @@ mBrush
 IMEContext
 mDefaultIMC
 ;
+HDEVNOTIFY
+mDeviceNotifyHandle
+;
 bool
 mIsTopWidgetWindow
 ;
