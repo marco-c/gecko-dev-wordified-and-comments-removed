@@ -366,13 +366,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 FrameLayerBuilder
 .
 h

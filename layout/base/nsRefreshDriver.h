@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsTObserverArray
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h

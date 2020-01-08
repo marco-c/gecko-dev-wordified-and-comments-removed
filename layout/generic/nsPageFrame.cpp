@@ -82,13 +82,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 nsSimplePageSequenceFrame
 .
 h

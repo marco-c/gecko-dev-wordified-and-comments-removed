@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsStyleConsts
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

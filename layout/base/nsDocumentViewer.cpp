@@ -304,15 +304,6 @@ include
 "
 mozilla
 /
-StyleSheetInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 css
 /
 Loader

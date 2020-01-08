@@ -208,13 +208,6 @@ h
 #
 include
 "
-nsStyleConsts
-.
-h
-"
-#
-include
-"
 SVGImageContext
 .
 h

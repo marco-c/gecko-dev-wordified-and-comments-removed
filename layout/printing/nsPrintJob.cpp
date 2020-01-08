@@ -239,13 +239,6 @@ h
 #
 include
 "
-nsIWebBrowserPrint
-.
-h
-"
-#
-include
-"
 nsIPrintProgress
 .
 h
@@ -474,13 +467,6 @@ h
 include
 "
 nsViewManager
-.
-h
-"
-#
-include
-"
-nsView
 .
 h
 "

@@ -71,13 +71,6 @@ SVGObserverUtils
 .
 h
 "
-#
-include
-"
-nsSVGPaintServerFrame
-.
-h
-"
 using
 namespace
 mozilla

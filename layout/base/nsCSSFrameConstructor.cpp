@@ -701,13 +701,6 @@ DetailsFrame
 h
 "
 #
-include
-"
-nsStyleConsts
-.
-h
-"
-#
 ifdef
 MOZ_XUL
 #
