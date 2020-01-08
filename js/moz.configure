@@ -3561,6 +3561,13 @@ LIBFUZZER
 '
 enable_libfuzzer
 )
+add_old_configure_assignment
+(
+'
+LIBFUZZER
+'
+enable_libfuzzer
+)
 set_config
 (
 '
@@ -3569,6 +3576,13 @@ FUZZING_INTERFACES
 enable_fuzzing_interfaces
 )
 set_define
+(
+'
+FUZZING_INTERFACES
+'
+enable_fuzzing_interfaces
+)
+add_old_configure_assignment
 (
 '
 FUZZING_INTERFACES
