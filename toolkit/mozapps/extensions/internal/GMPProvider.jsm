@@ -371,7 +371,7 @@ widevine_description
 description
 :
 "
-cdm_description
+cdm_description2
 "
 licenseURL
 :
