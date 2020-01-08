@@ -2847,6 +2847,14 @@ ConnectToPBackground
 )
 )
 {
+mState
+=
+eStateDisentangled
+;
+UpdateMustKeepAlive
+(
+)
+;
 return
 ;
 }
