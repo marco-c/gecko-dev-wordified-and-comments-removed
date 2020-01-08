@@ -557,13 +557,6 @@ options
 cx
 )
 ;
-options
-.
-setUTF8
-(
-true
-)
-;
 RootedString
 string1
 (
@@ -1010,13 +1003,6 @@ CompileOptions
 options
 (
 cx
-)
-;
-options
-.
-setUTF8
-(
-true
 )
 ;
 RootedScript

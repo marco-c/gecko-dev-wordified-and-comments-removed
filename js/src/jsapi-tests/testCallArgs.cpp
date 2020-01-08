@@ -132,13 +132,6 @@ __LINE__
 4
 )
 ;
-opts
-.
-setUTF8
-(
-true
-)
-;
 JS
 :
 :

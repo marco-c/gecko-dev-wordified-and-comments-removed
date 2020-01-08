@@ -140,13 +140,6 @@ __FILE__
 startLine
 )
 ;
-options
-.
-setUTF8
-(
-true
-)
-;
 JS
 :
 :

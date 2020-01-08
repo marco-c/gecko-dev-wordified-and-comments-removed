@@ -17952,13 +17952,6 @@ FillSelfHostingCompileOptions
 options
 )
 ;
-options
-.
-setUTF8
-(
-true
-)
-;
 RootedValue
 rv
 (

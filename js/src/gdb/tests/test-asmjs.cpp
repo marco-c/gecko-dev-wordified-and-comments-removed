@@ -230,13 +230,6 @@ line0
 ;
 opts
 .
-setUTF8
-(
-true
-)
-;
-opts
-.
 asmJSOption
 =
 JS
@@ -257,12 +250,6 @@ cx
 )
 ;
 bool
-ok
-;
-ok
-=
-false
-;
 ok
 =
 JS

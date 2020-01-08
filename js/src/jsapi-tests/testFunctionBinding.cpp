@@ -57,13 +57,6 @@ __FILE__
 __LINE__
 )
 ;
-options
-.
-setUTF8
-(
-true
-)
-;
 const
 char
 s1chars

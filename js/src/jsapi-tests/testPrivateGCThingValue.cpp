@@ -216,13 +216,6 @@ __FILE__
 __LINE__
 )
 ;
-options
-.
-setUTF8
-(
-true
-)
-;
 JS
 :
 :

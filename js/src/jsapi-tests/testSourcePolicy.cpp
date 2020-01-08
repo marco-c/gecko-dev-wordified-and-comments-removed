@@ -122,13 +122,6 @@ cx
 ;
 opts
 .
-setUTF8
-(
-true
-)
-;
-opts
-.
 setNoScriptRval
 (
 true
