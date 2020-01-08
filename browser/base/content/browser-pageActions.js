@@ -3761,7 +3761,7 @@ this
 .
 _contextAction
 .
-_isBuiltIn
+_isMozillaAction
 )
 {
 state
