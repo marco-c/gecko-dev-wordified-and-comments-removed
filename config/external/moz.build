@@ -387,6 +387,11 @@ libsoundtouch
 '
 media
 /
+libwebp
+'
+'
+media
+/
 mp4parse
 -
 rust
