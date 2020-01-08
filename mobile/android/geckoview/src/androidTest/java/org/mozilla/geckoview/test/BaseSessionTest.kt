@@ -126,6 +126,14 @@ mozilla
 .
 geckoview
 .
+GeckoSessionSettings
+import
+org
+.
+mozilla
+.
+geckoview
+.
 test
 .
 rule
@@ -690,8 +698,11 @@ this
 .
 settings
 .
-getUseMultiprocess
+getBoolean
 (
+GeckoSessionSettings
+.
+USE_MULTIPROCESS
 )
 fun
 createTestUrl
