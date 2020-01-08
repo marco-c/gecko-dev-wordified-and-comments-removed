@@ -4614,6 +4614,14 @@ if
 XRE_IsParentProcess
 (
 )
+&
+&
+gfxVars
+:
+:
+UseWebRender
+(
+)
 )
 {
 RegisterStrongAsyncMemoryReporter
