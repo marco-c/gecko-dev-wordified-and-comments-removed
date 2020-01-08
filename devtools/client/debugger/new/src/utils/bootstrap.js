@@ -1017,7 +1017,7 @@ updatePrefs
 state
 )
 {
-let
+const
 previousPendingBreakpoints
 =
 currentPendingBreakpoints

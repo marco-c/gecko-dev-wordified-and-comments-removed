@@ -311,6 +311,9 @@ prettySource
 =
 {
 url
+relativeUrl
+:
+url
 id
 isBlackBoxed
 :

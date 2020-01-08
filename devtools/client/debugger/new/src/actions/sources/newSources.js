@@ -185,6 +185,9 @@ return
 url
 :
 originalUrl
+relativeUrl
+:
+originalUrl
 id
 :
 sourceMaps
