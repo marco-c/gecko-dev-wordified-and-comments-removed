@@ -377,6 +377,11 @@ nsError
 h
 '
 '
+nsErrorService
+.
+h
+'
+'
 nsGZFileWriter
 .
 h

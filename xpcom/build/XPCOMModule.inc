@@ -22,14 +22,6 @@ Module
 :
 ALLOW_IN_GPU_PROCESS
 )
-COMPONENT
-(
-ERRORSERVICE
-nsErrorService
-:
-:
-Create
-)
 COMPONENT_M
 (
 CATEGORYMANAGER
