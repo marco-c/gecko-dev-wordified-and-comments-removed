@@ -426,6 +426,7 @@ derive
 Debug
 Copy
 Clone
+PartialEq
 )
 ]
 #
