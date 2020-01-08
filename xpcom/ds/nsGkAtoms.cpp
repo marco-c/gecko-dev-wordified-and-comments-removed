@@ -57,10 +57,6 @@ atom_type_
 nsStaticAtom
 (
 \
-u
-"
-"
-value_
 sizeof
 (
 value_

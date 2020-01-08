@@ -353,10 +353,6 @@ protected
 constexpr
 nsAtom
 (
-const
-char16_t
-*
-aStr
 uint32_t
 aLength
 uint32_t
@@ -495,10 +491,6 @@ delete
 constexpr
 nsStaticAtom
 (
-const
-char16_t
-*
-aStr
 uint32_t
 aLength
 uint32_t
@@ -509,7 +501,6 @@ aStringOffset
 :
 nsAtom
 (
-aStr
 aLength
 aHash
 )
