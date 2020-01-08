@@ -3389,6 +3389,9 @@ FreezeItemsEarly
 (
 bool
 aIsUsingFlexGrow
+ComputedFlexLineInfo
+*
+aLineInfo
 )
 ;
 void
@@ -8350,6 +8353,9 @@ FreezeItemsEarly
 (
 bool
 aIsUsingFlexGrow
+ComputedFlexLineInfo
+*
+aLineInfo
 )
 {
 uint32_t
@@ -8436,6 +8442,10 @@ if
 (
 !
 shouldFreeze
+&
+&
+!
+aLineInfo
 )
 {
 if
@@ -8871,6 +8881,7 @@ aFlexContainerMainSize
 FreezeItemsEarly
 (
 isUsingFlexGrow
+aLineInfo
 )
 ;
 if
