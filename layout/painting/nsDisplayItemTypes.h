@@ -75,7 +75,6 @@ DECLARE_DISPLAY_ITEM_TYPE
 name
 flags
 )
-\
 case
 DisplayItemType
 :
@@ -85,7 +84,6 @@ TYPE_
 #
 name
 :
-\
 return
 #
 name

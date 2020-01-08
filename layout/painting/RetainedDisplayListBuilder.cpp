@@ -4408,8 +4408,6 @@ within
 this
 stacking
 context
-"
-"
 giving
 up
 \
