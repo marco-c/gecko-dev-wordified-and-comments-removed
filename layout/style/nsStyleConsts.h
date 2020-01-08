@@ -549,6 +549,16 @@ Space
 Round
 }
 ;
+enum
+class
+StylePrefersReducedMotion
+:
+uint8_t
+{
+NoPreference
+Reduce
+}
+;
 #
 define
 NS_STYLE_IMAGELAYER_SIZE_CONTAIN

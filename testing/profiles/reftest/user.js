@@ -926,6 +926,16 @@ caretWidth
 user_pref
 (
 "
+ui
+.
+prefersReducedMotion
+"
+0
+)
+;
+user_pref
+(
+"
 dom
 .
 push

@@ -506,6 +506,16 @@ eIntID_SystemUsesDarkTheme
 false
 0
 }
+{
+"
+ui
+.
+prefersReducedMotion
+"
+eIntID_PrefersReducedMotion
+false
+0
+}
 }
 ;
 nsLookAndFeelFloatPref
