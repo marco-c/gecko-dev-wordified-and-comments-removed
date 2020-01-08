@@ -2513,11 +2513,6 @@ command
 "
 cmd_handleBackspace
 "
-reserved
-=
-"
-false
-"
 /
 >
 <
@@ -2536,11 +2531,6 @@ modifiers
 =
 "
 shift
-"
-reserved
-=
-"
-false
 "
 /
 >
