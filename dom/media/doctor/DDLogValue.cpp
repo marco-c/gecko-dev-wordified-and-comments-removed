@@ -566,6 +566,8 @@ struct
 LogValueMatcherJson
 {
 JSONWriter
+<
+>
 &
 mJW
 ;
@@ -1007,6 +1009,8 @@ DDLogValue
 &
 aValue
 JSONWriter
+<
+>
 &
 aJSONWriter
 const

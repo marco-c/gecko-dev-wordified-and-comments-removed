@@ -625,5 +625,17 @@ true
 }
 ;
 }
+namespace
+JS
+{
+using
+SystemAllocPolicy
+=
+js
+:
+:
+SystemAllocPolicy
+;
+}
 #
 endif

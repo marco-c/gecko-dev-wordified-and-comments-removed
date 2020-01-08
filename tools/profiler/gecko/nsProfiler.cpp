@@ -878,7 +878,7 @@ aCx
 nsString
 buffer
 ;
-JSONWriter
+ProfilerJSONWriter
 w
 (
 MakeUnique

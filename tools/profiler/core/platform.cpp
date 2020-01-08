@@ -6546,7 +6546,7 @@ static
 void
 AddSharedLibraryInfoToStream
 (
-JSONWriter
+ProfilerJSONWriter
 &
 aWriter
 const
@@ -6742,7 +6742,7 @@ EndObject
 void
 AppendSharedLibraries
 (
-JSONWriter
+ProfilerJSONWriter
 &
 aWriter
 )
@@ -6803,7 +6803,7 @@ static
 void
 StreamNameAndThreadId
 (
-JSONWriter
+ProfilerJSONWriter
 &
 aWriter
 const
@@ -8223,7 +8223,7 @@ aWriter
 .
 StartArrayElement
 (
-JSONWriter
+ProfilerJSONWriter
 :
 :
 SingleLineStyle

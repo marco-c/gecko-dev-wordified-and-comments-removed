@@ -7224,6 +7224,8 @@ void
 WriteBlockContents
 (
 JSONWriter
+<
+>
 &
 aWriter
 const
@@ -7344,6 +7346,8 @@ aWriter
 )
 {
 JSONWriter
+<
+>
 writer
 (
 std
