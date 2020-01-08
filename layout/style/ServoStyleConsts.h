@@ -48,6 +48,7 @@ Menuarrow
 Menuimage
 Meterbar
 Meterchunk
+MozMenulistButton
 NumberInput
 Progressbar
 Progresschunk
