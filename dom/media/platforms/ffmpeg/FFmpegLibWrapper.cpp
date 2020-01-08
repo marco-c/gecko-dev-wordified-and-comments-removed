@@ -664,6 +664,16 @@ AV_FUNC
 avcodec_free_frame
 AV_FUNC_54
 )
+AV_FUNC
+(
+avcodec_send_packet
+AV_FUNC_58
+)
+AV_FUNC
+(
+avcodec_receive_frame
+AV_FUNC_58
+)
 AV_FUNC_OPTION
 (
 av_rdft_init
