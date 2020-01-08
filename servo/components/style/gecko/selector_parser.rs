@@ -18,15 +18,6 @@ gecko_bindings
 :
 :
 structs
-;
-use
-crate
-:
-:
-gecko_bindings
-:
-:
-structs
 :
 :
 RawServoSelectorList
