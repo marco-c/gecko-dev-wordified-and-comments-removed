@@ -18082,10 +18082,9 @@ if
 not
 result
 and
-not
 self
 .
-countpass
+countfail
 :
             
 result
