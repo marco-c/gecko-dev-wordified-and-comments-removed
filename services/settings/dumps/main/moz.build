@@ -69,13 +69,6 @@ example
 json
 '
 '
-language
--
-dictionaries
-.
-json
-'
-'
 onboarding
 .
 json
