@@ -13,14 +13,6 @@ tests
 .
 support
 .
-helpers
-import
-document_dimensions
-from
-tests
-.
-support
-.
 image
 import
 png_dimensions
@@ -32,6 +24,10 @@ support
 inline
 import
 inline
+from
+.
+import
+document_dimensions
 def
 take_full_screenshot
 (
