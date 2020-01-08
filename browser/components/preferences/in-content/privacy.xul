@@ -2261,11 +2261,6 @@ menupopup
 >
 <
 menuitem
-id
-=
-"
-blockCookiesFromTrackers
-"
 data
 -
 l10n
