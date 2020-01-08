@@ -101,13 +101,17 @@ session
 .
 window_handle
     
-session
-.
-window_handle
+new_handle
 =
 create_window
 (
 )
+    
+session
+.
+window_handle
+=
+new_handle
     
 create_dialog
 (
@@ -145,6 +149,14 @@ expected_retval
 =
 None
 )
+    
+assert
+new_handle
+not
+in
+session
+.
+handles
 def
 test_handle_prompt_accept_and_notify
 (
@@ -242,13 +254,17 @@ retval
 )
 :
     
-session
-.
-window_handle
+new_handle
 =
 create_window
 (
 )
+    
+session
+.
+window_handle
+=
+new_handle
     
 create_dialog
 (
@@ -285,3 +301,10 @@ expected_retval
 =
 retval
 )
+    
+assert
+new_handle
+in
+session
+.
+handles

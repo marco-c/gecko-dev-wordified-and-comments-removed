@@ -13,6 +13,8 @@ add_event_listeners
     
 configuration
     
+create_cookie
+    
 create_dialog
     
 create_frame
@@ -153,6 +155,14 @@ session
 )
 (
 configuration
+)
+pytest
+.
+fixture
+(
+)
+(
+create_cookie
 )
 pytest
 .

@@ -111,6 +111,14 @@ retval
 )
 :
     
+original_rect
+=
+session
+.
+window
+.
+rect
+    
 create_dialog
 (
 dialog_type
@@ -129,6 +137,7 @@ session
 assert_success
 (
 response
+original_rect
 )
     
 assert_dialog_handled
@@ -237,6 +246,14 @@ retval
 )
 :
     
+original_rect
+=
+session
+.
+window
+.
+rect
+    
 create_dialog
 (
 dialog_type
@@ -272,3 +289,13 @@ expected_retval
 =
 retval
 )
+    
+assert
+session
+.
+window
+.
+rect
+=
+=
+original_rect

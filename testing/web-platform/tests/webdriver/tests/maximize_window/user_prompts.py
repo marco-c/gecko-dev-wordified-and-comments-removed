@@ -111,6 +111,14 @@ retval
 )
 :
     
+original_size
+=
+session
+.
+window
+.
+size
+    
 create_dialog
 (
 dialog_type
@@ -141,6 +149,16 @@ expected_retval
 =
 retval
 )
+    
+assert
+session
+.
+window
+.
+size
+!
+=
+original_size
 def
 test_handle_prompt_accept_and_notify
 (
@@ -237,6 +255,14 @@ retval
 )
 :
     
+original_size
+=
+session
+.
+window
+.
+size
+    
 create_dialog
 (
 dialog_type
@@ -272,3 +298,13 @@ expected_retval
 =
 retval
 )
+    
+assert
+session
+.
+window
+.
+size
+=
+=
+original_size

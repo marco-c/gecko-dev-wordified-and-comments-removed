@@ -127,9 +127,7 @@ inline
 <
 title
 >
-WD
-doc
-title
+Foo
 <
 /
 title
@@ -257,9 +255,7 @@ inline
 <
 title
 >
-WD
-doc
-title
+Foo
 <
 /
 title
@@ -384,9 +380,7 @@ inline
 <
 title
 >
-WD
-doc
-title
+Foo
 <
 /
 title

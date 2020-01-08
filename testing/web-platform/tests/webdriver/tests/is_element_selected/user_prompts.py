@@ -140,6 +140,10 @@ input
 id
 =
 foo
+type
+=
+checkbox
+checked
 >
 "
 )
@@ -159,6 +163,15 @@ foo
 all
 =
 False
+)
+    
+element
+.
+send_keys
+(
+"
+foo
+"
 )
     
 create_dialog
@@ -182,7 +195,7 @@ id
 assert_success
 (
 response
-False
+True
 )
     
 assert_dialog_handled
@@ -280,6 +293,10 @@ input
 id
 =
 foo
+type
+=
+checkbox
+checked
 >
 "
 )
@@ -322,7 +339,7 @@ id
 assert_success
 (
 response
-False
+True
 )
     
 assert_dialog_handled
@@ -417,6 +434,10 @@ input
 id
 =
 foo
+type
+=
+checkbox
+checked
 >
 "
 )

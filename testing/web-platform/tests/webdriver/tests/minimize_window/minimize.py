@@ -90,6 +90,25 @@ webkitIsFullScreen
 "
 )
 def
+is_minimized
+(
+session
+)
+:
+    
+return
+session
+.
+execute_script
+(
+"
+return
+document
+.
+hidden
+"
+)
+def
 test_no_browsing_context
 (
 session
@@ -147,8 +166,6 @@ is_fullscreen
 (
 session
 )
-is
-True
     
 response
 =
@@ -163,27 +180,17 @@ response
 )
     
 assert
+not
 is_fullscreen
 (
 session
 )
-is
-False
     
 assert
-session
-.
-execute_script
+is_minimized
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
-is
-True
 def
 test_minimize
 (
@@ -193,16 +200,9 @@ session
     
 assert
 not
-session
-.
-execute_script
+is_minimized
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
     
 response
@@ -218,16 +218,9 @@ response
 )
     
 assert
-session
-.
-execute_script
+is_minimized
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
 def
 test_payload
@@ -238,16 +231,9 @@ session
     
 assert
 not
-session
-.
-execute_script
+is_minimized
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
     
 response
@@ -257,25 +243,17 @@ minimize
 session
 )
     
-assert
+value
+=
+assert_success
+(
 response
-.
-status
-=
-=
-200
+)
     
 assert
 isinstance
 (
-response
-.
-body
-[
-"
 value
-"
-]
 dict
 )
     
@@ -367,16 +345,9 @@ int
 )
     
 assert
-session
-.
-execute_script
+is_minimized
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
 def
 test_minimize_twice_is_idempotent
@@ -387,16 +358,9 @@ session
     
 assert
 not
-session
-.
-execute_script
+is_minimized
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
     
 first_response
@@ -412,16 +376,9 @@ first_response
 )
     
 assert
-session
-.
-execute_script
+is_minimized
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
     
 second_response
@@ -437,14 +394,7 @@ second_response
 )
     
 assert
-session
-.
-execute_script
+is_minimized
 (
-"
-return
-document
-.
-hidden
-"
+session
 )
