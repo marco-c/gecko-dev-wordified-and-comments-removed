@@ -138,9 +138,7 @@ manager
 .
 updateEnabled
 "
-'
 false
-'
 )
 ;
 user_pref
