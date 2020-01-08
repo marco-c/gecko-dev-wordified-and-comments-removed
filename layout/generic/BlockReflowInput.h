@@ -312,9 +312,6 @@ aFloat
 void
 PlaceBelowCurrentLineFloats
 (
-nsFloatCacheFreeList
-&
-aFloats
 nsLineBox
 *
 aLine
