@@ -198,11 +198,6 @@ aAttribute
 const
 override
 ;
-void
-Invalidate
-(
-)
-;
 virtual
 bool
 HasValidDimensions

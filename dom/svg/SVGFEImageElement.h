@@ -369,11 +369,6 @@ PreserveAspectRatio
 ;
 private
 :
-void
-Invalidate
-(
-)
-;
 nsresult
 LoadSVGImage
 (
