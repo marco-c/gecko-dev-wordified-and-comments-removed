@@ -1706,7 +1706,7 @@ mTarget
 return
 ;
 }
-mBaseStyleValuesForServo
+mBaseValues
 .
 Clear
 (
@@ -1925,7 +1925,7 @@ Consume
 (
 )
 ;
-mBaseStyleValuesForServo
+mBaseValues
 .
 Put
 (
@@ -1992,7 +1992,7 @@ Servo_AnimationCompose
 &
 aAnimationValues
 &
-mBaseStyleValuesForServo
+mBaseValues
 aProperty
 .
 mProperty
@@ -5060,7 +5060,7 @@ RawServoAnimationValue
 *
 value
 =
-mBaseStyleValuesForServo
+mBaseValues
 .
 GetWeak
 (

@@ -979,7 +979,7 @@ result
 .
 mServo
 =
-mBaseStyleValuesForServo
+mBaseValues
 .
 GetWeak
 (
@@ -1242,7 +1242,7 @@ nsRefPtrHashtable
 nsUint32HashKey
 RawServoAnimationValue
 >
-mBaseStyleValuesForServo
+mBaseValues
 ;
 bool
 mInEffectSet
