@@ -403,12 +403,14 @@ register
 it
 in
 the
-_addBrowserActors
+addBrowserActors
 method
 in
 server
 /
-main
+actor
+-
+registry
 .
 js
 .
