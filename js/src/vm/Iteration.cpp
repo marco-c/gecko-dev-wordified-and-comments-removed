@@ -3274,7 +3274,7 @@ allocateSentinel
 (
 JSContext
 *
-maybecx
+cx
 )
 {
 NativeIterator
@@ -3294,14 +3294,13 @@ if
 ni
 )
 {
-if
-(
-maybecx
-)
 ReportOutOfMemory
 (
-maybecx
+cx
 )
+;
+return
+nullptr
 ;
 }
 return

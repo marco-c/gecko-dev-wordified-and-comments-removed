@@ -965,7 +965,7 @@ allocateSentinel
 (
 JSContext
 *
-maybecx
+cx
 )
 ;
 void
