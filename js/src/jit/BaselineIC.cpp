@@ -26614,6 +26614,15 @@ JSOP_ADD
 case
 JSOP_SUB
 :
+case
+JSOP_BITOR
+:
+case
+JSOP_BITXOR
+:
+case
+JSOP_BITAND
+:
 break
 ;
 default
