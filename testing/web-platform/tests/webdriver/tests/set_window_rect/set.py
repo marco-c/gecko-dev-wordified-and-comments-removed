@@ -1319,6 +1319,17 @@ session
 )
 :
     
+session
+.
+window
+.
+position
+=
+(
+50
+50
+)
+    
 original
 =
 session
@@ -1899,9 +1910,34 @@ mac
 "
 :
         
+value
+=
 assert_success
 (
 response
+)
+        
+avail_top
+=
+session
+.
+execute_script
+(
+"
+return
+window
+.
+screen
+.
+availTop
+;
+"
+)
+        
+assert
+value
+=
+=
 {
 "
 x
@@ -1909,13 +1945,13 @@ x
 :
 -
 8
-                                  
+                         
 "
 y
 "
 :
-23
-                                  
+avail_top
+                         
 "
 width
 "
@@ -1926,7 +1962,7 @@ original
 width
 "
 ]
-                                  
+                         
 "
 height
 "
@@ -1938,7 +1974,6 @@ height
 "
 ]
 }
-)
     
 elif
 os
