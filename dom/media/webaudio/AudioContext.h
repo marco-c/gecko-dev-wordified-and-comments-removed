@@ -649,6 +649,11 @@ IsRunning
 )
 const
 ;
+void
+NotifyScheduledSourceNodeStarted
+(
+)
+;
 already_AddRefed
 <
 Promise
@@ -1325,6 +1330,9 @@ mSuspendCalled
 ;
 bool
 mIsDisconnecting
+;
+bool
+mWasAllowedToStart
 ;
 }
 ;

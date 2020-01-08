@@ -1010,6 +1010,15 @@ MarkActive
 (
 )
 ;
+Context
+(
+)
+-
+>
+NotifyScheduledSourceNodeStarted
+(
+)
+;
 }
 void
 ConstantSourceNode
