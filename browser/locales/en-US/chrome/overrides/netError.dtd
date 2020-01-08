@@ -1452,7 +1452,7 @@ certerror
 introPara
 certerror
 .
-introPara1
+introPara2
 )
 -
 The
@@ -1534,7 +1534,7 @@ website
 ENTITY
 certerror
 .
-introPara1
+introPara2
 "
 &
 brandShortName
@@ -1576,7 +1576,8 @@ passwords
 emails
 or
 credit
-cards
+card
+details
 .
 "
 >
