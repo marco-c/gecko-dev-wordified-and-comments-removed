@@ -29,6 +29,12 @@ RefPtr
 .
 h
 "
+#
+define
+USER_INTERACTION_PERM
+"
+storageAccessAPI
+"
 class
 nsIChannel
 ;
