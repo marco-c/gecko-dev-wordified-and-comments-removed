@@ -47,6 +47,13 @@ SkTypes
 h
 "
 #
+include
+"
+SkEndian
+.
+h
+"
+#
 ifdef
 SK_PRINT_CODEC_MESSAGES
 #
