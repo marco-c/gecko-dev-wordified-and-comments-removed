@@ -4168,15 +4168,6 @@ notificationBar
 button
 )
 {
-let
-win
-=
-gBrowser
-.
-ownerGlobal
-;
-win
-.
 openPreferences
 (
 "
