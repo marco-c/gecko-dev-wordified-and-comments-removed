@@ -827,6 +827,11 @@ HostOrSlotTabIndexValue
 nsIContent
 *
 aContent
+bool
+*
+aIsFocusable
+=
+nullptr
 )
 ;
 nsIContent
