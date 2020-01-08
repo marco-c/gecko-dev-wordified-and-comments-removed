@@ -59,6 +59,12 @@ quickstart
 dist
 /
 "
+)
+;
+await
+waitForSource
+(
+dbg
 "
 ember
 -

@@ -1,7 +1,7 @@
 import
 type
 {
-Position
+ColumnPosition
 }
 from
 "
@@ -26,7 +26,7 @@ tokenEl
 HTMLElement
 )
 :
-Position
+ColumnPosition
 {
 const
 {

@@ -375,15 +375,6 @@ findSource
 (
 url
 )
-|
-|
-dbg
-.
-selectors
-.
-getSelectedSource
-(
-)
 ;
 const
 pausePoints
@@ -395,8 +386,6 @@ selectors
 getPausePoints
 (
 source
-.
-id
 )
 ;
 console

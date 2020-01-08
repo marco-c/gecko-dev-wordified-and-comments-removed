@@ -64,11 +64,6 @@ scripts
 .
 html
 "
-"
-simple1
-.
-js
-"
 )
 ;
 const

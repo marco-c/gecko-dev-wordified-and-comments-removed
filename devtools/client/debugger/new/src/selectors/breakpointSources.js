@@ -68,7 +68,7 @@ type
 Source
 Breakpoint
 BreakpointId
-SourceLocation
+Location
 }
 from
 "
@@ -132,7 +132,7 @@ text
 string
 selectedLocation
 :
-SourceLocation
+Location
 |
 }
 ;

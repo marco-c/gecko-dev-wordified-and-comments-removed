@@ -28,7 +28,7 @@ import
 type
 {
 Source
-PartialRange
+Range
 }
 from
 "
@@ -108,7 +108,7 @@ outline
 type
 Viewport
 =
-PartialRange
+Range
 ;
 export
 type

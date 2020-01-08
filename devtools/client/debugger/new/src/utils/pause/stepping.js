@@ -218,8 +218,6 @@ pausePoint
 !
 pausePoint
 .
-types
-.
 step
 ;
 if

@@ -1,7 +1,7 @@
 import
 type
 {
-SourceLocation
+Location
 SourceId
 }
 from
@@ -47,7 +47,7 @@ sourceUrl
 IncompleteLocation
 )
 :
-SourceLocation
+Location
 {
 return
 {

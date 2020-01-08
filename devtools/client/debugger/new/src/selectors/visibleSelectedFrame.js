@@ -52,7 +52,7 @@ import
 type
 {
 Frame
-SourceLocation
+Location
 }
 from
 "
@@ -71,7 +71,7 @@ Frame
 location
 ?
 :
-SourceLocation
+Location
 )
 {
 if

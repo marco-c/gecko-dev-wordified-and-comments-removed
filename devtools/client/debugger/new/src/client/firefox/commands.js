@@ -5,7 +5,7 @@ BreakpointId
 BreakpointResult
 Frame
 FrameId
-SourceLocation
+Location
 Script
 Source
 SourceId
@@ -548,7 +548,7 @@ getBreakpointByLocation
 (
 location
 :
-SourceLocation
+Location
 )
 {
 const
@@ -659,7 +659,7 @@ setBreakpoint
 (
 location
 :
-SourceLocation
+Location
 condition
 :
 boolean
@@ -795,7 +795,7 @@ removeBreakpoint
 (
 generatedLocation
 :
-SourceLocation
+Location
 )
 :
 Promise
@@ -895,7 +895,7 @@ breakpointId
 BreakpointId
 location
 :
-SourceLocation
+Location
 condition
 :
 boolean

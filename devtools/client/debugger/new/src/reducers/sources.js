@@ -59,7 +59,7 @@ type
 {
 Source
 SourceId
-SourceLocation
+Location
 }
 from
 "
@@ -160,7 +160,7 @@ PendingSelectedLocation
 selectedLocation
 :
 ?
-SourceLocation
+Location
 projectDirectoryRoot
 :
 string
@@ -2087,7 +2087,7 @@ getSources
 selectedLocation
 :
 ?
-SourceLocation
+Location
 sources
 :
 SourcesMap

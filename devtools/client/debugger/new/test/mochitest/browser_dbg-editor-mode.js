@@ -18,11 +18,6 @@ scripts
 .
 html
 "
-"
-simple1
-.
-js
-"
 )
 ;
 await

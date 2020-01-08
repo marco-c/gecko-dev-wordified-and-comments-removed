@@ -48,7 +48,7 @@ parser
 import
 type
 {
-SourceLocation
+Location
 Source
 ASTLocation
 }
@@ -75,7 +75,7 @@ symbols
 SymbolDeclarations
 location
 :
-SourceLocation
+Location
 )
 :
 ASTLocation

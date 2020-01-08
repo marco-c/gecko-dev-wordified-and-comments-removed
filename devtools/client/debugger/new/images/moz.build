@@ -118,6 +118,13 @@ coffeescript
 svg
 '
 '
+column
+-
+marker
+.
+svg
+'
+'
 command
 -
 chevron

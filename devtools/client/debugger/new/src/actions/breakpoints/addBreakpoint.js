@@ -385,7 +385,7 @@ addHiddenBreakpoint
 (
 location
 :
-SourceLocation
+Location
 )
 {
 return
@@ -422,7 +422,7 @@ enableBreakpoint
 (
 location
 :
-SourceLocation
+Location
 )
 {
 return
@@ -513,7 +513,7 @@ addBreakpoint
 (
 location
 :
-SourceLocation
+Location
 {
 condition
 hidden

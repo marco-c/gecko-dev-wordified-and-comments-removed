@@ -65,11 +65,6 @@ preview
 .
 html
 "
-"
-preview
-.
-js
-"
 )
 ;
 await

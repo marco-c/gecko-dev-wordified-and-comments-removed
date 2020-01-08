@@ -1,7 +1,7 @@
 import
 type
 {
-PartialPosition
+Position
 }
 from
 "
@@ -38,11 +38,11 @@ mapped
 +
 start
 :
-PartialPosition
+Position
 +
 end
 :
-PartialPosition
+Position
 }
 item
 :
@@ -50,11 +50,11 @@ item
 +
 start
 :
-PartialPosition
+Position
 +
 end
 :
-PartialPosition
+Position
 }
 )
 {
