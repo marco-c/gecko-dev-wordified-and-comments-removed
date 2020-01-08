@@ -4155,6 +4155,16 @@ searchfox
 /
 debug
 '
+            
+'
+searchfox
+-
+macosx64
+-
+searchfox
+/
+debug
+'
 ]
 _target_task
 (
