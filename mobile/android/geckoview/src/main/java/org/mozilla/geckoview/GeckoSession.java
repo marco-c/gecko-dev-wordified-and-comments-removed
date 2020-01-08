@@ -13067,6 +13067,7 @@ RESTART_REASON_CONTENT_CHANGE
 =
 2
 ;
+UiThread
 void
 restartInput
 (
@@ -13078,6 +13079,7 @@ int
 reason
 )
 ;
+UiThread
 void
 showSoftInput
 (
@@ -13086,6 +13088,7 @@ GeckoSession
 session
 )
 ;
+UiThread
 void
 hideSoftInput
 (
@@ -13094,6 +13097,7 @@ GeckoSession
 session
 )
 ;
+UiThread
 void
 updateSelection
 (
@@ -13110,6 +13114,7 @@ int
 compositionEnd
 )
 ;
+UiThread
 void
 updateExtractedText
 (
@@ -13124,6 +13129,7 @@ ExtractedText
 text
 )
 ;
+UiThread
 void
 updateCursorAnchorInfo
 (
@@ -13198,6 +13204,7 @@ AUTO_FILL_NOTIFY_VIEW_EXITED
 =
 7
 ;
+UiThread
 void
 notifyAutoFill
 (
