@@ -5947,6 +5947,22 @@ USE_SCCACHE
 '
 1
 '
+        
+worker
+[
+'
+env
+'
+]
+[
+'
+SCCACHE_IDLE_TIMEOUT
+'
+]
+=
+'
+0
+'
     
 else
 :
