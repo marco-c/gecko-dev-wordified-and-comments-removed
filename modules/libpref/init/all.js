@@ -36791,7 +36791,7 @@ XP_MACOSX
 |
 defined
 (
-OS_OPENBSD
+MOZ_WIDGET_GTK
 )
 pref
 (
