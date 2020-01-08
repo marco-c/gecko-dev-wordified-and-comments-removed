@@ -1,8 +1,0 @@
-browser
-.
-fxmonitor
-.
-start
-(
-)
-;
