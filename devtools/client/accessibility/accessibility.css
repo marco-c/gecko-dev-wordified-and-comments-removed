@@ -799,6 +799,12 @@ no
 -
 repeat
 ;
+mask
+-
+size
+:
+contain
+;
 }
 .
 devtools

@@ -19297,6 +19297,12 @@ no
 -
 repeat
 ;
+mask
+-
+size
+:
+contain
+;
 }
 .
 command
