@@ -49,9 +49,7 @@ time
 .
 throw
 (
-'
 TypeError
-'
 )
 ;
 }
@@ -280,9 +278,7 @@ time
 .
 throw
 (
-'
 TypeError
-'
 )
 ;
 }

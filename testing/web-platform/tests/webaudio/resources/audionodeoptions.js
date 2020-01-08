@@ -210,9 +210,7 @@ channelCount
 errorType
 |
 |
-'
 TypeError
-'
 )
 ;
 }
@@ -672,9 +670,7 @@ foobar
 .
 throw
 (
-'
 TypeError
-'
 )
 ;
 should
@@ -1031,9 +1027,7 @@ foobar
 .
 throw
 (
-'
 TypeError
-'
 )
 ;
 should
@@ -1146,9 +1140,7 @@ name
 .
 throw
 (
-'
 TypeError
-'
 )
 ;
 should
@@ -1183,9 +1175,7 @@ name
 .
 throw
 (
-'
 TypeError
-'
 )
 ;
 should
@@ -1222,9 +1212,7 @@ context
 .
 throw
 (
-'
 TypeError
-'
 )
 ;
 }

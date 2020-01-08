@@ -284,7 +284,10 @@ Throws
 AudioParam
 setValueCurveAtTime
 (
-Float32Array
+sequence
+<
+float
+>
 values
 double
 startTime
