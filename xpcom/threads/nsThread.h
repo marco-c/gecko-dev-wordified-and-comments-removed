@@ -238,6 +238,14 @@ uint32_t
 aStackSize
 )
 ;
+private
+:
+nsThread
+(
+)
+;
+public
+:
 nsresult
 Init
 (

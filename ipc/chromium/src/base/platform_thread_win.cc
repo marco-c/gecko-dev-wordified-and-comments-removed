@@ -68,13 +68,6 @@ void
 closure
 )
 {
-(
-void
-)
-NS_GetCurrentThread
-(
-)
-;
 PlatformThread
 :
 :

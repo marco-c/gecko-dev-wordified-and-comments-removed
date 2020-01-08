@@ -904,6 +904,13 @@ ThreadMain
 void
 )
 {
+(
+void
+)
+NS_GetCurrentThread
+(
+)
+;
 for
 (
 ;
