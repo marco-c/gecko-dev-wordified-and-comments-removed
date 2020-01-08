@@ -15579,6 +15579,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 bin
@@ -15616,6 +15618,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 bin
@@ -15653,6 +15657,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 bin
@@ -15691,6 +15697,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 share
@@ -15721,6 +15729,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 share
@@ -18985,6 +18995,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 bin
@@ -19022,6 +19034,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 bin
@@ -19059,6 +19073,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 bin
@@ -19097,6 +19113,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 share
@@ -19127,6 +19145,8 @@ join
 clang_tools_path
 "
 clang
+-
+tidy
 "
 "
 share
