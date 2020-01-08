@@ -356,7 +356,6 @@ let
 [
 expected
 actual
-stack
 ]
 =
 args
@@ -380,8 +379,6 @@ Actual
 {
 actual
 }
-undefined
-stack
 )
 ;
 }
@@ -425,11 +422,6 @@ ok
 (
 pass
 msg
-undefined
-args
-[
-0
-]
 )
 ;
 }
@@ -467,11 +459,6 @@ ok
 (
 pass
 msg
-undefined
-args
-[
-0
-]
 )
 ;
 return
