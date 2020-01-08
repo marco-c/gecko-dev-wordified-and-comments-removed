@@ -589,7 +589,7 @@ nullptr
 REAL
 (
 WeakSet
-InitWeakSetClass
+InitViaClassSpec
 OCLASP
 (
 WeakSet
