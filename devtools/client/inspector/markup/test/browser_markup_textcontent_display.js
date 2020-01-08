@@ -583,6 +583,8 @@ parentNode
 .
 previousSibling
 .
+previousSibling
+.
 classList
 .
 contains
