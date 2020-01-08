@@ -75,7 +75,6 @@ true
 const
 target
 =
-await
 TargetFactory
 .
 forTab

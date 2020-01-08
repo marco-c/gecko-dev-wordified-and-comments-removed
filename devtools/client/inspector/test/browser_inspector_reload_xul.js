@@ -68,7 +68,6 @@ toolbox
 const
 target
 =
-await
 TargetFactory
 .
 forTab

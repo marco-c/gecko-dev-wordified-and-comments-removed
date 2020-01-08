@@ -237,7 +237,6 @@ startup
 let
 target
 =
-await
 gDevTools
 .
 getTargetForTab

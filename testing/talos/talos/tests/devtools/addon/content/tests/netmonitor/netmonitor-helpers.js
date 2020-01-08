@@ -39,7 +39,6 @@ head
 "
 )
 ;
-async
 function
 waitForAllRequestsFinished
 (
@@ -49,7 +48,6 @@ expectedRequests
 let
 toolbox
 =
-await
 getToolbox
 (
 )

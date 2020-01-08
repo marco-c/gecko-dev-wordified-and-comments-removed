@@ -94,7 +94,7 @@ context
 .
 devToolsTarget
 .
-attach
+makeRemote
 (
 )
 ;
@@ -189,7 +189,6 @@ context
 .
 devToolsTarget
 =
-await
 DevToolsShim
 .
 createTargetForTab
@@ -202,7 +201,7 @@ context
 .
 devToolsTarget
 .
-attach
+makeRemote
 (
 )
 ;

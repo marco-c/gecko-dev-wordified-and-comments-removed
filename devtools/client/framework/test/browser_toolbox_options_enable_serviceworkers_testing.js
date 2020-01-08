@@ -107,7 +107,6 @@ TEST_URI
 .
 then
 (
-async
 tab
 =
 >
@@ -115,7 +114,6 @@ tab
 const
 target
 =
-await
 TargetFactory
 .
 forTab

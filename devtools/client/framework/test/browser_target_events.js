@@ -29,7 +29,6 @@ selectedBrowser
 const
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -42,7 +41,7 @@ selectedTab
 await
 target
 .
-attach
+makeRemote
 (
 )
 ;

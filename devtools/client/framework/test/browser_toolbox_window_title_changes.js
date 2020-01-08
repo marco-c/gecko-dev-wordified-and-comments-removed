@@ -120,7 +120,6 @@ URL_1
 .
 then
 (
-async
 function
 (
 )
@@ -128,7 +127,6 @@ function
 let
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -382,14 +380,12 @@ destroy
 .
 then
 (
-async
 function
 (
 )
 {
 target
 =
-await
 TargetFactory
 .
 forTab

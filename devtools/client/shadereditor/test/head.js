@@ -1000,7 +1000,6 @@ aUrl
 const
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -1011,7 +1010,7 @@ tab
 await
 target
 .
-attach
+makeRemote
 (
 )
 ;
@@ -1078,7 +1077,6 @@ aUrl
 const
 target
 =
-await
 TargetFactory
 .
 forTab
@@ -1089,7 +1087,7 @@ tab
 await
 target
 .
-attach
+makeRemote
 (
 )
 ;
