@@ -201,6 +201,11 @@ XULMenuElement
 h
 '
 '
+XULPersist
+.
+h
+'
+'
 XULPopupElement
 .
 h
@@ -282,6 +287,11 @@ cpp
 '
 '
 XULMenuElement
+.
+cpp
+'
+'
+XULPersist
 .
 cpp
 '

@@ -132,6 +132,16 @@ mozdisallowselectionprint
 Atom
 (
 "
+mozpersist
+"
+"
+mozpersist
+"
+)
+    
+Atom
+(
+"
 mozdonotsend
 "
 "
