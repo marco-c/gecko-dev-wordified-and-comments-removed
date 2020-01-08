@@ -428,6 +428,14 @@ animatable
 -
 box
 {
+position
+:
+absolute
+;
+overflow
+:
+hidden
+;
 margin
 -
 inline
