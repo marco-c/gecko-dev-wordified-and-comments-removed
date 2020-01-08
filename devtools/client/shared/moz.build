@@ -180,6 +180,15 @@ js
 browser
 -
 loader
+-
+mocks
+.
+js
+'
+'
+browser
+-
+loader
 .
 js
 '

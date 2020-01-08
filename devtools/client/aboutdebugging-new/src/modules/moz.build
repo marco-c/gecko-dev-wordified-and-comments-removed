@@ -118,13 +118,6 @@ helper
 js
 '
 '
-test
--
-helper
-.
-js
-'
-'
 usb
 -
 runtimes
