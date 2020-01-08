@@ -1044,14 +1044,9 @@ firstrun_invalid_input
 "
 :
 "
-Zahtevan
-je
-veljaven
-e
--
-po
-tni
-naslov
+Valid
+email
+required
 "
 "
 firstrun_extra_legal_links
