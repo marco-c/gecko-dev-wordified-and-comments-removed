@@ -171,6 +171,16 @@ aVisitor
 )
 override
 ;
+nsDOMAttributeMap
+*
+GetMap
+(
+)
+{
+return
+mAttrMap
+;
+}
 void
 SetMap
 (
@@ -178,7 +188,6 @@ nsDOMAttributeMap
 *
 aMap
 )
-override
 ;
 Element
 *
@@ -194,7 +203,6 @@ nsIDocument
 *
 aDocument
 )
-override
 ;
 virtual
 bool
@@ -419,6 +427,12 @@ sInitialized
 ;
 private
 :
+RefPtr
+<
+nsDOMAttributeMap
+>
+mAttrMap
+;
 nsString
 mValue
 ;

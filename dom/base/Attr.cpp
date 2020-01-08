@@ -145,9 +145,6 @@ nsIAttribute
 :
 nsIAttribute
 (
-nsDOMAttributeMap
-*
-aAttrMap
 already_AddRefed
 <
 mozilla
@@ -165,10 +162,6 @@ aNodeInfo
 nsINode
 (
 aNodeInfo
-)
-mAttrMap
-(
-aAttrMap
 )
 {
 }
@@ -222,8 +215,11 @@ aValue
 :
 nsIAttribute
 (
-aAttrMap
 aNodeInfo
+)
+mAttrMap
+(
+aAttrMap
 )
 mValue
 (
