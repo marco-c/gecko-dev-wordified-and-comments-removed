@@ -1011,7 +1011,7 @@ U2FAPDUHeader
 {
 pub
 fn
-to_bytes
+serialize
 (
 ins
 :

@@ -13,19 +13,10 @@ core_foundation
 base
 :
 :
-TCFType
-;
-use
-core_foundation_sys
-:
-:
-base
-:
-:
 *
 ;
 use
-core_foundation_sys
+core_foundation
 :
 :
 runloop
@@ -457,7 +448,6 @@ self
 .
 remove_device
 (
-&
 device_ref
 )
 ;
@@ -482,7 +472,6 @@ mut
 self
 device_ref
 :
-&
 IOHIDDeviceRef
 )
 {
@@ -503,6 +492,7 @@ map
 .
 remove
 (
+&
 device_ref
 )
 {
@@ -642,7 +632,6 @@ this
 .
 remove_device
 (
-&
 device_ref
 )
 ;
@@ -810,7 +799,6 @@ this
 .
 remove_device
 (
-&
 device_ref
 )
 ;

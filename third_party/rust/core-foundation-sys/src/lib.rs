@@ -39,6 +39,10 @@ array
 ;
 pub
 mod
+attributed_string
+;
+pub
+mod
 base
 ;
 pub

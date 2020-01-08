@@ -21,6 +21,17 @@ rs
 .
 bk
 #
+Fuzzing
+corpuses
+should
+be
+explicitly
+updated
+fuzz
+/
+corpus
+/
+#
 Remove
 Cargo
 .

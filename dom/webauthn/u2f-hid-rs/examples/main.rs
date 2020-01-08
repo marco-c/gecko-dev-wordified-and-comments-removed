@@ -106,10 +106,9 @@ u2f_get_key_handle_from_register_response
 register_response
 :
 &
-Vec
-<
+[
 u8
->
+]
 )
 -
 >
@@ -178,7 +177,7 @@ public_key
 =
 register_response
 .
-clone
+to_owned
 (
 )
 ;

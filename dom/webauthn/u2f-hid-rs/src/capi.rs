@@ -587,9 +587,7 @@ as
 u8
 ;
 }
-return
 0
-;
 }
 #
 [
@@ -1139,11 +1137,9 @@ if
 app_ids
 )
 .
-len
+is_empty
 (
 )
-<
-1
 {
 return
 0
