@@ -74,6 +74,11 @@ target
 "
 _blank
 "
+rel
+=
+"
+opener
+"
 id
 =
 "
