@@ -518,10 +518,11 @@ then
 next
 )
 ;
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 aURI
 )
 ;

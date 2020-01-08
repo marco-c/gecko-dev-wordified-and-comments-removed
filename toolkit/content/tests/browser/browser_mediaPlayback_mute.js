@@ -213,10 +213,11 @@ url
 browser
 )
 {
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 url
 )
 ;
@@ -366,10 +367,11 @@ url
 browser
 )
 {
-browser
+BrowserTestUtils
 .
 loadURI
 (
+browser
 url
 )
 ;

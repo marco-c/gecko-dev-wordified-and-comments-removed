@@ -91,6 +91,17 @@ browser
 loadURI
 (
 PAGE
+{
+triggeringPrincipal
+:
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+}
 )
 ;
 await
