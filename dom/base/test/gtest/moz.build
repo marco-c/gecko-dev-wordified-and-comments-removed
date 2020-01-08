@@ -90,11 +90,6 @@ UNIFIED_SOURCES
 =
 [
 '
-TestParserDialogOptions
-.
-cpp
-'
-'
 TestPlainTextSerializer
 .
 cpp
