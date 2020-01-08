@@ -388,9 +388,6 @@ skip_type_assertion
 "
 :
 {
-max
-:
-658
 }
 "
 extensions
@@ -636,9 +633,6 @@ skip_type_assertion
 "
 :
 {
-max
-:
-70
 }
 "
 toolkit
@@ -777,9 +771,6 @@ skip_type_assertion
 "
 :
 {
-max
-:
-130
 }
 "
 security
