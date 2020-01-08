@@ -214,7 +214,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
 interface

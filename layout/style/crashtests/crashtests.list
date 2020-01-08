@@ -786,7 +786,7 @@ animations
 -
 api
 .
-core
+getAnimations
 .
 enabled
 true
@@ -995,7 +995,7 @@ animations
 -
 api
 .
-core
+getAnimations
 .
 enabled
 true
@@ -1006,9 +1006,6 @@ load
 1
 .
 html
-#
-bug
-1323652
 load
 1277908
 -
@@ -1781,6 +1778,19 @@ api
 implicit
 -
 keyframes
+.
+enabled
+true
+)
+pref
+(
+dom
+.
+animations
+-
+api
+.
+getAnimations
 .
 enabled
 true

@@ -197,7 +197,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+IsWebAnimationsGetAnimationsEnabled
 "
 ]
 sequence
