@@ -286,6 +286,11 @@ SOURCES
 =
 [
 '
+audioconduit_unittests
+.
+cpp
+'
+'
 jsep_session_unittest
 .
 cpp
