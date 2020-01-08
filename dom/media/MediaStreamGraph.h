@@ -1795,13 +1795,15 @@ override
 bool
 PullNewData
 (
-StreamTime
+GraphTime
 aDesiredUpToTime
 )
 ;
 void
 ExtractPendingInput
 (
+GraphTime
+aCurrentTime
 )
 ;
 void
@@ -1830,8 +1832,6 @@ AddTrack
 (
 TrackID
 aID
-StreamTime
-aStart
 MediaSegment
 *
 aSegment
@@ -1847,7 +1847,6 @@ aID
 GraphRate
 (
 )
-aStart
 aSegment
 aFlags
 )
@@ -1860,8 +1859,6 @@ TrackID
 aID
 TrackRate
 aRate
-StreamTime
-aStart
 AudioSegment
 *
 aSegment
@@ -2051,9 +2048,6 @@ int
 mResamplerChannelCount
 ;
 StreamTime
-mStart
-;
-StreamTime
 mEndOfFlushedData
 ;
 nsAutoPtr
@@ -2114,8 +2108,6 @@ TrackID
 aID
 TrackRate
 aRate
-StreamTime
-aStart
 MediaSegment
 *
 aSegment
