@@ -141,7 +141,7 @@ RecvNotifyVsync
 const
 TimeStamp
 &
-aVsyncTimestamp
+vsyncTimestamp
 )
 override
 ;

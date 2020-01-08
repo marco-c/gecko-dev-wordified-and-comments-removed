@@ -617,6 +617,13 @@ if
 mGPUChild
 )
 {
+mGPUChild
+-
+>
+SendShutdownVR
+(
+)
+;
 mShutdownRequested
 =
 true
