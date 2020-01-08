@@ -1518,10 +1518,7 @@ addJumpRelocation
 (
 BufferOffset
 src
-Relocation
-:
-:
-Kind
+RelocationKind
 reloc
 )
 {
@@ -1530,7 +1527,7 @@ MOZ_ASSERT
 reloc
 =
 =
-Relocation
+RelocationKind
 :
 :
 JITCODE
@@ -1585,10 +1582,7 @@ BufferOffset
 src
 ImmPtr
 target
-Relocation
-:
-:
-Kind
+RelocationKind
 reloc
 )
 {
@@ -1607,7 +1601,7 @@ if
 reloc
 =
 =
-Relocation
+RelocationKind
 :
 :
 JITCODE
@@ -1644,10 +1638,7 @@ addPatchableJump
 (
 BufferOffset
 src
-Relocation
-:
-:
-Kind
+RelocationKind
 reloc
 )
 {
@@ -1672,7 +1663,7 @@ if
 reloc
 =
 =
-Relocation
+RelocationKind
 :
 :
 JITCODE

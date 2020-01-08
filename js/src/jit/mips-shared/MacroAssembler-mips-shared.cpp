@@ -7533,7 +7533,7 @@ addPendingJump
 (
 bo
 target
-Relocation
+RelocationKind
 :
 :
 HARDCODED
@@ -7577,7 +7577,7 @@ raw
 (
 )
 )
-Relocation
+RelocationKind
 :
 :
 JITCODE
