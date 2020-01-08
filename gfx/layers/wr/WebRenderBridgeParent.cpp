@@ -7764,7 +7764,7 @@ AUTO_PROFILER_TRACING
 Paint
 "
 "
-CompositeToTraget
+CompositeToTarget
 "
 )
 ;
