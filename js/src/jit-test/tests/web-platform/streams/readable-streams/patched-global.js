@@ -26,6 +26,8 @@ patched
 -
 global
 .
+any
+.
 js
 "
 )

@@ -26,6 +26,8 @@ default
 -
 reader
 .
+any
+.
 js
 "
 )

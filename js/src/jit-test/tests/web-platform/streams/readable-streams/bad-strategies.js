@@ -26,6 +26,8 @@ bad
 -
 strategies
 .
+any
+.
 js
 "
 )

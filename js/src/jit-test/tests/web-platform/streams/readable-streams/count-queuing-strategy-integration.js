@@ -30,6 +30,8 @@ strategy
 -
 integration
 .
+any
+.
 js
 "
 )
