@@ -151,6 +151,11 @@ StorageNotifierService
 h
 '
 '
+StorageObserver
+.
+h
+'
+'
 StorageUtils
 .
 h
