@@ -590,6 +590,15 @@ nsReflowStatus
 aStatus
 )
 ;
+static
+bool
+HasFramesToPull
+(
+nsInlineFrame
+*
+aNextInFlow
+)
+;
 virtual
 nsIFrame
 *
