@@ -3934,6 +3934,7 @@ connect
 ;
 const
 [
+targetFront
 threadClient
 ]
 =
@@ -3951,6 +3952,7 @@ test
 threadClient
 debuggee
 client
+targetFront
 }
 )
 ;
