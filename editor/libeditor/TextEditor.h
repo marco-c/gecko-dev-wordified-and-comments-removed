@@ -422,11 +422,6 @@ InsertLineBreakAsAction
 )
 ;
 nsresult
-InsertParagraphSeparatorAsAction
-(
-)
-;
-nsresult
 OnCompositionStart
 (
 WidgetCompositionEvent
@@ -736,11 +731,6 @@ aStringToInsert
 ;
 nsresult
 InsertLineBreakAsSubAction
-(
-)
-;
-nsresult
-InsertParagraphSeparatorAsSubAction
 (
 )
 ;
