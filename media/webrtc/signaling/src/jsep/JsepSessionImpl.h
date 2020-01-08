@@ -250,6 +250,10 @@ mRunRustParser
 (
 false
 )
+mRunSdpComparer
+(
+false
+)
 {
 }
 virtual
@@ -1517,6 +1521,9 @@ mSsrcGenerator
 ;
 bool
 mRunRustParser
+;
+bool
+mRunSdpComparer
 ;
 RsdparsaSdpParser
 mRsdparsaParser
