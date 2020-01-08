@@ -683,8 +683,11 @@ unicode
 ;
 unicode
 =
+hb_unicode_funcs_reference
+(
 hb_unicode_funcs_get_default
 (
+)
 )
 ;
 flags

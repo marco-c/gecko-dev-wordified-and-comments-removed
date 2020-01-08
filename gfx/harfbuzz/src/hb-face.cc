@@ -146,7 +146,10 @@ HB_SHAPER_IMPLEMENT
 (
 shaper
 )
+HB_ATOMIC_PTR_INIT
+(
 HB_SHAPER_DATA_INVALID
+)
 #
 include
 "
@@ -162,7 +165,10 @@ hh
 undef
 HB_SHAPER_IMPLEMENT
 }
+HB_ATOMIC_PTR_INIT
+(
 nullptr
+)
 }
 ;
 hb_face_t
@@ -649,6 +655,10 @@ face
 -
 >
 shape_plans
+.
+get
+(
+)
 ;
 node
 ;

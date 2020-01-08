@@ -90,7 +90,11 @@ plan_node_t
 next
 ;
 }
-*
+;
+hb_atomic_ptr_t
+<
+plan_node_t
+>
 shape_plans
 ;
 inline

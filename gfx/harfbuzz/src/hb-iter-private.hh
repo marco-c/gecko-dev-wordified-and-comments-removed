@@ -116,7 +116,7 @@ length_
 )
 {
 }
-explicit
+explicit_operator
 inline
 operator
 bool
