@@ -2070,7 +2070,7 @@ IsArithmetic
 (
 aType
 .
-HasPointerRepr
+IsPointer
 (
 )
 &
