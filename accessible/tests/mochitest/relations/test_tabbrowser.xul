@@ -559,7 +559,7 @@ tabBrowser
 .
 tabContainer
 .
-childNodes
+children
 ;
 var
 panels
@@ -572,7 +572,7 @@ tabbox
 .
 tabpanels
 .
-childNodes
+children
 ;
 testRelation
 (
