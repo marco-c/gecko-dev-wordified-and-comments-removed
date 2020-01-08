@@ -106,11 +106,6 @@ nsThreadPool
 (
 )
 ;
-EXPECT_TRUE
-(
-thing
-)
-;
 nsCOMPtr
 <
 nsISerialEventTarget

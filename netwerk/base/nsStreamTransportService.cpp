@@ -633,11 +633,6 @@ nsThreadPool
 (
 )
 ;
-NS_ENSURE_STATE
-(
-mPool
-)
-;
 mPool
 -
 >

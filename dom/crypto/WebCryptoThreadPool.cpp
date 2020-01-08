@@ -315,12 +315,6 @@ nsThreadPool
 )
 )
 ;
-NS_ENSURE_TRUE
-(
-pool
-NS_ERROR_FAILURE
-)
-;
 nsresult
 rv
 =
