@@ -142,6 +142,7 @@ split
 ;
 for
 (
+var
 i
 =
 0
@@ -360,9 +361,7 @@ ptr
 )
 {
 case
-"
 1133
-"
 :
 out
 +
@@ -373,9 +372,7 @@ out
 continue
 ;
 case
-"
 1135
-"
 :
 out
 +
@@ -386,9 +383,7 @@ out
 continue
 ;
 case
-"
 1164
-"
 :
 out
 +
@@ -399,9 +394,7 @@ out
 continue
 ;
 case
-"
 1166
-"
 :
 out
 +
@@ -447,6 +440,7 @@ byte
 &
 byte
 <
+=
 0x7f
 )
 {
@@ -456,8 +450,6 @@ unshift
 (
 byte
 )
-;
-continue
 ;
 }
 if
@@ -498,6 +490,7 @@ byte
 &
 byte
 <
+=
 0x7f
 )
 {

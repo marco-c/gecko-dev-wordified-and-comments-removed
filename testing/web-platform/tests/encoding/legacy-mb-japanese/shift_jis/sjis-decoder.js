@@ -142,6 +142,7 @@ split
 ;
 for
 (
+var
 i
 =
 0
@@ -370,8 +371,8 @@ offset
 ;
 if
 (
-cp
-=
+ptr
+!
 =
 null
 &
@@ -385,7 +386,7 @@ ptr
 ptr
 <
 =
-10528
+10715
 )
 {
 out
