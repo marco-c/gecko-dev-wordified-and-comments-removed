@@ -439,6 +439,7 @@ CaseCount
 Lexical
 Cond
 Table
+CaseValue
 Case
 CaseBody
 DefaultBody
@@ -516,6 +517,12 @@ const
 TableGenerator
 &
 tableGen
+)
+;
+MOZ_MUST_USE
+bool
+prepareForCaseValue
+(
 )
 ;
 MOZ_MUST_USE

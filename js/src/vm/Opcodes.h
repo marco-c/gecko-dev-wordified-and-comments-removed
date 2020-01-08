@@ -2340,8 +2340,6 @@ NULL
 2
 1
 JOF_JUMP
-|
-JOF_IC
 )
 \
 \
