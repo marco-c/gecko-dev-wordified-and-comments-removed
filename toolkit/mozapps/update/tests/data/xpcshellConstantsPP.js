@@ -1,3 +1,6 @@
+#
+filter
+substitution
 const
 INSTALL_LOCALE
 =
