@@ -178,7 +178,6 @@ aNode
 AudioDestinationNode
 *
 aDestination
-const
 AudioListenerEngine
 *
 aListenerEngine
@@ -1292,9 +1291,10 @@ HRTFPanner
 >
 mHRTFPanner
 ;
-const
+RefPtr
+<
 AudioListenerEngine
-*
+>
 mListenerEngine
 ;
 typedef

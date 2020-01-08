@@ -213,10 +213,8 @@ aContext
 )
 mEngine
 (
-MakeUnique
-<
+new
 AudioListenerEngine
->
 (
 )
 )
@@ -601,8 +599,10 @@ mValue
 )
 ;
 }
+RefPtr
+<
 AudioListenerEngine
-*
+>
 mEngine
 ;
 AudioListenerEngine
@@ -636,9 +636,7 @@ MakeUnique
 Message
 >
 (
-mEngine
-.
-get
+Engine
 (
 )
 aParameter
