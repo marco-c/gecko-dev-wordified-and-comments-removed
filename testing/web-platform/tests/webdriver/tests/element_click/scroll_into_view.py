@@ -324,13 +324,12 @@ parametrize
 "
 offset
 "
-reversed
-(
 range
 (
+9
+0
+-
 1
-10
-)
 )
 )
 def
