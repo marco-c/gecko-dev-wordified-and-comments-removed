@@ -10190,9 +10190,6 @@ aWidth
 unsigned
 int
 aHeight
-unsigned
-int
-aNumberOfStreams
 )
 {
 MutexAutoLock
@@ -10577,9 +10574,6 @@ aWidth
 unsigned
 int
 aHeight
-unsigned
-int
-aNumberOfStreams
 )
 override
 {
@@ -10593,7 +10587,6 @@ FrameSizeChange
 (
 aWidth
 aHeight
-aNumberOfStreams
 )
 ;
 }
