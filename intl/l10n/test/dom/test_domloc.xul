@@ -281,6 +281,8 @@ domLoc
 connectRoot
 (
 document
+.
+documentElement
 )
 ;
 await
