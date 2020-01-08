@@ -223,7 +223,7 @@ is
 (
 referrerPolicyValue
 .
-value
+textContent
 =
 =
 =
