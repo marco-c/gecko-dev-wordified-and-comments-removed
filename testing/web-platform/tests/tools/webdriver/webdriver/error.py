@@ -480,7 +480,7 @@ WebDriverException
     
 http_status
 =
-408
+500
     
 status_code
 =
@@ -533,7 +533,7 @@ WebDriverException
     
 http_status
 =
-408
+500
     
 status_code
 =

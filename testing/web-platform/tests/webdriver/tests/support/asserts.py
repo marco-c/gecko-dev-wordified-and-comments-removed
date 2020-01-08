@@ -146,7 +146,7 @@ script
 timeout
 "
 :
-408
+500
     
 "
 session
@@ -168,7 +168,7 @@ reference
 timeout
 "
 :
-408
+500
     
 "
 unable
