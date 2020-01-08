@@ -7,8 +7,6 @@ KeyedStackCapturer_h__
 #
 include
 "
-mozilla
-/
 Telemetry
 .
 h

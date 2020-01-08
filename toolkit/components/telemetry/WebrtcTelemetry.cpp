@@ -1,9 +1,14 @@
 #
 include
 "
-mozilla
-/
 Telemetry
+.
+h
+"
+#
+include
+"
+TelemetryCommon
 .
 h
 "

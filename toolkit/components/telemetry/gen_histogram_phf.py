@@ -3,8 +3,6 @@ __future__
 import
 print_function
 from
-parsers
-.
 shared_telemetry_utils
 import
 ParserError
@@ -15,8 +13,6 @@ PerfectHash
 PHFSIZE
 =
 512
-from
-parsers
 import
 parse_histograms
 import
