@@ -565,7 +565,7 @@ self
 map
 :
 :
-SecondaryMap
+EntityMap
 ;
 pub
 use

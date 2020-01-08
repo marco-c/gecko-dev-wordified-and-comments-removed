@@ -712,7 +712,6 @@ each
 Var
 v
 \
-\
 in
 rtl
 v

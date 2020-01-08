@@ -52,7 +52,7 @@ Clone
 ]
 pub
 struct
-SecondaryMap
+EntityMap
 <
 K
 V
@@ -86,7 +86,7 @@ impl
 K
 V
 >
-SecondaryMap
+EntityMap
 <
 K
 V
@@ -408,7 +408,7 @@ Index
 K
 >
 for
-SecondaryMap
+EntityMap
 <
 K
 V
@@ -466,7 +466,7 @@ IndexMut
 K
 >
 for
-SecondaryMap
+EntityMap
 <
 K
 V
@@ -645,7 +645,7 @@ let
 mut
 m
 =
-SecondaryMap
+EntityMap
 :
 :
 new

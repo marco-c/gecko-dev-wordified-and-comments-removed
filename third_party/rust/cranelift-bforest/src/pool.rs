@@ -501,6 +501,7 @@ Vec
 ;
 if
 let
+&
 NodeData
 :
 :
@@ -511,6 +512,7 @@ size
 .
 }
 =
+&
 self
 [
 node

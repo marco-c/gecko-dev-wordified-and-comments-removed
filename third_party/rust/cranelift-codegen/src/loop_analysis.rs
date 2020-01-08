@@ -8,7 +8,7 @@ use
 entity
 :
 :
-SecondaryMap
+EntityMap
 ;
 use
 entity
@@ -96,7 +96,7 @@ LoopData
 >
 ebb_loop_map
 :
-SecondaryMap
+EntityMap
 <
 Ebb
 PackedOption
@@ -182,7 +182,7 @@ new
 )
 ebb_loop_map
 :
-SecondaryMap
+EntityMap
 :
 :
 new
@@ -960,7 +960,7 @@ test
 )
 ]
 mod
-tests
+test
 {
 use
 cursor
