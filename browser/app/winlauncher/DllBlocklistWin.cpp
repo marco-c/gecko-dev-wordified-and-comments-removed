@@ -1544,8 +1544,11 @@ AutoVirtualProtect
 {
 if
 (
-!
 mError
+.
+IsFailure
+(
+)
 )
 {
 return
@@ -1572,9 +1575,11 @@ bool
 const
 {
 return
-!
-!
 mError
+.
+IsSuccess
+(
+)
 ;
 }
 WindowsError
