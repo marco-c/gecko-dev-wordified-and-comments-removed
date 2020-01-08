@@ -165,9 +165,6 @@ h1
 className
 :
 "
-main
--
-heading
 runtime
 -
 info

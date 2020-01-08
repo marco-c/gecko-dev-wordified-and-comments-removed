@@ -237,11 +237,6 @@ dom
 div
 (
 {
-className
-:
-"
-toolbar
-"
 }
 InspectAction
 (
@@ -277,7 +272,7 @@ button
 className
 :
 "
-default
+aboutdebugging
 -
 button
 "
@@ -324,7 +319,7 @@ button
 className
 :
 "
-default
+aboutdebugging
 -
 button
 js

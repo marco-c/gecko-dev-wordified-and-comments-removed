@@ -766,13 +766,6 @@ dom
 .
 hr
 (
-{
-className
-:
-"
-separator
-"
-}
 )
 this
 .
