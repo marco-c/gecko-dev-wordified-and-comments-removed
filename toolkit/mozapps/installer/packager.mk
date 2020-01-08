@@ -134,6 +134,15 @@ make
 -
 package
 endif
+ifdef
+MOZ_AUTOMATION
+RUN_FIND_DUPES
+?
+=
+(
+MOZ_AUTOMATION
+)
+endif
 export
 USE_ELF_HACK
 ELF_HACK_FLAGS
@@ -373,7 +382,7 @@ NON_OMNIJAR_FILES
 )
 )
 ifdef
-MOZ_AUTOMATION
+RUN_FIND_DUPES
 (
 PYTHON
 )
@@ -410,7 +419,7 @@ MOZ_PKG_DIR
 )
 endif
 #
-MOZ_AUTOMATION
+RUN_FIND_DUPES
 ifndef
 MOZ_IS_COMM_TOPDIR
 #
