@@ -294,9 +294,11 @@ ArrayBuffer
 audioData
 optional
 DecodeSuccessCallback
+?
 successCallback
 optional
 DecodeErrorCallback
+?
 errorCallback
 )
 ;
