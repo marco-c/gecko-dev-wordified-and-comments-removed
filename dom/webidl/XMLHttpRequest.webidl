@@ -147,9 +147,6 @@ InputStream
 interface
 MozChannel
 ;
-interface
-IID
-;
 enum
 XMLHttpRequestResponseType
 {
@@ -636,7 +633,7 @@ Window
 any
 getInterface
 (
-IID
+any
 iid
 )
 ;

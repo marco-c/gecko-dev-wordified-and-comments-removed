@@ -94,9 +94,6 @@ MPL
 interface
 nsISupports
 ;
-interface
-IID
-;
 [
 NoInterfaceObject
 /
@@ -154,7 +151,7 @@ ChromeOnly
 nsISupports
 QueryInterface
 (
-IID
+any
 iid
 )
 ;

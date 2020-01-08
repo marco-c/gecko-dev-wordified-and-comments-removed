@@ -399,9 +399,6 @@ interface
 *
 /
 interface
-IID
-;
-interface
 nsIBrowserDOMWindow
 ;
 interface
@@ -2805,7 +2802,7 @@ ChromeOnly
 any
 getInterface
 (
-IID
+any
 iid
 )
 ;
