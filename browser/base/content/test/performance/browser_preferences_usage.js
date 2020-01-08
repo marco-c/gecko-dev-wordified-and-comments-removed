@@ -840,7 +840,7 @@ min
 20
 max
 :
-30
+60
 }
 "
 security
@@ -856,7 +856,7 @@ min
 20
 max
 :
-30
+60
 }
 "
 security
@@ -872,7 +872,7 @@ min
 20
 max
 :
-30
+60
 }
 "
 security
@@ -890,7 +890,7 @@ min
 20
 max
 :
-30
+60
 }
 "
 toolkit

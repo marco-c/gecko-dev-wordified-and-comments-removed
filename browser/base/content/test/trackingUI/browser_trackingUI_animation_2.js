@@ -124,6 +124,11 @@ cookiePage
 html
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 registerCleanupFunction
 (
 function
@@ -715,7 +720,7 @@ securityChanged
 waitForSecurityChange
 (
 tabbrowser
-2
+4
 )
 ;
 tabbrowser
@@ -790,7 +795,7 @@ securityChanged
 waitForSecurityChange
 (
 tabbrowser
-3
+5
 )
 ;
 tabbrowser
@@ -874,6 +879,7 @@ securityChanged
 waitForSecurityChange
 (
 tabbrowser
+2
 )
 ;
 await
@@ -1059,6 +1065,7 @@ securityChanged
 waitForSecurityChange
 (
 tabbrowser
+2
 )
 ;
 await
@@ -1149,6 +1156,7 @@ securityChanged
 waitForSecurityChange
 (
 tabbrowser
+2
 )
 ;
 await

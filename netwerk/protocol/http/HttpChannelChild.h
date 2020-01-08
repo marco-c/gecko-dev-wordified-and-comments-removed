@@ -1181,6 +1181,11 @@ ProcessNotifyTrackingProtectionDisabled
 )
 ;
 void
+ProcessNotifyCookieAllowed
+(
+)
+;
+void
 ProcessNotifyTrackingCookieBlocked
 (
 uint32_t
