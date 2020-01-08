@@ -780,9 +780,11 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+Co
+ch
+'
+i
+funcziuna
 "
 "
 pocket_cta_button

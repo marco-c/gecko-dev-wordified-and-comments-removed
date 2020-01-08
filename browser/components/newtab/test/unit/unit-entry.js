@@ -846,6 +846,11 @@ getStringPref
 )
 {
 }
+setStringPref
+(
+)
+{
+}
 getIntPref
 (
 )

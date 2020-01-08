@@ -805,9 +805,10 @@ pocket_how_it_works
 "
 :
 "
-How
-it
-works
+K
+tas
+str
+d
 "
 "
 pocket_cta_button
