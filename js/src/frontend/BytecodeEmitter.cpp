@@ -10409,7 +10409,7 @@ return
 false
 ;
 }
-SET_UINT24
+SET_RESUMEINDEX
 (
 code
 (
@@ -19932,7 +19932,7 @@ return
 false
 ;
 }
-SET_UINT24
+SET_RESUMEINDEX
 (
 code
 (

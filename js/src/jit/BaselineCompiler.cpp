@@ -21779,7 +21779,7 @@ genObj
 ;
 MOZ_ASSERT
 (
-GET_UINT24
+GET_RESUMEINDEX
 (
 pc
 )
@@ -22056,7 +22056,7 @@ storeValue
 (
 Int32Value
 (
-GET_UINT24
+GET_RESUMEINDEX
 (
 pc
 )
