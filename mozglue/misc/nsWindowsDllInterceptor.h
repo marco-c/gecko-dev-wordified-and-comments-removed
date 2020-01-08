@@ -570,8 +570,7 @@ const
 char
 *
 aName
-void
-*
+FuncPtrT
 aHookDest
 bool
 aForceDetour
@@ -591,7 +590,14 @@ aName
 )
 mHookDest
 (
+reinterpret_cast
+<
+void
+*
+>
+(
 aHookDest
+)
 )
 mForceDetour
 (
