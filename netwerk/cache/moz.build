@@ -151,6 +151,11 @@ EXPORTS
 =
 [
 '
+nsApplicationCache
+.
+h
+'
+'
 nsApplicationCacheService
 .
 h
