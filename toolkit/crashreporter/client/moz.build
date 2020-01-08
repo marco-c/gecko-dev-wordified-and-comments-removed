@@ -555,17 +555,6 @@ FINAL_TARGET_FILES
 =
 [
 '
-/
-toolkit
-/
-themes
-/
-windows
-/
-global
-/
-throbber
-/
 Throbber
 -
 small
