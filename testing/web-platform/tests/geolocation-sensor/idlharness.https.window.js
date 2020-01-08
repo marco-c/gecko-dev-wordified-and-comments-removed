@@ -43,13 +43,5 @@ GeolocationSensor
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Geolocation
-Sensor
-'
 )
 ;

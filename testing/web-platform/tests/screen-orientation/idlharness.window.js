@@ -54,14 +54,5 @@ orientation
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Screen
-Orientation
-API
-'
 )
 ;

@@ -215,14 +215,6 @@ luminance
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Media
-Capabilities
-'
 )
 ;
 }

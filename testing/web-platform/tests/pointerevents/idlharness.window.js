@@ -68,9 +68,5 @@ type
 )
 ;
 }
-'
-pointerevents
-interfaces
-'
 )
 ;

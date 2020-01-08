@@ -67,10 +67,5 @@ foo
 )
 ;
 }
-'
-pointerlock
-interfaces
-.
-'
 )
 ;

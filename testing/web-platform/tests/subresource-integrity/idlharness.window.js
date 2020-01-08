@@ -62,13 +62,5 @@ link
 )
 ;
 }
-'
-webappsec
--
-subresource
--
-integrity
-interfaces
-'
 )
 ;

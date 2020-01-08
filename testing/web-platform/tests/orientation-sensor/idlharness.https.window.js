@@ -66,13 +66,5 @@ OrientationSensor
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Orientation
-Sensor
-'
 )
 ;

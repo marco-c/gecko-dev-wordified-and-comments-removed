@@ -42,9 +42,5 @@ subtle
 )
 ;
 }
-'
-WebCryptoAPI
-interfaces
-'
 )
 ;

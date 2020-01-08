@@ -19,12 +19,5 @@ idl_array
 >
 {
 }
-'
-webrtc
--
-stats
-interfaces
-.
-'
 )
 ;

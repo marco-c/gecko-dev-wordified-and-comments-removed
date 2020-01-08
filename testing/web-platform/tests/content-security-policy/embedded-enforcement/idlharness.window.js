@@ -49,13 +49,5 @@ iframe
 )
 ;
 }
-'
-csp
--
-embedded
--
-enforcement
-IDL
-'
 )
 ;

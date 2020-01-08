@@ -306,10 +306,5 @@ setup
 )
 ;
 }
-'
-WebUSB
-IDL
-test
-'
 )
 ;

@@ -89,15 +89,5 @@ name
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-touch
--
-events
-API
-'
 )
 ;

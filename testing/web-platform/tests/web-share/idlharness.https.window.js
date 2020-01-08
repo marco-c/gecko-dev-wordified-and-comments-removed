@@ -37,9 +37,5 @@ navigator
 )
 ;
 }
-'
-Test
-driver
-'
 )
 ;

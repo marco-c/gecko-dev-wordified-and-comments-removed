@@ -28,11 +28,5 @@ idlArray
 >
 {
 }
-'
-Background
-Sync
-interfaces
-.
-'
 )
 ;

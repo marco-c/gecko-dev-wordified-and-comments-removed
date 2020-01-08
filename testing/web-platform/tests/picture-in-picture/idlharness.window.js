@@ -83,14 +83,5 @@ video
 )
 ;
 }
-'
-picture
--
-in
--
-picture
-interfaces
-.
-'
 )
 ;

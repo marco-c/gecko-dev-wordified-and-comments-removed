@@ -46,14 +46,5 @@ nfc
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Web
-NFC
-API
-'
 )
 ;

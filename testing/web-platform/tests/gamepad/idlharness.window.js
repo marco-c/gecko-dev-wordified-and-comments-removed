@@ -51,13 +51,5 @@ navigator
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Gamepad
-API
-'
 )
 ;

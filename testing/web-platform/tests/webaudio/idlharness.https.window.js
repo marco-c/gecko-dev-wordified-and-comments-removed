@@ -531,9 +531,5 @@ dummy
 )
 ;
 }
-'
-Test
-driver
-'
 )
 ;

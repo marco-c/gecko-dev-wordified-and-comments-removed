@@ -23,9 +23,5 @@ idl_array
 >
 {
 }
-'
-webgl2
-interfaces
-'
 )
 ;

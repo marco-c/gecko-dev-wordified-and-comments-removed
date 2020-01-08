@@ -45,14 +45,5 @@ AmbientLightSensor
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Ambient
-Light
-Sensor
-'
 )
 ;

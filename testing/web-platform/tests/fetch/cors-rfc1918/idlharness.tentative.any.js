@@ -70,11 +70,5 @@ document
 ;
 }
 }
-'
-Test
-CORS
-RFC1918
-interfaces
-'
 )
 ;

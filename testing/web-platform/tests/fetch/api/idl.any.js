@@ -121,10 +121,5 @@ self
 ;
 }
 }
-'
-Fetch
-Standard
-IDL
-'
 )
 ;

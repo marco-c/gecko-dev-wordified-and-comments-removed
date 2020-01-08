@@ -158,13 +158,5 @@ track
 )
 ;
 }
-'
-Test
-mediacapture
--
-fromelement
-IDL
-interfaces
-'
 )
 ;

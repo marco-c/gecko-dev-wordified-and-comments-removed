@@ -73,11 +73,5 @@ XMLSerializer
 }
 )
 }
-'
-DOM
--
-Parsing
-interfaces
-'
 )
 ;

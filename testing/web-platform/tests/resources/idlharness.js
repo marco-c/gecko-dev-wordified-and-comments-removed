@@ -17939,7 +17939,6 @@ idl_test
 srcs
 deps
 idl_setup_func
-test_name
 )
 {
 return
@@ -18192,9 +18191,6 @@ error
 )
 ;
 }
-test_name
-|
-|
 '
 idl_test
 setup

@@ -40,11 +40,5 @@ document
 )
 ;
 }
-'
-page
--
-visibility
-interfaces
-'
 )
 ;

@@ -67,14 +67,5 @@ getLayoutMap
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Keyboard
-Map
-API
-'
 )
 ;

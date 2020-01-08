@@ -94,13 +94,5 @@ DOMException
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Generic
-Sensor
-'
 )
 ;

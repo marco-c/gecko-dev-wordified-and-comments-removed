@@ -80,12 +80,5 @@ event
 )
 ;
 }
-'
-web
--
-bluetooth
-interfaces
-.
-'
 )
 ;

@@ -87,11 +87,5 @@ navigation
 )
 ;
 }
-'
-navigation
--
-timing
-interfaces
-'
 )
 ;

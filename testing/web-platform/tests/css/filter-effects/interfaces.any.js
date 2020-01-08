@@ -28,11 +28,5 @@ idl_array
 >
 {
 }
-'
-Filter
-effects
-interfaces
-.
-'
 )
 ;

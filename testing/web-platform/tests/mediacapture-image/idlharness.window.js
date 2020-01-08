@@ -141,13 +141,5 @@ getPhotoCapabilities
 )
 ;
 }
-'
-Test
-mediacapture
--
-image
-IDL
-interfaces
-'
 )
 ;

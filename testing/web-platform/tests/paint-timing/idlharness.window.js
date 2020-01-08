@@ -149,12 +149,5 @@ timeout
 )
 ;
 }
-'
-paint
--
-timing
-interfaces
-.
-'
 )
 ;

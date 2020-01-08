@@ -111,11 +111,5 @@ type
 ;
 }
 }
-'
-background
--
-fetch
-interfaces
-'
 )
 ;

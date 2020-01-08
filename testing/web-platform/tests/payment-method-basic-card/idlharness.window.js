@@ -19,16 +19,5 @@ card
 [
 ]
 null
-'
-payment
--
-method
--
-basic
--
-card
-interfaces
-.
-'
 )
 ;

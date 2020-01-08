@@ -56,14 +56,5 @@ getBattery
 )
 ;
 }
-'
-Test
-IDL
-implementation
-of
-Battery
-Status
-API
-'
 )
 ;
