@@ -647,7 +647,7 @@ T
 *
 p
 =
-maybe_pod_calloc
+pod_calloc
 <
 T
 >
