@@ -188,6 +188,11 @@ GetLastComposeTime
 )
 const
 ;
+void
+UpdateLastComposeTime
+(
+)
+;
 private
 :
 virtual
