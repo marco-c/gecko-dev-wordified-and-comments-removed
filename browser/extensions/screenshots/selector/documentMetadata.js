@@ -28,12 +28,16 @@ querySelector
 meta
 [
 property
+~
 =
 '
 og
 :
 site_name
 '
+]
+[
+content
 ]
 "
 )
@@ -68,6 +72,9 @@ name
 '
 cre
 '
+]
+[
+content
 ]
 "
 )
@@ -230,6 +237,7 @@ querySelectorAll
 meta
 [
 property
+~
 =
 '
 og
@@ -238,6 +246,9 @@ og
 prop
 }
 '
+]
+[
+content
 ]
 )
 ;
@@ -449,6 +460,9 @@ twitter
 prop
 }
 '
+]
+[
+content
 ]
 )
 ;

@@ -295,6 +295,16 @@ error
 ;
 browser
 .
+experiments
+.
+screenshots
+.
+initLibraryButton
+(
+)
+;
+browser
+.
 runtime
 .
 onMessage
