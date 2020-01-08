@@ -161,6 +161,19 @@ source
 )
     
 def
+test_configure_testcase
+(
+self
+)
+:
+        
+self
+.
+lint_test
+(
+)
+    
+def
 test_depends_failures
 (
 self
