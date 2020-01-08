@@ -540,7 +540,7 @@ tools
 /
 wpt
 /
-unittests
+tests
 "
 if
 :
