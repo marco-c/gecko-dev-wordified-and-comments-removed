@@ -22897,6 +22897,13 @@ self
 )
 ;
 fn
+pre_scene_build
+(
+&
+self
+)
+;
+fn
 pre_scene_swap
 (
 &
@@ -22921,6 +22928,13 @@ u64
 ;
 fn
 post_resource_update
+(
+&
+self
+)
+;
+fn
+post_empty_scene_build
 (
 &
 self
