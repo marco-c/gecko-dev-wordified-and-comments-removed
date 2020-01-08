@@ -36847,6 +36847,10 @@ nsISupports
 >
 data
 ;
+if
+(
+NS_FAILED
+(
 aTransferable
 -
 >
@@ -36862,7 +36866,12 @@ getter_AddRefs
 data
 )
 )
+)
+)
+{
+continue
 ;
+}
 nsCOMPtr
 <
 nsISupportsString

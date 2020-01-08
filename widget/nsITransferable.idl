@@ -1113,6 +1113,9 @@ the
 data
 *
 /
+[
+must_use
+]
 void
 getTransferData
 (

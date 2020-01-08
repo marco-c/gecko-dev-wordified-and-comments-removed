@@ -3365,6 +3365,8 @@ nsISupports
 >
 transferSupports
 ;
+rv
+=
 aTransferable
 -
 >
@@ -3381,6 +3383,17 @@ transferSupports
 )
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+continue
+;
+}
 nsCOMPtr
 <
 imgIContainer
