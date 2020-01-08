@@ -8359,7 +8359,7 @@ MB_OF
 )
 KBPS
 (
-300
+150
 )
 KBPS
 (
@@ -8392,7 +8392,7 @@ MB_OF
 value
 KBPS
 (
-200
+125
 )
 KBPS
 (
