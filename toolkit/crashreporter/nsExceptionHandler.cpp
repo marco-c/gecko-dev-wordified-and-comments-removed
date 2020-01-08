@@ -796,11 +796,6 @@ C
 "
 {
 void
-install_rust_panic_hook
-(
-)
-;
-void
 install_rust_oom_hook
 (
 )
@@ -7487,10 +7482,6 @@ set_terminate
 (
 &
 TerminateHandler
-)
-;
-install_rust_panic_hook
-(
 )
 ;
 install_rust_oom_hook
@@ -15164,10 +15155,6 @@ set_terminate
 TerminateHandler
 )
 ;
-install_rust_panic_hook
-(
-)
-;
 return
 gExceptionHandler
 -
@@ -15301,10 +15288,6 @@ set_terminate
 TerminateHandler
 )
 ;
-install_rust_panic_hook
-(
-)
-;
 return
 gExceptionHandler
 -
@@ -15390,10 +15373,6 @@ set_terminate
 (
 &
 TerminateHandler
-)
-;
-install_rust_panic_hook
-(
 )
 ;
 return
