@@ -137,7 +137,6 @@ sSpreadMethodMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -145,7 +144,6 @@ pad
 SVG_SPREADMETHOD_PAD
 }
 {
-&
 nsGkAtoms
 :
 :
@@ -153,7 +151,6 @@ reflect
 SVG_SPREADMETHOD_REFLECT
 }
 {
-&
 nsGkAtoms
 :
 :

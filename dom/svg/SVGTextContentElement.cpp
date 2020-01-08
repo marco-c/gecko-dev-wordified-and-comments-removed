@@ -104,7 +104,6 @@ sLengthAdjustMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -112,7 +111,6 @@ spacing
 LENGTHADJUST_SPACING
 }
 {
-&
 nsGkAtoms
 :
 :

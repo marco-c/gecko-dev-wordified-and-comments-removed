@@ -255,7 +255,6 @@ sUnitsMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -263,7 +262,6 @@ strokeWidth
 SVG_MARKERUNITS_STROKEWIDTH
 }
 {
-&
 nsGkAtoms
 :
 :

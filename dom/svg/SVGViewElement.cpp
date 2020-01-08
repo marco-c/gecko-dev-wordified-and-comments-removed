@@ -77,7 +77,6 @@ sZoomAndPanMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -85,7 +84,6 @@ disable
 SVG_ZOOMANDPAN_DISABLE
 }
 {
-&
 nsGkAtoms
 :
 :

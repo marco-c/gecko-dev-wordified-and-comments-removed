@@ -173,13 +173,10 @@ if
 aValue
 =
 =
-*
-(
 mapping
 -
 >
 mKey
-)
 )
 {
 mIsBaseSet
@@ -284,7 +281,6 @@ mVal
 )
 {
 return
-*
 mapping
 -
 >
@@ -640,13 +636,10 @@ if
 valAtom
 =
 =
-*
-(
 mapping
 -
 >
 mKey
-)
 )
 {
 nsSMILValue

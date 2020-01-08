@@ -110,7 +110,6 @@ sOperatorMap
 =
 {
 {
-&
 nsGkAtoms
 :
 :
@@ -118,7 +117,6 @@ erode
 SVG_OPERATOR_ERODE
 }
 {
-&
 nsGkAtoms
 :
 :
