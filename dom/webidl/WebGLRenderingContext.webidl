@@ -4990,7 +4990,7 @@ dom
 DOMPrefs
 :
 :
-OffscreenCanvasEnabled
+gfx_offscreencanvas_enabled
 "
 ]
 void
