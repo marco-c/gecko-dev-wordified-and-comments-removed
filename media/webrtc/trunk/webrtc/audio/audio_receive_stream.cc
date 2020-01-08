@@ -1006,12 +1006,6 @@ GetStats
 )
 const
 {
-RTC_DCHECK_RUN_ON
-(
-&
-worker_thread_checker_
-)
-;
 webrtc
 :
 :
