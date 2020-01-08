@@ -2643,7 +2643,7 @@ behavior
 =
 CookiesBehavior
 (
-channelPrincipal
+toplevelPrincipal
 )
 ;
 if
