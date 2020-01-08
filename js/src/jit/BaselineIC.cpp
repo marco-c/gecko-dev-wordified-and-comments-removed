@@ -746,17 +746,6 @@ JSTracer
 trc
 )
 {
-if
-(
-!
-hasStub
-(
-)
-)
-{
-return
-;
-}
 for
 (
 ICStub

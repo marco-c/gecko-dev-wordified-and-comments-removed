@@ -730,9 +730,9 @@ returnAddressToFp
 (
 )
 ;
-ICEntry
+RetAddrEntry
 &
-icEntry
+entry
 =
 script
 -
@@ -742,7 +742,7 @@ baselineScript
 )
 -
 >
-icEntryFromReturnAddress
+retAddrEntryFromReturnAddress
 (
 retAddr
 )
@@ -750,7 +750,7 @@ retAddr
 *
 pcRes
 =
-icEntry
+entry
 .
 pc
 (

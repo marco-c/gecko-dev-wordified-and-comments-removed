@@ -454,7 +454,7 @@ pc
 PCMappingSlotInfo
 slotInfo
 ;
-ICEntry
+RetAddrEntry
 :
 :
 Kind
@@ -474,7 +474,7 @@ BaselineDebugModeOSRInfo
 jsbytecode
 *
 pc
-ICEntry
+RetAddrEntry
 :
 :
 Kind

@@ -47,10 +47,12 @@ inline
 void
 EmitCallIC
 (
-CodeOffset
-*
 MacroAssembler
 &
+CodeOffset
+*
+CodeOffset
+*
 )
 {
 MOZ_CRASH
