@@ -286,10 +286,12 @@ fmt
 ]
 )
 )
+{
 +
 +
 numfmtspecs
 ;
+}
 }
 return
 numfmtspecs
@@ -660,6 +662,7 @@ U_FAILURE
 err
 )
 )
+{
 return
 "
 u_init
@@ -668,6 +671,7 @@ u_init
 failed
 "
 ;
+}
 #
 endif
 RETURN_IF_FAIL
