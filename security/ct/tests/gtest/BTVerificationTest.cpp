@@ -859,12 +859,6 @@ InputForBuffer
 encodedProofBuffer
 )
 ;
-Reader
-encodedProofReader
-(
-encodedProof
-)
-;
 InclusionProofDataV2
 ipr
 ;
@@ -873,7 +867,7 @@ ASSERT_EQ
 Success
 DecodeInclusionProof
 (
-encodedProofReader
+encodedProof
 ipr
 )
 )

@@ -53,8 +53,7 @@ DecodeInclusionProof
 pkix
 :
 :
-Reader
-&
+Input
 input
 InclusionProofDataV2
 &

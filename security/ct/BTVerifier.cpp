@@ -112,12 +112,8 @@ kNodeHashPrefixLengthBytes
 Result
 DecodeInclusionProof
 (
-pkix
-:
-:
-Reader
-&
-reader
+Input
+input
 InclusionProofDataV2
 &
 output
@@ -125,6 +121,12 @@ output
 {
 InclusionProofDataV2
 result
+;
+Reader
+reader
+(
+input
+)
 ;
 Input
 logId
