@@ -29099,7 +29099,6 @@ bool
 isSetLocal
 >
 MOZ_MUST_USE
-inline
 bool
 emitSetOrTeeLocal
 (
