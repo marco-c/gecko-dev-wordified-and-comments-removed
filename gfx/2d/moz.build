@@ -181,6 +181,11 @@ DrawEventRecorder
 h
 '
 '
+DrawTargetOffset
+.
+h
+'
+'
 DrawTargetRecording
 .
 h
@@ -1051,6 +1056,11 @@ cpp
 '
 '
 DrawTargetDual
+.
+cpp
+'
+'
+DrawTargetOffset
 .
 cpp
 '
