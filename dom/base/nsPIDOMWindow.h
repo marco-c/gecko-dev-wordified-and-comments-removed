@@ -520,13 +520,7 @@ UnmuteAudioContexts
 (
 )
 ;
-bool
-GetAudioCaptured
-(
-)
-const
-;
-nsresult
+void
 SetAudioCapture
 (
 bool
@@ -1848,9 +1842,6 @@ mMayHavePointerEnterLeaveEventListener
 ;
 bool
 mMayHaveTextEventListenerInDefaultGroup
-;
-bool
-mAudioCaptured
 ;
 nsCOMPtr
 <
