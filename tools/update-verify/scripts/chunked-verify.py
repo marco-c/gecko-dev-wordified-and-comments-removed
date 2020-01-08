@@ -134,13 +134,13 @@ __main__
 :
     
 from
-optparse
+argparse
 import
-OptionParser
+ArgumentParser
     
 parser
 =
-OptionParser
+ArgumentParser
 (
 "
 "
@@ -151,12 +151,6 @@ parser
 set_defaults
 (
         
-configDict
-=
-"
-updateChannels
-"
-        
 chunks
 =
 None
@@ -169,7 +163,7 @@ None
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -178,6 +172,9 @@ verify
 -
 config
 "
+required
+=
+True
 dest
 =
 "
@@ -187,7 +184,7 @@ verifyConfig
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -196,6 +193,9 @@ verify
 -
 channel
 "
+required
+=
+True
 dest
 =
 "
@@ -205,13 +205,16 @@ verify_channel
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
 -
 chunks
 "
+required
+=
+True
 dest
 =
 "
@@ -219,14 +222,12 @@ chunks
 "
 type
 =
-"
 int
-"
 )
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -235,6 +236,9 @@ this
 -
 chunk
 "
+required
+=
+True
 dest
 =
 "
@@ -242,13 +246,10 @@ thisChunk
 "
 type
 =
-"
 int
-"
 )
     
 options
-args
 =
 parser
 .
