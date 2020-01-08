@@ -52596,9 +52596,6 @@ AppUnitsPerDevPixel
 (
 )
 ;
-bool
-dummyBool
-;
 gfx
 :
 :
@@ -52622,8 +52619,6 @@ float
 (
 appUnitsPerDevPixel
 )
-&
-dummyBool
 )
 ;
 Point

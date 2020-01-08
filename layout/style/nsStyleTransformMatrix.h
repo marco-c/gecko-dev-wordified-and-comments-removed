@@ -459,9 +459,6 @@ aData
 TransformReferenceBox
 &
 aBounds
-bool
-*
-aContains3dTransform
 )
 ;
 void
@@ -486,9 +483,6 @@ aData
 TransformReferenceBox
 &
 aBounds
-bool
-*
-aContains3dTransform
 )
 ;
 mozilla
@@ -509,9 +503,6 @@ TransformReferenceBox
 aBounds
 float
 aAppUnitsPerMatrixUnit
-bool
-*
-aContains3dTransform
 )
 ;
 mozilla
@@ -549,9 +540,6 @@ TransformReferenceBox
 aRefBox
 float
 aAppUnitsPerMatrixUnit
-bool
-*
-aContains3dTransform
 )
 ;
 mozilla

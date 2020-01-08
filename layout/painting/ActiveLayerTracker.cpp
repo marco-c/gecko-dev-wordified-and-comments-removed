@@ -1079,9 +1079,6 @@ ACTIVITY_SCALE
 return
 ;
 }
-bool
-dummyBool
-;
 nsStyleTransformMatrix
 :
 :
@@ -1138,8 +1135,6 @@ refBox
 AppUnitsPerCSSPixel
 (
 )
-&
-dummyBool
 )
 ;
 Matrix

@@ -2520,9 +2520,6 @@ case
 eCSSKeyword_interpolatematrix
 :
 {
-bool
-dummy
-;
 Matrix4x4
 matrix
 ;
@@ -2534,8 +2531,6 @@ ProcessInterpolateMatrix
 matrix
 array
 aRefBox
-&
-dummy
 )
 ;
 aFunctions
@@ -2555,9 +2550,6 @@ case
 eCSSKeyword_accumulatematrix
 :
 {
-bool
-dummy
-;
 Matrix4x4
 matrix
 ;
@@ -2569,8 +2561,6 @@ ProcessAccumulateMatrix
 matrix
 array
 aRefBox
-&
-dummy
 )
 ;
 aFunctions
@@ -39270,9 +39260,6 @@ frame
 )
 ;
 }
-bool
-dummyBool
-;
 Matrix4x4
 result
 ;
@@ -39342,8 +39329,6 @@ mHead
 nullptr
 refBox
 aAppUnitsPerPixel
-&
-dummyBool
 )
 ;
 }
