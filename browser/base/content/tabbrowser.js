@@ -5213,6 +5213,11 @@ length
 1
 ]
 ;
+if
+(
+prompt
+)
+{
 prompt
 .
 Dialog
@@ -5223,6 +5228,7 @@ setDefaultFocus
 ;
 return
 ;
+}
 }
 if
 (
