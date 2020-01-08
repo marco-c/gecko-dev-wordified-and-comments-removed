@@ -555,9 +555,7 @@ defaultPlacements
 :
 [
 "
-new
--
-window
+feed
 -
 button
 "

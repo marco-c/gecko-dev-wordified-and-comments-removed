@@ -61,9 +61,7 @@ document
 getElementById
 (
 "
-new
--
-window
+feed
 -
 button
 "
@@ -111,9 +109,7 @@ concat
 (
 [
 "
-new
--
-window
+feed
 -
 button
 "
@@ -266,9 +262,7 @@ document
 getElementById
 (
 "
-new
--
-window
+feed
 -
 button
 "
@@ -305,9 +299,7 @@ concat
 (
 [
 "
-new
--
-window
+feed
 -
 button
 "
@@ -453,9 +445,7 @@ document
 getElementById
 (
 "
-new
--
-window
+feed
 -
 button
 "
@@ -487,9 +477,7 @@ placementsAfterAppend
 =
 [
 "
-new
--
-window
+feed
 -
 button
 "
