@@ -302,7 +302,7 @@ WrapForJNI
 calledFrom
 =
 "
-ui
+any
 "
 dispatchTo
 =
