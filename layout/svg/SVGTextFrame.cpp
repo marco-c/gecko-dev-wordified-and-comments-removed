@@ -17681,7 +17681,7 @@ nsIFrame
 aTextPathFrame
 )
 {
-nsSVGTextPathProperty
+SVGTextPathObserver
 *
 property
 =
