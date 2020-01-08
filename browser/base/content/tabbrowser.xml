@@ -13775,13 +13775,6 @@ tabbrowser
 -
 tab
 "
-display
-=
-"
-xul
-:
-hbox
-"
 extends
 =
 "
