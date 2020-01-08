@@ -695,11 +695,6 @@ nsIURIMutator
 idl
 '
 '
-nsIURIWithPrincipal
-.
-idl
-'
-'
 nsIURL
 .
 idl

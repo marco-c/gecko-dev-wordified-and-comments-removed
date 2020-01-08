@@ -229,8 +229,8 @@ HostObjectURIParams
 SimpleURIParams
 simpleParams
 ;
-OptionalPrincipalInfo
-principal
+bool
+revoked
 ;
 }
 ;
