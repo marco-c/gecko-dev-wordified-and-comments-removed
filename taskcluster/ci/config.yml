@@ -237,6 +237,16 @@ on
 Valgrind
 '
 '
+MSI
+'
+:
+'
+Repack
+installers
+into
+MSIs
+'
+'
 R
 '
 :
