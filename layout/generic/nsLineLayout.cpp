@@ -14163,9 +14163,14 @@ if
 pfd
 -
 >
-mIsBullet
+ParticipatesInJustification
+(
+)
 )
 {
+continue
+;
+}
 nscoord
 dw
 =
@@ -14419,7 +14424,6 @@ aPSD
 )
 )
 ;
-}
 }
 return
 deltaICoord
