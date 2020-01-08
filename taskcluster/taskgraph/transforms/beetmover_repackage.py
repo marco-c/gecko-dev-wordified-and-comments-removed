@@ -2128,11 +2128,12 @@ paths
 format
 (
 artifact_prefix
-p
+path
 )
                   
 for
-p
+path
+_
 in
 artifacts
 ]
