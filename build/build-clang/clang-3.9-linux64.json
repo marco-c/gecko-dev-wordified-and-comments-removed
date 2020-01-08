@@ -273,15 +273,6 @@ patches
 :
 [
 "
-static
--
-llvm
--
-symbolizer
-.
-patch
-"
-"
 llvm
 -
 debug
