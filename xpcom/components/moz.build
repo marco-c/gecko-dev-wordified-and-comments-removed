@@ -255,6 +255,14 @@ chrome
 '
 '
 /
+js
+/
+xpconnect
+/
+loader
+'
+'
+/
 modules
 /
 libjar
