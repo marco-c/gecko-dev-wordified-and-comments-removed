@@ -2932,20 +2932,27 @@ extend
 per_test_args
 )
                 
+final_env
+=
+copy
+.
+copy
+(
+env
+)
+                
 if
 self
 .
 per_test_coverage
 :
                     
-gcov_dir
-jsvm_dir
-=
 self
 .
 set_coverage_env
 (
-env
+final_env
+is_baseline_test
 )
                 
 return_code
@@ -2975,7 +2982,7 @@ parser
                                                
 env
 =
-env
+final_env
 )
                 
 if
@@ -2988,8 +2995,7 @@ self
 .
 add_per_test_coverage_report
 (
-gcov_dir
-jsvm_dir
+final_env
 suite
 per_test_args
 [
