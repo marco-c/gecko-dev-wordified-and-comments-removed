@@ -346,12 +346,6 @@ uint32_t
 >
 mActivePayments
 ;
-RefPtr
-<
-PaymentRequest
->
-mShowingRequest
-;
 }
 ;
 }
