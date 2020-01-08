@@ -53,6 +53,16 @@ set
 [
 [
 "
+browser
+.
+fastblock
+.
+enabled
+"
+false
+]
+[
+"
 privacy
 .
 trackingprotection
