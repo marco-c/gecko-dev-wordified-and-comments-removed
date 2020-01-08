@@ -1082,6 +1082,8 @@ libc
 :
 uint8_t
 '
+False
+True
 )
     
 Builtin
