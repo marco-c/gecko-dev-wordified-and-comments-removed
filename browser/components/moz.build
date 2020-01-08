@@ -294,9 +294,6 @@ enterprisepolicies
 extensions
 '
 '
-feeds
-'
-'
 library
 '
 '
@@ -319,6 +316,9 @@ preferences
 '
 '
 privatebrowsing
+'
+'
+protocolhandler
 '
 '
 resistfingerprinting

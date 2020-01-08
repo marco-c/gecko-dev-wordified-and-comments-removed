@@ -116,12 +116,7 @@ EXTRA_COMPONENTS
 =
 [
 '
-BrowserFeeds
-.
-manifest
-'
-'
-WebContentConverter
+WebProtocolHandlerRegistrar
 .
 js
 '
@@ -142,9 +137,6 @@ BUG_COMPONENT
 Firefox
 '
 '
-RSS
-Discovery
-and
-Preview
+General
 '
 )

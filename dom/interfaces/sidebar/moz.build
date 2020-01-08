@@ -109,7 +109,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsIWebContentHandlerRegistrar
+nsIWebProtocolHandlerRegistrar
 .
 idl
 '
