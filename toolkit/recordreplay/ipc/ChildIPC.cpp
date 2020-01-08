@@ -111,13 +111,6 @@ h
 #
 include
 "
-Monitor
-.
-h
-"
-#
-include
-"
 ParentInternal
 .
 h
@@ -187,7 +180,6 @@ recordreplay
 namespace
 child
 {
-static
 Monitor
 *
 gMonitor
