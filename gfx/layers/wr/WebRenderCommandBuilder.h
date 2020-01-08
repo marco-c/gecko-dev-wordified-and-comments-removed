@@ -162,6 +162,10 @@ mDoGrouping
 (
 false
 )
+mContainsSVGGroup
+(
+false
+)
 {
 }
 void
@@ -541,6 +545,15 @@ return
 mBuilderDumpIndex
 ;
 }
+bool
+GetContainsSVGGroup
+(
+)
+{
+return
+mContainsSVGGroup
+;
+}
 template
 <
 class
@@ -856,6 +869,9 @@ public
 :
 bool
 mDoGrouping
+;
+bool
+mContainsSVGGroup
 ;
 }
 ;

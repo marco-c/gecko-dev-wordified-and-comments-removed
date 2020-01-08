@@ -8433,6 +8433,10 @@ mBuilderDumpIndex
 =
 0
 ;
+mContainsSVGGroup
+=
+false
+;
 MOZ_ASSERT
 (
 mDumpIndent
@@ -9058,6 +9062,8 @@ DisplayItemType
 TYPE_SVG_WRAPPER
 )
 {
+mContainsSVGGroup
+=
 mDoGrouping
 =
 true

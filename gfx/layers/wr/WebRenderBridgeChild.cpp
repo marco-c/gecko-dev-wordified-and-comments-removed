@@ -490,6 +490,8 @@ const
 WebRenderScrollData
 &
 aScrollData
+bool
+aContainsSVGGroup
 const
 mozilla
 :
@@ -647,6 +649,7 @@ smallShmems
 )
 largeShmems
 mIdNamespace
+aContainsSVGGroup
 aRefreshStartTime
 aTxnStartTime
 fwdTime
