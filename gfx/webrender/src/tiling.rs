@@ -116,6 +116,7 @@ gpu_types
 {
 TransformData
 TransformPalette
+ZBufferIdGenerator
 }
 ;
 use
@@ -641,6 +642,11 @@ _transforms
 &
 mut
 TransformPalette
+_z_generator
+:
+&
+mut
+ZBufferIdGenerator
 )
 {
 }
@@ -915,6 +921,11 @@ transforms
 &
 mut
 TransformPalette
+z_generator
+:
+&
+mut
+ZBufferIdGenerator
 )
 {
 debug_assert_eq
@@ -951,6 +962,7 @@ render_tasks
 deferred_resolves
 prim_headers
 transforms
+z_generator
 )
 ;
 }
@@ -1868,6 +1880,11 @@ transforms
 &
 mut
 TransformPalette
+z_generator
+:
+&
+mut
+ZBufferIdGenerator
 )
 {
 let
@@ -1979,6 +1996,7 @@ transforms
 pic_task
 .
 root_spatial_node_index
+z_generator
 )
 ;
 if
@@ -4363,6 +4381,11 @@ prim_headers
 &
 mut
 PrimitiveHeaders
+z_generator
+:
+&
+mut
+ZBufferIdGenerator
 )
 {
 profile_scope
@@ -4443,6 +4466,7 @@ render_tasks
 deferred_resolves
 prim_headers
 transforms
+z_generator
 )
 ;
 }
@@ -4914,6 +4938,7 @@ deferred_resolves
 saved_color
 prim_headers
 transforms
+z_generator
 )
 ;
 alpha
@@ -4927,6 +4952,7 @@ deferred_resolves
 saved_alpha
 prim_headers
 transforms
+z_generator
 )
 ;
 }

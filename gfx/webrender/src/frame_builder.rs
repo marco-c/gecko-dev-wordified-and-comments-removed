@@ -80,6 +80,7 @@ gpu_types
 PrimitiveHeaders
 TransformPalette
 UvRectKind
+ZBufferIdGenerator
 }
 ;
 use
@@ -1690,6 +1691,17 @@ new
 )
 ;
 let
+mut
+z_generator
+=
+ZBufferIdGenerator
+:
+:
+new
+(
+)
+;
+let
 use_dual_source_blending
 =
 self
@@ -1755,6 +1767,9 @@ transform_palette
 &
 mut
 prim_headers
+&
+mut
+z_generator
 )
 ;
 if
