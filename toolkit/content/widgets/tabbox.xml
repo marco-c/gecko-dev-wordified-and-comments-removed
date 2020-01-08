@@ -1808,6 +1808,7 @@ next
 =
 startTab
 [
+(
 aDir
 =
 =
@@ -1815,11 +1816,16 @@ aDir
 1
 ?
 "
-previousSibling
+previous
 "
 :
 "
-nextSibling
+next
+"
+)
++
+"
+ElementSibling
 "
 ]
 ;
