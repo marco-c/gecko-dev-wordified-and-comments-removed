@@ -1004,13 +1004,6 @@ webBrowserPrint
 =
 containerWindow
 .
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
-.
 getInterface
 (
 Ci
@@ -1264,13 +1257,6 @@ let
 webBrowserPrint
 =
 containerWindow
-.
-QueryInterface
-(
-Ci
-.
-nsIInterfaceRequestor
-)
 .
 getInterface
 (

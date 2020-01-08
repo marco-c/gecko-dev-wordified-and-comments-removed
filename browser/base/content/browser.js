@@ -7285,13 +7285,6 @@ XULBrowserWindow
 ;
 window
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
-.
 browserDOMWindow
 =
 new
@@ -10616,13 +10609,6 @@ XULBrowserWindow
 null
 ;
 window
-.
-QueryInterface
-(
-Ci
-.
-nsIDOMChromeWindow
-)
 .
 browserDOMWindow
 =

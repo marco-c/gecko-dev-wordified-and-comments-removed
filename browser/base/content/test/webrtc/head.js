@@ -333,15 +333,6 @@ win
 {
 win
 .
-QueryInterface
-(
-Ci
-.
-nsIDOMWindow
-)
-;
-win
-.
 addEventListener
 (
 "
