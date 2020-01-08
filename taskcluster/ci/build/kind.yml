@@ -68,6 +68,8 @@ dependencies
 :
 -
 toolchain
+-
+fetch
 transforms
 :
 -
@@ -100,6 +102,14 @@ taskgraph
 transforms
 .
 use_toolchains
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
+use_fetches
 :
 transforms
 -
