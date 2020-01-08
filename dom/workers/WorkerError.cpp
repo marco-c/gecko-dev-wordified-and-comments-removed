@@ -144,7 +144,7 @@ ReportErrorRunnable
 final
 :
 public
-WorkerRunnable
+WorkerDebuggeeRunnable
 {
 WorkerErrorReport
 mReport
@@ -724,10 +724,9 @@ WorkerErrorReport
 aReport
 )
 :
-WorkerRunnable
+WorkerDebuggeeRunnable
 (
 aWorkerPrivate
-ParentThreadUnchangedBusyCount
 )
 mReport
 (
@@ -1017,7 +1016,7 @@ ReportGenericErrorRunnable
 final
 :
 public
-WorkerRunnable
+WorkerDebuggeeRunnable
 {
 public
 :
@@ -1072,10 +1071,9 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-WorkerRunnable
+WorkerDebuggeeRunnable
 (
 aWorkerPrivate
-ParentThreadUnchangedBusyCount
 )
 {
 aWorkerPrivate

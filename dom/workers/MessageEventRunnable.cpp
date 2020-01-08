@@ -84,7 +84,7 @@ TargetAndBusyBehavior
 aBehavior
 )
 :
-WorkerRunnable
+WorkerDebuggeeRunnable
 (
 aWorkerPrivate
 aBehavior

@@ -3491,7 +3491,7 @@ CancelingOnParentRunnable
 final
 :
 public
-WorkerRunnable
+WorkerDebuggeeRunnable
 {
 public
 :
@@ -3503,7 +3503,7 @@ WorkerPrivate
 aWorkerPrivate
 )
 :
-WorkerRunnable
+WorkerDebuggeeRunnable
 (
 aWorkerPrivate
 ParentThreadUnchangedBusyCount
