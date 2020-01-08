@@ -868,6 +868,15 @@ wr
 usize
 mDumpIndent
 ;
+Maybe
+<
+wr
+:
+:
+WrAnimationProperty
+>
+mZoomProp
+;
 public
 :
 bool
