@@ -10825,6 +10825,12 @@ startOffset
 >
 *
 aStartOffset
+&
+&
+startOffset
+<
+*
+aEndOffset
 )
 *
 aStartOffset
@@ -10884,6 +10890,12 @@ startOffset
 >
 *
 aStartOffset
+&
+&
+startOffset
+<
+*
+aEndOffset
 )
 *
 aStartOffset
