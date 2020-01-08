@@ -3240,6 +3240,15 @@ switcher
 -
 bookmarks
 "
+label
+=
+"
+&
+bookmarksButton
+.
+label
+;
+"
 class
 =
 "
@@ -12074,11 +12083,6 @@ id
 sidebar
 -
 title
-"
-persist
-=
-"
-value
 "
 crop
 =
