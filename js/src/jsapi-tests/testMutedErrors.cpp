@@ -604,7 +604,14 @@ JS
 :
 SourceBufferHolder
 srcBuf
+;
+CHECK
 (
+srcBuf
+.
+init
+(
+cx
 chars
 .
 get
@@ -618,6 +625,7 @@ SourceBufferHolder
 :
 :
 NoOwnership
+)
 )
 ;
 return

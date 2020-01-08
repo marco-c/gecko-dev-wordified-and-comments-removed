@@ -114,7 +114,14 @@ JS
 :
 SourceBufferHolder
 srcBuf
+;
+CHECK
 (
+srcBuf
+.
+init
+(
+cx
 src
 ArrayLength
 (
@@ -129,6 +136,7 @@ SourceBufferHolder
 :
 :
 NoOwnership
+)
 )
 ;
 CHECK

@@ -1954,6 +1954,7 @@ if
 (
 doc
 )
+{
 script
 -
 >
@@ -1961,6 +1962,13 @@ Compile
 (
 mText
 mTextLength
+JS
+:
+:
+SourceBufferHolder
+:
+:
+NoOwnership
 mDocumentURL
 script
 -
@@ -1969,6 +1977,7 @@ mLineNo
 doc
 )
 ;
+}
 }
 FlushText
 (
