@@ -85,6 +85,12 @@ html
 <
 script
 >
+onmessage
+=
+event
+=
+>
+{
   
 window
 .
@@ -97,9 +103,11 @@ postMessage
         
 id
 :
-'
-last_url
-'
+event
+.
+data
+.
+id
         
 result
 :
@@ -112,6 +120,8 @@ href
 *
 '
 )
+;
+}
 ;
 <
 /
