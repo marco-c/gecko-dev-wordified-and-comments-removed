@@ -369,10 +369,7 @@ D2D1_MAPPED_RECT
 mMap
 ;
 bool
-mIsMapped
-;
-bool
-mImplicitMapped
+mMapped
 ;
 }
 ;

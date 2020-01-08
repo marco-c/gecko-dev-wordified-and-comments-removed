@@ -431,6 +431,10 @@ mStride
 (
 0
 )
+mMapCount
+(
+0
+)
 mHandleCount
 (
 0
@@ -924,6 +928,14 @@ SourceSurfaceSharedData
 )
 override
 {
+MOZ_ASSERT
+(
+mMapCount
+=
+=
+0
+)
+;
 }
 void
 LockHandle
@@ -1034,6 +1046,9 @@ mMutex
 ;
 int32_t
 mStride
+;
+int32_t
+mMapCount
 ;
 int32_t
 mHandleCount

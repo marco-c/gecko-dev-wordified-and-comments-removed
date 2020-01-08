@@ -173,12 +173,11 @@ const
 override
 {
 return
-IntRect
+mDrawTarget
+-
+>
+GetRect
 (
-mOrigin
-GetSize
-(
-)
 )
 ;
 }
