@@ -9123,6 +9123,17 @@ AssertIsOnMainThread
 (
 )
 ;
+if
+(
+!
+mShuttingDown
+)
+{
+Shutdown
+(
+)
+;
+}
 nsCOMPtr
 <
 nsIObserverService
