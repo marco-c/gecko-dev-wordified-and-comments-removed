@@ -84,7 +84,7 @@ nproc
 "
 mingw_version
 =
-49ca7cfe7e09f924e939921b42a3452203c437b7
+30af18252d4e965e98612e215b8cf6b7ae42c01a
 libunwind_version
 =
 86ab23972978242b6f9e27cebc239f3e8428b1af
