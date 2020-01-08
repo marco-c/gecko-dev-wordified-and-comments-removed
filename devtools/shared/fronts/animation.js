@@ -197,13 +197,6 @@ this
 _form
 .
 startTime
-previousStartTime
-:
-this
-.
-_form
-.
-previousStartTime
 currentTime
 :
 this
