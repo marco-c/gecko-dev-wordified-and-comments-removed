@@ -56,6 +56,7 @@ OnStep
 OnPop
 EnterFrame
 NewScript
+ConsoleMessage
 WarpTarget
 ForcedPause
 )
@@ -384,6 +385,14 @@ NewScript
 return
 "
 NewScript
+"
+;
+case
+ConsoleMessage
+:
+return
+"
+ConsoleMessage
 "
 ;
 case
