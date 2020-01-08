@@ -192,7 +192,7 @@ this
 .
 target
 .
-makeRemote
+attach
 (
 )
 ;
@@ -674,7 +674,7 @@ expression
 )
 {
 return
-null
+expression
 ;
 }
 isPaused
