@@ -2242,11 +2242,6 @@ rendering
 "
 )
 ;
-MOZ_ASSERT
-(
-mInitialized
-)
-;
 if
 (
 mFilterDescription
@@ -2400,11 +2395,6 @@ ComputePostFilterDirtyRegion
 (
 )
 {
-MOZ_ASSERT
-(
-mInitialized
-)
-;
 if
 (
 mPreFilterDirtyRegion
@@ -2462,11 +2452,6 @@ ComputePostFilterExtents
 (
 )
 {
-MOZ_ASSERT
-(
-mInitialized
-)
-;
 if
 (
 mFilterDescription
@@ -2537,11 +2522,6 @@ OutputFilterSpaceBounds
 )
 const
 {
-MOZ_ASSERT
-(
-mInitialized
-)
-;
 uint32_t
 numPrimitives
 =

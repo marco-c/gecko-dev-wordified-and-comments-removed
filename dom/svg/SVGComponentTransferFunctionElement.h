@@ -109,8 +109,8 @@ typedef
 gfx
 :
 :
-AttributeMap
-AttributeMap
+ComponentTransferAttributes
+ComponentTransferAttributes
 ;
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
@@ -138,9 +138,14 @@ GetChannel
 =
 0
 ;
-AttributeMap
+void
 ComputeAttributes
 (
+int32_t
+aChannel
+ComponentTransferAttributes
+&
+aAttributes
 )
 ;
 virtual
