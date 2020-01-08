@@ -1015,8 +1015,10 @@ test
 as
 an
 argument
-and
-returns
+.
+It
+must
+return
 a
 promise
 .
