@@ -1351,8 +1351,6 @@ issues
 edit_issues
 (
 result
-.
-issues
 )
         
 result
