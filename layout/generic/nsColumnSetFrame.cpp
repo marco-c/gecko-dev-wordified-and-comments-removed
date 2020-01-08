@@ -5838,8 +5838,6 @@ nsCSSAnonBoxes
 :
 :
 columnContent
-(
-)
 "
 What
 sort

@@ -20535,8 +20535,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 )
 {
 AddBoxesForFrame
@@ -20605,8 +20603,6 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
-(
-)
 |
 |
 pseudoType
@@ -20616,8 +20612,6 @@ nsCSSAnonBoxes
 :
 :
 mozMathMLAnonymousBlock
-(
-)
 |
 |
 pseudoType
@@ -20627,8 +20621,6 @@ nsCSSAnonBoxes
 :
 :
 mozXULAnonymousBlock
-(
-)
 )
 {
 for
@@ -20744,8 +20736,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 )
 {
 nsIFrame
@@ -20827,8 +20817,6 @@ nsCSSAnonBoxes
 :
 :
 mozBlockInsideInlineWrapper
-(
-)
 |
 |
 pseudoType
@@ -20838,8 +20826,6 @@ nsCSSAnonBoxes
 :
 :
 mozMathMLAnonymousBlock
-(
-)
 |
 |
 pseudoType
@@ -20849,8 +20835,6 @@ nsCSSAnonBoxes
 :
 :
 mozXULAnonymousBlock
-(
-)
 )
 {
 for

@@ -175,8 +175,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 ;
 }
 bool

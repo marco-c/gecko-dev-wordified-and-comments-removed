@@ -370,6 +370,11 @@ nsDirectoryService
 h
 '
 '
+nsDirectoryServiceAtomList
+.
+h
+'
+'
 nsDirectoryServiceDefs
 .
 h

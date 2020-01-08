@@ -5852,8 +5852,6 @@ nsCSSAnonBoxes
 :
 :
 mozDisplayComboboxControlFrame
-(
-)
 mComputedStyle
 )
 ;

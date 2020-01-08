@@ -9326,8 +9326,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-(
-)
 &
 &
 mParent
@@ -26971,8 +26969,6 @@ nsCSSPseudoElements
 :
 :
 firstLetter
-(
-)
 )
 ;
 ComputedStyle
@@ -33688,8 +33684,6 @@ nsCSSAnonBoxes
 :
 :
 cellContent
-(
-)
 &
 &
 GetParent
@@ -33718,8 +33712,6 @@ nsCSSAnonBoxes
 :
 :
 fieldsetContent
-(
-)
 |
 |
 pseudo
@@ -33729,8 +33721,6 @@ nsCSSAnonBoxes
 :
 :
 buttonContent
-(
-)
 |
 |
 pseudo
@@ -33740,8 +33730,6 @@ nsCSSAnonBoxes
 :
 :
 columnContent
-(
-)
 |
 |
 (
@@ -33752,8 +33740,6 @@ nsCSSAnonBoxes
 :
 :
 scrolledContent
-(
-)
 &
 &
 !
@@ -33775,8 +33761,6 @@ nsCSSAnonBoxes
 :
 :
 mozSVGText
-(
-)
 )
 &
 &
@@ -36060,8 +36044,6 @@ nsCSSPseudoElements
 :
 :
 firstLine
-(
-)
 )
 ;
 ComputedStyle
@@ -36121,8 +36103,6 @@ nsCSSAnonBoxes
 :
 :
 mozLineFrame
-(
-)
 parentStyle
 )
 ;

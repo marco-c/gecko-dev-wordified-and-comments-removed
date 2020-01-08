@@ -3315,8 +3315,6 @@ nsCSSAnonBoxes
 :
 :
 tableColGroup
-(
-)
 )
 ;
 nsTableColGroupFrame
@@ -3603,8 +3601,6 @@ nsCSSAnonBoxes
 :
 :
 tableCol
-(
-)
 )
 ;
 NS_ASSERTION
@@ -38886,8 +38882,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 "
 What
 happened
@@ -38947,8 +38941,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 "
 What
 happened
@@ -38977,8 +38969,6 @@ nsCSSAnonBoxes
 :
 :
 tableWrapper
-(
-)
 aOwningFrame
 -
 >

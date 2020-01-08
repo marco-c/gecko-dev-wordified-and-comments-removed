@@ -186,8 +186,6 @@ nsCSSPseudoElements
 :
 :
 before
-(
-)
 )
 {
 *
@@ -219,8 +217,6 @@ nsCSSPseudoElements
 :
 :
 after
-(
-)
 )
 {
 *
