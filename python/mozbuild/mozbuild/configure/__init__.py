@@ -5507,7 +5507,7 @@ self
 .
 _imports
 .
-get
+pop
 (
 func
 (
@@ -7191,14 +7191,6 @@ _apply_imports
 func
 glob
 )
-                
-del
-self
-.
-_imports
-[
-func
-]
             
 return
 new_func
