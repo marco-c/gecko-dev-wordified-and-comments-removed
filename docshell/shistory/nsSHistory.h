@@ -429,11 +429,11 @@ PrintHistory
 #
 endif
 nsresult
-FindTransactionForBFCache
+FindEntryForBFCache
 (
 nsIBFCacheEntry
 *
-aEntry
+aBFEntry
 nsISHEntry
 *
 *
@@ -451,11 +451,11 @@ aIndex
 )
 ;
 void
-EvictContentViewerForTransaction
+EvictContentViewerForEntry
 (
 nsISHEntry
 *
-aTrans
+aEntry
 )
 ;
 static
@@ -512,7 +512,7 @@ nsCOMPtr
 nsISHEntry
 >
 >
-mTransactions
+mEntries
 ;
 int32_t
 mIndex
@@ -541,7 +541,7 @@ Length
 return
 int32_t
 (
-mTransactions
+mEntries
 .
 Length
 (

@@ -2394,11 +2394,14 @@ an
 entry
 is
 serving
-as
-a
-transaction
+is
 within
 nsISHistory
+'
+s
+array
+of
+entries
 this
 *
 property

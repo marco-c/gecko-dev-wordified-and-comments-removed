@@ -951,7 +951,7 @@ LOCATION_CHANGE_SAME_DOCUMENT
 ;
 }
 nsresult
-HistoryTransactionRemoved
+HistoryEntryRemoved
 (
 int32_t
 aIndex
@@ -2911,10 +2911,10 @@ int32_t
 mItemType
 ;
 int32_t
-mPreviousTransIndex
+mPreviousEntryIndex
 ;
 int32_t
-mLoadedTransIndex
+mLoadedEntryIndex
 ;
 int32_t
 mChildOffset
