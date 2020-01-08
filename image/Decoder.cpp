@@ -1368,6 +1368,9 @@ aFormat
 aPaletteDepth
 nonPremult
 aAnimParams
+ShouldBlendAnimation
+(
+)
 )
 )
 )
