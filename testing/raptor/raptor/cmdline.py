@@ -112,6 +112,9 @@ firefox
 '
 chrome
 '
+'
+geckoview
+'
 ]
 )
     
@@ -331,6 +334,17 @@ required
 )
     
 if
+args
+.
+app
+!
+=
+"
+geckoview
+"
+:
+        
+if
 not
 os
 .
@@ -343,7 +357,7 @@ args
 binary
 )
 :
-        
+            
 parser
 .
 error

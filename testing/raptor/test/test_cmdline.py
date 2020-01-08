@@ -31,6 +31,11 @@ args
 =
 Namespace
 (
+app
+=
+'
+firefox
+'
 binary
 =
 '

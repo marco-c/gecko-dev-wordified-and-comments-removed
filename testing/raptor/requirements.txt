@@ -24,3 +24,9 @@ wptserve
 4
 .
 0
+mozdevice
+~
+=
+1
+.
+0

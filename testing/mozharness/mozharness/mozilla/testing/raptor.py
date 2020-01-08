@@ -457,6 +457,9 @@ firefox
 "
 chrome
 "
+"
+geckoview
+"
 ]
           
 "
@@ -851,6 +854,19 @@ config
 :
                 
 for
+app
+in
+[
+'
+chrome
+'
+'
+geckoview
+'
+]
+:
+                    
+for
 next_arg
 in
 self
@@ -862,23 +878,19 @@ raptor_cmd_line_args
 '
 ]
 :
-                    
+                        
 if
-"
-chrome
-"
+app
 in
 next_arg
 :
-                        
+                            
 self
 .
 app
 =
-"
-chrome
-"
-                        
+app
+                            
 break
         
 else

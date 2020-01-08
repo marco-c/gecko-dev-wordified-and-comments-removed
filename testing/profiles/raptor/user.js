@@ -12,3 +12,15 @@ enabled
 true
 )
 ;
+user_pref
+(
+"
+geckoview
+.
+console
+.
+enabled
+"
+true
+)
+;
