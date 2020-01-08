@@ -274,12 +274,15 @@ important
 ;
 }
 #
+contentBlockingCategories
+#
 contentBlockingCheckboxContainer
 {
 margin
+-
+top
 :
 16px
-0
 ;
 }
 #

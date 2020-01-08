@@ -2077,6 +2077,17 @@ title
 >
 <
 toolbarseparator
+id
+=
+"
+appMenu
+-
+tp
+-
+vertical
+-
+separator
+"
 orient
 =
 "
