@@ -383,9 +383,7 @@ MenuItem
 l10nID
 :
 "
-editmenu
--
-undo
+foo
 "
 }
 )
@@ -973,9 +971,9 @@ MenuItem
 l10nID
 :
 "
-editmenu
+submenu
 -
-copy
+parent
 "
 submenu
 :
@@ -1185,9 +1183,9 @@ id
 "
 )
 "
-editmenu
+submenu
 -
-copy
+parent
 "
 "
 Correct

@@ -211,15 +211,6 @@ js
 '
 toolbox
 -
-context
--
-menu
-.
-js
-'
-'
-toolbox
--
 highlighter
 -
 utils
