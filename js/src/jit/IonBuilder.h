@@ -2213,17 +2213,6 @@ AbortReasonOr
 <
 Ok
 >
-newObjectTrySharedStub
-(
-bool
-*
-emitted
-)
-;
-AbortReasonOr
-<
-Ok
->
 newObjectTryTemplateObject
 (
 bool

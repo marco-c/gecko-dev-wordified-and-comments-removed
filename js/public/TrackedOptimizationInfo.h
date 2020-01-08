@@ -580,11 +580,6 @@ TemplateObjectIsUnboxedWithoutInlineElements
 \
 _
 (
-TemplateObjectIsPlainObjectWithDynamicSlots
-)
-\
-_
-(
 LengthTooBig
 )
 \

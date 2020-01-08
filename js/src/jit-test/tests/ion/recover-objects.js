@@ -1142,7 +1142,7 @@ i
 assertRecoveredOnBailout
 (
 obj
-false
+true
 )
 ;
 }
