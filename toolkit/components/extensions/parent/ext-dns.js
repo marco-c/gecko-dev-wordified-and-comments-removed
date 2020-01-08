@@ -226,15 +226,13 @@ addresses
 let
 listener
 =
-{
-onLookupComplete
-:
-function
 (
 inRequest
 inRecord
 inStatus
 )
+=
+>
 {
 if
 (
@@ -357,7 +355,6 @@ resolve
 response
 )
 ;
-}
 }
 }
 ;
