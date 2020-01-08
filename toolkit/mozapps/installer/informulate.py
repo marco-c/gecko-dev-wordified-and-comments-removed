@@ -613,6 +613,13 @@ version
 s
 [
 '
+MOZ_APP_VERSION_DISPLAY
+'
+]
+or
+s
+[
+'
 MOZ_APP_VERSION
 '
 ]
