@@ -12788,8 +12788,9 @@ nsJSArgArray
 :
 ScriptedEnumerate
 (
-nsIJSIID
-*
+const
+nsIID
+&
 aElemIID
 uint8_t
 aArgc

@@ -101,9 +101,6 @@ nsISupports
 idl
 "
 interface
-nsIJSIID
-;
-interface
 nsISimpleEnumerator
 ;
 /
@@ -639,7 +636,7 @@ enumerate
 optional
 ]
 in
-nsIJSIID
+nsIIDRef
 aElemIID
 )
 ;
