@@ -160,6 +160,11 @@ isAdaptivePlaybackSupported
 )
 ;
 boolean
+isHardwareAccelerated
+(
+)
+;
+boolean
 isTunneledPlaybackSupported
 (
 )
