@@ -4135,6 +4135,16 @@ add
 (
 ptr2
 3
+JS
+:
+:
+Heap
+<
+JSObject
+*
+>
+(
+)
 )
 )
 ;
