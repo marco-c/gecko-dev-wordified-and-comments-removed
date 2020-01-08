@@ -897,7 +897,7 @@ AssertHeapIsIdle
 (
 )
 ;
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )

@@ -9384,7 +9384,7 @@ HandleValue
 thisArg
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -9479,7 +9479,7 @@ HandleObject
 obj
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -9552,7 +9552,7 @@ bool
 rval
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -9660,7 +9660,7 @@ MutableHandleValue
 rval
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -9811,7 +9811,7 @@ MutableHandleValue
 rval
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -9939,7 +9939,7 @@ HandleValue
 val
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -10351,7 +10351,7 @@ HandleValue
 key
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )

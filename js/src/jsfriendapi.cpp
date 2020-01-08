@@ -562,7 +562,7 @@ HandleObject
 proto
 )
 {
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -1255,7 +1255,7 @@ isAtomsZone
 )
 )
 ;
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -2475,7 +2475,7 @@ isAtomsZone
 )
 )
 ;
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -2583,7 +2583,7 @@ isAtomsZone
 )
 )
 ;
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -2705,7 +2705,7 @@ isAtomsZone
 )
 )
 ;
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -6519,7 +6519,7 @@ AssertHeapIsIdle
 (
 )
 ;
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
@@ -8584,7 +8584,7 @@ AssertHeapIsIdle
 (
 )
 ;
-CHECK_REQUEST
+CHECK_THREAD
 (
 cx
 )
