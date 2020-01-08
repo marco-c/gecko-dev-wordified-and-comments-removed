@@ -66,7 +66,7 @@ com
 "
 params
 .
-allowText
+allowL10nId
 ]
 ]
 )
@@ -172,7 +172,7 @@ com
 "
 params
 .
-denyText
+denyL10nId
 ]
 ]
 )
@@ -278,7 +278,7 @@ com
 "
 params
 .
-allowText
+allowL10nId
 ]
 ]
 )
@@ -608,7 +608,7 @@ com
 "
 params
 .
-allowText
+allowL10nId
 ]
 ]
 )
@@ -724,7 +724,7 @@ com
 "
 params
 .
-denyText
+denyL10nId
 ]
 ]
 )
@@ -840,7 +840,7 @@ com
 "
 params
 .
-allowText
+allowL10nId
 ]
 ]
 )
@@ -1031,7 +1031,7 @@ localhost
 "
 params
 .
-allowText
+allowL10nId
 ]
 ]
 )
@@ -1137,7 +1137,7 @@ localhost
 "
 params
 .
-denyText
+denyL10nId
 ]
 ]
 )
@@ -1243,7 +1243,7 @@ localhost
 "
 params
 .
-allowText
+allowL10nId
 ]
 ]
 )
@@ -1491,7 +1491,7 @@ a
 "
 params
 .
-allowText
+allowL10nId
 ]
 [
 "
@@ -1503,7 +1503,7 @@ b
 "
 params
 .
-allowText
+allowL10nId
 ]
 [
 "
@@ -1515,7 +1515,7 @@ z
 "
 params
 .
-allowText
+allowL10nId
 ]
 ]
 )
@@ -1557,7 +1557,7 @@ z
 "
 params
 .
-allowText
+allowL10nId
 ]
 [
 "
@@ -1569,7 +1569,7 @@ b
 "
 params
 .
-allowText
+allowL10nId
 ]
 [
 "
@@ -1581,7 +1581,7 @@ a
 "
 params
 .
-allowText
+allowL10nId
 ]
 ]
 )
@@ -1866,7 +1866,11 @@ value
 getAttribute
 (
 "
-value
+data
+-
+l10n
+-
+id
 "
 )
 expected
@@ -2060,13 +2064,13 @@ getElementById
 removePermission
 "
 )
-allowText
+allowL10nId
 :
 win
 .
 gPermissionManager
 .
-_getCapabilityString
+_getCapabilityL10nId
 (
 Ci
 .
@@ -2074,13 +2078,13 @@ nsIPermissionManager
 .
 ALLOW_ACTION
 )
-denyText
+denyL10nId
 :
 win
 .
 gPermissionManager
 .
-_getCapabilityString
+_getCapabilityL10nId
 (
 Ci
 .
