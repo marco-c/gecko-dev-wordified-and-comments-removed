@@ -9853,6 +9853,7 @@ RemoveBottom
 (
 )
 ;
+virtual
 void
 DeleteAll
 (
@@ -10806,6 +10807,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+override
 {
 for
 (
