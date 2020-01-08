@@ -93,7 +93,15 @@ ID_QueryCredentialsAttributesA
 ID_FreeCredentialsHandle
 ID_PrintDlgW
 ID_CreateMutexW
+#
+if
+defined
+(
+MOZ_SANDBOX
+)
 ID_GetFileAttributesW
+#
+endif
 ID_FunctionHookCount
 #
 else
