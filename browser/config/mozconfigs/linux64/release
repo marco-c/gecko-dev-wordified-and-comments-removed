@@ -29,6 +29,10 @@ MOZ_AUTOMATION_UPDATE_PACKAGING
 =
 1
 fi
+export
+MOZ_PGO
+=
+1
 .
 "
 topsrcdir
@@ -61,10 +65,6 @@ enable
 verify
 -
 mar
-ac_add_options
-MOZ_PGO
-=
-1
 #
 safeguard
 against

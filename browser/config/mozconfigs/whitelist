@@ -271,7 +271,7 @@ win32
 =
 [
 '
-ac_add_options
+export
 MOZ_PGO
 =
 1
@@ -292,7 +292,7 @@ win64
 =
 [
 '
-ac_add_options
+export
 MOZ_PGO
 =
 1
@@ -325,7 +325,7 @@ MOZ_TELEMETRY_REPORTING
 1
 '
 '
-ac_add_options
+export
 MOZ_PGO
 =
 1
@@ -358,7 +358,7 @@ MOZ_TELEMETRY_REPORTING
 1
 '
 '
-ac_add_options
+export
 MOZ_PGO
 =
 1

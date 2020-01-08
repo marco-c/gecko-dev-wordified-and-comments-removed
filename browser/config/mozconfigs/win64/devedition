@@ -12,6 +12,10 @@ MOZ_AUTOMATION_UPDATE_PACKAGING
 =
 1
 fi
+export
+MOZ_PGO
+=
+1
 .
 "
 topsrcdir
@@ -89,10 +93,6 @@ browser
 branding
 /
 aurora
-ac_add_options
-MOZ_PGO
-=
-1
 #
 Enable
 MOZ_ALLOW_LEGACY_EXTENSIONS

@@ -29,6 +29,10 @@ MOZ_AUTOMATION_UPDATE_PACKAGING
 =
 1
 fi
+export
+MOZ_PGO
+=
+1
 .
 "
 topsrcdir
@@ -57,10 +61,6 @@ common
 -
 opt
 "
-ac_add_options
-MOZ_PGO
-=
-1
 ac_add_options
 -
 -
