@@ -455,6 +455,15 @@ include
 "
 mozilla
 /
+FullscreenRequest
+.
+h
+"
+#
+include
+"
+mozilla
+/
 InternalMutationEvent
 .
 h
