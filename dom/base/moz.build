@@ -670,11 +670,6 @@ nsWrapperCacheInlines
 h
 '
 '
-nsXMLNameSpaceMap
-.
-h
-'
-'
 XPathGenerator
 .
 h
@@ -1863,11 +1858,6 @@ cpp
 '
 '
 nsXMLContentSerializer
-.
-cpp
-'
-'
-nsXMLNameSpaceMap
 .
 cpp
 '
