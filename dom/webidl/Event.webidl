@@ -271,6 +271,13 @@ cancelable
 [
 NeedsCallerType
 ]
+attribute
+boolean
+returnValue
+;
+[
+NeedsCallerType
+]
 void
 preventDefault
 (
