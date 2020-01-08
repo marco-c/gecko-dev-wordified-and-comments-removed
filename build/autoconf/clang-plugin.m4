@@ -957,7 +957,7 @@ for
 new
 ASTMatcher
 API
-ac_cv_have_new_ASTMatcher_api
+ac_cv_have_new_ASTMatcher_names
 [
 AC_LANG_SAVE
 AC_LANG_CPLUSPLUS
