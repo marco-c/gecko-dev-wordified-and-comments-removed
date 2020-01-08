@@ -1,5 +1,3 @@
-import
-sys
 NOT_NESTED
 =
 1
@@ -32,6 +30,7 @@ node
         
 raise
 Exception
+(
 "
 INTERNAL
 ERROR
@@ -46,13 +45,14 @@ s
 '
 "
 %
+                        
 (
-            
 node
 .
 __class__
 .
 __name__
+)
 )
     
 def
@@ -1640,6 +1640,7 @@ modifier
                 
 raise
 Exception
+(
 "
 Unexpected
 message
@@ -1650,6 +1651,7 @@ s
 "
 %
 modifier
+)
 class
 Param
 (

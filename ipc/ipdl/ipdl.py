@@ -3,19 +3,11 @@ optparse
 import
 os
 import
-re
-import
 sys
 from
 cStringIO
 import
 StringIO
-import
-mozpack
-.
-path
-as
-mozpath
 from
 ConfigParser
 import
@@ -40,9 +32,11 @@ minv
 :
         
 print
+(
 fmt
 %
 args
+)
 op
 =
 optparse

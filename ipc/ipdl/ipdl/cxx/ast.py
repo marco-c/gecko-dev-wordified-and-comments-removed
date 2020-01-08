@@ -1,7 +1,5 @@
 import
 copy
-import
-sys
 class
 Visitor
 :
@@ -16,6 +14,7 @@ node
         
 raise
 Exception
+(
 "
 INTERNAL
 ERROR
@@ -30,13 +29,14 @@ s
 '
 "
 %
+                        
 (
-            
 node
 .
 __class__
 .
 __name__
+)
 )
     
 def
@@ -2108,27 +2108,6 @@ self
 nmemb
 =
 nmemb
-    
-def
-__deepcopy__
-(
-self
-memo
-)
-:
-        
-return
-TypeArray
-(
-deepcopy
-(
-self
-.
-basetype
-memo
-)
-nmemb
-)
 class
 TypeEnum
 (

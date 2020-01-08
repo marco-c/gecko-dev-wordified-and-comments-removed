@@ -87,6 +87,7 @@ args
         
 raise
 Exception
+(
 "
 INTERNAL
 ERROR
@@ -101,13 +102,14 @@ s
 '
 "
 %
+                        
 (
-            
 node
 .
 __class__
 .
 __name__
+)
 )
     
 def

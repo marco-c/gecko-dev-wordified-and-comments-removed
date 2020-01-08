@@ -7,8 +7,6 @@ os
 import
 subprocess
 import
-sys
-import
 tempfile
 class
 IPDLCompile

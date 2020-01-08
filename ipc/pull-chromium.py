@@ -302,6 +302,7 @@ src
 '
 svnpath
 )
+                
 localpath
 ]
 )
