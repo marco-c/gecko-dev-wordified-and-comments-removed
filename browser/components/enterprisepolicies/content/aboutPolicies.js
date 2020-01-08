@@ -1223,6 +1223,15 @@ obj
 )
 )
 ;
+last_row
+.
+classList
+.
+add
+(
+color_class
+)
+;
 if
 (
 arr_sep
@@ -1234,7 +1243,6 @@ classList
 .
 add
 (
-color_class
 "
 arr_sep
 "
