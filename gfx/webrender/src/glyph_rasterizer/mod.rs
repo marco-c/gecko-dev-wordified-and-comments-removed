@@ -1813,14 +1813,6 @@ FontRenderMode
 :
 :
 Subpixel
-&
-&
-!
-self
-.
-use_subpixel_position
-(
-)
 {
 max_size
 /
