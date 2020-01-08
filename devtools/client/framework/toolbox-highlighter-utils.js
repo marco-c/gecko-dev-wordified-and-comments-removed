@@ -251,6 +251,9 @@ selectTool
 "
 inspector
 "
+"
+inspect_dom
+"
 )
 ;
 toolbox

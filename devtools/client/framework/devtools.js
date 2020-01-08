@@ -1557,6 +1557,11 @@ toolId
 hostType
 hostOptions
 startTime
+reason
+=
+"
+toolbox_show
+"
 )
 {
 let
@@ -1623,9 +1628,7 @@ toolbox
 selectTool
 (
 toolId
-"
-toolbox_show
-"
+reason
 )
 ;
 }
@@ -2522,6 +2525,9 @@ inspector
 null
 null
 startTime
+"
+inspect_dom
+"
 )
 ;
 const
