@@ -541,12 +541,10 @@ isValid
 &
 &
 type_
-=
-=
-ValType
-:
-:
-AnyRef
+.
+isRefOrAnyRef
+(
+)
 &
 &
 u
@@ -562,6 +560,8 @@ u
 ptr_
 "
 wasm
+ref
+/
 anyref
 global
 "
