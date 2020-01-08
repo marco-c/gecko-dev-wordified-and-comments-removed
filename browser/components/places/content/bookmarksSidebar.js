@@ -255,6 +255,7 @@ if
 !
 aSearchString
 )
+{
 tree
 .
 place
@@ -263,7 +264,9 @@ tree
 .
 place
 ;
+}
 else
+{
 tree
 .
 applyFilter
@@ -276,6 +279,7 @@ bookmarks
 userContentRoots
 )
 ;
+}
 }
 window
 .

@@ -45,6 +45,11 @@ BrowserFeedWriter
 :
 false
 "
+CSSAnimation
+"
+:
+false
+"
 CSSPrimitiveValue
 "
 :
