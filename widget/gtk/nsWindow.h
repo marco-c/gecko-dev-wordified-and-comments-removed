@@ -582,6 +582,15 @@ GetDesktopToDeviceScale
 )
 override
 ;
+mozilla
+:
+:
+DesktopToLayoutDeviceScale
+GetDesktopToDeviceScaleByScreen
+(
+)
+override
+;
 virtual
 void
 SetParent
