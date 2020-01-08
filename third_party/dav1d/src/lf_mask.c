@@ -2508,7 +2508,7 @@ const
 ptrdiff_t
 b4_stride
 const
-Av1FrameHeader
+Dav1dFrameHeader
 *
 const
 hdr
@@ -3041,7 +3041,7 @@ const
 ptrdiff_t
 b4_stride
 const
-Av1FrameHeader
+Dav1dFrameHeader
 *
 const
 hdr
@@ -3734,7 +3734,7 @@ const
 int
 seg_delta
 const
-Av1LoopfilterModeRefDeltas
+Dav1dLoopfilterModeRefDeltas
 *
 const
 mr_delta
@@ -3948,7 +3948,7 @@ lflvl_values
 2
 ]
 const
-Av1FrameHeader
+Dav1dFrameHeader
 *
 const
 hdr
@@ -4018,7 +4018,7 @@ return
 ;
 }
 const
-Av1LoopfilterModeRefDeltas
+Dav1dLoopfilterModeRefDeltas
 *
 const
 mr_deltas
@@ -4057,7 +4057,7 @@ s
 )
 {
 const
-Av1SegmentationData
+Dav1dSegmentationData
 *
 const
 segd

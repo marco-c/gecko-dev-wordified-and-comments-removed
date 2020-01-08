@@ -42,6 +42,9 @@ Dav1dRef
 *
 ref
 ;
+Dav1dDataProps
+m
+;
 }
 Dav1dData
 ;
