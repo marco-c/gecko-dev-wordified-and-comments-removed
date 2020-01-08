@@ -3295,11 +3295,13 @@ snapshot
 =
 Telemetry
 .
-getSnapshotForKeyedScalars
+snapshotKeyedScalars
 (
-"
-main
-"
+Ci
+.
+nsITelemetry
+.
+DATASET_RELEASE_CHANNEL_OPTIN
 false
 )
 ;
