@@ -76,17 +76,6 @@ id
 )
 ;
 }
-if
-(
-source
-.
-isWasm
-)
-{
-return
-false
-;
-}
 let
 text
 =
