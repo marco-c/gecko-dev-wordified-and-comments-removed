@@ -2410,7 +2410,7 @@ class
 StreamListener
 ;
 class
-StreamSizeListener
+VideoFrameListener
 ;
 class
 ShutdownObserver
@@ -3413,9 +3413,9 @@ mMediaStreamListener
 ;
 RefPtr
 <
-StreamSizeListener
+VideoFrameListener
 >
-mMediaStreamSizeListener
+mVideoFrameListener
 ;
 RefPtr
 <
