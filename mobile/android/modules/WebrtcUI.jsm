@@ -1654,7 +1654,7 @@ type
 =
 =
 "
-audio
+audioinput
 "
 )
 {
@@ -1672,7 +1672,7 @@ type
 =
 =
 "
-video
+videoinput
 "
 )
 {
@@ -1881,7 +1881,7 @@ type
 {
 case
 "
-audio
+audioinput
 "
 :
 if
@@ -1899,7 +1899,7 @@ break
 ;
 case
 "
-video
+videoinput
 "
 :
 if
