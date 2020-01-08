@@ -1255,7 +1255,9 @@ test
 var
 size
 =
-512
+2
+*
+1024
 *
 1024
 ;
@@ -1380,13 +1382,6 @@ removeAfter
 '
 PC_REMOTE_CHECK_ICE_CONNECTIONS
 '
-)
-;
-chain
-.
-append
-(
-commandsCheckLargeXfer
 )
 ;
 chain
