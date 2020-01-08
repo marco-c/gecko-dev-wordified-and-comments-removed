@@ -2040,7 +2040,9 @@ version
 channel
 )
             
-print
+logger
+.
+info
 (
 "
 Installing
@@ -2148,7 +2150,9 @@ extract_dir
 else
 :
             
-print
+logger
+.
+info
 (
 "
 Using

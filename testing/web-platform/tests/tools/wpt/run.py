@@ -1591,7 +1591,9 @@ directly
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -1665,7 +1667,9 @@ if
 install
 :
                     
-print
+logger
+.
+info
 (
 "
 Downloading
@@ -1693,7 +1697,9 @@ bin_path
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -1722,7 +1728,9 @@ webdriver_binary
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Unable
@@ -1960,7 +1968,9 @@ if
 install
 :
                     
-print
+logger
+.
+info
 (
 "
 Downloading
@@ -1988,7 +1998,9 @@ bin_path
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -2240,7 +2252,9 @@ if
 install
 :
                     
-print
+logger
+.
+info
 (
 "
 Downloading
@@ -2268,7 +2282,9 @@ bin_path
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -2379,7 +2395,9 @@ if
 install
 :
                     
-print
+logger
+.
+info
 (
 "
 Downloading
@@ -2407,7 +2425,9 @@ bin_path
 else
 :
                 
-print
+logger
+.
+info
 (
 "
 Using
@@ -3230,6 +3250,70 @@ webkit
 WebKit
 }
 def
+setup_logging
+(
+kwargs
+)
+:
+    
+import
+mozlog
+    
+from
+wptrunner
+import
+wptrunner
+    
+global
+logger
+    
+if
+hasattr
+(
+mozlog
+.
+formatters
+"
+GroupingFormatter
+"
+)
+:
+        
+default_formatter
+=
+"
+grouped
+"
+    
+else
+:
+        
+default_formatter
+=
+"
+mach
+"
+    
+wptrunner
+.
+setup_logging
+(
+kwargs
+{
+default_formatter
+:
+sys
+.
+stdout
+}
+)
+    
+logger
+=
+wptrunner
+.
+logger
+def
 setup_wptrunner
 (
 venv
@@ -3248,14 +3332,7 @@ kwargs
 from
 wptrunner
 import
-wptrunner
 wptcommandline
-    
-import
-mozlog
-    
-global
-logger
     
 kwargs
 =
@@ -3305,53 +3382,6 @@ product_parts
 1
 :
 ]
-    
-if
-hasattr
-(
-mozlog
-.
-formatters
-"
-GroupingFormatter
-"
-)
-:
-        
-default_formatter
-=
-"
-grouped
-"
-    
-else
-:
-        
-default_formatter
-=
-"
-mach
-"
-    
-wptrunner
-.
-setup_logging
-(
-kwargs
-{
-default_formatter
-:
-sys
-.
-stdout
-}
-)
-    
-logger
-=
-wptrunner
-.
-logger
     
 check_environ
 (
@@ -3722,6 +3752,11 @@ venv
 kwargs
 )
 :
+    
+setup_logging
+(
+kwargs
+)
     
 prompt
 =
