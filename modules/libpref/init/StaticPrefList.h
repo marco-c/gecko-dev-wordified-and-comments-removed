@@ -452,7 +452,7 @@ timeout
 "
 dom_payments_response_timeout
 uint32_t
-20000
+5000
 )
 VARCACHE_PREF
 (

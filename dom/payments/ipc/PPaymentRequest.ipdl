@@ -319,8 +319,8 @@ IPCPaymentShowActionRequest
 nsString
 requestId
 ;
-nsString
-internalCompleteStatus
+bool
+isUpdating
 ;
 }
 ;
@@ -354,9 +354,6 @@ details
 ;
 nsString
 shippingOption
-;
-nsString
-internalCompleteStatus
 ;
 }
 ;

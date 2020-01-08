@@ -184,14 +184,6 @@ PaymentDetailsUpdate
 aDetails
 bool
 aRequestShipping
-bool
-aTimedout
-=
-false
-bool
-aNoHandler
-=
-false
 )
 ;
 nsresult
