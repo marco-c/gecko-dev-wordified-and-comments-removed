@@ -188,6 +188,15 @@ docShell
 .
 outerWindowID
 ;
+var
+browsingContextId
+=
+docShell
+.
+browsingContext
+.
+id
+;
 sendAsyncMessage
 (
 "
@@ -197,6 +206,7 @@ Init
 "
 {
 outerWindowID
+browsingContextId
 }
 )
 ;
