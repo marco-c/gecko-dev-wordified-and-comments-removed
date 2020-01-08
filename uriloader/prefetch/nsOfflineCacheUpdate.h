@@ -1243,9 +1243,6 @@ mDisabled
 bool
 mUpdateRunning
 ;
-bool
-mLowFreeSpace
-;
 }
 ;
 #

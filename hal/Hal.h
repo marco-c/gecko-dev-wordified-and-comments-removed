@@ -516,16 +516,6 @@ ProcessPriority
 aPriority
 )
 ;
-void
-StartDiskSpaceWatcher
-(
-)
-;
-void
-StopDiskSpaceWatcher
-(
-)
-;
 }
 }
 #
