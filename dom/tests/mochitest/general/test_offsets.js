@@ -1725,6 +1725,16 @@ propVal
 "
 auto
 "
+|
+|
+element
+.
+id
+=
+=
+"
+nonappended
+"
 )
 return
 0
