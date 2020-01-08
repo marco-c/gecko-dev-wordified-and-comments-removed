@@ -126,6 +126,11 @@ browsingContext
 ;
 readonly
 attribute
+boolean
+isCurrentGlobal
+;
+readonly
+attribute
 unsigned
 long
 long
@@ -219,6 +224,11 @@ readonly
 attribute
 BrowsingContext
 browsingContext
+;
+readonly
+attribute
+boolean
+isCurrentGlobal
 ;
 readonly
 attribute
