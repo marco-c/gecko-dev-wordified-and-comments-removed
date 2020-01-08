@@ -117,6 +117,13 @@ GetNode
 )
 const
 ;
+DOMRectReadOnly
+*
+FrameRect
+(
+)
+const
+;
 double
 MainBaseSize
 (
@@ -172,6 +179,12 @@ RefPtr
 nsINode
 >
 mNode
+;
+RefPtr
+<
+DOMRectReadOnly
+>
+mFrameRect
 ;
 double
 mMainBaseSize
