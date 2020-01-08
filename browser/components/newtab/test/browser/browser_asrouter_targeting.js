@@ -1013,7 +1013,7 @@ checkProfileAgeCreated
 let
 profileAccessor
 =
-new
+await
 ProfileAge
 (
 )
@@ -1106,7 +1106,7 @@ checkProfileAgeReset
 let
 profileAccessor
 =
-new
+await
 ProfileAge
 (
 )

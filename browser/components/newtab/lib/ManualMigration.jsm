@@ -249,7 +249,7 @@ isMigrationMessageExpired
 let
 profileAge
 =
-new
+await
 ProfileAge
 (
 )
