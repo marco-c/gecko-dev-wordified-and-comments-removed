@@ -867,7 +867,7 @@ const
 return
 mTracks
 .
-GetEnd
+GetEarliestTrackEnd
 (
 )
 ;

@@ -923,13 +923,13 @@ track
 ;
 }
 StreamTime
-GetEnd
+GetEarliestTrackEnd
 (
 )
 const
 ;
 StreamTime
-GetAllTracksEnd
+GetLatestTrackEnd
 (
 )
 const
