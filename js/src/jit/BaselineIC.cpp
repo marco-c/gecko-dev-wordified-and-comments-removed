@@ -26632,6 +26632,15 @@ JSOP_DIV
 case
 JSOP_MOD
 :
+case
+JSOP_URSH
+:
+case
+JSOP_RSH
+:
+case
+JSOP_LSH
+:
 break
 ;
 default
