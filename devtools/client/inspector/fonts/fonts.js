@@ -3322,6 +3322,9 @@ onFontPropertyUpdate
 (
 property
 value
++
+"
+"
 unit
 )
 ;
@@ -3334,6 +3337,9 @@ onAxisUpdate
 (
 property
 value
++
+"
+"
 )
 ;
 }
