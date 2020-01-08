@@ -20,6 +20,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 ;
 function

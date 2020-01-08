@@ -15,6 +15,7 @@ XPCOMUtils
 .
 jsm
 "
+this
 )
 ;
 ChromeUtils

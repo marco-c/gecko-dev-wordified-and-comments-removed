@@ -15,6 +15,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 ChromeUtils
@@ -34,6 +35,7 @@ NetUtil
 .
 jsm
 "
+this
 )
 ;
 function
