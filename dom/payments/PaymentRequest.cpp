@@ -236,6 +236,9 @@ JSObject
 aObj
 )
 {
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 !
@@ -256,6 +259,13 @@ dom_payments_request_enabled
 (
 )
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 nsresult
 PaymentRequest
