@@ -1687,6 +1687,17 @@ void
 aOrigFunc
 )
 {
+#
+if
+defined
+(
+_M_ARM64
+)
+return
+false
+;
+#
+endif
 if
 (
 !
