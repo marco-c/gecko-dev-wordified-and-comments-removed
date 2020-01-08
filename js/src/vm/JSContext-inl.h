@@ -1141,6 +1141,14 @@ JS
 :
 RuntimeHeapIsCollecting
 (
+runtime
+(
+)
+-
+>
+heapState
+(
+)
 )
 )
 return
