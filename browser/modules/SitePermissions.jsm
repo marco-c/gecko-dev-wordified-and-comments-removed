@@ -2435,7 +2435,16 @@ scope
 this
 .
 SCOPE_POLICY
+&
+&
+scope
+!
+=
+this
+.
+SCOPE_GLOBAL
 )
+{
 return
 gStringBundle
 .
@@ -2450,6 +2459,7 @@ blockedTemporarily
 "
 )
 ;
+}
 return
 gStringBundle
 .
