@@ -94,11 +94,6 @@ nsIParserUtils
 .
 idl
 '
-'
-nsIScriptableUnescapeHTML
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
