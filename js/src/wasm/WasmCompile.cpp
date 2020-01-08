@@ -529,7 +529,7 @@ getSharedMemoryAndAtomicsEnabled
 (
 )
 ;
-gcTypesConfigured
+gcTypesEnabled
 =
 gcEnabled
 ?
@@ -2052,7 +2052,7 @@ tier
 debug
 args
 .
-gcTypesConfigured
+gcTypesEnabled
 args
 .
 sharedMemoryEnabled
@@ -2191,7 +2191,7 @@ MOZ_ASSERT
 (
 args
 .
-gcTypesConfigured
+gcTypesEnabled
 =
 =
 HasGcTypes
@@ -2871,7 +2871,7 @@ tier
 debug
 args
 .
-gcTypesConfigured
+gcTypesEnabled
 args
 .
 sharedMemoryEnabled

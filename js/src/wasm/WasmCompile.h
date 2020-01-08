@@ -79,7 +79,7 @@ bool
 sharedMemoryEnabled
 ;
 HasGcTypes
-gcTypesConfigured
+gcTypesEnabled
 ;
 bool
 testTiering
@@ -119,7 +119,7 @@ sharedMemoryEnabled
 (
 false
 )
-gcTypesConfigured
+gcTypesEnabled
 (
 HasGcTypes
 :
