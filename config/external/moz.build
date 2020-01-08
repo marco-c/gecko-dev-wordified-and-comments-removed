@@ -278,6 +278,16 @@ media
 libaom
 '
 ]
+external_dirs
++
+=
+[
+'
+media
+/
+libdav1d
+'
+]
 if
 not
 CONFIG
