@@ -1395,7 +1395,7 @@ SystemPrincipal
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_INHERIT_PRINCIPAL
@@ -1410,7 +1410,7 @@ mSendReferrer
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_DONT_SEND_REFERRER
@@ -1429,7 +1429,7 @@ LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
@@ -1448,7 +1448,7 @@ LOAD_FLAGS_FIRST_LOAD
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_FIRST_LOAD
@@ -1467,7 +1467,7 @@ LOAD_FLAGS_BYPASS_CLASSIFIER
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_BYPASS_CLASSIFIER
@@ -1486,7 +1486,7 @@ LOAD_FLAGS_FORCE_ALLOW_COOKIES
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_FORCE_ALLOW_COOKIES
@@ -1500,7 +1500,7 @@ mIsSrcdocLoad
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_IS_SRCDOC
@@ -1514,7 +1514,7 @@ mForceAllowDataURI
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_FORCE_ALLOW_DATA_URI
@@ -1528,7 +1528,7 @@ mOriginalFrameSrc
 mDocShellInternalLoadFlags
 |
 =
-nsIDocShell
+nsDocShell
 :
 :
 INTERNAL_LOAD_FLAGS_ORIGINAL_FRAME_SRC
