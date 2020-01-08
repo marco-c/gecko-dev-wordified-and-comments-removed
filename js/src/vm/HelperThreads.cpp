@@ -332,6 +332,7 @@ PROFILER_RAII
 (
 this
 label
+__LINE__
 \
 js
 :
@@ -11812,6 +11813,8 @@ const
 char
 *
 label
+uint32_t
+line
 ProfilingStackFrame
 :
 :
@@ -11840,6 +11843,7 @@ pushLabelFrame
 label
 nullptr
 this
+line
 category
 )
 ;

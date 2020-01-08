@@ -4671,7 +4671,7 @@ zone_
 inline
 ProfilingStack
 *
-GetContextProfilingStackIfEnabled
+GetContextProfilingStack
 (
 JSContext
 *
@@ -4695,7 +4695,7 @@ geckoProfiler
 (
 )
 .
-getProfilingStackIfEnabled
+getProfilingStack
 (
 )
 ;

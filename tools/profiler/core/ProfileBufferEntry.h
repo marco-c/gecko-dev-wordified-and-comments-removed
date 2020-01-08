@@ -194,12 +194,6 @@ char
 \
 macro
 (
-FrameFlags
-uint64_t
-)
-\
-macro
-(
 DynamicStringFragment
 char
 *
@@ -1008,9 +1002,9 @@ Nothing
 }
 FrameKey
 (
-nsCString
-&
-&
+const
+char
+*
 aLocation
 const
 mozilla
@@ -1048,7 +1042,10 @@ mData
 (
 NormalFrameData
 {
+nsCString
+(
 aLocation
+)
 aLine
 aColumn
 aCategory

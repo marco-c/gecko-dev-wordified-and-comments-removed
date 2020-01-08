@@ -53,6 +53,8 @@ const
 char
 *
 aDynamicString
+uint32_t
+aLine
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 {
@@ -67,6 +69,7 @@ sEnter
 aLabel
 aDynamicString
 this
+aLine
 )
 :
 nullptr
