@@ -3598,12 +3598,11 @@ NS_ERROR_OUT_OF_MEMORY
 char
 *
 buf
-;
+=
 mSpec
 .
 BeginWriting
 (
-buf
 )
 ;
 uint32_t
