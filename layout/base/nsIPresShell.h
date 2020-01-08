@@ -2070,7 +2070,7 @@ const
 virtual
 nsIFrame
 *
-GetEventTargetFrame
+GetCurrentEventFrame
 (
 )
 =

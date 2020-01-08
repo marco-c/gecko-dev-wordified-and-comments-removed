@@ -732,13 +732,6 @@ nullptr
 )
 override
 ;
-nsIFrame
-*
-GetEventTargetFrame
-(
-)
-override
-;
 already_AddRefed
 <
 nsIContent
@@ -2551,6 +2544,7 @@ nsIFrame
 GetCurrentEventFrame
 (
 )
+override
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult

@@ -20960,7 +20960,7 @@ frame
 shell
 -
 >
-GetEventTargetFrame
+GetCurrentEventFrame
 (
 )
 ;
