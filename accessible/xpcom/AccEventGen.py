@@ -1918,9 +1918,14 @@ idl
 .
 getName
 (
+xpidl
+.
+TypeId
+(
 iface
 .
 base
+)
 iface
 .
 location
