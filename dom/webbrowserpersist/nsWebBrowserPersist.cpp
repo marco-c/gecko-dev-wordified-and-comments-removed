@@ -6042,7 +6042,10 @@ contentType
 ;
 LossyCopyUTF16toASCII
 (
+MakeStringSpan
+(
 aContentType
+)
 contentType
 )
 ;

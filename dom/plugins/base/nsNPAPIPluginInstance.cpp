@@ -3906,7 +3906,10 @@ NS_ERROR_FAILURE
 ;
 CopyUTF8toUTF16
 (
+MakeStringSpan
+(
 value
+)
 aValue
 )
 ;

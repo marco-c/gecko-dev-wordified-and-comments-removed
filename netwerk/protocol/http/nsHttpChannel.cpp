@@ -27864,10 +27864,6 @@ found
 AppendASCIItoUTF16
 (
 scheme
-.
-get
-(
-)
 message
 )
 ;
@@ -27886,10 +27882,6 @@ u
 AppendASCIItoUTF16
 (
 host
-.
-get
-(
-)
 message
 )
 ;
@@ -27923,10 +27915,6 @@ to
 AppendASCIItoUTF16
 (
 scheme
-.
-get
-(
-)
 message
 )
 ;
@@ -27948,10 +27936,6 @@ mapping
 -
 >
 AlternateHost
-(
-)
-.
-get
 (
 )
 message

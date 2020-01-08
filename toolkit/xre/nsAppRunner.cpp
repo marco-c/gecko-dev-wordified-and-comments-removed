@@ -9379,7 +9379,10 @@ rv
 ;
 CopyUTF16toUTF8
 (
+MakeStringSpan
+(
 profileNamePtr
+)
 profileName
 )
 ;

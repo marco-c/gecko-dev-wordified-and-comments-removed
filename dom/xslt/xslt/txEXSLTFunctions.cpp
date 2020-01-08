@@ -1265,6 +1265,8 @@ rv
 ;
 AppendASCIItoUTF16
 (
+MakeStringSpan
+(
 sTypes
 [
 exprResult
@@ -1274,6 +1276,7 @@ getResultType
 (
 )
 ]
+)
 strRes
 -
 >

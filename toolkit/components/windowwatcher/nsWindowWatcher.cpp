@@ -2520,7 +2520,10 @@ aName
 {
 CopyUTF8toUTF16
 (
+MakeStringSpan
+(
 aName
+)
 name
 )
 ;

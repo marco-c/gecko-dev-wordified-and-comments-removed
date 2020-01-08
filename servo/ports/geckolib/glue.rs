@@ -20867,7 +20867,7 @@ unwrap
 ;
 result
 .
-assign_utf8
+assign_str
 (
 &
 decl

@@ -19821,7 +19821,10 @@ aURL
 {
 CopyUTF16toUTF8
 (
+MakeStringSpan
+(
 aURL
+)
 url
 )
 ;

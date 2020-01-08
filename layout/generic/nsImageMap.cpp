@@ -498,7 +498,7 @@ char
 *
 cp
 =
-ToNewCString
+ToNewUTF8String
 (
 aSpec
 )

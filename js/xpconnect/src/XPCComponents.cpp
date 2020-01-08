@@ -8460,10 +8460,16 @@ fileUni
 ;
 CopyUTF8toUTF16
 (
+mozilla
+:
+:
+MakeStringSpan
+(
 err
 -
 >
 filename
+)
 fileUni
 )
 ;

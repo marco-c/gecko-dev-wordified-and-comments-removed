@@ -219,9 +219,6 @@ false
 +
 u16Offset
 ;
-bool
-err
-;
 uint32_t
 ch
 =
@@ -233,8 +230,6 @@ NextChar
 &
 p
 end
-&
-err
 )
 ;
 +
@@ -243,13 +238,8 @@ attr
 ;
 if
 (
+!
 ch
-=
-=
-0
-|
-|
-err
 )
 {
 break
