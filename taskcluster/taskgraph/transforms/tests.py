@@ -7463,6 +7463,12 @@ mochitest
 '
 reftest
 '
+'
+talos
+'
+'
+raptor
+'
 ]
 :
             
