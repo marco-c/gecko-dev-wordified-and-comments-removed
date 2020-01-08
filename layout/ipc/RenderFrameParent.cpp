@@ -262,9 +262,6 @@ RenderFrameParent
 :
 RenderFrameParent
 (
-nsFrameLoader
-*
-aFrameLoader
 )
 :
 mLayersId
@@ -273,7 +270,7 @@ mLayersId
 }
 mFrameLoader
 (
-aFrameLoader
+nullptr
 )
 mLayerManager
 (
@@ -288,13 +285,6 @@ mLayersConnected
 false
 )
 {
-mInitialized
-=
-Initialize
-(
-mFrameLoader
-)
-;
 }
 RenderFrameParent
 :
