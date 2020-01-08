@@ -360,6 +360,11 @@ TestThreadUtils
 cpp
 '
 '
+TestThrottledEventQueue
+.
+cpp
+'
+'
 TestTimers
 .
 cpp
