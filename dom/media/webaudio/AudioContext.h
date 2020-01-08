@@ -1218,6 +1218,11 @@ void
 aPromise
 )
 ;
+void
+DispatchBlockedEvent
+(
+)
+;
 private
 :
 const
