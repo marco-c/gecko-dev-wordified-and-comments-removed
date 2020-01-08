@@ -108,6 +108,8 @@ FileChannelParent
 :
 NotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 {
 return

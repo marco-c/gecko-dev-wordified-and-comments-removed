@@ -1484,6 +1484,10 @@ HttpBackgroundChannelChild
 :
 RecvNotifyTrackingResource
 (
+const
+bool
+&
+aIsThirdParty
 )
 {
 LOG
@@ -1494,6 +1498,12 @@ HttpBackgroundChannelChild
 :
 :
 RecvNotifyTrackingResource
+thirdparty
+=
+%
+d
+"
+"
 [
 this
 =
@@ -1503,6 +1513,13 @@ p
 \
 n
 "
+static_cast
+<
+int
+>
+(
+aIsThirdParty
+)
 this
 )
 )
@@ -1534,6 +1551,7 @@ mChannelChild
 >
 ProcessNotifyTrackingResource
 (
+aIsThirdParty
 )
 ;
 return

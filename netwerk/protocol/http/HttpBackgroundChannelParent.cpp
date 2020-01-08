@@ -1595,6 +1595,8 @@ HttpBackgroundChannelParent
 :
 OnNotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 {
 LOG
@@ -1605,6 +1607,12 @@ HttpBackgroundChannelParent
 :
 :
 OnNotifyTrackingResource
+thirdparty
+=
+%
+d
+"
+"
 [
 this
 =
@@ -1614,6 +1622,13 @@ p
 \
 n
 "
+static_cast
+<
+int
+>
+(
+aIsThirdParty
+)
 this
 )
 )
@@ -1658,6 +1673,9 @@ mBackgroundThread
 Dispatch
 (
 NewRunnableMethod
+<
+bool
+>
 (
 "
 net
@@ -1674,6 +1692,7 @@ HttpBackgroundChannelParent
 :
 :
 OnNotifyTrackingResource
+aIsThirdParty
 )
 NS_DISPATCH_NORMAL
 )
@@ -1696,6 +1715,7 @@ rv
 return
 SendNotifyTrackingResource
 (
+aIsThirdParty
 )
 ;
 }

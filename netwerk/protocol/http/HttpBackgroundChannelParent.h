@@ -181,6 +181,8 @@ OnNotifyTrackingProtectionDisabled
 bool
 OnNotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 ;
 bool

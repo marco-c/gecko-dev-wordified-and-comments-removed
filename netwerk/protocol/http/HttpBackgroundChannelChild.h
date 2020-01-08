@@ -197,6 +197,10 @@ override
 IPCResult
 RecvNotifyTrackingResource
 (
+const
+bool
+&
+aIsThirdParty
 )
 override
 ;

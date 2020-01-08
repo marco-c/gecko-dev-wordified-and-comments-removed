@@ -108,6 +108,8 @@ SimpleChannelParent
 :
 NotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 {
 return

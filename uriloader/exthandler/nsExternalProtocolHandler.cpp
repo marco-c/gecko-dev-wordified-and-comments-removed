@@ -1544,6 +1544,8 @@ nsExtProtocolChannel
 :
 NotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 {
 return

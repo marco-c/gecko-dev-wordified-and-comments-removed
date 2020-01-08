@@ -16289,7 +16289,7 @@ if
 httpChannel
 -
 >
-GetIsTrackingResource
+GetIsThirdPartyTrackingResource
 (
 )
 )

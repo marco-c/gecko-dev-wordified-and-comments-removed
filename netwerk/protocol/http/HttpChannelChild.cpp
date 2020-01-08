@@ -8452,6 +8452,8 @@ HttpChannelChild
 :
 ProcessNotifyTrackingResource
 (
+bool
+aIsThirdParty
 )
 {
 LOG
@@ -8462,6 +8464,12 @@ HttpChannelChild
 :
 :
 ProcessNotifyTrackingResource
+thirdparty
+=
+%
+d
+"
+"
 [
 this
 =
@@ -8471,6 +8479,13 @@ p
 \
 n
 "
+static_cast
+<
+int
+>
+(
+aIsThirdParty
+)
 this
 )
 )
@@ -8484,6 +8499,7 @@ OnSocketThread
 ;
 SetIsTrackingResource
 (
+aIsThirdParty
 )
 ;
 }
