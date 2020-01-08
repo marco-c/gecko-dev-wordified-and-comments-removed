@@ -9189,6 +9189,9 @@ aContent
 ;
 while
 (
+current
+&
+&
 !
 current
 -
@@ -9205,6 +9208,15 @@ current
 >
 GetFlattenedTreeParent
 (
+)
+;
+MOZ_DIAGNOSTIC_ASSERT
+(
+current
+"
+How
+?
+"
 )
 ;
 }
