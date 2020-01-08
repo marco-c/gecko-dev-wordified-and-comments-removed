@@ -60,11 +60,6 @@ noteIndex_
 =
 0
 ;
-unsigned
-noteIndex2_
-=
-0
-;
 mozilla
 :
 :
