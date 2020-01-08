@@ -550,11 +550,6 @@ nsISecurityEventSink
 idl
 '
 '
-nsISecurityInfoProvider
-.
-idl
-'
-'
 nsISensitiveInfoHiddenURI
 .
 idl

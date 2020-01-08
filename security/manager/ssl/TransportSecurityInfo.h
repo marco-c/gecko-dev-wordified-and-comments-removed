@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIAssociatedContentSecurity
-.
-h
-"
-#
-include
-"
 nsIClassInfo
 .
 h
@@ -145,8 +138,6 @@ nsITransportSecurityInfo
 public
 nsIInterfaceRequestor
 public
-nsIAssociatedContentSecurity
-public
 nsISerializable
 public
 nsIClassInfo
@@ -169,7 +160,6 @@ TransportSecurityInfo
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITRANSPORTSECURITYINFO
 NS_DECL_NSIINTERFACEREQUESTOR
-NS_DECL_NSIASSOCIATEDCONTENTSECURITY
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
 void
@@ -404,12 +394,6 @@ private
 :
 uint32_t
 mSecurityState
-;
-int32_t
-mSubRequestsBrokenSecurity
-;
-int32_t
-mSubRequestsNoSecurity
 ;
 PRErrorCode
 mErrorCode

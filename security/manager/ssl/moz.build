@@ -113,11 +113,6 @@ nsIASN1Sequence
 idl
 '
 '
-nsIAssociatedContentSecurity
-.
-idl
-'
-'
 nsIBadCertListener2
 .
 idl

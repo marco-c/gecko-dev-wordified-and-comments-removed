@@ -316,15 +316,6 @@ charset
 )
 ;
 async
-UpdateAssociatedContentSecurity
-(
-int32_t
-broken
-int32_t
-no
-)
-;
-async
 Suspend
 (
 )
