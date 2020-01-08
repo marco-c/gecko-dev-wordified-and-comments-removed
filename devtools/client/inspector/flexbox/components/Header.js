@@ -299,15 +299,6 @@ dom
 input
 (
 {
-id
-:
-"
-flexbox
--
-checkbox
--
-toggle
-"
 className
 :
 "

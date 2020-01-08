@@ -1349,8 +1349,6 @@ showFlexboxHighlighter
 (
 flexbox
 .
-flexContainer
-.
 nodeFront
 )
 ;
