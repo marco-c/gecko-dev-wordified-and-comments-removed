@@ -132,6 +132,10 @@ mDocShellInternalLoadFlags
 (
 0
 )
+mIsFromProcessingFrameAttributes
+(
+false
+)
 {
 }
 nsDocShellLoadState
