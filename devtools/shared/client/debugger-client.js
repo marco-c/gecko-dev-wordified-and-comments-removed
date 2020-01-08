@@ -245,7 +245,7 @@ lazyRequireGetter
 (
 this
 "
-BrowsingContextFront
+BrowsingContextTargetFront
 "
 "
 devtools
@@ -1572,7 +1572,7 @@ front
 front
 =
 new
-BrowsingContextFront
+BrowsingContextTargetFront
 (
 this
 {

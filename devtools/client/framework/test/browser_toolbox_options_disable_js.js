@@ -420,7 +420,7 @@ cbx
 .
 checked
 "
-BrowsingContextFront
+BrowsingContextTargetFront
 '
 s
 configureOptions
@@ -475,7 +475,7 @@ cbx
 .
 checked
 "
-BrowsingContextFront
+BrowsingContextTargetFront
 '
 s
 configureOptions
