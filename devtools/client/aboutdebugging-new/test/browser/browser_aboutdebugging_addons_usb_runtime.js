@@ -125,6 +125,13 @@ await
 connectToRuntime
 (
 RUNTIME_DEVICE_NAME
+document
+)
+;
+await
+selectRuntime
+(
+RUNTIME_DEVICE_NAME
 RUNTIME_APP_NAME
 document
 )
