@@ -97,6 +97,13 @@ utils
 js
 '
 '
+actor
+-
+registry
+.
+js
+'
+'
 audionodes
 .
 json
