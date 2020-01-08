@@ -1423,3 +1423,17 @@ display
 none
 ;
 }
+#
+pluginFlashBlockingCheckbox
+.
+checkbox
+-
+label
+-
+box
+{
+display
+:
+none
+;
+}
