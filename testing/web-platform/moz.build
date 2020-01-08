@@ -3791,6 +3791,9 @@ Core
 "
 "
 DOM
+:
+Web
+Payments
 "
 )
 with
