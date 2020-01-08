@@ -12971,7 +12971,8 @@ if
 found
 )
 {
-break
+return
+nullptr
 ;
 }
 }
