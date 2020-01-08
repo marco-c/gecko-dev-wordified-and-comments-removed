@@ -759,7 +759,13 @@ pc
 GetSrcNoteOffset
 (
 sn
-0
+SrcNote
+:
+:
+Try
+:
+:
+EndOfTryJumpOffset
 )
 ;
 MOZ_ASSERT
