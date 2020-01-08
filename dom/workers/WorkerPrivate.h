@@ -3744,6 +3744,7 @@ mIsChromeWorker
 bool
 mParentFrozen
 ;
+const
 bool
 mIsSecureContext
 ;
