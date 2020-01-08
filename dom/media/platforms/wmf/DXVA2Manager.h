@@ -155,10 +155,6 @@ CopyToBGRATexture
 ID3D11Texture2D
 *
 aInTexture
-const
-GUID
-&
-aSubType
 ID3D11Texture2D
 *
 *
@@ -186,9 +182,10 @@ virtual
 HRESULT
 ConfigureForSize
 (
-IMFMediaType
-*
-aInputType
+uint32_t
+aWidth
+uint32_t
+aHeight
 )
 {
 return
