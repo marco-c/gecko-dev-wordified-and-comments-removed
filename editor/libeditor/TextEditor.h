@@ -611,6 +611,16 @@ TextEditor
 (
 )
 ;
+int32_t
+WrapWidth
+(
+)
+const
+{
+return
+mWrapColumn
+;
+}
 virtual
 nsresult
 SelectEntireDocument
