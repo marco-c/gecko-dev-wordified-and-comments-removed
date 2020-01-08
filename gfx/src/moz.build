@@ -94,11 +94,6 @@ nsIFontEnumerator
 .
 idl
 '
-'
-nsIScriptableRegion
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
@@ -372,11 +367,6 @@ cpp
 '
 '
 nsRegion
-.
-cpp
-'
-'
-nsScriptableRegion
 .
 cpp
 '
