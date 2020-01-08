@@ -7271,6 +7271,8 @@ exe
 \
 "
 /
+LaunchedFromStub
+/
 INI
 =
 PLUGINSDIR
