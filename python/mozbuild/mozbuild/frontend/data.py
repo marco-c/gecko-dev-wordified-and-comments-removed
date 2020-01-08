@@ -4020,10 +4020,6 @@ features
 '
 target_dir
 '
-        
-'
-output_category
-'
     
 )
     
@@ -4154,19 +4150,6 @@ target_dir
 =
 target_dir
         
-self
-.
-output_category
-=
-context
-.
-get
-(
-'
-RUST_LIBRARY_OUTPUT_CATEGORY
-'
-)
-        
 if
 not
 context
@@ -4265,10 +4248,6 @@ variant
         
 '
 symbols_file
-'
-        
-'
-output_category
 '
     
 )
@@ -4373,19 +4352,6 @@ lib_name
 real_name
 or
 basename
-        
-self
-.
-output_category
-=
-context
-.
-get
-(
-'
-SHARED_LIBRARY_OUTPUT_CATEGORY
-'
-)
         
 assert
 self

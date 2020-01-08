@@ -129,9 +129,6 @@ def
 Libxul
 (
 name
-output_category
-=
-None
 )
 :
 if
@@ -177,9 +174,6 @@ dylib
 GeckoFramework
 (
 name
-output_category
-=
-output_category
 linkage
 =
 None
@@ -194,9 +188,6 @@ else
 GeckoSharedLibrary
 (
 name
-output_category
-=
-output_category
 linkage
 =
 None

@@ -696,9 +696,6 @@ def
 GeckoSharedLibrary
 (
 name
-output_category
-=
-None
 *
 *
 kwargs
@@ -738,7 +735,6 @@ arguments
 SharedLibrary
 (
 name
-output_category
 )
 kwargs
 .
@@ -762,9 +758,6 @@ def
 GeckoFramework
 (
 name
-output_category
-=
-None
 *
 *
 kwargs
@@ -804,7 +797,6 @@ arguments
 Framework
 (
 name
-output_category
 )
 kwargs
 .
