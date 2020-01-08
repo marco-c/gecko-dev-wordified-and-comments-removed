@@ -5720,6 +5720,13 @@ getMessage
 )
 )
 ;
+setRequestedOrientationForCurrentActivity
+(
+ActivityInfo
+.
+SCREEN_ORIENTATION_FULL_SENSOR
+)
+;
 }
 }
 Override
