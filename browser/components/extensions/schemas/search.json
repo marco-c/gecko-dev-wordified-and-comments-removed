@@ -132,7 +132,7 @@ string
 "
 }
 "
-is_default
+isDefault
 "
 :
 {
@@ -163,7 +163,7 @@ optional
 true
 }
 "
-favicon_url
+favIconUrl
 "
 :
 {
@@ -265,6 +265,11 @@ a
 search
 .
 "
+"
+async
+"
+:
+true
 "
 parameters
 "
