@@ -643,7 +643,7 @@ cwd
 stdout
 =
 f
-                                
+                                  
 stderr
 =
 subprocess
@@ -699,7 +699,7 @@ f
 .
 name
 )
-            
+              
 file
 =
 sys
@@ -1186,6 +1186,7 @@ objdir
 )
     
 except
+Exception
 :
         
 print
