@@ -4272,12 +4272,6 @@ HasTransformAnimation
 )
 const
 ;
-bool
-HasOpacityAnimation
-(
-)
-const
-;
 RawServoAnimationValue
 *
 GetBaseAnimationStyle
