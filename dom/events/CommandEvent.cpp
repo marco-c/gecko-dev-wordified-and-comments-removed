@@ -58,10 +58,6 @@ aEvent
 new
 WidgetCommandEvent
 (
-false
-nullptr
-nullptr
-nullptr
 )
 )
 {

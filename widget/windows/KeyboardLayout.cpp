@@ -10215,13 +10215,9 @@ false
 ;
 }
 WidgetCommandEvent
-commandEvent
+appCommandEvent
 (
 true
-nsGkAtoms
-:
-:
-onAppCommand
 command
 mWidget
 )
@@ -10231,7 +10227,7 @@ mWidget
 >
 InitEvent
 (
-commandEvent
+appCommandEvent
 )
 ;
 MOZ_LOG
@@ -10252,8 +10248,11 @@ DispatchCommandEvent
 (
 )
 dispatching
+"
+"
 %
 s
+app
 command
 event
 .
@@ -10281,7 +10280,7 @@ mWidget
 DispatchWindowEvent
 (
 &
-commandEvent
+appCommandEvent
 )
 |
 |
@@ -10310,6 +10309,7 @@ DispatchCommandEvent
 (
 )
 dispatched
+app
 command
 event
 "

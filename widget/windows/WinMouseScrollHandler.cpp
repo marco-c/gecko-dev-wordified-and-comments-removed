@@ -6722,13 +6722,9 @@ Back
 )
 ;
 WidgetCommandEvent
-commandEvent
+appCommandEvent
 (
 true
-nsGkAtoms
-:
-:
-onAppCommand
 (
 aWParam
 =
@@ -6751,7 +6747,7 @@ aWidget
 InitEvent
 (
 aWidget
-commandEvent
+appCommandEvent
 )
 ;
 aWidget
@@ -6760,7 +6756,7 @@ aWidget
 DispatchWindowEvent
 (
 &
-commandEvent
+appCommandEvent
 )
 ;
 }
