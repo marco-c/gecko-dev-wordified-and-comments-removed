@@ -12587,15 +12587,6 @@ curFrameId
 {
 this
 .
-sendAsync
-(
-"
-newSession
-"
-)
-;
-this
-.
 curBrowser
 .
 flushPendingCommands
