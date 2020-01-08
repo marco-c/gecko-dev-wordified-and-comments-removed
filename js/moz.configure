@@ -3471,6 +3471,7 @@ depends
 enable_fuzzing
 enable_aflfuzzer
 c_compiler
+target
 )
 def
 enable_libfuzzer
@@ -3478,6 +3479,7 @@ enable_libfuzzer
 fuzzing
 afl
 c_compiler
+target
 )
 :
 if
@@ -3493,6 +3495,15 @@ type
 =
 '
 clang
+'
+and
+target
+.
+os
+!
+=
+'
+Android
 '
 :
 return
