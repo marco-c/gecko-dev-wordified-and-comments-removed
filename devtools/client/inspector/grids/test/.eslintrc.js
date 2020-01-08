@@ -32,5 +32,16 @@ mochitests
 .
 js
 "
+"
+globals
+"
+:
+{
+"
+waitUntilState
+"
+:
+true
+}
 }
 ;
