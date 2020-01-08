@@ -468,11 +468,17 @@ label_count
 uint32_t
 key_count
 ;
+uint32_t
+store_count
+;
 uint16_t
 label_index
 ;
 uint16_t
 key_index
+;
+uint16_t
+store_index
 ;
 bool
 keyed
