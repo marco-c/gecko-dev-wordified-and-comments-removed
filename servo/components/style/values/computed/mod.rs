@@ -420,8 +420,8 @@ box_
 :
 {
 Display
-TransitionProperty
 Overflow
+TransitionProperty
 }
 ;
 pub
