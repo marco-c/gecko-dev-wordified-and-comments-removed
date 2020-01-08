@@ -1243,6 +1243,9 @@ mNextsLimit
 bool
 mHaveRemoved
 ;
+uint8_t
+mEntrySize
+;
 bool
 IsOnNonLiveEntry
 (
