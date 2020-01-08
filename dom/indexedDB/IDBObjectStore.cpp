@@ -8330,7 +8330,6 @@ indexes
 (
 )
 ;
-const
 uint32_t
 idxCount
 =
@@ -8343,8 +8342,10 @@ Length
 if
 (
 idxCount
-&
-&
+)
+{
+if
+(
 !
 aValueWrapper
 .
@@ -8356,6 +8357,15 @@ aCx
 {
 return
 NS_ERROR_DOM_DATA_CLONE_ERR
+;
+}
+idxCount
+=
+indexes
+.
+Length
+(
+)
 ;
 }
 aUpdateInfoArray
