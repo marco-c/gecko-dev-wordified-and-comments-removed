@@ -53,6 +53,14 @@ servo
 /
 webrender
 "
+description
+=
+"
+Public
+API
+for
+WebRender
+"
 [
 features
 ]

@@ -2053,6 +2053,10 @@ pub
 alpha_type
 :
 AlphaType
+pub
+color
+:
+ColorF
 }
 #
 [

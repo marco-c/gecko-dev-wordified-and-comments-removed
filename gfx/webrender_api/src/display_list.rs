@@ -5746,6 +5746,9 @@ AlphaType
 key
 :
 ImageKey
+color
+:
+ColorF
 )
 {
 let
@@ -5765,6 +5768,7 @@ stretch_size
 tile_spacing
 image_rendering
 alpha_type
+color
 }
 )
 ;

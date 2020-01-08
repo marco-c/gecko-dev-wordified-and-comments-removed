@@ -1466,6 +1466,9 @@ Bitmap
 ColorBitmap
 =
 8
+Image
+=
+9
 }
 impl
 From
