@@ -3702,7 +3702,7 @@ Rooted
 JSObject
 *
 >
-nonCCWObject
+objectGlobal
 (
 rcx
 )
@@ -3734,7 +3734,7 @@ CallbackOrNull
 (
 )
 ;
-nonCCWObject
+objectGlobal
 =
 webIDLListener
 -
@@ -3775,9 +3775,14 @@ GetJSObject
 (
 )
 ;
-nonCCWObject
+objectGlobal
 =
-object
+wrappedJS
+-
+>
+GetJSObjectGlobal
+(
+)
 ;
 }
 if
@@ -3820,7 +3825,7 @@ JSAutoRealm
 ar
 (
 cx
-nonCCWObject
+objectGlobal
 )
 ;
 RootedDictionary
