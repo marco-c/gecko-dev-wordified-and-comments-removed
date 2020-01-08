@@ -545,6 +545,7 @@ fetchMissedRemoteCommands
 )
 ;
 }
+async
 fetchMissedRemoteCommands
 (
 )
@@ -585,7 +586,7 @@ commands
 .
 )
 ;
-return
+await
 this
 .
 _fxAccounts
@@ -751,6 +752,9 @@ missedMessages
 }
 }
 )
+;
+return
+true
 ;
 }
 async
