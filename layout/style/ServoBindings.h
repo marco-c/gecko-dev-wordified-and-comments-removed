@@ -3014,6 +3014,13 @@ url
 )
 ;
 bool
+Servo_CssUrlData_IsLocalRef
+(
+RawServoCssUrlDataBorrowed
+url
+)
+;
+bool
 Servo_IsValidCSSColor
 (
 const
