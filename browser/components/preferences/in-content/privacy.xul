@@ -3462,6 +3462,10 @@ blocking
 -
 fastblock
 -
+slow
+-
+loading
+-
 label
 "
 class
@@ -3732,6 +3736,8 @@ blocking
 tracking
 -
 protection
+-
+all
 -
 label
 "
