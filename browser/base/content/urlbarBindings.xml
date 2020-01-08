@@ -6514,6 +6514,8 @@ isScrolling
 {
 URLBarSetURI
 (
+null
+true
 )
 ;
 /
@@ -9824,6 +9826,8 @@ null
 ;
 URLBarSetURI
 (
+null
+true
 )
 ;
 }
