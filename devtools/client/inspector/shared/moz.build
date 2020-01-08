@@ -127,17 +127,6 @@ menu
 js
 '
 '
-three
--
-pane
--
-onboarding
--
-tooltip
-.
-js
-'
-'
 tooltips
 -
 overlay
