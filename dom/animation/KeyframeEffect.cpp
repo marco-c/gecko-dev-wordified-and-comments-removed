@@ -4715,15 +4715,9 @@ keyframeDict
 .
 mComposite
 =
-KeyframeUtils
-:
-:
-ToCompositeOperationOrAuto
-(
 keyframe
 .
 mComposite
-)
 ;
 JS
 :

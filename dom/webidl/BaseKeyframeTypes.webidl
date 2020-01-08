@@ -285,9 +285,11 @@ the
 conversion
 /
 /
-routines
 in
 KeyframeUtils
+:
+:
+GetAnimationPropertiesFromKeyframes
 .
 enum
 CompositeOperationOrAuto
