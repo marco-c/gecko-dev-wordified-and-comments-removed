@@ -23,6 +23,9 @@ false
 btoa
 :
 false
+chromeOuterWindowID
+:
+false
 content
 :
 false
