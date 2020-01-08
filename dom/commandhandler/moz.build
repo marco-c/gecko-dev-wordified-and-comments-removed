@@ -111,6 +111,11 @@ EXPORTS
 =
 [
 '
+nsBaseCommandController
+.
+h
+'
+'
 nsCommandManager
 .
 h
