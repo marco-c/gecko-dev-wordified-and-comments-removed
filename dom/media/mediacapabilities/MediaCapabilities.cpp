@@ -2107,7 +2107,7 @@ true
 uint32_t
 fps
 =
-VP9Benchmark
+StaticPrefs
 :
 :
 MediaBenchmarkVp9Fps
