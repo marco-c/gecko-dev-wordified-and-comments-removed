@@ -2443,7 +2443,8 @@ mControllers
 {
 mControllers
 =
-NS_NewXULControllers
+new
+nsXULControllers
 (
 )
 ;

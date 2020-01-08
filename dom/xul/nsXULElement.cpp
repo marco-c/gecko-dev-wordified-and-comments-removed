@@ -5517,7 +5517,8 @@ slots
 >
 mControllers
 =
-NS_NewXULControllers
+new
+nsXULControllers
 (
 )
 ;
@@ -9006,13 +9007,6 @@ URLExtraData
 aDocumentURI
 aDocumentURI
 principal
-mozilla
-:
-:
-net
-:
-:
-RP_Unset
 )
 ;
 RefPtr
