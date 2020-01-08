@@ -1917,7 +1917,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseFormalParameters
@@ -3726,7 +3726,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseInterfaceFormalParameters
@@ -5020,7 +5020,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseListOfDirective
@@ -5104,7 +5104,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseListOfObjectProperty
@@ -5128,7 +5128,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseListOfOptionalSpreadElementOrExpression
@@ -5140,7 +5140,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseListOfParameter
@@ -5152,7 +5152,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseListOfStatement
@@ -5164,7 +5164,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseListOfSwitchCase
@@ -5176,7 +5176,7 @@ JS
 :
 Result
 <
-ParseNode
+ListNode
 *
 >
 parseListOfVariableDeclarator

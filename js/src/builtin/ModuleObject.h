@@ -105,6 +105,9 @@ namespace
 frontend
 {
 class
+ListNode
+;
+class
 ParseNode
 ;
 class
@@ -1755,9 +1758,9 @@ processExportArrayBinding
 frontend
 :
 :
-ParseNode
+ListNode
 *
-pn
+array
 )
 ;
 bool
@@ -1766,9 +1769,9 @@ processExportObjectBinding
 frontend
 :
 :
-ParseNode
+ListNode
 *
-pn
+obj
 )
 ;
 bool
