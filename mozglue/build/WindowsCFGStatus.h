@@ -23,6 +23,12 @@ defined
 (
 _M_X64
 )
+|
+|
+defined
+(
+_M_ARM64
+)
 )
 #
 include
