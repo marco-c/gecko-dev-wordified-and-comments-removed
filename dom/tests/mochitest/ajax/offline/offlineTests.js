@@ -794,6 +794,7 @@ function
 (
 condition
 name
+diag
 )
 {
 return
@@ -804,15 +805,10 @@ _masterWindow
 SimpleTest
 .
 ok
-.
-apply
 (
-this
-.
-_masterWindow
-.
-SimpleTest
-arguments
+condition
+name
+diag
 )
 ;
 }

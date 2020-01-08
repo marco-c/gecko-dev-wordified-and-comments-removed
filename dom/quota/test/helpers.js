@@ -523,11 +523,6 @@ condition
 message
 .
 name
-+
-"
--
-"
-+
 message
 .
 diag
