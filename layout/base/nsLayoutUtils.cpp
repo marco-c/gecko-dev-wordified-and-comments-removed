@@ -2540,12 +2540,7 @@ LayoutRetainDisplayList
 )
 ;
 }
-if
-(
-XRE_IsE10sParentProcess
-(
-)
-)
+else
 {
 return
 gfxPrefs
@@ -2556,9 +2551,6 @@ LayoutRetainDisplayListChrome
 )
 ;
 }
-return
-false
-;
 }
 bool
 nsLayoutUtils
