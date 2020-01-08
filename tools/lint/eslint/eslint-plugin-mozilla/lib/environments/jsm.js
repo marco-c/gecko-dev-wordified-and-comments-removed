@@ -244,6 +244,11 @@ MessagePort
 :
 false
 "
+MouseEvent
+"
+:
+false
+"
 PrecompiledScript
 "
 :

@@ -222,6 +222,8 @@ new
 UrlbarController
 (
 {
+browserWindow
+:
 window
 }
 )

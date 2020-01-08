@@ -30,6 +30,8 @@ new
 UrlbarController
 (
 {
+browserWindow
+:
 window
 }
 )
