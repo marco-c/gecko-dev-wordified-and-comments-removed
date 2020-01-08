@@ -1585,23 +1585,6 @@ set
         
 self
 .
-_rust_backend_file
-=
-self
-.
-_get_backend_file
-(
-'
-toolkit
-/
-library
-/
-rust
-'
-)
-        
-self
-.
 _built_in_addons
 =
 set
@@ -5841,6 +5824,21 @@ self
 _rust_outputs
 :
                 
+rust_backend_file
+=
+self
+.
+_get_backend_file
+(
+'
+toolkit
+/
+library
+/
+rust
+'
+)
+                
 self
 .
 _rust_outputs
@@ -5850,9 +5848,7 @@ add
 output_key
 )
                 
-self
-.
-_rust_backend_file
+rust_backend_file
 .
 rule
 (
@@ -5928,15 +5924,12 @@ add
 output_key
 )
                     
-self
-.
-_rust_backend_file
+rust_backend_file
 .
 symlink_rule
 (
 link
 dst
-                                                         
 self
 .
 _rust_libs
