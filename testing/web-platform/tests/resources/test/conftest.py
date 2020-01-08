@@ -5,6 +5,10 @@ json
 import
 os
 import
+ssl
+import
+urllib2
+import
 html5lib
 import
 pytest
@@ -16,11 +20,6 @@ from
 wptserver
 import
 WPTServer
-ENC
-=
-'
-utf8
-'
 HERE
 =
 os
@@ -232,6 +231,16 @@ start
     
 config
 .
+ssl_context
+=
+ssl
+.
+_create_unverified_context
+(
+)
+    
+config
+.
 add_cleanup
 (
 config
@@ -341,9 +350,20 @@ parent
         
 self
 .
-filename
+url
 =
+parent
+.
+session
+.
+config
+.
+server
+.
+url
+(
 filename
+)
         
 self
 .
@@ -357,6 +377,47 @@ variants
 =
 [
 ]
+        
+handle
+=
+urllib2
+.
+urlopen
+(
+self
+.
+url
+                                 
+context
+=
+parent
+.
+session
+.
+config
+.
+ssl_context
+)
+        
+try
+:
+            
+markup
+=
+handle
+.
+read
+(
+)
+        
+finally
+:
+            
+handle
+.
+close
+(
+)
         
 if
 test_type
@@ -380,28 +441,6 @@ s
 '
 %
 test_type
-)
-        
-with
-io
-.
-open
-(
-filename
-encoding
-=
-ENC
-)
-as
-f
-:
-            
-markup
-=
-f
-.
-read
-(
 )
         
 parsed
@@ -777,7 +816,7 @@ fspath
 None
 self
 .
-filename
+url
     
 def
 repr_failure
@@ -890,6 +929,7 @@ driver
 .
 execute_async_script
 (
+            
 '
 runTest
 (
@@ -907,17 +947,10 @@ arguments
 )
 '
 %
-server
-.
-url
-(
-str
-(
 self
 .
-filename
-)
-)
+url
+        
 )
         
 summarized
@@ -1083,19 +1116,11 @@ HARNESS
         
 test_url
 =
-server
-.
-url
-(
-str
-(
 self
 .
-filename
-)
+url
 +
 variant
-)
         
 actual
 =

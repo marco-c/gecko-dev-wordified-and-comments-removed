@@ -480,7 +480,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
@@ -547,7 +547,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
@@ -838,7 +838,7 @@ options
 .
 origin
 =
-document
+self
 .
 origin
 ;
@@ -954,7 +954,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
@@ -1027,7 +1027,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
@@ -1327,7 +1327,7 @@ if
 origin
 =
 =
-document
+self
 .
 origin
 )
