@@ -334,7 +334,7 @@ port
 )
 timeout
 =
-120
+300
 )
         
 self
