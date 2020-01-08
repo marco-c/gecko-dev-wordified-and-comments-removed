@@ -51,7 +51,7 @@ namespace
 WebCore
 {
 const
-double
+float
 MaxDelayTimeSeconds
 =
 0
@@ -960,13 +960,13 @@ sampleRate
 MaxDelayTimeSeconds
 )
 ;
-double
+float
 frameDelaysL
 [
 WEBAUDIO_BLOCK_SIZE
 ]
 ;
-double
+float
 frameDelaysR
 [
 WEBAUDIO_BLOCK_SIZE

@@ -55,12 +55,15 @@ public
 explicit
 DelayBuffer
 (
-double
+float
 aMaxDelayTicks
 )
 :
 mMaxDelayTicks
 (
+std
+:
+:
 ceil
 (
 aMaxDelayTicks
@@ -116,7 +119,7 @@ void
 Read
 (
 const
-double
+float
 aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
@@ -131,7 +134,7 @@ aChannelInterpretation
 void
 Read
 (
-double
+float
 aDelayTicks
 AudioBlock
 *
@@ -144,7 +147,7 @@ void
 ReadChannel
 (
 const
-double
+float
 aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
@@ -229,7 +232,7 @@ void
 ReadChannels
 (
 const
-double
+float
 aPerFrameDelays
 [
 WEBAUDIO_BLOCK_SIZE
