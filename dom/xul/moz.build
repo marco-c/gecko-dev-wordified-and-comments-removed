@@ -171,6 +171,11 @@ nsXULElement
 .
 h
 '
+'
+nsXULSortService
+.
+h
+'
 ]
 EXPORTS
 .
