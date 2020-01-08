@@ -73,6 +73,14 @@ b4f8
 330a88ab9d7f
 "
 ;
+pub
+static
+MAX_SAFE_INTEGER
+:
+u64
+=
+9007199254740991
+;
 #
 [
 derive
