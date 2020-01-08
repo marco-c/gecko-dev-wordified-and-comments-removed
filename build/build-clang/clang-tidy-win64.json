@@ -170,7 +170,11 @@ project
 /
 libcxx
 /
-trunk
+tags
+/
+RELEASE_700
+/
+final
 "
 "
 python_path
