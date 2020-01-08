@@ -16487,6 +16487,15 @@ if
 (
 !
 racyRegisteredThread
+|
+|
+!
+racyRegisteredThread
+-
+>
+IsBeingProfiled
+(
+)
 )
 {
 return
