@@ -16,7 +16,7 @@ api
 :
 {
 DeviceUintSize
-NormalizedRect
+DeviceUintRect
 }
 ;
 use
@@ -1126,11 +1126,7 @@ compute_tile_range
 visible_area
 :
 &
-NormalizedRect
-image_size
-:
-&
-DeviceUintSize
+DeviceUintRect
 tile_size
 :
 u16
@@ -1142,13 +1138,8 @@ TileRange
 let
 tw
 =
-(
-image_size
+1
 .
-width
-as
-f32
-)
 /
 (
 tile_size
@@ -1159,13 +1150,8 @@ f32
 let
 th
 =
-(
-image_size
+1
 .
-height
-as
-f32
-)
 /
 (
 tile_size
@@ -1188,6 +1174,8 @@ visible_area
 origin
 .
 x
+as
+f32
 *
 tw
 )
@@ -1201,6 +1189,8 @@ visible_area
 origin
 .
 y
+as
+f32
 *
 th
 )
@@ -1230,6 +1220,8 @@ visible_area
 max_x
 (
 )
+as
+f32
 *
 tw
 )
@@ -1243,6 +1235,8 @@ visible_area
 max_y
 (
 )
+as
+f32
 *
 th
 )

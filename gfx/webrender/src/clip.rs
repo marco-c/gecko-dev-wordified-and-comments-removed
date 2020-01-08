@@ -1693,12 +1693,12 @@ usize
 }
 pub
 fn
-push_raster_root
+push_surface
 (
 &
 mut
 self
-raster_spatial_node_index
+spatial_node_index
 :
 SpatialNodeIndex
 )
@@ -1714,14 +1714,14 @@ ClipNodeCollector
 :
 new
 (
-raster_spatial_node_index
+spatial_node_index
 )
 )
 ;
 }
 pub
 fn
-pop_raster_root
+pop_surface
 (
 &
 mut
@@ -1884,7 +1884,7 @@ spatial_node_index
 <
 c
 .
-raster_root
+spatial_node_index
 }
 )
 {
@@ -5191,7 +5191,7 @@ pub
 struct
 ClipNodeCollector
 {
-raster_root
+spatial_node_index
 :
 SpatialNodeIndex
 clips
@@ -5208,7 +5208,7 @@ pub
 fn
 new
 (
-raster_root
+spatial_node_index
 :
 SpatialNodeIndex
 )
@@ -5218,7 +5218,7 @@ Self
 {
 ClipNodeCollector
 {
-raster_root
+spatial_node_index
 clips
 :
 FastHashSet

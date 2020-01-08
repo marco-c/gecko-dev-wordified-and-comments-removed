@@ -7639,7 +7639,11 @@ frame_context
 world_rect
 &
 clip_node_collector
+&
+mut
 frame_state
+.
+resources
 .
 clip_data_store
 )
@@ -8904,6 +8908,8 @@ clip_node
 &
 frame_state
 .
+resources
+.
 clip_data_store
 [
 clip_instance
@@ -9634,7 +9640,11 @@ frame_context
 .
 world_rect
 clip_node_collector
+&
+mut
 frame_state
+.
+resources
 .
 clip_data_store
 )
@@ -9762,7 +9772,11 @@ resource_cache
 frame_state
 .
 render_tasks
+&
+mut
 frame_state
+.
+resources
 .
 clip_data_store
 )
@@ -11716,7 +11730,11 @@ resource_cache
 frame_state
 .
 render_tasks
+&
+mut
 frame_state
+.
+resources
 .
 clip_data_store
 )
