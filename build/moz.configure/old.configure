@@ -1346,15 +1346,6 @@ accessibility
 -
 enable
 -
-bundled
--
-fonts
-'
-'
--
--
-enable
--
 content
 -
 sandbox
