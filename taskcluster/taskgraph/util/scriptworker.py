@@ -1441,7 +1441,7 @@ default
 '
 googleplay
 :
-invalid
+dep
 '
 }
 "
