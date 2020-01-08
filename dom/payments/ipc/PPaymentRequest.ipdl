@@ -354,6 +354,14 @@ shippingOption
 ;
 }
 ;
+struct
+IPCPaymentCleanupActionRequest
+{
+nsString
+requestId
+;
+}
+;
 union
 IPCPaymentActionRequest
 {
@@ -368,6 +376,8 @@ IPCPaymentAbortActionRequest
 IPCPaymentCompleteActionRequest
 ;
 IPCPaymentUpdateActionRequest
+;
+IPCPaymentCleanupActionRequest
 ;
 }
 ;

@@ -58,6 +58,13 @@ h
 #
 include
 "
+nsIDocumentActivity
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -95,6 +102,8 @@ public
 DOMEventTargetHelper
 public
 PromiseNativeHandler
+public
+nsIDocumentActivity
 {
 public
 :
@@ -104,6 +113,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 PaymentRequest
 DOMEventTargetHelper
 )
+NS_DECL_NSIDOCUMENTACTIVITY
 virtual
 JSObject
 *
@@ -722,6 +732,16 @@ protected
 :
 ~
 PaymentRequest
+(
+)
+;
+void
+RegisterActivityObserver
+(
+)
+;
+void
+UnregisterActivityObserver
 (
 )
 ;
