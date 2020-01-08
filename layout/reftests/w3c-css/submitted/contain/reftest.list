@@ -785,7 +785,6 @@ overflow
 ref
 .
 html
-fails
 =
 =
 contain
@@ -808,9 +807,6 @@ overflow
 ref
 .
 html
-#
-bug
-1481951
 =
 =
 contain
