@@ -201,7 +201,9 @@ type
 optionally_keyed_by
 (
 '
-project
+release
+-
+level
 '
 basestring
 )
@@ -418,16 +420,24 @@ job
 label
 '
 ]
-project
-=
+            
+*
+*
+{
+'
+release
+-
+level
+'
+:
 config
 .
 params
-[
-'
-project
-'
-]
+.
+release_level
+(
+)
+}
         
 )
         

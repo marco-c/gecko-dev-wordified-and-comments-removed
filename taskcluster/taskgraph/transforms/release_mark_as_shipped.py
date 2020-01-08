@@ -90,16 +90,24 @@ job
 name
 '
 ]
-project
-=
+            
+*
+*
+{
+'
+release
+-
+level
+'
+:
 config
 .
 params
-[
-'
-project
-'
-]
+.
+release_level
+(
+)
+}
         
 )
         
@@ -118,16 +126,24 @@ job
 name
 '
 ]
-project
-=
+            
+*
+*
+{
+'
+release
+-
+level
+'
+:
 config
 .
 params
-[
-'
-project
-'
-]
+.
+release_level
+(
+)
+}
         
 )
         

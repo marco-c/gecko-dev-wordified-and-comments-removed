@@ -153,16 +153,23 @@ name
 '
 ]
                 
-project
-=
+*
+*
+{
+'
+release
+-
+level
+'
+:
 config
 .
 params
-[
-'
-project
-'
-]
+.
+release_level
+(
+)
+}
             
 )
         

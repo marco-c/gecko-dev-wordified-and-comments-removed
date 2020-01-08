@@ -183,14 +183,29 @@ property
             
 resolve_keyed_by
 (
+                
 task
 property
 property
+                
 *
 *
+{
+'
+release
+-
+level
+'
+:
 config
 .
 params
+.
+release_level
+(
+)
+}
+            
 )
         
 if
