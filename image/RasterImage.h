@@ -659,10 +659,14 @@ aFlags
 )
 override
 ;
+Tuple
+<
+ImgDrawResult
 gfx
 :
 :
 IntSize
+>
 GetImageContainerSize
 (
 layers

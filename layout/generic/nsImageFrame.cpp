@@ -8332,9 +8332,15 @@ svgContext
 ;
 RefPtr
 <
+layers
+:
+:
 ImageContainer
 >
 container
+;
+ImgDrawResult
+drawResult
 =
 mImage
 -
@@ -8345,6 +8351,10 @@ aManager
 decodeSize
 svgContext
 flags
+getter_AddRefs
+(
+container
+)
 )
 ;
 if
@@ -10240,7 +10250,7 @@ FillCursorInformationFromStyle
 areaStyle
 -
 >
-StyleUI
+StyleUserInterface
 (
 )
 aCursor

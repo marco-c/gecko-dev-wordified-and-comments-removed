@@ -3110,7 +3110,7 @@ layers
 ImageContainer
 >
 container
-=
+;
 mImageContainer
 -
 >
@@ -3120,6 +3120,10 @@ aManager
 decodeSize
 svgContext
 containerFlags
+getter_AddRefs
+(
+container
+)
 )
 ;
 if
