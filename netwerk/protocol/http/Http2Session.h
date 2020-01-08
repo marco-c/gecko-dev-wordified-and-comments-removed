@@ -1301,6 +1301,13 @@ Shutdown
 (
 )
 ;
+nsresult
+SessionError
+(
+enum
+errorType
+)
+;
 RefPtr
 <
 nsAHttpConnection
