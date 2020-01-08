@@ -126,6 +126,11 @@ HalImpl
 h
 '
 '
+HalNetworkInformation
+.
+h
+'
+'
 HalSandbox
 .
 h
