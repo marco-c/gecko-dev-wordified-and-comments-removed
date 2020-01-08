@@ -957,11 +957,13 @@ int32_t
 aIndex
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyAsyncPanZoomStarted
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyAsyncPanZoomStopped
 (

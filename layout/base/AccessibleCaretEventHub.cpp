@@ -228,7 +228,6 @@ NS_IMPL_ISUPPORTS
 AccessibleCaretEventHub
 nsIReflowObserver
 nsIScrollObserver
-nsISelectionListener
 nsISupportsWeakReference
 )
 ;
@@ -3181,11 +3180,11 @@ this
 )
 ;
 }
-nsresult
+void
 AccessibleCaretEventHub
 :
 :
-NotifySelectionChanged
+OnSelectionChange
 (
 nsIDocument
 *
@@ -3207,7 +3206,6 @@ mInitialized
 )
 {
 return
-NS_OK
 ;
 }
 MOZ_ASSERT
@@ -3264,9 +3262,6 @@ aDoc
 aSel
 aReason
 )
-;
-return
-NS_OK
 ;
 }
 void

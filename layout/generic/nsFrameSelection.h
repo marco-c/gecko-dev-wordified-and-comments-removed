@@ -465,6 +465,7 @@ bool
 aAccessibleCaretEnabled
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleClick
 (
@@ -612,6 +613,7 @@ aSlowCheck
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetDragState
 (
@@ -840,6 +842,7 @@ bool
 aExtend
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SelectAll
 (
@@ -975,6 +978,7 @@ return
 mAncestorLimiter
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetAncestorLimiter
 (
@@ -1072,6 +1076,7 @@ StartBatchChanges
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 EndBatchChanges
 (
@@ -1117,6 +1122,7 @@ nsFrameSelection
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 TakeFocus
 (
@@ -1312,6 +1318,7 @@ eVisual
 eUsePrefStyle
 }
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 MoveCaret
 (
@@ -1383,6 +1390,7 @@ mChangesDuringBatching
 aDirty
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 NotifySelectionListeners
 (

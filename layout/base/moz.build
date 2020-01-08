@@ -427,6 +427,11 @@ mozilla
 =
 [
 '
+AccessibleCaretEventHub
+.
+h
+'
+'
 ArenaObjectID
 .
 h

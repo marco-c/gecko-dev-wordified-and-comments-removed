@@ -1685,6 +1685,7 @@ nsRange
 aOutRanges
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 NotifySelectionListenersAfterRangeSet
 (
@@ -1763,6 +1764,7 @@ uint32_t
 aOffset
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 DoSetRange
 (
