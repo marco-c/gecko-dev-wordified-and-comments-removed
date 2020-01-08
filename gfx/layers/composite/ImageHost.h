@@ -492,6 +492,7 @@ RenderInfo
 int
 imageIndex
 ;
+const
 TimedImage
 *
 img
