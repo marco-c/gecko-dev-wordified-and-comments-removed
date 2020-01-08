@@ -451,6 +451,7 @@ IsInContentXBLScope
 obj
 )
 )
+{
 return
 JS
 :
@@ -460,6 +461,7 @@ GetNonCCWObjectGlobal
 obj
 )
 ;
+}
 return
 GetXBLScope
 (
@@ -904,9 +906,11 @@ if
 !
 str
 )
+{
 return
 false
 ;
+}
 rval
 .
 setString
@@ -969,9 +973,11 @@ if
 !
 str
 )
+{
 return
 false
 ;
+}
 if
 (
 sharedAtom

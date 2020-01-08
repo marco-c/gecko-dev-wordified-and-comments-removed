@@ -134,6 +134,7 @@ if
 !
 mClassInfo
 )
+{
 mClassInfo
 =
 do_QueryInterface
@@ -141,6 +142,7 @@ do_QueryInterface
 mObject
 )
 ;
+}
 return
 mClassInfo
 ;

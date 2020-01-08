@@ -3228,6 +3228,7 @@ if
 (
 mContentXBLScope
 )
+{
 mContentXBLScope
 .
 trace
@@ -3241,6 +3242,7 @@ mXBLScope
 "
 )
 ;
+}
 if
 (
 mXrayExpandos
@@ -3249,6 +3251,7 @@ initialized
 (
 )
 )
+{
 mXrayExpandos
 .
 trace
@@ -3256,6 +3259,7 @@ trace
 trc
 )
 ;
+}
 }
 static
 void
@@ -4889,6 +4893,7 @@ if
 (
 mJSProtoObject
 )
+{
 mJSProtoObject
 .
 trace
@@ -4902,6 +4907,7 @@ mJSProtoObject
 "
 )
 ;
+}
 }
 void
 TraceInside
@@ -4962,6 +4968,7 @@ cx
 &
 mJSProtoObject
 )
+{
 mJSProtoObject
 .
 writeBarrierPre
@@ -4969,6 +4976,7 @@ writeBarrierPre
 cx
 )
 ;
+}
 }
 void
 Mark
@@ -6106,6 +6114,7 @@ HasProto
 (
 )
 )
+{
 GetProto
 (
 )
@@ -6116,7 +6125,9 @@ TraceSelf
 trc
 )
 ;
+}
 else
+{
 GetScope
 (
 )
@@ -6127,6 +6138,7 @@ TraceSelf
 trc
 )
 ;
+}
 JSObject
 *
 obj
@@ -7096,9 +7108,11 @@ if
 (
 wrapper
 )
+{
 return
 wrapper
 ;
+}
 return
 FindInherited
 (
@@ -8798,6 +8812,7 @@ cur
 >
 mNext
 )
+{
 cur
 -
 >
@@ -8806,6 +8821,7 @@ TraceJS
 trc
 )
 ;
+}
 }
 void
 MarkAfterJSFinalizeAll
@@ -8829,6 +8845,7 @@ cur
 >
 mNext
 )
+{
 cur
 -
 >
@@ -8836,6 +8853,7 @@ MarkAfterJSFinalize
 (
 )
 ;
+}
 }
 protected
 :
@@ -9025,6 +9043,7 @@ if
 (
 mPtr
 )
+{
 mPtr
 -
 >
@@ -9032,6 +9051,7 @@ Mark
 (
 )
 ;
+}
 }
 private
 :
@@ -10278,9 +10298,11 @@ if
 !
 obj
 )
+{
 return
 nullptr
 ;
+}
 JS
 :
 :
@@ -10321,9 +10343,11 @@ val
 attrs
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 obj
 ;
@@ -11302,8 +11326,10 @@ IsEmpty
 (
 )
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -11316,8 +11342,10 @@ IsEmpty
 |
 locationURI
 )
+{
 return
 ;
+}
 location
 =
 aLocation
@@ -11336,14 +11364,18 @@ if
 !
 aLocationURI
 )
+{
 return
 ;
+}
 if
 (
 locationURI
 )
+{
 return
 ;
+}
 locationURI
 =
 aLocationURI
