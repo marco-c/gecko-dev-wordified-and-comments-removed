@@ -288,10 +288,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsCString
-:
-:
-char_iterator
+auto
 buffer
 =
 mInput

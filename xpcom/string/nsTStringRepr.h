@@ -297,11 +297,6 @@ char_type
 comparator_type
 ;
 typedef
-char_type
-*
-char_iterator
-;
-typedef
 const
 char_type
 *
