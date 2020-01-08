@@ -32365,7 +32365,7 @@ IsPopup
 )
 {
 return
-false
+true
 ;
 }
 }
@@ -32465,7 +32465,7 @@ IsPopup
 )
 {
 return
-false
+true
 ;
 }
 nsWindow
@@ -32494,7 +32494,7 @@ IsPopup
 )
 {
 return
-false
+true
 ;
 }
 }
