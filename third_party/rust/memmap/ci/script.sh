@@ -54,7 +54,7 @@ DISABLE_TESTS
 ;
 then
 return
-else
+fi
 cross
 test
 -
@@ -70,7 +70,6 @@ TARGET
 -
 -
 release
-fi
 }
 #
 we

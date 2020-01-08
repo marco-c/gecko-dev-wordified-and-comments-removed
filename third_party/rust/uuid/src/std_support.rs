@@ -1,4 +1,5 @@
-use
+extern
+crate
 std
 ;
 use
