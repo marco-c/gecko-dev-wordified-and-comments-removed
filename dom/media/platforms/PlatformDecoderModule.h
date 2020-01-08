@@ -147,13 +147,9 @@ class
 ImageContainer
 ;
 }
-namespace
-dom
-{
 class
-RemoteDecoderModule
+GpuDecoderModule
 ;
-}
 class
 MediaDataDecoder
 ;
@@ -949,10 +945,7 @@ PDMFactory
 ;
 friend
 class
-dom
-:
-:
-RemoteDecoderModule
+GpuDecoderModule
 ;
 friend
 class
