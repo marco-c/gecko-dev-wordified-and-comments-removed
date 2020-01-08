@@ -96,4 +96,13 @@ sink
 .
 js
 '
+'
+stack
+-
+trace
+-
+collector
+.
+js
+'
 )
