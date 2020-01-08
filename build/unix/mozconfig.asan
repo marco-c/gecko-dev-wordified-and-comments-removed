@@ -11,7 +11,7 @@ unix
 /
 mozconfig
 .
-linux
+unix
 "
 export
 LLVM_SYMBOLIZER
