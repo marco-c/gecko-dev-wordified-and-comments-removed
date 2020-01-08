@@ -273,6 +273,8 @@ OS_ARCH
 )
 ifdef
 COMPILE_ENVIRONMENT
+ifndef
+MOZ_NO_PIE_COMPAT
 libs
 :
 :
@@ -305,6 +307,7 @@ bin
 (
 BIN_SUFFIX
 )
+endif
 endif
 GARBAGE
 +

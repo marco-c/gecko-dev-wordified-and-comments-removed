@@ -10,3 +10,7 @@ mozconfig
 .
 unix
 "
+export
+MOZ_NO_PIE_COMPAT
+=
+1

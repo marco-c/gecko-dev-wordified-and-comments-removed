@@ -89,12 +89,6 @@ disable
 elf
 -
 hack
-ac_add_options
--
--
-enable
--
-pie
 #
 Keep
 symbols

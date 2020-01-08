@@ -4264,6 +4264,8 @@ bin
 '
 '
 firefox
+-
+bin
 '
 )
     
