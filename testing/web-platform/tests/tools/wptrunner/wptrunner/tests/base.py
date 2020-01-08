@@ -101,16 +101,6 @@ edge_webdriver
 }
         
 "
-safari
-"
-:
-{
-"
-safari_webdriver
-"
-}
-        
-"
 servo
 "
 :
