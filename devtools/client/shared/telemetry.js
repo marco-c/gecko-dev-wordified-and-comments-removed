@@ -21,13 +21,11 @@ TelemetryStopwatch
 require
 (
 "
-resource
-:
+devtools
 /
+client
 /
-gre
-/
-modules
+shared
 /
 TelemetryStopwatch
 .

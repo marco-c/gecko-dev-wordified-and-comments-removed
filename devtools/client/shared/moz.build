@@ -342,6 +342,11 @@ telemetry
 js
 '
 '
+TelemetryStopwatch
+.
+jsm
+'
+'
 theme
 .
 js
