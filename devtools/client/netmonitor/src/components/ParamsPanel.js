@@ -414,8 +414,6 @@ arr
 )
 {
 return
-sortObjectKeys
-(
 arr
 .
 reduce
@@ -501,7 +499,6 @@ map
 }
 {
 }
-)
 )
 ;
 }
