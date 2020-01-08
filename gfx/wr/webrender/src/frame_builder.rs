@@ -1223,10 +1223,7 @@ pic_update_state
 frame_context
 resource_cache
 gpu_cache
-&
 resources
-.
-prim_data_store
 &
 self
 .
