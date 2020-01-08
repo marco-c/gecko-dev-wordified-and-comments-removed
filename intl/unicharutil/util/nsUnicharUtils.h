@@ -383,6 +383,12 @@ nsStringComparator
 {
 public
 :
+nsCaseInsensitiveStringComparator
+(
+)
+=
+default
+;
 virtual
 int32_t
 operator
