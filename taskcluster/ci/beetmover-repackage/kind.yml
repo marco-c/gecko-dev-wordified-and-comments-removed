@@ -151,6 +151,16 @@ repackage
 signing
 -
 msi
+-
+mar
+-
+signing
+-
+mar
+-
+signing
+-
+l10n
 primary
 -
 dependency

@@ -752,6 +752,28 @@ installer
 msi
 '
 ]
+UPSTREAM_ARTIFACT_SIGNED_MAR_PATHS
+=
+[
+    
+'
+target
+.
+complete
+.
+mar
+'
+    
+'
+target
+.
+bz2
+.
+complete
+.
+mar
+'
+]
 task_description_schema
 =
 {
@@ -1175,6 +1197,14 @@ signing
 msi
 "
         
+mar_signing_name
+=
+"
+mar
+-
+signing
+"
+        
 if
 job
 .
@@ -1221,6 +1251,16 @@ signing
 -
 l10n
 "
+            
+mar_signing_name
+=
+"
+mar
+-
+signing
+-
+l10n
+"
         
 dependencies
 =
@@ -1251,6 +1291,17 @@ signing
 upstream_deps
 [
 signing_name
+]
+            
+"
+mar
+-
+signing
+"
+:
+upstream_deps
+[
+mar_signing_name
 ]
         
 }
@@ -1509,6 +1560,10 @@ UPSTREAM_ARTIFACT_SIGNED_REPACKAGE_PATHS
 msi_signing_mapping
 =
 UPSTREAM_ARTIFACT_SIGNED_MSI_PATHS
+    
+mar_signing_mapping
+=
+UPSTREAM_ARTIFACT_SIGNED_MAR_PATHS
     
 artifact_prefix
 =
@@ -1794,6 +1849,18 @@ msi
 repackage
 '
 msi_signing_mapping
+)
+        
+(
+'
+mar
+-
+signing
+'
+'
+signing
+'
+mar_signing_mapping
 )
     
 ]
