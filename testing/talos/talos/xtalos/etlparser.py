@@ -18,6 +18,8 @@ subprocess
 import
 sys
 import
+mozfile
+import
 xtalos
 EVENTNAME_INDEX
 =
@@ -2352,6 +2354,16 @@ debug
 :
         
 uploadFile
+(
+csvname
+)
+    
+else
+:
+        
+mozfile
+.
+remove
 (
 csvname
 )
