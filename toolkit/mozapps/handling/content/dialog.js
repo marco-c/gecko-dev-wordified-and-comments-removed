@@ -864,6 +864,9 @@ gioApps
 .
 enumerate
 (
+Ci
+.
+nsIHandlerApp
 )
 )
 {
