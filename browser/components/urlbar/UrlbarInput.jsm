@@ -1393,7 +1393,14 @@ lastKey
 "
 maxResults
 :
-12
+UrlbarPrefs
+.
+get
+(
+"
+maxRichResults
+"
+)
 isPrivate
 :
 this
