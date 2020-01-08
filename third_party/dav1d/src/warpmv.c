@@ -454,7 +454,7 @@ f
 int
 dav1d_get_shear_params
 (
-Dav1dWarpedMotionParams
+WarpedMotionParams
 *
 const
 wm
@@ -954,7 +954,7 @@ bh4
 const
 mv
 mv
-Dav1dWarpedMotionParams
+WarpedMotionParams
 *
 const
 wm

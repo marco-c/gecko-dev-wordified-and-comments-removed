@@ -2256,12 +2256,6 @@ include
 subdir
 (
 '
-doc
-'
-)
-subdir
-(
-'
 src
 '
 )

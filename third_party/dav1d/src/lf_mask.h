@@ -57,7 +57,7 @@ struct
 Av1RestorationUnit
 {
 enum
-Dav1dRestorationType
+RestorationType
 type
 ;
 int16_t
@@ -133,13 +133,6 @@ noskip_mask
 2
 ]
 ;
-}
-Av1Filter
-;
-typedef
-struct
-Av1Restoration
-{
 Av1RestorationUnit
 lr
 [
@@ -150,7 +143,7 @@ lr
 ]
 ;
 }
-Av1Restoration
+Av1Filter
 ;
 void
 dav1d_create_lf_mask_intra
@@ -170,7 +163,7 @@ const
 ptrdiff_t
 b4_stride
 const
-Dav1dFrameHeader
+Av1FrameHeader
 *
 hdr
 const
@@ -237,7 +230,7 @@ const
 ptrdiff_t
 b4_stride
 const
-Dav1dFrameHeader
+Av1FrameHeader
 *
 hdr
 const
@@ -317,7 +310,7 @@ values
 2
 ]
 const
-Dav1dFrameHeader
+Av1FrameHeader
 *
 hdr
 const
