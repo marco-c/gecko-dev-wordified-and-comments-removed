@@ -3838,6 +3838,11 @@ mUnboundFromTree
 =
 false
 ;
+bool
+mBlockedAsWithoutMetadata
+=
+false
+;
 public
 :
 class
@@ -4034,7 +4039,6 @@ void
 UpdateHadAudibleAutoplayState
 (
 )
-const
 ;
 void
 AfterMaybeChangeAttr
