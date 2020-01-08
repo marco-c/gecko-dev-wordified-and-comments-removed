@@ -4663,11 +4663,6 @@ StreamFilterDataEvent
 webidl
 '
 '
-StructuredCloneTester
-.
-webidl
-'
-'
 StyleSheet
 .
 webidl

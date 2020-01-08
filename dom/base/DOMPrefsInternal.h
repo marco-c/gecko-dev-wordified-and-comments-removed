@@ -24,10 +24,6 @@ dom_storageManager_enabled
 )
 DOM_WEBIDL_PREF
 (
-dom_testing_structuredclonetester_enabled
-)
-DOM_WEBIDL_PREF
-(
 dom_promise_rejection_events_enabled
 )
 DOM_WEBIDL_PREF
