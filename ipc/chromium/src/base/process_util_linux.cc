@@ -180,6 +180,9 @@ return
 false
 ;
 }
+#
+ifdef
+OS_LINUX
 pid_t
 pid
 =
@@ -200,6 +203,17 @@ fork
 (
 )
 ;
+#
+else
+pid_t
+pid
+=
+fork
+(
+)
+;
+#
+endif
 if
 (
 pid

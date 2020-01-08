@@ -374,12 +374,6 @@ defined
 (
 OS_LINUX
 )
-|
-|
-defined
-(
-OS_SOLARIS
-)
 struct
 ForkDelegate
 {
