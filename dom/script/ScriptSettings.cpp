@@ -2896,7 +2896,6 @@ mAutoProfilerLabel
 AutoEntryScript
 "
 aReason
-__LINE__
 js
 :
 :

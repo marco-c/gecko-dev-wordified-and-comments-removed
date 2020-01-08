@@ -864,17 +864,6 @@ isLabelFrame
 )
 )
 ;
-line
-=
-Some
-(
-aFrame
-.
-line
-(
-)
-)
-;
 }
 if
 (
