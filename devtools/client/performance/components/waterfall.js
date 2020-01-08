@@ -77,7 +77,9 @@ require
 "
 .
 /
-WaterfallHeader
+waterfall
+-
+header
 "
 )
 )
@@ -92,7 +94,9 @@ require
 "
 .
 /
-WaterfallTree
+waterfall
+-
+tree
 "
 )
 )
