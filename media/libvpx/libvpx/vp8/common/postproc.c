@@ -507,7 +507,7 @@ mode_info_context
 cm
 -
 >
-show_frame_mi
+mi
 ;
 int
 mbr
