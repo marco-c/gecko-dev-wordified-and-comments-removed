@@ -602,7 +602,10 @@ Core
 '
 Layout
 :
-Positioned
+R
+&
+A
+Pos
 '
 )
 with
@@ -670,8 +673,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -875,10 +876,6 @@ Core
 Layout
 :
 Images
-Video
-and
-HTML
-Frames
 '
 )
 with
@@ -1919,8 +1916,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -1946,8 +1941,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -2001,8 +1994,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -2026,8 +2017,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -2125,10 +2114,6 @@ Core
 Layout
 :
 Images
-Video
-and
-HTML
-Frames
 '
 )
 with
@@ -2154,10 +2139,6 @@ Core
 Layout
 :
 Images
-Video
-and
-HTML
-Frames
 '
 )
 with
@@ -2206,10 +2187,6 @@ Core
 Layout
 :
 Images
-Video
-and
-HTML
-Frames
 '
 )
 with
@@ -2235,8 +2212,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -2644,7 +2619,10 @@ Core
 '
 Layout
 :
-Positioned
+R
+&
+A
+Pos
 '
 )
 with
@@ -2669,7 +2647,10 @@ Core
 '
 Layout
 :
-Positioned
+R
+&
+A
+Pos
 '
 )
 with
@@ -2694,7 +2675,10 @@ Core
 '
 Layout
 :
-Positioned
+R
+&
+A
+Pos
 '
 )
 with
@@ -2829,8 +2813,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -3006,8 +2988,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -3087,8 +3067,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -3114,8 +3092,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -3164,8 +3140,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with
@@ -3491,8 +3465,6 @@ Core
 Layout
 :
 Text
-and
-Fonts
 '
 )
 with

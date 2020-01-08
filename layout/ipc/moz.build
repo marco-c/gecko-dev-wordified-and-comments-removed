@@ -103,8 +103,8 @@ Core
 '
 Layout
 :
-Web
-Painting
+View
+Rendering
 '
 )
 EXPORTS
