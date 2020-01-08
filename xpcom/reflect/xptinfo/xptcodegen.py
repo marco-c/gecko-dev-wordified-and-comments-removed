@@ -1227,7 +1227,7 @@ tag
 =
 =
 '
-legacy_array
+array
 '
 :
             
@@ -1383,7 +1383,7 @@ tag
 =
 =
 '
-TD_LEGACY_ARRAY
+TD_ARRAY
 '
 :
             
@@ -1406,31 +1406,6 @@ type
 element
 '
 ]
-)
-        
-elif
-tag
-=
-=
-'
-TD_ARRAY
-'
-:
-            
-d1
-d2
-=
-splitint
-(
-lower_extra_type
-(
-type
-[
-'
-element
-'
-]
-)
 )
         
 elif

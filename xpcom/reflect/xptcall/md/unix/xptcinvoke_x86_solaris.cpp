@@ -97,10 +97,6 @@ result
 ;
 break
 ;
-default
-:
-break
-;
 }
 }
 return
@@ -277,10 +273,6 @@ d
 +
 +
 ;
-break
-;
-default
-:
 break
 ;
 }
