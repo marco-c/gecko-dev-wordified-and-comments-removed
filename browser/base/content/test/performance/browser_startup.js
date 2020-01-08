@@ -39,11 +39,6 @@ MainProcessSingleton
 js
 "
 "
-nsSessionStartup
-.
-js
-"
-"
 PushComponents
 .
 js
