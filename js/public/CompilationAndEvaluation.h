@@ -617,7 +617,7 @@ JS_PUBLIC_API
 (
 bool
 )
-Compile
+CompileUtf8Path
 (
 JSContext
 *

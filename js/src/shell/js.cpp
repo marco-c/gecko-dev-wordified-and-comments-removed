@@ -8363,7 +8363,7 @@ compileOnly
 &
 &
 !
-Compile
+CompileUtf8Path
 (
 cx
 opts
@@ -18008,7 +18008,7 @@ if
 JS
 :
 :
-Compile
+CompileUtf8Path
 (
 cx
 options
