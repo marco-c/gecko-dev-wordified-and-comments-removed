@@ -4313,9 +4313,6 @@ PushManager
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
@@ -4326,9 +4323,6 @@ PushSubscription
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
@@ -4339,9 +4333,6 @@ PushSubscriptionOptions
 insecureContext
 :
 true
-android
-:
-false
 }
 {
 name
