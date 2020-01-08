@@ -417,7 +417,7 @@ AddBlobImage
 wr
 :
 :
-ImageKey
+BlobImageKey
 aKey
 const
 ImageDescriptor
@@ -498,7 +498,7 @@ UpdateBlobImage
 wr
 :
 :
-ImageKey
+BlobImageKey
 aKey
 const
 ImageDescriptor
@@ -517,7 +517,7 @@ const
 wr
 :
 :
-DeviceIntRect
+LayoutIntRect
 &
 aDirtyRect
 )
@@ -576,7 +576,7 @@ aChannelIndex
 void
 SetImageVisibleArea
 (
-ImageKey
+BlobImageKey
 aKey
 const
 wr
@@ -594,6 +594,16 @@ wr
 :
 :
 ImageKey
+aKey
+)
+;
+void
+DeleteBlobImage
+(
+wr
+:
+:
+BlobImageKey
 aKey
 )
 ;

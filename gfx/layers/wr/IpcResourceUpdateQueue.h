@@ -481,7 +481,7 @@ AddBlobImage
 wr
 :
 :
-ImageKey
+BlobImageKey
 aKey
 const
 ImageDescriptor
@@ -557,7 +557,7 @@ UpdateBlobImage
 wr
 :
 :
-ImageKey
+BlobImageKey
 aKey
 const
 ImageDescriptor
@@ -584,9 +584,9 @@ aDirtyRect
 )
 ;
 void
-SetImageVisibleArea
+SetBlobImageVisibleArea
 (
-ImageKey
+BlobImageKey
 aKey
 const
 ImageIntRect
@@ -601,6 +601,16 @@ wr
 :
 :
 ImageKey
+aKey
+)
+;
+void
+DeleteBlobImage
+(
+wr
+:
+:
+BlobImageKey
 aKey
 )
 ;

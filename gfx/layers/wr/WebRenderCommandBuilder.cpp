@@ -1403,7 +1403,7 @@ Maybe
 wr
 :
 :
-ImageKey
+BlobImageKey
 >
 mKey
 ;
@@ -1618,7 +1618,7 @@ IsEmpty
 aManager
 -
 >
-AddImageKeyForDiscard
+AddBlobImageKeyForDiscard
 (
 mKey
 .
@@ -3953,7 +3953,7 @@ mKey
 {
 aResources
 .
-SetImageVisibleArea
+SetBlobImageVisibleArea
 (
 mKey
 .
@@ -4396,9 +4396,14 @@ return
 wr
 :
 :
-ImageKey
+BlobImageKey
 key
 =
+wr
+:
+:
+BlobImageKey
+{
 aWrManager
 -
 >
@@ -4410,6 +4415,7 @@ WrBridge
 GetNextImageKey
 (
 )
+}
 ;
 GP
 (
@@ -4426,6 +4432,8 @@ d
 n
 "
 key
+.
+_0
 .
 mHandle
 )
@@ -4642,7 +4650,7 @@ SetEmpty
 ;
 aResources
 .
-SetImageVisibleArea
+SetBlobImageVisibleArea
 (
 mKey
 .
@@ -4803,10 +4811,16 @@ ToImageRendering
 (
 sampleFilter
 )
+wr
+:
+:
+AsImageKey
+(
 mKey
 .
 value
 (
+)
 )
 )
 ;
@@ -12395,7 +12409,7 @@ needPaint
 fallbackData
 -
 >
-GetKey
+GetImageKey
 (
 )
 )
@@ -12812,9 +12826,14 @@ mLength
 wr
 :
 :
-ImageKey
+BlobImageKey
 key
 =
+wr
+:
+:
+BlobImageKey
+{
 mManager
 -
 >
@@ -12826,6 +12845,7 @@ WrBridge
 GetNextImageKey
 (
 )
+}
 ;
 wr
 :
@@ -12868,7 +12888,7 @@ nullptr
 fallbackData
 -
 >
-SetKey
+SetBlobImageKey
 (
 key
 )
@@ -12890,7 +12910,7 @@ if
 fallbackData
 -
 >
-GetKey
+GetBlobImageKey
 (
 )
 .
@@ -13056,7 +13076,7 @@ if
 fallbackData
 -
 >
-GetKey
+GetImageKey
 (
 )
 .
@@ -13123,7 +13143,7 @@ MOZ_ASSERT
 fallbackData
 -
 >
-GetKey
+GetImageKey
 (
 )
 )
@@ -13220,7 +13240,7 @@ image
 fallbackData
 -
 >
-GetKey
+GetImageKey
 (
 )
 .
@@ -13368,7 +13388,7 @@ sampleFilter
 fallbackData
 -
 >
-GetKey
+GetImageKey
 (
 )
 .

@@ -1828,7 +1828,7 @@ mozilla
 wr
 :
 :
-DeviceIntRect
+LayoutIntRect
 *
 aDirtyRect
 Range
@@ -3008,7 +3008,7 @@ mozilla
 wr
 :
 :
-DeviceIntRect
+LayoutIntRect
 *
 aDirtyRect
 mozilla
