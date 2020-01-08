@@ -390,7 +390,7 @@ class
 mozIDOMWindowProxy
 ;
 class
-nsDocShellLoadInfo
+nsDocShellLoadState
 ;
 class
 nsDOMWindowList
@@ -2458,9 +2458,9 @@ const
 nsAString
 &
 aOptions
-nsDocShellLoadInfo
+nsDocShellLoadState
 *
-aLoadInfo
+aLoadState
 bool
 aForceNoOpener
 nsPIDOMWindowOuter
@@ -3798,9 +3798,9 @@ argv
 nsISupports
 *
 aExtraArgument
-nsDocShellLoadInfo
+nsDocShellLoadState
 *
-aLoadInfo
+aLoadState
 bool
 aForceNoOpener
 nsPIDOMWindowOuter
