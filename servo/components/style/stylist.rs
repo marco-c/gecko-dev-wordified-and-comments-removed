@@ -7642,7 +7642,7 @@ attribute_dependencies
 :
 PrecomputedHashSet
 <
-Atom
+LocalName
 >
 state_dependencies
 :
@@ -7654,7 +7654,7 @@ mapped_ids
 :
 PrecomputedHashSet
 <
-LocalName
+Atom
 >
 #
 [
