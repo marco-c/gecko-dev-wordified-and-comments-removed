@@ -830,11 +830,6 @@ Comment
 h
 '
 '
-ContentBlockingLog
-.
-h
-'
-'
 ContentFrameMessageManager
 .
 h

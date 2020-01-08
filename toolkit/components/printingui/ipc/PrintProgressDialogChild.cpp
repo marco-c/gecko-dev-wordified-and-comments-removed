@@ -277,13 +277,7 @@ nsIRequest
 *
 aRequest
 uint32_t
-aOldState
-uint32_t
 aState
-const
-nsAString
-&
-aContentBlockingLogJSON
 )
 {
 return

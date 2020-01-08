@@ -10832,9 +10832,7 @@ onSecurityChange
 (
 aWebProgress
 aRequest
-aOldState
 aState
-aContentBlockingLogJSON
 )
 {
 if
