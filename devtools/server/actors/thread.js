@@ -2715,6 +2715,7 @@ script
 const
 {
 onStep
+onPop
 }
 =
 thread
@@ -2734,6 +2735,12 @@ parentFrame
 onStep
 =
 onStep
+;
+parentFrame
+.
+onPop
+=
+onPop
 ;
 return
 undefined
