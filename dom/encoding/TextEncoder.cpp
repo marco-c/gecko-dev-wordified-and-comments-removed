@@ -113,7 +113,7 @@ rv
 return
 ;
 }
-JSAutoRealmAllowCCW
+JSAutoRealm
 ar
 (
 aCx
