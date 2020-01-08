@@ -168,6 +168,7 @@ elements
 for
 example
 :
+html
 <
 meta
 name
@@ -264,6 +265,7 @@ subtests
 For
 example
 :
+html
 <
 !
 doctype
@@ -458,6 +460,7 @@ regular
 expression
 )
 .
+html
 <
 !
 doctype
@@ -833,6 +836,7 @@ js
 as
 follows
 :
+js
 importScripts
 (
 "
@@ -1008,6 +1012,7 @@ js
 as
 follows
 :
+js
 test
 (
 function
