@@ -246,6 +246,9 @@ md
 Flags
 .
 md
+Bugs
+.
+md
 TraceLogs
 .
 md
