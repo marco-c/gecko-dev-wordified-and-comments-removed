@@ -854,6 +854,13 @@ case
 unknown
 "
 :
+case
+"
+bad
+-
+perms
+"
+:
 this
 .
 clearCallbacks

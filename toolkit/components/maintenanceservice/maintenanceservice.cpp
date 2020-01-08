@@ -1121,6 +1121,9 @@ NO_ERROR
 0
 )
 ;
+BOOL
+success
+=
 ExecuteServiceCommand
 (
 argc
@@ -1145,7 +1148,11 @@ gServiceControlStopping
 ReportSvcStatus
 (
 SERVICE_STOPPED
+success
+?
 NO_ERROR
+:
+1
 0
 )
 ;

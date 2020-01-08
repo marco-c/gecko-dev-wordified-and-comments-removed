@@ -153,11 +153,6 @@ progressui_win
 .
 cpp
 '
-'
-win_dirent
-.
-cpp
-'
 ]
 RCINCLUDE
 =

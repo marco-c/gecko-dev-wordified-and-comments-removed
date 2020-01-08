@@ -228,6 +228,12 @@ XRE_UPDATE_ROOT_DIR
 "
 UpdRootD
 "
+#
+define
+XRE_OLD_UPDATE_ROOT_DIR
+"
+OldUpdRootD
+"
 namespace
 mozilla
 {
