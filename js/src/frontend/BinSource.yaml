@@ -100,9 +100,7 @@ item
 Rules
 for
 generating
-BinSource
--
-auto
+BinASTParser
 .
 cpp
 cpp
@@ -303,9 +301,7 @@ include
 "
 frontend
 /
-BinSource
--
-macros
+BinASTParserPerTokenizer
 .
 h
 "
@@ -315,6 +311,8 @@ include
 frontend
 /
 BinSource
+-
+macros
 .
 h
 "
@@ -1065,9 +1063,7 @@ are
 also
 defined
 in
-BinSource
--
-auto
+BinASTParser
 .
 h
 .

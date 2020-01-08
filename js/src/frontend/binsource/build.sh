@@ -31,9 +31,7 @@ class
 .
 .
 /
-BinSource
--
-auto
+BinASTParser
 .
 h
 \
@@ -45,9 +43,7 @@ impl
 .
 .
 /
-BinSource
--
-auto
+BinASTParser
 .
 cpp
 \

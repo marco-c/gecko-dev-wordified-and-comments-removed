@@ -1,9 +1,9 @@
 #
 ifndef
-frontend_BinSource_h
+frontend_BinASTParserPerTokenizer_h
 #
 define
-frontend_BinSource_h
+frontend_BinASTParserPerTokenizer_h
 #
 include
 "
@@ -648,9 +648,7 @@ include
 "
 frontend
 /
-BinSource
--
-auto
+BinASTParser
 .
 h
 "
