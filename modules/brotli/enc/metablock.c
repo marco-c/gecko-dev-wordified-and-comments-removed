@@ -947,10 +947,6 @@ dist_cost
 best_dist_cost
 )
 {
-best_dist_cost
-=
-dist_cost
-;
 params
 -
 >
