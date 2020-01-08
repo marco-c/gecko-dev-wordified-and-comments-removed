@@ -148,6 +148,11 @@ components
 redux
 '
 '
+remote
+-
+debugging
+'
+'
 source
 -
 map
