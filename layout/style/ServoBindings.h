@@ -1820,6 +1820,16 @@ output
 )
 ;
 void
+Servo_SerializeEasing
+(
+nsTimingFunctionBorrowed
+easing
+nsAString
+*
+output
+)
+;
+void
 Servo_GetComputedKeyframeValues
 (
 RawGeckoKeyframeListBorrowed
