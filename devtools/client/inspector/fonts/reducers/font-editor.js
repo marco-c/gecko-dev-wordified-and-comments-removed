@@ -74,18 +74,6 @@ customInstanceValues
 :
 [
 ]
-families
-:
-{
-used
-:
-[
-]
-notUsed
-:
-[
-]
-}
 fonts
 :
 [
@@ -340,7 +328,6 @@ UPDATE_EDITOR_STATE
 state
 {
 fonts
-families
 properties
 id
 }
@@ -490,7 +477,6 @@ return
 state
 axes
 fonts
-families
 properties
 id
 }
