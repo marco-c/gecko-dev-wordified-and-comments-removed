@@ -8387,6 +8387,17 @@ nsGkAtoms
 focus
 )
 ;
+else
+mScratchArray
+.
+AppendElement
+(
+nsGkAtoms
+:
+:
+blur
+)
+;
 bool
 sorted
 =
