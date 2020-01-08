@@ -3032,6 +3032,13 @@ cpp
 '
 vm
 /
+OffThreadScriptCompilation
+.
+cpp
+'
+'
+vm
+/
 PIC
 .
 cpp
