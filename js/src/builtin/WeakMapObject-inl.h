@@ -222,9 +222,11 @@ if
 !
 newMap
 )
+{
 return
 false
 ;
+}
 map
 =
 newMap
@@ -251,9 +253,11 @@ cx
 key
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 JSWeakmapKeyDelegateOp
@@ -294,9 +298,11 @@ cx
 delegate
 )
 )
+{
 return
 false
 ;
+}
 }
 MOZ_ASSERT
 (
