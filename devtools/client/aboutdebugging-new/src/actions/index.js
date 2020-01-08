@@ -4,6 +4,18 @@ strict
 "
 ;
 const
+runtime
+=
+require
+(
+"
+.
+/
+runtime
+"
+)
+;
+const
 ui
 =
 require
@@ -21,5 +33,6 @@ assign
 (
 exports
 ui
+runtime
 )
 ;
