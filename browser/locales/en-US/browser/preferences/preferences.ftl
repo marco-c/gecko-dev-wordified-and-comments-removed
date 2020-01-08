@@ -2980,12 +2980,12 @@ Section
 Proxy
 network
 -
-proxy
+settings
 -
 title
 =
 Network
-Proxy
+Settings
 network
 -
 proxy
