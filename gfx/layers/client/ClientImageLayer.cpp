@@ -334,6 +334,7 @@ ImageLayerAttributes
 mSamplingFilter
 mScaleToSize
 mScaleMode
+mRepeatSize
 )
 ;
 }

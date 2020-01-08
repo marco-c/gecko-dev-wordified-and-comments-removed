@@ -2020,6 +2020,9 @@ scaleToSize
 ScaleMode
 scaleMode
 ;
+IntSize
+repeatSize
+;
 }
 ;
 union
