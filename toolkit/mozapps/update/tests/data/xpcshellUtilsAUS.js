@@ -14494,10 +14494,6 @@ false
 if
 (
 IS_UNIX
-&
-&
-!
-IS_MACOSX
 )
 {
 return
