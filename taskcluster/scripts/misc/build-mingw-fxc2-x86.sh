@@ -99,7 +99,7 @@ github
 .
 com
 /
-tomrittervg
+mozilla
 /
 fxc2
 .
@@ -113,7 +113,7 @@ fxc2
 clone
 git
 checkout
-502ef40807a472ba845f1cbdeac95ecab1aea2fd
+63ad74b7faa7033f2c1be9cc1cd0225241a1a9a5
 #
 Asserts
 integrity
