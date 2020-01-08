@@ -746,9 +746,6 @@ documentHasUserInteracted
 bool
 documentHasLoaded
 ;
-bool
-isFromProcessingFrameAttributes
-;
 }
 ;
 /

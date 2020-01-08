@@ -283,11 +283,6 @@ SetBrowserWouldUpgradeInsecureRequests
 (
 )
 ;
-void
-SetIsFromProcessingFrameAttributes
-(
-)
-;
 private
 :
 LoadInfo
@@ -801,9 +796,6 @@ mDocumentHasUserInteracted
 ;
 bool
 mDocumentHasLoaded
-;
-bool
-mIsFromProcessingFrameAttributes
 ;
 }
 ;
