@@ -1414,6 +1414,17 @@ aImage
 ;
 static
 bool
+GetModuleFullPath
+(
+HMODULE
+aModuleHandle
+nsAString
+&
+aPath
+)
+;
+static
+bool
 CanonicalizePath
 (
 nsAString
