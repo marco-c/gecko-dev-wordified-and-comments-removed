@@ -838,6 +838,11 @@ s
 )
 -
 >
+:
+:
+nserror
+:
+:
 nsresult
 "
 %
@@ -968,6 +973,11 @@ strip
     
 return
 "
+:
+:
+nserror
+:
+:
 nsresult
 "
 def
@@ -1704,6 +1714,11 @@ ret_ty
 '
 :
 '
+:
+:
+nserror
+:
+:
 nsresult
 '
             
