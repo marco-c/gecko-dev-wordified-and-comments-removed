@@ -1393,7 +1393,7 @@ output
 -
 icon
 -
-medium
+strong
 -
 color
 )
@@ -1463,7 +1463,9 @@ skin
 /
 images
 /
-alert
+webconsole
+/
+error
 .
 svg
 )
