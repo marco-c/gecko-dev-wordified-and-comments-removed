@@ -667,7 +667,6 @@ _handleMessage
 onActivate
 (
 window
-hasFocus
 )
 {
 if
