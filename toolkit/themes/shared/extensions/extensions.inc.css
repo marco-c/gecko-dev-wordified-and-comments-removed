@@ -2102,6 +2102,16 @@ pointer
 ;
 }
 .
+relnotes
+-
+container
+{
+cursor
+:
+auto
+;
+}
+.
 addon
 -
 view
