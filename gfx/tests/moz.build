@@ -121,3 +121,15 @@ chrome
 ini
 '
 ]
+MARIONETTE_GFX_MANIFESTS
++
+=
+[
+'
+marionette
+/
+manifest
+.
+ini
+'
+]
