@@ -69,7 +69,7 @@ shell
 ;
 const
 {
-trackDevices
+TrackDevicesCommand
 }
 =
 require
@@ -92,6 +92,6 @@ listDevices
 prepareTCPConnection
 runCommand
 shell
-trackDevices
+TrackDevicesCommand
 }
 ;
