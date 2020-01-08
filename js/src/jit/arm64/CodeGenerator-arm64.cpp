@@ -6280,7 +6280,7 @@ scratch
 ;
 masm
 .
-branchTest32
+branch32
 (
 Assembler
 :
