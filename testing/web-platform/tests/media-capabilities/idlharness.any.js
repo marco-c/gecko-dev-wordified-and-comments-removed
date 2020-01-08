@@ -180,7 +180,7 @@ MediaCapabilities
 :
 [
 '
-navigatior
+navigator
 .
 mediaCapabilities
 '
