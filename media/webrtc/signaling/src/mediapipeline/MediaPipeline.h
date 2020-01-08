@@ -1098,6 +1098,12 @@ MediaSessionConduit
 aConduit
 )
 ;
+bool
+Transmitting
+(
+)
+const
+;
 void
 Start
 (
