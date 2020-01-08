@@ -2526,6 +2526,12 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
+nsCOMPtr
+<
+nsIFile
+>
+cloned
+;
 rv
 =
 storageFile
@@ -2535,7 +2541,7 @@ Clone
 (
 getter_AddRefs
 (
-storageFile
+cloned
 )
 )
 ;
@@ -2545,6 +2551,14 @@ NS_SUCCEEDED
 (
 rv
 )
+)
+;
+storageFile
+=
+cloned
+.
+forget
+(
 )
 ;
 if
