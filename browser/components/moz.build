@@ -363,9 +363,6 @@ DIRS
 =
 [
 '
-aboutconfig
-'
-'
 payments
 '
 ]
