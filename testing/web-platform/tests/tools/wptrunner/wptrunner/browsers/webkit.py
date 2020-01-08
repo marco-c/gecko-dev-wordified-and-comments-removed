@@ -18,12 +18,12 @@ from
 .
 executors
 .
-executorselenium
+executorwebdriver
 import
 (
-SeleniumTestharnessExecutor
-                                          
-SeleniumRefTestExecutor
+WebDriverTestharnessExecutor
+                                           
+WebDriverRefTestExecutor
 )
 from
 .
@@ -84,7 +84,7 @@ testharness
 "
 :
 "
-SeleniumTestharnessExecutor
+WebDriverTestharnessExecutor
 "
                               
 "
@@ -92,7 +92,7 @@ reftest
 "
 :
 "
-SeleniumRefTestExecutor
+WebDriverRefTestExecutor
 "
                               
 "
@@ -219,13 +219,6 @@ kwargs
 )
 :
     
-from
-selenium
-.
-webdriver
-import
-DesiredCapabilities
-    
 if
 kwargs
 [
@@ -242,28 +235,42 @@ gtk
         
 capabilities
 =
-dict
-(
-DesiredCapabilities
+{
+            
+"
+browserName
+"
+:
+"
+MiniBrowser
+"
+            
+"
+browserVersion
+"
+:
+"
+2
 .
-WEBKITGTK
-.
-copy
-(
-)
-)
-        
-capabilities
-[
+20
+"
+            
+"
+platformName
+"
+:
+"
+ANY
+"
+            
 "
 webkitgtk
 :
 browserOptions
 "
-]
-=
+:
 {
-            
+                
 "
 binary
 "
@@ -274,7 +281,7 @@ kwargs
 binary
 "
 ]
-            
+                
 "
 args
 "
@@ -289,13 +296,13 @@ binary_args
 [
 ]
 )
-            
+                
 "
 certificates
 "
 :
 [
-                
+                    
 {
 "
 host
@@ -307,7 +314,7 @@ server_config
 browser_host
 "
 ]
-                 
+                     
 "
 certificateFile
 "
@@ -319,8 +326,10 @@ host_cert_path
 "
 ]
 }
-            
+                
 ]
+            
+}
         
 }
         
