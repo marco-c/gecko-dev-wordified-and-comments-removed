@@ -57,11 +57,11 @@ kDarkerScale
 =
 2
 .
-0
+0f
 /
 3
 .
-0
+0f
 ;
 uint8_t
 r
