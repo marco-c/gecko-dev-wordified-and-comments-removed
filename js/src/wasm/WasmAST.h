@@ -285,9 +285,11 @@ length
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 begin
@@ -301,9 +303,11 @@ begin
 (
 )
 )
+{
 return
 true
 ;
+}
 return
 EqualChars
 (
@@ -758,6 +762,7 @@ which_
 =
 IsValType
 )
+{
 return
 type_
 .
@@ -765,6 +770,7 @@ code
 (
 )
 ;
+}
 return
 ValType
 :
@@ -811,9 +817,11 @@ that
 .
 which_
 )
+{
 return
 false
 ;
+}
 if
 (
 which_
@@ -821,6 +829,7 @@ which_
 =
 IsValType
 )
+{
 return
 type_
 =
@@ -829,6 +838,7 @@ that
 .
 type_
 ;
+}
 return
 ref_
 =
@@ -1082,6 +1092,7 @@ which_
 =
 IsExprType
 )
+{
 return
 type_
 .
@@ -1089,6 +1100,7 @@ code
 (
 )
 ;
+}
 return
 ExprType
 :
@@ -1109,9 +1121,11 @@ which_
 =
 IsExprType
 )
+{
 return
 type_
 ;
+}
 return
 ExprType
 (
@@ -1144,9 +1158,11 @@ that
 .
 which_
 )
+{
 return
 false
 ;
+}
 if
 (
 which_
@@ -1154,6 +1170,7 @@ which_
 =
 IsExprType
 )
+{
 return
 type_
 =
@@ -1162,6 +1179,7 @@ that
 .
 type_
 ;
+}
 return
 vt_
 =
@@ -1655,9 +1673,11 @@ ret
 (
 )
 )
+{
 return
 false
 ;
+}
 size_t
 len
 =
@@ -1684,9 +1704,11 @@ length
 =
 len
 )
+{
 return
 false
 ;
+}
 for
 (
 size_t
@@ -1722,9 +1744,11 @@ args
 i
 ]
 )
+{
 return
 false
 ;
+}
 }
 return
 true
@@ -1773,6 +1797,7 @@ args
 (
 )
 )
+{
 hn
 =
 mozilla
@@ -1791,6 +1816,7 @@ code
 )
 )
 ;
+}
 return
 hn
 ;
@@ -6340,9 +6366,11 @@ if
 (
 startFunc_
 )
+{
 return
 false
 ;
+}
 startFunc_
 .
 emplace
@@ -6501,9 +6529,11 @@ append
 funcType
 )
 )
+{
 return
 false
 ;
+}
 FuncTypeMap
 :
 :
@@ -6607,6 +6637,7 @@ isFuncType
 (
 )
 )
+{
 return
 append
 (
@@ -6619,6 +6650,7 @@ asFuncType
 )
 )
 ;
+}
 if
 (
 td
@@ -6628,6 +6660,7 @@ isStructType
 (
 )
 )
+{
 return
 append
 (
@@ -6640,6 +6673,7 @@ asStructType
 )
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -6688,9 +6722,11 @@ name
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -6718,9 +6754,11 @@ true
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
@@ -6748,9 +6786,11 @@ true
 )
 )
 )
+{
 return
 false
 ;
+}
 break
 ;
 case
