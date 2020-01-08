@@ -694,10 +694,6 @@ length
 =
 =
 0
-?
-true
-:
-false
 ;
 for
 (
@@ -1896,10 +1892,6 @@ start
 >
 =
 timeout
-?
-true
-:
-false
 ;
 if
 (
@@ -2182,9 +2174,9 @@ file
 +
 gExtractedPath
 +
-'
+"
 /
-'
+"
 ;
 }
 function
@@ -2265,6 +2257,7 @@ content
 contentWindow
 ;
 }
+;
 TestWindow
 .
 getBrowser
@@ -2284,6 +2277,7 @@ content
 )
 ;
 }
+;
 TestWindow
 .
 getDocument
@@ -2305,3 +2299,4 @@ content
 contentDocument
 ;
 }
+;
