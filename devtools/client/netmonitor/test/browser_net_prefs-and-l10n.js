@@ -149,7 +149,7 @@ getFormatStr
 "
 networkMenu
 .
-totalMS
+totalMS2
 "
 "
 foo
