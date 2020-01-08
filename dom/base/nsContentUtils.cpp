@@ -51605,6 +51605,11 @@ return
 false
 ;
 }
+ToLowerCase
+(
+host
+)
+;
 nsAutoCString
 blackList
 ;
@@ -51614,6 +51619,11 @@ Preferences
 GetCString
 (
 aPrefName
+blackList
+)
+;
+ToLowerCase
+(
 blackList
 )
 ;
@@ -51799,6 +51809,11 @@ aURI
 -
 >
 GetFilePath
+(
+filePath
+)
+;
+ToLowerCase
 (
 filePath
 )
