@@ -24,6 +24,10 @@ const
 INITIAL_FONT_DATA
 =
 {
+allFonts
+:
+[
+]
 fonts
 :
 [
@@ -46,6 +50,7 @@ _
 {
 fonts
 otherFonts
+allFonts
 }
 )
 {
@@ -53,6 +58,7 @@ return
 {
 fonts
 otherFonts
+allFonts
 }
 ;
 }
