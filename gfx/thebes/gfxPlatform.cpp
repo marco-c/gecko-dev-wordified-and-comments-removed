@@ -5032,11 +5032,6 @@ XRE_IsParentProcess
 )
 &
 &
-BrowserTabsRemoteAutostart
-(
-)
-&
-&
 Preferences
 :
 :
