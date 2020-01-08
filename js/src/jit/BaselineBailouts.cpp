@@ -4735,6 +4735,17 @@ baselineScript
 (
 )
 ;
+ICScript
+*
+icScript
+=
+script
+-
+>
+icScript
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -5004,7 +5015,7 @@ ICEntry
 &
 icEntry
 =
-baselineScript
+icScript
 -
 >
 icEntryFromPCOffset
@@ -5094,7 +5105,7 @@ ICEntry
 &
 icEntry
 =
-baselineScript
+icScript
 -
 >
 icEntryFromPCOffset
@@ -6090,7 +6101,7 @@ ICEntry
 &
 icEntry
 =
-baselineScript
+icScript
 -
 >
 icEntryFromPCOffset

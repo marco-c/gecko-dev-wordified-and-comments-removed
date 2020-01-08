@@ -19899,6 +19899,9 @@ types_
 >
 destroy
 (
+zone
+(
+)
 )
 ;
 }

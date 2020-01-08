@@ -101,6 +101,17 @@ include
 "
 vm
 /
+JSScript
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 -
 inl
@@ -3349,7 +3360,7 @@ if
 script
 -
 >
-hasBaselineScript
+hasICScript
 (
 )
 )
@@ -3364,7 +3375,7 @@ entry
 script
 -
 >
-baselineScript
+icScript
 (
 )
 -
