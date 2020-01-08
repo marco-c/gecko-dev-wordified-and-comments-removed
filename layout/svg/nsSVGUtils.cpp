@@ -3998,8 +3998,6 @@ nsSVGClipPathFrame
 *
 clipPathFrame
 ;
-if
-(
 SVGObserverUtils
 :
 :
@@ -4009,18 +4007,7 @@ aFrame
 &
 clipPathFrame
 )
-=
-=
-SVGObserverUtils
-:
-:
-eHasRefsSomeInvalid
-)
-{
-return
-false
 ;
-}
 if
 (
 clipPathFrame
