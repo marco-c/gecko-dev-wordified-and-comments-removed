@@ -59,6 +59,12 @@ addUpgradeListener
 "
 removeUpgradeListener
 "
+"
+getInstallSourceFromHost
+"
+"
+getInstallSourceFromPrincipal
+"
 ]
 ;
 const
