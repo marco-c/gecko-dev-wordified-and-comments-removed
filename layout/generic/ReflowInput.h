@@ -3280,15 +3280,6 @@ LayoutFrameType
 aFrameType
 )
 ;
-static
-void
-MarkFrameChildrenDirty
-(
-nsIFrame
-*
-aFrame
-)
-;
 }
 ;
 }

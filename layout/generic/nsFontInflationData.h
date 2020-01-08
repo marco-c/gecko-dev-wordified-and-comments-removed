@@ -74,13 +74,13 @@ mInflationEnabled
 ;
 }
 nscoord
-UsableISize
+EffectiveISize
 (
 )
 const
 {
 return
-mUsableISize
+mNCAISize
 ;
 }
 private
@@ -210,7 +210,7 @@ nsIFrame
 mBFCFrame
 ;
 nscoord
-mUsableISize
+mNCAISize
 ;
 nscoord
 mTextAmount
