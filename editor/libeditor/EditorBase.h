@@ -284,6 +284,9 @@ class
 AutoTopLevelEditSubActionNotifier
 ;
 class
+AutoTransactionBatch
+;
+class
 AutoTransactionsConserveSelection
 ;
 class
@@ -4010,6 +4013,16 @@ EndUpdateViewBatch
 (
 )
 ;
+void
+BeginTransactionInternal
+(
+)
+;
+void
+EndTransactionInternal
+(
+)
+;
 protected
 :
 virtual
@@ -4560,6 +4573,10 @@ AutoSelectionRestorer
 friend
 class
 AutoTopLevelEditSubActionNotifier
+;
+friend
+class
+AutoTransactionBatch
 ;
 friend
 class
