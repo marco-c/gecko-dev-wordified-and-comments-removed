@@ -91,11 +91,6 @@ Use
 a
 newer
 binutils
-from
-the
-tooltool
-gcc
-package
 if
 it
 '
@@ -108,7 +103,7 @@ e
 "
 topsrcdir
 /
-gcc
+binutils
 /
 bin
 /
@@ -126,7 +121,7 @@ CC
 B
 topsrcdir
 /
-gcc
+binutils
 /
 bin
 "
@@ -139,7 +134,7 @@ CXX
 B
 topsrcdir
 /
-gcc
+binutils
 /
 bin
 "

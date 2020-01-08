@@ -212,6 +212,12 @@ TOOLTOOL_DIR
 clang
 /
 lib
+:
+TOOLTOOL_DIR
+/
+clang
+/
+lib32
 fi
 mk_add_options
 "
