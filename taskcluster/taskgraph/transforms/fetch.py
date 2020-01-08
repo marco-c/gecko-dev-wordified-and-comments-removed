@@ -52,6 +52,17 @@ Schema
     
 validate_schema
 )
+from
+.
+.
+util
+.
+treeherder
+import
+(
+    
+join_symbol
+)
 CACHE_TYPE
 =
 '
@@ -94,15 +105,6 @@ Required
 (
 '
 description
-'
-)
-:
-basestring
-    
-Required
-(
-'
-symbol
 '
 )
 :
@@ -856,12 +858,15 @@ symbol
 '
 ]
 =
-job
-[
+join_symbol
+(
 '
-symbol
+Fetch
+-
+URL
 '
-]
+name
+)
     
 task
 [
