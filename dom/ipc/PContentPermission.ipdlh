@@ -68,9 +68,6 @@ PermissionRequest
 nsCString
 type
 ;
-nsCString
-access
-;
 nsString
 [
 ]

@@ -1189,12 +1189,6 @@ NS_LITERAL_CSTRING
 geolocation
 "
 )
-NS_LITERAL_CSTRING
-(
-"
-unused
-"
-)
 emptyOptions
 aTypes
 )

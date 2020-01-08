@@ -110,10 +110,6 @@ nsACString
 &
 aType
 const
-nsACString
-&
-aAccess
-const
 nsTArray
 <
 nsString
@@ -132,9 +128,6 @@ ContentPermissionType
 ;
 nsCString
 mType
-;
-nsCString
-mAccess
 ;
 nsTArray
 <
@@ -187,10 +180,6 @@ const
 nsACString
 &
 aType
-const
-nsACString
-&
-aAccess
 const
 nsTArray
 <

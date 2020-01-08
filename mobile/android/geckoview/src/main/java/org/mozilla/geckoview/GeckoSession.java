@@ -3019,14 +3019,6 @@ uri
 "
 )
 type
-message
-.
-getString
-(
-"
-access
-"
-)
 new
 PermissionCallback
 (
@@ -12512,8 +12504,6 @@ uri
 Permission
 int
 type
-String
-access
 Callback
 callback
 )

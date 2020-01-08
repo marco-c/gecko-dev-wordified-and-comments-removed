@@ -281,12 +281,6 @@ NS_LITERAL_CSTRING
 midi
 "
 )
-NS_LITERAL_CSTRING
-(
-"
-unused
-"
-)
 options
 aTypes
 )
