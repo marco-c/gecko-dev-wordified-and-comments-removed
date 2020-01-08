@@ -229,9 +229,8 @@ popupsets
 (
 commands
 keys
-stringbundles
 and
-broadcasters
+stringbundles
 )
 #
 *

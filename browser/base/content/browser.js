@@ -2711,7 +2711,7 @@ aWebNavigation
 )
 {
 var
-backBroadcaster
+backCommand
 =
 document
 .
@@ -2725,7 +2725,7 @@ Back
 )
 ;
 var
-forwardBroadcaster
+forwardCommand
 =
 document
 .
@@ -2741,7 +2741,7 @@ Forward
 var
 backDisabled
 =
-backBroadcaster
+backCommand
 .
 hasAttribute
 (
@@ -2753,7 +2753,7 @@ disabled
 var
 forwardDisabled
 =
-forwardBroadcaster
+forwardCommand
 .
 hasAttribute
 (
@@ -2776,7 +2776,7 @@ if
 (
 backDisabled
 )
-backBroadcaster
+backCommand
 .
 removeAttribute
 (
@@ -2786,7 +2786,7 @@ disabled
 )
 ;
 else
-backBroadcaster
+backCommand
 .
 setAttribute
 (
@@ -2811,7 +2811,7 @@ if
 (
 forwardDisabled
 )
-forwardBroadcaster
+forwardCommand
 .
 removeAttribute
 (
@@ -2821,7 +2821,7 @@ disabled
 )
 ;
 else
-forwardBroadcaster
+forwardCommand
 .
 setAttribute
 (
