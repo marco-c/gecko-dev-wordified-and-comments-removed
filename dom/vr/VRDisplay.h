@@ -1742,6 +1742,11 @@ IsHandlingVRNavigationEvent
 (
 )
 ;
+void
+OnPresentationGenerationChanged
+(
+)
+;
 protected
 :
 VRDisplay

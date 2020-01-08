@@ -2276,6 +2276,13 @@ NotifyActiveVRDisplaysChanged
 )
 ;
 void
+NotifyPresentationGenerationChanged
+(
+uint32_t
+aDisplayID
+)
+;
+void
 DispatchVRDisplayActivate
 (
 uint32_t

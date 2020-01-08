@@ -104,6 +104,13 @@ aDisplayID
 )
 ;
 void
+NotifyPresentationGenerationChanged
+(
+uint32_t
+aDisplayID
+)
+;
+void
 DisconnectFromOwner
 (
 )
