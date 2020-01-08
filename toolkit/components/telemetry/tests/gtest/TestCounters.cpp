@@ -26,6 +26,8 @@ h
 #
 include
 "
+mozilla
+/
 Telemetry
 .
 h

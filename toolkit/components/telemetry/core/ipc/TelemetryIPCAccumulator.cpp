@@ -98,6 +98,8 @@ h
 #
 include
 "
+core
+/
 TelemetryHistogram
 .
 h
@@ -105,6 +107,8 @@ h
 #
 include
 "
+core
+/
 TelemetryScalar
 .
 h

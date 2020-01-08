@@ -3,9 +3,13 @@ __future__
 import
 print_function
 from
+parsers
+.
 shared_telemetry_utils
 import
 ParserError
+from
+parsers
 import
 parse_histograms
 import
