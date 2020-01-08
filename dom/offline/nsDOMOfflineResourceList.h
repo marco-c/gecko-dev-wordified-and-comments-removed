@@ -273,14 +273,7 @@ ErrorResult
 &
 aRv
 )
-{
-aRv
-=
-Update
-(
-)
 ;
-}
 void
 SwapCache
 (
