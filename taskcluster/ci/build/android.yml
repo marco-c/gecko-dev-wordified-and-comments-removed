@@ -3220,8 +3220,6 @@ linux64
 -
 clang
 -
-6
--
 linux64
 -
 rust
@@ -3738,8 +3736,6 @@ linux
 linux64
 -
 clang
--
-6
 -
 linux64
 -
@@ -4304,8 +4300,6 @@ linux64
 -
 clang
 -
-6
--
 linux64
 -
 rust
@@ -4829,8 +4823,6 @@ linux
 linux64
 -
 clang
--
-6
 -
 linux64
 -
@@ -5377,8 +5369,6 @@ linux
 linux64
 -
 clang
--
-6
 -
 linux64
 -
