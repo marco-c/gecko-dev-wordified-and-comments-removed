@@ -538,11 +538,6 @@ macosx
 *
 :
 1
-windows
-.
-*
-:
-1
 default
 :
 6
@@ -729,11 +724,6 @@ test
 platform
 :
 macosx
-.
-*
-:
-1
-windows
 .
 *
 :
