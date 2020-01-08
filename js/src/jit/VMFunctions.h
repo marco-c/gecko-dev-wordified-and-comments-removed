@@ -4730,12 +4730,6 @@ cx
 BaselineFrame
 *
 frame
-jsbytecode
-*
-pc
-bool
-*
-mustReturn
 )
 ;
 MOZ_MUST_USE
