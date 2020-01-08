@@ -991,8 +991,6 @@ prefix
 =
 input
 .
-r
-#
 try
 (
 |

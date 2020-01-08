@@ -144,8 +144,6 @@ i
 if
 input
 .
-r
-#
 try
 (
 |
@@ -177,12 +175,6 @@ none
 )
 ;
 }
-/
-/
-Parse
-possible
-functions
-.
 let
 location
 =

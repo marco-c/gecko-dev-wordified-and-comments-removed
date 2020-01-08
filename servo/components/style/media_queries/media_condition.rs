@@ -623,8 +623,6 @@ operator
 match
 input
 .
-r
-#
 try
 (
 Operator
@@ -749,8 +747,6 @@ loop
 if
 input
 .
-r
-#
 try
 (
 |
@@ -911,8 +907,6 @@ inner
 =
 input
 .
-r
-#
 try
 (
 |
