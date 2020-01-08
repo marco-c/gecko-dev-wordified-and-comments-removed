@@ -47484,8 +47484,6 @@ UniquePtr
 <
 FullscreenRequest
 >
-&
-&
 aRequest
 )
 :
@@ -47557,8 +47555,6 @@ UniquePtr
 <
 FullscreenRequest
 >
-&
-&
 aRequest
 )
 {
@@ -49029,8 +49025,6 @@ UniquePtr
 <
 FullscreenRequest
 >
-&
-&
 aRequest
 )
 {
@@ -49492,8 +49486,6 @@ UniquePtr
 <
 FullscreenRequest
 >
-&
-&
 aRequest
 )
 {

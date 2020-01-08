@@ -4210,8 +4210,6 @@ UniquePtr
 <
 FullscreenRequest
 >
-&
-&
 )
 ;
 bool
@@ -4234,8 +4232,6 @@ UniquePtr
 <
 FullscreenRequest
 >
-&
-&
 aRequest
 )
 ;
