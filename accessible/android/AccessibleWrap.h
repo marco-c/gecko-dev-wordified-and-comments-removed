@@ -136,6 +136,10 @@ GeckoBundle
 LocalRef
 ToBundle
 (
+bool
+aMinimal
+=
+false
 )
 ;
 int32_t
