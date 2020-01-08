@@ -9534,16 +9534,6 @@ if
 (
 !
 uriToLoad
-|
-|
-uriToLoad
-=
-=
-"
-about
-:
-blank
-"
 )
 {
 return

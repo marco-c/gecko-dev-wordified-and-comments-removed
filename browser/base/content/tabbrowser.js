@@ -1418,7 +1418,7 @@ _createBrowser
 {
 uriIsAboutBlank
 :
-true
+false
 userContextId
 }
 )
