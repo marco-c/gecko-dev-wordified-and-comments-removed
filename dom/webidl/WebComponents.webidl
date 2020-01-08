@@ -152,9 +152,6 @@ apply
 .
 *
 /
-interface
-IID
-;
 callback
 LifecycleConnectedCallback
 =
@@ -206,7 +203,7 @@ LifecycleGetCustomInterfaceCallback
 object
 ?
 (
-IID
+any
 iid
 )
 ;
