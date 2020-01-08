@@ -2285,24 +2285,6 @@ blank
 "
 )
     
-skip
-(
-"
-Bug
-1332064
--
-NoSuchElementException
-:
-Unable
-to
-locate
-element
-:
-:
-focus
-"
-)
-    
 run_if_manage_instance
 (
 "
@@ -2339,15 +2321,7 @@ self
 .
 marionette
 .
-quit
-(
-)
-        
-self
-.
-marionette
-.
-start_session
+restart
 (
 )
         
