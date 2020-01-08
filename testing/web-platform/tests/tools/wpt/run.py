@@ -2078,6 +2078,26 @@ platform
 features
 "
 )
+            
+kwargs
+[
+"
+binary_args
+"
+]
+.
+append
+(
+"
+-
+-
+enable
+-
+features
+=
+RTCUnifiedPlanByDefault
+"
+)
         
 kwargs
 [
