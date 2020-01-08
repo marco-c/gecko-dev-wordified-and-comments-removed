@@ -922,10 +922,6 @@ n
 "
 )
 ;
-DeleteSnapshotFiles
-(
-)
-;
 _exit
 (
 0

@@ -3012,14 +3012,6 @@ dir
 }
 }
 }
-base
-:
-:
-ProcessId
-actualParentPID
-=
-parentPID
-;
 parentPID
 =
 recordreplay
@@ -3210,7 +3202,6 @@ child
 :
 InitRecordingOrReplayingProcess
 (
-actualParentPID
 &
 aArgc
 &

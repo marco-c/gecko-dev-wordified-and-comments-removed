@@ -25,11 +25,6 @@ child
 void
 InitRecordingOrReplayingProcess
 (
-base
-:
-:
-ProcessId
-aParentPid
 int
 *
 aArgc
