@@ -2639,10 +2639,10 @@ NS_OK
 if
 (
 !
-document
+aTarget
 -
 >
-IsXULDocument
+IsXULElement
 (
 )
 )
