@@ -764,7 +764,16 @@ endif
 {
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS_WITH_RECORDING
+(
+recordreplay
+:
+:
+Behavior
+:
+:
+Preserve
+)
 NS_DECL_NSIRUNNABLE
 #
 ifdef
