@@ -1268,6 +1268,12 @@ wr
 TransactionBuilder
 &
 aTxn
+wr
+:
+:
+TransactionBuilder
+&
+aTxnForImageBridge
 )
 ;
 void
