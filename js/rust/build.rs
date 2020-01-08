@@ -1000,7 +1000,7 @@ JS
 IsAcceptableThis
 "
 "
-JSAutoRealmAllowCCW
+JSAutoRealm
 "
 "
 JSAutoStructuredCloneBuffer

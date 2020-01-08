@@ -35,7 +35,7 @@ pub
 struct
 AutoRealm
 (
-JSAutoRealmAllowCCW
+JSAutoRealm
 )
 ;
 impl
@@ -96,7 +96,7 @@ null_mut
 ;
 AutoRealm
 (
-JSAutoRealmAllowCCW
+JSAutoRealm
 :
 :
 new
@@ -149,7 +149,7 @@ AutoRealm
 {
 AutoRealm
 (
-JSAutoRealmAllowCCW
+JSAutoRealm
 :
 :
 new
@@ -214,7 +214,7 @@ null_mut
 ;
 AutoRealm
 (
-JSAutoRealmAllowCCW
+JSAutoRealm
 :
 :
 new1
@@ -267,7 +267,7 @@ AutoRealm
 {
 AutoRealm
 (
-JSAutoRealmAllowCCW
+JSAutoRealm
 :
 :
 new1
