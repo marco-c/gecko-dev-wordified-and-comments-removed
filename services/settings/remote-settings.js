@@ -3095,6 +3095,15 @@ key
 c
 )
 ;
+Services
+.
+prefs
+.
+clearUserPref
+(
+PREF_SETTINGS_LAST_ETAG
+)
+;
 }
 return
 _clients
