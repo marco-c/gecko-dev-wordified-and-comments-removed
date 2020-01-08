@@ -363,10 +363,6 @@ p
 "
 WORKSPACE
 /
-build
-/
-upload
-/
 logs
 "
 mkdir
