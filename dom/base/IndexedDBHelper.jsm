@@ -869,7 +869,6 @@ oncomplete
 =
 function
 (
-event
 )
 {
 if
@@ -894,6 +893,15 @@ if
 successCb
 )
 {
+if
+(
+"
+result
+"
+in
+txn
+)
+{
 successCb
 (
 txn
@@ -901,6 +909,14 @@ txn
 result
 )
 ;
+}
+else
+{
+successCb
+(
+)
+;
+}
 }
 }
 ;
@@ -910,7 +926,6 @@ onabort
 =
 function
 (
-event
 )
 {
 if
@@ -936,9 +951,7 @@ failureCb
 (
 getErrorName
 (
-event
-.
-target
+txn
 .
 error
 )
