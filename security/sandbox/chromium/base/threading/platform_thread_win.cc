@@ -166,9 +166,6 @@ char
 name
 )
 {
-#
-ifndef
-__MINGW32__
 THREADNAME_INFO
 info
 ;
@@ -229,8 +226,6 @@ EXCEPTION_CONTINUE_EXECUTION
 )
 {
 }
-#
-endif
 }
 struct
 ThreadParams
