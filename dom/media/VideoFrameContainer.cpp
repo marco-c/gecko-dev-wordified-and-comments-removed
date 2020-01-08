@@ -21,6 +21,13 @@ MediaDecoderOwner
 .
 h
 "
+#
+include
+"
+Tracing
+.
+h
+"
 using
 namespace
 mozilla
@@ -500,6 +507,10 @@ VideoSegment
 aSegment
 )
 {
+TRACE
+(
+)
+;
 if
 (
 aSegment

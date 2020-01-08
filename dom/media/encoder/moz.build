@@ -205,6 +205,14 @@ libyuv
 include
 '
 ]
+DEFINES
+[
+'
+TRACING
+'
+]
+=
+True
 FINAL_LIBRARY
 =
 '

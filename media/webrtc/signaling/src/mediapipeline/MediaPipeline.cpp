@@ -7945,6 +7945,13 @@ VIDEO
 return
 ;
 }
+TRACE_AUDIO_CALLBACK_COMMENT
+(
+"
+Audio
+"
+)
+;
 if
 (
 mDirectConnect
