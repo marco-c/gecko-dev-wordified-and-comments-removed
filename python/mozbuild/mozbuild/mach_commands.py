@@ -10886,20 +10886,6 @@ shutil
 from
 taskgraph
 .
-config
-import
-load_graph_config
-        
-from
-taskgraph
-.
-generator
-import
-Kind
-        
-from
-taskgraph
-.
 util
 .
 taskcluster
@@ -11700,6 +11686,22 @@ False
             
 )
             
+root_dir
+=
+mozpath
+.
+join
+(
+self
+.
+topsrcdir
+'
+taskcluster
+/
+ci
+'
+)
+            
 toolchains
 =
 load_tasks_for_kind
@@ -11708,6 +11710,9 @@ params
 '
 toolchain
 '
+root_dir
+=
+root_dir
 )
             
 aliases
