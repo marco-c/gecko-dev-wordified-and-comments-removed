@@ -976,6 +976,13 @@ nullptr
 )
 ;
 }
+gfxFloat
+GetMinAdvanceWidth
+(
+Range
+aRange
+)
+;
 virtual
 bool
 SetLineBreaks
