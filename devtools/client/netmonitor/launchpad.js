@@ -150,6 +150,9 @@ method
 "
 \
 "
+domain
+\
+"
 file
 \
 "

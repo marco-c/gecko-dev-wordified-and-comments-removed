@@ -1319,12 +1319,12 @@ method
 "
 \
 "
-file
-\
-"
-\
-"
 domain
+\
+"
+\
+"
+file
 \
 "
 \
