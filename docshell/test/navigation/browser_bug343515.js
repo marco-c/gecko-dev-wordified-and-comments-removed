@@ -578,7 +578,7 @@ location
 )
 ;
 let
-docShell
+docshell
 =
 content
 .
@@ -1151,7 +1151,7 @@ i
 )
 {
 let
-docShell
+docshell
 =
 content
 .
@@ -1451,7 +1451,7 @@ i
 )
 {
 let
-docShell
+docshell
 =
 content
 .

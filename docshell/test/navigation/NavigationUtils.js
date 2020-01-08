@@ -17,7 +17,6 @@ navigation_target_url
 .
 html
 "
-;
 var
 popup_body
 =
