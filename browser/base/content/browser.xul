@@ -6430,6 +6430,9 @@ menubar
 class
 =
 "
+browser
+-
+toolbar
 chromeclass
 -
 menubar
@@ -6590,6 +6593,9 @@ TabsToolbar
 class
 =
 "
+browser
+-
+toolbar
 titlebar
 -
 color
@@ -7052,6 +7058,13 @@ id
 nav
 -
 bar
+"
+class
+=
+"
+browser
+-
+toolbar
 "
 aria
 -
@@ -10707,6 +10720,9 @@ icons
 class
 =
 "
+browser
+-
+toolbar
 chromeclass
 -
 directories
