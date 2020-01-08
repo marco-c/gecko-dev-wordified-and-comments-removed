@@ -1,13 +1,6 @@
 #
 include
 "
-CubebDeviceEnumerator
-.
-h
-"
-#
-include
-"
 CubebUtils
 .
 h
@@ -3008,13 +3001,6 @@ UnregisterCallbacks
 (
 PrefChanged
 gCallbackPrefs
-)
-;
-CubebDeviceEnumerator
-:
-:
-Shutdown
-(
 )
 ;
 StaticMutexAutoLock

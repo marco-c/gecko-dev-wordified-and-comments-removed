@@ -157,11 +157,6 @@ AllocationHandle
 h
 '
 '
-CubebDeviceEnumerator
-.
-h
-'
-'
 MediaEngine
 .
 h
@@ -273,11 +268,6 @@ SOURCES
 +
 =
 [
-'
-CubebDeviceEnumerator
-.
-cpp
-'
 '
 MediaEngineWebRTC
 .
