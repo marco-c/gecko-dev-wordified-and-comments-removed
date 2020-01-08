@@ -289,12 +289,6 @@ this
 props
 .
 onPropertyChange
-minLabel
-:
-true
-maxLabel
-:
-true
 value
 :
 editedAxes

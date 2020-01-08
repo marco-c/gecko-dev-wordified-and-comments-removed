@@ -229,17 +229,11 @@ min
 axis
 .
 minValue
-minLabel
-:
-true
 max
 :
 axis
 .
 maxValue
-maxLabel
-:
-true
 name
 :
 axis
