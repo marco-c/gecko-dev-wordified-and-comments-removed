@@ -487,6 +487,9 @@ xbl
 inherits
 =
 "
+progress
+-
+undetermined
 mode
 =
 progressmode
