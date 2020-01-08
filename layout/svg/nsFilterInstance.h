@@ -512,6 +512,12 @@ nsIFrame
 aTargetFrame
 bool
 aInputIsTainted
+nsTArray
+<
+FilterPrimitiveDescription
+>
+&
+aPrimitiveDescriptions
 )
 ;
 void
@@ -665,12 +671,6 @@ SourceSurface
 >
 >
 mInputImages
-;
-nsTArray
-<
-FilterPrimitiveDescription
->
-mPrimitiveDescriptions
 ;
 FilterDescription
 mFilterDescription
