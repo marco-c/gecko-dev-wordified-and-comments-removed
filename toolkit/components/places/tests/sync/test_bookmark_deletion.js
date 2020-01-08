@@ -651,9 +651,6 @@ structure
 extra
 :
 {
-new
-:
-3
 remoteRevives
 :
 0
@@ -1750,9 +1747,6 @@ structure
 extra
 :
 {
-new
-:
-2
 remoteRevives
 :
 0
@@ -2713,9 +2707,6 @@ structure
 extra
 :
 {
-new
-:
-2
 remoteRevives
 :
 1
@@ -3950,7 +3941,7 @@ tombstone
 false
 counter
 :
-2
+1
 synced
 :
 false
