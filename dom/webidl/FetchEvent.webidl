@@ -156,7 +156,6 @@ request
 readonly
 attribute
 DOMString
-?
 clientId
 ;
 readonly
@@ -189,10 +188,10 @@ Request
 request
 ;
 DOMString
-?
 clientId
 =
-null
+"
+"
 ;
 boolean
 isReload
