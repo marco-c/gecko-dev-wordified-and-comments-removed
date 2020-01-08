@@ -1849,10 +1849,6 @@ this
 mRawPtr
 )
 ;
-NSCAP_ASSERT_NO_QUERY_NEEDED
-(
-)
-;
 }
 template
 <
@@ -2661,10 +2657,6 @@ forget
 take
 (
 )
-)
-;
-NSCAP_ASSERT_NO_QUERY_NEEDED
-(
 )
 ;
 return
