@@ -853,12 +853,6 @@ Debugger
 g
 )
 ;
-dbg
-.
-allowWasmBinarySource
-=
-true
-;
 g
 .
 eval

@@ -147,9 +147,6 @@ SharedModule
 module_
 ;
 bool
-binarySource_
-;
-bool
 enterFrameTrapsEnabled_
 ;
 uint32_t
@@ -182,8 +179,6 @@ const
 Module
 &
 module
-bool
-binarySource
 )
 ;
 const
@@ -201,16 +196,6 @@ module_
 debugBytecode
 (
 )
-;
-}
-bool
-binarySource
-(
-)
-const
-{
-return
-binarySource_
 ;
 }
 bool
@@ -254,11 +239,6 @@ lineno
 size_t
 *
 column
-)
-;
-uint32_t
-totalSourceLines
-(
 )
 ;
 void

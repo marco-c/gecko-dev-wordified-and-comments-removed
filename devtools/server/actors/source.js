@@ -1850,13 +1850,6 @@ error
 if
 (
 isWasm
-&
-&
-this
-.
-dbg
-.
-allowWasmBinarySource
 )
 {
 const
