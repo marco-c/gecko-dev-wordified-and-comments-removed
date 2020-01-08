@@ -2944,10 +2944,6 @@ mIsLineParticipant
 (
 false
 )
-mIsForSVGAElement
-(
-false
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -3149,11 +3145,6 @@ mIsPopup
 ;
 bool
 mIsLineParticipant
-:
-1
-;
-bool
-mIsForSVGAElement
 :
 1
 ;
