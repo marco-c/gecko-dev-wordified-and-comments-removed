@@ -917,15 +917,6 @@ forget
 }
 }
 else
-if
-(
-!
-langStr
-.
-IsEmpty
-(
-)
-)
 {
 Locale
 loc
