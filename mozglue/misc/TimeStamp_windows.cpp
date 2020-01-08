@@ -278,6 +278,9 @@ pc
 ;
 if
 (
+true
+|
+|
 !
 sHasStableTSC
 )
