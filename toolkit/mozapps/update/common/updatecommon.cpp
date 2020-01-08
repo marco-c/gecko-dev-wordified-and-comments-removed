@@ -843,6 +843,8 @@ mozilla
 UniquePtr
 <
 UINT8
+[
+]
 >
 byteBuffer
 =
@@ -852,6 +854,8 @@ mozilla
 MakeUnique
 <
 UINT8
+[
+]
 >
 (
 MAXIMUM_REPARSE_DATA_BUFFER_SIZE
