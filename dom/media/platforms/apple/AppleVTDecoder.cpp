@@ -87,6 +87,13 @@ gfxPlatform
 h
 "
 #
+include
+"
+MacIOSurfaceImage
+.
+h
+"
+#
 define
 LOG
 (
@@ -132,6 +139,10 @@ __VA_ARGS__
 namespace
 mozilla
 {
+using
+namespace
+layers
+;
 AppleVTDecoder
 :
 :

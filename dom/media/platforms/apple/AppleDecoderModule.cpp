@@ -22,7 +22,11 @@ h
 #
 include
 "
-MacIOSurfaceImage
+mozilla
+/
+gfx
+/
+MacIOSurface
 .
 h
 "
