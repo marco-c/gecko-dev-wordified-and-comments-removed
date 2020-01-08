@@ -293,6 +293,9 @@ gfx
 IntRect
 mPictureRect
 ;
+uint32_t
+mBitDepth
+;
 YUVColorSpace
 mColorSpace
 ;

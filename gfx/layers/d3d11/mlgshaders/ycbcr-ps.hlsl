@@ -149,6 +149,18 @@ YuvColorMatrix
 ;
 }
 ;
+cbuffer
+vCoefficientBuffer
+:
+register
+(
+b2
+)
+{
+float
+vCoefficient
+;
+}
 /
 *
 From
@@ -541,6 +553,8 @@ return
 CalculateYCbCrColor
 (
 yuv
+*
+vCoefficient
 )
 ;
 }
@@ -586,6 +600,8 @@ float3
 y
 cbcr
 )
+*
+vCoefficient
 )
 ;
 }

@@ -321,6 +321,9 @@ sizeY
 IntSize
 sizeCbCr
 ;
+uint32_t
+bitDepth
+;
 YUVColorSpace
 yUVColorSpace
 ;
