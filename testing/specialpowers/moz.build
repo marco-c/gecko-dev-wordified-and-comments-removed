@@ -177,6 +177,13 @@ js
 '
 content
 /
+specialpowersFrameScript
+.
+js
+'
+'
+content
+/
 SpecialPowersObserver
 .
 jsm
