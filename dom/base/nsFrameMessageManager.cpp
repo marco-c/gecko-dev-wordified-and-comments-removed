@@ -5538,7 +5538,7 @@ currentCount
 if
 (
 currentCount
-=
+>
 =
 MessageManagerReporter
 :
