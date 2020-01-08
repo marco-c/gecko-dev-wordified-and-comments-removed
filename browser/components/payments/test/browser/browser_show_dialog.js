@@ -764,7 +764,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentRequestEventPromise
+awaitPaymentEventPromise
 )
 ;
 info

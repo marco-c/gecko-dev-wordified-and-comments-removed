@@ -356,7 +356,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentRequestEventPromise
+awaitPaymentEventPromise
 )
 ;
 await
@@ -710,7 +710,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentRequestEventPromise
+awaitPaymentEventPromise
 )
 ;
 const
@@ -4368,7 +4368,7 @@ PTU
 .
 ContentTasks
 .
-awaitPaymentRequestEventPromise
+awaitPaymentEventPromise
 )
 ;
 await
