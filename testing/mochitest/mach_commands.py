@@ -330,6 +330,9 @@ firefox
 '
 android
 '
+'
+thunderbird
+'
 ]
 parser
 =
