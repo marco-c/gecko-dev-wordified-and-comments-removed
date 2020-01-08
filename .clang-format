@@ -15,6 +15,9 @@ MacroBlockBegin
 "
 ^
 \
+JS_BEGIN_MACRO
+|
+\
 NS_INTERFACE_MAP_BEGIN
 |
 \
@@ -45,6 +48,9 @@ MacroBlockEnd
 :
 "
 ^
+\
+JS_END_MACRO
+|
 \
 NS_INTERFACE_MAP_END
 |
