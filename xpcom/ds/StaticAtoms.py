@@ -588,7 +588,6 @@ Atom
 "
 allowstorageaccessbyuseractivatetion
 "
-         
 "
 allow
 -
