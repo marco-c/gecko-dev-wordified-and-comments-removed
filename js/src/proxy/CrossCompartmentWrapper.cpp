@@ -3274,9 +3274,6 @@ tobj
 wobj
 )
 {
-if
-(
-!
 JSObject
 :
 :
@@ -3286,13 +3283,7 @@ cx
 wobj
 tobj
 )
-)
-{
-MOZ_CRASH
-(
-)
 ;
-}
 }
 MOZ_ASSERT
 (
