@@ -155,15 +155,6 @@ settings
 GeckoSessionSettings
 (
 )
-settings
-.
-setBoolean
-(
-GeckoSessionSettings
-.
-USE_MULTIPROCESS
-false
-)
 val
 session
 =
