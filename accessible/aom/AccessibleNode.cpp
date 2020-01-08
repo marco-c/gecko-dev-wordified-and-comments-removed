@@ -193,6 +193,10 @@ nsINode
 aNode
 )
 :
+mBooleanProperties
+(
+0
+)
 mDOMNode
 (
 aNode
