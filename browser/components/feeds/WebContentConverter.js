@@ -1203,10 +1203,9 @@ this
 _getFormattedString
 (
 "
-addProtocolHandler
+addProtocolHandlerMessage
 "
 [
-aTitle
 uri
 .
 host
