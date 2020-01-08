@@ -3919,6 +3919,10 @@ const
 char
 *
 aURL
+nsIURI
+*
+*
+aURI
 )
 ;
 bool
@@ -4470,6 +4474,14 @@ void
 *
 *
 aSink
+)
+;
+void
+MaybeAllowStorageForOpenedWindow
+(
+nsIURI
+*
+aURI
 )
 ;
 public
