@@ -460,6 +460,11 @@ BrowsingContext
 .
 h
 '
+'
+ChromeBrowsingContext
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -467,6 +472,11 @@ UNIFIED_SOURCES
 [
 '
 BrowsingContext
+.
+cpp
+'
+'
+ChromeBrowsingContext
 .
 cpp
 '

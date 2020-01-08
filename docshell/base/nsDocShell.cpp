@@ -2559,8 +2559,10 @@ rv
 ;
 mBrowsingContext
 =
-new
 BrowsingContext
+:
+:
+Create
 (
 this
 )
