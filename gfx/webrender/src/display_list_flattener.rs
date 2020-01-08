@@ -5027,7 +5027,7 @@ isolated
 if
 parent_pic
 .
-composite_mode
+requested_composite_mode
 .
 is_none
 (
@@ -5035,7 +5035,7 @@ is_none
 {
 parent_pic
 .
-composite_mode
+requested_composite_mode
 =
 Some
 (
