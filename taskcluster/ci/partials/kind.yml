@@ -95,7 +95,11 @@ dependencies
 -
 repackage
 -
+signing
+-
 repackage
+-
+signing
 -
 l10n
 only

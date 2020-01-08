@@ -733,6 +733,24 @@ UPSTREAM_ARTIFACT_SIGNED_REPACKAGE_PATHS
 '
 target
 .
+complete
+.
+mar
+'
+    
+'
+target
+.
+bz2
+.
+complete
+.
+mar
+'
+    
+'
+target
+.
 installer
 .
 exe
@@ -758,18 +776,6 @@ target
 installer
 .
 msi
-'
-]
-UPSTREAM_ARTIFACT_SIGNED_MAR_PATHS
-=
-[
-    
-'
-target
-.
-complete
-.
-mar
 '
 ]
 task_description_schema
@@ -860,20 +866,6 @@ task_description_schema
 [
 '
 treeherder
-'
-]
-    
-Optional
-(
-'
-attributes
-'
-)
-:
-task_description_schema
-[
-'
-attributes
 '
 ]
     
@@ -1286,14 +1278,6 @@ signing
 msi
 "
         
-mar_signing_name
-=
-"
-mar
--
-signing
-"
-        
 if
 job
 .
@@ -1340,16 +1324,6 @@ signing
 -
 l10n
 "
-            
-mar_signing_name
-=
-"
-mar
--
-signing
--
-l10n
-"
         
 dependencies
 =
@@ -1374,6 +1348,17 @@ repackage_name
 ]
             
 "
+repackage
+-
+signing
+"
+:
+upstream_deps
+[
+repackage_signing_name
+]
+            
+"
 signing
 "
 :
@@ -1381,17 +1366,6 @@ upstream_deps
 [
 signing_name
 ]
-            
-"
-mar
--
-signing
-"
-:
-upstream_deps
-[
-mar_signing_name
-]
         
 }
         
@@ -1437,26 +1411,6 @@ msi_signing_name
 upstream_deps
 [
 msi_signing_name
-]
-        
-if
-repackage_signing_name
-in
-upstream_deps
-:
-            
-dependencies
-[
-"
-repackage
--
-signing
-"
-]
-=
-upstream_deps
-[
-repackage_signing_name
 ]
         
 attributes
@@ -1464,22 +1418,6 @@ attributes
 copy_attributes_from_dependent_job
 (
 dep_job
-)
-        
-attributes
-.
-update
-(
-job
-.
-get
-(
-'
-attributes
-'
-{
-}
-)
 )
         
 if
@@ -1665,10 +1603,6 @@ UPSTREAM_ARTIFACT_SIGNED_REPACKAGE_PATHS
 msi_signing_mapping
 =
 UPSTREAM_ARTIFACT_SIGNED_MSI_PATHS
-    
-mar_signing_mapping
-=
-UPSTREAM_ARTIFACT_SIGNED_MAR_PATHS
     
 artifact_prefix
 =
@@ -1954,18 +1888,6 @@ msi
 repackage
 '
 msi_signing_mapping
-)
-        
-(
-'
-mar
--
-signing
-'
-'
-signing
-'
-mar_signing_mapping
 )
     
 ]
