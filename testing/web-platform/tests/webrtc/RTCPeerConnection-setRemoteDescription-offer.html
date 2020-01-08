@@ -138,6 +138,9 @@ assert_session_desc_similar
 (
 )
 /
+/
+generateAudioReceiveOnlyOffer
+/
 *
 4
 .
@@ -806,15 +809,9 @@ then
 >
 {
 return
-pc1
-.
-createOffer
+generateAudioReceiveOnlyOffer
 (
-{
-offerToReceiveAudio
-:
-true
-}
+pc1
 )
 .
 then
