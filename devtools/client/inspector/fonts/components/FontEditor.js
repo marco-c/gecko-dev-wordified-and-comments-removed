@@ -1053,6 +1053,7 @@ instanceSelect
 }
 renderWarning
 (
+warning
 )
 {
 return
@@ -1086,14 +1087,7 @@ no
 result
 "
 }
-getStr
-(
-"
-fontinspector
-.
-noFontsOnSelectedElement
-"
-)
+warning
 )
 )
 ;
@@ -1118,6 +1112,7 @@ families
 axes
 instance
 properties
+warning
 }
 =
 fontEditor
@@ -1241,6 +1236,7 @@ this
 .
 renderWarning
 (
+warning
 )
 ;
 }
