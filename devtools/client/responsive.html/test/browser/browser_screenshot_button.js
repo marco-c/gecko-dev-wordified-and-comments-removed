@@ -207,8 +207,6 @@ document
 getElementById
 (
 "
-global
--
 screenshot
 -
 button
