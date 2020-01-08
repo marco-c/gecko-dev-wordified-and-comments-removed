@@ -9055,6 +9055,11 @@ None
 capabilities
 =
 {
+"
+strictFileInteractability
+"
+:
+True
 }
         
 if
