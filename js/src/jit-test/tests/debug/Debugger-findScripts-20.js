@@ -81,11 +81,9 @@ assertEq
 scripts
 .
 length
-<
 allScripts
 .
 length
-true
 )
 ;
 assertEq

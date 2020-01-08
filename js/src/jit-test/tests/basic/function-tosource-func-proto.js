@@ -14,6 +14,12 @@ function
 {
 \
 n
+[
+native
+code
+]
+\
+n
 }
 "
 )
@@ -32,6 +38,12 @@ function
 (
 )
 {
+\
+n
+[
+native
+code
+]
 \
 n
 }
