@@ -705,8 +705,12 @@ FillTags
 TrackInfo
 *
 aInfo
+UniquePtr
+<
 MetadataTags
-*
+>
+&
+&
 aTags
 )
 ;

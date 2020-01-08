@@ -2157,8 +2157,10 @@ mParser
 mInfo
 ;
 }
+UniquePtr
+<
 MetadataTags
-*
+>
 GetTags
 (
 )
@@ -3458,7 +3460,7 @@ Clone
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >

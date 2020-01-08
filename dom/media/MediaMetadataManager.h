@@ -94,7 +94,7 @@ media
 TimeUnit
 &
 aPublishTime
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >
@@ -182,7 +182,7 @@ media
 TimeUnit
 mPublishTime
 ;
-nsAutoPtr
+UniquePtr
 <
 MetadataTags
 >

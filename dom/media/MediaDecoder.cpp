@@ -3217,12 +3217,14 @@ UniquePtr
 MetadataTags
 >
 (
+std
+:
+:
+move
+(
 aMetadata
 .
 mTags
-.
-forget
-(
 )
 )
 MediaDecoderEventVisibility

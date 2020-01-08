@@ -166,8 +166,10 @@ aLength
 )
 const
 ;
+UniquePtr
+<
 MetadataTags
-*
+>
 GetTags
 (
 )
