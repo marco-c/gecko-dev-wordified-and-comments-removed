@@ -30309,7 +30309,7 @@ AppendShadow
 wrShadow
 )
 ;
-continue
+return
 ;
 }
 gfxContext
