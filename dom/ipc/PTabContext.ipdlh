@@ -331,6 +331,9 @@ opener
 bool
 isMozBrowserElement
 ;
+uint64_t
+chromeOuterWindowID
+;
 }
 ;
 /
@@ -391,6 +394,9 @@ frames
 .
 bool
 isMozBrowserElement
+;
+uint64_t
+chromeOuterWindowID
 ;
 /
 /

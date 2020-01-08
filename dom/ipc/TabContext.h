@@ -88,6 +88,12 @@ JSPluginId
 )
 const
 ;
+uint64_t
+ChromeOuterWindowID
+(
+)
+const
+;
 const
 OriginAttributes
 &
@@ -143,6 +149,8 @@ SetTabContext
 (
 bool
 aIsMozBrowserElement
+uint64_t
+aChromeOuterWindowID
 UIStateChangeType
 aShowAccelerators
 UIStateChangeType
@@ -180,6 +188,9 @@ mInitialized
 ;
 bool
 mIsMozBrowserElement
+;
+uint64_t
+mChromeOuterWindowID
 ;
 int32_t
 mJSPluginID
@@ -230,6 +241,8 @@ SetTabContext
 (
 bool
 aIsMozBrowserElement
+uint64_t
+aChromeOuterWindowID
 UIStateChangeType
 aShowAccelerators
 UIStateChangeType
@@ -255,6 +268,7 @@ TabContext
 SetTabContext
 (
 aIsMozBrowserElement
+aChromeOuterWindowID
 aShowAccelerators
 aShowFocusRings
 aOriginAttributes
