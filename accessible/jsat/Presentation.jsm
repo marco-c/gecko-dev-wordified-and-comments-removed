@@ -215,7 +215,6 @@ aOldPosition
 aReason
 aStartOffset
 aEndOffset
-aIsUserInput
 )
 {
 let
