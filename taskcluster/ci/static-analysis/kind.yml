@@ -263,6 +263,10 @@ rust
 -
 linux64
 -
+cbindgen
+-
+linux64
+-
 sccache
 -
 linux64
@@ -399,6 +403,10 @@ rust
 -
 linux64
 -
+cbindgen
+-
+linux64
+-
 sccache
 -
 linux64
@@ -582,6 +590,10 @@ rust
 -
 win64
 -
+cbindgen
+-
+win64
+-
 sccache
 -
 win64
@@ -762,6 +774,10 @@ an
 win32
 -
 rust
+-
+win64
+-
+cbindgen
 -
 win64
 -
@@ -948,6 +964,10 @@ rust
 -
 win64
 -
+cbindgen
+-
+win64
+-
 sccache
 -
 win64
@@ -1128,6 +1148,10 @@ an
 win64
 -
 rust
+-
+win64
+-
+cbindgen
 -
 win64
 -

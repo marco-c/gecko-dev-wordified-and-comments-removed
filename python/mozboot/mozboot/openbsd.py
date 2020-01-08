@@ -215,4 +215,11 @@ checkout_root
 )
 :
         
-pass
+self
+.
+ensure_rust_package
+(
+'
+cbindgen
+'
+)

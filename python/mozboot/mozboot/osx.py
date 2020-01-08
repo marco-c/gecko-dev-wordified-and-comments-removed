@@ -3369,7 +3369,14 @@ checkout_root
 )
 :
         
-pass
+self
+.
+ensure_rust_package
+(
+'
+cbindgen
+'
+)
     
 def
 ensure_node_packages
