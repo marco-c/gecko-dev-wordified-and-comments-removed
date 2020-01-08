@@ -14219,7 +14219,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 TabParent
 :
 :
@@ -14237,7 +14237,6 @@ IsDestroyed
 )
 {
 return
-NS_OK
 ;
 }
 #
@@ -14277,9 +14276,6 @@ SendSuppressDisplayport
 (
 aEnabled
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -14386,7 +14382,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 TabParent
 :
 :
@@ -14406,9 +14402,6 @@ SendNavigateByKey
 aForward
 aForDocumentNavigation
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
