@@ -1715,7 +1715,7 @@ guid
 oldParentGuid
 newParentGuid
 source
-uri
+urlHref
 )
 {
 this
@@ -1743,7 +1743,7 @@ guid
 oldParentGuid
 newParentGuid
 source
-uri
+urlHref
 }
 }
 )
