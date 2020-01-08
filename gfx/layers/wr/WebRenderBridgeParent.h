@@ -1023,11 +1023,6 @@ LastPendingTransactionId
 )
 ;
 TransactionId
-FlushPendingTransactionIds
-(
-)
-;
-TransactionId
 FlushTransactionIdsForEpoch
 (
 const
@@ -1086,7 +1081,10 @@ ScheduleGenerateFrame
 (
 )
 ;
-void
+wr
+:
+:
+Epoch
 UpdateWebRender
 (
 CompositorVsyncScheduler
