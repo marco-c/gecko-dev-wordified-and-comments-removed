@@ -9199,7 +9199,7 @@ nsAtom
 aType
 )
 {
-AssertIsOnMainThread
+AssertIsOnTargetThread
 (
 )
 ;
@@ -9219,7 +9219,7 @@ nsAtom
 aType
 )
 {
-AssertIsOnMainThread
+AssertIsOnTargetThread
 (
 )
 ;

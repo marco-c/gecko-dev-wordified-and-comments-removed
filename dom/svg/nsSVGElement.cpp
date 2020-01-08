@@ -3337,9 +3337,6 @@ manager
 RemoveEventHandler
 (
 eventName
-EmptyString
-(
-)
 )
 ;
 }

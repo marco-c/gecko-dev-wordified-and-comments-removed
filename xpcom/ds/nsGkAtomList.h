@@ -13599,6 +13599,13 @@ ongamepaddisconnected
 )
 GK_ATOM
 (
+onfetch
+"
+onfetch
+"
+)
+GK_ATOM
+(
 afterPseudoProperty
 "
 afterPseudoProperty

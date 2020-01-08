@@ -31192,9 +31192,6 @@ nsGkAtoms
 :
 :
 onencrypted
-EmptyString
-(
-)
 )
 ;
 }
@@ -31218,9 +31215,6 @@ nsGkAtoms
 :
 :
 onencrypted
-EmptyString
-(
-)
 aCallback
 )
 ;
@@ -31244,9 +31238,6 @@ nsGkAtoms
 :
 :
 onwaitingforkey
-EmptyString
-(
-)
 )
 ;
 }
@@ -31270,9 +31261,6 @@ nsGkAtoms
 :
 :
 onwaitingforkey
-EmptyString
-(
-)
 aCallback
 )
 ;
