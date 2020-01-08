@@ -491,6 +491,7 @@ this
 .
 version
 }
+reason
 )
 ;
 this
@@ -600,7 +601,6 @@ extension
 .
 startup
 (
-reason
 )
 .
 catch
