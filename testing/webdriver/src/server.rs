@@ -173,6 +173,13 @@ CloseWindowResponse
 WebDriverResponse
 }
 ;
+#
+[
+allow
+(
+dead_code
+)
+]
 enum
 DispatchMessage
 <
