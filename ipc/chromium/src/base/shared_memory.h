@@ -122,14 +122,6 @@ read_only
 )
 ;
 }
-SharedMemory
-(
-SharedMemory
-&
-&
-other
-)
-;
 ~
 SharedMemory
 (

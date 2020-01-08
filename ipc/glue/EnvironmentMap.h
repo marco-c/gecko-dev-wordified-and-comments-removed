@@ -63,7 +63,6 @@ ENVIRONMENT_STRING
 x
 )
 (
-(
 std
 :
 :
@@ -79,7 +78,6 @@ x
 .
 get
 (
-)
 )
 )
 NativeEnvironmentString
@@ -132,7 +130,15 @@ ENVIRONMENT_STRING
 (
 x
 )
+(
+(
 x
+)
+)
+.
+get
+(
+)
 std
 :
 :

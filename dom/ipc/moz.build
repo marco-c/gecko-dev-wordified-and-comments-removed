@@ -227,6 +227,11 @@ ContentProcess
 h
 '
 '
+ContentProcessHost
+.
+h
+'
+'
 ContentProcessManager
 .
 h
@@ -355,6 +360,11 @@ cpp
 '
 '
 ContentProcess
+.
+cpp
+'
+'
+ContentProcessHost
 .
 cpp
 '
