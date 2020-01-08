@@ -3209,12 +3209,9 @@ IsOnMenuBar
 menuFrame
 -
 >
-GetParentMenuListType
+IsParentMenuList
 (
 )
-!
-=
-eNotMenuList
 )
 )
 ;

@@ -143,13 +143,6 @@ eMenuType_Radio
 2
 }
 ;
-enum
-nsMenuListType
-{
-eNotMenuList
-eReadonlyMenuList
-}
-;
 class
 nsMenuFrame
 ;
@@ -594,8 +587,8 @@ IsMenu
 (
 )
 ;
-nsMenuListType
-GetParentMenuListType
+bool
+IsParentMenuList
 (
 )
 ;
