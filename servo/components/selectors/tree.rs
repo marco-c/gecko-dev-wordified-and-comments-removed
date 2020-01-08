@@ -54,6 +54,7 @@ NonNull
 [
 derive
 (
+Copy
 Clone
 Debug
 Eq
