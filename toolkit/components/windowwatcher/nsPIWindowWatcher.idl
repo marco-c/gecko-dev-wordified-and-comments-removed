@@ -133,7 +133,7 @@ C
 +
 +
 class
-nsDocShellLoadInfo
+nsDocShellLoadState
 ;
 %
 }
@@ -159,9 +159,9 @@ interface
 nsITabParent
 ;
 native
-nsDocShellLoadInfoPtr
+nsDocShellLoadStatePtr
 (
-nsDocShellLoadInfo
+nsDocShellLoadState
 *
 )
 ;
@@ -529,7 +529,7 @@ this
 method
 .
 param
-aLoadInfo
+aLoadState
 if
 aNavigate
 is
@@ -542,7 +542,7 @@ to
 pass
 in
 an
-nsIDocShellLoadInfo
+nsIDocShellLoadState
 to
 use
 for
@@ -690,8 +690,8 @@ in
 boolean
 aForceNoOpener
 in
-nsDocShellLoadInfoPtr
-aLoadInfo
+nsDocShellLoadStatePtr
+aLoadState
 )
 ;
 /

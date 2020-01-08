@@ -63,6 +63,9 @@ nsIDocShell
 class
 nsIURI
 ;
+class
+nsDocShellLoadState
+;
 namespace
 mozilla
 {
@@ -609,7 +612,7 @@ GetSourceBaseURL
 ;
 already_AddRefed
 <
-nsDocShellLoadInfo
+nsDocShellLoadState
 >
 CheckURL
 (
