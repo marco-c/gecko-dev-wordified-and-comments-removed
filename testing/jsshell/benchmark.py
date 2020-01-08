@@ -2060,7 +2060,7 @@ append
 {
                     
 '
-lower_is_better
+lowerIsBetter
 '
 :
 self
