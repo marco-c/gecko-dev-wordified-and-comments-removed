@@ -1036,7 +1036,7 @@ mozilla
 RemoteSourceStreamInfo
 ;
 class
-PrincipalHandleListener
+MSGListener
 ;
 public
 :
@@ -1686,9 +1686,9 @@ mPendingPrincipal
 ;
 RefPtr
 <
-PrincipalHandleListener
+MSGListener
 >
-mPrincipalHandleListener
+mMSGListener
 ;
 nsTArray
 <
