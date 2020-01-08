@@ -1434,13 +1434,6 @@ void
 aClosure
 )
 ;
-void
-DispatchScrollingEvent
-(
-uint32_t
-aEventType
-)
-;
 protected
 :
 enum
@@ -1486,9 +1479,6 @@ mScrollWatchTimer
 ;
 uint16_t
 mScrollPositionChangedTicks
-;
-TimeStamp
-mLastScrollingDispatch
 ;
 uint32_t
 mLoadState

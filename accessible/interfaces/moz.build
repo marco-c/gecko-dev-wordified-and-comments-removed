@@ -199,11 +199,6 @@ nsIAccessibleRole
 idl
 '
 '
-nsIAccessibleScrollingEvent
-.
-idl
-'
-'
 nsIAccessibleSelectable
 .
 idl

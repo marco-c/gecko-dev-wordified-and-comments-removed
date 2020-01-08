@@ -27,13 +27,6 @@ Ci
 nsIAccessibleCaretMoveEvent
 ;
 const
-nsIAccessibleScrollingEvent
-=
-Ci
-.
-nsIAccessibleScrollingEvent
-;
-const
 nsIAccessibleTextChangeEvent
 =
 Ci

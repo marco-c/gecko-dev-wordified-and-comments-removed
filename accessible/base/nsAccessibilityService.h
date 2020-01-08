@@ -1461,9 +1461,6 @@ text
 value
 change
 "
-"
-scrolling
-"
 }
 ;
 #
