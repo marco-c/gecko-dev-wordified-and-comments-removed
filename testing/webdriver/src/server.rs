@@ -514,12 +514,9 @@ handles
 if
 handles
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 debug
 !
