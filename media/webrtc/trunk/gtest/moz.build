@@ -260,9 +260,6 @@ gtest
 gtest
 '
 '
-chromium_atomics
-'
-'
 media_libopus
 '
 '
