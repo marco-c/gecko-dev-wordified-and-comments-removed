@@ -3484,14 +3484,14 @@ srtpCiphers
 .
 push_back
 (
-SRTP_AES128_CM_HMAC_SHA1_80
+kDtlsSrtpAes128CmHmacSha1_80
 )
 ;
 srtpCiphers
 .
 push_back
 (
-SRTP_AES128_CM_HMAC_SHA1_32
+kDtlsSrtpAes128CmHmacSha1_32
 )
 ;
 rv
