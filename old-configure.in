@@ -1491,11 +1491,6 @@ environemnt
 _WIN32_MSVC
 =
 1
-AC_CHECK_PROGS
-(
-MIDL
-midl
-)
 #
 Make
 sure
@@ -2779,14 +2774,6 @@ build
 ]
 )
 fi
-AC_CHECK_PROGS
-(
-MIDL
-target
--
-widl
-widl
-)
 if
 test
 -
