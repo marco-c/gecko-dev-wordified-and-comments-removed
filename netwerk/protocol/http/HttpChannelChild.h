@@ -1146,6 +1146,8 @@ ProcessNotifyTrackingProtectionDisabled
 void
 ProcessNotifyTrackingCookieBlocked
 (
+uint32_t
+aRejectedReason
 )
 ;
 void

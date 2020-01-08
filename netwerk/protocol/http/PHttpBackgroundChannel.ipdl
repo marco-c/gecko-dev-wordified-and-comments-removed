@@ -453,6 +453,8 @@ load
 async
 NotifyTrackingCookieBlocked
 (
+uint32_t
+aRejectedReason
 )
 ;
 /

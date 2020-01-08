@@ -108,6 +108,8 @@ SimpleChannelParent
 :
 NotifyTrackingCookieBlocked
 (
+uint32_t
+aRejectedReason
 )
 {
 return

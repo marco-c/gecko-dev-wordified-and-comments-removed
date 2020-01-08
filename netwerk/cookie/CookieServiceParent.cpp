@@ -884,6 +884,7 @@ IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 uri
+nullptr
 )
 )
 {

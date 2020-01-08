@@ -78,6 +78,9 @@ a3rdPartyTrackingWindow
 nsIURI
 *
 aURI
+uint32_t
+*
+aRejectedReason
 )
 ;
 static
@@ -102,6 +105,9 @@ aChannel
 nsIURI
 *
 aURI
+uint32_t
+*
+aRejectedReason
 )
 ;
 static
@@ -179,6 +185,8 @@ NotifyRejection
 nsIChannel
 *
 aChannel
+uint32_t
+aRejectedReason
 )
 ;
 static
@@ -188,6 +196,8 @@ NotifyRejection
 nsPIDOMWindowInner
 *
 aWindow
+uint32_t
+aRejectedReason
 )
 ;
 }

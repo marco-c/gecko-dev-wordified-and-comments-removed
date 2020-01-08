@@ -181,6 +181,8 @@ OnNotifyTrackingProtectionDisabled
 bool
 OnNotifyTrackingCookieBlocked
 (
+uint32_t
+aRejectedReason
 )
 ;
 bool

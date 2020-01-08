@@ -40362,6 +40362,9 @@ aPrincipal
 nsIURI
 *
 aURI
+uint32_t
+*
+aRejectedReason
 )
 {
 MOZ_ASSERT
@@ -40408,6 +40411,7 @@ IsFirstPartyStorageAccessGrantedFor
 (
 aWindow
 documentURI
+aRejectedReason
 )
 ;
 }
@@ -40481,6 +40485,7 @@ IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 uri
+aRejectedReason
 )
 ;
 }
@@ -40520,6 +40525,11 @@ nsIURI
 aURI
 )
 {
+uint32_t
+rejectedReason
+=
+0
+;
 bool
 disabled
 =
@@ -40529,6 +40539,8 @@ aWindow
 aChannel
 aPrincipal
 aURI
+&
+rejectedReason
 )
 ;
 if
@@ -40537,6 +40549,9 @@ disabled
 &
 &
 sAntiTrackingControlCenterUIEnabled
+&
+&
+rejectedReason
 )
 {
 if
@@ -40550,6 +40565,7 @@ AntiTrackingCommon
 NotifyRejection
 (
 aWindow
+rejectedReason
 )
 ;
 }
@@ -40565,6 +40581,7 @@ AntiTrackingCommon
 NotifyRejection
 (
 aChannel
+rejectedReason
 )
 ;
 }

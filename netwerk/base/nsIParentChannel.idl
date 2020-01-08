@@ -216,6 +216,9 @@ noscript
 void
 notifyTrackingCookieBlocked
 (
+in
+uint32_t
+aRejectedReason
 )
 ;
 /

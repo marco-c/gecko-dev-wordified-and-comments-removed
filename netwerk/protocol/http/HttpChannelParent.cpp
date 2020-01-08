@@ -8728,6 +8728,8 @@ HttpChannelParent
 :
 NotifyTrackingCookieBlocked
 (
+uint32_t
+aRejectedReason
 )
 {
 LOG
@@ -8773,6 +8775,7 @@ mBgParent
 >
 OnNotifyTrackingCookieBlocked
 (
+aRejectedReason
 )
 )
 ;
