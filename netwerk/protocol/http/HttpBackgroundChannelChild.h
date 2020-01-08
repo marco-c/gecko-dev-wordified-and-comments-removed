@@ -195,6 +195,12 @@ RecvNotifyTrackingProtectionDisabled
 override
 ;
 IPCResult
+RecvNotifyTrackingCookieBlocked
+(
+)
+override
+;
+IPCResult
 RecvNotifyTrackingResource
 (
 const

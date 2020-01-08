@@ -179,6 +179,11 @@ OnNotifyTrackingProtectionDisabled
 )
 ;
 bool
+OnNotifyTrackingCookieBlocked
+(
+)
+;
+bool
 OnNotifyTrackingResource
 (
 bool

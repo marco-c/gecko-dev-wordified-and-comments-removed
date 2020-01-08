@@ -1144,6 +1144,11 @@ ProcessNotifyTrackingProtectionDisabled
 )
 ;
 void
+ProcessNotifyTrackingCookieBlocked
+(
+)
+;
+void
 ProcessNotifyTrackingResource
 (
 bool
