@@ -8496,7 +8496,7 @@ recordreplay
 .
 enabled
 "
-false
+true
 )
 ;
 pref
