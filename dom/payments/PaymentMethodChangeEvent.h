@@ -44,9 +44,6 @@ dom
 class
 PaymentRequestUpdateEvent
 ;
-struct
-PaymentMethodChangeEventInit
-;
 class
 PaymentMethodChangeEvent
 final
