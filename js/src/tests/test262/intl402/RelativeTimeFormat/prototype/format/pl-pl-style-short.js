@@ -34,7 +34,8 @@ second
 always
 (
 "
-s
+sek
+.
 "
 )
 "
@@ -54,7 +55,7 @@ hour
 always
 (
 "
-g
+godz
 .
 "
 )

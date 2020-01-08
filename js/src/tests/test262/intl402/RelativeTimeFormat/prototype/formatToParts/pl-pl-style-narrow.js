@@ -169,8 +169,7 @@ second
 always
 (
 "
-sek
-.
+s
 "
 )
 "
@@ -190,7 +189,7 @@ hour
 always
 (
 "
-godz
+g
 .
 "
 )
@@ -321,7 +320,7 @@ style
 "
 :
 "
-short
+narrow
 "
 }
 )
