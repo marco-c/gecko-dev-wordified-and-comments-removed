@@ -1931,21 +1931,23 @@ frameKey
 ]
                 
 if
+frameDesc
+in
+(
 '
 DMD
 .
 cpp
 '
-in
-frameDesc
-or
 '
 dmd
 .
 cpp
 '
-in
-frameDesc
+'
+SmokeDMD
+'
+)
 :
                     
 return
