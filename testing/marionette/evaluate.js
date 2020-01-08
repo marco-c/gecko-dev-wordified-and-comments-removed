@@ -1491,6 +1491,10 @@ false
 }
 ;
 return
+Cu
+.
+waiveXrays
+(
 sandbox
 .
 create
@@ -1498,6 +1502,7 @@ create
 window
 null
 opts
+)
 )
 ;
 }
