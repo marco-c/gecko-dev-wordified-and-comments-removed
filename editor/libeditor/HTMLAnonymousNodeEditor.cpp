@@ -1101,7 +1101,7 @@ if
 mAbsolutelyPositionedObject
 )
 {
-HideGrabber
+HideGrabberInternal
 (
 )
 ;
@@ -1198,7 +1198,7 @@ IsAbsolutePositionEditorEnabled
 mAbsolutelyPositionedObject
 )
 {
-HideGrabber
+HideGrabberInternal
 (
 )
 ;
@@ -1572,7 +1572,7 @@ absPosElement
 mAbsolutelyPositionedObject
 )
 {
-HideGrabber
+HideGrabberInternal
 (
 )
 ;
@@ -1803,7 +1803,7 @@ mAbsolutelyPositionedObject
 nsresult
 rv
 =
-RefreshGrabber
+RefreshGrabberInternal
 (
 )
 ;
@@ -1828,7 +1828,7 @@ else
 nsresult
 rv
 =
-ShowGrabber
+ShowGrabberInternal
 (
 *
 absPosElement
