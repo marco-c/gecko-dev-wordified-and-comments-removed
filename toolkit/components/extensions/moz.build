@@ -214,6 +214,11 @@ NativeMessaging
 jsm
 '
 '
+PerformanceCounters
+.
+jsm
+'
+'
 ProxyScriptContext
 .
 jsm

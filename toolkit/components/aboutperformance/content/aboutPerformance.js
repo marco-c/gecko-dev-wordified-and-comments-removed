@@ -1583,11 +1583,14 @@ extensionCountersEnabled
 let
 extCounters
 =
+await
 ExtensionParent
 .
 ParentAPIManager
 .
-performanceCounters
+retrievePerformanceCounters
+(
+)
 ;
 for
 (
