@@ -1627,14 +1627,15 @@ NS_OK
 }
 if
 (
-!
-(
 aFlags
 &
 LOCATION_CHANGE_SAME_DOCUMENT
 )
-)
 {
+return
+NS_OK
+;
+}
 mOldState
 =
 0
@@ -1647,7 +1648,6 @@ mTopLevelSecurityInfo
 =
 nullptr
 ;
-}
 if
 (
 aFlags
