@@ -3267,6 +3267,14 @@ userMadeSearchSuggestionsChoice
 True
         
 "
+browser
+.
+warnOnQuit
+"
+:
+False
+        
+"
 startup
 .
 homepage_welcome_url
