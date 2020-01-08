@@ -558,11 +558,6 @@ dlgtype
 "
 cancel
 "
-icon
-=
-"
-cancel
-"
 class
 =
 "
@@ -585,11 +580,6 @@ label
 &
 accept
 ;
-"
-icon
-=
-"
-open
 "
 class
 =
