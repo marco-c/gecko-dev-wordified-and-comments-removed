@@ -44561,10 +44561,10 @@ maskRect
 result
 ;
 }
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 (
 nsDisplayListBuilder
 *
@@ -44595,7 +44595,7 @@ true
 {
 MOZ_COUNT_CTOR
 (
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 )
 ;
 nsPresContext
@@ -44777,7 +44777,7 @@ true
 ;
 }
 bool
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 CanMerge
@@ -44835,7 +44835,7 @@ Frame
 ;
 }
 bool
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 IsValidMask
@@ -44933,7 +44933,7 @@ already_AddRefed
 <
 Layer
 >
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 BuildLayer
@@ -44997,7 +44997,7 @@ forget
 ;
 }
 bool
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 PaintMask
@@ -45117,7 +45117,7 @@ aMaskPainted
 painted
 ;
 }
-nsDisplayMaskGeometry
+nsDisplayMasksAndClipPathsGeometry
 :
 :
 UpdateDrawResult
@@ -45152,7 +45152,7 @@ SUCCESS_NOT_COMPLETE
 ;
 }
 LayerState
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 GetLayerState
@@ -45207,7 +45207,7 @@ LAYER_SVG_EFFECTS
 ;
 }
 bool
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 CanPaintOnMaskLayer
@@ -45270,7 +45270,7 @@ true
 ;
 }
 bool
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 ComputeVisibility
@@ -45323,7 +45323,7 @@ true
 ;
 }
 void
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 ComputeInvalidationRegion
@@ -45358,7 +45358,7 @@ geometry
 static_cast
 <
 const
-nsDisplayMaskGeometry
+nsDisplayMasksAndClipPathsGeometry
 *
 >
 (
@@ -45593,7 +45593,7 @@ break
 }
 }
 void
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 PaintAsLayer
@@ -45726,7 +45726,7 @@ PopClip
 (
 )
 ;
-nsDisplayMaskGeometry
+nsDisplayMasksAndClipPathsGeometry
 :
 :
 UpdateDrawResult
@@ -45739,7 +45739,7 @@ result
 ;
 }
 void
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 PaintWithContentsPaintCallback
@@ -45882,7 +45882,7 @@ PopClip
 (
 )
 ;
-nsDisplayMaskGeometry
+nsDisplayMasksAndClipPathsGeometry
 :
 :
 UpdateDrawResult
@@ -45895,7 +45895,7 @@ result
 ;
 }
 bool
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 CreateWebRenderCommands
@@ -46166,7 +46166,7 @@ Maybe
 <
 nsRect
 >
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 GetClipWithRespectToASR
@@ -46282,7 +46282,7 @@ Nothing
 ifdef
 MOZ_DUMP_PAINTING
 void
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 :
 :
 PrintEffects

@@ -126,7 +126,7 @@ class
 nsDisplayItemGeometry
 ;
 class
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 ;
 namespace
 mozilla

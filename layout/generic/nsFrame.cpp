@@ -15119,7 +15119,7 @@ AppendToTop
 (
 MakeDisplayItem
 <
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 >
 (
 aBuilder

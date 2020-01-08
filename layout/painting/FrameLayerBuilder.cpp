@@ -4597,7 +4597,7 @@ SetupMaskLayerForCSSMask
 Layer
 *
 aLayer
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 aMaskItem
 )
@@ -16771,7 +16771,7 @@ TYPE_MASK
 {
 static_cast
 <
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 >
 (
@@ -17594,7 +17594,7 @@ SetupMaskLayerForCSSMask
 Layer
 *
 aLayer
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 aMaskItem
 )
@@ -20360,13 +20360,13 @@ GetRoundedRectCount
 0
 )
 ;
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 maskItem
 =
 static_cast
 <
-nsDisplayMask
+nsDisplayMasksAndClipPaths
 *
 >
 (
