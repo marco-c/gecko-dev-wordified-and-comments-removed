@@ -115,6 +115,9 @@ extras
 int
 flags
 in
+String
+crashHandlerService
+in
 ParcelFileDescriptor
 prefsPfd
 in
