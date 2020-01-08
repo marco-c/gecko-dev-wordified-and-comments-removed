@@ -344,11 +344,6 @@ gfxUtils
 h
 '
 '
-RoundedRect
-.
-h
-'
-'
 SoftwareVsyncSource
 .
 h
