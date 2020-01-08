@@ -1214,7 +1214,7 @@ client
 .
 maybeSync
 (
-Infinity
+2000
 serverTime
 )
 ;
@@ -2934,6 +2934,10 @@ fields
 /
 records
 ?
+_expected
+=
+2000
+&
 _sort
 =
 -
@@ -3098,6 +3102,10 @@ fields
 /
 records
 ?
+_expected
+=
+3001
+&
 _sort
 =
 -
@@ -3316,6 +3324,10 @@ fields
 /
 records
 ?
+_expected
+=
+4001
+&
 _sort
 =
 -
@@ -3458,6 +3470,10 @@ fields
 /
 records
 ?
+_expected
+=
+10000
+&
 _sort
 =
 -
