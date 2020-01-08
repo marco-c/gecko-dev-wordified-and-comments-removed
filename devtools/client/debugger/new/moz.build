@@ -72,16 +72,6 @@ dist
 src
 '
 ]
-include
-(
-'
-node
--
-templates
-.
-mozbuild
-'
-)
 DevToolsModules
 (
 '
