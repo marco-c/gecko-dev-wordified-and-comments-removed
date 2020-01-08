@@ -1872,8 +1872,6 @@ this
 .
 window
 .
-document
-.
 docShell
 .
 treeOwner

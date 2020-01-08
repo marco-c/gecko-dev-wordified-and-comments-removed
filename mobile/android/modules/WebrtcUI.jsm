@@ -1781,8 +1781,6 @@ chromeWin
 =
 aWindow
 .
-document
-.
 docShell
 .
 rootTreeItem

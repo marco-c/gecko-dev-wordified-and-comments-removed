@@ -188,8 +188,6 @@ channel
 =
 content
 .
-document
-.
 docShell
 .
 currentDocumentChannel

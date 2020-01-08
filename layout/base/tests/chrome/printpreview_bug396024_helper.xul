@@ -253,8 +253,6 @@ frames
 1
 ]
 .
-document
-.
 docShell
 .
 printPreview
@@ -460,8 +458,6 @@ frames
 [
 1
 ]
-.
-document
 .
 docShell
 .
@@ -764,8 +760,6 @@ frames
 1
 ]
 .
-document
-.
 docShell
 .
 printPreview
@@ -893,8 +887,6 @@ frames
 [
 0
 ]
-.
-document
 .
 docShell
 .

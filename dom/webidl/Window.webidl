@@ -2284,6 +2284,15 @@ Element
 realFrameElement
 ;
 [
+ChromeOnly
+]
+readonly
+attribute
+nsIDocShell
+?
+docShell
+;
+[
 Throws
 NeedsCallerType
 ]

@@ -516,8 +516,6 @@ docShell
 =
 window
 .
-document
-.
 docShell
 .
 QueryInterface

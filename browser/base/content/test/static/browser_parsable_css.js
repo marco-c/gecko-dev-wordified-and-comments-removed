@@ -2411,7 +2411,9 @@ contentWindow
 .
 document
 ;
-doc
+iframe
+.
+contentWindow
 .
 docShell
 .

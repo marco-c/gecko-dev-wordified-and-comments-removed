@@ -2248,8 +2248,6 @@ win
 return
 win
 .
-document
-.
 docShell
 .
 rootTreeItem

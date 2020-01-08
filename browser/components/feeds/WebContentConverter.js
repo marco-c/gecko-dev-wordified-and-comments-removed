@@ -1476,8 +1476,6 @@ aContentWindow
 return
 aContentWindow
 .
-document
-.
 docShell
 .
 rootTreeItem

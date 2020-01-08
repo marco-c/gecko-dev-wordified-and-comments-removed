@@ -170,8 +170,6 @@ webProgress
 =
 content
 .
-document
-.
 docShell
 .
 QueryInterface

@@ -3015,15 +3015,6 @@ ChromeOnly
 ]
 readonly
 attribute
-nsIDocShell
-?
-docShell
-;
-[
-ChromeOnly
-]
-readonly
-attribute
 DOMString
 contentLanguage
 ;

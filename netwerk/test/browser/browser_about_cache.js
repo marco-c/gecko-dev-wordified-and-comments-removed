@@ -200,8 +200,6 @@ channel
 =
 content
 .
-document
-.
 docShell
 .
 currentDocumentChannel
@@ -465,8 +463,6 @@ channel
 =
 content
 .
-document
-.
 docShell
 .
 currentDocumentChannel
@@ -674,8 +670,6 @@ let
 channel
 =
 content
-.
-document
 .
 docShell
 .
