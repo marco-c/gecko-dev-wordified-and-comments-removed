@@ -332,10 +332,6 @@ firefox
 -
 raptor
 -
-chrome
--
-raptor
--
 fetch
 -
 firefox
@@ -394,6 +390,10 @@ linux
 talos
 -
 profiling
+-
+raptor
+-
+chrome
 linux64
 -
 devedition
@@ -773,10 +773,6 @@ tests
 raptor
 -
 firefox
--
-raptor
--
-chrome
 windows7
 -
 32
@@ -863,6 +859,10 @@ gpu
 windows
 -
 tests
+-
+raptor
+-
+chrome
 windows7
 -
 32
@@ -1021,10 +1021,6 @@ headless
 raptor
 -
 firefox
--
-raptor
--
-chrome
 windows10
 -
 64
@@ -1109,6 +1105,10 @@ windows
 talos
 -
 profiling
+-
+raptor
+-
+chrome
 windows10
 -
 64
@@ -1305,10 +1305,6 @@ awsy
 raptor
 -
 firefox
--
-raptor
--
-chrome
 macosx64
 -
 nightly
@@ -1340,6 +1336,10 @@ talos
 profiling
 -
 awsy
+-
+raptor
+-
+chrome
 macosx64
 -
 devedition
