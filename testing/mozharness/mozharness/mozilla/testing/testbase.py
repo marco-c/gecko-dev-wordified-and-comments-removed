@@ -3029,18 +3029,6 @@ realpath
 (
 source
 )
-        
-self
-.
-set_property
-(
-"
-build_url
-"
-self
-.
-installer_url
-)
     
 def
 _download_and_extract_symbols
@@ -3173,18 +3161,6 @@ abs_work_dir
 '
 symbols
 '
-)
-            
-self
-.
-set_property
-(
-"
-symbols_url
-"
-self
-.
-symbols_url
 )
             
 if
