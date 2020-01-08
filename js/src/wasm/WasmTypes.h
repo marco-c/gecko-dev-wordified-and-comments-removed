@@ -6109,7 +6109,6 @@ BuiltinThunk
 TrapExit
 DebugTrap
 FarJumpIsland
-UnalignedExit
 Throw
 }
 ;
@@ -7176,7 +7175,6 @@ ATan2D
 HandleDebugTrap
 HandleThrow
 HandleTrap
-ReportUnalignedAccess
 ReportInt64JSCall
 CallImport_Void
 CallImport_I32
