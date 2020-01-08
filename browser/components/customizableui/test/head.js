@@ -2768,7 +2768,7 @@ window
 )
 {
 let
-childNodes
+children
 =
 [
 .
@@ -2776,12 +2776,12 @@ childNodes
 .
 aContextMenu
 .
-childNodes
+children
 ]
 ;
-childNodes
+children
 =
-childNodes
+children
 .
 filter
 (
@@ -2805,7 +2805,7 @@ i
 ;
 i
 <
-childNodes
+children
 .
 length
 ;
@@ -2817,7 +2817,7 @@ i
 let
 menuitem
 =
-childNodes
+children
 [
 i
 ]
