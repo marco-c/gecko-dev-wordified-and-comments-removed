@@ -317,7 +317,7 @@ SystemExit
 ]
     
 '
-talos
+gecko
 -
 profile
 '
@@ -342,7 +342,7 @@ profile
 ]
 {
 '
-talos
+gecko
 -
 profile
 '
@@ -361,7 +361,28 @@ geckoProfile
 ]
 {
 '
-talos
+gecko
+-
+profile
+'
+:
+True
+}
+)
+        
+(
+[
+'
+-
+-
+gecko
+-
+profile
+'
+]
+{
+'
+gecko
 -
 profile
 '

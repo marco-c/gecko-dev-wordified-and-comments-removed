@@ -1912,7 +1912,7 @@ bar
 )
 )
 def
-test_template_talos_profile
+test_template_gecko_profile
 (
 get_morphed
 command
@@ -1964,7 +1964,7 @@ templates
 {
             
 '
-talos
+gecko
 -
 profile
 '
@@ -2053,7 +2053,9 @@ endswith
 '
 -
 -
-geckoProfile
+gecko
+-
+profile
 '
 )
         
@@ -2076,7 +2078,9 @@ endswith
 '
 -
 -
-geckoProfile
+gecko
+-
+profile
 '
 )
 if
