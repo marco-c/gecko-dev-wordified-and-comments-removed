@@ -5570,7 +5570,7 @@ LogWStr
 const
 wchar_t
 *
-aStr
+aWStr
 std
 :
 :
