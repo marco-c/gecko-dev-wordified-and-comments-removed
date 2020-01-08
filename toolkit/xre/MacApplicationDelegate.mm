@@ -1331,7 +1331,7 @@ nsICommandLineRunner
 cmdLine
 (
 new
-nsCommandLinew
+nsCommandLine
 (
 )
 )
