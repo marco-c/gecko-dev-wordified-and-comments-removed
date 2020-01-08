@@ -569,8 +569,6 @@ init
 adbFile
 )
 ;
-try
-{
 process
 .
 startHidden
@@ -583,13 +581,6 @@ noShell
 =
 true
 ;
-}
-catch
-(
-e
-)
-{
-}
 const
 params
 =
@@ -754,8 +745,6 @@ init
 adbFile
 )
 ;
-try
-{
 process
 .
 startHidden
@@ -768,13 +757,6 @@ noShell
 =
 true
 ;
-}
-catch
-(
-e
-)
-{
-}
 const
 params
 =
