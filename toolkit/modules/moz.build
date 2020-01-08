@@ -1696,11 +1696,6 @@ WebChannel
 jsm
 '
 '
-WebNavigationChild
-.
-jsm
-'
-'
 WebProgressChild
 .
 jsm
