@@ -46,11 +46,6 @@ NS_DEFINE_NAMED_CID
 NS_COLLATIONFACTORY_CID
 )
 ;
-NS_DEFINE_NAMED_CID
-(
-NS_COLLATION_CID
-)
-;
 static
 const
 mozilla
@@ -106,13 +101,6 @@ nullptr
 nsCollationFactoryConstructor
 }
 {
-&
-kNS_COLLATION_CID
-false
-nullptr
-nsCollationConstructor
-}
-{
 nullptr
 }
 }
@@ -150,11 +138,6 @@ kNS_STRINGBUNDLESERVICE_CID
 NS_COLLATIONFACTORY_CONTRACTID
 &
 kNS_COLLATIONFACTORY_CID
-}
-{
-NS_COLLATION_CONTRACTID
-&
-kNS_COLLATION_CID
 }
 {
 nullptr
