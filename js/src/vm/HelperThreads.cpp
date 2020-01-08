@@ -10039,6 +10039,9 @@ runtimeFromAnyThread
 (
 )
 ;
+#
+ifdef
+DEBUG
 runtime
 -
 >
@@ -10046,6 +10049,8 @@ incOffThreadParsesRunning
 (
 )
 ;
+#
+endif
 {
 AutoUnlockHelperThreadState
 unlock
@@ -10181,6 +10186,9 @@ insertBack
 task
 )
 ;
+#
+ifdef
+DEBUG
 runtime
 -
 >
@@ -10188,6 +10196,8 @@ decOffThreadParsesRunning
 (
 )
 ;
+#
+endif
 currentTask
 .
 reset
