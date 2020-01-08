@@ -187,6 +187,8 @@ deps
 for
 dep_label
 in
+sorted
+(
 job
 [
 '
@@ -196,6 +198,7 @@ dependencies
 .
 keys
 (
+)
 )
 :
             
