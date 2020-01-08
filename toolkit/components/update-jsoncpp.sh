@@ -120,7 +120,7 @@ rev
 exit
 1
 fi
-crashreporter_dir
+components_dir
 =
 (
 realpath
@@ -132,7 +132,7 @@ dirname
 repo
 =
 {
-crashreporter_dir
+components_dir
 }
 /
 .
@@ -144,7 +144,7 @@ rm
 -
 rf
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -195,7 +195,7 @@ rm
 rf
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -206,7 +206,7 @@ clang
 format
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -215,7 +215,7 @@ jsoncpp
 gitattributes
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -224,7 +224,7 @@ jsoncpp
 gitignore
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -235,7 +235,7 @@ travis
 yml
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -245,7 +245,7 @@ CMakeLists
 txt
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -253,7 +253,7 @@ jsoncpp
 SConstruct
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -263,7 +263,7 @@ amalgamate
 py
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -273,7 +273,7 @@ appveyor
 yml
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -283,7 +283,7 @@ dev
 makefile
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -291,7 +291,7 @@ jsoncpp
 devtools
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -299,7 +299,7 @@ jsoncpp
 doc
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -309,7 +309,7 @@ doxybuild
 py
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -321,7 +321,7 @@ CMakeLists
 txt
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -329,7 +329,7 @@ jsoncpp
 makefiles
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -339,7 +339,7 @@ makerelease
 py
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -349,7 +349,7 @@ pkg
 config
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -359,7 +359,7 @@ scons
 tools
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -371,7 +371,7 @@ CMakeLists
 txt
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -381,7 +381,7 @@ src
 jsontestrunner
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -395,7 +395,7 @@ CMakeLists
 txt
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -407,7 +407,7 @@ lib_json
 sconscript
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -423,7 +423,7 @@ h
 in
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -433,7 +433,7 @@ src
 test_lib_json
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -441,7 +441,7 @@ jsoncpp
 test
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -451,7 +451,7 @@ travis
 sh
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -459,7 +459,7 @@ jsoncpp
 version
 \
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -516,7 +516,7 @@ rev
 )
 >
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -535,7 +535,7 @@ snuck
 in
 find
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
@@ -558,7 +558,7 @@ rm
 hg
 addremove
 {
-crashreporter_dir
+components_dir
 }
 /
 jsoncpp
