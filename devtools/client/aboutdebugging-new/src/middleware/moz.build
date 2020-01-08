@@ -65,6 +65,15 @@ listener
 js
 '
 '
+extension
+-
+component
+-
+data
+.
+js
+'
+'
 tab
 -
 component
