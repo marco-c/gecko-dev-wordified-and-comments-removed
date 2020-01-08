@@ -7223,9 +7223,8 @@ true
 ;
 params
 .
-disallowInheritPrincipal
+allowInheritPrincipal
 =
-!
 mayInheritPrincipal
 ;
 params
