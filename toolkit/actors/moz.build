@@ -132,6 +132,11 @@ ThumbnailsChild
 jsm
 '
 '
+UnselectedTabHoverChild
+.
+jsm
+'
+'
 WebChannelChild
 .
 jsm
