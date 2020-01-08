@@ -178,6 +178,12 @@ PARA_SEPARATOR
 ;
 constexpr
 char16_t
+REPLACEMENT_CHARACTER
+=
+0xFFFD
+;
+constexpr
+char16_t
 BYTE_ORDER_MARK2
 =
 0xFFFE
