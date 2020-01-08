@@ -228,6 +228,7 @@ mTimerActive
 MayStopProcessingCallbackType
 mMayStopProcessing
 ;
+const
 TaskCategory
 mTaskCategory
 ;
