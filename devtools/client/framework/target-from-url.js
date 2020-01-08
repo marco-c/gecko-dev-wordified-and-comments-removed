@@ -308,6 +308,8 @@ response
 await
 client
 .
+mainRoot
+.
 getProcess
 (
 id

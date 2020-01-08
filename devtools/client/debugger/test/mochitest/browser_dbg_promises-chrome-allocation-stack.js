@@ -136,8 +136,11 @@ chrome
 yield
 client
 .
+mainRoot
+.
 getProcess
 (
+0
 )
 ;
 let

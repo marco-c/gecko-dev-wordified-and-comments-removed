@@ -1489,6 +1489,8 @@ response
 await
 client
 .
+mainRoot
+.
 getProcess
 (
 processId
