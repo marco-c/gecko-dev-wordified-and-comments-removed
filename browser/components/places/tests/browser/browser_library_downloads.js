@@ -199,7 +199,7 @@ currentView
 .
 associatedElement
 .
-children
+itemChildren
 .
 length
 =
@@ -222,7 +222,7 @@ currentView
 .
 associatedElement
 .
-children
+itemChildren
 )
 {
 Assert

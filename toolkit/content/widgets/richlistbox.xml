@@ -1380,7 +1380,7 @@ onget
 return
 this
 .
-children
+itemChildren
 .
 length
 "
@@ -1473,7 +1473,7 @@ index
 return
 this
 .
-children
+itemChildren
 .
 indexOf
 (
@@ -1550,7 +1550,7 @@ item
 return
 this
 .
-children
+itemChildren
 [
 aIndex
 ]
@@ -3150,7 +3150,7 @@ children
 =
 this
 .
-children
+itemChildren
 ;
 for
 (
@@ -3218,7 +3218,7 @@ CDATA
 return
 this
 .
-children
+itemChildren
 .
 length
 ;
@@ -3276,7 +3276,7 @@ children
 =
 this
 .
-children
+itemChildren
 ;
 if
 (
@@ -3617,7 +3617,7 @@ property
 name
 =
 "
-children
+itemChildren
 "
 readonly
 =
@@ -3649,7 +3649,7 @@ from
 (
 this
 .
-childNodes
+children
 )
 .
 filter
@@ -3657,14 +3657,6 @@ filter
 node
 =
 >
-node
-.
-nodeType
-=
-=
-1
-&
-&
 node
 instanceof
 iface
@@ -4313,7 +4305,7 @@ children
 =
 this
 .
-children
+itemChildren
 ;
 for
 (

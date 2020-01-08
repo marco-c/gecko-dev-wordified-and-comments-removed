@@ -130,7 +130,7 @@ itemCount
 =
 richlistbox
 .
-children
+itemChildren
 .
 length
 ;
@@ -155,7 +155,7 @@ element
 =
 richlistbox
 .
-children
+itemChildren
 [
 itemCount
 -

@@ -2146,7 +2146,7 @@ this
 .
 _list
 .
-children
+itemChildren
 .
 forEach
 (

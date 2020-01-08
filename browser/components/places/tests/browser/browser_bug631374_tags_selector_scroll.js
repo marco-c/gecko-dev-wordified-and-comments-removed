@@ -685,7 +685,7 @@ items
 .
 tagsSelector
 .
-children
+itemChildren
 ]
 ;
 let
@@ -762,7 +762,7 @@ topItem
 .
 tagsSelector
 .
-children
+itemChildren
 ]
 .
 find

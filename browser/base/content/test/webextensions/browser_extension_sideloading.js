@@ -1296,7 +1296,7 @@ item
 =
 list
 .
-children
+itemChildren
 .
 find
 (

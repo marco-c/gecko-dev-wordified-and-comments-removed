@@ -9142,7 +9142,7 @@ this
 .
 node
 .
-children
+itemChildren
 )
 {
 var

@@ -148,7 +148,7 @@ is
 (
 list
 .
-children
+itemChildren
 .
 length
 2
@@ -169,7 +169,7 @@ item
 of
 list
 .
-children
+itemChildren
 )
 {
 let
