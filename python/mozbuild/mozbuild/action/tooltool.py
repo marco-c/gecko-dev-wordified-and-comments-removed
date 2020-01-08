@@ -3180,8 +3180,6 @@ urllib2
 HTTPError
 ValueError
 )
-as
-e
 :
             
 log
@@ -3211,18 +3209,9 @@ file_record
 filename
 base_url
 )
-)
-            
-log
-.
-debug
-(
-"
-%
-s
-"
-%
-e
+exc_info
+=
+True
 )
         
 except
