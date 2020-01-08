@@ -10045,7 +10045,7 @@ ua_widget
 .
 enabled
 "
-true
+false
 )
 ;
 #
