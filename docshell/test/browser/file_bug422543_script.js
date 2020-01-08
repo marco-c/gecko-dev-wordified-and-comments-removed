@@ -68,11 +68,6 @@ last
 gotoindex
 "
 ;
-return
-this
-.
-retval
-;
 }
 OnHistoryPurge
 :
@@ -88,11 +83,6 @@ last
 "
 purge
 "
-;
-return
-this
-.
-retval
 ;
 }
 OnHistoryReload
