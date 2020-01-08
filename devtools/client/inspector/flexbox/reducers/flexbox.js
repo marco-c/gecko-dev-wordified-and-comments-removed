@@ -82,6 +82,9 @@ null
 highlighted
 :
 false
+initiatedByMarkupViewSelection
+:
+false
 }
 ;
 const

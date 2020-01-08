@@ -470,6 +470,7 @@ mainBaseSize
 renderFlexibilitySection
 (
 flexItemSizing
+mainFinalSize
 properties
 computedStyle
 )
@@ -478,7 +479,6 @@ const
 {
 mainDeltaSize
 mainBaseSize
-mainFinalSize
 lineGrowthState
 }
 =
@@ -1203,9 +1203,7 @@ reasons
 }
 renderFinalSizeSection
 (
-{
 mainFinalSize
-}
 )
 {
 return
@@ -1337,12 +1335,6 @@ mainFinalSize
 mainMaxSize
 )
 ;
-flexItemSizing
-.
-mainFinalSize
-=
-mainFinalSize
-;
 return
 (
 dom
@@ -1373,6 +1365,7 @@ this
 renderFlexibilitySection
 (
 flexItemSizing
+mainFinalSize
 properties
 computedStyle
 )
@@ -1396,7 +1389,7 @@ this
 .
 renderFinalSizeSection
 (
-flexItemSizing
+mainFinalSize
 )
 )
 )

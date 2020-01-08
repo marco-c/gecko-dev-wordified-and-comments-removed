@@ -506,14 +506,14 @@ dom
 div
 (
 {
-id
+className
 :
 "
 layout
 -
 flexbox
 -
-container
+wrapper
 "
 }
 Header

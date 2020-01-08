@@ -107,9 +107,9 @@ querySelector
 (
 "
 .
-flexbox
+flex
 -
-pane
+accordion
 .
 _header
 "
@@ -124,9 +124,9 @@ querySelector
 (
 "
 .
-flexbox
+flex
 -
-pane
+accordion
 .
 _content
 "
@@ -308,9 +308,9 @@ querySelector
 (
 "
 .
-flexbox
+flex
 -
-pane
+accordion
 .
 _content
 "
@@ -511,9 +511,9 @@ querySelector
 (
 "
 .
-flexbox
+flex
 -
-pane
+accordion
 .
 _content
 "
