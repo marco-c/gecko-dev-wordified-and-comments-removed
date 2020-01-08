@@ -515,7 +515,7 @@ pageAction
 -
 panel
 -
-screenshots_mozilla_org
+screenshots
 "
 ]
 [
@@ -672,9 +672,9 @@ screenshots
 "
 pageAction
 -
-panel
+urlbar
 -
-screenshots_mozilla_org
+screenshots
 "
 ]
 [
@@ -1032,7 +1032,7 @@ PageActions
 actionForID
 (
 "
-screenshots_mozilla_org
+screenshots
 "
 )
 ;

@@ -11,7 +11,7 @@ pageAction
 -
 panel
 -
-screenshots_mozilla_org
+screenshots
 "
 ;
 function
