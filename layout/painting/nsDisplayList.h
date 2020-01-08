@@ -6237,15 +6237,9 @@ DisplayItemClipChainEqualer
 >
 mClipDeduplicator
 ;
-std
-:
-:
-list
-<
 DisplayItemClipChain
 *
->
-mClipChainsToDestroy
+mFirstClipChainToDestroy
 ;
 nsTArray
 <
