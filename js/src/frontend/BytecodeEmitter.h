@@ -1899,9 +1899,9 @@ MOZ_MUST_USE
 bool
 emitFunctionScript
 (
-ParseNode
+CodeNode
 *
-fn
+funNode
 TopLevelFunction
 isTopLevel
 )
@@ -2280,9 +2280,9 @@ MOZ_MUST_USE
 bool
 emitAtomOp
 (
-ParseNode
+NameNode
 *
-pn
+nameNode
 JSOp
 op
 )
@@ -2365,9 +2365,9 @@ MOZ_MUST_USE
 bool
 emitFunction
 (
-ParseNode
+CodeNode
 *
-pn
+funNode
 bool
 needsProto
 =

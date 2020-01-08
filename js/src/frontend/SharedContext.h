@@ -1140,7 +1140,7 @@ enclosingScope
 ;
 public
 :
-ParseNode
+CodeNode
 *
 functionNode
 ;
