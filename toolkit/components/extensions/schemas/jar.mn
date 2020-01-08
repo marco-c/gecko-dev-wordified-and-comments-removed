@@ -355,6 +355,15 @@ extensions
 /
 schemas
 /
+user_scripts_content
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 web_navigation
 .
 json
