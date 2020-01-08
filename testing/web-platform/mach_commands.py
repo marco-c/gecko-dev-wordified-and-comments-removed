@@ -60,16 +60,6 @@ kwargs
 )
 :
         
-from
-mozrunner
-.
-devices
-.
-android_device
-import
-verify_android_device
-grant_runtime_permissions
-        
 build_path
 =
 os
@@ -145,6 +135,16 @@ product
 fennec
 "
 :
+            
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+verify_android_device
+grant_runtime_permissions
             
 verify_android_device
 (
