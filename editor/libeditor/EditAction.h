@@ -56,7 +56,8 @@ eInsertHorizontalRuleElement
 eInsertLinkElement
 eInsertUnorderedListElement
 eInsertOrderedListElement
-eInsertDefinitionListElementv
+eRemoveUnorderedListElement
+eRemoveOrderedListElement
 eRemoveListElement
 eInsertBlockquoteElement
 eNormalizeTable
