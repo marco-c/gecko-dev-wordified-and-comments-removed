@@ -2841,6 +2841,13 @@ cpp
 '
 vm
 /
+ArrayBufferViewObject
+.
+cpp
+'
+'
+vm
+/
 AsyncFunction
 .
 cpp
