@@ -19,6 +19,8 @@ build
 signing
 -
 fetch
+-
+toolchain
 transforms
 :
 -
@@ -27,6 +29,14 @@ taskgraph
 transforms
 .
 tests
+:
+transforms
+-
+taskgraph
+.
+transforms
+.
+use_toolchains
 :
 transforms
 -
