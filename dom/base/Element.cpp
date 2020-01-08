@@ -16144,10 +16144,10 @@ return
 auto
 request
 =
-MakeUnique
-<
 FullscreenRequest
->
+:
+:
+Create
 (
 this
 aCallerType
