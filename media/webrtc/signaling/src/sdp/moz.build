@@ -237,6 +237,11 @@ UNIFIED_SOURCES
 =
 [
 '
+ParsingResultComparer
+.
+cpp
+'
+'
 SdpAttribute
 .
 cpp
