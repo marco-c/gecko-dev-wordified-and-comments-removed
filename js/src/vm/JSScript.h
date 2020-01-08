@@ -6324,10 +6324,6 @@ uint32_t
 start
 uint32_t
 end
-unsigned
-line
-unsigned
-column
 )
 ;
 bool
