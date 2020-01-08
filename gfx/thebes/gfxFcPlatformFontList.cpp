@@ -8006,7 +8006,7 @@ prefFonts
 =
 FindGenericFamilies
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 -
@@ -8355,12 +8355,6 @@ isDeprecatedGeneric
 true
 ;
 }
-NS_ConvertUTF8toUTF16
-family16
-(
-familyName
-)
-;
 if
 (
 isDeprecatedGeneric
@@ -8374,7 +8368,7 @@ FontFamilyName
 :
 Convert
 (
-family16
+familyName
 )
 .
 IsGeneric
@@ -8388,7 +8382,7 @@ prefFonts
 =
 FindGenericFamilies
 (
-family16
+familyName
 language
 )
 ;
@@ -9143,7 +9137,7 @@ generic
 return
 ;
 }
-NS_ConvertASCIItoUTF16
+nsAutoCString
 genericToLookup
 (
 generic
@@ -9291,9 +9285,14 @@ else
 {
 genericToLookup
 .
-Assign
+Truncate
+(
+)
+;
+AppendUTF16toUTF8
 (
 fontlistValue
+genericToLookup
 )
 ;
 }
@@ -9542,7 +9541,7 @@ gfxFcPlatformFontList
 FindGenericFamilies
 (
 const
-nsAString
+nsCString
 &
 aGeneric
 nsAtom
@@ -9550,12 +9549,6 @@ nsAtom
 aLanguage
 )
 {
-NS_ConvertUTF16toUTF8
-generic
-(
-aGeneric
-)
-;
 nsAutoCString
 fcLang
 ;
@@ -9573,7 +9566,7 @@ fcLang
 nsAutoCString
 genericLang
 (
-generic
+aGeneric
 )
 ;
 if
@@ -9641,7 +9634,7 @@ genericPattern
 FC_FAMILY
 ToFcChar8Ptr
 (
-generic
+aGeneric
 .
 get
 (

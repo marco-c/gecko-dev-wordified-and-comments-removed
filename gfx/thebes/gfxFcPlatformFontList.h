@@ -1265,7 +1265,7 @@ PrefFontList
 FindGenericFamilies
 (
 const
-nsAString
+nsCString
 &
 aGeneric
 nsAtom

@@ -575,7 +575,7 @@ nsresult
 LoadProperties
 (
 const
-nsString
+nsACString
 &
 aName
 nsCOMPtr
@@ -586,7 +586,7 @@ nsIPersistentProperties
 aProperties
 )
 {
-nsAutoString
+nsAutoCString
 uriStr
 ;
 uriStr
@@ -638,10 +638,7 @@ getter_AddRefs
 (
 aProperties
 )
-NS_ConvertUTF16toUTF8
-(
 uriStr
-)
 )
 ;
 }
@@ -658,7 +655,7 @@ explicit
 nsPropertiesTable
 (
 const
-nsString
+nsACString
 &
 aPrimaryFontName
 )
@@ -971,7 +968,7 @@ mState
 NS_TABLE_STATE_EMPTY
 )
 {
-nsAutoString
+nsAutoCString
 primaryFontName
 ;
 mGlyphCodeFonts
@@ -1018,10 +1015,11 @@ mathfont
 "
 )
 ;
-LossyAppendUTF16toASCII
+uriStr
+.
+Append
 (
 primaryFontName
-uriStr
 )
 ;
 uriStr
@@ -1165,7 +1163,10 @@ AppendElement
 (
 FontFamilyName
 (
+NS_ConvertUTF16toUTF8
+(
 value
+)
 eUnquotedName
 )
 )
@@ -1435,10 +1436,6 @@ font
 ]
 .
 mName
-.
-Length
-(
-)
 )
 {
 return
@@ -2462,7 +2459,7 @@ nsGlyphTableList
 :
 mUnicodeTable
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Unicode
@@ -2486,7 +2483,7 @@ nsGlyphTable
 AddGlyphTable
 (
 const
-nsString
+nsACString
 &
 aPrimaryFontName
 )
@@ -2496,7 +2493,7 @@ nsGlyphTable
 GetGlyphTableFor
 (
 const
-nsAString
+nsACString
 &
 aFamily
 )
@@ -2718,7 +2715,7 @@ nsGlyphTableList
 AddGlyphTable
 (
 const
-nsString
+nsACString
 &
 aPrimaryFontName
 )
@@ -2764,7 +2761,7 @@ nsGlyphTableList
 GetGlyphTableFor
 (
 const
-nsAString
+nsACString
 &
 aFamily
 )
@@ -2808,7 +2805,7 @@ PrimaryFontName
 (
 )
 ;
-nsAutoString
+nsAutoCString
 primaryFontNameStr
 ;
 primaryFontName
@@ -2825,7 +2822,7 @@ primaryFontNameStr
 Equals
 (
 aFamily
-nsCaseInsensitiveStringComparator
+nsCaseInsensitiveCStringComparator
 (
 )
 )
@@ -2915,7 +2912,7 @@ glyphTableList
 >
 AddGlyphTable
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 STIXGeneral
@@ -6059,7 +6056,7 @@ openTypeTable
 }
 else
 {
-nsAutoString
+nsAutoCString
 familyName
 ;
 unquotedFamilyName
@@ -6217,7 +6214,10 @@ AppendElement
 (
 FontFamilyName
 (
+NS_ConvertUTF16toUTF8
+(
 fallback
+)
 eUnquotedName
 )
 )

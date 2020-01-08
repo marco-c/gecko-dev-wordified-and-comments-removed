@@ -448,13 +448,13 @@ variable
 langGroup
 )
 ;
-nsAutoString
+nsAutoCString
 value
 ;
 Preferences
 :
 :
-GetString
+GetCString
 (
 pref
 .
@@ -552,7 +552,7 @@ langGroup
 Preferences
 :
 :
-GetString
+GetCString
 (
 pref
 .
