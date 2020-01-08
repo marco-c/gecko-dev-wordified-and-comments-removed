@@ -1513,7 +1513,7 @@ in_range16x8
 !
 (
 s
-0xFB50
+0xFB1D
 0xFE00
 )
 |
@@ -1522,7 +1522,7 @@ in_range16x8
 (
 s
 0xFE70
-0xFF00
+0xFEFF
 )
 |
 in_range16x8
