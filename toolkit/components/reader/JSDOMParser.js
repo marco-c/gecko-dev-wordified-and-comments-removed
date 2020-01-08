@@ -4287,9 +4287,9 @@ attr
 .
 name
 +
-'
+"
 =
-'
+"
 +
 quote
 +
@@ -5748,8 +5748,8 @@ strBuf
 .
 join
 (
-'
-'
+"
+"
 )
 ;
 if
@@ -5822,7 +5822,8 @@ currentChar
 -
 1
 )
-;
+{
+}
 this
 .
 currentChar
