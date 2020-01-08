@@ -3473,6 +3473,16 @@ false
 checkMiscPrefixed
 (
 [
+0x0b
+0x80
+0x00
+]
+false
+)
+;
+checkMiscPrefixed
+(
+[
 0x0f
 ]
 true
