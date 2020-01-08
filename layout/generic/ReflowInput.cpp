@@ -3582,6 +3582,16 @@ GetIntValue
 NS_STYLE_WIDTH_AVAILABLE
 ;
 }
+static
+bool
+AreDynamicReflowRootsEnabled
+(
+)
+{
+return
+true
+;
+}
 void
 ReflowInput
 :
@@ -3707,7 +3717,9 @@ return
 bool
 canBeDynamicReflowRoot
 =
-true
+AreDynamicReflowRootsEnabled
+(
+)
 ;
 const
 nsStyleCoord
@@ -3730,6 +3742,10 @@ mStylePosition
 mHeight
 ;
 if
+(
+canBeDynamicReflowRoot
+&
+&
 (
 !
 width
@@ -3834,6 +3850,7 @@ IsFlexOrGridItem
 )
 )
 )
+)
 {
 canBeDynamicReflowRoot
 =
@@ -3842,6 +3859,9 @@ false
 }
 if
 (
+canBeDynamicReflowRoot
+&
+&
 mFrame
 -
 >
@@ -3897,6 +3917,9 @@ false
 }
 if
 (
+canBeDynamicReflowRoot
+&
+&
 !
 mFrame
 -
