@@ -71,11 +71,6 @@ Create
 )
 ;
 void
-Refresh
-(
-)
-;
-void
 Start
 (
 )
@@ -183,9 +178,6 @@ mFrameStartTime
 [
 kVRFrameTimingHistoryDepth
 ]
-;
-bool
-mVRProcessEnabled
 ;
 bool
 IsInServiceThread
