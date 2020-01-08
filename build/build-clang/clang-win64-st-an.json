@@ -217,17 +217,6 @@ detection
 patch
 "
 "
-hide
--
-gcda
--
-profiling
--
-symbols
-.
-patch
-"
-"
 fflush
 -
 before
