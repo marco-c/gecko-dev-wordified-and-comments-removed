@@ -130,6 +130,13 @@ AutoTuple
 class
 AutoTaggedTuple
 ;
+static
+const
+uint32_t
+FIELD_NUM_MAX
+=
+32
+;
 public
 :
 BinTokenReaderTester
