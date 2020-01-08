@@ -39751,7 +39751,7 @@ request
 -
 timeout
 "
-3000
+1500
 )
 ;
 pref
