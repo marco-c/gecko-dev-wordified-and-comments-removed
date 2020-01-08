@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsDirection
+.
+h
+"
+#
+include
+"
 nsINode
 .
 h
@@ -195,6 +202,9 @@ RangeItem
 1
 >
 mArray
+;
+nsDirection
+mDirection
 ;
 friend
 class
