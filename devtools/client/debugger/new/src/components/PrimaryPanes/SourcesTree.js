@@ -1678,7 +1678,7 @@ return
 0
 _sources
 .
-getGeneratedSourceByURL
+getSourceByURL
 )
 (
 state
