@@ -268,17 +268,3 @@ TEST
 -
 UNEXPECTED
 test_run_log
-\
-&
-&
-!
-.
-/
-mach
-test
-all_files_referenced
-|
-grep
-activity
--
-stream
