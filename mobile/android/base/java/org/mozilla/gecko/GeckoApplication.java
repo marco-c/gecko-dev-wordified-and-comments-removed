@@ -1258,15 +1258,6 @@ Builder
 (
 )
 .
-crashReportingJobId
-(
-JobIdsConstants
-.
-getIdForCrashReporter
-(
-)
-)
-.
 arguments
 (
 getDefaultGeckoArgs

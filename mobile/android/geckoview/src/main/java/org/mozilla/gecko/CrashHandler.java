@@ -1309,11 +1309,7 @@ final
 int
 crashReporterJobId
 =
-GeckoThread
-.
-getCrashReporterJobId
-(
-)
+1024
 ;
 if
 (
