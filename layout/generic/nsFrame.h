@@ -2020,6 +2020,15 @@ aDisp
 IsContainPaint
 (
 )
+&
+&
+!
+aFrame
+-
+>
+IsScrollFrame
+(
+)
 )
 {
 return
