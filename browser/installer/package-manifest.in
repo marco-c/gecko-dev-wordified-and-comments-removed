@@ -2265,6 +2265,11 @@ browser
 actors
 /
 *
+RESPATH
+/
+actors
+/
+*
 ;
 Safe
 Browsing

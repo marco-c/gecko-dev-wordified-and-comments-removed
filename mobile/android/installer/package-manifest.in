@@ -1279,6 +1279,11 @@ BINPATH
 modules
 /
 *
+BINPATH
+/
+actors
+/
+*
 ;
 Safe
 Browsing
