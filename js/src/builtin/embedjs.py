@@ -9,6 +9,12 @@ sys
 import
 os
 import
+mozpack
+.
+path
+as
+mozpath
+import
 subprocess
 import
 shlex
@@ -287,6 +293,14 @@ env
 )
 :
     
+objdir
+=
+os
+.
+getcwd
+(
+)
+    
 combinedSources
 =
 '
@@ -319,8 +333,15 @@ s
 s
 '
 :
+mozpath
+.
+relpath
+(
 source
+objdir
+)
 }
+                                          
 for
 source
 in
