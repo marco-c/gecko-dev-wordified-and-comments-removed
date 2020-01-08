@@ -12695,6 +12695,8 @@ walker
 gripToNodeFront
 (
 {
+actor
+:
 nodeActor
 }
 )
