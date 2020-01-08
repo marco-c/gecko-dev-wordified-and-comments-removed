@@ -3044,8 +3044,6 @@ if
 env_
 .
 gcTypesEnabled
-(
-)
 =
 =
 HasGcTypes
@@ -3177,8 +3175,6 @@ if
 env_
 .
 gcTypesEnabled
-(
-)
 =
 =
 HasGcTypes
@@ -4484,8 +4480,6 @@ known
 env_
 .
 gcTypesEnabled
-(
-)
 =
 =
 HasGcTypes
@@ -4525,8 +4519,6 @@ known
 env_
 .
 gcTypesEnabled
-(
-)
 =
 =
 HasGcTypes

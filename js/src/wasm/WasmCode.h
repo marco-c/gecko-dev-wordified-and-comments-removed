@@ -1383,7 +1383,7 @@ MemoryUsage
 memoryUsage
 ;
 HasGcTypes
-temporaryGcTypesConfigured
+temporaryHasGcTypes
 ;
 uint32_t
 minMemoryLength
@@ -1430,7 +1430,7 @@ MemoryUsage
 :
 None
 )
-temporaryGcTypesConfigured
+temporaryHasGcTypes
 (
 HasGcTypes
 :
@@ -2172,7 +2172,7 @@ bool
 createTier2
 (
 HasGcTypes
-gcTypesConfigured
+gcTypesEnabled
 const
 Uint32Vector
 &
