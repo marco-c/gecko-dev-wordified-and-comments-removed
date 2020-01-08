@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIExternalSharingAppService
+nsISharingHandlerApp
 .
 h
 "
