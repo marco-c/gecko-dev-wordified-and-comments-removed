@@ -105,11 +105,6 @@ utils
 DevToolsModules
 (
 '
-ChangesManager
-.
-js
-'
-'
 ChangesView
 .
 js
