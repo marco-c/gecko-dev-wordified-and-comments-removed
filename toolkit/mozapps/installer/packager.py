@@ -2350,17 +2350,11 @@ if
 buildconfig
 .
 substs
-.
-get
-(
+[
 '
-LLVM_SYMBOLIZER
+MOZ_COPY_PDBS
 '
-)
-and
-mozinfo
-.
-isWin
+]
 :
         
 for
