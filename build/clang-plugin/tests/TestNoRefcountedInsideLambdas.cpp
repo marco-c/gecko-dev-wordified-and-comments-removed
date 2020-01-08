@@ -6,17 +6,6 @@ functional
 #
 define
 MOZ_STRONG_REF
-__attribute__
-(
-(
-annotate
-(
-"
-moz_strong_ref
-"
-)
-)
-)
 #
 define
 MOZ_IMPLICIT
