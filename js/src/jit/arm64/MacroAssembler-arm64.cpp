@@ -549,6 +549,7 @@ Is
 sp
 )
 )
+{
 Mov
 (
 sp
@@ -557,6 +558,7 @@ GetStackPointer64
 )
 )
 ;
+}
 Mov
 (
 x0
@@ -1235,6 +1237,7 @@ IsHiddenSP
 framePtr
 )
 )
+{
 storeStackPtr
 (
 Address
@@ -1249,7 +1252,9 @@ offsetOfLastProfilingFrame
 )
 )
 ;
+}
 else
+{
 storePtr
 (
 AsRegister
@@ -1268,6 +1273,7 @@ offsetOfLastProfilingFrame
 )
 )
 ;
+}
 storePtr
 (
 ImmPtr
@@ -1350,6 +1356,7 @@ Invalid
 (
 )
 )
+{
 return
 ARMRegister
 (
@@ -1361,6 +1368,7 @@ gpr
 32
 )
 ;
+}
 return
 ARMRegister
 (
@@ -1479,6 +1487,7 @@ if
 (
 offset
 )
+{
 Add
 (
 ptr
@@ -1489,6 +1498,7 @@ offset
 )
 )
 ;
+}
 asMasm
 (
 )
@@ -1628,6 +1638,7 @@ Invalid
 (
 )
 )
+{
 Ldrsw
 (
 SelectGPReg
@@ -1638,7 +1649,9 @@ out64
 srcAddr
 )
 ;
+}
 else
+{
 Ldr
 (
 SelectGPReg
@@ -1650,6 +1663,7 @@ out64
 srcAddr
 )
 ;
+}
 break
 ;
 case
@@ -1834,6 +1848,7 @@ if
 (
 offset
 )
+{
 Add
 (
 ptr
@@ -1844,6 +1859,7 @@ offset
 )
 )
 ;
+}
 asMasm
 (
 )
@@ -2105,12 +2121,15 @@ IsHiddenSP
 reg
 )
 )
+{
 push
 (
 sp
 )
 ;
+}
 else
+{
 push
 (
 AsRegister
@@ -2119,6 +2138,7 @@ reg
 )
 )
 ;
+}
 adjustFrame
 (
 sizeof
@@ -2523,6 +2543,7 @@ has
 iter
 )
 )
+{
 dest
 [
 i
@@ -2535,6 +2556,7 @@ iter
 64
 )
 ;
+}
 +
 +
 iter
@@ -2571,6 +2593,7 @@ IsNone
 (
 )
 )
+{
 Ldp
 (
 dest
@@ -2590,6 +2613,7 @@ offset
 )
 )
 ;
+}
 else
 if
 (
@@ -2603,6 +2627,7 @@ IsNone
 (
 )
 )
+{
 Ldr
 (
 dest
@@ -2618,6 +2643,7 @@ offset
 )
 )
 ;
+}
 else
 if
 (
@@ -2631,6 +2657,7 @@ IsNone
 (
 )
 )
+{
 Ldr
 (
 dest
@@ -2651,6 +2678,7 @@ double
 )
 )
 ;
+}
 offset
 =
 nextOffset
@@ -2751,6 +2779,7 @@ has
 iter
 )
 )
+{
 dest
 [
 i
@@ -2763,6 +2792,7 @@ iter
 64
 )
 ;
+}
 +
 +
 iter
@@ -2799,6 +2829,7 @@ IsNone
 (
 )
 )
+{
 Ldp
 (
 dest
@@ -2818,6 +2849,7 @@ offset
 )
 )
 ;
+}
 else
 if
 (
@@ -2831,6 +2863,7 @@ IsNone
 (
 )
 )
+{
 Ldr
 (
 dest
@@ -2846,6 +2879,7 @@ offset
 )
 )
 ;
+}
 else
 if
 (
@@ -2859,6 +2893,7 @@ IsNone
 (
 )
 )
+{
 Ldr
 (
 dest
@@ -2879,6 +2914,7 @@ uint64_t
 )
 )
 ;
+}
 offset
 =
 nextOffset
@@ -4281,8 +4317,10 @@ if
 !
 enoughMemory_
 )
+{
 return
 ;
+}
 MoveEmitter
 emitter
 (
@@ -4338,6 +4376,7 @@ Is
 sp
 )
 )
+{
 Mov
 (
 GetStackPointer64
@@ -4346,6 +4385,7 @@ GetStackPointer64
 sp
 )
 ;
+}
 freeStack
 (
 stackAdjust
@@ -4355,6 +4395,7 @@ if
 (
 dynamicAlignment_
 )
+{
 Ldr
 (
 GetStackPointer64
@@ -4369,6 +4410,7 @@ GetStackPointer64
 )
 )
 ;
+}
 pop
 (
 lr
@@ -4729,8 +4771,10 @@ src
 =
 dest
 )
+{
 return
 ;
+}
 movePtr
 (
 src
@@ -4838,12 +4882,14 @@ ptr
 =
 buffer
 )
+{
 movePtr
 (
 ptr
 buffer
 )
 ;
+}
 orPtr
 (
 Imm32
@@ -5565,6 +5611,7 @@ MIRType
 :
 Int32
 )
+{
 store32
 (
 Imm32
@@ -5578,7 +5625,9 @@ toInt32
 dest
 )
 ;
+}
 else
+{
 store32
 (
 Imm32
@@ -5596,6 +5645,7 @@ toBoolean
 dest
 )
 ;
+}
 }
 else
 {
@@ -5629,6 +5679,7 @@ constant
 (
 )
 )
+{
 storeValue
 (
 value
@@ -5639,7 +5690,9 @@ value
 dest
 )
 ;
+}
 else
+{
 storeValue
 (
 ValueTypeFromMIRType
@@ -5662,6 +5715,7 @@ gpr
 dest
 )
 ;
+}
 }
 template
 void
@@ -7750,6 +7804,7 @@ offset
 =
 0
 )
+{
 return
 MemOperand
 (
@@ -7763,6 +7818,7 @@ base
 0
 )
 ;
+}
 masm
 .
 Add
@@ -7848,6 +7904,7 @@ address
 .
 offset
 )
+{
 masm
 .
 Add
@@ -7865,6 +7922,7 @@ address
 offset
 )
 ;
+}
 return
 MemOperand
 (
@@ -7925,6 +7983,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 Sbfm
@@ -7943,7 +8002,9 @@ targetWidth
 7
 )
 ;
+}
 else
+{
 masm
 .
 Ubfm
@@ -7962,6 +8023,7 @@ targetWidth
 7
 )
 ;
+}
 break
 ;
 case
@@ -7971,6 +8033,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 Sbfm
@@ -7989,7 +8052,9 @@ targetWidth
 15
 )
 ;
+}
 else
+{
 masm
 .
 Ubfm
@@ -8008,6 +8073,7 @@ targetWidth
 15
 )
 ;
+}
 break
 ;
 case
@@ -8028,6 +8094,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 Sbfm
@@ -8044,7 +8111,9 @@ src
 31
 )
 ;
+}
 else
+{
 masm
 .
 Ubfm
@@ -8061,6 +8130,7 @@ src
 31
 )
 ;
+}
 }
 else
 if
@@ -8100,6 +8170,7 @@ src
 =
 dest
 )
+{
 masm
 .
 Mov
@@ -8116,6 +8187,7 @@ targetWidth
 )
 )
 ;
+}
 break
 ;
 default
@@ -8211,6 +8283,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -8224,6 +8297,7 @@ currentOffset
 )
 )
 ;
+}
 masm
 .
 Ldxrb
@@ -8240,6 +8314,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 Sbfm
@@ -8258,6 +8333,7 @@ targetWidth
 7
 )
 ;
+}
 break
 ;
 }
@@ -8278,6 +8354,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -8291,6 +8368,7 @@ currentOffset
 )
 )
 ;
+}
 masm
 .
 Ldxrh
@@ -8307,6 +8385,7 @@ if
 (
 signExtend
 )
+{
 masm
 .
 Sbfm
@@ -8325,6 +8404,7 @@ targetWidth
 15
 )
 ;
+}
 break
 ;
 }
@@ -8345,6 +8425,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -8358,6 +8439,7 @@ currentOffset
 )
 )
 ;
+}
 masm
 .
 Ldxr
@@ -8383,6 +8465,7 @@ _64
 &
 signExtend
 )
+{
 masm
 .
 Sbfm
@@ -8399,6 +8482,7 @@ dest
 31
 )
 ;
+}
 break
 ;
 }
@@ -8419,6 +8503,7 @@ if
 (
 access
 )
+{
 masm
 .
 append
@@ -8432,6 +8517,7 @@ currentOffset
 )
 )
 ;
+}
 masm
 .
 Ldxr
@@ -9172,6 +9258,7 @@ if
 (
 wantResult
 )
+{
 SignOrZeroExtend
 (
 masm
@@ -9181,6 +9268,7 @@ output
 output
 )
 ;
+}
 masm
 .
 memoryBarrierAfter
@@ -10978,6 +11066,7 @@ if
 (
 isUnsigned
 )
+{
 Udiv
 (
 ARMRegister
@@ -10993,7 +11082,9 @@ rhs
 )
 )
 ;
+}
 else
+{
 Sdiv
 (
 ARMRegister
@@ -11009,6 +11100,7 @@ rhs
 )
 )
 ;
+}
 Mul
 (
 scratch

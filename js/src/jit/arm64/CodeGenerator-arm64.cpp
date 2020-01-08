@@ -205,9 +205,11 @@ generateOutOfLineCode
 (
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 deoptLabel_
@@ -448,11 +450,13 @@ lir
 )
 )
 )
+{
 jumpToBlock
 (
 mirTrue
 )
 ;
+}
 }
 }
 void
@@ -598,6 +602,7 @@ isConstant
 (
 )
 )
+{
 masm
 .
 cmp32Set
@@ -614,7 +619,9 @@ right
 defreg
 )
 ;
+}
 else
+{
 masm
 .
 cmp32Set
@@ -628,6 +635,7 @@ right
 defreg
 )
 ;
+}
 }
 void
 CodeGenerator
@@ -1316,6 +1324,7 @@ isConstant
 (
 )
 )
+{
 return
 Operand
 (
@@ -1325,6 +1334,7 @@ a
 )
 )
 ;
+}
 return
 Operand
 (
@@ -1370,6 +1380,7 @@ Scalar
 :
 Float64
 )
+{
 return
 ARMFPRegister
 (
@@ -1380,6 +1391,7 @@ a
 64
 )
 ;
+}
 if
 (
 a
@@ -1398,6 +1410,7 @@ Scalar
 :
 Float32
 )
+{
 return
 ARMFPRegister
 (
@@ -1408,6 +1421,7 @@ a
 32
 )
 ;
+}
 if
 (
 a
@@ -1417,6 +1431,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 ARMRegister
 (
@@ -1427,6 +1442,7 @@ a
 32
 )
 ;
+}
 MOZ_CRASH
 (
 "
@@ -2104,6 +2120,7 @@ onZero
 |
 onOverflow
 )
+{
 bailoutFrom
 (
 &
@@ -2116,6 +2133,7 @@ snapshot
 )
 )
 ;
+}
 return
 ;
 }
@@ -2128,6 +2146,7 @@ canOverflow
 (
 )
 )
+{
 bailoutIf
 (
 Assembler
@@ -2142,6 +2161,7 @@ snapshot
 )
 )
 ;
+}
 }
 else
 {
@@ -2209,6 +2229,7 @@ onZero
 |
 onOverflow
 )
+{
 bailoutFrom
 (
 &
@@ -2221,6 +2242,7 @@ snapshot
 )
 )
 ;
+}
 }
 }
 void
@@ -2848,6 +2870,7 @@ isGeneralReg
 (
 )
 )
+{
 return
 MoveOperand
 (
@@ -2857,6 +2880,7 @@ a
 )
 )
 ;
+}
 if
 (
 a
@@ -2865,6 +2889,7 @@ isFloatReg
 (
 )
 )
+{
 return
 MoveOperand
 (
@@ -2874,6 +2899,7 @@ a
 )
 )
 ;
+}
 return
 MoveOperand
 (
@@ -4959,12 +4985,14 @@ NopSize
 (
 )
 )
+{
 masm
 .
 nop
 (
 )
 ;
+}
 masm
 .
 bind

@@ -2829,9 +2829,11 @@ masm
 f
 )
 )
+{
 return
 false
 ;
+}
 masm
 .
 setupUnalignedABICall
@@ -3004,6 +3006,7 @@ outReg
 =
 InvalidReg
 )
+{
 masm
 .
 passABIArg
@@ -3011,6 +3014,7 @@ passABIArg
 outReg
 )
 ;
+}
 masm
 .
 callWithABI
@@ -3037,9 +3041,11 @@ masm
 f
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -3057,6 +3063,7 @@ vixl
 sp
 )
 )
+{
 masm
 .
 Mov
@@ -3072,6 +3079,7 @@ vixl
 sp
 )
 ;
+}
 switch
 (
 f
@@ -3371,12 +3379,14 @@ JitOptions
 .
 spectreJitToCxxCalls
 )
+{
 masm
 .
 speculationBarrier
 (
 )
 ;
+}
 masm
 .
 leaveExitFrame

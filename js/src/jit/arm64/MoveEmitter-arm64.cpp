@@ -81,6 +81,7 @@ getStackPointer
 (
 )
 )
+{
 return
 MemOperand
 (
@@ -102,6 +103,7 @@ pushedAtStart_
 )
 )
 ;
+}
 return
 MemOperand
 (
@@ -174,6 +176,7 @@ i
 +
 +
 )
+{
 emitMove
 (
 moves
@@ -184,6 +187,7 @@ i
 )
 )
 ;
+}
 }
 void
 MoveEmitterARM64
@@ -440,6 +444,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 Fmov
@@ -462,7 +467,9 @@ FLOAT32
 )
 )
 ;
+}
 else
+{
 masm
 .
 Str
@@ -481,6 +488,7 @@ to
 )
 )
 ;
+}
 return
 ;
 }
@@ -594,6 +602,7 @@ isFloatReg
 (
 )
 )
+{
 masm
 .
 Fmov
@@ -616,7 +625,9 @@ DOUBLE
 )
 )
 ;
+}
 else
+{
 masm
 .
 Str
@@ -635,6 +646,7 @@ to
 )
 )
 ;
+}
 return
 ;
 }
@@ -748,6 +760,7 @@ isGeneralReg
 (
 )
 )
+{
 masm
 .
 Mov
@@ -762,7 +775,9 @@ from
 )
 )
 ;
+}
 else
+{
 masm
 .
 Str
@@ -777,6 +792,7 @@ to
 )
 )
 ;
+}
 return
 ;
 }
@@ -902,6 +918,7 @@ isGeneralReg
 (
 )
 )
+{
 masm
 .
 Mov
@@ -916,7 +933,9 @@ from
 )
 )
 ;
+}
 else
+{
 masm
 .
 Str
@@ -931,6 +950,7 @@ to
 )
 )
 ;
+}
 return
 ;
 }
@@ -960,6 +980,7 @@ isMemory
 (
 )
 )
+{
 masm
 .
 Ldr
@@ -974,7 +995,9 @@ from
 )
 )
 ;
+}
 else
+{
 masm
 .
 Add
@@ -997,6 +1020,7 @@ disp
 )
 )
 ;
+}
 return
 ;
 }
