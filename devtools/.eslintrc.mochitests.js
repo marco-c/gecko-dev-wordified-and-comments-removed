@@ -53,6 +53,11 @@ waitForTick
 "
 :
 true
+"
+waitUntilState
+"
+:
+true
 }
 "
 parserOptions
