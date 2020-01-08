@@ -2389,12 +2389,6 @@ nsCOMPtr
 <
 nsIObserver
 >
-mFontPrefsObserver
-;
-nsCOMPtr
-<
-nsIObserver
->
 mMemoryPressureObserver
 ;
 mozilla
