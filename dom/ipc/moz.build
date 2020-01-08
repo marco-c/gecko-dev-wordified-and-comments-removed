@@ -122,6 +122,16 @@ XPIDL_MODULE
 '
 dom
 '
+EXTRA_JS_MODULES
++
+=
+[
+'
+ManifestMessages
+.
+jsm
+'
+]
 EXPORTS
 .
 mozilla
