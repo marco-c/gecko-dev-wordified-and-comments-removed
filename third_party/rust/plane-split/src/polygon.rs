@@ -786,7 +786,10 @@ usize
 )
 -
 >
+Option
+<
 Self
+>
 where
 T
 :
@@ -819,6 +822,7 @@ to_3d
 (
 )
 )
+?
 transform
 .
 transform_point3d
@@ -834,6 +838,7 @@ to_3d
 (
 )
 )
+?
 transform
 .
 transform_point3d
@@ -849,6 +854,7 @@ to_3d
 (
 )
 )
+?
 transform
 .
 transform_point3d
@@ -864,8 +870,11 @@ to_3d
 (
 )
 )
+?
 ]
 ;
+Some
+(
 Self
 :
 :
@@ -873,6 +882,7 @@ from_points
 (
 points
 anchor
+)
 )
 }
 pub

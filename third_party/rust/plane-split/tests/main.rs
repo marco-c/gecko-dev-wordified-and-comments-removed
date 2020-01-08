@@ -559,6 +559,17 @@ assert
 (
 poly
 .
+is_some
+(
+)
+&
+&
+poly
+.
+unwrap
+(
+)
+.
 is_valid
 (
 )
