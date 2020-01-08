@@ -3711,7 +3711,7 @@ if
 mBgParent
 )
 {
-already_AddRefed
+RefPtr
 <
 GenericPromise
 >
@@ -3734,6 +3734,10 @@ __func__
 ;
 return
 promise
+.
+forget
+(
+)
 ;
 }
 return
