@@ -1747,6 +1747,12 @@ __i386__
 |
 defined
 (
+__x86_64__
+)
+|
+|
+defined
+(
 __aarch64__
 )
 size_t
@@ -2150,6 +2156,12 @@ elif
 defined
 (
 __i386__
+)
+|
+|
+defined
+(
+__x86_64__
 )
 |
 |
