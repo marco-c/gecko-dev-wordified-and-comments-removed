@@ -2148,6 +2148,18 @@ enabled
 True
         
 "
+devtools
+.
+console
+.
+stdout
+.
+chrome
+"
+:
+True
+        
+"
 browser
 .
 snippets
@@ -2965,6 +2977,18 @@ window
 dump
 .
 enabled
+"
+:
+True
+        
+"
+devtools
+.
+console
+.
+stdout
+.
+chrome
 "
 :
 True

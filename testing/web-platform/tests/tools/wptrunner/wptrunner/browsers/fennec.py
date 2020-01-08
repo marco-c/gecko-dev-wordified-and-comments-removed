@@ -198,6 +198,18 @@ enabled
 True
         
 "
+devtools
+.
+console
+.
+stdout
+.
+chrome
+"
+:
+True
+        
+"
 browser
 .
 safebrowsing
