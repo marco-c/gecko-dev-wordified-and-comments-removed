@@ -85,8 +85,6 @@ final
 :
 public
 nsIMemoryReporterManager
-public
-nsIMemoryReporter
 {
 virtual
 ~
@@ -98,11 +96,6 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTERMANAGER
-NS_DECL_NSIMEMORYREPORTER
-MOZ_DEFINE_MALLOC_SIZE_OF
-(
-MallocSizeOf
-)
 nsMemoryReporterManager
 (
 )
