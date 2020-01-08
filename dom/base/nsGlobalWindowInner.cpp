@@ -7444,11 +7444,6 @@ mDoc
 =
 aDocument
 ;
-ClearDocumentDependentSlots
-(
-aCx
-)
-;
 mFocusedElement
 =
 nullptr
@@ -7460,6 +7455,15 @@ nullptr
 mSessionStorage
 =
 nullptr
+;
+mPerformance
+=
+nullptr
+;
+ClearDocumentDependentSlots
+(
+aCx
+)
 ;
 #
 ifdef

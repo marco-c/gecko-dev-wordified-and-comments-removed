@@ -8951,6 +8951,13 @@ nullptr
 newInnerWindow
 -
 >
+mPerformance
+=
+nullptr
+;
+newInnerWindow
+-
+>
 ClearDocumentDependentSlots
 (
 cx
