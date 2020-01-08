@@ -2968,7 +2968,7 @@ NS_IMETHODIMP
 nsTreeContentView
 :
 :
-SelectionChanged
+SelectionChangedXPCOM
 (
 )
 {

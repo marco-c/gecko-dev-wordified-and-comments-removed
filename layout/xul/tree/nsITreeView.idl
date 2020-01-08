@@ -1112,6 +1112,12 @@ changes
 .
 *
 /
+[
+binaryname
+(
+SelectionChangedXPCOM
+)
+]
 void
 selectionChanged
 (

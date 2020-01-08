@@ -500,6 +500,12 @@ aError
 )
 ;
 void
+SelectionChanged
+(
+)
+{
+}
+void
 CycleCell
 (
 int32_t

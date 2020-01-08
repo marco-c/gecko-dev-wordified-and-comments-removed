@@ -5138,7 +5138,7 @@ NS_IMETHODIMP
 nsCertTree
 :
 :
-SelectionChanged
+SelectionChangedXPCOM
 (
 )
 {
