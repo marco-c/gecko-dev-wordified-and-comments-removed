@@ -669,12 +669,7 @@ windowUtils
 =
 chromeWin
 .
-getInterface
-(
-Ci
-.
-nsIDOMWindowUtils
-)
+windowUtils
 ;
 return
 windowUtils
