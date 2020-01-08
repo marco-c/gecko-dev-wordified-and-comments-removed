@@ -945,6 +945,11 @@ ContentCrashHandlers
 jsm
 '
 '
+ContentLinkHandler
+.
+jsm
+'
+'
 ContentMetaHandler
 .
 jsm
@@ -961,11 +966,6 @@ jsm
 '
 '
 ExtensionsUI
-.
-jsm
-'
-'
-FaviconLoader
 .
 jsm
 '

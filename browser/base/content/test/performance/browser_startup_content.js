@@ -262,7 +262,7 @@ resource
 /
 modules
 /
-ContentMetaHandler
+ContentLinkHandler
 .
 jsm
 "
@@ -272,9 +272,9 @@ resource
 /
 /
 /
-actors
+modules
 /
-LinkHandlerChild
+ContentMetaHandler
 .
 jsm
 "
