@@ -614,6 +614,16 @@ aTimeStyle
 )
 )
 ;
+if
+(
+!
+formatter
+)
+{
+return
+false
+;
+}
 CFStringRef
 format
 =
