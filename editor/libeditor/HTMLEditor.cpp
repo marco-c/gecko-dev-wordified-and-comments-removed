@@ -18460,7 +18460,7 @@ aAttribute
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 HTMLEditor
 :
 :
