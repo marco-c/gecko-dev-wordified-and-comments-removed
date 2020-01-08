@@ -466,6 +466,11 @@ pcwalton
 /
 pathfinder
 "
+branch
+=
+"
+webrender
+"
 optional
 =
 true
@@ -505,6 +510,11 @@ pcwalton
 /
 pathfinder
 "
+branch
+=
+"
+webrender
+"
 optional
 =
 true
@@ -528,6 +538,11 @@ pcwalton
 /
 pathfinder
 "
+branch
+=
+"
+webrender
+"
 optional
 =
 true
@@ -550,6 +565,11 @@ com
 pcwalton
 /
 pathfinder
+"
+branch
+=
+"
+webrender
 "
 optional
 =
@@ -670,7 +690,9 @@ graphics
 "
 0
 .
-16
+17
+.
+1
 "
 core
 -
@@ -680,7 +702,7 @@ text
 version
 =
 "
-11
+13
 "
 default
 -
