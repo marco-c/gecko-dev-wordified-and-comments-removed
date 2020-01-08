@@ -271,6 +271,12 @@ addressOfStringNurseryCurrentEnd
 (
 )
 ;
+uint32_t
+*
+addressOfNurseryAllocCount
+(
+)
+;
 bool
 nurseryExists
 (

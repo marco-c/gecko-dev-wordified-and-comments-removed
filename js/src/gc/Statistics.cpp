@@ -4537,6 +4537,13 @@ AbortReason
 :
 None
 )
+allocsSinceMinorGC
+(
+{
+0
+0
+}
+)
 preBytes
 (
 0
@@ -6226,6 +6233,13 @@ reason
 )
 ;
 }
+allocsSinceMinorGC
+=
+{
+0
+0
+}
+;
 }
 void
 Statistics
