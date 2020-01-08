@@ -1835,17 +1835,6 @@ file
 *
 *
 param
-dataType
-*
-Obsolete
-the
-value
-is
-ignored
-.
-*
-*
-param
 iconURL
 *
 A
@@ -2017,9 +2006,6 @@ addEngine
 in
 AString
 engineURL
-in
-long
-dataType
 in
 AString
 iconURL
