@@ -24641,7 +24641,7 @@ writer
 .
 setInputOperandId
 (
-0
+lhsIndex
 )
 )
 ;
@@ -24652,7 +24652,7 @@ writer
 .
 setInputOperandId
 (
-1
+rhsIndex
 )
 )
 ;
