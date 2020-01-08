@@ -976,6 +976,9 @@ aChromeFlags
 nsresult
 Init
 (
+mozIDOMWindowProxy
+*
+aParent
 )
 ;
 static

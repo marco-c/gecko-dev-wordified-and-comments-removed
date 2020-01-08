@@ -161,6 +161,9 @@ Create
 BrowsingContext
 *
 aParent
+BrowsingContext
+*
+aOpener
 const
 nsAString
 &
@@ -179,6 +182,9 @@ CreateFromIPC
 BrowsingContext
 *
 aParent
+BrowsingContext
+*
+aOpener
 const
 nsAString
 &
@@ -419,6 +425,9 @@ BrowsingContext
 BrowsingContext
 *
 aParent
+BrowsingContext
+*
+aOpener
 const
 nsAString
 &

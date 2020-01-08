@@ -2636,6 +2636,10 @@ aParentContextId
 const
 BrowsingContextId
 &
+aOpenerId
+const
+BrowsingContextId
+&
 aContextId
 const
 nsString
