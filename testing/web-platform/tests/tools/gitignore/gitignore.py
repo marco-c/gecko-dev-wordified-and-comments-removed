@@ -26,9 +26,9 @@ def
 fnmatch_translate
 (
 pat
-path_name
+allow_component_only
 =
-False
+True
 )
 :
     
@@ -45,6 +45,10 @@ i
 =
 0
     
+component_pattern
+=
+False
+    
 if
 pat
 [
@@ -55,8 +59,6 @@ pat
 "
 /
 "
-or
-path_name
 :
         
 parts
@@ -106,6 +108,33 @@ any_char
 .
 "
         
+if
+allow_component_only
+and
+"
+/
+"
+not
+in
+pat
+:
+            
+component_pattern
+=
+True
+            
+parts
+.
+append
+(
+"
+^
+"
+)
+        
+else
+:
+            
 parts
 .
 append
@@ -329,18 +358,7 @@ append
 c
 )
             
-elif
-not
-(
-path_name
-and
-c
-=
-=
-"
-/
-"
-)
+else
 :
                 
 parts
@@ -558,6 +576,7 @@ try
 :
         
 return
+component_pattern
 re
 .
 compile
