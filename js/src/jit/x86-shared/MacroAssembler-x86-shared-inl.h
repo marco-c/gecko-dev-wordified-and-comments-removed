@@ -4710,8 +4710,9 @@ nanf
 ifFalse
 )
 ;
-bitwiseAndSimd128
+bitwiseAndFloat32x4
 (
+reg
 Operand
 (
 mask
@@ -4719,8 +4720,9 @@ mask
 reg
 )
 ;
-bitwiseAndNotSimd128
+bitwiseAndNotFloat32x4
 (
+mask
 Operand
 (
 ifFalse
@@ -4728,8 +4730,9 @@ ifFalse
 mask
 )
 ;
-bitwiseOrSimd128
+bitwiseOrFloat32x4
 (
+reg
 Operand
 (
 mask
