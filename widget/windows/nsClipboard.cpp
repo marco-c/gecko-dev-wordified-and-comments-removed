@@ -1326,7 +1326,10 @@ malloc
 (
 allocSize
 +
-3
+sizeof
+(
+char16_t
+)
 )
 )
 ;
@@ -1354,12 +1357,6 @@ allocSize
 1
 ]
 =
-data
-[
-allocSize
-+
-2
-]
 '
 \
 0
