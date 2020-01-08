@@ -848,6 +848,14 @@ ssrc
 override
 ;
 bool
+UnsetRemoteSSRC
+(
+uint32_t
+ssrc
+)
+override
+;
+bool
 SetLocalCNAME
 (
 const
