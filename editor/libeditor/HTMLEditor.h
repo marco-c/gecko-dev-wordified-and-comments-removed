@@ -4080,6 +4080,11 @@ Element
 aResizedElement
 )
 ;
+nsresult
+HideResizersInternal
+(
+)
+;
 ManualNACPtr
 CreateResizer
 (

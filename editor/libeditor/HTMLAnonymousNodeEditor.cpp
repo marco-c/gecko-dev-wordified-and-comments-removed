@@ -1147,7 +1147,7 @@ nsresult
 >
 rv
 =
-HideResizers
+HideResizersInternal
 (
 )
 ;
@@ -1158,7 +1158,7 @@ NS_SUCCEEDED
 rv
 )
 "
-HideResizers
+HideResizersInternal
 (
 )
 failed
@@ -1170,7 +1170,9 @@ NS_ASSERTION
 !
 mResizedObject
 "
-HideResizers
+HideResizersInternal
+(
+)
 failed
 "
 )
@@ -1254,7 +1256,7 @@ nsresult
 >
 rv
 =
-HideResizers
+HideResizersInternal
 (
 )
 ;
@@ -1265,7 +1267,7 @@ NS_SUCCEEDED
 rv
 )
 "
-HideResizers
+HideResizersInternal
 (
 )
 failed
@@ -1277,7 +1279,9 @@ NS_ASSERTION
 !
 mResizedObject
 "
-HideResizers
+HideResizersInternal
+(
+)
 failed
 "
 )
@@ -1602,7 +1606,7 @@ focusElement
 nsresult
 rv
 =
-HideResizers
+HideResizersInternal
 (
 )
 ;
@@ -1626,7 +1630,9 @@ NS_ASSERTION
 !
 mResizedObject
 "
-HideResizers
+HideResizersInternal
+(
+)
 failed
 "
 )
