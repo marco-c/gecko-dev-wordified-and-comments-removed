@@ -61,13 +61,13 @@ build_scripts
 )
 )
 from
-python_mozparsers
+mozparsers
 .
 shared_telemetry_utils
 import
 ParserError
 from
-python_mozparsers
+mozparsers
 import
 parse_histograms
 class

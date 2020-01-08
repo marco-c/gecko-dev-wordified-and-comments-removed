@@ -99,7 +99,7 @@ html
 name
 =
 '
-python_mozparsers
+mozparsers
 '
     
 description
