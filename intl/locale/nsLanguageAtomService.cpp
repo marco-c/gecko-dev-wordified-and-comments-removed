@@ -314,6 +314,8 @@ regionalPrefsLocales
 ;
 if
 (
+NS_SUCCEEDED
+(
 OSPreferences
 :
 :
@@ -325,6 +327,7 @@ GetInstance
 GetRegionalPrefsLocales
 (
 regionalPrefsLocales
+)
 )
 )
 {

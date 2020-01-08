@@ -58,9 +58,7 @@ systemLocales
 =
 osprefs
 .
-getSystemLocales
-(
-)
+systemLocales
 ;
 Assert
 .
@@ -106,9 +104,7 @@ rgLocales
 =
 osprefs
 .
-getRegionalPrefsLocales
-(
-)
+regionalPrefsLocales
 ;
 Assert
 .
