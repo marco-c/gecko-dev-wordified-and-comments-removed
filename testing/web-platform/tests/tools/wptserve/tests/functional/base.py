@@ -466,7 +466,6 @@ add_header
 "
 Authorization
 "
-b
 "
 Basic
 %
@@ -477,26 +476,15 @@ base64
 .
 b64encode
 (
-(
-"
+'
 %
 s
 :
 %
 s
-"
+'
 %
 auth
-)
-.
-encode
-(
-"
-utf
--
-8
-"
-)
 )
 )
         
