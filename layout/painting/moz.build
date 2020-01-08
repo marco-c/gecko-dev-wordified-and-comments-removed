@@ -191,6 +191,11 @@ RetainedDisplayListHelpers
 .
 h
 '
+'
+TransformClipNode
+.
+h
+'
 ]
 EXPORTS
 .
