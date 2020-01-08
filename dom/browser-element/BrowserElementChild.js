@@ -205,6 +205,7 @@ BrowserElementCopyPaste
 .
 js
 "
+this
 )
 ;
 }
@@ -230,6 +231,7 @@ BrowserElementCopyPaste
 .
 js
 "
+this
 )
 ;
 }
@@ -252,6 +254,7 @@ BrowserElementChildPreload
 .
 js
 "
+this
 )
 ;
 }
