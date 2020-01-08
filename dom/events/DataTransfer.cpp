@@ -5109,10 +5109,7 @@ aSupports
 *
 aLength
 =
-nsITransferable
-:
-:
-kFlavorHasDataProvider
+0
 ;
 }
 else

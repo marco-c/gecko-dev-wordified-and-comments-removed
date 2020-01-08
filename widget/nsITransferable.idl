@@ -843,12 +843,6 @@ nsITransferable
 :
 nsISupports
 {
-const
-long
-kFlavorHasDataProvider
-=
-0
-;
 /
 *
 *
