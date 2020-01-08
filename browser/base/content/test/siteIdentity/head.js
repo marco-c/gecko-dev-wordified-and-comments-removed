@@ -1888,9 +1888,7 @@ securityView
 querySelectorAll
 (
 "
-[
-observes
-=
+.
 identity
 -
 popup
@@ -1900,7 +1898,6 @@ mcb
 learn
 -
 more
-]
 "
 )
 element
