@@ -8561,16 +8561,6 @@ handleRevert
 ;
 }
 }
-if
-(
-openUILinkWhere
-=
-=
-"
-current
-"
-)
-{
 /
 /
 Ensure
@@ -8595,7 +8585,6 @@ selectionEnd
 =
 0
 ;
-}
 ]
 ]
 >
