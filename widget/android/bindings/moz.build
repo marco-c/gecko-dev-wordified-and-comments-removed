@@ -158,6 +158,9 @@ AccessibilityEvent
 AndroidBuild
 '
 '
+AndroidInputType
+'
+'
 AndroidRect
 '
 '
