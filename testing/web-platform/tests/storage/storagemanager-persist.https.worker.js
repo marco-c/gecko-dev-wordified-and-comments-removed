@@ -1,13 +1,13 @@
 importScripts
 (
-'
+"
 /
 resources
 /
 testharness
 .
 js
-'
+"
 )
 ;
 test
