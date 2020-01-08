@@ -697,14 +697,6 @@ clearMessagesCache
 }
 this
 .
-jsterm
-.
-focus
-(
-)
-;
-this
-.
 emit
 (
 "
