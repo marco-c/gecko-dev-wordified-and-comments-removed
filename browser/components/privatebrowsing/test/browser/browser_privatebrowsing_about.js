@@ -53,9 +53,13 @@ openNewBrowserWindow
 private
 :
 true
-waitForNonAboutBlankLoad
+waitForTabURL
 :
-true
+"
+about
+:
+privatebrowsing
+"
 }
 )
 ;
