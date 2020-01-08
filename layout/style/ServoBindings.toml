@@ -3607,9 +3607,6 @@ nsStylePadding
 nsStylePosition
 "
 "
-nsStyleQuoteValues
-"
-"
 nsStyleSVG
 "
 "
@@ -3734,6 +3731,9 @@ RawServoAnimationValueMap
 "
 "
 RawServoCssUrlData
+"
+"
+RawServoQuotes
 "
 ]
 array

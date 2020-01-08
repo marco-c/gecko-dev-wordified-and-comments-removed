@@ -93,3 +93,8 @@ SERVO_ARC_TYPE
 CssUrlData
 RawServoCssUrlData
 )
+SERVO_ARC_TYPE
+(
+Quotes
+RawServoQuotes
+)

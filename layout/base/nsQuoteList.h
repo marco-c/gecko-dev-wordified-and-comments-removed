@@ -231,9 +231,7 @@ mDepthBefore
 )
 ;
 }
-const
 nsString
-*
 Text
 (
 )

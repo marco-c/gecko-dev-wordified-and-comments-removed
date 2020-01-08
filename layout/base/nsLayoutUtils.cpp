@@ -41294,13 +41294,6 @@ UnregisterPrefChangeCallbacks
 (
 )
 ;
-nsStyleList
-:
-:
-Shutdown
-(
-)
-;
 }
 void
 nsLayoutUtils
