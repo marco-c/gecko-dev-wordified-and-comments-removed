@@ -763,6 +763,14 @@ BytesPerPixel
 mFormat
 )
 ;
+RefPtr
+<
+SourceSurfaceD2D1
+>
+deathGrip
+=
+this
+;
 MarkIndependent
 (
 )
