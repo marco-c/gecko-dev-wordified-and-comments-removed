@@ -137,12 +137,6 @@ attribute
 nsISupports
 mozItems
 ;
-readonly
-attribute
-unsigned
-short
-status
-;
 /
 *
 *
