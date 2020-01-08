@@ -2438,6 +2438,9 @@ arr
 moduleCustomSections
 (
 emptyModule
+"
+abracadabra
+"
 )
 ;
 assert_equals
