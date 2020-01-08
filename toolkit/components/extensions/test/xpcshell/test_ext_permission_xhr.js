@@ -139,17 +139,9 @@ data
 header
 }
 of
-XPCOMUtils
-.
-IterSimpleEnumerator
-(
 request
 .
 headers
-Ci
-.
-nsISupportsString
-)
 )
 {
 headers
