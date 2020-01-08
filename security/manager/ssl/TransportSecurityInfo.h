@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsISSLStatusProvider
+.
+h
+"
+#
+include
+"
 nsITransportSecurityInfo
 .
 h
@@ -119,6 +126,8 @@ nsITransportSecurityInfo
 public
 nsIInterfaceRequestor
 public
+nsISSLStatusProvider
+public
 nsIAssociatedContentSecurity
 public
 nsISerializable
@@ -143,6 +152,7 @@ TransportSecurityInfo
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITRANSPORTSECURITYINFO
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSISSLSTATUSPROVIDER
 NS_DECL_NSIASSOCIATEDCONTENTSECURITY
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
