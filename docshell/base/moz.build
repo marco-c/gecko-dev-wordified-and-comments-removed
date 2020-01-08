@@ -355,6 +355,11 @@ nsIScrollable
 idl
 '
 '
+nsITextScroll
+.
+idl
+'
+'
 nsITooltipListener
 .
 idl
