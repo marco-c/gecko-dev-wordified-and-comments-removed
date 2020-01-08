@@ -3313,6 +3313,11 @@ break
 -
 before
 "
+products
+=
+"
+gecko
+"
 flags
 =
 "
@@ -3497,6 +3502,11 @@ page
 break
 -
 after
+"
+products
+=
+"
+gecko
 "
 flags
 =
