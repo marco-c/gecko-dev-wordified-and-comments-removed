@@ -473,6 +473,7 @@ getStorage
 let
 records
 =
+await
 storage
 .
 getAll
