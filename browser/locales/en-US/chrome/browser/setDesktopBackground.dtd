@@ -123,16 +123,6 @@ Fit
 <
 !
 ENTITY
-preview
-.
-label
-"
-Preview
-"
->
-<
-!
-ENTITY
 color
 .
 label
