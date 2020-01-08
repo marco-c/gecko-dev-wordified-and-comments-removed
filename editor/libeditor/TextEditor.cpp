@@ -7540,12 +7540,13 @@ nsAString
 &
 aFormatType
 uint32_t
-aFlags
+aDocumentEncoderFlags
 const
 nsACString
 &
 aCharset
 )
+const
 {
 nsCOMPtr
 <
@@ -7650,7 +7651,7 @@ NativeInit
 (
 doc
 aFormatType
-aFlags
+aDocumentEncoderFlags
 |
 nsIDocumentEncoder
 :
@@ -7732,7 +7733,7 @@ wrapWidth
 }
 if
 (
-aFlags
+aDocumentEncoderFlags
 &
 nsIDocumentEncoder
 :

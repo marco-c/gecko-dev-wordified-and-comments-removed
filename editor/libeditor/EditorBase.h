@@ -1042,6 +1042,7 @@ Selection
 *
 aSelection
 )
+const
 ;
 Selection
 *
@@ -1055,6 +1056,7 @@ SelectionType
 :
 eNormal
 )
+const
 {
 nsISelectionController
 *
