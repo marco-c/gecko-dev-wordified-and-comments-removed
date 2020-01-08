@@ -83,14 +83,6 @@ taskgraph
 .
 transforms
 .
-use_fetches
-:
-transforms
--
-taskgraph
-.
-transforms
-.
 use_toolchains
 :
 transforms
