@@ -1347,8 +1347,7 @@ matches
 "
 .
 study
--
--
+.
 disabled
 "
 )
@@ -1373,8 +1372,7 @@ matches
 "
 .
 study
--
--
+.
 disabled
 "
 )
@@ -1440,8 +1438,7 @@ matches
 "
 .
 study
--
--
+.
 disabled
 "
 )
@@ -1466,8 +1463,7 @@ matches
 "
 .
 study
--
--
+.
 disabled
 "
 )
@@ -1842,9 +1838,5 @@ checkPrefs
 ;
 }
 }
-)
-.
-only
-(
 )
 ;
