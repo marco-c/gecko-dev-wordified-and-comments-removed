@@ -8086,9 +8086,9 @@ target
         
 js_shell
 =
-self
+obj
 .
-environment
+config
 .
 substs
 .
