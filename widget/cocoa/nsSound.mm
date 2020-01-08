@@ -277,10 +277,7 @@ nsIURI
 >
 uri
 (
-do_QueryInterface
-(
 aURL
-)
 )
 ;
 nsCOMPtr

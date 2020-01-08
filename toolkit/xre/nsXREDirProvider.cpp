@@ -7162,12 +7162,7 @@ rv
 ;
 localDir
 =
-do_QueryInterface
-(
 dirFileMac
-&
-rv
-)
 ;
 #
 elif

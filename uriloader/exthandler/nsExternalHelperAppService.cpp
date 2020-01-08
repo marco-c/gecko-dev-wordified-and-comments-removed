@@ -1345,10 +1345,7 @@ rv
 ;
 dir
 =
-do_QueryInterface
-(
 ldir
-)
 ;
 if
 (
