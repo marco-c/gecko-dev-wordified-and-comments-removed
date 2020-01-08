@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+interface
+nsIDocShell
+;
 [
 Exposed
 =
@@ -116,6 +119,12 @@ BrowsingContext
 getChildren
 (
 )
+;
+readonly
+attribute
+nsIDocShell
+?
+docShell
 ;
 readonly
 attribute
