@@ -2196,7 +2196,7 @@ webgl
 AttribBaseType
 :
 :
-Bool
+Boolean
 :
 return
 "
@@ -2687,7 +2687,7 @@ webgl
 AttribBaseType
 :
 :
-Bool
+Boolean
 )
 )
 {

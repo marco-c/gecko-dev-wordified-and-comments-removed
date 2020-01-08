@@ -365,7 +365,7 @@ webgl
 AttribBaseType
 :
 :
-Bool
+Boolean
 ;
 default
 :

@@ -1273,7 +1273,7 @@ webgl
 AttribBaseType
 :
 :
-Bool
+Boolean
 :
 MOZ_CRASH
 (

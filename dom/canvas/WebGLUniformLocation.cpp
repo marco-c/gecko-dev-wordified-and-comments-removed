@@ -299,7 +299,7 @@ webgl
 AttribBaseType
 :
 :
-Bool
+Boolean
 )
 {
 const

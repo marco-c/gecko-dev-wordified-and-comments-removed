@@ -392,7 +392,7 @@ uint8_t
 Int
 UInt
 Float
-Bool
+Boolean
 }
 ;
 const

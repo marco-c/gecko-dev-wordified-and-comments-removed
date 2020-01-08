@@ -4273,7 +4273,7 @@ webgl
 AttribBaseType
 :
 :
-Bool
+Boolean
 :
 case
 webgl
