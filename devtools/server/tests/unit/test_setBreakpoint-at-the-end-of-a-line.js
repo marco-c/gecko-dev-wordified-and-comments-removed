@@ -127,7 +127,7 @@ tabClient
 ]
 =
 await
-attachTab
+attachTarget
 (
 client
 tab

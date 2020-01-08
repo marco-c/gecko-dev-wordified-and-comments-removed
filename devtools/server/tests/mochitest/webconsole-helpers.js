@@ -311,7 +311,7 @@ tabClient
 await
 client
 .
-attachTab
+attachTarget
 (
 attachedTab
 .

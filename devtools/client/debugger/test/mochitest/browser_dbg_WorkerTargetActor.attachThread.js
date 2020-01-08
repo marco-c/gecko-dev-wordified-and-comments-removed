@@ -118,7 +118,7 @@ tabClient1
 ]
 =
 yield
-attachTab
+attachTarget
 (
 client1
 findTab
@@ -147,7 +147,7 @@ tabClient2
 ]
 =
 yield
-attachTab
+attachTarget
 (
 client2
 findTab
