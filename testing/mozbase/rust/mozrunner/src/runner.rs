@@ -120,6 +120,9 @@ std
 time
 ;
 use
+crate
+:
+:
 firefox_args
 :
 :
@@ -1861,6 +1864,9 @@ mod
 platform
 {
 use
+crate
+:
+:
 path
 :
 :
@@ -1870,6 +1876,9 @@ is_binary
 }
 ;
 use
+dirs
+;
+use
 std
 :
 :
@@ -1877,9 +1886,6 @@ path
 :
 :
 PathBuf
-;
-use
-dirs
 ;
 pub
 fn
