@@ -180,6 +180,14 @@ dom
 /
 media
 /
+webaudio
+/
+blink
+/
+dom
+/
+media
+/
 webspeech
 /
 recognition
