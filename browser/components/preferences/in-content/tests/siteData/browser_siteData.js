@@ -1193,6 +1193,8 @@ getCookiesFromHost
 uri
 .
 host
+{
+}
 )
 ;
 cookiesEnum1
@@ -1213,6 +1215,8 @@ getCookiesFromHost
 uri2
 .
 host
+{
+}
 )
 ;
 let

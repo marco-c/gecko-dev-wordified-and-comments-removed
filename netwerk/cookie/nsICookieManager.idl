@@ -1272,18 +1272,6 @@ be
 *
 retrived
 .
-This
-attribute
-is
-optional
-to
-avoid
-*
-breaking
-add
--
-ons
-.
 *
 *
 return
@@ -1301,7 +1289,6 @@ countCookiesFromHost
 /
 [
 implicit_jscontext
-optional_argc
 ]
 nsISimpleEnumerator
 getCookiesFromHost
@@ -1309,9 +1296,6 @@ getCookiesFromHost
 in
 AUTF8String
 aHost
-[
-optional
-]
 in
 jsval
 aOriginAttributes
