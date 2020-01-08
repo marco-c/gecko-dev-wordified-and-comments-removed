@@ -20,8 +20,10 @@ PRIO_DEBUG
 (
 msg
 )
+\
 do
 {
+\
 fprintf
 (
 stderr
@@ -36,6 +38,7 @@ n
 msg
 )
 ;
+\
 }
 while
 (

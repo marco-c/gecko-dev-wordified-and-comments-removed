@@ -193,8 +193,10 @@ MP_CHECK
 (
 s
 )
+\
 do
 {
+\
 if
 (
 (
@@ -204,9 +206,11 @@ s
 =
 MP_OKAY
 )
+\
 return
 SECFailure
 ;
+\
 }
 while
 (
@@ -219,8 +223,10 @@ UP_CHECK
 (
 s
 )
+\
 do
 {
+\
 int
 r
 =
@@ -228,6 +234,7 @@ r
 s
 )
 ;
+\
 if
 (
 r
@@ -236,7 +243,6 @@ r
 MSGPACK_UNPACK_SUCCESS
 &
 &
-\
 r
 !
 =
@@ -246,6 +252,7 @@ MSGPACK_UNPACK_EXTRA_BYTES
 return
 SECFailure
 ;
+\
 }
 while
 (
