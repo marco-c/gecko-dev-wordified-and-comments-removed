@@ -93,11 +93,6 @@ ast
 js
 '
 '
-asyncStoreHelper
-.
-js
-'
-'
 bootstrap
 .
 js

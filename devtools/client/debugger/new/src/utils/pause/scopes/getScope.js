@@ -303,9 +303,6 @@ this
 ;
 if
 (
-bindings
-&
-&
 "
 this
 "

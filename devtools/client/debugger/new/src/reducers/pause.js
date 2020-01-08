@@ -1590,13 +1590,6 @@ object
 "
 )
 {
-if
-(
-currentScope
-.
-bindings
-)
-{
 const
 bindings
 =
@@ -1659,7 +1652,6 @@ bindings
 args
 ]
 ;
-}
 currentScope
 =
 currentScope
