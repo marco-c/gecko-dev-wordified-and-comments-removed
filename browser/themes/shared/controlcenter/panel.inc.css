@@ -3330,6 +3330,10 @@ arrowpanel
 dimmed
 )
 ;
+color
+:
+inherit
+;
 }
 .
 tracking
