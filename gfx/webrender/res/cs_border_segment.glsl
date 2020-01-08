@@ -837,7 +837,7 @@ aFlags
 24
 )
 &
-0xff
+0x0f
 ;
 vec2
 outer_scale
