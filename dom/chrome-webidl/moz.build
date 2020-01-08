@@ -323,6 +323,11 @@ XULFrameElement
 .
 webidl
 '
+'
+XULScrollElement
+.
+webidl
+'
 ]
 if
 CONFIG
