@@ -80,11 +80,6 @@ private
 :
 static
 const
-Class
-protoClass_
-;
-static
-const
 ClassSpec
 classSpec_
 ;
@@ -318,6 +313,11 @@ static
 const
 Class
 class_
+;
+static
+const
+Class
+protoClass_
 ;
 static
 Value
