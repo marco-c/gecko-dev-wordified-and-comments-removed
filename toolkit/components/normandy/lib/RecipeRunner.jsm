@@ -1292,13 +1292,6 @@ finalize
 (
 )
 ;
-await
-AddonStudies
-.
-close
-(
-)
-;
 Uptake
 .
 reportRunner
