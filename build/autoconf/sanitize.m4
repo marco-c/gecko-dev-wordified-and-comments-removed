@@ -382,6 +382,8 @@ LDFLAGS
 fsanitize
 =
 address
+-
+rdynamic
 LDFLAGS
 "
 fi
@@ -615,6 +617,8 @@ memory
 track
 -
 origins
+-
+rdynamic
 LDFLAGS
 "
 fi
@@ -824,6 +828,8 @@ LDFLAGS
 fsanitize
 =
 thread
+-
+rdynamic
 LDFLAGS
 "
 fi
@@ -1129,6 +1135,8 @@ signed
 integer
 -
 overflow
+-
+rdynamic
 LDFLAGS
 "
 fi
@@ -1211,6 +1219,8 @@ unsigned
 integer
 -
 overflow
+-
+rdynamic
 LDFLAGS
 "
 fi
