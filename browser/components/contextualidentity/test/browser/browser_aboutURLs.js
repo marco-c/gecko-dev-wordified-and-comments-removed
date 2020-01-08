@@ -34,6 +34,9 @@ telemetry
 "
 downloads
 "
+"
+debugging
+"
 ]
 ;
 for

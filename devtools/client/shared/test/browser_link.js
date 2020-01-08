@@ -101,7 +101,7 @@ link
 to
 about
 :
-debugging
+config
 "
 )
 ;
@@ -110,7 +110,7 @@ openTrustedLink
 "
 about
 :
-debugging
+config
 "
 )
 ;
@@ -136,7 +136,7 @@ spec
 "
 about
 :
-debugging
+config
 "
 "
 openTrustedLink
