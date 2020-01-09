@@ -4643,10 +4643,6 @@ cairo_surface_set_device_scale
 bool
 useHiDPIWidgets
 =
-!
-isX11Display
-&
-&
 (
 aScaleFactor
 !
