@@ -7914,7 +7914,7 @@ return
 }
 nsIFrame
 *
-frame
+styleFrame
 =
 GetStyleFrame
 (
@@ -7942,7 +7942,7 @@ SetMayHaveOpacityAnimation
 ;
 EnumerateContinuationsOrIBSplitSiblings
 (
-frame
+styleFrame
 [
 ]
 (
@@ -7962,6 +7962,14 @@ SetMayHaveOpacityAnimation
 )
 ;
 }
+nsIFrame
+*
+primaryFrame
+=
+GetPrimaryFrame
+(
+)
+;
 if
 (
 HasAnimationOfPropertySet
@@ -7984,7 +7992,7 @@ SetMayHaveTransformAnimation
 ;
 EnumerateContinuationsOrIBSplitSiblings
 (
-frame
+primaryFrame
 [
 ]
 (
