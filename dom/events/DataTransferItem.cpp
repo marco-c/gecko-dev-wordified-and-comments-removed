@@ -2088,10 +2088,7 @@ override
 ErrorResult
 rv
 ;
-MOZ_KnownLive
-(
 mCallback
-)
 -
 >
 Call

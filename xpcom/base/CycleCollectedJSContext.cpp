@@ -1113,10 +1113,7 @@ nullptr
 doc
 )
 ;
-MOZ_KnownLive
-(
 mCallback
-)
 -
 >
 Call

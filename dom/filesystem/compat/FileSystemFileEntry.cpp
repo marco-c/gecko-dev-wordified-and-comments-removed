@@ -146,10 +146,7 @@ MOZ_ASSERT
 file
 )
 ;
-MOZ_KnownLive
-(
 mCallback
-)
 -
 >
 Call
