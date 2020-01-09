@@ -4555,6 +4555,7 @@ id
 0
 )
 {
+*
 aResult
 =
 nullptr
@@ -4579,6 +4580,7 @@ id
 ;
 MOZ_ASSERT
 (
+*
 aResult
 "
 Deserialized
@@ -4621,6 +4623,7 @@ bc
 ;
 }
 return
+*
 aResult
 !
 =
