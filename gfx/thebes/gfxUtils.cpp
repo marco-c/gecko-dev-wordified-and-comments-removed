@@ -7434,8 +7434,8 @@ char
 *
 aMimeType
 const
-char16_t
-*
+nsAString
+&
 aEncoderOptions
 nsIInputStream
 *

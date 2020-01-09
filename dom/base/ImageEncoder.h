@@ -202,8 +202,8 @@ imgIEncoder
 *
 aEncoder
 const
-char16_t
-*
+nsAString
+&
 aEncoderOptions
 nsIInputStream
 *

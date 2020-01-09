@@ -1485,8 +1485,8 @@ char
 *
 mimeType
 const
-char16_t
-*
+nsAString
+&
 encoderOptions
 nsIInputStream
 *
