@@ -810,10 +810,6 @@ MediaEngine
 *
 GetBackend
 (
-uint64_t
-aWindowId
-=
-0
 )
 ;
 WindowTable

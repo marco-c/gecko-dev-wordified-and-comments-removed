@@ -8673,7 +8673,6 @@ manager
 >
 GetBackend
 (
-aWindowId
 )
 ;
 }
@@ -10731,7 +10730,6 @@ manager
 >
 GetBackend
 (
-0
 )
 ;
 if
@@ -10743,7 +10741,6 @@ manager
 >
 GetBackend
 (
-0
 )
 -
 >
@@ -17462,8 +17459,6 @@ MediaManager
 :
 GetBackend
 (
-uint64_t
-aWindowId
 )
 {
 MOZ_ASSERT
