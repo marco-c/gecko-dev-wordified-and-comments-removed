@@ -62,6 +62,8 @@ mercurial
 \
 nodejs
 \
+npm
+\
 &
 &
 rm
