@@ -2933,7 +2933,7 @@ value
 =
 value
 .
-trim_left_matches
+trim_start_matches
 (
 HTML_SPACE_CHARACTERS
 )

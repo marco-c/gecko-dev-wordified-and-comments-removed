@@ -4821,7 +4821,7 @@ buf
 ;
 slice
 .
-trim_right
+trim_end
 (
 )
 .
