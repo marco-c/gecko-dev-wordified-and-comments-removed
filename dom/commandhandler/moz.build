@@ -101,9 +101,11 @@ BUG_COMPONENT
 Core
 "
 "
-Embedding
-:
-APIs
+User
+events
+and
+focus
+handling
 "
 )
 EXPORTS

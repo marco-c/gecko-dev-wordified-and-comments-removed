@@ -573,6 +573,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Geolocation
 "
 )
@@ -881,6 +883,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Geolocation
 "
 )
@@ -1767,6 +1771,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Geolocation
 "
 )

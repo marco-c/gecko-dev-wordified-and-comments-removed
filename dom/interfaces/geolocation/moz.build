@@ -101,6 +101,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Geolocation
 "
 )
