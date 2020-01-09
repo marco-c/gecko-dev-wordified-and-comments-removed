@@ -780,7 +780,10 @@ _checkRequiredOptions
 options
 [
 "
-searchString
+enableAutofill
+"
+"
+isPrivate
 "
 "
 lastKey
@@ -789,7 +792,7 @@ lastKey
 maxResults
 "
 "
-isPrivate
+searchString
 "
 ]
 )
@@ -896,16 +899,6 @@ list
 )
 ;
 }
-this
-.
-autofill
-=
-!
-!
-options
-.
-autofill
-;
 }
 _checkRequiredOptions
 (
