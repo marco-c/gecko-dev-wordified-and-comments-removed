@@ -195,6 +195,18 @@ setSession
 #
 v65
 -
+Added
+experimental
+ad
+-
+blocking
+category
+to
+GeckoSession
+.
+TrackingProtectionDelegate
+.
+-
 Moved
 [
 CompositorController
@@ -1098,4 +1110,4 @@ api
 version
 ]
 :
-e7a6a3ed65c75f7cb278b693adfa09cae5238ca2
+45d1d8774e913a3077d7c489274184fd301f14fc
