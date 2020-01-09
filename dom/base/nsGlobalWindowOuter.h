@@ -1422,9 +1422,6 @@ nsPIDOMWindowOuter
 >
 IndexedGetterOuter
 (
-JSContext
-*
-aCx
 uint32_t
 aIndex
 )
@@ -2270,14 +2267,6 @@ final
 uint32_t
 Length
 (
-mozilla
-:
-:
-dom
-:
-:
-CallerType
-aCallerType
 )
 ;
 already_AddRefed
