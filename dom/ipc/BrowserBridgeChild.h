@@ -141,8 +141,6 @@ Activate
 void
 Deactivate
 (
-bool
-aWindowLowering
 )
 ;
 void

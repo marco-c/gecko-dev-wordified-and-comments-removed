@@ -5411,8 +5411,6 @@ BrowserParent
 :
 Deactivate
 (
-bool
-aWindowLowering
 )
 {
 LOGBROWSERFOCUS
@@ -5427,18 +5425,11 @@ this
 )
 )
 ;
-if
-(
-!
-aWindowLowering
-)
-{
 PopFocus
 (
 this
 )
 ;
-}
 if
 (
 !
