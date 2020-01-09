@@ -333,11 +333,6 @@ Shutdown
 (
 )
 ;
-bool
-IsPresenting
-(
-)
-;
 protected
 :
 VRManager
