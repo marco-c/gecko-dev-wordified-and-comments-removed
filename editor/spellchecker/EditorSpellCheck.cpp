@@ -1727,7 +1727,6 @@ spellChecker
 NextMisspelledWord
 (
 aNextMisspelledWord
-&
 mSuggestedWordList
 )
 ;
