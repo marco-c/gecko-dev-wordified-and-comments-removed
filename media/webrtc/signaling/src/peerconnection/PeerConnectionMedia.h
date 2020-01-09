@@ -153,13 +153,6 @@ parent
 nsresult
 Init
 (
-const
-dom
-:
-:
-RTCConfiguration
-&
-aConfiguration
 )
 ;
 void
@@ -806,9 +799,6 @@ string
 &
 aTransportId
 const
-MediaTransportHandler
-:
-:
 CandidateInfo
 &
 aCandidateInfo
@@ -845,9 +835,6 @@ string
 &
 aTransportId
 const
-MediaTransportHandler
-:
-:
 CandidateInfo
 &
 aCandidateInfo

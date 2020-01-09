@@ -1736,6 +1736,10 @@ disconnect_all
 (
 )
 ;
+mTransportHandler
+=
+nullptr
+;
 mSTS
 -
 >
@@ -1768,10 +1772,6 @@ DestroyOnSTSFinal
 (
 )
 {
-mTransportHandler
-=
-nullptr
-;
 sDataChannelShutdown
 -
 >
@@ -4109,6 +4109,9 @@ mTransportId
 empty
 (
 )
+&
+&
+mTransportHandler
 )
 {
 mTransportHandler
@@ -4117,8 +4120,14 @@ mTransportHandler
 SendPacket
 (
 mTransportId
+std
+:
+:
+move
+(
 *
 packet
+)
 )
 ;
 }

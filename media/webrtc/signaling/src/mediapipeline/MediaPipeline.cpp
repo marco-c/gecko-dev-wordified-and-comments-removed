@@ -2763,7 +2763,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 DirectionType
@@ -3807,7 +3807,13 @@ mTransportHandler
 SendPacket
 (
 mTransportId
+std
+:
+:
+move
+(
 packet
+)
 )
 ;
 }
@@ -5426,7 +5432,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 nsCOMPtr
@@ -7977,7 +7983,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 nsCOMPtr
@@ -8582,7 +8588,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 nsCOMPtr
@@ -9471,7 +9477,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 nsCOMPtr

@@ -135,7 +135,7 @@ class
 MediaPipelineFilter
 ;
 class
-MediaTransportBase
+MediaTransportHandler
 ;
 class
 PeerIdentity
@@ -189,7 +189,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 DirectionType
@@ -827,7 +827,7 @@ mTransportId
 ;
 RefPtr
 <
-MediaTransportBase
+MediaTransportHandler
 >
 mTransportHandler
 ;
@@ -992,7 +992,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 nsCOMPtr
@@ -1164,7 +1164,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 nsCOMPtr
@@ -1222,7 +1222,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 nsCOMPtr
@@ -1323,7 +1323,7 @@ std
 string
 &
 aPc
-MediaTransportBase
+MediaTransportHandler
 *
 aTransportHandler
 nsCOMPtr
