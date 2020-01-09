@@ -1039,6 +1039,15 @@ ScriptLoadRequest
 aRequest
 )
 ;
+static
+bool
+IsAboutPageLoadingChromeURI
+(
+ScriptLoadRequest
+*
+aRequest
+)
+;
 nsresult
 StartLoad
 (
