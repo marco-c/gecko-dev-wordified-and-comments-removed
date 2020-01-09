@@ -447,6 +447,7 @@ MOCK_CC_STORAGE
 }
 )
 ;
+async
 function
 checkIsFormCleared
 (
@@ -498,12 +499,14 @@ elem
 expectedValue
 )
 ;
+await
 checkFieldHighlighted
 (
 elem
 false
 )
 ;
+await
 checkFieldPreview
 (
 elem
@@ -732,6 +735,7 @@ tel
 "
 )
 ;
+await
 checkIsFormCleared
 (
 )
@@ -791,6 +795,7 @@ address
 "
 )
 ;
+await
 checkIsFormCleared
 (
 )
@@ -862,6 +867,7 @@ address
 "
 )
 ;
+await
 checkIsFormCleared
 (
 {
@@ -1047,6 +1053,7 @@ element
 val
 )
 ;
+await
 checkFieldHighlighted
 (
 element
@@ -1077,6 +1084,7 @@ name
 "
 )
 ;
+await
 checkIsFormCleared
 (
 )
