@@ -294,6 +294,7 @@ searchContents
 cx
 fileSearchQuery
 editor
+false
 )
 )
 ;
