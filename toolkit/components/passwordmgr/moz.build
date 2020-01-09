@@ -191,6 +191,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsILoginAutoCompleteSearch
+.
+idl
+'
+'
 nsILoginInfo
 .
 idl
