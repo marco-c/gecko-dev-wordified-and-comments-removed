@@ -291,9 +291,6 @@ class
 nsStyleCoord
 ;
 class
-nsStyleCorners
-;
-class
 nsPIDOMWindowOuter
 ;
 class
@@ -4461,7 +4458,10 @@ bool
 HasNonZeroCorner
 (
 const
-nsStyleCorners
+mozilla
+:
+:
+BorderRadius
 &
 aCorners
 )
@@ -4471,7 +4471,10 @@ bool
 HasNonZeroCornerOnSide
 (
 const
-nsStyleCorners
+mozilla
+:
+:
+BorderRadius
 &
 aCorners
 mozilla
