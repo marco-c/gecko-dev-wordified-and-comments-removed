@@ -792,6 +792,12 @@ Limit
 0x100
 }
 ;
+constexpr
+uint16_t
+PlaceholderRefFunc
+=
+0xd2
+;
 inline
 bool
 IsPrefixByte
