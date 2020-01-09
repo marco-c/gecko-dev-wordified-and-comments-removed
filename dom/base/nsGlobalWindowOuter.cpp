@@ -8197,9 +8197,6 @@ compartment
 ;
 }
 ;
-#
-if
-0
 static
 JS
 :
@@ -8330,8 +8327,6 @@ CompartmentIterResult
 Stop
 ;
 }
-#
-endif
 static
 JS
 :
@@ -8437,9 +8432,6 @@ GetGlobalJSObject
 )
 )
 {
-#
-if
-0
 JS
 :
 :
@@ -8493,8 +8485,6 @@ compartment
 )
 ;
 }
-#
-endif
 return
 aOptions
 .
