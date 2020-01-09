@@ -226,6 +226,11 @@ sourceMapURL
 source
 .
 sourceMapURL
+introductionUrl
+:
+source
+.
+introductionUrl
 isBlackBoxed
 :
 false
