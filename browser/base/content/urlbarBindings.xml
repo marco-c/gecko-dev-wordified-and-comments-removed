@@ -4578,6 +4578,8 @@ this
 .
 _mayTrimURLs
 ?
+BrowserUtils
+.
 trimURL
 (
 aURL
