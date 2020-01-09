@@ -189,6 +189,17 @@ AssignedNodesOptions
 options
 )
 ;
+sequence
+<
+Element
+>
+assignedElements
+(
+optional
+AssignedNodesOptions
+options
+)
+;
 }
 ;
 dictionary
