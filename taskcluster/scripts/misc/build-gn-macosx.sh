@@ -107,7 +107,9 @@ clang
 /
 bin
 /
-clang
+llvm
+-
+ar
 export
 CFLAGS
 =
