@@ -893,9 +893,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -960,9 +957,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1037,9 +1031,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1096,9 +1087,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1155,9 +1143,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1248,9 +1233,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1341,9 +1323,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1434,9 +1413,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1493,9 +1469,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1552,9 +1525,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1611,9 +1581,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1670,9 +1637,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1729,9 +1693,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -1788,9 +1749,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -2131,9 +2089,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -7397,9 +7352,6 @@ element
 Some
 (
 WebElement
-:
-:
-new
 (
 "
 elem
@@ -7612,9 +7564,6 @@ element
 Some
 (
 WebElement
-:
-:
-new
 (
 "
 elem

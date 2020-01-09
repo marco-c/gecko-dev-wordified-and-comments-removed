@@ -469,9 +469,6 @@ let
 element
 =
 WebElement
-:
-:
-new
 (
 element_id
 .
@@ -527,9 +524,6 @@ GeckoExtensionCommand
 XblAnonymousByAttribute
 (
 WebElement
-:
-:
-new
 (
 element_id
 .
