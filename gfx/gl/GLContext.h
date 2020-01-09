@@ -12223,6 +12223,15 @@ MarkDestroyed
 ;
 protected
 :
+virtual
+void
+OnMarkDestroyed
+(
+)
+{
+}
+protected
+:
 typedef
 gfx
 :

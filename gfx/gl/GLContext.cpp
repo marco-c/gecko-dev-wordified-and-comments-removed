@@ -12550,6 +12550,10 @@ IsDestroyed
 )
 return
 ;
+OnMarkDestroyed
+(
+)
+;
 mScreen
 =
 nullptr
