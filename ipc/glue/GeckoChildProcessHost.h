@@ -610,7 +610,7 @@ StringVector
 aExtraOpts
 )
 ;
-bool
+void
 RunPerformAsyncLaunch
 (
 StringVector
