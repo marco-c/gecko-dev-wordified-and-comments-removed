@@ -86,6 +86,11 @@ DebugTargetPane
 js
 '
 '
+ExtensionAction
+.
+js
+'
+'
 ExtensionDetail
 .
 css

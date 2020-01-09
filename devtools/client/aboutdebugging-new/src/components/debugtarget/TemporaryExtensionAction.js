@@ -99,7 +99,7 @@ Localized
 )
 ;
 const
-InspectAction
+ExtensionAction
 =
 createFactory
 (
@@ -108,7 +108,7 @@ require
 "
 .
 /
-InspectAction
+ExtensionAction
 "
 )
 )
@@ -259,7 +259,7 @@ className
 toolbar
 "
 }
-InspectAction
+ExtensionAction
 (
 {
 dispatch
