@@ -3415,7 +3415,7 @@ extensions
 .
 enabledScopes
 "
-1
+5
 )
 ;
 Services
