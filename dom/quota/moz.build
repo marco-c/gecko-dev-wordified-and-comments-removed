@@ -317,6 +317,11 @@ MemoryOutputStream
 cpp
 '
 '
+QuotaCommon
+.
+cpp
+'
+'
 QuotaManagerService
 .
 cpp
