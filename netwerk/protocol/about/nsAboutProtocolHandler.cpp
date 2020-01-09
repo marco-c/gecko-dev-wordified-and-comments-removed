@@ -948,7 +948,7 @@ result
 )
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -957,11 +957,6 @@ if
 aLoadInfo
 !
 =
-loadInfo
-)
-{
-if
-(
 loadInfo
 )
 {
@@ -1052,7 +1047,6 @@ params
 )
 )
 ;
-}
 (
 *
 result

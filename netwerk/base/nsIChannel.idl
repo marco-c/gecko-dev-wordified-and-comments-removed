@@ -2809,7 +2809,7 @@ already_AddRefed
 <
 nsILoadInfo
 >
-GetLoadInfo
+LoadInfo
 (
 )
 {
@@ -2842,9 +2842,8 @@ NS_SUCCEEDED
 (
 rv
 )
-|
-|
-!
+&
+&
 result
 )
 ;

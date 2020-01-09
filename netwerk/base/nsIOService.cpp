@@ -3978,7 +3978,7 @@ aController
 )
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 loadInfo
 "
@@ -4193,7 +4193,7 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -7702,7 +7702,7 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -7710,13 +7710,6 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-principal
-;
-if
-(
-loadInfo
-)
-{
 principal
 =
 loadInfo
@@ -7726,7 +7719,6 @@ LoadingPrincipal
 (
 )
 ;
-}
 nsLoadFlags
 loadFlags
 =

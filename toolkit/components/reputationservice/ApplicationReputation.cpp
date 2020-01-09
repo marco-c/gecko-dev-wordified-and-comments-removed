@@ -7860,15 +7860,10 @@ loadInfo
 mChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 mozilla
 :
 :
@@ -7892,7 +7887,6 @@ SetOriginAttributes
 attrs
 )
 ;
-}
 nsCOMPtr
 <
 nsIHttpChannel

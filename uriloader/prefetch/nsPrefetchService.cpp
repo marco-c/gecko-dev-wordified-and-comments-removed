@@ -902,15 +902,10 @@ loadInfo
 httpChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 mShouldFireLoadEvent
 =
 loadInfo
@@ -963,7 +958,6 @@ rv
 )
 )
 ;
-}
 bool
 requestSucceeded
 ;

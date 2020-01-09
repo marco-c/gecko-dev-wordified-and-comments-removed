@@ -454,7 +454,7 @@ loadInfo
 aChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -462,18 +462,11 @@ nsContentPolicyType
 contentPolicyType
 =
 loadInfo
-?
-loadInfo
 -
 >
 GetExternalContentPolicyType
 (
 )
-:
-nsIContentPolicy
-:
-:
-TYPE_INVALID
 ;
 if
 (

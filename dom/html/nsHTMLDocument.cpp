@@ -8530,13 +8530,8 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
-)
-;
-NS_ENSURE_STATE
-(
-loadInfo
 )
 ;
 loadInfo

@@ -9364,7 +9364,7 @@ loadInfo
 reportChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -9383,11 +9383,6 @@ AssignLiteral
 NECKO_SAFEBROWSING_FIRST_PARTY_DOMAIN
 )
 ;
-if
-(
-loadInfo
-)
-{
 loadInfo
 -
 >
@@ -9396,7 +9391,6 @@ SetOriginAttributes
 attrs
 )
 ;
-}
 nsCOMPtr
 <
 nsIUploadChannel

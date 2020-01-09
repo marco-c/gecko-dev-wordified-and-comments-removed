@@ -1336,15 +1336,10 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 mEnforceSRI
 =
 loadInfo
@@ -1354,7 +1349,6 @@ GetVerifySignedContent
 (
 )
 ;
-}
 }
 }
 if

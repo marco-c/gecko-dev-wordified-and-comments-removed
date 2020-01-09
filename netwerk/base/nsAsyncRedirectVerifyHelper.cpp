@@ -370,15 +370,12 @@ loadInfo
 oldChan
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
 if
 (
-loadInfo
-&
-&
 loadInfo
 -
 >

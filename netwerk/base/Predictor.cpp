@@ -6066,15 +6066,10 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 rv
 =
 loadInfo
@@ -6085,7 +6080,6 @@ SetOriginAttributes
 originAttributes
 )
 ;
-}
 if
 (
 NS_FAILED

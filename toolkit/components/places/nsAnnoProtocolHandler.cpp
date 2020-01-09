@@ -216,7 +216,7 @@ loadInfo
 aOriginalChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -563,7 +563,7 @@ loadInfo
 mChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;

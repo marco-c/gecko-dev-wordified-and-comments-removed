@@ -2974,7 +2974,7 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -8777,15 +8777,10 @@ loadInfo
 channel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 nsresult
 rv
 =
@@ -8863,7 +8858,6 @@ mRedirects
 =
 redirectChain
 ;
-}
 }
 if
 (

@@ -1243,7 +1243,7 @@ loadInfo
 aOldChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;

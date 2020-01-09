@@ -1952,14 +1952,8 @@ loadInfo
 aChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
-)
-;
-NS_ENSURE_TRUE
-(
-loadInfo
-NS_ERROR_FAILURE
 )
 ;
 LoadTainting

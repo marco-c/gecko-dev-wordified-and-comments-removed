@@ -1109,15 +1109,10 @@ loadInfo
 aChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 switch
 (
 loadInfo
@@ -1267,7 +1262,6 @@ other
 ;
 break
 ;
-}
 }
 }
 }

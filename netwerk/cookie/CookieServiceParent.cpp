@@ -802,7 +802,7 @@ loadInfo
 aChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
@@ -810,13 +810,6 @@ mozilla
 :
 :
 OriginAttributes
-attrs
-;
-if
-(
-loadInfo
-)
-{
 attrs
 =
 loadInfo
@@ -826,7 +819,6 @@ GetOriginAttributes
 (
 )
 ;
-}
 bool
 isSafeTopLevelNav
 =

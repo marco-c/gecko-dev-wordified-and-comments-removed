@@ -3483,15 +3483,10 @@ loadInfo
 mChannel
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 Unused
 <
 <
@@ -3508,7 +3503,6 @@ OriginAttributesRef
 )
 )
 ;
-}
 }
 nsCOMPtr
 <

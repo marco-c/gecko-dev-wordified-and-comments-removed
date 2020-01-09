@@ -796,7 +796,7 @@ return
 chan
 -
 >
-GetLoadInfo
+LoadInfo
 (
 )
 ;
