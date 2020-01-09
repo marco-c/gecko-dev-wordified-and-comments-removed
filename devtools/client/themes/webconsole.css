@@ -5642,6 +5642,10 @@ width
 :
 unset
 ;
+height
+:
+100vh
+;
 }
 .
 sidebar
@@ -5732,13 +5736,6 @@ row
 overflow
 :
 auto
-;
-max
--
-height
-:
-100
-%
 ;
 }
 .
