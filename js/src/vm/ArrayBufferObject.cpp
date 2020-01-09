@@ -2528,7 +2528,6 @@ fop
 setDataPointer
 (
 newContents
-OwnsData
 )
 ;
 }
@@ -5038,8 +5037,6 @@ setDataPointer
 (
 BufferContents
 contents
-OwnsState
-ownsData
 )
 {
 setFixedSlot
@@ -5057,7 +5054,7 @@ data
 ;
 setOwnsData
 (
-ownsData
+OwnsData
 )
 ;
 setFlags
@@ -5583,7 +5580,6 @@ oldBuf
 setDataPointer
 (
 detachedContents
-OwnsData
 )
 ;
 ArrayBufferObject
@@ -6776,7 +6772,6 @@ buffer
 setDataPointer
 (
 contents
-OwnsData
 )
 ;
 cx
@@ -6870,7 +6865,6 @@ buffer
 setDataPointer
 (
 newContents
-OwnsData
 )
 ;
 ArrayBufferObject
@@ -7147,7 +7141,6 @@ buffer
 setDataPointer
 (
 newContents
-OwnsData
 )
 ;
 ArrayBufferObject

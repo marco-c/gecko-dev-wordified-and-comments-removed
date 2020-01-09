@@ -1589,8 +1589,6 @@ setDataPointer
 (
 BufferContents
 contents
-OwnsState
-ownsState
 )
 ;
 void
@@ -1755,7 +1753,6 @@ nullptr
 setDataPointer
 (
 contents
-OwnsData
 )
 ;
 }
