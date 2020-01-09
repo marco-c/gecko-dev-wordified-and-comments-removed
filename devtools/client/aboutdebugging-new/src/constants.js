@@ -443,15 +443,6 @@ aboutdebugging
 .
 showSystemAddons
 "
-WIFI_ENABLED
-:
-"
-devtools
-.
-aboutdebugging
-.
-wifi
-"
 }
 ;
 const

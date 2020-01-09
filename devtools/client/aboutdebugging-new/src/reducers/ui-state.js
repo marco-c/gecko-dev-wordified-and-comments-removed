@@ -38,9 +38,6 @@ debugTargetCollapsibilities
 =
 {
 }
-wifiEnabled
-=
-false
 showSystemAddons
 =
 false
@@ -68,7 +65,6 @@ showSystemAddons
 temporaryInstallError
 :
 null
-wifiEnabled
 }
 ;
 }

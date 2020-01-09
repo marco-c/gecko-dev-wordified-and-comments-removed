@@ -365,13 +365,6 @@ runtime
 )
 .
 isRequired
-wifiEnabled
-:
-PropTypes
-.
-bool
-.
-isRequired
 }
 ;
 }
@@ -459,7 +452,6 @@ const
 adbAddonStatus
 dispatch
 networkLocations
-wifiEnabled
 }
 =
 this
@@ -473,7 +465,6 @@ ConnectPage
 adbAddonStatus
 dispatch
 networkLocations
-wifiEnabled
 }
 )
 ;
@@ -907,13 +898,6 @@ state
 runtimes
 .
 usbRuntimes
-wifiEnabled
-:
-state
-.
-ui
-.
-wifiEnabled
 }
 ;
 }
