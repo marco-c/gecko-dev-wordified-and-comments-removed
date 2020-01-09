@@ -15412,9 +15412,6 @@ T
 :
 trace
 (
-StoreBuffer
-*
-owner
 TenuringTracer
 &
 mover
@@ -15427,12 +15424,12 @@ ReentrancyGuard
 g
 (
 *
-owner
+owner_
 )
 ;
 MOZ_ASSERT
 (
-owner
+owner_
 -
 >
 isEnabled
@@ -15517,8 +15514,6 @@ ValueEdge
 :
 trace
 (
-StoreBuffer
-*
 TenuringTracer
 &
 )
@@ -15539,8 +15534,6 @@ SlotsEdge
 :
 trace
 (
-StoreBuffer
-*
 TenuringTracer
 &
 )
@@ -15561,8 +15554,6 @@ CellPtrEdge
 :
 trace
 (
-StoreBuffer
-*
 TenuringTracer
 &
 )
@@ -16045,9 +16036,6 @@ WholeCellBuffer
 :
 trace
 (
-StoreBuffer
-*
-owner
 TenuringTracer
 &
 mover
@@ -16055,7 +16043,7 @@ mover
 {
 MOZ_ASSERT
 (
-owner
+owner_
 -
 >
 isEnabled
