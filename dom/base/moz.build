@@ -455,11 +455,6 @@ nsIContentInlines
 h
 '
 '
-nsIContentIterator
-.
-h
-'
-'
 nsIContentSerializer
 .
 h
