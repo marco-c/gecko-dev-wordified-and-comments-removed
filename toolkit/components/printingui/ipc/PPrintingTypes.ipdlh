@@ -206,9 +206,6 @@ bool
 isCancelled
 ;
 short
-printFrameTypeUsage
-;
-short
 printFrameType
 ;
 bool

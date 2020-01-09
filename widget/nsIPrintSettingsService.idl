@@ -570,7 +570,6 @@ title
 docURL
 howToEnableFrameUI
 isCancelled
-printFrameTypeUsage
 *
 printFrameType
 printSilent
@@ -718,7 +717,6 @@ title
 docURL
 howToEnableFrameUI
 isCancelled
-printFrameTypeUsage
 *
 printFrameType
 printSilent

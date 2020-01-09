@@ -138,9 +138,6 @@ bool
 mPrintBGImages
 ;
 int16_t
-mPrintFrameTypeUsage
-;
-int16_t
 mPrintFrameType
 ;
 int16_t
