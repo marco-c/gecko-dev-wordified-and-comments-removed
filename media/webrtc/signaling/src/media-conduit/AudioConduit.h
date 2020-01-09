@@ -475,10 +475,6 @@ WebrtcAudioConduit
 mMutex
 "
 )
-mCaptureDelay
-(
-150
-)
 mStsThread
 (
 aStsThread
@@ -1027,9 +1023,6 @@ mDtmfEnabled
 ;
 Mutex
 mMutex
-;
-int32_t
-mCaptureDelay
 ;
 webrtc
 :
