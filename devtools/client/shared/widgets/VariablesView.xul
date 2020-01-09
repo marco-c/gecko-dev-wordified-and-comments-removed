@@ -222,13 +222,6 @@ PropertiesViewWindowTitle
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

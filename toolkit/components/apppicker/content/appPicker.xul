@@ -234,13 +234,6 @@ screenY
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

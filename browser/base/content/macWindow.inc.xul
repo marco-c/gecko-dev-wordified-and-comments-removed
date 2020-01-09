@@ -191,13 +191,6 @@ scripts
 inc
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

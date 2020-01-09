@@ -177,13 +177,6 @@ password
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

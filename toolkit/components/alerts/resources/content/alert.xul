@@ -258,13 +258,6 @@ onAlertBeforeUnload
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "
@@ -622,13 +615,6 @@ handler
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 >
 prefillAlertInfo
 (

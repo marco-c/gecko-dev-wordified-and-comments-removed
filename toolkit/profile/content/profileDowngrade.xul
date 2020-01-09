@@ -318,13 +318,6 @@ end
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

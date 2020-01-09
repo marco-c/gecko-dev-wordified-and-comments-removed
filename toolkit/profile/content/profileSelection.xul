@@ -278,13 +278,6 @@ label
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "
@@ -354,13 +347,6 @@ properties
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

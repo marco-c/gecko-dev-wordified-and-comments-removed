@@ -367,13 +367,6 @@ linkset
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "
@@ -396,13 +389,6 @@ ifdef
 MOZ_UPDATER
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

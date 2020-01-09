@@ -148,13 +148,6 @@ height
 >
 <
 script
-type
-=
-"
-application
-/
-ecmascript
-"
 src
 =
 "
