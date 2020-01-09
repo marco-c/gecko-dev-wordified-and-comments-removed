@@ -1748,6 +1748,8 @@ if
 (
 /
 (
+IndexedDB
+|
 AbortError
 |
 ConstraintError
