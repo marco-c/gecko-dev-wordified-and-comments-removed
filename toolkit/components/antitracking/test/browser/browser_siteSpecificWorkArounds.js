@@ -152,11 +152,11 @@ urlclassifier
 trackingAnnotationSkipURLs
 "
 "
-tracking
+TRACKING
 .
-example
+EXAMPLE
 .
-org
+ORG
 "
 ]
 ]

@@ -412,6 +412,10 @@ join
 "
 "
 )
+.
+toLowerCase
+(
+)
 ;
 if
 (
