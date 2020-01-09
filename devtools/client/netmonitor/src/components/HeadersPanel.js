@@ -588,8 +588,6 @@ member
 PropTypes
 .
 object
-.
-isRequired
 request
 :
 PropTypes
