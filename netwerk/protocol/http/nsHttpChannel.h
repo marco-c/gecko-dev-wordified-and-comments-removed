@@ -652,6 +652,15 @@ aIdentifier
 override
 ;
 NS_IMETHOD
+HasCrossOriginOpenerPolicyMismatch
+(
+bool
+*
+aMismatch
+)
+override
+;
+NS_IMETHOD
 SetupFallbackChannel
 (
 const
