@@ -1436,7 +1436,7 @@ priority
 "
 20000
 "
-disabled
+hidden
 =
 "
 true
@@ -1492,7 +1492,7 @@ attrs
 "
 name
 "
-disabled
+hidden
 =
 "
 true
@@ -1553,7 +1553,7 @@ priority
 "
 101000
 "
-disabled
+hidden
 =
 "
 true
