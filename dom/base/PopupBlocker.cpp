@@ -43,6 +43,13 @@ nsXULPopupManager
 .
 h
 "
+#
+include
+"
+nsIPermissionManager
+.
+h
+"
 namespace
 mozilla
 {
