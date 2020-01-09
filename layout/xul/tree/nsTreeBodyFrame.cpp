@@ -12274,7 +12274,9 @@ aCtx
 GetDrawTarget
 (
 )
-mDisableSubpixelAA
+IsSubpixelAADisabled
+(
+)
 )
 ;
 ImgDrawResult
