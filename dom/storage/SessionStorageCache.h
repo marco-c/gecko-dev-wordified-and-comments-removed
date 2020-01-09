@@ -198,9 +198,6 @@ mDefaultSet
 DataSet
 mSessionSet
 ;
-bool
-mSessionDataSetActive
-;
 }
 ;
 }
