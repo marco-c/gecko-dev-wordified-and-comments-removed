@@ -1117,6 +1117,7 @@ bool
 GetIsViewportOverridden
 (
 )
+const
 {
 return
 (
@@ -1133,6 +1134,12 @@ UpdateViewportOverridden
 bool
 aAfterInitialization
 )
+;
+bool
+UsesMobileViewportSizing
+(
+)
+const
 ;
 RefPtr
 <
