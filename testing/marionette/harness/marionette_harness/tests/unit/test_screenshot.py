@@ -454,17 +454,37 @@ marionette
 execute_script
 (
 "
+"
+"
+            
 return
 [
-window
+arguments
+[
+0
+]
 .
-innerWidth
-window
+clientWidth
+                    
+arguments
+[
+0
+]
 .
-innerHeight
+clientHeight
 ]
 ;
+            
 "
+"
+"
+script_args
+=
+[
+self
+.
+document_element
+]
 )
     
 def
@@ -1938,6 +1958,7 @@ self
 assertRaisesRegexp
 (
 NoSuchElementException
+                                    
 "
 Web
 element
@@ -2060,21 +2081,6 @@ scrollHeight
 )
 )
     
-skip_if_mobile
-(
-"
-Needs
-application
-independent
-method
-to
-open
-a
-new
-tab
-"
-)
-    
 def
 test_capture_tab_already_closed
 (
@@ -2082,7 +2088,7 @@ self
 )
 :
         
-tab
+new_tab
 =
 self
 .
@@ -2096,7 +2102,7 @@ marionette
 .
 switch_to_window
 (
-tab
+new_tab
 )
         
 self
