@@ -757,6 +757,7 @@ Pending
 )
 |
 |
+(
 PlayState
 (
 )
@@ -766,6 +767,17 @@ AnimationPlayState
 :
 :
 Running
+&
+&
+PlaybackRate
+(
+)
+!
+=
+0
+.
+0
+)
 ;
 }
 void
