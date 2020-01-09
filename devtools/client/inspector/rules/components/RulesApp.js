@@ -231,6 +231,13 @@ PropTypes
 func
 .
 isRequired
+onAddRule
+:
+PropTypes
+.
+func
+.
+isRequired
 onSetClassState
 :
 PropTypes
@@ -888,6 +895,13 @@ this
 props
 .
 onAddClass
+onAddRule
+:
+this
+.
+props
+.
+onAddRule
 onSetClassState
 :
 this
