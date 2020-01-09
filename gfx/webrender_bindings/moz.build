@@ -303,6 +303,11 @@ RenderAndroidSurfaceTextureHostOGL
 .
 h
 '
+'
+RenderCompositorEGL
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -310,6 +315,11 @@ UNIFIED_SOURCES
 [
 '
 RenderAndroidSurfaceTextureHostOGL
+.
+cpp
+'
+'
+RenderCompositorEGL
 .
 cpp
 '
