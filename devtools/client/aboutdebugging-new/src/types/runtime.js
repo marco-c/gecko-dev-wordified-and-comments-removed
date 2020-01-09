@@ -212,6 +212,13 @@ PropTypes
 bool
 .
 isRequired
+extensionDebugEnabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 info
 :
 PropTypes
