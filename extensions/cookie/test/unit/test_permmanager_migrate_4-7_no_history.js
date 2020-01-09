@@ -149,14 +149,6 @@ nsIFactory
 ;
 registrar
 .
-unregisterFactory
-(
-oldClassID
-oldFactory
-)
-;
-registrar
-.
 registerFactory
 (
 newClassID
@@ -187,7 +179,7 @@ oldClassID
 "
 "
 CONTRACT_ID
-oldFactory
+null
 )
 ;
 }
