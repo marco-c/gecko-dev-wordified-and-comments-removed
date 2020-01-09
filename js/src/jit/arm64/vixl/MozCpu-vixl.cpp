@@ -105,7 +105,7 @@ cache_type_register
 ;
 VIXL_ASSERT
 (
-is_uint32
+IsUint32
 (
 cache_type_register
 )
