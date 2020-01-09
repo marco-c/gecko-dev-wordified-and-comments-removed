@@ -867,15 +867,6 @@ pdf
 '
 touchbar
 /
-private
--
-browsing
-.
-pdf
-'
-'
-touchbar
-/
 reader
 -
 mode
