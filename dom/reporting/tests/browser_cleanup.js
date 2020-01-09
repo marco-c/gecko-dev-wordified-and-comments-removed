@@ -533,7 +533,7 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_DOM_QUOTA
+CLEAR_REPORTS
 value
 =
 >
@@ -559,7 +559,7 @@ No
 data
 before
 a
-quota
+reports
 cleanup
 "
 )
@@ -695,7 +695,7 @@ Ci
 .
 nsIClearDataService
 .
-CLEAR_DOM_QUOTA
+CLEAR_REPORTS
 value
 =
 >
@@ -721,7 +721,7 @@ No
 data
 before
 a
-quota
+reports
 cleanup
 "
 )
