@@ -69,6 +69,13 @@ example
 json
 '
 '
+hijack
+-
+blocklists
+.
+json
+'
+'
 language
 -
 dictionaries
