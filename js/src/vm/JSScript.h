@@ -2397,6 +2397,13 @@ MinimumCompressibleLength
 =
 256
 ;
+private
+:
+class
+LoadSourceMatcher
+;
+public
+:
 static
 bool
 loadSource
