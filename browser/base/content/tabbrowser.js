@@ -23123,13 +23123,13 @@ userTypedValue
 null
 ;
 let
-inLoadURI
+isNavigating
 =
 this
 .
 mBrowser
 .
-inLoadURI
+isNavigating
 ;
 if
 (
@@ -23144,7 +23144,7 @@ gURLBar
 &
 &
 !
-inLoadURI
+isNavigating
 )
 {
 URLBarSetURI
@@ -23448,7 +23448,7 @@ this
 .
 mBrowser
 .
-inLoadURI
+isNavigating
 )
 |
 |
