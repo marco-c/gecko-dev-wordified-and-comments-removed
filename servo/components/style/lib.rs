@@ -124,6 +124,10 @@ html5ever
 ;
 extern
 crate
+indexmap
+;
+extern
+crate
 itertools
 ;
 extern
