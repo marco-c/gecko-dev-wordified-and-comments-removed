@@ -1150,11 +1150,11 @@ strcmp
 (
 aTopic
 "
-domain
+browser
+:
+purge
 -
-data
--
-cleared
+sessionStorage
 "
 )
 )

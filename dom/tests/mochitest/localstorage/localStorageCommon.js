@@ -586,13 +586,11 @@ notifyObservers
 (
 null
 "
-browser
+extension
 :
 purge
 -
-domain
--
-data
+localStorage
 "
 domain
 )
