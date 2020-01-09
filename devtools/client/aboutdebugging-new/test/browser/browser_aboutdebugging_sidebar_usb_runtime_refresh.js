@@ -153,9 +153,11 @@ OTHER_RUNTIME_APP_NAME
 ;
 mocks
 .
-usbRuntimesMock
+adbMock
 .
-refreshUSBRuntimes
+adb
+.
+updateRuntimes
 =
 (
 )
