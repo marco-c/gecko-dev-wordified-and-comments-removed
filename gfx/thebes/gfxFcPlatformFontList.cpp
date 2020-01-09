@@ -8227,6 +8227,8 @@ gfxFcPlatformFontList
 :
 FindAndAddFamilies
 (
+StyleGenericFontFamily
+aGeneric
 const
 nsACString
 &
@@ -8614,6 +8616,7 @@ gfxPlatformFontList
 :
 FindAndAddFamilies
 (
+aGeneric
 nsDependentCString
 (
 ToCharPtr
@@ -9079,9 +9082,6 @@ gfxFcPlatformFontList
 :
 AddGenericFonts
 (
-mozilla
-:
-:
 StyleGenericFontFamily
 aGenericType
 nsAtom
@@ -9804,6 +9804,10 @@ gfxPlatformFontList
 :
 FindAndAddFamilies
 (
+StyleGenericFontFamily
+:
+:
+None
 mappedGenericName
 &
 genericFamilies

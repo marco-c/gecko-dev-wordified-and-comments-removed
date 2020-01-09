@@ -514,6 +514,14 @@ ServoStyleSet
 (
 )
 {
+MOZ_ASSERT
+(
+!
+IsInServoTraversal
+(
+)
+)
+;
 EnumerateStyleSheets
 (
 [

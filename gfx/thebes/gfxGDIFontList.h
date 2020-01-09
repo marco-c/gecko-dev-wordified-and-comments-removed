@@ -1259,6 +1259,11 @@ override
 bool
 FindAndAddFamilies
 (
+mozilla
+:
+:
+StyleGenericFontFamily
+aGeneric
 const
 nsACString
 &

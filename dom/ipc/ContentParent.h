@@ -859,6 +859,12 @@ StringBundleDescriptor
 &
 )
 ;
+static
+void
+BroadcastFontListChanged
+(
+)
+;
 const
 nsAString
 &
@@ -1133,6 +1139,12 @@ NotifyUpdatedDictionaries
 static
 void
 NotifyUpdatedFonts
+(
+)
+;
+static
+void
+NotifyRebuildFontList
 (
 )
 ;

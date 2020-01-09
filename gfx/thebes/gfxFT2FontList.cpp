@@ -8143,11 +8143,8 @@ gfxFontStyle
 aStyle
 )
 {
-gfxFontFamily
-*
+FontFamily
 ff
-=
-nullptr
 ;
 #
 if
@@ -8169,8 +8166,11 @@ Roboto
 ;
 if
 (
-!
 ff
+.
+IsNull
+(
+)
 )
 {
 ff
@@ -8190,10 +8190,7 @@ Sans
 #
 endif
 return
-FontFamily
-(
 ff
-)
 ;
 }
 gfxFontEntry
