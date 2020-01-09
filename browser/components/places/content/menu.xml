@@ -3230,8 +3230,6 @@ this
 .
 _scrollBox
 .
-scrollbox
-.
 getBoundingClientRect
 (
 )
