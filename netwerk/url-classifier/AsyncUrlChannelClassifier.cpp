@@ -1814,6 +1814,14 @@ true
 }
 if
 (
+!
+mBlacklistTables
+.
+IsEmpty
+(
+)
+&
+&
 nsContentUtils
 :
 :
