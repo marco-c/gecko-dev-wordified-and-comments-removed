@@ -1479,6 +1479,16 @@ IntersectionObserverEntry
 :
 false
 "
+JSWindowActorChild
+"
+:
+false
+"
+JSWindowActorParent
+"
+:
+false
+"
 KeyEvent
 "
 :
