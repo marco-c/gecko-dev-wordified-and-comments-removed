@@ -784,7 +784,10 @@ navigateButtons
 aEvent
 .
 currentTarget
-true
+!
+window
+.
+RTL_UI
 )
 ;
 break
@@ -801,7 +804,9 @@ navigateButtons
 aEvent
 .
 currentTarget
-false
+window
+.
+RTL_UI
 )
 ;
 break
