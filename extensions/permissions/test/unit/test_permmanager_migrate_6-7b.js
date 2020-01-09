@@ -355,19 +355,9 @@ host
 :
 origin
 type
-:
-type
-permission
-:
 permission
 expireType
-:
-expireType
 expireTime
-:
-expireTime
-modificationTime
-:
 modificationTime
 }
 ;
@@ -565,8 +555,6 @@ permissions
 from
 -
 disk
-"
-"
 "
 )
 ;
@@ -785,7 +773,6 @@ i
 )
 ;
 {
-let
 db
 =
 Services

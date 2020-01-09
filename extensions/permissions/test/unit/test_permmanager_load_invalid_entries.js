@@ -782,8 +782,6 @@ from
 -
 disk
 "
-"
-"
 )
 ;
 let
