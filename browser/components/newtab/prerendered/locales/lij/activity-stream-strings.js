@@ -9,7 +9,7 @@ newtab_page_title
 :
 "
 Neuvo
-Feuggio
+feuggio
 "
 "
 header_top_sites
@@ -283,9 +283,9 @@ menu_action_show_file_default
 "
 :
 "
-Fanni
-vedde
-file
+Mostra
+o
+schedaio
 "
 "
 menu_action_open_file
@@ -293,7 +293,7 @@ menu_action_open_file
 :
 "
 Arvi
-file
+schedaio
 "
 "
 menu_action_copy_download_link
@@ -487,10 +487,12 @@ prefs_content_discovery_button
 "
 :
 "
-Turn
-Off
-Content
-Discovery
+Dizabilita
+a
+descoverta
+de
+neuvi
+contegnui
 "
 "
 prefs_section_rows_option

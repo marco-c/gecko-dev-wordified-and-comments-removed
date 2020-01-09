@@ -712,7 +712,7 @@ topsites_form_url_placeholder
 Digite
 ou
 cole
-um
+uma
 URL
 "
 "
@@ -760,10 +760,10 @@ topsites_form_url_validation
 "
 necess
 rio
-um
+uma
 URL
 v
-lido
+lida
 "
 "
 topsites_form_image_validation

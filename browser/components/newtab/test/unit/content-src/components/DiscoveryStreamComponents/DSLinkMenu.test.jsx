@@ -241,6 +241,7 @@ onUpdate
 onShow
 site
 options
+shouldSendImpressionStats
 source
 and
 index
@@ -318,6 +319,9 @@ options
 "
 "
 source
+"
+"
+shouldSendImpressionStats
 "
 ]
 .
@@ -414,6 +418,12 @@ OpenInNewWindow
 "
 "
 OpenInPrivateWindow
+"
+"
+Separator
+"
+"
+BlockUrl
 "
 ]
 )

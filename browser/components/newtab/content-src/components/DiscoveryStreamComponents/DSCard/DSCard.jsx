@@ -492,6 +492,15 @@ SafeAnchor
 >
 <
 DSLinkMenu
+id
+=
+{
+this
+.
+props
+.
+id
+}
 index
 =
 {
@@ -499,7 +508,7 @@ this
 .
 props
 .
-index
+pos
 }
 dispatch
 =

@@ -222,6 +222,17 @@ animation
 -
 button
 "
+"
+cfr
+-
+notification
+-
+footer
+-
+animation
+-
+label
+"
 ]
 ;
 const
