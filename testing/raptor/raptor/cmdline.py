@@ -150,6 +150,12 @@ default_activity
 "
 :
 "
+org
+.
+mozilla
+.
+geckoview_example
+.
 GeckoViewActivity
 "
         
@@ -189,6 +195,14 @@ default_activity
 "
 :
 "
+org
+.
+mozilla
+.
+reference
+.
+browser
+.
 BrowserTestActivity
 "
         
@@ -227,6 +241,12 @@ default_activity
 "
 :
 "
+org
+.
+mozilla
+.
+fenix
+.
 browser
 .
 BrowserPerformanceTestActivity

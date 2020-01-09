@@ -538,8 +538,6 @@ help
 "
 :
 "
-name
-of
 the
 android
 activity
@@ -549,6 +547,21 @@ launch
 the
 android
 app
+.
+"
+                  
+"
+ex
+:
+org
+.
+mozilla
+.
+fenix
+.
+browser
+.
+BrowserPerformanceTestActivity
 "
           
 }
