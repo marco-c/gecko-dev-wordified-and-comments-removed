@@ -1469,8 +1469,7 @@ JSContext
 *
 JSObject
 &
-AutoObjectVector
-&
+MutableHandleObjectVector
 )
 ;
 friend

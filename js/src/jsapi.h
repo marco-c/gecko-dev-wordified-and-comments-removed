@@ -6181,8 +6181,7 @@ JSContext
 cx
 HandleObject
 funobj
-AutoObjectVector
-&
+HandleObjectVector
 scopeChain
 )
 ;

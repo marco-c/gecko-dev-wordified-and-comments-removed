@@ -4816,7 +4816,11 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 scopeChain
 (
 cx

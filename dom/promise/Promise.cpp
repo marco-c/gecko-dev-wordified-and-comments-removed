@@ -853,7 +853,11 @@ nullptr
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 promises
 (
 aCx

@@ -2014,7 +2014,11 @@ mLineNumber
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 scopeChain
 (
 cx
@@ -2031,6 +2035,7 @@ GetScopeChainForXBL
 cx
 boundElement
 aProtoBinding
+&
 scopeChain
 )
 )

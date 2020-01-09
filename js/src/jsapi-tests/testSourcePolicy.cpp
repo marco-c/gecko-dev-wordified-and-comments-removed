@@ -173,7 +173,7 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx

@@ -225,7 +225,7 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx
@@ -575,7 +575,7 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 emptyScopeChain
 (
 cx

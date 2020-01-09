@@ -933,7 +933,7 @@ else
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 envChain
 (
 cx

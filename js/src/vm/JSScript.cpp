@@ -23239,7 +23239,7 @@ false
 }
 }
 }
-AutoObjectVector
+RootedObjectVector
 objects
 (
 cx

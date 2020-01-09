@@ -5878,13 +5878,13 @@ cx_
 obj
 )
 ;
-AutoObjectVector
+RootedObjectVector
 prototypes
 (
 cx_
 )
 ;
-AutoObjectVector
+RootedObjectVector
 prototypeExpandoShapeWrappers
 (
 cx_

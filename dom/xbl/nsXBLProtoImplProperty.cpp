@@ -1064,7 +1064,11 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 emptyVector
 (
 cx
@@ -1292,7 +1296,11 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedVector
+<
+JSObject
+*
+>
 emptyVector
 (
 cx

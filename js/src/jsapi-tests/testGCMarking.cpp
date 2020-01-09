@@ -1891,7 +1891,7 @@ false
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 vec
 (
 cx

@@ -1717,8 +1717,7 @@ CompileFunction
 JSContext
 *
 cx
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 const
 ReadOnlyCompileOptions
@@ -1970,8 +1969,7 @@ CompileFunctionUtf8
 JSContext
 *
 cx
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 const
 ReadOnlyCompileOptions
@@ -2287,8 +2285,7 @@ ExecuteScript
 JSContext
 *
 cx
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 HandleScript
 scriptArg
@@ -2491,8 +2488,7 @@ JS_ExecuteScript
 JSContext
 *
 cx
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 HandleScript
 scriptArg
@@ -2522,8 +2518,7 @@ JS_ExecuteScript
 JSContext
 *
 cx
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 HandleScript
 scriptArg
@@ -2668,8 +2663,7 @@ cx
 JS
 :
 :
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 HandleScript
 scriptArg
@@ -2915,8 +2909,7 @@ Evaluate
 JSContext
 *
 cx
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 const
 ReadOnlyCompileOptions
@@ -3174,8 +3167,7 @@ Evaluate
 JSContext
 *
 cx
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 const
 ReadOnlyCompileOptions

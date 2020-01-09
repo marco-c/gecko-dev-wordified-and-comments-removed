@@ -630,12 +630,10 @@ GetWaitForAllPromise
 JSContext
 *
 cx
-const
 JS
 :
 :
-AutoObjectVector
-&
+HandleObjectVector
 promises
 )
 ;

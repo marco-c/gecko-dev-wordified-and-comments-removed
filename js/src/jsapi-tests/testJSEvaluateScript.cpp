@@ -93,7 +93,7 @@ cx
 JS
 :
 :
-AutoObjectVector
+RootedObjectVector
 scopeChain
 (
 cx

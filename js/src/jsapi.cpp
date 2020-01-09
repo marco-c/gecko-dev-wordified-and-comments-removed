@@ -17588,8 +17588,7 @@ JSContext
 cx
 HandleObject
 funobj
-AutoObjectVector
-&
+HandleObjectVector
 envChain
 )
 {
@@ -22363,12 +22362,10 @@ GetWaitForAllPromise
 JSContext
 *
 cx
-const
 JS
 :
 :
-AutoObjectVector
-&
+HandleObjectVector
 promises
 )
 {

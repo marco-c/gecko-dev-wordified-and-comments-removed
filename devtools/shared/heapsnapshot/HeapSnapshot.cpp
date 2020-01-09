@@ -3694,8 +3694,7 @@ PopulateCompartmentsWithGlobals
 CompartmentSet
 &
 compartments
-AutoObjectVector
-&
+HandleObjectVector
 globals
 )
 {
@@ -3752,8 +3751,7 @@ static
 bool
 AddGlobalsAsRoots
 (
-AutoObjectVector
-&
+HandleObjectVector
 globals
 ubi
 :
@@ -4007,7 +4005,7 @@ return
 false
 ;
 }
-AutoObjectVector
+RootedObjectVector
 globals
 (
 cx
@@ -4024,6 +4022,7 @@ GetDebuggeeGlobals
 cx
 *
 dbgObj
+&
 globals
 )
 |
@@ -4130,7 +4129,7 @@ return
 false
 ;
 }
-AutoObjectVector
+RootedObjectVector
 globals
 (
 cx

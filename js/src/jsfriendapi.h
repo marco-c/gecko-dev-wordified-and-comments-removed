@@ -9074,8 +9074,7 @@ jsmEnv
 JS
 :
 :
-AutoObjectVector
-&
+HandleObjectVector
 targetObj
 )
 ;

@@ -12219,7 +12219,7 @@ invisibleToDebugger
 return
 ;
 }
-AutoObjectVector
+RootedObjectVector
 watchers
 (
 cx
@@ -27002,7 +27002,7 @@ cx
 )
 {
 }
-AutoObjectVector
+RootedObjectVector
 objects
 ;
 JS
@@ -27904,7 +27904,7 @@ args
 dbg
 )
 ;
-AutoObjectVector
+RootedObjectVector
 globals
 (
 cx
@@ -49233,7 +49233,7 @@ false
 ;
 }
 }
-AutoObjectVector
+RootedObjectVector
 envChain
 (
 cx
@@ -69860,8 +69860,7 @@ cx
 JSObject
 &
 dbgObj
-AutoObjectVector
-&
+MutableHandleObjectVector
 vector
 )
 {
@@ -70960,7 +70959,7 @@ Ptr
 data
 )
 {
-AutoObjectVector
+RootedObjectVector
 triggered
 (
 cx
