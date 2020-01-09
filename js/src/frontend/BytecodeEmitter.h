@@ -2949,7 +2949,7 @@ emitLabeledStatement
 const
 LabeledStatement
 *
-pn
+labeledStmt
 )
 ;
 MOZ_NEVER_INLINE
