@@ -170,11 +170,6 @@ id
 "
 fxaPairDeviceDialog
 "
-class
-=
-"
-windowDialog
-"
 xmlns
 =
 "
@@ -273,6 +268,8 @@ style
 linkset
 >
 <
+html
+:
 link
 rel
 =
@@ -295,6 +292,8 @@ ftl
 /
 >
 <
+html
+:
 link
 rel
 =
