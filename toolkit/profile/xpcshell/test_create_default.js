@@ -95,13 +95,13 @@ equal
 profile
 service
 .
-selectedProfile
+defaultProfile
 "
 Should
 now
 be
 the
-selected
+default
 profile
 .
 "

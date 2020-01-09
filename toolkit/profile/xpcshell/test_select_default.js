@@ -164,13 +164,13 @@ equal
 profile
 service
 .
-selectedProfile
+defaultProfile
 "
 Should
 have
 returned
 the
-selected
+default
 profile
 .
 "

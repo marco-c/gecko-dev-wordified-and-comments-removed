@@ -494,7 +494,7 @@ Ci
 nsIToolkitProfileService
 )
 .
-selectedProfile
+currentProfile
 .
 rootDir
 ;
