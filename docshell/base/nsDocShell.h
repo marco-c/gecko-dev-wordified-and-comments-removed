@@ -1402,6 +1402,11 @@ nsIRequest
 aRequest
 )
 ;
+void
+MaybeClearStorageAccessFlag
+(
+)
+;
 private
 :
 friend
