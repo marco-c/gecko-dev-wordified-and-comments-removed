@@ -176,6 +176,7 @@ iconURL
 id
 manifestURL
 name
+warnings
 }
 =
 extension
@@ -234,6 +235,13 @@ actor
 location
 manifestURL
 uuid
+warnings
+:
+warnings
+|
+|
+[
+]
 }
 }
 ;
