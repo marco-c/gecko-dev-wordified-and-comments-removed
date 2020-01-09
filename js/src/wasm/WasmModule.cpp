@@ -1483,6 +1483,10 @@ move
 (
 customSections
 )
+nullptr
+nullptr
+nullptr
+true
 )
 ;
 }
