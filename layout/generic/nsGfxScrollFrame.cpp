@@ -12826,6 +12826,12 @@ ScrollVisual
 (
 )
 ;
+mAnchor
+.
+UserScrolled
+(
+)
+;
 bool
 schedulePaint
 =
@@ -22517,6 +22523,12 @@ PostDestroyData
 aPostDestroyData
 )
 {
+mAnchor
+.
+Destroy
+(
+)
+;
 if
 (
 mScrollbarActivity

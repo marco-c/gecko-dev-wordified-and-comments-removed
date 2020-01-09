@@ -1479,12 +1479,15 @@ static
 bool
 IsProperAncestorFrame
 (
+const
 nsIFrame
 *
 aAncestorFrame
+const
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aCommonAncestor
