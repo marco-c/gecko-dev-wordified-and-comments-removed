@@ -16460,6 +16460,11 @@ originAttributes
 false
 )
 ;
+bool
+notused
+=
+false
+;
 rv
 =
 NS_ShouldSecureUpgrade
@@ -16471,6 +16476,8 @@ mPrivateBrowsing
 mAllowSTS
 originAttributes
 aShouldUpgrade
+nullptr
+notused
 )
 ;
 NS_ENSURE_SUCCESS
