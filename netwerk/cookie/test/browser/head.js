@@ -110,9 +110,6 @@ config
 cookieJarAccessDenied
 config
 .
-cleanup
-config
-.
 prefs
 {
 fromBehavior
@@ -143,9 +140,6 @@ config
 cookieJarAccessAllowed
 config
 .
-cleanup
-config
-.
 prefs
 {
 fromBehavior
@@ -174,9 +168,6 @@ cookieJarAccessAllowed
 config
 .
 cookieJarAccessDenied
-config
-.
-cleanup
 config
 .
 prefs
@@ -209,9 +200,6 @@ config
 cookieJarAccessAllowed
 config
 .
-cleanup
-config
-.
 prefs
 {
 fromBehavior
@@ -235,7 +223,6 @@ _createTest
 testName
 goodCb
 badCb
-cleanupCb
 prefs
 config
 )
