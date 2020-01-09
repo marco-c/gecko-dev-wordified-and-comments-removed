@@ -229,9 +229,6 @@ BigInt
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -242,9 +239,6 @@ BigInt64Array
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -253,9 +247,6 @@ name
 BigUint64Array
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
