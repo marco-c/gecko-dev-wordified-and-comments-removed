@@ -1667,15 +1667,6 @@ unsafeHeaders
 ;
 }
 ;
-union
-OptionalCorsPreflightArgs
-{
-void_t
-;
-CorsPreflightArgs
-;
-}
-;
 struct
 HttpChannelOpenArgs
 {
@@ -1832,7 +1823,8 @@ cacheKey
 uint64_t
 requestContextID
 ;
-OptionalCorsPreflightArgs
+CorsPreflightArgs
+?
 preflightArgs
 ;
 uint32_t

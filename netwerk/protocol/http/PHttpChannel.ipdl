@@ -367,7 +367,8 @@ referrerUri
 URIParams
 ?
 apiRedirectTo
-OptionalCorsPreflightArgs
+CorsPreflightArgs
+?
 corsPreflightArgs
 bool
 chooseAppcache

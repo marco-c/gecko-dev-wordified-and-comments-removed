@@ -553,7 +553,10 @@ uint64_t
 &
 aRequestContextID
 const
-OptionalCorsPreflightArgs
+Maybe
+<
+CorsPreflightArgs
+>
 &
 aCorsPreflightArgs
 const
@@ -780,7 +783,10 @@ URIParams
 &
 apiRedirectUri
 const
-OptionalCorsPreflightArgs
+Maybe
+<
+CorsPreflightArgs
+>
 &
 aCorsPreflightArgs
 const
