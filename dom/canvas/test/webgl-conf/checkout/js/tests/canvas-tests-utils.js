@@ -790,9 +790,6 @@ vertexAttribPointer
 "
 viewport
 "
-"
-commit
-"
 ]
 ;
 var

@@ -1265,6 +1265,12 @@ video
 "
 )
 ;
+video
+.
+muted
+=
+true
+;
 var
 canPlay
 =

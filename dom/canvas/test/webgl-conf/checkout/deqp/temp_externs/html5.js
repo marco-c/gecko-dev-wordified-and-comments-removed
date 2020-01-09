@@ -4304,12 +4304,6 @@ Document
 .
 prototype
 .
-mozVisibilityState
-;
-Document
-.
-prototype
-.
 webkitVisibilityState
 ;
 Document
@@ -4323,12 +4317,6 @@ Document
 prototype
 .
 hidden
-;
-Document
-.
-prototype
-.
-mozHidden
 ;
 Document
 .

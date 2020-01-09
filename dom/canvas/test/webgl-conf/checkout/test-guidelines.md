@@ -892,7 +892,7 @@ about
 composition
 wtu
 .
-dispatchTask
+dispatchPromise
 makes
 it
 easy

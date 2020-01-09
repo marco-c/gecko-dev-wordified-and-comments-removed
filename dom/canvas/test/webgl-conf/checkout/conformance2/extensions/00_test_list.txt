@@ -18,6 +18,23 @@ query
 webgl2
 .
 html
+-
+-
+min
+-
+version
+2
+.
+0
+.
+1
+ext
+-
+float
+-
+blend
+.
+html
 promoted
 -
 extensions
@@ -42,7 +59,7 @@ version
 0
 .
 1
-webgl_multiview
+ovr_multiview2
 .
 html
 -
@@ -55,7 +72,7 @@ version
 0
 .
 1
-webgl_multiview_depth
+ovr_multiview2_depth
 .
 html
 -
@@ -68,7 +85,7 @@ version
 0
 .
 1
-webgl_multiview_draw_buffers
+ovr_multiview2_draw_buffers
 .
 html
 -
@@ -81,7 +98,7 @@ version
 0
 .
 1
-webgl_multiview_flat_varying
+ovr_multiview2_flat_varying
 .
 html
 -
@@ -94,7 +111,7 @@ version
 0
 .
 1
-webgl_multiview_instanced_draw
+ovr_multiview2_instanced_draw
 .
 html
 -
@@ -107,7 +124,7 @@ version
 0
 .
 1
-webgl_multiview_non_multiview_shaders
+ovr_multiview2_non_multiview_shaders
 .
 html
 -
@@ -120,7 +137,7 @@ version
 0
 .
 1
-webgl_multiview_single_view_operations
+ovr_multiview2_single_view_operations
 .
 html
 -
@@ -133,7 +150,7 @@ version
 0
 .
 1
-webgl_multiview_timer_query
+ovr_multiview2_timer_query
 .
 html
 -
@@ -146,6 +163,6 @@ version
 0
 .
 1
-webgl_multiview_transform_feedback
+ovr_multiview2_transform_feedback
 .
 html
