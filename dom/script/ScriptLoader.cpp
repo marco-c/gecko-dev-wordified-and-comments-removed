@@ -5144,10 +5144,11 @@ HostPopulateImportMeta
 JS
 :
 :
-SetScriptPrivateFinalizeHook
+SetScriptPrivateReferenceHooks
 (
 rt
-HostFinalizeTopLevelScript
+HostAddRefTopLevelScript
+HostReleaseTopLevelScript
 )
 ;
 Preferences

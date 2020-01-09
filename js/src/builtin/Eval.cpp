@@ -1547,6 +1547,11 @@ IsStrictEvalPC
 pc
 )
 )
+.
+setScriptOrModule
+(
+maybeScript
+)
 ;
 if
 (
@@ -1698,10 +1703,10 @@ env
 enclosing
 )
 ;
-JSScript
-*
+RootedScript
 compiled
-=
+(
+cx
 frontend
 :
 :
@@ -1709,6 +1714,7 @@ CompileEvalScript
 (
 info
 srcBuf
+)
 )
 ;
 if

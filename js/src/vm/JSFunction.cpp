@@ -9235,6 +9235,11 @@ lineno
 maybeScript
 pcOffset
 )
+.
+setScriptOrModule
+(
+maybeScript
+)
 ;
 StringBuffer
 sb
