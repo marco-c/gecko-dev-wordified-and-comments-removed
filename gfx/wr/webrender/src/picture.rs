@@ -11623,6 +11623,11 @@ frame_state
 &
 mut
 FrameBuildingState
+data_stores
+:
+&
+mut
+DataStores
 )
 -
 >
