@@ -306,13 +306,6 @@ notification
 primary
 -
 button
-:
-not
-(
-[
-alone
-]
-)
 {
 flex
 :
