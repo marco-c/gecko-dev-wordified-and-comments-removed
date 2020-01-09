@@ -1343,6 +1343,9 @@ JSWindowActorInfo
 nsString
 name
 ;
+bool
+allFrames
+;
 nsCString
 url
 ;

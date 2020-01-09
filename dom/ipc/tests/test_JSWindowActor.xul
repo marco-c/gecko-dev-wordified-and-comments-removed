@@ -271,6 +271,9 @@ let
 windowActorOptions
 =
 {
+allFrames
+:
+true
 parent
 :
 {
