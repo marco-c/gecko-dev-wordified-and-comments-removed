@@ -499,7 +499,7 @@ textarea
 readonly
 =
 "
-true
+readonly
 "
 id
 =

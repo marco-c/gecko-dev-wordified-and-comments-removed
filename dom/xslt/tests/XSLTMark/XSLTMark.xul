@@ -621,7 +621,7 @@ out
 readonly
 =
 "
-true
+readonly
 "
 flex
 =
@@ -659,7 +659,7 @@ out
 readonly
 =
 "
-true
+readonly
 "
 flex
 =
