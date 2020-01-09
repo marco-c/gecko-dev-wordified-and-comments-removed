@@ -1595,8 +1595,7 @@ them
 .
 /
 tests
-.
-md
+/
 )
 .
 You
