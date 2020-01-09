@@ -125,6 +125,15 @@ frameLoader
 ;
 [
 ChromeOnly
+]
+readonly
+attribute
+BrowsingContext
+?
+browsingContext
+;
+[
+ChromeOnly
 Throws
 ]
 void
