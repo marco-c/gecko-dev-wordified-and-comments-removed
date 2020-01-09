@@ -5,9 +5,9 @@ absolute_import
 unicode_literals
 print_function
 import
-sys
-import
 subprocess
+import
+sys
 from
 ctypes
 import
@@ -580,7 +580,7 @@ v
 in
 env
 .
-iteritems
+items
 (
 )
 :
