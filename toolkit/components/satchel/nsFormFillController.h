@@ -77,7 +77,7 @@ h
 #
 include
 "
-nsILoginManager
+nsILoginAutoCompleteSearch
 .
 h
 "
@@ -452,9 +452,9 @@ mController
 ;
 nsCOMPtr
 <
-nsILoginManager
+nsILoginAutoCompleteSearch
 >
-mLoginManager
+mLoginManagerAC
 ;
 nsCOMPtr
 <
