@@ -639,8 +639,6 @@ contains
 "
 devtools
 -
-style
--
 searchbox
 -
 no

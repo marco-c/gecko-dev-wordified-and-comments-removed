@@ -1383,6 +1383,11 @@ className
 devtools
 -
 toolbar
+devtools
+-
+input
+-
+toolbar
 webconsole
 -
 filterbar
@@ -1460,11 +1465,6 @@ className
 devtools
 -
 searchbox
-has
--
-clear
--
-btn
 "
 }
 dom
@@ -1477,7 +1477,7 @@ className
 "
 devtools
 -
-plaininput
+filterinput
 text
 -
 filter

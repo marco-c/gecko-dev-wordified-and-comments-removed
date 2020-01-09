@@ -178,6 +178,12 @@ checkbox
 -
 label
 {
+white
+-
+space
+:
+nowrap
+;
 padding
 -
 inline
