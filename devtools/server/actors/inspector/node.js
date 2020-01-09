@@ -609,6 +609,11 @@ _eventCollector
 new
 EventCollector
 (
+this
+.
+walker
+.
+targetActor
 )
 ;
 this

@@ -1162,6 +1162,11 @@ uri
 listener
 .
 origin
+sourceActor
+:
+listener
+.
+sourceActor
 dom0
 :
 listener
@@ -1663,6 +1668,7 @@ nextElementSibling
 ;
 const
 {
+sourceActor
 uri
 }
 =
@@ -1715,6 +1721,7 @@ url
 location
 .
 line
+sourceActor
 )
 ;
 }
