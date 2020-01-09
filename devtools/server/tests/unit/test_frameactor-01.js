@@ -177,9 +177,7 @@ packet
 .
 frame
 .
-callee
-.
-name
+displayName
 "
 stopMe
 "
