@@ -1268,7 +1268,7 @@ getStr
 "
 editor
 .
-noResults
+noResultsFound
 "
 )
 ;
