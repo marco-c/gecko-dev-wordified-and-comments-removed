@@ -201,6 +201,11 @@ from
 gecko_profile
 import
 GeckoProfile
+from
+power
+import
+init_geckoview_power_test
+finish_geckoview_power_test
 class
 Raptor
 (
@@ -248,9 +253,13 @@ None
 host
 =
 None
+power_test
+=
+False
 is_release_build
 =
 False
+                 
 debug_mode
 =
 False
@@ -388,6 +397,17 @@ host
 ]
 =
 host
+        
+self
+.
+config
+[
+'
+power_test
+'
+]
+=
+power_test
         
 self
 .
@@ -738,6 +758,22 @@ device
 .
 clear_logcat
 (
+)
+            
+if
+self
+.
+config
+[
+'
+power_test
+'
+]
+:
+                
+init_geckoview_power_test
+(
+self
 )
         
 else
@@ -2597,6 +2633,22 @@ binary
 ]
 )
                 
+if
+self
+.
+config
+[
+'
+power_test
+'
+]
+:
+                    
+finish_geckoview_power_test
+(
+self
+)
+                
 raise
             
 self
@@ -3246,11 +3298,30 @@ config
 app
 '
 ]
-!
+=
 =
 "
 geckoview
 "
+:
+                
+if
+self
+.
+config
+[
+'
+power_test
+'
+]
+:
+                    
+finish_geckoview_power_test
+(
+self
+)
+            
+else
 :
                 
 try
@@ -4464,6 +4535,12 @@ host
 args
 .
 host
+                    
+power_test
+=
+args
+.
+power_test
                     
 is_release_build
 =
