@@ -444,6 +444,16 @@ callFunction
 \
 MACRO
 (
+CallRegExpMethodIfWrapped
+CallRegExpMethodIfWrapped
+\
+"
+CallRegExpMethodIfWrapped
+"
+)
+\
+MACRO
+(
 cancel
 cancel
 "
