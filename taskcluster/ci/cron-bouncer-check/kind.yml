@@ -218,15 +218,6 @@ bouncer
 -
 check
 run
--
-on
--
-projects
-:
-[
-release
-]
-run
 :
 config
 :
