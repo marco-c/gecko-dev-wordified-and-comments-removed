@@ -201,6 +201,15 @@ const
 0
 ;
 virtual
+nsString
+GetGroupId
+(
+)
+const
+=
+0
+;
+virtual
 dom
 :
 :

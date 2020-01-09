@@ -3055,11 +3055,11 @@ GetName
 (
 )
 aDeviceId
-NS_LITERAL_STRING
+aMediaEngineSource
+-
+>
+GetGroupId
 (
-"
-GroupID
-"
 )
 NS_LITERAL_STRING
 (
