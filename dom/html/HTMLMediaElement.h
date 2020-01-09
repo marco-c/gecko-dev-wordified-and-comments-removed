@@ -3873,6 +3873,11 @@ GenericNonExclusivePromise
 >
 mAllowedToPlayPromise
 ;
+bool
+mHasEverBeenBlockedForAutoplay
+=
+false
+;
 public
 :
 class
