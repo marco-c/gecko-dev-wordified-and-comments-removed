@@ -459,6 +459,11 @@ JitOptions
 cpp
 '
 '
+JitScript
+.
+cpp
+'
+'
 JitSpewer
 .
 cpp
