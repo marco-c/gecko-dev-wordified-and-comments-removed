@@ -17,7 +17,7 @@ mozlog
 =
 3
 .
-9
+10
 mozdebug
 =
 =
