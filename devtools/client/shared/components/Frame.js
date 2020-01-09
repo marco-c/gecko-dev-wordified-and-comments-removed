@@ -467,6 +467,7 @@ const
 source
 line
 column
+sourceId
 }
 =
 frame
@@ -487,6 +488,7 @@ props
 frame
 .
 functionDisplayName
+sourceId
 }
 ;
 }
@@ -571,6 +573,13 @@ source
 |
 "
 "
+;
+const
+sourceId
+=
+frame
+.
+sourceId
 ;
 const
 line
@@ -1069,6 +1078,7 @@ getSourceForClick
 .
 frame
 source
+sourceId
 }
 )
 )

@@ -14139,6 +14139,7 @@ function
 (
 sourceURL
 sourceLine
+sourceId
 reason
 )
 {
@@ -14150,6 +14151,7 @@ viewSourceInDebugger
 this
 sourceURL
 sourceLine
+sourceId
 reason
 )
 ;

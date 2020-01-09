@@ -412,6 +412,15 @@ selectSource
 sourceId
 :
 string
+options
+:
+PartialPosition
+=
+{
+line
+:
+1
+}
 )
 {
 return
@@ -432,6 +441,10 @@ location
 createLocation
 (
 {
+.
+.
+.
+options
 sourceId
 }
 )
