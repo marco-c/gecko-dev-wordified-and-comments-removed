@@ -14128,6 +14128,6 @@ toolbars
 .
 keyboard_navigation
 "
-true
+false
 )
 ;
