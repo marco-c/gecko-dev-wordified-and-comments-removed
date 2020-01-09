@@ -153,8 +153,8 @@ PROFILER_TRACING_DOCSHELL
 categoryString
 markerName
 category
-kind
 \
+kind
 docshell
 )
 #
@@ -2276,8 +2276,8 @@ PROFILER_TRACING_DOCSHELL
 categoryString
 markerName
 category
-kind
 \
+kind
 docShell
 )
 \
@@ -2441,6 +2441,7 @@ PROFILER_RAII
 \
 categoryString
 markerName
+\
 js
 :
 :
@@ -2451,13 +2452,13 @@ Category
 :
 :
 category
-\
 mozilla
 :
 :
 Nothing
 (
 )
+\
 mozilla
 :
 :
@@ -2491,6 +2492,7 @@ PROFILER_RAII
 \
 categoryString
 markerName
+\
 js
 :
 :
@@ -2501,8 +2503,8 @@ Category
 :
 :
 category
-\
 docShellId
+\
 docShellHistoryId
 )
 mozilla
