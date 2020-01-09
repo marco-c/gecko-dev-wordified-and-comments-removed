@@ -140,7 +140,7 @@ mRasterizeLocally
 (
 aParams
 .
-mAnimated
+mRasterizeLocally
 |
 |
 aParentSC
@@ -336,18 +336,6 @@ RasterSpace
 :
 Screen
 (
-)
-;
-MOZ_ASSERT
-(
-!
-aParams
-.
-clip
-.
-IsNone
-(
-)
 )
 ;
 mReferenceFrameId
