@@ -293,6 +293,9 @@ ASCII_S
 '
 }
 ;
+#
+ifdef
+XML_DTD
 static
 const
 char
@@ -313,6 +316,8 @@ ASCII_E
 '
 }
 ;
+#
+endif
 static
 const
 char
@@ -334,6 +339,9 @@ ASCII_D
 '
 }
 ;
+#
+ifdef
+XML_DTD
 static
 const
 char
@@ -355,6 +363,8 @@ ASCII_E
 '
 }
 ;
+#
+endif
 static
 const
 char
