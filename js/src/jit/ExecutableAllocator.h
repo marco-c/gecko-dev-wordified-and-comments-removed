@@ -878,12 +878,6 @@ JS_CODEGEN_X64
 \
 defined
 (
-JS_SIMULATOR_ARM64
-)
-|
-|
-defined
-(
 JS_CODEGEN_NONE
 )
 static
@@ -1473,6 +1467,12 @@ r2
 }
 #
 elif
+defined
+(
+JS_SIMULATOR_ARM64
+)
+|
+|
 defined
 (
 JS_CODEGEN_ARM64
