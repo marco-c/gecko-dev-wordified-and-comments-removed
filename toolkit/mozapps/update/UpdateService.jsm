@@ -19334,10 +19334,6 @@ i
 1
 )
 ;
-return
-;
-}
-}
 if
 (
 this
@@ -19356,6 +19352,10 @@ _maybeStopActiveNotifications
 (
 )
 ;
+}
+return
+;
+}
 }
 }
 get
@@ -19419,6 +19419,12 @@ active
 notifications
 "
 )
+;
+this
+.
+_bitsActiveNotifications
+=
+true
 ;
 await
 this
@@ -19511,6 +19517,12 @@ active
 notifications
 "
 )
+;
+this
+.
+_bitsActiveNotifications
+=
+false
 ;
 await
 this
