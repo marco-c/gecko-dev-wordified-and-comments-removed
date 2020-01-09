@@ -1643,10 +1643,6 @@ False
         
 partial_updates
 =
-json
-.
-dumps
-(
 input
 .
 get
@@ -1657,16 +1653,10 @@ partial_updates
 {
 }
 )
-)
         
 if
+not
 partial_updates
-=
-=
-"
-{
-}
-"
 :
             
 raise
@@ -1714,7 +1704,12 @@ PARTIAL_UPDATES
 '
 ]
 =
+json
+.
+dumps
+(
 partial_updates
+)
         
 release_history
 =
@@ -1731,12 +1726,7 @@ project
             
 partial_updates
 =
-input
-[
-'
 partial_updates
-'
-]
         
 )
     
