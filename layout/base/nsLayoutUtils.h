@@ -5183,16 +5183,6 @@ clear
 ;
 static
 bool
-HasCurrentTransitions
-(
-const
-nsIFrame
-*
-aFrame
-)
-;
-static
-bool
 HasAnimationOfPropertySet
 (
 const
