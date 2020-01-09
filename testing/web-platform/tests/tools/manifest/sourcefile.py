@@ -6013,6 +6013,27 @@ rel_path
 )
 ]
         
+assert
+len
+(
+rv
+[
+1
+]
+)
+=
+=
+len
+(
+set
+(
+rv
+[
+1
+]
+)
+)
+        
 self
 .
 items_cache
