@@ -335,6 +335,12 @@ privilegedabout
 "
 #
 define
+PRIVILEGEDMOZILLA_REMOTE_TYPE
+"
+privilegedmozilla
+"
+#
+define
 LARGE_ALLOCATION_REMOTE_TYPE
 "
 webLargeAllocation
