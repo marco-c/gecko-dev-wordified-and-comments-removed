@@ -8645,7 +8645,10 @@ mShapeImageThreshold
 .
 0f
 ;
-nsStyleCoord
+mozilla
+:
+:
+LengthPercentage
 mShapeMargin
 ;
 mozilla
