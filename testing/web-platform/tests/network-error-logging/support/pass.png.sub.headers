@@ -151,7 +151,12 @@ max_age
 success_fraction
 "
 :
-1
-.
-0
+{
+{
+GET
+[
+success_fraction
+]
+}
+}
 }
