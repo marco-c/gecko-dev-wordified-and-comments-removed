@@ -86,6 +86,11 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
+size_t
+SizeOfPrioDatasPerMetric
+(
+)
+;
 }
 #
 endif
