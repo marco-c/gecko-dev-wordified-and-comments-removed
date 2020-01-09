@@ -1402,6 +1402,8 @@ ParentLayerIntRect
 >
 &
 aClipFromAncestors
+bool
+aCanContributeOpaque
 )
 ;
 class
