@@ -2565,6 +2565,9 @@ to
 get
 *
 /
+[
+can_run_script
+]
 void
 removeAttribute
 (

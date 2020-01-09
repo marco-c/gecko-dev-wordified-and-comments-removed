@@ -3166,6 +3166,7 @@ Element
 aSourceElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveAttributeWithTransaction
 (

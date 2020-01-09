@@ -10720,6 +10720,8 @@ isDestElementInBody
 RemoveAttributeWithTransaction
 (
 destElement
+MOZ_KnownLive
+(
 *
 attr
 -
@@ -10731,6 +10733,7 @@ NodeInfo
 >
 NameAtom
 (
+)
 )
 )
 ;
