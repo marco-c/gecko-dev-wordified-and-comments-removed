@@ -27,8 +27,10 @@ WeakMap
 (
 )
 ;
-function
+class
 ClassList
+{
+constructor
 (
 inspector
 )
@@ -91,11 +93,6 @@ div
 )
 ;
 }
-ClassList
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -662,7 +659,6 @@ changed
 }
 }
 }
-;
 module
 .
 exports
