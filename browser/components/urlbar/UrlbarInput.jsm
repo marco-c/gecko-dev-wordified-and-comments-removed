@@ -1694,6 +1694,7 @@ data
 url
 where
 openParams
+browser
 )
 ;
 }
@@ -3849,9 +3850,6 @@ _loadURL
 url
 openUILinkWhere
 params
-)
-{
-let
 browser
 =
 this
@@ -3861,7 +3859,8 @@ window
 gBrowser
 .
 selectedBrowser
-;
+)
+{
 this
 .
 value
