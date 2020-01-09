@@ -12,14 +12,10 @@ enabledScopes
 AddonManager
 .
 SCOPE_PROFILE
-+
+|
 AddonManager
 .
 SCOPE_USER
-+
-AddonManager
-.
-SCOPE_SYSTEM
 )
 ;
 function

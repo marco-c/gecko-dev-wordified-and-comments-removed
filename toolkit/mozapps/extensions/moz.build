@@ -166,6 +166,11 @@ DIRS
 =
 [
 '
+default
+-
+theme
+'
+'
 internal
 '
 ]
