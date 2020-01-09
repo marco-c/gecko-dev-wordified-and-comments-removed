@@ -251,7 +251,7 @@ manifest
 '
 :
 '
-valid_details_1
+valid_details_0
 '
 }
                    
@@ -277,6 +277,100 @@ page_cycles
 '
 :
 5
+                    
+'
+test_url
+'
+:
+'
+http
+:
+/
+/
+www
+.
+test
+-
+url
+/
+goes
+/
+here
+'
+                    
+'
+measure
+'
+:
+'
+fcp
+'
+                    
+'
+unit
+'
+:
+'
+score
+'
+                    
+'
+lower_is_better
+'
+:
+False
+                    
+'
+alert_threshold
+'
+:
+2
+.
+0
+                    
+'
+manifest
+'
+:
+'
+valid_details_1
+'
+}
+                   
+{
+'
+apps
+'
+:
+'
+geckoview
+'
+                    
+'
+type
+'
+:
+'
+pageload
+'
+                    
+'
+cold
+'
+:
+True
+                    
+'
+browser_cycles
+'
+:
+10
+                    
+'
+page_cycles
+'
+:
+1
                     
 '
 test_url
@@ -448,7 +542,7 @@ manifest
 '
 :
 '
-invalid_details_1
+invalid_details_0
 '
 }
                      
@@ -539,7 +633,7 @@ manifest
 '
 :
 '
-invalid_details_2
+invalid_details_1
 '
 }
                      
@@ -668,7 +762,7 @@ manifest
 '
 :
 '
-invalid_details_3
+invalid_details_2
 '
 }
 ]
@@ -806,6 +900,9 @@ args
 =
 create_args
 (
+browser_cycles
+=
+1
 )
     
 test_list
@@ -908,6 +1005,10 @@ raptor
 -
 speedometer
 "
+                       
+browser_cycles
+=
+1
 )
     
 test_list
@@ -974,6 +1075,10 @@ unity
 -
 webgl
 "
+                       
+browser_cycles
+=
+1
 )
     
 test_list
@@ -1042,6 +1147,10 @@ firefox
 gecko_profile
 =
 True
+                       
+browser_cycles
+=
+1
 )
     
 test_list
@@ -1137,6 +1246,10 @@ firefox
 debug_mode
 =
 True
+                       
+browser_cycles
+=
+1
 )
     
 test_list
@@ -1232,6 +1345,10 @@ firefox
 page_cycles
 =
 99
+                       
+browser_cycles
+=
+1
 )
     
 test_list
@@ -1314,6 +1431,10 @@ firefox
 page_timeout
 =
 9999
+                       
+browser_cycles
+=
+1
 )
     
 test_list
@@ -1394,6 +1515,10 @@ raptor
 -
 speedometer
 "
+                       
+browser_cycles
+=
+1
 )
     
 test_list
@@ -1458,6 +1583,10 @@ raptor
 -
 speedometer
 "
+                       
+browser_cycles
+=
+1
 )
     
 test_list
