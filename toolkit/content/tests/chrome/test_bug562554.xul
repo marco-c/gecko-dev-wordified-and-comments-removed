@@ -224,13 +224,6 @@ id
 "
 menu
 "
-display
-=
-"
-xul
-:
-menu
-"
 extends
 =
 "

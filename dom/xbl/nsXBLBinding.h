@@ -374,15 +374,6 @@ UnhookEventHandlers
 (
 )
 ;
-nsAtom
-*
-GetBaseTag
-(
-int32_t
-*
-aNameSpaceID
-)
-;
 nsXBLBinding
 *
 RootBinding

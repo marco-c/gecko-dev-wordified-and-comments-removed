@@ -1426,15 +1426,6 @@ nsIContent
 >
 mInterfaceTable
 ;
-int32_t
-mBaseNameSpaceID
-;
-RefPtr
-<
-nsAtom
->
-mBaseTag
-;
 nsCOMArray
 <
 nsXBLKeyEventHandler

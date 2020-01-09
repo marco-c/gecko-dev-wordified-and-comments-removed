@@ -209,13 +209,6 @@ id
 "
 mybinding
 "
-extends
-=
-"
-xul
-:
-checkbox
-"
 >
 <
 content
@@ -482,13 +475,6 @@ javascript
 [
 CDATA
 [
-SimpleTest
-.
-expectAssertions
-(
-1
-)
-;
 var
 myBoxClicked
 =
