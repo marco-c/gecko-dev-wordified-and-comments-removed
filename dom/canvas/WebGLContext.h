@@ -5295,6 +5295,11 @@ mDepthTestEnabled
 realGLboolean
 mStencilTestEnabled
 ;
+realGLboolean
+mBlendEnabled
+=
+0
+;
 GLenum
 mGenerateMipmapHint
 =

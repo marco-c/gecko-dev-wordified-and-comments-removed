@@ -719,11 +719,6 @@ WebGLContextVertices
 cpp
 '
 '
-WebGLExtensionBase
-.
-cpp
-'
-'
 WebGLExtensionBlendMinMax
 .
 cpp
@@ -830,6 +825,11 @@ cpp
 '
 '
 WebGLExtensionMOZDebug
+.
+cpp
+'
+'
+WebGLExtensions
 .
 cpp
 '

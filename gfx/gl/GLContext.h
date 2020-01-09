@@ -1002,6 +1002,7 @@ EXT_draw_buffers
 EXT_draw_buffers2
 EXT_draw_instanced
 EXT_draw_range_elements
+EXT_float_blend
 EXT_frag_depth
 EXT_framebuffer_blit
 EXT_framebuffer_multisample

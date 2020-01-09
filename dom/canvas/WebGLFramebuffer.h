@@ -689,6 +689,11 @@ height
 =
 0
 ;
+bool
+hasFloat32
+=
+false
+;
 std
 :
 :

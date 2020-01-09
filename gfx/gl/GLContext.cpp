@@ -622,6 +622,9 @@ GL_EXT_draw_instanced
 GL_EXT_draw_range_elements
 "
 "
+GL_EXT_float_blend
+"
+"
 GL_EXT_frag_depth
 "
 "
