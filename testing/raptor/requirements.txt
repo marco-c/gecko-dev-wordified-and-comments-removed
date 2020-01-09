@@ -38,3 +38,9 @@ mozdevice
 1
 .
 6
+mozproxy
+>
+=
+1
+.
+0

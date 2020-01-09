@@ -207,6 +207,15 @@ manifest
 ini
 '
 '
+mozproxy
+/
+tests
+/
+manifest
+.
+ini
+'
+'
 mozrunner
 /
 tests
@@ -275,6 +284,9 @@ mozprocess
 '
 '
 mozprofile
+'
+'
+mozproxy
 '
 '
 mozrunner

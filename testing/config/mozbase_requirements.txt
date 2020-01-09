@@ -87,6 +87,12 @@ mozprofile
 /
 mozbase
 /
+mozproxy
+.
+.
+/
+mozbase
+/
 mozrunner
 .
 .

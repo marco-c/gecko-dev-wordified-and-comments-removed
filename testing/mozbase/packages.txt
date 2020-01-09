@@ -115,6 +115,15 @@ testing
 mozbase
 /
 mozprofile
+mozproxy
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozproxy
 mozrunner
 .
 pth
