@@ -127,6 +127,11 @@ AddTask
 js
 '
 '
+ChromeTask
+.
+js
+'
+'
 EventUtils
 .
 js
