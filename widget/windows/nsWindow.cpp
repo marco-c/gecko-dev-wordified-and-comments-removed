@@ -20435,10 +20435,9 @@ defined
 (
 ACCESSIBILITY
 )
-(
-void
-*
-)
+Unused
+<
+<
 GetAccessible
 (
 )
