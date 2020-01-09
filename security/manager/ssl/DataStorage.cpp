@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsIFileStreams
+.
+h
+"
+#
+include
+"
 nsIMemoryReporter
 .
 h
