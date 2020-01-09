@@ -54,6 +54,7 @@ WebAuthnManagerBase
 aManager
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -73,6 +74,7 @@ WebAuthnMakeCredentialResult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -92,6 +94,7 @@ WebAuthnGetAssertionResult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :

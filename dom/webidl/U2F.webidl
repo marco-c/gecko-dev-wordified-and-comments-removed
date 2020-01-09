@@ -373,9 +373,6 @@ errorMessage
 ;
 }
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 U2FRegisterCallback
 =
@@ -385,9 +382,6 @@ RegisterResponse
 response
 )
 ;
-[
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-]
 callback
 U2FSignCallback
 =

@@ -368,6 +368,7 @@ aGivenProto
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Register
 (
@@ -407,6 +408,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Sign
 (
@@ -443,6 +445,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FinishMakeCredential
 (
@@ -457,6 +460,7 @@ aResult
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FinishGetAssertion
 (
@@ -471,6 +475,7 @@ aResult
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RequestAborted
 (
@@ -487,6 +492,7 @@ override
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 void
 CancelTransaction
 (
@@ -499,6 +505,7 @@ override
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 ~
 U2F
 (
@@ -511,6 +518,7 @@ T
 typename
 C
 >
+MOZ_CAN_RUN_SCRIPT
 void
 ExecuteCallback
 (
@@ -530,6 +538,7 @@ ClearTransaction
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RejectTransaction
 (

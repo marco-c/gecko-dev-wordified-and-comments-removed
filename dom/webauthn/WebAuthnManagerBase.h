@@ -48,6 +48,7 @@ nsPIDOMWindowInner
 aParent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 FinishMakeCredential
@@ -64,6 +65,7 @@ aResult
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 FinishGetAssertion
@@ -80,6 +82,7 @@ aResult
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 RequestAborted
@@ -103,12 +106,14 @@ ActorDestroyed
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 ~
 WebAuthnManagerBase
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 CancelTransaction
