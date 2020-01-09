@@ -204,6 +204,9 @@ class
 AutoJSAPI
 ;
 class
+LoadedScript
+;
+class
 ModuleLoadRequest
 ;
 class
@@ -827,6 +830,16 @@ ModuleLoadRequest
 aRequest
 nsresult
 aResult
+)
+;
+static
+LoadedScript
+*
+GetActiveScript
+(
+JSContext
+*
+aCx
 )
 ;
 private

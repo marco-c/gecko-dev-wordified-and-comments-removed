@@ -138,6 +138,11 @@ dom
 =
 [
 '
+LoadedScript
+.
+h
+'
+'
 ScriptElement
 .
 h
