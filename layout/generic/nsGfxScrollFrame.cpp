@@ -17612,6 +17612,16 @@ IsEmpty
 )
 )
 {
+nsDisplayListBuilder
+:
+:
+AutoBuildingDisplayList
+buildingDisplayList
+(
+aBuilder
+viewportFrame
+)
+;
 nsDisplayWrapList
 *
 wrapList
