@@ -216,11 +216,6 @@ VRProcessManager
 aManager
 )
 ;
-void
-Unregister
-(
-)
-;
 protected
 :
 ~
