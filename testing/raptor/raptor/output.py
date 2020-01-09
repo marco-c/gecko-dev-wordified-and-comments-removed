@@ -13,7 +13,7 @@ __future__
 import
 absolute_import
 import
-filter
+filters
 import
 json
 import
@@ -481,7 +481,7 @@ measurement_name
                         
 filtered_values
 =
-filter
+filters
 .
 ignore_first
 (
@@ -517,7 +517,7 @@ ttfi
                         
 filtered_values
 =
-filter
+filters
 .
 ignore_negative
 (
@@ -589,7 +589,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 median
 (
@@ -2076,7 +2076,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 median
 (
@@ -2907,7 +2907,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 median
 (
@@ -3242,7 +3242,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 median
 (
@@ -3528,7 +3528,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 median
 (
@@ -3769,7 +3769,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 median
 (
@@ -4022,7 +4022,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 median
 (
@@ -4239,7 +4239,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 mean
 (
@@ -4570,7 +4570,7 @@ value
 '
 ]
 =
-filter
+filters
 .
 median
 (
@@ -4783,7 +4783,7 @@ value
 =
 round
 (
-filter
+filters
 .
 median
 (
@@ -5916,7 +5916,7 @@ score
 =
 100
 *
-filter
+filters
 .
 geometric_mean
 (
@@ -6067,7 +6067,7 @@ score
 *
 1000
 /
-filter
+filters
 .
 geometric_mean
 (
@@ -6128,7 +6128,7 @@ geomean
 ]
         
 return
-filter
+filters
 .
 mean
 (
@@ -6183,7 +6183,7 @@ Mean
 ]
         
 return
-filter
+filters
 .
 mean
 (
@@ -6238,7 +6238,7 @@ Mean
 ]
         
 return
-filter
+filters
 .
 mean
 (
@@ -6291,7 +6291,7 @@ __total__
 ]
         
 return
-filter
+filters
 .
 mean
 (
@@ -6344,7 +6344,7 @@ interactive
 ]
         
 return
-filter
+filters
 .
 mean
 (
@@ -6455,7 +6455,7 @@ score
 *
 1000
 /
-filter
+filters
 .
 geometric_mean
 (
@@ -6518,7 +6518,7 @@ val_list
 return
 round
 (
-filter
+filters
 .
 geometric_mean
 (
@@ -6833,7 +6833,7 @@ vals
 return
 round
 (
-filter
+filters
 .
 geometric_mean
 (
@@ -6855,7 +6855,7 @@ else
 return
 round
 (
-filter
+filters
 .
 mean
 (
