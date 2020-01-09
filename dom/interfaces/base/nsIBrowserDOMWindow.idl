@@ -845,9 +845,9 @@ Parameters
 :
 *
 param
-aNextTabParentId
+aNextRemoteTabId
 The
-TabParent
+RemoteTab
 to
 associate
 the
@@ -901,7 +901,7 @@ in
 unsigned
 long
 long
-aNextTabParentId
+aNextRemoteTabId
 in
 AString
 aName
@@ -1092,9 +1092,9 @@ Parameters
 :
 *
 param
-aNextTabParentId
+aNextRemoteTabId
 The
-TabParent
+RemoteTab
 to
 associate
 the
@@ -1162,7 +1162,7 @@ in
 unsigned
 long
 long
-aNextTabParentId
+aNextRemoteTabId
 in
 AString
 aName

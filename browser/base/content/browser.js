@@ -28209,7 +28209,7 @@ null
 aTriggeringPrincipal
 =
 null
-aNextTabParentId
+aNextRemoteTabId
 =
 0
 aName
@@ -28375,9 +28375,9 @@ aOpenerWindow
 openerBrowser
 :
 aOpenerBrowser
-nextTabParentId
+nextRemoteTabId
 :
-aNextTabParentId
+aNextRemoteTabId
 name
 :
 aName
@@ -29124,7 +29124,7 @@ aURI
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
@@ -29137,7 +29137,7 @@ null
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 ;
@@ -29151,7 +29151,7 @@ aURI
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
@@ -29164,7 +29164,7 @@ aURI
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 ;
@@ -29178,7 +29178,7 @@ aURI
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
@@ -29280,7 +29280,7 @@ openerBrowser
 aParams
 .
 triggeringPrincipal
-aNextTabParentId
+aNextRemoteTabId
 aName
 aParams
 .

@@ -76,7 +76,7 @@ h
 #
 include
 "
-nsITabParent
+nsIRemoteTab
 .
 h
 "
@@ -450,14 +450,14 @@ nsIWebBrowserChrome
 aParentChrome
 uint32_t
 aChromeFlags
-nsITabParent
+nsIRemoteTab
 *
-aOpeningTabParent
+aOpeningBrowserParent
 mozIDOMWindowProxy
 *
 aOpener
 uint64_t
-aNextTabParentId
+aNextRemoteTabId
 nsIWebBrowserChrome
 *
 *

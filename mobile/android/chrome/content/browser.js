@@ -19794,7 +19794,7 @@ aURI
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
@@ -19820,7 +19820,7 @@ aURI
 aParams
 aWhere
 aFlags
-aNextTabParentId
+aNextRemoteTabId
 aName
 )
 {
