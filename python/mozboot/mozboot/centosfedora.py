@@ -74,7 +74,20 @@ self
 .
 version
 =
+int
+(
 version
+.
+split
+(
+'
+.
+'
+)
+[
+0
+]
+)
         
 self
 .
@@ -101,10 +114,6 @@ autoconf213
             
 '
 nodejs
-'
-            
-'
-npm
 '
             
 '
@@ -204,6 +213,14 @@ devel
 '
 yasm
 '
+            
+'
+gcc
+-
+c
++
++
+'
         
 ]
         
@@ -260,17 +277,6 @@ group_packages
 Development
 Tools
 '
-                
-'
-Development
-Libraries
-'
-                
-'
-GNOME
-Software
-Development
-'
             
 ]
             
@@ -302,6 +308,102 @@ gtk3
 devel
 '
             
+]
+            
+if
+self
+.
+version
+=
+=
+6
+:
+                
+self
+.
+group_packages
++
+=
+[
+                    
+'
+Development
+Libraries
+'
+                    
+'
+GNOME
+Software
+Development
+'
+                
+]
+                
+self
+.
+packages
++
+=
+[
+                    
+'
+npm
+'
+                
+]
+            
+else
+:
+                
+self
+.
+packages
++
+=
+[
+                    
+'
+python2
+-
+devel
+'
+                    
+'
+redhat
+-
+rpm
+-
+config
+'
+                
+]
+                
+self
+.
+browser_group_packages
+=
+[
+                    
+'
+Development
+Tools
+'
+                
+]
+                
+self
+.
+browser_packages
++
+=
+[
+                    
+'
+python
+-
+dbus
+'
+                
 ]
         
 elif
@@ -340,6 +442,10 @@ packages
 [
                 
 '
+npm
+'
+                
+'
 python2
 -
 devel
@@ -361,14 +467,6 @@ browser_packages
 +
 =
 [
-                
-'
-gcc
--
-c
-+
-+
-'
                 
 '
 python
@@ -527,6 +625,13 @@ CentOS
 Linux
 '
 )
+and
+self
+.
+version
+=
+=
+6
 :
             
 yasm
