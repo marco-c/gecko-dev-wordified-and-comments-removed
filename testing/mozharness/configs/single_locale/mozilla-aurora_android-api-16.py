@@ -52,12 +52,6 @@ objdir
 OBJDIR
     
 "
-is_automation
-"
-:
-True
-    
-"
 locales_dir
 "
 :
@@ -125,31 +119,6 @@ s
 MOZILLA_DIR
     
 }
-    
-"
-hg_l10n_base
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-releases
-/
-l10n
-/
-%
-s
-"
-%
-BRANCH
     
 "
 hg_l10n_tag
