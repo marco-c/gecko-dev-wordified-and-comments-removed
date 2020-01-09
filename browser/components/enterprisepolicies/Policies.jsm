@@ -2543,7 +2543,8 @@ shell
 .
 checkDefaultBrowser
 "
-false
+!
+param
 )
 ;
 }
