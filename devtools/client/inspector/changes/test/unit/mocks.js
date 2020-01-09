@@ -71,9 +71,10 @@ rule1
 :
 {
 "
-selector
+selectors
 "
 :
+[
 "
 media
 (
@@ -84,6 +85,7 @@ width
 50em
 )
 "
+]
 "
 ruleId
 "
@@ -119,9 +121,10 @@ rule2
 :
 {
 "
-selector
+selectors
 "
 :
+[
 "
 supports
 (
@@ -130,6 +133,7 @@ display
 grid
 )
 "
+]
 "
 ruleId
 "
@@ -172,12 +176,14 @@ rule3
 :
 {
 "
-selector
+selectors
 "
 :
+[
 "
 body
 "
+]
 "
 ruleId
 "
