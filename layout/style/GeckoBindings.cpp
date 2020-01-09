@@ -10962,7 +10962,9 @@ Orientation
 )
 )
 .
-zeroOrAveCharWidth
+ZeroOrAveCharWidth
+(
+)
 ;
 ret
 .

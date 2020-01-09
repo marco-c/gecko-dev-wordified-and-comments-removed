@@ -21018,7 +21018,7 @@ aveCharWidth
 metrics
 -
 >
-zeroOrAveCharWidth
+zeroWidth
 =
 metrics
 -
@@ -21150,7 +21150,9 @@ GetMetrics
 eHorizontal
 )
 .
-zeroOrAveCharWidth
+ZeroOrAveCharWidth
+(
+)
 ;
 case
 0x2008

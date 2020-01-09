@@ -1927,7 +1927,7 @@ glyphID
 ;
 mMetrics
 .
-zeroOrAveCharWidth
+zeroWidth
 =
 GetCharWidth
 (
@@ -1950,11 +1950,12 @@ glyphID
 {
 mMetrics
 .
-zeroOrAveCharWidth
+zeroWidth
 =
-mMetrics
+-
+1
 .
-aveCharWidth
+0
 ;
 }
 if

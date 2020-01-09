@@ -2091,7 +2091,7 @@ size
 mMetrics
 -
 >
-zeroOrAveCharWidth
+zeroWidth
 =
 ROUND
 (
@@ -2106,12 +2106,12 @@ else
 mMetrics
 -
 >
-zeroOrAveCharWidth
+zeroWidth
 =
-mMetrics
 -
->
-aveCharWidth
+1
+.
+0
 ;
 }
 SanitizeMetrics
