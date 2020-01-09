@@ -105,8 +105,10 @@ screenshots
 webcompat
 '
 '
-webcompat
+report
 -
-reporter
+site
+-
+issue
 '
 ]

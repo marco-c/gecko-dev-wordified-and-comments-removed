@@ -583,9 +583,11 @@ C
 /
 extensions
 /
-webcompat
+report
 -
-reporter
+site
+-
+issue
 /
 locales
 AB_CD
@@ -930,9 +932,11 @@ C
 /
 extensions
 /
-webcompat
+report
 -
-reporter
+site
+-
+issue
 /
 locales
 chrome

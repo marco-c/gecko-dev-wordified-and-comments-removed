@@ -73,9 +73,11 @@ browser
 /
 extensions
 /
-webcompat
+report
 -
-reporter
+site
+-
+issue
 "
                    
 "
