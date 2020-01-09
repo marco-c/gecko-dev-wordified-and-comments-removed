@@ -5109,6 +5109,9 @@ _set_value_and_check_exitcode
 self
 file_name
 value
+root
+=
+False
 )
 :
         
@@ -5166,7 +5169,7 @@ file_name
 )
 root
 =
-True
+root
 )
         
 if
@@ -5761,6 +5764,9 @@ _set_value_and_check_exitcode
 (
 key
 value
+root
+=
+True
 )
     
 def
@@ -6009,6 +6015,9 @@ _set_value_and_check_exitcode
 (
 key
 value
+root
+=
+True
 )
     
 def
@@ -6374,6 +6383,9 @@ _set_value_and_check_exitcode
 (
 key
 value
+root
+=
+True
 )
     
 def
@@ -6520,6 +6532,9 @@ _set_value_and_check_exitcode
 (
 key
 value
+root
+=
+True
 )
     
 def
