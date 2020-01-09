@@ -317,7 +317,7 @@ TableInit
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 TableGet
 TableGrow
 TableSet
@@ -1482,7 +1482,7 @@ TableInit
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 case
 TableGet
 :
@@ -13393,7 +13393,7 @@ cur_
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 if
 (
 consume
@@ -21469,7 +21469,7 @@ len
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 static
 AstTableGet
 *
@@ -22916,7 +22916,7 @@ false
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 case
 WasmToken
 :
@@ -26508,7 +26508,7 @@ true
 }
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 if
 (
 c
@@ -32318,7 +32318,7 @@ targetTable
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 static
 bool
 ResolveTableGet
@@ -33478,7 +33478,7 @@ AstMemOrTableInit
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 case
 AstExprKind
 :
@@ -37836,7 +37836,7 @@ index
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 static
 bool
 EncodeTableGet
@@ -39261,7 +39261,7 @@ AstMemOrTableInit
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 case
 AstExprKind
 :

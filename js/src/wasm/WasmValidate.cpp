@@ -2562,7 +2562,7 @@ nothing
 }
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 case
 uint16_t
 (
@@ -5602,7 +5602,7 @@ nothing
 endif
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 case
 uint16_t
 (
@@ -10046,7 +10046,7 @@ AnyFunction
 ;
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 }
 else
 if
@@ -10097,7 +10097,7 @@ else
 {
 #
 ifdef
-ENABLE_WASM_GENERALIZED_TABLES
+ENABLE_WASM_REFTYPES
 return
 d
 .
@@ -10106,7 +10106,7 @@ fail
 "
 expected
 '
-anyfunc
+funcref
 '
 or
 '
@@ -10127,7 +10127,7 @@ fail
 "
 expected
 '
-anyfunc
+funcref
 '
 element
 type
