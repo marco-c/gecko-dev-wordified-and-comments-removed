@@ -532,6 +532,14 @@ composedTarget
 [
 ChromeOnly
 ]
+void
+preventMultipleActions
+(
+)
+;
+[
+ChromeOnly
+]
 readonly
 attribute
 boolean
