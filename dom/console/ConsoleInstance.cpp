@@ -179,6 +179,7 @@ message
 chrome
 "
 false
+true
 )
 ;
 return
@@ -256,6 +257,7 @@ message
 chrome
 "
 false
+true
 )
 ;
 return

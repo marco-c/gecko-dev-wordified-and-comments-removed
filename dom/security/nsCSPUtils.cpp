@@ -769,6 +769,7 @@ get
 (
 )
 aFromPrivateWindow
+true
 )
 ;
 }

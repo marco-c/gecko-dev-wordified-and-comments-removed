@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
