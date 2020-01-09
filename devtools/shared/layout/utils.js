@@ -2124,6 +2124,12 @@ node
 {
 if
 (
+isMarkerPseudoElement
+(
+node
+)
+|
+|
 isBeforePseudoElement
 (
 node

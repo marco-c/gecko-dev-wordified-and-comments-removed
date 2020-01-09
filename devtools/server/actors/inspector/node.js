@@ -1300,6 +1300,14 @@ numChildren
 {
 if
 (
+isMarkerPseudoElement
+(
+this
+.
+rawNode
+)
+|
+|
 isBeforePseudoElement
 (
 this
