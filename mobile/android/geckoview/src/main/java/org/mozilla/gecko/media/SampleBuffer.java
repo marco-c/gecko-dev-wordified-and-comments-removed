@@ -28,6 +28,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+WrapForJNI
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 mozglue
 .
 SharedMemory
@@ -296,6 +307,7 @@ int
 size
 )
 ;
+WrapForJNI
 public
 void
 writeToByteBuffer

@@ -471,6 +471,11 @@ Sample
 :
 Param
 aSample
+SampleBuffer
+:
+:
+Param
+aBuffer
 )
 override
 {
@@ -673,12 +678,14 @@ _buffer
 size
 )
 ;
-aSample
+aBuffer
 -
 >
 WriteToByteBuffer
 (
 dest
+0
+size
 )
 ;
 webrtc
