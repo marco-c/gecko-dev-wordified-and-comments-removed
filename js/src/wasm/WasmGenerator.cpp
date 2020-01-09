@@ -1755,6 +1755,17 @@ seg
 elemFuncIndices
 )
 {
+if
+(
+funcIndex
+=
+=
+NullFuncIndex
+)
+{
+continue
+;
+}
 exportedFuncs
 .
 infallibleEmplaceBack
