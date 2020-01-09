@@ -6084,6 +6084,11 @@ py
 secrets
 :
 true
+mozconfig
+-
+variant
+:
+opt
 tooltool
 -
 downloads
