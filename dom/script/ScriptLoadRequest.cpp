@@ -317,6 +317,10 @@ mReferrer
 (
 aReferrer
 )
+mUnreportedPreloadError
+(
+NS_OK
+)
 {
 MOZ_ASSERT
 (

@@ -1195,6 +1195,9 @@ nsIURI
 >
 mBaseURL
 ;
+nsresult
+mUnreportedPreloadError
+;
 }
 ;
 class
