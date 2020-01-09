@@ -132,6 +132,11 @@ bool
 aForDocumentNavigation
 )
 ;
+void
+Activate
+(
+)
+;
 static
 RemoteFrameChild
 *
