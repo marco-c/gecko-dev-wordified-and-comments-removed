@@ -169,6 +169,12 @@ GetNumberOfProcessors
 )
 )
 ;
+settings
+.
+n_tile_threads
+=
+2
+;
 int
 res
 =

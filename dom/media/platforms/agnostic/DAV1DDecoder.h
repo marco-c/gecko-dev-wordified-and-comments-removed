@@ -189,6 +189,8 @@ aPicture
 Dav1dContext
 *
 mContext
+=
+nullptr
 ;
 const
 VideoInfo
