@@ -41540,7 +41540,6 @@ ifdef
 DEBUG
 if
 (
-!
 aLoadState
 -
 >
@@ -41549,7 +41548,7 @@ TriggeringPrincipal
 )
 -
 >
-GetIsNullPrincipal
+GetIsCodebasePrincipal
 (
 )
 )
