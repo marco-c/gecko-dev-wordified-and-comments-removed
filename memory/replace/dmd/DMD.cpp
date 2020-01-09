@@ -6318,6 +6318,9 @@ mode
 ;
 }
 }
+#
+ifndef
+XP_WIN
 static
 void
 prefork
@@ -6358,6 +6361,8 @@ Unlock
 ;
 }
 }
+#
+endif
 static
 bool
 Init

@@ -504,6 +504,18 @@ hr
 }
 #
 endif
+#
+if
+defined
+(
+MOZ_THUNDERBIRD
+)
+|
+|
+defined
+(
+MOZ_SUITE
+)
 static
 nsresult
 GetLibrarySaveToPath
@@ -633,6 +645,8 @@ aFile
 )
 ;
 }
+#
+endif
 static
 nsresult
 GetRegWindowsAppDataFolder

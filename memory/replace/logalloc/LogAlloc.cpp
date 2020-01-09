@@ -98,6 +98,9 @@ static
 Mutex
 sMutex
 ;
+#
+ifndef
+_WIN32
 static
 void
 prefork
@@ -124,6 +127,8 @@ Unlock
 )
 ;
 }
+#
+endif
 static
 size_t
 GetPid

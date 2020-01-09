@@ -377,6 +377,12 @@ mProfiledThread
 ;
 }
 ;
+#
+if
+defined
+(
+USE_MOZ_STACK_WALK
+)
 HANDLE
 GetThreadHandle
 (
@@ -394,6 +400,8 @@ ProfiledThread
 )
 ;
 }
+#
+endif
 static
 const
 HANDLE

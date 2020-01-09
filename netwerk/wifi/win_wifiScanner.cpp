@@ -140,6 +140,7 @@ mAllInterfacesDoneScanningEvent
 ;
 static
 void
+WINAPI
 OnScanComplete
 (
 PWLAN_NOTIFICATION_DATA

@@ -538,10 +538,8 @@ LoadDcomp
 (
 )
 {
-FeatureState
-&
-d3d11
-=
+MOZ_ASSERT
+(
 gfxConfig
 :
 :
@@ -552,10 +550,6 @@ Feature
 :
 D3D11_COMPOSITING
 )
-;
-MOZ_ASSERT
-(
-d3d11
 .
 IsEnabled
 (
@@ -872,6 +866,9 @@ return
 outputs
 ;
 }
+#
+ifdef
+DEBUG
 static
 inline
 bool
@@ -916,6 +913,8 @@ GPU_PROCESS
 )
 ;
 }
+#
+endif
 bool
 DeviceManagerDx
 :

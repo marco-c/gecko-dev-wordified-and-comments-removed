@@ -56,9 +56,6 @@ string_buffer
 =
 NULL
 ;
-unsigned
-string_length
-=
 :
 :
 FormatMessage

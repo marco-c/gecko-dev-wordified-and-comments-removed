@@ -86,10 +86,15 @@ fSupportsAsyncRender
 class
 nsPluginFile
 {
+#
+ifndef
+XP_WIN
 PRLibrary
 *
 pLibrary
 ;
+#
+endif
 nsCOMPtr
 <
 nsIFile

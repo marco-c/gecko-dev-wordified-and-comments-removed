@@ -536,12 +536,6 @@ CreatePolicy
 (
 )
 ;
-sandbox
-:
-:
-ResultCode
-result
-=
 policy
 -
 >

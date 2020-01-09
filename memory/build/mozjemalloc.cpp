@@ -18893,6 +18893,9 @@ h
 "
 #
 ifndef
+XP_WIN
+#
+ifndef
 XP_DARWIN
 static
 #
@@ -19056,6 +19059,8 @@ Init
 )
 ;
 }
+#
+endif
 #
 ifdef
 MOZ_REPLACE_MALLOC
