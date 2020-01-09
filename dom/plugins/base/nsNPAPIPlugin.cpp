@@ -4902,7 +4902,7 @@ scopeChain
 ;
 exec
 .
-CompileAndExec
+Compile
 (
 options
 utf16script
@@ -4912,7 +4912,7 @@ rv
 =
 exec
 .
-ExtractReturnValue
+ExecScript
 (
 &
 rval

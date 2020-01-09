@@ -1209,7 +1209,7 @@ true
 ;
 exec
 .
-CompileAndExec
+Compile
 (
 options
 NS_ConvertUTF8toUTF16
@@ -1222,7 +1222,7 @@ rv
 =
 exec
 .
-ExtractReturnValue
+ExecScript
 (
 &
 v
