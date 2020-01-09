@@ -147,7 +147,6 @@ aOpArgs
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -158,7 +157,6 @@ IPCResult
 RecvTeardown
 (
 )
-override
 ;
 virtual
 void

@@ -101,7 +101,6 @@ WyciwygChannelParent
 =
 default
 ;
-virtual
 mozilla
 :
 :
@@ -145,9 +144,7 @@ uint32_t
 &
 aContentPolicyType
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -177,9 +174,7 @@ PBrowserOrId
 &
 parent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -194,9 +189,7 @@ nsDependentSubstring
 &
 data
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -211,9 +204,7 @@ nsresult
 &
 reason
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -232,9 +223,7 @@ nsCString
 &
 charset
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -249,9 +238,7 @@ nsCString
 &
 securityInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -266,9 +253,7 @@ nsresult
 &
 statusCode
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -290,7 +275,6 @@ PBrowserOrId
 &
 parent
 )
-override
 ;
 virtual
 void

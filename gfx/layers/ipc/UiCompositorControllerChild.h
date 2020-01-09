@@ -320,7 +320,6 @@ int32_t
 &
 aMessage
 )
-override
 ;
 mozilla
 :
@@ -340,7 +339,6 @@ CSSToScreenScale
 &
 aZoom
 )
-override
 ;
 mozilla
 :
@@ -363,7 +361,6 @@ ScreenIntSize
 &
 aSize
 )
-override
 ;
 private
 :

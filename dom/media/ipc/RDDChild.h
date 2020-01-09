@@ -103,7 +103,6 @@ IPCResult
 RecvInitComplete
 (
 )
-override
 ;
 mozilla
 :
@@ -123,7 +122,6 @@ NativeThreadId
 &
 aThreadId
 )
-override
 ;
 void
 ActorDestroy
@@ -147,7 +145,6 @@ MemoryReport
 &
 aReport
 )
-override
 ;
 mozilla
 :
@@ -163,7 +160,6 @@ uint32_t
 &
 aGeneration
 )
-override
 ;
 bool
 SendRequestMemoryReport

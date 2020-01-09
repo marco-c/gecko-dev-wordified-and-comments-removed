@@ -1030,7 +1030,6 @@ TextureFactoryIdentifier
 &
 textureFactoryIdentifier
 )
-override
 ;
 mozilla
 :
@@ -1052,7 +1051,6 @@ ExternalImageKeyPair
 &
 aPairs
 )
-override
 ;
 void
 AddIPDLReference

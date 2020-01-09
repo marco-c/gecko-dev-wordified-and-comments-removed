@@ -88,7 +88,6 @@ mPort
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -106,9 +105,7 @@ ClonedMessageData
 &
 aMessages
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -126,9 +123,7 @@ ClonedMessageData
 &
 aMessages
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -139,7 +134,6 @@ IPCResult
 RecvStopSendingDataConfirmed
 (
 )
-override
 ;
 virtual
 void

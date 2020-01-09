@@ -161,7 +161,6 @@ GPUDeviceData
 &
 aData
 )
-override
 ;
 mozilla
 :
@@ -181,7 +180,6 @@ nsCString
 &
 aLog
 )
-override
 ;
 mozilla
 :
@@ -201,7 +199,6 @@ NativeThreadId
 &
 aThreadId
 )
-override
 ;
 mozilla
 :
@@ -213,7 +210,6 @@ IPCResult
 RecvCreateVRProcess
 (
 )
-override
 ;
 mozilla
 :
@@ -225,7 +221,6 @@ IPCResult
 RecvShutdownVRProcess
 (
 )
-override
 ;
 mozilla
 :
@@ -244,7 +239,6 @@ HistogramAccumulation
 &
 aAccumulations
 )
-override
 ;
 mozilla
 :
@@ -263,7 +257,6 @@ KeyedHistogramAccumulation
 &
 aAccumulations
 )
-override
 ;
 mozilla
 :
@@ -282,7 +275,6 @@ ScalarAction
 &
 aScalarActions
 )
-override
 ;
 mozilla
 :
@@ -301,7 +293,6 @@ KeyedScalarAction
 &
 aScalarActions
 )
-override
 ;
 mozilla
 :
@@ -320,7 +311,6 @@ ChildEventData
 &
 events
 )
-override
 ;
 mozilla
 :
@@ -336,7 +326,6 @@ DiscardedData
 &
 aDiscardedData
 )
-override
 ;
 void
 ActorDestroy
@@ -360,7 +349,6 @@ nsCString
 &
 aError
 )
-override
 ;
 mozilla
 :
@@ -376,7 +364,6 @@ nsCString
 &
 aTopic
 )
-override
 ;
 mozilla
 :
@@ -392,7 +379,6 @@ GPUDeviceData
 &
 aData
 )
-override
 ;
 mozilla
 :
@@ -408,7 +394,6 @@ MemoryReport
 &
 aReport
 )
-override
 ;
 mozilla
 :
@@ -424,7 +409,6 @@ uint32_t
 &
 aGeneration
 )
-override
 ;
 mozilla
 :
@@ -444,7 +428,6 @@ FeatureFailure
 &
 aChange
 )
-override
 ;
 mozilla
 :
@@ -464,7 +447,6 @@ nsCString
 &
 aMessage
 )
-override
 ;
 mozilla
 :
@@ -480,7 +462,6 @@ HangDetails
 &
 aDetails
 )
-override
 ;
 bool
 SendRequestMemoryReport

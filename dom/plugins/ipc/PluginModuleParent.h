@@ -419,7 +419,6 @@ child
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -434,9 +433,7 @@ FileDescriptor
 &
 aXSocketFd
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -447,9 +444,7 @@ IPCResult
 AnswerProcessSomeEvents
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -460,9 +455,7 @@ IPCResult
 RecvProcessNativeEventsInInterruptCall
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -497,9 +490,7 @@ size_t
 &
 aHeight
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -514,9 +505,7 @@ uint32_t
 &
 aWindowId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -531,9 +520,7 @@ NSCursorInfo
 &
 aCursorInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -548,9 +535,7 @@ bool
 &
 aShow
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -565,9 +550,7 @@ NSCursorInfo
 &
 aCursorInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -578,9 +561,7 @@ IPCResult
 RecvPopCursor
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -595,9 +576,7 @@ nsCString
 &
 aMessage
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -612,7 +591,6 @@ bool
 &
 aReloadPages
 )
-override
 ;
 static
 BrowserStreamParent
@@ -644,7 +622,6 @@ NPError
 *
 result
 )
-override
 ;
 protected
 :
@@ -687,7 +664,6 @@ IPCResult
 RecvNotifyContentModuleDestroyed
 (
 )
-override
 {
 return
 IPC_OK
@@ -695,7 +671,6 @@ IPC_OK
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -714,9 +689,7 @@ uint64_t
 &
 aCallbackId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -738,7 +711,6 @@ uint64_t
 &
 aCallbackId
 )
-override
 ;
 void
 SetPluginFuncs
@@ -1959,7 +1931,6 @@ InitCrashReporter
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1985,7 +1956,6 @@ PluginModuleChromeParent
 aModule
 )
 ;
-virtual
 mozilla
 :
 :

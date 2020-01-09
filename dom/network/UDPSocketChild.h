@@ -143,7 +143,6 @@ UDPSocketChild
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -158,9 +157,7 @@ UDPAddressInfo
 &
 aAddressInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -175,9 +172,7 @@ UDPAddressInfo
 &
 aAddressInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -188,9 +183,7 @@ IPCResult
 RecvCallbackClosed
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -212,9 +205,7 @@ uint8_t
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -237,7 +228,6 @@ uint32_t
 &
 aLineNumber
 )
-override
 ;
 private
 :

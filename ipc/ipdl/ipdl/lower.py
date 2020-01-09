@@ -21098,7 +21098,19 @@ addstmt
 defaultRecv
 )
                 
-else
+elif
+(
+self
+.
+protocol
+.
+name
+self
+.
+side
+)
+in
+VIRTUAL_CALL_CLASSES
 :
                     
 recvDecl

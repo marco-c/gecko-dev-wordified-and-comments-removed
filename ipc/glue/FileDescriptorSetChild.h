@@ -119,7 +119,6 @@ FileDescriptorSetChild
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -134,7 +133,6 @@ FileDescriptor
 &
 aFileDescriptor
 )
-override
 ;
 }
 ;

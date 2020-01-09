@@ -111,7 +111,6 @@ aVsync
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -122,9 +121,7 @@ IPCResult
 RecvRequestVsyncRate
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -135,9 +132,7 @@ IPCResult
 RecvObserve
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -148,7 +143,6 @@ IPCResult
 RecvUnobserve
 (
 )
-override
 ;
 virtual
 void

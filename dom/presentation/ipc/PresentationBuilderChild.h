@@ -66,7 +66,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -81,9 +80,7 @@ nsString
 &
 aSDP
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -98,9 +95,7 @@ nsString
 &
 aSDP
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -115,7 +110,6 @@ nsString
 &
 aCandidate
 )
-override
 ;
 private
 :

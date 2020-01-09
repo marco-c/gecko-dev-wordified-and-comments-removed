@@ -51,7 +51,6 @@ IPCResult
 RecvShutdown
 (
 )
-override
 ;
 void
 Teardown

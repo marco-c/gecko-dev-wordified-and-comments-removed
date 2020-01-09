@@ -189,7 +189,6 @@ aReason
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -204,9 +203,7 @@ nsID
 &
 aId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -217,7 +214,6 @@ IPCResult
 RecvCloseAll
 (
 )
-override
 ;
 bool
 mDestroyStarted

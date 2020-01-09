@@ -128,7 +128,6 @@ aSequenceID
 ;
 private
 :
-virtual
 mozilla
 :
 :
@@ -146,9 +145,7 @@ ClonedMessageData
 &
 aMessages
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -166,9 +163,7 @@ ClonedMessageData
 &
 aMessages
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -179,9 +174,7 @@ IPCResult
 RecvStopSendingData
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -192,7 +185,6 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
 virtual
 void

@@ -75,7 +75,6 @@ mShuttingDown
 true
 ;
 }
-virtual
 mozilla
 :
 :
@@ -90,9 +89,7 @@ ServiceWorkerRegistrationData
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -111,9 +108,7 @@ nsString
 &
 aScope
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -132,9 +127,7 @@ nsString
 &
 aScope
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -149,9 +142,7 @@ nsCString
 &
 aHost
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -162,7 +153,6 @@ IPCResult
 RecvNotifyRemoveAll
 (
 )
-override
 ;
 PServiceWorkerUpdaterChild
 *

@@ -41,7 +41,6 @@ WebAuthnTransactionParent
 =
 default
 ;
-virtual
 mozilla
 :
 :
@@ -60,9 +59,7 @@ WebAuthnMakeCredentialInfo
 &
 aTransactionInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -81,9 +78,7 @@ WebAuthnGetAssertionInfo
 &
 aTransactionInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -98,9 +93,7 @@ uint64_t
 &
 aTransactionId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -111,7 +104,6 @@ IPCResult
 RecvDestroyMe
 (
 )
-override
 ;
 virtual
 void

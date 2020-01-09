@@ -157,7 +157,6 @@ uint32_t
 type
 )
 ;
-virtual
 mozilla
 :
 :
@@ -172,9 +171,7 @@ uint32_t
 &
 contentLength
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -197,9 +194,7 @@ uint32_t
 &
 count
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -214,7 +209,6 @@ nsresult
 &
 code
 )
-override
 ;
 NS_IMETHOD
 OnStopRequest
@@ -230,7 +224,6 @@ code
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -250,7 +243,6 @@ PChannelDiverterParent
 *
 diverter
 )
-override
 ;
 protected
 :

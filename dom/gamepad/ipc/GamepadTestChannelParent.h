@@ -54,7 +54,6 @@ aWhy
 override
 {
 }
-virtual
 mozilla
 :
 :
@@ -73,9 +72,7 @@ GamepadChangeEvent
 &
 aGamepadEvent
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -86,7 +83,6 @@ IPCResult
 RecvShutdownChannel
 (
 )
-override
 ;
 private
 :

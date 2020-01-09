@@ -62,7 +62,6 @@ WebSocketEventListenerParent
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -73,7 +72,6 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
 virtual
 void

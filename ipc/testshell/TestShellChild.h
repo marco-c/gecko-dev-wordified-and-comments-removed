@@ -80,7 +80,6 @@ nsString
 &
 aCommand
 )
-override
 ;
 PTestShellCommandChild
 *

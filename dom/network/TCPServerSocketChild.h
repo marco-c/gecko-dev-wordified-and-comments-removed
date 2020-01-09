@@ -161,7 +161,6 @@ Close
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -175,7 +174,6 @@ PTCPSocketChild
 *
 socket
 )
-override
 ;
 }
 ;

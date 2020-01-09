@@ -122,7 +122,6 @@ aOpArgs
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -133,7 +132,6 @@ IPCResult
 RecvTeardown
 (
 )
-override
 ;
 RefPtr
 <

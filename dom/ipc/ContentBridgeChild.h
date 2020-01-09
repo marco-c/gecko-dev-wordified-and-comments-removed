@@ -207,7 +207,6 @@ PChildToParentStreamChild
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -221,9 +220,7 @@ PBrowserChild
 *
 aTab
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -237,7 +234,6 @@ PBrowserChild
 *
 aTab
 )
-override
 ;
 virtual
 already_AddRefed

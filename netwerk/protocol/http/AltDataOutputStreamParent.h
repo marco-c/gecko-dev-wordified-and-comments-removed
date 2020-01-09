@@ -47,7 +47,6 @@ nsIOutputStream
 aStream
 )
 ;
-virtual
 mozilla
 :
 :
@@ -62,9 +61,7 @@ nsCString
 &
 data
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -75,7 +72,6 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
 virtual
 void
@@ -98,7 +94,6 @@ mStatus
 status
 ;
 }
-virtual
 mozilla
 :
 :
@@ -109,7 +104,6 @@ IPCResult
 RecvDeleteSelf
 (
 )
-override
 ;
 private
 :

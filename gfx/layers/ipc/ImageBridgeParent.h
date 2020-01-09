@@ -280,7 +280,6 @@ OtherPid
 )
 ;
 }
-virtual
 mozilla
 :
 :
@@ -303,7 +302,6 @@ uint64_t
 &
 aFwdTransactionId
 )
-override
 ;
 PTextureParent
 *
@@ -346,7 +344,6 @@ PTextureParent
 actor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -369,9 +366,7 @@ LayersBackend
 &
 aLayersBackend
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -386,7 +381,6 @@ CompositableHandle
 &
 aHandle
 )
-override
 ;
 PMediaSystemResourceManagerParent
 *
@@ -402,7 +396,6 @@ PMediaSystemResourceManagerParent
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -413,7 +406,6 @@ IPCResult
 RecvWillClose
 (
 )
-override
 ;
 MessageLoop
 *

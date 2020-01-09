@@ -58,7 +58,6 @@ IPCResult
 RecvTest
 (
 )
-override
 ;
 mozilla
 :
@@ -77,7 +76,6 @@ PBackgroundParent
 &
 aEndpoint
 )
-override
 ;
 void
 ActorDestroy

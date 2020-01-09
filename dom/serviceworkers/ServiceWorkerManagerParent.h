@@ -82,7 +82,6 @@ ServiceWorkerManagerParent
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -97,9 +96,7 @@ ServiceWorkerRegistrationData
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -118,9 +115,7 @@ nsString
 &
 aScope
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -139,9 +134,7 @@ nsString
 &
 aScope
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -160,9 +153,7 @@ nsString
 &
 aScope
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -177,9 +168,7 @@ nsCString
 &
 aHost
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -190,9 +179,7 @@ IPCResult
 RecvPropagateRemoveAll
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -203,7 +190,6 @@ IPCResult
 RecvShutdown
 (
 )
-override
 ;
 PServiceWorkerUpdaterParent
 *

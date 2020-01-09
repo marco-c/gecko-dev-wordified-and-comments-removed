@@ -313,7 +313,6 @@ RequireThirdPartyCheck
 (
 )
 ;
-virtual
 mozilla
 :
 :
@@ -335,9 +334,7 @@ OriginAttributes
 &
 aAttrs
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -348,9 +345,7 @@ IPCResult
 RecvRemoveAll
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -375,9 +370,7 @@ OriginAttributes
 &
 aAttrsList
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -396,9 +389,7 @@ OriginAttributes
 &
 aAttrs
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -417,7 +408,6 @@ OriginAttributes
 &
 aAttrs
 )
-override
 ;
 virtual
 void

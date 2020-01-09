@@ -154,7 +154,6 @@ LayerTreeIdMapping
 &
 mappings
 )
-override
 ;
 mozilla
 :
@@ -173,7 +172,6 @@ PCompositorManagerParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -192,7 +190,6 @@ PVsyncBridgeParent
 &
 aVsyncEndpoint
 )
-override
 ;
 mozilla
 :
@@ -211,7 +208,6 @@ PImageBridgeParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -230,7 +226,6 @@ PVRManagerParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -249,7 +244,6 @@ PVRGPUChild
 &
 aVRGPUChild
 )
-override
 ;
 mozilla
 :
@@ -272,7 +266,6 @@ PUiCompositorControllerParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -291,7 +284,6 @@ PProfilerChild
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -307,7 +299,6 @@ GfxPrefSetting
 &
 pref
 )
-override
 ;
 mozilla
 :
@@ -323,7 +314,6 @@ GfxVarUpdate
 &
 pref
 )
-override
 ;
 mozilla
 :
@@ -342,7 +332,6 @@ PCompositorManagerParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -361,7 +350,6 @@ PImageBridgeParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -380,7 +368,6 @@ PVRManagerParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -399,7 +386,6 @@ PVideoDecoderManagerParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -414,7 +400,6 @@ GPUDeviceData
 *
 aOutStatus
 )
-override
 ;
 mozilla
 :
@@ -429,7 +414,6 @@ GPUDeviceData
 *
 aOutStatus
 )
-override
 ;
 mozilla
 :
@@ -445,7 +429,6 @@ LayerTreeIdMapping
 &
 aMapping
 )
-override
 ;
 mozilla
 :
@@ -461,7 +444,6 @@ LayerTreeIdMapping
 &
 aMapping
 )
-override
 ;
 mozilla
 :
@@ -477,7 +459,6 @@ nsCString
 &
 aTopic
 )
-override
 ;
 mozilla
 :
@@ -505,7 +486,6 @@ MaybeFileDesc
 &
 DMDFile
 )
-override
 ;
 mozilla
 :
@@ -517,7 +497,6 @@ IPCResult
 RecvShutdownVR
 (
 )
-override
 ;
 void
 ActorDestroy

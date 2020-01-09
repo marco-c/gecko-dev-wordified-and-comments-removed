@@ -89,7 +89,6 @@ IPCResult
 RecvInit
 (
 )
-override
 ;
 mozilla
 :
@@ -108,7 +107,6 @@ PProfilerChild
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -127,7 +125,6 @@ PRemoteDecoderManagerParent
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -155,7 +152,6 @@ MaybeFileDesc
 &
 DMDFile
 )
-override
 ;
 void
 ActorDestroy

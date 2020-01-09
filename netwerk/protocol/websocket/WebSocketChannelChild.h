@@ -215,7 +215,6 @@ bool
 &
 aSecure
 )
-override
 ;
 mozilla
 :
@@ -231,7 +230,6 @@ nsresult
 &
 aStatusCode
 )
-override
 ;
 mozilla
 :
@@ -247,7 +245,6 @@ nsCString
 &
 aMsg
 )
-override
 ;
 mozilla
 :
@@ -263,7 +260,6 @@ nsCString
 &
 aMsg
 )
-override
 ;
 mozilla
 :
@@ -279,7 +275,6 @@ uint32_t
 &
 aSize
 )
-override
 ;
 mozilla
 :
@@ -299,7 +294,6 @@ nsCString
 &
 aReason
 )
-override
 ;
 void
 OnStart

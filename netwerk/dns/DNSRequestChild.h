@@ -146,7 +146,6 @@ DNSRequestChild
 )
 {
 }
-virtual
 mozilla
 :
 :
@@ -161,7 +160,6 @@ DNSRequestResponse
 &
 reply
 )
-override
 ;
 virtual
 void

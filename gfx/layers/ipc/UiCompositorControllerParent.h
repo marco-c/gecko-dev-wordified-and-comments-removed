@@ -123,7 +123,6 @@ IPCResult
 RecvPause
 (
 )
-override
 ;
 mozilla
 :
@@ -135,7 +134,6 @@ IPCResult
 RecvResume
 (
 )
-override
 ;
 mozilla
 :
@@ -163,7 +161,6 @@ int32_t
 &
 aWidth
 )
-override
 ;
 mozilla
 :
@@ -175,7 +172,6 @@ IPCResult
 RecvInvalidateAndRender
 (
 )
-override
 ;
 mozilla
 :
@@ -191,7 +187,6 @@ int32_t
 &
 aHeight
 )
-override
 ;
 mozilla
 :
@@ -211,7 +206,6 @@ int32_t
 &
 aReason
 )
-override
 ;
 mozilla
 :
@@ -227,7 +221,6 @@ int32_t
 &
 aMessage
 )
-override
 ;
 mozilla
 :
@@ -243,7 +236,6 @@ uint32_t
 &
 aColor
 )
-override
 ;
 mozilla
 :
@@ -255,7 +247,6 @@ IPCResult
 RecvRequestScreenPixels
 (
 )
-override
 ;
 mozilla
 :
@@ -271,7 +262,6 @@ bool
 &
 aEnable
 )
-override
 ;
 mozilla
 :
@@ -291,7 +281,6 @@ ScreenIntSize
 &
 aSize
 )
-override
 ;
 void
 ActorDestroy

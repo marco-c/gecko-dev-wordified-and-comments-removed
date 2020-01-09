@@ -164,7 +164,6 @@ TCPSocketParent
 )
 {
 }
-virtual
 mozilla
 :
 :
@@ -191,9 +190,7 @@ bool
 &
 aUseArrayBuffers
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -236,9 +233,7 @@ nsCString
 &
 aFilter
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -249,9 +244,7 @@ IPCResult
 RecvStartTLS
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -262,9 +255,7 @@ IPCResult
 RecvSuspend
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -275,9 +266,7 @@ IPCResult
 RecvResume
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -288,9 +277,7 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -309,9 +296,7 @@ uint32_t
 &
 aTrackingNumber
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -322,7 +307,6 @@ IPCResult
 RecvRequestDelete
 (
 )
-override
 ;
 void
 FireErrorEvent

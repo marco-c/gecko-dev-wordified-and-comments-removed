@@ -451,7 +451,6 @@ PMediaSystemResourceManagerChild
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -469,9 +468,7 @@ AsyncParentMessageData
 &
 aMessages
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -489,9 +486,7 @@ ImageCompositeNotification
 &
 aNotifications
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -510,7 +505,6 @@ uint32_t
 &
 aFrames
 )
-override
 ;
 RefPtr
 <

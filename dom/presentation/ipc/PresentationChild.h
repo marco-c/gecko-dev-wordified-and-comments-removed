@@ -138,7 +138,6 @@ PPresentationBuilderChild
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -160,9 +159,7 @@ bool
 &
 aAvailable
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -185,9 +182,7 @@ nsresult
 &
 aReason
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -210,9 +205,7 @@ bool
 &
 aIsBinary
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -231,9 +224,7 @@ nsString
 &
 aSessionId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -256,7 +247,6 @@ nsresult
 &
 aReason
 )
-override
 ;
 private
 :
@@ -326,7 +316,6 @@ aResult
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -341,7 +330,6 @@ nsString
 &
 aUrl
 )
-override
 ;
 private
 :

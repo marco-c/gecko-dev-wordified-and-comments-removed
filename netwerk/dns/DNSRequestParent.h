@@ -96,7 +96,6 @@ nsresult
 &
 reason
 )
-override
 ;
 mozilla
 :

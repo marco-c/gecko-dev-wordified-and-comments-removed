@@ -176,7 +176,6 @@ OptionalIPCStream
 &
 aStream
 )
-override
 ;
 void
 LengthNeeded
@@ -203,7 +202,6 @@ int64_t
 &
 aLength
 )
-override
 ;
 void
 Shutdown

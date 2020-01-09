@@ -74,7 +74,6 @@ Attrs
 =
 WebBrowserPersistDocumentAttrs
 ;
-virtual
 mozilla
 :
 :
@@ -93,9 +92,7 @@ OptionalIPCStream
 &
 aPostStream
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -110,7 +107,6 @@ nsresult
 &
 aFailure
 )
-override
 ;
 PWebBrowserPersistResourcesParent
 *

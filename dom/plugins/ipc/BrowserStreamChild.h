@@ -126,7 +126,6 @@ uint16_t
 stype
 )
 ;
-virtual
 mozilla
 :
 :
@@ -149,9 +148,7 @@ Buffer
 &
 data
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -166,7 +163,6 @@ NPReason
 &
 reason
 )
-override
 ;
 virtual
 mozilla

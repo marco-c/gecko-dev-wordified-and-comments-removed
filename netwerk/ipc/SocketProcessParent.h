@@ -101,7 +101,6 @@ NativeThreadId
 &
 aThreadId
 )
-override
 ;
 mozilla
 :
@@ -117,7 +116,6 @@ MemoryReport
 &
 aReport
 )
-override
 ;
 mozilla
 :
@@ -133,7 +131,6 @@ uint32_t
 &
 aGeneration
 )
-override
 ;
 mozilla
 :
@@ -152,7 +149,6 @@ HistogramAccumulation
 &
 aAccumulations
 )
-override
 ;
 mozilla
 :
@@ -171,7 +167,6 @@ KeyedHistogramAccumulation
 &
 aAccumulations
 )
-override
 ;
 mozilla
 :
@@ -190,7 +185,6 @@ ScalarAction
 &
 aScalarActions
 )
-override
 ;
 mozilla
 :
@@ -209,7 +203,6 @@ KeyedScalarAction
 &
 aScalarActions
 )
-override
 ;
 mozilla
 :
@@ -228,7 +221,6 @@ ChildEventData
 &
 events
 )
-override
 ;
 mozilla
 :
@@ -244,7 +236,6 @@ DiscardedData
 &
 aDiscardedData
 )
-override
 ;
 void
 ActorDestroy

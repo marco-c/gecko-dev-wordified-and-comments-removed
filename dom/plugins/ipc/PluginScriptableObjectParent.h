@@ -138,7 +138,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -156,9 +155,7 @@ bool
 *
 aHasMethod
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -186,9 +183,7 @@ bool
 *
 aSuccess
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -212,9 +207,7 @@ bool
 *
 aSuccess
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -232,9 +225,7 @@ bool
 *
 aHasProperty
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -255,9 +246,7 @@ bool
 *
 aSuccess
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -279,9 +268,7 @@ bool
 *
 aSuccess
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -299,9 +286,7 @@ bool
 *
 aSuccess
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -321,9 +306,7 @@ bool
 *
 aSuccess
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -347,9 +330,7 @@ bool
 *
 aSuccess
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -370,9 +351,7 @@ bool
 *
 aSuccess
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -383,9 +362,7 @@ IPCResult
 RecvProtect
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -396,7 +373,6 @@ IPCResult
 RecvUnprotect
 (
 )
-override
 ;
 static
 const

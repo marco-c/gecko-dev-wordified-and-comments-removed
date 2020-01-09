@@ -294,7 +294,6 @@ uint16_t
 aPort
 )
 ;
-virtual
 mozilla
 :
 :
@@ -317,9 +316,7 @@ uint32_t
 &
 aReadyState
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -330,9 +327,7 @@ IPCResult
 RecvRequestDelete
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -351,7 +346,6 @@ uint32_t
 &
 aTrackingNumber
 )
-override
 ;
 nsresult
 SetFilterName

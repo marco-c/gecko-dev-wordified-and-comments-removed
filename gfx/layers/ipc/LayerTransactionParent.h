@@ -403,7 +403,6 @@ IPCResult
 RecvShutdown
 (
 )
-override
 ;
 mozilla
 :
@@ -415,7 +414,6 @@ IPCResult
 RecvShutdownSync
 (
 )
-override
 ;
 mozilla
 :
@@ -435,7 +433,6 @@ TimeDuration
 &
 aPaintTime
 )
-override
 ;
 mozilla
 :
@@ -451,7 +448,6 @@ TransactionInfo
 &
 aInfo
 )
-override
 ;
 mozilla
 :
@@ -467,7 +463,6 @@ LayersObserverEpoch
 &
 aChildEpoch
 )
-override
 ;
 mozilla
 :
@@ -487,7 +482,6 @@ TextureInfo
 &
 aInfo
 )
-override
 ;
 mozilla
 :
@@ -503,7 +497,6 @@ LayerHandle
 &
 aHandle
 )
-override
 ;
 mozilla
 :
@@ -519,7 +512,6 @@ CompositableHandle
 &
 aHandle
 )
-override
 ;
 mozilla
 :
@@ -531,7 +523,6 @@ IPCResult
 RecvClearCachedResources
 (
 )
-override
 ;
 mozilla
 :
@@ -543,7 +534,6 @@ IPCResult
 RecvScheduleComposite
 (
 )
-override
 ;
 mozilla
 :
@@ -559,7 +549,6 @@ TimeStamp
 &
 aTime
 )
-override
 ;
 mozilla
 :
@@ -571,7 +560,6 @@ IPCResult
 RecvLeaveTestMode
 (
 )
-override
 ;
 mozilla
 :
@@ -590,7 +578,6 @@ OMTAValue
 *
 aValue
 )
-override
 ;
 mozilla
 :
@@ -609,7 +596,6 @@ MaybeTransform
 *
 aTransform
 )
-override
 ;
 mozilla
 :
@@ -636,7 +622,6 @@ float
 &
 aY
 )
-override
 ;
 mozilla
 :
@@ -659,7 +644,6 @@ float
 &
 aValue
 )
-override
 ;
 mozilla
 :
@@ -671,7 +655,6 @@ IPCResult
 RecvFlushApzRepaints
 (
 )
-override
 ;
 mozilla
 :
@@ -686,7 +669,6 @@ APZTestData
 *
 aOutData
 )
-override
 ;
 mozilla
 :
@@ -705,7 +687,6 @@ float
 *
 aValue
 )
-override
 ;
 mozilla
 :
@@ -728,7 +709,6 @@ ScrollableLayerGuid
 &
 aTargets
 )
-override
 ;
 mozilla
 :
@@ -744,7 +724,6 @@ PaintTiming
 &
 aTiming
 )
-override
 ;
 mozilla
 :
@@ -759,7 +738,6 @@ TextureFactoryIdentifier
 *
 aIdentifier
 )
-override
 ;
 bool
 SetLayerAttributes

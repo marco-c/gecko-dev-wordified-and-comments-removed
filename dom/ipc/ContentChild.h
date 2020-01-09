@@ -668,7 +668,6 @@ PContentBridgeChild
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -687,7 +686,6 @@ PGMPServiceChild
 &
 aGMPService
 )
-override
 ;
 mozilla
 :
@@ -706,7 +704,6 @@ PProfilerChild
 &
 aEndpoint
 )
-override
 ;
 mozilla
 :
@@ -725,7 +722,6 @@ GMPCapabilityData
 &
 capabilities
 )
-override
 ;
 mozilla
 :
@@ -744,7 +740,6 @@ PProcessHangMonitorChild
 &
 aHangMonitor
 )
-override
 ;
 mozilla
 :
@@ -791,7 +786,6 @@ uint32_t
 &
 namespaces
 )
-override
 ;
 mozilla
 :
@@ -807,7 +801,6 @@ nsID
 &
 aID
 )
-override
 ;
 mozilla
 :
@@ -854,7 +847,6 @@ uint32_t
 &
 namespaces
 )
-override
 ;
 virtual
 mozilla
@@ -867,7 +859,6 @@ IPCResult
 RecvAudioDefaultDeviceChange
 (
 )
-override
 ;
 mozilla
 :
@@ -879,7 +870,6 @@ IPCResult
 RecvReinitRenderingForDeviceReset
 (
 )
-override
 ;
 virtual
 mozilla
@@ -896,7 +886,6 @@ MaybeFileDesc
 &
 aBroker
 )
-override
 ;
 virtual
 PBrowserChild
@@ -1353,7 +1342,6 @@ PPresentationChild
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1371,9 +1359,7 @@ nsString
 &
 aSessionId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1388,9 +1374,7 @@ nsString
 &
 aSessionId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1401,7 +1385,6 @@ IPCResult
 RecvNotifyEmptyHTTPCache
 (
 )
-override
 ;
 PSpeechSynthesisChild
 *
@@ -1417,7 +1400,6 @@ PSpeechSynthesisChild
 aActor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1457,9 +1439,7 @@ bool
 &
 reset
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1474,9 +1454,7 @@ ChromeRegistryItem
 &
 item
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1495,7 +1473,6 @@ bool
 &
 chrome
 )
-override
 ;
 virtual
 mozilla
@@ -1539,7 +1516,6 @@ PRemoteSpellcheckEngineChild
 *
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1554,9 +1530,7 @@ bool
 &
 offline
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1571,9 +1545,7 @@ bool
 &
 connectivity
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1588,9 +1560,7 @@ int32_t
 &
 state
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1609,9 +1579,7 @@ bool
 &
 haveBidiKeyboards
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1629,7 +1597,6 @@ URIParams
 &
 aURIs
 )
-override
 ;
 nsresult
 AddRemoteAlertObserver
@@ -1643,7 +1610,6 @@ nsIObserver
 aObserver
 )
 ;
-virtual
 mozilla
 :
 :
@@ -1658,9 +1624,7 @@ Pref
 &
 aPref
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1675,9 +1639,7 @@ GfxVarUpdate
 &
 pref
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1696,9 +1658,7 @@ DataStorageItem
 &
 aItem
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1721,9 +1681,7 @@ DataStorageType
 &
 aType
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1738,9 +1696,7 @@ nsString
 &
 aFilename
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1759,7 +1715,6 @@ nsString
 &
 aData
 )
-override
 ;
 virtual
 mozilla
@@ -1776,7 +1731,6 @@ nsString
 &
 aURL
 )
-override
 ;
 virtual
 mozilla
@@ -1830,7 +1784,6 @@ StringBundleDescriptor
 &
 stringBundles
 )
-override
 ;
 mozilla
 :
@@ -1864,9 +1817,7 @@ nsCString
 &
 aChangedKeys
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1880,9 +1831,7 @@ nsIDOMGeoPosition
 *
 aPosition
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1897,9 +1846,7 @@ uint16_t
 &
 errorCode
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1917,9 +1864,7 @@ nsString
 &
 aDictionaries
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1937,9 +1882,7 @@ SystemFontListEntry
 &
 aFontList
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1957,9 +1900,7 @@ nsCString
 &
 aAppLocales
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1977,9 +1918,7 @@ nsCString
 &
 aRequestedLocales
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -1994,9 +1933,7 @@ nsString
 &
 aOrigin
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2014,9 +1951,7 @@ Permission
 &
 permission
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2027,9 +1962,7 @@ IPCResult
 RecvRemoveAllPermissions
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2044,9 +1977,7 @@ nsString
 &
 reason
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2065,9 +1996,7 @@ uint32_t
 &
 aMsaaID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2078,9 +2007,7 @@ IPCResult
 RecvShutdownA11y
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2091,9 +2018,7 @@ IPCResult
 RecvGarbageCollect
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2104,9 +2029,7 @@ IPCResult
 RecvCycleCollect
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2117,9 +2040,7 @@ IPCResult
 RecvUnlinkGhosts
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2158,9 +2079,7 @@ nsCString
 &
 sourceURL
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2175,7 +2094,6 @@ nsString
 &
 aRemoteType
 )
-override
 ;
 const
 nsAString
@@ -2185,7 +2103,6 @@ GetRemoteType
 )
 const
 ;
-virtual
 mozilla
 :
 :
@@ -2200,9 +2117,7 @@ ServiceWorkerConfiguration
 &
 aConfig
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2220,9 +2135,7 @@ BlobURLRegistrationData
 &
 aRegistations
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2240,9 +2153,7 @@ JSWindowActorInfo
 &
 aInfos
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2253,9 +2164,7 @@ IPCResult
 RecvLastPrivateDocShellDestroyed
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2273,9 +2182,7 @@ ProcessPriority
 &
 aPriority
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2286,9 +2193,7 @@ IPCResult
 RecvMinimizeMemoryUsage
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2307,9 +2212,7 @@ uint32_t
 &
 aType
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2328,7 +2231,6 @@ uint32_t
 &
 aType
 )
-override
 ;
 void
 AddIdleObserver
@@ -2350,7 +2252,6 @@ uint32_t
 aIdleTimeInS
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2373,9 +2274,7 @@ nsString
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2390,9 +2289,7 @@ uintptr_t
 &
 aChildId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2415,9 +2312,7 @@ OptionalURIParams
 &
 aDomain
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2428,9 +2323,7 @@ IPCResult
 RecvShutdown
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2452,9 +2345,7 @@ uint32_t
 &
 aAction
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2484,9 +2375,7 @@ uint32_t
 &
 aKeyModifiers
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2512,9 +2401,7 @@ nsString
 &
 aMessageId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2547,9 +2434,7 @@ uint8_t
 &
 aData
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2571,9 +2456,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2603,9 +2486,7 @@ uint32_t
 &
 aFlags
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2627,9 +2508,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2643,9 +2522,7 @@ PBrowserChild
 *
 aTab
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -2659,7 +2536,6 @@ PBrowserChild
 *
 aTab
 )
-override
 ;
 mozilla
 :
@@ -2678,7 +2554,6 @@ ScreenDetails
 &
 aScreens
 )
-override
 ;
 nsString
 &
@@ -2955,7 +2830,6 @@ PContentPermissionRequestChild
 actor
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2978,7 +2852,6 @@ nsString
 &
 aIconPath
 )
-override
 ;
 void
 CreateGetFilesRequest
@@ -3008,7 +2881,6 @@ GetFilesHelperChild
 aChild
 )
 ;
-virtual
 mozilla
 :
 :
@@ -3027,9 +2899,7 @@ GetFilesResponseResult
 &
 aResult
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3055,9 +2925,7 @@ Principal
 &
 aPrincipal
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3072,9 +2940,7 @@ nsCString
 &
 aURI
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3093,7 +2959,6 @@ FileCreationResult
 &
 aResult
 )
-override
 ;
 mozilla
 :
@@ -3121,9 +2986,7 @@ MaybeFileDesc
 &
 DMDFile
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3156,9 +3019,7 @@ SystemFontListEntry
 &
 aFontList
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3177,7 +3038,6 @@ FileDescOrError
 &
 aFD
 )
-override
 ;
 mozilla
 :
@@ -3203,9 +3063,7 @@ Permission
 &
 aPerms
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3220,9 +3078,7 @@ CrossProcessMutexHandle
 &
 aHandle
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3237,9 +3093,7 @@ FlushCodeCoverageCountersResolver
 &
 aResolver
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3254,9 +3108,7 @@ GetMemoryUniqueSetSizeResolver
 &
 aResolver
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3267,9 +3119,7 @@ IPCResult
 RecvSetInputEventQueueEnabled
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3280,9 +3130,7 @@ IPCResult
 RecvFlushInputEventQueue
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3293,9 +3141,7 @@ IPCResult
 RecvSuspendInputEventQueue
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3306,9 +3152,7 @@ IPCResult
 RecvResumeInputEventQueue
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3326,7 +3170,6 @@ DynamicScalarDefinition
 &
 aDefs
 )
-override
 ;
 #
 if
@@ -3557,7 +3400,6 @@ FakePluginTag
 &
 aFakePluginTags
 )
-override
 ;
 PClientOpenWindowOpChild
 *
@@ -3569,7 +3411,6 @@ ClientOpenWindowArgs
 aArgs
 )
 ;
-virtual
 mozilla
 :
 :
@@ -3611,9 +3452,7 @@ FileDescriptor
 &
 aFile
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3650,7 +3489,6 @@ uint64_t
 &
 aIdentifier
 )
-override
 ;
 #
 ifdef
@@ -3767,7 +3605,6 @@ aMsg
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -3786,9 +3623,7 @@ bool
 &
 aTrustedCaller
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3803,9 +3638,7 @@ BrowsingContextId
 &
 aContextId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3820,9 +3653,7 @@ BrowsingContextId
 &
 aContextId
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -3845,7 +3676,6 @@ PostMessageData
 &
 aData
 )
-override
 ;
 #
 ifdef

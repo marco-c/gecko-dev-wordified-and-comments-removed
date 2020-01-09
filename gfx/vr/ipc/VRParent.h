@@ -116,7 +116,6 @@ VRParent
 =
 default
 ;
-virtual
 mozilla
 :
 :
@@ -134,9 +133,7 @@ PVRGPUParent
 &
 aEndpoint
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -165,9 +162,7 @@ DevicePrefs
 &
 devicePrefs
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -182,9 +177,7 @@ TimeStamp
 &
 vsyncTimestamp
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -199,9 +192,7 @@ GfxPrefSetting
 &
 setting
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -216,9 +207,7 @@ GfxVarUpdate
 &
 pref
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -233,9 +222,7 @@ nsCString
 &
 aPath
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -254,7 +241,6 @@ nsCString
 &
 aPath
 )
-override
 ;
 private
 :

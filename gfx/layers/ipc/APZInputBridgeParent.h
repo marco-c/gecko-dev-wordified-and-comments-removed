@@ -71,7 +71,6 @@ uint64_t
 *
 aOutInputBlockId
 )
-override
 ;
 mozilla
 :
@@ -99,7 +98,6 @@ uint64_t
 *
 aOutInputBlockId
 )
-override
 ;
 mozilla
 :
@@ -127,7 +125,6 @@ uint64_t
 *
 aOutInputBlockId
 )
-override
 ;
 mozilla
 :
@@ -155,7 +152,6 @@ uint64_t
 *
 aOutInputBlockId
 )
-override
 ;
 mozilla
 :
@@ -183,7 +179,6 @@ uint64_t
 *
 aOutInputBlockId
 )
-override
 ;
 mozilla
 :
@@ -211,7 +206,6 @@ uint64_t
 *
 aOutInputBlockId
 )
-override
 ;
 mozilla
 :
@@ -239,7 +233,6 @@ uint64_t
 *
 aOutInputBlockId
 )
-override
 ;
 mozilla
 :
@@ -259,7 +252,6 @@ EventMessage
 &
 aEventMessage
 )
-override
 ;
 mozilla
 :
@@ -284,7 +276,6 @@ uint64_t
 *
 aOutFocusSequenceNumber
 )
-override
 ;
 void
 ActorDestroy

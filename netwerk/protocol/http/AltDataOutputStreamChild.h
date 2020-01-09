@@ -70,7 +70,6 @@ nsresult
 &
 err
 )
-override
 ;
 virtual
 mozilla
@@ -83,7 +82,6 @@ IPCResult
 RecvDeleteSelf
 (
 )
-override
 ;
 private
 :

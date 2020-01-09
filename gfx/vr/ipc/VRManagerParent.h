@@ -243,7 +243,6 @@ pid
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -254,9 +253,7 @@ IPCResult
 RecvRefreshDisplays
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -271,9 +268,7 @@ uint32_t
 &
 aDisplayID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -292,9 +287,7 @@ uint32_t
 &
 aGroupMask
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -309,9 +302,7 @@ bool
 &
 aHaveEventListener
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -322,9 +313,7 @@ IPCResult
 RecvControllerListenerAdded
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -335,9 +324,7 @@ IPCResult
 RecvControllerListenerRemoved
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -368,9 +355,7 @@ uint32_t
 &
 aPromiseID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -385,9 +370,7 @@ uint32_t
 &
 aControllerIdx
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -398,9 +381,7 @@ IPCResult
 RecvCreateVRTestSystem
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -419,9 +400,7 @@ uint32_t
 &
 aPromiseID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -440,9 +419,7 @@ uint32_t
 &
 aPromiseID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -461,9 +438,7 @@ VRDisplayInfo
 &
 aDisplayInfo
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -482,9 +457,7 @@ VRHMDSensorState
 &
 aSensorState
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -507,9 +480,7 @@ bool
 &
 aPressed
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -532,9 +503,7 @@ double
 &
 aValue
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -553,9 +522,7 @@ GamepadPoseState
 &
 pose
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -570,9 +537,7 @@ uint32_t
 &
 aDeviceID
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -591,9 +556,7 @@ TimeDuration
 &
 aTimeout
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -604,9 +567,7 @@ IPCResult
 RecvStartActivity
 (
 )
-override
 ;
-virtual
 mozilla
 :
 :
@@ -617,7 +578,6 @@ IPCResult
 RecvStopActivity
 (
 )
-override
 ;
 private
 :

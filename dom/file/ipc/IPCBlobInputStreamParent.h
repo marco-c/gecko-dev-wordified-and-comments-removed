@@ -175,7 +175,6 @@ IPCResult
 RecvStreamNeeded
 (
 )
-override
 ;
 mozilla
 :
@@ -187,7 +186,6 @@ IPCResult
 RecvLengthNeeded
 (
 )
-override
 ;
 mozilla
 :
@@ -199,7 +197,6 @@ IPCResult
 RecvClose
 (
 )
-override
 ;
 mozilla
 :

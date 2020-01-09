@@ -96,7 +96,6 @@ KeyboardMap
 &
 aKeyboardMap
 )
-override
 ;
 mozilla
 :
@@ -120,7 +119,6 @@ uint32_t
 &
 aFlags
 )
-override
 ;
 mozilla
 :
@@ -140,7 +138,6 @@ bool
 &
 aPreventDefault
 )
-override
 ;
 mozilla
 :
@@ -163,7 +160,6 @@ ScrollableLayerGuid
 &
 aTargets
 )
-override
 ;
 mozilla
 :
@@ -183,7 +179,6 @@ MaybeZoomConstraints
 &
 aConstraints
 )
-override
 ;
 mozilla
 :
@@ -199,7 +194,6 @@ float
 &
 aDpiValue
 )
-override
 ;
 mozilla
 :
@@ -222,7 +216,6 @@ TouchBehaviorFlags
 &
 aValues
 )
-override
 ;
 mozilla
 :
@@ -242,7 +235,6 @@ AsyncDragMetrics
 &
 aDragMetrics
 )
-override
 ;
 mozilla
 :
@@ -262,7 +254,6 @@ ScreenPoint
 &
 aAnchorLocation
 )
-override
 ;
 mozilla
 :
@@ -278,7 +269,6 @@ ScrollableLayerGuid
 &
 aGuid
 )
-override
 ;
 mozilla
 :
@@ -294,7 +284,6 @@ bool
 &
 aTapGestureEnabled
 )
-override
 ;
 void
 ActorDestroy
