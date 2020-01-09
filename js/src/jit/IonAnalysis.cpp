@@ -11758,8 +11758,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 value
 -
 >
@@ -11769,8 +11767,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -16547,17 +16543,12 @@ MIRType
 :
 Symbol
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
 :
 BigInt
 :
-#
-endif
 case
 MIRType
 :

@@ -532,9 +532,6 @@ pos
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 template
 <
 class
@@ -589,8 +586,6 @@ pos
 )
 ;
 }
-#
-endif
 BooleanLiteralType
 newBooleanLiteral
 (

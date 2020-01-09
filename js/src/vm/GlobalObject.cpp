@@ -38,9 +38,6 @@ AtomicsObject
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 builtin
@@ -49,8 +46,6 @@ BigInt
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -589,9 +584,6 @@ getStreamsEnabled
 (
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSProto_BigInt
 :
@@ -613,8 +605,6 @@ getBigIntEnabled
 (
 )
 ;
-#
-endif
 case
 JSProto_Atomics
 :

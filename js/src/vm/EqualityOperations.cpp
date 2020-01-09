@@ -74,9 +74,6 @@ Value
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -85,8 +82,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -243,9 +238,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lval
@@ -282,8 +274,6 @@ return
 true
 ;
 }
-#
-endif
 if
 (
 lval
@@ -1014,9 +1004,6 @@ result
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lval
@@ -1137,8 +1124,6 @@ return
 true
 ;
 }
-#
-endif
 *
 result
 =

@@ -4398,8 +4398,6 @@ Symbol
 )
 &
 &
-IF_BIGINT
-(
 !
 op
 -
@@ -4410,8 +4408,6 @@ MIRType
 :
 :
 BigInt
-)
-true
 )
 &
 &
@@ -7060,15 +7056,10 @@ Symbol
 *
 sym
 ;
-#
-ifdef
-ENABLE_BIGINT
 BigInt
 *
 bi
 ;
-#
-endif
 JSObject
 *
 obj
@@ -7749,9 +7740,6 @@ payload_
 sym
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 BigInt
 *
 toBigInt
@@ -7778,8 +7766,6 @@ payload_
 bi
 ;
 }
-#
-endif
 JSObject
 &
 toObject
@@ -16350,8 +16336,6 @@ MIRType
 Symbol
 |
 |
-IF_BIGINT
-(
 type
 =
 =
@@ -16359,8 +16343,6 @@ MIRType
 :
 :
 BigInt
-false
-)
 |
 |
 type
@@ -16541,9 +16523,6 @@ Bailout_NonSymbolInput
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -16556,8 +16535,6 @@ Bailout_NonBigIntInput
 ;
 break
 ;
-#
-endif
 case
 MIRType
 :
@@ -18001,8 +17978,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 def
 -
 >
@@ -18012,8 +17987,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -18246,9 +18219,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 input
@@ -18271,8 +18241,6 @@ return
 false
 ;
 }
-#
-endif
 return
 true
 ;
@@ -18355,8 +18323,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 def
 -
 >
@@ -18366,8 +18332,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -19786,8 +19750,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 def
 -
 >
@@ -19797,8 +19759,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -20055,8 +20015,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 def
 -
 >
@@ -20066,8 +20024,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -20281,8 +20237,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 def
 -
 >
@@ -20292,8 +20246,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {

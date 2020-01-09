@@ -134,9 +134,6 @@ ArrayObject
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -145,8 +142,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -4029,9 +4024,6 @@ thing
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 template
 <
 >
@@ -4055,8 +4047,6 @@ thing
 )
 ;
 }
-#
-endif
 template
 <
 >
@@ -8215,9 +8205,6 @@ fun
 ;
 }
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 JS
 :
@@ -8235,8 +8222,6 @@ trc
 return
 ;
 }
-#
-endif
 template
 <
 typename
@@ -9042,11 +9027,7 @@ TYPE_FLAG_LAZYARGS
 |
 TYPE_FLAG_ANYOBJECT
 |
-IF_BIGINT
-(
 TYPE_FLAG_BIGINT
-0
-)
 ;
 bool
 mayBeMarkable
@@ -9702,9 +9683,6 @@ toSymbol
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -9726,8 +9704,6 @@ toBigInt
 )
 ;
 }
-#
-endif
 else
 if
 (

@@ -903,9 +903,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 v
@@ -962,8 +959,6 @@ str
 )
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 v

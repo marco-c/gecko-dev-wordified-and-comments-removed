@@ -626,9 +626,6 @@ return
 symbol
 "
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
@@ -637,8 +634,6 @@ return
 BigInt
 "
 ;
-#
-endif
 case
 JSVAL_TYPE_MAGIC
 :
@@ -2290,9 +2285,6 @@ baseFlags
 &
 TYPE_FLAG_SYMBOL
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 jit
 :
@@ -2309,8 +2301,6 @@ baseFlags
 &
 TYPE_FLAG_BIGINT
 ;
-#
-endif
 case
 jit
 :
@@ -4286,9 +4276,6 @@ symbol
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 flags
@@ -4305,8 +4292,6 @@ BigInt
 )
 ;
 }
-#
-endif
 if
 (
 flags
@@ -9218,9 +9203,6 @@ MIRType
 :
 Symbol
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 TYPE_FLAG_BIGINT
 :
@@ -9233,8 +9215,6 @@ MIRType
 :
 BigInt
 ;
-#
-endif
 case
 TYPE_FLAG_LAZYARGS
 :

@@ -264,8 +264,6 @@ literal
 "
 )
 \
-IF_BIGINT
-(
 MACRO
 (
 BigInt
@@ -273,7 +271,6 @@ BigInt
 bigint
 literal
 "
-)
 )
 \
 \

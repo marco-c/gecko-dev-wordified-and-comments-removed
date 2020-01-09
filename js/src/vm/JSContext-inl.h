@@ -41,9 +41,6 @@ Proxy
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -52,8 +49,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -683,9 +678,6 @@ argIndex
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 check
 (
@@ -711,8 +703,6 @@ argIndex
 )
 ;
 }
-#
-endif
 void
 check
 (
@@ -790,9 +780,6 @@ argIndex
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -814,8 +801,6 @@ argIndex
 )
 ;
 }
-#
-endif
 }
 template
 <

@@ -12727,9 +12727,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -12777,8 +12774,6 @@ i
 )
 ;
 }
-#
-endif
 else
 {
 MOZ_ASSERT

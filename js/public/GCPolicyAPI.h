@@ -65,8 +65,6 @@ Symbol
 *
 )
 \
-IF_BIGINT
-(
 D
 (
 JS
@@ -74,7 +72,6 @@ JS
 :
 BigInt
 *
-)
 )
 \
 D

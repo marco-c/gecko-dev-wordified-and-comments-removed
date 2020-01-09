@@ -4047,9 +4047,6 @@ MIRType
 String
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 MOZ_ASSERT
 (
 opd
@@ -4074,8 +4071,6 @@ TestPolicy
 "
 )
 ;
-#
-endif
 if
 (
 MConstant
@@ -14542,17 +14537,12 @@ MIRType
 :
 Symbol
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
 :
 BigInt
 :
-#
-endif
 case
 MIRType
 :
@@ -20418,9 +20408,6 @@ MIRType
 String
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 MOZ_ASSERT
 (
 op
@@ -20445,8 +20432,6 @@ TestPolicy
 "
 )
 ;
-#
-endif
 switch
 (
 op
@@ -34428,9 +34413,6 @@ ins
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -34459,8 +34441,6 @@ ins
 ;
 break
 ;
-#
-endif
 case
 MIRType
 :

@@ -4757,9 +4757,6 @@ rval
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 rval
@@ -4777,8 +4774,6 @@ rval
 )
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 rval

@@ -165,9 +165,6 @@ setStreamsEnabled
 true
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 options
 .
 creationOptions
@@ -179,8 +176,6 @@ setBigIntEnabled
 true
 )
 ;
-#
-endif
 newGlobal
 =
 JS_NewGlobalObject

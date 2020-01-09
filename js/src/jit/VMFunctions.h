@@ -5121,9 +5121,6 @@ Symbol
 sym
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 void
 AssertValidBigIntPtr
 (
@@ -5138,8 +5135,6 @@ BigInt
 bi
 )
 ;
-#
-endif
 void
 AssertValidValue
 (
@@ -5698,16 +5693,11 @@ const
 VMFunction
 ToNumberInfo
 ;
-#
-ifdef
-ENABLE_BIGINT
 extern
 const
 VMFunction
 ToNumericInfo
 ;
-#
-endif
 extern
 const
 VMFunction

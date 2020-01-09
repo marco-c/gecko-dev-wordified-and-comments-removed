@@ -5035,8 +5035,6 @@ Double
 bool
 mightBeBigInt
 =
-IF_BIGINT
-(
 valueMIR
 -
 >
@@ -5046,8 +5044,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 ;
 int
@@ -5636,9 +5632,6 @@ notString
 tagCount
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 mightBeBigInt
@@ -5724,8 +5717,6 @@ notBigInt
 tagCount
 ;
 }
-#
-endif
 if
 (
 mightBeSymbol
@@ -8092,9 +8083,6 @@ snapshot
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lir
@@ -8137,8 +8125,6 @@ entry
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG
@@ -24390,9 +24376,6 @@ maybeInt32
 |
 maybeDouble
 ;
-#
-ifdef
-ENABLE_BIGINT
 bool
 maybeBigInt
 =
@@ -24412,8 +24395,6 @@ MIRType
 BigInt
 )
 ;
-#
-endif
 int
 checks
 =
@@ -24422,13 +24403,9 @@ int
 maybeNumber
 )
 +
-IF_BIGINT
-(
 int
 (
 maybeBigInt
-)
-0
 )
 ;
 OutOfLineCode
@@ -24545,9 +24522,6 @@ target
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 maybeBigInt
@@ -24592,8 +24566,6 @@ target
 )
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 checks
@@ -33598,8 +33570,6 @@ MIRType
 Symbol
 |
 |
-IF_BIGINT
-(
 type
 =
 =
@@ -33607,8 +33577,6 @@ MIRType
 :
 :
 BigInt
-false
-)
 )
 ;
 AllocatableGeneralRegisterSet
@@ -33925,9 +33893,6 @@ AssertValidSymbolPtr
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -33945,8 +33910,6 @@ AssertValidBigIntPtr
 ;
 break
 ;
-#
-endif
 default
 :
 MOZ_CRASH
@@ -34529,17 +34492,12 @@ MIRType
 :
 Symbol
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
 :
 BigInt
 :
-#
-endif
 emitGCThingResultChecks
 (
 ins
@@ -70136,9 +70094,6 @@ MIRType
 Symbol
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 bool
 testBigInt
 =
@@ -70153,8 +70108,6 @@ MIRType
 BigInt
 )
 ;
-#
-endif
 unsigned
 numTests
 =
@@ -70195,11 +70148,7 @@ testSymbol
 +
 unsigned
 (
-IF_BIGINT
-(
 testBigInt
-0
-)
 )
 ;
 MOZ_ASSERT_IF
@@ -70802,9 +70751,6 @@ numTests
 -
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 testBigInt
@@ -70876,8 +70822,6 @@ numTests
 -
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 numTests

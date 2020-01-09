@@ -2020,9 +2020,6 @@ javascript_options_streams
 RelaxedAtomicBool
 false
 )
-#
-ifdef
-ENABLE_BIGINT
 VARCACHE_PREF
 (
 "
@@ -2036,8 +2033,6 @@ javascript_options_bigint
 RelaxedAtomicBool
 false
 )
-#
-endif
 #
 ifdef
 ANDROID

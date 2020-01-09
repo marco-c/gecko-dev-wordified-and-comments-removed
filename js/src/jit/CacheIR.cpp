@@ -8894,9 +8894,6 @@ protoKey
 JSProto_Symbol
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -8912,8 +8909,6 @@ protoKey
 JSProto_BigInt
 ;
 }
-#
-endif
 else
 {
 MOZ_ASSERT
@@ -25661,14 +25656,10 @@ isNumber
 )
 |
 |
-IF_BIGINT
-(
 x
 .
 isBigInt
 (
-)
-false
 )
 ;
 }
@@ -25776,9 +25767,6 @@ id
 ;
 return
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
@@ -25791,8 +25779,6 @@ id
 ;
 return
 ;
-#
-endif
 case
 JSVAL_TYPE_STRING
 :

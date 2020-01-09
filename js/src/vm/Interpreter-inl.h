@@ -2193,9 +2193,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 val
@@ -2217,8 +2214,6 @@ res
 )
 ;
 }
-#
-endif
 res
 .
 setNumber
@@ -3878,9 +3873,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -3939,8 +3931,6 @@ res
 )
 ;
 }
-#
-endif
 if
 (
 !
@@ -3963,9 +3953,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -3995,8 +3982,6 @@ res
 )
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 lhs
@@ -4605,9 +4590,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 in
@@ -4629,8 +4611,6 @@ out
 )
 ;
 }
-#
-endif
 out
 .
 setInt32
@@ -4685,9 +4665,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -4717,8 +4694,6 @@ out
 )
 ;
 }
-#
-endif
 out
 .
 setInt32
@@ -4778,9 +4753,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -4810,8 +4782,6 @@ out
 )
 ;
 }
-#
-endif
 out
 .
 setInt32
@@ -4871,9 +4841,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -4903,8 +4870,6 @@ out
 )
 ;
 }
-#
-endif
 out
 .
 setInt32
@@ -4964,9 +4929,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -4996,8 +4958,6 @@ out
 )
 ;
 }
-#
-endif
 out
 .
 setInt32
@@ -5062,9 +5022,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 lhs
@@ -5094,8 +5051,6 @@ out
 )
 ;
 }
-#
-endif
 out
 .
 setInt32
@@ -5138,9 +5093,6 @@ MutableHandleValue
 out
 )
 {
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 !
@@ -5191,8 +5143,6 @@ return
 false
 ;
 }
-#
-endif
 uint32_t
 left
 ;

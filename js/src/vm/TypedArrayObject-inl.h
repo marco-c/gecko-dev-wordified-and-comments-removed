@@ -4029,14 +4029,10 @@ isSymbol
 )
 |
 |
-IF_BIGINT
-(
 v
 .
 isBigInt
 (
-)
-false
 )
 )
 ;

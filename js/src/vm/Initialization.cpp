@@ -126,9 +126,6 @@ h
 #
 endif
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -137,8 +134,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "

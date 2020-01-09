@@ -2272,9 +2272,6 @@ Symbol
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 CacheOp
 :
@@ -2293,8 +2290,6 @@ BigInt
 ;
 break
 ;
-#
-endif
 case
 CacheOp
 :

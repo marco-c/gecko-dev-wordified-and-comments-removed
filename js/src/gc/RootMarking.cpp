@@ -2690,9 +2690,6 @@ symbolp
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 onBigIntEdge
 (
@@ -2713,8 +2710,6 @@ bip
 )
 ;
 }
-#
-endif
 void
 onChild
 (

@@ -336,9 +336,6 @@ id
 }
 }
 ;
-#
-ifdef
-ENABLE_BIGINT
 class
 BigIntOperandId
 :
@@ -368,8 +365,6 @@ id
 }
 }
 ;
-#
-endif
 class
 Int32OperandId
 :
@@ -473,9 +468,6 @@ JSVAL_TYPE_SYMBOL
 )
 {
 }
-#
-ifdef
-ENABLE_BIGINT
 MOZ_IMPLICIT
 TypedOperandId
 (
@@ -497,8 +489,6 @@ JSVAL_TYPE_BIGINT
 )
 {
 }
-#
-endif
 MOZ_IMPLICIT
 TypedOperandId
 (
@@ -764,12 +754,9 @@ _
 GuardIsSymbol
 )
 \
-IF_BIGINT
-(
 _
 (
 GuardIsBigInt
-)
 )
 \
 _
@@ -2786,9 +2773,6 @@ id
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 BigIntOperandId
 guardIsBigInt
 (
@@ -2816,8 +2800,6 @@ id
 )
 ;
 }
-#
-endif
 Int32OperandId
 guardIsInt32
 (

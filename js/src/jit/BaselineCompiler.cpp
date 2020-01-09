@@ -10259,9 +10259,6 @@ JSOP_DOUBLE
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 template
 <
 typename
@@ -10284,8 +10281,6 @@ emit_JSOP_DOUBLE
 )
 ;
 }
-#
-endif
 template
 <
 >

@@ -8508,9 +8508,6 @@ payload
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 static
 Value
 FromBigIntPayload
@@ -8536,8 +8533,6 @@ payload
 )
 ;
 }
-#
-endif
 static
 Value
 FromTypedPayload
@@ -8591,9 +8586,6 @@ FromSymbolPayload
 payload
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
@@ -8603,8 +8595,6 @@ FromBigIntPayload
 payload
 )
 ;
-#
-endif
 case
 JSVAL_TYPE_OBJECT
 :
@@ -9187,9 +9177,6 @@ stackOffset2
 )
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
@@ -9206,8 +9193,6 @@ stackOffset2
 )
 )
 ;
-#
-endif
 case
 JSVAL_TYPE_OBJECT
 :
@@ -9878,14 +9863,9 @@ JSVAL_TYPE_STRING
 case
 JSVAL_TYPE_SYMBOL
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
-#
-endif
 case
 JSVAL_TYPE_OBJECT
 :

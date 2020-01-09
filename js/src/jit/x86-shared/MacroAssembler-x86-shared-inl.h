@@ -4107,9 +4107,6 @@ label
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 MacroAssembler
 :
@@ -4253,8 +4250,6 @@ label
 )
 ;
 }
-#
-endif
 void
 MacroAssembler
 :

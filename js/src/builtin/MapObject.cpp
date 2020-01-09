@@ -347,14 +347,10 @@ isObject
 )
 |
 |
-IF_BIGINT
-(
 value
 .
 isBigInt
 (
-)
-false
 )
 )
 ;
@@ -427,9 +423,6 @@ hash
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 v
@@ -452,8 +445,6 @@ hash
 )
 ;
 }
-#
-endif
 if
 (
 v
@@ -568,9 +559,6 @@ asRawBits
 )
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 !
@@ -631,8 +619,6 @@ b
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG

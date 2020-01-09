@@ -94,14 +94,9 @@ Scope
 RegExpShared
 =
 0x4F
-#
-ifdef
-ENABLE_BIGINT
 BigInt
 =
 0x5F
-#
-endif
 }
 ;
 const
@@ -395,8 +390,6 @@ Symbol
 false
 )
 \
-IF_BIGINT
-(
 D
 (
 BigInt
@@ -405,7 +398,6 @@ JS
 :
 BigInt
 false
-)
 )
 \
 D

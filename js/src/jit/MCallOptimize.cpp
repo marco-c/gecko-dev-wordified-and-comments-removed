@@ -12301,8 +12301,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 codeUnit
 -
 >
@@ -12312,8 +12310,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -20879,8 +20875,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 input
 -
 >
@@ -20890,8 +20884,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 |
 |
@@ -21675,8 +21667,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 oldval
 -
 >
@@ -21686,8 +21676,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -21732,8 +21720,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 newval
 -
 >
@@ -21743,8 +21729,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -21958,8 +21942,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 value
 -
 >
@@ -21969,8 +21951,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -22386,8 +22366,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 value
 -
 >
@@ -22397,8 +22375,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {
@@ -22658,8 +22634,6 @@ Symbol
 )
 |
 |
-IF_BIGINT
-(
 value
 -
 >
@@ -22669,8 +22643,6 @@ MIRType
 :
 :
 BigInt
-)
-false
 )
 )
 {

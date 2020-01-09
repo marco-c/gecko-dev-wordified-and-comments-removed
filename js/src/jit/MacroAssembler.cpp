@@ -390,9 +390,6 @@ label
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
@@ -407,8 +404,6 @@ label
 ;
 break
 ;
-#
-endif
 case
 JSVAL_TYPE_NULL
 :
@@ -568,17 +563,12 @@ TypeSet
 SymbolType
 (
 )
-#
-ifdef
-ENABLE_BIGINT
 TypeSet
 :
 :
 BigIntType
 (
 )
-#
-endif
 TypeSet
 :
 :
@@ -18376,9 +18366,6 @@ label
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -18394,8 +18381,6 @@ label
 ;
 break
 ;
-#
-endif
 case
 MIRType
 :

@@ -2768,17 +2768,12 @@ MIRType
 :
 Symbol
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
 :
 BigInt
 :
-#
-endif
 case
 MIRType
 :

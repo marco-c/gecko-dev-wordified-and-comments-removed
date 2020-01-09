@@ -5428,9 +5428,6 @@ string
 ;
 }
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -5470,8 +5467,6 @@ string
 ;
 }
 }
-#
-endif
 else
 {
 MOZ_ASSERT

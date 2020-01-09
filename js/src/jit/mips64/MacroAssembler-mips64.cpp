@@ -7271,9 +7271,6 @@ JSVAL_TYPE_SYMBOL
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 MacroAssemblerMIPS64Compat
 :
@@ -7338,8 +7335,6 @@ JSVAL_TYPE_BIGINT
 )
 ;
 }
-#
-endif
 void
 MacroAssemblerMIPS64Compat
 :

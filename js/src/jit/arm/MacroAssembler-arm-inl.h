@@ -10039,9 +10039,6 @@ c
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 MacroAssembler
 :
@@ -10186,8 +10183,6 @@ c
 )
 ;
 }
-#
-endif
 void
 MacroAssembler
 :

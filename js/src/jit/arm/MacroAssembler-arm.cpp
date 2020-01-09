@@ -13333,9 +13333,6 @@ typeReg
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Assembler
 :
 :
@@ -13368,8 +13365,6 @@ typeReg
 )
 ;
 }
-#
-endif
 Assembler
 :
 :
@@ -13768,9 +13763,6 @@ return
 cond
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Assembler
 :
 :
@@ -13816,8 +13808,6 @@ return
 cond
 ;
 }
-#
-endif
 Assembler
 :
 :
@@ -14495,9 +14485,6 @@ tag
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Assembler
 :
 :
@@ -14554,8 +14541,6 @@ tag
 )
 ;
 }
-#
-endif
 Assembler
 :
 :
@@ -15084,9 +15069,6 @@ return
 cond
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Assembler
 :
 :
@@ -15148,8 +15130,6 @@ return
 cond
 ;
 }
-#
-endif
 Assembler
 :
 :
@@ -19403,9 +19383,6 @@ Assembler
 Equal
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 Assembler
 :
 :
@@ -19488,8 +19465,6 @@ Assembler
 Equal
 ;
 }
-#
-endif
 void
 MacroAssemblerARMCompat
 :

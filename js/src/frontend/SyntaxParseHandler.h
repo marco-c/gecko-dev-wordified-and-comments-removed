@@ -430,9 +430,6 @@ return
 NodeGeneric
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 BigIntLiteralType
 newBigInt
 (
@@ -442,8 +439,6 @@ return
 NodeGeneric
 ;
 }
-#
-endif
 BooleanLiteralType
 newBooleanLiteral
 (

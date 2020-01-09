@@ -24,9 +24,6 @@ Symbol
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -35,8 +32,6 @@ BigIntType
 .
 h
 "
-#
-endif
 FRAGMENT
 (
 jsval
@@ -185,9 +180,6 @@ hello
 )
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 RootedValue
 bi
 (
@@ -204,8 +196,6 @@ cx
 )
 )
 ;
-#
-endif
 RootedValue
 global
 (
@@ -298,16 +288,11 @@ use
 symbol
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 use
 (
 bi
 )
 ;
-#
-endif
 use
 (
 global

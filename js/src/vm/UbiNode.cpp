@@ -130,9 +130,6 @@ Text
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -141,8 +138,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1222,9 +1217,6 @@ Symbol
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 else
 if
 (
@@ -1249,8 +1241,6 @@ BigInt
 )
 ;
 }
-#
-endif
 else
 {
 v
@@ -1728,9 +1718,6 @@ zone
 )
 const
 ;
-#
-ifdef
-ENABLE_BIGINT
 template
 JS
 :
@@ -1748,8 +1735,6 @@ zone
 )
 const
 ;
-#
-endif
 template
 JS
 :
@@ -2051,9 +2036,6 @@ wantNames
 )
 const
 ;
-#
-ifdef
-ENABLE_BIGINT
 template
 UniquePtr
 <
@@ -2075,8 +2057,6 @@ wantNames
 )
 const
 ;
-#
-endif
 template
 UniquePtr
 <
@@ -2513,9 +2493,6 @@ JS
 Symbol
 "
 ;
-#
-ifdef
-ENABLE_BIGINT
 const
 char16_t
 Concrete
@@ -2536,8 +2513,6 @@ JS
 BigInt
 "
 ;
-#
-endif
 const
 char16_t
 Concrete

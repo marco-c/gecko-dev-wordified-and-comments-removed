@@ -103,9 +103,6 @@ StableStringChars
 h
 "
 #
-ifdef
-ENABLE_BIGINT
-#
 include
 "
 vm
@@ -114,8 +111,6 @@ BigIntType
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -16824,17 +16819,12 @@ ParseNodeKind
 :
 NumberExpr
 :
-#
-ifdef
-ENABLE_BIGINT
 case
 ParseNodeKind
 :
 :
 BigIntExpr
 :
-#
-endif
 case
 ParseNodeKind
 :
@@ -18065,9 +18055,6 @@ value
 ;
 break
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 ParseNodeKind
 :
@@ -18116,8 +18103,6 @@ x
 break
 ;
 }
-#
-endif
 case
 ParseNodeKind
 :

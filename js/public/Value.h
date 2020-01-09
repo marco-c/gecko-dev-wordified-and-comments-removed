@@ -233,14 +233,9 @@ JSVAL_TYPE_SYMBOL
 JSVAL_TYPE_PRIVATE_GCTHING
 =
 0x08
-#
-ifdef
-ENABLE_BIGINT
 JSVAL_TYPE_BIGINT
 =
 0x09
-#
-endif
 JSVAL_TYPE_OBJECT
 =
 0x0c
@@ -327,16 +322,11 @@ JSVAL_TAG_PRIVATE_GCTHING
 JSVAL_TAG_CLEAR
 |
 JSVAL_TYPE_PRIVATE_GCTHING
-#
-ifdef
-ENABLE_BIGINT
 JSVAL_TAG_BIGINT
 =
 JSVAL_TAG_CLEAR
 |
 JSVAL_TYPE_BIGINT
-#
-endif
 JSVAL_TAG_OBJECT
 =
 JSVAL_TAG_CLEAR
@@ -426,16 +416,11 @@ JSVAL_TAG_PRIVATE_GCTHING
 JSVAL_TAG_MAX_DOUBLE
 |
 JSVAL_TYPE_PRIVATE_GCTHING
-#
-ifdef
-ENABLE_BIGINT
 JSVAL_TAG_BIGINT
 =
 JSVAL_TAG_MAX_DOUBLE
 |
 JSVAL_TYPE_BIGINT
-#
-endif
 JSVAL_TAG_OBJECT
 =
 JSVAL_TAG_MAX_DOUBLE
@@ -596,9 +581,6 @@ JSVAL_TAG_PRIVATE_GCTHING
 <
 JSVAL_TAG_SHIFT
 )
-#
-ifdef
-ENABLE_BIGINT
 JSVAL_SHIFTED_TAG_BIGINT
 =
 (
@@ -612,8 +594,6 @@ JSVAL_TAG_BIGINT
 <
 JSVAL_TAG_SHIFT
 )
-#
-endif
 JSVAL_SHIFTED_TAG_OBJECT
 =
 (
@@ -1078,9 +1058,6 @@ Symbol
 *
 sym_
 ;
-#
-ifdef
-ENABLE_BIGINT
 JS
 :
 :
@@ -1088,8 +1065,6 @@ BigInt
 *
 bi_
 ;
-#
-endif
 JSObject
 *
 obj_
@@ -1613,9 +1588,6 @@ sym
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 setBigInt
 (
@@ -1653,8 +1625,6 @@ bi
 )
 ;
 }
-#
-endif
 void
 setObject
 (
@@ -2300,9 +2270,6 @@ toTag
 JSVAL_TAG_SYMBOL
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 bool
 isBigInt
 (
@@ -2318,8 +2285,6 @@ toTag
 JSVAL_TAG_BIGINT
 ;
 }
-#
-endif
 bool
 isObject
 (
@@ -2704,9 +2669,6 @@ toGCThing
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 MOZ_UNLIKELY
@@ -2727,8 +2689,6 @@ TraceKind
 BigInt
 ;
 }
-#
-endif
 return
 JS
 :
@@ -3032,9 +2992,6 @@ JSVAL_SHIFTED_TAG_SYMBOL
 #
 endif
 }
-#
-ifdef
-ENABLE_BIGINT
 JS
 :
 :
@@ -3089,8 +3046,6 @@ JSVAL_SHIFTED_TAG_BIGINT
 #
 endif
 }
-#
-endif
 JSObject
 &
 toObject
@@ -3704,9 +3659,6 @@ instead
 "
 )
 ;
-#
-ifdef
-ENABLE_BIGINT
 MOZ_ASSERT
 (
 JS
@@ -3745,8 +3697,6 @@ instead
 "
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 JS
@@ -4285,9 +4235,6 @@ return
 v
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 static
 inline
 Value
@@ -4315,8 +4262,6 @@ return
 v
 ;
 }
-#
-endif
 static
 inline
 Value
@@ -5484,9 +5429,6 @@ isSymbol
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 bool
 isBigInt
 (
@@ -5503,8 +5445,6 @@ isBigInt
 )
 ;
 }
-#
-endif
 bool
 isObject
 (
@@ -5721,9 +5661,6 @@ toSymbol
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 JS
 :
 :
@@ -5744,8 +5681,6 @@ toBigInt
 )
 ;
 }
-#
-endif
 JSObject
 &
 toObject
@@ -6163,9 +6098,6 @@ sym
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 setBigInt
 (
@@ -6190,8 +6122,6 @@ bi
 )
 ;
 }
-#
-endif
 void
 setObject
 (
@@ -6532,9 +6462,6 @@ sym
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 void
 setBigInt
 (
@@ -6558,8 +6485,6 @@ bi
 )
 ;
 }
-#
-endif
 void
 setObject
 (
@@ -6872,9 +6797,6 @@ sym
 )
 ;
 }
-#
-ifdef
-ENABLE_BIGINT
 if
 (
 val
@@ -6921,8 +6843,6 @@ bi
 )
 ;
 }
-#
-endif
 if
 (
 MOZ_UNLIKELY

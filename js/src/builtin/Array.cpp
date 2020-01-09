@@ -6463,14 +6463,10 @@ break
 else
 if
 (
-IF_BIGINT
-(
 elem
 .
 isBigInt
 (
-)
-false
 )
 )
 {

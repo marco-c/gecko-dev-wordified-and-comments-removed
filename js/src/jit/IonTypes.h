@@ -228,12 +228,7 @@ Bailout_NonBooleanInput
 Bailout_NonObjectInput
 Bailout_NonStringInput
 Bailout_NonSymbolInput
-#
-ifdef
-ENABLE_BIGINT
 Bailout_NonBigIntInput
-#
-endif
 Bailout_NonSharedTypedArrayInput
 Bailout_Debugger
 Bailout_UninitializedThis
@@ -432,9 +427,6 @@ return
 Bailout_NonSymbolInput
 "
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 Bailout_NonBigIntInput
 :
@@ -443,8 +435,6 @@ return
 Bailout_NonBigIntInput
 "
 ;
-#
-endif
 case
 Bailout_NonSharedTypedArrayInput
 :
@@ -1403,12 +1393,7 @@ Double
 Float32
 String
 Symbol
-#
-ifdef
-ENABLE_BIGINT
 BigInt
-#
-endif
 Object
 MagicOptimizedArguments
 MagicOptimizedOut
@@ -1597,9 +1582,6 @@ MIRType
 :
 Symbol
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 JSVAL_TYPE_BIGINT
 :
@@ -1609,8 +1591,6 @@ MIRType
 :
 BigInt
 ;
-#
-endif
 case
 JSVAL_TYPE_BOOLEAN
 :
@@ -1743,9 +1723,6 @@ Symbol
 return
 JSVAL_TYPE_SYMBOL
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -1755,8 +1732,6 @@ BigInt
 return
 JSVAL_TYPE_BIGINT
 ;
-#
-endif
 case
 MIRType
 :
@@ -2024,9 +1999,6 @@ return
 Symbol
 "
 ;
-#
-ifdef
-ENABLE_BIGINT
 case
 MIRType
 :
@@ -2038,8 +2010,6 @@ return
 BigInt
 "
 ;
-#
-endif
 case
 MIRType
 :
@@ -2405,8 +2375,6 @@ type
 )
 |
 |
-IF_BIGINT
-(
 type
 =
 =
@@ -2414,8 +2382,6 @@ MIRType
 :
 :
 BigInt
-false
-)
 ;
 }
 static

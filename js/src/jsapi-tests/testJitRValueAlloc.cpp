@@ -336,12 +336,9 @@ _
 JSVAL_TYPE_SYMBOL
 )
 \
-IF_BIGINT
-(
 _
 (
 JSVAL_TYPE_BIGINT
-)
 )
 \
 /
@@ -499,12 +496,9 @@ _
 JSVAL_TYPE_SYMBOL
 )
 \
-IF_BIGINT
-(
 _
 (
 JSVAL_TYPE_BIGINT
-)
 )
 \
 /
