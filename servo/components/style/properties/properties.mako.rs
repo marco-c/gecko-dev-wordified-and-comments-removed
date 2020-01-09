@@ -21323,7 +21323,7 @@ self
 computed
 :
 :
-LengthPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 {
 let
 position_style
@@ -21380,7 +21380,7 @@ self
 computed
 :
 :
-LengthPercentageOrAuto
+NonNegativeLengthPercentageOrAuto
 {
 let
 position_style
@@ -21438,7 +21438,7 @@ self
 computed
 :
 :
-LengthPercentage
+NonNegativeLengthPercentage
 {
 let
 position_style
@@ -21496,7 +21496,7 @@ self
 computed
 :
 :
-LengthPercentage
+NonNegativeLengthPercentage
 {
 let
 position_style
@@ -21554,7 +21554,7 @@ self
 computed
 :
 :
-LengthPercentageOrNone
+MaxLength
 {
 let
 position_style
@@ -21612,7 +21612,7 @@ self
 computed
 :
 :
-LengthPercentageOrNone
+MaxLength
 {
 let
 position_style

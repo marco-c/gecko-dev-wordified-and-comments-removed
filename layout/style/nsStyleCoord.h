@@ -520,6 +520,10 @@ aPercentageGetter
 )
 ;
 }
+template
+<
+>
+inline
 const
 LengthPercentage
 &
@@ -544,6 +548,10 @@ length_percentage
 _0
 ;
 }
+template
+<
+>
+inline
 bool
 LengthPercentageOrAuto
 :
@@ -568,6 +576,10 @@ ConvertsToLength
 )
 ;
 }
+template
+<
+>
+inline
 bool
 LengthPercentageOrAuto
 :

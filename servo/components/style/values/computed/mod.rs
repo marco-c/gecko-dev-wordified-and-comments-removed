@@ -680,7 +680,6 @@ length
 :
 {
 LengthPercentageOrAuto
-LengthPercentageOrNone
 MaxLength
 MozLength
 }

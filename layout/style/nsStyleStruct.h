@@ -8724,7 +8724,7 @@ mShapeImageThreshold
 mozilla
 :
 :
-LengthPercentage
+NonNegativeLengthPercentage
 mShapeMargin
 ;
 mozilla

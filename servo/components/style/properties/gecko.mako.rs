@@ -11639,11 +11639,6 @@ LengthPercentageOrAuto
 :
 impl_style_coord
 "
-LengthPercentageOrNone
-"
-:
-impl_style_coord
-"
 MaxLength
 "
 :
@@ -31880,8 +31875,6 @@ w
 =
 explicit_width
 .
-0
-.
 to_calc_value
 (
 )
@@ -31906,8 +31899,6 @@ h
 )
 =
 explicit_height
-.
-0
 .
 to_calc_value
 (

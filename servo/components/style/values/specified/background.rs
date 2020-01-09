@@ -40,7 +40,10 @@ specified
 length
 :
 :
+{
+NonNegativeLengthPercentage
 NonNegativeLengthPercentageOrAuto
+}
 ;
 use
 cssparser
@@ -85,7 +88,7 @@ BackgroundSize
 =
 GenericBackgroundSize
 <
-NonNegativeLengthPercentageOrAuto
+NonNegativeLengthPercentage
 >
 ;
 impl
