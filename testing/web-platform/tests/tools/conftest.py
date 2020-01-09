@@ -27,6 +27,10 @@ max_examples
 =
 1000
                                          
+deadline
+=
+None
+                                         
 suppress_health_check
 =
 [
@@ -45,6 +49,10 @@ pypy
 "
 settings
 (
+deadline
+=
+None
+                                           
 suppress_health_check
 =
 [
