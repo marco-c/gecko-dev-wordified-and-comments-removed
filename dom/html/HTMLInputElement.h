@@ -3398,6 +3398,12 @@ aValue
 ;
 Element
 *
+GetDateTimeBoxElementInUAWidget
+(
+)
+;
+Element
+*
 GetDateTimeBoxElement
 (
 )
