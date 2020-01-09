@@ -18250,6 +18250,14 @@ mLen
 1
 |
 |
+(
+mQuery
+.
+mPos
+>
+0
+&
+&
 mSpec
 .
 CharAt
@@ -18265,6 +18273,7 @@ mPos
 '
 ?
 '
+)
 false
 )
 ;
@@ -18279,6 +18288,14 @@ mLen
 1
 |
 |
+(
+mRef
+.
+mPos
+>
+0
+&
+&
 mSpec
 .
 CharAt
@@ -18294,6 +18311,7 @@ mPos
 '
 #
 '
+)
 false
 )
 ;
