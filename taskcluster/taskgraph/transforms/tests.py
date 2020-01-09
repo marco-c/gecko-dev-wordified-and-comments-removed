@@ -2498,15 +2498,26 @@ fetches
 '
 )
 :
-{
+optionally_keyed_by
+(
         
+'
+test
+-
+platform
+'
+        
+{
+            
 basestring
 :
 [
 basestring
 ]
-    
+        
 }
+    
+)
 }
 required
 =
@@ -5247,6 +5258,10 @@ type
         
 '
 virtualization
+'
+        
+'
+fetches
 '
     
 ]

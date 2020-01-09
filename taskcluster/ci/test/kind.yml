@@ -189,6 +189,12 @@ raptor
 .
 yml
 -
+raptor
+-
+chrome
+.
+yml
+-
 reftest
 .
 yml
