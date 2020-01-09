@@ -882,6 +882,10 @@ mSuspendedByContent
 (
 false
 )
+mSuspendedByChrome
+(
+false
+)
 mWasEverAllowedToStart
 (
 false
@@ -4702,6 +4706,10 @@ SuspendInternal
 nullptr
 )
 ;
+mSuspendedByChrome
+=
+true
+;
 }
 void
 AudioContext
@@ -4803,6 +4811,10 @@ mCloseCalled
 |
 |
 mIsShutDown
+|
+|
+!
+mSuspendedByChrome
 )
 {
 return
@@ -4811,6 +4823,10 @@ return
 ResumeInternal
 (
 )
+;
+mSuspendedByChrome
+=
+false
 ;
 }
 already_AddRefed
@@ -5064,6 +5080,10 @@ nullptr
 )
 ;
 mSuspendCalled
+=
+false
+;
+mSuspendedByChrome
 =
 false
 ;

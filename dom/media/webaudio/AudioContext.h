@@ -1370,6 +1370,9 @@ bool
 mSuspendedByContent
 ;
 bool
+mSuspendedByChrome
+;
+bool
 mWasEverAllowedToStart
 ;
 bool
