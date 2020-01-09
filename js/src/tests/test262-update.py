@@ -1241,6 +1241,26 @@ as
 shellFile
 :
         
+if
+includeSource
+:
+            
+shellFile
+.
+write
+(
+"
+/
+/
+GENERATED
+DO
+NOT
+EDIT
+\
+n
+"
+)
+            
 shellFile
 .
 write
