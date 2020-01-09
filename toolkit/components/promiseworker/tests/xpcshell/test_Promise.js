@@ -977,6 +977,13 @@ resolve
 (
 )
 ;
+await
+Promise
+.
+resolve
+(
+)
+;
 worker
 .
 terminate
