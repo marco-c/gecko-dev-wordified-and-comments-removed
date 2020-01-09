@@ -955,6 +955,11 @@ ProfilerFeature
 :
 :
 MainThreadIO
+|
+ProfilerFeature
+:
+:
+Memory
 ;
 }
 class
