@@ -53,6 +53,8 @@ assign
 {
 }
 config
+(
+)
 {
 entry
 :

@@ -651,7 +651,11 @@ improvesearch
 .
 topSiteSearchShortcuts
 "
+{
+value
+:
 searchTopSiteExperimentPrefValue
+}
 )
 ;
 let
@@ -700,7 +704,11 @@ improvesearch
 .
 handoffToAwesomebar
 "
+{
+value
+:
 handoffToAwesomebarPrefValue
+}
 )
 ;
 this

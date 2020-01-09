@@ -2627,7 +2627,11 @@ https
 /
 getpocket
 .
-com
+cdn
+.
+mozilla
+.
+net
 /
 v3
 /

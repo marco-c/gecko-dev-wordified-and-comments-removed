@@ -88,6 +88,8 @@ assign
 {
 }
 webpackConfig
+(
+)
 {
 mode
 :

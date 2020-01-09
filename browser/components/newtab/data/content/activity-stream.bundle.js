@@ -1228,9 +1228,6 @@ DISCOVERY_STREAM_LAYOUT_UPDATE
 DISCOVERY_STREAM_OPT_OUT
 "
 "
-DISCOVERY_STREAM_REC_IMPRESSION
-"
-"
 DISCOVERY_STREAM_SPOCS_ENDPOINT
 "
 "
@@ -49697,6 +49694,11 @@ createElement
 (
 DSCard_DSCard
 {
+campaignId
+:
+rec
+.
+campaign_id
 key
 :
 dscard

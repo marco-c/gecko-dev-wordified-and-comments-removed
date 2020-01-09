@@ -324,6 +324,13 @@ index
 (
 <
 DSCard
+campaignId
+=
+{
+rec
+.
+campaign_id
+}
 key
 =
 {
