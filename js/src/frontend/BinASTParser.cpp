@@ -10563,6 +10563,7 @@ isFunctionBox
 (
 )
 )
+{
 parseContext_
 -
 >
@@ -10575,6 +10576,7 @@ usesApply
 =
 true
 ;
+}
 }
 else
 if
