@@ -1682,7 +1682,7 @@ GetBrowsingContext
 )
 -
 >
-CrossOriginPolicy
+GetCrossOriginPolicy
 (
 )
 ;

@@ -33359,7 +33359,7 @@ documentPolicy
 ctx
 -
 >
-CrossOriginPolicy
+GetCrossOriginPolicy
 (
 )
 ;
