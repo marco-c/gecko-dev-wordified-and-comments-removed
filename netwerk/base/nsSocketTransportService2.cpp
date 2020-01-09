@@ -4465,10 +4465,9 @@ mPollList
 .
 in_flags
 =
-PollableEvent
-:
-:
-sPollFlags
+PR_POLL_READ
+|
+PR_POLL_EXCEPT
 ;
 mPollList
 [
@@ -8432,10 +8431,9 @@ mPollList
 .
 in_flags
 =
-PollableEvent
-:
-:
-sPollFlags
+PR_POLL_READ
+|
+PR_POLL_EXCEPT
 ;
 mPollList
 [

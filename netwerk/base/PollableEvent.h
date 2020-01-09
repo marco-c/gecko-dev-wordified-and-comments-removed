@@ -22,13 +22,6 @@ TimeStamp
 .
 h
 "
-#
-include
-"
-prio
-.
-h
-"
 namespace
 mozilla
 {
@@ -100,11 +93,6 @@ return
 mReadFD
 ;
 }
-static
-const
-PRInt16
-sPollFlags
-;
 private
 :
 PRFileDesc
