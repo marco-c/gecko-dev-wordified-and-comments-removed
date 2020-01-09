@@ -4007,11 +4007,6 @@ MediaCapabilities
 webidl
 '
 '
-MediaDebugInfo
-.
-webidl
-'
-'
 MediaDeviceInfo
 .
 webidl

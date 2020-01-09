@@ -298,15 +298,9 @@ ClearSecondaryVideoContainer
 )
 override
 ;
-void
+nsCString
 GetDebugInfo
 (
-dom
-:
-:
-MediaSinkDebugInfo
-&
-aInfo
 )
 override
 ;
