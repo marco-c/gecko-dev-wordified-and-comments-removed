@@ -5682,7 +5682,7 @@ screenshot
 class
 InternalRefTestImplementation
 (
-object
+RefTestImplementation
 )
 :
     
@@ -5883,6 +5883,7 @@ self
 get_references
 (
 test
+test
 )
         
 timeout
@@ -5979,6 +5980,7 @@ def
 get_references
 (
 self
+root_test
 node
 )
 :
@@ -6014,9 +6016,28 @@ self
 .
 get_references
 (
+root_test
 item
 )
 relation
+                       
+{
+"
+fuzzy
+"
+:
+self
+.
+get_fuzzy
+(
+root_test
+[
+node
+item
+]
+relation
+)
+}
 ]
 )
         
