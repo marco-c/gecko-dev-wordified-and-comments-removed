@@ -630,7 +630,7 @@ if
 (
 prevContract
 .
-factory
+classID
 )
 {
 registrar
@@ -711,6 +711,8 @@ if
 factory
 )
 {
+try
+{
 registrar
 .
 unregisterFactory
@@ -719,6 +721,17 @@ classID
 factory
 )
 ;
+}
+catch
+(
+e
+)
+{
+factory
+=
+null
+;
+}
 }
 return
 {
