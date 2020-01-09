@@ -176,7 +176,7 @@ CreateDynamicImport
 nsIURI
 *
 aURI
-ModuleScript
+LoadedScript
 *
 aScript
 JS
@@ -289,12 +289,6 @@ mIsTopLevel
 const
 bool
 mIsDynamicImport
-;
-nsCOMPtr
-<
-nsIURI
->
-mBaseURL
 ;
 RefPtr
 <

@@ -78,7 +78,6 @@ ScriptLoadRequest
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mBaseURL
 mLoader
 mModuleScript
 mImports
@@ -98,7 +97,6 @@ ScriptLoadRequest
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mBaseURL
 mLoader
 mModuleScript
 mImports
@@ -281,7 +279,7 @@ CreateDynamicImport
 nsIURI
 *
 aURI
-ModuleScript
+LoadedScript
 *
 aScript
 JS

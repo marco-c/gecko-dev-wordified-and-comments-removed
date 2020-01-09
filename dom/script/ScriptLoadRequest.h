@@ -1099,6 +1099,12 @@ nsICacheInfoChannel
 >
 mCacheInfo
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mBaseURL
+;
 }
 ;
 class
