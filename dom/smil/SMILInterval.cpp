@@ -1,14 +1,17 @@
 #
 include
 "
-nsSMILInterval
+SMILInterval
 .
 h
 "
-nsSMILInterval
+namespace
+mozilla
+{
+SMILInterval
 :
 :
-nsSMILInterval
+SMILInterval
 (
 )
 :
@@ -22,13 +25,13 @@ false
 )
 {
 }
-nsSMILInterval
+SMILInterval
 :
 :
-nsSMILInterval
+SMILInterval
 (
 const
-nsSMILInterval
+SMILInterval
 &
 aOther
 )
@@ -118,11 +121,11 @@ endpoints
 )
 ;
 }
-nsSMILInterval
+SMILInterval
 :
 :
 ~
-nsSMILInterval
+SMILInterval
 (
 )
 {
@@ -153,7 +156,7 @@ called
 ;
 }
 void
-nsSMILInterval
+SMILInterval
 :
 :
 Unlink
@@ -264,7 +267,7 @@ nullptr
 }
 nsSMILInstanceTime
 *
-nsSMILInterval
+SMILInterval
 :
 :
 Begin
@@ -297,7 +300,7 @@ mBegin
 }
 nsSMILInstanceTime
 *
-nsSMILInterval
+SMILInterval
 :
 :
 End
@@ -329,7 +332,7 @@ mEnd
 ;
 }
 void
-nsSMILInterval
+SMILInterval
 :
 :
 SetBegin
@@ -416,7 +419,7 @@ aBegin
 ;
 }
 void
-nsSMILInterval
+SMILInterval
 :
 :
 SetEnd
@@ -478,7 +481,7 @@ aEnd
 ;
 }
 void
-nsSMILInterval
+SMILInterval
 :
 :
 FixBegin
@@ -530,7 +533,7 @@ AddRefFixedEndpoint
 ;
 }
 void
-nsSMILInterval
+SMILInterval
 :
 :
 FixEnd
@@ -599,7 +602,7 @@ AddRefFixedEndpoint
 ;
 }
 void
-nsSMILInterval
+SMILInterval
 :
 :
 AddDependentTime
@@ -646,7 +649,7 @@ time
 }
 }
 void
-nsSMILInterval
+SMILInterval
 :
 :
 RemoveDependentTime
@@ -691,7 +694,7 @@ delete
 ;
 }
 void
-nsSMILInterval
+SMILInterval
 :
 :
 GetDependentTimes
@@ -707,7 +710,7 @@ mDependentTimes
 ;
 }
 bool
-nsSMILInterval
+SMILInterval
 :
 :
 IsDependencyChainLink
@@ -780,4 +783,5 @@ GetBaseInterval
 this
 )
 ;
+}
 }

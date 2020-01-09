@@ -1,9 +1,9 @@
 #
 ifndef
-nsSMILRepeatCount_h
+SMILRepeatCount_h
 #
 define
-nsSMILRepeatCount_h
+SMILRepeatCount_h
 #
 include
 "
@@ -18,12 +18,15 @@ math
 .
 h
 >
+namespace
+mozilla
+{
 class
-nsSMILRepeatCount
+SMILRepeatCount
 {
 public
 :
-nsSMILRepeatCount
+SMILRepeatCount
 (
 )
 :
@@ -34,7 +37,7 @@ kNotSet
 {
 }
 explicit
-nsSMILRepeatCount
+SMILRepeatCount
 (
 double
 aCount
@@ -123,7 +126,7 @@ mCount
 kNotSet
 ;
 }
-nsSMILRepeatCount
+SMILRepeatCount
 &
 operator
 =
@@ -215,5 +218,6 @@ mCount
 ;
 }
 ;
+}
 #
 endif

@@ -1,13 +1,16 @@
 #
 include
 "
-nsSMILRepeatCount
+SMILRepeatCount
 .
 h
 "
+namespace
+mozilla
+{
 const
 double
-nsSMILRepeatCount
+SMILRepeatCount
 :
 :
 kNotSet
@@ -19,7 +22,7 @@ kNotSet
 ;
 const
 double
-nsSMILRepeatCount
+SMILRepeatCount
 :
 :
 kIndefinite
@@ -29,3 +32,4 @@ kIndefinite
 .
 0
 ;
+}
