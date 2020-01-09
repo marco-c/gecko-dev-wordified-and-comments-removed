@@ -545,6 +545,9 @@ resumeRedirectedLoad
 loadArguments
 .
 redirectLoadSwitchId
+loadArguments
+.
+redirectHistoryIndex
 )
 ;
 return
