@@ -1001,12 +1001,12 @@ IntSize
 (
 mDisplayState
 .
-mEyeResolution
+eyeResolution
 .
 width
 mDisplayState
 .
-mEyeResolution
+eyeResolution
 .
 height
 )
@@ -1029,7 +1029,7 @@ Point3D
 (
 mDisplayState
 .
-mEyeTranslation
+eyeTranslation
 [
 whichEye
 ]
@@ -1037,7 +1037,7 @@ whichEye
 x
 mDisplayState
 .
-mEyeTranslation
+eyeTranslation
 [
 whichEye
 ]
@@ -1045,7 +1045,7 @@ whichEye
 y
 mDisplayState
 .
-mEyeTranslation
+eyeTranslation
 [
 whichEye
 ]
@@ -1069,12 +1069,12 @@ Size
 (
 mDisplayState
 .
-mStageSize
+stageSize
 .
 width
 mDisplayState
 .
-mStageSize
+stageSize
 .
 height
 )
@@ -1100,7 +1100,7 @@ m
 components
 mDisplayState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 sizeof
 (
 float

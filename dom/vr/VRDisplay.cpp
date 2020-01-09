@@ -4173,7 +4173,7 @@ aInfo
 .
 mDisplayState
 .
-mEyeFOV
+eyeFOV
 [
 gfx
 :
@@ -4206,7 +4206,7 @@ aInfo
 .
 mDisplayState
 .
-mEyeFOV
+eyeFOV
 [
 gfx
 :

@@ -1098,7 +1098,7 @@ aSystemState
 .
 displayState
 .
-mEyeResolution
+eyeResolution
 .
 width
 *
@@ -1107,7 +1107,7 @@ aSystemState
 .
 displayState
 .
-mEyeResolution
+eyeResolution
 .
 height
 )
@@ -1476,7 +1476,7 @@ aSystemState
 .
 displayState
 .
-mIsConnected
+isConnected
 =
 status
 .
@@ -1486,7 +1486,7 @@ aSystemState
 .
 displayState
 .
-mIsMounted
+isMounted
 =
 status
 .
@@ -1505,7 +1505,7 @@ aSystemState
 .
 displayState
 .
-mIsConnected
+isConnected
 =
 false
 ;
@@ -1513,7 +1513,7 @@ aSystemState
 .
 displayState
 .
-mIsMounted
+isMounted
 =
 false
 ;
@@ -2409,7 +2409,7 @@ Width
 *
 aLayer
 .
-mLeftEyeRect
+leftEyeRect
 .
 x
 ;
@@ -2430,7 +2430,7 @@ Height
 *
 aLayer
 .
-mLeftEyeRect
+leftEyeRect
 .
 y
 ;
@@ -2451,7 +2451,7 @@ Width
 *
 aLayer
 .
-mLeftEyeRect
+leftEyeRect
 .
 width
 ;
@@ -2472,7 +2472,7 @@ Height
 *
 aLayer
 .
-mLeftEyeRect
+leftEyeRect
 .
 height
 ;
@@ -2493,7 +2493,7 @@ Width
 *
 aLayer
 .
-mRightEyeRect
+rightEyeRect
 .
 x
 ;
@@ -2514,7 +2514,7 @@ Height
 *
 aLayer
 .
-mRightEyeRect
+rightEyeRect
 .
 y
 ;
@@ -2535,7 +2535,7 @@ Width
 *
 aLayer
 .
-mRightEyeRect
+rightEyeRect
 .
 width
 ;
@@ -2556,7 +2556,7 @@ Height
 *
 aLayer
 .
-mRightEyeRect
+rightEyeRect
 .
 height
 ;
@@ -5021,7 +5021,7 @@ strncpy
 (
 state
 .
-mDisplayName
+displayName
 "
 Oculus
 VR
@@ -5032,13 +5032,13 @@ kVRDisplayNameMaxLen
 ;
 state
 .
-mIsConnected
+isConnected
 =
 true
 ;
 state
 .
-mIsMounted
+isMounted
 =
 false
 ;
@@ -5052,7 +5052,7 @@ mSession
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 =
 VRDisplayCapabilityFlags
 :
@@ -5070,7 +5070,7 @@ ovrTrackingCap_Orientation
 {
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 =
 VRDisplayCapabilityFlags
@@ -5080,7 +5080,7 @@ Cap_Orientation
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 =
 VRDisplayCapabilityFlags
@@ -5100,7 +5100,7 @@ ovrTrackingCap_Position
 {
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 =
 VRDisplayCapabilityFlags
@@ -5110,7 +5110,7 @@ Cap_Position
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 =
 VRDisplayCapabilityFlags
@@ -5120,7 +5120,7 @@ Cap_LinearAcceleration
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 =
 VRDisplayCapabilityFlags
@@ -5131,7 +5131,7 @@ Cap_StageParameters
 }
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 =
 VRDisplayCapabilityFlags
@@ -5141,7 +5141,7 @@ Cap_External
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 =
 VRDisplayCapabilityFlags
@@ -5151,7 +5151,7 @@ Cap_MountDetection
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 |
 =
 VRDisplayCapabilityFlags
@@ -5161,7 +5161,7 @@ Cap_Present
 ;
 state
 .
-mReportsDroppedFrames
+reportsDroppedFrames
 =
 true
 ;
@@ -5197,7 +5197,7 @@ ovrEye_Right
 ;
 state
 .
-mEyeFOV
+eyeFOV
 [
 VRDisplayState
 :
@@ -5218,7 +5218,7 @@ Eye_Left
 ;
 state
 .
-mEyeFOV
+eyeFOV
 [
 VRDisplayState
 :
@@ -5291,7 +5291,7 @@ pixelsPerDisplayPixel
 }
 state
 .
-mEyeResolution
+eyeResolution
 .
 width
 =
@@ -5322,7 +5322,7 @@ w
 ;
 state
 .
-mEyeResolution
+eyeResolution
 .
 height
 =
@@ -5461,7 +5461,7 @@ ovrSuccess
 {
 aState
 .
-mStageSize
+stageSize
 .
 width
 =
@@ -5471,7 +5471,7 @@ x
 ;
 aState
 .
-mStageSize
+stageSize
 .
 height
 =
@@ -5484,7 +5484,7 @@ else
 {
 aState
 .
-mStageSize
+stageSize
 .
 width
 =
@@ -5494,7 +5494,7 @@ width
 ;
 aState
 .
-mStageSize
+stageSize
 .
 height
 =
@@ -5515,7 +5515,7 @@ OVR_DEFAULT_EYE_HEIGHT
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 0
 ]
@@ -5526,7 +5526,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 1
 ]
@@ -5537,7 +5537,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 2
 ]
@@ -5548,7 +5548,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 3
 ]
@@ -5559,7 +5559,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 4
 ]
@@ -5570,7 +5570,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 5
 ]
@@ -5581,7 +5581,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 6
 ]
@@ -5592,7 +5592,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 7
 ]
@@ -5603,7 +5603,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 8
 ]
@@ -5614,7 +5614,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 9
 ]
@@ -5625,7 +5625,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 10
 ]
@@ -5636,7 +5636,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 11
 ]
@@ -5647,7 +5647,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 12
 ]
@@ -5658,7 +5658,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 13
 ]
@@ -5667,7 +5667,7 @@ eyeHeight
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 14
 ]
@@ -5678,7 +5678,7 @@ mSittingToStandingTransform
 ;
 aState
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 15
 ]
@@ -5756,7 +5756,7 @@ aState
 .
 displayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -5775,7 +5775,7 @@ aState
 .
 displayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -5794,7 +5794,7 @@ aState
 .
 displayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -7737,7 +7737,7 @@ aSystemState
 .
 displayState
 .
-mDroppedFrameCount
+droppedFrameCount
 =
 perfStats
 .

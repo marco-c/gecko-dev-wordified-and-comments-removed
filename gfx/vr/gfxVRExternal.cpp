@@ -564,7 +564,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 =
 0
 ;
@@ -574,7 +574,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mReportsDroppedFrames
+reportsDroppedFrames
 )
 {
 mTelemetry
@@ -585,7 +585,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mDroppedFrameCount
+droppedFrameCount
 ;
 }
 #
@@ -690,7 +690,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mEightCC
+eightCC
 =
 =
 GFX_VR_EIGHTCC
@@ -747,7 +747,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mEightCC
+eightCC
 =
 =
 GFX_VR_EIGHTCC
@@ -850,7 +850,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mDroppedFrameCount
+droppedFrameCount
 -
 mTelemetry
 .
@@ -1257,11 +1257,11 @@ aTexture
 &
 layer
 .
-mTextureType
+textureType
 &
 layer
 .
-mTextureHandle
+textureHandle
 )
 )
 {
@@ -1271,13 +1271,13 @@ false
 }
 layer
 .
-mFrameId
+frameId
 =
 aFrameId
 ;
 layer
 .
-mInputFrameId
+inputFrameId
 =
 mDisplayInfo
 .
@@ -1294,7 +1294,7 @@ inputFrameID
 ;
 layer
 .
-mLeftEyeRect
+leftEyeRect
 .
 x
 =
@@ -1304,7 +1304,7 @@ x
 ;
 layer
 .
-mLeftEyeRect
+leftEyeRect
 .
 y
 =
@@ -1314,7 +1314,7 @@ y
 ;
 layer
 .
-mLeftEyeRect
+leftEyeRect
 .
 width
 =
@@ -1324,7 +1324,7 @@ width
 ;
 layer
 .
-mLeftEyeRect
+leftEyeRect
 .
 height
 =
@@ -1334,7 +1334,7 @@ height
 ;
 layer
 .
-mRightEyeRect
+rightEyeRect
 .
 x
 =
@@ -1344,7 +1344,7 @@ x
 ;
 layer
 .
-mRightEyeRect
+rightEyeRect
 .
 y
 =
@@ -1354,7 +1354,7 @@ y
 ;
 layer
 .
-mRightEyeRect
+rightEyeRect
 .
 width
 =
@@ -1364,7 +1364,7 @@ width
 ;
 layer
 .
-mRightEyeRect
+rightEyeRect
 .
 height
 =
@@ -1397,7 +1397,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 >
 =
 aFrameId
@@ -1408,7 +1408,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mSuppressFrames
+suppressFrames
 |
 |
 !
@@ -1416,7 +1416,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mIsConnected
+isConnected
 ;
 }
 )
@@ -1427,7 +1427,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mSuppressFrames
+suppressFrames
 |
 |
 !
@@ -1435,7 +1435,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mIsConnected
+isConnected
 )
 {
 return
@@ -1450,7 +1450,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 <
 aFrameId
 )
@@ -1468,7 +1468,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mSuppressFrames
+suppressFrames
 |
 |
 !
@@ -1476,7 +1476,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mIsConnected
+isConnected
 )
 {
 return
@@ -1509,7 +1509,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameSuccessful
+lastSubmittedFrameSuccessful
 ;
 }
 void
@@ -3234,7 +3234,7 @@ if
 (
 displayState
 .
-mIsConnected
+isConnected
 )
 {
 mDisplay
@@ -3785,7 +3785,7 @@ double
 aDisplayState
 -
 >
-mMinRestartInterval
+minRestartInterval
 )
 ;
 }
@@ -4069,7 +4069,7 @@ double
 aDisplayState
 -
 >
-mMinRestartInterval
+minRestartInterval
 )
 ;
 }

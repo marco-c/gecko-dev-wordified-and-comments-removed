@@ -385,7 +385,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mPresentingGeneration
+presentingGeneration
 )
 {
 return
@@ -410,7 +410,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mPresentingGeneration
+presentingGeneration
 ;
 }
 void
@@ -479,7 +479,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mIsMounted
+isMounted
 )
 {
 bLastEventWasMounted
@@ -518,7 +518,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mIsMounted
+isMounted
 )
 {
 bLastEventWasMounted
@@ -556,7 +556,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mPresentingGeneration
+presentingGeneration
 )
 {
 mLastPresentingGeneration
@@ -565,7 +565,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mPresentingGeneration
+presentingGeneration
 ;
 vm
 -
@@ -1740,7 +1740,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mIsConnected
+isConnected
 =
 false
 ;

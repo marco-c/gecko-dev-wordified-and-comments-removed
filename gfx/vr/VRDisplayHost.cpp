@@ -394,7 +394,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mPresentingGeneration
+presentingGeneration
 =
 0
 ;
@@ -402,7 +402,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mDisplayName
+displayName
 [
 0
 ]
@@ -749,7 +749,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mIsConnected
+isConnected
 ;
 }
 void
@@ -998,7 +998,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 <
 mLastStartedFrame
 &
@@ -1507,7 +1507,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 )
 {
 mLastStartedFrame

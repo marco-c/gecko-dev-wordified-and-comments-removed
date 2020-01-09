@@ -241,7 +241,7 @@ Assign
 (
 aParam
 .
-mDisplayName
+displayName
 )
 ;
 WriteParam
@@ -255,7 +255,7 @@ WriteParam
 aMsg
 aParam
 .
-mCapabilityFlags
+capabilityFlags
 )
 ;
 WriteParam
@@ -263,7 +263,7 @@ WriteParam
 aMsg
 aParam
 .
-mEyeResolution
+eyeResolution
 .
 width
 )
@@ -273,7 +273,7 @@ WriteParam
 aMsg
 aParam
 .
-mEyeResolution
+eyeResolution
 .
 height
 )
@@ -283,7 +283,7 @@ WriteParam
 aMsg
 aParam
 .
-mSuppressFrames
+suppressFrames
 )
 ;
 WriteParam
@@ -291,7 +291,7 @@ WriteParam
 aMsg
 aParam
 .
-mIsConnected
+isConnected
 )
 ;
 WriteParam
@@ -299,7 +299,7 @@ WriteParam
 aMsg
 aParam
 .
-mIsMounted
+isMounted
 )
 ;
 WriteParam
@@ -307,7 +307,7 @@ WriteParam
 aMsg
 aParam
 .
-mStageSize
+stageSize
 .
 width
 )
@@ -317,7 +317,7 @@ WriteParam
 aMsg
 aParam
 .
-mStageSize
+stageSize
 .
 height
 )
@@ -327,7 +327,7 @@ WriteParam
 aMsg
 aParam
 .
-mLastSubmittedFrameId
+lastSubmittedFrameId
 )
 ;
 WriteParam
@@ -335,7 +335,7 @@ WriteParam
 aMsg
 aParam
 .
-mPresentingGeneration
+presentingGeneration
 )
 ;
 for
@@ -359,7 +359,7 @@ WriteParam
 aMsg
 aParam
 .
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 i
 ]
@@ -396,7 +396,7 @@ WriteParam
 aMsg
 aParam
 .
-mEyeFOV
+eyeFOV
 [
 i
 ]
@@ -407,7 +407,7 @@ WriteParam
 aMsg
 aParam
 .
-mEyeTranslation
+eyeTranslation
 [
 i
 ]
@@ -420,7 +420,7 @@ WriteParam
 aMsg
 aParam
 .
-mEyeTranslation
+eyeTranslation
 [
 i
 ]
@@ -433,7 +433,7 @@ WriteParam
 aMsg
 aParam
 .
-mEyeTranslation
+eyeTranslation
 [
 i
 ]
@@ -486,7 +486,7 @@ aIter
 aResult
 -
 >
-mCapabilityFlags
+capabilityFlags
 )
 )
 |
@@ -501,7 +501,7 @@ aIter
 aResult
 -
 >
-mEyeResolution
+eyeResolution
 .
 width
 )
@@ -518,7 +518,7 @@ aIter
 aResult
 -
 >
-mEyeResolution
+eyeResolution
 .
 height
 )
@@ -535,7 +535,7 @@ aIter
 aResult
 -
 >
-mSuppressFrames
+suppressFrames
 )
 )
 |
@@ -550,7 +550,7 @@ aIter
 aResult
 -
 >
-mIsConnected
+isConnected
 )
 )
 |
@@ -565,7 +565,7 @@ aIter
 aResult
 -
 >
-mIsMounted
+isMounted
 )
 )
 |
@@ -580,7 +580,7 @@ aIter
 aResult
 -
 >
-mStageSize
+stageSize
 .
 width
 )
@@ -597,7 +597,7 @@ aIter
 aResult
 -
 >
-mStageSize
+stageSize
 .
 height
 )
@@ -614,7 +614,7 @@ aIter
 aResult
 -
 >
-mLastSubmittedFrameId
+lastSubmittedFrameId
 )
 )
 |
@@ -629,7 +629,7 @@ aIter
 aResult
 -
 >
-mPresentingGeneration
+presentingGeneration
 )
 )
 )
@@ -666,7 +666,7 @@ aIter
 aResult
 -
 >
-mSittingToStandingTransform
+sittingToStandingTransform
 [
 i
 ]
@@ -684,7 +684,7 @@ strncpy
 aResult
 -
 >
-mDisplayName
+displayName
 displayName
 .
 BeginReading
@@ -736,7 +736,7 @@ aIter
 aResult
 -
 >
-mEyeFOV
+eyeFOV
 [
 i
 ]
@@ -754,7 +754,7 @@ aIter
 aResult
 -
 >
-mEyeTranslation
+eyeTranslation
 [
 i
 ]
@@ -774,7 +774,7 @@ aIter
 aResult
 -
 >
-mEyeTranslation
+eyeTranslation
 [
 i
 ]
@@ -794,7 +794,7 @@ aIter
 aResult
 -
 >
-mEyeTranslation
+eyeTranslation
 [
 i
 ]

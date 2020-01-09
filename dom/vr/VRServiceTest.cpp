@@ -105,7 +105,7 @@ strncpy
 (
 state
 .
-mDisplayName
+displayName
 aID
 .
 BeginReading
@@ -125,19 +125,19 @@ Puppet
 ;
 state
 .
-mIsConnected
+isConnected
 =
 true
 ;
 state
 .
-mIsMounted
+isMounted
 =
 false
 ;
 state
 .
-mCapabilityFlags
+capabilityFlags
 =
 VRDisplayCapabilityFlags
 :
@@ -236,7 +236,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mEyeResolution
+eyeResolution
 .
 width
 =
@@ -246,7 +246,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mEyeResolution
+eyeResolution
 .
 height
 =
@@ -292,7 +292,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mEyeFOV
+eyeFOV
 [
 eye
 ]
@@ -312,7 +312,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -325,7 +325,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
@@ -338,7 +338,7 @@ mDisplayInfo
 .
 mDisplayState
 .
-mEyeTranslation
+eyeTranslation
 [
 eye
 ]
