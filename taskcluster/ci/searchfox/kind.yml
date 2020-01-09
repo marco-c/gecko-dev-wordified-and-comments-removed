@@ -592,6 +592,11 @@ run
 using
 :
 mozharness
+use
+-
+caches
+:
+false
 options
 :
 [
