@@ -787,9 +787,7 @@ ObjectClient
 (
 hud
 .
-jsterm
-.
-hud
+ui
 .
 proxy
 .
@@ -931,9 +929,7 @@ ObjectClient
 (
 hud
 .
-jsterm
-.
-hud
+ui
 .
 proxy
 .

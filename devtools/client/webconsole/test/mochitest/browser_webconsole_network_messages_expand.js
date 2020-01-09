@@ -1769,10 +1769,6 @@ proxy
 =
 ui
 .
-jsterm
-.
-hud
-.
 proxy
 ;
 return

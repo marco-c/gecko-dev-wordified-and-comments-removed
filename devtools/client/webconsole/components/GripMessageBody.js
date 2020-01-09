@@ -160,13 +160,6 @@ PropTypes
 func
 .
 isRequired
-hudProxy
-:
-PropTypes
-.
-object
-.
-isRequired
 onViewSourceInDebugger
 :
 PropTypes

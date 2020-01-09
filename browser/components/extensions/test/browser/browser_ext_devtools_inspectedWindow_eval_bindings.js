@@ -727,13 +727,6 @@ webconsole
 "
 )
 ;
-let
-{
-jsterm
-}
-=
-hud
-;
 const
 messageNode
 =
@@ -745,9 +738,9 @@ resolve
 =
 >
 {
-jsterm
-.
 hud
+.
+ui
 .
 on
 (
@@ -777,9 +770,9 @@ m
 node
 )
 ;
-jsterm
-.
 hud
+.
+ui
 .
 off
 (

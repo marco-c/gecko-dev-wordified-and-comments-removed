@@ -25,7 +25,7 @@ constants
 function
 ensureCSSErrorReportingEnabled
 (
-hud
+webConsoleUI
 )
 {
 return
@@ -50,9 +50,9 @@ action
 const
 proxy
 =
-hud
+webConsoleUI
 ?
-hud
+webConsoleUI
 .
 proxy
 :

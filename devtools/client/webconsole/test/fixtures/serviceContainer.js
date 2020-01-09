@@ -8,7 +8,7 @@ module
 exports
 =
 {
-attachRefToHud
+attachRefToWebConsoleUI
 :
 (
 )
@@ -31,7 +31,7 @@ emitNewMessage
 >
 {
 }
-hudProxy
+proxy
 :
 {
 client

@@ -136,7 +136,7 @@ true
 function
 createContextMenu
 (
-hud
+webConsoleUI
 parentNode
 {
 actor
@@ -590,7 +590,7 @@ selectedObjectActor
 actor
 }
 ;
-hud
+webConsoleUI
 .
 jsterm
 .
@@ -608,7 +608,7 @@ res
 =
 >
 {
-hud
+webConsoleUI
 .
 jsterm
 .
@@ -616,7 +616,7 @@ focus
 (
 )
 ;
-hud
+webConsoleUI
 .
 jsterm
 .
@@ -807,7 +807,7 @@ if
 actor
 )
 {
-hud
+webConsoleUI
 .
 jsterm
 .

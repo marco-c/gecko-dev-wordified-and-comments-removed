@@ -2597,10 +2597,6 @@ i
 ;
 ui
 .
-jsterm
-.
-hud
-.
 on
 (
 "
@@ -2712,10 +2708,6 @@ length
 )
 {
 ui
-.
-jsterm
-.
-hud
 .
 off
 (

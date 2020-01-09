@@ -27,7 +27,7 @@ constants
 function
 enableActorReleaser
 (
-hud
+webConsoleUI
 )
 {
 return
@@ -67,9 +67,9 @@ type
 const
 proxy
 =
-hud
+webConsoleUI
 ?
-hud
+webConsoleUI
 .
 proxy
 :
