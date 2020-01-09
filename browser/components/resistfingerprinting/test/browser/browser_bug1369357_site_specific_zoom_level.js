@@ -183,6 +183,13 @@ disabled
 "
 )
 ;
+await
+FullZoom
+.
+reset
+(
+)
+;
 BrowserTestUtils
 .
 removeTab
