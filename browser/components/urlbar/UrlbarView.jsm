@@ -877,6 +877,7 @@ _selectItem
 fragment
 .
 firstElementChild
+false
 )
 ;
 }
@@ -923,6 +924,7 @@ children
 [
 resultIndex
 ]
+false
 )
 ;
 }
