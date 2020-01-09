@@ -741,6 +741,9 @@ nfc
 "
 ble
 "
+"
+internal
+"
 }
 ;
 typedef

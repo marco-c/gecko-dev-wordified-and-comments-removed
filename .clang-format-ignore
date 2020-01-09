@@ -728,6 +728,15 @@ recognition
 energy_endpointer_params
 .
 h
+dom
+/
+webauthn
+/
+winwebauthn
+/
+webauthn
+.
+h
 editor
 /
 libeditor
