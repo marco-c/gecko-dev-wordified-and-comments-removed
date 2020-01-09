@@ -3356,10 +3356,11 @@ mSrcStreamTracksAvailable
 =
 false
 ;
+Maybe
+<
 GraphTime
+>
 mSrcStreamPausedGraphTime
-=
-GRAPH_TIME_MAX
 ;
 GraphTime
 mSrcStreamGraphTimeOffset
