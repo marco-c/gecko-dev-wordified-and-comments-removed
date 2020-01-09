@@ -311,7 +311,7 @@ new
 UrlbarQueryContext
 (
 {
-enableAutofill
+allowAutofill
 :
 UrlbarPrefs
 .

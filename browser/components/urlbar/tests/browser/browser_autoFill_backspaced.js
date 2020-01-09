@@ -59,6 +59,14 @@ onAutoFill
 (
 )
 ;
+info
+(
+"
+Synthesizing
+keys
+"
+)
+;
 keys
 .
 forEach

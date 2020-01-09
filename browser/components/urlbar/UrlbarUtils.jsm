@@ -1294,7 +1294,7 @@ _checkRequiredOptions
 options
 [
 "
-enableAutofill
+allowAutofill
 "
 "
 isPrivate

@@ -687,7 +687,7 @@ searchString
 "
 autofill
 "
-enableAutofill
+allowAutofill
 :
 true
 }
@@ -732,7 +732,7 @@ searchString
 "
 auto
 "
-enableAutofill
+allowAutofill
 :
 false
 }
@@ -778,7 +778,7 @@ searchString
 "
 autofill
 "
-enableAutofill
+allowAutofill
 :
 true
 }

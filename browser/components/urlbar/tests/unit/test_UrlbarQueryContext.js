@@ -26,7 +26,7 @@ UrlbarQueryContext
 Missing
 or
 empty
-enableAutofill
+allowAutofill
 provided
 to
 UrlbarQueryContext
@@ -52,7 +52,7 @@ new
 UrlbarQueryContext
 (
 {
-enableAutofill
+allowAutofill
 :
 true
 isPrivate
@@ -100,7 +100,7 @@ new
 UrlbarQueryContext
 (
 {
-enableAutofill
+allowAutofill
 :
 true
 isPrivate
@@ -150,7 +150,7 @@ new
 UrlbarQueryContext
 (
 {
-enableAutofill
+allowAutofill
 :
 true
 lastKey
@@ -222,7 +222,7 @@ foo
 Missing
 or
 empty
-enableAutofill
+allowAutofill
 provided
 to
 UrlbarQueryContext
@@ -233,7 +233,7 @@ throw
 with
 a
 missing
-enableAutofill
+allowAutofill
 parameter
 "
 )
@@ -245,7 +245,7 @@ new
 UrlbarQueryContext
 (
 {
-enableAutofill
+allowAutofill
 :
 false
 isPrivate
@@ -273,7 +273,7 @@ strictEqual
 (
 qc
 .
-enableAutofill
+allowAutofill
 false
 "
 Should
@@ -283,7 +283,7 @@ the
 correct
 value
 for
-enableAutofill
+allowAutofill
 "
 )
 ;
