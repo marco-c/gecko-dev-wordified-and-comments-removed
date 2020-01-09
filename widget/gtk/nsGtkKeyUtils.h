@@ -287,6 +287,12 @@ aKeymap
 endif
 static
 void
+ResetKeyboard
+(
+)
+;
+static
+void
 Shutdown
 (
 )
