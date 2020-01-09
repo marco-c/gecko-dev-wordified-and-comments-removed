@@ -4502,7 +4502,7 @@ audioParams
 node
 -
 >
-OutputParams
+GetAudioParams
 (
 )
 ;

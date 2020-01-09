@@ -810,12 +810,10 @@ ChannelInterpretation
 :
 Speakers
 )
+{
+CreateAudioParam
+(
 mDelay
-(
-new
-AudioParam
-(
-this
 DelayNodeEngine
 :
 :
@@ -831,8 +829,7 @@ delayTime
 f
 aMaxDelay
 )
-)
-{
+;
 DelayNodeEngine
 *
 engine

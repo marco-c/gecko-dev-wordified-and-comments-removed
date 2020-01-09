@@ -811,12 +811,10 @@ ChannelInterpretation
 :
 Speakers
 )
+{
+CreateAudioParam
+(
 mPan
-(
-new
-AudioParam
-(
-this
 StereoPannerNodeEngine
 :
 :
@@ -835,8 +833,7 @@ f
 .
 f
 )
-)
-{
+;
 StereoPannerNodeEngine
 *
 engine
