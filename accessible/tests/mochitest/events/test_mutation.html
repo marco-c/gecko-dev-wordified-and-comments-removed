@@ -607,6 +607,9 @@ nsIAccessibleEvent
 .
 EVENT_SHOW
 ;
+return
+0
+;
 }
 ;
 this
@@ -1006,10 +1009,7 @@ targets
 aTargetsFunc
 ?
 aTargetsFunc
-.
-call
 (
-null
 newElm
 )
 :
@@ -1034,10 +1034,7 @@ var
 reorderTarget
 =
 aReorderTargetFunc
-.
-call
 (
-null
 this
 .
 DOMNode
@@ -1200,10 +1197,7 @@ setTargets
 (
 kHideEvent
 aTargetsFunc
-.
-call
 (
-null
 this
 .
 DOMNode
@@ -1227,10 +1221,7 @@ setTarget
 (
 kReorderEvent
 aReorderTargetFunc
-.
-call
 (
-null
 this
 .
 DOMNode

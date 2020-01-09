@@ -636,11 +636,14 @@ imageMapAcc
 .
 firstChild
 )
-return
+{
 aTestFunc
 (
 )
 ;
+return
+;
+}
 waitForEvent
 (
 EVENT_REORDER

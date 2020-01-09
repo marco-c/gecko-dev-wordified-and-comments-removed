@@ -842,12 +842,9 @@ string
 )
 ;
 }
-finally
-{
 return
 str
 ;
-}
 }
 }
 ;
@@ -1592,6 +1589,9 @@ value
 ;
 }
 }
+return
+undefined
+;
 }
 getLandmarkName
 :
@@ -1724,6 +1724,7 @@ roles
 )
 {
 return
+undefined
 ;
 }
 return

@@ -737,11 +737,14 @@ value
 &
 STATE_BUSY
 )
-return
+{
 waitForDocLoad
 (
 )
 ;
+return
+;
+}
 window
 .
 setTimeout
@@ -3389,6 +3392,9 @@ e
 )
 {
 }
+return
+null
+;
 }
 function
 prettyName

@@ -558,6 +558,9 @@ return
 INVOKER_ACTION_FAILED
 ;
 }
+return
+null
+;
 }
 ;
 this

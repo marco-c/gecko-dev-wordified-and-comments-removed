@@ -1225,11 +1225,6 @@ event
 )
 ;
 }
-finally
-{
-return
-;
-}
 }
 }
 ;
