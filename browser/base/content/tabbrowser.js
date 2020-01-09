@@ -2873,6 +2873,12 @@ marginInlineStart
 "
 "
 ;
+aTab
+.
+_pinnedUnscrollable
+=
+false
+;
 this
 .
 _updateTabBarForPinnedTabs
