@@ -9,11 +9,21 @@ __future__
 import
 absolute_import
 import
-urlparse
-import
 zipfile
+from
+six
 import
-StringIO
+BytesIO
+from
+six
+.
+moves
+.
+urllib
+.
+parse
+import
+urlunsplit
 import
 mozhttpd
 import
@@ -176,9 +186,7 @@ make_zipfile
         
 data
 =
-StringIO
-.
-StringIO
+BytesIO
 (
 )
         
@@ -301,8 +309,6 @@ start
     
 symbol_url
 =
-urlparse
-.
 urlunsplit
 (
 (
@@ -322,7 +328,7 @@ httpd
 httpd
 .
 server_address
-                                      
+                             
 '
 /
 symbols
