@@ -205,6 +205,13 @@ close
 >
 {
 }
+isClosed
+:
+(
+)
+=
+>
+false
 connect
 :
 (
