@@ -198,6 +198,10 @@ webrender_build
 serialize_program
 "
 ]
+no_static_freetype
+=
+[
+]
 [
 build
 -
