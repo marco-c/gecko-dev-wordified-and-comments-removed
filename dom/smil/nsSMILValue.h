@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSMILNullType
+SMILNullType
 .
 h
 "
@@ -23,6 +23,13 @@ nsSMILValue
 {
 public
 :
+typedef
+mozilla
+:
+:
+SMILNullType
+SMILNullType
+;
 nsSMILValue
 (
 )
@@ -32,7 +39,7 @@ mU
 )
 mType
 (
-nsSMILNullType
+SMILNullType
 :
 :
 Singleton
@@ -150,7 +157,7 @@ return
 mType
 =
 =
-nsSMILNullType
+SMILNullType
 :
 :
 Singleton

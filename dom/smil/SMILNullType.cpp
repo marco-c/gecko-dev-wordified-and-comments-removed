@@ -1,7 +1,7 @@
 #
 include
 "
-nsSMILNullType
+SMILNullType
 .
 h
 "
@@ -19,9 +19,12 @@ nsDebug
 .
 h
 "
-nsSMILNullType
+namespace
+mozilla
+{
+SMILNullType
 *
-nsSMILNullType
+SMILNullType
 :
 :
 Singleton
@@ -29,7 +32,7 @@ Singleton
 )
 {
 static
-nsSMILNullType
+SMILNullType
 sSingleton
 ;
 return
@@ -38,7 +41,7 @@ sSingleton
 ;
 }
 nsresult
-nsSMILNullType
+SMILNullType
 :
 :
 Assign
@@ -106,7 +109,7 @@ NS_OK
 ;
 }
 bool
-nsSMILNullType
+SMILNullType
 :
 :
 IsEqual
@@ -161,7 +164,7 @@ true
 ;
 }
 nsresult
-nsSMILNullType
+SMILNullType
 :
 :
 Add
@@ -192,7 +195,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-nsSMILNullType
+SMILNullType
 :
 :
 ComputeDistance
@@ -227,7 +230,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-nsSMILNullType
+SMILNullType
 :
 :
 Interpolate
@@ -260,4 +263,5 @@ type
 return
 NS_ERROR_FAILURE
 ;
+}
 }

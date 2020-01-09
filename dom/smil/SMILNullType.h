@@ -20,8 +20,11 @@ nsISMILType
 .
 h
 "
+namespace
+mozilla
+{
 class
-nsSMILNullType
+SMILNullType
 :
 public
 nsISMILType
@@ -29,7 +32,7 @@ nsISMILType
 public
 :
 static
-nsSMILNullType
+SMILNullType
 *
 Singleton
 (
@@ -152,12 +155,13 @@ override
 private
 :
 constexpr
-nsSMILNullType
+SMILNullType
 (
 )
 {
 }
 }
 ;
+}
 #
 endif

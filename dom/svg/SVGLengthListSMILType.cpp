@@ -168,7 +168,7 @@ aValue
 .
 mType
 =
-nsSMILNullType
+SMILNullType
 :
 :
 Singleton

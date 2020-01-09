@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsSMILNullType
+SMILNullType
 .
 h
 "

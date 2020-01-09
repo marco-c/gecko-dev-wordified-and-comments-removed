@@ -176,11 +176,6 @@ nsSMILMilestone
 h
 '
 '
-nsSMILNullType
-.
-h
-'
-'
 nsSMILRepeatCount
 .
 h
@@ -227,6 +222,11 @@ h
 '
 '
 nsSMILValue
+.
+h
+'
+'
+SMILNullType
 .
 h
 '
@@ -290,11 +290,6 @@ nsSMILKeySpline
 cpp
 '
 '
-nsSMILNullType
-.
-cpp
-'
-'
 nsSMILParserUtils
 .
 cpp
@@ -351,6 +346,11 @@ cpp
 '
 '
 SMILIntegerType
+.
+cpp
+'
+'
+SMILNullType
 .
 cpp
 '

@@ -32,7 +32,7 @@ aType
 :
 mType
 (
-nsSMILNullType
+SMILNullType
 :
 :
 Singleton
@@ -88,7 +88,7 @@ aVal
 :
 mType
 (
-nsSMILNullType
+SMILNullType
 :
 :
 Singleton
@@ -202,7 +202,7 @@ aVal
 .
 mType
 =
-nsSMILNullType
+SMILNullType
 :
 :
 Singleton
@@ -253,7 +253,7 @@ aVal
 .
 mType
 =
-nsSMILNullType
+SMILNullType
 :
 :
 Singleton
