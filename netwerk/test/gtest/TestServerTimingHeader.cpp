@@ -37,6 +37,17 @@ include
 <
 vector
 >
+using
+namespace
+mozilla
+;
+using
+namespace
+mozilla
+:
+:
+net
+;
 void
 testServerTimingHeader
 (
