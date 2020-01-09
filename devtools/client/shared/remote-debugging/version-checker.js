@@ -516,6 +516,7 @@ COMPATIBLE
 return
 {
 localID
+localVersion
 minVersion
 runtimeID
 runtimeVersion
