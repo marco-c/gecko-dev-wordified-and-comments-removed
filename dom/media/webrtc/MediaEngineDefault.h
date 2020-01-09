@@ -412,9 +412,6 @@ ImageContainer
 >
 mImageContainer
 ;
-Mutex
-mMutex
-;
 MediaEngineSourceState
 mState
 =
@@ -439,6 +436,11 @@ TrackID
 mTrackID
 =
 TRACK_NONE
+;
+PrincipalHandle
+mPrincipalHandle
+=
+PRINCIPAL_HANDLE_NONE
 ;
 MediaEnginePrefs
 mOpts
