@@ -1451,6 +1451,14 @@ DisplayVkXcb
 .
 h
 '
+    
+'
+kernel
+/
+image
+.
+h
+'
 }
 IGNORED_INCLUDE_PREFIXES
 =
@@ -1803,6 +1811,12 @@ _HAS_EXCEPTIONS
 '
 :
 True
+    
+'
+_HAS_ITERATOR_DEBUGGING
+'
+:
+False
     
 '
 _SCL_SECURE_NO_DEPRECATE
@@ -3028,6 +3042,9 @@ cpp
 '
 '
 cc
+'
+'
+c
 '
 ]
 :
