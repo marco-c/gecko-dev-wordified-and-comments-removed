@@ -45,9 +45,6 @@ const
 nsACString
 &
 aScriptSpec
-nsILoadGroup
-*
-aLoadGroup
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
 )
@@ -61,7 +58,6 @@ Register
 aPrincipal
 aScope
 aScriptSpec
-aLoadGroup
 aUpdateViaCache
 )
 {

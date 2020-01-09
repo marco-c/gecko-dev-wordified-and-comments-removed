@@ -506,9 +506,6 @@ const
 nsAString
 &
 aURL
-nsILoadGroup
-*
-aLoadGroup
 Cache
 *
 const
@@ -1074,9 +1071,6 @@ const
 nsAString
 &
 aCacheName
-nsILoadGroup
-*
-aLoadGroup
 )
 ;
 void
@@ -1391,7 +1385,6 @@ Initialize
 (
 mPrincipal
 aURL
-mLoadGroup
 aCache
 )
 ;
@@ -2728,12 +2721,6 @@ mPrincipal
 ;
 RefPtr
 <
-nsILoadGroup
->
-mLoadGroup
-;
-RefPtr
-<
 Cache
 >
 mOldCache
@@ -2787,9 +2774,6 @@ const
 nsAString
 &
 aURL
-nsILoadGroup
-*
-aLoadGroup
 Cache
 *
 const
@@ -5162,9 +5146,6 @@ const
 nsAString
 &
 aCacheName
-nsILoadGroup
-*
-aLoadGroup
 )
 {
 MOZ_ASSERT
@@ -5218,10 +5199,6 @@ aURL
 mPrincipal
 =
 aPrincipal
-;
-mLoadGroup
-=
-aLoadGroup
 ;
 AutoJSAPI
 jsapi
@@ -6005,9 +5982,6 @@ aURL
 CompareCallback
 *
 aCallback
-nsILoadGroup
-*
-aLoadGroup
 )
 {
 MOZ_ASSERT
@@ -6066,7 +6040,6 @@ Initialize
 aPrincipal
 aURL
 aCacheName
-aLoadGroup
 )
 ;
 if

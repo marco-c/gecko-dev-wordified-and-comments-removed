@@ -561,9 +561,6 @@ const
 nsACString
 &
 aScriptSpec
-nsILoadGroup
-*
-aLoadGroup
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
 )
@@ -577,10 +574,6 @@ Update
 aPrincipal
 aScope
 aScriptSpec
-)
-mLoadGroup
-(
-aLoadGroup
 )
 mUpdateViaCache
 (
@@ -648,9 +641,6 @@ const
 nsACString
 &
 aScriptSpec
-nsILoadGroup
-*
-aLoadGroup
 ServiceWorkerUpdateViaCache
 aUpdateViaCache
 )
@@ -661,10 +651,6 @@ aType
 aPrincipal
 aScope
 aScriptSpec
-)
-mLoadGroup
-(
-aLoadGroup
 )
 mUpdateViaCache
 (
@@ -1186,7 +1172,6 @@ NS_ConvertUTF8toUTF16
 mScriptSpec
 )
 callback
-mLoadGroup
 )
 ;
 if

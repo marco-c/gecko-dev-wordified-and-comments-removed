@@ -3866,17 +3866,6 @@ ServiceWorkerResolveWindowPromiseOnRegisterCallback
 (
 )
 ;
-nsCOMPtr
-<
-nsILoadGroup
->
-loadGroup
-=
-do_CreateInstance
-(
-NS_LOADGROUP_CONTRACTID
-)
-;
 RefPtr
 <
 ServiceWorkerRegisterJob
@@ -3889,7 +3878,6 @@ ServiceWorkerRegisterJob
 principal
 aScopeURL
 aScriptURL
-loadGroup
 static_cast
 <
 ServiceWorkerUpdateViaCache
@@ -11053,7 +11041,6 @@ newest
 ScriptSpec
 (
 )
-nullptr
 registration
 -
 >
@@ -11422,7 +11409,6 @@ newest
 ScriptSpec
 (
 )
-nullptr
 registration
 -
 >
