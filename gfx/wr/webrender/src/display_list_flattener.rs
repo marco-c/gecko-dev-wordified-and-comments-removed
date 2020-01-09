@@ -2926,6 +2926,7 @@ alpha_type
 info
 .
 color
+reference_frame_relative_offset
 )
 ;
 }
@@ -2959,6 +2960,7 @@ color_space
 info
 .
 image_rendering
+reference_frame_relative_offset
 )
 ;
 }
@@ -3022,6 +3024,7 @@ prim_info
 info
 .
 color
+reference_frame_relative_offset
 )
 ;
 }
@@ -3039,6 +3042,7 @@ add_clear_rectangle
 clip_and_scroll
 &
 prim_info
+reference_frame_relative_offset
 )
 ;
 }
@@ -3072,6 +3076,7 @@ color
 info
 .
 style
+reference_frame_relative_offset
 )
 ;
 }
@@ -3143,6 +3148,7 @@ new
 (
 )
 prim_key_kind
+reference_frame_relative_offset
 )
 ;
 }
@@ -3247,6 +3253,7 @@ new
 (
 )
 prim_key_kind
+reference_frame_relative_offset
 )
 ;
 }
@@ -3316,6 +3323,7 @@ border_radius
 box_shadow_info
 .
 clip_mode
+reference_frame_relative_offset
 )
 ;
 }
@@ -3344,6 +3352,7 @@ gradient_stops
 (
 )
 pipeline_id
+reference_frame_relative_offset
 )
 ;
 }
@@ -4230,6 +4239,7 @@ self
 .
 pop_all_shadows
 (
+reference_frame_relative_offset
 )
 ;
 }
@@ -4489,6 +4499,9 @@ SpatialNodeIndex
 prim
 :
 P
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 -
 >
@@ -4597,6 +4610,7 @@ mut
 self
 .
 prim_store
+reference_frame_relative_offset
 )
 ;
 PrimitiveInstance
@@ -4873,6 +4887,9 @@ ClipItemKey
 prim
 :
 P
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 where
 P
@@ -4940,6 +4957,7 @@ info
 clip_chain_id
 clip_and_scroll
 prim
+reference_frame_relative_offset
 )
 ;
 }
@@ -4973,6 +4991,9 @@ ClipItemKey
 prim
 :
 P
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 where
 P
@@ -5056,6 +5077,7 @@ clip_and_scroll
 info
 clip_items
 prim
+reference_frame_relative_offset
 )
 ;
 }
@@ -5154,6 +5176,9 @@ ScrollNodeAndClipChain
 prim
 :
 P
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 where
 P
@@ -5201,6 +5226,7 @@ clip_and_scroll
 .
 spatial_node_index
 prim
+reference_frame_relative_offset
 )
 ;
 self
@@ -8244,6 +8270,9 @@ pop_all_shadows
 &
 mut
 self
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 assert
@@ -8704,6 +8733,7 @@ pending_image
 &
 mut
 prims
+reference_frame_relative_offset
 )
 }
 ShadowItem
@@ -8727,6 +8757,7 @@ pending_line_dec
 &
 mut
 prims
+reference_frame_relative_offset
 )
 }
 ShadowItem
@@ -8750,6 +8781,7 @@ pending_border
 &
 mut
 prims
+reference_frame_relative_offset
 )
 }
 ShadowItem
@@ -8773,6 +8805,7 @@ pending_primitive
 &
 mut
 prims
+reference_frame_relative_offset
 )
 }
 ShadowItem
@@ -8796,6 +8829,7 @@ pending_text_run
 &
 mut
 prims
+reference_frame_relative_offset
 )
 }
 _
@@ -9183,6 +9217,7 @@ self
 add_shadow_prim_to_draw_list
 (
 pending_image
+reference_frame_relative_offset
 )
 }
 ShadowItem
@@ -9200,6 +9235,7 @@ self
 add_shadow_prim_to_draw_list
 (
 pending_line_dec
+reference_frame_relative_offset
 )
 }
 ShadowItem
@@ -9217,6 +9253,7 @@ self
 add_shadow_prim_to_draw_list
 (
 pending_border
+reference_frame_relative_offset
 )
 }
 ShadowItem
@@ -9234,6 +9271,7 @@ self
 add_shadow_prim_to_draw_list
 (
 pending_primitive
+reference_frame_relative_offset
 )
 }
 ShadowItem
@@ -9251,6 +9289,7 @@ self
 add_shadow_prim_to_draw_list
 (
 pending_text_run
+reference_frame_relative_offset
 )
 }
 }
@@ -9300,6 +9339,9 @@ Vec
 <
 PrimitiveInstance
 >
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 where
 P
@@ -9440,6 +9482,7 @@ pending_shadow
 .
 shadow
 )
+reference_frame_relative_offset
 )
 ;
 /
@@ -9476,6 +9519,9 @@ PendingPrimitive
 <
 P
 >
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 where
 P
@@ -9567,6 +9613,7 @@ clip_and_scroll
 pending_primitive
 .
 prim
+reference_frame_relative_offset
 )
 ;
 }
@@ -9682,6 +9729,9 @@ LayoutPrimitiveInfo
 color
 :
 ColorF
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 if
@@ -9760,6 +9810,7 @@ into
 (
 )
 }
+reference_frame_relative_offset
 )
 ;
 }
@@ -9777,6 +9828,9 @@ info
 :
 &
 LayoutPrimitiveInfo
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 self
@@ -9795,6 +9849,7 @@ PrimitiveKeyKind
 :
 :
 Clear
+reference_frame_relative_offset
 )
 ;
 }
@@ -9824,6 +9879,9 @@ ColorF
 style
 :
 LineStyle
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 /
@@ -10140,6 +10198,7 @@ into
 (
 )
 }
+reference_frame_relative_offset
 )
 ;
 }
@@ -10170,6 +10229,9 @@ GradientStop
 pipeline_id
 :
 PipelineId
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 match
@@ -10296,6 +10358,7 @@ new
 (
 )
 prim
+reference_frame_relative_offset
 )
 ;
 }
@@ -10390,6 +10453,7 @@ new
 (
 )
 prim
+reference_frame_relative_offset
 )
 ;
 }
@@ -10496,6 +10560,7 @@ new
 (
 )
 prim
+reference_frame_relative_offset
 )
 ;
 }
@@ -10523,6 +10588,7 @@ border_item
 .
 widths
 clip_and_scroll
+reference_frame_relative_offset
 )
 ;
 }
@@ -11565,9 +11631,6 @@ new
 glyphs
 )
 font
-offset
-:
-prim_offset
 shadow
 :
 false
@@ -11587,6 +11650,7 @@ new
 (
 )
 text_run
+offset
 )
 ;
 }
@@ -11629,6 +11693,9 @@ AlphaType
 color
 :
 ColorF
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 let
@@ -11784,6 +11851,7 @@ sub_rect
 image_rendering
 alpha_type
 }
+reference_frame_relative_offset
 )
 ;
 }
@@ -11813,6 +11881,9 @@ YuvColorSpace
 image_rendering
 :
 ImageRendering
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 {
 let
@@ -11906,6 +11977,7 @@ format
 color_space
 image_rendering
 }
+reference_frame_relative_offset
 )
 ;
 }
@@ -12035,6 +12107,9 @@ prim_store
 &
 mut
 PrimitiveStore
+reference_frame_relative_offset
+:
+LayoutVector2D
 )
 -
 >
