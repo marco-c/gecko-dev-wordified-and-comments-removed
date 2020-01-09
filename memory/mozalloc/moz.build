@@ -321,14 +321,6 @@ True
 DisableStlWrapping
 (
 )
-DEFINES
-[
-'
-IMPL_MFBT
-'
-]
-=
-True
 LOCAL_INCLUDES
 +
 =

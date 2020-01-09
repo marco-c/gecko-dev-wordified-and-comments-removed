@@ -205,14 +205,6 @@ CONFIG
 REALTIME_LIBS
 '
 ]
-DEFINES
-[
-'
-IMPL_MFBT
-'
-]
-=
-True
 if
 CONFIG
 [
