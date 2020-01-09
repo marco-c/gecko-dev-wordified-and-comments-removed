@@ -1499,6 +1499,9 @@ this
 invisibleToDebugger
 :
 false
+freshCompartment
+:
+true
 }
 )
 ;
