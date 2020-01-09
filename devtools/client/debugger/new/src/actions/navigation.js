@@ -336,6 +336,7 @@ function
 dispatch
 getState
 client
+onReload
 }
 :
 ThunkArgs
@@ -386,6 +387,10 @@ sources
 )
 ;
 }
+onReload
+(
+)
+;
 }
 ;
 }

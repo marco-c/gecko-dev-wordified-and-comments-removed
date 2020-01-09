@@ -222,6 +222,13 @@ Object
 =
 >
 void
+onReload
+:
+(
+)
+=
+>
+void
 }
 ;
 export
