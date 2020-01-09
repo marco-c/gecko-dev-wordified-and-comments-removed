@@ -306,6 +306,8 @@ nsString
 aEffectiveURL
 bool
 aEncrypted
+uint64_t
+aHttpChannelId
 )
 ;
 async

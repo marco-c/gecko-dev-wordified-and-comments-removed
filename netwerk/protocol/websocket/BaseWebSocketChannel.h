@@ -341,6 +341,15 @@ aNegotiatedExtensions
 )
 override
 ;
+NS_IMETHOD
+GetHttpChannelId
+(
+uint64_t
+*
+aHttpChannelId
+)
+override
+;
 virtual
 void
 GetEffectiveURL
@@ -497,6 +506,9 @@ mPingResponseTimeout
 ;
 uint32_t
 mSerial
+;
+uint64_t
+mHttpChannelId
 ;
 }
 ;

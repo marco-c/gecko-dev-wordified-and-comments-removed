@@ -13855,6 +13855,15 @@ get
 )
 )
 ;
+mHttpChannelId
+=
+mHttpChannel
+-
+>
+ChannelId
+(
+)
+;
 return
 NS_OK
 ;
