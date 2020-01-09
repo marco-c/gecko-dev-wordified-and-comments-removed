@@ -176,13 +176,6 @@ components
 DevToolsModules
 (
 '
-attach
--
-thread
-.
-js
-'
-'
 browser
 -
 menus
