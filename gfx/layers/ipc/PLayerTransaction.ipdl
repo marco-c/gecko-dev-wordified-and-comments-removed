@@ -238,14 +238,14 @@ mozilla
 layers
 :
 :
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 from
 "
 mozilla
 /
 layers
 /
-ScrollableLayerGuid
+APZTypes
 .
 h
 "
@@ -656,7 +656,7 @@ SetConfirmedTargetAPZC
 (
 uint64_t
 aInputBlockId
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 [
 ]
 aTargets

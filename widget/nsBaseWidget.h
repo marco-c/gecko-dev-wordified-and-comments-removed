@@ -468,6 +468,16 @@ mozilla
 layers
 :
 :
+SLGuidAndRenderRoot
+SLGuidAndRenderRoot
+;
+typedef
+mozilla
+:
+:
+layers
+:
+:
 ScrollableLayerGuid
 ScrollableLayerGuid
 ;
@@ -1626,7 +1636,7 @@ aInputBlockId
 const
 nsTArray
 <
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 >
 &
 aTargets
@@ -1876,7 +1886,7 @@ ScreenPoint
 &
 aAnchorLocation
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 )
@@ -1887,7 +1897,7 @@ void
 StopAsyncAutoscroll
 (
 const
-ScrollableLayerGuid
+SLGuidAndRenderRoot
 &
 aGuid
 )
