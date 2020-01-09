@@ -275,6 +275,8 @@ ready
 "
 )
 ;
+try
+{
 await
 Promise
 .
@@ -287,6 +289,9 @@ win
 )
 )
 ;
+}
+finally
+{
 ChromeUtils
 .
 unregisterWindowActor
@@ -315,6 +320,7 @@ test
 name
 )
 ;
+}
 }
 )
 ;
