@@ -303,11 +303,6 @@ JSContext
 cx
 HandleArrayObject
 templateObject
-gc
-:
-:
-InitialHeap
-heap
 )
 ;
 extern

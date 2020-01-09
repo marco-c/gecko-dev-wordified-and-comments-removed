@@ -6292,10 +6292,6 @@ NativeObject
 createWithTemplate
 (
 cx
-gc
-:
-:
-DefaultHeap
 templateObject
 )
 )
