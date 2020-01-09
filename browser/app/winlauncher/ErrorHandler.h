@@ -120,6 +120,11 @@ StaticXREAppData
 aAppData
 )
 ;
+void
+SetLauncherErrorForceEventLog
+(
+)
+;
 }
 #
 endif
