@@ -47,7 +47,7 @@ document
 querySelectorAll
 (
 "
-*
+span
 "
 )
 .
