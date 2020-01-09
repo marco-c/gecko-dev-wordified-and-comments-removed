@@ -350,13 +350,6 @@ SetDocumentStateCommand
 cmd_enableAbsolutePositionEditing
 "
 )
-NS_REGISTER_ONE_COMMAND
-(
-SetDocumentOptionsCommand
-"
-cmd_setDocumentOptions
-"
-)
 return
 NS_OK
 ;
