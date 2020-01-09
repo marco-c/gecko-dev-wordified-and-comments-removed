@@ -2874,3 +2874,13 @@ is
 fingerprinting
 "
 )
+XPC_MSG_DEF
+(
+NS_ERROR_CRYPTOMINING_URI
+"
+The
+URI
+is
+cryptomining
+"
+)

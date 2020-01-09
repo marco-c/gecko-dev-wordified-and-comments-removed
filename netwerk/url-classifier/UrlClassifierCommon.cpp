@@ -888,6 +888,13 @@ AntiTrackingCommon
 :
 eCryptomining
 :
+event
+=
+nsIWebProgressListener
+:
+:
+STATE_LOADED_CRYPTOMINING_CONTENT
+;
 break
 ;
 default
