@@ -1453,16 +1453,12 @@ nsCOMPtr
 nsITreeView
 >
 treeView
-;
+=
 tree
 -
 >
 GetView
 (
-getter_AddRefs
-(
-treeView
-)
 )
 ;
 if
