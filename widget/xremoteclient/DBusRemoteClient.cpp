@@ -249,10 +249,6 @@ aProgram
 const
 char
 *
-aUsername
-const
-char
-*
 aProfile
 int32_t
 argc
@@ -273,6 +269,12 @@ bool
 aWindowFound
 )
 {
+NS_ENSURE_TRUE
+(
+aProgram
+NS_ERROR_INVALID_ARG
+)
+;
 MOZ_LOG
 (
 sRemoteLm

@@ -58,10 +58,6 @@ aProgram
 const
 char
 *
-aUsername
-const
-char
-*
 aProfile
 int32_t
 argc
@@ -128,10 +124,6 @@ const
 char
 *
 aProgram
-const
-char
-*
-aUsername
 const
 char
 *
