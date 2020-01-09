@@ -1702,6 +1702,15 @@ stdatomic
 h
 '
 ]
+CFLAGS
++
+=
+[
+'
+-
+wd4028
+'
+]
 if
 CONFIG
 [
