@@ -227,6 +227,15 @@ available
 "
 )
 ;
+const
+targetCreatedForAlreadyOpenedTab
+=
+Target
+.
+targetCreated
+(
+)
+;
 Target
 .
 setDiscoverTargets
@@ -237,6 +246,9 @@ discover
 true
 }
 )
+;
+await
+targetCreatedForAlreadyOpenedTab
 ;
 const
 targetCreated
