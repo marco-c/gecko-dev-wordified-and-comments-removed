@@ -52,6 +52,7 @@ util
 taskcluster
 import
 get_artifact_path
+get_artifact_url
 from
 voluptuous
 import
@@ -248,9 +249,19 @@ k
 =
 value
                 
-dep_name
+task_id
 =
+'
+<
+{
+}
+>
+'
+.
+format
+(
 k
+)
                 
 os_hint
 =
@@ -375,9 +386,19 @@ search
 +
 index
                 
-dep_name
+task_id
 =
+'
+<
+{
+}
+>
+'
+.
+format
+(
 index
+)
                 
 os_hint
 =
@@ -512,33 +533,11 @@ OSes
 '
 )
             
-urls
-[
-k
-]
+url
 =
-{
-                
-'
-artifact
--
-reference
-'
-:
-'
-<
-{
-}
-/
-{
-}
->
-'
-.
-format
+get_artifact_url
 (
-                    
-dep_name
+task_id
 get_artifact_path
 (
 task
@@ -546,6 +545,19 @@ artifact
 )
 )
             
+urls
+[
+k
+]
+=
+{
+'
+task
+-
+reference
+'
+:
+url
 }
             
 previous_artifact

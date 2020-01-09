@@ -1622,7 +1622,7 @@ try
             
 self
 .
-setup
+setup_logging
 (
 )
             
@@ -1957,7 +1957,7 @@ try
             
 self
 .
-setup
+setup_logging
 (
 )
             
@@ -2065,7 +2065,7 @@ try
             
 self
 .
-setup
+setup_logging
 (
 )
             
@@ -2536,7 +2536,7 @@ try
             
 self
 .
-setup
+setup_logging
 (
 )
             
@@ -2673,7 +2673,7 @@ exit
 )
     
 def
-setup
+setup_logging
 (
 self
 quiet
@@ -2792,15 +2792,6 @@ log_manager
 enable_unstructured
 (
 )
-        
-import
-taskgraph
-        
-taskgraph
-.
-set_root_url_env
-(
-)
     
 def
 show_taskgraph
@@ -2844,7 +2835,7 @@ try
             
 self
 .
-setup
+setup_logging
 (
 quiet
 =
@@ -3042,7 +3033,7 @@ taskgraph
 to_json
 (
 )
-                         
+              
 sort_keys
 =
 True
@@ -3273,7 +3264,7 @@ try
             
 self
 .
-setup
+setup_logging
 (
 quiet
 =

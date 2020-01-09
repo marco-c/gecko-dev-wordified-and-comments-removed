@@ -1605,10 +1605,6 @@ in
 task
 -
 reference
-/
-artifact
--
-reference
 .
 You
 also
