@@ -10961,15 +10961,6 @@ userContextId
 &
 &
 !
-PrivateBrowsingUtils
-.
-isWindowPrivate
-(
-window
-)
-&
-&
-!
 recordExecution
 &
 &
