@@ -212,8 +212,11 @@ Shutdown
 )
 ;
 void
-Migrated
+MigrateTo
 (
+PBackgroundChild
+*
+aManager
 )
 ;
 private
@@ -221,6 +224,14 @@ private
 ~
 IPCBlobInputStreamChild
 (
+)
+;
+void
+MigratedFrom
+(
+IPCBlobInputStreamChild
+*
+aOldActor
 )
 ;
 nsTArray
