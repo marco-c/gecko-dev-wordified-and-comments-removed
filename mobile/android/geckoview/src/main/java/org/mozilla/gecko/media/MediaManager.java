@@ -76,6 +76,7 @@ Service
 {
 private
 static
+final
 String
 LOGTAG
 =
