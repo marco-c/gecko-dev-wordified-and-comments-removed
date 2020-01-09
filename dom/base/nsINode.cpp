@@ -435,6 +435,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DocumentInlines
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h
