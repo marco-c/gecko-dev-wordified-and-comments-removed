@@ -153,7 +153,7 @@ apply
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsWebAnimationsGetAnimationsEnabled

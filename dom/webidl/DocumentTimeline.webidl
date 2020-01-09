@@ -155,7 +155,7 @@ originTime
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 AreWebAnimationsTimelinesEnabled

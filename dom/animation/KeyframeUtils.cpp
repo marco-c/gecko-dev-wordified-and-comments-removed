@@ -197,7 +197,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
@@ -979,7 +979,7 @@ keyframes
 if
 (
 !
-nsDocument
+nsIDocument
 :
 :
 AreWebAnimationsImplicitKeyframesEnabled

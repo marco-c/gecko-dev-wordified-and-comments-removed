@@ -172,7 +172,7 @@ h
 which
 indirectly
 includes
-nsDocument
+nsIDocument
 .
 h
 LOCAL_INCLUDES

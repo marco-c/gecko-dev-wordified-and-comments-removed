@@ -1,7 +1,7 @@
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "

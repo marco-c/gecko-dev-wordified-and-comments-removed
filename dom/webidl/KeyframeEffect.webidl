@@ -203,7 +203,7 @@ object
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsWebAnimationsEnabled

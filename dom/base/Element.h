@@ -318,9 +318,6 @@ class
 nsISMILAttr
 ;
 class
-nsDocument
-;
-class
 nsDOMStringMap
 ;
 struct

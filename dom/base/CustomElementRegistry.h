@@ -132,9 +132,6 @@ nsContentUtils
 .
 h
 "
-class
-nsDocument
-;
 namespace
 mozilla
 {
@@ -1091,12 +1088,6 @@ nsISupports
 public
 nsWrapperCache
 {
-friend
-class
-:
-:
-nsDocument
-;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

@@ -1625,7 +1625,7 @@ shadowRoot
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsCallerChromeOrAddon
@@ -1725,7 +1725,7 @@ Throws
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsUnprefixedFullscreenEnabled
@@ -1770,7 +1770,7 @@ handlers
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsUnprefixedFullscreenEnabled
@@ -1784,7 +1784,7 @@ onfullscreenchange
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsUnprefixedFullscreenEnabled

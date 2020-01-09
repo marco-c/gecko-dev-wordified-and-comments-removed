@@ -58,7 +58,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "

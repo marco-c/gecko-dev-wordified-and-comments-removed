@@ -2182,7 +2182,7 @@ Unscopable
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsUnprefixedFullscreenEnabled
@@ -2210,7 +2210,7 @@ LenientSetter
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsUnprefixedFullscreenEnabled
@@ -2240,7 +2240,7 @@ Throws
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsUnprefixedFullscreenEnabled
@@ -2278,7 +2278,7 @@ handlers
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsUnprefixedFullscreenEnabled
@@ -2292,7 +2292,7 @@ onfullscreenchange
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsUnprefixedFullscreenEnabled
@@ -2668,7 +2668,7 @@ Document
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 AreWebAnimationsTimelinesEnabled
@@ -2683,7 +2683,7 @@ timeline
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 IsWebAnimationsGetAnimationsEnabled
@@ -4032,7 +4032,7 @@ Document
 Func
 =
 "
-nsDocument
+nsIDocument
 :
 :
 DocumentSupportsL10n

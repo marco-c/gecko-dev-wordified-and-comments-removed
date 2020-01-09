@@ -23,7 +23,7 @@ h
 #
 include
 "
-nsDocument
+nsIDocument
 .
 h
 "
@@ -135,7 +135,7 @@ class
 nsHTMLDocument
 :
 public
-nsDocument
+nsIDocument
 public
 nsIHTMLDocument
 {
@@ -152,13 +152,13 @@ ReferrerPolicy
 public
 :
 using
-nsDocument
+nsIDocument
 :
 :
 GetPlugins
 ;
 using
-nsDocument
+nsIDocument
 :
 :
 SetDocumentURI
@@ -178,7 +178,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsHTMLDocument
-nsDocument
+nsIDocument
 )
 virtual
 void
