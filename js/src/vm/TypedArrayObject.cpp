@@ -7702,6 +7702,8 @@ JS_NULL_CLASS_OPS
 TypedArrayObjectSharedTypedArrayPrototypeClassSpec
 }
 ;
+namespace
+{
 template
 <
 typename
@@ -7761,8 +7763,6 @@ index
 )
 ;
 }
-namespace
-{
 template
 <
 >
