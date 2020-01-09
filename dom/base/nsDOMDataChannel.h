@@ -435,6 +435,12 @@ aRv
 )
 ;
 bool
+Negotiated
+(
+)
+const
+;
+bool
 Ordered
 (
 )

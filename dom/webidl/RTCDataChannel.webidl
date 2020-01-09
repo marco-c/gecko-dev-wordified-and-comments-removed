@@ -97,6 +97,11 @@ label
 readonly
 attribute
 boolean
+negotiated
+;
+readonly
+attribute
+boolean
 ordered
 ;
 readonly
