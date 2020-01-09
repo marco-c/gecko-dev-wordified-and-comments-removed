@@ -1,4 +1,16 @@
 import
+typeof
+SourceMaps
+from
+"
+devtools
+-
+source
+-
+map
+"
+;
+import
 type
 {
 WorkerList
@@ -227,7 +239,7 @@ typeof
 clientCommands
 sourceMaps
 :
-any
+SourceMaps
 panel
 :
 Panel

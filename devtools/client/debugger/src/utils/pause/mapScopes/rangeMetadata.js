@@ -1,4 +1,16 @@
 import
+typeof
+SourceMaps
+from
+"
+devtools
+-
+source
+-
+map
+"
+;
+import
 {
 locColumn
 }
@@ -148,7 +160,7 @@ SourceScope
 >
 sourceMaps
 :
-any
+SourceMaps
 )
 :
 Promise

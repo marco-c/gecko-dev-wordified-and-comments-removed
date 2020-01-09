@@ -1,6 +1,7 @@
 import
 type
 {
+OriginalFrame
 SourceLocation
 }
 from
@@ -38,15 +39,7 @@ Promise
 ?
 Array
 <
-{
-displayName
-:
-string
-location
-?
-:
-SourceLocation
-}
+OriginalFrame
 >
 >
 {
