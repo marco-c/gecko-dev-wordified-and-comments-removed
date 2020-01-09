@@ -88,6 +88,16 @@ ConnectionPromptSetting
 js
 '
 '
+ProfilerDialog
+.
+css
+'
+'
+ProfilerDialog
+.
+js
+'
+'
 RuntimeInfo
 .
 js
