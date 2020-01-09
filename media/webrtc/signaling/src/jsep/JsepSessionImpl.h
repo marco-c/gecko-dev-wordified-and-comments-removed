@@ -939,6 +939,8 @@ const
 Sdp
 &
 description
+JsepSdpType
+type
 )
 ;
 nsresult
@@ -1475,7 +1477,13 @@ UniquePtr
 <
 Sdp
 >
-mGeneratedLocalDescription
+mGeneratedOffer
+;
+UniquePtr
+<
+Sdp
+>
+mGeneratedAnswer
 ;
 UniquePtr
 <
