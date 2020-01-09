@@ -4231,8 +4231,6 @@ ClassStatement
 classStmt
 HandlePropertyName
 className
-bool
-hasHeritage
 uint32_t
 classStartOffset
 uint32_t
@@ -4265,8 +4263,6 @@ HandleAtom
 className
 uint32_t
 classNameOffset
-bool
-hasHeritage
 )
 ;
 bool

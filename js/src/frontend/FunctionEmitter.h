@@ -468,6 +468,12 @@ emitExtraBodyVarScope
 ;
 MOZ_MUST_USE
 bool
+emitInitializeInstanceFields
+(
+)
+;
+MOZ_MUST_USE
+bool
 emitAsyncFunctionRejectPrologue
 (
 )
