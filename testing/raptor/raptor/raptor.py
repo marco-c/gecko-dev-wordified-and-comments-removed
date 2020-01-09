@@ -3847,6 +3847,7 @@ def
 process_results
 (
 self
+test_names
 )
 :
         
@@ -3970,6 +3971,7 @@ summarize_and_output
 self
 .
 config
+test_names
 )
     
 def
@@ -4829,6 +4831,21 @@ mozinfo
 os
 )
     
+raptor_test_names
+=
+[
+raptor_test
+[
+'
+name
+'
+]
+for
+raptor_test
+in
+raptor_test_list
+]
+    
 if
 len
 (
@@ -5044,6 +5061,7 @@ raptor
 .
 process_results
 (
+raptor_test_names
 )
     
 raptor
@@ -5074,7 +5092,19 @@ test
 results
 were
 found
+for
+%
+s
 "
+%
+                     
+'
+'
+.
+join
+(
+raptor_test_names
+)
 )
         
 os

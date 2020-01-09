@@ -121,6 +121,7 @@ def
 summarize
 (
 self
+test_names
 )
 :
         
@@ -181,8 +182,19 @@ raptor
 test
 results
 found
-!
+for
+%
+s
 "
+%
+                      
+'
+'
+.
+join
+(
+test_names
+)
 )
             
 return
@@ -733,7 +745,15 @@ unsupported
 test
 results
 type
+for
+%
+s
 "
+%
+                          
+test
+.
+name
 )
                 
 return
@@ -3711,6 +3731,7 @@ def
 output
 (
 self
+test_names
 )
 :
         
@@ -3750,8 +3771,19 @@ summarized
 raptor
 results
 found
-!
+for
+%
+s
 "
+%
+                      
+'
+'
+.
+join
+(
+test_names
+)
 )
             
 return
@@ -4128,6 +4160,7 @@ def
 output_supporting_data
 (
 self
+test_names
 )
 :
         
@@ -4253,8 +4286,19 @@ summarized
 supporting
 data
 found
-!
+for
+%
+s
 "
+%
+                      
+'
+'
+.
+join
+(
+test_names
+)
 )
             
 return

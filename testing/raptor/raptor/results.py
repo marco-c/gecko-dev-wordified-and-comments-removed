@@ -427,6 +427,7 @@ summarize_and_output
 (
 self
 test_config
+test_names
 )
 :
         
@@ -464,6 +465,7 @@ output
 .
 summarize
 (
+test_names
 )
         
 output
@@ -504,6 +506,7 @@ output
 .
 output_supporting_data
 (
+test_names
 )
         
 return
@@ -511,6 +514,7 @@ output
 .
 output
 (
+test_names
 )
 class
 RaptorTestResult
