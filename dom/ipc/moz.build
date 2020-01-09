@@ -121,6 +121,11 @@ nsIRemoteWebProgress
 .
 idl
 '
+'
+nsIRemoteWebProgressRequest
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
@@ -298,6 +303,11 @@ h
 '
 '
 RemoteWebProgress
+.
+h
+'
+'
+RemoteWebProgressRequest
 .
 h
 '
@@ -480,6 +490,11 @@ cpp
 '
 '
 RemoteWebProgress
+.
+cpp
+'
+'
+RemoteWebProgressRequest
 .
 cpp
 '
