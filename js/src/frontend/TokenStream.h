@@ -6421,6 +6421,12 @@ using
 CharsBase
 :
 :
+matchCodeUnit
+;
+using
+CharsBase
+:
+:
 matchLineTerminator
 ;
 using
@@ -7221,6 +7227,11 @@ offset
 }
 public
 :
+void
+consumeOptionalHashbangComment
+(
+)
+;
 JSAtom
 *
 getRawTemplateStringAtom
