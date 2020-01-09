@@ -146,6 +146,7 @@ source
 -
 client
 "
+true
 )
 ;
 function
@@ -1507,7 +1508,10 @@ new
 SourceClient
 (
 this
+.
+client
 form
+this
 )
 ;
 return
