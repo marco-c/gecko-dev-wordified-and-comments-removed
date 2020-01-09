@@ -499,3 +499,16 @@ fill
 currentColor
 ;
 }
+.
+popup
+-
+notification
+-
+warning
+{
+color
+:
+#
+d74345
+;
+}
