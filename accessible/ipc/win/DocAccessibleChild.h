@@ -286,9 +286,9 @@ bool
 aFromUser
 const
 bool
-aDoSync
+aDoSyncCheck
 =
-false
+true
 )
 ;
 bool
