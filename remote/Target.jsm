@@ -134,11 +134,8 @@ nsIFaviconService
 "
 )
 ;
-this
-.
-Target
-=
 class
+Target
 {
 constructor
 (

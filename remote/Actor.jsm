@@ -100,11 +100,8 @@ Log
 get
 )
 ;
-this
-.
-RemoteAgentActorChild
-=
 class
+RemoteAgentActorChild
 extends
 ActorChild
 {
@@ -202,11 +199,8 @@ data
 }
 }
 ;
-this
-.
-MessageChannelActorChild
-=
 class
+MessageChannelActorChild
 extends
 RemoteAgentActorChild
 {

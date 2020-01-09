@@ -86,11 +86,8 @@ jsm
 "
 )
 ;
-this
-.
-TargetListener
-=
 class
+TargetListener
 {
 constructor
 (

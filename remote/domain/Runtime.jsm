@@ -36,8 +36,7 @@ jsm
 "
 )
 ;
-this
-.
+var
 Runtime
 =
 {

@@ -84,11 +84,8 @@ jsm
 "
 )
 ;
-this
-.
-LogChild
-=
 class
+LogChild
 extends
 RemoteAgentActorChild
 {

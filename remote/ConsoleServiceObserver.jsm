@@ -36,11 +36,8 @@ jsm
 "
 )
 ;
-this
-.
-ConsoleServiceObserver
-=
 class
+ConsoleServiceObserver
 {
 constructor
 (

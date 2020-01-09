@@ -73,11 +73,8 @@ Log
 get
 )
 ;
-this
-.
-Connection
-=
 class
+Connection
 {
 constructor
 (

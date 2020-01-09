@@ -12,11 +12,8 @@ Log
 "
 ]
 ;
-this
-.
-Log
-=
 class
+Log
 {
 static
 get

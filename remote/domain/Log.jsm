@@ -155,11 +155,8 @@ error
 "
 ]
 ;
-this
-.
-Log
-=
 class
+Log
 extends
 Domain
 {
@@ -388,8 +385,6 @@ schema
 }
 }
 ;
-this
-.
 Log
 .
 LogEntry

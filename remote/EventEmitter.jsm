@@ -62,11 +62,8 @@ onevent
 function
 "
 ;
-this
-.
-EventEmitter
-=
 class
+EventEmitter
 {
 constructor
 (

@@ -12,11 +12,8 @@ AtomicMap
 "
 ]
 ;
-this
-.
-AtomicMap
-=
 class
+AtomicMap
 extends
 Map
 {

@@ -84,11 +84,8 @@ jsm
 "
 )
 ;
-this
-.
-Session
-=
 class
+Session
 {
 constructor
 (

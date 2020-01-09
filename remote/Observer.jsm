@@ -36,11 +36,8 @@ jsm
 "
 )
 ;
-this
-.
-Observer
-=
 class
+Observer
 {
 static
 observe
