@@ -131,6 +131,12 @@ nightly
 /
 opt
 -
+macosx64
+-
+shippable
+/
+opt
+-
 win32
 -
 nightly
