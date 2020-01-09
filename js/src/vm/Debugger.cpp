@@ -45351,13 +45351,6 @@ return
 false
 ;
 }
-script
--
->
-setActiveEval
-(
-)
-;
 }
 else
 {
