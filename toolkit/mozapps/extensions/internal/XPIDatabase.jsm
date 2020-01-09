@@ -2705,17 +2705,6 @@ PERM_CAN_ENABLE
 ;
 }
 else
-if
-(
-this
-.
-type
-!
-=
-"
-theme
-"
-)
 {
 permissions
 |
