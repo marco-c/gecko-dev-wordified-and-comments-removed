@@ -9661,6 +9661,7 @@ notificationclick
 reset
 submit
 touchend
+contextmenu
 "
 )
 ;
