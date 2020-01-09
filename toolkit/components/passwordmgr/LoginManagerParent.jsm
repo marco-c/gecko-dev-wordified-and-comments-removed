@@ -265,8 +265,8 @@ _searchAndDedupeLogins
 formOrigin
 actionOrigin
 {
-looseActionOriginMatch
 acceptDifferentSubdomains
+ignoreActionAndRealm
 }
 =
 {
@@ -294,7 +294,7 @@ acceptDifferentSubdomains
 if
 (
 !
-looseActionOriginMatch
+ignoreActionAndRealm
 )
 {
 matchData
@@ -1099,7 +1099,7 @@ _searchAndDedupeLogins
 formOrigin
 actionOrigin
 {
-looseActionOriginMatch
+ignoreActionAndRealm
 :
 true
 acceptDifferentSubdomains
@@ -1333,7 +1333,7 @@ _searchAndDedupeLogins
 formOrigin
 actionOrigin
 {
-looseActionOriginMatch
+ignoreActionAndRealm
 :
 true
 acceptDifferentSubdomains
