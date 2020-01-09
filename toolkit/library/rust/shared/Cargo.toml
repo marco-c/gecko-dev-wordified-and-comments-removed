@@ -914,6 +914,15 @@ nsstring
 gecko_debug
 "
 ]
+gecko_refcount_logging
+=
+[
+"
+geckoservo
+/
+gecko_refcount_logging
+"
+]
 simd
 -
 accel

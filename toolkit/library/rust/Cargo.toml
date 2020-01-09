@@ -126,6 +126,17 @@ shared
 gecko_debug
 "
 ]
+gecko_refcount_logging
+=
+[
+"
+gkrust
+-
+shared
+/
+gecko_refcount_logging
+"
+]
 simd
 -
 accel

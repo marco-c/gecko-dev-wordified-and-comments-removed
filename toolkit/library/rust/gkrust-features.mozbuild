@@ -118,6 +118,9 @@ gkrust_features
 '
 gecko_debug
 '
+'
+gecko_refcount_logging
+'
 ]
 if
 CONFIG

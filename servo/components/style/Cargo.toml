@@ -109,11 +109,6 @@ gecko
 nsstring
 "
 "
-servo_arc
-/
-gecko
-"
-"
 style_traits
 /
 gecko
@@ -198,6 +193,10 @@ servo
 "
 ]
 gecko_debug
+=
+[
+]
+gecko_refcount_logging
 =
 [
 ]
