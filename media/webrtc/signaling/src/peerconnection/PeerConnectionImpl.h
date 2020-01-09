@@ -578,7 +578,9 @@ explicit
 RTCStatsQuery
 (
 bool
-internalStats
+aInternalStats
+bool
+aRecordTelemetry
 )
 ;
 RTCStatsQuery
@@ -619,6 +621,9 @@ iceStartTime
 ;
 bool
 internalStats
+;
+bool
+recordTelemetry
 ;
 std
 :
@@ -2241,6 +2246,8 @@ MediaStreamTrack
 aSelector
 bool
 aInternalStats
+bool
+aRecordTelemetry
 )
 ;
 virtual
