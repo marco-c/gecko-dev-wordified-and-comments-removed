@@ -122,7 +122,7 @@ DEFAULT_SPEW_DIRECTORY
 endif
 #
 endif
-void
+bool
 StructuredSpewer
 :
 :
@@ -249,6 +249,13 @@ outputInitializationAttempted_
 true
 ;
 }
+return
+json_
+.
+isSome
+(
+)
+;
 }
 void
 StructuredSpewer
@@ -707,6 +714,9 @@ channel
 return
 ;
 }
+if
+(
+!
 cx
 -
 >
@@ -717,7 +727,11 @@ spewer
 ensureInitializationAttempted
 (
 )
+)
+{
+return
 ;
+}
 va_list
 ap
 ;
@@ -1204,6 +1218,9 @@ channel
 return
 ;
 }
+if
+(
+!
 cx
 -
 >
@@ -1214,7 +1231,11 @@ spewer
 ensureInitializationAttempted
 (
 )
+)
+{
+return
 ;
+}
 cx
 -
 >

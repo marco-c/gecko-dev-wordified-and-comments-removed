@@ -409,7 +409,7 @@ channel
 ]
 ;
 }
-void
+bool
 ensureInitializationAttempted
 (
 )
