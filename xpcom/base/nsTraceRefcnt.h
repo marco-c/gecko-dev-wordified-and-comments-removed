@@ -58,12 +58,6 @@ bool
 aLegal
 )
 ;
-static
-void
-DisableDumpStatistics
-(
-)
-;
 }
 ;
 #
