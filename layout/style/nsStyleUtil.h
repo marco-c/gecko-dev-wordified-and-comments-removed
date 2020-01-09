@@ -279,11 +279,17 @@ range
 )
 ;
 return
+static_cast
+<
+uint8_t
+>
+(
 NSToIntRound
 (
 aAlpha
 *
 255
+)
 )
 ;
 }

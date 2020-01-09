@@ -193,6 +193,13 @@ h
 #
 include
 "
+nsUnicodeProperties
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventStates
