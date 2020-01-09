@@ -37,7 +37,7 @@ push
 '
 ]
 def
-run_empty_try
+run
 (
 message
 =

@@ -387,14 +387,12 @@ migrations
 ]
 )
 def
-run_try_release
+run
 (
-    
 version
 migrations
 limit_locales
 tasks
-    
 push
 =
 True

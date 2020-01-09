@@ -37,6 +37,7 @@ from
 .
 push
 import
+build
 push_to_try
 here
 =
@@ -2296,8 +2297,6 @@ def
 __init__
 (
 self
-topsrcdir
-mach_context
 )
 :
         
@@ -2305,6 +2304,8 @@ self
 .
 topsrcdir
 =
+build
+.
 topsrcdir
         
 self
@@ -2312,12 +2313,6 @@ self
 _resolver
 =
 None
-        
-self
-.
-mach_context
-=
-mach_context
     
 property
     
@@ -4958,4 +4953,28 @@ kwargs
 closed_tree
 "
 ]
+)
+def
+run
+(
+*
+*
+kwargs
+)
+:
+    
+at
+=
+AutoTry
+(
+)
+    
+return
+at
+.
+run
+(
+*
+*
+kwargs
 )

@@ -398,7 +398,7 @@ rmtree
 old_history_dir
 )
 def
-run_try_again
+run
 (
 index
 =

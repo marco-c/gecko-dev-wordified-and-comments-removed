@@ -2457,7 +2457,7 @@ in
 OPT_TASK_PATTERNS
 )
 def
-run_coverage_try
+run
 (
 templates
 =
@@ -2469,7 +2469,6 @@ False
 parameters
 =
 None
-                     
 push
 =
 True

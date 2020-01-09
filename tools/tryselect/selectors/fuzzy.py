@@ -707,7 +707,7 @@ profile
 '
 ]
 def
-run
+run_cmd
 (
 cmd
 cwd
@@ -805,7 +805,7 @@ bin
 ]
     
 if
-run
+run_cmd
 (
 cmd
 cwd
@@ -996,7 +996,7 @@ update
         
 ret
 =
-run
+run_cmd
 (
 [
 '
@@ -1433,7 +1433,7 @@ in
 TARGET_TASK_FILTERS
 )
 def
-run_fuzzy_try
+run
 (
 update
 =
@@ -1450,10 +1450,10 @@ False
 parameters
 =
 None
-                  
-save
+save_query
 =
 False
+        
 push
 =
 True
@@ -1838,7 +1838,7 @@ selected
 return
     
 if
-save
+save_query
 :
         
 return
