@@ -13145,6 +13145,12 @@ true
 ;
 video
 .
+muted
+=
+true
+;
+video
+.
 play
 (
 )
