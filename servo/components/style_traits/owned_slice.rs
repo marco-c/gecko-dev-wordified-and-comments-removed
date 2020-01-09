@@ -513,6 +513,8 @@ Item
 =
 T
 >
++
+ExactSizeIterator
 {
 self
 .
