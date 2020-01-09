@@ -299,6 +299,8 @@ expire
 -
 o
 sxg
+/
+sxg
 -
 location
 .
@@ -414,6 +416,8 @@ expire
 \
 -
 o
+sxg
+/
 check
 -
 cert
@@ -527,6 +531,8 @@ expire
 \
 -
 o
+sxg
+/
 sxg
 -
 head
@@ -644,6 +650,8 @@ expire
 -
 o
 sxg
+/
+sxg
 -
 invalid
 -
@@ -685,6 +693,8 @@ signed
 exchange
 /
 resources
+/
+sxg
 /
 sxg
 -
@@ -759,6 +769,8 @@ expire
 \
 -
 o
+sxg
+/
 fallback
 -
 to
@@ -817,6 +829,8 @@ status
 \
 -
 content
+sxg
+/
 sxg
 -
 location
@@ -885,6 +899,8 @@ expire
 \
 -
 o
+sxg
+/
 nested
 -
 sxg
@@ -1000,6 +1016,8 @@ expire
 \
 -
 o
+sxg
+/
 sxg
 -
 utf8
@@ -1130,6 +1148,8 @@ expire
 \
 -
 o
+sxg
+/
 sxg
 -
 invalid
@@ -1265,6 +1285,8 @@ expire
 -
 o
 sxg
+/
+sxg
 -
 inner
 -
@@ -1393,6 +1415,8 @@ expire
 \
 -
 o
+sxg
+/
 sxg
 -
 noncacheable
