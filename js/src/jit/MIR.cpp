@@ -20314,10 +20314,6 @@ Compare_Object
 }
 if
 (
-!
-relationalEq
-&
-&
 lhs
 =
 =
