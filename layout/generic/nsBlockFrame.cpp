@@ -16851,9 +16851,9 @@ Maybe
 <
 ReflowInput
 >
-blockHtmlRI
+blockReflowInput
 ;
-blockHtmlRI
+blockReflowInput
 .
 emplace
 (
@@ -16958,7 +16958,7 @@ if
 mayNeedRetry
 )
 {
-blockHtmlRI
+blockReflowInput
 -
 >
 mDiscoveredClearance
@@ -16974,7 +16974,7 @@ if
 applyBStartMargin
 )
 {
-blockHtmlRI
+blockReflowInput
 -
 >
 mDiscoveredClearance
@@ -17013,7 +17013,7 @@ get
 (
 )
 *
-blockHtmlRI
+blockReflowInput
 frameReflowStatus
 aState
 )
@@ -17305,13 +17305,13 @@ clearance
 0
 ;
 }
-blockHtmlRI
+blockReflowInput
 .
 reset
 (
 )
 ;
-blockHtmlRI
+blockReflowInput
 .
 emplace
 (
@@ -17391,7 +17391,7 @@ frame
 ;
 if
 (
-blockHtmlRI
+blockReflowInput
 -
 >
 WillReflowAgainForClearance
@@ -17530,7 +17530,7 @@ brc
 PlaceBlock
 (
 *
-blockHtmlRI
+blockReflowInput
 forceFit
 aLine
 .
