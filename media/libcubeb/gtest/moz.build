@@ -162,9 +162,6 @@ Darwin
 '
 WINNT
 '
-'
-Android
-'
 )
 :
 UNIFIED_SOURCES
