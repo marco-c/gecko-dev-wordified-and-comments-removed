@@ -2105,8 +2105,10 @@ InitialDocumentTranslationCompleted
 mPromise
 -
 >
-MaybeResolveWithUndefined
+MaybeResolveWithClone
 (
+aCx
+aValue
 )
 ;
 }
@@ -2140,8 +2142,10 @@ InitialDocumentTranslationCompleted
 mPromise
 -
 >
-MaybeRejectWithUndefined
+MaybeRejectWithClone
 (
+aCx
+aValue
 )
 ;
 }
