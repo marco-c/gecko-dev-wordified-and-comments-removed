@@ -121,7 +121,7 @@ js
 rust
 :
 :
-IdVector
+RootedIdVectorWrapper
 ;
 use
 js
@@ -302,7 +302,7 @@ to_object
 let
 ids
 =
-IdVector
+RootedIdVectorWrapper
 :
 :
 new
@@ -324,7 +324,7 @@ handle
 JSITER_OWNONLY
 ids
 .
-get
+handle_mut
 (
 )
 )
