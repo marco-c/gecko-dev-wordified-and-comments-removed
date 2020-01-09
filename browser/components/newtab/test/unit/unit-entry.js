@@ -1641,7 +1641,12 @@ ratios
 )
 {
 return
+Promise
+.
+resolve
+(
 0
+)
 ;
 }
 }

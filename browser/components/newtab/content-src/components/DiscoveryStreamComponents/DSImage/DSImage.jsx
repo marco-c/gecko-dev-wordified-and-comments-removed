@@ -496,6 +496,11 @@ img
 (
 <
 img
+crossOrigin
+=
+"
+anonymous
+"
 onError
 =
 {
@@ -538,6 +543,11 @@ img
 (
 <
 img
+crossOrigin
+=
+"
+anonymous
+"
 onError
 =
 {
