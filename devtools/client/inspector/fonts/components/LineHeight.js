@@ -302,7 +302,7 @@ return
 FontPropertyValue
 (
 {
-autoIncrement
+allowOverflow
 :
 true
 disabled
