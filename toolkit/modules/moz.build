@@ -1218,6 +1218,15 @@ jsm
 '
 tests
 /
+modules
+/
+Task
+.
+jsm
+'
+'
+tests
+/
 xpcshell
 /
 TestIntegration
@@ -1665,11 +1674,6 @@ jsm
 '
 '
 Sqlite
-.
-jsm
-'
-'
-Task
 .
 jsm
 '
