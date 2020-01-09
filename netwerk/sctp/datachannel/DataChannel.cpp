@@ -12314,6 +12314,17 @@ uint16_t
 aStream
 )
 {
+if
+(
+!
+aExternalNegotiated
+)
+{
+aStream
+=
+INVALID_STREAM
+;
+}
 uint16_t
 prPolicy
 =
