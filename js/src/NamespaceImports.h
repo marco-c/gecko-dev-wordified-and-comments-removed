@@ -259,6 +259,12 @@ using
 JS
 :
 :
+ValueType
+;
+using
+JS
+:
+:
 ConstTwoByteChars
 ;
 using
