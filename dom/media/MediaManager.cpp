@@ -22526,6 +22526,15 @@ mVideoDeviceState
 get
 (
 )
+&
+&
+!
+mStream
+-
+>
+IsDestroyed
+(
+)
 )
 {
 mStream
