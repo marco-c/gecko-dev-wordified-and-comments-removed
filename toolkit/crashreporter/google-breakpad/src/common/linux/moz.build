@@ -297,11 +297,6 @@ Library
 breakpad_linux_common_s
 '
 )
-FINAL_LIBRARY
-=
-'
-xul
-'
 HOST_DEFINES
 [
 '

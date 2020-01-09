@@ -181,3 +181,10 @@ test
 *
 .
 configure
+tools
+/
+crashreporter
+/
+*
+.
+configure

@@ -291,11 +291,6 @@ Library
 breakpad_mac_common_s
 '
 )
-FINAL_LIBRARY
-=
-'
-xul
-'
 CMFLAGS
 +
 =

@@ -113,7 +113,7 @@ cc
 FINAL_LIBRARY
 =
 '
-xul
+breakpad_client
 '
 LOCAL_INCLUDES
 +
