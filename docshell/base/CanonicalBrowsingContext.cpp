@@ -502,6 +502,15 @@ aProcess
 {
 if
 (
+aTransaction
+.
+HasNonRacyField
+(
+)
+)
+{
+if
+(
 NS_WARN_IF
 (
 aProcess
@@ -522,6 +531,7 @@ ChildID
 return
 false
 ;
+}
 }
 return
 true
