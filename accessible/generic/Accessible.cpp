@@ -10101,10 +10101,10 @@ nsIPresShell
 ScrollAxis
 (
 )
-nsIPresShell
+ScrollFlags
 :
 :
-SCROLL_OVERFLOW_HIDDEN
+ScrollOverflowHidden
 )
 ;
 AutoWeakFrame

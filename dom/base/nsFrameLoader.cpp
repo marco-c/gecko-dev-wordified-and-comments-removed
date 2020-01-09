@@ -4231,10 +4231,10 @@ presShell
 FrameNeedsReflow
 (
 rootScrollFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 NS_FRAME_IS_DIRTY
 )
 ;

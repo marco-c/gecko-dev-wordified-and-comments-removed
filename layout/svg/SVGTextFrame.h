@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+PresShellForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -102,9 +111,6 @@ CharIterator
 ;
 class
 nsISVGPoint
-;
-class
-PresShell
 ;
 class
 TextFrameIterator
@@ -938,7 +944,7 @@ ReflowSVGNonDisplayText
 void
 ScheduleReflowSVGNonDisplayText
 (
-nsIPresShell
+mozilla
 :
 :
 IntrinsicDirty

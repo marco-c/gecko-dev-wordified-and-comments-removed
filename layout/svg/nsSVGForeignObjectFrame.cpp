@@ -430,10 +430,10 @@ this
 ;
 RequestReflow
 (
-nsIPresShell
+IntrinsicDirty
 :
 :
-eStyleChange
+StyleChange
 )
 ;
 }
@@ -2128,10 +2128,10 @@ IsReflowLocked
 {
 RequestReflow
 (
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 )
 ;
 }
@@ -2353,9 +2353,6 @@ nsSVGForeignObjectFrame
 :
 RequestReflow
 (
-nsIPresShell
-:
-:
 IntrinsicDirty
 aType
 )

@@ -1105,10 +1105,10 @@ PresShell
 FrameNeedsReflow
 (
 outerSVGFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 dirtyBit
 )
 ;

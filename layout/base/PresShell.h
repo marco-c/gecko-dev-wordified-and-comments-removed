@@ -1639,10 +1639,13 @@ nsAString
 aAnchorName
 bool
 aScroll
-uint32_t
+ScrollFlags
 aAdditionalScrollFlags
 =
-0
+ScrollFlags
+:
+:
+None
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1662,8 +1665,8 @@ ScrollAxis
 aVertical
 ScrollAxis
 aHorizontal
-uint32_t
-aFlags
+ScrollFlags
+aScrollFlags
 )
 ;
 static

@@ -16832,10 +16832,10 @@ presShell
 FrameNeedsReflow
 (
 flexFrame
-nsIPresShell
+IntrinsicDirty
 :
 :
-eResize
+Resize
 NS_FRAME_IS_DIRTY
 )
 ;
