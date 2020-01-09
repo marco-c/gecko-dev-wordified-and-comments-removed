@@ -445,6 +445,15 @@ string
 =
 >
 void
+emit
+:
+(
+string
+any
+)
+=
+>
+void
 }
 form
 :
@@ -504,6 +513,9 @@ boolean
 isContentProcess
 :
 boolean
+traits
+:
+Object
 }
 ;
 export
