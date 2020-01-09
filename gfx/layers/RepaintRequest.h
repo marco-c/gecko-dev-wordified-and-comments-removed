@@ -122,6 +122,7 @@ uint8_t
 (
 eNone
 eUserAction
+eVisualUpdate
 )
 )
 ;
