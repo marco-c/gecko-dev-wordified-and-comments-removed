@@ -572,6 +572,12 @@ nsACString
 aFailedTableName
 )
 ;
+bool
+ShouldAbort
+(
+)
+const
+;
 nsCOMPtr
 <
 nsIFile
@@ -626,6 +632,9 @@ mNewLookupCaches
 bool
 mUpdateInterrupted
 ;
+bool
+mIsClosed
+;
 nsCOMPtr
 <
 nsIThread
@@ -637,9 +646,6 @@ nsCOMPtr
 nsIFile
 >
 mRootStoreDirectoryForUpdate
-;
-bool
-mIsClosed
 ;
 }
 ;
