@@ -657,6 +657,17 @@ Europe
 Dublin
 "
 "
+Etc
+/
+UCT
+"
+:
+"
+Etc
+/
+UTC
+"
+"
 GB
 "
 :
@@ -964,7 +975,7 @@ UCT
 "
 Etc
 /
-UCT
+UTC
 "
 "
 US
