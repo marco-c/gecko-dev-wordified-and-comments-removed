@@ -1713,12 +1713,6 @@ y
 )
 ;
 }
-void
-EnsureLogInitialized
-(
-)
-{
-}
 namespace
 {
 /
@@ -2213,10 +2207,6 @@ mCurrentPanGestureBelongsToSwipe
 false
 }
 {
-EnsureLogInitialized
-(
-)
-;
 }
 nsChildView
 :

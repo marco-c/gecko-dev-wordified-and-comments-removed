@@ -254,12 +254,6 @@ mozilla
 LazyLogModule
 sCocoaLog
 ;
-extern
-void
-EnsureLogInitialized
-(
-)
-;
 mozilla
 :
 :
@@ -485,10 +479,6 @@ mIgnoreEmptyNotification
 false
 )
 {
-EnsureLogInitialized
-(
-)
-;
 }
 nsClipboard
 :

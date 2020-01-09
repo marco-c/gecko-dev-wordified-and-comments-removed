@@ -304,12 +304,6 @@ LazyLogModule
 sCocoaLog
 ;
 extern
-void
-EnsureLogInitialized
-(
-)
-;
-extern
 NSPasteboard
 *
 globalDragPboard
@@ -450,10 +444,6 @@ mDragImageChanged
 false
 )
 {
-EnsureLogInitialized
-(
-)
-;
 }
 nsDragService
 :
