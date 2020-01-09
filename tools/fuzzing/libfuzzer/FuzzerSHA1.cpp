@@ -48,6 +48,9 @@ SHA_BIG_ENDIAN
 elif
 defined
 __LITTLE_ENDIAN__
+|
+|
+LIBFUZZER_WINDOWS
 #
 elif
 defined

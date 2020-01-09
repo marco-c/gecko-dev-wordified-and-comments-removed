@@ -14,6 +14,10 @@ LIBFUZZER_NETBSD
 |
 |
 LIBFUZZER_FREEBSD
+|
+|
+\
+LIBFUZZER_OPENBSD
 __attribute__
 (
 (
