@@ -806,9 +806,8 @@ callFunction
 (
 CallTypedArrayMethodIfWrapped
 array
-array
 "
-TypedArrayByteOffset
+TypedArrayByteOffsetMethod
 "
 )
 ;
