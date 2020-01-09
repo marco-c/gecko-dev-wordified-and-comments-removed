@@ -97,6 +97,10 @@ varying
 vec2
 vUv
 ;
+varying
+vec2
+vLocalPos
+;
 /
 /
 X
@@ -325,6 +329,12 @@ uv1
 texture_size
 .
 xyxy
+;
+vLocalPos
+=
+vi
+.
+local_pos
 ;
 float
 lumR
@@ -2171,6 +2181,8 @@ source
 alpha
 *
 =
+min
+(
 point_inside_rect
 (
 uv
@@ -2180,6 +2192,11 @@ xy
 vUvClipBounds
 .
 zw
+)
+init_transform_fs
+(
+vLocalPos
+)
 )
 ;
 /
