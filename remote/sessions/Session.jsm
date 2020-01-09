@@ -66,7 +66,7 @@ jsm
 ;
 const
 {
-formatError
+RemoteAgentError
 }
 =
 ChromeUtils
@@ -373,7 +373,9 @@ error
 {
 message
 :
-formatError
+RemoteAgentError
+.
+format
 (
 error
 {
