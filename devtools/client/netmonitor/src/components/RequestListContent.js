@@ -1620,6 +1620,13 @@ index
 RequestListItem
 (
 {
+blocked
+:
+!
+!
+item
+.
+blockedReason
 firstRequestStartedMillis
 fromCache
 :

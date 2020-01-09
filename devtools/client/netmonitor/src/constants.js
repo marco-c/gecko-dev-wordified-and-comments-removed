@@ -515,6 +515,9 @@ isThirdPartyTrackingResource
 "
 referrerPolicy
 "
+"
+blockedReason
+"
 ]
 ;
 const
