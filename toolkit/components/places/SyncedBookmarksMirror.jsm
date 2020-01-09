@@ -4668,6 +4668,9 @@ count
 <
 >
 0
+ORDER
+BY
+guid
 {
 rootGuid
 :
