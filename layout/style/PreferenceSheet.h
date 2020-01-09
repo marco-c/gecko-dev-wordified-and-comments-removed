@@ -117,10 +117,10 @@ mFocusRingWidth
 =
 1
 ;
-bool
+uint8_t
 mFocusRingStyle
 =
-false
+1
 ;
 bool
 mFocusRingOnAnything

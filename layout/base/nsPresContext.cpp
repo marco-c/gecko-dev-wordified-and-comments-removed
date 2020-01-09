@@ -996,10 +996,6 @@ mSendAfterPaintToContent
 (
 false
 )
-mUseFocusColors
-(
-false
-)
 mDrawImageBackground
 (
 true
