@@ -8866,7 +8866,6 @@ if
 (
 sum
 )
-{
 haveRadius
 =
 true
@@ -8877,7 +8876,6 @@ length
 <
 sum
 )
-{
 ratio
 =
 std
@@ -8894,8 +8892,6 @@ length
 sum
 )
 ;
-}
-}
 }
 if
 (
