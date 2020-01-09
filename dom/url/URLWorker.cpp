@@ -1954,7 +1954,7 @@ WasPassed
 {
 rv
 =
-NS_NewURIOnAnyThread
+NS_NewURI
 (
 getter_AddRefs
 (
@@ -2023,7 +2023,7 @@ useProxy
 {
 rv
 =
-NS_NewURIOnAnyThread
+NS_NewURI
 (
 getter_AddRefs
 (
