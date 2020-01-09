@@ -7634,6 +7634,8 @@ mozillaAddons
 static
 getBootstrapScope
 (
+id
+file
 )
 {
 return
@@ -11057,6 +11059,8 @@ startupData
 static
 getBootstrapScope
 (
+id
+file
 )
 {
 return
@@ -11228,6 +11232,8 @@ version
 static
 getBootstrapScope
 (
+id
+file
 )
 {
 return
