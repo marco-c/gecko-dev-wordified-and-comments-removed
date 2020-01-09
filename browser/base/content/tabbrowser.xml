@@ -13846,6 +13846,7 @@ selected
 =
 visuallyselected
 fadein
+multiselected
 "
 class
 =
@@ -13889,6 +13890,15 @@ flex
 =
 "
 1
+"
+class
+=
+"
+tab
+-
+background
+-
+inner
 "
 /
 >
