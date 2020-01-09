@@ -3247,8 +3247,6 @@ screenY
 >
 elt
 .
-boxObject
-.
 screenY
 +
 elt
@@ -3271,11 +3269,11 @@ elt
 ?
 elt
 .
-boxObject
-.
 screenY
 -
-scrollbox
+this
+.
+_scrollBox
 .
 screenY
 :

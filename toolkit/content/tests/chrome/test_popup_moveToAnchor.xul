@@ -596,8 +596,6 @@ button1
 "
 )
 .
-boxObject
-.
 screenX
 +
 10
@@ -606,8 +604,6 @@ screenX
 button1
 "
 )
-.
-boxObject
 .
 screenY
 +

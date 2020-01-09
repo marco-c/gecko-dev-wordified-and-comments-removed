@@ -238,16 +238,12 @@ x
 =
 treecol
 .
-boxObject
-.
 screenX
 ;
 var
 y
 =
 treecol
-.
-boxObject
 .
 screenY
 ;

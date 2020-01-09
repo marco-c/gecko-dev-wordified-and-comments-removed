@@ -386,13 +386,11 @@ devicePixelRatio
 )
 ;
 var
-windowBO
+rootElement
 =
 document
 .
 documentElement
-.
-boxObject
 ;
 isRounded
 (
@@ -401,7 +399,7 @@ window
 mozInnerScreenX
 *
 devPxPerCSSPx
-windowBO
+rootElement
 .
 screenX
 "
@@ -418,7 +416,7 @@ window
 mozInnerScreenY
 *
 devPxPerCSSPx
-windowBO
+rootElement
 .
 screenY
 "

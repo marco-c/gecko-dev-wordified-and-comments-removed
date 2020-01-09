@@ -369,8 +369,6 @@ synthesizeNativeOSXClick
 (
 button
 .
-boxObject
-.
 screenX
 +
 button
@@ -381,8 +379,6 @@ width
 /
 2
 button
-.
-boxObject
 .
 screenY
 +

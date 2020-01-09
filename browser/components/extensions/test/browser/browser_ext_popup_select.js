@@ -398,13 +398,6 @@ bottom
 )
 ;
 let
-{
-boxObject
-}
-=
-browser
-;
-let
 popupRect
 =
 selectPopup
@@ -419,7 +412,7 @@ Math
 .
 floor
 (
-boxObject
+browser
 .
 screenX
 +
@@ -447,7 +440,7 @@ Math
 .
 floor
 (
-boxObject
+browser
 .
 screenY
 +

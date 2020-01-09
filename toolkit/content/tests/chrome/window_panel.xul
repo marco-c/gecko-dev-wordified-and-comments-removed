@@ -765,8 +765,6 @@ Linux
 &
 panel
 .
-boxObject
-.
 screenY
 =
 =
@@ -1937,8 +1935,6 @@ event
 .
 screenY
 panel
-.
-boxObject
 .
 screenY
 +

@@ -23512,14 +23512,10 @@ openPopupAtScreen
 (
 browser
 .
-boxObject
-.
 screenX
 +
 x
 browser
-.
-boxObject
 .
 screenY
 +

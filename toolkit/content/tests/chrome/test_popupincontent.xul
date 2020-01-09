@@ -611,15 +611,6 @@ outside
 the
 window
 .
-var
-bo
-=
-document
-.
-documentElement
-.
-boxObject
-;
 popup
 .
 setAttribute
@@ -627,7 +618,9 @@ setAttribute
 "
 top
 "
-bo
+document
+.
+documentElement
 .
 screenY
 +
