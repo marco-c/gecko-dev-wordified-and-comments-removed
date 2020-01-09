@@ -2574,7 +2574,7 @@ function
 (
 line
 column
-condition
+options
 noSliding
 )
 {
@@ -2597,7 +2597,7 @@ this
 _getOrCreateBreakpointActor
 (
 location
-condition
+options
 noSliding
 )
 ;
@@ -2655,7 +2655,7 @@ _getOrCreateBreakpointActor
 function
 (
 generatedLocation
-condition
+options
 noSliding
 )
 {
@@ -2712,9 +2712,10 @@ actor
 }
 actor
 .
-condition
-=
-condition
+setOptions
+(
+options
+)
 ;
 return
 this

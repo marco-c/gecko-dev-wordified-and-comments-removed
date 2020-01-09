@@ -347,6 +347,9 @@ true
 perfActorVersion
 :
 1
+nativeLogpoints
+:
+true
 }
 sayHello
 :
