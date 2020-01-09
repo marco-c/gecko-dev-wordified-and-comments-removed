@@ -2026,6 +2026,11 @@ getter_AddRefs
 (
 byteStream
 )
+mozilla
+:
+:
+MakeSpan
+(
 (
 const
 char
@@ -2039,6 +2044,7 @@ bytes
 encodedData
 length
 ]
+)
 NS_ASSIGNMENT_COPY
 )
 ;

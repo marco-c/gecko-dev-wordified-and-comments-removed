@@ -134,12 +134,15 @@ getter_AddRefs
 (
 stringStream
 )
+MakeSpan
+(
 buffer
 .
 release
 (
 )
 len
+)
 NS_ASSIGNMENT_ADOPT
 )
 ;

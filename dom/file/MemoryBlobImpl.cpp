@@ -134,6 +134,8 @@ getter_AddRefs
 (
 stream
 )
+MakeSpan
+(
 static_cast
 <
 const
@@ -148,10 +150,8 @@ mData
 )
 +
 aStart
-(
-int32_t
-)
 aLength
+)
 NS_ASSIGNMENT_DEPEND
 )
 ;

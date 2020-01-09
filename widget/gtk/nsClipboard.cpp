@@ -1097,8 +1097,11 @@ getter_AddRefs
 (
 byteStream
 )
+MakeSpan
+(
 clipboardData
 clipboardDataLength
+)
 NS_ASSIGNMENT_COPY
 )
 ;

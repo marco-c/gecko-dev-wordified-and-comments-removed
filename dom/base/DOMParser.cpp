@@ -421,15 +421,6 @@ getter_AddRefs
 stream
 )
 utf8str
-.
-get
-(
-)
-utf8str
-.
-Length
-(
-)
 NS_ASSIGNMENT_DEPEND
 )
 ;
@@ -561,6 +552,8 @@ getter_AddRefs
 (
 stream
 )
+MakeSpan
+(
 reinterpret_cast
 <
 const
@@ -578,6 +571,7 @@ aBuf
 .
 Length
 (
+)
 )
 NS_ASSIGNMENT_DEPEND
 )

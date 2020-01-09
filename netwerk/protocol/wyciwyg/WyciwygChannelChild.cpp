@@ -1123,15 +1123,6 @@ getter_AddRefs
 stringStream
 )
 data
-.
-get
-(
-)
-data
-.
-Length
-(
-)
 NS_ASSIGNMENT_DEPEND
 )
 ;

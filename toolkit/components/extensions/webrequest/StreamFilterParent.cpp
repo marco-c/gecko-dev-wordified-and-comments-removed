@@ -1635,6 +1635,8 @@ getter_AddRefs
 (
 stream
 )
+MakeSpan
+(
 reinterpret_cast
 <
 char
@@ -1651,6 +1653,7 @@ aData
 .
 Length
 (
+)
 )
 )
 ;
