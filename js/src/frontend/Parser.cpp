@@ -846,7 +846,7 @@ sourceObject_
 cx
 sourceObject
 )
-keepAtoms
+keepAtoms_
 (
 cx
 )
@@ -13057,7 +13057,7 @@ directives
 Position
 start
 (
-keepAtoms
+keepAtoms_
 tokenStream
 )
 ;
@@ -13274,7 +13274,7 @@ getRewindToken
 Position
 currentPosition
 (
-keepAtoms
+keepAtoms_
 tokenStream
 )
 ;
@@ -13418,7 +13418,7 @@ false
 Position
 currentSyntaxPosition
 (
-keepAtoms
+keepAtoms_
 syntaxParser
 -
 >
@@ -37697,7 +37697,7 @@ ungetToken
 Position
 start
 (
-keepAtoms
+keepAtoms_
 tokenStream
 )
 ;

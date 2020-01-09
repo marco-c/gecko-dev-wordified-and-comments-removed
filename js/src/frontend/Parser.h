@@ -380,7 +380,7 @@ RootedScriptSourceObject
 sourceObject_
 ;
 AutoKeepAtoms
-keepAtoms
+keepAtoms_
 ;
 const
 bool
@@ -2250,7 +2250,7 @@ using
 Base
 :
 :
-keepAtoms
+keepAtoms_
 ;
 using
 Base
@@ -4998,7 +4998,7 @@ using
 Base
 :
 :
-keepAtoms
+keepAtoms_
 ;
 using
 Base
@@ -5675,7 +5675,7 @@ using
 Base
 :
 :
-keepAtoms
+keepAtoms_
 ;
 using
 Base
