@@ -12560,7 +12560,9 @@ if
 (
 JitOptions
 .
-eagerCompilation
+eagerIonCompilation
+(
+)
 &
 &
 !

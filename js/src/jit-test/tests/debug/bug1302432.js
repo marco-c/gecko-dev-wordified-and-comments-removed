@@ -1,5 +1,17 @@
 setJitCompilerOption
 (
+"
+baseline
+.
+warmup
+.
+trigger
+"
+0
+)
+;
+setJitCompilerOption
+(
 '
 ion
 .
