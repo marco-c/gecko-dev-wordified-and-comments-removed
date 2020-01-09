@@ -65,13 +65,6 @@ widget
 ;
 -
 (
-NSMenu
-*
-)
-contextMenu
-;
--
-(
 void
 )
 widgetDestroyed
