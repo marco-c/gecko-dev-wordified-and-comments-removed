@@ -16285,11 +16285,9 @@ deserializePrincipal
 blockedInfo
 .
 triggeringPrincipal
-)
-|
-|
 _createNullPrincipalFromTabUserContextId
 (
+)
 )
 ;
 gBrowser
