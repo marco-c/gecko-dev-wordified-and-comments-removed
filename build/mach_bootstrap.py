@@ -17,19 +17,8 @@ import
 sys
 import
 uuid
-try
-:
-    
-import
-builtins
-except
-ImportError
-:
-    
 import
 __builtin__
-as
-builtins
 from
 types
 import
@@ -2696,13 +2685,13 @@ level
         
 return
 module
-builtins
+__builtin__
 .
 __import__
 =
 ImportHook
 (
-builtins
+__builtin__
 .
 __import__
 )
