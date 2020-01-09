@@ -23606,7 +23606,6 @@ false
 innermostForRealm
 (
 cx
-cx
 -
 >
 zone
@@ -24798,7 +24797,7 @@ innermost
 using
 RealmToScriptMap
 =
-GCHashMap
+HashMap
 <
 Realm
 *
@@ -24812,10 +24811,7 @@ Realm
 ZoneAllocPolicy
 >
 ;
-Rooted
-<
 RealmToScriptMap
->
 innermostForRealm
 ;
 Rooted
