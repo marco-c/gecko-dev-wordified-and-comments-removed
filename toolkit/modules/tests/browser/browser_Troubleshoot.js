@@ -714,7 +714,16 @@ type
 number
 "
 }
-keyGoogleFound
+keyLocationServiceGoogleFound
+:
+{
+type
+:
+"
+boolean
+"
+}
+keySafebrowsingGoogleFound
 :
 {
 type
