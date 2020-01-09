@@ -426,10 +426,6 @@ FontBaseSize
 CurrentStyle
 InheritedStyle
 InheritedStyleButStripEmUnits
-Custom
-(
-Au
-)
 }
 impl
 FontBaseSize
@@ -453,16 +449,6 @@ match
 *
 self
 {
-FontBaseSize
-:
-:
-Custom
-(
-size
-)
-=
->
-size
 FontBaseSize
 :
 :
