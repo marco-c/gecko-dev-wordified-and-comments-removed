@@ -820,7 +820,7 @@ if
 (
 aPriority
 .
-EqualsLiteral
+LowerCaseEqualsASCII
 (
 "
 important
