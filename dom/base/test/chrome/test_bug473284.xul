@@ -533,13 +533,6 @@ throw
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

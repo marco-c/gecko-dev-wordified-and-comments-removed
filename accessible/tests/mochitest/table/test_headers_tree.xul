@@ -109,13 +109,6 @@ tree
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

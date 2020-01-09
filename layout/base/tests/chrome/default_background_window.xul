@@ -105,13 +105,6 @@ runTests
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "
@@ -138,13 +131,6 @@ script
 >
 <
 script
-type
-=
-"
-text
-/
-javascript
-"
 src
 =
 "

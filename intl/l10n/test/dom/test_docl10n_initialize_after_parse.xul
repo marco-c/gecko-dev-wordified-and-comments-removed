@@ -130,13 +130,6 @@ environment
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

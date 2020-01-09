@@ -132,13 +132,6 @@ onunload
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

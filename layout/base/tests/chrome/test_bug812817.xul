@@ -136,13 +136,6 @@ doTest
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

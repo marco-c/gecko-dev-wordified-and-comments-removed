@@ -164,13 +164,6 @@ runTestDefault
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

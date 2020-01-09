@@ -123,13 +123,6 @@ runTest
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

@@ -136,13 +136,6 @@ initAndRunTests
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

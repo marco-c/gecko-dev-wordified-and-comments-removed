@@ -109,13 +109,6 @@ switching
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

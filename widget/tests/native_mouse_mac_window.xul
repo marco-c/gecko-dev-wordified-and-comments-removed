@@ -173,13 +173,6 @@ vertical
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

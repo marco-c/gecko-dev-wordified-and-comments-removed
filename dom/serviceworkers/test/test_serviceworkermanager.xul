@@ -87,13 +87,6 @@ test
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

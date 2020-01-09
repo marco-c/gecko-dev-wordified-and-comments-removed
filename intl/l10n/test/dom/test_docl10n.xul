@@ -153,13 +153,6 @@ linkset
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "

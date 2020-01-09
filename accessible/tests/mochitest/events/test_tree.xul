@@ -110,13 +110,6 @@ events
 >
 <
 script
-type
-=
-"
-application
-/
-javascript
-"
 src
 =
 "
