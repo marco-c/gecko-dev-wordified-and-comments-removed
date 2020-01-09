@@ -583,6 +583,8 @@ href
 =
 "
 /
+rev
+/
 "
 .
 join
@@ -596,7 +598,7 @@ get
 application_repository
 "
 )
-                                       
+                                           
 version_info
 .
 get
