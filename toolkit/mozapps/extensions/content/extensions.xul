@@ -2444,7 +2444,7 @@ inner
 align
 =
 "
-start
+stretch
 "
 >
 <
@@ -2739,7 +2739,7 @@ true
 /
 >
 <
-toolbarbutton
+button
 id
 =
 "
@@ -3034,7 +3034,7 @@ menupopup
 >
 <
 /
-toolbarbutton
+button
 >
 <
 /
