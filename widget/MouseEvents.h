@@ -59,6 +59,9 @@ PBrowserParent
 class
 PBrowserChild
 ;
+class
+PBrowserBridgeParent
+;
 }
 class
 WidgetPointerEvent
@@ -331,6 +334,13 @@ dom
 :
 :
 PBrowserChild
+;
+friend
+class
+dom
+:
+:
+PBrowserBridgeParent
 ;
 protected
 :
@@ -647,6 +657,13 @@ dom
 :
 :
 PBrowserChild
+;
+friend
+class
+dom
+:
+:
+PBrowserBridgeParent
 ;
 public
 :
