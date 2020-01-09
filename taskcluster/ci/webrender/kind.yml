@@ -1752,6 +1752,8 @@ outputs
 /
 apk
 /
+debug
+/
 app
 -
 debug
