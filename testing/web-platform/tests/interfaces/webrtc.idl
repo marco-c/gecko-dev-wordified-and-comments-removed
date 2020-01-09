@@ -2591,6 +2591,7 @@ Constructor
 (
 DOMString
 type
+optional
 RTCErrorEventInit
 eventInitDict
 )
