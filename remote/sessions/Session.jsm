@@ -245,8 +245,8 @@ field
 }
 const
 [
-domainName
-methodName
+domain
+command
 ]
 =
 Domains
@@ -262,8 +262,8 @@ this
 execute
 (
 id
-domainName
-methodName
+domain
+command
 params
 )
 ;
@@ -288,7 +288,7 @@ execute
 (
 id
 domain
-method
+command
 params
 )
 {
@@ -310,7 +310,7 @@ result
 await
 inst
 [
-method
+command
 ]
 (
 params
