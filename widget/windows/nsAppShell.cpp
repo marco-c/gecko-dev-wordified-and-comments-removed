@@ -1382,6 +1382,13 @@ InitUIThread
 (
 )
 ;
+if
+(
+XRE_Win32kCallsAllowed
+(
+)
+)
+{
 sTaskbarButtonCreatedMsg
 =
 :
@@ -1405,6 +1412,7 @@ message
 "
 )
 ;
+}
 if
 (
 XRE_UseNativeEventProcessing
@@ -1559,6 +1567,12 @@ mEventWnd
 ;
 }
 else
+if
+(
+XRE_IsContentProcess
+(
+)
+)
 {
 nsCOMPtr
 <
