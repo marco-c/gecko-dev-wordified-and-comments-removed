@@ -142,6 +142,14 @@ controlled
 .
 *
 /
+[
+can_run_script
+]
+/
+/
+Only
+setter
+.
 attribute
 nsIAutoCompleteInput
 input
@@ -200,6 +208,9 @@ set
 .
 *
 /
+[
+can_run_script
+]
 void
 startSearch
 (
@@ -217,6 +228,9 @@ asynchronous
 searches
 *
 /
+[
+can_run_script
+]
 void
 stopSearch
 (
@@ -358,6 +372,9 @@ search
 .
 *
 /
+[
+can_run_script
+]
 boolean
 handleText
 (
@@ -485,6 +502,9 @@ event
 .
 *
 /
+[
+can_run_script
+]
 boolean
 handleEnter
 (
@@ -530,6 +550,9 @@ event
 .
 *
 /
+[
+can_run_script
+]
 boolean
 handleEscape
 (
@@ -567,6 +590,9 @@ handler
 .
 *
 /
+[
+can_run_script
+]
 void
 handleStartComposition
 (
@@ -621,6 +647,9 @@ up
 .
 *
 /
+[
+can_run_script
+]
 void
 handleTab
 (
@@ -665,6 +694,9 @@ default
 event
 *
 /
+[
+can_run_script
+]
 boolean
 handleKeyNavigation
 (
@@ -707,6 +739,9 @@ item
 .
 *
 /
+[
+can_run_script
+]
 boolean
 handleDelete
 (
@@ -1034,6 +1069,9 @@ session
 .
 *
 /
+[
+can_run_script
+]
 void
 resetInternalState
 (

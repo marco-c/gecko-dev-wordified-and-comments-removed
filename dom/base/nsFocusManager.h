@@ -109,6 +109,9 @@ nsPIDOMWindowOuter
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -515,6 +518,7 @@ bool
 aActive
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 SetFocusInner
 (
@@ -630,6 +634,7 @@ aContentToFocus
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Focus
 (
@@ -766,10 +771,14 @@ aRelatedTarget
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ScrollIntoView
 (
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 aPresShell
 nsIContent

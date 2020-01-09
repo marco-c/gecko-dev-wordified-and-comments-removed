@@ -12573,8 +12573,10 @@ return
 NS_OK
 ;
 }
+nsCOMPtr
+<
 nsIContent
-*
+>
 content
 =
 fm

@@ -1658,6 +1658,21 @@ ScrollToAnchor
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+nsresult
+ScrollContentIntoView
+(
+nsIContent
+*
+aContent
+ScrollAxis
+aVertical
+ScrollAxis
+aHorizontal
+uint32_t
+aFlags
+)
+;
 private
 :
 ~
@@ -3076,6 +3091,7 @@ WidgetKeyboardEvent
 aKeyboardEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 AdjustContextMenuKeyEvent
 (
@@ -3084,6 +3100,7 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 PrepareToUseCaretPosition
 (
@@ -3095,6 +3112,7 @@ LayoutDeviceIntPoint
 aTargetPt
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GetCurrentItemAndPositionForElement
 (

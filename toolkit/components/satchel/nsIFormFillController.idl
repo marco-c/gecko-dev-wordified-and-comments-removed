@@ -262,6 +262,9 @@ are
 available
 *
 /
+[
+can_run_script
+]
 void
 attachToBrowser
 (
@@ -273,6 +276,9 @@ nsIAutoCompletePopup
 popup
 )
 ;
+[
+can_run_script
+]
 void
 attachPopupElementToBrowser
 (
@@ -308,6 +314,9 @@ detach
 from
 *
 /
+[
+can_run_script
+]
 void
 detachFromBrowser
 (
@@ -369,6 +378,9 @@ to
 tag
 *
 /
+[
+can_run_script
+]
 void
 markAsLoginManagerField
 (
@@ -423,6 +435,9 @@ to
 mark
 *
 /
+[
+can_run_script
+]
 void
 markAsAutofillField
 (
@@ -443,6 +458,9 @@ possible
 .
 *
 /
+[
+can_run_script
+]
 void
 showPopup
 (

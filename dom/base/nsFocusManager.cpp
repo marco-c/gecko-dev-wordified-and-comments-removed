@@ -2739,11 +2739,14 @@ IsElement
 {
 SetFocusInner
 (
+MOZ_KnownLive
+(
 newFocus
 -
 >
 AsElement
 (
+)
 )
 aFlags
 aType
@@ -6601,6 +6604,7 @@ DidInitialize
 (
 )
 )
+{
 ScrollIntoView
 (
 presShell
@@ -6608,6 +6612,7 @@ elementToFocus
 aFlags
 )
 ;
+}
 }
 if
 (
@@ -10481,7 +10486,7 @@ nsFocusManager
 :
 ScrollIntoView
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent

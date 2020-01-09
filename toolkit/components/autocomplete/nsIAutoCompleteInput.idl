@@ -149,6 +149,9 @@ currently
 open
 *
 /
+[
+can_run_script
+]
 attribute
 boolean
 popupOpen

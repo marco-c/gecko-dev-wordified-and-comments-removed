@@ -130,6 +130,7 @@ nsAutoCompleteController
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 ~
 nsAutoCompleteController
@@ -163,11 +164,13 @@ mSetValue
 aSearchString
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OpenPopup
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ClosePopup
 (
@@ -185,11 +188,13 @@ BeforeSearches
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 StartSearches
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 AfterSearches
 (
@@ -205,6 +210,7 @@ MaybeCompletePlaceholder
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ProcessResult
 (
@@ -215,11 +221,13 @@ nsIAutoCompleteResult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PostSearchCleanup
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 EnterMatch
 (
