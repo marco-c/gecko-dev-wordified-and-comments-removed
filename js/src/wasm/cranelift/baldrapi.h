@@ -129,7 +129,7 @@ wasm
 :
 :
 ModuleEnvironment
-&
+*
 env
 ;
 uint32_t
