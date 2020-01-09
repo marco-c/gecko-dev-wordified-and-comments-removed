@@ -996,6 +996,12 @@ this
 .
 _windowType
 ;
+DebuggerServer
+.
+keepAlive
+=
+true
+;
 }
 }
 ;

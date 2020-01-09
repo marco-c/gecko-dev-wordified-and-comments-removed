@@ -432,6 +432,12 @@ navigator
 geckoview
 "
 ;
+DebuggerServer
+.
+keepAlive
+=
+true
+;
 const
 env
 =
