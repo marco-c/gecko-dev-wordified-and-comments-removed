@@ -2967,11 +2967,6 @@ GetDisplay
 )
 )
 ;
-WaylandDisplayRelease
-(
-waylandDisplay
-)
-;
 }
 LOGWAYLAND
 (
