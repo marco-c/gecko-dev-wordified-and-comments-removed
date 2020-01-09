@@ -334,7 +334,6 @@ NS_ERROR_DOM_NO_MODIFICATION_ALLOWED_ERR
 return
 ;
 }
-else
 if
 (
 mType

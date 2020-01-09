@@ -70,7 +70,6 @@ return
 1
 ;
 }
-else
 if
 (
 aFactor

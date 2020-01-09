@@ -980,8 +980,6 @@ eUseUserSpaceOfUseElement
 )
 ;
 }
-else
-{
 uint32_t
 flags
 =
@@ -1124,7 +1122,6 @@ flags
 )
 )
 ;
-}
 }
 already_AddRefed
 <
