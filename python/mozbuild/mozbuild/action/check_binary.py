@@ -1440,17 +1440,13 @@ get
 CC_TYPE
 '
 )
-in
-(
-'
-msvc
-'
+=
+=
 '
 clang
 -
 cl
 '
-)
 and
 \
         

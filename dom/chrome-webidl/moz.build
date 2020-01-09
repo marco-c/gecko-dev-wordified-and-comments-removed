@@ -425,14 +425,6 @@ PlacesObservers
 webidl
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_LIBPRIO
-'
-]
-:
 WEBIDL_FILES
 +
 =

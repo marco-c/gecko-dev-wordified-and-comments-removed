@@ -119,14 +119,6 @@ media
 libjpeg
 '
 ]
-if
-CONFIG
-[
-'
-MOZ_LIBPRIO
-'
-]
-:
 DIRS
 +
 =

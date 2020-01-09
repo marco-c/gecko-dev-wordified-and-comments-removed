@@ -341,15 +341,6 @@ CC_TYPE
 "
 =
 "
-msvc
-"
--
-o
-"
-CC_TYPE
-"
-=
-"
 clang
 -
 cl

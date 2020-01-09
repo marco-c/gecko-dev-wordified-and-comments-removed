@@ -44229,9 +44229,6 @@ true
 ;
 #
 endif
-#
-ifdef
-MOZ_LIBPRIO
 pref
 (
 "
@@ -44242,8 +44239,6 @@ enabled
 false
 )
 ;
-#
-endif
 pref
 (
 "

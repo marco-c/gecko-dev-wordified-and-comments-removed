@@ -13790,9 +13790,6 @@ simulate
 false
 )
 ;
-#
-ifdef
-MOZ_LIBPRIO
 pref
 (
 "
@@ -13817,8 +13814,6 @@ publicKeyB
 "
 )
 ;
-#
-endif
 pref
 (
 "
@@ -13860,12 +13855,6 @@ if
 defined
 (
 NIGHTLY_BUILD
-)
-&
-&
-defined
-(
-MOZ_LIBPRIO
 )
 pref
 (

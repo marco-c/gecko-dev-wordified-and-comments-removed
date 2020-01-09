@@ -6937,9 +6937,6 @@ EnumString
 subclass
 (
 '
-msvc
-'
-'
 gcc
 '
 '
@@ -6957,23 +6954,13 @@ type
 CompilerType
 (
 '
-msvc
+gcc
 '
 )
         
 self
 .
 assertEquals
-(
-type
-'
-msvc
-'
-)
-        
-self
-.
-assertNotEquals
 (
 type
 '
@@ -7010,7 +6997,7 @@ assertIn
 type
 (
 '
-msvc
+gcc
 '
 '
 clang
@@ -7027,10 +7014,12 @@ assertNotIn
 type
 (
 '
-gcc
+clang
 '
 '
 clang
+-
+cl
 '
 )
 )

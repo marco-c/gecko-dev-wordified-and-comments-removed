@@ -217,9 +217,6 @@ cpuid
 .
 h
 '
-when
-=
-non_msvc_compiler
 )
 #
 These
@@ -265,9 +262,6 @@ mount
 .
 h
 '
-when
-=
-non_msvc_compiler
 )
 #
 Quota
@@ -329,9 +323,6 @@ nullptr
 )
 ;
 '
-when
-=
-non_msvc_compiler
 check_msg
 =
 '
@@ -417,9 +408,6 @@ queue
 .
 h
 '
-when
-=
-non_msvc_compiler
 )
 check_headers
 (
@@ -442,9 +430,6 @@ byteswap
 .
 h
 '
-when
-=
-non_msvc_compiler
 )
 #
 TODO
