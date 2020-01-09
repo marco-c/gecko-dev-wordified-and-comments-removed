@@ -190,8 +190,8 @@ render_backend
 :
 :
 {
+DataStores
 FrameId
-FrameResources
 }
 ;
 use
@@ -407,12 +407,12 @@ clip_scroll_tree
 a
 ClipScrollTree
 pub
-resources
+data_stores
 :
 &
 '
 a
-FrameResources
+DataStores
 pub
 surfaces
 :
@@ -3183,7 +3183,7 @@ transforms
 &
 ctx
 .
-resources
+data_stores
 .
 clip
 )

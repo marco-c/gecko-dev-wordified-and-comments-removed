@@ -259,7 +259,7 @@ use
 render_backend
 :
 :
-FrameResources
+DataStores
 ;
 use
 render_task
@@ -302,7 +302,7 @@ use
 scene_builder
 :
 :
-DocumentResources
+Interners
 ;
 use
 smallvec
@@ -3025,7 +3025,7 @@ root_clip_node
 &
 frame_state
 .
-resources
+data_stores
 .
 clip
 [
@@ -3236,10 +3236,10 @@ clip_scroll_tree
 :
 &
 ClipScrollTree
-resources
+data_stores
 :
 &
-FrameResources
+DataStores
 clip_chain_nodes
 :
 &
@@ -3291,7 +3291,7 @@ let
 prim_data
 =
 &
-resources
+data_stores
 .
 as_common_data
 (
@@ -3546,7 +3546,7 @@ prim_instance
 is_cacheable
 (
 &
-resources
+data_stores
 resource_cache
 )
 ;
@@ -3692,7 +3692,7 @@ let
 image_data
 =
 &
-resources
+data_stores
 .
 image
 [
@@ -3786,7 +3786,7 @@ let
 yuv_image_data
 =
 &
-resources
+data_stores
 .
 yuv_image
 [
@@ -3940,7 +3940,7 @@ let
 clip_node
 =
 &
-resources
+data_stores
 .
 clip
 [
@@ -6521,10 +6521,10 @@ Vec
 <
 PrimitiveInstance
 >
-resources
+interners
 :
 &
-DocumentResources
+Interners
 )
 -
 >
@@ -6647,7 +6647,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 prim
 [
@@ -6667,7 +6667,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 image
 [
@@ -6687,7 +6687,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 image_border
 [
@@ -6707,7 +6707,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 line_decoration
 [
@@ -6727,7 +6727,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 linear_grad
 [
@@ -6747,7 +6747,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 normal_border
 [
@@ -6767,7 +6767,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 picture
 [
@@ -6787,7 +6787,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 radial_grad
 [
@@ -6807,7 +6807,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 text_run
 [
@@ -6827,7 +6827,7 @@ data_handle
 >
 {
 &
-resources
+interners
 .
 yuv_image
 [

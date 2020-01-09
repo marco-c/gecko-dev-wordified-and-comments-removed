@@ -179,7 +179,7 @@ use
 render_backend
 :
 :
-FrameResources
+DataStores
 ;
 use
 render_task
@@ -2919,7 +2919,7 @@ prim_common_data
 &
 ctx
 .
-resources
+data_stores
 .
 as_common_data
 (
@@ -2964,7 +2964,7 @@ prim_data
 &
 ctx
 .
-resources
+data_stores
 .
 prim
 [
@@ -3136,7 +3136,7 @@ prim_data
 &
 ctx
 .
-resources
+data_stores
 .
 normal_border
 [
@@ -3486,7 +3486,7 @@ prim_data
 &
 ctx
 .
-resources
+data_stores
 .
 text_run
 [
@@ -3928,7 +3928,7 @@ common_data
 &
 ctx
 .
-resources
+data_stores
 .
 line_decoration
 [
@@ -6764,7 +6764,7 @@ prim_data
 &
 ctx
 .
-resources
+data_stores
 .
 image_border
 [
@@ -7046,7 +7046,7 @@ prim_data
 &
 ctx
 .
-resources
+data_stores
 .
 prim
 [
@@ -7317,7 +7317,7 @@ yuv_image_data
 &
 ctx
 .
-resources
+data_stores
 .
 yuv_image
 [
@@ -7781,7 +7781,7 @@ image_data
 &
 ctx
 .
-resources
+data_stores
 .
 image
 [
@@ -7796,7 +7796,7 @@ common_data
 &
 ctx
 .
-resources
+data_stores
 .
 image
 [
@@ -8416,7 +8416,7 @@ prim_data
 &
 ctx
 .
-resources
+data_stores
 .
 linear_grad
 [
@@ -8685,7 +8685,7 @@ prim_data
 &
 ctx
 .
-resources
+data_stores
 .
 radial_grad
 [
@@ -10052,10 +10052,10 @@ is_cacheable
 (
 &
 self
-resources
+data_stores
 :
 &
-FrameResources
+DataStores
 resource_cache
 :
 &
@@ -10089,7 +10089,7 @@ let
 image_data
 =
 &
-resources
+data_stores
 .
 image
 [
@@ -10118,7 +10118,7 @@ let
 yuv_image_data
 =
 &
-resources
+data_stores
 .
 yuv_image
 [

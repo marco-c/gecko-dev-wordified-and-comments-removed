@@ -351,8 +351,8 @@ scene_builder
 :
 :
 {
-DocumentResources
 InternerMut
+Interners
 }
 ;
 use
@@ -714,13 +714,13 @@ pub
 config
 :
 FrameBuilderConfig
-resources
+interners
 :
 &
 '
 a
 mut
-DocumentResources
+Interners
 pub
 root_pic_index
 :
@@ -773,11 +773,11 @@ new_scene
 &
 mut
 Scene
-resources
+interners
 :
 &
 mut
-DocumentResources
+Interners
 prim_store_stats
 :
 &
@@ -921,7 +921,7 @@ ClipStore
 new
 (
 )
-resources
+interners
 root_pic_index
 :
 PictureIndex
@@ -1306,7 +1306,7 @@ remaining_prims
 &
 self
 .
-resources
+interners
 )
 ;
 let
@@ -1340,7 +1340,7 @@ pic_data_handle
 =
 self
 .
-resources
+interners
 .
 picture
 .
@@ -4567,7 +4567,7 @@ handle
 =
 self
 .
-resources
+interners
 .
 clip
 .
@@ -4709,7 +4709,7 @@ Marker
 >
 +
 InternDebug
-DocumentResources
+Interners
 :
 InternerMut
 <
@@ -4738,7 +4738,7 @@ interner
 =
 self
 .
-resources
+interners
 .
 interner_mut
 (
@@ -5092,7 +5092,7 @@ Marker
 >
 +
 InternDebug
-DocumentResources
+Interners
 :
 InternerMut
 <
@@ -5192,7 +5192,7 @@ Marker
 >
 +
 InternDebug
-DocumentResources
+Interners
 :
 InternerMut
 <
@@ -5371,7 +5371,7 @@ Marker
 >
 +
 InternDebug
-DocumentResources
+Interners
 :
 InternerMut
 <
@@ -5628,7 +5628,7 @@ prim_store
 mut
 self
 .
-resources
+interners
 &
 self
 .
@@ -6569,7 +6569,7 @@ primitives
 &
 self
 .
-resources
+interners
 )
 stacking_context
 .
@@ -6642,7 +6642,7 @@ spatial_node_index
 mut
 self
 .
-resources
+interners
 )
 ;
 if
@@ -6813,7 +6813,7 @@ prims
 &
 self
 .
-resources
+interners
 )
 stacking_context
 .
@@ -6850,7 +6850,7 @@ spatial_node_index
 mut
 self
 .
-resources
+interners
 )
 ;
 }
@@ -6953,7 +6953,7 @@ clone
 &
 self
 .
-resources
+interners
 )
 stacking_context
 .
@@ -6995,7 +6995,7 @@ spatial_node_index
 mut
 self
 .
-resources
+interners
 )
 ;
 if
@@ -7155,7 +7155,7 @@ clone
 &
 self
 .
-resources
+interners
 )
 stacking_context
 .
@@ -7197,7 +7197,7 @@ spatial_node_index
 mut
 self
 .
-resources
+interners
 )
 ;
 if
@@ -7950,7 +7950,7 @@ handle
 =
 self
 .
-resources
+interners
 .
 clip
 .
@@ -8018,7 +8018,7 @@ handle
 =
 self
 .
-resources
+interners
 .
 clip
 .
@@ -8074,7 +8074,7 @@ handle
 =
 self
 .
-resources
+interners
 .
 clip
 .
@@ -9023,7 +9023,7 @@ prims
 &
 self
 .
-resources
+interners
 )
 pending_shadow
 .
@@ -9066,7 +9066,7 @@ shadow_prim_data_handle
 =
 self
 .
-resources
+interners
 .
 picture
 .
@@ -9335,7 +9335,7 @@ Marker
 >
 +
 InternDebug
-DocumentResources
+Interners
 :
 InternerMut
 <
@@ -9511,7 +9511,7 @@ Marker
 >
 +
 InternDebug
-DocumentResources
+Interners
 :
 InternerMut
 <
@@ -12668,11 +12668,11 @@ prim_store
 &
 mut
 PrimitiveStore
-resources
+interners
 :
 &
 mut
-DocumentResources
+Interners
 clip_store
 :
 &
@@ -12811,7 +12811,7 @@ new
 (
 )
 )
-resources
+interners
 )
 self
 .
@@ -12847,7 +12847,7 @@ clip_chain_id
 self
 .
 spatial_node_index
-resources
+interners
 )
 ;
 Some
@@ -13116,11 +13116,11 @@ ClipChainId
 spatial_node_index
 :
 SpatialNodeIndex
-resources
+interners
 :
 &
 mut
-DocumentResources
+Interners
 )
 -
 >
@@ -13150,7 +13150,7 @@ composite_mode_key
 let
 data_handle
 =
-resources
+interners
 .
 picture
 .
