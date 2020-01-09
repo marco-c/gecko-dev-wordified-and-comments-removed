@@ -1,10 +1,6 @@
 extern
 crate
-clap
-;
-extern
-crate
-env_logger
+ws
 ;
 extern
 crate
@@ -12,7 +8,11 @@ url
 ;
 extern
 crate
-ws
+clap
+;
+extern
+crate
+env_logger
 ;
 #
 [
@@ -64,6 +64,10 @@ env_logger
 :
 :
 init
+(
+)
+.
+unwrap
 (
 )
 ;
@@ -252,6 +256,8 @@ move
 msg
 |
 {
+Ok
+(
 info
 !
 (
@@ -267,11 +273,6 @@ message
 "
 my_addr
 msg
-)
-;
-Ok
-(
-(
 )
 )
 }
