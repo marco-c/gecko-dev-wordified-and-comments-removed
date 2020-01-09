@@ -7224,6 +7224,18 @@ kPinset_google_root_pems
 }
 {
 "
+hangout
+"
+true
+false
+false
+-
+1
+&
+kPinset_google_root_pems
+}
+{
+"
 hangouts
 .
 google
@@ -9656,6 +9668,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1565267271924000
+1565612900901000
 )
 ;
