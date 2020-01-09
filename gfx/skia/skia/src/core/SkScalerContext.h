@@ -90,6 +90,9 @@ SkScalerContext
 class
 SkScalerContext_DW
 ;
+class
+SkTypeface_Mac
+;
 enum
 SkScalerContextFlags
 :
@@ -752,6 +755,10 @@ friend
 class
 SkScalerContext_DW
 ;
+friend
+class
+SkTypeface_Mac
+;
 SkColor
 getLuminanceColor
 (
@@ -833,6 +840,9 @@ kLCD_BGROrder_Flag
 kGenA8FromLCD_Flag
 =
 0x0800
+kLightOnDark_Flag
+=
+0x8000
 }
 ;
 enum
