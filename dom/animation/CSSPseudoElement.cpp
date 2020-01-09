@@ -220,9 +220,9 @@ CSSPseudoElement
 GetAnimations
 (
 const
-AnimationFilter
+GetAnimationsOptions
 &
-filter
+aOptions
 nsTArray
 <
 RefPtr

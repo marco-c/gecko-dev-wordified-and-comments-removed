@@ -161,7 +161,7 @@ id
 }
 ;
 dictionary
-AnimationFilter
+GetAnimationsOptions
 {
 boolean
 subtree
@@ -207,8 +207,8 @@ Animation
 getAnimations
 (
 optional
-AnimationFilter
-filter
+GetAnimationsOptions
+options
 )
 ;
 }

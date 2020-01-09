@@ -399,7 +399,7 @@ namespace
 dom
 {
 struct
-AnimationFilter
+GetAnimationsOptions
 ;
 struct
 ScrollIntoViewOptions
@@ -4465,9 +4465,9 @@ void
 GetAnimations
 (
 const
-AnimationFilter
+GetAnimationsOptions
 &
-filter
+aOptions
 nsTArray
 <
 RefPtr
