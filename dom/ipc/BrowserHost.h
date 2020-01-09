@@ -309,6 +309,9 @@ BrowserHost
 =
 default
 ;
+TabId
+mId
+;
 RefPtr
 <
 BrowserParent
