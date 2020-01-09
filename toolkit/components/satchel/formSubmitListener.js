@@ -486,6 +486,16 @@ if
 (
 input
 .
+hasBeenTypePassword
+)
+{
+continue
+;
+}
+if
+(
+input
+.
 hasAttribute
 (
 "
