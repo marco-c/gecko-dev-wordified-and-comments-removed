@@ -1829,11 +1829,10 @@ return
 client
 ;
 }
-detach
+destroy
 :
 function
 (
-onResponse
 )
 {
 this
@@ -1943,10 +1942,6 @@ this
 _networkRequests
 =
 null
-;
-onResponse
-(
-)
 ;
 }
 clearNetworkRequests
