@@ -1710,9 +1710,6 @@ FrameMetrics
 :
 :
 eMainThread
-nsIPresShell
-:
-:
 ScrollMode
 :
 :

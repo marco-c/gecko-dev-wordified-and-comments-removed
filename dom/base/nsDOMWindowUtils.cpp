@@ -7598,9 +7598,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsIPresShell
-:
-:
 ScrollMode
 scrollMode
 ;
@@ -7614,9 +7611,6 @@ SCROLL_MODE_INSTANT
 :
 scrollMode
 =
-nsIPresShell
-:
-:
 ScrollMode
 :
 :
@@ -7629,13 +7623,10 @@ SCROLL_MODE_SMOOTH
 :
 scrollMode
 =
-nsIPresShell
-:
-:
 ScrollMode
 :
 :
-eSmooth
+eSmoothMsd
 ;
 break
 ;
