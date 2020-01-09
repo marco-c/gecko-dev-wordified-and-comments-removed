@@ -26155,10 +26155,11 @@ process
 wait
 (
 )
-;
             
 return
-0
+process
+.
+returncode
     
 def
 _run_clang_format_path
