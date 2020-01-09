@@ -743,6 +743,10 @@ are
 sent
 to
 .
+Change
+requires
+restart
+.
 toolkit
 .
 telemetry
