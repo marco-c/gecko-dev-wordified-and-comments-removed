@@ -1436,6 +1436,16 @@ new
 -
 password
 "
+&
+&
+Services
+.
+logins
+.
+getLoginSavingEnabled
+(
+formOrigin
+)
 )
 {
 generatedPassword
