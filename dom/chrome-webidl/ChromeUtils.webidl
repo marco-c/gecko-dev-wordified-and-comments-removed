@@ -2586,7 +2586,7 @@ file
 extension
 "
 "
-privilegedabout
+privileged
 "
 "
 webLargeAllocation

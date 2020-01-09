@@ -6691,17 +6691,3 @@ separatePrivilegedContentProcess
 false
 )
 ;
-pref
-(
-"
-browser
-.
-tabs
-.
-remote
-.
-separatePrivilegedMozillaWebContentProcess
-"
-false
-)
-;

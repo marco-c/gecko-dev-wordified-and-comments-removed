@@ -213,7 +213,7 @@ Uninitialized
 Parent
 Web
 Extension
-PrivilegedAbout
+Privileged
 }
 ;
 template
