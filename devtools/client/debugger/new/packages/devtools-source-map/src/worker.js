@@ -7,7 +7,6 @@ getGeneratedRanges
 getGeneratedLocation
 getAllGeneratedLocations
 getOriginalLocation
-getOriginalLocations
 getOriginalSourceText
 getGeneratedRangesForOriginal
 getFileGeneratedRange
@@ -92,7 +91,6 @@ getGeneratedRanges
 getGeneratedLocation
 getAllGeneratedLocations
 getOriginalLocation
-getOriginalLocations
 getOriginalSourceText
 getOriginalStackFrames
 getGeneratedRangesForOriginal

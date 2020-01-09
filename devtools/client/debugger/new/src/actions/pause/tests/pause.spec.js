@@ -1647,13 +1647,6 @@ resolve
 (
 originalLocation
 )
-getOriginalLocations
-:
-async
-items
-=
->
-items
 getOriginalSourceText
 :
 async
@@ -2026,13 +2019,6 @@ resolve
 (
 originalLocation
 )
-getOriginalLocations
-:
-async
-items
-=
->
-items
 getOriginalSourceText
 :
 async
