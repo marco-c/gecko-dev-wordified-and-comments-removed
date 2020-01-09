@@ -831,7 +831,7 @@ NurseryFreeThresholdForIdleCollectionFraction
 static
 const
 float
-PretenureThreashold
+PretenureThreshold
 =
 0
 .
@@ -7778,7 +7778,7 @@ pretenureThreshold_
 TuningDefaults
 :
 :
-PretenureThreashold
+PretenureThreshold
 )
 pretenureGroupThreshold_
 (
@@ -8169,7 +8169,7 @@ pretenureThreshold_
 TuningDefaults
 :
 :
-PretenureThreashold
+PretenureThreshold
 ;
 break
 ;
