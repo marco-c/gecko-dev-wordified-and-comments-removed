@@ -1,7 +1,7 @@
 import
 {
 sortBreakpoints
-sortFormattedBreakpoints
+sortSelectedBreakpoints
 }
 from
 "
@@ -25,7 +25,7 @@ sorting
 it
 (
 "
-sortFormattedBreakpoints
+sortSelectedBreakpoints
 should
 sort
 by
@@ -42,11 +42,11 @@ column
 const
 sorted
 =
-sortFormattedBreakpoints
+sortSelectedBreakpoints
 (
 [
 {
-selectedLocation
+location
 :
 {
 line
@@ -58,7 +58,7 @@ column
 }
 }
 {
-selectedLocation
+location
 :
 {
 line
@@ -70,7 +70,7 @@ column
 }
 }
 {
-selectedLocation
+location
 :
 {
 line
@@ -82,7 +82,7 @@ undefined
 }
 }
 {
-selectedLocation
+location
 :
 {
 line
@@ -94,6 +94,17 @@ column
 }
 }
 ]
+{
+id
+:
+"
+foo
+/
+originalSource
+-
+1
+"
+}
 )
 ;
 expect
@@ -103,7 +114,7 @@ sorted
 0
 ]
 .
-selectedLocation
+location
 .
 line
 )
@@ -120,7 +131,7 @@ sorted
 0
 ]
 .
-selectedLocation
+location
 .
 column
 )
@@ -137,7 +148,7 @@ sorted
 1
 ]
 .
-selectedLocation
+location
 .
 line
 )
@@ -154,7 +165,7 @@ sorted
 1
 ]
 .
-selectedLocation
+location
 .
 column
 )
@@ -171,7 +182,7 @@ sorted
 2
 ]
 .
-selectedLocation
+location
 .
 line
 )
@@ -188,7 +199,7 @@ sorted
 3
 ]
 .
-selectedLocation
+location
 .
 line
 )

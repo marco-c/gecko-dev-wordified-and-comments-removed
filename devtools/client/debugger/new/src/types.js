@@ -671,6 +671,10 @@ loaded
 relativeUrl
 :
 string
+introductionUrl
+:
+?
+string
 |
 }
 ;
@@ -904,4 +908,12 @@ cancel
 >
 void
 }
+;
+export
+type
+EventListenerBreakpoints
+=
+string
+[
+]
 ;
