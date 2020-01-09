@@ -201,6 +201,15 @@ js
 '
 '
 react
+-
+test
+-
+renderer
+.
+js
+'
+'
+react
 .
 js
 '
