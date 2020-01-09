@@ -1452,11 +1452,10 @@ mask
 "
 )
 ;
-AddTransformedRegion
+AddRegion
 (
 result
 mask
-mTransform
 )
 ;
 }
@@ -1525,11 +1524,10 @@ ancestormask
 "
 )
 ;
-AddTransformedRegion
+AddRegion
 (
 result
 mask
-mTransform
 )
 ;
 }
