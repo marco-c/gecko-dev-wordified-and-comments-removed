@@ -6546,17 +6546,6 @@ val
 )
 ;
 void
-loadUnalignedValue
-(
-const
-Address
-&
-src
-ValueOperand
-dest
-)
-;
-void
 tagValue
 (
 JSValueType
