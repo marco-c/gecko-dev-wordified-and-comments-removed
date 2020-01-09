@@ -158,6 +158,11 @@ aboutpages
 =
 [
 '
+AboutNetErrorHandler
+.
+jsm
+'
+'
 AboutPrivateBrowsingHandler
 .
 jsm
