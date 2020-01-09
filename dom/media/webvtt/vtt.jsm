@@ -3051,8 +3051,6 @@ this
 _getFontSize
 (
 containerBox
-.
-height
 )
 ;
 if
@@ -3199,11 +3197,13 @@ px
 }
 _getFontSize
 (
-renderingAreaHeight
+containerBox
 )
 {
 return
-renderingAreaHeight
+containerBox
+.
+height
 *
 0
 .
