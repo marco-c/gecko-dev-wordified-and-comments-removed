@@ -104,14 +104,6 @@ Firefox
 Pocket
 "
 )
-DIRS
-+
-=
-[
-'
-locale
-'
-]
 BROWSER_CHROME_MANIFESTS
 +
 =

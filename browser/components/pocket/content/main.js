@@ -2039,7 +2039,7 @@ chrome
 :
 /
 /
-pocket
+browser
 /
 locale
 /
