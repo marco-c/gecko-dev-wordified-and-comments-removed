@@ -6606,7 +6606,10 @@ NS_STYLE_JUSTIFY_AUTO
 )
 mFlexDirection
 (
-NS_STYLE_FLEX_DIRECTION_ROW
+StyleFlexDirection
+:
+:
+Row
 )
 mFlexWrap
 (

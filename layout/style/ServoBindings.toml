@@ -893,6 +893,12 @@ mozilla
 StyleColorAdjust
 "
 "
+mozilla
+:
+:
+StyleFlexDirection
+"
+"
 nsStyleImageType
 "
 "

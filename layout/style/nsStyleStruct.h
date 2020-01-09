@@ -5100,7 +5100,10 @@ mJustifyItems
 uint8_t
 mJustifySelf
 ;
-uint8_t
+mozilla
+:
+:
+StyleFlexDirection
 mFlexDirection
 ;
 uint8_t
