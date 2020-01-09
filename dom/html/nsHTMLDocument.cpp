@@ -11243,10 +11243,11 @@ false
 }
 if
 (
-nsContentUtils
+!
+StaticPrefs
 :
 :
-IsCutCopyRestricted
+dom_allow_cut_copy
 (
 )
 )

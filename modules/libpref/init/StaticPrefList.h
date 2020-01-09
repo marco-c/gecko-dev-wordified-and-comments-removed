@@ -1137,6 +1137,17 @@ dom_file_createInChild
 RelaxedAtomicBool
 false
 )
+VARCACHE_PREF
+(
+"
+dom
+.
+allow_cut_copy
+"
+dom_allow_cut_copy
+bool
+true
+)
 #
 ifdef
 ANDROID
