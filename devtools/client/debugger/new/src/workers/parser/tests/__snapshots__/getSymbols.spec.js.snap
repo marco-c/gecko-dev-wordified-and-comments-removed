@@ -804,6 +804,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -1279,6 +1282,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -1479,6 +1485,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -1777,6 +1786,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -3523,6 +3535,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -4260,6 +4275,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -4369,6 +4387,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -6404,6 +6425,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -7100,6 +7124,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -7250,6 +7277,9 @@ true
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -7921,6 +7951,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -9229,6 +9262,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -9326,6 +9362,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -9631,6 +9670,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -10249,6 +10291,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -10659,6 +10704,9 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;
 exports
@@ -10770,6 +10818,9 @@ false
 loading
 :
 false
+framework
+:
+React
 "
 ;
 exports
@@ -11209,5 +11260,8 @@ false
 loading
 :
 false
+framework
+:
+undefined
 "
 ;

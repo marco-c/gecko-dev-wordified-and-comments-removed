@@ -49,9 +49,8 @@ setSymbols
 from
 "
 .
-.
 /
-ast
+symbols
 "
 ;
 import

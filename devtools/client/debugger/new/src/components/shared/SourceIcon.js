@@ -70,7 +70,7 @@ tabs
 ;
 import
 {
-getSourceMetaData
+getSymbols
 getTabs
 }
 from
@@ -103,7 +103,7 @@ types
 import
 type
 {
-SourceMetaDataType
+Symbols
 }
 from
 "
@@ -115,7 +115,7 @@ from
 /
 reducers
 /
-ast
+types
 "
 ;
 import
@@ -134,9 +134,9 @@ Props
 source
 :
 Source
-sourceMetaData
+symbols
 :
-SourceMetaDataType
+Symbols
 shouldHide
 ?
 :
@@ -163,7 +163,7 @@ const
 {
 shouldHide
 source
-sourceMetaData
+symbols
 framework
 }
 =
@@ -185,7 +185,7 @@ toLowerCase
 getSourceClassnames
 (
 source
-sourceMetaData
+symbols
 )
 ;
 if
@@ -234,16 +234,14 @@ props
 {
 return
 {
-sourceMetaData
+symbols
 :
-getSourceMetaData
+getSymbols
 (
 state
 props
 .
 source
-.
-id
 )
 framework
 :
