@@ -7,6 +7,13 @@ nsmacshellservice_h____
 #
 include
 "
+nsToolkitShellService
+.
+h
+"
+#
+include
+"
 nsIMacShellService
 .
 h
@@ -37,6 +44,8 @@ nsMacShellService
 :
 public
 nsIMacShellService
+public
+nsToolkitShellService
 public
 nsIWebProgressListener
 {

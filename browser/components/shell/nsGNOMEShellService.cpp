@@ -640,6 +640,7 @@ NS_IMPL_ISUPPORTS
 nsGNOMEShellService
 nsIGNOMEShellService
 nsIShellService
+nsIToolkitShellService
 )
 bool
 nsGNOMEShellService

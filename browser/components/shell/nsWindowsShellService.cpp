@@ -330,6 +330,7 @@ widget
 NS_IMPL_ISUPPORTS
 (
 nsWindowsShellService
+nsIToolkitShellService
 nsIShellService
 )
 static

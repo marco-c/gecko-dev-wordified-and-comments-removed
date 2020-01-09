@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsToolkitShellService
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -33,6 +40,8 @@ final
 :
 public
 nsIGNOMEShellService
+public
+nsToolkitShellService
 {
 public
 :

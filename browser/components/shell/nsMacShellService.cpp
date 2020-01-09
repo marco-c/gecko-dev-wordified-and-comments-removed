@@ -220,6 +220,7 @@ NS_IMPL_ISUPPORTS
 nsMacShellService
 nsIMacShellService
 nsIShellService
+nsIToolkitShellService
 nsIWebProgressListener
 )
 NS_IMETHODIMP
