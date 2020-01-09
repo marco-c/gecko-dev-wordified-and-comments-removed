@@ -7990,6 +7990,14 @@ close
 )
 ;
 }
+if
+(
+!
+this
+.
+_suppressEvents
+)
+{
 this
 .
 _transceivers
@@ -8006,6 +8014,7 @@ setStopped
 )
 )
 ;
+}
 this
 .
 _impl
