@@ -63,9 +63,6 @@ TextTrackCueList
 class
 HTMLTrackElement
 ;
-class
-HTMLMediaElement
-;
 enum
 TextTrackSource
 {
@@ -424,12 +421,6 @@ private
 :
 ~
 TextTrack
-(
-)
-;
-HTMLMediaElement
-*
-GetMediaElement
 (
 )
 ;
