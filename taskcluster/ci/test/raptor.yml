@@ -2375,8 +2375,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -2422,6 +2420,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -5956,8 +5956,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -6005,6 +6003,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -6096,8 +6096,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -6145,6 +6143,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -6236,8 +6236,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -6285,6 +6283,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -6376,8 +6376,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -6425,6 +6423,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -6516,8 +6516,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -6565,6 +6563,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -6656,8 +6656,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -6705,6 +6703,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -6796,8 +6796,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -6845,6 +6843,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -6936,8 +6936,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -6985,6 +6983,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -7076,8 +7076,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -7125,6 +7123,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -7216,8 +7216,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -7265,6 +7263,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -7356,8 +7356,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -7405,6 +7403,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -7496,8 +7496,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -7545,6 +7543,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -7636,8 +7636,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -7685,6 +7683,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
@@ -7776,8 +7776,6 @@ master
 .
 latest
 .
-release
--
 raptor
 .
 arm
@@ -7825,6 +7823,8 @@ org
 mozilla
 .
 fenix
+.
+raptor
 -
 -
 -
