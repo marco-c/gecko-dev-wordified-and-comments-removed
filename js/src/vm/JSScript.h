@@ -12399,11 +12399,6 @@ isLikelyConstructorWrapper
 1
 ;
 uint32_t
-hasBeenCloned
-:
-1
-;
-uint32_t
 treatAsRunOnce
 :
 1
@@ -12425,6 +12420,11 @@ hasRest
 ;
 uint32_t
 parseGoal
+:
+1
+;
+uint32_t
+hasBeenCloned
 :
 1
 ;
