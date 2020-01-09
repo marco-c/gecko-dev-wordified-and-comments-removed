@@ -49,6 +49,11 @@ recommonmark
 "
 *
 "
+scandir
+=
+"
+*
+"
 singledispatch
 =
 "
