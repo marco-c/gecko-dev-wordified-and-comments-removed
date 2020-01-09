@@ -63,6 +63,9 @@ class
 JSWindowActorParent
 ;
 class
+TabParent
+;
+class
 WindowGlobalParent
 final
 :
