@@ -307,10 +307,6 @@ else
 return
 (
 ini_value
-.
-strip
-(
-)
 None
 )
     
