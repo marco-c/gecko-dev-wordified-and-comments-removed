@@ -128,16 +128,6 @@ nsPermissionManager
 cpp
 '
 ]
-XPCOM_MANIFESTS
-+
-=
-[
-'
-components
-.
-conf
-'
-]
 LOCAL_INCLUDES
 +
 =

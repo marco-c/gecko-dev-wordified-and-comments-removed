@@ -95,6 +95,12 @@ GetInstanceForService
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 private
 :
 virtual

@@ -109,15 +109,10 @@ MulticastDNSDeviceProvider
 .
 cpp
 '
-]
-XPCOM_MANIFESTS
-+
-=
-[
 '
-components
+PresentationDeviceProviderModule
 .
-conf
+cpp
 '
 ]
 XPCOM_MANIFESTS

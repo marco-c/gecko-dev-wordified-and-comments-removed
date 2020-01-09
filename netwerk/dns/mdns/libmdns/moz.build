@@ -222,15 +222,10 @@ nsDNSServiceInfo
 .
 cpp
 '
-]
-XPCOM_MANIFESTS
-+
-=
-[
 '
-components
+nsMulticastDNSModule
 .
-conf
+cpp
 '
 ]
 XPCOM_MANIFESTS
