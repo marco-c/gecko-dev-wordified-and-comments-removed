@@ -19884,6 +19884,16 @@ if
 needUnwrappedObj
 :
             
+assert
+not
+self
+.
+descriptor
+.
+isMaybeCrossOriginObject
+(
+)
+            
 ret
 =
 fill
@@ -19907,7 +19917,7 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )
@@ -29782,6 +29792,22 @@ fill
             
 {
               
+/
+/
+Our
+JSContext
+should
+be
+in
+the
+right
+global
+to
+do
+unwrapping
+in
+.
+              
 nsresult
 rv
 =
@@ -29801,6 +29827,7 @@ mutableSource
 {
 target
 }
+cx
 )
 ;
               
@@ -37337,7 +37364,7 @@ unwrappedVal
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 &
 {
@@ -52669,6 +52696,14 @@ StoreInSlot
 )
 :
             
+assert
+not
+descriptor
+.
+isMaybeCrossOriginObject
+(
+)
+            
 cgThings
 .
 append
@@ -52696,7 +52731,7 @@ cx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 obj
 )
@@ -53127,6 +53162,32 @@ fill
 "
 "
                     
+/
+/
+Since
+our
+object
+is
+an
+Xray
+we
+can
+just
+CheckedUnwrapStatic
+:
+                    
+/
+/
+we
+know
+Xrays
+have
+no
+dynamic
+unwrap
+behavior
+.
+                    
 {
 obj
 }
@@ -53134,7 +53195,7 @@ obj
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 {
 obj

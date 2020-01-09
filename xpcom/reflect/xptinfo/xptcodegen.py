@@ -2659,6 +2659,9 @@ void
 *
 *
 aObj
+JSContext
+*
+aCx
 )
 {
   
@@ -2686,6 +2689,7 @@ T
 (
 aHandle
 p
+aCx
 )
 ;
   
