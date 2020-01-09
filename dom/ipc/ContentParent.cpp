@@ -19050,7 +19050,6 @@ new
 ExternalHelperAppParent
 (
 uri
-aLoadInfoArgs
 aContentLength
 aWasFileChannel
 aContentDisposition
@@ -19164,11 +19163,19 @@ PBrowserParent
 aBrowser
 )
 {
+static_cast
+<
+ExternalHelperAppParent
+*
+>
+(
 actor
+)
 -
 >
 Init
 (
+loadInfoArgs
 aMimeContentType
 aForceSave
 aReferrer
