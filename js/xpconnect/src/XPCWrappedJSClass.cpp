@@ -469,7 +469,6 @@ clasp
 new
 nsXPCWrappedJSClass
 (
-aIID
 info
 )
 ;
@@ -503,8 +502,6 @@ nsXPCWrappedJSClass
 :
 nsXPCWrappedJSClass
 (
-REFNSIID
-aIID
 const
 nsXPTInterfaceInfo
 *
@@ -514,10 +511,6 @@ aInfo
 mInfo
 (
 aInfo
-)
-mIID
-(
-aIID
 )
 mDescriptors
 (
@@ -5344,7 +5337,12 @@ char
 *
 iid
 =
-mIID
+mInfo
+-
+>
+IID
+(
+)
 .
 ToString
 (
