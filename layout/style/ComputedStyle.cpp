@@ -107,13 +107,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

@@ -546,13 +546,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsPluginNativeWindow
 .
 h
