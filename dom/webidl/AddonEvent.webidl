@@ -28,11 +28,6 @@ attribute
 DOMString
 id
 ;
-readonly
-attribute
-boolean
-needsRestart
-;
 }
 ;
 dictionary
@@ -43,10 +38,6 @@ EventInit
 required
 DOMString
 id
-;
-required
-boolean
-needsRestart
 ;
 }
 ;

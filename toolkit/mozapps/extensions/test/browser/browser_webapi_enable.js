@@ -270,9 +270,6 @@ expected
 id
 :
 ID
-needsRestart
-:
-false
 event
 :
 "
@@ -283,9 +280,6 @@ onDisabling
 id
 :
 ID
-needsRestart
-:
-false
 event
 :
 "
@@ -374,9 +368,6 @@ concat
 id
 :
 ID
-needsRestart
-:
-false
 event
 :
 "
@@ -387,9 +378,6 @@ onEnabling
 id
 :
 ID
-needsRestart
-:
-false
 event
 :
 "
