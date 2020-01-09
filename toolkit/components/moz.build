@@ -165,6 +165,9 @@ asyncshutdown
 backgroundhangmonitor
 '
 '
+bitsdownload
+'
+'
 browser
 '
 '
