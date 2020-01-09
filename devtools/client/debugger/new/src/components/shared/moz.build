@@ -72,6 +72,11 @@ Button
 DebuggerModules
 (
 '
+AccessibleImage
+.
+js
+'
+'
 Accordion
 .
 js

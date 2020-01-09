@@ -16,6 +16,15 @@ classnames
 "
 ;
 import
+AccessibleImage
+from
+"
+.
+/
+AccessibleImage
+"
+;
+import
 "
 .
 /
@@ -268,7 +277,7 @@ icon
 div
 >
 <
-img
+AccessibleImage
 className
 =
 {

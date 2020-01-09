@@ -4819,9 +4819,11 @@ width
 15px
 ;
 }
+.
 img
 .
 domain
+.
 img
 .
 folder
@@ -4835,6 +4837,7 @@ height
 15px
 ;
 }
+.
 img
 .
 extension
@@ -4856,6 +4859,7 @@ start
 2px
 ;
 }
+.
 img
 .
 result
@@ -4873,6 +4877,7 @@ width
 18px
 ;
 }
+.
 img
 .
 domain
@@ -4906,6 +4911,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 folder
@@ -4939,6 +4945,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 coffeescript
@@ -4972,6 +4979,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 javascript
@@ -5005,6 +5013,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 tab
@@ -5038,6 +5047,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 react
@@ -5071,6 +5081,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 typescript
@@ -5104,6 +5115,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 extension
@@ -5137,6 +5149,7 @@ no
 repeat
 ;
 }
+.
 img
 .
 file
@@ -5178,12 +5191,15 @@ height
 13px
 ;
 }
+.
 img
 .
 domain
+.
 img
 .
 folder
+.
 img
 .
 file
@@ -5191,11 +5207,13 @@ file
 sources
 -
 list
+.
 img
 .
 source
 -
 icon
+.
 img
 .
 extension
@@ -5222,6 +5240,7 @@ inline
 block
 ;
 }
+.
 img
 .
 result
@@ -5279,6 +5298,7 @@ end
 5px
 ;
 }
+.
 img
 .
 arrow
@@ -5391,6 +5411,7 @@ dir
 ltr
 "
 ]
+.
 img
 .
 arrow
@@ -5412,6 +5433,7 @@ dir
 rtl
 "
 ]
+.
 img
 .
 arrow
@@ -5907,6 +5929,24 @@ fixed
 ;
 }
 .
+img
+{
+width
+:
+12px
+;
+height
+:
+12px
+;
+display
+:
+inline
+-
+block
+;
+}
+.
 close
 -
 btn
@@ -6050,6 +6090,7 @@ close
 btn
 :
 hover
+.
 img
 .
 close
@@ -6113,6 +6154,7 @@ close
 btn
 :
 focus
+.
 img
 .
 close
@@ -8515,6 +8557,7 @@ sources
 list
 .
 tree
+.
 img
 .
 arrow
@@ -8587,6 +8630,7 @@ sources
 list
 .
 tree
+.
 img
 .
 arrow
@@ -9265,6 +9309,7 @@ tree
 tree
 .
 node
+.
 img
 .
 blackBox
@@ -9378,6 +9423,7 @@ not
 .
 focused
 )
+.
 img
 .
 blackBox
@@ -9412,6 +9458,7 @@ tree
 tree
 .
 node
+.
 img
 .
 blackBox
@@ -11302,6 +11349,7 @@ commands
 >
 .
 action
+.
 img
 {
 height
@@ -11459,6 +11507,7 @@ commands
 .
 action
 >
+.
 img
 .
 prettyPrint
@@ -11524,6 +11573,7 @@ commands
 .
 action
 >
+.
 img
 .
 blackBox
@@ -11589,6 +11639,7 @@ commands
 .
 blackboxed
 >
+.
 img
 .
 blackBox
@@ -12057,6 +12108,7 @@ close
 btn
 .
 big
+.
 img
 {
 width
@@ -19625,49 +19677,63 @@ background
 )
 ;
 }
+.
 img
 .
 pause
+.
 img
 .
 stepOver
+.
 img
 .
 stepIn
+.
 img
 .
 stepOut
+.
 img
 .
 resume
+.
 img
 .
 rewind
+.
 img
 .
 reverseStepOver
+.
 img
 .
 reverseStepIn
+.
 img
 .
 reverseStepOut
+.
 img
 .
 replay
 -
 previous
+.
 img
 .
 replay
 -
 next
+.
 img
 .
 resume
+.
 img
 .
 shortcuts
+.
 img
 .
 skipPausing
@@ -19692,6 +19758,7 @@ color
 command
 -
 bar
+.
 img
 .
 pause
@@ -19729,6 +19796,7 @@ repeat
 command
 -
 bar
+.
 img
 .
 stepOver
@@ -19766,6 +19834,7 @@ repeat
 command
 -
 bar
+.
 img
 .
 stepIn
@@ -19803,6 +19872,7 @@ repeat
 command
 -
 bar
+.
 img
 .
 stepOut
@@ -19840,6 +19910,7 @@ repeat
 command
 -
 bar
+.
 img
 .
 resume
@@ -19877,6 +19948,7 @@ repeat
 command
 -
 bar
+.
 img
 .
 rewind
@@ -19922,6 +19994,7 @@ scaleX
 command
 -
 bar
+.
 img
 .
 reverseStepOver
@@ -19967,6 +20040,7 @@ scaleX
 command
 -
 bar
+.
 img
 .
 reverseStepIn
@@ -20012,6 +20086,7 @@ scaleX
 command
 -
 bar
+.
 img
 .
 reverseStepOut
@@ -20071,6 +20146,7 @@ grow
 command
 -
 bar
+.
 img
 .
 shortcuts
@@ -22388,6 +22464,7 @@ end
 source
 -
 tab
+.
 img
 .
 prettyPrint
@@ -22445,6 +22522,7 @@ shadow
 source
 -
 tab
+.
 img
 .
 react
@@ -22641,6 +22719,7 @@ dir
 rtl
 "
 ]
+.
 img
 .
 moreTabs
@@ -23714,6 +23793,7 @@ result
 -
 list
 li
+.
 img
 .
 result

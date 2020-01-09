@@ -99,6 +99,18 @@ from
 types
 "
 ;
+import
+AccessibleImage
+from
+"
+.
+.
+/
+shared
+/
+AccessibleImage
+"
+;
 export
 class
 Workers
@@ -173,7 +185,7 @@ worker
 }
 >
 <
-img
+AccessibleImage
 className
 =
 "

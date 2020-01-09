@@ -119,6 +119,18 @@ CommandBarButton
 "
 ;
 import
+AccessibleImage
+from
+"
+.
+.
+/
+shared
+/
+AccessibleImage
+"
+;
+import
 "
 .
 /
@@ -1297,7 +1309,7 @@ toggleSkipPausing
 }
 >
 <
-img
+AccessibleImage
 className
 =
 "

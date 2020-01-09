@@ -154,6 +154,18 @@ Dropdown
 "
 ;
 import
+AccessibleImage
+from
+"
+.
+.
+/
+shared
+/
+AccessibleImage
+"
+;
+import
 type
 {
 Source
@@ -680,7 +692,7 @@ onClick
 }
 >
 <
-img
+AccessibleImage
 className
 =
 {
@@ -840,7 +852,7 @@ const
 icon
 =
 <
-img
+AccessibleImage
 className
 =
 "

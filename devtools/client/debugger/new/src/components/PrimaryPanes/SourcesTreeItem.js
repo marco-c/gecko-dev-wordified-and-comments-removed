@@ -50,6 +50,18 @@ SourceIcon
 "
 ;
 import
+AccessibleImage
+from
+"
+.
+.
+/
+shared
+/
+AccessibleImage
+"
+;
+import
 Svg
 from
 "
@@ -392,7 +404,7 @@ depth
 {
 return
 <
-img
+AccessibleImage
 className
 =
 "
@@ -422,7 +434,7 @@ projectRoot
 return
 (
 <
-img
+AccessibleImage
 className
 =
 {
@@ -463,7 +475,7 @@ item
 {
 return
 <
-img
+AccessibleImage
 className
 =
 "
@@ -879,7 +891,7 @@ item
 ?
 (
 <
-img
+AccessibleImage
 className
 =
 {
