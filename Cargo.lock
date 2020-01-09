@@ -1264,7 +1264,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -1282,7 +1282,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -10728,7 +10728,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -10746,7 +10746,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -11090,7 +11090,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -11108,7 +11108,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -13500,7 +13500,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -13518,7 +13518,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -17935,7 +17935,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -17953,7 +17953,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -21811,7 +21811,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -21829,7 +21829,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -27737,7 +27737,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -27755,7 +27755,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -27978,7 +27978,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -27996,7 +27996,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 ]
@@ -29391,7 +29391,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -29409,7 +29409,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 ]
@@ -29505,7 +29505,7 @@ version
 .
 0
 .
-80
+88
 "
 source
 =
@@ -29526,9 +29526,9 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 #
-e0cc925c259cb74ce41377e4fe02713adfa6d836
+84b2795d2a7b5312125a99b1ef11c67fd8d17c35
 "
 dependencies
 =
@@ -39446,7 +39446,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -39464,7 +39464,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -40885,7 +40885,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -40903,7 +40903,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 "
@@ -50491,7 +50491,7 @@ serde_derive
 .
 0
 .
-80
+88
 (
 git
 +
@@ -50509,7 +50509,7 @@ serde
 ?
 branch
 =
-deserialize_from_enums9
+deserialize_from_enums10
 )
 "
 =
