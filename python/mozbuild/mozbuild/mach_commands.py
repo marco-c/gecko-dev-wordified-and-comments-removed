@@ -22876,6 +22876,15 @@ else
 :
                 
 if
+os
+.
+path
+.
+isfile
+(
+f
+)
+and
 f
 .
 endswith
