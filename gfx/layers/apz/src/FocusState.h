@@ -116,6 +116,12 @@ CanIgnoreKeyboardShortcutMisses
 )
 const
 ;
+LayersId
+GetFocusLayersId
+(
+)
+const
+;
 private
 :
 bool
