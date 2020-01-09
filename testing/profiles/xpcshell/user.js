@@ -201,3 +201,17 @@ dummy
 "
 )
 ;
+user_pref
+(
+"
+dom
+.
+ipc
+.
+processPriorityManager
+.
+enabled
+"
+false
+)
+;
