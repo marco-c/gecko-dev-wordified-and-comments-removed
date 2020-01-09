@@ -585,6 +585,11 @@ cmd_pasteQuote
 )
 NS_DEFINE_COMMAND
 (
+PasteTransferable
+cmd_pasteTransferable
+)
+NS_DEFINE_COMMAND
+(
 PasteWithoutFormat
 cmd_pasteNoFormatting
 )
