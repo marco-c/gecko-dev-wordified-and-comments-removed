@@ -129,6 +129,11 @@ case
 REMOVE_BREAKPOINT
 "
 :
+case
+"
+REMOVE_PENDING_BREAKPOINT
+"
+:
 return
 removeBreakpoint
 (
