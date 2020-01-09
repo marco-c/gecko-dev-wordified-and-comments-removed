@@ -2204,8 +2204,10 @@ i
 ;
 }
 }
-static
 bool
+nsFrameMessageManager
+:
+:
 GetParamsForMessage
 (
 JSContext
