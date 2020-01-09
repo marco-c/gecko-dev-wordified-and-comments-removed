@@ -128,6 +128,7 @@ type
 {
 SourceId
 Source
+SourceActor
 SourceContent
 SourceLocation
 }
@@ -1866,7 +1867,7 @@ isInlineScript
 (
 source
 :
-Source
+SourceActor
 )
 :
 boolean

@@ -1189,9 +1189,15 @@ export
 type
 BreakpointPositions
 =
+{
+[
+number
+]
+:
 BreakpointPosition
 [
 ]
+}
 ;
 export
 type

@@ -169,6 +169,14 @@ SourceLocation
 )
 {
 const
+{
+sourceId
+line
+}
+=
+location
+;
+const
 positions
 :
 BreakpointPositions
@@ -181,10 +189,7 @@ setBreakpointPositions
 {
 cx
 sourceId
-:
-location
-.
-sourceId
+line
 }
 )
 )

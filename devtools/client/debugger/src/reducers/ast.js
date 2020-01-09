@@ -196,10 +196,6 @@ symbols
 :
 SymbolsMap
 +
-emptyLines
-:
-EmptyLinesMap
-+
 outOfScopeLocations
 :
 ?
@@ -232,10 +228,6 @@ ASTState
 return
 {
 symbols
-:
-{
-}
-emptyLines
 :
 {
 }

@@ -33,7 +33,6 @@ selectors
 getSource
 getSourceContent
 }
-getState
 }
 =
 dbg

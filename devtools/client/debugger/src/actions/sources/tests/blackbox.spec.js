@@ -61,6 +61,15 @@ async
 =
 >
 true
+getBreakableLines
+:
+async
+(
+)
+=
+>
+[
+]
 }
 )
 ;

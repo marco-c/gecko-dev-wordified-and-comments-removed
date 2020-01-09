@@ -229,6 +229,15 @@ async
 =
 >
 bpPos
+getBreakableLines
+:
+async
+(
+)
+=
+>
+[
+]
 }
 ;
 }

@@ -431,5 +431,14 @@ async
 {
 }
 )
+getBreakableLines
+:
+async
+(
+)
+=
+>
+[
+]
 }
 ;

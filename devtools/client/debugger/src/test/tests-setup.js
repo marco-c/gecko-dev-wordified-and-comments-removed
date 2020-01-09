@@ -686,7 +686,7 @@ finallyPolyfill
 callback
 )
 {
-var
+const
 constructor
 =
 this
