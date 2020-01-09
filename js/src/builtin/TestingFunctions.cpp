@@ -13736,8 +13736,6 @@ FinalizeCounterClass
 "
 FinalizeCounter
 "
-JSCLASS_IS_ANONYMOUS
-|
 JSCLASS_FOREGROUND_FINALIZE
 &
 FinalizeCounterClassOps

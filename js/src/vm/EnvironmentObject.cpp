@@ -1311,8 +1311,6 @@ class_
 "
 Call
 "
-JSCLASS_IS_ANONYMOUS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 CallObject
@@ -1928,8 +1926,6 @@ class_
 "
 Var
 "
-JSCLASS_IS_ANONYMOUS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 VarEnvironmentObject
@@ -2011,8 +2007,6 @@ ModuleEnvironmentObject
 :
 RESERVED_SLOTS
 )
-|
-JSCLASS_IS_ANONYMOUS
 &
 ModuleEnvironmentObject
 :
@@ -3339,8 +3333,6 @@ class_
 "
 WasmInstance
 "
-JSCLASS_IS_ANONYMOUS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 WasmInstanceEnvironmentObject
@@ -3549,8 +3541,6 @@ class_
 "
 WasmCall
 "
-JSCLASS_IS_ANONYMOUS
-|
 JSCLASS_HAS_RESERVED_SLOTS
 (
 WasmFunctionCallObject
@@ -4683,8 +4673,6 @@ WithEnvironmentObject
 :
 RESERVED_SLOTS
 )
-|
-JSCLASS_IS_ANONYMOUS
 JS_NULL_CLASS_OPS
 JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
@@ -4804,8 +4792,6 @@ NonSyntacticVariablesObject
 :
 RESERVED_SLOTS
 )
-|
-JSCLASS_IS_ANONYMOUS
 }
 ;
 bool
@@ -6079,8 +6065,6 @@ LexicalEnvironmentObject
 :
 RESERVED_SLOTS
 )
-|
-JSCLASS_IS_ANONYMOUS
 JS_NULL_CLASS_OPS
 JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT
@@ -6830,8 +6814,6 @@ RuntimeLexicalErrorObject
 :
 RESERVED_SLOTS
 )
-|
-JSCLASS_IS_ANONYMOUS
 JS_NULL_CLASS_OPS
 JS_NULL_CLASS_SPEC
 JS_NULL_CLASS_EXT

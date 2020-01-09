@@ -600,8 +600,6 @@ ImportEntryObject
 :
 SlotCount
 )
-|
-JSCLASS_IS_ANONYMOUS
 }
 ;
 DEFINE_GETTER_FUNCTIONS
@@ -975,8 +973,6 @@ ExportEntryObject
 :
 SlotCount
 )
-|
-JSCLASS_IS_ANONYMOUS
 }
 ;
 DEFINE_GETTER_FUNCTIONS
@@ -1405,8 +1401,6 @@ RequestedModuleObject
 :
 SlotCount
 )
-|
-JSCLASS_IS_ANONYMOUS
 }
 ;
 DEFINE_GETTER_FUNCTIONS
@@ -4053,8 +4047,6 @@ ModuleObject
 :
 SlotCount
 )
-|
-JSCLASS_IS_ANONYMOUS
 |
 JSCLASS_BACKGROUND_FINALIZE
 &
