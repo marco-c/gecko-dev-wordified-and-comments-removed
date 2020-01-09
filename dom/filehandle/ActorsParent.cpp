@@ -8149,9 +8149,12 @@ size
 (
 )
 =
+Some
+(
 uint64_t
 (
 size
+)
 )
 ;
 }
@@ -8163,7 +8166,7 @@ size
 (
 )
 =
-void_t
+Nothing
 (
 )
 ;
@@ -8212,7 +8215,10 @@ lastModified
 (
 )
 =
+Some
+(
 lastModified
+)
 ;
 }
 else
@@ -8223,7 +8229,7 @@ lastModified
 (
 )
 =
-void_t
+Nothing
 (
 )
 ;
