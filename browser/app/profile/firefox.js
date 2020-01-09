@@ -10961,6 +10961,16 @@ enforcement_level
 pref
 (
 "
+plain_text
+.
+wrap_long_lines
+"
+true
+)
+;
+pref
+(
+"
 dom
 .
 debug
