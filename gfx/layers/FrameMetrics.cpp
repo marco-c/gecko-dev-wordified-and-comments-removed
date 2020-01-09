@@ -59,6 +59,7 @@ KeepLayoutViewportEnclosingVisualViewport
 GetVisualViewport
 (
 )
+mScrollableRect
 mLayoutViewport
 )
 ;
@@ -73,6 +74,10 @@ const
 CSSRect
 &
 aVisualViewport
+const
+CSSRect
+&
+aScrollableRect
 CSSRect
 &
 aLayoutViewport
@@ -411,6 +416,15 @@ YMost
 ;
 }
 }
+aLayoutViewport
+=
+aLayoutViewport
+.
+MoveInsideAndClamp
+(
+aScrollableRect
+)
+;
 }
 void
 ScrollMetadata

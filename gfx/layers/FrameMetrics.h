@@ -2008,6 +2008,10 @@ const
 CSSRect
 &
 aVisualViewport
+const
+CSSRect
+&
+aScrollableRect
 CSSRect
 &
 aLayoutViewport
