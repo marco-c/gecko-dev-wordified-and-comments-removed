@@ -1970,7 +1970,7 @@ void
 _1
 ;
 static
-const
+constexpr
 size_t
 MAX_FIXED_SLOTS
 =
