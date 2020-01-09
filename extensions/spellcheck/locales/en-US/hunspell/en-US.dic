@@ -1,4 +1,4 @@
-52987
+53000
 0
 /
 nm
@@ -44735,10 +44735,14 @@ M
 backsplash
 /
 S
+backstab
+/
+S
 backstabber
 /
 MS
 backstabbing
+backstabby
 backstage
 /
 M
@@ -48442,6 +48446,9 @@ bombshell
 /
 SM
 bombsite
+/
+S
+bon
 /
 S
 bona
@@ -56021,6 +56028,12 @@ collusion
 /
 M
 collusive
+colocate
+/
+DGS
+colocation
+/
+S
 cologne
 /
 SM
@@ -58973,6 +58986,8 @@ cosmos
 /
 MS
 cosplay
+/
+DGSRZ
 cosponsor
 /
 GSMD
@@ -60589,6 +60604,9 @@ M
 culotte
 /
 SM
+culpa
+/
+S
 culpability
 /
 M
@@ -70850,6 +70868,7 @@ SGD
 extortion
 /
 MRZ
+extortionary
 extortionate
 /
 Y
@@ -76697,6 +76716,8 @@ geophysics
 /
 M
 geopolitical
+/
+Y
 geopolitics
 /
 M
@@ -93935,6 +93956,7 @@ mdse
 me
 /
 DSH
+mea
 mead
 /
 M
@@ -106933,6 +106955,9 @@ M
 pixel
 /
 MS
+pixelate
+/
+DS
 pixie
 /
 MS
@@ -117683,7 +117708,7 @@ scale
 s
 scale
 /
-CGDS
+CGDSB
 scaleless
 scalene
 scaliness
@@ -126088,6 +126113,9 @@ MS
 stool
 /
 SM
+stoolie
+/
+SM
 stoop
 /
 GSMD
@@ -127891,6 +127919,9 @@ GDS
 supervention
 /
 M
+supervillain
+/
+SM
 supervise
 /
 XGNDS
@@ -137268,6 +137299,9 @@ M
 vivacity
 /
 M
+vivant
+/
+S
 vivaria
 vivarium
 /
@@ -139671,6 +139705,9 @@ Y
 wishlist
 '
 s
+wishy
+-
+washy
 wisp
 /
 MS
