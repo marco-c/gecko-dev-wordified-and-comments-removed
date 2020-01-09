@@ -173,7 +173,7 @@ always
 ]
 unsafe
 fn
-get_class_from_attr
+get_class_or_part_from_attr
 (
 attr
 :
@@ -523,7 +523,7 @@ always
 ]
 pub
 fn
-has_class
+has_class_or_part
 (
 name
 :
@@ -547,7 +547,7 @@ bool
 match
 unsafe
 {
-get_class_from_attr
+get_class_or_part_from_attr
 (
 attr
 )
@@ -703,7 +703,7 @@ Atom
 unsafe
 {
 match
-get_class_from_attr
+get_class_or_part_from_attr
 (
 attr
 )

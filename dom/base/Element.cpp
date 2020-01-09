@@ -12727,6 +12727,15 @@ nsGkAtoms
 :
 :
 _class
+|
+|
+aAttribute
+=
+=
+nsGkAtoms
+:
+:
+part
 )
 {
 aResult
