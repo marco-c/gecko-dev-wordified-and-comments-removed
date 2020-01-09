@@ -12027,12 +12027,7 @@ openerContentParent
 host
 -
 >
-GetActor
-(
-)
--
->
-Manager
+GetContentParent
 (
 )
 ;
