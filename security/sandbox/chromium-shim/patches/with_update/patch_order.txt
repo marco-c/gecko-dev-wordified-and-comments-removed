@@ -73,6 +73,3 @@ patch
 add_aarch64_windows_support
 .
 patch
-aarch64_control_flow_guard
-.
-patch

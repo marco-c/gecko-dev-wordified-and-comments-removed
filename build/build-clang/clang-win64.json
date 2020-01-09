@@ -243,15 +243,6 @@ error
 patch
 "
 "
-r355141
--
-arm64
--
-cfg
-.
-patch
-"
-"
 loosen
 -
 msvc
