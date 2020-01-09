@@ -391,7 +391,7 @@ nsTArray
 wr
 :
 :
-WrFilterOp
+FilterOp
 >
 &
 aFilters
@@ -401,7 +401,7 @@ nsTArray
 wr
 :
 :
-WrFilterOp
+FilterOp
 >
 (
 )
