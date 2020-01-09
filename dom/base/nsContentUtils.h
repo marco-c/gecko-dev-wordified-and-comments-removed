@@ -5053,16 +5053,6 @@ ShouldResistFingerprinting
 }
 static
 bool
-GetBoxQuadsEnabled
-(
-)
-{
-return
-sGetBoxQuadsEnabled
-;
-}
-static
-bool
 RequestIdleCallbackEnabled
 (
 )
@@ -7574,10 +7564,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sGetBoxQuadsEnabled
 ;
 static
 bool
