@@ -127,7 +127,6 @@ function
 commonInit
 (
 selfFilling
-testDependsOnDeprecatedLogin
 )
 {
 var
@@ -233,11 +232,6 @@ true
 ;
 }
 }
-if
-(
-testDependsOnDeprecatedLogin
-)
-{
 var
 login
 =
@@ -313,7 +307,6 @@ addLogin
 login
 )
 ;
-}
 logins
 =
 pwmgr
@@ -329,11 +322,7 @@ equal
 logins
 .
 length
-testDependsOnDeprecatedLogin
-?
 1
-:
-0
 "
 Checking
 for
@@ -704,12 +693,12 @@ setupParent
 selfFilling
 =
 false
-testDependsOnDeprecatedLogin
-=
-false
 }
 =
 {
+selfFilling
+:
+false
 }
 )
 =
@@ -718,7 +707,6 @@ false
 commonInit
 (
 selfFilling
-testDependsOnDeprecatedLogin
 )
 ;
 sendAsyncMessage
