@@ -8078,7 +8078,7 @@ tiling
 }
 pub
 fn
-before_frames
+prepare_for_frames
 (
 &
 mut
@@ -8092,7 +8092,7 @@ self
 .
 texture_cache
 .
-before_frames
+prepare_for_frames
 (
 time
 )
@@ -8100,7 +8100,7 @@ time
 }
 pub
 fn
-after_frames
+bookkeep_after_frames
 (
 &
 mut
@@ -8111,7 +8111,7 @@ self
 .
 texture_cache
 .
-after_frames
+bookkeep_after_frames
 (
 )
 ;

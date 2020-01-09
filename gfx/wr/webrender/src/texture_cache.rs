@@ -2704,7 +2704,7 @@ new
 }
 pub
 fn
-before_frames
+prepare_for_frames
 (
 &
 mut
@@ -2724,7 +2724,7 @@ time
 }
 pub
 fn
-after_frames
+bookkeep_after_frames
 (
 &
 mut

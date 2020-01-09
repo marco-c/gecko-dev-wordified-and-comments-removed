@@ -3260,7 +3260,7 @@ requires_frame_build
 }
 pub
 fn
-before_frames
+prepare_for_frames
 (
 &
 mut
@@ -3326,7 +3326,7 @@ document_id
 }
 pub
 fn
-after_frames
+bookkeep_after_frames
 (
 &
 mut
