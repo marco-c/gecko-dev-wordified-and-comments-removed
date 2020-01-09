@@ -591,7 +591,7 @@ Maybe
 <
 TDZCheckCache
 >
-tdzCacheForInnerName_
+tdzCache_
 ;
 mozilla
 :
@@ -664,16 +664,6 @@ BytecodeEmitter
 bce
 )
 ;
-enum
-class
-HasName
-:
-bool
-{
-No
-Yes
-}
-;
 bool
 emitScope
 (
@@ -689,8 +679,6 @@ Data
 *
 >
 scopeBindings
-HasName
-hasName
 )
 ;
 MOZ_MUST_USE
