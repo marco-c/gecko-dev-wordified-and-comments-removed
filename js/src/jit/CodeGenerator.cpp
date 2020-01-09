@@ -37993,10 +37993,6 @@ ArrayObject
 JSContext
 *
 HandleArrayObject
-gc
-:
-:
-InitialHeap
 )
 ;
 OutOfLineCode
@@ -38018,10 +38014,6 @@ ArgList
 ImmGCPtr
 (
 templateObject
-)
-Imm32
-(
-initialHeap
 )
 )
 StoreRegisterTo

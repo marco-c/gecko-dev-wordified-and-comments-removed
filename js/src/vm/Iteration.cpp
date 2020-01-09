@@ -2830,7 +2830,7 @@ ITERATOR_FINALIZE_KIND
 GetInitialHeap
 (
 GenericObject
-clasp
+group
 )
 shape
 group
@@ -4541,10 +4541,6 @@ NativeObject
 createWithTemplate
 (
 cx
-gc
-:
-:
-DefaultHeap
 templateObject
 )
 )
