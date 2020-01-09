@@ -1971,6 +1971,16 @@ opacity
 ease
 ;
 }
+#
+urlbar
+:
+not
+(
+[
+quantumbar
+]
+)
+>
 .
 urlbar
 -
