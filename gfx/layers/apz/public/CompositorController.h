@@ -48,7 +48,7 @@ void
 ScheduleRenderOnCompositorThread
 (
 const
-Maybe
+nsTArray
 <
 wr
 :
@@ -56,9 +56,15 @@ wr
 RenderRoot
 >
 &
-aRenderRootid
+aRenderRoots
 =
-Nothing
+nsTArray
+<
+wr
+:
+:
+RenderRoot
+>
 (
 )
 )
