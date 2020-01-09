@@ -547,8 +547,10 @@ sourceId
 :
 "
 bar
-:
-formatted
+/
+originalSource
+-
+79d3ab91075b948b7044296e606a28c5
 "
 "
 type
@@ -578,8 +580,10 @@ sourceId
 :
 "
 bar
-:
-formatted
+/
+originalSource
+-
+79d3ab91075b948b7044296e606a28c5
 "
 "
 type

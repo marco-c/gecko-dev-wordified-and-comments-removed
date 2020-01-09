@@ -26,7 +26,7 @@ DebugLine
 ;
 import
 {
-makeSource
+createSourceObject
 }
 from
 "
@@ -148,7 +148,7 @@ frame
 null
 source
 :
-makeSource
+createSourceObject
 (
 "
 foo
@@ -327,7 +327,7 @@ render
 {
 source
 :
-makeSource
+createSourceObject
 (
 "
 foo
@@ -468,7 +468,7 @@ render
 {
 source
 :
-makeSource
+createSourceObject
 (
 "
 foo

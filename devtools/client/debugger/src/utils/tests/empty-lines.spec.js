@@ -14,7 +14,7 @@ lines
 ;
 import
 {
-makeSource
+createSourceObject
 }
 from
 "
@@ -82,7 +82,7 @@ positions
 const
 source
 =
-makeSource
+createSourceObject
 (
 "
 foo
@@ -137,7 +137,7 @@ position
 const
 source
 =
-makeSource
+createSourceObject
 (
 "
 foo
@@ -198,7 +198,7 @@ included
 const
 source
 =
-makeSource
+createSourceObject
 (
 "
 foo
