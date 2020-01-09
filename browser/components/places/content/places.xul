@@ -3376,17 +3376,6 @@ event
 )
 ;
 "
-onopenflatcontainer
-=
-"
-PlacesOrganizer
-.
-openFlatContainer
-(
-aContainer
-)
-;
-"
 >
 <
 treecols
