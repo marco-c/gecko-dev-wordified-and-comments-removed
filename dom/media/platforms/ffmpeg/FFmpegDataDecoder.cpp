@@ -113,9 +113,8 @@ media
 TimeUnit
 :
 :
-FromMicroseconds
+FromNegativeInfinity
 (
-INT64_MIN
 )
 )
 {
