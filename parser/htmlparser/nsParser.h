@@ -680,5 +680,10 @@ mIsAboutBlank
 ;
 }
 ;
+nsresult
+nsParserInitialize
+(
+)
+;
 #
 endif
