@@ -142,11 +142,15 @@ bool
 [
 serde
 (
-default
+rename
+=
+"
+httpOnly
+"
 )
 ]
 pub
-httpOnly
+http_only
 :
 bool
 #
