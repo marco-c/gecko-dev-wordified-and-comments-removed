@@ -5940,7 +5940,7 @@ RelaxedAtomicUint32
 )
 VARCACHE_PREF
 (
-Live
+Once
 "
 image
 .
@@ -5955,7 +5955,7 @@ demand
 recycle
 "
 ImageAnimatedDecodeOnDemandRecycle
-RelaxedAtomicBool
+bool
 false
 )
 VARCACHE_PREF
