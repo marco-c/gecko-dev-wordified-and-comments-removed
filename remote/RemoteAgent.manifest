@@ -10,7 +10,11 @@ a71d
 -
 869289099c6d
 }
-RemoteAgent
+command
+-
+line
+-
+handler
 .
 js
 contract

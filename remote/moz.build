@@ -69,7 +69,11 @@ EXTRA_COMPONENTS
 =
 [
 "
-RemoteAgent
+command
+-
+line
+-
+handler
 .
 js
 "
