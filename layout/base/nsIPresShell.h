@@ -3518,6 +3518,16 @@ nsIContent
 aAnonContent
 )
 ;
+virtual
+void
+SetKeyPressEventModel
+(
+uint16_t
+aKeyPressEventModel
+)
+=
+0
+;
 protected
 :
 void

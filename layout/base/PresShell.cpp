@@ -5865,8 +5865,12 @@ if
 mPresContext
 )
 {
-if
-(
+const
+bool
+mayFlushUserFontSet
+=
+false
+;
 gfxUserFontSet
 *
 fs
@@ -5876,7 +5880,12 @@ mPresContext
 >
 GetUserFontSet
 (
+mayFlushUserFontSet
 )
+;
+if
+(
+fs
 )
 {
 uint32_t
@@ -36980,6 +36989,7 @@ mPresShell
 -
 >
 mForceUseLegacyKeyCodeAndCharCodeValues
+|
 =
 nsContentUtils
 :

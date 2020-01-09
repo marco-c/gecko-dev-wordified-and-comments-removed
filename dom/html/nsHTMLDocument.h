@@ -1283,6 +1283,13 @@ UserInteractionForTesting
 (
 )
 ;
+void
+SetKeyPressEventModel
+(
+uint16_t
+aKeyPressEventModel
+)
+;
 protected
 :
 ~
@@ -1695,6 +1702,11 @@ aEncoding
 )
 override
 ;
+void
+MaybeDispatchCheckKeyPressEventModelEvent
+(
+)
+;
 uint32_t
 mWriteLevel
 ;
@@ -1757,6 +1769,9 @@ mDisableCookieAccess
 ;
 bool
 mPendingMaybeEditingStateChanged
+;
+bool
+mHasBeenEditable
 ;
 }
 ;
