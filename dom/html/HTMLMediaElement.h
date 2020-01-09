@@ -4248,6 +4248,9 @@ AudioDeviceInfo
 >
 mSink
 ;
+bool
+mShowPoster
+;
 }
 ;
 bool
