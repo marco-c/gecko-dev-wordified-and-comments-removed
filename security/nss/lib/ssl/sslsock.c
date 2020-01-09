@@ -18055,7 +18055,7 @@ HkdfExtract
 )
 EXP
 (
-HkdfDeriveSecret
+HkdfExpandLabel
 )
 EXP
 (

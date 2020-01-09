@@ -1686,6 +1686,17 @@ pk11_gtest
 '
 gtests
 /
+smime_gtest
+/
+smime_gtest
+.
+gyp
+:
+smime_gtest
+'
+'
+gtests
+/
 softoken_gtest
 /
 softoken_gtest

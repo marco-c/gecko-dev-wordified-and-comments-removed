@@ -1065,6 +1065,7 @@ freebl_gtest
 softoken_gtest
 sysinit_gtest
 blake2b_gtest
+smime_gtest
 }
 "
 gtest_init

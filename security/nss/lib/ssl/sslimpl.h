@@ -6497,7 +6497,7 @@ keyp
 )
 ;
 SECStatus
-SSLExp_HkdfDeriveSecret
+SSLExp_HkdfExpandLabel
 (
 PRUint16
 version
@@ -6506,6 +6506,13 @@ cipherSuite
 PK11SymKey
 *
 prk
+const
+PRUint8
+*
+hsHash
+unsigned
+int
+hsHashLen
 const
 char
 *

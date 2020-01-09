@@ -115,6 +115,8 @@ der_gtest
 \
 pk11_gtest
 \
+smime_gtest
+\
 softoken_gtest
 \
 ssl_gtest
