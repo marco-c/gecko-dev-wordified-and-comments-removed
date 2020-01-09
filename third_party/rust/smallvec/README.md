@@ -18,7 +18,7 @@ smallvec
 Documentation
 ]
 (
-http
+https
 :
 /
 /
