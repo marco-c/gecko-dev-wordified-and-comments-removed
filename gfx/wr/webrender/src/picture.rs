@@ -9727,9 +9727,6 @@ state
 =
 PictureState
 {
-is_cacheable
-:
-true
 map_local_to_pic
 map_pic_to_world
 map_pic_to_raster
@@ -9884,11 +9881,6 @@ context
 PictureContext
 {
 pic_index
-pipeline_id
-:
-self
-.
-pipeline_id
 apply_local_clip_rect
 :
 self
