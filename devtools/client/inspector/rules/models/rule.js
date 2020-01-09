@@ -1298,7 +1298,7 @@ this
 .
 elementStyle
 .
-markOverriddenAll
+onRuleUpdated
 (
 )
 ;
@@ -1743,7 +1743,7 @@ this
 .
 elementStyle
 .
-markOverriddenAll
+onRuleUpdated
 (
 )
 ;
