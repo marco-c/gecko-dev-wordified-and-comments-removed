@@ -885,6 +885,16 @@ owned_slice
 :
 OwnedSlice
 ;
+pub
+use
+style_traits
+:
+:
+owned_str
+:
+:
+OwnedStr
+;
 #
 [
 macro_use
