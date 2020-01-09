@@ -393,12 +393,6 @@ size_t
 aChildIdx
 )
 ;
-bool
-MustPruneChildren
-(
-)
-const
-;
 void
 Shutdown
 (
