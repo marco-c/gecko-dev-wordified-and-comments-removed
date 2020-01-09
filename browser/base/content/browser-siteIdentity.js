@@ -1325,6 +1325,13 @@ ContentBlocking
 blockers
 )
 {
+if
+(
+blocker
+.
+telemetryIdentifier
+)
+{
 extra
 [
 blocker
@@ -1344,6 +1351,7 @@ true
 false
 "
 ;
+}
 }
 Services
 .
@@ -4338,6 +4346,13 @@ ContentBlocking
 blockers
 )
 {
+if
+(
+blocker
+.
+telemetryIdentifier
+)
+{
 extra
 [
 blocker
@@ -4357,6 +4372,7 @@ true
 false
 "
 ;
+}
 }
 let
 shieldStatus
