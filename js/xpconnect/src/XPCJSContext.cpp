@@ -4065,7 +4065,7 @@ useWasmBaseline
 ifdef
 ENABLE_WASM_CRANELIFT
 .
-setWasmForceCranelift
+setWasmCranelift
 (
 useWasmCranelift
 )
