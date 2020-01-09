@@ -1195,8 +1195,6 @@ _prefBranch
 getChildList
 (
 prefBranch
-[
-]
 )
 )
 ;
