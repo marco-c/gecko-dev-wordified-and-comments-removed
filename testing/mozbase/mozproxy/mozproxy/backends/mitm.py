@@ -2976,6 +2976,8 @@ utils
 [
 !
 z
+|
+checksum
 ]
 "
 )
