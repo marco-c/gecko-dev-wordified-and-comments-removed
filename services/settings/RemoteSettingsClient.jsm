@@ -1257,6 +1257,7 @@ true
 const
 {
 loadDump
+trigger
 }
 =
 options
@@ -1831,6 +1832,7 @@ source
 this
 .
 identifier
+trigger
 }
 )
 ;
