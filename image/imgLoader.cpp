@@ -13221,9 +13221,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 inStr
@@ -13250,7 +13247,6 @@ mDestListener
 OnDataAvailable
 (
 aRequest
-ctxt
 inStr
 sourceOffset
 count
@@ -14114,9 +14110,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 inStr
@@ -14158,7 +14151,6 @@ mDestListener
 OnDataAvailable
 (
 aRequest
-ctxt
 inStr
 sourceOffset
 count

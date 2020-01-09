@@ -8358,9 +8358,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-aCtxt
 nsIInputStream
 *
 inStr
@@ -8425,7 +8422,6 @@ saver
 OnDataAvailable
 (
 request
-aCtxt
 inStr
 sourceOffset
 count

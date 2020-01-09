@@ -1026,7 +1026,6 @@ resolve
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

@@ -1155,7 +1155,6 @@ mListener
 OnDataAvailable
 (
 this
-nullptr
 stringStream
 offset
 data

@@ -187,12 +187,6 @@ the
 data
 *
 param
-aContext
-user
-defined
-context
-*
-param
 aInputStream
 input
 stream
@@ -281,9 +275,6 @@ onDataAvailable
 in
 nsIRequest
 aRequest
-in
-nsISupports
-aContext
 in
 nsIInputStream
 aInputStream

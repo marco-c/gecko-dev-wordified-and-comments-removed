@@ -892,7 +892,6 @@ function
 PPTS_onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount
@@ -903,7 +902,6 @@ aSaverStreamListener
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

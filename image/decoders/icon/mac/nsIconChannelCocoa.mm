@@ -673,9 +673,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aStream
@@ -697,7 +694,6 @@ mListener
 OnDataAvailable
 (
 this
-aContext
 aStream
 aOffset
 aCount

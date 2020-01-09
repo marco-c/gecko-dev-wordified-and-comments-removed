@@ -3655,7 +3655,6 @@ function
 HCR_onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

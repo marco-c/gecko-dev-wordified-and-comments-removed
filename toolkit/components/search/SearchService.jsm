@@ -1342,7 +1342,6 @@ function
 SRCH_loadDAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount

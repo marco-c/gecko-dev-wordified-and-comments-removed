@@ -637,9 +637,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -715,7 +712,7 @@ host
 OnStatus
 (
 mOwner
-aContext
+nullptr
 NS_NET_STATUS_READING
 NS_ConvertUTF8toUTF16
 (
@@ -737,7 +734,7 @@ aCount
 OnProgress
 (
 mOwner
-aContext
+nullptr
 progress
 mOwner
 -
@@ -752,7 +749,7 @@ mOwner
 DoOnDataAvailable
 (
 mOwner
-mContext
+nullptr
 aInputStream
 aOffset
 aCount
@@ -2819,9 +2816,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -4364,7 +4358,6 @@ mListener
 OnDataAvailable
 (
 aRequest
-aContext
 aStream
 offset
 count

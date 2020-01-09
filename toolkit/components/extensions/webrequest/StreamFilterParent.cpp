@@ -1671,7 +1671,6 @@ mOrigListener
 OnDataAvailable
 (
 mChannel
-mContext
 stream
 mOffset
 aData
@@ -2416,9 +2415,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInputStream
@@ -2464,7 +2460,6 @@ mOrigListener
 OnDataAvailable
 (
 aRequest
-aContext
 aInputStream
 mOffset
 -

@@ -468,7 +468,6 @@ TextDecoder
 onDataAvailable
 (
 aRequest
-aContext
 aInputStream
 aOffset
 aCount
@@ -583,7 +582,6 @@ listener
 onDataAvailable
 (
 aRequest
-null
 stream
 0
 stream

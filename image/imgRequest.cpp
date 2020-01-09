@@ -3361,7 +3361,6 @@ OnDataAvailable
 (
 aRequest
 nullptr
-nullptr
 0
 0
 )
@@ -4312,9 +4311,6 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
-nsISupports
-*
-aContext
 nsIInputStream
 *
 aInStr
@@ -4575,7 +4571,7 @@ image
 OnImageDataAvailable
 (
 aRequest
-aContext
+nullptr
 aInStr
 aOffset
 aCount

@@ -344,7 +344,6 @@ function
 test_ODA
 (
 request
-cx
 inputStream
 offset
 count

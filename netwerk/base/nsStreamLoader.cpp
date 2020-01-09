@@ -551,9 +551,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 inStr

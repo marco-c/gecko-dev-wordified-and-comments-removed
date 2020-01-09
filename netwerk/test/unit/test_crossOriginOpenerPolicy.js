@@ -178,7 +178,6 @@ nsIHttpChannel
 onDataAvailable
 (
 request
-context
 stream
 offset
 count

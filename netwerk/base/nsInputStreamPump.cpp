@@ -2248,7 +2248,6 @@ mListener
 OnDataAvailable
 (
 this
-nullptr
 mAsyncStream
 mStreamOffset
 odaAvail

@@ -318,7 +318,6 @@ onDataAvailable
 function
 (
 request
-context
 data
 offset
 count
@@ -347,7 +346,6 @@ _listener
 onDataAvailable
 (
 request
-context
 data
 offset
 count

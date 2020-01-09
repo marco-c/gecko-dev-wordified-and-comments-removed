@@ -1034,7 +1034,6 @@ aListener
 onDataAvailable
 (
 this
-null
 stream
 0
 stream

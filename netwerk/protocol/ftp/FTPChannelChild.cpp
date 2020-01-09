@@ -2017,7 +2017,6 @@ mListener
 OnDataAvailable
 (
 this
-nullptr
 stringStream
 offset
 count

@@ -36367,9 +36367,6 @@ OnDataAvailable
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsIInputStream
 *
 input
@@ -36769,7 +36766,6 @@ mListener
 OnDataAvailable
 (
 this
-nullptr
 input
 mLogicalOffset
 count
