@@ -13443,7 +13443,7 @@ return
 aNode
 -
 >
-IsInUAWidget
+HasBeenInUAWidget
 (
 )
 ;

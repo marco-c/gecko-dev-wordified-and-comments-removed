@@ -3042,13 +3042,6 @@ MOZ_ASSERT
 mIsUAWidget
 )
 ;
-MOZ_ASSERT
-(
-OwnerDoc
-(
-)
-)
-;
 if
 (
 !
