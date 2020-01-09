@@ -99,7 +99,10 @@ IPCResult
 Recv__delete__
 (
 const
-MaybeInfo
+Maybe
+<
+ClassifierInfo
+>
 &
 aInfo
 const
@@ -118,15 +121,9 @@ if
 (
 aInfo
 .
-type
+isSome
 (
 )
-=
-=
-MaybeInfo
-:
-:
-TClassifierInfo
 )
 {
 mCallback
@@ -137,7 +134,7 @@ OnClassifyComplete
 aResult
 aInfo
 .
-get_ClassifierInfo
+ref
 (
 )
 .
@@ -146,7 +143,7 @@ list
 )
 aInfo
 .
-get_ClassifierInfo
+ref
 (
 )
 .
@@ -155,7 +152,7 @@ provider
 )
 aInfo
 .
-get_ClassifierInfo
+ref
 (
 )
 .

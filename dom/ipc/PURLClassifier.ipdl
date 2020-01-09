@@ -128,7 +128,8 @@ child
 async
 __delete__
 (
-MaybeInfo
+ClassifierInfo
+?
 info
 nsresult
 errorCode
