@@ -145,6 +145,18 @@ activity
 GeckoViewActivity
 '
                      
+intent
+=
+'
+android
+.
+intent
+.
+action
+.
+MAIN
+'
+                     
 gecko_profile
 =
 '
@@ -204,6 +216,18 @@ activity
 BrowserTestActivity
 '
                      
+intent
+=
+'
+android
+.
+intent
+.
+action
+.
+MAIN
+'
+                     
 gecko_profile
 =
 '
@@ -261,6 +285,18 @@ activity
 =
 '
 BrowserTestActivity
+'
+                     
+intent
+=
+'
+android
+.
+intent
+.
+action
+.
+VIEW
 '
                      
 gecko_profile
@@ -319,6 +355,18 @@ browser
 activity
 =
 None
+                     
+intent
+=
+'
+android
+.
+intent
+.
+action
+.
+MAIN
+'
                      
 gecko_profile
 =

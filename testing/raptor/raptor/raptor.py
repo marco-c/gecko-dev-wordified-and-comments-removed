@@ -331,6 +331,10 @@ None
 activity
 =
 None
+                 
+intent
+=
+None
 )
 :
         
@@ -3472,6 +3476,10 @@ None
 activity
 =
 None
+                 
+intent
+=
+None
 )
 :
         
@@ -3888,6 +3896,10 @@ None
 activity
 =
 None
+                 
+intent
+=
+None
 )
 :
         
@@ -4172,6 +4184,10 @@ post_startup_delay
 =
 None
 activity
+=
+None
+                 
+intent
 =
 None
 )
@@ -4528,6 +4544,10 @@ None
 activity
 =
 None
+                 
+intent
+=
+None
 )
 :
         
@@ -4572,6 +4592,17 @@ activity
 ]
 =
 activity
+        
+self
+.
+config
+[
+'
+intent
+'
+]
+=
+intent
     
 def
 create_browser_handler
@@ -5348,6 +5379,15 @@ config
 [
 '
 activity
+'
+]
+                                            
+self
+.
+config
+[
+'
+intent
 '
 ]
                                             
@@ -7183,6 +7223,12 @@ activity
 args
 .
 activity
+                          
+intent
+=
+args
+.
+intent
 )
     
 raptor
