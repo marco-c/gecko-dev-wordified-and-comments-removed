@@ -1133,6 +1133,11 @@ panelViewNode
 this
 .
 populateSendTabToDevicesView
+.
+bind
+(
+this
+)
 )
 ;
 }
