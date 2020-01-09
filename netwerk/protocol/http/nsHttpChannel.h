@@ -2630,11 +2630,6 @@ mCacheEntriesToWaitFor
 2
 ;
 uint32_t
-mHasQueryString
-:
-1
-;
-uint32_t
 mConcurrentCacheAccess
 :
 1
