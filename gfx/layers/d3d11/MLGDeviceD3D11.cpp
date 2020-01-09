@@ -9940,7 +9940,7 @@ mWaitForPresentQuery
 BOOL
 result
 ;
-WaitForFrameGPUQuery
+WaitForGPUQuery
 (
 mDevice
 mCtx
