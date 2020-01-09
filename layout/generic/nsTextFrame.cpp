@@ -9238,7 +9238,7 @@ Style
 )
 ;
 const
-nsStyleCoord
+auto
 &
 margin
 =
@@ -9269,6 +9269,10 @@ ConvertsToLength
 |
 margin
 .
+AsLengthPercentage
+(
+)
+.
 ToLength
 (
 )
@@ -9282,7 +9286,7 @@ true
 ;
 }
 const
-nsStyleCoord
+auto
 &
 padding
 =

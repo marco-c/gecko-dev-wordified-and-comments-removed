@@ -511,7 +511,7 @@ mTableIsSplittable
 true
 ;
 const
-nsStyleSides
+auto
 &
 marginStyle
 =
@@ -531,13 +531,14 @@ if
 (
 marginStyle
 .
-GetUnit
+Get
 (
 side
 )
-=
-=
-eStyleUnit_Auto
+.
+IsAuto
+(
+)
 )
 {
 mPageContentMargin

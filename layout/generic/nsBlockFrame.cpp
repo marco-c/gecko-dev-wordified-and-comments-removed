@@ -10226,8 +10226,9 @@ StylePadding
 >
 mPadding
 .
-GetLeft
+Get
 (
+eSideLeft
 )
 .
 HasPercent

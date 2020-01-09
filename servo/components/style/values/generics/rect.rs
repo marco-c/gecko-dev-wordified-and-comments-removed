@@ -54,6 +54,13 @@ ToAnimatedValue
 ToComputedValue
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 Rect
