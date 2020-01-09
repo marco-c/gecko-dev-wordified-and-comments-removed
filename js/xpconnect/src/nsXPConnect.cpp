@@ -4309,6 +4309,7 @@ XPCVariant
 :
 VariantDataToJS
 (
+ctx
 value
 &
 rv

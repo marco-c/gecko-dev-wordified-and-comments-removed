@@ -7483,6 +7483,9 @@ static
 nsresult
 JSValToXPCException
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -7556,6 +7559,9 @@ static
 bool
 NativeArray2JS
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -7599,6 +7605,9 @@ static
 bool
 JSArray2Native
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -8680,6 +8689,9 @@ static
 bool
 VariantDataToJS
 (
+JSContext
+*
+cx
 nsIVariant
 *
 variant

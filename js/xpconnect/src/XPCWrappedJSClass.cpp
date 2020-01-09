@@ -3036,6 +3036,7 @@ XPCConvert
 :
 JSValToXPCException
 (
+cx
 &
 js_exception
 anInterfaceName
