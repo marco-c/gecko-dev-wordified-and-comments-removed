@@ -586,10 +586,6 @@ i
 if
 (
 raw
-&
-&
-!
-isWorker
 )
 {
 const
@@ -2038,10 +2034,6 @@ unsafeDereference
 if
 (
 raw
-&
-&
-!
-isWorker
 )
 {
 const

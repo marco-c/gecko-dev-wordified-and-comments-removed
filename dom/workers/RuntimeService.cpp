@@ -4079,9 +4079,8 @@ targetGlobal
 )
 )
 {
-JS_ReportErrorASCII
+MOZ_CRASH
 (
-cx
 "
 There
 should
@@ -4097,9 +4096,6 @@ debugger
 .
 "
 )
-;
-return
-nullptr
 ;
 }
 JSObject
