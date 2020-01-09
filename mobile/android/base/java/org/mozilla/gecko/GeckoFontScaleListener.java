@@ -179,7 +179,7 @@ mApplicationContext
 ;
 private
 boolean
-mInitialized
+mAttached
 ;
 private
 boolean
@@ -210,7 +210,7 @@ null
 public
 synchronized
 void
-initialize
+attachToContext
 (
 final
 Context
@@ -219,7 +219,7 @@ context
 {
 if
 (
-mInitialized
+mAttached
 )
 {
 Log
@@ -229,7 +229,7 @@ w
 LOGTAG
 "
 Already
-initialized
+attached
 !
 "
 )
@@ -267,7 +267,7 @@ onPrefChange
 prefs
 )
 ;
-mInitialized
+mAttached
 =
 true
 ;
@@ -275,14 +275,14 @@ true
 public
 synchronized
 void
-shutdown
+detachFromContext
 (
 )
 {
 if
 (
 !
-mInitialized
+mAttached
 )
 {
 Log
@@ -292,8 +292,7 @@ w
 LOGTAG
 "
 Already
-shut
-down
+detached
 !
 "
 )
@@ -321,7 +320,7 @@ mApplicationContext
 =
 null
 ;
-mInitialized
+mAttached
 =
 false
 ;

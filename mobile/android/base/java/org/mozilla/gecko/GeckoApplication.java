@@ -1169,7 +1169,7 @@ getInstance
 (
 )
 .
-initialize
+attachToContext
 (
 this
 )
