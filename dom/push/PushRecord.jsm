@@ -120,7 +120,7 @@ jsm
 "
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -1375,9 +1375,6 @@ originAttributes
 "
 "
 ;
-let
-originAttributes
-=
 principal
 =
 Services

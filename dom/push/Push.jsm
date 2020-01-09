@@ -245,8 +245,6 @@ nsIObserver
 ]
 )
 init
-:
-function
 (
 win
 )
@@ -299,8 +297,6 @@ nodePrincipal
 ;
 }
 __init
-:
-function
 (
 scope
 )
@@ -313,8 +309,6 @@ scope
 ;
 }
 askPermission
-:
-function
 (
 )
 {
@@ -428,8 +422,6 @@ permissionDenied
 ;
 }
 subscribe
-:
-function
 (
 options
 )
@@ -572,8 +564,6 @@ callback
 ;
 }
 _normalizeAppServerKey
-:
-function
 (
 appServerKey
 )
@@ -688,8 +678,6 @@ key
 ;
 }
 getSubscription
-:
-function
 (
 )
 {
@@ -748,8 +736,6 @@ callback
 ;
 }
 permissionState
-:
-function
 (
 )
 {
@@ -867,8 +853,6 @@ pushPermissionStatus
 ;
 }
 _testPermission
-:
-function
 (
 )
 {
@@ -950,8 +934,6 @@ permission
 ;
 }
 _requestPermission
-:
-function
 (
 isHandlingUserInput
 allowCallback
@@ -1124,8 +1106,6 @@ nsIPushSubscriptionCallback
 ]
 )
 onPushSubscription
-:
-function
 (
 ok
 subscription
@@ -1216,10 +1196,6 @@ pushManager
 .
 _scope
 p256dhKey
-:
-p256dhKey
-authSecret
-:
 authSecret
 }
 ;
@@ -1270,8 +1246,6 @@ sub
 ;
 }
 _getKey
-:
-function
 (
 subscription
 name
@@ -1360,8 +1334,6 @@ key
 ;
 }
 _rejectWithError
-:
-function
 (
 result
 )
@@ -1480,7 +1452,7 @@ error
 }
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

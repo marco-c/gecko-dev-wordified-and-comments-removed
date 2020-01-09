@@ -284,7 +284,7 @@ push
 "
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -377,8 +377,6 @@ prototype
 =
 {
 onStart
-:
-function
 (
 context
 )
@@ -405,8 +403,6 @@ context
 ;
 }
 onStop
-:
-function
 (
 context
 statusCode
@@ -435,8 +431,6 @@ statusCode
 ;
 }
 onAcknowledge
-:
-function
 (
 context
 size
@@ -444,8 +438,6 @@ size
 {
 }
 onBinaryMessageAvailable
-:
-function
 (
 context
 message
@@ -453,8 +445,6 @@ message
 {
 }
 onMessageAvailable
-:
-function
 (
 context
 message
@@ -483,8 +473,6 @@ message
 ;
 }
 onServerClose
-:
-function
 (
 context
 aStatusCode
@@ -547,8 +535,6 @@ _serverURI
 :
 null
 newPushDB
-:
-function
 (
 )
 {
@@ -567,8 +553,6 @@ PushRecordWebSocket
 ;
 }
 disconnect
-:
-function
 (
 )
 {
@@ -580,8 +564,6 @@ _shutdownWS
 ;
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -751,8 +733,6 @@ this
 _timeOutRequests
 (
 )
-;
-return
 ;
 }
 }
@@ -998,8 +978,6 @@ _reconnect
 }
 }
 validServerURI
-:
-function
 (
 serverURI
 )
@@ -1160,8 +1138,6 @@ _backoffTimer
 :
 null
 _wsSendMessage
-:
-function
 (
 msg
 )
@@ -1230,8 +1206,6 @@ msg
 ;
 }
 init
-:
-function
 (
 options
 mainPushService
@@ -1305,8 +1279,6 @@ resolve
 ;
 }
 _reconnect
-:
-function
 (
 )
 {
@@ -1336,8 +1308,6 @@ _startBackoffTimer
 ;
 }
 _shutdownWS
-:
-function
 (
 shouldCancelPending
 =
@@ -1485,8 +1455,6 @@ null
 }
 }
 uninit
-:
-function
 (
 )
 {
@@ -1819,8 +1787,6 @@ TYPE_ONE_SHOT
 ;
 }
 _makeWebSocket
-:
-function
 (
 uri
 )
@@ -1983,8 +1949,6 @@ socket
 ;
 }
 _beginWSSetup
-:
-function
 (
 )
 {
@@ -2192,8 +2156,6 @@ _reconnect
 }
 }
 connect
-:
-function
 (
 broadcastListeners
 )
@@ -2224,8 +2186,6 @@ _beginWSSetup
 ;
 }
 isConnected
-:
-function
 (
 )
 {
@@ -2238,8 +2198,6 @@ _ws
 ;
 }
 _handleHelloReply
-:
-function
 (
 reply
 )
@@ -2640,8 +2598,6 @@ this
 ;
 }
 _handleRegisterReply
-:
-function
 (
 reply
 )
@@ -2890,8 +2846,6 @@ success
 ;
 }
 _handleDataUpdate
-:
-function
 (
 update
 )
@@ -3145,8 +3099,6 @@ err
 ;
 }
 _handleNotificationReply
-:
-function
 (
 reply
 )
@@ -3188,9 +3140,9 @@ updates
 !
 =
 =
-'
+"
 object
-'
+"
 )
 {
 console
@@ -3389,8 +3341,6 @@ version
 }
 }
 _handleBroadcastReply
-:
-function
 (
 reply
 )
@@ -3440,12 +3390,12 @@ throw
 new
 Error
 (
-'
+"
 Invalid
 delivery
 error
 reason
-'
+"
 )
 ;
 }
@@ -3455,14 +3405,12 @@ data
 {
 messageType
 :
-'
+"
 nack
-'
+"
 version
 :
 messageID
-code
-:
 code
 }
 ;
@@ -3510,11 +3458,11 @@ throw
 new
 Error
 (
-'
+"
 Invalid
 ack
 status
-'
+"
 )
 ;
 }
@@ -3524,21 +3472,15 @@ data
 {
 messageType
 :
-'
+"
 ack
-'
+"
 updates
 :
 [
 {
 channelID
-:
-channelID
 version
-:
-version
-code
-:
 code
 }
 ]
@@ -3553,8 +3495,6 @@ data
 ;
 }
 _generateID
-:
-function
 (
 )
 {
@@ -3790,11 +3730,11 @@ throw
 new
 Error
 (
-'
+"
 Invalid
 unregister
 reason
-'
+"
 )
 ;
 }
@@ -3812,8 +3752,6 @@ messageType
 "
 unregister
 "
-code
-:
 code
 }
 ;
@@ -3844,8 +3782,6 @@ _queue
 :
 null
 _enqueue
-:
-function
 (
 op
 )
@@ -4227,8 +4163,6 @@ null
 }
 }
 _receivedUpdate
-:
-function
 (
 aChannelID
 aLatestVersion
@@ -4377,8 +4311,6 @@ err
 ;
 }
 _wsOnStart
-:
-function
 (
 context
 )
@@ -4481,8 +4413,6 @@ STATE_WAITING_FOR_HELLO
 ;
 }
 _wsOnStop
-:
-function
 (
 context
 statusCode
@@ -4547,8 +4477,6 @@ _shutdownWS
 ;
 }
 _wsOnMessageAvailable
-:
-function
 (
 context
 message
@@ -4627,10 +4555,10 @@ message
 =
 =
 =
-'
+"
 {
 }
-'
+"
 )
 |
 |
@@ -4844,8 +4772,6 @@ reply
 ;
 }
 _wsOnServerClose
-:
-function
 (
 context
 aStatusCode
@@ -5014,10 +4940,6 @@ request
 =
 {
 data
-:
-data
-record
-:
 record
 ctime
 :

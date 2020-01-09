@@ -51,19 +51,7 @@ jsm
 "
 )
 ;
-XPCOMUtils
-.
-defineLazyGlobalGetters
-(
-this
-[
-"
-indexedDB
-"
-]
-)
-;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -198,8 +186,6 @@ IndexedDBHelper
 .
 prototype
 toPushRecord
-:
-function
 (
 record
 )
@@ -211,6 +197,7 @@ record
 )
 {
 return
+null
 ;
 }
 return
@@ -224,8 +211,6 @@ record
 ;
 }
 isValidRecord
-:
-function
 (
 record
 )
@@ -279,8 +264,6 @@ string
 ;
 }
 upgradeSchema
-:
-function
 (
 aTransaction
 aDb
@@ -435,8 +418,6 @@ false
 }
 }
 put
-:
-function
 (
 aRecord
 )
@@ -579,8 +560,6 @@ reject
 ;
 }
 delete
-:
-function
 (
 aKeyID
 )
@@ -681,8 +660,6 @@ reject
 ;
 }
 clearIf
-:
-function
 (
 testFn
 )
@@ -812,6 +789,7 @@ e
 )
 ;
 }
+;
 }
 cursor
 .
@@ -821,6 +799,7 @@ continue
 ;
 }
 }
+;
 }
 resolve
 reject
@@ -829,8 +808,6 @@ reject
 ;
 }
 getByPushEndpoint
-:
-function
 (
 aPushEndpoint
 )
@@ -947,8 +924,6 @@ reject
 ;
 }
 getByKeyID
-:
-function
 (
 aKeyID
 )
@@ -1053,8 +1028,6 @@ reject
 ;
 }
 forEachOrigin
-:
-function
 (
 origin
 originAttributes
@@ -1199,8 +1172,6 @@ reject
 ;
 }
 getByIdentifiers
-:
-function
 (
 aPageRecord
 )
@@ -1366,8 +1337,6 @@ reject
 ;
 }
 _getAllByKey
-:
-function
 (
 aKeyName
 aKeyValue
@@ -1467,8 +1436,6 @@ reject
 ;
 }
 getAllByOriginAttributes
-:
-function
 (
 aOriginAttributes
 )
@@ -1511,8 +1478,6 @@ aOriginAttributes
 ;
 }
 getAllKeyIDs
-:
-function
 (
 )
 {
@@ -1605,8 +1570,6 @@ reject
 ;
 }
 _getAllByPushQuota
-:
-function
 (
 range
 )
@@ -1728,8 +1691,6 @@ reject
 ;
 }
 getAllUnexpired
-:
-function
 (
 )
 {
@@ -1759,8 +1720,6 @@ lowerBound
 ;
 }
 getAllExpired
-:
-function
 (
 )
 {
@@ -1790,8 +1749,6 @@ only
 ;
 }
 update
-:
-function
 (
 aKeyID
 aUpdateFunc
@@ -2016,8 +1973,6 @@ reject
 ;
 }
 drop
-:
-function
 (
 )
 {

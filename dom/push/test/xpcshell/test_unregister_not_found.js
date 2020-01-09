@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 const
 {
@@ -83,15 +83,15 @@ stringify
 {
 messageType
 :
-'
+"
 hello
-'
+"
 status
 :
 200
 uaid
 :
-'
+"
 f074ed80
 -
 d479
@@ -101,7 +101,7 @@ d479
 ba65
 -
 792104a79ea9
-'
+"
 }
 )
 )
@@ -125,7 +125,7 @@ unregister
 {
 scope
 :
-'
+"
 https
 :
 /
@@ -135,7 +135,7 @@ example
 net
 /
 nonexistent
-'
+"
 originAttributes
 :
 ChromeUtils

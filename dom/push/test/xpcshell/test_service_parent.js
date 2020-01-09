@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 const
 {
@@ -63,7 +63,8 @@ drop
 .
 then
 (
-_
+(
+)
 =
 >
 db
@@ -126,13 +127,13 @@ topic
 await
 run_test_in_child
 (
-'
+"
 .
 /
 test_service_child
 .
 js
-'
+"
 )
 ;
 await
