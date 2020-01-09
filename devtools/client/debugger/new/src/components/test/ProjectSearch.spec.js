@@ -1118,8 +1118,7 @@ instance
 .
 focusedItem
 =
-{
-}
+null
 ;
 shortcuts
 .
@@ -1191,6 +1190,9 @@ focusedItem
 match
 :
 testMatch
+expanded
+:
+null
 }
 ;
 shortcuts
