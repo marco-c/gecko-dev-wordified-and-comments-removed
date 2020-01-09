@@ -523,7 +523,7 @@ js
 :
 [
 "
-measure
+pageload
 .
 js
 "
@@ -674,8 +674,6 @@ js
 [
 "
 benchmark
--
-relay
 .
 js
 "

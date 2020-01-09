@@ -11,8 +11,6 @@ log
 "
 raptor
 benchmark
--
-relay
 received
 message
 "
@@ -132,8 +130,6 @@ log
 "
 raptor
 benchmark
--
-relay
 content
 loaded
 "
