@@ -8151,7 +8151,6 @@ style
 -
 >
 mStrokeWidth
-true
 )
 ;
 }

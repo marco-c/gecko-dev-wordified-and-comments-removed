@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsStyleCoord
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -71,9 +78,6 @@ nsIFrame
 ;
 class
 nsPresContext
-;
-class
-nsStyleCoord
 ;
 namespace
 mozilla
@@ -875,11 +879,8 @@ SVGElement
 *
 aContent
 const
-nsStyleCoord
+LengthPercentage
 &
-aCoord
-bool
-aClampNegativeCalc
 )
 ;
 static

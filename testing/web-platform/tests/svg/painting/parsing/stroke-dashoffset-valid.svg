@@ -231,6 +231,9 @@ dashoffset
 "
 0
 "
+"
+0px
+"
 )
 ;
 test_valid_value
@@ -268,6 +271,9 @@ dashoffset
 "
 "
 30
+"
+"
+30px
 "
 )
 ;

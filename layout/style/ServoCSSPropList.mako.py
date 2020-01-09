@@ -498,12 +498,6 @@ fill
 "
     
 "
-fill
--
-opacity
-"
-    
-"
 filter
 "
     
@@ -805,36 +799,6 @@ y
     
 "
 stroke
-"
-    
-"
-stroke
--
-dasharray
-"
-    
-"
-stroke
--
-dashoffset
-"
-    
-"
-stroke
--
-miterlimit
-"
-    
-"
-stroke
--
-opacity
-"
-    
-"
-stroke
--
-width
 "
     
 "
