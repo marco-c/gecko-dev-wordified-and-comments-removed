@@ -3236,6 +3236,12 @@ Self
 >
 )
 {
+use
+rule_collector
+:
+:
+containing_shadow_ignoring_svg_use
+;
 let
 mut
 doc_rules_apply
@@ -3267,10 +3273,10 @@ Some
 shadow
 )
 =
-self
-.
-containing_shadow
+containing_shadow_ignoring_svg_use
 (
+*
+self
 )
 {
 doc_rules_apply
