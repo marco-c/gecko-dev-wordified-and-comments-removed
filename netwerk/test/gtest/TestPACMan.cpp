@@ -384,14 +384,6 @@ kSysDHCPClientCIDs
 kSysDHCPClientContracts
 }
 ;
-NSMODULE_DEFN
-(
-nsDHCPClientModule
-)
-=
-&
-kSysDHCPClientModule
-;
 void
 SetOptionResult
 (
