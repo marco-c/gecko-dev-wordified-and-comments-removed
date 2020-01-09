@@ -1,6 +1,12 @@
+"
+use
+strict
+"
+;
+add_task
+(
 async
 function
-test
 (
 )
 {
@@ -8,14 +14,14 @@ waitForExplicitFinish
 (
 )
 ;
-let
+const
 recordingFile
 =
 newRecordingFile
 (
 )
 ;
-let
+const
 recordingTab
 =
 BrowserTestUtils
@@ -107,7 +113,7 @@ client
 13
 )
 ;
-let
+const
 lastNumberValue
 =
 await
@@ -119,7 +125,7 @@ number
 "
 )
 ;
-let
+const
 tabParent
 =
 recordingTab
@@ -181,7 +187,7 @@ removeTab
 recordingTab
 )
 ;
-let
+const
 replayingTab
 =
 BrowserTestUtils
@@ -315,8 +321,6 @@ removeTab
 replayingTab
 )
 ;
-finish
-(
+}
 )
 ;
-}
