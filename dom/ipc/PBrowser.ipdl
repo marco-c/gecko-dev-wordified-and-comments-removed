@@ -251,7 +251,7 @@ mozilla
 gfx
 :
 :
-Matrix
+Matrix4x4
 from
 "
 mozilla
@@ -4140,6 +4140,13 @@ SizeModeChanged
 (
 nsSizeMode
 sizeMode
+)
+;
+async
+ChildToParentMatrix
+(
+Matrix4x4
+aMatrix
 )
 ;
 async
