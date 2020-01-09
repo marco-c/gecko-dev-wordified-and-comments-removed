@@ -734,8 +734,8 @@ in
 jobs
 :
         
-if
-not
+use_pgo
+=
 job
 .
 pop
@@ -747,6 +747,10 @@ pgo
 '
 False
 )
+        
+if
+not
+use_pgo
 :
             
 yield
@@ -754,6 +758,12 @@ job
             
 continue
         
+if
+use_pgo
+is
+True
+:
+            
 name
 =
 job
@@ -763,37 +773,12 @@ name
 '
 ]
         
-if
-name
-.
-endswith
-(
-'
--
-nightly
-/
-opt
-'
-)
+else
 :
             
 name
 =
-name
-.
-replace
-(
-'
--
-nightly
-/
-opt
-'
-'
-/
-pgo
-'
-)
+use_pgo
         
 dependencies
 =
