@@ -237,7 +237,7 @@ resource
 /
 search
 -
-plugins
+extensions
 /
 "
 ]

@@ -121,6 +121,13 @@ useHttpServer
 (
 )
 ;
+await
+AddonTestUtils
+.
+promiseStartupManager
+(
+)
+;
 }
 )
 ;

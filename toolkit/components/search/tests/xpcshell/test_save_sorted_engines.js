@@ -1,5 +1,8 @@
+add_task
+(
+async
 function
-run_test
+setup
 (
 )
 {
@@ -7,11 +10,16 @@ useHttpServer
 (
 )
 ;
-run_next_test
+await
+AddonTestUtils
+.
+promiseStartupManager
 (
 )
 ;
 }
+)
+;
 add_task
 (
 async

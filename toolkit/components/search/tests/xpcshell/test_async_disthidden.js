@@ -98,7 +98,7 @@ setSubstitution
 "
 search
 -
-plugins
+extensions
 "
 Services
 .
@@ -136,7 +136,18 @@ test_disthidden
 )
 {
 await
-asyncInit
+AddonTestUtils
+.
+promiseStartupManager
+(
+)
+;
+await
+Services
+.
+search
+.
+init
 (
 )
 ;
@@ -170,7 +181,7 @@ equal
 engines
 .
 length
-6
+5
 )
 ;
 let

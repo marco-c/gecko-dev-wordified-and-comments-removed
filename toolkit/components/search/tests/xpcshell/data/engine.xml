@@ -371,7 +371,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
@@ -432,7 +432,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /
@@ -552,7 +552,7 @@ GET
 template
 =
 "
-http
+https
 :
 /
 /

@@ -50,7 +50,7 @@ setSubstitution
 "
 search
 -
-plugins
+extensions
 "
 Services
 .
@@ -124,7 +124,18 @@ bad
 )
 ;
 await
-asyncInit
+AddonTestUtils
+.
+promiseStartupManager
+(
+)
+;
+await
+Services
+.
+search
+.
+init
 (
 )
 ;
@@ -148,7 +159,7 @@ let
 base
 =
 "
-http
+https
 :
 /
 /
