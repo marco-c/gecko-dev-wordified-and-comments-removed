@@ -222,6 +222,13 @@ FailureMode
 :
 :
 FailOnNullPtr
+#
+define
+_FailOnInvalidRef
+FailureMode
+:
+:
+FailOnInvalidRef
 namespace
 js
 {
@@ -809,8 +816,8 @@ SymbolicAddress
 :
 :
 TableGet
-_PTR
-_FailOnNullPtr
+_RoN
+_FailOnInvalidRef
 3
 {
 _PTR
