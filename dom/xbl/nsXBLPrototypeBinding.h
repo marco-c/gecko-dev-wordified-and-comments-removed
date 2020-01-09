@@ -1114,16 +1114,6 @@ aTemplChild
 )
 ;
 bool
-ChromeOnlyContent
-(
-)
-const
-{
-return
-mChromeOnlyContent
-;
-}
-bool
 SimpleScopeChain
 (
 )
@@ -1270,9 +1260,6 @@ mCheckedBaseProto
 ;
 bool
 mKeyHandlersRegistered
-;
-bool
-mChromeOnlyContent
 ;
 bool
 mBindToUntrustedContent

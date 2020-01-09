@@ -66,15 +66,6 @@ XBLBinding_Serialize_InheritStyle
 )
 #
 define
-XBLBinding_Serialize_ChromeOnlyContent
-(
-1
-<
-<
-2
-)
-#
-define
 XBLBinding_Serialize_BindToUntrustedContent
 (
 1

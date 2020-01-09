@@ -8794,17 +8794,6 @@ GetAnonymousContent
 (
 )
 this
-binding
--
->
-PrototypeBinding
-(
-)
--
->
-ChromeOnlyContent
-(
-)
 )
 ;
 }

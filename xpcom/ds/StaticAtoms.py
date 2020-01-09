@@ -2122,16 +2122,6 @@ chromemargin
 Atom
 (
 "
-chromeOnlyContent
-"
-"
-chromeOnlyContent
-"
-)
-    
-Atom
-(
-"
 exposeToUntrustedContent
 "
 "
