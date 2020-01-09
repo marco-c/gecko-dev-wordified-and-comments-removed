@@ -1582,10 +1582,10 @@ GetScrollPosition
 )
 +
 physicalAdjustment
-nsIScrollableFrame
+ScrollMode
 :
 :
-INSTANT
+eInstant
 nsGkAtoms
 :
 :

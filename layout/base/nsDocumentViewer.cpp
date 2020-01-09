@@ -14715,10 +14715,10 @@ nsPoint
 0
 0
 )
-nsIScrollableFrame
+ScrollMode
 :
 :
-INSTANT
+eInstant
 )
 ;
 return
@@ -15014,10 +15014,10 @@ pt
 x
 newYPosn
 )
-nsIScrollableFrame
+ScrollMode
 :
 :
-INSTANT
+eInstant
 )
 ;
 }

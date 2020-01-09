@@ -1490,10 +1490,10 @@ scrollableFrame
 ScrollTo
 (
 scrollPoint
-nsIScrollableFrame
+ScrollMode
 :
 :
-INSTANT
+eInstant
 )
 ;
 }

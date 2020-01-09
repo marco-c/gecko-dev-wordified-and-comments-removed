@@ -18646,10 +18646,10 @@ nsPoint
 mHorzPosition
 0
 )
-nsIScrollableFrame
+ScrollMode
 :
 :
-INSTANT
+eInstant
 )
 ;
 if

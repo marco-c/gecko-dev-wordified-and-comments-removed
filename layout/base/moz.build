@@ -464,6 +464,11 @@ ScrollStyles
 h
 '
 '
+ScrollTypes
+.
+h
+'
+'
 ShapeUtils
 .
 h

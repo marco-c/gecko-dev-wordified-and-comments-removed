@@ -65,6 +65,15 @@ include
 "
 mozilla
 /
+ScrollTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleSet
 .
 h
