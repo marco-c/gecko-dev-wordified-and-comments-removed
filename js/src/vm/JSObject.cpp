@@ -4276,7 +4276,7 @@ heap
 GetInitialHeap
 (
 newKind
-clasp
+group
 )
 ;
 JSObject
@@ -5415,11 +5415,6 @@ GetInitialHeap
 (
 newKind
 group
--
->
-clasp
-(
-)
 )
 )
 ;
