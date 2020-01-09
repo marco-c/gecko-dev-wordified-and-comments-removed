@@ -84,6 +84,11 @@ CollapseButton
 js
 '
 '
+ConfirmDialog
+.
+js
+'
+'
 ConsoleOutput
 .
 js
