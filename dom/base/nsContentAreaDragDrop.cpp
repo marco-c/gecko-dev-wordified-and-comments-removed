@@ -962,6 +962,8 @@ nsISupports
 >
 tmp
 ;
+rv
+=
 aTransferable
 -
 >
@@ -972,6 +974,12 @@ getter_AddRefs
 (
 tmp
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsCOMPtr
@@ -1038,6 +1046,8 @@ rv
 rv
 )
 ;
+rv
+=
 aTransferable
 -
 >
@@ -1048,6 +1058,12 @@ getter_AddRefs
 (
 tmp
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 supportsString
@@ -1100,6 +1116,8 @@ XRE_IsParentProcess
 )
 )
 {
+rv
+=
 aTransferable
 -
 >
@@ -1110,6 +1128,12 @@ getter_AddRefs
 (
 tmp
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 supportsString
@@ -1286,6 +1310,8 @@ nsISupports
 >
 dirPrimitive
 ;
+rv
+=
 aTransferable
 -
 >
@@ -1296,6 +1322,12 @@ getter_AddRefs
 (
 dirPrimitive
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsCOMPtr

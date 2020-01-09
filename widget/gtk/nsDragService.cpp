@@ -8098,6 +8098,8 @@ nsISupports
 >
 data
 ;
+rv
+=
 transferable
 -
 >
@@ -8110,6 +8112,17 @@ data
 )
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+;
+}
 nsCOMPtr
 <
 nsISupportsString
@@ -8126,8 +8139,10 @@ if
 !
 fileName
 )
+{
 return
 ;
+}
 nsAutoString
 fileNameStr
 ;
