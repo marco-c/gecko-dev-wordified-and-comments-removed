@@ -250,9 +250,6 @@ obj
 void
 notifyBufferDetached
 (
-JSContext
-*
-cx
 void
 *
 newData

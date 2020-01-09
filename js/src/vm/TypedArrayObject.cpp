@@ -473,9 +473,8 @@ return
 false
 ;
 }
-if
+MOZ_ALWAYS_TRUE
 (
-!
 buffer
 -
 >
@@ -485,11 +484,7 @@ cx
 tarray
 )
 )
-{
-return
-false
 ;
-}
 memcpy
 (
 buffer
