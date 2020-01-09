@@ -60,7 +60,10 @@ RecordingFinished
 )
 ;
 const
+{
+target
 toolbox
+}
 =
 await
 attachDebugger
@@ -105,7 +108,7 @@ client
 await
 checkEvaluateInTopFrame
 (
-client
+target
 "
 number
 "
@@ -136,7 +139,7 @@ client
 await
 checkEvaluateInTopFrame
 (
-client
+target
 "
 number
 "
@@ -188,7 +191,7 @@ client
 await
 checkEvaluateInTopFrame
 (
-client
+target
 "
 number
 "

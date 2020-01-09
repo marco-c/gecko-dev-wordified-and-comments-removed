@@ -49,13 +49,18 @@ current
 )
 ;
 const
+{
 toolbox
+target
+}
 =
 await
 attachDebugger
 (
 tab
 )
+;
+const
 client
 =
 toolbox
@@ -97,7 +102,7 @@ value
 await
 evaluateInTopFrame
 (
-client
+target
 "
 number
 "
@@ -113,7 +118,7 @@ client
 await
 checkEvaluateInTopFrame
 (
-client
+target
 "
 number
 "
@@ -139,7 +144,7 @@ client
 await
 checkEvaluateInTopFrame
 (
-client
+target
 "
 number
 "

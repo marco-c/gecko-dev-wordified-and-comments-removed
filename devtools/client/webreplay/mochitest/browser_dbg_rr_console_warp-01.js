@@ -33,6 +33,7 @@ const
 tab
 toolbox
 threadClient
+target
 }
 =
 dbg
@@ -74,7 +75,7 @@ interrupt
 await
 checkEvaluateInTopFrame
 (
-threadClient
+target
 "
 number
 "
@@ -120,7 +121,7 @@ threadClient
 await
 checkEvaluateInTopFrame
 (
-threadClient
+target
 "
 number
 "
@@ -137,7 +138,7 @@ threadClient
 await
 checkEvaluateInTopFrame
 (
-threadClient
+target
 "
 number
 "
