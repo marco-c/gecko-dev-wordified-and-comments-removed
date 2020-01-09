@@ -247,6 +247,8 @@ selectedBrowser
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -585,6 +587,8 @@ tabRestored
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci

@@ -244,6 +244,8 @@ countsObject
 const
 scalars
 =
+TelemetryTestUtils
+.
 getParentProcessScalars
 (
 Ci
@@ -253,7 +255,9 @@ nsITelemetry
 DATASET_RELEASE_CHANNEL_OPTIN
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 TOTAL_URI_COUNT
@@ -273,7 +277,9 @@ value
 "
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 UNIQUE_DOMAINS_COUNT
@@ -294,7 +300,9 @@ value
 "
 )
 ;
-checkScalar
+TelemetryTestUtils
+.
+assertScalar
 (
 scalars
 UNFILTERED_URI_COUNT
