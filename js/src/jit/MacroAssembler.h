@@ -8722,6 +8722,11 @@ wasm
 :
 SymbolicAddress
 builtin
+wasm
+:
+:
+FailureMode
+failureMode
 )
 ;
 void
