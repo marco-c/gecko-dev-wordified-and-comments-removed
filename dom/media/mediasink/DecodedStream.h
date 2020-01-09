@@ -384,6 +384,15 @@ PrincipalHandle
 aPrincipalHandle
 )
 ;
+void
+ResetVideo
+(
+const
+PrincipalHandle
+&
+aPrincipalHandle
+)
+;
 StreamTime
 SentDuration
 (

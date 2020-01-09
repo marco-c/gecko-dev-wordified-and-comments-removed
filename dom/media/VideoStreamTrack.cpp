@@ -463,6 +463,13 @@ IsEmpty
 )
 )
 {
+mVideoFrameContainer
+-
+>
+ClearFutureFrames
+(
+)
+;
 return
 ;
 }
@@ -548,12 +555,6 @@ VideoFrameContainer
 :
 Invalidate
 )
-)
-;
-images
-.
-ClearAndRetainStorage
-(
 )
 ;
 }
