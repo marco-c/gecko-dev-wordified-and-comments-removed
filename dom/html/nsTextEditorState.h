@@ -330,6 +330,12 @@ eSetValue_ForXUL
 <
 <
 5
+eSetValue_MoveCursorToBeginSetSelectionDirectionForward
+=
+1
+<
+<
+6
 }
 ;
 MOZ_CAN_RUN_SCRIPT
