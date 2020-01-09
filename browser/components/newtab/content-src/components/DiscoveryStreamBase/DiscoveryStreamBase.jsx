@@ -205,6 +205,15 @@ return
 (
 <
 Hero
+title
+=
+{
+component
+.
+header
+.
+title
+}
 feed
 =
 {

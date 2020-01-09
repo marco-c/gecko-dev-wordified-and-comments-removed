@@ -2366,6 +2366,7 @@ id
 )
 )
 {
+await
 ASRouterTriggerListeners
 .
 get
