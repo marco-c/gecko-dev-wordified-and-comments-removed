@@ -3329,6 +3329,16 @@ rtc
 :
 kNumMicrosecsPerMillisec
 ;
+if
+(
+incoming_frame
+.
+timestamp_us
+(
+)
+>
+current_time_us
+)
 incoming_frame
 .
 set_timestamp_us
