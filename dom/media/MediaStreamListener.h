@@ -91,6 +91,15 @@ aNewPrincipalHandle
 }
 virtual
 void
+NotifyEnabledStateChanged
+(
+bool
+aEnabled
+)
+{
+}
+virtual
+void
 NotifyOutput
 (
 MediaStreamGraph
