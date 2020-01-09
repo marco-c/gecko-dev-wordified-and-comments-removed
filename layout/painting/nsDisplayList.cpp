@@ -44369,7 +44369,7 @@ if
 nsLayoutUtils
 :
 :
-IsAncestorFrame
+IsAncestorFrameCrossDoc
 (
 asr
 -
