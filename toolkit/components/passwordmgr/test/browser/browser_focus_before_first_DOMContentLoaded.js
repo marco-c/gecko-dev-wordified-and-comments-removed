@@ -96,10 +96,6 @@ tempuser1
 "
 temppass1
 "
-"
-"
-"
-"
 )
 ;
 let
@@ -132,10 +128,6 @@ testuser2
 "
 "
 testpass2
-"
-"
-"
-"
 "
 )
 ;

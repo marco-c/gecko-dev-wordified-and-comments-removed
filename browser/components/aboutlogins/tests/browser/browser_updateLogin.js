@@ -57,12 +57,6 @@ user1
 "
 pass1
 "
-"
-username
-"
-"
-password
-"
 )
 ;
 add_task

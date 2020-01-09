@@ -525,9 +525,15 @@ aUsername
 in
 AString
 aPassword
+[
+optional
+]
 in
 AString
 aUsernameField
+[
+optional
+]
 in
 AString
 aPasswordField
