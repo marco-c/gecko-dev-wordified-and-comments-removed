@@ -1115,8 +1115,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 trackingProtectionCategories
 =
@@ -1598,8 +1596,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockPhishing
 =
@@ -1706,8 +1702,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockPhishing
 =
@@ -1748,8 +1742,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockPhishing
 =
@@ -1853,8 +1845,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockMalware
 =
@@ -1881,8 +1871,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockMalware
 =
@@ -1982,8 +1970,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockMalware
 =
@@ -2010,8 +1996,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockMalware
 =
@@ -2111,8 +2095,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockMalware
 =
@@ -2139,8 +2121,6 @@ sessionRule
 runtime
 .
 settings
-!
-!
 .
 blockMalware
 =

@@ -172,11 +172,7 @@ sessionRule
 .
 runtime
 .
-getSettings
-(
-)
-!
-!
+settings
 .
 setLocales
 (
