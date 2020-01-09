@@ -713,7 +713,9 @@ h
 #
 include
 "
-nsSMILAnimationController
+mozilla
+/
+SMILAnimationController
 .
 h
 "
@@ -5024,7 +5026,7 @@ HasAnimationController
 )
 )
 {
-nsSMILAnimationController
+SMILAnimationController
 *
 animCtrl
 =

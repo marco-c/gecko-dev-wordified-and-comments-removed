@@ -41,7 +41,7 @@ h
 #
 include
 "
-nsSMILAnimationController
+SMILAnimationController
 .
 h
 "
@@ -690,7 +690,7 @@ GetComposedDoc
 )
 )
 {
-nsSMILAnimationController
+SMILAnimationController
 *
 controller
 =
@@ -802,7 +802,7 @@ bool
 aNullParent
 )
 {
-nsSMILAnimationController
+SMILAnimationController
 *
 controller
 =

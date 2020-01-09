@@ -1246,7 +1246,9 @@ h
 #
 include
 "
-nsSMILAnimationController
+mozilla
+/
+SMILAnimationController
 .
 h
 "
@@ -29708,7 +29710,7 @@ aData
 )
 ;
 }
-nsSMILAnimationController
+SMILAnimationController
 *
 nsIDocument
 :
@@ -29737,7 +29739,7 @@ nullptr
 mAnimationController
 =
 new
-nsSMILAnimationController
+SMILAnimationController
 (
 this
 )

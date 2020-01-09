@@ -102,9 +102,8 @@ class
 SVGAnimationElement
 ;
 }
-}
 class
-nsSMILAnimationController
+SMILAnimationController
 final
 :
 public
@@ -115,7 +114,7 @@ nsARefreshObserver
 public
 :
 explicit
-nsSMILAnimationController
+SMILAnimationController
 (
 nsIDocument
 *
@@ -352,7 +351,7 @@ aRoot
 protected
 :
 ~
-nsSMILAnimationController
+SMILAnimationController
 (
 )
 ;
@@ -578,5 +577,6 @@ mLastCompositorTable
 ;
 }
 ;
+}
 #
 endif

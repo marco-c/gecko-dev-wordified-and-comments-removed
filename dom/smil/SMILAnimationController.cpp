@@ -1,7 +1,9 @@
 #
 include
 "
-nsSMILAnimationController
+mozilla
+/
+SMILAnimationController
 .
 h
 "
@@ -116,18 +118,17 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
-nsSMILAnimationController
+namespace
+mozilla
+{
+SMILAnimationController
 :
 :
-nsSMILAnimationController
+SMILAnimationController
 (
 nsIDocument
 *
@@ -223,11 +224,11 @@ Begin
 )
 ;
 }
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 ~
-nsSMILAnimationController
+SMILAnimationController
 (
 )
 {
@@ -280,7 +281,7 @@ list
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Disconnect
@@ -361,7 +362,7 @@ nullptr
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Pause
@@ -397,7 +398,7 @@ GetRefreshDriver
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Resume
@@ -466,7 +467,7 @@ Sample
 }
 }
 nsSMILTime
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 GetParentTime
@@ -491,14 +492,14 @@ ToMilliseconds
 }
 NS_IMPL_ADDREF
 (
-nsSMILAnimationController
+SMILAnimationController
 )
 NS_IMPL_RELEASE
 (
-nsSMILAnimationController
+SMILAnimationController
 )
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 WillRefresh
@@ -637,7 +638,7 @@ Sample
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 RegisterAnimationElement
@@ -716,7 +717,7 @@ Sample
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 UnregisterAnimationElement
@@ -735,7 +736,7 @@ aAnimationElement
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 OnPageShow
@@ -752,7 +753,7 @@ PAUSE_PAGEHIDE
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 OnPageHide
@@ -769,7 +770,7 @@ PAUSE_PAGEHIDE
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Traverse
@@ -832,7 +833,7 @@ aCallback
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 Unlink
@@ -845,7 +846,7 @@ nullptr
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 NotifyRefreshDriverCreated
@@ -869,7 +870,7 @@ aRefreshDriver
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 NotifyRefreshDriverDestroying
@@ -897,7 +898,7 @@ aRefreshDriver
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 StartSampling
@@ -1014,7 +1015,7 @@ true
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 StopSampling
@@ -1075,7 +1076,7 @@ false
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 MaybeStartSampling
@@ -1117,7 +1118,7 @@ true
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 DoSample
@@ -1131,7 +1132,7 @@ true
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 DoSample
@@ -1704,7 +1705,7 @@ sample
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 RewindElements
@@ -1902,7 +1903,7 @@ ClearNeedsRewind
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 DoMilestoneSamples
@@ -2274,7 +2275,7 @@ containerTime
 }
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 SampleTimedElement
@@ -2366,7 +2367,7 @@ containerTime
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 AddAnimationToCompositorTable
@@ -2533,7 +2534,7 @@ gradientTransform
 ;
 }
 bool
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 GetTargetIdentifierForAnimation
@@ -2641,7 +2642,7 @@ true
 ;
 }
 bool
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 PreTraverse
@@ -2656,7 +2657,7 @@ nullptr
 ;
 }
 bool
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 PreTraverseInSubtree
@@ -2827,7 +2828,7 @@ foundElementsNeedingRestyle
 ;
 }
 nsresult
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 AddChild
@@ -2888,7 +2889,7 @@ NS_OK
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 RemoveChild
@@ -2933,7 +2934,7 @@ GetRefreshDriver
 }
 nsRefreshDriver
 *
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 GetRefreshDriver
@@ -2989,7 +2990,7 @@ nullptr
 ;
 }
 void
-nsSMILAnimationController
+SMILAnimationController
 :
 :
 FlagDocumentNeedsFlush
@@ -3017,5 +3018,6 @@ SetNeedStyleFlush
 (
 )
 ;
+}
 }
 }
