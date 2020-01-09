@@ -65,12 +65,6 @@ for
 shipping
 "
     
-kind
-=
-'
-hook
-'
-    
 context
 =
 [
