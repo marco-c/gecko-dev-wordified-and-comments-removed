@@ -1181,6 +1181,11 @@ nsIChannel
 :
 :
 LOAD_BYPASS_SERVICE_WORKER
+|
+nsIChannel
+:
+:
+LOAD_BYPASS_URL_CLASSIFIER
 )
 ;
 if
