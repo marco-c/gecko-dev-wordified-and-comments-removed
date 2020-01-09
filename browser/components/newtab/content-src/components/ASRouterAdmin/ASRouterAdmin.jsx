@@ -531,6 +531,8 @@ td
 relativeTime
 (
 feeds
+.
+data
 [
 feed
 .
@@ -538,6 +540,8 @@ url
 ]
 ?
 feeds
+.
+data
 [
 feed
 .
