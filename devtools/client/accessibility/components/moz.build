@@ -71,6 +71,11 @@ AccessibilityTree
 js
 '
 '
+AccessibilityTreeFilter
+.
+js
+'
+'
 Accessible
 .
 js

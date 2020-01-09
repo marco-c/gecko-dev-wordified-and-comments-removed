@@ -153,6 +153,14 @@ AUDIT
 ;
 exports
 .
+AUDITING
+=
+"
+AUDITING
+"
+;
+exports
+.
 FILTERS
 =
 {
