@@ -80,9 +80,11 @@ run
 -
 setpref
 "
-remote
+browser
 .
-enabled
+fission
+.
+simulate
 =
 true
 "
@@ -98,6 +100,8 @@ level
 =
 Debug
 "
+-
+-
 -
 -
 remote
