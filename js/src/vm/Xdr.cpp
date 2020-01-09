@@ -495,17 +495,6 @@ Ok
 )
 ;
 }
-MOZ_TRY
-(
-codeAlign
-(
-sizeof
-(
-char16_t
-)
-)
-)
-;
 size_t
 nbytes
 =
