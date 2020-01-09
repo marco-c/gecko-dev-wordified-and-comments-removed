@@ -808,7 +808,7 @@ aPropertySet
 const
 EffectSet
 &
-aEffect
+aEffectSet
 )
 const
 ;
