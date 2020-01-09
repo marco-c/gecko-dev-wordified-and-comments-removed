@@ -2011,7 +2011,10 @@ wrapper
 ifdef
 DEBUG
 static
-void
+JS
+:
+:
+CompartmentIterResult
 NotHasWrapperAssertionCallback
 (
 JSContext
@@ -2071,6 +2074,15 @@ HasWrapper
 wrapper
 )
 )
+;
+return
+JS
+:
+:
+CompartmentIterResult
+:
+:
+KeepGoing
 ;
 }
 #
