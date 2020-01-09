@@ -1367,13 +1367,11 @@ RetAddrEntry
 Kind
 :
 :
-NonOpIC
+PrologueIC
 :
 return
 "
-non
--
-op
+prologue
 IC
 "
 ;

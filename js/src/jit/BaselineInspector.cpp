@@ -718,10 +718,11 @@ nullptr
 }
 MOZ_ASSERT
 (
+!
 ent
 -
 >
-isForOp
+isForPrologue
 (
 )
 )

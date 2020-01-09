@@ -258,7 +258,7 @@ public
 static
 constexpr
 uint32_t
-NonOpPCOffset
+ProloguePCOffset
 =
 UINT32_MAX
 ;
@@ -327,7 +327,7 @@ return
 pcOffset_
 =
 =
-NonOpPCOffset
+ProloguePCOffset
 ?
 0
 :
@@ -385,16 +385,16 @@ firstStub_
 ;
 }
 bool
-isForOp
+isForPrologue
 (
 )
 const
 {
 return
 pcOffset_
-!
 =
-NonOpPCOffset
+=
+ProloguePCOffset
 ;
 }
 void
