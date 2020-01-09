@@ -107,6 +107,7 @@ true
 )
 ;
 }
+async
 function
 stageUpdateFinished
 (
@@ -137,16 +138,11 @@ true
 true
 )
 ;
+await
 waitForHelperExit
 (
 )
 ;
-}
-function
-waitForHelperExitFinished
-(
-)
-{
 checkPostUpdateAppLog
 (
 )

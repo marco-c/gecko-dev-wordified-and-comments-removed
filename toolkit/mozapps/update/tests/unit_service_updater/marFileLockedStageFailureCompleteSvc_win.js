@@ -59,6 +59,7 @@ true
 )
 ;
 }
+async
 function
 stageUpdateFinished
 (
@@ -82,17 +83,11 @@ false
 false
 )
 ;
+await
 waitForHelperExit
 (
 )
 ;
-}
-async
-function
-waitForHelperExitFinished
-(
-)
-{
 standardInit
 (
 )

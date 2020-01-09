@@ -62,16 +62,11 @@ false
 true
 )
 ;
+await
 waitForHelperExit
 (
 )
 ;
-}
-function
-waitForHelperExitFinished
-(
-)
-{
 checkPostUpdateAppLog
 (
 )
