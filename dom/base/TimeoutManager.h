@@ -839,6 +839,17 @@ mTimeoutIdCounter
 uint32_t
 mNextFiringId
 ;
+#
+ifdef
+DEBUG
+int64_t
+mFiringIndex
+;
+int64_t
+mLastFiringIndex
+;
+#
+endif
 AutoTArray
 <
 uint32_t
