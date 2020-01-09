@@ -3649,6 +3649,14 @@ newIdentity
 =
 origobj
 ;
+JS
+:
+:
+ExposeObjectToActiveJS
+(
+newIdentity
+)
+;
 }
 else
 if
