@@ -21,3 +21,5 @@ win64
 /
 nightly
 "
+unset
+ENABLE_CLANG_PLUGIN

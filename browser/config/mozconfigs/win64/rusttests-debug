@@ -21,3 +21,5 @@ win64
 /
 debug
 "
+unset
+ENABLE_CLANG_PLUGIN
