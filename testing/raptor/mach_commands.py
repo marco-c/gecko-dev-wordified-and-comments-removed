@@ -969,8 +969,6 @@ http
 /
 pypi
 .
-python
-.
 org
 /
 simple
