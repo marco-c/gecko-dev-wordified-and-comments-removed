@@ -218,6 +218,11 @@ opt
 >
 '
 }
+USE_ARTIFACT
+:
+'
+1
+'
 run
 :
 using
