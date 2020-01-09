@@ -429,6 +429,7 @@ invoke
 "
 getOriginalLocations
 "
+sourceId
 locations
 options
 )
