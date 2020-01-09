@@ -2245,6 +2245,16 @@ previousSibling
 value
 )
 ;
+/
+/
+eslint
+-
+disable
+-
+line
+no
+-
+eval
 "
 /
 >

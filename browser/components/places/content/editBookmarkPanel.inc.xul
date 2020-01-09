@@ -107,9 +107,7 @@ onNamePickerChange
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -275,9 +273,7 @@ event
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
@@ -563,9 +559,7 @@ newFolder
 .
 catch
 (
-Components
-.
-utils
+Cu
 .
 reportError
 )
