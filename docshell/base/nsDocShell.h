@@ -1831,12 +1831,6 @@ nsIRequest
 *
 *
 aRequest
-const
-nsAString
-&
-aSrcdoc
-nsContentPolicyType
-aContentPolicyType
 )
 ;
 nsresult
