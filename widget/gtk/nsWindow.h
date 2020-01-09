@@ -1969,12 +1969,6 @@ HideTitlebarByDefault
 ;
 static
 bool
-TopLevelWindowUseARGBVisual
-(
-)
-;
-static
-bool
 GetTopLevelWindowActiveState
 (
 nsIFrame
