@@ -5214,13 +5214,7 @@ ShouldBuildScrollInfoItemsForHoisting
 (
 )
 const
-{
-return
-mSVGEffectsBuildingDepth
->
-0
 ;
-}
 void
 AppendNewScrollInfoItemForHoisting
 (
