@@ -39,7 +39,7 @@ mozleak
 =
 0
 .
-1
+2
 mozinstall
 =
 =
