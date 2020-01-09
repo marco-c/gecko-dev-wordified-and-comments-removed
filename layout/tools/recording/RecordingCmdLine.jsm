@@ -1,17 +1,3 @@
-const
-nsICommandLineHandler
-=
-Ci
-.
-nsICommandLineHandler
-;
-const
-nsIWindowWatcher
-=
-Ci
-.
-nsIWindowWatcher
-;
 function
 RecordingCmdLineHandler
 (
@@ -30,6 +16,8 @@ ChromeUtils
 generateQI
 (
 [
+Ci
+.
 nsICommandLineHandler
 ]
 )
@@ -237,6 +225,8 @@ watcher
 .
 getService
 (
+Ci
+.
 nsIWindowWatcher
 )
 ;
