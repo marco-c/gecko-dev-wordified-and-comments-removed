@@ -240,9 +240,9 @@ querySelector
 #
 device
 -
-adder
+add
 -
-show
+button
 "
 )
 ;
@@ -289,9 +289,9 @@ querySelector
 #
 device
 -
-adder
+add
 -
-show
+button
 "
 )
 ;
