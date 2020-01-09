@@ -406,7 +406,7 @@ uri
 pwin
 -
 >
-NotifyContentBlockingState
+NotifyContentBlockingEvent
 (
 aBlockedReason
 aChannel

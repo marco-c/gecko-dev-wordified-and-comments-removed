@@ -350,6 +350,16 @@ message
 )
 {
 }
+onContentBlockingEvent
+:
+function
+(
+webProgress
+request
+event
+)
+{
+}
 QueryInterface
 :
 function

@@ -422,6 +422,13 @@ function
 )
 {
 }
+onContentBlockingEvent
+:
+function
+(
+)
+{
+}
 }
 )
 ;

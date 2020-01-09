@@ -78,9 +78,9 @@ newTabBrowser
 )
 {
 let
-securityChange
+contentBlockingEvent
 =
-waitForSecurityChange
+waitForContentBlockingEvent
 (
 )
 ;
@@ -148,7 +148,7 @@ e
 )
 ;
 await
-securityChange
+contentBlockingEvent
 ;
 let
 ContentBlocking

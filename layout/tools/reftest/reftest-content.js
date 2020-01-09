@@ -1459,6 +1459,13 @@ function
 )
 {
 }
+onContentBlockingEvent
+:
+function
+(
+)
+{
+}
 }
 )
 ;

@@ -816,6 +816,14 @@ onProgressChange
 >
 {
 }
+onContentBlockingEvent
+:
+(
+)
+=
+>
+{
+}
 QueryInterface
 :
 ChromeUtils

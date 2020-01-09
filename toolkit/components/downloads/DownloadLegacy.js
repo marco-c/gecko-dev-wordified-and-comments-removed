@@ -547,6 +547,11 @@ onSecurityChange
 )
 {
 }
+onContentBlockingEvent
+(
+)
+{
+}
 onProgressChange64
 :
 function

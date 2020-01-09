@@ -1657,6 +1657,11 @@ onLocationChange
 )
 {
 }
+onContentBlockingEvent
+(
+)
+{
+}
 QueryInterface
 :
 ChromeUtils

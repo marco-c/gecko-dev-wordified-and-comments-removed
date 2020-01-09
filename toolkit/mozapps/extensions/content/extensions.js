@@ -11322,6 +11322,14 @@ NS_BINDING_ABORTED
 )
 ;
 }
+onContentBlockingEvent
+(
+aWebProgress
+aRequest
+aEvent
+)
+{
+}
 onStateChange
 (
 aWebProgress

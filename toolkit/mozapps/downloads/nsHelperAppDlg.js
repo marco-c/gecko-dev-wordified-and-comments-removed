@@ -233,7 +233,15 @@ onSecurityChange
 (
 aWebProgress
 aRequest
-state
+aState
+)
+{
+}
+onContentBlockingEvent
+(
+aWebProgress
+aRequest
+aEvent
 )
 {
 }

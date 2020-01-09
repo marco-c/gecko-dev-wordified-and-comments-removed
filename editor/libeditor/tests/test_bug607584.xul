@@ -700,6 +700,16 @@ aState
 )
 {
 }
+onContentBlockingEvent
+:
+function
+(
+aWebProgress
+aRequest
+aEvent
+)
+{
+}
 mEditor
 :
 null

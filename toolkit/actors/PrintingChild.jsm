@@ -2167,5 +2167,13 @@ aState
 )
 {
 }
+onContentBlockingEvent
+(
+aWebProgress
+aRequest
+aEvent
+)
+{
+}
 }
 ;

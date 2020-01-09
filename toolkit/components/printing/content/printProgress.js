@@ -639,6 +639,14 @@ state
 )
 {
 }
+onContentBlockingEvent
+(
+aWebProgress
+aRequest
+event
+)
+{
+}
 QueryInterface
 :
 ChromeUtils

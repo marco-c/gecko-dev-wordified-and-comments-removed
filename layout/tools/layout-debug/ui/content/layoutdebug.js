@@ -416,6 +416,16 @@ aState
 )
 {
 }
+onContentBlockingEvent
+:
+function
+(
+aWebProgress
+aRequest
+aEvent
+)
+{
+}
 setButtonEnabled
 :
 function

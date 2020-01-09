@@ -7431,6 +7431,11 @@ onSecurityChange
 )
 {
 }
+onContentBlockingEvent
+(
+)
+{
+}
 }
 )
 ;
