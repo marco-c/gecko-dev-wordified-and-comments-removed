@@ -743,6 +743,14 @@ mJsepTransceiver
 HasLevel
 (
 )
+|
+|
+mJsepTransceiver
+-
+>
+IsStopped
+(
+)
 )
 {
 return
