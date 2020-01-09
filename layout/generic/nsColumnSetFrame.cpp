@@ -4011,10 +4011,6 @@ break
 }
 else
 {
-+
-+
-columnCount
-;
 if
 (
 !
@@ -4200,6 +4196,8 @@ columnCount
 aConfig
 .
 mBalanceColCount
+-
+1
 )
 {
 aStatus
@@ -4274,6 +4272,10 @@ child
 GetNextSibling
 (
 )
+;
++
++
+columnCount
 ;
 if
 (
