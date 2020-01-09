@@ -2233,7 +2233,7 @@ record
 >
 record
 .
-pubKeyHash
+derHash
 )
 ;
 let
