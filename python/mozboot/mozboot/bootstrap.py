@@ -2169,7 +2169,6 @@ instance
 .
 ensure_clang_static_analysis_package
 (
-state_dir
 checkout_root
 )
     
