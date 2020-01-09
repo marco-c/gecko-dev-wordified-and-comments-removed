@@ -135,7 +135,7 @@ characterSet
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 Undo
 (
@@ -144,7 +144,7 @@ aCount
 )
 final
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 Redo
 (

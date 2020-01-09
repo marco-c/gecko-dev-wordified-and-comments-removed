@@ -333,7 +333,10 @@ textEditor
 )
 ;
 return
+MOZ_KnownLive
+(
 textEditor
+)
 -
 >
 Undo
@@ -568,7 +571,10 @@ textEditor
 )
 ;
 return
+MOZ_KnownLive
+(
 textEditor
+)
 -
 >
 Redo
@@ -2458,7 +2464,10 @@ textEditor
 )
 ;
 return
+MOZ_KnownLive
+(
 textEditor
+)
 -
 >
 ToggleTextDirection

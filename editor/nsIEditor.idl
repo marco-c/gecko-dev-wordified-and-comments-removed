@@ -1066,6 +1066,9 @@ returned
 *
 *
 /
+[
+can_run_script
+]
 void
 undo
 (
@@ -1224,6 +1227,9 @@ returned
 *
 *
 /
+[
+can_run_script
+]
 void
 redo
 (
