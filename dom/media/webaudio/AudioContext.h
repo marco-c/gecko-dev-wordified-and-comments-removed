@@ -1152,6 +1152,11 @@ GetBasicWaveFormCache
 )
 ;
 void
+ShutdownWorklet
+(
+)
+;
+void
 SetParamMapForWorkletName
 (
 const
