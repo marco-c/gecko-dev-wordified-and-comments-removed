@@ -260,6 +260,9 @@ aDocumentURI
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 bool
 aIsPrivate
 )
@@ -268,6 +271,7 @@ Storage
 (
 aWindow
 aPrincipal
+aStoragePrincipal
 )
 mManager
 (
@@ -791,7 +795,7 @@ aNewValue
 NotifyChange
 (
 this
-Principal
+StoragePrincipal
 (
 )
 aKey

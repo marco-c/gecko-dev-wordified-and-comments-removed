@@ -337,6 +337,9 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 const
 nsAString
 &

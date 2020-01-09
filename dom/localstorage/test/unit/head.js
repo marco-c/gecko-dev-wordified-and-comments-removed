@@ -1102,6 +1102,7 @@ createStorage
 (
 null
 principal
+principal
 "
 "
 )

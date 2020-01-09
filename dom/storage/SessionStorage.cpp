@@ -145,6 +145,7 @@ Storage
 (
 aWindow
 aPrincipal
+aPrincipal
 )
 mCache
 (
@@ -190,6 +191,18 @@ Clone
 )
 const
 {
+MOZ_ASSERT
+(
+Principal
+(
+)
+=
+=
+StoragePrincipal
+(
+)
+)
+;
 RefPtr
 <
 SessionStorage

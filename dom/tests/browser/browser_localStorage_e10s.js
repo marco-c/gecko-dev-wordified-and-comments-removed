@@ -323,6 +323,7 @@ createStorage
 (
 null
 principal
+principal
 "
 "
 )
@@ -408,6 +409,7 @@ domStorageManager
 getStorage
 (
 null
+principal
 principal
 )
 ;
