@@ -162,11 +162,6 @@ SVGAElement
 h
 '
 '
-SVGAnimatedPathSegList
-.
-h
-'
-'
 SVGAnimatedRect
 .
 h
