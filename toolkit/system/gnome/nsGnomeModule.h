@@ -1,0 +1,16 @@
+#
+include
+"
+nscore
+.
+h
+"
+namespace
+mozilla
+{
+nsresult
+InitGType
+(
+)
+;
+}
