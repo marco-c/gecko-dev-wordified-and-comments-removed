@@ -597,11 +597,6 @@ MetaTwoByte
 \
 _
 (
-MetaThreeByte
-)
-\
-_
-(
 WrapResult
 )
 class
