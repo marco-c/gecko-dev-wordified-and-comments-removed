@@ -32310,12 +32310,6 @@ aBuilder
 this
 )
 ;
-nsDisplayListCollection
-linesDisplayListCollection
-(
-aBuilder
-)
-;
 nsLineBox
 *
 cursor
@@ -32444,7 +32438,7 @@ lineArea
 line
 depth
 drawnLines
-linesDisplayListCollection
+aLists
 this
 nullptr
 0
@@ -32511,7 +32505,7 @@ lineArea
 line
 depth
 drawnLines
-linesDisplayListCollection
+aLists
 this
 textOverflow
 .
@@ -32592,13 +32586,6 @@ SetupLineCursor
 ;
 }
 }
-linesDisplayListCollection
-.
-MoveTo
-(
-aLists
-)
-;
 if
 (
 textOverflow
