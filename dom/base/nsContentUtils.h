@@ -6863,16 +6863,6 @@ GetUserIsInteracting
 )
 ;
 static
-bool
-IsBytecodeCacheEnabled
-(
-)
-{
-return
-sIsBytecodeCacheEnabled
-;
-}
-static
 int32_t
 BytecodeCacheStrategy
 (
@@ -7524,10 +7514,6 @@ sBypassCSSOMOriginCheck
 ;
 #
 endif
-static
-bool
-sIsBytecodeCacheEnabled
-;
 static
 int32_t
 sBytecodeCacheStrategy
