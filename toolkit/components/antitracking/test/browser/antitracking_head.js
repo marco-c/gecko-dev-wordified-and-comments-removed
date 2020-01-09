@@ -2257,10 +2257,6 @@ message
 msg
 )
 ;
-resolve
-(
-)
-;
 return
 ;
 }
