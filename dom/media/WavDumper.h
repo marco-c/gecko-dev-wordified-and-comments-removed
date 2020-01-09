@@ -59,6 +59,15 @@ h
 #
 include
 <
+mozilla
+/
+Sprintf
+.
+h
+>
+#
+include
+<
 ByteWriter
 .
 h
