@@ -364,8 +364,6 @@ multilib
 \
 gnupg
 \
-nasm
-\
 p7zip
 -
 full
