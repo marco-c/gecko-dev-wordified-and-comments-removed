@@ -210,8 +210,6 @@ linkedBrowser
 false
 TEST_URL
 )
-;
-oldTabLoadedPromise
 .
 then
 (
@@ -324,8 +322,7 @@ tab
 ;
 waiting
 for
-either
-tab
+tabs
 to
 load
 "
@@ -342,10 +339,12 @@ newTab
 .
 linkedBrowser
 false
-TEST_URL
+"
+about
+:
+newtab
+"
 )
-;
-newTabLoadedPromise
 .
 then
 (
@@ -366,7 +365,7 @@ loaded
 await
 Promise
 .
-race
+all
 (
 [
 newTabLoadedPromise
@@ -391,8 +390,7 @@ newtab
 "
 New
 tab
-still
-has
+loaded
 about
 :
 newtab
