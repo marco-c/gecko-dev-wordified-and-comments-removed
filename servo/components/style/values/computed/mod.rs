@@ -989,6 +989,16 @@ use
 super
 :
 :
+specified
+:
+:
+TextTransform
+;
+pub
+use
+super
+:
+:
 {
 Auto
 Either
