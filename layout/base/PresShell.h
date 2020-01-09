@@ -5344,9 +5344,6 @@ nsEventStatus
 aEventStatus
 bool
 *
-aIsUserInteraction
-bool
-*
 aTouchIsNew
 )
 ;

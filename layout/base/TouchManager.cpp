@@ -1207,9 +1207,6 @@ aStatus
 bool
 &
 aTouchIsNew
-bool
-&
-aIsHandlingUserInput
 nsCOMPtr
 <
 nsIContent
@@ -1240,10 +1237,6 @@ case
 eTouchStart
 :
 {
-aIsHandlingUserInput
-=
-true
-;
 WidgetTouchEvent
 *
 touchEvent
@@ -1791,12 +1784,6 @@ break
 case
 eTouchEnd
 :
-aIsHandlingUserInput
-=
-true
-;
-MOZ_FALLTHROUGH
-;
 case
 eTouchCancel
 :

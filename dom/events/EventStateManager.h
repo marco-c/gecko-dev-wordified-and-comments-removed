@@ -585,6 +585,16 @@ aLockCursor
 )
 ;
 static
+bool
+IsUserInteractionEvent
+(
+const
+WidgetEvent
+*
+aEvent
+)
+;
+static
 void
 StartHandlingUserInput
 (
