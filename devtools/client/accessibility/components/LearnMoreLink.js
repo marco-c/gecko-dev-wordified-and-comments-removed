@@ -101,6 +101,11 @@ propTypes
 {
 return
 {
+className
+:
+PropTypes
+.
+string
 href
 :
 PropTypes
@@ -193,6 +198,7 @@ render
 {
 const
 {
+className
 href
 learnMoreStringKey
 l10n
@@ -281,6 +287,7 @@ return
 p
 (
 {
+className
 }
 .
 .
