@@ -1721,6 +1721,17 @@ _appendStatusPanel
 (
 )
 ;
+browser
+.
+docShellIsActive
+=
+this
+.
+shouldActivateDocShell
+(
+browser
+)
+;
 this
 .
 initialBrowser
