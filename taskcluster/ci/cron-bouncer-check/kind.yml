@@ -234,7 +234,9 @@ releases
 bouncer_firefox_release
 .
 py
-esr60
+esr
+.
+*
 :
 -
 releases
@@ -273,6 +275,11 @@ mozilla
 esr60
 :
 FIREFOX_ESR
+mozilla
+-
+esr68
+:
+FIREFOX_ESR_NEXT
 default
 :
 LATEST_FIREFOX_DEVEL_VERSION

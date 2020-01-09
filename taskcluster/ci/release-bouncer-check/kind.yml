@@ -367,7 +367,9 @@ releases
 bouncer_firefox_release
 .
 py
-esr60
+esr
+.
+*
 :
 -
 releases
