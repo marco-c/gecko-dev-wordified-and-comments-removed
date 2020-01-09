@@ -180,6 +180,13 @@ rule
 )
 .
 isRequired
+showDeclarationNameEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 showSelectorEditor
 :
 PropTypes
@@ -199,6 +206,7 @@ const
 onToggleDeclaration
 onToggleSelectorHighlighter
 rule
+showDeclarationNameEditor
 showSelectorEditor
 }
 =
@@ -333,7 +341,9 @@ Declarations
 (
 {
 declarations
+isUserAgentStyle
 onToggleDeclaration
+showDeclarationNameEditor
 }
 )
 dom

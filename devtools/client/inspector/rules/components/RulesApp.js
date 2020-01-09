@@ -283,6 +283,13 @@ rule
 )
 .
 isRequired
+showDeclarationNameEditor
+:
+PropTypes
+.
+func
+.
+isRequired
 showSelectorEditor
 :
 PropTypes
@@ -313,6 +320,13 @@ this
 props
 .
 onToggleSelectorHighlighter
+showDeclarationNameEditor
+:
+this
+.
+props
+.
+showDeclarationNameEditor
 showSelectorEditor
 :
 this

@@ -1556,6 +1556,11 @@ name
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 const
@@ -1583,13 +1588,12 @@ indexOf
 property
 )
 ;
+return
 this
 .
 applyProperties
 (
-(
 modifications
-)
 =
 >
 {
@@ -1672,9 +1676,7 @@ this
 .
 applyProperties
 (
-(
 modifications
-)
 =
 >
 {
