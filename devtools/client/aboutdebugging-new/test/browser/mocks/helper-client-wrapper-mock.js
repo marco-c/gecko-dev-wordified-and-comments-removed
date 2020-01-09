@@ -335,6 +335,14 @@ sharedWorkers
 ]
 }
 )
+getMainProcess
+:
+(
+)
+=
+>
+{
+}
 getFront
 :
 (
