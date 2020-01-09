@@ -14,6 +14,8 @@ setJitCompilerOption
 "
 ion
 .
+full
+.
 warmup
 .
 trigger

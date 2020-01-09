@@ -4434,6 +4434,15 @@ JSContext
 cx
 )
 ;
+MOZ_MUST_USE
+bool
+IonForcedInvalidation
+(
+JSContext
+*
+cx
+)
+;
 JSString
 *
 StringReplace
