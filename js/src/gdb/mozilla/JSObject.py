@@ -378,7 +378,7 @@ shape
 native
 [
 '
-shapeOrExpando_
+shape_
 '
 ]
 .

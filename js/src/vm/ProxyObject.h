@@ -18,7 +18,7 @@ include
 "
 vm
 /
-ShapedObject
+JSObject
 .
 h
 "
@@ -29,7 +29,7 @@ class
 ProxyObject
 :
 public
-ShapedObject
+JSObject
 {
 detail
 :
