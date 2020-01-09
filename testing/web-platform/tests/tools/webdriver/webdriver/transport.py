@@ -69,6 +69,7 @@ __init__
 self
 status
 body
+headers
 )
 :
         
@@ -83,6 +84,12 @@ self
 body
 =
 body
+        
+self
+.
+headers
+=
+headers
     
 def
 __repr__
@@ -248,6 +255,17 @@ decoder
 *
 kwargs
 )
+            
+headers
+=
+dict
+(
+http_response
+.
+getheaders
+(
+)
+)
         
 except
 ValueError
@@ -284,6 +302,7 @@ http_response
 .
 status
 body
+headers
 )
 class
 HTTPWireProtocol
