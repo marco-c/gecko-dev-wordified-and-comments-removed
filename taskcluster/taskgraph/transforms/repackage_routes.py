@@ -211,7 +211,7 @@ attributes
 get
 (
 '
-nightly
+shippable
 '
 )
 :
