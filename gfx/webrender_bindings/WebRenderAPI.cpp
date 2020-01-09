@@ -104,6 +104,13 @@ TextDrawTarget
 h
 "
 #
+include
+"
+malloc_decls
+.
+h
+"
+#
 define
 WRDL_LOG
 (
