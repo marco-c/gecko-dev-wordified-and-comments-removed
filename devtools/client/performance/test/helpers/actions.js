@@ -758,8 +758,6 @@ target
 {
 target
 .
-activeTab
-.
 reload
 (
 )

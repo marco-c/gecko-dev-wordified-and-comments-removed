@@ -794,8 +794,6 @@ executeSoon
 >
 aTarget
 .
-activeTab
-.
 navigateTo
 (
 {
@@ -832,8 +830,6 @@ executeSoon
 =
 >
 aTarget
-.
-activeTab
 .
 reload
 (

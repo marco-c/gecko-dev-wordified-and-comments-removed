@@ -96,16 +96,9 @@ client
 target
 ;
 const
-targetFront
-=
-target
-.
-activeTab
-;
-const
 form
 =
-targetFront
+target
 .
 targetForm
 ;

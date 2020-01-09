@@ -131,8 +131,6 @@ proxy
 .
 target
 .
-activeTab
-.
 ensureCSSErrorReportingEnabled
 (
 )
