@@ -265,7 +265,8 @@ void
 *
 MaybeGetBuiltinThunk
 (
-HandleFunction
+JSFunction
+*
 f
 const
 FuncType
