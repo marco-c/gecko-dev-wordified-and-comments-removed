@@ -1225,9 +1225,8 @@ nsIContent
 aCurrentEventContent
 )
 {
-if
+MOZ_DIAGNOSTIC_ASSERT
 (
-!
 aEvent
 -
 >
@@ -1235,11 +1234,7 @@ IsTrusted
 (
 )
 )
-{
-return
-true
 ;
-}
 switch
 (
 aEvent

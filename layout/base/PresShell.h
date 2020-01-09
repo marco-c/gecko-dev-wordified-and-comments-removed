@@ -2911,9 +2911,15 @@ PrepareToDispatchEvent
 WidgetEvent
 *
 aEvent
+nsEventStatus
+*
+aEventStatus
 bool
 *
 aIsUserInteraction
+bool
+*
+aTouchIsNew
 )
 ;
 MOZ_CAN_RUN_SCRIPT
