@@ -646,13 +646,13 @@ selectedBrowser
 translationUI
 ;
 let
-uri
+principal
 =
 gBrowser
 .
 selectedBrowser
 .
-currentURI
+contentPrincipal
 ;
 ok
 (
@@ -660,7 +660,7 @@ ui
 .
 shouldShowInfoBar
 (
-uri
+principal
 "
 fr
 "
@@ -822,7 +822,7 @@ ui
 .
 shouldShowInfoBar
 (
-uri
+principal
 "
 fr
 "
@@ -987,13 +987,13 @@ selectedBrowser
 translationUI
 ;
 let
-uri
+principal
 =
 gBrowser
 .
 selectedBrowser
 .
-currentURI
+contentPrincipal
 ;
 ok
 (
@@ -1001,7 +1001,7 @@ ui
 .
 shouldShowInfoBar
 (
-uri
+principal
 "
 fr
 "
@@ -1169,7 +1169,7 @@ ui
 .
 shouldShowInfoBar
 (
-uri
+principal
 "
 fr
 "
