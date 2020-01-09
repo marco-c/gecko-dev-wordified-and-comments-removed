@@ -183,15 +183,15 @@ Services
 .
 cookies
 .
-removeCookiesWithOriginAttributes
+removeCookiesFromRootDomain
 (
+aHost
 JSON
 .
 stringify
 (
 aOriginAttributes
 )
-aHost
 )
 ;
 aResolve
