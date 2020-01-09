@@ -871,8 +871,6 @@ bool
 deliveringAltData
 bool
 applyConversion
-bool
-isResolvedByTRR
 ResourceTimingStruct
 timing
 )

@@ -685,10 +685,6 @@ mClassOfService
 (
 0
 )
-mResolvedByTRR
-(
-false
-)
 m0RTTInProgress
 (
 false
@@ -2706,15 +2702,6 @@ GetPeerAddr
 (
 &
 mPeerAddr
-)
-;
-socketTransport
--
->
-ResolvedByTRR
-(
-&
-mResolvedByTRR
 )
 ;
 }
