@@ -1505,6 +1505,17 @@ Bailout_DuringVMCall
 )
 ;
 void
+assignWasmSafepoint
+(
+LInstruction
+*
+ins
+MInstruction
+*
+mir
+)
+;
+void
 lowerConstantDouble
 (
 double

@@ -49,6 +49,15 @@ include
 "
 wasm
 /
+WasmGC
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmTypes
 .
 h

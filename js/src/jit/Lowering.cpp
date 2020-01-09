@@ -17765,6 +17765,12 @@ lir
 ins
 )
 ;
+assignWasmSafepoint
+(
+lir
+ins
+)
+;
 }
 void
 LIRGenerator
@@ -33013,6 +33019,12 @@ ins
 )
 ;
 }
+assignWasmSafepoint
+(
+lir
+ins
+)
+;
 }
 void
 LIRGenerator

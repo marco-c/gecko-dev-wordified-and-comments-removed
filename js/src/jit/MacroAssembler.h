@@ -7893,7 +7893,14 @@ BytecodeOffset
 bytecodeOffset
 )
 ;
-void
+std
+:
+:
+pair
+<
+CodeOffset
+uint32_t
+>
 wasmReserveStackChecked
 (
 uint32_t
