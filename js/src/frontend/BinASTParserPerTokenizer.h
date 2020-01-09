@@ -221,14 +221,6 @@ Tokenizer
 Chars
 ;
 using
-RootContext
-=
-BinASTTokenReaderBase
-:
-:
-RootContext
-;
-using
 Context
 =
 BinASTTokenReaderBase
