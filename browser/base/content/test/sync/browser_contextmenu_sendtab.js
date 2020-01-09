@@ -159,6 +159,14 @@ dispatchEvent
 evt
 )
 ;
+gBrowser
+.
+selectedTab
+.
+focus
+(
+)
+;
 menu
 .
 openPopup

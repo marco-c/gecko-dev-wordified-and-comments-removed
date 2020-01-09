@@ -52,6 +52,14 @@ functionality
 "
 )
 ;
+gBrowser
+.
+selectedTab
+.
+focus
+(
+)
+;
 let
 tab
 =

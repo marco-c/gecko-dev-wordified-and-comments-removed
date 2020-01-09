@@ -15,6 +15,16 @@ openNewBrowserWindow
 (
 )
 ;
+testWindow
+.
+gBrowser
+.
+selectedTab
+.
+focus
+(
+)
+;
 BrowserTestUtils
 .
 loadURI

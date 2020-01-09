@@ -2879,6 +2879,14 @@ win
 window
 )
 {
+gBrowser
+.
+selectedTab
+.
+focus
+(
+)
+;
 return
 openChromeContextMenu
 (

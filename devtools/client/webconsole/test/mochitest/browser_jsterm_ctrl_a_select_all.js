@@ -80,6 +80,14 @@ performTests
 (
 )
 {
+gBrowser
+.
+selectedTab
+.
+focus
+(
+)
+;
 const
 hud
 =

@@ -22,6 +22,14 @@ functionality
 "
 )
 ;
+gBrowser
+.
+selectedTab
+.
+focus
+(
+)
+;
 CustomizableUI
 .
 addWidgetToArea

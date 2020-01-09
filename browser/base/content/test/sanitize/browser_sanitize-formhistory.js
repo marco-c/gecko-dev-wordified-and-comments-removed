@@ -6,6 +6,14 @@ test
 (
 )
 {
+gBrowser
+.
+selectedTab
+.
+focus
+(
+)
+;
 await
 new
 Promise
