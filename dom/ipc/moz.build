@@ -1078,6 +1078,15 @@ browser
 .
 ini
 '
+'
+tests
+/
+JSWindowActor
+/
+browser
+.
+ini
+'
 ]
 MOCHITEST_CHROME_MANIFESTS
 +
