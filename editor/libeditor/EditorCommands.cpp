@@ -155,8 +155,10 @@ namespace
 mozilla
 {
 using
-namespace
 detail
+:
+:
+Any
 ;
 NS_IMPL_ISUPPORTS
 (

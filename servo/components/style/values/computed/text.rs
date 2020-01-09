@@ -611,6 +611,13 @@ PartialEq
 ToResolvedValue
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 TextOverflow
