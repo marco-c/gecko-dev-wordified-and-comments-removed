@@ -916,6 +916,10 @@ keys
 )
       
 if
+task_kind
+not
+in
+(
 '
 google
 -
@@ -923,9 +927,14 @@ play
 -
 strings
 '
-not
-in
-task_kind
+'
+push
+-
+apk
+-
+checks
+'
+)
     
 ]
     
