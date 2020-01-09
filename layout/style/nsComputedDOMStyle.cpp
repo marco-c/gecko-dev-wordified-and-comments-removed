@@ -3403,14 +3403,6 @@ OwnerDoc
 ;
 while
 (
-doc
--
->
-StyleOrLayoutObservablyDependsOnParentDocumentLayout
-(
-)
-)
-{
 Document
 *
 parentDocument
@@ -3421,7 +3413,8 @@ doc
 GetParentDocument
 (
 )
-;
+)
+{
 Element
 *
 element

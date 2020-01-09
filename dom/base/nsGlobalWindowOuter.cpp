@@ -32391,16 +32391,10 @@ EnsureSizeAndPositionUpToDate
 if
 (
 mDoc
-&
-&
-mDoc
--
->
-StyleOrLayoutObservablyDependsOnParentDocumentLayout
-(
-)
 )
 {
+if
+(
 RefPtr
 <
 Document
@@ -32413,7 +32407,8 @@ mDoc
 GetParentDocument
 (
 )
-;
+)
+{
 parent
 -
 >
@@ -32425,6 +32420,7 @@ FlushType
 Layout
 )
 ;
+}
 }
 }
 already_AddRefed
