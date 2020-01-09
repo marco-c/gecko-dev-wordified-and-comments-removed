@@ -8204,8 +8204,9 @@ return
 false
 ;
 }
-if
-(
+auto
+cookieBehavior
+=
 parentDocument
 -
 >
@@ -8217,6 +8218,10 @@ CookieSettings
 GetCookieBehavior
 (
 )
+;
+if
+(
+cookieBehavior
 !
 =
 nsICookieService
@@ -8241,12 +8246,7 @@ bail
 out
 early
 "
-StaticPrefs
-:
-:
-network_cookie_cookieBehavior
-(
-)
+cookieBehavior
 )
 )
 ;
