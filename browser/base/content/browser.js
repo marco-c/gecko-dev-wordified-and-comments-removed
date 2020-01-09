@@ -17006,6 +17006,13 @@ tab
 linkedBrowser
 )
 ;
+delete
+tab
+.
+linkedBrowser
+.
+canceledAuthenticationPromptCounter
+;
 }
 PanelMultiView
 .

@@ -15652,6 +15652,11 @@ clearTemporaryPermissions
 browser
 )
 ;
+delete
+browser
+.
+canceledAuthenticationPromptCounter
+;
 PanelMultiView
 .
 hidePopup
