@@ -251,6 +251,17 @@ shared
 bitsdownload
 "
 ]
+new_xulstore
+=
+[
+"
+gkrust
+-
+shared
+/
+new_xulstore
+"
+]
 [
 dependencies
 ]

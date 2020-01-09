@@ -623,6 +623,9 @@ components
 /
 xulstore
 "
+optional
+=
+true
 }
 #
 We
@@ -1021,6 +1024,13 @@ gecko_profiler_parse_elf
 profiler_helper
 /
 parse_elf
+"
+]
+new_xulstore
+=
+[
+"
+xulstore
 "
 ]
 [
