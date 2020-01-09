@@ -9904,8 +9904,6 @@ mIndividualTransform
 nullptr
 ;
 }
-private
-:
 void
 GenerateCombinedIndividualTransform
 (

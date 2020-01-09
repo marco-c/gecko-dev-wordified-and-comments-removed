@@ -15673,12 +15673,6 @@ aSource
 .
 mSpecifiedScale
 )
-mIndividualTransform
-(
-aSource
-.
-mIndividualTransform
-)
 mMotion
 (
 aSource
@@ -16016,10 +16010,6 @@ aOldStyle
 mShapeOutside
 :
 nullptr
-)
-;
-GenerateCombinedIndividualTransform
-(
 )
 ;
 }
@@ -17221,9 +17211,11 @@ GenerateCombinedIndividualTransform
 (
 )
 {
+MOZ_ASSERT
+(
+!
 mIndividualTransform
-=
-nullptr
+)
 ;
 AutoTArray
 <
