@@ -19559,7 +19559,7 @@ false
 size_t
 maxCells
 =
-20
+5
 ;
 char
 *
