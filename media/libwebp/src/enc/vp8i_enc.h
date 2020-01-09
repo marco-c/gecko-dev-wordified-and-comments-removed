@@ -98,7 +98,7 @@ ENC_MIN_VERSION
 #
 define
 ENC_REV_VERSION
-1
+2
 enum
 {
 MAX_LF_LEVELS
