@@ -178,6 +178,13 @@ PropTypes
 object
 .
 isRequired
+onContextMenu
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -799,6 +806,13 @@ panel
 -
 changes
 "
+onContextMenu
+:
+this
+.
+props
+.
+onContextMenu
 }
 !
 hasChanges
