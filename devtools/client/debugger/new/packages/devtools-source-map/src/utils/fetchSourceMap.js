@@ -122,6 +122,8 @@ url
 :
 string
 )
+:
+boolean
 {
 return
 originalURLs
@@ -387,6 +389,8 @@ generatedSource
 :
 Source
 )
+:
+SourceMapConsumer
 {
 const
 existingRequest
