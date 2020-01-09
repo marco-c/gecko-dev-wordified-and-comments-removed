@@ -122,7 +122,12 @@ GuardIsExtensible
 \
 _
 (
-GuardIsNativeFunction
+GuardFunctionIsNative
+)
+\
+_
+(
+GuardSpecificNativeFunction
 )
 \
 _

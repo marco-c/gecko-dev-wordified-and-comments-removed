@@ -5300,6 +5300,8 @@ branchIfInterpreted
 (
 Register
 fun
+bool
+isConstructing
 Label
 *
 label
