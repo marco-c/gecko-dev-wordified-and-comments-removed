@@ -27,6 +27,7 @@ AutoApplyAsyncTestAttributes
 :
 AutoApplyAsyncTestAttributes
 (
+const
 AsyncPanZoomController
 *
 aApzc
@@ -34,7 +35,14 @@ aApzc
 :
 mApzc
 (
+const_cast
+<
+AsyncPanZoomController
+*
+>
+(
 aApzc
+)
 )
 mPrevFrameMetrics
 (

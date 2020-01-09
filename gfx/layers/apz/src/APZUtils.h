@@ -490,6 +490,7 @@ public
 explicit
 AutoApplyAsyncTestAttributes
 (
+const
 AsyncPanZoomController
 *
 )
