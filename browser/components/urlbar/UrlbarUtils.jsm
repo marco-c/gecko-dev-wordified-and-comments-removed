@@ -408,6 +408,15 @@ mayInheritPrincipal
 }
 ;
 }
+await
+Services
+.
+search
+.
+init
+(
+)
+;
 let
 engine
 =
