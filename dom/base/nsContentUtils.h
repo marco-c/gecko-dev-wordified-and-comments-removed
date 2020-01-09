@@ -6868,16 +6868,6 @@ GenerateBrowsingContextId
 ;
 static
 bool
-SkipCursorMoveForSameValueSet
-(
-)
-{
-return
-sSkipCursorMoveForSameValueSet
-;
-}
-static
-bool
 GetUserIsInteracting
 (
 )
@@ -7564,10 +7554,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sSkipCursorMoveForSameValueSet
 ;
 static
 bool
