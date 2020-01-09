@@ -258,9 +258,6 @@ zero
 spatial_id
 &
 filters
-&
-[
-]
 )
 ;
 let
