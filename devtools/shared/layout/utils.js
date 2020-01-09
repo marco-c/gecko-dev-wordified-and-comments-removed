@@ -2134,12 +2134,6 @@ isAfterPseudoElement
 (
 node
 )
-|
-|
-isNativeAnonymous
-(
-node
-)
 )
 {
 return
