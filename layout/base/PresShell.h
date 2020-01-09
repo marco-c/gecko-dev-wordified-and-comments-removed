@@ -2799,7 +2799,7 @@ nsIContent
 overrideClickTarget
 ;
 return
-HandleEventInternal
+HandleEventWithCurrentEventInfo
 (
 aGUIEvent
 aEventStatus
@@ -2825,7 +2825,7 @@ aEventStatus
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
-HandleEventInternal
+HandleEventWithCurrentEventInfo
 (
 WidgetEvent
 *

@@ -31408,7 +31408,7 @@ nsIContent
 overrideClickTarget
 ;
 return
-HandleEventInternal
+HandleEventWithCurrentEventInfo
 (
 aGUIEvent
 aEventStatus
@@ -32008,7 +32008,7 @@ rv
 =
 eventHandler
 .
-HandleEventInternal
+HandleEventWithCurrentEventInfo
 (
 aGUIEvent
 aEventStatus
@@ -35009,7 +35009,7 @@ overrideClickTarget
 nsresult
 rv
 =
-HandleEventInternal
+HandleEventWithCurrentEventInfo
 (
 aGUIEvent
 aEventStatus
@@ -35483,7 +35483,7 @@ overrideClickTarget
 ;
 rv
 =
-HandleEventInternal
+HandleEventWithCurrentEventInfo
 (
 aGUIEvent
 aEventStatus
@@ -35832,7 +35832,7 @@ aNewEventContent
 nsresult
 rv
 =
-HandleEventInternal
+HandleEventWithCurrentEventInfo
 (
 aEvent
 aEventStatus
@@ -35851,7 +35851,7 @@ PresShell
 EventHandler
 :
 :
-HandleEventInternal
+HandleEventWithCurrentEventInfo
 (
 WidgetEvent
 *
