@@ -2247,6 +2247,7 @@ id
 sourceId
 ;
 }
+async
 function
 clearDebuggerPreferences
 (
@@ -2438,6 +2439,21 @@ enabled
 "
 )
 ;
+await
+pushPref
+(
+"
+devtools
+.
+debugger
+.
+log
+-
+actions
+"
+true
+)
+;
 }
 async
 function
@@ -2450,6 +2466,7 @@ url
 sources
 )
 {
+await
 clearDebuggerPreferences
 (
 )
@@ -2507,6 +2524,7 @@ url
 pane
 )
 {
+await
 clearDebuggerPreferences
 (
 )
