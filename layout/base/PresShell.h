@@ -2437,6 +2437,14 @@ WidgetGUIEvent
 aGUIEvent
 )
 ;
+void
+UpdateTouchEventTarget
+(
+WidgetGUIEvent
+*
+aGUIEvent
+)
+;
 RefPtr
 <
 PresShell
