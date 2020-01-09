@@ -4639,6 +4639,10 @@ InitFontCache
 (
 )
 ;
+EnsureStyleFlush
+(
+)
+;
 UpdatePreferenceStyles
 (
 )
