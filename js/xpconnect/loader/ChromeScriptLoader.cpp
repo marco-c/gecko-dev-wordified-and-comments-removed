@@ -730,11 +730,6 @@ JSScript
 script
 (
 aCx
-)
-;
-if
-(
-!
 JS
 :
 :
@@ -743,9 +738,13 @@ Compile
 aCx
 mOptions
 srcBuf
-&
-script
 )
+)
+;
+if
+(
+!
+script
 )
 {
 return
