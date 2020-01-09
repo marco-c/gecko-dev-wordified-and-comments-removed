@@ -98,6 +98,15 @@ h
 #
 include
 "
+mtransport
+/
+dtlsidentity
+.
+h
+"
+#
+include
+"
 js
 /
 StructuredClone
@@ -116,9 +125,6 @@ h
 namespace
 mozilla
 {
-class
-DtlsIdentity
-;
 namespace
 dom
 {

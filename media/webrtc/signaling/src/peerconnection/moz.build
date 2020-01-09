@@ -248,16 +248,6 @@ MediaTransportHandler
 cpp
 '
 '
-MediaTransportHandlerIPC
-.
-cpp
-'
-'
-MediaTransportParent
-.
-cpp
-'
-'
 PacketDumper
 .
 cpp

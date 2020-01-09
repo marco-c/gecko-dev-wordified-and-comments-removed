@@ -713,7 +713,6 @@ SendPacket
 (
 MediaPacket
 &
-&
 packet
 )
 ;

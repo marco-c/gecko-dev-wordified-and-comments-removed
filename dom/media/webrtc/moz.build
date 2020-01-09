@@ -359,16 +359,6 @@ trunk
 webrtc
 '
 ]
-PREPROCESSED_IPDL_SOURCES
-+
-=
-[
-'
-PMediaTransport
-.
-ipdl
-'
-]
 XPIDL_SOURCES
 +
 =
