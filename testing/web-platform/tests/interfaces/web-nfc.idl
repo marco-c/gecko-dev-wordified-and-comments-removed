@@ -61,6 +61,10 @@ nfc
 dictionary
 NDEFMessage
 {
+DOMString
+?
+serialNumber
+;
 sequence
 <
 NDEFRecord
