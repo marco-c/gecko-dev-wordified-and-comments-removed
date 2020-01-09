@@ -520,11 +520,6 @@ bool
 aIsUnderHiddenEmbedderElement
 )
 ;
-async
-SkipBrowsingContextDetach
-(
-)
-;
 }
 ;
 }

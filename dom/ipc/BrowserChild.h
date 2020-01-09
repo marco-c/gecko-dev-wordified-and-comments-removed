@@ -2650,17 +2650,6 @@ uintptr_t
 aNewHandle
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvSkipBrowsingContextDetach
-(
-)
-;
 PPluginWidgetChild
 *
 AllocPPluginWidgetChild

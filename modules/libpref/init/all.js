@@ -45811,16 +45811,6 @@ true
 pref
 (
 "
-fission
-.
-preserve_browsing_contexts
-"
-false
-)
-;
-pref
-(
-"
 toolkit
 .
 legacyUserProfileCustomizations

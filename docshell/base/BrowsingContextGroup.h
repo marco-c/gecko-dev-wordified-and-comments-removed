@@ -236,6 +236,8 @@ override
 BrowsingContextGroup
 (
 )
+=
+default
 ;
 static
 already_AddRefed

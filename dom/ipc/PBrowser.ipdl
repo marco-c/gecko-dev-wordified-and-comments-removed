@@ -5826,11 +5826,6 @@ bool
 success
 )
 ;
-async
-SkipBrowsingContextDetach
-(
-)
-;
 parent
 :
 /

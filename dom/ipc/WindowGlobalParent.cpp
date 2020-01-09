@@ -535,6 +535,17 @@ MOZ_ASSERT
 mBrowsingContext
 )
 ;
+MOZ_ASSERT
+(
+mBrowsingContext
+-
+>
+IsOwnedByProcess
+(
+processId
+)
+)
+;
 mBrowsingContext
 -
 >
