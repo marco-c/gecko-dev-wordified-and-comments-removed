@@ -2530,7 +2530,7 @@ self
 .
 pending_updates
 .
-push_realloc
+push_reset
 (
 texture_id
 picture_texture
