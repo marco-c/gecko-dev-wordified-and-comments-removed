@@ -127,6 +127,15 @@ aURL
 )
 ;
 static
+bool
+IsPotentiallyTrustworthyOrigin
+(
+nsIURI
+*
+aURI
+)
+;
+static
 nsresult
 ShouldLoad
 (
