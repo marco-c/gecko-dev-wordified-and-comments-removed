@@ -6685,6 +6685,11 @@ dom
 AutoEntryScript
 &
 aes
+JS
+:
+:
+HandleObject
+aObj
 const
 char
 *

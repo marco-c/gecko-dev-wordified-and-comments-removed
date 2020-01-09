@@ -3579,6 +3579,8 @@ ccx
 AutoEntryScript
 &
 aes
+HandleObject
+aObj
 const
 char
 *
@@ -3794,6 +3796,19 @@ JS_SetPendingException
 (
 cx
 js_exception
+)
+;
+JSAutoRealm
+ar
+(
+cx
+js
+:
+:
+UncheckedUnwrap
+(
+aObj
+)
 )
 ;
 aes
@@ -4533,6 +4548,7 @@ CheckForException
 (
 ccx
 aes
+obj
 name
 GetInterfaceName
 (
@@ -5236,6 +5252,7 @@ CheckForException
 (
 ccx
 aes
+obj
 name
 GetInterfaceName
 (
