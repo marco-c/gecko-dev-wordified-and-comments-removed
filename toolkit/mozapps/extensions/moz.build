@@ -341,6 +341,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+AbuseReporter
+.
+jsm
+'
+'
 addonManager
 .
 js
