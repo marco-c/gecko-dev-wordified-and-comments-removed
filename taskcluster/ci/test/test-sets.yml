@@ -2328,9 +2328,9 @@ x86_64
 tests
 :
 -
-gtest
--
 cppunit
+-
+gtest
 -
 jsreftest
 -
@@ -2354,6 +2354,10 @@ bug
 #
 -
 reftest
+-
+test
+-
+verify
 -
 web
 -
