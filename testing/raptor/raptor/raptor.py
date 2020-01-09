@@ -266,6 +266,26 @@ False
 )
 :
         
+if
+host
+=
+=
+'
+HOST_IP
+'
+:
+            
+host
+=
+os
+.
+environ
+[
+'
+HOST_IP
+'
+]
+        
 self
 .
 config
