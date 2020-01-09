@@ -2746,6 +2746,7 @@ public
 boolean
 equals
 (
+final
 Object
 other
 )
@@ -4222,6 +4223,7 @@ static
 Object
 fromJSONValue
 (
+final
 Object
 value
 )

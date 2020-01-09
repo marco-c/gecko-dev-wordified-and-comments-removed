@@ -479,6 +479,7 @@ private
 void
 dispose
 (
+final
 boolean
 force
 )
@@ -2090,6 +2091,7 @@ public
 void
 sendSuccess
 (
+final
 Object
 response
 )
@@ -2106,6 +2108,7 @@ public
 void
 sendError
 (
+final
 Object
 response
 )

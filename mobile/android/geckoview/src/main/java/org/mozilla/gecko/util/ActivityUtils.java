@@ -78,8 +78,10 @@ static
 void
 setFullScreen
 (
+final
 Activity
 activity
+final
 boolean
 fullscreen
 )
@@ -271,6 +273,7 @@ static
 void
 goToHomeScreen
 (
+final
 Context
 context
 )
@@ -317,6 +320,7 @@ static
 Activity
 getActivityFromContext
 (
+final
 Context
 context
 )
@@ -355,6 +359,7 @@ preventDisplayStatusbar
 final
 Activity
 activity
+final
 boolean
 registering
 )
@@ -394,6 +399,7 @@ public
 void
 onSystemUiVisibilityChange
 (
+final
 int
 visibility
 )

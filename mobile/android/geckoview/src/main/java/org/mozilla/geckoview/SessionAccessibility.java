@@ -822,6 +822,7 @@ public
 AccessibilityNodeInfo
 createAccessibilityNodeInfo
 (
+final
 int
 virtualDescendantId
 )
@@ -959,8 +960,10 @@ performAction
 final
 int
 virtualViewId
+final
 int
 action
+final
 Bundle
 arguments
 )
@@ -1672,6 +1675,7 @@ public
 AccessibilityNodeInfo
 findFocus
 (
+final
 int
 focus
 )
@@ -3495,6 +3499,7 @@ public
 void
 onAccessibilityStateChanged
 (
+final
 boolean
 enabled
 )
@@ -3535,6 +3540,7 @@ public
 void
 onTouchExplorationStateChanged
 (
+final
 boolean
 enabled
 )
@@ -3565,8 +3571,10 @@ public
 void
 prefValue
 (
+final
 String
 pref
+final
 int
 value
 )

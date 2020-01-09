@@ -2138,8 +2138,10 @@ public
 void
 uncaughtException
 (
+final
 Thread
 thread
+final
 Throwable
 exc
 )

@@ -172,8 +172,10 @@ String
 >
 getFromJSON
 (
+final
 SharedPreferences
 prefs
+final
 String
 key
 )

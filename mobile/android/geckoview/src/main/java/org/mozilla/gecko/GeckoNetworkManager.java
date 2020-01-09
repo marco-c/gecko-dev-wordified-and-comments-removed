@@ -523,8 +523,10 @@ public
 void
 onReceive
 (
+final
 Context
 aContext
+final
 Intent
 aIntent
 )
@@ -607,6 +609,7 @@ synchronized
 boolean
 handleManagerEvent
 (
+final
 ManagerEvent
 event
 )
@@ -766,9 +769,11 @@ static
 ManagerState
 getNextState
 (
+final
 NonNull
 ManagerState
 currentState
+final
 NonNull
 ManagerEvent
 event
@@ -1920,8 +1925,10 @@ static
 int
 getNetworkOperator
 (
+final
 InfoType
 type
+final
 Context
 context
 )

@@ -94,6 +94,7 @@ mInput
 public
 NativeZip
 (
+final
 String
 path
 )
@@ -109,6 +110,7 @@ path
 public
 NativeZip
 (
+final
 InputStream
 input
 )
@@ -230,6 +232,7 @@ public
 InputStream
 getInputStream
 (
+final
 String
 path
 )
@@ -323,8 +326,10 @@ private
 InputStream
 createInputStream
 (
+final
 ByteBuffer
 buffer
+final
 int
 compression
 )

@@ -155,6 +155,7 @@ method
 private
 SharedMemory
 (
+final
 Parcel
 in
 )
@@ -206,6 +207,7 @@ public
 SharedMemory
 createFromParcel
 (
+final
 Parcel
 in
 )
@@ -225,6 +227,7 @@ SharedMemory
 ]
 newArray
 (
+final
 int
 size
 )
@@ -255,8 +258,10 @@ public
 void
 writeToParcel
 (
+final
 Parcel
 dest
+final
 int
 flags
 )
@@ -290,8 +295,10 @@ mId
 public
 SharedMemory
 (
+final
 int
 id
+final
 int
 size
 )
@@ -765,6 +772,7 @@ public
 boolean
 equals
 (
+final
 Object
 that
 )

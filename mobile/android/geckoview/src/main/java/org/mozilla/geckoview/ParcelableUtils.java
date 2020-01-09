@@ -20,8 +20,10 @@ static
 void
 writeBoolean
 (
+final
 Parcel
 out
+final
 boolean
 val
 )
@@ -48,6 +50,7 @@ static
 boolean
 readBoolean
 (
+final
 Parcel
 source
 )

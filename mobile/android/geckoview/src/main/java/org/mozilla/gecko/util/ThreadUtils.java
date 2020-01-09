@@ -181,6 +181,7 @@ super
 public
 UiThreadBlockedException
 (
+final
 String
 msg
 )
@@ -194,8 +195,10 @@ msg
 public
 UiThreadBlockedException
 (
+final
 String
 msg
+final
 Throwable
 e
 )
@@ -210,6 +213,7 @@ e
 public
 UiThreadBlockedException
 (
+final
 Throwable
 e
 )
@@ -327,6 +331,7 @@ static
 void
 setBackgroundThread
 (
+final
 Thread
 thread
 )
@@ -363,6 +368,7 @@ static
 void
 postToUiThread
 (
+final
 Runnable
 runnable
 )
@@ -380,8 +386,10 @@ static
 void
 postDelayedToUiThread
 (
+final
 Runnable
 runnable
+final
 long
 timeout
 )
@@ -400,6 +408,7 @@ static
 void
 removeCallbacksFromUiThread
 (
+final
 Runnable
 runnable
 )
@@ -443,6 +452,7 @@ static
 void
 postToBackgroundThread
 (
+final
 Runnable
 runnable
 )
@@ -460,8 +470,10 @@ static
 void
 postDelayedToBackgroundThread
 (
+final
 Runnable
 runnable
+final
 long
 timeout
 )
@@ -619,6 +631,7 @@ assertOnThread
 final
 Thread
 expectedThread
+final
 AssertBehavior
 behavior
 )
@@ -639,6 +652,7 @@ assertNotOnThread
 final
 Thread
 expectedThread
+final
 AssertBehavior
 behavior
 )
@@ -659,8 +673,10 @@ assertOnThreadComparison
 final
 Thread
 expectedThread
+final
 AssertBehavior
 behavior
+final
 boolean
 expected
 )
@@ -923,6 +939,7 @@ static
 boolean
 isOnThread
 (
+final
 Thread
 thread
 )
@@ -953,6 +970,7 @@ static
 void
 reduceGeckoPriority
 (
+final
 long
 timeout
 )

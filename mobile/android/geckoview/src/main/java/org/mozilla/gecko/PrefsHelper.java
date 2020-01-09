@@ -1634,8 +1634,10 @@ public
 void
 prefValue
 (
+final
 String
 pref
+final
 boolean
 value
 )
@@ -1666,8 +1668,10 @@ public
 void
 prefValue
 (
+final
 String
 pref
+final
 int
 value
 )
@@ -1698,8 +1702,10 @@ public
 void
 prefValue
 (
+final
 String
 pref
+final
 String
 value
 )

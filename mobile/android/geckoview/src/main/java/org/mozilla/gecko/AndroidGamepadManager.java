@@ -177,6 +177,7 @@ axis
 private
 Axis
 (
+final
 int
 axis
 )
@@ -211,6 +212,7 @@ button
 private
 Trigger
 (
+final
 int
 button
 )
@@ -271,10 +273,13 @@ positiveButton
 private
 DpadAxis
 (
+final
 int
 axis
+final
 int
 negativeButton
+final
 int
 positiveButton
 )
@@ -409,6 +414,7 @@ button
 private
 Button
 (
+final
 int
 button
 )
@@ -457,8 +463,10 @@ triggers
 public
 Gamepad
 (
+final
 int
 serviceId
+final
 int
 deviceId
 )
@@ -940,8 +948,10 @@ static
 void
 handleGamepadAdded
 (
+final
 int
 deviceId
+final
 int
 serviceId
 )
@@ -1031,8 +1041,10 @@ static
 float
 deadZone
 (
+final
 MotionEvent
 ev
+final
 int
 axis
 )
@@ -1068,12 +1080,16 @@ static
 void
 mapDpadAxis
 (
+final
 Gamepad
 gamepad
+final
 boolean
 pressed
+final
 float
 value
+final
 int
 which
 )
@@ -1124,6 +1140,7 @@ static
 boolean
 handleMotionEvent
 (
+final
 MotionEvent
 ev
 )
@@ -1454,6 +1471,7 @@ static
 boolean
 handleKeyEvent
 (
+final
 KeyEvent
 ev
 )
@@ -1813,6 +1831,7 @@ static
 void
 addGamepad
 (
+final
 InputDevice
 device
 )
@@ -1851,6 +1870,7 @@ static
 void
 removeGamepad
 (
+final
 int
 deviceId
 )
@@ -1999,6 +2019,7 @@ public
 void
 onInputDeviceAdded
 (
+final
 int
 deviceId
 )
@@ -2056,6 +2077,7 @@ public
 void
 onInputDeviceRemoved
 (
+final
 int
 deviceId
 )
@@ -2108,6 +2130,7 @@ public
 void
 onInputDeviceChanged
 (
+final
 int
 deviceId
 )
