@@ -228,9 +228,12 @@ nsIContentViewer
 >
 mViewer
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+mozilla
+:
+:
+PresShell
 >
 mPresShell
 ;

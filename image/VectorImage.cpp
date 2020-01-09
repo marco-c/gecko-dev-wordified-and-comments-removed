@@ -1189,9 +1189,9 @@ SVGDocumentWrapper
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =

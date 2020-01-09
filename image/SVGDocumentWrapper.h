@@ -56,9 +56,6 @@ nsSize
 h
 "
 class
-nsIPresShell
-;
-class
 nsIRequest
 ;
 class
@@ -84,6 +81,9 @@ service
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -155,7 +155,10 @@ GetRootLayoutFrame
 )
 ;
 inline
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 GetPresShell
 (
