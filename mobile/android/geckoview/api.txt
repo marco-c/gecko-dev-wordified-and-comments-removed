@@ -1022,6 +1022,15 @@ public
 static
 final
 int
+AT_FINGERPRINTING
+=
+128
+;
+field
+public
+static
+final
+int
 AT_SOCIAL
 =
 8
@@ -1033,7 +1042,7 @@ final
 int
 AT_STRICT
 =
-126
+254
 ;
 field
 public
@@ -1060,7 +1069,7 @@ final
 int
 CB_STRICT
 =
-15486
+15614
 ;
 field
 public
