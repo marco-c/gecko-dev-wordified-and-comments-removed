@@ -49,22 +49,6 @@ latest
 "
             
 "
-ssl
--
-only
-"
-:
-True
-            
-"
-add
--
-locales
-"
-:
-False
-            
-"
 paths
 "
 :
