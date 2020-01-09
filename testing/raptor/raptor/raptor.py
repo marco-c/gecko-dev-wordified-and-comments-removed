@@ -5528,6 +5528,14 @@ page
 s
 "
                          
+"
+pending
+metrics
+:
+%
+s
+"
+                         
 %
 (
 _page
@@ -5536,10 +5544,18 @@ _page
 test_name
 '
 ]
+                            
 _page
 [
 '
 url
+'
+]
+                            
+_page
+[
+'
+pending_metrics
 '
 ]
 )
