@@ -1356,12 +1356,9 @@ get
 return
 this
 .
-getAttribute
-(
-"
+messageManager
+.
 remoteType
-"
-)
 ;
 }
 configurable

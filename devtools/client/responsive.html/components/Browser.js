@@ -675,7 +675,7 @@ remote
 "
 true
 "
-remotetype
+remoteType
 :
 "
 web
