@@ -352,9 +352,15 @@ aValue
 :
 mValue
 (
+static_cast
+<
+InternalType
+>
+(
 aValue
 *
 kScale
+)
 )
 {
 MOZ_ASSERT
