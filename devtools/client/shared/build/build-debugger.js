@@ -1006,6 +1006,8 @@ client
 /
 debugger
 /
+new
+/
 dist
 /
 vendors

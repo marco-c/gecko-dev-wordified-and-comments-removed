@@ -435,6 +435,8 @@ client
 /
 debugger
 /
+new
+/
 assets
 /
 build
@@ -443,6 +445,8 @@ devtools
 client
 /
 debugger
+/
+new
 /
 assets
 /

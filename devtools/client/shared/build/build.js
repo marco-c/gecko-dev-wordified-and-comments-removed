@@ -83,6 +83,8 @@ devtools
 client
 /
 debugger
+/
+new
 "
 )
 ?

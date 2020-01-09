@@ -117,6 +117,8 @@ client
 /
 debugger
 /
+new
+/
 &
 &
 yarn
@@ -145,6 +147,8 @@ devtools
 client
 /
 debugger
+/
+new
 /
 *
 *
