@@ -154,6 +154,20 @@ attribute
 )
 ;
 const
+BigInt
+=
+require
+(
+"
+.
+/
+big
+-
+int
+"
+)
+;
+const
 DateTime
 =
 require
@@ -437,6 +451,7 @@ Undefined
 Null
 StringRep
 Number
+BigInt
 SymbolRep
 InfinityRep
 NaNRep
@@ -571,6 +586,7 @@ Accessible
 Accessor
 ArrayRep
 Attribute
+BigInt
 CommentNode
 DateTime
 Document
