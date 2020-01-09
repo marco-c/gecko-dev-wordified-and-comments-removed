@@ -1,8 +1,3 @@
-setCachingEnabled
-(
-true
-)
-;
 var
 code
 =
@@ -10,11 +5,6 @@ code
 setIonCheckGraphCoherency
 (
 false
-)
-;
-setCachingEnabled
-(
-true
 )
 ;
 load
@@ -96,14 +86,6 @@ assertEq
 results
 .
 asmJSValidated
-true
-)
-;
-assertEq
-(
-results
-.
-loadedFromCache
 true
 )
 ;

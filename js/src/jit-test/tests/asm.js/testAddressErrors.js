@@ -14,11 +14,6 @@ setIonCheckGraphCoherency
 false
 )
 ;
-setCachingEnabled
-(
-false
-)
-;
 var
 buf
 =

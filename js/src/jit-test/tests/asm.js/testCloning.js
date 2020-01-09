@@ -9,11 +9,6 @@ js
 "
 )
 ;
-setCachingEnabled
-(
-true
-)
-;
 var
 code
 =

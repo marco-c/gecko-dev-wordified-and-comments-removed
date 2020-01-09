@@ -126,11 +126,6 @@ enable
 0
 )
 ;
-setCachingEnabled
-(
-true
-)
-;
 var
 callFFI
 =
@@ -226,11 +221,6 @@ if
 isAsmJSCompilationAvailable
 (
 )
-&
-&
-isCachingEnabled
-(
-)
 )
 {
 var
@@ -273,7 +263,7 @@ f
 ;
 assertEq
 (
-isAsmJSModuleLoadedFromCache
+isAsmJSModule
 (
 callFFI
 )
