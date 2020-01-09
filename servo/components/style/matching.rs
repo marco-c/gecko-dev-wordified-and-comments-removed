@@ -1846,7 +1846,7 @@ contains
 TraversalFlags
 :
 :
-Forgetful
+FinalAnimationTraversal
 )
 )
 ;
@@ -2884,7 +2884,7 @@ contains
 TraversalFlags
 :
 :
-Forgetful
+FinalAnimationTraversal
 )
 {
 return

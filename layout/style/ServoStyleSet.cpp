@@ -4243,12 +4243,7 @@ AnimationOnly
 ServoTraversalFlags
 :
 :
-Forgetful
-|
-ServoTraversalFlags
-:
-:
-ClearAnimationOnlyDirtyDescendants
+FinalAnimationTraversal
 )
 ;
 MOZ_ASSERT
