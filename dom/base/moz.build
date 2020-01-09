@@ -187,6 +187,11 @@ nsIRemoteWindowContext
 idl
 '
 '
+nsIScriptableContentIterator
+.
+idl
+'
+'
 nsIScriptChannel
 .
 idl
@@ -711,6 +716,11 @@ h
 '
 '
 RangeBoundary
+.
+h
+'
+'
+ScriptableContentIterator
 .
 h
 '
@@ -1923,6 +1933,11 @@ cpp
 '
 '
 ScreenOrientation
+.
+cpp
+'
+'
+ScriptableContentIterator
 .
 cpp
 '
