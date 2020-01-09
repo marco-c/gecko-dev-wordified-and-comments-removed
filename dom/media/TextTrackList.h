@@ -214,11 +214,6 @@ TextTrack
 aTrack
 )
 ;
-void
-DidSeek
-(
-)
-;
 HTMLMediaElement
 *
 GetMediaElement
