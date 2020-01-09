@@ -218,11 +218,6 @@ actors
 js
 '
 '
-DelayedInit
-.
-jsm
-'
-'
 DownloadNotifications
 .
 jsm
