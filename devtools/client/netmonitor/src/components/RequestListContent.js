@@ -1964,6 +1964,7 @@ props
 blockSelectedRequestURL
 :
 (
+clickedRequest
 )
 =
 >
@@ -1977,6 +1978,7 @@ blockSelectedRequestURL
 props
 .
 connector
+clickedRequest
 )
 )
 ;
@@ -2051,6 +2053,7 @@ open
 unblockSelectedRequestURL
 :
 (
+clickedRequest
 )
 =
 >
@@ -2064,6 +2067,7 @@ unblockSelectedRequestURL
 props
 .
 connector
+clickedRequest
 )
 )
 ;
