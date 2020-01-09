@@ -647,6 +647,11 @@ IntrinsicTypedArrayByteOffset
 \
 _
 (
+IntrinsicTypedArrayElementShift
+)
+\
+_
+(
 IntrinsicSetDisjointTypedElements
 )
 \
