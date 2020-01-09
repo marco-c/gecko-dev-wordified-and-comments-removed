@@ -504,6 +504,12 @@ OwnedOrNull
 "
 Strong
 "
+"
+Color
+"
+"
+ColorOrAuto
+"
 ]
 item_types
 =
