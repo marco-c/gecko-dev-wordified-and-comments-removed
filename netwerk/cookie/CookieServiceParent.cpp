@@ -856,9 +856,6 @@ IsTrackingResource
 ;
 if
 (
-isForeign
-&
-&
 AntiTrackingCommon
 :
 :
