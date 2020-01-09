@@ -138,7 +138,7 @@ value
 )
 ;
 }
-putMany
+writeMany
 (
 pairs
 )
@@ -154,7 +154,7 @@ new
 Error
 (
 "
-putMany
+writeMany
 (
 )
 :
@@ -248,7 +248,7 @@ new
 Error
 (
 "
-putMany
+writeMany
 (
 )
 :
@@ -311,7 +311,7 @@ new
 Error
 (
 "
-putMany
+writeMany
 (
 )
 :
@@ -336,7 +336,7 @@ this
 .
 database
 .
-putMany
+writeMany
 entries
 )
 ;
