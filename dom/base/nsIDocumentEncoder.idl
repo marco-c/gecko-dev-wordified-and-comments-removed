@@ -1778,6 +1778,17 @@ mime
 type
 .
 *
+Resets
+wrap
+column
+to
+72
+and
+resets
+node
+fixup
+.
+*
 param
 aDocument
 Document
