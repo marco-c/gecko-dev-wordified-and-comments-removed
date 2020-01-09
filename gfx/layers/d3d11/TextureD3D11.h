@@ -463,6 +463,13 @@ OpenMode
 aMode
 )
 ;
+friend
+class
+gl
+:
+:
+GLBlitHelper
+;
 bool
 SerializeSpecific
 (

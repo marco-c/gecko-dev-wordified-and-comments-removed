@@ -204,15 +204,7 @@ D3D11TextureData
 *
 textureData
 =
-mTextureClient
--
->
-GetInternalData
-(
-)
--
->
-AsD3D11TextureData
+GetData
 (
 )
 ;
