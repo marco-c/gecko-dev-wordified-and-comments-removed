@@ -40,10 +40,6 @@ ImportError
 import
 which
 from
-StringIO
-import
-StringIO
-from
 mach
 .
 mixin
@@ -1657,6 +1653,8 @@ env_mozconfig
         
 out
 =
+six
+.
 StringIO
 (
 )
