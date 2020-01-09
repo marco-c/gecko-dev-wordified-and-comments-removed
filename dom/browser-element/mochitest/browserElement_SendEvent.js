@@ -79,6 +79,12 @@ e
 {
 iframe
 .
+getBoundingClientRect
+(
+)
+;
+iframe
+.
 sendMouseEvent
 (
 "
