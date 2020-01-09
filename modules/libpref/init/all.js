@@ -7906,7 +7906,7 @@ picture
 -
 caching
 "
-false
+true
 )
 ;
 #
