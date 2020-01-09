@@ -105,6 +105,9 @@ undefined
 offset
 :
 location
+index
+:
+0
 }
 ;
 }
@@ -152,6 +155,11 @@ column
 :
 undefined
 }
+index
+:
+scope
+.
+index
 }
 ;
 }
@@ -163,6 +171,9 @@ undefined
 offset
 :
 location
+index
+:
+0
 }
 ;
 }
@@ -178,6 +189,9 @@ name
 :
 ?
 string
+index
+:
+number
 )
 {
 const
@@ -213,6 +227,15 @@ name
 =
 =
 name
+&
+&
+node
+.
+index
+=
+=
+=
+index
 )
 ;
 }

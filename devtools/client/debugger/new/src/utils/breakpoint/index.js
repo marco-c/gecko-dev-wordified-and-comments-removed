@@ -634,6 +634,9 @@ undefined
 offset
 :
 location
+index
+:
+0
 }
 ;
 const
