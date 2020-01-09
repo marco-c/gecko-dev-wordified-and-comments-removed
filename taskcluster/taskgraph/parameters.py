@@ -51,7 +51,7 @@ util
 .
 attributes
 import
-RELEASE_PROJECTS
+release_level
 class
 ParameterMismatch
 (
@@ -1229,22 +1229,15 @@ staging
 "
         
 return
-'
-production
-'
-if
+release_level
+(
 self
 [
 '
 project
 '
 ]
-in
-RELEASE_PROJECTS
-else
-'
-staging
-'
+)
 def
 load_parameters_file
 (
