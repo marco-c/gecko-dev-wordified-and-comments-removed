@@ -74,6 +74,7 @@ util
 .
 Log
 ;
+public
 final
 class
 GeckoFontScaleListener

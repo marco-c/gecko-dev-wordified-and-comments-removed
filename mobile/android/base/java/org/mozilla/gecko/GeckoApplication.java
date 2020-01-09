@@ -1269,17 +1269,6 @@ GeckoPreferences
 PREFS_SYSTEM_FONT_SIZE
 )
 ;
-GeckoFontScaleListener
-.
-getInstance
-(
-)
-.
-attachToContext
-(
-this
-)
-;
 }
 private
 static
