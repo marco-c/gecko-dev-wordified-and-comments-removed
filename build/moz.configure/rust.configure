@@ -1917,7 +1917,9 @@ rust_host
 :
 configure_host
 =
-host_alias
+host
+.
+alias
 else
 :
 configure_host

@@ -1509,7 +1509,6 @@ toolchain_format
 (
 ndk
 target_base
-version
 host
 .
 kernel
@@ -2295,7 +2294,7 @@ not
 ndk
 :
 return
-llvm_path
+llvm_format
 =
 '
 %
@@ -2315,6 +2314,9 @@ s
 /
 bin
 '
+llvm_path
+=
+llvm_format
 %
 (
 ndk
@@ -2347,7 +2349,7 @@ x86_64
 :
 llvm_path
 =
-toolchain_format
+llvm_format
 %
 (
 ndk
