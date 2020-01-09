@@ -1,6 +1,4 @@
 import
-copy
-import
 httplib2
 import
 os
@@ -152,8 +150,7 @@ GET
         
 if
 dest
-=
-=
+is
 None
 :
             

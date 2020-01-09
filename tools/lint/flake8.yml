@@ -244,6 +244,11 @@ talos
 -
 testing
 /
+tps
+/
+-
+testing
+/
 xpcshell
 -
 toolkit

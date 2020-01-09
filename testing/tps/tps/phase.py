@@ -241,7 +241,6 @@ set_preferences
 (
 prefs
 )
-;
         
 self
 .

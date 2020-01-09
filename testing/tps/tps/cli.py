@@ -196,23 +196,23 @@ unused
 -
 engines
 '
-                       
+                      
 default
 =
 False
-                       
+                      
 action
 =
 '
 store_true
 '
-                       
+                      
 dest
 =
 '
 ignore_unused_engines
 '
-                       
+                      
 help
 =
 '
@@ -228,7 +228,7 @@ individual
 tests
 .
 '
-                            
+                      
 '
 Has
 no
@@ -967,7 +967,7 @@ stop_on_error
 options
 .
 stop_on_error
-                      
+                        
 )
     
 TPS

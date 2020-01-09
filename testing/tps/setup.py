@@ -97,7 +97,7 @@ mozversion
 .
 5
 '
-       
+        
 ]
 assert
 sys
@@ -168,7 +168,7 @@ Python
 .
 7
 '
-		   
+                   
 '
 Programming
 Language
@@ -182,7 +182,7 @@ Python
 :
 Only
 '
-		  
+                   
 ]
       
 keywords
