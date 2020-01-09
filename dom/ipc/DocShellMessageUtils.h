@@ -40,6 +40,7 @@ struct
 IPDLParamTraits
 <
 nsDocShellLoadState
+*
 >
 {
 static

@@ -37,6 +37,7 @@ struct
 ParamTraits
 <
 nsIContentSecurityPolicy
+*
 >
 {
 static

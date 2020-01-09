@@ -1448,6 +1448,7 @@ dom
 :
 :
 BlobImpl
+*
 >
 :
 :
@@ -1560,6 +1561,7 @@ dom
 :
 :
 BlobImpl
+*
 >
 :
 :

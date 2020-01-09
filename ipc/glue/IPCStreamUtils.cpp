@@ -2082,6 +2082,7 @@ void
 IPDLParamTraits
 <
 nsIInputStream
+*
 >
 :
 :
@@ -2402,6 +2403,7 @@ bool
 IPDLParamTraits
 <
 nsIInputStream
+*
 >
 :
 :

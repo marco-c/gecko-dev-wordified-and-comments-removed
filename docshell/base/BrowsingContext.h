@@ -1829,6 +1829,7 @@ dom
 :
 :
 BrowsingContext
+*
 >
 {
 static

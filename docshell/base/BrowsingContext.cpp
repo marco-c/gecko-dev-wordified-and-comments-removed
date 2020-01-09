@@ -4821,6 +4821,7 @@ dom
 :
 :
 BrowsingContext
+*
 >
 :
 :
@@ -4894,6 +4895,7 @@ dom
 :
 :
 BrowsingContext
+*
 >
 :
 :

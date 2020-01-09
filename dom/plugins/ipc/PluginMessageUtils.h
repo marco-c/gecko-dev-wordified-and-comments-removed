@@ -1919,6 +1919,7 @@ struct
 ParamTraits
 <
 NPNSString
+*
 >
 {
 static

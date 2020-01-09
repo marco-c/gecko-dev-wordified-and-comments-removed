@@ -30,6 +30,7 @@ void
 ParamTraits
 <
 nsIReferrerInfo
+*
 >
 :
 :
@@ -109,6 +110,7 @@ bool
 ParamTraits
 <
 nsIReferrerInfo
+*
 >
 :
 :

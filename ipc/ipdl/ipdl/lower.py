@@ -13082,6 +13082,12 @@ inner
 fortype
 .
 inner
+                                    
+ptr
+=
+fortype
+.
+ptr
 )
                    
 struct

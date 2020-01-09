@@ -37,6 +37,7 @@ struct
 ParamTraits
 <
 nsIDOMGeoPositionCoords
+*
 >
 {
 static
@@ -347,6 +348,7 @@ struct
 ParamTraits
 <
 nsIDOMGeoPosition
+*
 >
 {
 static

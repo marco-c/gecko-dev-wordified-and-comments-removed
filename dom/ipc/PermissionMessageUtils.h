@@ -144,6 +144,7 @@ struct
 IPDLParamTraits
 <
 nsIPrincipal
+*
 >
 {
 static
