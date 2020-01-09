@@ -7525,6 +7525,12 @@ case
 DisplayItemType
 :
 :
+TYPE_MASK
+:
+case
+DisplayItemType
+:
+:
 TYPE_PERSPECTIVE
 :
 {
