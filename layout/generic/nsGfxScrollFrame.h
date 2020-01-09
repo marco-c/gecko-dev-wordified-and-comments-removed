@@ -863,7 +863,7 @@ mApzScrollPos
 ;
 }
 nsRect
-GetScrollRange
+GetLayoutScrollRange
 (
 )
 const
@@ -3530,7 +3530,7 @@ override
 return
 mHelper
 .
-GetScrollRange
+GetLayoutScrollRange
 (
 )
 ;
@@ -5862,7 +5862,7 @@ override
 return
 mHelper
 .
-GetScrollRange
+GetLayoutScrollRange
 (
 )
 ;
