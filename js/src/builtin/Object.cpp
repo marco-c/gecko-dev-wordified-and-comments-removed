@@ -2678,9 +2678,10 @@ RootedObject
 unwrapped
 (
 cx
-CheckedUnwrap
+CheckedUnwrapDynamic
 (
 obj
+cx
 )
 )
 ;
