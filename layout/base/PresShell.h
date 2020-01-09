@@ -1710,6 +1710,12 @@ bool
 aInterruptible
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+DoScrollContentIntoView
+(
+)
+;
 void
 SetupFontInflation
 (
@@ -3711,6 +3717,12 @@ nsCOMPtr
 nsIContent
 >
 mLastAnchorScrolledTo
+;
+nsCOMPtr
+<
+nsIContent
+>
+mContentToScrollTo
 ;
 uint64_t
 mAPZFocusSequenceNumber

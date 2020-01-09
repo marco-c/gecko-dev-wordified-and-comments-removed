@@ -4056,11 +4056,6 @@ mReflowCountMgr
 #
 endif
 void
-DoScrollContentIntoView
-(
-)
-;
-void
 AddUserSheet
 (
 mozilla
@@ -4317,12 +4312,6 @@ mAllocatedPointers
 ;
 #
 endif
-nsCOMPtr
-<
-nsIContent
->
-mContentToScrollTo
-;
 uint64_t
 mPaintCount
 ;
