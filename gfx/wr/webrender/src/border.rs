@@ -32,7 +32,6 @@ DeviceVector2D
 DevicePoint
 LayoutRect
 LayoutSize
-NormalBorder
 DeviceIntSize
 }
 ;
@@ -46,6 +45,14 @@ LayoutPoint
 RepeatMode
 TexelRect
 }
+;
+use
+api
+:
+:
+NormalBorder
+as
+ApiNormalBorder
 ;
 use
 ellipse
@@ -92,8 +99,16 @@ prim_store
 {
 EdgeAaSegmentMask
 ScrollNodeAndClipChain
-PrimitiveKeyKind
 }
+;
+use
+prim_store
+:
+:
+borders
+:
+:
+NormalBorderPrim
 ;
 use
 util
@@ -624,7 +639,7 @@ b
 impl
 From
 <
-NormalBorder
+ApiNormalBorder
 >
 for
 NormalBorderAu
@@ -634,7 +649,7 @@ from
 (
 border
 :
-NormalBorder
+ApiNormalBorder
 )
 -
 >
@@ -701,7 +716,7 @@ From
 NormalBorderAu
 >
 for
-NormalBorder
+ApiNormalBorder
 {
 fn
 from
@@ -714,7 +729,7 @@ NormalBorderAu
 >
 Self
 {
-NormalBorder
+ApiNormalBorder
 {
 left
 :
@@ -1122,7 +1137,7 @@ LayoutPrimitiveInfo
 border
 :
 &
-NormalBorder
+ApiNormalBorder
 widths
 :
 LayoutSideOffsets
@@ -1164,10 +1179,7 @@ Vec
 new
 (
 )
-PrimitiveKeyKind
-:
-:
-NormalBorder
+NormalBorderPrim
 {
 border
 :
@@ -3314,7 +3326,7 @@ LayoutSize
 border
 :
 &
-NormalBorder
+ApiNormalBorder
 widths
 :
 &
@@ -5507,7 +5519,7 @@ DeviceIntSize
 border
 :
 &
-NormalBorder
+ApiNormalBorder
 scale
 :
 LayoutToDeviceScale
