@@ -250,7 +250,7 @@ GetTimeContainer
 )
 ;
 virtual
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 AnimationFunction
 (

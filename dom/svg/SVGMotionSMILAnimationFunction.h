@@ -27,7 +27,9 @@ h
 #
 include
 "
-nsSMILAnimationFunction
+mozilla
+/
+SMILAnimationFunction
 .
 h
 "
@@ -75,7 +77,7 @@ SVGMotionSMILAnimationFunction
 final
 :
 public
-nsSMILAnimationFunction
+SMILAnimationFunction
 {
 typedef
 mozilla

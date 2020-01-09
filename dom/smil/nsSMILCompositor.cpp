@@ -147,7 +147,7 @@ nsSMILCompositor
 :
 AddAnimationFunction
 (
-nsSMILAnimationFunction
+SMILAnimationFunction
 *
 aFunc
 )
@@ -256,7 +256,7 @@ true
 return
 ;
 }
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 Comparator
@@ -668,7 +668,7 @@ false
 for
 (
 const
-nsSMILAnimationFunction
+SMILAnimationFunction
 *
 func
 :
@@ -749,7 +749,7 @@ i
 i
 )
 {
-nsSMILAnimationFunction
+SMILAnimationFunction
 *
 curAnimFunc
 =

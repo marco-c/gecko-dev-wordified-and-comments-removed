@@ -39,7 +39,7 @@ h
 #
 include
 "
-nsSMILAnimationFunction
+SMILAnimationFunction
 .
 h
 "
@@ -209,7 +209,10 @@ false
 void
 AddAnimationFunction
 (
-nsSMILAnimationFunction
+mozilla
+:
+:
+SMILAnimationFunction
 *
 aFunc
 )
@@ -317,7 +320,10 @@ mKey
 ;
 nsTArray
 <
-nsSMILAnimationFunction
+mozilla
+:
+:
+SMILAnimationFunction
 *
 >
 mAnimationFunctions

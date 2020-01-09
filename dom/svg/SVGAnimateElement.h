@@ -27,7 +27,9 @@ h
 #
 include
 "
-nsSMILAnimationFunction
+mozilla
+/
+SMILAnimationFunction
 .
 h
 "
@@ -86,7 +88,7 @@ NodeInfo
 aNodeInfo
 )
 ;
-nsSMILAnimationFunction
+SMILAnimationFunction
 mAnimationFunction
 ;
 friend
@@ -156,7 +158,7 @@ const
 override
 ;
 virtual
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 AnimationFunction
 (

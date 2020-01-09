@@ -1,7 +1,7 @@
 #
 include
 "
-nsSMILAnimationFunction
+SMILAnimationFunction
 .
 h
 "
@@ -135,11 +135,14 @@ mozilla
 :
 dom
 ;
+namespace
+mozilla
+{
 nsAttrValue
 :
 :
 EnumTable
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 sAccumulateTable
@@ -169,7 +172,7 @@ nsAttrValue
 :
 :
 EnumTable
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 sAdditiveTable
@@ -199,7 +202,7 @@ nsAttrValue
 :
 :
 EnumTable
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 sCalcModeTable
@@ -244,10 +247,10 @@ COMPUTE_DISTANCE_ERROR
 -
 1
 )
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
-nsSMILAnimationFunction
+SMILAnimationFunction
 (
 )
 :
@@ -303,7 +306,7 @@ false
 {
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetAnimationElement
@@ -319,7 +322,7 @@ aAnimationElement
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetAttr
@@ -530,7 +533,7 @@ foundMatch
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetAttr
@@ -685,7 +688,7 @@ foundMatch
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SampleAt
@@ -767,7 +770,7 @@ false
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SampleLastValue
@@ -806,7 +809,7 @@ true
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 Activate
@@ -833,7 +836,7 @@ true
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 Inactivate
@@ -856,7 +859,7 @@ true
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 ComposeResult
@@ -1143,13 +1146,13 @@ result
 }
 }
 int8_t
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 CompareTo
 (
 const
-nsSMILAnimationFunction
+SMILAnimationFunction
 *
 aOther
 )
@@ -1337,7 +1340,7 @@ mAnimationElement
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 WillReplace
@@ -1364,7 +1367,7 @@ IsToAnimation
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 HasChanged
@@ -1380,7 +1383,7 @@ mValueNeedsReparsingEverySample
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UpdateCachedTarget
@@ -1415,7 +1418,7 @@ false
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 InterpolateResult
@@ -2084,7 +2087,7 @@ rv
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 AccumulateResult
@@ -2144,7 +2147,7 @@ NS_OK
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 ComputePacedPosition
@@ -2552,7 +2555,7 @@ NS_ERROR_FAILURE
 ;
 }
 double
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 ComputePacedTotalDistance
@@ -2692,7 +2695,7 @@ totalDistance
 ;
 }
 double
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 ScaleSimpleProgress
@@ -2897,7 +2900,7 @@ numTimes
 ;
 }
 double
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 ScaleIntervalProgress
@@ -2970,7 +2973,7 @@ aProgress
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 HasAttr
@@ -2994,7 +2997,7 @@ aAttName
 const
 nsAttrValue
 *
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 GetAttr
@@ -3016,7 +3019,7 @@ aAttName
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 GetAttr
@@ -3042,7 +3045,7 @@ aResult
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 ParseAttr
@@ -3119,7 +3122,7 @@ true
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 GetValues
@@ -3288,9 +3291,6 @@ result
 SetCapacity
 (
 2
-mozilla
-:
-:
 fallible
 )
 )
@@ -3326,9 +3326,6 @@ result
 AppendElement
 (
 from
-mozilla
-:
-:
 fallible
 )
 )
@@ -3340,9 +3337,6 @@ result
 AppendElement
 (
 to
-mozilla
-:
-:
 fallible
 )
 )
@@ -3357,9 +3351,6 @@ result
 AppendElement
 (
 to
-mozilla
-:
-:
 fallible
 )
 )
@@ -3405,9 +3396,6 @@ result
 AppendElement
 (
 effectiveFrom
-mozilla
-:
-:
 fallible
 )
 )
@@ -3446,9 +3434,6 @@ result
 AppendElement
 (
 effectiveTo
-mozilla
-:
-:
 fallible
 )
 )
@@ -3480,7 +3465,7 @@ NS_OK
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 CheckValueListDependentAttrs
@@ -3501,7 +3486,7 @@ aNumValues
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 CheckKeyTimes
@@ -3662,7 +3647,7 @@ false
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 CheckKeySplines
@@ -3805,7 +3790,7 @@ false
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 IsValueFixedForSimpleDuration
@@ -3831,7 +3816,7 @@ mPrevSampleWasSingleValueAnimation
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 GetAccumulate
@@ -3870,7 +3855,7 @@ GetEnumValue
 ;
 }
 bool
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 GetAdditive
@@ -3908,11 +3893,11 @@ GetEnumValue
 )
 ;
 }
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 nsSMILCalcMode
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 GetCalcMode
@@ -3954,7 +3939,7 @@ GetEnumValue
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetAccumulate
@@ -3999,7 +3984,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetAccumulate
@@ -4017,7 +4002,7 @@ true
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetAdditive
@@ -4062,7 +4047,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetAdditive
@@ -4080,7 +4065,7 @@ true
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetCalcMode
@@ -4125,7 +4110,7 @@ NS_ERROR_FAILURE
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetCalcMode
@@ -4143,7 +4128,7 @@ true
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetKeySplines
@@ -4202,7 +4187,7 @@ NS_OK
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetKeySplines
@@ -4226,7 +4211,7 @@ true
 ;
 }
 nsresult
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetKeyTimes
@@ -4286,7 +4271,7 @@ NS_OK
 ;
 }
 void
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetKeyTimes
@@ -4308,4 +4293,5 @@ mHasChanged
 =
 true
 ;
+}
 }

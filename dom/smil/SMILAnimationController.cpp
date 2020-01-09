@@ -2397,7 +2397,7 @@ key
 )
 return
 ;
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 func
 =

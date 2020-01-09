@@ -156,7 +156,7 @@ const
 override
 ;
 virtual
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 AnimationFunction
 (

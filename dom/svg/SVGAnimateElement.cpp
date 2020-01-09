@@ -99,7 +99,7 @@ NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
 SVGAnimateElement
 )
-nsSMILAnimationFunction
+SMILAnimationFunction
 &
 SVGAnimateElement
 :

@@ -463,7 +463,7 @@ NS_OK
 else
 {
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetAttr
@@ -580,7 +580,7 @@ aAttribute
 else
 {
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetAttr
@@ -593,7 +593,7 @@ return
 true
 ;
 }
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 nsSMILCalcMode
@@ -1671,7 +1671,7 @@ uint32_t
 aNumValues
 )
 {
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 CheckValueListDependentAttrs
@@ -1711,7 +1711,7 @@ path
 )
 &
 &
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 IsToAnimation

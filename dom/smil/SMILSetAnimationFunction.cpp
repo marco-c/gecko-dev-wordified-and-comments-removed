@@ -1,13 +1,16 @@
 #
 include
 "
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 .
 h
 "
+namespace
+mozilla
+{
 inline
 bool
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 :
 :
 IsDisallowedAttribute
@@ -102,7 +105,7 @@ false
 ;
 }
 bool
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 :
 :
 SetAttr
@@ -153,7 +156,7 @@ true
 ;
 }
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 SetAttr
@@ -166,7 +169,7 @@ aParseResult
 ;
 }
 bool
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 :
 :
 UnsetAttr
@@ -189,7 +192,7 @@ true
 ;
 }
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 UnsetAttr
@@ -199,7 +202,7 @@ aAttribute
 ;
 }
 bool
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 :
 :
 HasAttr
@@ -221,7 +224,7 @@ return
 false
 ;
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 HasAttr
@@ -233,7 +236,7 @@ aAttName
 const
 nsAttrValue
 *
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 :
 :
 GetAttr
@@ -255,7 +258,7 @@ return
 nullptr
 ;
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 GetAttr
@@ -265,7 +268,7 @@ aAttName
 ;
 }
 bool
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 :
 :
 GetAttr
@@ -290,7 +293,7 @@ return
 false
 ;
 return
-nsSMILAnimationFunction
+SMILAnimationFunction
 :
 :
 GetAttr
@@ -301,7 +304,7 @@ aResult
 ;
 }
 bool
-nsSMILSetAnimationFunction
+SMILSetAnimationFunction
 :
 :
 WillReplace
@@ -312,4 +315,5 @@ const
 return
 true
 ;
+}
 }
