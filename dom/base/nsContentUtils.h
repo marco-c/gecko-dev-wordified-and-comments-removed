@@ -5053,16 +5053,6 @@ ShouldResistFingerprinting
 }
 static
 bool
-UseActivityCursor
-(
-)
-{
-return
-sUseActivityCursor
-;
-}
-static
-bool
 AnimationsAPICoreEnabled
 (
 )
@@ -7594,10 +7584,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sUseActivityCursor
 ;
 static
 bool

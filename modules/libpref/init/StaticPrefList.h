@@ -5598,6 +5598,17 @@ false
 VARCACHE_PREF
 (
 "
+ui
+.
+use_activity_cursor
+"
+ui_use_activity_cursor
+bool
+false
+)
+VARCACHE_PREF
+(
+"
 channelclassifier
 .
 allowlist_example

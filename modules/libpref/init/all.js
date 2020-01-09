@@ -20705,16 +20705,6 @@ false
 pref
 (
 "
-ui
-.
-use_activity_cursor
-"
-false
-)
-;
-pref
-(
-"
 middlemouse
 .
 paste

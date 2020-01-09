@@ -27532,10 +27532,10 @@ STATE_RESTORING
 {
 if
 (
-nsContentUtils
+StaticPrefs
 :
 :
-UseActivityCursor
+ui_use_activity_cursor
 (
 )
 )
@@ -27627,10 +27627,10 @@ BUSY_FLAGS_NONE
 ;
 if
 (
-nsContentUtils
+StaticPrefs
 :
 :
-UseActivityCursor
+ui_use_activity_cursor
 (
 )
 )
