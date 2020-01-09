@@ -601,8 +601,8 @@ private
 enum
 Modifier
 {
-None
-Operand
+SlashIsDiv
+SlashIsRegExp
 TemplateTail
 }
 ;
@@ -610,7 +610,7 @@ enum
 ModifierException
 {
 NoException
-OperandIsNone
+SlashIsRegExpOK
 }
 ;
 friend
@@ -1108,22 +1108,22 @@ Modifier
 static
 constexpr
 Modifier
-None
+SlashIsDiv
 =
 Token
 :
 :
-None
+SlashIsDiv
 ;
 static
 constexpr
 Modifier
-Operand
+SlashIsRegExp
 =
 Token
 :
 :
-Operand
+SlashIsRegExp
 ;
 static
 constexpr
@@ -1156,12 +1156,12 @@ NoException
 static
 constexpr
 ModifierException
-OperandIsNone
+SlashIsRegExpOK
 =
 Token
 :
 :
-OperandIsNone
+SlashIsRegExpOK
 ;
 static
 void
@@ -1196,7 +1196,7 @@ lookaheadToken
 modifierException
 =
 =
-OperandIsNone
+SlashIsRegExpOK
 )
 {
 if
@@ -1204,7 +1204,7 @@ if
 modifier
 =
 =
-Operand
+SlashIsRegExp
 &
 &
 lookaheadToken
@@ -1212,7 +1212,7 @@ lookaheadToken
 modifier
 =
 =
-None
+SlashIsDiv
 )
 {
 return
@@ -1898,7 +1898,7 @@ modifierException
 )
 {
 case
-OperandIsNone
+SlashIsRegExpOK
 :
 MOZ_ASSERT
 (
@@ -1907,7 +1907,7 @@ next
 modifier
 =
 =
-None
+SlashIsDiv
 )
 ;
 MOZ_ASSERT
@@ -6885,7 +6885,7 @@ start
 TokenStreamShared
 :
 :
-Operand
+SlashIsRegExp
 out
 )
 ;
@@ -8769,7 +8769,7 @@ ttp
 Modifier
 modifier
 =
-None
+SlashIsDiv
 )
 {
 TokenStreamAnyChars
@@ -8871,7 +8871,7 @@ ttp
 Modifier
 modifier
 =
-None
+SlashIsDiv
 )
 {
 TokenStreamAnyChars
@@ -8960,7 +8960,7 @@ posp
 Modifier
 modifier
 =
-None
+SlashIsDiv
 )
 {
 TokenStreamAnyChars
@@ -9063,7 +9063,7 @@ offset
 Modifier
 modifier
 =
-None
+SlashIsDiv
 )
 {
 TokenPos
@@ -9106,7 +9106,7 @@ ttp
 Modifier
 modifier
 =
-None
+SlashIsDiv
 )
 {
 TokenStreamAnyChars
@@ -9311,7 +9311,7 @@ tt
 Modifier
 modifier
 =
-None
+SlashIsDiv
 )
 {
 TokenKind
@@ -9374,7 +9374,7 @@ tt
 Modifier
 modifier
 =
-None
+SlashIsDiv
 )
 {
 bool
@@ -9461,7 +9461,7 @@ anyCharsAccess
 .
 addModifierException
 (
-OperandIsNone
+SlashIsRegExpOK
 )
 ;
 }

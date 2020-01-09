@@ -3067,7 +3067,7 @@ excpected
 TokenStream
 :
 :
-None
+SlashIsDiv
 errorNumber
 )
 ;
@@ -3094,7 +3094,7 @@ condition
 TokenStream
 :
 :
-None
+SlashIsDiv
 [
 this
 errorNumber
@@ -3177,7 +3177,7 @@ expected
 TokenStream
 :
 :
-None
+SlashIsDiv
 errorReport
 )
 ;

@@ -3486,7 +3486,7 @@ tk
 TokenStreamShared
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -3566,7 +3566,7 @@ tk
 TokenStream
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -3599,7 +3599,7 @@ Semi
 TokenStreamShared
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 }
@@ -11208,7 +11208,7 @@ pos
 TokenStreamShared
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 ;
@@ -17058,7 +17058,7 @@ String
 TokenStreamShared
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
@@ -34236,7 +34236,7 @@ Function
 TokenStreamShared
 :
 :
-Operand
+SlashIsRegExp
 )
 ;
 auto
@@ -34292,7 +34292,7 @@ tk
 TokenStreamShared
 :
 :
-Operand
+SlashIsRegExp
 )
 )
 {
