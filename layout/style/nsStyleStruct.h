@@ -8079,7 +8079,10 @@ mIsolation
 uint8_t
 mTopLayer
 ;
-uint8_t
+mozilla
+:
+:
+StyleWillChangeBits
 mWillChangeBitField
 ;
 nsTArray
@@ -9497,7 +9500,10 @@ NS_STYLE_TRANSFORM_STYLE_PRESERVE_3D
 (
 mWillChangeBitField
 &
-NS_STYLE_WILL_CHANGE_TRANSFORM
+mozilla
+:
+:
+StyleWillChangeBits_TRANSFORM
 )
 |
 |

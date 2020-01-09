@@ -818,7 +818,10 @@ if
 (
 mWillChangeBitField
 &
-NS_STYLE_WILL_CHANGE_FIXPOS_CB
+mozilla
+:
+:
+StyleWillChangeBits_FIXPOS_CB
 )
 {
 return
@@ -1043,7 +1046,10 @@ IsRelativelyPositionedStyle
 (
 mWillChangeBitField
 &
-NS_STYLE_WILL_CHANGE_ABSPOS_CB
+mozilla
+:
+:
+StyleWillChangeBits_ABSPOS_CB
 )
 ;
 }
