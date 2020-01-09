@@ -35,7 +35,7 @@ vs2017_15
 .
 9
 .
-0p5
+6
 "
 fi
 if
@@ -85,8 +85,6 @@ VSPATH
 VC
 /
 redist
-/
-onecore
 /
 arm64
 /
