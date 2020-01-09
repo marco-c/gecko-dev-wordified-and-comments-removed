@@ -1514,7 +1514,7 @@ h
 common
 BITDEPTH
 8
-10
+16
 relative_path
 =
 '
@@ -1600,7 +1600,7 @@ GENERATED_FILES
 =
 [
 '
-10bd_
+16bd_
 %
 s
 '
@@ -1621,7 +1621,7 @@ a
 GENERATED_FILES
 [
 '
-10bd_
+16bd_
 %
 s
 '
@@ -1657,7 +1657,7 @@ flags
 BITDEPTH
 '
 '
-10
+16
 '
 ]
 GENERATED_FILES

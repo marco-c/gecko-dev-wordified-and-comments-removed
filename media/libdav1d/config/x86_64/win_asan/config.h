@@ -23,7 +23,7 @@ ARCH_X86_64
 1
 #
 define
-CONFIG_10BPC
+CONFIG_16BPC
 1
 #
 define
