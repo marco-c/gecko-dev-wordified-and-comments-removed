@@ -282,6 +282,10 @@ rust
 linux64
 -
 cbindgen
+-
+linux64
+-
+nasm
 macosx64
 -
 searchfox
@@ -486,6 +490,10 @@ macos
 linux64
 -
 cbindgen
+-
+linux64
+-
+nasm
 win64
 -
 searchfox
@@ -592,11 +600,6 @@ run
 using
 :
 mozharness
-actions
-:
-[
-build
-]
 use
 -
 caches
@@ -924,3 +927,7 @@ sccache
 linux64
 -
 node
+-
+linux64
+-
+nasm
