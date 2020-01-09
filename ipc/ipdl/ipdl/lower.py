@@ -4303,6 +4303,63 @@ HasFQName
 )
 :
     
+def
+fields_ipdl_order
+(
+self
+)
+:
+        
+for
+f
+in
+self
+.
+fields
+:
+            
+yield
+f
+    
+def
+fields_member_order
+(
+self
+)
+:
+        
+assert
+len
+(
+self
+.
+packed_field_order
+)
+=
+=
+len
+(
+self
+.
+fields
+)
+        
+for
+i
+in
+self
+.
+packed_field_order
+:
+            
+yield
+self
+.
+fields
+[
+i
+]
+    
 staticmethod
     
 def
@@ -13570,7 +13627,9 @@ f
 in
 sd
 .
-fields
+fields_member_order
+(
+)
 :
             
 writefield
@@ -15176,7 +15235,9 @@ f
 in
 sd
 .
-fields
+fields_ipdl_order
+(
+)
 ]
     
 if
@@ -15187,6 +15248,22 @@ sd
 fields
 )
 :
+        
+assert
+len
+(
+sd
+.
+fields
+)
+=
+=
+len
+(
+sd
+.
+packed_field_order
+)
         
 defctor
 =
@@ -15216,12 +15293,15 @@ memberVar
 (
 )
 )
+                               
 for
 f
 in
 sd
 .
-fields
+fields_member_order
+(
+)
 ]
         
 struct
@@ -15287,7 +15367,9 @@ f
 in
 sd
 .
-fields
+fields_member_order
+(
+)
 ]
     
 struct
@@ -15353,7 +15435,9 @@ f
 in
 sd
 .
-fields
+fields_ipdl_order
+(
+)
 :
         
 ifneq
@@ -15511,7 +15595,9 @@ f
 in
 sd
 .
-fields
+fields_ipdl_order
+(
+)
 :
         
 get
@@ -15658,7 +15744,9 @@ f
 in
 sd
 .
-fields
+fields_member_order
+(
+)
 ]
 )
     
