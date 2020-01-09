@@ -56,9 +56,7 @@ profiles
 {
 name
 :
-"
-Profile1
-"
+PROFILE_DEFAULT
 path
 :
 root
@@ -286,9 +284,7 @@ equal
 profile
 .
 name
-"
-Profile1
-"
+PROFILE_DEFAULT
 "
 The
 right
@@ -360,9 +356,7 @@ profiles
 ]
 .
 name
-"
-Profile1
-"
+PROFILE_DEFAULT
 "
 Should
 be
