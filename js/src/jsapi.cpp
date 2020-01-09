@@ -42,13 +42,6 @@ Sprintf
 h
 "
 #
-include
-<
-ctype
-.
-h
->
-#
 ifdef
 __linux__
 #

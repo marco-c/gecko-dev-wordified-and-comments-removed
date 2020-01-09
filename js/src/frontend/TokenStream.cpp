@@ -105,13 +105,6 @@ algorithm
 #
 include
 <
-ctype
-.
-h
->
-#
-include
-<
 stdarg
 .
 h
