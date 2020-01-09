@@ -373,6 +373,14 @@ CancelChildCrossProcessRedirect
 (
 )
 ;
+already_AddRefed
+<
+HttpChannelParentListener
+>
+GetParentListener
+(
+)
+;
 protected
 :
 MOZ_MUST_USE
