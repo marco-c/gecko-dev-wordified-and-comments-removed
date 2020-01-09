@@ -128,12 +128,6 @@ events
 :
 {
 "
-AudibleAutoplayMediaOccurred
-"
-:
-{
-}
-"
 GloballyAutoplayBlocked
 "
 :
