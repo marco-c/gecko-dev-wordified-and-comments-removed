@@ -9510,7 +9510,7 @@ JSObject
 obj
 (
 cx
-GetWrapperPreserveColor
+GetWrapper
 (
 )
 )
