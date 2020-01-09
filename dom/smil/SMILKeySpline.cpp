@@ -472,7 +472,6 @@ guessForT
 )
 ;
 }
-else
 if
 (
 initialSlope
@@ -487,8 +486,6 @@ return
 guessForT
 ;
 }
-else
-{
 return
 BinarySubdivide
 (
@@ -499,7 +496,6 @@ intervalStart
 kSampleStepSize
 )
 ;
-}
 }
 double
 SMILKeySpline
