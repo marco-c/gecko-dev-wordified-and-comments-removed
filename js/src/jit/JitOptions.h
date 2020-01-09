@@ -225,6 +225,9 @@ bool
 disableSink
 ;
 bool
+disableOptimizationLevels
+;
+bool
 forceInlineCaches
 ;
 bool

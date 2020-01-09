@@ -510,6 +510,12 @@ true
 ;
 SET_DEFAULT
 (
+disableOptimizationLevels
+false
+)
+;
+SET_DEFAULT
+(
 forceInlineCaches
 false
 )
