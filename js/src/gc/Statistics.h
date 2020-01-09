@@ -1366,6 +1366,9 @@ allocsSinceMinorGC
 size_t
 preHeapSize
 ;
+size_t
+postHeapSize
+;
 bool
 thresholdTriggered
 ;
@@ -1605,6 +1608,7 @@ uint64_t
 timestamp
 JSONPrinter
 &
+JSONUse
 )
 const
 ;
