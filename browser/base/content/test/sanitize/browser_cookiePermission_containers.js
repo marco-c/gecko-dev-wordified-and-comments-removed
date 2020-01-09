@@ -4,11 +4,14 @@ runAllCookiePermissionTests
 name
 :
 "
-default
+container
 "
 oa
 :
 {
+userContextId
+:
+1
 }
 }
 )
