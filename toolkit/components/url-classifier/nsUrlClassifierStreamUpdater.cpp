@@ -609,6 +609,11 @@ nsIChannel
 :
 :
 LOAD_BYPASS_CACHE
+|
+nsIChannel
+:
+:
+LOAD_BYPASS_URL_CLASSIFIER
 ;
 rv
 =
