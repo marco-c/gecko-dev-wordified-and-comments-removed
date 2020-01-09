@@ -711,6 +711,8 @@ gamepad
 .
 numAxes
 0
+0
+0
 )
 ;
 gamepad
