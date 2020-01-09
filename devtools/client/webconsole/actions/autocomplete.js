@@ -70,7 +70,12 @@ getInputValue
 )
 ;
 const
+{
+frameActor
+:
 frameActorId
+client
+}
 =
 services
 .
@@ -343,12 +348,6 @@ autocompleteDataFetch
 input
 frameActorId
 client
-:
-services
-.
-getWebConsoleClient
-(
-)
 authorizedEvaluations
 force
 }
