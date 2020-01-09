@@ -1591,6 +1591,10 @@ match
 )
 {
 throw
+Components
+.
+Exception
+(
 "
 Bad
 parameter
@@ -1608,6 +1612,10 @@ i
 "
 '
 "
+Cr
+.
+NS_ERROR_ILLEGAL_VALUE
+)
 ;
 }
 params
