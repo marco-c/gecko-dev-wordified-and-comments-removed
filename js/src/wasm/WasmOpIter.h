@@ -2536,10 +2536,10 @@ uint32_t
 tableIndex
 Value
 *
-delta
+initValue
 Value
 *
-initValue
+delta
 )
 ;
 MOZ_MUST_USE
@@ -10792,10 +10792,10 @@ uint32_t
 tableIndex
 Value
 *
-delta
+initValue
 Value
 *
-initValue
+delta
 )
 {
 MOZ_ASSERT
@@ -10820,8 +10820,8 @@ popWithType
 ValType
 :
 :
-AnyRef
-initValue
+I32
+delta
 )
 )
 {
@@ -10837,8 +10837,8 @@ popWithType
 ValType
 :
 :
-I32
-delta
+AnyRef
+initValue
 )
 )
 {

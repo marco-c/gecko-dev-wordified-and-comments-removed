@@ -49550,9 +49550,9 @@ readTableGrow
 &
 tableIndex
 &
-delta
-&
 initValue
+&
+delta
 )
 )
 {

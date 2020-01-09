@@ -16863,11 +16863,11 @@ tableIndex
 ;
 MDefinition
 *
-delta
+initValue
 ;
 MDefinition
 *
-initValue
+delta
 ;
 if
 (
@@ -16883,9 +16883,9 @@ readTableGrow
 &
 tableIndex
 &
-delta
-&
 initValue
+&
+delta
 )
 )
 {
@@ -16954,7 +16954,7 @@ f
 .
 passArg
 (
-delta
+initValue
 callee
 .
 argTypes
@@ -16977,7 +16977,7 @@ f
 .
 passArg
 (
-initValue
+delta
 callee
 .
 argTypes

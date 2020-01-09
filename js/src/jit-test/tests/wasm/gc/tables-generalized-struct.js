@@ -363,12 +363,6 @@ table
 .
 grow
 (
-i32
-.
-const
-1
-)
-(
 struct
 .
 new
@@ -387,6 +381,12 @@ const
 .
 14
 )
+)
+(
+i32
+.
+const
+1
 )
 )
 )
