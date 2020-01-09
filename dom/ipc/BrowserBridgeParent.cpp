@@ -324,15 +324,8 @@ tabId
 tabContext
 aBrowsingContext
 aChromeFlags
-)
-)
-;
-browserParent
--
->
-SetBrowserBridgeParent
-(
 this
+)
 )
 ;
 ManagedEndpoint

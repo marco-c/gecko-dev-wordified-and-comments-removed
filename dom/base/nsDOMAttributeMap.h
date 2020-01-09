@@ -172,9 +172,6 @@ nsAttrHashKey
 aCopy
 )
 :
-PLDHashEntryHdr
-{
-}
 mKey
 (
 aCopy
