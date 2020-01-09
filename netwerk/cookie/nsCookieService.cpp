@@ -13667,7 +13667,7 @@ mOriginAttributes
 nsICookie2
 :
 :
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 ;
 if
@@ -15534,7 +15534,7 @@ sameSite
 nsICookie2
 :
 :
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 &
 &
@@ -17338,7 +17338,7 @@ sameSite
 nsICookie2
 :
 :
-SAMESITE_UNSET
+SAMESITE_NONE
 ;
 nsDependentCSubstring
 tokenString

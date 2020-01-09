@@ -1053,7 +1053,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 ;
 Services
@@ -1094,7 +1094,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 ;
 Services
@@ -1135,7 +1135,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 ;
 Services
@@ -1179,7 +1179,7 @@ Ci
 .
 nsICookie2
 .
-SAMESITE_UNSET
+SAMESITE_NONE
 )
 ;
 let
