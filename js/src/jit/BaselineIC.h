@@ -5586,11 +5586,6 @@ getStubCode
 ;
 }
 ;
-extern
-const
-VMFunction
-DoTypeUpdateFallbackInfo
-;
 class
 ICTypeUpdate_Fallback
 :

@@ -5573,7 +5573,7 @@ explicitArg
 )
 =
 =
-VMFunction
+VMFunctionData
 :
 :
 DoubleByRef
@@ -5590,7 +5590,7 @@ explicitArg
 )
 =
 =
-VMFunction
+VMFunctionData
 :
 :
 RootValue
@@ -5630,7 +5630,7 @@ explicitArg
 )
 =
 =
-VMFunction
+VMFunctionData
 :
 :
 RootNone
@@ -6321,7 +6321,7 @@ explicitArg
 )
 {
 case
-VMFunction
+VMFunctionData
 :
 :
 RootNone
@@ -6329,7 +6329,7 @@ RootNone
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootObject
@@ -6374,7 +6374,7 @@ break
 ;
 }
 case
-VMFunction
+VMFunctionData
 :
 :
 RootString
@@ -6403,7 +6403,7 @@ args
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootFunction
@@ -6432,7 +6432,7 @@ args
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootValue
@@ -6460,7 +6460,7 @@ args
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootId
@@ -6488,7 +6488,7 @@ args
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootCell
@@ -6532,13 +6532,13 @@ explicitArg
 )
 {
 case
-VMFunction
+VMFunctionData
 :
 :
 WordByValue
 :
 case
-VMFunction
+VMFunctionData
 :
 :
 WordByRef
@@ -6555,13 +6555,13 @@ void
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 DoubleByValue
 :
 case
-VMFunction
+VMFunctionData
 :
 :
 DoubleByRef
@@ -6601,7 +6601,7 @@ outParamRootType
 )
 {
 case
-VMFunction
+VMFunctionData
 :
 :
 RootNone
@@ -6619,7 +6619,7 @@ type
 )
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootObject
@@ -6649,7 +6649,7 @@ out
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootString
@@ -6679,7 +6679,7 @@ out
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootFunction
@@ -6709,7 +6709,7 @@ out
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootValue
@@ -6738,7 +6738,7 @@ outvp
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootId
@@ -6767,7 +6767,7 @@ outvp
 break
 ;
 case
-VMFunction
+VMFunctionData
 :
 :
 RootCell
