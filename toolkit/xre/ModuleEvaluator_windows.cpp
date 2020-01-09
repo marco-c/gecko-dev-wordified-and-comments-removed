@@ -1155,15 +1155,6 @@ scoreThreshold
 }
 }
 #
-else
-static
-const
-int
-scoreThreshold
-=
-100
-;
-#
 endif
 int
 score
