@@ -1973,7 +1973,7 @@ DeviceIntSize
 >
 initial_size
 :
-FramebufferIntSize
+DeviceIntSize
 )
 -
 >
@@ -2261,7 +2261,7 @@ new
 max_texture_size
 max_texture_layers
 None
-FramebufferIntSize
+DeviceIntSize
 :
 :
 zero

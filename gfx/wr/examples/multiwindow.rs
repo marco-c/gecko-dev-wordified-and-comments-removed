@@ -534,7 +534,7 @@ default
 }
 ;
 let
-framebuffer_size
+device_size
 =
 {
 let
@@ -557,7 +557,7 @@ as
 f64
 )
 ;
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -618,7 +618,7 @@ clone
 notifier
 opts
 None
-framebuffer_size
+device_size
 )
 .
 unwrap
@@ -641,7 +641,7 @@ api
 .
 add_document
 (
-framebuffer_size
+device_size
 0
 )
 ;
@@ -1007,7 +1007,7 @@ as
 f32
 ;
 let
-framebuffer_size
+device_size
 =
 {
 let
@@ -1032,7 +1032,7 @@ as
 f64
 )
 ;
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -1053,7 +1053,7 @@ i32
 let
 layout_size
 =
-framebuffer_size
+device_size
 .
 to_f32
 (
@@ -1585,7 +1585,7 @@ renderer
 .
 render
 (
-framebuffer_size
+device_size
 )
 .
 unwrap

@@ -719,7 +719,7 @@ Wrench
 {
 window_size
 :
-FramebufferIntSize
+DeviceIntSize
 pub
 device_pixel_ratio
 :
@@ -828,7 +828,7 @@ SaveType
 >
 size
 :
-FramebufferIntSize
+DeviceIntSize
 do_rebuild
 :
 bool
@@ -2880,7 +2880,7 @@ mut
 self
 dim
 :
-FramebufferIntSize
+DeviceIntSize
 )
 {
 if

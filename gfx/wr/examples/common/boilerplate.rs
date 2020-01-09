@@ -427,9 +427,9 @@ txn
 &
 mut
 Transaction
-framebuffer_size
+device_size
 :
-FramebufferIntSize
+DeviceIntSize
 pipeline_id
 :
 PipelineId
@@ -982,7 +982,7 @@ default
 }
 ;
 let
-framebuffer_size
+device_size
 =
 {
 let
@@ -1005,7 +1005,7 @@ as
 f64
 )
 ;
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -1067,7 +1067,7 @@ clone
 notifier
 opts
 None
-framebuffer_size
+device_size
 )
 .
 unwrap
@@ -1090,7 +1090,7 @@ api
 .
 add_document
 (
-framebuffer_size
+device_size
 0
 )
 ;
@@ -1163,7 +1163,7 @@ PipelineId
 let
 layout_size
 =
-framebuffer_size
+device_size
 .
 to_f32
 (
@@ -1216,7 +1216,7 @@ builder
 &
 mut
 txn
-framebuffer_size
+device_size
 pipeline_id
 document_id
 )
@@ -1629,7 +1629,7 @@ txn
 .
 set_document_view
 (
-framebuffer_size
+device_size
 .
 into
 (
@@ -1651,7 +1651,7 @@ txn
 .
 set_document_view
 (
-framebuffer_size
+device_size
 .
 into
 (
@@ -1802,7 +1802,7 @@ builder
 &
 mut
 txn
-framebuffer_size
+device_size
 pipeline_id
 document_id
 )
@@ -1867,7 +1867,7 @@ renderer
 .
 render
 (
-framebuffer_size
+device_size
 )
 .
 unwrap

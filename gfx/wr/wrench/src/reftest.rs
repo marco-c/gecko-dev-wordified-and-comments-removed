@@ -730,7 +730,7 @@ u8
 >
 size
 :
-FramebufferIntSize
+DeviceIntSize
 }
 enum
 ReftestImageComparison
@@ -3234,7 +3234,7 @@ into_raw
 )
 size
 :
-FramebufferIntSize
+DeviceIntSize
 :
 :
 new
@@ -3264,7 +3264,7 @@ filename
 Path
 size
 :
-FramebufferIntSize
+DeviceIntSize
 font_render_mode
 :
 Option
@@ -3423,7 +3423,18 @@ size
 .
 height
 )
+FramebufferIntSize
+:
+:
+new
+(
 size
+.
+width
+size
+.
+height
+)
 )
 ;
 let

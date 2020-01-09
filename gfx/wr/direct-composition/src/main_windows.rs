@@ -670,7 +670,7 @@ api
 units
 :
 :
-FramebufferIntSize
+DeviceIntSize
 color
 :
 api
@@ -706,7 +706,7 @@ api
 units
 :
 :
-FramebufferIntSize
+DeviceIntSize
 r
 :
 f32
