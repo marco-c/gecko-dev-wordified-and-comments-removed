@@ -269,8 +269,11 @@ ErrorResult
 aRv
 )
 ;
-void
-DispatchChangeEvent
+nsCOMPtr
+<
+nsIRunnable
+>
+DispatchChangeEventAndResolvePromise
 (
 )
 ;
