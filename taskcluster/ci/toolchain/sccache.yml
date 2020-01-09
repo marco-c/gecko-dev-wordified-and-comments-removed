@@ -143,7 +143,7 @@ public
 /
 build
 /
-sccache2
+sccache
 .
 tar
 .
@@ -247,7 +247,7 @@ public
 /
 build
 /
-sccache2
+sccache
 .
 tar
 .
@@ -345,7 +345,7 @@ public
 /
 build
 /
-sccache2
+sccache
 .
 tar
 .

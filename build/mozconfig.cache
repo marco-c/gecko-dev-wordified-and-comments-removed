@@ -649,7 +649,7 @@ CCACHE
 "
 topsrcdir
 /
-sccache2
+sccache
 /
 sccache
 "
@@ -664,7 +664,7 @@ MOZBUILD_MANAGE_SCCACHE_DAEMON
 topsrcdir
 }
 /
-sccache2
+sccache
 /
 sccache
 fi
