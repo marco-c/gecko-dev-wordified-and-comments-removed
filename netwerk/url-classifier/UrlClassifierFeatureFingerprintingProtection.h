@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_net_UrlClassifierFeatureFingerprinting_h
+mozilla_net_UrlClassifierFeatureFingerprintingProtection_h
 #
 define
-mozilla_net_UrlClassifierFeatureFingerprinting_h
+mozilla_net_UrlClassifierFeatureFingerprintingProtection_h
 #
 include
 "
@@ -21,7 +21,7 @@ namespace
 net
 {
 class
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 final
 :
 public
@@ -46,7 +46,7 @@ MaybeShutdown
 static
 already_AddRefed
 <
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 >
 MaybeCreate
 (
@@ -104,7 +104,7 @@ override
 ;
 private
 :
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 (
 )
 ;

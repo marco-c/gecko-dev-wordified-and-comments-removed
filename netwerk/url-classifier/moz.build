@@ -183,7 +183,7 @@ UrlClassifierFeatureFactory
 cpp
 '
 '
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 .
 cpp
 '

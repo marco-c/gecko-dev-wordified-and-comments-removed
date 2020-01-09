@@ -19,7 +19,7 @@ h
 #
 include
 "
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 .
 h
 "
@@ -104,7 +104,7 @@ MaybeShutdown
 (
 )
 ;
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 :
 :
 MaybeShutdown
@@ -210,7 +210,7 @@ feature
 }
 feature
 =
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 :
 :
 MaybeCreate
@@ -405,7 +405,7 @@ forget
 }
 feature
 =
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 :
 :
 GetIfNameMatches
@@ -607,7 +607,7 @@ name
 .
 Assign
 (
-UrlClassifierFeatureFingerprinting
+UrlClassifierFeatureFingerprintingProtection
 :
 :
 Name
