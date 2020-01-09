@@ -3918,17 +3918,6 @@ group
 {
 MOZ_ASSERT
 (
-!
-group
--
->
-hasUncacheableClass
-(
-)
-)
-;
-MOZ_ASSERT
-(
 IsTypedObjectClass
 (
 group
