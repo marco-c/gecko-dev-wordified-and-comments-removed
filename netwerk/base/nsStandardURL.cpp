@@ -1313,6 +1313,12 @@ if
 gInitialized
 )
 {
+StaticMutexAutoLock
+lock
+(
+gAllURLsMutex
+)
+;
 static
 DumpLeakedURLs
 d
