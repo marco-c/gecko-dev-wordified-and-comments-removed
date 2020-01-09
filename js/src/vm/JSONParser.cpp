@@ -1674,6 +1674,10 @@ get
 (
 )
 10
+IntegerSeparatorHandling
+:
+:
+None
 &
 d
 )
