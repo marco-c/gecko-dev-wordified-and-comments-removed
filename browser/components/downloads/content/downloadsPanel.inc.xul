@@ -1015,11 +1015,6 @@ id
 "
 downloadsFooter
 "
-class
-=
-"
-downloadsPanelFooter
-"
 >
 <
 stack
@@ -1331,7 +1326,6 @@ class
 panel
 -
 footer
-downloadsPanelFooter
 "
 align
 =
