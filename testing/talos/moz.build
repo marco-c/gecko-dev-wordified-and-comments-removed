@@ -240,6 +240,10 @@ Core
 "
 "
 DOM
+:
+Core
+&
+HTML
 "
 )
 with

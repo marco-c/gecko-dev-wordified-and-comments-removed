@@ -2503,6 +2503,10 @@ Core
 '
 '
 DOM
+:
+Core
+&
+HTML
 '
 )
 with
@@ -3814,6 +3818,10 @@ Core
 '
 '
 DOM
+:
+Core
+&
+HTML
 '
 )
 with

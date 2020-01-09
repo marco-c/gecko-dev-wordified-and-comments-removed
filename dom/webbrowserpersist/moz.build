@@ -113,6 +113,10 @@ Core
 "
 "
 DOM
+:
+Core
+&
+HTML
 "
 )
 XPIDL_SOURCES

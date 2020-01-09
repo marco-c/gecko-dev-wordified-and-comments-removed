@@ -127,5 +127,9 @@ Core
 '
 '
 DOM
+:
+Core
+&
+HTML
 '
 )

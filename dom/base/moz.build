@@ -122,6 +122,10 @@ Core
 "
 "
 DOM
+:
+Core
+&
+HTML
 "
 )
 TEST_DIRS
