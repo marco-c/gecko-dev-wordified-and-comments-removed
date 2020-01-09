@@ -194,6 +194,9 @@ CanSavePresentation
 nsIRequest
 *
 aNewRequest
+uint16_t
+&
+aBFCacheStatus
 )
 override
 ;
@@ -565,6 +568,9 @@ CanSavePresentation
 nsIRequest
 *
 aNewRequest
+uint16_t
+&
+aBFCacheStatus
 )
 {
 return
