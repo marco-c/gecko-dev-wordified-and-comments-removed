@@ -1370,6 +1370,11 @@ nsString
 ]
 matches
 ;
+nsString
+[
+]
+remoteTypes
+;
 }
 ;
 struct
