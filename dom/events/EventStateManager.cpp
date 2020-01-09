@@ -21515,6 +21515,13 @@ mFlags
 mOnlyChromeDispatch
 =
 aNoContentDispatch
+&
+&
+!
+aMouseUpEvent
+-
+>
+mUseLegacyNonPrimaryDispatch
 ;
 event
 .
@@ -22023,6 +22030,13 @@ rv
 if
 (
 fireAuxClick
+&
+&
+*
+aStatus
+!
+=
+nsEventStatus_eConsumeNoDefault
 &
 &
 aClickTarget

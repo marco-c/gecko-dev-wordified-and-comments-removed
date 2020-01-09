@@ -738,6 +738,10 @@ mClickCount
 (
 0
 )
+mUseLegacyNonPrimaryDispatch
+(
+false
+)
 {
 }
 WidgetMouseEvent
@@ -781,6 +785,10 @@ false
 mClickCount
 (
 0
+)
+mUseLegacyNonPrimaryDispatch
+(
+false
 )
 {
 }
@@ -841,6 +849,10 @@ false
 mClickCount
 (
 0
+)
+mUseLegacyNonPrimaryDispatch
+(
+false
 )
 {
 if
@@ -999,6 +1011,9 @@ mIgnoreRootScrollFrame
 uint32_t
 mClickCount
 ;
+bool
+mUseLegacyNonPrimaryDispatch
+;
 void
 AssignMouseEventData
 (
@@ -1033,6 +1048,12 @@ mClickCount
 aEvent
 .
 mClickCount
+;
+mUseLegacyNonPrimaryDispatch
+=
+aEvent
+.
+mUseLegacyNonPrimaryDispatch
 ;
 }
 bool
