@@ -135,11 +135,6 @@ RendererOGL
 h
 '
 '
-RendererScreenshotGrabber
-.
-h
-'
-'
 RenderSharedSurfaceTextureHost
 .
 h
@@ -206,11 +201,6 @@ cpp
 '
 '
 RendererOGL
-.
-cpp
-'
-'
-RendererScreenshotGrabber
 .
 cpp
 '
