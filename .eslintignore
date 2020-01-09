@@ -1634,12 +1634,6 @@ localstorage
 *
 dom
 /
-manifest
-/
-*
-*
-dom
-/
 media
 /
 test

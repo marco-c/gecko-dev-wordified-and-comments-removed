@@ -79,7 +79,7 @@ json
 )
 ;
 const
-manifest
+manifestMock
 =
 JSON
 .
@@ -112,13 +112,12 @@ defaultURL
 body
 =
 {
-manifest
+manifestMock
 }
 ;
 function
 makeTestURL
 (
-manifest
 )
 {
 const
@@ -210,7 +209,6 @@ url
 :
 makeTestURL
 (
-manifest
 )
 }
 ;
