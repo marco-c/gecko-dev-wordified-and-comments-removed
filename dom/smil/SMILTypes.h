@@ -1,9 +1,9 @@
 #
 ifndef
-NS_SMILTYPES_H_
+mozilla_SMILTypes_h
 #
 define
-NS_SMILTYPES_H_
+mozilla_SMILTypes_h
 #
 include
 <

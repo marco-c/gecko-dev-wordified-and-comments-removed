@@ -1,9 +1,9 @@
 #
 ifndef
-NS_SMILSETANIMATIONFUNCTION_H_
+mozilla_SMILSetAnimationFunction_h
 #
 define
-NS_SMILSETANIMATIONFUNCTION_H_
+mozilla_SMILSetAnimationFunction_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-NS_ISMILATTR_H_
+mozilla_SMILAttr_h
 #
 define
-NS_ISMILATTR_H_
+mozilla_SMILAttr_h
 #
 include
 "

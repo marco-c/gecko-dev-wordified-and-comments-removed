@@ -1,9 +1,9 @@
 #
 ifndef
-NS_SMILPARSERUTILS_H_
+mozilla_SMILParserUtils_h
 #
 define
-NS_SMILPARSERUTILS_H_
+mozilla_SMILParserUtils_h
 #
 include
 "

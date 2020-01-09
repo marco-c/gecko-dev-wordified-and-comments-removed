@@ -1,9 +1,9 @@
 #
 ifndef
-NS_SMILINSTANCETIME_H_
+mozilla_SMILInstanceTime_h
 #
 define
-NS_SMILINSTANCETIME_H_
+mozilla_SMILInstanceTime_h
 #
 include
 "

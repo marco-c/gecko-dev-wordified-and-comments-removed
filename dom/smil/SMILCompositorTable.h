@@ -1,9 +1,9 @@
 #
 ifndef
-NS_SMILCOMPOSITORTABLE_H_
+mozilla_SMILCompositorTable_h
 #
 define
-NS_SMILCOMPOSITORTABLE_H_
+mozilla_SMILCompositorTable_h
 #
 include
 "

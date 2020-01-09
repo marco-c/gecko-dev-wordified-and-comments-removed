@@ -1,9 +1,9 @@
 #
 ifndef
-SMILRepeatCount_h
+mozilla_SMILRepeatCount_h
 #
 define
-SMILRepeatCount_h
+mozilla_SMILRepeatCount_h
 #
 include
 "

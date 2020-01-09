@@ -1,9 +1,9 @@
 #
 ifndef
-NS_SMILTIMEDELEMENT_H_
+mozilla_SMILTimedElement_h
 #
 define
-NS_SMILTIMEDELEMENT_H_
+mozilla_SMILTimedElement_h
 #
 include
 "

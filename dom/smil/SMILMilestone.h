@@ -1,9 +1,9 @@
 #
 ifndef
-NS_SMILMILESTONE_H_
+mozilla_SMILMilestone_h
 #
 define
-NS_SMILMILESTONE_H_
+mozilla_SMILMilestone_h
 #
 include
 "

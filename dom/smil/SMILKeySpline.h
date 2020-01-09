@@ -1,9 +1,9 @@
 #
 ifndef
-NS_SMILKEYSPLINE_H_
+mozilla_SMILKeySpline_h
 #
 define
-NS_SMILKEYSPLINE_H_
+mozilla_SMILKeySpline_h
 #
 include
 "

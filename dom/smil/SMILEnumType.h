@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_SMILENUMTYPE_H_
+mozilla_SMILEnumType_h
 #
 define
-MOZILLA_SMILENUMTYPE_H_
+mozilla_SMILEnumType_h
 #
 include
 "
