@@ -307,6 +307,8 @@ mEventTarget
 >
 Dispatch
 (
+CreateMediumHighRunnable
+(
 NS_NewRunnableFunction
 (
 "
@@ -337,6 +339,7 @@ surfaceFlags
 )
 ;
 }
+)
 )
 NS_DISPATCH_NORMAL
 )
@@ -532,6 +535,8 @@ mEventTarget
 >
 Dispatch
 (
+CreateMediumHighRunnable
+(
 NS_NewRunnableFunction
 (
 "
@@ -565,6 +570,7 @@ surfaceFlags
 )
 ;
 }
+)
 )
 NS_DISPATCH_NORMAL
 )
