@@ -2,19 +2,19 @@ from
 __future__
 import
 absolute_import
-from
-abc
-import
-ABCMeta
-abstractproperty
 import
 os
 import
 subprocess
 import
-traceback
-import
 sys
+import
+traceback
+from
+abc
+import
+ABCMeta
+abstractproperty
 from
 mozlog
 import
@@ -23,6 +23,10 @@ from
 mozprocess
 import
 ProcessHandler
+from
+six
+import
+string_types
 try
 :
     
@@ -174,7 +178,7 @@ if
 isinstance
 (
 profile
-basestring
+string_types
 )
 :
             
