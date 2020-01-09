@@ -1137,19 +1137,6 @@ label
 }
         
 if
-dep_job
-.
-kind
-!
-=
-'
-release
--
-snap
--
-repackage
-'
-and
 len
 (
 dep_job
@@ -2060,20 +2047,6 @@ dependencies
 )
         
 if
-'
--
-snap
--
-'
-not
-in
-job
-[
-'
-label
-'
-]
-and
 not
 valid_beetmover_job
 :

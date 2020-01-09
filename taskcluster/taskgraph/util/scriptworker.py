@@ -5272,21 +5272,6 @@ migration
 "
 "
     
-if
-'
-linux64
--
-snap
--
-nightly
-'
-in
-platform
-:
-        
-return
-True
-    
 platforms
 =
 [
