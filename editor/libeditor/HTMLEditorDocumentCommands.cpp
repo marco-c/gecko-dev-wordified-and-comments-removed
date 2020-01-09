@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-HTMLEditor
+EditorCommands
 .
 h
 "
@@ -12,7 +12,7 @@ include
 "
 mozilla
 /
-HTMLEditorCommands
+HTMLEditor
 .
 h
 "

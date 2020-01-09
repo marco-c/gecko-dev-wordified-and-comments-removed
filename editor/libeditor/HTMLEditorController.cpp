@@ -12,7 +12,7 @@ include
 "
 mozilla
 /
-HTMLEditorCommands
+EditorCommands
 .
 h
 "

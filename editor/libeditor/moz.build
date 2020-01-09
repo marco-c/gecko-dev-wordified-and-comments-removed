@@ -157,6 +157,11 @@ EditorBase
 h
 '
 '
+EditorCommands
+.
+h
+'
+'
 EditorController
 .
 h
@@ -178,11 +183,6 @@ h
 '
 '
 HTMLEditor
-.
-h
-'
-'
-HTMLEditorCommands
 .
 h
 '
