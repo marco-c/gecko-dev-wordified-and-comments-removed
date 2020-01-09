@@ -132691,6 +132691,7 @@ bug_numbers
 :
 [
 1531917
+1551935
 ]
 "
 expires_in_version
@@ -132705,6 +132706,15 @@ kind
 :
 "
 boolean
+"
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
 "
 "
 description
