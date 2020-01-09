@@ -4995,12 +4995,6 @@ aContent
 ;
 static
 bool
-IsFullscreenApiEnabled
-(
-)
-;
-static
-bool
 IsUnprefixedFullscreenApiEnabled
 (
 )
@@ -7673,10 +7667,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sIsFullscreenApiEnabled
 ;
 static
 bool

@@ -51284,10 +51284,10 @@ aCallerType
 bool
 apiEnabled
 =
-nsContentUtils
+StaticPrefs
 :
 :
-IsFullscreenApiEnabled
+full_screen_api_enabled
 (
 )
 ;
