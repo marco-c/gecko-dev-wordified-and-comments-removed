@@ -385,6 +385,13 @@ vec2
 ;
 mat2
 local_transform
+=
+mat2
+(
+1
+.
+0
+)
 ;
 #
 ifdef
