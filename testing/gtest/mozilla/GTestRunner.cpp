@@ -154,6 +154,7 @@ MOZ_STDOUT_PRINT
 .
 .
 )
+\
 __android_log_print
 (
 ANDROID_LOG_INFO
