@@ -423,7 +423,7 @@ engine
 )
 {
 let
-currentEngine
+defaultEngine
 =
 gSS
 .
@@ -432,7 +432,7 @@ defaultEngine
 is
 (
 engine
-currentEngine
+defaultEngine
 "
 engine
 is
@@ -491,7 +491,7 @@ modified
 )
 ;
 let
-currentEngine
+defaultEngine
 =
 gSS
 .
@@ -499,7 +499,7 @@ defaultEngine
 ;
 ok
 (
-currentEngine
+defaultEngine
 "
 An
 engine
@@ -511,7 +511,7 @@ present
 ;
 isnot
 (
-currentEngine
+defaultEngine
 .
 name
 this
@@ -595,8 +595,15 @@ waitForExplicitFinish
 (
 )
 ;
-nextTest
+gSS
+.
+init
 (
+)
+.
+then
+(
+nextTest
 )
 ;
 }

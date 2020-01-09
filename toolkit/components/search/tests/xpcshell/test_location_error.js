@@ -40,6 +40,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 (
 )
 =

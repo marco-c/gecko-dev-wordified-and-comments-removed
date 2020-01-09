@@ -961,6 +961,7 @@ testReset
 (
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences
@@ -1088,6 +1089,7 @@ testReset
 (
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences

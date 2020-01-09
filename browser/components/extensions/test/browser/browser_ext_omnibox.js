@@ -1945,6 +1945,12 @@ suggestions
 }
 )
 ;
+SimpleTest
+.
+waitForExplicitFinish
+(
+)
+;
 let
 waitForConsole
 =

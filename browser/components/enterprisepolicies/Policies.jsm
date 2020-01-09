@@ -4379,6 +4379,11 @@ search
 .
 init
 (
+)
+.
+then
+(
+async
 (
 )
 =
@@ -4391,6 +4396,7 @@ param
 Remove
 )
 {
+await
 runOncePerModification
 (
 "
@@ -4404,10 +4410,10 @@ param
 .
 Remove
 )
+async
+function
 (
 )
-=
->
 {
 for
 (
@@ -4438,6 +4444,7 @@ engine
 {
 try
 {
+await
 Services
 .
 search
@@ -4499,6 +4506,7 @@ engine
 Name
 )
 ;
+await
 runOncePerModification
 (
 "
@@ -4510,10 +4518,10 @@ stringify
 (
 engineNameList
 )
+async
+function
 (
 )
-=
->
 {
 for
 (
@@ -4587,6 +4595,7 @@ UTF
 ;
 try
 {
+await
 Services
 .
 search
@@ -4632,6 +4641,7 @@ param
 Default
 )
 {
+await
 runOncePerModification
 (
 "
@@ -4640,6 +4650,7 @@ setDefaultSearchEngine
 param
 .
 Default
+async
 (
 )
 =
@@ -4728,13 +4739,15 @@ defaultEngine
 {
 try
 {
+await
 Services
 .
 search
 .
+setDefault
+(
 defaultEngine
-=
-defaultEngine
+)
 ;
 }
 catch

@@ -487,11 +487,16 @@ promiseValues
 let
 engineName
 =
+(
+await
 Services
 .
 search
 .
-defaultEngine
+getDefault
+(
+)
+)
 .
 name
 ;

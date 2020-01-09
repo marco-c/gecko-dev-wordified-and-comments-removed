@@ -408,7 +408,7 @@ nsIWindowWatcher
 if
 (
 "
-nsIBrowserSearchService
+nsISearchService
 "
 in
 Ci
@@ -421,7 +421,7 @@ search
 "
 Ci
 .
-nsIBrowserSearchService
+nsISearchService
 )
 ;
 }

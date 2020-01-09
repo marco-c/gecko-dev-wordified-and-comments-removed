@@ -42,6 +42,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 (
 )
 =

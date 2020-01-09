@@ -18,6 +18,7 @@ init
 (
 )
 {
+await
 Services
 .
 search
@@ -73,6 +74,7 @@ Test
 "
 )
 ;
+await
 Services
 .
 search
@@ -608,6 +610,7 @@ for
 let
 engine
 of
+await
 Services
 .
 search

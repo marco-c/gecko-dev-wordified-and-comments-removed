@@ -251,6 +251,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 (
 )
 =

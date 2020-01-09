@@ -83,6 +83,7 @@ requested
 let
 defaultEngines
 =
+await
 Services
 .
 search

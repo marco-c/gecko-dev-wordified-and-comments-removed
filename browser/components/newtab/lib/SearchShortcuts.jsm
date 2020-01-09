@@ -341,6 +341,7 @@ getSearchProvider
 =
 getSearchProvider
 ;
+async
 function
 checkHasSearchEngine
 (
@@ -348,12 +349,15 @@ keyword
 )
 {
 return
+(
+await
 Services
 .
 search
 .
 getDefaultEngines
 (
+)
 )
 .
 find

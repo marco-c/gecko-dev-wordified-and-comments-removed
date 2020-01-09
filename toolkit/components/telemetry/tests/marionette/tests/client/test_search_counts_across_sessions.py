@@ -97,7 +97,7 @@ Components
 .
 interfaces
 .
-nsIBrowserSearchService
+nsISearchService
 )
 ;
         

@@ -32,6 +32,13 @@ Services
 .
 search
 ;
+await
+search
+.
+init
+(
+)
+;
 let
 originalDefault
 =
@@ -149,6 +156,7 @@ defaultEngine
 originalDefault
 )
 ;
+await
 search
 .
 moveEngine

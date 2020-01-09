@@ -111,10 +111,6 @@ isInitialized
 )
 ;
 await
-asyncInit
-(
-)
-;
 Services
 .
 search
@@ -170,6 +166,7 @@ _extensionID
 =
 null
 ;
+await
 Services
 .
 search

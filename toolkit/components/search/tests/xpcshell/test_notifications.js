@@ -142,14 +142,6 @@ defaultEngine
 =
 engine
 ;
-Services
-.
-search
-.
-defaultEngine
-=
-engine
-;
 executeSoon
 (
 function

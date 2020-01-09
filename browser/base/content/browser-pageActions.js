@@ -5485,9 +5485,10 @@ addEngine
 uri
 image
 false
-{
-onSuccess
-:
+)
+.
+then
+(
 engine
 =
 >
@@ -5500,10 +5501,9 @@ action
 )
 ;
 }
-onError
-(
 errorCode
-)
+=
+>
 {
 if
 (
@@ -5659,7 +5659,6 @@ title
 text
 )
 ;
-}
 }
 )
 ;

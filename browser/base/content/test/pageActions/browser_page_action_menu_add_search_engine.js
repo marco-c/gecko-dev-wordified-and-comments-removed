@@ -489,6 +489,7 @@ page_action_menu_add_search_engine_0
 "
 )
 ;
+await
 Services
 .
 search
@@ -1475,6 +1476,7 @@ page_action_menu_add_search_engine_0
 "
 )
 ;
+await
 Services
 .
 search
@@ -1662,6 +1664,7 @@ page_action_menu_add_search_engine_1
 "
 )
 ;
+await
 Services
 .
 search
@@ -1906,6 +1909,7 @@ page_action_menu_add_search_engine_2
 "
 )
 ;
+await
 Services
 .
 search
@@ -2279,6 +2283,7 @@ promisePlacedInUrlbar
 (
 )
 ;
+await
 Services
 .
 search
@@ -2988,6 +2993,7 @@ promisePlacedInUrlbar
 (
 )
 ;
+await
 Services
 .
 search
@@ -3080,6 +3086,7 @@ page_action_menu_add_search_engine_1
 "
 )
 ;
+await
 Services
 .
 search
@@ -3185,6 +3192,7 @@ page_action_menu_add_search_engine_2
 "
 )
 ;
+await
 Services
 .
 search

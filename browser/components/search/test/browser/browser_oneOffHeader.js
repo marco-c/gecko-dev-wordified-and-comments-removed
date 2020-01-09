@@ -979,11 +979,16 @@ searchbarEngine
 let
 url
 =
+(
+await
 Services
 .
 search
 .
-defaultEngine
+getDefault
+(
+)
+)
 .
 getSubmission
 (

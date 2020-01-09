@@ -142,6 +142,7 @@ initialized
 let
 sortedEngines
 =
+await
 Services
 .
 search
@@ -235,6 +236,7 @@ initialized
 let
 sortedEngines
 =
+await
 Services
 .
 search
@@ -311,6 +313,7 @@ initialized
 let
 sortedEngines
 =
+await
 Services
 .
 search

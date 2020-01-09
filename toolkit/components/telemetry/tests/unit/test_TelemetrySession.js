@@ -5626,6 +5626,7 @@ PingServer
 port
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences
@@ -8481,6 +8482,7 @@ Date
 )
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences
@@ -10576,6 +10578,7 @@ testReset
 (
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences
@@ -12037,6 +12040,7 @@ getSubsessionCount
 1
 )
 ;
+await
 TelemetryEnvironment
 .
 testWatchPreferences

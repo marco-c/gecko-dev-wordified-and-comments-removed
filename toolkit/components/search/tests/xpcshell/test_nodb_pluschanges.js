@@ -89,6 +89,7 @@ Services
 .
 search
 ;
+await
 search
 .
 moveEngine
@@ -97,6 +98,7 @@ engine1
 0
 )
 ;
+await
 search
 .
 moveEngine

@@ -27,6 +27,7 @@ init
 (
 )
 {
+await
 Services
 .
 search
@@ -61,6 +62,7 @@ searchTerms
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
@@ -85,6 +87,7 @@ ok
 engine
 )
 ;
+await
 Services
 .
 search

@@ -687,6 +687,7 @@ RECORD_DEFAULTPREF_VALUE
 RECORD_DEFAULTPREF_STATE
 :
 4
+async
 testWatchPreferences
 (
 prefMap
@@ -4766,12 +4767,6 @@ _getSystem
 ;
 this
 .
-_updateSettings
-(
-)
-;
-this
-.
 _addObservers
 (
 )
@@ -4780,6 +4775,11 @@ let
 p
 =
 [
+this
+.
+_updateSettings
+(
+)
 ]
 ;
 this
@@ -4793,8 +4793,9 @@ this
 )
 ;
 p
-=
-[
+.
+push
+(
 this
 .
 _addonBuilder
@@ -4802,7 +4803,7 @@ _addonBuilder
 init
 (
 )
-]
+)
 ;
 this
 .
@@ -5548,6 +5549,7 @@ _shutdown
 true
 ;
 }
+async
 _watchPreferences
 (
 aPreferences
@@ -5565,6 +5567,7 @@ _watchedPrefs
 =
 aPreferences
 ;
+await
 this
 .
 _updateSettings
@@ -6500,6 +6503,7 @@ return
 name
 ;
 }
+async
 _updateSearchEngine
 (
 )
@@ -6612,6 +6616,7 @@ settings
 .
 defaultSearchEngineData
 =
+await
 Services
 .
 search
@@ -6666,6 +6671,7 @@ searchCohort
 ;
 }
 }
+async
 _onSearchEngineChange
 (
 )
@@ -6694,6 +6700,7 @@ _currentEnvironment
 myScope
 )
 ;
+await
 this
 .
 _updateSearchEngine
@@ -7252,6 +7259,7 @@ _isDefaultBrowser
 null
 ;
 }
+async
 _updateSettings
 (
 )
@@ -7420,6 +7428,7 @@ _updateDefaultBrowser
 (
 )
 ;
+await
 this
 .
 _updateSearchEngine

@@ -74,6 +74,10 @@ search
 .
 init
 (
+)
+.
+then
+(
 function
 search_initialized_0
 (
@@ -160,9 +164,6 @@ numberPending
 0
 )
 {
-let
-engines
-=
 Services
 .
 search
@@ -170,7 +171,13 @@ search
 getEngines
 (
 )
-;
+.
+then
+(
+engines
+=
+>
+{
 Assert
 .
 notEqual
@@ -188,6 +195,9 @@ function
 {
 do_test_finished
 (
+)
+;
+}
 )
 ;
 }

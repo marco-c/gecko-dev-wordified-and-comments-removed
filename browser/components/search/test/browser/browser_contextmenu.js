@@ -12,6 +12,13 @@ Services
 .
 search
 ;
+await
+ss
+.
+init
+(
+)
+;
 const
 ENGINE_NAME
 =
@@ -272,7 +279,7 @@ defaultEngine
 name
 ENGINE_NAME
 "
-currentEngine
+defaultEngine
 set
 "
 )

@@ -394,13 +394,9 @@ leaks
 if
 (
 !
-(
 engine
-instanceof
-Ci
 .
-nsISearchEngine
-)
+getSubmission
 )
 {
 throw

@@ -153,6 +153,15 @@ engine
 await
 promiseChanged
 ;
+engine
+.
+QueryInterface
+(
+Ci
+.
+nsISearchEngine
+)
+;
 Assert
 .
 ok

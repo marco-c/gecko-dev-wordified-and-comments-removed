@@ -67,6 +67,7 @@ gTestPath
 TEST_ENGINE_BASENAME
 )
 ;
+await
 Services
 .
 search

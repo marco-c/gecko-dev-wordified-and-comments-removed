@@ -1984,7 +1984,7 @@ MOZ_TOOLKIT_SEARCH
 #
 include
 "
-nsIBrowserSearchService
+nsISearchService
 .
 h
 "
@@ -22057,7 +22057,7 @@ ifdef
 MOZ_TOOLKIT_SEARCH
 nsCOMPtr
 <
-nsIBrowserSearchService
+nsISearchService
 >
 searchSvc
 =
