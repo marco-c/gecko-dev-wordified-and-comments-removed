@@ -179,7 +179,7 @@ updating
 -
 the
 -
-whiteslist
+whitelist
 )
 to
 suppress
