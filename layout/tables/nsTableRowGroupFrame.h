@@ -281,10 +281,9 @@ aFrame
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
+nsDisplayList
+*
+aList
 const
 nsTArray
 <
