@@ -1020,7 +1020,7 @@ ThreadPtrHolder
 :
 new
 (
-c_str
+cstr
 !
 (
 "
@@ -1068,7 +1068,7 @@ ThreadPtrHolder
 :
 new
 (
-c_str
+cstr
 !
 (
 "

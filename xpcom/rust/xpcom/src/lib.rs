@@ -74,16 +74,6 @@ base
 *
 ;
 mod
-cstr
-;
-pub
-use
-cstr
-:
-:
-*
-;
-mod
 method
 ;
 pub

@@ -53,6 +53,10 @@ atomic
 AtomicBool
 Ordering
 }
+ffi
+:
+:
+CStr
 }
 ;
 use
@@ -73,7 +77,6 @@ nsIThread
 xpcom
 xpcom_method
 AtomicRefcnt
-NulTerminatedCStr
 RefCounted
 RefPtr
 XpCom
@@ -722,7 +725,10 @@ T
 >
 name
 :
-NulTerminatedCStr
+&
+'
+static
+CStr
 owning_thread
 :
 RefPtr
@@ -931,7 +937,10 @@ new
 (
 name
 :
-NulTerminatedCStr
+&
+'
+static
+CStr
 ptr
 :
 RefPtr
