@@ -124,7 +124,7 @@ CacheIRSpewer
 (
 )
 :
-outputLock
+outputLock_
 (
 mutexid
 :
@@ -189,7 +189,7 @@ enabled
 return
 ;
 }
-json
+json_
 .
 ref
 (
@@ -199,13 +199,13 @@ endList
 (
 )
 ;
-output
+output_
 .
 flush
 (
 )
 ;
-output
+output_
 .
 finish
 (
@@ -347,7 +347,7 @@ pid
 if
 (
 !
-output
+output_
 .
 init
 (
@@ -359,7 +359,7 @@ return
 false
 ;
 }
-output
+output_
 .
 put
 (
@@ -368,11 +368,11 @@ put
 "
 )
 ;
-json
+json_
 .
 emplace
 (
-output
+output_
 )
 ;
 return
@@ -402,7 +402,7 @@ JSONPrinter
 &
 j
 =
-json
+json_
 .
 ref
 (
@@ -786,7 +786,7 @@ JSONPrinter
 &
 j
 =
-json
+json_
 .
 ref
 (
@@ -953,7 +953,7 @@ value
 ;
 QuoteString
 (
-output
+output_
 &
 str
 -
@@ -1237,7 +1237,7 @@ JSONPrinter
 &
 j
 =
-json
+json_
 .
 ref
 (
@@ -1250,7 +1250,7 @@ beginStringProperty
 name
 )
 ;
-output
+output_
 .
 put
 (
@@ -1286,7 +1286,7 @@ enabled
 )
 )
 ;
-json
+json_
 .
 ref
 (
@@ -1316,7 +1316,7 @@ enabled
 )
 )
 ;
-json
+json_
 .
 ref
 (
