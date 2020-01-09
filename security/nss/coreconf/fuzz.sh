@@ -93,10 +93,6 @@ gyp_params
 =
 (
 -
-Dtest_build
-=
-1
--
 Dstatic_libs
 =
 1

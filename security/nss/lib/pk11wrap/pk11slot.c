@@ -6359,6 +6359,13 @@ hasRSAInfo
 =
 PR_FALSE
 ;
+slot
+-
+>
+module
+=
+mod
+;
 if
 (
 PK11_GETTAB
@@ -6408,13 +6415,6 @@ internal
 PR_FALSE
 :
 PR_TRUE
-;
-slot
--
->
-module
-=
-mod
 ;
 (
 void

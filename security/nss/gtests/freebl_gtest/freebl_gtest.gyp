@@ -624,7 +624,7 @@ NSS_USE_STATIC_LIBS
 ]
 #
 For
-test
+static
 builds
 we
 have

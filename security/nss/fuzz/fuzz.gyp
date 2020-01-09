@@ -640,7 +640,7 @@ lcrypto
 ]
 #
 For
-test
+static
 builds
 we
 have

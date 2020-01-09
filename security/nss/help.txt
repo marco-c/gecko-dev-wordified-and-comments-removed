@@ -171,7 +171,7 @@ zdefs
 [
 -
 -
-test
+static
 ]
 [
 -
@@ -447,7 +447,7 @@ targets
 this
 always
 enables
-test
+static
 builds
 )
 -
@@ -528,17 +528,6 @@ Wl
 -
 z
 defs
--
--
-test
-ignore
-map
-files
-and
-export
-everything
-we
-have
 -
 -
 static

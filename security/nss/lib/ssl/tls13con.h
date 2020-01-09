@@ -607,8 +607,10 @@ now
 )
 ;
 SECStatus
-SSLExp_SetupAntiReplay
+SSLExp_InitAntiReplay
 (
+PRTime
+now
 PRTime
 window
 unsigned

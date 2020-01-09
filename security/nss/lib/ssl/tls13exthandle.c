@@ -1793,8 +1793,9 @@ loser
 ;
 age
 =
-ssl_TimeUsec
+ssl_Time
 (
+ss
 )
 -
 session_ticket

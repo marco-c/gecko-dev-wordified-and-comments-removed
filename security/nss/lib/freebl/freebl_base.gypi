@@ -590,9 +590,8 @@ libraries
 :
 [
 '
-advapi32
-.
-lib
+-
+ladvapi32
 '
 ]
 '

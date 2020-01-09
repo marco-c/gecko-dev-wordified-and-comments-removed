@@ -21281,6 +21281,10 @@ sid
 =
 ssl_LookupSID
 (
+ssl_Time
+(
+ss
+)
 &
 ss
 -
@@ -38343,6 +38347,10 @@ sid
 ssl_sid_lookup
 )
 (
+ssl_Time
+(
+ss
+)
 &
 ss
 -
@@ -46452,8 +46460,9 @@ newSessionTicket
 .
 received_timestamp
 =
-ssl_TimeUsec
+ssl_Time
 (
+ss
 )
 ;
 if
@@ -53182,8 +53191,9 @@ sid
 >
 creationTime
 =
-ssl_TimeUsec
+ssl_Time
 (
+ss
 )
 ;
 sid
@@ -53196,9 +53206,11 @@ sid
 >
 creationTime
 +
-ssl3_sid_timeout
+(
+ssl_ticket_lifetime
 *
 PR_USEC_PER_SEC
+)
 ;
 sid
 -

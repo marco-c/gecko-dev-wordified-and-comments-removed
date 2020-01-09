@@ -9907,9 +9907,12 @@ TLS
 }
 rv
 =
-SSL_SetupAntiReplay
+SSL_InitAntiReplay
 (
-10
+PR_Now
+(
+)
+10L
 *
 PR_USEC_PER_SEC
 7

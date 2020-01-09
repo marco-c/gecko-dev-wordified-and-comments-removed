@@ -3886,6 +3886,13 @@ hashlen
 *
 PR_BITS_PER_BYTE
 ;
+PORT_Assert
+(
+outlen
+>
+0
+)
+;
 n
 =
 (
@@ -7442,6 +7449,13 @@ hashtype
 )
 *
 PR_BITS_PER_BYTE
+;
+PORT_Assert
+(
+outlen
+>
+0
+)
 ;
 n
 =

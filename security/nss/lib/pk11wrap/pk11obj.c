@@ -4427,11 +4427,6 @@ session
 owner
 )
 ;
-*
-outLen
-=
-len
-;
 if
 (
 crv
@@ -4452,6 +4447,11 @@ return
 SECFailure
 ;
 }
+*
+outLen
+=
+len
+;
 return
 SECSuccess
 ;
@@ -4683,11 +4683,6 @@ session
 owner
 )
 ;
-*
-outLen
-=
-len
-;
 if
 (
 crv
@@ -4708,6 +4703,11 @@ return
 SECFailure
 ;
 }
+*
+outLen
+=
+len
+;
 return
 SECSuccess
 ;
