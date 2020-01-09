@@ -66,7 +66,7 @@ macro_use
 ]
 extern
 crate
-derive_more
+debug_unreachable
 ;
 #
 [
@@ -74,7 +74,7 @@ macro_use
 ]
 extern
 crate
-debug_unreachable
+derive_more
 ;
 extern
 crate
