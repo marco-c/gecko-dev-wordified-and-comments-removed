@@ -658,10 +658,9 @@ GetJitContext
 )
 -
 >
-zone
-=
-=
-nullptr
+isCompilingWasm
+(
+)
 ;
 }
 #
