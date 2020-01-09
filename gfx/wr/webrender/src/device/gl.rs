@@ -2292,6 +2292,13 @@ IS_SHARED_TEXTURE_CACHE
 ;
 }
 }
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 Texture

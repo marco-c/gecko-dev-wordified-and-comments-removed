@@ -12027,6 +12027,12 @@ texture_cache
 picture_tile_size
 (
 )
+FramebufferIntSize
+:
+:
+zero
+(
+)
 )
 ;
 }
