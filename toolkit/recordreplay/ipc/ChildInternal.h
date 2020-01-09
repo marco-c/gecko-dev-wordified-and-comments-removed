@@ -209,6 +209,11 @@ LastNormalCheckpoint
 (
 )
 ;
+bool
+ShouldSendPaintMessage
+(
+)
+;
 }
 namespace
 child

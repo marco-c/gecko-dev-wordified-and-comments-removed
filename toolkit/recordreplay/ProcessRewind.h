@@ -211,6 +211,15 @@ GetLastSavedCheckpoint
 (
 )
 ;
+CheckpointId
+GetLastSavedCheckpointPriorTo
+(
+const
+CheckpointId
+&
+aCheckpoint
+)
+;
 void
 RestoreCheckpointAndResume
 (

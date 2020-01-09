@@ -2454,6 +2454,14 @@ IsActiveChild
 )
 &
 &
+navigation
+:
+:
+ShouldSendPaintMessage
+(
+)
+&
+&
 gDrawTargetBuffer
 )
 {
