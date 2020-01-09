@@ -135,6 +135,11 @@ TestCounters
 cpp
 '
 '
+TestEvents
+.
+cpp
+'
+'
 TestHistograms
 .
 cpp
