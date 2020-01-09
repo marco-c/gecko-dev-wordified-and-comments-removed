@@ -9720,7 +9720,7 @@ NS_WARNING
 (
 "
 NS_FAILED
-internal_GetScalarByEnum
+internal_GetKeyedScalarByEnum
 for
 CHILD
 "
