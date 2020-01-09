@@ -318,8 +318,10 @@ GetLength
 )
 )
 )
+{
 return
 ;
+}
 memset
 (
 mCapitalize
@@ -790,8 +792,10 @@ NS_FAILED
 rv
 )
 )
+{
 return
 ;
+}
 bool
 anyMissing
 =
@@ -4163,8 +4167,10 @@ if
 !
 child
 )
+{
 return
 ;
+}
 NS_ASSERTION
 (
 convertedString
