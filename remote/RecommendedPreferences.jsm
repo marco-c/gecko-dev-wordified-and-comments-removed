@@ -23,5 +23,15 @@ testmode
 "
 :
 true
+"
+toolkit
+.
+startup
+.
+max_resumed_crashes
+"
+:
+-
+1
 }
 ;
