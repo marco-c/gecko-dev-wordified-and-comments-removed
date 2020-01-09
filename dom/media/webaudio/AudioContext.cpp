@@ -938,10 +938,6 @@ start
 this
 )
 ;
-mWasAllowedToStart
-=
-false
-;
 SuspendInternal
 (
 nullptr
@@ -4747,10 +4743,6 @@ if
 isAllowedToPlay
 )
 {
-mWasAllowedToStart
-=
-true
-;
 ResumeInternal
 (
 )
@@ -4791,6 +4783,10 @@ p
 "
 this
 )
+;
+mWasAllowedToStart
+=
+true
 ;
 Destination
 (
@@ -4861,6 +4857,10 @@ warningFlag
 BlockAutoplayError
 "
 )
+;
+mWasAllowedToStart
+=
+false
 ;
 if
 (
