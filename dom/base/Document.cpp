@@ -40749,7 +40749,7 @@ CORS_ANONYMOUS
 speculator
 -
 >
-SpeculativeAnonymousConnect2
+SpeculativeAnonymousConnect
 (
 uri
 NodePrincipal
@@ -40764,7 +40764,7 @@ else
 speculator
 -
 >
-SpeculativeConnect2
+SpeculativeConnect
 (
 uri
 NodePrincipal

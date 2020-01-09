@@ -266,7 +266,7 @@ null
 *
 /
 void
-speculativeConnect2
+speculativeConnect
 (
 in
 nsIURI
@@ -280,7 +280,7 @@ aCallbacks
 )
 ;
 void
-speculativeAnonymousConnect2
+speculativeAnonymousConnect
 (
 in
 nsIURI

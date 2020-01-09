@@ -12279,7 +12279,7 @@ attrs
 ;
 connector
 .
-speculativeConnect2
+speculativeConnect
 (
 searchURI
 principal
@@ -12324,7 +12324,7 @@ prePath
 )
 connector
 .
-speculativeConnect2
+speculativeConnect
 (
 suggestURI
 principal

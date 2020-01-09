@@ -3490,7 +3490,7 @@ aAnonymous
 speculator
 -
 >
-SpeculativeAnonymousConnect2
+SpeculativeAnonymousConnect
 (
 uri
 principal
@@ -3503,7 +3503,7 @@ else
 speculator
 -
 >
-SpeculativeConnect2
+SpeculativeConnect
 (
 uri
 principal

@@ -14778,7 +14778,7 @@ NS_IMETHODIMP
 nsHttpHandler
 :
 :
-SpeculativeConnect2
+SpeculativeConnect
 (
 nsIURI
 *
@@ -14805,7 +14805,7 @@ NS_IMETHODIMP
 nsHttpHandler
 :
 :
-SpeculativeAnonymousConnect2
+SpeculativeAnonymousConnect
 (
 nsIURI
 *

@@ -424,7 +424,7 @@ Services
 .
 io
 .
-speculativeConnect2
+speculativeConnect
 (
 uri
 principal
