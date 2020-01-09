@@ -4038,7 +4038,6 @@ FunctionNode
 >
 (
 syntaxKind
-JSOP_NOP
 pos
 )
 ;
