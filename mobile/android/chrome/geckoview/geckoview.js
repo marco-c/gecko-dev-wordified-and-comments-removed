@@ -1642,6 +1642,13 @@ browser
 ;
 browser
 .
+permanentKey
+=
+{
+}
+;
+browser
+.
 setAttribute
 (
 "
