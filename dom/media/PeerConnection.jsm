@@ -9728,7 +9728,7 @@ onIceCandidate
 sdpMLineIndex
 sdpMid
 candidate
-ufrag
+usernameFragment
 )
 {
 let
@@ -9743,6 +9743,12 @@ _win
 if
 (
 candidate
+|
+|
+sdpMid
+|
+|
+usernameFragment
 )
 {
 if
@@ -9778,7 +9784,7 @@ RTCIceCandidate
 candidate
 sdpMid
 sdpMLineIndex
-ufrag
+usernameFragment
 }
 )
 ;
