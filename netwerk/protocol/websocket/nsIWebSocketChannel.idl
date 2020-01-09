@@ -112,9 +112,6 @@ MPL
 *
 /
 interface
-nsICookieSettings
-;
-interface
 nsIURI
 ;
 interface
@@ -472,9 +469,6 @@ param
 aTriggeringPrincipal
 *
 param
-aCookieSettings
-*
-param
 aSecurityFlags
 *
 param
@@ -591,9 +585,6 @@ aLoadingPrincipal
 in
 nsIPrincipal
 aTriggeringPrincipal
-in
-nsICookieSettings
-aCookieSettings
 in
 unsigned
 long

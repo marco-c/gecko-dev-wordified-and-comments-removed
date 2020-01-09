@@ -168,7 +168,6 @@ getSystemPrincipal
 (
 )
 null
-null
 Ci
 .
 nsILoadInfo
