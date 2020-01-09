@@ -1,9 +1,3 @@
-#
-!
-/
-bin
-/
-bash
 hosts_fixup
 (
 )
