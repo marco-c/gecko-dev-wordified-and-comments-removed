@@ -263,6 +263,13 @@ DeviceInfoIos
 (
 )
 {
+[
+_captureInfo
+registerOwner
+:
+nil
+]
+;
 }
 int32_t
 DeviceInfoIos
