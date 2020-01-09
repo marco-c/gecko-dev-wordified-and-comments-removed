@@ -1328,6 +1328,16 @@ append
 image_builder
 '
 )
+            
+digest_data
+.
+append
+(
+'
+squashing
+layers
+'
+)
         
 worker
 [
