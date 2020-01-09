@@ -15,7 +15,7 @@ val
 {
 assert
 (
-IsAsyncGeneratorGeneratorObject
+IsAsyncGeneratorObject
 (
 this
 )
@@ -51,7 +51,7 @@ val
 {
 assert
 (
-IsAsyncGeneratorGeneratorObject
+IsAsyncGeneratorObject
 (
 this
 )
@@ -87,7 +87,7 @@ val
 {
 assert
 (
-IsAsyncGeneratorGeneratorObject
+IsAsyncGeneratorObject
 (
 this
 )

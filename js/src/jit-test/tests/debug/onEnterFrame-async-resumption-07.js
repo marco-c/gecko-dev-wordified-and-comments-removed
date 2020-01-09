@@ -297,7 +297,10 @@ value
 )
 .
 return
-123
+"
+moar
+ponies
+"
 )
 ;
 assertEq

@@ -2881,8 +2881,6 @@ bool
 needsHomeObject
 bool
 isArrow
-bool
-isGenerator
 )
 ;
 MOZ_MUST_USE

@@ -20016,6 +20016,15 @@ callee
 isAsync
 (
 )
+&
+&
+!
+callee
+-
+>
+isGenerator
+(
+)
 )
 {
 RootedFunction
