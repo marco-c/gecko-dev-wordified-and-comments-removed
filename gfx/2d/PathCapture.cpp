@@ -619,7 +619,7 @@ mType
 PathOp
 :
 :
-OP_BEZIERTO
+OP_LINETO
 ;
 newPathOp
 .
