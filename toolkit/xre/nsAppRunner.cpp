@@ -18257,9 +18257,6 @@ SetShutdownChecks
 )
 ;
 #
-ifndef
-FUZZING
-#
 ifdef
 DEBUG
 mozilla
@@ -18331,8 +18328,6 @@ xreDirectory
 ;
 }
 }
-#
-endif
 #
 endif
 #
