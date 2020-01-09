@@ -150,8 +150,6 @@ repository
 getLogger
 (
 "
-Places
-.
 Urlbar
 .
 Provider

@@ -102,8 +102,6 @@ repository
 getLogger
 (
 "
-Places
-.
 Urlbar
 .
 Tokenizer
