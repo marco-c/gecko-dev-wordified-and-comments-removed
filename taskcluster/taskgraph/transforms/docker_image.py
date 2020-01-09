@@ -51,6 +51,14 @@ taskgraph
 .
 util
 .
+taskcluster
+import
+get_root_url
+from
+taskgraph
+.
+util
+.
 schema
 import
 (
@@ -581,6 +589,17 @@ context_hashes
 [
 parent
 ]
+)
+        
+args
+[
+'
+TASKCLUSTER_ROOT_URL
+'
+]
+=
+get_root_url
+(
 )
         
 if

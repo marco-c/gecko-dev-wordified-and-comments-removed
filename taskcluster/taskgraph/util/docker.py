@@ -1537,6 +1537,11 @@ replace
 [
 ]
     
+content
+=
+[
+]
+    
 context_dir
 =
 os
@@ -1611,11 +1616,6 @@ archive_path
 ]
 =
 source_path
-    
-content
-=
-[
-]
     
 with
 open
