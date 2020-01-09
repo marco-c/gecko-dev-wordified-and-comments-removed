@@ -1978,6 +1978,9 @@ policy
 window
 principal
 }
+recursing
+=
+false
 )
 {
 const
@@ -2128,6 +2131,15 @@ catch
 e
 )
 {
+if
+(
+recursing
+)
+{
+throw
+e
+;
+}
 return
 newChannelForURL
 (
@@ -2144,6 +2156,7 @@ policy
 window
 principal
 }
+true
 )
 ;
 }
