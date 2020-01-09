@@ -79,7 +79,6 @@ ReprSizeAlign_
 #
 Clazz
 )
-\
 {
 \
 size_t
@@ -179,7 +178,6 @@ _
 #
 Member
 )
-\
 {
 \
 class
