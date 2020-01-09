@@ -7894,13 +7894,6 @@ mGraph
 -
 >
 mForceShutDown
-|
-|
-!
-mGraph
--
->
-mRealtime
 "
 Not
 in
@@ -8626,13 +8619,7 @@ true
 }
 if
 (
-(
 mForceShutDown
-|
-|
-!
-mRealtime
-)
 &
 &
 LifecycleStateRef
