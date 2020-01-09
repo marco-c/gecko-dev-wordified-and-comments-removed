@@ -404,6 +404,20 @@ return
 self
         
 def
+next
+(
+self
+)
+:
+            
+return
+self
+.
+__next__
+(
+)
+        
+def
 __next__
 (
 self
