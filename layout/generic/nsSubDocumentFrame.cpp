@@ -4397,6 +4397,7 @@ presshell
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -4422,7 +4423,10 @@ IsInComposedDoc
 )
 )
 {
+MOZ_KnownLive
+(
 mPresShell
+)
 -
 >
 FlushPendingNotifications

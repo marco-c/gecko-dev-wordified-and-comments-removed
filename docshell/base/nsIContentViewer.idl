@@ -258,6 +258,9 @@ Document
 aDoc
 )
 ;
+[
+can_run_script
+]
 void
 loadComplete
 (

@@ -2137,8 +2137,10 @@ UpdateLayerTree
 {
 if
 (
+RefPtr
+<
 PresShell
-*
+>
 presShell
 =
 GetPresShell

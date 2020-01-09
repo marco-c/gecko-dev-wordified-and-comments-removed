@@ -11939,7 +11939,7 @@ nsLayoutUtils
 :
 GetContainerAndOffsetAtEvent
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 const

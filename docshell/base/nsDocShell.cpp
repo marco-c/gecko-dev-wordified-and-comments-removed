@@ -28255,7 +28255,15 @@ mIsExecutingOnLoadHandler
 =
 true
 ;
+nsCOMPtr
+<
+nsIContentViewer
+>
+contentViewer
+=
 mContentViewer
+;
+contentViewer
 -
 >
 LoadComplete

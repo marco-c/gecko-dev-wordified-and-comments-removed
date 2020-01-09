@@ -439,6 +439,7 @@ eBSizeExact
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoFlushPendingNotifications
 (
@@ -447,7 +448,7 @@ aType
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 DoFlushPendingNotifications
 (

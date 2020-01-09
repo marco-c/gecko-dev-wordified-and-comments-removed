@@ -1493,9 +1493,6 @@ nsTypeAheadFind
 :
 FindItNow
 (
-nsIPresShell
-*
-aPresShell
 bool
 aIsLinksOnly
 bool
@@ -1584,17 +1581,6 @@ nsCOMPtr
 nsIPresShell
 >
 presShell
-(
-aPresShell
-)
-;
-if
-(
-!
-presShell
-)
-{
-presShell
 =
 startingPresShell
 ;
@@ -1603,6 +1589,7 @@ if
 !
 presShell
 )
+{
 return
 NS_ERROR_FAILURE
 ;
@@ -4141,7 +4128,6 @@ IsEmpty
 )
 FindItNow
 (
-nullptr
 aLinksOnly
 false
 aFindBackwards
@@ -4642,7 +4628,6 @@ rv
 =
 FindItNow
 (
-nullptr
 aLinksOnly
 isFirstVisiblePreferred
 false

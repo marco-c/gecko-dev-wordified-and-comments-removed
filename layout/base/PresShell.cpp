@@ -2438,7 +2438,10 @@ mMessage
 eMouseUp
 )
 {
+MOZ_KnownLive
+(
 mPresShell
+)
 -
 >
 FlushPendingNotifications
@@ -32223,7 +32226,10 @@ FramesReflowedCount
 (
 )
 ;
+MOZ_KnownLive
+(
 mPresShell
+)
 -
 >
 FlushPendingNotifications

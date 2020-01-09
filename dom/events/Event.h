@@ -689,6 +689,7 @@ LayoutDeviceIntPoint
 aPoint
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 CSSIntPoint
 GetOffsetCoords

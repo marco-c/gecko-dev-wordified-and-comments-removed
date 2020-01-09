@@ -3001,7 +3001,7 @@ EventMessage
 aEventMessage
 int32_t
 aClipboardType
-nsIPresShell
+PresShell
 *
 aPresShell
 Selection
@@ -3067,9 +3067,9 @@ type
 "
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -3080,9 +3080,11 @@ if
 !
 presShell
 )
+{
 return
 false
 ;
+}
 nsCOMPtr
 <
 Document
@@ -3447,9 +3449,11 @@ IsDestroying
 (
 )
 )
+{
 return
 false
 ;
+}
 uint32_t
 count
 =

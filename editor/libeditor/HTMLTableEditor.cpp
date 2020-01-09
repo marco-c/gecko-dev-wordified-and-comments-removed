@@ -3528,6 +3528,8 @@ rv
 ;
 }
 }
+if
+(
 RefPtr
 <
 PresShell
@@ -3537,10 +3539,6 @@ presShell
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 presShell

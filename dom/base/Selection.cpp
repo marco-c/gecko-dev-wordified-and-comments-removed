@@ -2496,6 +2496,8 @@ child
 return
 NS_ERROR_FAILURE
 ;
+if
+(
 RefPtr
 <
 PresShell
@@ -2508,10 +2510,6 @@ mFrameSelection
 GetPresShell
 (
 )
-;
-if
-(
-presShell
 )
 {
 presShell

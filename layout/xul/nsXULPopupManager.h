@@ -1743,6 +1743,7 @@ nsXULPopupManager
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsMenuPopupFrame
 *
 GetPopupFrameForContent
@@ -1852,6 +1853,7 @@ Event
 aTriggerEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 FirePopupHidingEvent
 (

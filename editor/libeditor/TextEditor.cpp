@@ -8409,8 +8409,11 @@ FireClipboardEvent
 aEventMessage
 aSelectionType
 presShell
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 aActionTaken
 )

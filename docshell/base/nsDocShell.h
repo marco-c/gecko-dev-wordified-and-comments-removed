@@ -1950,6 +1950,7 @@ bool
 aCloneSHChildren
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 EndPageLoad
 (
