@@ -145,6 +145,15 @@ threadClient
 .
 actor
 ;
+dbg
+.
+client
+.
+waitForWorkers
+(
+true
+)
+;
 const
 workers
 =
