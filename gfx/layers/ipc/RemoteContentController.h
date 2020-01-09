@@ -291,6 +291,17 @@ Destroy
 )
 override
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvDestroy
+(
+)
+;
 bool
 IsRemote
 (

@@ -609,6 +609,8 @@ ViewID
 aScrollId
 )
 ;
+both
+:
 async
 Destroy
 (
