@@ -1389,6 +1389,11 @@ AutoScrollController
 jsm
 '
 '
+Battery
+.
+jsm
+'
+'
 BinarySearch
 .
 jsm
