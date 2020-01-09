@@ -160,6 +160,7 @@ document
 /
 [
 TreatNonObjectAsNull
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ]
 callback
 EventHandlerNonNull
@@ -177,6 +178,7 @@ EventHandler
 ;
 [
 TreatNonObjectAsNull
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ]
 callback
 OnBeforeUnloadEventHandlerNonNull
@@ -195,6 +197,7 @@ OnBeforeUnloadEventHandler
 ;
 [
 TreatNonObjectAsNull
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ]
 callback
 OnErrorEventHandlerNonNull

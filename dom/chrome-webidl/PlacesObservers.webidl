@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 PlacesEventCallback
 =

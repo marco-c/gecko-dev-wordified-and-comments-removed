@@ -110,6 +110,9 @@ infrastructure
 .
 *
 /
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 PromiseJobCallback
 =
@@ -119,6 +122,7 @@ void
 ;
 [
 TreatNonCallableAsNull
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ]
 callback
 AnyCallback

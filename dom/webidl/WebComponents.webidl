@@ -152,6 +152,9 @@ apply
 .
 *
 /
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 LifecycleConnectedCallback
 =
@@ -159,6 +162,9 @@ void
 (
 )
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 LifecycleDisconnectedCallback
 =
@@ -166,6 +172,9 @@ void
 (
 )
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 LifecycleAdoptedCallback
 =
@@ -179,6 +188,9 @@ Document
 newDocment
 )
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 LifecycleAttributeChangedCallback
 =
@@ -197,6 +209,9 @@ DOMString
 namespaceURI
 )
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 LifecycleGetCustomInterfaceCallback
 =

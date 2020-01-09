@@ -78,6 +78,9 @@ forEachNonDynamicChildFrame
 .
 *
 /
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 SessionStoreUtilsFrameCallback
 =

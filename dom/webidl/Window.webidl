@@ -2009,6 +2009,9 @@ handle
 ;
 }
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 FrameRequestCallback
 =
@@ -3047,6 +3050,9 @@ sidebar
 ;
 #
 endif
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 PromiseDocumentFlushedCallback
 =
@@ -4142,6 +4148,9 @@ timeout
 ;
 }
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 IdleRequestCallback
 =

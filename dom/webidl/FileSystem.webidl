@@ -126,6 +126,9 @@ false
 ;
 }
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 FileSystemEntryCallback
 =
@@ -135,6 +138,9 @@ FileSystemEntry
 entry
 )
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 ErrorCallback
 =

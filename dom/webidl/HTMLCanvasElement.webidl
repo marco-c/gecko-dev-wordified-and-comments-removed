@@ -436,6 +436,9 @@ done
 ;
 }
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 PrintCallback
 =
@@ -445,6 +448,9 @@ MozCanvasPrintState
 ctx
 )
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 BlobCallback
 =

@@ -223,6 +223,9 @@ watchId
 ;
 }
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 PositionCallback
 =
@@ -232,6 +235,9 @@ Position
 position
 )
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 PositionErrorCallback
 =

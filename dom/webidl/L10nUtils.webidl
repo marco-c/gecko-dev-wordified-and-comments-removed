@@ -277,6 +277,9 @@ null
 ;
 }
 ;
+[
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+]
 callback
 L10nCallback
 =
