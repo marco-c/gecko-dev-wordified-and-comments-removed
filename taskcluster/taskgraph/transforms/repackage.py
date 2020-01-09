@@ -369,10 +369,11 @@ args
 '
 :
 [
+            
 '
 mar
 '
-                 
+            
 '
 -
 -
@@ -383,6 +384,7 @@ arch
 architecture
 }
 '
+        
 ]
         
 '
@@ -442,6 +444,7 @@ args
 '
 :
 [
+            
 '
 mar
 '
@@ -453,6 +456,18 @@ format
 "
 bz2
 "
+            
+'
+-
+-
+arch
+'
+'
+{
+architecture
+}
+'
+        
 ]
         
 '
