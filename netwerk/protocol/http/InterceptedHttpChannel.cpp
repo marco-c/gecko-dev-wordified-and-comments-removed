@@ -3648,6 +3648,7 @@ if
 mListener
 )
 {
+return
 mListener
 -
 >
@@ -3710,11 +3711,18 @@ MaybeReportTimingData
 (
 )
 ;
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 mListener
 )
 {
+rv
+=
 mListener
 -
 >
@@ -3738,7 +3746,7 @@ ReleaseListeners
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 NS_IMETHODIMP
