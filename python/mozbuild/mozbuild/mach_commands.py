@@ -23256,15 +23256,28 @@ if
 path
 :
             
-path
+path_maker
 =
-map
-(
+lambda
+f_name
+:
 os
 .
 path
 .
-abspath
+join
+(
+self
+.
+topsrcdir
+f_name
+)
+            
+path
+=
+map
+(
+path_maker
 path
 )
         
