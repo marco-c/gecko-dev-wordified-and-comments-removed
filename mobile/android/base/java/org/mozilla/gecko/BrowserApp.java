@@ -16918,7 +16918,7 @@ enterGuestMode
 .
 setVisible
 (
-true
+false
 )
 ;
 }
