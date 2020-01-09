@@ -320,7 +320,13 @@ false
 nameMatch
 :
 /
-mozglue
+untrusted
+-
+startup
+-
+test
+-
+dll
 .
 dll
 /
