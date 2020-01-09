@@ -13,9 +13,11 @@ topsrcdir
 /
 build
 /
+unix
+/
 mozconfig
 .
-common
+unix
 "
 ac_add_options
 -
