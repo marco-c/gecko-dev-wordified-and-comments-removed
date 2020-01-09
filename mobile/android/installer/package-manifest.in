@@ -718,13 +718,6 @@ BINPATH
 /
 components
 /
-RemoteSettingsComponents
-.
-js
-BINPATH
-/
-components
-/
 htmlMenuBuilder
 .
 js
