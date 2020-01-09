@@ -4520,6 +4520,13 @@ Transaction
 &
 &
 aTransaction
+BrowsingContext
+:
+:
+FieldEpochs
+&
+&
+aEpochs
 )
 ;
 mozilla
