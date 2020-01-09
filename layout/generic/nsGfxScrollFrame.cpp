@@ -9361,6 +9361,10 @@ ScrollableLayerGuid
 :
 NULL_SCROLL_ID
 )
+mAnchor
+(
+this
+)
 mAllowScrollOriginDowngrade
 (
 false
