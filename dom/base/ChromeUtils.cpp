@@ -4657,6 +4657,7 @@ IsPopupOpeningTokenUnused
 (
 )
 ;
+}
 void
 ChromeUtils
 :
