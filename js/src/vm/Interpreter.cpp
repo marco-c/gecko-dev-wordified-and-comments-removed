@@ -1773,10 +1773,10 @@ setIsClassConstructor
 (
 )
 ;
-JSScript
-*
+RootedScript
 ctorScript
-=
+(
+cx
 JSFunction
 :
 :
@@ -1784,6 +1784,7 @@ getOrCreateScript
 (
 cx
 ctor
+)
 )
 ;
 if
@@ -1850,6 +1851,15 @@ classStartOffset
 classEndOffset
 line
 column
+)
+;
+Debugger
+:
+:
+onNewScript
+(
+cx
+ctorScript
 )
 ;
 return
