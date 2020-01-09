@@ -1150,6 +1150,11 @@ stacktrace
 :
 null
 frame
+errorMessageName
+:
+pageError
+.
+errorMessageName
 exceptionDocURL
 :
 pageError
@@ -1284,6 +1289,7 @@ packet
 let
 {
 exceptionMessage
+errorMessageName
 exceptionDocURL
 exception
 frame
@@ -1442,6 +1448,7 @@ parameters
 [
 parameter
 ]
+errorMessageName
 exceptionDocURL
 frame
 timeStamp

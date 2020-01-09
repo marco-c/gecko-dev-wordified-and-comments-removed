@@ -134,6 +134,9 @@ null
 groupId
 :
 null
+errorMessageName
+:
+null
 exceptionDocURL
 :
 null

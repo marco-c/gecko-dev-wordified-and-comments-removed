@@ -3796,6 +3796,7 @@ frame
 =
 null
 awaitResult
+errorMessageName
 ;
 if
 (
@@ -3991,6 +3992,12 @@ GetURL
 (
 error
 )
+;
+errorMessageName
+=
+error
+.
+errorMessageName
 ;
 }
 catch
@@ -4240,6 +4247,7 @@ errorMessage
 exceptionDocURL
 :
 errorDocURL
+errorMessageName
 frame
 helperResult
 :
