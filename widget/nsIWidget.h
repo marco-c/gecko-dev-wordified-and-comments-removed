@@ -1695,6 +1695,16 @@ aRepaint
 ;
 virtual
 void
+LockAspectRatio
+(
+bool
+aShouldLock
+)
+{
+}
+;
+virtual
+void
 Resize
 (
 double

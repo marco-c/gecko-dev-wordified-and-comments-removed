@@ -63,6 +63,7 @@ titlebar
 =
 no
 alwaysontop
+lockaspectratio
 resizable
 ;
 const
