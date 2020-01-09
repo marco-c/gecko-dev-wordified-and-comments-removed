@@ -349,7 +349,7 @@ side
 animation_value_type
 =
 "
-ComputedValue
+NonNegativeLengthPercentageOrAuto
 "
 )
 }
