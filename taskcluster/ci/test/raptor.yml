@@ -361,6 +361,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -620,6 +623,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -872,6 +878,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -1131,6 +1140,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -1383,6 +1395,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -1635,6 +1650,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -2231,6 +2249,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -2790,6 +2811,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -3039,6 +3063,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -3299,6 +3326,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -3541,6 +3571,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -3791,6 +3824,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -4044,6 +4080,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -4431,6 +4470,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -4642,6 +4684,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -4855,6 +4900,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -5170,6 +5218,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -5481,6 +5532,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -5795,6 +5849,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
@@ -6025,6 +6082,9 @@ run
 time
 :
 900
+tier
+:
+2
 mozharness
 :
 extra
