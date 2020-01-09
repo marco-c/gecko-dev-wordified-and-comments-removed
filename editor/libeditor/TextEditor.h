@@ -397,6 +397,7 @@ mMaxTextLength
 aLength
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetText
 (
@@ -406,6 +407,7 @@ nsAString
 aString
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ReplaceTextAsAction
 (
@@ -746,6 +748,7 @@ return
 mWrapColumn
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SelectEntireDocument

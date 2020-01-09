@@ -1013,6 +1013,9 @@ new
 document
 *
 /
+[
+can_run_script
+]
 void
 rebuildDocumentFromSource
 (
