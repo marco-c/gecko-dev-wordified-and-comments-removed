@@ -480,10 +480,8 @@ ReflowOutput
 &
 aDesiredSize
 bool
-&
 aUnboundedLastColumn
 bool
-&
 aRunWasFeasible
 nsReflowStatus
 &
