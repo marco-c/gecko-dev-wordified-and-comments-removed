@@ -847,6 +847,11 @@ storageAccessGranted
 =
 false
 ;
+uint32_t
+rejectedReason
+=
+0
+;
 nsCOMPtr
 <
 nsIHttpChannel
@@ -881,7 +886,8 @@ IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 uri
-nullptr
+&
+rejectedReason
 )
 )
 {
@@ -908,6 +914,7 @@ aChannel
 isForeign
 isTrackingResource
 storageAccessGranted
+rejectedReason
 isSafeTopLevelNav
 aIsSameSiteForeign
 false
@@ -1187,6 +1194,10 @@ bool
 &
 aFirstPartyStorageAccessGranted
 const
+uint32_t
+&
+aRejectedReason
+const
 bool
 &
 aIsSafeTopLevelNav
@@ -1228,6 +1239,7 @@ nullptr
 aIsForeign
 aIsTrackingResource
 aFirstPartyStorageAccessGranted
+aRejectedReason
 aIsSafeTopLevelNav
 aIsSameSiteForeign
 false
@@ -1316,6 +1328,10 @@ const
 bool
 &
 aFirstPartyStorageAccessGranted
+const
+uint32_t
+&
+aRejectedReason
 const
 OriginAttributes
 &
@@ -1457,6 +1473,7 @@ hostURI
 aIsForeign
 aIsTrackingResource
 aFirstPartyStorageAccessGranted
+aRejectedReason
 cookieString
 aServerTime
 aFromHttp
