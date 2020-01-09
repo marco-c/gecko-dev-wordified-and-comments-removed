@@ -24,8 +24,6 @@ shutil
 import
 string
 import
-sys
-import
 re
 gSubtrees
 =
@@ -1059,17 +1057,6 @@ gSrcPath
 )
 )
     
-destdir
-=
-os
-.
-path
-.
-dirname
-(
-destname
-)
-    
 filemap
 [
 srcname
@@ -1806,19 +1793,6 @@ aSourceFileName
 rb
 '
 )
-    
-testName
-=
-aDestFileName
-[
-len
-(
-gDestPath
-)
-+
-1
-:
-]
     
 ahemFontAdded
 =
