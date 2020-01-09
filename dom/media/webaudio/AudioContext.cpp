@@ -5049,7 +5049,7 @@ nsIScriptError
 :
 warningFlag
 "
-BlockAutoplayWebAudioError
+BlockAutoplayWebAudioStartError
 "
 )
 ;
