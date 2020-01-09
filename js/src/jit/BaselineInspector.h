@@ -461,14 +461,6 @@ jsbytecode
 pc
 )
 ;
-bool
-hasSeenNonStringIterMore
-(
-jsbytecode
-*
-pc
-)
-;
 MOZ_MUST_USE
 bool
 isOptimizableConstStringSplit

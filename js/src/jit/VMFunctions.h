@@ -5577,17 +5577,6 @@ MutableHandleValue
 rval
 )
 ;
-void
-CloseIteratorFromIon
-(
-JSContext
-*
-cx
-JSObject
-*
-obj
-)
-;
 bool
 DoConcatStringObject
 (
