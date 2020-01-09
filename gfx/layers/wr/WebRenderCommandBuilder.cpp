@@ -4708,7 +4708,7 @@ eVisibleToHitTest
 CompositorHitTestFlags
 :
 :
-eDispatchToContent
+eIrregularArea
 )
 ;
 aBuilder

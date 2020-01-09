@@ -17492,7 +17492,7 @@ eVisibleToHitTest
 CompositorHitTestFlags
 :
 :
-eDispatchToContent
+eInactiveScrollframe
 )
 ;
 ScrollStyles

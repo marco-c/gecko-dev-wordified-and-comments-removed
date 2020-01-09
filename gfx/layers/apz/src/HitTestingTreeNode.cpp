@@ -1196,7 +1196,6 @@ eVisibleToHitTest
 ;
 if
 (
-(
 mOverride
 &
 EventRegionsOverride
@@ -1204,8 +1203,18 @@ EventRegionsOverride
 :
 ForceDispatchToContent
 )
-|
-|
+{
+result
++
+=
+CompositorHitTestFlags
+:
+:
+eApzAwareListeners
+;
+}
+if
+(
 mEventRegions
 .
 mDispatchToContentHitRegion
@@ -1227,7 +1236,7 @@ result
 CompositorHitTestFlags
 :
 :
-eDispatchToContent
+eIrregularArea
 ;
 if
 (

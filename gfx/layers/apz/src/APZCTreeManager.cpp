@@ -7443,7 +7443,7 @@ contains
 CompositorHitTestFlags
 :
 :
-eDispatchToContent
+eIrregularArea
 )
 )
 {
