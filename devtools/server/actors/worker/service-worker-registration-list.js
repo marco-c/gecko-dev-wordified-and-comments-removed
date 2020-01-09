@@ -57,6 +57,8 @@ worker
 service
 -
 worker
+-
+registration
 "
 true
 )
