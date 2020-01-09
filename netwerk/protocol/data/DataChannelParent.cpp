@@ -94,8 +94,10 @@ NS_IMETHODIMP
 DataChannelParent
 :
 :
-NotifyTrackingProtectionDisabled
+NotifyChannelClassifierProtectionDisabled
 (
+uint32_t
+aAcceptedReason
 )
 {
 return

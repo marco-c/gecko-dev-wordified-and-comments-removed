@@ -2511,8 +2511,10 @@ NS_IMETHODIMP
 FTPChannelParent
 :
 :
-NotifyTrackingProtectionDisabled
+NotifyChannelClassifierProtectionDisabled
 (
+uint32_t
+aAcceptedReason
 )
 {
 return

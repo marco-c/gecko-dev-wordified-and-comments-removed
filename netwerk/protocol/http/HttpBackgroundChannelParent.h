@@ -174,8 +174,10 @@ OnDiversion
 )
 ;
 bool
-OnNotifyTrackingProtectionDisabled
+OnNotifyChannelClassifierProtectionDisabled
 (
+uint32_t
+aAcceptedReason
 )
 ;
 bool

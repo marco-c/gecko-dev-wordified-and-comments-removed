@@ -1519,8 +1519,10 @@ NS_IMETHODIMP
 nsExtProtocolChannel
 :
 :
-NotifyTrackingProtectionDisabled
+NotifyChannelClassifierProtectionDisabled
 (
+uint32_t
+aAcceptedReason
 )
 {
 return
