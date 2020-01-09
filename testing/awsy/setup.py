@@ -102,6 +102,9 @@ install_requires
 "
 marionette_harness
 "
+"
+PyYaml
+"
 ]
     
 classifiers
