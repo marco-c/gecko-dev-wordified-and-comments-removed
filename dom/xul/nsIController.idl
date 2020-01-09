@@ -204,6 +204,9 @@ nsICommandParams
 aCommandParams
 )
 ;
+[
+can_run_script
+]
 void
 doCommandWithParams
 (

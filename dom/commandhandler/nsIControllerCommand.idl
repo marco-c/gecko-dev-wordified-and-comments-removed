@@ -344,6 +344,9 @@ nsISupports
 aCommandContext
 )
 ;
+[
+can_run_script
+]
 void
 doCommandParams
 (

@@ -492,6 +492,9 @@ nsISupports
 aCommandRefCon
 )
 ;
+[
+can_run_script
+]
 void
 doCommandParams
 (

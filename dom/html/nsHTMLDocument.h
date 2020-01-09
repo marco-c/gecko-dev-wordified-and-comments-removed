@@ -990,6 +990,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 ExecCommand
 (
@@ -1079,6 +1080,7 @@ CallerType
 aCallerType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 QueryCommandValue
 (
