@@ -287,7 +287,6 @@ nextConnID
 +
 +
 transport
-listener
 )
 ;
 transport
