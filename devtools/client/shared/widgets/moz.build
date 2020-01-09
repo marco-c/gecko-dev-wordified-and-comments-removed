@@ -106,11 +106,6 @@ BarGraphWidget
 js
 '
 '
-BreadcrumbsWidget
-.
-jsm
-'
-'
 Chart
 .
 js
