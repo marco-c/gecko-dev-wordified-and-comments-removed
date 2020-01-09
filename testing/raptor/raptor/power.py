@@ -19,9 +19,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
     
 if
@@ -35,6 +35,7 @@ log
 .
 critical
 (
+            
 "
 %
 power
@@ -49,10 +50,11 @@ raptor
 .
 config
 [
-'
+"
 app
-'
+"
 ]
+        
 )
         
 return
@@ -74,6 +76,7 @@ get
 system
 screen_off_timeout
 "
+    
 )
 .
 strip
@@ -139,22 +142,22 @@ path
 join
 (
 upload_dir
-'
+"
 battery
 -
 before
 .
 txt
-'
+"
 )
     
 with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 output
@@ -190,9 +193,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
     
 if
@@ -206,6 +209,7 @@ log
 .
 critical
 (
+            
 "
 %
 power
@@ -219,6 +223,7 @@ set
 "
 %
 test_name
+        
 )
         
 return
@@ -242,6 +247,7 @@ s
 raptor
 .
 screen_off_timeout
+    
 )
     
 filepath
@@ -253,22 +259,22 @@ path
 join
 (
 upload_dir
-'
+"
 battery
 -
 after
 .
 txt
-'
+"
 )
     
 with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 output
@@ -316,20 +322,20 @@ path
 join
 (
 upload_dir
-'
+"
 batterystats
 .
 csv
-'
+"
 )
     
 with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 output
@@ -364,20 +370,20 @@ path
 join
 (
 upload_dir
-'
+"
 batterystats
 .
 txt
-'
+"
 )
     
 with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 output
@@ -470,9 +476,9 @@ raptor
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
     
@@ -483,7 +489,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -497,7 +503,7 @@ mAh
 [
 )
 ]
-'
+"
 )
     
 re_proportional
@@ -507,7 +513,7 @@ re
 compile
 (
 r
-'
+"
 proportional
 =
 (
@@ -518,7 +524,7 @@ d
 ]
 +
 )
-'
+"
 )
     
 re_screen
@@ -528,7 +534,7 @@ re
 compile
 (
 r
-'
+"
 screen
 =
 (
@@ -539,7 +545,7 @@ d
 ]
 +
 )
-'
+"
 )
     
 re_full_screen
@@ -549,7 +555,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -566,7 +572,7 @@ d
 ]
 +
 )
-'
+"
 )
     
 re_full_wifi
@@ -576,7 +582,7 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
@@ -593,7 +599,7 @@ d
 ]
 +
 )
-'
+"
 )
     
 re_power
@@ -606,10 +612,10 @@ batterystats
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
     
 for
@@ -654,7 +660,7 @@ compile
 (
                     
 r
-'
+"
 \
 s
 +
@@ -700,10 +706,10 @@ d
 [
 )
 ]
-'
+"
                     
 r
-'
+"
 Including
 smearing
 :
@@ -717,9 +723,10 @@ d
 )
 )
 ?
-'
+"
 %
 uid
+                
 )
                 
 continue
@@ -944,7 +951,8 @@ log
 .
 info
 (
-'
+        
+"
 power
 data
 for
@@ -968,9 +976,9 @@ proportional
 :
 %
 s
-'
+"
+        
 %
-                    
 (
 uid
 cpu
@@ -978,75 +986,79 @@ wifi
 screen
 proportional
 )
+    
 )
     
 power_data
 =
 {
-'
+        
+"
 type
-'
+"
 :
-'
+"
 power
-'
-                  
-'
+"
+        
+"
 test
-'
+"
 :
 test_name
-                  
-'
+        
+"
 unit
-'
+"
 :
-'
+"
 mAh
-'
-                  
-'
+"
+        
+"
 values
-'
+"
 :
 {
-                      
-'
+            
+"
 cpu
-'
+"
 :
 float
 (
 cpu
 )
-                      
-'
+            
+"
 wifi
-'
+"
 :
 float
 (
 wifi
 )
-                      
-'
+            
+"
 screen
-'
+"
 :
 float
 (
 screen
 )
-                      
-'
+            
+"
 proportional
-'
+"
 :
 float
 (
 proportional
 )
+        
 }
+    
 }
     
 raptor

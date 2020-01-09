@@ -109,12 +109,13 @@ We
 want
 to
 do
-couple
-of
+a
+few
 things
 before
 running
-raptor
+Raptor
+:
         
 1
 .
@@ -124,9 +125,10 @@ mozharness
 2
 .
 Make
+the
 config
 for
-raptor
+Raptor
 mozharness
         
 3
@@ -1526,7 +1528,9 @@ from
 USB
 then
 press
-ENTER
+Enter
+/
+return
 .
 .
 .
@@ -1647,10 +1651,12 @@ raw_input
 Connect
 device
 via
-usb
+USB
 and
 press
-ENTER
+Enter
+/
+return
 .
 .
 .
