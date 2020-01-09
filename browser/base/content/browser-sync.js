@@ -230,7 +230,7 @@ ready
 ;
 }
 get
-syncConfiguredAndLoading
+sendTabConfiguredAndLoading
 (
 )
 {
@@ -256,13 +256,14 @@ this
 syncReady
 |
 |
+!
 Weave
 .
 Service
 .
 clientsEngine
 .
-isFirstSync
+hasSyncedThisSession
 )
 ;
 }
@@ -2240,7 +2241,7 @@ if
 (
 gSync
 .
-syncConfiguredAndLoading
+sendTabConfiguredAndLoading
 )
 {
 return
@@ -3426,7 +3427,7 @@ enabled
 !
 this
 .
-syncConfiguredAndLoading
+sendTabConfiguredAndLoading
 &
 &
 hasASendableURI
@@ -3720,7 +3721,7 @@ enabled
 !
 this
 .
-syncConfiguredAndLoading
+sendTabConfiguredAndLoading
 &
 &
 this
