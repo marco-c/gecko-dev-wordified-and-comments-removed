@@ -398,10 +398,6 @@ __func__
 )
 ;
 }
-mCDMCallback
-=
-aCDMCallback
-;
 RefPtr
 <
 ChromiumCDMParent
@@ -444,6 +440,7 @@ GetCurrent
 __func__
 [
 self
+aCDMCallback
 ]
 (
 bool
@@ -531,6 +528,13 @@ from
 child
 "
 )
+;
+self
+-
+>
+mCDMCallback
+=
+aCDMCallback
 ;
 self
 -
