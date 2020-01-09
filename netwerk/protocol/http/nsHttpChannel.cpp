@@ -11251,6 +11251,9 @@ scheme
 originHost
 originPort
 mUsername
+GetTopWindowOrigin
+(
+)
 mPrivateBrowsing
 callbacks
 proxyInfo
@@ -29878,6 +29881,9 @@ EmptyCString
 (
 )
 mUsername
+GetTopWindowOrigin
+(
+)
 proxyInfo
 originAttributes
 isHttps

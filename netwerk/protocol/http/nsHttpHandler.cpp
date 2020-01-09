@@ -14965,6 +14965,9 @@ EmptyCString
 (
 )
 username
+EmptyCString
+(
+)
 nullptr
 originAttributes
 usingSSL
