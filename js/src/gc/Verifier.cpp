@@ -3943,11 +3943,8 @@ ok
 =
 true
 ;
-DebugOnly
-<
 Zone
 *
->
 zone
 =
 map
