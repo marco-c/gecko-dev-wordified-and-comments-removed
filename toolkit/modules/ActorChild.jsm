@@ -12,6 +12,10 @@ ActorChild
 "
 ]
 ;
+this
+.
+ActorChild
+=
 class
 ActorChild
 {
@@ -155,3 +159,4 @@ null
 ;
 }
 }
+;
