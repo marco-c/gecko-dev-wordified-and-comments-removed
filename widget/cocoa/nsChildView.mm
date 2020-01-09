@@ -519,6 +519,13 @@ h
 #
 include
 "
+OGLShaderProgram
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h
