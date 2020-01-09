@@ -114,7 +114,7 @@ aErrorDescription
 ;
 protected
 :
-void
+MediaResult
 ProcessDecodedData
 (
 const

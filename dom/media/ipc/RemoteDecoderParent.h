@@ -134,7 +134,7 @@ aError
 )
 ;
 virtual
-void
+MediaResult
 ProcessDecodedData
 (
 const
