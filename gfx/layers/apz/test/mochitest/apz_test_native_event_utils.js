@@ -164,6 +164,9 @@ return
 ;
 }
 throw
+new
+Error
+(
 "
 Native
 wheel
@@ -176,6 +179,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -217,6 +221,9 @@ return
 ;
 }
 throw
+new
+Error
+(
 "
 Native
 wheel
@@ -229,6 +236,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -399,6 +407,9 @@ return
 ;
 }
 throw
+new
+Error
+(
 "
 Native
 mouse
@@ -413,6 +424,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -462,6 +474,9 @@ return
 ;
 }
 throw
+new
+Error
+(
 "
 Native
 mouse
@@ -476,6 +491,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -525,6 +541,9 @@ return
 ;
 }
 throw
+new
+Error
+(
 "
 Native
 mouse
@@ -539,6 +558,7 @@ platform
 +
 getPlatform
 (
+)
 )
 ;
 }
@@ -817,6 +837,9 @@ aDeltaY
 )
 {
 throw
+new
+Error
+(
 "
 Simultaneous
 wheeling
@@ -832,6 +855,7 @@ all
 platforms
 .
 "
+)
 ;
 }
 aDeltaX
@@ -1428,6 +1452,9 @@ lastNonNullValue
 )
 {
 throw
+new
+Error
+(
 "
 All
 values
@@ -1438,6 +1465,7 @@ were
 null
 !
 "
+)
 ;
 }
 var
