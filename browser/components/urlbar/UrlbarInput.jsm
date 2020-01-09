@@ -1180,6 +1180,16 @@ allowInheritPrincipal
 =
 false
 ;
+this
+.
+controller
+.
+recordSelectedResult
+(
+event
+index
+)
+;
 url
 =
 this
@@ -1388,7 +1398,6 @@ controller
 recordSelectedResult
 (
 event
-result
 resultIndex
 )
 ;
