@@ -39,8 +39,6 @@ run_if_e10s
     
 run_if_manage_instance
     
-skip
-    
 skip_if_mobile
     
 WindowManagerMixin
@@ -6536,24 +6534,6 @@ slow
 "
 )
     
-skip
-(
-"
-Bug
-1422741
--
-Causes
-following
-tests
-to
-fail
-in
-loading
-remote
-browser
-"
-)
-    
 run_if_e10s
 (
 "
@@ -6583,6 +6563,7 @@ capabilities
 after
 listener
 reload
+.
 "
 "
 "
