@@ -4042,6 +4042,14 @@ else
 if
 (
 mDocument
+&
+&
+mDocument
+-
+>
+IsCurrentActiveDocument
+(
+)
 )
 {
 window
