@@ -3536,6 +3536,17 @@ in
 gfxData
 )
 ;
+Assert
+.
+ok
+(
+"
+Headless
+"
+in
+gfxData
+)
+;
 if
 (
 gIsWindows

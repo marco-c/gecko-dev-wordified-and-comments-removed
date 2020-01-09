@@ -1734,6 +1734,16 @@ bool
 null
 on
 failure
+Headless
+:
+<
+bool
+>
+/
+/
+null
+on
+failure
 /
 /
 DWriteVersion
