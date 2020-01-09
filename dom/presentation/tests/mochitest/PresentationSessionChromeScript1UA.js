@@ -619,7 +619,7 @@ sendIceCandidate
 candidate
 )
 {
-mockControlChannelOfReceiver
+mockControlChannelOfSender
 .
 notifyIceCandidate
 (
