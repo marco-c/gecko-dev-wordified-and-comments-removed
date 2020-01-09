@@ -987,6 +987,7 @@ description
 Checks
 if
 Telemetry
+upload
 is
 enabled
 .

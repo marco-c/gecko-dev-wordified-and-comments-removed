@@ -414,6 +414,10 @@ for
 additional
 information
 .
+.
+.
+_registerscalars
+:
 registerScalars
 (
 )

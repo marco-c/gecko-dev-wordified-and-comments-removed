@@ -2047,6 +2047,10 @@ event
 summary
 >
 .
+.
+.
+_registerevents
+:
 registerEvents
 (
 )
