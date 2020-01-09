@@ -1862,17 +1862,6 @@ false
 user_pref
 (
 "
-lightweightThemes
-.
-selectedThemeID
-"
-"
-"
-)
-;
-user_pref
-(
-"
 marionette
 .
 prefs

@@ -11,15 +11,6 @@ org
 "
 ;
 const
-PREF_LWTHEME_USED_THEMES
-=
-"
-lightweightThemes
-.
-usedThemes
-"
-;
-const
 COMPACT_LIGHT_ID
 =
 "

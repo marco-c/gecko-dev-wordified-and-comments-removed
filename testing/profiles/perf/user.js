@@ -1329,17 +1329,6 @@ lastDailyNotification
 user_pref
 (
 "
-lightweightThemes
-.
-selectedThemeID
-"
-"
-"
-)
-;
-user_pref
-(
-"
 media
 .
 capturestream_hints
