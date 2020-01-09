@@ -33,6 +33,11 @@ dump
 "
 :
 false
+"
+WebAssembly
+"
+:
+false
 }
 }
 ;
