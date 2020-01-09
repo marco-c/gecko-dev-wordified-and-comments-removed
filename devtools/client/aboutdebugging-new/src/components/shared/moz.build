@@ -56,12 +56,12 @@ MPL
 DevToolsModules
 (
 '
-ErrorMessage
+Message
 .
 css
 '
 '
-ErrorMessage
+Message
 .
 js
 '
