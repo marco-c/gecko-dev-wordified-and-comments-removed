@@ -2439,12 +2439,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 f
-f
--
->
-GetParent
-(
-)
 )
 ;
 }

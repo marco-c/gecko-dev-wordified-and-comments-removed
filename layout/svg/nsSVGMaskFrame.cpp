@@ -630,7 +630,6 @@ nsSVGUtils
 GetTransformMatrixInUserSpace
 (
 kid
-this
 )
 *
 m

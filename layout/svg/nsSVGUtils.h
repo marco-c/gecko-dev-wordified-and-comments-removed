@@ -1643,10 +1643,6 @@ const
 nsIFrame
 *
 aFrame
-const
-nsIFrame
-*
-aAncestor
 )
 ;
 }
