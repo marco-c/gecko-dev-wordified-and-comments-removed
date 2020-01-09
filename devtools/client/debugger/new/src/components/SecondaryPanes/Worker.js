@@ -182,12 +182,17 @@ this
 props
 ;
 const
-label
+worker
 =
 isWorker
 (
 thread
 )
+;
+const
+label
+=
+worker
 ?
 getDisplayName
 (
@@ -255,7 +260,7 @@ AccessibleImage
 className
 =
 {
-isWorker
+worker
 ?
 "
 worker
