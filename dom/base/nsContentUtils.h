@@ -6569,6 +6569,7 @@ Element
 aElement
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 NewXULOrHTMLElement

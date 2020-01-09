@@ -714,6 +714,7 @@ CustomElementReaction
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 Invoke
@@ -853,6 +854,7 @@ return
 temp
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 LeaveCEReactions
 (
@@ -934,6 +936,7 @@ CreateAndPushElementQueue
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PopAndInvokeElementQueue
 (
@@ -955,11 +958,13 @@ mBackupQueue
 bool
 mIsBackupQueueProcessing
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 InvokeBackupQueue
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 InvokeReactions
 (
@@ -1042,6 +1047,7 @@ mIsBackupQueueProcessing
 true
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 Run
@@ -1119,6 +1125,7 @@ Runnable
 {
 public
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_DECL_NSIRUNNABLE
 explicit
 RunCustomElementCreationCallback
@@ -1260,6 +1267,7 @@ CustomElementDefinition
 aDefinition
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 Upgrade
@@ -1820,6 +1828,7 @@ EnterCEReactions
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ~
 AutoCEReaction
 (
