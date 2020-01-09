@@ -24,7 +24,6 @@ mn_cli
 runner_class
 =
 TelemetryTestRunner
-           
 args
 =
 args
@@ -33,9 +32,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 cli

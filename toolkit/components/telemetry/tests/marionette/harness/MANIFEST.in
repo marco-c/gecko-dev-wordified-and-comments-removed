@@ -6,3 +6,10 @@ include
 requirements
 .
 txt
+recursive
+-
+include
+telemetry_harness
+/
+resources
+*
