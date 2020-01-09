@@ -136,6 +136,7 @@ ctrl
 "
 )
 }
++
 )
 .
 replace
@@ -148,6 +149,7 @@ Shift
 g
 "
 Shift
++
 "
 )
 ;
