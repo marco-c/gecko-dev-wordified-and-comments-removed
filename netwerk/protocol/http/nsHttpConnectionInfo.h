@@ -53,6 +53,15 @@ h
 #
 include
 "
+mozilla
+/
+AlreadyAddRefed
+.
+h
+"
+#
+include
+"
 ARefBase
 .
 h
@@ -260,8 +269,10 @@ return
 mRoutedPort
 ;
 }
+already_AddRefed
+<
 nsHttpConnectionInfo
-*
+>
 Clone
 (
 )
