@@ -41,9 +41,6 @@ use
 style
 :
 :
-gecko
-:
-:
 global_style_data
 :
 :
