@@ -141,6 +141,16 @@ TemporaryExtensionInstaller
 js
 '
 '
+TemporaryExtensionInstallSection
+.
+css
+'
+'
+TemporaryExtensionInstallSection
+.
+js
+'
+'
 WorkerDetail
 .
 js

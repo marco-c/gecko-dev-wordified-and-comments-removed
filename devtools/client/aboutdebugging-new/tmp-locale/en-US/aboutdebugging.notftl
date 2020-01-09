@@ -1117,6 +1117,9 @@ temporary
 -
 extensions
 =
+.
+name
+=
 Temporary
 Extensions
 #
@@ -1134,6 +1137,9 @@ runtime
 -
 extensions
 =
+.
+name
+=
 Extensions
 #
 Title
@@ -1149,6 +1155,9 @@ debugging
 runtime
 -
 tabs
+=
+.
+name
 =
 Tabs
 #
@@ -1168,6 +1177,9 @@ runtime
 service
 -
 workers
+=
+.
+name
 =
 Service
 Workers
@@ -1189,6 +1201,9 @@ shared
 -
 workers
 =
+.
+name
+=
 Shared
 Workers
 #
@@ -1208,6 +1223,9 @@ runtime
 other
 -
 workers
+=
+.
+name
 =
 Other
 Workers
