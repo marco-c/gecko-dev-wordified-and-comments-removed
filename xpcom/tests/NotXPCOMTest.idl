@@ -79,7 +79,7 @@ e638f87d2607
 )
 ]
 interface
-ScriptableOK
+nsIScriptableOK
 :
 nsISupports
 {
@@ -106,7 +106,7 @@ c97f9aab2950
 )
 ]
 interface
-ScriptableWithNotXPCOM
+nsIScriptableWithNotXPCOM
 :
 nsISupports
 {
@@ -136,9 +136,9 @@ b2b595285558
 )
 ]
 interface
-ScriptableWithNotXPCOMBase
+nsIScriptableWithNotXPCOMBase
 :
-ScriptableWithNotXPCOM
+nsIScriptableWithNotXPCOM
 {
 void
 method3
