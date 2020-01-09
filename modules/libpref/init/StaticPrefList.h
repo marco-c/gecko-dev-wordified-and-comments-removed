@@ -4380,6 +4380,17 @@ true
 VARCACHE_PREF
 (
 "
+ui
+.
+use_standins_for_native_colors
+"
+ui_use_standins_for_native_colors
+RelaxedAtomicBool
+false
+)
+VARCACHE_PREF
+(
+"
 channelclassifier
 .
 allowlist_example

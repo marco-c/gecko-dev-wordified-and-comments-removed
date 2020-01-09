@@ -1029,6 +1029,12 @@ aDoc
 )
 ;
 static
+bool
+UseStandinsForNativeColors
+(
+)
+;
+static
 void
 CalcRoundedWindowSizeForResistingFingerprinting
 (
