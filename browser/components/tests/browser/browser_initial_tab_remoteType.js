@@ -399,10 +399,11 @@ setup
 (
 )
 {
-gBrowser
+NewTabPagePreloading
 .
 removePreloadedBrowser
 (
+window
 )
 ;
 await
