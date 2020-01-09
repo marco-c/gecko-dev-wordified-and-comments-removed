@@ -782,6 +782,9 @@ NrSocketProxyConfig
 aProxyConfig
 )
 {
+#
+if
+0
 mInitPromise
 -
 >
@@ -853,6 +856,8 @@ aError
 }
 )
 ;
+#
+endif
 }
 void
 MediaTransportHandlerIPC
