@@ -220,6 +220,12 @@ description
 -
 text
 "
+buttons
+=
+"
+cancel
+extra1
+"
 xmlns
 =
 "
@@ -561,7 +567,7 @@ button
 dlgtype
 =
 "
-accept
+extra1
 "
 label
 =
