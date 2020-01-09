@@ -1263,6 +1263,15 @@ newLength
 isValid
 (
 )
+|
+|
+newLength
+.
+value
+(
+)
+>
+MaxTableLength
 )
 {
 return
