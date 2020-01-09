@@ -5668,7 +5668,7 @@ GetContentBlockingLog
 )
 returns
 (
-nsString
+nsCString
 log
 bool
 success

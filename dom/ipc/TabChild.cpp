@@ -15252,7 +15252,7 @@ success
 =
 false
 ;
-nsAutoString
+nsAutoCString
 result
 ;
 if
@@ -15292,7 +15292,7 @@ aResolve
 Tuple
 <
 const
-nsString
+nsCString
 &
 const
 bool
