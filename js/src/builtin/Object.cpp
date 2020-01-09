@@ -11290,6 +11290,12 @@ splicePrototype
 (
 cx
 global
+global
+-
+>
+getClass
+(
+)
 tagged
 )
 )

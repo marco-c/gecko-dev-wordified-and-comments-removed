@@ -1539,6 +1539,13 @@ js
 :
 HandleObject
 obj
+const
+js
+:
+:
+Class
+*
+clasp
 js
 :
 :
@@ -1550,6 +1557,11 @@ js
 TaggedProto
 >
 proto
+)
+;
+bool
+shouldSplicePrototype
+(
 )
 ;
 inline
