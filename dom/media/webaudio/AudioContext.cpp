@@ -4605,6 +4605,9 @@ Closed
 |
 mCloseCalled
 )
+|
+|
+mIsShutDown
 )
 {
 return
@@ -4713,6 +4716,9 @@ Closed
 |
 mCloseCalled
 )
+|
+|
+mIsShutDown
 )
 {
 return
