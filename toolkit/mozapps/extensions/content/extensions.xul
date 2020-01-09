@@ -787,6 +787,15 @@ menulist
 >
 <
 panel
+is
+=
+"
+autocomplete
+-
+richlistbox
+-
+popup
+"
 type
 =
 "

@@ -590,6 +590,15 @@ true
 >
 <
 panel
+is
+=
+"
+autocomplete
+-
+richlistbox
+-
+popup
+"
 type
 =
 "

@@ -731,6 +731,17 @@ createXULElement
 "
 panel
 "
+{
+is
+:
+"
+autocomplete
+-
+richlistbox
+-
+popup
+"
+}
 )
 ;
 popup

@@ -4089,6 +4089,15 @@ richpopup
 >
 <
 panel
+is
+=
+"
+autocomplete
+-
+richlistbox
+-
+popup
+"
 id
 =
 "

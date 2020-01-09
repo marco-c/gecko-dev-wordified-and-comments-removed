@@ -2941,6 +2941,15 @@ manager
 >
 <
 panel
+is
+=
+"
+autocomplete
+-
+richlistbox
+-
+popup
+"
 type
 =
 "
