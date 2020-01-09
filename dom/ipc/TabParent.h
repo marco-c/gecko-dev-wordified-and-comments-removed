@@ -2630,6 +2630,11 @@ bool
 aForDocumentNavigation
 )
 ;
+ShowInfo
+GetShowInfo
+(
+)
+;
 protected
 :
 bool
@@ -3126,11 +3131,6 @@ mActiveSupressDisplayportCount
 ;
 #
 endif
-ShowInfo
-GetShowInfo
-(
-)
-;
 private
 :
 typedef
