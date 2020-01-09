@@ -170,8 +170,8 @@ js
 namespace
 jit
 {
-struct
-BaselineScript
+class
+JitScript
 ;
 enum
 class
@@ -8595,9 +8595,9 @@ realm
 jit
 :
 :
-BaselineScript
+JitScript
 *
-baselineScript
+jitScript
 ;
 GCPtrFunction
 fun
