@@ -2666,7 +2666,7 @@ geo
 )
 hardcoded_layout
 :
-true
+false
 personalized
 :
 false
