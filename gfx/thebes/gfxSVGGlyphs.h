@@ -88,14 +88,14 @@ class
 nsIContentViewer
 ;
 class
-nsIPresShell
-;
-class
 gfxSVGGlyphs
 ;
 namespace
 mozilla
 {
+class
+PresShell
+;
 class
 SVGContextPaint
 ;
