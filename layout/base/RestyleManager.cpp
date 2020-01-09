@@ -11227,6 +11227,7 @@ aStyleSet
 .
 ResolvePseudoElementStyle
 (
+*
 aFrame
 -
 >
@@ -11248,7 +11249,6 @@ aFrame
 Style
 (
 )
-nullptr
 )
 ;
 MOZ_ASSERT
@@ -11469,6 +11469,7 @@ StyleSet
 .
 ResolvePseudoElementStyle
 (
+*
 aFrame
 -
 >
@@ -11487,7 +11488,6 @@ aFrame
 Style
 (
 )
-nullptr
 )
 ;
 uint32_t

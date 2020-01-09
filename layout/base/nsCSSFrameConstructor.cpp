@@ -5021,6 +5021,7 @@ StyleSet
 >
 ResolvePseudoElementStyle
 (
+*
 aContent
 -
 >
@@ -5031,7 +5032,6 @@ PseudoStyleType
 :
 :
 backdrop
-nullptr
 nullptr
 )
 ;
@@ -38984,6 +38984,7 @@ StyleSet
 >
 ResolvePseudoElementStyle
 (
+*
 aContent
 -
 >
@@ -38995,7 +38996,6 @@ PseudoStyleType
 :
 firstLetter
 aComputedStyle
-nullptr
 )
 ;
 }
@@ -39036,6 +39036,7 @@ StyleSet
 >
 ResolvePseudoElementStyle
 (
+*
 aContent
 -
 >
@@ -39047,7 +39048,6 @@ PseudoStyleType
 :
 firstLine
 aComputedStyle
-nullptr
 )
 ;
 }
