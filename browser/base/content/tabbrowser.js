@@ -22598,7 +22598,7 @@ this
 .
 mBrowser
 .
-initialPageLoadedFromURLBar
+initialPageLoadedFromUserAction
 !
 =
 originalLocation
@@ -22646,7 +22646,7 @@ this
 .
 mBrowser
 .
-initialPageLoadedFromURLBar
+initialPageLoadedFromUserAction
 ;
 this
 .
