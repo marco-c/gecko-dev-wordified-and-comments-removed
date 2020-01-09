@@ -628,6 +628,11 @@ macosx
 :
 1
 macosx64
+/
+debug
+:
+3
+macosx64
 -
 ccov
 /
