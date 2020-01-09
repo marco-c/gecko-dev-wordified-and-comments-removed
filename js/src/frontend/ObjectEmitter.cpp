@@ -1142,6 +1142,10 @@ JSAtom
 key
 )
 {
+obj_
+=
+nullptr
+;
 return
 emitInit
 (
@@ -1173,6 +1177,10 @@ JSAtom
 key
 )
 {
+obj_
+=
+nullptr
+;
 return
 emitInit
 (
@@ -1221,6 +1229,10 @@ emitInitIndexGetter
 (
 )
 {
+obj_
+=
+nullptr
+;
 return
 emitInitIndexOrComputed
 (
@@ -1245,6 +1257,10 @@ emitInitIndexSetter
 (
 )
 {
+obj_
+=
+nullptr
+;
 return
 emitInitIndexOrComputed
 (
@@ -1295,6 +1311,10 @@ emitInitComputedGetter
 (
 )
 {
+obj_
+=
+nullptr
+;
 return
 emitInitIndexOrComputed
 (
@@ -1319,6 +1339,10 @@ emitInitComputedSetter
 (
 )
 {
+obj_
+=
+nullptr
+;
 return
 emitInitIndexOrComputed
 (
