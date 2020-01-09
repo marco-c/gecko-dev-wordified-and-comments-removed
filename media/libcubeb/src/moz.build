@@ -421,12 +421,14 @@ CXXFLAGS
 [
 '
 -
-wd4005
+Wno
+-
+macro
+-
+redefined
 '
 ]
 #
-C4005
-:
 '
 _USE_MATH_DEFINES
 '

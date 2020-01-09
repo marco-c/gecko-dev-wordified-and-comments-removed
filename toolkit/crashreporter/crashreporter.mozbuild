@@ -142,11 +142,12 @@ CXXFLAGS
 [
 '
 -
-wd4005
-'
-#
+Wno
+-
 macro
-redefinition
+-
+redefined
+'
 '
 -
 wd4146
