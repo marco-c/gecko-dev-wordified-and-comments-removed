@@ -9724,6 +9724,8 @@ return
 CommonTestPermission
 (
 aURI
+-
+1
 aType
 aPermission
 true
@@ -9753,6 +9755,8 @@ return
 CommonTestPermission
 (
 aPrincipal
+-
+1
 aType
 aPermission
 true
@@ -9782,6 +9786,8 @@ return
 CommonTestPermission
 (
 aPrincipal
+-
+1
 aType
 aPermission
 true
@@ -9811,6 +9817,8 @@ return
 CommonTestPermission
 (
 aURI
+-
+1
 aType
 aPermission
 false
@@ -9843,6 +9851,9 @@ preparationResult
 CommonPrepareToTestPermission
 (
 nullptr
+-
+1
+aType
 aPermission
 )
 ;
@@ -9874,6 +9885,9 @@ CommonTestPermissionInternal
 nullptr
 nullptr
 aOriginNoSuffix
+preparationResult
+.
+mTypeIndex
 aType
 aPermission
 false
@@ -9981,6 +9995,8 @@ return
 CommonTestPermission
 (
 aPrincipal
+-
+1
 aType
 aPermission
 false
@@ -10297,6 +10313,8 @@ const
 nsACString
 &
 aOriginNoSuffix
+int32_t
+aTypeIndex
 const
 char
 *
@@ -10479,6 +10497,7 @@ rv
 CommonTestPermission
 (
 prin
+aTypeIndex
 aType
 &
 perm
@@ -10618,26 +10637,6 @@ aType
 }
 #
 endif
-int32_t
-typeIndex
-=
-GetTypeIndex
-(
-aType
-false
-)
-;
-if
-(
-typeIndex
-=
-=
--
-1
-)
-return
-NS_OK
-;
 PermissionHashKey
 *
 entry
@@ -10647,7 +10646,7 @@ aPrincipal
 GetPermissionHashKey
 (
 aPrincipal
-typeIndex
+aTypeIndex
 aExactHostMatch
 )
 :
@@ -10655,7 +10654,7 @@ GetPermissionHashKey
 (
 aURI
 aOriginNoSuffix
-typeIndex
+aTypeIndex
 aExactHostMatch
 )
 ;
@@ -10675,7 +10674,7 @@ entry
 >
 GetPermission
 (
-typeIndex
+aTypeIndex
 )
 .
 mNonSessionExpireType
@@ -10702,7 +10701,7 @@ entry
 >
 GetPermission
 (
-typeIndex
+aTypeIndex
 )
 .
 mPermission
@@ -10712,7 +10711,7 @@ entry
 >
 GetPermission
 (
-typeIndex
+aTypeIndex
 )
 .
 mNonSessionPermission
