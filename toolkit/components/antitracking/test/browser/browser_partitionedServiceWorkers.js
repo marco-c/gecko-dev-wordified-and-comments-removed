@@ -1,4 +1,4 @@
-StoragePrincipalHelper
+PartitionedStorageHelper
 .
 runTest
 (
@@ -214,7 +214,7 @@ true
 ]
 )
 ;
-StoragePrincipalHelper
+PartitionedStorageHelper
 .
 runTest
 (

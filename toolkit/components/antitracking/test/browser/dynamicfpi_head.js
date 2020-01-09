@@ -5,7 +5,7 @@ strict
 ;
 this
 .
-StoragePrincipalHelper
+DynamicFPIHelper
 =
 {
 runTest
@@ -35,8 +35,8 @@ name
 "
 '
 with
-storage
-principal
+dynamic
+FPI
 .
 .
 .
@@ -83,7 +83,7 @@ Ci
 .
 nsICookieService
 .
-BEHAVIOR_REJECT_TRACKER
+BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
 ]
 [
 "
@@ -125,7 +125,7 @@ storagePrincipal
 .
 enabledForTrackers
 "
-true
+false
 ]
 [
 "
@@ -185,13 +185,6 @@ extraPrefs
 )
 ;
 }
-await
-UrlClassifierTestUtils
-.
-addTestTrackers
-(
-)
-;
 info
 (
 "
@@ -257,7 +250,7 @@ browser
 {
 page
 :
-TEST_3RD_PARTY_STORAGE_PAGE
+TEST_4TH_PARTY_STORAGE_PAGE
 callback
 :
 callback
@@ -576,12 +569,6 @@ cleanupFunction
 )
 ;
 }
-UrlClassifierTestUtils
-.
-cleanupTestTrackers
-(
-)
-;
 }
 )
 ;

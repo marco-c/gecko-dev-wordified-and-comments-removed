@@ -1,4 +1,4 @@
-StoragePrincipalHelper
+PartitionedStorageHelper
 .
 runTest
 (
