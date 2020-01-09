@@ -775,8 +775,6 @@ float
 destSize
 .
 width
--
-1
 )
 ;
 float
@@ -794,8 +792,6 @@ float
 destSize
 .
 height
--
-1
 )
 ;
 unsigned
