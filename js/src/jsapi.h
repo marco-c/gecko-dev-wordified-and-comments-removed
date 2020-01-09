@@ -12648,9 +12648,6 @@ obj
 namespace
 js
 {
-class
-AutoStopwatch
-;
 extern
 JS_PUBLIC_API
 void
