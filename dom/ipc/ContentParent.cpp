@@ -15453,7 +15453,7 @@ u
 "
 browser
 .
-slowstartup
+slowStartup
 .
 "
 )
