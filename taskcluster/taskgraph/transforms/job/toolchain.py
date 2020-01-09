@@ -1150,6 +1150,17 @@ trust
 =
 True
     
+run
+[
+'
+use
+-
+caches
+'
+]
+=
+False
+    
 support_vcs_checkout
 (
 config
