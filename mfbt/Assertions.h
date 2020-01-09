@@ -744,6 +744,11 @@ MOZ_CRASH_WRITE_ADDR
 =
 line
 ;
+/
+*
+NOLINT
+*
+/
 \
 :
 :
@@ -781,6 +786,11 @@ MOZ_CRASH_WRITE_ADDR
 =
 line
 ;
+/
+*
+NOLINT
+*
+/
 \
 abort
 (
