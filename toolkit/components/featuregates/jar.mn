@@ -61,11 +61,7 @@ jar
 resource
 featuregates
 %
-res
-/
 featuregates
-/
-res
 /
 featuregates
 /
@@ -79,8 +75,6 @@ FeatureGate
 .
 jsm
 )
-res
-/
 featuregates
 /
 FeatureGateImplementation
@@ -93,8 +87,6 @@ FeatureGateImplementation
 .
 jsm
 )
-res
-/
 featuregates
 /
 feature_definitions
