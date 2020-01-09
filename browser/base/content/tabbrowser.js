@@ -2229,7 +2229,6 @@ userTypedValue
 val
 )
 {
-return
 this
 .
 selectedBrowser
