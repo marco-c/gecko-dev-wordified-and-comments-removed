@@ -173,6 +173,7 @@ friend
 class
 MediaDocumentStreamListener
 ;
+virtual
 nsresult
 StartLayout
 (
