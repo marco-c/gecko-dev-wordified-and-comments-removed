@@ -63,9 +63,15 @@ button
 =
 node
 .
-ui
+querySelector
+(
+"
 .
+tabmodalprompt
+-
 button0
+"
+)
 ;
 button
 .

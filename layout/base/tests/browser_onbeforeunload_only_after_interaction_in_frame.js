@@ -184,9 +184,15 @@ dismissButton
 =
 node
 .
-ui
+querySelector
+(
+"
 .
+tabmodalprompt
+-
 button0
+"
+)
 ;
 dismissButton
 .
