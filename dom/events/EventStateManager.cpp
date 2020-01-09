@@ -5820,6 +5820,16 @@ preciseRemote
 }
 }
 else
+if
+(
+aEvent
+-
+>
+mClass
+=
+=
+eKeyboardEventClass
+)
 {
 TabParent
 *
