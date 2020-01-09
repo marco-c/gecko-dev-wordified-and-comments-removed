@@ -472,8 +472,10 @@ uint32_t
 aValue
 ;
 }
+nsCOMPtr
+<
 nsINode
-*
+>
 row
 =
 rows
