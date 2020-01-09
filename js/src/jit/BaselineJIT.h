@@ -2339,7 +2339,7 @@ exceptionInfo
 )
 ;
 void
-MarkActiveTypeScripts
+MarkActiveJitScripts
 (
 Zone
 *

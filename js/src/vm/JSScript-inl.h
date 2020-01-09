@@ -1232,7 +1232,7 @@ hasICScript
 )
 ;
 return
-types_
+jitScript_
 -
 >
 icScript

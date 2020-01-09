@@ -2894,8 +2894,8 @@ EXECUTION
 "
 )
 ;
-AutoKeepTypeScripts
-keepTypes
+AutoKeepJitScripts
+keepJitScripts
 (
 cx
 )

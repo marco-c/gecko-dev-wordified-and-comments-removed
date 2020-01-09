@@ -12714,7 +12714,7 @@ next
 )
 )
 {
-AutoSweepTypeScript
+AutoSweepJitScript
 sweep
 (
 script
@@ -29796,7 +29796,7 @@ JSScript
 script
 )
 {
-AutoSweepTypeScript
+AutoSweepJitScript
 sweep
 (
 script
@@ -41031,7 +41031,7 @@ MOZ_ASSERT
 script
 -
 >
-types
+jitScript
 (
 )
 )

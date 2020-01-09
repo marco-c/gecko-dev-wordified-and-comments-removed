@@ -12833,7 +12833,7 @@ hasScriptCounts
 script
 -
 >
-types
+jitScript
 (
 )
 )

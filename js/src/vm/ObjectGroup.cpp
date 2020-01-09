@@ -8245,7 +8245,7 @@ isSingleton
 )
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType

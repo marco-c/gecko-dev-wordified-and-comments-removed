@@ -1367,7 +1367,7 @@ monitoredResult
 )
 )
 {
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -1542,7 +1542,7 @@ return
 false
 ;
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType

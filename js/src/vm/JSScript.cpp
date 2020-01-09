@@ -22757,7 +22757,7 @@ size_t
 JSScript
 :
 :
-sizeOfTypeScript
+sizeOfJitScript
 (
 mozilla
 :
@@ -22768,9 +22768,9 @@ mallocSizeOf
 const
 {
 return
-types_
+jitScript_
 ?
-types_
+jitScript_
 -
 >
 sizeOfIncludingThis
@@ -22881,10 +22881,10 @@ this
 ;
 if
 (
-types_
+jitScript_
 )
 {
-types_
+jitScript_
 -
 >
 destroy
@@ -30703,7 +30703,7 @@ jitCodeRaw_
 else
 if
 (
-types
+jitScript
 (
 )
 &
@@ -31137,7 +31137,7 @@ get
 (
 )
 .
-sizeOfTypeScript
+sizeOfJitScript
 (
 mallocSizeOf
 )

@@ -1663,7 +1663,7 @@ if
 script
 -
 >
-types
+jitScript
 (
 )
 )
@@ -1726,8 +1726,8 @@ return
 Method_Error
 ;
 }
-AutoKeepTypeScripts
-keepTypes
+AutoKeepJitScripts
+keepJitScript
 (
 cx
 )
@@ -1738,10 +1738,10 @@ if
 script
 -
 >
-ensureHasTypes
+ensureHasJitScript
 (
 cx
-keepTypes
+keepJitScript
 )
 )
 {
@@ -7050,7 +7050,7 @@ MOZ_ASSERT
 script
 -
 >
-types
+jitScript
 (
 )
 -
@@ -7552,7 +7552,7 @@ enable
 endif
 static
 void
-MarkActiveTypeScripts
+MarkActiveJitScripts
 (
 JSContext
 *
@@ -7616,7 +7616,7 @@ script
 )
 -
 >
-types
+jitScript
 (
 )
 -
@@ -7690,7 +7690,7 @@ calleeToken
 script
 -
 >
-types
+jitScript
 (
 )
 -
@@ -7722,7 +7722,7 @@ script
 )
 -
 >
-types
+jitScript
 (
 )
 -
@@ -7759,7 +7759,7 @@ script
 )
 -
 >
-types
+jitScript
 (
 )
 -
@@ -7782,7 +7782,7 @@ void
 jit
 :
 :
-MarkActiveTypeScripts
+MarkActiveJitScripts
 (
 Zone
 *
@@ -7850,7 +7850,7 @@ zone
 zone
 )
 {
-MarkActiveTypeScripts
+MarkActiveJitScripts
 (
 cx
 iter

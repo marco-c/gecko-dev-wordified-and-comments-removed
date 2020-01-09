@@ -151,7 +151,7 @@ class
 TypeConstraint
 ;
 class
-TypeScript
+JitScript
 ;
 class
 TypeZone
@@ -284,7 +284,7 @@ endif
 ;
 class
 MOZ_RAII
-AutoSweepTypeScript
+AutoSweepJitScript
 :
 public
 AutoSweepBase
@@ -296,9 +296,9 @@ Zone
 *
 zone_
 ;
-TypeScript
+JitScript
 *
-typeScript_
+jitScript_
 ;
 #
 endif
@@ -306,7 +306,7 @@ public
 :
 inline
 explicit
-AutoSweepTypeScript
+AutoSweepJitScript
 (
 JSScript
 *
@@ -318,19 +318,19 @@ ifdef
 DEBUG
 inline
 ~
-AutoSweepTypeScript
+AutoSweepJitScript
 (
 )
 ;
-TypeScript
+JitScript
 *
-typeScript
+jitScript
 (
 )
 const
 {
 return
-typeScript_
+jitScript_
 ;
 }
 Zone
@@ -729,7 +729,7 @@ SystemAllocPolicy
 RecompileInfoVector
 ;
 class
-TypeScript
+JitScript
 {
 friend
 class
@@ -810,7 +810,7 @@ static_assert
 (
 sizeof
 (
-TypeScript
+JitScript
 )
 =
 =
@@ -821,7 +821,7 @@ typeArray_
 +
 offsetof
 (
-TypeScript
+JitScript
 typeArray_
 )
 "
@@ -832,7 +832,7 @@ the
 last
 member
 of
-TypeScript
+JitScript
 "
 )
 ;
@@ -886,7 +886,7 @@ generation
 }
 public
 :
-TypeScript
+JitScript
 (
 JSScript
 *
@@ -906,7 +906,7 @@ const
 js
 :
 :
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 )
@@ -916,7 +916,7 @@ MOZ_ASSERT
 (
 sweep
 .
-typeScript
+jitScript
 (
 )
 =
@@ -937,7 +937,7 @@ const
 js
 :
 :
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 )
@@ -946,7 +946,7 @@ MOZ_ASSERT
 (
 sweep
 .
-typeScript
+jitScript
 (
 )
 =
@@ -978,7 +978,7 @@ const
 js
 :
 :
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 Zone
@@ -994,7 +994,7 @@ const
 js
 :
 :
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 )
@@ -1003,7 +1003,7 @@ MOZ_ASSERT
 (
 sweep
 .
-typeScript
+jitScript
 (
 )
 =
@@ -1023,7 +1023,7 @@ const
 js
 :
 :
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 RecompileInfo
@@ -1034,7 +1034,7 @@ MOZ_ASSERT
 (
 sweep
 .
-typeScript
+jitScript
 (
 )
 =
@@ -1163,7 +1163,7 @@ const
 js
 :
 :
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 )
@@ -1172,7 +1172,7 @@ MOZ_ASSERT
 (
 sweep
 .
-typeScript
+jitScript
 (
 )
 =
@@ -1218,7 +1218,7 @@ StackTypeSet
 thisTypes
 (
 const
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 JSScript
@@ -1232,7 +1232,7 @@ StackTypeSet
 argTypes
 (
 const
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 JSScript
@@ -1248,7 +1248,7 @@ StackTypeSet
 bytecodeTypes
 (
 const
-AutoSweepTypeScript
+AutoSweepJitScript
 &
 sweep
 JSScript
@@ -1560,7 +1560,7 @@ sized
 return
 offsetof
 (
-TypeScript
+JitScript
 icScript_
 )
 ;
@@ -1584,7 +1584,7 @@ endif
 ;
 class
 MOZ_RAII
-AutoKeepTypeScripts
+AutoKeepJitScripts
 {
 TypeZone
 &
@@ -1593,10 +1593,10 @@ zone_
 bool
 prev_
 ;
-AutoKeepTypeScripts
+AutoKeepJitScripts
 (
 const
-AutoKeepTypeScripts
+AutoKeepJitScripts
 &
 )
 =
@@ -1607,7 +1607,7 @@ operator
 =
 (
 const
-AutoKeepTypeScripts
+AutoKeepJitScripts
 &
 )
 =
@@ -1617,7 +1617,7 @@ public
 :
 explicit
 inline
-AutoKeepTypeScripts
+AutoKeepJitScripts
 (
 JSContext
 *
@@ -1626,7 +1626,7 @@ cx
 ;
 inline
 ~
-AutoKeepTypeScripts
+AutoKeepJitScripts
 (
 )
 ;
@@ -1755,7 +1755,7 @@ ZoneData
 <
 bool
 >
-keepTypeScripts
+keepJitScripts
 ;
 ZoneData
 <

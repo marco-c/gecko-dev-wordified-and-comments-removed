@@ -925,8 +925,8 @@ logger
 TraceLogger_BaselineCompilation
 )
 ;
-AutoKeepTypeScripts
-keepTypes
+AutoKeepJitScripts
+keepJitScript
 (
 cx
 )
@@ -937,10 +937,10 @@ if
 script
 -
 >
-ensureHasTypes
+ensureHasJitScript
 (
 cx
-keepTypes
+keepJitScript
 )
 )
 {
@@ -6089,7 +6089,7 @@ scratch1
 JSScript
 :
 :
-offsetOfTypes
+offsetOfJitScript
 (
 )
 )
@@ -6103,7 +6103,7 @@ loadPtr
 Address
 (
 scratch2
-TypeScript
+JitScript
 :
 :
 offsetOfICScript
@@ -30127,13 +30127,13 @@ baselineInterpreter
 )
 {
 Address
-typesAddr
+jitScriptAddr
 (
 scratch1
 JSScript
 :
 :
-offsetOfTypes
+offsetOfJitScript
 (
 )
 )
@@ -30146,7 +30146,7 @@ Assembler
 :
 :
 Equal
-typesAddr
+jitScriptAddr
 ImmPtr
 (
 nullptr
@@ -32144,7 +32144,7 @@ scratch2
 JSScript
 :
 :
-offsetOfTypes
+offsetOfJitScript
 (
 )
 )
@@ -32158,7 +32158,7 @@ loadPtr
 Address
 (
 scratch2
-TypeScript
+JitScript
 :
 :
 offsetOfICScript

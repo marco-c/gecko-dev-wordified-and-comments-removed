@@ -24298,7 +24298,7 @@ true
 ;
 }
 }
-TypeScript
+JitScript
 :
 :
 MonitorThisType
@@ -25554,8 +25554,8 @@ return
 false
 ;
 }
-AutoKeepTypeScripts
-keepTypes
+AutoKeepJitScripts
+keepJitScript
 (
 cx
 )
@@ -25566,10 +25566,10 @@ if
 script
 -
 >
-ensureHasTypes
+ensureHasJitScript
 (
 cx
-keepTypes
+keepJitScript
 )
 )
 {

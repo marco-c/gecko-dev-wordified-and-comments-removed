@@ -8567,7 +8567,7 @@ pc
 nullptr
 )
 {
-TypeScript
+JitScript
 :
 :
 MonitorAssign
@@ -11360,7 +11360,7 @@ JSOP_RESUME_LENGTH
 )
 ;
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -15257,7 +15257,7 @@ goto
 error
 ;
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -15364,7 +15364,7 @@ goto
 error
 ;
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -15473,7 +15473,7 @@ goto
 error
 ;
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -16081,7 +16081,7 @@ error
 ;
 }
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -16202,7 +16202,7 @@ goto
 error
 ;
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -16636,7 +16636,7 @@ spAfterCall
 (
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -17349,7 +17349,7 @@ spAfterCall
 (
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -18082,7 +18082,7 @@ PUSH_COPY
 rval
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -18174,7 +18174,7 @@ goto
 error
 ;
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -18231,7 +18231,7 @@ PUSH_COPY
 rval
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -19119,7 +19119,7 @@ PUSH_COPY
 val
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -28471,7 +28471,7 @@ false
 }
 }
 }
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType

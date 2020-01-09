@@ -772,7 +772,7 @@ if
 script
 -
 >
-types
+jitScript
 (
 )
 )

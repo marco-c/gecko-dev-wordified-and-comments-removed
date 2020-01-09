@@ -2469,7 +2469,7 @@ currentScript
 pc
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -2869,7 +2869,7 @@ currentScript
 pc
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
@@ -3722,7 +3722,7 @@ currentScript
 pc
 )
 ;
-TypeScript
+JitScript
 :
 :
 MonitorBytecodeType
