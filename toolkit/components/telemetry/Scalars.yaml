@@ -1676,6 +1676,8 @@ bug_numbers
 :
 -
 1375635
+-
+1523644
 description
 :
 >
@@ -1698,7 +1700,7 @@ rejected
 expires
 :
 "
-68
+72
 "
 kind
 :
