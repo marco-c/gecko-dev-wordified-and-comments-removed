@@ -22316,9 +22316,13 @@ script
 >
 setSpewEnabled
 (
-StructuredSpewer
-:
-:
+cx
+-
+>
+spewer
+(
+)
+.
 enabled
 (
 script
