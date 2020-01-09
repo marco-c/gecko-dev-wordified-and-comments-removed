@@ -21,12 +21,14 @@ enum
 class
 MarkColor
 :
-uint32_t
+uint8_t
 {
+Gray
+=
+1
 Black
 =
-0
-Gray
+2
 }
 ;
 #
