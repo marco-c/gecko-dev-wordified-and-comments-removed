@@ -693,7 +693,7 @@ loadingPrincipal
 *
 /
 nsIChannel
-newChannelFromURI2
+newChannelFromURI
 (
 in
 nsIURI
@@ -762,7 +762,7 @@ aResult
 *
 Equivalent
 to
-newChannelFromURI2
+newChannelFromURI
 (
 aURI
 aLoadingNode
@@ -789,7 +789,7 @@ aLoadInfo
 *
 Equivalent
 to
-newChannelFromURI2
+newChannelFromURI
 (
 newURI
 (
@@ -801,7 +801,7 @@ newURI
 *
 /
 nsIChannel
-newChannel2
+newChannel
 (
 in
 AUTF8String
@@ -1459,7 +1459,7 @@ loadingNode
 *
 /
 nsIChannel
-newChannelFromURIWithProxyFlags2
+newChannelFromURIWithProxyFlags
 (
 in
 nsIURI

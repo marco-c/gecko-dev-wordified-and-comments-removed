@@ -3766,7 +3766,7 @@ NS_IMETHODIMP
 nsIOService
 :
 :
-NewChannelFromURI2
+NewChannelFromURI
 (
 nsIURI
 *
@@ -3791,7 +3791,7 @@ result
 )
 {
 return
-NewChannelFromURIWithProxyFlags2
+NewChannelFromURIWithProxyFlags
 (
 aURI
 nullptr
@@ -4365,7 +4365,7 @@ NS_IMETHODIMP
 nsIOService
 :
 :
-NewChannelFromURIWithProxyFlags2
+NewChannelFromURIWithProxyFlags
 (
 nsIURI
 *
@@ -4425,7 +4425,7 @@ NS_IMETHODIMP
 nsIOService
 :
 :
-NewChannel2
+NewChannel
 (
 const
 nsACString
@@ -4490,7 +4490,7 @@ return
 rv
 ;
 return
-NewChannelFromURI2
+NewChannelFromURI
 (
 uri
 aLoadingNode
@@ -7940,7 +7940,7 @@ channel
 ;
 rv
 =
-NewChannelFromURI2
+NewChannelFromURI
 (
 aURI
 nullptr

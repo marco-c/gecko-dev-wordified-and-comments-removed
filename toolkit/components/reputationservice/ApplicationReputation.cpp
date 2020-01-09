@@ -7818,7 +7818,7 @@ rv
 ios
 -
 >
-NewChannel2
+NewChannel
 (
 serviceUrl
 nullptr

@@ -564,7 +564,7 @@ Services
 .
 io
 .
-newChannelFromURI2
+newChannelFromURI
 (
 iconInfo
 .

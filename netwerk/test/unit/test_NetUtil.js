@@ -2732,7 +2732,7 @@ iosChannel
 =
 ios
 .
-newChannel2
+newChannel
 (
 TEST_SPEC
 null
@@ -2831,7 +2831,7 @@ Services
 .
 io
 .
-newChannelFromURI2
+newChannelFromURI
 (
 uri
 null
@@ -2916,7 +2916,7 @@ Services
 .
 io
 .
-newChannelFromURI2
+newChannelFromURI
 (
 NetUtil
 .

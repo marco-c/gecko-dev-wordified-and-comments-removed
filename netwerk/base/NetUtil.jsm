@@ -1055,7 +1055,7 @@ Services
 .
 io
 .
-newChannelFromURI2
+newChannelFromURI
 (
 uri
 loadingNode

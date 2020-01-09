@@ -837,7 +837,7 @@ rv
 ioService
 -
 >
-NewChannelFromURIWithProxyFlags2
+NewChannelFromURIWithProxyFlags
 (
 uri
 nullptr

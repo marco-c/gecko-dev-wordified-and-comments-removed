@@ -1064,7 +1064,7 @@ rv
 ios
 -
 >
-NewChannel2
+NewChannel
 (
 mAIALocation
 nullptr

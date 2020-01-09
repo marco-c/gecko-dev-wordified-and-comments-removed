@@ -290,7 +290,7 @@ rv
 pService
 -
 >
-NewChannel2
+NewChannel
 (
 path
 nullptr
