@@ -10656,6 +10656,9 @@ ShouldSpew
 (
 )
 ;
+(
+void
+)
 loader
 .
 LoadSymbols
