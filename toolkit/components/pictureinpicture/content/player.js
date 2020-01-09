@@ -252,7 +252,7 @@ close
 }
 )
 ;
-browser
+window
 .
 addEventListener
 (
