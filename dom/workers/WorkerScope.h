@@ -422,6 +422,9 @@ aHandler
 void
 ImportScripts
 (
+JSContext
+*
+aCx
 const
 Sequence
 <
