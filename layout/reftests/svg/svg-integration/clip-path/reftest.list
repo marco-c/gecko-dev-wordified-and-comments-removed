@@ -1072,7 +1072,12 @@ if
 webrender
 &
 &
+(
 winWidget
+|
+|
+cocoaWidget
+)
 0
 -
 1
