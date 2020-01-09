@@ -774,7 +774,7 @@ child
 {
 Utils
 .
-getMessageManager
+getMessageManagerForFrame
 (
 aMessage
 .
@@ -2267,7 +2267,7 @@ mm
 =
 Utils
 .
-getMessageManager
+getMessageManagerForFrame
 (
 domNode
 )

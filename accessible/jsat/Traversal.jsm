@@ -332,7 +332,7 @@ return
 (
 Utils
 .
-getMessageManager
+getMessageManagerForFrame
 (
 aAccessible
 .
