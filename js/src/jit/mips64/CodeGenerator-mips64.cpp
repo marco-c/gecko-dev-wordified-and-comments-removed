@@ -544,8 +544,6 @@ inputReg
 result
 )
 ;
-break
-;
 default
 :
 MOZ_CRASH
@@ -675,8 +673,6 @@ unboxBigInt
 inputAddr
 result
 )
-;
-break
 ;
 default
 :
