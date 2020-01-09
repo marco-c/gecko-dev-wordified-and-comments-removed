@@ -163,6 +163,9 @@ wl_callback
 *
 frame_callback_handler
 ;
+int
+frame_callback_handler_surface_id
+;
 gboolean
 surface_needs_clear
 ;
