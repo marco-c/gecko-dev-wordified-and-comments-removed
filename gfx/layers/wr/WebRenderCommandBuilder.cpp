@@ -12108,7 +12108,17 @@ aItem
 >
 SetPaintRect
 (
+aItem
+-
+>
+GetBuildingRect
+(
+)
+.
+Intersect
+(
 paintBounds
+)
 )
 ;
 aItem
