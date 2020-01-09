@@ -938,7 +938,6 @@ TYPE_OTHER
 nullptr
 nullptr
 nullptr
-nullptr
 nsIRequest
 :
 :

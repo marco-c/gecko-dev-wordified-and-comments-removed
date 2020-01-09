@@ -1259,9 +1259,6 @@ aLoadGroup
 nsIEventTarget
 *
 aMainThreadEventTarget
-nsICookieSettings
-*
-aCookieSettings
 PerformanceStorage
 *
 aPerformanceStorage
@@ -1284,10 +1281,6 @@ aRequest
 mMainThreadEventTarget
 (
 aMainThreadEventTarget
-)
-mCookieSettings
-(
-aCookieSettings
 )
 mPerformanceStorage
 (
@@ -2033,19 +2026,6 @@ NodePrincipal
 mPrincipal
 )
 ;
-MOZ_ASSERT
-(
-mDocument
--
->
-CookieSettings
-(
-)
-=
-=
-mCookieSettings
-)
-;
 rv
 =
 NS_NewChannel
@@ -2104,7 +2084,6 @@ mRequest
 ContentPolicyType
 (
 )
-mCookieSettings
 mPerformanceStorage
 mLoadGroup
 nullptr
@@ -2132,7 +2111,6 @@ mRequest
 ContentPolicyType
 (
 )
-mCookieSettings
 mPerformanceStorage
 mLoadGroup
 nullptr
