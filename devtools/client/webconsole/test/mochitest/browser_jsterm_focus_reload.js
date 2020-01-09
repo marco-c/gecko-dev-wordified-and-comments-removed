@@ -96,9 +96,7 @@ persisted
 )
 ;
 const
-{
-jsterm
-}
+hud
 =
 await
 openNewTabAndConsole
@@ -108,9 +106,9 @@ TEST_URI
 ;
 is
 (
-isJstermFocused
+isInputFocused
 (
-jsterm
+hud
 )
 true
 "
@@ -163,9 +161,9 @@ waitFor
 )
 =
 >
-isJstermFocused
+isInputFocused
 (
-jsterm
+hud
 )
 =
 =
@@ -200,9 +198,9 @@ refreshTab
 ;
 is
 (
-isJstermFocused
+isInputFocused
 (
-jsterm
+hud
 )
 false
 "

@@ -185,13 +185,6 @@ TEST_URI
 )
 ;
 const
-{
-jsterm
-}
-=
-hud
-;
-const
 target
 =
 await
@@ -221,7 +214,7 @@ await
 setInputValueForGetterConfirmDialog
 (
 toolbox
-jsterm
+hud
 "
 window
 .

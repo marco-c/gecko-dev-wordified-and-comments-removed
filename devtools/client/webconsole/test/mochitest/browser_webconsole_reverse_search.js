@@ -971,15 +971,13 @@ value
 ;
 is
 (
-isJstermFocused
+isInputFocused
 (
 hud
-.
-jsterm
 )
 true
 "
-JsTerm
+input
 is
 focused
 "
