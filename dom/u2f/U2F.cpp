@@ -2511,10 +2511,13 @@ code
 ExecuteCallback
 (
 response
+MOZ_KnownLive
+(
 transaction
 .
 GetRegisterCallback
 (
+)
 )
 )
 ;
@@ -2549,10 +2552,13 @@ code
 ExecuteCallback
 (
 response
+MOZ_KnownLive
+(
 transaction
 .
 GetSignCallback
 (
+)
 )
 )
 ;
