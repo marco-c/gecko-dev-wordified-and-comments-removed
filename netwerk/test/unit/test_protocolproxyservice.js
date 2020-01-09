@@ -5674,6 +5674,7 @@ function
 test_onStart
 (
 request
+ctx
 )
 {
 }
@@ -5691,6 +5692,7 @@ function
 test_onStop
 (
 request
+ctx
 status
 )
 {

@@ -15539,6 +15539,7 @@ copyObserver
 onStartRequest
 (
 request
+cx
 )
 {
 dumpn
@@ -15557,6 +15558,7 @@ started
 onStopRequest
 (
 request
+cx
 statusCode
 )
 {
@@ -15762,6 +15764,7 @@ copyObserver
 onStartRequest
 (
 request
+context
 )
 {
 dumpn
@@ -15778,6 +15781,7 @@ onStartRequest
 onStopRequest
 (
 request
+cx
 statusCode
 )
 {
@@ -16163,6 +16167,7 @@ observer
 onStartRequest
 (
 this
+context
 )
 ;
 this
@@ -17458,6 +17463,9 @@ _observer
 onStopRequest
 (
 self
+self
+.
+_context
 self
 .
 status

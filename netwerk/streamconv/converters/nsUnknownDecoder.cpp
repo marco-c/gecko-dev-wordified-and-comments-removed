@@ -231,6 +231,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 )
 {
 return
@@ -249,6 +252,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsIInputStream
 *
 stream
@@ -342,6 +348,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsresult
 status
 )
@@ -588,6 +597,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 aStream
@@ -727,7 +739,7 @@ rv
 FireListenerNotifications
 (
 request
-nullptr
+aCtxt
 )
 ;
 }
@@ -840,6 +852,7 @@ listener
 OnDataAvailable
 (
 request
+aCtxt
 aStream
 aSourceOffset
 aCount
@@ -859,6 +872,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 )
 {
 nsresult
@@ -951,6 +967,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )
@@ -1027,7 +1046,7 @@ rv
 FireListenerNotifications
 (
 request
-nullptr
+aCtxt
 )
 ;
 if
@@ -1088,6 +1107,7 @@ listener
 OnStopRequest
 (
 request
+aCtxt
 aStatus
 )
 ;
@@ -3048,6 +3068,7 @@ listener
 OnStartRequest
 (
 request
+aCtxt
 )
 ;
 nsCOMPtr
@@ -3089,6 +3110,7 @@ listener
 OnStartRequest
 (
 request
+aCtxt
 )
 ;
 nsCOMPtr
@@ -3328,6 +3350,7 @@ listener
 OnDataAvailable
 (
 request
+aCtxt
 in
 0
 len
@@ -3485,6 +3508,7 @@ listener
 OnStartRequest
 (
 request
+nullptr
 )
 ;
 if
@@ -3541,6 +3565,7 @@ listener
 OnDataAvailable
 (
 request
+nullptr
 rawStream
 0
 length
@@ -3559,6 +3584,7 @@ listener
 OnStopRequest
 (
 request
+nullptr
 NS_OK
 )
 ;

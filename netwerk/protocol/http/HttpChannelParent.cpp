@@ -5961,6 +5961,7 @@ mParentListener
 OnDataAvailable
 (
 mChannel
+nullptr
 stringStream
 offset
 count
@@ -6263,6 +6264,7 @@ mParentListener
 OnStopRequest
 (
 mChannel
+nullptr
 status
 )
 ;
@@ -7074,6 +7076,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 nsresult
@@ -7893,6 +7898,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -8268,6 +8276,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -11193,6 +11204,7 @@ mDivertListener
 OnStartRequest
 (
 mChannel
+nullptr
 )
 ;
 if
@@ -11613,6 +11625,7 @@ mParentListener
 OnStartRequest
 (
 mChannel
+nullptr
 )
 ;
 mChannel
@@ -11636,6 +11649,7 @@ mParentListener
 OnStopRequest
 (
 mChannel
+nullptr
 aErrorCode
 )
 ;

@@ -290,6 +290,7 @@ function
 start_objHandler
 (
 ch
+cx
 )
 {
 commonCheck
@@ -412,6 +413,7 @@ function
 start_functionHandler
 (
 ch
+cx
 )
 {
 commonCheck
@@ -551,6 +553,7 @@ function
 start_non_existent_path
 (
 ch
+cx
 )
 {
 commonCheck
@@ -583,6 +586,7 @@ function
 start_lots_of_headers
 (
 ch
+cx
 )
 {
 commonCheck

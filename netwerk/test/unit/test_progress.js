@@ -268,6 +268,7 @@ onStartRequest
 function
 (
 request
+context
 )
 {
 Assert
@@ -310,6 +311,7 @@ _listener
 onStartRequest
 (
 request
+context
 )
 ;
 }
@@ -318,6 +320,7 @@ onDataAvailable
 function
 (
 request
+context
 data
 offset
 count
@@ -346,6 +349,7 @@ _listener
 onDataAvailable
 (
 request
+context
 data
 offset
 count
@@ -357,6 +361,7 @@ onStopRequest
 function
 (
 request
+context
 status
 )
 {
@@ -392,6 +397,7 @@ _listener
 onStopRequest
 (
 request
+context
 status
 )
 ;

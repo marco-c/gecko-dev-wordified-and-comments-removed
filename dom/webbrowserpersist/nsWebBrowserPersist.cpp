@@ -3261,6 +3261,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 if
@@ -3673,6 +3676,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsresult
 status
 )
@@ -3827,6 +3833,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aIStream

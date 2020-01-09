@@ -4891,6 +4891,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 override
 {
@@ -4901,6 +4904,7 @@ mNext
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -4910,6 +4914,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -4973,6 +4980,7 @@ mNext
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -4983,6 +4991,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -5000,6 +5011,7 @@ mNext
 OnDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -13872,6 +13884,7 @@ listener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 mOnStartRequestCalled
@@ -13906,6 +13919,7 @@ listener
 OnStopRequest
 (
 this
+nullptr
 mStatus
 )
 ;

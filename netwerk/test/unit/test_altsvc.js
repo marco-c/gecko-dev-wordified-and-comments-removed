@@ -1341,6 +1341,7 @@ function
 testOnStartRequest
 (
 request
+ctx
 )
 {
 Assert
@@ -1431,6 +1432,7 @@ function
 testOnDataAvailable
 (
 request
+ctx
 stream
 off
 cnt
@@ -1449,6 +1451,7 @@ function
 testOnStopRequest
 (
 request
+ctx
 status
 )
 {

@@ -319,6 +319,7 @@ listener
 onStartRequest
 (
 request
+context
 )
 {
 info
@@ -361,6 +362,7 @@ expected
 onDataAvailable
 (
 request
+context
 stream
 offset
 count
@@ -432,6 +434,7 @@ ex
 onStopRequest
 (
 request
+context
 status
 )
 {

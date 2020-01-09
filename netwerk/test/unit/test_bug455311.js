@@ -433,6 +433,7 @@ onStartRequest
 function
 (
 req
+ctx
 )
 {
 var
@@ -509,6 +510,7 @@ onDataAvailable
 function
 (
 req
+ctx
 stream
 offset
 count
@@ -530,6 +532,7 @@ onStopRequest
 function
 (
 req
+ctx
 status
 )
 {

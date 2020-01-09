@@ -235,6 +235,7 @@ onStartRequest
 function
 (
 request
+context
 )
 {
 request
@@ -353,6 +354,7 @@ onDataAvailable
 function
 (
 request
+ctx
 stream
 off
 cnt

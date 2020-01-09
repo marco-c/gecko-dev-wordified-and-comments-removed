@@ -248,6 +248,7 @@ mListener
 OnStartRequest
 (
 this
+aContext
 )
 ;
 }
@@ -276,6 +277,7 @@ mListener
 OnDataAvailable
 (
 this
+aContext
 aStream
 aOffset
 aLen
@@ -315,6 +317,7 @@ listener
 OnStopRequest
 (
 this
+aContext
 aStatus
 )
 ;
@@ -1405,6 +1408,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 NS_ASSERTION
@@ -1427,6 +1433,10 @@ start
 ;
 nsresult
 rv
+;
+mContext
+=
+ctxt
 ;
 mTotalSent
 =
@@ -1922,6 +1932,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsIInputStream
 *
 inStr
@@ -2026,6 +2039,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsresult
 aStatus
 )
@@ -2147,6 +2163,7 @@ mFinalListener
 OnStartRequest
 (
 request
+ctxt
 )
 ;
 (
@@ -2158,6 +2175,7 @@ mFinalListener
 OnStopRequest
 (
 request
+ctxt
 aStatus
 )
 ;

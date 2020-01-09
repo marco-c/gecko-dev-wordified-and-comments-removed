@@ -696,6 +696,7 @@ mListener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 return
@@ -819,6 +820,7 @@ mListener
 OnDataAvailable
 (
 this
+nullptr
 stringStream
 offset
 count
@@ -873,6 +875,7 @@ mListener
 OnStopRequest
 (
 this
+nullptr
 (
 NS_SUCCEEDED
 (
@@ -999,6 +1002,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 nsIInputStream
 *
 input
@@ -1020,6 +1026,7 @@ mListener
 OnDataAvailable
 (
 request
+ctx
 input
 offset
 count
@@ -1035,6 +1042,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 )
 {
 MOZ_ASSERT
@@ -1049,6 +1059,7 @@ mListener
 OnStartRequest
 (
 request
+ctx
 )
 ;
 }
@@ -1061,6 +1072,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 nsresult
 status
 )
@@ -1079,6 +1093,7 @@ mListener
 OnStopRequest
 (
 request
+ctx
 status
 )
 ;

@@ -124,6 +124,7 @@ function
 initialStart
 (
 ch
+cx
 )
 {
 dumpn
@@ -184,6 +185,7 @@ function
 initialStop
 (
 ch
+cx
 status
 data
 )
@@ -348,6 +350,7 @@ function
 intermediateStart
 (
 ch
+cx
 )
 {
 dumpn
@@ -432,6 +435,7 @@ function
 intermediateStop
 (
 ch
+cx
 status
 data
 )
@@ -587,6 +591,7 @@ function
 triggerStart
 (
 ch
+cx
 )
 {
 dumpn
@@ -692,6 +697,7 @@ function
 triggerStop
 (
 ch
+cx
 status
 data
 )
@@ -1077,6 +1083,7 @@ prototype
 onStartRequest
 (
 request
+cx
 )
 {
 dumpn
@@ -1124,6 +1131,7 @@ this
 _start
 (
 ch
+cx
 )
 ;
 }
@@ -1183,6 +1191,7 @@ called
 onDataAvailable
 (
 request
+cx
 inputStream
 offset
 count
@@ -1231,6 +1240,7 @@ count
 onStopRequest
 (
 request
+cx
 status
 )
 {
@@ -1275,6 +1285,7 @@ this
 _stop
 (
 ch
+cx
 status
 this
 .

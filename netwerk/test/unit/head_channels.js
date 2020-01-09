@@ -287,6 +287,7 @@ onStartRequest
 function
 (
 request
+context
 )
 {
 try
@@ -689,6 +690,7 @@ onDataAvailable
 function
 (
 request
+context
 stream
 offset
 count
@@ -921,6 +923,7 @@ onStopRequest
 function
 (
 request
+context
 status
 )
 {

@@ -930,12 +930,14 @@ NS_BINDING_ABORTED
 onStartRequest
 (
 request
+context
 )
 {
 }
 onDataAvailable
 (
 request
+context
 inputStream
 offset
 count
@@ -991,6 +993,7 @@ async
 onStopRequest
 (
 request
+context
 statusCode
 )
 {

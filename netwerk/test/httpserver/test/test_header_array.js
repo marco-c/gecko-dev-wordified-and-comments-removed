@@ -298,6 +298,7 @@ function
 check
 (
 ch
+cx
 )
 {
 var

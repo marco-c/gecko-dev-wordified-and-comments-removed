@@ -446,6 +446,7 @@ aListener
 onStartRequest
 (
 aRequest
+aContext
 )
 {
 this
@@ -468,6 +469,7 @@ TextDecoder
 onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -509,6 +511,7 @@ true
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -582,6 +585,7 @@ listener
 onDataAvailable
 (
 aRequest
+null
 stream
 0
 stream
@@ -617,6 +621,7 @@ listener
 onStopRequest
 (
 aRequest
+null
 aStatusCode
 )
 ;

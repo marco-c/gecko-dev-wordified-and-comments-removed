@@ -325,6 +325,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 override
 ;
@@ -347,6 +350,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 AUTO_PROFILER_LABEL
@@ -461,6 +467,7 @@ MediaDocumentStreamListener
 OnStartRequest
 (
 request
+ctxt
 )
 ;
 }

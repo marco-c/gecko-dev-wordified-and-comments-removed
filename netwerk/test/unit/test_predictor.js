@@ -2666,6 +2666,7 @@ onStartRequest
 function
 (
 request
+ctx
 )
 {
 Assert
@@ -2686,6 +2687,7 @@ onDataAvailable
 function
 (
 request
+cx
 stream
 offset
 cnt
@@ -2703,6 +2705,7 @@ onStopRequest
 function
 (
 request
+ctx
 status
 )
 {

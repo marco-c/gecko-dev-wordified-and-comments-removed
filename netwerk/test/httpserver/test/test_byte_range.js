@@ -314,6 +314,7 @@ function
 start_normal
 (
 ch
+cx
 )
 {
 Assert
@@ -371,6 +372,7 @@ function
 stop_normal
 (
 ch
+cx
 status
 data
 )
@@ -435,6 +437,7 @@ function
 start_byterange
 (
 ch
+cx
 )
 {
 Assert
@@ -516,6 +519,7 @@ function
 stop_byterange
 (
 ch
+cx
 status
 data
 )
@@ -580,6 +584,7 @@ function
 start_byterange2
 (
 ch
+cx
 )
 {
 Assert
@@ -621,6 +626,7 @@ function
 start_byterange3
 (
 ch
+cx
 )
 {
 Assert
@@ -702,6 +708,7 @@ function
 stop_byterange3
 (
 ch
+cx
 status
 data
 )
@@ -810,6 +817,7 @@ function
 start_byterange4
 (
 ch
+cx
 )
 {
 Assert
@@ -850,6 +858,7 @@ function
 start_byterange5
 (
 ch
+cx
 )
 {
 Assert
@@ -867,6 +876,7 @@ function
 stop_byterange5
 (
 ch
+cx
 status
 data
 )
@@ -965,6 +975,7 @@ function
 start_byterange6
 (
 ch
+cx
 )
 {
 Assert
@@ -982,6 +993,7 @@ function
 stop_byterange6
 (
 ch
+cx
 status
 data
 )
@@ -1047,6 +1059,7 @@ function
 start_byterange7
 (
 ch
+cx
 )
 {
 Assert
@@ -1128,6 +1141,7 @@ function
 stop_byterange7
 (
 ch
+cx
 status
 data
 )
@@ -1237,6 +1251,7 @@ function
 start_byterange8
 (
 ch
+cx
 )
 {
 Assert
@@ -1278,6 +1293,7 @@ function
 stop_byterange8
 (
 ch
+cx
 status
 data
 )
@@ -1332,6 +1348,7 @@ function
 start_byterange9
 (
 ch
+cx
 )
 {
 Assert
@@ -1349,6 +1366,7 @@ function
 stop_byterange9
 (
 ch
+cx
 status
 data
 )
@@ -1401,6 +1419,7 @@ function
 start_byterange10
 (
 ch
+cx
 )
 {
 Assert
@@ -1441,6 +1460,7 @@ function
 start_byterange11
 (
 ch
+cx
 )
 {
 Assert
@@ -1458,6 +1478,7 @@ function
 stop_byterange11
 (
 ch
+cx
 status
 data
 )
@@ -1499,6 +1520,7 @@ function
 start_byterange12
 (
 ch
+cx
 )
 {
 Assert
@@ -1535,6 +1557,7 @@ function
 stop_byterange12
 (
 ch
+cx
 status
 data
 )
@@ -1577,6 +1600,7 @@ function
 start_byterange13
 (
 ch
+cx
 )
 {
 Assert

@@ -158,6 +158,7 @@ resolve
 onStartRequest
 (
 request
+context
 )
 {
 this
@@ -178,6 +179,7 @@ nsIHttpChannel
 onDataAvailable
 (
 request
+context
 stream
 offset
 count
@@ -198,6 +200,7 @@ count
 onStopRequest
 (
 request
+context
 status
 )
 {

@@ -1433,6 +1433,7 @@ rv
 OnDataAvailable
 (
 mChannel
+nullptr
 stringStream
 offset
 count
@@ -1718,6 +1719,7 @@ mEventQ
 OnStopRequest
 (
 mChannel
+nullptr
 status
 )
 ;
@@ -1929,6 +1931,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 LOG
@@ -1978,6 +1983,7 @@ mDivertToListener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -2247,6 +2253,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -2312,6 +2321,7 @@ mDivertToListener
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -2347,6 +2357,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -2403,6 +2416,7 @@ mDivertToListener
 OnDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -3265,6 +3279,7 @@ rv
 OnStartRequest
 (
 mChannel
+nullptr
 )
 ;
 if
@@ -3597,6 +3612,7 @@ mDivertToListener
 OnStartRequest
 (
 mChannel
+nullptr
 )
 ;
 if
@@ -3626,6 +3642,7 @@ mDivertToListener
 OnStopRequest
 (
 mChannel
+nullptr
 aErrorCode
 )
 ;

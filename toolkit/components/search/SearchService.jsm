@@ -1182,6 +1182,7 @@ function
 SRCH_loadStartR
 (
 aRequest
+aContext
 )
 {
 LOG
@@ -1230,6 +1231,7 @@ function
 SRCH_loadStopR
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -1342,6 +1344,7 @@ function
 SRCH_loadDAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount

@@ -804,6 +804,7 @@ function
 start_initial
 (
 ch
+cx
 )
 {
 dumpn
@@ -834,6 +835,7 @@ function
 start_overwrite
 (
 ch
+cx
 )
 {
 expectValues
@@ -858,6 +860,7 @@ function
 start_remove
 (
 ch
+cx
 )
 {
 expectValues
@@ -881,6 +884,7 @@ function
 start_handler
 (
 ch
+cx
 )
 {
 expectValues
@@ -903,6 +907,7 @@ function
 start_handler_again
 (
 ch
+cx
 )
 {
 expectValues
@@ -926,6 +931,7 @@ function
 start_other_initial
 (
 ch
+cx
 )
 {
 expectValues
@@ -948,6 +954,7 @@ function
 start_other_remove_ignore
 (
 ch
+cx
 )
 {
 expectValues
@@ -970,6 +977,7 @@ function
 start_other_set_new
 (
 ch
+cx
 )
 {
 expectValues
@@ -993,6 +1001,7 @@ function
 start_set_remove_original
 (
 ch
+cx
 )
 {
 expectValues

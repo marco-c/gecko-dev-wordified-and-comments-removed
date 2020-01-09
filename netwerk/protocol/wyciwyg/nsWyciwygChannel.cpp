@@ -2167,6 +2167,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 nsIInputStream
 *
 input
@@ -2238,6 +2241,7 @@ listener
 OnDataAvailable
 (
 this
+nullptr
 input
 offset
 count
@@ -2302,6 +2306,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 )
 {
 LOG
@@ -2350,6 +2357,7 @@ listener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 }
@@ -2379,6 +2387,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctx
 nsresult
 status
 )
@@ -2461,6 +2472,7 @@ listener
 OnStopRequest
 (
 this
+nullptr
 mStatus
 )
 ;
@@ -3003,6 +3015,7 @@ listener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 mIsPending
@@ -3015,6 +3028,7 @@ listener
 OnStopRequest
 (
 this
+nullptr
 mStatus
 )
 ;

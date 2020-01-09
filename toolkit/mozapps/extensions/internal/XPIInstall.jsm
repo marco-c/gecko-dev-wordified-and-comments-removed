@@ -9361,6 +9361,7 @@ onDownloadFailed
 onDataAvailable
 (
 aRequest
+aContext
 aInputstream
 aOffset
 aCount
@@ -9533,6 +9534,7 @@ aNewChannel
 onStartRequest
 (
 aRequest
+aContext
 )
 {
 if
@@ -9720,6 +9722,7 @@ path
 onStopRequest
 (
 aRequest
+aContext
 aStatus
 )
 {

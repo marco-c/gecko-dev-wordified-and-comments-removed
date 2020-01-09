@@ -441,6 +441,11 @@ open
 (
 )
 ;
+let
+context
+=
+null
+;
 try
 {
 outListener
@@ -448,6 +453,7 @@ outListener
 onStartRequest
 (
 this
+context
 )
 ;
 }
@@ -464,6 +470,7 @@ outListener
 onDataAvailable
 (
 this
+context
 stream
 0
 stream
@@ -487,6 +494,7 @@ outListener
 onStopRequest
 (
 this
+context
 Cr
 .
 NS_OK

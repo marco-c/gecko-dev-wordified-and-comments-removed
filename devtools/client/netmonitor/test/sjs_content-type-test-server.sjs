@@ -159,12 +159,14 @@ converter
 onStartRequest
 (
 null
+null
 )
 ;
 converter
 .
 onDataAvailable
 (
+null
 null
 stringStream
 0
@@ -177,6 +179,7 @@ converter
 .
 onStopRequest
 (
+null
 null
 null
 )

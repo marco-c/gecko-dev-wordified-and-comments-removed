@@ -8225,6 +8225,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aStream
@@ -8261,6 +8264,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 return
@@ -8276,6 +8282,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aResult
 )
@@ -8373,7 +8382,7 @@ rv
 OnStopRequestInternal
 (
 aRequest
-nullptr
+aContext
 aResult
 verdict
 reason

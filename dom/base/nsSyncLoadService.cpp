@@ -312,6 +312,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 nsresult
@@ -371,6 +374,7 @@ mListener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -383,6 +387,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -394,6 +401,7 @@ mListener
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -996,6 +1004,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 return
@@ -1005,6 +1016,7 @@ mListener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -1017,6 +1029,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -1049,6 +1064,7 @@ mListener
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -1452,6 +1468,7 @@ aListener
 OnStartRequest
 (
 aChannel
+nullptr
 )
 ;
 if
@@ -1534,6 +1551,7 @@ aListener
 OnDataAvailable
 (
 aChannel
+nullptr
 in
 (
 uint32_t
@@ -1596,6 +1614,7 @@ aListener
 OnStopRequest
 (
 aChannel
+nullptr
 rv
 )
 ;

@@ -243,6 +243,7 @@ function
 start_thrower
 (
 ch
+cx
 )
 {
 Assert
@@ -274,6 +275,7 @@ function
 start_last
 (
 ch
+cx
 )
 {
 Assert

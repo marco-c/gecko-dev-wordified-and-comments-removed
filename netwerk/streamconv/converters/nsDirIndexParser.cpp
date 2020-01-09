@@ -366,6 +366,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 )
 {
 return
@@ -381,6 +384,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsresult
 aStatusCode
 )
@@ -402,7 +408,7 @@ mLineStart
 ProcessData
 (
 aRequest
-nullptr
+aCtxt
 )
 ;
 }
@@ -1384,6 +1390,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 aStream
@@ -1475,7 +1484,7 @@ return
 ProcessData
 (
 aRequest
-nullptr
+aCtxt
 )
 ;
 }

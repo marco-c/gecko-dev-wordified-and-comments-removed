@@ -870,6 +870,7 @@ _data
 onStartRequest
 (
 request
+cx
 )
 {
 Assert
@@ -924,6 +925,7 @@ testIndex
 onStartRequest
 (
 ch
+cx
 )
 ;
 }
@@ -984,6 +986,7 @@ called
 onDataAvailable
 (
 request
+cx
 inputStream
 offset
 count
@@ -1056,6 +1059,7 @@ newData
 onStopRequest
 (
 request
+cx
 status
 )
 {
@@ -1094,6 +1098,7 @@ testIndex
 onStopRequest
 (
 ch
+cx
 status
 this
 .

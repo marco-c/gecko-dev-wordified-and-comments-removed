@@ -4901,6 +4901,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 mLoadGroup
@@ -4928,6 +4931,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -4945,6 +4951,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr

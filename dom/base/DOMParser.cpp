@@ -944,6 +944,7 @@ listener
 OnStartRequest
 (
 parserChannel
+nullptr
 )
 ;
 if
@@ -992,6 +993,7 @@ listener
 OnDataAvailable
 (
 parserChannel
+nullptr
 stream
 0
 aContentLength
@@ -1030,6 +1032,7 @@ listener
 OnStopRequest
 (
 parserChannel
+nullptr
 status
 )
 ;

@@ -740,6 +740,7 @@ listener
 OnStartRequest
 (
 self
+nullptr
 )
 ;
 listener
@@ -748,6 +749,7 @@ listener
 OnStopRequest
 (
 self
+nullptr
 self
 -
 >
@@ -1587,6 +1589,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 MOZ_CRASH
@@ -1615,6 +1620,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -1645,6 +1653,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream

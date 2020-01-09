@@ -35,6 +35,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 )
 {
 NS_ENSURE_TRUE
@@ -52,6 +55,7 @@ mListener
 OnStartRequest
 (
 request
+context
 )
 ;
 nsresult
@@ -71,6 +75,7 @@ mObserver
 OnStartRequest
 (
 request
+context
 )
 ;
 return
@@ -101,6 +106,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsresult
 status
 )
@@ -167,6 +175,7 @@ mListener
 OnStopRequest
 (
 request
+context
 status
 )
 ;
@@ -180,6 +189,7 @@ mObserver
 OnStopRequest
 (
 request
+context
 status
 )
 ;
@@ -200,6 +210,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsIInputStream
 *
 input
@@ -330,6 +343,7 @@ mListener
 OnDataAvailable
 (
 request
+context
 tee
 offset
 count

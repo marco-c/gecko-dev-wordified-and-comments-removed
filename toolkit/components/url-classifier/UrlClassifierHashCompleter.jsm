@@ -3655,6 +3655,7 @@ function
 HCR_onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount
@@ -3709,6 +3710,7 @@ function
 HCR_onStartRequest
 (
 aRequest
+aContext
 )
 {
 this
@@ -3773,6 +3775,7 @@ function
 HCR_onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 {

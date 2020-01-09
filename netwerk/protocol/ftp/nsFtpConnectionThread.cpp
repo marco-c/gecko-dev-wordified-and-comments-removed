@@ -8901,6 +8901,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 )
 {
 mStorReplyReceived
@@ -8920,6 +8923,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsresult
 status
 )

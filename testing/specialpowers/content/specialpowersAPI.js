@@ -10152,6 +10152,7 @@ httpStatus
 onStartRequest
 (
 request
+context
 )
 {
 request
@@ -10175,6 +10176,7 @@ responseStatus
 onDataAvailable
 (
 request
+context
 stream
 offset
 count
@@ -10195,6 +10197,7 @@ count
 onStopRequest
 (
 request
+context
 status
 )
 {

@@ -264,6 +264,7 @@ args
 onStartRequest
 (
 request
+context
 )
 {
 orig
@@ -271,12 +272,14 @@ orig
 onStartRequest
 (
 request
+context
 )
 ;
 }
 onStopRequest
 (
 request
+context
 statusCode
 )
 {
@@ -285,6 +288,7 @@ orig
 onStopRequest
 (
 request
+context
 statusCode
 )
 ;

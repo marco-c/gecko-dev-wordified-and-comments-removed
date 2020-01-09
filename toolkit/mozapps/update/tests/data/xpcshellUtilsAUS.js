@@ -18095,6 +18095,7 @@ onStartRequest
 :
 (
 aRequest
+aContext
 )
 =
 >
@@ -18128,6 +18129,7 @@ onStopRequest
 :
 (
 request
+context
 status
 )
 =
@@ -18158,6 +18160,7 @@ MSG_SHOULD_EQUAL
 resolve
 (
 request
+context
 status
 )
 ;
@@ -20013,6 +20016,9 @@ _observer
 onStartRequest
 (
 this
+this
+.
+_ctxt
 )
 ;
 let
@@ -20150,6 +20156,9 @@ _observer
 onStopRequest
 (
 this
+this
+.
+_ctxt
 status
 )
 ;

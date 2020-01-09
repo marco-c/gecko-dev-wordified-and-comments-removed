@@ -285,6 +285,7 @@ onDataAvailable
 function
 (
 request
+context
 inputStream
 offset
 count
@@ -324,6 +325,7 @@ onStartRequest
 function
 (
 request
+context
 )
 {
 request
@@ -450,6 +452,7 @@ listener
 onStartRequest
 (
 request
+context
 )
 ;
 const
@@ -539,6 +542,7 @@ listener
 onDataAvailable
 (
 request
+context
 stream
 0
 stream
@@ -554,6 +558,7 @@ onStopRequest
 function
 (
 request
+context
 statusCode
 )
 {
@@ -576,6 +581,7 @@ listener
 onStopRequest
 (
 request
+context
 statusCode
 )
 ;

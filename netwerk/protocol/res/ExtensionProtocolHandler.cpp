@@ -1116,6 +1116,7 @@ aListener
 OnStartRequest
 (
 aChannel
+nullptr
 )
 ;
 aListener
@@ -1124,6 +1125,7 @@ aListener
 OnStopRequest
 (
 aChannel
+nullptr
 aResult
 )
 ;

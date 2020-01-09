@@ -530,6 +530,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 if
@@ -543,7 +546,7 @@ mOwner
 DoOnStartRequest
 (
 mOwner
-nullptr
+mContext
 )
 ;
 }
@@ -637,6 +640,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -712,7 +718,7 @@ host
 OnStatus
 (
 mOwner
-nullptr
+aContext
 NS_NET_STATUS_READING
 NS_ConvertUTF8toUTF16
 (
@@ -734,7 +740,7 @@ aCount
 OnProgress
 (
 mOwner
-nullptr
+aContext
 progress
 mOwner
 -
@@ -749,7 +755,7 @@ mOwner
 DoOnDataAvailable
 (
 mOwner
-nullptr
+mContext
 aInputStream
 aOffset
 aCount
@@ -768,6 +774,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -2753,6 +2762,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 override
 {
@@ -2777,6 +2789,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -2816,6 +2831,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -2996,6 +3014,7 @@ mListener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 if
@@ -4355,6 +4374,7 @@ mListener
 OnDataAvailable
 (
 aRequest
+aContext
 aStream
 offset
 count
@@ -5483,6 +5503,7 @@ mListener
 OnStopRequest
 (
 aRequest
+aContext
 mStatus
 )
 ;

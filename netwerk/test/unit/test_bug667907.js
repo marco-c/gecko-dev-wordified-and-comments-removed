@@ -224,6 +224,7 @@ onStartRequest
 function
 (
 request
+context
 )
 {
 Assert
@@ -260,6 +261,7 @@ onDataAvailable
 function
 (
 request
+context
 stream
 offset
 count
@@ -279,6 +281,7 @@ onStopRequest
 function
 (
 request
+context
 status
 )
 {

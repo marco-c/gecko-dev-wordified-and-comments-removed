@@ -119,12 +119,14 @@ null
 onStartRequest
 (
 aRequest
+aContext
 )
 {
 }
 onStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 {
@@ -168,6 +170,7 @@ callback
 onDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount

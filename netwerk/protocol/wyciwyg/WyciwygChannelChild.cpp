@@ -933,6 +933,7 @@ mListener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 if
@@ -1164,6 +1165,7 @@ mListener
 OnDataAvailable
 (
 this
+nullptr
 stringStream
 offset
 data
@@ -1385,6 +1387,7 @@ mListener
 OnStopRequest
 (
 this
+nullptr
 statusCode
 )
 ;
@@ -1598,6 +1601,7 @@ mListener
 OnStartRequest
 (
 this
+nullptr
 )
 ;
 mListener
@@ -1606,6 +1610,7 @@ mListener
 OnStopRequest
 (
 this
+nullptr
 mStatus
 )
 ;

@@ -1369,6 +1369,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 )
 {
 if
@@ -1684,6 +1687,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )

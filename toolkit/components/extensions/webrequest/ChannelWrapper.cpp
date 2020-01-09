@@ -4839,6 +4839,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 )
 {
 MOZ_ASSERT
@@ -4892,6 +4895,7 @@ mOrigStreamListener
 OnStartRequest
 (
 request
+aCtxt
 )
 ;
 }
@@ -4907,6 +4911,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsresult
 aStatus
 )
@@ -4955,6 +4962,7 @@ mOrigStreamListener
 OnStopRequest
 (
 request
+aCtxt
 aStatus
 )
 ;
@@ -4971,6 +4979,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aCtxt
 nsIInputStream
 *
 inStr
@@ -4997,6 +5008,7 @@ mOrigStreamListener
 OnDataAvailable
 (
 request
+aCtxt
 inStr
 sourceOffset
 count

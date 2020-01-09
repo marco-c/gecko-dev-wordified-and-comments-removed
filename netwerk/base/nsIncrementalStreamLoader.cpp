@@ -214,6 +214,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 nsCOMPtr
@@ -325,6 +328,10 @@ NS_ERROR_OUT_OF_MEMORY
 }
 }
 }
+mContext
+=
+ctxt
+;
 return
 NS_OK
 ;
@@ -338,6 +345,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsresult
 aStatus
 )
@@ -422,6 +432,10 @@ mRequest
 nullptr
 ;
 mObserver
+=
+nullptr
+;
+mContext
 =
 nullptr
 ;
@@ -790,6 +804,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr

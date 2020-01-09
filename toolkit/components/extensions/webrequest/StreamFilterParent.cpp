@@ -1668,6 +1668,7 @@ mOrigListener
 OnDataAvailable
 (
 mChannel
+mContext
 stream
 mOffset
 aData
@@ -1981,11 +1982,18 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 AssertIsMainThread
 (
 )
+;
+mContext
+=
+aContext
 ;
 if
 (
@@ -2105,6 +2113,7 @@ mOrigListener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 if
@@ -2231,6 +2240,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -2336,6 +2348,7 @@ mOrigListener
 OnStopRequest
 (
 mChannel
+mContext
 aStatusCode
 )
 ;
@@ -2412,6 +2425,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -2457,6 +2473,7 @@ mOrigListener
 OnDataAvailable
 (
 aRequest
+aContext
 aInputStream
 mOffset
 -

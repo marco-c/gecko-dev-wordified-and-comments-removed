@@ -299,6 +299,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 MOZ_RELEASE_ASSERT
@@ -353,6 +356,7 @@ mNextListener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -365,6 +369,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
@@ -437,6 +444,7 @@ mNextListener
 OnStopRequest
 (
 aRequest
+aContext
 aStatusCode
 )
 ;
@@ -457,6 +465,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -518,6 +529,7 @@ mNextListener
 OnDataAvailable
 (
 aRequest
+aContext
 aInputStream
 aOffset
 aCount

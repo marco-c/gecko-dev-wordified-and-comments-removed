@@ -234,6 +234,7 @@ onStartRequest
 function
 (
 request
+ctx
 )
 {
 switch
@@ -346,6 +347,7 @@ onDataAvailable
 function
 (
 request
+context
 stream
 offset
 count
@@ -378,6 +380,7 @@ onStopRequest
 function
 (
 request
+ctx
 status
 )
 {

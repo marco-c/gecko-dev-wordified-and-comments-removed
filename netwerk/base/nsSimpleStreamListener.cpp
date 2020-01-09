@@ -27,6 +27,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 return
@@ -38,6 +41,7 @@ mObserver
 OnStartRequest
 (
 aRequest
+aContext
 )
 :
 NS_OK
@@ -52,6 +56,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -65,6 +72,7 @@ mObserver
 OnStopRequest
 (
 request
+aContext
 aStatus
 )
 :
@@ -80,6 +88,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aSource

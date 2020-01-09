@@ -337,6 +337,7 @@ onStartRequest
 function
 (
 request
+ctx
 )
 {
 }
@@ -345,6 +346,7 @@ onDataAvailable
 function
 (
 request
+ctx
 stream
 off
 cnt
@@ -356,6 +358,7 @@ onStopRequest
 function
 (
 request
+ctx
 status
 )
 {

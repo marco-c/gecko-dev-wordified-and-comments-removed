@@ -549,6 +549,7 @@ function
 testOnStartRequest
 (
 request
+ctx
 )
 {
 Assert
@@ -635,6 +636,7 @@ function
 testOnDataAvailable
 (
 request
+ctx
 stream
 off
 cnt
@@ -653,6 +655,7 @@ function
 testOnStopRequest
 (
 request
+ctx
 status
 )
 {
@@ -734,6 +737,7 @@ function
 testOnStartRequest
 (
 request
+ctx
 )
 {
 Assert
@@ -769,6 +773,7 @@ function
 testOnDataAvailable
 (
 request
+ctx
 stream
 off
 cnt
@@ -787,6 +792,7 @@ function
 testOnStopRequest
 (
 request
+ctx
 status
 )
 {
@@ -1800,6 +1806,7 @@ function
 pushAPIOnStart
 (
 request
+ctx
 )
 {
 dump
@@ -1829,6 +1836,7 @@ function
 pushAPIOnDataAvailable
 (
 request
+ctx
 stream
 offset
 cnt
@@ -1850,6 +1858,7 @@ function
 test_onStopR
 (
 request
+ctx
 status
 )
 {

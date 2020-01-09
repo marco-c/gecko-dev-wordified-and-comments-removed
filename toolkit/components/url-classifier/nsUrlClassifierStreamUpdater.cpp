@@ -2876,6 +2876,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 )
 {
 nsresult
@@ -3411,6 +3414,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsIInputStream
 *
 aIStream
@@ -3529,6 +3535,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+context
 nsresult
 aStatus
 )

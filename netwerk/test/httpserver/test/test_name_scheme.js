@@ -365,6 +365,7 @@ function
 start_bar_html_
 (
 ch
+cx
 )
 {
 Assert
@@ -403,6 +404,7 @@ function
 start_foo_html_
 (
 ch
+cx
 )
 {
 Assert
@@ -420,6 +422,7 @@ function
 start_normal_file_txt
 (
 ch
+cx
 )
 {
 Assert
@@ -458,6 +461,7 @@ function
 start_folder__file_txt
 (
 ch
+cx
 )
 {
 Assert

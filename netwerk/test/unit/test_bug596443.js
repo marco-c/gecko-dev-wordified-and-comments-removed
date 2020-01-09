@@ -215,6 +215,7 @@ onStartRequest
 function
 (
 request
+ctx
 )
 {
 this
@@ -230,6 +231,7 @@ onDataAvailable
 function
 (
 request
+ctx
 stream
 offset
 count
@@ -258,6 +260,7 @@ onStopRequest
 function
 (
 request
+ctx
 status
 )
 {

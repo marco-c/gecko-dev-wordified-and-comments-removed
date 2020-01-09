@@ -221,6 +221,9 @@ OnStartRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 )
 {
 nsCOMPtr
@@ -332,6 +335,10 @@ NS_ERROR_OUT_OF_MEMORY
 }
 }
 }
+mContext
+=
+ctxt
+;
 if
 (
 mRequestObserver
@@ -343,6 +350,7 @@ mRequestObserver
 OnStartRequest
 (
 request
+ctxt
 )
 ;
 }
@@ -359,6 +367,9 @@ OnStopRequest
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsresult
 aStatus
 )
@@ -446,6 +457,10 @@ mObserver
 =
 nullptr
 ;
+mContext
+=
+nullptr
+;
 }
 if
 (
@@ -458,6 +473,7 @@ mRequestObserver
 OnStopRequest
 (
 request
+ctxt
 aStatus
 )
 ;
@@ -551,6 +567,9 @@ OnDataAvailable
 nsIRequest
 *
 request
+nsISupports
+*
+ctxt
 nsIInputStream
 *
 inStr

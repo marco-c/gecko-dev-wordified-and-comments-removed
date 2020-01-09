@@ -2572,6 +2572,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 )
 {
 nsContentUtils
@@ -2966,6 +2969,7 @@ mNextListener
 OnStartRequest
 (
 aRequest
+aContext
 )
 ;
 }
@@ -3021,6 +3025,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 )
@@ -3037,6 +3044,7 @@ mNextListener
 OnStopRequest
 (
 aRequest
+aContext
 aStatus
 )
 ;
@@ -3057,6 +3065,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aStream
@@ -3103,6 +3114,7 @@ mNextListener
 OnDataAvailable
 (
 aRequest
+aContext
 aStream
 aOffset
 aCount

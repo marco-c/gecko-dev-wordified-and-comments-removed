@@ -2408,6 +2408,9 @@ OnStartRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aCtxt
 )
 {
 AssertIsOnMainThread
@@ -2919,6 +2922,9 @@ OnDataAvailable
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsIInputStream
 *
 aInputStream
@@ -2991,6 +2997,9 @@ OnStopRequest
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatusCode
 )
