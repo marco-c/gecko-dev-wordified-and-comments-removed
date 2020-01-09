@@ -599,14 +599,6 @@ files
 "
 client
 /
-shadereditor
-/
-*
-*
-"
-"
-client
-/
 webaudioeditor
 /
 *
