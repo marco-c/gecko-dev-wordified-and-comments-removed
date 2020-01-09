@@ -7064,6 +7064,12 @@ find
 transceiver
 =
 >
+!
+transceiver
+.
+stopped
+&
+&
 transceiver
 .
 sender
