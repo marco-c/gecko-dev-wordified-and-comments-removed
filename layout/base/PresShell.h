@@ -785,7 +785,7 @@ HandleEvent
 (
 nsIFrame
 *
-aFrame
+aFrameForPresShell
 WidgetGUIEvent
 *
 aEvent
@@ -2127,7 +2127,7 @@ HandleEvent
 (
 nsIFrame
 *
-aFrame
+aFrameForPresShell
 WidgetGUIEvent
 *
 aGUIEvent

@@ -31056,7 +31056,7 @@ HandleEvent
 (
 nsIFrame
 *
-aFrame
+aFrameForPresShell
 WidgetGUIEvent
 *
 aGUIEvent
@@ -31084,7 +31084,7 @@ eventHandler
 .
 HandleEvent
 (
-aFrame
+aFrameForPresShell
 aGUIEvent
 aDontRetargetEvents
 aEventStatus
@@ -31102,7 +31102,7 @@ HandleEvent
 (
 nsIFrame
 *
-aFrame
+aFrameForPresShell
 WidgetGUIEvent
 *
 aGUIEvent
@@ -31213,9 +31213,9 @@ type
 endif
 NS_ASSERTION
 (
-aFrame
+aFrameForPresShell
 "
-aFrame
+aFrameForPresShell
 should
 be
 not
@@ -31334,7 +31334,7 @@ if
 (
 MaybeHandleEventWithAnotherPresShell
 (
-aFrame
+aFrameForPresShell
 aGUIEvent
 aEventStatus
 &
@@ -31372,7 +31372,7 @@ IsUsingCoordinates
 return
 HandleEventUsingCoordinates
 (
-aFrame
+aFrameForPresShell
 aGUIEvent
 aEventStatus
 aDontRetargetEvents
@@ -31382,7 +31382,7 @@ aDontRetargetEvents
 if
 (
 !
-aFrame
+aFrameForPresShell
 )
 {
 if
@@ -31454,7 +31454,7 @@ aEventStatus
 return
 HandleEventWithFrameForPresShell
 (
-aFrame
+aFrameForPresShell
 aGUIEvent
 aEventStatus
 )
