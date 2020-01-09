@@ -687,7 +687,7 @@ controls
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 attribute
@@ -698,7 +698,7 @@ mozAllowCasting
 Func
 =
 "
-IsChromeOrXBL
+IsChromeOrXBLOrUAWidget
 "
 ]
 attribute
