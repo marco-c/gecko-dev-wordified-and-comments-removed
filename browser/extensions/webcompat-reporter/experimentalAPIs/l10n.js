@@ -84,6 +84,15 @@ reason
 {
 if
 (
+reason
+!
+=
+=
+"
+APP_SHUTDOWN
+"
+&
+&
 l10nManifest
 )
 {
