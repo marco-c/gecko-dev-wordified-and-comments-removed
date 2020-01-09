@@ -3387,13 +3387,6 @@ getInstallForURL
 pathPrefix
 +
 path
-"
-application
-/
-x
--
-xpinstall
-"
 )
 ;
 install
@@ -5315,11 +5308,7 @@ function
 MP_getInstallForURL
 (
 aUrl
-aHash
-aName
-aIconURL
-aVersion
-aLoadGroup
+aOptions
 )
 {
 }

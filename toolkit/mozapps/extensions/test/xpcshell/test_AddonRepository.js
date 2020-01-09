@@ -980,13 +980,6 @@ getInstallForURL
 BASE_URL
 +
 INSTALL_URL2
-"
-application
-/
-x
--
-xpinstall
-"
 )
 ;
 let
@@ -1014,13 +1007,6 @@ getInstallForURL
 BASE_URL
 +
 INSTALL_URL3
-"
-application
-/
-x
--
-xpinstall
-"
 )
 ;
 }
