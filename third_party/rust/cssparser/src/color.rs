@@ -60,6 +60,13 @@ PartialEq
 Debug
 )
 ]
+#
+[
+repr
+(
+C
+)
+]
 pub
 struct
 RGBA

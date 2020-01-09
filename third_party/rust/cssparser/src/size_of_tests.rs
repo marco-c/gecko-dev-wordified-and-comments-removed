@@ -19,10 +19,6 @@ tokenizer
 :
 Token
 ;
-#
-[
-macro_export
-]
 macro_rules
 !
 size_of_test
