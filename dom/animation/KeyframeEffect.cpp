@@ -204,6 +204,13 @@ h
 #
 include
 "
+nsDOMMutationObserver
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h

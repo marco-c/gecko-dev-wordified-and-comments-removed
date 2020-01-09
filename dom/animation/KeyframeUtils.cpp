@@ -525,6 +525,9 @@ GetKeyframeListFromKeyframeSequence
 JSContext
 *
 aCx
+dom
+:
+:
 Document
 *
 aDocument
@@ -552,6 +555,9 @@ ConvertKeyframeSequence
 JSContext
 *
 aCx
+dom
+:
+:
 Document
 *
 aDocument
@@ -662,6 +668,9 @@ const
 nsAString
 &
 aStringValue
+dom
+:
+:
 Document
 *
 aDocument
@@ -745,6 +754,9 @@ GetKeyframeListFromPropertyIndexedKeyframe
 JSContext
 *
 aCx
+dom
+:
+:
 Document
 *
 aDocument
@@ -781,6 +793,9 @@ Keyframe
 >
 &
 aKeyframes
+dom
+:
+:
 Document
 *
 aDocument
@@ -811,6 +826,9 @@ GetKeyframesFromObject
 JSContext
 *
 aCx
+dom
+:
+:
 Document
 *
 aDocument
@@ -983,6 +1001,9 @@ keyframes
 if
 (
 !
+dom
+:
+:
 Document
 :
 :
@@ -1519,6 +1540,9 @@ GetKeyframeListFromKeyframeSequence
 JSContext
 *
 aCx
+dom
+:
+:
 Document
 *
 aDocument
@@ -1636,6 +1660,9 @@ ConvertKeyframeSequence
 JSContext
 *
 aCx
+dom
+:
+:
 Document
 *
 aDocument
@@ -2565,6 +2592,9 @@ const
 nsAString
 &
 aInvalidPropertyValue
+dom
+:
+:
 Document
 *
 aDoc
@@ -2657,6 +2687,9 @@ const
 nsAString
 &
 aStringValue
+dom
+:
+:
 Document
 *
 aDocument
@@ -4088,6 +4121,9 @@ GetKeyframeListFromPropertyIndexedKeyframe
 JSContext
 *
 aCx
+dom
+:
+:
 Document
 *
 aDocument
@@ -5069,6 +5105,9 @@ Keyframe
 >
 &
 aKeyframes
+dom
+:
+:
 Document
 *
 aDocument
