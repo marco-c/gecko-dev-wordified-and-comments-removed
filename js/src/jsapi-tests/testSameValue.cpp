@@ -1,15 +1,6 @@
 #
 include
 "
-js
-/
-Equality
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests
@@ -65,10 +56,7 @@ same
 ;
 CHECK
 (
-JS
-:
-:
-SameValue
+JS_SameValue
 (
 cx
 v1

@@ -1,15 +1,6 @@
 #
 include
 "
-js
-/
-PropertyDescriptor
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests

@@ -56,12 +56,11 @@ Value
 .
 h
 "
-using
-JSNative
-=
+typedef
 bool
 (
 *
+JSNative
 )
 (
 JSContext

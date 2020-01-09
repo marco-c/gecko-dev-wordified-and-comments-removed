@@ -35397,10 +35397,7 @@ CGIfWrapper
 (
 dateObject
 "
-JS
-:
-:
-ObjectIsDate
+JS_ObjectIsDate
 (
 cx
 argObj
@@ -41546,10 +41543,7 @@ isDate
 if
 (
 !
-JS
-:
-:
-ObjectIsDate
+JS_ObjectIsDate
 (
 cx
 possibleDateObject
