@@ -617,7 +617,7 @@ aName
 )
 aName
 typedef
-int8_t
+uint8_t
 CommandInt
 ;
 enum
