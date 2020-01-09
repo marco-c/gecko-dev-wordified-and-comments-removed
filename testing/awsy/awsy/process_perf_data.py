@@ -706,7 +706,11 @@ data_path
 checkpoints
 =
 CHECKPOINTS
+                 
 alertThreshold
+=
+None
+extra_opts
 =
 None
 )
@@ -860,10 +864,25 @@ alertThreshold
 =
 alertThreshold
     
-extra_opts
+opts
 =
 [
 ]
+    
+if
+extra_opts
+:
+        
+opts
+.
+extend
+(
+extra_opts
+)
+    
+stylo_opt
+=
+None
     
 if
 '
@@ -884,13 +903,11 @@ STYLO_FORCE_ENABLED
 ]
 :
         
-extra_opts
+stylo_opt
 =
-[
 "
 stylo
 "
-]
     
 if
 '
@@ -916,15 +933,24 @@ STYLO_THREADS
 '
 :
         
-extra_opts
+stylo_opt
 =
-[
 "
 stylo
 -
 sequential
 "
-]
+    
+if
+stylo_opt
+:
+        
+opts
+.
+append
+(
+stylo_opt
+)
     
 if
 '
@@ -945,7 +971,7 @@ DMD
 ]
 :
         
-extra_opts
+opts
 .
 append
 (
@@ -965,7 +991,7 @@ extraOptions
 '
 ]
 =
-extra_opts
+opts
     
 update_checkpoint_paths
 (
@@ -1247,6 +1273,10 @@ PERF_SUITES
 checkpoints
 =
 CHECKPOINTS
+                     
+extra_opts
+=
+None
 )
 :
     
@@ -1381,6 +1411,7 @@ get
 alertThreshold
 '
 )
+extra_opts
 )
 )
     

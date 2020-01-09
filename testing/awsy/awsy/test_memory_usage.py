@@ -217,6 +217,18 @@ process_perf_data
 CHECKPOINTS
     
 def
+perf_extra_opts
+(
+self
+)
+:
+        
+return
+self
+.
+_extra_opts
+    
+def
 setupTp5
 (
 self
@@ -519,6 +531,16 @@ self
 _urls
 =
 urls
+        
+self
+.
+_extra_opts
+=
+[
+"
+tp6
+"
+]
         
 tp6_pageset_manifest
 =
@@ -899,6 +921,12 @@ _urls
 =
 [
 ]
+        
+self
+.
+_extra_opts
+=
+None
         
 if
 self
