@@ -352,9 +352,6 @@ debug
 default
 :
 5400
-e10s
-:
-false
 allow
 -
 software
