@@ -3654,9 +3654,6 @@ RegExpMatch
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_SYM_FN
 (
 matchAll
@@ -3666,8 +3663,6 @@ RegExpMatchAll
 1
 0
 )
-#
-endif
 JS_SELF_HOSTED_SYM_FN
 (
 replace

@@ -17441,9 +17441,6 @@ String_match
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -17455,8 +17452,6 @@ String_matchAll
 1
 0
 )
-#
-endif
 JS_SELF_HOSTED_FN
 (
 "
