@@ -26,13 +26,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 MainThreadUtils
 .
 h
@@ -290,13 +283,6 @@ gfxPlatform
 :
 :
 GetPlatform
-(
-)
-;
-gfxPrefs
-:
-:
-GetSingleton
 (
 )
 ;

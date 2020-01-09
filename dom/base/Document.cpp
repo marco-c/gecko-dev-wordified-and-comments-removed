@@ -2076,13 +2076,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h

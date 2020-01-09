@@ -196,13 +196,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 ScopedGLHelpers
 .
 h
@@ -386,13 +379,6 @@ path
 )
 return
 nullptr
-;
-gfxPrefs
-:
-:
-GetSingleton
-(
-)
 ;
 if
 (

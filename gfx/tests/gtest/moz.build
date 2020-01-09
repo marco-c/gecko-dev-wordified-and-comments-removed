@@ -262,11 +262,6 @@ TestCompositor
 cpp
 '
 '
-TestGfxPrefs
-.
-cpp
-'
-'
 TestRect
 .
 cpp

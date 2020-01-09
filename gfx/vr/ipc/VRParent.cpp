@@ -750,13 +750,6 @@ Shutdown
 (
 )
 ;
-gfxPrefs
-:
-:
-DestroySingleton
-(
-)
-;
 CrashReporterClient
 :
 :
@@ -884,13 +877,6 @@ CrashReporterClient
 InitSingleton
 (
 this
-)
-;
-gfxPrefs
-:
-:
-GetSingleton
-(
 )
 ;
 gfxConfig

@@ -12,13 +12,6 @@ ScrollAnimationBezierPhysics
 .
 h
 "
-#
-include
-"
-gfxPrefs
-.
-h
-"
 namespace
 mozilla
 {
