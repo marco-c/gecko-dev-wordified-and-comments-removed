@@ -79,6 +79,14 @@ exe
 ;
 *
 )
+export
+NASM
+=
+topsrcdir
+/
+nasm
+/
+nasm
 ;
 ;
 esac
