@@ -105,11 +105,6 @@ out
 keyed
 :
 false
-cpp_guard
-:
-'
-ACCESSIBILITY
-'
 indicator_acted_on
 :
 bug_numbers
