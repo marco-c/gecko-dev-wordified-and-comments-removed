@@ -5110,6 +5110,14 @@ aEnd
 WR_FUNC
 ;
 extern
+void
+wr_finished_scene_build
+(
+WrWindowId
+aWindowId
+)
+;
+extern
 bool
 wr_moz2d_render_cb
 (

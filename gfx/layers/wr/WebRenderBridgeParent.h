@@ -1239,6 +1239,11 @@ ScheduleForcedGenerateFrame
 (
 )
 ;
+void
+NotifyDidSceneBuild
+(
+)
+;
 wr
 :
 :
@@ -2012,6 +2017,9 @@ mIdNamespace
 ;
 VsyncId
 mSkippedCompositeId
+;
+TimeStamp
+mMostRecentComposite
 ;
 bool
 mPaused
