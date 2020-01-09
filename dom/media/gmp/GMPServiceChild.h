@@ -200,7 +200,6 @@ AbstractThread
 override
 {
 }
-virtual
 RefPtr
 <
 GetGMPContentParentPromise

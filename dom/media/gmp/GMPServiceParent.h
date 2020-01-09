@@ -513,7 +513,6 @@ nsString
 aDirectory
 )
 ;
-virtual
 RefPtr
 <
 GetGMPContentParentPromise
