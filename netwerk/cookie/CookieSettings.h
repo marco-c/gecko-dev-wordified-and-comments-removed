@@ -100,6 +100,16 @@ CookieSettingsArgs
 aData
 )
 ;
+bool
+HasBeenChanged
+(
+)
+const
+{
+return
+mToBeMerged
+;
+}
 private
 :
 enum
@@ -130,6 +140,9 @@ mCookiePermissions
 ;
 State
 mState
+;
+bool
+mToBeMerged
 ;
 }
 ;

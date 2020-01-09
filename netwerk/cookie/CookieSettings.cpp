@@ -351,6 +351,10 @@ mState
 (
 aState
 )
+mToBeMerged
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -680,6 +684,10 @@ permission
 )
 ;
 }
+mToBeMerged
+=
+true
+;
 return
 NS_OK
 ;
@@ -840,6 +848,10 @@ cookiePermission
 )
 ;
 }
+mToBeMerged
+=
+false
+;
 }
 void
 CookieSettings
