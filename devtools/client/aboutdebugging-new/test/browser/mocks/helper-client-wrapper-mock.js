@@ -205,13 +205,6 @@ close
 >
 {
 }
-isClosed
-:
-(
-)
-=
->
-false
 connect
 :
 (
