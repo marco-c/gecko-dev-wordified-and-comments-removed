@@ -507,14 +507,8 @@ Unlink
 tmp
 )
 ;
-tmp
--
->
-UnsetFlags
+if
 (
-NODE_IS_IN_SHADOW_TREE
-)
-;
 nsContentSlots
 *
 slots
@@ -525,10 +519,6 @@ tmp
 GetExistingContentSlots
 (
 )
-;
-if
-(
-slots
 )
 {
 slots
