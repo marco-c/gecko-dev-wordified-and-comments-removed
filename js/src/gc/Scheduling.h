@@ -36,6 +36,11 @@ _
 (
 ArrayBufferContents
 )
+\
+_
+(
+StringContents
+)
 #
 define
 JS_FOR_EACH_MEMORY_USE
