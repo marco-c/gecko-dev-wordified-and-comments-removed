@@ -323,14 +323,6 @@ name
 '
 ]
 =
-test
-.
-name
-+
-"
--
-"
-+
 measurement_name
                     
 new_subtest
