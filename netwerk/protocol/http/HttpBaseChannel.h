@@ -1322,15 +1322,6 @@ aIsClassificationFlags
 override
 ;
 NS_IMETHOD
-OverrideTrackingFlagsForDocumentCookieAccessor
-(
-nsIHttpChannel
-*
-aDocumentChannel
-)
-override
-;
-NS_IMETHOD
 GetFlashPluginState
 (
 nsIHttpChannel
