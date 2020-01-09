@@ -6,11 +6,6 @@ false
 load
 (
 "
-.
-.
-/
-data
-/
 xpcshellUtilsAUS
 .
 js
