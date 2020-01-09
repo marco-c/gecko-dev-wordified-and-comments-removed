@@ -297,6 +297,14 @@ listAddons
 >
 [
 ]
+listProcesses
+:
+(
+)
+=
+>
+[
+]
 listTabs
 :
 (

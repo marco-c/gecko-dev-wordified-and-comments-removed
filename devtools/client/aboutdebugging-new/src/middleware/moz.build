@@ -88,6 +88,15 @@ data
 js
 '
 '
+process
+-
+component
+-
+data
+.
+js
+'
+'
 tab
 -
 component

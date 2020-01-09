@@ -111,6 +111,11 @@ InspectAction
 js
 '
 '
+ProcessDetail
+.
+js
+'
+'
 ServiceWorkerAction
 .
 css
