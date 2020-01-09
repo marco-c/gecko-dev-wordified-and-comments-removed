@@ -7303,7 +7303,7 @@ bool
 true
 )
 ;
-DECL_OVERRIDE_PREF
+DECL_GFX_PREF
 (
 Live
 "
@@ -7318,10 +7318,8 @@ frame
 containers
 "
 LayoutUseContainersForRootFrames
-!
-OverrideBase_WebRender
-(
-)
+bool
+false
 )
 ;
 DECL_GFX_PREF
