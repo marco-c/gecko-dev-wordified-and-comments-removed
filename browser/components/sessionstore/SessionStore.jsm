@@ -13815,7 +13815,6 @@ HomePage
 .
 get
 (
-aWindow
 )
 .
 split
