@@ -167,8 +167,9 @@ constexpr
 SMILEnumType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

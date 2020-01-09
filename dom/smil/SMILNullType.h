@@ -160,8 +160,9 @@ constexpr
 SMILNullType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

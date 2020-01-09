@@ -161,12 +161,6 @@ false
 )
 {
 }
-~
-SMILCompositor
-(
-)
-{
-}
 KeyTypeRef
 GetKey
 (

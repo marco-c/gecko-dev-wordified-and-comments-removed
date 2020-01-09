@@ -269,8 +269,9 @@ constexpr
 SMILCSSValueType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

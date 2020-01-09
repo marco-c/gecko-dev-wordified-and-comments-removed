@@ -165,8 +165,9 @@ constexpr
 SMILIntegerType
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
