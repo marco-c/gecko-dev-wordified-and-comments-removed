@@ -403,6 +403,9 @@ toEqual
 [
 toEditorLine
 (
+"
+foo
+"
 line
 )
 "
@@ -562,6 +565,9 @@ toEqual
 [
 toEditorLine
 (
+"
+foo
+"
 firstLine
 )
 "
@@ -595,6 +601,9 @@ toEqual
 [
 toEditorLine
 (
+"
+foo
+"
 firstLine
 )
 "
@@ -611,6 +620,9 @@ line
 [
 toEditorLine
 (
+"
+foo
+"
 secondLine
 )
 "
@@ -650,6 +662,9 @@ line
 :
 toEditorLine
 (
+"
+foo
+"
 firstLine
 )
 }
@@ -661,6 +676,9 @@ line
 :
 toEditorLine
 (
+"
+foo
+"
 firstLine
 )
 }
@@ -683,6 +701,9 @@ line
 :
 toEditorLine
 (
+"
+foo
+"
 secondLine
 )
 }
@@ -694,6 +715,9 @@ line
 :
 toEditorLine
 (
+"
+foo
+"
 secondLine
 )
 }

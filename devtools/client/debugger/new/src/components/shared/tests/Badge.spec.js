@@ -50,14 +50,9 @@ shallow
 <
 Badge
 >
-<
-p
->
+{
 3
-<
-/
-p
->
+}
 <
 /
 Badge

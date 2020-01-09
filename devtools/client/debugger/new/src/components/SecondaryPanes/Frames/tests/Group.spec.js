@@ -121,6 +121,15 @@ jest
 fn
 (
 )
+disableContextMenu
+:
+false
+displayFullUrl
+:
+false
+selectable
+:
+true
 }
 ;
 const

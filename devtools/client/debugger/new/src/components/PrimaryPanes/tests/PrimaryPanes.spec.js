@@ -131,7 +131,11 @@ afterEach
 =
 >
 {
+(
 copyToTheClipboard
+:
+any
+)
 .
 mockClear
 (

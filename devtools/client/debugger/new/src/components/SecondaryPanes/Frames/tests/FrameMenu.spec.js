@@ -156,6 +156,8 @@ FrameMenu
 {
 let
 mockEvent
+:
+any
 ;
 let
 mockFrame

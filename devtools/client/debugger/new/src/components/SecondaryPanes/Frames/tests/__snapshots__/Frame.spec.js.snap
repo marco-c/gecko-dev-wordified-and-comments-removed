@@ -166,6 +166,11 @@ true
 >
 <
 FrameLocation
+displayFullUrl
+=
+{
+false
+}
 frame
 =
 {
@@ -368,6 +373,11 @@ true
 >
 <
 FrameLocation
+displayFullUrl
+=
+{
+false
+}
 frame
 =
 {
@@ -581,6 +591,11 @@ true
 >
 <
 FrameLocation
+displayFullUrl
+=
+{
+false
+}
 frame
 =
 {
@@ -796,6 +811,11 @@ true
 >
 <
 FrameLocation
+displayFullUrl
+=
+{
+false
+}
 frame
 =
 {

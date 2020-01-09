@@ -417,9 +417,11 @@ start
 number
 end
 :
+?
 number
 klass
 :
+?
 string
 )
 {

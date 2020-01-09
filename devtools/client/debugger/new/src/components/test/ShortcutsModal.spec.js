@@ -49,6 +49,10 @@ jest
 fn
 (
 )
+additionalClass
+:
+"
+"
 .
 .
 .

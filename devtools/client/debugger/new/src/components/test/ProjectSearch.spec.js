@@ -453,6 +453,13 @@ jest
 fn
 (
 )
+setActiveSearch
+:
+jest
+.
+fn
+(
+)
 .
 .
 .
@@ -558,7 +565,8 @@ render
 {
 activeSearch
 :
-null
+"
+"
 }
 )
 ;

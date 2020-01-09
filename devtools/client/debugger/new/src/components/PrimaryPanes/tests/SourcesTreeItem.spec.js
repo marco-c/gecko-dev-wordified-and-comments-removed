@@ -153,7 +153,11 @@ afterEach
 =
 >
 {
+(
 copyToTheClipboard
+:
+any
+)
 .
 mockClear
 (
@@ -1709,9 +1713,7 @@ async
 >
 {
 const
-{
 node
-}
 =
 render
 (
@@ -2178,9 +2180,14 @@ overrides
 )
 {
 overrides
-.
-contents
 =
+{
+.
+.
+.
+overrides
+contents
+:
 createSource
 (
 {
@@ -2209,6 +2216,7 @@ contents
 )
 }
 )
+}
 ;
 return
 {

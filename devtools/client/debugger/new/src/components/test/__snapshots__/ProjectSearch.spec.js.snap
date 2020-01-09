@@ -456,6 +456,13 @@ selectSpecificLocation
 MockFunction
 ]
 }
+setActiveSearch
+=
+{
+[
+MockFunction
+]
+}
 sources
 =
 {

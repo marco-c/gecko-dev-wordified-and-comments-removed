@@ -28,6 +28,13 @@ modal
 -
 wrapper
 "
+onClick
+=
+{
+[
+Function
+]
+}
 >
 <
 div
@@ -35,6 +42,7 @@ className
 =
 "
 modal
+entering
 "
 onClick
 =
