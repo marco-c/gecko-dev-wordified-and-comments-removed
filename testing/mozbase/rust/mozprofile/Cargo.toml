@@ -74,12 +74,8 @@ MPL
 [
 dependencies
 ]
-tempdir
+tempfile
 =
 "
-0
-.
 3
-.
-4
 "
