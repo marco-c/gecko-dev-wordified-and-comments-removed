@@ -30,7 +30,7 @@ kind
 test
 tier
 :
-1
+3
 worker
 -
 type
@@ -183,7 +183,7 @@ kind
 test
 tier
 :
-1
+3
 worker
 -
 type
