@@ -158,14 +158,14 @@ replayDebugger
 )
 ;
 void
-HitExecutionPoint
+ManifestFinished
 (
 in
 long
 childId
 in
 jsval
-msg
+response
 )
 ;
 void
