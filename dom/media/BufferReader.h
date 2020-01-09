@@ -1019,6 +1019,11 @@ aCount
 mRemaining
 )
 {
+mPtr
++
+=
+mRemaining
+;
 mRemaining
 =
 0
