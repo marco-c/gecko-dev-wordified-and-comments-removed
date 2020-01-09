@@ -115,6 +115,14 @@ Auth
 {
                     
 '
+rootUrl
+'
+:
+self
+.
+real_root_url
+                    
+'
 credentials
 '
 :
@@ -337,6 +345,14 @@ Auth
 {
                     
 '
+rootUrl
+'
+:
+self
+.
+real_root_url
+                    
+'
 credentials
 '
 :
@@ -350,6 +366,7 @@ session
                 
 result
 =
+await
 client
 .
 testAuthenticate
@@ -413,3 +430,8 @@ tester
 loop
 .
 run_until_complete
+(
+x
+(
+)
+)

@@ -269,15 +269,9 @@ fired
 .
 See
     
-https
-:
-/
+[
 /
 docs
-.
-taskcluster
-.
-net
 /
 reference
 /
@@ -292,6 +286,12 @@ docs
 firing
 -
 hooks
+]
+(
+firing
+-
+hooks
+)
     
 for
 more
@@ -305,27 +305,20 @@ information
 classOptions
 =
 {
-        
-"
-baseUrl
-"
-:
-"
-https
-:
-/
-/
-hooks
-.
-taskcluster
-.
-net
-/
-v1
-/
-"
     
 }
+    
+serviceName
+=
+'
+hooks
+'
+    
+apiVersion
+=
+'
+v1
+'
     
 async
 def
