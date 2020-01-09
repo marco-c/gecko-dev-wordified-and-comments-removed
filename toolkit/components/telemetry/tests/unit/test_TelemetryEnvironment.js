@@ -1970,6 +1970,11 @@ e10sEnabled
 "
 boolean
 "
+e10sMultiProcesses
+:
+"
+number
+"
 intl
 :
 "
