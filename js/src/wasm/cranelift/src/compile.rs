@@ -490,7 +490,6 @@ self
 environ
 index
 )
-?
 ;
 self
 .

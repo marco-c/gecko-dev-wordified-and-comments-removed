@@ -377,7 +377,7 @@ SHIFTWIDTH
 }
 }
 fn
-get_outdent
+_get_outdent
 (
 &
 mut
@@ -389,7 +389,7 @@ String
 {
 self
 .
-indent_pop
+indent_push
 (
 )
 ;
@@ -404,7 +404,7 @@ get_indent
 ;
 self
 .
-indent_push
+indent_pop
 (
 )
 ;
@@ -490,7 +490,7 @@ to_string
 }
 pub
 fn
-outdented_line
+_outdented_line
 (
 &
 mut
@@ -512,12 +512,10 @@ format
 }
 {
 }
-\
-n
 "
 self
 .
-get_outdent
+_get_outdent
 (
 )
 s

@@ -1097,6 +1097,9 @@ __init__
 (
 self
 name
+typevar
+=
+None
 )
 :
         
@@ -1122,13 +1125,15 @@ self
 .
 typevar
 =
-None
+typevar
         
 self
 .
 original_typevar
 =
-None
+self
+.
+typevar
     
 def
 __str__

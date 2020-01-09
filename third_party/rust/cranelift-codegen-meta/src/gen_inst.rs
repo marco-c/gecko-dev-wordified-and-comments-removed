@@ -4826,7 +4826,6 @@ result
 ;
 result
 }
-pub
 fn
 gen_typesets_table
 (
