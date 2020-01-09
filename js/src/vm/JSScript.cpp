@@ -27038,6 +27038,15 @@ packedFields_
 (
 packedFields
 )
+fieldInitializers_
+(
+FieldInitializers
+:
+:
+Invalid
+(
+)
+)
 sourceStart_
 (
 sourceStart

@@ -864,6 +864,16 @@ this
 \
 MACRO
 (
+dotInitializers
+dotInitializers
+"
+.
+initializers
+"
+)
+\
+MACRO
+(
 each
 each
 "
