@@ -64,8 +64,6 @@ nsIPrincipal
 *
 aPrincipal
 bool
-aUseTrackingProtection
-bool
 *
 aSuccess
 )
@@ -110,7 +108,6 @@ Classify
 (
 aPrincipal
 nullptr
-aUseTrackingProtection
 this
 aSuccess
 )

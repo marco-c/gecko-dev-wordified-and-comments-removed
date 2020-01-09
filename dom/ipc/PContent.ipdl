@@ -4386,8 +4386,6 @@ PURLClassifier
 (
 Principal
 principal
-bool
-useTrackingProtection
 )
 returns
 (
