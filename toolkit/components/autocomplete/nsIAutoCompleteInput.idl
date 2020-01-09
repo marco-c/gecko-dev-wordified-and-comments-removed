@@ -76,6 +76,9 @@ nsIAutoCompletePopup
 webidl
 Event
 ;
+webidl
+Element
+;
 [
 scriptable
 uuid
@@ -111,6 +114,11 @@ display
 results
 *
 /
+readonly
+attribute
+Element
+popupElement
+;
 readonly
 attribute
 nsIAutoCompletePopup
