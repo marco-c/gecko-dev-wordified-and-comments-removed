@@ -149,6 +149,9 @@ class
 AutoAllocInAtomsZone
 ;
 class
+AutoMaybeLeaveAtomsZone
+;
+class
 AutoRealm
 ;
 namespace
@@ -1364,6 +1367,13 @@ js
 :
 :
 AutoAllocInAtomsZone
+;
+friend
+class
+js
+:
+:
+AutoMaybeLeaveAtomsZone
 ;
 friend
 class
