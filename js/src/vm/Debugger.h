@@ -6468,6 +6468,8 @@ HandleDebuggerObject
 object
 HandleId
 id
+HandleValue
+receiver
 MutableHandleValue
 result
 )
@@ -6486,6 +6488,8 @@ HandleId
 id
 HandleValue
 value
+HandleValue
+receiver
 MutableHandleValue
 result
 )
