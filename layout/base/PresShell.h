@@ -2896,6 +2896,15 @@ mHandlingStartTime
 }
 ;
 void
+RecordEventPreparationPerformance
+(
+const
+WidgetEvent
+*
+aEvent
+)
+;
+void
 RecordEventHandlingResponsePerformance
 (
 const
