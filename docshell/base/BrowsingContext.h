@@ -134,6 +134,9 @@ class
 BrowsingContextGroup
 ;
 class
+CanonicalBrowsingContext
+;
+class
 ContentParent
 ;
 template
@@ -281,6 +284,12 @@ aId
 ContentParent
 *
 aOriginProcess
+)
+;
+CanonicalBrowsingContext
+*
+Canonical
+(
 )
 ;
 nsIDocShell

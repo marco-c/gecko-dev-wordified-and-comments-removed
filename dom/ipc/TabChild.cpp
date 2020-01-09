@@ -3066,15 +3066,7 @@ GetBrowsingContext
 ;
 SendRootBrowsingContext
 (
-BrowsingContextId
-(
 browsingContext
--
->
-Id
-(
-)
-)
 )
 ;
 nsCOMPtr
