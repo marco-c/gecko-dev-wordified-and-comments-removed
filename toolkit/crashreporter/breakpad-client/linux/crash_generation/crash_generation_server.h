@@ -48,11 +48,11 @@ void
 context
 const
 ClientInfo
-*
+&
 client_info
 const
 string
-*
+&
 file_path
 )
 ;
@@ -68,7 +68,7 @@ void
 context
 const
 ClientInfo
-*
+&
 client_info
 )
 ;

@@ -1239,9 +1239,7 @@ this
 dump_callback_
 (
 dump_context_
-&
 info
-&
 minidump_filename
 )
 ;
