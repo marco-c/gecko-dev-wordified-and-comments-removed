@@ -348,7 +348,9 @@ static
 -
 analysis
 check
-TRY_MODIFIED_FILES
+-
+-
+outgoing
 -
 -
 output
@@ -472,8 +474,7 @@ clang
 format
 -
 -
-path
-TRY_MODIFIED_FILES
+outgoing
 -
 -
 output
