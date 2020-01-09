@@ -4666,6 +4666,11 @@ preferencesCmdMac
 commandkey
 ;
 "
+reserved
+=
+"
+true
+"
 modifiers
 =
 "
