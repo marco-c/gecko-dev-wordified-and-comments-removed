@@ -31304,7 +31304,7 @@ StringExpr
 )
 )
 ;
-uint16_t
+uint8_t
 operand
 =
 AbstractGeneratorObject
@@ -31340,7 +31340,7 @@ pn_next
 if
 (
 !
-emitCall
+emit2
 (
 JSOP_RESUME
 operand
