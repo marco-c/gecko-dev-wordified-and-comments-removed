@@ -1009,7 +1009,7 @@ createSnapshotThumbnail
 (
 aBrowser
 .
-ownerGlobal
+contentWindow
 aCanvas
 aArgs
 )

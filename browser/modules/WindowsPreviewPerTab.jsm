@@ -551,6 +551,8 @@ createCanvas
 this
 .
 win
+.
+win
 )
 ;
 canvas
@@ -968,6 +970,8 @@ PageThumbs
 createCanvas
 (
 this
+.
+win
 .
 win
 )
