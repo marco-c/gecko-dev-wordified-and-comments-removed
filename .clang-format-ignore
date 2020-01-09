@@ -1186,6 +1186,12 @@ trunk
 *
 mfbt
 /
+decimal
+/
+.
+*
+mfbt
+/
 double
 -
 conversion
@@ -1274,14 +1280,6 @@ embedded
 modules
 /
 zlib
-/
-.
-*
-mozglue
-/
-misc
-/
-decimal
 /
 .
 *
