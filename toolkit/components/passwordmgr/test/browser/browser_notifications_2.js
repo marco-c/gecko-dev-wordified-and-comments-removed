@@ -165,7 +165,7 @@ password
 value
 =
 "
-p
+pw
 "
 ;
 doc
@@ -231,6 +231,16 @@ synthesizeKey
 (
 "
 KEY_ArrowRight
+"
+)
+;
+await
+EventUtils
+.
+synthesizeKey
+(
+"
+KEY_Backspace
 "
 )
 ;
@@ -404,7 +414,7 @@ password
 value
 =
 "
-p
+pw
 "
 ;
 doc
@@ -697,7 +707,7 @@ password
 value
 =
 "
-p
+pass
 "
 ;
 doc
