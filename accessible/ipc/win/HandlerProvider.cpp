@@ -1,7 +1,4 @@
 #
-define
-INITGUID
-#
 include
 "
 mozilla

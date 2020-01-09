@@ -18,9 +18,6 @@ use
 #
 endif
 #
-define
-INITGUID
-#
 include
 "
 AccessibleHandler
