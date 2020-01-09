@@ -278,7 +278,7 @@ profiler
 -
 dialog
 -
-title
+title2
 "
 }
 dom
@@ -295,8 +295,15 @@ dialog__header__title
 "
 }
 "
-Performance
-Profiler
+about
+-
+debugging
+-
+profiler
+-
+dialog
+-
+title2
 "
 )
 )

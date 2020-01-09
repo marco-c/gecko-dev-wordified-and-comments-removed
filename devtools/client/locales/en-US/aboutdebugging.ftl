@@ -2105,10 +2105,10 @@ runtime
 -
 profile
 -
-button
+button2
 =
 Profile
-Runtime
+performance
 #
 This
 string
@@ -2862,9 +2862,8 @@ profiler
 -
 dialog
 -
-title
+title2
 =
-Performance
 Profiler
 #
 Label
