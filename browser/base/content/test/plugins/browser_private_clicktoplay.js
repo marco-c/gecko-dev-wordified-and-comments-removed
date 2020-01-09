@@ -169,9 +169,7 @@ gPrivateBrowser
 =
 gPrivateWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 selectedBrowser
 ;

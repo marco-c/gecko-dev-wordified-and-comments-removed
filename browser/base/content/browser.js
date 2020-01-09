@@ -38636,15 +38636,6 @@ remotecontrol
 }
 }
 ;
-function
-getBrowser
-(
-)
-{
-return
-gBrowser
-;
-}
 const
 gAccessibilityServiceIndicator
 =

@@ -6562,9 +6562,7 @@ tabbrowser
 =
 win
 .
-getBrowser
-(
-)
+gBrowser
 ;
 tabbrowser
 .

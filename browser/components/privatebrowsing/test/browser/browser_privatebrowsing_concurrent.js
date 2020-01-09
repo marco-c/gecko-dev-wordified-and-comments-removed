@@ -159,9 +159,7 @@ private_browser
 =
 private_window
 .
-getBrowser
-(
-)
+gBrowser
 .
 selectedBrowser
 ;
@@ -410,9 +408,7 @@ private_browser
 =
 private_window
 .
-getBrowser
-(
-)
+gBrowser
 .
 selectedBrowser
 ;
@@ -542,9 +538,7 @@ private_browser
 =
 private_window
 .
-getBrowser
-(
-)
+gBrowser
 .
 selectedBrowser
 ;

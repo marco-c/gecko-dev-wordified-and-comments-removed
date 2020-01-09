@@ -146,9 +146,7 @@ this
 .
 getZoomForBrowser
 (
-getBrowser
-(
-)
+gBrowser
 )
 ;
 }
@@ -208,9 +206,7 @@ this
 .
 setZoomForBrowser
 (
-getBrowser
-(
-)
+gBrowser
 aVal
 )
 ;

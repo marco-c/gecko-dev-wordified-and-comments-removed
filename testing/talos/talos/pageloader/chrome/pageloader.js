@@ -1024,9 +1024,7 @@ content
 =
 browserWindow
 .
-getBrowser
-(
-)
+gBrowser
 ;
 content
 .
@@ -2431,9 +2429,7 @@ mm
 =
 browserWindow
 .
-getBrowser
-(
-)
+gBrowser
 .
 selectedBrowser
 .
