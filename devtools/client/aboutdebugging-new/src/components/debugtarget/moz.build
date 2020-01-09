@@ -121,6 +121,16 @@ TemporaryExtensionAction
 js
 '
 '
+TemporaryExtensionDetail
+.
+css
+'
+'
+TemporaryExtensionDetail
+.
+js
+'
+'
 TemporaryExtensionInstaller
 .
 js
