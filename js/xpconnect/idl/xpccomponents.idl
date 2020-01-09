@@ -485,7 +485,7 @@ b0fd
 )
 ]
 interface
-ScheduledGCCallback
+nsIScheduledGCCallback
 :
 nsISupports
 {
@@ -1939,7 +1939,7 @@ void
 schedulePreciseGC
 (
 in
-ScheduledGCCallback
+nsIScheduledGCCallback
 callback
 )
 ;
@@ -1980,7 +1980,7 @@ void
 schedulePreciseShrinkingGC
 (
 in
-ScheduledGCCallback
+nsIScheduledGCCallback
 callback
 )
 ;
