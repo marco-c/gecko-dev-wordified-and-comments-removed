@@ -106,7 +106,7 @@ cat
 >
 cachedir
 /
-target_task_graph
+target_task_set
 <
 <
 EOF
@@ -269,7 +269,7 @@ cat
 >
 cachedir
 /
-full_task_graph
+full_task_set
 <
 <
 EOF
