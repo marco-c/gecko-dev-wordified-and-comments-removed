@@ -409,7 +409,7 @@ formats
 :
 [
 "
-gpg
+autograph_gpg
 "
 ]
         
@@ -492,18 +492,6 @@ scopes
 [
                 
 signing_cert_scope
-                
-add_scope_prefix
-(
-config
-'
-signing
-:
-format
-:
-gpg
-'
-)
             
 ]
             
