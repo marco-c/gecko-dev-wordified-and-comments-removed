@@ -72,6 +72,16 @@ select
 :
 none
 ;
+width
+:
+calc
+(
+100
+%
+-
+1px
+)
+;
 user
 -
 select

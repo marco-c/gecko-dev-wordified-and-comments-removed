@@ -73,6 +73,10 @@ toolbar
 background
 )
 ;
+overflow
+:
+hidden
+;
 font
 -
 weight
