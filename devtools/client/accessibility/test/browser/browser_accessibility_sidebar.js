@@ -139,7 +139,7 @@ for
 accessibility
 .
 "
-action
+setup
 :
 async
 (
@@ -214,7 +214,7 @@ the
 document
 .
 "
-action
+setup
 :
 async
 (
