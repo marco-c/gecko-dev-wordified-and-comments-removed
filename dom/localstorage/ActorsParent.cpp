@@ -21108,8 +21108,9 @@ MOZ_ASSERT
 mAllowedToClose
 )
 ;
+return
+;
 }
-else
 if
 (
 NS_WARN_IF
@@ -21119,6 +21120,10 @@ SendRequestAllowToClose
 (
 )
 )
+&
+&
+!
+mSnapshot
 )
 {
 AllowToClose
@@ -21148,6 +21153,12 @@ mAllowedToClose
 MOZ_ASSERT
 (
 mDatastore
+)
+;
+MOZ_ASSERT
+(
+!
+mSnapshot
 )
 ;
 mAllowedToClose
