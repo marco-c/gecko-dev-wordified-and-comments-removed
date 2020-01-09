@@ -1,4 +1,10 @@
 #
+ifndef
+SkOSFile_ios_DEFINED
+#
+define
+SkOSFile_ios_DEFINED
+#
 include
 "
 SkString
@@ -126,5 +132,7 @@ return
 true
 ;
 }
+#
+endif
 #
 endif

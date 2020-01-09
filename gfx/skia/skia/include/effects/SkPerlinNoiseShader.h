@@ -82,7 +82,7 @@ z
 ;
 static
 void
-InitializeFlattenables
+RegisterFlattenables
 (
 )
 ;

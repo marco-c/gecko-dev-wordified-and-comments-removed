@@ -11,6 +11,9 @@ SkPathOpsPoint
 .
 h
 "
+class
+SkTCurve
+;
 struct
 SkDRect
 {
@@ -342,6 +345,15 @@ double
 tStart
 double
 tEnd
+)
+;
+void
+setBounds
+(
+const
+SkTCurve
+&
+curve
 )
 ;
 bool

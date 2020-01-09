@@ -23,7 +23,7 @@ include
 "
 vk
 /
-GrVkDefines
+GrVkTypes
 .
 h
 "
@@ -154,7 +154,6 @@ GrVkFramebuffer
 void
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

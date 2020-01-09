@@ -146,5 +146,16 @@ uint16_t
 triangleIndices
 )
 ;
+bool
+SkIsPolyConvex_experimental
+(
+const
+SkPoint
+[
+]
+int
+count
+)
+;
 #
 endif

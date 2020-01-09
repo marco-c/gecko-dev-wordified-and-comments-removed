@@ -233,7 +233,6 @@ GrVkFramebuffer
 :
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

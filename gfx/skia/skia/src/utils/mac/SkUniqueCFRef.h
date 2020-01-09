@@ -51,8 +51,6 @@ include
 <
 memory
 >
-namespace
-{
 template
 <
 typename
@@ -87,7 +85,6 @@ CFRelease
 >
 >
 ;
-}
 #
 endif
 #

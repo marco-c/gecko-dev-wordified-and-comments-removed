@@ -185,6 +185,9 @@ override
 void
 onDrawPath
 (
+GrRenderTarget
+*
+GrSurfaceOrigin
 const
 GrPrimitiveProcessor
 &

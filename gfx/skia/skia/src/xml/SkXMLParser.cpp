@@ -367,7 +367,6 @@ ParsingContext
 (
 arg
 )
-;
 void
 XMLCALL
 start_element_handler

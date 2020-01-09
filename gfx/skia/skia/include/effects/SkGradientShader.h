@@ -896,7 +896,7 @@ nullptr
 }
 static
 void
-InitializeFlattenables
+RegisterFlattenables
 (
 )
 ;

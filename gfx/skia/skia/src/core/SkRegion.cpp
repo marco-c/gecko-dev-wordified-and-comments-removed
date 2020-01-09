@@ -8,13 +8,6 @@ h
 #
 include
 "
-SkAtomics
-.
-h
-"
-#
-include
-"
 SkMacros
 .
 h
@@ -59,12 +52,6 @@ include
 <
 utility
 >
-SkDEBUGCODE
-(
-int32_t
-gRgnAllocCounter
-;
-)
 #
 define
 SkRegion_gEmptyRunHeadPtr
@@ -1095,7 +1082,7 @@ op
 }
 #
 ifdef
-SK_BUILD_FOR_ANDROID
+SK_BUILD_FOR_ANDROID_FRAMEWORK
 #
 include
 <

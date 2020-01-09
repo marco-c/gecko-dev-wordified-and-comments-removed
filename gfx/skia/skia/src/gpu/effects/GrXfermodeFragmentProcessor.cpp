@@ -181,6 +181,9 @@ ComposeTwo
 "
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -273,6 +276,8 @@ return
 str
 ;
 }
+#
+endif
 std
 :
 :
@@ -1563,6 +1568,9 @@ ComposeOne
 "
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -1671,6 +1679,8 @@ return
 str
 ;
 }
+#
+endif
 std
 :
 :

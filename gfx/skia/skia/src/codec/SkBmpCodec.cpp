@@ -1443,6 +1443,7 @@ SkASSERT
 (
 infoBytesRemaining
 >
+=
 52
 )
 ;
@@ -2047,6 +2048,16 @@ if
 codecOut
 )
 {
+SkASSERT
+(
+bitsPerPixel
+%
+8
+=
+=
+0
+)
+;
 std
 :
 :
@@ -2063,6 +2074,8 @@ CreateMasks
 (
 inputMasks
 bitsPerPixel
+/
+8
 )
 )
 ;

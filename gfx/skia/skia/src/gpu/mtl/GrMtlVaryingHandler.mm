@@ -40,6 +40,7 @@ GrMtlVaryingHandler
 .
 h
 "
+static
 void
 finalize_helper
 (

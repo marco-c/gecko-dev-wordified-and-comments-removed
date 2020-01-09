@@ -4104,7 +4104,7 @@ kConicTolerance
 =
 0
 .
-5f
+25f
 ;
 static
 void

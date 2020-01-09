@@ -69,18 +69,6 @@ SkXfermodePriv
 h
 "
 #
-include
-"
-.
-.
-/
-jumper
-/
-SkJumper
-.
-h
-"
-#
 if
 SK_SUPPORT_GPU
 #
@@ -182,7 +170,7 @@ SkRasterPipeline_
 >
 p
 ;
-SkJumper_MemoryCtx
+SkRasterPipeline_MemoryCtx
 dst_ctx
 =
 {

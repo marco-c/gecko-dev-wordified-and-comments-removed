@@ -202,6 +202,9 @@ GaussianConvolution
 "
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -264,6 +267,8 @@ return
 str
 ;
 }
+#
+endif
 std
 :
 :

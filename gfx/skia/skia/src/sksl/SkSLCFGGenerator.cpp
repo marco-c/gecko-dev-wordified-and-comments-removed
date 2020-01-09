@@ -3265,6 +3265,12 @@ case
 Expression
 :
 :
+kNullLiteral_Kind
+:
+case
+Expression
+:
+:
 kSetting_Kind
 :
 case

@@ -24,12 +24,11 @@ SkEmptyShader
 )
 {
 }
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkEmptyShader
-)
 protected
 :
+#
+ifdef
+SK_ENABLE_LEGACY_SHADERCONTEXT
 Context
 *
 onMakeContext
@@ -47,6 +46,8 @@ return
 nullptr
 ;
 }
+#
+endif
 void
 flatten
 (
@@ -74,6 +75,10 @@ false
 }
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkEmptyShader
+)
 typedef
 SkShaderBase
 INHERITED

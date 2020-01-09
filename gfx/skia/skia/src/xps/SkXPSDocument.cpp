@@ -325,13 +325,6 @@ get
 )
 ;
 fCanvas
--
->
-flush
-(
-)
-;
-fCanvas
 .
 reset
 (

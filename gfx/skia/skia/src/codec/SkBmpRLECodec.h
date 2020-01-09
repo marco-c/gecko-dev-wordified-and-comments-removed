@@ -81,6 +81,12 @@ setSampleX
 int
 )
 ;
+int
+fillWidth
+(
+)
+const
+;
 protected
 :
 Result

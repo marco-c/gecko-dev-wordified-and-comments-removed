@@ -87,7 +87,11 @@ value
 )
 |
 (
+(
 value
+&
+0xFF
+)
 <
 <
 8

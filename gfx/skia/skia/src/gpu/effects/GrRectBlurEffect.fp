@@ -45,6 +45,13 @@ h
 #
 include
 "
+GrShaderCaps
+.
+h
+"
+#
+include
+"
 SkBlurMask
 .
 h
@@ -928,6 +935,8 @@ center
 half
 hcoord
 =
+half
+(
 (
 (
 abs
@@ -954,6 +963,7 @@ x
 )
 /
 profileSize
+)
 ;
 half
 hlookup
@@ -975,6 +985,8 @@ a
 half
 vcoord
 =
+half
+(
 (
 (
 abs
@@ -1001,6 +1013,7 @@ y
 )
 /
 profileSize
+)
 ;
 half
 vlookup
@@ -1033,6 +1046,8 @@ else
 half2
 translatedPos
 =
+half2
+(
 sk_FragCoord
 .
 xy
@@ -1040,10 +1055,13 @@ xy
 rect
 .
 xy
+)
 ;
 half
 width
 =
+half
+(
 rect
 .
 z
@@ -1051,10 +1069,13 @@ z
 rect
 .
 x
+)
 ;
 half
 height
 =
+half
+(
 rect
 .
 w
@@ -1062,6 +1083,7 @@ w
 rect
 .
 y
+)
 ;
 half2
 smallDims
@@ -1099,7 +1121,7 @@ wh
 =
 smallDims
 -
-float2
+half2
 (
 center
 center
@@ -1109,6 +1131,8 @@ half
 hcoord
 =
 (
+(
+half
 (
 abs
 (
@@ -1121,6 +1145,7 @@ x
 5
 *
 width
+)
 )
 -
 0
@@ -1157,6 +1182,8 @@ vcoord
 =
 (
 (
+half
+(
 abs
 (
 translatedPos
@@ -1168,6 +1195,7 @@ y
 5
 *
 height
+)
 )
 -
 0

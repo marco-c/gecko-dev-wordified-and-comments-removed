@@ -836,7 +836,10 @@ sk_OutColor
 =
 half4
 (
+half
+(
 t
+)
 v
 0
 0

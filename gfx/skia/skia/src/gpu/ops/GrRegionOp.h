@@ -12,10 +12,10 @@ GrTypesPriv
 h
 "
 class
-GrContext
+GrDrawOp
 ;
 class
-GrDrawOp
+GrRecordingContext
 ;
 class
 SkMatrix
@@ -41,7 +41,7 @@ GrDrawOp
 >
 Make
 (
-GrContext
+GrRecordingContext
 *
 GrPaint
 &

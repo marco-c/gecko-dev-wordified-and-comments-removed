@@ -11,6 +11,13 @@ defined
 (
 SK_BUILD_FOR_WIN
 )
+&
+&
+!
+defined
+(
+_M_ARM64
+)
 #
 include
 "

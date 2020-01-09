@@ -736,7 +736,10 @@ saturate
 .
 5
 -
+half
+(
 approx_dist
+)
 )
 ;
 break
@@ -779,7 +782,10 @@ saturate
 .
 5
 +
+half
+(
 approx_dist
+)
 )
 ;
 break

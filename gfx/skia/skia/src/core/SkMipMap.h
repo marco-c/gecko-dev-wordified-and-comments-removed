@@ -119,6 +119,10 @@ level
 )
 ;
 struct
+alignas
+(
+8
+)
 Level
 {
 SkPixmap

@@ -8,13 +8,6 @@ h
 #
 include
 "
-SkAtomics
-.
-h
-"
-#
-include
-"
 SkTypes
 .
 h

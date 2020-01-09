@@ -212,7 +212,6 @@ getType
 )
 ;
 )
-;
 uniform
 .
 fLocation
@@ -346,7 +345,6 @@ getType
 )
 ;
 )
-;
 pathProcVarying
 .
 fLocation

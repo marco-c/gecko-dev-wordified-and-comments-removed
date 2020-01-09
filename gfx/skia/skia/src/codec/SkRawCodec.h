@@ -127,6 +127,17 @@ SkISize
 )
 override
 ;
+bool
+usesColorXform
+(
+)
+const
+override
+{
+return
+false
+;
+}
 private
 :
 SkRawCodec

@@ -82,6 +82,8 @@ kGaussian
 :
 factor
 =
+half
+(
 exp
 (
 -
@@ -97,6 +99,7 @@ factor
 0
 .
 018
+)
 ;
 break
 ;

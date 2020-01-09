@@ -23,7 +23,7 @@ include
 "
 vk
 /
-GrVkDefines
+GrVkTypes
 .
 h
 "
@@ -116,7 +116,6 @@ GrVkPipelineLayout
 void
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

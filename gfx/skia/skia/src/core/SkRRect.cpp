@@ -120,7 +120,7 @@ scale
 =
 SkMinScalar
 (
-SkScalarDiv
+sk_ieee_float_divide
 (
 fRect
 .
@@ -131,7 +131,7 @@ xRad
 +
 xRad
 )
-SkScalarDiv
+sk_ieee_float_divide
 (
 fRect
 .

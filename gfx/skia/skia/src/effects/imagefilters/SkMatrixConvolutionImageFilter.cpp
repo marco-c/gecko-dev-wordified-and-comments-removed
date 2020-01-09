@@ -29,13 +29,6 @@ h
 #
 include
 "
-SkFlattenablePriv
-.
-h
-"
-#
-include
-"
 SkImageFilterPriv
 .
 h
@@ -2164,8 +2157,7 @@ height
 MAX_KERNEL_SIZE
 )
 {
-GrContext
-*
+auto
 context
 =
 source

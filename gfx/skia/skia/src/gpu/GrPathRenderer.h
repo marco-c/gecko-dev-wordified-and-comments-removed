@@ -32,9 +32,6 @@ class
 GrClip
 ;
 class
-GrContext
-;
-class
 GrFixedClip
 ;
 class
@@ -42,6 +39,9 @@ GrHardClip
 ;
 class
 GrPaint
+;
+class
+GrRecordingContext
 ;
 class
 GrRenderTargetContext
@@ -150,6 +150,9 @@ GrAAType
 fAAType
 ;
 bool
+fTargetIsWrappedVkSecondaryCB
+;
+bool
 fHasUserStencilSettings
 ;
 #
@@ -218,7 +221,7 @@ args
 struct
 DrawPathArgs
 {
-GrContext
+GrRecordingContext
 *
 fContext
 ;
@@ -342,7 +345,7 @@ this
 ;
 }
 )
-GrContext
+GrRecordingContext
 *
 fContext
 ;

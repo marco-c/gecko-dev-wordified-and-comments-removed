@@ -2268,6 +2268,8 @@ vec
 =
 half2
 (
+half
+(
 (
 sk_FragCoord
 .
@@ -2281,6 +2283,9 @@ x
 circleData
 .
 w
+)
+half
+(
 (
 sk_FragCoord
 .
@@ -2294,6 +2299,7 @@ y
 circleData
 .
 w
+)
 )
 ;
 half

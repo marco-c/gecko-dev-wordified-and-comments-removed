@@ -241,6 +241,9 @@ path
 void
 drawPath
 (
+GrRenderTarget
+*
+GrSurfaceOrigin
 const
 GrPrimitiveProcessor
 &
@@ -298,6 +301,9 @@ virtual
 void
 onDrawPath
 (
+GrRenderTarget
+*
+GrSurfaceOrigin
 const
 GrPrimitiveProcessor
 &

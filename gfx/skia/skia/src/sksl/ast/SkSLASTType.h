@@ -43,6 +43,8 @@ vector
 int
 >
 sizes
+bool
+nullable
 )
 :
 INHERITED
@@ -66,6 +68,10 @@ move
 (
 sizes
 )
+)
+fNullable
+(
+nullable
 )
 {
 }
@@ -97,6 +103,9 @@ vector
 int
 >
 fSizes
+;
+bool
+fNullable
 ;
 typedef
 ASTPositionNode

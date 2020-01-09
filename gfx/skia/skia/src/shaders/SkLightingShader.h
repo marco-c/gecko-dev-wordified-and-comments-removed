@@ -7,13 +7,6 @@ SkLightingShader_DEFINED
 #
 include
 "
-SkFlattenablePriv
-.
-h
-"
-#
-include
-"
 SkLights
 .
 h
@@ -35,7 +28,6 @@ class
 SkNormalSource
 ;
 class
-SK_API
 SkLightingShader
 {
 public
@@ -64,9 +56,12 @@ SkLights
 lights
 )
 ;
-SK_DECLARE_FLATTENABLE_REGISTRAR_GROUP
+static
+void
+RegisterFlattenables
 (
 )
+;
 }
 ;
 #

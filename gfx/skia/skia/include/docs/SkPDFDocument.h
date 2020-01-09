@@ -32,6 +32,9 @@ SkTime
 .
 h
 "
+class
+SkExecutor
+;
 namespace
 SkPDF
 {
@@ -79,7 +82,12 @@ kCode
 kLink
 kAnnot
 kRuby
+kRB
+kRT
+kRP
 kWarichu
+kWT
+kWP
 kFigure
 kFormula
 kForm
@@ -180,6 +188,12 @@ const
 StructureElementNode
 *
 fStructureElementTreeRoot
+=
+nullptr
+;
+SkExecutor
+*
+fExecutor
 =
 nullptr
 ;

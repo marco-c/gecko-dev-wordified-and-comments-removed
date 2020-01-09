@@ -86,10 +86,6 @@ return
 fTScale
 ;
 }
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkSweepGradient
-)
 protected
 :
 void
@@ -133,6 +129,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkSweepGradient
+)
 const
 SkPoint
 fCenter

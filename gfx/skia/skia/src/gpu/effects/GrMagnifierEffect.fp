@@ -118,7 +118,7 @@ offset
 +
 coord
 *
-half2
+float2
 (
 xInvZoom
 yInvZoom
@@ -160,13 +160,13 @@ delta
 delta
 *
 =
-half2
+float2
 (
 xInvInset
 yInvInset
 )
 ;
-half
+float
 weight
 =
 0
@@ -207,7 +207,7 @@ half2
 -
 delta
 ;
-half
+float
 dist
 =
 length

@@ -59,6 +59,11 @@ h
 "
 #
 include
+<
+vector
+>
+#
+include
 "
 png
 .
@@ -608,6 +613,9 @@ colorType
 )
 )
 {
+case
+kRGBA_F16Norm_SkColorType
+:
 case
 kRGBA_F16_SkColorType
 :
@@ -1347,6 +1355,11 @@ colorType
 )
 {
 case
+kUnknown_SkColorType
+:
+break
+;
+case
 kRGBA_8888_SkColorType
 :
 switch
@@ -1438,7 +1451,7 @@ case
 kRGB_888x_SkColorType
 :
 return
-transform_scanline_888x
+transform_scanline_RGBX
 ;
 case
 kARGB_4444_SkColorType
@@ -1481,6 +1494,9 @@ kGray_8_SkColorType
 return
 transform_scanline_memcpy
 ;
+case
+kRGBA_F16Norm_SkColorType
+:
 case
 kRGBA_F16_SkColorType
 :
@@ -1607,8 +1623,7 @@ kAlpha_8_SkColorType
 return
 transform_scanline_A8_to_GrayAlpha
 ;
-default
-:
+}
 SkASSERT
 (
 false
@@ -1617,7 +1632,6 @@ false
 return
 nullptr
 ;
-}
 }
 static
 void
@@ -2211,7 +2225,6 @@ colorType
 (
 )
 )
-nullptr
 )
 ;
 png_bytep

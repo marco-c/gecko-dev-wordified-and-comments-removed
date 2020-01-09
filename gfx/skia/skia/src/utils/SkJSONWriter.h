@@ -1032,7 +1032,7 @@ appendf
 (
 "
 %
-f
+g
 "
 value
 )
@@ -1059,7 +1059,7 @@ appendf
 (
 "
 %
-f
+g
 "
 value
 )
@@ -1090,7 +1090,7 @@ appendf
 %
 .
 *
-f
+g
 "
 digits
 value
@@ -1122,7 +1122,7 @@ appendf
 %
 .
 *
-f
+g
 "
 digits
 value

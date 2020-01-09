@@ -414,7 +414,7 @@ GrPaint
 :
 isConstantBlendedColor
 (
-GrColor
+SkPMColor4f
 *
 constantColor
 )
@@ -465,7 +465,7 @@ fXPFactory
 *
 constantColor
 =
-GrColor_TRANSPARENT_BLACK
+SK_PMColor4fTRANSPARENT
 ;
 return
 true
@@ -510,10 +510,6 @@ isOpaque
 constantColor
 =
 fColor
-.
-toGrColor
-(
-)
 ;
 return
 true

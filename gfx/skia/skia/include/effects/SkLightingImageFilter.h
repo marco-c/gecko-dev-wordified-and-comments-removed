@@ -243,7 +243,7 @@ override
 ;
 static
 void
-InitializeFlattenables
+RegisterFlattenables
 (
 )
 ;

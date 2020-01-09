@@ -104,7 +104,7 @@ GrTextureProxy
 >
 onGenerateTexture
 (
-GrContext
+GrRecordingContext
 *
 const
 SkImageInfo
@@ -206,7 +206,7 @@ GrTexture
 *
 fBorrowedTexture
 ;
-GrReleaseProcHelper
+GrRefCntedCallback
 *
 fBorrowingContextReleaseProc
 ;

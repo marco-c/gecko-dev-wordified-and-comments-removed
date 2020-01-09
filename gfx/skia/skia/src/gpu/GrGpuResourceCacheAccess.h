@@ -63,10 +63,10 @@ isValid
 )
 &
 &
-SkBudgeted
+GrBudgetedType
 :
 :
-kYes
+kBudgeted
 =
 =
 fResource
@@ -76,7 +76,7 @@ resourcePriv
 (
 )
 .
-isBudgeted
+budgetedType
 (
 )
 ;
@@ -95,10 +95,11 @@ release
 ;
 if
 (
+!
 fResource
 -
 >
-isPurgeable
+hasRefOrPendingIO
 (
 )
 )
@@ -122,10 +123,11 @@ abandon
 ;
 if
 (
+!
 fResource
 -
 >
-isPurgeable
+hasRefOrPendingIO
 (
 )
 )

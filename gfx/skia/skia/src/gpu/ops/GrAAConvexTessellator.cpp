@@ -85,7 +85,7 @@ kConicTolerance
 =
 0
 .
-5f
+25f
 ;
 static
 const
@@ -7106,16 +7106,6 @@ paint
 setTextSize
 (
 kPointTextSize
-)
-;
-paint
-.
-setTextAlign
-(
-SkPaint
-:
-:
-kCenter_Align
 )
 ;
 if

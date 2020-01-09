@@ -134,7 +134,9 @@ desc
 MTLTextureDescriptor
 texture2DDescriptorWithPixelFormat
 :
-MTLPixelFormatStencil8
+format
+.
+fInternalFormat
 width
 :
 width
@@ -151,6 +153,12 @@ desc
 resourceOptions
 =
 MTLResourceStorageModePrivate
+;
+desc
+.
+usage
+=
+MTLTextureUsageRenderTarget
 ;
 return
 new

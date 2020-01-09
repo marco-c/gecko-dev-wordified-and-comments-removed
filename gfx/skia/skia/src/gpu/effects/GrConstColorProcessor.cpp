@@ -655,7 +655,10 @@ a
 ;
 color
 =
-GrColorToPMColor4f
+SkPMColor4f
+:
+:
+FromBytes_RGBA
 (
 GrColorPackRGBA
 (
@@ -697,7 +700,10 @@ nextULessThan
 ;
 color
 =
-GrColorToPMColor4f
+SkPMColor4f
+:
+:
+FromBytes_RGBA
 (
 c
 |

@@ -57,6 +57,9 @@ class
 GrShape
 ;
 class
+GrRecordingContext
+;
+class
 GrTextureProxy
 ;
 class
@@ -142,7 +145,7 @@ GrTextureProxy
 >
 toTextureProxy
 (
-GrContext
+GrRecordingContext
 *
 SkBackingFit
 fit

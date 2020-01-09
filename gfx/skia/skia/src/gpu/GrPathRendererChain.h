@@ -73,7 +73,7 @@ kAll
 ;
 GrPathRendererChain
 (
-GrContext
+GrRecordingContext
 *
 context
 const

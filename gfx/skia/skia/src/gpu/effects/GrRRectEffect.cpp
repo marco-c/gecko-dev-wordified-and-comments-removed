@@ -793,7 +793,7 @@ uniformHandler
 addUniform
 (
 kFragment_GrShaderFlag
-kHalf4_GrSLType
+kFloat4_GrSLType
 "
 innerRect
 "
@@ -861,7 +861,6 @@ y
 )
 )
 )
-;
 "
 radiusPlusHalfName
 radiusPlusHalfName
@@ -887,7 +886,6 @@ length
 dxy
 )
 )
-;
 "
 radiusPlusHalfName
 )
@@ -993,8 +991,11 @@ codeAppendf
 half
 alpha
 =
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -1049,6 +1050,8 @@ codeAppendf
 half
 rightAlpha
 =
+half
+(
 saturate
 (
 %
@@ -1059,6 +1062,7 @@ z
 sk_FragCoord
 .
 x
+)
 )
 ;
 "
@@ -1074,6 +1078,8 @@ codeAppendf
 half
 bottomAlpha
 =
+half
+(
 saturate
 (
 %
@@ -1084,6 +1090,7 @@ w
 sk_FragCoord
 .
 y
+)
 )
 ;
 "
@@ -1103,8 +1110,11 @@ bottomAlpha
 *
 rightAlpha
 *
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -1173,6 +1183,8 @@ codeAppendf
 half
 leftAlpha
 =
+half
+(
 saturate
 (
 sk_FragCoord
@@ -1183,6 +1195,7 @@ x
 s
 .
 x
+)
 )
 ;
 "
@@ -1198,6 +1211,8 @@ codeAppendf
 half
 bottomAlpha
 =
+half
+(
 saturate
 (
 %
@@ -1208,6 +1223,7 @@ w
 sk_FragCoord
 .
 y
+)
 )
 ;
 "
@@ -1227,8 +1243,11 @@ bottomAlpha
 *
 leftAlpha
 *
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -1283,6 +1302,8 @@ codeAppendf
 half
 leftAlpha
 =
+half
+(
 saturate
 (
 sk_FragCoord
@@ -1293,6 +1314,7 @@ x
 s
 .
 x
+)
 )
 ;
 "
@@ -1308,6 +1330,8 @@ codeAppendf
 half
 topAlpha
 =
+half
+(
 saturate
 (
 sk_FragCoord
@@ -1318,6 +1342,7 @@ y
 s
 .
 y
+)
 )
 ;
 "
@@ -1337,8 +1362,11 @@ topAlpha
 *
 leftAlpha
 *
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -1407,6 +1435,8 @@ codeAppendf
 half
 rightAlpha
 =
+half
+(
 saturate
 (
 %
@@ -1417,6 +1447,7 @@ z
 sk_FragCoord
 .
 x
+)
 )
 ;
 "
@@ -1432,6 +1463,8 @@ codeAppendf
 half
 topAlpha
 =
+half
+(
 saturate
 (
 sk_FragCoord
@@ -1442,6 +1475,7 @@ y
 s
 .
 y
+)
 )
 ;
 "
@@ -1461,8 +1495,11 @@ topAlpha
 *
 rightAlpha
 *
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -1565,6 +1602,8 @@ codeAppendf
 half
 rightAlpha
 =
+half
+(
 saturate
 (
 %
@@ -1575,6 +1614,7 @@ z
 sk_FragCoord
 .
 x
+)
 )
 ;
 "
@@ -1592,8 +1632,11 @@ alpha
 =
 rightAlpha
 *
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -1696,6 +1739,8 @@ codeAppendf
 half
 bottomAlpha
 =
+half
+(
 saturate
 (
 %
@@ -1706,6 +1751,7 @@ w
 sk_FragCoord
 .
 y
+)
 )
 ;
 "
@@ -1723,8 +1769,11 @@ alpha
 =
 bottomAlpha
 *
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -1827,6 +1876,8 @@ codeAppendf
 half
 leftAlpha
 =
+half
+(
 saturate
 (
 sk_FragCoord
@@ -1837,6 +1888,7 @@ x
 s
 .
 x
+)
 )
 ;
 "
@@ -1854,8 +1906,11 @@ alpha
 =
 leftAlpha
 *
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -1958,6 +2013,8 @@ codeAppendf
 half
 topAlpha
 =
+half
+(
 saturate
 (
 sk_FragCoord
@@ -1968,6 +2025,7 @@ y
 s
 .
 y
+)
 )
 ;
 "
@@ -1985,8 +2043,11 @@ alpha
 =
 topAlpha
 *
+half
+(
 %
 s
+)
 ;
 "
 clampedCircleDistance
@@ -3607,7 +3668,7 @@ uniformHandler
 addUniform
 (
 kFragment_GrShaderFlag
-kHalf4_GrSLType
+kFloat4_GrSLType
 "
 innerRect
 "
@@ -3974,9 +4035,11 @@ fragBuilder
 codeAppend
 (
 "
-float
+half
 implicit
 =
+half
+(
 dot
 (
 Z
@@ -3986,6 +4049,7 @@ dxy
 1
 .
 0
+)
 ;
 "
 )
@@ -3996,9 +4060,11 @@ fragBuilder
 codeAppend
 (
 "
-float
+half
 grad_dot
 =
+half
+(
 4
 .
 0
@@ -4007,6 +4073,7 @@ dot
 (
 Z
 Z
+)
 )
 ;
 "
@@ -4039,14 +4106,17 @@ fragBuilder
 codeAppend
 (
 "
-float
+half
 approx_dist
 =
 implicit
 *
+half
+(
 inversesqrt
 (
 grad_dot
+)
 )
 ;
 "

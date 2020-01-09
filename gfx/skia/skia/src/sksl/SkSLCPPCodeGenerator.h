@@ -428,9 +428,9 @@ int
 getChildFPIndex
 (
 const
-VariableReference
+Variable
 &
-reference
+var
 )
 const
 ;

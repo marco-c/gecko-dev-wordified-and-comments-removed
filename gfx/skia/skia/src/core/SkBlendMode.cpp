@@ -19,18 +19,6 @@ SkRasterPipeline
 .
 h
 "
-#
-include
-"
-.
-.
-/
-jumper
-/
-SkJumper
-.
-h
-"
 bool
 SkBlendMode_ShouldPreScaleCoverage
 (
@@ -955,7 +943,7 @@ dst_storage
 dst
 res_storage
 ;
-SkJumper_MemoryCtx
+SkRasterPipeline_MemoryCtx
 src_ctx
 =
 {

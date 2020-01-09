@@ -28,11 +28,11 @@ GR_AUDIT_TRAIL_AUTO_FRAME
 context
 -
 >
-contextPriv
+priv
 (
 )
 .
-getAuditTrail
+auditTrail
 (
 )
 classname
@@ -58,6 +58,5 @@ classname
 "
 op
 )
-;
 #
 endif

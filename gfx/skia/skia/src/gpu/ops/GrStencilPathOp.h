@@ -33,10 +33,10 @@ GrStencilSettings
 h
 "
 class
-GrContext
+GrOpFlushState
 ;
 class
-GrOpFlushState
+GrRecordingContext
 ;
 class
 GrStencilPathOp
@@ -58,7 +58,7 @@ GrOp
 >
 Make
 (
-GrContext
+GrRecordingContext
 *
 context
 const
@@ -99,6 +99,9 @@ StencilPathOp
 "
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -148,6 +151,8 @@ return
 string
 ;
 }
+#
+endif
 private
 :
 friend
@@ -246,7 +251,10 @@ onExecute
 (
 GrOpFlushState
 *
-state
+const
+SkRect
+&
+chainBounds
 )
 override
 ;

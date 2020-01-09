@@ -177,7 +177,7 @@ SkLumaColorFilter
 :
 asFragmentProcessor
 (
-GrContext
+GrRecordingContext
 *
 const
 GrColorSpaceInfo

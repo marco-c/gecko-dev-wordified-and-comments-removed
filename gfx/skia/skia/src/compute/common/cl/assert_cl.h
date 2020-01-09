@@ -66,7 +66,6 @@ __FILE__
 __LINE__
 true
 )
-;
 #
 define
 cl_ok
@@ -80,7 +79,6 @@ __FILE__
 __LINE__
 true
 )
-;
 void
 cl_get_event_info
 (

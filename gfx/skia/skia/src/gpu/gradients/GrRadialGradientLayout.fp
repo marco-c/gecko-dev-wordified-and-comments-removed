@@ -49,12 +49,15 @@ main
 half
 t
 =
+half
+(
 length
 (
 sk_TransformedCoords2D
 [
 0
 ]
+)
 )
 ;
 sk_OutColor

@@ -45,7 +45,7 @@ class
 GrPrimitiveProcessor
 ;
 class
-GrRenderTargetProxy
+GrRenderTarget
 ;
 class
 GrTextureProxy
@@ -337,6 +337,10 @@ void
 updateUniformsAndTextureBindings
 (
 const
+GrRenderTarget
+*
+GrSurfaceOrigin
+const
 GrPrimitiveProcessor
 &
 const
@@ -484,11 +488,12 @@ void
 setRenderTargetState
 (
 const
+GrRenderTarget
+*
+GrSurfaceOrigin
+const
 GrPrimitiveProcessor
 &
-const
-GrRenderTargetProxy
-*
 )
 ;
 RenderTargetState

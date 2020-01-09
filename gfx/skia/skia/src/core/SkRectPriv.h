@@ -102,6 +102,7 @@ SK_ScalarMax
 ;
 }
 static
+constexpr
 SkRect
 MakeLargestInverted
 (

@@ -179,6 +179,8 @@ xSub
 =
 min
 (
+half
+(
 sk_FragCoord
 .
 x
@@ -186,6 +188,7 @@ x
 rectUniform
 .
 x
+)
 0
 .
 0
@@ -196,6 +199,8 @@ xSub
 =
 min
 (
+half
+(
 rectUniform
 .
 z
@@ -203,6 +208,7 @@ z
 sk_FragCoord
 .
 x
+)
 0
 .
 0
@@ -212,6 +218,8 @@ ySub
 =
 min
 (
+half
+(
 sk_FragCoord
 .
 y
@@ -219,6 +227,7 @@ y
 rectUniform
 .
 y
+)
 0
 .
 0
@@ -229,6 +238,8 @@ ySub
 =
 min
 (
+half
+(
 rectUniform
 .
 w
@@ -236,6 +247,7 @@ w
 sk_FragCoord
 .
 y
+)
 0
 .
 0

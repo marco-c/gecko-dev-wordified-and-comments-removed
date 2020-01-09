@@ -17,10 +17,6 @@ char
 *
 GrGLSLTypeString
 (
-const
-GrShaderCaps
-*
-shaderCaps
 GrSLType
 t
 )

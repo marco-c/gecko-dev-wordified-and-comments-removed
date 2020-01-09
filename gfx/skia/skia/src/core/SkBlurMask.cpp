@@ -1050,7 +1050,6 @@ format
 )
 ;
 }
-;
 }
 break
 ;
@@ -1331,7 +1330,6 @@ format
 )
 ;
 }
-;
 }
 break
 ;
@@ -1710,7 +1708,6 @@ format
 )
 ;
 }
-;
 }
 break
 ;
@@ -3813,7 +3810,6 @@ dstPixels
 break
 ;
 }
-;
 autoFreeDstPixels
 .
 release

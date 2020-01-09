@@ -147,6 +147,14 @@ other
 fUsesGLFBO0
 &
 &
+fVulkanSecondaryCBCompatible
+=
+=
+other
+.
+fVulkanSecondaryCBCompatible
+&
+&
 fSurfaceProps
 =
 =
@@ -255,6 +263,7 @@ fStencilCnt
 fIsTextureable
 fIsMipMapped
 fUsesGLFBO0
+fVulkanSecondaryCBCompatible
 fSurfaceProps
 )
 ;

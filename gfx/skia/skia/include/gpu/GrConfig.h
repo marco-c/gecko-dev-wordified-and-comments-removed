@@ -84,6 +84,12 @@ defined
 (
 SK_DUMP_STATS
 )
+|
+|
+defined
+(
+GR_TEST_UTILS
+)
 #
 define
 GR_GPU_STATS

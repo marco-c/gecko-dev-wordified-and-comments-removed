@@ -60,10 +60,6 @@ SkRect
 *
 )
 ;
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkPictureShader
-)
 #
 if
 SK_SUPPORT_GPU
@@ -112,6 +108,9 @@ StageRec
 const
 override
 ;
+#
+ifdef
+SK_ENABLE_LEGACY_SHADERCONTEXT
 Context
 *
 onMakeContext
@@ -125,6 +124,8 @@ SkArenaAlloc
 const
 override
 ;
+#
+endif
 sk_sp
 <
 SkShader
@@ -140,6 +141,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkPictureShader
+)
 SkPictureShader
 (
 sk_sp
@@ -175,6 +180,8 @@ SkMatrix
 >
 *
 localMatrix
+SkColorType
+dstColorType
 SkColorSpace
 *
 dstColorSpace

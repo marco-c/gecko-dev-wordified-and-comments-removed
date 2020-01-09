@@ -172,7 +172,11 @@ uniqueID
 (
 )
 const
+{
+return
+fUniqueID
 ;
+}
 sk_sp
 <
 SkData
@@ -358,7 +362,7 @@ const
 uint32_t
 CURRENT_PICTURE_VERSION
 =
-65
+68
 ;
 static_assert
 (
@@ -423,7 +427,6 @@ backport
 )
 const
 ;
-mutable
 uint32_t
 fUniqueID
 ;

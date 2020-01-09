@@ -153,7 +153,7 @@ config
 ;
 static
 void
-InitializeFlattenables
+RegisterFlattenables
 (
 )
 ;

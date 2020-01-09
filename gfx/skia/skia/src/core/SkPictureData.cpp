@@ -2413,6 +2413,7 @@ fPaints
 push_back
 (
 )
+nullptr
 )
 )
 {

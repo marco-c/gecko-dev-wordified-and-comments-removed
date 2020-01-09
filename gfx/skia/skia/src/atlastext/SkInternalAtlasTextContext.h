@@ -36,7 +36,7 @@ class
 GrContext
 ;
 class
-GrGlyphCache
+GrStrikeCache
 ;
 class
 GrTextBlobCache
@@ -107,7 +107,7 @@ get
 )
 ;
 }
-GrGlyphCache
+GrStrikeCache
 *
 glyphCache
 (

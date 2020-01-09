@@ -21,6 +21,9 @@ class
 GrPaint
 ;
 class
+GrRecordingContext
+;
+class
 GrRenderTarget
 ;
 class
@@ -56,7 +59,7 @@ GrBlurUtils
 void
 drawShapeWithMaskFilter
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *
@@ -78,7 +81,7 @@ GrShape
 void
 drawShapeWithMaskFilter
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *

@@ -273,6 +273,9 @@ GrVkImageView
 :
 kStencil_Type
 1
+GrVkYcbcrConversionInfo
+(
+)
 )
 ;
 if

@@ -106,6 +106,7 @@ kBGRA_8888_SkColorType
 kRGBA_1010102_SkColorType
 kRGB_101010x_SkColorType
 kGray_8_SkColorType
+kRGBA_F16Norm_SkColorType
 kRGBA_F16_SkColorType
 kRGBA_F32_SkColorType
 kLastEnum_SkColorType

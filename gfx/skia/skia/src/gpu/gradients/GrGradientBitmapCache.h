@@ -14,6 +14,13 @@ h
 #
 include
 "
+SkColorData
+.
+h
+"
+#
+include
+"
 SkMutex
 .
 h
@@ -22,13 +29,6 @@ h
 include
 "
 SkNoncopyable
-.
-h
-"
-#
-include
-"
-GrColor
 .
 h
 "
@@ -56,7 +56,7 @@ void
 getGradient
 (
 const
-GrColor4f
+SkPMColor4f
 *
 colors
 const
@@ -154,7 +154,7 @@ void
 fillGradient
 (
 const
-GrColor4f
+SkPMColor4f
 *
 colors
 const

@@ -78,6 +78,11 @@ shaderIsOpaque
 )
 const
 {
+bool
+shaderIsNormalized
+=
+false
+;
 alloc
 -
 >
@@ -102,6 +107,7 @@ kPremul_SkAlphaType
 apply
 (
 p
+shaderIsNormalized
 )
 ;
 }
@@ -286,7 +292,7 @@ SkToSRGBColorFilter
 :
 asFragmentProcessor
 (
-GrContext
+GrRecordingContext
 *
 const
 GrColorSpaceInfo

@@ -248,7 +248,9 @@ onClear
 const
 GrFixedClip
 &
-GrColor
+const
+SkPMColor4f
+&
 )
 override
 {

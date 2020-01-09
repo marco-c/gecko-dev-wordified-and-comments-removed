@@ -23,7 +23,7 @@ include
 "
 vk
 /
-GrVkDefines
+GrVkTypes
 .
 h
 "
@@ -69,11 +69,11 @@ Create
 (
 GrVkGpu
 *
-gpu
+int
+numColorSamples
 const
 GrPrimitiveProcessor
 &
-primProc
 const
 GrPipeline
 &
@@ -210,7 +210,6 @@ private
 void
 freeGPUData
 (
-const
 GrVkGpu
 *
 gpu

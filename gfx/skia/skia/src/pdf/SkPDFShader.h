@@ -33,9 +33,6 @@ SkShader
 h
 "
 class
-SkPDFCanon
-;
-class
 SkPDFDocument
 ;
 class
@@ -44,10 +41,7 @@ SkMatrix
 struct
 SkIRect
 ;
-sk_sp
-<
-SkPDFObject
->
+SkPDFIndirectReference
 SkPDFMakeShader
 (
 SkPDFDocument

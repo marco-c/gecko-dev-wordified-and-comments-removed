@@ -29,6 +29,9 @@ class
 GrOpFlushState
 ;
 class
+GrRecordingContext
+;
+class
 GrClearStencilClipOp
 final
 :
@@ -48,7 +51,7 @@ GrOp
 >
 Make
 (
-GrContext
+GrRecordingContext
 *
 context
 const
@@ -77,6 +80,9 @@ ClearStencilClip
 "
 ;
 }
+#
+ifdef
+SK_DEBUG
 SkString
 dumpInfo
 (
@@ -202,6 +208,8 @@ return
 string
 ;
 }
+#
+endif
 private
 :
 friend
@@ -309,7 +317,10 @@ onExecute
 (
 GrOpFlushState
 *
-state
+const
+SkRect
+&
+chainBounds
 )
 override
 ;

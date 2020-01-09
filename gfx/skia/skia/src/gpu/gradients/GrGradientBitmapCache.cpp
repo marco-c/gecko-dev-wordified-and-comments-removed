@@ -29,13 +29,6 @@ h
 #
 include
 "
-SkPM4f
-.
-h
-"
-#
-include
-"
 SkTemplates
 .
 h
@@ -585,7 +578,7 @@ GrGradientBitmapCache
 fillGradient
 (
 const
-GrColor4f
+SkPMColor4f
 *
 colors
 const
@@ -837,7 +830,9 @@ i
 1
 ]
 .
-fRGBA
+vec
+(
+)
 )
 c1
 =
@@ -851,7 +846,9 @@ colors
 i
 ]
 .
-fRGBA
+vec
+(
+)
 )
 ;
 Sk4f
@@ -938,7 +935,7 @@ GrGradientBitmapCache
 getGradient
 (
 const
-GrColor4f
+SkPMColor4f
 *
 colors
 const
@@ -960,7 +957,7 @@ static_assert
 (
 sizeof
 (
-GrColor4f
+SkPMColor4f
 )
 %
 sizeof
@@ -982,7 +979,7 @@ count
 *
 sizeof
 (
-GrColor4f
+SkPMColor4f
 )
 /
 sizeof
@@ -1051,7 +1048,7 @@ count
 *
 sizeof
 (
-GrColor4f
+SkPMColor4f
 )
 )
 ;

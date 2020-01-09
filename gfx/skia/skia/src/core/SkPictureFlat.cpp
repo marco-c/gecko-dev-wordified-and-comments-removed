@@ -47,15 +47,6 @@ SkTypeface
 .
 h
 "
-SkTypefacePlayback
-:
-:
-~
-SkTypefacePlayback
-(
-)
-{
-}
 void
 SkTypefacePlayback
 :

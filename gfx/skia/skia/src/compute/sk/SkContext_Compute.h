@@ -37,7 +37,10 @@ class
 SkContext_Compute
 :
 public
-SkRefCntBase
+SkNVRefCnt
+<
+SkContext_Compute
+>
 {
 public
 :

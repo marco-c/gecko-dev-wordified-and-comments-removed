@@ -12,9 +12,6 @@ GrPathRenderer
 h
 "
 class
-GrContext
-;
-class
 GrGpu
 ;
 class

@@ -144,6 +144,7 @@ readPaint
 (
 &
 paint
+nullptr
 )
 ;
 return

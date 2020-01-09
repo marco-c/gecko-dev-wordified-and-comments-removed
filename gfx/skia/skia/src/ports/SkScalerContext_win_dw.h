@@ -138,10 +138,7 @@ override
 void
 generateFontMetrics
 (
-SkPaint
-:
-:
-FontMetrics
+SkFontMetrics
 *
 )
 override

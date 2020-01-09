@@ -54,8 +54,8 @@ CreateMasks
 (
 InputMasks
 masks
-uint32_t
-bpp
+int
+bytesPerPixel
 )
 ;
 uint8_t

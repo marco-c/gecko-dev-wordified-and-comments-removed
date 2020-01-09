@@ -630,7 +630,7 @@ blendInfo
 >
 fBlendConstant
 =
-0
+SK_PMColor4fTRANSPARENT
 ;
 }
 constexpr

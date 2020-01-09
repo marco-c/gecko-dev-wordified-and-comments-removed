@@ -277,12 +277,6 @@ append
 (
 GrGLSLTypeString
 (
-fProgramBuilder
--
->
-shaderCaps
-(
-)
 returnType
 )
 )

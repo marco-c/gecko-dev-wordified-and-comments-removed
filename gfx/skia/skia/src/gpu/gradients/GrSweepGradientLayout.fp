@@ -194,6 +194,8 @@ atan2ImplementedAsAtanYOverX
 {
 angle
 =
+half
+(
 2
 *
 atan
@@ -220,12 +222,15 @@ sk_TransformedCoords2D
 .
 x
 )
+)
 ;
 }
 else
 {
 angle
 =
+half
+(
 atan
 (
 -
@@ -242,6 +247,7 @@ sk_TransformedCoords2D
 ]
 .
 x
+)
 )
 ;
 }

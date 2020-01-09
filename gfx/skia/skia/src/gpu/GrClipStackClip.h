@@ -113,7 +113,7 @@ final
 bool
 apply
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *
@@ -172,7 +172,7 @@ static
 bool
 PathNeedsSWRenderer
 (
-GrContext
+GrRecordingContext
 *
 context
 const
@@ -206,7 +206,7 @@ needsStencil
 bool
 applyClipMask
 (
-GrContext
+GrRecordingContext
 *
 GrRenderTargetContext
 *
@@ -226,7 +226,7 @@ GrTextureProxy
 >
 createAlphaClipMask
 (
-GrContext
+GrRecordingContext
 *
 const
 GrReducedClip
@@ -240,7 +240,7 @@ GrTextureProxy
 >
 createSoftwareClipMask
 (
-GrContext
+GrRecordingContext
 *
 const
 GrReducedClip
@@ -254,7 +254,7 @@ static
 bool
 UseSWOnlyPath
 (
-GrContext
+GrRecordingContext
 *
 bool
 hasUserStencilSettings

@@ -832,9 +832,6 @@ roundOut
 (
 )
 ;
-#
-ifndef
-SK_IGNORE_MATRIX_IMAGE_FILTER_FIX
 if
 (
 kReverse_MapDirection
@@ -858,8 +855,6 @@ outset
 )
 ;
 }
-#
-endif
 return
 result
 ;

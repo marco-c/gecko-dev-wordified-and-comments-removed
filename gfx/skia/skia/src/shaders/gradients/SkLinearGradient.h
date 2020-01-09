@@ -63,10 +63,6 @@ override
 ;
 #
 endif
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkLinearGradient
-)
 protected
 :
 SkLinearGradient
@@ -86,6 +82,9 @@ buffer
 const
 override
 ;
+#
+ifdef
+SK_ENABLE_LEGACY_SHADERCONTEXT
 Context
 *
 onMakeContext
@@ -112,6 +111,8 @@ SkArenaAlloc
 const
 override
 ;
+#
+endif
 void
 appendGradientStages
 (
@@ -143,6 +144,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkLinearGradient
+)
 class
 LinearGradient4fContext
 ;

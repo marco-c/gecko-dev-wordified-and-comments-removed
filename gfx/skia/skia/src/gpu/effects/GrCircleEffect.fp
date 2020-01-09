@@ -413,6 +413,8 @@ kInverseFillAA
 {
 d
 =
+half
+(
 (
 length
 (
@@ -439,12 +441,15 @@ w
 circle
 .
 z
+)
 ;
 }
 else
 {
 d
 =
+half
+(
 (
 1
 .
@@ -471,6 +476,7 @@ w
 circle
 .
 z
+)
 ;
 }
 if

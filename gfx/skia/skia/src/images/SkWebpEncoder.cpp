@@ -434,13 +434,6 @@ return
 false
 ;
 }
-const
-SkPMColor
-*
-colors
-=
-nullptr
-;
 WebPConfig
 webp_config
 ;
@@ -707,7 +700,6 @@ pic
 .
 width
 bpp
-colors
 )
 ;
 }

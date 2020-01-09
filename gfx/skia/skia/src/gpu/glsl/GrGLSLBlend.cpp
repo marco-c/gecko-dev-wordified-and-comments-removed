@@ -1743,7 +1743,7 @@ getLumBody
 return
 dot
 (
-float3
+half3
 (
 0
 .

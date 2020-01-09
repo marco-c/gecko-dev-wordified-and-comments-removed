@@ -646,9 +646,10 @@ kBlendEquationAdvanced_GLSLPrivateFeature
 kBlendFuncExtended_GLSLPrivateFeature
 kFramebufferFetch_GLSLPrivateFeature
 kNoPerspectiveInterpolation_GLSLPrivateFeature
+kSampleVariables_GLSLPrivateFeature
 kLastGLSLPrivateFeature
 =
-kNoPerspectiveInterpolation_GLSLPrivateFeature
+kSampleVariables_GLSLPrivateFeature
 }
 ;
 bool

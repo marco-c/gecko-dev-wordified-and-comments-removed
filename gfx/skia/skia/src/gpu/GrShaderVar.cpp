@@ -416,7 +416,6 @@ s
 "
 GrGLSLTypeString
 (
-shaderCaps
 effectiveType
 )
 this
@@ -463,7 +462,6 @@ d
 "
 GrGLSLTypeString
 (
-shaderCaps
 effectiveType
 )
 this
@@ -501,7 +499,6 @@ s
 "
 GrGLSLTypeString
 (
-shaderCaps
 effectiveType
 )
 this

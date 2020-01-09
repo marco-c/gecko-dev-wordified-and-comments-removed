@@ -14,13 +14,6 @@ h
 #
 include
 "
-GrColor
-.
-h
-"
-#
-include
-"
 GrNonAtomicRef
 .
 h
@@ -437,7 +430,7 @@ kZero_GrBlendCoeff
 ;
 fBlendConstant
 =
-0
+SK_PMColor4fTRANSPARENT
 ;
 fWriteColor
 =
@@ -462,7 +455,7 @@ fSrcBlend
 GrBlendCoeff
 fDstBlend
 ;
-GrColor
+SkPMColor4f
 fBlendConstant
 ;
 bool
@@ -769,13 +762,10 @@ kCompatibleWithAlphaAsCoverage
 kIgnoresInputColor
 =
 0x4
-kCanCombineOverlappedStencilAndCover
-=
-0x8
 kRequiresDstTexture
 =
 0x10
-kRequiresBarrierBetweenOverlappingDraws
+kRequiresNonOverlappingDraws
 =
 0x20
 }

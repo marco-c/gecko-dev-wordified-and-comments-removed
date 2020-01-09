@@ -55,6 +55,10 @@ this
 >
 registerWithCacheWrapped
 (
+GrWrapCacheable
+:
+:
+kNo
 )
 ;
 }

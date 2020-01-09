@@ -45,13 +45,6 @@ MTLPixelFormat
 format
 )
 ;
-GrPixelConfig
-GrMTLFormatToPixelConfig
-(
-MTLPixelFormat
-format
-)
-;
 id
 <
 MTLTexture

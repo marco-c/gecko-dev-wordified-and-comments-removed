@@ -1,4 +1,10 @@
 #
+ifndef
+SkFontConfigTypeface_DEFINED
+#
+define
+SkFontConfigTypeface_DEFINED
+#
 include
 "
 SkFontConfigInterface
@@ -396,8 +402,13 @@ bool
 const
 override
 ;
+std
+:
+:
+unique_ptr
+<
 SkStreamAsset
-*
+>
 onOpenStream
 (
 int
@@ -428,3 +439,5 @@ INHERITED
 ;
 }
 ;
+#
+endif

@@ -64,10 +64,6 @@ override
 ;
 #
 endif
-SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
-(
-SkRadialGradient
-)
 protected
 :
 SkRadialGradient
@@ -118,6 +114,10 @@ override
 ;
 private
 :
+SK_FLATTENABLE_HOOKS
+(
+SkRadialGradient
+)
 const
 SkPoint
 fCenter

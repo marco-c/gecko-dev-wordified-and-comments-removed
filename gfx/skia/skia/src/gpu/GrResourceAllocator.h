@@ -49,9 +49,6 @@ h
 class
 GrResourceProvider
 ;
-class
-GrUninstantiateProxyTracker
-;
 #
 define
 GR_ALLOCATION_SPEW
@@ -182,8 +179,6 @@ startIndex
 int
 *
 stopIndex
-GrUninstantiateProxyTracker
-*
 AssignError
 *
 outError
@@ -894,7 +889,7 @@ const
 int
 kInitialArenaSize
 =
-12
+128
 *
 sizeof
 (
@@ -954,7 +949,7 @@ fIntervalAllocator
 {
 fStorage
 kInitialArenaSize
-0
+kInitialArenaSize
 }
 ;
 Interval

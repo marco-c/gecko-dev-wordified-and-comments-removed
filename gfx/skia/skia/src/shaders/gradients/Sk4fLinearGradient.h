@@ -56,22 +56,6 @@ count
 )
 override
 ;
-void
-shadeSpan4f
-(
-int
-x
-int
-y
-SkPMColor4f
-dst
-[
-]
-int
-count
-)
-override
-;
 private
 :
 using
@@ -81,8 +65,6 @@ GradientShaderBase4fContext
 ;
 template
 <
-typename
-dstType
 ApplyPremul
 TileMode
 >
@@ -91,8 +73,6 @@ LinearIntervalProcessor
 ;
 template
 <
-typename
-dstType
 ApplyPremul
 premul
 >
@@ -103,7 +83,7 @@ int
 x
 int
 y
-dstType
+SkPMColor
 dst
 [
 ]
@@ -118,8 +98,6 @@ const
 ;
 template
 <
-typename
-dstType
 ApplyPremul
 premul
 SkShader
@@ -135,7 +113,7 @@ int
 x
 int
 y
-dstType
+SkPMColor
 dst
 [
 ]

@@ -41,7 +41,7 @@ GrRenderTargetContext
 >
 GaussianBlur
 (
-GrContext
+GrRecordingContext
 *
 context
 sk_sp

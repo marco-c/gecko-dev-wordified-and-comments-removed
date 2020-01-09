@@ -87,7 +87,7 @@ layout
 (
 ctype
 =
-GrColor4f
+SkPMColor4f
 tracked
 )
 in
@@ -99,7 +99,7 @@ layout
 (
 ctype
 =
-GrColor4f
+SkPMColor4f
 tracked
 )
 in

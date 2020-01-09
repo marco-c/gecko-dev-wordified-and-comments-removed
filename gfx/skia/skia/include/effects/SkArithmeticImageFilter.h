@@ -85,7 +85,7 @@ cropRect
 ;
 static
 void
-InitializeFlattenables
+RegisterFlattenables
 (
 )
 ;

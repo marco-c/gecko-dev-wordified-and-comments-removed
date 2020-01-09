@@ -286,8 +286,8 @@ bool
 fHasAtlas
 =
 false
-)
 ;
+)
 SkVector
 fAtlasScale
 ;
@@ -300,8 +300,8 @@ bool
 fHasAtlasTransform
 =
 false
-)
 ;
+)
 }
 ;
 #

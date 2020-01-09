@@ -101,6 +101,11 @@ fInstanceVersion
 0
 ;
 uint32_t
+fMaxAPIVersion
+=
+0
+;
+uint32_t
 fExtensions
 =
 0

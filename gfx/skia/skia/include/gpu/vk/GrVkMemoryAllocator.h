@@ -21,13 +21,6 @@ h
 #
 include
 "
-GrVkDefines
-.
-h
-"
-#
-include
-"
 GrVkTypes
 .
 h
@@ -208,6 +201,5 @@ GrVkMemoryAllocator
 :
 AllocationPropertyFlags
 )
-;
 #
 endif
