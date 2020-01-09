@@ -325,6 +325,11 @@ double
 aHeight
 )
 ;
+void
+SetPrinterNameFromPrintInfo
+(
+)
+;
 protected
 :
 virtual
