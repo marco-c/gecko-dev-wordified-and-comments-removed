@@ -5930,6 +5930,11 @@ data
 -
 >
 mClientSource
+&
+&
+mLoadInfo
+.
+mCSPInfo
 )
 {
 data
