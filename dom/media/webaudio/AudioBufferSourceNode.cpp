@@ -3221,7 +3221,7 @@ Context
 )
 -
 >
-StartBlockedAudioContextIfAllowed
+NotifyScheduledSourceNodeStarted
 (
 )
 ;

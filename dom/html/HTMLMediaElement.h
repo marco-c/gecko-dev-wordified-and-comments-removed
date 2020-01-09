@@ -2347,14 +2347,6 @@ first
 )
 ;
 }
-RefPtr
-<
-GenericNonExclusivePromise
->
-GetAllowedToPlayPromise
-(
-)
-;
 protected
 :
 virtual
@@ -3850,12 +3842,6 @@ bool
 mBlockedAsWithoutMetadata
 =
 false
-;
-MozPromiseHolder
-<
-GenericNonExclusivePromise
->
-mAllowedToPlayPromise
 ;
 public
 :
