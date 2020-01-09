@@ -1079,7 +1079,7 @@ label
 hbox
 >
 <
-box
+vbox
 data
 -
 l10n
@@ -1142,10 +1142,10 @@ onReadGeneric
 >
 <
 /
-box
+vbox
 >
 <
-box
+vbox
 flex
 =
 "
@@ -1191,7 +1191,7 @@ onReadGeneric
 >
 <
 /
-box
+vbox
 >
 <
 /

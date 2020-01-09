@@ -699,7 +699,7 @@ label
 hbox
 >
 <
-box
+vbox
 data
 -
 l10n
@@ -751,10 +751,10 @@ siteSettings
 >
 <
 /
-box
+vbox
 >
 <
-box
+vbox
 >
 <
 checkbox
@@ -784,7 +784,7 @@ offlineApps
 >
 <
 /
-box
+vbox
 >
 <
 /
