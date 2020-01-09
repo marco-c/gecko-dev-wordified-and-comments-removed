@@ -603,6 +603,11 @@ Bootstrap
 cpp
 '
 '
+CmdLineAndEnvUtils
+.
+cpp
+'
+'
 CreateAppData
 .
 cpp

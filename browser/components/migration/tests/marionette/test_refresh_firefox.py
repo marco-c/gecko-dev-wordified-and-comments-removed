@@ -4408,17 +4408,6 @@ arguments
 ]
 )
 ;
-          
-env
-.
-set
-(
-"
-XRE_PROFILE_NAME
-"
-profileName
-)
-;
         
 "
 "
