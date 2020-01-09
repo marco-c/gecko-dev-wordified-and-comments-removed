@@ -550,7 +550,7 @@ CDMProxy
 >
 CreateCDMProxy
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThread
 )

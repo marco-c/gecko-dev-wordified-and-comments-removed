@@ -73,7 +73,7 @@ bool
 aAllowDistinctiveIdentifier
 bool
 aAllowPersistentState
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThread
 )

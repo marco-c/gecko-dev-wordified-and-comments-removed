@@ -304,7 +304,7 @@ bool
 aDistinctiveIdentifierRequired
 bool
 aPersistentStateRequired
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThread
 )
@@ -902,7 +902,7 @@ mPersistentStateRequired
 const
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThread
 ;
