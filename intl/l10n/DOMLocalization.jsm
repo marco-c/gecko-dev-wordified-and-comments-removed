@@ -1604,6 +1604,17 @@ connectRoot
 newRoot
 )
 {
+if
+(
+!
+newRoot
+.
+ownerGlobal
+)
+{
+return
+;
+}
 for
 (
 const

@@ -108,6 +108,7 @@ runTest
 )
 ;
 }
+async
 function
 runTest
 (
@@ -155,6 +156,7 @@ mainPrefPane
 .
 children
 ;
+await
 win
 .
 gotoPref

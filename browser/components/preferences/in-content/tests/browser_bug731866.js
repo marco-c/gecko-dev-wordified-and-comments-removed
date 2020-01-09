@@ -189,6 +189,7 @@ suffix
 }
 }
 }
+async
 function
 runTest
 (
@@ -261,6 +262,7 @@ of
 panes
 )
 {
+await
 win
 .
 gotoPref
