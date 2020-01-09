@@ -20,6 +20,7 @@ html
 "
 )
 ;
+await
 invokeInTab
 (
 "
@@ -27,6 +28,7 @@ myFunction
 "
 )
 ;
+await
 invokeInTab
 (
 "
@@ -47,6 +49,13 @@ waitForPaused
 dbg
 )
 ;
+await
+resume
+(
+dbg
+)
+;
+await
 invokeInTab
 (
 "
