@@ -421,8 +421,10 @@ FireEvents
 (
 )
 {
+RefPtr
+<
 VRManagerChild
-*
+>
 vm
 =
 VRManagerChild

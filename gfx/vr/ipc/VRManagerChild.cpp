@@ -1915,9 +1915,12 @@ callback
 callbacks
 )
 {
+MOZ_KnownLive
+(
 callback
 .
 mCallback
+)
 -
 >
 Call

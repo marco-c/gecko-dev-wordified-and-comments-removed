@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 WindowBinding
@@ -369,6 +378,7 @@ int32_t
 aHandle
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RunFrameRequestCallbacks
 (
@@ -381,6 +391,7 @@ uint32_t
 aDisplayID
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateDisplayInfo
 (
@@ -500,6 +511,7 @@ PVRLayerChild
 actor
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
