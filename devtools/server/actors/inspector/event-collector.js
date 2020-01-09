@@ -29,7 +29,6 @@ const
 {
 isAfterPseudoElement
 isBeforePseudoElement
-isMarkerPseudoElement
 isNativeAnonymous
 }
 =
@@ -1215,12 +1214,6 @@ jQuery
 |
 |
 isNativeAnonymous
-(
-node
-)
-|
-|
-isMarkerPseudoElement
 (
 node
 )
