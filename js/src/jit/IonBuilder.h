@@ -106,6 +106,9 @@ h
 namespace
 js
 {
+class
+TypedArrayObject
+;
 namespace
 jit
 {
@@ -2893,6 +2896,15 @@ SkipBoundsCheck
 MInstruction
 *
 addArrayBufferByteLength
+(
+MDefinition
+*
+obj
+)
+;
+TypedArrayObject
+*
+tryTypedArrayEmbedConstantElements
 (
 MDefinition
 *
