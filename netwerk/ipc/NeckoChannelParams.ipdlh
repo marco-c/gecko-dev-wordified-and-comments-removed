@@ -500,6 +500,9 @@ topOuterWindowID
 uint64_t
 frameOuterWindowID
 ;
+uint64_t
+browsingContextID
+;
 bool
 enforceSecurity
 ;

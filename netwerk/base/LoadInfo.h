@@ -399,6 +399,8 @@ uint64_t
 aTopOuterWindowID
 uint64_t
 aFrameOuterWindowID
+uint64_t
+aBrowsingContextID
 bool
 aEnforceSecurity
 bool
@@ -723,6 +725,9 @@ mTopOuterWindowID
 ;
 uint64_t
 mFrameOuterWindowID
+;
+uint64_t
+mBrowsingContextID
 ;
 bool
 mEnforceSecurity
