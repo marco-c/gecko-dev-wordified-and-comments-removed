@@ -238,6 +238,10 @@ aPrincipal
 PrincipalInfo
 *
 aPrincipalInfo
+bool
+aSkipBaseDomain
+=
+false
 )
 ;
 bool
