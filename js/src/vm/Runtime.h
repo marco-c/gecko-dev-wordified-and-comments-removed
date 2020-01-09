@@ -228,6 +228,15 @@ HashTable
 h
 "
 #
+include
+"
+js
+/
+Modules
+.
+h
+"
+#
 ifdef
 DEBUG
 #

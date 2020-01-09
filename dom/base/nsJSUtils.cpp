@@ -33,6 +33,15 @@ include
 "
 js
 /
+Modules
+.
+h
+"
+#
+include
+"
+js
+/
 OffThreadScriptCompilation
 .
 h
