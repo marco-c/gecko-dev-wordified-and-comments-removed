@@ -486,7 +486,7 @@ CONFIG_DIR
 extensionsLocale
 .
 nsh
-GARBARGE_DIRS
+GARBAGE_DIRS
 +
 =
 instgen
