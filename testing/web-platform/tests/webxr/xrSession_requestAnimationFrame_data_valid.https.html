@@ -228,18 +228,18 @@ length
 )
 ;
 let
-devicePose
+viewerPose
 =
 xrFrame
 .
-getDevicePose
+getViewerPose
 (
 frameOfRef
 )
 ;
 assert_not_equals
 (
-devicePose
+viewerPose
 null
 )
 ;
@@ -263,7 +263,7 @@ i
 {
 assert_equals
 (
-devicePose
+viewerPose
 .
 poseModelMatrix
 [
@@ -278,7 +278,7 @@ i
 }
 assert_not_equals
 (
-devicePose
+viewerPose
 .
 getViewMatrix
 (
@@ -294,7 +294,7 @@ null
 ;
 assert_equals
 (
-devicePose
+viewerPose
 .
 getViewMatrix
 (
@@ -312,7 +312,7 @@ length
 ;
 assert_not_equals
 (
-devicePose
+viewerPose
 .
 getViewMatrix
 (
@@ -328,7 +328,7 @@ null
 ;
 assert_equals
 (
-devicePose
+viewerPose
 .
 getViewMatrix
 (
