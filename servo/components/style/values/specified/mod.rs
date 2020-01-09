@@ -923,6 +923,7 @@ text
 OverflowWrap
 TextEmphasisPosition
 TextEmphasisStyle
+WordBreak
 }
 ;
 pub

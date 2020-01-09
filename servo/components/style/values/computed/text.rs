@@ -177,7 +177,10 @@ values
 specified
 :
 :
+{
 OverflowWrap
+WordBreak
+}
 ;
 pub
 use
