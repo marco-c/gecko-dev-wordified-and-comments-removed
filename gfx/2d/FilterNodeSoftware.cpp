@@ -814,6 +814,7 @@ x
 )
 ;
 }
+static
 already_AddRefed
 <
 DataSourceSurface
@@ -10441,9 +10442,11 @@ BytesPerPixel
 ;
 }
 }
+static
 bool
 IsAllZero
 (
+const
 uint8_t
 aLookupTable
 [

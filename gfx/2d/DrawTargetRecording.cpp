@@ -84,6 +84,7 @@ recorder
 ;
 }
 ;
+static
 void
 RecordingSourceSurfaceUserDataFunc
 (
@@ -1404,6 +1405,7 @@ recorder
 ;
 }
 ;
+static
 void
 RecordingFontUserDataDestroyFunc
 (

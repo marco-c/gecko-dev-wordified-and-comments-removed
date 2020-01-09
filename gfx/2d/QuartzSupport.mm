@@ -307,6 +307,7 @@ Destroy
 )
 ;
 }
+static
 void
 cgdata_release_callback
 (

@@ -84,6 +84,7 @@ recorder
 ;
 }
 ;
+static
 void
 WrapAndRecordSourceSurfaceUserDataFunc
 (
@@ -1977,6 +1978,7 @@ recorder
 ;
 }
 ;
+static
 void
 WrapAndRecordFontUserDataDestroyFunc
 (

@@ -2340,6 +2340,7 @@ gfx
 :
 SurfaceFormat
 ;
+static
 void
 MacIOSurfaceBufferDeallocator
 (
