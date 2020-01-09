@@ -230,8 +230,6 @@ generate_selection
 (
 selection
 spec
-subresource_path
-                       
 test_html_template_basename
 )
 :
@@ -291,15 +289,6 @@ spec
 specification_url
 '
 ]
-    
-selection
-[
-'
-subresource_path
-'
-]
-=
-subresource_path
     
 selection
 [
@@ -1131,32 +1120,11 @@ output_dict
 selection_path
 ]
             
-subresource_path
-=
-\
-                
-spec_json
-[
-"
-subresource_path
-"
-]
-[
-selection
-[
-"
-subresource
-"
-]
-]
-            
 generate_selection
 (
 selection
                                
 spec
-                               
-subresource_path
                                
 html_template
 )
