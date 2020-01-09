@@ -194,11 +194,6 @@ PropTypes
 bool
 .
 isRequired
-maybeScrollToBottom
-:
-PropTypes
-.
-func
 }
 ;
 ConsoleApiCall
@@ -228,7 +223,6 @@ timestampsVisible
 repeat
 pausedExecutionPoint
 isPaused
-maybeScrollToBottom
 }
 =
 props
@@ -267,7 +261,6 @@ parameters
 userProvidedStyles
 serviceContainer
 type
-maybeScrollToBottom
 }
 ;
 if
@@ -608,7 +601,6 @@ indent
 timeStamp
 timestampsVisible
 parameters
-maybeScrollToBottom
 }
 )
 ;
@@ -632,7 +624,6 @@ parameters
 serviceContainer
 userProvidedStyles
 type
-maybeScrollToBottom
 }
 =
 options
@@ -673,7 +664,6 @@ false
 loadedObjectProperties
 loadedObjectEntries
 type
-maybeScrollToBottom
 }
 )
 )

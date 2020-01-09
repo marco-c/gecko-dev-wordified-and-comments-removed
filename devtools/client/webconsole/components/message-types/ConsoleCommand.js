@@ -99,11 +99,6 @@ serviceContainer
 PropTypes
 .
 object
-maybeScrollToBottom
-:
-PropTypes
-.
-func
 }
 ;
 function
@@ -117,7 +112,6 @@ const
 message
 timestampsVisible
 serviceContainer
-maybeScrollToBottom
 }
 =
 props
@@ -164,7 +158,6 @@ serviceContainer
 indent
 timeStamp
 timestampsVisible
-maybeScrollToBottom
 }
 )
 ;
