@@ -105,11 +105,11 @@ GLenum
 readTarget
 GLenum
 writeTarget
-WebGLintptr
+GLintptr
 readOffset
-WebGLintptr
+GLintptr
 writeOffset
-WebGLsizeiptr
+GLsizeiptr
 size
 )
 ;
@@ -125,7 +125,7 @@ GetBufferSubDataT
 (
 GLenum
 target
-WebGLintptr
+GLintptr
 offset
 const
 BufferT
@@ -140,7 +140,7 @@ GetBufferSubData
 (
 GLenum
 target
-WebGLintptr
+GLintptr
 srcByteOffset
 const
 dom
