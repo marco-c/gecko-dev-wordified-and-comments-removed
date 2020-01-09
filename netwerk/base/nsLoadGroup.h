@@ -240,9 +240,6 @@ mTimedRequests
 uint32_t
 mCachedRequests
 ;
-uint32_t
-mTimedNonCachedRequestsUntilOnEndPageLoad
-;
 nsCString
 mUserAgentOverrideCache
 ;
