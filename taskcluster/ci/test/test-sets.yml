@@ -1574,10 +1574,6 @@ crashtest
 -
 gtest
 -
-jittest
--
-jsreftest
--
 marionette
 -
 mochitest
