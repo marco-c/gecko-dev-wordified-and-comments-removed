@@ -11864,10 +11864,6 @@ PermissiveXrayDOM
 ;
 template
 class
-SecurityXrayDOM
-;
-template
-class
 PermissiveXrayJS
 ;
 template
