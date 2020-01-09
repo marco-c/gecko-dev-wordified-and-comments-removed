@@ -2199,7 +2199,10 @@ LoadInfoArgs
 &
 aLoadInfoArgs
 const
-OptionalHttpResponseHead
+Maybe
+<
+nsHttpResponseHead
+>
 &
 aSynthesizedResponseHead
 const
@@ -3066,15 +3069,9 @@ if
 (
 aSynthesizedResponseHead
 .
-type
+isSome
 (
 )
-=
-=
-OptionalHttpResponseHead
-:
-:
-TnsHttpResponseHead
 )
 {
 parentListener
@@ -3084,7 +3081,7 @@ SetupInterception
 (
 aSynthesizedResponseHead
 .
-get_nsHttpResponseHead
+ref
 (
 )
 )

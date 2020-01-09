@@ -1657,15 +1657,6 @@ structs
 -
 -
 -
-union
-OptionalHttpResponseHead
-{
-void_t
-;
-nsHttpResponseHead
-;
-}
-;
 struct
 CorsPreflightArgs
 {
@@ -1828,7 +1819,8 @@ LoadInfoArgs
 ?
 loadInfo
 ;
-OptionalHttpResponseHead
+nsHttpResponseHead
+?
 synthesizedResponseHead
 ;
 nsCString

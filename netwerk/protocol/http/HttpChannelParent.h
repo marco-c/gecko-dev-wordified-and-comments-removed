@@ -534,7 +534,10 @@ LoadInfoArgs
 &
 aLoadInfoArgs
 const
-OptionalHttpResponseHead
+Maybe
+<
+nsHttpResponseHead
+>
 &
 aSynthesizedResponseHead
 const
