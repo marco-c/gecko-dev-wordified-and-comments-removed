@@ -11555,7 +11555,7 @@ queuedEvents
 5000
 )
 {
-mMainThreadEventTarget
+mMainThreadDebuggeeEventTarget
 -
 >
 AwaitIdle
