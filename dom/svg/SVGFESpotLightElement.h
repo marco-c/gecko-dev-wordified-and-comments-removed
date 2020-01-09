@@ -7,14 +7,14 @@ mozilla_dom_SVGFESpotLightElement_h
 #
 include
 "
-SVGFilters
+SVGAnimatedNumber
 .
 h
 "
 #
 include
 "
-nsSVGNumber2
+SVGFilters
 .
 h
 "
@@ -278,7 +278,7 @@ SPECULAR_EXPONENT
 LIMITING_CONE_ANGLE
 }
 ;
-nsSVGNumber2
+SVGAnimatedNumber
 mNumberAttributes
 [
 8

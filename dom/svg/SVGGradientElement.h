@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 "
@@ -484,7 +484,7 @@ ATTR_X2
 ATTR_Y2
 }
 ;
-nsSVGLength2
+SVGAnimatedLength
 mLengthAttributes
 [
 4
@@ -668,7 +668,7 @@ ATTR_FY
 ATTR_FR
 }
 ;
-nsSVGLength2
+SVGAnimatedLength
 mLengthAttributes
 [
 6

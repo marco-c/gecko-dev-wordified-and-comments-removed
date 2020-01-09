@@ -7,14 +7,14 @@ mozilla_dom_SVGFEPointLightElement_h
 #
 include
 "
-SVGFilters
+SVGAnimatedNumber
 .
 h
 "
 #
 include
 "
-nsSVGNumber2
+SVGFilters
 .
 h
 "
@@ -229,7 +229,7 @@ ATTR_Y
 ATTR_Z
 }
 ;
-nsSVGNumber2
+SVGAnimatedNumber
 mNumberAttributes
 [
 3

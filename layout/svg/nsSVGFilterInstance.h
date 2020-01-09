@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsSVGNumber2
+SVGAnimatedNumber
 .
 h
 "
@@ -66,6 +66,13 @@ SVGFilterElement
 class
 nsSVGFilterInstance
 {
+typedef
+mozilla
+:
+:
+SVGAnimatedNumber
+SVGAnimatedNumber
+;
 typedef
 mozilla
 :
@@ -199,7 +206,7 @@ GetPrimitiveNumber
 uint8_t
 aCtxType
 const
-nsSVGNumber2
+SVGAnimatedNumber
 *
 aNumber
 )

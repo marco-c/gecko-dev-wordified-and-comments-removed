@@ -117,7 +117,7 @@ AutoChangeLengthNotifier
 ;
 DOMSVGLength
 (
-nsSVGLength2
+SVGAnimatedLength
 *
 aVal
 dom
@@ -170,7 +170,7 @@ DOMSVGLength
 >
 GetTearOff
 (
-nsSVGLength2
+SVGAnimatedLength
 *
 aVal
 dom
@@ -497,7 +497,7 @@ mUnit
 float
 mValue
 ;
-nsSVGLength2
+SVGAnimatedLength
 *
 mVal
 ;

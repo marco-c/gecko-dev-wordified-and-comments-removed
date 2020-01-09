@@ -7,7 +7,7 @@ mozilla_dom_SVGRectElement_h
 #
 include
 "
-nsSVGLength2
+SVGAnimatedLength
 .
 h
 "
@@ -267,7 +267,7 @@ ATTR_RX
 ATTR_RY
 }
 ;
-nsSVGLength2
+SVGAnimatedLength
 mLengthAttributes
 [
 6
