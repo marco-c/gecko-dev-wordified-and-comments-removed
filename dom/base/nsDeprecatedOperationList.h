@@ -158,3 +158,7 @@ DEPRECATED_OPERATION
 (
 MozfullscreenerrorDeprecatedPrefix
 )
+DEPRECATED_OPERATION
+(
+External_AddSearchProvider
+)

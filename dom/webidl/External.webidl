@@ -109,7 +109,11 @@ interface
 External
 {
 [
-UseCounter
+Deprecated
+=
+"
+External_AddSearchProvider
+"
 ]
 void
 AddSearchProvider
