@@ -970,6 +970,9 @@ stroke
 else
 {
 throw
+new
+Error
+(
 "
 unexpected
 bit
@@ -979,6 +982,7 @@ in
 over
 '
 "
+)
 ;
 }
 var
@@ -1194,6 +1198,9 @@ stroke
 else
 {
 throw
+new
+Error
+(
 "
 unexpected
 bit
@@ -1203,6 +1210,7 @@ in
 over
 '
 "
+)
 ;
 }
 for_all_permutations
@@ -1314,11 +1322,15 @@ case
 2
 :
 throw
+new
+Error
+(
 "
 unexpected
 subtest
 number
 "
+)
 ;
 }
 test_element
