@@ -1,6 +1,13 @@
 #
 include
 "
+ProfilerChild
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h
@@ -8,7 +15,7 @@ h
 #
 include
 "
-ProfilerChild
+platform
 .
 h
 "

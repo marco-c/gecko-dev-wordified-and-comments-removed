@@ -1,14 +1,14 @@
 #
 include
 "
-GeckoProfiler
+ProfilerIOInterposeObserver
 .
 h
 "
 #
 include
 "
-ProfilerIOInterposeObserver
+GeckoProfiler
 .
 h
 "

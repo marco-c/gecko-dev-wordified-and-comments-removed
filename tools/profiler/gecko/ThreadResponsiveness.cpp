@@ -8,6 +8,13 @@ h
 #
 include
 "
+platform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -27,13 +34,6 @@ h
 include
 "
 nsITimer
-.
-h
-"
-#
-include
-"
-platform
 .
 h
 "

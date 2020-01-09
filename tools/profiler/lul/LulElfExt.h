@@ -20,6 +20,9 @@ SecMap
 namespace
 lul
 {
+class
+UniqueStringUniverse
+;
 bool
 ReadSymbolData
 (
@@ -51,6 +54,9 @@ void
 rx_avma
 size_t
 rx_size
+UniqueStringUniverse
+*
+usu
 void
 (
 *
@@ -98,6 +104,9 @@ void
 rx_avma
 size_t
 rx_size
+UniqueStringUniverse
+*
+usu
 void
 (
 *

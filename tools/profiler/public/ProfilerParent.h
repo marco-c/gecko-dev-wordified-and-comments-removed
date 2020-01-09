@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+PProfilerParent
 .
 h
 "
@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-PProfilerParent
+RefPtr
 .
 h
 "

@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsProfiler
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown
@@ -29,13 +36,6 @@ include
 mozilla
 /
 Unused
-.
-h
-"
-#
-include
-"
-nsProfiler
 .
 h
 "

@@ -7,13 +7,6 @@ ThreadResponsiveness_h
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe
@@ -35,6 +28,13 @@ include
 mozilla
 /
 TimeStamp
+.
+h
+"
+#
+include
+"
+nsISupports
 .
 h
 "
