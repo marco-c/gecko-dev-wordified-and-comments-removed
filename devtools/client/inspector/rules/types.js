@@ -209,6 +209,11 @@ exports
 selector
 =
 {
+getUniqueSelector
+:
+PropTypes
+.
+func
 matchedSelectors
 :
 PropTypes

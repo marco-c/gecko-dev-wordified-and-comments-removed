@@ -101,6 +101,11 @@ Selector
 js
 '
 '
+SelectorHighlighter
+.
+js
+'
+'
 SourceLink
 .
 js
