@@ -1480,17 +1480,6 @@ CONFIG
 MOZ_PANGO_CFLAGS
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-widget
-/
-xremoteclient
-'
-]
 DEFINES
 [
 '
