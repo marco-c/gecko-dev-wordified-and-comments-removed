@@ -275,6 +275,12 @@ mTimeStamp
 uint64_t
 mFocusSequenceNumber
 ;
+layers
+:
+:
+LayersId
+mLayersId
+;
 Modifiers
 modifiers
 ;
