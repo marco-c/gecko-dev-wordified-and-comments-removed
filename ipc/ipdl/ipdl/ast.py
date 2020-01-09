@@ -1744,19 +1744,19 @@ self
 .
 array
 =
-0
+False
         
 self
 .
 nullable
 =
-0
+False
         
 self
 .
 uniqueptr
 =
-0
+False
     
 def
 basename

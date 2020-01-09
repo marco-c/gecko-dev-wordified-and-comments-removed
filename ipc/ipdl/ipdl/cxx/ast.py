@@ -1293,7 +1293,7 @@ self
 ws
 indent
 =
-0
+False
 )
 :
         
@@ -2513,27 +2513,17 @@ self
 pqname
 cls
 =
-0
+False
 struct
 =
-0
+False
 )
 :
         
 assert
-(
-not
 cls
-and
+^
 struct
-)
-or
-(
-cls
-and
-not
-struct
-)
         
 self
 .
@@ -2739,20 +2729,20 @@ inherits
                  
 interface
 =
-0
+False
 abstract
 =
-0
+False
 final
 =
-0
+False
                  
 specializes
 =
 None
 struct
 =
-0
+False
 )
 :
         
@@ -2929,14 +2919,17 @@ members_dict
 {
 }
     
-member_value
-=
-1
-    
 for
+member_value
 member
 in
+enumerate
+(
 members_list
+start
+=
+1
+)
 :
         
 members_dict
@@ -2945,11 +2938,6 @@ member
 ]
 =
 member_value
-        
-member_value
-+
-=
-1
     
 return
 type
@@ -3009,7 +2997,7 @@ const
 False
 warn_unused
 =
-0
+False
                  
 force_inline
 =
@@ -3079,6 +3067,13 @@ assert
 isinstance
 (
 const
+bool
+)
+        
+assert
+isinstance
+(
+warn_unused
 bool
 )
         
@@ -3335,7 +3330,7 @@ MethodSpec
 NONE
 warn_unused
 =
-0
+False
                  
 force_inline
 =

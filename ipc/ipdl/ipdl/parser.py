@@ -173,7 +173,7 @@ type
 name
 debug
 =
-0
+False
 )
 :
         
@@ -4195,7 +4195,7 @@ p
 ]
 +
 (
-0
+False
 )
         
 loc
@@ -4248,7 +4248,7 @@ p
 .
 array
 =
-1
+True
     
 p
 [
@@ -4626,7 +4626,7 @@ p
 3
 ]
 )
-1
+True
 )
 def
 p_error

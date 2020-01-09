@@ -826,10 +826,10 @@ clsname
 quals
 cls
 =
-1
+True
 struct
 =
-0
+False
 )
 :
     
@@ -2776,7 +2776,7 @@ ipdltype
 side
 fq
 =
-0
+False
 )
 :
     
@@ -3420,12 +3420,6 @@ self
 name
 =
 name
-        
-self
-.
-idnum
-=
-0
     
 def
 isCopyable
@@ -3497,7 +3491,7 @@ self
 side
 fq
 =
-0
+False
 )
 :
         
@@ -4018,7 +4012,7 @@ side
 None
 fq
 =
-0
+False
 )
 :
         
@@ -5460,7 +5454,7 @@ defaultValue
 self
 fq
 =
-0
+False
 )
 :
         
@@ -6151,7 +6145,7 @@ side
 None
 implicit
 =
-1
+True
 )
 :
         
@@ -6592,7 +6586,7 @@ out
                     
 implicit
 =
-1
+True
 )
 :
         
@@ -8621,7 +8615,7 @@ decl
 .
 special
 =
-0
+False
             
 newfields
 =
@@ -8657,7 +8651,7 @@ decl
 .
 special
 =
-1
+True
                     
 newfields
 .
@@ -8776,7 +8770,7 @@ decl
 .
 special
 =
-0
+False
         
 newcomponents
 =
@@ -8808,7 +8802,7 @@ decl
 .
 special
 =
-1
+True
                 
 newcomponents
 .
@@ -10897,7 +10891,7 @@ Parent
 '
 fq
 =
-1
+True
 )
         
 tchild
@@ -10913,7 +10907,7 @@ Child
 '
 fq
 =
-1
+True
 )
         
 methodvar
@@ -11997,7 +11991,7 @@ n
 '
 indent
 =
-1
+True
 )
             
 StmtExpr
@@ -12210,7 +12204,7 @@ n
                                  
 indent
 =
-1
+True
 )
 )
         
@@ -12739,7 +12733,7 @@ actortype
 side
 fq
 =
-1
+True
 )
         
 idvar
@@ -13719,7 +13713,7 @@ bareType
 (
 fq
 =
-1
+True
 )
             
 readcase
@@ -13745,7 +13739,7 @@ defaultValue
 (
 fq
 =
-1
+True
 )
 )
                 
@@ -14659,7 +14653,7 @@ sd
 name
 final
 =
-1
+True
 )
     
 struct
@@ -15235,7 +15229,7 @@ ud
 name
 final
 =
-1
+True
 )
     
 inClsType
@@ -20465,7 +20459,7 @@ Whitespace
 '
 indent
 =
-1
+True
 )
                 
 ExprCall
@@ -21068,7 +21062,7 @@ self
 side
 implicit
 =
-0
+False
 )
                 
 ret
@@ -22417,7 +22411,7 @@ switch
 hasReply
 dispatches
 =
-0
+False
 )
 :
             
@@ -22964,7 +22958,7 @@ asyncSwitch
                               
 hasReply
 =
-0
+False
 dispatches
 =
 dispatches
@@ -22996,7 +22990,7 @@ syncSwitch
                               
 hasReply
 =
-1
+True
 dispatches
 =
 dispatches
@@ -23028,7 +23022,7 @@ interruptSwitch
                               
 hasReply
 =
-1
+True
 dispatches
 =
 dispatches
@@ -23551,7 +23545,7 @@ n
 '
 indent
 =
-1
+True
 )
 )
             
@@ -23724,7 +23718,7 @@ n
 '
 indent
 =
-1
+True
 )
 )
             
@@ -23814,7 +23808,7 @@ name
                     
 indent
 =
-1
+True
 )
                 
 StmtDecl
@@ -23861,7 +23855,7 @@ n
                     
 indent
 =
-1
+True
 )
                 
 StmtExpr
@@ -23959,7 +23953,7 @@ n
                                             
 indent
 =
-1
+True
 )
                                  
 StmtExpr
@@ -24010,7 +24004,7 @@ n
                                             
 indent
 =
-1
+True
 )
                                  
 StmtExpr
@@ -24190,7 +24184,7 @@ name
                     
 indent
 =
-1
+True
 )
                 
 foreachrecurse
@@ -28285,7 +28279,7 @@ invokeRecvHandler
 md
 implicit
 =
-0
+False
 )
             
 +
@@ -31901,7 +31895,7 @@ out
                                 
 implicit
 =
-0
+False
 )
 )
     
@@ -32070,7 +32064,7 @@ self
 md
 implicit
 =
-1
+True
 )
 :
         
@@ -32183,7 +32177,7 @@ n
 '
 indent
 =
-1
+True
 )
             
 StmtReturn
@@ -33214,7 +33208,7 @@ decl
 .
 warn_unused
 =
-0
+False
     
 md
 .
