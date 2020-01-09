@@ -127,7 +127,9 @@ selectNode
 (
 "
 #
-tree
+xbl
+-
+host
 "
 inspector
 )
