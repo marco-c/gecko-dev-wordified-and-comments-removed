@@ -328,19 +328,6 @@ install_requires
 =
 deps
       
-tests_require
-=
-[
-'
-mozprocess
->
-=
-0
-.
-15
-'
-]
-      
 entry_points
 =
 "
