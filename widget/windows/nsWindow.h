@@ -1395,10 +1395,10 @@ aButton
 mozilla
 :
 :
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 uint16_t
 aInputSource
 =

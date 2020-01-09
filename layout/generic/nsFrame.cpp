@@ -19478,10 +19478,10 @@ AsMouseEvent
 mButton
 =
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 )
 |
 |
@@ -19694,10 +19694,10 @@ aMouseEvent
 mButton
 =
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 )
 |
 |

@@ -3173,10 +3173,10 @@ AsMouseEvent
 mButton
 =
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 )
 {
 EndMouseDrag
@@ -7985,10 +7985,10 @@ AsMouseEvent
 mButton
 =
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 )
 {
 nsHTMLFramesetFrame

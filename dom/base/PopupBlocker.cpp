@@ -1182,10 +1182,10 @@ AsMouseEvent
 mButton
 =
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 )
 {
 abuse
@@ -1415,10 +1415,10 @@ AsPointerEvent
 mButton
 =
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 )
 {
 switch

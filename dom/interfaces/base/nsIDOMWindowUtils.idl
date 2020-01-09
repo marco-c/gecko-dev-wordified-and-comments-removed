@@ -13028,10 +13028,10 @@ DEFAULT_TOUCH_POINTER_ID
 /
 /
 Match
-WidgetMouseEventBase
+mozilla
 :
 :
-buttonType
+MouseButton
 .
 const
 long
@@ -13054,10 +13054,10 @@ MOUSE_BUTTON_RIGHT_BUTTON
 /
 /
 Match
-WidgetMouseEventBase
+mozilla
 :
 :
-buttonsFlag
+MouseButtonsFlag
 .
 const
 long

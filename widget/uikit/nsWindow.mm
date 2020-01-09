@@ -992,10 +992,10 @@ event
 .
 button
 =
-WidgetMouseEvent
+MouseButton
 :
 :
-eLeftButton
+eLeft
 ;
 event
 .

@@ -2059,10 +2059,10 @@ widgetMouseEvent
 mButton
 !
 =
-WidgetMouseEventBase
+MouseButton
 :
 :
-eLeftButton
+eLeft
 )
 {
 return
@@ -2949,10 +2949,10 @@ aMouseClickEvent
 mButton
 !
 =
-WidgetMouseEventBase
+MouseButton
 :
 :
-eMiddleButton
+eMiddle
 |
 |
 !
