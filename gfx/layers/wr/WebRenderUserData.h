@@ -267,6 +267,7 @@ eFallback
 eAnimation
 eCanvas
 eGroup
+eMask
 }
 ;
 virtual

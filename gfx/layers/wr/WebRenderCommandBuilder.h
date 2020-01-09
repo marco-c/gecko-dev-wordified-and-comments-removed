@@ -375,9 +375,9 @@ WrImageMask
 >
 BuildWrMaskImage
 (
-nsDisplayItem
+nsDisplayMasksAndClipPaths
 *
-aItem
+aMaskItem
 wr
 :
 :
