@@ -132,9 +132,6 @@ RTCIceCredentialType
 "
 password
 "
-"
-token
-"
 }
 ;
 dictionary
