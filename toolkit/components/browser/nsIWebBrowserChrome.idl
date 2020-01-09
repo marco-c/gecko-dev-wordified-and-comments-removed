@@ -475,6 +475,13 @@ CHROME_PRIVATE_LIFETIME
 =
 0x00040000
 ;
+const
+unsigned
+long
+CHROME_ALWAYS_ON_TOP
+=
+0x00080000
+;
 /
 /
 Whether

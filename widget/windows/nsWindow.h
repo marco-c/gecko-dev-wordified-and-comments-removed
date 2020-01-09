@@ -2816,6 +2816,9 @@ bool
 mOpeningAnimationSuppressed
 ;
 bool
+mAlwaysOnTop
+;
+bool
 mIsEarlyBlankWindow
 ;
 uint32_t
