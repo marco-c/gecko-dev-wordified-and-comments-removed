@@ -6,7 +6,6 @@ api
 ColorF
 ColorU
 LayoutPrimitiveInfo
-LayoutRect
 LayoutSizeAu
 LineOrientation
 LineStyle
@@ -207,9 +206,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 line_dec
 :
 LineDecoration
@@ -228,7 +224,6 @@ PrimKeyCommonData
 with_info
 (
 info
-prim_relative_clip_rect
 )
 kind
 :
@@ -699,9 +694,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >
@@ -713,7 +705,6 @@ LineDecorationKey
 new
 (
 info
-prim_relative_clip_rect
 self
 )
 }
@@ -846,7 +837,7 @@ LineDecorationTemplate
 >
 (
 )
-68
+52
 "
 LineDecorationTemplate
 size
@@ -868,7 +859,7 @@ LineDecorationKey
 >
 (
 )
-48
+32
 "
 LineDecorationKey
 size

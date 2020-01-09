@@ -2984,6 +2984,10 @@ destroy
 &
 mut
 retained_tiles
+&
+self
+.
+clip_scroll_tree
 )
 ;
 }

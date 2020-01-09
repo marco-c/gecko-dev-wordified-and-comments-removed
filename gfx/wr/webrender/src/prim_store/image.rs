@@ -357,9 +357,6 @@ bool
 prim_size
 :
 LayoutSize
-prim_relative_clip_rect
-:
-LayoutRect
 image
 :
 Image
@@ -378,13 +375,6 @@ is_backface_visible
 prim_size
 :
 prim_size
-.
-into
-(
-)
-prim_relative_clip_rect
-:
-prim_relative_clip_rect
 .
 into
 (
@@ -1454,9 +1444,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >
@@ -1475,7 +1462,6 @@ info
 rect
 .
 size
-prim_relative_clip_rect
 self
 )
 }
@@ -1654,9 +1640,6 @@ bool
 prim_size
 :
 LayoutSize
-prim_relative_clip_rect
-:
-LayoutRect
 yuv_image
 :
 YuvImage
@@ -1675,13 +1658,6 @@ is_backface_visible
 prim_size
 :
 prim_size
-.
-into
-(
-)
-prim_relative_clip_rect
-:
-prim_relative_clip_rect
 .
 into
 (
@@ -2205,9 +2181,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >
@@ -2226,7 +2199,6 @@ info
 rect
 .
 size
-prim_relative_clip_rect
 self
 )
 }
@@ -2311,7 +2283,7 @@ ImageTemplate
 >
 (
 )
-124
+108
 "
 ImageTemplate
 size
@@ -2333,7 +2305,7 @@ ImageKey
 >
 (
 )
-84
+68
 "
 ImageKey
 size
@@ -2377,7 +2349,7 @@ YuvImageTemplate
 >
 (
 )
-72
+56
 "
 YuvImageTemplate
 size
@@ -2399,7 +2371,7 @@ YuvImageKey
 >
 (
 )
-64
+48
 "
 YuvImageKey
 size

@@ -10,7 +10,6 @@ GradientStop
 LayoutPoint
 LayoutSize
 LayoutPrimitiveInfo
-LayoutRect
 PremultipliedColorF
 }
 ;
@@ -328,9 +327,6 @@ bool
 prim_size
 :
 LayoutSize
-prim_relative_clip_rect
-:
-LayoutRect
 linear_grad
 :
 LinearGradient
@@ -349,13 +345,6 @@ is_backface_visible
 prim_size
 :
 prim_size
-.
-into
-(
-)
-prim_relative_clip_rect
-:
-prim_relative_clip_rect
 .
 into
 (
@@ -1195,9 +1184,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >
@@ -1216,7 +1202,6 @@ info
 rect
 .
 size
-prim_relative_clip_rect
 self
 )
 }
@@ -1472,9 +1457,6 @@ bool
 prim_size
 :
 LayoutSize
-prim_relative_clip_rect
-:
-LayoutRect
 radial_grad
 :
 RadialGradient
@@ -1493,13 +1475,6 @@ is_backface_visible
 prim_size
 :
 prim_size
-.
-into
-(
-)
-prim_relative_clip_rect
-:
-prim_relative_clip_rect
 .
 into
 (
@@ -2230,9 +2205,6 @@ info
 :
 &
 LayoutPrimitiveInfo
-prim_relative_clip_rect
-:
-LayoutRect
 )
 -
 >
@@ -2251,7 +2223,6 @@ info
 rect
 .
 size
-prim_relative_clip_rect
 self
 )
 }
@@ -3085,7 +3056,7 @@ LinearGradientTemplate
 >
 (
 )
-128
+112
 "
 LinearGradientTemplate
 size
@@ -3107,7 +3078,7 @@ LinearGradientKey
 >
 (
 )
-96
+80
 "
 LinearGradientKey
 size
@@ -3151,7 +3122,7 @@ RadialGradientTemplate
 >
 (
 )
-136
+120
 "
 RadialGradientTemplate
 size
@@ -3173,7 +3144,7 @@ RadialGradientKey
 >
 (
 )
-104
+88
 "
 RadialGradientKey
 size
