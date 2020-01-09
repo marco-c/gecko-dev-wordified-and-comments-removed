@@ -309,9 +309,6 @@ CreateRunnable
 private
 :
 class
-ShutdownRunnable
-;
-class
 Observer
 ;
 public
@@ -403,6 +400,12 @@ Get
 static
 bool
 IsShuttingDown
+(
+)
+;
+static
+void
+ShutdownInstance
 (
 )
 ;
