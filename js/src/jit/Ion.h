@@ -614,6 +614,12 @@ defined
 (
 JS_CODEGEN_NONE
 )
+|
+|
+defined
+(
+JS_CODEGEN_ARM64
+)
 return
 false
 ;
