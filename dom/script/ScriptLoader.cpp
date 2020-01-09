@@ -12885,6 +12885,16 @@ GetScript
 )
 )
 ;
+if
+(
+!
+script
+)
+{
+return
+NS_OK
+;
+}
 RefPtr
 <
 ClassicScript
