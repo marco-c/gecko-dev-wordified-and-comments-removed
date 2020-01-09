@@ -93,11 +93,6 @@ addons
 js
 '
 '
-console
-.
-js
-'
-'
 webextension
 -
 inspected
