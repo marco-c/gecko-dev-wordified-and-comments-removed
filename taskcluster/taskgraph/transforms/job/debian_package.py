@@ -1137,7 +1137,7 @@ setup_packages
 .
 sh
 {
-queue_url
+root_url
 }
 PACKAGES
 &
@@ -1369,10 +1369,11 @@ gz
 format
 (
             
-queue_url
+root_url
 =
 get_root_url
 (
+False
 )
             
 package
