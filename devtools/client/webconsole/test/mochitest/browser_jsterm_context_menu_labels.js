@@ -190,8 +190,15 @@ onConsoleMenuOpened
 return
 toolbox
 .
-getTextBoxContextMenu
+doc
+.
+getElementById
 (
+"
+toolbox
+-
+menu
+"
 )
 ;
 }

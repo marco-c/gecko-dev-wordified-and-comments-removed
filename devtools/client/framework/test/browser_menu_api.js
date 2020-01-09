@@ -434,15 +434,13 @@ popup
 0
 0
 toolbox
-.
-doc
 )
 ;
 ok
 (
 toolbox
 .
-topDoc
+doc
 .
 querySelector
 (
@@ -468,7 +466,7 @@ menuSeparators
 =
 toolbox
 .
-topDoc
+doc
 .
 querySelectorAll
 (
@@ -503,7 +501,7 @@ menuItems
 =
 toolbox
 .
-topDoc
+doc
 .
 querySelectorAll
 (
@@ -833,7 +831,7 @@ menuItems
 }
 toolbox
 .
-topWindow
+win
 )
 ;
 await
@@ -854,7 +852,7 @@ ok
 !
 toolbox
 .
-topDoc
+doc
 .
 querySelector
 (
@@ -1035,15 +1033,13 @@ popup
 0
 0
 toolbox
-.
-doc
 )
 ;
 ok
 (
 toolbox
 .
-topDoc
+doc
 .
 querySelector
 (
@@ -1068,7 +1064,7 @@ is
 (
 toolbox
 .
-topDoc
+doc
 .
 querySelectorAll
 (
@@ -1096,7 +1092,7 @@ menus
 =
 toolbox
 .
-topDoc
+doc
 .
 querySelectorAll
 (
@@ -1464,7 +1460,7 @@ subMenuItems
 }
 toolbox
 .
-topWindow
+win
 )
 ;
 await

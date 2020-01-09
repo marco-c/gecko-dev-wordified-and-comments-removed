@@ -6914,7 +6914,9 @@ dbg
 .
 toolbox
 .
-topDoc
+win
+.
+document
 ;
 const
 popup
@@ -6959,7 +6961,7 @@ dbg
 .
 toolbox
 .
-topWindow
+win
 )
 ;
 }
