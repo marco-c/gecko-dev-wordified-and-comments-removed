@@ -74,14 +74,6 @@ BrowsingContext
 public
 :
 static
-void
-CleanupContexts
-(
-uint64_t
-aProcessId
-)
-;
-static
 already_AddRefed
 <
 CanonicalBrowsingContext
