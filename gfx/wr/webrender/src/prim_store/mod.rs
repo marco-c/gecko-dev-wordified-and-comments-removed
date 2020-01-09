@@ -8986,8 +8986,6 @@ clip_store
 build_clip_chain_instance
 (
 prim_instance
-.
-clip_chain_id
 local_rect
 prim_local_clip_rect
 prim_context
@@ -13479,8 +13477,6 @@ clip_store
 build_clip_chain_instance
 (
 self
-.
-clip_chain_id
 segment
 .
 local_rect
