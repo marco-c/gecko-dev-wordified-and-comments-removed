@@ -26,7 +26,7 @@ super
 )
 ;
 }
-recvAsyncMessage
+receiveMessage
 (
 aMessage
 )

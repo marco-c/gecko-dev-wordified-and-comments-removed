@@ -56,7 +56,7 @@ wrappedJSObject
 this
 ;
 }
-recvAsyncMessage
+receiveMessage
 (
 aMessage
 )
