@@ -4934,7 +4934,7 @@ enabled
 "
 privacy_trackingprotection_fingerprinting_annotate_enabled
 bool
-false
+true
 )
 VARCACHE_PREF
 (
@@ -4966,7 +4966,7 @@ enabled
 "
 privacy_trackingprotection_cryptomining_annotate_enabled
 bool
-false
+true
 )
 VARCACHE_PREF
 (
