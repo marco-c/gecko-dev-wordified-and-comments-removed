@@ -622,6 +622,10 @@ mTransportHandler
 =
 nullptr
 ;
+mReceiveTrack
+=
+nullptr
+;
 mSendTrack
 =
 nullptr
