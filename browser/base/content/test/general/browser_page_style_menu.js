@@ -526,6 +526,9 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 data
 -
@@ -538,6 +541,7 @@ has
 invalid
 value
 "
+)
 ;
 }
 }

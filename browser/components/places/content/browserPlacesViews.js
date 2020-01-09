@@ -1888,10 +1888,14 @@ popup
 else
 {
 throw
+new
+Error
+(
 "
 Unexpected
 node
 "
+)
 ;
 }
 element
@@ -5252,6 +5256,9 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 Trying
 to
@@ -5260,6 +5267,7 @@ unexpected
 event
 .
 "
+)
 ;
 }
 }
@@ -10419,10 +10427,14 @@ nsINavHistoryResultNode
 RESULT_TYPE_URI
 )
 throw
+new
+Error
+(
 "
 Unexpected
 node
 "
+)
 ;
 element
 =

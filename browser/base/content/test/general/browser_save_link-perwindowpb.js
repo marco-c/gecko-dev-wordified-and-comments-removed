@@ -1034,6 +1034,9 @@ cookies
 )
 ;
 throw
+new
+Error
+(
 "
 We
 should
@@ -1045,6 +1048,7 @@ in
 this
 test
 "
+)
 ;
 }
 catch

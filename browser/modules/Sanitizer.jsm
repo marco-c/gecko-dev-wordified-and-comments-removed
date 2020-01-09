@@ -834,6 +834,9 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 Invalid
 time
@@ -846,6 +849,7 @@ data
 "
 +
 ts
+)
 ;
 }
 return

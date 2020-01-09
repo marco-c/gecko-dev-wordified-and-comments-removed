@@ -864,6 +864,9 @@ icon
 )
 {
 throw
+new
+Error
+(
 "
 Internal
 error
@@ -877,6 +880,7 @@ t
 match
 .
 "
+)
 ;
 }
 if
@@ -893,6 +897,9 @@ color
 )
 {
 throw
+new
+Error
+(
 "
 Internal
 error
@@ -906,6 +913,7 @@ t
 match
 .
 "
+)
 ;
 }
 if

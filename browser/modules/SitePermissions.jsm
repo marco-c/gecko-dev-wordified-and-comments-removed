@@ -1877,6 +1877,9 @@ cookie
 )
 {
 throw
+new
+Error
+(
 "
 ALLOW_COOKIES_FOR_SESSION
 can
@@ -1888,6 +1891,7 @@ the
 cookie
 permission
 "
+)
 ;
 }
 if
@@ -1911,6 +1915,9 @@ BLOCK
 )
 {
 throw
+new
+Error
+(
 "
 '
 Block
@@ -1927,6 +1934,7 @@ on
 a
 browser
 "
+)
 ;
 }
 if
@@ -1936,6 +1944,9 @@ browser
 )
 {
 throw
+new
+Error
+(
 "
 TEMPORARY
 scoped
@@ -1945,6 +1956,7 @@ a
 browser
 object
 "
+)
 ;
 }
 TemporaryPermissions

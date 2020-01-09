@@ -122,6 +122,9 @@ categoryInfo
 )
 {
 throw
+new
+Error
+(
 "
 Unknown
 in
@@ -137,6 +140,7 @@ init
 "
 +
 category
+)
 ;
 }
 if

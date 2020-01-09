@@ -1380,10 +1380,14 @@ nullprincipal
 )
 {
 throw
+new
+Error
+(
 "
 Null
 principal
 "
+)
 ;
 }
 principals

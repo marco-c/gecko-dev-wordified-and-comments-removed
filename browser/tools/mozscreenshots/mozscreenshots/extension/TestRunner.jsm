@@ -1488,12 +1488,16 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 No
 selectors
 specified
 .
 "
+)
 ;
 }
 windowType
@@ -1655,6 +1659,9 @@ element
 )
 {
 throw
+new
+Error
+(
 No
 element
 for
@@ -1665,6 +1672,7 @@ selector
 '
 found
 .
+)
 ;
 }
 let

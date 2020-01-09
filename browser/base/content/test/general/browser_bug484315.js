@@ -142,6 +142,9 @@ return
 }
 }
 throw
+new
+Error
+(
 "
 couldn
 '
@@ -151,5 +154,6 @@ the
 content
 window
 "
+)
 ;
 }
