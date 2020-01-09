@@ -579,6 +579,9 @@ after
 .
 *
 /
+[
+can_run_script
+]
 void
 deleteSelection
 (
@@ -1849,6 +1852,9 @@ formats
 ?
 *
 /
+[
+can_run_script
+]
 void
 cut
 (
@@ -3087,6 +3093,9 @@ to
 delete
 *
 /
+[
+can_run_script
+]
 void
 deleteNode
 (

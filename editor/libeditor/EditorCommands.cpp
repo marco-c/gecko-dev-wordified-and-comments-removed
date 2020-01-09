@@ -3828,7 +3828,10 @@ NS_ERROR_FAILURE
 ;
 }
 return
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 InsertLineBreakAsAction

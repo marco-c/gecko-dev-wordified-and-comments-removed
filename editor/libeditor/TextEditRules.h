@@ -426,6 +426,7 @@ int32_t
 aMaxLength
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillInsert
@@ -473,6 +474,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DidDeleteSelection

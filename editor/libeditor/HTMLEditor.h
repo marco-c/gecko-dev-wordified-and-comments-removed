@@ -409,6 +409,7 @@ aTransferable
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 DeleteNode
 (
@@ -528,6 +529,7 @@ aTransferable
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InsertLineBreakAsAction
@@ -1046,6 +1048,7 @@ nsINode
 aNodeInserted
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertTextWithQuotations
 (
@@ -1057,6 +1060,7 @@ aStringToInsert
 ;
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 DeleteSelectionWithTransaction
@@ -1068,6 +1072,7 @@ aStripWrappers
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteNodeWithTransaction
 (
@@ -3363,11 +3368,13 @@ SplitAtEdges
 aSplitAtEdges
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertBrElementAtSelectionWithTransaction
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertTextWithQuotationsInternal
 (
@@ -3901,6 +3908,7 @@ int32_t
 aNumberOfCellsToDelete
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteAllChildrenWithTransaction
 (
@@ -3927,6 +3935,7 @@ bool
 aDeleteCellToMerge
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteTableElementAndChildrenWithTransaction
 (
@@ -4154,6 +4163,7 @@ nsINode
 aNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PasteAsPlaintextQuotation
 (
@@ -4161,6 +4171,7 @@ int32_t
 aSelectionType
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertAsPlaintextQuotation
 (

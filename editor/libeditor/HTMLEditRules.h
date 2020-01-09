@@ -605,6 +605,7 @@ InitFields
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillInsert
@@ -640,6 +641,7 @@ int32_t
 aMaxLength
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillLoadHTML
@@ -653,6 +655,7 @@ WillInsertParagraphSeparator
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DeleteNodeIfCollapsedText
@@ -703,6 +706,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DidDeleteSelection
@@ -844,6 +848,7 @@ int32_t
 aInOutDestOffset
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 DeleteElementsExceptTableRelatedElements
@@ -976,6 +981,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillRelativeChangeZIndex
@@ -1431,6 +1437,7 @@ IgnoreSingleBR
 aIgnoreSingleBR
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MaybeDeleteTopMostEmptyAncestor
@@ -1963,6 +1970,7 @@ nsINode
 aNode2
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 RemoveEmptyNodesInChangedRange

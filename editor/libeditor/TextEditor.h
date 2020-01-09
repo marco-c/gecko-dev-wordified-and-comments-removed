@@ -115,6 +115,7 @@ aDocumentIsEmpty
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 DeleteSelection
 (
@@ -153,6 +154,7 @@ aCount
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 Cut
 (
@@ -381,6 +383,7 @@ bool
 aDispatchPasteEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelectionAsAction
 (
@@ -437,6 +440,7 @@ aReplaceRange
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 InsertLineBreakAsAction
@@ -633,6 +637,7 @@ nsAString
 aStringToInsert
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelectionAsSubAction
 (
@@ -642,6 +647,7 @@ EStripWrappers
 aStripWrappers
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 DeleteSelectionWithTransaction
@@ -652,6 +658,7 @@ EStripWrappers
 aStripWrappers
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetTextAsSubAction
 (
@@ -661,6 +668,7 @@ nsAString
 aString
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ReplaceSelectionAsSubAction
 (
@@ -905,6 +913,7 @@ nsITransferable
 transferable
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element
@@ -916,6 +925,7 @@ nsAtom
 aTag
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelectionAndPrepareToCreateNode
 (
