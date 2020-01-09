@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -54,7 +54,7 @@ SVGAnimatedLength
 nsSVGLength2
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -69,7 +69,7 @@ aSVGElement
 )
 {
 }
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -128,7 +128,7 @@ mVal
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

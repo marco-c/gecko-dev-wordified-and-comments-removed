@@ -101,7 +101,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -517,7 +517,7 @@ name
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo

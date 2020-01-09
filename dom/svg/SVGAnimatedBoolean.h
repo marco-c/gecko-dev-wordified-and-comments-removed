@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -60,7 +60,7 @@ SVGAnimatedBoolean
 nsSVGBoolean
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -75,7 +75,7 @@ aSVGElement
 )
 {
 }
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -173,7 +173,7 @@ mVal
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

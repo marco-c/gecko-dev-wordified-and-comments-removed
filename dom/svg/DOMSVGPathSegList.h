@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -144,7 +144,10 @@ GetDOMWrapper
 void
 *
 aList
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 bool
@@ -402,7 +405,10 @@ private
 :
 DOMSVGPathSegList
 (
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 bool
@@ -431,7 +437,10 @@ DOMSVGPathSegList
 (
 )
 ;
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 Element
 (
@@ -580,7 +589,10 @@ mItems
 ;
 RefPtr
 <
-nsSVGElement
+dom
+:
+:
+SVGElement
 >
 mElement
 ;

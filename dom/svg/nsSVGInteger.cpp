@@ -72,7 +72,7 @@ const
 nsAString
 &
 aValueAsString
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -163,7 +163,7 @@ SetBaseValue
 (
 int
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -228,7 +228,7 @@ SetAnimValue
 (
 int
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -273,7 +273,7 @@ nsSVGInteger
 :
 ToDOMAnimatedInteger
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -351,7 +351,7 @@ nsSVGInteger
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

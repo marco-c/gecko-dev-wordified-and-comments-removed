@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -294,7 +294,7 @@ const
 SVGPointList
 &
 aNewAnimValue
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -386,7 +386,7 @@ SVGAnimatedPointList
 :
 ClearAnimValue
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -440,7 +440,7 @@ SVGAnimatedPointList
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )

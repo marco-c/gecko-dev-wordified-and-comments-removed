@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -80,6 +80,16 @@ nsSVGIntegerPair
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
+;
 enum
 PairIndex
 {
@@ -148,7 +158,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -169,7 +179,7 @@ int32_t
 aValue
 PairIndex
 aIndex
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -181,7 +191,7 @@ int32_t
 aValue1
 int32_t
 aValue2
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -217,7 +227,7 @@ aValue
 [
 2
 ]
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -271,7 +281,7 @@ ToDOMAnimatedInteger
 (
 PairIndex
 aIndex
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -285,7 +295,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -335,7 +345,7 @@ nsSVGIntegerPair
 aVal
 PairIndex
 aIndex
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -449,7 +459,7 @@ SMILIntegerPair
 nsSVGIntegerPair
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -468,7 +478,7 @@ nsSVGIntegerPair
 *
 mVal
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

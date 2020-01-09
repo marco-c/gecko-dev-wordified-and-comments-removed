@@ -84,7 +84,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairInfo
@@ -107,7 +107,7 @@ stdDeviation
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -451,7 +451,7 @@ this
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairAttributesInfo
@@ -474,7 +474,7 @@ sNumberPairInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

@@ -10,7 +10,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -311,7 +311,7 @@ mozilla
 :
 gfx
 ;
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -895,7 +895,7 @@ kernelY
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -924,7 +924,7 @@ mozilla
 namespace
 dom
 {
-nsSVGElement
+SVGElement
 :
 :
 NumberListInfo
@@ -945,7 +945,7 @@ tableValues
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -1050,7 +1050,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -1566,7 +1566,7 @@ break
 }
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberListAttributesInfo
@@ -1589,7 +1589,7 @@ sNumberListInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -1612,7 +1612,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -1831,7 +1831,7 @@ NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
 SVGFEFuncAElement
 )
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -1878,7 +1878,7 @@ false
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberPairInfo
@@ -1901,7 +1901,7 @@ kernelUnitLength
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -2336,7 +2336,7 @@ kernelUnitLength
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -2359,7 +2359,7 @@ sNumberInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairAttributesInfo
@@ -2382,7 +2382,7 @@ sNumberPairInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

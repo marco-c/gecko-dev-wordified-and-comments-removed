@@ -263,13 +263,13 @@ IsSVGElement
 )
 )
 {
-nsSVGElement
+SVGElement
 *
 element
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

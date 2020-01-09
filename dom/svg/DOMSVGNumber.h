@@ -50,9 +50,6 @@ nsWrapperCache
 .
 h
 "
-class
-nsSVGElement
-;
 #
 define
 MOZ_SVG_LIST_INDEX_BIT_COUNT
@@ -68,6 +65,13 @@ items
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGElement
+;
+}
 class
 DOMSVGNumber
 final
@@ -284,7 +288,10 @@ aRv
 ;
 private
 :
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 Element
 (

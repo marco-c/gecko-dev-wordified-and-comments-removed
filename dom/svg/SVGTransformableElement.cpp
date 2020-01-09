@@ -194,7 +194,7 @@ map
 )
 |
 |
-nsSVGElement
+SVGElement
 :
 :
 IsAttributeMapped
@@ -221,7 +221,7 @@ const
 nsChangeHint
 retval
 =
-nsSVGElement
+SVGElement
 :
 :
 GetAttributeChangeHint
@@ -692,7 +692,7 @@ return
 mTransforms
 ;
 }
-nsSVGElement
+SVGElement
 *
 SVGTransformableElement
 :
@@ -711,7 +711,7 @@ this
 )
 ;
 }
-nsSVGElement
+SVGElement
 *
 SVGTransformableElement
 :

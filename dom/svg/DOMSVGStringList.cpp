@@ -219,7 +219,7 @@ GetDOMWrapper
 SVGStringList
 *
 aList
-nsSVGElement
+SVGElement
 *
 aElement
 bool

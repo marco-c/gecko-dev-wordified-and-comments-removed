@@ -100,7 +100,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -158,7 +158,7 @@ this
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

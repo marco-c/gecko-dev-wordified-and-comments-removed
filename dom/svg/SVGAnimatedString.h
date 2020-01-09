@@ -7,7 +7,7 @@ mozilla_dom_SVGAnimatedString_h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -30,7 +30,7 @@ public
 explicit
 SVGAnimatedString
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -61,7 +61,7 @@ aGivenProto
 )
 override
 ;
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -108,7 +108,7 @@ aResult
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

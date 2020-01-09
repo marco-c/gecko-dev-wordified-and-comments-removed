@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -385,27 +385,6 @@ RestyleManager
 .
 h
 "
-using
-namespace
-mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-SVGUnitTypes_Binding
-;
 static_assert
 (
 sizeof
@@ -453,12 +432,24 @@ aNodeInfo
 {
 RefPtr
 <
-nsSVGElement
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
 >
 it
 =
 new
-nsSVGElement
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
 (
 std
 :
@@ -502,12 +493,22 @@ return
 rv
 ;
 }
+namespace
+mozilla
+{
+namespace
+dom
+{
+using
+namespace
+SVGUnitTypes_Binding
+;
 NS_IMPL_ELEMENT_CLONE_WITH_INIT
 (
-nsSVGElement
+SVGElement
 )
 nsSVGEnumMapping
-nsSVGElement
+SVGElement
 :
 :
 sSVGUnitTypesMap
@@ -535,10 +536,10 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
-nsSVGElement
+SVGElement
 (
 already_AddRefed
 <
@@ -555,7 +556,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsSVGElementBase
+SVGElementBase
 (
 std
 :
@@ -567,11 +568,11 @@ aNodeInfo
 )
 {
 }
-nsSVGElement
+SVGElement
 :
 :
 ~
-nsSVGElement
+SVGElement
 (
 )
 {
@@ -588,7 +589,7 @@ this
 }
 JSObject
 *
-nsSVGElement
+SVGElement
 :
 :
 WrapNode
@@ -620,7 +621,7 @@ aGivenProto
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateClass
@@ -726,7 +727,7 @@ eRestyle_Self
 }
 }
 nsresult
-nsSVGElement
+SVGElement
 :
 :
 Init
@@ -1135,7 +1136,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGElement
+SVGElement
 :
 :
 BindToTree
@@ -1154,7 +1155,7 @@ aBindingParent
 nsresult
 rv
 =
-nsSVGElementBase
+SVGElementBase
 :
 :
 BindToTree
@@ -1268,7 +1269,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGElement
+SVGElement
 :
 :
 AfterSetAttr
@@ -1400,7 +1401,7 @@ rv
 ;
 }
 return
-nsSVGElementBase
+SVGElementBase
 :
 :
 AfterSetAttr
@@ -1415,7 +1416,7 @@ aNotify
 ;
 }
 bool
-nsSVGElement
+SVGElement
 :
 :
 ParseAttribute
@@ -3248,7 +3249,7 @@ true
 ;
 }
 return
-nsSVGElementBase
+SVGElementBase
 :
 :
 ParseAttribute
@@ -3262,7 +3263,7 @@ aResult
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 UnsetAttrInternal
@@ -4273,7 +4274,7 @@ return
 }
 }
 nsresult
-nsSVGElement
+SVGElement
 :
 :
 BeforeSetAttr
@@ -4306,7 +4307,7 @@ aNotify
 ;
 }
 return
-nsSVGElementBase
+SVGElementBase
 :
 :
 BeforeSetAttr
@@ -4319,7 +4320,7 @@ aNotify
 ;
 }
 nsChangeHint
-nsSVGElement
+SVGElement
 :
 :
 GetAttributeChangeHint
@@ -4336,7 +4337,7 @@ const
 nsChangeHint
 retval
 =
-nsSVGElementBase
+SVGElementBase
 :
 :
 GetAttributeChangeHint
@@ -4355,7 +4356,7 @@ do_QueryObject
 (
 const_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -4388,7 +4389,7 @@ retval
 ;
 }
 bool
-nsSVGElement
+SVGElement
 :
 :
 IsNodeOfType
@@ -4403,7 +4404,7 @@ false
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 NodeInfoChanged
@@ -4413,7 +4414,7 @@ nsIDocument
 aOldDoc
 )
 {
-nsSVGElementBase
+SVGElementBase
 :
 :
 NodeInfoChanged
@@ -4448,7 +4449,7 @@ NS_IMETHODIMP_
 (
 bool
 )
-nsSVGElement
+SVGElement
 :
 :
 IsAttributeMapped
@@ -4476,7 +4477,7 @@ true
 ;
 }
 return
-nsSVGElementBase
+SVGElementBase
 :
 :
 IsAttributeMapped
@@ -4490,7 +4491,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sFillStrokeMap
@@ -4586,7 +4587,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sGraphicsMap
@@ -4682,7 +4683,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sTextContentElementsMap
@@ -4748,7 +4749,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sFontSpecificationMap
@@ -4808,7 +4809,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sGradientStopMap
@@ -4838,7 +4839,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sViewportsMap
@@ -4868,7 +4869,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sMarkersMap
@@ -4904,7 +4905,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sColorMap
@@ -4928,7 +4929,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sFiltersMap
@@ -4952,7 +4953,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sFEFloodMap
@@ -4982,7 +4983,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sLightingEffectsMap
@@ -5006,7 +5007,7 @@ Element
 :
 :
 MappedAttributeEntry
-nsSVGElement
+SVGElement
 :
 :
 sMaskMap
@@ -5027,7 +5028,7 @@ nullptr
 ;
 SVGSVGElement
 *
-nsSVGElement
+SVGElement
 :
 :
 GetOwnerSVGElement
@@ -5112,9 +5113,9 @@ return
 nullptr
 ;
 }
-nsSVGElement
+SVGElement
 *
-nsSVGElement
+SVGElement
 :
 :
 GetViewportElement
@@ -5135,7 +5136,7 @@ already_AddRefed
 <
 SVGAnimatedString
 >
-nsSVGElement
+SVGElement
 :
 :
 ClassName
@@ -5175,7 +5176,7 @@ already_AddRefed
 nsIURI
 >
 aBaseURI
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -5230,7 +5231,7 @@ DeclarationBlock
 >
 mDecl
 ;
-nsSVGElement
+SVGElement
 *
 mElement
 ;
@@ -5255,7 +5256,7 @@ already_AddRefed
 nsIURI
 >
 aBaseURI
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -5626,7 +5627,7 @@ forget
 }
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 UpdateContentDeclarationBlock
@@ -5927,7 +5928,7 @@ GetDeclarationBlock
 const
 DeclarationBlock
 *
-nsSVGElement
+SVGElement
 :
 :
 GetContentDeclarationBlock
@@ -5940,7 +5941,7 @@ mContentDeclarationBlock
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeValue
@@ -6072,7 +6073,7 @@ emptyOrOldAttrValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeValue
@@ -6167,7 +6168,7 @@ updateBatch
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 MaybeSerializeAttrBeforeRemoval
@@ -6252,7 +6253,7 @@ oldValueSet
 }
 nsAtom
 *
-nsSVGElement
+SVGElement
 :
 :
 GetEventNameForAttr
@@ -6396,7 +6397,7 @@ aAttr
 }
 SVGViewportElement
 *
-nsSVGElement
+SVGElement
 :
 :
 GetCtx
@@ -6415,7 +6416,7 @@ this
 ;
 }
 gfxMatrix
-nsSVGElement
+SVGElement
 :
 :
 PrependLocalTransformsTo
@@ -6433,11 +6434,11 @@ return
 aMatrix
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetLengthInfo
@@ -6454,7 +6455,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -6496,7 +6497,7 @@ mDefaultUnitType
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 SetLength
@@ -6582,7 +6583,7 @@ set
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeLength
@@ -6608,7 +6609,7 @@ mName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeLength
@@ -6693,7 +6694,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateLength
@@ -6750,7 +6751,7 @@ SMIL
 }
 nsSVGLength2
 *
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedLength
@@ -6828,7 +6829,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedLengthValues
@@ -7020,11 +7021,11 @@ args
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthListAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetLengthListInfo
@@ -7041,7 +7042,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 LengthListAttributesInfo
@@ -7065,7 +7066,7 @@ aAttrEnum
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeLengthList
@@ -7091,7 +7092,7 @@ mName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeLengthList
@@ -7181,7 +7182,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateLengthList
@@ -7233,7 +7234,7 @@ SMIL
 }
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedLengthListValues
@@ -7355,7 +7356,7 @@ args
 }
 SVGAnimatedLengthList
 *
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedLengthList
@@ -7404,11 +7405,11 @@ return
 nullptr
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberListAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetNumberListInfo
@@ -7425,7 +7426,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 NumberListAttributesInfo
@@ -7461,7 +7462,7 @@ aAttrEnum
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeNumberList
@@ -7487,7 +7488,7 @@ mName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeNumberList
@@ -7577,7 +7578,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateNumberList
@@ -7645,7 +7646,7 @@ SMIL
 }
 SVGAnimatedNumberList
 *
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedNumberList
@@ -7697,7 +7698,7 @@ nullptr
 }
 SVGAnimatedNumberList
 *
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedNumberList
@@ -7772,7 +7773,7 @@ nullptr
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangePointList
@@ -7805,7 +7806,7 @@ GetPointListAttrName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangePointList
@@ -7861,7 +7862,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimatePointList
@@ -7919,7 +7920,7 @@ SMIL
 }
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangePathSegList
@@ -7953,7 +7954,7 @@ GetPathDataAttrName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangePathSegList
@@ -8010,7 +8011,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimatePathSegList
@@ -8067,11 +8068,11 @@ SMIL
 ;
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetNumberInfo
@@ -8088,7 +8089,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -8118,7 +8119,7 @@ mDefaultValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeNumber
@@ -8205,7 +8206,7 @@ true
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateNumber
@@ -8257,7 +8258,7 @@ SMIL
 }
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedNumberValues
@@ -8359,11 +8360,11 @@ args
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetNumberPairInfo
@@ -8380,7 +8381,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 NumberPairAttributesInfo
@@ -8416,7 +8417,7 @@ mDefaultValue2
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeNumberPair
@@ -8442,7 +8443,7 @@ mName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeNumberPair
@@ -8528,7 +8529,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateNumberPair
@@ -8579,11 +8580,11 @@ SMIL
 ;
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 IntegerAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetIntegerInfo
@@ -8600,7 +8601,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 IntegerAttributesInfo
@@ -8630,7 +8631,7 @@ mDefaultValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeInteger
@@ -8717,7 +8718,7 @@ true
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateInteger
@@ -8769,7 +8770,7 @@ SMIL
 }
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedIntegerValues
@@ -8871,11 +8872,11 @@ args
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 IntegerPairAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetIntegerPairInfo
@@ -8892,7 +8893,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 IntegerPairAttributesInfo
@@ -8928,7 +8929,7 @@ mDefaultValue2
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeIntegerPair
@@ -8954,7 +8955,7 @@ mName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeIntegerPair
@@ -9040,7 +9041,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateIntegerPair
@@ -9091,11 +9092,11 @@ SMIL
 ;
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 AngleAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetAngleInfo
@@ -9112,7 +9113,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 AngleAttributesInfo
@@ -9148,7 +9149,7 @@ mDefaultUnitType
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeAngle
@@ -9174,7 +9175,7 @@ mName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeAngle
@@ -9259,7 +9260,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateAngle
@@ -9310,11 +9311,11 @@ SMIL
 ;
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 BooleanAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetBooleanInfo
@@ -9331,7 +9332,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 BooleanAttributesInfo
@@ -9361,7 +9362,7 @@ mDefaultValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeBoolean
@@ -9443,7 +9444,7 @@ true
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateBoolean
@@ -9494,11 +9495,11 @@ SMIL
 ;
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetEnumInfo
@@ -9515,7 +9516,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -9545,7 +9546,7 @@ mDefaultValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -9570,7 +9571,7 @@ aAttrEnum
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeEnum
@@ -9653,7 +9654,7 @@ true
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateEnum
@@ -9706,7 +9707,7 @@ SMIL
 }
 nsSVGViewBox
 *
-nsSVGElement
+SVGElement
 :
 :
 GetViewBox
@@ -9718,7 +9719,7 @@ nullptr
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeViewBox
@@ -9736,7 +9737,7 @@ viewBox
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeViewBox
@@ -9793,7 +9794,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateViewBox
@@ -9833,7 +9834,7 @@ SMIL
 }
 SVGAnimatedPreserveAspectRatio
 *
-nsSVGElement
+SVGElement
 :
 :
 GetPreserveAspectRatio
@@ -9845,7 +9846,7 @@ nullptr
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangePreserveAspectRatio
@@ -9863,7 +9864,7 @@ preserveAspectRatio
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangePreserveAspectRatio
@@ -9922,7 +9923,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimatePreserveAspectRatio
@@ -9961,7 +9962,7 @@ SMIL
 }
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeTransformList
@@ -9978,7 +9979,7 @@ GetTransformListAttrName
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeTransformList
@@ -10035,7 +10036,7 @@ newValue
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateTransformList
@@ -10121,11 +10122,11 @@ changeHint
 }
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetStringInfo
@@ -10142,7 +10143,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo
@@ -10166,7 +10167,7 @@ aAttrEnum
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 GetStringBaseValue
@@ -10179,7 +10180,7 @@ aResult
 )
 const
 {
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo
@@ -10187,7 +10188,7 @@ info
 =
 const_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -10255,7 +10256,7 @@ aResult
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 SetStringBaseValue
@@ -10268,7 +10269,7 @@ nsAString
 aValue
 )
 {
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo
@@ -10335,7 +10336,7 @@ true
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidAnimateString
@@ -10393,11 +10394,11 @@ SMIL
 ;
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 StringListAttributesInfo
-nsSVGElement
+SVGElement
 :
 :
 GetStringListInfo
@@ -10414,7 +10415,7 @@ nullptr
 ;
 }
 nsAttrValue
-nsSVGElement
+SVGElement
 :
 :
 WillChangeStringList
@@ -10481,7 +10482,7 @@ name
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 DidChangeStringList
@@ -10631,7 +10632,7 @@ MaybeInvalidate
 }
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 StringListAttributesInfo
@@ -10654,7 +10655,7 @@ Clear
 ;
 }
 nsresult
-nsSVGElement
+SVGElement
 :
 :
 ReportAttributeParseFailure
@@ -10721,7 +10722,7 @@ strings
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 RecompileScriptEventListeners
@@ -10827,7 +10828,7 @@ UniquePtr
 <
 nsISMILAttr
 >
-nsSVGElement
+SVGElement
 :
 :
 GetAnimatedAttr
@@ -11743,7 +11744,7 @@ nullptr
 ;
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 AnimationNeedsResample
@@ -11786,7 +11787,7 @@ SetResampleNeeded
 }
 }
 void
-nsSVGElement
+SVGElement
 :
 :
 FlushAnimations
@@ -11826,5 +11827,7 @@ FlushResampleRequests
 (
 )
 ;
+}
+}
 }
 }

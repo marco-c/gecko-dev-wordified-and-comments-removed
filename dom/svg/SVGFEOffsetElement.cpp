@@ -77,7 +77,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -108,7 +108,7 @@ false
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -401,7 +401,7 @@ this
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -424,7 +424,7 @@ sNumberInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

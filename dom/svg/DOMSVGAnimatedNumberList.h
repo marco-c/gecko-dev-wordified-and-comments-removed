@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -83,7 +83,10 @@ GetDOMWrapper
 SVGAnimatedNumberList
 *
 aList
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 uint8_t
@@ -124,7 +127,10 @@ IsAnimating
 )
 const
 ;
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 GetParentObject
 (
@@ -175,7 +181,10 @@ private
 :
 DOMSVGAnimatedNumberList
 (
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 uint8_t
@@ -229,7 +238,10 @@ mAnimVal
 ;
 RefPtr
 <
-nsSVGElement
+dom
+:
+:
+SVGElement
 >
 mElement
 ;

@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -77,12 +77,12 @@ nsSVGEnum
 :
 GetMapping
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
 {
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -142,7 +142,7 @@ const
 nsAtom
 *
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -243,7 +243,7 @@ nsSVGEnum
 :
 GetBaseValueAtom
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -316,7 +316,7 @@ SetBaseValue
 (
 uint16_t
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -426,7 +426,7 @@ SetAnimValue
 (
 uint16_t
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -471,7 +471,7 @@ nsSVGEnum
 :
 ToDOMAnimatedEnum
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -549,7 +549,7 @@ nsSVGEnum
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

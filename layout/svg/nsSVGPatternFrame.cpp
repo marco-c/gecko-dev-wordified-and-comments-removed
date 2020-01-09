@@ -1571,7 +1571,7 @@ tm
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -2905,7 +2905,7 @@ ctx
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

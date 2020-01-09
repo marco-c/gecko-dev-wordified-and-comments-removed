@@ -7,7 +7,7 @@ mozilla_dom_SVGViewElement_h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -39,10 +39,6 @@ SVGStringList
 .
 h
 "
-typedef
-nsSVGElement
-SVGViewElementBase
-;
 class
 nsSVGOuterSVGFrame
 ;
@@ -79,6 +75,10 @@ dom
 {
 class
 SVGViewportElement
+;
+typedef
+SVGElement
+SVGViewElementBase
 ;
 class
 SVGViewElement

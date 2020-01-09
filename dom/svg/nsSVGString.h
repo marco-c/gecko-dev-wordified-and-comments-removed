@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -59,6 +59,16 @@ nsSVGString
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
+;
 void
 Init
 (
@@ -86,7 +96,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -100,7 +110,7 @@ nsAString
 &
 aValue
 const
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -123,7 +133,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -135,7 +145,7 @@ nsAString
 &
 aValue
 const
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -168,7 +178,7 @@ SVGAnimatedString
 >
 ToDOMAnimatedString
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -182,7 +192,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -226,7 +236,7 @@ DOMAnimatedString
 nsSVGString
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -340,7 +350,7 @@ SMILString
 nsSVGString
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -359,7 +369,7 @@ nsSVGString
 *
 mVal
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

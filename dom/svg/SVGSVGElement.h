@@ -554,7 +554,7 @@ AnimationsPaused
 )
 ;
 float
-GetCurrentTimeAsFloat
+GetCurrentTime
 (
 )
 ;
@@ -954,7 +954,7 @@ mOriginalTime
 mRootElem
 -
 >
-GetCurrentTimeAsFloat
+GetCurrentTime
 (
 )
 )

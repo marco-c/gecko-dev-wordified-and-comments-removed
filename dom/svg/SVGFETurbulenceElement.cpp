@@ -107,7 +107,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -130,7 +130,7 @@ false
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberPairInfo
@@ -153,7 +153,7 @@ baseFrequency
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 IntegerInfo
@@ -233,7 +233,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -264,7 +264,7 @@ SVG_STITCHTYPE_NOSTITCH
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -853,7 +853,7 @@ stitchTiles
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -876,7 +876,7 @@ sNumberInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairAttributesInfo
@@ -899,7 +899,7 @@ sNumberPairInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 IntegerAttributesInfo
@@ -922,7 +922,7 @@ sIntegerInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -945,7 +945,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

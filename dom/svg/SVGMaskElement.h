@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -57,7 +57,7 @@ namespace
 dom
 {
 typedef
-nsSVGElement
+SVGElement
 SVGMaskElementBase
 ;
 class

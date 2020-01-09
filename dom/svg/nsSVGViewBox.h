@@ -57,7 +57,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -254,6 +254,16 @@ nsSVGViewBox
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
+;
 void
 Init
 (
@@ -335,7 +345,7 @@ const
 nsSVGViewBoxRect
 &
 aRect
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -364,7 +374,7 @@ const
 nsSVGViewBoxRect
 &
 aRect
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -376,7 +386,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -404,7 +414,7 @@ SVGAnimatedRect
 >
 ToSVGAnimatedRect
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -421,7 +431,7 @@ SVGIRect
 >
 ToDOMBaseVal
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -438,7 +448,7 @@ SVGIRect
 >
 ToDOMAnimVal
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -452,7 +462,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -496,7 +506,7 @@ DOMBaseVal
 nsSVGViewBox
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -526,7 +536,7 @@ mVal
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;
@@ -704,7 +714,7 @@ DOMAnimVal
 nsSVGViewBox
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -734,7 +744,7 @@ mVal
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;
@@ -962,7 +972,7 @@ SMILViewBox
 nsSVGViewBox
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -981,7 +991,7 @@ nsSVGViewBox
 *
 mVal
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

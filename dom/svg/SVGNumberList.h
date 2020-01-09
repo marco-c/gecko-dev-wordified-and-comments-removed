@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -427,7 +427,10 @@ nullptr
 explicit
 SVGNumberListAndInfo
 (
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 )
@@ -451,7 +454,10 @@ aElement
 void
 SetInfo
 (
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 )
@@ -471,7 +477,10 @@ aElement
 )
 ;
 }
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 Element
 (
@@ -492,7 +501,10 @@ mElement
 return
 static_cast
 <
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 >
 (

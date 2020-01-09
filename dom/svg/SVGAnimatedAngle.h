@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -61,7 +61,7 @@ SVGAnimatedAngle
 nsSVGAngle
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -76,7 +76,7 @@ aSVGElement
 )
 {
 }
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -135,7 +135,7 @@ mVal
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

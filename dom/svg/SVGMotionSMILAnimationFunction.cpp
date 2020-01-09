@@ -813,7 +813,7 @@ pathGenerator
 static_cast
 <
 const
-nsSVGElement
+SVGElement
 *
 >
 (

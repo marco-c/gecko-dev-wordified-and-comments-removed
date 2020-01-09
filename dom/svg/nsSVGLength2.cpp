@@ -523,7 +523,7 @@ SVGElementMetrics
 :
 SVGElementMetrics
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 SVGViewportElement
@@ -867,7 +867,7 @@ nsSVGLength2
 :
 GetPixelsPerUnit
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 uint8_t
@@ -954,7 +954,7 @@ SVGElementMetrics
 (
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -1149,7 +1149,7 @@ SetBaseValueInSpecifiedUnits
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -1242,7 +1242,7 @@ ConvertToSpecifiedUnits
 (
 uint16_t
 unitType
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1376,7 +1376,7 @@ uint16_t
 unitType
 float
 valueInSpecifiedUnits
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1492,7 +1492,7 @@ DOMSVGLength
 *
 *
 aResult
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1534,7 +1534,7 @@ DOMSVGLength
 *
 *
 aResult
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1576,7 +1576,7 @@ const
 nsAString
 &
 aValueAsString
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -1754,7 +1754,7 @@ SetBaseValue
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -1823,7 +1823,7 @@ SetAnimValueInSpecifiedUnits
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1867,7 +1867,7 @@ SetAnimValue
 (
 float
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1914,7 +1914,7 @@ nsSVGLength2
 :
 ToDOMAnimatedLength
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1989,7 +1989,7 @@ nsSVGLength2
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

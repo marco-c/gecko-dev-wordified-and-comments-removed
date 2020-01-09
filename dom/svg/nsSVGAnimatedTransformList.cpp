@@ -112,7 +112,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -160,7 +160,7 @@ const
 SVGTransformList
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -322,7 +322,7 @@ const
 SVGTransformList
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -458,7 +458,7 @@ nsSVGAnimatedTransformList
 :
 ClearAnimValue
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -575,7 +575,7 @@ nsSVGAnimatedTransformList
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

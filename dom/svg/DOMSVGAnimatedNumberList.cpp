@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -250,7 +250,10 @@ GetDOMWrapper
 SVGAnimatedNumberList
 *
 aList
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 uint8_t

@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -77,7 +77,7 @@ class
 SVGTransformableElement
 :
 public
-nsSVGElement
+SVGElement
 {
 public
 :
@@ -96,7 +96,7 @@ NodeInfo
 aNodeInfo
 )
 :
-nsSVGElement
+SVGElement
 (
 std
 :
@@ -142,13 +142,13 @@ Transform
 (
 )
 ;
-nsSVGElement
+SVGElement
 *
 GetNearestViewportElement
 (
 )
 ;
-nsSVGElement
+SVGElement
 *
 GetFarthestViewportElement
 (

@@ -126,11 +126,6 @@ nsSVGClass
 h
 '
 '
-nsSVGElement
-.
-h
-'
-'
 nsSVGFeatures
 .
 h
@@ -281,6 +276,11 @@ h
 '
 '
 SVGDocument
+.
+h
+'
+'
+SVGElement
 .
 h
 '
@@ -695,11 +695,6 @@ nsSVGDataParser
 cpp
 '
 '
-nsSVGElement
-.
-cpp
-'
-'
 nsSVGEnum
 .
 cpp
@@ -891,6 +886,11 @@ cpp
 '
 '
 SVGDocument
+.
+cpp
+'
+'
+SVGElement
 .
 cpp
 '

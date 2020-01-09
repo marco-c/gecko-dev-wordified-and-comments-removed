@@ -934,7 +934,7 @@ ctx
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

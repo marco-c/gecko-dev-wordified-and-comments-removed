@@ -77,7 +77,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairInfo
@@ -129,7 +129,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -152,7 +152,7 @@ SVG_OPERATOR_ERODE
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -573,7 +573,7 @@ _operator
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairAttributesInfo
@@ -596,7 +596,7 @@ sNumberPairInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -619,7 +619,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

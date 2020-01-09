@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "

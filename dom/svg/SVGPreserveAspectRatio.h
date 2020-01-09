@@ -50,7 +50,11 @@ h
 #
 include
 "
-nsSVGElement
+mozilla
+/
+dom
+/
+SVGElement
 .
 h
 "
@@ -335,7 +339,7 @@ DOMSVGPreserveAspectRatio
 SVGAnimatedPreserveAspectRatio
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -356,7 +360,7 @@ aIsBaseValue
 )
 {
 }
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -430,7 +434,7 @@ mVal
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

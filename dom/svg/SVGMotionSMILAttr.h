@@ -26,9 +26,6 @@ nsIContent
 class
 nsSMILValue
 ;
-class
-nsSVGElement
-;
 namespace
 mozilla
 {
@@ -37,6 +34,9 @@ dom
 {
 class
 SVGAnimationElement
+;
+class
+SVGElement
 ;
 }
 class
@@ -50,7 +50,10 @@ public
 explicit
 SVGMotionSMILAttr
 (
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aSVGElement
 )
@@ -124,7 +127,10 @@ override
 ;
 protected
 :
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 mSVGElement
 ;

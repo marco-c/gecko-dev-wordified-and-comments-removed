@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -39,10 +39,6 @@ nsSVGString
 .
 h
 "
-typedef
-nsSVGElement
-SVGFilterElementBase
-;
 class
 nsSVGFilterFrame
 ;
@@ -79,6 +75,10 @@ dom
 {
 class
 SVGAnimatedLength
+;
+typedef
+SVGElement
+SVGFilterElementBase
 ;
 class
 SVGFilterElement

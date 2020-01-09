@@ -87,7 +87,7 @@ mozilla
 :
 dom
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -137,7 +137,7 @@ aNodeInfo
 )
 {
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo

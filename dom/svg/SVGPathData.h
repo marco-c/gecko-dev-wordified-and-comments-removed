@@ -82,7 +82,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -639,7 +639,10 @@ public
 explicit
 SVGPathDataAndInfo
 (
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 =
@@ -665,7 +668,10 @@ aElement
 void
 SetElement
 (
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 aElement
 )
@@ -685,7 +691,10 @@ aElement
 )
 ;
 }
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 Element
 (
@@ -706,7 +715,10 @@ mElement
 return
 static_cast
 <
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 >
 (

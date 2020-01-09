@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -294,7 +294,7 @@ const
 SVGPathData
 &
 aNewAnimValue
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -383,7 +383,7 @@ SVGAnimatedPathSegList
 :
 ClearAnimValue
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -465,7 +465,7 @@ SVGAnimatedPathSegList
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )

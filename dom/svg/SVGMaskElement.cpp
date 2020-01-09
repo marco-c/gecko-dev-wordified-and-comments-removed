@@ -112,7 +112,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -189,7 +189,7 @@ Y
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -454,7 +454,7 @@ GetAnimValInSpecifiedUnits
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -477,7 +477,7 @@ sLengthInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo

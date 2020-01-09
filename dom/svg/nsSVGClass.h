@@ -57,9 +57,6 @@ UniquePtr
 .
 h
 "
-class
-nsSVGElement
-;
 namespace
 mozilla
 {
@@ -69,6 +66,9 @@ dom
 class
 SVGAnimatedString
 ;
+class
+SVGElement
+;
 }
 }
 class
@@ -76,6 +76,16 @@ nsSVGClass
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
+;
 void
 Init
 (
@@ -93,7 +103,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -107,7 +117,7 @@ nsAString
 &
 aValue
 const
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -120,7 +130,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -132,7 +142,7 @@ nsAString
 &
 aValue
 const
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -162,7 +172,7 @@ SVGAnimatedString
 >
 ToDOMAnimatedString
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -176,7 +186,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -204,7 +214,7 @@ SMILString
 nsSVGClass
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -223,7 +233,7 @@ nsSVGClass
 *
 mVal
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

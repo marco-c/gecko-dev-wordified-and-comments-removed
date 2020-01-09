@@ -7,7 +7,7 @@ mozilla_dom_SVGScriptElement_h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -76,7 +76,7 @@ namespace
 dom
 {
 typedef
-nsSVGElement
+SVGElement
 SVGScriptElementBase
 ;
 class

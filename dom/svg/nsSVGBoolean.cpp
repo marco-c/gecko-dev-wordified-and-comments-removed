@@ -199,7 +199,7 @@ const
 nsAtom
 *
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -292,7 +292,7 @@ SetBaseValue
 (
 bool
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -350,7 +350,7 @@ SetAnimValue
 (
 bool
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -395,7 +395,7 @@ nsSVGBoolean
 :
 ToDOMAnimatedBoolean
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -476,7 +476,7 @@ nsSVGBoolean
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

@@ -183,7 +183,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -258,7 +258,7 @@ Y
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -1604,7 +1604,7 @@ newSVGElement
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -1899,7 +1899,7 @@ auto
 *
 target
 =
-nsSVGElement
+SVGElement
 :
 :
 FromNode
@@ -2408,7 +2408,7 @@ GetAnimValInSpecifiedUnits
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -2431,7 +2431,7 @@ sLengthInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

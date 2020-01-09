@@ -205,7 +205,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -1018,7 +1018,7 @@ float
 SVGSVGElement
 :
 :
-GetCurrentTimeAsFloat
+GetCurrentTime
 (
 )
 {
@@ -1043,7 +1043,7 @@ double
 root
 -
 >
-GetCurrentTimeAsSMILTime
+GetCurrentTime
 (
 )
 )
@@ -2313,7 +2313,7 @@ TRANSFORM_CHANGED
 ;
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo

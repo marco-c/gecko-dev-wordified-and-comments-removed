@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -211,7 +211,7 @@ const
 SVGNumberList
 &
 aNewAnimValue
-nsSVGElement
+SVGElement
 *
 aElement
 uint32_t
@@ -305,7 +305,7 @@ SVGAnimatedNumberList
 :
 ClearAnimValue
 (
-nsSVGElement
+SVGElement
 *
 aElement
 uint32_t
@@ -360,7 +360,7 @@ SVGAnimatedNumberList
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 uint8_t

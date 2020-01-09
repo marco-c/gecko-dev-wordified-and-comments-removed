@@ -133,7 +133,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -210,7 +210,7 @@ Y
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -241,7 +241,7 @@ SVG_UNIT_TYPE_USERSPACEONUSE
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -602,7 +602,7 @@ GetAnimValInSpecifiedUnits
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -625,7 +625,7 @@ sLengthInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -648,7 +648,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -2789,7 +2789,7 @@ if
 static_cast
 <
 const
-nsSVGElement
+SVGElement
 *
 >
 (

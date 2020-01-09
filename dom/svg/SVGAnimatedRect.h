@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -85,12 +85,12 @@ SVGAnimatedRect
 nsSVGViewBox
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
 ;
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -151,7 +151,7 @@ mVal
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mSVGElement
 ;

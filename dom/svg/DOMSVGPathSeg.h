@@ -43,9 +43,6 @@ SVGPathSegBinding
 .
 h
 "
-class
-nsSVGElement
-;
 #
 define
 MOZ_SVG_LIST_INDEX_BIT_COUNT
@@ -53,6 +50,13 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+SVGElement
+;
+}
 #
 define
 CHECK_ARG_COUNT_IN_SYNC
@@ -569,7 +573,10 @@ nullptr
 ;
 }
 }
-nsSVGElement
+dom
+:
+:
+SVGElement
 *
 Element
 (

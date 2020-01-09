@@ -81,7 +81,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -236,7 +236,7 @@ node
 }
 }
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -94,7 +94,7 @@ GetDOMWrapper
 nsSVGAnimatedTransformList
 *
 aList
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -129,7 +129,7 @@ IsAnimating
 )
 const
 ;
-nsSVGElement
+SVGElement
 *
 GetParentObject
 (
@@ -181,7 +181,7 @@ private
 explicit
 SVGAnimatedTransformList
 (
-nsSVGElement
+SVGElement
 *
 aElement
 )
@@ -229,7 +229,7 @@ mAnimVal
 ;
 RefPtr
 <
-nsSVGElement
+SVGElement
 >
 mElement
 ;

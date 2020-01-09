@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -155,7 +155,7 @@ SetBaseValue
 (
 uint16_t
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -248,7 +248,7 @@ SVGAnimatedEnumeration
 >
 ToDOMAnimatedEnum
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -273,7 +273,7 @@ DOMAnimatedEnum
 nsSVGOrientType
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -365,7 +365,7 @@ GetAnimValue
 }
 ;
 typedef
-nsSVGElement
+SVGElement
 SVGMarkerElementBase
 ;
 class

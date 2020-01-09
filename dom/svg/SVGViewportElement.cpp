@@ -215,7 +215,7 @@ mozilla
 namespace
 dom
 {
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -1523,7 +1523,7 @@ aViewportHeight
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo

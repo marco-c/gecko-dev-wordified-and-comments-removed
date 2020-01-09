@@ -157,9 +157,6 @@ class
 nsSVGDisplayContainerFrame
 ;
 class
-nsSVGElement
-;
-class
 nsSVGEnum
 ;
 class
@@ -194,6 +191,9 @@ dom
 {
 class
 Element
+;
+class
+SVGElement
 ;
 class
 UserSpaceMetrics
@@ -580,6 +580,16 @@ typedef
 mozilla
 :
 :
+dom
+:
+:
+SVGElement
+SVGElement
+;
+typedef
+mozilla
+:
+:
 gfx
 :
 :
@@ -727,7 +737,7 @@ static
 float
 UserSpace
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 const

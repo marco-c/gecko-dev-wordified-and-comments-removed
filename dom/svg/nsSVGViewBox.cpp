@@ -529,7 +529,7 @@ const
 nsSVGViewBoxRect
 &
 aRect
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -587,7 +587,7 @@ const
 nsSVGViewBoxRect
 &
 aRect
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -661,7 +661,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 bool
@@ -855,7 +855,7 @@ nsSVGViewBox
 :
 ToSVGAnimatedRect
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -923,7 +923,7 @@ nsSVGViewBox
 :
 ToDOMBaseVal
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1019,7 +1019,7 @@ nsSVGViewBox
 :
 ToDOMAnimVal
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -1299,7 +1299,7 @@ nsSVGViewBox
 :
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )

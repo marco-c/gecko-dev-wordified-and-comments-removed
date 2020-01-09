@@ -168,7 +168,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -1380,7 +1380,7 @@ return
 mPreserveAspectRatio
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

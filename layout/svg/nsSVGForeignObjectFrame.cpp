@@ -752,7 +752,7 @@ if
 static_cast
 <
 const
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -892,13 +892,13 @@ aFromParentTransform
 )
 ;
 }
-nsSVGElement
+SVGElement
 *
 content
 =
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -1252,7 +1252,7 @@ height
 ;
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -1545,7 +1545,7 @@ height
 ;
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

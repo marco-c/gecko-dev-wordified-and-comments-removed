@@ -1090,7 +1090,7 @@ clip
 ;
 static_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (

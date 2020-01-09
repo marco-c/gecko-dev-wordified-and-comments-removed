@@ -131,7 +131,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -154,7 +154,7 @@ SVG_FECOLORMATRIX_TYPE_MATRIX
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -185,7 +185,7 @@ true
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberListInfo
@@ -571,7 +571,7 @@ values
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -594,7 +594,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo
@@ -617,7 +617,7 @@ sStringInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberListAttributesInfo

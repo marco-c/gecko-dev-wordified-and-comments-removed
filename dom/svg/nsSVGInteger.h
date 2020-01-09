@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -76,6 +76,16 @@ nsSVGInteger
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+SVGElement
+SVGElement
+;
 void
 Init
 (
@@ -115,7 +125,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -133,7 +143,7 @@ SetBaseValue
 (
 int32_t
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -153,7 +163,7 @@ SetAnimValue
 (
 int
 aValue
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -193,7 +203,7 @@ SVGAnimatedInteger
 >
 ToDOMAnimatedInteger
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -207,7 +217,7 @@ nsISMILAttr
 >
 ToSMILAttr
 (
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -249,7 +259,7 @@ DOMAnimatedInteger
 nsSVGInteger
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -353,7 +363,7 @@ SMILInteger
 nsSVGInteger
 *
 aVal
-nsSVGElement
+SVGElement
 *
 aSVGElement
 )
@@ -372,7 +382,7 @@ nsSVGInteger
 *
 mVal
 ;
-nsSVGElement
+SVGElement
 *
 mSVGElement
 ;

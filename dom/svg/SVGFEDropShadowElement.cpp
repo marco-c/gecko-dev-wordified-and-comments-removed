@@ -84,7 +84,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberInfo
@@ -115,7 +115,7 @@ false
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 NumberPairInfo
@@ -138,7 +138,7 @@ stdDeviation
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -717,7 +717,7 @@ name
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberAttributesInfo
@@ -740,7 +740,7 @@ sNumberInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 NumberPairAttributesInfo
@@ -763,7 +763,7 @@ sNumberPairInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

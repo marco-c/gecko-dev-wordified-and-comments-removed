@@ -204,7 +204,7 @@ nullptr
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -227,7 +227,7 @@ SVG_FEBLEND_MODE_NORMAL
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -514,7 +514,7 @@ this
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -537,7 +537,7 @@ sEnumInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

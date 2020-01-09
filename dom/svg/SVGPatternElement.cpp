@@ -123,7 +123,7 @@ aGivenProto
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthInfo
@@ -198,7 +198,7 @@ Y
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 EnumInfo
@@ -229,7 +229,7 @@ SVG_UNIT_TYPE_USERSPACEONUSE
 }
 }
 ;
-nsSVGElement
+SVGElement
 :
 :
 StringInfo
@@ -687,7 +687,7 @@ GetAnimValInSpecifiedUnits
 0
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 LengthAttributesInfo
@@ -710,7 +710,7 @@ sLengthInfo
 )
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 EnumAttributesInfo
@@ -761,7 +761,7 @@ return
 mPreserveAspectRatio
 ;
 }
-nsSVGElement
+SVGElement
 :
 :
 StringAttributesInfo

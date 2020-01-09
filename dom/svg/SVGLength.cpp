@@ -17,7 +17,7 @@ h
 #
 include
 "
-nsSVGElement
+SVGElement
 .
 h
 "
@@ -438,7 +438,7 @@ GetValueInSpecifiedUnit
 uint8_t
 aUnit
 const
-nsSVGElement
+SVGElement
 *
 aElement
 uint8_t
@@ -653,7 +653,7 @@ SVGLength
 GetUserUnitsPerUnit
 (
 const
-nsSVGElement
+SVGElement
 *
 aElement
 uint8_t
@@ -785,7 +785,7 @@ GetFontSize
 (
 const_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -807,7 +807,7 @@ GetFontXHeight
 (
 const_cast
 <
-nsSVGElement
+SVGElement
 *
 >
 (
@@ -849,7 +849,7 @@ SVGLength
 GetUserUnitsPerPercent
 (
 const
-nsSVGElement
+SVGElement
 *
 aElement
 uint8_t
