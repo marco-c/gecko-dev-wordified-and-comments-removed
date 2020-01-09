@@ -2425,10 +2425,9 @@ default
 :
 if
 (
-resultIndex
-=
-=
-0
+result
+.
+heuristic
 )
 {
 setAction
