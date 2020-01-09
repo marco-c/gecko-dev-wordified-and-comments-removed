@@ -2326,6 +2326,15 @@ dest
 )
 PER_ARCH
 ;
+inline
+void
+loadAbiReturnAddress
+(
+Register
+dest
+)
+PER_SHARED_ARCH
+;
 public
 :
 inline
