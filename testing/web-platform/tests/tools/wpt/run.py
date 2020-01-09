@@ -1388,6 +1388,15 @@ self
 )
 :
         
+if
+not
+self
+.
+venv
+.
+skip_virtualenv_setup
+:
+            
 self
 .
 venv
@@ -4044,6 +4053,13 @@ wptrunner
 "
 )
     
+if
+not
+venv
+.
+skip_virtualenv_setup
+:
+        
 venv
 .
 install_requirements
