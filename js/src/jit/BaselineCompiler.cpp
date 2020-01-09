@@ -3995,7 +3995,7 @@ FunctionInfo
 CheckGlobalOrEvalDeclarationConflictsFn
 >
 (
-jit
+js
 :
 :
 CheckGlobalOrEvalDeclarationConflicts
