@@ -717,6 +717,7 @@ form
 {
 type
 value
+lowerCaseValue
 }
 .
 }
