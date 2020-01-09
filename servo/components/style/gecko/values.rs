@@ -2095,6 +2095,9 @@ nsCStr
 :
 from
 (
+&
+*
+*
 s
 )
 Symbol
@@ -2416,6 +2419,10 @@ String
 gecko_symbol
 .
 to_string
+(
+)
+.
+into
 (
 )
 )
