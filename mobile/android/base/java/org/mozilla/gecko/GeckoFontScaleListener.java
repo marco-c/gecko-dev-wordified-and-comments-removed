@@ -166,7 +166,7 @@ private
 static
 final
 GeckoFontScaleListener
-listenerInstance
+sInstance
 =
 new
 GeckoFontScaleListener
@@ -175,15 +175,15 @@ GeckoFontScaleListener
 ;
 private
 Context
-applicationContext
+mApplicationContext
 ;
 private
 boolean
-initialized
+mInitialized
 ;
 private
 boolean
-running
+mRunning
 ;
 public
 static
@@ -193,7 +193,7 @@ getInstance
 )
 {
 return
-listenerInstance
+sInstance
 ;
 }
 private
@@ -219,7 +219,7 @@ context
 {
 if
 (
-initialized
+mInitialized
 )
 {
 Log
@@ -237,7 +237,7 @@ initialized
 return
 ;
 }
-applicationContext
+mApplicationContext
 =
 context
 .
@@ -252,7 +252,7 @@ GeckoSharedPrefs
 .
 forApp
 (
-applicationContext
+mApplicationContext
 )
 ;
 prefs
@@ -267,7 +267,7 @@ onPrefChange
 prefs
 )
 ;
-initialized
+mInitialized
 =
 true
 ;
@@ -282,7 +282,7 @@ shutdown
 if
 (
 !
-initialized
+mInitialized
 )
 {
 Log
@@ -305,7 +305,7 @@ GeckoSharedPrefs
 .
 forApp
 (
-applicationContext
+mApplicationContext
 )
 .
 unregisterOnSharedPreferenceChangeListener
@@ -317,11 +317,11 @@ stop
 (
 )
 ;
-applicationContext
+mApplicationContext
 =
 null
 ;
-initialized
+mInitialized
 =
 false
 ;
@@ -335,7 +335,7 @@ start
 {
 if
 (
-running
+mRunning
 )
 {
 return
@@ -344,7 +344,7 @@ return
 ContentResolver
 contentResolver
 =
-applicationContext
+mApplicationContext
 .
 getContentResolver
 (
@@ -381,7 +381,7 @@ contentResolver
 false
 )
 ;
-running
+mRunning
 =
 true
 ;
@@ -396,7 +396,7 @@ stop
 if
 (
 !
-running
+mRunning
 )
 {
 return
@@ -405,7 +405,7 @@ return
 ContentResolver
 contentResolver
 =
-applicationContext
+mApplicationContext
 .
 getContentResolver
 (
@@ -424,7 +424,7 @@ contentResolver
 true
 )
 ;
-running
+mRunning
 =
 false
 ;
@@ -567,7 +567,7 @@ selfChange
 {
 onSystemFontScaleChange
 (
-applicationContext
+mApplicationContext
 .
 getContentResolver
 (
