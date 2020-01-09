@@ -201,6 +201,16 @@ aFrame
 )
 ;
 static
+bool
+UsingSimpleClipPathForFrame
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsSize
 GetContinuationUnionSize
 (
