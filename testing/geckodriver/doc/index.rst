@@ -307,7 +307,7 @@ The
 mailing
 list
 for
-Marionette
+geckodriver
 discussion
 is
 tools
