@@ -1477,6 +1477,8 @@ nsString
 aPresentationURL
 nsString
 aRemoteType
+BrowsingContext
+aBrowsingContext
 )
 ;
 /

@@ -15824,6 +15824,8 @@ nsString
 const
 nsString
 &
+BrowsingContext
+*
 )
 {
 MOZ_CRASH

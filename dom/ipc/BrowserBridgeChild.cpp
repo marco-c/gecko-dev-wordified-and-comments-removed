@@ -12,6 +12,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+BrowsingContext
+.
+h
+"
+#
+include
+"
 nsFocusManager
 .
 h
@@ -58,6 +69,9 @@ BrowserBridgeChild
 nsFrameLoader
 *
 aFrameLoader
+BrowsingContext
+*
+aBrowsingContext
 )
 :
 mLayersId
@@ -71,6 +85,10 @@ true
 mFrameLoader
 (
 aFrameLoader
+)
+mBrowsingContext
+(
+aBrowsingContext
 )
 {
 }
@@ -103,6 +121,9 @@ const
 nsString
 &
 aRemoteType
+BrowsingContext
+*
+aBrowsingContext
 )
 {
 MOZ_ASSERT
@@ -180,6 +201,7 @@ new
 BrowserBridgeChild
 (
 aFrameLoader
+aBrowsingContext
 )
 ;
 tabChild
@@ -204,6 +226,7 @@ PresentationURL
 )
 )
 aRemoteType
+aBrowsingContext
 )
 ;
 browserBridge

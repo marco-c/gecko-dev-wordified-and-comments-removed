@@ -5314,6 +5314,9 @@ const
 nsString
 &
 aRemoteType
+BrowsingContext
+*
+aBrowsingContext
 )
 {
 static_cast
@@ -5330,6 +5333,13 @@ Init
 (
 aName
 aRemoteType
+CanonicalBrowsingContext
+:
+:
+Cast
+(
+aBrowsingContext
+)
 )
 ;
 return
@@ -5353,6 +5363,9 @@ const
 nsString
 &
 aRemoteType
+BrowsingContext
+*
+aBrowsingContext
 )
 {
 return
