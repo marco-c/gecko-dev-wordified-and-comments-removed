@@ -996,6 +996,7 @@ pk11_gtest
 util_gtest
 freebl_gtest
 softoken_gtest
+sysinit_gtest
 blake2b_gtest
 "
 SOURCE_DIR

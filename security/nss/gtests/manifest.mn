@@ -119,6 +119,10 @@ softoken_gtest
 \
 ssl_gtest
 \
+(
+SYSINIT_GTEST
+)
+\
 nss_bogo_shim
 \
 (

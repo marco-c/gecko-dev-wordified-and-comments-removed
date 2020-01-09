@@ -1676,6 +1676,17 @@ gyp
 :
 lowhashtest
 '
+'
+gtests
+/
+sysinit_gtest
+/
+sysinit_gtest
+.
+gyp
+:
+sysinit_gtest
+'
 ]
 }
 ]
