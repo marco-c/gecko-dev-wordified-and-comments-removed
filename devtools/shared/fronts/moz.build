@@ -154,13 +154,6 @@ framerate
 js
 '
 '
-function
--
-call
-.
-js
-'
-'
 highlighters
 .
 js

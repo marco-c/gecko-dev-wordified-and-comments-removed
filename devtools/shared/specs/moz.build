@@ -161,13 +161,6 @@ framerate
 js
 '
 '
-function
--
-call
-.
-js
-'
-'
 heap
 -
 snapshot
