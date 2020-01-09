@@ -306,10 +306,16 @@ ordered
 =
 true
 ;
+[
+EnforceRange
+]
 unsigned
 short
 maxPacketLifeTime
 ;
+[
+EnforceRange
+]
 unsigned
 short
 maxRetransmits
@@ -325,6 +331,9 @@ negotiated
 =
 false
 ;
+[
+EnforceRange
+]
 unsigned
 short
 id
