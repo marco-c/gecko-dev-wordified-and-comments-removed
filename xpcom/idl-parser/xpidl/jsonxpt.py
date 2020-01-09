@@ -209,7 +209,7 @@ nsid
 '
 :
 '
-TD_PNSIID
+TD_NSID
 '
     
 '
@@ -545,6 +545,35 @@ Native
 :
         
 if
+type
+.
+specialtype
+=
+=
+'
+nsid
+'
+and
+type
+.
+isPtr
+(
+calltype
+)
+:
+            
+return
+{
+'
+tag
+'
+:
+'
+TD_NSIDPTR
+'
+}
+        
+elif
 type
 .
 specialtype

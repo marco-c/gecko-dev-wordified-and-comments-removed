@@ -137,6 +137,9 @@ ExtendedVal
 nsXPTCMiniVariant
 mini
 ;
+nsID
+nsid
+;
 nsCString
 nscstr
 ;
