@@ -16956,6 +16956,7 @@ nsACString
 &
 )
 NO_IMPL
+;
 NS_IMETHOD
 IsPending
 (
@@ -16963,6 +16964,7 @@ bool
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetStatus
 (
@@ -16970,22 +16972,26 @@ nsresult
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 Cancel
 (
 nsresult
 )
 NO_IMPL
+;
 NS_IMETHOD
 Suspend
 (
 )
 NO_IMPL
+;
 NS_IMETHOD
 Resume
 (
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetLoadGroup
 (
@@ -16994,6 +17000,7 @@ nsILoadGroup
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetLoadGroup
 (
@@ -17001,12 +17008,14 @@ nsILoadGroup
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetLoadFlags
 (
 nsLoadFlags
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetLoadFlags
 (
@@ -17014,6 +17023,7 @@ nsLoadFlags
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetIsDocument
 (
@@ -17021,6 +17031,7 @@ bool
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetOriginalURI
 (
@@ -17029,6 +17040,7 @@ nsIURI
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetOriginalURI
 (
@@ -17036,6 +17048,7 @@ nsIURI
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetURI
 (
@@ -17073,6 +17086,7 @@ nsISupports
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetOwner
 (
@@ -17080,6 +17094,7 @@ nsISupports
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetLoadInfo
 (
@@ -17155,6 +17170,7 @@ nsIInterfaceRequestor
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetSecurityInfo
 (
@@ -17163,6 +17179,7 @@ nsISupports
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetContentType
 (
@@ -17170,6 +17187,7 @@ nsACString
 &
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetContentType
 (
@@ -17178,6 +17196,7 @@ nsACString
 &
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetContentCharset
 (
@@ -17185,6 +17204,7 @@ nsACString
 &
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetContentCharset
 (
@@ -17193,6 +17213,7 @@ nsACString
 &
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetContentLength
 (
@@ -17200,12 +17221,14 @@ int64_t
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetContentLength
 (
 int64_t
 )
 NO_IMPL
+;
 NS_IMETHOD
 Open
 (
@@ -17214,6 +17237,7 @@ nsIInputStream
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 AsyncOpen
 (
@@ -17221,6 +17245,7 @@ nsIStreamListener
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetContentDisposition
 (
@@ -17228,12 +17253,14 @@ uint32_t
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetContentDisposition
 (
 uint32_t
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetContentDispositionFilename
 (
@@ -17241,6 +17268,7 @@ nsAString
 &
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetContentDispositionFilename
 (
@@ -17249,6 +17277,7 @@ nsAString
 &
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetContentDispositionHeader
 (
@@ -17256,6 +17285,7 @@ nsACString
 &
 )
 NO_IMPL
+;
 NS_IMETHOD
 OnAuthAvailable
 (
@@ -17309,6 +17339,7 @@ mozIDOMWindowProxy
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetTopWindow
 (
@@ -17317,6 +17348,7 @@ mozIDOMWindowProxy
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetTopFrameElement
 (
@@ -17353,6 +17385,7 @@ uint64_t
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetIsContent
 (
@@ -17360,6 +17393,7 @@ bool
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetUsePrivateBrowsing
 (
@@ -17367,18 +17401,21 @@ bool
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetUsePrivateBrowsing
 (
 bool
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetPrivateBrowsing
 (
 bool
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetIsInIsolatedMozBrowserElement
 (
@@ -17386,6 +17423,7 @@ bool
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetScriptableOriginAttributes
 (
@@ -17397,6 +17435,7 @@ JS
 MutableHandleValue
 )
 NO_IMPL
+;
 NS_IMETHOD_
 (
 void
@@ -17420,12 +17459,14 @@ bool
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetRemoteTabs
 (
 bool
 )
 NO_IMPL
+;
 NS_IMETHOD
 GetUseTrackingProtection
 (
@@ -17433,12 +17474,14 @@ bool
 *
 )
 NO_IMPL
+;
 NS_IMETHOD
 SetUseTrackingProtection
 (
 bool
 )
 NO_IMPL
+;
 #
 undef
 NO_IMPL
