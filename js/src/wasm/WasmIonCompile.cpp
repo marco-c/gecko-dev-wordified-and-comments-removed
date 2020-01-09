@@ -20990,6 +20990,11 @@ Op
 RefEq
 )
 :
+#
+endif
+#
+ifdef
+ENABLE_WASM_REFTYPES
 case
 uint16_t
 (

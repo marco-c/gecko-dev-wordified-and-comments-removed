@@ -297,7 +297,7 @@ bool
 wasm
 :
 :
-HasGcSupport
+HasReftypesSupport
 (
 JSContext
 *
@@ -329,7 +329,7 @@ false
 endif
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 return
 cx
 -
@@ -11358,7 +11358,7 @@ anyref
 if
 (
 !
-HasGcSupport
+HasReftypesSupport
 (
 cx
 )
@@ -13687,12 +13687,12 @@ F64
 ;
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 }
 else
 if
 (
-HasGcSupport
+HasReftypesSupport
 (
 cx
 )

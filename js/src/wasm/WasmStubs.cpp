@@ -1289,7 +1289,7 @@ getPushSizeInBytes
 endif
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 static
 const
 unsigned
@@ -1862,7 +1862,7 @@ WasmTlsReg
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 WasmPush
 (
 masm
@@ -2083,7 +2083,7 @@ argv
 ;
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 WasmPop
 (
 masm

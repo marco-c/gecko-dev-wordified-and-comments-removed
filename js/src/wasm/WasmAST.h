@@ -7052,7 +7052,7 @@ memories_
 ;
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 uint32_t
 gcFeatureOptIn_
 ;
@@ -7122,7 +7122,7 @@ lifo
 )
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 gcFeatureOptIn_
 (
 0
@@ -7210,7 +7210,7 @@ memories_
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 bool
 addGcFeatureOptIn
 (

@@ -10506,7 +10506,7 @@ false
 endif
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 pref
 (
 "

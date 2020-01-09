@@ -88,7 +88,7 @@ cx
 )
 ;
 bool
-HasGcSupport
+HasReftypesSupport
 (
 JSContext
 *

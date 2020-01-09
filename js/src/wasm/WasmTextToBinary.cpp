@@ -242,7 +242,7 @@ Float
 Func
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 GcFeatureOptIn
 #
 endif
@@ -1546,7 +1546,7 @@ Func
 :
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 case
 GcFeatureOptIn
 :
@@ -6969,7 +6969,7 @@ g
 :
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 if
 (
 consume
@@ -25865,7 +25865,7 @@ memory
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 static
 bool
 ParseGcFeatureOptIn
@@ -29090,7 +29090,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 case
 WasmToken
 :
@@ -39070,7 +39070,7 @@ kind
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 static
 bool
 EncodeGcFeatureOptInSection
@@ -42144,7 +42144,7 @@ false
 }
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 if
 (
 !

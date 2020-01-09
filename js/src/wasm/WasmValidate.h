@@ -308,7 +308,7 @@ compilerEnv
 ;
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 HasGcTypes
 gcFeatureOptIn
 ;
@@ -423,7 +423,7 @@ compilerEnv
 )
 #
 ifdef
-ENABLE_WASM_GC
+ENABLE_WASM_REFTYPES
 gcFeatureOptIn
 (
 HasGcTypes
