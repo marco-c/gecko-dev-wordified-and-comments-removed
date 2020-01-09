@@ -405,9 +405,7 @@ click
 )
 ;
 await
-TestUtils
-.
-waitForCondition
+promiseWaitForCondition
 (
 (
 )
