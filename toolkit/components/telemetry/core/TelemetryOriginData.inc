@@ -1,15 +1,6 @@
 ORIGIN
 (
 "
-PAGELOAD
-"
-"
-PAGELOAD
-"
-)
-ORIGIN
-(
-"
 advertstream
 .
 com
