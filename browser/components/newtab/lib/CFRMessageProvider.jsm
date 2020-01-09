@@ -1163,6 +1163,11 @@ template
 "
 cfr_doorhanger
 "
+category
+:
+"
+cfrAddons
+"
 content
 :
 {
@@ -1458,7 +1463,7 @@ category
 "
 general
 -
-cfr
+cfraddons
 "
 origin
 :
@@ -1582,6 +1587,11 @@ template
 :
 "
 cfr_doorhanger
+"
+category
+:
+"
+cfrAddons
 "
 content
 :
@@ -1884,7 +1894,7 @@ category
 "
 general
 -
-cfr
+cfraddons
 "
 origin
 :
@@ -2008,6 +2018,11 @@ template
 :
 "
 cfr_doorhanger
+"
+category
+:
+"
+cfrAddons
 "
 content
 :
@@ -2307,7 +2322,7 @@ category
 "
 general
 -
-cfr
+cfraddons
 "
 origin
 :
@@ -2431,6 +2446,11 @@ template
 :
 "
 cfr_doorhanger
+"
+category
+:
+"
+cfrAddons
 "
 exclude
 :
@@ -2745,7 +2765,7 @@ category
 "
 general
 -
-cfr
+cfraddons
 "
 origin
 :
@@ -2869,6 +2889,11 @@ template
 :
 "
 cfr_doorhanger
+"
+category
+:
+"
+cfrAddons
 "
 exclude
 :
@@ -3173,7 +3198,7 @@ category
 "
 general
 -
-cfr
+cfraddons
 "
 origin
 :
@@ -3297,6 +3322,11 @@ template
 :
 "
 cfr_doorhanger
+"
+category
+:
+"
+cfrFeatures
 "
 exclude
 :
@@ -3513,7 +3543,7 @@ category
 "
 general
 -
-cfr
+cfrfeatures
 "
 origin
 :
