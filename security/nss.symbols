@@ -161,7 +161,7 @@ include
 .
 .
 /
-db
+third_party
 /
 sqlite3
 /

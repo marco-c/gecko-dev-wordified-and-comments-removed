@@ -124,7 +124,7 @@ DIRS
 .
 .
 /
-db
+third_party
 /
 sqlite3
 /
@@ -182,7 +182,7 @@ SYMBOLS_FILE
 =
 '
 /
-db
+third_party
 /
 sqlite3
 /

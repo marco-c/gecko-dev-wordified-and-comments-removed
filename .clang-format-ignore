@@ -503,14 +503,6 @@ ppapi
 /
 .
 *
-db
-/
-sqlite3
-/
-src
-/
-.
-*
 devtools
 /
 client
