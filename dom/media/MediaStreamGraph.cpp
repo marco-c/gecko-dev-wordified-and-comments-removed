@@ -20683,7 +20683,6 @@ AssertOnGraphThreadOrNotRunning
 (
 )
 ;
-*
 static_cast
 <
 MediaStreamGraphImpl
@@ -20697,15 +20696,6 @@ this
 mPendingUpdateRunnables
 .
 AppendElement
-(
-)
-=
-AbstractMainThread
-(
-)
--
->
-CreateDirectTaskDrainer
 (
 std
 :
