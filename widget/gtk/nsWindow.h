@@ -1804,6 +1804,11 @@ WaylandSurfaceNeedsClear
 (
 )
 ;
+bool
+WaylandRequestsUpdatingEGLSurface
+(
+)
+;
 #
 endif
 virtual

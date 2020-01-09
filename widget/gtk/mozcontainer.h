@@ -162,6 +162,9 @@ gboolean
 surface_needs_clear
 ;
 gboolean
+egl_surface_needs_update
+;
+gboolean
 ready_to_draw
 ;
 #
@@ -263,6 +266,14 @@ container
 GtkAllocation
 *
 aAllocation
+)
+;
+gboolean
+moz_container_egl_surface_needs_update
+(
+MozContainer
+*
+container
 )
 ;
 #
