@@ -198,11 +198,6 @@ UrlClassifierFeatureLoginReputation
 cpp
 '
 '
-UrlClassifierFeaturePhishingProtection
-.
-cpp
-'
-'
 UrlClassifierFeatureResult
 .
 cpp
