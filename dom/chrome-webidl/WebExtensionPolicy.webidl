@@ -622,6 +622,7 @@ false
 [
 Pure
 ]
+readonly
 attribute
 boolean
 privateBrowsingAllowed
@@ -1172,11 +1173,6 @@ DOMString
 backgroundScripts
 =
 null
-;
-boolean
-privateBrowsingAllowed
-=
-true
 ;
 }
 ;

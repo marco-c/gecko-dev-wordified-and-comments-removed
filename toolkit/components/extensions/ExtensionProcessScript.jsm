@@ -905,11 +905,6 @@ webAccessibleResources
 extension
 .
 webAccessibleResources
-privateBrowsingAllowed
-:
-extension
-.
-privateBrowsingAllowed
 contentSecurityPolicy
 :
 extension

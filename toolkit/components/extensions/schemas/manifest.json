@@ -458,6 +458,9 @@ enum
 :
 [
 "
+not_allowed
+"
+"
 spanning
 "
 ]
