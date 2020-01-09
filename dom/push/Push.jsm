@@ -329,6 +329,17 @@ askPermission
 "
 )
 ;
+let
+isHandlingUserInput
+=
+this
+.
+_window
+.
+windowUtils
+.
+isHandlingUserInput
+;
 return
 this
 .
@@ -450,6 +461,7 @@ this
 .
 _requestPermission
 (
+isHandlingUserInput
 resolve
 permissionDenied
 )
@@ -985,6 +997,7 @@ _requestPermission
 :
 function
 (
+isHandlingUserInput
 allowCallback
 cancelCallback
 )
@@ -1060,7 +1073,8 @@ principal
 this
 .
 _principal
-topLevelrincipal
+isHandlingUserInput
+topLevelPrincipal
 :
 this
 .
