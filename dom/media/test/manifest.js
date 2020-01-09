@@ -2489,7 +2489,7 @@ ogg
 type
 :
 "
-audio
+video
 /
 ogg
 "
@@ -2512,7 +2512,7 @@ ogg
 type
 :
 "
-audio
+video
 /
 ogg
 "
