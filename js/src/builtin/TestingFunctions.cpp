@@ -2729,6 +2729,15 @@ compactingEnabled
 JSGC_COMPACTING_ENABLED
 true
 )
+\
+_
+(
+"
+minLastDitchGCPeriod
+"
+JSGC_MIN_LAST_DITCH_GC_PERIOD
+true
+)
 static
 const
 struct
