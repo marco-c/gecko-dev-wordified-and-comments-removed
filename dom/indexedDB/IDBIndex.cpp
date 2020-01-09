@@ -1134,7 +1134,7 @@ autoLocale
 )
 ;
 }
-nsIGlobalObject
+nsPIDOMWindowInner
 *
 IDBIndex
 :

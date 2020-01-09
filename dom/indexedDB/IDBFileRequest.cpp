@@ -140,7 +140,7 @@ DOMRequest
 aFileHandle
 -
 >
-GetOwnerGlobal
+GetOwner
 (
 )
 )
@@ -353,7 +353,7 @@ autoJS
 .
 Init
 (
-GetOwnerGlobal
+GetOwner
 (
 )
 )
