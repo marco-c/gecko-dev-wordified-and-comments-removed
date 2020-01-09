@@ -445,6 +445,9 @@ Perspective
 "
 ZIndex
 "
+"
+TransformOrigin
+"
 ]
 item_types
 =
@@ -509,6 +512,14 @@ StyleLengthPercentage
 FromAppUnits
 (
 nscoord
+)
+;
+static
+inline
+StyleLengthPercentage
+FromPixels
+(
+CSSCoord
 )
 ;
 static
