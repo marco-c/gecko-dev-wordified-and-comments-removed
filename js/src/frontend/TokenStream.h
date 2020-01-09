@@ -7259,16 +7259,6 @@ cx
 )
 ;
 }
-inline
-void
-setFunctionStart
-(
-FunctionBox
-*
-funbox
-)
-const
-;
 }
 ;
 template
