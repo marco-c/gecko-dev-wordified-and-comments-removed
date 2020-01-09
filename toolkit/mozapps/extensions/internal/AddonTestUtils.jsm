@@ -1720,6 +1720,9 @@ testScope
 init
 (
 testScope
+enableLogging
+=
+true
 )
 {
 if
@@ -1899,6 +1902,11 @@ XREAddonAppDir
 appDirForAddons
 )
 ;
+if
+(
+enableLogging
+)
+{
 Services
 .
 prefs
@@ -1915,6 +1923,7 @@ enabled
 true
 )
 ;
+}
 Services
 .
 prefs

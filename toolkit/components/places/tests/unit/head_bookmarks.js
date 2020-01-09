@@ -93,6 +93,7 @@ AddonTestUtils
 init
 (
 this
+false
 )
 ;
 AddonTestUtils
