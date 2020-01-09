@@ -1274,6 +1274,11 @@ req
 new
 ServiceRequest
 (
+{
+mozAnon
+:
+true
+}
 )
 ;
 req
