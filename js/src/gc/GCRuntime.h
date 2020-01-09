@@ -1570,6 +1570,7 @@ bool
 isBackgroundSweeping
 (
 )
+const
 {
 return
 sweepTask
@@ -1716,6 +1717,12 @@ State
 NotActive
 ;
 }
+bool
+hasForegroundWork
+(
+)
+const
+;
 bool
 isCompactingGCEnabled
 (

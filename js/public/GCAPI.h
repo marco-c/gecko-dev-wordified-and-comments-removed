@@ -890,6 +890,16 @@ millis
 ;
 extern
 JS_PUBLIC_API
+bool
+IncrementalGCHasForegroundWork
+(
+JSContext
+*
+cx
+)
+;
+extern
+JS_PUBLIC_API
 void
 FinishIncrementalGC
 (
