@@ -4136,13 +4136,6 @@ GetPerformanceNowUnclamped
 (
 )
 ;
-void
-DidDoReflow
-(
-bool
-aInterruptible
-)
-;
 static
 void
 sReflowContinueCallback
