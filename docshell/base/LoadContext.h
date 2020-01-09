@@ -121,6 +121,12 @@ aToCopy
 .
 mUseRemoteTabs
 )
+mUseRemoteSubframes
+(
+aToCopy
+.
+mUseRemoteSubframes
+)
 mUseTrackingProtection
 (
 aToCopy
@@ -180,6 +186,12 @@ aToCopy
 .
 mUseRemoteTabs
 )
+mUseRemoteSubframes
+(
+aToCopy
+.
+mUseRemoteSubframes
+)
 mUseTrackingProtection
 (
 aToCopy
@@ -218,6 +230,8 @@ aUsePrivateBrowsing
 bool
 aUseRemoteTabs
 bool
+aUseRemoteSubframes
+bool
 aUseTrackingProtection
 const
 OriginAttributes
@@ -243,6 +257,10 @@ aIsContent
 mUseRemoteTabs
 (
 aUseRemoteTabs
+)
+mUseRemoteSubframes
+(
+aUseRemoteSubframes
 )
 mUseTrackingProtection
 (
@@ -301,6 +319,10 @@ mUseRemoteTabs
 (
 false
 )
+mUseRemoteSubframes
+(
+false
+)
 mUseTrackingProtection
 (
 false
@@ -352,6 +374,9 @@ mIsContent
 ;
 bool
 mUseRemoteTabs
+;
+bool
+mUseRemoteSubframes
 ;
 bool
 mUseTrackingProtection
