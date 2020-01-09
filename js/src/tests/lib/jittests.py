@@ -2526,6 +2526,26 @@ dirpath
 :
                 
 continue
+            
+if
+os
+.
+path
+.
+join
+(
+'
+binast
+'
+'
+invalid
+'
+)
+in
+dirpath
+:
+                
+continue
         
 for
 filename
