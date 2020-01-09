@@ -616,10 +616,6 @@ bool
 &
 aApplyConversion
 const
-bool
-&
-aIsResolvedByTRR
-const
 ResourceTimingStruct
 &
 aTiming
@@ -1882,10 +1878,6 @@ const
 bool
 &
 aApplyConversion
-const
-bool
-&
-aIsResolvedByTRR
 const
 ResourceTimingStruct
 &

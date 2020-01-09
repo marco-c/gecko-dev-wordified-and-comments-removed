@@ -549,7 +549,7 @@ mTlsFlags
 =
 0x0
 ;
-mIsTrrServiceChannel
+mTrrUsed
 =
 false
 ;
@@ -1408,9 +1408,9 @@ GetTlsFlags
 clone
 -
 >
-SetIsTrrServiceChannel
+SetTrrUsed
 (
-GetIsTrrServiceChannel
+GetTrrUsed
 (
 )
 )
@@ -1590,9 +1590,9 @@ GetTlsFlags
 clone
 -
 >
-SetIsTrrServiceChannel
+SetTrrUsed
 (
-GetIsTrrServiceChannel
+GetTrrUsed
 (
 )
 )
