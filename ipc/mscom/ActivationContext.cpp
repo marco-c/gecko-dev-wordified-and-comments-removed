@@ -32,15 +32,6 @@ include
 "
 mozilla
 /
-Unused
-.
-h
-"
-#
-include
-"
-mozilla
-/
 mscom
 /
 Utils
@@ -963,11 +954,6 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 activated
 )
-;
-Unused
-<
-<
-activated
 ;
 }
 bool
