@@ -394,14 +394,6 @@ httpd
 httpd
 .
 server_address
-                         
-"
-OOP
-"
-:
-"
-false
-"
 }
         
 for
@@ -445,6 +437,21 @@ cast
 (
 v
 )
+        
+prefs
+[
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+]
+=
+True
         
 profile
 =
@@ -529,7 +536,7 @@ warn
 env
 [
 "
-MOZ_FORCE_DISABLE_E10S
+MOZ_DISABLE_CONTENT_SANDBOX
 "
 ]
 =

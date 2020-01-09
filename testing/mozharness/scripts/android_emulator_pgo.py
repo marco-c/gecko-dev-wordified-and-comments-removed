@@ -1468,6 +1468,21 @@ cast
 v
 )
         
+prefs
+[
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+]
+=
+False
+        
 outputdir
 =
 self
