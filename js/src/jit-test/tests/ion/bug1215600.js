@@ -1,9 +1,3 @@
-|
-jit
--
-test
-|
-slow
 lfcode
 =
 Array
