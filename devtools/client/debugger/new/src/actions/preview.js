@@ -485,11 +485,8 @@ thread
 ;
 if
 (
+!
 result
-=
-=
-=
-undefined
 )
 {
 return

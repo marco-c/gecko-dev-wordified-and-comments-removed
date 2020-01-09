@@ -203,6 +203,11 @@ ThunkArgs
 =
 >
 {
+if
+(
+type
+)
+{
 const
 thread
 =
@@ -240,6 +245,7 @@ thread
 }
 )
 ;
+}
 }
 ;
 }

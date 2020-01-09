@@ -147,10 +147,6 @@ reverseStepIn
 "
 reverseStepOut
 "
-|
-"
-expression
-"
 ;
 type
 ThreadPauseState

@@ -15,6 +15,7 @@ environment
 const
 {
 getSelectedFrameId
+getCurrentThread
 }
 =
 require
@@ -194,6 +195,16 @@ getState
 )
 )
 ;
+const
+thread
+=
+getCurrentThread
+(
+getState
+(
+)
+)
+;
 client
 .
 evaluate
@@ -219,6 +230,7 @@ inputString
 )
 {
 frameId
+thread
 }
 )
 ;

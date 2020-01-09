@@ -115,6 +115,11 @@ foo
 frameId
 :
 null
+thread
+:
+"
+UnknownThread
+"
 }
 )
 ;
