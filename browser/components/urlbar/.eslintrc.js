@@ -132,17 +132,6 @@ requireReturnDescription
 false
 }
 ]
-"
-no
--
-unused
--
-expressions
-"
-:
-"
-error
-"
 }
 }
 ;
