@@ -93,6 +93,16 @@ CertificateTransparencyMode
 ctMode
 DistrustedCAPolicy
 distrustedCAPolicy
+const
+Vector
+<
+Vector
+<
+uint8_t
+>
+>
+&
+thirdPartyRoots
 )
 :
 mozilla
@@ -114,6 +124,7 @@ nameMatchingMode
 netscapeStepUpPolicy
 ctMode
 distrustedCAPolicy
+thirdPartyRoots
 )
 {
 }
