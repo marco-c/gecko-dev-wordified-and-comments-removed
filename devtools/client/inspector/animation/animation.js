@@ -2915,9 +2915,9 @@ this
 .
 inspector
 .
-toolbox
+inspector
 .
-highlighterUtils
+nodePicker
 .
 togglePicker
 (
