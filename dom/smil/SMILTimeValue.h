@@ -7,7 +7,9 @@ NS_SMILTIMEVALUE_H_
 #
 include
 "
-nsSMILTypes
+mozilla
+/
+SMILTypes
 .
 h
 "

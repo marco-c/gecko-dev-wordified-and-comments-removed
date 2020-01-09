@@ -308,7 +308,7 @@ void
 UpdateCachedBaseValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aBaseValue
 )
@@ -326,7 +326,7 @@ mAnimationFunctions
 bool
 mForceCompositing
 ;
-nsSMILValue
+SMILValue
 mCachedBaseValue
 ;
 }

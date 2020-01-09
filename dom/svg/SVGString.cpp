@@ -17,14 +17,16 @@ h
 #
 include
 "
-nsSVGAttrTearoffTable
+mozilla
+/
+SMILValue
 .
 h
 "
 #
 include
 "
-nsSMILValue
+nsSVGAttrTearoffTable
 .
 h
 "
@@ -419,7 +421,7 @@ dom
 :
 SVGAnimationElement
 *
-nsSMILValue
+SMILValue
 &
 aValue
 bool
@@ -428,7 +430,7 @@ aPreventCachingOfSandwich
 )
 const
 {
-nsSMILValue
+SMILValue
 val
 (
 SMILStringType
@@ -473,7 +475,7 @@ return
 NS_OK
 ;
 }
-nsSMILValue
+SMILValue
 SVGString
 :
 :
@@ -485,7 +487,7 @@ GetBaseValue
 )
 const
 {
-nsSMILValue
+SMILValue
 val
 (
 SMILStringType
@@ -573,7 +575,7 @@ SMILString
 SetAnimValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aValue
 )

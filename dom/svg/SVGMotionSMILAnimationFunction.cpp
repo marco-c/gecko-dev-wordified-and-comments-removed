@@ -82,7 +82,7 @@ h
 #
 include
 "
-SVGPathDataParser
+SVGMotionSMILPathUtils
 .
 h
 "
@@ -96,7 +96,7 @@ h
 #
 include
 "
-SVGMotionSMILPathUtils
+SVGPathDataParser
 .
 h
 "
@@ -1430,7 +1430,7 @@ double
 >
 &
 aPointDistances
-nsSMILValueArray
+SMILValueArray
 &
 aResult
 )
@@ -1543,7 +1543,7 @@ const
 nsISMILAttr
 &
 aSMILAttr
-nsSMILValueArray
+SMILValueArray
 &
 aResult
 )

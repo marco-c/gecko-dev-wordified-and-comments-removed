@@ -279,7 +279,7 @@ GetFirstFuncToAffectSandwich
 (
 )
 ;
-nsSMILValue
+SMILValue
 sandwichResultValue
 ;
 if
@@ -860,7 +860,7 @@ SMILCompositor
 UpdateCachedBaseValue
 (
 const
-nsSMILValue
+SMILValue
 &
 aBaseValue
 )

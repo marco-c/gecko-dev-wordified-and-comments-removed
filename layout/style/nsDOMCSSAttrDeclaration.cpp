@@ -600,7 +600,7 @@ const
 nsCSSPropertyID
 aPropID
 const
-nsSMILValue
+SMILValue
 &
 aValue
 )
