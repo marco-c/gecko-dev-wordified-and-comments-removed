@@ -446,6 +446,9 @@ pages
 %
 d
 iterations
+"
+                         
+"
 %
 d
 perTabPause
@@ -462,6 +465,7 @@ _pages_to_load
 self
 .
 _iterations
+                            
 self
 .
 _perTabPause
@@ -618,6 +622,7 @@ perf_file
 )
         
 except
+Exception
 :
             
 raise
@@ -1075,6 +1080,7 @@ null
 let
 memMgrSvc
 =
+            
 Cc
 [
 "
@@ -1094,6 +1100,7 @@ manager
 .
 getService
 (
+            
 Ci
 .
 nsIMemoryReporterManager
@@ -1189,6 +1196,7 @@ out
 )
         
 except
+Exception
 :
             
 self
@@ -1420,6 +1428,7 @@ arguments
 let
 dumper
 =
+            
 Cc
 [
 "
@@ -1439,6 +1448,7 @@ dumper
 .
 getService
 (
+            
 Ci
 .
 nsIMemoryInfoDumper
@@ -1511,7 +1521,7 @@ script_timeout
 if
 finished
 :
-              
+                
 checkpoint
 =
 checkpoint_path
@@ -1558,6 +1568,7 @@ out
 )
         
 except
+Exception
 :
             
 self
@@ -1736,6 +1747,7 @@ r
 let
 dumper
 =
+            
 Cc
 [
 "
@@ -1755,6 +1767,7 @@ dumper
 .
 getService
 (
+            
 Ci
 .
 nsIMemoryInfoDumper
@@ -1994,6 +2007,7 @@ out
 )
         
 except
+Exception
 :
             
 self

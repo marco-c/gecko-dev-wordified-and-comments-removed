@@ -125,9 +125,17 @@ taskcluster
 -
 testing
 /
+awsy
+-
+testing
+/
 firefox
 -
 ui
+-
+testing
+/
+geckodriver
 -
 testing
 /
