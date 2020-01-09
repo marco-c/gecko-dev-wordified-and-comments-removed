@@ -1249,6 +1249,11 @@ mInEffectSet
 =
 false
 ;
+bool
+mNeedsStyleData
+=
+false
+;
 using
 BaseValuesHashmap
 =
