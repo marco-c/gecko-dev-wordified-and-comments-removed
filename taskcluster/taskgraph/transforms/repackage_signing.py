@@ -373,18 +373,7 @@ setdefault
 '
 platform
 '
-                              
-"
-{
-}
-/
-opt
-"
-.
-format
-(
 dep_th_platform
-)
 )
         
 treeherder

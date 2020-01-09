@@ -1365,17 +1365,7 @@ setdefault
 '
 platform
 '
-"
-{
-}
-/
-opt
-"
-.
-format
-(
 dep_th_platform
-)
 )
         
 treeherder
@@ -2041,17 +2031,6 @@ magic
 mh
 -
 args
-'
-]
-=
-False
-            
-run
-[
-'
-use
--
-caches
 '
 ]
 =
