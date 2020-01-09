@@ -3471,16 +3471,6 @@ true
 name
 :
 "
-MediaStreamTrackAudioSourceNode
-"
-insecureContext
-:
-true
-}
-{
-name
-:
-"
 MediaStreamEvent
 "
 insecureContext
