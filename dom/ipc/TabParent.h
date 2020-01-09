@@ -1598,9 +1598,9 @@ aInit
 )
 override
 ;
-PRemoteFrameParent
+PBrowserBridgeParent
 *
-AllocPRemoteFrameParent
+AllocPBrowserBridgeParent
 (
 const
 nsString
@@ -1613,9 +1613,9 @@ aRemoteType
 )
 ;
 bool
-DeallocPRemoteFrameParent
+DeallocPBrowserBridgeParent
 (
-PRemoteFrameParent
+PBrowserBridgeParent
 *
 aActor
 )
@@ -1628,9 +1628,9 @@ ipc
 :
 :
 IPCResult
-RecvPRemoteFrameConstructor
+RecvPBrowserBridgeConstructor
 (
-PRemoteFrameParent
+PBrowserBridgeParent
 *
 aActor
 const

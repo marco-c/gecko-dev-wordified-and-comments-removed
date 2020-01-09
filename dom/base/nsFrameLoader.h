@@ -216,7 +216,7 @@ class
 MutableTabContext
 ;
 class
-RemoteFrameChild
+BrowserBridgeChild
 ;
 namespace
 ipc
@@ -917,9 +917,9 @@ mozilla
 dom
 :
 :
-RemoteFrameChild
+BrowserBridgeChild
 *
-GetRemoteFrameChild
+GetBrowserBridgeChild
 (
 )
 const
@@ -1384,9 +1384,9 @@ mozilla
 dom
 :
 :
-RemoteFrameChild
+BrowserBridgeChild
 >
-mRemoteFrameChild
+mBrowserBridgeChild
 ;
 mozilla
 :

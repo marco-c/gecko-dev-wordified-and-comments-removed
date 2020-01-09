@@ -168,7 +168,7 @@ PWindowGlobal
 ;
 include
 protocol
-PRemoteFrame
+PBrowserBridge
 ;
 include
 DOMTypes
@@ -1253,7 +1253,7 @@ manages
 PWindowGlobal
 ;
 manages
-PRemoteFrame
+PBrowserBridge
 ;
 both
 :
@@ -1471,7 +1471,7 @@ actor
 *
 /
 async
-PRemoteFrame
+PBrowserBridge
 (
 nsString
 aPresentationURL

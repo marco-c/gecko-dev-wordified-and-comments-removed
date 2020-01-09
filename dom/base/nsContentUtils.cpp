@@ -559,7 +559,7 @@ mozilla
 /
 dom
 /
-RemoteFrameChild
+BrowserBridgeChild
 .
 h
 "
@@ -30950,7 +30950,7 @@ aContent
 )
 |
 |
-RemoteFrameChild
+BrowserBridgeChild
 :
 :
 GetFrom
