@@ -1076,6 +1076,9 @@ remove
 )
 ;
 }
+return
+extraStyle
+;
 }
 ;
 root
