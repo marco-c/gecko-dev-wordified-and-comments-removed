@@ -122,6 +122,11 @@ isOverridden
 declaration
 .
 overridden
+isPropertyChanged
+:
+declaration
+.
+isPropertyChanged
 name
 :
 declaration

@@ -119,6 +119,11 @@ isOverridden
 PropTypes
 .
 bool
+isPropertyChanged
+:
+PropTypes
+.
+bool
 name
 :
 PropTypes
