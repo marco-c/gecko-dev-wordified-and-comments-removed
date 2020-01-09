@@ -432,6 +432,7 @@ prefs
 getBoolPref
 (
 PREF_INACTIVE_CSS_ENABLED
+false
 )
 ;
 }

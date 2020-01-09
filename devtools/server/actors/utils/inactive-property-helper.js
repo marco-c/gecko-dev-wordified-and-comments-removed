@@ -525,6 +525,7 @@ prefs
 getBoolPref
 (
 PREF_UNUSED_CSS_ENABLED
+false
 )
 ;
 }
