@@ -263,6 +263,9 @@ id
 isConnecting
 :
 true
+isConnectionFailed
+:
+false
 }
 state
 )
@@ -304,6 +307,9 @@ id
 isConnecting
 :
 false
+isConnectionFailed
+:
+false
 runtimeDetails
 }
 state
@@ -329,6 +335,9 @@ id
 isConnecting
 :
 false
+isConnectionFailed
+:
+true
 }
 state
 )
