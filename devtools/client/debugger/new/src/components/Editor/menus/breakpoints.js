@@ -1223,6 +1223,12 @@ typeof
 actions
 .
 toggleDisabledBreakpoint
+toggleBreakpointsAtLine
+:
+typeof
+actions
+.
+toggleBreakpointsAtLine
 openConditionalPanel
 :
 typeof
@@ -1279,6 +1285,11 @@ toggleDisabledBreakpoint
 actions
 .
 toggleDisabledBreakpoint
+toggleBreakpointsAtLine
+:
+actions
+.
+toggleBreakpointsAtLine
 openConditionalPanel
 :
 actions
