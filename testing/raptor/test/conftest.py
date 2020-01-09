@@ -41,7 +41,6 @@ get
 '
 SCRIPTSPATH
 '
-None
 )
 is
 not
