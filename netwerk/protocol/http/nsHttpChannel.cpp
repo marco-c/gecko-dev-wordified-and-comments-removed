@@ -1751,7 +1751,7 @@ mAuthConnectionRestartable
 (
 0
 )
-mTrackingProtectionCancellationPending
+mChannelClassifierCancellationPending
 (
 0
 )
@@ -27439,7 +27439,7 @@ MOZ_ASSERT
 mCallOnResume
 )
 ;
-mTrackingProtectionCancellationPending
+mChannelClassifierCancellationPending
 =
 1
 ;
@@ -27474,7 +27474,7 @@ if
 mAPIRedirectToURI
 )
 {
-mTrackingProtectionCancellationPending
+mChannelClassifierCancellationPending
 =
 1
 ;
@@ -27601,11 +27601,11 @@ status
 )
 {
 bool
-trackingProtectionCancellationPending
+channelClassifierCancellationPending
 =
 !
 !
-mTrackingProtectionCancellationPending
+mChannelClassifierCancellationPending
 ;
 if
 (
@@ -27618,7 +27618,7 @@ status
 )
 )
 {
-mTrackingProtectionCancellationPending
+mChannelClassifierCancellationPending
 =
 0
 ;
@@ -27727,7 +27727,7 @@ status
 else
 if
 (
-trackingProtectionCancellationPending
+channelClassifierCancellationPending
 )
 {
 Unused
@@ -30246,7 +30246,7 @@ NETWORK
 ;
 if
 (
-mTrackingProtectionCancellationPending
+mChannelClassifierCancellationPending
 )
 {
 LOG
@@ -30255,13 +30255,15 @@ LOG
 "
 Waiting
 for
-tracking
+safe
+-
+browsing
 protection
 cancellation
 in
+"
+"
 BeginConnectActual
-"
-"
 [
 this
 =
