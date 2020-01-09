@@ -900,7 +900,9 @@ Matcher
 {
 \
 type
-match
+operator
+(
+)
 (
 nsFactoryEntry
 *
@@ -912,7 +914,9 @@ ifFactory
 }
 \
 type
-match
+operator
+(
+)
 (
 const
 StaticModule

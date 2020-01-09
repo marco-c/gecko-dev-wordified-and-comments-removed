@@ -3641,7 +3641,9 @@ struct
 Matcher
 {
 bool
-match
+operator
+(
+)
 (
 Window
 aWin
@@ -3657,7 +3659,9 @@ IsTopLevelWindow
 ;
 }
 bool
-match
+operator
+(
+)
 (
 LoadInfo
 aLoadInfo
@@ -3859,7 +3863,9 @@ struct
 Matcher
 {
 bool
-match
+operator
+(
+)
 (
 Window
 aWin
@@ -3873,7 +3879,9 @@ aWin
 ;
 }
 bool
-match
+operator
+(
+)
 (
 LoadInfo
 aLoadInfo
@@ -3935,7 +3943,9 @@ struct
 Matcher
 {
 uint64_t
-match
+operator
+(
+)
 (
 Window
 aWin
@@ -3951,7 +3961,9 @@ WindowID
 ;
 }
 uint64_t
-match
+operator
+(
+)
 (
 LoadInfo
 aLoadInfo
@@ -4036,7 +4048,9 @@ mThis
 ;
 nsIPrincipal
 *
-match
+operator
+(
+)
 (
 Window
 aWin
@@ -4066,7 +4080,9 @@ NodePrincipal
 }
 nsIPrincipal
 *
-match
+operator
+(
+)
 (
 LoadInfo
 aLoadInfo

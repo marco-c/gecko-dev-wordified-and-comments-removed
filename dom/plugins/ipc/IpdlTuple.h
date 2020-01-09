@@ -745,7 +745,9 @@ typename
 EntryType
 >
 void
-match
+operator
+(
+)
 (
 const
 EntryType

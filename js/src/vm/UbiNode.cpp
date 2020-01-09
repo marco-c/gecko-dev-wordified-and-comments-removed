@@ -453,7 +453,9 @@ i
 ;
 }
 size_t
-match
+operator
+(
+)
 (
 JSAtom
 *
@@ -529,7 +531,9 @@ length
 ;
 }
 size_t
-match
+operator
+(
+)
 (
 const
 char16_t
@@ -612,7 +616,9 @@ struct
 LengthMatcher
 {
 size_t
-match
+operator
+(
+)
 (
 JSAtom
 *
@@ -633,7 +639,9 @@ length
 ;
 }
 size_t
-match
+operator
+(
+)
 (
 const
 char16_t

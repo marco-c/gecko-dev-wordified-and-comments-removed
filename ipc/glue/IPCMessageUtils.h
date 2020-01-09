@@ -4879,7 +4879,9 @@ class
 T
 >
 void
-match
+operator
+(
+)
 (
 const
 T
