@@ -183,6 +183,9 @@ class
 AudioStreamTrack
 ;
 class
+SpeechRecognitionShutdownBlocker
+;
+class
 SpeechEvent
 ;
 class
@@ -813,6 +816,12 @@ RefPtr
 SpeechTrackListener
 >
 mSpeechListener
+;
+RefPtr
+<
+SpeechRecognitionShutdownBlocker
+>
+mShutdownBlocker
 ;
 nsCOMPtr
 <
