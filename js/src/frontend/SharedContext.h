@@ -1844,6 +1844,12 @@ return
 isGenerator
 (
 )
+&
+&
+!
+isAsync
+(
+)
 ;
 }
 bool
