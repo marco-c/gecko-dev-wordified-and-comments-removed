@@ -10640,6 +10640,17 @@ aCommonAncestor
 ;
 }
 }
+void
+SerializeWithCorrectZOrder
+(
+nsDisplayList
+*
+aOutResultList
+nsIContent
+*
+aContent
+)
+;
 private
 :
 void
