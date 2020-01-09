@@ -290,6 +290,15 @@ include
 "
 mozilla
 /
+Encoding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 DocumentType

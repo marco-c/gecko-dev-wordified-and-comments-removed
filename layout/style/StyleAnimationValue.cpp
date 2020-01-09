@@ -2405,7 +2405,6 @@ result
 Servo_AnimationValue_Transform
 (
 eCSSProperty_transform
-*
 list
 )
 .
@@ -2831,7 +2830,6 @@ result
 Servo_AnimationValue_Transform
 (
 eCSSProperty_rotate
-*
 list
 )
 .
@@ -2970,7 +2968,6 @@ result
 Servo_AnimationValue_Transform
 (
 eCSSProperty_scale
-*
 list
 )
 .
@@ -3109,7 +3106,6 @@ result
 Servo_AnimationValue_Transform
 (
 eCSSProperty_translate
-*
 list
 )
 .
