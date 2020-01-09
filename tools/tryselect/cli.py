@@ -505,14 +505,11 @@ tasks
 "
 defaults
 to
-latest
+a
+default
+set
+of
 parameters
-.
-yml
-from
-mozilla
--
-central
 "
           
 }

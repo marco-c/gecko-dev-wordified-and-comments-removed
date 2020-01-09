@@ -280,18 +280,6 @@ root
 )
 :
     
-params
-=
-params
-or
-"
-project
-=
-mozilla
--
-central
-"
-    
 old_cache_dir
 =
 os
