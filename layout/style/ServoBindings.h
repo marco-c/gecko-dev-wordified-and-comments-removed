@@ -2019,7 +2019,7 @@ Servo_AnimationValue_Opacity
 float
 )
 ;
-void
+nsCSSPropertyID
 Servo_AnimationValue_GetTransform
 (
 RawServoAnimationValueBorrowed
@@ -2035,6 +2035,8 @@ list
 RawServoAnimationValueStrong
 Servo_AnimationValue_Transform
 (
+nsCSSPropertyID
+property
 const
 nsCSSValueSharedList
 &
