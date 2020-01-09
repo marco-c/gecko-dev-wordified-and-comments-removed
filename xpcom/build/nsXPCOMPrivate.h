@@ -28,6 +28,16 @@ shutdown
 -
 threads
 "
+#
+define
+NS_XPCOM_SHUTDOWN_LOADERS_OBSERVER_ID
+"
+xpcom
+-
+shutdown
+-
+loaders
+"
 namespace
 mozilla
 {
