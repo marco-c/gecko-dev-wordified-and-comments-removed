@@ -972,6 +972,15 @@ GLContext
 gl
 )
 ;
+bool
+SetForWidthAndStrideRGBA
+(
+GLsizei
+aWidth
+GLsizei
+aStride
+)
+;
 protected
 :
 void
