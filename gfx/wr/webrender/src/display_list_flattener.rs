@@ -2522,6 +2522,9 @@ ScrollFrameKind
 :
 :
 Explicit
+info
+.
+external_scroll_offset
 )
 ;
 }
@@ -3250,6 +3253,12 @@ ScrollFrameKind
 :
 :
 PipelineRoot
+LayoutVector2D
+:
+:
+zero
+(
+)
 )
 ;
 self
@@ -8736,6 +8745,12 @@ ScrollFrameKind
 :
 :
 PipelineRoot
+LayoutVector2D
+:
+:
+zero
+(
+)
 )
 ;
 }
@@ -9176,6 +9191,9 @@ ScrollSensitivity
 frame_kind
 :
 ScrollFrameKind
+external_scroll_offset
+:
+LayoutVector2D
 )
 -
 >
@@ -9197,6 +9215,7 @@ frame_rect
 content_size
 scroll_sensitivity
 frame_kind
+external_scroll_offset
 )
 ;
 self

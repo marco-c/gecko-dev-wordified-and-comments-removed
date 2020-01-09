@@ -792,7 +792,7 @@ ScrollSensitivity
 pub
 external_scroll_offset
 :
-LayoutPoint
+LayoutVector2D
 }
 #
 [

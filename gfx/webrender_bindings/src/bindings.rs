@@ -11328,6 +11328,10 @@ ScrollSensitivity
 :
 Script
 scroll_offset
+.
+to_vector
+(
+)
 )
 ;
 WrSpaceAndClip

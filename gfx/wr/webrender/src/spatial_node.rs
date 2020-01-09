@@ -406,6 +406,9 @@ ScrollSensitivity
 frame_kind
 :
 ScrollFrameKind
+external_scroll_offset
+:
+LayoutVector2D
 )
 -
 >
@@ -471,6 +474,7 @@ max
 )
 external_id
 frame_kind
+external_scroll_offset
 )
 )
 ;
@@ -2994,6 +2998,10 @@ pub
 frame_kind
 :
 ScrollFrameKind
+pub
+external_scroll_offset
+:
+LayoutVector2D
 }
 impl
 ScrollFrameInfo
@@ -3020,6 +3028,9 @@ ExternalScrollId
 frame_kind
 :
 ScrollFrameKind
+external_scroll_offset
+:
+LayoutVector2D
 )
 -
 >
@@ -3040,6 +3051,7 @@ scroll_sensitivity
 scrollable_size
 external_id
 frame_kind
+external_scroll_offset
 }
 }
 pub
@@ -3120,6 +3132,11 @@ frame_kind
 self
 .
 frame_kind
+external_scroll_offset
+:
+self
+.
+external_scroll_offset
 }
 }
 }

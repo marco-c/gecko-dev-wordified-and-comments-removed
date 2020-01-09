@@ -8600,7 +8600,7 @@ clip_rect
 )
 )
 ;
-point_node
+vector_node
 (
 &
 mut
