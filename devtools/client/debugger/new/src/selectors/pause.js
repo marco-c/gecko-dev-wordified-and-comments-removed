@@ -58,6 +58,7 @@ type
 {
 Frame
 SourceLocation
+ThreadId
 }
 from
 "
@@ -94,6 +95,7 @@ Selector
 string
 ]
 :
+?
 Frame
 }
 >
