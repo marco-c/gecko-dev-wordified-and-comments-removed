@@ -304,6 +304,11 @@ aRight
 ;
 public
 :
+static
+const
+nsLiteralCString
+kDummyOriginHash
+;
 ContentBlockingLog
 (
 )
