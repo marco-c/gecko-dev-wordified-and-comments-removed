@@ -115,6 +115,16 @@ nsViewSourceHandler
 cpp
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsViewSourceHandler
+.
+h
+'
+]
 FINAL_LIBRARY
 =
 '
