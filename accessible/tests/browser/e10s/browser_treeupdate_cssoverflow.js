@@ -263,6 +263,12 @@ tree
 SECTION
 :
 [
+{
+SECTION
+:
+[
+]
+}
 ]
 }
 ;
