@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -38,13 +45,6 @@ h
 include
 "
 SVGAnimatedTransformList
-.
-h
-"
-#
-include
-"
-nsCharSeparatedTokenizer
 .
 h
 "

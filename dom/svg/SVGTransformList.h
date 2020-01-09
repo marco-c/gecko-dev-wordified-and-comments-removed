@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsDebug
+nsSVGTransform
 .
 h
 "
@@ -22,13 +22,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsSVGTransform
 .
 h
 "
