@@ -760,6 +760,10 @@ log
 =
 None
                  
+download_tests
+=
+True
+                 
 download_symbols
 =
 False
@@ -787,6 +791,16 @@ self
 package_re
 )
         
+self
+.
+_tests_re
+=
+None
+        
+if
+download_tests
+:
+            
 self
 .
 _tests_re
@@ -6723,6 +6737,16 @@ False
 topsrcdir
 =
 None
+download_tests
+=
+True
+download_symbols
+=
+False
+                 
+download_host_bins
+=
+False
 )
 :
         
@@ -6764,38 +6788,6 @@ self
 _substs
 =
 substs
-        
-self
-.
-_download_symbols
-=
-self
-.
-_substs
-.
-get
-(
-'
-MOZ_ARTIFACT_BUILD_SYMBOLS
-'
-False
-)
-        
-self
-.
-_download_host_bins
-=
-self
-.
-_substs
-.
-get
-(
-'
-MOZ_AUTOMATION
-'
-False
-)
         
 self
 .
@@ -6881,17 +6873,17 @@ self
 .
 _log
                                      
+download_tests
+=
+download_tests
+                                     
 download_symbols
 =
-self
-.
-_download_symbols
+download_symbols
                                      
 download_host_bins
 =
-self
-.
-_download_host_bins
+download_host_bins
                                      
 substs
 =
