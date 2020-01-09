@@ -28,10 +28,7 @@ gecko_bindings
 structs
 :
 :
-{
-nsStyleCoord
-CounterStylePtr
-}
+StyleGridTrackBreadth
 ;
 use
 crate
@@ -43,7 +40,10 @@ gecko_bindings
 structs
 :
 :
-StyleGridTrackBreadth
+{
+nsStyleCoord
+CounterStylePtr
+}
 ;
 use
 crate
