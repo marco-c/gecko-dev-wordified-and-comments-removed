@@ -156,9 +156,6 @@ None
 visibility
 =
 None
-setup
-=
-None
 )
 :
         
@@ -253,12 +250,6 @@ self
 visibility
 =
 visibility
-        
-self
-.
-setup
-=
-setup
     
 def
 __eq__
@@ -953,23 +944,6 @@ obj
 .
 visibility
             
-if
-obj
-.
-setup
-:
-                
-rv
-[
-'
-setup
-'
-]
-=
-obj
-.
-setup
-            
 return
 rv
     
@@ -1229,17 +1203,6 @@ visibility
 None
 )
                 
-setup
-=
-obj
-.
-get
-(
-'
-setup
-'
-)
-                
 rv
 =
 FileRecord
@@ -1273,7 +1236,6 @@ algorithm
 unpack
 version
 visibility
-setup
 )
                 
 log
@@ -3456,9 +3418,6 @@ def
 unpack_file
 (
 filename
-setup
-=
-None
 )
 :
     
@@ -3819,27 +3778,6 @@ write
 checksum
 )
     
-if
-setup
-and
-not
-execute
-(
-os
-.
-path
-.
-join
-(
-base_file
-setup
-)
-)
-:
-        
-return
-False
-    
 return
 True
 def
@@ -3934,11 +3872,6 @@ unpack_files
 =
 [
 ]
-    
-setup_files
-=
-{
-}
     
 for
 f
@@ -4391,65 +4324,6 @@ f
 .
 filename
 )
-        
-if
-f
-.
-setup
-:
-            
-if
-f
-.
-unpack
-:
-                
-setup_files
-[
-f
-.
-filename
-]
-=
-f
-.
-setup
-            
-else
-:
-                
-log
-.
-error
-(
-"
-'
-setup
-'
-requires
-'
-unpack
-'
-being
-set
-for
-%
-s
-"
-%
-f
-.
-filename
-)
-                
-failed_files
-.
-append
-(
-f
-.
-filename
-)
     
 for
 localfile
@@ -4778,12 +4652,6 @@ not
 unpack_file
 (
 filename
-setup_files
-.
-get
-(
-filename
-)
 )
 :
             
