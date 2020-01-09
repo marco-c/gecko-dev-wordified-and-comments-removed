@@ -829,6 +829,12 @@ jitRealm
 initialize
 (
 cx
+zone
+(
+)
+-
+>
+allocNurseryStrings
 )
 )
 {

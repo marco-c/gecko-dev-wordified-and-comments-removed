@@ -4574,9 +4574,10 @@ discardStubs
 jitRealm
 -
 >
-stringsCanBeInNursery
-=
+setStringsCanBeInNursery
+(
 false
+)
 ;
 numNurseryStringRealmsDisabled
 +
