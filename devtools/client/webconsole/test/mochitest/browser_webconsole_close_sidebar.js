@@ -398,7 +398,7 @@ button
 )
 ;
 const
-wrapper
+appNode
 =
 hud
 .
@@ -412,9 +412,7 @@ querySelector
 .
 webconsole
 -
-output
--
-wrapper
+app
 "
 )
 ;
@@ -423,7 +421,7 @@ onSidebarShown
 =
 waitForNodeMutation
 (
-wrapper
+appNode
 {
 childList
 :
@@ -492,7 +490,7 @@ onSidebarShown
 =
 waitForNodeMutation
 (
-wrapper
+appNode
 {
 childList
 :
@@ -638,7 +636,7 @@ objectBox
 )
 ;
 const
-wrapper
+appNode
 =
 hud
 .
@@ -652,9 +650,7 @@ querySelector
 .
 webconsole
 -
-output
--
-wrapper
+app
 "
 )
 ;
@@ -663,7 +659,7 @@ onSidebarShown
 =
 waitForNodeMutation
 (
-wrapper
+appNode
 {
 childList
 :
@@ -722,7 +718,7 @@ waitFor
 )
 =
 >
-wrapper
+appNode
 .
 querySelectorAll
 (

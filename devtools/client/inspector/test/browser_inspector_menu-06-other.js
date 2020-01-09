@@ -248,7 +248,7 @@ state
 =
 webconsoleUI
 .
-consoleOutput
+wrapper
 .
 getStore
 (

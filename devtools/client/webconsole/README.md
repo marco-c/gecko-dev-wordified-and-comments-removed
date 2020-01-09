@@ -262,8 +262,6 @@ rendered
 from
 webconsole
 -
-output
--
 wrapper
 .
 js

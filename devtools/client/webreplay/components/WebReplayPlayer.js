@@ -666,7 +666,7 @@ this
 ;
 consoleFrame
 .
-consoleOutput
+wrapper
 .
 subscribeToStore
 (

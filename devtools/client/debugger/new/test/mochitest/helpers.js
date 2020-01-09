@@ -7277,7 +7277,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 once
 (
@@ -7303,7 +7303,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 owner
 .
@@ -7337,7 +7337,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 owner
 .

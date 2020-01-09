@@ -334,8 +334,10 @@ store
 =
 null
 ;
-function
-WebConsoleOutputWrapper
+class
+WebConsoleWrapper
+{
+constructor
 (
 parentNode
 hud
@@ -431,14 +433,7 @@ Telemetry
 )
 ;
 }
-WebConsoleOutputWrapper
-.
-prototype
-=
-{
 init
-:
-function
 (
 )
 {
@@ -2172,8 +2167,6 @@ resolve
 ;
 }
 dispatchMessageAdd
-:
-function
 (
 packet
 waitForResponse
@@ -2320,8 +2313,6 @@ promise
 ;
 }
 dispatchMessagesAdd
-:
-function
 (
 messages
 )
@@ -2335,8 +2326,6 @@ messages
 ;
 }
 dispatchMessagesClear
-:
-function
 (
 )
 {
@@ -2387,8 +2376,6 @@ cleared
 ;
 }
 dispatchPrivateMessagesClear
-:
-function
 (
 )
 {
@@ -2605,8 +2592,6 @@ privateMessagesClear
 ;
 }
 dispatchTimestampsToggle
-:
-function
 (
 enabled
 )
@@ -2625,8 +2610,6 @@ enabled
 ;
 }
 dispatchPaused
-:
-function
 (
 _
 packet
@@ -2656,8 +2639,6 @@ executionPoint
 }
 }
 dispatchProgress
-:
-function
 (
 _
 packet
@@ -2694,8 +2675,6 @@ point
 ;
 }
 dispatchMessageUpdate
-:
-function
 (
 message
 res
@@ -2794,8 +2773,6 @@ message
 }
 }
 dispatchRequestUpdate
-:
-function
 (
 id
 data
@@ -2813,8 +2790,6 @@ data
 ;
 }
 dispatchSidebarClose
-:
-function
 (
 )
 {
@@ -2831,8 +2806,6 @@ sidebarClose
 ;
 }
 dispatchSplitConsoleCloseButtonToggle
-:
-function
 (
 )
 {
@@ -2865,8 +2838,6 @@ webconsole
 ;
 }
 dispatchTabWillNavigate
-:
-function
 (
 packet
 )
@@ -2948,8 +2919,6 @@ WILL_NAVIGATE
 }
 }
 batchedMessageUpdates
-:
-function
 (
 info
 )
@@ -2971,8 +2940,6 @@ setTimeoutIfNeeded
 ;
 }
 batchedRequestUpdates
-:
-function
 (
 message
 )
@@ -2994,8 +2961,6 @@ setTimeoutIfNeeded
 ;
 }
 batchedMessageAdd
-:
-function
 (
 message
 )
@@ -3017,8 +2982,6 @@ setTimeoutIfNeeded
 ;
 }
 batchedMessagesAdd
-:
-function
 (
 messages
 )
@@ -3044,8 +3007,6 @@ setTimeoutIfNeeded
 ;
 }
 dispatchClearHistory
-:
-function
 (
 )
 {
@@ -3062,8 +3023,6 @@ clearHistory
 ;
 }
 waitAsyncDispatches
-:
-function
 (
 )
 {
@@ -3090,8 +3049,6 @@ throttledDispatchPromise
 ;
 }
 setTimeoutIfNeeded
-:
-function
 (
 )
 {
@@ -3351,8 +3308,6 @@ done
 ;
 }
 getStore
-:
-function
 (
 )
 {
@@ -3361,8 +3316,6 @@ store
 ;
 }
 subscribeToStore
-:
-function
 (
 callback
 )
@@ -3400,10 +3353,9 @@ closeSplitConsole
 ;
 }
 }
-;
 module
 .
 exports
 =
-WebConsoleOutputWrapper
+WebConsoleWrapper
 ;

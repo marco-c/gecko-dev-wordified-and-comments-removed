@@ -787,7 +787,7 @@ expectMutation
 )
 {
 const
-wrapper
+appNode
 =
 hud
 .
@@ -801,9 +801,7 @@ querySelector
 .
 webconsole
 -
-output
--
-wrapper
+app
 "
 )
 ;
@@ -812,7 +810,7 @@ onSidebarShown
 =
 waitForNodeMutation
 (
-wrapper
+appNode
 {
 childList
 :

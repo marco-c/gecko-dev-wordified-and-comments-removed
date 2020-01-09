@@ -784,7 +784,7 @@ this
 .
 webConsoleFrame
 .
-consoleOutput
+wrapper
 .
 dispatchMessageAdd
 (
@@ -803,7 +803,7 @@ this
 .
 webConsoleFrame
 .
-consoleOutput
+wrapper
 .
 dispatchMessagesAdd
 (
@@ -823,7 +823,7 @@ this
 .
 webConsoleFrame
 .
-consoleOutput
+wrapper
 .
 dispatchMessageUpdate
 (
@@ -844,7 +844,7 @@ this
 .
 webConsoleFrame
 .
-consoleOutput
+wrapper
 .
 dispatchRequestUpdate
 (

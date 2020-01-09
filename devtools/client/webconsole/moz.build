@@ -184,8 +184,6 @@ js
 '
 webconsole
 -
-output
--
 wrapper
 .
 js

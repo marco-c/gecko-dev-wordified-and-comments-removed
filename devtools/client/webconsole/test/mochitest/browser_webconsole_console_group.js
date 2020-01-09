@@ -82,7 +82,7 @@ hud
 .
 ui
 .
-consoleOutput
+wrapper
 .
 getStore
 (

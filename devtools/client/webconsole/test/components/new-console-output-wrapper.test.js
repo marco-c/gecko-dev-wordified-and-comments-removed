@@ -61,7 +61,7 @@ helpers
 )
 ;
 const
-WebConsoleOutputWrapper
+WebConsoleWrapper
 =
 require
 (
@@ -73,8 +73,6 @@ client
 webconsole
 /
 webconsole
--
-output
 -
 wrapper
 "
@@ -102,7 +100,7 @@ messages
 ;
 async
 function
-getWebConsoleOutputWrapper
+getWebConsoleWrapper
 (
 )
 {
@@ -154,7 +152,7 @@ const
 wcow
 =
 new
-WebConsoleOutputWrapper
+WebConsoleWrapper
 (
 null
 hud
@@ -203,7 +201,7 @@ const
 ncow
 =
 await
-getWebConsoleOutputWrapper
+getWebConsoleWrapper
 (
 )
 ;
@@ -329,7 +327,7 @@ const
 ncow
 =
 await
-getWebConsoleOutputWrapper
+getWebConsoleWrapper
 (
 )
 ;
@@ -425,7 +423,7 @@ const
 ncow
 =
 await
-getWebConsoleOutputWrapper
+getWebConsoleWrapper
 (
 )
 ;
@@ -678,7 +676,7 @@ const
 ncow
 =
 await
-getWebConsoleOutputWrapper
+getWebConsoleWrapper
 (
 )
 ;
