@@ -2106,7 +2106,7 @@ if
 let
 Ok
 (
-lop
+lp
 )
 =
 input
@@ -2137,7 +2137,7 @@ ShapeRadius
 :
 Length
 (
-lop
+lp
 )
 )
 ;

@@ -536,7 +536,7 @@ PositionComponent
 Side
 (
 x_keyword
-lop
+lp
 )
 )
 =
@@ -573,7 +573,7 @@ PositionComponent
 Side
 (
 x_keyword
-lop
+lp
 )
 ;
 let
@@ -616,7 +616,7 @@ parse
 )
 {
 let
-y_lop
+y_lp
 =
 input
 .
@@ -649,7 +649,7 @@ PositionComponent
 Side
 (
 x_keyword
-lop
+lp
 )
 ;
 let
@@ -661,7 +661,7 @@ PositionComponent
 Side
 (
 y_keyword
-y_lop
+y_lp
 )
 ;
 return
@@ -693,7 +693,7 @@ None
 let
 y_pos
 =
-lop
+lp
 .
 map_or
 (
@@ -782,7 +782,7 @@ if
 let
 Ok
 (
-y_lop
+y_lp
 )
 =
 input
@@ -811,7 +811,7 @@ PositionComponent
 :
 Length
 (
-y_lop
+y_lp
 )
 ;
 return
@@ -892,7 +892,7 @@ input
 ?
 ;
 let
-lop_and_x_pos
+lp_and_x_pos
 :
 Result
 <
@@ -909,7 +909,7 @@ i
 |
 {
 let
-y_lop
+y_lp
 =
 i
 .
@@ -951,7 +951,7 @@ parse
 )
 {
 let
-x_lop
+x_lp
 =
 i
 .
@@ -984,14 +984,14 @@ PositionComponent
 Side
 (
 x_keyword
-x_lop
+x_lp
 )
 ;
 return
 Ok
 (
 (
-y_lop
+y_lp
 x_pos
 )
 )
@@ -1019,7 +1019,7 @@ Center
 Ok
 (
 (
-y_lop
+y_lp
 x_pos
 )
 )
@@ -1031,12 +1031,12 @@ let
 Ok
 (
 (
-y_lop
+y_lp
 x_pos
 )
 )
 =
-lop_and_x_pos
+lp_and_x_pos
 {
 let
 y_pos
@@ -1047,7 +1047,7 @@ PositionComponent
 Side
 (
 y_keyword
-y_lop
+y_lp
 )
 ;
 return
@@ -1191,7 +1191,7 @@ PositionComponent
 Length
 (
 ref
-y_lop
+y_lp
 )
 )
 =
@@ -1215,7 +1215,7 @@ top
 )
 ?
 ;
-y_lop
+y_lp
 .
 to_css
 (
@@ -1230,7 +1230,7 @@ PositionComponent
 Length
 (
 ref
-x_lop
+x_lp
 )
 y_pos
 &
@@ -1259,7 +1259,7 @@ left
 )
 ?
 ;
-x_lop
+x_lp
 .
 to_css
 (
@@ -1469,7 +1469,7 @@ if
 let
 Ok
 (
-lop
+lp
 )
 =
 input
@@ -1498,7 +1498,7 @@ PositionComponent
 :
 Length
 (
-lop
+lp
 )
 )
 ;
@@ -1517,7 +1517,7 @@ input
 ?
 ;
 let
-lop
+lp
 =
 input
 .
@@ -1549,7 +1549,7 @@ PositionComponent
 Side
 (
 keyword
-lop
+lp
 )
 )
 }
@@ -2301,7 +2301,7 @@ if
 let
 Ok
 (
-y_lop
+y_lp
 )
 =
 input
@@ -2336,7 +2336,7 @@ OriginComponent
 :
 Length
 (
-y_lop
+y_lp
 )
 )
 )
@@ -2439,7 +2439,7 @@ if
 let
 Ok
 (
-y_lop
+y_lp
 )
 =
 input
@@ -2468,7 +2468,7 @@ OriginComponent
 :
 Length
 (
-y_lop
+y_lp
 )
 ;
 return

@@ -385,18 +385,18 @@ array
 pub
 unsafe
 fn
-set_lop
+set_length_percentage
 (
 &
 mut
 self
-lop
+lp
 :
 LengthPercentage
 )
 {
 if
-lop
+lp
 .
 was_calc
 {
@@ -407,7 +407,7 @@ bindings
 Gecko_CSSValue_SetCalc
 (
 self
-lop
+lp
 .
 into
 (
@@ -417,7 +417,7 @@ into
 debug_assert
 !
 (
-lop
+lp
 .
 percentage
 .
@@ -426,7 +426,7 @@ is_none
 )
 |
 |
-lop
+lp
 .
 unclamped_length
 (
@@ -448,7 +448,7 @@ Some
 p
 )
 =
-lop
+lp
 .
 percentage
 {
@@ -467,7 +467,7 @@ self
 .
 set_px
 (
-lop
+lp
 .
 unclamped_length
 (
@@ -526,7 +526,7 @@ unit_value
 pub
 unsafe
 fn
-get_lop
+get_length_percentage
 (
 &
 self
