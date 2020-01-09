@@ -1145,6 +1145,8 @@ if
 !
 willChange
 .
+features
+.
 IsEmpty
 (
 )
@@ -1171,6 +1173,8 @@ i
 i
 <
 willChange
+.
+features
 .
 Length
 (
@@ -1199,9 +1203,19 @@ nsDependentAtomString
 buffer
 (
 willChange
+.
+features
+.
+AsSpan
+(
+)
 [
 i
 ]
+.
+AsAtom
+(
+)
 )
 ;
 aStream
