@@ -34,12 +34,12 @@ onmessage
 =
 function
 (
-event
+ev
 )
 {
 postMessage
 (
-event
+ev
 .
 data
 )
@@ -60,6 +60,7 @@ data
 return
 ;
 }
+let
 status
 =
 false
@@ -258,7 +259,6 @@ status
 =
 false
 ;
-var
 url
 =
 null
@@ -315,7 +315,6 @@ status
 =
 false
 ;
-var
 url
 =
 null
@@ -373,10 +372,8 @@ URL
 .
 createObjectURL
 (
-new
-Object
-(
-)
+{
+}
 )
 ;
 }
