@@ -1512,6 +1512,9 @@ configure
 '
 )
         
+try
+:
+            
 sandbox
 .
 include_file
@@ -1530,7 +1533,7 @@ configure
 '
 )
 )
-        
+            
 sandbox
 .
 _value_for
@@ -1542,10 +1545,10 @@ mozconfig_options
 '
 ]
 )
-        
+            
 return
 (
-            
+                
 sandbox
 .
 _value_for
@@ -1557,7 +1560,7 @@ mozconfig
 '
 ]
 )
-            
+                
 sandbox
 .
 _value_for
@@ -1569,8 +1572,23 @@ real_target
 '
 ]
 )
-        
+            
 )
+        
+except
+SystemExit
+:
+            
+print
+(
+out
+.
+getvalue
+(
+)
+)
+            
+raise
     
 property
     
