@@ -318,7 +318,7 @@ MIN_DOWNSCALING_RT_SIZE
 :
 i32
 =
-128
+8
 ;
 fn
 render_task_sanity_check
