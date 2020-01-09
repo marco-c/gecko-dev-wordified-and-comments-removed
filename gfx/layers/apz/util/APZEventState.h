@@ -54,6 +54,17 @@ include
 "
 mozilla
 /
+layers
+/
+TouchCounter
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -375,6 +386,9 @@ mActiveElementManager
 ContentReceivedInputBlockCallback
 mContentReceivedInputBlockCallback
 ;
+TouchCounter
+mTouchCounter
+;
 bool
 mPendingTouchPreventedResponse
 ;
@@ -386,6 +400,9 @@ mPendingTouchPreventedBlockId
 ;
 bool
 mEndTouchIsClick
+;
+bool
+mFirstTouchCancelled
 ;
 bool
 mTouchEndCancelled
