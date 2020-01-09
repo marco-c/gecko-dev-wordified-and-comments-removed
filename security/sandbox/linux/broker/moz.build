@@ -113,7 +113,7 @@ SandboxBrokerPolicyFactory
 h
 '
 ]
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [

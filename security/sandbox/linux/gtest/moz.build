@@ -91,7 +91,7 @@ Library
 sandboxtest
 '
 )
-SOURCES
+UNIFIED_SOURCES
 =
 [
 '
