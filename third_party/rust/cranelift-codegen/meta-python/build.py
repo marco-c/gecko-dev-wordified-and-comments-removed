@@ -7,13 +7,9 @@ argparse
 import
 isa
 import
-gen_settings
-import
 gen_build_deps
 import
 gen_encoding
-import
-gen_legalizer
 import
 gen_binemit
 try
@@ -177,23 +173,7 @@ number_all_instructions
 isas
 )
     
-gen_settings
-.
-generate
-(
-isas
-out_dir
-)
-    
 gen_encoding
-.
-generate
-(
-isas
-out_dir
-)
-    
-gen_legalizer
 .
 generate
 (

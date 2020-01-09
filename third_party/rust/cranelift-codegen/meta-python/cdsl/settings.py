@@ -1241,6 +1241,11 @@ if
 globs
 :
             
+named_predicates
+=
+[
+]
+            
 for
 name
 obj
@@ -1284,14 +1289,15 @@ Predicate
 )
 :
                     
-self
-.
 named_predicates
-[
+.
+append
+(
+(
 name
-]
-=
 obj
+)
+)
                 
 if
 isinstance
@@ -1316,6 +1322,39 @@ obj
 name
 =
 name
+            
+named_predicates
+.
+sort
+(
+key
+=
+lambda
+x
+:
+x
+[
+0
+]
+)
+            
+for
+(
+name
+obj
+)
+in
+named_predicates
+:
+                
+self
+.
+named_predicates
+[
+name
+]
+=
+obj
         
 self
 .

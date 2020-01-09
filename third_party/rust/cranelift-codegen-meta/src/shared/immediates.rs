@@ -367,7 +367,7 @@ insert
 sge
 "
 "
-UnsignedGreaterThanOrEqual
+SignedGreaterThanOrEqual
 "
 )
 ;
@@ -379,7 +379,7 @@ insert
 sgt
 "
 "
-UnsignedGreaterThan
+SignedGreaterThan
 "
 )
 ;
@@ -391,7 +391,7 @@ insert
 sle
 "
 "
-UnsignedLessThanOrEqual
+SignedLessThanOrEqual
 "
 )
 ;
@@ -403,7 +403,7 @@ insert
 slt
 "
 "
-UnsignedLessThan
+SignedLessThan
 "
 )
 ;

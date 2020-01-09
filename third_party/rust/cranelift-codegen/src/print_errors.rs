@@ -228,7 +228,12 @@ errors
 mut
 w
 func
+&
 isa
+.
+into
+(
+)
 )
 .
 unwrap

@@ -24,8 +24,6 @@ cdsl
 predicates
 import
 IsUnsignedInt
-Not
-And
 from
 base
 .
@@ -99,17 +97,16 @@ narrow
 widen
 expand_flags
 from
-base
-.
-settings
-import
-allones_funcaddrs
-is_pic
-from
 .
 settings
 import
 use_sse41
+not_all_ones_funcaddrs_and_not_is_pic
+\
+    
+all_ones_funcaddrs_and_not_is_pic
+is_pic
+not_is_pic
 try
 :
     
@@ -3340,17 +3337,7 @@ fnaddr4
            
 isap
 =
-And
-(
-Not
-(
-allones_funcaddrs
-)
-Not
-(
-is_pic
-)
-)
+not_all_ones_funcaddrs_and_not_is_pic
 )
 X86_64
 .
@@ -3376,17 +3363,7 @@ w
            
 isap
 =
-And
-(
-Not
-(
-allones_funcaddrs
-)
-Not
-(
-is_pic
-)
-)
+not_all_ones_funcaddrs_and_not_is_pic
 )
 X86_32
 .
@@ -3407,14 +3384,7 @@ allones_fnaddr4
            
 isap
 =
-And
-(
-allones_funcaddrs
-Not
-(
-is_pic
-)
-)
+all_ones_funcaddrs_and_not_is_pic
 )
 X86_64
 .
@@ -3440,14 +3410,7 @@ w
            
 isap
 =
-And
-(
-allones_funcaddrs
-Not
-(
-is_pic
-)
-)
+all_ones_funcaddrs_and_not_is_pic
 )
 X86_64
 .
@@ -3525,10 +3488,7 @@ gvaddr4
            
 isap
 =
-Not
-(
-is_pic
-)
+not_is_pic
 )
 X86_64
 .
@@ -3554,10 +3514,7 @@ w
            
 isap
 =
-Not
-(
-is_pic
-)
+not_is_pic
 )
 X86_64
 .

@@ -571,6 +571,7 @@ pub
 rust_type
 :
 String
+pub
 fields
 :
 OperandKindFields

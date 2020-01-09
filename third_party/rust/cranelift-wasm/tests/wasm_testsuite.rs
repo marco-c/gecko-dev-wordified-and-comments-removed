@@ -615,6 +615,7 @@ frontend_config
 (
 )
 return_mode
+false
 )
 ;
 translate_module
