@@ -56,9 +56,6 @@ const
 char
 *
 aBuffer
-nsIDOMWindow
-*
-aWindow
 uint32_t
 aTimestamp
 )

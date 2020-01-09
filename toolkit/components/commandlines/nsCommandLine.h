@@ -161,12 +161,6 @@ nsIFile
 >
 mWorkingDir
 ;
-nsCOMPtr
-<
-nsIDOMWindow
->
-mWindowContext
-;
 bool
 mPreventDefault
 ;

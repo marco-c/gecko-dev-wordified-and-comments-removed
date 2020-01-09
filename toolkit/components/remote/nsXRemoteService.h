@@ -32,9 +32,6 @@ h
 class
 nsIDOMWindow
 ;
-class
-nsIWeakReference
-;
 #
 ifdef
 IS_BIG_ENDIAN
@@ -134,9 +131,6 @@ Time
 aEventTime
 Atom
 aChangedAtom
-nsIWeakReference
-*
-aDomWindow
 )
 ;
 void
