@@ -155,11 +155,15 @@ path
 .
 .
 /
-support
+.
+.
 /
-gecko
+xpcom
+/
+rust
 /
 nsstring
+/
 "
 }
 num
