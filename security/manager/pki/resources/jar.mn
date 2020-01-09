@@ -107,7 +107,6 @@ certViewer
 .
 js
 )
-*
 content
 /
 pippki
@@ -192,7 +191,6 @@ clientauthask
 .
 js
 )
-*
 content
 /
 pippki
