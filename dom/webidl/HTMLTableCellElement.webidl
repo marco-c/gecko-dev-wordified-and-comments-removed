@@ -301,14 +301,12 @@ vAlign
 ;
 [
 CEReactions
-SetterThrows
-]
-attribute
-[
 TreatNullAs
 =
 EmptyString
+SetterThrows
 ]
+attribute
 DOMString
 bgColor
 ;

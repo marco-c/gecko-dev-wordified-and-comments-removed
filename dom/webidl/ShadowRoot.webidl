@@ -260,13 +260,11 @@ classNames
 [
 CEReactions
 SetterThrows
-]
-attribute
-[
 TreatNullAs
 =
 EmptyString
 ]
+attribute
 DOMString
 innerHTML
 ;

@@ -166,14 +166,12 @@ HTMLElement
 {
 [
 CEReactions
-SetterThrows
-]
-attribute
-[
 TreatNullAs
 =
 EmptyString
+SetterThrows
 ]
+attribute
 DOMString
 color
 ;

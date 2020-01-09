@@ -275,10 +275,10 @@ Throws
 void
 close
 (
-optional
 [
 Clamp
 ]
+optional
 unsigned
 short
 code

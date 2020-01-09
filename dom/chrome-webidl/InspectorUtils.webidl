@@ -168,12 +168,12 @@ getCSSStyleRules
 (
 Element
 element
-optional
 [
 TreatNullAs
 =
 EmptyString
 ]
+optional
 DOMString
 pseudo
 =
@@ -261,12 +261,12 @@ rule
 unsigned
 long
 selectorIndex
-optional
 [
 TreatNullAs
 =
 EmptyString
 ]
+optional
 DOMString
 pseudo
 =

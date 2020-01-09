@@ -152,12 +152,12 @@ this
 .
 stringifier
 ;
-attribute
 [
 TreatNullAs
 =
 EmptyString
 ]
+attribute
 DOMString
 mediaText
 ;

@@ -430,10 +430,10 @@ mozGetAll
 optional
 any
 key
-optional
 [
 EnforceRange
 ]
+optional
 unsigned
 long
 limit
@@ -448,10 +448,10 @@ mozGetAllKeys
 optional
 any
 key
-optional
 [
 EnforceRange
 ]
+optional
 unsigned
 long
 limit
@@ -466,10 +466,10 @@ getAll
 optional
 any
 key
-optional
 [
 EnforceRange
 ]
+optional
 unsigned
 long
 limit
@@ -484,10 +484,10 @@ getAllKeys
 optional
 any
 key
-optional
 [
 EnforceRange
 ]
+optional
 unsigned
 long
 limit

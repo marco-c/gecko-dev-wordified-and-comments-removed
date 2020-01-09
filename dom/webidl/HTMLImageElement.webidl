@@ -409,14 +409,12 @@ longDesc
 ;
 [
 CEReactions
-SetterThrows
-]
-attribute
-[
 TreatNullAs
 =
 EmptyString
+SetterThrows
 ]
+attribute
 DOMString
 border
 ;
