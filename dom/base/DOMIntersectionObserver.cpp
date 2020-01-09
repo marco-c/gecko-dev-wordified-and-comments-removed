@@ -1500,6 +1500,12 @@ GetPrimaryFrame
 (
 )
 ;
+nsIFrame
+*
+originalTargetFrame
+=
+targetFrame
+;
 nsRect
 targetRect
 ;
@@ -1841,7 +1847,7 @@ nsPresContext
 *
 presContext
 =
-targetFrame
+originalTargetFrame
 -
 >
 PresContext
