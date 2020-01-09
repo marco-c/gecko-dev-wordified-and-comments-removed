@@ -776,7 +776,7 @@ false
 }
 capacity_
 =
-NurseryChunkUsableSize
+SubChunkLimit
 ;
 setCurrentChunk
 (
