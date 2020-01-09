@@ -1155,9 +1155,11 @@ var
 -
 theme
 -
-content
+text
 -
-color1
+color
+-
+strong
 )
 ;
 }
@@ -1217,9 +1219,11 @@ var
 -
 theme
 -
-content
+text
 -
-color1
+color
+-
+strong
 )
 ;
 }

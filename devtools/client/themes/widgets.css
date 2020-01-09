@@ -3230,9 +3230,11 @@ var
 -
 theme
 -
-content
+text
 -
-color1
+color
+-
+strong
 )
 ;
 }
@@ -3291,9 +3293,11 @@ var
 -
 theme
 -
-content
+body
 -
-color3
+color
+-
+alt
 )
 ;
 }

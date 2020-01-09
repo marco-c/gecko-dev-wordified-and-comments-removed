@@ -515,9 +515,9 @@ var
 -
 theme
 -
-content
+body
 -
-color2
+color
 )
 ;
 }
@@ -1427,9 +1427,11 @@ var
 -
 theme
 -
-content
+text
 -
-color1
+color
+-
+strong
 )
 ;
 }
