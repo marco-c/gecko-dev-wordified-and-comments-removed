@@ -56,6 +56,13 @@ StaticPrefs
 .
 h
 "
+#
+include
+"
+VideoUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -2534,6 +2541,11 @@ false
 }
 if
 (
+OnCellularConnection
+(
+)
+&
+&
 Preferences
 :
 :
@@ -2543,6 +2555,8 @@ GetBool
 media
 .
 throttle
+-
+cellular
 -
 regardless
 -
