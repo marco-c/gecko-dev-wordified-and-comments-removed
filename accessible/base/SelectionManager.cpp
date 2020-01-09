@@ -383,7 +383,7 @@ SelectionManager
 :
 AddDocSelectionListener
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -453,7 +453,7 @@ SelectionManager
 :
 RemoveDocSelectionListener
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )

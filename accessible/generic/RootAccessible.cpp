@@ -304,7 +304,7 @@ RootAccessible
 Document
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -2201,13 +2201,14 @@ Shutdown
 {
 if
 (
-!
-PresShell
+HasShutdown
 (
 )
 )
+{
 return
 ;
+}
 DocAccessibleWrap
 :
 :

@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 TabChild
@@ -101,7 +110,7 @@ dom
 Document
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )

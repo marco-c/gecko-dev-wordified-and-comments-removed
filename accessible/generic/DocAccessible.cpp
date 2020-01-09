@@ -416,7 +416,7 @@ dom
 Document
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -1955,8 +1955,10 @@ if
 !
 mPresShell
 )
+{
 return
 ;
+}
 #
 ifdef
 A11Y_LOG
@@ -2295,6 +2297,7 @@ if
 (
 mPresShell
 )
+{
 root
 =
 mPresShell
@@ -2304,6 +2307,7 @@ GetRootFrame
 (
 )
 ;
+}
 return
 root
 ;
@@ -2354,9 +2358,6 @@ while
 document
 )
 {
-mozilla
-:
-:
 PresShell
 *
 presShell
@@ -5256,9 +5257,11 @@ if
 !
 mPresShell
 )
+{
 return
 nullptr
 ;
+}
 nsViewManager
 *
 vm

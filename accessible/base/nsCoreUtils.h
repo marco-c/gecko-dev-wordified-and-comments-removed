@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-PresShell
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Element
@@ -90,6 +81,9 @@ nsIWidget
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 dom
 {
@@ -103,6 +97,13 @@ nsCoreUtils
 {
 public
 :
+typedef
+mozilla
+:
+:
+PresShell
+PresShell
+;
 typedef
 mozilla
 :
@@ -180,7 +181,7 @@ aContent
 nsIFrame
 *
 aFrame
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIWidget
@@ -208,7 +209,7 @@ aContent
 nsIFrame
 *
 aFrame
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIWidget
@@ -394,7 +395,7 @@ aDocument
 )
 ;
 static
-nsIPresShell
+PresShell
 *
 GetPresShellFor
 (
@@ -566,7 +567,7 @@ static
 void
 ScrollTo
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent

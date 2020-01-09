@@ -675,7 +675,7 @@ aContent
 nsIFrame
 *
 aFrame
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIWidget
@@ -781,7 +781,7 @@ aContent
 nsIFrame
 *
 aFrame
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIWidget
@@ -2907,7 +2907,7 @@ nsCoreUtils
 :
 ScrollTo
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent

@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowsVersion
 .
 h
@@ -38,6 +47,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 a11y
@@ -53,7 +66,7 @@ dom
 Document
 *
 aDocument
-nsIPresShell
+PresShell
 *
 aPresShell
 )
