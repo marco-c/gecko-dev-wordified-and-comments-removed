@@ -1916,6 +1916,20 @@ self
 .
 type
 )
+            
+res
++
+=
+'
+NS_ENSURE_TRUE
+(
+inst
+NS_ERROR_FAILURE
+)
+;
+\
+n
+'
         
 else
 :
