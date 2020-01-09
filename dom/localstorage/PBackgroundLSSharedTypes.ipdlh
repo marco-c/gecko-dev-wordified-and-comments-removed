@@ -59,6 +59,9 @@ MPL
 include
 PBackgroundSharedTypes
 ;
+include
+ProtocolTypes
+;
 namespace
 mozilla
 {
@@ -90,6 +93,10 @@ LSRequestPrepareDatastoreParams
 LSRequestCommonParams
 commonParams
 ;
+nsID
+?
+clientId
+;
 }
 ;
 struct
@@ -97,6 +104,10 @@ LSRequestPrepareObserverParams
 {
 PrincipalInfo
 principalInfo
+;
+nsID
+?
+clientId
 ;
 }
 ;
