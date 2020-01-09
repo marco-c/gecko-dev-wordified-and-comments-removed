@@ -262,6 +262,11 @@ TakeResponseTrailers
 (
 )
 ;
+void
+SetH2WSConnRefTaken
+(
+)
+;
 bool
 ResponseIsComplete
 (
