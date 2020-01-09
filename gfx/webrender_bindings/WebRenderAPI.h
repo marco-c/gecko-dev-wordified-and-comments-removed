@@ -2849,6 +2849,8 @@ wr
 Shadow
 &
 aShadow
+bool
+aShouldInflate
 )
 ;
 void

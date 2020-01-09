@@ -7078,6 +7078,8 @@ wr
 Shadow
 &
 aShadow
+bool
+aShouldInflate
 )
 {
 SuspendClipLeafMerging
@@ -7093,6 +7095,7 @@ aIsBackfaceVisible
 &
 mCurrentSpaceAndClipChain
 aShadow
+aShouldInflate
 )
 ;
 }

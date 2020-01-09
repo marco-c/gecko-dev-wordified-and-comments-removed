@@ -1193,6 +1193,8 @@ wr
 Shadow
 &
 aShadow
+bool
+aInflate
 )
 {
 mBuilder
@@ -1205,6 +1207,7 @@ ClipRect
 )
 mBackfaceVisible
 aShadow
+aInflate
 )
 ;
 mHasShadows
