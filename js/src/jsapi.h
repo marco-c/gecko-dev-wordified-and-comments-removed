@@ -10463,6 +10463,14 @@ optimizations
 \
 Register
 (
+UNBOXED_OBJECTS
+"
+unboxed_objects
+"
+)
+\
+Register
+(
 SIMULATOR_ALWAYS_INTERRUPT
 "
 simulator
