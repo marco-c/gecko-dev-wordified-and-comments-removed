@@ -44,6 +44,11 @@ PropTypes
 shape
 (
 {
+isOverridden
+:
+PropTypes
+.
+bool
 name
 :
 PropTypes
