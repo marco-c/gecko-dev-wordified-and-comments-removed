@@ -45,6 +45,16 @@ panic
 abort
 "
 [
+profile
+.
+dev
+]
+panic
+=
+"
+abort
+"
+[
 patch
 .
 crates
