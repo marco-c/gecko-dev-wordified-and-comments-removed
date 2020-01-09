@@ -51518,7 +51518,6 @@ MIRType
 MagicHole
 )
 {
-{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -51527,7 +51526,6 @@ TrackedOutcome
 InitHole
 )
 ;
-}
 return
 Ok
 (
@@ -51901,7 +51899,6 @@ MIRType
 MagicHole
 )
 {
-{
 trackOptimizationOutcome
 (
 TrackedOutcome
@@ -51910,7 +51907,6 @@ TrackedOutcome
 InitHole
 )
 ;
-}
 return
 Ok
 (
