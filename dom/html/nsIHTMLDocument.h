@@ -174,14 +174,6 @@ aState
 ;
 virtual
 void
-DisableCookieAccess
-(
-)
-=
-0
-;
-virtual
-void
 TearingDownEditor
 (
 )

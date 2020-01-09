@@ -106,13 +106,6 @@ attribute
 DOMString
 domain
 ;
-[
-Throws
-]
-attribute
-DOMString
-cookie
-;
 /
 /
 DOM

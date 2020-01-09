@@ -981,12 +981,9 @@ attribute
 DOMString
 referrer
 ;
-/
-/
-(
-HTML
-only
-)
+[
+Throws
+]
 attribute
 DOMString
 cookie
