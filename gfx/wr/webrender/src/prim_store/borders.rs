@@ -1480,10 +1480,10 @@ test
 [
 cfg
 (
-target_os
+target_pointer_width
 =
 "
-linux
+64
 "
 )
 ]
@@ -1534,7 +1534,7 @@ NormalBorderTemplate
 >
 (
 )
-240
+224
 "
 NormalBorderTemplate
 size
@@ -1600,7 +1600,7 @@ ImageBorderTemplate
 >
 (
 )
-104
+88
 "
 ImageBorderTemplate
 size

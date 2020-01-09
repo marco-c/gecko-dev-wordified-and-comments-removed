@@ -3011,10 +3011,10 @@ test
 [
 cfg
 (
-target_os
+target_pointer_width
 =
 "
-linux
+64
 "
 )
 ]
@@ -3065,7 +3065,7 @@ LinearGradientTemplate
 >
 (
 )
-168
+128
 "
 LinearGradientTemplate
 size
@@ -3131,7 +3131,7 @@ RadialGradientTemplate
 >
 (
 )
-168
+136
 "
 RadialGradientTemplate
 size

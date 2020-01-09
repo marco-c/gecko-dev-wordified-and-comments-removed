@@ -782,10 +782,10 @@ test
 [
 cfg
 (
-target_os
+target_pointer_width
 =
 "
-linux
+64
 "
 )
 ]
@@ -836,7 +836,7 @@ LineDecorationTemplate
 >
 (
 )
-88
+68
 "
 LineDecorationTemplate
 size
