@@ -560,7 +560,6 @@ break
 }
 }
 }
-;
 function
 assertSchema
 (

@@ -422,7 +422,6 @@ schema
 ;
 }
 }
-;
 Log
 .
 LogEntry

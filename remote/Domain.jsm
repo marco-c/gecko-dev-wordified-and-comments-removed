@@ -144,7 +144,6 @@ chromeEventHandler
 ;
 }
 }
-;
 XPCOMUtils
 .
 defineLazyModuleGetters

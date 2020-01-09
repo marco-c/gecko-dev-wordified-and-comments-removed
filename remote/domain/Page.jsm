@@ -592,7 +592,6 @@ schema
 ;
 }
 }
-;
 Page
 .
 FrameId

@@ -198,7 +198,6 @@ data
 ;
 }
 }
-;
 class
 MessageChannelActorChild
 extends
@@ -372,4 +371,3 @@ error
 }
 }
 }
-;

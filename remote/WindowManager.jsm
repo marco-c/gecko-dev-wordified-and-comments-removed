@@ -345,7 +345,6 @@ nsIWindowMediatorListener
 ;
 }
 }
-;
 class
 TabObserver
 {
@@ -590,7 +589,6 @@ window
 {
 }
 }
-;
 class
 BrowserObserver
 {
@@ -838,7 +836,6 @@ nsIObserver
 ;
 }
 }
-;
 function
 isWindowIncluded
 (

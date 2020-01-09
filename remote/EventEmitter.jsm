@@ -668,7 +668,6 @@ args
 ;
 }
 }
-;
 function
 invoke
 (

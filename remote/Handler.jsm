@@ -276,7 +276,6 @@ targets
 ;
 }
 }
-;
 class
 ProtocolHandler
 extends
@@ -313,7 +312,6 @@ Description
 ;
 }
 }
-;
 class
 JSONWriter
 {
