@@ -3205,7 +3205,7 @@ const
 nsACString
 *
 name
-uint32_t
+uint8_t
 ty
 bool
 *
