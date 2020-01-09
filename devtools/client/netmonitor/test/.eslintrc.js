@@ -29,5 +29,16 @@ mochitests
 .
 js
 "
+"
+env
+"
+:
+{
+"
+jest
+"
+:
+true
+}
 }
 ;
