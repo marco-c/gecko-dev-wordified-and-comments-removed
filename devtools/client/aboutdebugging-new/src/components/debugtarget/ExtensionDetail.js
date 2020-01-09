@@ -180,6 +180,11 @@ propTypes
 {
 return
 {
+children
+:
+PropTypes
+.
+node
 getString
 :
 PropTypes
@@ -620,6 +625,11 @@ this
 renderManifest
 (
 )
+this
+.
+props
+.
+children
 )
 )
 ;
