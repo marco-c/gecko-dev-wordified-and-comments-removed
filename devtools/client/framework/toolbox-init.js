@@ -414,7 +414,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+PAGE
 options
 )
 ;

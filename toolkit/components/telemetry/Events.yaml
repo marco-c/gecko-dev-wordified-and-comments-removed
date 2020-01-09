@@ -2058,8 +2058,10 @@ positioning
 )
 :
 bottom
-side
+left
+right
 window
+page
 or
 other
 .
