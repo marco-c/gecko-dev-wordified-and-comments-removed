@@ -737,11 +737,10 @@ GetScriptableParent
 ;
 if
 (
-SameCOMIdentity
-(
 parent
+=
+=
 current
-)
 )
 {
 *
