@@ -1094,8 +1094,7 @@ parent
 .
 *
 /
-IPCServiceWorkerDescriptor
-?
+OptionalIPCServiceWorkerDescriptor
 controller
 ;
 nsCString
@@ -1265,8 +1264,7 @@ when
 interception
 occurs
 .
-IPCServiceWorkerDescriptor
-?
+OptionalIPCServiceWorkerDescriptor
 controller
 ;
 /
@@ -1476,8 +1474,7 @@ during
 a
 redirect
 .
-IPCServiceWorkerDescriptor
-?
+OptionalIPCServiceWorkerDescriptor
 controller
 ;
 }

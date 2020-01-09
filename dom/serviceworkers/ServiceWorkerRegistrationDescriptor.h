@@ -50,6 +50,9 @@ class
 IPCServiceWorkerRegistrationDescriptor
 ;
 class
+OptionalIPCServiceWorkerDescriptor
+;
+class
 ServiceWorkerInfo
 ;
 enum
