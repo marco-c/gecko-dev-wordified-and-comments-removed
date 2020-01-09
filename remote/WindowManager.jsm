@@ -529,6 +529,17 @@ gBrowser
 tabs
 )
 {
+if
+(
+!
+tab
+.
+linkedBrowser
+)
+{
+continue
+;
+}
 this
 .
 onTabOpen
