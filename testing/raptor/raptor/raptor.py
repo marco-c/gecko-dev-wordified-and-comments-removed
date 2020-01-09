@@ -310,6 +310,9 @@ False
 debug_mode
 =
 False
+post_startup_delay
+=
+None
 activity
 =
 None
@@ -561,7 +564,7 @@ self
 .
 post_startup_delay
 =
-30000
+post_startup_delay
         
 self
 .
@@ -621,7 +624,13 @@ self
 .
 post_startup_delay
 =
+min
+(
+self
+.
+post_startup_delay
 3000
+)
             
 self
 .
@@ -3007,6 +3016,9 @@ False
 debug_mode
 =
 False
+post_startup_delay
+=
+None
 activity
 =
 None
@@ -3032,6 +3044,8 @@ host
 power_test
 is_release_build
 debug_mode
+                        
+post_startup_delay
 )
     
 def
@@ -3414,6 +3428,9 @@ False
 debug_mode
 =
 False
+post_startup_delay
+=
+None
 activity
 =
 None
@@ -3439,6 +3456,8 @@ host
 power_test
 is_release_build
 debug_mode
+                               
+post_startup_delay
 )
     
 def
@@ -3691,6 +3710,9 @@ False
 debug_mode
 =
 False
+post_startup_delay
+=
+None
 activity
 =
 None
@@ -3716,6 +3738,8 @@ host
 power_test
 is_release_build
 debug_mode
+                               
+post_startup_delay
 )
     
 def
@@ -4026,6 +4050,9 @@ False
 debug_mode
 =
 False
+post_startup_delay
+=
+None
 activity
 =
 None
@@ -4051,6 +4078,7 @@ host
 power_test
 is_release_build
 debug_mode
+post_startup_delay
 )
         
 self
@@ -6667,6 +6695,12 @@ debug_mode
 args
 .
 debug_mode
+                          
+post_startup_delay
+=
+args
+.
+post_startup_delay
                           
 activity
 =
