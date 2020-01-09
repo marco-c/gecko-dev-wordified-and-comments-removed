@@ -107,8 +107,9 @@ result
 -
 list
 =
-Table
-list
+List
+of
+tables
 :
 {
 list
