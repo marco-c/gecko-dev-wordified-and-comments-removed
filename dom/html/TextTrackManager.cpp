@@ -152,7 +152,7 @@ LazyLogModule
 gTextTrackLog
 (
 "
-TextTrackManager
+WebVTT
 "
 )
 ;
