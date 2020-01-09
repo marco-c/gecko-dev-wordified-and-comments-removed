@@ -252,6 +252,16 @@ nothing
 ;
 prefs
 .
+setBoolPref
+(
+"
+allow_hijacking_localhost
+"
+true
+)
+;
+prefs
+.
 setCharPref
 (
 "
