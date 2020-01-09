@@ -1007,6 +1007,8 @@ aDiverged
 void
 ProcessMiddlemanCall
 (
+size_t
+aChildId
 const
 char
 *
@@ -1024,6 +1026,8 @@ aOutputData
 void
 ResetMiddlemanCalls
 (
+size_t
+aChildId
 )
 ;
 template
