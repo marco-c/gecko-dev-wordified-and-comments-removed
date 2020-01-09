@@ -227,7 +227,13 @@ stackDepth_
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 stackDepth
+(
+)
 ;
 loopDepth_
 =
@@ -395,7 +401,13 @@ MOZ_ASSERT
 bce
 -
 >
+bytecodeSection
+(
+)
+.
 stackDepth
+(
+)
 =
 =
 stackDepth_
