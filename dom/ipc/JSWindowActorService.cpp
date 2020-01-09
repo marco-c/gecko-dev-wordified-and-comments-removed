@@ -1003,6 +1003,15 @@ mAllFrames
 proto
 -
 >
+mIncludeChrome
+=
+aOptions
+.
+mIncludeChrome
+;
+proto
+-
+>
 mParent
 .
 mModuleURI
