@@ -1370,7 +1370,7 @@ nsresult
 nsCopySupport
 :
 :
-HTMLCopy
+EncodeDocumentWithContextAndPutToClipboard
 (
 Selection
 *
@@ -3908,7 +3908,7 @@ sel
 nsresult
 rv
 =
-HTMLCopy
+EncodeDocumentWithContextAndPutToClipboard
 (
 sel
 doc

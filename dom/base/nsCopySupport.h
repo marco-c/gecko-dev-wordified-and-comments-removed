@@ -83,7 +83,7 @@ ClearSelectionCache
 ;
 static
 nsresult
-HTMLCopy
+EncodeDocumentWithContextAndPutToClipboard
 (
 mozilla
 :

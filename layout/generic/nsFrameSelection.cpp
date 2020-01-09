@@ -12319,7 +12319,7 @@ return
 nsCopySupport
 :
 :
-HTMLCopy
+EncodeDocumentWithContextAndPutToClipboard
 (
 aSel
 aDoc
@@ -12528,7 +12528,7 @@ rv
 nsCopySupport
 :
 :
-HTMLCopy
+EncodeDocumentWithContextAndPutToClipboard
 (
 &
 aSelection
@@ -12547,7 +12547,7 @@ rv
 nsCopySupport
 :
 :
-HTMLCopy
+EncodeDocumentWithContextAndPutToClipboard
 (
 )
 failed
