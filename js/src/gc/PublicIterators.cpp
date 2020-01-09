@@ -19,6 +19,15 @@ h
 #
 include
 "
+gc
+/
+GCLock
+.
+h
+"
+#
+include
+"
 js
 /
 HashTable
