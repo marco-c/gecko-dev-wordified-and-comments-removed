@@ -72020,19 +72020,6 @@ jsop_dynamic_import
 (
 )
 {
-JSObject
-*
-referencingScriptSource
-=
-script
-(
-)
--
->
-sourceObject
-(
-)
-;
 MDefinition
 *
 specifier
@@ -72056,7 +72043,6 @@ New
 alloc
 (
 )
-referencingScriptSource
 specifier
 )
 ;
