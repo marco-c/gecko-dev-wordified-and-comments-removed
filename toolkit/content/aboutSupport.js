@@ -3167,6 +3167,12 @@ offMainThreadPaintEnabled
 "
 offMainThreadPaintWorkerCount
 "
+"
+lowEndMachine
+"
+"
+targetFrameRate
+"
 ]
 ;
 for
