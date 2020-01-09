@@ -5146,7 +5146,9 @@ true
 for
 (
 let
+[
 ids
+]
 of
 PlacesSyncUtils
 .

@@ -5696,7 +5696,9 @@ ensureOpenMirror
 for
 (
 let
+[
 chunk
+]
 of
 PlacesSyncUtils
 .

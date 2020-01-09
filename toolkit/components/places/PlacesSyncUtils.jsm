@@ -164,6 +164,8 @@ length
 )
 {
 yield
+[
+startIndex
 array
 .
 slice
@@ -173,6 +175,7 @@ startIndex
 +
 chunkLength
 )
+]
 ;
 startIndex
 +
@@ -907,7 +910,9 @@ nonSyncableGuids
 for
 (
 let
+[
 chunk
+]
 of
 PlacesSyncUtils
 .
