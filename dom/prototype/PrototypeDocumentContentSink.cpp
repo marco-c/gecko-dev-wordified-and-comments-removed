@@ -1585,9 +1585,10 @@ rv
 mDocument
 -
 >
-DocumentStatesChanged
+UpdateDocumentStates
 (
 NS_DOCUMENT_STATE_RTL_LOCALE
+true
 )
 ;
 nsContentUtils

@@ -5319,10 +5319,12 @@ aStateMask
 )
 ;
 void
-DocumentStatesChanged
+UpdateDocumentStates
 (
 EventStates
 aStateMask
+bool
+aNotify
 )
 ;
 void
@@ -10463,12 +10465,6 @@ aUseCounter
 ]
 ;
 }
-void
-UpdateDocumentStates
-(
-EventStates
-)
-;
 void
 RemoveDocStyleSheetsFromStyleSets
 (
