@@ -2377,15 +2377,6 @@ GetClientOffset
 (
 )
 ;
-LayoutDevicePoint
-AdjustTapToChildWidget
-(
-const
-LayoutDevicePoint
-&
-aPoint
-)
-;
 PPluginWidgetParent
 *
 AllocPPluginWidgetParent
