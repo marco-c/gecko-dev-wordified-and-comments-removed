@@ -2320,6 +2320,15 @@ lib
 CDLL
 (
 libclang
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 )
 #
 We
