@@ -275,6 +275,10 @@ length
 void
 InvalidateCache
 (
+bool
+memoryOnly
+=
+false
 )
 ;
 static
