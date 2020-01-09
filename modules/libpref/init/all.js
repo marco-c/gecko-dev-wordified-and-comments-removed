@@ -38100,11 +38100,6 @@ services
 mozilla
 .
 com
-testpilot
-.
-firefox
-.
-com
 "
 )
 ;
