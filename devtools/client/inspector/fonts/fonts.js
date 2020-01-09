@@ -2820,6 +2820,10 @@ tag
 writer
 (
 value
+.
+toString
+(
+)
 )
 ;
 }
@@ -2872,6 +2876,10 @@ property
 writer
 (
 value
+.
+toString
+(
+)
 )
 ;
 }
@@ -3172,9 +3180,6 @@ onFontPropertyUpdate
 (
 property
 value
-+
-"
-"
 unit
 )
 ;
@@ -3187,9 +3192,6 @@ onAxisUpdate
 (
 property
 value
-+
-"
-"
 )
 ;
 }

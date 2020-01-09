@@ -313,7 +313,7 @@ onFocus
 this
 .
 onFocus
-maxlength
+maxLength
 :
 PREVIEW_TEXT_MAX_LENGTH
 placeholder

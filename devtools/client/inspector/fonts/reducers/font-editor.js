@@ -419,7 +419,10 @@ axes
 .
 wght
 =
+parseFloat
+(
 weight
+)
 ;
 }
 const
@@ -487,10 +490,13 @@ axes
 .
 wdth
 =
+parseFloat
+(
 match
 [
 1
 ]
+)
 ;
 }
 return
