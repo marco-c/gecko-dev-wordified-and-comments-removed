@@ -29,6 +29,7 @@ wpttest
 from
 formatters
 import
+chromium
 wptreport
 wptscreenshot
 def
@@ -4093,6 +4094,27 @@ to
 -
 include
 )
+"
+)
+    
+commandline
+.
+log_formatters
+[
+"
+chromium
+"
+]
+=
+(
+chromium
+.
+ChromiumFormatter
+"
+Chromium
+Layout
+Tests
+format
 "
 )
     
