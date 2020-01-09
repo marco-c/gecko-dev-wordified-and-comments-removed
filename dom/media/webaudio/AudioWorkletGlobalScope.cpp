@@ -312,7 +312,7 @@ aCx
 js
 :
 :
-CheckedUnwrap
+CheckedUnwrapStatic
 (
 processorConstructor
 )
