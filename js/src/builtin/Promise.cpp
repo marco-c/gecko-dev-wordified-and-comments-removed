@@ -15707,13 +15707,7 @@ extra
 )
 {
 return
-AbruptRejectPromise
-(
-cx
-args
-resultPromise
-nullptr
-)
+false
 ;
 }
 args
