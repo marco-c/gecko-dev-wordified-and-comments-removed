@@ -374,7 +374,7 @@ browserParent
 mManager
 -
 >
-GetBrowserParent
+GetRemoteTab
 (
 )
 ;
