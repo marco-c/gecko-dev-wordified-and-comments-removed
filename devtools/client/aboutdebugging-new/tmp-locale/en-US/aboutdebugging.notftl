@@ -641,7 +641,7 @@ about
 -
 debugging
 -
-connect
+setup
 -
 title
 =
@@ -987,13 +987,13 @@ Network
 section
 of
 the
-Connect
+Setup
 page
 about
 -
 debugging
 -
-connect
+setup
 -
 network
 =
@@ -1038,7 +1038,7 @@ about
 -
 debugging
 -
-connect
+setup
 -
 network
 -
