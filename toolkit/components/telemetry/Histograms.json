@@ -132587,7 +132587,7 @@ expires_in_version
 "
 :
 "
-68
+72
 "
 "
 bug_numbers
@@ -132595,6 +132595,7 @@ bug_numbers
 :
 [
 1481716
+1523682
 ]
 "
 kind
