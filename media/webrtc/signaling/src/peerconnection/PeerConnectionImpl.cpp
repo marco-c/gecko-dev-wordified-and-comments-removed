@@ -1870,10 +1870,6 @@ c_str
 )
 )
 ;
-Close
-(
-)
-;
 }
 nsresult
 PeerConnectionImpl
