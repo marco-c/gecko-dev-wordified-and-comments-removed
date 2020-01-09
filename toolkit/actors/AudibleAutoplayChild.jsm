@@ -8,7 +8,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-AutoplayChild
+AudibleAutoplayChild
 "
 ]
 ;
@@ -32,7 +32,7 @@ jsm
 )
 ;
 class
-AutoplayChild
+AudibleAutoplayChild
 extends
 ActorChild
 {
@@ -48,7 +48,7 @@ mm
 sendAsyncMessage
 (
 "
-GloballyAutoplayBlocked
+AudibleAutoplayMediaOccurred
 "
 )
 ;
