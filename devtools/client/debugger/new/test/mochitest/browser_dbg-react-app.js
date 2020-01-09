@@ -92,11 +92,9 @@ dbg
 text
 :
 "
-Map
-\
-na
+size
 :
-2
+1
 "
 expression
 :

@@ -213,9 +213,6 @@ AstLocation
 result
 :
 Object
-extra
-:
-Object
 |
 }
 ;

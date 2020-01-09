@@ -833,7 +833,6 @@ result
 expression
 location
 cursorPos
-extra
 }
 =
 preview
@@ -915,11 +914,6 @@ popoverPos
 =
 {
 cursorPos
-}
-extra
-=
-{
-extra
 }
 onClose
 =
