@@ -141,9 +141,13 @@ complete
 "
 )
 {
-onload
-=
+addEventListener
+(
+'
+load
+'
 root_wait
+)
 ;
 }
 else

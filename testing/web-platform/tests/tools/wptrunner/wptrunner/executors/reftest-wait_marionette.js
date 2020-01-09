@@ -85,9 +85,14 @@ complete
 "
 )
 {
-onload
-=
+addEventListener
+(
+'
+load
+'
 test
+)
+;
 }
 else
 {
