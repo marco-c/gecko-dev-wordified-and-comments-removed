@@ -99,6 +99,7 @@ MallocSizeOf
 PartialEq
 PartialOrd
 ToAnimatedZero
+ToResolvedValue
 )
 ]
 pub

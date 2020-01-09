@@ -976,6 +976,7 @@ Debug
 MallocSizeOf
 PartialEq
 ToAnimatedValue
+ToResolvedValue
 ToCss
 )
 ]
@@ -3018,6 +3019,7 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -4279,6 +4281,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToCss
+ToResolvedValue
 )
 ]
 %

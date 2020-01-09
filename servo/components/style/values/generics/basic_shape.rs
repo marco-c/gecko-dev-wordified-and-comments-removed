@@ -149,6 +149,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -218,6 +219,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -260,6 +262,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -343,6 +346,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -463,6 +467,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -524,6 +529,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -580,6 +586,7 @@ PartialEq
 SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -637,6 +644,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -688,6 +696,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -743,6 +752,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -797,6 +807,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -834,6 +845,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]

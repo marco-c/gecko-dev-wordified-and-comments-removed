@@ -173,6 +173,10 @@ generics
 ;
 pub
 mod
+resolved
+;
+pub
+mod
 specified
 ;
 pub
@@ -527,6 +531,7 @@ SpecifiedValueInfo
 ToAnimatedValue
 ToComputedValue
 ToCss
+ToResolvedValue
 )
 ]
 pub
@@ -647,6 +652,7 @@ ToAnimatedValue
 ToAnimatedZero
 ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -756,6 +762,7 @@ MallocSizeOf
 PartialEq
 SpecifiedValueInfo
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -977,6 +984,7 @@ Debug
 MallocSizeOf
 SpecifiedValueInfo
 ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
