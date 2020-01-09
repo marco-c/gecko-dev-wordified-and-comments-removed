@@ -734,11 +734,6 @@ favicon
 ico
 '
 '
-gen_template
-.
-pl
-'
-'
 harness
 .
 xul
