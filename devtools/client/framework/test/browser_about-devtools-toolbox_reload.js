@@ -76,6 +76,8 @@ this
 firefox
 "
 debuggerClient
+{
+}
 )
 ;
 registerCleanupFunction
