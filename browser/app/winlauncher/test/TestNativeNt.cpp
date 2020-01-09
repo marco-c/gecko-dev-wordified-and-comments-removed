@@ -1,8 +1,6 @@
 #
 include
 "
-mozilla
-/
 NativeNt
 .
 h
@@ -288,12 +286,16 @@ mozilla
 :
 nt
 ;
+extern
+"
+C
+"
 int
-main
+wmain
 (
 int
 argc
-char
+wchar_t
 *
 argv
 [
