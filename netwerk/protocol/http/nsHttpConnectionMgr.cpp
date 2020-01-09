@@ -207,7 +207,7 @@ h
 #
 include
 "
-nsIPropertyBag
+nsIXPConnect
 .
 h
 "
@@ -2563,7 +2563,7 @@ aUpgradeListener
 {
 nsCOMPtr
 <
-nsIPropertyBag
+nsIXPConnectWrappedJS
 >
 wrapper
 =

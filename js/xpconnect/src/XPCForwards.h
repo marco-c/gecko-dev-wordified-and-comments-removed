@@ -103,8 +103,5 @@ nsXPCComponents_Utils
 class
 AutoMarkingPtr
 ;
-class
-xpcProperty
-;
 #
 endif
