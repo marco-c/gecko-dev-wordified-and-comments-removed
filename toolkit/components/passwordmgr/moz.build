@@ -340,6 +340,11 @@ LoginStore
 jsm
 '
 '
+PasswordGenerator
+.
+jsm
+'
+'
 storage
 -
 json
