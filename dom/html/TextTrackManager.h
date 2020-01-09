@@ -433,6 +433,11 @@ const
 bool
 mCueTelemetryReported
 ;
+void
+MaybeRunTimeMarchesOn
+(
+)
+;
 class
 ShutdownObserverProxy
 final
