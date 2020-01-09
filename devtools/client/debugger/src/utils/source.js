@@ -2304,9 +2304,7 @@ string
 {
 return
 /
-\
-/
-?
+^
 (
 chrome
 |

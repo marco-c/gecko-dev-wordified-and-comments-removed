@@ -22,6 +22,17 @@ collapseTree
 ;
 export
 {
+createTree
+}
+from
+"
+.
+/
+createTree
+"
+;
+export
+{
 formatTree
 }
 from
@@ -56,6 +67,7 @@ getURL
 ;
 export
 {
+sortEntireTree
 sortTree
 }
 from
@@ -67,7 +79,6 @@ sortTree
 ;
 export
 {
-createTree
 updateTree
 }
 from

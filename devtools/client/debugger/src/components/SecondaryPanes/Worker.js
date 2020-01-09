@@ -277,7 +277,7 @@ worker
 "
 :
 "
-window
+file
 "
 }
 /

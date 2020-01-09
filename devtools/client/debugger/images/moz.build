@@ -306,11 +306,6 @@ match
 svg
 '
 '
-window
-.
-svg
-'
-'
 worker
 .
 svg

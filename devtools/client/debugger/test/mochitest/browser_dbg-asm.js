@@ -67,7 +67,7 @@ sourceNodes
 )
 .
 length
-3
+2
 )
 ;
 await

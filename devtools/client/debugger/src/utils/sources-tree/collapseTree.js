@@ -81,7 +81,7 @@ if
 (
 depth
 >
-2
+1
 &
 &
 node
