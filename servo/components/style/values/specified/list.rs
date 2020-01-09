@@ -676,7 +676,6 @@ value
 )
 =
 >
-{
 value
 .
 as_ref
@@ -690,7 +689,6 @@ to_owned
 into
 (
 )
-}
 Ok
 (
 t
