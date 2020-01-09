@@ -510,6 +510,12 @@ windows
 :
 [
 ]
+macosx
+.
+*
+:
+[
+]
 test
 -
 verify
