@@ -1815,6 +1815,12 @@ hook
 '
                     
 '
+actionPerm
+'
+:
+actionPerm
+                    
+'
 hookGroupId
 '
 :
