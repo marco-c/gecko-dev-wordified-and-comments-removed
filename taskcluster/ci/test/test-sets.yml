@@ -2038,8 +2038,6 @@ common
 tests
 :
 -
-cppunit
--
 crashtest
 -
 geckoview
@@ -2136,6 +2134,8 @@ tests
 :
 -
 gtest
+-
+cppunit
 -
 jsreftest
 -
