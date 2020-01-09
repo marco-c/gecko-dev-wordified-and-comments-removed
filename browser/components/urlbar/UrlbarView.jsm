@@ -1145,11 +1145,9 @@ null
 let
 trimmedValue
 =
-this
+queryContext
 .
-input
-.
-textValue
+searchString
 .
 trim
 (
@@ -1159,11 +1157,9 @@ this
 .
 _enableOrDisableOneOffSearches
 (
-!
 trimmedValue
-|
-|
-(
+&
+&
 trimmedValue
 [
 0
@@ -1194,7 +1190,6 @@ length
 !
 =
 1
-)
 )
 )
 ;
