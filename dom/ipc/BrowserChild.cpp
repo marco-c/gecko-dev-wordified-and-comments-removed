@@ -8034,6 +8034,8 @@ mPuppetWidget
 document
 aEvent
 aGuid
+.
+mLayersId
 aInputBlockId
 )
 ;
@@ -8465,6 +8467,8 @@ mPuppetWidget
 document
 aEvent
 aGuid
+.
+mLayersId
 aInputBlockId
 )
 ;
@@ -8862,6 +8866,8 @@ mPuppetWidget
 document
 localEvent
 aGuid
+.
+mLayersId
 aInputBlockId
 )
 ;
