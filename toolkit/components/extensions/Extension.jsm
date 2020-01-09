@@ -2721,7 +2721,7 @@ perm
 !
 oldMatcher
 .
-subsumes
+subsumesDomain
 (
 new
 MatchPattern
