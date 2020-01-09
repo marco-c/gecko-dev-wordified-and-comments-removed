@@ -1866,17 +1866,6 @@ shape
 )
 ;
 void
-setLastPropertyMakeNative
-(
-JSContext
-*
-cx
-Shape
-*
-shape
-)
-;
-void
 setIsSharedMemory
 (
 )

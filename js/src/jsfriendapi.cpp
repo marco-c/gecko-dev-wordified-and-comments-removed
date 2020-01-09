@@ -1463,17 +1463,6 @@ PlainObject
 >
 (
 )
-|
-|
-obj
--
->
-is
-<
-UnboxedPlainObject
->
-(
-)
 )
 {
 *
