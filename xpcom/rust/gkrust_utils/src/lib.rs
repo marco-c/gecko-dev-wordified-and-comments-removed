@@ -56,11 +56,7 @@ new_v4
 (
 )
 .
-hyphenated
-(
-)
-.
-to_string
+to_hyphenated
 (
 )
 ;
