@@ -8212,8 +8212,12 @@ false
 return
 (
 (
-IsPrimaryFrame
+nsLayoutUtils
+:
+:
+IsPrimaryStyleFrame
 (
+this
 )
 |
 |

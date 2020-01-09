@@ -1255,6 +1255,16 @@ aStyleFrame
 )
 ;
 static
+bool
+IsPrimaryStyleFrame
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsIFrame
 *
 GetRealPrimaryFrameFor
