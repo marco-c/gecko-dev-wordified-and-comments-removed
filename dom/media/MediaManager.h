@@ -1251,6 +1251,9 @@ const
 nsACString
 &
 aOriginKey
+const
+uint64_t
+aWindowId
 )
 ;
 static
