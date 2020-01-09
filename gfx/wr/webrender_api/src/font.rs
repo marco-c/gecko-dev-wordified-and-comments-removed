@@ -1849,6 +1849,7 @@ PartialEq
 Serialize
 Ord
 PartialOrd
+MallocSizeOf
 )
 ]
 pub
