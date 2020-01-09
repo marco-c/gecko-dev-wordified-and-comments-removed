@@ -688,6 +688,11 @@ AddressResult
 CreditCardResult
 ;
 let
+isFormAutofillSearch
+=
+true
+;
+let
 pendingSearchResult
 =
 null
@@ -751,6 +756,10 @@ AUTOFILL_FIELDS_THRESHOLD
 )
 )
 {
+isFormAutofillSearch
+=
+false
+;
 if
 (
 activeInput
@@ -1028,6 +1037,11 @@ this
 result
 )
 ;
+if
+(
+isFormAutofillSearch
+)
+{
 ProfileAutocomplete
 .
 lastProfileAutoCompleteResult
@@ -1040,6 +1054,7 @@ resetInternalState
 (
 )
 ;
+}
 }
 )
 ;
