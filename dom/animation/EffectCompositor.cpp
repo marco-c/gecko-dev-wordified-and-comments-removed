@@ -373,10 +373,6 @@ const
 nsIFrame
 *
 aFrame
-const
-EffectSet
-&
-aEffects
 AnimationPerformanceWarning
 :
 :
@@ -681,8 +677,6 @@ EffectCompositor
 AllowCompositorAnimationsOnFrame
 (
 aFrame
-*
-effects
 warning
 )
 )

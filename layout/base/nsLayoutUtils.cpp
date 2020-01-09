@@ -1880,8 +1880,6 @@ EffectCompositor
 AllowCompositorAnimationsOnFrame
 (
 aFrame
-*
-effects
 warning
 )
 )
