@@ -1,5 +1,9 @@
 #
 define
+MINGW_HAS_SECURE_API
+1
+#
+define
 _WIN32_WINNT
 0x0600
 #
