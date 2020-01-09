@@ -90,6 +90,14 @@ aProgram
 )
 ;
 void
+SetProfile
+(
+nsACString
+&
+aProfile
+)
+;
+void
 LockStartup
 (
 )
@@ -111,10 +119,6 @@ aDesktopStartupID
 void
 StartupServer
 (
-const
-char
-*
-aProfile
 )
 ;
 void
@@ -149,6 +153,9 @@ mRemoteLockDir
 ;
 nsCString
 mProgram
+;
+nsCString
+mProfile
 ;
 }
 ;
