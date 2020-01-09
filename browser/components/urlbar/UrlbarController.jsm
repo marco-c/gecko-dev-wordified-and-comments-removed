@@ -1288,6 +1288,15 @@ input
 .
 startQuery
 (
+{
+searchString
+:
+this
+.
+input
+.
+textValue
+}
 )
 ;
 }
