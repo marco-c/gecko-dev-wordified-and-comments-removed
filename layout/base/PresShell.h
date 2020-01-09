@@ -2370,6 +2370,17 @@ WidgetGUIEvent
 aGUIEvent
 )
 ;
+bool
+MaybeDiscardOrDelayMouseEvent
+(
+nsIFrame
+*
+aFrameToHandleEvent
+WidgetGUIEvent
+*
+aGUIEvent
+)
+;
 MOZ_CAN_RUN_SCRIPT
 nsIFrame
 *
