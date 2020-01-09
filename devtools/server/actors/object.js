@@ -3213,12 +3213,15 @@ sources
 (
 )
 .
-getSourceActorByURL
+getSourceActorsByURL
 (
 stack
 .
 source
 )
+[
+0
+]
 ;
 }
 catch
