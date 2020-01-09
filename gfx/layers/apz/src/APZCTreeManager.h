@@ -706,6 +706,13 @@ APZTestData
 aOutData
 )
 ;
+void
+CollectTransformsForChromeMainThread
+(
+LayersId
+aRootLayerTreeId
+)
+;
 static
 LayerToParentLayerMatrix4x4
 ComputeTransformForScrollThumb

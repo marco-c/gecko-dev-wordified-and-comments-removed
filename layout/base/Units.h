@@ -1630,6 +1630,17 @@ gfx
 :
 Matrix4x4Typed
 <
+LayerPixel
+ScreenPixel
+>
+LayerToScreenMatrix4x4
+;
+typedef
+gfx
+:
+:
+Matrix4x4Typed
+<
 ScreenPixel
 ScreenPixel
 >

@@ -401,6 +401,12 @@ GetTransform
 )
 const
 ;
+LayerToScreenMatrix4x4
+GetCSSTransformToRoot
+(
+)
+const
+;
 const
 LayerIntRegion
 &

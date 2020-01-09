@@ -60,6 +60,7 @@ MultipleAsyncTransforms
 NoTransformOnLayer
 LayerIsImage
 ExternalIsScreen
+ContentProcessIsLayerInUiProcess
 }
 ;
 template
