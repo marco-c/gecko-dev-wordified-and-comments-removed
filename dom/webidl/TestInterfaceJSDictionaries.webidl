@@ -216,5 +216,12 @@ any
 >
 anySequenceMember
 ;
+record
+<
+DOMString
+object
+>
+objectRecordMember
+;
 }
 ;

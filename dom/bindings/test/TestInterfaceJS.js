@@ -328,11 +328,11 @@ anyMember
 dictOrLong
 ;
 }
-pingPongMap
+pingPongRecord
 :
 function
 (
-map
+rec
 )
 {
 return
@@ -340,7 +340,7 @@ JSON
 .
 stringify
 (
-map
+rec
 )
 ;
 }

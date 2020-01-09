@@ -91737,6 +91737,13 @@ type
 isUnion
 (
 )
+or
+               
+type
+.
+isRecord
+(
+)
 )
 :
             
@@ -91848,6 +91855,33 @@ n
 memberData
 )
             
+elif
+type
+.
+isRecord
+(
+)
+:
+                
+trace
+=
+CGGeneric
+(
+'
+TraceRecord
+(
+trc
+%
+s
+)
+;
+\
+n
+'
+%
+memberData
+)
+            
 else
 :
                 
@@ -91903,17 +91937,6 @@ IsNull
 %
 memberNullable
 )
-        
-elif
-type
-.
-isRecord
-(
-)
-:
-            
-assert
-False
         
 else
 :

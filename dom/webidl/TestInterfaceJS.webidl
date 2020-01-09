@@ -227,14 +227,14 @@ dictOrLong
 )
 ;
 DOMString
-pingPongMap
+pingPongRecord
 (
 record
 <
 DOMString
 any
 >
-map
+rec
 )
 ;
 long
