@@ -9,7 +9,7 @@ mozunit
 import
 pytest
 from
-io
+six
 import
 BytesIO
 from
@@ -59,6 +59,7 @@ mach
 '
 {
 }
+b
 "
 "
 "
@@ -157,10 +158,10 @@ Ran
 4
 checks
 (
-3
-tests
 1
 subtests
+3
+tests
 )
 Expected
 results
@@ -173,6 +174,7 @@ OK
 .
 lstrip
 (
+b
 '
 \
 n
@@ -191,6 +193,7 @@ verbose
 :
 True
 }
+b
 "
 "
 "
@@ -298,10 +301,10 @@ Ran
 4
 checks
 (
-3
-tests
 1
 subtests
+3
+tests
 )
 Expected
 results
@@ -314,6 +317,7 @@ OK
 .
 lstrip
 (
+b
 '
 \
 n
@@ -335,6 +339,7 @@ mach
 '
 {
 }
+b
 "
 "
 "
@@ -480,10 +485,10 @@ Ran
 5
 checks
 (
-3
-tests
 2
 subtests
+3
+tests
 )
 Expected
 results
@@ -595,6 +600,7 @@ test_baz
 .
 lstrip
 (
+b
 '
 \
 n
@@ -613,6 +619,7 @@ verbose
 :
 True
 }
+b
 "
 "
 "
@@ -770,10 +777,10 @@ Ran
 5
 checks
 (
-3
-tests
 2
 subtests
+3
+tests
 )
 Expected
 results
@@ -885,6 +892,7 @@ test_baz
 .
 lstrip
 (
+b
 '
 \
 n

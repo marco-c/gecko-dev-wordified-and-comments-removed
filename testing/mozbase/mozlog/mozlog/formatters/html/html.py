@@ -1336,7 +1336,7 @@ content
 else
 :
                     
-utf_encoded
+utf8_encoded_bytes
 =
 six
 .
@@ -1352,14 +1352,32 @@ utf
 -
 8
 '
+                                                                       
 '
 xmlcharrefreplace
 '
 )
                     
+b64_encoded_bytes
+=
+base64
+.
+b64encode
+(
+utf8_encoded_bytes
+)
+                    
+b64_encoded_str
+=
+b64_encoded_bytes
+.
+decode
+(
+)
+                    
 href
 =
-'
+"
 data
 :
 text
@@ -1373,15 +1391,14 @@ utf
 8
 ;
 base64
-%
-s
-'
-%
-base64
+{
+0
+}
+"
 .
-b64encode
+format
 (
-utf_encoded
+b64_encoded_str
 )
                 
 links_html
