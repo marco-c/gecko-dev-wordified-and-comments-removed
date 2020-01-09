@@ -118,6 +118,16 @@ return
 .
 checkbox
 -
+check
+"
+:
+"
+disabled
+"
+"
+.
+checkbox
+-
 label
 "
 :
