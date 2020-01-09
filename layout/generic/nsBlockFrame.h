@@ -1182,10 +1182,6 @@ aStyle
 aPresContext
 aID
 )
-mMinWidth
-(
-NS_INTRINSIC_ISIZE_UNKNOWN
-)
 mPrefWidth
 (
 NS_INTRINSIC_ISIZE_UNKNOWN
@@ -2560,7 +2556,11 @@ const
 #
 endif
 nscoord
-mMinWidth
+mCachedMinISize
+=
+NS_INTRINSIC_ISIZE_UNKNOWN
+;
+nscoord
 mPrefWidth
 ;
 nsLineList
