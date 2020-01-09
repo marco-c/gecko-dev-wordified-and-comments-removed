@@ -9372,6 +9372,7 @@ aBrowser
 aRemoteType
 aChannel
 aSwitchId
+aReplaceBrowsingContext
 )
 {
 debug
@@ -9430,6 +9431,9 @@ aRemoteType
 redirectLoadSwitchId
 :
 aSwitchId
+replaceBrowsingContext
+:
+aReplaceBrowsingContext
 }
 ;
 await
@@ -9511,6 +9515,7 @@ aBrowsingContext
 aRemoteType
 aChannel
 aSwitchId
+aReplaceBrowsingContext
 )
 {
 if
@@ -9531,6 +9536,7 @@ embedderElement
 aRemoteType
 aChannel
 aSwitchId
+aReplaceBrowsingContext
 )
 ;
 }
@@ -10043,6 +10049,22 @@ ignoring
 return
 ;
 }
+const
+isCOOPSwitch
+=
+E10SUtils
+.
+useCrossOriginOpenerPolicy
+(
+)
+&
+&
+aChannel
+.
+hasCrossOriginOpenerPolicyMismatch
+(
+)
+;
 let
 identifier
 =
@@ -10063,6 +10085,7 @@ browsingContext
 remoteType
 aChannel
 identifier
+isCOOPSwitch
 )
 ;
 aChannel
@@ -13924,6 +13947,11 @@ remoteType
 loadArguments
 .
 remoteType
+replaceBrowsingContext
+:
+loadArguments
+.
+replaceBrowsingContext
 restoreContentReason
 :
 RESTORE_TAB_CONTENT_REASON
@@ -18078,6 +18106,13 @@ aOptions
 newFrameloader
 ;
 let
+replaceBrowsingContext
+=
+aOptions
+.
+replaceBrowsingContext
+;
+let
 isRemotenessUpdate
 ;
 if
@@ -18105,6 +18140,7 @@ aOptions
 .
 remoteType
 newFrameloader
+replaceBrowsingContext
 }
 )
 ;
@@ -18121,6 +18157,7 @@ browser
 uri
 {
 newFrameloader
+replaceBrowsingContext
 }
 )
 ;

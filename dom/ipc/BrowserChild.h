@@ -2650,7 +2650,6 @@ uintptr_t
 aNewHandle
 )
 ;
-virtual
 mozilla
 :
 :
@@ -2661,7 +2660,6 @@ IPCResult
 RecvSkipBrowsingContextDetach
 (
 )
-override
 ;
 PPluginWidgetChild
 *
