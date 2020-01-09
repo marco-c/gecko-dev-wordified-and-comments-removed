@@ -280,11 +280,6 @@ return
 (
 <
 li
-role
-=
-"
-listitem
-"
 className
 =
 {
@@ -454,11 +449,6 @@ return
 (
 <
 ul
-role
-=
-"
-list
-"
 className
 =
 "
