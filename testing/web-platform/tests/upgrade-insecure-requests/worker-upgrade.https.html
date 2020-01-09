@@ -16,7 +16,7 @@ Upgrade
 Insecure
 Requests
 :
-iframe
+worker
 .
 <
 /
@@ -135,12 +135,12 @@ script
 const
 tests
 =
-generateRedirectTests
+generateTests
 (
 ResourceType
 .
-FRAME
-false
+WORKER
+true
 )
 ;
 tests
@@ -153,7 +153,7 @@ test
 testMap
 [
 '
-iframe
+worker
 '
 ]
 (
