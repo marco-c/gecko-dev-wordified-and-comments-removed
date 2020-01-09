@@ -316,11 +316,6 @@ PluginChild
 jsm
 '
 '
-RFPHelperChild
-.
-jsm
-'
-'
 SearchTelemetryChild
 .
 jsm
