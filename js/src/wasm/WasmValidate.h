@@ -3336,15 +3336,6 @@ uint8_t
 ValType
 :
 :
-FuncRef
-)
-:
-case
-uint8_t
-(
-ValType
-:
-:
 AnyRef
 )
 :
