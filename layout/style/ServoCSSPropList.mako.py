@@ -358,28 +358,6 @@ width
 "
     
 "
-border
--
-spacing
-"
-    
-"
-box
--
-shadow
-"
-    
-"
-caret
--
-color
-"
-    
-"
-color
-"
-    
-"
 column
 -
 count
@@ -632,12 +610,6 @@ gap
 "
     
 "
-scrollbar
--
-color
-"
-    
-"
 scroll
 -
 snap
@@ -681,12 +653,6 @@ style
 text
 -
 overflow
-"
-    
-"
-text
--
-shadow
 "
     
 "
