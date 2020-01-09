@@ -82,6 +82,15 @@ include
 "
 js
 /
+ArrayBuffer
+.
+h
+"
+#
+include
+"
+js
+/
 JSON
 .
 h
@@ -1691,7 +1700,10 @@ aCx
 ;
 arrayBuffer
 =
-JS_NewArrayBufferWithContents
+JS
+:
+:
+NewArrayBufferWithContents
 (
 aCx
 aInputLength

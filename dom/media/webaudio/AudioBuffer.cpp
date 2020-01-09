@@ -26,6 +26,15 @@ h
 #
 include
 "
+js
+/
+ArrayBuffer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorResult
@@ -2098,7 +2107,10 @@ float
 *
 >
 (
-JS_StealArrayBufferContents
+JS
+:
+:
+StealArrayBufferContents
 (
 aJSContext
 arrayBuffer
