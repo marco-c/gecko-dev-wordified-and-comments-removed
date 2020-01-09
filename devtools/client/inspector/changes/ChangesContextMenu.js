@@ -387,6 +387,7 @@ this
 _onCopyRule
 (
 ruleId
+true
 )
 }
 )
