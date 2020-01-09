@@ -1446,9 +1446,7 @@ browser
 :
 purge
 -
-domain
--
-data
+sessionStorage
 "
 )
 ;
@@ -1484,9 +1482,7 @@ browser
 :
 purge
 -
-domain
--
-data
+sessionStorage
 "
 )
 ;
