@@ -765,7 +765,7 @@ Error
 ;
 }
 }
-StringBuffer
+JSStringBuilder
 buffer
 (
 cx

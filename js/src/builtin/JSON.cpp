@@ -5320,7 +5320,7 @@ get
 )
 )
 ;
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

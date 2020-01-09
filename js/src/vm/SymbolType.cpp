@@ -621,7 +621,7 @@ MutableHandleValue
 result
 )
 {
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

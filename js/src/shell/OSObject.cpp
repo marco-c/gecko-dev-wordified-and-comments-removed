@@ -3456,7 +3456,7 @@ return
 false
 ;
 }
-StringBuffer
+JSStringBuilder
 buffer
 (
 cx

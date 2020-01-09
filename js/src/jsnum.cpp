@@ -3133,7 +3133,7 @@ thisv
 )
 )
 ;
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

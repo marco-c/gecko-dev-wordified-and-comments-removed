@@ -1231,7 +1231,7 @@ cx
 )
 ;
 }
-StringBuffer
+JSStringBuilder
 buf
 (
 cx

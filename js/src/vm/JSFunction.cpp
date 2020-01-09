@@ -4449,7 +4449,7 @@ return
 str
 ;
 }
-StringBuffer
+JSStringBuilder
 out
 (
 cx
@@ -6641,7 +6641,7 @@ boundWithSpaceChars
 )
 )
 ;
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -8931,7 +8931,7 @@ setScriptOrModule
 maybeScript
 )
 ;
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

@@ -242,7 +242,7 @@ unbox
 (
 )
 ;
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

@@ -9019,7 +9019,7 @@ length
 MaxStringLength
 )
 {
-StringBuffer
+JSStringBuilder
 buf
 (
 cx

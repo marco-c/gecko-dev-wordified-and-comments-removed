@@ -15615,7 +15615,7 @@ CallArgs
 args
 )
 {
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

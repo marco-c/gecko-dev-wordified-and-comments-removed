@@ -5887,7 +5887,7 @@ return
 false
 ;
 }
-StringBuffer
+JSStringBuilder
 sb
 (
 cx
@@ -7085,7 +7085,7 @@ true
 }
 }
 }
-StringBuffer
+JSStringBuilder
 sb
 (
 cx

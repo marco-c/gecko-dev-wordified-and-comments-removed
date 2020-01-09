@@ -4089,7 +4089,7 @@ FuncType
 funcType
 )
 {
-StringBuffer
+JSStringBuilder
 buf
 (
 cx

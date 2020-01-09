@@ -10269,7 +10269,7 @@ get
 )
 ;
 }
-StringBuffer
+JSStringBuilder
 result
 (
 cx

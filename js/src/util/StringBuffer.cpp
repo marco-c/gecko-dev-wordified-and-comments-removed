@@ -490,7 +490,7 @@ str
 }
 JSFlatString
 *
-StringBuffer
+JSStringBuilder
 :
 :
 finishString
