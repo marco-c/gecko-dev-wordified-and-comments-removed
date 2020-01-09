@@ -370,6 +370,11 @@ CryptoTask
 h
 '
 '
+EnterpriseRoots
+.
+h
+'
+'
 nsClientAuthRemember
 .
 h
