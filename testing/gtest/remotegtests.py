@@ -72,6 +72,8 @@ def
 build_environment
 (
 self
+options
+test_filter
 )
 :
         
@@ -196,6 +198,36 @@ MOZ_IN_AUTOMATION
 1
 "
         
+if
+options
+.
+shuffle
+:
+            
+env
+[
+"
+GTEST_SHUFFLE
+"
+]
+=
+"
+True
+"
+        
+if
+test_filter
+:
+            
+env
+[
+"
+GTEST_FILTER
+"
+]
+=
+test_filter
+        
 return
 env
     
@@ -204,6 +236,7 @@ run_gtest
 (
 self
 options
+test_filter
 )
 :
         
@@ -490,6 +523,8 @@ self
 .
 build_environment
 (
+options
+test_filter
 )
         
 args
@@ -1569,6 +1604,17 @@ package
 )
 :
         
+if
+self
+.
+update_log
+(
+)
+:
+            
+return
+package
+        
 top
 =
 None
@@ -2075,6 +2121,18 @@ OptionParser
 __init__
 (
 self
+usage
+=
+"
+usage
+:
+%
+prog
+[
+options
+]
+test_filter
+"
 )
         
 self
@@ -2378,6 +2436,39 @@ containing
 symbols
 "
 )
+        
+self
+.
+add_option
+(
+"
+-
+-
+shuffle
+"
+                        
+action
+=
+"
+store_true
+"
+                        
+default
+=
+False
+                        
+help
+=
+"
+Randomize
+the
+execution
+order
+of
+tests
+.
+"
+)
 def
 update_mozinfo
 (
@@ -2517,7 +2608,7 @@ options
 libxul_path
 :
         
-log
+parser
 .
 error
 (
@@ -2536,6 +2627,46 @@ exit
 (
 1
 )
+    
+if
+len
+(
+args
+)
+>
+1
+:
+        
+parser
+.
+error
+(
+"
+only
+one
+test_filter
+is
+allowed
+"
+)
+        
+sys
+.
+exit
+(
+1
+)
+    
+test_filter
+=
+args
+[
+0
+]
+if
+args
+else
+None
     
 update_mozinfo
 (
@@ -2565,6 +2696,7 @@ tester
 run_gtest
 (
 options
+test_filter
 )
     
 except
