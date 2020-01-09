@@ -1438,9 +1438,6 @@ AnimatedTextShadowList
 ignored_when_colors_disabled
 =
 True
-simple_vector_bindings
-=
-True
 flags
 =
 "

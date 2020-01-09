@@ -277,10 +277,13 @@ generic
 :
 :
 Transform
-:
-:
-none
 (
+Vec
+:
+:
+new
+(
+)
 )
 )
 ;
@@ -1893,10 +1896,6 @@ clone
 }
 )
 ?
-.
-into
-(
-)
 )
 )
 }

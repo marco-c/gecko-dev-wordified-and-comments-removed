@@ -5,6 +5,16 @@ mod
 ns_compatibility
 ;
 mod
+ns_css_shadow_array
+;
+mod
+ns_css_shadow_item
+;
+pub
+mod
+ns_css_value
+;
+mod
 ns_style_auto_array
 ;
 pub

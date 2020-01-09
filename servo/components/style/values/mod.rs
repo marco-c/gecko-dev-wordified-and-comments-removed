@@ -757,13 +757,6 @@ ToResolvedValue
 ToShmem
 )
 ]
-#
-[
-repr
-(
-C
-)
-]
 pub
 struct
 CustomIdent

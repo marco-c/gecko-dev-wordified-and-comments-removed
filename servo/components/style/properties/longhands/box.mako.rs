@@ -2388,6 +2388,11 @@ animation_value_type
 "
 ComputedValue
 "
+gecko_ffi_name
+=
+"
+mSpecifiedTransform
+"
 flags
 =
 "

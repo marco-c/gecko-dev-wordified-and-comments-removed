@@ -349,13 +349,6 @@ Eq
 PartialEq
 )
 ]
-#
-[
-repr
-(
-C
-)
-]
 pub
 struct
 Atom
