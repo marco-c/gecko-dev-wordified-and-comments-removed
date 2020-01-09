@@ -200,6 +200,7 @@ nsSVGViewportFrame
 ;
 protected
 :
+explicit
 SVGViewportElement
 (
 already_AddRefed
