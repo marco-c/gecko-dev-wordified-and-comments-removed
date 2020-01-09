@@ -23,8 +23,6 @@ datetime
 import
 functools
 import
-yaml
-import
 requests
 import
 logging
@@ -56,6 +54,12 @@ taskgraph
 task
 import
 Task
+from
+taskgraph
+.
+util
+import
+yaml
 logger
 =
 logging
@@ -454,7 +458,7 @@ yml
 return
 yaml
 .
-safe_load
+load_stream
 (
 response
 .

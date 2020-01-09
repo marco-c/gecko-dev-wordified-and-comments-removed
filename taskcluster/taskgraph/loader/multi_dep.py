@@ -1292,7 +1292,7 @@ if
 isinstance
 (
 primary_dependencies
-str
+basestring
 )
 :
         
