@@ -250,13 +250,7 @@ StartProfiler
 entries
 interval
 features
-features
-.
-length
 threads
-threads
-.
-length
 )
 ;
 const

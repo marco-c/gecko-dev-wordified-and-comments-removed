@@ -85,9 +85,6 @@ StartProfiler
 1000
 10
 features
-features
-.
-length
 )
 ;
 Services

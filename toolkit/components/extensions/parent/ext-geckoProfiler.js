@@ -437,13 +437,7 @@ StartProfiler
 bufferSize
 interval
 features
-features
-.
-length
 threads
-threads
-.
-length
 windowLength
 )
 ;
@@ -459,12 +453,8 @@ StartProfiler
 bufferSize
 interval
 features
-features
-.
-length
 [
 ]
-0
 windowLength
 )
 ;

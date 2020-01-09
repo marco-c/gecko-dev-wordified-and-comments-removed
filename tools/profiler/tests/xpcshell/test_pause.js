@@ -52,7 +52,6 @@ StartProfiler
 10
 [
 ]
-0
 )
 ;
 Assert

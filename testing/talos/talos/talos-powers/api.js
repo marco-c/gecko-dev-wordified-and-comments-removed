@@ -544,15 +544,9 @@ stackwalk
 threads
 "
 ]
-4
 data
 .
 threadsArray
-data
-.
-threadsArray
-.
-length
 )
 ;
 Services
