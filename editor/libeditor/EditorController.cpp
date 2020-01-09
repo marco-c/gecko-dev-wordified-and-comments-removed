@@ -253,14 +253,6 @@ cmd_copyOrDelete
 ;
 NS_REGISTER_ONE_COMMAND
 (
-CopyAndCollapseToEndCommand
-"
-cmd_copyAndCollapseToEnd
-"
-)
-;
-NS_REGISTER_ONE_COMMAND
-(
 SelectAllCommand
 "
 cmd_selectAll
