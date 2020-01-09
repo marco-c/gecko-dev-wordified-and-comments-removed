@@ -1577,6 +1577,7 @@ getattr
 (
 __builtin__
 b
+None
 )
         
 for
@@ -1642,6 +1643,11 @@ zip
 '
 AssertionError
 '
+                  
+'
+__build_class__
+'
+                  
 )
     
 }
@@ -2071,7 +2077,9 @@ if
 isinstance
 (
 arg
-str
+six
+.
+binary_type
 )
 else
 arg
