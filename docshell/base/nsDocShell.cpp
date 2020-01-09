@@ -2257,6 +2257,10 @@ mIsFrame
 (
 false
 )
+mSkipBrowsingContextDetachOnDestroy
+(
+false
+)
 {
 mHistoryID
 .
@@ -22179,6 +22183,12 @@ mSessionHistory
 nullptr
 ;
 }
+if
+(
+!
+mSkipBrowsingContextDetachOnDestroy
+)
+{
 mBrowsingContext
 -
 >
@@ -22186,6 +22196,7 @@ Detach
 (
 )
 ;
+}
 SetTreeOwner
 (
 nullptr
