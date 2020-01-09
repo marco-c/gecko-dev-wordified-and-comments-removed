@@ -1073,7 +1073,10 @@ PUDPSocketParent
 AllocPUDPSocketParent
 (
 const
-OptionalPrincipalInfo
+Maybe
+<
+PrincipalInfo
+>
 &
 pInfo
 const
@@ -1096,7 +1099,10 @@ RecvPUDPSocketConstructor
 PUDPSocketParent
 *
 const
-OptionalPrincipalInfo
+Maybe
+<
+PrincipalInfo
+>
 &
 aPrincipalInfo
 const

@@ -11252,21 +11252,9 @@ principalInfo
 (
 )
 .
-type
+isSome
 (
 )
-=
-=
-mozilla
-:
-:
-ipc
-:
-:
-OptionalPrincipalInfo
-:
-:
-TPrincipalInfo
 )
 {
 const
@@ -11286,7 +11274,7 @@ principalInfo
 (
 )
 .
-get_PrincipalInfo
+ref
 (
 )
 ;
@@ -12772,7 +12760,7 @@ principalInfo
 (
 )
 =
-void_t
+Nothing
 (
 )
 ;
@@ -12936,6 +12924,8 @@ principalInfo
 (
 )
 =
+Some
+(
 mozilla
 :
 :
@@ -12956,6 +12946,7 @@ std
 move
 (
 policies
+)
 )
 )
 ;

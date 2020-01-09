@@ -270,15 +270,6 @@ ExpandedPrincipalInfo
 ;
 }
 ;
-union
-OptionalPrincipalInfo
-{
-void_t
-;
-PrincipalInfo
-;
-}
-;
 }
 /
 /

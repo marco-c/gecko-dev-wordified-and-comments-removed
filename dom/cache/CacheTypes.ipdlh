@@ -379,7 +379,8 @@ body
 IPCChannelInfo
 channelInfo
 ;
-OptionalPrincipalInfo
+PrincipalInfo
+?
 principalInfo
 ;
 uint32_t

@@ -2242,7 +2242,10 @@ BackgroundChildImpl
 AllocPUDPSocketChild
 (
 const
-OptionalPrincipalInfo
+Maybe
+<
+PrincipalInfo
+>
 &
 aPrincipalInfo
 const

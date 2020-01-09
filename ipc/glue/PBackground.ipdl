@@ -773,7 +773,8 @@ PCameras
 async
 PUDPSocket
 (
-OptionalPrincipalInfo
+PrincipalInfo
+?
 pInfo
 nsCString
 filter
