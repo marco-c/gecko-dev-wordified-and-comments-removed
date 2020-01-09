@@ -666,6 +666,11 @@ createElement
 (
 GridItem
 {
+key
+:
+g
+.
+id
 getSwatchColorPickerTooltip
 :
 this
