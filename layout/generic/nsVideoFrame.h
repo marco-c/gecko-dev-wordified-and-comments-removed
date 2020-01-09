@@ -205,7 +205,10 @@ gfxContext
 aRenderingContext
 )
 ;
-nsSize
+mozilla
+:
+:
+AspectRatio
 GetIntrinsicRatio
 (
 )

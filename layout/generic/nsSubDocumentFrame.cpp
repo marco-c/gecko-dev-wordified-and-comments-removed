@@ -3413,7 +3413,7 @@ GetIntrinsicSize
 )
 ;
 }
-nsSize
+AspectRatio
 nsSubDocumentFrame
 :
 :
@@ -3884,7 +3884,7 @@ ObtainIntrinsicSizeFrame
 IntrinsicSize
 intrinsSize
 ;
-nsSize
+AspectRatio
 intrinsRatio
 ;
 if

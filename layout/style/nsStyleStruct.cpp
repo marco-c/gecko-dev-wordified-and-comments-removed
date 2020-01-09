@@ -13225,7 +13225,7 @@ imgContainer
 CSSIntSize
 imageSize
 ;
-nsSize
+AspectRatio
 imageRatio
 ;
 bool
@@ -13259,13 +13259,6 @@ false
 if
 (
 imageRatio
-!
-=
-nsSize
-(
-0
-0
-)
 )
 {
 return

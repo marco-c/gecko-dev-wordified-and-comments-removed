@@ -292,6 +292,9 @@ nsOverflowAreas
 namespace
 mozilla
 {
+struct
+AspectRatio
+;
 class
 ComputedStyle
 ;
@@ -523,6 +526,13 @@ Variable
 class
 nsLayoutUtils
 {
+typedef
+mozilla
+:
+:
+AspectRatio
+AspectRatio
+;
 typedef
 mozilla
 :
@@ -2837,7 +2847,7 @@ IntrinsicSize
 &
 aIntrinsicSize
 const
-nsSize
+AspectRatio
 &
 aIntrinsicRatio
 const
@@ -4428,7 +4438,7 @@ aImage
 CSSIntSize
 &
 aImageSize
-nsSize
+AspectRatio
 &
 aIntrinsicRatio
 bool

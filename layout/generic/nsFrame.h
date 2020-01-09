@@ -1085,7 +1085,10 @@ GetIntrinsicSize
 )
 override
 ;
-nsSize
+mozilla
+:
+:
+AspectRatio
 GetIntrinsicRatio
 (
 )
@@ -1161,7 +1164,12 @@ mozilla
 IntrinsicSize
 &
 aIntrinsicSize
-nsSize
+const
+mozilla
+:
+:
+AspectRatio
+&
 aIntrinsicRatio
 const
 mozilla

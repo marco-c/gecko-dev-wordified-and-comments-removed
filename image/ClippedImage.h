@@ -108,12 +108,12 @@ aSize
 )
 override
 ;
-NS_IMETHOD
+Maybe
+<
+AspectRatio
+>
 GetIntrinsicRatio
 (
-nsSize
-*
-aRatio
 )
 override
 ;

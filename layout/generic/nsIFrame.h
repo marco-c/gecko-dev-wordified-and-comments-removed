@@ -113,6 +113,15 @@ include
 "
 mozilla
 /
+AspectRatio
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -6430,7 +6439,10 @@ GetIntrinsicSize
 0
 ;
 virtual
-nsSize
+mozilla
+:
+:
+AspectRatio
 GetIntrinsicRatio
 (
 )
