@@ -5989,6 +5989,13 @@ is_pipeline_root
 &
 &
 create_tile_cache
+&
+&
+self
+.
+config
+.
+enable_picture_caching
 {
 /
 /
