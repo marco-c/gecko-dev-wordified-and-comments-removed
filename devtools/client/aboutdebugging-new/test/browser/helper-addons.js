@@ -442,6 +442,7 @@ jsm
 const
 {
 background
+files
 id
 name
 extraProperties
@@ -504,6 +505,7 @@ generateXPI
 (
 {
 background
+files
 manifest
 }
 )
