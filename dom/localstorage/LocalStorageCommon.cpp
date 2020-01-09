@@ -177,7 +177,7 @@ CachedNextGenLocalStorageEnabled
 (
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 gNextGenLocalStorageEnabled
 !
