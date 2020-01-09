@@ -283,7 +283,7 @@ cx
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileForNonSyntacticScopeDontInflate
 (
 cx
 options
@@ -834,7 +834,7 @@ cx
 JS
 :
 :
-CompileForNonSyntacticScope
+CompileForNonSyntacticScopeDontInflate
 (
 cx
 options
