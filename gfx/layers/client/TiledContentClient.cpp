@@ -3750,9 +3750,12 @@ mFrontBuffer
 GetIPDLActor
 (
 )
+Nothing
+(
+)
 mFrontBufferOnWhite
 ?
-MaybeTexture
+Some
 (
 mFrontBufferOnWhite
 -
@@ -3762,11 +3765,8 @@ GetIPDLActor
 )
 )
 :
-MaybeTexture
+Nothing
 (
-null_t
-(
-)
 )
 mUpdateRect
 readLocked
