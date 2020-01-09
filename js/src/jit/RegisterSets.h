@@ -665,6 +665,7 @@ payload
 )
 {
 }
+constexpr
 Register
 typeReg
 (
@@ -675,6 +676,7 @@ return
 type_
 ;
 }
+constexpr
 Register
 payloadReg
 (
@@ -707,6 +709,7 @@ payload_
 reg
 ;
 }
+constexpr
 Register
 payloadOrValueReg
 (
@@ -798,6 +801,7 @@ value
 )
 {
 }
+constexpr
 Register
 valueReg
 (
@@ -824,6 +828,7 @@ value_
 reg
 ;
 }
+constexpr
 Register
 payloadOrValueReg
 (
@@ -884,6 +889,7 @@ o
 }
 #
 endif
+constexpr
 Register
 scratchReg
 (
