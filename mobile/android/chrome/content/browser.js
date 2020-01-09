@@ -6182,6 +6182,11 @@ url
 =
 aTarget
 .
+currentSrc
+|
+|
+aTarget
+.
 src
 ;
 ContentAreaUtils
@@ -6293,6 +6298,11 @@ url
 =
 aTarget
 .
+currentSrc
+|
+|
+aTarget
+.
 src
 ;
 url
@@ -6371,6 +6381,11 @@ aTarget
 let
 src
 =
+aTarget
+.
+currentSrc
+|
+|
 aTarget
 .
 src
@@ -6641,6 +6656,11 @@ web_background_image
 let
 src
 =
+aTarget
+.
+currentSrc
+|
+|
 aTarget
 .
 src
