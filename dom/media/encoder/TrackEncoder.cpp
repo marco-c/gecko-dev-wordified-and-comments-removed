@@ -496,7 +496,6 @@ AudioTrackEncoder
 :
 Suspend
 (
-TimeStamp
 )
 {
 MOZ_ASSERT
@@ -566,7 +565,6 @@ AudioTrackEncoder
 :
 Resume
 (
-TimeStamp
 )
 {
 MOZ_ASSERT
