@@ -37380,13 +37380,7 @@ e
 .
 writeVarU32
 (
-uint32_t
-(
-MemoryTableFlags
-:
-:
-Default
-)
+0
 )
 ;
 }
