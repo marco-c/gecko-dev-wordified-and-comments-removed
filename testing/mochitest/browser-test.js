@@ -5911,11 +5911,10 @@ window
 gBrowser
 )
 {
-NewTabPagePreloading
+gBrowser
 .
 removePreloadedBrowser
 (
-window
 )
 ;
 }

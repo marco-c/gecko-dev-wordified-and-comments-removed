@@ -938,11 +938,10 @@ winId
 ;
 win
 .
-NewTabPagePreloading
+gBrowser
 .
 removePreloadedBrowser
 (
-win
 )
 ;
 for

@@ -112,11 +112,10 @@ checkActivityStreamNotPreloadedLoad
 (
 )
 {
-NewTabPagePreloading
+gBrowser
 .
 removePreloadedBrowser
 (
-window
 )
 ;
 await

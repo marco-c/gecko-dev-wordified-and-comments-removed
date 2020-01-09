@@ -7946,11 +7946,10 @@ tab
 linkedPanel
 )
 {
-NewTabPagePreloading
+gBrowser
 .
-maybeCreatePreloadedBrowser
+_createPreloadBrowser
 (
-window
 )
 ;
 }
