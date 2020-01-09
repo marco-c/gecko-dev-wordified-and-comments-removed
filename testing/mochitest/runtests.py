@@ -17542,6 +17542,24 @@ options
 e10s
             
 "
+fission
+"
+:
+self
+.
+extraPrefs
+.
+get
+(
+'
+fission
+.
+autostart
+'
+False
+)
+            
+"
 headless
 "
 :
