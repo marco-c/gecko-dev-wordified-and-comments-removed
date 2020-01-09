@@ -569,7 +569,7 @@ true
 ;
 }
 bool
-WindowCapturerLinux
+WindowCapturerX11
 :
 :
 SelectSource
@@ -621,7 +621,7 @@ true
 ;
 }
 bool
-WindowCapturerLinux
+WindowCapturerX11
 :
 :
 FocusOnSelectedSource
@@ -1268,7 +1268,7 @@ false
 ;
 }
 bool
-WindowCapturerLinux
+WindowCapturerX11
 :
 :
 GetWindowTitle

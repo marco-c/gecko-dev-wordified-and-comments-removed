@@ -674,7 +674,7 @@ true
 ;
 }
 void
-ScreenCapturerLinux
+ScreenCapturerX11
 :
 :
 InitXDamage
@@ -1070,7 +1070,7 @@ result
 ;
 }
 bool
-ScreenCapturerLinux
+ScreenCapturerX11
 :
 :
 GetSourceList
@@ -1108,7 +1108,7 @@ true
 ;
 }
 bool
-ScreenCapturerLinux
+ScreenCapturerX11
 :
 :
 SelectSource
@@ -1122,7 +1122,7 @@ true
 ;
 }
 bool
-ScreenCapturerLinux
+ScreenCapturerX11
 :
 :
 HandleXEvent
@@ -1224,7 +1224,7 @@ unique_ptr
 <
 DesktopFrame
 >
-ScreenCapturerLinux
+ScreenCapturerX11
 :
 :
 CaptureScreen
@@ -1620,7 +1620,7 @@ change
 }
 }
 void
-ScreenCapturerLinux
+ScreenCapturerX11
 :
 :
 SynchronizeFrame
@@ -1715,7 +1715,7 @@ rect
 }
 }
 void
-ScreenCapturerLinux
+ScreenCapturerX11
 :
 :
 DeinitXlib
@@ -1791,7 +1791,6 @@ damage_region_
 }
 }
 }
-}
 std
 :
 :
@@ -1799,7 +1798,7 @@ unique_ptr
 <
 DesktopCapturer
 >
-DesktopCapturer
+ScreenCapturerX11
 :
 :
 CreateRawScreenCapturer
@@ -1827,12 +1826,12 @@ std
 :
 unique_ptr
 <
-ScreenCapturerLinux
+ScreenCapturerX11
 >
 capturer
 (
 new
-ScreenCapturerLinux
+ScreenCapturerX11
 (
 )
 )
