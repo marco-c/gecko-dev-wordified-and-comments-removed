@@ -475,7 +475,7 @@ browser
 xhtml
 )
 #
-endif
+else
 *
 content
 /
@@ -491,6 +491,8 @@ browser
 .
 xul
 )
+#
+endif
 content
 /
 browser
