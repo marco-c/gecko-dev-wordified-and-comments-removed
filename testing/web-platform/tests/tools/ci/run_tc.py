@@ -1512,21 +1512,6 @@ false
 "
 and
         
-os
-.
-environ
-[
-"
-GITHUB_BRANCH
-"
-]
-=
-=
-"
-master
-"
-and
-        
 job
 =
 =
