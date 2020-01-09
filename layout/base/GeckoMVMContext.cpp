@@ -843,7 +843,15 @@ MOZ_ASSERT
 mPresShell
 )
 ;
+nsCOMPtr
+<
+nsIPresShell
+>
+presShell
+=
 mPresShell
+;
+presShell
 -
 >
 ResizeReflowIgnoreOverride
