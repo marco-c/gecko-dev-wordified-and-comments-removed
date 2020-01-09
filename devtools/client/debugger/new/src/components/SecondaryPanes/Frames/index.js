@@ -234,6 +234,10 @@ string
 =
 >
 string
+selectable
+?
+:
+boolean
 }
 ;
 type
@@ -582,6 +586,9 @@ frameworkGroupingOn
 displayFullUrl
 getFrameTitle
 disableContextMenu
+selectable
+=
+false
 }
 =
 this
@@ -615,7 +622,12 @@ LocalFrame
 return
 (
 <
-ul
+div
+role
+=
+"
+list
+"
 >
 {
 framesOrGroups
@@ -700,6 +712,11 @@ disableContextMenu
 {
 disableContextMenu
 }
+selectable
+=
+{
+selectable
+}
 /
 >
 )
@@ -771,6 +788,11 @@ disableContextMenu
 {
 disableContextMenu
 }
+selectable
+=
+{
+selectable
+}
 /
 >
 )
@@ -778,7 +800,7 @@ disableContextMenu
 }
 <
 /
-ul
+div
 >
 )
 ;

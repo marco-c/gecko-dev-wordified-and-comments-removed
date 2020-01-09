@@ -74,6 +74,11 @@ Frame
 js
 '
 '
+FrameIndent
+.
+js
+'
+'
 FrameMenu
 .
 js

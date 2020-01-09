@@ -8169,10 +8169,6 @@ content
 .
 push
 (
-"
-\
-n
-"
 stacktrace
 )
 ;
