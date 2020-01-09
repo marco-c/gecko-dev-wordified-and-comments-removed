@@ -455,6 +455,11 @@ setFieldsEnabled
 (
 true
 )
+.
+setAwaitFixEnabled
+(
+true
+)
 ;
 newGlobal
 =
