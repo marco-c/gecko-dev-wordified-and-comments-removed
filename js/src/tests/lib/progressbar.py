@@ -187,6 +187,12 @@ now
         
 self
 .
+last_update_time
+=
+None
+        
+self
+.
 counters_width
 =
 1
@@ -478,13 +484,17 @@ bar
 '
 )
         
-dt
+now
 =
 datetime
 .
 now
 (
 )
+        
+dt
+=
+now
 -
 self
 .
@@ -539,6 +549,12 @@ stdout
 flush
 (
 )
+        
+self
+.
+last_update_time
+=
+now
     
 def
 poke
@@ -552,6 +568,26 @@ not
 self
 .
 prior
+:
+            
+return
+        
+if
+datetime
+.
+now
+(
+)
+-
+self
+.
+last_update_time
+<
+self
+.
+update_granularity
+(
+)
 :
             
 return
