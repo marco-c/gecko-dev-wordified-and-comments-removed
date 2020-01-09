@@ -2008,7 +2008,7 @@ nextOffset
 ]
 !
 =
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 )
 {
 return

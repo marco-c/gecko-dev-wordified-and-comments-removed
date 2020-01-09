@@ -11555,7 +11555,7 @@ resumeIndex
 return
 emit1
 (
-JSOP_DEBUGAFTERYIELD
+JSOP_AFTERYIELD
 )
 ;
 }
