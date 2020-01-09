@@ -9241,16 +9241,6 @@ args
 pref
 (
 "
-plain_text
-.
-wrap_long_lines
-"
-false
-)
-;
-pref
-(
-"
 nglayout
 .
 enable_drag_images
