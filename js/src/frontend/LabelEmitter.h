@@ -60,8 +60,10 @@ BytecodeEmitter
 *
 bce_
 ;
-JumpList
+ptrdiff_t
 top_
+=
+0
 ;
 mozilla
 :
