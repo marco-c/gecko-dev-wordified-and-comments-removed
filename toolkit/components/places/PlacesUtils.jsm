@@ -5801,7 +5801,6 @@ setParents
 [
 aFolderGuid
 ]
-1
 )
 ;
 var

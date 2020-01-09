@@ -345,9 +345,6 @@ query
 setParents
 (
 folderGuids
-folderGuids
-.
-length
 )
 ;
 options
@@ -639,9 +636,6 @@ query
 setParents
 (
 folderGuids
-folderGuids
-.
-length
 )
 ;
 options

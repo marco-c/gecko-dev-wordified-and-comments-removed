@@ -80,7 +80,6 @@ bookmarks
 .
 toolbarGuid
 ]
-1
 )
 ;
 var

@@ -504,7 +504,6 @@ testFolder2
 .
 guid
 ]
-2
 )
 ;
 let

@@ -1631,9 +1631,6 @@ query
 setParents
 (
 folderRestrict
-folderRestrict
-.
-length
 )
 ;
 options

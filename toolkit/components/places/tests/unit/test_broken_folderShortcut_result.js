@@ -156,7 +156,6 @@ bookmarks
 .
 unfiledGuid
 ]
-1
 )
 ;
 let
@@ -380,7 +379,6 @@ setParents
 [
 1234
 ]
-1
 )
 ;
 options
@@ -447,7 +445,6 @@ setParents
 -
 1
 ]
-1
 )
 ;
 options

@@ -67,7 +67,6 @@ bookmarks
 .
 tagsGuid
 ]
-1
 )
 ;
 var

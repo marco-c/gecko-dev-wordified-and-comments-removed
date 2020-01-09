@@ -157,7 +157,6 @@ bookmarks
 .
 menuGuid
 ]
-1
 )
 ;
 let
@@ -333,7 +332,6 @@ setParents
 [
 aFolderGuid
 ]
-1
 )
 ;
 let

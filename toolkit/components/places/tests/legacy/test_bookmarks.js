@@ -1585,7 +1585,6 @@ setParents
 [
 testRootGuid
 ]
-1
 )
 ;
 let
@@ -1866,7 +1865,6 @@ setParents
 [
 testFolderGuid
 ]
-1
 )
 ;
 let
@@ -2513,7 +2511,6 @@ setParents
 [
 testRootGuid
 ]
-1
 )
 ;
 let
@@ -3185,7 +3182,6 @@ setParents
 [
 parentGuid
 ]
-1
 )
 ;
 let

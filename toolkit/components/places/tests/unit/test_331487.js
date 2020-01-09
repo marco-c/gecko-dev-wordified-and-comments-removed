@@ -258,7 +258,6 @@ setParents
 [
 folderGuid
 ]
-1
 )
 ;
 var
@@ -501,7 +500,6 @@ setParents
 [
 folderGuid
 ]
-1
 )
 ;
 result

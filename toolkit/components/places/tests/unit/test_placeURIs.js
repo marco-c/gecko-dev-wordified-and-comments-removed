@@ -36,7 +36,6 @@ bookmarks
 .
 rootGuid
 ]
-1
 )
 ;
 Assert

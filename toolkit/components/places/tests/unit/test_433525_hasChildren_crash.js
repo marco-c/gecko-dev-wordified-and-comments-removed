@@ -208,7 +208,6 @@ bookmarks
 .
 toolbarGuid
 ]
-1
 )
 ;
 result

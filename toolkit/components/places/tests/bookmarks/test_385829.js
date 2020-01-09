@@ -428,7 +428,6 @@ folder
 .
 guid
 ]
-1
 )
 ;
 let

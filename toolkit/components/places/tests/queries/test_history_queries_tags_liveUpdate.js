@@ -618,7 +618,6 @@ bookmarks
 .
 unfiledGuid
 ]
-1
 )
 ;
 testQueryContents
