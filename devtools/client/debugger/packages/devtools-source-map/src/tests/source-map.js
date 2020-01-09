@@ -694,7 +694,6 @@ describe
 "
 hasMappedSource
 "
-async
 (
 )
 =
@@ -821,7 +820,6 @@ describe
 Error
 handling
 "
-async
 (
 )
 =
