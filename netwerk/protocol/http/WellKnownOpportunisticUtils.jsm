@@ -98,10 +98,14 @@ aAlternatePort
 )
 {
 throw
+new
+Error
+(
 "
 invalid
 port
 "
+)
 ;
 }
 this

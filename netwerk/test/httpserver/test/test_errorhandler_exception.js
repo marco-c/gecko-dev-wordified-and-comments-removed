@@ -348,6 +348,9 @@ response
 )
 {
 throw
+new
+Error
+(
 "
 this
 shouldn
@@ -360,6 +363,7 @@ exit
 .
 .
 "
+)
 ;
 do_throw
 (

@@ -6369,11 +6369,15 @@ HTTP_1_0
 )
 )
 throw
+new
+Error
+(
 "
 unsupported
 HTTP
 version
 "
+)
 ;
 }
 catch
@@ -18071,6 +18075,9 @@ if
 matches
 )
 throw
+new
+Error
+(
 "
 Not
 a
@@ -18079,6 +18086,7 @@ HTTP
 version
 !
 "
+)
 ;
 this
 .
@@ -18138,6 +18146,9 @@ minor
 0
 )
 throw
+new
+Error
+(
 "
 Not
 a
@@ -18146,6 +18157,7 @@ HTTP
 version
 !
 "
+)
 ;
 }
 nsHttpVersion
