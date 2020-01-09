@@ -11,6 +11,13 @@ nsRemoteServer
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 class
 nsWinRemoteServer
 final
@@ -53,6 +60,11 @@ Shutdown
 (
 )
 override
+;
+private
+:
+HWND
+mHandle
 ;
 }
 ;
