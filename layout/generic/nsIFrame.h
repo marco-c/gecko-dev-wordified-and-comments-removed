@@ -9136,6 +9136,13 @@ const
 ;
 inline
 bool
+IsStickyPositioned
+(
+)
+const
+;
+inline
+bool
 IsAbsolutelyPositioned
 (
 const
