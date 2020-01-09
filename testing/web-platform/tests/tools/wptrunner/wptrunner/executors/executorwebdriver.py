@@ -1420,15 +1420,6 @@ start
 )
     
 def
-after_conect
-(
-self
-)
-:
-        
-pass
-    
-def
 teardown
 (
 self
