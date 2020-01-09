@@ -51,12 +51,6 @@ symbol
 cx
 '
     
-kind
-=
-'
-hook
-'
-    
 generic
 =
 True

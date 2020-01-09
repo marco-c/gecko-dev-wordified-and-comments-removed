@@ -66,12 +66,6 @@ Missing
 Tests
 '
     
-kind
-=
-'
-hook
-'
-    
 generic
 =
 True

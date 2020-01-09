@@ -393,6 +393,12 @@ release
 .
 "
     
+kind
+=
+'
+task
+'
+    
 order
 =
 500

@@ -124,12 +124,6 @@ name
 geckoprofile
 '
     
-kind
-=
-'
-hook
-'
-    
 generic
 =
 True
