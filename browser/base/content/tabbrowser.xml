@@ -1190,6 +1190,8 @@ _expandSpacerBy
 (
 this
 .
+arrowScrollbox
+.
 _scrollButtonDown
 .
 clientWidth
