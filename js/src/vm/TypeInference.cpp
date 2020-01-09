@@ -18237,9 +18237,7 @@ Value
 rval
 )
 {
-if
-(
-!
+MOZ_ASSERT
 (
 CodeSpec
 [
@@ -18251,11 +18249,7 @@ format
 &
 JOF_TYPESET
 )
-)
-{
-return
 ;
-}
 if
 (
 !
