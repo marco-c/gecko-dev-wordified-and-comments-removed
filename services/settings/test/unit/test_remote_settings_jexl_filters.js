@@ -637,9 +637,7 @@ services
 .
 settings
 .
-changes
-.
-path
+default_bucket
 "
 |
 preferenceExists
@@ -660,9 +658,7 @@ services
 .
 settings
 .
-changes
-.
-path
+default_bucket
 "
 |
 preferenceIsUserSet
