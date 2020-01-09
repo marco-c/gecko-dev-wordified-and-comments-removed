@@ -48797,12 +48797,7 @@ GetContentLength
 textFrame
 -
 >
-GetContent
-(
-)
--
->
-GetText
+TextFragment
 (
 )
 -
