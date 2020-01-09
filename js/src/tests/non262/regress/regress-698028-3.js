@@ -1,15 +1,3 @@
-if
-(
-typeof
-Debugger
-=
-=
-=
-'
-function
-'
-)
-{
 var
 g
 =
@@ -105,7 +93,6 @@ eval
 s
 )
 ;
-}
 reportCompare
 (
 0
