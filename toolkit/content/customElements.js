@@ -1549,6 +1549,12 @@ return
 }
 this
 .
+_inheritedElements
+=
+null
+;
+this
+.
 initializedAttributeInheritance
 =
 true
