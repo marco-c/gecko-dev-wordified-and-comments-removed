@@ -3299,6 +3299,15 @@ ANDROID
 )
 if
 (
+GetAndroidSDKVersion
+(
+)
+<
+21
+)
+{
+if
+(
 dladdr
 (
 FunctionPtr
@@ -3369,6 +3378,7 @@ info
 dli_fbase
 )
 ;
+}
 }
 #
 endif
