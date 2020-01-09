@@ -139,10 +139,6 @@ NonTailCall
 struct
 VMFunctionData
 {
-void
-*
-wrapped
-;
 #
 if
 defined
@@ -581,9 +577,6 @@ count
 constexpr
 VMFunctionData
 (
-void
-*
-wrapped
 const
 char
 *
@@ -612,10 +605,6 @@ expectTailCall
 NonTailCall
 )
 :
-wrapped
-(
-wrapped
-)
 #
 if
 defined
@@ -719,12 +708,6 @@ VMFunctionData
 o
 )
 :
-wrapped
-(
-o
-.
-wrapped
-)
 #
 if
 defined
@@ -809,6 +792,10 @@ VMFunction
 public
 VMFunctionData
 {
+void
+*
+wrapped
+;
 static
 VMFunction
 *
@@ -854,7 +841,6 @@ NonTailCall
 :
 VMFunctionData
 (
-wrapped
 name
 explicitArgs
 argumentProperties
@@ -865,6 +851,10 @@ outParamRootType
 returnType
 extraValuesToPop
 expectTailCall
+)
+wrapped
+(
+wrapped
 )
 next
 (
@@ -883,6 +873,12 @@ o
 VMFunctionData
 (
 o
+)
+wrapped
+(
+o
+.
+wrapped
 )
 next
 (

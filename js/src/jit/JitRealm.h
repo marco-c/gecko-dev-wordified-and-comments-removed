@@ -760,6 +760,9 @@ const
 VMFunctionData
 &
 f
+void
+*
+nativeFun
 uint32_t
 *
 wrapperOffset

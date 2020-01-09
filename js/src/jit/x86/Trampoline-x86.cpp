@@ -2834,6 +2834,9 @@ const
 VMFunctionData
 &
 f
+void
+*
+nativeFun
 uint32_t
 *
 wrapperOffset
@@ -3375,9 +3378,7 @@ masm
 .
 callWithABI
 (
-f
-.
-wrapped
+nativeFun
 MoveOp
 :
 :
