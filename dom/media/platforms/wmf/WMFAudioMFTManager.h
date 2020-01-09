@@ -184,6 +184,11 @@ GetMediaSubtypeGUID
 (
 )
 ;
+bool
+mFirstFrame
+=
+true
+;
 }
 ;
 }
