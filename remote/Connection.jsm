@@ -103,6 +103,7 @@ Connection
 constructor
 (
 transport
+httpdConnection
 )
 {
 this
@@ -124,6 +125,12 @@ this
 transport
 =
 transport
+;
+this
+.
+httpdConnection
+=
+httpdConnection
 ;
 this
 .
@@ -515,6 +522,14 @@ this
 sessions
 .
 clear
+(
+)
+;
+this
+.
+httpdConnection
+.
+close
 (
 )
 ;
