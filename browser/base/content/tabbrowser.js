@@ -23251,11 +23251,6 @@ aWebProgress
 .
 isTopLevel
 ;
-if
-(
-topLevel
-)
-{
 let
 isSameDocument
 =
@@ -23271,6 +23266,11 @@ nsIWebProgressListener
 LOCATION_CHANGE_SAME_DOCUMENT
 )
 ;
+if
+(
+topLevel
+)
+{
 let
 isReload
 =
@@ -23772,6 +23772,15 @@ aFlags
 ]
 )
 ;
+if
+(
+topLevel
+&
+&
+!
+isSameDocument
+)
+{
 this
 .
 _callProgressListeners
@@ -23787,6 +23796,7 @@ true
 ]
 )
 ;
+}
 }
 if
 (
