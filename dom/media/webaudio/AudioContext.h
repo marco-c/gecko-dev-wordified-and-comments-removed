@@ -650,7 +650,7 @@ IsRunning
 const
 ;
 void
-NotifyScheduledSourceNodeStarted
+StartBlockedAudioContextIfAllowed
 (
 )
 ;
