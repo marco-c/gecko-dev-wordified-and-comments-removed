@@ -1426,7 +1426,7 @@ appType
 *
 *
 certain
-dochshells
+docshells
 (
 like
 the
@@ -5914,7 +5914,7 @@ SetInvisible
 (
 in
 bool
-aIsInvisibleDochsell
+aIsInvisibleDocshell
 )
 ;
 /
