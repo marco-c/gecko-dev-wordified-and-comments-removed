@@ -1304,11 +1304,11 @@ dispatchToEventLoopClosure_
 Mutex
 mutex_
 ;
-ConditionVariable
-allCanceled_
-;
 OffThreadPromiseTaskSet
 live_
+;
+ConditionVariable
+allCanceled_
 ;
 size_t
 numCanceled_
