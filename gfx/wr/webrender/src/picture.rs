@@ -11729,6 +11729,15 @@ device_pixel_scale
 }
 ;
 let
+surfaces
+=
+&
+mut
+frame_state
+.
+surfaces
+;
+let
 (
 map_raster_to_world
 map_pic_to_raster
@@ -12072,8 +12081,6 @@ add
 blur_render_task
 )
 ;
-frame_state
-.
 surfaces
 [
 surface_index
@@ -12311,8 +12318,6 @@ add
 blur_render_task
 )
 ;
-frame_state
-.
 surfaces
 [
 surface_index
@@ -12598,8 +12603,6 @@ add
 picture_task
 )
 ;
-frame_state
-.
 surfaces
 [
 surface_index
@@ -12735,8 +12738,6 @@ add
 picture_task
 )
 ;
-frame_state
-.
 surfaces
 [
 surface_index
@@ -12761,8 +12762,6 @@ render_task_id
 }
 }
 ;
-frame_state
-.
 surfaces
 [
 raster_config
