@@ -5036,6 +5036,14 @@ need
 xvfb
 :
 true
+run
+-
+on
+-
+projects
+:
+[
+]
 toolchains
 :
 -
