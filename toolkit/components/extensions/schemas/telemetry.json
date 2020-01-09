@@ -1519,7 +1519,7 @@ type
 "
 :
 "
-integer
+string
 "
 "
 optional

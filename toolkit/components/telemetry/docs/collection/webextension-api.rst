@@ -978,7 +978,7 @@ value
 *
 (
 optional
-integer
+string
 )
 *
 An
