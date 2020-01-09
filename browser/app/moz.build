@@ -596,6 +596,16 @@ ole32
 .
 dll
 '
+'
+rpcrt4
+.
+dll
+'
+'
+version
+.
+dll
+'
 ]
 if
 CONFIG
