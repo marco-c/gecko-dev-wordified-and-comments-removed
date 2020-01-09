@@ -207,6 +207,13 @@ namespace
 mozilla
 :
 :
+dom
+;
+using
+namespace
+mozilla
+:
+:
 gfx
 ;
 using

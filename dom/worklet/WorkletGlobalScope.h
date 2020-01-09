@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsDOMNavigationTiming
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h

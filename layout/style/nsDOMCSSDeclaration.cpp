@@ -117,6 +117,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsDOMCSSDeclaration
 :
 :
@@ -149,9 +156,6 @@ aGivenProto
 )
 {
 return
-dom
-:
-:
 CSS2Properties_Binding
 :
 :

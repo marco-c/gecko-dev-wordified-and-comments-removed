@@ -63,6 +63,17 @@ nsMappedAttributes
 struct
 RawServoDeclarationBlock
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
+class
+Document
+;
+}
+}
 class
 nsHTMLStyleSheet
 final

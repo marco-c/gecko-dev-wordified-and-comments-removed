@@ -38,6 +38,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 bool
 ServoCSSParser
 :
