@@ -58,6 +58,10 @@ ChromeProfile
 '
            
 '
+ChromiumProfile
+'
+           
+'
 Profile
 '
            
@@ -2947,7 +2951,7 @@ False
     
 }
 class
-ChromeProfile
+ChromiumProfile
 (
 BaseProfile
 )
@@ -3022,7 +3026,7 @@ kwargs
         
 super
 (
-ChromeProfile
+ChromiumProfile
 self
 )
 .
@@ -3243,6 +3247,14 @@ write
 (
 prefstr
 )
+class
+ChromeProfile
+(
+ChromiumProfile
+)
+:
+    
+pass
 profile_class
 =
 {
@@ -3252,6 +3264,12 @@ chrome
 '
 :
 ChromeProfile
+    
+'
+chromium
+'
+:
+ChromiumProfile
     
 '
 firefox

@@ -13,13 +13,64 @@ mozlog
 commandline
 import
 add_logging_group
+(
+FIREFOX
+ 
+CHROME
+ 
+CHROMIUM
+)
+=
+DESKTOP_APPS
+=
+[
+"
+firefox
+"
+"
+chrome
+"
+"
+chromium
+"
+]
+(
+FENNEC
+ 
+GECKOVIEW
+ 
+REFBROW
+ 
+FENIX
+)
+=
+FIREFOX_ANDROID_APPS
+=
+[
+"
+fennec
+"
+"
+geckoview
+"
+"
+refbrow
+"
+"
+fenix
+"
+]
+CHROMIUM_DISTROS
+=
+[
+CHROME
+CHROMIUM
+]
 APPS
 =
 {
     
-"
-firefox
-"
+FIREFOX
 :
 {
         
@@ -33,9 +84,7 @@ Desktop
 "
 }
     
-"
-chrome
-"
+CHROME
 :
 {
         
@@ -50,9 +99,22 @@ Desktop
 "
 }
     
+CHROMIUM
+:
+{
+        
 "
-fennec
+long_name
 "
+:
+"
+Google
+Chromium
+Desktop
+"
+}
+    
+FENNEC
 :
 {
         
@@ -68,9 +130,7 @@ Android
 "
 }
     
-"
-geckoview
-"
+GECKOVIEW
 :
 {
         
@@ -94,9 +154,7 @@ GeckoViewActivity
 "
 }
     
-"
-refbrow
-"
+REFBROW
 :
 {
         
@@ -121,9 +179,7 @@ BrowserTestActivity
 "
 }
     
-"
-fenix
-"
+FENIX
 :
 {
         
@@ -147,6 +203,16 @@ HomeActivity
 "
 }
 }
+INTEGRATED_APPS
+=
+list
+(
+APPS
+.
+keys
+(
+)
+)
 def
 print_all_activities
 (
@@ -1231,14 +1297,7 @@ args
 .
 app
 in
-[
-"
-firefox
-"
-"
-chrome
-"
-]
+DESKTOP_APPS
 :
         
 if
@@ -1594,6 +1653,42 @@ _StopAction
 :
     
 def
+__init__
+(
+self
+integrated_apps
+=
+INTEGRATED_APPS
+*
+args
+*
+*
+kwargs
+)
+:
+        
+super
+(
+_PrintTests
+self
+)
+.
+__init__
+(
+*
+args
+*
+*
+kwargs
+)
+        
+self
+.
+integrated_apps
+=
+integrated_apps
+    
+def
 __call__
 (
 self
@@ -1648,26 +1743,9 @@ ini
 for
 _app
 in
-[
-"
-firefox
-"
-"
-chrome
-"
-"
-fennec
-"
-"
-geckoview
-"
-"
-refbrow
-"
-"
-fenix
-"
-]
+self
+.
+integrated_apps
 :
             
 test_manifest

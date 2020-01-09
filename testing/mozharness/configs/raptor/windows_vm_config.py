@@ -243,7 +243,9 @@ webroot
 "
 install
 -
-chrome
+chromium
+-
+distribution
 "
         
 "

@@ -1414,6 +1414,7 @@ cache_name
 digest_data
 =
 [
+                
 "
 revision
 =
@@ -1425,6 +1426,7 @@ format
 (
 revision
 )
+                
 "
 platform
 =
@@ -1436,6 +1438,19 @@ format
 (
 platform
 )
+                
+"
+artifact_name
+=
+{
+}
+"
+.
+format
+(
+artifact_name
+)
+            
 ]
         
 )

@@ -43,7 +43,7 @@ artifact
 -
 name
 :
-chrome
+chromium
 -
 linux
 .
@@ -70,7 +70,7 @@ artifact
 -
 name
 :
-chrome
+chromium
 -
 win32
 .
@@ -97,7 +97,7 @@ artifact
 -
 name
 :
-chrome
+chromium
 -
 win64
 .
@@ -124,7 +124,7 @@ artifact
 -
 name
 :
-chrome
+chromium
 -
 mac
 .

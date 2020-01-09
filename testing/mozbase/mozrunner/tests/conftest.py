@@ -80,6 +80,9 @@ in
 chrome
 '
 '
+chromium
+'
+'
 firefox
 '
 )
@@ -144,6 +147,28 @@ CHROME_BINARY_PATH
 '
 )
         
+elif
+app
+=
+=
+'
+chromium
+'
+:
+            
+binary
+=
+os
+.
+environ
+.
+get
+(
+'
+CHROMIUM_BINARY_PATH
+'
+)
+        
 if
 not
 binary
@@ -187,6 +212,9 @@ firefox
 '
 chrome
 '
+'
+chromium
+'
 ]
 )
 def
@@ -222,11 +250,15 @@ headless
     
 if
 app
-=
-=
+in
+[
 '
 chrome
 '
+'
+chromium
+'
+]
 :
         
 cmdargs

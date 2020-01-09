@@ -25,6 +25,8 @@ Profile
     
 ChromeProfile
     
+ChromiumProfile
+    
 FirefoxProfile
     
 ThunderbirdProfile
@@ -158,6 +160,13 @@ ChromeProfile
     
 (
 '
+chromium
+'
+ChromiumProfile
+)
+    
+(
+'
 firefox
 '
 FirefoxProfile
@@ -261,6 +270,8 @@ cls
 Profile
     
 ChromeProfile
+    
+ChromiumProfile
 ]
 )
 def
