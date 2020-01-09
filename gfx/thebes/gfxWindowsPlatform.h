@@ -947,6 +947,11 @@ InitializeAdvancedLayersConfig
 (
 )
 ;
+void
+RecordStartupTelemetry
+(
+)
+;
 RefPtr
 <
 IDWriteRenderingParams
