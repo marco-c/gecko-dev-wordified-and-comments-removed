@@ -1429,6 +1429,22 @@ Schema
         
 return
 schema
+    
+def
+__getitem__
+(
+self
+item
+)
+:
+        
+return
+self
+.
+schema
+[
+item
+]
 OptimizationSchema
 =
 voluptuous
