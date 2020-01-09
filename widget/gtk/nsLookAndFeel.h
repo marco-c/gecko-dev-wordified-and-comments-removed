@@ -384,6 +384,11 @@ mCaretRatio
 .
 0f
 ;
+int32_t
+mCaretBlinkTime
+=
+0
+;
 bool
 mMenuSupportsDrag
 =
