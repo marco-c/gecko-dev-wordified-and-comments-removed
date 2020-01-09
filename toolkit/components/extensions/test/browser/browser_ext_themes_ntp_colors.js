@@ -560,10 +560,11 @@ preload
 }
 )
 ;
-gBrowser
+NewTabPagePreloading
 .
 removePreloadedBrowser
 (
+window
 )
 ;
 for

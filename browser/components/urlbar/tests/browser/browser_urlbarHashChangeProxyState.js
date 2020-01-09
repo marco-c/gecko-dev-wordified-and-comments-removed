@@ -537,10 +537,11 @@ function
 (
 )
 {
-gBrowser
+NewTabPagePreloading
 .
 removePreloadedBrowser
 (
+window
 )
 ;
 let
