@@ -317,10 +317,10 @@ in
 self
 .
 flags
-                          
+                                   
 if
-not
 f
+not
 in
 self
 .
@@ -732,7 +732,7 @@ join
 self
 .
 base
-                                                       
+                                             
 self
 .
 relpath
@@ -1958,7 +1958,7 @@ globals
 values
 (
 )
-                       
+                        
 if
 type
 (
@@ -1973,7 +1973,7 @@ issubclass
 c
 ManifestEntry
 )
-                       
+                        
 and
 hasattr
 (

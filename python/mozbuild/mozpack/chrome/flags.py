@@ -1851,8 +1851,8 @@ name
 ]
             
 if
-not
 name
+not
 in
 self
 .
@@ -1877,8 +1877,8 @@ name
 continue
             
 if
-not
 name
+not
 in
 self
 :
@@ -2071,8 +2071,8 @@ iteritems
 :
             
 if
-not
 name
+not
 in
 self
 :

@@ -2013,6 +2013,7 @@ we_manifest
 =
 GeneratedFile
 (
+            
 '
 {
 "
@@ -3471,7 +3472,7 @@ e
 exception
 .
 message
-            
+                         
 '
 Error
 :
@@ -3491,7 +3492,7 @@ base
 manifest
 "
 '
-            
+                         
 '
 which
 is
@@ -3635,7 +3636,7 @@ e
 exception
 .
 message
-            
+                         
 '
 Error
 :
@@ -3655,7 +3656,7 @@ base
 manifest
 "
 '
-            
+                         
 '
 which
 is
@@ -4643,7 +4644,7 @@ spaces
 again
 "
 '
-                       
+                      
 '
 trim
 '

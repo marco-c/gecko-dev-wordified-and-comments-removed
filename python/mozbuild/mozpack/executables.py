@@ -576,7 +576,7 @@ USE_ELF_HACK
 '
 ]
 and
-        
+            
 path
 .
 endswith
@@ -589,7 +589,7 @@ DLL_SUFFIX
 ]
 )
 and
-        
+            
 '
 COMPILE_ENVIRONMENT
 '

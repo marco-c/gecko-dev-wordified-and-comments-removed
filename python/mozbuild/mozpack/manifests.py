@@ -701,7 +701,7 @@ version
 s
 '
 %
-                
+                                            
 version
 )
         
@@ -934,14 +934,14 @@ source
 dest
 deps
 marker
-                    
+                                    
 self
 .
 _decode_field_entry
 (
 defines
 )
-                    
+                                    
 silence_missing_directive_warnings
 =
 bool
@@ -1017,7 +1017,7 @@ type
 d
 '
 %
-                    
+                                                
 record_type
 )
     
@@ -1929,7 +1929,7 @@ join
 dest
 pattern
 )
-            
+                        
 (
 self
 .
@@ -1986,7 +1986,7 @@ join
 dest
 pattern
 )
-            
+                        
 (
 self
 .
@@ -2800,35 +2800,36 @@ add
 dest
 PreprocessedFile
 (
+                   
 entry
 [
 1
 ]
-                    
+                   
 depfile_path
 =
 entry
 [
 2
 ]
-                    
+                   
 marker
 =
 entry
 [
 3
 ]
-                    
+                   
 defines
 =
 defines
-                    
+                   
 extra_depends
 =
 self
 .
 _source_files
-                    
+                   
 silence_missing_directive_warnings
 =
 bool
@@ -2841,6 +2842,7 @@ entry
 ]
 )
 )
+                
 )
 )
                 
@@ -2904,6 +2906,6 @@ manifest
 d
 '
 %
-                
+                            
 install_type
 )

@@ -643,7 +643,7 @@ first
 1000
 )
 \
-                
+            
 <
 =
 int
@@ -2739,7 +2739,7 @@ exist
 s
 "
 %
-                
+                         
 dest
 .
 path
@@ -4515,7 +4515,7 @@ s
 :
 '
 %
-                    
+                            
 (
 getattr
 (
@@ -4582,7 +4582,7 @@ False
 minify_js
 =
 False
-        
+                 
 minify_js_verify_command
 =
 None

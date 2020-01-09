@@ -478,8 +478,8 @@ itervalues
 )
                                
 if
-not
 t
+not
 in
 JarStruct
 .
@@ -696,8 +696,8 @@ tobytes
 )
             
 if
-not
 name
+not
 in
 sizes
 :
@@ -975,8 +975,8 @@ iteritems
 )
                      
 if
-not
 t
+not
 in
 JarStruct
 .
@@ -1199,8 +1199,8 @@ value
 :
         
 if
-not
 key
+not
 in
 self
 .
@@ -4426,7 +4426,6 @@ Deflater
 )
 )
 and
-\
                 
 data
 .
@@ -4801,8 +4800,8 @@ files
 :
             
 if
-not
 f
+not
 in
 self
 .
@@ -4838,8 +4837,8 @@ _contents
 :
             
 if
-not
 f
+not
 in
 new_contents
 :
@@ -5591,13 +5590,13 @@ brotli_tool
 (
 )
 :
-            
+        
 from
 buildconfig
 import
 topobjdir
 substs
-            
+        
 return
 os
 .
@@ -5615,7 +5614,7 @@ host
 '
 bin
 '
-                               
+                            
 '
 bro
 '

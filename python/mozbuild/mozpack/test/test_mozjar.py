@@ -1343,7 +1343,7 @@ baz
 /
 backslash
 '
-                
+                             
 '
 backslashes
 in
@@ -1375,7 +1375,7 @@ baz
 \
 backslash
 '
-                
+                             
 '
 backslashes
 in
@@ -2873,13 +2873,14 @@ fileobj
 s
 )
         
+def
 canonicalize
-=
-lambda
+(
 p
+)
 :
-\
             
+return
 mozpath
 .
 normsep
