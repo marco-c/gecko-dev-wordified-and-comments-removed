@@ -2983,6 +2983,7 @@ nsDisplayCanvasBackgroundImage
 >
 (
 aBuilder
+this
 bgData
 )
 ;
@@ -3037,6 +3038,7 @@ nsDisplayCanvasBackgroundImage
 >
 (
 aBuilder
+this
 bgData
 )
 ;
