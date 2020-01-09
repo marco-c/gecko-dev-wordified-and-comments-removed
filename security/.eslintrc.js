@@ -210,17 +210,6 @@ error
 "
 no
 -
-throw
--
-literal
-"
-:
-"
-error
-"
-"
-no
--
 unmodified
 -
 loop

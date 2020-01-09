@@ -245,17 +245,6 @@ error
 "
 no
 -
-throw
--
-literal
-"
-:
-"
-error
-"
-"
-no
--
 unused
 -
 expressions

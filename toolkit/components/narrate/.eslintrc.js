@@ -303,17 +303,6 @@ shadow
 error
 "
 "
-no
--
-throw
--
-literal
-"
-:
-"
-error
-"
-"
 quotes
 "
 :

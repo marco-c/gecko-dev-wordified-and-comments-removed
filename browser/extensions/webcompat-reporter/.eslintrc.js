@@ -396,17 +396,6 @@ assign
 error
 "
 "
-no
--
-throw
--
-literal
-"
-:
-"
-error
-"
-"
 radix
 "
 :

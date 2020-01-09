@@ -1695,15 +1695,6 @@ ternary
 "
 no
 -
-throw
--
-literal
-"
-:
-2
-"
-no
--
 undef
 -
 init

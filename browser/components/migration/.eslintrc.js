@@ -193,17 +193,6 @@ error
 "
 no
 -
-throw
--
-literal
-"
-:
-"
-error
-"
-"
-no
--
 unused
 -
 vars

@@ -1875,17 +1875,6 @@ off
 "
 no
 -
-throw
--
-literal
-"
-:
-"
-error
-"
-"
-no
--
 underscore
 -
 dangle
