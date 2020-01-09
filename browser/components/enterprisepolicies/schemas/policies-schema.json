@@ -2361,9 +2361,14 @@ RequestedLocales
 type
 "
 :
+[
+"
+string
+"
 "
 array
 "
+]
 "
 items
 "
