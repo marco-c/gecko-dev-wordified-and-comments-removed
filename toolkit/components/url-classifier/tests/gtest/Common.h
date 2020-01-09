@@ -55,6 +55,9 @@ safebrowsing
 class
 Classifier
 ;
+class
+LookupCacheV4
+;
 }
 }
 typedef
@@ -171,6 +174,17 @@ nsCString
 aFragment
 uint8_t
 aLength
+)
+;
+void
+CheckContent
+(
+LookupCacheV4
+*
+cache
+PrefixStringMap
+&
+expected
 )
 ;
 template
