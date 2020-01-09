@@ -364,6 +364,9 @@ skip
 if
 (
 Android
+|
+|
+gtkWidget
 )
 fails
 !
