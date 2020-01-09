@@ -19466,9 +19466,12 @@ searchProvider
 search_form
 template
 :
+decodeURI
+(
 searchProvider
 .
 search_url
+)
 searchGetParams
 :
 searchProvider
