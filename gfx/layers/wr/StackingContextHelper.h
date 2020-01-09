@@ -100,13 +100,6 @@ wr
 StackingContextParams
 &
 aParams
-=
-wr
-:
-:
-StackingContextParams
-(
-)
 const
 LayoutDeviceRect
 &

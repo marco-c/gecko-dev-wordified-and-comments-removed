@@ -6594,6 +6594,9 @@ PictureCompositeMode
 :
 :
 Blit
+(
+_
+)
 =
 >
 {

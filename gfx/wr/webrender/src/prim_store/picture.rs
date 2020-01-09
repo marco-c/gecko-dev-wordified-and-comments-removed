@@ -792,6 +792,9 @@ PictureCompositeMode
 :
 :
 Blit
+(
+_
+)
 )
 |
 Some
