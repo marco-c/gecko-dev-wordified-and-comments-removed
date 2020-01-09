@@ -15393,7 +15393,7 @@ Conduit
 )
 -
 >
-GetRTPStats
+GetRTPReceiverStats
 (
 &
 jitterMs

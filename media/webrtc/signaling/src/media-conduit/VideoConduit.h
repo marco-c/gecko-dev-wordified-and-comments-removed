@@ -982,7 +982,7 @@ framesDecoded
 override
 ;
 bool
-GetRTPStats
+GetRTPReceiverStats
 (
 unsigned
 int

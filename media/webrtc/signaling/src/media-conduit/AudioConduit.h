@@ -723,7 +723,7 @@ false
 ;
 }
 bool
-GetRTPStats
+GetRTPReceiverStats
 (
 unsigned
 int

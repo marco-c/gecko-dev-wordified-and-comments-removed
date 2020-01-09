@@ -875,7 +875,7 @@ bool
 WebrtcAudioConduit
 :
 :
-GetRTPStats
+GetRTPReceiverStats
 (
 unsigned
 int
