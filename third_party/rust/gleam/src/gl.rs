@@ -4328,6 +4328,16 @@ GLuint
 ;
 /
 /
+GL_KHR_blend_equation_advanced
+fn
+blend_barrier_khr
+(
+&
+self
+)
+;
+/
+/
 GL_ARB_blend_func_extended
 fn
 bind_frag_data_location_indexed

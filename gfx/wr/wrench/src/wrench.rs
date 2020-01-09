@@ -1175,7 +1175,6 @@ clone
 )
 )
 )
-disable_dual_source_blending
 chase_primitive
 enable_picture_caching
 :
@@ -1189,6 +1188,13 @@ Some
 (
 8196
 )
+allow_dual_source_blending
+:
+!
+disable_dual_source_blending
+allow_advanced_blend_equation
+:
+true
 .
 .
 Default
