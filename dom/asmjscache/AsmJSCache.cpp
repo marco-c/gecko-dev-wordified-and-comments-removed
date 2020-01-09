@@ -17,6 +17,15 @@ include
 "
 js
 /
+BuildId
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
