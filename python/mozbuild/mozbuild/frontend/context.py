@@ -14473,7 +14473,7 @@ TELEMETRY_TESTS_CLIENT_MANIFESTS
 (
 ManifestparserManifestList
 list
-                                         
+        
 "
 "
 "
