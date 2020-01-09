@@ -380,6 +380,8 @@ BrowserTestUtils
 waitForEvent
 (
 signonsTree
+.
+inputField
 "
 focus
 "
@@ -627,6 +629,8 @@ BrowserTestUtils
 waitForEvent
 (
 signonsTree
+.
+inputField
 "
 focus
 "
