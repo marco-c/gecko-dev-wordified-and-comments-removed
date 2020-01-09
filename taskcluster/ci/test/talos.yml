@@ -306,6 +306,14 @@ test
 -
 platform
 :
+windows10
+-
+aarch64
+/
+.
+*
+:
+2
 .
 *
 -
