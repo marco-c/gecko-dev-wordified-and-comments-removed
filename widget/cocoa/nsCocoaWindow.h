@@ -266,6 +266,17 @@ isVisibleOrBeingShown
 ;
 -
 (
+NSArray
+<
+NSView
+*
+>
+*
+)
+contentViewContents
+;
+-
+(
 ChildView
 *
 )
