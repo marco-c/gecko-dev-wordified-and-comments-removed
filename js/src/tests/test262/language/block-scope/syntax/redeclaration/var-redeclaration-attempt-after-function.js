@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+{
+function
+f
+(
+)
+{
+}
+;
+var
+f
+;
+}

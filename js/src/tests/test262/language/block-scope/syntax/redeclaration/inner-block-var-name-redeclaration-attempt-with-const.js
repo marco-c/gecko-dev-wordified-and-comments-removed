@@ -1,0 +1,16 @@
+DONOTEVALUATE
+(
+)
+;
+{
+{
+var
+f
+;
+}
+const
+f
+=
+0
+;
+}

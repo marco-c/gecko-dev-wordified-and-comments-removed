@@ -1,0 +1,13 @@
+DONOTEVALUATE
+(
+)
+;
+{
+let
+f
+;
+class
+f
+{
+}
+}

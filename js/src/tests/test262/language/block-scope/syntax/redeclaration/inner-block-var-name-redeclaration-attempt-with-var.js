@@ -1,0 +1,15 @@
+{
+{
+var
+f
+;
+}
+var
+f
+}
+reportCompare
+(
+0
+0
+)
+;

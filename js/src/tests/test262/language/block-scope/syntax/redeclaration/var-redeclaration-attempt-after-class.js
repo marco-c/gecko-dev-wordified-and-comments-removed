@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+{
+class
+f
+{
+}
+;
+var
+f
+;
+}
