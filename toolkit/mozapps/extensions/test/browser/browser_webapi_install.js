@@ -24,6 +24,20 @@ amosigned
 xpi
 ;
 const
+XPI_ADDON_ID
+=
+"
+amosigned
+-
+xpi
+tests
+.
+mozilla
+.
+org
+"
+;
+const
 XPI_SHA
 =
 "
@@ -999,9 +1013,9 @@ addon
 -
 installed
 "
-"
-extension
-"
+options
+.
+addonId
 )
 ;
 await
@@ -1120,6 +1134,11 @@ uninstalled
 )
 ;
 }
+let
+addonId
+=
+XPI_ADDON_ID
+;
 add_task
 (
 makeRegularTest
@@ -1128,6 +1147,7 @@ makeRegularTest
 url
 :
 XPI_URL
+addonId
 }
 "
 a
@@ -1146,6 +1166,7 @@ makeRegularTest
 url
 :
 XPI_URL
+addonId
 hash
 :
 null
@@ -1169,6 +1190,7 @@ makeRegularTest
 url
 :
 XPI_URL
+addonId
 hash
 :
 "
@@ -1194,6 +1216,7 @@ makeRegularTest
 url
 :
 XPI_URL
+addonId
 hash
 :
 XPI_SHA
