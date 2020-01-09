@@ -351,7 +351,7 @@ menu
 popupset
 >
 <
-popup
+menupopup
 id
 =
 "
@@ -387,7 +387,7 @@ Paste
 >
 <
 /
-popup
+menupopup
 >
 <
 tooltip
