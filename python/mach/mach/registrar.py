@@ -469,6 +469,12 @@ handler
 pass_context
 :
             
+context
+.
+handler
+=
+handler
+            
 instance
 =
 cls
