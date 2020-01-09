@@ -1,0 +1,10 @@
+/
+/
+|
+jit
+-
+test
+|
+error
+:
+SyntaxError
