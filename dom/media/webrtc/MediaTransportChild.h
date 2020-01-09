@@ -32,6 +32,9 @@ PMediaTransportChild
 {
 public
 :
+#
+ifdef
+MOZ_WEBRTC
 explicit
 MediaTransportChild
 (
@@ -194,6 +197,8 @@ MediaTransportHandlerIPC
 >
 mUser
 ;
+#
+endif
 }
 ;
 }
