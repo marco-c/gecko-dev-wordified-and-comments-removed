@@ -12333,9 +12333,12 @@ nsAutoSyncOperation
 ;
 private
 :
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIDocument
+>
 >
 mDocuments
 ;
