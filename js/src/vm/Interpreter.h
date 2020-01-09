@@ -1780,11 +1780,12 @@ JSContext
 *
 cx
 HandleObject
-varobj
-HandlePropertyName
-dn
-unsigned
-attrs
+envChain
+HandleScript
+script
+jsbytecode
+*
+pc
 )
 ;
 bool
