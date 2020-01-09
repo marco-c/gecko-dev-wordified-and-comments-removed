@@ -24,6 +24,17 @@ test
 "
 ]
 "
+env
+"
+:
+{
+"
+webextensions
+"
+:
+true
+}
+"
 rules
 "
 :
