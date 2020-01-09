@@ -573,7 +573,13 @@ SheetLoadDataHolder
 data
 RawServoStyleSheetContentsStrong
 sheet_contents
-StyleUseCountersOwnedOrNull
+mozilla
+:
+:
+StyleOwnedOrNull
+<
+StyleUseCounters
+>
 use_counters
 )
 ;
