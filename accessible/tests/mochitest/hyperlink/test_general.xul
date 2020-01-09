@@ -848,13 +848,6 @@ id
 "
 linkedLabel
 "
-class
-=
-"
-text
--
-link
-"
 href
 =
 "
@@ -868,6 +861,13 @@ mozilla
 .
 org
 /
+"
+is
+=
+"
+text
+-
+link
 "
 >
 Mozilla
@@ -890,7 +890,7 @@ value
 Mozilla
 Foundation
 "
-class
+is
 =
 "
 text

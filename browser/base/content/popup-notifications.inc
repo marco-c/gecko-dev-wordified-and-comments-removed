@@ -885,7 +885,7 @@ header
 -
 link
 "
-class
+is
 =
 "
 text
@@ -1079,7 +1079,7 @@ more
 -
 link
 "
-class
+is
 =
 "
 text

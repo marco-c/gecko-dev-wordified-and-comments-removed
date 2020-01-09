@@ -384,8 +384,6 @@ title
 linkset
 >
 <
-html
-:
 link
 rel
 =
@@ -404,8 +402,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -428,8 +424,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -462,8 +456,6 @@ js
 -
 >
 <
-html
-:
 link
 rel
 =
@@ -504,8 +496,6 @@ subdialogs
 -
 >
 <
-html
-:
 link
 rel
 =
@@ -526,8 +516,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -548,8 +536,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -570,8 +556,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -592,8 +576,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -614,8 +596,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -636,8 +616,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -658,8 +636,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -680,8 +656,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -700,8 +674,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -720,8 +692,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -742,8 +712,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -764,8 +732,6 @@ ftl
 /
 >
 <
-html
-:
 link
 rel
 =
@@ -1696,7 +1662,7 @@ id
 "
 addonsButton
 "
-class
+is
 =
 "
 text
@@ -1801,7 +1767,7 @@ id
 "
 helpButton
 "
-class
+is
 =
 "
 text

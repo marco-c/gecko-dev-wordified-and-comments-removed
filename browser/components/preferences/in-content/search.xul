@@ -913,13 +913,6 @@ id
 "
 addEngines
 "
-class
-=
-"
-text
--
-link
-"
 data
 -
 l10n
@@ -932,6 +925,13 @@ search
 find
 -
 more
+-
+link
+"
+is
+=
+"
+text
 -
 link
 "

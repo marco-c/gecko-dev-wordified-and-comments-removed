@@ -166,9 +166,6 @@ class
 =
 "
 plain
-text
--
-link
 "
 onclick
 =
@@ -209,6 +206,13 @@ hidePopup
 (
 )
 ;
+"
+is
+=
+"
+text
+-
+link
 "
 /
 >

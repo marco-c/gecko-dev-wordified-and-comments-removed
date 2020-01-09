@@ -1326,6 +1326,15 @@ createXULElement
 "
 label
 "
+{
+is
+:
+"
+text
+-
+link
+"
+}
 )
 ;
 link
@@ -1337,9 +1346,6 @@ class
 "
 "
 learnMore
-text
--
-link
 "
 )
 ;

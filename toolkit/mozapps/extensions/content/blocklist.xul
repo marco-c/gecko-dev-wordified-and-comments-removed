@@ -543,13 +543,6 @@ id
 "
 moreInfo
 "
-class
-=
-"
-text
--
-link
-"
 value
 =
 "
@@ -558,6 +551,13 @@ blocklist
 .
 moreinfo
 ;
+"
+is
+=
+"
+text
+-
+link
 "
 /
 >

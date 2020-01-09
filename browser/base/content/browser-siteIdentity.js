@@ -6506,6 +6506,15 @@ createXULElement
 "
 label
 "
+{
+is
+:
+"
+text
+-
+link
+"
+}
 )
 ;
 text
@@ -6535,9 +6544,6 @@ popup
 permission
 -
 label
-text
--
-link
 "
 )
 ;
