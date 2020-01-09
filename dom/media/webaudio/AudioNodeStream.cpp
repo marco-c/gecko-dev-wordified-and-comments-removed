@@ -166,6 +166,10 @@ ChannelInterpretation
 :
 Speakers
 ;
+mHasCurrentData
+=
+true
+;
 mLastChunks
 .
 SetLength
