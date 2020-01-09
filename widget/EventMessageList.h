@@ -61,6 +61,14 @@ eScroll
 )
 NS_EVENT_MESSAGE
 (
+eMozVisualResize
+)
+NS_EVENT_MESSAGE
+(
+eMozVisualScroll
+)
+NS_EVENT_MESSAGE
+(
 eInstall
 )
 NS_EVENT_MESSAGE
