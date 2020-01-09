@@ -7,14 +7,14 @@ mozilla_dom_SVGEllipseElement_h
 #
 include
 "
-SVGAnimatedLength
+SVGGeometryElement
 .
 h
 "
 #
 include
 "
-SVGGeometryElement
+nsSVGLength2
 .
 h
 "
@@ -237,7 +237,7 @@ RX
 RY
 }
 ;
-SVGAnimatedLength
+nsSVGLength2
 mLengthAttributes
 [
 4

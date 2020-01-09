@@ -17954,7 +17954,7 @@ GetContent
 )
 )
 ;
-SVGAnimatedLength
+nsSVGLength2
 *
 length
 =
@@ -19121,7 +19121,7 @@ GetContent
 )
 )
 ;
-SVGAnimatedLength
+nsSVGLength2
 *
 textLengthAttr
 =

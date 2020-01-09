@@ -293,7 +293,7 @@ ComputeBounds
 (
 )
 {
-SVGAnimatedLength
+nsSVGLength2
 XYWH
 [
 4
@@ -741,7 +741,7 @@ aValue
 )
 const
 {
-SVGAnimatedLength
+nsSVGLength2
 val
 ;
 val
@@ -866,7 +866,7 @@ aPoint
 )
 const
 {
-SVGAnimatedLength
+nsSVGLength2
 val
 [
 4

@@ -595,10 +595,7 @@ void
 SetTo
 (
 const
-mozilla
-:
-:
-SVGAnimatedLength
+nsSVGLength2
 &
 aValue
 const

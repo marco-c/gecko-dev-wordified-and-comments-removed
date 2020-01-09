@@ -479,7 +479,7 @@ float
 ComputeSynthesizedViewBoxDimension
 (
 const
-SVGAnimatedLength
+nsSVGLength2
 &
 aLength
 float

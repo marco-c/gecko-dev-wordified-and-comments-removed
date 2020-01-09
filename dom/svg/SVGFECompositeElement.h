@@ -14,14 +14,14 @@ h
 #
 include
 "
-SVGAnimatedNumber
+SVGFilters
 .
 h
 "
 #
 include
 "
-SVGFilters
+nsSVGNumber2
 .
 h
 "
@@ -332,7 +332,7 @@ ATTR_K3
 ATTR_K4
 }
 ;
-SVGAnimatedNumber
+nsSVGNumber2
 mNumberAttributes
 [
 4

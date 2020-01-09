@@ -2014,7 +2014,7 @@ nsAttrValue
 SetTo
 (
 const
-SVGAnimatedLength
+nsSVGLength2
 &
 aValue
 const
@@ -7998,7 +7998,7 @@ mSVGLength
 static_cast
 <
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 >
 (

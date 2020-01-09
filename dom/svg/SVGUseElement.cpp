@@ -2030,7 +2030,7 @@ TriggerReclone
 return
 ;
 }
-SVGAnimatedLength
+nsSVGLength2
 length
 ;
 length

@@ -7,7 +7,7 @@ mozilla_dom_SVGFEOffsetElement_h
 #
 include
 "
-SVGAnimatedNumber
+nsSVGNumber2
 .
 h
 "
@@ -278,7 +278,7 @@ DX
 DY
 }
 ;
-SVGAnimatedNumber
+nsSVGNumber2
 mNumberAttributes
 [
 2

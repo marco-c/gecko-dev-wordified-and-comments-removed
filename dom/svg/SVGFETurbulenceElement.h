@@ -21,7 +21,7 @@ h
 #
 include
 "
-SVGAnimatedNumber
+nsSVGNumber2
 .
 h
 "
@@ -334,7 +334,7 @@ enum
 SEED
 }
 ;
-SVGAnimatedNumber
+nsSVGNumber2
 mNumberAttributes
 [
 1

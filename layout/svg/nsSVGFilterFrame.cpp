@@ -268,7 +268,7 @@ GetAnimValue
 ;
 }
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 nsSVGFilterFrame
 :
@@ -283,7 +283,7 @@ aDefault
 )
 {
 const
-SVGAnimatedLength
+nsSVGLength2
 *
 thisLength
 =
