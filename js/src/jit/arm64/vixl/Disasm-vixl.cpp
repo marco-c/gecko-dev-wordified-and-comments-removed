@@ -20721,13 +20721,9 @@ Rn
 (
 )
 ;
-snprintf
+SprintfLiteral
 (
 re_form
-sizeof
-(
-re_form
-)
 form
 (
 reg_num
