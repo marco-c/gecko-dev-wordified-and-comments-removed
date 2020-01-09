@@ -1236,7 +1236,10 @@ uint64_t
 &
 aOldVersion
 const
-NullableVersion
+Maybe
+<
+uint64_t
+>
 &
 aNewVersion
 )
