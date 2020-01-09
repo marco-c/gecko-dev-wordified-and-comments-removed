@@ -259,6 +259,14 @@ ready
 "
 )
 ;
+gBrowser
+.
+selectedTab
+.
+focus
+(
+)
+;
 let
 menu
 =
