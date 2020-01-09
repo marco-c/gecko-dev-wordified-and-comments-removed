@@ -38,9 +38,6 @@ debugTargetCollapsibilities
 =
 {
 }
-networkEnabled
-=
-false
 wifiEnabled
 =
 false
@@ -58,7 +55,6 @@ debugTargetCollapsibilities
 isScanningUsb
 :
 false
-networkEnabled
 networkLocations
 :
 locations

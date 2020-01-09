@@ -319,13 +319,6 @@ PropTypes
 bool
 .
 isRequired
-networkEnabled
-:
-PropTypes
-.
-bool
-.
-isRequired
 networkLocations
 :
 PropTypes
@@ -465,7 +458,6 @@ const
 {
 adbAddonStatus
 dispatch
-networkEnabled
 networkLocations
 wifiEnabled
 }
@@ -480,7 +472,6 @@ ConnectPage
 {
 adbAddonStatus
 dispatch
-networkEnabled
 networkLocations
 wifiEnabled
 }
@@ -881,13 +872,6 @@ state
 ui
 .
 isScanningUsb
-networkEnabled
-:
-state
-.
-ui
-.
-networkEnabled
 networkLocations
 :
 state

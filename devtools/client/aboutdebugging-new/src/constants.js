@@ -423,15 +423,6 @@ const
 PREFERENCES
 =
 {
-NETWORK_ENABLED
-:
-"
-devtools
-.
-aboutdebugging
-.
-network
-"
 PROCESS_DEBUGGING_ENABLED
 :
 "
