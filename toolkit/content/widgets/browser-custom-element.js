@@ -6190,6 +6190,8 @@ direction
 =
 data
 .
+style
+.
 direction
 ;
 let
