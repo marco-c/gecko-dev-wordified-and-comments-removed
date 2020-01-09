@@ -8766,7 +8766,7 @@ continuepc
 =
 target
 +
-1
+JSOP_JUMPTARGET_LENGTH
 |
 |
 EffectiveContinue
