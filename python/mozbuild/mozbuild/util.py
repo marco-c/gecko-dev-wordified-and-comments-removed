@@ -2571,7 +2571,7 @@ d
 .
 '
 %
-            
+                
 self
 .
 i
@@ -2804,7 +2804,7 @@ __setslice__
 (
 i
 j
-            
+                                                                         
 sequence
 )
     
@@ -2866,7 +2866,7 @@ StrictOrderingOnAppendList
 (
 ListMixin
 StrictOrderingOnAppendListMixin
-        
+                                 
 list
 )
 :
@@ -3270,7 +3270,7 @@ class
 StrictOrderingOnAppendListWithAction
 (
 StrictOrderingOnAppendListMixin
-    
+                                           
 ListMixin
 ListWithActionMixin
 list
@@ -5557,7 +5557,7 @@ for
 more
 than
 '
-                
+                            
 '
 {
 1
@@ -6476,7 +6476,7 @@ s
 %
 (
 fname
-                                    
+                                                             
 type
 (
 value
@@ -6674,7 +6674,7 @@ __setslice__
 (
 i
 j
-            
+                                                        
 sequence
 )
     
@@ -8700,7 +8700,7 @@ multiprocessing
 forking
 import
 main
-;
+            
 main
 (
 )

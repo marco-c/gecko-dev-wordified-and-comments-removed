@@ -263,7 +263,7 @@ topsrcdir
 topobjdir
 virtualenv_path
 log_handle
-        
+                 
 manifest_path
 )
 :
@@ -316,6 +316,7 @@ path
 .
 isabs
 (
+            
 manifest_path
 )
 "
@@ -426,7 +427,7 @@ third_party
 '
 python
 '
-            
+                            
 '
 virtualenv
 '
@@ -865,7 +866,7 @@ virtualenv_root
 )
 or
 \
-            
+                
 not
 os
 .
@@ -1345,7 +1346,7 @@ python
 self
 .
 virtualenv_script_path
-            
+                
 '
 -
 -
@@ -1353,7 +1354,7 @@ no
 -
 download
 '
-            
+                
 self
 .
 virtualenv_root
@@ -1958,7 +1959,7 @@ package
 1
 ]
 )
-                    
+                                
 package
 [
 2
@@ -2290,8 +2291,7 @@ command
 .
 Ignoring
 '
-\
-                        
+                          
 '
 because
 optional
@@ -2310,7 +2310,7 @@ join
 (
 package
 )
-                        
+                          
 file
 =
 self
@@ -2557,7 +2557,7 @@ CXXFLAGS
 '
 LDFLAGS
 '
-            
+                                
 '
 PYTHONDONTWRITEBYTECODE
 '
@@ -2670,7 +2670,7 @@ cygwin
 )
 and
 \
-                
+                    
 '
 VS90COMNTOOLS
 '
@@ -2693,7 +2693,7 @@ allow
 binary
 Python
 '
-                    
+                              
 '
 extensions
 to
@@ -2707,7 +2707,7 @@ warning
 go
 away
 '
-                    
+                              
 '
 by
 installing
@@ -2720,14 +2720,14 @@ can
 download
 the
 '
-                    
+                              
 '
 Express
 Edition
 installer
 from
 '
-                    
+                              
 '
 http
 :
@@ -3134,7 +3134,7 @@ populate
 self
 .
 topsrcdir
-            
+                
 self
 .
 topobjdir
@@ -4490,7 +4490,7 @@ VirtualenvManager
 topsrcdir
 topobjdir
 virtualenv_path
-        
+                                
 sys
 .
 stdout

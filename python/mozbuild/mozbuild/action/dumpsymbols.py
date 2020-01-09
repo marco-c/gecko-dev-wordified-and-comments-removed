@@ -482,7 +482,7 @@ topsrcdir
 '
 toolkit
 '
-                                                       
+                                                        
 '
 crashreporter
 '

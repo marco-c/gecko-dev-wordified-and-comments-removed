@@ -4051,7 +4051,7 @@ basename
 real_name
 =
 None
-        
+                 
 link_into
 =
 None
@@ -4227,7 +4227,7 @@ context
 config
 .
 rust_lib_prefix
-                                     
+                                    
 basename
 .
 replace
@@ -4239,7 +4239,7 @@ replace
 _
 '
 )
-                                     
+                                    
 context
 .
 config
@@ -5071,7 +5071,7 @@ manifest
 flavor
 =
 None
-            
+                 
 install_prefix
 =
 None
@@ -5082,7 +5082,7 @@ sources
 =
 (
 )
-            
+                 
 dupe_manifest
 =
 False
@@ -6729,6 +6729,7 @@ self
 required_for_compile
 =
 [
+            
 f
 for
 f

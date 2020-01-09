@@ -891,7 +891,7 @@ ve
 VirtualenvManager
 (
 topsrcdir
-        
+                           
 os
 .
 path
@@ -905,7 +905,7 @@ dummy
 objdir
 '
 )
-        
+                           
 os
 .
 path
@@ -919,11 +919,11 @@ outdir
 _venv
 '
 )
-        
+                           
 sys
 .
 stderr
-        
+                           
 os
 .
 path

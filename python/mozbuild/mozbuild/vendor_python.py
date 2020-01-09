@@ -187,6 +187,7 @@ path
 .
 join
 (
+                
 self
 .
 topsrcdir

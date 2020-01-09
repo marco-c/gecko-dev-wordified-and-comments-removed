@@ -305,6 +305,7 @@ n
 for
 line
 in
+                                 
 '
 '
 '
@@ -521,7 +522,7 @@ namedtuple
 '
 BuildOutputResult
 '
-    
+                               
 (
 '
 warning
@@ -984,7 +985,7 @@ aggregate_cpu_percent
 start
 =
 start
-            
+                                                           
 end
 =
 end
@@ -1010,7 +1011,7 @@ start
 end
 =
 end
-            
+                                                       
 phase
 =
 phase
@@ -2043,7 +2044,7 @@ WARNING
 '
 build_resources_error
 '
-                
+                     
 {
 '
 msg
@@ -2054,7 +2055,7 @@ str
 e
 )
 }
-                
+                     
 '
 Exception
 when
@@ -2575,7 +2576,7 @@ aggregate_cpu_percent
 phase
 =
 None
-            
+                                                           
 per_cpu
 =
 False
@@ -2592,7 +2593,7 @@ aggregate_cpu_times
 phase
 =
 None
-            
+                                                       
 per_cpu
 =
 False
@@ -2720,7 +2721,7 @@ aggregate_cpu_percent
 usage
 .
 start
-                
+                                                               
 usage
 .
 end
@@ -2740,7 +2741,7 @@ aggregate_cpu_times
 usage
 .
 start
-                
+                                                           
 usage
 .
 end
@@ -2798,7 +2799,7 @@ start
 usage
 .
 start
-                    
+                                             
 end
 =
 usage
@@ -3121,7 +3122,7 @@ WARNING
 '
 swap_activity
 '
-                
+                     
 {
 '
 sin
@@ -3134,7 +3135,7 @@ sout
 :
 sout
 }
-                
+                     
 '
 Swap
 in
@@ -4388,7 +4389,7 @@ INFO
 compiler_warning
 '
 warning
-                
+                     
 '
 Warning
 :
@@ -6351,7 +6352,7 @@ an
 explicit
 target
 '
-                    
+                      
 '
 name
 .
@@ -6916,7 +6917,7 @@ resolve_target_to_make
 self
 .
 topobjdir
-                                
+                                                   
 path_arg
 .
 relpath
@@ -7176,7 +7177,7 @@ make_dir
 target
 =
 make_target
-                        
+                                            
 line_handler
 =
 output
@@ -7188,7 +7189,7 @@ False
 print_directory
 =
 False
-                        
+                                            
 ensure_exit_code
 =
 False
@@ -7199,10 +7200,11 @@ silent
 =
 not
 verbose
-                        
+                                            
 append_env
 =
 {
+                                                
 b
 '
 NO_BUILDSTATUS_MESSAGES
@@ -7210,7 +7212,7 @@ NO_BUILDSTATUS_MESSAGES
 :
 no_build_status
 }
-                        
+                                            
 keep_going
 =
 keep_going
@@ -7476,11 +7478,11 @@ topsrcdir
 "
 tools
 "
-                                           
+                                            
 "
 rewriting
 "
-                                           
+                                            
 "
 ThirdPartyPaths
 .
@@ -7995,6 +7997,7 @@ output
 .
 on_line
 (
+                
 '
 We
 know
@@ -8113,7 +8116,7 @@ do
 now
 see
 '
-                        
+                          
 '
 https
 :
@@ -8323,7 +8326,6 @@ any
 changes
 '
 )
-;
         
 return
 status

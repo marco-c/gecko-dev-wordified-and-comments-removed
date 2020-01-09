@@ -499,6 +499,7 @@ DeprecatedJarManifest
 Exception
 )
 :
+    
 pass
 class
 JarManifestParser
@@ -1258,7 +1259,7 @@ flat
 useJarfileManifest
 =
 True
-        
+                 
 useChromeManifest
 =
 False
@@ -1415,7 +1416,7 @@ default
 '
 jar
 '
-            
+                     
 choices
 =
 (
@@ -1429,7 +1430,7 @@ flat
 symlink
 '
 )
-            
+                     
 help
 =
 '
@@ -1438,7 +1439,7 @@ used
 for
 output
 '
-            
+                     
 metavar
 =
 '
@@ -1448,7 +1449,7 @@ flat
 symlink
 ]
 '
-            
+                     
 )
         
 p
@@ -1608,12 +1609,12 @@ type
 '
 string
 '
+                     
 action
 =
 '
 append
 '
-                     
 help
 =
 '
@@ -1683,7 +1684,6 @@ action
 '
 store
 '
-                     
                      
 help
 =
@@ -2080,7 +2080,7 @@ appid
 %
 s
 "
-                          
+                         
 %
 (
 chromeDir
@@ -2112,7 +2112,7 @@ s
 %
 (
 chromeDir
-                                 
+                                     
 self
 .
 rootManifestAppId
@@ -2179,7 +2179,7 @@ replace
 '
 %
 '
-            
+                                                           
 chromebasepath
 )
 register
@@ -2248,11 +2248,13 @@ dirs
 '
 '
         
+def
 _normpath
-=
-lambda
+(
 p
+)
 :
+return
 os
 .
 path
@@ -2537,7 +2539,7 @@ join
 self
 .
 topsourcedir
-                           
+                                        
 relativesrcdir
 '
 en
@@ -3194,7 +3196,7 @@ in
 format
 (
 src
-                               
+                                                                    
 '
 '
 .
@@ -4025,7 +4027,7 @@ not
 exist
 .
 "
-                
+                            
 "
 Ignore
 this

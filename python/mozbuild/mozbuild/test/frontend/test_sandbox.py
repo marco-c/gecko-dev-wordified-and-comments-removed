@@ -593,7 +593,7 @@ SandboxExecutionError
 as
 se
 :
-          
+            
 sandbox
 .
 exec_source
@@ -908,7 +908,7 @@ self
 exec_source
 (
 source
-            
+                                               
 self
 .
 normalize_path
@@ -1284,7 +1284,7 @@ sandbox
 SRCDIR
 '
 ]
-            
+                         
 mozpath
 .
 join
@@ -1310,7 +1310,7 @@ sandbox
 OBJDIR
 '
 ]
-            
+                         
 mozpath
 .
 join
@@ -1640,7 +1640,7 @@ SandboxExecutionError
 as
 se
 :
-          
+            
 sandbox
 .
 exec_source
@@ -1813,7 +1813,7 @@ sandbox
 _context
 .
 main_path
-            
+                         
 sandbox
 .
 normalize_path
@@ -1896,7 +1896,7 @@ se
 exception
 .
 illegal_path
-            
+                         
 sandbox
 .
 normalize_path
@@ -2544,7 +2544,7 @@ CONFIG
 BAD_UTF8
 '
 ]
-            
+                         
 u
 '
 \
@@ -3359,7 +3359,7 @@ assertEqual
 e
 .
 message
-            
+                         
 '
 Template
 function
@@ -3461,7 +3461,7 @@ assertEqual
 e
 .
 message
-            
+                         
 '
 A
 template
@@ -3478,7 +3478,7 @@ s
 .
 '
 %
-            
+                         
 sandbox
 .
 normalize_path
@@ -3504,6 +3504,7 @@ Foo
 int
 )
 :
+            
 pass
         
 def

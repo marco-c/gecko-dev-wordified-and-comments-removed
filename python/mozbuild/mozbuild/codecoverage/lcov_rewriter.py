@@ -979,6 +979,7 @@ _current_pp_info
 =
 dict
 (
+            
 [
 (
 tuple
@@ -3663,6 +3664,7 @@ topobjdir
 '
 dist
 '
+                                                    
 '
 bin
 '
@@ -3806,6 +3808,7 @@ topobjdir
 '
 dist
 '
+                                                    
 '
 xpi
 -

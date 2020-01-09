@@ -441,6 +441,7 @@ repository
 .
 get_changed_files
 (
+            
 '
 M
 '
@@ -872,6 +873,7 @@ cargo_version
 '
 {
 }
+                     
 '
 Cargo
 >
@@ -939,6 +941,7 @@ subprocess
 .
 check_output
 (
+            
 [
 cargo
 '
@@ -971,6 +974,7 @@ installing
 '
 {
 }
+                     
 '
 Installing
 cargo
@@ -1042,6 +1046,7 @@ INFO
 cargo_vendor
 '
 {
+                     
 }
 '
 cargo
@@ -1124,6 +1129,7 @@ cargo_vendor
 '
 {
 }
+                     
 '
 sufficiently
 new
@@ -1676,7 +1682,7 @@ package_license_error
 '
 {
 }
-                            
+                             
 '
 '
 '
@@ -1763,7 +1769,7 @@ package_license_error
 '
 {
 }
-                            
+                             
 '
 '
 '
@@ -1963,6 +1969,7 @@ license_matches
 =
 list
 (
+                    
 filter
 (
 lambda
@@ -1988,6 +1995,7 @@ license_file_matches
 =
 list
 (
+                    
 filter
 (
 lambda
@@ -2264,6 +2272,7 @@ path
 .
 join
 (
+                        
 vendor_dir
 package
 license_file
@@ -2383,6 +2392,7 @@ listdir
 (
 vendor_dir
 )
+                   
 if
 os
 .
@@ -2525,6 +2535,7 @@ quiet
 -
 sync
 '
+                               
 '
 Cargo
 .

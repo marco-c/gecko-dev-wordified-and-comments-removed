@@ -204,7 +204,7 @@ ContextDerivedTypedList
 Piyo
 StrictOrderingOnAppendList
 )
-        
+               
 list
 None
 )

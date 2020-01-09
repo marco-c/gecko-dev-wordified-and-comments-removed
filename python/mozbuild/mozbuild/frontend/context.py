@@ -991,7 +991,7 @@ self
 config
 .
 topsrcdir
-            
+                            
 self
 .
 _relsrcdir
@@ -1113,7 +1113,7 @@ self
 .
 main_path
 )
-            
+                               
 self
 .
 config
@@ -6673,7 +6673,7 @@ _OrderedListWithAction
 ContextDerivedTypedList
 (
 SourcePath
-                                 
+                                                         
 StrictOrderingOnAppendListWithAction
 )
 )
@@ -6926,7 +6926,7 @@ TypedNamedTuple
 '
 BugzillaComponent
 '
-                        
+                                    
 [
 (
 '
@@ -7394,7 +7394,7 @@ BUG_COMPONENT
 (
 BugzillaComponent
 tuple
-            
+                          
 "
 "
 "
@@ -7453,7 +7453,7 @@ FINAL
 (
 bool
 bool
-            
+                  
 "
 "
 "
@@ -7558,7 +7558,7 @@ IMPACTED_TESTS
 (
 DependentTestsEntry
 list
-            
+                           
 "
 "
 "
@@ -7879,7 +7879,7 @@ SCHEDULES
 (
 Schedules
 list
-            
+                      
 "
 "
 "
@@ -8921,7 +8921,7 @@ bool
 )
 )
 list
-        
+                
 "
 "
 "
@@ -8969,7 +8969,7 @@ FILES_PER_UNIFIED_FILE
 (
 int
 int
-        
+                               
 "
 "
 "
@@ -8999,7 +8999,7 @@ IS_RUST_LIBRARY
 (
 bool
 bool
-        
+                        
 "
 "
 "
@@ -9063,7 +9063,7 @@ RUST_LIBRARY_FEATURES
 (
 List
 list
-        
+                              
 "
 "
 "
@@ -9107,7 +9107,7 @@ RUST_LIBRARY_TARGET_DIR
 (
 unicode
 unicode
-        
+                                
 "
 "
 "
@@ -9182,7 +9182,7 @@ HOST_RUST_LIBRARY_FEATURES
 (
 List
 list
-        
+                                   
 "
 "
 "
@@ -9230,7 +9230,7 @@ TypedList
 unicode
 )
 list
-        
+                   
 "
 "
 "
@@ -9262,7 +9262,7 @@ TypedList
 unicode
 )
 list
-        
+                           
 "
 "
 "
@@ -9290,7 +9290,7 @@ SourcePath
 StrictOrderingOnAppendList
 )
 list
-        
+                        
 "
 "
 "
@@ -9359,7 +9359,7 @@ GENERATED_FILES
 (
 GeneratedFilesList
 list
-        
+                        
 "
 "
 "
@@ -9828,7 +9828,7 @@ DEFINES
 (
 InitializedDefines
 dict
-        
+                
 "
 "
 "
@@ -10040,7 +10040,7 @@ DELAYLOAD_DLLS
 (
 List
 list
-        
+                       
 "
 "
 "
@@ -10094,7 +10094,7 @@ ContextDerivedTypedList
 SourcePath
 )
 list
-        
+             
 "
 "
 "
@@ -10215,7 +10215,7 @@ HAS_MISC_RULE
 (
 bool
 bool
-        
+                      
 "
 "
 "
@@ -10344,7 +10344,7 @@ ContextDerivedTypedHierarchicalStringList
 Path
 )
 list
-        
+                           
 "
 "
 "
@@ -10499,7 +10499,7 @@ ContextDerivedTypedHierarchicalStringList
 Path
 )
 list
-        
+                              
 "
 "
 "
@@ -10524,7 +10524,7 @@ ContextDerivedTypedHierarchicalStringList
 Path
 )
 list
-        
+                        
 "
 "
 "
@@ -10910,7 +10910,7 @@ ContextDerivedTypedHierarchicalStringList
 Path
 )
 list
-        
+                           
 "
 "
 "
@@ -10957,7 +10957,7 @@ LOCALIZED_GENERATED_FILES
 (
 GeneratedFilesList
 list
-        
+                                  
 "
 "
 "
@@ -11207,7 +11207,7 @@ ContextDerivedTypedHierarchicalStringList
 Path
 )
 list
-        
+                     
 "
 "
 "
@@ -11288,7 +11288,7 @@ ContextDerivedTypedHierarchicalStringList
 Path
 )
 list
-        
+                        
 "
 "
 "
@@ -11313,7 +11313,7 @@ FINAL_LIBRARY
 (
 unicode
 unicode
-        
+                      
 "
 "
 "
@@ -11370,7 +11370,7 @@ CPP_UNIT_TESTS
 (
 StrictOrderingOnAppendList
 list
-        
+                       
 "
 "
 "
@@ -11454,7 +11454,7 @@ FORCE_SHARED_LIB
 (
 bool
 bool
-        
+                         
 "
 "
 "
@@ -11482,7 +11482,7 @@ FORCE_STATIC_LIB
 (
 bool
 bool
-        
+                         
 "
 "
 "
@@ -11510,7 +11510,7 @@ USE_STATIC_LIBS
 (
 bool
 bool
-        
+                        
 "
 "
 "
@@ -11559,7 +11559,7 @@ Path
 StrictOrderingOnAppendList
 )
 list
-        
+                     
 "
 "
 "
@@ -11605,7 +11605,7 @@ HOST_LIBRARY_NAME
 (
 unicode
 unicode
-        
+                          
 "
 "
 "
@@ -11631,7 +11631,7 @@ LIBRARY_DEFINES
 (
 OrderedDict
 dict
-        
+                        
 "
 "
 "
@@ -11681,7 +11681,7 @@ LIBRARY_NAME
 (
 unicode
 unicode
-        
+                     
 "
 "
 "
@@ -11760,7 +11760,7 @@ SHARED_LIBRARY_NAME
 (
 unicode
 unicode
-        
+                            
 "
 "
 "
@@ -11803,7 +11803,7 @@ SHARED_LIBRARY_OUTPUT_CATEGORY
 (
 unicode
 unicode
-        
+                                       
 "
 "
 "
@@ -11862,7 +11862,7 @@ RUST_LIBRARY_OUTPUT_CATEGORY
 (
 unicode
 unicode
-        
+                                     
 "
 "
 "
@@ -11921,7 +11921,7 @@ IS_FRAMEWORK
 (
 bool
 bool
-        
+                     
 "
 "
 "
@@ -11972,7 +11972,7 @@ STATIC_LIBRARY_NAME
 (
 unicode
 unicode
-        
+                            
 "
 "
 "
@@ -12015,7 +12015,7 @@ USE_LIBS
 (
 StrictOrderingOnAppendList
 list
-        
+                 
 "
 "
 "
@@ -12042,7 +12042,7 @@ HOST_USE_LIBS
 (
 StrictOrderingOnAppendList
 list
-        
+                      
 "
 "
 "
@@ -12070,7 +12070,7 @@ HOST_OS_LIBS
 (
 List
 list
-        
+                     
 "
 "
 "
@@ -12101,7 +12101,7 @@ Path
 StrictOrderingOnAppendList
 )
 list
-        
+                       
 "
 "
 "
@@ -12130,7 +12130,7 @@ NO_PGO
 (
 bool
 bool
-        
+               
 "
 "
 "
@@ -12158,7 +12158,7 @@ OS_LIBS
 (
 List
 list
-        
+                
 "
 "
 "
@@ -12192,7 +12192,7 @@ RCFILE
 (
 unicode
 unicode
-        
+               
 "
 "
 "
@@ -12225,7 +12225,7 @@ RESFILE
 (
 unicode
 unicode
-        
+                
 "
 "
 "
@@ -12258,7 +12258,7 @@ RCINCLUDE
 (
 unicode
 unicode
-        
+                  
 "
 "
 "
@@ -12299,7 +12299,7 @@ DEFFILE
 (
 Path
 unicode
-        
+                
 "
 "
 "
@@ -12336,7 +12336,7 @@ SYMBOLS_FILE
 (
 Path
 unicode
-        
+                     
 "
 "
 "
@@ -12418,7 +12418,7 @@ SIMPLE_PROGRAMS
 (
 StrictOrderingOnAppendList
 list
-        
+                        
 "
 "
 "
@@ -12498,7 +12498,7 @@ SONAME
 (
 unicode
 unicode
-        
+               
 "
 "
 "
@@ -12563,7 +12563,7 @@ HOST_SIMPLE_PROGRAMS
 (
 StrictOrderingOnAppendList
 list
-        
+                             
 "
 "
 "
@@ -12645,7 +12645,7 @@ RUST_PROGRAMS
 (
 StrictOrderingOnAppendList
 list
-        
+                      
 "
 "
 "
@@ -12693,7 +12693,7 @@ HOST_RUST_PROGRAMS
 (
 StrictOrderingOnAppendList
 list
-        
+                           
 "
 "
 "
@@ -12744,7 +12744,7 @@ SourcePath
 StrictOrderingOnAppendList
 )
 list
-        
+                              
 "
 "
 "
@@ -12842,7 +12842,7 @@ SourcePath
 StrictOrderingOnAppendList
 )
 list
-        
+                               
 "
 "
 "
@@ -12905,7 +12905,7 @@ ContextDerivedTypedHierarchicalStringList
 Path
 )
 list
-        
+                
 "
 "
 "
@@ -13086,7 +13086,7 @@ PROGRAM
 (
 unicode
 unicode
-        
+                
 "
 "
 "
@@ -13137,7 +13137,7 @@ HOST_PROGRAM
 (
 unicode
 unicode
-        
+                     
 "
 "
 "
@@ -13194,7 +13194,7 @@ False
 True
 )
 bool
-        
+                     
 "
 "
 "
@@ -13304,7 +13304,7 @@ SourcePath
 StrictOrderingOnAppendList
 )
 list
-        
+                      
 "
 "
 "
@@ -13372,7 +13372,7 @@ SourcePath
 StrictOrderingOnAppendList
 )
 list
-        
+                      
 "
 "
 "
@@ -13427,7 +13427,7 @@ XPIDL_MODULE
 (
 unicode
 unicode
-        
+                     
 "
 "
 "
@@ -13485,7 +13485,7 @@ SourcePath
 StrictOrderingOnAppendList
 )
 list
-        
+                        
 "
 "
 "
@@ -13527,7 +13527,7 @@ PREPROCESSED_IPDL_SOURCES
 (
 StrictOrderingOnAppendList
 list
-        
+                                  
 "
 "
 "
@@ -13565,7 +13565,7 @@ IPDL_SOURCES
 (
 StrictOrderingOnAppendList
 list
-        
+                     
 "
 "
 "
@@ -13604,7 +13604,7 @@ WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-        
+                     
 "
 "
 "
@@ -13640,7 +13640,7 @@ GENERATED_EVENTS_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-        
+                                      
 "
 "
 "
@@ -13679,7 +13679,7 @@ TEST_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-         
+                          
 "
 "
 "
@@ -13721,7 +13721,7 @@ GENERATED_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-         
+                               
 "
 "
 "
@@ -13753,7 +13753,7 @@ PREPROCESSED_TEST_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-         
+                                       
 "
 "
 "
@@ -13798,7 +13798,7 @@ PREPROCESSED_WEBIDL_FILES
 (
 StrictOrderingOnAppendList
 list
-         
+                                  
 "
 "
 "
@@ -13831,7 +13831,7 @@ WEBIDL_EXAMPLE_INTERFACES
 (
 StrictOrderingOnAppendList
 list
-        
+                                  
 "
 "
 "
@@ -13890,7 +13890,7 @@ A11Y_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                       
 "
 "
 "
@@ -13915,7 +13915,7 @@ BROWSER_CHROME_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                 
 "
 "
 "
@@ -13941,7 +13941,7 @@ ANDROID_INSTRUMENTATION_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                          
 "
 "
 "
@@ -13967,7 +13967,7 @@ FIREFOX_UI_FUNCTIONAL_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                        
 "
 "
 "
@@ -13996,7 +13996,7 @@ FIREFOX_UI_UPDATE_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                    
 "
 "
 "
@@ -14025,7 +14025,7 @@ PUPPETEER_FIREFOX_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                    
 "
 "
 "
@@ -14053,7 +14053,7 @@ MARIONETTE_LAYOUT_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                    
 "
 "
 "
@@ -14080,7 +14080,7 @@ MARIONETTE_GPU_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                 
 "
 "
 "
@@ -14107,7 +14107,7 @@ MARIONETTE_UNIT_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                  
 "
 "
 "
@@ -14134,7 +14134,7 @@ METRO_CHROME_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                               
 "
 "
 "
@@ -14161,7 +14161,7 @@ MOCHITEST_CHROME_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                   
 "
 "
 "
@@ -14187,7 +14187,7 @@ MARIONETTE_DOM_MEDIA_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                       
 "
 "
 "
@@ -14214,7 +14214,7 @@ MOCHITEST_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                            
 "
 "
 "
@@ -14239,7 +14239,7 @@ REFTEST_MANIFESTS
 (
 ReftestManifestList
 list
-        
+                          
 "
 "
 "
@@ -14272,7 +14272,7 @@ CRASHTEST_MANIFESTS
 (
 ReftestManifestList
 list
-        
+                            
 "
 "
 "
@@ -14305,7 +14305,7 @@ WEBRTC_SIGNALLING_TEST_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                         
 "
 "
 "
@@ -14331,7 +14331,7 @@ XPCSHELL_TESTS_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                 
 "
 "
 "
@@ -14356,7 +14356,7 @@ PYTHON_UNITTEST_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                                  
 "
 "
 "
@@ -14382,7 +14382,7 @@ CRAMTEST_MANIFESTS
 (
 ManifestparserManifestList
 list
-        
+                           
 "
 "
 "
@@ -14402,39 +14402,13 @@ tests
 )
     
 '
-TELEMETRY_TESTS_CLIENT_MANIFESTS
-'
-:
-(
-ManifestparserManifestList
-list
-        
-"
-"
-"
-List
-of
-manifest
-files
-defining
-telemetry
-client
-tests
-.
-        
-"
-"
-"
-)
-    
-'
 XPI_NAME
 '
 :
 (
 unicode
 unicode
-        
+                 
 "
 "
 "
@@ -14489,7 +14463,7 @@ DIST_SUBDIR
 (
 unicode
 unicode
-        
+                    
 "
 "
 "
@@ -14549,7 +14523,7 @@ FINAL_TARGET
 (
 FinalTargetValue
 unicode
-        
+                     
 "
 "
 "
@@ -14652,7 +14626,7 @@ USE_EXTENSION_MANIFEST
 (
 bool
 bool
-        
+                               
 "
 "
 "
@@ -15218,7 +15192,7 @@ SPHINX_TREES
 (
 dict
 dict
-        
+                     
 "
 "
 "
@@ -15282,7 +15256,7 @@ SPHINX_PYTHON_PACKAGE_DIRS
 (
 StrictOrderingOnAppendList
 list
-        
+                                   
 "
 "
 "
@@ -15307,7 +15281,7 @@ COMPILE_FLAGS
 (
 CompileFlags
 dict
-        
+                      
 "
 "
 "
@@ -15339,7 +15313,7 @@ LINK_FLAGS
 (
 LinkFlags
 dict
-        
+                   
 "
 "
 "
@@ -15371,7 +15345,7 @@ ASM_FLAGS
 (
 AsmFlags
 dict
-        
+                  
 "
 "
 "
@@ -15403,7 +15377,7 @@ CFLAGS
 (
 List
 list
-        
+               
 "
 "
 "
@@ -15476,7 +15450,7 @@ CXXFLAGS
 (
 List
 list
-        
+                 
 "
 "
 "
@@ -15554,7 +15528,7 @@ HOST_COMPILE_FLAGS
 (
 HostCompileFlags
 dict
-        
+                           
 "
 "
 "
@@ -15587,7 +15561,7 @@ HOST_DEFINES
 (
 InitializedDefines
 dict
-        
+                     
 "
 "
 "
@@ -15620,7 +15594,7 @@ CMFLAGS
 (
 List
 list
-        
+                
 "
 "
 "
@@ -15698,7 +15672,7 @@ CMMFLAGS
 (
 List
 list
-        
+                 
 "
 "
 "
@@ -15780,7 +15754,7 @@ ASFLAGS
 (
 List
 list
-        
+                
 "
 "
 "
@@ -15853,7 +15827,7 @@ HOST_CFLAGS
 (
 List
 list
-        
+                    
 "
 "
 "
@@ -15927,7 +15901,7 @@ HOST_CXXFLAGS
 (
 List
 list
-        
+                      
 "
 "
 "
@@ -16006,7 +15980,7 @@ LDFLAGS
 (
 List
 list
-        
+                
 "
 "
 "
@@ -16080,7 +16054,7 @@ EXTRA_DSO_LDOPTS
 (
 List
 list
-        
+                         
 "
 "
 "
@@ -16145,7 +16119,7 @@ WIN32_EXE_LDFLAGS
 (
 List
 list
-        
+                          
 "
 "
 "
@@ -16230,7 +16204,7 @@ ContextDerivedTypedHierarchicalStringList
 Path
 )
 list
-        
+                           
 "
 "
 "
@@ -16381,7 +16355,7 @@ NO_EXPAND_LIBS
 (
 bool
 bool
-        
+                       
 "
 "
 "
@@ -16412,7 +16386,7 @@ NO_COMPONENTS_MANIFEST
 (
 bool
 bool
-        
+                               
 "
 "
 "
@@ -16444,7 +16418,7 @@ USE_NASM
 (
 bool
 bool
-        
+                 
 "
 "
 "
@@ -16540,7 +16514,7 @@ USE_YASM
 (
 bool
 bool
-        
+                 
 "
 "
 "
@@ -16636,7 +16610,7 @@ USE_INTEGRATED_CLANGCL_AS
 (
 bool
 bool
-        
+                                  
 "
 "
 "
@@ -16742,7 +16716,7 @@ List
 instead
 .
 '
-            
+                           
 %
 name
 )
@@ -16814,7 +16788,7 @@ in
 VARIABLES
 .
 '
-            
+                           
 %
 name
 )
@@ -16872,7 +16846,7 @@ _include
 (
 SourcePath
 )
-        
+                
 "
 "
 "
@@ -17088,7 +17062,7 @@ _export
 (
 str
 )
-        
+               
 "
 "
 "
@@ -17295,7 +17269,7 @@ _warning
 (
 str
 )
-        
+                
 "
 "
 "
@@ -17341,7 +17315,7 @@ _error
 (
 str
 )
-        
+              
 "
 "
 "
@@ -17381,7 +17355,7 @@ _template_decorator
 (
 FunctionType
 )
-        
+                 
 "
 "
 "
@@ -17712,7 +17686,7 @@ config
 .
 topsrcdir
 str
-        
+                  
 "
 "
 "
@@ -17774,7 +17748,7 @@ config
 .
 topobjdir
 str
-        
+                  
 "
 "
 "
@@ -17835,7 +17809,7 @@ context
 .
 relsrcdir
 str
-        
+                    
 "
 "
 "
@@ -17900,7 +17874,7 @@ context
 .
 srcdir
 str
-        
+               
 "
 "
 "
@@ -17954,7 +17928,7 @@ context
 .
 objdir
 str
-        
+               
 "
 "
 "
@@ -18104,7 +18078,7 @@ components
 .
 _strings
 list
-        
+                         
 "
 "
 "
@@ -18158,7 +18132,7 @@ components
 .
 _strings
 list
-        
+                            
 "
 "
 "
@@ -18219,7 +18193,7 @@ pref
 .
 _strings
 list
-        
+                            
 "
 "
 "
@@ -18286,7 +18260,7 @@ pref
 .
 _strings
 list
-        
+                               
 "
 "
 "
@@ -18318,7 +18292,7 @@ FINAL_TARGET_FILES
 .
 res
 list
-        
+                       
 "
 "
 "
@@ -18478,7 +18452,7 @@ FINAL_TARGET_FILES
 .
 contentaccessible
 list
-        
+                                 
 "
 "
 "
@@ -18560,7 +18534,7 @@ FINAL_TARGET_FILES
 .
 modules
 list
-        
+                         
 "
 "
 "
@@ -18611,7 +18585,7 @@ FINAL_TARGET_PP_FILES
 .
 modules
 list
-        
+                            
 "
 "
 "
@@ -18664,7 +18638,7 @@ TEST_HARNESS_FILES
 .
 modules
 list
-        
+                           
 "
 "
 "
@@ -18772,11 +18746,11 @@ get
 ENABLE_TESTS
 '
 )
-                                  
+                  
 else
 TestDirsPlaceHolder
 list
-        
+                  
 "
 "
 "

@@ -1358,7 +1358,7 @@ mozconfig
 files
 present
 '
-            
+                      
 e
 .
 exception
@@ -1458,7 +1458,7 @@ is
 no
 longer
 '
-                
+                          
 e
 .
 exception
@@ -1588,7 +1588,7 @@ is
 no
 longer
 '
-                
+                          
 e
 .
 exception
@@ -2572,7 +2572,7 @@ some
 objdir
 '
 %
-                
+                             
 loader
 .
 topsrcdir
@@ -3544,7 +3544,7 @@ added
 TEST
 '
 ]
-                
+                             
 loader
 .
 topsrcdir
@@ -3845,7 +3845,7 @@ e
 exception
 .
 path
-                
+                              
 mozconfig
 .
 name

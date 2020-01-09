@@ -1063,7 +1063,7 @@ objs
 .
 output_path
 )
-            
+                         
 mozpath
 .
 normpath
@@ -1095,7 +1095,7 @@ objs
 .
 output_path
 )
-            
+                         
 mozpath
 .
 normpath
@@ -3386,7 +3386,7 @@ self
 assertRaisesRegexp
 (
 BuildReaderError
-            
+                                     
 "
 DEFINES
 may
@@ -3711,7 +3711,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 yasm
 is
@@ -4509,7 +4509,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 Objdir
 file
@@ -4595,7 +4595,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 Outputs
 of
@@ -4891,7 +4891,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 Script
 for
@@ -4943,7 +4943,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 Input
 for
@@ -4997,7 +4997,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 Script
 for
@@ -5295,7 +5295,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 File
 listed
@@ -5367,7 +5367,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 Objdir
 file
@@ -5716,7 +5716,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 Cannot
 install
@@ -6551,7 +6551,7 @@ appears
 multiple
 times
 '
-            
+                                     
 '
 in
 a
@@ -8083,7 +8083,7 @@ p
 for
 p
 in
-                    
+                                      
 o
 .
 external_installs
@@ -8266,7 +8266,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 entry
 in
@@ -8412,7 +8412,7 @@ installs
 [
 expected
 ]
-            
+                         
 (
 '
 testing
@@ -8480,7 +8480,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 lists
 test
@@ -8560,7 +8560,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-            
+                                     
 '
 lists
 test
@@ -9625,7 +9625,7 @@ SandboxValidationError
 '
 XPIDL_MODULE
 '
-            
+                                     
 '
 cannot
 be
@@ -9689,7 +9689,7 @@ File
 .
 *
 '
-            
+                                     
 '
 from
 XPIDL_SOURCES
@@ -9755,7 +9755,7 @@ Path
 specified
 in
 '
-            
+                                     
 '
 LOCAL_INCLUDES
 does
@@ -12024,7 +12024,7 @@ File
 listed
 in
 '
-            
+                                     
 '
 FINAL_TARGET_PP_FILES
 does
@@ -12108,7 +12108,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 Only
 source
@@ -12346,7 +12346,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 LOCALIZED_FILES
 paths
@@ -12577,7 +12577,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 No
 Cargo
@@ -12648,7 +12648,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 library
 .
@@ -12727,7 +12727,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 Cargo
 .
@@ -12809,7 +12809,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 crate
 -
@@ -13041,7 +13041,7 @@ self
 assertRaisesRegexp
 (
 LinkageMultipleRustLibrariesError
-             
+                                     
 '
 Cannot
 link
@@ -13225,7 +13225,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 features
 for
@@ -13296,7 +13296,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 No
 Cargo
@@ -13367,7 +13367,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 No
 Cargo
@@ -13442,7 +13442,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 Cannot
 find
@@ -13520,7 +13520,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 Cannot
 find
@@ -14458,7 +14458,7 @@ self
 assertRaisesRegexp
 (
 SandboxValidationError
-             
+                                     
 '
 Objdir
 file

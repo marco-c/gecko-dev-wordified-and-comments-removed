@@ -710,7 +710,7 @@ topobjdir
 defines
 =
 None
-        
+                 
 non_global_defines
 =
 None
@@ -1067,7 +1067,7 @@ in
 self
 .
 defines
-            
+                          
 if
 not
 name
@@ -1104,7 +1104,7 @@ s
 %
 (
 name
-            
+                                                          
 shell_quote
 (
 self
@@ -1123,7 +1123,7 @@ replace
 '
 )
 )
-            
+                                             
 for
 name
 in
@@ -1221,7 +1221,7 @@ s
 %
 (
 name
-            
+                                                                  
 serialize
 (
 name
@@ -1276,7 +1276,7 @@ s
 '
 %
 name
-            
+                                                          
 for
 name
 in
@@ -1607,7 +1607,7 @@ topsrcdir
 config
 .
 topobjdir
-            
+                                 
 config
 .
 defines
@@ -2599,7 +2599,7 @@ s
 %
 (
 name
-            
+                                           
 shell_quote
 (
 config
@@ -2621,7 +2621,7 @@ replace
 '
 )
 )
-            
+                              
 for
 name
 in

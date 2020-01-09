@@ -535,6 +535,7 @@ s
 )
 '
 %
+                       
 (
 mozpath
 .
@@ -803,6 +804,7 @@ defines
 /
 MOZ_BAR
 '
+                                
 '
 substs
 /
