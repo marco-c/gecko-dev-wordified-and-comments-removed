@@ -12333,6 +12333,19 @@ GetDesiredProto
 (
 cx
 args
+                                 
+prototypes
+:
+:
+id
+:
+:
+{
+name
+}
+                                 
+CreateInterfaceObjects
+                                 
 &
 desiredProto
 )
@@ -12356,6 +12369,14 @@ chromeOnlyCheck
 ctorName
 =
 ctorName
+            
+name
+=
+self
+.
+descriptor
+.
+name
 )
         
 name

@@ -14931,6 +14931,16 @@ JS
 CallArgs
 &
 aCallArgs
+prototypes
+:
+:
+id
+:
+:
+ID
+aProtoId
+CreateInterfaceObjectsMethod
+aCreator
 JS
 :
 :
