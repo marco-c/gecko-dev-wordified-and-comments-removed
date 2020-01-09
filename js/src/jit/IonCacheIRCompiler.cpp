@@ -6871,7 +6871,7 @@ fieldType
 =
 reader
 .
-valueType
+jsValueType
 (
 )
 ;
@@ -9404,7 +9404,7 @@ fieldType
 =
 reader
 .
-valueType
+jsValueType
 (
 )
 ;

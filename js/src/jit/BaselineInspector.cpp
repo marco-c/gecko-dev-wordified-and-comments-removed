@@ -8339,7 +8339,7 @@ ValOperandId
 )
 )
 {
-JSValueType
+ValueType
 type
 =
 reader
@@ -8351,7 +8351,10 @@ valueType
 return
 MIRTypeFromValueType
 (
+JSValueType
+(
 type
+)
 )
 ;
 }
