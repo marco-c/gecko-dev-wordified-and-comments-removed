@@ -1,9 +1,9 @@
 #
 ifndef
-frontend_BinSource_macros_h
+frontend_BinAST_macros_h
 #
 define
-frontend_BinSource_macros_h
+frontend_BinAST_macros_h
 #
 include
 "

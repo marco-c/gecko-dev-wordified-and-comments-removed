@@ -433,7 +433,7 @@ BinASTParserPerTokenizer
 cpp
 '
 '
-BinSourceRuntimeSupport
+BinASTRuntimeSupport
 .
 cpp
 '
@@ -458,7 +458,7 @@ DIRS
 =
 [
 '
-binsource
+binast
 '
 ]
 #

@@ -75,7 +75,9 @@ include
 "
 frontend
 /
-BinASTParser
+BinAST
+-
+macros
 .
 h
 "
@@ -84,9 +86,7 @@ include
 "
 frontend
 /
-BinSource
--
-macros
+BinASTParser
 .
 h
 "
@@ -451,7 +451,7 @@ start
 length
 )
 ;
-BinParseContext
+BinASTParseContext
 globalpc
 (
 cx_
@@ -790,7 +790,7 @@ nullptr
 )
 )
 ;
-BinParseContext
+BinASTParseContext
 funpc
 (
 cx_

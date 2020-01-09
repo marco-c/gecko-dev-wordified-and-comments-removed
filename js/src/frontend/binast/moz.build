@@ -90,6 +90,6 @@ HOST_RUST_PROGRAMS
 =
 [
 '
-binsource
+binast
 '
 ]
