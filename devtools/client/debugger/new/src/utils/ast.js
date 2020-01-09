@@ -213,6 +213,10 @@ pausePoints
 :
 PausePoints
 )
+:
+number
+[
+]
 {
 if
 (

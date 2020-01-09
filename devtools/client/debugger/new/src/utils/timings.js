@@ -15,6 +15,10 @@ name
 :
 string
 )
+:
+number
+[
+]
 {
 return
 zip

@@ -14,9 +14,12 @@ connect
 }
 from
 "
-react
--
-redux
+.
+.
+/
+utils
+/
+connect
 "
 ;
 import

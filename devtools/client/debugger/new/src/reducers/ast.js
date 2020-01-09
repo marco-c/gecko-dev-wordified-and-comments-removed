@@ -260,10 +260,14 @@ function
 initialASTState
 (
 )
+:
+Record
+<
+ASTState
+>
 {
 return
 makeRecord
-(
 (
 {
 symbols
@@ -304,9 +308,6 @@ Map
 (
 )
 }
-:
-ASTState
-)
 )
 (
 )

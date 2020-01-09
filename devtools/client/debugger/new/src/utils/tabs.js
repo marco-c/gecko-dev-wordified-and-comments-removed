@@ -45,6 +45,8 @@ Array
 any
 >
 )
+:
+SourcesList
 {
 sourceTabEls
 =

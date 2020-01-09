@@ -881,6 +881,11 @@ property
 :
 string
 )
+:
+Array
+<
+Object
+>
 {
 return
 sortBy

@@ -115,6 +115,16 @@ clipboard
 js
 '
 '
+connect
+.
+js
+'
+'
+createSelector
+.
+js
+'
+'
 dbg
 .
 js
