@@ -230,6 +230,16 @@ Element
 aElement
 )
 ;
+void
+pauseObserving
+(
+)
+;
+void
+resumeObserving
+(
+)
+;
 Promise
 translateRoots
 (
