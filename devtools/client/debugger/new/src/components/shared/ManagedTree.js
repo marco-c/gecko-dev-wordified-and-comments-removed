@@ -773,10 +773,7 @@ getPath
 onExpand
 =
 {
-(
 item
-shouldIncludeChildren
-)
 =
 >
 this
@@ -785,16 +782,13 @@ setExpanded
 (
 item
 true
-shouldIncludeChildren
+false
 )
 }
 onCollapse
 =
 {
-(
 item
-shouldIncludeChildren
-)
 =
 >
 this
@@ -803,7 +797,7 @@ setExpanded
 (
 item
 false
-shouldIncludeChildren
+false
 )
 }
 onFocus

@@ -3,7 +3,6 @@ type
 {
 BreakpointId
 BreakpointResult
-EventListenerBreakpoints
 Frame
 FrameId
 SourceLocation
@@ -1932,15 +1931,6 @@ eventListeners
 ;
 }
 function
-setEventListenerBreakpoints
-(
-eventTypes
-:
-EventListenerBreakpoints
-)
-{
-}
-function
 pauseGrip
 (
 thread
@@ -2260,7 +2250,6 @@ fetchWorkers
 sendPacket
 setPausePoints
 setSkipPausing
-setEventListenerBreakpoints
 registerSource
 }
 ;

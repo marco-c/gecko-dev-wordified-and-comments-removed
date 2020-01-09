@@ -225,9 +225,6 @@ loadedState
 "
 unloaded
 "
-introductionUrl
-:
-null
 }
 ;
 }

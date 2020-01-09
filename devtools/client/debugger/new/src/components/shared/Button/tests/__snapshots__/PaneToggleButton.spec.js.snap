@@ -45,13 +45,11 @@ panes
 "
 >
 <
-AccessibleImage
-className
+Svg
+name
 =
 "
-toggle
--
-panes
+togglePanes
 "
 /
 >

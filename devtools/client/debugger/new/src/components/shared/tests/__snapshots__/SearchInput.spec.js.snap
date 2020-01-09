@@ -376,8 +376,8 @@ up
 "
 >
 <
-AccessibleImage
-className
+Svg
+name
 =
 "
 arrow
@@ -429,8 +429,8 @@ down
 "
 >
 <
-AccessibleImage
-className
+Svg
+name
 =
 "
 arrow
@@ -666,8 +666,8 @@ up
 "
 >
 <
-AccessibleImage
-className
+Svg
+name
 =
 "
 arrow
@@ -719,8 +719,8 @@ down
 "
 >
 <
-AccessibleImage
-className
+Svg
+name
 =
 "
 arrow
@@ -955,8 +955,8 @@ up
 "
 >
 <
-AccessibleImage
-className
+Svg
+name
 =
 "
 arrow
@@ -1008,8 +1008,8 @@ down
 "
 >
 <
-AccessibleImage
-className
+Svg
+name
 =
 "
 arrow

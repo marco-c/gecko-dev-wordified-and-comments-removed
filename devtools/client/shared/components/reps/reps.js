@@ -19450,9 +19450,6 @@ props
 onCollapse
 (
 item
-e
-.
-altKey
 )
 ;
 }
@@ -19495,6 +19492,14 @@ style
 |
 |
 {
+}
+{
+padding
+:
+0
+margin
+:
+0
 }
 )
 ;
@@ -29431,8 +29436,8 @@ nodeIsWindow
 nodeIsLongString
 nodeHasFullText
 nodeHasGetter
-getNonPrototypeParentGripValue
 getParentGripValue
+getNonPrototypeParentGripValue
 }
 =
 Utils
