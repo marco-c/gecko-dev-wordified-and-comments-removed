@@ -5273,6 +5273,7 @@ nsINode
 aCommon
 )
 ;
+static
 nsCOMPtr
 <
 nsINode
@@ -5286,6 +5287,7 @@ int32_t
 aOffset
 )
 ;
+static
 bool
 IsMozBR
 (
@@ -5294,6 +5296,7 @@ Element
 aNode
 )
 ;
+static
 nsresult
 GetNodeLocation
 (
@@ -5319,6 +5322,7 @@ nsINode
 aNode
 )
 ;
+static
 bool
 IsFirstNode
 (
@@ -5327,6 +5331,7 @@ nsINode
 aNode
 )
 ;
+static
 bool
 IsLastNode
 (
