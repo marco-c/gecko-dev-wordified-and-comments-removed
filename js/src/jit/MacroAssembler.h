@@ -14695,13 +14695,15 @@ alignJitStackBasedOnNArgs
 (
 Register
 nargs
+bool
+countIncludesThis
 )
 ;
 void
 alignJitStackBasedOnNArgs
 (
 uint32_t
-nargs
+argc
 )
 ;
 inline

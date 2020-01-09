@@ -21962,6 +21962,7 @@ masm
 alignJitStackBasedOnNArgs
 (
 count
+false
 )
 ;
 masm
@@ -22296,6 +22297,7 @@ masm
 alignJitStackBasedOnNArgs
 (
 alignReg
+false
 )
 ;
 if
@@ -23277,6 +23279,7 @@ masm
 alignJitStackBasedOnNArgs
 (
 endReg
+false
 )
 ;
 masm
@@ -23448,6 +23451,7 @@ masm
 alignJitStackBasedOnNArgs
 (
 endReg
+false
 )
 ;
 masm
