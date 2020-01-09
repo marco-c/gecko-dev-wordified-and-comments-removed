@@ -250,6 +250,11 @@ onViewSource
 serviceContainer
 .
 onViewSource
+onReady
+:
+override
+.
+maybeScrollToBottom
 sourceMapService
 :
 serviceContainer
