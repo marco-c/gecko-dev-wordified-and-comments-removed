@@ -734,6 +734,11 @@ isConnectionFailed
 runtime
 .
 isConnectionFailed
+isConnectionNotResponding
+:
+runtime
+.
+isConnectionNotResponding
 isSelected
 isUnknown
 :

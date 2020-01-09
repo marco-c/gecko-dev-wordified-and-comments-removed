@@ -359,6 +359,13 @@ PropTypes
 bool
 .
 isRequired
+isConnectionNotResponding
+:
+PropTypes
+.
+bool
+.
+isRequired
 isUnknown
 :
 PropTypes
