@@ -118,6 +118,7 @@ exitPictureInPicture
 ;
 partial
 interface
+mixin
 DocumentOrShadowRoot
 {
 readonly
