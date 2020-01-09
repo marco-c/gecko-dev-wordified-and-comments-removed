@@ -177,6 +177,11 @@ clipping
 ref
 .
 yaml
+platform
+(
+linux
+mac
+)
 =
 =
 segmentation
@@ -203,10 +208,8 @@ coordinate
 system
 -
 clip
--
-ref
 .
-yaml
+png
 =
 =
 segmentation
