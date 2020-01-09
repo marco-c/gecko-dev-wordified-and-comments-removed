@@ -202,10 +202,10 @@ SymbolicAccess
 which
 ;
 uint32_t
-offset
+codeOffset
 ;
 uint32_t
-srcLoc
+moduleBytecodeOffset
 ;
 size_t
 extra

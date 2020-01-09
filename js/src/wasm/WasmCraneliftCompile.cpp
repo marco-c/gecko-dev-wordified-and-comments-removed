@@ -473,7 +473,7 @@ offset
 =
 metadata
 .
-offset
+codeOffset
 ;
 if
 (
@@ -525,7 +525,7 @@ if
 (
 metadata
 .
-srcLoc
+moduleBytecodeOffset
 >
 0
 &
@@ -539,7 +539,7 @@ MOZ_ASSERT
 (
 metadata
 .
-srcLoc
+moduleBytecodeOffset
 >
 =
 lineOrBytecode
@@ -549,7 +549,7 @@ MOZ_ASSERT
 (
 metadata
 .
-srcLoc
+moduleBytecodeOffset
 <
 lineOrBytecode
 +
@@ -564,11 +564,11 @@ bytecodeOffset
 =
 metadata
 .
-srcLoc
+moduleBytecodeOffset
 ?
 metadata
 .
-srcLoc
+moduleBytecodeOffset
 :
 lineOrBytecode
 ;
