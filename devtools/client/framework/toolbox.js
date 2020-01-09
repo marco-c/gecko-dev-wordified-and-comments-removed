@@ -11036,6 +11036,7 @@ toggleOptions
 :
 function
 (
+event
 )
 {
 if
@@ -11089,6 +11090,12 @@ toggle_settings_on
 )
 ;
 }
+event
+.
+preventDefault
+(
+)
+;
 }
 reloadTarget
 :
