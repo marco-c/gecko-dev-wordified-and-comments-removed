@@ -7,6 +7,11 @@ ExecutorBrowser
 require_arg
 from
 .
+base
+import
+get_timeout_multiplier
+from
+.
 .
 webdriver_server
 import
@@ -126,6 +131,14 @@ env_options
 :
 "
 env_options
+"
+                 
+"
+timeout_multiplier
+"
+:
+"
+get_timeout_multiplier
 "
 }
 def

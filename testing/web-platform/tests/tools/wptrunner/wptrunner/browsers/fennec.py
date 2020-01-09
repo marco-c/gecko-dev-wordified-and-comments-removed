@@ -156,6 +156,14 @@ update_properties
 "
 update_properties
 "
+                 
+"
+timeout_multiplier
+"
+:
+"
+get_timeout_multiplier
+"
 }
 def
 check_args

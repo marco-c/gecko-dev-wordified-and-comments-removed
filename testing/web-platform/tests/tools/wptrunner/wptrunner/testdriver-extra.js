@@ -354,9 +354,9 @@ reject
 ;
 window
 .
-opener
+__wptrunner_message_queue
 .
-postMessage
+push
 (
 {
 "
@@ -379,9 +379,6 @@ selector
 :
 selector
 }
-"
-*
-"
 )
 ;
 return
@@ -434,9 +431,9 @@ reject
 ;
 window
 .
-opener
+__wptrunner_message_queue
 .
-postMessage
+push
 (
 {
 "
@@ -464,9 +461,6 @@ keys
 :
 keys
 }
-"
-*
-"
 )
 ;
 return
@@ -578,9 +572,9 @@ origin
 }
 window
 .
-opener
+__wptrunner_message_queue
 .
-postMessage
+push
 (
 {
 "
@@ -603,9 +597,6 @@ actions
 :
 actions
 }
-"
-*
-"
 )
 ;
 return
