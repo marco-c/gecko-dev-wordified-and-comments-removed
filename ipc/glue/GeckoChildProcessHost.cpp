@@ -4568,6 +4568,18 @@ fds_to_remap
 process
 )
 ;
+if
+(
+process
+=
+=
+0
+)
+{
+return
+false
+;
+}
 #
 else
 if
@@ -6131,7 +6143,7 @@ error
 Sorry
 #
 endif
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 process
 )
