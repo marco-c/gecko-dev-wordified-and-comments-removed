@@ -339,6 +339,21 @@ functions
 )
     
 def
+__hash__
+(
+self
+)
+:
+        
+return
+object
+.
+__hash__
+(
+self
+)
+    
+def
 __ne__
 (
 self
@@ -1275,6 +1290,21 @@ other
 .
 dependencies
 )
+)
+    
+def
+__hash__
+(
+self
+)
+:
+        
+return
+object
+.
+__hash__
+(
+self
 )
     
 def
