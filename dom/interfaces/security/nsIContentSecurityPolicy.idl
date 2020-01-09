@@ -1974,6 +1974,9 @@ aOriginalURIIfRedirect
 in
 bool
 aSendViolationReports
+in
+AString
+aNonce
 )
 ;
 %
