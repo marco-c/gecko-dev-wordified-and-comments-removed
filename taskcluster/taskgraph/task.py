@@ -149,6 +149,34 @@ test
 '
 }
     
+-
+soft_dependencies
+:
+tasks
+this
+one
+may
+depend
+on
+if
+they
+are
+available
+post
+      
+optimisation
+.
+They
+are
+set
+as
+a
+list
+of
+tasks
+label
+.
+    
 And
 later
 as
@@ -274,6 +302,17 @@ factory
 dict
 )
     
+soft_dependencies
+=
+attr
+.
+ib
+(
+factory
+=
+list
+)
+    
 release_artifacts
 =
 attr
@@ -360,6 +399,14 @@ dependencies
 self
 .
 dependencies
+            
+'
+soft_dependencies
+'
+:
+self
+.
+soft_dependencies
             
 '
 optimization
@@ -535,6 +582,17 @@ get
 (
 '
 dependencies
+'
+)
+            
+soft_dependencies
+=
+task_dict
+.
+get
+(
+'
+soft_dependencies
 '
 )
             

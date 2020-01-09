@@ -414,6 +414,19 @@ dependencies
 '
 )
                       
+soft_dependencies
+=
+task_dict
+.
+get
+(
+'
+soft
+-
+dependencies
+'
+)
+                      
 release_artifacts
 =
 task_dict
