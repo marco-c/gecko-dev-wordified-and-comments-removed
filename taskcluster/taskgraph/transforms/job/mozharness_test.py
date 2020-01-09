@@ -2567,7 +2567,7 @@ script
         
 ]
     
-if
+elif
 is_bitbar
 :
         
