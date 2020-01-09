@@ -1,7 +1,7 @@
 #
 include
 "
-nsSMILCSSProperty
+SMILCSSProperty
 .
 h
 "
@@ -71,21 +71,13 @@ nsCSSProps
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
+{
+SMILCSSProperty
 :
 :
-dom
-;
-nsSMILCSSProperty
-:
-:
-nsSMILCSSProperty
+SMILCSSProperty
 (
 nsCSSPropertyID
 aPropID
@@ -119,7 +111,7 @@ mPropID
 "
 Creating
 a
-nsSMILCSSProperty
+SMILCSSProperty
 for
 a
 property
@@ -137,7 +129,7 @@ animation
 ;
 }
 nsSMILValue
-nsSMILCSSProperty
+SMILCSSProperty
 :
 :
 GetBaseValue
@@ -235,7 +227,7 @@ baseValue
 ;
 }
 nsresult
-nsSMILCSSProperty
+SMILCSSProperty
 :
 :
 ValueFromString
@@ -314,7 +306,7 @@ NS_OK
 ;
 }
 nsresult
-nsSMILCSSProperty
+SMILCSSProperty
 :
 :
 SetAnimValue
@@ -351,7 +343,7 @@ aValue
 ;
 }
 void
-nsSMILCSSProperty
+SMILCSSProperty
 :
 :
 ClearAnimValue
@@ -377,7 +369,7 @@ nullptr
 ;
 }
 bool
-nsSMILCSSProperty
+SMILCSSProperty
 :
 :
 IsPropertyAnimatable
@@ -586,5 +578,6 @@ default
 return
 false
 ;
+}
 }
 }

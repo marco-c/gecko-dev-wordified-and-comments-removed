@@ -366,7 +366,7 @@ ScrollAnimationBezierPhysics
 :
 InitTimingFunction
 (
-nsSMILKeySpline
+SMILKeySpline
 &
 aTimingFunction
 nscoord
@@ -672,7 +672,7 @@ VelocityComponent
 double
 aTimeProgress
 const
-nsSMILKeySpline
+SMILKeySpline
 &
 aTimingFunction
 nscoord

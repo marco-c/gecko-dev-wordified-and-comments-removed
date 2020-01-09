@@ -55,6 +55,15 @@ include
 "
 mozilla
 /
+SMILParserUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SMILTimeContainer
 .
 h
@@ -104,13 +113,6 @@ h
 include
 "
 nsSMILInstanceTime
-.
-h
-"
-#
-include
-"
-nsSMILParserUtils
 .
 h
 "
@@ -3582,7 +3584,7 @@ nsAString
 &
 dur
 =
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 TrimWhitespace
@@ -3624,7 +3626,7 @@ else
 if
 (
 !
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseClockValue
@@ -3725,7 +3727,7 @@ nsAString
 &
 min
 =
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 TrimWhitespace
@@ -3758,7 +3760,7 @@ else
 if
 (
 !
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseClockValue
@@ -3852,7 +3854,7 @@ nsAString
 &
 max
 =
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 TrimWhitespace
@@ -3894,7 +3896,7 @@ else
 if
 (
 !
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseClockValue
@@ -4063,7 +4065,7 @@ newRepeatCount
 ;
 if
 (
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseRepeatCount
@@ -4137,7 +4139,7 @@ nsAString
 &
 repeatDur
 =
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 TrimWhitespace
@@ -4169,7 +4171,7 @@ else
 if
 (
 !
-nsSMILParserUtils
+SMILParserUtils
 :
 :
 ParseClockValue

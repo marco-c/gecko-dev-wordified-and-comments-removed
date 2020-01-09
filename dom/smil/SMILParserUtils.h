@@ -22,7 +22,7 @@ class
 nsISMILAttr
 ;
 class
-nsSMILKeySpline
+SMILKeySpline
 ;
 class
 nsSMILTimeValue
@@ -46,9 +46,8 @@ class
 SVGAnimationElement
 ;
 }
-}
 class
-nsSMILParserUtils
+SMILParserUtils
 {
 public
 :
@@ -93,7 +92,7 @@ nsAString
 aSpec
 FallibleTArray
 <
-nsSMILKeySpline
+SMILKeySpline
 >
 &
 aKeySplines
@@ -214,5 +213,6 @@ aStr
 ;
 }
 ;
+}
 #
 endif

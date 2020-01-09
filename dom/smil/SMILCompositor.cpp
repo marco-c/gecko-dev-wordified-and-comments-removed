@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsSMILCSSProperty
+SMILCSSProperty
 .
 h
 "
@@ -497,7 +497,7 @@ eCSSProperty_UNKNOWN
 return
 MakeUnique
 <
-nsSMILCSSProperty
+SMILCSSProperty
 >
 (
 propID
@@ -571,7 +571,7 @@ mAttributeName
 if
 (
 !
-nsSMILCSSProperty
+SMILCSSProperty
 :
 :
 IsPropertyAnimatable

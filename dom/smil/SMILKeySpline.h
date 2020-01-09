@@ -22,12 +22,15 @@ PodOperations
 .
 h
 "
+namespace
+mozilla
+{
 class
-nsSMILKeySpline
+SMILKeySpline
 {
 public
 :
-nsSMILKeySpline
+SMILKeySpline
 (
 )
 :
@@ -50,7 +53,7 @@ mY2
 {
 \
 }
-nsSMILKeySpline
+SMILKeySpline
 (
 double
 aX1
@@ -169,7 +172,7 @@ operator
 =
 (
 const
-nsSMILKeySpline
+SMILKeySpline
 &
 aOther
 )
@@ -214,7 +217,7 @@ operator
 =
 (
 const
-nsSMILKeySpline
+SMILKeySpline
 &
 aOther
 )
@@ -235,7 +238,7 @@ int32_t
 Compare
 (
 const
-nsSMILKeySpline
+SMILKeySpline
 &
 aRhs
 )
@@ -490,5 +493,6 @@ kSampleStepSize
 ;
 }
 ;
+}
 #
 endif

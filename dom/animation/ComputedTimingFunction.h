@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsSMILKeySpline
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
@@ -47,6 +40,15 @@ include
 mozilla
 /
 Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SMILKeySpline
 .
 h
 "
@@ -262,7 +264,7 @@ aBeforeFlag
 const
 ;
 const
-nsSMILKeySpline
+SMILKeySpline
 *
 GetFunction
 (
@@ -716,7 +718,7 @@ aPos
 Type
 mType
 ;
-nsSMILKeySpline
+SMILKeySpline
 mTimingFunction
 ;
 StepFunc
