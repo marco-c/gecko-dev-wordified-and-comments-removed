@@ -42,13 +42,6 @@ Looper
 import
 android
 .
-os
-.
-MessageQueue
-;
-import
-android
-.
 util
 .
 Log

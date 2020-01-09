@@ -50,15 +50,6 @@ util
 HardwareUtils
 ;
 import
-org
-.
-mozilla
-.
-geckoview
-.
-BuildConfig
-;
-import
 android
 .
 content

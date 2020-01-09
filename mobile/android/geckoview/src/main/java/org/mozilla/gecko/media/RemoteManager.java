@@ -75,13 +75,6 @@ RemoteException
 import
 android
 .
-view
-.
-Surface
-;
-import
-android
-.
 util
 .
 Log

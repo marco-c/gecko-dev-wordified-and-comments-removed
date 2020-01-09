@@ -56,13 +56,6 @@ view
 .
 Window
 ;
-import
-android
-.
-view
-.
-WindowManager
-;
 public
 class
 ActivityUtils
