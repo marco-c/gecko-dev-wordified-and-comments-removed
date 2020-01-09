@@ -3756,6 +3756,14 @@ SetScriptHandlingObject
 sgo
 )
 ;
+mDocument
+-
+>
+SetStateObjectFrom
+(
+aSourceDocument
+)
+;
 if
 (
 !
