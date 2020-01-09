@@ -195,6 +195,17 @@ eglCompositor
 }
 #
 endif
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
+return
+nullptr
+;
+#
+else
 return
 RenderCompositorOGL
 :
@@ -210,6 +221,8 @@ aWidget
 )
 )
 ;
+#
+endif
 }
 RenderCompositor
 :
