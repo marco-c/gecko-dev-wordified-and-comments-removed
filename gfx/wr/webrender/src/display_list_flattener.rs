@@ -8156,15 +8156,13 @@ for
 filter
 in
 &
+mut
 stacking_context
 .
 composite_ops
 .
 filters
 {
-let
-filter
-=
 filter
 .
 sanitize
@@ -8177,6 +8175,7 @@ composite_mode
 Some
 (
 match
+*
 filter
 {
 Filter
@@ -10547,6 +10546,7 @@ and
 blur
 .
 let
+mut
 blur_filter
 =
 Filter
@@ -10556,6 +10556,8 @@ Blur
 (
 std_deviation
 )
+;
+blur_filter
 .
 sanitize
 (
