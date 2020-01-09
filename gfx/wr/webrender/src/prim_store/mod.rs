@@ -7754,9 +7754,7 @@ post_update
 (
 resource_cache
 gpu_cache
-clip_store
 frame_context
-resources
 )
 ;
 pic
