@@ -2501,6 +2501,16 @@ children
 ;
 if
 (
+node
+.
+getChildCount
+(
+)
+=
+=
+0
+&
+&
 children
 !
 =
