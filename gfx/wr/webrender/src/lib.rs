@@ -115,6 +115,10 @@ extern
 crate
 wr_malloc_size_of
 ;
+extern
+crate
+svg_fmt
+;
 use
 wr_malloc_size_of
 as

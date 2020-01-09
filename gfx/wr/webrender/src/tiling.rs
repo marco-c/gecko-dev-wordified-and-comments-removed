@@ -4522,6 +4522,7 @@ pub
 kind
 :
 RenderPassKind
+pub
 tasks
 :
 Vec
