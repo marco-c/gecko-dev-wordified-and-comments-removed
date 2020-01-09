@@ -771,7 +771,7 @@ from
 (
 list
 .
-firstElementChild
+menupopup
 .
 children
 )
@@ -1024,7 +1024,7 @@ from
 (
 available
 .
-firstElementChild
+menupopup
 .
 children
 )
@@ -1107,7 +1107,7 @@ defaultBrowserLanguage
 "
 )
 .
-firstElementChild
+menupopup
 .
 hidePopup
 (
@@ -1487,7 +1487,7 @@ fr
 ;
 available
 .
-firstElementChild
+menupopup
 .
 lastElementChild
 .
@@ -1497,7 +1497,7 @@ doCommand
 ;
 available
 .
-firstElementChild
+menupopup
 .
 hidePopup
 (
@@ -1508,7 +1508,7 @@ waitForMutation
 (
 available
 .
-firstElementChild
+menupopup
 {
 childList
 :
@@ -1523,7 +1523,7 @@ from
 (
 available
 .
-firstElementChild
+menupopup
 .
 children
 )
@@ -3186,7 +3186,7 @@ waitForMutation
 (
 available
 .
-firstElementChild
+menupopup
 {
 childList
 :
@@ -3612,7 +3612,7 @@ waitForMutation
 (
 available
 .
-firstElementChild
+menupopup
 {
 childList
 :
@@ -3907,7 +3907,7 @@ hasSearchOption
 (
 defaultMenulist
 .
-firstChild
+menupopup
 )
 "
 There
@@ -3941,7 +3941,7 @@ hasSearchOption
 (
 available
 .
-firstChild
+menupopup
 )
 "
 There
@@ -4048,7 +4048,7 @@ hasSearchOption
 (
 defaultMenulist
 .
-firstChild
+menupopup
 )
 "
 There
@@ -4083,7 +4083,7 @@ hasSearchOption
 (
 available
 .
-firstChild
+menupopup
 )
 "
 There
@@ -4305,7 +4305,7 @@ from
 (
 available
 .
-firstElementChild
+menupopup
 .
 children
 )
@@ -4407,7 +4407,7 @@ click
 ;
 available
 .
-firstElementChild
+menupopup
 .
 hidePopup
 (

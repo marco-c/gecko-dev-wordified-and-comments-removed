@@ -231,10 +231,7 @@ editBMPanel_folderMenuList
 "
 )
 .
-children
-[
-0
-]
+menupopup
 ;
 let
 separatorFound

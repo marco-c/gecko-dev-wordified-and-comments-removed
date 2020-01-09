@@ -5959,6 +5959,17 @@ constructor
 [
 CDATA
 [
+window
+.
+customElements
+.
+upgrade
+(
+this
+.
+_stateMenulist
+)
+;
 this
 .
 _installStatus
