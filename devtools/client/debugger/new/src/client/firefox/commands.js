@@ -260,6 +260,7 @@ request
 (
 packet
 )
+;
 }
 function
 lookupThreadClient
