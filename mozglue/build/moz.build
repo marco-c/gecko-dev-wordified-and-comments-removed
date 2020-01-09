@@ -288,16 +288,6 @@ mozglue
 .
 rc
 '
-USE_LIBS
-+
-=
-[
-'
-mscom
--
-mozglue
-'
-]
 if
 CONFIG
 [

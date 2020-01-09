@@ -72,13 +72,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-<
-objidl
-.
-h
->
 namespace
 mozilla
 {

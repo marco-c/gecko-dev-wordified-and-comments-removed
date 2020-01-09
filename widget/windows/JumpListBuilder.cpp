@@ -150,7 +150,7 @@ mozilla
 /
 mscom
 /
-ApartmentRegion
+COMApartmentRegion
 .
 h
 "
