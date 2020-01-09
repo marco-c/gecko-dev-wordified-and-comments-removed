@@ -393,7 +393,7 @@ button
 className
 :
 "
-default
+primary
 -
 button
 js
