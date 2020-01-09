@@ -159,6 +159,9 @@ dtd
 %
 brandDTD
 ;
+#
+ifdef
+MOZ_SERVICES_SYNC
 <
 !
 ENTITY
@@ -182,6 +185,8 @@ dtd
 %
 syncBrandDTD
 ;
+#
+endif
 <
 !
 ENTITY
@@ -402,6 +407,9 @@ nosync
 /
 description
 >
+#
+ifdef
+MOZ_SERVICES_SYNC
 <
 description
 id
@@ -419,6 +427,8 @@ sync
 /
 description
 >
+#
+endif
 <
 /
 vbox
