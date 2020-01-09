@@ -491,18 +491,30 @@ x86
 -
 nightly
 '
+        
+'
+android
+-
+x86_64
+-
+nightly
+'
     
 }
     
 if
 project
-=
-=
+in
+(
 '
 mozilla
 -
 central
 '
+'
+try
+'
+)
 :
         
 architectures
