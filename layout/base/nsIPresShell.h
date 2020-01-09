@@ -3140,14 +3140,6 @@ ShouldIgnoreInvalidation
 ;
 virtual
 void
-WillPaint
-(
-)
-=
-0
-;
-virtual
-void
 WillPaintWindow
 (
 )
