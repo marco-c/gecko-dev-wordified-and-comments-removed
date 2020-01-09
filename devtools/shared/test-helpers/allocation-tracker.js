@@ -201,7 +201,7 @@ return
 false
 ;
 }
-let
+const
 ref
 =
 g
@@ -210,7 +210,7 @@ unsafeDereference
 (
 )
 ;
-let
+const
 location
 =
 Cu
@@ -220,7 +220,7 @@ getRealmLocation
 ref
 )
 ;
-let
+const
 accept
 =
 !
@@ -238,6 +238,7 @@ i
 dump
 (
 "
+TRACKER
 NEW
 GLOBAL
 :
@@ -289,7 +290,7 @@ addAllGlobalsAsDebuggees
 ;
 for
 (
-let
+const
 g
 of
 dbg
