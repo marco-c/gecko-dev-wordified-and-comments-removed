@@ -752,9 +752,6 @@ mozillaAddons
 "
 geckoViewAddons
 "
-"
-telemetry
-"
 ]
 )
 ;
