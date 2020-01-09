@@ -11,6 +11,15 @@ PlatformDecoderModule
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TaskQueue
+.
+h
+"
 namespace
 mozilla
 {
@@ -84,7 +93,10 @@ Flush
 0
 ;
 virtual
-void
+RefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )
