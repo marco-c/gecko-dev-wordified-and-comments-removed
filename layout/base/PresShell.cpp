@@ -29119,13 +29119,7 @@ bgcolor
 )
 )
 ;
-nsTArray
-<
-wr
-:
-:
-FilterOp
->
+WrFiltersHolder
 wrFilters
 ;
 MaybeSetupTransactionIdAllocator
