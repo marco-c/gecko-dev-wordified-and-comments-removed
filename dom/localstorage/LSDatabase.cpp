@@ -449,6 +449,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 )
 ;
 if
@@ -537,6 +540,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 )
 ;
 if
@@ -628,6 +634,7 @@ rv
 EnsureSnapshot
 (
 aObject
+aKey
 )
 ;
 if
@@ -718,6 +725,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 )
 ;
 if
@@ -812,6 +822,7 @@ rv
 EnsureSnapshot
 (
 aObject
+aKey
 )
 ;
 if
@@ -904,6 +915,7 @@ rv
 EnsureSnapshot
 (
 aObject
+aKey
 )
 ;
 if
@@ -991,6 +1003,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 )
 ;
 if
@@ -1083,6 +1098,9 @@ rv
 EnsureSnapshot
 (
 aObject
+VoidString
+(
+)
 true
 )
 ;
@@ -1194,6 +1212,10 @@ EnsureSnapshot
 LSObject
 *
 aObject
+const
+nsAString
+&
+aKey
 bool
 aExplicit
 )
@@ -1270,6 +1292,10 @@ aObject
 DocumentURI
 (
 )
+nsString
+(
+aKey
+)
 true
 131072
 4096
@@ -1306,6 +1332,7 @@ snapshot
 >
 Init
 (
+aKey
 initInfo
 aExplicit
 )

@@ -196,6 +196,10 @@ nsresult
 Init
 (
 const
+nsAString
+&
+aKey
+const
 LSSnapshotInitInfo
 &
 aInitInfo
