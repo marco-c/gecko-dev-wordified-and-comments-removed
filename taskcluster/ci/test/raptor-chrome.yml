@@ -185,6 +185,8 @@ linux_config
 py
 fetches
 :
+fetch
+:
 by
 -
 test
@@ -198,8 +200,6 @@ win
 .
 *
 :
-fetch
-:
 -
 win64
 -
@@ -211,8 +211,6 @@ win
 .
 *
 :
-fetch
-:
 -
 win32
 -
@@ -221,15 +219,11 @@ macosx
 .
 *
 :
-fetch
-:
 -
 mac
 -
 chromium
 default
-:
-fetch
 :
 -
 linux64
@@ -1360,6 +1354,8 @@ app
 chrome
 fetches
 :
+fetch
+:
 by
 -
 test
@@ -1372,8 +1368,6 @@ win
 64
 .
 *
-:
-fetch
 :
 -
 win64
@@ -1390,8 +1384,6 @@ win
 .
 *
 :
-fetch
-:
 -
 win32
 -
@@ -1404,8 +1396,6 @@ macosx
 .
 *
 :
-fetch
-:
 -
 mac
 -
@@ -1415,8 +1405,6 @@ unity
 -
 webgl
 default
-:
-fetch
 :
 -
 linux64
@@ -1488,6 +1476,8 @@ app
 chrome
 fetches
 :
+fetch
+:
 by
 -
 test
@@ -1500,8 +1490,6 @@ win
 64
 .
 *
-:
-fetch
 :
 -
 win64
@@ -1518,8 +1506,6 @@ win
 .
 *
 :
-fetch
-:
 -
 win32
 -
@@ -1532,8 +1518,6 @@ macosx
 .
 *
 :
-fetch
-:
 -
 mac
 -
@@ -1543,8 +1527,6 @@ wasm
 -
 misc
 default
-:
-fetch
 :
 -
 linux64
@@ -1624,6 +1606,8 @@ app
 chrome
 fetches
 :
+fetch
+:
 by
 -
 test
@@ -1636,8 +1620,6 @@ win
 64
 .
 *
-:
-fetch
 :
 -
 win64
@@ -1654,8 +1636,6 @@ win
 .
 *
 :
-fetch
-:
 -
 win32
 -
@@ -1668,8 +1648,6 @@ macosx
 .
 *
 :
-fetch
-:
 -
 mac
 -
@@ -1679,8 +1657,6 @@ assorted
 -
 dom
 default
-:
-fetch
 :
 -
 linux64
