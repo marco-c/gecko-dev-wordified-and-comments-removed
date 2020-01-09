@@ -1437,7 +1437,6 @@ dispatchDOMEventViaPresShell
 (
 aTarget
 event
-true
 )
 ;
 }

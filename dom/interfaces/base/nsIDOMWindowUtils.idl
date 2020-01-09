@@ -6402,12 +6402,17 @@ fullZoom
 *
 Dispatches
 aEvent
+as
+a
+trusted
+event
 via
 the
 nsIPresShell
 object
 of
 the
+*
 window
 '
 s
@@ -6493,6 +6498,9 @@ reused
 .
 *
 /
+[
+can_run_script
+]
 boolean
 dispatchDOMEventViaPresShell
 (
@@ -6502,9 +6510,6 @@ aTarget
 in
 Event
 aEvent
-in
-boolean
-aTrusted
 )
 ;
 /

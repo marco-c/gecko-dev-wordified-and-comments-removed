@@ -8856,8 +8856,6 @@ Event
 *
 aEvent
 bool
-aTrusted
-bool
 *
 aRetVal
 )
@@ -8872,7 +8870,7 @@ aEvent
 >
 SetTrusted
 (
-aTrusted
+true
 )
 ;
 WidgetEvent
