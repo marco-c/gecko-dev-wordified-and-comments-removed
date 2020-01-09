@@ -277,6 +277,9 @@ uint32_t
 baselineWarmUpThreshold
 ;
 uint32_t
+normalIonWarmUpThreshold
+;
+uint32_t
 exceptionBailoutThreshold
 ;
 uint32_t
@@ -314,15 +317,6 @@ wasmBatchIonThreshold
 ;
 uint32_t
 wasmBatchBaselineThreshold
-;
-mozilla
-:
-:
-Maybe
-<
-uint32_t
->
-forcedDefaultIonWarmUpThreshold
 ;
 mozilla
 :
