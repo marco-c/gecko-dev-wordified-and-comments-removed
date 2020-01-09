@@ -372,7 +372,7 @@ T
 }
 }
 ;
-already_AddRefed
+RefPtr
 <
 nsIAsyncShutdownClient
 >
@@ -492,17 +492,9 @@ ShutdownTicket
 (
 )
 {
-nsCOMPtr
-<
-nsIAsyncShutdownClient
->
-barrier
-=
 GetShutdownBarrier
 (
 )
-;
-barrier
 -
 >
 RemoveBlocker

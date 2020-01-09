@@ -17744,11 +17744,8 @@ Blocker
 (
 )
 ;
-nsCOMPtr
-<
-nsIAsyncShutdownClient
->
-barrier
+nsresult
+rv
 =
 media
 :
@@ -17756,11 +17753,6 @@ media
 GetShutdownBarrier
 (
 )
-;
-nsresult
-rv
-=
-barrier
 -
 >
 AddBlocker
