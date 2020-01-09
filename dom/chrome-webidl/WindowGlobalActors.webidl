@@ -231,7 +231,9 @@ Throws
 ]
 Promise
 <
-RemoteTab
+unsigned
+long
+long
 >
 changeFrameRemoteness
 (
