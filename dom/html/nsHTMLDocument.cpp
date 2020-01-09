@@ -3628,7 +3628,7 @@ CompatibilityModeChanged
 ;
 }
 }
-nsIContent
+Element
 *
 nsHTMLDocument
 :

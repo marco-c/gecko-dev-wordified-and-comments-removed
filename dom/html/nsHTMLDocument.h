@@ -336,7 +336,7 @@ uint32_t
 ;
 }
 virtual
-nsIContent
+Element
 *
 GetUnfocusedKeyEventTarget
 (

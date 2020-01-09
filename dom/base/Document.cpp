@@ -19030,7 +19030,7 @@ GetRootElementInternal
 )
 ;
 }
-nsIContent
+Element
 *
 Document
 :
