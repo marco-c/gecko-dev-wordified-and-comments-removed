@@ -243,6 +243,15 @@ aParentsToo
 )
 ;
 bool
+IsExcludedFromTRR
+(
+const
+nsACString
+&
+aHost
+)
+;
+bool
 MaybeBootstrap
 (
 const

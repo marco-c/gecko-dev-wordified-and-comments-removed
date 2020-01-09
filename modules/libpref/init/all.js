@@ -41764,6 +41764,8 @@ excluded
 domains
 "
 "
+localhost
+local
 "
 )
 ;
