@@ -1656,16 +1656,24 @@ defines
 )
             
 if
-bool
-(
 config
 .
 substs
 [
 '
-_MSC_VER
+CC_TYPE
 '
 ]
+in
+(
+'
+msvc
+'
+'
+clang
+-
+cl
+'
 )
 and
 no_chromium
@@ -2558,16 +2566,24 @@ path
 )
         
 if
-bool
-(
 config
 .
 substs
 [
 '
-_MSC_VER
+CC_TYPE
 '
 ]
+in
+(
+'
+msvc
+'
+'
+clang
+-
+cl
+'
 )
 :
             
