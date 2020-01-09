@@ -607,6 +607,11 @@ nsIUrlClassifierFeatureResult
 aResults
 )
 {
+if
+(
+mIPCOpen
+)
+{
 nsTArray
 <
 URLClassifierLocalResult
@@ -707,6 +712,7 @@ this
 ipcResults
 )
 ;
+}
 return
 NS_OK
 ;
