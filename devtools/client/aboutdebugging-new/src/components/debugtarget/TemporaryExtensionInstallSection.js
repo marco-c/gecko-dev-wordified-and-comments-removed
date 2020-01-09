@@ -291,6 +291,9 @@ install
 -
 error
 "
+isCloseable
+:
+true
 }
 Localized
 (

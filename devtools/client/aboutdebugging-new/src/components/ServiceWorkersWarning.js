@@ -155,6 +155,9 @@ level
 MESSAGE_LEVEL
 .
 WARNING
+isCloseable
+:
+true
 }
 Localized
 (
