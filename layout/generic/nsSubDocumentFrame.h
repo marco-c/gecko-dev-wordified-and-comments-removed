@@ -516,6 +516,11 @@ bool
 aIsUnderHiddenEmbedderElement
 )
 ;
+void
+ClearDisplayItems
+(
+)
+;
 protected
 :
 friend
@@ -551,11 +556,6 @@ GetIntrinsicBSize
 ;
 void
 ShowViewer
-(
-)
-;
-void
-ClearDisplayItems
 (
 )
 ;
