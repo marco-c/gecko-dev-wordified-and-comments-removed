@@ -24795,6 +24795,15 @@ aWebProgress
 aIsSimulated
 )
 ;
+gBrowser
+.
+selectedBrowser
+.
+updateSecurityUIForContentBlockingEvent
+(
+aEvent
+)
+;
 }
 onSecurityChange
 (
