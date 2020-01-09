@@ -15971,14 +15971,8 @@ const
 nsRect
 &
 aRect
-nsIPresShell
-:
-:
 ScrollAxis
 aVertical
-nsIPresShell
-:
-:
 ScrollAxis
 aHorizontal
 ScrollFlags
