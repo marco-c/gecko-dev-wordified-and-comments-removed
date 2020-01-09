@@ -600,6 +600,14 @@ docshell
 /
 base
 '
+'
+/
+js
+/
+xpconnect
+/
+loader
+'
 ]
 if
 CONFIG
