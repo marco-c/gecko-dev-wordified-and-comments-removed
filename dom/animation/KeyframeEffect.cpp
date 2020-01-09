@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h
@@ -212,13 +221,6 @@ h
 include
 "
 nsIFrame
-.
-h
-"
-#
-include
-"
-nsIPresShell
 .
 h
 "
@@ -5721,7 +5723,7 @@ return
 false
 ;
 }
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -6609,7 +6611,7 @@ GetComposedDoc
 )
 ;
 }
-nsIPresShell
+PresShell
 *
 KeyframeEffect
 :
@@ -6641,7 +6643,7 @@ return
 doc
 -
 >
-GetShell
+GetPresShell
 (
 )
 ;
