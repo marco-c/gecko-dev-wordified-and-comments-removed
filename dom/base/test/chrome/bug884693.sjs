@@ -9,7 +9,7 @@ let
 [
 status
 statusText
-body
+encodedBody
 ]
 =
 request
@@ -21,6 +21,14 @@ split
 "
 &
 "
+)
+;
+let
+body
+=
+decodeURIComponent
+(
+encodedBody
 )
 ;
 response
