@@ -380,7 +380,7 @@ QueryInterface
 (
 Ci
 .
-nsIPropertyBag
+nsIWritablePropertyBag
 )
 ;
 Assert

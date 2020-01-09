@@ -653,7 +653,7 @@ QueryInterface
 (
 Ci
 .
-nsIPropertyBag
+nsIWritablePropertyBag
 )
 ;
 }
@@ -674,7 +674,7 @@ QueryInterface
 (
 Ci
 .
-nsIPropertyBag
+nsIWritablePropertyBag
 )
 ;
 }
