@@ -1723,6 +1723,13 @@ InitializeLocalStorage
 )
 ;
 }
+ThirdPartyUtil
+:
+:
+Startup
+(
+)
+;
 return
 NS_OK
 ;
