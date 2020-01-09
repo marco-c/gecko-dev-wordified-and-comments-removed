@@ -829,6 +829,12 @@ generatedPassword
 ;
 this
 .
+comment
+=
+generatedPassword
+;
+this
+.
 value
 =
 generatedPassword

@@ -1726,6 +1726,9 @@ autofill
 insecureWarning
 "
 "
+generatedPassword
+"
+"
 insecureWarning
 "
 "
@@ -1928,6 +1931,11 @@ footer
 ;
 break
 ;
+case
+"
+generatedPassword
+"
+:
 case
 "
 loginWithOrigin
