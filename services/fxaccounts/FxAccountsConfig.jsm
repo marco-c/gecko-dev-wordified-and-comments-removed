@@ -730,8 +730,6 @@ endsWith
 )
 {
 rootURL
-=
-rootURL
 .
 slice
 (

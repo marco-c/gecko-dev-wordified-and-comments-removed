@@ -324,8 +324,6 @@ FIXUP_FLAG_FIX_SCHEME_TYPOS
 ]
 ;
 flagInputs
-=
-flagInputs
 .
 concat
 (

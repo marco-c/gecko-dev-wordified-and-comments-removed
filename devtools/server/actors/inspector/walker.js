@@ -5472,8 +5472,6 @@ sortB
 )
 ;
 result
-=
-result
 .
 slice
 (

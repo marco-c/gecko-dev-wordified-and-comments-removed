@@ -622,8 +622,6 @@ i
 )
 {
 frameList
-=
-frameList
 .
 concat
 (
