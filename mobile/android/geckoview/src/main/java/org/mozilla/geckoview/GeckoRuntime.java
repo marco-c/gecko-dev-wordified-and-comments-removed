@@ -1056,6 +1056,7 @@ getInstance
 attachToContext
 (
 context
+settings
 )
 ;
 final
