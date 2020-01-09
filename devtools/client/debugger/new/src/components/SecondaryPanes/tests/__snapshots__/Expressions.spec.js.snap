@@ -90,11 +90,6 @@ disableWrap
 {
 true
 }
-focusable
-=
-{
-false
-}
 onDOMNodeClick
 =
 {
@@ -257,11 +252,6 @@ disableWrap
 =
 {
 true
-}
-focusable
-=
-{
-false
 }
 onDOMNodeClick
 =
@@ -567,11 +557,6 @@ disableWrap
 {
 true
 }
-focusable
-=
-{
-false
-}
 onDOMNodeClick
 =
 {
@@ -736,11 +721,6 @@ disableWrap
 =
 {
 true
-}
-focusable
-=
-{
-false
 }
 onDOMNodeClick
 =

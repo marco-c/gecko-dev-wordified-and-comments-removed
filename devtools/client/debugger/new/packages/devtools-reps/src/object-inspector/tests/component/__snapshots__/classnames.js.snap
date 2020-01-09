@@ -122,6 +122,11 @@ onClick
 Function
 ]
 }
+onKeyDownCapture
+=
+{
+null
+}
 role
 =
 "
@@ -320,6 +325,11 @@ onClick
 [
 Function
 ]
+}
+onKeyDownCapture
+=
+{
+null
 }
 role
 =
@@ -519,6 +529,11 @@ onClick
 [
 Function
 ]
+}
+onKeyDownCapture
+=
+{
+null
 }
 role
 =

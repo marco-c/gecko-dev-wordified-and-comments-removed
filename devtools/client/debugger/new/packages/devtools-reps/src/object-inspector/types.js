@@ -400,6 +400,15 @@ Node
 =
 >
 any
+onActivate
+:
+?
+(
+Node
+)
+=
+>
+any
 onDoubleClick
 :
 ?
@@ -500,6 +509,10 @@ focusedItem
 :
 ?
 Node
+activeItem
+:
+?
+Node
 loadedProperties
 :
 LoadedProperties
@@ -553,6 +566,10 @@ Set
 Path
 >
 focusedItem
+:
+?
+Node
+activeItem
 :
 ?
 Node
