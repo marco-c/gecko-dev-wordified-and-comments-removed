@@ -3152,15 +3152,6 @@ equalTo
 )
 )
 }
-WithDisplay
-(
-height
-=
-100
-width
-=
-100
-)
 WithDevToolsAPI
 Test
 fun
