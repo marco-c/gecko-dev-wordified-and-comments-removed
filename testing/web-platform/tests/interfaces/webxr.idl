@@ -168,6 +168,11 @@ attribute
 XRRenderState
 renderState
 ;
+readonly
+attribute
+XRSpace
+viewerSpace
+;
 /
 /
 Methods
