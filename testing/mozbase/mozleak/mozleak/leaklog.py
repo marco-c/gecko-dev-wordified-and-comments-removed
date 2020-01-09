@@ -1064,7 +1064,7 @@ plugin
 tab
 "
 "
-geckomediaplugin
+gmplugin
 "
 "
 gpu

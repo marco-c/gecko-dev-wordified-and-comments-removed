@@ -449,7 +449,7 @@ tab
 ipdlunittest
 "
 "
-geckomediaplugin
+gmplugin
 "
 "
 gpu

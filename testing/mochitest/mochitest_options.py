@@ -5110,7 +5110,7 @@ ignoreMissingLeaks
 :
 [
 "
-geckomediaplugin
+gmplugin
 "
 ]
         
@@ -6851,7 +6851,7 @@ options
 defaultLeakThreshold
             
 "
-geckomediaplugin
+gmplugin
 "
 :
 20000
