@@ -15419,7 +15419,7 @@ u
 "
 browser
 .
-slowstartup
+slowStartup
 .
 "
 )
