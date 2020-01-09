@@ -1135,12 +1135,9 @@ SidebarItem
 className
 :
 "
-sidebar
+sidebar__adb
 -
-item
--
--
-overflow
+status
 sidebar
 -
 item

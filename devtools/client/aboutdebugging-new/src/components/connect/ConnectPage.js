@@ -1194,6 +1194,12 @@ className
 alt
 -
 heading
+alt
+-
+heading
+-
+-
+larger
 "
 }
 "
@@ -1409,7 +1415,7 @@ heading
 }
 dom
 .
-h1
+h2
 (
 {
 className
