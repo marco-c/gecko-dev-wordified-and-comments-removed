@@ -14157,13 +14157,9 @@ GeckoResult
 <
 org
 .
-mozilla
+json
 .
-gecko
-.
-util
-.
-GeckoBundle
+JSONObject
 >
 getSnapshots
 (
