@@ -189,7 +189,7 @@ const
 int32_t
 kVRExternalVersion
 =
-7
+8
 ;
 static
 const
@@ -1135,6 +1135,9 @@ leftEyeRect
 ;
 VRLayerEyeRect
 rightEyeRect
+;
+IntSize_POD
+textureSize
 ;
 }
 ;
