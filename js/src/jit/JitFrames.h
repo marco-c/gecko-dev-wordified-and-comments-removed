@@ -47,6 +47,9 @@ jit
 struct
 SafepointSlotEntry
 ;
+struct
+VMFunctionData
+;
 enum
 CalleeTokenTag
 {
@@ -1787,7 +1790,7 @@ data_
 }
 inline
 const
-VMFunction
+VMFunctionData
 *
 function
 (
@@ -1811,7 +1814,7 @@ return
 reinterpret_cast
 <
 const
-VMFunction
+VMFunctionData
 *
 >
 (

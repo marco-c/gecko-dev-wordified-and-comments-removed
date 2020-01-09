@@ -221,8 +221,10 @@ JSContext
 MacroAssembler
 &
 const
-VMFunction
+VMFunctionData
 &
+uint32_t
+*
 )
 {
 MOZ_CRASH

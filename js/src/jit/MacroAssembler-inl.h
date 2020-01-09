@@ -1255,7 +1255,7 @@ cxreg
 Register
 scratch
 const
-VMFunction
+VMFunctionData
 *
 f
 )
