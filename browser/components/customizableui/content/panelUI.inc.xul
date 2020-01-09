@@ -7589,6 +7589,15 @@ syncSyncNowItem
 label
 ;
 "
+syncinglabel
+=
+"
+&
+syncSyncNowItemSyncing
+.
+label
+;
+"
 class
 =
 "
