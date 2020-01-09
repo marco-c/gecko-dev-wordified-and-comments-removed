@@ -466,6 +466,11 @@ BrowsingContext
 h
 '
 '
+ChildProcessChannelListener
+.
+h
+'
+'
 ChromeBrowsingContext
 .
 h
@@ -477,6 +482,11 @@ UNIFIED_SOURCES
 [
 '
 BrowsingContext
+.
+cpp
+'
+'
+ChildProcessChannelListener
 .
 cpp
 '

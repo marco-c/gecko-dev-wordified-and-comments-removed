@@ -1024,6 +1024,17 @@ used
 after
 IPC
 transaction
+/
+/
+nsIChannel
+pendingRedirectedChannel
+;
+/
+/
+sent
+through
+other
+mechanism
 }
 ;
 }
