@@ -17615,6 +17615,7 @@ Paint
 "
 DispatchSynthMouseMove
 "
+GRAPHICS
 mPresContext
 -
 >
@@ -40144,6 +40145,16 @@ Paint
 "
 Reflow
 "
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+LAYOUT
 std
 :
 :

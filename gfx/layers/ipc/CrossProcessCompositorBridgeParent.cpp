@@ -2094,6 +2094,16 @@ profiler_add_marker_for_thread
 profiler_current_thread_id
 (
 )
+js
+:
+:
+ProfilingStackFrame
+:
+:
+Category
+:
+:
+GRAPHICS
 "
 CONTENT_FULL_PAINT_TIME
 "

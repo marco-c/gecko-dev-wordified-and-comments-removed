@@ -1721,6 +1721,7 @@ test
 ToString
 (
 )
+GRAPHICS
 )
 ;
 for

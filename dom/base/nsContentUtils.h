@@ -2948,6 +2948,7 @@ static
 bool
 IsChromeDoc
 (
+const
 Document
 *
 aDocument
@@ -7489,10 +7490,6 @@ sIsFormAutofillAutocompleteEnabled
 static
 bool
 sIsUAWidgetEnabled
-;
-static
-bool
-sIsCustomElementsEnabled
 ;
 static
 bool

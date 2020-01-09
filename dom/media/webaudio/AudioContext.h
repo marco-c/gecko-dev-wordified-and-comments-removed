@@ -691,6 +691,16 @@ IMPL_EVENT_HANDLER
 (
 statechange
 )
+void
+SuspendFromChrome
+(
+)
+;
+void
+ResumeFromChrome
+(
+)
+;
 already_AddRefed
 <
 AudioBufferSourceNode
@@ -1355,6 +1365,9 @@ mIsDisconnecting
 ;
 bool
 mWasAllowedToStart
+;
+bool
+mSuspendedByContent
 ;
 bool
 mWasEverAllowedToStart
