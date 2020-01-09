@@ -46,7 +46,7 @@ type
 that
 has
 been
-moved
+borrowed
 from
 .
 For
