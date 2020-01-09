@@ -5806,11 +5806,6 @@ nsIWebProgressListener
 :
 :
 STATE_IS_SECURE
-|
-nsIWebProgressListener
-:
-:
-STATE_SECURE_HIGH
 ;
 SSLVersionRange
 defVersion
