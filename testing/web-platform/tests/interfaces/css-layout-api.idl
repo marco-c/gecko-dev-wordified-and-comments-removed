@@ -592,7 +592,9 @@ null
 [
 Constructor
 (
+optional
 FragmentResultOptions
+options
 )
 ]
 interface
