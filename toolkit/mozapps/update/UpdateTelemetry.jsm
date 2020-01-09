@@ -1615,6 +1615,10 @@ null
 let
 applyFinished
 =
+Math
+.
+ceil
+(
 Date
 .
 now
@@ -1622,6 +1626,7 @@ now
 )
 /
 1000
+)
 ;
 scalarSet
 (

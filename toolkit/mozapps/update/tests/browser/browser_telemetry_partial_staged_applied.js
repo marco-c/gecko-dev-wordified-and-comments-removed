@@ -60,6 +60,9 @@ expected
 getTelemetryUpdatePhaseValues
 (
 {
+noBitsComplete
+:
+true
 noInternalComplete
 :
 true

@@ -46,6 +46,9 @@ getTelemetryUpdatePhaseValues
 noInternalComplete
 :
 true
+noBitsComplete
+:
+true
 }
 )
 ;
