@@ -383,6 +383,16 @@ Loop
 (
 )
 ;
+if
+(
+!
+loop
+)
+{
+return
+false
+;
+}
 RefPtr
 <
 VRManagerParent
