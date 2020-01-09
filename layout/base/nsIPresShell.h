@@ -3859,6 +3859,12 @@ GetLayoutViewportOffset
 )
 const
 ;
+nsSize
+GetLayoutViewportSize
+(
+)
+const
+;
 virtual
 void
 WindowSizeMoveDone
