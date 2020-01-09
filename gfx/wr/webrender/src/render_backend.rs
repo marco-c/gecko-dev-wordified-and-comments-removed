@@ -2366,6 +2366,9 @@ resource_profile
 &
 mut
 ResourceProfileCounters
+debug_flags
+:
+DebugFlags
 )
 -
 >
@@ -2507,6 +2510,7 @@ mut
 self
 .
 scratch
+debug_flags
 )
 ;
 self
@@ -6637,6 +6641,9 @@ mut
 profile_counters
 .
 resources
+self
+.
+debug_flags
 )
 ;
 debug
@@ -8419,6 +8426,9 @@ mut
 profile_counters
 .
 resources
+self
+.
+debug_flags
 )
 ;
 let
