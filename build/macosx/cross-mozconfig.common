@@ -493,3 +493,5 @@ clang
 -
 plugin
 fi
+unset
+MOZ_STDCXX_COMPAT
