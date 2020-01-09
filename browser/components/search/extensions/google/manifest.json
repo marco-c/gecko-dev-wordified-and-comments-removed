@@ -159,7 +159,7 @@ value
 "
 :
 "
-__MSG_param_keyword
+__MSG_param_keyword__
 "
 }
 {
@@ -189,7 +189,7 @@ value
 "
 :
 "
-__MSG_param_searchbar
+__MSG_param_searchbar__
 "
 }
 {
@@ -213,13 +213,6 @@ pref
 :
 "
 google_channel_us
-"
-"
-value
-"
-:
-"
-__MSG_param_undefined
 "
 }
 ]

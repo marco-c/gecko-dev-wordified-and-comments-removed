@@ -166,7 +166,7 @@ value
 "
 :
 "
-__MSG_param_searchbar
+__MSG_param_searchbar__
 "
 }
 {
@@ -196,7 +196,7 @@ value
 "
 :
 "
-__MSG_param_keyword
+__MSG_param_keyword__
 "
 }
 {
@@ -226,7 +226,7 @@ value
 "
 :
 "
-__MSG_param_contextmenu
+__MSG_param_contextmenu__
 "
 }
 {
@@ -256,7 +256,7 @@ value
 "
 :
 "
-__MSG_param_homepage
+__MSG_param_homepage__
 "
 }
 {
@@ -286,7 +286,7 @@ value
 "
 :
 "
-__MSG_param_newtab
+__MSG_param_newtab__
 "
 }
 ]
