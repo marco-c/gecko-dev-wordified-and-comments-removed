@@ -142,7 +142,7 @@ getContext
 "
 chrome
 /
-chrome
+geckoview
 /
 content
 /

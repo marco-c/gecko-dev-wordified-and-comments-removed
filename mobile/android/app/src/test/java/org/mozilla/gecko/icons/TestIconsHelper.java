@@ -200,7 +200,7 @@ application
 "
 chrome
 /
-chrome
+geckoview
 /
 content
 /
