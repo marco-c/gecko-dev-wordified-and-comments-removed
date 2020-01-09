@@ -1434,8 +1434,14 @@ diff
 ;
 mLinesInBuffer
 =
+std
+:
+:
 min
 (
+std
+:
+:
 max
 (
 mLinesInBuffer
