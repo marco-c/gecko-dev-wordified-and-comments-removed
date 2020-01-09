@@ -287,6 +287,9 @@ arm
 '
 x86
 '
+'
+x86_64
+'
 )
 elif
 target
@@ -305,6 +308,12 @@ cpu
 in
 (
 '
+aarch64
+'
+'
+arm
+'
+'
 x86
 '
 '
@@ -312,9 +321,6 @@ x86_64
 '
 '
 mips64
-'
-'
-arm
 '
 )
 return
