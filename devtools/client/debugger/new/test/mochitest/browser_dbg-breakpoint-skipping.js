@@ -59,14 +59,6 @@ html
 )
 ;
 await
-selectSource
-(
-dbg
-"
-simple3
-"
-)
-await
 addBreakpoint
 (
 dbg

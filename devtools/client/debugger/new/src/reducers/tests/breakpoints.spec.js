@@ -81,25 +81,6 @@ utils
 breakpoint
 "
 ;
-import
-{
-makeMappedLocation
-}
-from
-"
-.
-.
-/
-.
-.
-/
-utils
-/
-test
--
-mockup
-"
-;
 function
 initializeStateWith
 (
@@ -174,8 +155,6 @@ id1
 :
 createBreakpoint
 (
-makeMappedLocation
-(
 {
 line
 :
@@ -184,7 +163,6 @@ sourceId
 :
 sourceId
 }
-)
 {
 options
 :
@@ -202,8 +180,6 @@ id2
 :
 createBreakpoint
 (
-makeMappedLocation
-(
 {
 line
 :
@@ -218,7 +194,6 @@ this
 source
 "
 }
-)
 {
 options
 :
@@ -338,8 +313,6 @@ id1
 :
 createBreakpoint
 (
-makeMappedLocation
-(
 {
 line
 :
@@ -357,6 +330,9 @@ id
 "
 }
 {
+generatedLocation
+:
+{
 line
 :
 1
@@ -364,8 +340,6 @@ sourceId
 :
 generatedSourceId
 }
-)
-{
 options
 :
 {
@@ -381,8 +355,6 @@ otherBreakpoints
 id2
 :
 createBreakpoint
-(
-makeMappedLocation
 (
 {
 line
@@ -401,6 +373,9 @@ id
 "
 }
 {
+generatedLocation
+:
+{
 line
 :
 1
@@ -414,8 +389,6 @@ this
 source
 "
 }
-)
-{
 options
 :
 {

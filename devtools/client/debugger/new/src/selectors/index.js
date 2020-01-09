@@ -200,6 +200,7 @@ export
 {
 getVisibleBreakpoints
 getFirstVisibleBreakpoints
+getFirstVisibleBreakpointPosition
 }
 from
 "
@@ -276,7 +277,9 @@ breakpoints
 "
 ;
 export
-*
+{
+visibleColumnBreakpoints
+}
 from
 "
 .

@@ -62,7 +62,7 @@ column
 column
 |
 |
-1
+undefined
 }
 generatedLocation
 :
@@ -98,7 +98,7 @@ column
 column
 |
 |
-1
+undefined
 }
 astLocation
 :

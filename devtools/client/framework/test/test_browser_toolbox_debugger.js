@@ -268,13 +268,6 @@ dbg
 )
 ;
 await
-selectSource
-(
-dbg
-fileName
-)
-;
-await
 addBreakpoint
 (
 dbg
