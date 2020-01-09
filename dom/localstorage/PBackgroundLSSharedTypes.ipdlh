@@ -106,6 +106,9 @@ LSRequestCommonParams
 PrincipalInfo
 principalInfo
 ;
+PrincipalInfo
+storagePrincipalInfo
+;
 nsCString
 originKey
 ;
@@ -137,6 +140,9 @@ LSRequestPrepareObserverParams
 PrincipalInfo
 principalInfo
 ;
+PrincipalInfo
+storagePrincipalInfo
+;
 nsID
 ?
 clientId
@@ -159,6 +165,9 @@ LSSimpleRequestPreloadedParams
 {
 PrincipalInfo
 principalInfo
+;
+PrincipalInfo
+storagePrincipalInfo
 ;
 }
 ;
