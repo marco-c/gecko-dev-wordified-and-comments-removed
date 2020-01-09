@@ -4,7 +4,9 @@ diff
 git
 a
 /
-mfbt
+mozglue
+/
+misc
 /
 decimal
 /
@@ -13,7 +15,9 @@ Decimal
 cpp
 b
 /
-mfbt
+mozglue
+/
+misc
 /
 decimal
 /
@@ -25,7 +29,9 @@ cpp
 -
 a
 /
-mfbt
+mozglue
+/
+misc
 /
 decimal
 /
@@ -37,7 +43,9 @@ cpp
 +
 b
 /
-mfbt
+mozglue
+/
+misc
 /
 decimal
 /
@@ -903,7 +911,9 @@ diff
 git
 a
 /
-mfbt
+mozglue
+/
+misc
 /
 decimal
 /
@@ -912,7 +922,9 @@ Decimal
 h
 b
 /
-mfbt
+mozglue
+/
+misc
 /
 decimal
 /
@@ -924,7 +936,9 @@ h
 -
 a
 /
-mfbt
+mozglue
+/
+misc
 /
 decimal
 /
@@ -936,7 +950,9 @@ h
 +
 b
 /
-mfbt
+mozglue
+/
+misc
 /
 decimal
 /
