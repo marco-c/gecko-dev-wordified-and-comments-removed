@@ -1228,11 +1228,6 @@ false
 isBlackBoxed
 :
 false
-loadedState
-:
-"
-unloaded
-"
 introductionUrl
 :
 null
@@ -1471,11 +1466,6 @@ introductionType
 isBlackBoxed
 :
 false
-loadedState
-:
-"
-unloaded
-"
 isWasm
 :
 !

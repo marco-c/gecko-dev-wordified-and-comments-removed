@@ -413,10 +413,6 @@ url
 "
 foo
 "
-text
-loadedState
-contentType
-error
 .
 .
 .
