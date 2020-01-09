@@ -52,7 +52,6 @@ TEST
 suite
 test
 )
-\
 {
 mozilla
 :
