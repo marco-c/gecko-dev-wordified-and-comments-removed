@@ -3591,10 +3591,7 @@ MOZ_TRY
 XDRScope
 (
 xdr
-script
--
->
-data_
+data
 scriptEnclosingScope
 fun
 i
@@ -3678,10 +3675,7 @@ MOZ_TRY
 XDRInnerObject
 (
 xdr
-script
--
->
-data_
+data
 sourceObject
 &
 inner
@@ -18341,7 +18335,7 @@ void
 PrivateScriptData
 :
 :
-traceChildren
+trace
 (
 JSTracer
 *
@@ -26065,7 +26059,7 @@ data_
 data_
 -
 >
-traceChildren
+trace
 (
 trc
 )
