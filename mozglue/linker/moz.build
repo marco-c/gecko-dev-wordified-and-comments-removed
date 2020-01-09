@@ -139,9 +139,6 @@ IMPL_MFBT
 ]
 =
 True
-DisableStlWrapping
-(
-)
 TEST_DIRS
 +
 =

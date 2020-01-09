@@ -400,9 +400,6 @@ WindowsDllBlocklist
 cpp
 '
 ]
-DisableStlWrapping
-(
-)
 OS_LIBS
 +
 =
