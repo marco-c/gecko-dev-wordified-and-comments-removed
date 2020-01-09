@@ -1623,6 +1623,7 @@ get
 }
 private
 static
+final
 int
 FONT_INFLATION_BASE_VALUE
 =
