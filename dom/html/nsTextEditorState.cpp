@@ -7059,6 +7059,11 @@ get
 return
 ;
 }
+if
+(
+mBoundFrame
+)
+{
 rv
 =
 mBoundFrame
@@ -7068,6 +7073,7 @@ ScrollSelectionIntoView
 (
 )
 ;
+}
 changed
 =
 true

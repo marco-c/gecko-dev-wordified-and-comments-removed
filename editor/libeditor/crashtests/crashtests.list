@@ -576,3 +576,16 @@ event
 listener
 modifies
 content
+pref
+(
+layout
+.
+accessiblecaret
+.
+enabled
+true
+)
+load
+1470926
+.
+html
