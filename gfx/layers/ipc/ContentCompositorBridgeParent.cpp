@@ -5,7 +5,7 @@ mozilla
 /
 layers
 /
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 .
 h
 "
@@ -331,7 +331,7 @@ ipc
 :
 :
 IPCResult
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 RecvRequestNotifyAfterRemotePaint
@@ -349,7 +349,7 @@ IPC_OK
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 ActorDestroy
@@ -378,14 +378,14 @@ NewRunnableMethod
 layers
 :
 :
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DeferredDestroy
 "
 this
 &
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -395,7 +395,7 @@ DeferredDestroy
 }
 PLayerTransactionParent
 *
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 AllocPLayerTransactionParent
@@ -659,7 +659,7 @@ p
 ;
 }
 bool
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DeallocPLayerTransactionParent
@@ -712,7 +712,7 @@ true
 }
 PAPZCTreeManagerParent
 *
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 AllocPAPZCTreeManagerParent
@@ -861,7 +861,7 @@ mApzcTreeManagerParent
 ;
 }
 bool
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DeallocPAPZCTreeManagerParent
@@ -956,7 +956,7 @@ true
 }
 PAPZParent
 *
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 AllocPAPZParent
@@ -1062,7 +1062,7 @@ controller
 ;
 }
 bool
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DeallocPAPZParent
@@ -1098,7 +1098,7 @@ true
 }
 PWebRenderBridgeParent
 *
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 AllocPWebRenderBridgeParent
@@ -1468,7 +1468,7 @@ parent
 ;
 }
 bool
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DeallocPWebRenderBridgeParent
@@ -1535,7 +1535,7 @@ ipc
 :
 :
 IPCResult
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 RecvNotifyChildCreated
@@ -1659,7 +1659,7 @@ ipc
 :
 :
 IPCResult
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 RecvMapAndNotifyChildCreated
@@ -1694,7 +1694,7 @@ ipc
 :
 :
 IPCResult
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 RecvCheckContentOnlyTDR
@@ -1779,7 +1779,7 @@ IPC_OK
 }
 ;
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 ShadowLayersUpdated
@@ -2211,7 +2211,7 @@ fwdTime
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DidCompositeLocked
@@ -2304,7 +2304,7 @@ false
 }
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 ScheduleComposite
@@ -2371,7 +2371,7 @@ aLayerTree
 }
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 NotifyClearCachedResources
@@ -2451,7 +2451,7 @@ false
 }
 }
 bool
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 SetTestSampleTime
@@ -2524,7 +2524,7 @@ aTime
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 LeaveTestMode
@@ -2590,7 +2590,7 @@ aId
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 ApplyAsyncProperties
@@ -2668,7 +2668,7 @@ aSkip
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 SetTestAsyncScrollOffset
@@ -2747,7 +2747,7 @@ aPoint
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 SetTestAsyncZoom
@@ -2826,7 +2826,7 @@ aZoom
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 FlushApzRepaints
@@ -2891,7 +2891,7 @@ aLayersId
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 GetAPZTestData
@@ -2960,7 +2960,7 @@ aOutData
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 SetConfirmedTargetAPZC
@@ -3039,7 +3039,7 @@ aTargets
 }
 AsyncCompositionManager
 *
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 GetCompositionManager
@@ -3107,7 +3107,7 @@ aLayerTree
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DeferredDestroy
@@ -3119,11 +3119,11 @@ mSelfRef
 nullptr
 ;
 }
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 ~
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 (
 )
 {
@@ -3137,7 +3137,7 @@ XRE_GetIOMessageLoop
 }
 PTextureParent
 *
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 AllocPTextureParent
@@ -3325,7 +3325,7 @@ aExternalImageId
 ;
 }
 bool
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 DeallocPTextureParent
@@ -3346,7 +3346,7 @@ actor
 ;
 }
 bool
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 IsSameProcess
@@ -3369,7 +3369,7 @@ GetCurrentProcId
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 UpdatePaintTime
@@ -3447,7 +3447,7 @@ aPaintTime
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 RegisterPayload
@@ -3528,7 +3528,7 @@ aPayload
 ;
 }
 void
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 :
 :
 ObserveLayersUpdate

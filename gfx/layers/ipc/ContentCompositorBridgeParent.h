@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_layers_CrossProcessCompositorBridgeParent_h
+mozilla_layers_ContentCompositorBridgeParent_h
 #
 define
-mozilla_layers_CrossProcessCompositorBridgeParent_h
+mozilla_layers_ContentCompositorBridgeParent_h
 #
 include
 "
@@ -36,7 +36,7 @@ class
 CompositorOptions
 ;
 class
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 final
 :
 public
@@ -49,7 +49,7 @@ CompositorBridgeParent
 public
 :
 explicit
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 (
 CompositorManagerParent
 *
@@ -932,7 +932,7 @@ private
 :
 virtual
 ~
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 (
 )
 ;
@@ -943,7 +943,7 @@ DeferredDestroy
 ;
 RefPtr
 <
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 >
 mSelfRef
 ;

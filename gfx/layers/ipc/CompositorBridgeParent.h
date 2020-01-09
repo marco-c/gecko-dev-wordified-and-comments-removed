@@ -373,7 +373,7 @@ class
 PAPZParent
 ;
 class
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 ;
 class
 CompositorThreadHolder
@@ -2591,7 +2591,7 @@ WebRenderBridgeParent
 >
 mWrBridge
 ;
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 *
 mCrossProcessParent
 ;

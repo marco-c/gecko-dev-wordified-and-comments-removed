@@ -1223,7 +1223,7 @@ h
 '
 ipc
 /
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 .
 h
 '
@@ -2842,7 +2842,7 @@ cpp
 '
 ipc
 /
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 .
 cpp
 '

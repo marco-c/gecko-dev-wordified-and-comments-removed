@@ -876,7 +876,7 @@ CompositorBridgeParent
 ;
 friend
 class
-CrossProcessCompositorBridgeParent
+ContentCompositorBridgeParent
 ;
 private
 :
