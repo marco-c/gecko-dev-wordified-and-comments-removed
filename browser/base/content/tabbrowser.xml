@@ -9087,13 +9087,6 @@ if
 TabsInTitlebar
 .
 enabled
-|
-|
-this
-.
-parentNode
-.
-_dragBindingAlive
 )
 return
 ;
