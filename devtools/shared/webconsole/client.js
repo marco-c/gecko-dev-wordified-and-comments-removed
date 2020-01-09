@@ -1225,6 +1225,7 @@ string
 cursor
 frameActor
 selectedNodeActor
+authorizedEvaluations
 )
 {
 const
@@ -1247,6 +1248,7 @@ string
 cursor
 frameActor
 selectedNodeActor
+authorizedEvaluations
 }
 ;
 return
