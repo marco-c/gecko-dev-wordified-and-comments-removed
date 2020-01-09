@@ -1429,13 +1429,6 @@ cleared
 )
 ;
 await
-toolbox
-.
-destroy
-(
-)
-;
-await
 extension
 .
 unload
