@@ -1954,7 +1954,7 @@ child
 }
 mChildren
 .
-SwapElements
+AppendElements
 (
 aChildren
 )
@@ -1991,7 +1991,7 @@ BrowsingContextId
 >
 contexts
 (
-mChildren
+aChildren
 .
 Length
 (
@@ -2004,7 +2004,7 @@ BrowsingContext
 *
 child
 :
-mChildren
+aChildren
 )
 {
 contexts
