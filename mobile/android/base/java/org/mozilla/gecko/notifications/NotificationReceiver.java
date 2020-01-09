@@ -475,7 +475,7 @@ GeckoServicesCreatorService
 enqueueWork
 (
 context
-intent
+persistentIntent
 )
 ;
 }
