@@ -114,6 +114,13 @@ MOCHITEST_MANIFESTS
 test
 /
 mochitest
+.
+ini
+'
+'
+test
+/
+mochitest
 /
 mochitest
 .
