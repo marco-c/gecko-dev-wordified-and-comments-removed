@@ -147,9 +147,8 @@ nullptr
 )
 ;
 }
-static
 nsresult
-CreateNewURI
+NewURI
 (
 const
 nsACString
