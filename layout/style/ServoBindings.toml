@@ -2816,7 +2816,7 @@ ScrollSnapAlign
 gecko
 =
 "
-StyleScrollSnapType
+StyleScrollSnapStrictness
 "
 servo
 =
@@ -2827,7 +2827,7 @@ values
 computed
 :
 :
-ScrollSnapType
+ScrollSnapStrictness
 "
 }
 {

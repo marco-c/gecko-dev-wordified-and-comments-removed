@@ -4715,7 +4715,7 @@ aDisplay
 mScrollSnapTypeX
 =
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None
@@ -4727,7 +4727,7 @@ aDisplay
 mScrollSnapTypeY
 =
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None

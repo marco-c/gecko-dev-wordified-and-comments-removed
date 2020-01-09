@@ -197,7 +197,7 @@ box_
 {
 OverscrollBehavior
 ScrollSnapAlign
-ScrollSnapType
+ScrollSnapStrictness
 }
 ;
 pub

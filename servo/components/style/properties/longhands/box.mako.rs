@@ -2950,13 +2950,13 @@ type
 +
 axis
 "
-ScrollSnapType
+ScrollSnapStrictness
 "
 "
 computed
 :
 :
-ScrollSnapType
+ScrollSnapStrictness
 :
 :
 None

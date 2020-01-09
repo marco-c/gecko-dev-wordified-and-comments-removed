@@ -19805,7 +19805,7 @@ styles
 mScrollSnapTypeY
 !
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None
@@ -19816,7 +19816,7 @@ styles
 mScrollSnapTypeX
 !
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None
@@ -31336,7 +31336,7 @@ styles
 mScrollSnapTypeY
 =
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None
@@ -31347,7 +31347,7 @@ styles
 mScrollSnapTypeX
 =
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None

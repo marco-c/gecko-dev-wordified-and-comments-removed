@@ -2049,7 +2049,7 @@ u8
 ]
 pub
 enum
-ScrollSnapType
+ScrollSnapStrictness
 {
 None
 Mandatory

@@ -1041,7 +1041,7 @@ aSnapInfo
 mScrollSnapTypeY
 =
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None
@@ -1052,7 +1052,7 @@ aSnapInfo
 mScrollSnapTypeX
 =
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 None
@@ -1197,7 +1197,7 @@ aSnapInfo
 mScrollSnapTypeY
 =
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 Proximity
@@ -1243,7 +1243,7 @@ aSnapInfo
 mScrollSnapTypeX
 =
 =
-StyleScrollSnapType
+StyleScrollSnapStrictness
 :
 :
 Proximity
