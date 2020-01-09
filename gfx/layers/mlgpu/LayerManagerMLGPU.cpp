@@ -1328,6 +1328,12 @@ CloneFrom
 mRoot
 )
 ;
+mPayload
+.
+Clear
+(
+)
+;
 }
 void
 LayerManagerMLGPU

@@ -3246,6 +3246,7 @@ mTransactionStart
 mURL
 &
 sent
+mPayload
 )
 ;
 if
@@ -3258,6 +3259,12 @@ if
 sent
 )
 {
+mPayload
+.
+Clear
+(
+)
+;
 mNeedsComposite
 =
 false

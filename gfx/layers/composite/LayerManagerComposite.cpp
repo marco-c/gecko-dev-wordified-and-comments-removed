@@ -5075,6 +5075,12 @@ RecordFrame
 (
 )
 ;
+mPayload
+.
+Clear
+(
+)
+;
 }
 #
 if
