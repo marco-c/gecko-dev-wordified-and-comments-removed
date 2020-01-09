@@ -1,3 +1,17 @@
+job
+-
+defaults
+:
+run
+:
+using
+:
+mozharness
+use
+-
+caches
+:
+false
 win32
 /
 debug
@@ -93,9 +107,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -276,9 +287,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -470,9 +478,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -650,9 +655,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -841,9 +843,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -1039,9 +1038,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -1227,9 +1223,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -1419,9 +1412,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -1664,9 +1654,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -1871,9 +1858,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -2061,9 +2045,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -2252,9 +2233,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -2475,9 +2453,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -2685,9 +2660,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -2884,9 +2856,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -3083,9 +3052,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -3301,9 +3267,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -3521,9 +3484,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -3712,9 +3672,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -3936,9 +3893,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -4149,9 +4103,6 @@ asan
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -4350,9 +4301,6 @@ asan
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -4584,9 +4532,6 @@ reporter
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -4802,9 +4747,6 @@ fuzzing
 asan
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -5059,9 +5001,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 script
 :
 mozharness
@@ -5287,9 +5226,6 @@ manifest
 "
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -5487,9 +5423,6 @@ PERFHERDER_EXTRA_OPTIONS
 msvc
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -5665,9 +5598,6 @@ PERFHERDER_EXTRA_OPTIONS
 msvc
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -5842,9 +5772,6 @@ PERFHERDER_EXTRA_OPTIONS
 msvc
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -6020,9 +5947,6 @@ PERFHERDER_EXTRA_OPTIONS
 msvc
 run
 :
-using
-:
-mozharness
 options
 :
 [
@@ -6206,9 +6130,6 @@ PERFHERDER_EXTRA_OPTIONS
 aarch64
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -6404,9 +6325,6 @@ PERFHERDER_EXTRA_OPTIONS
 aarch64
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -6612,9 +6530,6 @@ PERFHERDER_EXTRA_OPTIONS
 aarch64
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -6802,9 +6717,6 @@ clang
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -7000,9 +6912,6 @@ clang
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -7200,9 +7109,6 @@ clang
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
@@ -7398,9 +7304,6 @@ clang
 "
 run
 :
-using
-:
-mozharness
 actions
 :
 [
