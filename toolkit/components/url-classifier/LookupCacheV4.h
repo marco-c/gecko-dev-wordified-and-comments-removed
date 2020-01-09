@@ -252,6 +252,13 @@ return
 VER
 ;
 }
+virtual
+nsresult
+LoadLegacyFile
+(
+)
+override
+;
 struct
 Header
 {
