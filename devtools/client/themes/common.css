@@ -3089,14 +3089,14 @@ background
 -
 position
 :
-8px
+7px
 center
 ;
 background
 -
 size
 :
-11px
+12px
 ;
 background
 -
@@ -3218,6 +3218,8 @@ skin
 images
 /
 filter
+-
+small
 .
 svg
 )
@@ -3277,7 +3279,7 @@ position
 x
 :
 right
-8px
+7px
 ;
 }
 .
