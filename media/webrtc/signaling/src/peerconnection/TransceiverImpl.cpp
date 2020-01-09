@@ -2559,7 +2559,7 @@ return
 receiver
 -
 >
-SetRemoteSendBit
+SetRecvBit
 (
 mJsepTransceiver
 -

@@ -223,10 +223,10 @@ streamIds
 ChromeOnly
 ]
 void
-setRemoteSendBit
+setRecvBit
 (
 boolean
-sendBit
+recvBit
 )
 ;
 [
