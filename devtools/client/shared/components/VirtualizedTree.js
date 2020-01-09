@@ -3036,7 +3036,7 @@ active
 :
 PropTypes
 .
-boool
+bool
 .
 isRequired
 item
