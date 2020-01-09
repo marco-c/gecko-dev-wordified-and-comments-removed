@@ -67,9 +67,6 @@ mach
 vcs
 -
 setup
--
--
-git
 "
 "
 "
