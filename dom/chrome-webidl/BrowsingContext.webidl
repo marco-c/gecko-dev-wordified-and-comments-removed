@@ -141,6 +141,11 @@ BrowsingContext
 ?
 parent
 ;
+readonly
+attribute
+BrowsingContext
+top
+;
 sequence
 <
 BrowsingContext

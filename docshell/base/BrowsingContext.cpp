@@ -379,7 +379,7 @@ BrowsingContext
 BrowsingContext
 :
 :
-TopLevelBrowsingContext
+Top
 (
 )
 {
@@ -2187,7 +2187,7 @@ BrowsingContext
 *
 top
 =
-TopLevelBrowsingContext
+Top
 (
 )
 ;
@@ -2540,7 +2540,7 @@ BrowsingContext
 >
 topLevelBC
 =
-TopLevelBrowsingContext
+Top
 (
 )
 ;
@@ -2588,7 +2588,7 @@ BrowsingContext
 >
 topLevelBC
 =
-TopLevelBrowsingContext
+Top
 (
 )
 ;
@@ -2636,7 +2636,7 @@ BrowsingContext
 >
 topLevelBC
 =
-TopLevelBrowsingContext
+Top
 (
 )
 ;
@@ -3148,7 +3148,7 @@ aError
 return
 WindowProxyHolder
 (
-TopLevelBrowsingContext
+Top
 (
 )
 )
