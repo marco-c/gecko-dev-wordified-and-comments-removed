@@ -1140,8 +1140,6 @@ AutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mPropagateUserInputEventHandling
-nullptr
-doc
 )
 ;
 mCallback

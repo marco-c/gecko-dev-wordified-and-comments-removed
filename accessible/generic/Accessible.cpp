@@ -4162,13 +4162,6 @@ AutoHandlingUserInputStatePusher
 inputStatePusher
 (
 true
-nullptr
-focusContent
--
->
-OwnerDoc
-(
-)
 )
 ;
 RefPtr

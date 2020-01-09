@@ -13431,13 +13431,6 @@ AutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mUserInput
-nullptr
-presShell
--
->
-GetDocument
-(
-)
 )
 ;
 RefPtr
