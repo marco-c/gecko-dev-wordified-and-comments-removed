@@ -36,6 +36,12 @@ defined
 (
 OS_MACOSX
 )
+|
+|
+defined
+(
+OS_NETBSD
+)
 #
 include
 <
@@ -3276,6 +3282,12 @@ if
 defined
 (
 OS_MACOSX
+)
+|
+|
+defined
+(
+OS_NETBSD
 )
 case
 EMSGSIZE
