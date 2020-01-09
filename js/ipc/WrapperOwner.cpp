@@ -60,15 +60,6 @@ h
 #
 include
 "
-js
-/
-RegExpFlags
-.
-h
-"
-#
-include
-"
 xpcprivate
 .
 h
@@ -4354,10 +4345,7 @@ source
 Length
 (
 )
-RegExpFlags
-(
 flags
-)
 )
 ;
 if
