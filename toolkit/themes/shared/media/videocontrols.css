@@ -2363,6 +2363,9 @@ png
 )
 ;
 }
+%
+ifdef
+NIGHTLY_BUILD
 .
 statusIcon
 [
@@ -2427,6 +2430,8 @@ stroke
 fff
 ;
 }
+%
+endif
 .
 clickToPlay
 {
