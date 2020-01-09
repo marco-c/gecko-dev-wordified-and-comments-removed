@@ -364,7 +364,6 @@ BreakWithin
 Clear
 Float
 Overflow
-OverflowAnchor
 }
 ;
 pub

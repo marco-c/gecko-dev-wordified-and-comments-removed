@@ -421,7 +421,6 @@ box_
 {
 Display
 Overflow
-OverflowAnchor
 TransitionProperty
 }
 ;

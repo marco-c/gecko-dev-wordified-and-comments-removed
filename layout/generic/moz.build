@@ -1005,11 +1005,6 @@ FrameChildList
 .
 h
 '
-'
-ScrollAnchorContainer
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -1282,11 +1277,6 @@ cpp
 '
 '
 RubyUtils
-.
-cpp
-'
-'
-ScrollAnchorContainer
 .
 cpp
 '
