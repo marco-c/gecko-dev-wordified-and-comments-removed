@@ -185,7 +185,7 @@ urlencoded
 ;
 charset
 =
-UTF
+utf
 -
 8
 "
