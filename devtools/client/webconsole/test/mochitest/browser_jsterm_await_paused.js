@@ -356,6 +356,11 @@ smoke
 )
 ;
 await
+waitForTick
+(
+)
+;
+await
 resume
 (
 dbg
