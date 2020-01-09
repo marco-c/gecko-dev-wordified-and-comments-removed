@@ -12767,6 +12767,9 @@ BigInt
 :
 :
 toString
+<
+CanGC
+>
 (
 cx
 i

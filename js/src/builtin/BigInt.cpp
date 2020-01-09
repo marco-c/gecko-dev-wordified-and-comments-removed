@@ -687,6 +687,9 @@ BigInt
 :
 :
 toString
+<
+CanGC
+>
 (
 cx
 bi
@@ -829,6 +832,9 @@ BigInt
 :
 :
 toString
+<
+CanGC
+>
 (
 cx
 bi
