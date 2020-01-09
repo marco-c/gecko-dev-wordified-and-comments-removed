@@ -89,12 +89,9 @@ length
 :
 :
 {
+GenericLengthPercentageOrNormal
 GenericLengthOrNumber
-MaxSize
-as
 GenericMaxSize
-Size
-as
 GenericSize
 }
 ;
@@ -144,11 +141,7 @@ crate
 values
 :
 :
-{
 CSSFloat
-Either
-Normal
-}
 ;
 use
 crate
@@ -5317,10 +5310,9 @@ pub
 type
 NonNegativeLengthPercentageOrNormal
 =
-Either
+GenericLengthPercentageOrNormal
 <
 NonNegativeLengthPercentage
-Normal
 >
 ;
 impl

@@ -324,18 +324,6 @@ width
 "
     
 "
-row
--
-gap
-"
-    
-"
-column
--
-gap
-"
-    
-"
 grid
 -
 auto

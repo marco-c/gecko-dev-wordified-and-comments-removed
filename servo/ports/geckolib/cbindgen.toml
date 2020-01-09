@@ -433,6 +433,9 @@ LineHeight
 NonNegativeLengthPercentageOrAuto
 "
 "
+NonNegativeLengthPercentageOrNormal
+"
+"
 LengthOrAuto
 "
 "

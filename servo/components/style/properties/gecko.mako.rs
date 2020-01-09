@@ -9712,14 +9712,6 @@ predefined_types
 =
 {
 "
-length
-:
-:
-NonNegativeLengthPercentageOrNormal
-"
-:
-impl_style_coord
-"
 MozScriptMinSize
 "
 :

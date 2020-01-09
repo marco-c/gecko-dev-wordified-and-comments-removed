@@ -170,6 +170,11 @@ NonNegativeLengthPercentageOrAuto
 StyleNonNegativeLengthPercentageOrAuto
 ;
 using
+NonNegativeLengthPercentageOrNormal
+=
+StyleNonNegativeLengthPercentageOrNormal
+;
+using
 Length
 =
 StyleLength

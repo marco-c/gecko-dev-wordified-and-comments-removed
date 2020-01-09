@@ -209,15 +209,6 @@ auto
 "
 )
 ;
-define_keyword_type
-!
-(
-Normal
-"
-normal
-"
-)
-;
 #
 [
 cfg
