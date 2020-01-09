@@ -42,6 +42,13 @@ h
 #
 include
 "
+SVGAnimatedNumberList
+.
+h
+"
+#
+include
+"
 nsSVGNumber2
 .
 h
@@ -50,6 +57,13 @@ h
 include
 "
 SVGAnimatedString
+.
+h
+"
+#
+include
+"
+SVGAnimatedNumberList
 .
 h
 "
