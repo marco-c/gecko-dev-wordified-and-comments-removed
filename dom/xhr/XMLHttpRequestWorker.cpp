@@ -8154,6 +8154,7 @@ mUpload
 new
 XMLHttpRequestUpload
 (
+this
 )
 ;
 if
