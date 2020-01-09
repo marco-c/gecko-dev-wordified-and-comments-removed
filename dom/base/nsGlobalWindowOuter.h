@@ -975,14 +975,6 @@ GetPrincipal
 )
 override
 ;
-virtual
-nsIPrincipal
-*
-GetEffectiveStoragePrincipal
-(
-)
-override
-;
 NS_DECL_NSIDOMWINDOW
 NS_DECL_NSIDOMCHROMEWINDOW
 mozilla
@@ -4728,12 +4720,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mDocumentPrincipal
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-mDocumentStoragePrincipal
 ;
 #
 ifdef

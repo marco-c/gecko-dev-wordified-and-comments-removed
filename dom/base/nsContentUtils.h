@@ -6346,7 +6346,6 @@ static
 StorageAccess
 StorageAllowedForDocument
 (
-const
 Document
 *
 aDoc

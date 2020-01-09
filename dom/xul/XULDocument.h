@@ -247,9 +247,6 @@ aLoadGroup
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 )
 override
 ;

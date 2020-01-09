@@ -202,8 +202,6 @@ aIsTopLevelDocument
 nsIURI
 *
 aURI
-bool
-aForced
 )
 {
 bool
@@ -215,18 +213,12 @@ IsFirstPartyEnabled
 ;
 if
 (
-(
 !
 isFirstPartyEnabled
 |
 |
 !
 aIsTopLevelDocument
-)
-&
-&
-!
-aForced
 )
 {
 return

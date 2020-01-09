@@ -2340,10 +2340,6 @@ mozilla
 OriginAttributes
 &
 aAttributes
-bool
-aUsingStoragePrincipal
-=
-false
 )
 ;
 bool

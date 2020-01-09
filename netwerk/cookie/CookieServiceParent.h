@@ -158,10 +158,6 @@ bool
 &
 aFirstPartyStorageAccessGranted
 const
-OriginAttributes
-&
-aAttrs
-const
 nsCString
 &
 aCookieString
