@@ -8300,6 +8300,12 @@ broadcast
 "
 timer
 "
+"
+forced
+"
+"
+manual
+"
 )
 bug_numbers
 :

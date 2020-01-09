@@ -863,6 +863,12 @@ broadcast
 "
 timer
 "
+"
+forced
+"
+"
+manual
+"
 )
 .
 .
