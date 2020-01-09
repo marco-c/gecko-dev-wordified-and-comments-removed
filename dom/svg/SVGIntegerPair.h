@@ -28,13 +28,6 @@ h
 #
 include
 "
-SVGElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -46,9 +39,7 @@ include
 "
 mozilla
 /
-dom
-/
-SVGAnimatedInteger
+UniquePtr
 .
 h
 "
@@ -57,7 +48,9 @@ include
 "
 mozilla
 /
-UniquePtr
+dom
+/
+SVGAnimatedInteger
 .
 h
 "
@@ -73,10 +66,12 @@ dom
 class
 SVGAnimationElement
 ;
-}
+class
+SVGElement
+;
 }
 class
-nsSVGIntegerPair
+SVGIntegerPair
 {
 public
 :
@@ -340,7 +335,7 @@ SVGAnimatedInteger
 {
 DOMAnimatedInteger
 (
-nsSVGIntegerPair
+SVGIntegerPair
 *
 aVal
 PairIndex
@@ -376,7 +371,7 @@ DOMAnimatedInteger
 (
 )
 ;
-nsSVGIntegerPair
+SVGIntegerPair
 *
 mVal
 ;
@@ -456,7 +451,7 @@ public
 :
 SMILIntegerPair
 (
-nsSVGIntegerPair
+SVGIntegerPair
 *
 aVal
 SVGElement
@@ -474,7 +469,7 @@ aSVGElement
 )
 {
 }
-nsSVGIntegerPair
+SVGIntegerPair
 *
 mVal
 ;
@@ -540,5 +535,6 @@ override
 ;
 }
 ;
+}
 #
 endif

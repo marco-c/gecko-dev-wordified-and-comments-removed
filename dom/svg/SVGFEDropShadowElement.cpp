@@ -261,7 +261,7 @@ STD_DEV
 .
 ToDOMAnimatedNumber
 (
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eFirst
@@ -288,7 +288,7 @@ STD_DEV
 .
 ToDOMAnimatedNumber
 (
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eSecond
@@ -369,7 +369,7 @@ mNumberPairAttributes
 [
 STD_DEV
 ]
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eFirst
@@ -392,7 +392,7 @@ mNumberPairAttributes
 [
 STD_DEV
 ]
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 eSecond

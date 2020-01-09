@@ -595,7 +595,10 @@ void
 SetTo
 (
 const
-nsSVGIntegerPair
+mozilla
+:
+:
+SVGIntegerPair
 &
 aValue
 const
@@ -653,7 +656,10 @@ void
 SetTo
 (
 const
-nsSVGNumberPair
+mozilla
+:
+:
+SVGNumberPair
 &
 aValue
 const

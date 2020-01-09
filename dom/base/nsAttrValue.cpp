@@ -1989,7 +1989,7 @@ nsAttrValue
 SetTo
 (
 const
-nsSVGIntegerPair
+SVGIntegerPair
 &
 aValue
 const
@@ -2125,7 +2125,7 @@ nsAttrValue
 SetTo
 (
 const
-nsSVGNumberPair
+SVGNumberPair
 &
 aValue
 const

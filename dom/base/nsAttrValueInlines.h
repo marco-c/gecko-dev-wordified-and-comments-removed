@@ -124,7 +124,10 @@ SVGAngle
 mSVGAngle
 ;
 const
-nsSVGIntegerPair
+mozilla
+:
+:
+SVGIntegerPair
 *
 mSVGIntegerPair
 ;
@@ -150,7 +153,10 @@ SVGNumberList
 mSVGNumberList
 ;
 const
-nsSVGNumberPair
+mozilla
+:
+:
+SVGNumberPair
 *
 mSVGNumberPair
 ;

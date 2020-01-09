@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsSVGNumberPair
+SVGNumberPair
 .
 h
 "
@@ -66,6 +66,13 @@ SVGFilterElement
 class
 nsSVGFilterInstance
 {
+typedef
+mozilla
+:
+:
+SVGNumberPair
+SVGNumberPair
+;
 typedef
 mozilla
 :
@@ -217,10 +224,10 @@ GetPrimitiveNumber
 uint8_t
 aCtxType
 const
-nsSVGNumberPair
+SVGNumberPair
 *
 aNumberPair
-nsSVGNumberPair
+SVGNumberPair
 :
 :
 PairIndex
