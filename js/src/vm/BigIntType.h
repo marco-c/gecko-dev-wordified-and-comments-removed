@@ -2243,10 +2243,14 @@ x
 ;
 friend
 struct
+:
+:
 JSStructuredCloneReader
 ;
 friend
 struct
+:
+:
 JSStructuredCloneWriter
 ;
 template

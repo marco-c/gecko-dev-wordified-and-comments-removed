@@ -16972,7 +16972,7 @@ get
 (
 )
 digitLength
-bi
+res
 -
 >
 digits
