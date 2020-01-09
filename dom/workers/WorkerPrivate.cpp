@@ -305,6 +305,15 @@ include
 "
 mozilla
 /
+StorageAccess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ThreadEventQueue
 .
 h
@@ -10986,9 +10995,6 @@ loadInfo
 .
 mStorageAccess
 =
-nsContentUtils
-:
-:
 StorageAllowedForWindow
 (
 globalWindow
@@ -11213,9 +11219,6 @@ loadInfo
 .
 mStorageAccess
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

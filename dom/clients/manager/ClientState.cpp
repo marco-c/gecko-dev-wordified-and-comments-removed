@@ -39,9 +39,6 @@ const
 TimeStamp
 &
 aLastFocusTime
-nsContentUtils
-:
-:
 StorageAccess
 aStorageAccess
 bool
@@ -275,9 +272,6 @@ focused
 )
 ;
 }
-nsContentUtils
-:
-:
 StorageAccess
 ClientWindowState
 :
@@ -317,9 +311,6 @@ ClientWorkerState
 :
 ClientWorkerState
 (
-nsContentUtils
-:
-:
 StorageAccess
 aStorageAccess
 )
@@ -486,9 +477,6 @@ ClientWorkerState
 )
 {
 }
-nsContentUtils
-:
-:
 StorageAccess
 ClientWorkerState
 :
@@ -870,9 +858,6 @@ ClientWorkerState
 )
 ;
 }
-nsContentUtils
-:
-:
 StorageAccess
 ClientState
 :

@@ -1543,15 +1543,9 @@ return
 NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
-nsContentUtils
-:
-:
 StorageAccess
 access
 =
-nsContentUtils
-:
-:
 StorageAllowedForWindow
 (
 aWindow
@@ -1562,9 +1556,6 @@ if
 access
 =
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

@@ -18,6 +18,15 @@ h
 #
 include
 "
+mozilla
+/
+StorageAccess
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -139,9 +148,6 @@ LastFocusTime
 )
 const
 ;
-nsContentUtils
-:
-:
 StorageAccess
 GetStorageAccess
 (

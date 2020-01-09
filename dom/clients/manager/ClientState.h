@@ -29,6 +29,15 @@ include
 "
 mozilla
 /
+StorageAccess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -90,9 +99,6 @@ const
 TimeStamp
 &
 aLastFocusTime
-nsContentUtils
-:
-:
 StorageAccess
 aStorageAccess
 bool
@@ -177,9 +183,6 @@ Focused
 )
 const
 ;
-nsContentUtils
-:
-:
 StorageAccess
 GetStorageAccess
 (
@@ -211,9 +214,6 @@ public
 explicit
 ClientWorkerState
 (
-nsContentUtils
-:
-:
 StorageAccess
 aStorageAccess
 )
@@ -270,9 +270,6 @@ ClientWorkerState
 (
 )
 ;
-nsContentUtils
-:
-:
 StorageAccess
 GetStorageAccess
 (
@@ -430,9 +427,6 @@ AsWorkerState
 )
 const
 ;
-nsContentUtils
-:
-:
 StorageAccess
 GetStorageAccess
 (

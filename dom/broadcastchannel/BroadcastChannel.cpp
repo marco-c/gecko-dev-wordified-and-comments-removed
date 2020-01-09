@@ -1025,9 +1025,6 @@ origin
 PrincipalInfo
 storagePrincipalInfo
 ;
-nsContentUtils
-:
-:
 StorageAccess
 storageAccess
 ;
@@ -1220,9 +1217,6 @@ nullptr
 }
 storageAccess
 =
-nsContentUtils
-:
-:
 StorageAllowedForWindow
 (
 window
@@ -1426,9 +1420,6 @@ TNullPrincipalInfo
 storageAccess
 =
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

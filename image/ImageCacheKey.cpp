@@ -83,6 +83,15 @@ include
 "
 mozilla
 /
+StorageAccess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BlobURLProtocolHandler
@@ -916,9 +925,6 @@ GetInnerWindow
 )
 {
 return
-nsContentUtils
-:
-:
 StorageDisabledByAntiTracking
 (
 aDocument

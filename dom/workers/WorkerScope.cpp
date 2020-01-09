@@ -2164,9 +2164,6 @@ if
 indexedDB
 )
 {
-nsContentUtils
-:
-:
 StorageAccess
 access
 =
@@ -2182,9 +2179,6 @@ if
 access
 =
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

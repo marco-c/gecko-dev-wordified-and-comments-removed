@@ -81,7 +81,7 @@ h
 "
 ;
 using
-nsContentUtils
+mozilla
 :
 :
 StorageAccess

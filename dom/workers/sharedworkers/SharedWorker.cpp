@@ -366,9 +366,6 @@ window
 auto
 storageAllowed
 =
-nsContentUtils
-:
-:
 StorageAllowedForWindow
 (
 window
@@ -379,9 +376,6 @@ if
 storageAllowed
 =
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :
@@ -444,9 +438,6 @@ if
 storageAllowed
 =
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

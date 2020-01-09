@@ -105,6 +105,15 @@ include
 "
 mozilla
 /
+StorageAccess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SystemGroup
 .
 h
@@ -525,9 +534,6 @@ GetStorageAccess
 )
 =
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :
@@ -1021,9 +1027,6 @@ GetStorageAccess
 )
 !
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :

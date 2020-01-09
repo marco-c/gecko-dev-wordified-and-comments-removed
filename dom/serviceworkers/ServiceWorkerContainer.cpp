@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+StorageAccess
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ClientIPCTypes
@@ -3139,9 +3148,6 @@ nullptr
 auto
 storageAllowed
 =
-nsContentUtils
-:
-:
 StorageAllowedForWindow
 (
 window
@@ -3154,9 +3160,6 @@ NS_WARN_IF
 storageAllowed
 !
 =
-nsContentUtils
-:
-:
 StorageAccess
 :
 :
