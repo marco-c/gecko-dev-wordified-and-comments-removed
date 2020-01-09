@@ -1090,10 +1090,6 @@ nsIScrollableFrame
 ScrollUnit
 aUnit
 const
-nsSize
-&
-aScrollPortSize
-const
 nsRect
 &
 aScrollRange
