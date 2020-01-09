@@ -88,6 +88,14 @@ aType
 )
 {
 }
+explicit
+SVGAngle
+(
+SVGElement
+*
+aSVGElement
+)
+;
 SVGElement
 *
 GetParentObject
