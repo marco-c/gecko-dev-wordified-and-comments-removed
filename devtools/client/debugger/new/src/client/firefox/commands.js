@@ -42,7 +42,7 @@ types
 import
 type
 {
-PausePoints
+PausePointsMap
 }
 from
 "
@@ -1821,7 +1821,7 @@ sourceId
 SourceId
 pausePoints
 :
-PausePoints
+PausePointsMap
 )
 {
 return
