@@ -8276,6 +8276,19 @@ get
 nullptr
 )
 ;
+if
+(
+!
+(
+aFlags
+&
+FindFamiliesFlags
+:
+:
+eQuotedFamilyName
+)
+)
+{
 bool
 isDeprecatedGeneric
 =
@@ -8408,6 +8421,7 @@ true
 return
 false
 ;
+}
 }
 AutoTArray
 <

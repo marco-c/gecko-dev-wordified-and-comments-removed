@@ -562,6 +562,12 @@ eNoAddToNamesMissedWhenSearching
 <
 <
 2
+eQuotedFamilyName
+=
+1
+<
+<
+3
 }
 ;
 virtual
