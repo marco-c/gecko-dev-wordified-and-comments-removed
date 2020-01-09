@@ -3032,15 +3032,13 @@ rightContollerInfo
 ;
 if
 (
+!
 FileIsExisting
 (
 controllerAction
 )
 )
 {
-return
-;
-}
 nsAutoString
 actionData
 ;
@@ -4400,6 +4398,7 @@ close
 (
 )
 ;
+}
 }
 vr
 :
