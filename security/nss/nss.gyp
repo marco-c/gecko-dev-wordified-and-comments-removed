@@ -1647,6 +1647,17 @@ blake2b_gtest
 '
 gtests
 /
+freebl_gtest
+/
+freebl_gtest
+.
+gyp
+:
+freebl_gtest
+'
+'
+gtests
+/
 mozpkix_gtest
 /
 mozpkix_gtest

@@ -5624,6 +5624,11 @@ sftk_FreeAttribute
 att
 )
 ;
+PORT_Free
+(
+ctx
+)
+;
 crv
 =
 CKR_KEY_HANDLE_INVALID

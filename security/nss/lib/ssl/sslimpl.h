@@ -1630,6 +1630,10 @@ TLS13EarlyDataStr
 PRCList
 link
 ;
+unsigned
+int
+consumed
+;
 SECItem
 data
 ;

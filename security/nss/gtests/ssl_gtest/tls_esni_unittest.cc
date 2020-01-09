@@ -378,6 +378,8 @@ encoded
 unsigned
 int
 encoded_len
+=
+0
 ;
 SECStatus
 rv
@@ -2265,6 +2267,8 @@ encoded
 unsigned
 int
 encoded_len
+=
+0
 ;
 SECStatus
 rv
@@ -2305,6 +2309,18 @@ sizeof
 (
 encoded
 )
+)
+;
+ASSERT_EQ
+(
+SECSuccess
+rv
+)
+;
+ASSERT_LT
+(
+0U
+encoded_len
 )
 ;
 rv

@@ -810,6 +810,11 @@ LayerId
 )
 )
 ;
+EXPECT_TRUE
+(
+dummy_layer_
+)
+;
 original_methods_
 =
 dummy_layer_
