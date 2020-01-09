@@ -1884,14 +1884,11 @@ mObserver
 =
 nullptr
 ;
-MOZ_ALWAYS_TRUE
-(
 PSessionStorageObserverChild
 :
 :
 SendDeleteMe
 (
-)
 )
 ;
 }
