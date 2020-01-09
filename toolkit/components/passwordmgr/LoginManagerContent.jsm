@@ -4097,6 +4097,12 @@ isContentWindowPrivate
 (
 win
 )
+&
+&
+!
+LoginHelper
+.
+privateBrowsingCaptureEnabled
 )
 {
 log
