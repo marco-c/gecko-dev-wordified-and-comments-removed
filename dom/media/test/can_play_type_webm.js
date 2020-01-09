@@ -365,13 +365,6 @@ av1
 \
 "
 "
-isWindows32
-(
-)
-?
-"
-"
-:
 "
 probably
 "
