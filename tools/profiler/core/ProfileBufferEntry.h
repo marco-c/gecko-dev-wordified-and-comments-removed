@@ -7,6 +7,13 @@ ProfileBufferEntry_h
 #
 include
 "
+PlatformMacros
+.
+h
+"
+#
+include
+"
 ProfileJSONWriter
 .
 h
