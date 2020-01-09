@@ -354,7 +354,7 @@ proxy
 noproxy
 =
 No
-Proxy
+proxy
 for
 .
 accesskey
