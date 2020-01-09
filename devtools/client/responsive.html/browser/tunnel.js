@@ -1197,6 +1197,11 @@ Content
 SecurityChange
 "
 "
+Content
+:
+StateChange
+"
+"
 DOMTitleChanged
 "
 "
