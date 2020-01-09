@@ -2136,6 +2136,17 @@ templateObject
 ;
 JSObject
 *
+CreateThisWithTemplate
+(
+JSContext
+*
+cx
+HandleObject
+templateObject
+)
+;
+JSObject
+*
 NewArrayOperation
 (
 JSContext
