@@ -105,3 +105,15 @@ PictureInPicture
 jsm
 '
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+tests
+/
+browser
+.
+ini
+'
+]
