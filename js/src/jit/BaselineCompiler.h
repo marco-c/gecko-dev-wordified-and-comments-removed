@@ -2897,11 +2897,6 @@ cx
 extern
 const
 VMFunction
-NewArrayCopyOnWriteInfo
-;
-extern
-const
-VMFunction
 ImplicitThisInfo
 ;
 }
