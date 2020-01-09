@@ -482,6 +482,9 @@ bool
 LockScreenOrientation
 (
 const
+hal
+:
+:
 ScreenOrientation
 &
 aOrientation
