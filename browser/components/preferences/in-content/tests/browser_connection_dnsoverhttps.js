@@ -411,6 +411,11 @@ openConnectionsSubDialog
 (
 )
 ;
+await
+dialog
+.
+uiReady
+;
 info
 (
 (
