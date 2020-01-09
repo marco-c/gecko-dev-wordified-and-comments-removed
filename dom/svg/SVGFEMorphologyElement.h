@@ -61,7 +61,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEMorphologyElementBase
 ;
 class

@@ -50,7 +50,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEImageElementBase
 ;
 class

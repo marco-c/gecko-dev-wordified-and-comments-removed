@@ -68,7 +68,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFETurbulenceElementBase
 ;
 class

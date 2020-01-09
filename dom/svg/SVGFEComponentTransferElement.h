@@ -11,10 +11,6 @@ nsSVGFilters
 .
 h
 "
-typedef
-nsSVGFE
-SVGFEComponentTransferElementBase
-;
 nsresult
 NS_NewSVGFEComponentTransferElement
 (
@@ -43,6 +39,10 @@ mozilla
 namespace
 dom
 {
+typedef
+SVGFE
+SVGFEComponentTransferElementBase
+;
 class
 SVGFEComponentTransferElement
 :

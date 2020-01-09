@@ -113,6 +113,16 @@ mozilla
 dom
 :
 :
+SVGFE
+SVGFE
+;
+typedef
+mozilla
+:
+:
+dom
+:
+:
 UserSpaceMetrics
 UserSpaceMetrics
 ;
@@ -266,7 +276,7 @@ aTargetFrame
 IntRect
 ComputeFilterPrimitiveSubregion
 (
-nsSVGFE
+SVGFE
 *
 aFilterElement
 const
@@ -342,7 +352,7 @@ aPrimitiveDescrs
 nsresult
 GetSourceIndices
 (
-nsSVGFE
+SVGFE
 *
 aPrimitiveElement
 nsTArray

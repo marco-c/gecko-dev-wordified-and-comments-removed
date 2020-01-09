@@ -54,7 +54,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEOffsetElementBase
 ;
 class

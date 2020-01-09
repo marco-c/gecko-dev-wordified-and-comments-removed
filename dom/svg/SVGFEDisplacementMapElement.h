@@ -47,7 +47,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEDisplacementMapElementBase
 ;
 class

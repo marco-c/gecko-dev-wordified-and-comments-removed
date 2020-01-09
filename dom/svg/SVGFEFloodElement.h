@@ -40,7 +40,7 @@ namespace
 dom
 {
 typedef
-nsSVGFE
+SVGFE
 SVGFEFloodElementBase
 ;
 class
