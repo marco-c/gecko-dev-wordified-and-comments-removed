@@ -86,8 +86,8 @@ AccessibleOrTrueContainer
 nsINode
 *
 aNode
-int
-aIgnoreARIAHidden
+bool
+aNoContainerIfPruned
 )
 const
 {
@@ -98,7 +98,7 @@ container
 GetAccessibleOrContainer
 (
 aNode
-aIgnoreARIAHidden
+aNoContainerIfPruned
 )
 ;
 if
