@@ -369,17 +369,6 @@ sizes
 }
 ;
 }
-destroy
-(
-)
-{
-super
-.
-destroy
-(
-)
-;
-}
 exportRecording
 (
 file

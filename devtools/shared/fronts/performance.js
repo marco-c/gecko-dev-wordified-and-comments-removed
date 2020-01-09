@@ -243,17 +243,6 @@ connect
 )
 ;
 }
-destroy
-(
-)
-{
-super
-.
-destroy
-(
-)
-;
-}
 async
 connect
 (

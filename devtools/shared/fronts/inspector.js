@@ -302,17 +302,6 @@ this
 )
 ;
 }
-destroy
-(
-)
-{
-super
-.
-destroy
-(
-)
-;
-}
 form
 (
 json
