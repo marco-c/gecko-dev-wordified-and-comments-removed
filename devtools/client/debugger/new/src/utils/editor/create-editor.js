@@ -12,6 +12,7 @@ editor
 import
 {
 features
+prefs
 }
 from
 "
@@ -101,7 +102,9 @@ styleActiveLine
 false
 lineWrapping
 :
-false
+prefs
+.
+editorWrapping
 matchBrackets
 :
 true
