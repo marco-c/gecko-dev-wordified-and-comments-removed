@@ -8594,12 +8594,12 @@ aWheelInput
 .
 mOrigin
 ;
-ParentLayerCoord
+ScreenCoord
 oldSpan
 =
 100
 ;
-ParentLayerCoord
+ScreenCoord
 newSpan
 =
 oldSpan
