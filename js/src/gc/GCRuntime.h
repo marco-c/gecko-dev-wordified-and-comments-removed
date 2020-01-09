@@ -1199,10 +1199,6 @@ maybeAllocTriggerZoneGC
 Zone
 *
 zone
-const
-AutoLockGC
-&
-lock
 )
 ;
 bool
