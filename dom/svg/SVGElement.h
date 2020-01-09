@@ -119,7 +119,7 @@ gfxMatrix
 h
 "
 class
-nsSVGAngle
+SVGAngle
 ;
 class
 nsSVGBoolean
@@ -1841,7 +1841,7 @@ mDefaultUnitType
 struct
 AngleAttributesInfo
 {
-nsSVGAngle
+SVGAngle
 *
 const
 mAngles
@@ -1858,7 +1858,7 @@ mAngleCount
 ;
 AngleAttributesInfo
 (
-nsSVGAngle
+SVGAngle
 *
 aAngles
 AngleInfo

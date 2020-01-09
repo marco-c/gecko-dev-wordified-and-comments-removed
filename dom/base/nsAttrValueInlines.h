@@ -116,7 +116,7 @@ nsIntMargin
 mIntMargin
 ;
 const
-nsSVGAngle
+SVGAngle
 *
 mSVGAngle
 ;

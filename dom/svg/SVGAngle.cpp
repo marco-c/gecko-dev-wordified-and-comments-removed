@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGAngle
+SVGAngle
 .
 h
 "
@@ -143,7 +143,7 @@ grad
 static
 nsSVGAttrTearoffTable
 <
-nsSVGAngle
+SVGAngle
 SVGAnimatedAngle
 >
 sSVGAnimatedAngleTearoffTable
@@ -151,7 +151,7 @@ sSVGAnimatedAngleTearoffTable
 static
 nsSVGAttrTearoffTable
 <
-nsSVGAngle
+SVGAngle
 DOMSVGAngle
 >
 sBaseSVGAngleTearoffTable
@@ -159,7 +159,7 @@ sBaseSVGAngleTearoffTable
 static
 nsSVGAttrTearoffTable
 <
-nsSVGAngle
+SVGAngle
 DOMSVGAngle
 >
 sAnimSVGAngleTearoffTable
@@ -366,7 +366,7 @@ unitString
 ;
 }
 bool
-nsSVGAngle
+SVGAngle
 :
 :
 GetValueFromString
@@ -468,7 +468,7 @@ aUnitType
 ;
 }
 float
-nsSVGAngle
+SVGAngle
 :
 :
 GetDegreesPerUnit
@@ -536,7 +536,7 @@ return
 }
 }
 void
-nsSVGAngle
+SVGAngle
 :
 :
 SetBaseValueInSpecifiedUnits
@@ -606,7 +606,7 @@ emptyOrOldValue
 ;
 }
 nsresult
-nsSVGAngle
+SVGAngle
 :
 :
 ConvertToSpecifiedUnits
@@ -699,7 +699,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGAngle
+SVGAngle
 :
 :
 NewValueSpecifiedUnits
@@ -827,7 +827,7 @@ already_AddRefed
 <
 DOMSVGAngle
 >
-nsSVGAngle
+SVGAngle
 :
 :
 ToDOMBaseVal
@@ -890,7 +890,7 @@ already_AddRefed
 <
 DOMSVGAngle
 >
-nsSVGAngle
+SVGAngle
 :
 :
 ToDOMAnimVal
@@ -998,7 +998,7 @@ mVal
 }
 }
 nsresult
-nsSVGAngle
+SVGAngle
 :
 :
 SetBaseValueString
@@ -1132,7 +1132,7 @@ NS_OK
 ;
 }
 void
-nsSVGAngle
+SVGAngle
 :
 :
 GetBaseValueString
@@ -1152,7 +1152,7 @@ mBaseValUnit
 ;
 }
 void
-nsSVGAngle
+SVGAngle
 :
 :
 GetAnimValueString
@@ -1172,7 +1172,7 @@ mAnimValUnit
 ;
 }
 void
-nsSVGAngle
+SVGAngle
 :
 :
 SetBaseValue
@@ -1286,7 +1286,7 @@ emptyOrOldValue
 }
 }
 void
-nsSVGAngle
+SVGAngle
 :
 :
 SetAnimValue
@@ -1345,7 +1345,7 @@ already_AddRefed
 <
 SVGAnimatedAngle
 >
-nsSVGAngle
+SVGAngle
 :
 :
 ToDOMAnimatedAngle
@@ -1420,7 +1420,7 @@ UniquePtr
 <
 nsISMILAttr
 >
-nsSVGAngle
+SVGAngle
 :
 :
 ToSMILAttr
@@ -1498,7 +1498,7 @@ nullptr
 ;
 }
 nsresult
-nsSVGAngle
+SVGAngle
 :
 :
 SMILOrient
@@ -1657,7 +1657,7 @@ NS_OK
 ;
 }
 nsSMILValue
-nsSVGAngle
+SVGAngle
 :
 :
 SMILOrient
@@ -1728,7 +1728,7 @@ val
 ;
 }
 void
-nsSVGAngle
+SVGAngle
 :
 :
 SMILOrient
@@ -1800,7 +1800,7 @@ mAttrEnum
 }
 }
 nsresult
-nsSVGAngle
+SVGAngle
 :
 :
 SMILOrient

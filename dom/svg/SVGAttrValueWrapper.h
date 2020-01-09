@@ -12,7 +12,7 @@ nsString
 h
 "
 class
-nsSVGAngle
+SVGAngle
 ;
 class
 nsSVGIntegerPair
@@ -64,7 +64,7 @@ void
 ToString
 (
 const
-nsSVGAngle
+SVGAngle
 *
 aAngle
 nsAString

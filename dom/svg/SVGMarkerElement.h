@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSVGAngle
+SVGAngle
 .
 h
 "
@@ -758,7 +758,7 @@ enum
 ORIENT
 }
 ;
-nsSVGAngle
+SVGAngle
 mAngleAttributes
 [
 1

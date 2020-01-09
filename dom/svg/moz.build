@@ -677,11 +677,6 @@ nsISVGPoint
 cpp
 '
 '
-nsSVGAngle
-.
-cpp
-'
-'
 nsSVGBoolean
 .
 cpp
@@ -733,6 +728,11 @@ cpp
 '
 '
 SVGAElement
+.
+cpp
+'
+'
+SVGAngle
 .
 cpp
 '

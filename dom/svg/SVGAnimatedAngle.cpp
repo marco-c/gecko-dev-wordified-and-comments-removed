@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsSVGAngle
+SVGAngle
 .
 h
 "

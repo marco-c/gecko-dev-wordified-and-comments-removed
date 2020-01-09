@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsSVGAngle
+SVGAngle
 .
 h
 "
@@ -74,7 +74,7 @@ CreatedValue
 mVal
 =
 new
-nsSVGAngle
+SVGAngle
 (
 )
 ;
