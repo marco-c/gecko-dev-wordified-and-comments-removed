@@ -231,6 +231,16 @@ setdefault
 1
 "
 )
+SEARCH_WIDGET
+(
+"
+search
+.
+widget
+.
+1
+"
+)
 SHARE
 (
 "
