@@ -6273,6 +6273,14 @@ hr
 )
 )
 {
+XASSERT
+(
+hr
+!
+=
+CO_E_NOTINITIALIZED
+)
+;
 LOG
 (
 "
