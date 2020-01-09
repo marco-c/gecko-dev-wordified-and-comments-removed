@@ -1801,7 +1801,7 @@ table
 "
 )
 10
-anyfunc
+funcref
 )
 (
 elem

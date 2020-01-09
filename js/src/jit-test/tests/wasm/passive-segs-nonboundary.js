@@ -218,7 +218,7 @@ Tables
 table
 30
 30
-anyfunc
+funcref
 )
 ;
 ;
@@ -3232,7 +3232,7 @@ t
 "
 )
 10
-anyfunc
+funcref
 )
 (
 elem

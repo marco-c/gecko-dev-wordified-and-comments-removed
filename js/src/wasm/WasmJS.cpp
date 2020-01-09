@@ -11439,6 +11439,15 @@ elementLinearStr
 anyfunc
 "
 )
+|
+|
+StringEqualsAscii
+(
+elementLinearStr
+"
+funcref
+"
+)
 )
 {
 tableKind

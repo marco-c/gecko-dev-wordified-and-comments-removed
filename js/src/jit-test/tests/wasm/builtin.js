@@ -137,7 +137,7 @@ f64
 table
 t
 10
-anyfunc
+funcref
 )
 (
 type
@@ -467,7 +467,7 @@ f64
 table
 t
 10
-anyfunc
+funcref
 )
 (
 type

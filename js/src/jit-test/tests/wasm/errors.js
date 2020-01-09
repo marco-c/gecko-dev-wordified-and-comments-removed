@@ -1749,7 +1749,7 @@ module
 (
 table
 1
-anyfunc
+funcref
 )
 (
 func
@@ -1788,7 +1788,7 @@ module
 (
 table
 1
-anyfunc
+funcref
 )
 (
 func
@@ -1826,7 +1826,7 @@ CallIndirectCode
 module
 (
 table
-anyfunc
+funcref
 (
 elem
 blah
@@ -2380,7 +2380,7 @@ b
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 c

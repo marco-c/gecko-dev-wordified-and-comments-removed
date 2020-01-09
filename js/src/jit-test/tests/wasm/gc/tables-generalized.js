@@ -693,7 +693,7 @@ only
 tables
 of
 '
-anyfunc
+funcref
 '
 may
 have
@@ -783,7 +783,7 @@ only
 tables
 of
 '
-anyfunc
+funcref
 '
 may
 have
@@ -848,7 +848,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
@@ -941,7 +941,7 @@ a
 table
 of
 '
-anyfunc
+funcref
 '
 /
 )
@@ -1310,7 +1310,7 @@ module
 (
 table
 10
-anyfunc
+funcref
 )
 (
 func
@@ -1377,7 +1377,7 @@ gc_feature_opt_in
 (
 table
 10
-anyfunc
+funcref
 )
 (
 func
@@ -1818,7 +1818,7 @@ gc_feature_opt_in
 (
 table
 10
-anyfunc
+funcref
 )
 (
 func
@@ -2347,7 +2347,7 @@ below
 table
 t
 2
-anyfunc
+funcref
 )
 (
 func
@@ -2769,7 +2769,7 @@ t
 "
 )
 2
-anyfunc
+funcref
 )
 (
 func
@@ -2994,7 +2994,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :

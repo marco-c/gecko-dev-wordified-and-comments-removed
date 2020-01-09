@@ -156,7 +156,7 @@ table
 "
 )
 10
-anyfunc
+funcref
 )
 (
 elem
@@ -285,7 +285,7 @@ table
 "
 )
 10
-anyfunc
+funcref
 )
 (
 elem

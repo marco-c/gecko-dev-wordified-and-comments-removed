@@ -12,7 +12,7 @@ table
 prefix
 0
 32
-anyfunc
+funcref
 )
 '
 ]

@@ -9,13 +9,13 @@ module
 table
 t1
 2
-anyfunc
+funcref
 )
 (
 table
 t2
 2
-anyfunc
+funcref
 )
 (
 type
@@ -317,7 +317,7 @@ t
 "
 )
 2
-anyfunc
+funcref
 )
 (
 table
@@ -329,7 +329,7 @@ t1
 "
 )
 2
-anyfunc
+funcref
 )
 (
 table
@@ -346,7 +346,7 @@ t2
 "
 )
 3
-anyfunc
+funcref
 )
 )
 {
@@ -364,7 +364,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
@@ -439,7 +439,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
@@ -475,7 +475,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
@@ -527,7 +527,7 @@ t0
 "
 )
 2
-anyfunc
+funcref
 )
 (
 type
@@ -599,7 +599,7 @@ t2
 "
 )
 4
-anyfunc
+funcref
 )
 (
 type
@@ -1610,7 +1610,7 @@ t
 "
 )
 2
-anyfunc
+funcref
 )
 (
 type
@@ -1681,7 +1681,7 @@ t0
 x
 }
 2
-anyfunc
+funcref
 )
 (
 table
@@ -1690,7 +1690,7 @@ t1
 y
 }
 2
-anyfunc
+funcref
 )
 (
 type
@@ -1931,7 +1931,7 @@ t2
 "
 )
 1
-anyfunc
+funcref
 )
 (
 func
@@ -2106,13 +2106,13 @@ module
 table
 t0
 2
-anyfunc
+funcref
 )
 (
 table
 t1
 2
-anyfunc
+funcref
 )
 (
 elem
@@ -2312,7 +2312,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
@@ -2355,7 +2355,7 @@ t0
 table
 t0
 2
-anyfunc
+funcref
 )
 )
 (
@@ -2370,7 +2370,7 @@ t1
 table
 t1
 2
-anyfunc
+funcref
 )
 )
 (
@@ -2518,7 +2518,7 @@ t0
 table
 t0
 2
-anyfunc
+funcref
 )
 )
 (
@@ -2533,7 +2533,7 @@ t1
 table
 t1
 2
-anyfunc
+funcref
 )
 )
 (
@@ -3261,7 +3261,7 @@ module
 table
 t0
 2
-anyfunc
+funcref
 )
 (
 elem
@@ -3335,7 +3335,7 @@ module
 table
 t0
 2
-anyfunc
+funcref
 )
 (
 elem
@@ -3378,7 +3378,7 @@ module
 table
 t0
 2
-anyfunc
+funcref
 )
 (
 type
@@ -3452,7 +3452,7 @@ module
 table
 t0
 2
-anyfunc
+funcref
 )
 (
 elem
@@ -3493,7 +3493,7 @@ module
 table
 t0
 2
-anyfunc
+funcref
 )
 (
 elem
@@ -3559,13 +3559,13 @@ module
 table
 t0
 2
-anyfunc
+funcref
 )
 (
 table
 t1
 2
-anyfunc
+funcref
 )
 (
 func
@@ -3623,13 +3623,13 @@ module
 table
 t0
 2
-anyfunc
+funcref
 )
 (
 table
 t1
 2
-anyfunc
+funcref
 )
 (
 func

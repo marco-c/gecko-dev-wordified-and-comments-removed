@@ -8435,7 +8435,7 @@ a
 table
 of
 '
-anyfunc
+funcref
 '
 "
 )
@@ -10567,7 +10567,7 @@ only
 tables
 of
 '
-anyfunc
+funcref
 '
 may
 have

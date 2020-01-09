@@ -32,7 +32,7 @@ descriptor
 must
 be
 "
-anyfunc
+funcref
 "
 /
 )

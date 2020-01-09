@@ -108,7 +108,7 @@ module
 (
 table
 2
-anyfunc
+funcref
 )
 (
 export
@@ -405,7 +405,7 @@ module
 (
 table
 1
-anyfunc
+funcref
 )
 (
 export
@@ -580,7 +580,7 @@ module
 (
 table
 2
-anyfunc
+funcref
 )
 (
 export
@@ -739,7 +739,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -861,7 +861,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -1129,7 +1129,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -1343,7 +1343,7 @@ N
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -1480,7 +1480,7 @@ table
 {
 N
 }
-anyfunc
+funcref
 )
 )
 (

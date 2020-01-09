@@ -948,7 +948,7 @@ table
 t
 1
 10
-anyfunc
+funcref
 )
 )
 '
@@ -963,7 +963,7 @@ module
 table
 t
 1
-anyfunc
+funcref
 )
 )
 '
@@ -977,7 +977,7 @@ module
 (
 table
 0
-anyfunc
+funcref
 )
 )
 '
@@ -997,7 +997,7 @@ module
 (
 table
 t
-anyfunc
+funcref
 )
 )
 '
@@ -1014,7 +1014,7 @@ module
 (
 table
 t
-anyfunc
+funcref
 (
 elem
 )
@@ -1034,7 +1034,7 @@ func
 (
 table
 t
-anyfunc
+funcref
 (
 elem
 0
@@ -1066,7 +1066,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -1089,7 +1089,7 @@ t
 import
 )
 1
-anyfunc
+funcref
 )
 )
 '
@@ -1119,7 +1119,7 @@ mod
 "
 )
 1
-anyfunc
+funcref
 )
 )
 '
@@ -1152,7 +1152,7 @@ field
 "
 )
 1
-anyfunc
+funcref
 (
 elem
 1
@@ -1185,7 +1185,7 @@ field
 "
 )
 1
-anyfunc
+funcref
 )
 )
 '
@@ -1249,7 +1249,7 @@ export
 mod
 "
 )
-anyfunc
+funcref
 )
 )
 '
@@ -1278,7 +1278,7 @@ export
 mod
 "
 )
-anyfunc
+funcref
 1
 2
 3
@@ -1306,7 +1306,7 @@ export
 tbl
 "
 )
-anyfunc
+funcref
 (
 elem
 )
@@ -1342,7 +1342,7 @@ export
 tbl
 "
 )
-anyfunc
+funcref
 (
 elem
 0

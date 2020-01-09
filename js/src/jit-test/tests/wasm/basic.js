@@ -5445,7 +5445,7 @@ const
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 0
@@ -5837,7 +5837,7 @@ const
 )
 (
 table
-anyfunc
+funcref
 (
 elem
 a

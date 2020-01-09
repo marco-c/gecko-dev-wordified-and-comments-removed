@@ -423,7 +423,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -536,7 +536,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -1238,7 +1238,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 func
@@ -1544,7 +1544,7 @@ imp
 (
 table
 2
-anyfunc
+funcref
 )
 (
 func
@@ -1764,7 +1764,7 @@ Table
 element
 :
 "
-anyfunc
+funcref
 "
 initial
 :
@@ -1814,7 +1814,7 @@ tbl
 "
 )
 1
-anyfunc
+funcref
 )
 (
 func
@@ -2141,7 +2141,7 @@ maximum
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )

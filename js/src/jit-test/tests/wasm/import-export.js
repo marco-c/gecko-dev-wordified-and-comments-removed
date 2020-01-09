@@ -194,7 +194,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -212,7 +212,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -230,7 +230,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -248,7 +248,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -405,7 +405,7 @@ maximum
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -428,7 +428,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -449,7 +449,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -475,7 +475,7 @@ maximum
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -499,7 +499,7 @@ maximum
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -1882,7 +1882,7 @@ b
 (
 table
 2
-anyfunc
+funcref
 )
 )
 )
@@ -2006,7 +2006,7 @@ b
 table
 2
 3
-anyfunc
+funcref
 )
 )
 )
@@ -2204,7 +2204,7 @@ module
 table
 2
 1
-anyfunc
+funcref
 )
 )
 '
@@ -2238,7 +2238,7 @@ b
 table
 2
 1
-anyfunc
+funcref
 )
 )
 )
@@ -3681,7 +3681,7 @@ module
 (
 table
 0
-anyfunc
+funcref
 )
 (
 export
@@ -3757,7 +3757,7 @@ module
 (
 table
 2
-anyfunc
+funcref
 )
 (
 export
@@ -3861,7 +3861,7 @@ module
 (
 table
 2
-anyfunc
+funcref
 )
 (
 memory
@@ -3981,7 +3981,7 @@ module
 (
 table
 1
-anyfunc
+funcref
 )
 (
 memory
@@ -4102,7 +4102,7 @@ module
 (
 table
 0
-anyfunc
+funcref
 )
 (
 export
@@ -4232,7 +4232,7 @@ const
 (
 table
 4
-anyfunc
+funcref
 )
 (
 elem
@@ -5115,7 +5115,7 @@ b
 table
 1
 1
-anyfunc
+funcref
 )
 )
 (
@@ -5152,7 +5152,7 @@ maximum
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -5217,7 +5217,7 @@ b
 table
 2
 2
-anyfunc
+funcref
 )
 )
 (
@@ -5261,7 +5261,7 @@ maximum
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -5420,7 +5420,7 @@ module
 (
 table
 3
-anyfunc
+funcref
 )
 (
 import
@@ -7501,7 +7501,7 @@ tbl
 (
 table
 1
-anyfunc
+funcref
 )
 )
 (
@@ -7644,7 +7644,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -8039,7 +8039,7 @@ tbl
 (
 table
 3
-anyfunc
+funcref
 )
 )
 (
@@ -8137,7 +8137,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -8413,7 +8413,7 @@ b
 (
 table
 10
-anyfunc
+funcref
 )
 )
 (
@@ -8511,7 +8511,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -8669,7 +8669,7 @@ table
 "
 )
 4
-anyfunc
+funcref
 )
 (
 func
@@ -8730,7 +8730,7 @@ initial
 element
 :
 "
-anyfunc
+funcref
 "
 }
 )
@@ -9069,7 +9069,7 @@ const
 table
 2
 2
-anyfunc
+funcref
 )
 (
 elem
