@@ -98,10 +98,10 @@ BUG_COMPONENT
 =
 (
 "
-Core
+Firefox
 "
 "
-Widget
+Headless
 "
 )
 DIRS

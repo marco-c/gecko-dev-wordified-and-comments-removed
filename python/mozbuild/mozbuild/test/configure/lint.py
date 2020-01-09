@@ -95,12 +95,6 @@ browser
 '
             
 '
-embedding
-/
-ios
-'
-            
-'
 extensions
 '
             

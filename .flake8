@@ -58,13 +58,6 @@ security
 dom
 /
 websocket
-embedding
-/
-ios
-/
-moz
-.
-configure
 gfx
 /
 tests
