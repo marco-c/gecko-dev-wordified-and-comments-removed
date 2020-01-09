@@ -208,12 +208,6 @@ skipPausing
 }
 )
 ;
-actions
-.
-getEventListenerBreakpointTypes
-(
-)
-;
 const
 sourceInfo
 =
