@@ -48,7 +48,8 @@ mapExpression
 (
 expression
 mappings
-null
+[
+]
 false
 false
 )

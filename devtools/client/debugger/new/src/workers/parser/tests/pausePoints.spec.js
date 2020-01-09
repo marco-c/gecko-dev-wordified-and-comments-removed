@@ -113,11 +113,15 @@ nodes
 =
 convertToList
 (
+(
 getPausePoints
 (
 source
 .
 id
+)
+:
+any
 )
 )
 ;
