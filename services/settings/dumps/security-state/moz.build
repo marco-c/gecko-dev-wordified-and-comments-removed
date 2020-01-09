@@ -73,11 +73,6 @@ intermediates
 .
 json
 '
-'
-onecrl
-.
-json
-'
 ]
 if
 CONFIG
