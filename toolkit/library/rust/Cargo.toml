@@ -218,6 +218,17 @@ shared
 gecko_profiler_parse_elf
 "
 ]
+bitsdownload
+=
+[
+"
+gkrust
+-
+shared
+/
+bitsdownload
+"
+]
 [
 dependencies
 ]
