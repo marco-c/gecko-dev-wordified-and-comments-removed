@@ -6836,6 +6836,11 @@ if
 IsNeckoChild
 (
 )
+|
+|
+IsSocketProcessChild
+(
+)
 )
 {
 return
