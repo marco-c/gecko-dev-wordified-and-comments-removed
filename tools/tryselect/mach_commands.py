@@ -358,6 +358,18 @@ _mach_context
 handler
 .
 subcommand
+        
+self
+.
+parser
+=
+self
+.
+_mach_context
+.
+handler
+.
+parser
     
 def
 handle_presets
@@ -421,6 +433,7 @@ tryselect
 preset
 import
 presets
+migrate_old_presets
         
 from
 tryselect
@@ -431,13 +444,13 @@ dicttools
 import
 merge
         
+migrate_old_presets
+(
+)
+        
 default
 =
 self
-.
-_mach_context
-.
-handler
 .
 parser
 .
@@ -538,6 +551,36 @@ exit
 if
 preset
 :
+            
+if
+preset
+not
+in
+presets
+:
+                
+self
+.
+parser
+.
+error
+(
+"
+preset
+'
+{
+}
+'
+does
+not
+exist
+"
+.
+format
+(
+preset
+)
+)
             
 name
 =
