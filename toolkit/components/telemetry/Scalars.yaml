@@ -4807,6 +4807,12 @@ bug_numbers
 :
 -
 1400757
+-
+1429765
+-
+1480589
+-
+1532391
 description
 :
 >
@@ -4828,7 +4834,7 @@ starts
 expires
 :
 "
-68
+72
 "
 kind
 :
@@ -4837,6 +4843,11 @@ notification_emails
 :
 -
 bvandyk
+mozilla
+.
+com
+-
+nohlmeier
 mozilla
 .
 com
