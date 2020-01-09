@@ -152,6 +152,14 @@ EnsureAttachedToGLContext
 (
 )
 ;
+enum
+PrepareStatus
+{
+STATUS_NONE
+STATUS_PREPARE_NEEDED
+STATUS_PREPARED
+}
+;
 const
 mozilla
 :
@@ -176,8 +184,8 @@ const
 bool
 mContinuousUpdate
 ;
-bool
-mIsPrepared
+PrepareStatus
+mPrepareStatus
 ;
 bool
 mAttachedToGLContext
