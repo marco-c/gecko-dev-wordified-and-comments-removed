@@ -20,15 +20,6 @@ h
 #
 include
 "
-vm
-/
-BigIntType
-.
-h
-"
-#
-include
-"
 jit
 /
 mips

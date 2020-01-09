@@ -59,6 +59,15 @@ include
 "
 frontend
 /
+EitherParser
+.
+h
+"
+#
+include
+"
+frontend
+/
 ParseContext
 .
 h
@@ -138,9 +147,6 @@ js
 namespace
 frontend
 {
-class
-EitherParser
-;
 template
 <
 typename
