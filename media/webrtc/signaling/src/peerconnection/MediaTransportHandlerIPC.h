@@ -312,6 +312,13 @@ std
 string
 &
 aCandidate
+const
+std
+:
+:
+string
+&
+aUfrag
 )
 override
 ;

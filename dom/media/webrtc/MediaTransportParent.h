@@ -332,6 +332,10 @@ const
 string
 &
 candidate
+const
+string
+&
+ufrag
 )
 ;
 mozilla

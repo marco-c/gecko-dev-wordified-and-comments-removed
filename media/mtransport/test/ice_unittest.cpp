@@ -1844,6 +1844,13 @@ std
 string
 &
 candidate
+const
+std
+:
+:
+string
+&
+ufrag
 MtransportTestUtils
 *
 utils
@@ -1860,6 +1867,10 @@ stream
 candidate_
 (
 candidate
+)
+ufrag_
+(
+ufrag
 )
 timer_handle_
 (
@@ -2098,6 +2109,12 @@ std
 :
 string
 candidate_
+;
+std
+:
+:
+string
+ufrag_
 ;
 void
 *
@@ -4822,6 +4839,8 @@ SchedulableTrickleCandidate
 this
 stream
 attribute
+"
+"
 test_utils_
 )
 )
@@ -4845,6 +4864,13 @@ std
 string
 &
 candidate
+const
+std
+:
+:
+string
+&
+ufrag
 size_t
 index
 )
@@ -4874,6 +4900,7 @@ stream
 ParseTrickleCandidate
 (
 candidate
+ufrag
 )
 ;
 }
@@ -5947,6 +5974,13 @@ std
 string
 &
 raw_candidate
+const
+std
+:
+:
+string
+&
+ufrag
 )
 {
 std
@@ -6093,6 +6127,7 @@ i
 ParseTrickleCandidate
 (
 candidate
+ufrag
 )
 ;
 ASSERT_TRUE
@@ -7686,6 +7721,8 @@ media_stream
 ParseTrickleCandidate
 (
 candidate
+"
+"
 )
 ;
 }
@@ -8551,6 +8588,7 @@ peer_
 TrickleCandidate_s
 (
 candidate_
+ufrag_
 stream_
 )
 ;
@@ -18002,6 +18040,8 @@ UDP
 typ
 host
 "
+"
+"
 test_utils_
 )
 )
@@ -18037,6 +18077,8 @@ UDP
 12345
 typ
 host
+"
+"
 "
 test_utils_
 )
@@ -18074,6 +18116,8 @@ UDP
 typ
 host
 "
+"
+"
 test_utils_
 )
 )
@@ -18109,6 +18153,8 @@ UDP
 12345
 typ
 host
+"
+"
 "
 test_utils_
 )

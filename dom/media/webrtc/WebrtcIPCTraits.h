@@ -818,6 +818,7 @@ mozilla
 :
 CandidateInfo
 mCandidate
+mUfrag
 mDefaultHostRtp
 mDefaultPortRtp
 mDefaultHostRtcp

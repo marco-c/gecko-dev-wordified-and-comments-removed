@@ -30,6 +30,12 @@ std
 :
 :
 string
+mUfrag
+;
+std
+:
+:
+string
 mDefaultHostRtp
 ;
 uint16_t

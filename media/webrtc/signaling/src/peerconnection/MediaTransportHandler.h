@@ -516,6 +516,13 @@ std
 string
 &
 aCandidate
+const
+std
+:
+:
+string
+&
+aUFrag
 )
 =
 0

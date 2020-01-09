@@ -213,6 +213,8 @@ DOMString
 mid
 DOMString
 candidate
+DOMString
+ufrag
 )
 ;
 /

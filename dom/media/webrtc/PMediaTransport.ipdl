@@ -451,6 +451,8 @@ string
 transportId
 string
 candidate
+string
+ufrag
 )
 ;
 async

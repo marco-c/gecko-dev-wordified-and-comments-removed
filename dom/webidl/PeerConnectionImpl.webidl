@@ -548,6 +548,8 @@ DOMString
 candidate
 DOMString
 mid
+DOMString
+ufrag
 unsigned
 short
 ?

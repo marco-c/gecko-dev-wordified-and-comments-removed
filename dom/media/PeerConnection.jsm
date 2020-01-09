@@ -6627,6 +6627,7 @@ _addIceCandidate
 candidate
 sdpMid
 sdpMLineIndex
+usernameFragment
 }
 )
 {
@@ -6677,6 +6678,11 @@ addIceCandidate
 (
 candidate
 sdpMid
+|
+|
+"
+"
+usernameFragment
 |
 |
 "
@@ -9558,6 +9564,7 @@ onIceCandidate
 sdpMLineIndex
 sdpMid
 candidate
+ufrag
 )
 {
 let
@@ -9607,6 +9614,7 @@ RTCIceCandidate
 candidate
 sdpMid
 sdpMLineIndex
+ufrag
 }
 )
 ;

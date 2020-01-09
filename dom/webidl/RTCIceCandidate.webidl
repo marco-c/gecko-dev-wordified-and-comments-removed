@@ -146,6 +146,12 @@ sdpMLineIndex
 =
 null
 ;
+DOMString
+?
+usernameFragment
+=
+null
+;
 }
 ;
 [
@@ -194,6 +200,11 @@ unsigned
 short
 ?
 sdpMLineIndex
+;
+attribute
+DOMString
+?
+usernameFragment
 ;
 [
 Default

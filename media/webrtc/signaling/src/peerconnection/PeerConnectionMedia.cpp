@@ -1674,6 +1674,7 @@ candidate
 transport
 .
 mTransportId
+ufrag
 )
 ;
 }
@@ -2141,6 +2142,13 @@ std
 string
 &
 aTransportId
+const
+std
+:
+:
+string
+&
+aUfrag
 )
 {
 MOZ_ASSERT
@@ -2168,6 +2176,7 @@ MediaTransportHandler
 AddIceCandidate
 aTransportId
 aCandidate
+aUfrag
 )
 NS_DISPATCH_NORMAL
 )
@@ -3402,6 +3411,9 @@ aCandidateInfo
 .
 mCandidate
 aTransportId
+aCandidateInfo
+.
+mUfrag
 )
 ;
 }
