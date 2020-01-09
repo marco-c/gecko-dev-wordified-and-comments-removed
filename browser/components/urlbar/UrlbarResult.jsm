@@ -145,6 +145,12 @@ source
 =
 matchSource
 ;
+this
+.
+heuristic
+=
+false
+;
 if
 (
 !

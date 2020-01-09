@@ -8332,6 +8332,16 @@ id
 return
 ;
 }
+mm
+.
+removeMessageListener
+(
+"
+InPermitUnload
+"
+listener
+)
+;
 aCallback
 (
 msg
