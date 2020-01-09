@@ -6979,6 +6979,11 @@ null
 if
 (
 accept
+&
+&
+this
+.
+view
 )
 {
 var
