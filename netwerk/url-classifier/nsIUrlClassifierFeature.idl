@@ -410,6 +410,9 @@ aChannel
 in
 ConstStringArrayRef
 aList
+in
+ConstStringArrayRef
+aHashes
 )
 ;
 /
