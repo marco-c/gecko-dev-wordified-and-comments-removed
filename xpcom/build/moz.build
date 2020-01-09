@@ -143,6 +143,11 @@ FileLocation
 h
 '
 '
+GeckoProcessTypes
+.
+h
+'
+'
 IOInterposer
 .
 h
