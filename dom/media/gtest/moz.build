@@ -457,6 +457,11 @@ vp8
 .
 ivf
 '
+'
+test_vbri
+.
+mp3
+'
 ]
 TEST_DIRS
 +
