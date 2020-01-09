@@ -2187,12 +2187,6 @@ mState
 =
 =
 kStopped
-|
-|
-mStream
-=
-=
-kAllocated
 )
 ;
 class
