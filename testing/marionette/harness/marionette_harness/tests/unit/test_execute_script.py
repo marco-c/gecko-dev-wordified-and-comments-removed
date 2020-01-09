@@ -3081,6 +3081,18 @@ self
 )
 :
         
+self
+.
+marionette
+.
+timeout
+.
+script
+=
+0
+.
+1
+        
 with
 self
 .
@@ -3102,29 +3114,23 @@ execute_async_script
 "
 "
                 
-var
+const
+[
 cb
+]
 =
 arguments
-[
-arguments
-.
-length
--
-1
-]
 ;
                 
 setTimeout
 (
-function
 (
 )
-{
+=
+>
 cb
 (
 )
-}
 2500
 )
 ;
@@ -3132,9 +3138,6 @@ cb
 "
 "
 "
-script_timeout
-=
-100
 )
     
 def
