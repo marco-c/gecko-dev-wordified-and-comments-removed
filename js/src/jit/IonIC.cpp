@@ -2799,7 +2799,7 @@ ionScript
 (
 )
 ;
-TryAttachIonStubOld
+TryAttachIonStub
 <
 GetIteratorIRGenerator
 IonGetIteratorIC

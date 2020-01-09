@@ -28278,7 +28278,7 @@ GetIterator
 "
 )
 ;
-TryAttachStubOld
+TryAttachStub
 <
 GetIteratorIRGenerator
 >
