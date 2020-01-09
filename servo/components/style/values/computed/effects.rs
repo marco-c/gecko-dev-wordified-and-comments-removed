@@ -186,14 +186,11 @@ ComputedUrl
 [
 cfg
 (
-not
-(
 feature
 =
 "
-gecko
+servo
 "
-)
 )
 ]
 pub

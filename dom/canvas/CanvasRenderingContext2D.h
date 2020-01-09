@@ -3277,9 +3277,9 @@ const
 nsAString
 &
 aString
-nsTArray
+StyleOwnedSlice
 <
-nsStyleFilter
+StyleFilter
 >
 &
 aFilterChain
@@ -4618,9 +4618,9 @@ none
 "
 )
 ;
-nsTArray
+StyleOwnedSlice
 <
-nsStyleFilter
+StyleFilter
 >
 filterChain
 ;
