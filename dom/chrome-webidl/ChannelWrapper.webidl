@@ -63,7 +63,7 @@ interface
 MozChannel
 ;
 interface
-TabParent
+RemoteTab
 ;
 interface
 URI
@@ -281,9 +281,9 @@ long
 aChannelId
 WebExtensionPolicy
 extension
-TabParent
+RemoteTab
 ?
-tabParent
+remoteTab
 )
 ;
 /
@@ -862,7 +862,7 @@ process
 of
 the
 given
-TabParent
+RemoteTab
 .
 *
 /
@@ -871,9 +871,9 @@ registerTraceableChannel
 (
 WebExtensionPolicy
 extension
-TabParent
+RemoteTab
 ?
-tabParent
+remoteTab
 )
 ;
 /

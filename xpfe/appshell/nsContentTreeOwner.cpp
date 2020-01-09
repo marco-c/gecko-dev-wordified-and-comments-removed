@@ -726,9 +726,9 @@ NS_IMETHODIMP
 nsContentTreeOwner
 :
 :
-TabParentAdded
+RemoteTabAdded
 (
-nsITabParent
+nsIRemoteTab
 *
 aTab
 bool
@@ -744,7 +744,7 @@ return
 mXULWindow
 -
 >
-TabParentAdded
+RemoteTabAdded
 (
 aTab
 aPrimary
@@ -755,9 +755,9 @@ NS_IMETHODIMP
 nsContentTreeOwner
 :
 :
-TabParentRemoved
+RemoteTabRemoved
 (
-nsITabParent
+nsIRemoteTab
 *
 aTab
 )
@@ -771,7 +771,7 @@ return
 mXULWindow
 -
 >
-TabParentRemoved
+RemoteTabRemoved
 (
 aTab
 )
@@ -781,9 +781,9 @@ NS_IMETHODIMP
 nsContentTreeOwner
 :
 :
-GetPrimaryTabParent
+GetPrimaryRemoteTab
 (
-nsITabParent
+nsIRemoteTab
 *
 *
 aTab
@@ -798,7 +798,7 @@ return
 mXULWindow
 -
 >
-GetPrimaryTabParent
+GetPrimaryRemoteTab
 (
 aTab
 )

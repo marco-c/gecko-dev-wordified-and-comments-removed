@@ -838,7 +838,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 )
 {
 packet
@@ -849,7 +849,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 tabId
 ;

@@ -3336,14 +3336,14 @@ nullptr
 ;
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
 tabParent
 ;
 owner
 -
 >
-GetPrimaryTabParent
+GetPrimaryRemoteTab
 (
 getter_AddRefs
 (

@@ -12404,7 +12404,7 @@ false
 )
 ;
 uint64_t
-nextTabParentId
+nextRemoteTabId
 =
 0
 ;
@@ -12425,11 +12425,11 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-nextTabParentId
+nextRemoteTabId
 nextTabParentIdAttr
 )
 ;
-nextTabParentId
+nextRemoteTabId
 =
 strtoull
 (
@@ -12448,7 +12448,7 @@ nullptr
 if
 (
 !
-nextTabParentId
+nextRemoteTabId
 &
 &
 window
@@ -12460,10 +12460,10 @@ Unused
 window
 -
 >
-GetNextTabParentId
+GetNextRemoteTabId
 (
 &
-nextTabParentId
+nextRemoteTabId
 )
 ;
 }
@@ -12525,7 +12525,7 @@ ownerElement
 mBrowsingContext
 openerContentParent
 sameTabGroupAs
-nextTabParentId
+nextRemoteTabId
 )
 ;
 if
@@ -14066,7 +14066,7 @@ nsFrameLoader
 :
 SetRemoteBrowser
 (
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )
@@ -15126,12 +15126,12 @@ forget
 }
 already_AddRefed
 <
-nsITabParent
+nsIRemoteTab
 >
 nsFrameLoader
 :
 :
-GetTabParent
+GetRemoteTab
 (
 )
 {
@@ -15730,7 +15730,7 @@ true
 parentTreeOwner
 -
 >
-TabParentRemoved
+RemoteTabRemoved
 (
 mBrowserParent
 )
@@ -15766,7 +15766,7 @@ eIgnoreCase
 parentTreeOwner
 -
 >
-TabParentAdded
+RemoteTabAdded
 (
 mBrowserParent
 isPrimary

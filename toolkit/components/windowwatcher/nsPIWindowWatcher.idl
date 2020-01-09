@@ -156,7 +156,7 @@ interface
 nsIArray
 ;
 interface
-nsITabParent
+nsIRemoteTab
 ;
 native
 nsDocShellLoadStatePtr
@@ -738,7 +738,7 @@ param
 aOpeningTab
 *
 The
-nsITabParent
+nsIRemoteTab
 that
 is
 requesting
@@ -803,7 +803,7 @@ window
 .
 *
 param
-aNextTabParentId
+aNextRemoteTabId
 *
 The
 integer
@@ -811,8 +811,8 @@ ID
 for
 the
 next
+remote
 tab
-parent
 actor
 .
 *
@@ -822,8 +822,8 @@ there
 is
 no
 next
+remote
 tab
-parent
 actor
 to
 use
@@ -855,7 +855,7 @@ window
 *
 return
 the
-nsITabParent
+nsIRemoteTab
 of
 the
 initial
@@ -869,11 +869,11 @@ window
 .
 *
 /
-nsITabParent
-openWindowWithTabParent
+nsIRemoteTab
+openWindowWithRemoteTab
 (
 in
-nsITabParent
+nsIRemoteTab
 aOpeningTab
 in
 ACString
@@ -888,7 +888,7 @@ in
 unsigned
 long
 long
-aNextTabParentId
+aNextRemoteTabId
 in
 boolean
 aForceNoOpener

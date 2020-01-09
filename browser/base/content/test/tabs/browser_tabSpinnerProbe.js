@@ -189,7 +189,7 @@ hangBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 hasPresented
 "

@@ -1654,7 +1654,7 @@ Equals
 (
 NS_GET_IID
 (
-nsITabParent
+nsIRemoteTab
 )
 )
 )

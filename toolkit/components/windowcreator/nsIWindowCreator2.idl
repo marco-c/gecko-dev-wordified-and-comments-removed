@@ -138,7 +138,7 @@ nsIWindowCreator
 idl
 "
 interface
-nsITabParent
+nsIRemoteTab
 ;
 interface
 nsIURI
@@ -243,7 +243,7 @@ nsIWebBrowserChrome
 param
 aOpeningTab
 The
-TabParent
+RemoteTab
 that
 is
 trying
@@ -276,15 +276,15 @@ Can
 be
 nullptr
 param
-aNextTabParentId
+aNextRemoteTabId
 The
 integer
 ID
 of
 the
 next
+remote
 tab
-parent
 actor
 to
 use
@@ -295,8 +295,8 @@ there
 is
 no
 next
+remote
 tab
-parent
 ID
 to
 use
@@ -369,7 +369,7 @@ in
 uint32_t
 chromeFlags
 in
-nsITabParent
+nsIRemoteTab
 aOpeningTab
 in
 mozIDOMWindowProxy
@@ -378,7 +378,7 @@ in
 unsigned
 long
 long
-aNextTabParentId
+aNextRemoteTabId
 out
 boolean
 cancel

@@ -334,7 +334,7 @@ class
 nsIDumpGCAndCCLogsCallback
 ;
 class
-nsITabParent
+nsIRemoteTab
 ;
 class
 nsITimer
@@ -821,7 +821,7 @@ TabParent
 *
 aSameTabGroupAs
 uint64_t
-aNextTabParentId
+aNextRemoteTabId
 )
 ;
 static
@@ -2872,7 +2872,7 @@ float
 &
 aFullZoom
 uint64_t
-aNextTabParentId
+aNextRemoteTabId
 const
 nsString
 &
@@ -2882,7 +2882,7 @@ nsresult
 aResult
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
 &
 aNewTabParent
@@ -5719,7 +5719,7 @@ mMessageManager
 ;
 static
 uint64_t
-sNextTabParentId
+sNextRemoteTabId
 ;
 static
 nsDataHashtable

@@ -850,7 +850,7 @@ TabParent
 WindowGlobalParent
 :
 :
-GetTabParent
+GetRemoteTab
 (
 )
 {
@@ -947,7 +947,7 @@ TabParent
 >
 tabParent
 =
-GetTabParent
+GetRemoteTab
 (
 )
 ;
@@ -1172,7 +1172,7 @@ TabParent
 >
 tabParent
 =
-GetTabParent
+GetRemoteTab
 (
 )
 )
@@ -1398,11 +1398,11 @@ aRv
 {
 RefPtr
 <
-TabParent
+BrowserParent
 >
-tabParent
+browserParent
 =
-GetTabParent
+GetRemoteTab
 (
 )
 ;
@@ -1411,7 +1411,7 @@ if
 NS_WARN_IF
 (
 !
-tabParent
+browserParent
 )
 )
 {

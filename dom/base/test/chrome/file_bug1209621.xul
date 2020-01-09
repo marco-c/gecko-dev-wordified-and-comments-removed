@@ -283,7 +283,7 @@ is
 (
 treeOwner
 .
-primaryTabParent
+primaryRemoteTab
 null
 "
 There
@@ -291,7 +291,7 @@ shouldn
 '
 t
 be
-primaryTabParent
+primaryRemoteTab
 because
 no
 remote
@@ -393,7 +393,7 @@ is
 (
 treeOwner
 .
-primaryTabParent
+primaryRemoteTab
 null
 "
 There
@@ -401,7 +401,7 @@ shouldn
 '
 t
 be
-primaryTabParent
+primaryRemoteTab
 because
 no
 remote
@@ -466,7 +466,7 @@ remote
 .
 frameLoader
 .
-tabParent
+remoteTab
 ;
 ok
 (
@@ -477,7 +477,7 @@ browsers
 should
 have
 a
-TabParent
+remoteTab
 .
 "
 )
@@ -486,7 +486,7 @@ is
 (
 treeOwner
 .
-primaryTabParent
+primaryRemoteTab
 tp
 "
 primary
@@ -495,7 +495,7 @@ browser
 should
 be
 the
-primaryTabParent
+primaryRemoteTab
 .
 "
 )
@@ -537,7 +537,7 @@ is
 (
 treeOwner
 .
-primaryTabParent
+primaryRemoteTab
 null
 "
 There
@@ -545,7 +545,7 @@ shouldn
 '
 t
 be
-primaryTabParent
+primaryRemoteTab
 because
 no
 remote
@@ -577,7 +577,7 @@ remote2
 .
 frameLoader
 .
-tabParent
+remoteTab
 ;
 ok
 (
@@ -588,7 +588,7 @@ browsers
 should
 have
 a
-TabParent
+remoteTab
 .
 "
 )
@@ -597,7 +597,7 @@ is
 (
 treeOwner
 .
-primaryTabParent
+primaryRemoteTab
 tp2
 "
 primary
@@ -606,7 +606,7 @@ browser
 should
 be
 the
-primaryTabParent
+primaryRemoteTab
 .
 "
 )

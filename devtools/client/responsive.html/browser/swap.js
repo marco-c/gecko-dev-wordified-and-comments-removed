@@ -313,7 +313,7 @@ linkedBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 tabId
 ;
@@ -331,7 +331,7 @@ otherBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 tabId
 !

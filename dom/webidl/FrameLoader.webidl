@@ -95,7 +95,7 @@ interface
 LoadContext
 ;
 interface
-TabParent
+RemoteTab
 ;
 interface
 URI
@@ -151,7 +151,7 @@ frame
 loader
 '
 s
-TabParent
+RemoteTab
 if
 it
 has
@@ -168,9 +168,9 @@ null
 /
 readonly
 attribute
-TabParent
+RemoteTab
 ?
-tabParent
+remoteTab
 ;
 /
 *
@@ -801,7 +801,7 @@ the
 ContentParent
 owning
 the
-TabParent
+RemoteTab
 in
 this
 frame
@@ -818,7 +818,7 @@ the
 childID
 after
 the
-TabParent
+RemoteTab
 died
 .
 *

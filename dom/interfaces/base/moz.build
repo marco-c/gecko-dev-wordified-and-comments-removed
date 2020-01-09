@@ -173,6 +173,11 @@ nsIQueryContentEventResult
 idl
 '
 '
+nsIRemoteTab
+.
+idl
+'
+'
 nsIServiceWorkerManager
 .
 idl
@@ -184,11 +189,6 @@ idl
 '
 '
 nsITabChild
-.
-idl
-'
-'
-nsITabParent
 .
 idl
 '

@@ -116,7 +116,7 @@ interface
 nsIAppShell
 ;
 interface
-nsITabParent
+nsIRemoteTab
 ;
 [
 ptr
@@ -308,7 +308,7 @@ different
 param
 aOpeningTab
 The
-TabParent
+RemoteTab
 that
 requested
 that
@@ -371,7 +371,7 @@ in
 long
 aInitialHeight
 in
-nsITabParent
+nsIRemoteTab
 aOpeningTab
 in
 mozIDOMWindowProxy

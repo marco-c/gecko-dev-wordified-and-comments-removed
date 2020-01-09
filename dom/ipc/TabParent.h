@@ -195,7 +195,7 @@ h
 #
 include
 "
-nsITabParent
+nsIRemoteTab
 .
 h
 "
@@ -333,7 +333,7 @@ PBrowserParent
 public
 nsIDOMEventListener
 public
-nsITabParent
+nsIRemoteTab
 public
 nsIAuthPromptProvider
 public
@@ -376,12 +376,12 @@ AutoUseNewTab
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIAUTHPROMPTPROVIDER
-NS_DECL_NSITABPARENT
+NS_DECL_NSIREMOTETAB
 NS_DECL_NSIDOMEVENTLISTENER
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 TabParent
-nsITabParent
+nsIRemoteTab
 )
 TabParent
 (
@@ -2415,7 +2415,7 @@ TabParent
 *
 GetFrom
 (
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )

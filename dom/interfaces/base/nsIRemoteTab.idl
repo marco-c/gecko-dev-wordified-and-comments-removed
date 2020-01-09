@@ -86,7 +86,7 @@ e9c39cd56434
 )
 ]
 interface
-nsITabParent
+nsIRemoteTab
 :
 nsISupports
 {
@@ -426,8 +426,8 @@ process
 which
 has
 this
+remote
 tab
-parent
 has
 all
 of
@@ -494,7 +494,7 @@ which
 currently
 embeds
 this
-nsITabParent
+nsIRemoteTab
 object
 .
 *

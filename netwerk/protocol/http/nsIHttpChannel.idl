@@ -3363,7 +3363,7 @@ which
 resolves
 to
 a
-nsITabParent
+nsIRemotTab
 object
 *
 which

@@ -178,7 +178,7 @@ h
 #
 include
 "
-nsITabParent
+nsIRemoteTab
 .
 h
 "

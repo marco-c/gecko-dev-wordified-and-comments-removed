@@ -116,7 +116,7 @@ interface
 nsIDocShell
 ;
 interface
-nsITabParent
+nsIRemoteTab
 ;
 interface
 nsIPrincipal

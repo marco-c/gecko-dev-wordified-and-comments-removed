@@ -1032,7 +1032,7 @@ TabParent
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsITabParent
+nsIRemoteTab
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -1045,7 +1045,7 @@ nsISupportsWeakReference
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsITabParent
+nsIRemoteTab
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTION
@@ -2741,7 +2741,7 @@ NotifyObservers
 (
 NS_ISUPPORTS_CAST
 (
-nsITabParent
+nsIRemoteTab
 *
 this
 )
@@ -9729,7 +9729,7 @@ nsIWidget
 >
 widget
 =
-GetWidget
+GetDocWidget
 (
 )
 ;
@@ -13447,7 +13447,7 @@ TabParent
 :
 GetFrom
 (
-nsITabParent
+nsIRemoteTab
 *
 aTabParent
 )

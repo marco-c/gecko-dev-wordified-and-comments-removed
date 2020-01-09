@@ -131,7 +131,7 @@ linkedBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 ;
@@ -242,7 +242,7 @@ linkedBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 pid

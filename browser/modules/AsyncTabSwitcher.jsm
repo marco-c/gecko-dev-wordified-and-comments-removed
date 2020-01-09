@@ -482,7 +482,7 @@ initialBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 hasLayers
 ;
@@ -1010,7 +1010,7 @@ linkedBrowser
 ;
 let
 {
-tabParent
+remoteTab
 }
 =
 browser
@@ -1059,7 +1059,7 @@ true
 }
 if
 (
-tabParent
+remoteTab
 )
 {
 browser
@@ -1107,7 +1107,7 @@ false
 if
 (
 !
-tabParent
+remoteTab
 )
 {
 this
@@ -1473,7 +1473,7 @@ minimizedOrFullyOccluded
 !
 fl
 .
-tabParent
+remoteTab
 |
 |
 (
@@ -1484,7 +1484,7 @@ hasSufficientlyLoaded
 !
 fl
 .
-tabParent
+remoteTab
 .
 hasPresented
 )
@@ -2272,7 +2272,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 )
 ;
 if
@@ -4226,7 +4226,7 @@ linkedBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 )
 {
 return

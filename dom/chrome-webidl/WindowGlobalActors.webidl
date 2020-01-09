@@ -101,7 +101,7 @@ interface
 nsIDocShell
 ;
 interface
-TabParent
+RemoteTab
 ;
 [
 Exposed
@@ -173,9 +173,9 @@ process
 only
 readonly
 attribute
-TabParent
+RemoteTab
 ?
-tabParent
+remoteTab
 ;
 /
 /
@@ -231,7 +231,7 @@ Throws
 ]
 Promise
 <
-TabParent
+RemoteTab
 >
 changeFrameRemoteness
 (

@@ -287,7 +287,7 @@ linkedBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 )
 {
 filter
@@ -300,7 +300,7 @@ linkedBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 tabId
 ;

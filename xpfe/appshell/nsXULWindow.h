@@ -147,7 +147,7 @@ h
 #
 include
 "
-nsITabParent
+nsIRemoteTab
 .
 h
 "
@@ -543,7 +543,7 @@ CreateNewChromeWindow
 (
 int32_t
 aChromeFlags
-nsITabParent
+nsIRemoteTab
 *
 aOpeningTab
 mozIDOMWindowProxy
@@ -560,14 +560,14 @@ CreateNewContentWindow
 (
 int32_t
 aChromeFlags
-nsITabParent
+nsIRemoteTab
 *
 aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
 uint64_t
-aNextTabParentId
+aNextRemoteTabId
 nsIXULWindow
 *
 *
@@ -790,7 +790,7 @@ uint32_t
 mChromeFlags
 ;
 uint64_t
-mNextTabParentId
+mNextRemoteTabId
 ;
 nsString
 mTitle
@@ -800,7 +800,7 @@ mOpenerScreenRect
 ;
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
 mPrimaryTabParent
 ;
@@ -808,7 +808,7 @@ private
 :
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
-GetPrimaryTabParentSize
+GetPrimaryRemoteTabSize
 (
 int32_t
 *
@@ -830,7 +830,7 @@ aHeight
 )
 ;
 nsresult
-SetPrimaryTabParentSize
+SetPrimaryRemoteTabSize
 (
 int32_t
 aWidth

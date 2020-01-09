@@ -62,7 +62,7 @@ class
 nsAtom
 ;
 class
-nsITabParent
+nsIRemoteTab
 ;
 class
 nsITraceableChannel

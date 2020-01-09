@@ -354,7 +354,7 @@ interface
 nsIScrollObserver
 ;
 interface
-nsITabParent
+nsIRemoteTab
 ;
 interface
 nsITabChild
@@ -6005,7 +6005,7 @@ void
 setOpener
 (
 in
-nsITabParent
+nsIRemoteTab
 aOpener
 )
 ;
@@ -6014,7 +6014,7 @@ noscript
 notxpcom
 nostdcall
 ]
-nsITabParent
+nsIRemoteTab
 getOpener
 (
 )

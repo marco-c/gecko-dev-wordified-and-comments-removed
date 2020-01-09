@@ -120,7 +120,7 @@ nsIDOMMozBrowserFrame
 idl
 "
 interface
-nsITabParent
+nsIRemoteTab
 ;
 [
 scriptable
@@ -450,8 +450,8 @@ to
 the
 given
 *
+remote
 tab
-parent
 .
 *
 *
@@ -477,8 +477,8 @@ void
 createRemoteFrameLoader
 (
 in
-nsITabParent
-aTabParent
+nsIRemoteTab
+aRemoteTab
 )
 ;
 /

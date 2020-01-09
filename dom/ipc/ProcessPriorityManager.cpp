@@ -2929,7 +2929,7 @@ aSubject
 {
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
 tp
 =

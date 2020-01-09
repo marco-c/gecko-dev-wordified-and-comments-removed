@@ -972,7 +972,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 hasBeforeUnload
 expected

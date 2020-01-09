@@ -253,7 +253,7 @@ selectedBrowser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 ;
@@ -374,7 +374,7 @@ browser
 .
 frameLoader
 .
-tabParent
+remoteTab
 .
 osPid
 ;

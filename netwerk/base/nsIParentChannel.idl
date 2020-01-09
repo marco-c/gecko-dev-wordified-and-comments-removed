@@ -71,7 +71,7 @@ nsIHttpChannel
 idl
 "
 interface
-nsITabParent
+nsIRemoteTab
 ;
 %
 {

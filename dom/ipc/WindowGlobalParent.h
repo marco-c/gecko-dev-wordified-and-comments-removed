@@ -183,7 +183,7 @@ already_AddRefed
 <
 TabParent
 >
-GetTabParent
+GetRemoteTab
 (
 )
 ;

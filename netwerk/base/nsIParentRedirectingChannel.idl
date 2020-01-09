@@ -64,7 +64,7 @@ nsIParentChannel
 idl
 "
 interface
-nsITabParent
+nsIRemoteTab
 ;
 interface
 nsIChannel

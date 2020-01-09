@@ -195,7 +195,7 @@ h
 #
 include
 "
-nsITabParent
+nsIRemoteTab
 .
 h
 "
@@ -1225,7 +1225,7 @@ MozPromise
 <
 nsCOMPtr
 <
-nsITabParent
+nsIRemoteTab
 >
 nsresult
 false
@@ -2436,16 +2436,6 @@ ReleaseMainThreadOnlyReferences
 ;
 void
 ReEvaluateReferrerAfterTrackingStatusIsKnown
-(
-)
-;
-void
-PerformBackgroundCacheRevalidation
-(
-)
-;
-void
-PerformBackgroundCacheRevalidationNow
 (
 )
 ;
