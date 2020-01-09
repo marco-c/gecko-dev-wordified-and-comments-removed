@@ -1769,7 +1769,6 @@ tests
 marionette
 -
 media
-#
 macosx1014
 -
 64
@@ -1887,7 +1886,6 @@ ext
 test
 #
 timeouts
-#
 -
 reftest
 #
@@ -1944,7 +1942,6 @@ wdspec
 #
 -
 xpcshell
-#
 macosx1014
 -
 64
@@ -1956,7 +1953,6 @@ tests
 #
 -
 crashtest
-#
 -
 reftest
 macosx64
@@ -2054,8 +2050,6 @@ webgl2
 ext
 test
 timeouts
--
-reftest
 -
 telemetry
 -
@@ -2208,8 +2202,6 @@ tests
 :
 -
 crashtest
--
-reftest
 linux32
 -
 tests

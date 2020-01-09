@@ -174,8 +174,7 @@ if
 webrender
 &
 &
-!
-gtkWidget
+winWidget
 117
 -
 129
@@ -517,8 +516,7 @@ if
 webrender
 &
 &
-!
-gtkWidget
+winWidget
 134
 -
 222
