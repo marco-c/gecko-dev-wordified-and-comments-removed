@@ -1462,6 +1462,9 @@ change
 "
 scrolling
 "
+"
+announcement
+"
 }
 ;
 #

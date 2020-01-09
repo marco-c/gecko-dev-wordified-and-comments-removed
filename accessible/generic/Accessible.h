@@ -2649,6 +2649,17 @@ mHideEventTarget
 aTarget
 ;
 }
+void
+Announce
+(
+const
+nsAString
+&
+aAnnouncement
+uint16_t
+aPriority
+)
+;
 protected
 :
 virtual

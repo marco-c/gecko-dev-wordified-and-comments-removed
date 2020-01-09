@@ -134,6 +134,11 @@ nsIAccessible
 idl
 '
 '
+nsIAccessibleAnnouncementEvent
+.
+idl
+'
+'
 nsIAccessibleApplication
 .
 idl
