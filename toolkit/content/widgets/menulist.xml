@@ -186,11 +186,6 @@ basecontrol
 >
 <
 content
-sizetopopup
-=
-"
-pref
-"
 >
 <
 xul
@@ -2319,11 +2314,6 @@ menulist
 >
 <
 content
-sizetopopup
-=
-"
-pref
-"
 >
 <
 children
