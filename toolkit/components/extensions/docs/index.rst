@@ -232,5 +232,6 @@ functions
 events
 manifest
 lifecycle
+incognito
 other
 reference
