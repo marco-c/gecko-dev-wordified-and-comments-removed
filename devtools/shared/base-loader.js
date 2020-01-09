@@ -597,9 +597,6 @@ options
 invisibleToDebugger
 :
 false
-freshCompartment
-:
-true
 }
 ;
 const

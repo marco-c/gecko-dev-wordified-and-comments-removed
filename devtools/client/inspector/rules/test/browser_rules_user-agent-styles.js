@@ -182,6 +182,12 @@ function
 (
 )
 {
+Cu
+.
+forceShrinkingGC
+(
+)
+;
 requestLongerTimeout
 (
 4
@@ -329,6 +335,12 @@ prefs
 clearUserPref
 (
 PREF_UA_STYLES
+)
+;
+Cu
+.
+forceShrinkingGC
+(
 )
 ;
 }
