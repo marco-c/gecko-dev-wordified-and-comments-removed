@@ -192,6 +192,8 @@ remote
 /
 content
 /
+sessions
+/
 frame
 -
 script
