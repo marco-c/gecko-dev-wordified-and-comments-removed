@@ -391,8 +391,10 @@ first
 =
 *
 p
+;
 +
 +
+p
 ;
 if
 (
@@ -507,6 +509,10 @@ second
 )
 )
 {
++
++
+p
+;
 *
 aBuffer
 =
@@ -517,8 +523,6 @@ char
 *
 >
 (
-+
-+
 p
 )
 ;
@@ -641,6 +645,10 @@ upper
 )
 )
 {
++
++
+p
+;
 if
 (
 MOZ_LIKELY
@@ -657,8 +665,6 @@ char
 third
 =
 *
-+
-+
 p
 ;
 if
@@ -676,6 +682,10 @@ third
 )
 )
 {
++
++
+p
+;
 *
 aBuffer
 =
@@ -686,8 +696,6 @@ char
 *
 >
 (
-+
-+
 p
 )
 ;
@@ -816,6 +824,10 @@ upper
 )
 )
 {
++
++
+p
+;
 if
 (
 MOZ_LIKELY
@@ -832,8 +844,6 @@ char
 third
 =
 *
-+
-+
 p
 ;
 if
@@ -851,6 +861,10 @@ third
 )
 )
 {
++
++
+p
+;
 if
 (
 MOZ_LIKELY
@@ -867,8 +881,6 @@ char
 fourth
 =
 *
-+
-+
 p
 ;
 if
@@ -886,6 +898,10 @@ fourth
 )
 )
 {
++
++
+p
+;
 *
 aBuffer
 =
@@ -896,8 +912,6 @@ char
 *
 >
 (
-+
-+
 p
 )
 ;
