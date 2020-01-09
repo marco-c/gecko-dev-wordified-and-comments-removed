@@ -3828,6 +3828,8 @@ aMsg
 )
 override
 ;
+#
+endif
 virtual
 PContentChild
 :
@@ -3846,8 +3848,6 @@ aReply
 )
 override
 ;
-#
-endif
 InfallibleTArray
 <
 nsAutoPtr

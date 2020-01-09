@@ -151,7 +151,7 @@ aObject
 static
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetSyncLoopEventTarget
 (
@@ -159,7 +159,13 @@ GetSyncLoopEventTarget
 ;
 static
 void
-CancelSyncLoop
+OnSyncMessageReceived
+(
+)
+;
+static
+void
+OnSyncMessageHandled
 (
 )
 ;
