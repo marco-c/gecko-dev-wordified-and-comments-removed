@@ -141,7 +141,6 @@ PMediaTransportChild
 AllocPMediaTransportChild
 (
 )
-override
 ;
 bool
 DeallocPMediaTransportChild
@@ -153,7 +152,6 @@ PMediaTransportChild
 *
 aActor
 )
-override
 ;
 private
 :

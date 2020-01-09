@@ -145,7 +145,7 @@ aParam
 aMsg
 -
 >
-WriteSize
+WriteUInt32
 (
 aParam
 .
@@ -188,7 +188,7 @@ paramType
 aResult
 )
 {
-size_t
+uint32_t
 size
 ;
 if
@@ -197,7 +197,7 @@ if
 aMsg
 -
 >
-ReadSize
+ReadUInt32
 (
 aIter
 &
