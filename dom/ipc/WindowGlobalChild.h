@@ -197,6 +197,11 @@ return
 mOuterWindowId
 ;
 }
+uint64_t
+ContentParentId
+(
+)
+;
 bool
 IsCurrentGlobal
 (

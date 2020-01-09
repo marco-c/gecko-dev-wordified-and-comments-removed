@@ -148,6 +148,13 @@ outerWindowId
 ;
 readonly
 attribute
+unsigned
+long
+long
+contentParentId
+;
+readonly
+attribute
 FrameLoader
 ?
 rootFrameLoader
@@ -278,6 +285,13 @@ unsigned
 long
 long
 outerWindowId
+;
+readonly
+attribute
+unsigned
+long
+long
+contentParentId
 ;
 readonly
 attribute

@@ -281,6 +281,11 @@ return
 mInnerWindowId
 ;
 }
+uint64_t
+ContentParentId
+(
+)
+;
 bool
 IsCurrentGlobal
 (
