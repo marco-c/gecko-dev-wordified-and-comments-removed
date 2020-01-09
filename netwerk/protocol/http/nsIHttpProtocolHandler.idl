@@ -135,6 +135,7 @@ HSTSDataCallbackWrapper
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 c48126d9

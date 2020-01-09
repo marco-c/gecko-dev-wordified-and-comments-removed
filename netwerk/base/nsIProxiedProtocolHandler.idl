@@ -114,6 +114,7 @@ nsILoadInfo
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 3756047a

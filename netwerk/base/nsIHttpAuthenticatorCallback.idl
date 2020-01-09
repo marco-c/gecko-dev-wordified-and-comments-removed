@@ -64,7 +64,7 @@ nsISupports
 idl
 "
 [
-scriptable
+builtinclass
 uuid
 (
 d989cb03
