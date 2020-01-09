@@ -21,4 +21,13 @@ avoid
 bind
 "
 ]
+{
+"
+reliability
+"
+:
+"
+medium
+"
+}
 ]
