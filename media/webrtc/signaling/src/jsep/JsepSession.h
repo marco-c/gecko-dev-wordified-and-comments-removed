@@ -1070,11 +1070,7 @@ transceiver
 >
 mRecvTrack
 .
-GetTrackId
-(
-)
-.
-empty
+GetActive
 (
 )
 |
@@ -1116,11 +1112,7 @@ transceiver
 >
 mSendTrack
 .
-GetTrackId
-(
-)
-.
-empty
+GetActive
 (
 )
 |
