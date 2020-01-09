@@ -549,7 +549,6 @@ i32
 =
 64
 ;
-pub
 const
 FRAMES_BEFORE_PICTURE_CACHING
 :
@@ -6606,6 +6605,13 @@ same_frames
 >
 =
 FRAMES_BEFORE_PICTURE_CACHING
+|
+|
+frame_context
+.
+config
+.
+testing
 {
 if
 !
