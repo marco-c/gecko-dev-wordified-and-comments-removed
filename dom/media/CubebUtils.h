@@ -138,6 +138,13 @@ GetForcedOutputDevice
 (
 )
 ;
+void
+SetInCommunication
+(
+bool
+aInCommunication
+)
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
