@@ -235,7 +235,7 @@ template
 typename
 Func
 >
-void
+nsresult
 UpdateRule
 (
 Func

@@ -339,6 +339,16 @@ ErrorResult
 aRv
 )
 {
+if
+(
+IsReadOnly
+(
+)
+)
+{
+return
+;
+}
 Media
 (
 )

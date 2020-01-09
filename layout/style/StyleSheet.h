@@ -160,12 +160,6 @@ ServoCSSRuleList
 class
 ServoStyleSet
 ;
-enum
-class
-OriginFlags
-:
-uint8_t
-;
 typedef
 MozPromise
 <
@@ -1491,6 +1485,12 @@ ServoCssRules
 *
 aSharedRules
 )
+;
+bool
+IsReadOnly
+(
+)
+const
 ;
 private
 :

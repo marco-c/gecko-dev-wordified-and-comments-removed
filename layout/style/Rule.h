@@ -358,6 +358,12 @@ return
 mColumnNumber
 ;
 }
+bool
+IsReadOnly
+(
+)
+const
+;
 virtual
 size_t
 SizeOfIncludingThis

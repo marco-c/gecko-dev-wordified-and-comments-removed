@@ -295,6 +295,12 @@ DropAllRules
 (
 )
 ;
+bool
+IsReadOnly
+(
+)
+const
+;
 StyleSheet
 *
 mStyleSheet

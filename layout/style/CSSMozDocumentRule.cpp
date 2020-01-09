@@ -609,6 +609,16 @@ ErrorResult
 aRv
 )
 {
+if
+(
+IsReadOnly
+(
+)
+)
+{
+return
+;
+}
 aRv
 .
 Throw

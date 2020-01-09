@@ -361,6 +361,12 @@ cleared
 )
 ;
 }
+bool
+IsReadOnly
+(
+)
+const
+;
 StyleSheet
 *
 mStyleSheet
