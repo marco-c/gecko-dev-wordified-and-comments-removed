@@ -758,7 +758,7 @@ main
 (
 )
 {
-prinf
+printf
 (
 "
 PASS
