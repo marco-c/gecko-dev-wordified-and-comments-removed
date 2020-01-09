@@ -718,6 +718,9 @@ TDZCheckCache
 *
 innermostTDZCheckCache
 ;
+FieldInitializers
+fieldInitializers_
+;
 #
 ifdef
 DEBUG
@@ -1895,6 +1898,12 @@ emitScript
 ParseNode
 *
 body
+)
+;
+MOZ_MUST_USE
+bool
+emitInitializeInstanceFields
+(
 )
 ;
 enum
