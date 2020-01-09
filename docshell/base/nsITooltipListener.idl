@@ -307,10 +307,10 @@ in
 long
 aYCoords
 in
-wstring
+AString
 aTipText
 in
-wstring
+AString
 aTipDir
 )
 ;

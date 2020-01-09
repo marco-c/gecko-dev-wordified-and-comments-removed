@@ -14642,12 +14642,12 @@ aXCoords
 int32_t
 aYCoords
 const
-char16_t
-*
+nsAString
+&
 aTipText
 const
-char16_t
-*
+nsAString
+&
 aTipDir
 )
 {
@@ -15252,7 +15252,7 @@ success
 =
 false
 ;
-nsAutoCString
+nsAutoString
 result
 ;
 if
@@ -15292,7 +15292,7 @@ aResolve
 Tuple
 <
 const
-nsCString
+nsString
 &
 const
 bool
