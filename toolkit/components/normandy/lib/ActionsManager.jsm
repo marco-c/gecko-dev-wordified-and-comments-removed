@@ -451,6 +451,7 @@ Uptake
 ACTION_SERVER_ERROR
 ;
 }
+await
 Uptake
 .
 reportAction
@@ -576,6 +577,7 @@ disabled
 =
 true
 ;
+await
 Uptake
 .
 reportAction
@@ -804,6 +806,7 @@ RECIPE_EXECUTION_ERROR
 ;
 }
 }
+await
 Uptake
 .
 reportRecipe
@@ -843,6 +846,7 @@ invalid
 .
 )
 ;
+await
 Uptake
 .
 reportRecipe
@@ -969,6 +973,7 @@ postExecution
 "
 )
 ;
+await
 Uptake
 .
 reportAction
@@ -1006,6 +1011,7 @@ err
 message
 )
 ;
+await
 Uptake
 .
 reportAction

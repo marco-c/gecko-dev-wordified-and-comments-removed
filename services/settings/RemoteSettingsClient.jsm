@@ -1830,6 +1830,7 @@ STATUS
 SUCCESS
 ;
 }
+await
 UptakeTelemetry
 .
 report

@@ -1218,6 +1218,7 @@ finalize
 (
 )
 ;
+await
 Uptake
 .
 reportRunner
@@ -1393,6 +1394,7 @@ Uptake
 RUNNER_INVALID_SIGNATURE
 ;
 }
+await
 Uptake
 .
 reportRunner
@@ -1558,6 +1560,7 @@ err
 "
 )
 ;
+await
 Uptake
 .
 reportRecipe
@@ -1578,6 +1581,7 @@ if
 result
 )
 {
+await
 Uptake
 .
 reportRecipe
