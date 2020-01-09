@@ -1391,11 +1391,15 @@ pushScriptScopeArg
 void
 pushUint8BytecodeOperandArg
 (
+Register
+scratch
 )
 ;
 void
 pushUint16BytecodeOperandArg
 (
+Register
+scratch
 )
 ;
 void
