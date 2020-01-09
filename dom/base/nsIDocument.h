@@ -2168,6 +2168,15 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+nsresult
+CloneDocHelper
+(
+nsIDocument
+*
+clone
+)
+const
+;
 virtual
 void
 NotifyPossibleTitleChange
