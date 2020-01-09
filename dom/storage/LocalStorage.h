@@ -96,14 +96,6 @@ return
 mDocumentURI
 ;
 }
-bool
-PrincipalEquals
-(
-nsIPrincipal
-*
-aPrincipal
-)
-;
 LocalStorage
 (
 nsPIDOMWindowInner
@@ -299,12 +291,6 @@ mCache
 ;
 nsString
 mDocumentURI
-;
-nsCOMPtr
-<
-nsIPrincipal
->
-mPrincipal
 ;
 bool
 mIsPrivate
