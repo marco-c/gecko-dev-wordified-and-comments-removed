@@ -986,6 +986,7 @@ FONT_TIMEOUT_SECONDS
 10
 }
 ;
+explicit
 gfxFontCacheExpirationTracker
 (
 nsIEventTarget
