@@ -1202,6 +1202,8 @@ suite
 '
 :
 '
+mochitest
+-
 plain
 '
             
@@ -1237,6 +1239,8 @@ suite
 '
 :
 '
+mochitest
+-
 browser
 -
 chrome
@@ -1274,6 +1278,8 @@ suite
 '
 :
 '
+mochitest
+-
 chrome
 '
             
@@ -1286,6 +1292,8 @@ baseline_tests_by_suite
 {
             
 '
+mochitest
+-
 browser
 -
 chrome
@@ -1301,7 +1309,7 @@ baselinecoverage
 browser_chrome
 /
 '
-                              
+                                        
 '
 browser_baselinecoverage_browser
 -
