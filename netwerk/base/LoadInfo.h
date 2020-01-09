@@ -827,12 +827,6 @@ mCspNonce
 bool
 mIsFromProcessingFrameAttributes
 ;
-nsILoadInfo
-:
-:
-CrossOriginOpenerPolicy
-mOpenerPolicy
-;
 }
 ;
 }

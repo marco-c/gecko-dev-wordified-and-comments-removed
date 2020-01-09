@@ -7766,13 +7766,6 @@ OPENER_POLICY_SAME_SITE
 OPENER_POLICY_UNSAFE_ALLOW_OUTGOING_FLAG
 }
 ;
-[
-infallible
-]
-attribute
-nsILoadInfo_CrossOriginOpenerPolicy
-openerPolicy
-;
 cenum
 CrossOriginPolicy
 :

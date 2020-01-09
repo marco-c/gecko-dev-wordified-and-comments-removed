@@ -27,6 +27,14 @@ CrossOriginPolicy
 )
 MOZ_BC_FIELD
 (
+OpenerPolicy
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+)
+MOZ_BC_FIELD
+(
 OpenerId
 uint64_t
 )

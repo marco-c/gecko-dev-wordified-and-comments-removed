@@ -100,6 +100,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsILoadInfo
+.
+idl
+"
 %
 {
 C
@@ -152,7 +159,7 @@ nsCString
 ref
 ]
 native
-StringArrayRef
+CStringArrayRef
 (
 const
 nsTArray
@@ -2086,7 +2093,7 @@ void
 setCorsPreflightParameters
 (
 in
-StringArrayRef
+CStringArrayRef
 unsafeHeaders
 )
 ;
@@ -2403,6 +2410,14 @@ nostdcall
 ]
 void
 setIPv6Disabled
+(
+)
+;
+[
+noscript
+]
+nsILoadInfo_CrossOriginOpenerPolicy
+getCrossOriginOpenerPolicy
 (
 )
 ;
