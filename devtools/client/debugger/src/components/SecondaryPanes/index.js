@@ -2019,9 +2019,6 @@ renderVerticalLayout
 return
 (
 <
-div
->
-<
 SplitBox
 initialSize
 =
@@ -2110,10 +2107,6 @@ getEndItems
 >
 }
 /
->
-<
-/
-div
 >
 )
 ;
