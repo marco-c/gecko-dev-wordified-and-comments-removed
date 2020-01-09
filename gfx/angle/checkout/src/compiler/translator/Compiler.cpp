@@ -2575,7 +2575,7 @@ isExtensionEnabled
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 )
 &
 &
@@ -4259,14 +4259,14 @@ ARM_shader_framebuffer_fetch
 <
 "
 :
-OVR_multiview
+OVR_multiview2
 :
 "
 <
 <
 mResources
 .
-OVR_multiview
+OVR_multiview2
 <
 <
 "

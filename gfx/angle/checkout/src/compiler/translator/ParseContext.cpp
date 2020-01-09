@@ -6434,7 +6434,7 @@ isExtensionEnabled
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 )
 &
 &
@@ -14641,7 +14641,7 @@ isExtensionEnabled
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 )
 &
 &
@@ -21812,7 +21812,7 @@ qualifierTypeLine
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 )
 )
 {
@@ -22124,7 +22124,7 @@ isExtensionEnabled
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 )
 )
 {

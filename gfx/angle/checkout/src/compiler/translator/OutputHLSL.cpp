@@ -1344,7 +1344,7 @@ mExtensionBehavior
 TExtension
 :
 :
-OVR_multiview
+OVR_multiview2
 )
 ;
 mUsesViewID

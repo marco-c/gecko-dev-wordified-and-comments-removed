@@ -224,7 +224,7 @@ if
 (
 extensions
 .
-multiview
+multiview2
 )
 {
 mAdditionalOptions

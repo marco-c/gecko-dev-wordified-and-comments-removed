@@ -451,11 +451,11 @@ fragDepth
 ;
 mResources
 .
-OVR_multiview
+OVR_multiview2
 =
 extensions
 .
-multiview
+multiview2
 ;
 mResources
 .

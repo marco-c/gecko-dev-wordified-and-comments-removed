@@ -502,7 +502,7 @@ bool
 fragDepth
 ;
 bool
-multiview
+multiview2
 ;
 GLuint
 maxViews

@@ -33,7 +33,7 @@ OES_EGL_image_external
 OES_EGL_image_external_essl3
 OES_standard_derivatives
 OES_texture_storage_multisample_2d_array
-OVR_multiview
+OVR_multiview2
 ANGLE_multi_draw
 }
 ;
