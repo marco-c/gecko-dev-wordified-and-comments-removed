@@ -524,11 +524,6 @@ PROCESS_TYPE_RDD
 "
 rdd
 "
-PROCESS_TYPE_SOCKET
-:
-"
-socket
-"
 CRASH_TYPE_CRASH
 :
 "
@@ -1539,15 +1534,6 @@ processType
 this
 .
 PROCESS_TYPE_RDD
-|
-|
-processType
-=
-=
-=
-this
-.
-PROCESS_TYPE_SOCKET
 )
 {
 this

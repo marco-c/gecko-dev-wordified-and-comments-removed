@@ -53,14 +53,6 @@ Gpu
 '
     
 '
-socket
-'
-:
-'
-Socket
-'
-    
-'
 all_childs
 '
 :

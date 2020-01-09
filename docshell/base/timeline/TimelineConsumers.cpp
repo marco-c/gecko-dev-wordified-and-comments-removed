@@ -88,11 +88,6 @@ XRE_IsContentProcess
 XRE_IsParentProcess
 (
 )
-|
-|
-XRE_IsSocketProcess
-(
-)
 )
 ;
 if

@@ -740,12 +740,6 @@ processType
 =
 =
 GeckoProcessType_RDD
-|
-|
-processType
-=
-=
-GeckoProcessType_Socket
 )
 )
 {
@@ -4833,11 +4827,6 @@ shouldSandboxCurrentProcess
 true
 ;
 }
-break
-;
-case
-GeckoProcessType_Socket
-:
 break
 ;
 case

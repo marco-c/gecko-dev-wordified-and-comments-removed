@@ -595,11 +595,6 @@ PProcessHangMonitor
 ipdl
 '
 '
-PrefsTypes
-.
-ipdlh
-'
-'
 PTabContext
 .
 ipdlh

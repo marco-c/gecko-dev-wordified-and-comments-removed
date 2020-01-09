@@ -107,9 +107,6 @@ main
 "
 content
 "
-"
-socket
-"
 ]
                 
 "
