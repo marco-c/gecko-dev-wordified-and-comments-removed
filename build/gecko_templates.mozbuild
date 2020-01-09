@@ -316,15 +316,6 @@ None
 if
 mozglue
 :
-LDFLAGS
-+
-=
-CONFIG
-[
-'
-MOZ_GLUE_WRAP_LDFLAGS
-'
-]
 if
 mozglue
 =

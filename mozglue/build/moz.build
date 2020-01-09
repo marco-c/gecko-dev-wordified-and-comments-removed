@@ -704,15 +704,6 @@ MOZ_HAS_MOZGLUE
 ]
 =
 True
-LDFLAGS
-+
-=
-CONFIG
-[
-'
-MOZ_GLUE_WRAP_LDFLAGS
-'
-]
 if
 CONFIG
 [
