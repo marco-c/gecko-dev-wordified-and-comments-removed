@@ -900,12 +900,6 @@ Self
 Item
 >
 {
-use
-std
-:
-:
-mem
-;
 loop
 {
 let

@@ -503,10 +503,7 @@ use
 byteorder
 :
 :
-{
-BigEndian
 ByteOrder
-}
 ;
 use
 std

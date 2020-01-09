@@ -5848,7 +5848,6 @@ properties
 {
 CSSWideKeyword
 LonghandId
-LonghandIdSet
 }
 ;
 use
