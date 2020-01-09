@@ -442,10 +442,13 @@ isBigInt
 )
 {
 return
+MaybeForwarded
+(
 v
 .
 toBigInt
 (
+)
 )
 -
 >
