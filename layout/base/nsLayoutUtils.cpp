@@ -2443,7 +2443,10 @@ EffectCompositor
 GetAnimationsForCompositor
 (
 aFrame
+nsCSSPropertyIDSet
+{
 eCSSProperty_transform
+}
 )
 ;
 GetMinAndMaxScaleForAnimationProperty

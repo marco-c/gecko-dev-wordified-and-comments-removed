@@ -338,8 +338,8 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
-aProperty
+DisplayItemType
+aType
 )
 ;
 static
@@ -359,8 +359,10 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
-aProperty
+const
+nsCSSPropertyIDSet
+&
+aPropertySet
 )
 ;
 static

@@ -26699,7 +26699,10 @@ EffectCompositor
 HasAnimationsForCompositor
 (
 aContainerFrame
-eCSSProperty_transform
+DisplayItemType
+:
+:
+TYPE_TRANSFORM
 )
 )
 {
