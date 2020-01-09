@@ -12405,6 +12405,17 @@ false
 if
 (
 !
+funbox
+-
+>
+hasExprBody
+(
+)
+)
+{
+if
+(
+!
 markSimpleBreakpoint
 (
 )
@@ -12413,6 +12424,7 @@ markSimpleBreakpoint
 return
 false
 ;
+}
 }
 if
 (
