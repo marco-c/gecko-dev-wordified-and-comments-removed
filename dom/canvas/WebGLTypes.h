@@ -143,7 +143,6 @@ WEBGL_depth_texture
 WEBGL_draw_buffers
 WEBGL_lose_context
 Max
-Unknown
 }
 ;
 class
