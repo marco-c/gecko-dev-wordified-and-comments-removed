@@ -67063,6 +67063,7 @@ size
 ;
 JSContext
 *
+const
 cx
 =
 JS_NewContext
