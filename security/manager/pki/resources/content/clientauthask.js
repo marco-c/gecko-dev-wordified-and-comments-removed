@@ -301,7 +301,7 @@ nickAndSerial
 ;
 selectElement
 .
-firstChild
+menupopup
 .
 appendChild
 (
