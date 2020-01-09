@@ -1209,7 +1209,9 @@ not
         
 :
 return
-basestring
+six
+.
+text_type
 :
 One
 of
