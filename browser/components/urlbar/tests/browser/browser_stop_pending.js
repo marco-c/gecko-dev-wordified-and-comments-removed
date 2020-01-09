@@ -168,6 +168,8 @@ obs
 observe
 (
 gURLBar
+.
+textbox
 {
 attributes
 :
