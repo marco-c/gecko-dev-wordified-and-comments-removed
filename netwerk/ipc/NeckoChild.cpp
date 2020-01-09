@@ -576,7 +576,7 @@ channel
 child
 -
 >
-ReleaseIPDLReference
+Release
 (
 )
 ;
