@@ -354,6 +354,12 @@ manager
 /
 ssl
 '
+'
+/
+third_party
+/
+rust
+'
 ]
 if
 CONFIG

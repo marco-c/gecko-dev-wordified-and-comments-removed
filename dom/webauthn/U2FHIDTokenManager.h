@@ -18,11 +18,7 @@ h
 #
 include
 "
-u2f
--
-hid
--
-rs
+authenticator
 /
 src
 /
