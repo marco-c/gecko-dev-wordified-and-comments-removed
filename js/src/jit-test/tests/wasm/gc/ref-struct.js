@@ -3377,7 +3377,7 @@ locals
 body
 :
 [
-RefNull
+RefNullCode
 MiscPrefix
 StructNarrow
 I32Code
@@ -3409,7 +3409,7 @@ locals
 body
 :
 [
-RefNull
+RefNullCode
 MiscPrefix
 StructNarrow
 AnyrefCode

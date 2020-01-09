@@ -3052,7 +3052,7 @@ body
 .
 push
 (
-PlaceholderRefFunc
+RefFuncCode
 +
 (
 mangle
