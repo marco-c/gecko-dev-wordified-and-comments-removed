@@ -34,6 +34,13 @@ linux64
 -
 cbindgen
 '
+MACOS_CLANG
+=
+'
+macosx64
+-
+clang
+'
 MACOS_CBINDGEN
 =
 '

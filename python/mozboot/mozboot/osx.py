@@ -3512,6 +3512,27 @@ mozboot
 import
 stylo
         
+if
+'
+mobile_android
+'
+in
+self
+.
+application
+:
+            
+self
+.
+install_toolchain_artifact
+(
+state_dir
+checkout_root
+stylo
+.
+MACOS_CLANG
+)
+        
 self
 .
 install_toolchain_artifact
