@@ -582,6 +582,8 @@ l10n
 getFormatStr
 (
 "
+console
+.
 timeEnd
 "
 [
