@@ -1531,6 +1531,8 @@ addonPostInstall
 .
 incognito
 .
+checkbox
+.
 label
 ;
 "
@@ -1541,6 +1543,8 @@ accesskey
 addonPostInstall
 .
 incognito
+.
+checkbox
 .
 accesskey
 ;
