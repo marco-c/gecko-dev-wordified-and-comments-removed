@@ -4391,6 +4391,14 @@ PICTURE_CACHING_DBG
 <
 15
 ;
+const
+TEXTURE_CACHE_DBG_DISABLE_SHRINK
+=
+1
+<
+<
+16
+;
 }
 }
 pub
