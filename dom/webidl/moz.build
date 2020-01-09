@@ -2837,6 +2837,11 @@ CacheStorage
 webidl
 '
 '
+CancelContentJSOptions
+.
+webidl
+'
+'
 CanvasCaptureMediaStream
 .
 webidl
