@@ -46,7 +46,6 @@ js
 :
 5
 :
-1
 "
 :
 Object
@@ -95,7 +94,7 @@ Object
 column
 "
 :
-1
+undefined
 "
 line
 "
@@ -131,7 +130,7 @@ Object
 column
 "
 :
-1
+undefined
 "
 line
 "
@@ -240,6 +239,8 @@ sourceId
 foo
 .
 js
+/
+originalSource
 "
 "
 sourceUrl
@@ -277,7 +278,7 @@ Object
 column
 "
 :
-0
+undefined
 "
 line
 "
@@ -422,6 +423,8 @@ sourceId
 :
 "
 foo
+/
+originalSource
 "
 "
 sourceUrl
@@ -457,7 +460,7 @@ Object
 column
 "
 :
-0
+undefined
 "
 line
 "
@@ -598,6 +601,8 @@ sourceId
 :
 "
 foo2
+/
+originalSource
 "
 "
 sourceUrl
@@ -633,7 +638,7 @@ Object
 column
 "
 :
-0
+undefined
 "
 line
 "
