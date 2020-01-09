@@ -5604,11 +5604,6 @@ case
 :
 CheckBytereg
 (
-value
-)
-;
-CheckBytereg
-(
 output
 )
 ;
@@ -5623,6 +5618,11 @@ AtomicFetchAddOp
 case
 AtomicFetchSubOp
 :
+CheckBytereg
+(
+value
+)
+;
 SetupValue
 (
 masm
