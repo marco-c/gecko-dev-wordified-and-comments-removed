@@ -360,6 +360,15 @@ h
 '
 encoders
 /
+ico
+/
+nsICOEncoder
+.
+h
+'
+'
+encoders
+/
 jpeg
 /
 nsJPEGEncoder
@@ -372,6 +381,11 @@ encoders
 png
 /
 nsPNGEncoder
+.
+h
+'
+'
+ICOFileHeaders
 .
 h
 '

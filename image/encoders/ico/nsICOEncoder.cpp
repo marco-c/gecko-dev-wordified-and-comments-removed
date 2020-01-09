@@ -24,6 +24,13 @@ h
 #
 include
 "
+BMPHeaders
+.
+h
+"
+#
+include
+"
 nsPNGEncoder
 .
 h
