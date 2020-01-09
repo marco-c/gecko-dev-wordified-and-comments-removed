@@ -45,6 +45,7 @@ from
 TopSitesConstants
 "
 ;
+export
 class
 SelectableSearchShortcut
 extends

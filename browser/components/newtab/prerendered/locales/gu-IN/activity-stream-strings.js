@@ -264,13 +264,6 @@ Firefox
 .
 "
 "
-prefs_content_discovery_header
-"
-:
-"
-Firefox
-"
-"
 prefs_content_discovery_description
 "
 :
@@ -294,12 +287,6 @@ across
 the
 web
 .
-"
-"
-prefs_content_discovery_button
-"
-:
-"
 "
 "
 prefs_section_rows_option

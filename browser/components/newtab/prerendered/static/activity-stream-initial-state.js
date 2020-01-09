@@ -393,6 +393,12 @@ loaded
 "
 :
 false
+"
+frequency_caps
+"
+:
+[
+]
 }
 }
 "

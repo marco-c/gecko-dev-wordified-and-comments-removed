@@ -263,14 +263,6 @@ prefs_home_description
 Firefox
 "
 "
-prefs_content_discovery_header
-"
-:
-"
-Firefox
-Home
-"
-"
 prefs_content_discovery_description
 "
 :
@@ -279,12 +271,6 @@ Content
 Discovery
 Firefox
 Home
-"
-"
-prefs_content_discovery_button
-"
-:
-"
 "
 "
 prefs_section_rows_option

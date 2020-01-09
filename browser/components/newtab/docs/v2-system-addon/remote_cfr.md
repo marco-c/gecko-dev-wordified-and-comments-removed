@@ -624,13 +624,6 @@ general
 -
 cfrfeatures
 "
-"
-origin
-"
-:
-"
-CFR
-"
 }
 }
 }

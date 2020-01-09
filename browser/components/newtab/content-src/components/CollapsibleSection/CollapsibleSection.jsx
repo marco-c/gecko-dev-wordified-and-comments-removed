@@ -1131,6 +1131,7 @@ extraMenuOptions
 showPrefName
 privacyNoticeURL
 dispatch
+isFixed
 isFirst
 isLast
 isWebExtension
@@ -1591,6 +1592,11 @@ onUpdate
 this
 .
 onMenuUpdate
+}
+isFixed
+=
+{
+isFixed
 }
 isFirst
 =

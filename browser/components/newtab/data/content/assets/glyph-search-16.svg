@@ -17,14 +17,12 @@ org
 /
 svg
 "
-width
+viewBox
 =
 "
+0
+0
 16
-"
-height
-=
-"
 16
 "
 >

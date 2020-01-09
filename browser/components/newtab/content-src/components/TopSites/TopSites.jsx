@@ -825,6 +825,13 @@ topsites
 title
 =
 {
+this
+.
+props
+.
+title
+|
+|
 {
 id
 :
@@ -868,6 +875,13 @@ pref
 collapsed
 :
 undefined
+}
+isFixed
+=
+{
+props
+.
+isFixed
 }
 isFirst
 =
