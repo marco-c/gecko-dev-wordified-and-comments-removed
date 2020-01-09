@@ -230,6 +230,16 @@ GetGlobalJSObject
 =
 0
 ;
+virtual
+JSObject
+*
+GetGlobalJSObjectPreserveColor
+(
+)
+const
+=
+0
+;
 nsIPrincipal
 *
 PrincipalOrNull
