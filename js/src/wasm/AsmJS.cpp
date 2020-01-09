@@ -34308,7 +34308,7 @@ parser
 (
 )
 .
-handler
+handler_
 .
 newFunction
 (

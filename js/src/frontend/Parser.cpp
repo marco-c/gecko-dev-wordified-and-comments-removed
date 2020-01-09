@@ -1017,7 +1017,7 @@ usedNames
 sourceObject
 parseGoal
 )
-handler
+handler_
 (
 cx
 alloc
@@ -1507,7 +1507,7 @@ if
 funNode
 )
 {
-handler
+handler_
 .
 setFunctionBox
 (
@@ -1943,7 +1943,7 @@ cx_
 &
 node
 &
-handler
+handler_
 )
 )
 {
@@ -1956,7 +1956,7 @@ null
 }
 stmtList
 =
-handler
+handler_
 .
 asList
 (
@@ -2734,7 +2734,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 addFunctionFormalParameter
 (
@@ -2791,7 +2791,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 addFunctionFormalParameter
 (
@@ -3926,7 +3926,7 @@ false
 }
 if
 (
-handler
+handler_
 .
 canSkipLazyClosedOverBindings
 (
@@ -3939,7 +3939,7 @@ JSAtom
 *
 name
 =
-handler
+handler_
 .
 nextLazyClosedOverBinding
 (
@@ -6523,7 +6523,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newLexicalScope
 (
@@ -6594,7 +6594,7 @@ nullptr
 ;
 }
 return
-handler
+handler_
 .
 newLexicalScope
 (
@@ -6927,7 +6927,7 @@ cx_
 &
 node
 &
-handler
+handler_
 )
 )
 {
@@ -6940,7 +6940,7 @@ null
 }
 body
 =
-handler
+handler_
 .
 asLexicalScope
 (
@@ -7143,7 +7143,7 @@ cx_
 &
 node
 &
-handler
+handler_
 )
 )
 {
@@ -7316,7 +7316,7 @@ nullptr
 ModuleNodeType
 moduleNode
 =
-handler
+handler_
 .
 newModule
 (
@@ -7600,7 +7600,7 @@ cx_
 &
 node
 &
-handler
+handler_
 )
 )
 {
@@ -7854,7 +7854,7 @@ declareThis
 ;
 if
 (
-handler
+handler_
 .
 canSkipLazyClosedOverBindings
 (
@@ -9110,7 +9110,7 @@ Statement
 FunctionNodeType
 funNode
 =
-handler
+handler_
 .
 newFunction
 (
@@ -9135,7 +9135,7 @@ null
 ListNodeType
 argsbody
 =
-handler
+handler_
 .
 newList
 (
@@ -9358,7 +9358,7 @@ cx_
 &
 node
 &
-handler
+handler_
 )
 )
 {
@@ -9485,7 +9485,7 @@ tryDeclareArguments
 ;
 if
 (
-handler
+handler_
 .
 canSkipLazyClosedOverBindings
 (
@@ -9921,7 +9921,7 @@ isAsync
 {
 stmtList
 =
-handler
+handler_
 .
 newStatementList
 (
@@ -9967,7 +9967,7 @@ null
 }
 body
 =
-handler
+handler_
 .
 newExpressionBody
 (
@@ -9996,7 +9996,7 @@ isAsync
 )
 )
 {
-handler
+handler_
 .
 addStatementToList
 (
@@ -10129,11 +10129,11 @@ null
 if
 (
 !
-handler
+handler_
 .
 prependInitialYield
 (
-handler
+handler_
 .
 asList
 (
@@ -11312,7 +11312,7 @@ false
 ListNodeType
 argsbody
 =
-handler
+handler_
 .
 newList
 (
@@ -11333,7 +11333,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 setFunctionFormalParametersAndBody
 (
@@ -11989,7 +11989,7 @@ false
 if
 (
 !
-handler
+handler_
 .
 setLastFunctionFormalParameterDefault
 (
@@ -12295,7 +12295,7 @@ RootedFunction
 fun
 (
 cx_
-handler
+handler_
 .
 nextLazyInnerFunction
 (
@@ -12561,7 +12561,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -12653,7 +12653,7 @@ tt
 CallSiteNodeType
 callSiteObjNode
 =
-handler
+handler_
 .
 newCallSiteObject
 (
@@ -12674,7 +12674,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -12731,7 +12731,7 @@ false
 ;
 }
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -12790,7 +12790,7 @@ null
 ListNodeType
 nodeList
 =
-handler
+handler_
 .
 newList
 (
@@ -12854,7 +12854,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -12933,7 +12933,7 @@ funName
 ;
 if
 (
-handler
+handler_
 .
 canSkipLazyInnerFunctions
 (
@@ -13149,7 +13149,7 @@ seek
 start
 )
 ;
-handler
+handler_
 .
 setFunctionFormalParametersAndBody
 (
@@ -13993,7 +13993,7 @@ false
 NameNodeType
 rawNode
 =
-handler
+handler_
 .
 newTemplateStringLiteral
 (
@@ -14013,7 +14013,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 addToCallSiteObject
 (
@@ -14164,7 +14164,7 @@ Arrow
 FunctionNodeType
 funNode
 =
-handler
+handler_
 .
 newFunction
 (
@@ -14369,7 +14369,7 @@ cx_
 &
 node
 &
-handler
+handler_
 )
 )
 {
@@ -14978,7 +14978,7 @@ YieldIsName
 uint32_t
 nameOffset
 =
-handler
+handler_
 .
 getFunctionNameOffset
 (
@@ -15161,7 +15161,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -15173,7 +15173,7 @@ pos
 begin
 )
 ;
-handler
+handler_
 .
 setEndPosition
 (
@@ -15186,7 +15186,7 @@ pos
 end
 )
 ;
-handler
+handler_
 .
 setFunctionBody
 (
@@ -15637,7 +15637,7 @@ Statement
 FunctionNodeType
 funNode
 =
-handler
+handler_
 .
 newFunction
 (
@@ -15877,7 +15877,7 @@ Expression
 FunctionNodeType
 funNode
 =
-handler
+handler_
 .
 newFunction
 (
@@ -15906,7 +15906,7 @@ invoked
 {
 funNode
 =
-handler
+handler_
 .
 setLikelyIIFE
 (
@@ -16195,7 +16195,7 @@ JSAtom
 *
 directive
 =
-handler
+handler_
 .
 isStringExprStatement
 (
@@ -16231,11 +16231,11 @@ directive
 )
 )
 {
-handler
+handler_
 .
 setInDirectivePrologue
 (
-handler
+handler_
 .
 asUnary
 (
@@ -16482,7 +16482,7 @@ null
 ListNodeType
 stmtList
 =
-handler
+handler_
 .
 newStatementList
 (
@@ -16635,7 +16635,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setListEndPosition
 (
@@ -16723,7 +16723,7 @@ afterReturn
 if
 (
 !
-handler
+handler_
 .
 isStatementPermittedAfterReturnStatement
 (
@@ -16756,7 +16756,7 @@ true
 else
 if
 (
-handler
+handler_
 .
 isReturnStatement
 (
@@ -16794,7 +16794,7 @@ null
 ;
 }
 }
-handler
+handler_
 .
 addStatementToList
 (
@@ -16900,7 +16900,7 @@ null
 }
 if
 (
-handler
+handler_
 .
 isUnparenthesizedAssignment
 (
@@ -17941,7 +17941,7 @@ null
 BinaryNodeType
 assign
 =
-handler
+handler_
 .
 newAssignment
 (
@@ -18215,7 +18215,7 @@ begin
 ListNodeType
 literal
 =
-handler
+handler_
 .
 newObjectLiteral
 (
@@ -18397,7 +18397,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addSpreadProperty
 (
@@ -18570,7 +18570,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addPropertyDefinition
 (
@@ -18631,12 +18631,12 @@ null
 if
 (
 !
-handler
+handler_
 .
 addShorthand
 (
 literal
-handler
+handler_
 .
 asName
 (
@@ -18729,7 +18729,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addPropertyDefinition
 (
@@ -18866,7 +18866,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -18949,7 +18949,7 @@ begin
 ListNodeType
 literal
 =
-handler
+handler_
 .
 newArrayLiteral
 (
@@ -19069,7 +19069,7 @@ Comma
 if
 (
 !
-handler
+handler_
 .
 addElision
 (
@@ -19154,7 +19154,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addSpreadElement
 (
@@ -19250,7 +19250,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addArrayElement
 (
@@ -19374,7 +19374,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -20066,7 +20066,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newAssignment
 (
@@ -20297,7 +20297,7 @@ ForHead
 }
 }
 return
-handler
+handler_
 .
 finishInitializerAssignment
 (
@@ -20759,7 +20759,7 @@ kind
 ListNodeType
 decl
 =
-handler
+handler_
 .
 newDeclarationList
 (
@@ -20883,7 +20883,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -21319,7 +21319,7 @@ false
 BinaryNodeType
 importSpec
 =
-handler
+handler_
 .
 newImportSpec
 (
@@ -21337,7 +21337,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -21551,7 +21551,7 @@ setClosedOver
 BinaryNodeType
 importSpec
 =
-handler
+handler_
 .
 newImportSpec
 (
@@ -21569,7 +21569,7 @@ return
 false
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -21668,7 +21668,7 @@ null
 ListNodeType
 importSpecSet
 =
-handler
+handler_
 .
 newList
 (
@@ -21860,7 +21860,7 @@ null
 BinaryNodeType
 importSpec
 =
-handler
+handler_
 .
 newImportSpec
 (
@@ -21880,7 +21880,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -22080,7 +22080,7 @@ BinaryNode
 *
 node
 =
-handler
+handler_
 .
 newImportDeclaration
 (
@@ -23919,7 +23919,7 @@ null
 BinaryNodeType
 node
 =
-handler
+handler_
 .
 newExportFromDeclaration
 (
@@ -24014,7 +24014,7 @@ Mul
 ListNodeType
 kid
 =
-handler
+handler_
 .
 newList
 (
@@ -24042,7 +24042,7 @@ null
 NullaryNodeType
 exportSpec
 =
-handler
+handler_
 .
 newExportBatchSpec
 (
@@ -24063,7 +24063,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -24331,7 +24331,7 @@ LeftCurly
 ListNodeType
 kid
 =
-handler
+handler_
 .
 newList
 (
@@ -24529,7 +24529,7 @@ null
 BinaryNodeType
 exportSpec
 =
-handler
+handler_
 .
 newExportSpec
 (
@@ -24549,7 +24549,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -24689,7 +24689,7 @@ null
 UnaryNodeType
 node
 =
-handler
+handler_
 .
 newExportDeclaration
 (
@@ -24844,7 +24844,7 @@ null
 UnaryNodeType
 node
 =
-handler
+handler_
 .
 newExportDeclaration
 (
@@ -24975,7 +24975,7 @@ if
 !
 checkExportedNameForFunction
 (
-handler
+handler_
 .
 asFunction
 (
@@ -24993,7 +24993,7 @@ null
 UnaryNodeType
 node
 =
-handler
+handler_
 .
 newExportDeclaration
 (
@@ -25132,7 +25132,7 @@ null
 UnaryNodeType
 node
 =
-handler
+handler_
 .
 newExportDeclaration
 (
@@ -25319,7 +25319,7 @@ null
 UnaryNodeType
 node
 =
-handler
+handler_
 .
 newExportDeclaration
 (
@@ -25448,7 +25448,7 @@ null
 BinaryNodeType
 node
 =
-handler
+handler_
 .
 newExportDefaultDeclaration
 (
@@ -25575,7 +25575,7 @@ null
 BinaryNodeType
 node
 =
-handler
+handler_
 .
 newExportDefaultDeclaration
 (
@@ -25757,7 +25757,7 @@ null
 BinaryNodeType
 node
 =
-handler
+handler_
 .
 newExportDefaultDeclaration
 (
@@ -26430,7 +26430,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newExprStatement
 (
@@ -26667,7 +26667,7 @@ null
 ListNodeType
 block
 =
-handler
+handler_
 .
 newStatementList
 (
@@ -26686,7 +26686,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addStatementToList
 (
@@ -27044,7 +27044,7 @@ i
 {
 ifNode
 =
-handler
+handler_
 .
 newIfStatement
 (
@@ -27225,7 +27225,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newDoWhileStatement
 (
@@ -27332,7 +27332,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newWhileStatement
 (
@@ -27939,7 +27939,7 @@ ForOf
 ;
 if
 (
-handler
+handler_
 .
 isUnparenthesizedDestructuringPattern
 (
@@ -27966,7 +27966,7 @@ false
 else
 if
 (
-handler
+handler_
 .
 isName
 (
@@ -28005,7 +28005,7 @@ false
 ;
 }
 }
-handler
+handler_
 .
 adjustGetToSet
 (
@@ -28017,7 +28017,7 @@ forInitialPart
 else
 if
 (
-handler
+handler_
 .
 isPropertyAccess
 (
@@ -28030,7 +28030,7 @@ forInitialPart
 else
 if
 (
-handler
+handler_
 .
 isFunctionCall
 (
@@ -28625,7 +28625,7 @@ end
 ;
 forHead
 =
-handler
+handler_
 .
 newForHead
 (
@@ -28746,7 +28746,7 @@ end
 ;
 forHead
 =
-handler
+handler_
 .
 newForInOrOfHead
 (
@@ -28792,7 +28792,7 @@ null
 ForNodeType
 forLoop
 =
-handler
+handler_
 .
 newForStatement
 (
@@ -29004,7 +29004,7 @@ null
 ListNodeType
 caseList
 =
-handler
+handler_
 .
 newStatementList
 (
@@ -29193,7 +29193,7 @@ null
 ListNodeType
 body
 =
-handler
+handler_
 .
 newStatementList
 (
@@ -29350,7 +29350,7 @@ afterReturn
 if
 (
 !
-handler
+handler_
 .
 isStatementPermittedAfterReturnStatement
 (
@@ -29383,7 +29383,7 @@ true
 else
 if
 (
-handler
+handler_
 .
 isReturnStatement
 (
@@ -29397,7 +29397,7 @@ true
 ;
 }
 }
-handler
+handler_
 .
 addStatementToList
 (
@@ -29409,7 +29409,7 @@ stmt
 CaseClauseType
 caseClause
 =
-handler
+handler_
 .
 newCaseOrDefault
 (
@@ -29430,7 +29430,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addCaseStatementToList
 (
@@ -29460,7 +29460,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -29473,7 +29473,7 @@ end
 )
 ;
 return
-handler
+handler_
 .
 newSwitchStatement
 (
@@ -29638,7 +29638,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newContinueStatement
 (
@@ -29859,7 +29859,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newBreakStatement
 (
@@ -30056,7 +30056,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newReturnStatement
 (
@@ -30330,7 +30330,7 @@ YieldStarExpr
 )
 {
 return
-handler
+handler_
 .
 newYieldStarExpression
 (
@@ -30340,7 +30340,7 @@ exprNode
 ;
 }
 return
-handler
+handler_
 .
 newYieldExpression
 (
@@ -30541,7 +30541,7 @@ setBindingsAccessedDynamically
 )
 ;
 return
-handler
+handler_
 .
 newWithStatement
 (
@@ -30863,7 +30863,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newLabeledStatement
 (
@@ -31049,7 +31049,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newThrowStatement
 (
@@ -31603,7 +31603,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 setupCatchScope
 (
@@ -31619,7 +31619,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -31852,7 +31852,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newTryStatement
 (
@@ -32123,7 +32123,7 @@ setHasDebuggerStatement
 )
 ;
 return
-handler
+handler_
 .
 newDebuggerStatement
 (
@@ -32582,7 +32582,7 @@ null
 ListNodeType
 classMembers
 =
-handler
+handler_
 .
 newClassMemberList
 (
@@ -32964,7 +32964,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addClassFieldDefinition
 (
@@ -33312,7 +33312,7 @@ propType
 if
 (
 !
-handler
+handler_
 .
 addClassMethodDefinition
 (
@@ -33380,7 +33380,7 @@ nullptr
 Node
 constructorNameNode
 =
-handler
+handler_
 .
 newObjectLiteralPropertyName
 (
@@ -33412,7 +33412,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addClassMethodDefinition
 (
@@ -33714,7 +33714,7 @@ null
 }
 nameNode
 =
-handler
+handler_
 .
 newClassNames
 (
@@ -33745,7 +33745,7 @@ savedStrictness
 )
 ;
 return
-handler
+handler_
 .
 newClass
 (
@@ -33829,7 +33829,7 @@ null
 FunctionNodeType
 funNode
 =
-handler
+handler_
 .
 newFunction
 (
@@ -33898,7 +33898,7 @@ pc_
 functionSyntaxKind
 )
 ;
-handler
+handler_
 .
 setFunctionBox
 (
@@ -33952,7 +33952,7 @@ classNameOffset
 ListNodeType
 argsbody
 =
-handler
+handler_
 .
 newList
 (
@@ -33975,7 +33975,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setFunctionFormalParametersAndBody
 (
@@ -34032,7 +34032,7 @@ null
 auto
 stmtList
 =
-handler
+handler_
 .
 newStatementList
 (
@@ -34108,7 +34108,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setBeginPosition
 (
@@ -34116,7 +34116,7 @@ initializerBody
 stmtList
 )
 ;
-handler
+handler_
 .
 setEndPosition
 (
@@ -34124,7 +34124,7 @@ initializerBody
 stmtList
 )
 ;
-handler
+handler_
 .
 setFunctionBody
 (
@@ -34221,7 +34221,7 @@ null
 FunctionNodeType
 funNode
 =
-handler
+handler_
 .
 newFunction
 (
@@ -34296,7 +34296,7 @@ FunctionSyntaxKind
 Expression
 )
 ;
-handler
+handler_
 .
 setFunctionBox
 (
@@ -34383,7 +34383,7 @@ null
 ListNodeType
 argsbody
 =
-handler
+handler_
 .
 newList
 (
@@ -34406,7 +34406,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setFunctionFormalParametersAndBody
 (
@@ -34493,7 +34493,7 @@ null
 ThisLiteralType
 propAssignThis
 =
-handler
+handler_
 .
 newThisLiteral
 (
@@ -34516,7 +34516,7 @@ null
 NameNodeType
 propAssignName
 =
-handler
+handler_
 .
 newPropertyName
 (
@@ -34544,7 +34544,7 @@ null
 PropertyAccessType
 propAssignFieldAccess
 =
-handler
+handler_
 .
 newPropertyAccess
 (
@@ -34564,7 +34564,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setBeginPosition
 (
@@ -34572,7 +34572,7 @@ propAssignFieldAccess
 propAssignName
 )
 ;
-handler
+handler_
 .
 setEndPosition
 (
@@ -34583,7 +34583,7 @@ propAssignName
 AssignmentNodeType
 initializerAssignment
 =
-handler
+handler_
 .
 newAssignment
 (
@@ -34607,7 +34607,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setBeginPosition
 (
@@ -34615,7 +34615,7 @@ initializerAssignment
 initializerExpr
 )
 ;
-handler
+handler_
 .
 setEndPosition
 (
@@ -34658,7 +34658,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setBeginPosition
 (
@@ -34666,7 +34666,7 @@ initializerBody
 initializerAssignment
 )
 ;
-handler
+handler_
 .
 setEndPosition
 (
@@ -34674,7 +34674,7 @@ initializerBody
 initializerAssignment
 )
 ;
-handler
+handler_
 .
 setFunctionBody
 (
@@ -34957,7 +34957,7 @@ TokenKind
 Semi
 :
 return
-handler
+handler_
 .
 newEmptyStatement
 (
@@ -35712,7 +35712,7 @@ TokenKind
 Semi
 :
 return
-handler
+handler_
 .
 newEmptyStatement
 (
@@ -36456,7 +36456,7 @@ pn
 ListNodeType
 seq
 =
-handler
+handler_
 .
 newCommaExpressionList
 (
@@ -36661,7 +36661,7 @@ possibleError
 )
 ;
 }
-handler
+handler_
 .
 addList
 (
@@ -37017,7 +37017,7 @@ TokenKind
 Pow
 &
 &
-handler
+handler_
 .
 isUnparenthesizedUnaryExpression
 (
@@ -37103,7 +37103,7 @@ depth
 ;
 pn
 =
-handler
+handler_
 .
 appendOrCreateList
 (
@@ -37360,7 +37360,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newConditional
 (
@@ -38068,7 +38068,7 @@ Arrow
 FunctionNodeType
 funNode
 =
-handler
+handler_
 .
 newFunction
 (
@@ -38380,7 +38380,7 @@ lhs
 }
 if
 (
-handler
+handler_
 .
 isUnparenthesizedDestructuringPattern
 (
@@ -38430,7 +38430,7 @@ null
 else
 if
 (
-handler
+handler_
 .
 isName
 (
@@ -38471,7 +38471,7 @@ null
 ;
 }
 }
-handler
+handler_
 .
 adjustGetToSet
 (
@@ -38482,7 +38482,7 @@ lhs
 else
 if
 (
-handler
+handler_
 .
 isPropertyAccess
 (
@@ -38494,7 +38494,7 @@ lhs
 else
 if
 (
-handler
+handler_
 .
 isFunctionCall
 (
@@ -38591,7 +38591,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newAssignment
 (
@@ -38623,7 +38623,7 @@ behavior
 {
 if
 (
-handler
+handler_
 .
 isName
 (
@@ -38661,7 +38661,7 @@ node
 }
 if
 (
-handler
+handler_
 .
 isPropertyAccess
 (
@@ -38683,7 +38683,7 @@ PermitAssignmentToFunctionCalls
 {
 if
 (
-handler
+handler_
 .
 isFunctionCall
 (
@@ -38722,7 +38722,7 @@ node
 {
 MOZ_ASSERT
 (
-handler
+handler_
 .
 isName
 (
@@ -38742,7 +38742,7 @@ names
 ;
 if
 (
-handler
+handler_
 .
 isEvalName
 (
@@ -38757,7 +38757,7 @@ js_eval_str
 }
 if
 (
-handler
+handler_
 .
 isArgumentsName
 (
@@ -38799,7 +38799,7 @@ operandOffset
 {
 if
 (
-handler
+handler_
 .
 isName
 (
@@ -38840,7 +38840,7 @@ false
 else
 if
 (
-handler
+handler_
 .
 isPropertyAccess
 (
@@ -38852,7 +38852,7 @@ operand
 else
 if
 (
-handler
+handler_
 .
 isFunctionCall
 (
@@ -38959,7 +38959,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newUnary
 (
@@ -39169,7 +39169,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newTypeof
 (
@@ -39279,7 +39279,7 @@ ParseNodeKind
 PreDecrementExpr
 ;
 return
-handler
+handler_
 .
 newUpdate
 (
@@ -39344,7 +39344,7 @@ null
 }
 if
 (
-handler
+handler_
 .
 isName
 (
@@ -39382,7 +39382,7 @@ setBindingsAccessedDynamically
 ;
 }
 return
-handler
+handler_
 .
 newDelete
 (
@@ -39457,7 +39457,7 @@ lastAwaitOffset
 begin
 ;
 return
-handler
+handler_
 .
 newAwaitExpression
 (
@@ -39586,7 +39586,7 @@ ParseNodeKind
 PostDecrementExpr
 ;
 return
-handler
+handler_
 .
 newUpdate
 (
@@ -39745,7 +39745,7 @@ possibleError
 ListNodeType
 argsList
 =
-handler
+handler_
 .
 newArguments
 (
@@ -39800,7 +39800,7 @@ if
 matched
 )
 {
-handler
+handler_
 .
 setEndPosition
 (
@@ -39910,7 +39910,7 @@ spread
 {
 argNode
 =
-handler
+handler_
 .
 newSpread
 (
@@ -39931,7 +39931,7 @@ null
 ;
 }
 }
-handler
+handler_
 .
 addList
 (
@@ -40040,7 +40040,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -40368,7 +40368,7 @@ else
 {
 args
 =
-handler
+handler_
 .
 newArguments
 (
@@ -40392,7 +40392,7 @@ null
 }
 lhs
 =
-handler
+handler_
 .
 newNewExpression
 (
@@ -40418,7 +40418,7 @@ if
 isSpread
 )
 {
-handler
+handler_
 .
 setOp
 (
@@ -40462,7 +40462,7 @@ null
 }
 lhs
 =
-handler
+handler_
 .
 newSuperBase
 (
@@ -40546,7 +40546,7 @@ null
 }
 MOZ_ASSERT_IF
 (
-handler
+handler_
 .
 isSuperBase
 (
@@ -40652,7 +40652,7 @@ currentName
 ;
 if
 (
-handler
+handler_
 .
 isSuperBase
 (
@@ -40683,7 +40683,7 @@ null
 NameNodeType
 name
 =
-handler
+handler_
 .
 newPropertyName
 (
@@ -40707,7 +40707,7 @@ null
 }
 nextMember
 =
-handler
+handler_
 .
 newPropertyAccess
 (
@@ -40801,7 +40801,7 @@ null
 }
 if
 (
-handler
+handler_
 .
 isSuperBase
 (
@@ -40831,7 +40831,7 @@ null
 }
 nextMember
 =
-handler
+handler_
 .
 newPropertyByValue
 (
@@ -40894,7 +40894,7 @@ NoSubsTemplate
 {
 if
 (
-handler
+handler_
 .
 isSuperBase
 (
@@ -40980,7 +40980,7 @@ null
 }
 nextMember
 =
-handler
+handler_
 .
 newSuperCall
 (
@@ -41005,7 +41005,7 @@ if
 isSpread
 )
 {
-handler
+handler_
 .
 setOp
 (
@@ -41035,7 +41035,7 @@ null
 }
 nextMember
 =
-handler
+handler_
 .
 newSetThis
 (
@@ -41067,7 +41067,7 @@ options
 selfHostingMode
 &
 &
-handler
+handler_
 .
 isPropertyAccess
 (
@@ -41102,7 +41102,7 @@ PropertyName
 *
 prop
 =
-handler
+handler_
 .
 maybeDottedProperty
 (
@@ -41189,7 +41189,7 @@ LeftParen
 {
 if
 (
-handler
+handler_
 .
 isAsyncKeyword
 (
@@ -41206,7 +41206,7 @@ true
 else
 if
 (
-handler
+handler_
 .
 isEvalName
 (
@@ -41391,7 +41391,7 @@ JSOP_SPREADCALL
 }
 nextMember
 =
-handler
+handler_
 .
 newCall
 (
@@ -41417,7 +41417,7 @@ else
 ListNodeType
 args
 =
-handler
+handler_
 .
 newArguments
 (
@@ -41457,7 +41457,7 @@ null
 }
 nextMember
 =
-handler
+handler_
 .
 newTaggedTemplate
 (
@@ -41478,7 +41478,7 @@ null
 ;
 }
 }
-handler
+handler_
 .
 setOp
 (
@@ -41498,7 +41498,7 @@ ungetToken
 ;
 if
 (
-handler
+handler_
 .
 isSuperBase
 (
@@ -41520,7 +41520,7 @@ nextMember
 }
 if
 (
-handler
+handler_
 .
 isSuperBase
 (
@@ -41604,7 +41604,7 @@ pos
 )
 {
 return
-handler
+handler_
 .
 newName
 (
@@ -42395,7 +42395,7 @@ stringLiteral
 )
 {
 return
-handler
+handler_
 .
 newStringLiteral
 (
@@ -42450,7 +42450,7 @@ clearInvalidTemplateEscape
 )
 ;
 return
-handler
+handler_
 .
 newRawUndefinedLiteral
 (
@@ -42461,7 +42461,7 @@ pos
 ;
 }
 return
-handler
+handler_
 .
 newTemplateStringLiteral
 (
@@ -42520,7 +42520,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newTemplateStringLiteral
 (
@@ -42637,7 +42637,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newRegExp
 (
@@ -42766,7 +42766,7 @@ null
 }
 }
 return
-handler
+handler_
 .
 newRegExp
 (
@@ -42893,7 +42893,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newBigInt
 (
@@ -42927,7 +42927,7 @@ newBigInt
 )
 {
 return
-handler
+handler_
 .
 newBigInt
 (
@@ -43005,7 +43005,7 @@ if
 possibleError
 |
 |
-handler
+handler_
 .
 isPropertyAccess
 (
@@ -43046,7 +43046,7 @@ true
 }
 if
 (
-handler
+handler_
 .
 isName
 (
@@ -43056,7 +43056,7 @@ expr
 {
 checkDestructuringAssignmentName
 (
-handler
+handler_
 .
 asName
 (
@@ -43072,7 +43072,7 @@ true
 }
 if
 (
-handler
+handler_
 .
 isUnparenthesizedDestructuringPattern
 (
@@ -43107,7 +43107,7 @@ true
 }
 if
 (
-handler
+handler_
 .
 isParenthesizedDestructuringPattern
 (
@@ -43182,7 +43182,7 @@ DEBUG
 bool
 isName
 =
-handler
+handler_
 .
 isName
 (
@@ -43226,7 +43226,7 @@ needStrictChecks
 {
 if
 (
-handler
+handler_
 .
 isArgumentsName
 (
@@ -43277,7 +43277,7 @@ return
 }
 if
 (
-handler
+handler_
 .
 isEvalName
 (
@@ -43359,7 +43359,7 @@ possibleError
 {
 if
 (
-handler
+handler_
 .
 isUnparenthesizedAssignment
 (
@@ -43457,7 +43457,7 @@ begin
 ListNodeType
 literal
 =
-handler
+handler_
 .
 newArrayLiteral
 (
@@ -43512,7 +43512,7 @@ TokenKind
 RightBracket
 )
 {
-handler
+handler_
 .
 setListHasNonConstInitializer
 (
@@ -43630,7 +43630,7 @@ Operand
 if
 (
 !
-handler
+handler_
 .
 addElision
 (
@@ -43762,7 +43762,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addSpreadElement
 (
@@ -43856,7 +43856,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addArrayElement
 (
@@ -43973,7 +43973,7 @@ null
 ;
 }
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -44334,7 +44334,7 @@ index
 {
 propName
 =
-handler
+handler_
 .
 newNumber
 (
@@ -44484,7 +44484,7 @@ Set
 {
 propName
 =
-handler
+handler_
 .
 newObjectLiteralPropertyName
 (
@@ -44578,7 +44578,7 @@ currentName
 )
 ;
 return
-handler
+handler_
 .
 newObjectLiteralPropertyName
 (
@@ -44668,7 +44668,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newNumber
 (
@@ -44786,7 +44786,7 @@ propList
 }
 propName
 =
-handler
+handler_
 .
 newObjectLiteralPropertyName
 (
@@ -45232,7 +45232,7 @@ PropertyNameContext
 PropertyNameInLiteral
 )
 {
-handler
+handler_
 .
 setListHasNonConstInitializer
 (
@@ -45286,7 +45286,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newComputedName
 (
@@ -45353,7 +45353,7 @@ begin
 ListNodeType
 literal
 =
-handler
+handler_
 .
 newObjectLiteral
 (
@@ -45565,7 +45565,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addSpreadProperty
 (
@@ -45768,7 +45768,7 @@ true
 if
 (
 !
-handler
+handler_
 .
 addPrototypeMutation
 (
@@ -45792,7 +45792,7 @@ else
 BinaryNodeType
 propDef
 =
-handler
+handler_
 .
 newPropertyDefinition
 (
@@ -45812,7 +45812,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 addPropertyDefinition
 (
@@ -45896,12 +45896,12 @@ possibleError
 if
 (
 !
-handler
+handler_
 .
 addShorthand
 (
 literal
-handler
+handler_
 .
 asName
 (
@@ -46083,7 +46083,7 @@ null
 BinaryNodeType
 propExpr
 =
-handler
+handler_
 .
 newAssignment
 (
@@ -46110,7 +46110,7 @@ null
 if
 (
 !
-handler
+handler_
 .
 addPropertyDefinition
 (
@@ -46230,7 +46230,7 @@ propType
 if
 (
 !
-handler
+handler_
 .
 addObjectMethodDefinition
 (
@@ -46371,7 +46371,7 @@ null
 )
 ;
 }
-handler
+handler_
 .
 setEndPosition
 (
@@ -46604,7 +46604,7 @@ generatorKind
 FunctionNodeType
 funNode
 =
-handler
+handler_
 .
 newFunction
 (
@@ -46685,7 +46685,7 @@ null
 NullaryNodeType
 newHolder
 =
-handler
+handler_
 .
 newPosHolder
 (
@@ -46823,7 +46823,7 @@ false
 NullaryNodeType
 targetHolder
 =
-handler
+handler_
 .
 newPosHolder
 (
@@ -46845,7 +46845,7 @@ false
 *
 newTarget
 =
-handler
+handler_
 .
 newNewTarget
 (
@@ -46903,7 +46903,7 @@ Import
 NullaryNodeType
 importHolder
 =
-handler
+handler_
 .
 newPosHolder
 (
@@ -47035,7 +47035,7 @@ null
 NullaryNodeType
 metaHolder
 =
-handler
+handler_
 .
 newPosHolder
 (
@@ -47057,7 +47057,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newImportMeta
 (
@@ -47152,7 +47152,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newCallImport
 (
@@ -47412,7 +47412,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 newNullLiteral
 (
@@ -47469,7 +47469,7 @@ null
 ;
 }
 return
-handler
+handler_
 .
 parenthesize
 (
@@ -47699,7 +47699,7 @@ TokenKind
 True
 :
 return
-handler
+handler_
 .
 newBooleanLiteral
 (
@@ -47716,7 +47716,7 @@ TokenKind
 False
 :
 return
-handler
+handler_
 .
 newBooleanLiteral
 (
@@ -47804,7 +47804,7 @@ null
 }
 }
 return
-handler
+handler_
 .
 newThisLiteral
 (
@@ -47822,7 +47822,7 @@ TokenKind
 Null
 :
 return
-handler
+handler_
 .
 newNullLiteral
 (
@@ -48073,7 +48073,7 @@ ungetToken
 )
 ;
 return
-handler
+handler_
 .
 newNullLiteral
 (

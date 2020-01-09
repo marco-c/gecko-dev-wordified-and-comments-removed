@@ -1225,7 +1225,7 @@ DECLARE_TYPE
 protected
 :
 ParseHandler
-handler
+handler_
 ;
 void
 *
@@ -1388,7 +1388,7 @@ name
 {
 if
 (
-handler
+handler_
 .
 canSkipLazyClosedOverBindings
 (
@@ -1578,7 +1578,7 @@ pos
 )
 {
 return
-handler
+handler_
 .
 newPropertyName
 (
@@ -1597,7 +1597,7 @@ key
 )
 {
 return
-handler
+handler_
 .
 newPropertyAccess
 (
@@ -2529,7 +2529,7 @@ using
 Base
 :
 :
-handler
+handler_
 ;
 using
 Base
@@ -4537,7 +4537,7 @@ tok
 )
 {
 return
-handler
+handler_
 .
 newNumber
 (
@@ -4986,7 +4986,7 @@ using
 Base
 :
 :
-handler
+handler_
 ;
 using
 Base
@@ -5432,7 +5432,7 @@ using
 Base
 :
 :
-handler
+handler_
 ;
 using
 Base
