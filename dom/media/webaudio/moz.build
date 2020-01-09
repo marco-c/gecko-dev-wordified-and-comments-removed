@@ -405,6 +405,11 @@ MediaStreamAudioSourceNode
 h
 '
 '
+MediaStreamTrackAudioSourceNode
+.
+h
+'
+'
 OscillatorNode
 .
 h
@@ -611,6 +616,11 @@ cpp
 '
 '
 MediaStreamAudioSourceNode
+.
+cpp
+'
+'
+MediaStreamTrackAudioSourceNode
 .
 cpp
 '
