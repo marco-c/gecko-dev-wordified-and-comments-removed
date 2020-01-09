@@ -4728,6 +4728,22 @@ in
 test
 :
                 
+if
+'
+all
+'
+in
+test
+[
+'
+platforms
+'
+]
+:
+                    
+return
+True
+                
 platform
 =
 attr
