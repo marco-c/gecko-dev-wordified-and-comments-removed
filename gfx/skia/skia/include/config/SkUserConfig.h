@@ -71,7 +71,4 @@ endif
 define
 MOZ_SKIA
 #
-define
-SK_IGNORE_MAC_BLENDING_MATCH_FIX
-#
 endif
