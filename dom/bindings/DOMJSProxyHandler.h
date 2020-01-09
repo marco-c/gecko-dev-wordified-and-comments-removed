@@ -762,9 +762,6 @@ inline
 uint32_t
 GetArrayIndexFromId
 (
-JSContext
-*
-cx
 JS
 :
 :
