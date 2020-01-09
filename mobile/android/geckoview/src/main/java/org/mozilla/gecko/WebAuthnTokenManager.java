@@ -698,11 +698,6 @@ return
 }
 WrapForJNI
 (
-calledFrom
-=
-"
-ui
-"
 dispatchTo
 =
 "
@@ -733,11 +728,6 @@ attestationObject
 ;
 WrapForJNI
 (
-calledFrom
-=
-"
-ui
-"
 dispatchTo
 =
 "
@@ -1150,11 +1140,6 @@ return
 }
 WrapForJNI
 (
-calledFrom
-=
-"
-ui
-"
 dispatchTo
 =
 "
@@ -1195,11 +1180,6 @@ userHandle
 ;
 WrapForJNI
 (
-calledFrom
-=
-"
-ui
-"
 dispatchTo
 =
 "
