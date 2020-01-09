@@ -685,7 +685,7 @@ isSome
 ;
 }
 bool
-IsAsyncAnimatedImage
+UsingSharedSurface
 (
 )
 const
