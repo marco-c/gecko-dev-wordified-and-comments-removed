@@ -66,8 +66,6 @@ Path
 profileDir
 "
 notificationstore
-.
-json
 "
 )
 ;
@@ -78,11 +76,9 @@ OS
 .
 File
 .
-writeAtomic
+removeDir
 (
 NOTIFICATION_STORE_PATH
-"
-"
 )
 ;
 cleanup
