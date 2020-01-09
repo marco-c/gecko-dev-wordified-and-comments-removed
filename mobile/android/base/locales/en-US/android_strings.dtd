@@ -4486,15 +4486,6 @@ logins
 <
 !
 ENTITY
-pref_private_data_passwords2
-"
-Saved
-logins
-"
->
-<
-!
-ENTITY
 pref_private_data_cache
 "
 Cache
