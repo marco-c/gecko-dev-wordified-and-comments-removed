@@ -483,6 +483,9 @@ URI
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 nsIURI
