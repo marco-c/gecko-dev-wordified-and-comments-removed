@@ -1228,9 +1228,12 @@ default
 :
 return
 {
+unescape
+(
 item
 .
 name
+)
 }
 ;
 }
