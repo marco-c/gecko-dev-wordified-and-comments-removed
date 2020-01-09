@@ -1095,7 +1095,7 @@ static
 void
 SetDisplayPortMargins
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 nsIContent
@@ -1694,7 +1694,7 @@ APZCCallbackHelper
 :
 InitializeRootDisplayport
 (
-nsIPresShell
+PresShell
 *
 aPresShell
 )
@@ -2060,7 +2060,7 @@ PresShell
 ;
 }
 static
-nsIPresShell
+PresShell
 *
 GetRootDocumentPresShell
 (
@@ -2229,9 +2229,9 @@ input
 }
 if
 (
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 GetRootDocumentPresShell
 (
@@ -2243,7 +2243,7 @@ input
 =
 input
 /
-shell
+presShell
 -
 >
 GetResolution
@@ -2947,9 +2947,9 @@ aWidget
 {
 if
 (
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 view
 -
@@ -2961,7 +2961,7 @@ GetPresShell
 {
 MOZ_ASSERT
 (
-shell
+presShell
 -
 >
 GetDocument
@@ -2970,7 +2970,7 @@ GetDocument
 )
 ;
 return
-shell
+presShell
 -
 >
 GetDocument
@@ -3524,9 +3524,9 @@ static
 void
 SendLayersDependentApzcTargetConfirmation
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 uint64_t
 aInputBlockId
 const
@@ -3542,7 +3542,7 @@ LayerManager
 *
 lm
 =
-aShell
+aPresShell
 -
 >
 GetLayerManager
@@ -3658,7 +3658,7 @@ DisplayportSetListener
 nsIWidget
 *
 aWidget
-nsIPresShell
+PresShell
 *
 aPresShell
 const
@@ -4463,9 +4463,9 @@ APZCCallbackHelper
 :
 NotifyFlushComplete
 (
-nsIPresShell
+PresShell
 *
-aShell
+aPresShell
 )
 {
 MOZ_ASSERT
@@ -4477,10 +4477,10 @@ NS_IsMainThread
 ;
 if
 (
-aShell
+aPresShell
 &
 &
-aShell
+aPresShell
 -
 >
 GetRootFrame
@@ -4488,7 +4488,7 @@ GetRootFrame
 )
 )
 {
-aShell
+aPresShell
 -
 >
 GetRootFrame
