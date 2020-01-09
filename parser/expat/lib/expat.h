@@ -1782,6 +1782,16 @@ XML_Parser
 parser
 )
 ;
+XMLPARSEAPI
+(
+XML_Bool
+)
+MOZ_XML_ProcessingEntityValue
+(
+XML_Parser
+parser
+)
+;
 #
 ifdef
 __cplusplus
