@@ -418,6 +418,13 @@ simple
 .
 mar
 '
+'
+data
+/
+update
+.
+sjs
+'
 ]
 TEST_HARNESS_FILES
 .
@@ -459,6 +466,13 @@ data
 simple
 .
 mar
+'
+'
+data
+/
+update
+.
+sjs
 '
 ]
 FINAL_TARGET_FILES
