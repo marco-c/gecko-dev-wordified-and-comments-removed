@@ -296,6 +296,10 @@ fecPacketsReceived
 ;
 unsigned
 long
+fecPacketsDiscarded
+;
+unsigned
+long
 long
 bytesReceived
 ;
