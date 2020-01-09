@@ -3320,8 +3320,6 @@ side
 :
     
 return
-ExprVar
-(
 '
 Alloc
 '
@@ -3337,7 +3335,6 @@ side
 title
 (
 )
-)
 def
 _deallocMethod
 (
@@ -3347,8 +3344,6 @@ side
 :
     
 return
-ExprVar
-(
 '
 Dealloc
 '
@@ -3363,7 +3358,6 @@ side
 .
 title
 (
-)
 )
 class
 _HybridDecl
@@ -5702,10 +5696,7 @@ Constructor
 '
         
 return
-ExprVar
-(
 name
-)
     
 def
 sendMethod
@@ -20882,8 +20873,6 @@ md
 recvMethod
 (
 )
-.
-name
                     
 params
 =
@@ -21070,8 +21059,6 @@ self
 .
 side
 )
-.
-name
                 
 params
 =
@@ -21119,8 +21106,6 @@ self
 .
 side
 )
-.
-name
                 
 params
 =
@@ -24147,7 +24132,9 @@ addstmts
                 
 StmtExpr
 (
-ExprCall
+self
+.
+thisCall
 (
 _deallocMethod
 (
@@ -24156,9 +24143,7 @@ self
 .
 side
 )
-                                  
-args
-=
+                                       
 [
 actorFromIter
 (
@@ -24825,7 +24810,9 @@ actorvar
                     
 StmtExpr
 (
-ExprCall
+self
+.
+thisCall
 (
 _deallocMethod
 (
@@ -24834,9 +24821,7 @@ self
 .
 side
 )
-                                      
-args
-=
+                                           
 [
 actorvar
 ]
@@ -25092,6 +25077,27 @@ PayloadError
         
 return
 case
+    
+def
+thisCall
+(
+self
+function
+args
+)
+:
+        
+return
+ExprCall
+(
+ExprVar
+(
+function
+)
+args
+=
+args
+)
     
 def
 visitMessageDecl
@@ -31892,7 +31898,9 @@ side
 :
         
 return
-ExprCall
+self
+.
+thisCall
 (
             
 _allocMethod
@@ -32133,40 +32141,44 @@ StmtIf
 (
 ExprNot
 (
-            
-ExprCall
+self
+.
+thisCall
 (
+            
 md
 .
 recvMethod
 (
 )
-                     
-args
-=
+            
 md
 .
 makeCxxArgs
 (
+                
 paramsems
 =
 '
 move
 '
+                
 retsems
 =
 retsems
-                                         
+                
 retcallsems
 =
 '
 out
 '
-                                         
+                
 implicit
 =
 implicit
+            
 )
+        
 )
 )
 )
