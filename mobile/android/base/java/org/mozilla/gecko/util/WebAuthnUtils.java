@@ -46,6 +46,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+ReflectionTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 WebAuthnTokenManager
 ;
 import
@@ -748,6 +759,7 @@ return
 result
 ;
 }
+ReflectionTarget
 public
 static
 void
@@ -1868,6 +1880,7 @@ UNKNOWN_ERR
 ;
 }
 }
+ReflectionTarget
 public
 static
 void
