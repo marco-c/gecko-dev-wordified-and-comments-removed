@@ -248,6 +248,10 @@ ipc
 IPCResult
 RecvDeactivate
 (
+const
+bool
+&
+aWindowLowering
 )
 ;
 mozilla

@@ -152,6 +152,8 @@ BrowserBridgeChild
 :
 Deactivate
 (
+bool
+aWindowLowering
 )
 {
 Unused
@@ -159,6 +161,7 @@ Unused
 <
 SendDeactivate
 (
+aWindowLowering
 )
 ;
 }

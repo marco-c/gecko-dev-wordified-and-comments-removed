@@ -993,6 +993,10 @@ BrowserBridgeParent
 :
 RecvDeactivate
 (
+const
+bool
+&
+aWindowLowering
 )
 {
 mBrowserParent
@@ -1000,6 +1004,7 @@ mBrowserParent
 >
 Deactivate
 (
+aWindowLowering
 )
 ;
 return
