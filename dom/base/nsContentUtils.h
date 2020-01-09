@@ -6197,6 +6197,10 @@ enum
 class
 StorageAccess
 {
+ePartitionForeignOrDeny
+=
+-
+2
 ePartitionTrackersOrDeny
 =
 -
