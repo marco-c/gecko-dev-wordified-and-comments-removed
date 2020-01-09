@@ -84,11 +84,6 @@ utils
 CompiledModules
 (
 '
-ast
-.
-js
-'
-'
 debuggee
 .
 js

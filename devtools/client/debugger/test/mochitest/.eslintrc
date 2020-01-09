@@ -361,6 +361,11 @@ assertPausedAtSourceAndLine
 :
 false
 "
+assertPreviews
+"
+:
+false
+"
 assertPreviewTextValue
 "
 :
