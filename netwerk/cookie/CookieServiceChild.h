@@ -449,9 +449,6 @@ bool
 mThirdPartyNonsecureSession
 ;
 bool
-mLeaveSecureAlone
-;
-bool
 mIPCOpen
 ;
 }

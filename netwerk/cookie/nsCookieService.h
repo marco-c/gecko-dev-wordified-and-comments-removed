@@ -892,8 +892,6 @@ nsIChannel
 *
 aChannel
 bool
-aLeaveSercureAlone
-bool
 &
 aSetCookie
 mozIThirdPartyUtil
@@ -1480,15 +1478,7 @@ nsCookieEntry
 aEntry
 int64_t
 aCurrentTime
-const
-mozilla
-:
-:
-Maybe
-<
 bool
->
-&
 aIsSecure
 nsTArray
 <
@@ -1723,9 +1713,6 @@ mThirdPartySession
 ;
 bool
 mThirdPartyNonsecureSession
-;
-bool
-mLeaveSecureAlone
 ;
 uint16_t
 mMaxNumberOfCookies
