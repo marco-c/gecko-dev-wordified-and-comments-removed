@@ -821,15 +821,6 @@ ImageContainer
 >
 mImageContainer
 ;
-RefPtr
-<
-layers
-:
-:
-Image
->
-mImage
-;
 webrtc
 :
 :
