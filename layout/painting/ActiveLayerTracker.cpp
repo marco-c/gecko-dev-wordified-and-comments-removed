@@ -675,11 +675,6 @@ f
 >
 SchedulePaint
 (
-nsIFrame
-:
-:
-PAINT_DEFAULT
-false
 )
 ;
 }
