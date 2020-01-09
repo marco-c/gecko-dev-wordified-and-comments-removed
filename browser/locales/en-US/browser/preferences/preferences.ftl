@@ -6285,7 +6285,7 @@ block
 -
 autoplay
 -
-media
+media2
 =
 .
 label
@@ -6295,8 +6295,6 @@ websites
 from
 automatically
 playing
-media
-with
 sound
 .
 accesskey
