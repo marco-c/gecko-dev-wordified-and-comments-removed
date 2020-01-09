@@ -6338,6 +6338,12 @@ builds
 taskcluster_base_windows
 .
 py
+-
+builds
+/
+taskcluster_base_win64
+.
+py
 extra
 -
 config
