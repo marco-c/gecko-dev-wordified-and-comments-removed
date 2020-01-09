@@ -3949,6 +3949,11 @@ LinkStyle
 webidl
 '
 '
+LoadURIOptions
+.
+webidl
+'
+'
 Location
 .
 webidl
