@@ -6111,6 +6111,12 @@ if
 matched
 )
 {
+this
+.
+_prohibitSearchSuggestions
+=
+true
+;
 try
 {
 new
