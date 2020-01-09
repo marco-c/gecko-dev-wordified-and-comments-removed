@@ -236,8 +236,6 @@ async
 function
 openAboutDebugging
 (
-page
-win
 )
 {
 await
@@ -266,11 +264,6 @@ about
 :
 debugging
 "
-{
-window
-:
-win
-}
 )
 ;
 const
