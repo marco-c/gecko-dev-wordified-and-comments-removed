@@ -25869,7 +25869,7 @@ Imm32
 AbstractGeneratorObject
 :
 :
-RESUME_INDEX_CLOSING
+RESUME_INDEX_RUNNING
 )
 &
 returnFalse

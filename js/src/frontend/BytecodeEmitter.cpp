@@ -11262,7 +11262,7 @@ uint32_t
 AbstractGeneratorObject
 :
 :
-RESUME_INDEX_CLOSING
+RESUME_INDEX_RUNNING
 )
 "
 resumeIndex
