@@ -4344,6 +4344,12 @@ Width
 )
 ;
 }
+double
+FirstLineBoxBSize
+(
+)
+const
+;
 already_AddRefed
 <
 Flex
