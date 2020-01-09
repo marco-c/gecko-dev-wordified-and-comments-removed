@@ -160,11 +160,6 @@ nsIJARChannel
 idl
 '
 '
-nsIJARProtocolHandler
-.
-idl
-'
-'
 nsIJARURI
 .
 idl
@@ -184,6 +179,11 @@ EXPORTS
 +
 =
 [
+'
+nsJARProtocolHandler
+.
+h
+'
 '
 nsJARURI
 .
