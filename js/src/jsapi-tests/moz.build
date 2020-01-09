@@ -429,6 +429,11 @@ testMappedArrayBuffer
 cpp
 '
 '
+testMemoryAssociation
+.
+cpp
+'
+'
 testMutedErrors
 .
 cpp
