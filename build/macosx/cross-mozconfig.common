@@ -416,7 +416,7 @@ x86_64
 -
 apple
 -
-darwin
+darwin11
 export
 MACOS_SDK_DIR
 =

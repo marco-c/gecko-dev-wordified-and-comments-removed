@@ -301,9 +301,7 @@ bin
 /
 x86_64
 -
-apple
--
-darwin
+darwin11
 -
 ar
 "
@@ -329,9 +327,7 @@ bin
 /
 x86_64
 -
-apple
--
-darwin
+darwin11
 -
 ranlib
 "
@@ -357,9 +353,7 @@ bin
 /
 x86_64
 -
-apple
--
-darwin
+darwin11
 -
 libtool
 "

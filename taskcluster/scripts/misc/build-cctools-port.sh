@@ -296,9 +296,7 @@ target
 =
 x86_64
 -
-apple
--
-darwin
+darwin11
 -
 -
 with
@@ -360,9 +358,7 @@ bin
 /
 x86_64
 -
-apple
--
-darwin
+darwin11
 -
 dsymutil
 #
@@ -386,9 +382,7 @@ bin
 /
 x86_64
 -
-apple
--
-darwin
+darwin11
 -
 lipo
 CROSSTOOLS_BUILD_DIR
