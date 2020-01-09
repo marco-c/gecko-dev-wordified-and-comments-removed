@@ -1247,6 +1247,7 @@ self
 .
 browser_cls
 (
+logger
 )
         
 self

@@ -1,6 +1,4 @@
 import
-logging
-import
 os
 import
 platform
@@ -37,14 +35,6 @@ call
 get
 untar
 unzip
-logger
-=
-logging
-.
-getLogger
-(
-__name__
-)
 uname
 =
 platform
@@ -62,6 +52,20 @@ object
 __metaclass__
 =
 ABCMeta
+    
+def
+__init__
+(
+self
+logger
+)
+:
+        
+self
+.
+logger
+=
+logger
     
 abstractmethod
     
@@ -734,7 +738,7 @@ browsers
 channel
 )
         
-filename
+scraper
 =
 FactoryScraper
 (
@@ -742,25 +746,48 @@ scraper
 [
 channel
 ]
-                                  
+                                 
 branch
 =
 branch
 [
 channel
 ]
-                                  
+                                 
 version
 =
 version
 [
 channel
 ]
-                                  
+                                 
 destination
 =
 dest
 )
+        
+self
+.
+logger
+.
+info
+(
+"
+Downloading
+Firefox
+from
+%
+s
+"
+%
+scraper
+.
+url
+)
+        
+filename
+=
+scraper
 .
 download
 (
@@ -1782,6 +1809,8 @@ channel
 channel_
 :
             
+self
+.
 logger
 .
 warning
@@ -1960,6 +1989,8 @@ version
 channel
 )
             
+self
+.
 logger
 .
 info
@@ -2070,6 +2101,8 @@ extract_dir
 else
 :
             
+self
+.
 logger
 .
 info
@@ -2347,6 +2380,8 @@ path
 else
 :
                 
+self
+.
 logger
 .
 warning
@@ -2394,6 +2429,8 @@ tar
 gz
 "
         
+self
+.
 logger
 .
 debug
@@ -2525,6 +2562,8 @@ tarfile
 import
 mozdownload
         
+self
+.
 logger
 .
 info
@@ -2705,6 +2744,8 @@ member
 name
 )
             
+self
+.
 logger
 .
 info
@@ -3026,9 +3067,11 @@ Google
 Chrome
 "
         
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Unable
@@ -3427,9 +3470,11 @@ subprocess
 CalledProcessError
 :
                 
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Failed
@@ -3467,9 +3512,11 @@ not
 m
 :
                 
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Failed
@@ -3495,9 +3542,11 @@ group
 1
 )
         
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Unable
@@ -3722,9 +3771,11 @@ bin
 opera
 "
         
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Unable
@@ -4182,9 +4233,11 @@ subprocess
 CalledProcessError
 :
             
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Failed
@@ -4646,9 +4699,11 @@ is
 None
 :
             
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Cannot
@@ -4688,9 +4743,11 @@ subprocess
 CalledProcessError
 :
             
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Failed
@@ -4732,9 +4789,11 @@ not
 m
 :
             
+self
+.
 logger
 .
-warn
+warning
 (
 "
 Failed
