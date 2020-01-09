@@ -162,6 +162,8 @@ uint32_t
 aDataSize
 int64_t
 aTimestampUsecs
+int64_t
+aDurationUsecs
 )
 ;
 HRESULT
@@ -183,6 +185,8 @@ uint32_t
 aDataSize
 int64_t
 aTimestampUsecs
+int64_t
+aDurationUsecs
 RefPtr
 <
 IMFSample
