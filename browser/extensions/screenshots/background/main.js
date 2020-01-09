@@ -1215,13 +1215,6 @@ badDomains
 =
 [
 "
-addons
-.
-mozilla
-.
-org
-"
-"
 testpilot
 .
 firefox
