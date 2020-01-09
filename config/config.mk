@@ -1657,6 +1657,11 @@ CCACHE_CPP2
 1
 endif
 endif
+ifdef
+CCACHE_PREFIX
+export
+CCACHE_PREFIX
+endif
 #
 Set
 link
