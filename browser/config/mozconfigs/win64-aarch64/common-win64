@@ -28,16 +28,3 @@ x86_64
 pc
 -
 mingw32
-#
-Accessibility
-doesn
-'
-t
-work
-.
-ac_add_options
--
--
-disable
--
-accessibility
