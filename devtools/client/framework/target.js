@@ -458,7 +458,6 @@ function
 Target
 (
 {
-form
 client
 chrome
 activeTab
@@ -514,12 +513,6 @@ this
 activeTab
 =
 activeTab
-;
-this
-.
-_form
-=
-form
 ;
 this
 .
@@ -880,11 +873,6 @@ form
 )
 {
 return
-this
-.
-_form
-|
-|
 this
 .
 activeTab
@@ -2929,12 +2917,6 @@ null
 this
 .
 _tab
-=
-null
-;
-this
-.
-_form
 =
 null
 ;
