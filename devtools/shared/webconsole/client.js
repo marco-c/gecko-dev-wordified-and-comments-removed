@@ -811,7 +811,6 @@ getCachedMessages
 function
 (
 types
-onResponse
 )
 {
 const
@@ -841,7 +840,6 @@ _client
 request
 (
 packet
-onResponse
 )
 ;
 }

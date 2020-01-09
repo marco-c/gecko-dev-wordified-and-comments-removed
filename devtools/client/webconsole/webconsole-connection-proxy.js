@@ -624,6 +624,7 @@ error
 }
 _onAttachConsole
 :
+async
 function
 (
 response
@@ -710,6 +711,10 @@ ConsoleAPI
 "
 ]
 ;
+const
+cachedMessages
+=
+await
 this
 .
 webConsoleClient
@@ -717,9 +722,13 @@ webConsoleClient
 getCachedMessages
 (
 msgs
+)
+;
 this
 .
 _onCachedMessages
+(
+cachedMessages
 )
 ;
 this
