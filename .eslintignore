@@ -1492,14 +1492,6 @@ bindings
 *
 dom
 /
-browser
--
-element
-/
-*
-*
-dom
-/
 canvas
 /
 *

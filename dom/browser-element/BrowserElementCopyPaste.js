@@ -283,9 +283,6 @@ e
 .
 boundingClientRect
 ;
-let
-canPaste
-=
 this
 .
 _isCommandEnabled

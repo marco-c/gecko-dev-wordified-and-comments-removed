@@ -100,7 +100,7 @@ mozbrowserclose
 "
 function
 (
-e
+f
 )
 {
 ok

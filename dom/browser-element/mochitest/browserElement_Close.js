@@ -124,11 +124,7 @@ close
 )
 <
 /
-scr
-"
-+
-"
-ipt
+script
 >
 <
 /

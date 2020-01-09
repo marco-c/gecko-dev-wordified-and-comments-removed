@@ -115,11 +115,6 @@ runTest
 )
 {
 var
-count
-=
-0
-;
-var
 iframe
 =
 document

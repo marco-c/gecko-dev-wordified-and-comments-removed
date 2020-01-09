@@ -123,7 +123,7 @@ mozbrowsershowmodalprompt
 "
 function
 (
-e
+f
 )
 {
 ok
@@ -142,7 +142,7 @@ event
 ;
 is
 (
-e
+f
 .
 detail
 .

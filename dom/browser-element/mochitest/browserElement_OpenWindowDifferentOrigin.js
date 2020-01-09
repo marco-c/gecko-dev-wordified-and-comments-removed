@@ -89,7 +89,7 @@ mozbrowseropenwindow
 "
 function
 (
-e
+f
 )
 {
 ok
@@ -111,7 +111,7 @@ body
 .
 appendChild
 (
-e
+f
 .
 detail
 .
@@ -134,7 +134,7 @@ mozbrowsershowmodalprompt
 "
 function
 (
-e
+f
 )
 {
 ok
