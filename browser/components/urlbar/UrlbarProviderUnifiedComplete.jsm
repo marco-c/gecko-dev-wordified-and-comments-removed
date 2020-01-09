@@ -12,6 +12,11 @@ UrlbarProviderUnifiedComplete
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

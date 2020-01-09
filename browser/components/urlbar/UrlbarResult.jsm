@@ -12,6 +12,11 @@ UrlbarResult
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

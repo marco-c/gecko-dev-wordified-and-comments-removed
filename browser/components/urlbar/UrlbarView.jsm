@@ -12,6 +12,11 @@ UrlbarView
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import

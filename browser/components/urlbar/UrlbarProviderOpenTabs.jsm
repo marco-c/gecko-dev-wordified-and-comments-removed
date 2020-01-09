@@ -12,6 +12,11 @@ UrlbarProviderOpenTabs
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 ChromeUtils
 .
 import
