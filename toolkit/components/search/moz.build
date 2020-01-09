@@ -94,17 +94,6 @@ tests
 /
 xpcshell
 /
-searchconfigs
-/
-xpcshell
-.
-ini
-'
-'
-tests
-/
-xpcshell
-/
 xpcshell
 .
 ini
