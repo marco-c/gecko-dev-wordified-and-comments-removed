@@ -389,7 +389,7 @@ docShell
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabchild
 =
@@ -655,7 +655,7 @@ docShell
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabchild
 =

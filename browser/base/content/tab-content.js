@@ -309,7 +309,7 @@ getInterface
 (
 Ci
 .
-nsITabChild
+nsIBrowserChild
 )
 ;
 tabchild

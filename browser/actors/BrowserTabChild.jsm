@@ -391,7 +391,7 @@ getInterface
 (
 Ci
 .
-nsITabChild
+nsIBrowserChild
 )
 ;
 let

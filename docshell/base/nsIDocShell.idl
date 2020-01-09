@@ -357,7 +357,7 @@ interface
 nsIRemoteTab
 ;
 interface
-nsITabChild
+nsIBrowserChild
 ;
 interface
 nsICommandParams
@@ -366,11 +366,11 @@ interface
 nsILoadURIDelegate
 ;
 native
-TabChildRef
+BrowserChildRef
 (
 already_AddRefed
 <
-nsITabChild
+nsIBrowserChild
 >
 )
 ;
@@ -6303,7 +6303,7 @@ ScriptableTabChild
 ]
 readonly
 attribute
-nsITabChild
+nsIBrowserChild
 tabChild
 ;
 [
@@ -6311,7 +6311,7 @@ noscript
 notxpcom
 nostdcall
 ]
-TabChildRef
+BrowserChildRef
 GetTabChild
 (
 )

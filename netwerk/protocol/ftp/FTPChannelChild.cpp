@@ -81,7 +81,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -718,7 +718,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 iTabChild
 ;
@@ -728,7 +728,7 @@ mCallbacks
 mLoadGroup
 NS_GET_IID
 (
-nsITabChild
+nsIBrowserChild
 )
 getter_AddRefs
 (
@@ -3288,7 +3288,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 iTabChild
 ;
@@ -3298,7 +3298,7 @@ mCallbacks
 mLoadGroup
 NS_GET_IID
 (
-nsITabChild
+nsIBrowserChild
 )
 getter_AddRefs
 (

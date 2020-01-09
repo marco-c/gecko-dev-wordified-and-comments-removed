@@ -680,7 +680,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -6153,7 +6153,7 @@ nsIAuthPrompt2
 |
 IID_IS
 (
-nsITabChild
+nsIBrowserChild
 )
 )
 )

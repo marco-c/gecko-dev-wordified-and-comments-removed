@@ -4397,7 +4397,7 @@ if
 (
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 child
 =
@@ -8096,7 +8096,7 @@ XRE_IsContentProcess
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =

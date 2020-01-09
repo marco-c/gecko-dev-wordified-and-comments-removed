@@ -2543,7 +2543,7 @@ ds
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =

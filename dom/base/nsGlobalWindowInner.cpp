@@ -1696,7 +1696,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -21206,7 +21206,7 @@ GetDocShell
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 child
 =

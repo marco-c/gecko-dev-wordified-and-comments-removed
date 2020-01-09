@@ -113,7 +113,7 @@ b19c
 )
 ]
 interface
-nsITabChild
+nsIBrowserChild
 :
 nsISupports
 {

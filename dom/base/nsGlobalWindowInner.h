@@ -426,7 +426,7 @@ class
 nsIScriptTimeoutHandler
 ;
 class
-nsITabChild
+nsIBrowserChild
 ;
 class
 nsITimeoutHandler
@@ -7475,7 +7475,7 @@ mDocumentStoragePrincipal
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 mTabChild
 ;

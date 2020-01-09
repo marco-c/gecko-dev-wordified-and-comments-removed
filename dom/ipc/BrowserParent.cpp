@@ -13554,7 +13554,7 @@ docShell
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 (

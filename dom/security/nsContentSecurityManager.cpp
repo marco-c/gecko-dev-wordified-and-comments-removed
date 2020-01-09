@@ -536,7 +536,7 @@ ContextForTopLevelLoad
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =

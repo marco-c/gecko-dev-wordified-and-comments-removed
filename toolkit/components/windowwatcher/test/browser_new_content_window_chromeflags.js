@@ -566,7 +566,7 @@ getInterface
 (
 Ci
 .
-nsITabChild
+nsIBrowserChild
 )
 .
 QueryInterface

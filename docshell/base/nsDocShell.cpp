@@ -992,7 +992,7 @@ h
 #
 include
 "
-nsITabChild
+nsIBrowserChild
 .
 h
 "
@@ -3748,7 +3748,7 @@ Equals
 (
 NS_GET_IID
 (
-nsITabChild
+nsIBrowserChild
 )
 )
 )
@@ -14125,7 +14125,7 @@ XRE_IsContentProcess
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 newTabChild
 =
@@ -14157,7 +14157,7 @@ mTabChild
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 oldTabChild
 =
@@ -40494,7 +40494,7 @@ XRE_IsContentProcess
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =
@@ -55553,7 +55553,7 @@ nsDocShell
 :
 GetScriptableTabChild
 (
-nsITabChild
+nsIBrowserChild
 *
 *
 aTabChild
@@ -55581,7 +55581,7 @@ NS_ERROR_FAILURE
 }
 already_AddRefed
 <
-nsITabChild
+nsIBrowserChild
 >
 nsDocShell
 :
@@ -55592,7 +55592,7 @@ GetTabChild
 {
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tc
 =
@@ -55767,7 +55767,7 @@ aResult
 ;
 nsCOMPtr
 <
-nsITabChild
+nsIBrowserChild
 >
 tabChild
 =

@@ -123,6 +123,11 @@ nsIBrowser
 idl
 '
 '
+nsIBrowserChild
+.
+idl
+'
+'
 nsIBrowserDOMWindow
 .
 idl
@@ -184,11 +189,6 @@ idl
 '
 '
 nsIStructuredCloneContainer
-.
-idl
-'
-'
-nsITabChild
 .
 idl
 '

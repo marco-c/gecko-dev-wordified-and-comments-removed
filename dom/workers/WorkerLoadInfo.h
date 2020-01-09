@@ -105,7 +105,7 @@ class
 nsIScriptContext
 ;
 class
-nsITabChild
+nsIBrowserChild
 ;
 class
 nsIURI
@@ -277,7 +277,7 @@ InterfaceRequestor
 }
 already_AddRefed
 <
-nsITabChild
+nsIBrowserChild
 >
 GetAnyLiveTabChild
 (
