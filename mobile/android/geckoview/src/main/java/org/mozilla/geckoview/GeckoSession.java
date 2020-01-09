@@ -10847,7 +10847,13 @@ length
 {
 choices
 =
-null
+new
+PromptDelegate
+.
+Choice
+[
+0
+]
 ;
 }
 else
