@@ -5877,7 +5877,13 @@ addCellMemory
 (
 obj
 nbytes
+js
+:
+:
+MemoryUse
+(
 use
+)
 )
 ;
 zone
@@ -5941,7 +5947,13 @@ removeCellMemory
 (
 obj
 nbytes
+js
+:
+:
+MemoryUse
+(
 use
+)
 )
 ;
 }
