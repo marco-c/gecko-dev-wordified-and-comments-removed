@@ -112,6 +112,13 @@ isMultiE10s
 PropTypes
 .
 bool
+serviceWorkersAvailable
+:
+PropTypes
+.
+bool
+.
+isRequired
 }
 ;
 exports

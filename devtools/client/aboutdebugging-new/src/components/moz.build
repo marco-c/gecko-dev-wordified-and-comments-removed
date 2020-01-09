@@ -102,4 +102,9 @@ RuntimePage
 .
 js
 '
+'
+ServiceWorkersWarning
+.
+js
+'
 )
