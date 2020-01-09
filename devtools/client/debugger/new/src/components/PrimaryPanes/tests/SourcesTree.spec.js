@@ -2740,7 +2740,11 @@ fn
 )
 sources
 :
+{
+FakeThread
+:
 defaultSources
+}
 debuggeeUrl
 :
 "
