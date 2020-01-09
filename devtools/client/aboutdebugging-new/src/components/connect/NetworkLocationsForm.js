@@ -472,6 +472,13 @@ dom
 p
 (
 {
+className
+:
+"
+technical
+-
+text
+"
 }
 errorMessageId
 )
