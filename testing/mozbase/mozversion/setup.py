@@ -170,7 +170,7 @@ install_requires
 mozlog
 ~
 =
-3
+4
 .
 0
 '

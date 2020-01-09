@@ -950,10 +950,13 @@ for
 k
 v
 in
+sorted
+(
 checks
 .
 items
 (
+)
 )
 if
 v
@@ -1191,6 +1194,8 @@ for
 s
 n
 in
+sorted
+(
 count
 [
 key
@@ -1203,6 +1208,7 @@ unexpected
 .
 items
 (
+)
 )
 ]
 )
