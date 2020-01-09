@@ -43,6 +43,12 @@ win32
 '
 win64
 '
+    
+'
+win64
+-
+aarch64
+'
 )
 log
 =
