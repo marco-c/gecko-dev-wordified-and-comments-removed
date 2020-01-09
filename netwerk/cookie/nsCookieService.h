@@ -1417,8 +1417,6 @@ int64_t
 aServerTime
 int64_t
 aCurrentTime
-bool
-aFromHttp
 )
 ;
 void
