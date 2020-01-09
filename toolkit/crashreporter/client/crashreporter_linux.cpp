@@ -2568,7 +2568,7 @@ GTK_TEXT_VIEW
 (
 gCommentText
 )
-GTK_WRAP_WORD
+GTK_WRAP_WORD_CHAR
 )
 ;
 gtk_widget_set_size_request
