@@ -860,7 +860,7 @@ aHeight
 )
 ;
 static
-nsresult
+void
 GetSpoofedUserAgent
 (
 nsACString
