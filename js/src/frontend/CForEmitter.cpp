@@ -689,6 +689,10 @@ if
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 currentLine
 (
 )
@@ -720,6 +724,10 @@ false
 bce_
 -
 >
+bytecodeSection
+(
+)
+.
 setCurrentLine
 (
 lineNum
