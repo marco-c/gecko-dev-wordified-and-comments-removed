@@ -537,6 +537,13 @@ UpdateForValueChange
 ;
 private
 :
+nscoord
+AutoCrossSize
+(
+nscoord
+aEm
+)
+;
 nsresult
 MakeAnonymousDiv
 (
