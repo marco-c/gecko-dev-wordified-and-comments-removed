@@ -211,6 +211,17 @@ about
 -
 telemetry
 -
+current
+-
+store
+=
+Current
+Store
+:
+about
+-
+telemetry
+-
 more
 -
 information
