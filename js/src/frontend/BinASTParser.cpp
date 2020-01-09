@@ -10682,15 +10682,8 @@ newCall
 (
 callee
 arguments
-)
-)
-;
-result
--
->
-setCallOp
-(
 op
+)
 )
 ;
 return
@@ -19905,6 +19898,7 @@ start
 begin
 callee
 arguments
+false
 )
 )
 ;
