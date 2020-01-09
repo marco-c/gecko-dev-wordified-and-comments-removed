@@ -339,7 +339,7 @@ nsAppShellShutdown
 )
 ;
 }
-static
+extern
 const
 mozilla
 :
@@ -362,12 +362,4 @@ nullptr
 nsAppShellInit
 nsWidgetUIKitModuleDtor
 }
-;
-NSMODULE_DEFN
-(
-nsWidgetUIKitModule
-)
-=
-&
-kWidgetModule
 ;

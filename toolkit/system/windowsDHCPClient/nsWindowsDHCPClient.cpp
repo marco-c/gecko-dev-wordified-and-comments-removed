@@ -420,7 +420,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 mozilla
 :
@@ -439,14 +439,6 @@ kVersion
 kSysDHCPClientCIDs
 kSysDHCPClientContracts
 }
-;
-NSMODULE_DEFN
-(
-nsDHCPClientModule
-)
-=
-&
-kSysDHCPClientModule
 ;
 }
 }

@@ -2257,7 +2257,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 Module
 kLocalCertServiceModule
@@ -2270,13 +2270,5 @@ kVersion
 kLocalCertServiceCIDs
 kLocalCertServiceContracts
 }
-;
-NSMODULE_DEFN
-(
-LocalCertServiceModule
-)
-=
-&
-kLocalCertServiceModule
 ;
 }

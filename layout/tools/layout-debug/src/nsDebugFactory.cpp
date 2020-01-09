@@ -202,7 +202,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 mozilla
 :
@@ -222,12 +222,4 @@ kLayoutDebugCIDs
 kLayoutDebugContracts
 kLayoutDebugCategories
 }
-;
-NSMODULE_DEFN
-(
-nsLayoutDebugModule
-)
-=
-&
-kLayoutDebugModule
 ;

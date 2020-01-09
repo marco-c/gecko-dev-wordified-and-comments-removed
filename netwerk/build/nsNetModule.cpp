@@ -1728,7 +1728,7 @@ gDataSniffers
 nullptr
 ;
 }
-static
+extern
 const
 mozilla
 :
@@ -1758,12 +1758,4 @@ Module
 :
 ALLOW_IN_SOCKET_PROCESS
 }
-;
-NSMODULE_DEFN
-(
-necko
-)
-=
-&
-kNeckoModule
 ;

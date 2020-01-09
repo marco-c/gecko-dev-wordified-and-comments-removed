@@ -92,7 +92,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 mozilla
 :
@@ -111,12 +111,4 @@ kVersion
 kCodeCoverageCIDs
 kCodeCoverageContracts
 }
-;
-NSMODULE_DEFN
-(
-nsCodeCoverageModule
-)
-=
-&
-kCodeCoverageModule
 ;

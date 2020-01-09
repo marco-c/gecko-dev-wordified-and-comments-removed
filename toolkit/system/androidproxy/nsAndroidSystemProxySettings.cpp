@@ -285,7 +285,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 mozilla
 :
@@ -304,12 +304,4 @@ kVersion
 kSysProxyCIDs
 kSysProxyContracts
 }
-;
-NSMODULE_DEFN
-(
-nsAndroidProxyModule
-)
-=
-&
-kSysProxyModule
 ;

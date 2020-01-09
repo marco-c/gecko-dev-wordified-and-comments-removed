@@ -1418,7 +1418,7 @@ nsAppShellShutdown
 )
 ;
 }
-static
+extern
 const
 mozilla
 :
@@ -1448,12 +1448,4 @@ Module
 :
 ALLOW_IN_GPU_VR_AND_SOCKET_PROCESS
 }
-;
-NSMODULE_DEFN
-(
-nsWidgetMacModule
-)
-=
-&
-kWidgetModule
 ;

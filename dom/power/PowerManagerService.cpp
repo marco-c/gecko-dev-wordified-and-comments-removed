@@ -757,7 +757,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 mozilla
 :
@@ -787,12 +787,4 @@ Module
 :
 ALLOW_IN_GPU_AND_SOCKET_PROCESS
 }
-;
-NSMODULE_DEFN
-(
-nsPowerManagerModule
-)
-=
-&
-kPowerManagerModule
 ;

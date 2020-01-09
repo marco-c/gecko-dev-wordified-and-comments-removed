@@ -174,7 +174,7 @@ nullptr
 }
 }
 ;
-static
+extern
 const
 mozilla
 :
@@ -193,12 +193,4 @@ kVersion
 kEmbeddingCIDs
 kEmbeddingContracts
 }
-;
-NSMODULE_DEFN
-(
-embedcomponents
-)
-=
-&
-kEmbeddingModule
 ;
