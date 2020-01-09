@@ -2129,7 +2129,7 @@ content
 <
 xul
 :
-scrollbox
+arrowscrollbox
 class
 =
 "
@@ -2149,13 +2149,10 @@ orient
 "
 vertical
 "
-style
+smoothscroll
 =
 "
-overflow
-:
-auto
-;
+false
 "
 >
 <
@@ -2166,7 +2163,7 @@ children
 /
 xul
 :
-scrollbox
+arrowscrollbox
 >
 <
 /
@@ -2924,6 +2921,7 @@ scrollBox
 scrollByIndex
 (
 scrollAmount
+true
 )
 ;
 let
@@ -2953,6 +2951,7 @@ scrollBox
 scrollByIndex
 (
 scrollAmount
+true
 )
 ;
 }

@@ -673,7 +673,7 @@ popup
 0
 ]
 .
-_scrollbox
+scrollbox
 ;
 var
 expectedScrollPos

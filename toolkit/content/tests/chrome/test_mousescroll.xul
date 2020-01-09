@@ -1714,7 +1714,7 @@ getElementById
 id
 )
 .
-_scrollbox
+scrollbox
 ;
 var
 orient

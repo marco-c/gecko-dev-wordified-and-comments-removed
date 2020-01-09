@@ -1205,6 +1205,8 @@ currentMenulist
 menupopup
 .
 scrollBox
+.
+scrollbox
 ;
 let
 scrollTop

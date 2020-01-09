@@ -29,7 +29,7 @@ scrollbox
 =
 arrowScrollbox
 .
-_scrollbox
+scrollbox
 ;
 let
 originalSmoothScroll
