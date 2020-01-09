@@ -10886,9 +10886,6 @@ str
 SharedModule
 finish
 (
-UniqueLinkData
-*
-linkData
 )
 {
 MOZ_ASSERT
@@ -11527,8 +11524,6 @@ finishModule
 (
 *
 bytes
-nullptr
-linkData
 )
 ;
 }
@@ -36292,9 +36287,6 @@ parser
 ParseNode
 *
 stmtList
-UniqueLinkData
-*
-linkData
 unsigned
 *
 time
@@ -36489,7 +36481,6 @@ m
 .
 finish
 (
-linkData
 )
 ;
 if
@@ -39933,16 +39924,10 @@ cx
 )
 ;
 }
-SharedModule
-module
-;
 unsigned
 time
 ;
-{
-UniqueLinkData
-linkData
-;
+SharedModule
 module
 =
 CheckModule
@@ -39950,8 +39935,6 @@ CheckModule
 cx
 parser
 stmtList
-&
-linkData
 &
 time
 )
@@ -39968,7 +39951,6 @@ NoExceptionPending
 cx
 )
 ;
-}
 }
 Rooted
 <

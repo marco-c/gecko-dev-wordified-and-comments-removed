@@ -2353,9 +2353,12 @@ error
 UniqueCharsVector
 *
 warnings
-UniqueLinkData
+JS
+:
+:
+OptimizedEncodingListener
 *
-maybeLinkData
+listener
 )
 {
 Decoder
@@ -2473,8 +2476,7 @@ mg
 finishModule
 (
 bytecode
-nullptr
-maybeLinkData
+listener
 )
 ;
 }

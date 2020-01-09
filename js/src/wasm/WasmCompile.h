@@ -195,9 +195,12 @@ error
 UniqueCharsVector
 *
 warnings
-UniqueLinkData
+JS
+:
+:
+OptimizedEncodingListener
 *
-maybeLinkData
+listener
 =
 nullptr
 )

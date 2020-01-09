@@ -830,11 +830,6 @@ OptimizedEncodingListener
 maybeTier2Listener
 =
 nullptr
-UniqueLinkData
-*
-maybeLinkData
-=
-nullptr
 )
 ;
 MOZ_MUST_USE
