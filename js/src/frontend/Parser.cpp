@@ -34599,6 +34599,13 @@ null
 )
 ;
 }
+handler_
+.
+checkAndSetIsDirectRHSAnonFunction
+(
+initializerExpr
+)
+;
 wholeInitializerPos
 =
 pos

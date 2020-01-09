@@ -1609,6 +1609,14 @@ return
 true
 ;
 }
+void
+checkAndSetIsDirectRHSAnonFunction
+(
+Node
+pn
+)
+{
+}
 FunctionNodeType
 newFunction
 (
