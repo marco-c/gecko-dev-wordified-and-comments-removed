@@ -369,15 +369,10 @@ const
 override
 ;
 void
-SetCrossProcessRedirect
+CancelChildCrossProcessRedirect
 (
 )
-{
-mDoingCrossProcessRedirect
-=
-true
 ;
-}
 protected
 :
 MOZ_MUST_USE

@@ -116,6 +116,11 @@ nsIBackgroundChannelRegistrar
 idl
 '
 '
+nsIChildProcessChannelListener
+.
+idl
+'
+'
 nsIHttpActivityObserver
 .
 idl
@@ -167,11 +172,6 @@ idl
 '
 '
 nsIRaceCacheWithNetwork
-.
-idl
-'
-'
-nsIRedirectProcessChooser
 .
 idl
 '

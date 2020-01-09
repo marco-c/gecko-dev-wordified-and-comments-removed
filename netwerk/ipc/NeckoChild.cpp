@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsIRedirectProcessChooser
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h
