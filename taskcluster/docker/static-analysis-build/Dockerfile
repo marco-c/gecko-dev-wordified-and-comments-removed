@@ -90,6 +90,8 @@ libc6
 -
 dev
 \
+nasm
+\
 openjdk
 -
 8
