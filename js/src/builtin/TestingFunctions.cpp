@@ -274,6 +274,15 @@ include
 "
 js
 /
+Date
+.
+h
+"
+#
+include
+"
+js
+/
 Debug
 .
 h
@@ -14826,7 +14835,7 @@ DuplicateStringToArena
 js
 :
 :
-StringBufferArena
+MallocArena
 cx
 frames
 [
@@ -20979,7 +20988,7 @@ DuplicateStringToArena
 js
 :
 :
-StringBufferArena
+MallocArena
 cx
 edge
 .

@@ -55,6 +55,15 @@ h
 #
 include
 "
+builtin
+/
+MapObject
+.
+h
+"
+#
+include
+"
 gc
 /
 FreeOp
