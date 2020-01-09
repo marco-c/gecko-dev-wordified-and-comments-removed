@@ -1848,3 +1848,14 @@ short
 name
 }
 shortcut
+go
+-
+back
+-
+button
+=
+.
+tooltiptext
+=
+Go
+back
