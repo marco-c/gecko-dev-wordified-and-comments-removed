@@ -386,6 +386,8 @@ gl
 :
 OriginPos
 aOriginPos
+bool
+aHasAlpha
 )
 :
 GLImage
@@ -410,6 +412,10 @@ aContinuous
 mOriginPos
 (
 aOriginPos
+)
+mHasAlpha
+(
+aHasAlpha
 )
 {
 MOZ_ASSERT
