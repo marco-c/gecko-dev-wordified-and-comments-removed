@@ -257,7 +257,7 @@ checkItems
 (
 menuitem
 .
-menupopup
+firstElementChild
 .
 firstElementChild
 details

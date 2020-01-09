@@ -1502,7 +1502,7 @@ menuPopupContent
 mContent
 -
 >
-GetLastChild
+GetFirstChild
 (
 )
 ;
@@ -1557,7 +1557,7 @@ menuPopupContent
 mContent
 -
 >
-GetLastChild
+GetFirstChild
 (
 )
 ;

@@ -743,7 +743,7 @@ is
 popup
 submenu
 .
-menupopup
+firstElementChild
 "
 Correct
 submenu
@@ -2209,7 +2209,7 @@ is
 popup
 submenu
 .
-menupopup
+firstElementChild
 "
 Correct
 submenu
@@ -3431,7 +3431,7 @@ is
 (
 submenu
 .
-menupopup
+firstElementChild
 .
 children
 .
