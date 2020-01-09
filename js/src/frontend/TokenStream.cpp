@@ -4016,6 +4016,7 @@ notes
 )
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;
@@ -6744,7 +6745,6 @@ notes
 )
 JSREPORT_ERROR
 errorNumber
-*
 args
 )
 ;
@@ -6775,7 +6775,6 @@ JSREPORT_WARNING
 |
 JSREPORT_STRICT
 errorNumber
-*
 args
 )
 ;
@@ -6800,6 +6799,7 @@ flags
 unsigned
 errorNumber
 va_list
+*
 args
 )
 {
@@ -7977,6 +7977,7 @@ metadata
 nullptr
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;
@@ -8012,6 +8013,7 @@ errorNumber
 reportErrorNoOffsetVA
 (
 errorNumber
+&
 args
 )
 ;
@@ -8030,6 +8032,7 @@ reportErrorNoOffsetVA
 unsigned
 errorNumber
 va_list
+*
 args
 )
 {
@@ -8132,6 +8135,7 @@ metadata
 nullptr
 JSREPORT_WARNING
 errorNumber
+&
 args
 )
 ;
@@ -8240,7 +8244,6 @@ JSREPORT_STRICT
 |
 JSREPORT_WARNING
 errorNumber
-*
 args
 )
 ;
@@ -8321,6 +8324,7 @@ metadata
 nullptr
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;
@@ -8393,7 +8397,6 @@ metadata
 nullptr
 JSREPORT_ERROR
 errorNumber
-*
 args
 )
 ;

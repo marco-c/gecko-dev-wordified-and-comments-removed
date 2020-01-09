@@ -157,6 +157,7 @@ reportErrorNoOffsetVA
 unsigned
 errorNumber
 va_list
+*
 args
 )
 =
@@ -195,6 +196,7 @@ errorNumber
 reportErrorNoOffsetVA
 (
 errorNumber
+&
 args
 )
 ;

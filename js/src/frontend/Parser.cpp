@@ -821,6 +821,7 @@ metadata
 nullptr
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;
@@ -907,6 +908,7 @@ notes
 )
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;
@@ -980,6 +982,7 @@ metadata
 nullptr
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;
@@ -1064,6 +1067,7 @@ notes
 )
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;
@@ -1141,6 +1145,7 @@ metadata
 nullptr
 JSREPORT_WARNING
 errorNumber
+&
 args
 )
 ;
@@ -1224,6 +1229,7 @@ metadata
 nullptr
 JSREPORT_WARNING
 errorNumber
+&
 args
 )
 ;
@@ -1545,6 +1551,7 @@ metadata
 nullptr
 JSREPORT_WARNING
 errorNumber
+&
 args
 )
 ;
@@ -1603,6 +1610,7 @@ metadata
 nullptr
 JSREPORT_ERROR
 errorNumber
+&
 args
 )
 ;

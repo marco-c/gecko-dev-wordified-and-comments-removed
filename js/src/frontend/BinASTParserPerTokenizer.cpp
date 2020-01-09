@@ -4215,6 +4215,7 @@ reportErrorNoOffsetVA
 unsigned
 errorNumber
 va_list
+*
 args
 )
 {
@@ -4343,7 +4344,6 @@ metadata
 nullptr
 JSREPORT_ERROR
 errorNumber
-*
 args
 )
 ;
@@ -4453,7 +4453,6 @@ notes
 )
 JSREPORT_STRICT
 errorNumber
-*
 args
 )
 ;
@@ -4483,7 +4482,6 @@ JSREPORT_STRICT
 |
 JSREPORT_WARNING
 errorNumber
-*
 args
 )
 ;
