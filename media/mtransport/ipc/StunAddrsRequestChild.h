@@ -79,6 +79,10 @@ final
 public
 PStunAddrsRequestChild
 {
+friend
+class
+PStunAddrsRequestChild
+;
 public
 :
 explicit

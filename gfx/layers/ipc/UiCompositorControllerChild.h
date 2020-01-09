@@ -89,6 +89,10 @@ final
 protected
 PUiCompositorControllerChild
 {
+friend
+class
+PUiCompositorControllerChild
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

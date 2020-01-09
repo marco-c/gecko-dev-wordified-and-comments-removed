@@ -70,6 +70,10 @@ PVRChild
 public
 gfxVarReceiver
 {
+friend
+class
+PVRChild
+;
 public
 :
 explicit

@@ -178,6 +178,10 @@ friend
 class
 StreamNotifyParent
 ;
+friend
+class
+PPluginInstanceParent
+;
 #
 if
 defined

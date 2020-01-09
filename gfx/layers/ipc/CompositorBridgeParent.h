@@ -1043,6 +1043,10 @@ gfx
 :
 GPUParent
 ;
+friend
+class
+PCompositorBridgeParent
+;
 #
 ifdef
 FUZZING

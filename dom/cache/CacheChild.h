@@ -63,6 +63,10 @@ PCacheChild
 public
 ActorChild
 {
+friend
+class
+PCacheChild
+;
 public
 :
 class

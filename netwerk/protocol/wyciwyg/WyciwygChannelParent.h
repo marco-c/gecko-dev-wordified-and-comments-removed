@@ -77,6 +77,10 @@ nsIStreamListener
 public
 nsIInterfaceRequestor
 {
+friend
+class
+PWyciwygChannelParent
+;
 public
 :
 NS_DECL_ISUPPORTS

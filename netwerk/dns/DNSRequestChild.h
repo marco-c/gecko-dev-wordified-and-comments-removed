@@ -65,6 +65,10 @@ PDNSRequestChild
 public
 nsICancelable
 {
+friend
+class
+PDNSRequestChild
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS

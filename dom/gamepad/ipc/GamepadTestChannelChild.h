@@ -39,6 +39,10 @@ final
 public
 PGamepadTestChannelChild
 {
+friend
+class
+PGamepadTestChannelChild
+;
 public
 :
 GamepadTestChannelChild

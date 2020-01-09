@@ -49,6 +49,10 @@ final
 public
 PMediaSystemResourceManagerChild
 {
+friend
+class
+PMediaSystemResourceManagerChild
+;
 public
 :
 struct

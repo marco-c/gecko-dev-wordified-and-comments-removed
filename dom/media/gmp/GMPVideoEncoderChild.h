@@ -66,6 +66,10 @@ GMPVideoEncoderCallback
 public
 GMPSharedMemManager
 {
+friend
+class
+PGMPVideoEncoderChild
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

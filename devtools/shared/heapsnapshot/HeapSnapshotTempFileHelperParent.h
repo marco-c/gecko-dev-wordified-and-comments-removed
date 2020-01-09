@@ -27,6 +27,10 @@ HeapSnapshotTempFileHelperParent
 public
 PHeapSnapshotTempFileHelperParent
 {
+friend
+class
+PHeapSnapshotTempFileHelperParent
+;
 explicit
 HeapSnapshotTempFileHelperParent
 (

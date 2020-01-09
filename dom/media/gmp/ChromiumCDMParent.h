@@ -116,6 +116,10 @@ PChromiumCDMParent
 public
 GMPCrashHelperHolder
 {
+friend
+class
+PChromiumCDMParent
+;
 public
 :
 typedef

@@ -67,6 +67,10 @@ friend
 class
 BackgroundChannelCreateCallback
 ;
+friend
+class
+PHttpBackgroundChannelChild
+;
 public
 :
 explicit

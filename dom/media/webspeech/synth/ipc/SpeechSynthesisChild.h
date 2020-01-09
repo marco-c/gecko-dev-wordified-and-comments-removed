@@ -67,6 +67,10 @@ friend
 class
 nsSynthVoiceRegistry
 ;
+friend
+class
+PSpeechSynthesisChild
+;
 public
 :
 mozilla

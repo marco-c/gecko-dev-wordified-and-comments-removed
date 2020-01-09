@@ -31,6 +31,10 @@ final
 public
 PMessagePortParent
 {
+friend
+class
+PMessagePortParent
+;
 public
 :
 explicit

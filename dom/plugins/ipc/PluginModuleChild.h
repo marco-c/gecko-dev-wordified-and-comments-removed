@@ -149,6 +149,10 @@ PluginModuleChild
 public
 PPluginModuleChild
 {
+friend
+class
+PPluginModuleChild
+;
 protected
 :
 virtual

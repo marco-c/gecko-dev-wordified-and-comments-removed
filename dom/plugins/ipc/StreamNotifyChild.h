@@ -38,6 +38,10 @@ friend
 class
 BrowserStreamChild
 ;
+friend
+class
+PStreamNotifyChild
+;
 public
 :
 explicit

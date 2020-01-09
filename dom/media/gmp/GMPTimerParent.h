@@ -71,6 +71,10 @@ GMPTimerParent
 public
 PGMPTimerParent
 {
+friend
+class
+PGMPTimerParent
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING

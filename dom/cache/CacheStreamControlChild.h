@@ -80,6 +80,10 @@ StreamControl
 public
 ActorChild
 {
+friend
+class
+PCacheStreamControlChild
+;
 public
 :
 CacheStreamControlChild

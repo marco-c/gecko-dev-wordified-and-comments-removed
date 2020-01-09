@@ -23,6 +23,10 @@ final
 public
 PRemoteDecoderManagerChild
 {
+friend
+class
+PRemoteDecoderManagerChild
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

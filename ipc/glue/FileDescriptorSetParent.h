@@ -80,6 +80,10 @@ dom
 :
 nsIContentParent
 ;
+friend
+class
+PFileDescriptorSetParent
+;
 nsTArray
 <
 FileDescriptor

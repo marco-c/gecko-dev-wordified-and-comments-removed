@@ -43,6 +43,10 @@ CookieServiceParent
 public
 PCookieServiceParent
 {
+friend
+class
+PCookieServiceParent
+;
 public
 :
 CookieServiceParent

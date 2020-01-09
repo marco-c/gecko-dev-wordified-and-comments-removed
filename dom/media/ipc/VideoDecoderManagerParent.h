@@ -26,6 +26,10 @@ final
 public
 PVideoDecoderManagerParent
 {
+friend
+class
+PVideoDecoderManagerParent
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

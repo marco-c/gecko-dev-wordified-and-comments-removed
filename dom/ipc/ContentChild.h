@@ -319,6 +319,10 @@ ipc
 URIParams
 URIParams
 ;
+friend
+class
+PContentChild
+;
 public
 :
 NS_DECL_NSIWINDOWPROVIDER

@@ -56,6 +56,10 @@ PGMPContentParent
 public
 GMPSharedMem
 {
+friend
+class
+PGMPContentParent
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

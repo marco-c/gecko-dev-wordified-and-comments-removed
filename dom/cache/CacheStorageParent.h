@@ -67,6 +67,10 @@ PrincipalVerifier
 :
 Listener
 {
+friend
+class
+PCacheStorageParent
+;
 public
 :
 CacheStorageParent

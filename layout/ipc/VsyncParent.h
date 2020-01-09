@@ -75,6 +75,10 @@ ipc
 :
 BackgroundParentImpl
 ;
+friend
+class
+PVsyncParent
+;
 private
 :
 static

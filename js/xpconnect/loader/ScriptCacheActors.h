@@ -73,6 +73,10 @@ final
 public
 PScriptCacheParent
 {
+friend
+class
+PScriptCacheParent
+;
 public
 :
 explicit

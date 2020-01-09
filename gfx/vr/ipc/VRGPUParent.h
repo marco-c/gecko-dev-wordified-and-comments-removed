@@ -39,6 +39,10 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 VRGPUParent
 )
+friend
+class
+PVRGPUParent
+;
 public
 :
 static

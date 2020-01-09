@@ -67,6 +67,10 @@ TestShellParent
 public
 PTestShellParent
 {
+friend
+class
+PTestShellParent
+;
 public
 :
 virtual
@@ -118,6 +122,10 @@ TestShellCommandParent
 public
 PTestShellCommandParent
 {
+friend
+class
+PTestShellCommandParent
+;
 public
 :
 TestShellCommandParent

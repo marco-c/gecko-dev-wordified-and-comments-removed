@@ -48,6 +48,16 @@ embedding
 :
 PPrintingChild
 {
+friend
+class
+mozilla
+:
+:
+embedding
+:
+:
+PPrintingChild
+;
 public
 :
 static

@@ -106,6 +106,10 @@ nsITimerCallback
 public
 nsSupportsWeakReference
 {
+friend
+class
+PCookieServiceChild
+;
 public
 :
 NS_DECL_ISUPPORTS

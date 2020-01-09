@@ -110,6 +110,10 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 VRManagerParent
 )
 ;
+friend
+class
+PVRManagerParent
+;
 public
 :
 explicit
