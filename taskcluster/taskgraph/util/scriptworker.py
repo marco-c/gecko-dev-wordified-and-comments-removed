@@ -433,6 +433,12 @@ esr60
 '
         
 '
+mozilla
+-
+esr68
+'
+        
+'
 comm
 -
 beta
@@ -654,6 +660,12 @@ esr60
 '
         
 '
+mozilla
+-
+esr68
+'
+        
+'
 comm
 -
 beta
@@ -663,6 +675,12 @@ beta
 comm
 -
 esr60
+'
+        
+'
+comm
+-
+esr68
 '
     
 ]
@@ -957,7 +975,7 @@ esr60
 [
     
 '
-esr
+esr68
 '
 set
 (
@@ -966,7 +984,13 @@ set
 '
 mozilla
 -
-esr52
+esr68
+'
+        
+'
+comm
+-
+esr68
 '
     
 ]
@@ -1042,7 +1066,7 @@ release
 '
     
 '
-esr
+esr60
 '
 :
 '
@@ -1054,7 +1078,7 @@ esr
 '
     
 '
-esr60
+esr68
 '
 :
 '
