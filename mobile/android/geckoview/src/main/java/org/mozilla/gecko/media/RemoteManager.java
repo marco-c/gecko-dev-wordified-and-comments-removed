@@ -358,6 +358,10 @@ mConnection
 Context
 .
 BIND_AUTO_CREATE
+|
+Context
+.
+BIND_IMPORTANT
 )
 ;
 waitConnect
