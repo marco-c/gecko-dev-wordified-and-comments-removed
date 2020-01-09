@@ -130,6 +130,16 @@ config
 mozbuild
 '
 )
+EXPORTS
++
+=
+[
+'
+nsIconURI
+.
+h
+'
+]
 platform
 =
 None
