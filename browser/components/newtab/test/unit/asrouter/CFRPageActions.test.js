@@ -218,7 +218,7 @@ notification
 -
 footer
 -
-pause
+animation
 -
 button
 "
