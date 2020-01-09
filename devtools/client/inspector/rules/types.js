@@ -240,6 +240,11 @@ PropTypes
 string
 }
 )
+pseudoElement
+:
+PropTypes
+.
+string
 selector
 :
 PropTypes

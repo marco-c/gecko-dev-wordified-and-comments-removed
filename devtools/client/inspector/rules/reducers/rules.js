@@ -149,6 +149,11 @@ keyframesRule
 rule
 .
 keyframesRule
+pseudoElement
+:
+rule
+.
+pseudoElement
 selector
 :
 rule
