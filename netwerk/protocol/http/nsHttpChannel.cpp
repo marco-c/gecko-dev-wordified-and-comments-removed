@@ -25190,6 +25190,14 @@ this
 )
 )
 ;
+mCacheEntry
+-
+>
+AsyncDoom
+(
+nullptr
+)
+;
 return
 NS_OK
 ;
