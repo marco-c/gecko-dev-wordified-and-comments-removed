@@ -1668,6 +1668,11 @@ None
 )
 ;
 }
+void
+EndPaint
+(
+)
+;
 private
 :
 ~
