@@ -5747,6 +5747,14 @@ ClearBundleLevel
 ;
 if
 (
+!
+transport
+.
+mComponents
+)
+{
+if
+(
 mSdpHelper
 .
 HasRtcp
@@ -5774,6 +5782,7 @@ mComponents
 =
 1
 ;
+}
 }
 if
 (
