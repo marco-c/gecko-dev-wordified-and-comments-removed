@@ -6364,14 +6364,6 @@ ControlCharVisibilityDefault
 (
 )
 ;
-enum
-class
-FlushUserFontSet
-{
-Yes
-No
-}
-;
 static
 already_AddRefed
 <
@@ -6392,8 +6384,6 @@ nscoord
 aFontSize
 bool
 aUseUserFontSet
-FlushUserFontSet
-aFlushUserFontSet
 )
 ;
 static

@@ -9766,10 +9766,6 @@ gfxUserFontSet
 *
 GetUserFontSet
 (
-bool
-aFlushUserFontSet
-=
-true
 )
 ;
 void
@@ -11709,11 +11705,6 @@ mHasDisplayDocument
 ;
 bool
 mFontFaceSetDirty
-:
-1
-;
-bool
-mGetUserFontSetCalled
 :
 1
 ;

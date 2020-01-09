@@ -1495,12 +1495,8 @@ LazyComputeBehavior
 Allow
 )
 {
-PreTraverseSync
-(
-)
-;
 return
-ResolveStyleLazilyInternal
+ResolveStyleLazily
 (
 aElement
 CSSPseudoElementType
@@ -1616,6 +1612,13 @@ mDocument
 -
 >
 GetRootElement
+(
+)
+;
+mDocument
+-
+>
+FlushUserFontSet
 (
 )
 ;
