@@ -3616,6 +3616,13 @@ ApplyBasicShapeOrPathClip
 (
 ctx
 frame
+nsSVGUtils
+:
+:
+GetCSSPxToDevPxMatrix
+(
+frame
+)
 )
 ;
 if
@@ -4394,6 +4401,7 @@ ApplyBasicShapeOrPathClip
 (
 context
 frame
+cssPxToDevPxMatrix
 )
 ;
 }

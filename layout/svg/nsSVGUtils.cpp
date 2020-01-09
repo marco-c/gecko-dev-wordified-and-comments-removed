@@ -3720,6 +3720,7 @@ ApplyBasicShapeOrPathClip
 (
 aContext
 aFrame
+aTransform
 )
 ;
 }
