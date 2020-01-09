@@ -502,8 +502,8 @@ aExtID
 wr
 :
 :
-WrExternalImageBufferType
-aBufferType
+ExternalImageType
+aImageType
 uint8_t
 aChannelIndex
 =
@@ -577,8 +577,8 @@ aExtID
 wr
 :
 :
-WrExternalImageBufferType
-aBufferType
+ExternalImageType
+aImageType
 uint8_t
 aChannelIndex
 =
@@ -599,8 +599,8 @@ aExtID
 wr
 :
 :
-WrExternalImageBufferType
-aBufferType
+ExternalImageType
+aImageType
 const
 wr
 :

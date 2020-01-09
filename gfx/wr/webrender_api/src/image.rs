@@ -226,6 +226,13 @@ u64
 ;
 #
 [
+repr
+(
+u8
+)
+]
+#
+[
 derive
 (
 Copy
