@@ -108,9 +108,6 @@ replaceFaviconData
 (
 faviconURI
 fileData
-fileData
-.
-length
 aFileMimeType
 )
 ;

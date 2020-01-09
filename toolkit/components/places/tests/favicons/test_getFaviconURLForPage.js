@@ -370,9 +370,6 @@ newURI
 ROOT_ICON_URL
 )
 data
-data
-.
-length
 "
 image
 /
@@ -490,9 +487,6 @@ newURI
 ICON32_URL
 )
 data32
-data32
-.
-length
 "
 image
 /

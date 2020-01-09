@@ -1561,11 +1561,6 @@ firstFavicon
 data
 firstFavicon
 .
-data
-.
-length
-firstFavicon
-.
 mimetype
 )
 ;
@@ -1795,11 +1790,6 @@ uri
 secondFavicon
 .
 data
-secondFavicon
-.
-data
-.
-length
 secondFavicon
 .
 mimetype
