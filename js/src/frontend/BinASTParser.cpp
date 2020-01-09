@@ -23286,14 +23286,6 @@ ParseNodeKind
 :
 Name
 :
-operand
--
->
-setOp
-(
-JSOP_DELNAME
-)
-;
 pnk
 =
 ParseNodeKind
