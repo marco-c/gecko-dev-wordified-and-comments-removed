@@ -2662,6 +2662,8 @@ Event
 *
 aEvent
 bool
+itemWasSelected
+bool
 *
 aPrevent
 )
@@ -2677,6 +2679,16 @@ mFocusedInput
 NS_OK
 )
 ;
+if
+(
+!
+itemWasSelected
+)
+{
+return
+NS_OK
+;
+}
 IgnoredErrorResult
 ignored
 ;
