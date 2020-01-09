@@ -39,10 +39,6 @@ promptWaitTime
 0
 "
 ;
-gUseTestUpdater
-=
-true
-;
 await
 runUpdateTest
 (
