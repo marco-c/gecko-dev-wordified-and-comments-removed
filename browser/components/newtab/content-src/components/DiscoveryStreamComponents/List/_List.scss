@@ -22,7 +22,7 @@ image
 -
 size
 :
-72px
+80px
 ;
 item
 -
@@ -234,6 +234,10 @@ line
 height
 *
 1px
+;
+position
+:
+relative
 ;
 }
 .
@@ -1081,6 +1085,11 @@ space
 -
 between
 ;
+height
+:
+100
+%
+;
 }
 .
 ds
@@ -1161,8 +1170,6 @@ height
 ;
 margin
 :
-8px
-0
 0
 ;
 }
@@ -1262,6 +1269,14 @@ flex
 direction
 :
 column
+;
+justify
+-
+content
+:
+space
+-
+between
 ;
 }
 .

@@ -98,13 +98,6 @@ index
 (
 <
 DSCard
-campaignId
-=
-{
-rec
-.
-campaign_id
-}
 key
 =
 {
@@ -113,6 +106,13 @@ dscard
 {
 index
 }
+}
+campaignId
+=
+{
+rec
+.
+campaign_id
 }
 image_src
 =
