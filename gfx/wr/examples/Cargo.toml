@@ -280,11 +280,6 @@ webrender
 /
 profiler
 "
-"
-webrender
-/
-debug_renderer
-"
 ]
 [
 dependencies

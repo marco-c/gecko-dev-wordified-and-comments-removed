@@ -107,9 +107,6 @@ thread_profiler
 /
 thread_profiler
 "
-"
-debug_renderer
-"
 ]
 debugger
 =
@@ -129,9 +126,6 @@ image
 "
 base64
 "
-"
-debug_renderer
-"
 ]
 capture
 =
@@ -146,9 +140,6 @@ ron
 "
 "
 serde
-"
-"
-debug_renderer
 "
 ]
 replay
@@ -165,10 +156,6 @@ ron
 "
 serde
 "
-]
-debug_renderer
-=
-[
 ]
 pathfinder
 =
