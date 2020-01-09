@@ -597,7 +597,7 @@ VRSystemState
 aSystemState
 )
 ;
-void
+bool
 SetupContollerActions
 (
 )
