@@ -613,9 +613,15 @@ else
 let
 blur_offset
 =
+(
 BLUR_SAMPLE_SCALE
 *
 blur_radius
+)
+.
+ceil
+(
+)
 ;
 let
 mut
