@@ -31948,6 +31948,10 @@ getToken
 (
 &
 tt
+TokenStream
+:
+:
+SlashIsInvalid
 )
 )
 {
@@ -37245,12 +37249,8 @@ ungetToken
 ;
 anyChars
 .
-addModifierException
+allowGettingNextTokenWithSlashIsRegExp
 (
-TokenStream
-:
-:
-SlashIsRegExpOK
 )
 ;
 MOZ_ASSERT
@@ -37340,6 +37340,10 @@ TokenKind
 :
 :
 Hook
+TokenStream
+:
+:
+SlashIsInvalid
 )
 )
 {
