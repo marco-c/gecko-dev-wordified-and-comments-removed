@@ -622,16 +622,6 @@ pref
 "
 dom
 .
-enable_performance
-"
-true
-)
-;
-pref
-(
-"
-dom
-.
 enable_resource_timing
 "
 true
