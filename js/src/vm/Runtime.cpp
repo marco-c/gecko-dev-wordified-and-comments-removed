@@ -2254,7 +2254,7 @@ Throw
 cx
 -
 >
-setPendingException
+setPendingExceptionAndCaptureStack
 (
 rval
 )

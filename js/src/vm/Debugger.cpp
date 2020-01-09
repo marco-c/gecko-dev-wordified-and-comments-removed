@@ -4519,7 +4519,7 @@ Throw
 cx
 -
 >
-setPendingException
+setPendingExceptionAndCaptureStack
 (
 rval
 )
@@ -5542,7 +5542,7 @@ Throw
 cx
 -
 >
-setPendingException
+setPendingExceptionAndCaptureStack
 (
 value
 )
@@ -5795,7 +5795,7 @@ Throw
 cx
 -
 >
-setPendingException
+setPendingExceptionAndCaptureStack
 (
 rval
 )
@@ -5966,7 +5966,7 @@ Throw
 cx
 -
 >
-setPendingException
+setPendingExceptionAndCaptureStack
 (
 rval
 )
@@ -9852,6 +9852,18 @@ exc
 cx
 )
 ;
+RootedSavedFrame
+stack
+(
+cx
+cx
+-
+>
+getPendingExceptionStack
+(
+)
+)
+;
 if
 (
 !
@@ -10012,6 +10024,7 @@ cx
 setPendingException
 (
 exc
+stack
 )
 ;
 }

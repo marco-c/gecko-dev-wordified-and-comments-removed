@@ -209,7 +209,7 @@ cx
 cx
 -
 >
-setPendingException
+setPendingExceptionAndCaptureStack
 (
 exn_
 )

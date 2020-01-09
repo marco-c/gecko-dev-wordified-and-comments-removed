@@ -755,6 +755,12 @@ completionException
 cx_
 )
 ;
+RootedSavedFrame
+completionExceptionStack
+(
+cx_
+)
+;
 if
 (
 cx_
@@ -768,11 +774,13 @@ isExceptionPending
 if
 (
 !
-GetAndClearException
+GetAndClearExceptionAndStack
 (
 cx_
 &
 completionException
+&
+completionExceptionStack
 )
 )
 {
@@ -781,6 +789,10 @@ completionException
 setUndefined
 (
 )
+;
+completionExceptionStack
+=
+nullptr
 ;
 }
 }
@@ -829,6 +841,7 @@ cx_
 setPendingException
 (
 completionException
+completionExceptionStack
 )
 ;
 return
@@ -936,6 +949,7 @@ cx_
 setPendingException
 (
 completionException
+completionExceptionStack
 )
 ;
 }
