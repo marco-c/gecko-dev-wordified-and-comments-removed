@@ -241,8 +241,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -266,8 +264,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -286,8 +282,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -310,8 +304,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -330,8 +322,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -354,8 +344,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -376,8 +364,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -400,8 +386,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -422,8 +406,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -446,8 +428,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -469,8 +449,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -489,8 +467,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -511,8 +487,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -531,8 +505,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -554,8 +526,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -580,8 +550,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -602,8 +570,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -626,8 +592,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -646,8 +610,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -670,8 +632,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -693,8 +653,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -713,8 +671,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
@@ -735,8 +691,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -756,8 +710,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -776,8 +728,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /

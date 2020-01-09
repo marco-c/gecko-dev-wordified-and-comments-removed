@@ -26,8 +26,6 @@ client
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -61,8 +59,6 @@ devtools
 client
 /
 debugger
-/
-new
 /
 test
 /
