@@ -1368,12 +1368,7 @@ cpu_count
 (
 )
         
-info
-[
-'
 physical_cores
-'
-]
 =
 psutil
 .
@@ -1383,6 +1378,22 @@ logical
 =
 False
 )
+        
+if
+physical_cores
+is
+not
+None
+:
+            
+info
+[
+'
+physical_cores
+'
+]
+=
+physical_cores
         
 info
 [
