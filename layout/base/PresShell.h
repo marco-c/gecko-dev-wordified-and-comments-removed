@@ -7,13 +7,6 @@ mozilla_PresShell_h
 #
 include
 "
-MobileViewportManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -201,6 +194,9 @@ nsPresShellEventCB
 ;
 class
 AutoPointerEventTargetUpdater
+;
+class
+MobileViewportManager
 ;
 namespace
 mozilla
@@ -1394,11 +1390,7 @@ GetMobileViewportManager
 )
 const
 override
-{
-return
-mMobileViewportManager
 ;
-}
 void
 UpdateViewportOverridden
 (

@@ -546,6 +546,13 @@ h
 #
 include
 "
+MobileViewportManager
+.
+h
+"
+#
+include
+"
 VisualViewport
 .
 h
