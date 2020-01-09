@@ -123,6 +123,7 @@ check
 :
 "
 disabled
+checked
 "
 "
 .
