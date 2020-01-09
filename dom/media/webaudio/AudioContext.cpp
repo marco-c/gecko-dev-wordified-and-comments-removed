@@ -461,15 +461,6 @@ h
 #
 include
 "
-js
-/
-ArrayBuffer
-.
-h
-"
-#
-include
-"
 MediaElementAudioSourceNode
 .
 h
@@ -2968,10 +2959,7 @@ uint8_t
 *
 >
 (
-JS
-:
-:
-StealArrayBufferContents
+JS_StealArrayBufferContents
 (
 cx
 obj
