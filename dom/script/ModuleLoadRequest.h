@@ -176,9 +176,15 @@ CreateDynamicImport
 nsIURI
 *
 aURI
-LoadedScript
+ScriptFetchOptions
 *
-aScript
+aFetchOptions
+nsIURI
+*
+aBaseURL
+ScriptLoader
+*
+aLoader
 JS
 :
 :
