@@ -170,6 +170,17 @@ be
 set
 separately
 .
+-
+Added
+UiThread
+to
+GeckoSession
+.
+releaseSession
+and
+GeckoSession
+.
+setSession
 #
 #
 v65
@@ -1077,4 +1088,4 @@ api
 version
 ]
 :
-9fb5334f4d7d0c79f963ef9c8e14795e4965e852
+e7a6a3ed65c75f7cb278b693adfa09cae5238ca2
