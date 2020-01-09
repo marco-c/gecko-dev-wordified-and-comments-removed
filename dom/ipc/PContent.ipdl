@@ -283,6 +283,10 @@ protocol
 PScriptCache
 ;
 include
+protocol
+PSessionStorageObserver
+;
+include
 DOMTypes
 ;
 include
@@ -1683,6 +1687,9 @@ PScriptCache
 ;
 manages
 PLoginReputation
+;
+manages
+PSessionStorageObserver
 ;
 both
 :
@@ -4479,6 +4486,11 @@ PLoginReputation
 (
 URIParams
 formURI
+)
+;
+async
+PSessionStorageObserver
+(
 )
 ;
 /
