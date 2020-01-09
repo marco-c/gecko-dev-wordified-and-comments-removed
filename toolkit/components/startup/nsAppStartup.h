@@ -181,9 +181,6 @@ mIsSafeModeNecessary
 bool
 mStartupCrashTrackingEnded
 ;
-bool
-mRestartNotSameProfile
-;
 #
 if
 defined
