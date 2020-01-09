@@ -86,10 +86,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -114,6 +110,9 @@ dom
 :
 SVGMarkerElement_Binding
 ;
+namespace
+mozilla
+{
 static
 const
 nsStaticAtom
@@ -1932,4 +1931,5 @@ mSVGElement
 return
 NS_OK
 ;
+}
 }

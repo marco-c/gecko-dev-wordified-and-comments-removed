@@ -582,6 +582,9 @@ void
 SetTo
 (
 const
+mozilla
+:
+:
 SVGAngle
 &
 aValue

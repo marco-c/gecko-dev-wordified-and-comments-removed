@@ -82,7 +82,6 @@ class
 SVGElement
 ;
 }
-}
 class
 SVGAngle
 {
@@ -564,5 +563,6 @@ override
 ;
 }
 ;
+}
 #
 endif
