@@ -482,6 +482,9 @@ focus
 on
 down
 arrow
+(
+1
+)
 "
 )
 ;
@@ -798,6 +801,9 @@ focus
 on
 down
 arrow
+(
+2
+)
 "
 )
 ;
@@ -894,6 +900,9 @@ focus
 on
 down
 arrow
+(
+3
+)
 "
 )
 ;
@@ -974,6 +983,9 @@ focus
 on
 down
 arrow
+(
+4
+)
 "
 )
 ;
