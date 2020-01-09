@@ -105,6 +105,9 @@ mPrivateBrowsingId
 nsCString
 mOrigin
 ;
+nsCString
+mOriginKey
+;
 nsString
 mDocumentURI
 ;

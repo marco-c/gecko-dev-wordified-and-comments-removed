@@ -71,6 +71,9 @@ LSRequestPrepareDatastoreParams
 PrincipalInfo
 principalInfo
 ;
+nsCString
+originKey
+;
 bool
 createIfNotExists
 ;
