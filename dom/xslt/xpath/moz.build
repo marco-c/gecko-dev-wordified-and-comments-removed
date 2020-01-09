@@ -94,11 +94,6 @@ dom
 =
 [
 '
-txIXPathContext
-.
-h
-'
-'
 XPathEvaluator
 .
 h
