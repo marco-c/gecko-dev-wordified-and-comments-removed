@@ -483,15 +483,6 @@ buffer
 ;
 }
 ;
-union
-OptionalOpacity
-{
-float
-;
-void_t
-;
-}
-;
 struct
 OpAddExternalImage
 {
