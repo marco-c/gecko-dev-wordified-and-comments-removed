@@ -5530,6 +5530,8 @@ sortB
 )
 ;
 result
+=
+result
 .
 slice
 (
