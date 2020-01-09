@@ -1470,6 +1470,7 @@ wrapperToReflectInterfaceNames
 >
 FindTearOff
 (
+ccx
 iface2
 true
 &
@@ -1748,6 +1749,7 @@ wrapperToReflectInterfaceNames
 >
 FindTearOff
 (
+ccx
 iface
 true
 )

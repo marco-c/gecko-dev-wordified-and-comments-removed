@@ -2756,6 +2756,7 @@ XPCWrappedNative
 :
 WrapNewGlobal
 (
+aJSContext
 helper
 aPrincipal
 aFlags

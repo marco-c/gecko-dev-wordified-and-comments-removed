@@ -770,6 +770,7 @@ mWrapper
 >
 FindTearOff
 (
+mJSContext
 mInterface
 false
 &
