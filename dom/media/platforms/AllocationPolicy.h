@@ -563,6 +563,11 @@ const
 CreateDecoderParams
 &
 aParams
+AllocPolicy
+*
+aPolicy
+=
+nullptr
 )
 ;
 private

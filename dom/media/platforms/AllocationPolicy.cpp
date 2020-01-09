@@ -1142,6 +1142,9 @@ const
 CreateDecoderParams
 &
 aParams
+AllocPolicy
+*
+aPolicy
 )
 {
 const
@@ -1278,6 +1281,11 @@ AllocateDecoderPromise
 >
 p
 =
+(
+aPolicy
+?
+aPolicy
+:
 GlobalAllocPolicy
 :
 :
@@ -1286,6 +1294,7 @@ Instance
 aParams
 .
 mType
+)
 )
 -
 >
