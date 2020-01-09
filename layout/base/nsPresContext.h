@@ -912,11 +912,6 @@ CompatibilityMode
 )
 const
 ;
-void
-CompatibilityModeChanged
-(
-)
-;
 uint16_t
 ImageAnimationMode
 (

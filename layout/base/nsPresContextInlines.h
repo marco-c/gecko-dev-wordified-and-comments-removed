@@ -1,9 +1,9 @@
 #
 ifndef
-nsIPresContextInlines_h
+nsPresContextInlines_h
 #
 define
-nsIPresContextInlines_h
+nsPresContextInlines_h
 #
 include
 "
@@ -35,12 +35,10 @@ StyleSet
 const
 {
 return
-GetPresShell
-(
-)
+mDocument
 -
 >
-StyleSet
+StyleSetForPresShellOrMediaQueryEvaluation
 (
 )
 ;

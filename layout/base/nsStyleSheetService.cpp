@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsIPresShellInlines
+.
+h
+"
+#
+include
+"
 nsLayoutStatics
 .
 h
