@@ -8,7 +8,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1796,7 +1798,7 @@ mDecoder
 >
 ShouldSyncDecode
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMemDecodeBytesAtATime

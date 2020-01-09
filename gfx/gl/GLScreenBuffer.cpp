@@ -20,7 +20,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -379,7 +381,7 @@ bool
 useGl
 =
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLForceLayersReadback
@@ -423,7 +425,7 @@ bool
 useD3D
 =
 !
-gfxPrefs
+StaticPrefs
 :
 :
 WebGLForceLayersReadback

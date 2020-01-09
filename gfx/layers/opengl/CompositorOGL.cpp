@@ -85,13 +85,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h
@@ -8806,7 +8799,7 @@ COMPONENT_ALPHA
 {
 MOZ_ASSERT
 (
-gfxPrefs
+StaticPrefs
 :
 :
 ComponentAlphaEnabled
@@ -11180,7 +11173,7 @@ SupportsTextureDirectMapping
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 AllowTextureDirectMapping

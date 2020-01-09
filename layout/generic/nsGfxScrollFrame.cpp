@@ -9749,7 +9749,7 @@ IsAlwaysActive
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 LayersTilesEnabled

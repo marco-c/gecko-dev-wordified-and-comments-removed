@@ -458,7 +458,7 @@ Length
 (
 )
 >
-gfxPrefs
+StaticPrefs
 :
 :
 APZMaxVelocityQueueSize

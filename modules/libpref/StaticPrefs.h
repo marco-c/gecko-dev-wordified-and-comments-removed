@@ -50,6 +50,11 @@ include
 <
 atomic
 >
+#
+include
+<
+cmath
+>
 namespace
 mozilla
 {

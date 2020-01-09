@@ -30,13 +30,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StaticPrefs
@@ -1040,7 +1033,7 @@ aSystemState
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VREnabled
@@ -1049,7 +1042,7 @@ VREnabled
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VROculusEnabled

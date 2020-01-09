@@ -1794,7 +1794,7 @@ Default
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 AdvancedLayersEnableDepthBuffer

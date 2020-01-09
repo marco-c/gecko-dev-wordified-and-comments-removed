@@ -84,7 +84,7 @@ SingletonExists
 ;
 ASSERT_TRUE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 WorkAroundDriverBugs
@@ -94,7 +94,7 @@ WorkAroundDriverBugs
 ;
 ASSERT_FALSE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 UseApitrace
@@ -104,7 +104,7 @@ UseApitrace
 ;
 ASSERT_TRUE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZMaxVelocityQueueSize
@@ -117,7 +117,7 @@ APZMaxVelocityQueueSize
 ;
 ASSERT_TRUE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZCurveFunctionX1
@@ -156,7 +156,7 @@ SingletonExists
 ;
 ASSERT_FALSE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 UseApitrace
@@ -164,7 +164,7 @@ UseApitrace
 )
 )
 ;
-gfxPrefs
+StaticPrefs
 :
 :
 SetUseApitrace
@@ -174,7 +174,7 @@ true
 ;
 ASSERT_TRUE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 UseApitrace
@@ -182,7 +182,7 @@ UseApitrace
 )
 )
 ;
-gfxPrefs
+StaticPrefs
 :
 :
 SetUseApitrace
@@ -192,7 +192,7 @@ false
 ;
 ASSERT_FALSE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 UseApitrace
@@ -202,7 +202,7 @@ UseApitrace
 ;
 ASSERT_TRUE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZCurveFunctionX1
@@ -215,7 +215,7 @@ APZCurveFunctionX1
 0f
 )
 ;
-gfxPrefs
+StaticPrefs
 :
 :
 SetAPZCurveFunctionX1
@@ -227,7 +227,7 @@ SetAPZCurveFunctionX1
 ;
 ASSERT_TRUE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZCurveFunctionX1
@@ -240,7 +240,7 @@ APZCurveFunctionX1
 75f
 )
 ;
-gfxPrefs
+StaticPrefs
 :
 :
 SetAPZCurveFunctionX1
@@ -252,7 +252,7 @@ SetAPZCurveFunctionX1
 ;
 ASSERT_TRUE
 (
-gfxPrefs
+StaticPrefs
 :
 :
 APZCurveFunctionX1

@@ -76,6 +76,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -388,7 +397,7 @@ GetSingleton
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 UseApitrace

@@ -19,7 +19,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -361,7 +363,7 @@ XRE_IsParentProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -602,7 +604,7 @@ XRE_IsParentProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -777,7 +779,7 @@ XRE_IsParentProcess
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots
@@ -899,7 +901,7 @@ RenderRoot
 Default
 |
 |
-gfxPrefs
+StaticPrefs
 :
 :
 WebRenderSplitRenderRoots

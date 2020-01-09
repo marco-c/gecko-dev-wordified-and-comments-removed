@@ -38,7 +38,9 @@ h
 #
 include
 "
-gfxPrefs
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1219,7 +1221,7 @@ aSystemState
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VREnabled
@@ -1228,7 +1230,7 @@ VREnabled
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VROpenVREnabled
@@ -1514,7 +1516,7 @@ false
 }
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VROpenVRActionInputEnabled
@@ -1582,7 +1584,7 @@ knucklesManifest
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled
@@ -4745,7 +4747,7 @@ BeginReading
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VRProcessEnabled
@@ -12827,7 +12829,7 @@ aSystemState
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VROpenVRActionInputEnabled
@@ -14010,7 +14012,7 @@ aClosure
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 VROpenVRActionInputEnabled

@@ -15,13 +15,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -32,6 +25,15 @@ include
 mozilla
 /
 Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
+StaticPrefs
 .
 h
 "
@@ -1194,7 +1196,7 @@ aSystemState
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VREnabled
@@ -1203,7 +1205,7 @@ VREnabled
 |
 |
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VROSVREnabled

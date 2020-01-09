@@ -42,6 +42,15 @@ include
 "
 mozilla
 /
+StaticPrefs
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -99,13 +108,6 @@ h
 include
 "
 nsIXULRuntime
-.
-h
-"
-#
-include
-"
-gfxPrefs
 .
 h
 "
@@ -1506,7 +1508,7 @@ IOThread
 int32_t
 prefLimit
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMTDecodingLimit
@@ -1616,7 +1618,7 @@ idleLimit
 int32_t
 prefIdleTimeout
 =
-gfxPrefs
+StaticPrefs
 :
 :
 ImageMTDecodingIdleTimeout

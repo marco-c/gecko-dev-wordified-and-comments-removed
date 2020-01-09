@@ -78,13 +78,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxWindowsPlatform
 .
 h
@@ -3714,7 +3707,7 @@ GetSingleton
 )
 &
 &
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFUseSyncTexture
@@ -3789,7 +3782,7 @@ NV12
 ;
 if
 (
-gfxPrefs
+StaticPrefs
 :
 :
 PDMWMFUseSyncTexture

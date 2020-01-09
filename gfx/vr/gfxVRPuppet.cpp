@@ -91,13 +91,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 gfxUtils
 .
 h
@@ -3710,7 +3703,7 @@ Create
 if
 (
 !
-gfxPrefs
+StaticPrefs
 :
 :
 VREnabled
