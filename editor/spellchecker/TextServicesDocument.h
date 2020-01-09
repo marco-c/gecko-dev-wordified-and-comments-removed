@@ -260,6 +260,7 @@ eBlockContains
 eBlockPartial
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 LastSelectedBlock
 (
@@ -292,6 +293,7 @@ bool
 aIsDone
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetSelection
 (
@@ -306,11 +308,13 @@ ScrollSelectionIntoView
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DeleteSelection
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertText
 (
@@ -541,6 +545,7 @@ nsIContent
 aContent2
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetSelectionInternal
 (
@@ -552,6 +557,7 @@ bool
 aDoUpdate
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetSelection
 (
@@ -566,6 +572,7 @@ int32_t
 aSelLength
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCollapsedSelection
 (

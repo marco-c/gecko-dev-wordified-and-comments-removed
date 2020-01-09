@@ -165,6 +165,7 @@ bool
 aFromStartofDoc
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 NextMisspelledWord
 (
@@ -215,6 +216,7 @@ nsString
 aWords
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 Replace
 (
@@ -383,6 +385,7 @@ mFromStart
 nsString
 mCurrentDictionary
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetupDoc
 (

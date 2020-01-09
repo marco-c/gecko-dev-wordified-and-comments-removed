@@ -671,6 +671,7 @@ SplitMailCites
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillDeleteSelection
@@ -839,6 +840,7 @@ nsINode
 aNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillMakeList
@@ -867,6 +869,7 @@ aItemType
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillRemoveList
@@ -879,6 +882,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillIndent
@@ -891,6 +895,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillCSSIndent
@@ -903,6 +908,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillHTMLIndent
@@ -915,6 +921,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillOutdent
@@ -927,6 +934,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 WillAlign
 (
@@ -968,6 +976,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillMakeDefListItem
@@ -986,6 +995,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillMakeBasicBlock
@@ -1002,6 +1012,7 @@ bool
 aHandled
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 MakeBasicBlock
@@ -1017,6 +1028,7 @@ DidMakeBasicBlock
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 WillAbsolutePosition
@@ -1430,12 +1442,14 @@ aOffset
 0
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 ExpandSelectionForDeletion
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
 NormalizeSelection

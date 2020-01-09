@@ -1145,6 +1145,7 @@ aListener
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 HandleKeyPressEvent
