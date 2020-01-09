@@ -117,7 +117,7 @@ shared
 /
 specs
 /
-script
+thread
 "
 )
 ;

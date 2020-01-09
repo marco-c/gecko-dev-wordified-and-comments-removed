@@ -270,11 +270,6 @@ screenshot
 js
 '
 '
-script
-.
-js
-'
-'
 source
 .
 js
@@ -308,6 +303,11 @@ js
 '
 '
 symbol
+.
+js
+'
+'
+thread
 .
 js
 '
