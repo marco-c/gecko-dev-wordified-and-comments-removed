@@ -86,7 +86,7 @@ length
 (
 )
 ;
-TempAllocPolicy
+StringBufferAllocPolicy
 allocPolicy
 =
 cb
@@ -242,7 +242,7 @@ isLatin1
 TwoByteCharBuffer
 twoByte
 (
-TempAllocPolicy
+StringBufferAllocPolicy
 {
 cx_
 arenaId_

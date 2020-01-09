@@ -27,6 +27,8 @@ TempAllocPolicy
 :
 onOutOfMemory
 (
+arena_id_t
+arenaId
 AllocFunction
 allocFunc
 size_t
@@ -43,12 +45,7 @@ cx_
 onOutOfMemory
 (
 allocFunc
-this
--
->
-getArenaId
-(
-)
+arenaId
 nbytes
 reallocPtr
 )
