@@ -367,7 +367,7 @@ txt
 homepageURL
 :
 "
-http
+https
 :
 /
 /
