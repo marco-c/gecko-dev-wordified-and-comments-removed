@@ -145,14 +145,6 @@ rewind
 "
 reverseStepOver
 "
-|
-"
-reverseStepIn
-"
-|
-"
-reverseStepOut
-"
 ;
 type
 ThreadPauseState
