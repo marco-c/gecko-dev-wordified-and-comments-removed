@@ -149,10 +149,6 @@ mDidTransCallbackData
 (
 nullptr
 )
-mFrontbufferGLTex
-(
-0
-)
 mSize
 (
 0
@@ -211,9 +207,6 @@ mDidTransCallback
 void
 *
 mDidTransCallbackData
-;
-uint32_t
-mFrontbufferGLTex
 ;
 gfx
 :
