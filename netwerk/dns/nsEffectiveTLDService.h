@@ -102,10 +102,8 @@ Init
 )
 ;
 static
-already_AddRefed
-<
 nsEffectiveTLDService
->
+*
 GetInstance
 (
 )
