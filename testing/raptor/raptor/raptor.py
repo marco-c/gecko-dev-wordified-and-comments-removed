@@ -8100,6 +8100,12 @@ run_test_setup
 test
 )
             
+self
+.
+clear_app_data
+(
+)
+            
 if
 test
 [
@@ -8227,12 +8233,6 @@ config
 binary
 '
 ]
-)
-                
-self
-.
-clear_app_data
-(
 )
                 
 self
