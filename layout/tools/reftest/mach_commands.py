@@ -1829,6 +1829,10 @@ True
 xre
 =
 True
+network
+=
+True
+                                  
 app
 =
 kwargs
@@ -1837,7 +1841,6 @@ kwargs
 app
 "
 ]
-                                  
 device_serial
 =
 kwargs
