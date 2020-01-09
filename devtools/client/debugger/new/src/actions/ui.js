@@ -673,6 +673,11 @@ location
 :
 ?
 SourceLocation
+log
+:
+boolean
+=
+false
 )
 {
 if
@@ -692,6 +697,7 @@ type
 OPEN_CONDITIONAL_PANEL
 "
 location
+log
 }
 ;
 }

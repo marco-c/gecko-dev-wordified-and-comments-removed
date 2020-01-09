@@ -4969,7 +4969,7 @@ conditional
 -
 breakpoint
 "
-editBreakpoint
+editConditionalBreakpoint
 :
 "
 #
