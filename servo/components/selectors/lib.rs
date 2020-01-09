@@ -30,6 +30,14 @@ extern
 crate
 cssparser
 ;
+#
+[
+macro_use
+]
+extern
+crate
+derive_more
+;
 extern
 crate
 fxhash
