@@ -10,6 +10,7 @@ nserror
 :
 {
 nsresult
+NsresultExt
 NS_ERROR_FAILURE
 NS_ERROR_NOT_IMPLEMENTED
 NS_ERROR_NO_INTERFACE
