@@ -1418,7 +1418,7 @@ baseDomain
 =
 tab
 .
-getBaseDomain
+getHighlightDomain
 (
 )
 ;
@@ -1527,17 +1527,6 @@ index
 =
 -
 1
-|
-|
-url
-.
-startsWith
-(
-"
-javascript
-:
-"
-)
 )
 {
 setTitle
