@@ -898,6 +898,9 @@ WindowGlobalInit
 nsIPrincipal
 principal
 ;
+nsIURI
+documentURI
+;
 BrowsingContext
 browsingContext
 ;
