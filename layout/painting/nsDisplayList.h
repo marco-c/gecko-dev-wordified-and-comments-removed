@@ -1409,7 +1409,6 @@ AGRState
 {
 AGR_NO
 AGR_YES
-AGR_MAYBE
 }
 ;
 public
@@ -3653,19 +3652,6 @@ mCurrentAGRState
 =
 =
 AGR_YES
-;
-}
-bool
-MaybeAnimatedGeometryRoot
-(
-)
-const
-{
-return
-mCurrentAGRState
-=
-=
-AGR_MAYBE
 ;
 }
 void
