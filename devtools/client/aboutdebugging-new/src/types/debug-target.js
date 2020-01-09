@@ -91,16 +91,6 @@ fetch
 PropTypes
 .
 string
-isActive
-:
-PropTypes
-.
-bool
-isRunning
-:
-PropTypes
-.
-bool
 registrationFront
 :
 PropTypes
