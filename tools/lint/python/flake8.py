@@ -353,6 +353,9 @@ def
 setup
 (
 root
+*
+*
+lintargs
 )
 :
     

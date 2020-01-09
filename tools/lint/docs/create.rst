@@ -1606,6 +1606,9 @@ def
 setup
 (
 root
+*
+*
+lintargs
 )
 :
 if
