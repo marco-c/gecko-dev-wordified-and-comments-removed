@@ -203,6 +203,10 @@ friend
 class
 LoadLoadableRootsTask
 ;
+friend
+class
+BackgroundImportEnterpriseCertsTask
+;
 nsNSSComponent
 (
 )
