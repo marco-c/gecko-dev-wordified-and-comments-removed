@@ -355,11 +355,6 @@ gUseTestUpdater
 =
 false
 ;
-var
-DEBUG_AUS_TEST
-=
-true
-;
 Services
 .
 scriptloader
@@ -375,6 +370,10 @@ js
 "
 this
 )
+;
+gDebugTest
+=
+true
 ;
 this
 .
@@ -3161,7 +3160,7 @@ setupPrefs
 {
 if
 (
-DEBUG_AUS_TEST
+gDebugTest
 )
 {
 Services

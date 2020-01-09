@@ -130,11 +130,6 @@ FILE_UPDATER_BIN
 bak
 "
 ;
-var
-DEBUG_AUS_TEST
-=
-true
-;
 const
 LOG_FUNCTION
 =
@@ -229,6 +224,10 @@ let
 gOriginalUpdateAutoValue
 =
 null
+;
+gDebugTest
+=
+true
 ;
 async
 function
@@ -840,7 +839,7 @@ set
 [
 [
 PREF_APP_UPDATE_LOG
-DEBUG_AUS_TEST
+gDebugTest
 ]
 [
 "

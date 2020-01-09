@@ -896,8 +896,7 @@ js
 "
 )
 ;
-var
-DEBUG_AUS_TEST
+gDebugTest
 =
 true
 ;
@@ -5110,7 +5109,7 @@ doTestFinish
 {
 if
 (
-DEBUG_AUS_TEST
+gDebugTest
 )
 {
 Services
@@ -5179,7 +5178,7 @@ false
 ;
 if
 (
-DEBUG_AUS_TEST
+gDebugTest
 )
 {
 Services

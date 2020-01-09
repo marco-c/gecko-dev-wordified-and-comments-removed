@@ -748,6 +748,11 @@ PR_TRUNCATE
 var
 gChannel
 ;
+var
+gDebugTest
+=
+false
+;
 Services
 .
 scriptloader
@@ -3591,7 +3596,7 @@ aCaller
 {
 if
 (
-DEBUG_AUS_TEST
+gDebugTest
 )
 {
 let
