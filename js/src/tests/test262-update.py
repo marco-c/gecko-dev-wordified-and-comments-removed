@@ -151,6 +151,10 @@ global
 "
     
 "
+hashbang
+"
+    
+"
 export
 -
 star
