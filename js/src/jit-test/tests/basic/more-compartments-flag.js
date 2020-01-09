@@ -7,11 +7,12 @@ newGlobal
 ;
 assertEq
 (
-objectGlobal
+isSameCompartment
 (
+this
 g
 )
-null
+false
 )
 ;
 assertEq
