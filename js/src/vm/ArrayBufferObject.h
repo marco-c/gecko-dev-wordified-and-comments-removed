@@ -1735,8 +1735,6 @@ size_t
 byteLength
 BufferContents
 contents
-OwnsState
-ownsState
 )
 {
 setByteLength
@@ -1757,7 +1755,7 @@ nullptr
 setDataPointer
 (
 contents
-ownsState
+OwnsData
 )
 ;
 }
@@ -1787,7 +1785,6 @@ createInlineData
 (
 data
 )
-OwnsData
 )
 ;
 return
