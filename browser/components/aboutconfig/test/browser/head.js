@@ -166,7 +166,7 @@ this
 querySelector
 (
 "
-td
+th
 "
 )
 ;
