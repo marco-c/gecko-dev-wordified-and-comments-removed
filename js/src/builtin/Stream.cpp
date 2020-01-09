@@ -444,10 +444,9 @@ check
 target
 )
 ;
-RootedAtom
+HandlePropertyName
 funName
-(
-cx
+=
 cx
 -
 >
@@ -456,7 +455,6 @@ names
 )
 .
 empty
-)
 ;
 RootedFunction
 handlerFun
@@ -5779,10 +5777,9 @@ return
 nullptr
 ;
 }
-RootedAtom
+HandlePropertyName
 funName
-(
-cx
+=
 cx
 -
 >
@@ -5791,7 +5788,6 @@ names
 )
 .
 empty
-)
 ;
 RootedFunction
 returnUndefined
@@ -5803,6 +5799,14 @@ cx
 ReturnUndefined
 0
 funName
+gc
+:
+:
+AllocKind
+:
+:
+FUNCTION
+GenericObject
 )
 )
 ;
