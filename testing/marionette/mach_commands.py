@@ -375,10 +375,6 @@ test_objects
 ]
         
 if
-"
-fennec
-"
-in
 kwargs
 .
 get
@@ -387,6 +383,11 @@ get
 app
 "
 )
+=
+=
+"
+fennec
+"
 :
             
 kwargs
