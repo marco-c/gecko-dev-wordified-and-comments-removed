@@ -81,6 +81,13 @@ await
 waitForPaused
 (
 dbg
+"
+math
+.
+min
+.
+js
+"
 )
 ;
 assertPausedLocation
