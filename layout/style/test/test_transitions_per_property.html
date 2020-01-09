@@ -1702,8 +1702,9 @@ miterlimit
 "
 :
 [
+test_float_zeroToOne_transition
 test_float_aboveOne_transition
-test_float_aboveOne_clamped
+test_float_aboveZero_clamped
 ]
 "
 stroke
@@ -14676,15 +14677,6 @@ range
 1
 infinity
 )
-(
-e
-.
-g
-.
-stroke
--
-miterlimit
-)
 function
 test_float_aboveOne_transition
 (
@@ -14834,7 +14826,7 @@ prop
 ;
 }
 function
-test_float_aboveOne_clamped
+test_float_aboveZero_clamped
 (
 prop
 )
@@ -14883,7 +14875,7 @@ setProperty
 (
 prop
 "
-1
+0
 "
 "
 "
@@ -14898,7 +14890,7 @@ getPropertyValue
 prop
 )
 "
-1
+0
 "
 "
 float
@@ -14957,7 +14949,7 @@ getPropertyValue
 prop
 )
 "
-1
+0
 "
 "
 float
