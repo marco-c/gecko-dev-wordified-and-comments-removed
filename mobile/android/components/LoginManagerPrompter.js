@@ -1022,7 +1022,6 @@ promptToChangePasswordWithUsernames
 function
 (
 logins
-count
 aNewLogin
 )
 {

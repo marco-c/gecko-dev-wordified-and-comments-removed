@@ -6272,7 +6272,6 @@ oldGUID
 promptToChangePasswordWithUsernames
 (
 logins
-count
 aNewLogin
 )
 {
@@ -6286,7 +6285,9 @@ with
 count
 :
 "
-count
+logins
+.
+length
 )
 ;
 var
