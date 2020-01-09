@@ -1286,16 +1286,10 @@ ref
 AttestationConveyancePreference
 attestation
 =
-static_cast
-<
-AttestationConveyancePreference
->
-(
 extra
 .
 attestationConveyancePreference
 (
-)
 )
 ;
 directAttestationRequested

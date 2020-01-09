@@ -1575,17 +1575,6 @@ mUserVerification
 authenticatorAttachment
 )
 ;
-uint8_t
-attestationConveyancePreference
-=
-static_cast
-<
-uint8_t
->
-(
-attestation
-)
-;
 nsString
 rpIcon
 ;
@@ -1680,7 +1669,7 @@ userInfo
 coseAlgos
 extensions
 authSelection
-attestationConveyancePreference
+attestation
 )
 ;
 WebAuthnMakeCredentialInfo
