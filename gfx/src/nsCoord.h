@@ -267,7 +267,7 @@ aValue
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 &
 &
@@ -326,7 +326,7 @@ aValue
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 &
 &

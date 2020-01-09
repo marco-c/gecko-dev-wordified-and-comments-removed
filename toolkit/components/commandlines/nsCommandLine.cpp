@@ -1158,7 +1158,7 @@ NS_OK
 elif
 defined
 (
-XP_WIN32
+XP_WIN
 )
 nsCOMPtr
 <

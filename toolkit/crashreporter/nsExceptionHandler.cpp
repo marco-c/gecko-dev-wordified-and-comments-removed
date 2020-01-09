@@ -189,7 +189,7 @@ h
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 #
 ifdef
@@ -804,7 +804,7 @@ CrashReporter
 {
 #
 ifdef
-XP_WIN32
+XP_WIN
 typedef
 wchar_t
 XP_CHAR
@@ -4141,7 +4141,7 @@ void
 context
 #
 ifdef
-XP_WIN32
+XP_WIN
 EXCEPTION_POINTERS
 *
 exinfo
@@ -5424,7 +5424,7 @@ endif
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 static
 size_t
@@ -6885,7 +6885,7 @@ rv
 endif
 #
 ifdef
-XP_WIN32
+XP_WIN
 crashReporterPath
 =
 reinterpret_cast
@@ -7036,7 +7036,7 @@ endif
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 nsString
 tempPath
@@ -7063,7 +7063,7 @@ NS_ERROR_FAILURE
 }
 #
 ifdef
-XP_WIN32
+XP_WIN
 ReserveBreakpadVM
 (
 )
@@ -7209,7 +7209,7 @@ MinidumpCallback
 nullptr
 #
 ifdef
-XP_WIN32
+XP_WIN
 google_breakpad
 :
 :
@@ -7551,7 +7551,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 #
 ifdef
-XP_WIN32
+XP_WIN
 gExceptionHandler
 -
 >
@@ -8135,7 +8135,7 @@ NS_ERROR_FAILURE
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 SetEnvironmentVariableW
 (
@@ -8397,7 +8397,7 @@ lastCrashTimeFilename
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 nsAutoString
 filename
@@ -9701,7 +9701,7 @@ XP_LINUX
 |
 defined
 (
-XP_WIN32
+XP_WIN
 )
 gExceptionHandler
 -
@@ -9751,7 +9751,7 @@ XP_LINUX
 |
 defined
 (
-XP_WIN32
+XP_WIN
 )
 gExceptionHandler
 -
@@ -10069,7 +10069,7 @@ NS_OK
 }
 #
 ifdef
-XP_WIN32
+XP_WIN
 nsresult
 WriteMinidumpForException
 (
@@ -10191,7 +10191,7 @@ rv
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 nsCOMPtr
 <
@@ -15436,7 +15436,7 @@ void
 context
 #
 ifdef
-XP_WIN32
+XP_WIN
 EXCEPTION_POINTERS
 *
 MDRawAssertionInfo
@@ -15545,7 +15545,7 @@ void
 context
 #
 ifdef
-XP_WIN32
+XP_WIN
 EXCEPTION_POINTERS
 *
 MDRawAssertionInfo
@@ -15571,7 +15571,7 @@ endif
 context
 #
 ifdef
-XP_WIN32
+XP_WIN
 nullptr
 nullptr
 #
@@ -15885,7 +15885,7 @@ aResult
 )
 #
 ifdef
-XP_WIN32
+XP_WIN
 GetMinidumpType
 (
 )
@@ -16036,7 +16036,7 @@ targetMinidump
 )
 #
 ifdef
-XP_WIN32
+XP_WIN
 GetMinidumpType
 (
 )
@@ -16108,7 +16108,7 @@ incomingDump
 )
 #
 ifdef
-XP_WIN32
+XP_WIN
 GetMinidumpType
 (
 )
@@ -16314,7 +16314,7 @@ childMinidump
 )
 #
 ifdef
-XP_WIN32
+XP_WIN
 GetMinidumpType
 (
 )

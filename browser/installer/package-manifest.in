@@ -475,7 +475,7 @@ MOZ_CHILD_PROCESS_NAME
 endif
 #
 ifdef
-XP_WIN32
+XP_WIN
 BINPATH
 /
 plugin
@@ -767,7 +767,7 @@ ifdef
 ACCESSIBILITY
 #
 ifdef
-XP_WIN32
+XP_WIN
 BINPATH
 /
 Accessible

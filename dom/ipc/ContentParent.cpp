@@ -8752,7 +8752,7 @@ Clear
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 &
 &
@@ -27680,7 +27680,7 @@ aContentId
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 &
 &
@@ -27752,7 +27752,7 @@ aHandlerControl
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 &
 &

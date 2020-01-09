@@ -60,7 +60,7 @@ endif
 if
 defined
 (
-XP_WIN32
+XP_WIN
 )
 #
 include

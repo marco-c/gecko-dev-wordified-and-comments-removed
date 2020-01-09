@@ -945,7 +945,7 @@ testData
 }
 #
 ifdef
-XP_WIN32
+XP_WIN
 static
 LONG
 WINAPI
