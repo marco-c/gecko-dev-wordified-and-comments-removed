@@ -6304,12 +6304,9 @@ transform_style
 TransformStyle
 transform
 :
-Option
-<
 PropertyBinding
 <
 LayoutTransform
->
 >
 kind
 :

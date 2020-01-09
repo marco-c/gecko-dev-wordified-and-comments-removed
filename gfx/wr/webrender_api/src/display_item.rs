@@ -2026,12 +2026,9 @@ TransformStyle
 pub
 transform
 :
-Option
-<
 PropertyBinding
 <
 LayoutTransform
->
 >
 pub
 id
