@@ -249,10 +249,6 @@ gcGrayRoots_
 (
 this
 )
-gcWeakRefs_
-(
-this
-)
 weakCaches_
 (
 this

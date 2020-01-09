@@ -359,11 +359,6 @@ testGCWeakCache
 cpp
 '
 '
-testGCWeakRef
-.
-cpp
-'
-'
 testGetPropertyDescriptor
 .
 cpp
