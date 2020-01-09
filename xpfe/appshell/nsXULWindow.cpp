@@ -9300,11 +9300,6 @@ From
 (
 aOpener
 )
--
->
-GetBrowsingContext
-(
-)
 )
 ;
 }

@@ -4563,12 +4563,6 @@ UpdateWeakPointersAfterGC
 (
 )
 {
-mRemoteProxies
-.
-sweep
-(
-)
-;
 mWrappedJSMap
 -
 >

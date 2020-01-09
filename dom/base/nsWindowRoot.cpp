@@ -497,12 +497,14 @@ nsPIDOMWindowOuter
 nsWindowRoot
 :
 :
-GetOwnerGlobalForBindingsInternal
+GetOwnerGlobalForBindings
 (
 )
 {
 return
-mWindow
+GetWindow
+(
+)
 ;
 }
 nsIGlobalObject

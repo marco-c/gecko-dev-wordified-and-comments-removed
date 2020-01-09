@@ -1120,11 +1120,6 @@ Pose
 h
 '
 '
-PostMessageEvent
-.
-h
-'
-'
 ProcessMessageManager
 .
 h
@@ -1241,11 +1236,6 @@ h
 '
 '
 WindowOrientationObserver
-.
-h
-'
-'
-WindowProxyHolder
 .
 h
 '
@@ -1898,11 +1888,6 @@ cpp
 '
 '
 ProcessMessageManager
-.
-cpp
-'
-'
-RemoteOuterWindowProxy
 .
 cpp
 '

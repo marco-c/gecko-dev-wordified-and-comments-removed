@@ -39,9 +39,6 @@ mozilla
 namespace
 dom
 {
-class
-BrowsingContext
-;
 struct
 MessageEventInit
 ;
@@ -384,7 +381,7 @@ mLastEventId
 ;
 RefPtr
 <
-BrowsingContext
+nsPIDOMWindowOuter
 >
 mWindowSource
 ;

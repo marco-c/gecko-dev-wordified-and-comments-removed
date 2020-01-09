@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsDocShell
-.
-h
-"
-#
-include
-"
 nsEscape
 .
 h
