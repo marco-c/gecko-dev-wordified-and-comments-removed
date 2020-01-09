@@ -691,6 +691,11 @@ RenderTaskTreeCounters
 >
 Self
 {
+let
+extra_items
+=
+8
+;
 RenderTaskTree
 {
 tasks
@@ -703,6 +708,8 @@ with_capacity
 counters
 .
 tasks_len
++
+extra_items
 )
 task_data
 :
@@ -714,6 +721,8 @@ with_capacity
 counters
 .
 task_data_len
++
+extra_items
 )
 cacheable_render_tasks
 :
@@ -725,6 +734,8 @@ with_capacity
 counters
 .
 cacheable_render_tasks_len
++
+extra_items
 )
 next_saved
 :
