@@ -33072,6 +33072,15 @@ msg
 =
 >
 {
+if
+(
+msg
+.
+target
+.
+permanentKey
+)
+{
 this
 .
 _pageStyleSheets
@@ -33088,6 +33097,7 @@ msg
 data
 )
 ;
+}
 }
 )
 ;
