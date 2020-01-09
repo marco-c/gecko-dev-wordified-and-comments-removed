@@ -748,6 +748,17 @@ IDs
 .
 policy
 -
+ExtensionSettings
+=
+Manage
+all
+aspects
+of
+extension
+installation
+.
+policy
+-
 ExtensionUpdate
 =
 Enable
