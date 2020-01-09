@@ -562,6 +562,11 @@ if
 aStateFlags
 &
 STATE_IS_NETWORK
+|
+|
+aStateFlags
+&
+STATE_IS_REDIRECTED_DOCUMENT
 )
 {
 return
