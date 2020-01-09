@@ -3362,6 +3362,24 @@ _populate_logger
 options
 )
         
+if
+hasattr
+(
+options
+'
+log
+'
+)
+:
+            
+delattr
+(
+options
+'
+log
+'
+)
+        
 VERIFY_REPEAT
 =
 10
