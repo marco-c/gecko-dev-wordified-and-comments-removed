@@ -338,7 +338,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsCString
+nsAutoCString
 secondDomain
 ;
 nsresult
@@ -545,7 +545,7 @@ pointer
 "
 )
 ;
-nsCString
+nsAutoCString
 firstHost
 ;
 nsresult
@@ -641,7 +641,7 @@ rv
 return
 rv
 ;
-nsCString
+nsAutoCString
 bottomDomain
 ;
 rv
@@ -988,7 +988,7 @@ rv
 return
 rv
 ;
-nsCString
+nsAutoCString
 channelDomain
 ;
 rv
