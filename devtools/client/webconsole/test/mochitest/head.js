@@ -5366,13 +5366,6 @@ expanded
 const
 button
 =
-await
-waitFor
-(
-(
-)
-=
->
 msgNode
 .
 querySelector
@@ -5383,7 +5376,6 @@ collapse
 -
 button
 "
-)
 )
 ;
 button

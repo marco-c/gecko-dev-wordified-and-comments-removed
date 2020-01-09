@@ -516,7 +516,6 @@ join
 )
 "
 throw
-stack
 "
 )
 ;
