@@ -783,10 +783,4 @@ data
 "
 )
 ;
-await
-waitForTime
-(
-1000
-)
-;
 }
