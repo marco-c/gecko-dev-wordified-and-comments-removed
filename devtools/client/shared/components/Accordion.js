@@ -349,13 +349,6 @@ className
 "
 aria
 -
-expanded
-"
-:
-opened
-"
-aria
--
 labelledby
 "
 :
@@ -380,6 +373,13 @@ labelledby
 tabIndex
 :
 0
+"
+aria
+-
+expanded
+"
+:
+opened
 onKeyDown
 :
 e
