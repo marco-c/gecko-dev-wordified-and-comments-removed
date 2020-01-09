@@ -150,6 +150,12 @@ yml
 windows
 .
 yml
+-
+windows
+-
+mingw
+.
+yml
 job
 -
 defaults
