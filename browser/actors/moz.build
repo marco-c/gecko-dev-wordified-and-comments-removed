@@ -301,6 +301,16 @@ SearchTelemetryChild
 jsm
 '
 '
+SubframeCrashChild
+.
+jsm
+'
+'
+SubframeCrashParent
+.
+jsm
+'
+'
 URIFixupChild
 .
 jsm
