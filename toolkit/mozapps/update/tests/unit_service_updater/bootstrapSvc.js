@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -23,18 +24,13 @@ gTestDirs
 [
 ]
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
 null
 )
 ;
-}
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdate
 (
 STATE_SUCCEEDED

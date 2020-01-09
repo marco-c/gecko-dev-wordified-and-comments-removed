@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -22,6 +23,7 @@ gTestDirs
 =
 gTestDirsCompleteSuccess
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
@@ -39,12 +41,6 @@ path
 "
 )
 ;
-}
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdateUsingApp
 (
 STATE_SUCCEEDED

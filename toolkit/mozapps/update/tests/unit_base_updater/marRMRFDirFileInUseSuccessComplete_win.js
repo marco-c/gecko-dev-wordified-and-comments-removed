@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -22,19 +23,13 @@ gTestDirs
 =
 gTestDirsCompleteSuccess
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
 false
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 await
 runHelperFileInUse
 (

@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -30,19 +31,13 @@ exe0
 exe
 "
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
 false
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdate
 (
 STATE_SUCCEEDED

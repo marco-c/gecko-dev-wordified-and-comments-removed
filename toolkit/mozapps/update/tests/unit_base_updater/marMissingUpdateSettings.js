@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -48,19 +49,13 @@ setTestFilesAndDirsForFailure
 (
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
 false
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdate
 (
 STATE_FAILED_UPDATE_SETTINGS_FILE_CHANNEL

@@ -7,6 +7,7 @@ STATE_APPLIED_SVC
 :
 STATE_APPLIED
 ;
+async
 function
 run_test
 (
@@ -39,18 +40,13 @@ exe0
 exe
 "
 ;
+await
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
 false
 )
 ;
-}
-function
-setupUpdaterTestFinished
-(
-)
-{
 stageUpdate
 (
 true

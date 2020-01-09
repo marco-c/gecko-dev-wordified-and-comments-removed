@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -26,19 +27,13 @@ preventDistributionFiles
 (
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
 true
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdate
 (
 STATE_SUCCEEDED

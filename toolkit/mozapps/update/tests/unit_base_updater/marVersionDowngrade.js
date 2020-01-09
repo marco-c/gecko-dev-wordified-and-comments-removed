@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -35,19 +36,13 @@ setTestFilesAndDirsForFailure
 (
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_OLD_VERSION_MAR
 false
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdate
 (
 STATE_FAILED_VERSION_DOWNGRADE_ERROR

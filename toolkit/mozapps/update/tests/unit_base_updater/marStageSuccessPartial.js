@@ -7,6 +7,7 @@ STATE_APPLIED_SVC
 :
 STATE_APPLIED
 ;
+async
 function
 run_test
 (
@@ -78,18 +79,13 @@ preventDistributionFiles
 (
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
 true
 )
 ;
-}
-function
-setupUpdaterTestFinished
-(
-)
-{
 stageUpdate
 (
 true

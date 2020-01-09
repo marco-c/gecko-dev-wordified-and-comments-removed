@@ -3,6 +3,7 @@ STATE_AFTER_STAGE
 =
 STATE_PENDING
 ;
+async
 function
 run_test
 (
@@ -38,18 +39,13 @@ getGREBinDir
 )
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
 false
 )
 ;
-}
-function
-setupUpdaterTestFinished
-(
-)
-{
 stageUpdate
 (
 false

@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -26,19 +27,13 @@ setTestFilesAndDirsForFailure
 (
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
 false
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 await
 runHelperLockFile
 (

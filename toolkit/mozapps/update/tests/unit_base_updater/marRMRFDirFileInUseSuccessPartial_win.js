@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -22,19 +23,13 @@ gTestDirs
 =
 gTestDirsPartialSuccess
 ;
+await
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
 false
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 await
 runHelperFileInUse
 (

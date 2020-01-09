@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -62,19 +63,13 @@ setTestFilesAndDirsForFailure
 (
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
 false
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdate
 (
 STATE_FAILED_MAR_CHANNEL_MISMATCH_ERROR

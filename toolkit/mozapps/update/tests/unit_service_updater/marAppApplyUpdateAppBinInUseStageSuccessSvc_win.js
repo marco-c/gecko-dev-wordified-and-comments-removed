@@ -7,6 +7,7 @@ STATE_APPLIED_SVC
 :
 STATE_APPLIED
 ;
+async
 function
 run_test
 (
@@ -31,18 +32,13 @@ gTestDirs
 =
 gTestDirsCompleteSuccess
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
 false
 )
 ;
-}
-function
-setupUpdaterTestFinished
-(
-)
-{
 stageUpdate
 (
 true

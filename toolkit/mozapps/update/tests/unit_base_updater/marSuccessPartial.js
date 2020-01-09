@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -65,6 +66,7 @@ gTestDirs
 =
 gTestDirsPartialSuccess
 ;
+await
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
@@ -78,13 +80,6 @@ test
 "
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdate
 (
 STATE_SUCCEEDED

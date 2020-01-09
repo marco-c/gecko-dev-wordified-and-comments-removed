@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -39,19 +40,13 @@ setTestFilesAndDirsForFailure
 (
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
 false
 )
 ;
-}
-async
-function
-setupUpdaterTestFinished
-(
-)
-{
 runUpdate
 (
 STATE_FAILED_LOADSOURCE_ERROR_WRONG_SIZE

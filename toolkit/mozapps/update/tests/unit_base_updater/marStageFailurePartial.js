@@ -7,6 +7,7 @@ gStagingRemovedUpdate
 =
 true
 ;
+async
 function
 run_test
 (
@@ -48,18 +49,13 @@ setTestFilesAndDirsForFailure
 (
 )
 ;
+await
 setupUpdaterTest
 (
 FILE_PARTIAL_MAR
 false
 )
 ;
-}
-function
-setupUpdaterTestFinished
-(
-)
-{
 stageUpdate
 (
 true

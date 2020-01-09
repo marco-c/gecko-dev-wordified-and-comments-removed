@@ -3,6 +3,7 @@ STATE_AFTER_STAGE
 =
 STATE_APPLIED
 ;
+async
 function
 run_test
 (
@@ -27,6 +28,7 @@ gTestDirs
 =
 gTestDirsCompleteSuccess
 ;
+await
 setupUpdaterTest
 (
 FILE_COMPLETE_MAR
@@ -36,12 +38,6 @@ null
 false
 )
 ;
-}
-function
-setupUpdaterTestFinished
-(
-)
-{
 let
 patchProps
 =
