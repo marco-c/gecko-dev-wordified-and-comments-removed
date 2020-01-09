@@ -1946,15 +1946,6 @@ requirements
 ]
 )
         
-quoted_command
-=
-subprocess
-.
-list2cmdline
-(
-command
-)
-        
 self
 .
 retry
@@ -1997,21 +1988,10 @@ install
 python
 package
 :
-'
-                
-+
-quoted_command
-+
-'
 failed
-after
-%
-(
+all
 attempts
-)
-d
-tries
-!
+.
 '
             
 )
