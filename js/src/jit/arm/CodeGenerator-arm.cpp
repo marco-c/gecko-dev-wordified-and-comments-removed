@@ -11897,15 +11897,6 @@ MIRType
 :
 :
 Int32
-|
-|
-mirType
-=
-=
-MIRType
-:
-:
-RefOrNull
 )
 {
 Register
