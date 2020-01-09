@@ -10717,10 +10717,10 @@ return
 }
 if
 (
-nsContentUtils
+StaticPrefs
 :
 :
-IsTailingEnabled
+network_http_tailing_enabled
 (
 )
 )

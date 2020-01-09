@@ -6864,16 +6864,6 @@ GetUserIsInteracting
 ;
 static
 bool
-IsTailingEnabled
-(
-)
-{
-return
-sTailingEnabled
-;
-}
-static
-bool
 ShowInputPlaceholderOnFocus
 (
 )
@@ -7544,10 +7534,6 @@ sIsHandlingKeyBoardEvent
 static
 bool
 sAllowXULXBL_for_file
-;
-static
-bool
-sTailingEnabled
 ;
 static
 bool

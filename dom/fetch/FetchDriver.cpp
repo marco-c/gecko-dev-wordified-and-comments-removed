@@ -2947,10 +2947,10 @@ if
 mIsTrackingFetch
 &
 &
-nsContentUtils
+StaticPrefs
 :
 :
-IsTailingEnabled
+network_http_tailing_enabled
 (
 )
 &
