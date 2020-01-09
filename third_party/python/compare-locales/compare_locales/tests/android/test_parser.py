@@ -213,6 +213,13 @@ xml
 )
                 
 (
+DocumentWrapper
+'
+>
+'
+)
+                
+(
 Whitespace
 '
 \
@@ -505,6 +512,13 @@ xml
 )
                 
 (
+DocumentWrapper
+'
+>
+'
+)
+                
+(
 Whitespace
 '
 \
@@ -732,6 +746,13 @@ DocumentWrapper
 <
 ?
 xml
+'
+)
+                
+(
+DocumentWrapper
+'
+>
 '
 )
                 

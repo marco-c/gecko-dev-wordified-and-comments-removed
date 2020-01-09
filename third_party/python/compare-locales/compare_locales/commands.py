@@ -1054,9 +1054,29 @@ filename
 )
                 
 if
-locales
+locales_deep
 :
                     
+if
+not
+locales
+:
+                        
+config
+.
+set_locales
+(
+config
+.
+all_locales
+deep
+=
+True
+)
+                    
+else
+:
+                        
 config
 .
 set_locales
@@ -1064,7 +1084,7 @@ set_locales
 locales
 deep
 =
-locales_deep
+True
 )
                 
 configs
@@ -1081,10 +1101,8 @@ app
 =
 EnumerateApp
 (
-                    
 config_path
 l10n_base_dir
-locales
 )
                 
 configs
@@ -1107,6 +1125,8 @@ compareProjects
 (
                 
 configs
+                
+locales
                 
 l10n_base_dir
                 

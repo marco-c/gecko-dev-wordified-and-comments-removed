@@ -642,7 +642,11 @@ assertListEqual
 (
 app
 .
-locales
+config
+.
+allLocales
+(
+)
 [
 '
 af

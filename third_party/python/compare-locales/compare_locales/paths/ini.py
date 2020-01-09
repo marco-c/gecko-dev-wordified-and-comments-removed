@@ -1121,9 +1121,6 @@ __init__
 self
 inipath
 l10nbase
-locales
-=
-None
 )
 :
         
@@ -1173,28 +1170,6 @@ config
 getFilters
 (
 )
-)
-        
-self
-.
-locales
-=
-locales
-or
-self
-.
-config
-.
-allLocales
-(
-)
-        
-self
-.
-locales
-.
-sort
-(
 )
     
 def
@@ -1308,12 +1283,19 @@ filters
         
 config
 .
-locales
-+
-=
+set_locales
+(
 self
 .
-locales
+config
+.
+allLocales
+(
+)
+deep
+=
+True
+)
         
 return
 config

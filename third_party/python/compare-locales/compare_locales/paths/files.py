@@ -118,6 +118,22 @@ in
 projects
 :
             
+if
+locale
+is
+not
+None
+and
+locale
+not
+in
+project
+.
+all_locales
+:
+                
+continue
+            
 configs
 .
 extend
@@ -135,6 +151,13 @@ configs
             
 if
 locale
+and
+pc
+.
+locales
+is
+not
+None
 and
 locale
 not

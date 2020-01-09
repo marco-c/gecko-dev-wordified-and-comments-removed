@@ -1191,28 +1191,6 @@ l10n_entities
 entity_id
 ]
                     
-params
-=
-(
-junk
-.
-val
-)
-+
-junk
-.
-position
-(
-)
-+
-junk
-.
-position
-(
--
-1
-)
-                    
 self
 .
 observers
@@ -1225,33 +1203,11 @@ error
 '
 l10n
                         
-'
-Unparsed
-content
-"
-%
-s
-"
-from
-line
-%
-d
-column
-%
-d
-'
-                        
-'
-to
-line
-%
-d
-column
-%
-d
-'
-%
-params
+junk
+.
+error_message
+(
+)
                     
 )
                     
