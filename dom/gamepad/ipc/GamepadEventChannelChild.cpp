@@ -203,7 +203,7 @@ IPCResult
 GamepadEventChannelChild
 :
 :
-RecvReplyGamepadPromise
+RecvReplyGamepadVibrateHaptic
 (
 const
 uint32_t
