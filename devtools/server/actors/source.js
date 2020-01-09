@@ -2363,6 +2363,7 @@ blackbox
 :
 function
 (
+range
 )
 {
 this
@@ -2376,6 +2377,7 @@ blackBox
 this
 .
 url
+range
 )
 ;
 if
@@ -2427,6 +2429,7 @@ unblackbox
 :
 function
 (
+range
 )
 {
 this
@@ -2440,6 +2443,7 @@ unblackBox
 this
 .
 url
+range
 )
 ;
 }
