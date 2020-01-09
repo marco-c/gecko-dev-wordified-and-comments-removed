@@ -1059,6 +1059,12 @@ report
 1
 .
 html
+load
+copyFromChannel
+-
+2
+.
+html
 skip
 -
 if
