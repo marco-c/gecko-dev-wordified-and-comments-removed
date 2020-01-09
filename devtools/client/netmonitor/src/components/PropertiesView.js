@@ -1204,9 +1204,14 @@ div
 className
 :
 "
-searchbox
+devtools
 -
-section
+toolbar
+devtools
+-
+input
+-
+toolbar
 "
 }
 SearchBox

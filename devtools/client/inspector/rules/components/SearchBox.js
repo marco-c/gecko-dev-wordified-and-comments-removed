@@ -95,11 +95,6 @@ className
 devtools
 -
 searchbox
-has
--
-clear
--
-btn
 "
 }
 dom
@@ -120,11 +115,6 @@ className
 devtools
 -
 filterinput
-devtools
--
-rule
--
-searchbox
 "
 placeholder
 :
