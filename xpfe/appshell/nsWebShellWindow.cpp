@@ -1111,6 +1111,7 @@ mDocShell
 CreateAboutBlankContentViewer
 (
 principal
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

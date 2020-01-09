@@ -42,6 +42,9 @@ BasePrincipal
 h
 "
 class
+nsIContentSecurityPolicy
+;
+class
 ExpandedPrincipal
 :
 public
@@ -231,6 +234,14 @@ aExplicit
 false
 )
 ;
+void
+SetCsp
+(
+nsIContentSecurityPolicy
+*
+aCSP
+)
+;
 nsIPrincipal
 *
 PrincipalToInherit
@@ -306,6 +317,12 @@ nsIPrincipal
 >
 >
 mPrincipals
+;
+nsCOMPtr
+<
+nsIContentSecurityPolicy
+>
+mCSP
 ;
 }
 ;

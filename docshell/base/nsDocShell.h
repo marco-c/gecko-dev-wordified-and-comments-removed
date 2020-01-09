@@ -1730,6 +1730,9 @@ CreateAboutBlankContentViewer
 nsIPrincipal
 *
 aPrincipal
+nsIContentSecurityPolicy
+*
+aCSP
 nsIURI
 *
 aBaseURI

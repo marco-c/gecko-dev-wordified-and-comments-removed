@@ -186,6 +186,14 @@ url
 FrameType
 frameType
 ;
+CSPInfo
+?
+cspInfo
+;
+CSPInfo
+?
+preloadCspInfo
+;
 }
 ;
 struct

@@ -20,7 +20,7 @@ class
 nsIURI
 ;
 class
-nsIPrincipal
+nsIContentSecurityPolicy
 ;
 class
 FramingChecker
@@ -37,9 +37,9 @@ aChannel
 nsIDocShell
 *
 aDocShell
-nsIPrincipal
+nsIContentSecurityPolicy
 *
-aPrincipal
+aCSP
 )
 ;
 protected

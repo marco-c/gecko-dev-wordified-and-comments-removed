@@ -203,6 +203,9 @@ class
 nsIContent
 ;
 class
+nsIContentSecurityPolicy
+;
+class
 nsIFrame
 ;
 class
@@ -2529,6 +2532,13 @@ DocumentPrincipal
 )
 ;
 }
+nsIContentSecurityPolicy
+*
+GetCsp
+(
+)
+const
+;
 nsIContent
 *
 GetParent

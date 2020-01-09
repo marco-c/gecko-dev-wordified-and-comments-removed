@@ -69,6 +69,9 @@ Logging
 .
 h
 "
+class
+nsIChannel
+;
 namespace
 mozilla
 {
@@ -1023,6 +1026,14 @@ aEncStr
 nsAString
 &
 outDecStr
+)
+;
+bool
+CSP_ShouldResponseInheritCSP
+(
+nsIChannel
+*
+aChannel
 )
 ;
 class
