@@ -83,7 +83,7 @@ NS_ASSERTION
 !
 ids
 .
-Contains
+contains
 (
 mLists
 [
@@ -101,7 +101,7 @@ found
 )
 ;
 ids
-|
++
 =
 mLists
 [

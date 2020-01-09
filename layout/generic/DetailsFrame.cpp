@@ -567,11 +567,11 @@ aSummaryFrame
 const
 ChildListIDs
 flowLists
-(
+=
+{
 kPrincipalList
-|
 kOverflowList
-)
+}
 ;
 for
 (
@@ -620,7 +620,7 @@ if
 !
 flowLists
 .
-Contains
+contains
 (
 lists
 .
