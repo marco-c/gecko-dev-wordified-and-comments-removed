@@ -149,15 +149,6 @@ state
 ;
 }
 ;
-union
-OptionalIPCServiceWorkerDescriptor
-{
-IPCServiceWorkerDescriptor
-;
-void_t
-;
-}
-;
 }
 /
 /
