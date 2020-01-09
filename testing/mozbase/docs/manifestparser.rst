@@ -3397,14 +3397,9 @@ component
 ManifestParser
 Or
 contact
-jhammel
-mozilla
-.
-org
-or
 in
 #
-ateam
+cia
 on
 irc
 .

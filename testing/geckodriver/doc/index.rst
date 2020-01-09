@@ -339,7 +339,7 @@ someone
 in
 the
 #
-ateam
+interop
 IRC
 channel
 on
