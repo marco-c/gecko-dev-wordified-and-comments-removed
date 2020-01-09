@@ -4329,6 +4329,11 @@ gUpdatesView
 if
 (
 useHtmlDiscover
+&
+&
+isDiscoverEnabled
+(
+)
 )
 {
 this
