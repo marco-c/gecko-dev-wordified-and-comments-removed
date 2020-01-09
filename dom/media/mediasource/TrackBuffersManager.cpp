@@ -2286,6 +2286,10 @@ Clear
 )
 ;
 }
+mPendingInputBuffer
+=
+nullptr
+;
 mInputBuffer
 =
 nullptr
