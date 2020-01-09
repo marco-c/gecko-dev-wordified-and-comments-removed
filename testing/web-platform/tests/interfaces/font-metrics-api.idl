@@ -96,7 +96,7 @@ width
 ;
 readonly
 attribute
-sequence
+FrozenArray
 <
 double
 >
@@ -154,7 +154,7 @@ dominantBaseline
 ;
 readonly
 attribute
-sequence
+FrozenArray
 <
 Baseline
 >
@@ -162,7 +162,7 @@ baselines
 ;
 readonly
 attribute
-sequence
+FrozenArray
 <
 Font
 >
