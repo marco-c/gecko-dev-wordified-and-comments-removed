@@ -41,11 +41,9 @@ loadSubScript
 CHROME_URL_ROOT
 +
 "
-head
+helper
 -
-addons
--
-script
+adb
 .
 js
 "
@@ -92,6 +90,11 @@ OS
 .
 xpi
 "
+)
+;
+await
+checkAdbNotRunning
+(
 )
 ;
 const

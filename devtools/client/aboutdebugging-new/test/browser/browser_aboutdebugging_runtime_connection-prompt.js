@@ -12,7 +12,7 @@ loadSubScript
 CHROME_URL_ROOT
 +
 "
-head
+helper
 -
 mocks
 .

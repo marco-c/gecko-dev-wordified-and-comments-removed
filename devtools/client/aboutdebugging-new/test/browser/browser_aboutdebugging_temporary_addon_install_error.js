@@ -12,11 +12,9 @@ loadSubScript
 CHROME_URL_ROOT
 +
 "
-head
+helper
 -
 addons
--
-script
 .
 js
 "

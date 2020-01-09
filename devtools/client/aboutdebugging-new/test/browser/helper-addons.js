@@ -30,7 +30,7 @@ jsm
 )
 ;
 function
-getSupportsFile
+_getSupportsFile
 (
 path
 )
@@ -315,7 +315,7 @@ MockFilePicker
 setFiles
 (
 [
-getSupportsFile
+_getSupportsFile
 (
 path
 )
