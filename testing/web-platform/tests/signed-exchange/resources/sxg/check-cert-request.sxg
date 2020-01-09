@@ -1,6 +1,6 @@
 sxg1
 -
-b2
+b3
 ?
 https
 :
@@ -32,14 +32,9 @@ label
 sig
 =
 *
-MEUCIQDCSyy9HDn4n2yrOaVAK6u8OtYK
-+
-VczitYy
-+
-FjnB88dUAIgZ0tI48NQR9jmHXeKJh7hOfgQcRW0vXjp
+MEYCIQDbdhagxAqVNBvvdOfloNKJJq
 /
-TkvFBGGk9Q
-=
+dU05tN7vugJaKdXwIUQIhAPXPvLv0qWbAayPbfiGBT9u6ypLHk89Xh1dkjllaAS2Q
 *
 ;
 validity
@@ -138,9 +133,6 @@ date
 expires
 =
 1523145600
-G
-:
-methodCGET
 FdigestX9mi
 -
 sha256
