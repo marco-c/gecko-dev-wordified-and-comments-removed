@@ -58,12 +58,7 @@ constructor
 var
 win
 =
-XPCNativeWrapper
-.
-unwrap
-(
 window
-)
 ;
 win
 .

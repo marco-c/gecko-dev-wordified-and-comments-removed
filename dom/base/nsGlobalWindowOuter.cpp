@@ -9149,14 +9149,6 @@ NodePrincipal
 )
 )
 ;
-xpc
-:
-:
-ClearContentXBLScope
-(
-newInnerGlobal
-)
-;
 }
 }
 else
