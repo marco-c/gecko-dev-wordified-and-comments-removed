@@ -5476,7 +5476,7 @@ LocalVector
 Vector
 <
 Local
-8
+16
 SystemAllocPolicy
 >
 ;

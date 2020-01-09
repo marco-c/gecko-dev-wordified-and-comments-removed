@@ -453,7 +453,7 @@ typedef
 Vector
 <
 uint32_t
-0
+8
 SystemAllocPolicy
 >
 Uint32Vector
@@ -2387,7 +2387,7 @@ typedef
 Vector
 <
 ValType
-8
+16
 SystemAllocPolicy
 >
 ValTypeVector
