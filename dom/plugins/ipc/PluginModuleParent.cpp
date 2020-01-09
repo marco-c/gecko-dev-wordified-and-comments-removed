@@ -1977,6 +1977,13 @@ SetChannelOpened
 (
 )
 ;
+if
+(
+XRE_UseNativeEventProcessing
+(
+)
+)
+{
 parent
 -
 >
@@ -1993,6 +2000,7 @@ MessageChannel
 REQUIRE_DEFERRED_MESSAGE_PROTECTION
 )
 ;
+}
 TimeoutChanged
 (
 kContentTimeoutPref
