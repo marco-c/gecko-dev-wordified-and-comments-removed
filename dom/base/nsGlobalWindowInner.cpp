@@ -79,6 +79,17 @@ mozilla
 /
 dom
 /
+DocumentInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMJSProxyHandler
 .
 h

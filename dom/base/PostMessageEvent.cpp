@@ -30,6 +30,17 @@ mozilla
 /
 dom
 /
+DocumentInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 File
 .
 h
