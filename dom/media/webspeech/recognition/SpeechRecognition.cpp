@@ -518,7 +518,9 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 SpeechRecognition
 DOMEventTargetHelper
+mStream
 mTrack
+mRecognitionService
 mSpeechGrammarList
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
