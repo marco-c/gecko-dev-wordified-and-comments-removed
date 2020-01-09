@@ -27,7 +27,7 @@ h
 #
 include
 "
-nsSVGDataParser
+SVGDataParser
 .
 h
 "
@@ -37,16 +37,15 @@ mozilla
 class
 SVGPathData
 ;
-}
 class
-nsSVGPathDataParser
+SVGPathDataParser
 :
 public
-nsSVGDataParser
+SVGDataParser
 {
 public
 :
-nsSVGPathDataParser
+SVGPathDataParser
 (
 const
 nsAString
@@ -60,7 +59,7 @@ SVGPathData
 aList
 )
 :
-nsSVGDataParser
+SVGDataParser
 (
 aValue
 )
@@ -213,7 +212,7 @@ mPathSegList
 }
 ;
 class
-nsSVGArcConverter
+SVGArcConverter
 {
 typedef
 mozilla
@@ -227,7 +226,7 @@ Point
 ;
 public
 :
-nsSVGArcConverter
+SVGArcConverter
 (
 const
 Point
@@ -288,5 +287,6 @@ mC
 ;
 }
 ;
+}
 #
 endif

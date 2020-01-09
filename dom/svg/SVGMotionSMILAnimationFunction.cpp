@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsSVGPathDataParser
+SVGPathDataParser
 .
 h
 "
@@ -1242,7 +1242,7 @@ ePathSourceType_PathAttr
 SVGPathData
 path
 ;
-nsSVGPathDataParser
+SVGPathDataParser
 pathParser
 (
 pathSpec

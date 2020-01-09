@@ -690,11 +690,6 @@ nsSVGClass
 cpp
 '
 '
-nsSVGDataParser
-.
-cpp
-'
-'
 nsSVGEnum
 .
 cpp
@@ -726,11 +721,6 @@ cpp
 '
 '
 nsSVGNumberPair
-.
-cpp
-'
-'
-nsSVGPathDataParser
 .
 cpp
 '
@@ -866,6 +856,11 @@ cpp
 '
 '
 SVGContentUtils
+.
+cpp
+'
+'
+SVGDataParser
 .
 cpp
 '
@@ -1141,6 +1136,11 @@ cpp
 '
 '
 SVGPathData
+.
+cpp
+'
+'
+SVGPathDataParser
 .
 cpp
 '

@@ -20,13 +20,16 @@ nsString
 .
 h
 "
+namespace
+mozilla
+{
 class
-nsSVGDataParser
+SVGDataParser
 {
 public
 :
 explicit
-nsSVGDataParser
+SVGDataParser
 (
 const
 nsAString
@@ -94,5 +97,6 @@ mEnd
 ;
 }
 ;
+}
 #
 endif

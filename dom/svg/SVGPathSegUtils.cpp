@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsSVGPathDataParser
+SVGPathDataParser
 .
 h
 "
@@ -2777,7 +2777,7 @@ Point
 )
 }
 ;
-nsSVGArcConverter
+SVGArcConverter
 converter
 (
 aState
@@ -2998,7 +2998,7 @@ Point
 )
 }
 ;
-nsSVGArcConverter
+SVGArcConverter
 converter
 (
 aState

@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsSVGPathDataParser
+SVGPathDataParser
 .
 h
 "
@@ -445,7 +445,7 @@ nsAString
 aValue
 )
 {
-nsSVGPathDataParser
+SVGPathDataParser
 pathParser
 (
 aValue
@@ -2085,7 +2085,7 @@ segEnd
 }
 else
 {
-nsSVGArcConverter
+SVGArcConverter
 converter
 (
 segStart
@@ -3631,7 +3631,7 @@ segEnd
 }
 else
 {
-nsSVGArcConverter
+SVGArcConverter
 converter
 (
 segStart

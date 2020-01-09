@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGDataParser
+SVGDataParser
 .
 h
 "
@@ -19,10 +19,13 @@ SVGContentUtils
 .
 h
 "
-nsSVGDataParser
+namespace
+mozilla
+{
+SVGDataParser
 :
 :
-nsSVGDataParser
+SVGDataParser
 (
 const
 nsAString
@@ -53,7 +56,7 @@ aValue
 {
 }
 bool
-nsSVGDataParser
+SVGDataParser
 :
 :
 SkipCommaWsp
@@ -97,7 +100,7 @@ SkipWsp
 ;
 }
 bool
-nsSVGDataParser
+SVGDataParser
 :
 :
 SkipWsp
@@ -137,4 +140,5 @@ mIter
 return
 false
 ;
+}
 }
