@@ -15830,7 +15830,7 @@ Handle
 AsyncGeneratorObject
 *
 >
-asyncGenObj
+unwrappedGenerator
 ResumeNextKind
 kind
 HandleValue
@@ -15879,7 +15879,7 @@ valueOrException
 MOZ_ASSERT
 (
 !
-asyncGenObj
+unwrappedGenerator
 -
 >
 isQueueEmpty
@@ -15897,7 +15897,7 @@ AsyncGeneratorObject
 dequeueRequest
 (
 cx
-asyncGenObj
+unwrappedGenerator
 )
 ;
 if
@@ -15926,7 +15926,7 @@ promise
 )
 )
 ;
-asyncGenObj
+unwrappedGenerator
 -
 >
 cacheRequest
@@ -15967,7 +15967,7 @@ valueOrException
 MOZ_ASSERT
 (
 !
-asyncGenObj
+unwrappedGenerator
 -
 >
 isQueueEmpty
@@ -15985,7 +15985,7 @@ AsyncGeneratorObject
 dequeueRequest
 (
 cx
-asyncGenObj
+unwrappedGenerator
 )
 ;
 if
@@ -16014,7 +16014,7 @@ promise
 )
 )
 ;
-asyncGenObj
+unwrappedGenerator
 -
 >
 cacheRequest
@@ -16076,7 +16076,7 @@ break
 MOZ_ASSERT
 (
 !
-asyncGenObj
+unwrappedGenerator
 -
 >
 isExecuting
@@ -16086,7 +16086,7 @@ isExecuting
 ;
 if
 (
-asyncGenObj
+unwrappedGenerator
 -
 >
 isAwaitingYieldReturn
@@ -16094,7 +16094,7 @@ isAwaitingYieldReturn
 )
 |
 |
-asyncGenObj
+unwrappedGenerator
 -
 >
 isAwaitingReturn
@@ -16108,7 +16108,7 @@ true
 }
 if
 (
-asyncGenObj
+unwrappedGenerator
 -
 >
 isQueueEmpty
@@ -16133,7 +16133,7 @@ AsyncGeneratorObject
 :
 peekRequest
 (
-asyncGenObj
+unwrappedGenerator
 )
 )
 ;
@@ -16170,7 +16170,7 @@ Normal
 {
 if
 (
-asyncGenObj
+unwrappedGenerator
 -
 >
 isSuspendedStart
@@ -16178,7 +16178,7 @@ isSuspendedStart
 )
 )
 {
-asyncGenObj
+unwrappedGenerator
 -
 >
 setCompleted
@@ -16188,7 +16188,7 @@ setCompleted
 }
 if
 (
-asyncGenObj
+unwrappedGenerator
 -
 >
 isCompleted
@@ -16219,7 +16219,7 @@ CompletionKind
 Return
 )
 {
-asyncGenObj
+unwrappedGenerator
 -
 >
 setAwaitingReturn
@@ -16280,7 +16280,7 @@ reaction
 >
 setIsAsyncGenerator
 (
-asyncGenObj
+unwrappedGenerator
 )
 ;
 }
@@ -16329,7 +16329,7 @@ continue
 else
 if
 (
-asyncGenObj
+unwrappedGenerator
 -
 >
 isCompleted
@@ -16359,7 +16359,7 @@ continue
 }
 MOZ_ASSERT
 (
-asyncGenObj
+unwrappedGenerator
 -
 >
 isSuspendedStart
@@ -16367,7 +16367,7 @@ isSuspendedStart
 )
 |
 |
-asyncGenObj
+unwrappedGenerator
 -
 >
 isSuspendedYield
@@ -16375,7 +16375,7 @@ isSuspendedYield
 )
 )
 ;
-asyncGenObj
+unwrappedGenerator
 -
 >
 setExecuting
@@ -16405,7 +16405,7 @@ CompletionKind
 Return
 )
 {
-asyncGenObj
+unwrappedGenerator
 -
 >
 setAwaitingYieldReturn
@@ -16466,7 +16466,7 @@ reaction
 >
 setIsAsyncGenerator
 (
-asyncGenObj
+unwrappedGenerator
 )
 ;
 }
@@ -16487,7 +16487,7 @@ return
 AsyncGeneratorResume
 (
 cx
-asyncGenObj
+unwrappedGenerator
 completionKind
 argument
 )
@@ -17580,7 +17580,7 @@ Handle
 PromiseObject
 *
 >
-promise
+unwrappedPromise
 Handle
 <
 PromiseReactionRecord
@@ -17595,7 +17595,7 @@ JS
 PromiseState
 state
 =
-promise
+unwrappedPromise
 -
 >
 state
@@ -17605,7 +17605,7 @@ state
 int32_t
 flags
 =
-promise
+unwrappedPromise
 -
 >
 flags
@@ -17632,7 +17632,7 @@ if
 AddPromiseReaction
 (
 cx
-promise
+unwrappedPromise
 reaction
 )
 )
@@ -17672,7 +17672,7 @@ RootedValue
 valueOrReason
 (
 cx
-promise
+unwrappedPromise
 -
 >
 valueOrReason
@@ -17736,7 +17736,7 @@ runtime
 removeUnhandledRejectedPromise
 (
 cx
-promise
+unwrappedPromise
 )
 ;
 }
@@ -17757,7 +17757,7 @@ false
 ;
 }
 }
-promise
+unwrappedPromise
 -
 >
 setFixedSlot
@@ -17788,7 +17788,7 @@ Handle
 PromiseObject
 *
 >
-promise
+unwrappedPromise
 Handle
 <
 PromiseReactionRecord
@@ -17832,7 +17832,7 @@ ar
 ;
 if
 (
-promise
+unwrappedPromise
 -
 >
 compartment
@@ -17853,7 +17853,7 @@ ar
 emplace
 (
 cx
-promise
+unwrappedPromise
 )
 ;
 if
@@ -17880,6 +17880,15 @@ false
 ;
 }
 }
+Handle
+<
+PromiseObject
+*
+>
+promise
+=
+unwrappedPromise
+;
 RootedValue
 reactionsVal
 (
