@@ -400,13 +400,6 @@ resetFilters
 hud
 )
 ;
-await
-setFilterBarVisible
-(
-hud
-false
-)
-;
 }
 )
 ;

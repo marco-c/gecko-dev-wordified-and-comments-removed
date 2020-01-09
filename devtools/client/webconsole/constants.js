@@ -52,11 +52,6 @@ DEFAULT_FILTERS_RESET
 "
 DEFAULT_FILTERS_RESET
 "
-FILTER_BAR_TOGGLE
-:
-"
-FILTER_BAR_TOGGLE
-"
 FILTER_TEXT_SET
 :
 "
@@ -269,13 +264,6 @@ netxhr
 UI
 :
 {
-FILTER_BAR
-:
-"
-ui
-.
-filterbar
-"
 PERSIST
 :
 "
