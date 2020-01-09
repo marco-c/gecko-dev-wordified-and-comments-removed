@@ -1832,6 +1832,13 @@ pop
 )
 ;
 void
+popForeign
+(
+int32_t
+origPos
+)
+;
+void
 silentPop
 (
 )
