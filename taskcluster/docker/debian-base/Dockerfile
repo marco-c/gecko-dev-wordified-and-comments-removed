@@ -421,6 +421,10 @@ sbin
 #
 %
 ARG
+TASKCLUSTER_ROOT_URL
+#
+%
+ARG
 DOCKER_IMAGE_PACKAGES
 RUN
 /
@@ -433,6 +437,7 @@ sbin
 setup_packages
 .
 sh
+TASKCLUSTER_ROOT_URL
 DOCKER_IMAGE_PACKAGES
 &
 &
