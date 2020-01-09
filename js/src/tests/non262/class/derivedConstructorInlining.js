@@ -39,9 +39,7 @@ assertThrownErrorContains
 (
 intermediate
 "
-|
 this
-|
 "
 )
 ;
