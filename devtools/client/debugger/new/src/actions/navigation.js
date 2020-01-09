@@ -184,12 +184,6 @@ clearSources
 (
 )
 ;
-client
-.
-detachWorkers
-(
-)
-;
 dispatch
 (
 navigate
