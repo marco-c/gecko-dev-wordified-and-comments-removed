@@ -8463,7 +8463,7 @@ mLoadCounter
 0
 )
 {
-AfterNetworkPrint
+ResumePrintAfterResourcesLoaded
 (
 aHandleError
 )
@@ -8477,10 +8477,10 @@ nsresult
 nsPrintJob
 :
 :
-AfterNetworkPrint
+ResumePrintAfterResourcesLoaded
 (
 bool
-aHandleError
+aCleanupOnError
 )
 {
 if
@@ -8574,7 +8574,7 @@ FinishPrintPreview
 }
 if
 (
-aHandleError
+aCleanupOnError
 &
 &
 NS_FAILED
@@ -8593,7 +8593,7 @@ NS_ERROR_ABORT
 nsPrintJob
 :
 :
-AfterNetworkPrint
+ResumePrintAfterResourcesLoaded
 failed
 "
 )
@@ -8697,7 +8697,7 @@ mLoadCounter
 0
 )
 {
-AfterNetworkPrint
+ResumePrintAfterResourcesLoaded
 (
 true
 )

@@ -862,10 +862,10 @@ DisconnectPagePrintTimer
 )
 ;
 nsresult
-AfterNetworkPrint
+ResumePrintAfterResourcesLoaded
 (
 bool
-aHandleError
+aCleanupOnError
 )
 ;
 nsresult
