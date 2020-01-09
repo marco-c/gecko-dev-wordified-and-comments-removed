@@ -142,10 +142,8 @@ arm7
 api
 -
 16
--
-pgo
 /
-opt
+pgo
 :
 3
 default
@@ -359,10 +357,8 @@ arm7
 api
 -
 16
--
-pgo
 /
-opt
+pgo
 :
 4
 loopback
