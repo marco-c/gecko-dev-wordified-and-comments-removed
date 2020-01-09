@@ -454,8 +454,9 @@ gURLBar
 .
 eventBufferer
 .
-replayAllDeferredEvents
+replayDeferredEvents
 (
+false
 )
 ;
 gURLBar
