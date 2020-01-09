@@ -72,7 +72,7 @@ menus
 Preview
 '
 ]
-CompiledModules
+DebuggerModules
 (
 '
 Breakpoint

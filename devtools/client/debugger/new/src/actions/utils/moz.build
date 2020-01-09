@@ -69,7 +69,7 @@ DIRS
 middleware
 '
 ]
-CompiledModules
+DebuggerModules
 (
 '
 create

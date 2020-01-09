@@ -78,7 +78,7 @@ SecondaryPanes
 shared
 '
 ]
-CompiledModules
+DebuggerModules
 (
 '
 A11yIntention

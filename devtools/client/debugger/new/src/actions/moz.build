@@ -81,7 +81,7 @@ sources
 utils
 '
 ]
-CompiledModules
+DebuggerModules
 (
 '
 ast
