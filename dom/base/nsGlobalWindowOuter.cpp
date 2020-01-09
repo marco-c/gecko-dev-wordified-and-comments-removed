@@ -24417,7 +24417,7 @@ nsDocLoader
 :
 OnContentBlockingEvent
 (
-aChannel
+channel
 event
 )
 ;
