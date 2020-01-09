@@ -116,8 +116,8 @@ tasks
 differ
 from
 those
-defined
-in
+expected
+by
 your
 working
 copy
