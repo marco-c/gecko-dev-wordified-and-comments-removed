@@ -881,12 +881,6 @@ true
 endif
 SET_DEFAULT
 (
-disableUnboxedObjects
-true
-)
-;
-SET_DEFAULT
-(
 wasmFoldOffsets
 true
 )
