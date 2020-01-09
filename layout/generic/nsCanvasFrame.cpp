@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

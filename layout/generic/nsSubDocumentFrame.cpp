@@ -4995,6 +4995,9 @@ document
 "
 )
 ;
+mozilla
+:
+:
 PresShell
 *
 presShell

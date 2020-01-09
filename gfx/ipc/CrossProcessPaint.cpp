@@ -570,11 +570,11 @@ aScale
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
-shell
+presShell
 =
 presContext
 -
@@ -586,7 +586,7 @@ PresShell
 Unused
 <
 <
-shell
+presShell
 -
 >
 RenderDocument

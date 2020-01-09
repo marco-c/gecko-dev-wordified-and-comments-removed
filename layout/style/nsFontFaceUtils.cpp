@@ -17,6 +17,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RestyleManager
 .
 h
@@ -554,9 +563,9 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
-ps
+presShell
 =
 pc
 -
@@ -667,7 +676,7 @@ No
 {
 ScheduleReflow
 (
-ps
+presShell
 f
 )
 ;

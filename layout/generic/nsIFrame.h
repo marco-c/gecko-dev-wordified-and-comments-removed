@@ -284,9 +284,6 @@ class
 nsPresContext
 ;
 class
-nsIPresShell
-;
-class
 nsView
 ;
 class
@@ -375,6 +372,9 @@ uint8_t
 ;
 class
 EventStates
+;
+class
+PresShell
 ;
 struct
 ReflowInput

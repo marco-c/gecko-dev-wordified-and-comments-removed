@@ -100,6 +100,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MouseEventBinding
@@ -565,7 +574,10 @@ false
 }
 else
 {
-nsIPresShell
+mozilla
+:
+:
+PresShell
 *
 presShell
 =

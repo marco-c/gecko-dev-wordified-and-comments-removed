@@ -73,6 +73,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RestyleManager
 .
 h

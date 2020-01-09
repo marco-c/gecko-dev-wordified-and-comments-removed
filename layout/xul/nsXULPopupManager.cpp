@@ -6521,9 +6521,9 @@ PresContext
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -6955,9 +6955,9 @@ bool
 aIsCancel
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =
@@ -13332,11 +13332,11 @@ PresContext
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
-shell
+presShell
 =
 presContext
 -
@@ -13351,7 +13351,7 @@ nsViewManager
 >
 kungFuDeathGrip
 =
-shell
+presShell
 -
 >
 GetViewManager
@@ -13386,7 +13386,7 @@ userInpStatePusher
 (
 mUserInput
 nullptr
-shell
+presShell
 -
 >
 GetDocument
@@ -13402,7 +13402,7 @@ DispatchXULCommand
 mMenu
 mIsTrusted
 nullptr
-shell
+presShell
 mControl
 mAlt
 mShift

@@ -10614,11 +10614,9 @@ pc
 NS_OK
 )
 ;
-nsCOMPtr
-<
-nsIPresShell
->
-shell
+PresShell
+*
+presShell
 =
 pc
 -
@@ -10629,7 +10627,7 @@ GetPresShell
 ;
 NS_ENSURE_TRUE
 (
-shell
+presShell
 NS_OK
 )
 ;
@@ -10671,7 +10669,7 @@ nsIPageSequenceFrame
 *
 pf
 =
-shell
+presShell
 -
 >
 GetPageSequenceFrame
@@ -10692,7 +10690,7 @@ do_QueryFrame
 pf
 )
 ;
-shell
+presShell
 -
 >
 FrameNeedsReflow
@@ -10710,7 +10708,7 @@ nsIFrame
 *
 rootFrame
 =
-shell
+presShell
 -
 >
 GetRootFrame

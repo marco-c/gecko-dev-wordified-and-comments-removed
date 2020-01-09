@@ -81,6 +81,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 FontTableURIProtocolHandler
@@ -7582,9 +7591,9 @@ mWarningThreshold
 =
 1
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =

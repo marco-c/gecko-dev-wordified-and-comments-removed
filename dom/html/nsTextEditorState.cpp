@@ -5104,12 +5104,6 @@ PresShell
 *
 presShell
 =
-static_cast
-<
-PresShell
-*
->
-(
 aFrame
 -
 >
@@ -5120,7 +5114,6 @@ PresContext
 >
 GetPresShell
 (
-)
 )
 ;
 MOZ_ASSERT
@@ -5486,9 +5479,9 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 presContext
 -
@@ -5700,7 +5693,7 @@ Document
 >
 doc
 =
-shell
+presShell
 -
 >
 GetDocument

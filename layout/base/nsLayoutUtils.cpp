@@ -4245,7 +4245,7 @@ parentRes
 ScreenSize
 alignment
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -5332,7 +5332,7 @@ MOZ_ASSERT
 presContext
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -16894,7 +16894,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -17247,7 +17247,7 @@ ParentLayerPoint
 )
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -18025,7 +18025,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -18655,7 +18655,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -42047,7 +42047,7 @@ nscoord
 aContainerISize
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -42953,7 +42953,7 @@ nsPresContext
 aPresContext
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -43581,7 +43581,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -43757,7 +43757,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -43973,7 +43973,7 @@ GetRootPresContext
 )
 ;
 }
-nsIPresShell
+PresShell
 *
 rootPresShell
 =
@@ -45590,7 +45590,7 @@ if
 aPresContext
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -46001,7 +46001,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -47712,7 +47712,7 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
 presShell
 =

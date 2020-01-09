@@ -97,6 +97,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindings
 .
 h
@@ -11935,7 +11944,7 @@ if
 needsNotify
 )
 {
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -13278,9 +13287,9 @@ PresContext
 (
 )
 ;
-nsIPresShell
+PresShell
 *
-shell
+presShell
 =
 presContext
 -
@@ -13370,7 +13379,7 @@ if
 MOZ_UNLIKELY
 (
 !
-shell
+presShell
 -
 >
 DidInitialize
@@ -13389,7 +13398,7 @@ AutoAssertNoFlush
 noReentrantFlush
 (
 *
-shell
+presShell
 )
 ;
 AnimationsWithDestroyedFrame
