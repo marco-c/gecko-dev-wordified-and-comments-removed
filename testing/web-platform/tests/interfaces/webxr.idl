@@ -397,6 +397,9 @@ enum
 XRReferenceSpaceType
 {
 "
+identity
+"
+"
 stationary
 "
 "
