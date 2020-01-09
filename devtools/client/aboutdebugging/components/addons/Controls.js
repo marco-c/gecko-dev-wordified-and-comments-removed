@@ -449,8 +449,6 @@ setState
 installError
 :
 e
-.
-message
 lastInstallErrorFile
 :
 file
