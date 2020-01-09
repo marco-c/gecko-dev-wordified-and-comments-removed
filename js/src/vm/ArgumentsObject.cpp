@@ -1405,7 +1405,7 @@ bool
 mapped
 )
 {
-ReadBarriered
+WeakHeapPtr
 <
 ArgumentsObject
 *

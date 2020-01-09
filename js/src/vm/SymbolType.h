@@ -647,7 +647,7 @@ SymbolRegistry
 public
 GCHashSet
 <
-ReadBarrieredSymbol
+WeakHeapPtrSymbol
 HashSymbolsByDescription
 SystemAllocPolicy
 >

@@ -12749,7 +12749,7 @@ mozilla
 :
 DebugOnly
 <
-ReadBarriered
+WeakHeapPtr
 <
 Debugger
 *
@@ -22900,7 +22900,7 @@ p
 ;
 }
 static
-ReadBarriered
+WeakHeapPtr
 <
 Debugger
 *
@@ -22913,7 +22913,7 @@ Debugger
 dbg
 Vector
 <
-ReadBarriered
+WeakHeapPtr
 <
 Debugger
 *
@@ -22928,7 +22928,7 @@ SystemAllocPolicy
 vec
 )
 {
-ReadBarriered
+WeakHeapPtr
 <
 Debugger
 *

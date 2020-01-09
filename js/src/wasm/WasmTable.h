@@ -62,10 +62,10 @@ WeakCache
 <
 GCHashSet
 <
-ReadBarrieredWasmInstanceObject
+WeakHeapPtrWasmInstanceObject
 MovableCellHasher
 <
-ReadBarrieredWasmInstanceObject
+WeakHeapPtrWasmInstanceObject
 >
 SystemAllocPolicy
 >
@@ -85,7 +85,7 @@ JS
 FreePolicy
 >
 ;
-ReadBarrieredWasmTableObject
+WeakHeapPtrWasmTableObject
 maybeObject_
 ;
 InstanceSet

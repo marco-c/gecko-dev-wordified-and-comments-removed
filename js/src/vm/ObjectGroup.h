@@ -1852,7 +1852,7 @@ js
 GCRekeyableHashMap
 <
 ArrayObjectKey
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 ArrayObjectKey
 SystemAllocPolicy
 >
@@ -2009,7 +2009,7 @@ allocationSiteTable
 =
 nullptr
 ;
-ReadBarrieredObjectGroup
+WeakHeapPtrObjectGroup
 stringSplitStringGroup
 =
 {

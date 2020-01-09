@@ -2327,7 +2327,7 @@ trc
 JSObject
 *
 src
-WriteBarrieredBase
+WriteBarriered
 <
 Value
 >

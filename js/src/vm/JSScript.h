@@ -12939,11 +12939,7 @@ gc
 :
 TenuredCell
 {
-WeakRef
-<
-JSScript
-*
->
+WeakHeapPtrScript
 script_
 ;
 GCPtrFunction

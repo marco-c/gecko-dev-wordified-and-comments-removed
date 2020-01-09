@@ -2014,7 +2014,7 @@ needsSweep
 (
 Key
 *
-ReadBarrieredJitCode
+WeakHeapPtrJitCode
 *
 value
 )
@@ -2056,7 +2056,7 @@ BaselineCacheIRStubCodeMap
 GCHashMap
 <
 CacheIRStubKey
-ReadBarrieredJitCode
+WeakHeapPtrJitCode
 CacheIRStubKey
 SystemAllocPolicy
 IcStubCodeMapGCPolicy
@@ -2354,7 +2354,7 @@ ICStubCodeMap
 GCHashMap
 <
 uint32_t
-ReadBarrieredJitCode
+WeakHeapPtrJitCode
 DefaultHasher
 <
 uint32_t
@@ -2394,7 +2394,7 @@ StubIndex
 :
 :
 Count
-ReadBarrieredJitCode
+WeakHeapPtrJitCode
 >
 stubs_
 ;
@@ -2649,7 +2649,7 @@ discardStubs
 {
 for
 (
-ReadBarrieredJitCode
+WeakHeapPtrJitCode
 &
 stubRef
 :
@@ -2671,7 +2671,7 @@ const
 for
 (
 const
-ReadBarrieredJitCode
+WeakHeapPtrJitCode
 &
 stubRef
 :

@@ -376,7 +376,7 @@ GCPolicy
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 T
 >
@@ -392,7 +392,7 @@ trc
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 T
 >
@@ -422,7 +422,7 @@ needsSweep
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 T
 >

@@ -12256,7 +12256,7 @@ entry
 .
 shape
 =
-ReadBarrieredShape
+WeakHeapPtrShape
 (
 shape
 )

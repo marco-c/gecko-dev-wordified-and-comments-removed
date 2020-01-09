@@ -230,10 +230,10 @@ WasmInstanceObject
 typedef
 HashSet
 <
-ReadBarrieredGlobalObject
+WeakHeapPtrGlobalObject
 MovableCellHasher
 <
-ReadBarrieredGlobalObject
+WeakHeapPtrGlobalObject
 >
 ZoneAllocPolicy
 >
@@ -8624,7 +8624,7 @@ global
 )
 const
 {
-ReadBarriered
+WeakHeapPtr
 <
 GlobalObject
 *

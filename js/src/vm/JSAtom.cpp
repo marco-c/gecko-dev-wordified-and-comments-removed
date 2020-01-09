@@ -682,7 +682,7 @@ AtomHasher
 match
 (
 const
-ReadBarriered
+WeakHeapPtr
 <
 JSAtom
 *

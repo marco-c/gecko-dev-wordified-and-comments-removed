@@ -1160,13 +1160,13 @@ JSContext
 js
 :
 :
-ReadBarrieredGlobalObject
+WeakHeapPtrGlobalObject
 global_
 ;
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 js
 :
@@ -1394,7 +1394,7 @@ nullptr
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 js
 :
@@ -1410,7 +1410,7 @@ nullptr
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 js
 :
@@ -1426,7 +1426,7 @@ nullptr
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 js
 :
@@ -1442,7 +1442,7 @@ nullptr
 js
 :
 :
-ReadBarriered
+WeakHeapPtr
 <
 js
 :
@@ -1635,7 +1635,7 @@ endif
 js
 :
 :
-ReadBarrieredScriptSourceObject
+WeakHeapPtrScriptSourceObject
 selfHostingScriptSource
 {
 nullptr
@@ -2649,7 +2649,13 @@ void
 setIsDebuggee
 (
 )
+{
+debugModeBits_
+|
+=
+IsDebuggee
 ;
+}
 void
 unsetIsDebuggee
 (

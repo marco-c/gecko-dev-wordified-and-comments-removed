@@ -87,7 +87,7 @@ bool
 match
 (
 const
-ReadBarriered
+WeakHeapPtr
 <
 JSAtom
 *
@@ -110,7 +110,7 @@ JS
 :
 GCHashSet
 <
-ReadBarriered
+WeakHeapPtr
 <
 JSAtom
 *

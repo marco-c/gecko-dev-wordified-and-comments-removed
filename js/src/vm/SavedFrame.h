@@ -488,7 +488,7 @@ JS
 :
 GCHashSet
 <
-ReadBarriered
+WeakHeapPtr
 <
 SavedFrame
 *
@@ -694,7 +694,7 @@ lookup
 )
 ;
 typedef
-ReadBarriered
+WeakHeapPtr
 <
 SavedFrame
 *
