@@ -224,14 +224,6 @@ onCancel
 )
 ;
 "
-ondialogextra1
-=
-"
-return
-onExtra1
-(
-)
-"
 onload
 =
 "

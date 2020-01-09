@@ -208,16 +208,6 @@ BrowseButton
 label
 ;
 "
-ondialogextra2
-=
-"
-g_dialog
-.
-appPickerBrowse
-(
-)
-;
-"
 defaultButton
 =
 "

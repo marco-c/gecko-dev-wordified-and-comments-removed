@@ -275,13 +275,6 @@ window
 create
 ;
 "
-ondialogextra1
-=
-"
-createProfile
-(
-)
-"
 #
 ifdef
 XP_WIN
