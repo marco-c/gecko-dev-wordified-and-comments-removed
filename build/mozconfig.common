@@ -173,16 +173,6 @@ build
 /
 mozconfig
 .
-nasm
-"
-.
-"
-topsrcdir
-/
-build
-/
-mozconfig
-.
 node
 "
 .
