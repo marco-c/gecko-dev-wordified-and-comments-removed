@@ -1,12 +1,12 @@
 extern
 crate
-libz_sys
-as
-ffi
+libc
 ;
 extern
 crate
-libc
+libz_sys
+as
+ffi
 ;
 mod
 context
@@ -23,8 +23,8 @@ extension
 :
 :
 {
-DeflateHandler
 DeflateBuilder
+DeflateHandler
 DeflateSettings
 }
 ;
