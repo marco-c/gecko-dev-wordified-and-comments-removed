@@ -574,11 +574,15 @@ nsBoxFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsBoxFrame
 (
 aStyle
+aPresContext
 kClassID
 false
 nullptr
@@ -592,6 +596,9 @@ nsBoxFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 bool

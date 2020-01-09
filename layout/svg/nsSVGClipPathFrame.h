@@ -98,11 +98,15 @@ nsSVGClipPathFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsSVGContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mIsBeingProcessed

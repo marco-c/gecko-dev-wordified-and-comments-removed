@@ -107,6 +107,12 @@ aPresShell
 nsRubyFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

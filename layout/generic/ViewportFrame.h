@@ -48,11 +48,15 @@ ViewportFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 ViewportFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {
@@ -253,6 +257,9 @@ ViewportFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -260,6 +267,7 @@ aID
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mView

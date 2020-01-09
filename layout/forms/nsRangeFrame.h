@@ -105,6 +105,9 @@ nsRangeFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual

@@ -2132,6 +2132,12 @@ aPresShell
 nsTableColGroupFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

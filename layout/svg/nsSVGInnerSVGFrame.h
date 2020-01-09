@@ -39,11 +39,15 @@ nsSVGInnerSVGFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsSVGViewportFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

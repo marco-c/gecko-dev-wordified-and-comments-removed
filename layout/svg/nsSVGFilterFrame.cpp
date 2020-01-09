@@ -110,6 +110,12 @@ aPresShell
 nsSVGFilterFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

@@ -164,6 +164,9 @@ nsMathMLSelectedFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -171,6 +174,7 @@ aID
 nsMathMLContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mSelectedFrame

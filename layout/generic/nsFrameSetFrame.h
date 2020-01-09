@@ -186,6 +186,9 @@ nsHTMLFramesetFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual

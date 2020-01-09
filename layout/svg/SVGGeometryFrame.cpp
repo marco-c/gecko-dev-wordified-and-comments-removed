@@ -204,6 +204,12 @@ aPresShell
 SVGGeometryFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

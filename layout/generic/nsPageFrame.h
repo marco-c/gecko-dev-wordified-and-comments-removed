@@ -172,6 +172,9 @@ nsPageFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual
@@ -315,6 +318,9 @@ nsPageBreakFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 ~

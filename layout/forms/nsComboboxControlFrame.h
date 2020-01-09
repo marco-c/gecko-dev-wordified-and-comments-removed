@@ -157,6 +157,9 @@ nsComboboxControlFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 ~

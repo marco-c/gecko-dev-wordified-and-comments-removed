@@ -186,6 +186,12 @@ aPresShell
 nsSVGMaskFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

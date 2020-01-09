@@ -119,6 +119,12 @@ aPresShell
 nsScrollbarButtonFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

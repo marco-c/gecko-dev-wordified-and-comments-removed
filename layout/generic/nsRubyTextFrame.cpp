@@ -77,6 +77,12 @@ aPresShell
 nsRubyTextFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

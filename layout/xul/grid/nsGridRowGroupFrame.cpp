@@ -75,6 +75,12 @@ aPresShell
 nsGridRowGroupFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 layout
 )
 ;

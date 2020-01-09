@@ -106,6 +106,9 @@ nsMenuBarFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual

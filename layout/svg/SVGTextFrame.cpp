@@ -9683,6 +9683,12 @@ aPresShell
 SVGTextFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

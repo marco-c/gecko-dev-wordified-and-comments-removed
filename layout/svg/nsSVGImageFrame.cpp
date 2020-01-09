@@ -195,6 +195,12 @@ aPresShell
 nsSVGImageFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

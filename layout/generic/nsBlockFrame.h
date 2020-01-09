@@ -1177,6 +1177,9 @@ nsBlockFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 =
@@ -1186,6 +1189,7 @@ kClassID
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mMinWidth

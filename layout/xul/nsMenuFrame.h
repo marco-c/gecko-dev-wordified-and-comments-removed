@@ -203,6 +203,9 @@ nsMenuFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 NS_DECL_QUERYFRAME

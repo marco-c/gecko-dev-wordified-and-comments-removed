@@ -73,6 +73,9 @@ nsSubDocumentFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 #

@@ -40,6 +40,12 @@ aPresShell
 nsMathMLmrowFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

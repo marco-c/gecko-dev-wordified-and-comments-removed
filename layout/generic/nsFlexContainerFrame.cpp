@@ -8241,6 +8241,12 @@ aPresShell
 nsFlexContainerFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

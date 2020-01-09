@@ -125,6 +125,12 @@ aPresShell
 nsSVGContainerFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 nsSVGContainerFrame
 :
 :

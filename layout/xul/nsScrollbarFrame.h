@@ -62,11 +62,15 @@ nsScrollbarFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsBoxFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mIncrement

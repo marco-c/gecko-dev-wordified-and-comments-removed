@@ -603,6 +603,9 @@ nsTableRowFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -610,6 +613,7 @@ aID
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mContentBSize
@@ -6995,6 +6999,12 @@ aPresShell
 nsTableRowFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

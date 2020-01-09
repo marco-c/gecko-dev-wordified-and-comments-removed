@@ -877,6 +877,9 @@ nsImageFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 Kind
 aKind
 )
@@ -884,6 +887,7 @@ aKind
 nsImageFrame
 (
 aStyle
+aPresContext
 kClassID
 aKind
 )
@@ -893,6 +897,9 @@ nsImageFrame
 (
 ComputedStyle
 *
+nsPresContext
+*
+aPresContext
 ClassID
 Kind
 )
@@ -904,6 +911,9 @@ nsImageFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -911,6 +921,7 @@ aID
 nsImageFrame
 (
 aStyle
+aPresContext
 aID
 Kind
 :

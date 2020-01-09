@@ -55,6 +55,12 @@ aPresShell
 nsXULLabelFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 it

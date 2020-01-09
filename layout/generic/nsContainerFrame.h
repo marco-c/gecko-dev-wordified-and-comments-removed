@@ -980,6 +980,9 @@ nsContainerFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -987,6 +990,7 @@ aID
 nsSplittableFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

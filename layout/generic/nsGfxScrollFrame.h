@@ -4870,6 +4870,9 @@ nsHTMLScrollFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 bool
 aIsRoot
 )
@@ -4877,6 +4880,7 @@ aIsRoot
 nsHTMLScrollFrame
 (
 aStyle
+aPresContext
 kClassID
 aIsRoot
 )
@@ -4887,6 +4891,9 @@ nsHTMLScrollFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsIFrame
 :
 :
@@ -7171,7 +7178,8 @@ nsXULScrollFrame
 (
 ComputedStyle
 *
-aStyle
+nsPresContext
+*
 bool
 aIsRoot
 bool

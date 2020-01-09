@@ -214,6 +214,9 @@ nsMathMLmencloseFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 =

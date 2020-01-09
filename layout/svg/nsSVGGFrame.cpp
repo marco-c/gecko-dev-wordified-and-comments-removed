@@ -78,6 +78,12 @@ aPresShell
 nsSVGGFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

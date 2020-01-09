@@ -85,11 +85,15 @@ nsSVGGenericContainerFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsSVGDisplayContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

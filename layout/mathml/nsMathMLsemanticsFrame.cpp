@@ -47,6 +47,12 @@ aPresShell
 nsMathMLsemanticsFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

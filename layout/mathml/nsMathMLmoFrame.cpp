@@ -73,6 +73,12 @@ aPresShell
 nsMathMLmoFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

@@ -56,6 +56,9 @@ nsCheckboxRadioFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual

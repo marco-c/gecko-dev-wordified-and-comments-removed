@@ -89,6 +89,9 @@ nsFileControlFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual

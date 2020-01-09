@@ -87,6 +87,9 @@ nsSVGOuterSVGFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 public
@@ -695,11 +698,15 @@ nsSVGOuterSVGAnonChildFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsSVGDisplayContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

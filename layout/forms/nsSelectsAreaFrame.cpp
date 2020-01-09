@@ -62,6 +62,12 @@ aShell
 nsSelectsAreaFrame
 (
 aStyle
+aShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 it

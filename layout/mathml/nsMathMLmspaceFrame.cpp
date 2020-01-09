@@ -52,6 +52,12 @@ aPresShell
 nsMathMLmspaceFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

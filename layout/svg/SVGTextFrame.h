@@ -531,11 +531,15 @@ SVGTextFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsSVGDisplayContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mTrailingUndisplayedCharacters

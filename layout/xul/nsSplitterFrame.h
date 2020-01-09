@@ -57,6 +57,9 @@ nsSplitterFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 virtual

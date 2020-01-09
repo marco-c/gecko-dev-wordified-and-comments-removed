@@ -97,6 +97,9 @@ nsStackFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 }

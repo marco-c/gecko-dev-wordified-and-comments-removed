@@ -216,6 +216,9 @@ nsTableWrapperFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -223,6 +226,7 @@ aID
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {
@@ -5372,6 +5376,12 @@ aPresShell
 nsTableWrapperFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

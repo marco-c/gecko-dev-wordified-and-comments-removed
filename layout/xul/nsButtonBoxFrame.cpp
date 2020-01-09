@@ -249,6 +249,12 @@ aPresShell
 nsButtonBoxFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }
@@ -264,6 +270,9 @@ nsButtonBoxFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -271,6 +280,7 @@ aID
 nsBoxFrame
 (
 aStyle
+aPresContext
 aID
 false
 )

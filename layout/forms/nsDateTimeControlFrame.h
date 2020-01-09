@@ -68,6 +68,9 @@ nsDateTimeControlFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 public

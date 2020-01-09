@@ -98,11 +98,15 @@ nsSVGFilterFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsSVGContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mLoopFlag

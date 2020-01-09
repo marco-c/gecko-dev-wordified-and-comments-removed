@@ -208,11 +208,15 @@ nsSVGImageFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 SVGGeometryFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mReflowCallbackPosted

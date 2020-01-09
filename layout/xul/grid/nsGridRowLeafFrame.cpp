@@ -75,6 +75,12 @@ aPresShell
 nsGridRowLeafFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 false
 layout
 )

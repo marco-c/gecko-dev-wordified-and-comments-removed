@@ -30,11 +30,15 @@ nsBackdropFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {

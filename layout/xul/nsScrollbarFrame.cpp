@@ -105,6 +105,12 @@ aPresShell
 nsScrollbarFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

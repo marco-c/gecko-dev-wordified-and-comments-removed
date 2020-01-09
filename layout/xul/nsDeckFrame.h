@@ -161,6 +161,9 @@ nsDeckFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 ;
 nsIFrame

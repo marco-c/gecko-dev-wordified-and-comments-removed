@@ -255,6 +255,9 @@ nsTextFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 =
@@ -264,6 +267,7 @@ kClassID
 nsFrame
 (
 aStyle
+aPresContext
 aID
 )
 mNextContinuation

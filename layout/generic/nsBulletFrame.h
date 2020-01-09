@@ -123,11 +123,15 @@ nsBulletFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mPadding

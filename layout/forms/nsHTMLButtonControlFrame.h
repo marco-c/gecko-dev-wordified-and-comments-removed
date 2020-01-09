@@ -56,11 +56,15 @@ nsHTMLButtonControlFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsHTMLButtonControlFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 {
@@ -431,6 +435,9 @@ nsHTMLButtonControlFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsIFrame
 :
 :

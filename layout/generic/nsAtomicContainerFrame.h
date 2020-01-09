@@ -81,6 +81,9 @@ nsAtomicContainerFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -88,6 +91,7 @@ aID
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

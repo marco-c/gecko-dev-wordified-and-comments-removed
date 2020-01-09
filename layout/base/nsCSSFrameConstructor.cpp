@@ -5193,6 +5193,12 @@ mPresShell
 nsBackdropFrame
 (
 style
+mPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 backdropFrame

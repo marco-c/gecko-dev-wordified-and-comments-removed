@@ -339,6 +339,9 @@ nsLeafBoxFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 =
@@ -348,6 +351,7 @@ kClassID
 nsLeafFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

@@ -402,6 +402,12 @@ aID
 nsContainerFrame
 (
 aStyle
+aTableFrame
+-
+>
+PresContext
+(
+)
 aID
 )
 mDesiredSize

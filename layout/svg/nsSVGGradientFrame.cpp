@@ -135,6 +135,9 @@ nsSVGGradientFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -142,6 +145,7 @@ aID
 nsSVGPaintServerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mSource
@@ -3028,6 +3032,12 @@ aPresShell
 nsSVGLinearGradientFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }
@@ -3055,6 +3065,12 @@ aPresShell
 nsSVGRadialGradientFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }

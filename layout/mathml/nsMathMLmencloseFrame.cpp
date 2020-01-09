@@ -142,6 +142,12 @@ aPresShell
 nsMathMLmencloseFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }
@@ -157,6 +163,9 @@ nsMathMLmencloseFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -164,6 +173,7 @@ aID
 nsMathMLContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 mRuleThickness

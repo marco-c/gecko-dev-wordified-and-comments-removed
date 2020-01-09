@@ -46,6 +46,9 @@ nsRubyContentFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 )
@@ -53,6 +56,7 @@ aID
 nsInlineFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

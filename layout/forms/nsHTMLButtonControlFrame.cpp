@@ -104,6 +104,12 @@ aPresShell
 nsHTMLButtonControlFrame
 (
 aStyle
+aPresShell
+-
+>
+GetPresContext
+(
+)
 )
 ;
 }
@@ -119,6 +125,9 @@ nsHTMLButtonControlFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 nsIFrame
 :
 :
@@ -129,6 +138,7 @@ aID
 nsContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

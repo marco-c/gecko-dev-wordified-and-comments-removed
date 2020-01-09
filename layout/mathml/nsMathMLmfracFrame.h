@@ -163,11 +163,15 @@ nsMathMLmfracFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsMathMLContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mLineRect

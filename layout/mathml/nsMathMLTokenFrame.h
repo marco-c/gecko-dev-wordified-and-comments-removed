@@ -175,6 +175,9 @@ nsMathMLTokenFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 ClassID
 aID
 =
@@ -184,6 +187,7 @@ kClassID
 nsMathMLContainerFrame
 (
 aStyle
+aPresContext
 aID
 )
 {

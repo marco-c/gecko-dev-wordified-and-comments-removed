@@ -1168,11 +1168,15 @@ nsGridContainerFrame
 ComputedStyle
 *
 aStyle
+nsPresContext
+*
+aPresContext
 )
 :
 nsContainerFrame
 (
 aStyle
+aPresContext
 kClassID
 )
 mCachedMinISize
