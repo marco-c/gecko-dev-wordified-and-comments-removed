@@ -3101,6 +3101,10 @@ PROCESS_TERMINATE
 =
 0x0001
         
+SYNCHRONIZE
+=
+0x00100000
+        
 WAIT_OBJECT_0
 =
 0x0
@@ -3121,6 +3125,8 @@ handle
 OpenProcess
 (
 PROCESS_TERMINATE
+|
+SYNCHRONIZE
 0
 pid
 )
