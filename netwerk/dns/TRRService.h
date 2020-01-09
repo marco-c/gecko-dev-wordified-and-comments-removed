@@ -420,6 +420,12 @@ Relaxed
 >
 mClearTRRBLStorage
 ;
+nsTHashtable
+<
+nsCStringHashKey
+>
+mExcludedDomains
+;
 enum
 ConfirmationState
 {
