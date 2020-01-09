@@ -332,7 +332,7 @@ assert_true
 found_background_first
 )
 ;
-verifyNumberOfDownloads
+verifyLoadedAndNoDoubleDownload
 (
 "
 resources
@@ -351,10 +351,9 @@ delay
 -
 onload
 "
-1
 )
 ;
-verifyNumberOfDownloads
+verifyLoadedAndNoDoubleDownload
 (
 "
 resources
@@ -365,10 +364,9 @@ png
 ?
 background
 "
-1
 )
 ;
-verifyNumberOfDownloads
+verifyLoadedAndNoDoubleDownload
 (
 "
 resources
@@ -387,10 +385,9 @@ delay
 -
 onload
 "
-1
 )
 ;
-verifyNumberOfDownloads
+verifyLoadedAndNoDoubleDownload
 (
 "
 resources
@@ -409,7 +406,6 @@ delay
 -
 onload
 "
-1
 )
 ;
 t
