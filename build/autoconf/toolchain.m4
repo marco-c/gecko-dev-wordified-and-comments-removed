@@ -325,17 +325,6 @@ ranlib
 )
 AC_CHECK_PROGS
 (
-AR
-"
-{
-TOOLCHAIN_PREFIX
-}
-ar
-"
-:
-)
-AC_CHECK_PROGS
-(
 AS
 "
 {
