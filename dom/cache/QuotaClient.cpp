@@ -746,6 +746,8 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
+bool
+aForGetUsage
 )
 override
 {

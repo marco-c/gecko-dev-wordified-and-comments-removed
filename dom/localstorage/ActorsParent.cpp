@@ -9948,6 +9948,8 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
+bool
+aForGetUsage
 )
 override
 ;
@@ -31575,6 +31577,8 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
+bool
+aForGetUsage
 )
 {
 AssertIsOnIOThread
@@ -32368,12 +32372,19 @@ usage
 0
 )
 ;
+if
+(
+!
+aForGetUsage
+)
+{
 InitUsageForOrigin
 (
 aOrigin
 usage
 )
 ;
+}
 aUsageInfo
 -
 >

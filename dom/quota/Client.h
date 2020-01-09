@@ -499,6 +499,8 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
+bool
+aForGetUsage
 )
 =
 0
