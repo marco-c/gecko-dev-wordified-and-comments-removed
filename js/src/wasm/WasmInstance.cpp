@@ -2586,7 +2586,7 @@ get
 )
 GetErrorMessage
 nullptr
-JSMSG_WASM_INVALID_PASSIVE_DATA_SEG
+JSMSG_WASM_DROPPED_DATA_SEG
 )
 ;
 return
@@ -2848,7 +2848,7 @@ get
 )
 GetErrorMessage
 nullptr
-JSMSG_WASM_INVALID_PASSIVE_DATA_SEG
+JSMSG_WASM_DROPPED_DATA_SEG
 )
 ;
 return
@@ -3423,7 +3423,7 @@ get
 )
 GetErrorMessage
 nullptr
-JSMSG_WASM_INVALID_PASSIVE_ELEM_SEG
+JSMSG_WASM_DROPPED_ELEM_SEG
 )
 ;
 return
@@ -3850,7 +3850,7 @@ get
 )
 GetErrorMessage
 nullptr
-JSMSG_WASM_INVALID_PASSIVE_ELEM_SEG
+JSMSG_WASM_DROPPED_ELEM_SEG
 )
 ;
 return
