@@ -125,6 +125,7 @@ check_archive_crc
 (
 )
 )
+;
 let
 entries
 =
@@ -157,6 +158,7 @@ in
 "
 )
 )
+;
 let
 dirstream
 =
@@ -176,6 +178,7 @@ test
 "
 )
 )
+;
 zipreader
 .
 close

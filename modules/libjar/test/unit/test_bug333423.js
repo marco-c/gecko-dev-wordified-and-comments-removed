@@ -64,11 +64,11 @@ zipreader
 .
 findEntries
 (
-'
+"
 *
 .
 *
-'
+"
 )
 ;
 Assert

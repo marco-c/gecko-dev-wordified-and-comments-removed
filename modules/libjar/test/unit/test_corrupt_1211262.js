@@ -65,9 +65,9 @@ zipreader
 .
 findEntries
 (
-'
+"
 *
-'
+"
 )
 )
 {

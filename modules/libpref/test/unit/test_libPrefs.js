@@ -65,8 +65,8 @@ i
 ]
 ]
 =
-'
-'
+"
+"
 ;
 }
 return
@@ -1074,9 +1074,9 @@ MAX_PREF_LENGTH
 .
 join
 (
-'
+"
 x
-'
+"
 )
 ;
 pb
@@ -1096,9 +1096,9 @@ largeStr
 largeStr
 +
 =
-'
+"
 x
-'
+"
 ;
 do_check_throws
 (
@@ -2977,7 +2977,6 @@ do_test_finished
 ;
 }
 }
-;
 do_test_pending
 (
 )
