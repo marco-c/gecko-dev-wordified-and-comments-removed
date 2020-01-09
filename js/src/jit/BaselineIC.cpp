@@ -29491,13 +29491,13 @@ setSawDoubleResult
 )
 ;
 }
-TryAttachStubOld
+TryAttachStub
 <
 UnaryArithIRGenerator
 >
 (
 "
-UniaryArith
+UniryArith
 "
 cx
 frame
