@@ -908,7 +908,9 @@ LOCALE
 /
 firefox
 /
-dictionaries
+language
+-
+tools
 /
 "
 )
