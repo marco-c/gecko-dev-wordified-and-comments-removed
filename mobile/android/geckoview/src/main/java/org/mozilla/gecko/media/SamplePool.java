@@ -186,9 +186,8 @@ mBufferless
 )
 {
 return
+new
 Sample
-.
-create
 (
 )
 ;
@@ -254,11 +253,14 @@ e
 ;
 }
 return
+new
 Sample
-.
-create
+(
+new
+SharedMemBuffer
 (
 shm
+)
 )
 ;
 }
