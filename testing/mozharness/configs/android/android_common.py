@@ -3454,6 +3454,20 @@ device_serial
 )
 s
 "
+                
+"
+-
+-
+log
+-
+raw
+=
+%
+(
+raw_log_file
+)
+s
+"
             
 ]
         
