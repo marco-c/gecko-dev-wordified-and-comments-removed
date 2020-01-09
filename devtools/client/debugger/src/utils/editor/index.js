@@ -219,7 +219,13 @@ editor
 &
 editor
 .
+hasCodeMirror
+?
+editor
+.
 codeMirror
+:
+null
 ;
 }
 export
