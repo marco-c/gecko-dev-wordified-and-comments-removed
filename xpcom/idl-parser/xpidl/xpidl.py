@@ -3042,14 +3042,33 @@ nsresult
 :
             
 return
-'
+"
+%
+s
 :
 :
 nserror
 :
 :
 nsresult
+"
+%
+(
+calltype
+!
+=
 '
+in
+'
+and
+'
+*
+mut
+'
+or
+'
+'
+)
         
 return
 "
