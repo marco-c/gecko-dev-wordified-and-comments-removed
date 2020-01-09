@@ -93,6 +93,7 @@ url
 .
 replace
 (
+^
 /
 images
 /
@@ -132,6 +133,7 @@ url
 .
 replace
 (
+^
 /
 images
 /

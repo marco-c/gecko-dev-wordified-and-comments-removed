@@ -120,7 +120,7 @@ false
 const
 updateAssets
 =
-false
+true
 ;
 process
 .
