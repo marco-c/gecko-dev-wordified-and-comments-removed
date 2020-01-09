@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 async
 function
 waitForConsoleLink
