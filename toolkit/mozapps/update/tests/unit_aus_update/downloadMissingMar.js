@@ -213,6 +213,7 @@ downloadListener
 )
 ;
 }
+async
 function
 downloadListenerStop
 (
@@ -243,17 +244,11 @@ removeDownloadListener
 downloadListener
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 stop_httpserver
 (
 doTestFinish

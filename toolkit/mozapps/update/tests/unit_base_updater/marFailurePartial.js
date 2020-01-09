@@ -66,6 +66,7 @@ true
 )
 ;
 }
+async
 function
 runUpdateFinished
 (
@@ -94,17 +95,11 @@ checkUpdateLogContents
 LOG_PARTIAL_FAILURE
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 checkUpdateManager
 (
 STATE_NONE

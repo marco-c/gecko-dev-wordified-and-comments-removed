@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -136,17 +137,11 @@ count
 MSG_SHOULD_EQUAL
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 let
 cancelations
 =
@@ -179,7 +174,6 @@ preference
 MSG_SHOULD_EQUAL
 )
 ;
-let
 log
 =
 getUpdateDirFile

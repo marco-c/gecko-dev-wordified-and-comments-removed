@@ -62,6 +62,7 @@ false
 )
 ;
 }
+async
 function
 runUpdateFinished
 (
@@ -86,17 +87,11 @@ checkUpdateLogContains
 STATE_FAILED_VERSION_DOWNGRADE_ERROR
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 checkUpdateManager
 (
 STATE_NONE

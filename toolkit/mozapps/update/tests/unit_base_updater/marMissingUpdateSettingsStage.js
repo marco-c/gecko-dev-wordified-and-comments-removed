@@ -75,6 +75,7 @@ true
 )
 ;
 }
+async
 function
 stageUpdateFinished
 (
@@ -95,17 +96,11 @@ checkUpdateLogContains
 STATE_FAILED_UPDATE_SETTINGS_FILE_CHANNEL
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 checkUpdateManager
 (
 STATE_NONE

@@ -78,6 +78,7 @@ null
 )
 ;
 }
+async
 function
 runUpdateFinished
 (
@@ -97,17 +98,11 @@ checkFilesAfterUpdateFailure
 getApplyDirFile
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 if
 (
 IS_SERVICE_TEST

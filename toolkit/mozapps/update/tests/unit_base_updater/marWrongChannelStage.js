@@ -89,6 +89,7 @@ true
 )
 ;
 }
+async
 function
 stageUpdateFinished
 (
@@ -109,17 +110,11 @@ checkUpdateLogContains
 STATE_FAILED_MAR_CHANNEL_MISMATCH_ERROR
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 checkUpdateManager
 (
 STATE_NONE

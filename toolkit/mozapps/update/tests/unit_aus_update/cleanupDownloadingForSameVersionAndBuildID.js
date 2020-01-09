@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -215,17 +216,11 @@ statusText
 MSG_SHOULD_EQUAL
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 let
 dir
 =

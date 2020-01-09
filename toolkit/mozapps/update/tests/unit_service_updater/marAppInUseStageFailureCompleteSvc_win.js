@@ -113,6 +113,7 @@ waitForHelperExit
 )
 ;
 }
+async
 function
 waitForHelperExitFinished
 (
@@ -160,17 +161,11 @@ n
 CALL_QUIT
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 checkUpdateManager
 (
 STATE_NONE

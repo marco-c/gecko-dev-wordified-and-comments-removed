@@ -51,6 +51,7 @@ STATE_SUCCEEDED
 )
 ;
 }
+async
 function
 runUpdateFinished
 (
@@ -79,17 +80,11 @@ checkUpdateLogContents
 LOG_COMPLETE_SUCCESS
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 checkUpdateManager
 (
 STATE_NONE

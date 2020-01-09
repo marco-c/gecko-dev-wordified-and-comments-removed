@@ -61,6 +61,7 @@ checkPostUpdateAppLog
 )
 ;
 }
+async
 function
 checkPostUpdateAppLogFinished
 (
@@ -85,17 +86,11 @@ checkUpdateLogContents
 LOG_COMPLETE_SUCCESS
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 checkUpdateManager
 (
 STATE_NONE

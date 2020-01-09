@@ -93,6 +93,7 @@ checkPostUpdateAppLog
 )
 ;
 }
+async
 function
 checkPostUpdateAppLogFinished
 (
@@ -117,17 +118,11 @@ checkUpdateLogContains
 ERR_PARENT_PID_PERSISTS
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 checkUpdateManager
 (
 STATE_NONE

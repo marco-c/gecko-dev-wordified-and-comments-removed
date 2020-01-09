@@ -1,3 +1,4 @@
+async
 function
 run_test
 (
@@ -160,18 +161,11 @@ count
 MSG_SHOULD_EQUAL
 )
 ;
-executeSoon
-(
+await
 waitForUpdateXMLFiles
+(
 )
 ;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
-let
 log
 =
 getUpdateDirFile
