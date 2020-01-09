@@ -284,11 +284,6 @@ modules
 js
 '
 '
-constants
-.
-js
-'
-'
 content
 -
 observer
