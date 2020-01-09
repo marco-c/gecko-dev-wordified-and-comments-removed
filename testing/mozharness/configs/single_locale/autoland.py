@@ -15,14 +15,6 @@ central
 "
     
 "
-update_channel
-"
-:
-"
-nightly
-"
-    
-"
 hg_l10n_base
 "
 :

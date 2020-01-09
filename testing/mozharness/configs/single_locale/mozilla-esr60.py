@@ -48,14 +48,6 @@ esr60
 "
     
 "
-update_channel
-"
-:
-"
-esr
-"
-    
-"
 hg_l10n_base
 "
 :

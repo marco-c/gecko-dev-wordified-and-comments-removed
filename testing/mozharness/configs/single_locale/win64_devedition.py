@@ -185,12 +185,4 @@ exes
 :
 {
 }
-    
-"
-update_channel
-"
-:
-"
-aurora
-"
 }

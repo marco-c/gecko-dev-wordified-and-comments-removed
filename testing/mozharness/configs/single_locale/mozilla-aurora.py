@@ -15,14 +15,6 @@ aurora
 "
     
 "
-update_channel
-"
-:
-"
-aurora
-"
-    
-"
 hg_l10n_base
 "
 :

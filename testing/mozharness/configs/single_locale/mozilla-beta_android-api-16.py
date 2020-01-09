@@ -7,11 +7,6 @@ mozilla
 -
 beta
 "
-MOZ_UPDATE_CHANNEL
-=
-"
-beta
-"
 MOZILLA_DIR
 =
 BRANCH
@@ -253,12 +248,6 @@ MOZ_OBJDIR
 "
 :
 OBJDIR
-        
-"
-MOZ_UPDATE_CHANNEL
-"
-:
-MOZ_UPDATE_CHANNEL
     
 }
 }

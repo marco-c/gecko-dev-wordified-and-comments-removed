@@ -15,14 +15,6 @@ beta
 "
     
 "
-update_channel
-"
-:
-"
-beta
-"
-    
-"
 hg_l10n_base
 "
 :

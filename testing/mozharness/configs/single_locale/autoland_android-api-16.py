@@ -5,11 +5,6 @@ BRANCH
 "
 autoland
 "
-MOZ_UPDATE_CHANNEL
-=
-"
-nightly
-"
 MOZILLA_DIR
 =
 BRANCH
@@ -236,12 +231,6 @@ environ
 EN_US_BINARY_URL
 "
 ]
-        
-"
-MOZ_UPDATE_CHANNEL
-"
-:
-MOZ_UPDATE_CHANNEL
     
 }
     

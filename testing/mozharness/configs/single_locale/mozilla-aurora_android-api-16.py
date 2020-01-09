@@ -7,11 +7,6 @@ mozilla
 -
 aurora
 "
-MOZ_UPDATE_CHANNEL
-=
-"
-aurora
-"
 MOZILLA_DIR
 =
 BRANCH
@@ -239,12 +234,6 @@ environ
 EN_US_BINARY_URL
 "
 ]
-        
-"
-MOZ_UPDATE_CHANNEL
-"
-:
-MOZ_UPDATE_CHANNEL
     
 }
     

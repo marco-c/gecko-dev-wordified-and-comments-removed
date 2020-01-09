@@ -145,12 +145,4 @@ mbsdiff
 "
 mbsdiff
 "
-    
-"
-update_channel
-"
-:
-"
-aurora
-"
 }

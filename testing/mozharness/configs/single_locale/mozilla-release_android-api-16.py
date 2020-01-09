@@ -7,11 +7,6 @@ mozilla
 -
 release
 "
-MOZ_UPDATE_CHANNEL
-=
-"
-release
-"
 MOZILLA_DIR
 =
 BRANCH
@@ -250,12 +245,6 @@ MOZ_OBJDIR
 "
 :
 OBJDIR
-        
-"
-MOZ_UPDATE_CHANNEL
-"
-:
-MOZ_UPDATE_CHANNEL
     
 }
 }

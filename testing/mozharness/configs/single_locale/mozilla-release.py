@@ -15,14 +15,6 @@ release
 "
     
 "
-update_channel
-"
-:
-"
-release
-"
-    
-"
 hg_l10n_base
 "
 :

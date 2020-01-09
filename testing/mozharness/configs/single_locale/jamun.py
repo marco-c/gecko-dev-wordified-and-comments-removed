@@ -13,16 +13,6 @@ jamun
 "
     
 "
-update_channel
-"
-:
-"
-nightly
--
-jamun
-"
-    
-"
 hg_l10n_base
 "
 :

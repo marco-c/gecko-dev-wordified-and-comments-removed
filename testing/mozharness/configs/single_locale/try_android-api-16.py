@@ -231,14 +231,6 @@ environ
 EN_US_BINARY_URL
 "
 ]
-        
-"
-MOZ_UPDATE_CHANNEL
-"
-:
-"
-try
-"
     
 }
     

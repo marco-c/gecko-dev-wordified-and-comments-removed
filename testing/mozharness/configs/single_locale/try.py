@@ -13,16 +13,6 @@ try
 "
     
 "
-update_channel
-"
-:
-"
-nightly
--
-try
-"
-    
-"
 hg_l10n_base
 "
 :

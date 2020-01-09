@@ -149,6 +149,12 @@ stub
 -
 installer
 '
+    
+'
+update
+-
+channel
+'
 )
 def
 attrmatch
