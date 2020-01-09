@@ -7600,7 +7600,7 @@ Loader
 :
 ParseSheet
 "
-LAYOUT_CSSParsing
+LAYOUT
 )
 ;
 MOZ_ASSERT
