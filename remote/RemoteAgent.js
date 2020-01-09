@@ -415,6 +415,12 @@ linkedBrowser
 )
 )
 ;
+this
+.
+wrappedJSObject
+=
+this
+;
 }
 get
 listening

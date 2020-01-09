@@ -65,3 +65,15 @@ xpcshell
 ini
 "
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+"
+browser
+/
+browser
+.
+ini
+"
+]
