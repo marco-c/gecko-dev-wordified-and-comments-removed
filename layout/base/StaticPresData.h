@@ -290,10 +290,8 @@ nullptr
 ;
 }
 }
-RefPtr
-<
-nsAtom
->
+nsStaticAtom
+*
 mLangGroup
 ;
 nscoord
@@ -355,7 +353,7 @@ Get
 (
 )
 ;
-nsAtom
+nsStaticAtom
 *
 GetLangGroup
 (
@@ -370,10 +368,8 @@ nullptr
 )
 const
 ;
-already_AddRefed
-<
-nsAtom
->
+nsStaticAtom
+*
 GetUncachedLangGroup
 (
 nsAtom
@@ -429,8 +425,9 @@ StaticPresData
 StaticPresData
 (
 )
-{
-}
+=
+default
+;
 nsLanguageAtomService
 *
 mLangService

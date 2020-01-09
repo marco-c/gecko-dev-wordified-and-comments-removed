@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsRefPtrHashtable
+nsDataHashtable
 .
 h
 "
@@ -78,7 +78,7 @@ GetService
 (
 )
 ;
-nsAtom
+nsStaticAtom
 *
 LookupLanguage
 (
@@ -109,7 +109,7 @@ GetLocaleLanguage
 (
 )
 ;
-nsAtom
+nsStaticAtom
 *
 GetLanguageGroup
 (
@@ -123,10 +123,8 @@ aNeedsToCache
 nullptr
 )
 ;
-already_AddRefed
-<
-nsAtom
->
+nsStaticAtom
+*
 GetUncachedLanguageGroup
 (
 nsAtom
@@ -137,13 +135,14 @@ const
 ;
 private
 :
-nsRefPtrHashtable
+nsDataHashtable
 <
 nsRefPtrHashKey
 <
 nsAtom
 >
-nsAtom
+nsStaticAtom
+*
 >
 mLangToGroup
 ;
