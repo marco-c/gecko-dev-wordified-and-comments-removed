@@ -4547,7 +4547,7 @@ conn
 aTrans
 -
 >
-GetConnectionReference
+Connection
 (
 )
 ;

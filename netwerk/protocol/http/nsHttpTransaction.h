@@ -262,14 +262,6 @@ TakeResponseTrailers
 (
 )
 ;
-already_AddRefed
-<
-nsAHttpConnection
->
-GetConnectionReference
-(
-)
-;
 bool
 ResponseIsComplete
 (
@@ -1343,6 +1335,11 @@ EligibleForThrottling
 (
 )
 const
+;
+void
+DontReuseConnection
+(
+)
 ;
 private
 :
