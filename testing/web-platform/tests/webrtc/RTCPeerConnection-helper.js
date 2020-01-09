@@ -965,8 +965,11 @@ return
 }
 pc
 .
-oniceconnectionstatechange
-=
+addEventListener
+(
+'
+iceconnectionstatechange
+'
 (
 )
 =
@@ -984,6 +987,7 @@ resolve
 )
 ;
 }
+)
 ;
 }
 )
