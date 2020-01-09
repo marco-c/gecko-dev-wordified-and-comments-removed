@@ -7325,8 +7325,15 @@ NS_ERROR_SAVE_LINK_AS_TIMEOUT
 function
 saveAsListener
 (
+principal
 )
 {
+this
+.
+_triggeringPrincipal
+=
+principal
+;
 }
 saveAsListener
 .
@@ -7556,6 +7563,9 @@ false
 docURI
 doc
 isContentWindowPrivate
+this
+.
+_triggeringPrincipal
 )
 ;
 }
@@ -7916,6 +7926,9 @@ asyncOpen
 new
 saveAsListener
 (
+this
+.
+principal
 )
 )
 ;
