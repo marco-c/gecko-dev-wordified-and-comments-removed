@@ -297,6 +297,13 @@ tab
 svg
 '
 '
+webconsole
+-
+logpoint
+.
+svg
+'
+'
 whole
 -
 word
