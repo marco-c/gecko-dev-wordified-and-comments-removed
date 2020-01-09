@@ -237,6 +237,11 @@ ActorsParent
 h
 '
 '
+CheckedUnsafePtr
+.
+h
+'
+'
 Client
 .
 h

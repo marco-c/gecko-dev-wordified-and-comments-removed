@@ -89,6 +89,11 @@ UNIFIED_SOURCES
 =
 [
 '
+TestCheckedUnsafePtr
+.
+cpp
+'
+'
 TestQuotaManager
 .
 cpp
