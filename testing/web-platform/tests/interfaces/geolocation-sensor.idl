@@ -67,7 +67,10 @@ options
 SecureContext
 Exposed
 =
+(
+DedicatedWorker
 Window
+)
 ]
 interface
 GeolocationSensor
