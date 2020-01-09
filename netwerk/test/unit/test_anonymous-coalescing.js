@@ -549,7 +549,6 @@ function
 testOnStartRequest
 (
 request
-ctx
 )
 {
 Assert
@@ -655,7 +654,6 @@ function
 testOnStopRequest
 (
 request
-ctx
 status
 )
 {

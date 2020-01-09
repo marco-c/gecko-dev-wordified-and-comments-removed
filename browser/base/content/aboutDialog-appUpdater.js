@@ -1576,14 +1576,12 @@ this
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 }
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {

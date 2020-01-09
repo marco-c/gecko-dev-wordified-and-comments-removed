@@ -534,7 +534,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 this
@@ -619,7 +618,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {

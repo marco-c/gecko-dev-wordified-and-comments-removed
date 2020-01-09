@@ -224,7 +224,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 Assert
@@ -281,7 +280,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {

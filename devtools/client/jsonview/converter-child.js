@@ -325,7 +325,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 request
@@ -452,7 +451,6 @@ listener
 onStartRequest
 (
 request
-context
 )
 ;
 const
@@ -542,7 +540,7 @@ listener
 onDataAvailable
 (
 request
-context
+null
 stream
 0
 stream
@@ -558,7 +556,6 @@ onStopRequest
 function
 (
 request
-context
 statusCode
 )
 {
@@ -581,7 +578,6 @@ listener
 onStopRequest
 (
 request
-context
 statusCode
 )
 ;

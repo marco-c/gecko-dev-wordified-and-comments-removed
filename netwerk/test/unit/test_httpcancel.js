@@ -286,7 +286,6 @@ function
 test_onStartR
 (
 request
-ctx
 )
 {
 Assert
@@ -469,7 +468,6 @@ function
 test_onStopR
 (
 request
-ctx
 status
 )
 {

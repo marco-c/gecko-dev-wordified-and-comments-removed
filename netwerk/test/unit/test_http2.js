@@ -225,7 +225,6 @@ function
 testOnStartRequest
 (
 request
-ctx
 )
 {
 this
@@ -394,7 +393,6 @@ function
 testOnStopRequest
 (
 request
-ctx
 status
 )
 {
@@ -686,7 +684,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -1260,7 +1257,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -1521,7 +1517,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -1654,7 +1649,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -1866,7 +1860,6 @@ function
 testOnStartRequest
 (
 request
-ctx
 )
 {
 this
@@ -1981,7 +1974,6 @@ function
 testOnStopRequest
 (
 request
-ctx
 status
 )
 {
@@ -2522,7 +2514,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -4112,7 +4103,6 @@ function
 test_onStartR
 (
 request
-ctx
 )
 {
 Assert
@@ -4153,7 +4143,6 @@ function
 test_onStopR
 (
 request
-ctx
 status
 )
 {
@@ -4358,7 +4347,6 @@ function
 test_onStartR
 (
 request
-ctx
 )
 {
 Assert
@@ -4399,7 +4387,6 @@ function
 test_onStopR
 (
 request
-ctx
 status
 )
 {
@@ -5302,7 +5289,6 @@ function
 pushAPIOnStart
 (
 request
-ctx
 )
 {
 }
@@ -5517,7 +5503,6 @@ function
 test_onStopR
 (
 request
-ctx
 status
 )
 {
@@ -5693,7 +5678,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -5980,7 +5964,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -6233,7 +6216,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -6345,7 +6327,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -7147,7 +7128,6 @@ function
 testOnStopRequest
 (
 request
-ctx
 status
 )
 {
@@ -7173,7 +7153,6 @@ call
 (
 this
 request
-ctx
 status
 )
 ;
@@ -7220,7 +7199,6 @@ function
 testOnStartRequest
 (
 request
-ctx
 )
 {
 this
@@ -7332,7 +7310,6 @@ function
 testOnStopRequest
 (
 request
-ctx
 status
 )
 {
@@ -7465,7 +7442,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -7738,7 +7714,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {
@@ -7908,7 +7883,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {

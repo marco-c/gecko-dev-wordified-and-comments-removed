@@ -191,7 +191,6 @@ onStartRequest
 function
 (
 request
-ctx
 )
 {
 Assert
@@ -301,7 +300,6 @@ onStopRequest
 function
 (
 request
-ctx
 status
 )
 {

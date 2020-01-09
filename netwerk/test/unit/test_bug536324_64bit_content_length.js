@@ -67,7 +67,6 @@ onStartRequest
 function
 (
 req
-ctx
 )
 {
 }
@@ -112,7 +111,6 @@ onStopRequest
 function
 (
 req
-ctx
 stat
 )
 {

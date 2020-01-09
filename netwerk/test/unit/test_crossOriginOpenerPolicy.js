@@ -158,7 +158,6 @@ resolve
 onStartRequest
 (
 request
-context
 )
 {
 this
@@ -200,7 +199,6 @@ count
 onStopRequest
 (
 request
-context
 status
 )
 {

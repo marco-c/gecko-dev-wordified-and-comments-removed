@@ -164,7 +164,6 @@ function
 checkFile
 (
 ch
-cx
 status
 data
 )

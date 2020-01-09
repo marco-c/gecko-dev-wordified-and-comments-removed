@@ -1539,7 +1539,6 @@ null
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 var
@@ -1597,14 +1596,12 @@ extListener
 onStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {
@@ -1622,7 +1619,6 @@ extListener
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 ;
@@ -4344,7 +4340,6 @@ chunk
 onStartRequest
 (
 aRequest
-aContext
 )
 {
 var
@@ -4790,7 +4785,6 @@ proxy
 onStartRequest
 (
 request
-context
 )
 {
 listener
@@ -4798,7 +4792,6 @@ listener
 onStartRequest
 (
 aRequest
-aContext
 )
 ;
 }
@@ -4816,7 +4809,7 @@ listener
 onDataAvailable
 (
 aRequest
-aContext
+null
 inputStream
 offset
 count
@@ -4826,7 +4819,6 @@ count
 onStopRequest
 (
 request
-context
 statusCode
 )
 {
@@ -4859,7 +4851,6 @@ listener
 onStopRequest
 (
 aRequest
-context
 statusCode
 )
 ;
@@ -4968,7 +4959,6 @@ listener
 onStopRequest
 (
 aRequest
-aContext
 statusCode
 )
 ;
@@ -5090,7 +5080,6 @@ proxy
 onStopRequest
 (
 aRequest
-aContext
 aStatusCode
 )
 {

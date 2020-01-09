@@ -1821,7 +1821,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 switch
@@ -1900,7 +1899,6 @@ onStopRequest
 function
 (
 request
-context
 statusCode
 )
 {

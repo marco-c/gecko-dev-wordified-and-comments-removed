@@ -3728,7 +3728,6 @@ cancel
 onStartRequest
 (
 request
-context
 )
 {
 if
@@ -3917,7 +3916,6 @@ statusText
 onStopRequest
 (
 request
-context
 status
 )
 {

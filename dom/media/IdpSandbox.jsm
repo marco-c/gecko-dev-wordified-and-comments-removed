@@ -319,14 +319,12 @@ count
 onStartRequest
 (
 request
-context
 )
 {
 }
 onStopRequest
 (
 request
-context
 status
 )
 {

@@ -268,7 +268,6 @@ onStartRequest
 function
 (
 request
-context
 )
 {
 Assert
@@ -311,7 +310,6 @@ _listener
 onStartRequest
 (
 request
-context
 )
 ;
 }
@@ -361,7 +359,6 @@ onStopRequest
 function
 (
 request
-context
 status
 )
 {
@@ -397,7 +394,6 @@ _listener
 onStopRequest
 (
 request
-context
 status
 )
 ;
