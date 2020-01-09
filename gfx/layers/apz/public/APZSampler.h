@@ -306,6 +306,15 @@ LayerMetricsWrapper
 aLayer
 )
 ;
+ScrollableLayerGuid
+GetGuid
+(
+const
+LayerMetricsWrapper
+&
+aLayer
+)
+;
 void
 AssertOnSamplerThread
 (
