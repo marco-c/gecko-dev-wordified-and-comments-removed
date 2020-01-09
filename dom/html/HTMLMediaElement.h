@@ -442,6 +442,11 @@ NodeInfo
 aNodeInfo
 )
 ;
+nsresult
+Init
+(
+)
+;
 void
 ReportCanPlayTelemetry
 (
@@ -4119,6 +4124,11 @@ void
 ReportPlayedTimeAfterBlockedTelemetry
 (
 )
+;
+bool
+mInitialized
+=
+false
 ;
 bool
 mIsBlessed
