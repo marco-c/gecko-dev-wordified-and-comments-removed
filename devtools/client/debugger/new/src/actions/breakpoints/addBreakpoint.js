@@ -19,7 +19,7 @@ assertBreakpoint
 createBreakpoint
 getASTLocation
 assertLocation
-makeLocationId
+makeBreakpointId
 makeSourceActorLocation
 }
 from
@@ -454,7 +454,7 @@ newBreakpoint
 {
 id
 :
-makeLocationId
+makeBreakpointId
 (
 generatedLocation
 )

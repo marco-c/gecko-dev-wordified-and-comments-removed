@@ -204,7 +204,7 @@ column
 }
 export
 function
-makeLocationId
+makeBreakpointId
 (
 location
 :
@@ -727,7 +727,7 @@ properties
 {
 id
 :
-makeLocationId
+makeBreakpointId
 (
 location
 )

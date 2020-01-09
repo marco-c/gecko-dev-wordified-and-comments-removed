@@ -1,6 +1,6 @@
 import
 {
-makeLocationId
+makeBreakpointId
 }
 from
 "
@@ -325,7 +325,7 @@ resolve
 {
 id
 :
-makeLocationId
+makeBreakpointId
 (
 location
 )
