@@ -496,6 +496,10 @@ img
 (
 <
 img
+alt
+=
+"
+"
 crossOrigin
 =
 "
@@ -543,6 +547,10 @@ img
 (
 <
 img
+alt
+=
+"
+"
 crossOrigin
 =
 "

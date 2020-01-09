@@ -397,6 +397,11 @@ this
 .
 _handleCancelBtn
 }
+role
+=
+"
+presentation
+"
 /
 >
 <
