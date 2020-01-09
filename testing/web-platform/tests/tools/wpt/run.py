@@ -2087,6 +2087,14 @@ self
 venv
 .
 bin_path
+browser_binary
+=
+kwargs
+[
+"
+binary
+"
+]
 )
             
 else
