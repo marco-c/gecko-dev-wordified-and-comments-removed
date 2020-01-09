@@ -13950,9 +13950,7 @@ edge_flags
 BrushFlags
 :
 :
-empty
-(
-)
+PERSPECTIVE_INTERPOLATION
 )
 )
 ;

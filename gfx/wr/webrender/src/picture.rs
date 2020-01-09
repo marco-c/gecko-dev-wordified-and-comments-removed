@@ -9803,12 +9803,12 @@ RasterConfig
 composite_mode
 establishes_raster_root
 :
-surface_spatial_node_index
-=
-=
 surface
 .
 raster_spatial_node_index
+!
+=
+parent_raster_spatial_node_index
 surface_index
 :
 state
