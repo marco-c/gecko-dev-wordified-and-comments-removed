@@ -256,6 +256,11 @@ DynamicallyLinkedFunctionPtr
 h
 '
 '
+ImportDir
+.
+h
+'
+'
 NativeNt
 .
 h
