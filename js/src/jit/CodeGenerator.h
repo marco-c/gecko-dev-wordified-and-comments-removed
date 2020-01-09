@@ -987,7 +987,7 @@ typeset
 )
 ;
 void
-emitAssertObjectOrStringResult
+emitAssertGCThingResult
 (
 Register
 input
@@ -1417,7 +1417,7 @@ ins
 )
 ;
 void
-emitObjectOrStringResultChecks
+emitGCThingResultChecks
 (
 LInstruction
 *
