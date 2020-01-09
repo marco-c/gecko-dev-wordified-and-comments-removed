@@ -469,6 +469,11 @@ jstermCodeMirror
 PropTypes
 .
 bool
+autocomplete
+:
+PropTypes
+.
+bool
 currentReverseSearchEntry
 :
 PropTypes
@@ -1078,6 +1083,7 @@ onFirstMeaningfulPaint
 serviceContainer
 closeSplitConsole
 jstermCodeMirror
+autocomplete
 reverseSearchInitialValue
 editorMode
 }
@@ -1230,6 +1236,7 @@ onPaste
 codeMirrorEnabled
 :
 jstermCodeMirror
+autocomplete
 editorMode
 }
 )
