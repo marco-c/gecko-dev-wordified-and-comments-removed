@@ -2542,11 +2542,6 @@ generate_tasks
 (
 parameters
 full
-root
-=
-build
-.
-topsrcdir
 )
     
 all_tasks

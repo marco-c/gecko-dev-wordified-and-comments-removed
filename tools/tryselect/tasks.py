@@ -273,10 +273,19 @@ def
 generate_tasks
 (
 params
+=
+None
 full
-root
+=
+False
 )
 :
+    
+root
+=
+build
+.
+topsrcdir
     
 root_hash
 =
@@ -517,9 +526,7 @@ os
 .
 chdir
 (
-build
-.
-topsrcdir
+root
 )
     
 root
