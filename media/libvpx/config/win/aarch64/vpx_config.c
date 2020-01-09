@@ -76,6 +76,13 @@ pic
 disable
 -
 avx512
+-
+-
+enable
+-
+realtime
+-
+only
 "
 ;
 const
