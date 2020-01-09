@@ -102,6 +102,10 @@ fails
 if
 (
 azureSkia
+&
+&
+!
+webrender
 )
 fails
 -
