@@ -50396,6 +50396,7 @@ DoIdleProcessing
 mNeedsCheckpoint
 )
 ;
+}
 MOZ_ALWAYS_SUCCEEDS
 (
 owningThread
@@ -50412,7 +50413,10 @@ return
 NS_OK
 ;
 }
-}
+AssertIsOnBackgroundThread
+(
+)
+;
 RefPtr
 <
 ConnectionPool
