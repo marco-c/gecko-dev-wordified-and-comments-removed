@@ -2887,6 +2887,8 @@ GetHrefURIForAnchors
 )
 const
 ;
+public
+:
 bool
 IsEditableRoot
 (
