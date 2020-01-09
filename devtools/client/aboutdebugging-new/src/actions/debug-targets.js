@@ -970,7 +970,7 @@ getState
 .
 ui
 .
-showSystemAddons
+showHiddenAddons
 )
 {
 extensions
@@ -986,6 +986,12 @@ e
 e
 .
 isSystem
+&
+&
+!
+e
+.
+hidden
 )
 ;
 }

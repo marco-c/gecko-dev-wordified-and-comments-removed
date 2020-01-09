@@ -98,7 +98,7 @@ devtools
 .
 aboutdebugging
 .
-showSystemAddons
+showHiddenAddons
 "
 ;
 function

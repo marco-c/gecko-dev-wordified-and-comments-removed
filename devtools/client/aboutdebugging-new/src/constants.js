@@ -469,14 +469,14 @@ process
 -
 debugging
 "
-SHOW_SYSTEM_ADDONS
+SHOW_HIDDEN_ADDONS
 :
 "
 devtools
 .
 aboutdebugging
 .
-showSystemAddons
+showHiddenAddons
 "
 }
 ;

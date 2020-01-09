@@ -2818,7 +2818,7 @@ devtools
 .
 aboutdebugging
 .
-showSystemAddons
+showHiddenAddons
 "
 false
 )
@@ -2832,7 +2832,7 @@ devtools
 .
 aboutdebugging
 .
-showSystemAddons
+showHiddenAddons
 "
 true
 )
