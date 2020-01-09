@@ -8872,10 +8872,10 @@ Picture
 }
 =
 >
-debug_colors
+ColorF
 :
 :
-GREEN
+TRANSPARENT
 PrimitiveInstanceKind
 :
 :
@@ -9032,6 +9032,16 @@ debug_colors
 CYAN
 }
 ;
+if
+debug_color
+.
+a
+!
+=
+0
+.
+0
+{
 let
 debug_rect
 =
@@ -9051,6 +9061,7 @@ debug_rect
 debug_color
 )
 ;
+}
 }
 let
 vis_index
