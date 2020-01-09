@@ -1982,6 +1982,12 @@ Ci
 nsIChannel
 .
 LOAD_BYPASS_CACHE
+|
+Ci
+.
+nsIChannel
+.
+LOAD_BYPASS_URL_CLASSIFIER
 ;
 this
 .
