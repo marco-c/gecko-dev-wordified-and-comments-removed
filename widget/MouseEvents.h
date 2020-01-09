@@ -350,7 +350,7 @@ mPressure
 (
 0
 )
-hitCluster
+mHitCluster
 (
 false
 )
@@ -392,7 +392,7 @@ mPressure
 (
 0
 )
-hitCluster
+mHitCluster
 (
 false
 )
@@ -490,7 +490,7 @@ float
 mPressure
 ;
 bool
-hitCluster
+mHitCluster
 ;
 uint16_t
 inputSource
@@ -613,11 +613,11 @@ aEvent
 .
 mPressure
 ;
-hitCluster
+mHitCluster
 =
 aEvent
 .
-hitCluster
+mHitCluster
 ;
 inputSource
 =

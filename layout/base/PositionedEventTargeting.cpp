@@ -2941,7 +2941,7 @@ AsMouseEventBase
 )
 -
 >
-hitCluster
+mHitCluster
 =
 true
 ;
@@ -3199,7 +3199,7 @@ AsMouseEventBase
 mouseEventBase
 -
 >
-hitCluster
+mHitCluster
 =
 true
 ;
