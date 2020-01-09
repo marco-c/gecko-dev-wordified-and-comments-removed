@@ -63,10 +63,7 @@ wr
 RenderRoot
 mRenderRoot
 ;
-gfx
-:
-:
-IntRect
+LayoutDeviceRect
 mRect
 ;
 nsTArray

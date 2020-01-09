@@ -1548,10 +1548,7 @@ wr
 RenderRoot
 aRenderRoot
 const
-gfx
-:
-:
-IntRect
+LayoutDeviceRect
 &
 aRect
 const
