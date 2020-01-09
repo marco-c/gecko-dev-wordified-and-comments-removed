@@ -315,8 +315,6 @@ getterPath
 PropTypes
 .
 array
-.
-isRequired
 serviceContainer
 :
 PropTypes
