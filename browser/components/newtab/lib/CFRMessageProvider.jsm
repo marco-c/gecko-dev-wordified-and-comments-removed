@@ -3138,11 +3138,13 @@ CFR
 }
 targeting
 :
-localeLanguageCode
+locale
 =
 =
 "
 en
+-
+US
 "
 &
 &
