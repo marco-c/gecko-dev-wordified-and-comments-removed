@@ -1964,13 +1964,6 @@ abs_test_install_dir
 '
 gtest
 '
-                                      
-'
-gtest_bin
-'
-'
-gtest
-'
 )
         
 }
