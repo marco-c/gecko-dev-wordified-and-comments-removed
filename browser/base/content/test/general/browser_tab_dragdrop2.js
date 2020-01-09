@@ -103,7 +103,9 @@ selectedBrowser
 let
 tabClosed
 =
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 browser
 "
@@ -263,7 +265,9 @@ win
 )
 {
 return
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 win
 "
