@@ -259,6 +259,8 @@ message
 linkset
 >
 <
+html
+:
 link
 rel
 =
@@ -279,6 +281,8 @@ ftl
 /
 >
 <
+html
+:
 link
 rel
 =
@@ -299,6 +303,8 @@ ftl
 /
 >
 <
+html
+:
 link
 rel
 =

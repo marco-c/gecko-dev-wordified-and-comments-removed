@@ -315,17 +315,6 @@ InitialDocumentTranslationCompleted
 )
 override
 ;
-NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
-NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
-NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
-void
-AddSubtreeToDocument
-(
-nsIContent
-*
-aContent
-)
-;
 nsresult
 OnPrototypeLoadDone
 (
@@ -486,7 +475,7 @@ aResult
 )
 ;
 void
-AddElementToDocumentPost
+CloseElement
 (
 Element
 *
