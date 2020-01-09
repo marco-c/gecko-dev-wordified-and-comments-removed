@@ -5570,6 +5570,9 @@ elements
 )
 ;
 let
+usernameField
+;
+let
 autofillResult
 =
 -
@@ -5654,11 +5657,12 @@ NO_SAVED_LOGINS
 return
 ;
 }
-var
+let
+passwordField
+;
 [
 usernameField
 passwordField
-ignored
 ]
 =
 this

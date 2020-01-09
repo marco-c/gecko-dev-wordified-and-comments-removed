@@ -1732,6 +1732,11 @@ NS_ERROR_NOT_IMPLEMENTED
 )
 ;
 }
+let
+foundLogins
+=
+null
+;
 var
 selectedLogin
 =
@@ -1823,7 +1828,6 @@ rememberPassword
 )
 ;
 }
-var
 foundLogins
 =
 Services

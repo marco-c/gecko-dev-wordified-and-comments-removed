@@ -14,6 +14,17 @@ rules
 :
 {
 "
+block
+-
+scoped
+-
+var
+"
+:
+"
+error
+"
+"
 brace
 -
 style
