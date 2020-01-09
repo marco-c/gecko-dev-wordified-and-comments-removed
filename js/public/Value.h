@@ -5066,7 +5066,7 @@ JS
 {
 JS_PUBLIC_API
 void
-HeapValuePostBarrier
+HeapValueWriteBarriers
 (
 Value
 *
@@ -5238,7 +5238,7 @@ nullptr
 }
 static
 void
-postBarrier
+writeBarriers
 (
 JS
 :
@@ -5265,7 +5265,7 @@ next
 JS
 :
 :
-HeapValuePostBarrier
+HeapValueWriteBarriers
 (
 v
 prev
