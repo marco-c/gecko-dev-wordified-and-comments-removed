@@ -296,6 +296,15 @@ className
 default
 -
 button
+js
+-
+temporary
+-
+extension
+-
+reload
+-
+button
 "
 onClick
 :
