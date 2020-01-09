@@ -4419,11 +4419,11 @@ debuggeeGlobal
 =
 newGlobal
 (
-"
-new
--
-compartment
-"
+{
+newCompartment
+:
+true
+}
 )
 ;
 debuggeeGlobal
