@@ -215,3 +215,14 @@ enabled
 false
 )
 ;
+user_pref
+(
+"
+idle
+.
+lastDailyNotification
+"
+-
+1
+)
+;

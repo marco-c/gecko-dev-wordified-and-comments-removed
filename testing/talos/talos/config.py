@@ -9,8 +9,6 @@ import
 os
 import
 sys
-import
-time
 from
 mozlog
 .
@@ -633,28 +631,6 @@ setdefault
 preferences
 '
 {
-}
-)
-.
-update
-(
-{
-        
-'
-idle
-.
-lastDailyNotification
-'
-:
-int
-(
-time
-.
-time
-(
-)
-)
-    
 }
 )
     
