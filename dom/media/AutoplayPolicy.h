@@ -67,6 +67,16 @@ HTMLMediaElement
 aElement
 )
 ;
+static
+bool
+WouldBeAllowedToPlayIfAutoplayDisabled
+(
+const
+AudioContext
+&
+aContext
+)
+;
 }
 ;
 }
