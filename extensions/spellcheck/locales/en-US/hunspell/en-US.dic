@@ -1,4 +1,4 @@
-52975
+52987
 0
 /
 nm
@@ -5733,6 +5733,7 @@ M
 CAI
 CAM
 CAP
+CAPTCHA
 CARE
 CATV
 CB
@@ -48443,6 +48444,7 @@ SM
 bombsite
 /
 S
+bona
 bonanza
 /
 MS
@@ -51677,6 +51679,7 @@ SMDG
 captaincy
 /
 SM
+captcha
 caption
 /
 SMDG
@@ -62259,6 +62262,9 @@ IM
 definition
 /
 AM
+definitional
+/
+Y
 definitions
 definitive
 /
@@ -67078,6 +67084,8 @@ ecstasy
 SM
 ecstatic
 ecstatically
+ectopic
+ectopically
 ecu
 /
 S
@@ -70768,6 +70776,7 @@ extender
 /
 M
 extendible
+extensibility
 extensible
 extension
 /
@@ -72300,6 +72309,7 @@ TR
 fidelity
 /
 IM
+fides
 fidget
 /
 SGMD
@@ -74741,6 +74751,7 @@ SM
 franc
 /
 SM
+franca
 franchise
 '
 s
@@ -90836,6 +90847,7 @@ lingo
 /
 M
 lingoes
+lingua
 lingual
 linguine
 /
@@ -103045,6 +103057,8 @@ oxymora
 oxymoron
 /
 M
+oxymoronic
+oxymoronically
 oy
 oyes
 oyez
@@ -112561,7 +112575,7 @@ rammed
 ramming
 ramp
 /
-GMS
+GMSD
 rampage
 /
 DSMG
