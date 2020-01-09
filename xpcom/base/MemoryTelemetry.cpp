@@ -1171,14 +1171,14 @@ UNITS_BYTES
 RECORD
 (
 MEMORY_JS_COMPARTMENTS_SYSTEM
-JSMainRuntimeRealmsSystem
+JSMainRuntimeCompartmentsSystem
 UNITS_COUNT
 )
 ;
 RECORD
 (
 MEMORY_JS_COMPARTMENTS_USER
-JSMainRuntimeRealmsUser
+JSMainRuntimeCompartmentsUser
 UNITS_COUNT
 )
 ;
