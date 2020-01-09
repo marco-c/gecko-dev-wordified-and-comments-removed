@@ -1093,6 +1093,15 @@ classes
 bool
 IsTypedArrayConstructor
 (
+const
+JSObject
+*
+obj
+)
+;
+bool
+IsTypedArrayConstructor
+(
 HandleValue
 v
 uint32_t
