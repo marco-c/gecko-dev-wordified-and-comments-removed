@@ -1424,7 +1424,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 *
 )
 override
@@ -1482,7 +1482,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 )
 override

@@ -355,6 +355,11 @@ Manager
 )
 -
 >
+AsContentParent
+(
+)
+-
+>
 OtherPid
 (
 )

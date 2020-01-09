@@ -960,7 +960,7 @@ MessageManagerCallback
 :
 BuildClonedMessageDataForParent
 (
-ContentParent
+nsIContentParent
 *
 aParent
 StructuredCloneData
@@ -987,7 +987,7 @@ MessageManagerCallback
 :
 BuildClonedMessageDataForChild
 (
-ContentChild
+nsIContentChild
 *
 aChild
 StructuredCloneData

@@ -70,6 +70,10 @@ PContent
 ;
 include
 protocol
+PContentBridge
+;
+include
+protocol
 PFileDescriptorSet
 ;
 include
@@ -92,6 +96,8 @@ manager
 PBackground
 or
 PContent
+or
+PContentBridge
 ;
 parent
 :

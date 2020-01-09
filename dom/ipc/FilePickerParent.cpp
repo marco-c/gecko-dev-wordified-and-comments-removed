@@ -604,7 +604,7 @@ BlobImplOrString
 aData
 )
 {
-ContentParent
+nsIContentParent
 *
 parent
 =

@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-ContentChild
+nsIContentChild
 .
 h
 "

@@ -73,10 +73,10 @@ namespace
 dom
 {
 class
-ContentChild
+nsIContentChild
 ;
 class
-ContentParent
+nsIContentParent
 ;
 namespace
 ipc
@@ -481,7 +481,7 @@ aRv
 bool
 BuildClonedMessageDataForParent
 (
-ContentParent
+nsIContentParent
 *
 aParent
 ClonedMessageData
@@ -492,7 +492,7 @@ aClonedData
 bool
 BuildClonedMessageDataForChild
 (
-ContentChild
+nsIContentChild
 *
 aChild
 ClonedMessageData

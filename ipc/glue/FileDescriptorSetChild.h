@@ -47,7 +47,7 @@ namespace
 dom
 {
 class
-ContentChild
+nsIContentChild
 ;
 }
 namespace
@@ -78,7 +78,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 ;
 friend
 class

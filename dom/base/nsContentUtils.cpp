@@ -275,17 +275,6 @@ mozilla
 /
 dom
 /
-ContentParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ContentChild
 .
 h
@@ -36133,7 +36122,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aContentParent
 mozilla
@@ -36566,7 +36555,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 *
 aChild
 mozilla
@@ -36575,7 +36564,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aParent
 )
@@ -37321,7 +37310,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 *
 aChild
 mozilla
@@ -37330,7 +37319,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aParent
 const
@@ -37458,7 +37447,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 *
 aChild
 mozilla
@@ -37467,7 +37456,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aParent
 )

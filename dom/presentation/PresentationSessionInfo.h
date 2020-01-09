@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-ContentParent
+nsIContentParent
 .
 h
 "
@@ -1034,9 +1034,9 @@ Promise
 >
 mPromise
 ;
-RefPtr
+nsCOMPtr
 <
-ContentParent
+nsIContentParent
 >
 mContentParent
 ;

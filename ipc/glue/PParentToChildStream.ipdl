@@ -65,6 +65,10 @@ protocol
 PContent
 ;
 include
+protocol
+PContentBridge
+;
+include
 "
 mozilla
 /
@@ -127,6 +131,8 @@ manager
 PBackground
 or
 PContent
+or
+PContentBridge
 ;
 child
 :

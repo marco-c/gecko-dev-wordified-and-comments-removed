@@ -140,7 +140,7 @@ PROCESS_PRIORITY_FOREGROUND
 ;
 RefPtr
 <
-ContentParent
+nsIContentParent
 >
 constructorSender
 =

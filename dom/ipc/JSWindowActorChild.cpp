@@ -478,7 +478,7 @@ return
 ClonedMessageData
 msgData
 ;
-ContentChild
+nsIContentChild
 *
 cc
 =

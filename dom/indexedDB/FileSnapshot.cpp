@@ -1141,7 +1141,7 @@ aMaxSize
 uint32_t
 *
 aSizeUsed
-ContentChild
+nsIContentChild
 *
 aManager
 )
@@ -1211,7 +1211,7 @@ aMaxSize
 uint32_t
 *
 aSizeUsed
-ContentParent
+nsIContentParent
 *
 aManager
 )

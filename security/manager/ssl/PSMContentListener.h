@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIStreamListener
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h

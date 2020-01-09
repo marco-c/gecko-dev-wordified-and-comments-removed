@@ -58,10 +58,10 @@ class
 IPCBlob
 ;
 class
-ContentChild
+nsIContentChild
 ;
 class
-ContentParent
+nsIContentParent
 ;
 namespace
 IPCBlobUtils
@@ -84,7 +84,7 @@ Serialize
 BlobImpl
 *
 aBlobImpl
-ContentChild
+nsIContentChild
 *
 aManager
 IPCBlob
@@ -118,7 +118,7 @@ Serialize
 BlobImpl
 *
 aBlobImpl
-ContentParent
+nsIContentParent
 *
 aManager
 IPCBlob

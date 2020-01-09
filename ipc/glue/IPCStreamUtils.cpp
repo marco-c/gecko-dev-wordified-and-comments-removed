@@ -1554,7 +1554,7 @@ aStream
 dom
 :
 :
-ContentChild
+nsIContentChild
 *
 aManager
 )
@@ -1743,7 +1743,7 @@ aStream
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aManager
 )

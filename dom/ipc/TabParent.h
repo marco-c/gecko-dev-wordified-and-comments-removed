@@ -306,7 +306,7 @@ class
 ClonedMessageData
 ;
 class
-ContentParent
+nsIContentParent
 ;
 class
 Element
@@ -371,7 +371,7 @@ NS_DECL_NSITABPARENT
 NS_DECL_NSIDOMEVENTLISTENER
 TabParent
 (
-ContentParent
+nsIContentParent
 *
 aManager
 const
@@ -2317,7 +2317,7 @@ nsIDocShell
 docshell
 )
 ;
-ContentParent
+nsIContentParent
 *
 Manager
 (
@@ -2975,7 +2975,7 @@ const
 ;
 RefPtr
 <
-ContentParent
+nsIContentParent
 >
 mManager
 ;

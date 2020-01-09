@@ -124,6 +124,10 @@ PContent
 ;
 include
 protocol
+PContentBridge
+;
+include
+protocol
 PDocAccessible
 ;
 include
@@ -1230,6 +1234,8 @@ PBrowser
 {
 manager
 PContent
+or
+PContentBridge
 ;
 manages
 PColorPicker

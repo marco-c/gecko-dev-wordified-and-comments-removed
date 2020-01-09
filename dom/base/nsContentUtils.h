@@ -591,10 +591,10 @@ class
 NodeInfo
 ;
 class
-ContentChild
+nsIContentChild
 ;
 class
-ContentParent
+nsIContentParent
 ;
 class
 TabChild
@@ -5827,7 +5827,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aContentParent
 mozilla
@@ -5868,7 +5868,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 *
 aChild
 mozilla
@@ -5877,7 +5877,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aParent
 )
@@ -5906,7 +5906,7 @@ mozilla
 dom
 :
 :
-ContentChild
+nsIContentChild
 *
 aChild
 mozilla
@@ -5915,7 +5915,7 @@ mozilla
 dom
 :
 :
-ContentParent
+nsIContentParent
 *
 aParent
 )
