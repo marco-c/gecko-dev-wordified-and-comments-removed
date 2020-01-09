@@ -94,6 +94,13 @@ true
 }
 }
 ;
+AddonTestUtils
+.
+init
+(
+this
+)
+;
 add_task
 (
 async

@@ -75,6 +75,13 @@ Services
 .
 policies
 ;
+AddonTestUtils
+.
+init
+(
+this
+)
+;
 add_task
 (
 async
