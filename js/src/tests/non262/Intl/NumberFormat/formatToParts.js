@@ -1292,7 +1292,7 @@ arPercentFormatter
 .
 32
 [
-MinusSign
+Literal
 (
 "
 \
@@ -1300,6 +1300,11 @@ u
 {
 061C
 }
+"
+)
+MinusSign
+(
+"
 -
 "
 )
@@ -1329,6 +1334,11 @@ Fraction
 "
 )
 PercentSign
+(
+"
+"
+)
+Literal
 (
 "
 \
