@@ -10,6 +10,13 @@ Xlib
 .
 h
 >
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 void
 InstallX11ErrorHandler
 (
