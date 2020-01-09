@@ -4445,7 +4445,7 @@ Parse
 )
 {
 return
-NULL
+nullptr
 ;
 }
 RefPtr
