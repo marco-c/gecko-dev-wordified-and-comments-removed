@@ -6882,7 +6882,7 @@ state
 Snippets
 (
 {
-initalized
+initialized
 :
 true
 foo

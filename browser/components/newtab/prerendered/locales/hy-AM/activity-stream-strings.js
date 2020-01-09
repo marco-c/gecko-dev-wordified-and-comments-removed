@@ -152,6 +152,9 @@ menu_action_save_to_pocket
 "
 :
 "
+Save
+to
+Pocket
 "
 "
 menu_action_delete_pocket
