@@ -1,0 +1,14 @@
+browser
+.
+runtime
+.
+sendNativeMessage
+(
+"
+browser
+"
+"
+HELLO_FROM_PAGE
+"
+)
+;
