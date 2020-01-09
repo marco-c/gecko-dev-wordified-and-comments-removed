@@ -9597,6 +9597,9 @@ return
 }
 if
 (
+sCleanupsSinceLastGC
+&
+&
 !
 sLastCCEndTime
 .
