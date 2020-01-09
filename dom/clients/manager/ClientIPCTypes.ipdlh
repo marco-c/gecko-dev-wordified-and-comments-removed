@@ -188,15 +188,6 @@ frameType
 ;
 }
 ;
-union
-OptionalIPCClientInfo
-{
-IPCClientInfo
-;
-void_t
-;
-}
-;
 struct
 IPCClientWindowState
 {

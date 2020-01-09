@@ -277,7 +277,8 @@ domain
 bool
 isSecureContext
 ;
-OptionalIPCClientInfo
+IPCClientInfo
+?
 clientInfo
 ;
 bool

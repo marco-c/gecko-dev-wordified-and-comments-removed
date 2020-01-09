@@ -1402,15 +1402,9 @@ clientInfo
 (
 )
 .
-type
+isSome
 (
 )
-=
-=
-OptionalIPCClientInfo
-:
-:
-TIPCClientInfo
 )
 {
 clientInfo
@@ -1425,7 +1419,7 @@ clientInfo
 (
 )
 .
-get_IPCClientInfo
+ref
 (
 )
 )
