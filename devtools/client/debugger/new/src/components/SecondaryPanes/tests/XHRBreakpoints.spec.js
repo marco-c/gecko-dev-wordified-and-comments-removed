@@ -544,7 +544,7 @@ focus
 "
 )
 ;
-var
+const
 xhrInputContainer
 =
 xhrBreakpointsComponent
@@ -787,7 +787,7 @@ focus
 "
 )
 ;
-var
+let
 xhrInputContainer
 =
 xhrBreakpointsComponent
@@ -1231,7 +1231,7 @@ click
 "
 )
 ;
-var
+const
 xhrInputContainer
 =
 xhrBreakpointsComponent
