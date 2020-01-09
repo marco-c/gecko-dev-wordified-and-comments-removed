@@ -555,6 +555,13 @@ runtime
 _socketPath
 ;
 const
+deviceId
+=
+runtime
+.
+deviceId
+;
+const
 connectionParameters
 =
 runtime
@@ -566,6 +573,7 @@ isUnknown
 null
 :
 {
+deviceId
 socketPath
 }
 ;

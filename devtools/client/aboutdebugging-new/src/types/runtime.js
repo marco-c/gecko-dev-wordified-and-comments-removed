@@ -133,6 +133,13 @@ const
 usbRuntimeConnectionParameter
 =
 {
+deviceId
+:
+PropTypes
+.
+string
+.
+isRequired
 socketPath
 :
 PropTypes

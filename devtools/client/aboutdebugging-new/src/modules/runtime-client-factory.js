@@ -218,6 +218,7 @@ async
 function
 createUSBClient
 (
+deviceId
 socketPath
 )
 {
@@ -227,6 +228,7 @@ port
 await
 prepareTCPConnection
 (
+deviceId
 socketPath
 )
 ;
@@ -348,6 +350,7 @@ USB
 {
 const
 {
+deviceId
 socketPath
 }
 =
@@ -358,6 +361,7 @@ connectionParameters
 return
 createUSBClient
 (
+deviceId
 socketPath
 )
 ;
