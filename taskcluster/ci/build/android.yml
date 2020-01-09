@@ -1433,6 +1433,8 @@ x86
 opt
 type
 :
+android
+-
 nightly
 treeherder
 :
@@ -3387,6 +3389,8 @@ api
 opt
 type
 :
+android
+-
 nightly
 -
 with
@@ -4846,6 +4850,8 @@ aarch64
 opt
 type
 :
+android
+-
 nightly
 treeherder
 :
@@ -5821,6 +5827,8 @@ x86_64
 opt
 type
 :
+android
+-
 nightly
 treeherder
 :
