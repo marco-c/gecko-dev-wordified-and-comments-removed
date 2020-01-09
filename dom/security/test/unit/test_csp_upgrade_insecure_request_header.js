@@ -225,7 +225,7 @@ set
 request
 header
 for
-TYPE_IMG
+TYPE_IMAGE
 "
 expectingHeader
 :
@@ -236,7 +236,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_IMG
+TYPE_IMAGE
 }
 ]
 ;
