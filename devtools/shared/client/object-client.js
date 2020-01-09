@@ -637,6 +637,12 @@ arg
 (
 0
 )
+receiverId
+:
+arg
+(
+1
+)
 }
 )
 getPrototype

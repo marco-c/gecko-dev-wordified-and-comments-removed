@@ -189,6 +189,7 @@ getPropertyValue
 "
 obj1
 "
+null
 )
 )
 .
@@ -208,6 +209,7 @@ getPropertyValue
 "
 obj2
 "
+null
 )
 )
 .
@@ -231,6 +233,7 @@ getPropertyValue
 "
 context
 "
+null
 )
 )
 .
@@ -255,6 +258,7 @@ getPropertyValue
 "
 sum
 "
+null
 )
 )
 .
@@ -279,6 +283,7 @@ getPropertyValue
 "
 error
 "
+null
 )
 )
 .

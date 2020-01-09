@@ -382,6 +382,7 @@ objClient
 getPropertyValue
 (
 key
+null
 )
 ;
 assert_completion

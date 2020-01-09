@@ -817,6 +817,17 @@ Arg
 string
 "
 )
+receiverId
+:
+Arg
+(
+1
+"
+nullable
+:
+string
+"
+)
 }
 response
 :
