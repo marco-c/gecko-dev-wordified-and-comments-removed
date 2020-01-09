@@ -207,6 +207,11 @@ PBackgroundLSSimpleRequestParent
 aActor
 )
 ;
+bool
+RecvLSClearPrivateBrowsing
+(
+)
+;
 namespace
 localstorage
 {
