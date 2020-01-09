@@ -1345,6 +1345,11 @@ in
 clang
 '
 '
+clang
+-
+cl
+'
+'
 gcc
 '
 )
@@ -1370,14 +1375,6 @@ BUILD_ARM_NEON
 ]
 )
 :
-#
-MSVC
-cannot
-use
-arm_neon
-.
-h
-.
 SOURCES
 +
 =
