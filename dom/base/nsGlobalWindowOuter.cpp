@@ -17379,12 +17379,15 @@ nullptr
 )
 ;
 return
+do_AddRef
+(
 mBrowsingContext
 -
 >
 FindChildWithName
 (
 aName
+)
 )
 ;
 }

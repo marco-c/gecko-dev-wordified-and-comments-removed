@@ -1398,6 +1398,16 @@ class
 nsIDocShell
 ;
 friend
+class
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
+;
+friend
 void
 mozilla
 :
