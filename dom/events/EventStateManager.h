@@ -623,16 +623,6 @@ IsHandlingKeyboardInput
 )
 ;
 static
-uint64_t
-UserInputCount
-(
-)
-{
-return
-sUserInputCounter
-;
-}
-static
 TimeStamp
 LatestUserInputStart
 (
@@ -2502,10 +2492,6 @@ nsCOMArray
 nsIContent
 >
 mAccessKeys
-;
-static
-uint64_t
-sUserInputCounter
 ;
 static
 int32_t
