@@ -13,6 +13,9 @@ stats
 '
 ]
 [
+'
+webrtc
+'
 ]
 idl_array
 =
