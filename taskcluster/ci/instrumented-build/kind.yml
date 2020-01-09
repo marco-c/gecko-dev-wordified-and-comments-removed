@@ -138,8 +138,10 @@ tier
 jobs
 :
 linux64
+-
+shippable
 /
-pgo
+opt
 :
 description
 :
@@ -162,8 +164,10 @@ treeherder
 platform
 :
 linux64
+-
+shippable
 /
-pgo
+opt
 worker
 -
 type
