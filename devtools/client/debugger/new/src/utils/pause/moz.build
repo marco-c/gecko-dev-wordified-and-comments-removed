@@ -75,7 +75,7 @@ mapScopes
 scopes
 '
 ]
-DebuggerModules
+CompiledModules
 (
 '
 index

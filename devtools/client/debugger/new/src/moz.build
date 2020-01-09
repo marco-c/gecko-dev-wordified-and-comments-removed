@@ -87,7 +87,7 @@ utils
 workers
 '
 ]
-DebuggerModules
+CompiledModules
 (
 '
 main

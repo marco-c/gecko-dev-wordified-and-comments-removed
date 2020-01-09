@@ -18,6 +18,17 @@ client
 /
 shared
 /
+build
+/
+babel
+.
+js
+devtools
+/
+client
+/
+shared
+/
 sourceeditor
 /
 codemirror
