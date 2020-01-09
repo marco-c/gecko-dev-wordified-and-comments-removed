@@ -194,6 +194,9 @@ scheme
 )
 )
 throw
+new
+Error
+(
 "
 Unsupported
 search
@@ -205,6 +208,7 @@ URL
 engineURL
 .
 spec
+)
 ;
 if
 (
@@ -227,6 +231,9 @@ installSearchEngine
 )
 {
 throw
+new
+Error
+(
 "
 Search
 Engine
@@ -239,6 +246,7 @@ Policy
 Manager
 .
 "
+)
 ;
 }
 }

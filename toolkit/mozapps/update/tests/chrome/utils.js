@@ -1508,6 +1508,8 @@ extraDelayedFinishFunction
 )
 {
 throw
+new
+Error
 (
 "
 Tests

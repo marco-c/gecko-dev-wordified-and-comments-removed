@@ -1106,11 +1106,15 @@ nsIGIOMimeApp
 )
 {
 throw
+new
+Error
+(
 "
 unknown
 handler
 type
 "
+)
 ;
 }
 items

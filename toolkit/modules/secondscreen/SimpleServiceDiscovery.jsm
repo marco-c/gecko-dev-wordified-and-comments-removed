@@ -1386,6 +1386,9 @@ aDevice
 )
 {
 throw
+new
+Error
+(
 "
 Registration
 requires
@@ -1397,6 +1400,7 @@ and
 a
 location
 "
+)
 ;
 }
 if

@@ -43,6 +43,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 usage
 :
@@ -61,6 +64,7 @@ FILE2
 .
 js
 "
+)
 ;
 }
 var

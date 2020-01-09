@@ -784,9 +784,13 @@ undefined
 )
 ;
 throw
+new
+Error
+(
 "
 reject
 "
+)
 ;
 }
 )

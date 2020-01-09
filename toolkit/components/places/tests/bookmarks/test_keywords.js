@@ -169,6 +169,8 @@ entry
 )
 {
 throw
+new
+Error
 (
 {
 aURI

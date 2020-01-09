@@ -330,6 +330,9 @@ UPDATE_FILE
 )
 ;
 throw
+new
+Error
+(
 "
 Expected
 the
@@ -338,6 +341,7 @@ check
 to
 fail
 "
+)
 ;
 }
 catch
@@ -373,6 +377,9 @@ UPDATE_FILE
 )
 ;
 throw
+new
+Error
+(
 "
 Expected
 the
@@ -381,6 +388,7 @@ check
 to
 fail
 "
+)
 ;
 }
 catch
@@ -420,6 +428,9 @@ json
 )
 ;
 throw
+new
+Error
+(
 "
 Expected
 the
@@ -428,6 +439,7 @@ check
 to
 fail
 "
+)
 ;
 }
 catch
@@ -836,6 +848,9 @@ UPDATE_FILE
 )
 ;
 throw
+new
+Error
+(
 "
 Update
 check
@@ -843,6 +858,7 @@ should
 have
 failed
 "
+)
 ;
 }
 catch

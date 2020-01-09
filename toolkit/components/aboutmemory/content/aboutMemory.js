@@ -6322,6 +6322,9 @@ _amount
 default
 :
 throw
+new
+Error
+(
 "
 Invalid
 memory
@@ -6337,6 +6340,7 @@ TreeNode
 .
 toString
 "
+)
 ;
 }
 }

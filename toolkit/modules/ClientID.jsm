@@ -1064,6 +1064,8 @@ id
 )
 {
 throw
+new
+Error
 (
 "
 Invalid

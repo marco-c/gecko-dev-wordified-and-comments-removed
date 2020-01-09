@@ -404,6 +404,8 @@ address
 )
 {
 throw
+new
+Error
 (
 "
 Failure
@@ -643,6 +645,8 @@ x86
 default
 :
 throw
+new
+Error
 (
 "
 Unknown

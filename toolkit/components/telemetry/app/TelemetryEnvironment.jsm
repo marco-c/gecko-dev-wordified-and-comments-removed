@@ -2849,6 +2849,8 @@ address
 )
 {
 throw
+new
+Error
 (
 "
 Failure

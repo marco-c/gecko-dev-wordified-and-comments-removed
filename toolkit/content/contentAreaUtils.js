@@ -759,6 +759,9 @@ aBrowser
 )
 {
 throw
+new
+Error
+(
 "
 Must
 have
@@ -768,6 +771,7 @@ when
 calling
 saveBrowser
 "
+)
 ;
 }
 let
@@ -946,6 +950,9 @@ if
 aDocument
 )
 throw
+new
+Error
+(
 "
 Must
 have
@@ -955,6 +962,7 @@ when
 calling
 saveDocument
 "
+)
 ;
 let
 contentDisposition
