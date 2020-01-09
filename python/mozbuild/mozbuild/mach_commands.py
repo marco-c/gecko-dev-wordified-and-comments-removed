@@ -13064,10 +13064,6 @@ cc
 .
 h
 '
-'
-.
-java
-'
 )
     
 _format_ignore_file
