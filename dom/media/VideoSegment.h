@@ -540,8 +540,6 @@ Image
 &
 &
 aImage
-StreamTime
-aDuration
 const
 IntSize
 &

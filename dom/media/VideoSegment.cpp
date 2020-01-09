@@ -529,8 +529,6 @@ Image
 &
 &
 aImage
-StreamTime
-aDuration
 const
 IntSize
 &
@@ -551,7 +549,7 @@ chunk
 =
 AppendChunk
 (
-aDuration
+0
 )
 ;
 chunk

@@ -271,7 +271,6 @@ do_AddRef
 (
 aImage
 )
-1
 aImage
 -
 >

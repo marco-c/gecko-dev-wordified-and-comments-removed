@@ -9204,7 +9204,6 @@ image
 forget
 (
 )
-1
 size
 mPrincipalHandle
 )

@@ -61,13 +61,6 @@ forget
 mozilla
 :
 :
-StreamTime
-(
-90000
-)
-mozilla
-:
-:
 gfx
 :
 :
@@ -152,13 +145,6 @@ testImage
 .
 forget
 (
-)
-mozilla
-:
-:
-StreamTime
-(
-90000
 )
 mozilla
 :
