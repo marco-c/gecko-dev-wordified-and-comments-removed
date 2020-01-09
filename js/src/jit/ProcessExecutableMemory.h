@@ -50,9 +50,7 @@ const
 size_t
 MaxCodeBytesPerProcess
 =
-1
-*
-1024
+2044
 *
 1024
 *
