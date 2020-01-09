@@ -64,6 +64,11 @@ MPL
 DevToolsModules
 (
 '
+clipboard
+.
+js
+'
+'
 context
 -
 menu

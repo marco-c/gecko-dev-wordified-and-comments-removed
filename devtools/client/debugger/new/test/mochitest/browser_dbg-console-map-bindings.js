@@ -230,9 +230,6 @@ waitForPaused
 dbg
 )
 ;
-const
-msg
-=
 await
 evaluate
 (
@@ -260,6 +257,10 @@ c
 is
 (
 msg2
+.
+trim
+(
+)
 "
 3
 "
