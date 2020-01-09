@@ -1769,6 +1769,8 @@ ApplyColorProfile
 -
 ignoring
 grayscale
+"
+"
 color
 profile
 \

@@ -459,7 +459,6 @@ enum_name
 string_name
 xre_name
 )
-\
 string_name
 #
 include
