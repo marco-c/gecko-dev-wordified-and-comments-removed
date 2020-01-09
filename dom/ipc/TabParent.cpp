@@ -1977,14 +1977,6 @@ PopFocus
 this
 )
 ;
-IMEStateManager
-:
-:
-OnTabParentDestroying
-(
-this
-)
-;
 RemoveWindowListeners
 (
 )
@@ -2274,10 +2266,10 @@ Destroy
 )
 ;
 }
-IMEStateManager
+TabParent
 :
 :
-OnTabParentDestroying
+PopFocus
 (
 this
 )
