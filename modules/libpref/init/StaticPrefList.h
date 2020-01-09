@@ -3500,7 +3500,7 @@ XP_MACOSX
 #
 define
 PREF_VALUE
-false
+true
 #
 else
 #
