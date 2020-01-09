@@ -428,6 +428,10 @@ WaylandRequestsUpdatingEGLSurface
 )
 )
 {
+DestroyEGLSurface
+(
+)
+;
 mEGLSurface
 =
 CreateEGLSurface

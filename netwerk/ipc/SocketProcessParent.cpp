@@ -246,7 +246,13 @@ bool
 &
 aMinimizeMemoryUsage
 const
-MaybeFileDesc
+Maybe
+<
+ipc
+:
+:
+FileDescriptor
+>
 &
 aDMDFile
 )

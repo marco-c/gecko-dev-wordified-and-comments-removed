@@ -1420,7 +1420,10 @@ bool
 &
 aMinimizeMemoryUsage
 const
-MaybeFileDesc
+Maybe
+<
+FileDescriptor
+>
 &
 aDMDFile
 )

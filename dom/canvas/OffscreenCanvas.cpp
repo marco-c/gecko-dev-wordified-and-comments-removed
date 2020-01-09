@@ -108,6 +108,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 GLScreenBuffer
 .
 h
