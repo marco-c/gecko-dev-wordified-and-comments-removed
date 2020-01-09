@@ -7,6 +7,12 @@ position
 :
 absolute
 ;
+pointer
+-
+events
+:
+none
+;
 }
 .
 bracket
