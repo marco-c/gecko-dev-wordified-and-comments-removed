@@ -1142,6 +1142,10 @@ a11y
 -
 mochitest
 -
+chrome
+-
+mochitest
+-
 gpu
 -
 mochitest
