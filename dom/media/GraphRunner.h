@@ -120,7 +120,6 @@ mThreadState
 ;
 PRThread
 *
-const
 mThread
 ;
 #

@@ -174,11 +174,6 @@ ThreadState
 Shutdown
 )
 ;
-PR_JoinThread
-(
-mThread
-)
-;
 }
 void
 GraphRunner
@@ -187,6 +182,7 @@ GraphRunner
 Shutdown
 (
 )
+{
 {
 MonitorAutoLock
 lock
@@ -217,6 +213,16 @@ mMonitor
 Notify
 (
 )
+;
+}
+PR_JoinThread
+(
+mThread
+)
+;
+mThread
+=
+nullptr
 ;
 }
 bool
