@@ -3,6 +3,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var
@@ -10,6 +15,11 @@ h
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

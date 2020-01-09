@@ -8,6 +8,11 @@ g1
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var
@@ -15,6 +20,11 @@ g2
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

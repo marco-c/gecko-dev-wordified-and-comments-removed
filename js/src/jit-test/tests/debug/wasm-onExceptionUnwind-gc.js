@@ -3,6 +3,11 @@ sandbox
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

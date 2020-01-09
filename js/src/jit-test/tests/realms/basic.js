@@ -69,6 +69,11 @@ objectGlobal
 (
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 .
 Math
@@ -399,6 +404,11 @@ g1
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

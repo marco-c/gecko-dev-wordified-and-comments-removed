@@ -35,6 +35,11 @@ Debugger
 (
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 )
 .

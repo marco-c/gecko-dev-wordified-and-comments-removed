@@ -44,6 +44,11 @@ assertTypeErrorMessage
 >
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 .
 Set
@@ -128,6 +133,11 @@ assertTypeErrorMessage
 >
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 .
 Int8Array

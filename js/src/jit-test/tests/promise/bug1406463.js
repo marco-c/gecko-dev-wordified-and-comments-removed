@@ -3,6 +3,11 @@ P
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 .
 eval

@@ -8,6 +8,11 @@ debuggerGlobal
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 function

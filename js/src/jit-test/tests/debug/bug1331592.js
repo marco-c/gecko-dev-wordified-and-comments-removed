@@ -78,6 +78,11 @@ dbgGlobal
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 dbg

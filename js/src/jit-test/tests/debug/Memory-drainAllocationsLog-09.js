@@ -11,6 +11,11 @@ root1
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 const
@@ -18,6 +23,11 @@ root2
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 const
@@ -25,6 +35,11 @@ root3
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 dbg

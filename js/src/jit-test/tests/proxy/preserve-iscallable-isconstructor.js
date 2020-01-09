@@ -14,6 +14,11 @@ global
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 var
 fun

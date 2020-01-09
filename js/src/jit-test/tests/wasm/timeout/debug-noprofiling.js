@@ -1,5 +1,10 @@
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 .
 Debugger

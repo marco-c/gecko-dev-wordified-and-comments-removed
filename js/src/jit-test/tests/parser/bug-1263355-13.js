@@ -19,6 +19,11 @@ s
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 aa
@@ -59,6 +64,11 @@ g
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 \

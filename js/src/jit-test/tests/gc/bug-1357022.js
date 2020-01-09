@@ -3,6 +3,11 @@ root3
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 function

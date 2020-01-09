@@ -13,6 +13,11 @@ dbgGlobal
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 var

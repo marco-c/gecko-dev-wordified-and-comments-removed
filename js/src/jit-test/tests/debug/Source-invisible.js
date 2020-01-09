@@ -32,6 +32,11 @@ gv
 =
 newGlobal
 (
+{
+newCompartment
+:
+true
+}
 )
 ;
 gv
