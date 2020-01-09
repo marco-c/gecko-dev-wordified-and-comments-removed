@@ -552,12 +552,14 @@ BUG_COMPONENT
 =
 (
 "
-Toolkit
+Firefox
 "
 "
-Notifications
+Site
+Identity
 and
-Alerts
+Permission
+Panels
 "
 )
 with
