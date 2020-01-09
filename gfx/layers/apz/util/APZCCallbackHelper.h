@@ -155,7 +155,7 @@ aInputBlockId
 const
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 aTargets
@@ -197,7 +197,7 @@ mInputBlockId
 ;
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 mTargets
 ;

@@ -172,7 +172,7 @@ void
 ZoomToRect
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -209,7 +209,7 @@ aInputBlockId
 const
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 aTargets
@@ -222,7 +222,7 @@ void
 UpdateZoomConstraints
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -268,7 +268,7 @@ void
 StartScrollbarDrag
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -284,7 +284,7 @@ bool
 StartAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -300,7 +300,7 @@ void
 StopAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 )

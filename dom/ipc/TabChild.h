@@ -2842,10 +2842,7 @@ aInputBlockId
 const
 nsTArray
 <
-layers
-:
-:
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 aTargets

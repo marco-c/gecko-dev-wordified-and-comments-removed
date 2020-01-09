@@ -387,12 +387,6 @@ UpdateCompositableClientForEmptyTransaction
 {
 UpdateCompositableClient
 (
-mManager
--
->
-GetRenderRoot
-(
-)
 )
 ;
 if

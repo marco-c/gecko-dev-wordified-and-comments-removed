@@ -175,13 +175,6 @@ wr
 Transaction
 *
 aTxn
-const
-wr
-:
-:
-DocumentId
-&
-aRenderRootId
 )
 ;
 void
@@ -202,11 +195,6 @@ wr
 TransactionWrapper
 &
 aTxn
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 bool

@@ -2522,7 +2522,6 @@ ZBufferIdGenerator
 :
 new
 (
-layer
 )
 ;
 let
