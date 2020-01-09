@@ -7536,11 +7536,6 @@ box
 arrowscrollbox
 -
 scrollbox
->
-.
-scrollbox
--
-innerbox
 #
 BMB_bookmarksToolbarPopup
 >
@@ -7557,11 +7552,6 @@ box
 arrowscrollbox
 -
 scrollbox
->
-.
-scrollbox
--
-innerbox
 #
 BMB_unsortedBookmarksPopup
 >
@@ -7578,11 +7568,6 @@ box
 arrowscrollbox
 -
 scrollbox
->
-.
-scrollbox
--
-innerbox
 #
 BMB_mobileBookmarksPopup
 >
@@ -7599,11 +7584,6 @@ box
 arrowscrollbox
 -
 scrollbox
->
-.
-scrollbox
--
-innerbox
 {
 padding
 -
