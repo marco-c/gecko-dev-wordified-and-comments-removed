@@ -432,6 +432,17 @@ isKeywordOffer
 )
 {
 return
+this
+.
+heuristic
+?
+[
+"
+"
+[
+]
+]
+:
 [
 this
 .
