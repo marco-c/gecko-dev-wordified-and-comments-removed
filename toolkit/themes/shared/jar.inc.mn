@@ -2768,6 +2768,9 @@ contentPluginStripe
 .
 png
 )
+#
+ifdef
+NIGHTLY_BUILD
 skin
 /
 classic
@@ -2794,3 +2797,5 @@ player
 .
 css
 )
+#
+endif
