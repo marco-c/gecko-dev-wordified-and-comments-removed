@@ -695,6 +695,11 @@ mozilla
 =
 [
 '
+ContentIterator
+.
+h
+'
+'
 CORSMode
 .
 h
@@ -1357,6 +1362,11 @@ ContentFrameMessageManager
 cpp
 '
 '
+ContentIterator
+.
+cpp
+'
+'
 ContentProcessMessageManager
 .
 cpp
@@ -1598,11 +1608,6 @@ cpp
 '
 '
 nsContentAreaDragDrop
-.
-cpp
-'
-'
-nsContentIterator
 .
 cpp
 '
