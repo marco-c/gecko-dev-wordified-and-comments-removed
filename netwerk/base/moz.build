@@ -901,6 +901,11 @@ SimpleChannelParent
 h
 '
 '
+SSLTokensCache
+.
+h
+'
+'
 TCPFastOpen
 .
 h
@@ -1227,6 +1232,11 @@ cpp
 '
 '
 SimpleChannelParent
+.
+cpp
+'
+'
+SSLTokensCache
 .
 cpp
 '
