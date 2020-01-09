@@ -89,7 +89,7 @@ define
 (
 DOMString
 name
-Function
+CustomElementConstructor
 functionConstructor
 optional
 ElementDefinitionOptions

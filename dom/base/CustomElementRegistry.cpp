@@ -3153,7 +3153,7 @@ const
 nsAString
 &
 aName
-Function
+CustomElementConstructor
 &
 aFunctionConstructor
 const
@@ -6465,7 +6465,7 @@ nsAtom
 aLocalName
 int32_t
 aNamespaceID
-Function
+CustomElementConstructor
 *
 aConstructor
 nsTArray
