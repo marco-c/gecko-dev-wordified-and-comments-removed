@@ -448,7 +448,7 @@ ref
 .
 style
 .
-wordSpacing
+textIndent
 =
 length
 ;
@@ -465,7 +465,7 @@ getComputedStyle
 ref
 )
 .
-wordSpacing
+textIndent
 )
 ;
 }
