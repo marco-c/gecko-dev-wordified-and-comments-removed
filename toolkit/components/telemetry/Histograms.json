@@ -105657,6 +105657,16 @@ rdd
 -
 hang
 "
+"
+socket
+-
+crash
+"
+"
+socket
+-
+hang
+"
 ]
 "
 releaseChannelCollection
@@ -130052,7 +130062,7 @@ expires_in_version
 "
 :
 "
-never
+70
 "
 "
 kind
@@ -130106,7 +130116,6 @@ bug_numbers
 :
 [
 1483245
-1518669
 ]
 }
 "
@@ -130150,7 +130159,7 @@ expires_in_version
 "
 :
 "
-never
+66
 "
 "
 kind
@@ -130205,7 +130214,6 @@ bug_numbers
 :
 [
 1386968
-1518669
 ]
 }
 "
