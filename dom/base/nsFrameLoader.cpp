@@ -8163,8 +8163,6 @@ Preferences
 GetBool
 (
 "
-browser
-.
 fission
 .
 oopif
