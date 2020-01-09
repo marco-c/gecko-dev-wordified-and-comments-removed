@@ -2401,6 +2401,8 @@ src
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 {
 using
@@ -2539,6 +2541,7 @@ CharT
 outlen
 +
 1
+destArenaId
 )
 ;
 if
@@ -2621,6 +2624,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 {
 return
@@ -2636,6 +2641,7 @@ TwoByteCharsZ
 cx
 utf8
 outlen
+destArenaId
 )
 ;
 }
@@ -2654,6 +2660,8 @@ wtf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 {
 return
@@ -2669,6 +2677,7 @@ TwoByteCharsZ
 cx
 wtf8
 outlen
+destArenaId
 )
 ;
 }
@@ -2688,6 +2697,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 {
 UTF8Chars
@@ -2721,6 +2732,7 @@ TwoByteCharsZ
 cx
 chars
 outlen
+destArenaId
 )
 ;
 }
@@ -2742,6 +2754,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 {
 return
@@ -2757,6 +2771,7 @@ TwoByteCharsZ
 cx
 utf8
 outlen
+destArenaId
 )
 ;
 }
@@ -2779,6 +2794,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 {
 UTF8Chars
@@ -2812,6 +2829,7 @@ TwoByteCharsZ
 cx
 chars
 outlen
+destArenaId
 )
 ;
 }
@@ -3008,6 +3026,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 {
 return
@@ -3023,6 +3043,7 @@ Latin1CharsZ
 cx
 utf8
 outlen
+destArenaId
 )
 ;
 }
@@ -3041,6 +3062,8 @@ utf8
 size_t
 *
 outlen
+arena_id_t
+destArenaId
 )
 {
 return
@@ -3056,6 +3079,7 @@ Latin1CharsZ
 cx
 utf8
 outlen
+destArenaId
 )
 ;
 }

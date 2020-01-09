@@ -2943,6 +2943,8 @@ JSContext
 cx
 bool
 nullTerminate
+arena_id_t
+destArenaId
 )
 const
 ;
@@ -3099,6 +3101,8 @@ copyLatin1Chars
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 ;
@@ -3111,6 +3115,8 @@ copyTwoByteChars
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 ;
@@ -3135,6 +3141,8 @@ copyLatin1CharsZ
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 ;
@@ -3147,6 +3155,8 @@ copyTwoByteCharsZ
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 ;
@@ -3173,6 +3183,8 @@ copyChars
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 ;
@@ -8292,6 +8304,8 @@ Latin1Char
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 {
@@ -8299,6 +8313,7 @@ return
 copyLatin1Chars
 (
 maybecx
+destArenaId
 )
 ;
 }
@@ -8321,6 +8336,8 @@ char16_t
 JSContext
 *
 maybecx
+arena_id_t
+destArenaId
 )
 const
 {
@@ -8328,6 +8345,7 @@ return
 copyTwoByteChars
 (
 maybecx
+destArenaId
 )
 ;
 }

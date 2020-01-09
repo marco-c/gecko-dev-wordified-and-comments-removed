@@ -492,6 +492,10 @@ Char1
 >
 (
 nullptr
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -579,6 +583,10 @@ Char2
 >
 (
 nullptr
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -828,6 +836,10 @@ CharT
 >
 (
 nullptr
+js
+:
+:
+MallocArena
 )
 ;
 if

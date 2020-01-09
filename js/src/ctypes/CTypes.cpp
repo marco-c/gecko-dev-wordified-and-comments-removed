@@ -39864,6 +39864,7 @@ JS
 UTF8Chars
 size_t
 *
+arena_id_t
 )
 ;
 static
@@ -39884,6 +39885,8 @@ const
 char
 *
 funName
+arena_id_t
+destArenaId
 )
 {
 CallArgs
@@ -40338,6 +40341,7 @@ length
 )
 &
 length
+destArenaId
 )
 .
 get
@@ -40505,6 +40509,10 @@ prototype
 .
 readString
 "
+js
+:
+:
+MallocArena
 )
 ;
 }
@@ -40544,6 +40552,10 @@ prototype
 .
 readString
 "
+js
+:
+:
+MallocArena
 )
 ;
 }
@@ -40580,6 +40592,10 @@ prototype
 .
 readStringReplaceMalformed
 "
+js
+:
+:
+MallocArena
 )
 ;
 }

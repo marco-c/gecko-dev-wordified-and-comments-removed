@@ -701,6 +701,10 @@ asRope
 copyLatin1CharsZ
 (
 cx
+js
+:
+:
+MallocArena
 )
 ;
 if
@@ -744,6 +748,10 @@ asRope
 copyTwoByteCharsZ
 (
 cx
+js
+:
+:
+MallocArena
 )
 ;
 if
