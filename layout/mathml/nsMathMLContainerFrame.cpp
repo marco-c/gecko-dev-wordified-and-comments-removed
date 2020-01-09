@@ -3639,7 +3639,7 @@ MarkIntrinsicISizesDirty
 {
 mIntrinsicWidth
 =
-NS_INTRINSIC_WIDTH_UNKNOWN
+NS_INTRINSIC_ISIZE_UNKNOWN
 ;
 nsContainerFrame
 :
@@ -3665,7 +3665,7 @@ if
 mIntrinsicWidth
 =
 =
-NS_INTRINSIC_WIDTH_UNKNOWN
+NS_INTRINSIC_ISIZE_UNKNOWN
 )
 {
 ReflowOutput

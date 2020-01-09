@@ -533,7 +533,7 @@ kClassID
 )
 mFirstBaseline
 (
-NS_INTRINSIC_WIDTH_UNKNOWN
+NS_INTRINSIC_ISIZE_UNKNOWN
 )
 mEditorHasBeenInitialized
 (
