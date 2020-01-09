@@ -120,7 +120,6 @@ SMILCompositor
 &
 toMove
 )
-noexcept
 :
 PLDHashEntryHdr
 (
