@@ -193,6 +193,10 @@ arm
 linux
 -
 androideabi
+export
+FENNEC_NIGHTLY
+=
+1
 ac_add_options
 -
 -

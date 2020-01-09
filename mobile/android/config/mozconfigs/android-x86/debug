@@ -131,6 +131,10 @@ sdk
 =
 16
 export
+FENNEC_NIGHTLY
+=
+1
+export
 MOZILLA_OFFICIAL
 =
 1
