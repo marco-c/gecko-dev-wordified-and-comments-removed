@@ -800,8 +800,8 @@ PStunAddrsRequest
 async
 PWebrtcProxyChannel
 (
-PBrowserOrId
-browser
+TabId
+tabId
 )
 ;
 /

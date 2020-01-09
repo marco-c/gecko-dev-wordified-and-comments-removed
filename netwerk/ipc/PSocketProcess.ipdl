@@ -351,8 +351,8 @@ data
 async
 PWebrtcProxyChannel
 (
-PBrowserOrId
-browser
+TabId
+tabId
 )
 ;
 child

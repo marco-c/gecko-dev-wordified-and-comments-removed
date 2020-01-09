@@ -1957,7 +1957,6 @@ aCallback
 :
 WebrtcProxyChannel
 (
-nullptr
 aCallback
 )
 {

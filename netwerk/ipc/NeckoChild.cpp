@@ -631,9 +631,9 @@ NeckoChild
 AllocPWebrtcProxyChannelChild
 (
 const
-PBrowserOrId
+TabId
 &
-browser
+tabId
 )
 {
 MOZ_ASSERT_UNREACHABLE

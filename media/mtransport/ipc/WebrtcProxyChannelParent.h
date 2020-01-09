@@ -67,10 +67,7 @@ int
 &
 aPort
 const
-Maybe
-<
 LoadInfoArgs
->
 &
 aLoadInfoArgs
 const
@@ -122,9 +119,11 @@ override
 explicit
 WebrtcProxyChannelParent
 (
-nsIAuthPromptProvider
-*
-aAuthProvider
+dom
+:
+:
+TabId
+aTabId
 )
 ;
 void
