@@ -112,13 +112,6 @@ aArgv
 ]
 )
 {
-BackgroundHangMonitor
-:
-:
-Startup
-(
-)
-;
 char
 *
 parentBuildID
