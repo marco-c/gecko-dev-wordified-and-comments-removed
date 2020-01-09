@@ -1685,6 +1685,16 @@ value
 =
 val
 ;
+this
+.
+window
+.
+gBrowser
+.
+userTypedValue
+=
+val
+;
 switch
 (
 result
