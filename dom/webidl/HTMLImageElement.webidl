@@ -327,6 +327,17 @@ attribute
 boolean
 complete
 ;
+[
+NewObject
+]
+Promise
+<
+void
+>
+decode
+(
+)
+;
 }
 ;
 /

@@ -4533,6 +4533,13 @@ QueueCheckPluginStopEvent
 )
 ;
 }
+nsImageLoadingContent
+:
+:
+NotifyOwnerDocumentActivityChanged
+(
+)
+;
 }
 NS_IMETHODIMP
 nsObjectLoadingContent

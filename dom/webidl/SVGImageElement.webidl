@@ -192,6 +192,17 @@ attribute
 DOMString
 decoding
 ;
+[
+NewObject
+]
+Promise
+<
+void
+>
+decode
+(
+)
+;
 }
 ;
 SVGImageElement
