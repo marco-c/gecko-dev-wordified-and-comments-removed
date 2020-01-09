@@ -1499,8 +1499,6 @@ gFindBar
 .
 _findField
 .
-inputField
-.
 dispatchEvent
 (
 event
@@ -2039,8 +2037,6 @@ focusedElement
 gFindBar
 .
 _findField
-.
-inputField
 "
 testQuickfind
 :

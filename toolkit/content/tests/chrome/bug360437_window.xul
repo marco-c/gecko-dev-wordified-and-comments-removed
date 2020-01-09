@@ -577,8 +577,6 @@ focusedElement
 gFindBar
 .
 _findField
-.
-inputField
 "
 Find
 field
@@ -900,8 +898,6 @@ i
 gFindBar
 .
 _findField
-.
-inputField
 .
 dispatchEvent
 (
