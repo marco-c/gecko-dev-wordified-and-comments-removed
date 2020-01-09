@@ -41,17 +41,9 @@ readProfilesIni
 (
 )
 ;
-let
-installData
-=
-readInstallsIni
-(
-)
-;
 checkProfileService
 (
 profileData
-installData
 )
 ;
 Assert
@@ -290,7 +282,7 @@ Assert
 .
 ok
 (
-installData
+profileData
 .
 installs
 [
