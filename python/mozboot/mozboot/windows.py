@@ -549,7 +549,7 @@ state_dir
 checkout_root
 node
 .
-WINDOWS
+WIN64
 )
     
 def
