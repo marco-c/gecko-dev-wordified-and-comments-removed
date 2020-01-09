@@ -71,7 +71,7 @@ c
 js
 source_id
 =
-undefined
+actor1
 "
 ;
 exports
@@ -159,7 +159,7 @@ e
 js
 source_id
 =
-undefined
+actor2
 -
 c
 .
@@ -179,7 +179,7 @@ c
 js
 source_id
 =
-undefined
+actor1
 "
 ;
 exports
@@ -246,7 +246,7 @@ c
 js
 source_id
 =
-undefined
+actor1
 -
 x
 .
@@ -266,7 +266,7 @@ x
 js
 source_id
 =
-undefined
+actor3
 "
 ;
 exports
@@ -354,7 +354,7 @@ e
 js
 source_id
 =
-undefined
+actor2
 -
 c
 .
@@ -374,6 +374,6 @@ c
 js
 source_id
 =
-undefined
+actor1
 "
 ;

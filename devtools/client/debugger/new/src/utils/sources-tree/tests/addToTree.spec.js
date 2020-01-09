@@ -212,7 +212,7 @@ c
 .
 js
 "
-actor
+id
 :
 "
 actor1
@@ -389,7 +389,7 @@ source1
 .
 js
 "
-actor
+id
 :
 "
 actor1
@@ -628,7 +628,7 @@ foo
 {
 sourceName
 }
-actor
+id
 :
 "
 actor1
@@ -753,7 +753,7 @@ foo
 {
 sourceName
 }
-actor
+id
 :
 "
 actor1
@@ -1230,7 +1230,7 @@ World
 '
 )
 "
-actor
+id
 :
 "
 actor1
@@ -1259,7 +1259,7 @@ source1
 .
 js
 "
-actor
+id
 :
 "
 actor2
@@ -1301,7 +1301,7 @@ i
 )
 ;
 "
-actor
+id
 :
 "
 actor3
@@ -1467,7 +1467,7 @@ b
 .
 js
 "
-actor
+id
 :
 "
 actor1
