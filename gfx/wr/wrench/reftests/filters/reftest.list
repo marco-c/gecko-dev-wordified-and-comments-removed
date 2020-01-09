@@ -808,6 +808,11 @@ dropshadow
 ref
 .
 yaml
+skip_on
+(
+android
+debug
+)
 =
 =
 filter
@@ -830,6 +835,14 @@ mode
 ref
 .
 yaml
+#
+Android
+:
+GL
+error
+502
+at
+blit_framebuffer
 =
 =
 fuzzy
