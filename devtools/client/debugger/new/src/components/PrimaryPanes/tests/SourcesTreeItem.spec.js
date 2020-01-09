@@ -203,7 +203,6 @@ render
 const
 {
 item
-source
 }
 =
 instance
@@ -258,7 +257,6 @@ toHaveBeenCalledWith
 (
 event
 item
-source
 )
 ;
 }
