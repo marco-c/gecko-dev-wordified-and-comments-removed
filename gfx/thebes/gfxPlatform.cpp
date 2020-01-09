@@ -12247,6 +12247,10 @@ FEATURE_FAILURE_LAYERSCOPE
 return
 ;
 }
+InitPlatformGPUProcessPrefs
+(
+)
+;
 }
 void
 gfxPlatform
