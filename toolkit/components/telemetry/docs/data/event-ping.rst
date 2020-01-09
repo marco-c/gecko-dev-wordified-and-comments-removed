@@ -117,7 +117,7 @@ ping
 was
 submitted
 "
-processCreationTimestamp
+processStartTimestamp
 "
 :
 <
@@ -477,10 +477,7 @@ to
 be
 submitted
 .
-processCreationTimestamp
-~
-~
-~
+processStartTimestamp
 ~
 ~
 ~
@@ -556,9 +553,6 @@ event
 pings
 .
 sessionId
-~
-~
-~
 ~
 ~
 ~
