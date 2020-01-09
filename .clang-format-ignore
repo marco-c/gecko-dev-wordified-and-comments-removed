@@ -263,6 +263,15 @@ unicharutil
 /
 util
 /
+nsSpecialCasingData
+.
+cpp
+intl
+/
+unicharutil
+/
+util
+/
 nsUnicodePropertyData
 .
 cpp
