@@ -97,6 +97,9 @@ cm
 s
 -
 mozilla
+devtools
+-
+monospace
 "
 onClick
 =
@@ -147,6 +150,9 @@ className
 breakpoint
 -
 line
+devtools
+-
+monospace
 "
 >
 53
@@ -267,6 +273,9 @@ cm
 s
 -
 mozilla
+devtools
+-
+monospace
 "
 onClick
 =
@@ -317,6 +326,9 @@ className
 breakpoint
 -
 line
+devtools
+-
+monospace
 "
 >
 53
@@ -438,6 +450,9 @@ cm
 s
 -
 mozilla
+devtools
+-
+monospace
 "
 onClick
 =
@@ -488,6 +503,9 @@ className
 breakpoint
 -
 line
+devtools
+-
+monospace
 "
 >
 53
@@ -610,6 +628,9 @@ cm
 s
 -
 mozilla
+devtools
+-
+monospace
 "
 onClick
 =
@@ -660,6 +681,9 @@ className
 breakpoint
 -
 line
+devtools
+-
+monospace
 "
 >
 5
@@ -777,6 +801,9 @@ cm
 s
 -
 mozilla
+devtools
+-
+monospace
 "
 onClick
 =
@@ -827,6 +854,9 @@ className
 breakpoint
 -
 line
+devtools
+-
+monospace
 "
 >
 53

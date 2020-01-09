@@ -934,6 +934,9 @@ cm
 s
 -
 mozilla
+devtools
+-
+monospace
 "
 onClick
 =
@@ -987,6 +990,9 @@ className
 breakpoint
 -
 line
+devtools
+-
+monospace
 "
 >
 {
