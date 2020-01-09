@@ -142,6 +142,13 @@ h
 "
 ;
 include
+"
+VRMessageUtils
+.
+h
+"
+;
+include
 GraphicsMessages
 ;
 include
