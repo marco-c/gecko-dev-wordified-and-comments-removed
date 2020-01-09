@@ -221,6 +221,16 @@ breakpoint
 disabled
 ;
 const
+isDisabled
+=
+breakpoint
+&
+&
+breakpoint
+.
+disabled
+;
+const
 condition
 =
 breakpoint
@@ -275,8 +285,7 @@ active
 isActive
 disabled
 :
-!
-isActive
+isDisabled
 }
 )
 ;
