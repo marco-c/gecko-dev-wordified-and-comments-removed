@@ -548,7 +548,7 @@ cx
 currentInner
 -
 >
-FastGetGlobalJSObject
+GetGlobalJSObject
 (
 )
 )

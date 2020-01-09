@@ -4483,7 +4483,7 @@ win
 win
 -
 >
-FastGetGlobalJSObject
+HasJSGlobal
 (
 )
 )

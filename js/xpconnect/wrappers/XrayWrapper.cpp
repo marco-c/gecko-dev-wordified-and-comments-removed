@@ -8166,7 +8166,7 @@ obj
 global
 -
 >
-FastGetGlobalJSObject
+GetGlobalJSObject
 (
 )
 ;
@@ -8190,11 +8190,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-ExposeObjectToActiveJS
-(
-obj
-)
-;
 desc
 .
 value
