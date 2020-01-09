@@ -65,7 +65,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aDatabase
 )
@@ -261,7 +261,7 @@ PBackgroundLSSnapshotChild
 aActor
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aActor
 )
@@ -292,7 +292,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aObserver
 )
@@ -611,7 +611,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 mCallback
 )
@@ -681,7 +681,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aCallback
 )
@@ -780,7 +780,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 aSnapshot
 )
