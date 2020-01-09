@@ -779,6 +779,16 @@ padding
 1em
 0
 ;
+display
+:
+flex
+;
+flex
+-
+wrap
+:
+wrap
+;
 }
 #
 cert_domain_link
