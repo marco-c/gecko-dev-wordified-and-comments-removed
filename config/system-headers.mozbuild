@@ -5994,13 +5994,13 @@ if
 CONFIG
 [
 '
-MOZ_WIDGET_TOOLKIT
+OS_TARGET
 '
 ]
 =
 =
 '
-android
+Android
 '
 :
 system_headers
