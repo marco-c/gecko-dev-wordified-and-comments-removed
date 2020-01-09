@@ -93,7 +93,6 @@ graph_config
 input
 task_group_id
 task_id
-task
 )
 :
     

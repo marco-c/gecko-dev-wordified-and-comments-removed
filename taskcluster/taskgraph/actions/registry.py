@@ -2583,26 +2583,6 @@ parameters
 graph_config
 )
     
-if
-task_id
-:
-        
-task
-=
-taskcluster
-.
-get_task_definition
-(
-task_id
-)
-    
-else
-:
-        
-task
-=
-None
-    
 cb
 (
 Parameters
@@ -2615,7 +2595,6 @@ graph_config
 input
 task_group_id
 task_id
-task
 )
 def
 _load

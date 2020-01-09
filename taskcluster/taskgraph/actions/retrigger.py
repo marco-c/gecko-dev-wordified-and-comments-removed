@@ -47,6 +47,12 @@ from
 registry
 import
 register_callback_action
+from
+taskgraph
+.
+util
+import
+taskcluster
 logger
 =
 logging
@@ -179,7 +185,6 @@ graph_config
 input
 task_group_id
 task_id
-task
 )
 :
     
@@ -236,6 +241,15 @@ effort
 "
 "
 "
+    
+task
+=
+taskcluster
+.
+get_task_definition
+(
+task_id
+)
     
 task
 =
@@ -466,7 +480,6 @@ graph_config
 input
 task_group_id
 task_id
-task
 )
 :
     
@@ -479,6 +492,15 @@ fetch_graph_and_labels
         
 parameters
 graph_config
+)
+    
+task
+=
+taskcluster
+.
+get_task_definition
+(
+task_id
 )
     
 label

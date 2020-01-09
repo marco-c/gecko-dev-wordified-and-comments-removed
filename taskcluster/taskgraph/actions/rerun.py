@@ -43,6 +43,12 @@ from
 util
 import
 fetch_graph_and_labels
+from
+taskgraph
+.
+util
+import
+taskcluster
 logger
 =
 logging
@@ -172,9 +178,17 @@ graph_config
 input
 task_group_id
 task_id
-task
 )
 :
+    
+task
+=
+taskcluster
+.
+get_task_definition
+(
+task_id
+)
     
 parameters
 =

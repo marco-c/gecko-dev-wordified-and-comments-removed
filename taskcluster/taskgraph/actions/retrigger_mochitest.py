@@ -49,6 +49,12 @@ from
 registry
 import
 register_callback_action
+from
+taskgraph
+.
+util
+import
+taskcluster
 logger
 =
 logging
@@ -581,9 +587,17 @@ graph_config
 input
 task_group_id
 task_id
-task
 )
 :
+    
+task
+=
+taskcluster
+.
+get_task_definition
+(
+task_id
+)
     
 decision_task_id
 full_task_graph
