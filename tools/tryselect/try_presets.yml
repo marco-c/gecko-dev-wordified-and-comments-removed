@@ -253,6 +253,9 @@ raptor
 '
 talos
 "
+rebuild
+:
+5
 sample
 -
 suites
