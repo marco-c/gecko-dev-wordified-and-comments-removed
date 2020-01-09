@@ -29,17 +29,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-WindowProxyHolder
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

@@ -54,6 +54,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WindowProxyHolder
+.
+h
+"
+#
+include
+"
 nsAttrValueInlines
 .
 h

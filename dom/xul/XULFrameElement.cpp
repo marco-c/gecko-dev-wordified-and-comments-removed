@@ -46,6 +46,17 @@ mozilla
 /
 dom
 /
+WindowProxyHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 XULFrameElement
 .
 h
