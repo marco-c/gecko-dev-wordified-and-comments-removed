@@ -26,6 +26,7 @@ eval
 (
 async
 function
+*
 f
 (
 x

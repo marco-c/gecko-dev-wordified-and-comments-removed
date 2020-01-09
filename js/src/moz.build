@@ -3147,6 +3147,13 @@ js
 '
 builtin
 /
+AsyncFunction
+.
+js
+'
+'
+builtin
+/
 AsyncIteration
 .
 js
