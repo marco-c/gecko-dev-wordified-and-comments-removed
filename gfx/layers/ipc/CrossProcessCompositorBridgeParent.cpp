@@ -2144,6 +2144,16 @@ ToMilliseconds
 )
 )
 ;
+RegisterPayload
+(
+aLayerTree
+aInfo
+.
+payload
+(
+)
+)
+;
 aLayerTree
 -
 >
