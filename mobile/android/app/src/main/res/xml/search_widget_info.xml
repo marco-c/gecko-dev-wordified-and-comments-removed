@@ -125,7 +125,7 @@ initialLayout
 "
 layout
 /
-widget_search_5_col_layout
+widget_search_default_col_layout
 "
 android
 :
@@ -139,7 +139,7 @@ android
 minHeight
 =
 "
-50dp
+40dp
 "
 android
 :
@@ -153,7 +153,16 @@ android
 minResizeHeight
 =
 "
-50dp
+40dp
+"
+android
+:
+previewImage
+=
+"
+drawable
+/
+search_widget_preview
 "
 android
 :

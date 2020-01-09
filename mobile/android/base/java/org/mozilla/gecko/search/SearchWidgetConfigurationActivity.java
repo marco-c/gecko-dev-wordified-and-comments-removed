@@ -153,7 +153,7 @@ R
 .
 layout
 .
-widget_search_5_col_layout
+widget_search_default_col_layout
 )
 ;
 appWidgetManager
