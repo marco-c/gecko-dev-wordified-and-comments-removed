@@ -1272,6 +1272,11 @@ OpenPreferences
 "
 {
 hostname
+entryPoint
+:
+"
+autocomplete
+"
 }
 )
 ;

@@ -3425,6 +3425,13 @@ LoginHelper
 openPasswordManager
 (
 window
+{
+entryPoint
+:
+'
+mainmenu
+'
+}
 )
 "
 /
