@@ -116,12 +116,8 @@ WebAuthnManagerBase
 MOZ_CAN_RUN_SCRIPT
 virtual
 void
-CancelTransaction
+HandleVisibilityChange
 (
-const
-nsresult
-&
-aError
 )
 =
 0

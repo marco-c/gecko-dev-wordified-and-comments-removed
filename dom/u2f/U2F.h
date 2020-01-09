@@ -183,6 +183,10 @@ NextId
 (
 )
 )
+mVisibilityChanged
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -275,6 +279,9 @@ mCallback
 ;
 uint64_t
 mId
+;
+bool
+mVisibilityChanged
 ;
 private
 :
@@ -500,6 +507,12 @@ const
 nsresult
 &
 aError
+)
+;
+MOZ_CAN_RUN_SCRIPT
+void
+HandleVisibilityChange
+(
 )
 override
 ;

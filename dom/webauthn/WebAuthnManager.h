@@ -77,6 +77,10 @@ NextId
 (
 )
 )
+mVisibilityChanged
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -94,6 +98,9 @@ mPromise
 ;
 uint64_t
 mId
+;
+bool
+mVisibilityChanged
 ;
 private
 :
@@ -261,6 +268,11 @@ const
 nsresult
 &
 aError
+)
+;
+void
+HandleVisibilityChange
+(
 )
 override
 ;
