@@ -21436,6 +21436,14 @@ isSelfHostedBuiltin
 )
 &
 &
+fun
+-
+>
+isExtended
+(
+)
+&
+&
 GetSelfHostedFunctionName
 (
 fun
