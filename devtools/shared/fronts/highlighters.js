@@ -64,13 +64,11 @@ highlighterSpec
 constructor
 (
 client
-form
 )
 {
 super
 (
 client
-form
 )
 ;
 this
@@ -318,13 +316,11 @@ customHighlighterSpec
 constructor
 (
 client
-form
 )
 {
 super
 (
 client
-form
 )
 ;
 this

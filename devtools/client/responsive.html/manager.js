@@ -2114,9 +2114,6 @@ EmulationFront
 this
 .
 client
-targetFront
-.
-targetForm
 )
 ;
 this
@@ -2135,6 +2132,17 @@ emulationFront
 .
 formAttributeName
 ]
+;
+this
+.
+emulationFront
+.
+manage
+(
+this
+.
+emulationFront
+)
 ;
 }
 showReloadNotification
