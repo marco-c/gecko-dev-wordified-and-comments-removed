@@ -12782,7 +12782,7 @@ nsINode
 :
 QuerySelector
 "
-DOM
+LAYOUT_SelectorQuery
 aSelector
 )
 ;
@@ -12855,7 +12855,7 @@ nsINode
 :
 QuerySelectorAll
 "
-DOM
+LAYOUT_SelectorQuery
 aSelector
 )
 ;
