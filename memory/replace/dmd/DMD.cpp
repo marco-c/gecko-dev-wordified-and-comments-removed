@@ -868,7 +868,9 @@ T
 *
 new_
 (
+const
 P1
+&
 aP1
 )
 {
