@@ -2017,6 +2017,7 @@ StopTrackingDragGesture
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 GenerateDragGesture
 (
@@ -2028,6 +2029,7 @@ WidgetInputEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 MaybeFirePointerCancel
 (

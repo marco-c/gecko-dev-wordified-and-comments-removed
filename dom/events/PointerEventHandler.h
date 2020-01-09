@@ -198,6 +198,7 @@ bool
 aActiveState
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 MaybeProcessPointerCapture
@@ -207,6 +208,7 @@ WidgetGUIEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ProcessPointerCaptureForMouse
@@ -216,6 +218,7 @@ WidgetMouseEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ProcessPointerCaptureForTouch
@@ -225,6 +228,7 @@ WidgetTouchEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 CheckPointerCaptureState
@@ -246,6 +250,7 @@ WidgetEvent
 aEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 ImplicitlyReleasePointerCapture
@@ -498,6 +503,7 @@ uint32_t
 aPointerId
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 static
 void
 DispatchGotOrLostPointerCaptureEvent

@@ -15804,9 +15804,12 @@ rv
 =
 DispatchClickEvent
 (
+MOZ_KnownLive
+(
 aVisitor
 .
 mPresContext
+)
 keyEvent
 this
 false

@@ -195,6 +195,9 @@ IME_REASON
 =
 128
 ;
+[
+can_run_script
+]
 void
 notifySelectionChanged
 (
