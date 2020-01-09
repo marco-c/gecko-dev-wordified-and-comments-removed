@@ -250,7 +250,7 @@ External
 [
 repr
 (
-u32
+u8
 )
 ]
 #
@@ -319,7 +319,7 @@ ExternalImageType
 [
 repr
 (
-u32
+u8
 )
 ]
 #
