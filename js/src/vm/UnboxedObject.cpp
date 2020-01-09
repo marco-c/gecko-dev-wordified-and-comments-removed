@@ -572,7 +572,7 @@ PreIndex
 ;
 masm
 .
-initStackPtr
+initPseudoStackPtr
 (
 )
 ;

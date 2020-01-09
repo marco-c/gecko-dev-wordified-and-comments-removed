@@ -1704,7 +1704,7 @@ GetStackPointer64
 }
 }
 void
-initStackPtr
+initPseudoStackPtr
 (
 )
 {
