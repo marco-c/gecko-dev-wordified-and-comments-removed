@@ -5413,10 +5413,10 @@ val
 ;
 if
 (
-gHttpHandler
--
->
-IsTelemetryEnabled
+Telemetry
+:
+:
+CanRecordPrereleaseData
 (
 )
 )
