@@ -130,6 +130,8 @@ RDDChild
 :
 Init
 (
+bool
+aStartMacSandbox
 )
 {
 Maybe
@@ -238,6 +240,7 @@ endif
 SendInit
 (
 brokerFd
+aStartMacSandbox
 )
 ;
 #
