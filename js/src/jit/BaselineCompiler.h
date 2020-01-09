@@ -1224,6 +1224,16 @@ _
 (
 JSOP_DYNAMIC_IMPORT
 )
+\
+_
+(
+JSOP_INC
+)
+\
+_
+(
+JSOP_DEC
+)
 template
 <
 typename
