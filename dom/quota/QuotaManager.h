@@ -655,6 +655,11 @@ aGroup
 nsACString
 &
 aOrigin
+const
+bool
+aTelemetry
+=
+false
 )
 ;
 nsresult
