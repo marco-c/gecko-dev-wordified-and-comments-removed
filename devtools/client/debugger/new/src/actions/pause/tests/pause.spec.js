@@ -453,6 +453,11 @@ async
 {
 }
 )
+onPauseChange
+(
+)
+{
+}
 }
 ;
 const
