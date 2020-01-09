@@ -170,7 +170,9 @@ component
 shadow
 -
 root
-_moz_generated_content_marker
+:
+:
+marker
 :
 :
 before
@@ -368,7 +370,9 @@ slot
 div
 !
 slotted
-_moz_generated_content_marker
+:
+:
+marker
 :
 :
 before
@@ -507,7 +511,9 @@ component
 shadow
 -
 root
-_moz_generated_content_marker
+:
+:
+marker
 }
 ]
 ;
