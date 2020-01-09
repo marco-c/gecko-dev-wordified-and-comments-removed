@@ -3,9 +3,7 @@ const
 PromiseTestUtils
 }
 =
-ChromeUtils
-.
-import
+scopedCuImport
 (
 "
 resource
@@ -67,8 +65,6 @@ CHROME_URL_ROOT
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -92,8 +88,6 @@ CHROME_URL_ROOT
 /
 debugger
 /
-new
-/
 test
 /
 mochitest
@@ -116,8 +110,6 @@ CHROME_URL_ROOT
 .
 /
 debugger
-/
-new
 /
 test
 /

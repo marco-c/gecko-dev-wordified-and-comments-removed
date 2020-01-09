@@ -195,6 +195,8 @@ component
 >
 {
 it
+.
+skip
 (
 "
 renders
