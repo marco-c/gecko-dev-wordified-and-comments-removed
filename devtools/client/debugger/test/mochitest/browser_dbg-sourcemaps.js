@@ -305,14 +305,14 @@ dbg
 "
 sourceDirectoryLabel
 "
-3
+4
 )
 ;
 await
 assertSourceCount
 (
 dbg
-8
+9
 )
 ;
 await
