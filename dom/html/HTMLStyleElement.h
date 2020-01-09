@@ -216,6 +216,7 @@ bool
 Disabled
 (
 )
+const
 ;
 void
 SetDisabled

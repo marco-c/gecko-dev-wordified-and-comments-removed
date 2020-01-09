@@ -226,6 +226,8 @@ HasAlternateRel
 aHasAlternateRel
 IsInline
 aIsInline
+IsExplicitlyEnabled
+aIsExplicitlyEnabled
 )
 :
 mContent
@@ -275,6 +277,10 @@ IsInline
 :
 :
 Yes
+)
+mIsExplicitlyEnabled
+(
+aIsExplicitlyEnabled
 )
 {
 MOZ_ASSERT
