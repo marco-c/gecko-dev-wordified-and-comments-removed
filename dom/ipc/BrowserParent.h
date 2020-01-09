@@ -833,6 +833,8 @@ const
 nsString
 &
 aName
+bool
+aForceNoReferrer
 const
 nsString
 &

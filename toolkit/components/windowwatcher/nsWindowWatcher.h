@@ -266,6 +266,8 @@ bool
 aIsPopupSpam
 bool
 aForceNoOpener
+bool
+aForceNoReferrer
 nsDocShellLoadState
 *
 aLoadState

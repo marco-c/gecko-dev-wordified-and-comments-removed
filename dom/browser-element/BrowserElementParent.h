@@ -92,13 +92,13 @@ dom
 :
 BrowserParent
 *
-aOpenerBrowserParent
+aOpenerTabParent
 dom
 :
 :
 BrowserParent
 *
-aPopupBrowserParent
+aPopupTabParent
 const
 nsAString
 &
@@ -107,6 +107,8 @@ const
 nsAString
 &
 aName
+bool
+aForceNoReferrer
 const
 nsAString
 &
@@ -171,6 +173,8 @@ const
 nsAString
 &
 aName
+bool
+aForceNoReferrer
 const
 nsAString
 &

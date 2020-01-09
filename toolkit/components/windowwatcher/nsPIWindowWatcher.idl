@@ -690,6 +690,9 @@ in
 boolean
 aForceNoOpener
 in
+boolean
+aForceNoReferrer
+in
 nsDocShellLoadStatePtr
 aLoadState
 )

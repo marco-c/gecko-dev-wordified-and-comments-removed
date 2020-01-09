@@ -439,7 +439,7 @@ BrowserChild
 aTabOpener
 mozIDOMWindowProxy
 *
-aOpener
+aParent
 bool
 aIframeMoz
 uint32_t
@@ -463,6 +463,8 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
+bool
+aForceNoReferrer
 nsDocShellLoadState
 *
 aLoadState

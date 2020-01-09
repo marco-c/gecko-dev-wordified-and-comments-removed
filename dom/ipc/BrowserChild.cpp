@@ -4485,6 +4485,8 @@ nsACString
 aFeatures
 bool
 aForceNoOpener
+bool
+aForceNoReferrer
 nsDocShellLoadState
 *
 aLoadState
@@ -4646,6 +4648,7 @@ aURI
 aName
 aFeatures
 aForceNoOpener
+aForceNoReferrer
 aLoadState
 aWindowIsNew
 aReturn
