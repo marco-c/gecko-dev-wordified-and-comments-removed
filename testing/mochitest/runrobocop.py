@@ -895,10 +895,6 @@ options
 debuggerInfo
 =
 None
-            
-ignoreSSLTunnelExts
-=
-True
 )
         
 self

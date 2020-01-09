@@ -1646,10 +1646,6 @@ self
 options
             
 debuggerInfo
-            
-ignoreSSLTunnelExts
-=
-True
 )
         
 restoreRemotePaths
