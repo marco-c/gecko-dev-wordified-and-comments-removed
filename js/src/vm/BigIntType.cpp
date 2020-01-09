@@ -7143,7 +7143,7 @@ n
 MaxDigitLength
 )
 {
-ReportAllocationOverflow
+ReportOutOfMemory
 (
 cx
 )
