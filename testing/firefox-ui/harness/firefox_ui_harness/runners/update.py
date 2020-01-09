@@ -27,6 +27,16 @@ app
 .
 update
 .
+disabledForTesting
+'
+:
+False
+    
+'
+app
+.
+update
+.
 doorhanger
 '
 :
