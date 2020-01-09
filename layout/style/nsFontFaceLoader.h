@@ -202,8 +202,6 @@ nsIURI
 >
 mFontURI
 ;
-RefPtr
-<
 mozilla
 :
 :
@@ -211,7 +209,8 @@ dom
 :
 :
 FontFaceSet
->
+*
+MOZ_NON_OWNING_REF
 mFontFaceSet
 ;
 nsCOMPtr

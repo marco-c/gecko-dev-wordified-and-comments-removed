@@ -3071,6 +3071,13 @@ this
 channel
 )
 ;
+mLoaders
+.
+PutEntry
+(
+fontLoader
+)
+;
 if
 (
 LOG_ENABLED
@@ -3471,13 +3478,6 @@ rv
 )
 )
 {
-mLoaders
-.
-PutEntry
-(
-fontLoader
-)
-;
 fontLoader
 -
 >
