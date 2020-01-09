@@ -73,10 +73,8 @@ mProfilerScreenshots
 {
 mProfilerScreenshots
 =
-MakeUnique
-<
+new
 ProfilerScreenshots
->
 (
 )
 ;
@@ -130,10 +128,8 @@ mProfilerScreenshots
 {
 mProfilerScreenshots
 =
-MakeUnique
-<
+new
 ProfilerScreenshots
->
 (
 )
 ;

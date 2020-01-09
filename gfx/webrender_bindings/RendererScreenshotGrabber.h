@@ -170,7 +170,7 @@ QueueItem
 >
 mCurrentFrameQueueItem
 ;
-UniquePtr
+RefPtr
 <
 mozilla
 :
