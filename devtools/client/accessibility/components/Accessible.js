@@ -840,9 +840,19 @@ props
 ;
 if
 (
+!
 gToolbox
+|
+|
+!
+accessible
+.
+actorID
 )
 {
+return
+;
+}
 dispatch
 (
 updateDetails
@@ -855,7 +865,6 @@ supports
 )
 )
 ;
-}
 }
 setExpanded
 (
