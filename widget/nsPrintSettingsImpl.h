@@ -150,6 +150,9 @@ bool
 mIsCancelled
 ;
 bool
+mSaveOnCancel
+;
+bool
 mPrintSilent
 ;
 bool
