@@ -1937,6 +1937,15 @@ __func__
 )
 ;
 }
+buffer
+.
+SetLength
+(
+frames
+*
+channels
+)
+;
 return
 DecodePromise
 :
