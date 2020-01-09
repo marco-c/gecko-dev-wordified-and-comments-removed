@@ -838,6 +838,7 @@ scopes
 '
 :
 [
+                
 '
 secrets
 :
@@ -851,6 +852,21 @@ gecko
 /
 hgfingerprint
 '
+                
+'
+secrets
+:
+get
+:
+project
+/
+taskcluster
+/
+gecko
+/
+hgmointernal
+'
+            
 ]
             
 '

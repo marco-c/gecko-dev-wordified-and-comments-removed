@@ -151,7 +151,11 @@ taskcluster
 /
 gecko
 /
+(
 hgfingerprint
+|
+hgmointernal
+)
 '
 )
     
