@@ -98,10 +98,6 @@ mJSVal
 (
 aJSVal
 )
-mCCGeneration
-(
-0
-)
 {
 if
 (
