@@ -840,9 +840,10 @@ it
 "
 should
 render
-null
+something
 if
 spocs
+are
 not
 loaded
 "
@@ -875,7 +876,7 @@ null
 ;
 assert
 .
-equal
+notEqual
 (
 wrapper
 .
@@ -893,9 +894,10 @@ it
 "
 should
 render
-null
+something
 if
 feeds
+are
 not
 loaded
 "
@@ -921,7 +923,7 @@ false
 ;
 assert
 .
-equal
+notEqual
 (
 wrapper
 .

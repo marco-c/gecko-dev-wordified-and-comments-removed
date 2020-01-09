@@ -2268,6 +2268,15 @@ return
 (
 <
 Trailhead
+document
+=
+{
+this
+.
+props
+.
+document
+}
 message
 =
 {

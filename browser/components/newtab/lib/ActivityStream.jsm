@@ -2100,9 +2100,7 @@ noDefaultSearchTile
 title
 :
 "
-Experiment
-to
-remove
+Remove
 tiles
 that
 are
@@ -2488,7 +2486,7 @@ fxa
 "
 enabled
 :
-false
+true
 type
 :
 "
