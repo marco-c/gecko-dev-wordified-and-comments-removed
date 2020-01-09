@@ -927,6 +927,9 @@ rval
 )
 )
 ;
+#
+ifndef
+JS_SIMULATOR_ARM64
 bool
 match
 ;
@@ -960,6 +963,8 @@ CHECK
 match
 )
 ;
+#
+endif
 }
 {
 {
