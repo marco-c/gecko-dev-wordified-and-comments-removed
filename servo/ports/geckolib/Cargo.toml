@@ -75,6 +75,15 @@ nsstring
 gecko_debug
 "
 ]
+gecko_profiler
+=
+[
+"
+style
+/
+gecko_profiler
+"
+]
 [
 dependencies
 ]

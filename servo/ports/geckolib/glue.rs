@@ -148,6 +148,12 @@ use
 style
 :
 :
+profiler_label
+;
+use
+style
+:
+:
 applicable_declarations
 :
 :
@@ -8474,6 +8480,12 @@ spawn
 |
 |
 {
+profiler_label
+!
+(
+Parse
+)
+;
 async_parser
 .
 parse
