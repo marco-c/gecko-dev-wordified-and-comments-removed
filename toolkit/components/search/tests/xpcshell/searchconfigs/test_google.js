@@ -15,6 +15,13 @@ identifier
 "
 google
 "
+aliases
+:
+[
+"
+google
+"
+]
 default
 :
 {

@@ -15,6 +15,13 @@ identifier
 "
 bing
 "
+aliases
+:
+[
+"
+bing
+"
+]
 default
 :
 {
