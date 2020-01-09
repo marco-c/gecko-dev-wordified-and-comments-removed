@@ -2324,6 +2324,10 @@ nsLayoutModuleInitialize
 (
 )
 ;
+mJSLoaderReady
+=
+true
+;
 InitializeModuleLocations
 (
 )
