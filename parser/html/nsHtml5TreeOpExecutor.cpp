@@ -1079,7 +1079,10 @@ GetTarget
 )
 {
 return
+ToSupports
+(
 mDocument
+)
 ;
 }
 nsresult

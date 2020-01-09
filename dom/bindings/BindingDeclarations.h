@@ -1810,7 +1810,10 @@ aObject
 :
 mObject
 (
+ToSupports
+(
 aObject
+)
 )
 mWrapperCache
 (

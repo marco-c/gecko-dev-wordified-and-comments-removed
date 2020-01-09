@@ -554,7 +554,10 @@ GetParentObject
 const
 {
 return
+ToSupports
+(
 mDocument
+)
 ;
 }
 JSObject

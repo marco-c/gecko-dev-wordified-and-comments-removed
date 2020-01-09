@@ -10005,7 +10005,10 @@ nsContentUtils
 DispatchChromeEvent
 (
 mDoc
+ToSupports
+(
 mDoc
+)
 NS_LITERAL_STRING
 (
 "

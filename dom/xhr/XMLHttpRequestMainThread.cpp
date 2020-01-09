@@ -3228,7 +3228,10 @@ nsContentUtils
 WrapNative
 (
 aCx
+ToSupports
+(
 mResponseXML
+)
 aResponse
 )
 ;

@@ -8380,7 +8380,10 @@ SendFocusOrBlurEvent
 eBlur
 presShell
 doc
+ToSupports
+(
 doc
+)
 1
 false
 )
@@ -8922,7 +8925,10 @@ SendFocusOrBlurEvent
 eFocus
 presShell
 doc
+ToSupports
+(
 doc
+)
 aFlags
 &
 FOCUSMETHOD_MASK

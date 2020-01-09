@@ -934,7 +934,10 @@ mDocument
 )
 ;
 return
+ToSupports
+(
 doc
+)
 ;
 }
 nsresult

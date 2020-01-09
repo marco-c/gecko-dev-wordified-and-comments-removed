@@ -830,7 +830,7 @@ public
 :
 AccumulateQuadCallback
 (
-nsISupports
+nsIDocument
 *
 aParentObject
 nsTArray
@@ -855,7 +855,10 @@ aBoxType
 :
 mParentObject
 (
+ToSupports
+(
 aParentObject
+)
 )
 mResult
 (
