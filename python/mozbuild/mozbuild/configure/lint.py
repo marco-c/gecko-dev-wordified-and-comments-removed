@@ -469,7 +469,7 @@ code
 =
 thrower
 .
-func_code
+__code__
         
 code
 =
@@ -531,17 +531,17 @@ code
             
 thrower
 .
-func_globals
+__globals__
             
 funcname
             
 thrower
 .
-func_defaults
+__defaults__
             
 thrower
 .
-func_closure
+__closure__
         
 )
         
@@ -857,7 +857,7 @@ _has_imports
 or
 func
 .
-func_closure
+__closure__
 :
                 
 return
@@ -1671,7 +1671,7 @@ glob
 =
 func
 .
-func_globals
+__globals__
         
 while
 func
@@ -1686,7 +1686,7 @@ isinstance
 (
 func
 .
-func_globals
+__globals__
 SandboxedGlobal
 )
 :
@@ -1695,7 +1695,7 @@ glob
 =
 func
 .
-func_globals
+__globals__
             
 func
 =
@@ -1912,7 +1912,7 @@ code
 =
 func
 .
-func_code
+__code__
             
 if
 op
