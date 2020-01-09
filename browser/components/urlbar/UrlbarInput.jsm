@@ -5238,6 +5238,14 @@ close
 return
 ;
 }
+this
+.
+view
+.
+removeAccessibleFocus
+(
+)
+;
 if
 (
 this
