@@ -971,10 +971,7 @@ inbound
 -
 rtp
 "
-isRemote
-:
-false
-mediaType
+kind
 :
 audio
 ?
@@ -1021,9 +1018,6 @@ outbound
 -
 rtp
 "
-isRemote
-:
-false
 }
 )
 msg
@@ -1050,7 +1044,7 @@ hasStat
 (
 stats
 {
-mediaType
+kind
 :
 audio
 ?
