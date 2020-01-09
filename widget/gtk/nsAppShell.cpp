@@ -236,6 +236,14 @@ WidgetDraw
 "
 )
 ;
+LazyLogModule
+gWidgetWaylandLog
+(
+"
+WidgetWayland
+"
+)
+;
 static
 GPollFunc
 sPollFunc
