@@ -137,13 +137,6 @@ h
 #
 include
 "
-gfxPrefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StaticPrefs
@@ -665,7 +658,7 @@ swapInt
 GLint
 swapInt
 =
-gfxPrefs
+StaticPrefs
 :
 :
 LayoutFrameRate
