@@ -1538,7 +1538,7 @@ aURI
 )
 ;
 nsresult
-AssociateSourceElementsForModuleTree
+InitDebuggerDataForModuleTree
 (
 JSContext
 *
