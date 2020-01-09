@@ -347,11 +347,6 @@ PromiseDebugging
 webidl
 '
 '
-SessionStoreUtils
-.
-webidl
-'
-'
 StructuredCloneHolder
 .
 webidl
