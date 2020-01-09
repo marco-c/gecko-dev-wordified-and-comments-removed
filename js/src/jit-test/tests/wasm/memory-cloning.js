@@ -296,7 +296,9 @@ g
 (
 drop
 (
-grow_memory
+memory
+.
+grow
 (
 i32
 .

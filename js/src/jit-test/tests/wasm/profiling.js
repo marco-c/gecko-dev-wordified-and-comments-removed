@@ -566,7 +566,9 @@ export
 result
 i32
 )
-current_memory
+memory
+.
+size
 )
 )
 this
@@ -586,7 +588,9 @@ this
 >
 "
 "
-current_memory
+memory
+.
+size
 0
 >
 "
@@ -630,7 +634,9 @@ i32
 .
 const
 1
-grow_memory
+memory
+.
+grow
 )
 )
 this
@@ -650,7 +656,9 @@ this
 >
 "
 "
-grow_memory
+memory
+.
+grow
 0
 >
 "

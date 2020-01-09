@@ -9540,7 +9540,9 @@ i32
 .
 add
 (
-current_memory
+memory
+.
+size
 )
 (
 call
@@ -9548,7 +9550,9 @@ imp1
 )
 )
 (
-current_memory
+memory
+.
+size
 )
 )
 (
@@ -9687,7 +9691,9 @@ call
 imp
 )
 (
-current_memory
+memory
+.
+size
 )
 )
 )

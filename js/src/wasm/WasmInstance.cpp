@@ -1807,7 +1807,7 @@ uint32_t
 Instance
 :
 :
-growMemory_i32
+memoryGrow_i32
 (
 Instance
 *
@@ -1896,7 +1896,7 @@ uint32_t
 Instance
 :
 :
-currentMemory_i32
+memorySize_i32
 (
 Instance
 *

@@ -8982,8 +8982,8 @@ Uint64ToFloat32
 Uint64ToDouble
 Int64ToFloat32
 Int64ToDouble
-GrowMemory
-CurrentMemory
+MemoryGrow
+MemorySize
 WaitI32
 WaitI64
 Wake

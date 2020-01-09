@@ -905,9 +905,13 @@ i32
 .
 const
 10
-grow_memory
+memory
+.
+grow
 drop
-current_memory
+memory
+.
+size
 )
 )
 )

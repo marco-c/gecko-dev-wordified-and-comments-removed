@@ -40,7 +40,9 @@ result
 i32
 )
 (
-current_memory
+memory
+.
+size
 )
 )
 (
@@ -59,7 +61,9 @@ i32
 ;
 ;
 get
-current_memory
+memory
+.
+size
 in
 number
 of
@@ -67,7 +71,9 @@ bytes
 not
 pages
 .
-current_memory
+memory
+.
+size
 i64
 .
 extend_u
@@ -181,7 +187,9 @@ grow
 minus
 one
 .
-current_memory
+memory
+.
+size
 i64
 .
 extend_u
@@ -220,7 +228,9 @@ i32
 wrap
 /
 i64
-grow_memory
+memory
+.
+grow
 drop
 end
 )

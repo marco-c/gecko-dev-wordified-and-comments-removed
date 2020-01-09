@@ -4012,7 +4012,7 @@ bd
 SymbolicAddress
 :
 :
-GrowMemory
+MemoryGrow
 |
 |
 {
@@ -4290,7 +4290,7 @@ bd
 SymbolicAddress
 :
 :
-CurrentMemory
+MemorySize
 |
 |
 {

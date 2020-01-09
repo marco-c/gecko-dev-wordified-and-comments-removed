@@ -21,7 +21,9 @@ i32
 .
 eq
 (
-grow_memory
+memory
+.
+grow
 (
 i32
 .

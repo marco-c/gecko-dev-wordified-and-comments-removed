@@ -3634,7 +3634,9 @@ const
 3
 )
 (
-current_memory
+memory
+.
+size
 )
 )
 )
@@ -3802,7 +3804,9 @@ i
 )
 )
 (
-current_memory
+memory
+.
+size
 )
 )
 )

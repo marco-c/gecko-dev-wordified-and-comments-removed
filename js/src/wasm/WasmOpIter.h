@@ -537,8 +537,8 @@ Conversion
 Load
 Store
 TeeStore
-CurrentMemory
-GrowMemory
+MemorySize
+MemoryGrow
 Select
 GetLocal
 SetLocal
@@ -2118,13 +2118,13 @@ readNop
 ;
 MOZ_MUST_USE
 bool
-readCurrentMemory
+readMemorySize
 (
 )
 ;
 MOZ_MUST_USE
 bool
-readGrowMemory
+readMemoryGrow
 (
 Value
 *
@@ -6807,7 +6807,7 @@ Policy
 >
 :
 :
-readCurrentMemory
+readMemorySize
 (
 )
 {
@@ -6822,7 +6822,7 @@ op_
 OpKind
 :
 :
-CurrentMemory
+MemorySize
 )
 ;
 if
@@ -6914,7 +6914,7 @@ Policy
 >
 :
 :
-readGrowMemory
+readMemoryGrow
 (
 Value
 *
@@ -6932,7 +6932,7 @@ op_
 OpKind
 :
 :
-GrowMemory
+MemoryGrow
 )
 ;
 if

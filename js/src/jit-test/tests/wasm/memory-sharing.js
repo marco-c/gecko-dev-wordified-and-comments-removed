@@ -899,7 +899,9 @@ c
 result
 i32
 )
-current_memory
+memory
+.
+size
 )
 (
 func
@@ -914,7 +916,9 @@ result
 i32
 )
 (
-grow_memory
+memory
+.
+grow
 (
 i32
 .
