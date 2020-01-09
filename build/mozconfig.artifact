@@ -29,13 +29,6 @@ n
 "
 MOZ_ARTIFACT_TASK_WIN32_OPT
 "
--
-a
--
-z
-"
-MOZ_DISABLE_FULL_SYMBOLS
-"
 ;
 then
 ac_add_options
