@@ -17117,10 +17117,6 @@ MaybeReject
 NS_ERROR_DOM_MEDIA_NOT_ALLOWED_ERR
 )
 ;
-DispatchEventsWhenPlayWasNotAllowed
-(
-)
-;
 return
 promise
 .
