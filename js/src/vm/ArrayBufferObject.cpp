@@ -8612,6 +8612,7 @@ obj
 )
 {
 return
+!
 obj
 -
 >
@@ -8622,7 +8623,7 @@ ArrayBufferObject
 (
 )
 .
-hasData
+isDetached
 (
 )
 ;
