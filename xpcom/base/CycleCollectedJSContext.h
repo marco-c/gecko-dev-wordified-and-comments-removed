@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DeferredFinalize
 .
 h
@@ -225,6 +234,7 @@ NS_INLINE_DECL_REFCOUNTING
 (
 MicroTaskRunnable
 )
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 Run
@@ -607,6 +617,7 @@ mJSContext
 }
 public
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 BeforeProcessTask
@@ -615,6 +626,7 @@ bool
 aMightBlock
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 AfterProcessTask
@@ -697,6 +709,7 @@ EnterMicroTask
 mMicroTaskLevel
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 LeaveMicroTask
 (
@@ -753,6 +766,7 @@ mMicroTaskLevel
 aLevel
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 bool
 PerformMicroTaskCheckPoint
 (
@@ -762,6 +776,7 @@ aForce
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 PerformDebuggerMicroTaskCheckpoint
 (
@@ -878,6 +893,7 @@ incumbentGlobal
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 runJobs
 (
@@ -1042,6 +1058,7 @@ EnterMicroTask
 ;
 }
 }
+MOZ_CAN_RUN_SCRIPT
 ~
 nsAutoMicroTask
 (

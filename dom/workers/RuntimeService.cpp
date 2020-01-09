@@ -224,6 +224,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CycleCollectedJSContext
 .
 h
@@ -4498,6 +4507,7 @@ SetTargetedMicroTaskRecursionDepth
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ~
 WorkerJSContext
 (
@@ -10918,6 +10928,7 @@ return
 true
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 WorkerThreadPrimaryRunnable
 :
@@ -11197,7 +11208,10 @@ cx
 )
 ;
 {
+MOZ_KnownLive
+(
 mWorkerPrivate
+)
 -
 >
 DoRunLoop

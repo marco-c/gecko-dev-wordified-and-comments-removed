@@ -1021,6 +1021,7 @@ PromiseJobRunnable
 }
 protected
 :
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 Run
@@ -1112,7 +1113,10 @@ nullptr
 doc
 )
 ;
+MOZ_KnownLive
+(
 mCallback
+)
 -
 >
 Call
@@ -1176,6 +1180,7 @@ IsInSyncOperation
 }
 private
 :
+const
 RefPtr
 <
 PromiseJobCallback
@@ -2397,6 +2402,7 @@ AsyncMutationHandler
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (

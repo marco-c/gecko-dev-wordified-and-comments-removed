@@ -1031,6 +1031,7 @@ aIsJSImplementedWebIDL
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 ~
 CallSetup
 (

@@ -4567,7 +4567,10 @@ EnterEventLoop
 (
 )
 {
+MOZ_KnownLive
+(
 mWorkerPrivate
+)
 -
 >
 EnterDebuggerEventLoop

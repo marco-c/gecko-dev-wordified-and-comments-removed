@@ -19,6 +19,15 @@ nsXPCOM
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
 "
@@ -31,6 +40,7 @@ threads
 namespace
 mozilla
 {
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ShutdownXPCOM
 (

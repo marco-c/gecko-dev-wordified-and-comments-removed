@@ -19,6 +19,15 @@ nsXPCOMCID
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 __cplusplus
 #
@@ -166,6 +175,7 @@ NS_InitMinimalXPCOM
 ;
 XPCOM_API
 (
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 )
 NS_ShutdownXPCOM

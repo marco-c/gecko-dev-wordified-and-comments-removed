@@ -38,6 +38,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 js
 /
 SliceBudget
@@ -197,6 +206,7 @@ nsCycleCollector_suspectedCount
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 nsCycleCollector_shutdown
 (

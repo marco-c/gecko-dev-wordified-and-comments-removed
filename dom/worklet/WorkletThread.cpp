@@ -42,6 +42,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventQueue
 .
 h
@@ -387,6 +396,7 @@ nsCycleCollector_startup
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ~
 WorkletJSContext
 (
