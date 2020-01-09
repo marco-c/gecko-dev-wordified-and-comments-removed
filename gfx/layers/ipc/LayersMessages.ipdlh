@@ -1317,15 +1317,6 @@ hasPerspectiveParent
 ;
 }
 ;
-union
-AnimationData
-{
-null_t
-;
-TransformData
-;
-}
-;
 struct
 Animation
 {
@@ -1653,7 +1644,8 @@ fillMode
 nsCSSPropertyID
 property
 ;
-AnimationData
+TransformData
+?
 data
 ;
 float

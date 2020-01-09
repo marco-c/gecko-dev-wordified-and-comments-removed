@@ -226,7 +226,10 @@ PropertyAnimationGroup
 nsCSSPropertyID
 mProperty
 ;
-AnimationData
+Maybe
+<
+TransformData
+>
 mAnimationData
 ;
 nsTArray
