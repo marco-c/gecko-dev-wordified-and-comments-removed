@@ -665,8 +665,11 @@ ref
 ;
 }
 }
+#
+ifdef
+ENABLE_WASM_GC
 bool
-isRefType
+isNarrowType
 (
 )
 const
@@ -694,6 +697,8 @@ ValType
 Ref
 ;
 }
+#
+endif
 bool
 isValid
 (
