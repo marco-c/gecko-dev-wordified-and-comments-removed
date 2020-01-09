@@ -548,15 +548,6 @@ self
 config
         
 if
-self
-.
-try_message_has_flag
-(
-'
-artifact
-'
-)
-or
 os
 .
 environ

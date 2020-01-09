@@ -1932,6 +1932,27 @@ add_argument
 (
 '
 -
+-
+artifact
+'
+dest
+=
+'
+artifact
+'
+action
+=
+'
+store_true
+'
+)
+    
+parser
+.
+add_argument
+(
+'
+-
 w
 '
 '
@@ -2375,6 +2396,12 @@ no_retry
 =
 False
         
+self
+.
+artifact
+=
+False
+        
 options
 =
 parameters
@@ -2599,6 +2626,17 @@ options
 [
 '
 no_retry
+'
+]
+        
+self
+.
+artifact
+=
+options
+[
+'
+artifact
 '
 ]
         
@@ -4958,6 +4996,18 @@ str
 self
 .
 no_retry
+)
+            
+"
+artifact
+:
+"
++
+str
+(
+self
+.
+artifact
 )
         
 ]
