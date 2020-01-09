@@ -939,6 +939,19 @@ style_section
                 
 continue
             
+if
+line
+.
+startswith
+(
+'
+#
+'
+)
+:
+                
+continue
+            
 line
 =
 re
@@ -1210,6 +1223,19 @@ False
 if
 not
 style_section
+:
+                
+continue
+            
+if
+line
+.
+startswith
+(
+'
+#
+'
+)
 :
                 
 continue
