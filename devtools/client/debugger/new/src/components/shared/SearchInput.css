@@ -168,7 +168,11 @@ index
 :
 1
 ;
-left
+inset
+-
+inline
+-
+start
 :
 6px
 ;
@@ -223,7 +227,11 @@ img
 .
 search
 {
-left
+inset
+-
+inline
+-
+start
 :
 12px
 ;

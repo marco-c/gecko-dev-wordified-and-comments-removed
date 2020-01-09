@@ -123,14 +123,6 @@ top
 :
 auto
 ;
-offset
--
-inline
--
-end
-:
-0
-;
 inset
 -
 inline
@@ -138,14 +130,6 @@ inline
 end
 :
 0
-;
-offset
--
-inline
--
-start
-:
-auto
 ;
 inset
 -
@@ -250,7 +234,7 @@ text
 -
 align
 :
-right
+end
 ;
 padding
 -
@@ -306,7 +290,7 @@ text
 -
 align
 :
-left
+start
 ;
 padding
 -

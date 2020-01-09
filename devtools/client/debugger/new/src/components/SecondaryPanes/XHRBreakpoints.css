@@ -593,7 +593,7 @@ container__close
 -
 btn
 {
-offset
+inset
 -
 inline
 -
@@ -601,7 +601,7 @@ end
 :
 12px
 ;
-offset
+inset
 -
 inline
 -
