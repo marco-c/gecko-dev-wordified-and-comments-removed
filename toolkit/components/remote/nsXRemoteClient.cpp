@@ -2239,11 +2239,6 @@ data_return
 ;
 }
 }
-if
-(
-aProfile
-)
-{
 Unused
 <
 <
@@ -2308,6 +2303,10 @@ data_return
 )
 ;
 }
+else
+{
+continue
+;
 }
 bestWindow
 =

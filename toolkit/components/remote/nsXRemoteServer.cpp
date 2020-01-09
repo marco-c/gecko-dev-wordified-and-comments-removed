@@ -450,16 +450,6 @@ Length
 )
 )
 ;
-if
-(
-!
-mProfileName
-.
-IsEmpty
-(
-)
-)
-{
 XChangeProperty
 (
 mozilla
@@ -490,7 +480,6 @@ Length
 )
 )
 ;
-}
 }
 bool
 nsXRemoteServer
