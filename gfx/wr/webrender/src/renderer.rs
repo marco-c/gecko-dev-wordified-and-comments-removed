@@ -334,7 +334,10 @@ use
 picture
 :
 :
+{
 RecordedDirtyRegion
+TileCache
+}
 ;
 use
 prim_store
@@ -8569,6 +8572,15 @@ new
 (
 max_texture_size
 max_texture_layers
+TileCache
+:
+:
+tile_dimensions
+(
+config
+.
+testing
+)
 )
 ;
 let
