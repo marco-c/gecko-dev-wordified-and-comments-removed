@@ -1,3 +1,12 @@
+/
+/
+!
+Code
+related
+to
+generating
+tokenizers
+.
 #
 !
 [
@@ -6,6 +15,12 @@ allow
 dead_code
 )
 ]
+/
+/
+not
+yet
+fully
+activated
 pub
 mod
 dfa
@@ -16,9 +31,9 @@ intern_token
 ;
 pub
 mod
-nfa
+re
 ;
 pub
 mod
-re
+nfa
 ;
