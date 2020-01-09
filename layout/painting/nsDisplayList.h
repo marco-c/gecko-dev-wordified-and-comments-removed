@@ -25353,7 +25353,13 @@ Matrix4x4Flagged
 >
 mInverseTransform
 ;
+mozilla
+:
+:
+UniquePtr
+<
 Matrix4x4
+>
 mTransformPreserves3D
 ;
 ComputeTransformFunction
@@ -25387,9 +25393,6 @@ mHasBounds
 ;
 bool
 mIsTransformSeparator
-;
-bool
-mTransformPreserves3DInited
 ;
 bool
 mAllowAsyncAnimation
