@@ -628,6 +628,9 @@ QuickExit
 }
 if
 (
+mVRGPUParent
+&
+&
 !
 mVRGPUParent
 -
