@@ -41471,6 +41471,12 @@ transformForSC
 =
 nullptr
 ;
+position
+.
+Round
+(
+)
+;
 }
 uint64_t
 animationsId
