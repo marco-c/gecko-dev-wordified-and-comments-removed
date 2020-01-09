@@ -1163,7 +1163,7 @@ MOZ_WIDGET_GTK
 #
 include
 "
-XRemoteClient
+nsXRemoteClient
 .
 h
 "
@@ -1201,7 +1201,7 @@ MOZ_ENABLE_DBUS
 #
 include
 "
-DBusRemoteClient
+nsDBusRemoteClient
 .
 h
 "
@@ -7041,7 +7041,7 @@ useX11Remote
 client
 =
 new
-DBusRemoteClient
+nsDBusRemoteClient
 (
 )
 ;
@@ -7056,7 +7056,7 @@ useX11Remote
 client
 =
 new
-XRemoteClient
+nsXRemoteClient
 (
 )
 ;
