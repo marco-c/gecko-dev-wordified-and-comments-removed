@@ -157,6 +157,7 @@ mode
 readonly
 attribute
 XRPresentationContext
+?
 outputContext
 ;
 readonly
@@ -174,6 +175,7 @@ depthFar
 ;
 attribute
 XRLayer
+?
 baseLayer
 ;
 /
@@ -185,9 +187,6 @@ XRReferenceSpace
 >
 requestReferenceSpace
 (
-XRReferenceSpaceType
-type
-optional
 XRReferenceSpaceOptions
 options
 )
@@ -284,7 +283,10 @@ inline
 "
 ;
 XRPresentationContext
+?
 outputContext
+=
+null
 ;
 }
 ;
@@ -390,6 +392,10 @@ XRReferenceSpace
 :
 XRSpace
 {
+attribute
+XRRigidTransform
+originOffset
+;
 attribute
 EventHandler
 onreset
