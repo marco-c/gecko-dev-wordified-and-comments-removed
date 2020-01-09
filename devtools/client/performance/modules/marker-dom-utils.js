@@ -138,7 +138,7 @@ hbox
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -162,7 +162,7 @@ bullet
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -203,7 +203,7 @@ label
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -389,7 +389,7 @@ hbox
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -413,7 +413,7 @@ nameLabel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -457,7 +457,7 @@ valueLabel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -551,7 +551,7 @@ nameLabel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -699,7 +699,7 @@ asyncBox
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -711,7 +711,7 @@ asyncLabel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -762,7 +762,7 @@ hbox
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -779,7 +779,7 @@ functionLabel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -824,7 +824,7 @@ linkNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 a
@@ -875,7 +875,7 @@ urlLabel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -917,7 +917,7 @@ lineLabel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -1008,7 +1008,7 @@ unknownLabel
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label
@@ -1116,7 +1116,7 @@ hbox
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1140,7 +1140,7 @@ label
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 label

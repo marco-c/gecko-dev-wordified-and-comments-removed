@@ -264,7 +264,7 @@ ifr
 =
 document
 .
-createElement
+createXULElement
 (
 '
 browser

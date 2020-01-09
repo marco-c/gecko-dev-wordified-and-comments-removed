@@ -168,7 +168,7 @@ tc
 =
 document
 .
-createElement
+createXULElement
 (
 "
 treechildren

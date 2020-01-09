@@ -7192,7 +7192,7 @@ textbox1
 =
 document
 .
-createElement
+createXULElement
 (
 "
 textbox
@@ -7215,7 +7215,7 @@ textbox2
 =
 document
 .
-createElement
+createXULElement
 (
 "
 textbox

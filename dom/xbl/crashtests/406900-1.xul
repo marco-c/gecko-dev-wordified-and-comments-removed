@@ -216,7 +216,7 @@ hbox
 =
 document
 .
-createElement
+createXULElement
 (
 '
 hbox

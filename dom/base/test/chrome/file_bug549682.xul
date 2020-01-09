@@ -1325,7 +1325,7 @@ b
 =
 document
 .
-createElement
+createXULElement
 (
 "
 browser

@@ -478,7 +478,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 "
 test
@@ -497,7 +497,7 @@ true
 "
 document
 .
-createElement
+createXULElement
 (
 XUL
 )
@@ -734,7 +734,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 "
 test
@@ -753,7 +753,7 @@ false
 "
 document
 .
-createElement
+createXULElement
 (
 HTML
 )

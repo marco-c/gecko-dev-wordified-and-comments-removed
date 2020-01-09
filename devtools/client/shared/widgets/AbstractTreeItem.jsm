@@ -1143,7 +1143,7 @@ _arrowNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox

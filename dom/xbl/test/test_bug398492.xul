@@ -522,7 +522,7 @@ n3
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox

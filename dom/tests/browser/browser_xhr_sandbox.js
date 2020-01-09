@@ -185,7 +185,7 @@ newWin
 .
 document
 .
-createElement
+createXULElement
 (
 "
 iframe

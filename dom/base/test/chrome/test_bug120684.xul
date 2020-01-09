@@ -470,7 +470,7 @@ remove
 (
 document
 .
-createElement
+createXULElement
 (
 "
 foo
@@ -542,7 +542,7 @@ e1
 =
 document
 .
-createElement
+createXULElement
 (
 "
 foo
@@ -554,7 +554,7 @@ e2
 =
 document
 .
-createElement
+createXULElement
 (
 "
 foo
@@ -566,7 +566,7 @@ e3
 =
 document
 .
-createElement
+createXULElement
 (
 "
 foo

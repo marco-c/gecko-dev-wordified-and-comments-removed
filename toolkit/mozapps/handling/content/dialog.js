@@ -837,7 +837,7 @@ elm
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -1178,7 +1178,7 @@ elm
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -1409,7 +1409,7 @@ elm
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem
@@ -1707,7 +1707,7 @@ elm
 =
 document
 .
-createElement
+createXULElement
 (
 "
 richlistitem

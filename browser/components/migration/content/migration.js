@@ -1495,7 +1495,7 @@ item
 =
 document
 .
-createElement
+createXULElement
 (
 "
 radio
@@ -1795,7 +1795,7 @@ checkbox
 =
 document
 .
-createElement
+createXULElement
 (
 "
 checkbox
@@ -2332,7 +2332,7 @@ label
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

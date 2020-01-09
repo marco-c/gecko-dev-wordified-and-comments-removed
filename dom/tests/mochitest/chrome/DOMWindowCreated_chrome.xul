@@ -307,7 +307,7 @@ el
 =
 document
 .
-createElement
+createXULElement
 (
 "
 iframe

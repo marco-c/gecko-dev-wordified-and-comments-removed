@@ -72,7 +72,7 @@ atab
 =
 document
 .
-createElement
+createXULElement
 (
 '
 tab

@@ -1815,7 +1815,7 @@ window
 .
 document
 .
-createElement
+createXULElement
 (
 type
 )
@@ -2847,7 +2847,7 @@ window
 .
 document
 .
-createElement
+createXULElement
 (
 "
 vbox
@@ -2895,7 +2895,7 @@ window
 .
 document
 .
-createElement
+createXULElement
 (
 "
 li

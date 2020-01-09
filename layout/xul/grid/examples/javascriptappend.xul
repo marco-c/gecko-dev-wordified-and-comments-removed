@@ -169,7 +169,7 @@ text
 =
 document
 .
-createElement
+createXULElement
 (
 "
 text

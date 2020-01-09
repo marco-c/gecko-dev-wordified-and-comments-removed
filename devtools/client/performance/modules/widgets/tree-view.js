@@ -922,7 +922,7 @@ targetNode
 =
 document
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1126,7 +1126,7 @@ cell
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -1199,7 +1199,7 @@ cell
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 hbox
@@ -1278,7 +1278,7 @@ icon
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -1323,7 +1323,7 @@ nameNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -1513,7 +1513,7 @@ urlNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -1590,7 +1590,7 @@ lineNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -1642,7 +1642,7 @@ columnNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -1694,7 +1694,7 @@ hostNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description
@@ -1744,7 +1744,7 @@ categoryNode
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 description

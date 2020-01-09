@@ -1632,7 +1632,7 @@ browser
 =
 document
 .
-createElement
+createXULElement
 (
 "
 browser

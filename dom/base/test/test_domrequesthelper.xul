@@ -1036,7 +1036,7 @@ frame
 =
 document
 .
-createElement
+createXULElement
 (
 "
 iframe

@@ -384,7 +384,7 @@ b
 =
 document
 .
-createElement
+createXULElement
 (
 "
 button
@@ -426,7 +426,7 @@ b
 =
 document
 .
-createElement
+createXULElement
 (
 "
 row
@@ -464,7 +464,7 @@ b
 =
 document
 .
-createElement
+createXULElement
 (
 "
 column
@@ -503,7 +503,7 @@ text
 =
 document
 .
-createElement
+createXULElement
 (
 "
 text

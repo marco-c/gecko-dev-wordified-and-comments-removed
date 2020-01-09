@@ -221,7 +221,7 @@ element
 =
 document
 .
-createElement
+createXULElement
 (
 name
 )

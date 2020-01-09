@@ -58,7 +58,7 @@ insertBefore
 (
 document
 .
-createElement
+createXULElement
 (
 '
 box

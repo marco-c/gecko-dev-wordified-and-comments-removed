@@ -19809,7 +19809,7 @@ popup
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menupopup
@@ -19829,7 +19829,7 @@ notNowItem
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -19880,7 +19880,7 @@ neverItem
 =
 doc
 .
-createElement
+createXULElement
 (
 "
 menuitem

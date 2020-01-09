@@ -53,7 +53,7 @@ appendChild
 (
 document
 .
-createElement
+createXULElement
 (
 '
 box

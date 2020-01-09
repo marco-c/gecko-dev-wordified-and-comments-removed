@@ -500,7 +500,7 @@ menu
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem
@@ -2410,7 +2410,7 @@ menu
 =
 document
 .
-createElement
+createXULElement
 (
 "
 menuitem

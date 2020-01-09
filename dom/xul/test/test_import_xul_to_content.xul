@@ -546,7 +546,7 @@ elt
 =
 document
 .
-createElement
+createXULElement
 (
 "
 label

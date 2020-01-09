@@ -376,7 +376,7 @@ gFrame
 =
 document
 .
-createElement
+createXULElement
 (
 "
 iframe
@@ -693,7 +693,7 @@ newWin
 .
 document
 .
-createElement
+createXULElement
 (
 "
 iframe
