@@ -182,6 +182,14 @@ destroy
 this
 )
 ;
+this
+.
+domains
+.
+clear
+(
+)
+;
 }
 onEvent
 (
