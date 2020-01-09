@@ -5134,6 +5134,16 @@ nullptr
 )
 ;
 }
+mozilla
+:
+:
+Preferences
+:
+:
+RefreshStaticPrefsValues
+(
+)
+;
 }
 #
 if
