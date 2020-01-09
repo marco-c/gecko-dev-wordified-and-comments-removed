@@ -39455,7 +39455,7 @@ MOZ_ASSERT
 mUpdateRefcountFunction
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mInWriteTransaction
@@ -41842,7 +41842,7 @@ MOZ_ASSERT
 mDEBUGSavepointCount
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 mInWriteTransaction
@@ -47848,14 +47848,14 @@ NewRunnableMethod
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 "
 thread
 &
 nsIThread
 :
 :
-Shutdown
+AsyncShutdown
 )
 )
 )
@@ -50396,7 +50396,6 @@ DoIdleProcessing
 mNeedsCheckpoint
 )
 ;
-}
 MOZ_ALWAYS_SUCCEEDS
 (
 owningThread
@@ -50413,10 +50412,7 @@ return
 NS_OK
 ;
 }
-AssertIsOnBackgroundThread
-(
-)
-;
+}
 RefPtr
 <
 ConnectionPool
