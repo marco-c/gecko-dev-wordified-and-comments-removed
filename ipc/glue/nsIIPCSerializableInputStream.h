@@ -46,7 +46,7 @@ class
 nsIContentChild
 ;
 class
-nsIContentParent
+ContentParent
 ;
 }
 namespace
@@ -216,7 +216,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -384,7 +384,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 )
 override
@@ -596,7 +596,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )
@@ -881,7 +881,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )

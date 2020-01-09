@@ -36133,7 +36133,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aContentParent
 mozilla
@@ -36575,7 +36575,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aParent
 )
@@ -37330,7 +37330,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aParent
 const
@@ -37467,7 +37467,7 @@ mozilla
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aParent
 )

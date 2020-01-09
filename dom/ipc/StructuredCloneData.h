@@ -76,7 +76,7 @@ class
 nsIContentChild
 ;
 class
-nsIContentParent
+ContentParent
 ;
 namespace
 ipc
@@ -481,7 +481,7 @@ aRv
 bool
 BuildClonedMessageDataForParent
 (
-nsIContentParent
+ContentParent
 *
 aParent
 ClonedMessageData

@@ -196,7 +196,7 @@ aChannelId
 nsAtom
 *
 aAddonId
-nsIContentParent
+ContentParent
 *
 aContentParent
 )

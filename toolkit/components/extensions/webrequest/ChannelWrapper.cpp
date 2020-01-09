@@ -654,7 +654,7 @@ nsITabParent
 aTabParent
 )
 {
-nsIContentParent
+ContentParent
 *
 contentParent
 =
@@ -678,18 +678,11 @@ aTabParent
 {
 contentParent
 =
-static_cast
-<
-nsIContentParent
-*
->
-(
 parent
 -
 >
 Manager
 (
-)
 )
 ;
 }
@@ -3536,7 +3529,7 @@ aAddonId
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aContentParent
 )
@@ -3562,7 +3555,7 @@ tabParent
 )
 )
 {
-nsIContentParent
+ContentParent
 *
 contentParent
 =
@@ -3575,12 +3568,6 @@ tabParent
 {
 contentParent
 =
-static_cast
-<
-nsIContentParent
-*
->
-(
 static_cast
 <
 TabParent
@@ -3597,7 +3584,6 @@ get
 >
 Manager
 (
-)
 )
 ;
 }

@@ -224,7 +224,7 @@ namespace
 dom
 {
 class
-nsIContentParent
+ContentParent
 ;
 class
 Element
@@ -658,7 +658,7 @@ aAddonId
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aContentParent
 )

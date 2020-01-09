@@ -39,7 +39,7 @@ class
 nsIContentChild
 ;
 class
-nsIContentParent
+ContentParent
 ;
 }
 namespace
@@ -189,7 +189,7 @@ aStream
 dom
 :
 :
-nsIContentParent
+ContentParent
 *
 aManager
 )
