@@ -628,13 +628,6 @@ ToComplexClipRegions
 (
 int32_t
 aAppUnitsPerDevPixel
-const
-layers
-:
-:
-StackingContextHelper
-&
-aSc
 nsTArray
 <
 wr

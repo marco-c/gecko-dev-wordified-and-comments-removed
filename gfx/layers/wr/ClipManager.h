@@ -117,10 +117,6 @@ SwitchItem
 nsDisplayItem
 *
 aItem
-const
-StackingContextHelper
-&
-aStackingContext
 )
 ;
 ~
@@ -201,10 +197,6 @@ aASR
 nsDisplayItem
 *
 aItem
-const
-StackingContextHelper
-&
-aSc
 )
 ;
 Maybe
@@ -222,10 +214,6 @@ DisplayItemClipChain
 aChain
 int32_t
 aAppUnitsPerDevPixel
-const
-StackingContextHelper
-&
-aSc
 )
 ;
 WebRenderLayerManager
