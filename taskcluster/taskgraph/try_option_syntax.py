@@ -4351,6 +4351,21 @@ build_platform
 return
 False
         
+if
+'
+android
+-
+hw
+'
+in
+task
+.
+label
+:
+            
+return
+False
+        
 def
 match_test
 (
