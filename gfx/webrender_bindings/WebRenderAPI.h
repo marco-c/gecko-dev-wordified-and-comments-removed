@@ -1470,12 +1470,10 @@ wr
 TransformStyle
 aTransformStyle
 const
-gfx
+wr
 :
 :
-Matrix4x4
-*
-aPerspective
+ReferenceFrameKind
 const
 wr
 :

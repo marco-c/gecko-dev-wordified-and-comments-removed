@@ -89,6 +89,7 @@ api
 {
 PropertyBinding
 ReferenceFrame
+ReferenceFrameKind
 ScrollFrameDisplayItem
 ScrollSensitivity
 }
@@ -2494,7 +2495,7 @@ reference_frame
 transform
 reference_frame
 .
-perspective
+kind
 reference_frame_relative_offset
 +
 origin
@@ -2870,7 +2871,10 @@ TransformStyle
 :
 Flat
 None
-None
+ReferenceFrameKind
+:
+:
+Transform
 origin
 )
 ;
@@ -7531,12 +7535,9 @@ PropertyBinding
 LayoutTransform
 >
 >
-source_perspective
+kind
 :
-Option
-<
-LayoutTransform
->
+ReferenceFrameKind
 origin_in_parent_reference_frame
 :
 LayoutVector2D
@@ -7557,7 +7558,7 @@ add_reference_frame
 parent_index
 transform_style
 source_transform
-source_perspective
+kind
 origin_in_parent_reference_frame
 pipeline_id
 )
@@ -7672,7 +7673,10 @@ TransformStyle
 :
 Flat
 None
-None
+ReferenceFrameKind
+:
+:
+Transform
 LayoutVector2D
 :
 :
