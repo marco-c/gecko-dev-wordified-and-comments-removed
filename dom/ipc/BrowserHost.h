@@ -59,6 +59,8 @@ public
 RemoteBrowser
 public
 nsIRemoteTab
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -90,8 +92,13 @@ nsIRemoteTab
 aRemoteTab
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIREMOTETAB
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+BrowserHost
+RemoteBrowser
+)
 BrowserParent
 *
 GetActor
