@@ -88,6 +88,24 @@ content
 "
 "
       
+if
+count
+<
+2
+:
+        
+request
+.
+server
+.
+stash
+.
+put
+(
+token
+count
+)
+      
 return
 200
 headers
