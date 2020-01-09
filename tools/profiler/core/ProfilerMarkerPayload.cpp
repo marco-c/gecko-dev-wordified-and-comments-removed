@@ -383,7 +383,7 @@ end
 }
 }
 void
-DiskIOMarkerPayload
+FileIOMarkerPayload
 :
 :
 StreamPayload
@@ -403,7 +403,7 @@ aUniqueStacks
 StreamCommonProps
 (
 "
-DiskIO
+FileIO
 "
 aWriter
 aProcessStartTime
