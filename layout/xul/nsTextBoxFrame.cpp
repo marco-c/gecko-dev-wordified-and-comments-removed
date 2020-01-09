@@ -4424,6 +4424,14 @@ ComputedStyle
 aOldComputedStyle
 )
 {
+nsLeafBoxFrame
+:
+:
+DidSetComputedStyle
+(
+aOldComputedStyle
+)
+;
 if
 (
 !
