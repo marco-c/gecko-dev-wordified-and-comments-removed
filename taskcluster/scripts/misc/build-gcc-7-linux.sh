@@ -71,7 +71,7 @@ binutils_version
 =
 2
 .
-28
+31
 .
 1
 binutils_ext
