@@ -950,7 +950,7 @@ reason
 #
 ifndef
 RELEASE_OR_BETA
-MOZ_CRASH_UNSAFE_OOL
+MOZ_CRASH_UNSAFE
 (
 reason
 )

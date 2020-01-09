@@ -929,7 +929,7 @@ aLine
 }
 #
 define
-MOZ_CRASH_UNSAFE_OOL
+MOZ_CRASH_UNSAFE
 (
 reason
 )

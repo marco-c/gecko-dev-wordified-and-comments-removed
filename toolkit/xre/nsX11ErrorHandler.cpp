@@ -560,7 +560,7 @@ backtrace
 endif
 #
 endif
-MOZ_CRASH_UNSAFE_OOL
+MOZ_CRASH_UNSAFE
 (
 notes
 .

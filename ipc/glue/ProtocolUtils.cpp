@@ -1398,7 +1398,7 @@ result
 #
 ifndef
 FUZZING
-MOZ_CRASH_UNSAFE_OOL
+MOZ_CRASH_UNSAFE
 (
 formattedMessage
 .
@@ -1420,7 +1420,7 @@ char
 aMsg
 )
 {
-MOZ_CRASH_UNSAFE_OOL
+MOZ_CRASH_UNSAFE
 (
 aMsg
 )
