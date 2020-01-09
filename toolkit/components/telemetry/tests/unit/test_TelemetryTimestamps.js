@@ -135,6 +135,10 @@ finishAddonManagerStartup
 (
 )
 ;
+fakeIntlReady
+(
+)
+;
 do_get_profile
 (
 )
