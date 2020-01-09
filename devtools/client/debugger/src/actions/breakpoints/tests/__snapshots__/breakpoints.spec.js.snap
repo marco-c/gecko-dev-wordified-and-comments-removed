@@ -263,13 +263,6 @@ relativeUrl
 "
 :
 "
-http
-:
-/
-/
-localhost
-:
-8000
 /
 examples
 /
@@ -772,13 +765,6 @@ relativeUrl
 "
 :
 "
-http
-:
-/
-/
-localhost
-:
-8000
 /
 examples
 /
