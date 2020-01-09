@@ -263,7 +263,7 @@ about
 -
 debugging
 -
-browser
+runtime
 -
 version
 -
@@ -300,7 +300,7 @@ about
 -
 debugging
 -
-browser
+runtime
 -
 version
 -
@@ -341,7 +341,7 @@ about
 -
 debugging
 -
-browser
+runtime
 -
 version
 -

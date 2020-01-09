@@ -496,7 +496,7 @@ devices
 where
 a
 compatible
-browser
+runtime
 (
 eg
 #
@@ -540,11 +540,11 @@ waiting
 -
 for
 -
-browser
+runtime
 =
 Waiting
 for
-browser
+runtime
 #
 Title
 for
@@ -2030,7 +2030,7 @@ page
 if
 the
 remote
-browser
+runtime
 version
 is
 too
@@ -2070,7 +2070,7 @@ version
 of
 the
 remote
-browser
+runtime
 (
 for
 instance
@@ -2104,7 +2104,7 @@ about
 -
 debugging
 -
-browser
+runtime
 -
 version
 -
@@ -2114,7 +2114,7 @@ old
 =
 The
 connected
-browser
+runtime
 has
 an
 old
@@ -2152,7 +2152,7 @@ Please
 update
 the
 connected
-browser
+runtime
 .
 <
 a
@@ -2230,7 +2230,7 @@ version
 of
 the
 remote
-browser
+runtime
 (
 for
 instance
@@ -2244,7 +2244,7 @@ about
 -
 debugging
 -
-browser
+runtime
 -
 version
 -
@@ -2265,7 +2265,7 @@ work
 with
 the
 connected
-browser
+runtime
 .
 Please
 use
@@ -2282,7 +2282,7 @@ the
 Debugger
 with
 this
-browser
+runtime
 .
 #
 This
@@ -2296,7 +2296,7 @@ page
 if
 the
 remote
-browser
+runtime
 version
 is
 too
@@ -2341,7 +2341,7 @@ ID
 of
 the
 remote
-browser
+runtime
 (
 for
 instance
@@ -2379,7 +2379,7 @@ version
 of
 the
 remote
-browser
+runtime
 (
 for
 instance
@@ -2399,7 +2399,7 @@ version
 of
 your
 current
-browser
+runtime
 (
 same
 format
@@ -2408,7 +2408,7 @@ about
 -
 debugging
 -
-browser
+runtime
 -
 version
 -
@@ -2418,7 +2418,7 @@ recent
 =
 The
 connected
-browser
+runtime
 is
 more
 recent
@@ -3827,7 +3827,7 @@ category
 Only
 for
 remote
-browsers
+runtimes
 if
 devtools
 .
@@ -3847,11 +3847,11 @@ main
 -
 process
 -
-description2
+description
 =
 Main
 Process
 for
 the
 target
-browser
+runtime
