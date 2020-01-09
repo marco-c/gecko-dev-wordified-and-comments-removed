@@ -119,7 +119,7 @@ const
 nsStaticAtom
 *
 const
-unitMap
+angleUnitMap
 [
 ]
 =
@@ -166,7 +166,7 @@ sAnimSVGAngleTearoffTable
 ;
 static
 bool
-IsValidUnitType
+IsValidAngleUnitType
 (
 uint16_t
 unit
@@ -193,7 +193,7 @@ false
 }
 static
 void
-GetUnitString
+GetAngleUnitString
 (
 nsAString
 &
@@ -204,7 +204,7 @@ unitType
 {
 if
 (
-IsValidUnitType
+IsValidAngleUnitType
 (
 unitType
 )
@@ -212,13 +212,13 @@ unitType
 {
 if
 (
-unitMap
+angleUnitMap
 [
 unitType
 ]
 )
 {
-unitMap
+angleUnitMap
 [
 unitType
 ]
@@ -245,7 +245,7 @@ type
 }
 static
 uint16_t
-GetUnitTypeForString
+GetAngleUnitTypeForString
 (
 const
 nsAString
@@ -289,7 +289,7 @@ i
 <
 ArrayLength
 (
-unitMap
+angleUnitMap
 )
 ;
 i
@@ -299,7 +299,7 @@ i
 {
 if
 (
-unitMap
+angleUnitMap
 [
 i
 ]
@@ -320,7 +320,7 @@ SVG_ANGLETYPE_UNKNOWN
 }
 static
 void
-GetValueString
+GetAngleValueString
 (
 nsAString
 &
@@ -351,7 +351,7 @@ aValue
 nsAutoString
 unitString
 ;
-GetUnitString
+GetAngleUnitString
 (
 unitString
 aUnitType
@@ -454,13 +454,13 @@ get
 *
 aUnitType
 =
-GetUnitTypeForString
+GetAngleUnitTypeForString
 (
 units
 )
 ;
 return
-IsValidUnitType
+IsValidAngleUnitType
 (
 *
 aUnitType
@@ -621,7 +621,7 @@ aSVGElement
 if
 (
 !
-IsValidUnitType
+IsValidAngleUnitType
 (
 unitType
 )
@@ -722,7 +722,7 @@ NS_ERROR_ILLEGAL_VALUE
 if
 (
 !
-IsValidUnitType
+IsValidAngleUnitType
 (
 unitType
 )
@@ -1143,7 +1143,7 @@ aValueAsString
 )
 const
 {
-GetValueString
+GetAngleValueString
 (
 aValueAsString
 mBaseVal
@@ -1163,7 +1163,7 @@ aValueAsString
 )
 const
 {
-GetValueString
+GetAngleValueString
 (
 aValueAsString
 mAnimVal
