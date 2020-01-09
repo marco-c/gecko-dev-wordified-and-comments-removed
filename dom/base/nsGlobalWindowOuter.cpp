@@ -34525,10 +34525,6 @@ mFrameElement
 (
 nullptr
 )
-mDocShell
-(
-nullptr
-)
 mModalStateDepth
 (
 0
