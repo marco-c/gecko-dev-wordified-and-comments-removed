@@ -141,6 +141,7 @@ webidl
 Selection
 ;
 [
+builtinclass
 scriptable
 uuid
 (
