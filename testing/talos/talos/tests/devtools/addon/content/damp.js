@@ -1,4 +1,4 @@
-const
+var
 {
 Services
 }
@@ -22,7 +22,7 @@ jsm
 "
 )
 ;
-const
+var
 {
 XPCOMUtils
 }
