@@ -63,6 +63,11 @@ manifestURL
 PropTypes
 .
 string
+reloadError
+:
+PropTypes
+.
+string
 uuid
 :
 PropTypes
