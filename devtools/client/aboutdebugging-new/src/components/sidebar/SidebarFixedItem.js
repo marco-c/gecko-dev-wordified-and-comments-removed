@@ -145,6 +145,16 @@ return
 SidebarItem
 (
 {
+className
+:
+"
+sidebar
+-
+item
+-
+-
+tall
+"
 isSelected
 to
 }
