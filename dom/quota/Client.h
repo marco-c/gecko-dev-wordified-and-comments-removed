@@ -116,7 +116,6 @@ Type
 IDB
 =
 0
-ASMJS
 DOMCACHE
 SDB
 LS
