@@ -746,7 +746,7 @@ popBack
 (
 )
 ;
-MOZ_ALWAYS_TRUE
+MOZ_RELEASE_ASSERT
 (
 !
 frames
