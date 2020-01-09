@@ -31,13 +31,7 @@ public
 :
 static
 void
-Initialize
-(
-)
-;
-static
-void
-Shutdown
+MaybeShutdown
 (
 )
 ;
@@ -103,6 +97,12 @@ override
 private
 :
 UrlClassifierFeatureTrackingAnnotation
+(
+)
+;
+static
+void
+MaybeInitialize
 (
 )
 ;
