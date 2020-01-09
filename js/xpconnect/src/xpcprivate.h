@@ -3099,6 +3099,9 @@ aCx
 bool
 GetComponentsJSObject
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -7399,6 +7402,9 @@ static
 bool
 NativeInterface2JSObject
 (
+JSContext
+*
+cx
 JS
 :
 :

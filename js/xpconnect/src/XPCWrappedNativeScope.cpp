@@ -346,6 +346,9 @@ XPCWrappedNativeScope
 :
 GetComponentsJSObject
 (
+JSContext
+*
+cx
 JS
 :
 :
@@ -353,9 +356,6 @@ MutableHandleObject
 obj
 )
 {
-AutoJSContext
-cx
-;
 if
 (
 !
@@ -410,6 +410,7 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
+cx
 &
 val
 helper
@@ -557,6 +558,7 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
+aCx
 &
 subcompVal
 helper
@@ -636,6 +638,7 @@ if
 !
 GetComponentsJSObject
 (
+aCx
 &
 components
 )

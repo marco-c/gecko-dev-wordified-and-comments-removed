@@ -2046,6 +2046,7 @@ iface
 return
 NativeInterface2JSObject
 (
+cx
 d
 helper
 iid
@@ -4813,6 +4814,9 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
+JSContext
+*
+cx
 MutableHandleValue
 d
 xpcObjectHelper
@@ -4875,9 +4879,6 @@ pErr
 NS_ERROR_XPC_BAD_CONVERT_NATIVE
 ;
 }
-AutoJSContext
-cx
-;
 XPCWrappedNativeScope
 *
 xpcscope
