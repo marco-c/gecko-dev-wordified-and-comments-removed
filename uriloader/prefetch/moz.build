@@ -127,16 +127,6 @@ XPIDL_MODULE
 prefetch
 '
 EXPORTS
-+
-=
-[
-'
-nsCPrefetchService
-.
-h
-'
-]
-EXPORTS
 .
 mozilla
 .
