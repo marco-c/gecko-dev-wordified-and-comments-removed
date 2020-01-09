@@ -360,6 +360,7 @@ isPseudoElement
 {
 return
 !
+!
 this
 .
 player
@@ -368,7 +369,7 @@ effect
 .
 target
 .
-ownerDocument
+element
 ;
 }
 get
