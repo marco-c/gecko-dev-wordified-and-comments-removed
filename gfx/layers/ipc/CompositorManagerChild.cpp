@@ -275,6 +275,7 @@ parent
 >
 BindComplete
 (
+true
 )
 ;
 sInstance

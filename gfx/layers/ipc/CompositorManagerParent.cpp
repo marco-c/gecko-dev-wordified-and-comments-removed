@@ -241,6 +241,8 @@ PCompositorManagerParent
 &
 &
 aEndpoint
+bool
+aIsRoot
 )
 {
 MOZ_ASSERT
@@ -307,6 +309,7 @@ PCompositorManagerParent
 >
 &
 &
+bool
 >
 (
 "
@@ -328,6 +331,7 @@ move
 (
 aEndpoint
 )
+aIsRoot
 )
 ;
 CompositorThreadHolder
@@ -517,6 +521,8 @@ PCompositorManagerParent
 &
 &
 aEndpoint
+bool
+aIsRoot
 )
 {
 MOZ_ASSERT
@@ -548,6 +554,7 @@ return
 }
 BindComplete
 (
+aIsRoot
 )
 ;
 }
@@ -557,6 +564,8 @@ CompositorManagerParent
 :
 BindComplete
 (
+bool
+aIsRoot
 )
 {
 MOZ_ASSERT
@@ -586,17 +595,7 @@ sMutex
 ;
 if
 (
-OtherPid
-(
-)
-=
-=
-base
-:
-:
-GetCurrentProcId
-(
-)
+aIsRoot
 )
 {
 sInstance

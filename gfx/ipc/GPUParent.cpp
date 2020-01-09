@@ -1540,6 +1540,7 @@ move
 (
 aEndpoint
 )
+true
 )
 ;
 return
@@ -2249,6 +2250,7 @@ move
 (
 aEndpoint
 )
+false
 )
 ;
 return
