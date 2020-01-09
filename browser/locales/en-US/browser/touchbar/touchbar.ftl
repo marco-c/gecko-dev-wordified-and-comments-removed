@@ -141,6 +141,9 @@ address
 share
 =
 Share
-focus
+close
+-
+window
 =
 Close
+Window
