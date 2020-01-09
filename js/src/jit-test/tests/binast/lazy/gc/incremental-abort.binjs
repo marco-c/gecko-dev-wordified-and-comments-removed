@@ -66,6 +66,7 @@ state
 zoneCount
 NotActive
 assertEq
+gc
 gczeal
 <
 objects
@@ -110,7 +111,6 @@ makeObjectGraph
 objectCount
 )
 {
-gc
 gcslice
 global
 makeObjectGraph
@@ -137,8 +137,8 @@ TREE
 identity
 ;
 .
-4
 <
+!
 :
 8
 0
@@ -150,11 +150,11 @@ L
 >
 &
 <
-0
-F
 2
+F
+4
+(
 &
-"
 H
 &
 8
@@ -166,11 +166,12 @@ BD
 J
 "
 P
-.
+0
 2
 4
+"
 6
 "
 >
+.
 *
-(
