@@ -131,7 +131,7 @@ webrender
 :
 {
 DebugFlags
-RendererStats
+RenderResults
 ShaderPrecacheFlags
 }
 ;
@@ -3099,7 +3099,7 @@ self
 )
 -
 >
-RendererStats
+RenderResults
 {
 self
 .
