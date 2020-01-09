@@ -2668,7 +2668,7 @@ mAuthConnectionRestartable
 1
 ;
 uint32_t
-mTrackingProtectionCancellationPending
+mChannelClassifierCancellationPending
 :
 1
 ;
