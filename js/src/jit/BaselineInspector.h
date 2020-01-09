@@ -356,9 +356,6 @@ pc
 ReceiverVector
 &
 receivers
-ObjectGroupVector
-&
-convertUnboxedGroups
 )
 ;
 MOZ_MUST_USE
@@ -371,9 +368,6 @@ pc
 ReceiverVector
 &
 receivers
-ObjectGroupVector
-&
-convertUnboxedGroups
 JSObject
 *
 *
@@ -586,9 +580,6 @@ isOwnProperty
 ReceiverVector
 &
 receivers
-ObjectGroupVector
-&
-convertUnboxedGroups
 )
 ;
 MOZ_MUST_USE
@@ -633,9 +624,6 @@ isOwnProperty
 ReceiverVector
 &
 receivers
-ObjectGroupVector
-&
-convertUnboxedGroups
 )
 ;
 MOZ_MUST_USE
