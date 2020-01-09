@@ -4875,8 +4875,9 @@ setOverridePc
 script
 -
 >
-lastPC
+offsetToPC
 (
+0
 )
 )
 ;
