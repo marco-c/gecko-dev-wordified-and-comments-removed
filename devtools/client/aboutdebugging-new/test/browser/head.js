@@ -674,13 +674,12 @@ about
 debugging
 requests
 to
-be
-successful
+settle
 "
 )
 ;
 await
-waitForRequestsSuccess
+waitForRequestsToSettle
 (
 window
 .

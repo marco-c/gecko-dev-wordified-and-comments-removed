@@ -627,12 +627,6 @@ width
 }
 )
 ;
-l10n
-.
-destroy
-(
-)
-;
 const
 state
 =
