@@ -237,6 +237,9 @@ mOneTouchPinchStartPosition
 ScreenPoint
 mTouchStartPosition
 ;
+ExternalPoint
+mTouchStartOffset
+;
 RefPtr
 <
 CancelableRunnable
