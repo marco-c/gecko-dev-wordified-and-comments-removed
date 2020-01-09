@@ -65,13 +65,6 @@ h
 #
 include
 "
-nsPIDOMWindow
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

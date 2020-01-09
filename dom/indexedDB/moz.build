@@ -253,11 +253,6 @@ IDBTransaction
 h
 '
 '
-IDBWrapperCache
-.
-h
-'
-'
 IndexedDatabase
 .
 h
@@ -385,11 +380,6 @@ cpp
 '
 '
 IDBTransaction
-.
-cpp
-'
-'
-IDBWrapperCache
 .
 cpp
 '
