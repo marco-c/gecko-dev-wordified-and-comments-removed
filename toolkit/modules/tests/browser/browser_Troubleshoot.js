@@ -1636,6 +1636,15 @@ type
 number
 "
 }
+windowProtocol
+:
+{
+type
+:
+"
+string
+"
+}
 }
 }
 media
