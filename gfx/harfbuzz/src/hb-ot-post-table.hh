@@ -128,12 +128,12 @@ glyphNameIndex
 struct
 post
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_post
-}
 ;
 bool
 subset
@@ -400,7 +400,7 @@ pool
 ;
 index_to_offset
 .
-len
+length
 <
 65535
 &
@@ -489,7 +489,7 @@ if
 !
 s
 .
-len
+length
 )
 return
 false
@@ -513,7 +513,7 @@ buf_len
 1
 s
 .
-len
+length
 )
 ;
 strncpy
@@ -1042,7 +1042,7 @@ index
 =
 index_to_offset
 .
-len
+length
 )
 return
 hb_bytes_t
@@ -1113,7 +1113,6 @@ glyphNameIndex
 hb_vector_t
 <
 uint32_t
-1
 >
 index_to_offset
 ;

@@ -2295,7 +2295,7 @@ i
 <
 feature_events
 .
-len
+length
 ;
 i
 +
@@ -2337,7 +2337,7 @@ if
 (
 active_features
 .
-len
+length
 )
 {
 CFMutableArrayRef
@@ -2363,7 +2363,7 @@ j
 <
 active_features
 .
-len
+length
 ;
 j
 +
@@ -3421,7 +3421,7 @@ num_features
 &
 range_records
 .
-len
+length
 )
 {
 unsigned
@@ -4131,7 +4131,7 @@ i
 <
 range_records
 .
-len
+length
 ;
 i
 +
@@ -5572,7 +5572,7 @@ i
 <
 range_records
 .
-len
+length
 ;
 i
 +

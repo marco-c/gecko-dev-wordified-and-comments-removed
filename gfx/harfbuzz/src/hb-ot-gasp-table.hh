@@ -126,12 +126,12 @@ DEFINE_SIZE_STATIC
 struct
 gasp
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_gasp
-}
 ;
 const
 GaspRange

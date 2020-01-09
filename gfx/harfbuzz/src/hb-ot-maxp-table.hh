@@ -116,12 +116,12 @@ DEFINE_SIZE_STATIC
 struct
 maxp
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_maxp
-}
 ;
 unsigned
 int
@@ -319,7 +319,7 @@ plan
 >
 glyphs
 .
-len
+length
 )
 ;
 if

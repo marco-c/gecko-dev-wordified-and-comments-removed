@@ -59,12 +59,12 @@ LigCaretClassEntry
 struct
 lcar
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_AAT_TAG_lcar
-}
 ;
 unsigned
 int
@@ -157,7 +157,7 @@ count
 =
 arr
 .
-len
+length
 ;
 for
 (

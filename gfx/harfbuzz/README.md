@@ -21,6 +21,10 @@ harfbuzz
 harfbuzz
 .
 svg
+?
+branch
+=
+master
 )
 ]
 (
@@ -67,6 +71,10 @@ status
 svg
 =
 true
+&
+branch
+=
+master
 )
 ]
 (
@@ -107,6 +115,10 @@ gh
 harfbuzz
 /
 harfbuzz
+/
+tree
+/
+master
 .
 svg
 ?
@@ -129,6 +141,10 @@ gh
 harfbuzz
 /
 harfbuzz
+/
+tree
+/
+master
 )
 [
 !

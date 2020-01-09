@@ -108,7 +108,7 @@ subset_plan
 >
 glyphs
 .
-len
+length
 ;
 }
 const
@@ -462,12 +462,12 @@ widthsZ
 struct
 hdmx
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_hdmx
-}
 ;
 unsigned
 int
@@ -615,7 +615,7 @@ plan
 >
 glyphs
 .
-len
+length
 )
 )
 ;
@@ -727,7 +727,7 @@ plan
 >
 glyphs
 .
-len
+length
 )
 ;
 }

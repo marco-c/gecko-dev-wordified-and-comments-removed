@@ -102,12 +102,12 @@ DEFINE_SIZE_STATIC
 struct
 VORG
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_VORG
-}
 ;
 bool
 has_data
@@ -272,7 +272,7 @@ set
 (
 subset_metrics
 .
-len
+length
 )
 ;
 bool
@@ -284,7 +284,7 @@ if
 (
 subset_metrics
 .
-len
+length
 >
 0
 )
@@ -300,7 +300,7 @@ static_size
 *
 subset_metrics
 .
-len
+length
 ;
 VertOriginMetric
 *
@@ -430,7 +430,7 @@ plan
 >
 glyphs
 .
-len
+length
 )
 &
 &
@@ -549,7 +549,7 @@ static_size
 *
 subset_metrics
 .
-len
+length
 ;
 void
 *

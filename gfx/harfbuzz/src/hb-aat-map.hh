@@ -60,7 +60,6 @@ public
 hb_vector_t
 <
 hb_mask_t
-1
 >
 chain_flags
 ;
@@ -228,8 +227,7 @@ seq
 int
 cmp
 (
-unsigned
-int
+hb_aat_layout_feature_type_t
 ty
 )
 const
@@ -269,7 +267,6 @@ public
 hb_vector_t
 <
 feature_info_t
-32
 >
 features
 ;

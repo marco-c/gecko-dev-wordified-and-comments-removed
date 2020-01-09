@@ -458,7 +458,7 @@ font
 first_glyph
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_codepoint_t
 >
@@ -470,7 +470,7 @@ glyph_stride
 first_advance
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_position_t
 >
@@ -578,7 +578,7 @@ font
 first_glyph
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_codepoint_t
 >
@@ -590,7 +590,7 @@ glyph_stride
 first_advance
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_position_t
 >

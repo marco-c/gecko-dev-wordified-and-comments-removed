@@ -210,12 +210,12 @@ DEFINE_SIZE_STATIC
 struct
 OS2
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_OS2
-}
 ;
 bool
 has_data

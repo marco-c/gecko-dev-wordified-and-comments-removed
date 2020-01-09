@@ -175,12 +175,12 @@ DEFINE_SIZE_STATIC
 struct
 fdsc
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_AAT_TAG_fdsc
-}
 ;
 enum
 {

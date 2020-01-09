@@ -155,7 +155,7 @@ if
 (
 features
 .
-len
+length
 )
 {
 features
@@ -182,7 +182,7 @@ i
 <
 features
 .
-len
+length
 ;
 i
 +

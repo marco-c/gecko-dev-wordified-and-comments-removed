@@ -405,7 +405,6 @@ v
 )
 ;
 }
-;
 extern
 HB_INTERNAL
 hb_vector_size_impl_t

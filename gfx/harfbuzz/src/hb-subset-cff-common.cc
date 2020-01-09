@@ -76,11 +76,11 @@ int
 subset_fdselect_format
 hb_vector_t
 <
-code_pair
+code_pair_t
 >
 &
 fdselect_ranges
-Remap
+remap_t
 &
 fdmap
 )
@@ -109,7 +109,7 @@ subset_num_glyphs
 =
 glyphs
 .
-len
+length
 ;
 if
 (
@@ -202,7 +202,7 @@ prev_fd
 =
 fd
 ;
-code_pair
+code_pair_t
 pair
 =
 {
@@ -329,7 +329,7 @@ i
 <
 fdselect_ranges
 .
-len
+length
 ;
 i
 +
@@ -519,7 +519,7 @@ size
 const
 hb_vector_t
 <
-code_pair
+code_pair_t
 >
 &
 fdselect_ranges
@@ -564,12 +564,14 @@ p
 -
 >
 nRanges
+(
+)
 .
 set
 (
 fdselect_ranges
 .
-len
+length
 )
 ;
 for
@@ -584,7 +586,7 @@ i
 <
 fdselect_ranges
 .
-len
+length
 ;
 i
 +
@@ -676,7 +678,7 @@ size
 const
 hb_vector_t
 <
-code_pair
+code_pair_t
 >
 &
 fdselect_ranges

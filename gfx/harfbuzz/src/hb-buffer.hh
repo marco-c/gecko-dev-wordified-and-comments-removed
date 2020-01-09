@@ -274,12 +274,12 @@ unsigned
 int
 serial
 ;
-enum
-{
+static
+constexpr
+unsigned
 CONTEXT_LENGTH
 =
-5
-}
+5u
 ;
 hb_codepoint_t
 context

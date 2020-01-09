@@ -43,12 +43,12 @@ friend
 struct
 OffsetTable
 ;
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_head
-}
 ;
 unsigned
 int

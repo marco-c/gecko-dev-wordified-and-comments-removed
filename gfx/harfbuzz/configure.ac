@@ -16,7 +16,7 @@ HarfBuzz
 .
 3
 .
-0
+1
 ]
 [
 https
@@ -690,18 +690,6 @@ fno
 threadsafe
 -
 statics
-"
-#
-Assorted
-warnings
-CXXFLAGS
-=
-"
-CXXFLAGS
--
-Wcast
--
-align
 "
 case
 "

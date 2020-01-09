@@ -36,6 +36,8 @@ font
 hb_buffer_t
 *
 buffer
+bool
+adjust_offsets_when_zeroing
 )
 ;
 HB_INTERNAL

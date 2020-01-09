@@ -102,7 +102,7 @@ i
 <
 glyph_ids
 .
-len
+length
 ;
 i
 +
@@ -128,7 +128,7 @@ resize
 instruction_ranges
 -
 >
-len
+length
 +
 2
 )
@@ -165,7 +165,7 @@ instruction_ranges
 instruction_ranges
 -
 >
-len
+length
 -
 2
 ]
@@ -189,7 +189,7 @@ instruction_ranges
 instruction_ranges
 -
 >
-len
+length
 -
 1
 ]
@@ -357,7 +357,7 @@ loca_size
 (
 glyph_ids
 .
-len
+length
 +
 1
 )
@@ -887,7 +887,7 @@ i
 <
 glyph_ids
 .
-len
+length
 ;
 i
 +
@@ -1146,7 +1146,7 @@ _write_loca_entry
 (
 glyph_ids
 .
-len
+length
 glyf_prime_data_next
 -
 glyf_prime_data

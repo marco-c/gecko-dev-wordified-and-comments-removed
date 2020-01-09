@@ -1871,7 +1871,7 @@ count
 =
 arr
 .
-len
+length
 ;
 for
 (
@@ -2066,7 +2066,7 @@ count
 =
 arr
 .
-len
+length
 ;
 for
 (
@@ -2543,12 +2543,12 @@ glyphConstruction
 struct
 MATH
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_MATH
-}
 ;
 bool
 has_data

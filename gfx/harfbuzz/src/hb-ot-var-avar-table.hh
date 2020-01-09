@@ -340,12 +340,12 @@ this
 struct
 avar
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_avar
-}
 ;
 bool
 sanitize

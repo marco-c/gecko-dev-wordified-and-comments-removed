@@ -54,7 +54,7 @@ VERSION
 .
 3
 .
-0
+1
 git
 clone
 https
@@ -200,6 +200,8 @@ Makefile
 am
 NEWS
 README
+.
+md
 src
 THANKS
 TODO

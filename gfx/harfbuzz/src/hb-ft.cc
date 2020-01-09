@@ -616,7 +616,7 @@ done
 first_unicode
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_codepoint_t
 >
@@ -628,7 +628,7 @@ unicode_stride
 first_glyph
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_codepoint_t
 >
@@ -939,7 +939,7 @@ mult
 first_glyph
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_codepoint_t
 >
@@ -951,7 +951,7 @@ glyph_stride
 first_advance
 =
 &
-StructAtOffset
+StructAtOffsetUnaligned
 <
 hb_position_t
 >

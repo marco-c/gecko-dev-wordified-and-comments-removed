@@ -3788,7 +3788,7 @@ unlikely
 !
 glyphs
 .
-len
+length
 )
 )
 {
@@ -3825,7 +3825,7 @@ i
 <
 glyphs
 .
-len
+length
 ;
 i
 +
@@ -3922,7 +3922,7 @@ i
 <
 glyphs
 .
-len
+length
 ;
 i
 +
@@ -4615,7 +4615,7 @@ i
 <
 glyphs
 .
-len
+length
 ;
 i
 +
@@ -4650,7 +4650,7 @@ set
 (
 glyphs
 .
-len
+length
 *
 2
 <
@@ -5349,7 +5349,7 @@ unlikely
 !
 glyphs
 .
-len
+length
 )
 )
 {
@@ -5390,7 +5390,7 @@ glyphs
 [
 glyphs
 .
-len
+length
 -
 1
 ]
@@ -5446,7 +5446,7 @@ i
 <
 glyphs
 .
-len
+length
 ;
 i
 +
@@ -5641,7 +5641,7 @@ return_trace
 (
 glyphs
 .
-len
+length
 )
 ;
 }
@@ -6155,7 +6155,7 @@ unlikely
 !
 glyphs
 .
-len
+length
 )
 )
 {
@@ -6192,7 +6192,7 @@ i
 <
 glyphs
 .
-len
+length
 ;
 i
 +
@@ -6306,7 +6306,7 @@ i
 <
 glyphs
 .
-len
+length
 ;
 i
 +
@@ -6595,7 +6595,7 @@ return_trace
 (
 glyphs
 .
-len
+length
 )
 ;
 }
@@ -7105,7 +7105,7 @@ if
 (
 glyphs
 .
-len
+length
 )
 {
 hb_codepoint_t
@@ -7123,7 +7123,7 @@ glyphs
 [
 glyphs
 .
-len
+length
 -
 1
 ]
@@ -7146,7 +7146,7 @@ i
 <
 glyphs
 .
-len
+length
 ;
 i
 +
@@ -9350,12 +9350,12 @@ DEFINE_SIZE_STATIC
 struct
 FeatureVariations
 {
-enum
-{
+static
+constexpr
+unsigned
 NOT_FOUND_INDEX
 =
 0xFFFFFFFFu
-}
 ;
 bool
 find_index

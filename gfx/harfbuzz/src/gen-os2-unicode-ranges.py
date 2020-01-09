@@ -22,10 +22,14 @@ import
 re
 import
 sys
+try
+:
+  
 reload
 (
 sys
 )
+  
 sys
 .
 setdefaultencoding
@@ -36,6 +40,11 @@ utf
 8
 '
 )
+except
+NameError
+:
+  
+pass
 print
 (
 "
@@ -173,7 +182,7 @@ fields
 :
       
 raise
-Error
+Exception
 (
 "
 bad
@@ -217,7 +226,7 @@ ranges
 :
       
 raise
-Error
+Exception
 (
 "
 bad

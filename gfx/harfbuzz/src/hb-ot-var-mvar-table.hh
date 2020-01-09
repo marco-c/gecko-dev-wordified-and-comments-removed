@@ -87,12 +87,12 @@ R
 struct
 MVAR
 {
-enum
-{
+static
+constexpr
+hb_tag_t
 tableTag
 =
 HB_OT_TAG_MVAR
-}
 ;
 bool
 sanitize

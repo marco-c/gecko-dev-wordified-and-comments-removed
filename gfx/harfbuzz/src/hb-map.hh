@@ -669,12 +669,12 @@ key
 )
 ;
 }
-enum
-{
+static
+constexpr
+hb_codepoint_t
 INVALID
 =
 HB_MAP_VALUE_INVALID
-}
 ;
 void
 clear
