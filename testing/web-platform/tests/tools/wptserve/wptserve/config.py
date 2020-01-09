@@ -815,10 +815,28 @@ _certs
 "
                 
 "
+password
+"
+:
+"
+web
+-
+platform
+-
+tests
+"
+                
+"
 force_regenerate
 "
 :
 False
+                
+"
+duration
+"
+:
+30
                 
 "
 base_conf_path
@@ -2195,6 +2213,12 @@ _ssl_env
 .
 ca_cert_path
 (
+data
+[
+"
+domains_set
+"
+]
 )
             
 return
