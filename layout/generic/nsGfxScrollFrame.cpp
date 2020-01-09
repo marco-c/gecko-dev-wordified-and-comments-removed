@@ -18732,7 +18732,7 @@ mIsRoot
 presShell
 -
 >
-IsVisualViewportSizeSet
+IsVisualViewportOffsetSet
 (
 )
 )
