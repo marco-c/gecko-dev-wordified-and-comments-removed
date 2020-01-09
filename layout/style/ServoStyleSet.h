@@ -193,9 +193,6 @@ struct
 nsTimingFunction
 ;
 struct
-RawServoRuleNode
-;
-struct
 TreeMatchContext
 ;
 namespace
@@ -1013,7 +1010,9 @@ const
 ComputedStyle
 *
 aParentOrNull
-RawServoDeclarationBlockBorrowed
+const
+RawServoDeclarationBlock
+*
 aDeclarations
 )
 ;

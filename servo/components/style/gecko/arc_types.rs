@@ -26,7 +26,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoCounterStyleRule
@@ -38,7 +38,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoFontFeatureValuesRule
@@ -50,7 +50,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoImportRule
@@ -62,7 +62,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoKeyframe
@@ -74,7 +74,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoKeyframesRule
@@ -86,7 +86,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoMediaRule
@@ -98,7 +98,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoMozDocumentRule
@@ -110,7 +110,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoNamespaceRule
@@ -122,7 +122,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoPageRule
@@ -134,7 +134,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoRuleNode
@@ -146,7 +146,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoRuleNodeStrong
@@ -158,7 +158,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 RawServoSupportsRule
@@ -170,7 +170,7 @@ crate
 gecko_bindings
 :
 :
-bindings
+structs
 :
 :
 ServoCssRules

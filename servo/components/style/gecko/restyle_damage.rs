@@ -209,7 +209,15 @@ bindings
 Gecko_CalcStyleDifference
 (
 old_style
+.
+as_gecko_computed_style
+(
+)
 new_style
+.
+as_gecko_computed_style
+(
+)
 &
 mut
 any_style_changed

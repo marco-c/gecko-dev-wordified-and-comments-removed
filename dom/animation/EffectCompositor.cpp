@@ -2015,7 +2015,8 @@ PseudoStyleType
 aPseudoType
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMapBorrowedMut
+RawServoAnimationValueMap
+*
 aAnimationValues
 )
 {

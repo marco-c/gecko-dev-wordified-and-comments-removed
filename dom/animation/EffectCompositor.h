@@ -116,11 +116,6 @@ uint32_t
 struct
 RawServoAnimationValueMap
 ;
-typedef
-RawServoAnimationValueMap
-*
-RawServoAnimationValueMapBorrowedMut
-;
 namespace
 mozilla
 {
@@ -320,7 +315,8 @@ PseudoStyleType
 aPseudoType
 CascadeLevel
 aCascadeLevel
-RawServoAnimationValueMapBorrowedMut
+RawServoAnimationValueMap
+*
 aAnimationValues
 )
 ;

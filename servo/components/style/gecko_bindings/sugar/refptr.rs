@@ -1194,7 +1194,10 @@ impl_threadsafe_refcount
 structs
 :
 :
-RawGeckoURLExtraData
+mozilla
+:
+:
+URLExtraData
 bindings
 :
 :
