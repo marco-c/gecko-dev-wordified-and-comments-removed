@@ -3512,7 +3512,7 @@ _changed
 ;
 elementStyle
 .
-onRuleUpdated
+markOverriddenAll
 (
 )
 ;
