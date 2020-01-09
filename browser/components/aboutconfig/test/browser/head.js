@@ -119,6 +119,11 @@ aboutconfig
 new
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 class
 AboutConfigRowTest
 {
