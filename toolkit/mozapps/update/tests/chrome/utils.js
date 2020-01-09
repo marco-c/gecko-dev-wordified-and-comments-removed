@@ -902,6 +902,7 @@ removeUpdateDirsAndFiles
 ;
 reloadUpdateManagerData
 (
+true
 )
 ;
 Services

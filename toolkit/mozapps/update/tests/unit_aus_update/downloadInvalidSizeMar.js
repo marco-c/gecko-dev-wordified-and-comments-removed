@@ -226,12 +226,6 @@ removeDownloadListener
 downloadListener
 )
 ;
-gUpdateManager
-.
-cleanupActiveUpdate
-(
-)
-;
 executeSoon
 (
 waitForUpdateXMLFiles

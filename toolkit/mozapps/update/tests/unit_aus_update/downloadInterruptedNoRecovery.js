@@ -216,17 +216,6 @@ removeDownloadListener
 downloadListener
 )
 ;
-executeSoon
-(
-waitForUpdateXMLFiles
-)
-;
-}
-function
-waitForUpdateXMLFilesFinished
-(
-)
-{
 stop_httpserver
 (
 doTestFinish

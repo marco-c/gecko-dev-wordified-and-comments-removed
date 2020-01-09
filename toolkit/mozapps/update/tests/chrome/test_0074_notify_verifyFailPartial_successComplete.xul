@@ -288,6 +288,9 @@ selected
 "
 false
 "
+state
+:
+null
 }
 ;
 patches
