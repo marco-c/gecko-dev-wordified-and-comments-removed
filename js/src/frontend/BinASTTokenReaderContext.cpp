@@ -356,6 +356,9 @@ BinASTTokenReaderContext
 :
 readBool
 (
+const
+Context
+&
 )
 {
 return
@@ -381,6 +384,9 @@ BinASTTokenReaderContext
 :
 readDouble
 (
+const
+Context
+&
 )
 {
 return
@@ -407,6 +413,9 @@ BinASTTokenReaderContext
 :
 readMaybeAtom
 (
+const
+Context
+&
 )
 {
 return
@@ -433,6 +442,9 @@ BinASTTokenReaderContext
 :
 readAtom
 (
+const
+Context
+&
 )
 {
 return
@@ -459,6 +471,9 @@ BinASTTokenReaderContext
 :
 readMaybeIdentifierName
 (
+const
+Context
+&
 )
 {
 return
@@ -485,6 +500,9 @@ BinASTTokenReaderContext
 :
 readIdentifierName
 (
+const
+Context
+&
 )
 {
 return
@@ -511,6 +529,9 @@ BinASTTokenReaderContext
 :
 readPropertyKey
 (
+const
+Context
+&
 )
 {
 return
@@ -539,6 +560,9 @@ readChars
 Chars
 &
 out
+const
+Context
+&
 )
 {
 return
@@ -564,6 +588,9 @@ BinASTTokenReaderContext
 :
 readVariant
 (
+const
+Context
+&
 )
 {
 return
@@ -592,6 +619,9 @@ BinASTTokenReaderContext
 :
 readSkippableSubTree
 (
+const
+Context
+&
 )
 {
 return
@@ -625,6 +655,9 @@ BinASTTokenReaderContext
 :
 BinASTFields
 &
+const
+Context
+&
 AutoTaggedTuple
 &
 guard
@@ -656,6 +689,9 @@ enterList
 uint32_t
 &
 items
+const
+Context
+&
 AutoList
 &
 guard

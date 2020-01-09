@@ -152,6 +152,14 @@ BinaryASTSupport
 :
 CharSlice
 ;
+using
+Context
+=
+BinASTTokenReaderBase
+:
+:
+Context
+;
 class
 BinASTFields
 {
@@ -235,6 +243,9 @@ bool
 >
 readBool
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -247,6 +258,9 @@ double
 >
 readDouble
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -260,6 +274,9 @@ JSAtom
 >
 readMaybeAtom
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -273,6 +290,9 @@ JSAtom
 >
 readAtom
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -286,6 +306,9 @@ JSAtom
 >
 readMaybeIdentifierName
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -299,6 +322,9 @@ JSAtom
 >
 readIdentifierName
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -312,6 +338,9 @@ JSAtom
 >
 readPropertyKey
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -325,6 +354,9 @@ Ok
 readChars
 (
 Chars
+&
+const
+Context
 &
 )
 ;
@@ -344,6 +376,9 @@ BinASTVariant
 >
 readMaybeVariant
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -356,6 +391,9 @@ BinASTVariant
 >
 readVariant
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -368,6 +406,9 @@ SkippableSubTree
 >
 readSkippableSubTree
 (
+const
+Context
+&
 )
 ;
 MOZ_MUST_USE
@@ -383,6 +424,9 @@ enterList
 uint32_t
 &
 length
+const
+Context
+&
 AutoList
 &
 guard
@@ -407,6 +451,9 @@ BinASTTokenReaderContext
 BinASTFields
 &
 fields
+const
+Context
+&
 AutoTaggedTuple
 &
 guard
@@ -422,6 +469,9 @@ uint32_t
 >
 readUnsignedLong
 (
+const
+Context
+&
 )
 {
 return
