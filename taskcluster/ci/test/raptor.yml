@@ -1483,9 +1483,6 @@ mozilla
 central
 '
 ]
-tier
-:
-2
 mozharness
 :
 extra
@@ -1653,9 +1650,6 @@ mozilla
 central
 '
 ]
-tier
-:
-2
 mozharness
 :
 extra
@@ -1823,9 +1817,6 @@ mozilla
 central
 '
 ]
-tier
-:
-2
 mozharness
 :
 extra
@@ -1999,9 +1990,6 @@ mozilla
 central
 '
 ]
-tier
-:
-2
 mozharness
 :
 extra
