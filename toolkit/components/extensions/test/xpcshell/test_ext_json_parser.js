@@ -26,9 +26,9 @@ extension
 let
 xpi
 =
-Extension
+AddonTestUtils
 .
-generateXPI
+createTempWebExtensionFile
 (
 {
 files
@@ -243,13 +243,6 @@ cache
 -
 entry
 "
-)
-;
-xpi
-.
-remove
-(
-false
 )
 ;
 }

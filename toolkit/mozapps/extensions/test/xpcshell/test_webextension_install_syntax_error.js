@@ -60,9 +60,9 @@ install_xpi
 let
 xpi1
 =
-Extension
+AddonTestUtils
 .
-generateXPI
+createTempWebExtensionFile
 (
 {
 files
@@ -130,9 +130,9 @@ version
 let
 xpi2
 =
-Extension
+AddonTestUtils
 .
-generateXPI
+createTempWebExtensionFile
 (
 {
 files
@@ -264,13 +264,6 @@ install2
 .
 error
 0
-)
-;
-xpi1
-.
-remove
-(
-false
 )
 ;
 }
