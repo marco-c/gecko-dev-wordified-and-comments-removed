@@ -907,11 +907,15 @@ startPanelCollapsed
 handleClick
 =
 {
+(
 this
 .
 props
 .
 togglePaneCollapse
+:
+any
+)
 }
 /
 >
@@ -959,7 +963,11 @@ endPanelCollapsed
 handleClick
 =
 {
+(
 togglePaneCollapse
+:
+any
+)
 }
 horizontal
 =

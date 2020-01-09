@@ -79,6 +79,8 @@ url
 :
 string
 )
+:
+any
 {
 try
 {
@@ -91,7 +93,11 @@ URL
 url
 )
 ;
+(
 urlObj
+:
+any
+)
 .
 path
 =

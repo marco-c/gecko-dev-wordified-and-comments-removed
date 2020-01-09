@@ -18,6 +18,8 @@ function
 readFixture
 (
 name
+:
+string
 )
 {
 const

@@ -759,11 +759,15 @@ horizontal
 handleClick
 =
 {
+(
 this
 .
 props
 .
 togglePaneCollapse
+:
+any
+)
 }
 /
 >

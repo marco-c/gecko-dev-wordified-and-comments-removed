@@ -56,6 +56,17 @@ handleClick
 {
 handleClickSpy
 }
+collapsed
+=
+{
+false
+}
+position
+=
+{
+"
+"
+}
 /
 >
 )
