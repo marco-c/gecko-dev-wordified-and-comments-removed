@@ -159,6 +159,9 @@ prefix
 private
 :
 false
+logpointId
+:
+undefined
 }
 props
 )
