@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+PostRestyleMode
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoBindingTypes
 .
 h
@@ -707,6 +716,8 @@ NotifySpecifiedTimingUpdated
 void
 NotifyAnimationTimingUpdated
 (
+PostRestyleMode
+aPostRestyle
 )
 ;
 void

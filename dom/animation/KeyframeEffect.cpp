@@ -778,6 +778,8 @@ KeyframeEffect
 :
 NotifyAnimationTimingUpdated
 (
+PostRestyleMode
+aPostRestyle
 )
 {
 UpdateTargetRegistration
@@ -810,6 +812,15 @@ ResetIsRunningOnCompositor
 }
 if
 (
+aPostRestyle
+=
+=
+PostRestyleMode
+:
+:
+IfNeeded
+&
+&
 mAnimation
 &
 &
@@ -7514,6 +7525,10 @@ UpdateRelevance
 }
 NotifyAnimationTimingUpdated
 (
+PostRestyleMode
+:
+:
+IfNeeded
 )
 ;
 if

@@ -349,6 +349,8 @@ PauseFromStyle
 void
 CancelFromStyle
 (
+PostRestyleMode
+aPostRestyle
 )
 {
 mAnimationIndex
@@ -366,6 +368,7 @@ Animation
 :
 Cancel
 (
+aPostRestyle
 )
 ;
 mOwningElement

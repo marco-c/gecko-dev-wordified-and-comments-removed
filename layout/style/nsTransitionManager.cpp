@@ -2706,6 +2706,10 @@ anim
 >
 CancelFromStyle
 (
+PostRestyleMode
+:
+:
+IfNeeded
 )
 ;
 animations
@@ -3362,6 +3366,10 @@ currentIndex
 >
 CancelFromStyle
 (
+PostRestyleMode
+:
+:
+IfNeeded
 )
 ;
 oldPT
@@ -4031,6 +4039,10 @@ currentIndex
 >
 CancelFromStyle
 (
+PostRestyleMode
+:
+:
+IfNeeded
 )
 ;
 oldPT

@@ -246,6 +246,11 @@ PendingAnimationTracker
 h
 '
 '
+PostRestyleMode
+.
+h
+'
+'
 PseudoElementHashEntry
 .
 h
