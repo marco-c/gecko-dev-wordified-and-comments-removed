@@ -217,7 +217,7 @@ clip_and_scroll
 :
 ClipAndScrollInfo
 pub
-info
+layout
 :
 LayoutPrimitiveInfo
 }
@@ -260,7 +260,7 @@ clip_and_scroll
 a
 ClipAndScrollInfo
 pub
-info
+layout
 :
 &
 '
