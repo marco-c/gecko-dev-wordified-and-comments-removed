@@ -964,6 +964,9 @@ mGeometry
 nsRect
 mBounds
 ;
+nsRect
+mBuildingRect
+;
 gfx
 :
 :
