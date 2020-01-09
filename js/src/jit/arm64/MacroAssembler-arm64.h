@@ -4408,6 +4408,15 @@ armbuffer_
 align
 (
 alignment
+vixl
+:
+:
+HLT
+|
+ImmException
+(
+0xBAAD
+)
 )
 ;
 }
