@@ -14000,15 +14000,3 @@ defined
 (
 MOZ_LAUNCHER_PROCESS
 )
-pref
-(
-"
-browser
-.
-toolbars
-.
-keyboard_navigation
-"
-false
-)
-;
