@@ -5877,12 +5877,10 @@ styleSet
 >
 ResolveInheritingAnonymousBoxStyle
 (
-nsCSSAnonBoxes
+PseudoStyleType
 :
 :
 mozDisplayComboboxControlFrame
-(
-)
 mComputedStyle
 )
 ;

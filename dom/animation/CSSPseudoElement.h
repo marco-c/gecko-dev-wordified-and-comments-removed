@@ -144,7 +144,7 @@ aGivenProto
 )
 override
 ;
-CSSPseudoElementType
+PseudoStyleType
 GetType
 (
 )
@@ -301,7 +301,7 @@ GetCSSPseudoElement
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aType
 )
 ;
@@ -312,7 +312,7 @@ CSSPseudoElement
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aType
 )
 ;
@@ -321,7 +321,7 @@ nsAtom
 *
 GetCSSPseudoElementPropertyAtom
 (
-CSSPseudoElementType
+PseudoStyleType
 aType
 )
 ;
@@ -331,7 +331,7 @@ Element
 >
 mParentElement
 ;
-CSSPseudoElementType
+PseudoStyleType
 mPseudoType
 ;
 }

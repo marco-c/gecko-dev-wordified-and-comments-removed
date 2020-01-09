@@ -80,7 +80,7 @@ CSSPseudoElement
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aType
 )
 :
@@ -103,7 +103,7 @@ MOZ_ASSERT
 aType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -112,7 +112,7 @@ after
 aType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -354,7 +354,7 @@ GetCSSPseudoElement
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aType
 )
 {
@@ -472,7 +472,7 @@ CSSPseudoElement
 :
 GetCSSPseudoElementPropertyAtom
 (
-CSSPseudoElementType
+PseudoStyleType
 aType
 )
 {
@@ -482,7 +482,7 @@ aType
 )
 {
 case
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -494,7 +494,7 @@ nsGkAtoms
 cssPseudoElementBeforeProperty
 ;
 case
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after

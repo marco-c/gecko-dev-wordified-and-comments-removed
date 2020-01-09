@@ -2804,7 +2804,7 @@ PostRestyleEventForAnimations
 key
 .
 mElement
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo

@@ -1751,8 +1751,7 @@ if
 mScrollableFrame
 )
 {
-nsAtom
-*
+auto
 pseudoType
 =
 aBlockFrame
@@ -1763,7 +1762,7 @@ Style
 )
 -
 >
-GetPseudo
+GetPseudoType
 (
 )
 ;
@@ -1772,12 +1771,10 @@ if
 pseudoType
 =
 =
-nsCSSAnonBoxes
+PseudoStyleType
 :
 :
 mozXULAnonymousBlock
-(
-)
 )
 {
 mScrollableFrame

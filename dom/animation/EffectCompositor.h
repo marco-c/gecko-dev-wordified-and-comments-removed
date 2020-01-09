@@ -244,7 +244,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 RestyleType
 aRestyleType
@@ -261,7 +261,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 CascadeLevel
 aCascadeLevel
@@ -296,7 +296,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -310,7 +310,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 CascadeLevel
 aCascadeLevel
@@ -379,7 +379,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -396,7 +396,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -445,7 +445,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -476,7 +476,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -518,7 +518,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;

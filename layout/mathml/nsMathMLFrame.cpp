@@ -347,10 +347,10 @@ nsMathMLChar
 aMathMLChar
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozMathAnonymous

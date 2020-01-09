@@ -2568,7 +2568,7 @@ ResolveBulletStyle
 mozilla
 :
 :
-CSSPseudoElementType
+PseudoStyleType
 aType
 mozilla
 :

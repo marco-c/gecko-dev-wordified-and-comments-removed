@@ -325,7 +325,7 @@ mBarDiv
 >
 SetPseudoElementType
 (
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozProgressBar

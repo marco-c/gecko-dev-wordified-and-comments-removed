@@ -248,7 +248,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;
@@ -280,7 +280,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 bool
 *
@@ -314,7 +314,7 @@ nsAtom
 *
 GetPropertyAtomForPseudoType
 (
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;

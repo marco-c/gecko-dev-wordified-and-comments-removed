@@ -920,10 +920,10 @@ CorrectStyleParentFrame
 GetParent
 (
 )
-nsGkAtoms
+PseudoStyleType
 :
 :
-placeholderFrame
+MAX
 )
 ;
 return

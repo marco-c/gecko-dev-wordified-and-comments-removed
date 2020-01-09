@@ -2115,7 +2115,7 @@ mPlaceholderDiv
 >
 SetPseudoElementType
 (
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 placeholder

@@ -10,7 +10,7 @@ structs
 :
 {
 self
-CSSPseudoElementType
+PseudoStyleType
 }
 ;
 use

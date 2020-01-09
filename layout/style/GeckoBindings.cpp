@@ -1047,11 +1047,8 @@ const
 ServoComputedData
 *
 aValues
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
-nsAtom
-*
-aPseudoTag
 )
 {
 new
@@ -1061,7 +1058,6 @@ aStyle
 )
 ComputedStyle
 (
-aPseudoTag
 aPseudoType
 ServoComputedDataForgotten
 (
@@ -1623,7 +1619,7 @@ aName
 )
 ;
 }
-CSSPseudoElementType
+PseudoStyleType
 Gecko_GetImplementedPseudo
 (
 RawGeckoElementBorrowed
@@ -2363,7 +2359,7 @@ GetServoActiveLinkDecl
 ;
 }
 static
-CSSPseudoElementType
+PseudoStyleType
 GetPseudoTypeFromElementForAnimation
 (
 const
@@ -2398,7 +2394,7 @@ AsElement
 )
 ;
 return
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -2429,14 +2425,14 @@ AsElement
 )
 ;
 return
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
 ;
 }
 return
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -2512,7 +2508,7 @@ return
 false
 ;
 }
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoTypeFromElementForAnimation
@@ -2735,7 +2731,7 @@ OwnerDoc
 )
 )
 ;
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoTypeFromElementForAnimation
@@ -2975,7 +2971,7 @@ RawGeckoElementBorrowed
 aElementOrPseudo
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoTypeFromElementForAnimation
@@ -3016,7 +3012,7 @@ RawGeckoElementBorrowed
 aElement
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoTypeFromElementForAnimation
@@ -3044,7 +3040,7 @@ RawGeckoElementBorrowed
 aElement
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoTypeFromElementForAnimation
@@ -3093,7 +3089,7 @@ RawGeckoElementBorrowed
 aElement
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoTypeFromElementForAnimation
@@ -3142,7 +3138,7 @@ RawGeckoElementBorrowed
 aElement
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoTypeFromElementForAnimation
@@ -3195,7 +3191,7 @@ size_t
 aIndex
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoTypeFromElementForAnimation

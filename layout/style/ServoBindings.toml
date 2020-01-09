@@ -908,7 +908,7 @@ nsINode_BooleanFlag
 mozilla
 :
 :
-CSSPseudoElementType
+PseudoStyleType
 "
 "
 mozilla
@@ -4050,7 +4050,7 @@ RefPtr
 StyleUseCounters
 "
 "
-CSSPseudoElementType
+PseudoStyleType
 "
 "
 ServoTraversalFlags

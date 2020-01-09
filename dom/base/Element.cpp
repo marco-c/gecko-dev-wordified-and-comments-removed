@@ -8968,7 +8968,7 @@ MayHaveAnimations
 )
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoElementType
@@ -8981,7 +8981,7 @@ if
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -8990,7 +8990,7 @@ NotPseudo
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -8999,7 +8999,7 @@ before
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -17529,10 +17529,10 @@ elem
 =
 this
 ;
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -17552,7 +17552,7 @@ GetParentElement
 ;
 pseudoType
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -17574,7 +17574,7 @@ GetParentElement
 ;
 pseudoType
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -17600,7 +17600,7 @@ mSubtree
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -17609,7 +17609,7 @@ before
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -17677,7 +17677,7 @@ Element
 GetAnimationsUnsorted
 (
 element
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -17690,7 +17690,7 @@ Element
 GetAnimationsUnsorted
 (
 element
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -17703,7 +17703,7 @@ Element
 GetAnimationsUnsorted
 (
 element
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -17737,7 +17737,7 @@ GetAnimationsUnsorted
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 nsTArray
 <
@@ -17755,7 +17755,7 @@ MOZ_ASSERT
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -17764,7 +17764,7 @@ NotPseudo
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -17773,7 +17773,7 @@ after
 aPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -21004,7 +21004,7 @@ i
 ;
 i
 <
-nsCSSPseudoElements
+PseudoStyle
 :
 :
 kEagerPseudoCount

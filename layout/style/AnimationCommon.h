@@ -86,7 +86,7 @@ mozilla
 {
 enum
 class
-CSSPseudoElementType
+PseudoStyleType
 :
 uint8_t
 ;
@@ -155,7 +155,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -332,7 +332,7 @@ dom
 Element
 &
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 :
@@ -443,7 +443,7 @@ mTarget
 mPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -455,7 +455,7 @@ mTarget
 mPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -468,7 +468,7 @@ mTarget
 mPseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
@@ -499,7 +499,7 @@ Element
 *
 &
 aElement
-CSSPseudoElementType
+PseudoStyleType
 &
 aPseudoType
 )

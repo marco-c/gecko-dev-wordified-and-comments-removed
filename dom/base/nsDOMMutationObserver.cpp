@@ -2140,10 +2140,7 @@ animationTarget
 mPseudoType
 !
 =
-mozilla
-:
-:
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo

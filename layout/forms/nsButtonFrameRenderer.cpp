@@ -2773,7 +2773,7 @@ GetContent
 AsElement
 (
 )
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozFocusInner

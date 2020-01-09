@@ -313,7 +313,7 @@ ComputedStyle
 ;
 enum
 class
-CSSPseudoElementType
+PseudoStyleType
 :
 uint8_t
 ;
@@ -1697,7 +1697,7 @@ aComputedStyle
 mozilla
 :
 :
-CSSPseudoElementType
+PseudoStyleType
 aPseudoElement
 nsPresContext
 *

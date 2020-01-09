@@ -52,7 +52,7 @@ mozilla
 {
 enum
 class
-CSSPseudoElementType
+PseudoStyleType
 :
 uint8_t
 ;
@@ -98,8 +98,8 @@ typedef
 mozilla
 :
 :
-CSSPseudoElementType
-CSSPseudoElementType
+PseudoStyleType
+PseudoStyleType
 ;
 typedef
 mozilla
@@ -506,7 +506,7 @@ aParent
 nsAtom
 *
 aTagName
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 ;

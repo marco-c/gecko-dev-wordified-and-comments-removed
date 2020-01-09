@@ -117,7 +117,7 @@ Promise
 }
 enum
 class
-CSSPseudoElementType
+PseudoStyleType
 :
 uint8_t
 ;
@@ -774,7 +774,7 @@ aElement
 mozilla
 :
 :
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 const
 mozilla

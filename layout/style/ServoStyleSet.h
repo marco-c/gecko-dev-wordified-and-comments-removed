@@ -483,7 +483,7 @@ nsIContent
 aTextNode
 ComputedStyle
 *
-aParentContext
+aParentStyle
 )
 ;
 already_AddRefed
@@ -494,7 +494,7 @@ ResolveStyleForFirstLetterContinuation
 (
 ComputedStyle
 *
-aParentContext
+aParentStyle
 )
 ;
 already_AddRefed
@@ -517,11 +517,11 @@ dom
 Element
 *
 aOriginatingElement
-CSSPseudoElementType
+PseudoStyleType
 aType
 ComputedStyle
 *
-aParentContext
+aParentStyle
 dom
 :
 :
@@ -542,8 +542,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
-aPseudoType
+PseudoStyleType
 StyleRuleInclusion
 aRules
 =
@@ -559,12 +558,10 @@ ComputedStyle
 >
 ResolveInheritingAnonymousBoxStyle
 (
-nsAtom
-*
-aPseudoTag
+PseudoStyleType
 ComputedStyle
 *
-aParentContext
+aParentStyle
 )
 ;
 already_AddRefed
@@ -573,9 +570,7 @@ ComputedStyle
 >
 ResolveNonInheritingAnonymousBoxStyle
 (
-nsAtom
-*
-aPseudoTag
+PseudoStyleType
 )
 ;
 #
@@ -598,7 +593,7 @@ nsCSSAnonBoxPseudoStaticAtom
 aPseudoTag
 ComputedStyle
 *
-aParentContext
+aParentStyle
 const
 AtomArray
 &
@@ -754,7 +749,7 @@ dom
 Element
 &
 aOriginatingElement
-CSSPseudoElementType
+PseudoStyleType
 aType
 ComputedStyle
 *
@@ -1258,7 +1253,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 StyleRuleInclusion
 aRules

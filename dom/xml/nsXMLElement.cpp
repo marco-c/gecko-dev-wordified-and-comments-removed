@@ -141,7 +141,7 @@ bool
 aNullParent
 )
 {
-CSSPseudoElementType
+PseudoStyleType
 pseudoType
 =
 GetPseudoElementType
@@ -154,7 +154,7 @@ isBefore
 pseudoType
 =
 =
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -181,13 +181,13 @@ pseudoType
 )
 {
 case
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
 :
 case
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after

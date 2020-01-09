@@ -2328,7 +2328,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 const
 ComputedStyle

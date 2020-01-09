@@ -305,7 +305,7 @@ mColorContent
 >
 SetPseudoElementType
 (
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 mozColorSwatch

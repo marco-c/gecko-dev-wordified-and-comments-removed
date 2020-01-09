@@ -201,7 +201,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -310,7 +310,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -421,7 +421,7 @@ dom
 Element
 *
 aElement
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -569,7 +569,7 @@ EffectSet
 :
 GetEffectSetPropertyAtom
 (
-CSSPseudoElementType
+PseudoStyleType
 aPseudoType
 )
 {
@@ -579,7 +579,7 @@ aPseudoType
 )
 {
 case
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 NotPseudo
@@ -591,7 +591,7 @@ nsGkAtoms
 animationEffectsProperty
 ;
 case
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 before
@@ -603,7 +603,7 @@ nsGkAtoms
 animationEffectsForBeforeProperty
 ;
 case
-CSSPseudoElementType
+PseudoStyleType
 :
 :
 after
