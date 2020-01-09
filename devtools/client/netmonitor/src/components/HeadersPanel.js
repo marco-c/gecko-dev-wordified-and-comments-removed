@@ -1796,7 +1796,7 @@ summaryUrl
 =
 urlDetails
 .
-unicodeUrl
+url
 ?
 this
 .
@@ -1805,7 +1805,7 @@ renderSummary
 SUMMARY_URL
 urlDetails
 .
-unicodeUrl
+url
 .
 split
 (
