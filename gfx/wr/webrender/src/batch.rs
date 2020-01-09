@@ -4333,9 +4333,11 @@ gpu_cache
 get_address
 (
 &
-picture
+ctx
 .
-gpu_location
+globals
+.
+default_image_handle
 )
 ;
 let
@@ -8436,9 +8438,11 @@ gpu_cache
 get_address
 (
 &
-tile
+ctx
 .
-handle
+globals
+.
+default_image_handle
 )
 ;
 let
