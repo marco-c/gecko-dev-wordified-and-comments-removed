@@ -8,3 +8,8 @@ line
 length
 =
 100
+exclude
+=
+subdir
+/
+exclude
