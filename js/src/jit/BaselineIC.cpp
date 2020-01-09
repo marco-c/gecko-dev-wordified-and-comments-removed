@@ -8948,7 +8948,6 @@ return
 true
 ;
 }
-static
 bool
 DoTypeUpdateFallback
 (
