@@ -1,12 +1,12 @@
 Feature
 -
 Policy
+-
+Report
+-
+Only
 :
 camera
--
-report
--
-only
 '
 none
 '
