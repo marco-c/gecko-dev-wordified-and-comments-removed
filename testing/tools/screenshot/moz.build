@@ -220,3 +220,6 @@ gdiplus
 NO_PGO
 =
 True
+DisableStlWrapping
+(
+)
