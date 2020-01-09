@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -81,7 +81,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 LoginImport
 =
 function

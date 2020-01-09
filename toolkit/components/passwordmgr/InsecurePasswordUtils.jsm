@@ -1,4 +1,4 @@
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -167,7 +167,8 @@ InsecurePasswordUtils
 }
 )
 ;
-var
+this
+.
 InsecurePasswordUtils
 =
 {

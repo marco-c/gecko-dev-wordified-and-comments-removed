@@ -398,7 +398,7 @@ timesUsed
 null
 }
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [

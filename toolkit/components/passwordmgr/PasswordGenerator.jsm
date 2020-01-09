@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -118,7 +118,8 @@ UPPER_CASE_ALPHA
 DIGITS
 ]
 ;
-const
+this
+.
 PasswordGenerator
 =
 {

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -112,7 +112,8 @@ init
 "
 )
 ;
-var
+this
+.
 LoginTestUtils
 =
 {

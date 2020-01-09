@@ -32,6 +32,15 @@ allowSingleLine
 false
 }
 ]
+"
+no
+-
+var
+"
+:
+"
+off
+"
 }
 }
 ;

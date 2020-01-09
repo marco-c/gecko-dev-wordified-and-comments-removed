@@ -5989,7 +5989,7 @@ logger
 }
 )
 ;
-var
+const
 EXPORTED_SYMBOLS
 =
 [
