@@ -6059,8 +6059,6 @@ node
 win64
 -
 aarch64
--
-msvc
 /
 debug
 :
@@ -6069,7 +6067,6 @@ description
 "
 AArch64
 Win64
-MSVC
 Debug
 "
 index
@@ -6084,8 +6081,6 @@ name
 win64
 -
 aarch64
--
-msvc
 -
 debug
 attributes
@@ -6108,7 +6103,7 @@ aarch64
 debug
 symbol
 :
-Bmsvc
+B
 tier
 :
 1
@@ -6161,8 +6156,6 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-msvc
--
 aarch64
 run
 :
@@ -6235,8 +6228,6 @@ mozconfig
 variant
 :
 debug
--
-msvc
 run
 -
 on
@@ -6287,8 +6278,6 @@ node
 win64
 -
 aarch64
--
-msvc
 /
 opt
 :
@@ -6297,7 +6286,6 @@ description
 "
 AArch64
 Win64
-MSVC
 Opt
 "
 index
@@ -6312,8 +6300,6 @@ name
 win64
 -
 aarch64
--
-msvc
 -
 opt
 attributes
@@ -6336,7 +6322,7 @@ aarch64
 opt
 symbol
 :
-Bmsvc
+B
 tier
 :
 1
@@ -6389,8 +6375,6 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-msvc
--
 aarch64
 run
 :
@@ -6506,8 +6490,6 @@ win64
 -
 aarch64
 -
-msvc
--
 nightly
 /
 opt
@@ -6517,7 +6499,6 @@ description
 "
 AArch64
 Win64
-MSVC
 Nightly
 "
 index
@@ -6532,8 +6513,6 @@ name
 win64
 -
 aarch64
--
-msvc
 -
 opt
 type
@@ -6620,8 +6599,6 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-msvc
--
 aarch64
 run
 :

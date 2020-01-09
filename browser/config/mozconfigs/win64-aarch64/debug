@@ -146,6 +146,8 @@ mozconfig
 vs
 -
 latest
+unset
+ENABLE_CLANG_PLUGIN
 .
 "
 topsrcdir

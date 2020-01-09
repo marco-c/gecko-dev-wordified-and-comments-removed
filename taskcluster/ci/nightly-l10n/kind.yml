@@ -177,8 +177,6 @@ win64
 -
 aarch64
 -
-msvc
--
 nightly
 /
 opt
@@ -517,8 +515,6 @@ win64
 -
 aarch64
 -
-msvc
--
 nightly
 :
 internal
@@ -607,15 +603,11 @@ win64
 -
 aarch64
 -
-msvc
--
 nightly
 :
 win64
 -
 aarch64
--
-msvc
 -
 opt
 linux
@@ -837,8 +829,6 @@ opt
 win64
 -
 aarch64
--
-msvc
 -
 nightly
 :
@@ -1233,8 +1223,6 @@ py
 win64
 -
 aarch64
--
-msvc
 -
 nightly
 :

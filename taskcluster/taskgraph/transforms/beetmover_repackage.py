@@ -526,8 +526,6 @@ win
 |
 -
 aarch64
--
-msvc
 )
 )
 (
@@ -666,8 +664,6 @@ win
 |
 -
 aarch64
--
-msvc
 )
 (
 |
