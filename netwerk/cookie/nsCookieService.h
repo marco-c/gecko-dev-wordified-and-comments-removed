@@ -1378,6 +1378,9 @@ aCookieHeader
 nsCookieAttributes
 &
 aCookie
+bool
+&
+aAcceptedByParser
 )
 ;
 bool
