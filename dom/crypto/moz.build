@@ -226,3 +226,17 @@ mochitest
 ini
 '
 ]
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+test
+/
+browser
+/
+browser
+.
+ini
+'
+]
