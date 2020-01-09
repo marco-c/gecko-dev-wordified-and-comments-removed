@@ -299,6 +299,11 @@ KeyPath
 h
 '
 '
+PermissionRequestBase
+.
+h
+'
+'
 SerializationHelpers
 .
 h
@@ -500,11 +505,6 @@ ipdl
 '
 '
 PBackgroundIndexedDBUtils
-.
-ipdl
-'
-'
-PIndexedDBPermissionRequest
 .
 ipdl
 '

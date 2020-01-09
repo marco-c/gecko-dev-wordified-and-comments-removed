@@ -5639,15 +5639,6 @@ parent
     
 (
 "
-PIndexedDBPermissionRequest
-"
-"
-child
-"
-)
-    
-(
-"
 PBrowser
 "
 "
