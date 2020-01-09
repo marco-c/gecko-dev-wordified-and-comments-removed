@@ -66,7 +66,7 @@ STATE_SUCCEEDED
 let
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_LAST_UPDATE_LOG
 )
@@ -83,7 +83,7 @@ Log
 ;
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_BACKUP_UPDATE_LOG
 )
@@ -103,7 +103,7 @@ Log
 ;
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_UPDATE_LOG
 )
@@ -174,7 +174,7 @@ waitForUpdateXMLFilesFinished
 let
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_UPDATE_LOG
 )
@@ -194,7 +194,7 @@ MSG_SHOULD_NOT_EXIST
 ;
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_LAST_UPDATE_LOG
 )
@@ -237,7 +237,7 @@ MSG_SHOULD_EQUAL
 ;
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_BACKUP_UPDATE_LOG
 )
@@ -281,8 +281,9 @@ MSG_SHOULD_EQUAL
 let
 dir
 =
-getUpdatesPatchDir
+getUpdateDirFile
 (
+DIR_PATCH
 )
 ;
 Assert

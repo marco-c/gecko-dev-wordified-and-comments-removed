@@ -50,8 +50,9 @@ setupUpdaterTestFinished
 let
 path
 =
-getUpdatesPatchDir
+getUpdateDirFile
 (
+DIR_PATCH
 )
 .
 parent

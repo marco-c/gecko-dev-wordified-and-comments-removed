@@ -143,8 +143,9 @@ standardInit
 let
 configFile
 =
-getUpdateConfigFile
+getUpdateDirFile
 (
+FILE_UPDATE_CONFIG_JSON
 )
 ;
 Services

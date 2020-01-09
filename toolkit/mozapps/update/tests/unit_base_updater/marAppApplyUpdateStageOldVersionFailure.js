@@ -90,7 +90,7 @@ updates
 true
 )
 ;
-getUpdateLog
+getUpdateDirFile
 (
 FILE_UPDATE_LOG
 )
@@ -171,8 +171,9 @@ ERR_OLDER_VERSION_OR_SAME_BUILD
 let
 updatesDir
 =
-getUpdatesPatchDir
+getUpdateDirFile
 (
+DIR_PATCH
 )
 ;
 Assert
@@ -197,7 +198,7 @@ path
 let
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_UPDATE_LOG
 )
@@ -224,7 +225,7 @@ path
 ;
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_LAST_UPDATE_LOG
 )
@@ -250,7 +251,7 @@ path
 ;
 log
 =
-getUpdateLog
+getUpdateDirFile
 (
 FILE_BACKUP_UPDATE_LOG
 )
