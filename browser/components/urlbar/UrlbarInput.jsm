@@ -1903,6 +1903,16 @@ autoFill
 )
 &
 &
+this
+.
+selectionEnd
+=
+=
+searchString
+.
+length
+&
+&
 (
 !
 this
