@@ -50,6 +50,11 @@ utils
 .
 3
 "
+lazy_static
+=
+"
+1
+"
 libc
 =
 "
