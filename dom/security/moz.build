@@ -130,11 +130,6 @@ dom
 =
 [
 '
-ContentVerifier
-.
-h
-'
-'
 CSPEvalChecker
 .
 h
@@ -219,11 +214,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-ContentVerifier
-.
-cpp
-'
 '
 CSPEvalChecker
 .

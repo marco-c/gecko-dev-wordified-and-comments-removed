@@ -834,12 +834,6 @@ bool
 browserWouldUpgradeInsecureRequests
 ;
 bool
-verifySignedContent
-;
-bool
-enforceSRI
-;
-bool
 forceAllowDataURI
 ;
 bool

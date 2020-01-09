@@ -394,10 +394,6 @@ aBrowserUpgradeInsecureRequests
 bool
 aBrowserWouldUpgradeInsecureRequests
 bool
-aVerifySignedContent
-bool
-aEnforceSRI
-bool
 aForceAllowDataURI
 bool
 aAllowInsecureRedirectToDataURI
@@ -720,12 +716,6 @@ mBrowserUpgradeInsecureRequests
 ;
 bool
 mBrowserWouldUpgradeInsecureRequests
-;
-bool
-mVerifySignedContent
-;
-bool
-mEnforceSRI
 ;
 bool
 mForceAllowDataURI
