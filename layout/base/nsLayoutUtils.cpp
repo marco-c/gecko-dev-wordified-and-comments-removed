@@ -194,6 +194,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DocumentInlines
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h
