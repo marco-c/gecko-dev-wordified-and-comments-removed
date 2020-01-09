@@ -19221,6 +19221,18 @@ aLayerMetrics
 ;
 if
 (
+relativeDelta
+!
+=
+Some
+(
+CSSPoint
+(
+)
+)
+&
+&
+(
 (
 !
 mAnimation
@@ -19245,6 +19257,7 @@ mAnimation
 HandleScrollOffsetUpdate
 (
 relativeDelta
+)
 )
 )
 )
