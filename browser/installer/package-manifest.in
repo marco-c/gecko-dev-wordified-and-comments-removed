@@ -1365,13 +1365,6 @@ RESPATH
 /
 components
 /
-Weave
-.
-js
-RESPATH
-/
-components
-/
 FxAccountsComponents
 .
 manifest
