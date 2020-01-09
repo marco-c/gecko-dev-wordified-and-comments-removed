@@ -2357,6 +2357,14 @@ bool
 aSelect
 )
 ;
+void
+SelectFramesInAllRanges
+(
+nsPresContext
+*
+aPresContext
+)
+;
 nsresult
 GetTableSelectionType
 (
