@@ -866,6 +866,15 @@ float
 aZoom
 )
 ;
+void
+UpdateIsTransformPinchZooming
+(
+uint64_t
+aAnimationId
+bool
+aIsZooming
+)
+;
 private
 :
 Transaction

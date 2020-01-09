@@ -16,7 +16,6 @@ api
 :
 {
 PipelineId
-RasterSpace
 }
 ;
 use
@@ -1050,10 +1049,6 @@ pub
 is_composite
 :
 bool
-pub
-raster_space
-:
-RasterSpace
 pub
 surface_spatial_node_index
 :
