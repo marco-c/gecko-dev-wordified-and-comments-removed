@@ -4087,11 +4087,21 @@ txt
 )
 )
     
+if
+not
 kwargs
 [
-'
+"
 browser_version
-'
+"
+]
+:
+        
+kwargs
+[
+"
+browser_version
+"
 ]
 =
 setup_cls
@@ -4110,7 +4120,7 @@ get
 binary
 "
 )
-                                                          
+                                                              
 webdriver_binary
 =
 kwargs
