@@ -15,7 +15,9 @@ src
 /
 frontend
 /
-BinASTParser
+BinSource
+-
+auto
 .
 h
 -
@@ -25,7 +27,9 @@ src
 /
 frontend
 /
-BinASTParser
+BinSource
+-
+auto
 .
 cpp
 -
@@ -35,7 +39,7 @@ src
 /
 frontent
 /
-BinASTToken
+BinToken
 .
 h
 from
@@ -50,7 +54,7 @@ src
 /
 frontend
 /
-BinAST
+BinSource
 .
 webidl_
 (
@@ -65,7 +69,7 @@ src
 /
 frontend
 /
-BinAST
+BinSource
 .
 yaml
 (
@@ -89,7 +93,7 @@ src
 /
 frontend
 /
-binast
+binsource
 %
 .
 /

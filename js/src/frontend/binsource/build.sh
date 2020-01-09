@@ -12,14 +12,14 @@ run
 .
 .
 /
-BinAST
+BinSource
 .
 webidl_
 \
 .
 .
 /
-BinAST
+BinSource
 .
 yaml
 \
@@ -73,7 +73,7 @@ token
 .
 .
 /
-BinASTToken
+BinToken
 -
 tmp
 .
@@ -133,7 +133,7 @@ h
 .
 .
 /
-BinASTToken
+BinToken
 -
 tmp
 .
@@ -280,7 +280,7 @@ update
 .
 .
 /
-BinASTToken
+BinToken
 -
 tmp
 .
@@ -288,6 +288,6 @@ h
 .
 .
 /
-BinASTToken
+BinToken
 .
 h
