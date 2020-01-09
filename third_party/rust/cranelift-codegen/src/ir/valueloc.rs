@@ -1,16 +1,10 @@
 use
-crate
-:
-:
 ir
 :
 :
 StackSlot
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -20,7 +14,7 @@ RegUnit
 }
 ;
 use
-core
+std
 :
 :
 fmt

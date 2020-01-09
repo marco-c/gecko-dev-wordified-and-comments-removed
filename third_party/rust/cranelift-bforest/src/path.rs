@@ -23,7 +23,7 @@ MAX_PATH
 }
 ;
 use
-core
+std
 :
 :
 borrow
@@ -32,7 +32,7 @@ borrow
 Borrow
 ;
 use
-core
+std
 :
 :
 marker
@@ -48,7 +48,7 @@ test
 )
 ]
 use
-core
+std
 :
 :
 fmt
@@ -4089,7 +4089,7 @@ super
 *
 ;
 use
-core
+std
 :
 :
 cmp

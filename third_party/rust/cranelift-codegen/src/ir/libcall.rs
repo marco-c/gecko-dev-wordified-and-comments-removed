@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 ir
 :
 :
@@ -20,9 +17,6 @@ Type
 }
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -33,13 +27,13 @@ TargetIsa
 }
 ;
 use
-core
+std
 :
 :
 fmt
 ;
 use
-core
+std
 :
 :
 str

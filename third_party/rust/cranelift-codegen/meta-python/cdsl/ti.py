@@ -1624,7 +1624,7 @@ object
 Class
 encapsulating
 the
-necessary
+neccessary
 book
 keeping
 for
@@ -1976,7 +1976,7 @@ tv2
 '
 s
         
-canonical
+cannonical
 representative
 .
         
@@ -2224,7 +2224,7 @@ rank
         
 than
 TVs
-associated
+associted
 with
 temporary
 vars

@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 fmt
@@ -473,12 +473,6 @@ Pass
 DESCRIPTIONS
 NUM_PASSES
 }
-;
-use
-log
-:
-:
-debug
 ;
 use
 std

@@ -1,20 +1,5 @@
 use
-crate
-:
-:
-packed_option
-:
-:
-ReservedValue
-;
-use
-crate
-:
-:
-EntityRef
-;
-use
-core
+std
 :
 :
 marker
@@ -23,7 +8,7 @@ marker
 PhantomData
 ;
 use
-core
+std
 :
 :
 mem
@@ -36,6 +21,9 @@ vec
 :
 :
 Vec
+;
+use
+EntityRef
 ;
 #
 [
@@ -52,8 +40,6 @@ EntityList
 T
 :
 EntityRef
-+
-ReservedValue
 >
 {
 index
@@ -71,8 +57,6 @@ impl
 T
 :
 EntityRef
-+
-ReservedValue
 >
 Default
 for
@@ -115,8 +99,6 @@ ListPool
 T
 :
 EntityRef
-+
-ReservedValue
 >
 {
 data
@@ -207,8 +189,6 @@ impl
 T
 :
 EntityRef
-+
-ReservedValue
 >
 ListPool
 <
@@ -420,8 +400,9 @@ sclass
 T
 :
 :
-reserved_value
+new
 (
+0
 )
 )
 ;
@@ -730,8 +711,6 @@ impl
 T
 :
 EntityRef
-+
-ReservedValue
 >
 EntityList
 <
@@ -2280,9 +2259,6 @@ sclass_size
 }
 ;
 use
-crate
-:
-:
 EntityRef
 ;
 #

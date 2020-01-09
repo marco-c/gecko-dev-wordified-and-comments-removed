@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 ir
 :
 :
@@ -15,9 +12,6 @@ StackSlots
 }
 ;
 use
-crate
-:
-:
 ir
 :
 :

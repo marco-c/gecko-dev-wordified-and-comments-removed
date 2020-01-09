@@ -76,9 +76,6 @@ valueloc
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -94,9 +91,6 @@ InstInserterBase
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -110,9 +104,6 @@ ValueDef
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -134,9 +125,6 @@ Value
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -153,9 +141,6 @@ Signature
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -166,9 +151,6 @@ ExternalName
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -179,9 +161,6 @@ Function
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -192,9 +171,6 @@ GlobalValueData
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -208,9 +184,6 @@ HeapStyle
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -227,9 +200,6 @@ VariableArgs
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -240,9 +210,6 @@ JumpTableData
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -253,9 +220,6 @@ Layout
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -270,9 +234,6 @@ LibCall
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -283,9 +244,6 @@ MemFlags
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -300,9 +258,6 @@ ProgramPoint
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -313,9 +268,6 @@ SourceLoc
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -330,9 +282,6 @@ StackSlots
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -343,9 +292,6 @@ TableData
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -356,9 +302,6 @@ TrapCode
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -369,9 +312,6 @@ Type
 ;
 pub
 use
-crate
-:
-:
 ir
 :
 :
@@ -384,15 +324,9 @@ ValueLoc
 }
 ;
 use
-crate
-:
-:
 binemit
 ;
 use
-crate
-:
-:
 entity
 :
 :
@@ -402,9 +336,6 @@ SecondaryMap
 }
 ;
 use
-crate
-:
-:
 isa
 ;
 pub

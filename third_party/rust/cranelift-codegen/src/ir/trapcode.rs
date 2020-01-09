@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 fmt
@@ -12,7 +12,7 @@ Formatter
 }
 ;
 use
-core
+std
 :
 :
 str
@@ -45,7 +45,6 @@ BadSignature
 IntegerOverflow
 IntegerDivisionByZero
 BadConversionToInteger
-UnreachableCodeReached
 Interrupt
 User
 (
@@ -144,12 +143,6 @@ BadConversionToInteger
 >
 "
 bad_toint
-"
-UnreachableCodeReached
-=
->
-"
-unreachable
 "
 Interrupt
 =
@@ -309,15 +302,6 @@ Ok
 BadConversionToInteger
 )
 "
-unreachable
-"
-=
->
-Ok
-(
-UnreachableCodeReached
-)
-"
 interrupt
 "
 =
@@ -404,7 +388,7 @@ CODES
 [
 TrapCode
 ;
-11
+9
 ]
 =
 [
@@ -444,14 +428,6 @@ TrapCode
 :
 :
 BadConversionToInteger
-TrapCode
-:
-:
-UnreachableCodeReached
-TrapCode
-:
-:
-Interrupt
 ]
 ;
 #

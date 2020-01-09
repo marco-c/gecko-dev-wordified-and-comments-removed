@@ -1,13 +1,10 @@
 use
-crate
-:
-:
+ir
+;
+use
 isa
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -17,9 +14,6 @@ constraints
 *
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -29,9 +23,6 @@ enc_tables
 *
 ;
 use
-crate
-:
-:
 isa
 :
 :

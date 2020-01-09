@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 fmt
@@ -12,7 +12,7 @@ Formatter
 }
 ;
 use
-core
+std
 :
 :
 str

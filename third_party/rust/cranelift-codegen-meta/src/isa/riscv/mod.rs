@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 cdsl
 :
 :
@@ -14,9 +11,6 @@ TargetIsaBuilder
 }
 ;
 use
-crate
-:
-:
 cdsl
 :
 :
@@ -29,9 +23,6 @@ RegClassBuilder
 }
 ;
 use
-crate
-:
-:
 cdsl
 :
 :

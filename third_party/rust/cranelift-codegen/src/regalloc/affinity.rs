@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 ir
 :
 :
@@ -11,9 +8,6 @@ ArgumentLoc
 }
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -26,7 +20,7 @@ TargetIsa
 }
 ;
 use
-core
+std
 :
 :
 fmt

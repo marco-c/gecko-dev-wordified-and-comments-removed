@@ -1,11 +1,11 @@
 use
-core
+std
 :
 :
 fmt
 ;
 use
-core
+std
 :
 :
 mem

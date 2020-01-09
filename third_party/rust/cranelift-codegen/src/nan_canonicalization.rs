@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 cursor
 :
 :
@@ -11,9 +8,6 @@ FuncCursor
 }
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -23,9 +17,6 @@ condcodes
 FloatCC
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -38,18 +29,12 @@ Ieee64
 }
 ;
 use
-crate
-:
-:
 ir
 :
 :
 types
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -59,9 +44,6 @@ types
 Type
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -75,9 +57,6 @@ Value
 }
 ;
 use
-crate
-:
-:
 timing
 ;
 static

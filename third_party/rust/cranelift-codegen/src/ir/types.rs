@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 default
@@ -8,7 +8,7 @@ default
 Default
 ;
 use
-core
+std
 :
 :
 fmt

@@ -1,16 +1,10 @@
 use
-crate
-:
-:
 binemit
 :
 :
 CodeOffset
 ;
 use
-crate
-:
-:
 ir
 :
 :
@@ -21,9 +15,6 @@ ValueLoc
 }
 ;
 use
-crate
-:
-:
 isa
 :
 :
@@ -33,9 +24,6 @@ RegUnit
 }
 ;
 use
-crate
-:
-:
 regalloc
 :
 :

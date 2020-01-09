@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 ir
 :
 :
@@ -11,7 +8,7 @@ entities
 Ebb
 ;
 use
-core
+std
 :
 :
 fmt
@@ -24,7 +21,7 @@ Formatter
 }
 ;
 use
-core
+std
 :
 :
 slice
@@ -399,18 +396,12 @@ super
 JumpTableData
 ;
 use
-crate
-:
-:
 entity
 :
 :
 EntityRef
 ;
 use
-crate
-:
-:
 ir
 :
 :

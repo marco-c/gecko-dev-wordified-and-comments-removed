@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 mem

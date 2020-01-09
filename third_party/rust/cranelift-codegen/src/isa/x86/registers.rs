@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 isa
 :
 :
@@ -57,9 +54,6 @@ super
 *
 ;
 use
-crate
-:
-:
 isa
 :
 :

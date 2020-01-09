@@ -1,7 +1,4 @@
 use
-crate
-:
-:
 cdsl
 :
 :
@@ -11,9 +8,6 @@ isa
 TargetIsa
 ;
 use
-crate
-:
-:
 cdsl
 :
 :

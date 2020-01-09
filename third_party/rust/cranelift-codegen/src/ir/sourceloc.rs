@@ -1,5 +1,5 @@
 use
-core
+std
 :
 :
 fmt
@@ -172,9 +172,6 @@ mod
 tests
 {
 use
-crate
-:
-:
 ir
 :
 :
