@@ -3064,7 +3064,7 @@ cx
 wrapper
 )
 ;
-ReparentWrapper
+UpdateReflectorGlobal
 (
 cx
 wrapper

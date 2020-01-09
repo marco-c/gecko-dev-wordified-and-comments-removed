@@ -7873,7 +7873,7 @@ wrapper
 IgnoredErrorResult
 rv
 ;
-ReparentWrapper
+UpdateReflectorGlobal
 (
 jsapi
 .

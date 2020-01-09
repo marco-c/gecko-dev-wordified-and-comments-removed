@@ -11800,7 +11800,7 @@ true
 ;
 }
 void
-ReparentWrapper
+UpdateReflectorGlobal
 (
 JSContext
 *
@@ -11870,6 +11870,14 @@ aCx
 aObjArg
 )
 ;
+MOZ_ASSERT
+(
+IsDOMObject
+(
+aObj
+)
+)
+;
 const
 DOMJSClass
 *
@@ -11888,7 +11896,7 @@ Rooted
 JSObject
 *
 >
-oldParent
+oldGlobal
 (
 aCx
 JS
@@ -11904,7 +11912,7 @@ MOZ_ASSERT
 (
 JS_IsGlobalObject
 (
-oldParent
+oldGlobal
 )
 )
 ;
@@ -11916,7 +11924,7 @@ Rooted
 JSObject
 *
 >
-newParent
+newGlobal
 (
 aCx
 domClass
@@ -11933,7 +11941,7 @@ MOZ_ASSERT
 (
 JS_IsGlobalObject
 (
-newParent
+newGlobal
 )
 )
 ;
@@ -11941,15 +11949,15 @@ JSAutoRealm
 oldAr
 (
 aCx
-oldParent
+oldGlobal
 )
 ;
 if
 (
-oldParent
+oldGlobal
 =
 =
-newParent
+newGlobal
 )
 {
 return
@@ -12017,7 +12025,7 @@ JSAutoRealm
 newAr
 (
 aCx
-newParent
+newGlobal
 )
 ;
 JS

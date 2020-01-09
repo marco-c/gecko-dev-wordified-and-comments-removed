@@ -11609,7 +11609,7 @@ aArg
 ;
 }
 void
-ReparentWrapper
+UpdateReflectorGlobal
 (
 JSContext
 *
