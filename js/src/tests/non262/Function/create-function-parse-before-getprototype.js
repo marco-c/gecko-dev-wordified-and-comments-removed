@@ -52,7 +52,6 @@ construct
 Function
 [
 "
-#
 error
 "
 ]
