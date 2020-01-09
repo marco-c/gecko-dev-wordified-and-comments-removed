@@ -7,11 +7,6 @@ ExecutorBrowser
 require_arg
 from
 .
-base
-import
-get_timeout_multiplier
-from
-.
 .
 executors
 import
@@ -139,14 +134,6 @@ run_info_extras
 :
 "
 run_info_extras
-"
-                 
-"
-timeout_multiplier
-"
-:
-"
-get_timeout_multiplier
 "
 }
 def
