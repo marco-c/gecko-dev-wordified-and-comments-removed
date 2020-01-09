@@ -41,7 +41,7 @@ class
 WebRenderParentCommand
 ;
 class
-WebRenderLayerManager
+RenderRootStateManager
 ;
 }
 namespace
@@ -580,7 +580,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem
@@ -885,7 +885,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem

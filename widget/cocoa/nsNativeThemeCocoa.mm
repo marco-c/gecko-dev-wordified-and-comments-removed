@@ -23475,7 +23475,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsIFrame

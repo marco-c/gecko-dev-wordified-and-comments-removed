@@ -197,7 +197,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -341,7 +341,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder

@@ -380,7 +380,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem
@@ -724,7 +724,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder

@@ -84,7 +84,7 @@ mozilla
 /
 layers
 /
-WebRenderLayerManager
+RenderRootStateManager
 .
 h
 "
@@ -1044,7 +1044,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -1236,7 +1236,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -1275,7 +1275,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -1314,7 +1314,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -1411,7 +1411,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -1945,7 +1945,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -2092,6 +2092,11 @@ mImage
 GetImageContainerAtSize
 (
 aManager
+-
+>
+LayerManager
+(
+)
 decodeSize
 svgContext
 flags
@@ -2261,7 +2266,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -2606,7 +2611,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -2825,7 +2830,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -3118,7 +3123,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder

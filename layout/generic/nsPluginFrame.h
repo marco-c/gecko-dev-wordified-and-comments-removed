@@ -254,8 +254,8 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
-WebRenderLayerManager
+RenderRootStateManager
+RenderRootStateManager
 ;
 typedef
 mozilla
@@ -785,7 +785,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -1443,7 +1443,7 @@ mozilla
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder

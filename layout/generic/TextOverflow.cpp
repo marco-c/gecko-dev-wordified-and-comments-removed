@@ -1133,7 +1133,7 @@ aSc
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder
@@ -1578,7 +1578,7 @@ aSc
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayListBuilder

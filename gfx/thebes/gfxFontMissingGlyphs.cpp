@@ -1182,6 +1182,11 @@ handle
 manager
 -
 >
+GetRenderRootStateManager
+(
+)
+-
+>
 AddImageKeyForDiscard
 (
 wr

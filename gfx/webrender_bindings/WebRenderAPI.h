@@ -143,7 +143,7 @@ class
 WebRenderBridgeParent
 ;
 class
-WebRenderLayerManager
+RenderRootStateManager
 ;
 }
 namespace
@@ -2725,7 +2725,7 @@ aSc
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem

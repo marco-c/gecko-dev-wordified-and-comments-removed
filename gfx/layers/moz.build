@@ -1594,6 +1594,13 @@ h
 '
 wr
 /
+RenderRootStateManager
+.
+h
+'
+'
+wr
+/
 StackingContextHelper
 .
 h
@@ -3216,6 +3223,13 @@ cpp
 wr
 /
 IpcResourceUpdateQueue
+.
+cpp
+'
+'
+wr
+/
+RenderRootStateManager
 .
 cpp
 '

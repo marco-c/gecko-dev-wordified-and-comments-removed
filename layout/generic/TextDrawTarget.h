@@ -22,6 +22,17 @@ mozilla
 /
 layers
 /
+RenderRootStateManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 WebRenderLayerManager
 .
 h
@@ -113,7 +124,7 @@ aSc
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem
@@ -199,7 +210,7 @@ aSc
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 aManager
 nsDisplayItem
@@ -1635,6 +1646,11 @@ WrLayerManager
 {
 return
 mManager
+-
+>
+LayerManager
+(
+)
 ;
 }
 Maybe
@@ -1899,7 +1915,7 @@ mSc
 layers
 :
 :
-WebRenderLayerManager
+RenderRootStateManager
 *
 mManager
 ;
