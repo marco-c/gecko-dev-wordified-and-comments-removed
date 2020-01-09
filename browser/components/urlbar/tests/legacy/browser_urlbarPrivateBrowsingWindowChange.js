@@ -109,9 +109,7 @@ true
 ;
 urlbar
 .
-inputField
-.
-dispatchEvent
+onInput
 (
 inputEv
 )
