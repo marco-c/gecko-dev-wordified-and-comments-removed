@@ -186,7 +186,7 @@ enabled
 this
 .
 kEnabledPref
-false
+true
 (
 pref
 oldVal
