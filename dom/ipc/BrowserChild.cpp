@@ -12278,10 +12278,10 @@ view
 GetBounds
 (
 )
-nsIPresShell
+PaintFlags
 :
 :
-PAINT_LAYERS
+PaintLayers
 )
 ;
 }
