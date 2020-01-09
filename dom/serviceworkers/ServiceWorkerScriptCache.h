@@ -118,9 +118,6 @@ aURL
 CompareCallback
 *
 aCallback
-nsILoadGroup
-*
-aLoadGroup
 )
 ;
 }
