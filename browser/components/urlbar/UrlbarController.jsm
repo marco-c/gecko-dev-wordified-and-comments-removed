@@ -1196,7 +1196,9 @@ KeyEvent
 .
 DOM_VK_PAGE_UP
 ?
-5
+UrlbarUtils
+.
+PAGE_UP_DOWN_DELTA
 :
 1
 {

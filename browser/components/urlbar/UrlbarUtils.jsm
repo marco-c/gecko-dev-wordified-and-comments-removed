@@ -267,6 +267,9 @@ glass
 svg
 "
 }
+PAGE_UP_DOWN_DELTA
+:
+5
 COMPOSITION
 :
 {
