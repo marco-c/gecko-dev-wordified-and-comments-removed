@@ -40,13 +40,4 @@ insecureAPI
 mktemp
 "
 ]
-{
-"
-reliability
-"
-:
-"
-high
-"
-}
 ]

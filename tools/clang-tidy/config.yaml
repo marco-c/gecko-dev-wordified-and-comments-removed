@@ -213,9 +213,6 @@ bugprone
 argument
 -
 comment
-reliability
-:
-high
 -
 name
 :
@@ -226,9 +223,6 @@ assert
 side
 -
 effect
-reliability
-:
-high
 -
 name
 :
@@ -241,9 +235,6 @@ pointer
 implicit
 -
 conversion
-reliability
-:
-low
 -
 name
 :
@@ -254,9 +245,6 @@ forward
 declaration
 -
 namespace
-reliability
-:
-high
 -
 name
 :
@@ -265,9 +253,6 @@ bugprone
 incorrect
 -
 roundings
-reliability
-:
-high
 -
 name
 :
@@ -276,9 +261,6 @@ bugprone
 integer
 -
 division
-reliability
-:
-high
 -
 name
 :
@@ -287,9 +269,6 @@ bugprone
 macro
 -
 parentheses
-reliability
-:
-medium
 -
 name
 :
@@ -302,9 +281,6 @@ repeated
 side
 -
 effects
-reliability
-:
-high
 -
 name
 :
@@ -315,9 +291,6 @@ misplaced
 widening
 -
 cast
-reliability
-:
-high
 -
 name
 :
@@ -344,9 +317,6 @@ publish
 !
 bool
 no
-reliability
-:
-high
 -
 name
 :
@@ -355,9 +325,6 @@ bugprone
 sizeof
 -
 expression
-reliability
-:
-high
 -
 name
 :
@@ -366,9 +333,6 @@ bugprone
 string
 -
 constructor
-reliability
-:
-high
 -
 name
 :
@@ -379,9 +343,6 @@ string
 integer
 -
 assignment
-reliability
-:
-high
 -
 name
 :
@@ -392,9 +353,6 @@ suspicious
 memset
 -
 usage
-reliability
-:
-high
 -
 name
 :
@@ -405,9 +363,6 @@ suspicious
 missing
 -
 comma
-reliability
-:
-high
 -
 name
 :
@@ -416,9 +371,6 @@ bugprone
 suspicious
 -
 semicolon
-reliability
-:
-high
 -
 name
 :
@@ -429,9 +381,6 @@ suspicious
 string
 -
 compare
-reliability
-:
-high
 -
 name
 :
@@ -440,9 +389,6 @@ bugprone
 swapped
 -
 arguments
-reliability
-:
-high
 -
 name
 :
@@ -451,9 +397,6 @@ bugprone
 unused
 -
 raii
-reliability
-:
-high
 -
 name
 :
@@ -464,9 +407,6 @@ use
 after
 -
 move
-reliability
-:
-high
 -
 name
 :
@@ -477,9 +417,6 @@ analyzer
 core
 .
 CallAndMessage
-reliability
-:
-medium
 -
 name
 :
@@ -490,9 +427,6 @@ analyzer
 core
 .
 DivideZero
-reliability
-:
-high
 -
 name
 :
@@ -503,9 +437,6 @@ analyzer
 core
 .
 NonNullParamChecker
-reliability
-:
-high
 -
 name
 :
@@ -516,9 +447,6 @@ analyzer
 core
 .
 NullDereference
-reliability
-:
-medium
 -
 name
 :
@@ -529,9 +457,6 @@ analyzer
 core
 .
 UndefinedBinaryOperatorResult
-reliability
-:
-medium
 -
 name
 :
@@ -544,9 +469,6 @@ core
 uninitialized
 .
 Assign
-reliability
-:
-medium
 -
 name
 :
@@ -559,9 +481,6 @@ core
 uninitialized
 .
 Branch
-reliability
-:
-medium
 -
 name
 :
@@ -572,9 +491,6 @@ analyzer
 cplusplus
 .
 NewDelete
-reliability
-:
-medium
 -
 name
 :
@@ -585,9 +501,6 @@ analyzer
 cplusplus
 .
 NewDeleteLeaks
-reliability
-:
-medium
 -
 name
 :
@@ -598,9 +511,6 @@ analyzer
 deadcode
 .
 DeadStores
-reliability
-:
-high
 -
 name
 :
@@ -611,9 +521,6 @@ analyzer
 security
 .
 FloatLoopCounter
-reliability
-:
-high
 -
 name
 :
@@ -626,9 +533,6 @@ security
 insecureAPI
 .
 bcmp
-reliability
-:
-high
 -
 name
 :
@@ -641,9 +545,6 @@ security
 insecureAPI
 .
 bcopy
-reliability
-:
-high
 -
 name
 :
@@ -656,9 +557,6 @@ security
 insecureAPI
 .
 bzero
-reliability
-:
-high
 -
 name
 :
@@ -671,9 +569,6 @@ security
 insecureAPI
 .
 getpw
-reliability
-:
-high
 #
 We
 don
@@ -708,9 +603,6 @@ security
 insecureAPI
 .
 mkstemp
-reliability
-:
-high
 -
 name
 :
@@ -723,9 +615,6 @@ security
 insecureAPI
 .
 mktemp
-reliability
-:
-high
 -
 name
 :
@@ -738,9 +627,6 @@ security
 insecureAPI
 .
 rand
-reliability
-:
-low
 #
 C
 checker
@@ -779,9 +665,6 @@ security
 insecureAPI
 .
 strcpy
-reliability
-:
-low
 #
 The
 functions
@@ -827,9 +710,6 @@ security
 insecureAPI
 .
 UncheckedReturn
-reliability
-:
-low
 -
 name
 :
@@ -842,9 +722,6 @@ security
 insecureAPI
 .
 vfork
-reliability
-:
-medium
 -
 name
 :
@@ -855,9 +732,6 @@ analyzer
 unix
 .
 Malloc
-reliability
-:
-high
 -
 name
 :
@@ -870,9 +744,6 @@ unix
 cstring
 .
 BadSizeArg
-reliability
-:
-high
 -
 name
 :
@@ -885,9 +756,6 @@ unix
 cstring
 .
 NullArg
-reliability
-:
-high
 -
 name
 :
@@ -898,9 +766,6 @@ non
 copyable
 -
 objects
-reliability
-:
-high
 -
 name
 :
@@ -909,9 +774,6 @@ misc
 redundant
 -
 expression
-reliability
-:
-medium
 -
 name
 :
@@ -922,9 +784,6 @@ unused
 alias
 -
 decls
-reliability
-:
-high
 -
 name
 :
@@ -935,9 +794,6 @@ unused
 using
 -
 decls
-reliability
-:
-high
 -
 name
 :
@@ -954,9 +810,6 @@ platforms
 win32
 -
 win64
-reliability
-:
-medium
 -
 name
 :
@@ -965,9 +818,6 @@ modernize
 loop
 -
 convert
-reliability
-:
-high
 -
 name
 :
@@ -978,9 +828,6 @@ raw
 string
 -
 literal
-reliability
-:
-high
 -
 name
 :
@@ -991,9 +838,6 @@ redundant
 void
 -
 arg
-reliability
-:
-high
 #
 We
 still
@@ -1033,9 +877,6 @@ shrink
 to
 -
 fit
-reliability
-:
-high
 -
 name
 :
@@ -1044,9 +885,6 @@ modernize
 use
 -
 auto
-reliability
-:
-high
 #
 Controversial
 see
@@ -1069,9 +907,6 @@ use
 bool
 -
 literals
-reliability
-:
-high
 -
 name
 :
@@ -1082,9 +917,6 @@ use
 equals
 -
 default
-reliability
-:
-high
 -
 name
 :
@@ -1095,9 +927,6 @@ use
 equals
 -
 delete
-reliability
-:
-high
 -
 name
 :
@@ -1106,9 +935,6 @@ modernize
 use
 -
 nullptr
-reliability
-:
-high
 -
 name
 :
@@ -1117,9 +943,6 @@ modernize
 use
 -
 override
-reliability
-:
-low
 #
 Too
 noisy
@@ -1148,9 +971,6 @@ name
 mozilla
 -
 *
-reliability
-:
-high
 -
 name
 :
@@ -1161,9 +981,6 @@ faster
 string
 -
 find
-reliability
-:
-high
 -
 name
 :
@@ -1174,9 +991,6 @@ for
 range
 -
 copy
-reliability
-:
-high
 -
 name
 :
@@ -1189,9 +1003,6 @@ conversion
 in
 -
 loop
-reliability
-:
-high
 -
 name
 :
@@ -1208,9 +1019,6 @@ platforms
 linux64
 -
 macosx64
-reliability
-:
-high
 -
 name
 :
@@ -1221,9 +1029,6 @@ inefficient
 string
 -
 concatenation
-reliability
-:
-high
 -
 name
 :
@@ -1234,9 +1039,6 @@ inefficient
 vector
 -
 operation
-reliability
-:
-high
 -
 name
 :
@@ -1247,9 +1049,6 @@ move
 const
 -
 arg
-reliability
-:
-high
 -
 name
 :
@@ -1260,9 +1059,6 @@ move
 constructor
 -
 init
-reliability
-:
-high
 -
 name
 :
@@ -1273,9 +1069,6 @@ noexcept
 move
 -
 constructor
-reliability
-:
-high
 -
 name
 :
@@ -1290,9 +1083,6 @@ in
 math
 -
 fn
-reliability
-:
-high
 -
 name
 :
@@ -1303,9 +1093,6 @@ unnecessary
 copy
 -
 initialization
-reliability
-:
-high
 -
 name
 :
@@ -1316,9 +1103,6 @@ unnecessary
 value
 -
 param
-reliability
-:
-high
 -
 name
 :
@@ -1329,9 +1113,6 @@ braces
 around
 -
 statements
-reliability
-:
-high
 #
 Note
 :
@@ -1355,9 +1136,6 @@ container
 size
 -
 empty
-reliability
-:
-high
 -
 name
 :
@@ -1368,9 +1146,6 @@ delete
 null
 -
 pointer
-reliability
-:
-high
 -
 name
 :
@@ -1381,9 +1156,6 @@ else
 after
 -
 return
-reliability
-:
-high
 -
 name
 :
@@ -1394,9 +1166,6 @@ implicit
 bool
 -
 conversion
-reliability
-:
-low
 #
 On
 automation
@@ -1463,9 +1232,6 @@ declaration
 parameter
 -
 name
-reliability
-:
-high
 -
 name
 :
@@ -1474,9 +1240,6 @@ readability
 misleading
 -
 indentation
-reliability
-:
-high
 -
 name
 :
@@ -1487,9 +1250,6 @@ non
 const
 -
 parameter
-reliability
-:
-high
 -
 name
 :
@@ -1500,9 +1260,6 @@ redundant
 control
 -
 flow
-reliability
-:
-high
 -
 name
 :
@@ -1511,9 +1268,6 @@ readability
 redundant
 -
 preprocessor
-reliability
-:
-high
 -
 name
 :
@@ -1524,9 +1278,6 @@ redundant
 smartptr
 -
 get
-reliability
-:
-high
 -
 name
 :
@@ -1537,9 +1288,6 @@ redundant
 string
 -
 cstr
-reliability
-:
-high
 -
 name
 :
@@ -1550,9 +1298,6 @@ redundant
 string
 -
 init
-reliability
-:
-high
 -
 name
 :
@@ -1565,9 +1310,6 @@ accessed
 through
 -
 instance
-reliability
-:
-high
 -
 name
 :
@@ -1578,9 +1320,6 @@ simplify
 boolean
 -
 expr
-reliability
-:
-high
 -
 name
 :
@@ -1591,9 +1330,6 @@ uniqueptr
 delete
 -
 release
-reliability
-:
-high
 #
 We
 don
@@ -1638,9 +1374,6 @@ explicit
 make
 -
 pair
-reliability
-:
-low
 publish
 :
 !
@@ -1655,9 +1388,6 @@ google
 build
 -
 namespaces
-reliability
-:
-low
 publish
 :
 !
@@ -1674,9 +1404,6 @@ build
 using
 -
 namespace
-reliability
-:
-low
 publish
 :
 !
@@ -1691,9 +1418,6 @@ google
 default
 -
 arguments
-reliability
-:
-low
 publish
 :
 !
@@ -1708,9 +1432,6 @@ google
 explicit
 -
 constructor
-reliability
-:
-low
 publish
 :
 !
@@ -1729,9 +1450,6 @@ names
 in
 -
 headers
-reliability
-:
-low
 publish
 :
 !
@@ -1746,9 +1464,6 @@ google
 readability
 -
 casting
-reliability
-:
-low
 publish
 :
 !
@@ -1765,9 +1480,6 @@ readability
 function
 -
 size
-reliability
-:
-low
 publish
 :
 !
@@ -1784,9 +1496,6 @@ readability
 namespace
 -
 comments
-reliability
-:
-low
 publish
 :
 !
@@ -1801,9 +1510,6 @@ google
 readability
 -
 todo
-reliability
-:
-low
 publish
 :
 !
@@ -1818,9 +1524,6 @@ google
 runtime
 -
 int
-reliability
-:
-low
 publish
 :
 !
@@ -1835,9 +1538,6 @@ google
 runtime
 -
 operator
-reliability
-:
-low
 publish
 :
 !
@@ -1852,9 +1552,6 @@ google
 runtime
 -
 references
-reliability
-:
-low
 publish
 :
 !

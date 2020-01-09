@@ -28,13 +28,4 @@ insecureAPI
 bcmp
 "
 ]
-{
-"
-reliability
-"
-:
-"
-high
-"
-}
 ]

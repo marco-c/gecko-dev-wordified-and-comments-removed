@@ -146,13 +146,4 @@ unix
 Malloc
 "
 ]
-{
-"
-reliability
-"
-:
-"
-high
-"
-}
 ]

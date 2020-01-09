@@ -52,13 +52,4 @@ insecureAPI
 vfork
 "
 ]
-{
-"
-reliability
-"
-:
-"
-medium
-"
-}
 ]
