@@ -129,6 +129,9 @@ sequence
 DOMString
 >
 supportedNetworks
+=
+[
+]
 ;
 }
 ;
