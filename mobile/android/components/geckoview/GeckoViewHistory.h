@@ -65,6 +65,17 @@ h
 class
 nsIWidget
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
+class
+Document
+;
+}
+}
 struct
 VisitedURI
 {
