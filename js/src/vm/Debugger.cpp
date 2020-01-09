@@ -44035,7 +44035,7 @@ hasSourceText
 if
 (
 !
-JSScript
+ScriptSource
 :
 :
 loadSource

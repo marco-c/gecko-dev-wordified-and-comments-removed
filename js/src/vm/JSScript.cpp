@@ -9378,7 +9378,7 @@ value
 ;
 }
 bool
-JSScript
+ScriptSource
 :
 :
 loadSource

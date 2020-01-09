@@ -39013,7 +39013,7 @@ haveSource
 if
 (
 !
-JSScript
+ScriptSource
 :
 :
 loadSource
@@ -40739,7 +40739,7 @@ haveSource
 if
 (
 !
-JSScript
+ScriptSource
 :
 :
 loadSource
@@ -41040,7 +41040,7 @@ haveSource
 if
 (
 !
-JSScript
+ScriptSource
 :
 :
 loadSource

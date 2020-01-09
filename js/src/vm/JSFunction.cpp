@@ -4287,7 +4287,7 @@ haveSource
 if
 (
 !
-JSScript
+ScriptSource
 :
 :
 loadSource
