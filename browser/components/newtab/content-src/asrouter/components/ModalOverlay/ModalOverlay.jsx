@@ -61,6 +61,7 @@ props
 .
 onClose
 (
+event
 )
 ;
 }
