@@ -6008,6 +6008,14 @@ HandleScript
 script
 )
 ;
+void
+markForCrossZone
+(
+JSContext
+*
+cx
+)
+;
 private
 :
 SharedScriptData
