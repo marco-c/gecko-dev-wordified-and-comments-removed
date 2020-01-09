@@ -564,7 +564,7 @@ normalRequestSize
 includes
 (
 "
-blocked
+Blocked
 "
 )
 "
@@ -596,7 +596,7 @@ blockedRequestSize
 includes
 (
 "
-blocked
+Blocked
 "
 )
 "
@@ -632,7 +632,7 @@ unblockedRequestSize
 includes
 (
 "
-blocked
+Blocked
 "
 )
 "
