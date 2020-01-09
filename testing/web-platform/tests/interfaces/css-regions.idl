@@ -171,12 +171,6 @@ node
 ;
 }
 ;
-[
-Exposed
-=
-Window
-NoInterfaceObject
-]
 interface
 Region
 {
@@ -197,6 +191,6 @@ getRegionFlowRanges
 }
 ;
 Element
-implements
+includes
 Region
 ;
