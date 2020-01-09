@@ -161,11 +161,6 @@ mozilla
 =
 [
 '
-WindowsConsole
-.
-h
-'
-'
 WinHeaderOnlyUtils
 .
 h
@@ -426,11 +421,6 @@ cpp
 '
 '
 WindowHook
-.
-cpp
-'
-'
-WindowsConsole
 .
 cpp
 '
