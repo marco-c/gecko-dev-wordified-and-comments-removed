@@ -7033,6 +7033,7 @@ JSBytecodeMimeType
 EmptyCString
 (
 )
+true
 )
 ;
 }
@@ -7066,6 +7067,7 @@ kNullMimeType
 EmptyCString
 (
 )
+true
 )
 ;
 }
