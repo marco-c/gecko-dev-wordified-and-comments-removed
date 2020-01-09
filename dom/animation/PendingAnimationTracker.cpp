@@ -435,6 +435,9 @@ bool
 IsTransition
 (
 const
+dom
+:
+:
 Animation
 &
 aAnimation
