@@ -224,8 +224,6 @@ type
 PropTypes
 .
 string
-.
-isRequired
 }
 ;
 }
