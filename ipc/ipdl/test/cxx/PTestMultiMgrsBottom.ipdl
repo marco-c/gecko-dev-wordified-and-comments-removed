@@ -27,16 +27,6 @@ __delete__
 (
 )
 ;
-/
-*
-state
-DOA
-:
-send
-__delete__
-;
-*
-/
 }
 ;
 }

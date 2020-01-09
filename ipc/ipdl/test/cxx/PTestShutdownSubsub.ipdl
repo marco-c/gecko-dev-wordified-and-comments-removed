@@ -22,16 +22,6 @@ __delete__
 (
 )
 ;
-/
-*
-state
-LIVE
-:
-recv
-__delete__
-;
-*
-/
 }
 ;
 }
