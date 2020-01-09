@@ -72,4 +72,9 @@ runtime
 .
 js
 '
+'
+ui
+.
+js
+'
 )

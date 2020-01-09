@@ -324,9 +324,9 @@ return
 {
 adbAddonStatus
 :
-PropTypes
+Types
 .
-string
+adbAddonStatus
 className
 :
 PropTypes
@@ -360,9 +360,9 @@ runtime
 isRequired
 selectedPage
 :
-PropTypes
+Types
 .
-string
+page
 selectedRuntimeId
 :
 PropTypes

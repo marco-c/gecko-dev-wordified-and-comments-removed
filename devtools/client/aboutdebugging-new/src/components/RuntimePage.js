@@ -422,9 +422,9 @@ return
 {
 collapsibilities
 :
-PropTypes
+Types
 .
-object
+collapsibilities
 .
 isRequired
 dispatch
