@@ -1833,14 +1833,32 @@ old_type
 [
 rel_path
 ]
+                            
+if
+old_type
+in
+reftest_types
+:
+                                
+reftest_changes
+=
+True
                     
 else
 :
                         
 new_type
-manifest_items
 =
 old_type
+                        
+if
+old_type
+in
+reftest_types
+:
+                            
+manifest_items
+=
 self
 .
 _data
@@ -1850,21 +1868,6 @@ old_type
 [
 rel_path
 ]
-                    
-if
-old_type
-in
-reftest_types
-and
-new_type
-!
-=
-old_type
-:
-                        
-reftest_changes
-=
-True
                 
 else
 :
@@ -1881,14 +1884,7 @@ manifest_items
 if
 new_type
 in
-(
-"
-reftest
-"
-"
-reftest_node
-"
-)
+reftest_types
 :
                     
 reftest_nodes
@@ -1915,7 +1911,10 @@ reftest_changes
 =
 True
                 
-else
+elif
+is_new
+or
+hash_changed
 :
                     
 self
