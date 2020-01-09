@@ -679,6 +679,9 @@ channel
 -
 -
 xvfb
+run
+-
+all
 .
 /
 tools
