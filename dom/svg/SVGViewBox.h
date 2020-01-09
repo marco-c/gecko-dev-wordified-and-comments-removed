@@ -251,10 +251,6 @@ SVGViewBox
 {
 public
 :
-friend
-class
-AutoChangeViewBoxNotifier
-;
 typedef
 mozilla
 :
