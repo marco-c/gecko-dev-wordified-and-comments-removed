@@ -85,9 +85,6 @@ ServiceWorkerDescriptor
 h
 "
 class
-nsICookieSettings
-;
-class
 nsINode
 ;
 class
@@ -323,9 +320,6 @@ aTopLevelStorageAreaPrincipal
 nsIURI
 *
 aResultPrincipalURI
-nsICookieSettings
-*
-aCookieSettings
 const
 Maybe
 <
@@ -610,12 +604,6 @@ nsCOMPtr
 nsICSPEventListener
 >
 mCSPEventListener
-;
-nsCOMPtr
-<
-nsICookieSettings
->
-mCookieSettings
 ;
 Maybe
 <
