@@ -88,9 +88,6 @@ messages
 "
 AudioPlayback
 "
-"
-TemporaryPermissionChanged
-"
 ]
 observers
 :
