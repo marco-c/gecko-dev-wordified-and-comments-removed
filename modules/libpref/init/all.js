@@ -19557,16 +19557,6 @@ pref
 "
 security
 .
-block_importScripts_with_wrong_mime
-"
-true
-)
-;
-pref
-(
-"
-security
-.
 ssl
 .
 enable_ocsp_must_staple
