@@ -558,11 +558,6 @@ this
 state
 .
 selectedIndex
-nowEnabled
-|
-|
-!
-queryChanged
 )
 ;
 }
