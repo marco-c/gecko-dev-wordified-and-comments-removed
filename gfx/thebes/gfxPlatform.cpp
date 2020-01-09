@@ -13486,9 +13486,6 @@ envvar
 "
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 }
 else
 if
@@ -13508,8 +13505,6 @@ pref
 "
 )
 ;
-#
-endif
 }
 else
 if
