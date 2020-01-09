@@ -102,12 +102,7 @@ createSelector
 }
 from
 "
-.
-.
-/
-utils
-/
-createSelector
+reselect
 "
 ;
 function

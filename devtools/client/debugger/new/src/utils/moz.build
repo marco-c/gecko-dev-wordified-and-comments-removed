@@ -120,11 +120,6 @@ connect
 js
 '
 '
-createSelector
-.
-js
-'
-'
 dbg
 .
 js
