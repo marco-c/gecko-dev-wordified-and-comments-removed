@@ -2277,6 +2277,9 @@ zero
 vector
 =
 True
+allow_empty
+=
+True
 products
 =
 "
@@ -2331,11 +2334,6 @@ animation_value_type
 =
 "
 discrete
-"
-allow_empty
-=
-"
-NotInitial
 "
 )
 }
