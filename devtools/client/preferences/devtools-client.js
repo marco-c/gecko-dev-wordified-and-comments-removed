@@ -1524,7 +1524,7 @@ features
 .
 resizeColumns
 "
-false
+true
 )
 ;
 pref
