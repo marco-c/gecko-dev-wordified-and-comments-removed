@@ -982,6 +982,17 @@ true
 VARCACHE_PREF
 (
 "
+extensions
+.
+allowPrivateBrowsingByDefault
+"
+extensions_allowPrivateBrowsingByDefault
+bool
+true
+)
+VARCACHE_PREF
+(
+"
 full
 -
 screen
