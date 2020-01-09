@@ -113,6 +113,9 @@ nexttrack
 "
 skipad
 "
+"
+stop
+"
 }
 ;
 callback
