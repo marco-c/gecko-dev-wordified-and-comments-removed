@@ -4494,7 +4494,13 @@ cdm
 :
 :
 kSuccess
+std
+:
+:
+move
+(
 shmem
+)
 )
 )
 {
@@ -5516,7 +5522,13 @@ Unused
 SendDecodedShmem
 (
 output
+std
+:
+:
+move
+(
 shmem
+)
 )
 ;
 }

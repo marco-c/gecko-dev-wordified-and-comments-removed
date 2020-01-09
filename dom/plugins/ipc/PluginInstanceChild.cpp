@@ -12358,7 +12358,13 @@ mShmem
 ;
 SendShowDirectBitmap
 (
+std
+:
+:
+move
+(
 shmemHolder
+)
 bitmap
 -
 >
@@ -16958,6 +16964,11 @@ mCurrentSurface
 {
 currSurf
 =
+std
+:
+:
+move
+(
 static_cast
 <
 gfxSharedImageSurface
@@ -16974,6 +16985,7 @@ get
 >
 GetShmem
 (
+)
 )
 ;
 }

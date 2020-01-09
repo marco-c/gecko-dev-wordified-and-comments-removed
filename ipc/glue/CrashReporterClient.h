@@ -120,7 +120,13 @@ aToplevelProtocol
 >
 SendInitCrashReporter
 (
+std
+:
+:
+move
+(
 shmem
+)
 CrashReporter
 :
 :

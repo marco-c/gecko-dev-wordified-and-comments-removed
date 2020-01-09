@@ -5733,7 +5733,13 @@ false
 }
 bufferDesc
 =
+std
+:
+:
+move
+(
 shmem
+)
 ;
 }
 const

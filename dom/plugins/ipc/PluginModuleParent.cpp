@@ -2570,7 +2570,13 @@ if
 !
 CallInitCrashReporter
 (
+std
+:
+:
+move
+(
 shmem
+)
 &
 threadId
 )

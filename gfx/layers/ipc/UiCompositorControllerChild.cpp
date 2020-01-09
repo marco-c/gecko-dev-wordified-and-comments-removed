@@ -719,7 +719,13 @@ false
 return
 SendToolbarPixelsToCompositor
 (
+std
+:
+:
+move
+(
 aMem
+)
 aSize
 )
 ;

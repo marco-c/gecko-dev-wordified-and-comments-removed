@@ -418,7 +418,13 @@ SendInvokeDragSession
 (
 dataTransfers
 aActionType
+std
+:
+:
+move
+(
 surfaceData
+)
 stride
 dataSurface
 -

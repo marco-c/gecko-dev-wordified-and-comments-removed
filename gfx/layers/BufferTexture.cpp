@@ -2749,7 +2749,13 @@ SurfaceDescriptorBuffer
 mDescriptor
 MemoryOrShmem
 (
+std
+:
+:
+move
+(
 mShmem
+)
 )
 )
 ;

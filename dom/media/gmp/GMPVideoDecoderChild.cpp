@@ -955,6 +955,7 @@ Dealloc
 (
 Shmem
 &
+&
 aMem
 )
 {
@@ -963,7 +964,13 @@ ifndef
 SHMEM_ALLOC_IN_CHILD
 SendParentShmemForPool
 (
+std
+:
+:
+move
+(
 aMem
+)
 )
 ;
 #
