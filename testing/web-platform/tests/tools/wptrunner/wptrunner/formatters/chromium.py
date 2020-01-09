@@ -534,7 +534,7 @@ interrupted
 False
             
 "
-path_delimeter
+path_delimiter
 "
 :
 "
