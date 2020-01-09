@@ -5669,7 +5669,7 @@ IsScriptEnabled
 )
 ;
 bool
-HasPrototypeDocument
+LoadedFromPrototype
 (
 )
 const

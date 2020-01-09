@@ -48032,7 +48032,7 @@ doc
 doc
 -
 >
-HasPrototypeDocument
+LoadedFromPrototype
 (
 )
 )
