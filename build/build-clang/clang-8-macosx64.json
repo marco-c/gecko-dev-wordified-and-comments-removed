@@ -414,6 +414,11 @@ symbolizer
 patch
 "
 "
+rename_gcov_flush
+.
+patch
+"
+"
 compiler
 -
 rt

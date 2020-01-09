@@ -733,7 +733,7 @@ find_symbolizer_linux
 patch
 "
 "
-rename_gcov_flush_
+rename_gcov_flush
 .
 patch
 "
