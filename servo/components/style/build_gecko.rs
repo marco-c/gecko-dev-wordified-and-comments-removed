@@ -2758,9 +2758,6 @@ setup_logging
 >
 bool
 {
-use
-log
-;
 struct
 BuildLogger
 {
