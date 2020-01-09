@@ -1668,7 +1668,7 @@ system
 !
 CssLogic
 .
-isContentStylesheet
+isAuthorStylesheet
 (
 this
 .

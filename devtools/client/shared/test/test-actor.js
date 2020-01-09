@@ -62,7 +62,7 @@ defer
 ;
 const
 {
-isContentStylesheet
+isAuthorStylesheet
 getCSSStyleRules
 }
 =
@@ -2940,7 +2940,7 @@ sheet
 href
 isContentSheet
 :
-isContentStylesheet
+isAuthorStylesheet
 (
 sheet
 )
