@@ -1322,9 +1322,7 @@ JSTRY_FOR_OF
 )
 )
 ;
-+
-+
-tn_
+continue
 ;
 }
 if
