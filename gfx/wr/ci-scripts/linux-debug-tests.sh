@@ -205,6 +205,16 @@ CARGOFLAGS
 -
 features
 env_logger
+OPTIMIZED
+=
+0
+python
+script
+/
+headless
+.
+py
+reftest
 popd
 pushd
 examples
