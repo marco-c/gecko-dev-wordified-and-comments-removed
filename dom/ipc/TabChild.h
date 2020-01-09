@@ -1329,7 +1329,7 @@ RecvDeactivate
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 mozilla
 :
@@ -2842,7 +2842,7 @@ aTargets
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -2881,7 +2881,7 @@ aInputBlockId
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
