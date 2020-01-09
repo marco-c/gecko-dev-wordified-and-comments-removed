@@ -916,6 +916,26 @@ resolved
 "
 )
     
+assert
+iface
+.
+attributes
+.
+scriptable
+"
+Don
+'
+t
+generate
+XPT
+info
+for
+non
+-
+scriptable
+interfaces
+"
+    
 consts
 =
 [
@@ -1459,17 +1479,6 @@ flags
 :
 flags
 (
-            
-(
-'
-scriptable
-'
-iface
-.
-attributes
-.
-scriptable
-)
             
 (
 '
