@@ -110,8 +110,14 @@ index
 )
 {
 return
-"
-"
+this
+.
+results
+[
+index
+]
+.
+comment
 ;
 }
 getCommentAt

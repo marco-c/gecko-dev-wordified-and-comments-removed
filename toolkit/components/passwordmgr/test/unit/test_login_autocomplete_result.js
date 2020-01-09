@@ -392,7 +392,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -409,7 +409,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -426,7 +426,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -443,7 +443,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -460,7 +460,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -523,7 +523,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -540,7 +540,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -557,7 +557,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -574,7 +574,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -591,7 +591,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -625,7 +625,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -642,7 +642,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -659,7 +659,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -676,7 +676,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -693,7 +693,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -757,7 +757,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -774,7 +774,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -791,7 +791,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -808,7 +808,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -825,7 +825,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -858,7 +858,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -875,7 +875,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -892,7 +892,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -909,7 +909,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -926,7 +926,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -959,7 +959,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -976,7 +976,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -993,7 +993,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1010,7 +1010,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1027,7 +1027,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1061,7 +1061,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1078,7 +1078,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1095,7 +1095,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1112,7 +1112,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1129,7 +1129,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1163,7 +1163,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1180,7 +1180,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1197,7 +1197,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1214,7 +1214,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1231,7 +1231,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1264,7 +1264,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1281,7 +1281,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1298,7 +1298,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1315,7 +1315,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1332,7 +1332,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1395,7 +1395,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1412,7 +1412,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1429,7 +1429,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1446,7 +1446,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1463,7 +1463,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1497,7 +1497,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1514,7 +1514,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1531,7 +1531,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1548,7 +1548,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1565,7 +1565,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1629,7 +1629,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1646,7 +1646,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1663,7 +1663,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1680,7 +1680,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1697,7 +1697,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1730,7 +1730,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1747,7 +1747,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1764,7 +1764,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1781,7 +1781,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1798,7 +1798,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1851,7 +1851,7 @@ LABEL_NO_USERNAME
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1868,7 +1868,7 @@ tempuser1
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1885,7 +1885,7 @@ testuser2
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1902,7 +1902,7 @@ testuser3
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 {
@@ -1919,7 +1919,7 @@ zzzuser4
 style
 :
 "
-login
+loginWithOrigin
 "
 }
 ]
@@ -1960,6 +1960,20 @@ createLogger
 "
 LoginAutoCompleteResult
 "
+)
+;
+Services
+.
+prefs
+.
+setBoolPref
+(
+"
+signon
+.
+showAutoCompleteOrigins
+"
+true
 )
 ;
 expectedResults
