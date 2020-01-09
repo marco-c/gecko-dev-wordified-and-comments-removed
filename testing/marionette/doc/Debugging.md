@@ -99,6 +99,7 @@ logcat
 .
 mach
 marionette
+-
 test
 takes
 a
@@ -162,6 +163,7 @@ file
 /
 mach
 marionette
+-
 test
 -
 -
@@ -354,6 +356,7 @@ tests
 /
 mach
 marionette
+-
 test
 -
 -
@@ -486,6 +489,7 @@ way
 /
 mach
 marionette
+-
 test
 -
 -
