@@ -376,9 +376,7 @@ aSample
 >
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 )
 {
 if

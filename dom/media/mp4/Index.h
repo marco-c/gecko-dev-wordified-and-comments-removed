@@ -129,12 +129,6 @@ Get
 (
 )
 ;
-SampleDescriptionEntry
-*
-GetSampleDescriptionEntry
-(
-)
-;
 CencSampleEncryptionInfoEntry
 *
 GetSampleEncryptionEntry

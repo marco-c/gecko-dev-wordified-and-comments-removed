@@ -1786,9 +1786,7 @@ mAudio
 .
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 )
 |
 |
@@ -1802,9 +1800,7 @@ mVideo
 .
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 )
 ;
 }

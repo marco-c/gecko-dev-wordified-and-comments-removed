@@ -2035,9 +2035,7 @@ GetCurrentInfo
 >
 mCrypto
 .
-IsEncrypted
-(
-)
+mValid
 ;
 }
 Atomic
