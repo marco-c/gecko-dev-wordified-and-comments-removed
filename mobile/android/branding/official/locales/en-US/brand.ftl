@@ -138,3 +138,11 @@ name
 =
 Mozilla
 Firefox
+-
+vendor
+-
+short
+-
+name
+=
+Mozilla

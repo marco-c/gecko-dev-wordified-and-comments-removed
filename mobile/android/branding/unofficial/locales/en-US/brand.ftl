@@ -138,3 +138,11 @@ name
 =
 Mozilla
 Fennec
+-
+vendor
+-
+short
+-
+name
+=
+Mozilla

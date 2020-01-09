@@ -196,7 +196,7 @@ global
 /
 locale
 /
-aboutRights
+aboutTelemetry
 .
 dtd
 '
@@ -212,9 +212,9 @@ localize_entity
 (
 dtds
 '
-rights
+aboutTelemetry
 .
-title
+homeSection
 '
 )
         
@@ -240,7 +240,7 @@ navigate
 '
 about
 :
-rights
+telemetry
 '
 )
         
@@ -254,9 +254,9 @@ find_element
 (
 By
 .
-TAG_NAME
+ID
 '
-h1
+sectionTitle
 '
 )
         

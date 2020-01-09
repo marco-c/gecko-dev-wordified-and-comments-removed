@@ -140,3 +140,11 @@ name
 Mozilla
 Firefox
 Beta
+-
+vendor
+-
+short
+-
+name
+=
+Mozilla

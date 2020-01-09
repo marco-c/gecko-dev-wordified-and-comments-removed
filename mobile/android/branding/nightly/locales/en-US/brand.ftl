@@ -138,3 +138,11 @@ name
 =
 Mozilla
 Nightly
+-
+vendor
+-
+short
+-
+name
+=
+Mozilla
