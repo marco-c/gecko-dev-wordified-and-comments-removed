@@ -1821,17 +1821,7 @@ aInfo
 type
 =
 =
-MacSandboxType_Plugin
-&
-&
-aInfo
-.
-pluginInfo
-.
-type
-=
-=
-MacSandboxPluginType_Flash
+MacSandboxType_Flash
 )
 {
 profile
@@ -1979,8 +1969,6 @@ GetRealPath
 (
 flashPath
 aInfo
-.
-pluginInfo
 .
 pluginBinaryPath
 .
@@ -2240,7 +2228,7 @@ aInfo
 type
 =
 =
-MacSandboxType_Plugin
+MacSandboxType_GMP
 )
 {
 profile
@@ -2294,8 +2282,6 @@ params
 push_back
 (
 aInfo
-.
-pluginInfo
 .
 pluginBinaryPath
 .
