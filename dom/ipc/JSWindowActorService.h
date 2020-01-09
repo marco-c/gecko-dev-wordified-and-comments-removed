@@ -66,6 +66,15 @@ aRv
 )
 ;
 void
+UnregisterWindowActor
+(
+const
+nsAString
+&
+aName
+)
+;
+void
 LoadJSWindowActorInfos
 (
 nsTArray

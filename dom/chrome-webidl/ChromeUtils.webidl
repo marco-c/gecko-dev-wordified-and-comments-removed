@@ -2502,6 +2502,16 @@ aOptions
 [
 ChromeOnly
 ]
+void
+unregisterWindowActor
+(
+DOMString
+aName
+)
+;
+[
+ChromeOnly
+]
 /
 /
 aError
