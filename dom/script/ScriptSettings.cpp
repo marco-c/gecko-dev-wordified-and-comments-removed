@@ -643,7 +643,7 @@ mGlobalObject
 mGlobalObject
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 "
@@ -700,7 +700,7 @@ mGlobalObject
 mGlobalObject
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )
@@ -1833,7 +1833,7 @@ MOZ_ASSERT
 aGlobalObject
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 "

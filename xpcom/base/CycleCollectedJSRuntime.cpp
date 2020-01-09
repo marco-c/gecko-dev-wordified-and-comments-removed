@@ -7362,7 +7362,7 @@ nativeGlobal
 nativeGlobal
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )

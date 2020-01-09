@@ -1279,7 +1279,7 @@ AsGlobal
 )
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )
@@ -1909,7 +1909,7 @@ AsGlobal
 )
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )

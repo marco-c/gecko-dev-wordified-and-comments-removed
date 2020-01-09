@@ -32523,7 +32523,7 @@ GetScopeObject
 )
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )
@@ -35832,7 +35832,7 @@ globalObject
 globalObject
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 )
@@ -47683,9 +47683,8 @@ this
 ;
 }
 static
-JSObject
-*
-GetScopeObjectOfNode
+bool
+NodeHasScopeObject
 (
 nsINode
 *
@@ -47746,11 +47745,11 @@ global
 global
 -
 >
-GetGlobalJSObject
+HasJSGlobal
 (
 )
 :
-nullptr
+false
 ;
 }
 already_AddRefed
@@ -47881,7 +47880,7 @@ if
 node
 &
 &
-GetScopeObjectOfNode
+NodeHasScopeObject
 (
 node
 )
