@@ -198,7 +198,9 @@ changes
 let
 findBarClosePromise
 =
-promiseWaitForEvent
+BrowserTestUtils
+.
+waitForEvent
 (
 gBrowser
 "
