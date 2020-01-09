@@ -596,6 +596,8 @@ butCancel
 oncommand
 =
 "
+window
+.
 close
 (
 event
