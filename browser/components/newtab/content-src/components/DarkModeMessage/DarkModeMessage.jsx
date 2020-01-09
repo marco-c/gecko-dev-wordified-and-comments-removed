@@ -189,7 +189,8 @@ of
 New
 Tab
 doesn
-not
+'
+t
 support
 dark
 mode
