@@ -902,14 +902,6 @@ JSProtoKey
 key
 )
 {
-JS_STATIC_ASSERT
-(
-GenericObject
-=
-=
-0
-)
-;
 if
 (
 script
@@ -930,7 +922,7 @@ treatAsRunOnce
 )
 {
 return
-GenericObject
+false
 ;
 }
 if
@@ -942,7 +934,7 @@ JSProto_Object
 )
 {
 return
-GenericObject
+false
 ;
 }
 if
@@ -957,7 +949,7 @@ hasTrynotes
 )
 {
 return
-SingletonObject
+true
 ;
 }
 uint32_t
@@ -1037,12 +1029,12 @@ length
 )
 {
 return
-GenericObject
+false
 ;
 }
 }
 return
-SingletonObject
+true
 ;
 }
 bool
