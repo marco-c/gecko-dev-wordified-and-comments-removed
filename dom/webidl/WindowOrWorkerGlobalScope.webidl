@@ -381,17 +381,6 @@ handle
 ;
 /
 /
-microtask
-queuing
-void
-queueMicrotask
-(
-VoidFunction
-callback
-)
-;
-/
-/
 ImageBitmap
 [
 Throws
