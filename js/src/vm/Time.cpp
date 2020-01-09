@@ -877,6 +877,13 @@ true
 #
 endif
 #
+if
+!
+ENABLE_INTL_API
+|
+|
+MOZ_SYSTEM_ICU
+#
 ifdef
 XP_WIN
 static
@@ -1509,3 +1516,5 @@ return
 result
 ;
 }
+#
+endif
