@@ -36749,6 +36749,10 @@ mOnStopRequestCalled
 true
 ;
 }
+mDNSPrefetch
+=
+nullptr
+;
 gHttpHandler
 -
 >
