@@ -2328,6 +2328,16 @@ pass
 svg
 =
 =
+test_bug1247218
+.
+html
+test_bug1247218
+-
+ref
+.
+html
+=
+=
 dynamic
 -
 switch
