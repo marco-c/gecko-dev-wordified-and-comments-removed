@@ -655,9 +655,6 @@ _value_for_depends
 (
 self
 obj
-need_help_dependency
-=
-False
 )
 :
         
@@ -740,22 +737,11 @@ name
 )
         
 elif
-(
-(
-self
-.
-_help
-or
-need_help_dependency
-)
-and
-              
 self
 .
 _missing_help_dependency
 (
 obj
-)
 )
 :
             
@@ -791,9 +777,7 @@ self
 .
 _value_for_depends
 (
-            
 obj
-need_help_dependency
 )
     
 def
@@ -845,9 +829,6 @@ self
 _value_for
 (
 when
-need_help_dependency
-=
-True
 )
         
 self

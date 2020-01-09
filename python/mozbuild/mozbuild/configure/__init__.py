@@ -726,9 +726,6 @@ def
 result
 (
 self
-need_help_dependency
-=
-False
 )
 :
         
@@ -747,8 +744,6 @@ _value_for
 self
 .
 when
-                                                     
-need_help_dependency
 )
 :
             
@@ -765,7 +760,6 @@ sandbox
 _value_for
 (
 d
-need_help_dependency
 )
                          
 for
@@ -1206,9 +1200,6 @@ def
 result
 (
 self
-need_help_dependency
-=
-False
 )
 :
         
@@ -1222,7 +1213,6 @@ sandbox
 _value_for
 (
 d
-need_help_dependency
 )
                          
 for
@@ -2639,10 +2629,6 @@ _resolve
 implied_option
 .
 value
-                                  
-need_help_dependency
-=
-False
 )
             
 if
@@ -3011,9 +2997,6 @@ _resolve
 (
 self
 arg
-need_help_dependency
-=
-True
 )
 :
         
@@ -3036,8 +3019,6 @@ _depends
 [
 arg
 ]
-                                           
-need_help_dependency
 )
         
 return
@@ -3048,9 +3029,6 @@ _value_for
 (
 self
 obj
-need_help_dependency
-=
-False
 )
 :
         
@@ -3080,8 +3058,6 @@ _depends
 [
 obj
 ]
-                                           
-need_help_dependency
 )
         
 elif
@@ -3098,7 +3074,6 @@ self
 _value_for_depends
 (
 obj
-need_help_dependency
 )
         
 elif
@@ -3127,9 +3102,6 @@ _value_for_depends
 (
 self
 obj
-need_help_dependency
-=
-False
 )
 :
         
@@ -3138,7 +3110,6 @@ obj
 .
 result
 (
-need_help_dependency
 )
     
 memoize
@@ -3224,10 +3195,6 @@ _resolve
 implied_option
 .
 value
-                                  
-need_help_dependency
-=
-False
 )
             
 if
@@ -3512,9 +3479,6 @@ self
 _value_for
 (
 when
-need_help_dependency
-=
-True
 )
 and
             
@@ -4246,15 +4210,11 @@ when
 is
 None
 or
-                           
 self
 .
 _value_for
 (
 when
-need_help_dependency
-=
-True
 )
 )
 :
@@ -5756,9 +5716,6 @@ self
 _resolve
 (
 name
-need_help_dependency
-=
-False
 )
         
 if
@@ -5839,9 +5796,6 @@ self
 _resolve
 (
 value
-need_help_dependency
-=
-False
 )
         
 if
