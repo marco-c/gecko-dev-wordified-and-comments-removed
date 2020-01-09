@@ -9687,9 +9687,6 @@ nsIUpdateProcessor
 .
 processUpdate
 (
-gUpdateManager
-.
-activeUpdate
 )
 ;
 }

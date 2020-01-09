@@ -164,10 +164,6 @@ mArgv
 (
 nullptr
 )
-mIsOSUpdate
-(
-false
-)
 {
 }
 ~
@@ -224,12 +220,6 @@ nsIFile
 >
 mUpdateRoot
 ;
-nsCOMPtr
-<
-nsIFile
->
-mOSApplyToDir
-;
 int
 mArgc
 ;
@@ -240,9 +230,6 @@ mArgv
 ;
 nsCString
 mAppVersion
-;
-bool
-mIsOSUpdate
 ;
 }
 ;

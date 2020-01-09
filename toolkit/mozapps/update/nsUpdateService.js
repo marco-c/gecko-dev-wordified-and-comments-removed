@@ -19423,9 +19423,6 @@ nsIUpdateProcessor
 .
 processUpdate
 (
-this
-.
-_update
 )
 ;
 }
