@@ -2180,13 +2180,13 @@ rt_c_flags
 .
 join
 (
-android_flags
-+
 cc
 [
 1
 :
 ]
++
+android_flags
 )
             
 rt_cxx_flags
@@ -2196,13 +2196,13 @@ rt_cxx_flags
 .
 join
 (
-android_flags
-+
 cxx
 [
 1
 :
 ]
++
+android_flags
 )
             
 rt_asm_flags
@@ -2212,13 +2212,13 @@ rt_asm_flags
 .
 join
 (
-android_flags
-+
 asm
 [
 1
 :
 ]
++
+android_flags
 )
             
 cmake_args
