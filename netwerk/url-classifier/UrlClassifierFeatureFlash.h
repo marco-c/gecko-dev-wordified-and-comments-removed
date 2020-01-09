@@ -26,6 +26,9 @@ UrlClassifierFeatureBase
 {
 public
 :
+struct
+FlashFeature
+;
 static
 void
 GetFeatureNames
@@ -114,8 +117,10 @@ private
 explicit
 UrlClassifierFeatureFlash
 (
-uint32_t
-aId
+const
+FlashFeature
+&
+aFlashFeature
 )
 ;
 static
