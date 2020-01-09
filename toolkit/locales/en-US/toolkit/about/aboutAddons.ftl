@@ -1311,7 +1311,6 @@ to
 manage
 extension
 settings
-.
 <
 /
 label
