@@ -558,6 +558,8 @@ ForceEditableRegion
 aForceEditableRegion
 EWordMovementType
 aWordMovementType
+bool
+aTrimSpaces
 )
 :
 mAmount
@@ -583,6 +585,10 @@ aWordMovementType
 mJumpLines
 (
 aJumpLines
+)
+mTrimSpaces
+(
+aTrimSpaces
 )
 mScrollViewStop
 (

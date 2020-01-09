@@ -2516,6 +2516,7 @@ ForceEditableRegion
 :
 No
 aWordMovementType
+false
 )
 ;
 nsresult

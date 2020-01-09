@@ -899,6 +899,8 @@ aOffset
 PeekWordState
 *
 aState
+bool
+aTrimSpaces
 )
 override
 ;

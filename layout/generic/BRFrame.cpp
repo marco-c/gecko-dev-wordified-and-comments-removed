@@ -166,6 +166,8 @@ aOffset
 PeekWordState
 *
 aState
+bool
+aTrimSpaces
 )
 override
 ;
@@ -1057,6 +1059,8 @@ aOffset
 PeekWordState
 *
 aState
+bool
+aTrimSpaces
 )
 {
 NS_ASSERTION

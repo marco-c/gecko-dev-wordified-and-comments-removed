@@ -307,6 +307,10 @@ mozilla
 :
 :
 eDefaultBehavior
+bool
+aTrimSpaces
+=
+true
 )
 ;
 nsSelectionAmount
@@ -329,6 +333,9 @@ mWordMovementType
 ;
 bool
 mJumpLines
+;
+bool
+mTrimSpaces
 ;
 bool
 mScrollViewStop

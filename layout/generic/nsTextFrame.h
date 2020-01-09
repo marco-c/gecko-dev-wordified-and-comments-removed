@@ -943,6 +943,8 @@ aOffset
 PeekWordState
 *
 aState
+bool
+aTrimSpaces
 )
 final
 ;
@@ -2223,6 +2225,12 @@ kNoTrimAfter
 <
 <
 1
+kNoTrimBefore
+=
+1
+<
+<
+2
 }
 ;
 TrimmedOffsets

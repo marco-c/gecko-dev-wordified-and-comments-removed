@@ -10582,6 +10582,8 @@ aOffset
 PeekWordState
 *
 aState
+bool
+aTrimSpaces
 )
 =
 0
