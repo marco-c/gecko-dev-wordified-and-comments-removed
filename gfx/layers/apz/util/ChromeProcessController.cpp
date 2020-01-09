@@ -533,7 +533,7 @@ mAPZEventState
 nullptr
 ;
 }
-nsIPresShell
+PresShell
 *
 ChromeProcessController
 :
@@ -596,7 +596,7 @@ const
 {
 if
 (
-nsIPresShell
+PresShell
 *
 presShell
 =
@@ -967,9 +967,9 @@ mAPZEventState
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =

@@ -3500,9 +3500,9 @@ int32_t
 aButtons
 )
 {
-nsCOMPtr
+RefPtr
 <
-nsIPresShell
+PresShell
 >
 presShell
 =

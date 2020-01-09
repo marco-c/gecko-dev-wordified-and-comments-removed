@@ -110,6 +110,9 @@ nsCOMPtr
 namespace
 mozilla
 {
+class
+PresShell
+;
 namespace
 layers
 {
@@ -385,12 +388,8 @@ static
 bool
 DispatchMouseEvent
 (
-const
-nsCOMPtr
-<
-nsIPresShell
->
-&
+PresShell
+*
 aPresShell
 const
 nsString
