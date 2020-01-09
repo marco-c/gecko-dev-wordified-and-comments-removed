@@ -249,6 +249,8 @@ js
 ]
         
 '
+mochitest
+-
 plain
 '
 :

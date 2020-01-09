@@ -428,6 +428,8 @@ suite_definitions
         
 "
 mochitest
+-
+plain
 "
 :
 {

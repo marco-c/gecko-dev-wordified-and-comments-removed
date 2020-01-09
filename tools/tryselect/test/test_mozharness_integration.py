@@ -82,36 +82,6 @@ jittest
 '
 jsreftest
 '
-            
-'
-mochitest
-'
-            
-'
-mochitest
--
-chrome
-'
-            
-'
-mochitest
--
-plain
--
-clipboard
-'
-            
-'
-mochitest
--
-plain
--
-gpu
-'
-            
-'
-robocop
-'
         
 ]
     
@@ -170,14 +140,6 @@ xfail
 [
             
 '
-browser
--
-chrome
--
-instrumentation
-'
-            
-'
 cppunittest
 '
             
@@ -210,9 +172,29 @@ jsreftest
 '
 mochitest
 -
+browser
+-
+chrome
+-
+instrumentation
+'
+            
+'
+mochitest
+-
 devtools
 -
+chrome
+-
 webreplay
+'
+            
+'
+mochitest
+-
+valgrind
+-
+plain
 '
             
 '
@@ -233,12 +215,6 @@ accel
 reftest
 -
 qr
-'
-            
-'
-valgrind
--
-plain
 '
         
 ]

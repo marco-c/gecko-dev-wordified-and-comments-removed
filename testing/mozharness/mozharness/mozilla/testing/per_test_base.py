@@ -232,6 +232,8 @@ ini
 '
 )
 '
+mochitest
+-
 plain
 '
 )
@@ -259,6 +261,8 @@ ini
 '
 )
 '
+mochitest
+-
 chrome
 '
 )
@@ -289,6 +293,8 @@ ini
 '
 )
 '
+mochitest
+-
 browser
 -
 chrome
@@ -318,6 +324,8 @@ ini
 '
 )
 '
+mochitest
+-
 a11y
 '
 )
@@ -1225,6 +1233,8 @@ subsuite_mapping
                 
 (
 '
+mochitest
+-
 browser
 -
 chrome
@@ -1235,6 +1245,8 @@ clipboard
 )
 :
 '
+mochitest
+-
 browser
 -
 chrome
@@ -1244,6 +1256,8 @@ clipboard
                 
 (
 '
+mochitest
+-
 chrome
 '
 '
@@ -1252,6 +1266,8 @@ clipboard
 )
 :
 '
+mochitest
+-
 chrome
 -
 clipboard
@@ -1259,6 +1275,8 @@ clipboard
                 
 (
 '
+mochitest
+-
 plain
 '
 '
@@ -1267,6 +1285,8 @@ clipboard
 )
 :
 '
+mochitest
+-
 plain
 -
 clipboard
@@ -1274,6 +1294,8 @@ clipboard
                 
 (
 '
+mochitest
+-
 browser
 -
 chrome
@@ -1293,6 +1315,8 @@ chrome
                 
 (
 '
+mochitest
+-
 browser
 -
 chrome
@@ -1303,6 +1327,8 @@ screenshots
 )
 :
 '
+mochitest
+-
 browser
 -
 chrome
@@ -1312,6 +1338,8 @@ screenshots
                 
 (
 '
+mochitest
+-
 plain
 '
 '
@@ -1327,6 +1355,8 @@ media
                 
 (
 '
+mochitest
+-
 chrome
 '
 '
@@ -1335,6 +1365,8 @@ gpu
 )
 :
 '
+mochitest
+-
 chrome
 -
 gpu
@@ -1342,6 +1374,8 @@ gpu
                 
 (
 '
+mochitest
+-
 plain
 '
 '
@@ -1350,6 +1384,8 @@ gpu
 )
 :
 '
+mochitest
+-
 plain
 -
 gpu
@@ -1357,6 +1393,8 @@ gpu
                 
 (
 '
+mochitest
+-
 plain
 '
 '
@@ -1376,6 +1414,8 @@ core
                 
 (
 '
+mochitest
+-
 plain
 '
 '
@@ -1395,6 +1435,8 @@ ext
                 
 (
 '
+mochitest
+-
 plain
 '
 '
@@ -1414,6 +1456,8 @@ core
                 
 (
 '
+mochitest
+-
 plain
 '
 '
@@ -1433,6 +1477,8 @@ ext
                 
 (
 '
+mochitest
+-
 plain
 '
 '
