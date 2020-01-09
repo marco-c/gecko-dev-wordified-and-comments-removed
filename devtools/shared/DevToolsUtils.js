@@ -865,14 +865,9 @@ obj
 if
 (
 !
-Services
-.
-scriptSecurityManager
+principal
 .
 isSystemPrincipal
-(
-principal
-)
 )
 {
 return

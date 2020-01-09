@@ -527,12 +527,11 @@ NS_WARN_IF
 actor
 &
 &
-ssm
+principal
 -
 >
 IsSystemPrincipal
 (
-principal
 )
 )
 )
@@ -555,12 +554,11 @@ DEBUG
 if
 (
 !
-ssm
+principal
 -
 >
 IsSystemPrincipal
 (
-principal
 )
 )
 {

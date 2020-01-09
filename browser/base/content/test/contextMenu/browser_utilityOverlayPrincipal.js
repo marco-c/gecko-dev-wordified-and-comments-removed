@@ -191,14 +191,9 @@ triggeringPrincipal
 ;
 ok
 (
-Services
-.
-scriptSecurityManager
+triggeringPrincipal
 .
 isSystemPrincipal
-(
-triggeringPrincipal
-)
 "
 sanity
 :
