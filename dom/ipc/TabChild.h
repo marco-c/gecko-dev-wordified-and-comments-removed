@@ -994,9 +994,6 @@ const
 TabContext
 &
 aContext
-BrowsingContext
-*
-aBrowsingContext
 uint32_t
 aChromeFlags
 )
@@ -1031,9 +1028,6 @@ const
 TabContext
 &
 aContext
-BrowsingContext
-*
-aBrowsingContext
 uint32_t
 aChromeFlags
 )
@@ -3250,9 +3244,6 @@ const
 nsString
 &
 aRemoteType
-BrowsingContext
-*
-aBrowsingContext
 )
 override
 ;
@@ -3849,12 +3840,6 @@ RefPtr
 ContentChild
 >
 mManager
-;
-RefPtr
-<
-BrowsingContext
->
-mBrowsingContext
 ;
 uint32_t
 mChromeFlags

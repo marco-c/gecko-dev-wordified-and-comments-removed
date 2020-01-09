@@ -1477,8 +1477,6 @@ nsString
 aPresentationURL
 nsString
 aRemoteType
-BrowsingContext
-aBrowsingContext
 )
 ;
 /
@@ -3985,6 +3983,13 @@ aValue
 sync
 ResetPrefersReducedMotionOverrideForTest
 (
+)
+;
+async
+RootBrowsingContext
+(
+BrowsingContext
+aContext
 )
 ;
 child
