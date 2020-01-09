@@ -6,6 +6,8 @@ from
 wptrunner
 .
 formatters
+.
+wptreport
 import
 WptreportFormatter
 class
