@@ -257,7 +257,7 @@ case
 TableKind
 :
 :
-TypedFunction
+AsmJS
 :
 {
 UniqueFuncRefArray
@@ -512,7 +512,7 @@ case
 TableKind
 :
 :
-TypedFunction
+AsmJS
 :
 {
 #
@@ -857,7 +857,7 @@ case
 TableKind
 :
 :
-TypedFunction
+AsmJS
 :
 elem
 .
@@ -1021,7 +1021,7 @@ case
 TableKind
 :
 :
-TypedFunction
+AsmJS
 :
 {
 MOZ_CRASH
@@ -1210,7 +1210,7 @@ case
 TableKind
 :
 :
-TypedFunction
+AsmJS
 :
 {
 MOZ_CRASH
@@ -1440,7 +1440,7 @@ case
 TableKind
 :
 :
-TypedFunction
+AsmJS
 :
 {
 MOZ_CRASH

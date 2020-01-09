@@ -10571,7 +10571,7 @@ emplaceBack
 TableKind
 :
 :
-TypedFunction
+AsmJS
 Limits
 (
 mask
