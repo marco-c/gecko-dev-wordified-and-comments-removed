@@ -290,6 +290,11 @@ override
 #
 ifdef
 MOZ_WIDGET_ANDROID
+FT_Face
+InitFace
+(
+)
+;
 already_AddRefed
 <
 ScaledFont
