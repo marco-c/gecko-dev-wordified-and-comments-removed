@@ -4,6 +4,8 @@ import
 absolute_import
 print_function
 import
+io
+import
 os
 import
 posixpath
@@ -25,6 +27,14 @@ from
 distutils
 import
 dir_util
+import
+six
+from
+six
+.
+moves
+import
+range
 from
 .
 import
@@ -1128,6 +1138,15 @@ output
 [
 0
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
 .
 group
@@ -2031,6 +2050,15 @@ output
             
 return
 output
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
         
 finally
 :
@@ -2043,7 +2071,9 @@ isinstance
 adb_process
 .
 stdout_file
-file
+io
+.
+IOBase
 )
 :
                 
@@ -5466,10 +5496,9 @@ if
 isinstance
 (
 device
-(
-str
-unicode
-)
+six
+.
+string_types
 )
 :
             
@@ -6173,6 +6202,15 @@ file_obj
 read
 (
 1
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
             
 if
@@ -9509,11 +9547,7 @@ envstr
 .
 join
 (
-map
-(
-lambda
-x
-:
+[
 '
 export
 %
@@ -9523,7 +9557,7 @@ s
 s
 '
 %
-                                    
+                                
 (
 x
 [
@@ -9534,12 +9568,15 @@ x
 1
 ]
 )
+for
+x
+in
 env
 .
-iteritems
+items
 (
 )
-)
+]
 )
             
 cmd
@@ -9747,6 +9784,8 @@ else
             
 stdout2
 =
+io
+.
 open
 (
 adb_process
@@ -10575,6 +10614,15 @@ output
             
 return
 output
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
         
 finally
 :
@@ -10587,7 +10635,9 @@ isinstance
 adb_process
 .
 stdout_file
-file
+io
+.
+IOBase
 )
 :
                 
@@ -15198,10 +15248,13 @@ entry
         
 entry_list
 =
+list
+(
 entries
 .
 keys
 (
+)
 )
         
 entry_list
@@ -16417,6 +16470,8 @@ timeout
 )
             
 with
+io
+.
 open
 (
 tf
@@ -18348,7 +18403,9 @@ not
 isinstance
 (
 process_name
-basestring
+six
+.
+string_types
 )
 :
             
@@ -22388,7 +22445,7 @@ val
 in
 extras
 .
-iteritems
+items
 (
 )
 :
@@ -22784,13 +22841,10 @@ env_val
 )
 )
 in
-enumerate
-(
 moz_env
 .
-iteritems
+items
 (
-)
 )
 :
                 
@@ -23186,7 +23240,7 @@ enumerate
 (
 moz_env
 .
-iteritems
+items
 (
 )
 )
