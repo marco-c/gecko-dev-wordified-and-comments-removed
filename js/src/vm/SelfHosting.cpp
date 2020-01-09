@@ -11540,7 +11540,7 @@ JSObject
 *
 aobj
 =
-str_split_string
+StringSplitString
 (
 cx
 group
@@ -11701,7 +11701,7 @@ JSObject
 *
 aobj
 =
-str_split_string
+StringSplitString
 (
 cx
 group

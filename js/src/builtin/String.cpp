@@ -16792,7 +16792,7 @@ ArrayObject
 js
 :
 :
-str_split_string
+StringSplitString
 (
 JSContext
 *

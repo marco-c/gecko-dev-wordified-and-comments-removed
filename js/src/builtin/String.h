@@ -503,7 +503,7 @@ vp
 ;
 ArrayObject
 *
-str_split_string
+StringSplitString
 (
 JSContext
 *

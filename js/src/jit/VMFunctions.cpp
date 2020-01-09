@@ -2107,7 +2107,7 @@ JSObject
 *
 resultObj
 =
-str_split_string
+StringSplitString
 (
 cx
 group
