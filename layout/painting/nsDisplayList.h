@@ -23530,6 +23530,14 @@ aDisplayListBuilder
 override
 ;
 bool
+CanCreateWebRenderCommands
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+;
+bool
 CreateWebRenderCSSFilters
 (
 nsTArray
