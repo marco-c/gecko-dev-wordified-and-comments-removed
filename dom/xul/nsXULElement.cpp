@@ -3481,15 +3481,6 @@ nsGkAtoms
 :
 :
 label
-|
-|
-tag
-=
-=
-nsGkAtoms
-:
-:
-videocontrols
 "
 Unexpected
 XUL

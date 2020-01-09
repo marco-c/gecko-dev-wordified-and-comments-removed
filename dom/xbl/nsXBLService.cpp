@@ -2327,15 +2327,6 @@ tag
 nsGkAtoms
 :
 :
-videocontrols
-|
-|
-tag
-=
-=
-nsGkAtoms
-:
-:
 embed
 |
 |
