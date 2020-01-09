@@ -1966,6 +1966,8 @@ bug
 geckoview
 -
 junit
+-
+mochitest
 android
 -
 x86_64
@@ -1974,8 +1976,6 @@ tests
 :
 -
 jsreftest
--
-mochitest
 -
 mochitest
 -
