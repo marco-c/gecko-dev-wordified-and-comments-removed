@@ -179,6 +179,7 @@ JSObject
 aGivenProto
 )
 ;
+virtual
 nsresult
 SendControlMessage
 (

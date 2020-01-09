@@ -300,6 +300,16 @@ bool
 aPassThrough
 )
 ;
+void
+SendRunnable
+(
+already_AddRefed
+<
+nsIRunnable
+>
+aRunnable
+)
+;
 ChannelInterpretation
 GetChannelInterpretation
 (
