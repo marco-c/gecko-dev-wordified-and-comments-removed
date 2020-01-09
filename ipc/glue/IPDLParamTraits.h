@@ -970,10 +970,16 @@ WriteIPDLParam
 (
 aMsg
 aActor
+std
+:
+:
+move
+(
 aParam
 .
-ref
+value
 (
+)
 )
 )
 ;

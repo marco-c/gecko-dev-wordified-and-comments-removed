@@ -2603,8 +2603,11 @@ const
 uint32_t
 &
 aAction
-const
-OptionalShmem
+Maybe
+<
+Shmem
+>
+&
 &
 aVisualDnDData
 const

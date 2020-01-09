@@ -1201,15 +1201,6 @@ matchedList
 ;
 }
 ;
-union
-OptionalShmem
-{
-void_t
-;
-Shmem
-;
-}
-;
 nested
 (
 upto
@@ -3818,7 +3809,8 @@ IPCDataTransfer
 transfers
 uint32_t
 action
-OptionalShmem
+Shmem
+?
 visualData
 uint32_t
 stride
